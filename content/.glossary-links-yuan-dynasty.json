@@ -1,6 +1,18 @@
 {
   "1": [
     {
+      "term": "Persians",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_people",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
       "term": "Pearl River",
       "matchText": "Pearl River",
       "wikiSlug": "Pearl_River_(China)",
@@ -71,9 +83,393 @@
       "matchText": "Jingkang Incident",
       "wikiSlug": "Jingkang_incident",
       "type": "concept"
+    },
+    {
+      "term": "Guangdong",
+      "matchText": "Guangdong",
+      "wikiSlug": "Guangdong",
+      "type": "place"
+    },
+    {
+      "term": "South China Sea",
+      "matchText": "South China Sea",
+      "wikiSlug": "South_China_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Emperor Bing of Song",
+      "matchText": "Emperor Bing",
+      "wikiSlug": "Emperor_Bing_of_Song",
+      "type": "people"
+    },
+    {
+      "term": "Hong Kong",
+      "matchText": "Hong Kong",
+      "wikiSlug": "Hong_Kong",
+      "type": "place"
+    },
+    {
+      "term": "Zhang Hongfan",
+      "matchText": "Zhang Hongfan",
+      "wikiSlug": "Zhang_Hongfan",
+      "type": "people"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "wikiSlug": "Manchuria",
+      "type": "place"
+    },
+    {
+      "term": "Liao dynasty",
+      "matchText": "Khitan Liao",
+      "wikiSlug": "Liao_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Northern Song dynasty",
+      "matchText": "Northern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kaifeng",
+      "matchText": "Kaifeng",
+      "wikiSlug": "Kaifeng",
+      "type": "place"
+    },
+    {
+      "term": "Khitan people",
+      "matchText": "Khitan",
+      "wikiSlug": "Khitan_people",
+      "type": "people"
+    },
+    {
+      "term": "Batu Khan",
+      "matchText": "Batu",
+      "wikiSlug": "Batu_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Möngke Khan",
+      "matchText": "Möngke Khan",
+      "wikiSlug": "M%C3%B6ngke_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Ariq Böke",
+      "matchText": "Ariq Böke",
+      "wikiSlug": "Ariq_B%C3%B6ke",
+      "type": "people"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Horde",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai Khanate",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Huai River",
+      "matchText": "Huai River",
+      "wikiSlug": "Huai_River",
+      "type": "place"
+    },
+    {
+      "term": "Zhou dynasty",
+      "matchText": "Zhou",
+      "wikiSlug": "Zhou_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Han River",
+      "matchText": "Han River",
+      "wikiSlug": "Han_River_(Hubei)",
+      "type": "place"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Lü Wenhuan",
+      "matchText": "Lü Wenhuan",
+      "definition": "Song dynasty general who commanded the garrison at Xiangyang during the Mongol siege of 1267–1273. He held the city for six years through encirclement and bombardment, the longest single-point defense of the entire Song-Mongol war. His eventual surrender in 1273 opened the Yangtze corridor to the Mongol advance southward.",
+      "type": "people"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Emperor Gong of Song",
+      "matchText": "Emperor Gong",
+      "wikiSlug": "Emperor_Gong_of_Song",
+      "type": "people"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Zhao Bing",
+      "matchText": "Zhao Bing",
+      "wikiSlug": "Emperor_Bing_of_Song",
+      "type": "people"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Zhang Shijie",
+      "matchText": "Zhang Shijie",
+      "wikiSlug": "Zhang_Shijie",
+      "type": "people"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Cleopatra",
+      "matchText": "Cleopatra",
+      "wikiSlug": "Cleopatra",
+      "type": "people"
+    },
+    {
+      "term": "Acre",
+      "matchText": "Acre",
+      "wikiSlug": "Acre,_Israel",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid Caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Baghdad",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluks",
+      "wikiSlug": "Mamluk_Sultanate_(Cairo)",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Ain Jalut",
+      "matchText": "Ayn Jalut",
+      "wikiSlug": "Battle_of_Ain_Jalut",
+      "type": "event"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Renaissance",
+      "wikiSlug": "Italian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Dante Alighieri",
+      "matchText": "Dante",
+      "wikiSlug": "Dante_Alighieri",
+      "type": "people"
+    },
+    {
+      "term": "Sundiata Keita",
+      "matchText": "Sundiata Keita",
+      "wikiSlug": "Sundiata_Keita",
+      "type": "people"
+    },
+    {
+      "term": "Andes",
+      "matchText": "Andes",
+      "wikiSlug": "Andes",
+      "type": "place"
+    },
+    {
+      "term": "Chimu Kingdom",
+      "matchText": "Chimú",
+      "wikiSlug": "Chimor",
+      "type": "concept"
+    },
+    {
+      "term": "Chan Chan",
+      "matchText": "Chan Chan",
+      "wikiSlug": "Chan_Chan",
+      "type": "place"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlán",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
+    },
+    {
+      "term": "Hungary",
+      "matchText": "Hungary",
+      "wikiSlug": "Hungary",
+      "type": "place"
+    },
+    {
+      "term": "Huihui pao",
+      "matchText": "huihui pao",
+      "wikiSlug": "Counterweight_trebuchet",
+      "type": "concept"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song dynasty",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Qin dynasty",
+      "matchText": "Qin",
+      "wikiSlug": "Qin_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Xia dynasty",
+      "matchText": "Xia",
+      "wikiSlug": "Xia_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ala al-Din",
+      "matchText": "Ala al-Din",
+      "definition": "Persian military engineer from the Ilkhanate who, with his colleague Ismail, was hired by Kublai Khan in 1271 to design counterweight trebuchets for the siege of Xiangyang. Their machines, called huihui pao (\"Muslim machines\") in Chinese sources, threw projectiles of roughly 220 pounds over 200 yards and broke through walls that conventional Song-era siege engines could not crack.",
+      "type": "people"
+    },
+    {
+      "term": "Emperor Duanzong of Song",
+      "matchText": "Duanzong",
+      "wikiSlug": "Emperor_Duanzong_of_Song",
+      "type": "people"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusader era",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Lu Xiufu",
+      "matchText": "Lu Xiufu",
+      "wikiSlug": "Lu_Xiufu",
+      "type": "people"
+    },
+    {
+      "term": "Wen Tianxiang",
+      "matchText": "Wen Tianxiang",
+      "wikiSlug": "Wen_Tianxiang",
+      "type": "people"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Yamen",
+      "matchText": "Yamen",
+      "wikiSlug": "Battle_of_Yamen",
+      "type": "event"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "Persia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "2": [
+    {
+      "term": "Arabs",
+      "matchText": "Arabs",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
     {
       "term": "Beijing",
       "matchText": "Beijing",
@@ -153,7 +549,7 @@
       "type": "people"
     },
     {
-      "term": "Khitan",
+      "term": "Khitan people",
       "matchText": "Khitan",
       "wikiSlug": "Khitan_people",
       "type": "people"
@@ -172,7 +568,7 @@
     },
     {
       "term": "Liao dynasty",
-      "matchText": "Khitan Liao",
+      "matchText": "Khitan",
       "wikiSlug": "Liao_dynasty",
       "type": "concept"
     },
@@ -181,9 +577,351 @@
       "matchText": "Semu",
       "wikiSlug": "Semu",
       "type": "concept"
+    },
+    {
+      "term": "Lu Xiufu",
+      "matchText": "Lu Xiufu",
+      "wikiSlug": "Lu_Xiufu",
+      "type": "people"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Dadu",
+      "matchText": "Dadu",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Liu Bingzhong",
+      "matchText": "Liu Bingzhong",
+      "wikiSlug": "Liu_Bingzhong",
+      "type": "people"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Luoyang",
+      "matchText": "Luoyang",
+      "wikiSlug": "Luoyang",
+      "type": "place"
+    },
+    {
+      "term": "Kaifeng",
+      "matchText": "Kaifeng",
+      "wikiSlug": "Kaifeng",
+      "type": "place"
+    },
+    {
+      "term": "Northern Song dynasty",
+      "matchText": "Northern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Southern Song dynasty",
+      "matchText": "Southern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "Tonghui Canal",
+      "matchText": "Tonghui Canal",
+      "definition": "The northernmost sections of the extended Grand Canal, built by Kublai Khan's engineers between 1293 and 1293, connecting the existing canal system directly to the new capital Khanbaliq (Beijing). The construction required roughly 200,000 conscripted laborers and solved the grain-supply problem of feeding a capital city far from the Yangtze agricultural heartland.",
+      "type": "concept"
+    },
+    {
+      "term": "Tibetan Buddhism",
+      "matchText": "Tibetan",
+      "wikiSlug": "Tibetan_Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Nanjing",
+      "matchText": "Nanjing",
+      "wikiSlug": "Nanjing",
+      "type": "place"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "History_of_Iran",
+      "type": "place"
+    },
+    {
+      "term": "Han Chinese",
+      "matchText": "Han Chinese",
+      "wikiSlug": "Han_Chinese",
+      "type": "people"
+    },
+    {
+      "term": "Uyghurs",
+      "matchText": "Uyghurs",
+      "wikiSlug": "Uyghurs",
+      "type": "people"
+    },
+    {
+      "term": "Jurchen Jin dynasty",
+      "matchText": "Jurchen Jin",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)",
+      "type": "concept"
+    },
+    {
+      "term": "Red Turban Rebellion",
+      "matchText": "Red Turban",
+      "wikiSlug": "Red_Turban_Rebellion",
+      "type": "concept"
+    },
+    {
+      "term": "Zhu Yuanzhang",
+      "matchText": "Zhu Yuanzhang",
+      "wikiSlug": "Hongwu_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Quanzhou",
+      "matchText": "Quanzhou",
+      "wikiSlug": "Quanzhou",
+      "type": "place"
+    },
+    {
+      "term": "Renzong Emperor of Yuan",
+      "matchText": "Renzong",
+      "wikiSlug": "Emperor_Renzong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Romance of the Three Kingdoms",
+      "matchText": "Romance of the Three Kingdoms",
+      "wikiSlug": "Romance_of_the_Three_Kingdoms",
+      "type": "concept"
+    },
+    {
+      "term": "Water Margin",
+      "matchText": "Water Margin",
+      "wikiSlug": "Water_Margin",
+      "type": "concept"
+    },
+    {
+      "term": "Huang Gongwang",
+      "matchText": "Huang Gongwang",
+      "wikiSlug": "Huang_Gongwang",
+      "type": "people"
+    },
+    {
+      "term": "Four Yuan Masters",
+      "matchText": "Four Yuan Masters",
+      "wikiSlug": "Four_Masters_of_the_Yuan_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Zhao Mengfu",
+      "matchText": "Zhao Mengfu",
+      "wikiSlug": "Zhao_Mengfu",
+      "type": "people"
+    },
+    {
+      "term": "Tibet",
+      "matchText": "Tibet",
+      "wikiSlug": "Tibet",
+      "type": "place"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni Muslim",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Xiangyang",
+      "matchText": "Xiangyang",
+      "wikiSlug": "Xiangyang",
+      "type": "place"
+    },
+    {
+      "term": "Goryeo",
+      "matchText": "Goryeo",
+      "wikiSlug": "Goryeo",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Chabi",
+      "matchText": "Chabi",
+      "wikiSlug": "Chabi",
+      "type": "people"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Baghdad",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Anhui",
+      "matchText": "Anhui",
+      "wikiSlug": "Anhui",
+      "type": "place"
+    },
+    {
+      "term": "Zhenjin",
+      "matchText": "Zhenjin",
+      "wikiSlug": "Zhenjin",
+      "type": "people"
+    },
+    {
+      "term": "Chengzong Emperor of Yuan",
+      "matchText": "Chengzong",
+      "wikiSlug": "Emperor_Chengzong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Yunnan",
+      "matchText": "Yunnan",
+      "wikiSlug": "Yunnan",
+      "type": "place"
+    },
+    {
+      "term": "Inner Asia",
+      "matchText": "Inner Asia",
+      "wikiSlug": "Inner_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Ispah Rebellion",
+      "matchText": "Ispah Rebellion",
+      "wikiSlug": "Ispah_Rebellion",
+      "type": "event"
+    },
+    {
+      "term": "Jamal al-Din",
+      "matchText": "Jamal al-Din",
+      "wikiSlug": "Jamal_ad-Din_Bukhari",
+      "type": "people"
+    },
+    {
+      "term": "Ahmad Fanakati",
+      "matchText": "Ahmad Fanakati",
+      "wikiSlug": "Ahmad_Fanakati",
+      "type": "people"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Persian people",
+      "matchText": "Persians",
+      "wikiSlug": "Persian_people",
+      "type": "people"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Mongolian language",
+      "matchText": "Mongolian",
+      "wikiSlug": "Mongolian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Hangzhou",
+      "matchText": "Hangzhou",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
     }
   ],
   "3": [
+    {
+      "term": "Spanish Empire",
+      "matchText": "Spanish Empire",
+      "wikiSlug": "Spanish_Empire",
+      "type": "concept"
+    },
     {
       "term": "Kyushu",
       "matchText": "Kyushu",
@@ -192,7 +930,7 @@
     },
     {
       "term": "Kamakura shogunate",
-      "matchText": "Kamakura Japan",
+      "matchText": "Kamakura",
       "wikiSlug": "Kamakura_shogunate",
       "type": "concept"
     },
@@ -249,9 +987,219 @@
       "matchText": "Spanish Armada",
       "wikiSlug": "Spanish_Armada",
       "type": "concept"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "Yuan",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Song dynasty",
+      "matchText": "Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Dazaifu",
+      "matchText": "Dazaifu",
+      "wikiSlug": "Dazaifu,_Fukuoka",
+      "type": "place"
+    },
+    {
+      "term": "Honshu",
+      "matchText": "Honshu",
+      "wikiSlug": "Honshu",
+      "type": "place"
+    },
+    {
+      "term": "Han Chinese",
+      "matchText": "Han Chinese",
+      "wikiSlug": "Han_Chinese",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Ain Jalut",
+      "matchText": "Ayn Jalut",
+      "wikiSlug": "Battle_of_Ain_Jalut",
+      "type": "event"
+    },
+    {
+      "term": "Shinto",
+      "matchText": "Shinto",
+      "wikiSlug": "Shinto",
+      "type": "concept"
+    },
+    {
+      "term": "Amaterasu",
+      "matchText": "Amaterasu",
+      "wikiSlug": "Amaterasu",
+      "type": "concept"
+    },
+    {
+      "term": "Tsurugaoka Hachimangū",
+      "matchText": "Tsurugaoka Hachimangū",
+      "wikiSlug": "Tsurugaoka_Hachimangu",
+      "type": "place"
+    },
+    {
+      "term": "Trần Hưng Đạo",
+      "matchText": "Trần Hưng Đạo",
+      "wikiSlug": "Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o",
+      "type": "people"
+    },
+    {
+      "term": "Burma",
+      "matchText": "Burma",
+      "wikiSlug": "Myanmar",
+      "type": "place"
+    },
+    {
+      "term": "Pagan Kingdom",
+      "matchText": "Pagan",
+      "wikiSlug": "Pagan_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Singhasari",
+      "matchText": "Singhasari",
+      "wikiSlug": "Singhasari",
+      "type": "concept"
+    },
+    {
+      "term": "Raden Wijaya",
+      "matchText": "Raden Wijaya",
+      "wikiSlug": "Raden_Wijaya",
+      "type": "people"
+    },
+    {
+      "term": "Sea of Japan",
+      "matchText": "Sea of Japan",
+      "wikiSlug": "Sea_of_Japan",
+      "type": "place"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol Empire",
+      "wikiSlug": "Mongol_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Queen Elizabeth I",
+      "matchText": "Elizabeth",
+      "wikiSlug": "Elizabeth_I",
+      "type": "people"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluk Sultanate",
+      "wikiSlug": "Mamluk_Sultanate_(Cairo)",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol Ilkhanate",
+      "matchText": "Mongol Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "History_of_Iran",
+      "type": "place"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Iki Island",
+      "matchText": "Iki",
+      "wikiSlug": "Iki_Island",
+      "type": "place"
+    },
+    {
+      "term": "Hōjō regent",
+      "matchText": "Hōjō regent",
+      "wikiSlug": "H%C5%8Dj%C5%8D_clan",
+      "type": "people"
+    },
+    {
+      "term": "Baybars",
+      "matchText": "Baybars",
+      "wikiSlug": "Baybars",
+      "type": "people"
+    },
+    {
+      "term": "Edward I of England",
+      "matchText": "King Edward I",
+      "wikiSlug": "Edward_I_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Eighth Crusade",
+      "matchText": "Eighth Crusade",
+      "wikiSlug": "Eighth_Crusade",
+      "type": "event"
+    },
+    {
+      "term": "Italian maritime republics",
+      "matchText": "Italian maritime republics",
+      "wikiSlug": "Maritime_republics",
+      "type": "concept"
+    },
+    {
+      "term": "Allied Normandy landings",
+      "matchText": "Allied Normandy landings",
+      "wikiSlug": "Normandy_landings",
+      "type": "event"
+    },
+    {
+      "term": "Kamikaze",
+      "matchText": "kamikaze",
+      "wikiSlug": "Kamikaze",
+      "type": "concept"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "4": [
+    {
+      "term": "St. Peter's Basilica",
+      "matchText": "Saint Peter's",
+      "wikiSlug": "St._Peter%27s_Basilica",
+      "type": "place"
+    },
+    {
+      "term": "Dominican Order",
+      "matchText": "Dominican",
+      "wikiSlug": "Dominican_Order",
+      "type": "concept"
+    },
     {
       "term": "Venice",
       "matchText": "Venice",
@@ -341,9 +1289,435 @@
       "matchText": "Council of Lyon",
       "wikiSlug": "Second_Council_of_Lyon",
       "type": "concept"
+    },
+    {
+      "term": "Venetian Republic",
+      "matchText": "Venetian",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "place"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Niccolò Polo",
+      "matchText": "Niccolò Polo",
+      "wikiSlug": "Niccol%C3%B2_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Maffeo Polo",
+      "matchText": "Maffeo Polo",
+      "wikiSlug": "Maffeo_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Acre",
+      "matchText": "Acre",
+      "wikiSlug": "Acre,_Israel",
+      "type": "place"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "History_of_Iran",
+      "type": "place"
+    },
+    {
+      "term": "Pamir Mountains",
+      "matchText": "Pamir Mountains",
+      "wikiSlug": "Pamir_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "Yuan",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Yunnan",
+      "matchText": "Yunnan",
+      "wikiSlug": "Yunnan",
+      "type": "place"
+    },
+    {
+      "term": "Republic of Genoa",
+      "matchText": "Genoese",
+      "wikiSlug": "Republic_of_Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "Genoa",
+      "wikiSlug": "Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Latin Church",
+      "matchText": "Latin",
+      "wikiSlug": "Latin_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Seville",
+      "matchText": "Seville",
+      "wikiSlug": "Seville",
+      "type": "place"
+    },
+    {
+      "term": "Yangzhou",
+      "matchText": "Yangzhou",
+      "wikiSlug": "Yangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Frances Wood",
+      "matchText": "Frances Wood",
+      "wikiSlug": "Frances_Wood",
+      "type": "people"
+    },
+    {
+      "term": "Great Wall of China",
+      "matchText": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China",
+      "type": "place"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Persian people",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_people",
+      "type": "people"
+    },
+    {
+      "term": "Igor de Rachewiltz",
+      "matchText": "Igor de Rachewiltz",
+      "wikiSlug": "Igor_de_Rachewiltz",
+      "type": "people"
+    },
+    {
+      "term": "Ahmad Fanakati",
+      "matchText": "Ahmad Fanakati",
+      "wikiSlug": "Ahmad_Fanakati",
+      "type": "people"
+    },
+    {
+      "term": "Hangzhou",
+      "matchText": "Hangzhou",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Quanzhou",
+      "matchText": "Quanzhou",
+      "wikiSlug": "Quanzhou",
+      "type": "place"
+    },
+    {
+      "term": "Sumatra",
+      "matchText": "Sumatra",
+      "wikiSlug": "Sumatra",
+      "type": "place"
+    },
+    {
+      "term": "Caribbean",
+      "matchText": "Caribbean",
+      "wikiSlug": "Caribbean",
+      "type": "place"
+    },
+    {
+      "term": "Nestorian Christianity",
+      "matchText": "Nestorian Christian",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Palestine",
+      "matchText": "Palestine",
+      "wikiSlug": "Palestine_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Arghun Khan",
+      "matchText": "Ilkhan Arghun",
+      "wikiSlug": "Arghun",
+      "type": "people"
+    },
+    {
+      "term": "Hülegü Khan",
+      "matchText": "Hülegü",
+      "wikiSlug": "Hulagu_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Crusade",
+      "matchText": "Crusade",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Hormuz",
+      "matchText": "Hormuz",
+      "wikiSlug": "Hormuz_Island",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "wikiSlug": "Naples",
+      "type": "place"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "wikiSlug": "Paris",
+      "type": "place"
+    },
+    {
+      "term": "Nestorian",
+      "matchText": "Nestorian",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "Baghdad",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Syriac language",
+      "matchText": "Syriac",
+      "wikiSlug": "Syriac_language",
+      "type": "concept"
+    },
+    {
+      "term": "Temür Öljeitü",
+      "matchText": "Temür Öljeitü",
+      "wikiSlug": "Emperor_Chengzong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Odoric of Pordenone",
+      "matchText": "Odoric of Pordenone",
+      "wikiSlug": "Odoric_of_Pordenone",
+      "type": "people"
+    },
+    {
+      "term": "Andrew of Perugia",
+      "matchText": "Andrew of Perugia",
+      "wikiSlug": "Andrew_of_Perugia",
+      "type": "people"
+    },
+    {
+      "term": "Pascal of Vittoria",
+      "matchText": "Pascal of Vittoria",
+      "definition": "Franciscan friar who served as a Catholic bishop in Central Asia and China in the mid-fourteenth century, one of several Catholic missionaries who followed John of Montecorvino's establishment of the archbishopric of Beijing. He wrote a letter from Almalic (in modern Kazakhstan) in 1338 describing the Mongol-era Catholic mission in Asia.",
+      "type": "people"
+    },
+    {
+      "term": "Jesuits",
+      "matchText": "Jesuit",
+      "wikiSlug": "Society_of_Jesus",
+      "type": "concept"
+    },
+    {
+      "term": "Matteo Ricci",
+      "matchText": "Matteo Ricci",
+      "wikiSlug": "Matteo_Ricci",
+      "type": "people"
+    },
+    {
+      "term": "Vatican",
+      "matchText": "Vatican",
+      "wikiSlug": "Vatican_City",
+      "type": "place"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Güyük Khan",
+      "matchText": "Güyük",
+      "wikiSlug": "G%C3%BCy%C3%BCk_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Möngke Khan",
+      "matchText": "Möngke",
+      "wikiSlug": "M%C3%B6ngke_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Council of Vienne",
+      "matchText": "Council of Vienne",
+      "wikiSlug": "Council_of_Vienne",
+      "type": "concept"
+    },
+    {
+      "term": "Crimea",
+      "matchText": "Crimea",
+      "wikiSlug": "Crimea",
+      "type": "place"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    },
+    {
+      "term": "Sicilian Vespers",
+      "matchText": "Sicilian Vespers",
+      "wikiSlug": "Sicilian_Vespers",
+      "type": "event"
+    },
+    {
+      "term": "Habsburg dynasty",
+      "matchText": "Habsburg",
+      "wikiSlug": "House_of_Habsburg",
+      "type": "people"
+    },
+    {
+      "term": "Italian Renaissance",
+      "matchText": "Italian Renaissance",
+      "wikiSlug": "Italian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Dante Alighieri",
+      "matchText": "Dante",
+      "wikiSlug": "Dante_Alighieri",
+      "type": "people"
+    },
+    {
+      "term": "Macau",
+      "matchText": "Macau",
+      "wikiSlug": "Macau",
+      "type": "place"
+    },
+    {
+      "term": "Önggüd",
+      "matchText": "Önggüd",
+      "wikiSlug": "%C3%96ng%C3%BCt",
+      "type": "people"
+    },
+    {
+      "term": "Philip IV of France",
+      "matchText": "King Philip IV",
+      "wikiSlug": "Philip_IV_of_France",
+      "type": "people"
+    },
+    {
+      "term": "John of Montecorvino",
+      "matchText": "John of Montecorvino",
+      "wikiSlug": "John_of_Montecorvino",
+      "type": "people"
+    },
+    {
+      "term": "Rabban Sauma",
+      "matchText": "Rabban Sauma",
+      "wikiSlug": "Rabban_Sauma",
+      "type": "people"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Giovanni de Marignolli",
+      "matchText": "Giovanni de' Marignolli",
+      "wikiSlug": "Giovanni_de%27_Marignolli",
+      "type": "people"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Mongolian language",
+      "matchText": "Mongolian",
+      "wikiSlug": "Mongolian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Quinsai",
+      "matchText": "Quinsai",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Burma",
+      "matchText": "Burma",
+      "wikiSlug": "Pagan_Kingdom",
+      "type": "place"
     }
   ],
   "5": [
+    {
+      "term": "Persians",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_people",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
     {
       "term": "Zaju",
       "matchText": "zaju",
@@ -427,9 +1801,357 @@
       "matchText": "The Injustice to Dou E",
       "wikiSlug": "The_Injustice_to_Dou_E",
       "type": "concept"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Kaifeng",
+      "matchText": "Kaifeng",
+      "wikiSlug": "Kaifeng",
+      "type": "place"
+    },
+    {
+      "term": "Hangzhou",
+      "matchText": "Hangzhou",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Northern Song dynasty",
+      "matchText": "Northern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Cantonese opera",
+      "matchText": "Cantonese",
+      "wikiSlug": "Cantonese_opera",
+      "type": "concept"
+    },
+    {
+      "term": "Wang Shifu",
+      "matchText": "Wang Shifu",
+      "wikiSlug": "Wang_Shifu",
+      "type": "people"
+    },
+    {
+      "term": "Bai Pu",
+      "matchText": "Bai Pu",
+      "wikiSlug": "Bai_Pu",
+      "type": "people"
+    },
+    {
+      "term": "Ma Zhiyuan",
+      "matchText": "Ma Zhiyuan",
+      "wikiSlug": "Ma_Zhiyuan",
+      "type": "people"
+    },
+    {
+      "term": "Ji Junxiang",
+      "matchText": "Ji Junxiang",
+      "wikiSlug": "Ji_Junxiang",
+      "type": "people"
+    },
+    {
+      "term": "Orphan of Zhao",
+      "matchText": "Orphan of Zhao",
+      "wikiSlug": "The_Orphan_of_Zhao",
+      "type": "concept"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Journey to the West",
+      "matchText": "Journey",
+      "wikiSlug": "Journey_to_the_West",
+      "type": "concept"
+    },
+    {
+      "term": "Dream of the Red Chamber",
+      "matchText": "Dream of the Red Chamber",
+      "wikiSlug": "Dream_of_the_Red_Chamber",
+      "type": "concept"
+    },
+    {
+      "term": "Cao Cao",
+      "matchText": "Cao Cao",
+      "wikiSlug": "Cao_Cao",
+      "type": "people"
+    },
+    {
+      "term": "Sun Quan",
+      "matchText": "Sun Quan",
+      "wikiSlug": "Sun_Quan",
+      "type": "people"
+    },
+    {
+      "term": "Luo Guanzhong",
+      "matchText": "Luo Guanzhong",
+      "wikiSlug": "Luo_Guanzhong",
+      "type": "people"
+    },
+    {
+      "term": "Liangshan Marsh",
+      "matchText": "Liangshan Marsh",
+      "wikiSlug": "Liangshan_Marsh",
+      "type": "place"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "Shi Naian",
+      "matchText": "Shi Nai'an",
+      "wikiSlug": "Shi_Nai%27an",
+      "type": "people"
+    },
+    {
+      "term": "Zhao Kuangyin",
+      "matchText": "Zhao Kuangyin",
+      "wikiSlug": "Emperor_Taizu_of_Song",
+      "type": "people"
+    },
+    {
+      "term": "Yan Zhenqing",
+      "matchText": "Yan Zhenqing",
+      "wikiSlug": "Yan_Zhenqing",
+      "type": "people"
+    },
+    {
+      "term": "Su Shi",
+      "matchText": "Su Shi",
+      "wikiSlug": "Su_Shi",
+      "type": "people"
+    },
+    {
+      "term": "Huang Gongwang",
+      "matchText": "Huang Gongwang",
+      "wikiSlug": "Huang_Gongwang",
+      "type": "people"
+    },
+    {
+      "term": "Wu Zhen",
+      "matchText": "Wu Zhen",
+      "wikiSlug": "Wu_Zhen_(painter)",
+      "type": "people"
+    },
+    {
+      "term": "Wang Meng",
+      "matchText": "Wang Meng",
+      "wikiSlug": "Wang_Meng_(painter)",
+      "type": "people"
+    },
+    {
+      "term": "Red Turban Rebellion",
+      "matchText": "Red Turban",
+      "wikiSlug": "Red_Turban_Rebellion",
+      "type": "concept"
+    },
+    {
+      "term": "Communist Party of China",
+      "matchText": "Communist Party",
+      "wikiSlug": "Chinese_Communist_Party",
+      "type": "concept"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Renzong Emperor of Yuan",
+      "matchText": "Renzong",
+      "wikiSlug": "Emperor_Renzong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Tibetan Buddhism",
+      "matchText": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Sa Du Ci",
+      "matchText": "Sa Du Ci",
+      "definition": "Mongol-era poet (c. 1272–1340) who wrote in classical Chinese despite his Inner Asian Mongolian background — one of the rare Yuan-period writers who bridged the Mongol and Han literary traditions. His ci poetry (a song-lyric form with prescribed tonal patterns) was highly regarded by later Chinese critics as evidence that Yuan culture produced genuine Chinese literary achievements across ethnic lines.",
+      "type": "people"
+    },
+    {
+      "term": "Rabban Sauma",
+      "matchText": "Rabban Sauma",
+      "wikiSlug": "Rabban_Sauma",
+      "type": "people"
+    },
+    {
+      "term": "Divine Comedy",
+      "matchText": "Divine Comedy",
+      "wikiSlug": "Divine_Comedy",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman Empire",
+      "matchText": "Ottoman Empire",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Osman I",
+      "matchText": "Osman",
+      "wikiSlug": "Osman_I",
+      "type": "people"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Mali Empire",
+      "matchText": "Mali Empire",
+      "wikiSlug": "Mali_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mansa Musa",
+      "matchText": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa",
+      "type": "people"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Delhi Sultanate",
+      "matchText": "Delhi Sultanate",
+      "wikiSlug": "Delhi_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Kamakura shogunate",
+      "matchText": "Kamakura",
+      "wikiSlug": "Kamakura_shogunate",
+      "type": "concept"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Gong Kai",
+      "matchText": "Gong Kai",
+      "wikiSlug": "Gong_Kai",
+      "type": "people"
+    },
+    {
+      "term": "Guan Hanqing",
+      "matchText": "Guan Hanqing",
+      "wikiSlug": "Guan_Hanqing",
+      "type": "people"
+    },
+    {
+      "term": "Zhao Mengfu",
+      "matchText": "Zhao Mengfu",
+      "wikiSlug": "Zhao_Mengfu",
+      "type": "people"
+    },
+    {
+      "term": "Song loyalist",
+      "matchText": "Song loyalist",
+      "definition": "Han Chinese scholar-officials and educated men who refused to serve the Yuan dynasty after the Song fell in 1279 — the yimin (literally \"leftover people\") who maintained loyalty to the defunct dynasty as a form of Confucian integrity. Many redirected their cultural energies into painting, calligraphy, and writing rather than government service, making the yimin tradition a major driver of Yuan-era literati art.",
+      "type": "concept"
+    },
+    {
+      "term": "Medieval India",
+      "matchText": "Medieval India",
+      "wikiSlug": "History_of_India",
+      "type": "concept"
+    },
+    {
+      "term": "Ashikaga shogunate",
+      "matchText": "Ashikaga Japan",
+      "wikiSlug": "Ashikaga_shogunate",
+      "type": "concept"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Mongolian language",
+      "matchText": "Mongolian",
+      "wikiSlug": "Mongolian_language",
+      "type": "concept"
     }
   ],
   "6": [
+    {
+      "term": "Armenians",
+      "matchText": "Armenian",
+      "wikiSlug": "Armenian_people",
+      "type": "people"
+    },
+    {
+      "term": "Republic of Venice",
+      "matchText": "Venetian",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "place"
+    },
     {
       "term": "Yersinia pestis",
       "matchText": "Yersinia pestis",
@@ -501,9 +2223,429 @@
       "matchText": "Genoese",
       "wikiSlug": "Republic_of_Genoa",
       "type": "place"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
+    },
+    {
+      "term": "Inner Asia",
+      "matchText": "Inner Asia",
+      "wikiSlug": "Inner_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Persian people",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_people",
+      "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Yuan dynasty",
+      "matchText": "Yuan",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Grand Canal (China)",
+      "matchText": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)",
+      "type": "place"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Arabic language",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Zayton",
+      "matchText": "Zayton",
+      "wikiSlug": "Quanzhou",
+      "type": "place"
+    },
+    {
+      "term": "South China Sea",
+      "matchText": "South China Sea",
+      "wikiSlug": "South_China_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Southern Song dynasty",
+      "matchText": "Southern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "place"
+    },
+    {
+      "term": "Arab people",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Tamil people",
+      "matchText": "Tamil",
+      "wikiSlug": "Tamil_people",
+      "type": "people"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Manichaeism",
+      "matchText": "Manichaean",
+      "wikiSlug": "Manichaeism",
+      "type": "concept"
+    },
+    {
+      "term": "John of Montecorvino",
+      "matchText": "John of Montecorvino",
+      "wikiSlug": "John_of_Montecorvino",
+      "type": "people"
+    },
+    {
+      "term": "Nestorian Christianity",
+      "matchText": "Nestorian Christian",
+      "wikiSlug": "Church_of_the_East",
+      "type": "concept"
+    },
+    {
+      "term": "Syriac language",
+      "matchText": "Syriac",
+      "wikiSlug": "Syriac_language",
+      "type": "concept"
+    },
+    {
+      "term": "Latin Church",
+      "matchText": "Latin",
+      "wikiSlug": "Latin_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Tabriz",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Tangier",
+      "matchText": "Tangier",
+      "wikiSlug": "Tangier",
+      "type": "place"
+    },
+    {
+      "term": "Morocco",
+      "matchText": "Morocco",
+      "wikiSlug": "Morocco",
+      "type": "place"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Maldives",
+      "matchText": "Maldives",
+      "wikiSlug": "Maldives",
+      "type": "place"
+    },
+    {
+      "term": "Sumatra",
+      "matchText": "Sumatra",
+      "wikiSlug": "Sumatra",
+      "type": "place"
+    },
+    {
+      "term": "Rihla",
+      "matchText": "Rihla",
+      "wikiSlug": "Rihla",
+      "type": "concept"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Northern Song dynasty",
+      "matchText": "Northern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Sichuan",
+      "matchText": "Sichuan",
+      "wikiSlug": "Sichuan",
+      "type": "place"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kashan",
+      "matchText": "Kashan",
+      "wikiSlug": "Kashan",
+      "type": "place"
+    },
+    {
+      "term": "Indian Ocean",
+      "matchText": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean",
+      "type": "place"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "History_of_Iran",
+      "type": "place"
+    },
+    {
+      "term": "Mali Empire",
+      "matchText": "Mali",
+      "wikiSlug": "Mali_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman Empire",
+      "matchText": "Ottoman",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "Genoa",
+      "wikiSlug": "Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Compendium of Chronicles",
+      "matchText": "Compendium of Chronicles",
+      "wikiSlug": "Compendium_of_Chronicles",
+      "type": "concept"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai Khanate",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Mali Empire",
+      "matchText": "Mali Empire",
+      "wikiSlug": "Mali_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mansa Musa",
+      "matchText": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa",
+      "type": "people"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Capetian dynasty",
+      "matchText": "Capetian",
+      "wikiSlug": "Capetian_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Hundred Years' War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "concept"
+    },
+    {
+      "term": "Avignon Papacy",
+      "matchText": "Avignon Papacy",
+      "wikiSlug": "Avignon_Papacy",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol caravan network",
+      "matchText": "Mongol caravan network",
+      "definition": "The integrated postal-and-trade road system maintained across the Mongol khanates from the 1250s to the 1340s — relay stations stocked with horses and lodging every 25–30 miles, trade passports (paiza) that gave authorized merchants imperial protection, and caravan routes linking China to Persia to the Black Sea. This network made possible the large-scale movement of silk, porcelain, astronomical knowledge, and — inadvertently — the Yersinia pestis bacterium that caused the Black Death.",
+      "type": "concept"
+    },
+    {
+      "term": "Bureau of Mathematics",
+      "matchText": "Bureau of Mathematics",
+      "definition": "Kublai Khan's imperial bureau charged with astronomy, calendar reform, and mathematical sciences. It was staffed by both Chinese astronomers (notably Guo Shoujing) and Persian and Arab specialists (notably Jamal al-Din from the Maragha observatory), and produced the Shoushi calendar of 1281 — the most accurate astronomical calendar of the medieval world, calculating the tropical year at 365.2425 days, the same figure the Gregorian calendar would adopt three centuries later.",
+      "type": "concept"
+    },
+    {
+      "term": "Maragha observatory",
+      "matchText": "Maragha observatory",
+      "wikiSlug": "Maragheh_observatory",
+      "type": "place"
+    },
+    {
+      "term": "Shoushi calendar",
+      "matchText": "Shoushi calendar",
+      "definition": "The Yuan dynasty astronomical calendar compiled by the Chinese astronomer Guo Shoujing in 1281, incorporating both Chinese and Islamic astronomical methods. It calculated the solar year at 365.2425 days — identical to the Gregorian calendar introduced in Europe three centuries later — and remained the official Chinese calendar for 363 years until the Qing dynasty replaced it.",
+      "type": "concept"
+    },
+    {
+      "term": "Chinese herbal pharmacology",
+      "matchText": "Chinese herbal pharmacology",
+      "definition": "The tradition of medicinal plant knowledge systematized in texts like the Bencao Gangmu (Compendium of Materia Medica). Under the Yuan, Chinese pharmacological knowledge was compiled alongside Persian and Arab medical texts in the Huihui Yaofang (Muslim Pharmaceutical Formulas), a 36-volume synthesis prepared for the imperial library that remains one of the great cross-cultural medical texts of the pre-modern era.",
+      "type": "concept"
+    },
+    {
+      "term": "Gabriele de Mussi",
+      "matchText": "Gabriele de' Mussi",
+      "wikiSlug": "Gabriele_de%27_Mussi",
+      "type": "people"
+    },
+    {
+      "term": "Ibn Battuta",
+      "matchText": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta",
+      "type": "people"
+    },
+    {
+      "term": "Guo Shoujing",
+      "matchText": "Guo Shoujing",
+      "wikiSlug": "Guo_Shoujing",
+      "type": "people"
+    },
+    {
+      "term": "Jamal al-Din",
+      "matchText": "Jamal al-Din",
+      "wikiSlug": "Jamal_ad-Din_Bukhari",
+      "type": "people"
+    },
+    {
+      "term": "Quanzhou",
+      "matchText": "Quanzhou",
+      "wikiSlug": "Quanzhou",
+      "type": "place"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    },
+    {
+      "term": "Italian early Renaissance",
+      "matchText": "Italian early Renaissance",
+      "wikiSlug": "Italian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Capetian dynasty",
+      "matchText": "Capetian dynasty",
+      "wikiSlug": "Capetian_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Medieval India",
+      "matchText": "Medieval India",
+      "wikiSlug": "History_of_India",
+      "type": "concept"
+    },
+    {
+      "term": "Zaiton",
+      "matchText": "Zaiton",
+      "wikiSlug": "Quanzhou",
+      "type": "place"
     }
   ],
   "7": [
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
     {
       "term": "Kurultai",
       "matchText": "kurultai",
@@ -575,9 +2717,249 @@
       "matchText": "hyperinflation",
       "wikiSlug": "Hyperinflation",
       "type": "concept"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Henan",
+      "matchText": "Henan",
+      "wikiSlug": "Henan",
+      "type": "place"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "Gautama_Buddha",
+      "type": "people"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Khanbaliq",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Kublai",
+      "matchText": "Kublai",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Zhenjin",
+      "matchText": "Zhenjin",
+      "wikiSlug": "Zhenjin",
+      "type": "people"
+    },
+    {
+      "term": "Temür Öljeitü",
+      "matchText": "Temür Öljeitü",
+      "wikiSlug": "Emperor_Chengzong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Chengzong Emperor of Yuan",
+      "matchText": "Chengzong",
+      "wikiSlug": "Emperor_Chengzong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Yassa",
+      "matchText": "Yassa",
+      "wikiSlug": "Yassa",
+      "type": "concept"
+    },
+    {
+      "term": "Toluid Civil War",
+      "matchText": "Toluid Civil War",
+      "wikiSlug": "Toluid_Civil_War",
+      "type": "concept"
+    },
+    {
+      "term": "Shangdu",
+      "matchText": "Shangdu",
+      "wikiSlug": "Shangdu",
+      "type": "place"
+    },
+    {
+      "term": "Toghon Temür",
+      "matchText": "Toghon Temür",
+      "wikiSlug": "Emperor_Huizong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "Grand Canal (China)",
+      "matchText": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)",
+      "type": "place"
+    },
+    {
+      "term": "Tang dynasty",
+      "matchText": "Tang",
+      "wikiSlug": "Tang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Northern Wei dynasty",
+      "matchText": "Northern Wei",
+      "wikiSlug": "Northern_Wei",
+      "type": "concept"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Zhu Yuanzhang",
+      "matchText": "Zhu Yuanzhang",
+      "wikiSlug": "Hongwu_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Daoism",
+      "matchText": "Daoist",
+      "wikiSlug": "Taoism",
+      "type": "concept"
+    },
+    {
+      "term": "Taiping Rebellion",
+      "matchText": "Taiping",
+      "wikiSlug": "Taiping_Heavenly_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Anhui",
+      "matchText": "Anhui",
+      "wikiSlug": "Anhui",
+      "type": "place"
+    },
+    {
+      "term": "Han Shantong",
+      "matchText": "Han Shantong",
+      "wikiSlug": "Han_Shantong",
+      "type": "people"
+    },
+    {
+      "term": "Northern Song dynasty",
+      "matchText": "Northern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Liu Futong",
+      "matchText": "Liu Futong",
+      "wikiSlug": "Liu_Futong",
+      "type": "people"
+    },
+    {
+      "term": "Xu Shouhui",
+      "matchText": "Xu Shouhui",
+      "wikiSlug": "Xu_Shouhui",
+      "type": "people"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Semu",
+      "matchText": "Semu",
+      "wikiSlug": "Semu",
+      "type": "concept"
+    },
+    {
+      "term": "Ahmad Fanakati",
+      "matchText": "Ahmad Fanakati",
+      "wikiSlug": "Ahmad_Fanakati",
+      "type": "people"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "Black Death",
+      "wikiSlug": "Black_Death",
+      "type": "concept"
+    },
+    {
+      "term": "Great Famine (1315–1317)",
+      "matchText": "Great Famine",
+      "wikiSlug": "Great_Famine_of_1315%E2%80%931317",
+      "type": "event"
+    },
+    {
+      "term": "Peasants' Revolt",
+      "matchText": "Peasants' Revolt",
+      "wikiSlug": "Peasants%27_Revolt",
+      "type": "event"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Red Turban movement",
+      "matchText": "Red Turban movement",
+      "wikiSlug": "Red_Turban_Rebellion",
+      "type": "concept"
+    },
+    {
+      "term": "White Lotus Society",
+      "matchText": "White Lotus Society",
+      "wikiSlug": "White_Lotus_Societies",
+      "type": "concept"
+    },
+    {
+      "term": "Jiaochao",
+      "matchText": "jiaochao",
+      "definition": "The Yuan dynasty's paper currency, issued empire-wide beginning with Kublai's Zhongtong notes in 1260 and expanded under the Zhiyuan reform of 1287. Backed at issue by silver and silk reserves and declared the sole legal tender for major transactions, jiaochao was the most extensive fiat currency system in pre-modern history. Chronic over-issuance from the 1310s onward eroded its value; by the 1340s the notes traded at deep discounts and by the 1350s they were effectively worthless in rural markets, destroying the dynasty's fiscal capacity precisely when it most needed funds to suppress rebellion.",
+      "type": "concept"
+    },
+    {
+      "term": "China's Sorrow (Yellow River)",
+      "matchText": "China's Sorrow",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "8": [
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
     {
       "term": "Anhui",
       "matchText": "Anhui",
@@ -679,6 +3061,408 @@
       "matchText": "paiza",
       "wikiSlug": "Paiza",
       "type": "concept"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Mongols",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Red Turban Rebellion",
+      "matchText": "Red Turban",
+      "wikiSlug": "Red_Turban_Rebellion",
+      "type": "concept"
+    },
+    {
+      "term": "Henan",
+      "matchText": "Henan",
+      "wikiSlug": "Henan",
+      "type": "place"
+    },
+    {
+      "term": "Hubei",
+      "matchText": "Hubei",
+      "wikiSlug": "Hubei",
+      "type": "place"
+    },
+    {
+      "term": "Guo Zixing",
+      "matchText": "Guo Zixing",
+      "wikiSlug": "Guo_Zixing",
+      "type": "people"
+    },
+    {
+      "term": "Yangtze River",
+      "matchText": "Yangtze",
+      "wikiSlug": "Yangtze_River",
+      "type": "place"
+    },
+    {
+      "term": "Han Lin'er",
+      "matchText": "Han Lin'er",
+      "wikiSlug": "Han_Lin%27er",
+      "type": "people"
+    },
+    {
+      "term": "Northern Song dynasty",
+      "matchText": "Northern Song",
+      "wikiSlug": "Song_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Maitreya",
+      "matchText": "Maitreya",
+      "wikiSlug": "Maitreya",
+      "type": "concept"
+    },
+    {
+      "term": "Five Elements",
+      "matchText": "Five Elements",
+      "wikiSlug": "Wuxing_(Chinese_philosophy)",
+      "type": "concept"
+    },
+    {
+      "term": "Mandate of Heaven",
+      "matchText": "Mandate of Heaven",
+      "wikiSlug": "Mandate_of_Heaven",
+      "type": "concept"
+    },
+    {
+      "term": "Xu Da",
+      "matchText": "Xu Da",
+      "wikiSlug": "Xu_Da",
+      "type": "people"
+    },
+    {
+      "term": "Shandong",
+      "matchText": "Shandong",
+      "wikiSlug": "Shandong",
+      "type": "place"
+    },
+    {
+      "term": "Toghon Temür (Shundi)",
+      "matchText": "Shundi",
+      "wikiSlug": "Emperor_Huizong_of_Yuan",
+      "type": "people"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Yingchang",
+      "matchText": "Yingchang",
+      "wikiSlug": "Yingchang",
+      "type": "place"
+    },
+    {
+      "term": "Inner Mongolia",
+      "matchText": "Inner Mongolia",
+      "wikiSlug": "Inner_Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Yongle Emperor",
+      "matchText": "Yongle Emperor",
+      "wikiSlug": "Yongle_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Forbidden City",
+      "matchText": "Forbidden City",
+      "wikiSlug": "Forbidden_City",
+      "type": "place"
+    },
+    {
+      "term": "Kublai Khan",
+      "matchText": "Kublai",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Tibetan Buddhism",
+      "matchText": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Yunnan",
+      "matchText": "Yunnan",
+      "wikiSlug": "Yunnan",
+      "type": "place"
+    },
+    {
+      "term": "Sichuan",
+      "matchText": "Sichuan",
+      "wikiSlug": "Sichuan",
+      "type": "place"
+    },
+    {
+      "term": "Zhao Mengfu",
+      "matchText": "Zhao Mengfu",
+      "wikiSlug": "Zhao_Mengfu",
+      "type": "people"
+    },
+    {
+      "term": "Water Margin",
+      "matchText": "Water Margin",
+      "wikiSlug": "Water_Margin",
+      "type": "concept"
+    },
+    {
+      "term": "Four Yuan Masters",
+      "matchText": "Four Yuan Masters'",
+      "wikiSlug": "Four_Masters_of_the_Yuan_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Tibet",
+      "matchText": "Tibet",
+      "wikiSlug": "Tibet",
+      "type": "place"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "wikiSlug": "Manchuria",
+      "type": "place"
+    },
+    {
+      "term": "People's Republic of China",
+      "matchText": "People's Republic",
+      "wikiSlug": "China",
+      "type": "concept"
+    },
+    {
+      "term": "Xinjiang",
+      "matchText": "Xinjiang",
+      "wikiSlug": "Xinjiang",
+      "type": "place"
+    },
+    {
+      "term": "Taiwan",
+      "matchText": "Taiwan",
+      "wikiSlug": "Taiwan",
+      "type": "place"
+    },
+    {
+      "term": "Grand Canal (China)",
+      "matchText": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)",
+      "type": "place"
+    },
+    {
+      "term": "Northern Wei dynasty",
+      "matchText": "Northern Wei",
+      "wikiSlug": "Northern_Wei",
+      "type": "concept"
+    },
+    {
+      "term": "Liao dynasty",
+      "matchText": "Khitan Liao",
+      "wikiSlug": "Liao_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Jurchen Jin dynasty",
+      "matchText": "Jurchen Jin",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)",
+      "type": "concept"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Chagatai Khanate",
+      "matchText": "Chagatai Khanate",
+      "wikiSlug": "Chagatai_Khanate",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Horde",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol Empire",
+      "wikiSlug": "Mongol_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Yamen",
+      "matchText": "Yamen",
+      "wikiSlug": "Chinese_administrative_divisions",
+      "type": "concept"
+    },
+    {
+      "term": "Hundred Years' War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "concept"
+    },
+    {
+      "term": "Brittany",
+      "matchText": "Brittany",
+      "wikiSlug": "Brittany",
+      "type": "place"
+    },
+    {
+      "term": "Ottoman Empire",
+      "matchText": "Ottoman Empire",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Ottoman rule",
+      "matchText": "Ottoman",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Adrianople",
+      "matchText": "Adrianople",
+      "wikiSlug": "Edirne",
+      "type": "place"
+    },
+    {
+      "term": "Avignon Papacy",
+      "matchText": "Avignon Papacy",
+      "wikiSlug": "Avignon_Papacy",
+      "type": "concept"
+    },
+    {
+      "term": "Western Schism",
+      "matchText": "Great Schism",
+      "wikiSlug": "Western_Schism",
+      "type": "concept"
+    },
+    {
+      "term": "Hanseatic League",
+      "matchText": "Hanseatic League",
+      "wikiSlug": "Hanseatic_League",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Ming China",
+      "matchText": "Ming China",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Jalayirids",
+      "matchText": "Jalayirids",
+      "wikiSlug": "Jalayirids",
+      "type": "concept"
+    },
+    {
+      "term": "Muzaffarids",
+      "matchText": "Muzaffarids",
+      "wikiSlug": "Muzaffarids",
+      "type": "concept"
+    },
+    {
+      "term": "Hu Weiyong purge",
+      "matchText": "Hu Weiyong purge",
+      "wikiSlug": "Hu_Weiyong",
+      "type": "event"
+    },
+    {
+      "term": "Lan Yu purge",
+      "matchText": "Lan Yu purge",
+      "wikiSlug": "Lan_Yu",
+      "type": "event"
+    },
+    {
+      "term": "Treasure Voyages",
+      "matchText": "Treasure Voyages",
+      "wikiSlug": "Ming_treasure_voyages",
+      "type": "concept"
+    },
+    {
+      "term": "Zheng He",
+      "matchText": "Zheng He",
+      "wikiSlug": "Zheng_He",
+      "type": "people"
+    },
+    {
+      "term": "Huangjue Temple",
+      "matchText": "Huangjue Temple",
+      "definition": "A small rural Buddhist monastery in Fengyang county, Anhui province, where the orphaned Zhu Yuanzhang took refuge after his family died in the famine of 1344. He became a novice monk there before being sent out to beg — the itinerant years that gave him his familiarity with the suffering of the Yuan peasantry and contact with White Lotus millenarian networks. The temple was later renamed Longxing Monastery and honored by the Ming court as the starting point of the dynasty's founding emperor.",
+      "type": "place"
+    },
+    {
+      "term": "Zhu Yuanzhang",
+      "matchText": "Zhu Yuanzhang",
+      "wikiSlug": "Hongwu_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Mongol people",
+      "matchText": "Mongols",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Mongolian language",
+      "matchText": "Mongolian",
+      "wikiSlug": "Mongolian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Liu Bingzhong",
+      "matchText": "Liu Bingzhong",
+      "wikiSlug": "Liu_Bingzhong",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ]
 }
