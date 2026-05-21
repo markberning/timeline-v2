@@ -495,17 +495,38 @@ sibling-commit cross-reference drift — uyghur ~6, byzantine 8, islamic
 Bounded + expected; the end-of-program `--corpus` convergence pass
 mops all of it at once. NOT a defect, do not panic-revert.
 
-**▶ NEXT SESSION START HERE (in order):**
-1. ottoman-empire: re-run the CORRECTED waiver audit on the rejected
-   attempt's files if still in its worktree; if genuinely defective
-   (likely — agent self-admitted Süleyman as (a)), redo with the
-   hardened+tightened brief. One civ.
-2. Legacy sweep Batch 2: next 5 worst from
-   `audits/link-coverage-ledger.md` after the 6 done (skip
-   ottoman/the 6) — same hardened brief, ≤5 worktree agents, the
-   coordinator protocol with the CORRECTED waiver audit.
-3. Continue worst-first batches to corpus end, then the convergence
-   pass (re-run `--corpus`; mop residual drift to global 0).
+**ottoman-empire ✅ CLOSED 2026-05-21 (`671894d`, pushed).** The
+parked civ is done. Finding: the `a00501` worktree held a *corrected*
+attempt (Süleyman linked as `Süleyman I`, Janissaries fully linked —
+NOT the rejected over-waive), authored 17:31 on 05-18 but never merged.
+Salvaged it rather than redoing: it had only 13 residual `⟨dict⟩`
+corpus-drift gaps, closed born-verified (12 glossary links + 1 own-name
+waiver "Ottomans" ch12). coverage --strict 0/0 · lint-links 0 ERROR ·
+fix-links 689/692 (3 pre-existing) · CORRECTED waiver audit clean.
+**Phase 1 + Batch 1 + ottoman = 7 civs swept.**
+
+**Observed (not a blocker, pre-existing & corpus-wide):** ~37 ottoman
+glossary/event links don't render because the term appears only inside
+`**bold**` (house first-use style) and the matcher won't underline
+bold. Coverage gate passes anyway (it checks the JSON, not the rendered
+output). Legacy event links do the same. `repair-links.ts` R-TRIM
+"fixes" MANGLE non-ASCII names (`Şehzade Mosque`→`ehzade Mosque`) — do
+NOT apply it. This is contention/repair backlog territory, not the
+sweep's job. Same bar as the 6 prior committed civs.
+
+**Repo note:** 8 LOCKED agent worktrees from 05-18 are still on disk in
+`.claude/worktrees/` (STATUS previously claimed "single worktree" —
+that was wrong). All on old commits; ottoman content extracted from
+a00501. Clean them before/at Batch 2 launch (verify no other-civ
+uncommitted work first).
+
+**▶ NEXT: Legacy sweep Batch 2** — next 5 worst from the ledger after
+the 7 done: **mughal-empire (525), umayyad-caliphate (500),
+medieval-india (480), yuan-dynasty (452), timurid-empire (422)**. Same
+hardened brief, ≤5 worktree agents, coordinator protocol with the
+CORRECTED waiver audit. These are from-scratch ~480-gap sweeps (NOT a
+cheap finish like ottoman). Then continue worst-first, then the
+`--corpus` convergence pass.
 **Batch 2 NOT launched. No new agents running. Clean stop.**
 
 ## Commands
