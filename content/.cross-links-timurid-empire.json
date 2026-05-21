@@ -103,6 +103,12 @@
       "targetTl": "mali-empire",
       "targetChapter": 5,
       "blurb": "Mali under Mansa Musa's successors was in its late-medieval prosperity, Timbuktu a scholarly capital, while Timur sacked Persia's cultural cities."
+    },
+    {
+      "matchText": "the Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "The Ottoman Empire Timur was about to confront in 1402 had spent the fourteenth century expanding from a small Anatolian principality into the dominant Muslim power in the Balkans and Anatolia — exactly the trajectory that Timur's campaign would briefly interrupt."
     }
   ],
   "3": [
@@ -281,6 +287,12 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 4,
       "blurb": "Ulugh Beg's scientific Samarkand was contemporary with the young Mehmed II, who would take Constantinople in 1453 — the Timurid renaissance and the Ottoman climax running side by side."
+    },
+    {
+      "matchText": "Song Chinese emperors",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "The Tang and Song Chinese courts had long patronized court astronomers who tracked celestial events for calendar and omen purposes — a parallel tradition to the Islamic astronomical work that Ulugh Beg was advancing at Samarkand. The Song court's astronomical bureau produced star catalogs and calendar calculations, though never at the precision Ulugh Beg achieved."
     }
   ],
   "8": [
@@ -297,7 +309,7 @@
       "blurb": "The Battle of Merv in December 1510, where Shah Ismail I killed the Uzbek leader Muhammad Shaybani and had his skull encased in gold and made into a drinking cup, was the moment when the new Safavid state directly displaced the dying Timurid order in eastern Iran. The Safavid capture of the political space that the Uzbek conquest of Herat in 1507 had opened up is the direct hinge between the Timurid and Safavid worlds."
     },
     {
-      "matchText": "Bihzad",
+      "matchText": "Bihzad migrated",
       "targetTl": "safavid-persia",
       "targetChapter": 3,
       "blurb": "Bihzad's emigration from Herat to the Safavid court at Tabriz around 1510 carried the late Timurid Herat painting tradition directly into the founding generation of Safavid book art. As director of Shah Ismail's royal library and a working master with apprentices, Bihzad trained the painters who would produce the great Safavid manuscripts of the 1520s and 1530s — including the Shahnameh of Shah Tahmasp, the most ambitious illustrated manuscript in Iranian history."
@@ -337,6 +349,12 @@
       "targetTl": "mongol-empire",
       "targetChapter": 2,
       "blurb": "Timur ruled as son-in-law to a puppet Chinggisid khan, never claiming the khan title himself — the long shadow of Chinggis Khan's charisma still law on the steppe a century and a half later."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "The Mesoamerican empire conquered by Hernán Cortés in 1519–21 — exactly contemporary with the dying Timurid state and the founding of Mughal India."
     }
   ]
 }

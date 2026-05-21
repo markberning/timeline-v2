@@ -233,6 +233,312 @@
       "matchText": "Seljuk Turks",
       "wikiSlug": "Seljuk_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Timur (Tamerlane)",
+      "matchText": "Tamerlane",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Persianate culture",
+      "matchText": "Persianate world",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Khorasan",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Hungary",
+      "matchText": "Hungary",
+      "wikiSlug": "Hungary",
+      "type": "place"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Aral Sea",
+      "matchText": "Aral Sea",
+      "wikiSlug": "Aral_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Tarim Basin",
+      "matchText": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin",
+      "type": "place"
+    },
+    {
+      "term": "Uzbekistan",
+      "matchText": "Uzbekistan",
+      "wikiSlug": "Uzbekistan",
+      "type": "place"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Xinjiang",
+      "matchText": "Xinjiang",
+      "wikiSlug": "Xinjiang",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Jalayir tribe",
+      "matchText": "Jalayir",
+      "wikiSlug": "Jalayirids",
+      "type": "people"
+    },
+    {
+      "term": "Suldus tribe",
+      "matchText": "Suldus",
+      "wikiSlug": "Suldus",
+      "type": "people"
+    },
+    {
+      "term": "Timurid dynasty",
+      "matchText": "Timurids",
+      "wikiSlug": "Timurid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Zafarnama",
+      "matchText": "Zafarnama",
+      "type": "concept",
+      "definition": "The Zafarnama (\"Book of Victory\"), the official Timurid history of Timur's campaigns, compiled in 1424 by the court historian Sharaf al-Din Ali Yazdi. It is the primary Persian-language source for Timur's career, written under Timurid patronage and deliberately propagandistic in framing."
+    },
+    {
+      "term": "Genghisid dynasty",
+      "matchText": "Genghisid",
+      "wikiSlug": "Genghis_Khan",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Latin language",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Gur-e-Amir mausoleum",
+      "matchText": "Gur-e-Amir",
+      "wikiSlug": "Gur-e-Amir",
+      "type": "place"
+    },
+    {
+      "term": "Soviet Union",
+      "matchText": "Soviet Union",
+      "wikiSlug": "Soviet_Union",
+      "type": "concept"
+    },
+    {
+      "term": "Husayn Bayqara",
+      "matchText": "Husayn Bayqara",
+      "wikiSlug": "Husayn_Bayqara",
+      "type": "people"
+    },
+    {
+      "term": "Afghanistan",
+      "matchText": "Afghanistan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Genghisid princes",
+      "matchText": "Genghisids",
+      "wikiSlug": "Genghis_Khan",
+      "type": "concept"
+    },
+    {
+      "term": "Sultan Mahmud (Chagatai puppet)",
+      "matchText": "Sultan Mahmud",
+      "type": "people",
+      "definition": "Sultan Mahmud (ruled nominally 1388–1402), the second of Timur's Chagatai puppet khans. He held no real power — Timur governed as his chief military officer — but his name appeared on coins and in official decrees to provide the Genghisid legitimacy Timur lacked."
+    },
+    {
+      "term": "Arabic language",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Shah Rukh (Timurid ruler)",
+      "matchText": "Shah Rukh",
+      "wikiSlug": "Shahrukh_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Mughal Empire (overview)",
+      "matchText": "Mughal",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Uzbeks",
+      "matchText": "Uzbeks",
+      "wikiSlug": "Uzbeks",
+      "type": "people"
+    },
+    {
+      "term": "Herat",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Abbasid Caliphate",
+      "matchText": "Abbasid caliphate",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Mansa Musa",
+      "matchText": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa",
+      "type": "people"
+    },
+    {
+      "term": "Vijayanagara Empire",
+      "matchText": "Vijayanagara Empire",
+      "wikiSlug": "Vijayanagara_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mexico (Aztec context)",
+      "matchText": "Mexico",
+      "wikiSlug": "Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Delhi",
+      "matchText": "Delhi",
+      "wikiSlug": "Delhi",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia (ch1)",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Persian people (ch1)",
+      "matchText": "Persian-speaking",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Timur",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian (adj ch1)",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Amir Taraghai",
+      "matchText": "Taraghai",
+      "wikiSlug": "Taraghai",
+      "type": "people"
+    },
+    {
+      "term": "Tegina Begim",
+      "matchText": "Tegina Begim",
+      "type": "people",
+      "definition": "Timur's mother, a noblewoman of the Barlas clan of Transoxiana. Little is recorded about her beyond her name and lineage; like most women of the fourteenth-century steppe aristocracy she appears only at the edges of the chronicle record."
+    },
+    {
+      "term": "Arlat clan",
+      "matchText": "Arlat",
+      "type": "people",
+      "definition": "One of the Turco-Mongol tribal clans of the Chagatai confederation in Transoxiana, alongside the Barlas, Jalayir, and Suldus. The Arlat held grazing land and tribal followers and competed with rival emirs for control of the rich farmland around Samarkand."
+    },
+    {
+      "term": "Kesh (Shahrisabz)",
+      "matchText": "Kesh",
+      "wikiSlug": "Shahrisabz",
+      "type": "place"
+    },
+    {
+      "term": "Suyurghatmish",
+      "matchText": "Suyurghatmish",
+      "wikiSlug": "Suyurghatmish",
+      "type": "people"
+    },
+    {
+      "term": "Khaqan (Great Khan)",
+      "matchText": "Khaqan",
+      "wikiSlug": "Khaqan",
+      "type": "concept"
+    },
+    {
+      "term": "Amir-i Kabir",
+      "matchText": "Amir-i Kabir",
+      "type": "concept",
+      "definition": "\"Great commander\" — an Arabic-derived military title (literally amir, \"commander,\" plus kabir, \"great\"). Timur adopted it precisely because, unlike Khan, it carried no requirement of Genghisid descent, so he could use it legitimately while never claiming the royal title itself."
+    },
+    {
+      "term": "Sahib-Qiran",
+      "matchText": "Sahib-Qiran",
+      "type": "concept",
+      "definition": "\"Lord of the Auspicious Conjunction\" — an honorific Timur's court historians applied to him, referring to a favorable astrological alignment of planets said to have occurred at his birth and read as a sign that he was destined to be a world-conqueror."
+    },
+    {
+      "term": "Tuzukat-i Timuri",
+      "matchText": "Tuzukat-i Timuri",
+      "type": "concept",
+      "definition": "The \"Memoirs of Timur,\" a first-person autobiography purporting to be dictated by Timur himself. Modern scholars regard it as a sixteenth-century forgery rather than a genuine source, though it shaped the later legend of the conqueror."
+    },
+    {
+      "term": "Guregen",
+      "matchText": "Guregen",
+      "type": "concept",
+      "definition": "\"Royal son-in-law\" — a Mongol honorific for a man who married a princess of the Genghisid line. It was the closest a non-Genghisid like Timur could come to royal legitimacy, and he used it on his coins and documents. The later Mughals turned it into their dynastic name, Gurkani."
+    },
+    {
+      "term": "Balkh",
+      "matchText": "Balkh",
+      "wikiSlug": "Balkh",
+      "type": "place"
+    },
+    {
+      "term": "Moghul (ch1)",
+      "matchText": "Moghul",
+      "wikiSlug": "Moghulistan",
+      "type": "place"
     }
   ],
   "2": [
@@ -403,6 +709,228 @@
       "matchText": "Shah Rukh",
       "wikiSlug": "Shah_Rukh",
       "type": "people"
+    },
+    {
+      "term": "Transoxiana",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Chagatai people",
+      "matchText": "Chagatai",
+      "wikiSlug": "Chagatai_people",
+      "type": "people"
+    },
+    {
+      "term": "Barlas tribe (ch2)",
+      "matchText": "Barlas",
+      "wikiSlug": "Barlas",
+      "type": "people"
+    },
+    {
+      "term": "Delhi",
+      "matchText": "Delhi",
+      "wikiSlug": "Delhi",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Chaldiran",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "event"
+    },
+    {
+      "term": "Babur",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Panipat (1526)",
+      "matchText": "Panipat",
+      "wikiSlug": "First_Battle_of_Panipat",
+      "type": "event"
+    },
+    {
+      "term": "Samarkand",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Renaissance (concept)",
+      "matchText": "Renaissance",
+      "wikiSlug": "Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Jami",
+      "matchText": "Jami",
+      "wikiSlug": "Jami",
+      "type": "people"
+    },
+    {
+      "term": "Mughals",
+      "matchText": "Mughals",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Umar Shaykh (Timurid prince)",
+      "matchText": "Umar Shaykh",
+      "wikiSlug": "Umar_Shaikh_Mirza_I",
+      "type": "people"
+    },
+    {
+      "term": "Fars Province",
+      "matchText": "Fars",
+      "wikiSlug": "Fars_Province",
+      "type": "place"
+    },
+    {
+      "term": "Pir Muhammad ibn Jahangir",
+      "matchText": "Pir Muhammad",
+      "wikiSlug": "Pir_Muhammad_ibn_Jahangir",
+      "type": "people"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Volga River",
+      "matchText": "Volga",
+      "wikiSlug": "Volga_River",
+      "type": "place"
+    },
+    {
+      "term": "Safavid Empire",
+      "matchText": "Safavid Empire",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Persia",
+      "matchText": "Persia",
+      "wikiSlug": "Iran",
+      "type": "place"
+    },
+    {
+      "term": "Hongwu Emperor",
+      "matchText": "Hongwu Emperor",
+      "wikiSlug": "Hongwu_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Valley of Mexico",
+      "matchText": "Valley of Mexico",
+      "wikiSlug": "Valley_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Western Schism",
+      "matchText": "Catholic Schism",
+      "wikiSlug": "Western_Schism",
+      "type": "concept"
+    },
+    {
+      "term": "Avignon Papacy",
+      "matchText": "Avignon",
+      "wikiSlug": "Avignon_papacy",
+      "type": "place"
+    },
+    {
+      "term": "Jalayir (ch2)",
+      "matchText": "Jalayir",
+      "wikiSlug": "Jalayirids",
+      "type": "people"
+    },
+    {
+      "term": "Suldus (ch2)",
+      "matchText": "Suldus",
+      "wikiSlug": "Suldus",
+      "type": "people"
+    },
+    {
+      "term": "Mongols (ch2)",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Iranian people (ch2)",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian (ch2)",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia (ch2)",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Persian (ch2)",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Ilkhanate (ch2)",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Afghanistan (ch2)",
+      "matchText": "Afghanistan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
+    },
+    {
+      "term": "Moghulistan (ch2)",
+      "matchText": "Moghulistan",
+      "wikiSlug": "Moghulistan",
+      "type": "place"
+    },
+    {
+      "term": "Timur (ch2)",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Bibi-Khanym Mosque (ch2)",
+      "matchText": "Bibi-Khanym Mosque",
+      "wikiSlug": "Bibi-Khanym_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Herat (ch2)",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Golden Horde (ch2)",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Khorasan (ch2)",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
     }
   ],
   "3": [
@@ -473,12 +1001,6 @@
       "type": "concept"
     },
     {
-      "term": "Bayt al-Hikma",
-      "matchText": "Bayt al-Hikma",
-      "wikiSlug": "House_of_Wisdom",
-      "type": "concept"
-    },
-    {
       "term": "Ibn Sina (Avicenna)",
       "matchText": "Ibn Sina",
       "wikiSlug": "Avicenna",
@@ -503,12 +1025,6 @@
       "type": "concept"
     },
     {
-      "term": "Ashoka",
-      "matchText": "Ashoka",
-      "wikiSlug": "Ashoka",
-      "type": "people"
-    },
-    {
       "term": "Caucasus",
       "matchText": "Caucasus",
       "wikiSlug": "Caucasus",
@@ -521,10 +1037,232 @@
       "type": "concept"
     },
     {
-      "term": "Isfahan",
-      "matchText": "Isfahan massacre of 1387",
-      "wikiSlug": "Isfahan",
+      "term": "Iranians (people)",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Ilkhanid dynasty",
+      "matchText": "Ilkhanid",
+      "wikiSlug": "Ilkhanate",
       "type": "concept"
+    },
+    {
+      "term": "Sunni Islam",
+      "matchText": "Sunni",
+      "wikiSlug": "Sunni_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Sabzevar (ch3)",
+      "matchText": "Sabzevar",
+      "wikiSlug": "Sabzevar",
+      "type": "place"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "Caspian",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Persian Gulf",
+      "matchText": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf",
+      "type": "place"
+    },
+    {
+      "term": "Persia (ch3)",
+      "matchText": "Persia",
+      "wikiSlug": "Iran",
+      "type": "place"
+    },
+    {
+      "term": "Transoxiana (ch3)",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Herat (ch3)",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Gilan Province",
+      "matchText": "Gilan",
+      "wikiSlug": "Gilan_Province",
+      "type": "place"
+    },
+    {
+      "term": "Mongols",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Ahmad ibn Uways (Jalayirid)",
+      "matchText": "Sultan Ahmad",
+      "wikiSlug": "Ahmad_Jalayir",
+      "type": "people"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Chagatai (ch3)",
+      "matchText": "Chagatai",
+      "wikiSlug": "Chagatai_people",
+      "type": "people"
+    },
+    {
+      "term": "Genghisid (ch3)",
+      "matchText": "Genghisid",
+      "wikiSlug": "Genghis_Khan",
+      "type": "concept"
+    },
+    {
+      "term": "Tokhtamysh (ch3)",
+      "matchText": "Tokhtamysh",
+      "wikiSlug": "Tokhtamysh",
+      "type": "people"
+    },
+    {
+      "term": "Ottoman (ch3)",
+      "matchText": "Ottoman",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Damascus (ch3)",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "place"
+    },
+    {
+      "term": "Ulugh Beg (ch3)",
+      "matchText": "Ulugh Beg",
+      "wikiSlug": "Ulugh_Beg",
+      "type": "people"
+    },
+    {
+      "term": "Kamal al-Din Bihzad (ch3)",
+      "matchText": "Bihzad",
+      "wikiSlug": "Behzad",
+      "type": "people"
+    },
+    {
+      "term": "Italian Renaissance (ch3)",
+      "matchText": "Italian Renaissance",
+      "wikiSlug": "Italian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Ming Dynasty (ch3)",
+      "matchText": "Ming Dynasty",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Emirate of Granada",
+      "matchText": "Granada",
+      "wikiSlug": "Emirate_of_Granada",
+      "type": "place"
+    },
+    {
+      "term": "Mexico (ch3)",
+      "matchText": "Mexico",
+      "wikiSlug": "Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Safavid (ch3)",
+      "matchText": "Safavid",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Delhi (ch3)",
+      "matchText": "Delhi",
+      "wikiSlug": "Delhi",
+      "type": "place"
+    },
+    {
+      "term": "Eurasian (ch3)",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia (ch3)",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Persianate culture (ch3)",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Shah Rukh (ch3)",
+      "matchText": "Shah Rukh",
+      "wikiSlug": "Shahrukh_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Chobanids",
+      "matchText": "Chobanids",
+      "wikiSlug": "Chobanids",
+      "type": "people"
+    },
+    {
+      "term": "Injuids",
+      "matchText": "Injuids",
+      "wikiSlug": "Injuids",
+      "type": "people"
+    },
+    {
+      "term": "Polish–Lithuanian union",
+      "matchText": "Lithuanian-Polish union",
+      "wikiSlug": "Polish%E2%80%93Lithuanian_union",
+      "type": "event"
+    },
+    {
+      "term": "Samarkand (ch3)",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Golden Horde (ch3)",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia (ch3)",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
     }
   ],
   "4": [
@@ -593,12 +1331,6 @@
       "matchText": "Mehmed II",
       "wikiSlug": "Mehmed_II",
       "type": "people"
-    },
-    {
-      "term": "Battle of Nicopolis",
-      "matchText": "Battle of Nicopolis",
-      "wikiSlug": "Battle_of_Nicopolis",
-      "type": "event"
     },
     {
       "term": "Constantinople",
@@ -676,6 +1408,318 @@
       "term": "Zafarnama (Yazdi)",
       "matchText": "Yazdi's Zafarnama",
       "wikiSlug": "Zafarnama_(Yazdi_biography)",
+      "type": "concept"
+    },
+    {
+      "term": "Christopher Marlowe (ch4)",
+      "matchText": "Christopher Marlowe",
+      "wikiSlug": "Christopher_Marlowe",
+      "type": "people"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Ganges River",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Sultan (title)",
+      "matchText": "Sultan",
+      "wikiSlug": "Sultan",
+      "type": "concept"
+    },
+    {
+      "term": "Baghdad (ch4)",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamia (ch4)",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Umayyad Mosque",
+      "matchText": "Great Mosque of Damascus",
+      "wikiSlug": "Umayyad_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia (ch4)",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Serbia",
+      "matchText": "Serbian",
+      "wikiSlug": "Serbia",
+      "type": "place"
+    },
+    {
+      "term": "Janissaries (ch4)",
+      "matchText": "Janissaries",
+      "wikiSlug": "Janissaries",
+      "type": "concept"
+    },
+    {
+      "term": "Tamburlaine the Great (play)",
+      "matchText": "Tamburlaine the Great",
+      "wikiSlug": "Tamburlaine_the_Great",
+      "type": "concept"
+    },
+    {
+      "term": "Murad II",
+      "matchText": "Murad II",
+      "wikiSlug": "Murad_II",
+      "type": "people"
+    },
+    {
+      "term": "Venice (ch4)",
+      "matchText": "Venice",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Babai revolt",
+      "matchText": "Babai",
+      "wikiSlug": "Babai_revolt",
+      "type": "concept"
+    },
+    {
+      "term": "Safavid dynasty (ch4)",
+      "matchText": "Safavids",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Safaviyya order",
+      "matchText": "Safaviyya",
+      "wikiSlug": "Safaviyya",
+      "type": "concept"
+    },
+    {
+      "term": "Ardabil",
+      "matchText": "Ardabil",
+      "wikiSlug": "Ardabil",
+      "type": "place"
+    },
+    {
+      "term": "Ming dynasty (ch4)",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Aztec Triple Alliance (ch4)",
+      "matchText": "Aztec Triple Alliance",
+      "wikiSlug": "Aztec_Triple_Alliance",
+      "type": "concept"
+    },
+    {
+      "term": "Hundred Years War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "event"
+    },
+    {
+      "term": "Vijayanagara Empire (ch4)",
+      "matchText": "Vijayanagara Empire",
+      "wikiSlug": "Vijayanagara_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ismail I (Safavid ch4)",
+      "matchText": "Ismail I",
+      "wikiSlug": "Ismail_I",
+      "type": "people"
+    },
+    {
+      "term": "Mongols (ch4)",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian (ch4)",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia (ch4)",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Persian (ch4)",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Bibi-Khanym Mosque (ch4)",
+      "matchText": "Bibi-Khanym Mosque",
+      "wikiSlug": "Bibi-Khanym_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Arabic language (ch4)",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia (plain ch4)",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Italian Renaissance (ch4)",
+      "matchText": "Italian Renaissance",
+      "wikiSlug": "Italian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Chaldiran (ch4)",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "event"
+    },
+    {
+      "term": "Golden Horde (ch4)",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Valley of Mexico (ch4)",
+      "matchText": "Valley of Mexico",
+      "wikiSlug": "Valley_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Nasir-ud-Din Mahmud Tughlaq",
+      "matchText": "Nasir-ud-Din Mahmud Tughlaq",
+      "wikiSlug": "Nasir-ud-Din_Mahmud_Shah_Tughluq",
+      "type": "people"
+    },
+    {
+      "term": "Musa Çelebi",
+      "matchText": "Musa Çelebi",
+      "wikiSlug": "Musa_%C3%87elebi",
+      "type": "people"
+    },
+    {
+      "term": "Süleyman Çelebi",
+      "matchText": "Süleyman Çelebi",
+      "wikiSlug": "S%C3%BCleyman_%C3%87elebi",
+      "type": "people"
+    },
+    {
+      "term": "İsa Çelebi",
+      "matchText": "İsa Çelebi",
+      "wikiSlug": "%C4%B0sa_%C3%87elebi",
+      "type": "people"
+    },
+    {
+      "term": "Mehmed Çelebi",
+      "matchText": "Mehmed Çelebi",
+      "wikiSlug": "Mehmed_I",
+      "type": "people"
+    },
+    {
+      "term": "Bukka Raya I",
+      "matchText": "Bukka I",
+      "wikiSlug": "Bukka_Raya_I",
+      "type": "people"
+    },
+    {
+      "term": "Henry IV of England",
+      "matchText": "Henry IV",
+      "wikiSlug": "Henry_IV_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Charles VI of France",
+      "matchText": "Charles VI",
+      "wikiSlug": "Charles_VI_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Taejong of Joseon",
+      "matchText": "Taejong",
+      "wikiSlug": "Taejong_of_Joseon",
+      "type": "people"
+    },
+    {
+      "term": "Aleppo",
+      "matchText": "Aleppo",
+      "wikiSlug": "Aleppo",
+      "type": "place"
+    },
+    {
+      "term": "Pir Muhammad (ch4)",
+      "matchText": "Pir Muhammad",
+      "wikiSlug": "Pir_Muhammad_ibn_Jahangir",
+      "type": "people"
+    },
+    {
+      "term": "First Battle of Panipat (ch4)",
+      "matchText": "Panipat",
+      "wikiSlug": "First_Battle_of_Panipat",
+      "type": "event"
+    },
+    {
+      "term": "Timur (ch4)",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Samarkand (ch4)",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Babur (ch4)",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "Genghis Khan (ch4)",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Mughal (ch4)",
+      "matchText": "Mughal",
+      "wikiSlug": "Mughal_Empire",
       "type": "concept"
     }
   ],
@@ -759,12 +1803,6 @@
       "type": "people"
     },
     {
-      "term": "Aq Qoyunlu",
-      "matchText": "Aq Qoyunlu",
-      "wikiSlug": "Aq_Qoyunlu",
-      "type": "concept"
-    },
-    {
       "term": "Kara Qoyunlu",
       "matchText": "Kara Qoyunlu",
       "wikiSlug": "Kara_Koyunlu",
@@ -789,16 +1827,274 @@
       "type": "people"
     },
     {
-      "term": "Sasanian Empire",
-      "matchText": "Sasanian Empire",
-      "wikiSlug": "Sasanian_Empire",
-      "type": "concept"
-    },
-    {
       "term": "Western Schism",
       "matchText": "Catholic Schism",
       "wikiSlug": "Western_Schism",
       "type": "concept"
+    },
+    {
+      "term": "Gansu Province",
+      "matchText": "Gansu",
+      "wikiSlug": "Gansu",
+      "type": "place"
+    },
+    {
+      "term": "Yunnan Province",
+      "matchText": "Yunnan",
+      "wikiSlug": "Yunnan",
+      "type": "place"
+    },
+    {
+      "term": "Yuan dynasty (ch5)",
+      "matchText": "Yuan",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Tashkent",
+      "matchText": "Tashkent",
+      "wikiSlug": "Tashkent",
+      "type": "place"
+    },
+    {
+      "term": "Kazakhstan",
+      "matchText": "Kazakhstan",
+      "wikiSlug": "Kazakhstan",
+      "type": "place"
+    },
+    {
+      "term": "Agra",
+      "matchText": "Agra",
+      "wikiSlug": "Agra",
+      "type": "place"
+    },
+    {
+      "term": "Shah Jahan",
+      "matchText": "Shah Jahan",
+      "wikiSlug": "Shah_Jahan",
+      "type": "people"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Tehran (ch5)",
+      "matchText": "Tehran",
+      "wikiSlug": "Tehran",
+      "type": "place"
+    },
+    {
+      "term": "Azerbaijan",
+      "matchText": "Azerbaijan",
+      "wikiSlug": "Azerbaijan",
+      "type": "place"
+    },
+    {
+      "term": "Jahangir (ch5)",
+      "matchText": "Jahangir",
+      "wikiSlug": "Jahangir",
+      "type": "people"
+    },
+    {
+      "term": "Samanid Empire (ch5)",
+      "matchText": "Samanid",
+      "wikiSlug": "Samanid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman Empire (ch5)",
+      "matchText": "Ottoman Empire",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Bohemia (ch5)",
+      "matchText": "Bohemia",
+      "wikiSlug": "Bohemia",
+      "type": "place"
+    },
+    {
+      "term": "Joseon dynasty (ch5)",
+      "matchText": "Joseon dynasty",
+      "wikiSlug": "Joseon_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Mughal (ch5)",
+      "matchText": "Mughal",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Persian (ch5)",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Mongols (ch5)",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Persianate culture (ch5)",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Fars Province (ch5)",
+      "matchText": "Fars",
+      "wikiSlug": "Fars_Province",
+      "type": "place"
+    },
+    {
+      "term": "Muhammad Sultan Mirza",
+      "matchText": "Muhammad Sultan",
+      "wikiSlug": "Muhammad_Sultan_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Shad al-Mulk",
+      "matchText": "Shad al-Mulk",
+      "definition": "A Persian wife of Khalil Sultan (Timur's grandson), on whom he lavished the imperial treasury after seizing Samarkand in 1405. The chroniclers blame her and her relatives for the extravagance that alienated the senior Timurid emirs and helped wreck Khalil Sultan's rule.",
+      "type": "people"
+    },
+    {
+      "term": "Mikhail Gerasimov (ch5)",
+      "matchText": "Mikhail Gerasimov",
+      "wikiSlug": "Mikhail_Gerasimov_(archaeologist)",
+      "type": "people"
+    },
+    {
+      "term": "Tian Shan",
+      "matchText": "Tian Shan",
+      "wikiSlug": "Tian_Shan",
+      "type": "place"
+    },
+    {
+      "term": "Tarim Basin",
+      "matchText": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin",
+      "type": "place"
+    },
+    {
+      "term": "Silk Road",
+      "matchText": "Silk Road",
+      "wikiSlug": "Silk_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Syr Darya",
+      "matchText": "Syr Darya",
+      "wikiSlug": "Syr_Darya",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamia (ch5)",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus (ch5)",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Kublai Khan (ch5)",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Ghazan Khan (ch5)",
+      "matchText": "Ghazan Khan",
+      "wikiSlug": "Ghazan",
+      "type": "people"
+    },
+    {
+      "term": "Mehmed I (ch5)",
+      "matchText": "Mehmed I",
+      "wikiSlug": "Mehmed_I",
+      "type": "people"
+    },
+    {
+      "term": "Samarkand (ch5)",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Khorasan (ch5)",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Transoxiana (ch5)",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Damascus (ch5)",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "place"
+    },
+    {
+      "term": "Herat (ch5)",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia (ch5)",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Ulugh Beg (ch5)",
+      "matchText": "Ulugh Beg",
+      "wikiSlug": "Ulugh_Beg",
+      "type": "people"
+    },
+    {
+      "term": "Ilkhanate (ch5)",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Golden Horde (ch5)",
+      "matchText": "Golden Horde",
+      "wikiSlug": "Golden_Horde",
+      "type": "concept"
+    },
+    {
+      "term": "Uzbeks (ch5)",
+      "matchText": "Uzbeks",
+      "wikiSlug": "Uzbeks",
+      "type": "concept"
+    },
+    {
+      "term": "Genghis Khan (ch5)",
+      "matchText": "Genghis Khan",
+      "wikiSlug": "Genghis_Khan",
+      "type": "people"
     }
   ],
   "6": [
@@ -957,6 +2253,396 @@
       "matchText": "Vijayanagara Empire",
       "wikiSlug": "Vijayanagara_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Leonardo da Vinci",
+      "matchText": "the early Leonardo",
+      "wikiSlug": "Leonardo_da_Vinci",
+      "type": "people"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venetian painting",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Safavid Persia (ch6)",
+      "matchText": "Safavid",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Turco-Mongol tradition",
+      "matchText": "Mongol-Turkic",
+      "wikiSlug": "Turco-Mongol_tradition",
+      "type": "concept"
+    },
+    {
+      "term": "Kart dynasty (ch6)",
+      "matchText": "Karts",
+      "wikiSlug": "Kartids",
+      "type": "concept"
+    },
+    {
+      "term": "Seljuk Empire (ch6)",
+      "matchText": "Seljuk",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Seljuks (ch6)",
+      "matchText": "Seljuks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Palmyra",
+      "matchText": "Palmyra",
+      "wikiSlug": "Palmyra",
+      "type": "place"
+    },
+    {
+      "term": "Abu Sa'id Mirza (ch6)",
+      "matchText": "Sultan Abu Sa'id",
+      "wikiSlug": "Abu_Sa%27id_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Abbas the Great (ch6)",
+      "matchText": "Abbas the Great",
+      "wikiSlug": "Abbas_I_of_Persia",
+      "type": "people"
+    },
+    {
+      "term": "Isfahan (ch6)",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Safavid Iran",
+      "matchText": "Safavid Persia",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Sabk-e Hindi",
+      "matchText": "Sabk-e Hindi",
+      "wikiSlug": "Sabk-e_Hindi",
+      "type": "concept"
+    },
+    {
+      "term": "Haft Awrang",
+      "matchText": "Haft Awrang",
+      "wikiSlug": "Haft_Awrang",
+      "type": "concept"
+    },
+    {
+      "term": "Florence (ch6)",
+      "matchText": "Florence",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "Florence Cathedral",
+      "matchText": "Florence Cathedral",
+      "wikiSlug": "Florence_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Giovanni Bellini",
+      "matchText": "Giovanni Bellini",
+      "wikiSlug": "Giovanni_Bellini",
+      "type": "people"
+    },
+    {
+      "term": "Renaissance Italy",
+      "matchText": "Renaissance Italy",
+      "wikiSlug": "Italian_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "House of Medici",
+      "matchText": "Medici",
+      "wikiSlug": "House_of_Medici",
+      "type": "concept"
+    },
+    {
+      "term": "Milan (ch6)",
+      "matchText": "Milan",
+      "wikiSlug": "Milan",
+      "type": "place"
+    },
+    {
+      "term": "Henry VI of England",
+      "matchText": "Henry VI",
+      "wikiSlug": "Henry_VI_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Wars of the Roses",
+      "matchText": "Wars of the Roses",
+      "wikiSlug": "Wars_of_the_Roses",
+      "type": "event"
+    },
+    {
+      "term": "Joseon Korea",
+      "matchText": "Joseon",
+      "wikiSlug": "Joseon_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Zheng He (ch6)",
+      "matchText": "Zheng He",
+      "wikiSlug": "Zheng_He",
+      "type": "people"
+    },
+    {
+      "term": "Florentine humanists (ch6)",
+      "matchText": "Florentine humanists",
+      "wikiSlug": "Florence",
+      "type": "people"
+    },
+    {
+      "term": "Henry V of England (ch6)",
+      "matchText": "Henry V",
+      "wikiSlug": "Henry_V_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Shah Rukh (ch6)",
+      "matchText": "Shah Rukh",
+      "wikiSlug": "Shahrukh_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Persianate (ch6)",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Ilkhanid (ch6)",
+      "matchText": "Ilkhanid",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian (ch6)",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Afghan (ch6)",
+      "matchText": "Afghan",
+      "wikiSlug": "Afghan_people",
+      "type": "people"
+    },
+    {
+      "term": "Latin (ch6)",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Hussite Wars (ch6)",
+      "matchText": "Hussite Wars",
+      "wikiSlug": "Hussite_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "Aztec Triple Alliance (ch6)",
+      "matchText": "Aztec Triple Alliance",
+      "wikiSlug": "Aztec_Triple_Alliance",
+      "type": "concept"
+    },
+    {
+      "term": "Ghazan Khan (ch6)",
+      "matchText": "Ghazan Khan",
+      "wikiSlug": "Ghazan",
+      "type": "people"
+    },
+    {
+      "term": "Yuan (ch6)",
+      "matchText": "Yuan",
+      "wikiSlug": "Yuan_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kublai Khan (ch6)",
+      "matchText": "Kublai Khan",
+      "wikiSlug": "Kublai_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Taj Mahal (ch6)",
+      "matchText": "Taj Mahal",
+      "wikiSlug": "Taj_Mahal",
+      "type": "concept"
+    },
+    {
+      "term": "Tehran (ch6)",
+      "matchText": "Tehran",
+      "wikiSlug": "Tehran",
+      "type": "place"
+    },
+    {
+      "term": "Panjdeh incident",
+      "matchText": "Panjdeh Incident",
+      "wikiSlug": "Panjdeh_incident",
+      "type": "event"
+    },
+    {
+      "term": "Mir Ali Tabrizi",
+      "matchText": "Mir Ali Tabrizi",
+      "wikiSlug": "Mir_Ali_Tabrizi",
+      "type": "people"
+    },
+    {
+      "term": "Itzcoatl",
+      "matchText": "Itzcoatl",
+      "wikiSlug": "Itzcoatl",
+      "type": "people"
+    },
+    {
+      "term": "Moctezuma I (ch6)",
+      "matchText": "Moctezuma I",
+      "wikiSlug": "Moctezuma_I",
+      "type": "people"
+    },
+    {
+      "term": "Amu Darya",
+      "matchText": "Amu Darya",
+      "wikiSlug": "Amu_Darya",
+      "type": "place"
+    },
+    {
+      "term": "Gur-e-Amir (ch6)",
+      "matchText": "Gur-e-Amir",
+      "wikiSlug": "Gur-e-Amir",
+      "type": "place"
+    },
+    {
+      "term": "Shahrisabz (ch6)",
+      "matchText": "Shahrisabz",
+      "wikiSlug": "Shahrisabz",
+      "type": "place"
+    },
+    {
+      "term": "Tabriz (ch6)",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Akbar (ch6)",
+      "matchText": "Akbar",
+      "wikiSlug": "Akbar",
+      "type": "people"
+    },
+    {
+      "term": "Bukhara (ch6)",
+      "matchText": "Bukhara",
+      "wikiSlug": "Bukhara",
+      "type": "place"
+    },
+    {
+      "term": "Bohemia (ch6)",
+      "matchText": "Bohemia",
+      "wikiSlug": "Bohemia",
+      "type": "place"
+    },
+    {
+      "term": "Samarkand (ch6)",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Ulugh Beg (ch6)",
+      "matchText": "Ulugh Beg",
+      "wikiSlug": "Ulugh_Beg",
+      "type": "people"
+    },
+    {
+      "term": "Timur (ch6)",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Transoxiana (ch6)",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Khorasan (ch6)",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Babur (ch6)",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "Ottoman (ch6)",
+      "matchText": "Ottoman",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Byzantine (ch6)",
+      "matchText": "Byzantine",
+      "wikiSlug": "Byzantine_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Ming China (ch6)",
+      "matchText": "Ming China",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Yongle Emperor (ch6)",
+      "matchText": "Yongle Emperor",
+      "wikiSlug": "Yongle_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Miniature painting (ch6)",
+      "matchText": "Miniature painting",
+      "wikiSlug": "Persian_miniature",
+      "type": "concept"
+    },
+    {
+      "term": "Persian poetry (ch6)",
+      "matchText": "Persian poetry",
+      "wikiSlug": "Persian_literature",
+      "type": "concept"
+    },
+    {
+      "term": "Calligraphy (ch6)",
+      "matchText": "Calligraphy",
+      "wikiSlug": "Islamic_calligraphy",
+      "type": "concept"
+    },
+    {
+      "term": "Islamic theology and scholarship",
+      "matchText": "Theology and scholarship",
+      "wikiSlug": "Islamic_theology",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1080,6 +2766,258 @@
       "matchText": "Pachacuti",
       "wikiSlug": "Pachacuti",
       "type": "people"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "the Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Galileo Galilei",
+      "matchText": "Galileo",
+      "wikiSlug": "Galileo_Galilei",
+      "type": "people"
+    },
+    {
+      "term": "Florence (Florentine humanists)",
+      "matchText": "Florentine humanists",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "Tang dynasty (ch7)",
+      "matchText": "Tang",
+      "wikiSlug": "Tang_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ptolemaic dynasty",
+      "matchText": "Ptolemies",
+      "wikiSlug": "Ptolemaic_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Akbar (ch7)",
+      "matchText": "Akbar",
+      "wikiSlug": "Akbar",
+      "type": "people"
+    },
+    {
+      "term": "Ptolemaic model",
+      "matchText": "Ptolemaic",
+      "wikiSlug": "Ptolemaic_system",
+      "type": "concept"
+    },
+    {
+      "term": "Renaissance (ch7)",
+      "matchText": "Renaissance",
+      "wikiSlug": "Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Brunelleschi (ch7)",
+      "matchText": "Brunelleschi",
+      "wikiSlug": "Filippo_Brunelleschi",
+      "type": "people"
+    },
+    {
+      "term": "Andes Mountains",
+      "matchText": "Andes",
+      "wikiSlug": "Andes",
+      "type": "place"
+    },
+    {
+      "term": "Miftah al-Hisab",
+      "matchText": "Miftah al-Hisab",
+      "type": "concept",
+      "definition": "The Miftah al-Hisab (\"Key of Arithmetic\"), an influential mathematical textbook by Jamshid al-Kashi (c. 1380–1429), Ulugh Beg's senior mathematical advisor at the Samarkand observatory. It covered decimal fractions, trigonometry, and root extraction, and was one of the most widely used Islamic mathematical texts."
+    },
+    {
+      "term": "Joseon dynasty (ch7)",
+      "matchText": "Joseon dynasty",
+      "wikiSlug": "Joseon_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Persian (ch7)",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Safavid (ch7)",
+      "matchText": "Safavid",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Arab (ch7)",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Mongols (ch7)",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian (ch7)",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Thomas Hyde",
+      "matchText": "Thomas Hyde",
+      "wikiSlug": "Thomas_Hyde",
+      "type": "people"
+    },
+    {
+      "term": "Abdullah Mirza",
+      "matchText": "Abdullah Mirza",
+      "wikiSlug": "Abdullah_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Sejong the Great (ch7)",
+      "matchText": "Sejong the Great",
+      "wikiSlug": "Sejong_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Baghdad (ch7)",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Bursa (ch7)",
+      "matchText": "Bursa",
+      "wikiSlug": "Bursa",
+      "type": "place"
+    },
+    {
+      "term": "Nicolaus Copernicus (ch7)",
+      "matchText": "Copernicus",
+      "wikiSlug": "Nicolaus_Copernicus",
+      "type": "people"
+    },
+    {
+      "term": "Isfahan (ch7)",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Aq Qoyunlu (ch7)",
+      "matchText": "Aq Qoyunlu",
+      "wikiSlug": "Aq_Qoyunlu",
+      "type": "people"
+    },
+    {
+      "term": "Zheng He (ch7)",
+      "matchText": "Zheng He's",
+      "wikiSlug": "Zheng_He",
+      "type": "people"
+    },
+    {
+      "term": "Shah Rukh (ch7)",
+      "matchText": "Shah Rukh",
+      "wikiSlug": "Shahrukh_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Herat (ch7)",
+      "matchText": "Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Transoxiana (ch7)",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Timur (ch7)",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Damascus (ch7)",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "place"
+    },
+    {
+      "term": "Ilkhanate (ch7)",
+      "matchText": "Ilkhanate",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Mughal (ch7)",
+      "matchText": "Mughal",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Bibi-Khanym Mosque (ch7)",
+      "matchText": "Bibi-Khanym Mosque",
+      "wikiSlug": "Bibi-Khanym_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia (ch7)",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Ottoman (ch7)",
+      "matchText": "Ottoman",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Uzbeks (ch7)",
+      "matchText": "Uzbeks",
+      "wikiSlug": "Uzbeks",
+      "type": "concept"
+    },
+    {
+      "term": "Yongle Emperor (ch7)",
+      "matchText": "Yongle Emperor",
+      "wikiSlug": "Yongle_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "Ming China (ch7)",
+      "matchText": "Ming China",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Planetary tables (ch7)",
+      "matchText": "Planetary tables",
+      "wikiSlug": "Zij",
+      "type": "concept"
+    },
+    {
+      "term": "Calendar adjustments (ch7)",
+      "matchText": "Calendar adjustments",
+      "wikiSlug": "Tropical_year",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1138,12 +3076,6 @@
       "type": "concept"
     },
     {
-      "term": "Muhammad Shaybani",
-      "matchText": "Muhammad Shaybani",
-      "wikiSlug": "Muhammad_Shaybani",
-      "type": "people"
-    },
-    {
       "term": "Shaybanid dynasty",
       "matchText": "Shaybanid dynasty",
       "wikiSlug": "Shaybanids",
@@ -1154,12 +3086,6 @@
       "matchText": "Shah Ismail I",
       "wikiSlug": "Ismail_I",
       "type": "people"
-    },
-    {
-      "term": "Battle of Merv (1510)",
-      "matchText": "Battle of Merv",
-      "wikiSlug": "Battle_of_Merv",
-      "type": "event"
     },
     {
       "term": "Babur",
@@ -1303,6 +3229,378 @@
       "term": "Hindu Kush",
       "matchText": "Hindu Kush",
       "wikiSlug": "Hindu_Kush",
+      "type": "place"
+    },
+    {
+      "term": "Venice (Venetian traveler)",
+      "matchText": "a Venetian named",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Leonardo da Vinci",
+      "matchText": "Leonardo",
+      "wikiSlug": "Leonardo_da_Vinci",
+      "type": "people"
+    },
+    {
+      "term": "Raphael (artist)",
+      "matchText": "Raphael",
+      "wikiSlug": "Raphael",
+      "type": "people"
+    },
+    {
+      "term": "Persian people",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Timurid Herat",
+      "matchText": "Timurid Herat",
+      "wikiSlug": "Herat",
+      "type": "place"
+    },
+    {
+      "term": "Mamluk Sultanate of Egypt",
+      "matchText": "Mamluk Sultanate of Egypt",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "concept"
+    },
+    {
+      "term": "Umar Shaykh Mirza II",
+      "matchText": "Umar Shaykh Mirza",
+      "wikiSlug": "Umar_Shaikh_Mirza_I",
+      "type": "people"
+    },
+    {
+      "term": "Lahore",
+      "matchText": "Lahore",
+      "wikiSlug": "Lahore",
+      "type": "place"
+    },
+    {
+      "term": "Gurkani (dynasty name)",
+      "matchText": "Gurkani",
+      "wikiSlug": "Timurid_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Rajput",
+      "matchText": "Rajput",
+      "wikiSlug": "Rajput",
+      "type": "people"
+    },
+    {
+      "term": "Afghan people",
+      "matchText": "Afghan",
+      "wikiSlug": "Afghan_people",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Ghaghra (ch8)",
+      "matchText": "Battle of Ghaghra",
+      "wikiSlug": "Battle_of_Ghaghra",
+      "type": "event"
+    },
+    {
+      "term": "Saint Augustine",
+      "matchText": "Saint Augustine",
+      "wikiSlug": "Augustine_of_Hippo",
+      "type": "people"
+    },
+    {
+      "term": "Benvenuto Cellini",
+      "matchText": "Benvenuto Cellini",
+      "wikiSlug": "Benvenuto_Cellini",
+      "type": "people"
+    },
+    {
+      "term": "Marcus Aurelius",
+      "matchText": "Marcus Aurelius",
+      "wikiSlug": "Marcus_Aurelius",
+      "type": "people"
+    },
+    {
+      "term": "Kandahar",
+      "matchText": "Kandahar",
+      "wikiSlug": "Kandahar",
+      "type": "place"
+    },
+    {
+      "term": "Red Fort",
+      "matchText": "Red Fort",
+      "wikiSlug": "Red_Fort",
+      "type": "place"
+    },
+    {
+      "term": "Badshahi Mosque",
+      "matchText": "Badshahi Mosque",
+      "wikiSlug": "Badshahi_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Sufism (ch8)",
+      "matchText": "Sufi",
+      "wikiSlug": "Sufism",
+      "type": "concept"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian-speaking",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "High Renaissance",
+      "matchText": "High Renaissance",
+      "wikiSlug": "High_Renaissance",
+      "type": "concept"
+    },
+    {
+      "term": "Michelangelo",
+      "matchText": "Michelangelo",
+      "wikiSlug": "Michelangelo",
+      "type": "people"
+    },
+    {
+      "term": "Protestant Reformation",
+      "matchText": "Reformation",
+      "wikiSlug": "Reformation",
+      "type": "concept"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
+    },
+    {
+      "term": "Inca Empire (ch8)",
+      "matchText": "Inca Empire",
+      "wikiSlug": "Inca_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Francisco Pizarro",
+      "matchText": "Pizarro",
+      "wikiSlug": "Francisco_Pizarro",
+      "type": "people"
+    },
+    {
+      "term": "Henry VIII of England",
+      "matchText": "Henry VIII",
+      "wikiSlug": "Henry_VIII_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Suleiman the Magnificent",
+      "matchText": "Suleiman the Magnificent",
+      "wikiSlug": "Suleiman_the_Magnificent",
+      "type": "people"
+    },
+    {
+      "term": "Mahbub al-Qulub",
+      "matchText": "Mahbub al-Qulub",
+      "wikiSlug": "Ali-Shir_Nava%27i",
+      "type": "concept"
+    },
+    {
+      "term": "Muhakamat al-Lughatayn",
+      "matchText": "Muhakamat al-Lughatayn",
+      "wikiSlug": "Muhakamat_al-Lughatayn",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman dynasty",
+      "matchText": "Ottoman dynasty",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Genghisids (ch8)",
+      "matchText": "Genghisids",
+      "wikiSlug": "Genghis_Khan",
+      "type": "concept"
+    },
+    {
+      "term": "Abbas the Great (ch8)",
+      "matchText": "Abbas the Great",
+      "wikiSlug": "Abbas_I_of_Persia",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian (ch8)",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia (ch8)",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Qutlugh Nigar Khanum",
+      "matchText": "Qutlugh Nigar Khanum",
+      "wikiSlug": "Qutlugh_Nigar_Khanum",
+      "type": "people"
+    },
+    {
+      "term": "Daulat Khan Lodi",
+      "matchText": "Daulat Khan Lodi",
+      "wikiSlug": "Daulat_Khan_Lodi",
+      "type": "people"
+    },
+    {
+      "term": "Sultan Ahmad Mirza",
+      "matchText": "Sultan Ahmad Mirza",
+      "definition": "A son of Sultan Abu Sa'id Mirza who ruled Samarkand and Transoxiana as one of the rival Timurid principalities after his father's death in 1469. His line held the central Timurid lands until the Uzbek conquest swept them away around 1500.",
+      "type": "people"
+    },
+    {
+      "term": "Jochi (ch8)",
+      "matchText": "Jochi",
+      "wikiSlug": "Jochi",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Chaldiran (ch8)",
+      "matchText": "Chaldiran",
+      "wikiSlug": "Battle_of_Chaldiran",
+      "type": "event"
+    },
+    {
+      "term": "Agra (ch8)",
+      "matchText": "Agra",
+      "wikiSlug": "Agra",
+      "type": "place"
+    },
+    {
+      "term": "Gawhar Shad (ch8)",
+      "matchText": "Gawhar Shad",
+      "wikiSlug": "Gawhar_Shad",
+      "type": "people"
+    },
+    {
+      "term": "Mashhad (ch8)",
+      "matchText": "Mashhad",
+      "wikiSlug": "Mashhad",
+      "type": "place"
+    },
+    {
+      "term": "Taj Mahal (ch8)",
+      "matchText": "Taj Mahal",
+      "wikiSlug": "Taj_Mahal",
+      "type": "place"
+    },
+    {
+      "term": "Gawhar Shad Musalla",
+      "matchText": "Gawhar Shad Musalla",
+      "wikiSlug": "Gawhar_Shad_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Delhi Sultanate (ch8)",
+      "matchText": "Delhi Sultanate",
+      "wikiSlug": "Delhi_Sultanate",
+      "type": "place"
+    },
+    {
+      "term": "Punjab (ch8)",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Tamerlane (ch8)",
+      "matchText": "Tamerlane",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Ulugh Beg (ch8)",
+      "matchText": "Ulugh Beg",
+      "wikiSlug": "Ulugh_Beg",
+      "type": "people"
+    },
+    {
+      "term": "Khorasan (ch8)",
+      "matchText": "Khorasan",
+      "wikiSlug": "Greater_Khorasan",
+      "type": "place"
+    },
+    {
+      "term": "Samarkand (ch8)",
+      "matchText": "Samarkand",
+      "wikiSlug": "Samarkand",
+      "type": "place"
+    },
+    {
+      "term": "Transoxiana (ch8)",
+      "matchText": "Transoxiana",
+      "wikiSlug": "Transoxiana",
+      "type": "place"
+    },
+    {
+      "term": "Timur (ch8)",
+      "matchText": "Timur",
+      "wikiSlug": "Timur",
+      "type": "people"
+    },
+    {
+      "term": "Tabriz (ch8)",
+      "matchText": "Tabriz",
+      "wikiSlug": "Tabriz",
+      "type": "place"
+    },
+    {
+      "term": "Isfahan (ch8)",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia (ch8)",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Guregen (ch8)",
+      "matchText": "Guregen",
+      "definition": "\"Royal son-in-law\" — the Mongol honorific Timur earned by marrying a Genghisid princess; the title gave a non-Genghisid the nearest thing to royal legitimacy. The Mughals later turned it into their dynastic name, Gurkani.",
+      "type": "concept"
+    },
+    {
+      "term": "Gur-e-Amir (ch8)",
+      "matchText": "Gur-e-Amir",
+      "wikiSlug": "Gur-e-Amir",
+      "type": "place"
+    },
+    {
+      "term": "Damascus (ch8)",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "place"
+    },
+    {
+      "term": "Baghdad (ch8)",
+      "matchText": "Baghdad",
+      "wikiSlug": "Baghdad",
+      "type": "place"
+    },
+    {
+      "term": "Shah Rukh (ch8)",
+      "matchText": "Shah Rukh",
+      "wikiSlug": "Shahrukh_Mirza",
+      "type": "people"
+    },
+    {
+      "term": "Moghul (ch8)",
+      "matchText": "Moghul",
+      "wikiSlug": "Moghulistan",
       "type": "place"
     }
   ]
