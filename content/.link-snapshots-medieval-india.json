@@ -257,7 +257,7 @@
     },
     "Somnath_temple": {
       "title": "Somnath Temple",
-      "lead": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclea",
+      "lead": "Somanatha Temple (Sanskrit: सोमनाथ, romanized: Somanātha, lit. Soma = moon nātha = lord/master ) is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for H",
       "image": "Somanath_mandir_(cropped).jpg"
     },
     "Al-Biruni": {
@@ -407,11 +407,6 @@
       "lead": "The Kailasha (IAST: Kailāśa) or Kailasha-natha (IAST: Kailāśa-nātha) temple is the largest of the rock-cut Hindu temples at the Ellora Caves in Sambhaji Nagar district of Maharashtra, India. A megalith carved into a cliff face, it is consid",
       "image": "Kailash_temple_(Ellora_cave_no_15)_at_Verul.png"
     },
-    "Gurjara-Pratihara_dynasty": {
-      "title": "Pratihara dynasty",
-      "lead": "The Pratihara dynasty, also called the Gurjara-Pratiharas, the Pratiharas of Kannauj or the Imperial Pratiharas, was a prominent medieval Indian dynasty which initially ruled the Gurjaradesa until its victory in the Tripartite Struggle in 8",
-      "image": "Pratihara_bhoja.JPG"
-    },
     "Mihira_Bhoja": {
       "title": "Mihira Bhoja",
       "lead": "Mihira Bhoja (r. c. 836 – c. 885 CE) or Bhoja I was the Pratihara emperor from 836 to 885 CE. He inherited a weakened realm in an adverse situation from his father, Ramabhadra. However, his capable reign transformed it into a large and pros",
@@ -437,10 +432,10 @@
       "lead": "Kannauj (Hindustani pronunciation: [kənːɔːd͡ʒ]) is an ancient city in the Indian state of Uttar Pradesh and a municipal board (nagar palika) home to the administrative headquarters of the eponymous district. Known as Kanyakubja during the a",
       "image": "Goddess_Annapurna_Temple_,tirwa_town,stateUttar_Pradesh.jpg"
     },
-    "Rajaraja_I": {
-      "title": "Rajaraja I",
-      "lead": "Rājarāja I (Middle Tamil: Rājarāja Cola; Rājarāja Śōḷa; 3 November 947 – January/February 1014), also known as Rajaraja the Great, was a Chola emperor who reigned from 985 to 1014. He was known for his conquests of southern India and the An",
-      "image": "Wall_paintings_depicted_in_the_cloister_Mandapa,_Big_Temple,_Thanjavur_-_3.JPG"
+    "Chola_dynasty": {
+      "title": "Chola dynasty",
+      "lead": "The Chola dynasty (Tamil: [t͡ʃoːɻɐr]) was a Tamil dynasty originating from Southern India. At its height, it ruled over the Chola Empire, an expansive maritime empire. The earliest datable references to the Chola are from inscriptions dated",
+      "image": "Thanjavur_temple.jpg"
     },
     "Rajendra_I": {
       "title": "Rajendra I",
@@ -451,6 +446,11 @@
       "title": "Brihadisvara Temple",
       "lead": "Brihadisvara Temple, called Rajarajesvaram (lit. 'Lord of Rajaraja') by its builder, and known locally as Thanjai Periya Kovil (lit. 'Thanjavur Big Temple') and Peruvudaiyar Kovil (lit. 'Temple of the great lord'), is a Shaivite Hindu templ",
       "image": "Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_(edit).jpg"
+    },
+    "Western_Chalukya_Empire": {
+      "title": "Western Chalukya Empire",
+      "lead": "The Western Chalukya Empire ( chə-LOO-kyə) ruled most of the western Deccan, South India, between the 10th and 12th centuries. This Kannada dynasty is sometimes called the Kalyani Chalukya after its regal capital at Kalyani, today's Basavak",
+      "image": "Indian_Western_Chalukya_Empire_map.svg"
     },
     "Hoysala_Empire": {
       "title": "Hoysala Kingdom",
@@ -512,10 +512,10 @@
       "lead": "Vikramashila (IAST: Vikramaśīla) was a Buddhist monastic university situated in what is now modern-day Bihar in India. It was founded by King Dharmapala between the late eighth and early ninth century. It was one of the three most important",
       "image": "Vikramshila_2012-08-10-17.14.08.jpg"
     },
-    "Gommateshwara_statue": {
-      "title": "Gommateshwara statue",
-      "lead": "The Gommateshwara statue is a 57-foot (17 m) high monolithic statue on Vindhyagiri, also known as Indra-giri in the town of Shravanbelagola in the Indian state of Karnataka. Carved of a single block of granite, it is one of the tallest mono",
-      "image": "Gommateshwara,_Shravanabelagola.jpg"
+    "Jainism": {
+      "title": "Jainism",
+      "lead": "Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward spiritual purity and enlightenment through disciplined nonviolence (ahimsa) to all living creatures. The tradition is spiritually",
+      "image": ""
     },
     "Hindu_temple_architecture": {
       "title": "Hindu temple architecture",
@@ -531,6 +531,11 @@
       "title": "Vesara",
       "lead": "Vesara is a hybrid form of Indian temple architecture that combines Dravidian Southern Indian site layouts with shape details characteristic of the Nagara style of North India. This fusion style likely originated in the historic architectur",
       "image": "Nageshvara_(near)_and_Chennakeshava_(far)_temples_at_Mosale.JPG"
+    },
+    "Sanskrit": {
+      "title": "Sanskrit",
+      "lead": "Sanskrit (; stem form संस्कृत; nominal singular संस्कृतम्, saṃskṛtam,) is a classical language belonging to the Indo-Aryan branch of the Indo-European languages. It arose in South Asia after its predecessor languages had diffused there from",
+      "image": "BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
     },
     "Rajput": {
       "title": "Rajput",
@@ -549,7 +554,7 @@
     },
     "Somnath_temple": {
       "title": "Somnath Temple",
-      "lead": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclea",
+      "lead": "Somanatha Temple (Sanskrit: सोमनाथ, romanized: Somanātha, lit. Soma = moon nātha = lord/master ) is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for H",
       "image": "Somanath_mandir_(cropped).jpg"
     },
     "Al-Biruni": {
@@ -582,25 +587,25 @@
       "lead": "The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and victory tower, built during the Delhi sultanate, and comprising the Qutb complex, a UNESCO World Heritage Site in Mehrauli, South Delhi, India. It was mostly built b",
       "image": "Qutb_Minar_2022.jpg"
     },
-    "Cheraman_Juma_Mosque": {
-      "title": "Cheraman Juma Mosque",
-      "lead": "The Cheraman Juma Mosque is a mosque in Kodungallur, Thrissur district, in the state of Kerala, India. The mosque was built in 629 CE by Malik Bin Dinar though some scholars suggest a later construction date in the 14th–15th century. Due to",
-      "image": "Cheraman_Juma_Palli_(ചേരമാൻ_ജുമാ_പള്ളി).jpg"
-    },
     "Bhaskara_II": {
       "title": "Bhāskara II",
       "lead": "Bhāskara II ([bʰɑːskərə]; c.1114–1185), also known as Bhāskarāchārya (lit. 'Bhāskara the teacher'), was an Indian polymath, mathematician, and astronomer. From verses in his main work, Siddhānta Śiromaṇi, it can be inferred that he was born",
       "image": "भास्कराचार्य.jpg"
     },
-    "Lilavati": {
-      "title": "Līlāvatī",
-      "lead": "Līlāvatī is a treatise by Indian mathematician Bhāskara II on mathematics, written in 1150 AD. It is the first volume of his main work, the Siddhānta Shiromani, alongside the Bijaganita, the Grahaganita and the Golādhyāya.",
-      "image": "Lilavati-problem.png"
+    "Hindu%E2%80%93Arabic_numeral_system": {
+      "title": "Hindu–Arabic numeral system",
+      "lead": "The Hindu–Arabic numeral system (also known as the Indo-Arabic numeral system, Hindu numeral system, and Arabic numeral system) is a base ten (decimal) positional numeral system. It is presently the most common decimal system. The system wa",
+      "image": "EgyptphoneKeypad.svg"
     },
     "Eastern_Ganga_dynasty": {
       "title": "Eastern Ganga dynasty",
       "lead": "The Eastern Ganga dynasty (also known as Purba Gangas, Rudhi Gangas or Prachya Gangas) were a large medieval era dynasty that reigned from Kalinga from as early as the 5th century to the mid 20th century. They are known as \"Eastern Gangas\" ",
       "image": "Eastern_Ganga_fanam_Chodaganga.png"
+    },
+    "Sena_dynasty": {
+      "title": "Sena dynasty",
+      "lead": "The Sena dynasty, or the Senas, was a Hindu dynasty during the early medieval period on the Indian subcontinent, that ruled from Bengal through the 11th and 12th centuries.The empire at its peak covered much of the north-eastern region of t",
+      "image": "Map_of_the_Senas.png"
     },
     "Bhoja": {
       "title": "Bhoja",
@@ -611,11 +616,6 @@
       "title": "Chaulukya dynasty",
       "lead": "The Chaulukya dynasty (IAST: Caulukya), also Solanki dynasty, was a dynasty that ruled parts of what are now Gujarat and Rajasthan in north-western India, between c. 940 CE and c. 1244 CE. Their capital was located at Anahilavada (modern Pa",
       "image": "Map_of_the_Chaulukyas.png"
-    },
-    "Hephthalites": {
-      "title": "Hephthalites",
-      "lead": "The Hephthalites or Ephthalites (Bactrian: ηβοδαλο, romanized: Ebodalo), sometimes called the White Huns (also known as the White Hunas, in Iranian as the Spet Xyon and in Sanskrit and Prakrit as the Sveta-huna), were a people who lived in ",
-      "image": ""
     },
     "Skandagupta": {
       "title": "Skandagupta",
@@ -692,11 +692,6 @@
       "lead": "The Malabar Coast (Malayalam: [mɐlɐbaːr]) is the southwestern region of the Indian subcontinent. It generally refers to the western coastline of India stretching from Konkan to Kanyakumari. Geographically, it comprises one of the wettest re",
       "image": "India_Malabar_Coast_locator_map.svg"
     },
-    "Faxian": {
-      "title": "Faxian",
-      "lead": "Faxian (337–c. 422 CE), formerly romanized as Fa-hien , Fa-hsien, and Hiuen Tsang was a Chinese Buddhist monk and translator who traveled on foot from Jin China to medieval India to acquire Buddhist scriptures. His birth name was Gong Sehi.",
-      "image": "Faxian_statue_in_Maritime_Experiential_Museum_&_Aquarium_Singapore.jpg"
-    },
     "Odantapuri": {
       "title": "Odantapuri",
       "lead": "Odantapuri (also called Odantapura or Uddandapura) was a prominent Buddhist monastic university in what is now Bihar Sharif in Bihar, India. It is believed to have been established by the Pala ruler Gopala I in the 8th century. It is consid",
@@ -712,6 +707,261 @@
       "lead": "A vimana is the structure over the garbhagriha or inner sanctum in the Hindu temples of South India and Odisha in East India. In typical temples of Odisha using the Kalinga style of architecture, the vimana is the tallest structure of the t",
       "image": "1834_sketch_of_elements_in_Hindu_temple_architecture,_seven_storey_vimana.jpg"
     },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
+    },
+    "Indus_River": {
+      "title": "Indus River",
+      "lead": "The Indus ( IN-dəs) is a transboundary river of Asia and a trans-Himalayan river of South and Central Asia. The 3,180 km (1,980 mi) river rises in the Tibet Autonomous Region of China where it is known as Sengge Zangbo, flows northwest thro",
+      "image": "Nanga_Parbat_Indus_Gorge.jpg"
+    },
+    "Punjab_region": {
+      "title": "Punjab",
+      "lead": "Punjab ( pun-JAHB; Punjabi: Panjāb, pronounced [pəɲˈd͡ʒaːb] ) is a geographical, ethnolinguistic, and historical region in South Asia, located in its northwestern part, comprising areas of modern-day Pakistan and northwestern India. Lahore ",
+      "image": "Punjab_map_(topographic)_with_cities.png"
+    },
+    "Attila": {
+      "title": "Attila",
+      "lead": "Attila ( ə-TIL-ə or AT-il-ə; c. 406 – 453), frequently called Attila the Hun, was the ruler of the Huns from 434 until his death in early 453. He was also the leader of an empire consisting of Huns, Ostrogoths, Alans, and Gepids, among othe",
+      "image": "Attila_(Képes_krónika)_(cropped).jpg"
+    },
+    "Huns": {
+      "title": "Huns",
+      "lead": "The Huns were a nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and 6th centuries CE. According to European tradition, they were first reported living east of the Volga River, in an area that was p",
+      "image": "Huns450.png"
+    },
+    "Danube": {
+      "title": "Danube",
+      "lead": "The Danube ( DAN-yoob; see also other names) is a river in Europe, the second-longest after the Volga in Russia. It flows through Central and Southeastern Europe, from the Black Forest of Germany south through the Danube Delta in Romania in",
+      "image": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg"
+    },
+    "Ganges": {
+      "title": "Ganges",
+      "lead": "The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of Asia which flows through India and Bangladesh. The 2,525-kilometre-long (1,569 mi) river rises in the western Himalayas in the Indi",
+      "image": "Varanasiganga.jpg"
+    },
+    "Bengal": {
+      "title": "Bengal",
+      "lead": "Bengal ( ben-GAWL) is a geographical, ethnolinguistic, historically geopolitical region in South Asia, located north of the Bay of Bengal. Today, it is politically divided between the sovereign state of Bangladesh, the Indian state of West ",
+      "image": "Bengal_in_Asia.jpg"
+    },
+    "Bay_of_Bengal": {
+      "title": "Bay of Bengal",
+      "lead": "The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and the Indochinese peninsula, south of the Bengal region. Spread across an area of 2,600,000 km2 (1,000,000 sq mi), it is bordered b",
+      "image": "Bay_of_Bengal_map.png"
+    },
+    "Turkic_peoples": {
+      "title": "Turkic peoples",
+      "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
+      "image": "Turkic_Languages_distribution_map.png"
+    },
+    "Gujarat": {
+      "title": "Gujarat",
+      "lead": "Gujarat (Gujarati: Gujarāt, pronounced [ˈɡudʒəɾaːt] ) is a state along the western coast of India. Its coastline of about 2,340 km (1,450 mi) is the longest in the country, most of which lies on the Kathiawar peninsula. Gujarat is the fifth",
+      "image": "Rani_ki_vav_02.jpg"
+    },
+    "Gauda_Kingdom": {
+      "title": "Kingdom of Gauda",
+      "lead": "The Gauḍa kingdom was a kingdom during the Classical era in the Indian subcontinent, which originated in the Gauda region of Bengal (modern-day West Bengal and Bangladesh) in 4th century CE or possibly earlier.",
+      "image": "Map_of_the_Shashankas.png"
+    },
+    "Vanga_Kingdom": {
+      "title": "Vanga kingdom",
+      "lead": "Vaṅga was an ancient kingdom and geopolitical division within the Ganges Delta in the Indian subcontinent. The kingdom is one of the namesakes of the Bengal region. It was located in eastern and southern Bengal. Vanga features prominently i",
+      "image": "Mahajanapadas_(c._500_BCE).png"
+    },
+    "Narmada_River": {
+      "title": "Narmada River",
+      "lead": "The Narmada River (IPA: [nəɾməd̪aː]), previously also known as the Narbada or anglicised as Nerbudda, is the 5th longest river in India and overall the longest west-flowing river in the country. It is also the largest flowing river in the s",
+      "image": "Narmada_River_Jabalpur_India.jpg"
+    },
+    "Tamils": {
+      "title": "Tamils",
+      "lead": "The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively speak the Tamil language and trace their ancestry mainly to the southern part of the Indian subcontinent. Tamil is one of the longe",
+      "image": "Pongal_Festival.jpg"
+    },
+    "Karnataka": {
+      "title": "Karnataka",
+      "lead": "Karnataka is a state in the southwestern coast of India. It was formed as Mysore State on 1 November 1956, with the passage of the States Reorganisation Act, and renamed Karnataka in 1973. The state is bordered by the Lakshadweep Sea to the",
+      "image": "Hampi_virupaksha_temple.jpg"
+    },
+    "Kerala": {
+      "title": "Kerala",
+      "lead": "Kerala is a state on the Malabar Coast of southern India. It was formed on 1 November 1956 under the States Reorganisation Act, which unified the country's Malayalam-speaking regions into a single state. Covering 38,863 km2 (15,005 sq mi), ",
+      "image": "Boathouse_(7063399547).jpg"
+    },
+    "Hinduism": {
+      "title": "Hinduism",
+      "lead": "Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, ",
+      "image": ""
+    },
+    "Ellora_Caves": {
+      "title": "Ellora Caves",
+      "lead": "The Ellora Caves are a UNESCO World Heritage Site in Aurangabad, India. It is one of the largest rock-cut cave complexes in the world, with artwork dating from AD 600–1000, including Hindu, Buddhist, and Jain caves. The complex is a leading",
+      "image": ""
+    },
+    "Odisha": {
+      "title": "Odisha",
+      "lead": "Odisha (Oriya: oṛiśā, pronounced [oˈɽisa] ), spelled Orissa until 2011, is a state located in eastern India. It is the eighth-largest state by area, and the eleventh-largest by population, with over 41 million inhabitants. The state also ha",
+      "image": "Brahmeswar_Temple,_Bhubaneswar.JPG"
+    },
+    "Romanesque_architecture": {
+      "title": "Romanesque architecture",
+      "lead": "Romanesque architecture is an architectural style of medieval Europe that was predominant in the 11th and 12th centuries. The style eventually developed into the Gothic style with the shape of the arches providing a simple distinction: the ",
+      "image": "LessayAbbaye3.JPG"
+    },
+    "Basilica_of_Saint-Denis": {
+      "title": "Basilica of Saint-Denis",
+      "lead": "The Basilica of Saint-Denis (French: basilique royale Saint-Denis; now formally known as the basilique cathédrale Saint-Denis) is a Roman Catholic cathedral that originated as a medieval abbey church. It is located in the commune of Saint-D",
+      "image": "Saint-Denis_-_Façade.jpg"
+    },
+    "Charlemagne": {
+      "title": "Charlemagne",
+      "lead": "Charlemagne ( SHAR-lə-mayn; 2 April 748 – 28 January 814) was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and ",
+      "image": "Charlemagne_denier_Mayence_812_814.jpg"
+    },
+    "Aachen": {
+      "title": "Aachen",
+      "lead": "Aachen is the 13th-largest city in North Rhine-Westphalia and the 27th-largest city of Germany, with around 261,000 inhabitants. It is the westernmost major city in Germany, lying approximately 61 km (38 mi) west of Cologne and Bonn, direct",
+      "image": "Blick_auf_das_Rathaus_und_den_Dom_Aachens_aufgenommen_von_St_Jakob.jpg"
+    },
+    "Justinian_I": {
+      "title": "Justinian I",
+      "lead": "Justinian I (Latin: Iustinianus, Ancient Greek: Ἰουστινιανός, romanized: Ioustinianós; 482 – 14 November 565), also known as Justinian the Great, was Roman emperor from 527 to 565. His reign was marked by the ambitious but only partly reali",
+      "image": "Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg"
+    },
+    "Palenque": {
+      "title": "Palenque",
+      "lead": "Palenque (Spanish pronunciation: [pa'leŋke]; Yucatec Maya: Bàakʼ [ɓaːkʼ]), also anciently known in the Itzaʼ language as Lakamha (\"big water\" or \"big waters\"), was a Maya city-state in southern Mexico that perished in the 8th century. The P",
+      "image": "Palenque_Collage.jpg"
+    },
+    "Sasanian_Empire": {
+      "title": "Sasanian Empire",
+      "lead": "The Sasanian Empire (), officially Eranshahr (Middle Persian: 𐭠𐭩𐭥𐭠𐭭𐭱𐭲𐭥𐭩, romanized: Ērānšahr, lit. 'Empire of the Iranians'), was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for ov",
+      "image": "The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg"
+    },
+    "Visigothic_Kingdom": {
+      "title": "Visigothic Kingdom",
+      "lead": "The Visigothic Kingdom, Visigothic Spain or Kingdom of the Goths (Latin: Regnum Gothorum) was a barbarian kingdom that occupied what is now southwestern France and the Iberian Peninsula from the 5th to the 8th century. One of the Germanic s",
+      "image": "Leovigild_CNG_97-722237_(obverse).jpg"
+    },
+    "Western_Roman_Empire": {
+      "title": "Western Roman Empire",
+      "lead": "In modern historiography, the Western Roman Empire was the Roman Empire's western provinces collectively during any period in which they were administered separately from the eastern provinces by a separate, independent imperial court. Part",
+      "image": "Mapa_Imperio_Occidental_año_418.svg"
+    },
+    "Visigoths": {
+      "title": "Visigoths",
+      "lead": "The Visigoths (; Latin: Visigothi, Wisigothi, Vesi, Visi, Wesi, Wisi) were a Gothic people who emerged in the Balkans during late antiquity. Likely descended from the Thervingi who entered the Roman Empire in 376 and defeated the Romans at ",
+      "image": "Visigothic_-_Pair_of_Eagle_Fibula_-_Walters_54421,_54422_-_Group.jpg"
+    },
+    "Franks": {
+      "title": "Franks",
+      "lead": "The Franks (Latin: Franci or gens Francorum) were a northern European group of peoples who first appeared in the third century AD as a new name for the Germanic tribes living near the lower stretches of the Rhine River military border of th",
+      "image": "Germania_inferior_roads_towns.png"
+    },
+    "Gaul": {
+      "title": "Gaul",
+      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
+      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    },
+    "Anglo-Saxons": {
+      "title": "Anglo-Saxons",
+      "lead": "The Anglo-Saxons, in some contexts simply called Saxons or the English, were a cultural group who spoke Old English and inhabited much of what is now England and south-eastern Scotland in the Early Middle Ages. They traced their origins to ",
+      "image": "LindisfarneChiRiho.jpg"
+    },
+    "Ostrogoths": {
+      "title": "Ostrogoths",
+      "lead": "The Ostrogoths (Latin: Ostrogothi, Austrogothi) were a Roman-era Germanic people who, in the 5th and 6th centuries, established one of the two major Gothic kingdoms within the Western Roman Empire. They drew on large Gothic populations sett",
+      "image": "Tomb_of_Theodoric_the_Great_Ravenna_(cropped).jpg"
+    },
+    "Maurya_Empire": {
+      "title": "Maurya Empire",
+      "lead": "The Maurya Empire was a geographically extensive Iron Age historical power in South Asia with its power base in Magadha. Founded by Chandragupta Maurya around c. 320 BCE, it existed in loose-knit fashion until 185 BCE. The primary sources f",
+      "image": "Maurya_Empire,_c.250_BCE_network_model_v01.png"
+    },
+    "Gothic_architecture": {
+      "title": "Gothic architecture",
+      "lead": "Gothic architecture is an architectural style that was prevalent in Europe from the late 12th to the 16th century, during the High and Late Middle Ages, surviving into the 17th and 18th centuries in some areas. It evolved from Romanesque ar",
+      "image": "Wells_Cathedral_West_Front_Exterior,_UK_-_Diliff.jpg"
+    },
+    "Thanjavur": {
+      "title": "Thanjavur",
+      "lead": "Thanjavur (Tamil: [t̪aɲdʑaːʋuːɾ]), also known as Thanjai, previously known as Tanjore, is a city in the Indian state of Tamil Nadu. It is the 12th biggest city in Tamil Nadu. Thanjavur is an important center of southern Indian religion, art",
+      "image": "Thanjavur_2.jpg"
+    },
+    "Belur,_Karnataka": {
+      "title": "Belur, Karnataka",
+      "lead": "Belur (IPA: [beːluːru]) is a town and taluk in Hassan district in the state of Karnataka, India. The town is renowned for its Chennakeshava Temple dedicated to Vishnu, one of the finest examples of Hoysala architecture and the largest Hindu",
+      "image": "Belur_street_towards_Chennakesava_temple.JPG"
+    },
+    "Halebidu": {
+      "title": "Halebidu",
+      "lead": "Halebidu (IAST: Haḷēbīḍu, literally \"old capital, city, encampment\" or \"ruined city\") is a town located in Hassan District, Karnataka, India. Historically known as Dwārasamudra (also Dorasamudra), Halebidu became the regal capital of the Ho",
+      "image": "Halebidu_monuments_map,_1930_survey,_the_Dorasamudra_of_Hoysala_dynasty.jpg"
+    },
+    "Lingaraja_temple": {
+      "title": "Lingaraja Temple",
+      "lead": "Lingaraja Temple (Odia: [liŋɡɔraːd͡ʒɔ] ) is a Hindu temple dedicated to Shiva and is one of the oldest temples in Bhubaneswar, the capital of the Indian state of Odisha, India. The temple is the most prominent landmark of Bhubaneswar city a",
+      "image": "Lingaraj_Temple_,_Bhubaneswar.jpg"
+    },
+    "Meenakshi_Temple": {
+      "title": "Meenakshi Temple",
+      "lead": "Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sund",
+      "image": "An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg"
+    },
+    "Mahabalipuram": {
+      "title": "Mamallapuram",
+      "lead": "Mamallapuram (also known as Mahabalipuram), is a town in Chengalpattu district in the southeastern Indian state of Tamil Nadu, best known for the UNESCO World Heritage Site of 7th- and 8th-century Hindu Group of Monuments at Mahabalipuram. ",
+      "image": "A_collage_of_Mamallapuram_town_Tamil_Nadu_India.jpg"
+    },
+    "Kathiawar": {
+      "title": "Kathiawar",
+      "lead": "Kathiawar (Gujarati: [kɑʈʰijɑʋɑɽ]), also known as Saurashtra (Gujarati: [sɔɾɑʂʈrə]), is a peninsula in the south-western Gujarat state in India, bordering the Arabian Sea and covering about 61,000 km2 (23,500 sq mi). It is bounded by the Ku",
+      "image": "Saurashtra_Gujarat_India_Satellite_Map_3_February_2015.jpg"
+    },
+    "Alchon_Huns": {
+      "title": "Alchon Huns",
+      "lead": "The Alchon Huns, (Bactrian: αλχον(ν)ο Alkhon(n)o or αλχαν(ν)ο Alkhan(n)o) also known as the Alkhan, Alchono, Alxon, Alkhon, Alakhana, and Walxon, were a nomadic people who established states in Central Asia and the Indian subcontinent durin",
+      "image": "Alchon_Khingila_portrait.jpg"
+    },
+    "Pushyabhuti_dynasty": {
+      "title": "Pushyabhuti dynasty",
+      "lead": "The Pushyabhuti dynasty (IAST: Puṣyabhūti), also known as the Vardhana dynasty, was the ruling dynasty of the Kingdom of Thanesar in northern India during the 6th and 7th centuries. The dynasty reached its zenith under its last ruler Harsha",
+      "image": "Harshavardhana_Circa_AD_606-647.jpg"
+    },
+    "Muhammad": {
+      "title": "Muhammad",
+      "lead": "Muhammad (c. 570 CE – 8 June 632 CE) was an Arab religious, military and political leader, and the founder of Islam. According to Islam, he was the final prophet of God who was divinely inspired to preach and confirm the monotheistic teachi",
+      "image": "Al-Masjid_AL-Nabawi_Door.jpg"
+    },
+    "Tang_dynasty": {
+      "title": "Tang dynasty",
+      "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
+      "image": "Tang_outline_map,_661.svg"
+    },
+    "Sui_dynasty": {
+      "title": "Sui dynasty",
+      "lead": "The Sui dynasty ( SWAY) was a Chinese imperial dynasty that ruled from 581 to 618 AD. The re-unification of China proper under the Sui brought the Northern and Southern dynasties era to a close, ending a prolonged period of political divisi",
+      "image": "Cheui_Dynasty_581_CE.png"
+    },
+    "Hephthalites": {
+      "title": "Hephthalites",
+      "lead": "The Hephthalites or Ephthalites (Bactrian: ηβοδαλο, romanized: Ebodalo), sometimes called the White Huns (also known as the White Hunas, in Iranian as the Spet Xyon and in Sanskrit and Prakrit as the Sveta-huna), were a people who lived in ",
+      "image": ""
+    },
+    "Maya_civilization": {
+      "title": "Maya civilization",
+      "lead": "The Maya civilization () was a Mesoamerican civilization that existed from antiquity to the early modern period. It is known by its ancient temples and glyphs (script). The Maya script is the most sophisticated and highly developed writing ",
+      "image": "Mayamap.png"
+    },
+    "Mughal_Empire": {
+      "title": "Mughal Empire",
+      "lead": "The Mughal Empire was an early modern empire in South Asia. At its peak, the empire stretched from the outer fringes of the Indus River Basin in the west, northern Afghanistan in the northwest, and Kashmir in the north, to the highlands of ",
+      "image": "Joppen1907India1700a.jpg"
+    },
     "Rajyavardhana": {
       "title": "Rajyavardhana",
       "lead": "Rajyavardhana, also known as Rajya Vardhan, was the Emperor of Thanesar from 605 to 606, and the eldest son of Prabhakarvardhana and member of the Pushyabhuti dynasty. He ascended the throne after his father's death and was succeeded by his",
@@ -720,11 +970,6 @@
     "Grahavarman": {
       "title": "Grahavarman",
       "lead": "Grahavarman was the king of Kannauj around the early seventh-century CE. He came from the Maukhari dynasty and succeeded his father, Avantivarman. Grahavarman married Rajyashri, the daughter of the ruler of Thanesar, Prabhakar Vardhana. The",
-      "image": ""
-    },
-    "B%C4%81%E1%B9%87abha%E1%B9%AD%E1%B9%ADa": {
-      "title": "Bāṇabhaṭṭa",
-      "lead": "Bāṇabhaṭṭa (Sanskrit: बाणभट्ट) was a 7th-century Sanskrit prose writer and poet from India. He was the court poet of Emperor Harsha, during his reign at Kanyakubja. Bāna's principal works include a biography of Harsha, the Harshacharita and",
       "image": ""
     },
     "Harshacharita": {
@@ -762,11 +1007,6 @@
       "lead": "Aihole (ಐಹೊಳೆ), also referred to as Aivalli, Ahivolal or Aryapura, is a historic site of ancient and medieval era Buddhist, Hindu and Jain monuments in Karnataka, India that dates from the sixth century through the twelfth century CE. Most ",
       "image": "8th_century_Durga_temple_exterior_view,_Aihole_Hindu_temples_and_monuments_3.jpg"
     },
-    "Narmada_River": {
-      "title": "Narmada River",
-      "lead": "The Narmada River (IPA: [nəɾməd̪aː]), previously also known as the Narbada or anglicised as Nerbudda, is the 5th longest river in India and overall the longest west-flowing river in the country. It is also the largest flowing river in the s",
-      "image": "Narmada_River_Jabalpur_India.jpg"
-    },
     "Prayagraj": {
       "title": "Prayagraj",
       "lead": "Prayagraj (, Hindi: [pɾəjaːɡ.ɾaːd͡ʑ]; ISO: Prayāgarāja), formerly and colloquially known as Allahabad, is a metropolis in the Indian state of Uttar Pradesh. It is the administrative headquarters of the Prayagraj district, the most populous ",
@@ -797,10 +1037,170 @@
       "lead": "Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions, texts, philosophies, and practices that developed in the Amaravati region of ancient India (c. 1st century BCE onwards). Mahāyāna",
       "image": "Astasahasrika_Prajnaparamita_Maitreya_Detail.jpeg"
     },
-    "Muhammad": {
-      "title": "Muhammad",
-      "lead": "Muhammad (c. 570 CE – 8 June 632 CE) was an Arab religious, military and political leader, and the founder of Islam. According to Islam, he was the final prophet of God who was divinely inspired to preach and confirm the monotheistic teachi",
-      "image": "Al-Masjid_AL-Nabawi_Door.jpg"
+    "Gupta_Empire": {
+      "title": "Gupta Empire",
+      "lead": "The Gupta Empire was an Indian empire during the classical period of the Indian subcontinent which existed from the mid 3rd century to mid 6th century CE. At its peak, the dynasty ruled over an empire that spanned much of the northern India",
+      "image": "South_Asia_historical_AD375_EN.svg"
+    },
+    "B%C4%81%E1%B9%87abha%E1%B9%AD%E1%B9%ADa": {
+      "title": "Bāṇabhaṭṭa",
+      "lead": "Bāṇabhaṭṭa (Sanskrit: बाणभट्ट) was a 7th-century Sanskrit prose writer and poet from India. He was the court poet of Emperor Harsha, during his reign at Kanyakubja. Bāna's principal works include a biography of Harsha, the Harshacharita and",
+      "image": ""
+    },
+    "Mahabharata": {
+      "title": "Mahabharata",
+      "lead": "The Mahābhārata ( mə-HAH-BAR-ə-tə, MAH-hə-; Sanskrit: महाभारतम्, IAST: Mahābhāratam, pronounced [mɐɦaːˈbʱaːrɐt̪ɐm], 'Great Bharata') is one of the two major Sanskrit epics of ancient India revered in Hinduism, the other being the Ramayana. ",
+      "image": "Kurukshetra.jpg"
+    },
+    "Ramayana": {
+      "title": "Ramayana",
+      "lead": "The Ramayana (; Sanskrit: रामायणम्, romanized: Rāmāyaṇam), also known as the Valmiki Ramayana, as traditionally attributed to Valmiki, is a Hindu smriti epic poem (also described as a Sanskrit epic) from ancient India, one of the two import",
+      "image": "Rāma_slays_Rāvaṇa.png"
+    },
+    "Vindhya_Range": {
+      "title": "Vindhya Range",
+      "lead": "The Vindhya Range (IPA: [ʋɪnd̪ʱjə], also known as Vindhyachal) is a complex, discontinuous chain of mountain ridges, hill ranges, highlands and plateau escarpments in west-central India. Technically, the Vindhyas do not form a single mounta",
+      "image": "View_of_valley_between_Malwa_and_Mandu_plateaus.jpg"
+    },
+    "Deccan_Plateau": {
+      "title": "Deccan Plateau",
+      "lead": "The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (163,000 sq mi) on the southern part of the Indian subcontinent. The plateau forms the bulk of the Deccan Peninsula, and stretches fr",
+      "image": "Deccan,_India.png"
+    },
+    "Great_Tang_Records_on_the_Western_Regions": {
+      "title": "Records of the Western Regions",
+      "lead": "The Records of the Western Regions, also known by its Chinese name as the Datang Xiyuji or Da Tang Xiyu Ji and by various other translations and Romanized transcriptions, is a narrative of the Chinese Buddhist monk Xuanzang's 19 year journe",
+      "image": "大唐西域記（四庫）.jpg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Tarim_Basin": {
+      "title": "Tarim Basin",
+      "lead": "The Tarim Basin is an endorheic basin in Xinjiang, Northwestern China, occupying an area of about 888,000 km2 (343,000 sq mi) and the largest basin in Northwest China. Located in China's Xinjiang region, it is sometimes used synonymously to",
+      "image": "Wfm_tarim_basin.jpg"
+    },
+    "Taklamakan_Desert": {
+      "title": "Taklamakan Desert",
+      "lead": "The Taklamakan Desert ( TAK-lə-mə-KAN) is a desert in northwest China. Located inside the Tarim Basin in Southern Xinjiang, it is bounded by the Kunlun Mountains to the south, the Pamir Mountains to the west, the Tian Shan range to the nort",
+      "image": "Taklamakan_desert.jpg"
+    },
+    "Tian_Shan": {
+      "title": "Tian Shan",
+      "lead": "The Tian Shan, also known as the Tengri Tagh or Tengir-Too, is a large system of mountain ranges in Central Asia. The highest peak is Jengish Chokusu at 7,439 metres (24,406 ft) high and located in Kyrgyzstan. Its lowest point is at the Tur",
+      "image": "Alpine_meadows_and_snow-covered_peaks_in_Khan_Tengri_Nature_Park,_Tien_Shan.jpg"
+    },
+    "Samarkand": {
+      "title": "Samarkand",
+      "lead": "Samarkand is a city in southeastern Uzbekistan and among the oldest continuously inhabited cities in Central Asia. Samarkand is the capital of the Samarkand Region and a district-level city, that includes the urban-type settlements Kimyogar",
+      "image": "RegistanSquare_Samarkand.jpg"
+    },
+    "Bactria": {
+      "title": "Bactria",
+      "lead": "Bactria (; Bactrian: βαχλο, Bakhlo), or Bactriana, was an ancient Iranian civilization in Central Asia, located in the area south of the Oxus River (modern Amu Darya) and north of the Hindu Kush mountains, within modern-day Afghanistan, Taj",
+      "image": "BactriaMap.jpg"
+    },
+    "Hindu_Kush": {
+      "title": "Hindu Kush",
+      "lead": "The Hindu Kush is an 800-kilometre-long (500 mi) mountain range in Central and South Asia to the west of the Himalayas. It stretches from central and eastern Afghanistan into northwestern Pakistan and far southeastern Tajikistan. The range ",
+      "image": "Hindu_Kush_mountains_(30357238428).jpg"
+    },
+    "Gandhara": {
+      "title": "Gandhara",
+      "lead": "Gandhara (Sanskrit: गन्धारः, romanized: Gandhāra) was an ancient Indo-Aryan civilisation located in present-day northwestern Pakistan and northeastern Afghanistan. The core of the region of Gandhara was the Valley of Peshawar, though the cu",
+      "image": ""
+    },
+    "Peshawar": {
+      "title": "Peshawar",
+      "lead": "Peshawar is the capital and largest city of the Pakistani province of Khyber Pakhtunkhwa. It is the eighth-most populous Pakistani city, with a population of over 1.9 million. It is located in the north-west of the country, lying in the Val",
+      "image": "Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan_cropped.jpg"
+    },
+    "Varanasi": {
+      "title": "Varanasi",
+      "lead": "Varanasi (Hindi pronunciation: [ʋaːˈɾaːɳəsi], also Benares, Banaras Hindustani pronunciation: [bəˈnaːɾəs]), or Kashi, is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourn",
+      "image": "Varanasi,_India,_Ghats,_Cremation_ceremony_in_progress.jpg"
+    },
+    "Gautama_Buddha": {
+      "title": "The Buddha",
+      "lead": "Siddhartha Gautama, most commonly referred to as the Buddha (lit. 'the awakened one'), was a wandering ascetic and religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. Accor",
+      "image": "Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg"
+    },
+    "Buddhism": {
+      "title": "Buddhism",
+      "lead": "Buddhism, also known as Buddhadharma and Dharmavinaya, is an Indian religion and philosophy based on teachings attributed to the Buddha, a śramaṇa and religious teacher who lived in the 6th or 5th century BCE. It is the world's fourth-large",
+      "image": "Kamakura_Budda_Daibutsu_front_1885.jpg"
+    },
+    "Yamuna": {
+      "title": "Yamuna",
+      "lead": "The Yamuna (pronounced [jəmʊnɑː]; IAST: Yamunā) is the second-largest tributary river of the Ganges by discharge and the longest tributary in India. Originating from the Yamunotri Glacier at a height of about 4,500 m (14,800 ft) on the sout",
+      "image": "Vishram_Ghat.jpg"
+    },
+    "Brahmin": {
+      "title": "Brahmin",
+      "lead": "Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu society. The other three varnas are the Kshatriya (rulers and warriors), Vaishya (traders, merchants, and farmers), and Shudra (laboure",
+      "image": "Image_taken_from_page_40_of_'The_Land_of_Temples_(India)'_(11151912296).jpg"
+    },
+    "Garuda": {
+      "title": "Garuda",
+      "lead": "Garuda (Sanskrit: गरुड, romanized: Garuḍa; Pali: गरुळ, romanized: Garuḷa) is a Hindu deity who is primarily depicted as the mount (vahana) of the Hindu god Vishnu. This divine creature is mentioned in the Hindu, Buddhist, and Jain faiths. G",
+      "image": "Garuda_by_Hyougushi_in_Delhi.jpg"
+    },
+    "Vishnu": {
+      "title": "Vishnu",
+      "lead": "Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and Hari, is one of the principal deities of Hinduism. He is the Supreme Being within Vaishnavism, one of the major traditions within",
+      "image": "Vishnu_from_Gita_Govinda.jpg"
+    },
+    "Tibet": {
+      "title": "Tibet",
+      "lead": "Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homeland of the Tibetans. Other ethnic groups also reside on the plateau, including Mongols, the Lhoba, Monpa, Qiang, Sherpa, and since",
+      "image": "Tibet-claims.jpg"
+    },
+    "Shaivism": {
+      "title": "Shaivism",
+      "lead": "Shaivism (; Sanskrit: शैवसंप्रदायः, romanised: Śaivasampradāyaḥ) is an umbrella-term for a number of Hindu religious traditions, which worship Shiva as the supreme being. The followers of Shaivism are called Shaivas or Shaivites, numbering ",
+      "image": "Worship_AS.jpg"
+    },
+    "Vaishnavism": {
+      "title": "Vaishnavism",
+      "lead": "Vaishnavism (Sanskrit: वैष्णवसम्प्रदायः, romanised: Vaiṣṇavasampradāyaḥ), also called Vishnuism, is one of the major Hindu religious traditions, that considers Vishnu as the supreme being leading all other Hindu deities, that is, Mahavishnu",
+      "image": "Hindu_God_Vishnu_as_Narayana_witth_Consorts_10_AD_Sculpture_at_LA_County_Museum_of_Art.tif"
+    },
+    "Babur": {
+      "title": "Babur",
+      "lead": "Babur (Persian: ببر, Persian: [bɑː.βuɾ]; 14 February 1483 – 26 December 1530; born Zahīr ud-Dīn Muhammad) was the founder of the Mughal Empire in the Indian subcontinent. He was a descendant of Timur and Genghis Khan through his father and ",
+      "image": "Humayun_and_Babur_(Late_Shah_Jahan_Album)_Babur_detail.jpg"
+    },
+    "Mecca": {
+      "title": "Mecca",
+      "lead": "Mecca, officially Makkah al-Mukarramah, is a city in the Hejazi region of western Saudi Arabia and is the capital of Mecca Province. Mecca is considered the birthplace of Islam and the Islamic prophet Muhammad, as well as being the holiest ",
+      "image": "Great_Mosque_of_Mecca1.jpg"
+    },
+    "Medina": {
+      "title": "Medina",
+      "lead": "Medina, officially al-Madinah al-Munawwarah, also known as al-Madinah an-Nabawiyyah and Taybah, and known in pre-Islamic times as Yathrib, is the capital and administrative centre of Medina Province in the Hejaz region of western Saudi Arab",
+      "image": "Al-Masjid_An-Nabawi_(Bird's_Eye_View).jpg"
+    },
+    "Caliphate": {
+      "title": "Caliphate",
+      "lead": "A caliphate is an institution or public office under the leadership of an Islamic steward with the title of caliph (), a person considered a political–religious successor to the Islamic prophet Muhammad and a leader of the entire Muslim wor",
+      "image": ""
+    },
+    "Ravikirti": {
+      "title": "Ravikirti",
+      "lead": "Ravikirti was a 7th-century Jain monk, poet, scholar, and epigraphist active in the Deccan region of India. He served in the court of Immadi Pulakeshi (Pulakeshin II), the Chalukya emperor of Vatapi (Badami), and is regarded as his spiritua",
+      "image": "634_CE_Aihole_inscription_Meguti_Jain_temple,_1879_photolithography_print.jpg"
+    },
+    "%C5%9A%C4%ABlabhadra": {
+      "title": "Śīlabhadra",
+      "lead": "Śīlabhadra (traditional Chinese: 戒賢; ; pinyin: Jièxián) (529–645) was a Buddhist monk and philosopher. He is best known as being an abbot of Nālandā monastery in India, as being an expert on Yogācāra teachings, and for being the personal tu",
+      "image": ""
+    },
+    "Rashidun_Caliphate": {
+      "title": "Rashidun Caliphate",
+      "lead": "The Rashidun Caliphate (Arabic: الخلافة الرّاشدة, romanized: al-Khilāfat ar-Rāshidah) was the early Islamic polity led by the first four successive caliphs (lit. \"successors\"): Abu Bakr, Umar, Uthman, and Ali, collectively known as the Rash",
+      "image": "Mohammad_adil-Rashidun-empire-at-its-peak-close.PNG"
     },
     "Mahendravarman_I": {
       "title": "Mahendravarman I",
@@ -822,11 +1222,6 @@
       "lead": "The Ajanta Caves are 30 rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in Aurangabad district of Maharashtra state in India. Ajanta Caves are a UNESCO World Heritage Site. Universally regarded as masterp",
       "image": "Ajanta_(63).jpg"
     },
-    "Mahabalipuram": {
-      "title": "Mamallapuram",
-      "lead": "Mamallapuram (also known as Mahabalipuram), is a town in Chengalpattu district in the southeastern Indian state of Tamil Nadu, best known for the UNESCO World Heritage Site of 7th- and 8th-century Hindu Group of Monuments at Mahabalipuram. ",
-      "image": "A_collage_of_Mamallapuram_town_Tamil_Nadu_India.jpg"
-    },
     "Pancha_Rathas": {
       "title": "Pancha Rathas",
       "lead": "Pancha Rathas (also known as Five Rathas or Pandava Rathas or Ainthinai kovil) is a monument complex at Mahabalipuram, on the Coromandel Coast of the Bay of Bengal, in the Chengalpattu district of the state of Tamil Nadu, India. Pancha Rath",
@@ -846,16 +1241,6 @@
       "title": "Pattadakal",
       "lead": "Pattadakal (Pattadakallu), also called Raktapura, is a complex of 7th and 8th century CE Hindu and Jain temples in northern Karnataka, India. Located on the west bank of the Malaprabha River in Bagalkot district, this UNESCO World Heritage ",
       "image": "Pattadakal_000.JPG"
-    },
-    "Belur,_Karnataka": {
-      "title": "Belur, Karnataka",
-      "lead": "Belur (IPA: [beːluːru]) is a town and taluk in Hassan district in the state of Karnataka, India. The town is renowned for its Chennakeshava Temple dedicated to Vishnu, one of the finest examples of Hoysala architecture and the largest Hindu",
-      "image": "Belur_street_towards_Chennakesava_temple.JPG"
-    },
-    "Halebidu": {
-      "title": "Halebidu",
-      "lead": "Halebidu (IAST: Haḷēbīḍu, literally \"old capital, city, encampment\" or \"ruined city\") is a town located in Hassan District, Karnataka, India. Historically known as Dwārasamudra (also Dorasamudra), Halebidu became the regal capital of the Ho",
-      "image": "Halebidu_monuments_map,_1930_survey,_the_Dorasamudra_of_Hoysala_dynasty.jpg"
     },
     "Manyakheta": {
       "title": "Malkheda",
@@ -907,15 +1292,120 @@
       "lead": "The Gulf of Mannar ( mə-NAR) (Tamil: மன்னார் வளைகுடா, romanized: Maṉṉār vaḷaikuṭā; Sinhala: මන්නාරම් බොක්ක, romanized: mannāram bokka) is a large shallow bay forming part of the Laccadive Sea in the Indian Ocean with an average depth of 5.8",
       "image": "Locatie_Golf_van_Mannar.PNG"
     },
-    "Meenakshi_Temple": {
-      "title": "Meenakshi Temple",
-      "lead": "Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sund",
-      "image": "An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg"
-    },
     "Kulasekhara_dynasty": {
       "title": "Chera Perumals of Makotai",
       "lead": "Cheraman Perumal dynasty, also known as the Perumal dynasty of Kerala, or the Chera Perumals of Makotai or Mahodayapuram (fl. c. 844—c. 1124 CE), was a ruling dynasty in present-day Kerala, south India. Mahodayapuram, or Makotai—the capital",
       "image": "South_India_in_early_11th_century_AD.jpg"
+    },
+    "Persians": {
+      "title": "Persians",
+      "lead": "Persians, or Persian people, are an Iranian ethnic group indigenous to the Iranian plateau in West Asia that comprise the majority of the population of modern-day Iran. They have a common cultural system and are native speakers of the Persi",
+      "image": ""
+    },
+    "Satavahana_dynasty": {
+      "title": "Satavahana dynasty",
+      "lead": "The Satavahanas (; Sādavāhana or Sātavāhana, IAST: Sātavāhana), also referred to as the Andhras (also Andhra-bhṛtyas or Andhra-jatiyas) in the Puranas, were an ancient Indian dynasty. Most modern scholars believe that the Satavahana rule be",
+      "image": "Vashishtiputra_Sri_Satakarni.jpg"
+    },
+    "Maharashtra": {
+      "title": "Maharashtra",
+      "lead": "Maharashtra is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau. It is bordered by the Arabian Sea to the west, the Indian states of Karnataka and Goa to the south, Telangana to the sou",
+      "image": "Cave_26,_Ajanta.jpg"
+    },
+    "Indian_Ocean": {
+      "title": "Indian Ocean",
+      "lead": "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface. It is bounded by Asia to the north, Africa to the west and Au",
+      "image": "Indian_Ocean-CIA_WFB_Map.png"
+    },
+    "Abbasid_Caliphate": {
+      "title": "Abbasid Caliphate",
+      "lead": "The Abbasid Caliphate or Abbasid Empire was the third Islamic caliphate, ruled by the Abbasid dynasty. The dynasty was descended from Muhammad's uncle, Abbas ibn Abd al-Muttalib (d. 653), after whom it is named. The Abbasids rose to power i",
+      "image": "Abbasid_banner.svg"
+    },
+    "Baghdad": {
+      "title": "Baghdad",
+      "lead": "Baghdad is the capital and largest city in Iraq. It is located on the banks of the Tigris in central Iraq. The city has an estimated population of 8 million. It ranks among the most populous and largest cities in the Middle East and the Ara",
+      "image": "5628442718_b10fc2c47f_o.jpg"
+    },
+    "Byzantine_Empire": {
+      "title": "Byzantine Empire",
+      "lead": "The Byzantine Empire, also known as the Eastern Roman Empire, was the continuation of the Roman Empire centred on Constantinople during late antiquity and the Middle Ages. Having survived the events that caused the fall of the Western Roman",
+      "image": "Eastern_Roman_Empire_565_CE.svg"
+    },
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "image": "Byzantine_Constantinople-en.png"
+    },
+    "Nandi_(Hinduism)": {
+      "title": "Nandi (Hinduism)",
+      "lead": "Nandi (Sanskrit: नन्दि), also known as Nandikeshvara or Nandideva, is the bull vahana (mount) of the Hindu god Shiva. He is also the guardian deity of Kailash, the abode of Shiva. Almost all Shiva temples display stone images of a seated Na",
+      "image": "Nandieshvara.jpg"
+    },
+    "Persian_Gulf": {
+      "title": "Persian Gulf",
+      "lead": "The Persian Gulf, sometimes called the Arabian Gulf, is a mediterranean sea in West Asia. The body of water is an extension of the Arabian Sea and the larger Indian Ocean located between the Arabian Peninsula and Iran (Persia). It is connec",
+      "image": "PersianGulf_vue_satellite_du_golfe_persique.jpg"
+    },
+    "Red_Sea": {
+      "title": "Red Sea",
+      "lead": "The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is in the south, through the Bab-el-Mandeb Strait and the Gulf of Aden. To the north of the Red Sea lies the Sinai Peninsula, the Gul",
+      "image": "Red_Sea_topographic_map-en.jpg"
+    },
+    "Kozhikode": {
+      "title": "Kozhikode",
+      "lead": "Kozhikode (pronounced [koːɻikːoːɖɨ̆] ), also known as Calicut, is a city along the Malabar Coast in the state of Kerala in India. The city is also known as the City of Spices. It is the nineteenth largest urban agglomeration in the country ",
+      "image": "Kozhikode_beach_kites.jpg"
+    },
+    "Sindh": {
+      "title": "Sindh",
+      "lead": "Sindh is a province of Pakistan, located in the southeastern region of the country. It is the third-largest Pakistani province by land area and second-largest by population. It is bounded by the Arabian Sea to the south and borders the prov",
+      "image": "Jinnah_Mausoleum.JPG"
+    },
+    "Chang'an": {
+      "title": "Chang'an",
+      "lead": "Chang'an, located in China's Shaanxi Province, was the capital city of several Chinese dynasties, including the Western Han and the Tang, from 202 BC to 907 AD. At various times, it was the largest city in the world. Its name was subsequent",
+      "image": "Prince_Yide's_tomb,_towers.jpg"
+    },
+    "Xi'an": {
+      "title": "Xi'an",
+      "lead": "Xi'an is the capital of the Chinese province of Shaanxi. A sub-provincial city on the Guanzhong plain, the city is the third-most populous city in Western China after Chongqing and Chengdu, as well as the most populous city in Northwestern ",
+      "image": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg"
+    },
+    "Holy_Roman_Emperor": {
+      "title": "Holy Roman Emperor",
+      "lead": "The Holy Roman Emperor, originally and officially the Emperor of the Romans (Latin: Imperator Romanorum; German: Kaiser der Römer) during the Middle Ages, and also known as the Roman-German Emperor since the early modern period (Latin: Impe",
+      "image": "Hans_Burgkmair_d._Ä._005.jpg"
+    },
+    "Copán": {
+      "title": "Copán",
+      "lead": "Copán is an archaeological site of the Maya civilization in the Copán Department of western Honduras, not far from the border with Guatemala. It is one of the most important sites of the Maya civilization, which was not excavated until the ",
+      "image": "Copan_sculpture.jpg"
+    },
+    "Tikal": {
+      "title": "Tikal",
+      "lead": "Tikal (; Tik'al in modern Mayan orthography) is the ruin of an ancient city, which was likely to have been called Yax Mutal, found in a rainforest in Guatemala. It is one of the largest archaeological sites and urban centers of the pre-Colu",
+      "image": "Tikal_3.jpg"
+    },
+    "Carolingian_Empire": {
+      "title": "Carolingian Empire",
+      "lead": "The Carolingian Empire (800–887) was a Frankish-dominated empire in Western and Central Europe during the Early Middle Ages. It was ruled by the Carolingian dynasty, which had ruled as kings of the Franks since 751 and as kings of the Lomba",
+      "image": "Francia_814.svg"
+    },
+    "Simhavishnu": {
+      "title": "Simhavishnu",
+      "lead": "Simhavishnu (IAST: Siṃhaviṣṇu), also known as Avanisimha, son of Simhavarman III, was a king of the Pallava dynasty responsible for its revival. He was the first Pallava monarch whose domain extended beyond Kanchipuram (Kanchi) to the south",
+      "image": "Simhavishnu_portrait_in_stone.jpg"
+    },
+    "Kavirajamarga": {
+      "title": "Kavirajamarga",
+      "lead": "Kavirajamarga (Kannada: ಕವಿರಾಜಮಾರ್ಗ) (850 C.E.) is the earliest available work on rhetoric, poetics and grammar in the Kannada language. It was inspired by or written in part by the famous Rashtrakuta King Amoghavarsha I, and some historian",
+      "image": "Stanza_from_Kavirajamarga.svg"
+    },
+    "Umayyad_Caliphate": {
+      "title": "Umayyad Caliphate",
+      "lead": "The Umayyad Caliphate or the Umayyad Empire (US: ; Arabic: ٱلْخِلَافَة ٱلْأُمَوِيَّة, romanized: al-Khilāfa al-Umawiyya) was the second caliphate established after the death of the Islamic prophet Muhammad and was ruled by the Umayyad dynas",
+      "image": "Umayyad_Caliphate_720_AD_(orthographic_projection).svg"
     },
     "Nagabhata_I": {
       "title": "Nagabhata I",
@@ -967,10 +1457,75 @@
       "lead": "The Chahamanas of Shakambhari (IAST: Cāhamāna), colloquially known as the Chauhans of Sambhar or Chauhans of Ajmer, were an Indian dynasty that ruled parts of present-day Rajasthan and neighbouring areas between the sixth and twelfth centur",
       "image": "Vigraha_Raja_IV_of_the_Chauhans_of_Ajmer_Circa_1150-1164.jpg"
     },
-    "Thanjavur": {
-      "title": "Thanjavur",
-      "lead": "Thanjavur (Tamil: [t̪aɲdʑaːʋuːɾ]), also known as Thanjai, previously known as Tanjore, is a city in the Indian state of Tamil Nadu. It is the 12th biggest city in Tamil Nadu. Thanjavur is an important center of southern Indian religion, art",
-      "image": "Thanjavur_2.jpg"
+    "Saracen": {
+      "title": "Saracen",
+      "lead": "The word \"Saracen\" ( SARR-ə-sən) was commonly used in medieval Europe to refer to a person who lived in or near what the ancient Romans knew as Arabia Petraea and Arabia Deserta. Its original meaning in Greek and Latin is not known with cer",
+      "image": "Erhard_Reuwich_Sarazenen_1486.png"
+    },
+    "Rama": {
+      "title": "Rama",
+      "lead": "Rama (; Sanskrit: राम, IAST: Rāma, Sanskrit: [ˈraːmɐ] ) is a major deity in Hinduism. He is worshipped as the seventh and one of the most popular avatars of Vishnu. In Rama-centric Hindu traditions, he is considered the Supreme Being. Also ",
+      "image": "Lord_Rama_with_arrows.jpg"
+    },
+    "Kshatriya": {
+      "title": "Kshatriya",
+      "lead": "Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, \"rule, authority\"; also called Rajanya) is one of the four varnas (social orders, coming called castes) of Hindu society and is associated with the warrior aristocra",
+      "image": "Statue_of_Bhishma.jpg"
+    },
+    "Avanti_(India)": {
+      "title": "Avanti (region)",
+      "lead": "Avanti was an ancient Indian Mahajanapada (Great Janapada), roughly corresponding to the present-day Malwa region. According to the Buddhist texts, the Anguttara Nikaya, Avanti was one of the solasa mahajanapadas (sixteen great realms) of t",
+      "image": "Mahajanapadas_(c._500_BCE).png"
+    },
+    "Tāranātha": {
+      "title": "Taranatha",
+      "lead": "Tāranātha (1575–1634) was a Lama of the Jonang school of Tibetan Buddhism. He is widely considered its most remarkable scholar and exponent. Taranatha was born in Tibet, supposedly on the birthday of Padmasambhava. His original name was Kun",
+      "image": "Taranatha.jpg"
+    },
+    "Uttar_Pradesh": {
+      "title": "Uttar Pradesh",
+      "lead": "Uttar Pradesh (UTT-ər prə-DESH, abbr. UP; Hindi: Uttar Pradēś, pronounced [ˈʊt̪ːəɾ pɾə.ˈdeːɕ] , lit. 'Northern Province') is a state in northern India. With over 241 million inhabitants, it is India's most populated state. The state is bord",
+      "image": "Taj_Mahal_(Edited).jpeg"
+    },
+    "Khyber_Pass": {
+      "title": "Khyber Pass",
+      "lead": "The Khyber Pass is a mountain pass in the Khyber District of the Pakistani province of Khyber Pakhtunkhwa, along the international border with Afghanistan. It connects the town of Landi Kotal to the Valley of Peshawar at Jamrud by traversin",
+      "image": "KhyberPassPakistan.jpg"
+    },
+    "Ghaznavids": {
+      "title": "Ghaznavid Empire",
+      "lead": "The Ghaznavid Empire (Persian: غزنویان, romanized: Ġaznaviyān) was a culturally Persianate, Sunni Muslim state of Turkic mamluk origin. Flourishing from 977 to 1186, the empire spread from the Oxus to the Indus Valley at its greatest extent",
+      "image": "Ghaznavids.jpg"
+    },
+    "Gujarati_people": {
+      "title": "Gujarati people",
+      "lead": "The Gujarati people, or Gujaratis, are an Indo-Aryan ethnolinguistic group native to the Indian state of Gujarat. They primarily speak Gujarati, an Indo-Aryan language. Gujaratis have diaspora across India as well in a large number of count",
+      "image": "Traditional_Folk_dance_garba_dress.jpg"
+    },
+    "Treaty_of_Verdun": {
+      "title": "Treaty of Verdun",
+      "lead": "The Treaty of Verdun (French: Traité de Verdun; German: Vertrag von Verdun), agreed to on 10 August 843, ended the Carolingian civil war and divided the Carolingian Empire between Lothair I, Louis II and Charles II, the surviving sons of th",
+      "image": "Louis_the_Pious_blessing_the_division_of_the_Carolingian_Empire_in_843_into_West_Francia,_Lotharingia,_and_East_Francia.jpg"
+    },
+    "Bharuch": {
+      "title": "Bharuch",
+      "lead": "Bharuch () is a city at the mouth of the Narmada River in Gujarat in the western part of India. Bharuch is the administrative headquarters of Bharuch District. The city of Bharuch and its surroundings have been settled since times of antiqu",
+      "image": "BrSwamitemple.JPG"
+    },
+    "Macedonian_Renaissance": {
+      "title": "Macedonian Renaissance",
+      "lead": "The Macedonian Renaissance (Greek: Μακεδονική Αναγέννηση) is a historiographical term used for the blossoming of Byzantine culture in the 9th–11th centuries, under the eponymous Macedonian dynasty (867–1056), following the upheavals and tra",
+      "image": "Apse_mosaic_Hagia_Sophia_Virgin_and_Child.jpg"
+    },
+    "Indra_III": {
+      "title": "Indra III",
+      "lead": "Indra III (died 929) was the Rashtrakuta emperor from 914 until his death in 929. He was the grandson of Krishna II and son of Chedi princess Lakshmi. He ascended the imperial throne after the early demise of his father Jagattunga. He had m",
+      "image": ""
+    },
+    "Buddhism_in_India": {
+      "title": "History of Buddhism in India",
+      "lead": "Buddhism is an ancient Indian religion and philosophy, which arose in and around the ancient Kingdom of Magadha (now Bihar, India). It is based on the teachings of Gautama Buddha, who lived in the 6th or 5th century BCE and was deemed a \"Bu",
+      "image": "Sanchi_Stupa_from_Eastern_gate,_Madhya_Pradesh.jpg"
     },
     "Vijayalaya_Chola": {
       "title": "Vijayalaya Chola",
@@ -1072,25 +1627,90 @@
       "lead": "Kulottunga Chola I (; Middle Tamil: Kulōttuṅka Cōḻaṉ; 1025–1122) also spelt Kulothunga (lit. 'The Exalter of His Clan'), born Rajendra Chalukya, was a Chola Emperor who reigned from 1070 to 1122 succeeding his cousin Athirajendra Chola. He ",
       "image": "Sculpture_in_a_wall_at_Nataraja_Temple_in_Chidambaram,_Tamil_Nadu.jpg"
     },
-    "Nataraja": {
-      "title": "Nataraja",
-      "lead": "Nataraja (Sanskrit: नटराज, IAST: Naṭarāja; Tamil: நடராஜர், Naṭarājar), also known as Adalvallan (ஆடல்வல்லான், Ādalvallāṉ), is a depiction of Shiva, one of the main deities in Hinduism, as the divine cosmic dancer. His dance is called the ta",
-      "image": "Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg"
-    },
     "Khmer_Empire": {
       "title": "Khmer Empire",
       "lead": "The Khmer Empire was an empire in mainland Southeast Asia, centred on hydraulic cities in what is now northern Cambodia. Known as Kambuja (Old Khmer: កម្វុជ; Khmer: កម្ពុជ) by its inhabitants, it grew out of the former civilisation of Chenl",
       "image": "Map-of-southeast-asia_900_CE.svg"
     },
+    "Sinhalese_people": {
+      "title": "Sinhalese people",
+      "lead": "The Sinhalese people (Sinhala: සිංහල ජනතාව, romanized: Sinhala Janathāva), also known as the Sinhalese or Sinhala people, are an Indo-Aryan ethno-linguistic group native to the island of Sri Lanka. They are the largest ethnic group in Sri L",
+      "image": "Sinhalese_Wedding_Ceremony.jpg"
+    },
+    "Arabian_Sea": {
+      "title": "Arabian Sea",
+      "lead": "The Arabian Sea (Arabic: بَحرُ ٱلْعَرَبْ, romanized: baḥr al-ʿarab) is a region of sea in the northern Indian Ocean, bounded on the west by the Arabian Peninsula, Gulf of Aden and Guardafui Channel, on the northwest by Gulf of Oman and Iran",
+      "image": "Arabian_Sea_-_October_2012.jpg"
+    },
+    "Holy_Roman_Empire": {
+      "title": "Holy Roman Empire",
+      "lead": "The Holy Roman Empire, also known as the Holy Roman Empire of the German Nation after 1512, was a polity comprising and controlling much of Central Europe and Western Europe, headed by the Holy Roman Emperor and characterized by a decentral",
+      "image": "Banner_of_the_Holy_Roman_Emperor_with_haloes_(1430-1806).svg"
+    },
+    "London": {
+      "title": "London",
+      "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
+      "image": "London_Skyline_(125508655).jpeg"
+    },
+    "Sumatra": {
+      "title": "Sumatra",
+      "lead": "Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian territory, as well as the sixth-largest island in the world at 482,286.55 km2 (182,812 mi.2), including adjacent islands s",
+      "image": "Sumatra_Topography.png"
+    },
+    "Angkor": {
+      "title": "Angkor",
+      "lead": "Angkor (Khmer: អង្គរ [ʔɑŋkɔː], lit. 'capital city'), also known as Yasodharapura (Khmer: យសោធរបុរៈ; Sanskrit: यशोधरपुर), was the capital city of the Khmer Empire, located in present-day Cambodia. The empire flourished from approximately the",
+      "image": "Angkor_Wat_W-Seite.jpg"
+    },
+    "Suryavarman_II": {
+      "title": "Suryavarman II",
+      "lead": "Suryavarman II (Khmer: សូរ្យវរ្ម័នទី២, UNGEGN: Soryôvôrmoăn Ti 2, ALA-LC: Sūryavarmăn Dī 2), posthumously named Paramavishnuloka, was the ruler of the Khmer Empire from 1113 until his death in 1150. He is most famously known as the builder ",
+      "image": "Suryavarman_II_Angkor_Wat_0869.jpg"
+    },
+    "Angkor_Wat": {
+      "title": "Angkor Wat",
+      "lead": "Angkor Wat (; Khmer: អង្គរវត្ត, 'City/Capital of Temples') is a Vaishnava Hindu and Theravada Buddhist temple complex in Siem Reap, Cambodia, and the largest religious complex in the world. Located on a site measuring 162.6 hectares (1.6 km",
+      "image": "Buddhist_monks_in_front_of_the_Angkor_Wat.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Hagia_Sophia": {
+      "title": "Hagia Sophia",
+      "lead": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, is a mosque and a major cultural and historical site in Istanbul, Turkey. It was formerly a church (360–1453) and a museum (1935–2020). The last of three church buildings to be success",
+      "image": "Hagia_Sophia_(228968325).jpeg"
+    },
+    "Phnom_Penh": {
+      "title": "Phnom Penh",
+      "lead": "Phnom Penh is the capital and most populous city of Cambodia. It has been the national capital since 1865 and has grown to become the nation's primate city and its political, economic, industrial, and cultural centre. The city's name derive",
+      "image": "Phnom_Penh_skyline_from_TK_district_Dec_2024.jpg"
+    },
+    "Song_dynasty": {
+      "title": "Song dynasty",
+      "lead": "The Song dynasty ( SUUNG) was an imperial dynasty of China that ruled from 960 to 1279. The dynasty was founded by Emperor Taizu of Song, who usurped the throne of the Later Zhou dynasty and went on to conquer the rest of the Ten Kingdoms, ",
+      "image": "China_-_Song_Dynasty-en.svg"
+    },
+    "Fatimid_Caliphate": {
+      "title": "Fatimid Caliphate",
+      "lead": "The Fatimid Caliphate (; Arabic: الخلافة الفاطمیّة, romanized: al-Khilāfa al-Fāṭimiyya), also known as the Fatimid Empire, was a caliphate that existed from the tenth to the twelfth centuries CE under the rule of the Fatimids, an Isma'ili S",
+      "image": "Fatimid_Caliphate.PNG"
+    },
+    "Ming_dynasty": {
+      "title": "Ming dynasty",
+      "lead": "The Ming dynasty, officially the Great Ming, was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty. The Ming was the last imperial dynasty of China ruled by the Han people, the ",
+      "image": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
+    },
+    "Maratha_Empire": {
+      "title": "Maratha Empire",
+      "lead": "The Maratha Empire, also referred to as the Maratha Confederacy, was an early modern polity in the Indian subcontinent. For most of its existence, it comprised the realms of the Peshwa and four major independent Maratha states under the nom",
+      "image": "India1760_1905.jpg"
+    },
     "Nayanars": {
       "title": "Nayanars",
       "lead": "The Nayanars (or Nayanmars; Tamil: நாயன்மார், romanized: Nāyaṉmār, lit. 'hounds') were a group of 63 Tamil saints living during the 6th to 8th centuries CE. Along with the Alvars, their contemporaries, they influenced the Bhakti movement in",
       "image": "Nalvar.JPG"
-    },
-    "Vishnu": {
-      "title": "Vishnu",
-      "lead": "Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and Hari, is one of the principal deities of Hinduism. He is the Supreme Being within Vaishnavism, one of the major traditions within",
-      "image": "Vishnu_from_Gita_Govinda.jpg"
     },
     "Naalayira_Divya_Prabandham": {
       "title": "Naalayira Divya Prabandham",
@@ -1101,11 +1721,6 @@
       "title": "Tirumurai",
       "lead": "Tirumurai (Tamil: திருமுறை, meaning \"The Holy way\") is a twelve-volume compendium of songs or hymns in praise of Shiva in the Tamil language from the 6th to the 11th century CE by various poets in Tamil Nadu. Nambiyandar Nambi compiled the ",
       "image": "Nalvar.JPG"
-    },
-    "Brahmin": {
-      "title": "Brahmin",
-      "lead": "Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu society. The other three varnas are the Kshatriya (rulers and warriors), Vaishya (traders, merchants, and farmers), and Shudra (laboure",
-      "image": "Image_taken_from_page_40_of_'The_Land_of_Temples_(India)'_(11151912296).jpg"
     },
     "Nammalvar": {
       "title": "Nammalvar",
@@ -1172,15 +1787,120 @@
       "lead": "Purushartha (Sanskrit: पुरुषार्थ, romanized: Puruṣārtha; pronounced [pu.ɾu.ʂɑːɾ.tʰɐ]) literally means \"object(ive) of mankind\". It is a key concept in Hinduism, and refers to the four dimensions of a human life. The four puruṣārthas are Dha",
       "image": ""
     },
-    "Lingaraja_temple": {
-      "title": "Lingaraja Temple",
-      "lead": "Lingaraja Temple (Odia: [liŋɡɔraːd͡ʒɔ] ) is a Hindu temple dedicated to Shiva and is one of the oldest temples in Bhubaneswar, the capital of the Indian state of Odisha, India. The temple is the most prominent landmark of Bhubaneswar city a",
-      "image": "Lingaraj_Temple_,_Bhubaneswar.jpg"
-    },
     "Jagannath_Temple,_Puri": {
       "title": "Jagannath Temple, Puri",
       "lead": "The Jagannath Temple is a Hindu temple dedicated to Jagannath, a form of Vishnu. It is located in Puri, Odisha, on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple. The present temple compl",
       "image": "Shri_Jagannath_temple.jpg"
+    },
+    "Telugu_language": {
+      "title": "Telugu language",
+      "lead": "Telugu ( ; తెలుగు, Telugu pronunciation: [ˈt̪eluɡu]) is a Dravidian language native to the Indian states of Andhra Pradesh and Telangana, where it is also the official language. Telugu is a classical language with a recorded history of at l",
+      "image": "Telugu_speaker_map_India.svg"
+    },
+    "Sri_Vaishnavism": {
+      "title": "Sri Vaishnavism",
+      "lead": "Sri Vaishnavism (Sanskrit: श्रीवैष्णवसम्प्रदाय, romanized: Śrīvaiṣṇavasampradāya) is a denomination within the Vaishnavism tradition of Hinduism, predominantly practiced in South India. The name refers to goddess Lakshmi (also known as Sri)",
+      "image": "Srirangamlong_view.jpg"
+    },
+    "Krishna": {
+      "title": "Krishna",
+      "lead": "Krishna (; Sanskrit: कृष्ण, IAST: Kṛṣṇa Sanskrit: [ˈkr̩ʂɳɐ] ) is a major deity in Hinduism. He is worshipped as the eighth avatar of Vishnu and also as the Supreme God in his own right. He is the God of Love and widely revered for his divin",
+      "image": "Krishna_Holds_Up_Mount_Govardhan_(MET_70694)_cropped.png"
+    },
+    "Kalinga_(historical_region)": {
+      "title": "Kalinga (region)",
+      "lead": "Kalinga is a historical region of India. It is generally defined as the eastern coastal region between the Ganges and the Godavari rivers, although its boundaries have fluctuated with the territory of its rulers. The core territory of Kalin",
+      "image": "Mahajanapadas_(c._500_BCE).png"
+    },
+    "Pagan_kingdom": {
+      "title": "Pagan kingdom",
+      "lead": "The Pagan kingdom (Burmese: ပုဂံပြည် Băgam pyi [bəɡàɰ̃ pji]; lit. 'Bagan state'), also called Bagan Empire (ပုဂံဧကရာဇ်နိုင်ငံတော်) or the First Burmese Empire, was the first Burmese kingdom to unify the regions that would later constitute m",
+      "image": "Pagan_Empire_--_Sithu_II.PNG"
+    },
+    "Nachiyar_Tirumoli": {
+      "title": "Nachiyar Tirumoli",
+      "lead": "Nachiyar Tirumoli (transl. The Sacred Verses of the Woman) is a set of 143 verses composed by Andal, one of the twelve Alvars in Sri Vaishnava tradition in Hinduism. In her restlessness and eagerness to attain Vishnu, Andal attempts various",
+      "image": "NarayanaTirumala5.JPG"
+    },
+    "Tirumantiram": {
+      "title": "Tirumantiram",
+      "lead": "The Tirumantiram (Tamil: திருமந்திரம்) or Thirumantiram is a Tamil poetic work, written either in the 2nd century BCE and 4th century CE by Tirumular. It is the tenth of the twelve volumes of the Tirumurai, the key texts of Shaiva Siddhanta",
+      "image": "SaivismFlag.svg"
+    },
+    "Ravidas": {
+      "title": "Ravidas",
+      "lead": "Ravidas or Raidas was an Indian mystic poet-saint of the Bhakti movement during the 15th to 16th century CE. Venerated as a guru (spiritual teacher) in the modern regions of Uttar Pradesh, Bihar, Rajasthan, Gujarat, Maharashtra, Madhya Prad",
+      "image": "Bhagat_Ravidas_at_work_as_a_shoemaker._Folio_from_a_series_featuring_Bhakti_saints._Master_of_the_first_generation_after_Manaku_and_Nainsukh_of_Guler,_Pahari_region,_ca.1800–1810.jpg"
+    },
+    "Dnyaneshwar": {
+      "title": "Dnyaneshwar",
+      "lead": "Sant Dnyaneshwar (Marathi pronunciation: [d̪ɲaːn̪eʃʋəɾ]), (Devanagari : सन्त ज्ञानेश्वर), also referred to as Jñāneśvara, Jñānadeva, Dnyandev or Mauli or Dnyandev Vitthal Kulkarni (1275–1296 (living samadhi)), was a 13th-century Indian Mara",
+      "image": "Dnyaneshwar2.jpg"
+    },
+    "Namdev": {
+      "title": "Namdev",
+      "lead": "Namdev (Pronunciation: [naːmdeʋ]), also transliterated as Nam Dayv, Namdeo, Namadeva, (traditionally, c. 26 October 1270 – c. 3 July 1350) was a Marathi Vaishnava saint from Narsi, Hingoli, Maharashtra, Medieval India within the Varkari tra",
+      "image": "Namdev_maharaj.JPG"
+    },
+    "Tukaram": {
+      "title": "Tukaram",
+      "lead": "Tukaram (Marathi pronunciation: [t̪ukaːɾam]), also known as Tuka, Tukobaraya, and Tukoba, was a Hindu Marathi saint of the Warkari Sampradaya who lived in the 17th century. He was a devotee of the god Vithoba, a form of Vishnu. He is best k",
+      "image": "Tukaram_by_Raja_Ravi_Varma.jpg"
+    },
+    "Jayadeva": {
+      "title": "Jayadeva",
+      "lead": "Jayadeva (pronounced [dʑɐjɐˈdeːʋɐ]; born c. 1170 CE), also spelt Jaideva, was a Sanskrit poet during the 12th century. He is most known for his epic poem Gita Govinda which concentrates on Krishna's love with the gopi, Radha, in a rite of s",
+      "image": "Ancient_stone_idol_of_poet_Jayadeba_at_Akhandaleswara_Temple,_Prataparudrapura,_Odisha.jpg"
+    },
+    "Chennakeshava_Temple,_Belur": {
+      "title": "Chennakeshava Temple, Belur",
+      "lead": "Chennakeshava Temple, also referred to as Keshava, Kesava or Vijayanarayana Temple of Belur, is a 12th-century Hindu temple in, Hassan district of Karnataka state, India. It was commissioned by King Vishnuvardhana in 1117 CE, on the banks o",
+      "image": "The_Courtyard_of_Chennakesava_Temple_-_Belur.jpg"
+    },
+    "Hoysaleswara_Temple": {
+      "title": "Hoysaleswara Temple",
+      "lead": "Hoysaleshwara temple (also spelled as Hoysaleswara, Hoysaleśvara or Hoywalesvara temple), also referred simply as the Halebidu temple, is a 12th-century Hindu temple dedicated to the god Shiva. It is the largest monument in Halebidu, a town",
+      "image": "Hoysaleshwara_temple_in_Monsoon.JPG"
+    },
+    "Somanathapura": {
+      "title": "Somanathapura",
+      "lead": "Somanathapura, also spelled Somnathpur temple or Somanathpura is a town in T Narasipura Taluk, Mysore district in the state of Karnataka in India. It is located 38 kilometres (24 mi) from Keshava Temple at Somanathapura (Also called Keshava",
+      "image": "13th_century_Keshava_Hindu_temple_site.jpg"
+    },
+    "Lakkundi": {
+      "title": "Lakkundi",
+      "lead": "Lakkundi, also referred to as Lokkugundi, was a major city before the 14th century and is now a village in the Gadag District of Karnataka, India. By the 10th century, it was already a major economic and commercial centre, hosting mint oper",
+      "image": "11th_century_Kasivisvesvara_temple,_Lakkundi,_Karnataka_India_-_03.jpg"
+    },
+    "Tirumular": {
+      "title": "Tirumular",
+      "lead": "Tirumular, also known as Suntaranāthar, was a Tamil Shaivite mystic and writer, considered one of the sixty-three poet-saints called the Nayanars, and is listed among a group of 18 sages called the Siddhars. His magnum opus, the Tirumantira",
+      "image": "Thirumoolar_Nayanar.jpg"
+    },
+    "Karaikkal_Ammaiyar": {
+      "title": "Karaikkal Ammaiyar",
+      "lead": "Karaikal Ammaiyar (born Punītavatī), meaning \"The Revered Mother of Karaikal\", is one of the three women amongst the 63 Nayanmars and one of the greatest figures of early Tamil literature. She was born in Karaikal, South India, and probably",
+      "image": "MET_DT7391.jpg"
+    },
+    "Surdas": {
+      "title": "Surdas",
+      "lead": "Surdas was a 16th-century blind Hindu devotional poet and singer, who was known for his works written in praise of Krishna. Most of his devotional songs, or bhajans, were written in the Braj language, while some were also written in other d",
+      "image": "Surdas.jpg"
+    },
+    "Narasingha_Deva_I": {
+      "title": "Narasingha Deva I",
+      "lead": "Gajapati Langula Narasingha Deva I (Odia: ଗଜପତି ଲାଙ୍ଗୁଳା ନରସିଂହ ଦେବ ୧) was an Eastern Ganga monarch and a warrior of the Kalinga region who reigned from 1238 to 1264. He defeated the Muslim forces of Bengal who constantly threatened the Eas",
+      "image": "Narasingha_deva.jpg"
+    },
+    "Vimal_Shah": {
+      "title": "Vimal Shah",
+      "lead": "Vimal Shah is a Kenyan businessman, entrepreneur, mentor, and industrialist. He is the Chairman of Bidco Africa and is responsible for the company's growth into new markets and product. Bidco is a business conglomerate involved in the manuf",
+      "image": "VimalShahProfilePicture.png"
+    },
+    "Ranganathaswamy_Temple,_Srirangam": {
+      "title": "Ranganathaswamy Temple, Srirangam",
+      "lead": "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. Constructed in the Tamil archit",
+      "image": "Ranganathaswamy_temple_tiruchirappalli.jpg"
     },
     "Vedanta": {
       "title": "Vedanta",
@@ -1206,11 +1926,6 @@
       "title": "Bhagavad Gita",
       "lead": "The Bhagavad Gita (; Sanskrit: भगवद्गीता, IPA: [ˌbʱɐɡɐʋɐd ˈɡiːtaː], romanized: bhagavad-gītā, lit. 'God's song'), often referred to as the Gita (IAST: Gītā), is a Hindu scripture, likely composed in the second or first century BCE, which fo",
       "image": "BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
-    },
-    "Krishna": {
-      "title": "Krishna",
-      "lead": "Krishna (; Sanskrit: कृष्ण, IAST: Kṛṣṇa Sanskrit: [ˈkr̩ʂɳɐ] ) is a major deity in Hinduism. He is worshipped as the eighth avatar of Vishnu and also as the Supreme God in his own right. He is widely revered for his divine qualities of compa",
-      "image": "Krishna_Holds_Up_Mount_Govardhan_(MET_70694)_cropped.png"
     },
     "Brahma_Sutras": {
       "title": "Brahma Sutras",
@@ -1261,11 +1976,6 @@
       "title": "Vishishtadvaita",
       "lead": "Vishishtadvaita (IAST Viśiṣṭādvaita; Sanskrit: विशिष्टाद्वैत) is a school of Hindu philosophy belonging to the Vedanta tradition. Vishishta Advaita means \"non-duality with distinctions\" and recognises Brahman (ब्रह्म) as the primordial qual",
       "image": "Ramanuja_contemplating_his_philosophy_of_the_one_personal_god,_A.D._1100.jpg"
-    },
-    "Sri_Vaishnavism": {
-      "title": "Sri Vaishnavism",
-      "lead": "Sri Vaishnavism (Sanskrit: श्रीवैष्णवसम्प्रदाय, romanized: Śrīvaiṣṇavasampradāya) is a denomination within the Vaishnavism tradition of Hinduism, predominantly practiced in South India. The name refers to goddess Lakshmi (also known as Sri)",
-      "image": "Srirangamlong_view.jpg"
     },
     "Dvaita_Vedanta": {
       "title": "Dvaita Vedanta",
@@ -1332,11 +2042,6 @@
       "lead": "Leonardo Bonacci (c. 1170 – c. 1240–50), commonly known as Fibonacci, was an Italian mathematician from the Republic of Pisa, considered to be \"the most talented Western mathematician of the Middle Ages\". The name he is commonly called, Fib",
       "image": "Leonardo_Fibonacci.JPG"
     },
-    "T%C4%81ran%C4%81tha": {
-      "title": "Taranatha",
-      "lead": "Tāranātha (1575–1634) was a Lama of the Jonang school of Tibetan Buddhism. He is widely considered its most remarkable scholar and exponent. Taranatha was born in Tibet, supposedly on the birthday of Padmasambhava. His original name was Kun",
-      "image": "Taranatha.jpg"
-    },
     "B._R._Ambedkar": {
       "title": "B. R. Ambedkar",
       "lead": "Bhimrao Ramji Ambedkar (14 April 1891 – 6 December 1956) was an Indian jurist, economist, social reformer and politician who chaired the committee that drafted the Constitution of India based on the debates of the Constituent Assembly of In",
@@ -1346,6 +2051,161 @@
       "title": "Prasthanatrayi",
       "lead": "Prasthanatrayi (Sanskrit: प्रस्थानत्रयी, IAST: Prasthānatrayī), literally, three sources (or axioms), refers to the three canonical texts of theology having epistemic authority, especially of the Vedanta schools. It consists of: The Upanish",
       "image": ""
+    },
+    "Hindi": {
+      "title": "Hindi",
+      "lead": "Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an Indo-Aryan language written in the Devanagari script. It is an official language of the government of India, and is the ",
+      "image": "Hindi.svg"
+    },
+    "Vedas": {
+      "title": "Vedas",
+      "lead": "The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda, are a large body of religious texts originating in ancient India. Composed in Vedic Sanskrit, the texts constitute the oldest laye",
+      "image": "1500-1200_BCE_Rigveda,_manuscript_page_sample_i,_Mandala_1,_Hymn_1_(Sukta_1),_Adhyaya_1,_lines_1.1.1_to_1.1.9,_Sanskrit,_Devanagari.jpg"
+    },
+    "Faxian": {
+      "title": "Faxian",
+      "lead": "Faxian (337–c. 422 CE), formerly romanized as Fa-hien , Fa-hsien, and Hiuen Tsang was a Chinese Buddhist monk and translator who traveled on foot from Jin China to medieval India to acquire Buddhist scriptures. His birth name was Gong Sehi.",
+      "image": "Faxian_statue_in_Maritime_Experiential_Museum_&_Aquarium_Singapore.jpg"
+    },
+    "Yijing_(monk)": {
+      "title": "Yijing (monk)",
+      "lead": "Yijing (635–713 CE), formerly romanized as I-ching or I-tsing, born Zhang Wenming, was a Tang-era Chinese Buddhist monk and renowned travel writer. His account of his travels are an important source for the history of the medieval kingdoms ",
+      "image": "Yi_Jing.JPG"
+    },
+    "Minhaj-i_Siraj_Juzjani": {
+      "title": "Minhaj-i Siraj Juzjani",
+      "lead": "Minhaj-al-Din Abu Amr Othman ibn Siraj-al-Din Muhammad Juzjani (born 1193), simply known as Minhaj al-Siraj Juzjani, was a 13th-century Persian historian born in the region of Ghur. In 1227, Juzjani immigrated to Ucch and, thereafter, to De",
+      "image": ""
+    },
+    "Aryabhata": {
+      "title": "Aryabhata",
+      "lead": "Aryabhata (Sanskrit: आर्यभट, IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy. His works include the Āryabhaṭīya (which menti",
+      "image": "Aryabhatta_of_Bihar.jpg"
+    },
+    "Khwarazm": {
+      "title": "Khwarazm",
+      "lead": "Khwarazm or Chorasmia is a large oasis region on the Amu Darya river delta in western Central Asia, bordered on the north by the (former) Aral Sea, on the east by the Kyzylkum Desert, on the south by the Karakum Desert, and on the west by t",
+      "image": "Map_of_Khwarazm_in_the_Islamic_period,_before_the_Mongol_invasion.svg"
+    },
+    "Tibetan_Buddhism": {
+      "title": "Tibetan Buddhism",
+      "lead": "Tibetan Buddhism is a form of Buddhism practiced in Tibet, Bhutan, and Mongolia. It also has a sizable number of adherents in the areas surrounding the Himalayas, including the Indian regions of Ladakh, Darjeeling, Sikkim, and Arunachal Pra",
+      "image": "Tibetian_Wheel.svg"
+    },
+    "Isaac_Newton": {
+      "title": "Isaac Newton",
+      "lead": "Sir Isaac Newton ( ; 4 January [O.S. 25 December] 1643 – 31 March [O.S. 20 March] 1727) was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, author and inventor. He was a key figure in the Scientifi",
+      "image": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
+    },
+    "C%C3%B3rdoba%2C_Spain": {
+      "title": "Córdoba, Spain",
+      "lead": "Córdoba ( KOR-də-bə; Spanish: [ˈkoɾðoβa] ), or sometimes Cordova ( KOR-də-və), is a city in Andalusia, Spain, and the capital of the province of Córdoba. With a population of 324,902 as of 2024, it is the 12th-largest city in Spain and the ",
+      "image": "Córdoba_aerial_2.jpg"
+    },
+    "Thomas_Aquinas": {
+      "title": "Thomas Aquinas",
+      "lead": "Thomas Aquinas ( ə-KWY-nəs; Italian: Tommaso d'Aquino, lit. 'Thomas of Aquino'; c. 1225 – 7 March 1274) was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the his",
+      "image": "St-thomas-aquinasFXD.jpg"
+    },
+    "Averroes": {
+      "title": "Averroes",
+      "lead": "Ibn Rushd (14 April 1126 – 11 December 1198), Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mat",
+      "image": "Andrea_di_bonaiuto,_apotesosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
+    },
+    "Scholasticism": {
+      "title": "Scholasticism",
+      "lead": "Scholasticism is a medieval European philosophical movement or methodology that was the predominant education in Europe from about 1100 to 1700. It is known for employing logically precise analyses toward the goal of reconciling classical p",
+      "image": "Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg"
+    },
+    "Brihadaranyaka_Upanishad": {
+      "title": "Brihadaranyaka Upanishad",
+      "lead": "The Brihadaranyaka Upanishad (Sanskrit: बृहदारण्यकोपनिषद्, IAST: Bṛhadāraṇyak Upaniṣad) is one of the Principal Upanishads and one of the first Upanishadic scriptures of Hinduism. A key scripture to various schools of Hinduism, the Brihadar",
+      "image": "Brihadaranyaka_Upanishad_verses_1.3.1_to_1.3.4,_Shatapatha_Brahmana,_Shukla_Yajurveda,_Sanskrit,_Devanagari.jpg"
+    },
+    "Chandogya_Upanishad": {
+      "title": "Chandogya Upanishad",
+      "lead": "The Chandogya Upanishad (Sanskrit: छान्दोग्योपनिषद्, IAST: Chāndogyopaniṣad) is a Sanskrit text embedded in the Chandogya Brahmana of the Sama Veda of Hinduism. It is one of the oldest Upanishads. In the Muktika canon of 108 Upanishads, it ",
+      "image": "Chandogya_Upanishad_verses_1.1.1-1.1.9,_Samaveda,_Sanskrit,_Devanagari_script,_1849_CE_manuscript.jpg"
+    },
+    "Katha_Upanishad": {
+      "title": "Katha Upanishad",
+      "lead": "The Katha Upanishad (Sanskrit: कठोपनिषद्, IAST: Kaṭhopaniṣad), is an ancient Hindu text and one of the mukhya (primary) Upanishads, embedded in the last eight short sections of the Kaṭha school of the Krishna Yajurveda. It is also known as ",
+      "image": "Katha_Upanishad_1.1.1_to_1.1.3_verses,_Krishna_Yajurveda.jpg"
+    },
+    "Mundaka_Upanishad": {
+      "title": "Mundaka Upanishad",
+      "lead": "The Mundaka Upanishad (Sanskrit: मुण्डकोपनिषद्, Muṇḍakopaniṣad) is an ancient Sanskrit Vedic text, embedded inside Atharva Veda. It is a Mukhya (primary) Upanishad, and is listed as number 5 in the Muktika canon of 108 Upanishads of Hinduis",
+      "image": "Mundaka_Upanisad_verses_3.2.8_to_3.2.10,_Atharvaveda,_Sanskrit_language,_Devanagari_script.jpg"
+    },
+    "Mandukya_Upanishad": {
+      "title": "Mandukya Upanishad",
+      "lead": "The Mandukya Upanishad (Sanskrit: माण्डूक्योपनिषद्, IAST: Māṇḍūkyopaniṣad) is the shortest of all the Upanishads, and is assigned to Atharvaveda. It is listed as number 6 in the Muktikā canon of 108 Upanishads. It is in prose, consisting of",
+      "image": "Mandukya_Upanisad_verses_1-3,_Atharvaveda,_Sanskrit,_Devanagari.jpg"
+    },
+    "Kalady": {
+      "title": "Kalady",
+      "lead": "Kalady or Kaladi is a town located between Angamaly and Perumbavoor, east of the Periyar River, near Malayattoor in Ernakulam district of Kerala, India, not far from Cochin International Airport. It is notable as the birthplace of 9th centu",
+      "image": "Adi_Shankaracharya_(ఆది_శంకరాచార్య).jpg"
+    },
+    "Kedarnath_Temple": {
+      "title": "Kedarnath Temple",
+      "lead": "Kēdāranātha Temple (Sanskrit: केदारनाथ मन्दिर, IAST: Kēdāranātha Mandira, lit. 'temple of the God of the field') is a Hindu temple, one of the twelve jyotirlinga of Śiva. The temple is located on the Garhwal Himalayan range near the Mandāki",
+      "image": "Kedarnath_Temple_in_Rainy_season.jpg"
+    },
+    "Dwarka": {
+      "title": "Dwarka",
+      "lead": "Dwarka () is a coastal town and municipality of Devbhumi Dwarka district in the Indian state of Gujarat. It is located on the western shore of the Okhamandal Peninsula on the right bank of the Gomti River at the mouth of the Gulf of Kutch f",
+      "image": "Dwarakadheesh_Temple,_2014.jpg"
+    },
+    "Jagannath_Temple%2C_Puri": {
+      "title": "Jagannath Temple, Puri",
+      "lead": "The Jagannath Temple is a Hindu temple dedicated to Jagannath, a form of Vishnu. It is located in Puri, Odisha, on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple. The present temple compl",
+      "image": "Shri_Jagannath_temple.jpg"
+    },
+    "Joshimath": {
+      "title": "Joshimath",
+      "lead": "Joshimath, also known as Jyotirmath, is a town and a municipal board in Chamoli District in the state of Uttarakhand. Located at a height of 6,150 feet (1,875 m), it is a gateway to several Himalayan mountain climbing expeditions, trekking ",
+      "image": "Joshimath.jpg"
+    },
+    "Shankaracharya": {
+      "title": "Shankaracharya",
+      "lead": "Shankaracharya (Sanskrit: शङ्कराचार्य, IAST: Śaṅkarācārya, \"Shankara-acharya\") is a religious title used by the heads of amnaya monasteries called mathas in the Advaita Vedanta tradition of Hinduism. The title derives from Adi Shankara; tea",
+      "image": "Raja_Ravi_Varma_-_Sankaracharya.jpg"
+    },
+    "Chaitanya_Mahaprabhu": {
+      "title": "Chaitanya Mahaprabhu",
+      "lead": "Chaitanya Mahaprabhu (Bengali: মহাপ্রভু শ্রীচৈতন্য দেব; Sanskrit: चैतन्य महाप्रभु, romanized: Caitanya Mahāprabhu), born Vishvambhara Mishra (IAST: Viśvambhara Miśra) (18 February 1486 – 14 June 1534), was an Indian Hindu saint from Bengal ",
+      "image": "Chaitanya_Mahaprabhu_in_Dhameswar_Mahaprabhu_temple_6.jpg"
+    },
+    "Mahamastakabhisheka": {
+      "title": "Mahamastakabhisheka",
+      "lead": "The Māhāmastakābhiṣeka (\"Grand Consecration\") refers to the abhiṣeka (anointment) of the Jain idols when held on a large scale. The most famous of such consecrations is the anointment of the Bahubali Gommateshwara statue located at Shravana",
+      "image": "Shravanbelgola_Gomateshvara_head_and_torso.jpg"
+    },
+    "Siddh%C4%81nta_Shiromani": {
+      "title": "Siddhānta Shiromani",
+      "lead": "Siddhānta Śiromaṇi (Sanskrit: सिद्धान्त शिरोमणि, \"Crown of treatises\") is the major treatise of Indian mathematician Bhāskara II. He wrote the Siddhānta Śiromaṇi in 1150 when he was 36 years old. The work is composed in Sanskrit Language in",
+      "image": "Page_from_Lilavati,_the_first_volume_of_Siddhānta_Śiromaṇī._Use_of_the_Pythagorean_theorem_in_the_corner.jpg"
+    },
+    "Liber_Abaci": {
+      "title": "Liber Abaci",
+      "lead": "The Liber Abaci or Liber Abbaci (Latin for \"The Book of Calculation\") was a 1202 Latin work on arithmetic by Leonardo of Pisa, posthumously known as Fibonacci. It is primarily famous for introducing both base-10 positional notation and the ",
+      "image": "Liber_abbaci_magliab_f124r.jpg"
+    },
+    "Sallekhana": {
+      "title": "Sallekhana",
+      "lead": "Sallekhana (IAST: sallekhanā), also known as samlehna, santhara, samadhi-marana or sanyasana-marana, is a supplementary vow to the ethical code of conduct of Jainism. It is the religious practice of voluntarily fasting to death by gradually",
+      "image": "Nishidhi_stone_with_14th_century_Old_Kannada_inscription_from_Tavanandi_forest.JPG"
+    },
+    "Myanmar": {
+      "title": "Myanmar",
+      "lead": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma (the official English name until 1989), is a country in northwest Southeast Asia. It is the largest country by area in Mainland Southeast Asia and has a ",
+      "image": "Flag_of_Myanmar.svg"
+    },
+    "Dalit_Buddhist_movement": {
+      "title": "Dalit Buddhist movement",
+      "lead": "The Dalit Buddhist movement is a religious as well as a socio-political movement among Dalits in India which was started by B. R. Ambedkar. He reinterpreted Buddhism and created a new school of Buddhism called Navayana. The movement has sou",
+      "image": "Nava_Jetavana_Temple_-_Shravasti_-_015_Dr_Ambedkar_and_his_Followers_become_Buddhists_in_1956_(9241722749).jpg"
     },
     "Ghilman": {
       "title": "Ghilman",
@@ -1371,11 +2231,6 @@
       "title": "Sabuktigin",
       "lead": "Abu Mansur Nasir ad-Din wa'd-Dawla Sabuktigin (Persian: ابومنصور ناصرالدین والدوله سبکتگین; c. 940s – August-September 997) was the founder of the Ghaznavid dynasty, and amir of Ghazna from 977 to 997. Sabuktigin was a Turkic slave who was ",
       "image": "Coin_of_the_Ghaznavid_amir_Sabuktigin,_citing_the_Samanid_amir_Nuh_II_as_his_overlord._Date_unknown,_minted_at_Ghazna.jpg"
-    },
-    "Khyber_Pass": {
-      "title": "Khyber Pass",
-      "lead": "The Khyber Pass is a mountain pass in the Khyber District of the Pakistani province of Khyber Pakhtunkhwa, along the international border with Afghanistan. It connects the town of Landi Kotal to the Valley of Peshawar at Jamrud by traversin",
-      "image": "KhyberPassPakistan.jpg"
     },
     "Ferdowsi": {
       "title": "Ferdowsi",
@@ -1404,7 +2259,7 @@
     },
     "Seljuk_Empire": {
       "title": "Seljuk Empire",
-      "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval Turkic, culturally Persianate empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 mil",
+      "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval, Turko-Persian empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 million square kil",
       "image": ""
     },
     "Ghurid_dynasty": {
@@ -1437,11 +2292,6 @@
       "lead": "The Qutb Minar complex are monuments and buildings from the Delhi Sultanate at Mehrauli in Delhi, India. Construction of the Qutub Minar \"victory tower\" in the complex, named after the religious figure Sufi Saint Khwaja Qutbuddin Bakhtiar K",
       "image": "Qutb_minar_ruins.jpg"
     },
-    "Minhaj-i_Siraj_Juzjani": {
-      "title": "Minhaj-i Siraj Juzjani",
-      "lead": "Minhaj-al-Din Abu Amr Othman ibn Siraj-al-Din Muhammad Juzjani (born 1193), simply known as Minhaj al-Siraj Juzjani, was a 13th-century Persian historian born in the region of Ghur. In 1227, Juzjani immigrated to Ucch and, thereafter, to De",
-      "image": ""
-    },
     "Tabaqat-i_Nasiri": {
       "title": "Tabaqat-i Nasiri",
       "lead": "Tabaqat-i Nasiri (Persian: طبقات ناصری), named for Sultan Nasir-ud-Din, is an elaborate history of the Islamic world written in Persian by Minhaj-i Siraj Juzjani and completed in 1260. Juzjani's \"tabaqat\" would initiate the form of writing ",
@@ -1462,20 +2312,160 @@
       "lead": "The Vijayanagara Empire, also known as the Karnata Kingdom, was a late medieval Hindu empire that ruled much of southern India. It was established in 1336 by the brothers Harihara I and Bukka Raya I of the Sangama dynasty. The empire rose t",
       "image": "Vijayanagara_Empire_c.1485.png"
     },
-    "Maratha_Empire": {
-      "title": "Maratha Empire",
-      "lead": "The Maratha Empire, also referred to as the Maratha Confederacy, was an early modern polity in the Indian subcontinent. For most of its existence, it comprised the realms of the Peshwa and four major independent Maratha states under the nom",
-      "image": "India1760_1905.jpg"
-    },
     "Genghis_Khan": {
       "title": "Genghis Khan",
       "lead": "Genghis Khan (born Temüjin; c. 1162 – August 1227), also known as Chinggis Khan, was the founder and first khan of the Mongol Empire. After spending most of his life uniting the Mongol tribes, he launched a series of military campaigns, con",
       "image": "YuanEmperorAlbumGenghisPortrait.jpg"
     },
-    "Ghaznavids": {
-      "title": "Ghaznavid Empire",
-      "lead": "The Ghaznavid Empire (Persian: غزنویان, romanized: Ġaznaviyān) was a culturally Persianate, Sunni Muslim state of Turkic mamluk origin. Flourishing from 977 to 1186, the empire spread from the Oxus to the Indus Valley at its greatest extent",
-      "image": "Ghaznavids.jpg"
+    "Lahore": {
+      "title": "Lahore",
+      "lead": "Lahore is the capital and largest city of the Pakistani province of Punjab. It is the second-largest city in Pakistan, after Karachi, and 27th largest in the world, with a population of over 14 million. Lahore is one of Pakistan's major ind",
+      "image": "Lahore_Fort_view_from_Baradari.jpg"
+    },
+    "Greater_Khorasan": {
+      "title": "Khorasan",
+      "lead": "Khorasan is a historical eastern region in the Iranian Plateau in West and Central Asia that encompasses western and northern Afghanistan, northeastern Iran, the eastern halves of Turkmenistan and Uzbekistan, western Tajikistan, and portion",
+      "image": "Khorasan-Transoxiana-Khwarazm_nopaths.svg"
+    },
+    "Transoxiana": {
+      "title": "Transoxiana",
+      "lead": "Transoxiana or Transoxania (lit. 'Land beyond the Oxus', now called the Amu Darya) is the Latin name for the region and civilization located in lower Central Asia roughly corresponding to eastern Uzbekistan, western Tajikistan, southern Kyr",
+      "image": "Transoxiana_8th_century.svg"
+    },
+    "Bukhara": {
+      "title": "Bukhara",
+      "lead": "Bukhara ( buu-KHAR-ə) is the seventh-largest city in Uzbekistan by population, with 280,187 residents as of 1 January 2020. It is the capital of Bukhara Region. The Bukhara region has been inhabited for at least five millennia, and the city",
+      "image": "2012_Bukhara_7515821196_cropped.jpg"
+    },
+    "Thar_Desert": {
+      "title": "Thar Desert",
+      "lead": "The Thar Desert (Rajasthani pronunciation: [t̪ʰaːɾ]), also known as the Great Indian Desert, is an arid region in the north-western part of the Indian subcontinent stretching across India and Pakistan. Spread across an area of 264,091 km2 (",
+      "image": "Thar_desert_Rajasthan_India.jpg"
+    },
+    "Alauddin_Khalji": {
+      "title": "Alauddin Khalji",
+      "lead": "Alauddin Khalji (Persian: علاء الدین خلجی; born Ali Gurshasp; c. 1266 – 4 January 1316) was the Khalji dynasty Sultan of Delhi from 1296 until his death in 1316. Alauddin instituted a number of significant administrative changes in the Delh",
+      "image": "The_Execution_of_Jalal-al-Din_Firuzshah_II_(r1290-96),_Jami_al-Tawarikh_(Alauddin_Khalji_detail).jpg"
+    },
+    "Aristotle": {
+      "title": "Aristotle",
+      "lead": "Aristotle (Ancient Greek: Ἀριστοτέλης, romanized: Aristotélēs; 384–322 BC) was an ancient Greek philosopher and polymath. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the",
+      "image": "Aristotle_Altemps_Inv8575.jpg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Ibn_Sina": {
+      "title": "Avicenna",
+      "lead": "Ibn Sina (c. 980 – 22 June 1037), commonly known in the West as Avicenna ( A(H)V-ih-SEN-ə), was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various ",
+      "image": "Avicenna_Bust,_left_profile_(cropped).jpg"
+    },
+    "Avicenna": {
+      "title": "Avicenna",
+      "lead": "Ibn Sina (c. 980 – 22 June 1037), commonly known in the West as Avicenna ( A(H)V-ih-SEN-ə), was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various ",
+      "image": "Avicenna_Bust,_left_profile_(cropped).jpg"
+    },
+    "Battle_of_Manzikert": {
+      "title": "Battle of Manzikert",
+      "lead": "The Battle of Manzikert or Malazgirt was fought between the Byzantine Empire and the Seljuk Empire on 26 August 1071 near Manzikert, Iberia (modern Malazgirt in Muş Province, eastern Turkey). The decisive defeat of the Byzantine army and th",
+      "image": "Battle_of_Manzikert_(1071).webp"
+    },
+    "Herat": {
+      "title": "Herat",
+      "lead": "Herat, also written as Harat or Hirat, and historically known as Haraiva, Horeiva and Hires, is a city in western Afghanistan, serving as the capital and largest city of Herat Province. It has long been the third-largest city of Afghanistan",
+      "image": "Herat_7452a.jpg"
+    },
+    "Karnal": {
+      "title": "Karnal",
+      "lead": "Karnal (Punjabi pronunciation: [ˌkʌ̯ˈɾ.ˈnɐː˩˥l]) is a city located in the Indian state of Haryana and serves as the administrative headquarters of the Karnal district. The city lies on National Highway 44, which connects it to the national ",
+      "image": "Karnal_2.jpg"
+    },
+    "Haryana": {
+      "title": "Haryana",
+      "lead": "Haryana is a state located in the northwestern part of India. It was carved out after the linguistic reorganisation of Punjab on 1 November 1966. It is ranked 21st in terms of area, with less than 1.4% (44,212 km2 or 17,070 sq mi) of India'",
+      "image": "Cyber_City_View.jpg"
+    },
+    "Doab": {
+      "title": "Doab",
+      "lead": "Doab (English: ) is a term used in South Asia for the tract of land lying between two confluent rivers. It is similar to an interfluve. In the Oxford Hindi-English Dictionary, R. S. McGregor refers to its Persian origin in defining it as do",
+      "image": "Punjabdoabs1.jpg"
+    },
+    "Ujjain": {
+      "title": "Ujjain",
+      "lead": "Ujjain (, Hindi pronunciation: [ʊ̯d͡ːʑæn] , [əʋən̪t̪ɪkaː]), also known as Ujjayini, is a city in Ujjain district of the Indian state of Madhya Pradesh. It is the fifth-largest city in Madhya Pradesh by population and is the administrative a",
+      "image": "Mahakaleshwar_Temple,_Ujjain.jpg"
+    },
+    "Red_Fort": {
+      "title": "Red Fort",
+      "lead": "The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [laːl 'qɪlaː]) is a historic Mughal fort located in the Old Delhi area of Delhi, India. Serving as the main residence of the Mughal emperors, it was commissioned by Emperor Shah Jahan on",
+      "image": "Delhi_fort.jpg"
+    },
+    "Onon_River": {
+      "title": "Onon (river)",
+      "lead": "The Onon is a river in Mongolia and Russia. It is 1,032 kilometres (641 mi) long, and has a drainage basin of 96,200 square kilometres (37,100 sq mi).",
+      "image": "Amurrivermap.png"
+    },
+    "Timur": {
+      "title": "Timur",
+      "lead": "Timur (1320s – 17/18 February 1405), also known as Tamerlane, was a Turco-Mongol conqueror, first ruler of the Timurid dynasty, and the founder of the Timurid Empire, which ruled over modern-day Afghanistan, Iran, and Central Asia. He was u",
+      "image": "Timur_reconstruction03.jpg"
+    },
+    "Iran": {
+      "title": "Iran",
+      "lead": "Iran, officially the Islamic Republic of Iran, historically known as Persia, is a country in West Asia. It borders Iraq to the west, Turkey, Azerbaijan, and Armenia to the northwest, the Caspian Sea to the north, Turkmenistan to the northea",
+      "image": "Flag_of_Iran_(official).svg"
+    },
+    "Sunni_Islam": {
+      "title": "Sunni Islam",
+      "lead": "Sunni Islam is the largest branch of Islam and the largest religious denomination in the world. It holds that Muhammad did not appoint any successor and that his closest companion Abu Bakr (r. 632–634) rightfully succeeded him as the caliph",
+      "image": ""
+    },
+    "Tomaras_of_Delhi": {
+      "title": "Tomaras of Delhi",
+      "lead": "The Tomaras of Delhi (also called Tomar dynasty in modern vernaculars due to schwa deletion) ruled parts of present-day Delhi and Haryana in India during 8th–12th century. Their rule over this region is attested to by multiple inscriptions ",
+      "image": "Outer_Wall_of_Lal_kot_and_Rai_Pithora.jpg"
+    },
+    "Gahadavala_dynasty": {
+      "title": "Gahadavala dynasty",
+      "lead": "The Gahadavala dynasty (IAST: Gāhaḍavāla), also known as Gahadavalas of Kannauj, was a Rajput dynasty that ruled parts of the present-day Indian states of Uttar Pradesh and Bihar, during 11th and 12th centuries. Their capital was located at",
+      "image": "Govindchandra.jpg"
+    },
+    "Khokhar": {
+      "title": "Khokhar",
+      "lead": "Khokhar (Punjabi: کھوکھر) is a large Punjabi tribe originating from northern Punjab. They are primarily native to Punjab, Pakistan; but are also found in the Indian states of Punjab and Haryana. Khokhars predominantly follow Islam, having c",
+      "image": ""
+    },
+    "Vigraharaja_IV": {
+      "title": "Vigraharaja IV",
+      "lead": "Vigraharāja IV (r. c. 1150–1164 CE), also known as Visala-deva (or Visaldev), or Vigraharāja the Great was a king from the Chahamana (Chauhan) dynasty in north-western India, and is generally considered as one of the greatest rulers of the ",
+      "image": "Vigraha_Raja_IV_of_the_Chauhans_of_Ajmer_Circa_1150-1164.jpg"
+    },
+    "Ghiyath_al-Din_Muhammad": {
+      "title": "Ghiyath al-Din Muhammad",
+      "lead": "Ghiyath al-Din Muhammad (Persian: غیاث‌ الدین محمد بن سام), also known as Ghiyath al-Din Ghori or Ghiyassuddin Ghori (c. 1140 – 13 March 1203), was the Sultan of the Ghurid dynasty from 1163 until his death in 1203. During the diarchy of Gh",
+      "image": "Ghiyath_al-Din_Muhammad.jpg"
+    },
+    "Chand_Bardai": {
+      "title": "Chand Bardai",
+      "lead": "Chand Bardai (died c. 1200) was an Indian poet born in saar dynasty(now sewaliya) who composed Prithviraj Raso, an epic poem in Brajbhasa about the life of the Chahamana king Prithviraj Chauhan. The poem presents him as a court poet of Prit",
+      "image": "Painting_of_Prithviraj_Chauhan_hunting_a_tiger,_with_Chand_Bardai_beside_him,_Jodhpur,_ca.1830.jpg"
+    },
+    "Firuzkoh": {
+      "title": "Firuzkoh",
+      "lead": "Firozkoh (Pashto, Dari: فیروزکوه), formerly called Chaghcharan (Pashto, Dari: چغچران), and historically known as Ahangaran (Pashto, Dari: آهنگران), is a city in central Afghanistan, serving as the capital of Ghor Province. It is within the ",
+      "image": "Chaghcharan_bridge.jpg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Indo-Islamic_architecture": {
+      "title": "Indo-Islamic architecture",
+      "lead": "Indo-Islamic architecture is the architecture of the Indian subcontinent produced by and for Islamic patrons and purposes. Despite an initial Arab presence in Sindh, the development of Indo-Islamic architecture began in earnest with the est",
+      "image": "Tomb_of_Shah_Rukn-e-Alam_2014-07-31.jpg"
     }
   }
 }
