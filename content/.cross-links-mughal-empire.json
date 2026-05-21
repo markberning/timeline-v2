@@ -7,7 +7,7 @@
       "blurb": "Timur, the Turco-Mongol world-conqueror who built and lost a vast Eurasian empire 1370–1405, was Babur's direct ancestor on his father's side — fifth generation. The Mughal dynastic claim ran through Timur explicitly: Babur framed his 1526 invasion of India as the recovery of territories that his ancestor had legitimately conquered when Timur sacked Delhi in 1398. The dynasty's own court usage was Gurkani, from Timur's title Guregen, royal son-in-law."
     },
     {
-      "matchText": "Muhammad Shaybani Khan",
+      "matchText": "Shaybani",
       "targetTl": "timurid-empire",
       "targetChapter": 8,
       "blurb": "Muhammad Shaybani Khan was the brilliant Uzbek general whose conquests of Transoxiana drove Babur out of his ancestral Ferghana in 1504 and forced the long flight south to Kabul. The Uzbek conquests of 1500–1507 ended the Timurid Empire as a sovereign state and scattered the surviving Timurid princes across Central Asia, Persia, and India — the same scattering that eventually produced both the Safavid and Mughal cultural inheritances of fifteenth-century Herat."
@@ -19,7 +19,7 @@
       "blurb": "The fourteen-year-old Shah Ismail I had founded the Safavid state in Iran in 1501 and was, by 1511, the natural ally for any displaced Timurid prince trying to recover Central Asia from the Uzbeks. His brief support for Babur's last attempt to retake Samarkand — conditioned on public Shia observance — was an early version of the same Safavid-Mughal pattern that would shape Humayun's exile thirty years later."
     },
     {
-      "matchText": "Janissary corps",
+      "matchText": "Janissaries",
       "targetTl": "ottoman-empire",
       "targetChapter": 3,
       "blurb": "The Ottoman Janissary corps of professional matchlock infantry, deployed behind the chained-wagon tabur cengi formation, was the most mature gunpowder army in the early-modern Islamic world. Babur's gun-master Ustad Ali Quli had served in the Ottoman army before joining the Timurids and brought the operational doctrine with him. The Ottoman tactical inheritance is what won Panipat in 1526 — Babur's army was, in essence, a small Ottoman-style force operating in north India a generation after the Ottomans themselves had perfected the system at Chaldiran."
@@ -65,6 +65,30 @@
       "targetTl": "delhi-sultanate",
       "targetChapter": 7,
       "blurb": "Babur destroyed the Lodi Sultanate at Panipat (1526) — the Mughals are the dynasty that finally replaced the fractured Delhi Sultanate order."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Tang Dynasty (618–907 CE), which had built the world's most sophisticated gunpowder technology by the tenth century, represented the earliest tradition of gunpowder military development — centuries before European or Ottoman armies caught up. By Babur's time, the Chinese tradition had produced cannons and matchlocks under the Ming, though without the tactical doctrine the Ottomans had developed."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Ming China (1368–1644) had developed gunpowder weapons including cannons and matchlocks by the early sixteenth century but had not pushed military reform as aggressively as the Ottomans. By the 1520s, the Ming military establishment was already showing signs of institutional rigidity — the same year Babur was winning at Panipat with Ottoman-model firearms, Ming China was defending its northern frontier against steppe cavalry with much less tactical innovation."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 8,
+      "blurb": "Francisco Pizarro launched his expedition against the Inca Empire in 1532 — six years after Babur's Panipat. Both conquests followed the same structural template: a small, technologically superior invading force defeated a vastly larger defending army through a combination of firearms, tactical surprise, and the political fractures within the defending polity. The Inca succession war between Atahualpa and Huáscar played the same role in Pizarro's conquest that Ibrahim Lodi's alienated Afghan nobles played in Babur's."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Babur's claim to legitimacy ran partly through the Mongol line — he was a Genghisid on his mother's side, descended from Genghis Khan's house, which carried enormous prestige in early-modern Central Asian political theory. The very name \"Mughal\" is just the Persian word for Mongol. The dynasty that ruled India for three centuries advertised a steppe-conqueror pedigree that reached back to the thirteenth-century Mongol Empire."
     }
   ],
   "2": [
@@ -103,6 +127,18 @@
       "targetTl": "delhi-sultanate",
       "targetChapter": 6,
       "blurb": "Sher Shah Suri's brief Afghan interregnum was the Delhi-Sultanate tradition's last stand — and his administrative reforms became the Mughal template."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 4,
+      "blurb": "The Holy Roman Empire under Charles V was the dominant Christian power of the early sixteenth century, fighting the Habsburgs-Valois rivalry that shaped the Italian Wars and confronting the Ottoman advance into central Europe at the same time Humayun was losing and recovering his throne. The simultaneous pressures of Protestant Reformation and Ottoman expansion on the Holy Roman Empire were the European-theater version of the same gunpowder-era state transformation Humayun was living through in India."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 6,
+      "blurb": "The Ottoman Empire under Suleiman the Magnificent was, in the mid-sixteenth century, the world's most institutionally mature gunpowder state — the model that Babur had borrowed from and that was now simultaneously pressing into central Europe while Humayun was recovering his Indian throne with Safavid help. The three-way dynamic between Mughal, Safavid, and Ottoman — all Turkic-origin Persianate courts, all relying on gunpowder armies, all competing for prestige and territory — defined the political geography of the early-modern Islamic world."
     }
   ],
   "3": [
@@ -149,6 +185,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 6,
       "blurb": "The Mughal court ran on a Persianate version of the same gunpowder-empire machinery — mansabdars to the Ottoman timariots and devshirme."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 7,
+      "blurb": "The Ming Dynasty under the Wanli Emperor (1572–1620) was in visible institutional decline at the same time Jahangir was presiding over the Mughal cultural peak — the same early-seventeenth-century moment when both great Asian dynasties were sliding toward the collapses that would follow within a generation. The Manchu conquest of Ming China in 1644 and the Mughal fragmentation beginning in 1707 are parallel stories of dynastic institutions that could not manage succession and fiscal pressures simultaneously."
+    },
+    {
+      "matchText": "Safavid",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "The Safavid dynasty of Iran was the Mughals' great Persianate rival-cousin: geopolitical competitors over Kandahar and the western frontier, but cultural kin who exchanged painters, poets, manuscripts, and embassies. Jahangir's court ran on a Persian high culture seeded directly from Safavid Tabriz, and the two courts measured themselves against each other throughout the seventeenth century."
     }
   ],
   "5": [
@@ -181,6 +229,24 @@
       "targetTl": "timurid-empire",
       "targetChapter": 7,
       "blurb": "The Taj is the Timurid garden-tomb tradition (Samarkand's Gur-e-Amir) brought to its absolute perfection five generations on."
+    },
+    {
+      "matchText": "Qing Dynasty",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Qing Dynasty began with the Manchu conquest of Ming China in 1644 — just as Shah Jahan was completing the Taj Mahal and commissioning the Red Fort. The two great non-European empires of the seventeenth century reached their architectural and cultural peaks in the same decade, with very different trajectories following: the Qing dynasty survived until 1912 while the Mughals effectively ended as a real power in 1739 with Nader Shah's sack of Delhi."
+    },
+    {
+      "matchText": "Tokugawa Iemitsu",
+      "targetTl": "edo-japan",
+      "targetChapter": 3,
+      "blurb": "Tokugawa Iemitsu, the third Tokugawa shogun, was completing the sakoku isolation policy that sealed Japan from European trade for two centuries in the same decade Shah Jahan was building the Taj Mahal and the Red Fort. The two early-modern states made opposite bets: Mughal India stayed open to European traders and Jesuit envoys while Tokugawa Japan shut the door — choices whose consequences diverged sharply when nineteenth-century European power arrived."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 6,
+      "blurb": "Shahjahanabad rose just north of the older Delhis the Delhi Sultanate had built and abandoned over three centuries — Mehrauli, Tughlaqabad, Firuzabad. The Persianate court culture Shah Jahan's capital embodied, down to the Amir Khusrau verse inscribed in the Diwan-i-Khas, was the direct inheritance of the Sultanate that had made Persian the prestige language of north India long before the Mughals arrived."
     }
   ],
   "6": [
@@ -207,6 +273,12 @@
       "targetTl": "medieval-india",
       "targetChapter": 8,
       "blurb": "Aurangzeb's reimposition of jizya and temple destruction reopened the Hindu-Muslim fault line medieval India had lived along — undoing Akbar's synthesis."
+    },
+    {
+      "matchText": "Safavid",
+      "targetTl": "safavid-persia",
+      "targetChapter": 7,
+      "blurb": "Aurangzeb's Deccan obsession meant the western Safavid frontier was a recurring drain — Kandahar had been lost to Safavid Iran in 1649 after Aurangzeb was beaten three times by Shah Abbas II. The Safavid dynasty was the Mughals' mirror: another Persianate gunpowder empire that would, like the Mughals, collapse in the early eighteenth century."
     }
   ],
   "7": [
@@ -233,6 +305,24 @@
       "targetTl": "safavid-persia",
       "targetChapter": 8,
       "blurb": "Mughal and Safavid both collapsed in the early 18th century — Nadir Shah's 1739 sack of Delhi linked the two implosions directly."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 2,
+      "blurb": "Qing China under the Qianlong Emperor (1735–96) was at the peak of its territorial expansion in exactly the years the Mughal Empire was collapsing — the contrast is striking. Both empires had Inner Asian founders who built vast multiethnic states; both faced similar succession and fiscal pressures in the eighteenth century; but the Qing managed the transition far more successfully, maintaining effective central authority for another century and a half after the Mughals had disintegrated."
+    },
+    {
+      "matchText": "British Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "The British Industrial Revolution was beginning at exactly the moment the Mughal Empire was collapsing — the flying shuttle (1733), spinning jenny (1764), and steam engine (1769) were the same transformation that would destroy the Indian textile industry within two generations. Dhaka muslin and Murshidabad silk had been the finest textiles in the world; the Manchester mills made them uncompetitive within decades of the Mughal collapse."
+    },
+    {
+      "matchText": "Tokugawa Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 5,
+      "blurb": "While the eighteenth-century Mughal Empire fragmented under fiscal exhaustion and breakaway governors, Tokugawa Japan continued its sakoku isolation — wealthy, stable, and deliberately disconnected from the Eurasian political-economic upheaval. Both were early-modern Asian states sitting out the gunpowder-and-trade transformation, but where the Mughals collapsed into it, Japan simply withdrew from it for another century."
     }
   ],
   "8": [
@@ -247,6 +337,24 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 8,
       "blurb": "The Bengal that the East India Company conquered after Plassey was one of the great Islamic regional cultures of the early-modern world — Sufi-influenced, Persian-court-administered, with mass conversion of the rural population to Islam during the Mughal-era expansion of rice cultivation in the eastern delta. The cultural continuity from the late-Sultanate Islamic synthesis to modern Bangladeshi Islamic identity runs directly through the Bengal that the Company turned into its first colonial territory."
+    },
+    {
+      "matchText": "French Revolution",
+      "targetTl": "enlightenment",
+      "targetChapter": 20,
+      "blurb": "The French Revolution of 1789 and the Napoleonic Wars that followed (1803–15) reshaped European power while the East India Company was consolidating its control over India. The wars distracted France and delayed French colonial ambitions in India — the Anglo-French rivalry for Indian influence that had begun at Plassey was effectively resolved by Napoleon's defeat. The post-Waterloo British dominance of India was partly a consequence of the European conflict that most Indians barely knew was happening."
+    },
+    {
+      "matchText": "Opium Wars",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 9,
+      "blurb": "The Opium Wars (1839–42, 1856–60) were the British East India Company's and British Crown's analogous project in China to what Plassey and Buxar had been in India — using commercial grievances as justification for military force to extract trade concessions and territorial rights from a nominally sovereign Asian state. The Canton trade system the Qing had constructed was being dismantled by the same British commercial-military complex that was simultaneously annexing Awadh and dissolving the Mughal dynasty."
+    },
+    {
+      "matchText": "American Revolution",
+      "targetTl": "early-american-republic",
+      "targetChapter": 1,
+      "blurb": "The American Revolution (1775–83) cost the British Crown enormous resources at the same time the East India Company was consolidating control over Bengal — the simultaneous burdens of American rebellion and Indian empire-building strained British state capacity but ultimately did not slow either project. The ideological contrast is striking: the American colonists were articulating natural-rights theories of sovereignty while the Company was ending Bengal's sovereignty by administrative fiat."
     }
   ],
   "9": [
@@ -279,6 +387,30 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 12,
       "blurb": "The deposition of the last Mughal emperor prefigures the abolition of the Ottoman sultanate — two Muslim imperial lines extinguished by the modern order."
+    },
+    {
+      "matchText": "American Civil War",
+      "targetTl": "antebellum-america",
+      "targetChapter": 18,
+      "blurb": "The American Civil War (1861–65) was running at the same time the British Crown was consolidating its post-1857 Indian administration. Both events were part of the same mid-nineteenth-century crisis of large multi-ethnic polities built on racial or communal hierarchies — the United States forcing a resolution of the slavery question while British India was institutionalizing direct colonial rule over a society the Company had governed indirectly. The American resolution preserved the federal state; the British resolution in India entrenched the colonial relationship."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Meiji Restoration of 1868 was Japan's deliberate response to the same Western pressure that had destroyed the Mughal dynasty — the contrast is one of the great what-ifs of nineteenth-century Asian history. Japan chose radical self-transformation to resist colonization; India, lacking a Meiji-style leadership class with the capacity to manage a top-down modernization, instead experienced colonization. The Meiji leaders had specifically studied India and China as negative examples."
+    },
+    {
+      "matchText": "Qing Dynasty",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 11,
+      "blurb": "The Qing Dynasty in 1857–58 was simultaneously dealing with the Second Opium War (British-French forces occupying Beijing in 1860) — the same Western imperial pressure that was ending the Mughal dynasty in India was simultaneously forcing concessions from China. Both empires ended their encounters with British power with formal diplomatic humiliations; but the Qing survived as a formal sovereign state until 1912 while the Mughal dynasty was legally dissolved in 1858."
+    },
+    {
+      "matchText": "Tokugawa Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 5,
+      "blurb": "The Tokugawa Japan that the British presence in 1857 stood against had spent two and a half centuries in self-imposed isolation. Where the last Mughal emperor was deposed and the dynasty dissolved, Tokugawa Japan would meet the same Western pressure with the Meiji Restoration a decade later — choosing radical self-modernization over colonization. India and Japan are the great divergent outcomes of the nineteenth-century Asian encounter with European power."
     }
   ]
 }
