@@ -47,6 +47,54 @@
       "targetTl": "maya-civilization",
       "targetChapter": 5,
       "blurb": "While Europe took off, the Classic Maya were collapsing — opposite trajectories on opposite sides of an ocean neither knew the other crossed."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "The Frankish bishop writing south for a geometry book belonged to the world that the earlier volume traces — the post-Roman Frankish realm of Gaul, gradually Christianized and stitched back together by Merovingian and then Carolingian kings. The High Medieval take-off is what eventually grew out of that thin, inheritance-living early-medieval West."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "The High Middle Ages were the most demographically expansive stretch of European history before the eighteenth- and nineteenth-century Industrial Revolution — the next time Europe's population, output, and energy use would all leap on this scale, when water and muscle gave way to coal and steam."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "al-andalus",
+      "targetChapter": 6,
+      "blurb": "While Paris counted perhaps 200,000 by 1300, the great city of Muslim Spain had peaked even larger and far richer three centuries earlier. Córdoba under its caliphate was the City of Books — its library and bookshops held more volumes than every Christian monastery in Europe combined, the western pole of the Islamic golden age."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "al-andalus",
+      "targetChapter": 6,
+      "blurb": "When al-Ghazali was writing in Baghdad, Córdoba in Muslim Spain held more books than every Christian monastery in Europe put together. Its libraries were the shelves on which the Greek learning of Aristotle waited for a Latin West that had not yet learned to read it — the subject of al-Andalus's City of Books."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "At its eighth-century peak Baghdad — the round city founded by the Abbasid caliphs — held perhaps 800,000 people, dwarfing every city of the Latin West. In the eleventh century it was still the intellectual capital of the Islamic world, where al-Ghazali wrote while western Europe was only beginning to relearn Latin literacy."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "While European medicine ran on monastic herbals, the great teaching hospitals of Cairo and Damascus were running organized wards, pharmacies, and clinical instruction — part of the medical, optical, and engineering achievement of the Islamic golden age that Europe would only later begin to absorb through translation."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "The works of Aristotle that medieval translators would carry back into the Latin West were the legacy of fourth-century-BCE Greece, where the philosopher tutored the young Alexander and built the encyclopedic system of logic, physics, and metaphysics that would reorganize European thought once the West learned to read it again."
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "At exactly the moment western Europe was building its first modest Romanesque cathedrals, the Chola maritime empire of South India was at its peak — launching naval expeditions across the Bay of Bengal, dominating the trade between South India and Southeast Asia, and raising thousand-pillared temple-cities with 200-foot gate towers."
     }
   ],
   "2": [
@@ -91,6 +139,24 @@
       "targetTl": "medieval-india",
       "targetChapter": 5,
       "blurb": "Contemporary India was a mosaic of regional kingdoms with no centralizing church-state contest — the European pope-vs-emperor fight was a peculiarly western institution."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 11,
+      "blurb": "The dual sovereignty of pope and emperor that the Investiture Controversy carved out — two parallel authorities, spiritual and temporal, neither reducible to the other — was the medieval ground on which the eighteenth-century quarrel over religion and reason would eventually be fought. By the time the philosophes put God on trial, the church-versus-state contest Gregory VII had opened was seven centuries old."
+    },
+    {
+      "matchText": "Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "While Gregory VII and Henry IV fought over who could appoint a bishop, Song China was at its eleventh-century peak, and Wang Anshi was pushing through the New Policies — the most ambitious state-reform program in pre-modern Chinese history. The 1070s were a decade of institutional restructuring at both ends of Eurasia."
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "As the European Church was assembling itself into a centralized power, the Chola navy of southern India was at the height of its maritime expansion across the Bay of Bengal, projecting Indian sea power as far as Srivijaya in Sumatra — the largest naval reach any Indian state would achieve before modern times."
     }
   ],
   "3": [
@@ -129,6 +195,36 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 9,
       "blurb": "The Crusades that began as a Byzantine appeal for mercenaries ended, in 1204, with the Fourth Crusade sacking Constantinople itself — the rescue mission devoured its patron."
+    },
+    {
+      "matchText": "Fatimids",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "The Fatimid Caliphate of Egypt — an Isma'ili Shia dynasty ruling from Cairo — held Jerusalem until the Seljuks took it in 1073, and the comparatively tolerant Fatimid treatment of Christian pilgrims is the baseline against which the Seljuk takeover looked so much worse. The Three Caliphates chapter sets the Fatimids beside the Abbasids and the Cordoban Umayyads."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "The Frankish warrior aristocracy whose violent energies the reformed papacy hoped to redirect toward the Holy Land were the heirs of Charlemagne's realm — the Carolingian world whose collapse left western Europe a patchwork of armed nobles with nothing to fight but each other."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "The Balkans that the People's Crusade marched through toward Constantinople in 1096 would, three centuries later, become the heartland of Ottoman expansion in Europe — the same corridor between the Danube and the Bosporus, conquered from the other direction."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The Black Death of 1348–1349 — covered in its own chapter — killed perhaps a third of Europe and was accompanied by pogroms against Jewish communities that dwarfed even the Rhineland massacres of 1096, repeating on a vastly larger scale the pattern the First Crusade had established."
+    },
+    {
+      "matchText": "Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "The Persians who had besieged Constantinople and failed were the Sassanids, the last pre-Islamic Persian empire, whose great 626 siege of the city alongside the Avars was beaten back from the walls — one of the assaults the Byzantines had always survived, until fellow Christians took the city in 1204."
     }
   ],
   "4": [
@@ -173,6 +269,30 @@
       "targetTl": "mali-empire",
       "targetChapter": 1,
       "blurb": "The same generation, the trans-Saharan gold of Mali was feeding the very bullion that made European high finance possible."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 8,
+      "blurb": "When the Italian maritime cities were shipping silver and woolen cloth east, Byzantium was the great eastern terminus of that trade. The Komnenian-era empire still controlled the richest market in Christendom, and Venetian and Genoese merchants fought for trading privileges inside Constantinople — until the Fourth Crusade of 1204 turned commercial rivalry into outright conquest."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Edward III's defaults on the loans that financed the opening campaigns of the Hundred Years' War bankrupted the Bardi and Peruzzi houses in the 1340s — one of the trigger events of the late-medieval Italian banking crash. The war that would grind on for over a century began by destroying the very banks that had bankrolled it."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Long before the Italians built their banking houses, the Abbasid-era Islamic world ran sophisticated long-distance commercial networks with their own credit instruments — the suftaja, the hawala, the mudaraba. The European commercial revolution learned these tools through Sicily, southern Spain, and the Crusader states, then dressed them up to slip past the Christian usury ban."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The same Mongol-protected trade corridors that let Marco Polo reach the Yuan court carried the Black Death plague west out of Central Asia in the 1340s. The commercial revolution's open arteries became the highway for the deadliest pandemic in European history — a catastrophe that belongs to the Late Medieval volume."
     }
   ],
   "5": [
@@ -223,6 +343,72 @@
       "targetTl": "medieval-india",
       "targetChapter": 6,
       "blurb": "India's own scholastic and temple-building golden age was unfolding in parallel, equally sophisticated and equally unaware of the Latin schools."
+    },
+    {
+      "matchText": "Aristotle in Latin translation",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Aristotle, whose complete works the Latin West recovered in the twelfth century, had been a student in Plato's Athens and then tutor to the young Alexander before founding his own school, the Lyceum. The vast systematizing corpus that Toledo and Sicily translated into Latin — logic, physics, metaphysics, ethics, politics — was the lifework of a single fourth-century BC Greek."
+    },
+    {
+      "matchText": "the major works of Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Plato, the other half of the classical philosophical inheritance, had founded the Academy in fifth- and fourth-century BC Athens at the height of its golden age. The Latin West got far less of him than of Aristotle — chiefly the Phaedo and Meno via the Sicilian translators — which is part of why high-medieval philosophy tilted so heavily Aristotelian."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 3,
+      "blurb": "The fifteenth-century Italian Renaissance is the movement Haskins was deliberately echoing when he coined 'twelfth-century Renaissance.' Three centuries after the medieval recovery of Aristotle, the humanists of Quattrocento Florence would stage their own, much more famous, return to the classical past."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Baghdad was where the Greek scientific corpus had been systematically rendered into Arabic, above all at the House of Wisdom — the great Abbasid translation effort of the ninth century. The Arabic versions made there were the very texts that, two or three centuries later, Toledo's translators turned into Latin for the Christian West."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Cordoba, capital of Islamic al-Andalus, ran one of the great libraries of the medieval world and was the western terminus of the Arabic learning that flooded into Latin Europe. It was also the birthplace of both Averroes and Maimonides, the two non-Christian thinkers this chapter keeps returning to."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 5,
+      "blurb": "Damascus had been the Umayyad capital, the seat of the first great Arab empire that conquered the eastern Mediterranean and inherited its Greek learning. By the twelfth century its libraries were one more node in the Arabic scholarly network the Latin translators were tapping."
+    },
+    {
+      "matchText": "some Cicero",
+      "targetTl": "ancient-rome",
+      "targetChapter": 4,
+      "blurb": "Cicero, the Roman orator and statesman of the dying Republic, was one of the few classical authors the Latin West never lost — his rhetoric and moral philosophy were copied through the early Middle Ages. He was the thin Latin thread of antiquity that survived while the Greek inheritance had to be re-imported."
+    },
+    {
+      "matchText": "Sufi spirituality",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Sufi devotional turn that al-Ghazali helped steer Islamic intellectual life toward would, centuries later, become a political force in its own right: the Safavid movement began as exactly such a Sufi order before it conquered Persia and made Twelver Shiism the state religion."
+    },
+    {
+      "matchText": "Roman law",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "The Roman law the Bologna jurists recovered was the end product of a thousand-year tradition that began with the Twelve Tables of the early Republic. What Justinian codified in the sixth century and Italy rediscovered in the eleventh was the accumulated legal thinking of the civilization the Latin West still saw as its parent."
+    },
+    {
+      "matchText": "The Cholas",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "While the Latin West was recovering its lost books, the Cholas of South India were running the dominant naval power of the Bay of Bengal, launching maritime campaigns as far as Sumatra and building the colossal temple-cities that were medieval India's own monumental answer to Europe's cathedrals."
+    },
+    {
+      "matchText": "great Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The Song dynasty of China was running its own intellectual golden age in exactly these centuries — a renaissance of classical scholarship, printing, and philosophy that produced the Neo-Confucian synthesis. Like the European twelfth century, it was a deliberate, systematizing return to an older textual tradition."
     }
   ],
   "6": [
@@ -267,6 +453,30 @@
       "targetTl": "maya-civilization",
       "targetChapter": 6,
       "blurb": "Mesoamerica's monumental architecture continued in the Postclassic Maya world, a third independent tradition of sacred monumental building."
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "While Suger's masons were inventing the Gothic skeleton in northern France, the Chola dynasty of Tamil south India was at its height — a maritime empire whose granite temple-towers and thousand-pillared halls were every bit the scale of a Gothic cathedral, built with continuous figural carving where Gothic used glass and stone ribs."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Islamic religious architecture's dome-and-minaret silhouette was inherited in part from Byzantine models — above all the Hagia Sophia, whose vast central dome the Constantinopolitan empire had perfected centuries before the first Gothic vault rose. Two opposite answers to spanning a sacred space: the Byzantine dome enclosing a single luminous volume, the Gothic skeleton dissolving the wall into glass."
+    },
+    {
+      "matchText": "Song dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "While the cathedrals of northern Europe were going up in stone, the Northern Song was raising its own monumental sacred architecture in timber — Buddhist pagodas and temple halls held up by interlocking dougong bracket-sets, achieving Gothic-scale heights with a structural logic that used no stone vault at all."
+    },
+    {
+      "matchText": "Aztec",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "The Aztec capital of Tenochtitlán, with its great twin-temple pyramid, would not be founded until 1325 — a generation after the Gothic structural peak at Beauvais. The Mexica who built it began as a despised wandering tribe whose priests claimed an eagle on a cactus had marked the spot for their lake-island city."
     }
   ],
   "7": [
@@ -379,6 +589,90 @@
       "targetTl": "mali-empire",
       "targetChapter": 1,
       "blurb": "Beyond Europe's horizon, Mali, Aksum's heirs, the Andes, and the Pacific were running parallel histories the medieval West never saw."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Córdoba had been the capital of the Umayyad caliphate of al-Andalus — for a couple of centuries the most dazzling city in western Europe, where the Islamic Golden Age put down its westernmost roots."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Byzantine Empire was the Greek-speaking, Orthodox-Christian continuation of Rome in the east — the cultural sphere Rus' had belonged to before the Mongols dragged it eastward."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "The Mongol raids brushed the Balkans only briefly. Two centuries later the Ottomans would arrive there to stay, swallowing the peninsula kingdom by kingdom."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The plague that arrived in 1347 would kill perhaps a third of Europe and mark, for many historians, the true end of the High Middle Ages — the subject the next volume opens on."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Baghdad was the Abbasid capital and the beating heart of Islamic learning — until Hülegü's Mongols sacked it in 1258 and ended five centuries of caliphate."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid caliphate, founded in a revolution in 750, had presided over the Islamic Golden Age from Baghdad. The Mongol sack of 1258 finished it."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "England and France would spend more than a century fighting over the French crown — one of the four great fourteenth-century shocks the Late Medieval volume picks up."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "While Europe absorbed its Mongol fright and recovered, China's Southern Song fought the same enemy to the death — and lost, falling to Kublai's Mongols in 1279."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Mongol conquest of Song China produced the Yuan dynasty — the first time foreign nomads ruled all of China, the empire Marco Polo would visit."
+    },
+    {
+      "matchText": "Ilkhanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "The Ilkhanate was the Mongol realm in Persia and the Middle East — one of the four khanates the empire split into, and the one that kept courting Christian Europe against the Mamluks."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "A century after Sundiata founded Mali, Mansa Musa's gold-laden pilgrimage to Mecca made him a legend across the medieval world — Africa's richest king at the empire's peak."
+    },
+    {
+      "matchText": "Postclassic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "Long after the great Classic cities had emptied, the Postclassic Maya carried on under regional powers like Mayapán — a smaller, more militarized world that still spoke and wrote in Maya."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 8,
+      "blurb": "Centuries before the Inca, the Wari empire had ruled much of the Andes — its collapse left the regional successor states that were now consolidating, Chimor among them."
+    },
+    {
+      "matchText": "Aksum",
+      "targetTl": "kingdom-of-aksum",
+      "targetChapter": 8,
+      "blurb": "Aksum, the old Christian trading kingdom of the Ethiopian highlands, had long since dissolved into the medieval Ethiopian states the Crusaders dreamed of as the realm of \"Prester John.\""
     }
   ]
 }

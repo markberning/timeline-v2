@@ -1,33 +1,9 @@
 {
   "1": [
     {
-      "term": "Medieval Warm Period",
-      "matchText": "Medieval Warm Period",
-      "wikiSlug": "Medieval_Warm_Period",
-      "type": "concept"
-    },
-    {
       "term": "Domesday Book",
       "matchText": "Domesday Book",
       "wikiSlug": "Domesday_Book",
-      "type": "concept"
-    },
-    {
-      "term": "Heavy mouldboard plow",
-      "matchText": "heavy mouldboard plow",
-      "wikiSlug": "Plough",
-      "type": "concept"
-    },
-    {
-      "term": "Three-field rotation",
-      "matchText": "three-field crop rotation",
-      "wikiSlug": "Three-field_system",
-      "type": "concept"
-    },
-    {
-      "term": "Horse collar",
-      "matchText": "rigid padded horse collar",
-      "wikiSlug": "Horse_collar",
       "type": "concept"
     },
     {
@@ -46,24 +22,6 @@
       "term": "Little Ice Age",
       "matchText": "Little Ice Age",
       "wikiSlug": "Little_Ice_Age",
-      "type": "concept"
-    },
-    {
-      "term": "Greenland Norse",
-      "matchText": "Norse settle Greenland",
-      "wikiSlug": "Norse_colonization_of_North_America",
-      "type": "concept"
-    },
-    {
-      "term": "Cahokia",
-      "matchText": "Cahokia",
-      "wikiSlug": "Cahokia",
-      "type": "place"
-    },
-    {
-      "term": "Tale of Genji",
-      "matchText": "Tale of Genji",
-      "wikiSlug": "The_Tale_of_Genji",
       "type": "concept"
     },
     {
@@ -121,12 +79,6 @@
       "type": "concept"
     },
     {
-      "term": "William the Conqueror",
-      "matchText": "William the Conqueror",
-      "wikiSlug": "William_the_Conqueror",
-      "type": "people"
-    },
-    {
       "term": "Cassiodorus",
       "matchText": "Cassiodorus",
       "wikiSlug": "Cassiodorus",
@@ -137,15 +89,207 @@
       "matchText": "rigid horse collar",
       "wikiSlug": "Horse_collar",
       "type": "concept"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Antioch",
+      "matchText": "Antioch",
+      "wikiSlug": "Antioch",
+      "type": "place"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusades",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Magna Carta",
+      "matchText": "Magna Carta",
+      "wikiSlug": "Magna_Carta",
+      "type": "concept"
+    },
+    {
+      "term": "Normandy",
+      "matchText": "Normandy",
+      "wikiSlug": "Duchy_of_Normandy",
+      "type": "place"
+    },
+    {
+      "term": "Yorkshire",
+      "matchText": "Yorkshire",
+      "wikiSlug": "Yorkshire",
+      "type": "place"
+    },
+    {
+      "term": "Slavs",
+      "matchText": "Slavic",
+      "wikiSlug": "Slavs",
+      "type": "people"
+    },
+    {
+      "term": "Elbe",
+      "matchText": "Elbe",
+      "wikiSlug": "Elbe",
+      "type": "place"
+    },
+    {
+      "term": "Iberia",
+      "matchText": "Iberia",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "place"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "wikiSlug": "Milan",
+      "type": "place"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "Genoa",
+      "wikiSlug": "Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Hangzhou",
+      "matchText": "Hangzhou",
+      "wikiSlug": "Hangzhou",
+      "type": "place"
+    },
+    {
+      "term": "Lübeck",
+      "matchText": "Lübeck",
+      "wikiSlug": "L%C3%BCbeck",
+      "type": "place"
+    },
+    {
+      "term": "Hamburg",
+      "matchText": "Hamburg",
+      "wikiSlug": "Hamburg",
+      "type": "place"
+    },
+    {
+      "term": "Augsburg",
+      "matchText": "Augsburg",
+      "wikiSlug": "Augsburg",
+      "type": "place"
+    },
+    {
+      "term": "Bruges",
+      "matchText": "Bruges",
+      "wikiSlug": "Bruges",
+      "type": "place"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Romanesque architecture",
+      "matchText": "Romanesque",
+      "wikiSlug": "Romanesque_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Mississippi River",
+      "matchText": "Mississippi",
+      "wikiSlug": "Mississippi_River",
+      "type": "place"
+    },
+    {
+      "term": "Yucatán Peninsula",
+      "matchText": "Yucatán",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Chichén Itzá",
+      "matchText": "Chichén Itzá",
+      "wikiSlug": "Chichen_Itza",
+      "type": "place"
+    },
+    {
+      "term": "Mayapán",
+      "matchText": "Mayapán",
+      "wikiSlug": "Mayapan",
+      "type": "place"
+    },
+    {
+      "term": "Chimú",
+      "matchText": "Chimú",
+      "wikiSlug": "Chimú_culture",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Flemish people",
+      "matchText": "Flemish",
+      "wikiSlug": "Flemish_people",
+      "type": "people"
     }
   ],
   "2": [
-    {
-      "term": "Cluny",
-      "matchText": "Cluny",
-      "wikiSlug": "Cluny_Abbey",
-      "type": "place"
-    },
     {
       "term": "Cluniac reform",
       "matchText": "Cluniac model",
@@ -175,12 +319,6 @@
       "matchText": "Canossa",
       "wikiSlug": "Walk_to_Canossa",
       "type": "place"
-    },
-    {
-      "term": "Concordat of Worms",
-      "matchText": "Concordat of Worms",
-      "wikiSlug": "Concordat_of_Worms",
-      "type": "concept"
     },
     {
       "term": "Dictatus Papae",
@@ -255,12 +393,6 @@
       "type": "concept"
     },
     {
-      "term": "Eastern Orthodox Church",
-      "matchText": "Eastern Orthodox Church",
-      "wikiSlug": "Eastern_Orthodox_Church",
-      "type": "concept"
-    },
-    {
       "term": "Roman Catholic Church",
       "matchText": "Roman Catholic Church",
       "wikiSlug": "Catholic_Church",
@@ -279,12 +411,6 @@
       "type": "concept"
     },
     {
-      "term": "Battle of Manzikert",
-      "matchText": "Manzikert",
-      "wikiSlug": "Battle_of_Manzikert",
-      "type": "concept"
-    },
-    {
       "term": "Seljuk Empire",
       "matchText": "Seljuk Turks",
       "wikiSlug": "Seljuk_Empire",
@@ -295,6 +421,138 @@
       "matchText": "Innocent III",
       "wikiSlug": "Pope_Innocent_III",
       "type": "people"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusades",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Magna Carta",
+      "matchText": "Magna Carta",
+      "wikiSlug": "Magna_Carta",
+      "type": "concept"
+    },
+    {
+      "term": "Reformation",
+      "matchText": "Reformation",
+      "wikiSlug": "Reformation",
+      "type": "concept"
+    },
+    {
+      "term": "Burgundy",
+      "matchText": "Burgundy",
+      "wikiSlug": "Burgundy",
+      "type": "place"
+    },
+    {
+      "term": "Rule of Saint Benedict",
+      "matchText": "Rule of Saint Benedict",
+      "wikiSlug": "Rule_of_Saint_Benedict",
+      "type": "concept"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "wikiSlug": "Milan",
+      "type": "place"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
+    },
+    {
+      "term": "Salerno",
+      "matchText": "Salerno",
+      "wikiSlug": "Salerno",
+      "type": "place"
+    },
+    {
+      "term": "Cardinal Humbert",
+      "matchText": "Cardinal Humbert",
+      "wikiSlug": "Humbert_of_Silva_Candida",
+      "type": "people"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Nicene Creed",
+      "matchText": "Nicene Creed",
+      "wikiSlug": "Nicene_Creed",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "concept"
+    },
+    {
+      "term": "Toledo",
+      "matchText": "Toledo",
+      "wikiSlug": "Toledo,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Wang Anshi",
+      "matchText": "Wang Anshi",
+      "wikiSlug": "Wang_Anshi",
+      "type": "people"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "King John",
+      "matchText": "King John",
+      "wikiSlug": "John,_King_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Albigensian Crusade",
+      "matchText": "Albigensian Crusade",
+      "wikiSlug": "Albigensian_Crusade",
+      "type": "concept"
+    },
+    {
+      "term": "Dominicans",
+      "matchText": "Dominicans",
+      "wikiSlug": "Dominican_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol Empire",
+      "wikiSlug": "Mongol_Empire",
+      "type": "polity"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "3": [
@@ -377,21 +635,9 @@
       "type": "people"
     },
     {
-      "term": "Frederick Barbarossa",
-      "matchText": "Frederick Barbarossa",
-      "wikiSlug": "Frederick_Barbarossa",
-      "type": "people"
-    },
-    {
       "term": "Battle of Arsuf",
       "matchText": "Battle of Arsuf",
       "wikiSlug": "Battle_of_Arsuf",
-      "type": "concept"
-    },
-    {
-      "term": "Mamluk Sultanate",
-      "matchText": "Mamluks",
-      "wikiSlug": "Mamluk_Sultanate",
       "type": "concept"
     },
     {
@@ -464,6 +710,258 @@
       "term": "Philip II of France",
       "matchText": "Philip II Augustus",
       "wikiSlug": "Philip_II_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Holy Land",
+      "matchText": "Holy Land",
+      "wikiSlug": "Holy_Land",
+      "type": "place"
+    },
+    {
+      "term": "Seljuk Empire",
+      "matchText": "Seljuks",
+      "wikiSlug": "Seljuk_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_peoples",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christians",
+      "type": "concept"
+    },
+    {
+      "term": "Bosporus",
+      "matchText": "Bosporus",
+      "wikiSlug": "Bosporus",
+      "type": "place"
+    },
+    {
+      "term": "Rhineland",
+      "matchText": "Rhineland",
+      "wikiSlug": "Rhineland",
+      "type": "place"
+    },
+    {
+      "term": "Worms",
+      "matchText": "Worms",
+      "wikiSlug": "Worms,_Germany",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "wikiSlug": "Muslims",
+      "type": "people"
+    },
+    {
+      "term": "Republic of Genoa",
+      "matchText": "Genoa",
+      "wikiSlug": "Republic_of_Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Republic of Pisa",
+      "matchText": "Pisa",
+      "wikiSlug": "Republic_of_Pisa",
+      "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "concept"
+    },
+    {
+      "term": "Damascus",
+      "matchText": "Damascus",
+      "wikiSlug": "Damascus",
+      "type": "place"
+    },
+    {
+      "term": "Galilee",
+      "matchText": "Galilee",
+      "wikiSlug": "Galilee",
+      "type": "place"
+    },
+    {
+      "term": "Church of the Holy Sepulchre",
+      "matchText": "Holy Sepulchre",
+      "wikiSlug": "Church_of_the_Holy_Sepulchre",
+      "type": "place"
+    },
+    {
+      "term": "Pope Innocent III",
+      "matchText": "Innocent III",
+      "wikiSlug": "Pope_Innocent_III",
+      "type": "people"
+    },
+    {
+      "term": "Adriatic Sea",
+      "matchText": "Adriatic",
+      "wikiSlug": "Adriatic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Zara",
+      "matchText": "Zara",
+      "wikiSlug": "Zadar",
+      "type": "place"
+    },
+    {
+      "term": "Byzantine Church",
+      "matchText": "Byzantine Church",
+      "wikiSlug": "Eastern_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Hippodrome of Constantinople",
+      "matchText": "Hippodrome",
+      "wikiSlug": "Hippodrome_of_Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Hagia Sophia",
+      "matchText": "Hagia Sophia",
+      "wikiSlug": "Hagia_Sophia",
+      "type": "place"
+    },
+    {
+      "term": "Nicaea",
+      "matchText": "Nicaea",
+      "wikiSlug": "Nicaea",
+      "type": "place"
+    },
+    {
+      "term": "Michael VIII Palaiologos",
+      "matchText": "Michael VIII Palaiologos",
+      "wikiSlug": "Michael_VIII_Palaiologos",
+      "type": "people"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Basilica of Saint-Denis",
+      "matchText": "Saint-Denis",
+      "wikiSlug": "Basilica_of_Saint-Denis",
+      "type": "place"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "wikiSlug": "Paris",
+      "type": "place"
+    },
+    {
+      "term": "Aristotle",
+      "matchText": "Aristotle",
+      "wikiSlug": "Aristotle",
+      "type": "people"
+    },
+    {
+      "term": "Galen",
+      "matchText": "Galen",
+      "wikiSlug": "Galen",
+      "type": "people"
+    },
+    {
+      "term": "Euclid",
+      "matchText": "Euclid",
+      "wikiSlug": "Euclid",
+      "type": "people"
+    },
+    {
+      "term": "Toledo",
+      "matchText": "Toledo",
+      "wikiSlug": "Toledo,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Dominican Order",
+      "matchText": "Dominicans",
+      "wikiSlug": "Dominican_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Rhineland massacres",
+      "matchText": "Rhineland massacres",
+      "wikiSlug": "Rhineland_massacres",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Republic of Venice",
+      "matchText": "Venetians",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "polity"
+    },
+    {
+      "term": "Republic of Venice",
+      "matchText": "Venetian",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "polity"
+    },
+    {
+      "term": "Alexios IV Angelos",
+      "matchText": "Alexios IV",
+      "wikiSlug": "Alexios_IV_Angelos",
+      "type": "person"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arabs",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Bulgarians",
+      "matchText": "Bulgarians",
+      "wikiSlug": "Bulgarians",
+      "type": "people"
+    },
+    {
+      "term": "Russians",
+      "matchText": "Russians",
+      "wikiSlug": "Russians",
       "type": "people"
     }
   ],
@@ -572,12 +1070,6 @@
       "type": "concept"
     },
     {
-      "term": "Cairo Geniza",
-      "matchText": "Geniza documents",
-      "wikiSlug": "Cairo_Geniza",
-      "type": "concept"
-    },
-    {
       "term": "Knights Templar",
       "matchText": "Knights Templar",
       "wikiSlug": "Knights_Templar",
@@ -602,12 +1094,6 @@
       "type": "concept"
     },
     {
-      "term": "Jiaozi",
-      "matchText": "jiaozi",
-      "wikiSlug": "Jiaozi_(currency)",
-      "type": "concept"
-    },
-    {
       "term": "Bourgeoisie",
       "matchText": "bourgeoisie",
       "wikiSlug": "Bourgeoisie",
@@ -624,6 +1110,258 @@
       "matchText": "mudaraba",
       "wikiSlug": "Mudarabah",
       "type": "concept"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florentine",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "Florence",
+      "matchText": "Florence",
+      "wikiSlug": "Florence",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Acre",
+      "matchText": "Acre",
+      "wikiSlug": "Acre,_Israel",
+      "type": "place"
+    },
+    {
+      "term": "High Middle Ages",
+      "matchText": "High Middle Ages",
+      "wikiSlug": "High_Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "by Genoa",
+      "wikiSlug": "Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Venice",
+      "matchText": "gave Venice",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Crete",
+      "matchText": "Crete",
+      "wikiSlug": "Crete",
+      "type": "place"
+    },
+    {
+      "term": "Euboea",
+      "matchText": "Euboea",
+      "wikiSlug": "Euboea",
+      "type": "place"
+    },
+    {
+      "term": "North Sea",
+      "matchText": "North Sea",
+      "wikiSlug": "North_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Baltic Sea",
+      "matchText": "Baltic",
+      "wikiSlug": "Baltic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Flemish people",
+      "matchText": "Flemish",
+      "wikiSlug": "Flemish_people",
+      "type": "people"
+    },
+    {
+      "term": "Hamburg",
+      "matchText": "Hamburg",
+      "wikiSlug": "Hamburg",
+      "type": "place"
+    },
+    {
+      "term": "Valencia",
+      "matchText": "Valencia",
+      "wikiSlug": "Valencia",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Strait of Gibraltar",
+      "matchText": "Strait of Gibraltar",
+      "wikiSlug": "Strait_of_Gibraltar",
+      "type": "place"
+    },
+    {
+      "term": "Republic of Genoa",
+      "matchText": "Genoese",
+      "wikiSlug": "Republic_of_Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Iberian Peninsula",
+      "matchText": "Iberia",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Franciscans",
+      "matchText": "Franciscan",
+      "wikiSlug": "Franciscans",
+      "type": "concept"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "wikiSlug": "Paris",
+      "type": "place"
+    },
+    {
+      "term": "Avignon",
+      "matchText": "Avignon",
+      "wikiSlug": "Avignon",
+      "type": "place"
+    },
+    {
+      "term": "Naples",
+      "matchText": "Naples",
+      "wikiSlug": "Naples",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Sahara",
+      "wikiSlug": "Sahara",
+      "type": "place"
+    },
+    {
+      "term": "Berbers",
+      "matchText": "Berber",
+      "wikiSlug": "Berbers",
+      "type": "people"
+    },
+    {
+      "term": "Sundiata Keita",
+      "matchText": "Sundiata",
+      "wikiSlug": "Sundiata_Keita",
+      "type": "people"
+    },
+    {
+      "term": "Chola dynasty",
+      "matchText": "Chola",
+      "wikiSlug": "Chola_dynasty",
+      "type": "place"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Sumatra",
+      "matchText": "Sumatra",
+      "wikiSlug": "Sumatra",
+      "type": "place"
+    },
+    {
+      "term": "Malabar Coast",
+      "matchText": "Malabar",
+      "wikiSlug": "Malabar_Coast",
+      "type": "place"
+    },
+    {
+      "term": "Pax Mongolica",
+      "matchText": "Pax Mongolica",
+      "wikiSlug": "Pax_Mongolica",
+      "type": "concept"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Khanbaliq",
+      "matchText": "Dadu",
+      "wikiSlug": "Khanbaliq",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Council of Vienne",
+      "matchText": "Council of Vienne",
+      "wikiSlug": "Council_of_Vienne",
+      "type": "event"
+    },
+    {
+      "term": "Hungarians",
+      "matchText": "Hungarian",
+      "wikiSlug": "Hungarians",
+      "type": "people"
     }
   ],
   "5": [
@@ -700,12 +1438,6 @@
       "type": "concept"
     },
     {
-      "term": "Peter Abelard",
-      "matchText": "Peter Abelard",
-      "wikiSlug": "Peter_Abelard",
-      "type": "people"
-    },
-    {
       "term": "Heloise",
       "matchText": "Heloise",
       "wikiSlug": "H%C3%A9lo%C3%AFse",
@@ -728,12 +1460,6 @@
       "matchText": "Cistercian",
       "wikiSlug": "Cistercians",
       "type": "concept"
-    },
-    {
-      "term": "Hildegard of Bingen",
-      "matchText": "Hildegard of Bingen",
-      "wikiSlug": "Hildegard_of_Bingen",
-      "type": "people"
     },
     {
       "term": "Scivias",
@@ -772,12 +1498,6 @@
       "type": "people"
     },
     {
-      "term": "Eleanor of Aquitaine",
-      "matchText": "Eleanor of Aquitaine",
-      "wikiSlug": "Eleanor_of_Aquitaine",
-      "type": "people"
-    },
-    {
       "term": "Avicenna",
       "matchText": "Ibn Sina",
       "wikiSlug": "Avicenna",
@@ -806,6 +1526,324 @@
       "matchText": "Minnesänger",
       "wikiSlug": "Minnesang",
       "type": "concept"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "wikiSlug": "Paris",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "classical Latin literature",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Boethius",
+      "matchText": "Boethius",
+      "wikiSlug": "Boethius",
+      "type": "people"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "no Arabic science",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Augustine of Hippo",
+      "matchText": "Augustine",
+      "wikiSlug": "Augustine_of_Hippo",
+      "type": "people"
+    },
+    {
+      "term": "Euclid",
+      "matchText": "Euclid was back",
+      "wikiSlug": "Euclid",
+      "type": "people"
+    },
+    {
+      "term": "Galen",
+      "matchText": "Galen was back",
+      "wikiSlug": "Galen",
+      "type": "people"
+    },
+    {
+      "term": "Hippocrates",
+      "matchText": "Hippocrates",
+      "wikiSlug": "Hippocrates",
+      "type": "people"
+    },
+    {
+      "term": "Provençal",
+      "matchText": "Provençal of love poetry",
+      "wikiSlug": "Proven%C3%A7al_dialect",
+      "type": "concept"
+    },
+    {
+      "term": "Thomas Aquinas",
+      "matchText": "Aquinas died",
+      "wikiSlug": "Thomas_Aquinas",
+      "type": "people"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "western Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Latin West",
+      "matchText": "lost in the Latin West",
+      "wikiSlug": "Greek_East_and_Latin_West",
+      "type": "concept"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Normans",
+      "matchText": "Norman kings",
+      "wikiSlug": "Normans",
+      "type": "people"
+    },
+    {
+      "term": "Kingdom of Sicily",
+      "matchText": "Sicilian translations",
+      "wikiSlug": "Kingdom_of_Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Roger II of Sicily",
+      "matchText": "Roger II",
+      "wikiSlug": "Roger_II_of_Sicily",
+      "type": "people"
+    },
+    {
+      "term": "Palermo",
+      "matchText": "Palermo",
+      "wikiSlug": "Palermo",
+      "type": "place"
+    },
+    {
+      "term": "Aristotelianism",
+      "matchText": "Aristotelian system",
+      "wikiSlug": "Aristotelianism",
+      "type": "concept"
+    },
+    {
+      "term": "Bologna",
+      "matchText": "The Bologna jurists",
+      "wikiSlug": "Bologna",
+      "type": "place"
+    },
+    {
+      "term": "Digest",
+      "matchText": "Digest",
+      "wikiSlug": "Digest_(Roman_law)",
+      "type": "concept"
+    },
+    {
+      "term": "Codex",
+      "matchText": "Codex",
+      "wikiSlug": "Codex_Justinianus",
+      "type": "concept"
+    },
+    {
+      "term": "Duchy of Normandy",
+      "matchText": "Bec in Normandy",
+      "wikiSlug": "Duchy_of_Normandy",
+      "type": "place"
+    },
+    {
+      "term": "Benedictines",
+      "matchText": "Benedictine abbess",
+      "wikiSlug": "Benedictines",
+      "type": "concept"
+    },
+    {
+      "term": "Rule of Saint Benedict",
+      "matchText": "Rule of Saint Benedict",
+      "wikiSlug": "Rule_of_Saint_Benedict",
+      "type": "concept"
+    },
+    {
+      "term": "Frederick Barbarossa",
+      "matchText": "Frederick Barbarossa",
+      "wikiSlug": "Frederick_Barbarossa",
+      "type": "people"
+    },
+    {
+      "term": "Burgundy",
+      "matchText": "Burgundy",
+      "wikiSlug": "Burgundy",
+      "type": "place"
+    },
+    {
+      "term": "Saladin",
+      "matchText": "Saladin's vizier",
+      "wikiSlug": "Saladin",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew language",
+      "matchText": "translated into Hebrew",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Ramanuja",
+      "matchText": "Ramanuja",
+      "wikiSlug": "Ramanuja",
+      "type": "people"
+    },
+    {
+      "term": "Upanishads",
+      "matchText": "Upanishads",
+      "wikiSlug": "Upanishads",
+      "type": "concept"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Sumatra",
+      "matchText": "Sumatra",
+      "wikiSlug": "Sumatra",
+      "type": "place"
+    },
+    {
+      "term": "Cheng Yi",
+      "matchText": "Cheng Yi",
+      "wikiSlug": "Cheng_Yi_(philosopher)",
+      "type": "people"
+    },
+    {
+      "term": "Cheng Hao",
+      "matchText": "Cheng Hao",
+      "wikiSlug": "Cheng_Hao",
+      "type": "people"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "the Confucian classics",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Almohad Caliphate",
+      "matchText": "Almohad persecution",
+      "wikiSlug": "Almohad_Caliphate",
+      "type": "place"
+    },
+    {
+      "term": "Islamic world",
+      "matchText": "the Islamic world that",
+      "wikiSlug": "Islamic_world",
+      "type": "concept"
+    },
+    {
+      "term": "Matter of Britain",
+      "matchText": "Arthurian cycle",
+      "wikiSlug": "Matter_of_Britain",
+      "type": "concept"
+    },
+    {
+      "term": "Greek-speaking eastern Empire",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "the Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Visigothic",
+      "matchText": "Visigothic",
+      "wikiSlug": "Visigoths",
+      "type": "people"
+    },
+    {
+      "term": "al-Andalus",
+      "matchText": "al-Andalus",
+      "wikiSlug": "Al-Andalus",
+      "type": "place"
+    },
+    {
+      "term": "Arab geographers",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Pisa",
+      "matchText": "Pisa",
+      "wikiSlug": "Republic_of_Pisa",
+      "type": "place"
+    },
+    {
+      "term": "Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Ravenna",
+      "type": "place"
+    },
+    {
+      "term": "Justinian",
+      "matchText": "Justinian",
+      "wikiSlug": "Justinian_I",
+      "type": "person"
+    },
+    {
+      "term": "Magna Carta",
+      "matchText": "Magna Carta",
+      "wikiSlug": "Magna_Carta",
+      "type": "concept"
+    },
+    {
+      "term": "Investiture Controversy",
+      "matchText": "Investiture Controversy",
+      "wikiSlug": "Investiture_Controversy",
+      "type": "concept"
+    },
+    {
+      "term": "Saint-Denis",
+      "matchText": "Saint-Denis",
+      "wikiSlug": "Basilica_of_Saint-Denis",
+      "type": "place"
+    },
+    {
+      "term": "Rhineland",
+      "matchText": "Rhineland",
+      "wikiSlug": "Rhineland",
+      "type": "place"
+    },
+    {
+      "term": "Madhva",
+      "matchText": "Madhva",
+      "wikiSlug": "Madhvacharya",
+      "type": "person"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "6": [
@@ -855,12 +1893,6 @@
       "term": "Chartres Cathedral",
       "matchText": "Chartres",
       "wikiSlug": "Chartres_Cathedral",
-      "type": "place"
-    },
-    {
-      "term": "Reims Cathedral",
-      "matchText": "Reims Cathedral",
-      "wikiSlug": "Reims_Cathedral",
       "type": "place"
     },
     {
@@ -948,18 +1980,6 @@
       "type": "people"
     },
     {
-      "term": "Brihadeeswarar Temple",
-      "matchText": "Brihadeeswarar at Thanjavur",
-      "wikiSlug": "Brihadeeswarar_Temple",
-      "type": "place"
-    },
-    {
-      "term": "Yingxian wooden pagoda",
-      "matchText": "Yingxian wooden pagoda",
-      "wikiSlug": "Pagoda_of_Fogong_Temple",
-      "type": "place"
-    },
-    {
       "term": "Rayonnant",
       "matchText": "Rayonnant",
       "wikiSlug": "Rayonnant",
@@ -970,15 +1990,207 @@
       "matchText": "Flamboyant",
       "wikiSlug": "Flamboyant_architecture",
       "type": "concept"
+    },
+    {
+      "term": "Normans",
+      "matchText": "Norman",
+      "wikiSlug": "Normans",
+      "type": "people"
+    },
+    {
+      "term": "Pisa",
+      "matchText": "Pisa",
+      "wikiSlug": "Pisa",
+      "type": "place"
+    },
+    {
+      "term": "Cluny Abbey",
+      "matchText": "Cluny",
+      "wikiSlug": "Cluny_Abbey",
+      "type": "place"
+    },
+    {
+      "term": "Burgundy",
+      "matchText": "Burgundy",
+      "wikiSlug": "Burgundy",
+      "type": "place"
+    },
+    {
+      "term": "High Gothic",
+      "matchText": "High Gothic",
+      "wikiSlug": "High_Gothic",
+      "type": "concept"
+    },
+    {
+      "term": "Milan",
+      "matchText": "Milan",
+      "wikiSlug": "Milan",
+      "type": "place"
+    },
+    {
+      "term": "Frederick Barbarossa",
+      "matchText": "Frederick Barbarossa",
+      "wikiSlug": "Frederick_Barbarossa",
+      "type": "people"
+    },
+    {
+      "term": "Canterbury",
+      "matchText": "Canterbury",
+      "wikiSlug": "Canterbury",
+      "type": "place"
+    },
+    {
+      "term": "York",
+      "matchText": "York",
+      "wikiSlug": "York",
+      "type": "place"
+    },
+    {
+      "term": "Decorated Gothic",
+      "matchText": "Decorated",
+      "wikiSlug": "Decorated_Gothic",
+      "type": "concept"
+    },
+    {
+      "term": "Perpendicular Gothic",
+      "matchText": "Perpendicular",
+      "wikiSlug": "Perpendicular_Gothic",
+      "type": "concept"
+    },
+    {
+      "term": "True Cross",
+      "matchText": "True Cross",
+      "wikiSlug": "True_Cross",
+      "type": "concept"
+    },
+    {
+      "term": "Mary, mother of Jesus",
+      "matchText": "Mary",
+      "wikiSlug": "Mary,_mother_of_Jesus",
+      "type": "people"
+    },
+    {
+      "term": "Latin cross",
+      "matchText": "Latin cross",
+      "wikiSlug": "Latin_cross",
+      "type": "concept"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Last Judgment",
+      "matchText": "Last Judgment",
+      "wikiSlug": "Last_Judgment",
+      "type": "concept"
+    },
+    {
+      "term": "Book of Genesis",
+      "matchText": "Genesis",
+      "wikiSlug": "Book_of_Genesis",
+      "type": "concept"
+    },
+    {
+      "term": "Hoysala Empire",
+      "matchText": "Hoysala",
+      "wikiSlug": "Hoysala_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Vijayanagara Empire",
+      "matchText": "Vijayanagara",
+      "wikiSlug": "Vijayanagara_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Halebidu",
+      "matchText": "Halebidu",
+      "wikiSlug": "Halebidu",
+      "type": "place"
+    },
+    {
+      "term": "Madurai",
+      "matchText": "Madurai",
+      "wikiSlug": "Madurai",
+      "type": "place"
+    },
+    {
+      "term": "Mosque-Cathedral of Cordoba",
+      "matchText": "Great Mosque of Cordoba",
+      "wikiSlug": "Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
+      "type": "place"
+    },
+    {
+      "term": "Seville",
+      "matchText": "Seville",
+      "wikiSlug": "Seville",
+      "type": "place"
+    },
+    {
+      "term": "Giralda",
+      "matchText": "Giralda",
+      "wikiSlug": "Giralda",
+      "type": "place"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Chichen Itza",
+      "matchText": "Chichén Itzá",
+      "wikiSlug": "Chichen_Itza",
+      "type": "place"
+    },
+    {
+      "term": "Mayapan",
+      "matchText": "Mayapán",
+      "wikiSlug": "Mayapan",
+      "type": "place"
+    },
+    {
+      "term": "Tula",
+      "matchText": "Tula",
+      "wikiSlug": "Tula_(Mesoamerican_site)",
+      "type": "place"
+    },
+    {
+      "term": "Moses",
+      "matchText": "Moses",
+      "wikiSlug": "Moses",
+      "type": "person"
+    },
+    {
+      "term": "Annunciation",
+      "matchText": "Annunciation",
+      "wikiSlug": "Annunciation",
+      "type": "concept"
+    },
+    {
+      "term": "Hoysaleswara",
+      "matchText": "Hoysaleswara",
+      "wikiSlug": "Hoysaleswara_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Song Chinese",
+      "matchText": "Song Chinese",
+      "wikiSlug": "Song_dynasty",
+      "type": "place"
+    },
+    {
+      "term": "Tenochtitlán",
+      "matchText": "Tenochtitlán",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
     }
   ],
   "7": [
-    {
-      "term": "University of Bologna",
-      "matchText": "University of Bologna",
-      "wikiSlug": "University_of_Bologna",
-      "type": "concept"
-    },
     {
       "term": "Notre-Dame cathedral school",
       "matchText": "cathedral school of Notre-Dame",
@@ -1058,12 +2270,6 @@
       "type": "people"
     },
     {
-      "term": "Francis of Assisi",
-      "matchText": "Francis of Assisi",
-      "wikiSlug": "Francis_of_Assisi",
-      "type": "people"
-    },
-    {
       "term": "Albertus Magnus",
       "matchText": "Albertus Magnus",
       "wikiSlug": "Albertus_Magnus",
@@ -1140,6 +2346,144 @@
       "matchText": "Guide for the Perplexed",
       "wikiSlug": "The_Guide_for_the_Perplexed",
       "type": "concept"
+    },
+    {
+      "term": "Plato's Academy",
+      "matchText": "Plato's Academy",
+      "wikiSlug": "Platonic_Academy",
+      "type": "concept"
+    },
+    {
+      "term": "Sharia",
+      "matchText": "Sharia",
+      "wikiSlug": "Sharia",
+      "type": "concept"
+    },
+    {
+      "term": "Peter Abelard",
+      "matchText": "Peter Abelard",
+      "wikiSlug": "Peter_Abelard",
+      "type": "people"
+    },
+    {
+      "term": "Philip II of France",
+      "matchText": "Philip II",
+      "wikiSlug": "Philip_II_of_France",
+      "type": "people"
+    },
+    {
+      "term": "Pope Innocent III",
+      "matchText": "Pope Innocent III",
+      "wikiSlug": "Pope_Innocent_III",
+      "type": "people"
+    },
+    {
+      "term": "Henry II of England",
+      "matchText": "Henry II",
+      "wikiSlug": "Henry_II_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Toledo",
+      "matchText": "Toledo",
+      "wikiSlug": "Toledo,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew",
+      "matchText": "Hebrew",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "University of Padua",
+      "matchText": "Padua",
+      "wikiSlug": "University_of_Padua",
+      "type": "place"
+    },
+    {
+      "term": "University of Naples",
+      "matchText": "Naples",
+      "wikiSlug": "University_of_Naples_Federico_II",
+      "type": "place"
+    },
+    {
+      "term": "Toulouse",
+      "matchText": "Toulouse",
+      "wikiSlug": "Toulouse",
+      "type": "place"
+    },
+    {
+      "term": "Monte Cassino",
+      "matchText": "Monte Cassino",
+      "wikiSlug": "Monte_Cassino",
+      "type": "place"
+    },
+    {
+      "term": "Aristotelianism",
+      "matchText": "Aristotelian",
+      "wikiSlug": "Aristotelianism",
+      "type": "concept"
+    },
+    {
+      "term": "Gothic architecture",
+      "matchText": "Gothic",
+      "wikiSlug": "Gothic_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Bernard of Clairvaux",
+      "matchText": "Bernard of Clairvaux",
+      "wikiSlug": "Bernard_of_Clairvaux",
+      "type": "people"
+    },
+    {
+      "term": "Council of Trent",
+      "matchText": "Council of Trent",
+      "wikiSlug": "Council_of_Trent",
+      "type": "concept"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Córdoba",
+      "matchText": "Cordoba",
+      "wikiSlug": "C%C3%B3rdoba,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "lectio",
+      "matchText": "lecture",
+      "definition": "From the Latin lectio (\"reading\"), the core teaching method of the medieval university: a master read a designated authoritative text aloud, sentence by sentence, pausing to gloss difficult words and untangle the argument while students copied it all down. Together with the disputation (a structured oral debate) it formed the backbone of scholastic instruction.",
+      "type": "concept"
+    },
+    {
+      "term": "Paris",
+      "matchText": "Paris",
+      "wikiSlug": "University_of_Paris",
+      "type": "place"
+    },
+    {
+      "term": "Order of Preachers",
+      "matchText": "Order of Preachers",
+      "wikiSlug": "Dominican_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Albert the Great",
+      "matchText": "Albert the Great",
+      "wikiSlug": "Albertus_Magnus",
+      "type": "person"
     }
   ],
   "8": [
@@ -1166,12 +2510,6 @@
       "matchText": "Philip II",
       "wikiSlug": "Philip_II_of_France",
       "type": "people"
-    },
-    {
-      "term": "Battle of Bouvines",
-      "matchText": "Battle of Bouvines",
-      "wikiSlug": "Battle_of_Bouvines",
-      "type": "concept"
     },
     {
       "term": "Pope Innocent III",
@@ -1258,18 +2596,6 @@
       "type": "people"
     },
     {
-      "term": "Reconquista",
-      "matchText": "Reconquista",
-      "wikiSlug": "Reconquista",
-      "type": "concept"
-    },
-    {
-      "term": "Las Navas de Tolosa",
-      "matchText": "Las Navas de Tolosa",
-      "wikiSlug": "Battle_of_Las_Navas_de_Tolosa",
-      "type": "concept"
-    },
-    {
       "term": "Almohad",
       "matchText": "Almohad",
       "wikiSlug": "Almohad_Caliphate",
@@ -1292,12 +2618,6 @@
       "matchText": "Mudéjars",
       "wikiSlug": "Mud%C3%A9jar",
       "type": "concept"
-    },
-    {
-      "term": "Genghis Khan",
-      "matchText": "Genghis Khan",
-      "wikiSlug": "Genghis_Khan",
-      "type": "people"
     },
     {
       "term": "Batu Khan",
@@ -1348,12 +2668,6 @@
       "type": "people"
     },
     {
-      "term": "Kublai Khan",
-      "matchText": "Kublai Khan",
-      "wikiSlug": "Kublai_Khan",
-      "type": "people"
-    },
-    {
       "term": "Model Parliament",
       "matchText": "Model Parliament",
       "wikiSlug": "Model_Parliament",
@@ -1376,6 +2690,390 @@
       "matchText": "James I of Aragon",
       "wikiSlug": "James_I_of_Aragon",
       "type": "people"
+    },
+    {
+      "term": "Hungarians",
+      "matchText": "Hungarian",
+      "wikiSlug": "Hungarians",
+      "type": "people"
+    },
+    {
+      "term": "Adriatic Sea",
+      "matchText": "Adriatic",
+      "wikiSlug": "Adriatic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Henry II of England",
+      "matchText": "Henry II",
+      "wikiSlug": "Henry_II_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Eleanor of Aquitaine",
+      "matchText": "Eleanor of Aquitaine",
+      "wikiSlug": "Eleanor_of_Aquitaine",
+      "type": "people"
+    },
+    {
+      "term": "Richard the Lionheart",
+      "matchText": "Richard the Lionheart",
+      "wikiSlug": "Richard_I_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Duchy of Normandy",
+      "matchText": "Normandy",
+      "wikiSlug": "Duchy_of_Normandy",
+      "type": "place"
+    },
+    {
+      "term": "Aquitaine",
+      "matchText": "Aquitaine",
+      "wikiSlug": "Aquitaine",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Iberian Peninsula",
+      "matchText": "Iberia",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Albigensian Crusade",
+      "matchText": "Albigensian Crusade",
+      "wikiSlug": "Albigensian_Crusade",
+      "type": "concept"
+    },
+    {
+      "term": "Franciscans",
+      "matchText": "Franciscan",
+      "wikiSlug": "Franciscans",
+      "type": "concept"
+    },
+    {
+      "term": "Pope Gregory VII",
+      "matchText": "Gregory VII",
+      "wikiSlug": "Pope_Gregory_VII",
+      "type": "people"
+    },
+    {
+      "term": "Anagni",
+      "matchText": "Anagni",
+      "wikiSlug": "Anagni",
+      "type": "place"
+    },
+    {
+      "term": "Pelagius of Asturias",
+      "matchText": "Pelagius",
+      "wikiSlug": "Pelagius_of_Asturias",
+      "type": "people"
+    },
+    {
+      "term": "Kingdom of Navarre",
+      "matchText": "Navarre",
+      "wikiSlug": "Kingdom_of_Navarre",
+      "type": "place"
+    },
+    {
+      "term": "Berbers",
+      "matchText": "Berber",
+      "wikiSlug": "Berbers",
+      "type": "people"
+    },
+    {
+      "term": "Nasrid dynasty",
+      "matchText": "Nasrid",
+      "wikiSlug": "Nasrid_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Toledo",
+      "matchText": "Toledo",
+      "wikiSlug": "Toledo,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Maimonides",
+      "matchText": "Maimonides",
+      "wikiSlug": "Maimonides",
+      "type": "people"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Jochi",
+      "matchText": "Jochi",
+      "wikiSlug": "Jochi",
+      "type": "people"
+    },
+    {
+      "term": "Ryazan",
+      "matchText": "Ryazan",
+      "wikiSlug": "Ryazan",
+      "type": "place"
+    },
+    {
+      "term": "Vladimir",
+      "matchText": "Vladimir",
+      "wikiSlug": "Vladimir,_Russia",
+      "type": "place"
+    },
+    {
+      "term": "Kyiv",
+      "matchText": "Kyiv",
+      "wikiSlug": "Kyiv",
+      "type": "place"
+    },
+    {
+      "term": "Kievan Rus'",
+      "matchText": "Rus'",
+      "wikiSlug": "Kievan_Rus%27",
+      "type": "place"
+    },
+    {
+      "term": "Güyük Khan",
+      "matchText": "Güyük",
+      "wikiSlug": "G%C3%BCy%C3%BCk_Khan",
+      "type": "people"
+    },
+    {
+      "term": "Holy Roman Empire",
+      "matchText": "Holy Roman Empire",
+      "wikiSlug": "Holy_Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "High Middle Ages",
+      "matchText": "High Middle Ages",
+      "wikiSlug": "High_Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhans",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Mamluk Sultanate",
+      "matchText": "Mamluk Egypt",
+      "wikiSlug": "Mamluk_Sultanate",
+      "type": "place"
+    },
+    {
+      "term": "Genoa",
+      "matchText": "Genoa",
+      "wikiSlug": "Genoa",
+      "type": "place"
+    },
+    {
+      "term": "Gothic architecture",
+      "matchText": "Gothic",
+      "wikiSlug": "Gothic_architecture",
+      "type": "concept"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusades",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Little Ice Age",
+      "matchText": "Little Ice Age",
+      "wikiSlug": "Little_Ice_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Safavid order",
+      "matchText": "Safaviyya",
+      "wikiSlug": "Safaviyya",
+      "type": "concept"
+    },
+    {
+      "term": "Ardabil",
+      "matchText": "Ardabil",
+      "wikiSlug": "Ardabil",
+      "type": "place"
+    },
+    {
+      "term": "Sudan",
+      "matchText": "Sudan",
+      "wikiSlug": "Sudan",
+      "type": "place"
+    },
+    {
+      "term": "Sundiata Keita",
+      "matchText": "Sundiata",
+      "wikiSlug": "Sundiata_Keita",
+      "type": "people"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Mayapan",
+      "matchText": "Mayapán",
+      "wikiSlug": "Mayapan",
+      "type": "place"
+    },
+    {
+      "term": "Chimor",
+      "matchText": "Chimor",
+      "wikiSlug": "Chimor",
+      "type": "place"
+    },
+    {
+      "term": "Aotearoa (New Zealand)",
+      "matchText": "Aotearoa",
+      "wikiSlug": "New_Zealand",
+      "type": "place"
+    },
+    {
+      "term": "Rapa Nui (Easter Island)",
+      "matchText": "Rapa Nui",
+      "wikiSlug": "Easter_Island",
+      "type": "place"
+    },
+    {
+      "term": "Easter Island",
+      "matchText": "Easter Island",
+      "wikiSlug": "Easter_Island",
+      "type": "place"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Sahara",
+      "wikiSlug": "Sahara",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Kingdom of Poland",
+      "matchText": "Poland",
+      "wikiSlug": "Kingdom_of_Poland",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Hungary",
+      "matchText": "Hungary",
+      "wikiSlug": "Kingdom_of_Hungary",
+      "type": "place"
+    },
+    {
+      "term": "Morocco",
+      "matchText": "Morocco",
+      "wikiSlug": "Morocco",
+      "type": "place"
+    },
+    {
+      "term": "Mass",
+      "matchText": "Mass",
+      "wikiSlug": "Mass_(liturgy)",
+      "type": "concept"
+    },
+    {
+      "term": "Dominican",
+      "matchText": "Dominican",
+      "wikiSlug": "Dominican_Order",
+      "type": "concept"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "wikiSlug": "Muslims",
+      "type": "people"
+    },
+    {
+      "term": "Visigothic",
+      "matchText": "Visigothic",
+      "wikiSlug": "Visigoths",
+      "type": "people"
+    },
+    {
+      "term": "al-Andalus",
+      "matchText": "al-Andalus",
+      "wikiSlug": "Al-Andalus",
+      "type": "place"
+    },
+    {
+      "term": "Ilkhanid",
+      "matchText": "Ilkhanid",
+      "wikiSlug": "Ilkhanate",
+      "type": "place"
+    },
+    {
+      "term": "Venetian",
+      "matchText": "Venetian",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Crusaders",
+      "matchText": "Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "people"
+    },
+    {
+      "term": "Mesoamerican",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
     }
   ]
 }
