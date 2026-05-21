@@ -1,0 +1,17 @@
+{
+  "formId": "sonata",
+  "displayName": "Sonata form",
+  "note": "Reusable label vocabulary for sonata-form movements. A guide references formId and reuses these section ids/labels. Single letters (P/TR/S/K) are for the compact structural strip only; the UI shows the full labels.",
+  "sections": [
+    { "id": "intro",   "label": "Slow introduction", "optional": true },
+    { "id": "P",       "short": "P",  "label": "First subject (tonic)" },
+    { "id": "TR",      "short": "TR", "label": "Transition / bridge (modulates)" },
+    { "id": "S",       "short": "S",  "label": "Second subject (dominant / relative major)" },
+    { "id": "K",       "short": "K",  "label": "Closing theme / codetta" },
+    { "id": "exp_rep", "label": "Exposition repeat", "optional": true },
+    { "id": "dev",     "label": "Development" },
+    { "id": "S2",      "short": "S", "label": "Second subject — NOW in tonic (the resolution)" },
+    { "id": "coda",    "label": "Coda", "optional": true }
+  ],
+  "conventionNote": "Hepokoski-Darcy 'Sonata Theory' uses C (not K) for the closing zone. Pick one convention per project; this template uses K and always spells it out in the label."
+}

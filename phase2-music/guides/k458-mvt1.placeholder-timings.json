@@ -1,0 +1,20 @@
+{
+  "_WARNING": "ROUGH ILLUSTRATIVE PLACEHOLDERS — NOT a real analysis. These timings exist only so the player UI visibly moves before you have real ones. They are evenly-guessed proportions for a ~6:30 performance that does NOT take the exposition repeat. They will drift against any actual recording. REPLACE with merge.mjs output (from align.py) or with calibrated timings exported from the player.",
+  "meta": {
+    "pieceId": "mozart-k458-i",
+    "source": "placeholder",
+    "durationSec": 390,
+    "takesExpositionRepeat": false
+  },
+  "cues": {
+    "exp-P":     { "tStart": 0,   "tEnd": 34 },
+    "exp-TR":    { "tStart": 34,  "tEnd": 74 },
+    "exp-S":     { "tStart": 74,  "tEnd": 120 },
+    "exp-K":     { "tStart": 120, "tEnd": 156 },
+    "dev":       { "tStart": 156, "tEnd": 242 },
+    "recap-P":   { "tStart": 242, "tEnd": 276 },
+    "recap-TR":  { "tStart": 276, "tEnd": 312 },
+    "recap-S2":  { "tStart": 312, "tEnd": 356 },
+    "coda":      { "tStart": 356, "tEnd": 390 }
+  }
+}
