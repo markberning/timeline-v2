@@ -16,7 +16,22 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 30 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 34 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-22 batch 7:** **mali-empire** (`d6049d8`, 301→0 NEW), **srivijaya**
+  (`869a961`, 296→0 NEW), **kingdom-of-kush** (`fdb886e`, 283→0 NEW), **al-andalus**
+  (`14f98b9`, 300→0 NEW, 18 ch / 4 waves) swept + ONE batched atomic deploy +
+  curl-verified (Mansa_Musa; Malay_Peninsula; Napata; Almanzor). **DEPLOY NOTE:**
+  Cloudflare API threw transient errors for ~20 min (entitlements.not_available
+  10007, then unknown 10013) — NOT auth (whoami fine), NOT our build (shipped-page
+  guard green). It cleared on retry after ~2 min wait; `wrangler deploy` succeeded.
+  If it recurs, just wait and retry — it's Cloudflare-side. Coordinator also began
+  tightening pre-existing sloppy sentence-matchText crosses to tight proper nouns
+  (kush: Tiglath-Pileser III/Nebuchadnezzar II/Nineveh/Sassanid; al-andalus ch11
+  collisions dropped). Agents caught Kouyate→footballer, Mansa Suleyman→wrong-person,
+  Musi River India→Indonesia, Persik Kediri football club, Merneptah Stele→Piye,
+  Memphis Group design studio, Charles III→Charles V, Isabella of France→Castile,
+  Boabdil wrong-Muhammad-number. **~69 remain. Next worst-first:** soviet-union (278),
+  meiji-japan (277), kievan-rus (267), inca-empire (254), post-maurya-kingdoms (241).
 - **2026-05-22 batch 6:** **heian-japan** (`b902245`, 334→0 NEW), **gupta-empire**
   (`e02a374`, 332→0 NEW), **joseon-korea** (`83c059f`, 318→0 NEW), **asuka-nara-japan**
   (`dae2d25`, 309→0 NEW) swept + ONE batched atomic deploy + curl-verified
