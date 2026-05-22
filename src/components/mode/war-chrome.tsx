@@ -1,6 +1,7 @@
 'use client'
 
 import { Fragment } from 'react'
+import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
 // a consistent breadcrumb + a Timeline/Dossier view toggle at the top of
@@ -46,25 +47,28 @@ export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: Vie
   }
   return (
     <>
-      {/* breadcrumb — its own line, sticky above the toggle */}
-      <nav style={{
+      {/* breadcrumb — its own line, sticky above the toggle; night-mode toggle on the right */}
+      <div style={{
         position: 'sticky', top: 0, zIndex: 8, background: bar,
         backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
-        borderBottom: border, padding: '6px 12px', display: 'flex', alignItems: 'center', gap: 4,
-        overflowX: 'auto', whiteSpace: 'nowrap', minHeight: 30, boxSizing: 'border-box',
+        borderBottom: border, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8,
+        minHeight: 34, boxSizing: 'border-box',
       }}>
-        {crumbs.map((c, i) => {
-          const last = i === crumbs.length - 1
-          return (
-            <Fragment key={i}>
-              {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
-              {c.href && !last
-                ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flexShrink: 0 }}>{c.label}</a>
-                : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flexShrink: 0 }}>{c.label}</span>}
-            </Fragment>
-          )
-        })}
-      </nav>
+        <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', whiteSpace: 'nowrap' }}>
+          {crumbs.map((c, i) => {
+            const last = i === crumbs.length - 1
+            return (
+              <Fragment key={i}>
+                {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
+                {c.href && !last
+                  ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flexShrink: 0 }}>{c.label}</a>
+                  : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flexShrink: 0 }}>{c.label}</span>}
+              </Fragment>
+            )
+          })}
+        </nav>
+        <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
+      </div>
 
       {/* toggle bar — back + Timeline/Dossier segmented + spacer */}
       <div style={{

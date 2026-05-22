@@ -8,7 +8,6 @@
 // now). Palette = mockup (Civil War violet, Union blue, Confederate rust).
 
 import { useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
 
@@ -339,7 +338,6 @@ export default function GettysburgPage() {
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarChrome crumbs={CRUMBS} view={view} onView={setView} accent={ACCENT} />
-      <div style={{ display: 'flex', justifyContent: 'flex-end', padding: '8px 16px 0' }}><DarkModeToggle /></div>
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
         <HeroImg />
         {view === 'dossier' ? (

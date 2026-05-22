@@ -5,7 +5,6 @@
 // the shared breadcrumb + Timeline/Dossier toggle. Preview, sample content.
 
 import { useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard } from '@/components/mode/war-battle-card'
 
@@ -82,7 +81,6 @@ export default function CivilWarPage() {
             <h1 style={{ margin: 0, fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.1, letterSpacing: -0.4 }}>American Civil War</h1>
             <div style={{ fontFamily: SERIF, fontSize: 14, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 4 }}>1861–1865 · Union vs. Confederacy</div>
           </div>
-          <DarkModeToggle />
         </div>
 
         {view === 'timeline' ? (

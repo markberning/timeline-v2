@@ -5,7 +5,6 @@
 // a sized spine. Battles link down to the battle page. Preview, sample content.
 
 import { useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
 
@@ -68,7 +67,6 @@ export default function EasternTheatrePage() {
             <h1 style={{ margin: 0, fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.1, letterSpacing: -0.4 }}>Eastern Theatre</h1>
             <div style={{ fontFamily: SERIF, fontSize: 14, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 4 }}>Virginia & Maryland · 1861–1865</div>
           </div>
-          <DarkModeToggle />
         </div>
 
         {view === 'dossier' ? (
