@@ -8,57 +8,105 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
-## ▶ COLD-START HANDOFF — 2026-05-21 (read this FIRST)
+## ▶ COLD-START HANDOFF — 2026-05-21 evening (read this FIRST)
 
-> **▶ SCHEDULE STOPPED BY USER 2026-05-21 10:04 PT.** The recurring routine
-> (`trig_013gYpKAMEdBVBAhpu1HwaGd`) was **disabled** (`enabled:false`) one
-> minute before its first real fire — it never ran a real batch (the 05-20
-> fire was a date-guard no-op). The corpus programs (#7 link sweep, #19 intro
-> retrofit) are now to be run **interactively/live in a session**, not by the
-> cron. The "▶ SCHEDULED-RUN PLAYBOOK" below is retained as the per-batch
-> procedure but is no longer auto-triggered. To re-arm the routine: re-enable
-> at claude.ai/code/routines or via the `schedule` skill. **Order still
-> locked: #7 to completion FIRST, then #19.** No agents running; clean stop.
+**Git:** `main` == `origin/main`, clean tree, **no agents running**. (Only
+uncommitted item: `audits/link-coverage-ledger.md` — a pre-existing `--corpus`
+regen from a prior session, not this session's work; leave it or regen.)
+User cleared the session here intentionally; resume the #7 link sweep FASTER
+(two policy changes locked below).
 
-**Git:** `main` == `origin/main`, clean tree, **no agents running**, single
-worktree (`main`). **Remote Control is ON + persistent** (user can monitor/
-steer this session from phone / claude.ai/code).
+**State: 16 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- Prior: goryeo-korea, uyghur-steppe, renaissance-italy, byzantine-empire,
+  delhi-sultanate, swahili-coast, ottoman-empire, mughal-empire,
+  umayyad-caliphate, medieval-india, yuan-dynasty, timurid-empire (12).
+- This session (all 0 GATE, 0 ERROR, fix-links clean, ship gates pass, LIVE):
+  **islamic-golden-age** (665→0, `79710c2`), **safavid-persia** (453→0,
+  `6246c14`), **high-medieval-europe** (383→0, `e78381e`),
+  **mongol-empire** (381→0, `45bd337`).
+- **~87 remain.**
 
-**▶ HANDOFF 2026-05-21 (end of a long live session). #7 link-coverage
-sweep is PARTWAY; a NEW PIPELINE replaces the old method. Next session:
-"try out the new process" on the next batch (user's words).**
+**▶ NEXT BATCH (worst-first, after the 16):** late-medieval-europe,
+tang-song-china, then continue down `audits/link-coverage-ledger.md`.
 
-**State: 13 of 103 civs genuinely swept** (current total GATE in single/
-low-double digits, down from 350–645): goryeo-korea, uyghur-steppe,
-renaissance-italy, byzantine-empire, delhi-sultanate, swahili-coast (older)
-+ ottoman-empire, mughal-empire, umayyad-caliphate, medieval-india,
-yuan-dynasty, timurid-empire (prior session) + **this session:
-islamic-golden-age** (665→0, DEPLOYED), **safavid-persia** (453→0,
-DEPLOYED), **high-medieval-europe** (383→0, `e78381e`, DEPLOYED — first
-civ through the hardened coordinator scripts). **15 of 103 done; ~88
-remain.**
+**▶ TWO SPEED CHANGES LOCKED BY USER 2026-05-21 (apply from here on):**
+1. **STOP chasing literal-zero GATE per civ.** Close the worklist + the
+   demonym/bold residual, then accept a small drift residual (a few NEW from
+   sibling-commit coupling — like renaissance landed at 12, byzantine 18) and
+   MOVE ON. Do NOT whack-a-mole the last 2–5 drift gaps per civ. The
+   end-of-program `--corpus` convergence pass mops all drift at once (that was
+   always the model). Verify a civ by: worklist closed + `sweep-verify` green
+   except a small `link-coverage` residual = OK to ship.
+2. **BATCH the deploys.** Sweep 3–4 civs (commit each), then ONE clean atomic
+   deploy `rm -rf out && npm run build && npx wrangler deploy` for the batch —
+   not a full rebuild per civ.
 
-**▶ HARDENED COORDINATOR (2026-05-21, committed `b8301cb`):** `scripts/
-sweep-merge.mjs <civ> <dir...>` (dedup vs glossary+cross+EVENT, chapter
-count from narrative, collision report) + `scripts/sweep-verify.mjs <civ>
---fix-drops` (parse+drop-classify+auto-remove redundant, coverage, lint,
-fix-links, audit-reuse-links, snapshot, G10/11/12, waiver-flag → one
-✅/❌). Plus `scripts/audit-reuse-links.mjs` (REUSE wrong-subject scan —
-catches name-overlap homonyms fix-links misses, e.g. Assassins→
-Assassin's_Creed). Per-civ coordinator work is now ~2 commands.
+**▶ THE PER-CIV PIPELINE (hardened — ~2 coordinator commands now):**
+1. `node scripts/link-suggest.mjs --tl=<civ>` → `audits/link-suggest/<civ>.json`
+   (PROPOSE: REUSE/CROSS/SKIP/LINK-CANDIDATE/NO-PAGE; ~3 min).
+2. Split per chapter: `node -e` write `/tmp/<civ>/in/ch{N}.json` from the json.
+   Write a per-civ brief (copy `/tmp/<prev>/BRIEF.md`, swap civ id + self-CROSS
+   name + cross-target hints + own-name waiver). Launch ONE LINK agent per
+   chapter, ≤5 concurrent (2 waves for >5 chapters). Each born-verifies every
+   slug vs the page lead, converts self-CROSS→glossary, links demonyms/peoples,
+   waives ONLY own-name/modern-locator/generic.
+3. `node scripts/sweep-merge.mjs <civ> /tmp/<civ>/out` (creates waivers file if
+   missing: `echo '{}' > content/.link-waivers-<civ>.json` first if needed).
+4. `node scripts/sweep-verify.mjs <civ> --fix-drops` → read the ✅/❌ + the
+   remaining `link-coverage` GATE list.
+5. Residual pass: write `/tmp/<civ>/residual.json` (per-chapter GATE terms,
+   generate from coverage output), a BRIEF2 (demonyms→people pages, real
+   entities incl. **bold first-uses** → link, waive only artifacts/era-labels/
+   locators). Launch 2 residual agents (halves). `sweep-merge <civ> /tmp/<civ>/out2`.
+6. `sweep-verify <civ> --fix-drops` again. Hand-close any tiny residual OR
+   (per speed change #1) accept a small drift residual and stop.
+7. Force-add the curated set (NEVER `git add -A`):
+   `git add -f content/.glossary-links-<civ>.json content/.cross-links-<civ>.json
+   content/.link-waivers-<civ>.json content/.link-snapshots-<civ>.json` +
+   `audits/link-suggest/<civ>.{json,md}`; commit per civ. Batch-deploy per #2.
 
-**▶ CORRECTED 2026-05-21 — "bold-only doesn't render" IS A MYTH. BOLD/ITALIC
-TERMS LINK FINE.** Verified end-to-end: injecting `<a>` into `**Term**`
-yields `<strong><a>Term</a></strong>` (remark/rehype handles it); confirmed
-on a real term (Spanish Inquisition in hme renders as an anchor) and on
-shipped ottoman bold terms (beyliks, Söğüt, Seljuk Sultanate of Rum all
-render `<a>`). The old "matcher won't underline bold / ~37 ottoman links
-don't render" note was a **misdiagnosis** — those were `not found`
-collision/overlap drops, not a bold problem. **DO NOT waive a term as
-"bold-only-renders-nowhere" — that rule was wrong.** A bold first-use term
-is a normal linkable occurrence; link it. Cleanup owed: the sweep agents
-this session wrongly waived ~bold-only terms (hme + safavid) — converting
-those waivers to real links + re-deploying.
+**▶ "BOLD-ONLY DOESN'T RENDER" IS A MYTH (corrected 2026-05-21).** Bold/italic
+terms LINK and RENDER fine — injecting `<a>` into `**Term**` yields
+`<strong><a>Term</a></strong>` (verified end-to-end: Spanish Inquisition in
+hme, and shipped ottoman beyliks/Söğüt all render `<a>`). The old "matcher
+won't underline bold / ~37 ottoman links don't render" note was a
+**misdiagnosis** (those were `not found` collision/overlap drops). **NEVER
+waive a term "bold-only-renders-nowhere" — link the bold occurrence.** mongol
+was swept correctly under this. **OWED CLEANUP (do early next session):**
+hme + safavid were shipped BEFORE the correction and have ~20 / ~4 real
+entities wrongly waived as bold-only — convert those waivers to born-verified
+links, re-verify, include in the next batch deploy. (Find them: waivers that
+are capitalized real entities, e.g. hme Raymond of Toulouse / County of
+Tripoli / Spanish Inquisition / Pisa / Córdoba / Valencia / Seville;
+safavid Muhammad al-Mahdi / Mughal Empire / Imam Mosque / Abbas I.)
+
+**▶ COORDINATOR TOOLS (committed `b8301cb`):** `scripts/sweep-merge.mjs`
+(dedup vs glossary+cross+EVENT, chapter count from narrative, collision
+report) · `scripts/sweep-verify.mjs --fix-drops` (parse+drop-classify, coverage,
+lint, fix-links, audit-reuse-links, snapshot, G10/11/12, waiver-flag → one
+✅/❌; `--no-snapshot` for fast iteration) · `scripts/audit-reuse-links.mjs`
+(REUSE wrong-subject scan — catches name-overlap homonyms fix-links misses,
+e.g. Assassins→Assassin's_Creed the video game; exits 1 on pop-culture
+pattern). Doc: `audits/link-pipeline.md`.
+
+**▶ DEPLOY: the agent CAN deploy now** (user added the wrangler permission,
+commit `45daf89`). `git push` does NOT auto-deploy (deploy.yml is
+workflow_dispatch-only) — must run `npx wrangler deploy`. Atomic:
+`rm -rf out && npm run build && npx wrangler deploy`. Verify prod with a
+`curl -sL https://stuffhappened.com/<civ>/ | grep` for a new slug.
+
+**▶ REUSE QUALITY (user's standing concern):** the worksheet's REUSE slugs are
+born-verified-elsewhere but can be the WRONG subject when the name overlaps
+(caught this session: Ismail→an actress, Turcoman→a racehorse, Mansur→a Mughal
+painter, Assassins→the video game). Agents born-verify per row; coordinator
+ALSO runs `audit-reuse-links` (complete scan of the divergent subset, not a
+sample) every civ. Keep doing both.
+
+**Quieter side-thread:** user is running Phase 2 (war timelines) with a
+separate Claude in another worktree. My lane is the link sweep on `main`. Phase
+2 guidance given: fork the civ-build pipeline (≈80% transfers); adjust chapter
+shape, event categories, map prompts, source data; pilot ONE war first. Don't
+edit shared gate scripts from both streams.
 
 **▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
 agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:
