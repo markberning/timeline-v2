@@ -1,4 +1,12 @@
 {
+  "1": [
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: Latin was the everyday tongue of the Roman world before it splintered into French, Spanish, and Italian — the same slow language-shift that swallowed Sumerian."
+    }
+  ],
   "2": [
     {
       "matchText": "Hongshan ritual complex at Niuheliang",
@@ -11,6 +19,24 @@
       "targetTl": "indus-valley",
       "targetChapter": 2,
       "blurb": "While Eridu was stacking its first mud temple around 5000 BCE, the farmers of Mehrgarh in what is now Pakistan had already been growing wheat and barley, herding cattle, making cotton thread, and smelting copper for almost two thousand years. The Indus story starts earlier than Mesopotamia's first real cities — the Harappans were running their own deep Neolithic civilization in parallel, just with no writing to leave us a receipt."
+    },
+    {
+      "matchText": "Nile Valley",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Egypt: barley and emmer wheat were reaching the Nile Valley around the same date, seeding the farming villages that would become the first Egyptian dynasties."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Phoenicia: the Levantine sea-traders worshipped Astarte, a goddess who descends straight from Mesopotamia's Inanna/Ishtar."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the famous overland trade route that linked East and West came more than two thousand years after these early lapis-and-copper networks."
     }
   ],
   "3": [
@@ -37,6 +63,66 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 1,
       "blurb": "From the very first cities, Sumer had a highland mirror and rival in Elam, just across the Zagros — the two oldest literate civilizations entwined."
+    },
+    {
+      "matchText": "Hierakonpolis",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Egypt: Hierakonpolis in Upper Egypt already had a town of 5,000–10,000 with an industrial brewery and a temple by ~3600 BCE — Egypt's own run-up to cities."
+    },
+    {
+      "matchText": "Yellow River",
+      "targetTl": "ancient-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China: the Yellow River plain would not host a dynastic-era capital (Erlitou) until ~1900 BCE, nearly two thousand years after Uruk."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: the Maya — successors of the Olmecs — would not reach urban scale until long after Uruk had risen and fallen."
+    },
+    {
+      "matchText": "Aztecs",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: the Aztecs, latecomers in the New World, built their cities millennia after Mesopotamia invented the form."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: South America's highland civilizations were a much later, independent invention of the city and the state."
+    },
+    {
+      "matchText": "Caral",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Andes: the Norte Chico people at Caral were raising monumental temple platforms by ~2900 BCE — only a few centuries behind Uruk, but with no writing and no pottery."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: the word 'cuneiform' comes from the Latin cuneus, 'wedge' — Roman scholarship named the script millennia after Sumer invented it."
+    },
+    {
+      "matchText": "Hittite",
+      "targetTl": "hittite-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Anatolia: the Hittites borrowed Mesopotamian cuneiform to write their own Indo-European language."
+    },
+    {
+      "matchText": "Shang",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Shang oracle bones — China's first true writing — appear around 1200 BCE, more than two thousand years after cuneiform."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in 18th-century Britain: nothing would rival Uruk's burst of invention until the machines and factories of the Industrial Revolution."
     }
   ],
   "4": [
@@ -87,6 +173,42 @@
       "targetTl": "ancient-china",
       "targetChapter": 6,
       "blurb": "Competitive city-states hardening into kingship is the same threshold China's Longshan walled towns were crossing, unconnected."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Persia: the Gulf that bordered Sumer would, three thousand years later, be a contested artery of the Safavid economy and its silk and spice trade."
+    },
+    {
+      "matchText": "Athens",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Greece: the hoplite phalanx that classical Athens made famous was, in fact, fielded by Sumerian cities fifteen centuries earlier."
+    },
+    {
+      "matchText": "Caral",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Andes: Caral on the Peruvian coast rose at roughly the same moment as Ur's Royal Tombs but built no weapons, no walls, and no sacrificial burials."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the highland world that would later host Wari and Tiwanaku followed a strikingly different, less martial path than Bronze Age Sumer."
+    },
+    {
+      "matchText": "Babylonian Exile",
+      "targetTl": "ancient-israel",
+      "targetChapter": 8,
+      "blurb": "Meanwhile for ancient Israel: the deportation of Judeans to Babylon was the channel through which Mesopotamia's flood story flowed into the biblical Noah account."
+    },
+    {
+      "matchText": "Yellow River",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Yellow River cradled a parallel Bronze Age civilization, complete with its own great flood tradition in the figure of Yu the Great."
     }
   ],
   "5": [
@@ -131,6 +253,42 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 2,
       "blurb": "Sargon's Akkad — history's first empire — immediately collided with Elam, the rivalry that would run for two thousand years."
+    },
+    {
+      "matchText": "Babylonian Exile",
+      "targetTl": "ancient-israel",
+      "targetChapter": 8,
+      "blurb": "Meanwhile for ancient Israel: the Judean exile to Babylon was likely when scribes absorbed Sargon's birth legend into the story of Moses set adrift on the Nile."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, much later: Akkad's lost capital may lie beneath Baghdad, the city the Abbasids would raise as the dazzling hub of the Islamic Golden Age."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Persia: the Gulf that anchored Sargon's empire would much later be a contested frontier of the Safavid trading world."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the dual-language imperial strategy Sargon pioneered would be perfected by the Achaemenid Persians ruling dozens of peoples at once."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far later: the Ottomans ran their multi-ethnic empire on the same dual-language logic Sargon invented, governing in Turkish while honoring local tongues."
+    },
+    {
+      "matchText": "Yellow River",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: a comparable multi-ethnic empire would not arrive on the Yellow River until the Qin unification, nearly two thousand years after Sargon."
     }
   ],
   "6": [
@@ -169,6 +327,92 @@
       "targetTl": "elamite-civilization",
       "targetChapter": 3,
       "blurb": "The fall of Ur III to Elam and the Amorites is one of history's first recorded imperial collapses."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Persia: the Gulf shore where Ur sat would much later be a contested edge of the Safavid maritime world."
+    },
+    {
+      "matchText": "Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Elam: the Shimashki king Kindattu marched west and sacked Ur, ending the Sumerian Renaissance from the Iranian highlands."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far later: Sumerian survived as a dead scholarly tongue exactly as Latin would in medieval Europe — studied and copied, but no longer spoken."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Old Assyrian Trade Network",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 3,
+      "blurb": "Donkey caravans were the Bronze Age's standard solution for bulk overland trade. Five hundred years before the Assyrian merchants were hauling tin and textiles up to Kanesh, the Egyptian official Harkhuf was leading caravans of three hundred donkeys south into Nubia for ebony, ivory, incense, and exotic goods — one of the earliest and best-documented donkey-caravan operations in human history."
+    },
+    {
+      "matchText": "Rim-Sin of Larsa",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 4,
+      "blurb": "The Mari diplomatic archives show a different Hammurabi from the master strategist of this chapter. For the first fifteen years of his reign, Hammurabi addressed the Elamite sukkalmah Siwe-palar-hupak using the respect-ranked kinship term 'father' — the diplomatic language of a junior power acknowledging a senior one. Elam was the great power at the start of Hammurabi's career, and Babylon ranked below it. Only after Siwe-palar-hupak overextended himself in the 1760s BCE did Hammurabi switch sides and begin building the Babylonian supremacy this chapter describes."
+    },
+    {
+      "matchText": "in 1158 BCE it was looted from the Babylonian temple-city of",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 6,
+      "blurb": "The actual date is 1158 BCE, and the Elamite king who took it was Shutruk-Nahhunte. He didn't take it from Babylon itself — the Code stele had been installed at the religious city of Sippar in northern Babylonia, and that's where the Elamite army found it during the great sack of 1158. Shutruk-Nahhunte erected it in the temple of Inshushinak at Susa, where it remained until Jacques de Morgan excavated it in 1901."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the north: the merchant city of Assur was building the trade network that would later grow into the Assyrian war machine."
+    },
+    {
+      "matchText": "Elamite",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: Elam, ruling from Susa, was the diplomatic center of the early-eighteenth-century Near East — Hammurabi's own overlord."
+    },
+    {
+      "matchText": "Arthashastra",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the Arthashastra, the great Mauryan treatise on law and statecraft, would not be written until roughly the 3rd century BCE."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, millennia later: Baghdad would become the hub of the Islamic Golden Age, where scholars rediscovered the kind of mathematics Babylonian scribes already knew."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Islamic Iberia: Córdoba grew into one of the great centers of medieval learning under Umayyad rule."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: the Persians would later conquer Babylon and, like every foreign ruler, had to make peace with the god Marduk."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the west: Rome's republic and empire rose and fell during the long stretch before Europe caught up to Babylonian mathematics."
+    },
+    {
+      "matchText": "Babylonian Exile",
+      "targetTl": "ancient-israel",
+      "targetChapter": 1,
+      "blurb": "Meanwhile for the Judeans: the Babylonian Exile carried Israelite scribes into Babylon, where they encountered the Mesopotamian myths echoed in their own scriptures."
     }
   ],
   "8": [
@@ -201,6 +445,200 @@
       "targetTl": "indus-valley",
       "targetChapter": 10,
       "blurb": "Kassite Babylon's long peace coincides with the Indus dissolving — one ancient civilization stabilizing as another quietly ended."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: Persian is one of the Indo-European tongues, the family the Hittites helped pioneer; the Persians would later rule all Mesopotamia."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile far to the northwest: the Germanic languages belong to the same Indo-European family the Hittites carried into Anatolia."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the north: Assyria spent the Kassite centuries as a second-tier kingdom before rising into the empire that would terrorize the Near East."
+    },
+    {
+      "matchText": "Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: Elam, ruling from Susa, ended the Kassite peace by carrying Babylon's treasures — and Marduk's statue — back over the Zagros."
+    }
+  ],
+  "9": [
+    {
+      "matchText": "Nebuchadnezzar I",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 6,
+      "blurb": "The Elamite king Nebuchadnezzar I defeated was Hutelutush-Inshushinak, the last king of the Shutrukid dynasty. Nebuchadnezzar sacked Susa, recovered the Marduk statue that Shutruk-Nahhunte had carried off fifty years earlier — but crucially left behind the other trophies, including the Code of Hammurabi and the Victory Stele of Naram-Sin. That's why those monuments were still at Susa for French archaeologists to find in 1898–1901. Nebuchadnezzar got Marduk back. He did not get Hammurabi's law code back, and the world is better off for his oversight."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the north: Assyria emerged from the Bronze Age Collapse as one of the two rivals contending to inherit the Mesopotamian world."
+    },
+    {
+      "matchText": "Nineveh",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the north: Nineveh, on the upper Tigris, would grow into the greatest city of the Assyrian Empire."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile centuries later in the west: Rome's collapse would be the only civilizational downturn comparable in scale to the Bronze Age Collapse."
+    },
+    {
+      "matchText": "Elamite",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: Elam, ruling from Susa, held the stolen statue of Marduk until a resurgent Babylon came to take it back."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: by the Persian period, Aramaic — not Akkadian — would be the administrative tongue of the whole Near East."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the west: Latin, written in an alphabet descended from the Phoenicians', became the language of Rome and its empire."
+    },
+    {
+      "matchText": "Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the east: Elam was the target of Nebuchadnezzar I's raid to recover Marduk's stolen cult statue."
+    },
+    {
+      "matchText": "Babylonian Exile",
+      "targetTl": "ancient-israel",
+      "targetChapter": 1,
+      "blurb": "Meanwhile for the Judeans: the Babylonian Exile is when Israelite scribes likely absorbed the Mesopotamian creation and flood traditions echoed in Genesis."
+    }
+  ],
+  "10": [
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria: the same kingdom on the upper Tigris gets its own full story, from the merchant city of Assur to the terror-empire that would dominate the Near East."
+    }
+  ],
+  "11": [
+    {
+      "matchText": "Taharqa",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 8,
+      "blurb": "Taharqa was a Kushite pharaoh of Egypt's 25th Dynasty — a descendant of the Egyptianized Nubian elite who inherited Egypt's former Nubian province after the Bronze Age collapse and, three centuries later, marched north and conquered Egypt itself. Ancient Nubia Ch 8 tells the setup: how the bicultural Nubian nobility absorbed the cult of Amun at Jebel Barkal and carried it forward when Egypt's state apparatus withdrew around 1070 BCE."
+    },
+    {
+      "matchText": "Ashurbanipal then decided to deal with",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 7,
+      "blurb": "Ashurbanipal's Elamite campaigns centered on the Battle of Til-Tuba in 653 BCE, where the Assyrian army killed the Elamite king Te-Umman, decapitated him on the battlefield, and brought his head back to Nineveh — where Ashurbanipal had himself depicted reclining in his palace garden drinking wine while the severed head dangled from a tree above him. The famous Garden Party Relief in the British Museum is the image that came out of that campaign, and it is one of the most famous pieces of ancient Near Eastern propaganda art."
+    },
+    {
+      "matchText": "destruction of Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "The 'destruction of Elam' language is true of the kingdom but not of the civilization. The Elamite scribal tradition survived the sack of Susa by moving upland to Persian Anshan, where it was absorbed into the administration of the new Persian royal line that would produce Cyrus the Great 140 years later. The Persepolis Fortification Archive (30,000 clay tablets recording Persian imperial administration from 509–494 BCE) is in Elamite, not Persian. Elam didn't fade after Ashurbanipal — it became the bureaucratic spine of the empire that succeeded Assyria."
+    },
+    {
+      "matchText": "Elamite Civilization",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 8,
+      "blurb": "Assyria at its zenith crushed Elam — Ashurbanipal's sack of Susa, the violent end of Mesopotamia's oldest rival."
+    },
+    {
+      "matchText": "Tiglath-Pileser III",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Assyrian Empire: Tiglath-Pileser III's standing army, provincial system, and mass-deportation policy get the full treatment in Assyria's own story."
+    },
+    {
+      "matchText": "Neo-Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Assyrian Empire: the Neo-Assyrian world-empire at its height is the centerpiece of Assyria's own narrative."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Nubia: the pharaoh Esarhaddon defeated, Taharqa, came from the Kushite dynasty that ruled Egypt — Nubia's own story tells it from the southern side."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the empire whose size Assyria's reach is compared to here would rise a century later under Cyrus the Great."
+    },
+    {
+      "matchText": "Achaemenid Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Persia: the Achaemenid empire that inherited Elam's scribal tradition built the imperial machinery told in Persia's own story."
+    }
+  ],
+  "12": [
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria — the empire whose collapse opened the door for Babylon's last great century."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Persian Gulf — the southern sea whose marshlands gave rise to the Chaldeans."
+    },
+    {
+      "matchText": "Assyrian",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria — the empire whose governors and garrisons Babylon had to defeat to win its freedom."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria — the northern power Babylon and the Medes destroyed together."
+    },
+    {
+      "matchText": "Nineveh",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria — Nineveh was the imperial capital that Babylon and the Medes burned in 612 BCE."
+    },
+    {
+      "matchText": "Babylonian Exile",
+      "targetTl": "ancient-israel",
+      "targetChapter": 8,
+      "blurb": "Meanwhile for the Jews — the deportation to Babylon that reshaped Judaism into a portable, text-centered faith."
+    },
+    {
+      "matchText": "Sennacherib",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria — Sennacherib, the king whose gardens at Nineveh may be the real Hanging Gardens."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia — Cyrus the Great, the conqueror who would end Mesopotamian independence in 539 BCE."
     }
   ],
   "13": [
@@ -233,60 +671,36 @@
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "Babylon's fall to Cyrus is the first of many: the Mesopotamian heartland would be conquered again and again, down to the Mongol sack of Baghdad."
-    }
-  ],
-  "7": [
-    {
-      "matchText": "Old Assyrian Trade Network",
-      "targetTl": "ancient-nubia",
-      "targetChapter": 3,
-      "blurb": "Donkey caravans were the Bronze Age's standard solution for bulk overland trade. Five hundred years before the Assyrian merchants were hauling tin and textiles up to Kanesh, the Egyptian official Harkhuf was leading caravans of three hundred donkeys south into Nubia for ebony, ivory, incense, and exotic goods — one of the earliest and best-documented donkey-caravan operations in human history."
     },
     {
-      "matchText": "Rim-Sin of Larsa",
+      "matchText": "Kassite Babylon",
       "targetTl": "elamite-civilization",
-      "targetChapter": 4,
-      "blurb": "The Mari diplomatic archives show a different Hammurabi from the master strategist of this chapter. For the first fifteen years of his reign, Hammurabi addressed the Elamite sukkalmah Siwe-palar-hupak using the respect-ranked kinship term 'father' — the diplomatic language of a junior power acknowledging a senior one. Elam was the great power at the start of Hammurabi's career, and Babylon ranked below it. Only after Siwe-palar-hupak overextended himself in the 1760s BCE did Hammurabi switch sides and begin building the Babylonian supremacy this chapter describes."
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Elam — the eastern rival that raided and at times dominated Kassite Babylon."
     },
     {
-      "matchText": "in 1158 BCE it was looted from the Babylonian temple-city of",
-      "targetTl": "elamite-civilization",
-      "targetChapter": 6,
-      "blurb": "The actual date is 1158 BCE, and the Elamite king who took it was Shutruk-Nahhunte. He didn't take it from Babylon itself — the Code stele had been installed at the religious city of Sippar in northern Babylonia, and that's where the Elamite army found it during the great sack of 1158. Shutruk-Nahhunte erected it in the temple of Inshushinak at Susa, where it remained until Jacques de Morgan excavated it in 1901."
-    }
-  ],
-  "11": [
-    {
-      "matchText": "Taharqa",
-      "targetTl": "ancient-nubia",
-      "targetChapter": 8,
-      "blurb": "Taharqa was a Kushite pharaoh of Egypt's 25th Dynasty — a descendant of the Egyptianized Nubian elite who inherited Egypt's former Nubian province after the Bronze Age collapse and, three centuries later, marched north and conquered Egypt itself. Ancient Nubia Ch 8 tells the setup: how the bicultural Nubian nobility absorbed the cult of Amun at Jebel Barkal and carried it forward when Egypt's state apparatus withdrew around 1070 BCE."
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Assyria — one of the past Mesopotamian powers now swept up into the Persian Empire."
     },
     {
-      "matchText": "Ashurbanipal then decided to deal with",
-      "targetTl": "elamite-civilization",
-      "targetChapter": 7,
-      "blurb": "Ashurbanipal's Elamite campaigns centered on the Battle of Til-Tuba in 653 BCE, where the Assyrian army killed the Elamite king Te-Umman, decapitated him on the battlefield, and brought his head back to Nineveh — where Ashurbanipal had himself depicted reclining in his palace garden drinking wine while the severed head dangled from a tree above him. The famous Garden Party Relief in the British Museum is the image that came out of that campaign, and it is one of the most famous pieces of ancient Near Eastern propaganda art."
-    },
-    {
-      "matchText": "destruction of Elam",
+      "matchText": "Elamite",
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
-      "blurb": "The 'destruction of Elam' language is true of the kingdom but not of the civilization. The Elamite scribal tradition survived the sack of Susa by moving upland to Persian Anshan, where it was absorbed into the administration of the new Persian royal line that would produce Cyrus the Great 140 years later. The Persepolis Fortification Archive (30,000 clay tablets recording Persian imperial administration from 509–494 BCE) is in Elamite, not Persian. Elam didn't fade after Ashurbanipal — it became the bureaucratic spine of the empire that succeeded Assyria."
+      "blurb": "Meanwhile in Elam — whose language and bureaucracy became the everyday working machinery of the Persian Empire."
     },
     {
-      "matchText": "Elamite Civilization",
+      "matchText": "Elam",
       "targetTl": "elamite-civilization",
       "targetChapter": 8,
-      "blurb": "Assyria at its zenith crushed Elam — Ashurbanipal's sack of Susa, the violent end of Mesopotamia's oldest rival."
-    }
-  ],
-  "9": [
+      "blurb": "Meanwhile in Elam — the source of the Persian Empire's administrative language and the royal title 'king of Anshan'."
+    },
     {
-      "matchText": "Nebuchadnezzar I",
-      "targetTl": "elamite-civilization",
-      "targetChapter": 6,
-      "blurb": "The Elamite king Nebuchadnezzar I defeated was Hutelutush-Inshushinak, the last king of the Shutrukid dynasty. Nebuchadnezzar sacked Susa, recovered the Marduk statue that Shutruk-Nahhunte had carried off fifty years earlier — but crucially left behind the other trophies, including the Code of Hammurabi and the Victory Stele of Naram-Sin. That's why those monuments were still at Susa for French archaeologists to find in 1898–1901. Nebuchadnezzar got Marduk back. He did not get Hammurabi's law code back, and the world is better off for his oversight."
+      "matchText": "Ancient China",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China — a parallel civilization that built its own cities, writing, and astronomy with no Mesopotamian input."
     }
   ]
 }

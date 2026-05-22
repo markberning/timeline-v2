@@ -173,6 +173,66 @@
       "matchText": "Sargon",
       "wikiSlug": "Sargon_of_Akkad",
       "type": "people"
+    },
+    {
+      "matchText": "Neo-Babylonian Empire",
+      "term": "Neo-Babylonian Empire",
+      "wikiSlug": "Neo-Babylonian_Empire"
+    },
+    {
+      "matchText": "Anatolian",
+      "term": "Anatolian",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Semitic-speaking",
+      "term": "Semitic-speaking peoples",
+      "wikiSlug": "Ancient_Semitic-speaking_peoples"
+    },
+    {
+      "matchText": "Romance languages",
+      "term": "Romance languages",
+      "wikiSlug": "Romance_languages"
+    },
+    {
+      "matchText": "Iranian plateau",
+      "term": "Iranian plateau",
+      "wikiSlug": "Iranian_Plateau"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Philadelphia",
+      "term": "Philadelphia",
+      "wikiSlug": "Philadelphia"
+    },
+    {
+      "matchText": "Genesis",
+      "term": "Book of Genesis",
+      "wikiSlug": "Book_of_Genesis"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
     }
   ],
   "2": [
@@ -333,16 +393,45 @@
       "type": "place"
     },
     {
-      "term": "Indus Valley Civilization",
-      "matchText": "Indus Valley Civilization",
-      "wikiSlug": "Indus_Valley_Civilisation",
-      "type": "people"
-    },
-    {
       "term": "Shortugai",
       "matchText": "Shortugai",
       "wikiSlug": "Shortugai",
       "type": "place"
+    },
+    {
+      "matchText": "Venus",
+      "term": "Venus",
+      "wikiSlug": "Venus"
+    },
+    {
+      "matchText": "Ur III",
+      "term": "Ur III",
+      "wikiSlug": "Third_Dynasty_of_Ur"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Afghan",
+      "term": "Afghanistan",
+      "wikiSlug": "Afghanistan"
+    },
+    {
+      "matchText": "Lebanese cedar",
+      "term": "Lebanese cedar",
+      "wikiSlug": "Cedar_of_Lebanon"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
     }
   ],
   "3": [
@@ -398,18 +487,6 @@
       "term": "Indus Valley",
       "matchText": "Indus Valley",
       "wikiSlug": "Indus_Valley_Civilisation",
-      "type": "place"
-    },
-    {
-      "term": "Mohenjo-daro",
-      "matchText": "Mohenjo-daro",
-      "wikiSlug": "Mohenjo-daro",
-      "type": "place"
-    },
-    {
-      "term": "Harappa",
-      "matchText": "Harappa",
-      "wikiSlug": "Harappa",
       "type": "place"
     },
     {
@@ -491,12 +568,6 @@
       "type": "concept"
     },
     {
-      "term": "Ninkasi",
-      "matchText": "Ninkasi",
-      "wikiSlug": "Ninkasi",
-      "type": "concept"
-    },
-    {
       "term": "Anu",
       "matchText": "Anu",
       "wikiSlug": "Anu",
@@ -507,6 +578,106 @@
       "matchText": "temple economy",
       "wikiSlug": "Temple_economy",
       "type": "concept"
+    },
+    {
+      "matchText": "Euphrates River",
+      "term": "Euphrates River",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "British Isles",
+      "term": "British Isles",
+      "wikiSlug": "British_Isles"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerians",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Peru",
+      "term": "Peru",
+      "wikiSlug": "Peru"
+    },
+    {
+      "matchText": "Persian Gulf",
+      "term": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf"
+    },
+    {
+      "matchText": "Sumerians",
+      "term": "Sumerians",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Tomb U-j",
+      "term": "Tomb U-j",
+      "wikiSlug": "Umm_El_Qa%27ab"
+    },
+    {
+      "matchText": "Abydos",
+      "term": "Abydos",
+      "wikiSlug": "Abydos,_Egypt"
+    },
+    {
+      "matchText": "Proto-Elamite",
+      "term": "Proto-Elamite script",
+      "wikiSlug": "Proto-Elamite_script"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "Jiahu",
+      "term": "Jiahu",
+      "wikiSlug": "Jiahu"
+    },
+    {
+      "matchText": "Banpo",
+      "term": "Banpo",
+      "wikiSlug": "Banpo"
+    },
+    {
+      "matchText": "Afghan",
+      "term": "Afghanistan",
+      "wikiSlug": "Afghanistan"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
     }
   ],
   "4": [
@@ -659,6 +830,141 @@
       "matchText": "Lydia",
       "wikiSlug": "Lydia",
       "type": "place"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Yu the Great",
+      "term": "Yu the Great",
+      "wikiSlug": "Yu_the_Great"
+    },
+    {
+      "matchText": "Jishi Gorge",
+      "term": "Jishi Gorge",
+      "wikiSlug": "Jishi_Gorge_outburst_flood"
+    },
+    {
+      "matchText": "Arabian Peninsula",
+      "term": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Uruk",
+      "term": "Uruk",
+      "wikiSlug": "Uruk"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamia",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Sparta",
+      "term": "Sparta",
+      "wikiSlug": "Sparta"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Louvre",
+      "term": "Louvre",
+      "wikiSlug": "Louvre"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "Sargon of Akkad",
+      "term": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad"
+    },
+    {
+      "matchText": "Afghan",
+      "term": "Afghanistan",
+      "wikiSlug": "Afghanistan"
+    },
+    {
+      "matchText": "Longshan",
+      "term": "Longshan culture",
+      "wikiSlug": "Longshan_culture"
+    },
+    {
+      "matchText": "Abydos",
+      "term": "Abydos",
+      "wikiSlug": "Abydos,_Egypt"
+    },
+    {
+      "matchText": "Sumerian Flood Story",
+      "term": "Sumerian Flood Story",
+      "wikiSlug": "Sumerian_flood_myth"
+    },
+    {
+      "matchText": "Enki",
+      "term": "Enki",
+      "wikiSlug": "Enki"
+    },
+    {
+      "matchText": "Eridu",
+      "term": "Eridu",
+      "wikiSlug": "Eridu"
+    },
+    {
+      "matchText": "Bahrain",
+      "term": "Bahrain",
+      "wikiSlug": "Bahrain"
+    },
+    {
+      "matchText": "Mohenjo-daro",
+      "term": "Mohenjo-daro",
+      "wikiSlug": "Mohenjo-daro"
+    },
+    {
+      "matchText": "Harappa",
+      "term": "Harappa",
+      "wikiSlug": "Harappa"
+    },
+    {
+      "matchText": "Mercury",
+      "term": "Mercury (planet)",
+      "wikiSlug": "Mercury_(planet)"
+    },
+    {
+      "matchText": "Venus",
+      "term": "Venus",
+      "wikiSlug": "Venus"
+    },
+    {
+      "matchText": "Mars",
+      "term": "Mars",
+      "wikiSlug": "Mars"
+    },
+    {
+      "matchText": "Jupiter",
+      "term": "Jupiter",
+      "wikiSlug": "Jupiter"
+    },
+    {
+      "matchText": "Saturn",
+      "term": "Saturn",
+      "wikiSlug": "Saturn"
+    },
+    {
+      "matchText": "Inanna",
+      "term": "Inanna",
+      "wikiSlug": "Inanna"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
     }
   ],
   "5": [
@@ -741,12 +1047,6 @@
       "type": "concept"
     },
     {
-      "term": "Victory Stele of Naram-Sin",
-      "matchText": "Victory Stele of Naram-Sin",
-      "wikiSlug": "Victory_Stele_of_Naram-Sin",
-      "type": "concept"
-    },
-    {
       "term": "Gutians",
       "matchText": "Gutians",
       "wikiSlug": "Gutian_people",
@@ -781,6 +1081,91 @@
       "matchText": "Enheduanna",
       "wikiSlug": "Enheduanna",
       "type": "people"
+    },
+    {
+      "matchText": "Jishi Gorge",
+      "term": "Jishi Gorge",
+      "wikiSlug": "Jishi_Gorge_outburst_flood"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Sargon",
+      "term": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad"
+    },
+    {
+      "matchText": "Semitic",
+      "term": "Semitic languages",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamia",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Moses",
+      "term": "Moses",
+      "wikiSlug": "Moses"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Sumer",
+      "term": "Sumer",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "matchText": "Euphrates",
+      "term": "Euphrates",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Mari",
+      "term": "Mari, Syria",
+      "wikiSlug": "Mari,_Syria"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "Amorites",
+      "term": "Amorites",
+      "wikiSlug": "Amorites"
+    },
+    {
+      "matchText": "Sinai",
+      "term": "Sinai Peninsula",
+      "wikiSlug": "Sinai_Peninsula"
+    },
+    {
+      "matchText": "Louvre",
+      "term": "Louvre",
+      "wikiSlug": "Louvre"
+    },
+    {
+      "matchText": "Lagash",
+      "term": "Lagash",
+      "wikiSlug": "Lagash"
+    },
+    {
+      "matchText": "Magan",
+      "term": "Magan",
+      "wikiSlug": "Magan_(civilization)"
+    },
+    {
+      "matchText": "Inanna and Ebih",
+      "term": "Inanna and Ebih",
+      "definition": "A narrative poem by Enheduanna in which the goddess Inanna does battle with the defiant mountain Ebih and levels it — one of the earliest works of literature attributed to a named author."
     }
   ],
   "6": [
@@ -881,12 +1266,6 @@
       "type": "people"
     },
     {
-      "term": "Ibbi-Sin",
-      "matchText": "Ibbi-Sin",
-      "wikiSlug": "Ibbi-Sin",
-      "type": "people"
-    },
-    {
       "term": "Lamentation over the Destruction of Ur",
       "matchText": "Lamentation over the Destruction of Ur",
       "wikiSlug": "Lament_for_Ur",
@@ -903,6 +1282,76 @@
       "matchText": "Babylonia",
       "wikiSlug": "Babylonia",
       "type": "place"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian language",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Gutians",
+      "term": "Gutians",
+      "wikiSlug": "Gutian_people"
+    },
+    {
+      "matchText": "Early Dynastic",
+      "term": "Early Dynastic Period",
+      "wikiSlug": "Early_Dynastic_Period_(Mesopotamia)"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamia",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Shulgi",
+      "term": "Shulgi",
+      "wikiSlug": "Shulgi"
+    },
+    {
+      "matchText": "Eridu",
+      "term": "Eridu",
+      "wikiSlug": "Eridu"
+    },
+    {
+      "matchText": "Enheduanna",
+      "term": "Enheduanna",
+      "wikiSlug": "Enheduanna"
+    },
+    {
+      "matchText": "Code of Hammurabi",
+      "term": "Code of Hammurabi",
+      "wikiSlug": "Code_of_Hammurabi"
+    },
+    {
+      "matchText": "Hammurabi",
+      "term": "Hammurabi",
+      "wikiSlug": "Hammurabi"
+    },
+    {
+      "matchText": "Naram-Sin",
+      "term": "Naram-Sin of Akkad",
+      "wikiSlug": "Naram-Sin_of_Akkad"
+    },
+    {
+      "matchText": "Sumer",
+      "term": "Sumer",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "matchText": "Zagros",
+      "term": "Zagros Mountains",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Kindattu",
+      "term": "Kindattu",
+      "wikiSlug": "Kindattu"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
     }
   ],
   "7": [
@@ -947,12 +1396,6 @@
       "matchText": "Assur",
       "wikiSlug": "Assur",
       "type": "place"
-    },
-    {
-      "term": "Old Assyrian Trade Network",
-      "matchText": "Old Assyrian Trade Network",
-      "wikiSlug": "Old_Assyrian_Empire",
-      "type": "concept"
     },
     {
       "term": "Anatolia",
@@ -1067,6 +1510,211 @@
       "matchText": "Samsu-iluna",
       "wikiSlug": "Samsu-iluna",
       "type": "people"
+    },
+    {
+      "matchText": "Euphrates River",
+      "term": "Euphrates River",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Ten Commandments",
+      "term": "Ten Commandments",
+      "wikiSlug": "Ten_Commandments"
+    },
+    {
+      "matchText": "Romance languages",
+      "term": "Romance languages",
+      "wikiSlug": "Romance_languages"
+    },
+    {
+      "matchText": "Sumerians",
+      "term": "Sumerians",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "matchText": "Ur III",
+      "term": "Ur III",
+      "wikiSlug": "Third_Dynasty_of_Ur"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian language",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Euphrates",
+      "term": "Euphrates",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Siwe-palar-hupak",
+      "term": "Siwe-Palar-Khuppak",
+      "wikiSlug": "Siwe-Palar-Khuppak"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "Zagros",
+      "term": "Zagros Mountains",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Sargon of Akkad",
+      "term": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad"
+    },
+    {
+      "matchText": "Twelve Tables",
+      "term": "Twelve Tables",
+      "wikiSlug": "Twelve_Tables"
+    },
+    {
+      "matchText": "Sippar",
+      "term": "Sippar",
+      "wikiSlug": "Sippar"
+    },
+    {
+      "matchText": "Shutruk-Nahhunte",
+      "term": "Shutruk-Nakhunte",
+      "wikiSlug": "Shutruk-Nahhunte"
+    },
+    {
+      "matchText": "Victory Stele of Naram-Sin",
+      "term": "Victory Stele of Naram-Sin",
+      "wikiSlug": "Victory_Stele_of_Naram-Sin"
+    },
+    {
+      "matchText": "Louvre",
+      "term": "Louvre",
+      "wikiSlug": "Louvre"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "Lydia",
+      "term": "Lydia",
+      "wikiSlug": "Lydia"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Pythagoras",
+      "term": "Pythagoras",
+      "wikiSlug": "Pythagoras"
+    },
+    {
+      "matchText": "Euclid",
+      "term": "Euclid",
+      "wikiSlug": "Euclid"
+    },
+    {
+      "matchText": "Archimedes",
+      "term": "Archimedes",
+      "wikiSlug": "Archimedes"
+    },
+    {
+      "matchText": "Enlil",
+      "term": "Enlil",
+      "wikiSlug": "Enlil"
+    },
+    {
+      "matchText": "Nippur",
+      "term": "Nippur",
+      "wikiSlug": "Nippur"
+    },
+    {
+      "matchText": "Enuma Elish",
+      "term": "Enūma Eliš",
+      "wikiSlug": "En%C5%ABma_Eli%C5%A1"
+    },
+    {
+      "matchText": "Alexander the Great",
+      "term": "Alexander the Great",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Enki",
+      "term": "Enki",
+      "wikiSlug": "Enki"
+    },
+    {
+      "matchText": "Descent of Inanna",
+      "term": "Descent of Inanna into the Underworld",
+      "wikiSlug": "Descent_of_Inanna_into_the_Underworld"
+    },
+    {
+      "matchText": "Inanna",
+      "term": "Inanna",
+      "wikiSlug": "Inanna"
+    },
+    {
+      "matchText": "Ishtar",
+      "term": "Ishtar",
+      "wikiSlug": "Inanna"
+    },
+    {
+      "matchText": "Uruk",
+      "term": "Uruk",
+      "wikiSlug": "Uruk"
+    },
+    {
+      "matchText": "Persephone",
+      "term": "Persephone",
+      "wikiSlug": "Persephone"
+    },
+    {
+      "matchText": "Osiris",
+      "term": "Osiris",
+      "wikiSlug": "Osiris"
+    },
+    {
+      "matchText": "Kassite",
+      "term": "Kassites",
+      "wikiSlug": "Kassites"
+    },
+    {
+      "matchText": "Semitic-speaking",
+      "term": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Anatolian",
+      "term": "Anatolian",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Assyrian",
+      "term": "Assyrian",
+      "wikiSlug": "Assyria"
     }
   ],
   "8": [
@@ -1213,6 +1861,171 @@
       "matchText": "Kassite",
       "wikiSlug": "Kassites",
       "type": "people"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Hammurabi",
+      "term": "Hammurabi",
+      "wikiSlug": "Hammurabi"
+    },
+    {
+      "matchText": "Code",
+      "term": "Code of Hammurabi",
+      "wikiSlug": "Code_of_Hammurabi"
+    },
+    {
+      "matchText": "Euphrates",
+      "term": "Euphrates",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Hindi",
+      "term": "Hindi",
+      "wikiSlug": "Hindi"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic languages",
+      "wikiSlug": "Slavic_languages"
+    },
+    {
+      "matchText": "Iranian plateau",
+      "term": "Iranian plateau",
+      "wikiSlug": "Iranian_Plateau"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian language",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Semitic",
+      "term": "Semitic languages",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Babylonia",
+      "term": "Babylonia",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Akkadians",
+      "term": "Akkadian Empire",
+      "wikiSlug": "Akkadian_Empire"
+    },
+    {
+      "matchText": "Amorites",
+      "term": "Amorites",
+      "wikiSlug": "Amorites"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian language",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Ashurbanipal",
+      "term": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Luxor",
+      "term": "Luxor",
+      "wikiSlug": "Luxor"
+    },
+    {
+      "matchText": "Hatti",
+      "term": "Hittites",
+      "wikiSlug": "Hittites"
+    },
+    {
+      "matchText": "Levantine",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Canaanite",
+      "term": "Canaanites",
+      "wikiSlug": "Canaanites"
+    },
+    {
+      "matchText": "Shutruk-Nahhunte",
+      "term": "Shutruk-Nakhunte",
+      "wikiSlug": "Shutruk-Nahhunte"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "Zababa-shuma-iddin",
+      "term": "Zababa-shuma-iddin",
+      "wikiSlug": "Zababa-shuma-iddin"
+    },
+    {
+      "matchText": "Code of Hammurabi",
+      "term": "Code of Hammurabi",
+      "wikiSlug": "Code_of_Hammurabi"
+    },
+    {
+      "matchText": "Sippar",
+      "term": "Sippar",
+      "wikiSlug": "Sippar"
+    },
+    {
+      "matchText": "Shulgi",
+      "term": "Shulgi",
+      "wikiSlug": "Shulgi"
+    },
+    {
+      "matchText": "Obelisk of Manishtushu",
+      "term": "Obelisk of Manishtushu",
+      "wikiSlug": "Manishtushu"
+    },
+    {
+      "matchText": "Inshushinak",
+      "term": "Inshushinak",
+      "wikiSlug": "Inshushinak"
+    },
+    {
+      "matchText": "Louvre",
+      "term": "Louvre",
+      "wikiSlug": "Louvre"
+    },
+    {
+      "matchText": "Akkad",
+      "term": "Akkad",
+      "wikiSlug": "Akkadian_Empire"
+    },
+    {
+      "matchText": "Enuma Elish",
+      "term": "Enūma Eliš",
+      "wikiSlug": "En%C5%ABma_Eli%C5%A1"
+    },
+    {
+      "matchText": "Nebuchadnezzar I",
+      "term": "Nebuchadnezzar I",
+      "wikiSlug": "Nebuchadnezzar_I"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "definition": "Of or relating to Babylon and Babylonia — the central-southern Mesopotamian state, language, and culture centered on the city of Babylon. As an adjective it covers the Babylonians' Akkadian dialect, their gods and rituals, and the throne the Kassite kings inherited from Hammurabi's dynasty."
+    },
+    {
+      "matchText": "Assyrian",
+      "term": "Assyrian",
+      "wikiSlug": "Assyria"
     }
   ],
   "9": [
@@ -1353,6 +2166,171 @@
       "matchText": "substitute king ritual",
       "wikiSlug": "Substitute_king_ritual",
       "type": "concept"
+    },
+    {
+      "matchText": "Kassite",
+      "term": "Kassites",
+      "wikiSlug": "Kassites"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Sumerians",
+      "term": "Sumerians",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "matchText": "Zagros",
+      "term": "Zagros Mountains",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Kanesh",
+      "term": "Kanesh",
+      "wikiSlug": "K%C3%BCltepe"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Trojan War",
+      "term": "Trojan War",
+      "wikiSlug": "Trojan_War"
+    },
+    {
+      "matchText": "Dark Age",
+      "term": "Greek Dark Ages",
+      "wikiSlug": "Greek_Dark_Ages"
+    },
+    {
+      "matchText": "Babylonia",
+      "term": "Babylonia",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Sardinians",
+      "term": "Sardinia",
+      "wikiSlug": "Sardinia"
+    },
+    {
+      "matchText": "Levantine",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Luxor",
+      "term": "Luxor",
+      "wikiSlug": "Luxor"
+    },
+    {
+      "matchText": "Peleset",
+      "term": "Philistines",
+      "wikiSlug": "Philistines"
+    },
+    {
+      "matchText": "Tjeker",
+      "term": "Sea Peoples",
+      "wikiSlug": "Sea_Peoples"
+    },
+    {
+      "matchText": "Semitic",
+      "term": "Semitic languages",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian language",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew language",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Dead Sea Scrolls",
+      "term": "Dead Sea Scrolls",
+      "wikiSlug": "Dead_Sea_Scrolls"
+    },
+    {
+      "matchText": "Tyre",
+      "term": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon"
+    },
+    {
+      "matchText": "Sidon",
+      "term": "Sidon",
+      "wikiSlug": "Sidon"
+    },
+    {
+      "matchText": "Byblos",
+      "term": "Byblos",
+      "wikiSlug": "Byblos"
+    },
+    {
+      "matchText": "Babylonians",
+      "term": "Babylonians",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Genesis",
+      "term": "Book of Genesis",
+      "wikiSlug": "Book_of_Genesis"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian language",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Kassites",
+      "term": "Kassites",
+      "wikiSlug": "Kassites"
+    },
+    {
+      "matchText": "Nebuchadnezzar II",
+      "term": "Nebuchadnezzar II",
+      "wikiSlug": "Nebuchadnezzar_II"
+    },
+    {
+      "matchText": "Early Dynastic",
+      "term": "Early Dynastic Period",
+      "wikiSlug": "Early_Dynastic_Period_(Mesopotamia)"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "definition": "Of or relating to Babylon and Babylonia — the central-southern Mesopotamian state, language, and culture centered on the city of Babylon. Here it covers the Babylonian priests and scribes who composed the Enuma Elish and mapped the sky after the Bronze Age Collapse."
+    },
+    {
+      "matchText": "Semitic-speaking",
+      "term": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Assyrian",
+      "term": "Assyrian",
+      "wikiSlug": "Assyria"
     }
   ],
   "10": [
@@ -1446,6 +2424,106 @@
       "matchText": "Orontes River",
       "wikiSlug": "Orontes_River",
       "type": "place"
+    },
+    {
+      "matchText": "British Museum",
+      "term": "British Museum",
+      "wikiSlug": "British_Museum"
+    },
+    {
+      "matchText": "Iron Age",
+      "term": "Iron Age",
+      "wikiSlug": "Iron_Age"
+    },
+    {
+      "matchText": "Tiglath-Pileser I",
+      "term": "Tiglath-Pileser I",
+      "wikiSlug": "Tiglath-Pileser_I"
+    },
+    {
+      "matchText": "god Ashur",
+      "term": "Ashur",
+      "wikiSlug": "Ashur_(god)"
+    },
+    {
+      "matchText": "Nimrud",
+      "term": "Nimrud",
+      "wikiSlug": "Nimrud"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Mosul",
+      "term": "Mosul",
+      "wikiSlug": "Mosul"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Babylonia",
+      "term": "Babylonia",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "the Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Book of Kings",
+      "term": "Book of Kings",
+      "wikiSlug": "Books_of_Kings"
+    },
+    {
+      "matchText": "Israelite",
+      "term": "Israelite",
+      "wikiSlug": "Israelites"
+    },
+    {
+      "matchText": "Bronze",
+      "term": "Bronze",
+      "wikiSlug": "Bronze"
+    },
+    {
+      "matchText": "Construction of Nimrud",
+      "term": "Construction of Nimrud",
+      "definition": "Ashurnasirpal II's from-scratch building of a new Neo-Assyrian capital at Nimrud (Kalhu) on the middle Tigris — one of the largest construction projects in the ancient world up to that point, raised largely with deported labor and inaugurated by a famous ten-day feast for nearly 70,000 guests."
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Levantine",
+      "term": "Levantine",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Palestine",
+      "term": "Palestine",
+      "wikiSlug": "Palestine_(region)"
+    },
+    {
+      "matchText": "Assyrian",
+      "term": "Assyrian",
+      "wikiSlug": "Assyria"
     }
   ],
   "11": [
@@ -1558,12 +2636,6 @@
       "type": "people"
     },
     {
-      "term": "Taharqa",
-      "matchText": "Taharqa",
-      "wikiSlug": "Taharqa",
-      "type": "people"
-    },
-    {
       "term": "Memphis",
       "matchText": "Memphis",
       "wikiSlug": "Memphis,_Egypt",
@@ -1634,6 +2706,166 @@
       "matchText": "Book of Nahum",
       "wikiSlug": "Book_of_Nahum",
       "type": "concept"
+    },
+    {
+      "matchText": "Ashurnasirpal II",
+      "term": "Ashurnasirpal II",
+      "wikiSlug": "Ashurnasirpal_II"
+    },
+    {
+      "matchText": "British Museum",
+      "term": "British Museum",
+      "wikiSlug": "British_Museum"
+    },
+    {
+      "matchText": "Tigris River",
+      "term": "Tigris River",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Babylonia",
+      "term": "Babylonia",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Babylonians",
+      "term": "Babylonians",
+      "wikiSlug": "Neo-Babylonian_Empire"
+    },
+    {
+      "matchText": "Pulu",
+      "term": "Pulu",
+      "wikiSlug": "Tiglath-Pileser_III"
+    },
+    {
+      "matchText": "Sargon of Akkad",
+      "term": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad"
+    },
+    {
+      "matchText": "Nimrud",
+      "term": "Nimrud",
+      "wikiSlug": "Nimrud"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Colorado",
+      "term": "Colorado",
+      "wikiSlug": "Colorado"
+    },
+    {
+      "matchText": "Cambridge",
+      "term": "Cambridge",
+      "wikiSlug": "University_of_Cambridge"
+    },
+    {
+      "matchText": "Judean",
+      "term": "Judean",
+      "wikiSlug": "Judea"
+    },
+    {
+      "matchText": "Isaiah",
+      "term": "Isaiah",
+      "wikiSlug": "Isaiah"
+    },
+    {
+      "matchText": "Semitic",
+      "term": "Semitic",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Euphrates",
+      "term": "Euphrates",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Marduk",
+      "term": "Marduk",
+      "wikiSlug": "Marduk"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Sinai",
+      "term": "Sinai",
+      "wikiSlug": "Sinai_Peninsula"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Nabu",
+      "term": "Nabu",
+      "wikiSlug": "Nabu"
+    },
+    {
+      "matchText": "Nippur",
+      "term": "Nippur",
+      "wikiSlug": "Nippur"
+    },
+    {
+      "matchText": "Epic of Gilgamesh",
+      "term": "Epic of Gilgamesh",
+      "wikiSlug": "Epic_of_Gilgamesh"
+    },
+    {
+      "matchText": "Khuzestan",
+      "term": "Khuzestan",
+      "wikiSlug": "Khuzestan_province"
+    },
+    {
+      "matchText": "Persepolis",
+      "term": "Persepolis",
+      "wikiSlug": "Persepolis"
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian-speaking",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Zagros",
+      "term": "Zagros",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Babylonian Chronicle",
+      "term": "Babylonian Chronicle",
+      "wikiSlug": "Babylonian_Chronicles"
+    },
+    {
+      "matchText": "Sin-shar-ishkun",
+      "term": "Sin-shar-ishkun",
+      "wikiSlug": "Sin-shar-ishkun"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Israelite",
+      "term": "Israelite",
+      "wikiSlug": "Israelites"
+    },
+    {
+      "matchText": "Assyrian",
+      "term": "Assyrian",
+      "wikiSlug": "Assyria"
     }
   ],
   "12": [
@@ -1864,6 +3096,171 @@
       "matchText": "Lydian",
       "wikiSlug": "Lydia",
       "type": "place"
+    },
+    {
+      "matchText": "Ashur-uballit II",
+      "term": "Ashur-uballit II",
+      "wikiSlug": "Ashur-uballit_II"
+    },
+    {
+      "matchText": "Hebrew Bible",
+      "term": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible"
+    },
+    {
+      "matchText": "Kingdom of Judah",
+      "term": "Kingdom of Judah",
+      "wikiSlug": "Kingdom_of_Judah"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "wikiSlug": "Middle_East"
+    },
+    {
+      "matchText": "Babylonia",
+      "term": "Babylonia",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Ashurbanipal",
+      "term": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian peoples",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Zagros",
+      "term": "Zagros Mountains",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Gutians",
+      "term": "Gutians",
+      "wikiSlug": "Gutian_people"
+    },
+    {
+      "matchText": "Kassites",
+      "term": "Kassites",
+      "wikiSlug": "Kassites"
+    },
+    {
+      "matchText": "Carchemish",
+      "term": "Carchemish",
+      "wikiSlug": "Carchemish"
+    },
+    {
+      "matchText": "Euphrates",
+      "term": "Euphrates",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Nebuchadnezzar II",
+      "term": "Nebuchadnezzar II",
+      "wikiSlug": "Nebuchadnezzar_II"
+    },
+    {
+      "matchText": "Battle of Carchemish",
+      "term": "Battle of Carchemish",
+      "wikiSlug": "Battle_of_Carchemish"
+    },
+    {
+      "matchText": "Judah",
+      "term": "Kingdom of Judah",
+      "wikiSlug": "Kingdom_of_Judah"
+    },
+    {
+      "matchText": "Judean",
+      "term": "Judea",
+      "wikiSlug": "Judea"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian language",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Berlin",
+      "term": "Berlin",
+      "wikiSlug": "Berlin"
+    },
+    {
+      "matchText": "Genesis",
+      "term": "Book of Genesis",
+      "wikiSlug": "Book_of_Genesis"
+    },
+    {
+      "matchText": "Seven Wonders of the Ancient World",
+      "term": "Seven Wonders of the Ancient World",
+      "wikiSlug": "Seven_Wonders_of_the_Ancient_World"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Rhodes",
+      "term": "Rhodes",
+      "wikiSlug": "Rhodes"
+    },
+    {
+      "matchText": "Kingdom of Israel",
+      "term": "Kingdom of Israel",
+      "wikiSlug": "Kingdom_of_Israel_(Samaria)"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Moses",
+      "term": "Moses",
+      "wikiSlug": "Moses"
+    },
+    {
+      "matchText": "Sabbath",
+      "term": "Sabbath",
+      "wikiSlug": "Shabbat"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Hurrian",
+      "term": "Hurrian language",
+      "wikiSlug": "Hurrian_language"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian (peoples and languages)",
+      "definition": "A broad family of related peoples and languages of the Iranian plateau and Central Asia, including the Medes and Persians who would soon conquer Babylon. \"Iranian\" here is an ethnolinguistic label, not a reference to the modern nation-state."
+    },
+    {
+      "matchText": "Semitic-speaking",
+      "term": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
     }
   ],
   "13": [
@@ -2022,6 +3419,96 @@
       "matchText": "Abbasid caliphs",
       "wikiSlug": "Abbasid_Caliphate",
       "type": "people"
+    },
+    {
+      "matchText": "Tigris River",
+      "term": "Tigris River",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "British Museum",
+      "term": "British Museum",
+      "wikiSlug": "British_Museum"
+    },
+    {
+      "matchText": "United Nations",
+      "term": "United Nations",
+      "wikiSlug": "United_Nations"
+    },
+    {
+      "matchText": "Babylonian Chronicle",
+      "term": "Babylonian Chronicles",
+      "wikiSlug": "Babylonian_Chronicles"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamia",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian language",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Babylonia",
+      "term": "Babylonia",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian language",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Persepolis",
+      "term": "Persepolis",
+      "wikiSlug": "Persepolis"
+    },
+    {
+      "matchText": "Anshan",
+      "term": "Anshan (Persia)",
+      "wikiSlug": "Anshan_(Persia)"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Rhodes",
+      "term": "Rhodes",
+      "wikiSlug": "Rhodes"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Hülegü Khan",
+      "term": "Hulegu Khan",
+      "wikiSlug": "Hulagu_Khan"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Assyrian",
+      "term": "Assyrian",
+      "wikiSlug": "Assyria"
     }
   ]
 }
