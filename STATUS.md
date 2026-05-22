@@ -8,13 +8,38 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
-## ▶ COLD-START HANDOFF — 2026-05-21 evening (read this FIRST)
+## ▶ COLD-START HANDOFF — 2026-05-22 (read this FIRST)
 
-**Git:** `main` == `origin/main`, clean tree, **no agents running**. (Only
-uncommitted item: `audits/link-coverage-ledger.md` — a pre-existing `--corpus`
-regen from a prior session, not this session's work; leave it or regen.)
-User cleared the session here intentionally; resume the #7 link sweep FASTER
-(two policy changes locked below).
+**Git:** `main` == `origin/main`, **clean tree, no agents running.** (Only
+uncommitted noise: `next-env.d.ts` regen + untracked `.wiki-verify-cache.json` /
+`.claude/scheduled_tasks.lock` / `samples/Historica.zip` / `scripts/promote.mjs`
+— all pre-existing throwaways, ignore.) User paused the #7 link sweep at **41/103**.
+
+**Resume: run the per-civ pipeline below, worst-first. FIRST DO russian-empire**
+(237 gaps, 20 chapters → 4 waves of 5; it was deferred this session because it's a
+big lift to start a session on). Then zhou-dynasty and on down
+`audits/link-coverage-ledger.md`. Refresh worklists with
+`npx tsx scripts/link-coverage.ts --corpus` at the start of the batch (note: it's
+`npx tsx`, not bare `tsx`, on this machine).
+
+**Two operational notes locked this session (2026-05-22):**
+1. **wiki-verify cache poisons on 429.** A transient API 429 gets cached as a
+   permanent failure in `audits/.wiki-verify-cache.json` and never retries. Clear
+   it before each snapshot: delete entries where `reason` contains "lookup failed".
+   (One-liner used all session — see any batch-9 commit flow.)
+2. **Cloudflare deploy can throw transient API errors** (`entitlements.not_available`
+   10007, unknown 10013) for ~20 min — NOT auth, NOT the build. Just wait ~2 min
+   and re-run `npx wrangler deploy`; it clears.
+
+**Coordinator residual recipe (per civ, after agents):** drop redundant
+blurbs/glossary that collide with existing event/cross links; tighten any
+pre-existing sentence-matchText crosses to the tight proper noun; close real NEW
+demonyms/recurrences with born-verified slugs (validate each is a clean
+word-boundary body substring); waive only own-name / modern-locator / chain-pointer
+("X Ch") / already-linked; pop-culture flags on "X Conference"/"X Records" are
+usually false positives — verify the page title and keep. Per-chapter agents
+catch the homonym traps (footballer/film/airline/wrong-era), coordinator closes
+the residual + runs `sweep-verify` to green-except-grandfathered-coverage.
 
 **State: 41 of 103 civs genuinely swept + DEPLOYED LIVE.** (User paused the session
 here at 41.)
