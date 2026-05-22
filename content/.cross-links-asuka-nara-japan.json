@@ -53,6 +53,90 @@
       "targetTl": "ancient-korea",
       "targetChapter": 4,
       "blurb": "Buddhism, writing, and statecraft kept arriving from the Korean kingdoms — Baekje in particular the patient tutor of Asuka Japan."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, two centuries later: the Buddhist grip on court politics that began here would eventually push the capital to Kyoto, founded in 794 as the seat of the long Heian age."
+    },
+    {
+      "matchText": "Meiji",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, thirteen centuries later: the Meiji government of the 1870s forcibly pried Buddhism and Shinto back apart, reversing the very fusion this chapter sets in motion."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang produced exactly one female emperor, Wu Zetian, and her reign was treated as a scandalous aberration — a sharp contrast to Japan's run of empresses regnant."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang dynasty built the centralized law-code-and-ministry bureaucracy that the Yamato court would soon copy wholesale as its model for a modern state."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, centuries earlier: the Han opened the Silk Road by accident through Zhang Qian's failed embassy, building the trans-Eurasian route along which Buddhism itself traveled toward Japan."
+    },
+    {
+      "matchText": "Goguryeo",
+      "targetTl": "ancient-korea",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Korea: Goguryeo, the northern warrior kingdom, accepted Buddhism in 372, more than a century and a half before the Baekje statue reached the Yamato court."
+    },
+    {
+      "matchText": "Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Korea: Silla, the easternmost of the three rival kingdoms, took up Buddhism last and most reluctantly, around 528 — just a decade before Japan faced the same choice."
+    },
+    {
+      "matchText": "Justinian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Byzantium: as the Soga and Mononobe fought over Buddha statues, Justinian I was rebuilding the Hagia Sophia and trying to reconquer the lost Roman west."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Byzantium: Justinian completed the great domed Hagia Sophia in Constantinople in 537, the year before the Buddha first reached the Yamato court."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: Constantinople, the New Rome on the Bosphorus, was the seat of the eastern empire that outlived the western half by a thousand years."
+    },
+    {
+      "matchText": "Sassanid Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sassanid Empire was at the height of its final golden age under Khosrow I, the reforming king who was the Darius of the second Persian Empire."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in India: the Gupta Empire was past its political peak but its synthesis of mathematics, Sanskrit literature, and Hindu revival was spreading across south Asia."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in India: the Gupta golden age produced the decimal place-value system, advanced astronomy, and a Sanskrit literary renaissance that radiated outward across Asia."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, eight centuries earlier: the Maurya emperor Ashoka turned Indian state machinery to spreading Buddhism, launching the missionary wave that would eventually reach Japan."
     }
   ],
   "2": [
@@ -91,6 +175,48 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "Shotoku's Seventeen-Article ideal of harmonious bureaucratic order parallels the contemporary Byzantine vision of a divinely-ordered Christian state."
+    },
+    {
+      "matchText": "Shinto",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in prehistoric Japan: the native cult of the kami — nature and ancestor spirits — was the indigenous spiritual tradition that would later be called Shinto, and the clans guarding it fought Buddhism's arrival."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Vedic India: Siddhartha Gautama, the Buddha, taught the path that — a thousand years later and a continent away — Shotoku's court was enshrining as Japan's state religion."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sassanid Empire under Khosrow II was at its zenith, locked in the last great Roman-Persian war — and within a generation it would be swept away entirely by the Arab armies of Islam."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Roman East: Constantinople, the great walled capital Constantine founded in 330, was about to be besieged by the Persians and then assaulted by the Arabs in the wars that nearly destroyed Byzantium."
+    },
+    {
+      "matchText": "Muhammad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Arabia: the prophet Muhammad was a young Meccan merchant during Shotoku's regency, a few years from the 610 revelation that would launch Islam."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Arabia: Mecca was a caravan town and pilgrimage shrine in the Hijaz, the place where — within a few years of Horyu-ji's founding — Muhammad would begin preaching a new faith."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Roman East: Byzantium — the surviving Roman Empire ruled from Constantinople — was sliding from Justinian's high tide into the Persian and Arab wars that would halve its territory."
     }
   ],
   "3": [
@@ -147,6 +273,54 @@
       "targetTl": "mongol-empire",
       "targetChapter": 8,
       "blurb": "The centralized land-and-tax state built here would, centuries on, be what survived to repel the Mongol invasions."
+    },
+    {
+      "matchText": "Goguryeo",
+      "targetTl": "ancient-korea",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Korea: Goguryeo was the northernmost and most militarized of the peninsula's three kingdoms, a warrior state that for centuries fought Chinese dynasties to a standstill on its frontier. Together with Baekje and Silla, it sent envoys and tribute to the Yamato court — and the 645 coup was staged on the very day all three kingdoms' envoys had gathered to present that tribute."
+    },
+    {
+      "matchText": "Tang-style",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang dynasty had just been founded and was building the most sophisticated state machine on Earth — a centralized empire of provinces, population registers, state-allocated land, and a salaried bureaucracy. This was the working model the Yamato reformers were copying when they laid out gridded capitals and drafted the Taika Edicts."
+    },
+    {
+      "matchText": "Song China Ch",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the early Tang emperors perfected the equal-field (juntian) land system — the state owns the land, allocates plots to registered cultivators, and taxes them in grain, cloth, and labor. It was built to feed a huge bureaucracy and army, and it is exactly the system the Taika reformers tried to graft onto Japan."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, far earlier and far to the west: the Buddha was a north Indian teacher of the 5th century BCE whose followers built one of the world's great religions. By the time a gilt-bronze Buddha statue arrived at the Yamato court from Baekje, his teachings had travelled the length of Asia — India to Central Asia to China to Korea to Japan."
+    },
+    {
+      "matchText": "Tibetan Empire",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile on Tang China's western flank: the Tibetan Empire rose into a major military power that repeatedly threatened Tang's frontier and even sacked its capital. Its pressure pulled Tang attention away from Korea in the 670s — one reason the feared Tang invasion of Japan never came."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in western Asia: the Sassanid Persian Empire, the dominant power for four centuries, was being overrun by the Arab conquests and destroyed between 636 and 651 — the very years Naka no Oe was building his Tang-modeled state. The contrast was the lesson: centralized states absorbed shocks, and brittle ones collapsed overnight."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, looking ahead: a century after Tenji built his palace at Otsu, the court would settle a few miles away at Heian-kyo — modern Kyoto — and stay there for over a thousand years. The Heian capital was the mature version of the gridded, Tang-modeled city the Asuka reformers had only sketched."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: Chang'an was the Tang capital and the largest, wealthiest, most cosmopolitan city on Earth — a million people behind walls laid out on a vast north-south grid. It was the template every Japanese capital of this era, from Naniwa to Nara, was consciously imitating."
     }
   ],
   "4": [
@@ -179,6 +353,66 @@
       "targetTl": "maya-civilization",
       "targetChapter": 5,
       "blurb": "The Yamato state matured as the Classic Maya entered collapse — the 7th–8th century reordering both ends of the world."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Tang China: Chang'an was the cosmopolitan grid-capital whose layout, institutions, and Buddhist culture Yamato monks studied and brought home."
+    },
+    {
+      "matchText": "Shinto",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in early Japan: the kami worship of the Kofun-era clans — the indigenous cult of nature and ancestor spirits that crystallized into Shinto."
+    },
+    {
+      "matchText": "Tang Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Tang China: Chang'an, the model grid-capital — though, unlike Fujiwara-kyo, it placed the imperial palace at its northern end."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile on the continent: the Tang dynasty at its high-water mark, the cultural and military hegemon whose bureaucratic model Japan was racing to import."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile at the western end of Eurasia: the Heraclian-dynasty Byzantines, having survived the Arab and Persian wars, stabilizing on a smaller base around Anatolia."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Near East: the Sassanid Persian empire, whose long wars with Byzantium had just been overtaken by the Arab Muslim conquest."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Americas: the great central-Mexican city had already collapsed around 600, leaving successor cultures to inherit its world."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Mesoamerica: the Maya Classic Period at full flower — rival city-states, divine kings, and monumental inscriptions at their height."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile across Eurasia: the Silk Road at its historical peak under the Tang, the artery linking Japan's borrowed culture to Central Asia and the Mediterranean."
+    },
+    {
+      "matchText": "Tang dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile on the continent: the Tang, midway between Taizong's reforms and Wu Zetian's reign, still the East Asian hegemon Japan modeled itself on."
     }
   ],
   "5": [
@@ -193,6 +427,108 @@
       "targetTl": "heian-japan",
       "targetChapter": 2,
       "blurb": "The building of the Nara capital is the dress rehearsal for Heian-kyo — the grid city the next narrative opens in."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China, the Tang dynasty was the institutional template the Yamato court was copying wholesale — its law codes, equal-field land system, and capital plan."
+    },
+    {
+      "matchText": "Shinto",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the indigenous kami worship of the Japanese islands, later named Shinto, ran far deeper than the imported continental institutions layered on top of it."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, more than a thousand years later, the 1868 Meiji Restoration would still invoke the language and concepts of this eighth-century ritsuryo state."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China, Heijo-kyo was built as a deliberate scale model of the Tang Chinese imperial city — the grid, the markets, the palace at the north end."
+    },
+    {
+      "matchText": "al-Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iberia, the same Umayyad surge that reached the Indus had conquered al-Andalus by 711 — within a year of Genmei's capital move."
+    },
+    {
+      "matchText": "Battle of Tours",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Francia, the Battle of Tours in 732 marked the western limit of Umayyad expansion at the Pyrenees, a generation after Nara was founded."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world, Umayyad armies had reached the Indus River and Iberia by 711, building an empire on early-Caliphate foundations just as Japan built on its Asuka reforms."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Tang China, Emperor Xuanzong had just taken the throne in 712, opening the High Tang reign that Japanese embassies came to study."
+    },
+    {
+      "matchText": "High Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China, the High Tang reign of Xuanzong peaked in the great cultural moment of Li Bai and Du Fu — the model of civilization Nara was reaching toward."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, Persian refugees fleeing the destroyed Sassanid Empire were among the cosmopolitan crowds filling Tang Chang'an, the city Heijo-kyo imitated."
+    },
+    {
+      "matchText": "Sassanid Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Iran, the Sassanid Empire had been destroyed by the Arab conquests, scattering Persian exiles eastward toward Tang China."
+    },
+    {
+      "matchText": "Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Korea, Silla had unified the peninsula and was entering the golden age of its consolidated kingdom."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the eastern Mediterranean, the Byzantine Empire under the Isaurian dynasty was about to plunge into the Iconoclasm crisis."
+    },
+    {
+      "matchText": "Iconoclasm",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Byzantium, the Iconoclasm controversy over religious images was tearing the empire apart just as Nara was filling with new Buddhist temples."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Near East, the early Caliphate provided the institutional base the Umayyads built their expanding empire upon."
+    },
+    {
+      "matchText": "Isaurian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Constantinople, the Isaurian dynasty took power in 717 and would soon launch the Byzantine assault on holy images."
+    },
+    {
+      "matchText": "Unified Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Korea, Unified Silla stood at the start of its golden age, the peninsula's first single ruling power."
     }
   ],
   "6": [
@@ -219,6 +555,72 @@
       "targetTl": "umayyad-caliphate",
       "targetChapter": 4,
       "blurb": "The Great Buddha of Nara — a state religion cast in bronze — is the Japanese counterpart to the monumental sacred projects of the Umayyad age."
+    },
+    {
+      "matchText": "Heian Japan Ch 1",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Heian period: the Fujiwara intermarriage strategy reached full maturity, with the family marrying its daughters to emperors and ruling as regents for child sovereigns."
+    },
+    {
+      "matchText": "the Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the historical Buddha, Siddhartha Gautama, taught in the Ganges plain around the 5th century BCE — the founder whose teachings, a millennium later, anchored Japan's Nara temples."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang court was the cultural template Japan copied wholesale — its capital plan, law codes, writing, and Buddhism all flowed east to Nara."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: glassware and luxury goods from the Iranian world traveled the Silk Road all the way to Nara, where Persian glass still survives in the Shoso-in treasure house."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across Eurasia: the Silk Road overland trade network linked China to the Mediterranean, and Heijo-kyo sat at its far eastern terminus, receiving goods from across the continent."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: Tang embassies sent gifts to the Japanese court, many of which ended up preserved in the Shoso-in — a direct material trace of Sino-Japanese exchange."
+    },
+    {
+      "matchText": "Nagarjuna",
+      "targetTl": "post-maurya-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: Nagarjuna, the great 2nd-century philosopher of the Madhyamaka \"middle way,\" founded the school that Nara's Sanron tradition would carry to Japan."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Europe: the Frankish kings ruled the largest realm in the post-Roman West, and their burial church at Saint-Denis was being built across the same eighth century the Daibutsu was cast."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: Chang'an, the Tang capital, was the largest city on Earth and the grid-plan model that both Heijo-kyo and Abbasid Baghdad consciously imitated."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch 3",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Iraq: the Abbasids would build the Great Mosque of Samarra, the largest mosque ever raised — the Islamic counterpart to the Daibutsu in this Eurasian age of monumental religion."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iraq: the Abbasids founded Baghdad in 762 as a new round caliphal capital on a Chang'an-influenced plan — built within a decade of Heijo-kyo on the opposite end of Eurasia."
     }
   ],
   "7": [
@@ -239,6 +641,84 @@
       "targetTl": "heian-japan",
       "targetChapter": 1,
       "blurb": "The Heian period that succeeds the Asuka-Nara periods (Heian Japan Chapter 1) covers 794 to 1185 — the brilliant aesthetic civilization centered on the new capital at Kyoto, the Fujiwara clan's regency dominance, the masterworks of Murasaki Shikibu and Sei Shonagon, and the eventual rise of the warrior class that would close the classical era in the Genpei War."
+    },
+    {
+      "matchText": "Amaterasu",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in prehistoric Japan: the Yamato clan claimed descent from the sun goddess Amaterasu, the divine ancestry that made their rule sacred long before the Nara chroniclers wrote it down."
+    },
+    {
+      "matchText": "Shinto",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in prehistoric Japan: Shinto, the indigenous cult of the kami, was the native spiritual tradition the Soga and Mononobe clans fought over when Buddhism first arrived."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Tang China: Chang'an, the cosmopolitan Tang capital, was the model Japan copied for its own grid-plan cities and the place where Abe no Nakamaro lived out his life."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate, fresh from overthrowing the Umayyads, was building Baghdad as its new capital in the very years of the Dokyo Affair."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: Baghdad rose as the round city of the Abbasids, founded 762 and walled by 766, exactly as Nara Japan was printing its million pagodas."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid revolution had toppled the Umayyad dynasty in 750 and inaugurated the golden age centered on Baghdad."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Umayyad dynasty was the regime the Abbasids overthrew in 750, ending the first great line of caliphs."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid revolution of 750 opened the Islamic Golden Age, with Baghdad as its intellectual and political heart."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Europe: Charlemagne had just inherited the Frankish throne in 768 and was beginning the conquests that would unite most of western Europe."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Europe: the Frankish kingdom, soon led by Charlemagne, was consolidating into the dominant power of the Latin West."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Europe: Carolingian rule under Charlemagne unified much of western Europe just before the Viking longships arrived to test its defenses."
+    },
+    {
+      "matchText": "Anglo-Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Britain: the Anglo-Saxon kingdoms had taken shape after Rome withdrew, the world that produced the epic poem Beowulf."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in China, the Tang dynasty — the cosmopolitan empire whose institutions, capital plan, and Buddhism Nara Japan copied wholesale — was entering the turmoil of the An Lushan Rebellion."
     }
   ],
   "8": [
@@ -277,6 +757,102 @@
       "targetTl": "heian-japan",
       "targetChapter": 6,
       "blurb": "The samurai class that the Emishi-war military reorganization of Kammu's reign began producing would dominate Japanese politics from the late Heian period onward — Heian Japan Chapter 6 covers the rise of the warrior aristocracy. The institutional foundation laid by Kammu's abolition of the conscript army in 792 produced the warrior families whose descendants would close the classical era in the Genpei War four centuries later."
+    },
+    {
+      "matchText": "Heian Japan",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Heian Japan: the move to Heian-kyo in 794 opens the next era, the brilliant court culture of The Tale of Genji and the Fujiwara regents."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Meiji Japan: in 1868 the Meiji Restoration ends the warrior shogunates, restores the emperor, and moves the court from Kyoto to Edo, renamed Tokyo."
+    },
+    {
+      "matchText": "Tokugawa",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Edo Japan: the Tokugawa shogunate ruled Japan from 1603 to 1868, the long peace of the warrior government before the Meiji Restoration."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Tang China: the cosmopolitan Tang capital sat at the eastern end of the Silk Road, the trade and pilgrimage network that carried goods and Buddhism across Eurasia."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Europe: Charlemagne's Carolingian empire was the great Christian power of the West, crowned by the pope in 800 just as the Viking raids began."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate under Harun al-Rashid was at the height of its golden age, ruling from Baghdad as Kammu built Heian-kyo."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world: Baghdad, the Abbasid capital, was the largest city of the Islamic world and the cultural center of the connected Eurasian middle."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world: the Islamic Golden Age of scholarship, science, and translation flourished under the Abbasids while Heian-kyo was founded."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Tang China: the dynasty Japan modeled its state on had survived the An Lushan Rebellion but was visibly weakening as provincial governors grew autonomous."
+    },
+    {
+      "matchText": "Unified Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Korea: the Unified Silla golden age was nearing its last century, with Korean trade networks reaching as far as the Persian Gulf."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the Persian Gulf was the maritime hinge of the Indian Ocean trade that linked the Islamic world to East Asia in this era."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Scandinavia: the raid on Lindisfarne in 793, one year before the Heian-kyo move, opened the Viking Age of Scandinavian expansion across Europe."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Americas: the classic Maya cities of the Yucatan were approaching their mysterious collapse in the ninth and tenth centuries."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the middle-horizon empires of Wari and Tiwanaku were at their peak, the great highland powers before the Inca."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: Wari was a highland empire of the Peruvian Andes at its peak during Japan's Nara period."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: Tiwanaku was the great ceremonial and political center near Lake Titicaca, a peer of Wari in the Andean middle horizon."
     }
   ]
 }

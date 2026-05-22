@@ -1,0 +1,330 @@
+# link-suggest — asuka-nara-japan
+
+{"SKIP":14,"CROSS":101,"REUSE":108,"LINK-CANDIDATE":57,"NO-PAGE":29}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- Nara → SKIP (own-name, cat B)
+- **Kyoto** → CROSS → `heian-japan`  (cross-linked elsewhere ×3)
+- **Great Pyramid** → REUSE `Great_Pyramid_of_Giza` [high] — _Great Pyramid of Giza_: The Great Pyramid of Giza is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyr  (linked in 2 civ(s) (e.g. ancient-nubia) ×3)
+- **Giza** → REUSE `Giza_pyramid_complex` [high] — _Giza pyramid complex_: The Giza pyramid complex (also called the Giza necropolis) in Egypt is home to the Great Pyramid, the pyramid   (linked in 2 civ(s) (e.g. early-dynastic-egypt) ×4)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×14)
+- **Osaka** → REUSE `Osaka` [high] — _Osaka_: Osaka (Japanese: 大阪市, Hepburn: Ōsaka-shi; pronounced [oː.sa.kaꜜ.ɕi]; commonly just 大阪, Ōsaka [oː.sa.ka] ) is a  (linked in 3 civ(s) (e.g. edo-japan) ×6)
+- **Nara Prefecture** → REUSE `Nara_Prefecture` [high] — _Nara Prefecture_: Nara Prefecture (奈良県, Nara-ken; Japanese pronunciation: [naꜜ.ɾa, na.ɾaꜜ.keɴ]) is an inland prefecture of Japan  (linked in 1 civ(s) (e.g. prehistoric-japan) ×2)
+- **Prince Umayado** → `Prince_Shōtoku` [med] — _Prince Shōtoku_: Prince Shōtoku (聖徳太子, Shōtoku Taishi; February 7, 574 – April 8, 622), also known as Prince Umayado (厩戸皇子, Umayado no ōj
+- **Tibet** → REUSE `Tibet` [CONFIRM-homonym] — _Tibet_: Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homel  (linked in 7 civ(s) (e.g. chinese-revolution) ×20 — ⚠ AMBIGUOUS: also Tibet_under_Qing_rule(qing-dynasty), Tibetan_Buddhism(srivijaya))
+- **Meiji** → CROSS → `meiji-japan`  (cross-linked elsewhere ×2)
+- **Tang China** → CROSS → `ancient-china`  (cross-linked elsewhere ×12)
+- **Tang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×14)
+- **Silk Road** → CROSS → `ancient-china`  (cross-linked elsewhere ×15)
+- **Goguryeo** → CROSS → `ancient-korea`  (cross-linked elsewhere ×1)
+- **Silla** → CROSS → `ancient-korea`  (cross-linked elsewhere ×3)
+- **Justinian** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×5)
+- **Hagia Sophia** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×10)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×53)
+- **Sassanid Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×5)
+- **Gupta Empire** → CROSS → `gupta-empire`  (cross-linked elsewhere ×16)
+- **Gupta** → CROSS → `gupta-empire`  (cross-linked elsewhere ×1)
+- Central Asia → SKIP (modern locator, cat A)
+- **Ashoka** → CROSS → `maurya-empire`  (cross-linked elsewhere ×5)
+
+## Chapter 2
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Soga** → REUSE `Soga_clan` [high] — _Soga clan_: The Soga clan (Japanese: 蘇我氏, Hepburn: Soga-shi) was one of the most powerful aristocratic kin groups (uji) of  (linked in 2 civ(s) (e.g. heian-japan) ×2)
+- **Shinto** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×1)
+- **Toyura** → `Capital_of_Japan` [low] — _Capital of Japan_: The capital of Japan is Tokyo. Throughout history, the national capital of Japan has been in locations other than Tokyo.
+- **Oharida** → `Asuka,_Yamato` [low] — _Asuka, Yamato_: Asuka (飛鳥; Japanese pronunciation: [a.sɯ̥.ka], locally [aꜜ.sɯ̥.ka]) was the Imperial capital of Japan during the Asuka p
+- **Twelve Cap Ranks** → `Twelve_Level_Cap_and_Rank_System` [med] — _Twelve Level Cap and Rank System_: The Twelve Level Cap and Rank System (冠位十二階, Kan'i Jūnikai), established in 603 AD, was the first of what would be sever
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×10)
+- **Dharma** → REUSE `Dharma` [high] — _Dharma_: Dharma (; Sanskrit: धर्म, pronounced [dʱɐrmɐ] ) is a key concept in various Indian religions. The term dharma   (linked in 6 civ(s) (e.g. gupta-empire) ×14)
+- **Sangha** → REUSE `Sangha` [high] — _Sangha_: Saṅgha or saṃgha (IPA: [sɐŋɡʱɐ]) is a term meaning "association", "assembly", "company" or "community". In a p  (linked in 2 civ(s) (e.g. maurya-empire) ×6)
+- **Nihon Shoki** → REUSE `Nihon_Shoki` [high] — _Nihon Shoki_: The Nihon Shoki (日本書紀) or Nihongi (日本紀), sometimes translated as The Chronicles of Japan, is the second-oldest  (linked in 1 civ(s) (e.g. prehistoric-japan) ×2)
+- **Son of Heaven** → REUSE `Son_of_Heaven` [high] — _Son of Heaven_: Son of Heaven, or Tianzi (Chinese: 天子; pinyin: Tiānzǐ), was the sacred monarchial and imperial title of the Ch  (linked in 5 civ(s) (e.g. ancient-china) ×10)
+- **Grand Canal** → REUSE `Grand_Canal_(China)` [CONFIRM-homonym] — _Grand Canal (China)_: The Grand Canal (Chinese: 大运河; pinyin: Dà yùnhé) is a system of interconnected canals linking various major ri  (linked in 6 civ(s) (e.g. gokturk-khaganate) ×19 — ⚠ AMBIGUOUS: also Grand_Canal_(Venice)(renaissance-italy))
+- **Baekje** → REUSE `Baekje` [high] — _Paekche_: Paekche or Baekje (Korean: 백제; Hanja: 百濟; RR: Baekje; MR: Paekche; pronounced [pɛk̚.tɕ͈e]) was a Korean kingdo  (linked in 3 civ(s) (e.g. ancient-korea) ×7)
+- **Shitenno-ji** → `Shitennō-ji` [high] — _Shitennō-ji_: Shitennō-ji (Japanese: 四天王寺, Temple of the Four Heavenly Kings) is a Buddhist temple in Ōsaka, Japan. It is also known a
+- **Osaka** → REUSE `Osaka` [high] — _Osaka_: Osaka (Japanese: 大阪市, Hepburn: Ōsaka-shi; pronounced [oː.sa.kaꜜ.ɕi]; commonly just 大阪, Ōsaka [oː.sa.ka] ) is a  (linked in 3 civ(s) (e.g. edo-japan) ×6)
+- **Mahayana** → REUSE `Mahayana` [high] — _Mahayana_: Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions,  (linked in 9 civ(s) (e.g. gupta-empire) ×20)
+- Nara → SKIP (own-name, cat B)
+- **Vimalakirti Sutra** → REUSE `Vimalakirti_Sutra` [high] — _Vimalakirti Sutra_: The Vimalakīrti Nirdeśa (Devanagari: विमलकीर्तिनिर्देश) (sometimes referred to as the Vimalakīrti Sūtra or Vim  (linked in 1 civ(s) (e.g. six-dynasties) ×2)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- **Khosrow II** → REUSE `Khosrow_II` [high] — _Khosrow II_: Khosrow II (spelled Chosroes II in classical sources; Middle Persian: 𐭧𐭥𐭮𐭫𐭥𐭣𐭩, romanized: Xusrōγ/Xusrōw  (linked in 2 civ(s) (e.g. byzantine-empire) ×4)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×53)
+- **Muhammad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×3)
+- **Mecca** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×2)
+- **Taika Reform** → CROSS → `heian-japan`  (cross-linked elsewhere ×1)
+- **Empress Theodora** → REUSE `Theodora_(wife_of_Theophilos)` [high] — _Theodora (wife of Theophilos)_: Theodora (Greek: Θεοδώρα; c. 815 – c. 867), sometimes called Theodora the Armenian or Theodora the Blessed, wa  (linked in 1 civ(s) (e.g. byzantine-empire) ×1)
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×9)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+
+## Chapter 3
+- **Battle of Shigisen** → `Soga–Mononobe_conflict` [low] — _Soga–Mononobe conflict_: The Soga–Mononobe conflict, was a political and military dispute that took place in Japan during the Asuka period betwee
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Empress Suiko** → REUSE `Empress_Suiko` [high] — _Empress Suiko_: Empress Suiko (推古天皇, Suiko-tennō) (554 – 15 April 628) was the 33rd monarch of Japan, and the country's first   (linked in 1 civ(s) (e.g. prehistoric-japan) ×1)
+- **Shotoku** → `Prince_Shōtoku` [high] — _Prince Shōtoku_: Prince Shōtoku (聖徳太子, Shōtoku Taishi; February 7, 574 – April 8, 622), also known as Prince Umayado (厩戸皇子, Umayado no ōj
+- **Shotoku Taishi** → `Prince_Shōtoku` [med] — _Prince Shōtoku_: Prince Shōtoku (聖徳太子, Shōtoku Taishi; February 7, 574 – April 8, 622), also known as Prince Umayado (厩戸皇子, Umayado no ōj
+- **Horyu-ji** → `Hōryū-ji` [high] — _Hōryū-ji_: Hōryū-ji (Japanese: 法隆寺; lit. 'Temple of the Flourishing Dharma') is a Buddhist temple that was once one of the powerful
+- **Mononobe** → REUSE `Mononobe_clan` [high] — _Mononobe clan_: The Mononobe clan (物部氏, Mononobe uji) was a Japanese aristocratic kin group (uji) of the Kofun period, known f  (linked in 1 civ(s) (e.g. prehistoric-japan) ×1)
+- Asuka → SKIP (own-name, cat B)
+- **Goguryeo** → CROSS → `ancient-korea`  (cross-linked elsewhere ×1)
+- **Crown Prince** → REUSE `Crown_prince` [high] — _Crown prince_: A crown prince or hereditary prince is the heir apparent to the throne in a royal or imperial monarchy. The fe  (linked in 2 civ(s) (e.g. ming-dynasty) ×6)
+- **Osaka** → REUSE `Osaka` [high] — _Osaka_: Osaka (Japanese: 大阪市, Hepburn: Ōsaka-shi; pronounced [oː.sa.kaꜜ.ɕi]; commonly just 大阪, Ōsaka [oː.sa.ka] ) is a  (linked in 3 civ(s) (e.g. edo-japan) ×6)
+- **Tang-style** → `Wu-Tang:_Shaolin_Style` [med] — _Wu-Tang: Shaolin Style_: Wu-Tang: Shaolin Style, released as Wu-Tang: Taste the Pain in PAL regions, is a 1999 fighting game developed by Paradox
+- **Naniwa Nagara-Toyosaki Palace** → `Naniwa_Nagara-Toyosaki_Palace` [high] — _Naniwa Nagara-Toyosaki Palace_: Naniwa Nagara-Toyosaki Palace (難波長柄豊碕宮, Naniwa-no-Nagara-no-Toyosaki-no-miya), is a historical palace which was located 
+- **Song China Ch** → CROSS → `tang-song-china`  (cross-linked elsewhere ×11)
+- **Asuka Kiyomihara Code** → `Asuka_Kiyomihara_Code` [high] — _Asuka Kiyomihara Code_: The Asuka Kiyomihara Code (飛鳥浄御原令, Asuka Kiyomihara-ryō) refers to a collection of governing rules compiled and promulga
+- **Taiho Code** → REUSE `Taih%C5%8D_Code` [high] — _Taihō Code_: The Taihō Code or Code of Taihō (大宝律令, Taihō-ritsuryō) was an administrative reorganisation enacted in 703 in   (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Confucian** → CROSS → `ancient-korea`  (cross-linked elsewhere ×11)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×14)
+- **Yellow Sea** → REUSE `Yellow_Sea` [high] — _Yellow Sea_: The Yellow Sea (simplified Chinese: 黄海; traditional Chinese: 黃海; pinyin: Huáng Hǎi; Zhuyin Fuhao: ㄏㄨㄤˊ ㄏㄞˇ; Ko  (linked in 4 civ(s) (e.g. ancient-korea) ×8)
+- **Sabi** → `Wabi-sabi` [med] — _Wabi-sabi_: In traditional Japanese aesthetics, wabi-sabi (侘び寂び) centers on the acceptance of transience and imperfection. It is oft
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×10)
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. edo-japan) ×18 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Tibetan Empire** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- **Honshu** → REUSE `Honshu` [high] — _Honshu_: Honshu (Japanese: 本州, Hepburn: Honshū; pronounced [hoꜜɰ̃.ɕɯː] ; lit. 'main province'), historically known as A  (linked in 4 civ(s) (e.g. heian-japan) ×14)
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×21)
+- Hungary → SKIP (modern locator, cat A)
+- **Otsu** → `Ōtsu` [med] — _Ōtsu_: Ōtsu (大津市, Ōtsu-shi) is the capital city of Shiga Prefecture, Japan. As of 1 October 2021, the city had an estimated pop
+- **Lake Biwa** → `Lake_Biwa` [high] — _Lake Biwa_: Lake Biwa (Japanese: 琵琶湖, Hepburn: Biwa-ko) is the largest freshwater lake in Japan. It is located entirely within Shiga
+- **Kyoto** → CROSS → `heian-japan`  (cross-linked elsewhere ×3)
+- **Jinshin War** → `Jinshin_War` [high] — _Jinshin War_: The Jinshin War (壬申の乱, jinshin no ran) was a war of succession that took place in the Yamato Kingship near the end of As
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- *** Uthman** → `Uthman` [high] — _Uthman_: Uthman ibn Affan (Arabic: عُثْمَان بْن عَفَّان, romanized: ʿUthmān ibn ʿAffān; c. 573 or 576 – 17 June 656) was the thir
+- **Levant** → REUSE `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The  (linked in 26 civ(s) (e.g. ancient-nubia) ×68)
+- **Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×8)
+- **Emperor Taizong** → REUSE `Emperor_Taizong_of_Tang` [high] — _Emperor Taizong of Tang_: Emperor Taizong of Tang (28 January 598 – 10 July 649), previously Prince of Qin, personal name Li Shimin, was  (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Yamashiro no Oe** → `Prince_Yamashiro` [med] — _Prince Yamashiro_: Prince Yamashiro (山背大兄王, Yamashiro no Ōe no Ō; died 643) was the eldest son of one of the most famous figures in Japanes
+- **Fujiwara no Fuhito** → `Fujiwara_no_Fuhito` [high] — _Fujiwara no Fuhito_: Fujiwara no Fuhito (藤原 不比等: 659 – 13 September 720) was a powerful member of the Imperial court of Japan during the Asuk
+
+## Chapter 4
+- **Baekgang** → `Battle_of_Baekgang` [high] — _Battle of Baekgang_: The Battle of Baekgang (Korean: 백강 전투; Hanja: 白江戰鬪) or Battle of Baekgang-gu, also known as the Battle of Hakusukinoe (J
+- **Emperor Tenji** → `Emperor_Tenji` [high] — _Emperor Tenji_: Emperor Tenji (天智天皇, Tenji-tennō; 626 – January 7, 672), known first as Prince Katsuragi (葛城皇子, Katsuragi no Ōji) and la
+- **Tenji** → `Emperor_Tenji` [high] — _Emperor Tenji_: Emperor Tenji (天智天皇, Tenji-tennō; 626 – January 7, 672), known first as Prince Katsuragi (葛城皇子, Katsuragi no Ōji) and la
+- Nara → SKIP (own-name, cat B)
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×8)
+- **Taika Edicts** → `Taika_Reform` [med] — _Taika Reform_: The Taika Reforms (大化の改新, "Taika no Kaishin; Reformation of Taika") were a set of doctrines established by Emperor Kōtok
+- **Crown Prince** → REUSE `Crown_prince` [high] — _Crown prince_: A crown prince or hereditary prince is the heir apparent to the throne in a royal or imperial monarchy. The fe  (linked in 2 civ(s) (e.g. ming-dynasty) ×6)
+- **Honshu** → REUSE `Honshu` [high] — _Honshu_: Honshu (Japanese: 本州, Hepburn: Honshū; pronounced [hoꜜɰ̃.ɕɯː] ; lit. 'main province'), historically known as A  (linked in 4 civ(s) (e.g. heian-japan) ×14)
+- **Battle of Seta** → `SETA_Corporation` [med] — _SETA Corporation_: SETA Corporation was a Japanese video game developer and publisher based in Kōtō, Tokyo. SETA developed and published ga
+- **Soga** → REUSE `Soga_clan` [high] — _Soga clan_: The Soga clan (Japanese: 蘇我氏, Hepburn: Soga-shi) was one of the most powerful aristocratic kin groups (uji) of  (linked in 2 civ(s) (e.g. heian-japan) ×2)
+- **Daoist** → REUSE `Taoism` [high] — _Taoism_: Taoism or Daoism ( , ) is a philosophical and religious tradition indigenous to China, emphasizing harmony wit  (linked in 4 civ(s) (e.g. joseon-korea) ×12)
+- **Kojiki** → REUSE `Kojiki` [high] — _Kojiki_: The Kojiki (古事記, "Records of Ancient Matters" or "An Account of Ancient Matters"), also sometimes read as Furu  (linked in 1 civ(s) (e.g. prehistoric-japan) ×4)
+- **Taiho Code** → REUSE `Taih%C5%8D_Code` [high] — _Taihō Code_: The Taihō Code or Code of Taihō (大宝律令, Taihō-ritsuryō) was an administrative reorganisation enacted in 703 in   (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Yoro Code** → `Yōrō_Code` [high] — _Yōrō Code_: The Yōrō Code (養老律令, Yōrō-ritsuryō) was one iteration of several codes or governing rules compiled in the early Nara per
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×14)
+- **Shinto** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×1)
+- **Heijo-kyo** → REUSE `Heij%C5%8D-ky%C5%8D` [high] — _Heijō-kyō_: Heijō-kyō (平城京; also Heizei-kyō, sometimes Nara no miyako) was the Capital of Japan during most of the Nara pe  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Tang Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- **Empress Genmei** → `Empress_Genmei` [high] — _Empress Genmei_: Empress Genmei (元明天皇, Genmei-tennō; April 20, 660 – December 29, 721), also known as Empress Genmyō, was the 43rd monarc
+- **Tori Busshi** → `Tori_Busshi` [high] — _Tori Busshi_: Tori Busshi (止利仏師; トリ・ブッシ) was a Japanese sculptor active in the late 6th and early 7th century. He was from the Kuratsu
+- **Asuka-dera** → `Asuka-dera` [high] — _Asuka-dera_: Asuka-dera (飛鳥寺), also known as Hōkō-ji (法興寺), is a Buddhist temple located in the village of Asuka, Nara Prefecture, Ja
+- **Horyu-ji** → `Hōryū-ji` [high] — _Hōryū-ji_: Hōryū-ji (Japanese: 法隆寺; lit. 'Temple of the Flourishing Dharma') is a Buddhist temple that was once one of the powerful
+- **Tang China** → CROSS → `ancient-china`  (cross-linked elsewhere ×12)
+- **Manyoshu** → `Man'yōshū` [high] — _Man'yōshū_: The Man'yōshū (万葉集, literally "Collection of Ten Thousand Leaves") is the oldest extant collection of Japanese waka (poe
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. edo-japan) ×18 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Daibutsu** → `Daibutsu` [high] — _Daibutsu_: Daibutsu (大仏; kyūjitai: 大佛) or 'giant Buddha' is the Japanese term, often used informally, for large statues of Buddha. 
+- **Arab** → REUSE `Arabs` [high] — _Arabs_: Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A si  (linked in 16 civ(s) (e.g. byzantine-empire) ×52)
+- **Hindu Kush** → REUSE `Hindu_Kush` [high] — _Hindu Kush_: The Hindu Kush is an 800-kilometre-long (500 mi) mountain range in Central and South Asia to the west of the H  (linked in 12 civ(s) (e.g. elamite-civilization) ×32)
+- **Taizong** → REUSE `Emperor_Taizong_of_Tang` [high] — _Emperor Taizong of Tang_: Emperor Taizong of Tang (28 January 598 – 10 July 649), previously Prince of Qin, personal name Li Shimin, was  (linked in 3 civ(s) (e.g. ancient-korea) ×3)
+- **Byzantine Empire** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×62)
+- *** Heraclian** → `Byzantine_Empire_under_the_Heraclian_dynasty` [high] — _Byzantine Empire under the Heraclian dynasty_: The Byzantine Empire was ruled by emperors of the dynasty of Heraclius between 610 and 711 AD. The Heraclians presided o
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Anatolia** → REUSE `Anatolia` [high] — _Anatolia_: Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority   (linked in 27 civ(s) (e.g. ancient-korea) ×147)
+- **Teotihuacan** → CROSS → `teotihuacan`  (cross-linked elsewhere ×10)
+- **Maya Classic Period** → CROSS → `maya-civilization`  (cross-linked elsewhere ×2)
+- **Silk Road** → CROSS → `ancient-china`  (cross-linked elsewhere ×15)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+- **Tang dynasty** → CROSS → `tang-song-china`  (cross-linked elsewhere ×20)
+
+## Chapter 5
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Taika Edicts** → `Taika_Reform` [med] — _Taika Reform_: The Taika Reforms (大化の改新, "Taika no Kaishin; Reformation of Taika") were a set of doctrines established by Emperor Kōtok
+- **Asuka Kiyomihara Code** → `Asuka_Kiyomihara_Code` [high] — _Asuka Kiyomihara Code_: The Asuka Kiyomihara Code (飛鳥浄御原令, Asuka Kiyomihara-ryō) refers to a collection of governing rules compiled and promulga
+- **Fujiwara-kyo** → `Fujiwara-kyō` [high] — _Fujiwara-kyō_: Fujiwara-kyō (藤原京) was the Imperial capital of Japan for sixteen years, between 694 and 710. It was located in Yamato Pr
+- Nara → SKIP (own-name, cat B)
+- **Tang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×14)
+- **Daijo-daijin** → REUSE `Daij%C5%8D-daijin` [CONFIRM-homonym] — _Daijō-daijin_: The Daijō-daijin or Dajō-daijin (太政大臣; "Chancellor of the Realm") was the head of the Daijō-kan (Council of St  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Daijō-daijin(heian-japan))
+- **Shinto** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×1)
+- **Emishi** → REUSE `Emishi` [high] — _Emishi_: The Emishi, Ebisu or Ezo (蝦夷; Japanese pronunciation: [eꜜ.mʲi.ɕi, eꜜ.bʲi.sɯ, eꜜ.(d)zo]) were a group of people  (linked in 1 civ(s) (e.g. heian-japan) ×4)
+- **Meiji Restoration** → CROSS → `meiji-japan`  (cross-linked elsewhere ×6)
+- **Tokyo** → REUSE `Tokyo` [high] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 5 civ(s) (e.g. heian-japan) ×10)
+- **Mommu** → `Emperor_Monmu` [low] — _Emperor Monmu_: Emperor Monmu (文武天皇, Monmu-tennō; 683–707) was the 42nd emperor of Japan, according to the traditional order of successi
+- Asuka → SKIP (own-name, cat B)
+- **Tang Chinese** → CROSS → `tang-song-china`  (cross-linked elsewhere ×3)
+- **Yakushi-ji** → `Yakushi-ji` [high] — _Yakushi-ji_: Yakushi-ji (薬師寺) is one of the most famous imperial and ancient Buddhist temples in Japan, and was once one of the Seven
+- **Todai-ji** → `Tōdai-ji` [high] — _Tōdai-ji_: Tōdai-ji (東大寺, 'Eastern Great Temple') is a Buddhist temple complex that was once one of the powerful Seven Great Temple
+- **Emperor Shomu** → `Emperor_Shōmu` [high] — _Emperor Shōmu_: Emperor Shōmu (聖武天皇, Shōmu-tennō; September 22, 701 – June 4, 756) was the 45th emperor of Japan, according to the tradi
+- **Daibutsu** → `Daibutsu` [high] — _Daibutsu_: Daibutsu (大仏; kyūjitai: 大佛) or 'giant Buddha' is the Japanese term, often used informally, for large statues of Buddha. 
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- **Indus River** → REUSE `Indus_River` [high] — _Indus River_: The Indus ( IN-dəs) is a transboundary river of Asia and a trans-Himalayan river of South and Central Asia. Th  (linked in 9 civ(s) (e.g. ancient-nubia) ×17)
+- *** Andalus** → CROSS → `al-andalus`  (matches a civ id)
+- **Battle of Tours** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×1)
+- **Umayyad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×7)
+- **Pyrenees** → REUSE `Pyrenees` [high] — _Pyrenees_: The Pyrenees are a mountain range in southwestern Europe, straddling the France–Spain border. They extend near  (linked in 8 civ(s) (e.g. al-andalus) ×20)
+- **Tang China** → CROSS → `ancient-china`  (cross-linked elsewhere ×12)
+- **Emperor Xuanzong** → REUSE `Emperor_Xuanzong_of_Tang` [high] — _Emperor Xuanzong of Tang_: Emperor Xuanzong of Tang ([ɕwǎn.tsʊ́ŋ]; 8 September 685 – 3 May 762), personal name Li Longji, was an emperor   (linked in 3 civ(s) (e.g. gokturk-khaganate) ×8)
+- *** High Tang** → `Tang_poetry` [med] — _Tang poetry_: Tang poetry (traditional Chinese: 唐詩; simplified Chinese: 唐诗; pinyin: Tángshī) refers to poetry written in or around the
+- **Li Bai** → REUSE `Li_Bai` [high] — _Li Bai_: Li Bai (c. 701 – 762), also known by his courtesy name of Taibai, was a Chinese poet acclaimed as one of the b  (linked in 5 civ(s) (e.g. early-medieval-europe) ×10)
+- **Du Fu** → REUSE `Du_Fu` [high] — _Du Fu_: Du Fu (Chinese: 杜甫; pinyin: Dù Fǔ; Wade–Giles: Tu Fu; 712 – 770) was a Chinese poet and politician during the   (linked in 4 civ(s) (e.g. early-medieval-europe) ×10)
+- **Sogdian** → REUSE `Sogdia` [high] — _Sogdia_: Sogdia () or Sogdiana was an ancient Iranian civilization between the Amu Darya and the Syr Darya rivers, and   (linked in 4 civ(s) (e.g. gokturk-khaganate) ×13)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Sassanid Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×5)
+- **Silla** → CROSS → `ancient-korea`  (cross-linked elsewhere ×3)
+- **Byzantine Empire** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×62)
+- *** Isaurian** → NO-PAGE → blurb (top hit "Isaurian" is a disambiguation page)
+- **Iconoclasm** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×1)
+- **Caliphate** → CROSS → `umayyad-caliphate`  (cross-linked elsewhere ×4)
+- **Nara period** → `Nara_period` [high] — _Nara period_: The Nara period (奈良時代, Nara jidai; Japanese pronunciation: [na.ɾa (d)ʑiꜜ.dai]) of the history of Japan covers the years 
+- **Unified Silla** → CROSS → `ancient-korea`  (cross-linked elsewhere ×1)
+
+## Chapter 6
+- **Empress Genmei** → `Empress_Genmei` [high] — _Empress Genmei_: Empress Genmei (元明天皇, Genmei-tennō; April 20, 660 – December 29, 721), also known as Empress Genmyō, was the 43rd monarc
+- **Empress Gensho** → `Empress_Genshō` [high] — _Empress Genshō_: Empress Genshō (元正天皇, Genshō-tennō; 680 – May 22, 748) was the 44th monarch of Japan, according to the traditional order
+- **Fuhito** → `Fujiwara_no_Fuhito` [high] — _Fujiwara no Fuhito_: Fujiwara no Fuhito (藤原 不比等: 659 – 13 September 720) was a powerful member of the Imperial court of Japan during the Asuk
+- **Heian Japan Ch** → CROSS → `heian-japan`  (matches a civ id)
+- **Eurasian** → REUSE `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and   (linked in 12 civ(s) (e.g. early-medieval-europe) ×41)
+- **Dazaifu** → REUSE `Dazaifu_(government)` [CONFIRM-homonym] — _Dazaifu (government)_: The Dazaifu (大宰府 or 太宰府) is a Japanese term for the regional government in Kyushu from the 8th to the 12th cen  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Dazaifu,_Fukuoka(yuan-dynasty))
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. edo-japan) ×18 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Honshu** → REUSE `Honshu` [high] — _Honshu_: Honshu (Japanese: 本州, Hepburn: Honshū; pronounced [hoꜜɰ̃.ɕɯː] ; lit. 'main province'), historically known as A  (linked in 4 civ(s) (e.g. heian-japan) ×14)
+- **Heijo-kyo** → REUSE `Heij%C5%8D-ky%C5%8D` [high] — _Heijō-kyō_: Heijō-kyō (平城京; also Heizei-kyō, sometimes Nara no miyako) was the Capital of Japan during most of the Nara pe  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×10)
+- **Nara-era** → `Nara_period` [med] — _Nara period_: The Nara period (奈良時代, Nara jidai; Japanese pronunciation: [na.ɾa (d)ʑiꜜ.dai]) of the history of Japan covers the years 
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Tang China** → CROSS → `ancient-china`  (cross-linked elsewhere ×12)
+- Central Asia → SKIP (modern locator, cat A)
+- **Genpei War** → REUSE `Genpei_War` [high] — _Genpei War_: The Genpei War (源平合戦, Genpei Kassen, Genpei-Gassen; 1180–1185) was a national civil war between the Taira and   (linked in 2 civ(s) (e.g. heian-japan) ×8)
+- **Heian-** → CROSS → `heian-japan`  (matches a civ id)
+- **Kamakura-** → `Kamakura` [high] — _Kamakura_: Kamakura (鎌倉, Kamakura; [ka̠ma̠kɯ̟ɾa̠] ), officially Kamakura City (鎌倉市, Kamakura-shi), is a city of Kanagawa Prefecture
+- **Eurasia** → REUSE `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and   (linked in 16 civ(s) (e.g. early-medieval-europe) ×100)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Silk Road** → CROSS → `ancient-china`  (cross-linked elsewhere ×15)
+- **Tang Chinese** → CROSS → `tang-song-china`  (cross-linked elsewhere ×3)
+- **Nanto Rokushu** → REUSE `Nanto_Rokush%C5%AB` [high] — _Nanto Rokushū_: The Six Schools of Nara Buddhism (六宗, Rokushū) were the principal academic traditions of Buddhism in Japan dur  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Asanga** → `Asanga` [high] — _Asanga_: Asaṅga (Sanskrit: असंग, Tibetan: ཐོགས་མེད།, Wylie: thogs med, traditional Chinese: 無著; ; pinyin: Wúzhuó; Romaji: Mujaku)
+- **Vasubandhu** → `Vasubandhu` [high] — _Vasubandhu_: Vasubandhu (traditional Chinese: 世親; ; pinyin: Shìqīn; Tibetan: དབྱིག་གཉེན་ Wylie: dbyig gnyen; fl. 4th to 5th century C
+- **Kofuku-ji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Yakushi-ji** → `Yakushi-ji` [high] — _Yakushi-ji_: Yakushi-ji (薬師寺) is one of the most famous imperial and ancient Buddhist temples in Japan, and was once one of the Seven
+- **Kusha** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Abhidharma** → REUSE `Abhidharma` [high] — _Abhidharma_: The Abhidharma (lit. "about the dharma") refers to a class of Buddhist texts, the first of which date from the  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Madhyamaka** → REUSE `Madhyamaka` [high] — _Madhyamaka_: Madhyamaka (Sanskrit: माध्यमक, romanized: Mādhyamika, lit. 'middle way; centrism'; Chinese: 中觀見; pinyin: Zhōng  (linked in 2 civ(s) (e.g. medieval-india) ×4)
+- **Nagarjuna** → CROSS → `post-maurya-kingdoms`  (cross-linked elsewhere ×1)
+- **Jojitsu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Avatamsaka Sutra** → REUSE `Avatamsaka_Sutra` [high] — _Buddhāvataṃsaka Sūtra_: The Buddhāvataṃsaka-nāma-mahā­vaipulya-sūtra (The Mahāvaipulya Sūtra named "Buddhāvataṃsaka") is one of the mo  (linked in 1 civ(s) (e.g. srivijaya) ×2)
+- **Pure Land** → REUSE `Pure_Land_Buddhism` [high] — _Pure Land Buddhism_: Pure Land Buddhism or the Pure Land School (Chinese: 淨土宗; pinyin: Jìngtǔzōng) is a broad branch of Mahayana Bu  (linked in 2 civ(s) (e.g. heian-japan) ×5)
+- **Nichiren** → REUSE `Nichiren_Buddhism` [high] — _Nichiren Buddhism_: Nichiren Buddhism (Japanese: 日蓮仏教, romanized: Nichiren bukkyō), also known as Hokkeshū (Japanese: 法華宗, meaning  (linked in 2 civ(s) (e.g. heian-japan) ×3)
+- **Mahayana** → REUSE `Mahayana` [high] — _Mahayana_: Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions,  (linked in 9 civ(s) (e.g. gupta-empire) ×20)
+- **Taiho Code** → REUSE `Taih%C5%8D_Code` [high] — _Taihō Code_: The Taihō Code or Code of Taihō (大宝律令, Taihō-ritsuryō) was an administrative reorganisation enacted in 703 in   (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Daisojo** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Jianzhen** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **South China Sea** → REUSE `South_China_Sea` [high] — _South China Sea_: The South China Sea is a marginal sea of the Western Pacific Ocean. It is bounded in the north by South China,  (linked in 4 civ(s) (e.g. han-dynasty) ×14)
+- **Kondo** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Manyoshu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Umayyad Mosque of Damascus** → REUSE `Umayyad_Mosque` [high] — _Umayyad Mosque_: The Umayyad Mosque (Arabic: ٱلْجَامِع ٱلْأُمَوِي, romanized: al-Jāmiʿ al-Umawī), also known as the Great Mosqu  (linked in 1 civ(s) (e.g. al-andalus) ×2)
+- **Abbey of Saint-Denis** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Paris** → REUSE `Paris` [CONFIRM-homonym] — _Paris_: Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area   (linked in 12 civ(s) (e.g. byzantine-empire) ×48 — ⚠ AMBIGUOUS: also University_of_Paris(gupta-empire), Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire))
+- **Frankish** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×13)
+- **Emperor Xuanzong** → REUSE `Emperor_Xuanzong_of_Tang` [high] — _Emperor Xuanzong of Tang_: Emperor Xuanzong of Tang ([ɕwǎn.tsʊ́ŋ]; 8 September 685 – 3 May 762), personal name Li Longji, was an emperor   (linked in 3 civ(s) (e.g. gokturk-khaganate) ×8)
+- **Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×8)
+- **Luoyang** → REUSE `Luoyang` [high] — _Luoyang_: Luoyang (simplified Chinese: 洛阳; traditional Chinese: 洛陽; pinyin: Luòyáng) is a city located in the confluence  (linked in 11 civ(s) (e.g. ancient-china) ×28)
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 4 civ(s) (e.g. gupta-empire) ×8)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×36)
+- *** Arab** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 7
+- Nara → SKIP (own-name, cat B)
+- **Kojiki** → REUSE `Kojiki` [high] — _Kojiki_: The Kojiki (古事記, "Records of Ancient Matters" or "An Account of Ancient Matters"), also sometimes read as Furu  (linked in 1 civ(s) (e.g. prehistoric-japan) ×4)
+- **Emperor Tenmu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Amaterasu** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×1)
+- **Emperor Jimmu** → REUSE `Emperor_Jimmu` [high] — _Emperor Jimmu_: Emperor Jimmu (神武天皇, Jinmu Tennō; Japanese pronunciation: [dʑiꜜm.mɯ (ten.noː), dʑim.mɯ ten.noꜜː]) was the lege  (linked in 2 civ(s) (e.g. meiji-japan) ×3)
+- **Empress Suiko** → REUSE `Empress_Suiko` [high] — _Empress Suiko_: Empress Suiko (推古天皇, Suiko-tennō) (554 – 15 April 628) was the 33rd monarch of Japan, and the country's first   (linked in 1 civ(s) (e.g. prehistoric-japan) ×1)
+- **Empress Jito** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mommu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Hebrew Bible** → REUSE `Hebrew_Bible` [high] — _Hebrew Bible_: The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ;   (linked in 13 civ(s) (e.g. ancient-israel) ×28)
+- Asuka → SKIP (own-name, cat B)
+- **Emishi** → REUSE `Emishi` [high] — _Emishi_: The Emishi, Ebisu or Ezo (蝦夷; Japanese pronunciation: [eꜜ.mʲi.ɕi, eꜜ.bʲi.sɯ, eꜜ.(d)zo]) were a group of people  (linked in 1 civ(s) (e.g. heian-japan) ×4)
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. edo-japan) ×18 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Taiho Code** → REUSE `Taih%C5%8D_Code` [high] — _Taihō Code_: The Taihō Code or Code of Taihō (大宝律令, Taihō-ritsuryō) was an administrative reorganisation enacted in 703 in   (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Hosso** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Empress Shotoku** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Heijo-kyo** → REUSE `Heij%C5%8D-ky%C5%8D` [high] — _Heijō-kyō_: Heijō-kyō (平城京; also Heizei-kyō, sometimes Nara no miyako) was the Capital of Japan during most of the Nara pe  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Shinto** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×1)
+- **Konin** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Meiji Constitution** → REUSE `Meiji_Constitution` [high] — _Meiji Constitution_: The Constitution of the Empire of Japan (Kyūjitai: 大日本帝國憲法; Shinjitai: 大日本帝国憲法, romanized: Dai-Nippon Teikoku   (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Emperor Kammu** → REUSE `Emperor_Kanmu` [high] — _Emperor Kanmu_: Emperor Kanmu (桓武天皇, Kammu-tennō; 735 – 9 April 806), or Kammu, was the 50th emperor of Japan, according to th  (linked in 1 civ(s) (e.g. heian-japan) ×1)
+- **Diamond Sutra** → REUSE `Diamond_Sutra` [high] — _Diamond Sutra_: The Diamond Sūtra (Sanskrit: Vajracchedikā Prajñāpāramitā Sūtra) is a Mahāyāna Buddhist sutra from the genre o  (linked in 5 civ(s) (e.g. ancient-korea) ×10)
+- **Dunhuang** → REUSE `Dunhuang` [high] — _Dunhuang_: Dunhuang () is a county-level city in northwestern Gansu Province, Western China. According to the 2010 Chines  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×10)
+- **Horyu-ji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Genbo** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Li Bai** → REUSE `Li_Bai` [high] — _Li Bai_: Li Bai (c. 701 – 762), also known by his courtesy name of Taibai, was a Chinese poet acclaimed as one of the b  (linked in 5 civ(s) (e.g. early-medieval-europe) ×10)
+- **Wang Wei** → REUSE `Wang_Wei_(8th-century_poet)` [high] — _Wang Wei_: Wang Wei (simplified Chinese: 王维; traditional Chinese: 王維; pinyin: Wáng Wéi; 699–761), courtesy name Mojie, wa  (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×8)
+- **Abbasid Caliphate** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×13)
+- Caliph → SKIP (generic common noun, cat C)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×36)
+- **Abbasid** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×17)
+- **Umayyad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×7)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- **Charlemagne** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×10)
+- **Frankish** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×13)
+- **Carolingian** → CROSS → `viking-age`  (cross-linked elsewhere ×7)
+- *** Anglo-Saxon** → CROSS → `anglo-saxon-england`  (matches a civ id)
+- **Beowulf** → REUSE `Beowulf` [high] — _Beowulf_: Beowulf ( ; Old English: Bēowulf [ˈbeːowuɫf]) is an Old English poem, an epic in the tradition of Germanic her  (linked in 3 civ(s) (e.g. anglo-saxon-england) ×6)
+
+## Chapter 8
+- **Heijo-kyo** → REUSE `Heij%C5%8D-ky%C5%8D` [high] — _Heijō-kyō_: Heijō-kyō (平城京; also Heizei-kyō, sometimes Nara no miyako) was the Capital of Japan during most of the Nara pe  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Dokyo Affair** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tang-modeled** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Nara → SKIP (own-name, cat B)
+- **Asuka-Nara** → CROSS → `asuka-nara-japan`  (matches a civ id)
+- **Yamato** → REUSE `Yamato_period` [CONFIRM-homonym] — _Yamato period_: The Yamato period (大和時代, Yamato-jidai) is the period of Japanese history when the imperial court ruled from mo  (linked in 1 civ(s) (e.g. heian-japan) ×2 — ⚠ AMBIGUOUS: also Yamato_Kingdom(prehistoric-japan))
+- **Baekje** → REUSE `Baekje` [high] — _Paekche_: Paekche or Baekje (Korean: 백제; Hanja: 百濟; RR: Baekje; MR: Paekche; pronounced [pɛk̚.tɕ͈e]) was a Korean kingdo  (linked in 3 civ(s) (e.g. ancient-korea) ×7)
+- **Honshu** → REUSE `Honshu` [high] — _Honshu_: Honshu (Japanese: 本州, Hepburn: Honshū; pronounced [hoꜜɰ̃.ɕɯː] ; lit. 'main province'), historically known as A  (linked in 4 civ(s) (e.g. heian-japan) ×14)
+- **Meiji Restoration** → CROSS → `meiji-japan`  (cross-linked elsewhere ×6)
+- **Tokyo** → REUSE `Tokyo` [high] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 5 civ(s) (e.g. heian-japan) ×10)
+- **Murasaki Shikibu** → REUSE `Murasaki_Shikibu` [high] — _Murasaki Shikibu_: Murasaki Shikibu (紫式部; [mɯ.ɾa.sa.kʲi ɕi̥.kiꜜ.bɯ, -ɕi̥ꜜ.kʲi-], c. 973 – c. 1014 or 1025), or Shijo (紫女; [ɕiꜜ.(d  (linked in 3 civ(s) (e.g. heian-japan) ×12)
+- **Genpei War** → REUSE `Genpei_War` [high] — _Genpei War_: The Genpei War (源平合戦, Genpei Kassen, Genpei-Gassen; 1180–1185) was a national civil war between the Taira and   (linked in 2 civ(s) (e.g. heian-japan) ×8)
+- **Heian Japan** → CROSS → `heian-japan`  (matches a civ id)
+- **Hokkaido** → REUSE `Hokkaido` [high] — _Hokkaido_: Hokkaido is the second-largest and northernmost of Japan's four main islands. Together with its surrounding is  (linked in 4 civ(s) (e.g. edo-japan) ×8)
+- **Northern Fujiwara** → REUSE `Northern_Fujiwara` [high] — _Northern Fujiwara_: The Northern Fujiwara (Japanese: 奥州藤原氏, Hepburn: Ōshū Fujiwara-shi) were a Japanese noble family that ruled th  (linked in 1 civ(s) (e.g. heian-japan) ×4)
+- Asuka → SKIP (own-name, cat B)
+- **Kamakura** → REUSE `Kamakura_shogunate` [CONFIRM-homonym] — _Kamakura shogunate_: The Kamakura shogunate (Japanese: 鎌倉幕府, Hepburn: Kamakura bakufu) was the feudal military government of Japan   (linked in 3 civ(s) (e.g. delhi-sultanate) ×10 — ⚠ AMBIGUOUS: also Kamakura(heian-japan), Kamakura_period(heian-japan))
+- **Tokugawa** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Meiji** → CROSS → `meiji-japan`  (cross-linked elsewhere ×2)
+- **Kojiki** → REUSE `Kojiki` [high] — _Kojiki_: The Kojiki (古事記, "Records of Ancient Matters" or "An Account of Ancient Matters"), also sometimes read as Furu  (linked in 1 civ(s) (e.g. prehistoric-japan) ×4)
+- **Nihon Shoki** → REUSE `Nihon_Shoki` [high] — _Nihon Shoki_: The Nihon Shoki (日本書紀) or Nihongi (日本紀), sometimes translated as The Chronicles of Japan, is the second-oldest  (linked in 1 civ(s) (e.g. prehistoric-japan) ×2)
+- **Tendai** → REUSE `Tendai` [high] — _Tendai_: Tendai (天台宗, Tendai-shū), also known as the Tendai Dharma Flower School (天台法華宗, Tendai hokke shū, sometimes ju  (linked in 2 civ(s) (e.g. heian-japan) ×6)
+- **Shingon** → REUSE `Shingon_Buddhism` [high] — _Shingon Buddhism_: Shingon (真言宗, Shingon-shū; "True Word/Mantra School") is one of the major schools of Buddhism in Japan and one  (linked in 2 civ(s) (e.g. heian-japan) ×6)
+- **Pure Land** → REUSE `Pure_Land_Buddhism` [high] — _Pure Land Buddhism_: Pure Land Buddhism or the Pure Land School (Chinese: 淨土宗; pinyin: Jìngtǔzōng) is a broad branch of Mahayana Bu  (linked in 2 civ(s) (e.g. heian-japan) ×5)
+- **Nichiren** → REUSE `Nichiren_Buddhism` [high] — _Nichiren Buddhism_: Nichiren Buddhism (Japanese: 日蓮仏教, romanized: Nichiren bukkyō), also known as Hokkeshū (Japanese: 法華宗, meaning  (linked in 2 civ(s) (e.g. heian-japan) ×3)
+- **Horyu-ji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kofuku-ji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Yakushi-ji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Toshodai-ji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Taika Reform** → CROSS → `heian-japan`  (cross-linked elsewhere ×1)
+- **Manyoshu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kokin Wakashu** → REUSE `Kokin_Wakashū` [high] — _Kokin Wakashū_: The Kokin Wakashū (古今和歌集; 'Collection of Japanese Poems of Ancient and Modern Times'), commonly abbreviated as  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Soga** → REUSE `Soga_clan` [high] — _Soga clan_: The Soga clan (Japanese: 蘇我氏, Hepburn: Soga-shi) was one of the most powerful aristocratic kin groups (uji) of  (linked in 2 civ(s) (e.g. heian-japan) ×2)
+- **Silk Road** → CROSS → `ancient-china`  (cross-linked elsewhere ×15)
+- **Carolingian** → CROSS → `viking-age`  (cross-linked elsewhere ×7)
+- **Abbasid Caliphate** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×13)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×36)
+- *** Eurasian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- **Tang China** → CROSS → `ancient-china`  (cross-linked elsewhere ×12)
+- **Tang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×14)
+- **Unified Silla** → CROSS → `ancient-korea`  (cross-linked elsewhere ×1)
+- **Persian Gulf** → CROSS → `safavid-persia`  (cross-linked elsewhere ×13)
+- **Viking Age** → CROSS → `viking-age`  (cross-linked elsewhere ×19)
+- *** Scandinavian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Maya** → CROSS → `maya-civilization`  (cross-linked elsewhere ×13)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×20)
+- **Wari** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×8)
+- **Tiwanaku** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×7)
+- *** Eurasia** → NO-PAGE → blurb (no confident Wikipedia page found)
