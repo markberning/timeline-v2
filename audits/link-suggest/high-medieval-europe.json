@@ -9,7 +9,8 @@
     "title": "Middle Ages",
     "lead": "In the history of Europe, the Middle Ages or medieval period lasted approximately from the 5th to late 15th centuries, comparable with the post-classical period of global history. The medieval period is the middle epoch of the three traditi",
     "conf": "high",
-    "why": "linked in byzantine-empire ×9"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. byzantine-empire) ×9"
   },
   {
     "chapter": 1,
@@ -21,7 +22,8 @@
     "title": "Antioch",
     "lead": "Antioch was a city located in northern Syria at the site of modern Antakya, Turkey. Founded in 300 BC, Antioch became one of the most important cities of the ancient eastern Mediterranean. The capital of the Hellenistic Seleucid Empire, it ",
     "conf": "high",
-    "why": "linked in ancient-greece ×18"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. ancient-greece) ×18"
   },
   {
     "chapter": 1,
@@ -33,7 +35,8 @@
     "title": "Alexandria",
     "lead": "Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km (25 mi) along the country's northern coast. It is Egypt's principal seaport, the second largest city after Cairo, and the largest",
     "conf": "high",
-    "why": "linked in ancient-greece ×26"
+    "sourceCivs": 10,
+    "why": "linked in 10 civ(s) (e.g. ancient-greece) ×26"
   },
   {
     "chapter": 1,
@@ -43,7 +46,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×22"
+    "why": "cross-linked elsewhere ×24"
   },
   {
     "chapter": 1,
@@ -75,7 +78,8 @@
     "title": "Crusades",
     "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 1,
@@ -109,7 +113,8 @@
     "title": "Duchy of Normandy",
     "lead": "The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 until 1204, as a result of the No",
     "conf": "CONFIRM-homonym",
-    "why": "linked in kievan-rus ×2 — ⚠ AMBIGUOUS: also Normandy(viking-age)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. kievan-rus) ×2 — ⚠ AMBIGUOUS: also Normandy(viking-age)",
     "alts": [
       "Normandy(viking-age)"
     ]
@@ -134,7 +139,8 @@
     "title": "Yorkshire",
     "lead": "Yorkshire ( YORK-shər, -⁠sheer) is an area of Northern England which was historically a county. Despite no longer being used for administration, Yorkshire retains a strong regional identity. The county was named after the city of York. The ",
     "conf": "high",
-    "why": "linked in viking-age ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. viking-age) ×2"
   },
   {
     "chapter": 1,
@@ -186,7 +192,8 @@
     "title": "Elbe",
     "lead": "The Elbe (Czech: Labe) is one of the major rivers of Central Europe. It rises in the Giant Mountains of the northern Czech Republic before traversing much of Bohemia (western half of the Czech Republic), then Germany before flowing into the",
     "conf": "high",
-    "why": "linked in early-medieval-europe ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. early-medieval-europe) ×4"
   },
   {
     "chapter": 1,
@@ -198,7 +205,8 @@
     "title": "Iberian Peninsula",
     "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
     "conf": "high",
-    "why": "linked in carthage ×6"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. carthage) ×6"
   },
   {
     "chapter": 1,
@@ -218,7 +226,7 @@
     "decision": "CROSS",
     "targetTl": "islamic-golden-age",
     "conf": "high",
-    "why": "cross-linked elsewhere ×10"
+    "why": "cross-linked elsewhere ×14"
   },
   {
     "chapter": 1,
@@ -240,7 +248,8 @@
     "title": "Milan",
     "lead": "Milan (Italian: Milano) is the regional capital of Lombardy, in northern Italy, and the seat of the Metropolitan City of Milan. It is the second-most populous city in Italy after Rome, with a population of 1,362,863 in 2026. The city's wide",
     "conf": "CONFIRM-homonym",
-    "why": "linked in celtic-cultures ×16 — ⚠ AMBIGUOUS: also Duchy_of_Milan(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. celtic-cultures) ×16 — ⚠ AMBIGUOUS: also Duchy_of_Milan(late-medieval-europe)",
     "alts": [
       "Duchy_of_Milan(late-medieval-europe)"
     ]
@@ -255,7 +264,8 @@
     "title": "Florence",
     "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 362,353 inhabitants as of 2025. It is also the capital of the eponymous metropolitan province, which counts 989,460 inhabitants. Floren",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×19 — ⚠ AMBIGUOUS: also Republic_of_Florence(indus-valley)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×19 — ⚠ AMBIGUOUS: also Republic_of_Florence(indus-valley)",
     "alts": [
       "Republic_of_Florence(indus-valley)"
     ]
@@ -270,7 +280,8 @@
     "title": "Genoa",
     "lead": "Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301 people live within the city's administrative limits. While its metropolitan city has 818,629 inhabitants, more than 1.5 million p",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ottoman-empire ×8 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. mongol-empire) ×14 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
     "alts": [
       "Republic_of_Genoa(late-medieval-europe)"
     ]
@@ -295,7 +306,8 @@
     "title": "Lübeck",
     "lead": "Lübeck (German: [ˈlyːbɛk] ; Low German: Lübęk or Lübeek [ˈlyːbeːk]; Latin: Lubeca), officially the Hanseatic City of Lübeck (German: Hansestadt Lübeck), is a city in Northern Germany. With around 220,000 inhabitants, it is the second-larges",
     "conf": "high",
-    "why": "linked in renaissance-italy ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×2"
   },
   {
     "chapter": 1,
@@ -307,7 +319,8 @@
     "title": "Hamburg",
     "lead": "Hamburg, officially the Free and Hanseatic City of Hamburg, is the second-largest city in Germany after Berlin and seventh-largest city in the European Union, with a population of over 1.9 million. The Hamburg Metropolitan Region has a popu",
     "conf": "high",
-    "why": "linked in renaissance-italy ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×2"
   },
   {
     "chapter": 1,
@@ -319,7 +332,8 @@
     "title": "Augsburg",
     "lead": "Augsburg (UK: OWGZ-burg, also US: AWGZ-; German: [ˈaʊksbʊʁk] ; Swabian German: Ougschburg) is a city in the Bavarian part of Swabia, Germany, around 50 kilometres (31 mi) west of the Bavarian capital Munich. It is a university town and the ",
     "conf": "high",
-    "why": "linked in early-medieval-europe ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. early-medieval-europe) ×2"
   },
   {
     "chapter": 1,
@@ -331,7 +345,8 @@
     "title": "Bruges",
     "lead": "Bruges ( BROOZH, French: [bʁyʒ] ; Dutch: Brugge [ˈbrʏɣə] ; West Flemish: Brugge [ˈbrœɦə]) is the capital and largest city of the province of West Flanders, in the Flemish Region of Belgium. It is located in the northwest of the country, and",
     "conf": "high",
-    "why": "linked in renaissance-italy ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×2"
   },
   {
     "chapter": 1,
@@ -343,7 +358,8 @@
     "title": "Cairo",
     "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
     "conf": "high",
-    "why": "linked in ancient-nubia ×38"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. ancient-nubia) ×40"
   },
   {
     "chapter": 1,
@@ -395,7 +411,8 @@
     "title": "Bay of Bengal",
     "lead": "The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and the Indochinese peninsula, south of the Bengal region. Spread across an area of 2,600,000 km2 (1,000,000 sq mi), it is bordered b",
     "conf": "high",
-    "why": "linked in maurya-empire ×11"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. maurya-empire) ×11"
   },
   {
     "chapter": 1,
@@ -416,7 +433,8 @@
     "title": "Romanesque architecture",
     "lead": "Romanesque architecture is an architectural style of medieval Europe that was predominant in the 11th and 12th centuries. The style eventually developed into the Gothic style with the shape of the arches providing a simple distinction: the ",
     "conf": "high",
-    "why": "linked in medieval-india ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. medieval-india) ×2"
   },
   {
     "chapter": 1,
@@ -447,7 +465,8 @@
     "title": "Yucatán Peninsula",
     "lead": "The Yucatán Peninsula ( YOO-kə-TA(H)N, UK also YUU-; Spanish: Península de Yucatán [peˈninsula ðe ʝukaˈtan]) is a large peninsula in southeast Mexico and adjacent portions of Belize and Guatemala. The peninsula extends towards the northeast",
     "conf": "CONFIRM-homonym",
-    "why": "linked in mississippian-culture ×2 — ⚠ AMBIGUOUS: also Yucatán_Peninsula(zapotec-civilization)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mississippian-culture) ×2 — ⚠ AMBIGUOUS: also Yucatán_Peninsula(zapotec-civilization)",
     "alts": [
       "Yucatán_Peninsula(zapotec-civilization)"
     ]
@@ -462,7 +481,8 @@
     "title": "Chichen Itza",
     "lead": "Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán, Mexico. Chichen Itza was a major focal point in the Northern Maya Lowland",
     "conf": "high",
-    "why": "linked in maya-civilization ×5"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. maya-civilization) ×5"
   },
   {
     "chapter": 1,
@@ -474,7 +494,8 @@
     "title": "Mayapan",
     "lead": "Mayapan (Màyapáan in Modern Maya; in Spanish Mayapán) is a Pre-Columbian Maya site a couple of kilometers south of the town of Telchaquillo in Tecoh Municipality, approximately 40 km south-east of Mérida and 100 km west of Chichen Itza; in ",
     "conf": "high",
-    "why": "linked in maya-civilization ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. maya-civilization) ×4"
   },
   {
     "chapter": 1,
@@ -496,7 +517,8 @@
     "title": "Peru",
     "lead": "Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by Ecuador and Colombia, to the east by Brazil, to the southeast by Bolivia, to the south by Chile, and to the south and west by the P",
     "conf": "high",
-    "why": "linked in andean-kingdoms ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. andean-kingdoms) ×8"
   },
   {
     "chapter": 1,
@@ -508,7 +530,8 @@
     "title": "Chimor",
     "lead": "Chimor (also Kingdom of Chimor or Chimú Empire) was the political grouping of the Chimú culture (Spanish pronunciation: [tʃiˈmu]). The culture arose about 900 CE, succeeding the Moche culture, and was later conquered by the Inca emperor Top",
     "conf": "CONFIRM-homonym",
-    "why": "linked in inca-empire ×2 — ⚠ AMBIGUOUS: also Chim%C3%BA_culture(middle-horizon-empires), Chimor(yuan-dynasty)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. inca-empire) ×3 — ⚠ AMBIGUOUS: also Chim%C3%BA_culture(middle-horizon-empires), Chimor(yuan-dynasty)",
     "alts": [
       "Chim%C3%BA_culture(middle-horizon-empires)",
       "Chimor(yuan-dynasty)"
@@ -529,12 +552,13 @@
     "term": "Islamic world",
     "signals": "bold",
     "suggest": "event/glossary",
-    "decision": "LINK-CANDIDATE",
-    "slug": "Islamic_world",
+    "decision": "REUSE",
+    "slug": "Muslim_world",
     "title": "Islamic world",
     "lead": "The terms Islamic world and Muslim world commonly refer to the Islamic community, which is also known as the Ummah. This consists of all those who adhere to the religious beliefs, politics, and laws of Islam or to societies in which Islam i",
     "conf": "high",
-    "why": "same name"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×2"
   },
   {
     "chapter": 2,
@@ -546,7 +570,8 @@
     "title": "Crusades",
     "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 2,
@@ -588,7 +613,8 @@
     "title": "Burgundy",
     "lead": "Burgundy ( BUR-gən-dee; French: Bourgogne [buʁɡɔɲ] ; Burgundian: Bregogne) is a historical region in France, broadly corresponding to the territory of the former administrative region of the same name, which existed from 1982 to 2015 and wa",
     "conf": "CONFIRM-homonym",
-    "why": "linked in celtic-cultures ×6 — ⚠ AMBIGUOUS: also Duchy_of_Burgundy(late-medieval-europe)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. celtic-cultures) ×6 — ⚠ AMBIGUOUS: also Duchy_of_Burgundy(late-medieval-europe)",
     "alts": [
       "Duchy_of_Burgundy(late-medieval-europe)"
     ]
@@ -625,7 +651,8 @@
     "title": "Milan",
     "lead": "Milan (Italian: Milano) is the regional capital of Lombardy, in northern Italy, and the seat of the Metropolitan City of Milan. It is the second-most populous city in Italy after Rome, with a population of 1,362,863 in 2026. The city's wide",
     "conf": "CONFIRM-homonym",
-    "why": "linked in celtic-cultures ×16 — ⚠ AMBIGUOUS: also Duchy_of_Milan(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. celtic-cultures) ×16 — ⚠ AMBIGUOUS: also Duchy_of_Milan(late-medieval-europe)",
     "alts": [
       "Duchy_of_Milan(late-medieval-europe)"
     ]
@@ -640,7 +667,8 @@
     "title": "Alps",
     "lead": "The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,200 km (750 mi) across several Alpine countries (from west to east): Monaco, France, Switzerland, Italy, Liechtenstein, Germany, Au",
     "conf": "high",
-    "why": "linked in ancient-rome ×12"
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. ancient-rome) ×12"
   },
   {
     "chapter": 2,
@@ -664,7 +692,8 @@
     "title": "Humbert of Silva Candida",
     "lead": "Humbert of Silva Candida, O.S.B., also known as Humbert of Moyenmoutier (c. 1000 to 1015 – 5 May 1061) was a French Benedictine abbot and later cardinal. It was his act of excommunicating the Patriarch of Constantinople, Michael I Cerulariu",
     "conf": "high",
-    "why": "linked in byzantine-empire ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×2"
   },
   {
     "chapter": 2,
@@ -674,7 +703,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×22"
+    "why": "cross-linked elsewhere ×24"
   },
   {
     "chapter": 2,
@@ -686,7 +715,8 @@
     "title": "Nicene Creed",
     "lead": "The Nicene Creed is the defining statement of belief of Nicene Christianity and in those Christian denominations that adhere to it. The original Nicene Creed was first adopted at the First Council of Nicaea in 325. According to the traditio",
     "conf": "high",
-    "why": "linked in ancient-rome ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. ancient-rome) ×12"
   },
   {
     "chapter": 2,
@@ -698,7 +728,8 @@
     "title": "Anatolia",
     "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
     "conf": "high",
-    "why": "linked in ancient-korea ×109"
+    "sourceCivs": 21,
+    "why": "linked in 21 civ(s) (e.g. ancient-korea) ×113"
   },
   {
     "chapter": 2,
@@ -710,7 +741,8 @@
     "title": "Turkic peoples",
     "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
     "conf": "high",
-    "why": "linked in byzantine-empire ×41"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. byzantine-empire) ×45"
   },
   {
     "chapter": 2,
@@ -722,7 +754,8 @@
     "title": "Toledo, Spain",
     "lead": "Toledo (UK: tol-AY-doh; Spanish: [toˈleðo] ) is a city and municipality in Spain. It is the capital of the province of Toledo and the de jure seat of the government and parliament of the autonomous community of Castilla–La Mancha. Toledo is",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 2,
@@ -732,7 +765,7 @@
     "decision": "CROSS",
     "targetTl": "tang-song-china",
     "conf": "high",
-    "why": "cross-linked elsewhere ×3"
+    "why": "cross-linked elsewhere ×4"
   },
   {
     "chapter": 2,
@@ -744,7 +777,8 @@
     "title": "Wang Anshi",
     "lead": "Wang Anshi ([wǎŋ ánʂɨ̌]; Chinese: 王安石; December 8, 1021 – May 21, 1086), courtesy name Jiefu (Chinese: 介甫), was a Chinese economist, philosopher, poet, and politician during the Song dynasty. He served as chancellor and attempted major and ",
     "conf": "high",
-    "why": "linked in tang-song-china ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. tang-song-china) ×2"
   },
   {
     "chapter": 2,
@@ -766,7 +800,8 @@
     "title": "Bay of Bengal",
     "lead": "The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and the Indochinese peninsula, south of the Bengal region. Spread across an area of 2,600,000 km2 (1,000,000 sq mi), it is bordered b",
     "conf": "high",
-    "why": "linked in maurya-empire ×11"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. maurya-empire) ×11"
   },
   {
     "chapter": 2,
@@ -778,7 +813,8 @@
     "title": "John, King of England",
     "lead": "John (Christmastide 1166/7 – 19 October 1216) was King of England from 1199 until his death in 1216. He lost the Duchy of Normandy and most of his other French lands to King Philip II of France, resulting in the collapse of the Angevin Empi",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×3"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. delhi-sultanate) ×3"
   },
   {
     "chapter": 2,
@@ -790,7 +826,8 @@
     "title": "Albigensian Crusade",
     "lead": "The Albigensian Crusade (French: Croisade des albigeois), also known as the Cathar Crusade (1209–1229), was a military and ideological campaign initiated by Pope Innocent III to eliminate Catharism in Languedoc, what is now southern France.",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. delhi-sultanate) ×2"
   },
   {
     "chapter": 2,
@@ -811,7 +848,8 @@
     "title": "Holy Land",
     "lead": "The term \"Holy Land\" is used to collectively denote areas of the Southern Levant that hold great significance in the Abrahamic religions, primarily because of their association with people and events featured in the Bible. It is traditional",
     "conf": "high",
-    "why": "linked in byzantine-empire ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 3,
@@ -823,7 +861,8 @@
     "title": "Seljuk Empire",
     "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval, Turko-Persian empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 million square kil",
     "conf": "high",
-    "why": "linked in byzantine-empire ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 3,
@@ -835,7 +874,8 @@
     "title": "Turkic peoples",
     "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
     "conf": "high",
-    "why": "linked in byzantine-empire ×41"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. byzantine-empire) ×45"
   },
   {
     "chapter": 3,
@@ -847,7 +887,8 @@
     "title": "Seljuk Empire",
     "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval, Turko-Persian empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 million square kil",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×12 — ⚠ AMBIGUOUS: also Seljuk_dynasty(byzantine-empire)",
+    "sourceCivs": 7,
+    "why": "linked in 7 civ(s) (e.g. byzantine-empire) ×12 — ⚠ AMBIGUOUS: also Seljuk_dynasty(byzantine-empire)",
     "alts": [
       "Seljuk_dynasty(byzantine-empire)"
     ]
@@ -862,7 +903,8 @@
     "title": "Levant",
     "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
     "conf": "high",
-    "why": "linked in ancient-nubia ×47"
+    "sourceCivs": 21,
+    "why": "linked in 21 civ(s) (e.g. ancient-nubia) ×49"
   },
   {
     "chapter": 3,
@@ -884,7 +926,8 @@
     "title": "Fatimid Caliphate",
     "lead": "The Fatimid Caliphate (; Arabic: الخلافة الفاطمیّة, romanized: al-Khilāfa al-Fāṭimiyya), also known as the Fatimid Empire, was a caliphate that existed from the tenth to the twelfth centuries CE under the rule of the Fatimids, an Isma'ili S",
     "conf": "high",
-    "why": "linked in al-andalus ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. al-andalus) ×2"
   },
   {
     "chapter": 3,
@@ -925,12 +968,13 @@
     "term": "Christians",
     "signals": "recur×3",
     "suggest": "?",
-    "decision": "LINK-CANDIDATE",
-    "slug": "Christians",
-    "title": "Christians",
-    "lead": "A Christian ( ) is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life and teachings of Jesus Christ. Christians form the largest religious community in the world. The words Christ and Christ",
+    "decision": "REUSE",
+    "slug": "Christianity",
+    "title": "Christianity",
+    "lead": "Christianity is an Abrahamic monotheistic religion based on the Bible and the teachings of Jesus. The Gospels state that Jesus is the Son of God and rose from the dead after his crucifixion, whose coming as the messiah (Christ) was prophesi",
     "conf": "high",
-    "why": "same name"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×2"
   },
   {
     "chapter": 3,
@@ -952,7 +996,8 @@
     "title": "Bosporus",
     "lead": "The Bosporus or Bosphorus Strait is a natural strait and an internationally significant waterway located in Turkey which is straddled by the city of Istanbul. The Bosporus connects the Black Sea to the Sea of Marmara and forms one of the co",
     "conf": "high",
-    "why": "linked in ancient-rome ×30"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. ancient-rome) ×30"
   },
   {
     "chapter": 3,
@@ -986,7 +1031,8 @@
     "title": "Worms, Germany",
     "lead": "Worms (; German pronunciation: [vɔʁms] ) is a city in Rhineland-Palatinate, Germany, situated on the Upper Rhine about 60 km (40 mi) south-southwest of Frankfurt am Main. It had about 84,646 inhabitants as of 2022. A pre-Roman foundation, W",
     "conf": "high",
-    "why": "linked in migration-period ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. migration-period) ×2"
   },
   {
     "chapter": 3,
@@ -996,7 +1042,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×5"
+    "why": "cross-linked elsewhere ×6"
   },
   {
     "chapter": 3,
@@ -1008,7 +1054,8 @@
     "title": "Raymond IV, Count of Toulouse",
     "lead": "Raymond of Saint-Gilles (c. 1041 – 28 February 1105), also called Raymond IV of Toulouse or Raymond I of Tripoli, was the count of Toulouse, duke of Narbonne, and margrave of Provence from 1094, and one of the leaders of the First Crusade f",
     "conf": "high",
-    "why": "linked in byzantine-empire ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×1"
   },
   {
     "chapter": 3,
@@ -1029,19 +1076,21 @@
     "title": "Anatolia",
     "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
     "conf": "high",
-    "why": "linked in ancient-korea ×109"
+    "sourceCivs": 21,
+    "why": "linked in 21 civ(s) (e.g. ancient-korea) ×113"
   },
   {
     "chapter": 3,
     "term": "Muslims",
     "signals": "recur×4",
     "suggest": "?",
-    "decision": "LINK-CANDIDATE",
+    "decision": "REUSE",
     "slug": "Muslims",
     "title": "Muslims",
     "lead": "Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monotheistic religion belonging to the Abrahamic tradition. They consider the Quran, the foundational religious text of Islam, ",
     "conf": "high",
-    "why": "same name"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×4"
   },
   {
     "chapter": 3,
@@ -1053,7 +1102,8 @@
     "title": "County of Tripoli",
     "lead": "The County of Tripoli (1102–1289) was one of the Crusader states. It was founded in the Levant in the modern-day region of Tripoli, northern Lebanon and parts of northwestern Syria. When the Frankish Crusaders, mostly southern French forces",
     "conf": "high",
-    "why": "linked in byzantine-empire ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. byzantine-empire) ×4"
   },
   {
     "chapter": 3,
@@ -1065,7 +1115,8 @@
     "title": "Genoa",
     "lead": "Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301 people live within the city's administrative limits. While its metropolitan city has 818,629 inhabitants, more than 1.5 million p",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ottoman-empire ×8 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. mongol-empire) ×14 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
     "alts": [
       "Republic_of_Genoa(late-medieval-europe)"
     ]
@@ -1080,7 +1131,8 @@
     "title": "Pisa",
     "lead": "Pisa ( PEE-zə; Italian: [ˈpiːza] or [ˈpiːsa]) is a city and comune (municipality) in Tuscany, Central Italy, straddling the Arno just before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is ",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×10"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×10"
   },
   {
     "chapter": 3,
@@ -1114,7 +1166,8 @@
     "title": "Galilee",
     "lead": "Galilee (; Hebrew: הַגָּלִיל, romanized: hag-Gālīl; Ancient Greek: Galilaia, lit. 'Γαλιλαία'; Latin: Galilaea; Arabic: الجليل, romanized: al-Jalīl) is a region located in northern Israel and southern Lebanon consisting of two parts: the Upp",
     "conf": "high",
-    "why": "linked in ancient-israel ×6"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. ancient-israel) ×6"
   },
   {
     "chapter": 3,
@@ -1126,7 +1179,8 @@
     "title": "Church of the Holy Sepulchre",
     "lead": "The Church of the Holy Sepulchre, also known as the Church of the Resurrection, is a fourth-century church in the Christian Quarter of the Old City of Jerusalem. The church is simultaneously the seat of the Armenian Patriarchate of Jerusale",
     "conf": "high",
-    "why": "linked in umayyad-caliphate ×4"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. umayyad-caliphate) ×4"
   },
   {
     "chapter": 3,
@@ -1150,7 +1204,8 @@
     "title": "Pope Innocent III",
     "lead": "Pope Innocent III (Latin: Innocentius III; born Lotario de' Conti di Segni; 22 February 1161 – 16 July 1216) was the head of the Catholic Church and sovereign of the Papal States from 8 January 1198 until his death in 1216. Pope Innocent wa",
     "conf": "high",
-    "why": "linked in byzantine-empire ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. byzantine-empire) ×4"
   },
   {
     "chapter": 3,
@@ -1162,7 +1217,8 @@
     "title": "Adriatic Sea",
     "lead": "The Adriatic Sea () is a body of water separating the Italian Peninsula from the Balkan Peninsula. The Adriatic is the northernmost arm of the Mediterranean Sea, extending from the Strait of Otranto (where it connects to the Ionian Sea) to ",
     "conf": "high",
-    "why": "linked in byzantine-empire ×7"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 3,
@@ -1174,7 +1230,8 @@
     "title": "Zadar",
     "lead": "Zadar (US: ZAH-dar, Croatian: [zâdar] ), historically known as Zara (from Venetian and Italian, pronounced [ˈdzaːra]; see also other names), is the oldest continuously inhabited city in Croatia. It is situated on the Adriatic Sea, at the no",
     "conf": "high",
-    "why": "linked in byzantine-empire ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×1"
   },
   {
     "chapter": 3,
@@ -1195,7 +1252,8 @@
     "title": "Alexios IV Angelos",
     "lead": "Alexios IV Angelos (Greek: Ἀλέξιος Ἄγγελος, romanized: Aléxios Ángelos; c. 1182 – February 1204), Latinized as Alexius IV Angelus, was Byzantine Emperor from August 1203 to January 1204.",
     "conf": "high",
-    "why": "linked in byzantine-empire ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×2"
   },
   {
     "chapter": 3,
@@ -1207,7 +1265,8 @@
     "title": "Eastern Orthodox Church",
     "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches that adh",
     "conf": "high",
-    "why": "linked in al-andalus ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. al-andalus) ×1"
   },
   {
     "chapter": 3,
@@ -1229,7 +1288,8 @@
     "title": "Hippodrome of Constantinople",
     "lead": "The Hippodrome of Constantinople (Greek: Ἱππόδρομος τῆς Κωνσταντινουπόλεως, romanized: Hippódromos tēs Kōnstantinoupóleōs; Latin: Circus Maximus Constantinopolitanus; Turkish: Hipodrom) was a circus that was the sporting and social centre o",
     "conf": "high",
-    "why": "linked in byzantine-empire ×7"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. byzantine-empire) ×7"
   },
   {
     "chapter": 3,
@@ -1251,7 +1311,8 @@
     "title": "Nicaea",
     "lead": "Nicaea (also spelled Nicæa or Nicea, ny-SEE-ə; Latin: [niːˈkae̯.a]), also known as Nikaia (Ancient Greek: Νίκαια, Attic: [nǐːkai̯a], Koine: [ˈnikεa]) or Nice ( or ), was an ancient Greek city in the northwestern Anatolian region of Bithynia",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×8 — ⚠ AMBIGUOUS: also First_Council_of_Nicaea(byzantine-empire)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. byzantine-empire) ×8 — ⚠ AMBIGUOUS: also First_Council_of_Nicaea(byzantine-empire)",
     "alts": [
       "First_Council_of_Nicaea(byzantine-empire)"
     ]
@@ -1288,7 +1349,8 @@
     "title": "Basilica of Saint-Denis",
     "lead": "The Basilica of Saint-Denis (French: basilique royale Saint-Denis; now formally known as the basilique cathédrale Saint-Denis) is a Roman Catholic cathedral that originated as a medieval abbey church. It is located in the commune of Saint-D",
     "conf": "high",
-    "why": "linked in medieval-india ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. medieval-india) ×1"
   },
   {
     "chapter": 3,
@@ -1300,7 +1362,8 @@
     "title": "Cairo",
     "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
     "conf": "high",
-    "why": "linked in ancient-nubia ×38"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. ancient-nubia) ×40"
   },
   {
     "chapter": 3,
@@ -1312,7 +1375,8 @@
     "title": "Paris",
     "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
     "alts": [
       "Paris_(mythology)(mycenaean-civilization)",
       "Battle_of_Paris_(1814)(russian-empire)"
@@ -1338,7 +1402,8 @@
     "title": "Galen",
     "lead": "Aelius Galenus or Claudius Galenus (Greek: Κλαύδιος Γαληνός; September 129 – c. 216 CE), often anglicized as Galen () or Galen of Pergamon, was a Roman and Greek physician, surgeon, and philosopher. Considered to be one of the most accompli",
     "conf": "high",
-    "why": "linked in al-andalus ×14"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. al-andalus) ×14"
   },
   {
     "chapter": 3,
@@ -1350,7 +1415,8 @@
     "title": "Euclid",
     "lead": "Euclid (; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of g",
     "conf": "high",
-    "why": "linked in al-andalus ×14"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. al-andalus) ×14"
   },
   {
     "chapter": 3,
@@ -1362,7 +1428,8 @@
     "title": "Toledo, Spain",
     "lead": "Toledo (UK: tol-AY-doh; Spanish: [toˈleðo] ) is a city and municipality in Spain. It is the capital of the province of Toledo and the de jure seat of the government and parliament of the autonomous community of Castilla–La Mancha. Toledo is",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 3,
@@ -1374,7 +1441,8 @@
     "title": "Arabic",
     "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ancient-nubia ×45 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
+    "sourceCivs": 11,
+    "why": "linked in 11 civ(s) (e.g. ancient-nubia) ×51 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
     "alts": [
       "Arabic_language(mughal-empire)"
     ]
@@ -1394,9 +1462,9 @@
     "signals": "bold",
     "suggest": "event/glossary",
     "decision": "LINK-CANDIDATE",
-    "slug": "Battle_of_Nasa_(1035)",
-    "title": "Battle of Nasa (1035)",
-    "lead": "The Battle of Nasa took place between the Seljuk Turks and the Ghaznavid Empire following the death of the former leader of the Seljuks, Israil. In 1016, Chagri Beg, son of Israil, led an incursion into eastern Anatolia, he defeated Armenia",
+    "slug": "Ahmad_Sanjar",
+    "title": "Ahmad Sanjar",
+    "lead": "Ahmad Sanjar (Persian: احمد سنجر; full name: Muizz ad-Dunya wa ad-Din Adud ad-Dawlah Abul-Harith Ahmad Sanjar ibn Malik-Shah) (6 November 1086 – 8 May 1157) was the Seljuq ruler of Khorasan from 1097 until 1118, when he became the Sultan of",
     "conf": "low",
     "why": "top hit (low confidence)"
   },
@@ -1410,7 +1478,8 @@
     "title": "Rhineland massacres",
     "lead": "The Rhineland massacres, also known as the German Crusade of 1096 (Hebrew: גזרות תתנ״ו, romanized: Gezēroṯ-Taṯnu, lit. 'Edicts of 4856'), were a series of mass murders of Jews perpetrated by mobs of French and German Christians of the Peopl",
     "conf": "high",
-    "why": "linked in al-andalus ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. al-andalus) ×1"
   },
   {
     "chapter": 4,
@@ -1422,7 +1491,8 @@
     "title": "Florence",
     "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 362,353 inhabitants as of 2025. It is also the capital of the eponymous metropolitan province, which counts 989,460 inhabitants. Floren",
     "conf": "high",
-    "why": "linked in renaissance-italy ×14"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×14"
   },
   {
     "chapter": 4,
@@ -1434,7 +1504,8 @@
     "title": "Florence",
     "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 362,353 inhabitants as of 2025. It is also the capital of the eponymous metropolitan province, which counts 989,460 inhabitants. Floren",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×19 — ⚠ AMBIGUOUS: also Republic_of_Florence(indus-valley)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×19 — ⚠ AMBIGUOUS: also Republic_of_Florence(indus-valley)",
     "alts": [
       "Republic_of_Florence(indus-valley)"
     ]
@@ -1449,7 +1520,8 @@
     "title": "London",
     "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
     "conf": "CONFIRM-homonym",
-    "why": "linked in antebellum-america ×33 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture)",
+    "sourceCivs": 8,
+    "why": "linked in 8 civ(s) (e.g. antebellum-america) ×33 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture)",
     "alts": [
       "History_of_London(mississippian-culture)"
     ]
@@ -1464,7 +1536,8 @@
     "title": "Acre, Israel",
     "lead": "Acre ( AH-kər, AY-kər), known in Hebrew as Akko (Hebrew: עַכּוֹ, ʻAkkō, IPA: [ˈako]) and in Arabic as Akka (Arabic: عكّا, ʻAkkā, IPA: [ˈʕak.ka]), is a city in the coastal plain region of the Northern District of Israel. The city occupies a ",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 4,
@@ -1498,7 +1571,8 @@
     "title": "Levant",
     "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
     "conf": "high",
-    "why": "linked in ancient-nubia ×47"
+    "sourceCivs": 21,
+    "why": "linked in 21 civ(s) (e.g. ancient-nubia) ×49"
   },
   {
     "chapter": 4,
@@ -1520,7 +1594,8 @@
     "title": "Genoa",
     "lead": "Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301 people live within the city's administrative limits. While its metropolitan city has 818,629 inhabitants, more than 1.5 million p",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ottoman-empire ×8 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. mongol-empire) ×14 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
     "alts": [
       "Republic_of_Genoa(late-medieval-europe)"
     ]
@@ -1535,7 +1610,8 @@
     "title": "Pisa",
     "lead": "Pisa ( PEE-zə; Italian: [ˈpiːza] or [ˈpiːsa]) is a city and comune (municipality) in Tuscany, Central Italy, straddling the Arno just before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is ",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×10"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×10"
   },
   {
     "chapter": 4,
@@ -1557,7 +1633,8 @@
     "title": "Crete",
     "lead": "Crete ( KREET; Greek: Κρήτη, Modern: Kríti [ˈkriti], Ancient: Krḗtē [krɛ̌ːtεː]) is the largest and most populous island of Greece, the 90th largest island in the world, and the fifth largest island in the Mediterranean Sea, after Sicily, Sa",
     "conf": "high",
-    "why": "linked in byzantine-empire ×16"
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. byzantine-empire) ×16"
   },
   {
     "chapter": 4,
@@ -1569,7 +1646,8 @@
     "title": "Euboea",
     "lead": "Euboea, also known as Evia, is the second-largest Greek island in area and population, after Crete, and the sixth largest island in the Mediterranean Sea. It is separated from Boeotia in mainland Greece by the narrow Euripus Strait (only 40",
     "conf": "high",
-    "why": "linked in byzantine-empire ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 4,
@@ -1587,20 +1665,28 @@
     "signals": "recur×3",
     "suggest": "?",
     "decision": "REUSE",
-    "slug": "Baltic_Sea",
-    "title": "Baltic Sea",
-    "lead": "The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, Latvia, Lithuania, Poland, Russia, Sweden, and the North and Central European Plain regions. It is the world's largest b",
-    "conf": "high",
-    "why": "linked in islamic-golden-age ×1"
+    "slug": "Baltic_region",
+    "title": "Baltic region",
+    "lead": "The Baltic Sea Region, alternatively the Baltic Rim countries (or simply the Baltic Rim), and the Baltic Sea countries/states, refers to the general area surrounding the Baltic Sea, including parts of Northern, Central and Eastern Europe. U",
+    "conf": "CONFIRM-homonym",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×4 — ⚠ AMBIGUOUS: also Baltic_Sea(islamic-golden-age)",
+    "alts": [
+      "Baltic_Sea(islamic-golden-age)"
+    ]
   },
   {
     "chapter": 4,
     "term": "Flemish",
     "signals": "recur×4",
     "suggest": "?",
-    "decision": "NO-PAGE",
-    "reason": "top hit \"Flemish\" is a disambiguation page",
-    "conf": "blurb"
+    "decision": "REUSE",
+    "slug": "Flemish_people",
+    "title": "Flemish people",
+    "lead": "Flemish people or Flemings (Dutch: Vlamingen [ˈvlaːmɪŋə(n)] ; French: Flamands) are one of three Belgian main ethnic groups native to Flanders, Belgium, who speak Flemish Dutch. Flemish people make up the majority of Belgians, at about 60%.",
+    "conf": "high",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×3"
   },
   {
     "chapter": 4,
@@ -1612,7 +1698,8 @@
     "title": "Hamburg",
     "lead": "Hamburg, officially the Free and Hanseatic City of Hamburg, is the second-largest city in Germany after Berlin and seventh-largest city in the European Union, with a population of over 1.9 million. The Hamburg Metropolitan Region has a popu",
     "conf": "high",
-    "why": "linked in renaissance-italy ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×2"
   },
   {
     "chapter": 4,
@@ -1672,7 +1759,8 @@
     "title": "Valencia",
     "lead": "Valencia, officially València, is the capital of the Valencian Community and the province of the same name in Spain. It is located on the banks of the Turia, on the east coast of the Iberian Peninsula on the Mediterranean Sea. With a popula",
     "conf": "high",
-    "why": "linked in al-andalus ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. al-andalus) ×4"
   },
   {
     "chapter": 4,
@@ -1694,7 +1782,8 @@
     "title": "Strait of Gibraltar",
     "lead": "The Strait of Gibraltar, also known as the Straits of Gibraltar, is a narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Europe from Africa. The two continents are separated by 7.7 nautical miles (14.2 kil",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 4,
@@ -1706,7 +1795,8 @@
     "title": "Republic of Genoa",
     "lead": "The Republic of Genoa was a medieval and early modern maritime republic from the years 1099 to 1797 in Liguria on the northwestern Italian coast. During the Late Middle Ages, it was a major commercial power in both the Mediterranean and Bla",
     "conf": "high",
-    "why": "linked in byzantine-empire ×14"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×15"
   },
   {
     "chapter": 4,
@@ -1718,7 +1808,8 @@
     "title": "Iberian Peninsula",
     "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
     "conf": "high",
-    "why": "linked in carthage ×6"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. carthage) ×6"
   },
   {
     "chapter": 4,
@@ -1730,7 +1821,8 @@
     "title": "Franciscans",
     "lead": "The Franciscans are a group of related organizations in the Catholic Church, founded by the Italian saint Francis of Assisi. They include three independent religious orders for men (the Order of Friars Minor being the largest contemporary m",
     "conf": "high",
-    "why": "linked in maya-civilization ×5"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. maya-civilization) ×5"
   },
   {
     "chapter": 4,
@@ -1754,7 +1846,8 @@
     "title": "Paris",
     "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
     "alts": [
       "Paris_(mythology)(mycenaean-civilization)",
       "Battle_of_Paris_(1814)(russian-empire)"
@@ -1770,7 +1863,8 @@
     "title": "Avignon Papacy",
     "lead": "The Avignon Papacy (Occitan: Papat d'Avinhon; French: Papauté d'Avignon) was the period from 1309 to 1376 during which seven successive popes resided in Avignon (at the time within the Kingdom of Arles, part of the Holy Roman Empire, now pa",
     "conf": "CONFIRM-homonym",
-    "why": "linked in renaissance-italy ×6 — ⚠ AMBIGUOUS: also Avignon(late-medieval-europe), Avignon_papacy(timurid-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×6 — ⚠ AMBIGUOUS: also Avignon(late-medieval-europe), Avignon_papacy(timurid-empire)",
     "alts": [
       "Avignon(late-medieval-europe)",
       "Avignon_papacy(timurid-empire)"
@@ -1786,7 +1880,8 @@
     "title": "Kingdom of Naples",
     "lead": "The Kingdom of Naples, officially the Kingdom of Sicily on this side of the lighthouse, was a state that ruled the part of the Italian Peninsula south of the Papal States between 1282 and 1816. It was established by the War of the Sicilian ",
     "conf": "CONFIRM-homonym",
-    "why": "linked in renaissance-italy ×10 — ⚠ AMBIGUOUS: also Naples(byzantine-empire), Carbonari(russian-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×10 — ⚠ AMBIGUOUS: also Naples(byzantine-empire), Carbonari(russian-empire)",
     "alts": [
       "Naples(byzantine-empire)",
       "Carbonari(russian-empire)"
@@ -1800,7 +1895,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×22"
+    "why": "cross-linked elsewhere ×24"
   },
   {
     "chapter": 4,
@@ -1812,7 +1907,8 @@
     "title": "Cyprus",
     "lead": "Cyprus, officially the Republic of Cyprus, is an island country in the eastern Mediterranean Sea, located off the coast of the Levant mainland in West Asia. The island of Cyprus, which is the third largest and third most populous island in ",
     "conf": "CONFIRM-homonym",
-    "why": "linked in hittite-empire ×24 — ⚠ AMBIGUOUS: also Kingdom_of_Cyprus(renaissance-italy)",
+    "sourceCivs": 8,
+    "why": "linked in 8 civ(s) (e.g. hittite-empire) ×24 — ⚠ AMBIGUOUS: also Kingdom_of_Cyprus(renaissance-italy)",
     "alts": [
       "Kingdom_of_Cyprus(renaissance-italy)"
     ]
@@ -1835,7 +1931,7 @@
     "decision": "CROSS",
     "targetTl": "islamic-golden-age",
     "conf": "high",
-    "why": "cross-linked elsewhere ×5"
+    "why": "cross-linked elsewhere ×6"
   },
   {
     "chapter": 4,
@@ -1847,7 +1943,8 @@
     "title": "Cairo",
     "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
     "conf": "high",
-    "why": "linked in ancient-nubia ×38"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. ancient-nubia) ×40"
   },
   {
     "chapter": 4,
@@ -1868,7 +1965,8 @@
     "title": "Alexandria",
     "lead": "Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km (25 mi) along the country's northern coast. It is Egypt's principal seaport, the second largest city after Cairo, and the largest",
     "conf": "high",
-    "why": "linked in ancient-greece ×26"
+    "sourceCivs": 10,
+    "why": "linked in 10 civ(s) (e.g. ancient-greece) ×26"
   },
   {
     "chapter": 4,
@@ -1880,7 +1978,8 @@
     "title": "Sahara",
     "lead": "The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica an",
     "conf": "high",
-    "why": "linked in ancient-nubia ×12"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. ancient-nubia) ×12"
   },
   {
     "chapter": 4,
@@ -1892,7 +1991,8 @@
     "title": "Berbers",
     "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. They are indigenous to the Maghre",
     "conf": "CONFIRM-homonym",
-    "why": "linked in carthage ×13 — ⚠ AMBIGUOUS: also Berber_languages(ancient-nubia)",
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. carthage) ×13 — ⚠ AMBIGUOUS: also Berber_languages(ancient-nubia)",
     "alts": [
       "Berber_languages(ancient-nubia)"
     ]
@@ -1907,7 +2007,8 @@
     "title": "Sundiata Keita",
     "lead": "Sundiata Keita (Mandinka, Malinke: [sʊndʒæta keɪta]; c. 1217 – c. 1255, N'Ko spelling: ߛߏ߲߬ߖߘߊ߬ ߞߋߕߊ߬; also known as Manding Diara, Lion of Mali, Sogolon Djata, son of Sogolon, Nare Maghan and Sogo Sogo Simbon Salaba) was a prince and found",
     "conf": "high",
-    "why": "linked in songhai-empire ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. songhai-empire) ×2"
   },
   {
     "chapter": 4,
@@ -1929,7 +2030,8 @@
     "title": "Bay of Bengal",
     "lead": "The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and the Indochinese peninsula, south of the Bengal region. Spread across an area of 2,600,000 km2 (1,000,000 sq mi), it is bordered b",
     "conf": "high",
-    "why": "linked in maurya-empire ×11"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. maurya-empire) ×11"
   },
   {
     "chapter": 4,
@@ -1941,7 +2043,8 @@
     "title": "Sumatra",
     "lead": "Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian territory, as well as the sixth-largest island in the world at 482,286.55 km2 (182,812 mi.2), including adjacent islands s",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×12"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. islamic-golden-age) ×12"
   },
   {
     "chapter": 4,
@@ -1962,7 +2065,8 @@
     "title": "Malabar Coast",
     "lead": "The Malabar Coast (Malayalam: [mɐlɐbaːr]) is the southwestern region of the Indian subcontinent. It generally refers to the western coastline of India stretching from Konkan to Kanyakumari. Geographically, it comprises one of the wettest re",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×3"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. delhi-sultanate) ×3"
   },
   {
     "chapter": 4,
@@ -1993,7 +2097,8 @@
     "title": "Dadu (Beijing)",
     "lead": "Khanbaliq (Chinese: 汗八里; pinyin: Hánbālǐ; Mongolian: ᠬᠠᠭᠠᠨ ᠪᠠᠯᠭᠠᠰᠤ, Qaɣan balɣasu) or Dadu (Chinese: 元大都; pinyin: Yuán Dàdū; Mongolian: ᠳᠠᠶ᠋ᠢᠳᠤ, Dayidu) was the winter capital of the Mongol-led Yuan dynasty in what is now Beijing, the capit",
     "conf": "high",
-    "why": "linked in goryeo-korea ×5"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. goryeo-korea) ×5"
   },
   {
     "chapter": 4,
@@ -2003,7 +2108,7 @@
     "decision": "CROSS",
     "targetTl": "tang-song-china",
     "conf": "high",
-    "why": "cross-linked elsewhere ×3"
+    "why": "cross-linked elsewhere ×4"
   },
   {
     "chapter": 4,
@@ -2013,7 +2118,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×5"
+    "why": "cross-linked elsewhere ×6"
   },
   {
     "chapter": 4,
@@ -2034,7 +2139,8 @@
     "title": "Jerusalem",
     "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
     "conf": "high",
-    "why": "linked in ancient-israel ×38"
+    "sourceCivs": 11,
+    "why": "linked in 11 civ(s) (e.g. ancient-israel) ×38"
   },
   {
     "chapter": 4,
@@ -2070,7 +2176,8 @@
     "title": "Credit",
     "lead": "Credit (from Latin creditum, \"loan\") is the trust which allows one party to provide money or resources to another party wherein the second party does not reimburse the first party immediately (thereby generating a debt), but promises either",
     "conf": "high",
-    "why": "linked in early-american-republic ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. early-american-republic) ×1"
   },
   {
     "chapter": 5,
@@ -2082,7 +2189,8 @@
     "title": "Paris",
     "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
     "alts": [
       "Paris_(mythology)(mycenaean-civilization)",
       "Battle_of_Paris_(1814)(russian-empire)"
@@ -2108,7 +2216,8 @@
     "title": "Boethius",
     "lead": "Anicius Manlius Severinus Boethius, commonly known simply as Boethius (; Latin: Boetius; c. 480–524 AD), was a Roman senator, consul, magister officiorum, polymath, historian, and philosopher of the Early Middle Ages. He was a central figur",
     "conf": "high",
-    "why": "linked in byzantine-empire ×10"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×10"
   },
   {
     "chapter": 5,
@@ -2120,7 +2229,8 @@
     "title": "Arabic",
     "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ancient-nubia ×45 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
+    "sourceCivs": 11,
+    "why": "linked in 11 civ(s) (e.g. ancient-nubia) ×51 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
     "alts": [
       "Arabic_language(mughal-empire)"
     ]
@@ -2135,7 +2245,8 @@
     "title": "Augustine of Canterbury",
     "lead": "Augustine of Canterbury (early 6th century – c. 26 May 604 (or 605)) was a Christian monk who became the first archbishop of Canterbury in the year 597. Augustine was the prior of a monastery in Rome when Pope Gregory the Great chose him in",
     "conf": "CONFIRM-homonym",
-    "why": "linked in anglo-saxon-england ×1 — ⚠ AMBIGUOUS: also Augustine_of_Hippo(migration-period)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. anglo-saxon-england) ×1 — ⚠ AMBIGUOUS: also Augustine_of_Hippo(migration-period)",
     "alts": [
       "Augustine_of_Hippo(migration-period)"
     ]
@@ -2170,7 +2281,8 @@
     "title": "Euclid's Elements",
     "lead": "The Elements (Ancient Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise written c. 300 BC by the Ancient Greek mathematician Euclid. The Elements is the oldest extant large-scale deductive treatment of mathematics. Drawing on the works ",
     "conf": "high",
-    "why": "linked in han-dynasty ×3"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. han-dynasty) ×3"
   },
   {
     "chapter": 5,
@@ -2182,7 +2294,8 @@
     "title": "Galen",
     "lead": "Aelius Galenus or Claudius Galenus (Greek: Κλαύδιος Γαληνός; September 129 – c. 216 CE), often anglicized as Galen () or Galen of Pergamon, was a Roman and Greek physician, surgeon, and philosopher. Considered to be one of the most accompli",
     "conf": "high",
-    "why": "linked in al-andalus ×14"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. al-andalus) ×14"
   },
   {
     "chapter": 5,
@@ -2194,16 +2307,20 @@
     "title": "Hippocrates",
     "lead": "Hippocrates of Kos (; Ancient Greek: Ἱπποκράτης ὁ Κῷος, romanized: Hippokrátēs ho Kôios; c. 460 – c. 370 BC), also known as Hippocrates II, named after his grandfather Hippocrates I (also Hippocrates of Kos or Hippocrates I of Kos) was a Gr",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 5,
     "term": "Provençal",
     "signals": "recur×3",
     "suggest": "?",
-    "decision": "NO-PAGE",
-    "reason": "top hit \"Provençal\" is a disambiguation page",
-    "conf": "blurb"
+    "decision": "LINK-CANDIDATE",
+    "slug": "Franco-Provençal",
+    "title": "Franco-Provençal",
+    "lead": "Franco-Provençal (also Francoprovençal, Patois or Arpitan) is a Gallo-Romance language that originated and is spoken in eastern France, western Switzerland, and northwestern Italy. Franco-Provençal has several distinct dialects and is separ",
+    "conf": "high",
+    "why": "same name"
   },
   {
     "chapter": 5,
@@ -2213,7 +2330,7 @@
     "decision": "CROSS",
     "targetTl": "renaissance-italy",
     "conf": "high",
-    "why": "cross-linked elsewhere ×2"
+    "why": "cross-linked elsewhere ×4"
   },
   {
     "chapter": 5,
@@ -2267,7 +2384,7 @@
     "decision": "CROSS",
     "targetTl": "islamic-golden-age",
     "conf": "high",
-    "why": "cross-linked elsewhere ×10"
+    "why": "cross-linked elsewhere ×14"
   },
   {
     "chapter": 5,
@@ -2289,7 +2406,8 @@
     "title": "Cairo",
     "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
     "conf": "high",
-    "why": "linked in ancient-nubia ×38"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. ancient-nubia) ×40"
   },
   {
     "chapter": 5,
@@ -2321,7 +2439,8 @@
     "title": "Normans",
     "lead": "The Normans (Norman: Normaunds; French: Normands; Latin: Nortmanni/Normanni) were a population arising in the medieval Duchy of Normandy from the intermingling between Norse Viking settlers and locals of West Francia. The Norse settlements ",
     "conf": "high",
-    "why": "linked in byzantine-empire ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. byzantine-empire) ×4"
   },
   {
     "chapter": 5,
@@ -2354,7 +2473,8 @@
     "title": "Palermo",
     "lead": "Palermo (Sicilian: Palermu) is the capital and largest city of the autonomous island region of Sicily in southern Italy, located on the eponymous gulf facing the Tyrrhenian Sea. With over 2,700 years of age, the city is noted for its histor",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. delhi-sultanate) ×8"
   },
   {
     "chapter": 5,
@@ -2366,7 +2486,8 @@
     "title": "Antioch",
     "lead": "Antioch was a city located in northern Syria at the site of modern Antakya, Turkey. Founded in 300 BC, Antioch became one of the most important cities of the ancient eastern Mediterranean. The capital of the Hellenistic Seleucid Empire, it ",
     "conf": "high",
-    "why": "linked in ancient-greece ×18"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. ancient-greece) ×18"
   },
   {
     "chapter": 5,
@@ -2378,7 +2499,8 @@
     "title": "Levant",
     "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
     "conf": "high",
-    "why": "linked in ancient-nubia ×47"
+    "sourceCivs": 21,
+    "why": "linked in 21 civ(s) (e.g. ancient-nubia) ×49"
   },
   {
     "chapter": 5,
@@ -2390,7 +2512,8 @@
     "title": "Greeks",
     "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, Southern Italy (Greeks in Italy), parts of Egypt, and to a lesser extent, other countries surrou",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×14 — ⚠ AMBIGUOUS: also Ancient_Greece(hittite-empire)",
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. byzantine-empire) ×14 — ⚠ AMBIGUOUS: also Ancient_Greece(hittite-empire)",
     "alts": [
       "Ancient_Greece(hittite-empire)"
     ]
@@ -2405,7 +2528,8 @@
     "title": "Aristotelianism",
     "lead": "Aristotelianism ( ARR-i-stə-TEE-lee-ə-niz-əm) is a philosophical tradition inspired by the work of Aristotle, usually characterized by deductive logic and an analytic inductive method in the study of natural philosophy and metaphysics. It c",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 5,
@@ -2417,7 +2541,8 @@
     "title": "Pisa",
     "lead": "Pisa ( PEE-zə; Italian: [ˈpiːza] or [ˈpiːsa]) is a city and comune (municipality) in Tuscany, Central Italy, straddling the Arno just before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is ",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×10"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×10"
   },
   {
     "chapter": 5,
@@ -2429,7 +2554,8 @@
     "title": "Ravenna",
     "lead": "Ravenna ( rə-VEN-ə; Italian: [raˈvenna], also locally [raˈvɛn(n)a] ; Romagnol: Ravèna, Ravêna) is the capital city of the Province of Ravenna, in the Emilia-Romagna region of Northern Italy. It was the capital city of the Western Roman Empi",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ancient-rome ×14 — ⚠ AMBIGUOUS: also Exarchate_of_Ravenna(migration-period)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. ancient-rome) ×14 — ⚠ AMBIGUOUS: also Exarchate_of_Ravenna(migration-period)",
     "alts": [
       "Exarchate_of_Ravenna(migration-period)"
     ]
@@ -2444,7 +2570,8 @@
     "title": "Digest (Roman law)",
     "lead": "The Digest (Latin: Digesta), also known as the Pandects (Pandectae; Ancient Greek: Πανδέκται, Pandéktai, \"All-Containing\"), was a compendium or digest of juristic writings on Roman law compiled by order of the Byzantine emperor Justinian I ",
     "conf": "high",
-    "why": "linked in byzantine-empire ×3"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×3"
   },
   {
     "chapter": 5,
@@ -2456,7 +2583,8 @@
     "title": "Code of Justinian",
     "lead": "The Code of Justinian (Latin: Codex Justinianus, Justinianeus or Justiniani) is one part of the Corpus Juris Civilis, the codification of Roman law ordered early in the 6th century AD by Justinian I, who was Eastern Roman emperor in Constan",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×2 — ⚠ AMBIGUOUS: also Codex(kingdom-of-aksum)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×2 — ⚠ AMBIGUOUS: also Codex(kingdom-of-aksum)",
     "alts": [
       "Codex(kingdom-of-aksum)"
     ]
@@ -2481,7 +2609,8 @@
     "title": "Bologna",
     "lead": "Bologna (Italian: [boˈloɲɲa] ) is the capital and largest city of the Emilia-Romagna region in northern Italy. It is the seventh most populous city in Italy, with 390,734 inhabitants and 150 different nationalities. Its metropolitan provinc",
     "conf": "CONFIRM-homonym",
-    "why": "linked in renaissance-italy ×6 — ⚠ AMBIGUOUS: also University_of_Bologna(byzantine-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×6 — ⚠ AMBIGUOUS: also University_of_Bologna(byzantine-empire)",
     "alts": [
       "University_of_Bologna(byzantine-empire)"
     ]
@@ -2506,7 +2635,8 @@
     "title": "Duchy of Normandy",
     "lead": "The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 until 1204, as a result of the No",
     "conf": "CONFIRM-homonym",
-    "why": "linked in kievan-rus ×2 — ⚠ AMBIGUOUS: also Normandy(viking-age)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. kievan-rus) ×2 — ⚠ AMBIGUOUS: also Normandy(viking-age)",
     "alts": [
       "Normandy(viking-age)"
     ]
@@ -2531,7 +2661,8 @@
     "title": "Basilica of Saint-Denis",
     "lead": "The Basilica of Saint-Denis (French: basilique royale Saint-Denis; now formally known as the basilique cathédrale Saint-Denis) is a Roman Catholic cathedral that originated as a medieval abbey church. It is located in the commune of Saint-D",
     "conf": "high",
-    "why": "linked in medieval-india ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. medieval-india) ×1"
   },
   {
     "chapter": 5,
@@ -2555,7 +2686,8 @@
     "title": "Frederick Barbarossa",
     "lead": "Frederick Barbarossa (December 1122 – 10 June 1190), also known as Frederick I (German: Friedrich; Italian: Federico), was the Holy Roman emperor from 1155 until his death in 1190. He was elected King of Germany in Frankfurt on 4 March 1152",
     "conf": "high",
-    "why": "linked in byzantine-empire ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 5,
@@ -2579,7 +2711,8 @@
     "title": "Burgundy",
     "lead": "Burgundy ( BUR-gən-dee; French: Bourgogne [buʁɡɔɲ] ; Burgundian: Bregogne) is a historical region in France, broadly corresponding to the territory of the former administrative region of the same name, which existed from 1982 to 2015 and wa",
     "conf": "CONFIRM-homonym",
-    "why": "linked in celtic-cultures ×6 — ⚠ AMBIGUOUS: also Duchy_of_Burgundy(late-medieval-europe)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. celtic-cultures) ×6 — ⚠ AMBIGUOUS: also Duchy_of_Burgundy(late-medieval-europe)",
     "alts": [
       "Duchy_of_Burgundy(late-medieval-europe)"
     ]
@@ -2616,7 +2749,8 @@
     "title": "Almohad Caliphate",
     "lead": "The Almohad Caliphate or Almohad Empire was a North African empire ruled by a Berber Muslim dynasty in the 12th and 13th centuries. At its height, it controlled much of the Maghreb and the Iberian Peninsula (Al-Andalus). The Almohad movemen",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×6"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. islamic-golden-age) ×6"
   },
   {
     "chapter": 5,
@@ -2638,7 +2772,8 @@
     "title": "Hebrew language",
     "lead": "Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaanite languages, it was natively spoken by the Israelites and remained in regular use as a first language until after 200 CE and as",
     "conf": "high",
-    "why": "linked in ancient-nubia ×17"
+    "sourceCivs": 7,
+    "why": "linked in 7 civ(s) (e.g. ancient-nubia) ×17"
   },
   {
     "chapter": 5,
@@ -2650,7 +2785,8 @@
     "title": "Ramanuja",
     "lead": "Ramanuja ([ɾaːmaːnudʑɐ]; Middle Tamil: Rāmāṉujam; Classical Sanskrit: Rāmānuja; c. 1077 – 1157, trad. date 1017-1137), also known as Ramanujacharya, was an Indian Hindu philosopher, guru and social reformer. He is one of the most important ",
     "conf": "high",
-    "why": "linked in medieval-india ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. medieval-india) ×2"
   },
   {
     "chapter": 5,
@@ -2662,7 +2798,8 @@
     "title": "Upanishads",
     "lead": "The Upanishads (; Sanskrit: उपनिषद्, IAST: Upaniṣad, pronounced [ˈupɐniʂɐd]) are Sanskrit texts of the late Vedic and post-Vedic periods that \"document the transition from the archaic ritualism of the Veda into new religious ideas and insti",
     "conf": "high",
-    "why": "linked in indus-valley ×13"
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. indus-valley) ×13"
   },
   {
     "chapter": 5,
@@ -2684,7 +2821,8 @@
     "title": "Bay of Bengal",
     "lead": "The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and the Indochinese peninsula, south of the Bengal region. Spread across an area of 2,600,000 km2 (1,000,000 sq mi), it is bordered b",
     "conf": "high",
-    "why": "linked in maurya-empire ×11"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. maurya-empire) ×11"
   },
   {
     "chapter": 5,
@@ -2696,7 +2834,8 @@
     "title": "Sumatra",
     "lead": "Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian territory, as well as the sixth-largest island in the world at 482,286.55 km2 (182,812 mi.2), including adjacent islands s",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×12"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. islamic-golden-age) ×12"
   },
   {
     "chapter": 5,
@@ -2729,7 +2868,8 @@
     "title": "Cheng Yi (philosopher)",
     "lead": "Cheng Yi (1033–1107), also known by various other names and romanizations, was a Chinese classicist, essayist, philosopher, and politician of the Song Dynasty. He worked with his older brother Cheng Hao. Like his brother, he was a student o",
     "conf": "high",
-    "why": "linked in tang-song-china ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. tang-song-china) ×2"
   },
   {
     "chapter": 5,
@@ -2741,7 +2881,8 @@
     "title": "Cheng Hao",
     "lead": "Chéng Hào (Chinese: 程顥, 1032–1085), Courtesy name Bóchún (Chinese: 伯淳), was a Chinese philosopher and politician from Luoyang, China. In his youth, he and his younger brother Cheng Yi were students of Zhou Dunyi, one of the architects of Ne",
     "conf": "high",
-    "why": "linked in tang-song-china ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. tang-song-china) ×2"
   },
   {
     "chapter": 5,
@@ -2751,7 +2892,7 @@
     "decision": "CROSS",
     "targetTl": "tang-song-china",
     "conf": "high",
-    "why": "cross-linked elsewhere ×3"
+    "why": "cross-linked elsewhere ×4"
   },
   {
     "chapter": 5,
@@ -2802,12 +2943,13 @@
     "term": "Islamic world",
     "signals": "bold",
     "suggest": "event/glossary",
-    "decision": "LINK-CANDIDATE",
-    "slug": "Islamic_world",
+    "decision": "REUSE",
+    "slug": "Muslim_world",
     "title": "Islamic world",
     "lead": "The terms Islamic world and Muslim world commonly refer to the Islamic community, which is also known as the Ummah. This consists of all those who adhere to the religious beliefs, politics, and laws of Islam or to societies in which Islam i",
     "conf": "high",
-    "why": "same name"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×2"
   },
   {
     "chapter": 5,
@@ -2837,7 +2979,8 @@
     "title": "Pisa",
     "lead": "Pisa ( PEE-zə; Italian: [ˈpiːza] or [ˈpiːsa]) is a city and comune (municipality) in Tuscany, Central Italy, straddling the Arno just before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is ",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×10"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×10"
   },
   {
     "chapter": 6,
@@ -2849,7 +2992,8 @@
     "title": "Cluny Abbey",
     "lead": "Cluny Abbey (French: [klyni]; French: Abbaye de Cluny, formerly also Cluni or Clugny; Latin: Abbatia Cluniacensis) is a former Benedictine monastery in Cluny, Saône-et-Loire, France. It was dedicated to Saints Peter and Paul. The abbey was ",
     "conf": "high",
-    "why": "linked in early-medieval-europe ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. early-medieval-europe) ×1"
   },
   {
     "chapter": 6,
@@ -2861,7 +3005,8 @@
     "title": "Burgundy",
     "lead": "Burgundy ( BUR-gən-dee; French: Bourgogne [buʁɡɔɲ] ; Burgundian: Bregogne) is a historical region in France, broadly corresponding to the territory of the former administrative region of the same name, which existed from 1982 to 2015 and wa",
     "conf": "CONFIRM-homonym",
-    "why": "linked in celtic-cultures ×6 — ⚠ AMBIGUOUS: also Duchy_of_Burgundy(late-medieval-europe)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. celtic-cultures) ×6 — ⚠ AMBIGUOUS: also Duchy_of_Burgundy(late-medieval-europe)",
     "alts": [
       "Duchy_of_Burgundy(late-medieval-europe)"
     ]
@@ -2888,7 +3033,8 @@
     "title": "Milan",
     "lead": "Milan (Italian: Milano) is the regional capital of Lombardy, in northern Italy, and the seat of the Metropolitan City of Milan. It is the second-most populous city in Italy after Rome, with a population of 1,362,863 in 2026. The city's wide",
     "conf": "CONFIRM-homonym",
-    "why": "linked in celtic-cultures ×16 — ⚠ AMBIGUOUS: also Duchy_of_Milan(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. celtic-cultures) ×16 — ⚠ AMBIGUOUS: also Duchy_of_Milan(late-medieval-europe)",
     "alts": [
       "Duchy_of_Milan(late-medieval-europe)"
     ]
@@ -2903,7 +3049,8 @@
     "title": "Frederick Barbarossa",
     "lead": "Frederick Barbarossa (December 1122 – 10 June 1190), also known as Frederick I (German: Friedrich; Italian: Federico), was the Holy Roman emperor from 1155 until his death in 1190. He was elected King of Germany in Frankfurt on 4 March 1152",
     "conf": "high",
-    "why": "linked in byzantine-empire ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 6,
@@ -2915,7 +3062,8 @@
     "title": "Canterbury",
     "lead": "Canterbury ( KAN-tər-bər-ee or -⁠berr-ee) is a city and UNESCO World Heritage Site in the Canterbury district, county of Kent, England; it was a county borough until 1974. Lying on the River Stour not far from its mouth on the Strait of Dov",
     "conf": "high",
-    "why": "linked in anglo-saxon-england ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. anglo-saxon-england) ×2"
   },
   {
     "chapter": 6,
@@ -2927,7 +3075,8 @@
     "title": "York",
     "lead": "York is a cathedral city in North Yorkshire, England, with Roman origins, sited at the confluence of the rivers Ouse and Foss. It has many historic buildings and other structures, including the minster, castle and city walls, all of which a",
     "conf": "CONFIRM-homonym",
-    "why": "linked in anglo-saxon-england ×4 — ⚠ AMBIGUOUS: also York_Minster(anglo-saxon-england)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. anglo-saxon-england) ×4 — ⚠ AMBIGUOUS: also York_Minster(anglo-saxon-england)",
     "alts": [
       "York_Minster(anglo-saxon-england)"
     ]
@@ -2963,7 +3112,8 @@
     "title": "True Cross",
     "lead": "In Christian tradition, the True Cross is the original wooden cross on which Jesus of Nazareth was crucified. It is related by numerous historical accounts and legends that Helen, the mother of Roman emperor Constantine the Great, recovered",
     "conf": "high",
-    "why": "linked in byzantine-empire ×6"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. byzantine-empire) ×6"
   },
   {
     "chapter": 6,
@@ -2975,7 +3125,8 @@
     "title": "Mary, mother of Jesus",
     "lead": "Mary was a first-century Jewish woman of Nazareth, the wife of Joseph and the mother of Jesus. She is an important figure of Christianity, venerated under various titles such as virgin or queen, many of which are mentioned in the Litany of ",
     "conf": "high",
-    "why": "linked in kingdom-of-aksum ×8"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. kingdom-of-aksum) ×8"
   },
   {
     "chapter": 6,
@@ -2997,7 +3148,8 @@
     "title": "Jerusalem",
     "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
     "conf": "high",
-    "why": "linked in ancient-israel ×38"
+    "sourceCivs": 11,
+    "why": "linked in 11 civ(s) (e.g. ancient-israel) ×38"
   },
   {
     "chapter": 6,
@@ -3009,7 +3161,8 @@
     "title": "The Last Judgment (Michelangelo)",
     "lead": "The Last Judgment (Italian: Il Giudizio Universale) is a fresco by the Italian Renaissance painter Michelangelo covering the whole altar wall of the Sistine Chapel in Vatican City. It is a depiction of the Second Coming of Christ and the fi",
     "conf": "high",
-    "why": "linked in renaissance-italy ×4"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×4"
   },
   {
     "chapter": 6,
@@ -3021,7 +3174,8 @@
     "title": "Book of Genesis",
     "lead": "The Book of Genesis (from Greek Γένεσις, Génesis, 'Origin'; Biblical Hebrew: בְּרֵאשִׁית‎, romanized: Bərēʾšīṯ, lit. 'In [the] Beginning'; Latin: Liber Genesis) is the first book of the Hebrew Bible and the Christian Old Testament. The Hebr",
     "conf": "high",
-    "why": "linked in renaissance-italy ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. renaissance-italy) ×4"
   },
   {
     "chapter": 6,
@@ -3043,7 +3197,8 @@
     "title": "Hoysala Kingdom",
     "lead": "The Hoysala Kingdom was a prominent South Indian dynasty that ruled most of what is now Karnataka, as well as parts of Tamil Nadu and southwestern Telangana, between the 11th and 14th centuries CE. The capital was initially located at Belur",
     "conf": "high",
-    "why": "linked in medieval-india ×4"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. medieval-india) ×4"
   },
   {
     "chapter": 6,
@@ -3065,7 +3220,8 @@
     "title": "Halebidu",
     "lead": "Halebidu (IAST: Haḷēbīḍu, literally \"old capital, city, encampment\" or \"ruined city\") is a town located in Hassan District, Karnataka, India. Historically known as Dwārasamudra (also Dorasamudra), Halebidu became the regal capital of the Ho",
     "conf": "high",
-    "why": "linked in medieval-india ×8"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. medieval-india) ×8"
   },
   {
     "chapter": 6,
@@ -3077,7 +3233,8 @@
     "title": "Madurai",
     "lead": "Madurai is a major tier II city in the Indian state of Tamil Nadu. It is the cultural capital of Tamil Nadu and the administrative headquarters of Madurai district, which is governed by the Madurai Municipal Corporation established on 1 Nov",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×10"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. delhi-sultanate) ×10"
   },
   {
     "chapter": 6,
@@ -3099,7 +3256,8 @@
     "title": "Seville",
     "lead": "Seville ( sə-VIL; Spanish: Sevilla, pronounced [seˈβiʎa] locally [seˈβiʝa]) is the capital and largest city of the Spanish autonomous community of Andalusia and the province of Seville. It is situated on the lower reaches of the River Guada",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 6,
@@ -3111,7 +3269,8 @@
     "title": "Giralda",
     "lead": "The Giralda (Spanish: La Giralda [la xiˈɾalda]) is the bell tower of Seville Cathedral in Seville, Spain. It was built as the minaret for the Great Mosque of Seville in al-Andalus, during the reign of the Almohad dynasty, with a Renaissance",
     "conf": "high",
-    "why": "linked in al-andalus ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. al-andalus) ×4"
   },
   {
     "chapter": 6,
@@ -3121,7 +3280,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×8"
+    "why": "cross-linked elsewhere ×9"
   },
   {
     "chapter": 6,
@@ -3131,7 +3290,7 @@
     "decision": "CROSS",
     "targetTl": "tang-song-china",
     "conf": "high",
-    "why": "cross-linked elsewhere ×3"
+    "why": "cross-linked elsewhere ×4"
   },
   {
     "chapter": 6,
@@ -3143,7 +3302,8 @@
     "title": "Mesoamerica",
     "lead": "Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern Mexico, all of Belize, Guatemala, El Salvador, western Honduras, and the Greater Nicoya region of Nicaragua and Costa Rica. As a c",
     "conf": "high",
-    "why": "linked in andean-kingdoms ×21"
+    "sourceCivs": 12,
+    "why": "linked in 12 civ(s) (e.g. andean-kingdoms) ×23"
   },
   {
     "chapter": 6,
@@ -3155,7 +3315,8 @@
     "title": "Chichen Itza",
     "lead": "Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archeological site is located in Tinúm Municipality, Yucatán, Mexico. Chichen Itza was a major focal point in the Northern Maya Lowland",
     "conf": "high",
-    "why": "linked in maya-civilization ×5"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. maya-civilization) ×5"
   },
   {
     "chapter": 6,
@@ -3167,7 +3328,8 @@
     "title": "Mayapan",
     "lead": "Mayapan (Màyapáan in Modern Maya; in Spanish Mayapán) is a Pre-Columbian Maya site a couple of kilometers south of the town of Telchaquillo in Tecoh Municipality, approximately 40 km south-east of Mérida and 100 km west of Chichen Itza; in ",
     "conf": "high",
-    "why": "linked in maya-civilization ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. maya-civilization) ×4"
   },
   {
     "chapter": 6,
@@ -3189,7 +3351,8 @@
     "title": "Tula (Mesoamerican site)",
     "lead": "Tula (Otomi: Mämeni) is a Mesoamerican archaeological site, which was an important regional center that reached its height as the capital of the Toltec Empire between the fall of Teotihuacan and the rise of Tenochtitlan. It has not been wel",
     "conf": "CONFIRM-homonym",
-    "why": "linked in aztec-empire ×5 — ⚠ AMBIGUOUS: also Tula,_Russia(russian-empire)",
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. aztec-empire) ×5 — ⚠ AMBIGUOUS: also Tula,_Russia(russian-empire)",
     "alts": [
       "Tula,_Russia(russian-empire)"
     ]
@@ -3218,12 +3381,13 @@
     "term": "Islamic world",
     "signals": "bold",
     "suggest": "event/glossary",
-    "decision": "LINK-CANDIDATE",
-    "slug": "Islamic_world",
+    "decision": "REUSE",
+    "slug": "Muslim_world",
     "title": "Islamic world",
     "lead": "The terms Islamic world and Muslim world commonly refer to the Islamic community, which is also known as the Ummah. This consists of all those who adhere to the religious beliefs, politics, and laws of Islam or to societies in which Islam i",
     "conf": "high",
-    "why": "same name"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×2"
   },
   {
     "chapter": 7,
@@ -3247,7 +3411,8 @@
     "title": "Paris",
     "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
     "conf": "CONFIRM-homonym",
-    "why": "linked in byzantine-empire ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. byzantine-empire) ×18 — ⚠ AMBIGUOUS: also Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire)",
     "alts": [
       "Paris_(mythology)(mycenaean-civilization)",
       "Battle_of_Paris_(1814)(russian-empire)"
@@ -3263,7 +3428,8 @@
     "title": "Platonic Academy",
     "lead": "The Academy (Ancient Greek: Ἀκαδημία, romanized: Akadēmia) was founded by Plato in ca. 387 BC in Athens. Aristotle studied there for twenty years (367 BC – 347 BC) before founding his own school, the Lyceum. The academy persisted throughout",
     "conf": "high",
-    "why": "linked in han-dynasty ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. han-dynasty) ×2"
   },
   {
     "chapter": 7,
@@ -3275,7 +3441,8 @@
     "title": "Sharia",
     "lead": "Sharia (; Arabic: ‏شَرِيعَة‎, romanized: šarīʿa, lit. 'path [to water]', IPA: [ʃaˈriːʕa]), also transliterated as Sharī'ah, Shari'a, or Shariah, is a body of religious law that form the Islamic tradition based on scriptures of Islam, partic",
     "conf": "high",
-    "why": "linked in al-andalus ×14"
+    "sourceCivs": 7,
+    "why": "linked in 7 civ(s) (e.g. al-andalus) ×14"
   },
   {
     "chapter": 7,
@@ -3299,7 +3466,8 @@
     "title": "Philip II of Macedon",
     "lead": "Philip II of Macedon (Ancient Greek: Φίλιππος, romanized: Phílippos; 382 BC – October 336 BC) was the king (basileus) of Macedon from 359 BC until his death in 336 BC. The rise of Macedon, from a kingdom initially at the periphery of classi",
     "conf": "CONFIRM-homonym",
-    "why": "linked in late-egypt ×2 — ⚠ AMBIGUOUS: also Philip_II_of_Spain(ottoman-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. late-egypt) ×2 — ⚠ AMBIGUOUS: also Philip_II_of_Spain(ottoman-empire)",
     "alts": [
       "Philip_II_of_Spain(ottoman-empire)"
     ]
@@ -3336,7 +3504,8 @@
     "title": "Toledo, Spain",
     "lead": "Toledo (UK: tol-AY-doh; Spanish: [toˈleðo] ) is a city and municipality in Spain. It is the capital of the province of Toledo and the de jure seat of the government and parliament of the autonomous community of Castilla–La Mancha. Toledo is",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 7,
@@ -3348,7 +3517,8 @@
     "title": "Arabic",
     "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ancient-nubia ×45 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
+    "sourceCivs": 11,
+    "why": "linked in 11 civ(s) (e.g. ancient-nubia) ×51 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
     "alts": [
       "Arabic_language(mughal-empire)"
     ]
@@ -3363,7 +3533,8 @@
     "title": "Hebrew language",
     "lead": "Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaanite languages, it was natively spoken by the Israelites and remained in regular use as a first language until after 200 CE and as",
     "conf": "high",
-    "why": "linked in ancient-nubia ×17"
+    "sourceCivs": 7,
+    "why": "linked in 7 civ(s) (e.g. ancient-nubia) ×17"
   },
   {
     "chapter": 7,
@@ -3385,7 +3556,8 @@
     "title": "Kingdom of Naples",
     "lead": "The Kingdom of Naples, officially the Kingdom of Sicily on this side of the lighthouse, was a state that ruled the part of the Italian Peninsula south of the Papal States between 1282 and 1816. It was established by the War of the Sicilian ",
     "conf": "CONFIRM-homonym",
-    "why": "linked in renaissance-italy ×10 — ⚠ AMBIGUOUS: also Naples(byzantine-empire), Carbonari(russian-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×10 — ⚠ AMBIGUOUS: also Naples(byzantine-empire), Carbonari(russian-empire)",
     "alts": [
       "Naples(byzantine-empire)",
       "Carbonari(russian-empire)"
@@ -3401,7 +3573,8 @@
     "title": "Toulouse",
     "lead": "Toulouse (, too-LOOZ, French: [tuluz] ; Occitan: Tolosa [tuˈluzɔ] ) is a city in Southern France, the prefecture of the Haute-Garonne department and of the Occitania region. The city is on the banks of the River Garonne, 150 kilometres (93 ",
     "conf": "high",
-    "why": "linked in enlightenment ×5"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. enlightenment) ×5"
   },
   {
     "chapter": 7,
@@ -3437,7 +3610,8 @@
     "title": "Albertus Magnus",
     "lead": "Albertus Magnus (c. 1200 – 15 November 1280), also known as Saint Albert the Great, Albert of Swabia, Albert von Bollstadt, or Albert of Cologne, was a German Dominican friar, philosopher, scientist, and bishop. He is considered one of the ",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. islamic-golden-age) ×2"
   },
   {
     "chapter": 7,
@@ -3449,7 +3623,8 @@
     "title": "Aristotelianism",
     "lead": "Aristotelianism ( ARR-i-stə-TEE-lee-ə-niz-əm) is a philosophical tradition inspired by the work of Aristotle, usually characterized by deductive logic and an analytic inductive method in the study of natural philosophy and metaphysics. It c",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 7,
@@ -3461,7 +3636,8 @@
     "title": "Gothic architecture",
     "lead": "Gothic architecture is an architectural style that was prevalent in Europe from the late 12th to the 16th century, during the High and Late Middle Ages, surviving into the 17th and 18th centuries in some areas. It evolved from Romanesque ar",
     "conf": "CONFIRM-homonym",
-    "why": "linked in renaissance-italy ×8 — ⚠ AMBIGUOUS: also Goths(byzantine-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×8 — ⚠ AMBIGUOUS: also Goths(byzantine-empire)",
     "alts": [
       "Goths(byzantine-empire)"
     ]
@@ -3488,7 +3664,8 @@
     "title": "Council of Trent",
     "lead": "The Council of Trent (Latin: Concilium Tridentinum), held between 1545 and 1563 in Trent (or Trento), in northern Italy, was the 19th ecumenical council of the Catholic Church. Prompted by the Protestant Reformation at the time, it has been",
     "conf": "high",
-    "why": "linked in scientific-revolution ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. scientific-revolution) ×2"
   },
   {
     "chapter": 7,
@@ -3500,7 +3677,8 @@
     "title": "Cairo",
     "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
     "conf": "high",
-    "why": "linked in ancient-nubia ×38"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. ancient-nubia) ×40"
   },
   {
     "chapter": 7,
@@ -3555,7 +3733,8 @@
     "title": "Averroes",
     "lead": "Ibn Rushd (14 April 1126 – 11 December 1198), Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mat",
     "conf": "high",
-    "why": "linked in al-andalus ×9"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×9"
   },
   {
     "chapter": 8,
@@ -3586,7 +3765,8 @@
     "title": "Hungarians",
     "lead": "Hungarians, also known as Magyars, are an ethnic group native to Hungary (Magyarország), who share a common culture, language, history and ancestry. They also have a notable presence in former parts of the Kingdom of Hungary. The Hungarian ",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ottoman-empire ×5 — ⚠ AMBIGUOUS: also Kingdom_of_Hungary_(1301%E2%80%931526)(ottoman-empire)",
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. mongol-empire) ×6 — ⚠ AMBIGUOUS: also Kingdom_of_Hungary_(1301%E2%80%931526)(ottoman-empire)",
     "alts": [
       "Kingdom_of_Hungary_(1301%E2%80%931526)(ottoman-empire)"
     ]
@@ -3610,7 +3790,8 @@
     "title": "Adriatic Sea",
     "lead": "The Adriatic Sea () is a body of water separating the Italian Peninsula from the Balkan Peninsula. The Adriatic is the northernmost arm of the Mediterranean Sea, extending from the Strait of Otranto (where it connects to the Ionian Sea) to ",
     "conf": "high",
-    "why": "linked in byzantine-empire ×7"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. byzantine-empire) ×8"
   },
   {
     "chapter": 8,
@@ -3622,7 +3803,8 @@
     "title": "Mongolia",
     "lead": "Mongolia is a landlocked country in the East Asia region. It is bordered by Russia to the north and China to the south, and covers an area of 1,564,116 square kilometers (603,909 square miles), making it the 18th-largest country in the worl",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×18"
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. delhi-sultanate) ×32"
   },
   {
     "chapter": 8,
@@ -3644,7 +3826,8 @@
     "title": "Eleanor of Aquitaine",
     "lead": "Eleanor of Aquitaine (French: Aliénor d'Aquitaine or Éléonore d'Aquitaine; Occitan: Alienòr d'Aquitània [aljeˈnɔɾ dakiˈtanjɔ]; Latin: Helienordis, Alienorde or Alianor; c. 1124 – 1 April 1204) was duchess of Aquitaine from 1137 to 1204, que",
     "conf": "high",
-    "why": "linked in late-medieval-europe ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. late-medieval-europe) ×2"
   },
   {
     "chapter": 8,
@@ -3656,7 +3839,8 @@
     "title": "Richard I of England",
     "lead": "Richard I (8 September 1157 – 6 April 1199), known as Richard the Lionheart or Richard Cœur de Lion (Old Norman French: Quor de Lion) because of his reputation as a great military leader and warrior, was King of England from 1189 until his ",
     "conf": "high",
-    "why": "linked in byzantine-empire ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. byzantine-empire) ×2"
   },
   {
     "chapter": 8,
@@ -3668,7 +3852,8 @@
     "title": "Duchy of Normandy",
     "lead": "The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 until 1204, as a result of the No",
     "conf": "CONFIRM-homonym",
-    "why": "linked in kievan-rus ×2 — ⚠ AMBIGUOUS: also Normandy(viking-age)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. kievan-rus) ×2 — ⚠ AMBIGUOUS: also Normandy(viking-age)",
     "alts": [
       "Normandy(viking-age)"
     ]
@@ -3683,7 +3868,8 @@
     "title": "Aquitaine",
     "lead": "Aquitaine (UK: , US: ; French: [akitɛn] ; Occitan: Aquitània [akiˈtanjɔ]; Basque: Akitania; Poitevin-Saintongeais: Aguiéne), archaic Guyenne or Guienne (Occitan: Guiana), is a historical region of southwestern France and a former administra",
     "conf": "CONFIRM-homonym",
-    "why": "linked in early-medieval-europe ×6 — ⚠ AMBIGUOUS: also Duchy_of_Aquitaine(late-medieval-europe)",
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. early-medieval-europe) ×6 — ⚠ AMBIGUOUS: also Duchy_of_Aquitaine(late-medieval-europe)",
     "alts": [
       "Duchy_of_Aquitaine(late-medieval-europe)"
     ]
@@ -3710,7 +3896,8 @@
     "title": "London",
     "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
     "conf": "CONFIRM-homonym",
-    "why": "linked in antebellum-america ×33 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture)",
+    "sourceCivs": 8,
+    "why": "linked in 8 civ(s) (e.g. antebellum-america) ×33 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture)",
     "alts": [
       "History_of_London(mississippian-culture)"
     ]
@@ -3725,7 +3912,8 @@
     "title": "Iberian Peninsula",
     "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
     "conf": "high",
-    "why": "linked in carthage ×6"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. carthage) ×6"
   },
   {
     "chapter": 8,
@@ -3749,7 +3937,8 @@
     "title": "Albigensian Crusade",
     "lead": "The Albigensian Crusade (French: Croisade des albigeois), also known as the Cathar Crusade (1209–1229), was a military and ideological campaign initiated by Pope Innocent III to eliminate Catharism in Languedoc, what is now southern France.",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. delhi-sultanate) ×2"
   },
   {
     "chapter": 8,
@@ -3761,7 +3950,8 @@
     "title": "Franciscans",
     "lead": "The Franciscans are a group of related organizations in the Catholic Church, founded by the Italian saint Francis of Assisi. They include three independent religious orders for men (the Order of Friars Minor being the largest contemporary m",
     "conf": "high",
-    "why": "linked in maya-civilization ×5"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. maya-civilization) ×5"
   },
   {
     "chapter": 8,
@@ -3773,7 +3963,8 @@
     "title": "Pope Gregory VII",
     "lead": "Pope Gregory VII (Latin: Gregorius VII; c. 1015 – 25 May 1085), born Hildebrand of Sovana (Italian: Ildebrando di Soana), was head of the Catholic Church and ruler of the Papal States from 22 April 1073 to his death in 1085. He is venerated",
     "conf": "high",
-    "why": "linked in late-medieval-europe ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. late-medieval-europe) ×1"
   },
   {
     "chapter": 8,
@@ -3785,7 +3976,8 @@
     "title": "Anagni",
     "lead": "Anagni (Italian pronunciation: [aˈnaɲɲi]) is an ancient town and comune in the province of Frosinone, Lazio, in the hills east-southeast of Rome. It is a historical and artistic centre of the Latin Valley.",
     "conf": "high",
-    "why": "linked in late-medieval-europe ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. late-medieval-europe) ×2"
   },
   {
     "chapter": 8,
@@ -3816,7 +4008,8 @@
     "title": "Pelagius",
     "lead": "Pelagius ( pə-LAY-jee-əs; fl. c. 354–418) was a Christian theologian known as an ascetic monk and promoting a system of doctrines (termed Pelagianism by the Catholic Church) which emphasized human choice in salvation and denied original sin",
     "conf": "CONFIRM-homonym",
-    "why": "linked in anglo-saxon-england ×2 — ⚠ AMBIGUOUS: also Pelagius_of_Asturias(al-andalus)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. anglo-saxon-england) ×2 — ⚠ AMBIGUOUS: also Pelagius_of_Asturias(al-andalus)",
     "alts": [
       "Pelagius_of_Asturias(al-andalus)"
     ]
@@ -3841,7 +4034,8 @@
     "title": "Kingdom of Navarre",
     "lead": "The Kingdom of Navarre ( nə-VAR), originally the Kingdom of Pamplona, was a historical Iberian polity which occupied lands on both sides of the western Pyrenees, with its northernmost areas originally reaching the Atlantic Ocean (Bay of Bis",
     "conf": "high",
-    "why": "linked in al-andalus ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. al-andalus) ×4"
   },
   {
     "chapter": 8,
@@ -3853,7 +4047,8 @@
     "title": "Berbers",
     "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. They are indigenous to the Maghre",
     "conf": "CONFIRM-homonym",
-    "why": "linked in carthage ×13 — ⚠ AMBIGUOUS: also Berber_languages(ancient-nubia)",
+    "sourceCivs": 6,
+    "why": "linked in 6 civ(s) (e.g. carthage) ×13 — ⚠ AMBIGUOUS: also Berber_languages(ancient-nubia)",
     "alts": [
       "Berber_languages(ancient-nubia)"
     ]
@@ -3877,7 +4072,8 @@
     "title": "Nasrid dynasty",
     "lead": "The Nasrid dynasty (Arabic: بنو نصر banū Naṣr or بنو الأحمر banū al-Aḥmar; Spanish: Nazarí) was an Arab dynasty that ruled the Emirate of Granada from 1232 to 1492. It was the last Muslim dynasty in the Iberian Peninsula and of al-Andalus. ",
     "conf": "high",
-    "why": "linked in al-andalus ×3"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. al-andalus) ×3"
   },
   {
     "chapter": 8,
@@ -3889,7 +4085,8 @@
     "title": "Arabic",
     "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ancient-nubia ×45 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
+    "sourceCivs": 11,
+    "why": "linked in 11 civ(s) (e.g. ancient-nubia) ×51 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire)",
     "alts": [
       "Arabic_language(mughal-empire)"
     ]
@@ -3904,7 +4101,8 @@
     "title": "Toledo, Spain",
     "lead": "Toledo (UK: tol-AY-doh; Spanish: [toˈleðo] ) is a city and municipality in Spain. It is the capital of the province of Toledo and the de jure seat of the government and parliament of the autonomous community of Castilla–La Mancha. Toledo is",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 8,
@@ -3916,7 +4114,8 @@
     "title": "Maimonides",
     "lead": "Moses ben Maimon (died 12 December 1204), commonly known as Maimonides and also referred to by the Hebrew acronym Rambam, was a Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of ",
     "conf": "high",
-    "why": "linked in al-andalus ×4"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. al-andalus) ×4"
   },
   {
     "chapter": 8,
@@ -3928,7 +4127,8 @@
     "title": "Cairo",
     "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
     "conf": "high",
-    "why": "linked in ancient-nubia ×38"
+    "sourceCivs": 13,
+    "why": "linked in 13 civ(s) (e.g. ancient-nubia) ×40"
   },
   {
     "chapter": 8,
@@ -3959,7 +4159,8 @@
     "title": "Jochi",
     "lead": "Jochi (Mongolian: ᠵᠦᠴᠢ; c. 1182 – c. 1225), also spelled Jüchi, was a prince of the early Mongol Empire. His life was marked by controversy over the circumstances of his birth and culminated in his estrangement from his family. He was never",
     "conf": "high",
-    "why": "linked in mongol-empire ×7"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. mongol-empire) ×7"
   },
   {
     "chapter": 8,
@@ -3980,7 +4181,8 @@
     "title": "Ryazan",
     "lead": "Ryazan (Russian: Рязань, IPA: [rʲɪˈzanʲ] ; also Riazan) is the largest city and the administrative center of Ryazan Oblast, Russia. The city is located on the banks of the Oka River in Central Russia, 196 km (122 mi) southeast of Moscow. As",
     "conf": "high",
-    "why": "linked in kievan-rus ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. kievan-rus) ×2"
   },
   {
     "chapter": 8,
@@ -4002,7 +4204,8 @@
     "title": "Kyiv",
     "lead": "Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the country, it straddles both banks of the Dnieper River. As of January 2022, the population of Kyiv was 2,952,301, making it the seven",
     "conf": "high",
-    "why": "linked in kievan-rus ×6"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. kievan-rus) ×8"
   },
   {
     "chapter": 8,
@@ -4012,7 +4215,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×8"
+    "why": "cross-linked elsewhere ×9"
   },
   {
     "chapter": 8,
@@ -4042,9 +4245,9 @@
     "signals": "bold",
     "suggest": "event/glossary",
     "decision": "LINK-CANDIDATE",
-    "slug": "Kadan",
-    "title": "Kadan",
-    "lead": "Kadan (also Qadan) was the son of the second Great Khan of the Mongols Ögedei and a concubine. He was the grandson of Genghis Khan and the brother of Güyük Khan. During the Mongol invasion of Europe, Kadan, along with his cousin Baidar (son",
+    "slug": "Kadaň",
+    "title": "Kadaň",
+    "lead": "Kadaň (Czech pronunciation: [ˈkadaɲ] ; German: Kaaden) is a town in Chomutov District in the Ústí nad Labem Region of the Czech Republic. It has about 18,000 inhabitants. It lies on the banks of the Ohře River and is known as a tourist cent",
     "conf": "high",
     "why": "same name"
   },
@@ -4067,7 +4270,8 @@
     "title": "Güyük Khan",
     "lead": "Güyük Khan or Güyüg Khagan, mononymously Güyüg (c. 19 March 1206 – 20 April 1248), was the third Khagan of the Mongol Empire, the eldest son of Ögedei Khan and a grandson of Genghis Khan. He reigned from 1246 to 1248. He started his militar",
     "conf": "high",
-    "why": "linked in yuan-dynasty ×1"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. mongol-empire) ×3"
   },
   {
     "chapter": 8,
@@ -4077,7 +4281,7 @@
     "decision": "CROSS",
     "targetTl": "high-medieval-europe",
     "conf": "high",
-    "why": "cross-linked elsewhere ×6"
+    "why": "cross-linked elsewhere ×7"
   },
   {
     "chapter": 8,
@@ -4099,7 +4303,7 @@
     "decision": "CROSS",
     "targetTl": "byzantine-empire",
     "conf": "high",
-    "why": "cross-linked elsewhere ×5"
+    "why": "cross-linked elsewhere ×6"
   },
   {
     "chapter": 8,
@@ -4111,7 +4315,8 @@
     "title": "Levant",
     "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
     "conf": "high",
-    "why": "linked in ancient-nubia ×47"
+    "sourceCivs": 21,
+    "why": "linked in 21 civ(s) (e.g. ancient-nubia) ×49"
   },
   {
     "chapter": 8,
@@ -4121,7 +4326,7 @@
     "decision": "CROSS",
     "targetTl": "islamic-golden-age",
     "conf": "high",
-    "why": "cross-linked elsewhere ×10"
+    "why": "cross-linked elsewhere ×14"
   },
   {
     "chapter": 8,
@@ -4131,7 +4336,7 @@
     "decision": "CROSS",
     "targetTl": "islamic-golden-age",
     "conf": "high",
-    "why": "cross-linked elsewhere ×5"
+    "why": "cross-linked elsewhere ×6"
   },
   {
     "chapter": 8,
@@ -4143,19 +4348,21 @@
     "title": "Euphrates",
     "lead": "The Euphrates ( yoo-FRAY-teez; see below) is the longest and one of the most historically important rivers of West Asia. Together with the Tigris, it is one of the two defining rivers of Mesopotamia (lit. 'the land between the rivers'). Ori",
     "conf": "high",
-    "why": "linked in al-andalus ×27"
+    "sourceCivs": 12,
+    "why": "linked in 12 civ(s) (e.g. al-andalus) ×29"
   },
   {
     "chapter": 8,
     "term": "Ilkhans",
     "signals": "recur×3",
     "suggest": "?",
-    "decision": "LINK-CANDIDATE",
-    "slug": "Il_khan",
-    "title": "Il khan",
-    "lead": "Il Khan (also il-khan, ilkhan, elkhan, etc.), in Turkic languages and Mongolian, is a title of leadership. It combines the title khan with the prefix el/il, from the word ulus – 'tribe, clan', 'the people', 'nation', 'homeland', 'state', 't",
+    "decision": "REUSE",
+    "slug": "Ilkhanate",
+    "title": "Ilkhanate",
+    "lead": "The Ilkhanate or Il-khanate was a Mongol khanate founded in the southwestern territories of the Mongol Empire. It was ruled by the Il-Khans or Ilkhanids (Persian: ایلخانان, romanized: Īlkhānān), and known to the Mongols as Hülegü Ulus (lit.",
     "conf": "high",
-    "why": "same name"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mongol-empire) ×4"
   },
   {
     "chapter": 8,
@@ -4167,7 +4374,8 @@
     "title": "Mamluk Sultanate",
     "lead": "The Mamluk Sultanate (Arabic: سلطنة المماليك, romanized: Salṭanat al-Mamālīk), also known as Mamluk Egypt or the Mamluk Empire, was a state that ruled Egypt, the Levant and the Hejaz from the mid-13th to early 16th centuries, with Cairo as ",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×6"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. delhi-sultanate) ×6"
   },
   {
     "chapter": 8,
@@ -4179,7 +4387,8 @@
     "title": "Genoa",
     "lead": "Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301 people live within the city's administrative limits. While its metropolitan city has 818,629 inhabitants, more than 1.5 million p",
     "conf": "CONFIRM-homonym",
-    "why": "linked in ottoman-empire ×8 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. mongol-empire) ×14 — ⚠ AMBIGUOUS: also Republic_of_Genoa(late-medieval-europe)",
     "alts": [
       "Republic_of_Genoa(late-medieval-europe)"
     ]
@@ -4194,7 +4403,8 @@
     "title": "Gothic architecture",
     "lead": "Gothic architecture is an architectural style that was prevalent in Europe from the late 12th to the 16th century, during the High and Late Middle Ages, surviving into the 17th and 18th centuries in some areas. It evolved from Romanesque ar",
     "conf": "CONFIRM-homonym",
-    "why": "linked in renaissance-italy ×8 — ⚠ AMBIGUOUS: also Goths(byzantine-empire)",
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. renaissance-italy) ×8 — ⚠ AMBIGUOUS: also Goths(byzantine-empire)",
     "alts": [
       "Goths(byzantine-empire)"
     ]
@@ -4209,7 +4419,8 @@
     "title": "Crusades",
     "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
     "conf": "high",
-    "why": "linked in islamic-golden-age ×8"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. islamic-golden-age) ×8"
   },
   {
     "chapter": 8,
@@ -4231,7 +4442,8 @@
     "title": "Little Ice Age",
     "lead": "The Little Ice Age (LIA) was a period of regional cooling, particularly pronounced in the North Atlantic region. It was not a true ice age of global extent. The term was introduced into scientific literature by François E. Matthes in 1939. ",
     "conf": "high",
-    "why": "linked in delhi-sultanate ×6"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. delhi-sultanate) ×6"
   },
   {
     "chapter": 8,
@@ -4251,7 +4463,7 @@
     "decision": "CROSS",
     "targetTl": "tang-song-china",
     "conf": "high",
-    "why": "cross-linked elsewhere ×4"
+    "why": "cross-linked elsewhere ×5"
   },
   {
     "chapter": 8,
@@ -4261,7 +4473,7 @@
     "decision": "CROSS",
     "targetTl": "tang-song-china",
     "conf": "high",
-    "why": "cross-linked elsewhere ×3"
+    "why": "cross-linked elsewhere ×4"
   },
   {
     "chapter": 8,
@@ -4293,7 +4505,8 @@
     "title": "Safavid order",
     "lead": "The Safavid order (Persian: طریقت صفویه), also called the Safawiyya (Persian: صفویه, romanized: Safaviyeh), was a Sufi order (tariqa) founded by the mystic Zahed Gilani and named after his son-in-law and successor Safi al-Din Ardabili (1252",
     "conf": "high",
-    "why": "linked in ottoman-empire ×7"
+    "sourceCivs": 3,
+    "why": "linked in 3 civ(s) (e.g. ottoman-empire) ×7"
   },
   {
     "chapter": 8,
@@ -4305,7 +4518,8 @@
     "title": "Ardabil",
     "lead": "Ardabil (Persian: اردبیل, ) is a city in northwestern Iran. It is in the Central District of Ardabil County, Ardabil province, Iran, serving as capital of the province, the county, and the district. The city of Ardabil lies close to the bor",
     "conf": "high",
-    "why": "linked in safavid-persia ×8"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. safavid-persia) ×8"
   },
   {
     "chapter": 8,
@@ -4317,7 +4531,8 @@
     "title": "Sudan",
     "lead": "Sudan, officially the Republic of the Sudan, is a country in Northeast Africa. It borders the Central African Republic to the southwest, Chad to the west, Libya to the northwest, Egypt to the north, the Red Sea to the east, Eritrea and Ethi",
     "conf": "high",
-    "why": "linked in ancient-nubia ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. ancient-nubia) ×4"
   },
   {
     "chapter": 8,
@@ -4329,7 +4544,8 @@
     "title": "Sundiata Keita",
     "lead": "Sundiata Keita (Mandinka, Malinke: [sʊndʒæta keɪta]; c. 1217 – c. 1255, N'Ko spelling: ߛߏ߲߬ߖߘߊ߬ ߞߋߕߊ߬; also known as Manding Diara, Lion of Mali, Sogolon Djata, son of Sogolon, Nare Maghan and Sogo Sogo Simbon Salaba) was a prince and found",
     "conf": "high",
-    "why": "linked in songhai-empire ×2"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. songhai-empire) ×2"
   },
   {
     "chapter": 8,
@@ -4351,7 +4567,8 @@
     "title": "Mesoamerica",
     "lead": "Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern Mexico, all of Belize, Guatemala, El Salvador, western Honduras, and the Greater Nicoya region of Nicaragua and Costa Rica. As a c",
     "conf": "high",
-    "why": "linked in andean-kingdoms ×21"
+    "sourceCivs": 12,
+    "why": "linked in 12 civ(s) (e.g. andean-kingdoms) ×23"
   },
   {
     "chapter": 8,
@@ -4373,7 +4590,8 @@
     "title": "Mayapan",
     "lead": "Mayapan (Màyapáan in Modern Maya; in Spanish Mayapán) is a Pre-Columbian Maya site a couple of kilometers south of the town of Telchaquillo in Tecoh Municipality, approximately 40 km south-east of Mérida and 100 km west of Chichen Itza; in ",
     "conf": "high",
-    "why": "linked in maya-civilization ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. maya-civilization) ×4"
   },
   {
     "chapter": 8,
@@ -4405,7 +4623,8 @@
     "title": "Chimor",
     "lead": "Chimor (also Kingdom of Chimor or Chimú Empire) was the political grouping of the Chimú culture (Spanish pronunciation: [tʃiˈmu]). The culture arose about 900 CE, succeeding the Moche culture, and was later conquered by the Inca emperor Top",
     "conf": "high",
-    "why": "linked in mississippian-culture ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. mississippian-culture) ×1"
   },
   {
     "chapter": 8,
@@ -4417,7 +4636,8 @@
     "title": "New Zealand",
     "lead": "New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island (Te Ika-a-Māui) and the South Island (Te Waipounamu)—and over 600 smaller islands. It is the sixth-largest island countr",
     "conf": "high",
-    "why": "linked in polynesian-voyagers ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. polynesian-voyagers) ×1"
   },
   {
     "chapter": 8,
@@ -4429,7 +4649,8 @@
     "title": "Easter Island",
     "lead": "Easter Island (Spanish: Isla de Pascua, [ˈizla ðe ˈpaskwa]; Rapa Nui: Rapa Nui, [ˈɾapa ˈnu.i]) is an island and special territory of Chile in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceani",
     "conf": "high",
-    "why": "linked in polynesian-voyagers ×1"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. polynesian-voyagers) ×1"
   },
   {
     "chapter": 8,
@@ -4441,7 +4662,8 @@
     "title": "Easter Island",
     "lead": "Easter Island (Spanish: Isla de Pascua, [ˈizla ðe ˈpaskwa]; Rapa Nui: Rapa Nui, [ˈɾapa ˈnu.i]) is an island and special territory of Chile in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceani",
     "conf": "high",
-    "why": "linked in ancestral-puebloans ×5"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. ancestral-puebloans) ×5"
   },
   {
     "chapter": 8,
@@ -4453,7 +4675,8 @@
     "title": "Sahara",
     "lead": "The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica an",
     "conf": "high",
-    "why": "linked in ancient-nubia ×12"
+    "sourceCivs": 5,
+    "why": "linked in 5 civ(s) (e.g. ancient-nubia) ×12"
   },
   {
     "chapter": 8,
@@ -4475,7 +4698,8 @@
     "title": "Valencia",
     "lead": "Valencia, officially València, is the capital of the Valencian Community and the province of the same name in Spain. It is located on the banks of the Turia, on the east coast of the Iberian Peninsula on the Mediterranean Sea. With a popula",
     "conf": "high",
-    "why": "linked in al-andalus ×4"
+    "sourceCivs": 2,
+    "why": "linked in 2 civ(s) (e.g. al-andalus) ×4"
   },
   {
     "chapter": 8,
@@ -4487,7 +4711,8 @@
     "title": "Seville",
     "lead": "Seville ( sə-VIL; Spanish: Sevilla, pronounced [seˈβiʎa] locally [seˈβiʝa]) is the capital and largest city of the Spanish autonomous community of Andalusia and the province of Seville. It is situated on the lower reaches of the River Guada",
     "conf": "high",
-    "why": "linked in al-andalus ×12"
+    "sourceCivs": 4,
+    "why": "linked in 4 civ(s) (e.g. al-andalus) ×12"
   },
   {
     "chapter": 8,
@@ -4499,7 +4724,8 @@
     "title": "Kievan Rus'",
     "lead": "Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities in Eastern Europe from the late 9th to the mid-13th century. Encompassing a variety of polities and peoples, including East Slavi",
     "conf": "high",
-    "why": "linked in goryeo-korea ×4"
+    "sourceCivs": 1,
+    "why": "linked in 1 civ(s) (e.g. goryeo-korea) ×4"
   },
   {
     "chapter": 8,

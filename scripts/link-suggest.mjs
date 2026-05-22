@@ -89,8 +89,9 @@ function buildCorpusIndexes() {
         for (const key of [e.matchText, e.term]) {
           const k = norm(key); if (!k) continue
           let bySlug = slugIdx.get(k); if (!bySlug) { bySlug = new Map(); slugIdx.set(k, bySlug) }
-          const cur = bySlug.get(e.wikiSlug)
-          if (!cur) bySlug.set(e.wikiSlug, { tl: m[1], count: 1 }); else cur.count++
+          let cur = bySlug.get(e.wikiSlug)
+          if (!cur) { cur = { tl: m[1], count: 0, tls: new Set() }; bySlug.set(e.wikiSlug, cur) }
+          cur.count++; cur.tls.add(m[1])   // count = occurrences; tls = DISTINCT source civs (consensus signal for the safe-slice auto-write)
         }
       }
     }
@@ -157,7 +158,8 @@ async function classify(item, idx) {
       return {
         ...item, decision: 'REUSE', slug, title: v.title, lead: v.lead,
         conf: ambiguous ? 'CONFIRM-homonym' : 'high',
-        why: `linked in ${meta.tl} ×${meta.count}` + (ambiguous ? ` — ⚠ AMBIGUOUS: also ${alts.join(', ')}` : ''),
+        sourceCivs: meta.tls.size,   // DISTINCT civs that link this exact slug — consensus signal for safe-slice auto-write
+        why: `linked in ${meta.tls.size} civ(s) (e.g. ${meta.tl}) ×${meta.count}` + (ambiguous ? ` — ⚠ AMBIGUOUS: also ${alts.join(', ')}` : ''),
         alts: ambiguous ? alts : undefined,
       }
     }
@@ -187,11 +189,37 @@ async function classify(item, idx) {
 const idx = buildCorpusIndexes()
 const worklist = parseWorklist().slice(0, LIMIT)
 console.error(`link-suggest ${TL}: ${worklist.length} GATE terms · corpus index ${idx.slugIdx.size} slugs / ${idx.crossIdx.size} cross`)
-const rows = []
-for (let i = 0; i < worklist.length; i++) {
-  rows.push(await classify(worklist[i], idx))
-  if ((i + 1) % 25 === 0) console.error(`  …${i + 1}/${worklist.length}`)
+
+// Pre-warm REUSE slug verification in batched calls. verifySlugs() already chunks
+// 20 titles/request and caches by slug — but classify() used to call it ONE slug at
+// a time inside a serial loop, so a 600-term civ made ~250 single-title round-trips.
+// Resolve every candidate REUSE slug up front in ~⌈n/20⌉ batched calls; classify()
+// below then hits the warm cache (no per-term network) for all REUSE rows.
+const reuseSlugs = []
+for (const it of worklist) {
+  const n = norm(it.term.replace(/\s+Ch$/, ''))
+  const bySlug = idx.slugIdx.get(n)
+  if (bySlug) reuseSlugs.push([...bySlug.entries()].sort((a, b) => b[1].count - a[1].count)[0][0])
 }
+if (reuseSlugs.length) {
+  console.error(`  prewarming ${new Set(reuseSlugs).size} REUSE slug(s) in batched calls…`)
+  await verifySlugs(reuseSlugs, { refresh })
+}
+
+// Classify with bounded concurrency. REUSE rows are now cache hits; the remaining
+// network cost is the per-term LINK-CANDIDATE search (the search API can't batch),
+// so run a small pool to overlap those latencies instead of serialising them.
+const POOL = 8
+const rows = new Array(worklist.length)
+let next = 0, done = 0
+async function worker() {
+  while (next < worklist.length) {
+    const i = next++
+    rows[i] = await classify(worklist[i], idx)
+    if (++done % 25 === 0) console.error(`  …${done}/${worklist.length}`)
+  }
+}
+await Promise.all(Array.from({ length: Math.min(POOL, worklist.length) }, worker))
 
 const tally = rows.reduce((m, r) => ((m[r.decision] = (m[r.decision] || 0) + 1), m), {})
 mkdirSync('audits/link-suggest', { recursive: true })

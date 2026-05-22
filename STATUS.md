@@ -41,25 +41,28 @@ tang-song-china, then continue down `audits/link-coverage-ledger.md`.
    deploy `rm -rf out && npm run build && npx wrangler deploy` for the batch —
    not a full rebuild per civ.
 
-**▶ THE PER-CIV PIPELINE (hardened — ~2 coordinator commands now):**
-1. `node scripts/link-suggest.mjs --tl=<civ>` → `audits/link-suggest/<civ>.json`
-   (PROPOSE: REUSE/CROSS/SKIP/LINK-CANDIDATE/NO-PAGE; ~3 min).
-2. Split per chapter: `node -e` write `/tmp/<civ>/in/ch{N}.json` from the json.
-   Write a per-civ brief (copy `/tmp/<prev>/BRIEF.md`, swap civ id + self-CROSS
-   name + cross-target hints + own-name waiver). Launch ONE LINK agent per
-   chapter, ≤5 concurrent (2 waves for >5 chapters). Each born-verifies every
-   slug vs the page lead, converts self-CROSS→glossary, links demonyms/peoples,
-   waives ONLY own-name/modern-locator/generic.
-3. `node scripts/sweep-merge.mjs <civ> /tmp/<civ>/out` (creates waivers file if
+**▶ THE PER-CIV PIPELINE (hardened + FASTER — rebuilt 2026-05-21):**
+1. `node scripts/link-suggest.mjs --tl=<civ>` → `audits/link-suggest/<civ>.{json,md}`
+   (PROPOSE; now **batched → ~5s**, was minutes. Each REUSE row carries `sourceCivs`).
+2. `node scripts/link-apply.mjs <civ>` (inspect dry-run) then `--apply` —
+   auto-writes ONLY the provably-safe REUSE slice (conf=high · ≥2 words · ≥2 source
+   civs · clean exact-case prose match · unowned; ~30 links on a fresh civ). Everything
+   else stays for agents. **Eyeball the printed list** — it still passes all gates later.
+3. `node scripts/link-split.mjs <civ>` — auto-generates `/tmp/<civ>/in/ch{N}.json`
+   (rows minus SKIP minus auto-applied, lead embedded) + `/tmp/<civ>/BRIEF.md`
+   (no more hand-typed split/brief). Launch ONE LINK agent per chapter, ≤5 concurrent
+   (2 waves for >5 chapters). Each born-verifies every slug vs the embedded lead,
+   converts self-CROSS→glossary, links demonyms/peoples, waives ONLY
+   own-name/modern-locator/generic.
+4. `node scripts/sweep-merge.mjs <civ> /tmp/<civ>/out` (creates waivers file if
    missing: `echo '{}' > content/.link-waivers-<civ>.json` first if needed).
-4. `node scripts/sweep-verify.mjs <civ> --fix-drops` → read the ✅/❌ + the
+5. `node scripts/sweep-verify.mjs <civ> --fix-drops` → read the ✅/❌ + the
    remaining `link-coverage` GATE list.
-5. Residual pass: write `/tmp/<civ>/residual.json` (per-chapter GATE terms,
-   generate from coverage output), a BRIEF2 (demonyms→people pages, real
+6. **Residual round = OPTIONAL (speed change #1).** Small drift residual → STOP (the
+   end-of-program `--corpus` pass mops it). Run a residual pass ONLY if genuinely
+   under-closed: `/tmp/<civ>/residual.json` + a BRIEF2 (demonyms→people pages, real
    entities incl. **bold first-uses** → link, waive only artifacts/era-labels/
-   locators). Launch 2 residual agents (halves). `sweep-merge <civ> /tmp/<civ>/out2`.
-6. `sweep-verify <civ> --fix-drops` again. Hand-close any tiny residual OR
-   (per speed change #1) accept a small drift residual and stop.
+   locators), 2 agents, `sweep-merge <civ> /tmp/<civ>/out2`, `sweep-verify` again.
 7. Force-add the curated set (NEVER `git add -A`):
    `git add -f content/.glossary-links-<civ>.json content/.cross-links-<civ>.json
    content/.link-waivers-<civ>.json content/.link-snapshots-<civ>.json` +

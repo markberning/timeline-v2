@@ -16,7 +16,12 @@ can dodge.
 
 ### 1. PROPOSE — `node scripts/link-suggest.mjs --tl=<civ>`  (deterministic)
 Reads the GATE worklist (`audits/link-coverage/LINK-COVERAGE-NEEDED-<civ>.txt`)
-and classifies EVERY term, writing `audits/link-suggest/<civ>.{json,md}`:
+and classifies EVERY term, writing `audits/link-suggest/<civ>.{json,md}`.
+**Now batched (2026-05-21): ~5s for a 600-term civ, was minutes.** It pre-warms all
+REUSE slug verifications in one batched `verifySlugs` pass (20 titles/call, cached)
+and classifies with a concurrency pool instead of one serial HTTP call per term.
+Each REUSE row also carries `sourceCivs` = the number of DISTINCT civs that link the
+exact slug (consensus signal used by the auto-apply stage).
 - **REUSE** — term is already a born-verified glossary link in another civ →
   reuse that slug (high confidence; ~80% of terms hit this — the corpus index is
   ~18k slugs). Linker just confirms the subject matches in this civ's context.
@@ -39,16 +44,57 @@ Route NO-PAGE rows to stage 3.
 
 ### 3. BLURB — author `definition` blurbs for NO-PAGE terms (no wikiSlug).
 
+## Auto-apply + split (automated — added 2026-05-21)
+
+Two scripts sit between PROPOSE and the agents to (a) take the provably-safe links off
+the agents' plate and (b) generate their inputs + brief, removing all the per-civ
+hand-orchestration:
+
+```sh
+# 1a. auto-write ONLY the provably-safe REUSE slice (dry-run first, then --apply)
+node scripts/link-apply.mjs <civ>            # inspect
+node scripts/link-apply.mjs <civ> --apply    # write
+# 1b. generate per-chapter agent inputs + the hardened brief (excludes auto-applied)
+node scripts/link-split.mjs <civ>
+```
+
+- **link-apply** auto-writes a glossary link ONLY where a same-name/wrong-subject
+  mixup is near-impossible: REUSE `conf=high` (one corpus slug — no homonym) **AND**
+  term ≥2 words (excludes single-word person/place homonyms) **AND** slug linked in
+  ≥2 distinct civs (consensus) **AND** a clean exact-case word-boundary occurrence
+  exists in the chapter PROSE (heading lines stripped, so a title-only term is
+  deferred not title-linked) **AND** the span isn't already owned. Everything else —
+  all single-word terms, all `CONFIRM-homonym`, all low-consensus — is DEFERRED to an
+  agent's lead-read. REUSE is NOT a quality guarantee (the source corpus has
+  legacy wrong-subject links fix-links can't catch — Antioch-the-city in a Crusades
+  chapter, one al-Mansur vs another), so this slice is deliberately narrow (~8% of
+  gaps / ~16% of REUSE on a fresh civ, e.g. 30 links on late-medieval-europe). Every
+  auto-written link STILL passes the full gate stack (lint/fix-links/audit-reuse/
+  coverage/snapshot) before commit — a bad one is blocked, not shipped. Eyeball the
+  printed list + run `audit-reuse-links` regardless.
+- **link-split** writes `/tmp/<civ>/in/ch{N}.json` (the rows each chapter's agent must
+  resolve — REUSE/CROSS/LINK-CANDIDATE/NO-PAGE, minus SKIP, minus auto-applied; the
+  page lead is embedded so agents don't re-fetch), an empty `/tmp/<civ>/out/`, and
+  `/tmp/<civ>/BRIEF.md` (civ id, self-CROSS name, own-name waiver, the full civ
+  catalog, matchText rule). Replaces the hand-typed `node -e` split + copy-swap brief.
+
 ## Coordinator (automated — added 2026-05-21)
 
 The merge + verify hand-work is now two scripts (replacing the per-civ manual steps):
 
 ```sh
-# 1. merge agent outputs (pass-1 dir, and pass-2/residual dir if present)
-node scripts/sweep-merge.mjs <civ> /tmp/<civ>/out /tmp/<civ>/out2
-# 2. run the whole verification + snapshot + ship gates as one report
+# 2. merge agent outputs (pass-1 dir, and pass-2/residual dir ONLY if you ran one)
+node scripts/sweep-merge.mjs <civ> /tmp/<civ>/out [/tmp/<civ>/out2]
+# 3. run the whole verification + snapshot + ship gates as one report
 node scripts/sweep-verify.mjs <civ> --fix-drops
 ```
+
+**Residual round is now OPTIONAL (locked 2026-05-21).** After the main agent wave +
+merge + verify, if only a small drift residual remains (a few NEW from sibling-commit
+coupling), STOP — do NOT launch a residual agent round. The end-of-program `--corpus`
+convergence pass mops all drift at once (that was always the model). Run a residual
+pass only if the worklist is genuinely under-closed (a chapter agent under-delivered),
+not for a handful of drift gaps.
 
 - **sweep-merge** dedups new matchText against existing glossary + cross + **event**
   links (kills the silent-drop collision class), derives the chapter set from the
