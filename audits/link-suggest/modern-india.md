@@ -1,0 +1,385 @@
+# link-suggest — modern-india
+
+{"REUSE":117,"LINK-CANDIDATE":45,"CROSS":23,"SKIP":72,"NO-PAGE":93}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Indo-Islamic** → REUSE `Indo-Islamic_architecture` [high] — _Indo-Islamic architecture_: Indo-Islamic architecture is the architecture of the Indian subcontinent produced by and for Islamic patrons a  (linked in 1 civ(s) (e.g. mughal-empire) ×1)
+- *** Tughlaq** → `Tughlaq_dynasty` [high] — _Tughlaq dynasty_: The Tughlaq dynasty was the third dynasty to rule over the Delhi Sultanate in medieval India. Its reign started in 1320 
+- *** Bahmani** → `Bahmani_Kingdom` [high] — _Bahmani Kingdom_: The Bahmani Kingdom, or the Bahmani Sultanate, was a late medieval Persianate kingdom that ruled the Deccan region. The 
+- **Mughals** → CROSS → `mughal-empire`  (cross-linked elsewhere ×9)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 14 civ(s) (e.g. antebellum-america) ×61 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Meerut** → REUSE `Meerut` [high] — _Meerut_: Meerut is a city that serves as the administrative headquarters of the Meerut district in the Indian state of   (linked in 2 civ(s) (e.g. delhi-sultanate) ×4)
+- **Calcutta** → REUSE `Kolkata` [high] — _Kolkata_: Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian   (linked in 2 civ(s) (e.g. maurya-empire) ×10)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×6)
+- **Red Fort** → REUSE `Red_Fort` [high] — _Red Fort_: The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [laːl 'qɪlaː]) is a historic Mughal fort located in the   (linked in 3 civ(s) (e.g. medieval-india) ×8)
+- *** Lucknow** → `Lucknow` [high] — _Lucknow_: Lucknow (Hindi: Lakhanaū, pronounced [ˈləkʰnə.uː] ) is the capital and the largest city of the Indian state of Uttar Pra
+- *** Jhansi** → `Jhansi` [high] — _Jhansi_: Jhansi (pronounced [d͡ʑʱãː.siː] ) is a historic city in the Indian state of Uttar Pradesh. (Toshan) Balwant Nagar was th
+- *** Rangoon** → `Crab_Rangoon` [high] — _Crab Rangoon_: Crab Rangoon, sometimes called crab puffs, crab rangoon puffs, crab ragoons, cheese wontons, or cream cheese rangoons, a
+- **Indian Rebellion** → REUSE `Indian_Rebellion_of_1857` [high] — _Indian Rebellion of 1857_: The Indian Rebellion of 1857 was a major uprising in India in 1857–58 against the rule of the British East Ind  (linked in 1 civ(s) (e.g. timurid-empire) ×1)
+- **Parliament** → REUSE `Parliament_of_Great_Britain` [CONFIRM-homonym] — _Parliament of Great Britain_: The Parliament of Great Britain was formed in May 1707 following the ratification of the Acts of Union by both  (linked in 1 civ(s) (e.g. early-american-republic) ×2 — ⚠ AMBIGUOUS: also Parliament_of_England(russian-empire))
+- **Crown** → `Crown` [high] — _Crown_: A crown is a traditional form of head adornment, or hat, worn by monarchs as a symbol of their power and dignity. A crow
+- **Secretary of State** → REUSE `United_States_Secretary_of_State` [high] — _United States Secretary of State_: The United States secretary of state (SecState) is a member of the executive branch of the federal government   (linked in 1 civ(s) (e.g. early-american-republic) ×2)
+- Punjab → SKIP (modern locator, cat A)
+- **Bombay** → `Bombay_Sapphire` [high] — _Bombay Sapphire_: Bombay Sapphire is a brand of infused gin distilled by the Bombay Spirits Company, a subsidiary company of Bacardi, at L
+- **Madras** → `Madras_Presidency` [high] — _Madras Presidency_: The Madras Presidency, officially called the Presidency of Fort St. George until 1937, later the Madras Province, was an
+- *** Viceroy** → `Viceroy` [high] — _Viceroy_: A viceroy () is an official who reigns over a polity in the name of and as the representative of the monarch of the terr
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 3 civ(s) (e.g. maurya-empire) ×8)
+- Bihar → SKIP (modern locator, cat A)
+- **Lord Curzon** → `Lord_Curzon_Ki_Haveli` [high] — _Lord Curzon Ki Haveli_: Lord Curzon Ki Haveli is an Indian Hindi-English-language black comedy film directed by Anshuman Jha. The film is produc
+- **Bengali** → NO-PAGE → blurb (top hit "Bengali" is a disambiguation page)
+- **Victorian** → NO-PAGE → blurb (top hit "Victorian" is a disambiguation page)
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 5 civ(s) (e.g. late-medieval-europe) ×9 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Malthusian** → REUSE `Malthusianism` [high] — _Malthusianism_: Malthusianism is a theory that population growth is potentially exponential, according to the Malthusian growt  (linked in 1 civ(s) (e.g. qing-dynasty) ×2)
+- **Australia** → REUSE `Australia` [high] — _Australia_: Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian co  (linked in 1 civ(s) (e.g. polynesian-voyagers) ×2)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 3 civ(s) (e.g. ottoman-empire) ×4)
+- Bangladesh → SKIP (modern locator, cat A)
+- *** Mussolini** → `Benito_Mussolini` [high] — _Benito Mussolini_: Benito Amilcare Andrea Mussolini (29 July 1883 – 28 April 1945) was an Italian politician, journalist, and dictator who 
+- **Partition of Bengal** → `Partition_of_Bengal_(1905)` [high] — _Partition of Bengal (1905)_: The Partition of Bengal in 1905, also known as the First Partition of Bengal, was a territorial reorganization of the Be
+- **Direct British India** → `British_Raj` [low] — _British Raj_: The British Raj ( RAHJ; from Hindustani rāj, 'reign', 'rule' or 'government') was the period of rule by the British Crow
+- **Princely India** → `India` [high] — _India_: India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most
+- **Land revenue** → `Department_of_Revenue_(Kerala)` [med] — _Department of Revenue (Kerala)_: The Department of Land Revenue or Revenue Department is a government department under Government of Kerala that manages 
+- **Great Famines** → NO-PAGE → blurb (top hit "Great Famine" is a disambiguation page)
+
+## Chapter 2
+- **Amritsar** → `Amritsar` [high] — _Amritsar_: Amritsar, also known as Ambarsar, is the second-largest city in the Indian state of Punjab, after Ludhiana. Located in t
+- **Indians** → NO-PAGE → blurb (top hit "Indian" is a disambiguation page)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 3 civ(s) (e.g. ottoman-empire) ×4)
+- **Taj Mahal** → REUSE `Taj_Mahal` [high] — _Taj Mahal_: The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivor  (linked in 5 civ(s) (e.g. delhi-sultanate) ×24)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×6)
+- West Bengal → SKIP (modern locator, cat A)
+- Bangladesh → SKIP (modern locator, cat A)
+- Bihar → SKIP (modern locator, cat A)
+- Odisha → SKIP (modern locator, cat A)
+- **Calcutta** → REUSE `Kolkata` [high] — _Kolkata_: Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian   (linked in 2 civ(s) (e.g. maurya-empire) ×10)
+- **Bengali** → NO-PAGE → blurb (top hit "Bengali" is a disambiguation page)
+- **Manchester** → REUSE `Manchester` [CONFIRM-homonym] — _Manchester_: Manchester is a city in Greater Manchester, England. It had a population of over 589,000 in 2024. It borders t  (linked in 2 civ(s) (e.g. industrial-revolution) ×6 — ⚠ AMBIGUOUS: also History_of_Manchester(early-american-republic))
+- **Anushilan Samiti** → `Anushilan_Samiti` [high] — _Anushilan Samiti_: Anushilan Samiti (lit. 'Practice Association') was an Indian fitness club, which was actually used as an underground soc
+- **Viceroy** → `Viceroy` [high] — _Viceroy_: A viceroy () is an official who reigns over a polity in the name of and as the representative of the monarch of the terr
+- *** Middle East** → `Middle_East` [high] — _Middle East_: The Middle East is a geo-political region that is generally defined as encompassing all of Egypt and all of West Asia ex
+- **Mesopotamia** → CROSS → `mesopotamia`  (cross-linked elsewhere ×71)
+- **Australia** → REUSE `Australia` [high] — _Australia_: Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian co  (linked in 1 civ(s) (e.g. polynesian-voyagers) ×2)
+- **Muhammad Ali Jinnah** → `Muhammad_Ali_Jinnah` [high] — _Muhammad Ali Jinnah_: Muhammad Ali Jinnah (born Mahomedali Jinnahbhai; 25 December 1876 – 11 September 1948) was a barrister, politician, and 
+- Pakistan → SKIP (modern locator, cat A)
+- **Secretary of State** → REUSE `United_States_Secretary_of_State` [high] — _United States Secretary of State_: The United States secretary of state (SecState) is a member of the executive branch of the federal government   (linked in 1 civ(s) (e.g. early-american-republic) ×2)
+- Punjab → SKIP (modern locator, cat A)
+- *** Punjabi** → `Punjabi_language` [high] — _Punjabi language_: Punjabi, sometimes spelled Panjabi, is an Indo-Aryan language native to the Punjab region of Pakistan and India. It is o
+- **Jugantar group** → `Jugantar` [high] — _Jugantar_: Jugantar or Yugantar (Bengali: যুগান্তর Jugantor; lit. New Era or Transition of an Epoch) was one of the two main secret
+
+## Chapter 3
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Indians** → NO-PAGE → blurb (top hit "Indian" is a disambiguation page)
+- **Jainism** → REUSE `Jainism` [high] — _Jainism_: Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward  (linked in 2 civ(s) (e.g. indus-valley) ×9)
+- **Bhagavad Gita** → REUSE `Bhagavad_Gita` [high] — _Bhagavad Gita_: The Bhagavad Gita (; Sanskrit: भगवद्गीता, IPA: [ˌbʱɐɡɐʋɐd ˈɡiːtaː], romanized: bhagavad-gītā, lit. 'God's song  (linked in 2 civ(s) (e.g. medieval-india) ×4)
+- **Tolstoy** → REUSE `Leo_Tolstoy` [high] — _Leo Tolstoy_: Count Lev Nikolayevich Tolstoy (; Russian: Лев Николаевич Толстой, IPA: [ˈlʲef nʲɪkɐˈla(j)ɪvʲɪtɕ tɐlˈstoj] ; 9  (linked in 1 civ(s) (e.g. russian-empire) ×1)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 3 civ(s) (e.g. ottoman-empire) ×4)
+- **Indian National Congress** → `Indian_National_Congress` [high] — _Indian National Congress_: The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political pa
+- Bihar → SKIP (modern locator, cat A)
+- Gujarat → SKIP (modern locator, cat A)
+- **Rowlatt Act** → `Anarchical_and_Revolutionary_Crimes_Act,_1919` [med] — _Anarchical and Revolutionary Crimes Act, 1919_: The Anarchical and Revolutionary Crimes Act, 1919, popularly known as the Rowlatt Act, was a law, applied during the Bri
+- Punjab → SKIP (modern locator, cat A)
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 14 civ(s) (e.g. antebellum-america) ×61 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Kheda agitation** → `Bongal_Kheda` [med] — _Bongal Kheda_: Bongal Kheda (trans. "Drive out the Bengalis) was a nationalistic movement in Assam, India, orchestrated by native Assam
+
+## Chapter 4
+- **Salt March** → `Salt_March` [high] — _Salt March_: The Salt March, also known as the Salt Satyagraha, Dandi March, and the Dandi Satyagraha, was an act of nonviolent civil
+- **Viceroy** → `Viceroy` [high] — _Viceroy_: A viceroy () is an official who reigns over a polity in the name of and as the representative of the monarch of the terr
+- **Bombay** → NO-PAGE → blurb (top hit "Bombay (disambiguation)" is a disambiguation page)
+- **United Provinces** → NO-PAGE → blurb (top hit "United Provinces" is a disambiguation page)
+- Bihar → SKIP (modern locator, cat A)
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 14 civ(s) (e.g. antebellum-america) ×61 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Muslim-majority** → `Islamic_world` [low] — _Islamic world_: The terms Islamic world and Muslim world commonly refer to the Islamic community, which is also known as the Ummah. This
+- Pakistan → SKIP (modern locator, cat A)
+- **Cambridge** → REUSE `University_of_Cambridge` [high] — _University of Cambridge_: The University of Cambridge is a collegiate research university in Cambridge, England. Founded in 1209, the Un  (linked in 5 civ(s) (e.g. high-medieval-europe) ×11)
+- Burma → SKIP (modern locator, cat A)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 3 civ(s) (e.g. ottoman-empire) ×4)
+- **Bengali** → NO-PAGE → blurb (top hit "Bengali" is a disambiguation page)
+- **Calcutta** → REUSE `Kolkata` [high] — _Kolkata_: Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian   (linked in 2 civ(s) (e.g. maurya-empire) ×10)
+- Afghanistan → SKIP (modern locator, cat A)
+- **Soviet Union** → CROSS → `soviet-union`  (cross-linked elsewhere ×5)
+- **Berlin** → REUSE `Berlin` [CONFIRM-homonym] — _Berlin_: Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inha  (linked in 4 civ(s) (e.g. mesopotamia) ×10 — ⚠ AMBIGUOUS: also Battle_of_Berlin(soviet-union))
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 3 civ(s) (e.g. ming-dynasty) ×6 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Singapore** → REUSE `Singapore` [CONFIRM-homonym] — _Singapore_: Singapore, officially the Republic of Singapore, is an island country and city-state in Southeast Asia. Its te  (linked in 2 civ(s) (e.g. japanese-economic-miracle) ×4 — ⚠ AMBIGUOUS: also History_of_Singapore(majapahit))
+- **Taiwan** → REUSE `Taiwan` [CONFIRM-homonym] — _Taiwan_: Taiwan, officially the Republic of China (ROC), is a country in East Asia. The main island of Taiwan, also kno  (linked in 5 civ(s) (e.g. chinese-revolution) ×10 — ⚠ AMBIGUOUS: also Taiwan_under_Japanese_rule(meiji-japan))
+- **Red Fort** → REUSE `Red_Fort` [high] — _Red Fort_: The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [laːl 'qɪlaː]) is a historic Mughal fort located in the   (linked in 3 civ(s) (e.g. medieval-india) ×8)
+- *** Delhi** → CROSS → `delhi-sultanate`  (matches a civ id)
+- **Jawaharlal Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. maurya-empire) ×2)
+- **Great Calcutta Killings** → `Direct_Action_Day` [low] — _Direct Action Day_: Direct Action Day (16 August 1946) was the day the All-India Muslim League decided to take a "direct action" using gener
+- Punjab → SKIP (modern locator, cat A)
+
+## Chapter 5
+- Punjab → SKIP (modern locator, cat A)
+- Bengal → SKIP (modern locator, cat A)
+- Pakistan → SKIP (modern locator, cat A)
+- *** Viceroy** → `Viceroy` [high] — _Viceroy_: A viceroy () is an official who reigns over a polity in the name of and as the representative of the monarch of the terr
+- **Boundary Commissions** → `Boundary_commissions_(United_Kingdom)` [high] — _Boundary commissions (United Kingdom)_: In the United Kingdom, the boundary commissions are non-departmental public bodies responsible for determining the bound
+- **Pakistani** → `Pakistanis` [high] — _Pakistanis_: Pakistanis (Urdu: پاكِستانى قوم, romanized: Pākistānī Qaum, lit. 'Pakistani Nation') are the citizens and nationals of t
+- **Sikh** → REUSE `Sikhism` [CONFIRM-homonym] — _Sikhism_: Sikhism, also known as Sikhi, is an Indian religion and philosophy that originated in the Punjab region of the  (linked in 2 civ(s) (e.g. late-medieval-europe) ×5 — ⚠ AMBIGUOUS: also Sikhs(delhi-sultanate))
+- **Amritsar** → `Amritsar` [high] — _Amritsar_: Amritsar, also known as Ambarsar, is the second-largest city in the Indian state of Punjab, after Ludhiana. Located in t
+- **Calcutta** → REUSE `Kolkata` [high] — _Kolkata_: Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian   (linked in 2 civ(s) (e.g. maurya-empire) ×10)
+- **Karachi** → REUSE `Karachi` [high] — _Karachi_: Karachi is the capital city of the province of Sindh, Pakistan. It is the largest city in Pakistan and 12th la  (linked in 1 civ(s) (e.g. indus-valley) ×2)
+- **Constituent Assembly** → REUSE `Russian_Constituent_Assembly` [high] — _Russian Constituent Assembly_: The All Russian Constituent Assembly (Russian: Всероссийское учредительное собрание, romanized: Vserossiyskoye  (linked in 1 civ(s) (e.g. russian-empire) ×1)
+- **Delhi** → CROSS → `delhi-sultanate`  (cross-linked elsewhere ×2)
+- *** Muslims** → `Muslims` [high] — _Muslims_: Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monothe
+- **Hindus** → `Hindus` [high] — _Hindus_: Hindus (Hindustani: [ˈɦɪndu] ; ), also known as Sanatanis, are people who religiously adhere to Hinduism, also known by 
+- **West Punjab** → `West_Punjab` [high] — _West Punjab_: West Punjab was a province in the Dominion of Pakistan from 1947 to 1955. It was established from the western-half of Br
+- Bihar → SKIP (modern locator, cat A)
+- Sindh → SKIP (modern locator, cat A)
+- **Lahore** → REUSE `Lahore` [high] — _Lahore_: Lahore is the capital and largest city of the Pakistani province of Punjab. It is the second-largest city in P  (linked in 6 civ(s) (e.g. delhi-sultanate) ×26)
+- **Hyderabad** → `Hyderabad` [high] — _Hyderabad_: Hyderabad is the capital and largest city of the Indian state of Telangana. It occupies 650 km2 (250 sq mi) on the Decca
+- Gujarat → SKIP (modern locator, cat A)
+- *** Nawab** → `Nawab` [high] — _Nawab_: Nawab is a royal title indicating a ruler, often of a South Asian state, in many ways comparable to the Western title of
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 5 civ(s) (e.g. late-medieval-europe) ×9 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Indian Army** → `Indian_Army` [high] — _Indian Army_: The Indian Army (IA) (ISO: Bhāratīya Sēnā) is the land-based branch and largest component of the Indian Armed Forces. Th
+- **Pashtun** → REUSE `Pashtuns` [high] — _Pashtuns_: Pashtuns are an Iranian ethnic group primarily residing in southern and eastern Afghanistan and northwestern P  (linked in 2 civ(s) (e.g. delhi-sultanate) ×5)
+- **Instrument of Accession** → `Instrument_of_Accession` [high] — _Instrument of Accession_: The Instrument of Accession was a legal document first introduced by the Government of India Act 1935 and used in 1947 t
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Kapur Commission** → `Kapur_Commission` [high] — _Kapur Commission_: The Kapur Commission was a commission of inquiry by the Government of India, into the murder conspiracy of Mahatma Gandh
+- Republic → SKIP (generic common noun, cat C)
+- **Ambedkar** → `B._R._Ambedkar` [high] — _B. R. Ambedkar_: Bhimrao Ramji Ambedkar (14 April 1891 – 6 December 1956) was an Indian jurist, economist, social reformer and politician
+
+## Chapter 6
+- **Delhi** → CROSS → `delhi-sultanate`  (cross-linked elsewhere ×2)
+- Maharashtra → SKIP (modern locator, cat A)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 3 civ(s) (e.g. ottoman-empire) ×4)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 5 civ(s) (e.g. delhi-sultanate) ×13)
+- **Nehruvian** → `NehruvianDoom` [high] — _NehruvianDoom_: NehruvianDoom (subtitled Sound of the Son) is the collaborative studio album by American hip-hop duo NehruvianDoom which
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- *** Hindi** → `Hindi` [high] — _Hindi_: Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an 
+- **Devanagari** → REUSE `Devanagari` [high] — _Devanagari_: Devanagari ( DAY-və-NAH-gə-ree; in script: देवनागरी, IAST: Devanāgarī, Sanskrit pronunciation: [deːʋɐnaːɡɐriː]  (linked in 2 civ(s) (e.g. delhi-sultanate) ×6)
+- *** Muslims** → `Muslims` [high] — _Muslims_: Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monothe
+- **Bhilai** → REUSE `Bhilai_Steel_Plant` [high] — _Bhilai Steel Plant_: The Bhilai Steel Plant (BSP), located in Bhilai, in the Indian state of Chhattisgarh, is India's first and mai  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Soviet** → CROSS → `soviet-union`  (matches a civ id)
+- **Krishna** → REUSE `Krishna` [CONFIRM-homonym] — _Krishna_: Krishna (; Sanskrit: कृष्ण, IAST: Kṛṣṇa Sanskrit: [ˈkr̩ʂɳɐ] ) is a major deity in Hinduism. He is worshipped a  (linked in 2 civ(s) (e.g. medieval-india) ×6 — ⚠ AMBIGUOUS: also Krishna_River(delhi-sultanate))
+- **Warsaw Pact** → REUSE `Warsaw_Pact` [high] — _Warsaw Pact_: The Warsaw Pact (WP), formally the Treaty of Friendship, Cooperation and Mutual Assistance (TFCMA), was a coll  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Tito's Yugoslavia** → REUSE `Josip_Broz_Tito` [high] — _Josip Broz Tito_: Josip Broz (7 May 1892 – 4 May 1980), commonly known as Tito ( TEE-toh), was a Yugoslav communist revolutionar  (linked in 1 civ(s) (e.g. soviet-union) ×1)
+- **Nasser's Egypt** → REUSE `Gamal_Abdel_Nasser` [high] — _Gamal Abdel Nasser_: Gamal Abdel Nasser Hussein (15 January 1918 – 28 September 1970) was an Egyptian military officer and revoluti  (linked in 1 civ(s) (e.g. soviet-union) ×1)
+- **Belgrade** → REUSE `Belgrade` [high] — _Belgrade_: Belgrade is the capital and largest city of Serbia. It is located at the confluence of the Sava and Danube riv  (linked in 3 civ(s) (e.g. renaissance-italy) ×6)
+- **Washington** → REUSE `Washington,_D.C.` [high] — _Washington, D.C._: Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the   (linked in 1 civ(s) (e.g. renaissance-italy) ×2)
+- **Soviet Union** → CROSS → `soviet-union`  (cross-linked elsewhere ×5)
+- Andhra Pradesh → SKIP (modern locator, cat A)
+- **Telugu** → REUSE `Telugu_language` [high] — _Telugu language_: Telugu ( ; తెలుగు, Telugu pronunciation: [ˈt̪eluɡu]) is a Dravidian language native to the Indian states of An  (linked in 2 civ(s) (e.g. delhi-sultanate) ×3)
+- Tamil Nadu → SKIP (modern locator, cat A)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 2 civ(s) (e.g. medieval-india) ×5 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- Kerala → SKIP (modern locator, cat A)
+- Karnataka → SKIP (modern locator, cat A)
+- Gujarat → SKIP (modern locator, cat A)
+- **People's Republic of China** → REUSE `China` [high] — _China_: China, officially the People's Republic of China (PRC), is a country in East Asia. It is the second-most popul  (linked in 1 civ(s) (e.g. yuan-dynasty) ×1)
+- **Tibet** → REUSE `Tibet` [CONFIRM-homonym] — _Tibet_: Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homel  (linked in 5 civ(s) (e.g. chinese-revolution) ×14 — ⚠ AMBIGUOUS: also Tibet_under_Qing_rule(qing-dynasty), Tibetan_Buddhism(srivijaya))
+- **Beijing** → REUSE `Beijing` [high] — _Beijing_: Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it  (linked in 8 civ(s) (e.g. goryeo-korea) ×48)
+- **Xinjiang** → REUSE `Xinjiang` [high] — _Xinjiang_: Xinjiang, officially the Xinjiang Uygur Autonomous Region (XUAR), is an autonomous region of the People's Repu  (linked in 8 civ(s) (e.g. ancient-china) ×20)
+- **Forward Policy** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **People's Liberation Army** → REUSE `People%27s_Liberation_Army` [high] — _People's Liberation Army_: The People's Liberation Army (PLA) is the military wing of the Chinese Communist Party (CCP) and the primary a  (linked in 2 civ(s) (e.g. chinese-revolution) ×4)
+- General → SKIP (generic common noun, cat C)
+- **Lal Bahadur Shastri** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 7
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Kamaraj Plan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 2 civ(s) (e.g. medieval-india) ×5 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- **Prime Minister** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- Mexico → SKIP (modern locator, cat A)
+- Punjab → SKIP (modern locator, cat A)
+- Haryana → SKIP (modern locator, cat A)
+- Bengal → SKIP (modern locator, cat A)
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 3 civ(s) (e.g. maurya-empire) ×8)
+- Rajasthan → SKIP (modern locator, cat A)
+- **Soviet Union** → CROSS → `soviet-union`  (cross-linked elsewhere ×5)
+- **Syndicate** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Tamil Nadu → SKIP (modern locator, cat A)
+- Karnataka → SKIP (modern locator, cat A)
+- Maharashtra → SKIP (modern locator, cat A)
+- **General Election** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Lok Sabha** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Pakistan → SKIP (modern locator, cat A)
+- **West Pakistani** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **East Pakistani** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Urdu** → REUSE `Urdu` [high] — _Urdu_: Urdu (اُرْدُو, urdū, [ˈʊɾduː] ) is an Indo-Aryan language spoken primarily in South Asia. It is the national l  (linked in 2 civ(s) (e.g. delhi-sultanate) ×4)
+- **Operation Searchlight** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **East Pakistan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Awami League** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Cold War** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×2)
+- **Calcutta** → REUSE `Kolkata` [high] — _Kolkata_: Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian   (linked in 2 civ(s) (e.g. maurya-empire) ×10)
+- **Atal Bihari Vajpayee** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Parliament** → REUSE `Parliament_of_Great_Britain` [CONFIRM-homonym] — _Parliament of Great Britain_: The Parliament of Great Britain was formed in May 1707 following the ratification of the Acts of Union by both  (linked in 1 civ(s) (e.g. early-american-republic) ×2 — ⚠ AMBIGUOUS: also Parliament_of_England(russian-empire))
+- **Durga** → REUSE `Durga` [high] — _Durga_: Durga (; Sanskrit: दुर्गा, lit. 'The Inaccessible One, The Impenetrable One', IAST: Durgā [d̪ʊrɡaː]) is one of  (linked in 2 civ(s) (e.g. gupta-empire) ×4)
+- **Congress (R)** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Congress (O)** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Bangladesh genocide** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 8
+- **Indira Gandhi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Raj Narain** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Prime Minister** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Indira** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Gandhian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Total Revolution** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Atal Bihari Vajpayee** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Slum Demolition** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Delhi** → CROSS → `delhi-sultanate`  (matches a civ id)
+- Bengal → SKIP (modern locator, cat A)
+- Bihar → SKIP (modern locator, cat A)
+- *** Hindi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Maharashtra → SKIP (modern locator, cat A)
+- **Indian National Congress** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 9
+- **Emergency** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Charan Singh** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Atal Bihari Vajpayee** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Janata** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Indira** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Parliament** → REUSE `Parliament_of_Great_Britain` [CONFIRM-homonym] — _Parliament of Great Britain_: The Parliament of Great Britain was formed in May 1707 following the ratification of the Acts of Union by both  (linked in 1 civ(s) (e.g. early-american-republic) ×2 — ⚠ AMBIGUOUS: also Parliament_of_England(russian-empire))
+- **Lok Sabha** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Punjab → SKIP (modern locator, cat A)
+- **Anandpur Sahib Resolution** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Haryana → SKIP (modern locator, cat A)
+- Rajasthan → SKIP (modern locator, cat A)
+- **Sikhism** → REUSE `Sikhism` [high] — _Sikhism_: Sikhism, also known as Sikhi, is an Indian religion and philosophy that originated in the Punjab region of the  (linked in 2 civ(s) (e.g. delhi-sultanate) ×7)
+- **Indian Army** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Akal Takht** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Vatican** → REUSE `Vatican_City` [high] — _Vatican City_: Vatican City, officially the Vatican City State (Italian: Stato della Città del Vaticano; Latin: Status Civita  (linked in 3 civ(s) (e.g. byzantine-empire) ×7)
+- **Kaaba** → REUSE `Kaaba` [high] — _Kaaba_: The Kaaba (Arabic: الكعبة, romanized: al-Kaʿba, lit. 'the Cube'), also spelled Kaʽba, Kaʽbah or Kabah, sometim  (linked in 2 civ(s) (e.g. kingdom-of-aksum) ×8)
+- **Satwant Singh** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Delhi** → CROSS → `delhi-sultanate`  (matches a civ id)
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Sam Pitroda** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Supreme Court** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sharia** → REUSE `Sharia` [high] — _Sharia_: Sharia (; Arabic: ‏شَرِيعَة‎, romanized: šarīʿa, lit. 'path [to water]', IPA: [ʃaˈriːʕa]), also transliterated  (linked in 8 civ(s) (e.g. al-andalus) ×16)
+- *** Muslims** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Ayodhya** → REUSE `Ayodhya` [high] — _Ayodhya_: Ayodhya (Hindi: Ayodhyā, pronounced [ɐˈjoːd̪ʱjɐː] ) is a city situated on the banks of the Sarayu river in the  (linked in 2 civ(s) (e.g. mughal-empire) ×4)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×6)
+- **Babur** → CROSS → `mughal-empire`  (cross-linked elsewhere ×8)
+- Sri Lanka → SKIP (modern locator, cat A)
+- **LTTE** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 2 civ(s) (e.g. medieval-india) ×5 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- Tamil Nadu → SKIP (modern locator, cat A)
+- **Indo-Sri Lanka Accord** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Congress (I)** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Punjab crisis** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 10
+- **General Election** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Parliament** → REUSE `Parliament_of_Great_Britain` [CONFIRM-homonym] — _Parliament of Great Britain_: The Parliament of Great Britain was formed in May 1707 following the ratification of the Acts of Union by both  (linked in 1 civ(s) (e.g. early-american-republic) ×2 — ⚠ AMBIGUOUS: also Parliament_of_England(russian-empire))
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Rajiv** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Janata Dal** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Prime Minister** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Dalit** → REUSE `Dalit` [high] — _Dalit_: Dalit (English: /ˈdælɪt/, Hindi: [d̪əlɪt̪] from Sanskrit: दलित meaning "broken/scattered"), also called Harija  (linked in 2 civ(s) (e.g. delhi-sultanate) ×4)
+- **Indira** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Bihar → SKIP (modern locator, cat A)
+- Karnataka → SKIP (modern locator, cat A)
+- Tamil Nadu → SKIP (modern locator, cat A)
+- *** Hindi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Somnath** → REUSE `Somnath_temple` [high] — _Somnath Temple_: Somanatha Temple (Sanskrit: सोमनाथ, romanized: Somanātha, lit. Soma = moon nātha = lord/master ) is a Hindu te  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- Gujarat → SKIP (modern locator, cat A)
+- **Ayodhya** → REUSE `Ayodhya` [high] — _Ayodhya_: Ayodhya (Hindi: Ayodhyā, pronounced [ɐˈjoːd̪ʱjɐː] ) is a city situated on the banks of the Sarayu river in the  (linked in 2 civ(s) (e.g. mughal-empire) ×4)
+- **Rajiv Gandhi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Andhra Pradesh → SKIP (modern locator, cat A)
+- **Persian Gulf** → CROSS → `safavid-persia`  (cross-linked elsewhere ×10)
+- **Soviet Union** → CROSS → `soviet-union`  (cross-linked elsewhere ×5)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 14 civ(s) (e.g. antebellum-america) ×61 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Uma Bharti** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- **Kalyan Singh** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Karachi** → REUSE `Karachi` [high] — _Karachi_: Karachi is the capital city of the province of Sindh, Pakistan. It is the largest city in Pakistan and 12th la  (linked in 1 civ(s) (e.g. indus-valley) ×2)
+- **Ram Janmabhoomi movement** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Atal Bihari Vajpayee** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 11
+- Tamil Nadu → SKIP (modern locator, cat A)
+- **Akali Dal** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Punjab → SKIP (modern locator, cat A)
+- Maharashtra → SKIP (modern locator, cat A)
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 3 civ(s) (e.g. maurya-empire) ×8)
+- **Prime Minister** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Rajasthan → SKIP (modern locator, cat A)
+- Pakistan → SKIP (modern locator, cat A)
+- **Indo-Pakistani** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pakistani** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Clinton** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Delhi** → CROSS → `delhi-sultanate`  (matches a civ id)
+- **Pune** → REUSE `Pune` [high] — _Pune_: Pune (Marathi: Puṇē, pronounced [ˈpuɳe] ), previously spelled in English as Poona (the official name until 197  (linked in 2 civ(s) (e.g. mughal-empire) ×4)
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Sonia Gandhi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 3 civ(s) (e.g. ottoman-empire) ×4)
+- **Manmohan Singh** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Ayodhya** → REUSE `Ayodhya` [high] — _Ayodhya_: Ayodhya (Hindi: Ayodhyā, pronounced [ɐˈjoːd̪ʱjɐː] ) is a city situated on the banks of the Sarayu river in the  (linked in 2 civ(s) (e.g. mughal-empire) ×4)
+
+## Chapter 12
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- Pakistan → SKIP (modern locator, cat A)
+- **Karachi** → REUSE `Karachi` [high] — _Karachi_: Karachi is the capital city of the province of Sindh, Pakistan. It is the largest city in Pakistan and 12th la  (linked in 1 civ(s) (e.g. indus-valley) ×2)
+- **Balakot** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Maharashtra → SKIP (modern locator, cat A)
+- *** Delhi** → CROSS → `delhi-sultanate`  (matches a civ id)
+- **Hong Kong** → REUSE `Hong_Kong` [high] — _Hong Kong_: Hong Kong is a special administrative region of China. Situated on China's southern coast just south of Shenzh  (linked in 3 civ(s) (e.g. rise-of-china) ×6)
+- **Singapore** → REUSE `Singapore` [CONFIRM-homonym] — _Singapore_: Singapore, officially the Republic of Singapore, is an island country and city-state in Southeast Asia. Its te  (linked in 2 civ(s) (e.g. japanese-economic-miracle) ×4 — ⚠ AMBIGUOUS: also History_of_Singapore(majapahit))
+- Gujarat → SKIP (modern locator, cat A)
+- **US nuclear deal** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Coalgate scandal** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 13
+- **Modi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Vajpayee** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Manmohan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Pakistan → SKIP (modern locator, cat A)
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 3 civ(s) (e.g. maurya-empire) ×8)
+- **Special Forces** → CROSS → `joseon-korea`  (cross-linked elsewhere ×1)
+- **Pakistani** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Australia** → REUSE `Australia` [high] — _Australia_: Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian co  (linked in 1 civ(s) (e.g. polynesian-voyagers) ×2)
+- **Quad** → REUSE `Quadrilateral_Security_Dialogue` [high] — _Quadrilateral Security Dialogue_: The Quadrilateral Security Dialogue, sometimes referred to as the Quad is a grouping of Australia, India, Japa  (linked in 1 civ(s) (e.g. rise-of-china) ×2)
+- **Himalayas** → REUSE `Himalayas` [high] — _Himalayas_: The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from   (linked in 5 civ(s) (e.g. ancient-china) ×9)
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **JAM trinity** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 14
+- **Modi II** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 3 civ(s) (e.g. maurya-empire) ×8)
+- **Modi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Jammu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kashmiri** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Constituent Assembly** → REUSE `Russian_Constituent_Assembly` [high] — _Russian Constituent Assembly_: The All Russian Constituent Assembly (Russian: Всероссийское учредительное собрание, romanized: Vserossiyskoye  (linked in 1 civ(s) (e.g. russian-empire) ×1)
+- **Ladakh** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Pakistan → SKIP (modern locator, cat A)
+- **United States** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Aksai Chin** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Bangladesh → SKIP (modern locator, cat A)
+- Afghanistan → SKIP (modern locator, cat A)
+- *** Christians** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Muslims** → REUSE `Muslims` [high] — _Muslims_: Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam,  (linked in 4 civ(s) (e.g. high-medieval-europe) ×12)
+- **Delhi** → CROSS → `delhi-sultanate`  (cross-linked elsewhere ×2)
+- **Babri Masjid** → REUSE `Babri_Masjid` [high] — _Babri Masjid_: The Babri Masjid (ISO: Bābarī Masjida; meaning Mosque of Babur) was a mosque located in Ayodhya, in the state   (linked in 1 civ(s) (e.g. mughal-empire) ×2)
+- *** Shankaracharyas** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Congress** → REUSE `United_States_Congress` [high] — _United States Congress_: The United States Congress is the legislative branch of the federal government of the United States. It is a b  (linked in 1 civ(s) (e.g. early-american-republic) ×1)
+- **Delta** → REUSE `Nile_Delta` [high] — _Nile Delta_: The Nile Delta (Arabic: دلتا النيل, Delta an-Nīl or simply الدلتا, ad-Delta) is the delta formed in Lower Egyp  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- Punjab → SKIP (modern locator, cat A)
+- Haryana → SKIP (modern locator, cat A)
+- *** Sikh** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Minimum Support Price** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Red Fort** → REUSE `Red_Fort` [high] — _Red Fort_: The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [laːl 'qɪlaː]) is a historic Mughal fort located in the   (linked in 3 civ(s) (e.g. medieval-india) ×8)
+- **Vasudhaiva Kutumbakam** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×2)
+- **European Union** → REUSE `European_Union` [high] — _European Union_: The European Union (EU) is a political and economic union of 27 member states that are located primarily in Eu  (linked in 2 civ(s) (e.g. ancient-rome) ×4)
+- Andhra Pradesh → SKIP (modern locator, cat A)
+- Bihar → SKIP (modern locator, cat A)
+- **Delta variant wave** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 15
+- **United States** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tibet** → REUSE `Tibet` [CONFIRM-homonym] — _Tibet_: Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homel  (linked in 5 civ(s) (e.g. chinese-revolution) ×14 — ⚠ AMBIGUOUS: also Tibet_under_Qing_rule(qing-dynasty), Tibetan_Buddhism(srivijaya))
+- **Xinjiang** → REUSE `Xinjiang` [high] — _Xinjiang_: Xinjiang, officially the Xinjiang Uygur Autonomous Region (XUAR), is an autonomous region of the People's Repu  (linked in 8 civ(s) (e.g. ancient-china) ×20)
+- **Quad** → REUSE `Quadrilateral_Security_Dialogue` [high] — _Quadrilateral Security Dialogue_: The Quadrilateral Security Dialogue, sometimes referred to as the Quad is a grouping of Australia, India, Japa  (linked in 1 civ(s) (e.g. rise-of-china) ×2)
+- **Australia** → REUSE `Australia` [high] — _Australia_: Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian co  (linked in 1 civ(s) (e.g. polynesian-voyagers) ×2)
+- **Singapore** → REUSE `Singapore` [CONFIRM-homonym] — _Singapore_: Singapore, officially the Republic of Singapore, is an island country and city-state in Southeast Asia. Its te  (linked in 2 civ(s) (e.g. japanese-economic-miracle) ×4 — ⚠ AMBIGUOUS: also History_of_Singapore(majapahit))
+- **Nehru** → REUSE `Jawaharlal_Nehru` [high] — _Jawaharlal Nehru_: Jawaharlal Nehru (14 November 1889 – 27 May 1964) was an Indian anti-colonial nationalist, secular humanist, s  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **China question** → NO-PAGE → blurb (no confident Wikipedia page found)

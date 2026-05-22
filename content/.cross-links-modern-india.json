@@ -17,6 +17,26 @@
       "targetTl": "delhi-sultanate",
       "targetChapter": 1,
       "blurb": "British India inherited a subcontinent whose Muslim-political layer ran back through the Mughals to the Delhi Sultanate — the Raj governed populations the Sultanate had first knit into Indo-Islamic states."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mughal Empire: the dynasty that ruled most of the subcontinent at its height, only to dwindle into the pensioned figureheads the 1857 rebels briefly tried to restore."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, centuries earlier: the Mughal Empire whose monuments Curzon restored had once ruled most of the subcontinent — the dynasty whose Taj Mahal and architecture the late Raj treated as heritage to be conserved."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the land between the rivers: Indian soldiers fought and died across Mesopotamia in the First World War — the ancient heartland of the world's first cities, now a British campaign theater."
     }
   ],
   "3": [
@@ -39,8 +59,15 @@
       "targetTl": "japanese-economic-miracle",
       "targetChapter": 1,
       "blurb": "Bose's 1944 INA invasion attempt was coordinated with Imperial Japanese Army operations in Burma. The relationship was complicated — Japanese officers regarded Bose's volunteers as auxiliaries rather than equal allies, and the substantial Indian POW population in Japanese custody was treated with the same wartime callousness as other Allied prisoners — but the INA was a genuine Indian belligerent contingent of the Japanese war."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the USSR: when Bose slipped across the border in early 1941, Stalin's Soviet Union was still a non-belligerent, bound to Nazi Germany by the 1939 pact — the uneasy partnership that would shatter that June."
     }
   ],
+  "5": [],
   "6": [
     {
       "matchText": "1962 Sino-Indian War",
@@ -59,6 +86,18 @@
       "targetTl": "soviet-union",
       "targetChapter": 13,
       "blurb": "The Soviet Union is the unnamed other bloc in this passage. The Soviet narrative covers the Cold War's first decade — the years the Non-Aligned Movement was forming — from Moscow's side. India's triangulation was unusually sophisticated: it took Soviet industrial partnership (the Bhilai steel mill) while refusing Soviet political alignment, positioning the new movement against both American capitalism and the Soviet model of development-as-coercion."
+    },
+    {
+      "matchText": "Soviet",
+      "targetTl": "soviet-union",
+      "targetChapter": 14,
+      "blurb": "Meanwhile in the USSR: the state-led, heavy-industry planning model Nehru borrowed was the Soviet template — five-year plans and public-sector 'commanding heights' carried over from Stalin's industrialization into the Khrushchev years."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 13,
+      "blurb": "Meanwhile in the USSR: one of the two Cold War superpowers India refused to align with — Moscow led the Eastern Bloc against the American-led West across the iron curtain."
     }
   ],
   "7": [
@@ -73,6 +112,33 @@
       "targetTl": "soviet-union",
       "targetChapter": 16,
       "blurb": "From the Soviet side this was one of the Cold War's genuine successes. The Soviet narrative covers the Brezhnev era of détente and global reach, the period when Moscow aligned with the world's largest democracy against a US-backed military dictatorship — Soviet diplomacy actually working, in contrast to the overreach that would follow in Afghanistan. The 1971 treaty gave the Soviet Union the strategic counterweight to the US-Pakistan-China axis it had been seeking in South Asia."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 16,
+      "blurb": "Meanwhile in the USSR: under Brezhnev's \"developed socialism,\" Moscow brokered the 1966 Tashkent ceasefire and signed the 1971 friendship treaty that gave India its superpower cover."
+    },
+    {
+      "matchText": "Cold War",
+      "targetTl": "soviet-union",
+      "targetChapter": 13,
+      "blurb": "Meanwhile in the USSR: the superpower standoff that began behind the Iron Curtain framed every move here — Washington tilting to Pakistan, Moscow to India."
+    }
+  ],
+  "8": [],
+  "9": [
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, centuries earlier: the Mughal Empire, the Persianate Muslim dynasty that ruled most of the subcontinent — whose builders left the mosque at the heart of the Ayodhya dispute."
+    },
+    {
+      "matchText": "Babur",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in 1526: Babur, the Central Asian conqueror who founded the Mughal Empire — and whose general was traditionally credited with raising the Babri Masjid in 1528."
     }
   ],
   "10": [
@@ -81,6 +147,18 @@
       "targetTl": "mughal-empire",
       "targetChapter": 1,
       "blurb": "The Babri Masjid was traditionally identified as having been built in 1528 by Mir Baqi, a general of the Mughal emperor Babur, on a site Hindu activists claimed was the birthplace of the deity Ram. The actual archaeological evidence for the temple-beneath-the-mosque claim is contested by Indian and international archaeologists; the 2019 Supreme Court ruling awarded the disputed site to the Ram temple trust while allotting an alternative parcel for a new mosque."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Safavid Persia: the same Persian Gulf whose oil shock rattled India's finances in 1991 was, three centuries earlier, the maritime artery of Shah Abbas's trade empire — silk, carpets, and silver moving through Hormuz and the Gulf ports."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 20,
+      "blurb": "Meanwhile in the Soviet Union: the trading partner whose collapse helped tip India into its 1991 crisis was in its final months — Gorbachev's reforms had unraveled and the USSR formally dissolved in December 1991."
     }
   ],
   "11": [
@@ -89,6 +167,22 @@
       "targetTl": "japanese-economic-miracle",
       "targetChapter": 8,
       "blurb": "Vajpayee's NDA government and Koizumi's contemporaneous Japanese reform government (2001–06) shared a structural reform agenda — privatization, regulatory simplification, infrastructure investment — that defined the early-2000s Asian center-right approach to globalization. Vajpayee was the more cautious reformer; Koizumi's privatization push went substantially further than the Indian liberalization had been allowed to."
+    }
+  ],
+  "12": [],
+  "13": [],
+  "14": [
+    {
+      "matchText": "Delhi",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in medieval India: Delhi first became an imperial capital under the Turkic conquerors who built the Delhi Sultanate after the Ghurid conquest around 1206."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in ancient India: Sanskrit took shape as the language of the Vedic hymns, composed and memorized by the priestly poets more than three thousand years before Modi's G20 slogan revived one of its phrases."
     }
   ],
   "15": [
