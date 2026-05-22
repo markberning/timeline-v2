@@ -95,7 +95,10 @@ function AtAGlance() {
     <section style={{ borderTop: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', padding: '14px 16px' }}>
       <button onClick={() => setOpen(o => !o)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'inherit' }}>
         <Eyebrow color={ACCENT}>At a glance</Eyebrow>
-        <span style={{ transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease', opacity: 0.5, fontSize: 12 }}>▾</span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: ACCENT }}>
+          {open ? 'Hide' : 'Show'}
+          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(ACCENT, 0.55)}`, background: alpha(ACCENT, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
+        </span>
       </button>
       {open && (
         <div style={{ marginTop: 14 }}>
