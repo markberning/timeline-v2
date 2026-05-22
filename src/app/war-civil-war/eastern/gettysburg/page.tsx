@@ -34,11 +34,11 @@ const FIGURES = [
   { name: 'J. Chamberlain', role: 'Col., 20th Maine', side: 'U' },
 ]
 const SECTIONS = [
-  { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
-  { id: 'mcpherson', eyebrow: 'Day 1 · July 1', title: 'McPherson’s Ridge', blurb: 'Heth blunders into Buford. Reynolds is killed. By evening the Union has been pushed back to Cemetery Hill.', cas: 15500, day: 1 },
-  { id: 'hooks', eyebrow: 'Day 2 · July 2', title: 'The Hooks', blurb: 'Longstreet swings around to hit the Union left. The 20th Maine holds at the end of the line.', cas: 19500, day: 2 },
+  { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee (South) marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
+  { id: 'mcpherson', eyebrow: 'Day 1 · July 1', title: 'McPherson’s Ridge', blurb: 'Heth (South) blunders into Buford (North). Reynolds (North) is killed. By evening the Union has been pushed back to Cemetery Hill.', cas: 15500, day: 1 },
+  { id: 'hooks', eyebrow: 'Day 2 · July 2', title: 'The Hooks', blurb: 'Longstreet (South) swings around to hit the Union left. The 20th Maine holds at the end of the line.', cas: 19500, day: 2 },
   { id: 'pickett', eyebrow: 'Day 3 · July 3', title: 'Pickett’s Charge', blurb: 'Twelve thousand five hundred men across three-quarters of a mile of open ground. About half do not come back.', cas: 15000, day: 3 },
-  { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee withdraws south through ten days of rain. Five months later Lincoln dedicates the cemetery in two minutes.', cas: null, day: null },
+  { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee (South) withdraws south through ten days of rain. Five months later Lincoln (North) dedicates the cemetery in two minutes.', cas: null, day: null },
 ]
 const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
   setting: { size: 'm', date: '1863', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
@@ -143,9 +143,9 @@ function OutcomePill() {
 
 // Per-day explanations shown below the map; also drive the interactive filter.
 const DAYS = [
-  { n: 1, title: 'Day 1 · July 1', sub: 'McPherson’s Ridge', text: 'Confederate divisions marching in from the northwest blunder into Union cavalry along McPherson’s Ridge. Both armies rush troops toward the sound of the guns; Gen. Reynolds is killed early. By evening the outnumbered Union forces are driven back through the town — but they rally onto the high ground south of it, the hills and ridges that form the fishhook.' },
-  { n: 2, title: 'Day 2 · July 2', sub: 'The hooks', text: 'Lee strikes both ends of the fishhook at once. On the south, Longstreet’s men tear into Devil’s Den, the Wheatfield, the Peach Orchard, and Little Round Top — where Chamberlain’s 20th Maine holds the very end of the Union line. On the northern barb, Ewell claws at Culp’s Hill. The line bends everywhere and breaks nowhere.' },
-  { n: 3, title: 'Day 3 · July 3', sub: 'Pickett’s Charge', text: 'After the largest artillery bombardment of the war, Lee gambles on the center. Roughly 12,500 men — Pickett’s Charge — step off across three-quarters of a mile of open ground toward the Angle on Cemetery Ridge. Canister and rifle fire shred them; the handful who reach the wall (the “high-water mark”) are killed or captured. The charge fails, and Lee’s invasion with it.' },
+  { n: 1, title: 'Day 1 · July 1', sub: 'McPherson’s Ridge', text: 'Confederate divisions marching in from the northwest blunder into Union cavalry along McPherson’s Ridge. Both armies rush troops toward the sound of the guns; Gen. Reynolds (North) is killed early. By evening the outnumbered Union forces are driven back through the town — but they rally onto the high ground south of it, the hills and ridges that form the fishhook.' },
+  { n: 2, title: 'Day 2 · July 2', sub: 'The hooks', text: 'Lee (South) strikes both ends of the fishhook at once. On the south, Longstreet (South) drives his men into Devil’s Den, the Wheatfield, the Peach Orchard, and Little Round Top — where Chamberlain (North) and his 20th Maine hold the very end of the Union line. On the northern barb, Ewell (South) claws at Culp’s Hill. The line bends everywhere and breaks nowhere.' },
+  { n: 3, title: 'Day 3 · July 3', sub: 'Pickett’s Charge', text: 'After the largest artillery bombardment of the war, Lee (South) gambles on the center. Roughly 12,500 men — Pickett’s Charge — step off across three-quarters of a mile of open ground toward the Angle on Cemetery Ridge. Canister and rifle fire shred them; the handful who reach the wall (the “high-water mark”) are killed or captured. The charge fails, and Lee’s invasion with it.' },
 ]
 
 // Interactive SVG fishhook battlefield diagram — tap a day to spotlight its
