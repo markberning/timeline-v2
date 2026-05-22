@@ -191,6 +191,146 @@
       "matchText": "Persepolis Fortification Archive",
       "wikiSlug": "Persepolis_Fortification_Archive",
       "type": "concept"
+    },
+    {
+      "matchText": "Babylonian Chronicle",
+      "term": "Babylonian Chronicle",
+      "wikiSlug": "Babylonian_Chronicles"
+    },
+    {
+      "matchText": "Tower of Babel",
+      "term": "Tower of Babel",
+      "wikiSlug": "Tower_of_Babel"
+    },
+    {
+      "matchText": "Book of Isaiah",
+      "term": "Book of Isaiah",
+      "wikiSlug": "Book_of_Isaiah"
+    },
+    {
+      "matchText": "Sephardic Jews",
+      "term": "Sephardic Jews",
+      "wikiSlug": "Sephardic_Jews"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Chavín Horizon",
+      "term": "Chavín Horizon",
+      "wikiSlug": "Chavín_culture"
+    },
+    {
+      "matchText": "Karl Jaspers",
+      "term": "Karl Jaspers",
+      "wikiSlug": "Karl_Jaspers"
+    },
+    {
+      "matchText": "Bayezid II",
+      "term": "Bayezid II",
+      "wikiSlug": "Bayezid_II"
+    },
+    {
+      "matchText": "Archaic period",
+      "term": "Archaic period",
+      "wikiSlug": "Archaic_period_(North_America)"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Cyrus the Great",
+      "term": "Cyrus the Great",
+      "wikiSlug": "Cyrus_the_Great"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Medes",
+      "term": "Medes",
+      "wikiSlug": "Medes"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Aegean",
+      "term": "Aegean",
+      "wikiSlug": "Aegean_Sea"
+    },
+    {
+      "matchText": "Lydian",
+      "term": "Lydian",
+      "wikiSlug": "Lydia"
+    },
+    {
+      "matchText": "Processional Way",
+      "term": "Processional Way",
+      "wikiSlug": "Ishtar_Gate"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Messiah",
+      "term": "Messiah",
+      "wikiSlug": "Messiah"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Zoroastrianism",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Archaic period",
+      "term": "Archaic period",
+      "wikiSlug": "Archaic_Greece"
+    },
+    {
+      "matchText": "Sparta",
+      "term": "Sparta",
+      "wikiSlug": "Sparta"
+    },
+    {
+      "matchText": "Corinth",
+      "term": "Corinth",
+      "wikiSlug": "Ancient_Corinth"
+    },
+    {
+      "matchText": "Paracas",
+      "term": "Paracas",
+      "wikiSlug": "Paracas_culture"
+    },
+    {
+      "matchText": "Ionia",
+      "term": "Ionia",
+      "wikiSlug": "Ionia"
+    },
+    {
+      "matchText": "Satan",
+      "term": "Satan",
+      "wikiSlug": "Satan"
     }
   ],
   "2": [
@@ -261,12 +401,6 @@
       "type": "concept"
     },
     {
-      "term": "Imperial Aramaic",
-      "matchText": "Imperial Aramaic",
-      "wikiSlug": "Imperial_Aramaic",
-      "type": "concept"
-    },
-    {
       "term": "Zarathustra",
       "matchText": "Zarathustra",
       "wikiSlug": "Zoroaster",
@@ -307,6 +441,171 @@
       "matchText": "Kingdom of Kush",
       "wikiSlug": "Kingdom_of_Kush",
       "type": "concept"
+    },
+    {
+      "matchText": "Cyrus Cylinder",
+      "term": "Cyrus Cylinder",
+      "wikiSlug": "Cyrus_Cylinder"
+    },
+    {
+      "matchText": "Hebrew Bible",
+      "term": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible"
+    },
+    {
+      "matchText": "Ecbatana",
+      "term": "Ecbatana",
+      "wikiSlug": "Ecbatana"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Cambyses",
+      "term": "Cambyses",
+      "wikiSlug": "Cambyses_II"
+    },
+    {
+      "matchText": "Achaemenid",
+      "term": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Sumerian",
+      "term": "Sumerian",
+      "wikiSlug": "Sumerian_language"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "Media",
+      "term": "Media",
+      "wikiSlug": "Media_(region)"
+    },
+    {
+      "matchText": "Sardis",
+      "term": "Sardis",
+      "wikiSlug": "Sardis"
+    },
+    {
+      "matchText": "Aegean",
+      "term": "Aegean",
+      "wikiSlug": "Aegean_Sea"
+    },
+    {
+      "matchText": "Khuzestan",
+      "term": "Khuzestan",
+      "wikiSlug": "Khuzestan_province"
+    },
+    {
+      "matchText": "Iranian plateau",
+      "term": "Iranian Plateau",
+      "wikiSlug": "Iranian_Plateau"
+    },
+    {
+      "matchText": "Fars",
+      "term": "Fars",
+      "wikiSlug": "Fars_Province"
+    },
+    {
+      "matchText": "Xerxes",
+      "term": "Xerxes",
+      "wikiSlug": "Xerxes_I"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Babylonians",
+      "term": "Babylonians",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Ashurbanipal",
+      "term": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal"
+    },
+    {
+      "matchText": "Semitic",
+      "term": "Semitic",
+      "wikiSlug": "Semitic_languages"
+    },
+    {
+      "matchText": "Zoroaster",
+      "term": "Zoroaster",
+      "wikiSlug": "Zoroaster"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Satan",
+      "term": "Satan",
+      "wikiSlug": "Satan"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Libya",
+      "term": "Libya",
+      "wikiSlug": "Ancient_Libya"
+    },
+    {
+      "matchText": "Tiber",
+      "term": "Tiber",
+      "wikiSlug": "Tiber"
+    },
+    {
+      "matchText": "Gandhara",
+      "term": "Gandhara",
+      "wikiSlug": "Gandhara"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Nuri",
+      "term": "Nuri",
+      "wikiSlug": "Nuri"
+    },
+    {
+      "matchText": "xšaçapāvan",
+      "term": "xšaçapāvan",
+      "wikiSlug": "Satrap"
+    },
+    {
+      "matchText": "Babylonian cuneiform",
+      "term": "Babylonian cuneiform",
+      "wikiSlug": "Cuneiform"
+    },
+    {
+      "matchText": "Indians",
+      "term": "Indians",
+      "definition": "The peoples of the Indus region — the Achaemenid satrapy of Hindush, the empire’s easternmost lands — among the many subject nations that paid tribute to the Persian king."
     }
   ],
   "3": [
@@ -429,6 +728,131 @@
       "matchText": "Pericles",
       "wikiSlug": "Pericles",
       "type": "people"
+    },
+    {
+      "matchText": "Asia Minor",
+      "term": "Asia Minor",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Warring States",
+      "term": "Warring States",
+      "wikiSlug": "Warring_States_period"
+    },
+    {
+      "matchText": "Ionia",
+      "term": "Ionia",
+      "wikiSlug": "Ionia"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Greek-speaking",
+      "term": "Greek-speaking",
+      "definition": "Speaking the Greek language. The cities of Ionia on the western coast of Anatolia had been settled by Greek colonists for centuries, so their populations were ethnically and linguistically Greek even though they lived under Persian rule."
+    },
+    {
+      "matchText": "Halicarnassus",
+      "term": "Halicarnassus",
+      "wikiSlug": "Halicarnassus"
+    },
+    {
+      "matchText": "Lydian",
+      "term": "Lydian",
+      "wikiSlug": "Lydia"
+    },
+    {
+      "matchText": "Naxos",
+      "term": "Naxos",
+      "wikiSlug": "Naxos"
+    },
+    {
+      "matchText": "Sardis",
+      "term": "Sardis",
+      "wikiSlug": "Sardis"
+    },
+    {
+      "matchText": "Darius I",
+      "term": "Darius I",
+      "wikiSlug": "Darius_the_Great"
+    },
+    {
+      "matchText": "Zeus",
+      "term": "Zeus",
+      "wikiSlug": "Zeus"
+    },
+    {
+      "matchText": "Apollo",
+      "term": "Apollo",
+      "wikiSlug": "Apollo"
+    },
+    {
+      "matchText": "Aegean",
+      "term": "Aegean",
+      "wikiSlug": "Aegean_Sea"
+    },
+    {
+      "matchText": "Spartans",
+      "term": "Spartans",
+      "wikiSlug": "Sparta"
+    },
+    {
+      "matchText": "Ephialtes",
+      "term": "Ephialtes",
+      "wikiSlug": "Ephialtes_of_Trachis"
+    },
+    {
+      "matchText": "Hellespont",
+      "term": "Hellespont",
+      "wikiSlug": "Dardanelles"
+    },
+    {
+      "matchText": "Pausanias",
+      "term": "Pausanias",
+      "wikiSlug": "Pausanias_(general)"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Sophocles",
+      "term": "Sophocles",
+      "wikiSlug": "Sophocles"
+    },
+    {
+      "matchText": "Socrates",
+      "term": "Socrates",
+      "wikiSlug": "Socrates"
+    },
+    {
+      "matchText": "Libya",
+      "term": "Libya",
+      "wikiSlug": "Ancient_Libya"
+    },
+    {
+      "matchText": "Persian Wars",
+      "term": "Persian Wars",
+      "wikiSlug": "Greco-Persian_Wars"
+    },
+    {
+      "matchText": "Gandhara",
+      "term": "Gandhara",
+      "wikiSlug": "Gandhara"
+    },
+    {
+      "matchText": "Achaemenid",
+      "term": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Meroë",
+      "term": "Meroë",
+      "wikiSlug": "Meroe"
     }
   ],
   "4": [
@@ -491,15 +915,129 @@
       "matchText": "Xenophon",
       "wikiSlug": "Xenophon",
       "type": "people"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Peace of Callias",
+      "term": "Peace of Callias",
+      "wikiSlug": "Peace_of_Callias"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander the Great",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Xerxes",
+      "term": "Xerxes I",
+      "wikiSlug": "Xerxes_I"
+    },
+    {
+      "matchText": "Salamis",
+      "term": "Battle of Salamis",
+      "wikiSlug": "Battle_of_Salamis"
+    },
+    {
+      "matchText": "Long Afternoon",
+      "term": "The Long Afternoon",
+      "definition": "The label this book uses for the long, low-drama stretch of Achaemenid history (449–334 BCE) between the end of the Greek Wars and the arrival of Alexander — a century and a half when the empire stopped expanding and turned to the harder, quieter work of holding itself together."
+    },
+    {
+      "matchText": "Achaemenid Empire",
+      "term": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Darius II",
+      "term": "Darius II",
+      "wikiSlug": "Darius_II"
+    },
+    {
+      "matchText": "Achaemenid",
+      "term": "Achaemenid dynasty",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Cyrus the Great",
+      "term": "Cyrus the Great",
+      "wikiSlug": "Cyrus_the_Great"
+    },
+    {
+      "matchText": "Lydia",
+      "term": "Lydia",
+      "wikiSlug": "Lydia"
+    },
+    {
+      "matchText": "Sardis",
+      "term": "Sardis",
+      "wikiSlug": "Sardis"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "Persepolis",
+      "term": "Persepolis",
+      "wikiSlug": "Persepolis"
+    },
+    {
+      "matchText": "Artaxerxes III",
+      "term": "Artaxerxes III",
+      "wikiSlug": "Artaxerxes_III"
+    },
+    {
+      "matchText": "Hellespont",
+      "term": "Hellespont",
+      "wikiSlug": "Dardanelles"
+    },
+    {
+      "matchText": "Darius I",
+      "term": "Darius I",
+      "wikiSlug": "Darius_I"
+    },
+    {
+      "matchText": "Pericles",
+      "term": "Pericles",
+      "wikiSlug": "Pericles"
+    },
+    {
+      "matchText": "Parthenon",
+      "term": "Parthenon",
+      "wikiSlug": "Parthenon"
+    },
+    {
+      "matchText": "Socrates",
+      "term": "Socrates",
+      "wikiSlug": "Socrates"
+    },
+    {
+      "matchText": "Thalatta! Thalatta!",
+      "term": "Thalatta! Thalatta!",
+      "wikiSlug": "Thalatta!_Thalatta!"
     }
   ],
   "5": [
-    {
-      "term": "Alexander the Great",
-      "matchText": "Alexander III of Macedon",
-      "wikiSlug": "Alexander_the_Great",
-      "type": "people"
-    },
     {
       "term": "Olympias",
       "matchText": "Olympias",
@@ -511,12 +1049,6 @@
       "matchText": "Aristotle",
       "wikiSlug": "Aristotle",
       "type": "people"
-    },
-    {
-      "term": "Issus",
-      "matchText": "Battle of Issus",
-      "wikiSlug": "Battle_of_Issus",
-      "type": "place"
     },
     {
       "term": "Alexander Mosaic",
@@ -577,6 +1109,106 @@
       "matchText": "Gedrosian Desert",
       "wikiSlug": "Gedrosia",
       "type": "place"
+    },
+    {
+      "matchText": "Hindu Kush",
+      "term": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush"
+    },
+    {
+      "matchText": "Chavín Horizon",
+      "term": "Chavín Horizon",
+      "wikiSlug": "Chavín_culture"
+    },
+    {
+      "matchText": "Philip II",
+      "term": "Philip II",
+      "wikiSlug": "Philip_II_of_Macedon"
+    },
+    {
+      "matchText": "Achilles",
+      "term": "Achilles",
+      "wikiSlug": "Achilles"
+    },
+    {
+      "matchText": "Heracles",
+      "term": "Heracles",
+      "wikiSlug": "Heracles"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Iliad",
+      "term": "Iliad",
+      "wikiSlug": "Iliad"
+    },
+    {
+      "matchText": "Pompeii",
+      "term": "Pompeii",
+      "wikiSlug": "Pompeii"
+    },
+    {
+      "matchText": "Achaemenid Empire",
+      "term": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Bactria",
+      "term": "Bactria",
+      "wikiSlug": "Bactria"
+    },
+    {
+      "matchText": "Persepolis",
+      "term": "Persepolis",
+      "wikiSlug": "Persepolis"
+    },
+    {
+      "matchText": "Persepolis Fortification Archive",
+      "term": "Persepolis Fortification Archive",
+      "wikiSlug": "Persepolis_Administrative_Archives"
+    },
+    {
+      "matchText": "Apadana",
+      "term": "Apadana",
+      "wikiSlug": "Apadana"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Antigonid",
+      "term": "Antigonid",
+      "wikiSlug": "Antigonid_dynasty"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Parthians",
+      "term": "Parthians",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Meroë",
+      "term": "Meroë",
+      "wikiSlug": "Meroe"
     }
   ],
   "6": [
@@ -584,12 +1216,6 @@
       "term": "Parni",
       "matchText": "Parni",
       "wikiSlug": "Parni",
-      "type": "people"
-    },
-    {
-      "term": "Arsaces I",
-      "matchText": "Arsaces I",
-      "wikiSlug": "Arsaces_I_of_Parthia",
       "type": "people"
     },
     {
@@ -605,21 +1231,9 @@
       "type": "concept"
     },
     {
-      "term": "Mithridates I",
-      "matchText": "Mithridates I",
-      "wikiSlug": "Mithridates_I_of_Parthia",
-      "type": "people"
-    },
-    {
       "term": "Seleucia on the Tigris",
       "matchText": "Seleucia",
       "wikiSlug": "Seleucia",
-      "type": "place"
-    },
-    {
-      "term": "Nisa",
-      "matchText": "Nisa",
-      "wikiSlug": "Nisa,_Turkmenistan",
       "type": "place"
     },
     {
@@ -665,16 +1279,120 @@
       "type": "place"
     },
     {
-      "term": "Han Dynasty",
-      "matchText": "Han Dynasty",
-      "wikiSlug": "Han_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Polo",
       "matchText": "polo",
       "wikiSlug": "Polo",
       "type": "concept"
+    },
+    {
+      "matchText": "Euphrates River",
+      "term": "Euphrates River",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander the Great",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian peoples",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamia",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Media",
+      "term": "Media (region)",
+      "wikiSlug": "Media_(region)"
+    },
+    {
+      "matchText": "Bactria",
+      "term": "Bactria",
+      "wikiSlug": "Bactria"
+    },
+    {
+      "matchText": "Achaemenid Empire",
+      "term": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Khorasan",
+      "term": "Greater Khorasan",
+      "wikiSlug": "Greater_Khorasan"
+    },
+    {
+      "matchText": "Seleucid",
+      "term": "Seleucid Empire",
+      "wikiSlug": "Seleucid_Empire"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Parthian Empire",
+      "term": "Parthian Empire",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Achaemenid",
+      "term": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Euphrates",
+      "term": "Euphrates",
+      "wikiSlug": "Euphrates"
+    },
+    {
+      "matchText": "Harran",
+      "term": "Harran",
+      "wikiSlug": "Harran"
+    },
+    {
+      "matchText": "Caesar",
+      "term": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar"
+    },
+    {
+      "matchText": "Pompey",
+      "term": "Pompey",
+      "wikiSlug": "Pompey"
+    },
+    {
+      "matchText": "Sassanids",
+      "term": "Sasanian Empire",
+      "wikiSlug": "Sasanian_Empire"
+    },
+    {
+      "matchText": "Roman Empire",
+      "term": "Roman Empire",
+      "wikiSlug": "Roman_Empire"
     }
   ],
   "7": [
@@ -737,15 +1455,109 @@
       "matchText": "Sasan",
       "wikiSlug": "Sasan",
       "type": "people"
+    },
+    {
+      "matchText": "Parthia",
+      "term": "Parthia",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Parthian",
+      "term": "Parthian",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Carrhae",
+      "term": "Carrhae",
+      "wikiSlug": "Battle_of_Carrhae"
+    },
+    {
+      "matchText": "Crassus",
+      "term": "Crassus",
+      "wikiSlug": "Marcus_Licinius_Crassus"
+    },
+    {
+      "matchText": "Armenian",
+      "term": "Armenian",
+      "wikiSlug": "Armenians"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Arsacid",
+      "term": "Arsacid",
+      "definition": "The Arsacid dynasty was the Parthian ruling house, named for its founder Arsaces I. Its kings governed Iran through a loose, feudal confederation of noble families from 247 BCE until the Sassanid takeover in 224 CE."
+    },
+    {
+      "matchText": "Judaea",
+      "term": "Judaea",
+      "wikiSlug": "Judea_(Roman_province)"
+    },
+    {
+      "matchText": "Parthian Empire",
+      "term": "Parthian Empire",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Seleucid",
+      "term": "Seleucid",
+      "wikiSlug": "Seleucid_Empire"
+    },
+    {
+      "matchText": "Seleucia",
+      "term": "Seleucia",
+      "wikiSlug": "Seleucia"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Roman Empire",
+      "term": "Roman Empire",
+      "wikiSlug": "Roman_Empire"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Zoroastrianism",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Fars",
+      "term": "Fars",
+      "wikiSlug": "Fars_Province"
+    },
+    {
+      "matchText": "Cyrus the Great",
+      "term": "Cyrus the Great",
+      "wikiSlug": "Cyrus_the_Great"
     }
   ],
   "8": [
-    {
-      "term": "Ardashir I",
-      "matchText": "Ardashir I",
-      "wikiSlug": "Ardashir_I",
-      "type": "people"
-    },
     {
       "term": "Kartir",
       "matchText": "Kartir",
@@ -795,22 +1607,10 @@
       "type": "people"
     },
     {
-      "term": "Manichaeism",
-      "matchText": "Manichaeism",
-      "wikiSlug": "Manichaeism",
-      "type": "concept"
-    },
-    {
       "term": "Augustine of Hippo",
       "matchText": "Augustine of Hippo",
       "wikiSlug": "Augustine_of_Hippo",
       "type": "people"
-    },
-    {
-      "term": "Bishapur",
-      "matchText": "Bishapur",
-      "wikiSlug": "Bishapur",
-      "type": "place"
     },
     {
       "term": "Istakhr",
@@ -823,6 +1623,101 @@
       "matchText": "Crisis of the Third Century",
       "wikiSlug": "Crisis_of_the_Third_Century",
       "type": "concept"
+    },
+    {
+      "matchText": "Ahura Mazda",
+      "term": "Ahura Mazda",
+      "wikiSlug": "Ahura_Mazda"
+    },
+    {
+      "matchText": "Arsacids",
+      "term": "Arsacids",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Sassanid",
+      "term": "Sassanid",
+      "wikiSlug": "Sasanian_Empire"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Zoroastrianism",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Fars",
+      "term": "Fars",
+      "wikiSlug": "Fars_Province"
+    },
+    {
+      "matchText": "Cyrus the Great",
+      "term": "Cyrus the Great",
+      "wikiSlug": "Cyrus_the_Great"
+    },
+    {
+      "matchText": "Persepolis",
+      "term": "Persepolis",
+      "wikiSlug": "Persepolis"
+    },
+    {
+      "matchText": "Parthian",
+      "term": "Parthian",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Achaemenid",
+      "term": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Xerxes",
+      "term": "Xerxes",
+      "wikiSlug": "Xerxes_I"
+    },
+    {
+      "matchText": "King of Kings",
+      "term": "King of Kings",
+      "wikiSlug": "King_of_Kings"
+    },
+    {
+      "matchText": "Zoroastrian theocracy",
+      "term": "Zoroastrian theocracy",
+      "wikiSlug": "Theocracy"
+    },
+    {
+      "matchText": "Hindus",
+      "term": "Hindus",
+      "wikiSlug": "Hindus"
     }
   ],
   "9": [
@@ -863,12 +1758,6 @@
       "type": "people"
     },
     {
-      "term": "Khosrow I",
-      "matchText": "Khosrow I Anushirvan",
-      "wikiSlug": "Khosrow_I",
-      "type": "people"
-    },
-    {
       "term": "Galen",
       "matchText": "Galen",
       "wikiSlug": "Galen",
@@ -891,12 +1780,6 @@
       "matchText": "Abbasid caliphs",
       "wikiSlug": "Abbasid_Caliphate",
       "type": "concept"
-    },
-    {
-      "term": "Taq Kasra",
-      "matchText": "Taq Kasra",
-      "wikiSlug": "Taq_Kasra",
-      "type": "place"
     },
     {
       "term": "Hephthalites",
@@ -927,15 +1810,134 @@
       "matchText": "Gupta Empire",
       "wikiSlug": "Gupta_Empire",
       "type": "concept"
+    },
+    {
+      "matchText": "Nestorian Christian",
+      "term": "Nestorian Christian",
+      "wikiSlug": "Church_of_the_East"
+    },
+    {
+      "matchText": "Sassanid",
+      "term": "Sassanid",
+      "wikiSlug": "Sasanian_Empire"
+    },
+    {
+      "matchText": "Sassanid Empire",
+      "term": "Sassanid Empire",
+      "wikiSlug": "Sasanian_Empire"
+    },
+    {
+      "matchText": "Sassanids",
+      "term": "Sassanids",
+      "wikiSlug": "Sasanian_Empire"
+    },
+    {
+      "matchText": "Ctesiphon",
+      "term": "Ctesiphon",
+      "wikiSlug": "Ctesiphon"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Zarathustra",
+      "term": "Zarathustra",
+      "wikiSlug": "Zoroaster"
+    },
+    {
+      "matchText": "Khuzestan",
+      "term": "Khuzestan",
+      "wikiSlug": "Khuzestan_province"
+    },
+    {
+      "matchText": "Syriac",
+      "term": "Syriac",
+      "wikiSlug": "Syriac_language"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Ptolemy",
+      "term": "Ptolemy",
+      "wikiSlug": "Ptolemy"
+    },
+    {
+      "matchText": "Euclid",
+      "term": "Euclid",
+      "wikiSlug": "Euclid"
+    },
+    {
+      "matchText": "Toledo",
+      "term": "Toledo",
+      "wikiSlug": "Toledo,_Spain"
+    },
+    {
+      "matchText": "White Huns",
+      "term": "White Huns",
+      "wikiSlug": "Hephthalite_Empire"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Caspian",
+      "term": "Caspian",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Gilan",
+      "term": "Gilan",
+      "wikiSlug": "Gilan_province"
+    },
+    {
+      "matchText": "Mazandaran",
+      "term": "Mazandaran",
+      "wikiSlug": "Mazandaran_Province"
+    },
+    {
+      "matchText": "Book of Kings",
+      "term": "Book of Kings",
+      "wikiSlug": "Shahnameh"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Iliad",
+      "term": "Iliad",
+      "wikiSlug": "Iliad"
+    },
+    {
+      "matchText": "Aryabhata",
+      "term": "Aryabhata",
+      "wikiSlug": "Aryabhata"
+    },
+    {
+      "matchText": "shah mat",
+      "term": "shah mat",
+      "wikiSlug": "Checkmate"
     }
   ],
   "10": [
-    {
-      "term": "Khosrow II",
-      "matchText": "Khosrow II",
-      "wikiSlug": "Khosrow_II",
-      "type": "people"
-    },
     {
       "term": "Byzantine Empire",
       "matchText": "Byzantine Empire",
@@ -961,22 +1963,10 @@
       "type": "people"
     },
     {
-      "term": "al-Qadisiyyah",
-      "matchText": "al-Qadisiyyah",
-      "wikiSlug": "Battle_of_al-Qādisiyyah",
-      "type": "place"
-    },
-    {
       "term": "Nihavand",
       "matchText": "Nihavand",
       "wikiSlug": "Battle_of_Nahavand",
       "type": "place"
-    },
-    {
-      "term": "Yazdegerd III",
-      "matchText": "Yazdegerd III",
-      "wikiSlug": "Yazdegerd_III",
-      "type": "people"
     },
     {
       "term": "Merv",
@@ -1009,12 +1999,6 @@
       "type": "people"
     },
     {
-      "term": "Tang Dynasty",
-      "matchText": "Tang Dynasty",
-      "wikiSlug": "Tang_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Rostam Farrokhzad",
       "matchText": "Rostam Farrokhzad",
       "wikiSlug": "Rostam_Farrokhzad",
@@ -1025,6 +2009,111 @@
       "matchText": "Sa'd ibn Abi Waqqas",
       "wikiSlug": "Sa%27d_ibn_Abi_Waqqas",
       "type": "people"
+    },
+    {
+      "matchText": "Arabian Peninsula",
+      "term": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Persian language",
+      "term": "Persian language",
+      "wikiSlug": "Persian_language"
+    },
+    {
+      "matchText": "Palestine",
+      "term": "Palestine",
+      "wikiSlug": "Palestine_(region)"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Achaemenid Empire",
+      "term": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Sassanid Empire",
+      "term": "Sassanid Empire",
+      "wikiSlug": "Sasanian_Empire"
+    },
+    {
+      "matchText": "Shahnama",
+      "term": "Shahnama",
+      "wikiSlug": "Shahnameh"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Zagros",
+      "term": "Zagros",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Pahlavi",
+      "term": "Pahlavi",
+      "wikiSlug": "Middle_Persian"
+    },
+    {
+      "matchText": "Zoroastrianism",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Cyrus the Great",
+      "term": "Cyrus the Great",
+      "wikiSlug": "Cyrus_the_Great"
+    },
+    {
+      "matchText": "Persian-speaking Muslims",
+      "term": "Persian-speaking Muslims",
+      "wikiSlug": "Persians"
+    },
+    {
+      "matchText": "Ferdowsi",
+      "term": "Ferdowsi",
+      "wikiSlug": "Ferdowsi"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Persepolis",
+      "term": "Persepolis",
+      "wikiSlug": "Persepolis"
+    },
+    {
+      "matchText": "Gundishapur",
+      "term": "Gundishapur",
+      "wikiSlug": "Gundeshapur"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Persian poetry",
+      "term": "Persian poetry",
+      "wikiSlug": "Persian_literature"
+    },
+    {
+      "matchText": "Persian architecture",
+      "term": "Persian architecture",
+      "wikiSlug": "Iranian_architecture"
     }
   ]
 }
