@@ -49,14 +49,15 @@ const TL_META: Record<string, { size: CardSize; date: string; palette: [string, 
 const SECTION_HREF = '/war-pilot-preview' // standalone reader stand-in for now
 const num = (n: number) => n.toLocaleString('en-US')
 
-// Self-hosted public-domain images per section (campaign + day maps + Lincoln);
-// downloaded from Commons into /public/war-img to avoid hotlink rate-limiting.
+// Self-hosted public-domain images per section. Card images are PHOTOS/art
+// (Lee, Reynolds, Devil's Den, Forbes' Pickett's Charge, the Harvest of Death);
+// the day MAPS live in /public/war-img too and are used inside the narratives.
 const SECTION_IMG: Record<string, string> = {
-  setting: '/war-img/gettysburg-campaign.png',
-  mcpherson: '/war-img/gettysburg-day1.png',
-  hooks: '/war-img/gettysburg-day2.png',
-  pickett: '/war-img/gettysburg-day3.png',
-  aftermath: '/war-img/gettysburg-aftermath.jpg',
+  setting: '/war-img/gettysburg-setting.jpg',
+  mcpherson: '/war-img/gettysburg-day1-photo.jpg',
+  hooks: '/war-img/gettysburg-day2-photo.jpg',
+  pickett: '/war-img/gettysburg-day3-photo.jpg',
+  aftermath: '/war-img/gettysburg-aftermath-photo.jpg',
 }
 
 function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
