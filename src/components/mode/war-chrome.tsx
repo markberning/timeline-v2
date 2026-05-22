@@ -1,5 +1,7 @@
 'use client'
 
+import { Fragment } from 'react'
+
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
 // a consistent breadcrumb + a Timeline/Dossier view toggle at the top of
 // every level. "Timeline" = the stripped escalating-spine; "Dossier" = the
@@ -31,47 +33,69 @@ export interface Crumb {
   href?: string
 }
 
-export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
+export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
+  const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
+  const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
+  const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
+  const faint = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
+  const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
+  const chipActive = 'color-mix(in srgb, var(--foreground) 14%, var(--background))'
+  const iconBtn: React.CSSProperties = {
+    width: 34, height: 34, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center',
+    border, background: chip, borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer', padding: 0,
+  }
   return (
-    <div style={{
-      position: 'sticky', top: 0, zIndex: 5,
-      background: 'color-mix(in srgb, var(--background) 92%, transparent)',
-      backdropFilter: 'blur(8px)',
-      borderBottom: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)',
-      padding: '10px 16px',
-      display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
-    }}>
-      {/* breadcrumb */}
-      <nav style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 6, fontFamily: SANS, fontSize: 11.5, minWidth: 0 }}>
+    <>
+      {/* breadcrumb — its own line, sticky above the toggle */}
+      <nav style={{
+        position: 'sticky', top: 0, zIndex: 8, background: bar,
+        backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
+        borderBottom: border, padding: '6px 12px', display: 'flex', alignItems: 'center', gap: 4,
+        overflowX: 'auto', whiteSpace: 'nowrap', minHeight: 30, boxSizing: 'border-box',
+      }}>
         {crumbs.map((c, i) => {
           const last = i === crumbs.length - 1
-          const node = c.href && !last
-            ? <a href={c.href} style={{ color: 'color-mix(in srgb, var(--foreground) 55%, transparent)', textDecoration: 'none' }}>{c.label}</a>
-            : <span style={{ color: last ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 55%, transparent)', fontWeight: last ? 600 : 400 }}>{c.label}</span>
           return (
-            <span key={i} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, whiteSpace: 'nowrap' }}>
-              {node}
-              {!last && <span style={{ opacity: 0.3 }}>›</span>}
-            </span>
+            <Fragment key={i}>
+              {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
+              {c.href && !last
+                ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flexShrink: 0 }}>{c.label}</a>
+                : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flexShrink: 0 }}>{c.label}</span>}
+            </Fragment>
           )
         })}
       </nav>
 
-      {/* timeline / dossier toggle */}
-      <div style={{ display: 'inline-flex', flexShrink: 0, border: '1px solid color-mix(in srgb, var(--foreground) 20%, transparent)', borderRadius: 7, overflow: 'hidden' }}>
-        {(['timeline', 'dossier'] as View[]).map(v => {
-          const active = v === view
-          return (
-            <button key={v} onClick={() => onView(v)} style={{
-              cursor: 'pointer', padding: '5px 12px', fontSize: 11, fontWeight: 600, textTransform: 'capitalize',
-              fontFamily: SANS, border: 'none',
-              background: active ? accent : 'transparent',
-              color: active ? '#fff' : 'color-mix(in srgb, var(--foreground) 65%, transparent)',
-            }}>{v}</button>
-          )
-        })}
+      {/* toggle bar — back + Timeline/Dossier segmented + spacer */}
+      <div style={{
+        position: 'sticky', top: 36, zIndex: 6, background: bar,
+        backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
+        borderBottom: border, padding: '10px 14px 12px', display: 'flex', alignItems: 'center', gap: 10,
+      }}>
+        <button aria-label="Back" onClick={() => history.back()} style={iconBtn}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+        </button>
+        <div style={{ flex: 1, display: 'flex', background: chip, border, borderRadius: 999, padding: 3, gap: 2 }}>
+          {(['timeline', 'dossier'] as View[]).map(v => {
+            const active = v === view
+            return (
+              <button key={v} onClick={() => onView(v)} style={{
+                flex: 1, appearance: 'none', border: 'none', borderRadius: 999, cursor: 'pointer',
+                background: active ? chipActive : 'transparent', color: active ? 'var(--foreground)' : muted,
+                fontFamily: SANS, fontWeight: active ? 600 : 500, fontSize: 12.5, letterSpacing: 0.2, padding: '7px 0',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, textTransform: 'capitalize',
+              }}>
+                {v === 'timeline'
+                  ? <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.4" fill="currentColor" /><circle cx="6" cy="18" r="2.4" fill="currentColor" /><path d="M6 8.4v7.2" stroke="currentColor" strokeWidth="1.4" /><path d="M10 6h8M10 18h6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>
+                  : <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" strokeWidth="1.5" /><path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>}
+                {v}
+              </button>
+            )
+          })}
+        </div>
+        <div style={{ width: 34, height: 34, flexShrink: 0 }} />
       </div>
-    </div>
+    </>
   )
 }
 
