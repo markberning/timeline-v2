@@ -16,7 +16,13 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 21 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 22 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-21 batch 4:** **mesopotamia** (`ce75cc4`, 398→0 NEW) swept one-wave
+  (13 chapters, 5 agents × 2-3 ch) + DEPLOYED LIVE + curl-verified
+  (Code_of_Hammurabi/Inanna/Babylonia). **~81 remain. Next worst-first:**
+  ming-dynasty (393), songhai-empire (353), modern-india (350), persian-empire
+  (344), heian-japan (333).
+
 - **2026-05-21 batch 3:** **early-medieval-europe** (`e54a9ab`, 401→0 NEW) and
   **viking-age** (`15b5015`, 401→0 NEW) swept + DEPLOYED LIVE + curl-verified
   (Charlemagne/Reims/Carolingian_dynasty; Blót/Gorm_the_Old/Norse–Gaels).
