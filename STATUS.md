@@ -16,7 +16,20 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 34 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 38 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-22 batch 8:** **soviet-union** (`5872156`, 278→0 NEW, 20 ch / 4 waves),
+  **meiji-japan** (`f921ad0`, 277→0 NEW), **kievan-rus** (`3679854`, 267→0 NEW,
+  12 ch / 3 waves), **inca-empire** (`470fbc3`, 254→0 NEW) swept + ONE batched
+  atomic deploy + curl-verified (Great_Purge; Tokugawa_shogunate; Khazar_Khaganate;
+  Pachacuti). Recurring coordinator residual patterns now well-grooved: Terror→
+  Great_Purge / Party→CPSU type recurrences, demonym closes, drop redundant blurbs
+  colliding with event/cross links, tighten pre-existing sentence-matchText crosses,
+  retarget redirect-divergent slugs (charqui→Jerky, Polish→Polish_people not the
+  Poles disambig). Agents caught OGPU Telegram channel, Apollo→Greek god, Vladimir
+  Monomakh warship, Yaroslav Amosov MMA fighter, SORAS Rwandan insurer, Trujillo
+  Peru→Spain, Moctezuma I vs II. **~65 remain. Next worst-first:** post-maurya-
+  kingdoms (241), vedic-period (237), russian-empire (237, 20 ch), kingdom-of-aksum,
+  zhou-dynasty.
 - **2026-05-22 batch 7:** **mali-empire** (`d6049d8`, 301→0 NEW), **srivijaya**
   (`869a961`, 296→0 NEW), **kingdom-of-kush** (`fdb886e`, 283→0 NEW), **al-andalus**
   (`14f98b9`, 300→0 NEW, 18 ch / 4 waves) swept + ONE batched atomic deploy +
