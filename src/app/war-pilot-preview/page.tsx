@@ -14,24 +14,42 @@ const WAR = { base: '#b91c1c', baseDark: '#ef4444', text: '#7f1d1d', badge: '#99
 
 type Pov = 'union' | 'confederate'
 
+// Day-three climax, told from each side (the dual-POV moment).
 const POV_PROSE: Record<Pov, { label: string; body: string }> = {
   union: {
     label: 'Union',
     body:
-      'For two days the assaults had come and the line had bent without breaking — at Little Round Top, the Wheatfield, Culp’s Hill. On the third afternoon, after the largest artillery barrage of the war, the men on Cemetery Ridge watched the woods opposite fall silent. Then some twelve thousand Confederates stepped into the open and started across nearly a mile of farmland. The Union guns and rifles tore the lines apart; a few hundred reached the low stone wall, and almost none came back. The line held.',
+      'From Cemetery Ridge the men of the Army of the Potomac watched the woods opposite go quiet — and then roughly twelve thousand Confederates stepped into the open and started across nearly a mile of farmland in parade-ground order. The Union artillery switched to canister, and the rifles opened all along the low stone wall. The gray lines kept coming and closed up the holes, and a few hundred men actually crossed the wall at a little clump of trees — the spot forever after called the high-water mark of the Confederacy — before they were shot down or dragged off as prisoners. The rest fell back across their own dead. The line held.',
   },
   confederate: {
     label: 'Confederate',
     body:
-      'Lee had beaten this army again and again, and he believed one more blow at its center would finally crack it. Over Longstreet’s blunt objection he ordered the charge — George Pickett’s fresh Virginians among them. They went in with the colors up and the ranks dressed, and for a few minutes it looked almost possible. Then the artillery found them and the infantry rose behind the wall. Barely half came back. Lee rode out among the survivors and told them, “It is all my fault.”',
+      'Lee had beaten this army again and again, and he believed one more blow at its center would finally crack it. Over Longstreet’s blunt objection he ordered the charge, with George Pickett’s fresh Virginia division at its heart. They went in with the colors up and the ranks dressed, and for a few unbearable minutes it looked almost possible. Then the canister and the massed rifles found them and tore the formation to pieces. Barely half of those who started came back. Lee rode out among the survivors, saying over and over, “It is all my fault.”',
   },
 }
 
-const BEFORE =
-  'By the summer of 1863 the war in the East had ground to a bloody stalemate, and Robert E. Lee decided to break it with something audacious — carrying the war out of war-ravaged Virginia and onto Northern soil. A victory in Pennsylvania, he reasoned, might feed his hungry army off untouched farmland, rattle Northern voters, and nudge a weary Washington toward peace. Chasing him north came the Army of the Potomac under George Meade, handed command only three days before. On July 1 their lead elements stumbled into each other at a quiet road junction named Gettysburg, and a battle neither general had planned began dragging both whole armies in.'
+const BEFORE: string[] = [
+  'By the summer of 1863 the war in the East had hardened into a bloody stalemate, and Robert E. Lee — fresh from a brilliant victory at Chancellorsville — decided to break the deadlock by doing something audacious: carry the war out of ravaged Virginia and onto Northern soil. A win on Union ground, he reasoned, might let his army feed off untouched farmland, frighten Northern voters in an election season, and maybe push a war-weary Washington toward simply letting the South go.',
+  'So in June he marched the Army of Northern Virginia north. Hurrying to get between Lee and the Northern cities came the Army of the Potomac under George Meade — a careful, sharp-tempered engineer handed command of the entire army just three days earlier. Neither general picked the battlefield. On July 1, Confederate infantry and Union cavalry collided almost by accident at a market town where a dozen roads met: Gettysburg. Once the shooting started, both armies poured toward the sound of the guns.',
+]
 
-const MEANING =
-  'The three days cost Lee something close to a third of his army — men the Confederacy could not replace — and ended his last invasion of the North. The very next day, a thousand miles west, Vicksburg surrendered, splitting the South in two. Whether Gettysburg alone “decided” the war is still argued, but the shape of things changed here: from the first week of July 1863 the Confederacy was on the defensive everywhere, and stayed there. That November, dedicating the cemetery for the dead, Lincoln took two minutes to recast the whole war as a test of whether a nation “of the people, by the people, for the people” could endure.'
+const DAY1: string[] = [
+  'The first day nearly went to the Confederates. They drove the outnumbered Union troops back through the streets of Gettysburg in hard fighting that killed one of the North’s best generals, John Reynolds, in its opening hour. But as the bluecoats fell back, they fell back onto exactly the ground they needed — a chain of hills and ridges south of town curved like a fishhook. By nightfall Meade’s army was dug in on the high ground and Lee’s was strung in a long arc below it. Everything that followed was Lee trying to pry the Union off those heights.',
+]
+
+const DAY2: string[] = [
+  'On the second day Lee swung at both ends of the fishhook. On the Union left, Longstreet’s men crashed into a string of places that are famous now and were nameless then — Devil’s Den, the Wheatfield, the Peach Orchard — where a Union corps had pushed recklessly out ahead of the line and was nearly destroyed for it. At the very end of the line, on a rocky knob called Little Round Top, a college professor turned colonel named Joshua Chamberlain held the extreme flank of the whole Union army with the 20th Maine — and when his men ran out of cartridges, he ordered a downhill bayonet charge that swept the attackers off the slope.',
+  'On the Union right, Confederate troops clawed partway up Culp’s Hill and East Cemetery Hill in the dusk before being thrown back down. It was some of the most savage fighting of the entire war, and at the end of it the line — bent, battered, bleeding — still held. Lee had hit both flanks and broken neither.',
+]
+
+const DAY3: string[] = [
+  'So on the third day Lee did the thing his most trusted general had begged him not to do: he aimed straight at the center. Early that afternoon the largest artillery bombardment ever heard on the continent — some 150 Confederate guns — opened on Cemetery Ridge, meant to shatter the Union middle before the infantry stepped off. Then the guns fell silent, and across the fields the waiting men knew what the silence meant.',
+]
+
+const MEANING: string[] = [
+  'Three days of fighting left something on the order of fifty thousand men killed, wounded, or missing — the bloodiest battle ever fought in the Western Hemisphere. Lee had lost close to a third of his army, irreplaceable men, and on July 4 he began the long, rain-soaked retreat back to Virginia. He would never invade the North again.',
+  'That same Fourth of July, a thousand miles to the west, the Confederate fortress of Vicksburg surrendered to Ulysses S. Grant, handing the Union the whole Mississippi River and cutting the Confederacy in two. Historians still argue whether any single day “decided” the war, but the momentum never came back to the South after that first week of July 1863. And when Lincoln came to Gettysburg that November to dedicate a cemetery for the dead, he spent barely two minutes redefining what all of it had been for — a test of whether a nation “conceived in liberty,” governed “of the people, by the people, for the people,” could endure.',
+]
 
 // Sample rows for the complete battle index (real index would hold all ~280).
 const INDEX_SAMPLE = [
@@ -163,10 +181,19 @@ export default function WarPilotPreview() {
           <div style={{ fontSize: 14, opacity: 0.6, marginBottom: 22, fontFamily: 'var(--font-lora)' }}>July 1–3, 1863 · Adams County, Pennsylvania</div>
 
           <StorySection label="What came before">
-            <p style={proseStyle}>{BEFORE}</p>
+            {BEFORE.map((t, i) => <p key={i} style={{ ...proseStyle, marginBottom: i < BEFORE.length - 1 ? 14 : 0 }}>{t}</p>)}
           </StorySection>
 
-          <StorySection label="The battle">
+          <StorySection label="Day one · July 1">
+            {DAY1.map((t, i) => <p key={i} style={proseStyle}>{t}</p>)}
+          </StorySection>
+
+          <StorySection label="Day two · July 2">
+            {DAY2.map((t, i) => <p key={i} style={{ ...proseStyle, marginBottom: i < DAY2.length - 1 ? 14 : 0 }}>{t}</p>)}
+          </StorySection>
+
+          <StorySection label="Day three · Pickett’s Charge">
+            {DAY3.map((t, i) => <p key={i} style={{ ...proseStyle, marginBottom: 14 }}>{t}</p>)}
             <div style={{ display: 'inline-flex', border: '1px solid color-mix(in srgb, var(--foreground) 20%, transparent)', borderRadius: 8, overflow: 'hidden', marginBottom: 12 }}>
               {(Object.keys(POV_PROSE) as Pov[]).map(p => {
                 const active = p === pov
@@ -181,7 +208,7 @@ export default function WarPilotPreview() {
           </StorySection>
 
           <StorySection label="What it meant">
-            <p style={proseStyle}>{MEANING}</p>
+            {MEANING.map((t, i) => <p key={i} style={{ ...proseStyle, marginBottom: i < MEANING.length - 1 ? 14 : 0 }}>{t}</p>)}
           </StorySection>
 
           {/* stat block — support, under the story */}
