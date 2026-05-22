@@ -16,7 +16,19 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 19 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 21 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-21 batch 3:** **early-medieval-europe** (`e54a9ab`, 401→0 NEW) and
+  **viking-age** (`15b5015`, 401→0 NEW) swept + DEPLOYED LIVE + curl-verified
+  (Charlemagne/Reims/Carolingian_dynasty; Blót/Gorm_the_Old/Norse–Gaels).
+  **SPEEDUP ADOPTED (viking-age on):** one-round agents — ~4 agents × 2 chapters
+  each instead of 2 waves of 5+3, so an 8-chapter civ runs in ONE wave (under the
+  ~5-concurrent rate ceiling), ~⅓ less wall-clock, same quality. Recurring
+  cleanup pattern per civ: a few overlap-redundant glossary drops + transient
+  snapshot rate-limit failures on accented slugs (re-run clears them) + a small
+  coordinator residual pass for demonyms the stale-vs-fresh delta surfaces.
+  **~82 remain. Next worst-first:** mesopotamia (398), ming-dynasty (393),
+  songhai-empire (353), modern-india (350), persian-empire (344).
+
 - **2026-05-21 batch 2 (fresh-worklist):** worklists refreshed corpus-wide via
   `--corpus` (the stale-worklist fix); **tang-song-china** (`4b022e0`, 405→3 NEW)
   and **gokturk-khaganate** (`c2ded10`, 406→2 NEW) swept on the new pipeline +
