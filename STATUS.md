@@ -16,7 +16,19 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 26 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 30 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-22 batch 6:** **heian-japan** (`b902245`, 334→0 NEW), **gupta-empire**
+  (`e02a374`, 332→0 NEW), **joseon-korea** (`83c059f`, 318→0 NEW), **asuka-nara-japan**
+  (`dae2d25`, 309→0 NEW) swept + ONE batched atomic deploy + curl-verified
+  (Minamoto_clan; Jainism; Yi_Hwang; Daijō-kan). Two recurring artifact classes
+  handled by coordinator: (a) pronunciation-gloss false positives (gupta "JAIN" =
+  "oo-JAIN" gloss of Ujjain; ming "SONG"; joseon "SONG") → waive; (b) chain-pointer
+  label fragments (asuka "Song China Ch" from "(Sui, Tang & Song China Ch N)") →
+  waive, the target civ already cross-linked via "Tang". Agents caught dense
+  homonym traps (Sonni→Jack_Sonni; Rashomon film→Rajōmon gate; SETA Corp video
+  game; Saka-saka Filipino film; Kumara→Polynesian sweet potato; pen-name→person
+  Yeonam→Park Ji-won). **~73 remain. Next worst-first:** mali-empire (301),
+  al-andalus (300), srivijaya (296), kingdom-of-kush (283), soviet-union (278).
 - **2026-05-22 batch 5:** **ming-dynasty** (`8f51bd8`, 396→0 NEW), **songhai-empire**
   (`7fd6c97`, 353→0 NEW), **modern-india** (`94ef11d`, 350→0 NEW, 15 ch / 3 waves),
   **persian-empire** (`6c75987`, 349→0 NEW) swept on the new pipeline + ONE batched
