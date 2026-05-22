@@ -40,7 +40,6 @@ const SECTIONS = [
   { id: 'pickett', eyebrow: 'Day 3 · July 3', title: 'Pickett’s Charge', blurb: 'Twelve thousand five hundred men across three-quarters of a mile of open ground. About half do not come back.', cas: 15000, day: 3 },
   { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee withdraws south through ten days of rain. Five months later Lincoln dedicates the cemetery in two minutes.', cas: null, day: null },
 ]
-const DAY_COLOR: Record<number, string> = { 1: ACCENTS.amber, 2: ACCENTS.violet, 3: ACCENTS.rust }
 const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
   setting: { size: 'm', date: '1863', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
   mcpherson: { size: 'l', date: 'Jul 1', palette: ['#7a3b1c', '#3a2820', '#0e0805'] },
@@ -164,6 +163,7 @@ function Fishhook() {
     <text x={x} y={y} fontFamily={MONO} fontSize={size} fill={color || fg} opacity={color ? 1 : op} textAnchor={anchor}>{children}</text>
   )
   const grp: React.CSSProperties = { transition: 'opacity 220ms ease' }
+  const dot = 'color-mix(in srgb, var(--foreground) 58%, transparent)' // neutral "key fighting" marker
   return (
     <div style={{ padding: '0 16px 8px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
@@ -172,7 +172,7 @@ function Fishhook() {
       </div>
       <svg viewBox="0 0 360 300" style={{ width: '100%', height: 'auto', marginTop: 10, borderRadius: 6, background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)' }}>
         <defs>
-          {([['amber', ACCENTS.amber], ['violet', ACCENTS.violet], ['rust', ACCENTS.rust]] as const).map(([id, c]) => (
+          {([['rust', ACCENTS.rust], ['blue', ACCENTS.blue]] as const).map(([id, c]) => (
             <marker key={id} id={`ah-${id}`} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
               <path d="M0,0 L10,5 L0,10 z" fill={c} />
             </marker>
@@ -202,26 +202,27 @@ function Fishhook() {
         <Lbl x={167} y={182}>Cemetery Ridge</Lbl>
         <Lbl x={32} y={176}>Seminary Ridge</Lbl>
 
-        {/* Day 1 — amber */}
+        {/* Day 1 — Confederates attack from the NW */}
         <g opacity={dayOp(1)} style={grp}>
-          <line x1="48" y1="42" x2="118" y2="60" stroke={ACCENTS.amber} strokeWidth={2.4} markerEnd="url(#ah-amber)" />
-          {[[58, 46], [86, 55]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.amber} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
+          <line x1="48" y1="42" x2="118" y2="60" stroke={rust} strokeWidth={2.4} markerEnd="url(#ah-rust)" />
+          {[[58, 46], [86, 55]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={dot} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
           <Lbl x={20} y={38}>McPherson’s Ridge</Lbl>
         </g>
 
-        {/* Day 2 — violet (Longstreet on the left, Ewell at the barb) */}
+        {/* Day 2 — Longstreet (south) & Ewell (barb) attack; Union counter at LRT */}
         <g opacity={dayOp(2)} style={grp}>
-          <line x1="104" y1="208" x2="150" y2="242" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
-          <line x1="218" y1="100" x2="200" y2="112" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
-          {[[132, 254], [138, 236], [122, 222], [156, 248]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.violet} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
+          <line x1="104" y1="208" x2="150" y2="242" stroke={rust} strokeWidth={2.4} markerEnd="url(#ah-rust)" />
+          <line x1="218" y1="100" x2="200" y2="112" stroke={rust} strokeWidth={2.4} markerEnd="url(#ah-rust)" />
+          <line x1="160" y1="246" x2="145" y2="240" stroke={blue} strokeWidth={2.2} markerEnd="url(#ah-blue)" />
+          {[[132, 254], [138, 236], [122, 222], [156, 248]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={dot} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
           <Lbl x={98} y={252} anchor="end">Little Round Top</Lbl>
         </g>
 
-        {/* Day 3 — Pickett's Charge */}
+        {/* Day 3 — Pickett's Charge (Confederate) into the Angle */}
         <g opacity={dayOp(3)} style={grp}>
-          <line x1="102" y1="158" x2="156" y2="158" stroke={ACCENTS.rust} strokeWidth={3} markerEnd="url(#ah-rust)" />
-          <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={ACCENTS.rust} />
-          <Lbl x={168} y={150} color={ACCENTS.rust}>the Angle — high-water mark</Lbl>
+          <line x1="102" y1="158" x2="156" y2="158" stroke={rust} strokeWidth={3} markerEnd="url(#ah-rust)" />
+          <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={rust} />
+          <Lbl x={168} y={150} color={rust}>the Angle — high-water mark</Lbl>
         </g>
 
         {/* compass */}
@@ -233,15 +234,12 @@ function Fishhook() {
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 10 }}>
         {[1, 2, 3].map(n => {
           const on = active === n
-          const c = DAY_COLOR[n]
           return (
             <button key={n} onClick={() => setActive(n)} style={{
-              cursor: 'pointer', fontFamily: SANS, fontSize: 11, fontWeight: 600, padding: '5px 11px', borderRadius: 999,
-              border: `1px solid ${on ? c : 'color-mix(in srgb, var(--foreground) 18%, transparent)'}`,
-              background: on ? alpha(c, 0.14) : 'transparent', color: on ? c : 'color-mix(in srgb, var(--foreground) 65%, transparent)',
-              display: 'inline-flex', alignItems: 'center', gap: 6,
+              cursor: 'pointer', fontFamily: SANS, fontSize: 11, fontWeight: 600, padding: '5px 13px', borderRadius: 999,
+              border: `1px solid ${on ? ACCENT : 'color-mix(in srgb, var(--foreground) 18%, transparent)'}`,
+              background: on ? alpha(ACCENT, 0.14) : 'transparent', color: on ? ACCENT : 'color-mix(in srgb, var(--foreground) 65%, transparent)',
             }}>
-              <span style={{ width: 8, height: 8, borderRadius: 999, background: c }} />
               Day {n}
             </button>
           )
@@ -257,22 +255,25 @@ function Fishhook() {
           <svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" stroke={rust} strokeWidth="3" strokeLinecap="round" /></svg>Confederate line
         </span>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-          <svg width="26" height="10"><line x1="1" y1="5" x2="16" y2="5" stroke={DAY_COLOR[active]} strokeWidth="2.4" /><path d="M15,1 L24,5 L15,9 z" fill={DAY_COLOR[active]} /></svg>Attack
+          <svg width="26" height="10"><line x1="1" y1="5" x2="16" y2="5" stroke={rust} strokeWidth="2.4" /><path d="M15,1 L24,5 L15,9 z" fill={rust} /></svg>Confederate attack
         </span>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
-          <svg width="12" height="10"><circle cx="6" cy="5" r="4" fill={DAY_COLOR[active]} /></svg>Key fighting
+          <svg width="26" height="10"><line x1="1" y1="5" x2="16" y2="5" stroke={blue} strokeWidth="2.4" /><path d="M15,1 L24,5 L15,9 z" fill={blue} /></svg>Union attack
+        </span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+          <svg width="12" height="10"><circle cx="6" cy="5" r="4" fill={dot} /></svg>Key fighting
         </span>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
           <svg width="14" height="12"><path d="M2,11 L7,2 L12,11 z" fill={fg} opacity="0.4" /></svg>Hill (the Round Tops)
         </span>
       </div>
-      <div style={{ fontFamily: SANS, fontSize: 9.5, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)', marginTop: 6 }}>Attacks &amp; fighting markers take the selected day’s colour.</div>
+      <div style={{ fontFamily: SANS, fontSize: 9.5, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)', marginTop: 6 }}>Lines = each army’s position; arrows = attacks, in the attacking side’s colour.</div>
 
       {/* selected day's explanation */}
       {(() => {
         const d = DAYS.find(x => x.n === active)
         if (!d) return null
-        const c = DAY_COLOR[d.n]
+        const c = ACCENT
         return (
           <div style={{ marginTop: 14, border: `1px solid ${alpha(c, 0.4)}`, background: alpha(c, 0.06), borderRadius: 8, padding: '12px 14px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -319,7 +320,7 @@ function SectionsList() {
             <div style={{ position: 'relative', paddingLeft: 40, paddingBottom: 14 }}>
               <div style={{ position: 'absolute', left: 0, top: 2, width: 27, height: 27, borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SANS, fontSize: 12, fontWeight: 700, background: i === 0 ? ACCENT : 'var(--background)', color: i === 0 ? '#fff' : 'color-mix(in srgb, var(--foreground) 60%, transparent)', border: `1px solid ${i === 0 ? ACCENT : 'color-mix(in srgb, var(--foreground) 25%, transparent)'}`, zIndex: 1 }}>{i + 1}</div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
-                <Eyebrow color={s.day ? DAY_COLOR[s.day] : ACCENT}>{s.eyebrow}</Eyebrow>
+                <Eyebrow color={ACCENT}>{s.eyebrow}</Eyebrow>
                 {s.cas && <span style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{num(s.cas)} cas.</span>}
               </div>
               <div style={{ fontFamily: SERIF, fontSize: 17, marginTop: 2 }}>{s.title}</div>
@@ -356,7 +357,7 @@ export default function GettysburgPage() {
             <CordTimeline>
               {SECTIONS.map(s => {
                 const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={s.day ? DAY_COLOR[s.day] : ACCENT} dateTop={m.date} palette={m.palette} title={s.title} sub={s.eyebrow} hook={s.blurb} href={SECTION_HREF} />
+                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} title={s.title} sub={s.eyebrow} hook={s.blurb} href={SECTION_HREF} />
               })}
             </CordTimeline>
           </div>
