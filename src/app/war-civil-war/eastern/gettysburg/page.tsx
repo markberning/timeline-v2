@@ -142,35 +142,82 @@ function OutcomePill() {
   )
 }
 
-// Approximate fishhook diagram (recognizable, not pixel-exact).
+// SVG fishhook battlefield diagram — the real hook shape, both army lines, the
+// three days' attacks as arrows, terrain labels, radiating roads. Themeable
+// (foreground var + accents), offline, no deps. Stylized, not to scale.
 function Fishhook() {
+  const MONO = 'var(--font-geist-mono)'
+  const fg = 'var(--foreground)'
+  const blue = ACCENTS.blue, rust = ACCENTS.rust
+  const TOWN = { x: 150, y: 64 }
+  const roads = [-40, -10, 35, 80, 120, 160, 205, 250, 300]
+  type Anchor = 'start' | 'middle' | 'end'
+  const Lbl = ({ x, y, children, color, op = 0.62, size = 7.5, anchor = 'start' as Anchor }: { x: number; y: number; children: string; color?: string; op?: number; size?: number; anchor?: Anchor }) => (
+    <text x={x} y={y} fontFamily={MONO} fontSize={size} fill={color || fg} opacity={color ? 1 : op} textAnchor={anchor}>{children}</text>
+  )
   return (
     <div style={{ padding: '0 16px 8px' }}>
-      <Eyebrow color={ACCENT}>The battlefield</Eyebrow>
-      <div style={{ position: 'relative', height: 220, marginTop: 10, borderRadius: 6, background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', overflow: 'hidden' }}>
-        {/* Seminary Ridge (CSA) — left vertical bar */}
-        <div style={{ position: 'absolute', left: '24%', top: '14%', bottom: '14%', width: 6, borderRadius: 3, background: alpha(ACCENTS.rust, 0.7) }} />
-        <div style={{ position: 'absolute', left: '20%', top: '6%', fontFamily: SANS, fontSize: 8.5, color: ACCENTS.rust }}>SEMINARY RDG · CSA</div>
-        {/* Cemetery Ridge (Union) — right vertical bar + curl to Culp's Hill */}
-        <div style={{ position: 'absolute', left: '64%', top: '20%', bottom: '14%', width: 6, borderRadius: 3, background: alpha(ACCENTS.blue, 0.8) }} />
-        <div style={{ position: 'absolute', left: '58%', top: '14%', width: '14%', height: 6, borderRadius: 3, background: alpha(ACCENTS.blue, 0.8) }} />
-        <div style={{ position: 'absolute', left: '72%', top: '8%', fontFamily: SANS, fontSize: 8.5, color: ACCENTS.blue }}>CEMETERY RDG · USA</div>
-        {/* Pickett's Charge — dashed arrow across the open ground */}
-        <div style={{ position: 'absolute', left: '31%', top: '52%', width: '32%', height: 0, borderTop: `2px dashed ${alpha(ACCENTS.rust, 0.9)}` }} />
-        <div style={{ position: 'absolute', left: '62%', top: 'calc(52% - 4px)', width: 0, height: 0, borderLeft: `7px solid ${alpha(ACCENTS.rust, 0.9)}`, borderTop: '4px solid transparent', borderBottom: '4px solid transparent' }} />
-        <div style={{ position: 'absolute', left: '34%', top: '56%', fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>Pickett’s Charge, Jul 3</div>
-        {/* engagement dots, color-coded by day */}
-        {[[1, '28%', '34%'], [1, '30%', '70%'], [2, '40%', '78%'], [2, '52%', '74%'], [2, '60%', '30%'], [3, '50%', '50%']].map(([d, l, top], i) => (
-          <div key={i} style={{ position: 'absolute', left: l as string, top: top as string, width: 9, height: 9, borderRadius: 999, background: DAY_COLOR[d as number], border: '1px solid rgba(0,0,0,0.3)' }} />
-        ))}
-        {/* town circle */}
-        <div style={{ position: 'absolute', left: '44%', top: '24%', width: 12, height: 12, borderRadius: 999, border: '1.5px solid color-mix(in srgb, var(--foreground) 45%, transparent)' }} />
-        <div style={{ position: 'absolute', left: '47%', top: '20%', fontFamily: SANS, fontSize: 8, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)' }}>town</div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+        <Eyebrow color={ACCENT}>The battlefield · the fishhook</Eyebrow>
+        <span style={{ fontFamily: MONO, fontSize: 9, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>stylized · not to scale</span>
       </div>
-      <div style={{ display: 'flex', gap: 14, marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)' }}>
-        {[[1, 'Day 1'], [2, 'Day 2'], [3, 'Day 3']].map(([d, l]) => (
-          <span key={l as string}><span style={{ color: DAY_COLOR[d as number] }}>●</span> {l}</span>
-        ))}
+      <svg viewBox="0 0 360 300" style={{ width: '100%', height: 'auto', marginTop: 10, borderRadius: 6, background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)' }}>
+        <defs>
+          {([['amber', ACCENTS.amber], ['violet', ACCENTS.violet], ['rust', ACCENTS.rust]] as const).map(([id, c]) => (
+            <marker key={id} id={`ah-${id}`} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill={c} />
+            </marker>
+          ))}
+        </defs>
+
+        {/* roads radiating from town */}
+        {roads.map((deg, i) => { const r = deg * Math.PI / 180; return <line key={i} x1={TOWN.x} y1={TOWN.y} x2={TOWN.x + Math.cos(r) * 26} y2={TOWN.y + Math.sin(r) * 26} stroke={fg} strokeOpacity={0.16} strokeWidth={1.2} /> })}
+
+        {/* Confederate lines (rust): Seminary Ridge + outer arc north of town */}
+        <path d="M92,92 C118,66 168,62 224,92" fill="none" stroke={rust} strokeWidth={2.5} strokeDasharray="5 4" opacity={0.85} />
+        <path d="M92,92 L98,250" fill="none" stroke={rust} strokeWidth={4} strokeLinecap="round" />
+        {/* Union fishhook (blue): Culp's Hill barb → Cemetery Hill → ridge → Round Tops */}
+        <path d="M196,114 C206,96 188,86 168,92 C160,95 165,104 164,112 L161,234 L156,250" fill="none" stroke={blue} strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
+
+        {/* Round Tops */}
+        <path d="M150,250 l6,-9 l6,9 z" fill={fg} opacity={0.32} />
+        <path d="M153,273 l7,-11 l7,11 z" fill={fg} opacity={0.28} />
+
+        {/* town */}
+        <circle cx={TOWN.x} cy={TOWN.y} r={6} fill="var(--background)" stroke={fg} strokeOpacity={0.6} strokeWidth={1.4} />
+
+        {/* Day 1 — amber (McPherson's Ridge, NW of town) */}
+        <line x1="48" y1="42" x2="118" y2="60" stroke={ACCENTS.amber} strokeWidth={2.4} markerEnd="url(#ah-amber)" />
+        {[[58, 46], [86, 55]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.amber} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
+
+        {/* Day 2 — violet (Longstreet on the left, Ewell at the barb) */}
+        <line x1="104" y1="208" x2="150" y2="242" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
+        <line x1="218" y1="100" x2="200" y2="112" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
+        {[[132, 254], [138, 236], [122, 222], [156, 248]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.violet} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
+
+        {/* Day 3 — Pickett's Charge (rust, dashed, bold) into the Angle */}
+        <line x1="102" y1="158" x2="156" y2="158" stroke={ACCENTS.rust} strokeWidth={3} strokeDasharray="6 4" markerEnd="url(#ah-rust)" />
+        <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={ACCENTS.rust} />
+
+        {/* labels */}
+        <Lbl x={132} y={50} color="color-mix(in srgb, var(--foreground) 62%, transparent)">GETTYSBURG</Lbl>
+        <Lbl x={202} y={118}>Culp’s Hill</Lbl>
+        <Lbl x={172} y={86}>Cemetery Hill</Lbl>
+        <Lbl x={167} y={182}>Cemetery Ridge</Lbl>
+        <Lbl x={32} y={176}>Seminary Ridge</Lbl>
+        <Lbl x={98} y={252} anchor="end">Little Round Top</Lbl>
+        <Lbl x={168} y={150} color={ACCENTS.rust}>the Angle — high-water mark</Lbl>
+        <Lbl x={20} y={38}>McPherson’s Ridge</Lbl>
+
+        {/* compass */}
+        <path d="M334,18 l2.4,7 l-2.4,-2 l-2.4,2 z" fill={fg} opacity={0.5} />
+        <Lbl x={331} y={36} op={0.5} size={9}>N</Lbl>
+      </svg>
+      {/* legend */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px 14px', marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>
+        <span><span style={{ color: blue }}>▬</span> Union line</span>
+        <span><span style={{ color: rust }}>▬</span> Confederate line</span>
+        {([[1, 'Day 1'], [2, 'Day 2'], [3, 'Day 3']] as const).map(([d, l]) => <span key={l}><span style={{ color: DAY_COLOR[d] }}>●</span> {l}</span>)}
       </div>
     </div>
   )
