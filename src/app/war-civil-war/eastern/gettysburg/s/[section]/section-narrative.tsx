@@ -2,7 +2,7 @@
 
 // SECTION narrative (level 4) — a standalone reader chapter for one Gettysburg
 // section. Matches the reader-engine shape from the handoff: sticky ChapterHeader
-// (eyebrow + title + progress), a cross-modal LineageStrip (war↔civ), an article
+// (eyebrow + title), a cross-modal LineageStrip (war↔civ), an article
 // with a drop cap + SectionHeader subsections + inline figures (the day maps),
 // and a docked "Meanwhile" card. Standalone prototype; the real reader engine
 // integration comes later. Person side-tags applied per the standing rule.
@@ -172,10 +172,8 @@ export function SectionNarrative({ id }: { id: string }) {
             <div style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.eyebrow}</div>
             <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.15, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.title}</div>
           </div>
-          <span style={{ fontFamily: SANS, fontSize: 11, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', flexShrink: 0 }}>{Math.round(n.progress * 100)}%</span>
           <DarkModeToggle />
         </div>
-        <div style={{ height: 2, background: 'color-mix(in srgb, var(--foreground) 10%, transparent)' }}><div style={{ height: 2, width: `${n.progress * 100}%`, background: ACCENT }} /></div>
       </div>
 
       <div style={{ maxWidth: 640, margin: '0 auto', padding: '0 18px 48px' }}>
