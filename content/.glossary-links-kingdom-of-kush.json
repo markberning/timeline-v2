@@ -132,6 +132,131 @@
       "matchText": "Nimrud",
       "wikiSlug": "Nimrud",
       "type": "place"
+    },
+    {
+      "matchText": "Upper Egypt",
+      "term": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt"
+    },
+    {
+      "matchText": "Eighteenth Dynasty",
+      "term": "Eighteenth Dynasty",
+      "wikiSlug": "Eighteenth_Dynasty_of_Egypt"
+    },
+    {
+      "matchText": "Great Pyramid",
+      "term": "Great Pyramid",
+      "wikiSlug": "Great_Pyramid_of_Giza"
+    },
+    {
+      "matchText": "Zagros Mountains",
+      "term": "Zagros Mountains",
+      "wikiSlug": "Zagros_Mountains"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Luxor",
+      "term": "Luxor",
+      "wikiSlug": "Luxor"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Giza",
+      "term": "Giza",
+      "wikiSlug": "Giza_pyramid_complex"
+    },
+    {
+      "matchText": "Khufu",
+      "term": "Khufu",
+      "wikiSlug": "Khufu"
+    },
+    {
+      "matchText": "Shabaka",
+      "term": "Shabaka",
+      "wikiSlug": "Shabaka"
+    },
+    {
+      "matchText": "Lower Nubia",
+      "term": "Lower Nubia",
+      "wikiSlug": "Lower_Nubia"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Tyre",
+      "term": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon"
+    },
+    {
+      "matchText": "Sidon",
+      "term": "Sidon",
+      "wikiSlug": "Sidon"
+    },
+    {
+      "matchText": "Byblos",
+      "term": "Byblos",
+      "wikiSlug": "Byblos"
+    },
+    {
+      "matchText": "C-Group",
+      "term": "C-Group",
+      "wikiSlug": "C-Group_culture"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Green Sahara",
+      "term": "Green Sahara",
+      "wikiSlug": "African_humid_period"
+    },
+    {
+      "matchText": "Piye",
+      "term": "Piye",
+      "wikiSlug": "Piye"
+    },
+    {
+      "matchText": "Victory Stela",
+      "term": "Victory Stela",
+      "wikiSlug": "Stele_of_Piye"
+    },
+    {
+      "matchText": "Libyan",
+      "term": "Libyan",
+      "wikiSlug": "Ancient_Libya"
+    },
+    {
+      "matchText": "Shutruk-Nahhunte",
+      "term": "Shutruk-Nahhunte",
+      "wikiSlug": "Shutruk-Nahhunte"
+    },
+    {
+      "matchText": "Theban",
+      "term": "Theban",
+      "definition": "Of or relating to Thebes, the great religious capital of Upper Egypt on the Nile near modern Luxor. The Theban region was dominated by the temple of Amun at Karnak and its powerful priesthood, which by this era operated almost as an independent state and became the prize the Kushite kings courted on their way to ruling Egypt."
+    },
+    {
+      "matchText": "Egyptians",
+      "term": "Egyptians",
+      "wikiSlug": "Ancient_Egypt"
     }
   ],
   "2": [
@@ -172,12 +297,6 @@
       "type": "place"
     },
     {
-      "term": "Victory Stela of Piye",
-      "matchText": "Victory Stela of Piye",
-      "wikiSlug": "Stele_of_Piye",
-      "type": "concept"
-    },
-    {
       "term": "Namlot",
       "matchText": "Namlot",
       "wikiSlug": "Nimlot_C",
@@ -206,12 +325,6 @@
       "matchText": "uncircumcised",
       "wikiSlug": "History_of_circumcision",
       "type": "concept"
-    },
-    {
-      "term": "Tiglath-Pileser III",
-      "matchText": "Tiglath-Pileser III",
-      "wikiSlug": "Tiglath-Pileser_III",
-      "type": "people"
     },
     {
       "term": "Kingdom of Israel",
@@ -254,6 +367,131 @@
       "matchText": "25th Dynasty",
       "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
       "type": "concept"
+    },
+    {
+      "matchText": "Lower Egypt",
+      "term": "Lower Egypt",
+      "wikiSlug": "Lower_Egypt"
+    },
+    {
+      "matchText": "God's Wife of Amun",
+      "term": "God's Wife of Amun",
+      "wikiSlug": "God%27s_Wife_of_Amun"
+    },
+    {
+      "matchText": "Egyptian Museum",
+      "term": "Egyptian Museum",
+      "wikiSlug": "Egyptian_Museum"
+    },
+    {
+      "matchText": "Middle Egypt",
+      "term": "Middle Egypt",
+      "wikiSlug": "Middle_Egypt"
+    },
+    {
+      "matchText": "Thebes",
+      "term": "Thebes",
+      "wikiSlug": "Thebes,_Egypt"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Amenirdis I",
+      "term": "Amenirdis I",
+      "wikiSlug": "Amenirdis_I"
+    },
+    {
+      "matchText": "Jebel Barkal",
+      "term": "Jebel Barkal",
+      "wikiSlug": "Jebel_Barkal"
+    },
+    {
+      "matchText": "Amun",
+      "term": "Amun",
+      "wikiSlug": "Amun"
+    },
+    {
+      "matchText": "Karnak",
+      "term": "Karnak",
+      "wikiSlug": "Karnak"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Marduk",
+      "term": "Marduk",
+      "wikiSlug": "Marduk"
+    },
+    {
+      "matchText": "Nabonidus",
+      "term": "Nabonidus",
+      "wikiSlug": "Nabonidus"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
+    },
+    {
+      "matchText": "El-Kurru",
+      "term": "El-Kurru",
+      "wikiSlug": "El-Kurru"
+    },
+    {
+      "matchText": "Zhou",
+      "term": "Zhou",
+      "wikiSlug": "Zhou_dynasty"
+    },
+    {
+      "matchText": "Sinai",
+      "term": "Sinai",
+      "wikiSlug": "Sinai_Peninsula"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Ashurbanipal",
+      "term": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal"
+    },
+    {
+      "matchText": "Theban",
+      "term": "Theban",
+      "definition": "Of Thebes, the great religious capital of Upper Egypt centered on the temple of Amun at Karnak — the spiritual heartland the Kushite pharaohs revered and restored."
+    },
+    {
+      "matchText": "Egyptologists",
+      "term": "Egyptologists",
+      "wikiSlug": "Egyptology"
+    },
+    {
+      "matchText": "Napatan",
+      "term": "Napatan",
+      "wikiSlug": "Napata"
     }
   ],
   "3": [
@@ -336,12 +574,6 @@
       "type": "concept"
     },
     {
-      "term": "Nebuchadnezzar II",
-      "matchText": "Nebuchadnezzar II",
-      "wikiSlug": "Nebuchadnezzar_II",
-      "type": "people"
-    },
-    {
       "term": "Nineveh",
       "matchText": "Nineveh",
       "wikiSlug": "Nineveh",
@@ -382,6 +614,136 @@
       "matchText": "Sargon II",
       "wikiSlug": "Sargon_II",
       "type": "people"
+    },
+    {
+      "matchText": "Upper Egypt",
+      "term": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt"
+    },
+    {
+      "matchText": "Great Pyramid",
+      "term": "Great Pyramid",
+      "wikiSlug": "Great_Pyramid_of_Giza"
+    },
+    {
+      "matchText": "Tigris River",
+      "term": "Tigris River",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Piye",
+      "term": "Piye",
+      "wikiSlug": "Piye"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Jebel Barkal",
+      "term": "Jebel Barkal",
+      "wikiSlug": "Jebel_Barkal"
+    },
+    {
+      "matchText": "Memphis",
+      "term": "Memphis",
+      "wikiSlug": "Memphis,_Egypt"
+    },
+    {
+      "matchText": "Thebes",
+      "term": "Thebes",
+      "wikiSlug": "Thebes,_Egypt"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Libyan",
+      "term": "Libyan",
+      "wikiSlug": "Ancient_Libya"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Egyptologists",
+      "term": "Egyptologists",
+      "wikiSlug": "Egyptology"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Khartoum",
+      "term": "Khartoum",
+      "wikiSlug": "Khartoum"
+    },
+    {
+      "matchText": "El-Kurru",
+      "term": "El-Kurru",
+      "wikiSlug": "El-Kurru"
+    },
+    {
+      "matchText": "Isaiah",
+      "term": "Isaiah",
+      "wikiSlug": "Book_of_Isaiah"
+    },
+    {
+      "matchText": "Ethiopian highlands",
+      "term": "Ethiopian highlands",
+      "wikiSlug": "Ethiopian_Highlands"
+    },
+    {
+      "matchText": "Aethiopia",
+      "term": "Aethiopia",
+      "wikiSlug": "Aethiopia"
+    },
+    {
+      "matchText": "Chaldean",
+      "term": "Chaldean",
+      "wikiSlug": "Chaldea"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Egyptians",
+      "term": "Egyptians",
+      "wikiSlug": "Egyptians"
+    },
+    {
+      "matchText": "Egyptology",
+      "term": "Egyptology",
+      "wikiSlug": "Egyptology"
+    },
+    {
+      "matchText": "Levantine",
+      "term": "Levantine",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Te-Umman",
+      "term": "Te-Umman",
+      "wikiSlug": "Teumman"
+    },
+    {
+      "matchText": "Susa",
+      "term": "Susa",
+      "wikiSlug": "Susa"
     }
   ],
   "4": [
@@ -494,12 +856,6 @@
       "type": "people"
     },
     {
-      "term": "Fall of Nineveh",
-      "matchText": "Nineveh itself would fall",
-      "wikiSlug": "Battle_of_Nineveh_(612_BC)",
-      "type": "concept"
-    },
-    {
       "term": "Medes",
       "matchText": "Medes",
       "wikiSlug": "Medes",
@@ -510,6 +866,116 @@
       "matchText": "Babylonian Exile",
       "wikiSlug": "Babylonian_captivity",
       "type": "concept"
+    },
+    {
+      "matchText": "Lower Egypt",
+      "term": "Lower Egypt",
+      "wikiSlug": "Lower_Egypt"
+    },
+    {
+      "matchText": "Upper Egypt",
+      "term": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt"
+    },
+    {
+      "matchText": "Taharqa",
+      "term": "Taharqa",
+      "wikiSlug": "Taharqa"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Memphis",
+      "term": "Memphis",
+      "wikiSlug": "Memphis,_Egypt"
+    },
+    {
+      "matchText": "Shabaka",
+      "term": "Shabaka",
+      "wikiSlug": "Shabaka"
+    },
+    {
+      "matchText": "Fall of Memphis",
+      "term": "Fall of Memphis",
+      "wikiSlug": "Assyrian_conquest_of_Egypt"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Tigris",
+      "term": "Tigris",
+      "wikiSlug": "Tigris"
+    },
+    {
+      "matchText": "Levantine",
+      "term": "Levantine",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Sais",
+      "term": "Sais",
+      "wikiSlug": "Sais,_Egypt"
+    },
+    {
+      "matchText": "Nuri",
+      "term": "Nuri",
+      "wikiSlug": "Nuri"
+    },
+    {
+      "matchText": "Karnak",
+      "term": "Karnak",
+      "wikiSlug": "Karnak"
+    },
+    {
+      "matchText": "Saite",
+      "term": "Saite",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Khuzestan",
+      "term": "Khuzestan",
+      "wikiSlug": "Khuzestan_province"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Anshan",
+      "term": "Anshan",
+      "wikiSlug": "Anshan_(Persia)"
+    },
+    {
+      "matchText": "Aegean",
+      "term": "Aegean",
+      "wikiSlug": "Aegean_Sea"
+    },
+    {
+      "matchText": "Meroë",
+      "term": "Meroë",
+      "wikiSlug": "Meroe"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Napatan",
+      "term": "Napatan",
+      "wikiSlug": "Napata"
     }
   ],
   "5": [
@@ -562,12 +1028,6 @@
       "type": "people"
     },
     {
-      "term": "Arkamani I",
-      "matchText": "Arkamani I",
-      "wikiSlug": "Arkamani",
-      "type": "people"
-    },
-    {
       "term": "Ergamenes",
       "matchText": "Ergamenes",
       "wikiSlug": "Arkamani",
@@ -595,12 +1055,6 @@
       "term": "hypostyle hall",
       "matchText": "hypostyle hall",
       "wikiSlug": "Hypostyle",
-      "type": "concept"
-    },
-    {
-      "term": "Ptolemaic dynasty",
-      "matchText": "Ptolemaic dynasty",
-      "wikiSlug": "Ptolemaic_dynasty",
       "type": "concept"
     },
     {
@@ -656,6 +1110,101 @@
       "matchText": "Red Sea",
       "wikiSlug": "Red_Sea",
       "type": "place"
+    },
+    {
+      "matchText": "Middle Kingdom",
+      "term": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt"
+    },
+    {
+      "matchText": "Warring States",
+      "term": "Warring States",
+      "wikiSlug": "Warring_States_period"
+    },
+    {
+      "matchText": "Jebel Barkal",
+      "term": "Jebel Barkal",
+      "wikiSlug": "Jebel_Barkal"
+    },
+    {
+      "matchText": "Nuri",
+      "term": "Nuri",
+      "wikiSlug": "Nuri"
+    },
+    {
+      "matchText": "Psamtik II",
+      "term": "Psamtik II",
+      "wikiSlug": "Psamtik_II"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Meroitic",
+      "term": "Meroitic",
+      "wikiSlug": "Meroitic_language"
+    },
+    {
+      "matchText": "Napatan",
+      "term": "Napatan",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Karnak",
+      "term": "Karnak",
+      "wikiSlug": "Karnak"
+    },
+    {
+      "matchText": "El-Kurru",
+      "term": "El-Kurru",
+      "wikiSlug": "El-Kurru"
+    },
+    {
+      "matchText": "Step Pyramid",
+      "term": "Step Pyramid",
+      "wikiSlug": "Step_pyramid"
+    },
+    {
+      "matchText": "Apedemak",
+      "term": "Apedemak",
+      "wikiSlug": "Apedemak"
+    },
+    {
+      "matchText": "Ptolemies",
+      "term": "Ptolemies",
+      "wikiSlug": "Ptolemaic_dynasty"
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian-speaking",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Pataliputra",
+      "term": "Pataliputra",
+      "wikiSlug": "Pataliputra"
+    },
+    {
+      "matchText": "Greek-speaking",
+      "term": "Greek-speaking",
+      "definition": "The Hellenistic kingdoms that ruled the eastern Mediterranean and western Asia after Alexander the Great's conquests, whose ruling classes and administration operated in Greek. Egypt's Greek-speaking Ptolemaic court was Kush's northern neighbor for three centuries."
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Theban",
+      "term": "Theban",
+      "definition": "Of Thebes, the great religious capital of Upper Egypt centered on the temple of Amun at Karnak — the spiritual heartland the Kushite pharaohs revered and restored."
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
     }
   ],
   "6": [
@@ -768,12 +1317,6 @@
       "type": "concept"
     },
     {
-      "term": "war elephant",
-      "matchText": "war elephants",
-      "wikiSlug": "War_elephant",
-      "type": "concept"
-    },
-    {
       "term": "African bush elephant",
       "matchText": "African bush elephants",
       "wikiSlug": "African_bush_elephant",
@@ -820,6 +1363,161 @@
       "matchText": "Seleucid dynasty",
       "wikiSlug": "Seleucid_Empire",
       "type": "concept"
+    },
+    {
+      "matchText": "Easter Island",
+      "term": "Easter Island",
+      "wikiSlug": "Easter_Island"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "God's Wife of Amun",
+      "term": "God's Wife of Amun",
+      "wikiSlug": "God%27s_Wife_of_Amun"
+    },
+    {
+      "matchText": "Eighteenth Dynasty",
+      "term": "Eighteenth Dynasty",
+      "wikiSlug": "Eighteenth_Dynasty_of_Egypt"
+    },
+    {
+      "matchText": "Twelfth Dynasty",
+      "term": "Twelfth Dynasty",
+      "wikiSlug": "Twelfth_Dynasty_of_Egypt"
+    },
+    {
+      "matchText": "Meroë",
+      "term": "Meroë",
+      "wikiSlug": "Meroe"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Amun",
+      "term": "Amun",
+      "wikiSlug": "Amun"
+    },
+    {
+      "matchText": "Kushites",
+      "term": "Kushites",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Proto-Elamite",
+      "term": "Proto-Elamite",
+      "wikiSlug": "Proto-Elamite_script"
+    },
+    {
+      "matchText": "Linear Elamite",
+      "term": "Linear Elamite",
+      "wikiSlug": "Linear_Elamite"
+    },
+    {
+      "matchText": "Hindi",
+      "term": "Hindi",
+      "wikiSlug": "Hindi"
+    },
+    {
+      "matchText": "Ptah",
+      "term": "Ptah",
+      "wikiSlug": "Ptah"
+    },
+    {
+      "matchText": "Horus",
+      "term": "Horus",
+      "wikiSlug": "Horus"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "Vishnu",
+      "term": "Vishnu",
+      "wikiSlug": "Vishnu"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Alps",
+      "term": "Alps",
+      "wikiSlug": "Alps"
+    },
+    {
+      "matchText": "Ptolemaic",
+      "term": "Ptolemaic dynasty",
+      "wikiSlug": "Ptolemaic_dynasty"
+    },
+    {
+      "matchText": "Thebes",
+      "term": "Thebes",
+      "wikiSlug": "Thebes,_Egypt"
+    },
+    {
+      "matchText": "Classic Kerma",
+      "term": "Classic Kerma",
+      "wikiSlug": "Kerma"
+    },
+    {
+      "matchText": "Gandhara",
+      "term": "Gandhara",
+      "wikiSlug": "Gandhara"
+    },
+    {
+      "matchText": "Kharosthi",
+      "term": "Kharosthi",
+      "wikiSlug": "Kharosthi"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Meroitic hieroglyphic",
+      "term": "Meroitic hieroglyphic",
+      "wikiSlug": "Meroitic_script"
+    },
+    {
+      "matchText": "Meroitic cursive",
+      "term": "Meroitic cursive",
+      "wikiSlug": "Meroitic_script"
+    },
+    {
+      "matchText": "Napatan",
+      "term": "Napatan",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Mesopotamian",
+      "term": "Mesopotamian",
+      "wikiSlug": "Mesopotamia"
+    },
+    {
+      "matchText": "Bengali",
+      "term": "Bengali",
+      "wikiSlug": "Bengalis"
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia"
     }
   ],
   "7": [
@@ -932,12 +1630,6 @@
       "type": "people"
     },
     {
-      "term": "Amanishakheto",
-      "matchText": "Amanishakheto",
-      "wikiSlug": "Amanishakheto",
-      "type": "people"
-    },
-    {
       "term": "Giuseppe Ferlini",
       "matchText": "Giuseppe Ferlini",
       "wikiSlug": "Giuseppe_Ferlini",
@@ -978,6 +1670,151 @@
       "matchText": "Crassus",
       "wikiSlug": "Marcus_Licinius_Crassus",
       "type": "people"
+    },
+    {
+      "matchText": "Julius Caesar",
+      "term": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar"
+    },
+    {
+      "matchText": "Mark Antony",
+      "term": "Mark Antony",
+      "wikiSlug": "Mark_Antony"
+    },
+    {
+      "matchText": "British Museum",
+      "term": "British Museum",
+      "wikiSlug": "British_Museum"
+    },
+    {
+      "matchText": "Aegean Sea",
+      "term": "Aegean Sea",
+      "wikiSlug": "Aegean_Sea"
+    },
+    {
+      "matchText": "Emperor Wu",
+      "term": "Emperor Wu",
+      "wikiSlug": "Emperor_Wu_of_Han"
+    },
+    {
+      "matchText": "Ptolemaic",
+      "term": "Ptolemaic",
+      "wikiSlug": "Ptolemaic_dynasty"
+    },
+    {
+      "matchText": "Kandake",
+      "term": "Kandake",
+      "wikiSlug": "Kandake"
+    },
+    {
+      "matchText": "Strabo",
+      "term": "Strabo",
+      "wikiSlug": "Strabo"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushite",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Isis",
+      "term": "Isis",
+      "wikiSlug": "Isis"
+    },
+    {
+      "matchText": "Apedemak",
+      "term": "Apedemak",
+      "wikiSlug": "Apedemak"
+    },
+    {
+      "matchText": "Napata",
+      "term": "Napata",
+      "wikiSlug": "Napata"
+    },
+    {
+      "matchText": "Jebel Barkal",
+      "term": "Jebel Barkal",
+      "wikiSlug": "Jebel_Barkal"
+    },
+    {
+      "matchText": "Lower Nubia",
+      "term": "Lower Nubia",
+      "wikiSlug": "Lower_Nubia"
+    },
+    {
+      "matchText": "Gaul",
+      "term": "Gaul",
+      "wikiSlug": "Gaul"
+    },
+    {
+      "matchText": "Meroitic Kush",
+      "term": "Meroitic Kush",
+      "wikiSlug": "Kingdom_of_Kush"
+    },
+    {
+      "matchText": "Meroitic",
+      "term": "Meroitic",
+      "wikiSlug": "Meroitic_language"
+    },
+    {
+      "matchText": "Corinthian",
+      "term": "Corinthian",
+      "wikiSlug": "Corinthian_order"
+    },
+    {
+      "matchText": "Amun",
+      "term": "Amun",
+      "wikiSlug": "Amun"
+    },
+    {
+      "matchText": "Harappans",
+      "term": "Harappans",
+      "wikiSlug": "Indus_Valley_Civilisation"
+    },
+    {
+      "matchText": "Classic Kerma",
+      "term": "Classic Kerma",
+      "wikiSlug": "Kerma"
+    },
+    {
+      "matchText": "El-Kurru",
+      "term": "El-Kurru",
+      "wikiSlug": "El-Kurru"
+    },
+    {
+      "matchText": "Hathor",
+      "term": "Hathor",
+      "wikiSlug": "Hathor"
+    },
+    {
+      "matchText": "Berlin",
+      "term": "Berlin",
+      "wikiSlug": "Berlin"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "definition": "Of or relating to the Iranian peoples and the dynasties of the Iranian plateau. Here it describes the Parthian Empire, the Iranian dynasty that replaced the Seleucids and became Rome's chief rival in the East."
+    },
+    {
+      "matchText": "Egyptians",
+      "term": "Egyptians",
+      "wikiSlug": "Ancient_Egypt"
     }
   ],
   "8": [
@@ -1084,12 +1921,6 @@
       "type": "place"
     },
     {
-      "term": "Sassanid Empire",
-      "matchText": "Sassanid Persian Empire",
-      "wikiSlug": "Sasanian_Empire",
-      "type": "concept"
-    },
-    {
       "term": "Gupta Empire",
       "matchText": "Gupta Empire",
       "wikiSlug": "Gupta_Empire",
@@ -1112,6 +1943,166 @@
       "matchText": "monsoon winds",
       "wikiSlug": "Monsoon",
       "type": "concept"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Horn of Africa",
+      "term": "Horn of Africa",
+      "wikiSlug": "Horn_of_Africa"
+    },
+    {
+      "matchText": "Late Bronze Age Collapse",
+      "term": "Late Bronze Age Collapse",
+      "wikiSlug": "Late_Bronze_Age_collapse"
+    },
+    {
+      "matchText": "British Museum",
+      "term": "British Museum",
+      "wikiSlug": "British_Museum"
+    },
+    {
+      "matchText": "Natakamani",
+      "term": "Natakamani",
+      "wikiSlug": "Natakamani"
+    },
+    {
+      "matchText": "Amanitore",
+      "term": "Amanitore",
+      "wikiSlug": "Amanitore"
+    },
+    {
+      "matchText": "Apedemak",
+      "term": "Apedemak",
+      "wikiSlug": "Apedemak"
+    },
+    {
+      "matchText": "Meroë",
+      "term": "Meroë",
+      "wikiSlug": "Meroe"
+    },
+    {
+      "matchText": "Ptolemaic",
+      "term": "Ptolemaic",
+      "wikiSlug": "Ptolemaic_Kingdom"
+    },
+    {
+      "matchText": "Kandake",
+      "term": "Kandake",
+      "wikiSlug": "Kandake"
+    },
+    {
+      "matchText": "Eritrea",
+      "term": "Eritrea",
+      "wikiSlug": "Eritrea"
+    },
+    {
+      "matchText": "Kushite",
+      "term": "Kushites",
+      "wikiSlug": "Kushites"
+    },
+    {
+      "matchText": "Rhapta",
+      "term": "Rhapta",
+      "wikiSlug": "Rhapta"
+    },
+    {
+      "matchText": "Zanj",
+      "term": "Zanj",
+      "wikiSlug": "Zanj"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Birmingham",
+      "term": "Birmingham",
+      "wikiSlug": "Birmingham"
+    },
+    {
+      "matchText": "Meroitic",
+      "term": "Meroitic language",
+      "wikiSlug": "Meroitic_language"
+    },
+    {
+      "matchText": "Anasazi",
+      "term": "Anasazi",
+      "wikiSlug": "Ancestral_Puebloans"
+    },
+    {
+      "matchText": "Isis",
+      "term": "Isis",
+      "wikiSlug": "Isis"
+    },
+    {
+      "matchText": "Aswan",
+      "term": "Aswan",
+      "wikiSlug": "Aswan"
+    },
+    {
+      "matchText": "Noba",
+      "term": "Noba",
+      "wikiSlug": "Noba"
+    },
+    {
+      "matchText": "Christianization",
+      "term": "Christianization",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Amun",
+      "term": "Amun",
+      "wikiSlug": "Amun"
+    },
+    {
+      "matchText": "El-Kurru",
+      "term": "El-Kurru",
+      "wikiSlug": "El-Kurru"
+    },
+    {
+      "matchText": "Nuri",
+      "term": "Nuri",
+      "wikiSlug": "Nuri"
+    },
+    {
+      "matchText": "Jebel Barkal",
+      "term": "Jebel Barkal",
+      "wikiSlug": "Jebel_Barkal"
+    },
+    {
+      "matchText": "Naqa",
+      "term": "Naqa",
+      "wikiSlug": "Naqa"
+    },
+    {
+      "matchText": "Piye",
+      "term": "Piye",
+      "wikiSlug": "Piye"
+    },
+    {
+      "matchText": "Khartoum",
+      "term": "Khartoum",
+      "wikiSlug": "Khartoum"
+    },
+    {
+      "matchText": "Western Jin",
+      "term": "Western Jin",
+      "wikiSlug": "Jin_dynasty_(266%E2%80%93420)"
+    },
+    {
+      "matchText": "Treaty of Samos",
+      "term": "Treaty of Samos",
+      "definition": "The peace settlement reached around 21–20 BCE between Rome and Kush, ending their border war. Negotiated while the emperor Augustus was on the Greek island of Samos, it fixed a frontier south of Aswan and left Kush independent — a rare diplomatic draw with Rome that classical sources remembered for the Kushite queen who brokered it."
+    },
+    {
+      "matchText": "Parthians",
+      "term": "Parthians",
+      "wikiSlug": "Parthian_Empire"
     }
   ]
 }

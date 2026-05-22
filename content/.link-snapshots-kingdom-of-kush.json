@@ -12,7 +12,7 @@
     },
     "Kashta": {
       "title": "Kashta",
-      "lead": "Kashta was an 8th century BCE king of the Kushite Dynasty in ancient Nubia and the successor of Alara. His nomen k3š-t3 (transcribed as Kashta, possibly pronounced /kuʔʃi-taʔ/) \"of the land of Kush\" is often translated directly as \"The Kush",
+      "lead": "Kashta was an 8th-century BCE king of the Kushite Dynasty in ancient Nubia and the successor of Alara. His nomen k3š-t3 (transcribed as Kashta, possibly pronounced /kuʔʃi-taʔ/) \"of the land of Kush\" is often translated directly as \"The Kush",
       "image": "Egyptian_-_Situla_Bearing_the_names_of_Kashta_and_Amenirdis_-_Walters_543077.jpg"
     },
     "Piye": {
@@ -197,11 +197,16 @@
     },
     "Kingdom_of_Aksum": {
       "title": "Kingdom of Aksum",
-      "lead": "The Kingdom of Aksum, or the Aksumite Empire, was a kingdom in North East Africa and South Arabia from classical antiquity to the Middle Ages, based in what is now Eritrea and Northern Ethiopia, and spanning present-day Djibouti, Sudan, Yem",
+      "lead": "The Kingdom of Aksum, or the Aksumite Empire, was a kingdom in North East Africa and South Arabia from classical antiquity to the Middle Ages, based in what is now Eritrea and Northern Ethiopia, and spanning present-day Djibouti, Sudan, and",
       "image": "KingEndybisEthiopia227-235CE.jpg"
     }
   },
   "glossary": {
+    "Kingdom_of_Kush": {
+      "title": "Kingdom of Kush",
+      "lead": "The Kingdom of Kush (; Ancient Egyptian: 𓎡𓄿𓈙𓐰𓈉, romanized: kꜣš; Neo-Assyrian Akkadian: 𒆳𒆪𒌋𒋛, romanized: Kūsi; in LXX Χους, Khous or Αἰθιοπία, Aithiopía; Coptic: ⲉϭⲱϣ, romanized: Ečōš; Hebrew: כּוּשׁ‎, romanized: Kūš), also known as",
+      "image": "Kushite_heartland_and_Kushite_Empire_of_the_25th_dynasty_circa_700_BCE.jpg"
+    },
     "Alara_of_Nubia": {
       "title": "Alara of Kush",
       "lead": "Alara was a King of Kush, who is generally regarded as the founder of the Napatan royal dynasty by his 25th Dynasty Kushite successors and was the first recorded prince of Kush. He unified all of Upper Nubia from Meroë to the Third Cataract",
@@ -209,7 +214,7 @@
     },
     "Kashta": {
       "title": "Kashta",
-      "lead": "Kashta was an 8th century BCE king of the Kushite Dynasty in ancient Nubia and the successor of Alara. His nomen k3š-t3 (transcribed as Kashta, possibly pronounced /kuʔʃi-taʔ/) \"of the land of Kush\" is often translated directly as \"The Kush",
+      "lead": "Kashta was an 8th-century BCE king of the Kushite Dynasty in ancient Nubia and the successor of Alara. His nomen k3š-t3 (transcribed as Kashta, possibly pronounced /kuʔʃi-taʔ/) \"of the land of Kush\" is often translated directly as \"The Kush",
       "image": "Egyptian_-_Situla_Bearing_the_names_of_Kashta_and_Amenirdis_-_Walters_543077.jpg"
     },
     "Piye": {
@@ -251,6 +256,11 @@
       "title": "Nuri",
       "lead": "Nuri is an ancient Nubian necropolis in northern Sudan on the west side of the Nile, near the Fourth Cataract, dating back to Napata period. Nuri is situated about 15 km north of Sanam, and 10 km from Jebel Barkal.",
       "image": "Royal_Pyramids_Of_Napata,_Nuri,_Sudan_(19)_(34540703695)_(cropped).jpg"
+    },
+    "Assyrian_conquest_of_Egypt": {
+      "title": "Assyrian conquest of Egypt",
+      "lead": "The Assyrian conquest of Egypt covered a relatively short period of the Neo-Assyrian Empire from 673 to 663 BCE. The conquest of Egypt not only placed a land of great cultural prestige under Assyrian rule but also brought the Neo-Assyrian E",
+      "image": "Neo-Assyrian_map_824-671_BC.png"
     },
     "Tantamani": {
       "title": "Tantamani",
@@ -347,20 +357,10 @@
       "lead": "Arqamani (also Arkamani or Ergamenes II) was a Kushite King of Meroë dating from the late 3rd to early 2nd century BCE.",
       "image": "Temple_relief_of_king_Arqamani_from_Dakka_by_Dennis_C._Jarvis.jpg"
     },
-    "Amanishakheto": {
-      "title": "Amanishakheto",
-      "lead": "Amanishakheto was a queen regnant (kandake) of Kush who reigned in the early 1st century AD. In Meroitic hieroglyphs her name is written \"Amanikasheto\" (Mniskhte or (Am)niskhete). In Meroitic cursive she is referred to as Amaniskheto qor kd",
-      "image": "Relief_Amanishakheto_Munich.JPG"
-    },
     "Mero%C3%AB": {
       "title": "Meroë",
       "lead": "Meroë was an ancient city on the east bank of the Nile about 6 km north-east of the Kabushiya station near Shendi, Sudan, approximately 200 km north-east of Khartoum. Near the site is a group of villages called Bagrawiyah (Arabic: البجراوية",
       "image": "NubianMeroePyramids30sep2005(2).jpg"
-    },
-    "War_elephant": {
-      "title": "War elephant",
-      "lead": "A war elephant is an elephant that is trained and guided by humans for combat purposes. Historically, the war elephant's main use was to charge the enemy, break their ranks, and instill terror and fear. Elephantry, or elephant cavalry, is t",
-      "image": "Hannibal_traverse_le_Rhône_Henri_Motte_1878.jpg"
     },
     "Mero%C3%AB_Head": {
       "title": "Meroë Head",
@@ -369,7 +369,7 @@
     },
     "Kingdom_of_Aksum": {
       "title": "Kingdom of Aksum",
-      "lead": "The Kingdom of Aksum, or the Aksumite Empire, was a kingdom in North East Africa and South Arabia from classical antiquity to the Middle Ages, based in what is now Eritrea and Northern Ethiopia, and spanning present-day Djibouti, Sudan, Yem",
+      "lead": "The Kingdom of Aksum, or the Aksumite Empire, was a kingdom in North East Africa and South Arabia from classical antiquity to the Middle Ages, based in what is now Eritrea and Northern Ethiopia, and spanning present-day Djibouti, Sudan, and",
       "image": "KingEndybisEthiopia227-235CE.jpg"
     },
     "New_Kingdom_of_Egypt": {
@@ -442,15 +442,115 @@
       "lead": "Nimrud (; Syriac: ܢܢܡܪܕ Arabic: النمرود) is an ancient Assyrian city (original Assyrian name Kalḫu, biblical name Calah) located in Iraq, 30 kilometres (20 mi) south of the city of Mosul, and 5 kilometres (3 mi) south of the village of Sela",
       "image": "Iraq;_Nimrud_-_Assyria,_Lamassu's_Guarding_Palace_Entrance.jpg"
     },
-    "Nile_Delta": {
-      "title": "Nile Delta",
-      "lead": "The Nile Delta (Arabic: دلتا النيل, Delta an-Nīl or simply الدلتا, ad-Delta) is the delta formed in Lower Egypt where the Nile River spreads out and drains into the Mediterranean Sea. It is one of the world's largest deltas. From Alexandria",
-      "image": "Nile_delta_landsat_false_color.jpg"
+    "Upper_Egypt": {
+      "title": "Upper Egypt",
+      "lead": "Upper Egypt (Arabic: صعيد مصر Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd], locally: [es.sˤɑ.ˈʕiːd]) is the southern portion of Egypt and is composed of the Nile River valley south of the delta and the 30th",
+      "image": "Upper_Egypt_Nomes.png"
+    },
+    "Eighteenth_Dynasty_of_Egypt": {
+      "title": "Eighteenth Dynasty of Egypt",
+      "lead": "The Eighteenth Dynasty of Egypt (notated Dynasty XVIII, alternatively 18th Dynasty or Dynasty 18) is classified as the first dynasty of the New Kingdom of Egypt, the era in which ancient Egypt achieved the peak of its power. The Eighteenth ",
+      "image": "Respaldo_del_trono_de_oro_de_Tutankamón.jpg"
+    },
+    "Great_Pyramid_of_Giza": {
+      "title": "Great Pyramid of Giza",
+      "lead": "The Great Pyramid of Giza is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyramid complex in Giza, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only wonder that has remained lar",
+      "image": "Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+    },
+    "Zagros_Mountains": {
+      "title": "Zagros Mountains",
+      "lead": "The Zagros Mountains are a mountain range in West Asia spanning Iran, northern Iraq, and southeastern Turkey. The mountain range has a total length of 1,600 km (990 miles). The Zagros range begins in northwestern Iran and roughly follows Ir",
+      "image": "Ecoregion_PA0446.svg"
+    },
+    "Nile": {
+      "title": "Nile",
+      "lead": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than ot",
+      "image": "Nile_3rd_Cataract_Left.jpg"
+    },
+    "Luxor": {
+      "title": "Luxor",
+      "lead": "Luxor is a city in Upper Egypt. Luxor had a population of 284,952 in 2023, with an area of 43.0 km2 (16.6 sq mi) and is the capital of the Luxor Governorate. Nicknamed the City of a Hundred Gates or the City of the Sun and formerly known as",
+      "image": "LuxorHotelsIbnWalidSt.jpg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Kushites": {
+      "title": "Kushites",
+      "lead": "The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization south of Egypt. Ancient sources used terms like Cushite, Kushite, and Ethiopian to describe the dark-skinned African peop",
+      "image": ""
+    },
+    "Giza_pyramid_complex": {
+      "title": "Giza pyramid complex",
+      "lead": "The Giza pyramid complex (also called the Giza necropolis) in Egypt is home to the Great Pyramid, the pyramid of Khafre, and the pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx. All were built during ",
+      "image": "Pyramids_of_the_Giza_Necropolis.jpg"
+    },
+    "Khufu": {
+      "title": "Khufu",
+      "lead": "Khufu or Cheops was the second pharaoh of the Fourth Dynasty of Egypt, reigning during the 26th century BC in the early Old Kingdom period. Khufu succeeded his father Sneferu as king. He is generally accepted as having commissioned the Grea",
+      "image": "Statue_of_Khufu_in_the_Cairo_Egyptian_Museum.jpg"
+    },
+    "Lower_Nubia": {
+      "title": "Lower Nubia",
+      "lead": "Lower Nubia (also called Wawat) is the northernmost part of Nubia, roughly contiguous with the modern Lake Nasser, which submerged the historical region in the 1960s with the construction of the Aswan High Dam. Many ancient Lower Nubian mon",
+      "image": "List_of_monuments_at_risk_in_the_1960_UNESCO_Courier_-_UNESCO_documents_regarding_the_International_Campaign_to_Save_the_Monuments_of_Nubia.png"
+    },
+    "Levant": {
+      "title": "Levant",
+      "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
+      "image": "Levant_(orthographic_projection).png"
+    },
+    "Tyre,_Lebanon": {
+      "title": "Tyre, Lebanon",
+      "lead": "Tyre is a city in Lebanon, and one of the oldest continuously inhabited cities in the world. It was one of the earliest Phoenician metropolises and the legendary birthplace of Europa, her brothers Cadmus and Phoenix, and Carthage's founder ",
+      "image": "SubmergedEgyptianHarbour_TyreSour_Lebanon_RomanDeckert04112019.jpg"
+    },
+    "Sidon": {
+      "title": "Sidon",
+      "lead": "Sidon ( SY-dən), or Saida ( SY-də, SAH-id-ə; Arabic: صيدا, romanized: Ṣaydā), is the third-largest city in Lebanon. It is located on the Mediterranean coast in the South Governorate, of which it is the capital. Tyre, to the south, and the L",
+      "image": "View_from_Sidon's_Sea_Castle,_Sidon,_Lebanon.jpg"
+    },
+    "Byblos": {
+      "title": "Byblos",
+      "lead": "Byblos ( BIB-loss; Ancient Greek: Βύβλος), also known as Jbail, Jebeil, Jbeil or Jubayl (Arabic: جُبَيْل, romanized: Jubayl, locally Jbeil [ʒ(ə)beːl]), is an ancient city in the Keserwan-Jbeil Governorate of Lebanon. The area is believed to",
+      "image": "Byblos_Libanon_2003.JPG"
+    },
+    "C-Group_culture": {
+      "title": "C-Group culture",
+      "lead": "The C-Group culture is an archaeological culture found in Lower Nubia, which dates from c. 2400 BCE to c. 1550 BCE. It was named by George A. Reisner. With no central site and no written evidence about what these people called themselves, R",
+      "image": "C_Group_bowl.jpg"
+    },
+    "Sahara": {
+      "title": "Sahara",
+      "lead": "The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica an",
+      "image": "Sahara_real_color.jpg"
+    },
+    "African_humid_period": {
+      "title": "African humid period",
+      "lead": "The African humid period (AHP; also known by other names) was a climate period in Africa during the late Pleistocene and Holocene geologic epochs, when North Africa was wetter than it is today. The covering of much of the Sahara by grasses,",
+      "image": "Sahara_satellite_hires.jpg"
     },
     "Ancient_Libya": {
       "title": "Ancient Libya",
       "lead": "During the Iron Age and Classical antiquity, Libya (from Greek Λιβύη: Libyē, which came from Berber: Libu) referred to the area of North Africa directly west of the Nile River (modern-day Libya, Tunisia, Algeria, and Morocco). Ancient Libya",
       "image": "Herodotus_world_map-en.svg"
+    },
+    "Shutruk-Nahhunte": {
+      "title": "Shutruk-Nakhunte",
+      "lead": "Shutruk-Nakhunte (sometimes Nahhunte) was king of Elam from about 1184 to 1155 BC (middle chronology), and the second king of the Shutrukid Dynasty. Elam amassed an empire that included most of Mesopotamia and western Iran. Under his comman",
+      "image": "Shutruk-Nakhunte,_Musée_du_Louvre.jpg"
+    },
+    "Ancient_Egypt": {
+      "title": "Ancient Egypt",
+      "lead": "Ancient Egypt was a cradle of civilization concentrated along the lower reaches of the Nile River in the eastern corner of North Africa. It emerged from prehistoric Egypt around 3150 BC (according to conventional Egyptian chronology), when ",
+      "image": "Ancient_Egypt_map-en.svg"
+    },
+    "Nile_Delta": {
+      "title": "Nile Delta",
+      "lead": "The Nile Delta (Arabic: دلتا النيل, Delta an-Nīl or simply الدلتا, ad-Delta) is the delta formed in Lower Egypt where the Nile River spreads out and drains into the Mediterranean Sea. It is one of the world's largest deltas. From Alexandria",
+      "image": "Nile_delta_landsat_false_color.jpg"
     },
     "Tefnakht": {
       "title": "Tefnakht",
@@ -459,7 +559,7 @@
     },
     "Sais,_Egypt": {
       "title": "Sais, Egypt",
-      "lead": "Sais (Ancient Greek: Σάϊς; Coptic: Ⲥⲁⲓ) was an ancient Egyptian city in the Western Nile Delta on the Canopic branch of the Nile, known by the ancient Egyptians as Sꜣw. It was the provincial capital of Sap-Meh, the fifth nome of Lower Egypt",
+      "lead": "Sais (Ancient Egyptian: 𓊃𓐰𓅭𓄿𓅱𓊖, romanized: Zꜣw; Ancient Greek: Σάϊς, romanized: Sáïs; Coptic: Ⲥⲁⲓ, romanized: Sai) was an ancient Egyptian city in the Western Nile Delta on the Canopic branch of the Nile, It was the provincial capital",
       "image": "Jean-Francois_Champollion_-_Plan_Des_Ruines_De_Sais.cropped.png"
     },
     "Hermopolis": {
@@ -492,11 +592,6 @@
       "lead": "Circumcision likely has ancient roots among several ethnic groups in sub-equatorial Africa, Egypt, and Arabia, though the specific form and extent of circumcision has varied. Ritual male circumcision is known to have been practiced by South",
       "image": ""
     },
-    "Tiglath-Pileser_III": {
-      "title": "Tiglath-Pileser III",
-      "lead": "Tiglath-Pileser III (Neo-Assyrian Akkadian: 𒆪𒋾𒀀𒂍𒈗𒊏, romanized: Tukultī-apil-Ešarra, meaning \"my trust belongs to the son of Ešarra\", Biblical Hebrew: תִּגְלַת פִּלְאֶסֶר‎, romanized: Tiglaṯ Pilʾeser, Old Aramaic: 𐤕𐤂𐤋𐤕𐤐𐤋𐤉𐤎𐤓, r",
-      "image": "Tilglath_pileser_iii.jpg"
-    },
     "Kingdom_of_Israel_(Samaria)": {
       "title": "Kingdom of Israel (Samaria)",
       "lead": "The Kingdom of Israel (Biblical Hebrew: מַמְלֶכֶת יִשְׂרָאֵל, romanized: Mamleḵeṯ Yiśrāʾēl), also called the Kingdom of Samaria or the Northern Kingdom, was an Israelite kingdom that existed in the Southern Levant during the Iron Age. Its b",
@@ -522,15 +617,75 @@
       "lead": "The Scythians () or Scyths (), also known as the Pontic Scythians, were an ancient Eastern Iranic equestrian nomadic people who migrated during the 9th to 8th centuries BC from Central Asia to the Pontic Steppe in modern-day Ukraine and Sou",
       "image": "Scythian_Kingdom_in_West_Asia.jpg"
     },
-    "Upper_Egypt": {
-      "title": "Upper Egypt",
-      "lead": "Upper Egypt (Arabic: صعيد مصر Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd], locally: [es.sˤɑ.ˈʕiːd]) is the southern portion of Egypt and is composed of the Nile River valley south of the delta and the 30th",
-      "image": "Upper_Egypt_Nomes.png"
-    },
     "Twenty-fifth_Dynasty_of_Egypt": {
       "title": "Twenty-fifth Dynasty of Egypt",
       "lead": "The Twenty-fifth Dynasty of Egypt (notated Dynasty XXV, alternatively 25th Dynasty or Dynasty 25), also known as the Nubian Dynasty, the Kushite Empire, the Black Pharaohs, or the Napatans, after their capital Napata, was the last dynasty o",
       "image": "Rulers_of_Kush,_Kerma_Museum.jpg"
+    },
+    "Lower_Egypt": {
+      "title": "Lower Egypt",
+      "lead": "Lower Egypt (Arabic: مصر السفلى Miṣr as-Suflā) is the northernmost region of Egypt, which consists of the fertile Nile Delta between Upper Egypt and the Mediterranean Sea. The Nile River split into seven branches of the delta in Lower Egypt",
+      "image": "Lower_Egypt_Nomes_01.png"
+    },
+    "Egyptian_Museum": {
+      "title": "Egyptian Museum",
+      "lead": "The Museum of Egyptian Antiquities, commonly known as the Egyptian Museum (Egyptian Arabic: المتحف المصرى, romanized: al-Matḥaf al-Miṣrī, Egyptian Arabic pronunciation: [elˈmætħæf elˈmɑsˤɾi]) and also called the Cairo Museum or the Egyptian",
+      "image": "1897_bis_1902_wurde_das_Ägyptische_Museum_in_Kairo_gebaut._04.jpg"
+    },
+    "Middle_Egypt": {
+      "title": "Middle Egypt",
+      "lead": "Middle Egypt (Arabic: مِصْر ٱلْوِسْطَى, romanized: Miṣr al-Wisṭā) is the section of land between Lower Egypt (the Nile Delta) and Upper Egypt, stretching upstream from Asyut in the south to Memphis in the north. At the time, Ancient Egypt w",
+      "image": "Middle_Egypt_Nomes.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Babylonia": {
+      "title": "Babylonia",
+      "lead": "Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the city of Babylon in central-southern Mesopotamia (present-day Iraq and parts of Syria). It emerged as an Akkadian-populated ",
+      "image": "Hammurabi's_Babylonia_1.svg"
+    },
+    "Marduk": {
+      "title": "Marduk",
+      "lead": "Marduk (; cuneiform: 𒀭𒀫𒌓 dAMAR.UTU; Sumerian: amar utu.k \"calf of the sun; solar calf\"; Hebrew: מְרֹדַךְ, Modern: Merōdaḵ, Tiberian: Mərōḏaḵ) was a god from ancient Mesopotamia, patron deity of Babylon. First sparsely attested in the 3rd",
+      "image": "Chaos_Monster_and_Sun_God.png"
+    },
+    "Nabonidus": {
+      "title": "Nabonidus",
+      "lead": "Nabonidus (Neo-Babylonian Akkadian: 𒀭𒀝𒈾𒀪𒀉, romanized: Nabû-naʾid, meaning \"May Nabu be exalted\" or \"Nabu is praised\") was the last king of the Neo-Babylonian Empire, ruling from 556 BC to the fall of Babylon to the Achaemenian Empire u",
+      "image": "Detail,_stele_of_Nabonidus._Nabonidus_wears_the_traditional_dress_of_a_Babylonian_king,_holding_objects_symbolizing_justice_and_power.jpg"
+    },
+    "Mesopotamia": {
+      "title": "Mesopotamia",
+      "lead": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, ",
+      "image": "N-Mesopotamia_and_Syria_english.svg"
+    },
+    "Susa": {
+      "title": "Susa",
+      "lead": "Susa ( SOO-sə) was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, between the Karkheh and Dez Rivers in Iran. It represents the current city of Shush, located on the site of ancient Susa. One of the ",
+      "image": "History_of_Egypt,_Chaldea,_Syria,_Babylonia_and_Assyria_(1903)_(14584070300).jpg"
+    },
+    "Zhou_dynasty": {
+      "title": "Zhou dynasty",
+      "lead": "The Zhou dynasty ( JOH; Chinese: 周; pinyin: Zhōu, pronunciation: [ʈʂóʊ]) was a royal dynasty of China that existed for 789 years from c. 1046 BC until 256 BC, the longest span of any dynasty in Chinese history. During the Western Zhou perio",
+      "image": "Zhou_dynasty_1000_BC.png"
+    },
+    "Sinai_Peninsula": {
+      "title": "Sinai Peninsula",
+      "lead": "The Sinai Peninsula, or simply Sinai ( SY-ny; Arabic: سيناء, romanized: Seynāʾ or Sīnāʾ; Egyptian Arabic: سينا, romanized: Sīna), is a peninsula in Egypt, and the only part of the country located in West Asia. It is between the Mediterranea",
+      "image": "Sinai-peninsula-map.jpg"
+    },
+    "Ashurbanipal": {
+      "title": "Ashurbanipal",
+      "lead": "Ashurbanipal (Neo-Assyrian Akkadian: 𒀸𒋩𒆕𒀀, romanized: Aššur-bāni-apli, meaning \"Ashur is the creator of the heir\") was the king of the Neo-Assyrian Empire from 669 BC to his death in 631. He is generally remembered as the last great kin",
+      "image": "AshurbanipalKingOfAssyria.jpg"
+    },
+    "Egyptology": {
+      "title": "Egyptology",
+      "lead": "Egyptology (from Egypt and Greek -λογία, -logia; Arabic: علم المصريات) is the scientific study of ancient Egypt, including historic artifacts and ancient writing. The topics studied include ancient Egyptian history, language, literature, re",
+      "image": "Tuts_Tomb_Opened.JPG"
     },
     "Ptah": {
       "title": "Ptah",
@@ -552,11 +707,6 @@
       "lead": "The Kingdom of Judah was an Israelite kingdom of the Southern Levant during the Iron Age. Centered in the highlands to the west of the Dead Sea, the kingdom's capital was Jerusalem. It was ruled by the House of David for four centuries. Jew",
       "image": "Kingdoms_of_Israel_and_Judah_(8th_century_BCE).svg"
     },
-    "Levant": {
-      "title": "Levant",
-      "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
-      "image": "Levant_(orthographic_projection).png"
-    },
     "2_Kings": {
       "title": "Books of Kings",
       "lead": "The Book of Kings (Hebrew: סֵפֶר מְלָכִים, Sēfer Məlāḵīm) is a book in the Hebrew Bible, found as two books (1–2 Kings, sometimes called the books of 1 and 2 Kings or First Kings and Second Kings) in the Old Testament of the Christian Bible",
@@ -567,11 +717,6 @@
       "lead": "In ancient Egyptian history, the Old Kingdom is the period spanning c. 2700 – c. 2200 BC. It is also known as the \"Age of the Pyramids\" or the \"Age of the Pyramid Builders\", as it encompasses the reigns of the great pyramid-builders of the ",
       "image": "4th_Dynasty_of_Egypt-03.png"
     },
-    "Nebuchadnezzar_II": {
-      "title": "Nebuchadnezzar II",
-      "lead": "Nebuchadnezzar II, more correctly spelled Nebuchadrezzar II, meaning \"Nabu, watch over my heir\", was the second king of the Neo-Babylonian Empire, ruling from the death of his father Nabopolassar in 605 BC to his own death in 562 BC. Often ",
-      "image": "Nebuchadnezzar_II_crop.png"
-    },
     "Nineveh": {
       "title": "Nineveh",
       "lead": "Nineveh was an ancient Near Eastern city of Upper Mesopotamia, located in the modern-day city of Mosul in northern Iraq. It is located on the eastern bank of the Tigris River and was the capital and largest city of the Neo-Assyrian Empire, ",
@@ -581,11 +726,6 @@
       "title": "Esarhaddon",
       "lead": "Esarhaddon, also spelled Essarhaddon, Assarhaddon and Ashurhaddon (Neo-Assyrian Akkadian: 𒀭𒊹𒉽𒀸, also 𒀭𒊹𒉽𒋧𒈾 Aššur-aḫa-iddina, meaning \"Ashur has given me a brother\"; Biblical Hebrew: אֵסַר־חַדֹּן‎ ʾĒsar-Ḥaddōn) was the king of the N",
       "image": "Detail._Sam'al_stele_of_Esarhaddon,_671_BCE,_Pergamon_Museum.jpg"
-    },
-    "Ashurbanipal": {
-      "title": "Ashurbanipal",
-      "lead": "Ashurbanipal (Neo-Assyrian Akkadian: 𒀸𒋩𒆕𒀀, romanized: Aššur-bāni-apli, meaning \"Ashur is the creator of the heir\") was the king of the Neo-Assyrian Empire from 669 BC to his death in 631. He is generally remembered as the last great kin",
-      "image": "AshurbanipalKingOfAssyria.jpg"
     },
     "Iron_Age": {
       "title": "Iron Age",
@@ -607,10 +747,45 @@
       "lead": "Sargon II (Neo-Assyrian Akkadian: 𒈗𒁺, romanized: Šarru-kīn, meaning \"the faithful king\" or \"the legitimate king\") was the king of the Neo-Assyrian Empire from 722 BC to his death in battle in 705. Probably the son of Tiglath-Pileser III (",
       "image": "Sargon_II,_Iraq_Museum_in_Baghdad.jpg"
     },
-    "Sinai_Peninsula": {
-      "title": "Sinai Peninsula",
-      "lead": "The Sinai Peninsula, or simply Sinai ( SY-ny; Arabic: سيناء, romanized: Seynāʾ or Sīnāʾ; Egyptian Arabic: سينا, romanized: Sīna), is a peninsula in Egypt, and the only part of the country located in West Asia. It is between the Mediterranea",
-      "image": "Sinai-peninsula-map.jpg"
+    "Tigris": {
+      "title": "Tigris",
+      "lead": "The Tigris ( TY-griss; see below) is the eastern of the two great rivers that define Mesopotamia, the other being the Euphrates. The river flows south from the mountains of the Armenian Highlands through the Syrian and Arabian Deserts, befo",
+      "image": "Mosul_river.jpg"
+    },
+    "Jerusalem": {
+      "title": "Jerusalem",
+      "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
+      "image": "המצודה_בלילה.jpg"
+    },
+    "Khartoum": {
+      "title": "Khartoum",
+      "lead": "Khartoum, also spelled Khartum, is the capital city of Sudan as well as Khartoum State. With an estimated population of 7.1 million people, Greater Khartoum is the largest urban area in Sudan. Khartoum is located at the confluence of the Wh",
+      "image": "©Nile-Project_-Sari_Omer_0025.jpg"
+    },
+    "Book_of_Isaiah": {
+      "title": "Book of Isaiah",
+      "lead": "The Book of Isaiah (Hebrew: ספר ישעיהו [ˈseː.fɛr jə.ʃaʕ.ˈjɔː.huː]) is the first of the Latter Prophets in the Hebrew Bible and the first of the major prophets in the Christian Old Testament. It is identified by a superscription as the words",
+      "image": ""
+    },
+    "Ethiopian_Highlands": {
+      "title": "Ethiopian Highlands",
+      "lead": "The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Ethiopia to Eritrea in Northeast Africa. It forms the largest continuous area of its elevation in the continent, with little of its ",
+      "image": "Semien_Mountains_13.jpg"
+    },
+    "Aethiopia": {
+      "title": "Aethiopia",
+      "lead": "Ancient Aethiopia (Greek: Αἰθιοπία, romanized: Aithiopía) first appears as a geographical term in classical documents in reference to the skin color of the inhabitants of the upper Nile in Sudan, areas south of the Sahara, and less often to",
+      "image": "Resized-inu-afrmap-4004357-recto-master.png"
+    },
+    "Chaldea": {
+      "title": "Chaldea",
+      "lead": "Chaldea () refers to a region probably located in the marshy land of southern Mesopotamia. It is mentioned, with varying meaning, in Neo-Assyrian cuneiform, the Hebrew Bible, and in classical Greek texts. The Hebrew Bible uses the term כשדי",
+      "image": "Babylonie_chaldeens.svg"
+    },
+    "Teumman": {
+      "title": "Teumman",
+      "lead": "Teumman was a king of the ancient kingdom of Elam, ruling it from 664 to 653 BCE, contemporary with the Assyrian king Ashurbanipal (668 – c. 627). In various sources, the name may be found spelled as Te’umman, Teumann, or Te-Umman. For a ti",
+      "image": "King_Teumman_wounded_at_the_Battle_of_Ulai.jpg"
     },
     "Nome_(Egypt)": {
       "title": "Nome (Egypt)",
@@ -662,11 +837,6 @@
       "lead": "Menkheperre Necho I (Egyptian: Nekau, Greek: Νεχώς Α' or Νεχώ Α', Akkadian: Nikuu or Nikû) (? – 664 BCE near Memphis) was a ruler of the ancient Egyptian city of Sais. He was the first securely attested local Saite king of the 26th Dynasty ",
       "image": "Necho_I_Horus.png"
     },
-    "Battle_of_Nineveh_(612_BC)": {
-      "title": "Fall of Nineveh",
-      "lead": "The Fall of Nineveh, also called the Battle of Nineveh, was a major battle that marked the climax of the Conquest of the Assyrian Empire in 612 BC. After the Assyrian defeat at the Fall of Assur, an allied army which involved the combined f",
-      "image": "Fall_of_nineveh.jpg"
-    },
     "Medes": {
       "title": "Medes",
       "lead": "The Medes were an Iron Age Iranian people who spoke the Median language and who inhabited an area known as Media between western and northern Iran. Around the 11th century BC, they occupied the mountainous region of northwestern Iran and th",
@@ -677,6 +847,26 @@
       "lead": "The Babylonian captivity or Babylonian exile was the period in Jewish history during which a large number of Judeans from the ancient Kingdom of Judah were exiled to Babylonia by the Neo-Babylonian Empire. The expulsions occurred in multipl",
       "image": "Tissot_The_Flight_of_the_Prisoners.jpg"
     },
+    "Khuzestan_province": {
+      "title": "Khuzestan province",
+      "lead": "Khuzestan province ([xuːzest̪ʰɒːn] ; Persian: استان خوزستان) is one of the 31 Provinces of Iran. An extension of the Mesopotamian Plain, it is located in the southwest of the country, bordering Iraq and the Persian Gulf, and covering an are",
+      "image": "Shush_Castle_Darafsh_(25).jpg"
+    },
+    "Anshan_(Persia)": {
+      "title": "Anshan (Persia)",
+      "lead": "Anshan (Elamite cuneiform: 𒀭𒍝𒀭 Anzan; Sumerian: 𒀭𒊓𒀭𒆠 Ansanᴷᴵ, 𒀭𒊭𒀭𒆠 Anšanᴷᴵ) modern Tall-e Malyan (Persian: تل ملیان), also Tall-i Malyan, was an Elamite and ancient Persian city. It was located in the Zagros Mountains in southwes",
+      "image": "Keramik_aus_Iran.jpg"
+    },
+    "Aegean_Sea": {
+      "title": "Aegean Sea",
+      "lead": "The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located between the Balkans and Anatolia, and covers an area of some 215,000 km2 (83,000 sq mi). In the north, the Aegean is connected to the M",
+      "image": "Location_of_the_Aegean_Sea.png"
+    },
+    "Meroe": {
+      "title": "Meroë",
+      "lead": "Meroë was an ancient city on the east bank of the Nile about 6 km north-east of the Kabushiya station near Shendi, Sudan, approximately 200 km north-east of Khartoum. Near the site is a group of villages called Bagrawiyah (Arabic: البجراوية",
+      "image": "NubianMeroePyramids30sep2005(2).jpg"
+    },
     "White_Nile": {
       "title": "White Nile",
       "lead": "The White Nile (Arabic: النيل الأبيض an-nīl al-'abyaḍ) is a river in North and East Africa. It is the less-voluminous, but longer (and wider and shallower), of the two major tributaries of the Nile, the larger being the Blue Nile. The name ",
@@ -686,11 +876,6 @@
       "title": "Blue Nile",
       "lead": "The Blue Nile is a river originating at Lake Tana in Ethiopia. It travels for approximately 1,450 km (900 mi) through Ethiopia and Sudan. Along with the White Nile, it is one of the two major tributaries of the Nile and supplies about 85.6%",
       "image": "ET_Bahir_Dar_asv2018-02_img32_view_from_Bezawit.jpg"
-    },
-    "Khartoum": {
-      "title": "Khartoum",
-      "lead": "Khartoum, also spelled Khartum, is the capital city of Sudan as well as Khartoum State. With an estimated population of 7.1 million people, Greater Khartoum is the largest urban area in Sudan. Khartoum is located at the confluence of the Wh",
-      "image": "©Nile-Project_-Sari_Omer_0025.jpg"
     },
     "Anthony_John_Arkell": {
       "title": "A. J. Arkell",
@@ -726,11 +911,6 @@
       "title": "Hypostyle",
       "lead": "In architecture, a hypostyle () hall has a roof which is supported by columns.",
       "image": "Temple_de_Louxor_53.jpg"
-    },
-    "Ptolemaic_dynasty": {
-      "title": "Ptolemaic dynasty",
-      "lead": "The Ptolemaic dynasty (; Ancient Greek: Πτολεμαῖοι, Ptolemaioi), also known as the Lagid dynasty (Λαγίδαι, Lagidai; after Ptolemy I's father, Lagus), was a Macedonian Greek royal house which ruled the Ptolemaic Kingdom in Ancient Egypt duri",
-      "image": "Ptolemaic_eagle.png"
     },
     "Alexandria": {
       "title": "Alexandria",
@@ -776,6 +956,41 @@
       "title": "Red Sea",
       "lead": "The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is in the south, through the Bab-el-Mandeb Strait and the Gulf of Aden. To the north of the Red Sea lies the Sinai Peninsula, the Gul",
       "image": "Red_Sea_topographic_map-en.jpg"
+    },
+    "Warring_States_period": {
+      "title": "Warring States period",
+      "lead": "The Warring States period in Chinese history (c. 475 – 221 BC) comprises the final centuries of the Zhou dynasty (c. 1046 – 256 BC), which were characterized by warfare, bureaucratic and military reform, and political consolidation. It foll",
+      "image": "EN-WarringStatesAll260BCE.jpg"
+    },
+    "Meroitic_language": {
+      "title": "Meroitic language",
+      "lead": "The Meroitic language () is an extinct language of uncertain linguistic affiliation formerly spoken in Meroë (in present-day Sudan) during the Meroitic period (attested from 300 BC) and became extinct about 400 AD. It was written in two for",
+      "image": "Meroitische_Inschrift,_Meroe_1._Jh._n._Chr.,_Aegyptisches_Museum,_Muenchen-1.jpg"
+    },
+    "Step_pyramid": {
+      "title": "Step pyramid",
+      "lead": "A step pyramid or stepped pyramid is an architectural structure that uses flat platforms, or steps, receding from the ground up, to achieve a completed shape similar to a geometric pyramid. Step pyramids – typically large and made of severa",
+      "image": "Vista_desde_la_Pirámide_de_la_Luna_-_Teotihuacan_-_MX.jpg"
+    },
+    "Ptolemaic_dynasty": {
+      "title": "Ptolemaic dynasty",
+      "lead": "The Ptolemaic dynasty (; Ancient Greek: Πτολεμαῖοι, Ptolemaioi), also known as the Lagid dynasty (Λαγίδαι, Lagidai; after Ptolemy I's father, Lagus), was a Macedonian Greek royal house which ruled the Ptolemaic Kingdom in Ancient Egypt duri",
+      "image": "Ptolemaic_eagle.png"
+    },
+    "Iranian_peoples": {
+      "title": "Iranian peoples",
+      "lead": "Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their native usage of any of the Iranian languages, which are a branch of the Indo-Iranian languages within the Indo-European language fam",
+      "image": "Iranian_languages_distribution.png"
+    },
+    "Pataliputra": {
+      "title": "Pataliputra",
+      "lead": "Pataliputra (IAST: Pāṭaliputra), adjacent to modern-day Patna, Bihar, was a city in ancient India, originally built by Magadha ruler Ajatashatru in 490 BCE, as a small fort (Pāṭaligrāma) near the Ganges river. Udayin laid the foundation of ",
+      "image": "Pataliputra6.jpg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
     },
     "Demotic_Egyptian_script": {
       "title": "Demotic Egyptian script",
@@ -877,6 +1092,76 @@
       "lead": "The Qin dynasty ( CHIN) was the first imperial dynasty of China. It is named for its progenitor state of Qin, a fief of the confederal Zhou dynasty (c. 1046–256 BC). Beginning in 230 BC, the Qin under King Ying Zheng engaged in a series of ",
       "image": "Qin_dynasty_territory.svg"
     },
+    "Easter_Island": {
+      "title": "Easter Island",
+      "lead": "Easter Island (Spanish: Isla de Pascua, [ˈizla ðe ˈpaskwa]; Rapa Nui: Rapa Nui, [ˈɾapa ˈnu.i]) is an island and special territory of Chile in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceani",
+      "image": "Easter_Island_5.jpg"
+    },
+    "Twelfth_Dynasty_of_Egypt": {
+      "title": "Twelfth Dynasty of Egypt",
+      "lead": "The Twelfth Dynasty of ancient Egypt (Dynasty XII) is a series of rulers reigning from c. 1991–1802 BC (c. 190 years), at what is often considered to be the apex of the Middle Kingdom (Dynasties XI–XIV). The dynasty periodically expanded it",
+      "image": "Statue_Senusret_I_Petrie.jpg"
+    },
+    "Proto-Elamite_script": {
+      "title": "Proto-Elamite script",
+      "lead": "The Proto-Elamite script is a writing system used briefly during early Bronze Age and before the introduction of Elamite cuneiform. It remained largely undeciphered, except for various numbers. There are many similarities between the writin",
+      "image": "Proto-Elamite_Tablets.jpg"
+    },
+    "Linear_Elamite": {
+      "title": "Linear Elamite",
+      "lead": "Linear Elamite was a writing system used in Elam during the Bronze Age between c. 2300 and 1850 BCE, and known mainly from a few extant monumental inscriptions. It was used contemporaneously with Elamite cuneiform and records the Elamite la",
+      "image": "List_of_known_Linear_Elamite_characters.jpg"
+    },
+    "Hindi": {
+      "title": "Hindi",
+      "lead": "Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an Indo-Aryan language written in the Devanagari script. It is an official language of the government of India, and is the ",
+      "image": "Hindi.svg"
+    },
+    "Horus": {
+      "title": "Horus",
+      "lead": "Horus (), also known as Heru, Har, Her, or Hor () Ϩⲱⲣ (Coptic), in Ancient Egyptian, is one of the most significant ancient Egyptian deities who served many functions, most notably as the god of kingship, healing, protection, the sun, and t",
+      "image": "Horus_standing.svg"
+    },
+    "Shiva": {
+      "title": "Shiva",
+      "lead": "Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IAST: Mahādevaḥ, [mɐɦaːd̪eːʋɐh], lit. 'The Great God') and Hara (Sanskrit: हर, lit. 'The Remover'), is one of the principal deities ",
+      "image": "Bangalore_Shiva.jpg"
+    },
+    "Vishnu": {
+      "title": "Vishnu",
+      "lead": "Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and Hari, is one of the principal deities of Hinduism. He is the Supreme Being within Vaishnavism, one of the major traditions within",
+      "image": "Vishnu_from_Gita_Govinda.jpg"
+    },
+    "Alps": {
+      "title": "Alps",
+      "lead": "The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,200 km (750 mi) across several Alpine countries (from west to east): Monaco, France, Switzerland, Italy, Liechtenstein, Germany, Au",
+      "image": "Alps_2007-03-13_10.10UTC_1px-250m.jpg"
+    },
+    "Kerma": {
+      "title": "Kerma",
+      "lead": "Kerma was the capital city of the Kingdom of Kerma, which had its roots in the pre-Kerma culture in present-day Sudan from 3500 BC. Kerma is one of the largest archaeological sites in ancient Nubia. It has produced decades of extensive exca",
+      "image": "Kerma_city.JPG"
+    },
+    "Gandhara": {
+      "title": "Gandhara",
+      "lead": "Gandhara (Sanskrit: गन्धारः, romanized: Gandhāra) was an ancient Indo-Aryan civilisation located in present-day northwestern Pakistan and northeastern Afghanistan. The core of the region of Gandhara was the Valley of Peshawar, though the cu",
+      "image": ""
+    },
+    "Kharosthi": {
+      "title": "Kharosthi",
+      "lead": "Kharosthi script (Gāndhārī: 𐨑𐨪𐨆𐨮𐨿𐨛𐨁𐨌 𐨫𐨁𐨤𐨁, romanized: kharoṣṭhī lipi), also known as the Gandhari script (𐨒𐨌𐨣𐨿𐨢𐨌𐨪𐨁𐨌 𐨫𐨁𐨤𐨁, gāndhārī lipi), was an ancient Indic script originally developed in the Gandhara Region of th",
+      "image": "YingpanKharoshthi.jpg"
+    },
+    "Bengalis": {
+      "title": "Bengalis",
+      "lead": "Bengalis (Bengali: বাঙ্গালী, বাঙালি [baŋgali, baŋali] ), also rendered as endonym Bangalee, are an Indo-Aryan ethnolinguistic group originating from and culturally affiliated with the Bengal region of South Asia. The current population is d",
+      "image": "Boishakhi_celebrations.png"
+    },
+    "Southeast_Asia": {
+      "title": "Southeast Asia",
+      "lead": "Southeast Asia is the geographical southeastern region of Asia, consisting of the regions that are situated south of China, east of the Indian subcontinent, and northwest of mainland Australia, which is part of Oceania. Southeast Asia is bo",
+      "image": "Southeast_Asia_(orthographic_projection).svg"
+    },
     "Augustus": {
       "title": "Augustus",
       "lead": "Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14), also known as Octavian (Latin: Octavianus), was the founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14. The reign of Augustus ini",
@@ -967,6 +1252,46 @@
       "lead": "Marcus Licinius Crassus (; 115–53 BC) was a Roman general and statesman who played a key role in the transformation of the Roman Republic into the Roman Empire. He was often called \"the richest man in Rome\". Crassus began his public career ",
       "image": "Bust_of_a_Roman,_Ny_Carlsberg_Glyptotek.jpg"
     },
+    "Julius_Caesar": {
+      "title": "Julius Caesar",
+      "lead": "Gaius Julius Caesar (12 or 13 July 100 BC – 15 March 44 BC) was a Roman general, statesman, and author who was the dictator of the Roman Republic almost continuously from 49 BC until his assassination in 44 BC. A member of the First Triumvi",
+      "image": "Retrato_de_Julio_César_(26724093101)_(cropped).jpg"
+    },
+    "Mark_Antony": {
+      "title": "Mark Antony",
+      "lead": "Marcus Antonius (14 January 83 BC – 1 August 30 BC), commonly known in English as Mark Antony, was a Roman politician and general who played a critical role in the transformation of the Roman Republic from a constitutional republic into the",
+      "image": "Octavian_and_Antony_denarius_(obverse).jpg"
+    },
+    "Emperor_Wu_of_Han": {
+      "title": "Emperor Wu of Han",
+      "lead": "Emperor Wu of Han (156 – 29 March 87 BC) (Chinese: 漢武帝; pinyin: Hàn Wŭdì), personal name Liu Che (Chinese: 劉徹; pinyin: Liú Chè) and courtesy name Tong (Chinese: 通; pinyin: Tōng), was the seventh emperor of the Han dynasty from 141 to 87 BC.",
+      "image": "漢武帝.jpg"
+    },
+    "Gaul": {
+      "title": "Gaul",
+      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
+      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    },
+    "Corinthian_order": {
+      "title": "Corinthian order",
+      "lead": "The Corinthian order (Greek: Κορινθιακὸς ῥυθμός, Korinthiakós rythmós; Latin: Ordo Corinthius) is the last developed and most ornate of the three principal classical orders of Ancient Greek architecture and Roman architecture. The other two",
+      "image": "Temple_of_Bacchus_at_Baalbek.jpg"
+    },
+    "Indus_Valley_Civilisation": {
+      "title": "Indus Valley Civilisation",
+      "lead": "The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in the northwestern regions of South Asia, lasting from 3300 BCE to 1300 BCE, and in its mature form from 2600 BCE to 1900 BCE. Togethe",
+      "image": "Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).png"
+    },
+    "Hathor": {
+      "title": "Hathor",
+      "lead": "Hathor (Ancient Egyptian: ḥwt-ḥr, lit. 'House of Horus', Ancient Greek: Ἁθώρ Hathōr, Coptic: ϩⲁⲑⲱⲣ, Meroitic: 𐦠𐦴𐦫𐦢‎ Atari) was a major goddess in ancient Egyptian religion who played a wide variety of roles. As a sky deity, she was the ",
+      "image": "Hathor.svg"
+    },
+    "Berlin": {
+      "title": "Berlin",
+      "lead": "Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inhabitants, it has the highest population within its city limits of any city in the European Union. The city is also one of the state",
+      "image": "Museumsinsel_Berlin_Juli_2021_1_(cropped)_b.jpg"
+    },
     "Adulis": {
       "title": "Adulis",
       "lead": "Adulis (Sabaean: ‎𐩱 𐩵 𐩡 𐩪, Ge'ez: ኣዱሊስ, Ancient Greek: Ἄδουλις) was an ancient city along the Red Sea in the Gulf of Zula, about 40 kilometers (25 mi) south of Massawa. Its ruins lie within the modern Eritrean city of Zula. It was the e",
@@ -1034,13 +1359,8 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was a historical city located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopolis in Bithynia, Anatolia (Asia Minor) to th",
+      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
-    },
-    "Sasanian_Empire": {
-      "title": "Sasanian Empire",
-      "lead": "The Sasanian Empire (), officially Eranshahr (Middle Persian: 𐭠𐭩𐭥𐭠𐭭𐭱𐭲𐭥𐭩 Ērānšahr, 'Empire of the Iranians'), was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for over four centuries",
-      "image": "The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg"
     },
     "Gupta_Empire": {
       "title": "Gupta Empire",
@@ -1061,6 +1381,61 @@
       "title": "Monsoon",
       "lead": "A monsoon () is traditionally a seasonal reversing wind accompanied by corresponding changes in precipitation but is now used to describe seasonal changes in atmospheric circulation and precipitation associated with annual latitudinal oscil",
       "image": "Monsoon_clouds_near_Nagercoil.jpg"
+    },
+    "Horn_of_Africa": {
+      "title": "Horn of Africa",
+      "lead": "The Horn of Africa (HOA), also known as the Somali Peninsula, is a large peninsula and geopolitical region located in the easternmost part of mainland Africa. It is the fourth largest peninsula in the world and is composed of Somalia, Djibo",
+      "image": "Horn_of_Africa_(orthographic_projection).svg"
+    },
+    "Late_Bronze_Age_collapse": {
+      "title": "Late Bronze Age collapse",
+      "lead": "The Late Bronze Age collapse was a period of societal collapse in the Mediterranean basin during the late 13th to early 12th century BC. It is thought to have affected much of the Eastern Mediterranean and Near East, in particular Egypt, An",
+      "image": "Bronze_Age_End.svg"
+    },
+    "Ptolemaic_Kingdom": {
+      "title": "Ptolemaic Kingdom",
+      "lead": "The Ptolemaic Kingdom (; Koine Greek: Πτολεμαϊκὴ βασιλεία, Ptolemaïkḕ basileía) or Ptolemaic Empire was an ancient Greek polity based in Egypt during the Hellenistic period. It was founded in 305 BC by the Macedonian Greek general Ptolemy I",
+      "image": "Ptolemaic_Kingdom_III-II_century_BC_-_en.svg"
+    },
+    "Eritrea": {
+      "title": "Eritrea",
+      "lead": "Eritrea, officially the State of Eritrea, is a country in the Horn of Africa region of East Africa. Its capital and largest city is Asmara. The country is bordered by Ethiopia to the south, Sudan to the west, and Djibouti to the southeast. ",
+      "image": "Flag_of_Eritrea.svg"
+    },
+    "Rhapta": {
+      "title": "Rhapta",
+      "lead": "Rhapta (Ancient Greek: τὰ Ῥάπτα and τὰ Ῥαπτά) was an emporion said to be on the coast of Southeast Africa, first described in the 1st century CE. Its location has not been firmly identified, although there are a number of plausible candidat",
+      "image": ""
+    },
+    "Zanj": {
+      "title": "Zanj",
+      "lead": "Zanj (Arabic: زَنْج; IPA: [zand͡ʒ], adj. زنجي; [zan.d͡ʒijj], Zanjī; from Persian: زنگ, romanized: Zang; [zæɲɡʲ̥]) is a term used by medieval Muslim geographers to refer to both a certain portion of Southeast Africa (primarily the Swahili Co",
+      "image": "Swahili_coast.png"
+    },
+    "Birmingham": {
+      "title": "Birmingham",
+      "lead": "Birmingham ( BUR-ming-əm) is a city and metropolitan borough in the West Midlands County, of England. It is the largest local authority district in England by population and the second-largest city in Britain – commonly referred to as the s",
+      "image": "Birmingham_Council_House_and_103_Colmore_Row.jpg"
+    },
+    "Ancestral_Puebloans": {
+      "title": "Ancestral Puebloans",
+      "lead": "The Ancestral Puebloans, also known as Ancestral Pueblo peoples or the Basketmaker-Pueblo culture, were an ancient Native American culture of Pueblo peoples spanning the present-day Four Corners region of the United States, comprising south",
+      "image": "Cliff_Palace,_Mesa_Verde_Park,_Colorado,_US_(36).jpg"
+    },
+    "Noba": {
+      "title": "Noba",
+      "lead": "Noba is a term found in a number of historical sources discussing ancient and Medieval Nubia. Its exact meaning is uncertain, with ancient sources themselves seeming confused about the region south of Egypt. Most likely it refers to two sep",
+      "image": ""
+    },
+    "Christianization": {
+      "title": "Christianization",
+      "lead": "Christianization (or Christianisation) is a term for the specific type of change that occurs when someone or something has been or is being converted to Christianity. Christianization has, for the most part, spread through missions by indiv",
+      "image": "Japanese_Map_symbol_(Church).svg"
+    },
+    "Jin_dynasty_(266%E2%80%93420)": {
+      "title": "Jin dynasty (266–420)",
+      "lead": "The Jin dynasty or the Jin Empire, officially Jin, sometimes distinguished as the Sima Jin or the Two Jins, was an imperial dynasty in China that existed from 266 to 420 CE. It was founded by Sima Yan, posthumously known as Emperor Wu of Ji",
+      "image": "Western_Jeun_Dynasty_280_CE.png"
     }
   }
 }

@@ -1,0 +1,304 @@
+# link-suggest — kingdom-of-kush
+
+{"CROSS":72,"REUSE":139,"LINK-CANDIDATE":56,"SKIP":13,"NO-PAGE":3}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Ancient Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×7)
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 14 civ(s) (e.g. ancient-nubia) ×36)
+- **Upper Egypt** → REUSE `Upper_Egypt` [high] — _Upper Egypt_: Upper Egypt (Arabic: صعيد مصر Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd],   (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- **Luxor** → REUSE `Luxor` [high] — _Luxor_: Luxor is a city in Upper Egypt. Luxor had a population of 284,952 in 2023, with an area of 43.0 km2 (16.6 sq m  (linked in 5 civ(s) (e.g. ancient-nubia) ×12)
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 25 civ(s) (e.g. ancient-nubia) ×115 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Eighteenth Dynasty** → REUSE `Eighteenth_Dynasty_of_Egypt` [high] — _Eighteenth Dynasty of Egypt_: The Eighteenth Dynasty of Egypt (notated Dynasty XVIII, alternatively 18th Dynasty or Dynasty 18) is classifie  (linked in 2 civ(s) (e.g. ancient-nubia) ×3)
+- **Kingdom of Kush** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×7)
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Giza** → REUSE `Giza_pyramid_complex` [high] — _Giza pyramid complex_: The Giza pyramid complex (also called the Giza necropolis) in Egypt is home to the Great Pyramid, the pyramid   (linked in 3 civ(s) (e.g. asuka-nara-japan) ×6)
+- **Khufu** → REUSE `Khufu` [CONFIRM-homonym] — _Khufu_: Khufu or Cheops was the second pharaoh of the Fourth Dynasty of Egypt, reigning during the 26th century BC in   (linked in 3 civ(s) (e.g. ancient-nubia) ×6 — ⚠ AMBIGUOUS: also Great_Pyramid_of_Giza(olmec-civilization))
+- **Great Pyramid** → REUSE `Great_Pyramid_of_Giza` [high] — _Great Pyramid of Giza_: The Great Pyramid of Giza is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyr  (linked in 3 civ(s) (e.g. ancient-nubia) ×5)
+- **Shabaka** → REUSE `Shabaka` [high] — _Shabaka_: Neferkare Shabaka, or Shabako (Meroitic: 𐦰𐦲𐦡𐦐𐦲 (sha-ba-ka), Egyptian: 𓆷𓃞𓂓 šꜣ bꜣ kꜣ, Assyrian: Ša-ba-ku  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Lower Nubia** → REUSE `Lower_Nubia` [high] — _Lower Nubia_: Lower Nubia (also called Wawat) is the northernmost part of Nubia, roughly contiguous with the modern Lake Nas  (linked in 1 civ(s) (e.g. ancient-nubia) ×2)
+- **Amarna Letters** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×2)
+- **Hittite** → CROSS → `hittite-empire`  (cross-linked elsewhere ×1)
+- **Levant** → REUSE `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The  (linked in 27 civ(s) (e.g. ancient-nubia) ×71)
+- **Tyre** → REUSE `Tyre,_Lebanon` [high] — _Tyre, Lebanon_: Tyre is a city in Lebanon, and one of the oldest continuously inhabited cities in the world. It was one of the  (linked in 9 civ(s) (e.g. ancient-greece) ×19)
+- **Sidon** → REUSE `Sidon` [high] — _Sidon_: Sidon ( SY-dən), or Saida ( SY-də, SAH-id-ə; Arabic: صيدا, romanized: Ṣaydā), is the third-largest city in Leb  (linked in 4 civ(s) (e.g. mesopotamia) ×8)
+- **Byblos** → REUSE `Byblos` [high] — _Byblos_: Byblos ( BIB-loss; Ancient Greek: Βύβλος), also known as Jbail, Jebeil, Jbeil or Jubayl (Arabic: جُبَيْل, roma  (linked in 7 civ(s) (e.g. early-dynastic-egypt) ×14)
+- Lebanon → SKIP (modern locator, cat A)
+- **C-Group** → REUSE `C-Group_culture` [high] — _C-Group culture_: The C-Group culture is an archaeological culture found in Lower Nubia, which dates from c. 2400 BCE to c. 1550  (linked in 1 civ(s) (e.g. ancient-nubia) ×1)
+- **Sahara** → REUSE `Sahara` [high] — _Sahara_: The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq m  (linked in 6 civ(s) (e.g. ancient-nubia) ×39)
+- **Green Sahara** → `Sahara` [high] — _Sahara_: The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is 
+- **Piye** → `Piye` [med] — _Piye_: Piye (also interpreted as Pānkhi, Piankhy, Paiānkhi, Piānkhi, or Paānkhi) was an ancient Kushite king and founder of the
+- **Victory Stela** → `Merneptah_Stele` [low] — _Merneptah Stele_: The Merneptah Stele, also known as the Israel Stele or the Victory Stele of Merneptah, is an inscription by Merneptah, a
+- **Theban** → NO-PAGE → blurb (top hit "Theban" is a disambiguation page)
+- **Libyan** → REUSE `Ancient_Libya` [high] — _Ancient Libya_: During the Iron Age and Classical antiquity, Libya (from Greek Λιβύη: Libyē, which came from Berber: Libu) ref  (linked in 2 civ(s) (e.g. carthage) ×3)
+- **Carthage** → CROSS → `phoenicia`  (cross-linked elsewhere ×13)
+- **Elam** → CROSS → `elamite-civilization`  (cross-linked elsewhere ×7)
+- **Zagros Mountains** → REUSE `Zagros_Mountains` [high] — _Zagros Mountains_: The Zagros Mountains are a mountain range in West Asia spanning Iran, northern Iraq, and southeastern Turkey.   (linked in 7 civ(s) (e.g. assyrian-empire) ×18)
+- **Shutruk-Nahhunte** → REUSE `Shutruk-Nahhunte` [high] — _Shutruk-Nakhunte_: Shutruk-Nakhunte (sometimes Nahhunte) was king of Elam from about 1184 to 1155 BC (middle chronology), and the  (linked in 2 civ(s) (e.g. elamite-civilization) ×4)
+
+## Chapter 2
+- **Lower Egypt** → REUSE `Lower_Egypt` [high] — _Lower Egypt_: Lower Egypt (Arabic: مصر السفلى Miṣr as-Suflā) is the northernmost region of Egypt, which consists of the fert  (linked in 2 civ(s) (e.g. early-dynastic-egypt) ×4)
+- **Middle Egypt** → `Middle_Egypt` [high] — _Middle Egypt_: Middle Egypt (Arabic: مِصْر ٱلْوِسْطَى, romanized: Miṣr al-Wisṭā) is the section of land between Lower Egypt (the Nile D
+- **Thebes** → REUSE `Thebes,_Greece` [CONFIRM-homonym] — _Thebes, Greece_: Thebes ( THEEBZ; Greek: Θήβα, Thíva [ˈθiva]; Ancient Greek: Θῆβαι, Thêbai [tʰɛ̂ːbai̯]) is a city in Boeotia, C  (linked in 4 civ(s) (e.g. ancient-greece) ×13 — ⚠ AMBIGUOUS: also Thebes,_Egypt(ancient-nubia))
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Amenirdis I** → `Amenirdis_I` [high] — _Amenirdis I_: Amenirdis I (throne name: Hatneferumut) was a God's Wife of Amun during the 25th Dynasty of ancient Egypt. Originating f
+- **God's Wife of Amun** → REUSE `God%27s_Wife_of_Amun` [high] — _God's Wife of Amun_: God's Wife of Amun (Egyptian: ḥm.t nṯr n ỉmn) was the highest-ranking priestess of the Amun cult, an important  (linked in 2 civ(s) (e.g. late-egypt) ×4)
+- **Kingdom of Kush** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×7)
+- **Jebel Barkal** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×1)
+- **Amun** → REUSE `Amun` [high] — _Amun_: Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested   (linked in 5 civ(s) (e.g. ancient-greece) ×10)
+- **Karnak** → REUSE `Karnak` [high] — _Karnak_: The Karnak Temple Complex, commonly known as Karnak (), comprises a vast mix of temples, pylons, chapels, and   (linked in 8 civ(s) (e.g. ancient-nubia) ×19)
+- **Egyptian Museum** → REUSE `Egyptian_Museum` [high] — _Egyptian Museum_: The Museum of Egyptian Antiquities, commonly known as the Egyptian Museum (Egyptian Arabic: المتحف المصرى, rom  (linked in 3 civ(s) (e.g. early-dynastic-egypt) ×6)
+- **Cairo** → REUSE `Cairo` [high] — _Cairo_: Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million   (linked in 19 civ(s) (e.g. ancient-nubia) ×86)
+- **Napata** → REUSE `Napata` [high] — _Napata_: Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: N  (linked in 5 civ(s) (e.g. ancient-nubia) ×14)
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- *** Babylonian** → `Babylonia` [high] — _Babylonia_: Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the cit
+- **Marduk** → REUSE `Marduk` [high] — _Marduk_: Marduk (; cuneiform: 𒀭𒀫𒌓 dAMAR.UTU; Sumerian: amar utu.k "calf of the sun; solar calf"; Hebrew: מְרֹדַךְ, M  (linked in 7 civ(s) (e.g. assyrian-empire) ×25)
+- **Nabonidus** → REUSE `Nabonidus` [high] — _Nabonidus_: Nabonidus (Neo-Babylonian Akkadian: 𒀭𒀝𒈾𒀪𒀉, romanized: Nabû-naʾid, meaning "May Nabu be exalted" or "Nabu   (linked in 3 civ(s) (e.g. late-egypt) ×8)
+- *** Mesopotamian** → `Mesopotamia` [high] — _Mesopotamia_: Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part 
+- **Code of Hammurabi** → CROSS → `mesopotamia`  (cross-linked elsewhere ×3)
+- **Susa** → REUSE `Susa` [high] — _Susa_: Susa ( SOO-sə) was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, bet  (linked in 9 civ(s) (e.g. ancient-greece) ×32)
+- **El-Kurru** → REUSE `El-Kurru` [high] — _El-Kurru_: El-Kurru was the first of the three royal cemeteries used by the Kushite royals of Napata, also referred to as  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Shang** → CROSS → `shang-dynasty`  (cross-linked elsewhere ×1)
+- **Zhou** → REUSE `Zhou_dynasty` [CONFIRM-homonym] — _Zhou dynasty_: The Zhou dynasty ( JOH; Chinese: 周; pinyin: Zhōu, pronunciation: [ʈʂóʊ]) was a royal dynasty of China that exi  (linked in 4 civ(s) (e.g. andean-kingdoms) ×5 — ⚠ AMBIGUOUS: also Wu_Zhou(tang-song-china))
+- **Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×7)
+- **Sinai** → REUSE `Sinai_Peninsula` [high] — _Sinai Peninsula_: The Sinai Peninsula, or simply Sinai ( SY-ny; Arabic: سيناء, romanized: Seynāʾ or Sīnāʾ; Egyptian Arabic: سينا  (linked in 7 civ(s) (e.g. early-dynastic-egypt) ×13)
+- **Levant** → REUSE `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The  (linked in 27 civ(s) (e.g. ancient-nubia) ×71)
+- **Ashurbanipal** → REUSE `Ashurbanipal` [high] — _Ashurbanipal_: Ashurbanipal (Neo-Assyrian Akkadian: 𒀸𒋩𒆕𒀀, romanized: Aššur-bāni-apli, meaning "Ashur is the creator of th  (linked in 7 civ(s) (e.g. ancient-israel) ×16)
+
+## Chapter 3
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Piye** → `Piye` [med] — _Piye_: Piye (also interpreted as Pānkhi, Piankhy, Paiānkhi, Piānkhi, or Paānkhi) was an ancient Kushite king and founder of the
+- **Napata** → REUSE `Napata` [high] — _Napata_: Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: N  (linked in 5 civ(s) (e.g. ancient-nubia) ×14)
+- **Jebel Barkal** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×1)
+- **Memphis** → REUSE `Memphis,_Egypt` [CONFIRM-homonym] — _Memphis, Egypt_: Memphis (Egyptian Arabic: منف, romanized: Manf, pronounced [mænf]; Bohairic Coptic: ⲙⲉⲙϥⲓ; Greek: Μέμφις), or   (linked in 8 civ(s) (e.g. ancient-nubia) ×17 — ⚠ AMBIGUOUS: also Memphis_sanitation_strike(civil-rights-era), Memphis_massacre_of_1866(reconstruction))
+- **Thebes** → REUSE `Thebes,_Greece` [CONFIRM-homonym] — _Thebes, Greece_: Thebes ( THEEBZ; Greek: Θήβα, Thíva [ˈθiva]; Ancient Greek: Θῆβαι, Thêbai [tʰɛ̂ːbai̯]) is a city in Boeotia, C  (linked in 4 civ(s) (e.g. ancient-greece) ×13 — ⚠ AMBIGUOUS: also Thebes,_Egypt(ancient-nubia))
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 14 civ(s) (e.g. ancient-nubia) ×36)
+- **Upper Egypt** → REUSE `Upper_Egypt` [high] — _Upper Egypt_: Upper Egypt (Arabic: صعيد مصر Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd],   (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- **Libyan** → REUSE `Ancient_Libya` [high] — _Ancient Libya_: During the Iron Age and Classical antiquity, Libya (from Greek Λιβύη: Libyē, which came from Berber: Libu) ref  (linked in 2 civ(s) (e.g. carthage) ×3)
+- **Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×7)
+- Dynasty → SKIP (generic common noun, cat C)
+- *** Mesopotamian** → `Mesopotamia` [high] — _Mesopotamia_: Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part 
+- **Egyptologists** → `List_of_Egyptologists` [high] — _List of Egyptologists_: This is a partial list of Egyptologists. An Egyptologist is any archaeologist, historian, linguist, or art historian who
+- **Jerusalem** → REUSE `Jerusalem` [high] — _Jerusalem_: Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean an  (linked in 16 civ(s) (e.g. ancient-israel) ×58)
+- Lebanon → SKIP (modern locator, cat A)
+- **Khartoum** → REUSE `Khartoum` [high] — _Khartoum_: Khartoum, also spelled Khartum, is the capital city of Sudan as well as Khartoum State. With an estimated popu  (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- Kush → SKIP (own-name, cat B)
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- **El-Kurru** → REUSE `El-Kurru` [high] — _El-Kurru_: El-Kurru was the first of the three royal cemeteries used by the Kushite royals of Napata, also referred to as  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Great Pyramid** → REUSE `Great_Pyramid_of_Giza` [high] — _Great Pyramid of Giza_: The Great Pyramid of Giza is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyr  (linked in 3 civ(s) (e.g. ancient-nubia) ×5)
+- **Isaiah** → REUSE `Isaiah` [CONFIRM-homonym] — _Isaiah_: Isaiah (UK: or US: ; Hebrew: יְשַׁעְיָהוּ‎, Yəšaʿyāhū, "Yahweh is salvation"; also known as Isaias or Esaias f  (linked in 2 civ(s) (e.g. ancient-israel) ×4 — ⚠ AMBIGUOUS: also Book_of_Isaiah(assyrian-empire))
+- **Ethiopia** → REUSE `Ethiopian_Highlands` [high] — _Ethiopian Highlands_: The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Et  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×1)
+- **Aethiopia** → REUSE `Aethiopia` [high] — _Aethiopia_: Ancient Aethiopia (Greek: Αἰθιοπία, romanized: Aithiopía) first appears as a geographical term in classical do  (linked in 1 civ(s) (e.g. ancient-nubia) ×2)
+- **Hammurabi** → CROSS → `mesopotamia`  (cross-linked elsewhere ×2)
+- **Chaldean** → REUSE `Chaldea` [high] — _Chaldea_: Chaldea () refers to a region probably located in the marshy land of southern Mesopotamia. It is mentioned, wi  (linked in 1 civ(s) (e.g. assyrian-empire) ×2)
+- *** Babylonian** → `Babylonian_captivity` [high] — _Babylonian captivity_: The Babylonian captivity or Babylonian exile was the period in Jewish history during which a large number of Judeans fro
+- **Egyptians** → `Egyptians` [high] — _Egyptians_: Egyptians (Egyptian Arabic: مصريين, romanized: Maṣriyyīn, IPA: [mɑsˤɾɪjˈjiːn]; Arabic: مِصرِيُّون, romanized: Miṣriyyūn,
+- **Egyptology** → REUSE `Egyptology` [high] — _Egyptology_: Egyptology (from Egypt and Greek -λογία, -logia; Arabic: علم المصريات) is the scientific study of ancient Egyp  (linked in 1 civ(s) (e.g. minoan-civilization) ×2)
+- **Tigris River** → REUSE `Tigris` [high] — _Tigris_: The Tigris ( TY-griss; see below) is the eastern of the two great rivers that define Mesopotamia, the other be  (linked in 6 civ(s) (e.g. assyrian-empire) ×11)
+- **Tiglath-Pileser III** → CROSS → `assyrian-empire`  (cross-linked elsewhere ×2)
+- **Assyria** → CROSS → `assyrian-empire`  (cross-linked elsewhere ×7)
+- **Kingdom of Israel** → CROSS → `mesopotamia`  (cross-linked elsewhere ×2)
+- **Persian Gulf** → CROSS → `safavid-persia`  (cross-linked elsewhere ×15)
+- *** Levantine** → `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is o
+- **Elam** → CROSS → `elamite-civilization`  (cross-linked elsewhere ×7)
+- **Te-Umman** → REUSE `Teumman` [high] — _Teumman_: Teumman was a king of the ancient kingdom of Elam, ruling it from 664 to 653 BCE, contemporary with the Assyri  (linked in 1 civ(s) (e.g. elamite-civilization) ×2)
+- **Susa** → REUSE `Susa` [high] — _Susa_: Susa ( SOO-sə) was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, bet  (linked in 9 civ(s) (e.g. ancient-greece) ×32)
+- **Confucius** → CROSS → `zhou-dynasty`  (cross-linked elsewhere ×4)
+
+## Chapter 4
+- **Sennacherib** → CROSS → `assyrian-empire`  (cross-linked elsewhere ×2)
+- **Taharqa** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×1)
+- **Tiglath-Pileser III** → CROSS → `assyrian-empire`  (cross-linked elsewhere ×2)
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Memphis** → REUSE `Memphis,_Egypt` [CONFIRM-homonym] — _Memphis, Egypt_: Memphis (Egyptian Arabic: منف, romanized: Manf, pronounced [mænf]; Bohairic Coptic: ⲙⲉⲙϥⲓ; Greek: Μέμφις), or   (linked in 8 civ(s) (e.g. ancient-nubia) ×17 — ⚠ AMBIGUOUS: also Memphis_sanitation_strike(civil-rights-era), Memphis_massacre_of_1866(reconstruction))
+- **Shabaka** → REUSE `Shabaka` [high] — _Shabaka_: Neferkare Shabaka, or Shabako (Meroitic: 𐦰𐦲𐦡𐦐𐦲 (sha-ba-ka), Egyptian: 𓆷𓃞𓂓 šꜣ bꜣ kꜣ, Assyrian: Ša-ba-ku  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Fall of Memphis** → `Memphis_Group` [med] — _Memphis Group_: The Memphis Group, also known as Memphis Milano, was an Italian design and architecture group founded by Ettore Sottsass
+- **Lower Egypt** → REUSE `Lower_Egypt` [high] — _Lower Egypt_: Lower Egypt (Arabic: مصر السفلى Miṣr as-Suflā) is the northernmost region of Egypt, which consists of the fert  (linked in 2 civ(s) (e.g. early-dynastic-egypt) ×4)
+- **Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×7)
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 14 civ(s) (e.g. ancient-nubia) ×36)
+- **Neo-Assyrian Empire** → CROSS → `assyrian-empire`  (cross-linked elsewhere ×2)
+- **Tigris** → REUSE `Tigris` [high] — _Tigris_: The Tigris ( TY-griss; see below) is the eastern of the two great rivers that define Mesopotamia, the other be  (linked in 10 civ(s) (e.g. byzantine-empire) ×37)
+- *** Levantine** → `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is o
+- **Upper Egypt** → REUSE `Upper_Egypt` [high] — _Upper Egypt_: Upper Egypt (Arabic: صعيد مصر Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd],   (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- **Sais** → REUSE `Sais,_Egypt` [high] — _Sais, Egypt_: Sais (Ancient Egyptian: 𓊃𓐰𓅭𓄿𓅱𓊖, romanized: Zꜣw; Ancient Greek: Σάϊς, romanized: Sáïs; Coptic: Ⲥⲁⲓ, roman  (linked in 3 civ(s) (e.g. early-dynastic-egypt) ×6)
+- **Nuri** → REUSE `Nuri` [high] — _Nuri_: Nuri is an ancient Nubian necropolis in northern Sudan on the west side of the Nile, near the Fourth Cataract,  (linked in 1 civ(s) (e.g. persian-empire) ×2)
+- **Karnak** → REUSE `Karnak` [high] — _Karnak_: The Karnak Temple Complex, commonly known as Karnak (), comprises a vast mix of temples, pylons, chapels, and   (linked in 8 civ(s) (e.g. ancient-nubia) ×19)
+- **Assyria** → CROSS → `assyrian-empire`  (cross-linked elsewhere ×7)
+- **Saite** → `Yume_no_Ukiyo_ni_Saite_Mi_na` [high] — _Yume no Ukiyo ni Saite Mi na_: "Yume no Ukiyo ni Saite Mi na" (夢の浮世に咲いてみな; Try to Bloom in a Dream about the Floating World) is a single by the Japanes
+- **Napata** → REUSE `Napata` [high] — _Napata_: Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: N  (linked in 5 civ(s) (e.g. ancient-nubia) ×14)
+- **Kingdom of Kush** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×7)
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- **Khuzestan** → REUSE `Khuzestan_province` [high] — _Khuzestan province_: Khuzestan province ([xuːzest̪ʰɒːn] ; Persian: استان خوزستان) is one of the 31 Provinces of Iran. An extension   (linked in 3 civ(s) (e.g. elamite-civilization) ×8)
+- *** Mesopotamian** → `Mesopotamia` [high] — _Mesopotamia_: Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part 
+- **Anshan** → REUSE `Anshan_(Persia)` [high] — _Anshan (Persia)_: Anshan (Elamite cuneiform: 𒀭𒍝𒀭 Anzan; Sumerian: 𒀭𒊓𒀭𒆠 Ansanᴷᴵ, 𒀭𒊭𒀭𒆠 Anšanᴷᴵ) modern Tall-e Malyan (P  (linked in 3 civ(s) (e.g. elamite-civilization) ×5)
+- **Elam** → CROSS → `elamite-civilization`  (cross-linked elsewhere ×7)
+- Kush → SKIP (own-name, cat B)
+- **Aegean** → REUSE `Aegean_Sea` [high] — _Aegean Sea_: The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located betwe  (linked in 6 civ(s) (e.g. byzantine-empire) ×23)
+- **Meroë** → REUSE `Meroe` [high] — _Meroë_: Meroë was an ancient city on the east bank of the Nile about 6 km north-east of the Kabushiya station near She  (linked in 2 civ(s) (e.g. kingdom-of-aksum) ×6)
+- **Achaemenid Persian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×3)
+- **Levant** → REUSE `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The  (linked in 27 civ(s) (e.g. ancient-nubia) ×71)
+
+## Chapter 5
+- **Jebel Barkal** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×1)
+- **Nuri** → REUSE `Nuri` [high] — _Nuri_: Nuri is an ancient Nubian necropolis in northern Sudan on the west side of the Nile, near the Fourth Cataract,  (linked in 1 civ(s) (e.g. persian-empire) ×2)
+- *** Assyrian** → CROSS → `assyrian-empire`  (matches a civ id)
+- **Psamtik II** → `Psamtik_II` [high] — _Psamtik II_: Psamtik II (Ancient Egyptian: Nfr-jb-Rꜥ Psmṯk, pronounced Psamāṯək), known by the Graeco-Romans as Psammetichus or Psamm
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Meroitic** → `Meroitic_language` [high] — _Meroitic language_: The Meroitic language () is an extinct language of uncertain linguistic affiliation formerly spoken in Meroë (in present
+- Kush → SKIP (own-name, cat B)
+- **Napatan** → `Napata` [high] — _Napata_: Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: Napate; Anc
+- **Kingdom of Kush** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×7)
+- **Karnak** → REUSE `Karnak` [high] — _Karnak_: The Karnak Temple Complex, commonly known as Karnak (), comprises a vast mix of temples, pylons, chapels, and   (linked in 8 civ(s) (e.g. ancient-nubia) ×19)
+- **Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×7)
+- **El-Kurru** → REUSE `El-Kurru` [high] — _El-Kurru_: El-Kurru was the first of the three royal cemeteries used by the Kushite royals of Napata, also referred to as  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Step Pyramid** → `Step_pyramid` [high] — _Step pyramid_: A step pyramid or stepped pyramid is an architectural structure that uses flat platforms, or steps, receding from the gr
+- **Middle Kingdom** → REUSE `Middle_Kingdom_of_Egypt` [high] — _Middle Kingdom of Egypt_: The Middle Kingdom of Egypt (also known as The Period of Reunification) is the period in the history of ancien  (linked in 5 civ(s) (e.g. ancient-nubia) ×9)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×20)
+- **Apedemak** → `Apedemak` [high] — _Apedemak_: Apedemak or Apademak (originally, due to the absence of the /p/ phoneme in Meroitic, it was probably pronounced 'abadema
+- *** Greek-speaking** → NO-PAGE → blurb (top hit "Greek speaking Muslims" is a disambiguation page)
+- **Ptolemies** → REUSE `Ptolemaic_dynasty` [CONFIRM-homonym] — _Ptolemaic dynasty_: The Ptolemaic dynasty (; Ancient Greek: Πτολεμαῖοι, Ptolemaioi), also known as the Lagid dynasty (Λαγίδαι, Lag  (linked in 2 civ(s) (e.g. new-kingdom-egypt) ×3 — ⚠ AMBIGUOUS: also Ptolemaic_Kingdom(post-maurya-kingdoms))
+- **Mesopotamia** → CROSS → `mesopotamia`  (cross-linked elsewhere ×77)
+- **Iranian-speaking** → REUSE `Iranian_peoples` [CONFIRM-homonym] — _Iranian peoples_: Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their na  (linked in 6 civ(s) (e.g. gokturk-khaganate) ×14 — ⚠ AMBIGUOUS: also Iranian_languages(post-maurya-kingdoms))
+- **Persian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×49)
+- **Pataliputra** → REUSE `Pataliputra` [high] — _Pataliputra_: Pataliputra (IAST: Pāṭaliputra), adjacent to modern-day Patna, Bihar, was a city in ancient India, originally   (linked in 4 civ(s) (e.g. gupta-empire) ×20)
+- **Indus Valley** → CROSS → `indus-valley`  (cross-linked elsewhere ×29)
+- **Warring States** → REUSE `Warring_States_period` [high] — _Warring States period_: The Warring States period in Chinese history (c. 475 – 221 BC) comprises the final centuries of the Zhou dynas  (linked in 5 civ(s) (e.g. han-dynasty) ×10)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+
+## Chapter 6
+- **Meroë** → REUSE `Meroe` [high] — _Meroë_: Meroë was an ancient city on the east bank of the Nile about 6 km north-east of the Kabushiya station near She  (linked in 2 civ(s) (e.g. kingdom-of-aksum) ×6)
+- **Napata** → REUSE `Napata` [high] — _Napata_: Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: N  (linked in 5 civ(s) (e.g. ancient-nubia) ×14)
+- **Amun** → REUSE `Amun` [high] — _Amun_: Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested   (linked in 5 civ(s) (e.g. ancient-greece) ×10)
+- **Kushites** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- Kush → SKIP (own-name, cat B)
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Ancient Nubia Chapter** → `Nubia` [high] — _Nubia_: Nubia ( NEW-bee-uh; Nobiin: Nⲟ̅ⲩ̅ⲃⲁ; Arabic: النُوبَة, romanized: an-Nūba) is a region along the Nile river encompassing
+- **Elamites** → CROSS → `elamite-civilization`  (cross-linked elsewhere ×1)
+- **Proto-Elamite** → REUSE `Proto-Elamite_script` [high] — _Proto-Elamite script_: The Proto-Elamite script is a writing system used briefly during early Bronze Age and before the introduction   (linked in 1 civ(s) (e.g. mesopotamia) ×1)
+- **Linear Elamite** → REUSE `Linear_Elamite` [high] — _Linear Elamite_: Linear Elamite was a writing system used in Elam during the Bronze Age between c. 2300 and 1850 BCE, and known  (linked in 1 civ(s) (e.g. elamite-civilization) ×2)
+- *** Mesopotamian** → `Mesopotamia` [high] — _Mesopotamia_: Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part 
+- *** Hindi** → `Hindi` [high] — _Hindi_: Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an 
+- **Minoan Crete** → CROSS → `minoan-civilization`  (cross-linked elsewhere ×2)
+- **Easter Island** → REUSE `Easter_Island` [high] — _Easter Island_: Easter Island (Spanish: Isla de Pascua, [ˈizla ðe ˈpaskwa]; Rapa Nui: Rapa Nui, [ˈɾapa ˈnu.i]) is an island an  (linked in 5 civ(s) (e.g. ancestral-puebloans) ×11)
+- **Ptah** → REUSE `Ptah` [high] — _Ptah_: Ptah ( TAH; Ancient Egyptian: ptḥ, reconstructed [piˈtaħ]; Ancient Greek: Φθά, romanized: Phthá; Coptic: ⲡⲧⲁϩ,  (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- **Horus** → REUSE `Horus` [high] — _Horus_: Horus (), also known as Heru, Har, Her, or Hor () Ϩⲱⲣ (Coptic), in Ancient Egyptian, is one of the most signif  (linked in 3 civ(s) (e.g. early-dynastic-egypt) ×6)
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 8 civ(s) (e.g. delhi-sultanate) ×26)
+- **Vishnu** → REUSE `Vishnu` [high] — _Vishnu_: Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and  (linked in 5 civ(s) (e.g. delhi-sultanate) ×20)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×20)
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×38)
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- **Meroitic Kush** → `Kingdom_of_Kush` [med] — _Kingdom of Kush_: The Kingdom of Kush (; Ancient Egyptian: 𓎡𓄿𓈙𓐰𓈉, romanized: kꜣš; Neo-Assyrian Akkadian: 𒆳𒆪𒌋𒋛, romanized: Kūsi; i
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 14 civ(s) (e.g. ancient-nubia) ×36)
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Phoenician** → CROSS → `phoenicia`  (cross-linked elsewhere ×4)
+- **Tunisia** → REUSE `Tunisia` [high] — _Tunisia_: Tunisia, officially the Republic of Tunisia, is a country in the Maghreb region of North Africa. It is bordere  (linked in 6 civ(s) (e.g. carthage) ×16)
+- **Alps** → REUSE `Alps` [high] — _Alps_: The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,2  (linked in 9 civ(s) (e.g. ancient-rome) ×22)
+- **Ptolemaic** → REUSE `Ptolemy` [CONFIRM-homonym] — _Ptolemy_: Claudius Ptolemy (; Ancient Greek: Πτολεμαῖος, Ptolemaios; Latin: Claudius Ptolemaeus; c. 100 – 160s/170s AD),  (linked in 2 civ(s) (e.g. mongol-empire) ×3 — ⚠ AMBIGUOUS: also Ptolemaic_dynasty(early-dynastic-egypt), Ptolemaic_Kingdom(persian-empire), Ptolemaic_system(timurid-empire))
+- **God's Wife of Amun** → REUSE `God%27s_Wife_of_Amun` [high] — _God's Wife of Amun_: God's Wife of Amun (Egyptian: ḥm.t nṯr n ỉmn) was the highest-ranking priestess of the Amun cult, an important  (linked in 2 civ(s) (e.g. late-egypt) ×4)
+- **Thebes** → REUSE `Thebes,_Greece` [CONFIRM-homonym] — _Thebes, Greece_: Thebes ( THEEBZ; Greek: Θήβα, Thíva [ˈθiva]; Ancient Greek: Θῆβαι, Thêbai [tʰɛ̂ːbai̯]) is a city in Boeotia, C  (linked in 4 civ(s) (e.g. ancient-greece) ×13 — ⚠ AMBIGUOUS: also Thebes,_Egypt(ancient-nubia))
+- **Eighteenth Dynasty** → REUSE `Eighteenth_Dynasty_of_Egypt` [high] — _Eighteenth Dynasty of Egypt_: The Eighteenth Dynasty of Egypt (notated Dynasty XVIII, alternatively 18th Dynasty or Dynasty 18) is classifie  (linked in 2 civ(s) (e.g. ancient-nubia) ×3)
+- **Twelfth Dynasty** → REUSE `Twelfth_Dynasty_of_Egypt` [high] — _Twelfth Dynasty of Egypt_: The Twelfth Dynasty of ancient Egypt (Dynasty XII) is a series of rulers reigning from c. 1991–1802 BC (c. 190  (linked in 3 civ(s) (e.g. ancient-nubia) ×4)
+- **Classic Kerma** → REUSE `Kerma` [high] — _Kerma_: Kerma was the capital city of the Kingdom of Kerma, which had its roots in the pre-Kerma culture in present-da  (linked in 1 civ(s) (e.g. ancient-nubia) ×1)
+- **Kerma** → REUSE `Kerma_culture` [CONFIRM-homonym] — _Kerma culture_: The Kerma culture or the Kingdom of Kerma was an early civilization centered in Kerma, Sudan, in ancient Nubia  (linked in 4 civ(s) (e.g. ancient-nubia) ×7 — ⚠ AMBIGUOUS: also Kerma(ancient-nubia))
+- **Alexander the Great** → CROSS → `ancient-greece`  (cross-linked elsewhere ×6)
+- **Library of Alexandria** → CROSS → `ancient-greece`  (cross-linked elsewhere ×1)
+- **Persian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×49)
+- Afghanistan → SKIP (modern locator, cat A)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×17)
+- **Gandhara** → REUSE `Gandhara` [high] — _Gandhara_: Gandhara (Sanskrit: गन्धारः, romanized: Gandhāra) was an ancient Indo-Aryan civilisation located in present-da  (linked in 9 civ(s) (e.g. ancient-greece) ×20)
+- **Kharosthi** → REUSE `Kharosthi` [CONFIRM-homonym] — _Kharosthi_: Kharosthi script (Gāndhārī: 𐨑𐨪𐨆𐨮𐨿𐨛𐨁𐨌 𐨫𐨁𐨤𐨁, romanized: kharoṣṭhī lipi), also known as the Gandhari   (linked in 2 civ(s) (e.g. maurya-empire) ×4 — ⚠ AMBIGUOUS: also Kharoṣṭhī(post-maurya-kingdoms))
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+- **Meroitic hieroglyphic** → `Meroitic_script` [med] — _Meroitic script_: The Meroitic script consists of two alphasyllabic scripts developed to write the Meroitic language at the beginning of t
+- **Meroitic cursive** → `Meroitic_Cursive_(Unicode_block)` [high] — _Meroitic Cursive (Unicode block)_: Meroitic Cursive is a Unicode block containing demotic-style characters for writing the Meroitic language.
+
+## Chapter 7
+- **Roman Republic** → CROSS → `ancient-rome`  (cross-linked elsewhere ×8)
+- **Ptolemaic** → REUSE `Ptolemy` [CONFIRM-homonym] — _Ptolemy_: Claudius Ptolemy (; Ancient Greek: Πτολεμαῖος, Ptolemaios; Latin: Claudius Ptolemaeus; c. 100 – 160s/170s AD),  (linked in 2 civ(s) (e.g. mongol-empire) ×3 — ⚠ AMBIGUOUS: also Ptolemaic_dynasty(early-dynastic-egypt), Ptolemaic_Kingdom(persian-empire), Ptolemaic_system(timurid-empire))
+- **Julius Caesar** → REUSE `Julius_Caesar` [high] — _Julius Caesar_: Gaius Julius Caesar (12 or 13 July 100 BC – 15 March 44 BC) was a Roman general, statesman, and author who was  (linked in 9 civ(s) (e.g. ancient-greece) ×23)
+- **Mark Antony** → REUSE `Mark_Antony` [high] — _Mark Antony_: Marcus Antonius (14 January 83 BC – 1 August 30 BC), commonly known in English as Mark Antony, was a Roman pol  (linked in 3 civ(s) (e.g. ancient-greece) ×6)
+- Kush → SKIP (own-name, cat B)
+- **Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×7)
+- **Kingdom of Kush** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×7)
+- **Kandake** → `Kandake` [high] — _Kandake_: Kandake, kadake or kentake (Meroitic: 𐦲𐦷𐦲𐦡, romanized: kdke), often Latinised as Candace (Ancient Greek: Κανδάκη, ro
+- **Strabo** → REUSE `Strabo` [high] — _Strabo_: Strabo ( STRAY-bo; Greek: Στράβων, romanized: Strábōn; 64 or 63 BC – c. 24 AD) was a Greek geographer who live  (linked in 5 civ(s) (e.g. celtic-cultures) ×10)
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 14 civ(s) (e.g. ancient-nubia) ×36)
+- **Isis** → REUSE `Isis` [CONFIRM-homonym] — _Isis_: Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. I  (linked in 6 civ(s) (e.g. ancient-greece) ×12 — ⚠ AMBIGUOUS: also Islamic_State(mesopotamia))
+- **Apedemak** → `Apedemak` [high] — _Apedemak_: Apedemak or Apademak (originally, due to the absence of the /p/ phoneme in Meroitic, it was probably pronounced 'abadema
+- **British Museum** → REUSE `British_Museum` [high] — _British Museum_: The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury ar  (linked in 11 civ(s) (e.g. ancient-israel) ×25)
+- **Napata** → REUSE `Napata` [high] — _Napata_: Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: N  (linked in 5 civ(s) (e.g. ancient-nubia) ×14)
+- **Jebel Barkal** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×1)
+- **Lower Nubia** → REUSE `Lower_Nubia` [high] — _Lower Nubia_: Lower Nubia (also called Wawat) is the northernmost part of Nubia, roughly contiguous with the modern Lake Nas  (linked in 1 civ(s) (e.g. ancient-nubia) ×2)
+- **Aegean Sea** → REUSE `Aegean_Sea` [high] — _Aegean Sea_: The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located betwe  (linked in 6 civ(s) (e.g. byzantine-empire) ×17)
+- **Gaul** → REUSE `Gaul` [high] — _Gaul_: Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing presen  (linked in 8 civ(s) (e.g. ancient-rome) ×21)
+- **Balkans** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×10)
+- **Germanic** → CROSS → `germanic-tribes`  (cross-linked elsewhere ×8)
+- **Meroitic Kush** → `Kingdom_of_Kush` [med] — _Kingdom of Kush_: The Kingdom of Kush (; Ancient Egyptian: 𓎡𓄿𓈙𓐰𓈉, romanized: kꜣš; Neo-Assyrian Akkadian: 𒆳𒆪𒌋𒋛, romanized: Kūsi; i
+- **Meroitic** → `Meroitic_language` [high] — _Meroitic language_: The Meroitic language () is an extinct language of uncertain linguistic affiliation formerly spoken in Meroë (in present
+- **Corinthian** → REUSE `Corinthian_order` [CONFIRM-homonym] — _Corinthian order_: The Corinthian order (Greek: Κορινθιακὸς ῥυθμός, Korinthiakós rythmós; Latin: Ordo Corinthius) is the last dev  (linked in 1 civ(s) (e.g. renaissance-italy) ×4 — ⚠ AMBIGUOUS: also Ancient_Corinth(carthage))
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- **Amun** → REUSE `Amun` [high] — _Amun_: Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested   (linked in 5 civ(s) (e.g. ancient-greece) ×10)
+- **Harappans** → REUSE `Indus_Valley_civilisation` [CONFIRM-homonym] — _Indus Valley Civilisation_: The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in th  (linked in 1 civ(s) (e.g. ancient-nubia) ×2 — ⚠ AMBIGUOUS: also Indus_Valley_Civilisation(shang-dynasty))
+- **Taharqa** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×1)
+- **Classic Kerma** → REUSE `Kerma` [high] — _Kerma_: Kerma was the capital city of the Kingdom of Kerma, which had its roots in the pre-Kerma culture in present-da  (linked in 1 civ(s) (e.g. ancient-nubia) ×1)
+- **El-Kurru** → REUSE `El-Kurru` [high] — _El-Kurru_: El-Kurru was the first of the three royal cemeteries used by the Kushite royals of Napata, also referred to as  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Hathor** → REUSE `Hathor` [high] — _Hathor_: Hathor (Ancient Egyptian: ḥwt-ḥr, lit. 'House of Horus', Ancient Greek: Ἁθώρ Hathōr, Coptic: ϩⲁⲑⲱⲣ, Meroitic:   (linked in 4 civ(s) (e.g. ancient-nubia) ×8)
+- **Berlin** → REUSE `Berlin` [CONFIRM-homonym] — _Berlin_: Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inha  (linked in 5 civ(s) (e.g. mesopotamia) ×12 — ⚠ AMBIGUOUS: also Battle_of_Berlin(soviet-union))
+- **Mesopotamia** → CROSS → `mesopotamia`  (cross-linked elsewhere ×77)
+- *** Iranian** → NO-PAGE → blurb (top hit "Iranian" is a disambiguation page)
+- *** Babylonian** → `Babylonia` [high] — _Babylonia_: Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the cit
+- **Emperor Wu** → REUSE `Emperor_Wu_of_Han` [high] — _Emperor Wu of Han_: Emperor Wu of Han (156 – 29 March 87 BC) (Chinese: 漢武帝; pinyin: Hàn Wŭdì), personal name Liu Che (Chinese: 劉徹;  (linked in 3 civ(s) (e.g. dai-viet) ×4)
+- Central Asia → SKIP (modern locator, cat A)
+- **Maurya Empire** → CROSS → `maurya-empire`  (cross-linked elsewhere ×14)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+
+## Chapter 8
+- **Natakamani** → `Natakamani` [high] — _Natakamani_: Natakamani, also called Aqrakamani, was a king of Kush who reigned from Meroë in the middle of the 1st century CE. He ru
+- **Amanitore** → `Amanitore` [high] — _Amanitore_: Amanitore, also spelled Amanitere or Amanitare, was a queen regnant of the Kingdom of Kush, ruling from Meroë in the mid
+- **Apedemak** → `Apedemak` [high] — _Apedemak_: Apedemak or Apademak (originally, due to the absence of the /p/ phoneme in Meroitic, it was probably pronounced 'abadema
+- **Meroë** → REUSE `Meroe` [high] — _Meroë_: Meroë was an ancient city on the east bank of the Nile about 6 km north-east of the Kabushiya station near She  (linked in 2 civ(s) (e.g. kingdom-of-aksum) ×6)
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×38)
+- **Ptolemaic** → REUSE `Ptolemy` [CONFIRM-homonym] — _Ptolemy_: Claudius Ptolemy (; Ancient Greek: Πτολεμαῖος, Ptolemaios; Latin: Claudius Ptolemaeus; c. 100 – 160s/170s AD),  (linked in 2 civ(s) (e.g. mongol-empire) ×3 — ⚠ AMBIGUOUS: also Ptolemaic_dynasty(early-dynastic-egypt), Ptolemaic_Kingdom(persian-empire), Ptolemaic_system(timurid-empire))
+- **Kandake** → `Kandake` [high] — _Kandake_: Kandake, kadake or kentake (Meroitic: 𐦲𐦷𐦲𐦡, romanized: kdke), often Latinised as Candace (Ancient Greek: Κανδάκη, ro
+- **Eritrea** → REUSE `Eritrea` [high] — _Eritrea_: Eritrea, officially the State of Eritrea, is a country in the Horn of Africa region of East Africa. Its capita  (linked in 3 civ(s) (e.g. kingdom-of-aksum) ×6)
+- **Horn of Africa** → REUSE `Horn_of_Africa` [high] — _Horn of Africa_: The Horn of Africa (HOA), also known as the Somali Peninsula, is a large peninsula and geopolitical region loc  (linked in 3 civ(s) (e.g. byzantine-empire) ×6)
+- **Kushite** → `Kushites` [high] — _Kushites_: The Kushites were a powerful force for over a thousand years in what is now Sudan, building a distinctive civilization s
+- *** Rhapta** → `Rhapta` [high] — _Rhapta_: Rhapta (Ancient Greek: τὰ Ῥάπτα and τὰ Ῥαπτά) was an emporion said to be on the coast of Southeast Africa, first describ
+- *** Zanj** → `Zanj` [med] — _Zanj_: Zanj (Arabic: زَنْج; IPA: [zand͡ʒ], adj. زنجي; [zan.d͡ʒijj], Zanjī; from Persian: زنگ, romanized: Zang; [zæɲɡʲ̥]) is a t
+- *** Swahili Coast** → CROSS → `swahili-coast`  (matches a civ id)
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 14 civ(s) (e.g. ancient-nubia) ×36)
+- **Elamite** → CROSS → `elamite-civilization`  (cross-linked elsewhere ×5)
+- Central Asia → SKIP (modern locator, cat A)
+- **Mesopotamia** → CROSS → `mesopotamia`  (cross-linked elsewhere ×77)
+- **Indus Valley Civilization** → CROSS → `indus-valley`  (cross-linked elsewhere ×9)
+- **Birmingham** → REUSE `Birmingham_campaign` [high] — _Birmingham campaign_: The Birmingham campaign, also known as the Birmingham movement or Birmingham confrontation, was an American mo  (linked in 1 civ(s) (e.g. civil-rights-era) ×2)
+- **Meroitic** → `Meroitic_language` [high] — _Meroitic language_: The Meroitic language () is an extinct language of uncertain linguistic affiliation formerly spoken in Meroë (in present
+- **Classic Maya** → CROSS → `maya-civilization`  (cross-linked elsewhere ×1)
+- **Anasazi** → REUSE `Ancestral_Puebloans` [high] — _Ancestral Puebloans_: The Ancestral Puebloans, also known as Ancestral Pueblo peoples or the Basketmaker-Pueblo culture, were an anc  (linked in 1 civ(s) (e.g. ancestral-puebloans) ×2)
+- **Treaty of Samos** → `Samos` [high] — _Samos_: Samos (, also US: ; Greek: Σάμος, romanized: Sámos, Greek pronunciation: [ˈsa.mos]) is a Greek island in the eastern Aeg
+- **Isis** → REUSE `Isis` [CONFIRM-homonym] — _Isis_: Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. I  (linked in 6 civ(s) (e.g. ancient-greece) ×12 — ⚠ AMBIGUOUS: also Islamic_State(mesopotamia))
+- **Aswan** → REUSE `Aswan` [high] — _Aswan_: Aswan is a city in Upper Egypt and the capital of the Aswan Governorate. The city of Aswan is among the oldest  (linked in 5 civ(s) (e.g. ancient-nubia) ×10)
+- **Nubian** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×3)
+- **Late Bronze Age Collapse** → REUSE `Late_Bronze_Age_collapse` [high] — _Late Bronze Age collapse_: The Late Bronze Age collapse was a period of societal collapse in the Mediterranean basin during the late 13th  (linked in 3 civ(s) (e.g. ancient-nubia) ×4)
+- **Sea Peoples** → CROSS → `early-dynastic-egypt`  (cross-linked elsewhere ×1)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×15)
+- **Noba** → REUSE `Noba` [high] — _Noba_: Noba is a term found in a number of historical sources discussing ancient and Medieval Nubia. Its exact meanin  (linked in 1 civ(s) (e.g. kingdom-of-aksum) ×2)
+- *** Christianization** → `Christianization` [high] — _Christianization_: Christianization (or Christianisation) is a term for the specific type of change that occurs when someone or something h
+- **Amun** → REUSE `Amun` [high] — _Amun_: Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested   (linked in 5 civ(s) (e.g. ancient-greece) ×10)
+- **Roman Republic** → CROSS → `ancient-rome`  (cross-linked elsewhere ×8)
+- Republic → SKIP (generic common noun, cat C)
+- **Western Roman Empire** → CROSS → `ancient-rome`  (cross-linked elsewhere ×7)
+- **El-Kurru** → REUSE `El-Kurru` [high] — _El-Kurru_: El-Kurru was the first of the three royal cemeteries used by the Kushite royals of Napata, also referred to as  (linked in 1 civ(s) (e.g. late-egypt) ×2)
+- **Nuri** → REUSE `Nuri` [high] — _Nuri_: Nuri is an ancient Nubian necropolis in northern Sudan on the west side of the Nile, near the Fourth Cataract,  (linked in 1 civ(s) (e.g. persian-empire) ×2)
+- **Jebel Barkal** → CROSS → `kingdom-of-kush`  (cross-linked elsewhere ×1)
+- **Naqa** → `Naqa` [med] — _Naqa_: Naqa or Naga'a (Meroitic: 𐦶𐦬𐦲𐦵‎, romanized: Tolakate; Arabic: ٱلـنَّـقْـعَـة, romanized: An-Naqʿah) is a ruined anci
+- **British Museum** → REUSE `British_Museum` [high] — _British Museum_: The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury ar  (linked in 11 civ(s) (e.g. ancient-israel) ×25)
+- **Berlin** → REUSE `Berlin` [CONFIRM-homonym] — _Berlin_: Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inha  (linked in 5 civ(s) (e.g. mesopotamia) ×12 — ⚠ AMBIGUOUS: also Battle_of_Berlin(soviet-union))
+- **Sudan** → REUSE `Sudan` [CONFIRM-homonym] — _Sudan_: Sudan, officially the Republic of the Sudan, is a country in Northeast Africa. It borders the Central African   (linked in 5 civ(s) (e.g. ancient-nubia) ×10 — ⚠ AMBIGUOUS: also Sudan_(region)(mali-empire))
+- **Piye** → `Piye` [med] — _Piye_: Piye (also interpreted as Pānkhi, Piankhy, Paiānkhi, Piānkhi, or Paānkhi) was an ancient Kushite king and founder of the
+- **Khartoum** → REUSE `Khartoum` [high] — _Khartoum_: Khartoum, also spelled Khartum, is the capital city of Sudan as well as Khartoum State. With an estimated popu  (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 15 civ(s) (e.g. antebellum-america) ×69 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Western Jin** → REUSE `Jin_dynasty_(266%E2%80%93420)` [high] — _Jin dynasty (266–420)_: The Jin dynasty or the Jin Empire, officially Jin, sometimes distinguished as the Sima Jin or the Two Jins, wa  (linked in 1 civ(s) (e.g. tang-song-china) ×2)
+- **Sixteen Kingdoms** → CROSS → `ancient-china`  (cross-linked elsewhere ×1)

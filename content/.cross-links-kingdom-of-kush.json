@@ -29,11 +29,47 @@
       "targetTl": "phoenicia",
       "targetChapter": 1,
       "blurb": "The same centuries saw the Phoenician city-states at their Mediterranean height — two trade-and-prestige civilizations on opposite edges of the Near Eastern world."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Ancient Nubia: by the end of that book, four centuries of Egyptian colonial rule had bred a class of Egyptianized Nubian elites — the very people who would seize the moment when Egypt withdrew around 1070 BCE and build the kingdom Kush."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Ancient Nubia: the Nubians were the people of the land south of Egypt's First Cataract — the 'Land of the Bow,' famed for archery and cattle, whose identity survived a thousand years of Egyptian contact."
+    },
+    {
+      "matchText": "Amarna Letters",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Ancient Nubia: Nubia was Egypt's 'Province of Gold,' and that gold filled the pharaoh's treasury and bought the diplomatic leverage on display in the Amarna Letters — the Bronze Age correspondence in which foreign kings begged Egypt for it."
+    },
+    {
+      "matchText": "Hittite",
+      "targetTl": "hittite-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Hittite Empire: the Hittites of Anatolia were one of the great powers of the Bronze Age club that wrote to Egypt for gold — rivals turned treaty-partners with the pharaohs after the battle of Kadesh."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "phoenicia",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Phoenicia: as Kush consolidated, the Phoenician cities were planting colonies across the Mediterranean — the colonizing wave that would eventually found Carthage in the central sea."
+    },
+    {
+      "matchText": "Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Elam: across the Zagros from Mesopotamia, the old kingdom of Elam was staging a Neo-Elamite revival in these same centuries, long after the imperial high-water mark under Shutruk-Nakhunte."
     }
   ],
   "2": [
     {
-      "matchText": "Tiglath-Pileser III had just revolutionized imperial governance",
+      "matchText": "Tiglath-Pileser III",
       "targetTl": "mesopotamia",
       "targetChapter": 11,
       "blurb": "The same decade that Piye was conquering Egypt, Tiglath-Pileser III was perfecting the Assyrian provincial system — standardized administration, professional armies, and mass deportation as a governance tool. Both empires were unifying large territories, but the Assyrians stayed while Piye went home."
@@ -55,6 +91,30 @@
       "targetTl": "mesopotamia",
       "targetChapter": 11,
       "blurb": "Piye conquered Egypt just as Tiglath-Pileser III's Assyria perfected the provincial-and-deportation imperial machine — two expanding powers on a collision course over Egypt."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the long Nile-valley culture of the bow-people south of the First Cataract, out of which the Kingdom of Kush grew."
+    },
+    {
+      "matchText": "Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the deep history of the lands south of Egypt, ancestral home of Piye and the Kushite kings."
+    },
+    {
+      "matchText": "Code of Hammurabi",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Mesopotamia: Hammurabi's famous law stele, carved in Old Babylonian Babylon centuries before the Elamites hauled it off to Susa."
+    },
+    {
+      "matchText": "Shang",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Shang, the first Chinese dynasty confirmed by writing, who buried horses and chariots in royal sacrificial pits much as the Kushites buried Piye's horses."
     }
   ],
   "3": [
@@ -65,7 +125,7 @@
       "blurb": "Sennacherib's destruction of Babylon was an act of sacrilege that shocked even Assyria's own allies and led to his assassination by his own sons. His son Esarhaddon rebuilt Babylon while simultaneously preparing the Egyptian campaign that would drive the Kushite pharaohs from the Nile."
     },
     {
-      "matchText": "Nebuchadnezzar II rebuilt Babylon",
+      "matchText": "Nebuchadnezzar II",
       "targetTl": "mesopotamia",
       "targetChapter": 12,
       "blurb": "A century after the 25th Dynasty, Nebuchadnezzar II would model his rebuilding of Babylon on ancient Old Babylonian traditions in the same way the Kushite pharaohs modeled their Egyptian renaissance on the Old Kingdom. Both were outsiders claiming legitimacy by curating a tradition older than themselves."
@@ -81,6 +141,60 @@
       "targetTl": "mesopotamia",
       "targetChapter": 11,
       "blurb": "Taharqa's reign overlapped Sennacherib's sack of Babylon and murder — the Kushite pharaohs ruling Egypt as Assyria spiraled toward its own crisis."
+    },
+    {
+      "matchText": "Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the land south of Egypt's cataracts whose long Kerma-to-Napata story is the deep root of Kush."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the homeland whose people the Egyptians had spent millennia branding barbarian — now its kings wore the double crown."
+    },
+    {
+      "matchText": "Hammurabi",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Mesopotamia: Hammurabi's Old Babylonian golden age, the deep tradition later Babylonian kings reached back to claim."
+    },
+    {
+      "matchText": "Tiglath-Pileser III",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Assyria: the king who rebuilt the army into a professional iron machine and turned Assyria into a true empire."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Assyria: the world empire at its height, the most fearsome military state of the age and the storm bearing down on Kushite Egypt."
+    },
+    {
+      "matchText": "Kingdom of Israel",
+      "targetTl": "mesopotamia",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Mesopotamia: Assyria at its zenith swallowed the northern Kingdom of Israel and deported its people."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile (much later) in Persia: the Gulf became a contested artery of Safavid world trade in carpets, silk, and silver."
+    },
+    {
+      "matchText": "Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Elam: the ancient Iranian kingdom east of Mesopotamia, soon to be crushed by the same Assyrians menacing Kush."
+    },
+    {
+      "matchText": "Confucius",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Zhou China: the Spring and Autumn turmoil produced Confucius and the Hundred Schools of philosophy."
     }
   ],
   "4": [
@@ -91,7 +205,7 @@
       "blurb": "Ashurbanipal sacked both Thebes and Susa within two decades, destroying two of the oldest religious centers in the ancient world. But both Kush and Elam showed the same structural resilience: Kush retreated to Napata and survived, Elam's scribal traditions survived to become the administrative backbone of Persia."
     },
     {
-      "matchText": "Nineveh itself would fall to a coalition of Babylonians and Medes",
+      "matchText": "Nineveh",
       "targetTl": "mesopotamia",
       "targetChapter": 11,
       "blurb": "Within forty years of sacking Thebes, the Assyrian Empire collapsed when Babylonians and Medes destroyed Nineveh in 612 BCE. The same military machine that had driven the Kushites from Egypt exhausted itself in overextension — a pattern Kush itself had avoided by going home after Piye's conquest."
@@ -113,6 +227,54 @@
       "targetTl": "mesopotamia",
       "targetChapter": 11,
       "blurb": "The sack of Thebes and Kushite retreat came a generation before Nineveh itself fell (612 BCE) — Assyria's victory over Kush bought it only forty more years."
+    },
+    {
+      "matchText": "Sennacherib",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Assyria: Sennacherib was the king who razed Babylon — the sacrilege his son Esarhaddon spent years undoing before turning the same army on Egypt."
+    },
+    {
+      "matchText": "Tiglath-Pileser III",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Assyria: Tiglath-Pileser III rebuilt the empire from the ground up — the professional standing army, provincial administration, and mass deportation that made the machine now bearing down on Kush."
+    },
+    {
+      "matchText": "Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the long Nubian story upstream of Egypt — the land of the bow, Kerma, and the Egyptianized elites who became the kings of Kush."
+    },
+    {
+      "matchText": "Neo-Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Assyria: at its height the Neo-Assyrian Empire was the largest territorial state the world had yet seen — and for one moment it added Egypt to the list."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Assyria: the war machine that conquered the Near East by perfecting organized violence — and that briefly drove the Kushite pharaohs out of Egypt."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the deep history of the Nubian hinterland and its gold — the homeland Kush fell back on after losing Egypt."
+    },
+    {
+      "matchText": "Elam",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: Elam was the highland-and-lowland kingdom that, like Kush, kept surviving the loss of its richest province by retreating to its core."
+    },
+    {
+      "matchText": "Achaemenid Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: Cyrus the Great's Achaemenid Persian Empire would later match Assyria's reach — built, in part, on the administrative traditions Assyria's victims carried forward."
     }
   ],
   "5": [
@@ -133,6 +295,42 @@
       "targetTl": "ancient-greece",
       "targetChapter": 8,
       "blurb": "The move to Meroë coincides with the Hellenistic age — Ptolemaic Greek-ruled Egypt now Kush's northern neighbor, the classical Mediterranean reaching the upper Nile."
+    },
+    {
+      "matchText": "Assyrian",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Assyria: the empire whose armies had sacked Napata in the 660s BCE — the very threat that pushed the Kushite kings to plant their capital safely upstream at Meroë."
+    },
+    {
+      "matchText": "Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the long Nile-valley world south of Egypt out of which Kerma, Napata, and now Meroitic Kush all grew — the homeland the Kushite kings were turning toward as they faced south."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "Meanwhile across the Indian Ocean: the same maritime network that, eighteen centuries later, would carry Ming China's treasure fleets — already a corridor linking the Red Sea, Arabia, and India that fed Meroë's eastward trade."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in Mesopotamia: the Seleucid Greeks were losing the land between the rivers to the rising Parthians, even as Kush reinvented itself at Meroë."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile across the old Persian Empire: the Iranian-speaking Parthians were reclaiming the Achaemenid heartland from Alexander's successors during Meroë's rise."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Indus world: the South Asian river-valley civilization whose continuity ran down to Mauryan India, ruling from Pataliputra at the very moment Kush moved its capital south."
     }
   ],
   "6": [
@@ -147,6 +345,72 @@
       "targetTl": "ancient-china",
       "targetChapter": 7,
       "blurb": "China developed oracle bone script around 1200 BCE for divination purposes, nearly a thousand years before Meroe invented the Meroitic script. Both were indigenous solutions to the same problem — recording language in a system designed for the local tongue rather than borrowed from a neighbor."
+    },
+    {
+      "matchText": "Elamites",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Iranian highlands, the Elamites built one of the ancient Near East's oldest civilizations and devised their own scripts — Proto-Elamite and Linear Elamite — entirely on their own."
+    },
+    {
+      "matchText": "Minoan Crete",
+      "targetTl": "minoan-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on Bronze Age Crete, the Minoans wrote in Linear A — another script we can transcribe but not yet read, the Mediterranean cousin to Meroitic's frustration."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, far later, the Ming admiral Zheng He would sail the same Indian Ocean trade world that connected Meroë through the Red Sea, fielding treasure fleets that reached Africa's coast."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the deep Nubian past — the A-Group, Kerma, and the long Nile-valley craft tradition — set the cultural groundwork that Meroitic Kush inherited and made its own."
+    },
+    {
+      "matchText": "Ancient Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the earlier Nubian story — from the A-Group bowmen through Kerma — is the deeper backdrop against which Meroë's indigenous turn unfolds."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the western Mediterranean, the Phoenician colony of Carthage marched its own war elephants — including over the Alps with Hannibal — against Rome."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Mediterranean, Alexander the Great's conquests had just shattered the Persian Empire and flooded the ancient world with Hellenistic Greek culture."
+    },
+    {
+      "matchText": "Library of Alexandria",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Ptolemaic Egypt, Greek-speaking kings were building the Library of Alexandria — the great Hellenistic engine of learning just downriver from Kush."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the Persian Empire that Alexander overthrew had stretched from Egypt to India; its Seleucid successors carried Greek culture as far as Afghanistan."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the Buddhism that fused with Greek art in Gandhara would travel east across Asia for centuries, eventually reaching and reshaping early Japan."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, far earlier, Mesopotamia had invented cuneiform around 3200 BCE at Uruk — the world's first writing, three millennia before Kush devised a script of its own."
     }
   ],
   "7": [
@@ -161,6 +425,54 @@
       "targetTl": "persian-empire",
       "targetChapter": 6,
       "blurb": "Rome's main rival in this era was Parthia — the Iranian power on the far side of the same Augustan world Meroë bordered."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: the old Republic was collapsing into one-man rule, and Augustus would soon make himself the empire's first emperor."
+    },
+    {
+      "matchText": "Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the long Nile corridor south of Egypt whose A-Group and C-Group cultures laid the foundations Kush would inherit."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Balkans: the southeastern European frontier Rome was busy subduing — and which, millennia later, the Ottomans would rule for centuries."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Germania: the tribal peoples beyond the Rhine were among the rare opponents who fought Rome to a standstill rather than conquest."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the deep indigenous tradition of the middle Nile that Kush drew on alongside Egyptian and Roman borrowings."
+    },
+    {
+      "matchText": "Taharqa",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: Taharqa, the great 25th-Dynasty pharaoh of Kush whose well-documented reign contrasts with the silence of Meroë's later kings."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesopotamia: the land between the Tigris and Euphrates whose canal engineers solved the same water problem Kush met with hafirs."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the Maurya Empire that had united the subcontinent before fragmenting into the regional kingdoms of this era."
     }
   ],
   "8": [
@@ -171,8 +483,8 @@
       "blurb": "The Harappan urban collapse followed the same pattern as Meroe's decline: centuries of gradual shrinkage before final abandonment. Both were trade-dependent civilizations vulnerable to route shifts, and both left behind physical remains that archaeologists are still working to understand."
     },
     {
-      "matchText": "Sassanid Persian Empire had replaced the Parthians",
-      "targetTl": "elamite-civilization",
+      "matchText": "Sassanid Persian Empire",
+      "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "When Kush fell around 350 CE, the Sassanid Persians were building the last great pre-Islamic Iranian state on foundations that stretched back through Parthia to the Achaemenids — and ultimately to the Elamite administrative traditions that had survived every conquest. Elam's bureaucratic DNA outlasted Kush by centuries."
     },
@@ -187,6 +499,72 @@
       "targetTl": "kingdom-of-aksum",
       "targetChapter": 1,
       "blurb": "Kush fell to Ezana's Aksum — the Ethiopian power that inherited the Red Sea trade and the role of the great northeast-African kingdom."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the East African shore: the Zanj coast the Periplus describes would, centuries later, grow into the chain of Swahili trading cities."
+    },
+    {
+      "matchText": "Elamite",
+      "targetTl": "elamite-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in highland Iran: Elam's wealth, like Kush's, rode on controlling trade routes — and faltered when those routes shifted."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the land between the rivers: the tin and lapis that flowed into Mesopotamia came down the same kind of long-distance routes Kush depended on."
+    },
+    {
+      "matchText": "Indus Valley Civilization",
+      "targetTl": "indus-valley",
+      "targetChapter": 9,
+      "blurb": "Meanwhile on the Indus: the Harappan trade network that linked its cities to Mesopotamia unraveled in the same slow way, ending the urban phase."
+    },
+    {
+      "matchText": "Classic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Mesoamerica: deforestation, soil erosion, and drought drove the abandonment of the great Classic Maya cities — a collapse echoing Kush's."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across Nubian history: Kush was the heir to a much older Nile-valley tradition stretching back to the early Nubian cultures."
+    },
+    {
+      "matchText": "Sea Peoples",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Late Bronze Age: the Sea Peoples helped topple the eastern Mediterranean's palace civilizations — the same pattern of slow decline then sudden blow."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile across the Roman world: the empire whose Egyptian frontier bordered Kush spent the third century in crisis, and its grip on the south slipped."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Italy: the Roman Republic, founded in 509 BCE, grew into the empire that would one day fight Kush at Aswan."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the West: Rome itself would follow the same arc as Kush — long contraction, then a final fall in 476 CE."
+    },
+    {
+      "matchText": "Sixteen Kingdoms",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in China: the collapse of the Western Jin shattered the empire into the fractured era of the Sixteen Kingdoms, part of the same fourth-century hinge."
     }
   ]
 }
