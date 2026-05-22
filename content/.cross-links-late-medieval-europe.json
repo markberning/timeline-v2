@@ -41,6 +41,84 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 10,
       "blurb": "As western Europe's boom ended, Byzantium was in its Palaiologan death-spiral — the same fourteenth-century contraction, further along."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Byzantine world: the same plague that devastated the Latin West tore through the shrinking Palaiologan empire, accelerating Constantinople's long decline."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in early medieval Europe: Charlemagne's coronation in 800 created the imperial title the Holy Roman Empire still traced its origin to five centuries later."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy: the cultural rebirth that Petrarch helped launch would flower into the Renaissance among the very city-states this chapter describes."
+    },
+    {
+      "matchText": "Cicero",
+      "targetTl": "ancient-rome",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in ancient Rome: Cicero was the late Republic's great orator and letter-writer, whose lost correspondence Petrarch rediscovered in 1345."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty was founded in 1368, sweeping away the Mongol Yuan just as Europe was deep in the Hundred Years War."
+    },
+    {
+      "matchText": "Safavids",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the political vacuum left by the Ilkhanate's collapse would eventually be filled by the Safavids, who built a new Persian empire."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in India: the Delhi Sultanate hit its territorial peak under Alauddin Khalji, pushing Muslim power south into the Deccan for the first time."
+    },
+    {
+      "matchText": "Aztec",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: in 1300 the Aztec were still a wandering mercenary tribe in the Valley of Mexico, decades from founding their capital."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: the Aztec would not found Tenochtitlan, their island capital, until 1325."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Andes: in 1300 the Inca were a small mountain polity around Cuzco that would not begin imperial expansion until 1438."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Byzantine world: Constantinople had collapsed from a peak of 400,000 to about 100,000, a shrunken capital of a near-spent empire."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "al-andalus",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Muslim Spain: Cordoba had been the dazzling capital of the Caliphate of al-Andalus, larger and more learned than any northern European city."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the north: Scandinavia was a sparsely settled world of fishing, timber, and herring trade, the same lands that earlier hosted the Vendel culture."
     }
   ],
   "2": [
@@ -79,6 +157,66 @@
       "targetTl": "mali-empire",
       "targetChapter": 4,
       "blurb": "The plague reached the Islamic world and West Africa too — Mali's Mansa Sulayman ruled through the same pandemic that emptied Europe."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Constantinople: the Byzantine capital caught the plague in summer 1347, and Emperor John VI Kantakouzenos lost his son and wrote a clinical account of the symptoms."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the Greek-speaking eastern Roman empire that had already weathered the Plague of Justinian eight centuries before."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, centuries later: not until the Industrial Revolution would ordinary Europeans again live as well as the post-plague peasantry briefly had."
+    },
+    {
+      "matchText": "Mamluks",
+      "targetTl": "mongol-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mamluk Egypt: the slave-soldier dynasty that had stopped the Mongols at Ain Jalut now lost perhaps a third of its population to the same pandemic."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: plague-like epidemics in the 1330s and 1340s fed the instability that toppled the Mongol Yuan Dynasty in 1368."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang and Song eras built the commercial and demographic world the plague would later run through."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in West Africa: Mansa Musa, the famously rich Mali emperor whose hajj flooded Cairo with gold; his successor Sulayman's Mali seems to have escaped the plague entirely."
+    },
+    {
+      "matchText": "Aztec",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Americas: the peoples of the Aztec frontier, cut off from Eurasian disease, would meet their own demographic catastrophe a century and a half later."
+    },
+    {
+      "matchText": "Cortés",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, a century and a half on: Cortés and the smallpox he brought would do to the Americas what the Black Death did to Europe."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, just ahead: the cultural rebirth that grew out of a culled, plague-haunted Italy."
     }
   ],
   "3": [
@@ -123,6 +261,66 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "In Persia the Safavid order was still a Sufi brotherhood, a century from the throne — the slow fuse of the next great Islamic empire."
+    },
+    {
+      "matchText": "Norman Conquest",
+      "targetTl": "viking-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Norse world: the conquest William led in 1066 was the last act of the Viking Age, when a French-speaking duke descended from Rollo's raiders seized the English throne."
+    },
+    {
+      "matchText": "Henry II",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in high-medieval Europe: Henry II built the sprawling Angevin domain whose cross-Channel holdings — including Aquitaine, won by his marriage to Eleanor — set up the very anomaly the Hundred Years War would resolve."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Byzantium: the same plague that paused the war in 1348 swept through a Constantinople already in terminal decline, hollowing out the dying empire's last century."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Byzantium: in 1453, the year French cannon ended the Hundred Years War, Ottoman guns breached the walls of Constantinople and extinguished the Roman Empire's thousand-year eastern half."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Ottoman world: while England and France bled each other, the Ottomans spent the same decades swallowing the Balkans, building the European core of their empire."
+    },
+    {
+      "matchText": "Tamerlane",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Central Asia: Tamerlane carved out a vast empire from Delhi to Anatolia, and his crushing defeat of the Ottoman sultan at Ankara in 1402 nearly destroyed the rising Ottoman state."
+    },
+    {
+      "matchText": "Zheng He",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Ming China: while Henry V was conquering Normandy, the admiral Zheng He led enormous treasure-fleet voyages across the Indian Ocean, reaching as far as East Africa."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in West Africa: the Mali Empire, founded by Sundiata, dominated the gold and salt trade of the Sahel through the same century the Hundred Years War was fought."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in West Africa: Mali's ruler Mansa Musa made a pilgrimage to Mecca so lavish with gold that he reportedly destabilized prices in Egypt for years."
+    },
+    {
+      "matchText": "Pachacuti",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Andes: in 1438, a year after Joan broke the siege of Orléans, Pachacuti launched the explosive expansion that turned a single Cusco valley into the largest empire in the pre-Columbian Americas."
     }
   ],
   "4": [
@@ -149,6 +347,48 @@
       "targetTl": "mongol-empire",
       "targetChapter": 7,
       "blurb": "Both the Latin Church and the Mongol order were splintering into rival claimants in the same century — universal authority dissolving across Eurasia."
+    },
+    {
+      "matchText": "Ancient Israel",
+      "targetTl": "ancient-israel",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in ancient Israel: the original Babylonian Captivity — Nebuchadnezzar's deportation of Judah's elite to Babylon after the fall of Jerusalem, the exile Petrarch reached for as his metaphor for the Avignon papacy."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in high-medieval Europe: the long pope-versus-emperor struggle over who outranked whom in Christendom — the same Empire that, during the Schism, lined up behind the Roman pope against France's Avignon claimant."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Byzantium: contested imperial successions and the catastrophe of 1204 show the Eastern empire's own way of fracturing — political rather than ecclesiastical, but no less destabilizing."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mongol world: Kublai Khan's Yuan dynasty ruled China until 1368, when the Ming drove the Mongols back to the steppe — a succession crisis of its own kind."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: Hongwu founded the Ming in 1368, expelling the Mongol Yuan and rebuilding a native Chinese dynasty just as Europe's Church was tearing itself in three."
+    },
+    {
+      "matchText": "Ming founding",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming founding of 1368 — Hongwu's overthrow of the Mongol Yuan and the restoration of a native dynasty, contemporaneous with the Western Schism."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in earlier China: the Tang and Song dynasties built the cosmopolitan, commercially sophisticated order whose collapse the Mongols completed before the Ming restoration."
     }
   ],
   "5": [
@@ -181,6 +421,24 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "The militant Hussite movement and the militant Safavid Sufi order were near-contemporary examples of religion arming itself into a political-military force."
+    },
+    {
+      "matchText": "Chaldiran",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Safavid Persia: two generations later, the Ottomans deployed the same wagon-fort and gunpowder-infantry doctrine the Hussites had pioneered against the new Safavid dynasty at the Battle of Chaldiran (1514)."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Byzantine Empire: while Latin Christendom argued over Wycliffe and Hus, the late Byzantine Orthodox world had its own contemplative reform current — the Hesychast movement — peaking in the fourteenth century."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile the Ottomans were building the empire that took Constantinople in 1453 and pressed up the Danube into Hungary."
     }
   ],
   "6": [
@@ -189,6 +447,36 @@
       "targetTl": "tang-song-china",
       "targetChapter": 9,
       "blurb": "The contemporary Red Turban Rebellion in China overthrew the Yuan dynasty in 1368 and produced the Ming founding under Zhu Yuanzhang — the largest peasant-revolt success in world history and the only late-medieval rural uprising to produce a long-term political revolution. The contrast with the European revolts is structural: the Chinese rebellion succeeded because the imperial system had collapsed under climate, plague, and Mongol misrule; the European rebellions failed because European royal governments, despite the Hundred Years War and the schism, had not collapsed at the same level."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Constantinople: the same Black Death pandemic of 1347 struck the Byzantine capital just as John VI took the throne, killing a third to half of the city's surviving population and deepening the empire's fiscal collapse during the Palaiologan twilight."
+    },
+    {
+      "matchText": "Qizilbash",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile (later) in Iran: the Qizilbash — \"red-heads,\" named for the twelve-pointed red turbans they wore as Safaviyya disciples — were the millenarian Turcoman warrior backbone that would carry the early Safavid dynasty to power. The chapter notes they are not the same \"Red Turbans\" as the Chinese rebellion."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: the Yuan was the Mongol-founded dynasty established by Kublai Khan. By the mid-fourteenth century it had buckled under climate, plague, and misrule, and the Red Turban Rebellion (1351–1368) overthrew it to install the Ming."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, next in Italy: the cultural and artistic flowering of the Italian Renaissance, bankrolled in good part by the Florentine wool-and-banking economy whose worker class staged the Ciompi revolt of 1378."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "The Mongol shock that had terrified Europe a century earlier — the empire whose successor khanates still shadowed the eastern frontier."
     }
   ],
   "7": [
@@ -221,6 +509,84 @@
       "targetTl": "medieval-india",
       "targetChapter": 6,
       "blurb": "Italy's humanist recovery of classical texts ran parallel to continued Sanskrit and Persian learning in India — two literary high cultures, mutually invisible."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Byzantium: the 1453 fall of Constantinople to the Ottomans ended the thousand-year empire and sent Greek scholars and manuscripts west into Italy."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Byzantium: the same plague that devastated Italy struck the shrinking Palaiologan empire, accelerating its long decline."
+    },
+    {
+      "matchText": "Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in classical Athens: Plato founded Western philosophy, the dialogues that Ficino translated into Latin for Cosimo de' Medici a millennium and a half later."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Byzantium: the failed union of the Latin and Greek churches at the Council of Florence reflected centuries of estrangement between Rome and Constantinople."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in classical Greece: Aristotle's vast body of work, retranslated by Bruni and others, anchored the humanist recovery of ancient learning."
+    },
+    {
+      "matchText": "Cicero",
+      "targetTl": "ancient-rome",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Roman Republic: Cicero's letters and rhetoric, rediscovered by Petrarch, became the stylistic model for humanist Latin."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: the Byzantine Empire, the surviving Greek-speaking remnant of Rome, was the source of the classical Greek manuscripts that fueled the Italian Renaissance."
+    },
+    {
+      "matchText": "Pantheon",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in imperial Rome: the Pantheon's concrete dome stood as the largest in Europe for thirteen centuries until Brunelleschi finally surpassed it in Florence."
+    },
+    {
+      "matchText": "Padua",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Roman Italy: Padua, an ancient northern city, became the setting for Giotto's proto-Renaissance frescoes and Donatello's Gattamelata monument."
+    },
+    {
+      "matchText": "Bihzad",
+      "targetTl": "timurid-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Timurid Herat: the master painter Bihzad led a brilliant manuscript-illustration school, the Persian counterpart to Italy's artistic flowering."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty presided over its own fifteenth-century flowering in classical learning and the great voyages of Zheng He."
+    },
+    {
+      "matchText": "Zheng He",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: admiral Zheng He's treasure fleets reached East Africa decades before Columbus crossed the Atlantic, then were abandoned by the Ming court."
+    },
+    {
+      "matchText": "Joseon",
+      "targetTl": "joseon-korea",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Korea: King Sejong's Joseon court co-invented the Hangul alphabet in 1443, part of a parallel fifteenth-century intellectual flowering."
     }
   ],
   "8": [
@@ -313,6 +679,102 @@
       "targetTl": "mali-empire",
       "targetChapter": 6,
       "blurb": "As Europe turned outward by sea, Mali was being eaten by Songhai — the Atlantic route would soon bypass the trans-Saharan gold trade entirely."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Byzantine world: Constantinople had spent a thousand years as Christendom's greatest city before the long centuries of decline that left it the husk Mehmed II stormed."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile under the Ottomans: the fourteenth-century conquest of the Balkans stripped Constantinople of its last hinterland and surrounded the city long before its walls fell."
+    },
+    {
+      "matchText": "Kayser-i Rum",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome's long shadow: Mehmed II claimed the title \"Caesar of Rome,\" casting the Ottoman sultan as heir to the imperial line that began with the city's legendary founding."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Islamic Iberia: Cordoba had been the dazzling capital of Umayyad al-Andalus, the high-water mark of the Muslim Spain whose last remnant fell at Granada in 1492."
+    },
+    {
+      "matchText": "Cortés",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mexico: Hernán Cortés would topple the Aztec Empire in 1519–1521, one of the conquests that followed Columbus's landfall."
+    },
+    {
+      "matchText": "Potosí",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the silver mountain of Potosí, in modern Bolivia, would pour bullion into a global economy after its discovery in 1545."
+    },
+    {
+      "matchText": "Manila",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 8,
+      "blurb": "Meanwhile across the Pacific: Manila became the hinge of the Spanish galleon trade that carried American silver to Asia, knitting the ocean into the new global economy."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Ming China: the Indian Ocean had been crossed by Zheng He's treasure fleets decades before the Portuguese arrived to seize its trade by force."
+    },
+    {
+      "matchText": "Medieval India",
+      "targetTl": "medieval-india",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the Malabar Coast that da Gama reached in 1498 sat at the eastern end of an Indian Ocean trade world centuries old."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the old Roman divide: Latin was the learned language of the western Church, as Greek was of the eastern empire that fell in 1453."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy: the Renaissance reinvented painting, banking, and architecture, fed in part by Greek scholars and manuscripts arriving from the dying Byzantine world."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the Persian Gulf anchored a trade network that the rising Safavid state would soon command alongside its new Twelver Shia identity."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty presided over the dominant power of the East Asian world system as Europe pushed into the Atlantic and Indian oceans."
+    },
+    {
+      "matchText": "Joseon",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Korea: the Joseon dynasty was woven into the same East Asian order, a Confucian kingdom on the eve of the global age."
+    },
+    {
+      "matchText": "Songhai Empire",
+      "targetTl": "songhai-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in West Africa: the Songhai Empire was reaching its peak on the Niger just as Portuguese ships began rounding the continent's coast."
+    },
+    {
+      "matchText": "Safavid",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia, the Safavid dynasty was forging a rival Shia empire that locked the Ottomans into a two-front world."
     }
   ]
 }
