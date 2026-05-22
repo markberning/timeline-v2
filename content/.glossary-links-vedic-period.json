@@ -1,12 +1,6 @@
 {
   "1": [
     {
-      "term": "Indus Valley Civilization",
-      "matchText": "Indus Valley Civilization",
-      "wikiSlug": "Indus_Valley_Civilisation",
-      "type": "concept"
-    },
-    {
       "term": "Indo-Aryan",
       "matchText": "Indo-Aryans",
       "wikiSlug": "Indo-Aryan_peoples",
@@ -113,6 +107,106 @@
       "matchText": "Indus script",
       "wikiSlug": "Indus_script",
       "type": "concept"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Caspian Sea",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Harappan",
+      "term": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation"
+    },
+    {
+      "matchText": "Harappans",
+      "term": "Harappans",
+      "wikiSlug": "Indus_Valley_Civilisation"
+    },
+    {
+      "matchText": "Mature Harappan",
+      "term": "Mature Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation"
+    },
+    {
+      "matchText": "Hindi",
+      "term": "Hindi",
+      "wikiSlug": "Hindi"
+    },
+    {
+      "matchText": "Urdu",
+      "term": "Urdu",
+      "wikiSlug": "Urdu"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavic_languages"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrian",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Rigveda",
+      "term": "Rigveda",
+      "wikiSlug": "Rigveda"
+    },
+    {
+      "matchText": "Telugu",
+      "term": "Telugu",
+      "wikiSlug": "Telugu_language"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "gomat",
+      "term": "gomat",
+      "definition": "A Sanskrit word meaning \"possessing cattle\" — and, in early Vedic society, the practical definition of a wealthy man. Herds were the unit of riches: bride prices, ritual gifts, and debts were all reckoned in cows."
+    },
+    {
+      "matchText": "aghnya",
+      "term": "aghnya",
+      "definition": "A Sanskrit epithet for the cow, literally \"not to be slaughtered.\" Used in the Rigveda, it is the earliest seed of the sacred, protected status that cattle would hold in later Hindu tradition."
+    },
+    {
+      "matchText": "Bengali",
+      "term": "Bengali",
+      "wikiSlug": "Bengalis"
+    },
+    {
+      "matchText": "Central Asian",
+      "term": "Central Asian",
+      "wikiSlug": "Central_Asia"
     }
   ],
   "2": [
@@ -259,6 +353,161 @@
       "matchText": "Mithra",
       "wikiSlug": "Mithra",
       "type": "people"
+    },
+    {
+      "matchText": "Dead Sea Scrolls",
+      "term": "Dead Sea Scrolls",
+      "wikiSlug": "Dead_Sea_Scrolls"
+    },
+    {
+      "matchText": "Warring States",
+      "term": "Warring States",
+      "wikiSlug": "Warring_States_period"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Indo-Aryans",
+      "term": "Indo-Aryans",
+      "wikiSlug": "Indo-Aryan_peoples"
+    },
+    {
+      "matchText": "Indo-Aryan",
+      "term": "Indo-Aryan",
+      "wikiSlug": "Indo-Aryan_peoples"
+    },
+    {
+      "matchText": "Classical Sanskrit",
+      "term": "Classical Sanskrit",
+      "wikiSlug": "Sanskrit"
+    },
+    {
+      "matchText": "Panini",
+      "term": "Panini",
+      "wikiSlug": "Pāṇini"
+    },
+    {
+      "matchText": "Vedas",
+      "term": "Vedas",
+      "wikiSlug": "Vedas"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Iliad",
+      "term": "Iliad",
+      "wikiSlug": "Iliad"
+    },
+    {
+      "matchText": "Odyssey",
+      "term": "Odyssey",
+      "wikiSlug": "Odyssey"
+    },
+    {
+      "matchText": "Rigvedic",
+      "term": "Rigvedic",
+      "wikiSlug": "Rigveda"
+    },
+    {
+      "matchText": "Quran",
+      "term": "Quran",
+      "wikiSlug": "Quran"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Indo-European",
+      "term": "Indo-European",
+      "wikiSlug": "Indo-European_languages"
+    },
+    {
+      "matchText": "Zoroastrianism",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Homer",
+      "term": "Homer",
+      "wikiSlug": "Homer"
+    },
+    {
+      "matchText": "Mahabharata",
+      "term": "Mahabharata",
+      "wikiSlug": "Mahabharata"
+    },
+    {
+      "matchText": "Prakrits",
+      "term": "Prakrits",
+      "wikiSlug": "Prakrit"
+    },
+    {
+      "matchText": "Hindi",
+      "term": "Hindi",
+      "wikiSlug": "Hindi"
+    },
+    {
+      "matchText": "Gujarati",
+      "term": "Gujarati",
+      "wikiSlug": "Gujarati_language"
+    },
+    {
+      "matchText": "Punjabi",
+      "term": "Punjabi",
+      "wikiSlug": "Punjabi_language"
+    },
+    {
+      "matchText": "Prakrit",
+      "term": "Prakrit",
+      "wikiSlug": "Prakrit"
+    },
+    {
+      "matchText": "Proto-Indo-European",
+      "term": "Proto-Indo-European",
+      "wikiSlug": "Proto-Indo-European_language"
+    },
+    {
+      "matchText": "Dravidian",
+      "term": "Dravidian",
+      "wikiSlug": "Dravidian_languages"
+    },
+    {
+      "matchText": "Pada-patha",
+      "term": "Pada-patha",
+      "wikiSlug": "Vedic_chant"
+    },
+    {
+      "matchText": "Krama-patha",
+      "term": "Krama-patha",
+      "wikiSlug": "Vedic_chant"
+    },
+    {
+      "matchText": "Jata-patha",
+      "term": "Jata-patha",
+      "wikiSlug": "Vedic_chant"
+    },
+    {
+      "matchText": "Ghana-patha",
+      "term": "Ghana-patha",
+      "wikiSlug": "Vedic_chant"
+    },
+    {
+      "matchText": "Bharatavarsha",
+      "term": "Bharatavarsha",
+      "definition": "Literally \"land of the Bharatas\" — the ancient Sanskrit name for the Indian subcontinent, taken from the Bharata tribe whose victory at the Battle of the Ten Kings is recorded in the Rigveda. It survives today as Bharat, an official name of the Republic of India."
+    },
+    {
+      "matchText": "Bengali",
+      "term": "Bengali",
+      "wikiSlug": "Bengalis"
     }
   ],
   "3": [
@@ -429,6 +678,81 @@
       "matchText": "Painted Grey Ware",
       "wikiSlug": "Painted_Grey_Ware",
       "type": "concept"
+    },
+    {
+      "matchText": "Bay of Bengal",
+      "term": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal"
+    },
+    {
+      "matchText": "Bronze Age",
+      "term": "Bronze Age",
+      "wikiSlug": "Bronze_Age"
+    },
+    {
+      "matchText": "Himalayas",
+      "term": "Himalayas",
+      "wikiSlug": "Himalayas"
+    },
+    {
+      "matchText": "Vedas",
+      "term": "Vedas",
+      "wikiSlug": "Vedas"
+    },
+    {
+      "matchText": "Rigveda",
+      "term": "Rigveda",
+      "wikiSlug": "Rigveda"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Pythagoras",
+      "term": "Pythagoras",
+      "wikiSlug": "Pythagoras"
+    },
+    {
+      "matchText": "Kshatriyas",
+      "term": "Kshatriyas",
+      "wikiSlug": "Kshatriya"
+    },
+    {
+      "matchText": "Vaishyas",
+      "term": "Vaishyas",
+      "wikiSlug": "Vaishya"
+    },
+    {
+      "matchText": "Shudras",
+      "term": "Shudras",
+      "wikiSlug": "Shudra"
+    },
+    {
+      "matchText": "Bharata",
+      "term": "Bharata",
+      "wikiSlug": "Bharatas"
+    },
+    {
+      "matchText": "Sanskrit",
+      "term": "Sanskrit",
+      "wikiSlug": "Sanskrit"
+    },
+    {
+      "matchText": "Odyssey",
+      "term": "Odyssey",
+      "wikiSlug": "Odyssey"
+    },
+    {
+      "matchText": "Upanishadic",
+      "term": "Upanishadic",
+      "wikiSlug": "Upanishads"
+    },
+    {
+      "matchText": "Rigvedic",
+      "term": "Rigvedic",
+      "wikiSlug": "Rigveda"
     }
   ],
   "4": [
@@ -499,12 +823,6 @@
       "type": "concept"
     },
     {
-      "term": "Dharmasutras",
-      "matchText": "Dharmasutras",
-      "wikiSlug": "Dharmasutra",
-      "type": "concept"
-    },
-    {
       "term": "upanayana",
       "matchText": "upanayana",
       "wikiSlug": "Upanayana",
@@ -521,6 +839,51 @@
       "matchText": "Indian Constitution of 1950",
       "wikiSlug": "Constitution_of_India",
       "type": "concept"
+    },
+    {
+      "matchText": "Rigveda",
+      "term": "Rigveda",
+      "wikiSlug": "Rigveda"
+    },
+    {
+      "matchText": "Buddha",
+      "term": "Buddha",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "matchText": "Mahavira",
+      "term": "Mahavira",
+      "wikiSlug": "Mahavira"
+    },
+    {
+      "matchText": "Brahmana",
+      "term": "Brahmana",
+      "wikiSlug": "Brahmana"
+    },
+    {
+      "matchText": "Indo-Aryan",
+      "term": "Indo-Aryan",
+      "wikiSlug": "Indo-Aryan_peoples"
+    },
+    {
+      "matchText": "Jainism",
+      "term": "Jainism",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Rigvedic",
+      "term": "Rigvedic",
+      "wikiSlug": "Rigveda"
+    },
+    {
+      "matchText": "Brahminical",
+      "term": "Brahminical",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Jain",
+      "term": "Jain",
+      "wikiSlug": "Jainism"
     }
   ],
   "5": [
@@ -597,24 +960,6 @@
       "type": "people"
     },
     {
-      "term": "Gargi Vachaknavi",
-      "matchText": "Gargi Vachaknavi",
-      "wikiSlug": "Gargi_Vachaknavi",
-      "type": "people"
-    },
-    {
-      "term": "King Janaka",
-      "matchText": "King Janaka of Videha",
-      "wikiSlug": "Janaka",
-      "type": "people"
-    },
-    {
-      "term": "Videha",
-      "matchText": "Videha",
-      "wikiSlug": "Videha",
-      "type": "place"
-    },
-    {
       "term": "Vedanta",
       "matchText": "Vedanta",
       "wikiSlug": "Vedanta",
@@ -667,6 +1012,61 @@
       "matchText": "Anaximander",
       "wikiSlug": "Anaximander",
       "type": "people"
+    },
+    {
+      "matchText": "Brahmins",
+      "term": "Brahmins",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Jainism",
+      "term": "Jainism",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Upanishadic",
+      "term": "Upanishadic",
+      "wikiSlug": "Upanishads"
+    },
+    {
+      "matchText": "Shvetaketu",
+      "term": "Shvetaketu",
+      "wikiSlug": "Śvetaketu"
+    },
+    {
+      "matchText": "Buddha",
+      "term": "the Buddha",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "matchText": "Pythagoras",
+      "term": "Pythagoras",
+      "wikiSlug": "Pythagoras"
+    },
+    {
+      "matchText": "Hebrew prophets",
+      "term": "Hebrew prophets",
+      "wikiSlug": "Prophets_in_Judaism"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Vedas",
+      "term": "Vedas",
+      "wikiSlug": "Vedas"
+    },
+    {
+      "matchText": "Harappan",
+      "term": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation"
     }
   ],
   "6": [
@@ -700,12 +1100,6 @@
       "matchText": "Pataliputra",
       "wikiSlug": "Pataliputra",
       "type": "place"
-    },
-    {
-      "term": "Uttarapatha",
-      "matchText": "Uttarapatha",
-      "wikiSlug": "Uttarapatha",
-      "type": "concept"
     },
     {
       "term": "Dakshinapatha",
@@ -898,6 +1292,166 @@
       "matchText": "First Buddhist Council",
       "wikiSlug": "First_Buddhist_council",
       "type": "concept"
+    },
+    {
+      "matchText": "Harappan",
+      "term": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation"
+    },
+    {
+      "matchText": "Ganges Valley",
+      "term": "Ganges Valley",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Mohenjo-daro",
+      "term": "Mohenjo-daro",
+      "wikiSlug": "Mohenjo-daro"
+    },
+    {
+      "matchText": "Harappa",
+      "term": "Harappa",
+      "wikiSlug": "Harappa"
+    },
+    {
+      "matchText": "Dholavira",
+      "term": "Dholavira",
+      "wikiSlug": "Dholavira"
+    },
+    {
+      "matchText": "Champa",
+      "term": "Champa",
+      "wikiSlug": "Champa"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Dark Ages",
+      "term": "Dark Ages",
+      "wikiSlug": "Greek_Dark_Ages"
+    },
+    {
+      "matchText": "Peshawar",
+      "term": "Peshawar",
+      "wikiSlug": "Peshawar"
+    },
+    {
+      "matchText": "Deccan",
+      "term": "Deccan plateau",
+      "wikiSlug": "Deccan_Plateau"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Croesus",
+      "term": "Croesus",
+      "wikiSlug": "Croesus"
+    },
+    {
+      "matchText": "Buddha",
+      "term": "Buddha",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Anathapindika",
+      "term": "Anathapindika",
+      "wikiSlug": "Anathapindika"
+    },
+    {
+      "matchText": "Jetavana",
+      "term": "Jetavana",
+      "wikiSlug": "Jetavana"
+    },
+    {
+      "matchText": "Vedas",
+      "term": "Vedas",
+      "wikiSlug": "Vedas"
+    },
+    {
+      "matchText": "Panini",
+      "term": "Panini",
+      "wikiSlug": "Pāṇini"
+    },
+    {
+      "matchText": "Xerxes",
+      "term": "Xerxes",
+      "wikiSlug": "Xerxes_I"
+    },
+    {
+      "matchText": "Aryabhata",
+      "term": "Aryabhata",
+      "wikiSlug": "Aryabhata"
+    },
+    {
+      "matchText": "Ravana",
+      "term": "Ravana",
+      "wikiSlug": "Ravana"
+    },
+    {
+      "matchText": "Arjuna",
+      "term": "Arjuna",
+      "wikiSlug": "Arjuna"
+    },
+    {
+      "matchText": "Krishna",
+      "term": "Krishna",
+      "wikiSlug": "Krishna"
+    },
+    {
+      "matchText": "Kurukshetra",
+      "term": "Kurukshetra",
+      "wikiSlug": "Kurukshetra"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Shakya",
+      "term": "Shakya",
+      "wikiSlug": "Shakya"
+    },
+    {
+      "matchText": "Kshatriya",
+      "term": "Kshatriya",
+      "wikiSlug": "Kshatriya"
+    },
+    {
+      "matchText": "Upanishads",
+      "term": "Upanishads",
+      "wikiSlug": "Upanishads"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "coinage",
+      "term": "coinage",
+      "definition": "Standardized stamped pieces of metal used as money. India's earliest coins were punch-marked silver pieces stamped with symbols, which began circulating across the north around 600 BCE, roughly simultaneously with the first coins in Lydia."
+    },
+    {
+      "matchText": "Jain",
+      "term": "Jain",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Hindus",
+      "term": "Hindus",
+      "wikiSlug": "Hindus"
     }
   ],
   "7": [
@@ -906,12 +1460,6 @@
       "matchText": "Shramana",
       "wikiSlug": "Śramaṇa",
       "type": "concept"
-    },
-    {
-      "term": "Siddhartha Gautama",
-      "matchText": "Siddhartha Gautama",
-      "wikiSlug": "Gautama_Buddha",
-      "type": "people"
     },
     {
       "term": "Shakya",
@@ -1056,6 +1604,111 @@
       "matchText": "Dhammacakkappavattana Sutta",
       "wikiSlug": "Dhammacakkappavattana_Sutta",
       "type": "concept"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Vedas",
+      "term": "Vedas",
+      "wikiSlug": "Vedas"
+    },
+    {
+      "matchText": "Kshatriyas",
+      "term": "Kshatriya",
+      "wikiSlug": "Kshatriya"
+    },
+    {
+      "matchText": "Upanishadic",
+      "term": "Upanishadic",
+      "wikiSlug": "Upanishads"
+    },
+    {
+      "matchText": "Mahajanapada",
+      "term": "Mahajanapadas",
+      "wikiSlug": "Mahajanapadas"
+    },
+    {
+      "matchText": "Brahminical",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Buddha",
+      "term": "Gautama Buddha",
+      "wikiSlug": "The_Buddha"
+    },
+    {
+      "matchText": "Kshatriya",
+      "term": "Kshatriya",
+      "wikiSlug": "Kshatriya"
+    },
+    {
+      "matchText": "Vaishyas",
+      "term": "Vaishya",
+      "wikiSlug": "Vaishya"
+    },
+    {
+      "matchText": "Varanasi",
+      "term": "Varanasi",
+      "wikiSlug": "Varanasi"
+    },
+    {
+      "matchText": "Rajagriha",
+      "term": "Rajgir (Rajagriha)",
+      "wikiSlug": "Rajgir"
+    },
+    {
+      "matchText": "Shravasti",
+      "term": "Shravasti",
+      "wikiSlug": "Shravasti"
+    },
+    {
+      "matchText": "Kosala",
+      "term": "Kosala",
+      "wikiSlug": "Kosala"
+    },
+    {
+      "matchText": "Brahmins",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Vajjian Confederacy",
+      "term": "Vajjika League",
+      "wikiSlug": "Vajjika_League"
+    },
+    {
+      "matchText": "Jain",
+      "term": "Jainism",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Jainism",
+      "term": "Jainism",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Upanishads",
+      "term": "Upanishads",
+      "wikiSlug": "Upanishads"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Harappan",
+      "term": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation"
     }
   ],
   "8": [
@@ -1076,12 +1729,6 @@
       "matchText": "Nanda dynasty",
       "wikiSlug": "Nanda_dynasty",
       "type": "concept"
-    },
-    {
-      "term": "Alexander the Great",
-      "matchText": "Alexander of Macedon",
-      "wikiSlug": "Alexander_the_Great",
-      "type": "people"
     },
     {
       "term": "Porus",
@@ -1156,12 +1803,6 @@
       "type": "people"
     },
     {
-      "term": "Ashtadhyayi",
-      "matchText": "Ashtadhyayi",
-      "wikiSlug": "Aṣṭādhyāyī",
-      "type": "concept"
-    },
-    {
       "term": "Noam Chomsky",
       "matchText": "Noam Chomsky",
       "wikiSlug": "Noam_Chomsky",
@@ -1174,16 +1815,245 @@
       "type": "concept"
     },
     {
-      "term": "Brahmi script",
-      "matchText": "Brahmi",
-      "wikiSlug": "Brahmi_script",
-      "type": "concept"
-    },
-    {
       "term": "Taxila",
       "matchText": "Taxila",
       "wikiSlug": "Taxila",
       "type": "place"
+    },
+    {
+      "matchText": "Hindu Kush",
+      "term": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush"
+    },
+    {
+      "matchText": "Ajatashatru",
+      "term": "Ajatashatru",
+      "wikiSlug": "Ajatashatru"
+    },
+    {
+      "matchText": "Magadha",
+      "term": "Magadha",
+      "wikiSlug": "Magadha"
+    },
+    {
+      "matchText": "Haryanka",
+      "term": "Haryanka dynasty",
+      "wikiSlug": "Haryanka_dynasty"
+    },
+    {
+      "matchText": "Kshatriya",
+      "term": "Kshatriya",
+      "wikiSlug": "Kshatriya"
+    },
+    {
+      "matchText": "Kshatriyas",
+      "term": "Kshatriyas",
+      "wikiSlug": "Kshatriya"
+    },
+    {
+      "matchText": "Hannibal",
+      "term": "Hannibal",
+      "wikiSlug": "Hannibal"
+    },
+    {
+      "matchText": "Alps",
+      "term": "Alps",
+      "wikiSlug": "Alps"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Achaemenid Persians",
+      "term": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Macedonia",
+      "term": "Macedonia (ancient kingdom)",
+      "wikiSlug": "Macedonia_(ancient_kingdom)"
+    },
+    {
+      "matchText": "Hyphasis",
+      "term": "Hyphasis",
+      "wikiSlug": "Alexandria_Hyphasis"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Buddha",
+      "term": "Buddha",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "matchText": "Dharma Wheel",
+      "term": "Dharmachakra",
+      "wikiSlug": "Dharmachakra"
+    },
+    {
+      "matchText": "Seleucid",
+      "term": "Seleucid Empire",
+      "wikiSlug": "Seleucid_Empire"
+    },
+    {
+      "matchText": "Pataliputra",
+      "term": "Pataliputra",
+      "wikiSlug": "Pataliputra"
+    },
+    {
+      "matchText": "Indica",
+      "term": "Indica (Megasthenes)",
+      "wikiSlug": "Indica_(Megasthenes)"
+    },
+    {
+      "matchText": "Shramana",
+      "term": "Shramana",
+      "wikiSlug": "%C5%9Arama%E1%B9%87a"
+    },
+    {
+      "matchText": "Upanishads",
+      "term": "Upanishads",
+      "wikiSlug": "Upanishads"
+    },
+    {
+      "matchText": "Sanskrit",
+      "term": "Sanskrit",
+      "wikiSlug": "Sanskrit"
+    },
+    {
+      "matchText": "Confucianism",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Daoism",
+      "term": "Taoism",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Kautilya",
+      "term": "Chanakya",
+      "wikiSlug": "Chanakya"
+    },
+    {
+      "matchText": "Vishnugupta",
+      "term": "Chanakya",
+      "wikiSlug": "Chanakya"
+    },
+    {
+      "matchText": "Classical Chinese",
+      "term": "Classical Chinese",
+      "wikiSlug": "Classical_Chinese"
+    },
+    {
+      "matchText": "Vedas",
+      "term": "Vedas",
+      "wikiSlug": "Vedas"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Brahman",
+      "term": "Brahman",
+      "wikiSlug": "Brahman"
+    },
+    {
+      "matchText": "Atman",
+      "term": "Atman",
+      "wikiSlug": "%C4%80tman_(Hinduism)"
+    },
+    {
+      "matchText": "Jainism",
+      "term": "Jainism",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Gandhi",
+      "term": "Mahatma Gandhi",
+      "wikiSlug": "Mahatma_Gandhi"
+    },
+    {
+      "matchText": "Vedanga Jyotisha",
+      "term": "Vedanga Jyotisha",
+      "wikiSlug": "Vedanga_Jyotisha"
+    },
+    {
+      "matchText": "Mahabharata",
+      "term": "Mahabharata",
+      "wikiSlug": "Mahabharata"
+    },
+    {
+      "matchText": "Ramayana",
+      "term": "Ramayana",
+      "wikiSlug": "Ramayana"
+    },
+    {
+      "matchText": "Atharvaveda",
+      "term": "Atharvaveda",
+      "wikiSlug": "Atharvaveda"
+    },
+    {
+      "matchText": "Dharmasutras",
+      "term": "Dharmasutras",
+      "wikiSlug": "Dharma%C5%9B%C4%81stra"
+    },
+    {
+      "matchText": "Vasishtha",
+      "term": "Vasishtha",
+      "wikiSlug": "Vasishtha"
+    },
+    {
+      "matchText": "Twelve Tables",
+      "term": "Twelve Tables",
+      "wikiSlug": "Twelve_Tables"
+    },
+    {
+      "matchText": "Buddhism and Jainism",
+      "term": "Buddhism and Jainism",
+      "wikiSlug": "Buddhism_and_Jainism"
+    },
+    {
+      "matchText": "Ayurvedic medicine",
+      "term": "Ayurveda",
+      "wikiSlug": "Ayurveda"
+    },
+    {
+      "matchText": "Jain",
+      "term": "Jain",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Harappan",
+      "term": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation"
+    },
+    {
+      "matchText": "Greek-ruled",
+      "term": "Greek-ruled",
+      "wikiSlug": "Indo-Greek_Kingdom"
+    },
+    {
+      "matchText": "Mahajanapada",
+      "term": "Mahajanapada",
+      "wikiSlug": "Mahajanapadas"
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia"
     }
   ]
 }

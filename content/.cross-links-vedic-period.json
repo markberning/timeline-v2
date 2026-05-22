@@ -41,6 +41,24 @@
       "targetTl": "new-kingdom-egypt",
       "targetChapter": 1,
       "blurb": "The horse-and-chariot revolution that defined the Vedic elite was remaking warfare everywhere at once — including New Kingdom Egypt's chariot armies."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the steppe migrants who turned southwest produced Old Persian, an Indo-European tongue so close to Vedic Sanskrit that an early Persian and an early Vedic priest could nearly follow each other's hymns. That language seeds the empire-builders of the Iranian plateau."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy: Latin is another daughter of the same Proto-Indo-European parent — the Sanskrit pitar and the Latin pater are inherited cousins, not coincidences. The tongue that spreads with Rome and the tongue of the Vedic hymns are distant siblings."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in northern Europe: the same steppe diaspora that carried Indo-Aryan speech into India sent another branch west, where it became the Germanic languages — yet another limb of the family tree rooted in the Pontic-Caspian grasslands."
     }
   ],
   "2": [
@@ -55,6 +73,24 @@
       "targetTl": "indus-valley",
       "targetChapter": 1,
       "blurb": "The Vedas are oral, memorized, vowel-perfect — and they describe a world with no cities, the photographic negative of the silent, urban, literate Indus."
+    },
+    {
+      "matchText": "Harappans",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Indus Valley: the Harappans built the planned brick cities — covered drains, standardized weights, an undeciphered script — that flourished in the same northwest geography centuries before the Rigvedic herders arrived."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: Latin was the everyday tongue of the early city, the Indo-European language that would fragment into French, Italian, and Spanish exactly as Sanskrit fragmented into the Prakrits."
+    },
+    {
+      "matchText": "Hittite",
+      "targetTl": "hittite-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Anatolia: the Hittites left their own record of the Battle of Kadesh against Egypt, a chariot clash roughly contemporary with the Rigveda's Battle of the Ten Kings."
     }
   ],
   "3": [
@@ -75,6 +111,18 @@
       "targetTl": "hittite-empire",
       "targetChapter": 6,
       "blurb": "Vedic fire sacrifice and the Hittite state cult share Indo-European bones — ritual as the technology that binds gods, kings, and people."
+    },
+    {
+      "matchText": "Indo-Aryans",
+      "targetTl": "indus-valley",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Indus Valley: the Indo-Aryans were the Sanskrit-speaking, horse-and-chariot pastoralists who filtered into South Asia after the Harappan collapse, blending with the descendants of the Indus cities to seed Vedic civilization."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Gupta Empire: nearly a thousand years later, Gupta emperors were still staging the ashvamedha horse sacrifice to proclaim universal sovereignty — proof of how durable this Vedic royal ritual became."
     }
   ],
   "4": [
@@ -83,6 +131,12 @@
       "targetTl": "medieval-india",
       "targetChapter": 6,
       "blurb": "The bhakti movement that this paragraph mentions in passing is the subject of an entire chapter in the Medieval India narrative — and it really is one of the great anti-caste rebellions of Indian religious history. Bhakti poets in Tamil Nadu, Karnataka, and the Hindi belt sang in vernacular languages, wrote God love poems, and refused to defer to Brahmin gatekeepers. Many of them came from the very Shudra and Dalit backgrounds the varna system tried to keep silent."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: a thousand years after the Buddha challenged the varna order in India, the religion he founded reached the Yamato court as a golden statue from Korea in 538 — and fractured the court into a generation-long civil war over whether Japan would become a Buddhist civilization."
     }
   ],
   "5": [
@@ -97,6 +151,30 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 5,
       "blurb": "Confucius (551-479 BCE) was an almost exact contemporary of the Buddha (roughly 563-483 BCE) — working on the opposite side of Asia, in an entirely different cultural context, with no known contact. Both produced ethical systems that would shape billions of lives. The simultaneity of the Axial Age is hard to ignore."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the same Buddhism whose roots the Upanishads helped shape would, a thousand years later, cross the sea to the Japanese court and remake an entire culture."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: during these same Axial Age centuries, the Iranian plateau produced Zoroastrian thought and the empire that would soon become the largest the world had yet seen."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, two and a half millennia later: the tradition of royal patronage of debate seen at Janaka's court would persist into the Mughal courts of early-modern India."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, a thousand years on: under Gupta patronage the prototype debate-court at Janaka's hall matured into Nalanda, one of the first residential universities in the world."
     }
   ],
   "6": [
@@ -123,6 +201,54 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "As the sixteen mahajanapadas consolidated toward empire, the Achaemenid Persians were annexing the Indus — the first great outside power to reach into the subcontinent."
+    },
+    {
+      "matchText": "Bronze Age Collapse",
+      "targetTl": "mesopotamia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Near East, the Late Bronze Age world unraveled around 1200 BCE — cities burned, trade routes snapped, and several great kingdoms vanished within a few decades."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, monumental highland states were rising in the centuries after India's cityless gap, building the urban traditions India had only just rediscovered."
+    },
+    {
+      "matchText": "Moche",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Peruvian coast, the Moche built irrigation-fed valley kingdoms famous for their realistic ceramics and monumental adobe pyramids."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the high Andes, Tiwanaku grew into a ceremonial and political center around Lake Titicaca, projecting influence across the southern Andean world."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India's future: the kingdom of Magadha would soon swallow its rivals and become the Maurya Empire, the subcontinent's first great pan-Indian state."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, much later and far to the east, the religion born in these Gangetic kingdoms would reach Japan, reshaping its court, art, and statecraft."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile to the west, the Achaemenid Persian Empire was building the largest state the world had yet seen — and around 518 BCE it absorbed Gandhara as a frontier province."
+    },
+    {
+      "matchText": "Athenian",
+      "targetTl": "ancient-greece",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Greece, Athens was developing its own experiment in collective rule — a direct democracy of free male citizens, contemporary with but independent of India's clan republics."
     }
   ],
   "7": [
@@ -131,6 +257,12 @@
       "targetTl": "indus-valley",
       "targetChapter": 8,
       "blurb": "The pipal tree under which the Buddha achieved enlightenment was the same species that appears prominently on Harappan seals two thousand years earlier — one of the most vivid examples of how Harappan religious elements persisted through the Vedic period and into Buddhism, surviving the collapse of the civilization that first venerated them."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, a thousand years later and an ocean away: the religion the Buddha founded in the Ganges plain reached Japan in the 6th century CE, where its arrival set off a fierce court struggle remembered as the Buddhist crisis."
     }
   ],
   "8": [
@@ -157,6 +289,48 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "India arrived at the doorstep of empire — Magadha, the Mauryas — by the same road Mesopotamia had walked two millennia earlier: from competing kingdoms to a single throne."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Greece: the Macedonian king whose eastward conquests carried him all the way to the Punjab — and whose army's mutiny on the Beas River spared the Nandas."
+    },
+    {
+      "matchText": "Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Greece: the Athenian philosopher whose dialogues, written in the same centuries as the Upanishads, probed the nature of reality and the just society."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Greece: Plato's student and Alexander's tutor, whose systematic philosophy was taking shape just as Indian thinkers debated the self and the cosmos."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the Indian-born religion would, a thousand years later, arrive across the sea and reshape a distant island court."
+    },
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy, nearly two millennia later: Machiavelli would write The Prince, the same ruthless realism about power that Chanakya put into the Arthashastra."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Maurya Empire: Chandragupta's grandson, who would unify the subcontinent and then turn to Buddhism, carving his edicts into rock."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: the language that served Europe as a vehicle of learning for two millennia, exactly as Sanskrit served India."
     }
   ]
 }

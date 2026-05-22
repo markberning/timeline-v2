@@ -422,29 +422,14 @@
       "lead": "A gurukula (Sanskrit: गुरुकुलम्, romanized: gurukula) is a traditional system of religious education in India with śiṣya ('students' or 'disciples') living near or with the guru.",
       "image": "Parmarth4.jpg"
     },
-    "Videha": {
-      "title": "Videha",
-      "lead": "Videha (Prākrit: 𑀯𑀺𑀤𑁂𑀳 Videha; Pāli: Videha; Sanskrit: Videha) was an ancient Indo-Aryan tribe of north-eastern South Asia whose existence is attested during the Iron Age. The population of Videha, the Vaidehas, were initially organise",
-      "image": "Late_Vedic_Culture_(1100-500_BCE).png"
-    },
     "Yajnavalkya": {
       "title": "Yajnavalkya",
       "lead": "Yajnavalkya or Yagyavalkya (Sanskrit: याज्ञवल्क्य, IAST: Yājñavalkya) is a Hindu Vedic sage prominently mentioned in the Brihadaranyaka Upanishad (c. 700 BCE) and Tattiriya Upanishad. Yajnavalkya proposes and debates metaphysical questions ",
       "image": "Yajnavalkya_and_Janaka.jpg"
     },
-    "Gargi_Vachaknavi": {
-      "title": "Gārgī Vāchaknavī",
-      "lead": "Gargi Vachaknavi (Sans: गार्गी वाचक्नवी (Devanagari); Gārgī Vācaknavī (IAST)) was an ancient Hindu sage and philosopher. In Vedic literature, she is honoured as a great natural philosopher, renowned expounder of the Vedas, and known as Brah",
-      "image": "Gargi_Vachaknavi.jpg"
-    },
     "Vedanga_Jyotisha": {
       "title": "Vedanga Jyotisha",
       "lead": "Vedanga Jyotisha (IAST: Vedāṅga Jyotiṣa), or Jyotishavedanga (Jyotiṣavedāṅga), is one of earliest known Indian texts on astrology (Jyotisha). The extant text is dated to the final centuries BCE, but it may be based on a tradition reaching b",
-      "image": ""
-    },
-    "Uttarapatha": {
-      "title": "Uttarapatha",
-      "lead": "Uttarapatha (Hindi: उत्तरापथ) is the name used by ancient Buddhist and Hindu texts to describe the Northern part of Jambudvipa (equivalent of present-day Afro - Eurasia), one of the \"continents\" in Vedic belief. In modern times, the Sanskri",
       "image": ""
     },
     "Ramayana": {
@@ -517,11 +502,6 @@
       "lead": "Panini (Sanskrit: पाणिनि, pāṇini) was a Sanskrit grammarian, logician, philologist, and revered scholar of Ancient India during the mid-1st millennium BCE, dated variously by most scholars between the 6th–5th and 4th centuries BCE. The hist",
       "image": ""
     },
-    "Dharmasutra": {
-      "title": "Dharmaśāstra",
-      "lead": "Dharmaśāstra (Sanskrit: धर्मशास्त्र) are Sanskrit Puranic Smriti texts on law and conduct, and refer to treatises (śāstras) on Dharma. Like the Dharmasūtras which are based upon the Vedas, these texts are also elaborate law commentaries bas",
-      "image": ""
-    },
     "Ajatashatru": {
       "title": "Ajatashatru",
       "lead": "Ajatasattu (Pāli: Ajātasattu) or Ajatashatru (Sanskrit: Ajātaśatru) in the Buddhist tradition, or Kunika (Kūṇika) and Kuniya (Kūṇiya) in the Jain tradition (reigned c. 492 to 460 BCE, or c. 405 to 373 BCE), was one of the most important kin",
@@ -541,6 +521,11 @@
       "title": "Chanakya",
       "lead": "Chanakya (ISO: Cāṇakya, चाणक्य, ), according to legendary narratives preserved in various traditions dating from the 4th to 11th century CE, was a Brahmin who assisted the first Mauryan emperor Chandragupta in his rise to power and the esta",
       "image": "Chanakya_artistic_depiction.jpg"
+    },
+    "Vedic_chant": {
+      "title": "Vedic chant",
+      "lead": "The oral tradition of the Vedas (Śruti) consists of several pathas, \"recitations\" or ways of chanting the Vedic mantras. Such traditions of Vedic chant are often considered the oldest unbroken oral tradition in existence, the fixation of th",
+      "image": ""
     },
     "Indo-European_languages": {
       "title": "Indo-European languages",
@@ -566,16 +551,6 @@
       "title": "Bhagavad Gita",
       "lead": "The Bhagavad Gita (; Sanskrit: भगवद्गीता, IPA: [ˌbʱɐɡɐʋɐd ˈɡiːtaː], romanized: bhagavad-gītā, lit. 'God's song'), often referred to as the Gita (IAST: Gītā), is a Hindu scripture, likely composed in the second or first century BCE, which fo",
       "image": "BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
-    },
-    "Brahmi_script": {
-      "title": "Brahmi script",
-      "lead": "Brahmi ( BRAH-mee; 𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻; ISO: Brāhmī) is a writing system from ancient India that appeared as a fully developed script in the 3rd century BCE. Its descendants, the Brahmic scripts, continue to be used today across South and Sout",
-      "image": "Brahmi_pillar_inscription_in_Sarnath.jpg"
-    },
-    "Indus_Valley_Civilisation": {
-      "title": "Indus Valley Civilisation",
-      "lead": "The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in the northwestern regions of South Asia, lasting from 3300 BCE to 1300 BCE, and in its mature form from 2600 BCE to 1900 BCE. Togethe",
-      "image": "Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).png"
     },
     "Indo-Aryan_peoples": {
       "title": "Indo-Aryan peoples",
@@ -661,6 +636,76 @@
       "title": "Indus script",
       "lead": "The Indus script, also known as the Harappan script and the Indus Valley script, is a corpus of symbols produced by the Indus Valley Civilisation. Most inscriptions containing these symbols are extremely short, making it difficult to judge ",
       "image": "Indus_seal_impression.jpg"
+    },
+    "Bronze_Age": {
+      "title": "Bronze Age",
+      "lead": "The Bronze Age is an archaeological and anthropological term defining a phase in the development of material culture among ancient societies in Asia, the Near East and Europe. An ancient civilisation or culture is deemed to be part of the B",
+      "image": "AlacaStandarte.jpg"
+    },
+    "Black_Sea": {
+      "title": "Black Sea",
+      "lead": "The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia. It is bounded by Bulgaria, Georgia, Romania, Russia, Turkey, and Ukraine. The",
+      "image": "Black_Sea_map.png"
+    },
+    "Caspian_Sea": {
+      "title": "Caspian Sea",
+      "lead": "The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually referred to as a full-fledged sea. An endorheic basin, it is situated in both Europe and Asia: east of the Caucasus, west of the ",
+      "image": "Caspian_Sea_from_orbit.jpg"
+    },
+    "Indus_Valley_Civilisation": {
+      "title": "Indus Valley Civilisation",
+      "lead": "The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in the northwestern regions of South Asia, lasting from 3300 BCE to 1300 BCE, and in its mature form from 2600 BCE to 1900 BCE. Togethe",
+      "image": "Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).png"
+    },
+    "Hindi": {
+      "title": "Hindi",
+      "lead": "Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an Indo-Aryan language written in the Devanagari script. It is an official language of the government of India, and is the ",
+      "image": "Hindi.svg"
+    },
+    "Urdu": {
+      "title": "Urdu",
+      "lead": "Urdu (اُرْدُو, urdū, [ˈʊɾduː] ) is an Indo-Aryan language spoken primarily in South Asia. It is the national language and lingua franca of Pakistan. It is also an official Eighth Schedule language in India, the status and cultural heritage ",
+      "image": "Urdu_example.svg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Eurasian_Steppe": {
+      "title": "Eurasian Steppe",
+      "lead": "The Eurasian Steppe, also called the Great Steppe or The Steppe, is an area of grassland in Eurasia that is mostly located in the temperate grasslands, savannas, and shrublands biome. It stretches westward some 8000 kilometres (5000 miles) ",
+      "image": "Eurasian_steppe_belt.jpg"
+    },
+    "Slavic_languages": {
+      "title": "Slavic languages",
+      "lead": "The Slavic languages, also known as the Slavonic languages, are Indo-European languages spoken primarily by the Slavic peoples and their descendants. They are thought to descend from a proto-language called Proto-Slavic, spoken during the E",
+      "image": "Slavic_europe_(Kosovo_shaded).svg"
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Telugu_language": {
+      "title": "Telugu language",
+      "lead": "Telugu ( ; తెలుగు, Telugu pronunciation: [ˈt̪eluɡu]) is a Dravidian language native to the Indian states of Andhra Pradesh and Telangana, where it is also the official language. Telugu is a classical language with a recorded history of at l",
+      "image": "Telugu_speaker_map_India.svg"
+    },
+    "Shiva": {
+      "title": "Shiva",
+      "lead": "Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IAST: Mahādevaḥ, [mɐɦaːd̪eːʋɐh], lit. 'The Great God') and Hara (Sanskrit: हर, lit. 'The Remover'), is one of the principal deities ",
+      "image": "Bangalore_Shiva.jpg"
+    },
+    "Bengalis": {
+      "title": "Bengalis",
+      "lead": "Bengalis (Bengali: বাঙ্গালী, বাঙালি [baŋgali, baŋali] ), also rendered as endonym Bangalee, are an Indo-Aryan ethnolinguistic group originating from and culturally affiliated with the Bengal region of South Asia. The current population is d",
+      "image": "Boishakhi_celebrations.png"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
     },
     "Indra": {
       "title": "Indra",
@@ -757,6 +802,56 @@
       "lead": "Mithra (Avestan: 𐬨𐬌𐬚𐬭𐬀 Miθra; Old Persian: 𐎷𐎰𐎼 Miθraʰ‍) is an ancient Iranian deity (yazata) of covenants, light, oaths, justice, the Sun, contracts, and friendship. In addition to being the divinity of contracts, Mithra is also a j",
       "image": "Taq-e_Bostan_-_High-relief_of_Ardeshir_II_investiture.jpg"
     },
+    "Dead_Sea_Scrolls": {
+      "title": "Dead Sea Scrolls",
+      "lead": "The Dead Sea Scrolls (DSS), in the narrow sense identical with the Qumran Caves Scrolls, are a set of ancient Jewish manuscripts from the Second Temple period. They were discovered over a period of ten years, between 1946 and 1956, at the Q",
+      "image": ""
+    },
+    "Warring_States_period": {
+      "title": "Warring States period",
+      "lead": "The Warring States period in Chinese history (c. 475 – 221 BC) comprises the final centuries of the Zhou dynasty (c. 1046 – 256 BC), which were characterized by warfare, bureaucratic and military reform, and political consolidation. It foll",
+      "image": "EN-WarringStatesAll260BCE.jpg"
+    },
+    "Brahmin": {
+      "title": "Brahmin",
+      "lead": "Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu society. The other three varnas are the Kshatriya (rulers and warriors), Vaishya (traders, merchants, and farmers), and Shudra (laboure",
+      "image": "Image_taken_from_page_40_of_'The_Land_of_Temples_(India)'_(11151912296).jpg"
+    },
+    "Iliad": {
+      "title": "Iliad",
+      "lead": "The Iliad ( ; Ancient Greek: Ἰλιάς, romanized: Iliás, [iːli'as]; lit. '[a poem] about Ilion (Troy)') is one of two major ancient Greek epic poems attributed to Homer. It is one of the oldest extant works of literature still widely read by m",
+      "image": "Detail._Wooden_board_inscribed_in_ink_with_lines_468-473,_Book_I_of_Homer's_Iliad._Roman_Egypt._On_display_at_the_British_Museum.jpg"
+    },
+    "Odyssey": {
+      "title": "Odyssey",
+      "lead": "The Odyssey (; Ancient Greek: Ὀδύσσεια, romanized: Odýsseia) is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like th",
+      "image": "Fragment_Odyssee_2245_2.jpg"
+    },
+    "Quran": {
+      "title": "Quran",
+      "lead": "The Quran (Arabic: الْقُرْآن, lit. 'the recitation' or 'the lecture'), also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a revelation directly from God (Allāh). It is organized in 114 chapters",
+      "image": "Birmingham_Quran_manuscript_full.jpg"
+    },
+    "Hinduism": {
+      "title": "Hinduism",
+      "lead": "Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that are unified by adherence to the concept of dharma, a cosmic order maintained by its followers through rituals and righteous living, ",
+      "image": ""
+    },
+    "Homer": {
+      "title": "Homer",
+      "lead": "Homer (; Ancient Greek: Ὅμηρος [hómɛːros], Hómēros; possibly born c. the 8th century BC) was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey, two epic poems that are foundational works of ancient Gree",
+      "image": "Homer_British_Museum.jpg"
+    },
+    "Gujarati_language": {
+      "title": "Gujarati language",
+      "lead": "Gujarati is an Indo-Aryan language native to the Indian state of Gujarat and spoken predominantly by the Gujarati people. Gujarati is descended from Old Gujarati (c. 1100–1500 CE). In India, it is one of the 22 scheduled languages of the Un",
+      "image": "Gujarati_language_map.svg"
+    },
+    "Punjabi_language": {
+      "title": "Punjabi language",
+      "lead": "Punjabi, sometimes spelled Panjabi, is an Indo-Aryan language native to the Punjab region of Pakistan and India. It is one of the most widely spoken native languages in the world, with approximately 150 million native speakers. Punjabi is t",
+      "image": "Punjabi_example.svg"
+    },
     "Ganges-Yamuna_Doab": {
       "title": "Doab",
       "lead": "Doab (English: ) is a term used in South Asia for the tract of land lying between two confluent rivers. It is similar to an interfluve. In the Oxford Hindi-English Dictionary, R. S. McGregor refers to its Persian origin in defining it as do",
@@ -797,11 +892,6 @@
       "lead": "In mathematics, the Pythagorean theorem or Pythagoras's theorem is a fundamental relation in Euclidean geometry between the three sides of a right triangle. It states that the area of the square whose side is the hypotenuse (the side opposi",
       "image": "Pythagorean.svg"
     },
-    "Brahmin": {
-      "title": "Brahmin",
-      "lead": "Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu society. The other three varnas are the Kshatriya (rulers and warriors), Vaishya (traders, merchants, and farmers), and Shudra (laboure",
-      "image": "Image_taken_from_page_40_of_'The_Land_of_Temples_(India)'_(11151912296).jpg"
-    },
     "Puru_(Vedic_tribe)": {
       "title": "Puru (Vedic tribe)",
       "lead": "The Purus were an Indo-Aryan tribal alliance or a confederation of tribes that existed between 1700 and 1400 BCE. There were several factions of Purus, one being the Bharatas. The Purus and the Bharatas were the two most prominent tribes in",
@@ -814,7 +904,7 @@
     },
     "Uttar_Pradesh": {
       "title": "Uttar Pradesh",
-      "lead": "Uttar Pradesh (UTT-ər prə-DESH, abbr. UP; Hindi: Uttar Pradēś, pronounced [ˈʊt̪ːəɾ pɾə.ˈdeːɕ] , lit. 'Northern Province') is a state in northern India. With over 241 million inhabitants, it is the most populated state not just in India but ",
+      "lead": "Uttar Pradesh (UTT-ər prə-DESH, abbr. UP; Hindi: Uttar Pradēś, pronounced [ˈʊt̪ːəɾ pɾə.ˈdeːɕ] , lit. 'Northern Province') is a state in northern India. With over 241 million inhabitants, it is India's most populated state. The state is bord",
       "image": "Taj_Mahal_(Edited).jpeg"
     },
     "Puranas": {
@@ -832,10 +922,20 @@
       "lead": "The Painted Grey Ware culture (PGW) is an Iron Age Indo-Aryan culture of the western Gangetic plain and the Ghaggar-Hakra valley in the Indian subcontinent, conventionally dated c.1200 to 600–500 BCE, or from 1300 to 500–300 BCE. It is a su",
       "image": "Painted_Grey_Ware_Culture_(1200-600_BCE).png"
     },
-    "Purusha_sukta": {
-      "title": "Purusha Sukta",
-      "lead": "Purusha Sukta (पुरुषसूक्तम्, IAST: Puruṣasūktam) is a hymn in the Rigveda (X.90), dedicated to the Purusha, the \"Cosmic Being\". It is considered to have been a relatively late addition to the scripture — probably, to accord theological sanc",
-      "image": "The_Rig_Veda.jpg"
+    "Bay_of_Bengal": {
+      "title": "Bay of Bengal",
+      "lead": "The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and the Indochinese peninsula, south of the Bengal region. Spread across an area of 2,600,000 km2 (1,000,000 sq mi), it is bordered b",
+      "image": "Bay_of_Bengal_map.png"
+    },
+    "Himalayas": {
+      "title": "Himalayas",
+      "lead": "The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has some of the Earth's highest peaks, including the highest, Mount Everest. More than 100 peaks ex",
+      "image": "Himalayas_and_allied_ranges_NASA_Landsat_showing_the_eight_thousanders,_annotated_with_major_rivers.jpg"
+    },
+    "Pythagoras": {
+      "title": "Pythagoras",
+      "lead": "Pythagoras of Samos (Ancient Greek: Πυθαγόρας; c. 570 – c. 495 BC) was an ancient Ionian Greek philosopher, polymath, and the eponymous founder of Pythagoreanism. His political and religious teachings were well known in Magna Graecia and in",
+      "image": "Pythagoras_in_the_Roman_Forum,_Colosseum.jpg"
     },
     "Kshatriya": {
       "title": "Kshatriya",
@@ -851,6 +951,16 @@
       "title": "Shudra",
       "lead": "Shudra or Shoodra (Sanskrit: Śūdra) is one of the four varnas of the Hindu class and social system in ancient India. Some sources translate it into English as a caste, or as a social class. Theoretically, Shudras constituted a class like wo",
       "image": ""
+    },
+    "Bharatas": {
+      "title": "Bharatas (Vedic tribe)",
+      "lead": "The Bharatas were an early Vedic tribe that existed in the latter half of the second millennium B.C.E. The earliest mentioned location of the Bharatas was on the Sarasvatī River. Led by the tribal king Divodāsa, the Bharatas moved through t",
+      "image": ""
+    },
+    "Purusha_sukta": {
+      "title": "Purusha Sukta",
+      "lead": "Purusha Sukta (पुरुषसूक्तम्, IAST: Puruṣasūktam) is a hymn in the Rigveda (X.90), dedicated to the Purusha, the \"Cosmic Being\". It is considered to have been a relatively late addition to the scripture — probably, to accord theological sanc",
+      "image": "The_Rig_Veda.jpg"
     },
     "Dalit": {
       "title": "Dalit",
@@ -891,6 +1001,11 @@
       "title": "Constitution of India",
       "lead": "The Constitution of India is the supreme legal document of India, and the longest written national constitution in the world. The document lays down the framework that demarcates fundamental political code, structure, procedures, powers, an",
       "image": "Constitution_of_India.jpg"
+    },
+    "Jainism": {
+      "title": "Jainism",
+      "lead": "Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward spiritual purity and enlightenment through disciplined nonviolence (ahimsa) to all living creatures. The tradition is spiritually",
+      "image": ""
     },
     "Brihadaranyaka_Upanishad": {
       "title": "Brihadaranyaka Upanishad",
@@ -937,11 +1052,6 @@
       "lead": "The Mahāvākyas (sing.: mahāvākyam, महावाक्यम्; plural: mahāvākyāni, महावाक्यानि) are the 'Great Sayings' of the Upanishads, with mahā meaning 'great' and vākya ''sentence'. The Mahāvākyas are traditionally considered to be four in number, t",
       "image": "The_Poetic_Form_of_the_Mahavakyas.png"
     },
-    "Janaka": {
-      "title": "Janaka",
-      "lead": "Janaka (Sanskrit: जनक, IAST: Janaka) was the King of Videha, who ruled from its capital, Mithila, in the Hindu itihasa Ramayana. Janaka was married to Sunayana. He is the father of Sita and Urmila in the epic. The term Janaka was also the t",
-      "image": "Janaka,_king_of_Mithila_and_father_of_Sita_(cropped).jpg"
-    },
     "Vedanta": {
       "title": "Vedanta",
       "lead": "Vedanta (; Sanskrit: वेदान्त, IAST: Vedānta [ʋeːdɑ́ːntɐ]), also known as Uttara Mīmāṃsā, is one of the six orthodox (āstika) schools of Hindu philosophy and textual exegesis. The word Vedanta means 'conclusion of the Vedas,' and encompasses",
@@ -987,9 +1097,19 @@
       "lead": "Anaximander ( an-AK-sih-MAN-dər; Ancient Greek: Ἀναξίμανδρος Anaximandros; c. 610 – c. 546 BC) was a pre-Socratic Greek philosopher who lived in Miletus, a city of Ionia (in modern-day Turkey). He belonged to the Milesian school and learned",
       "image": "Pietro_Bellotti_(attr)_Anaximander.jpg"
     },
+    "Śvetaketu": {
+      "title": "Śvetaketu",
+      "lead": "Svetaketu (IAST: Śvetaketu), also spelt Shvetaketu, was a sage mentioned in the Chandogya Upanishad. He was the son of the sage Uddalaka, and represents the pursuit of knowledge. In the Mahabharata, Svetaketu is credited for creating the pr",
+      "image": ""
+    },
+    "Prophets_in_Judaism": {
+      "title": "Prophets in Judaism",
+      "lead": "The Talmud names 55 prophets (48 male and 7 female) of Judaism and Israel (Hebrew: נְבִיאִים Nəvīʾīm, Tiberian: Năḇīʾīm, \"Prophets\", literally \"spokesmen\"). Some texts suggest a large number of lost prophets, or name up to seven prophets ou",
+      "image": ""
+    },
     "Shravasti": {
       "title": "Shravasti",
-      "lead": "Shravasti (Sanskrit: श्रावस्ती, IAST: Śrāvastī; Pali: 𑀲𑀸𑀯𑀢𑁆𑀣𑀻, romanized: Sāvatthī) is a town in Shravasti district in Indian state of Uttar Pradesh. It was the capital of the ancient Indian kingdom of Kosala where the Buddha lived m",
+      "lead": "Shravasti (Sanskrit: श्रावस्ती, IAST: Śrāvastī; Pali: 𑀲𑀸𑀯𑀢𑁆𑀣𑀻, romanized: Sāvatthī) is a town in Shravasti district in Indian state of Uttar Pradesh. It was the capital of the ancient Indian kingdom of Kosala, where the Buddha lived ",
       "image": "Shobhnath_temple_(5703067291)_(cropped).jpg"
     },
     "Dakshinapatha": {
@@ -1087,10 +1207,100 @@
       "lead": "Valmiki (; Sanskrit: वाल्मीकि, romanized: Vālmīki, lit. 'from an anthill', [ʋɑːlmiːki]) was a legendary poet and Hindu maharishi (sage) who is celebrated as the traditional author of the smriti epic Ramayana, one of Hinduism's two Itihasas,",
       "image": "Valmiki_Ramayana.jpg"
     },
+    "Mohenjo-daro": {
+      "title": "Mohenjo-daro",
+      "lead": "Mohenjo-daro (; Sindhi: موهن جو دڙو‎, lit. 'Mound of the Dead Men'; Urdu: موئن جو دڑو [muˑənⁱ dʑoˑ d̪əɽoˑ]) is an archaeological site in the Larkana District of Sindh, Pakistan. Built c. 2500 BCE, it was one of the largest settlements of th",
+      "image": "Mohenjodaro_-_view_of_the_stupa_mound.JPG"
+    },
+    "Harappa": {
+      "title": "Harappa",
+      "lead": "Harappa (Punjabi pronunciation: [ɦəɽəˈpaː]) is an archaeological site in Punjab, Pakistan, about 24 kilometres (15 miles) west of Sahiwal, that takes its name from a modern village near the former course of the Ravi River. The Ravi now runs",
+      "image": "View_of_Granary_and_Great_Hall_on_Mound_F_-_Archaeological_site_of_Harappa.jpg"
+    },
+    "Dholavira": {
+      "title": "Dholavira",
+      "lead": "Dholavira (Gujarati: ધોળાવીરા) is an archaeological site at Khadirbet in Bhachau Taluka of Kutch District, in the state of Gujarat in western India, which has taken its name from a modern-day village 1 kilometre (0.62 mi) south of it. This ",
+      "image": "DHOLAVIRA_SITE_(24).jpg"
+    },
+    "Champa": {
+      "title": "Champa",
+      "lead": "Champa were a collection of independent Cham polities that extended across the coast of what is present-day central and southern Vietnam from approximately the 2nd century CE until 1832. According to earliest historical references found in ",
+      "image": "Linyi_and_Chamic_states_of_the_fifth_century_AD.png"
+    },
+    "Babylon": {
+      "title": "Babylon",
+      "lead": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and p",
+      "image": "Ishtar_Gate.jpg"
+    },
+    "Greek_Dark_Ages": {
+      "title": "Greek Dark Ages",
+      "lead": "The Greek Dark Ages (c. 1180–800 BC) was a period in Ancient Greece characterized by societal collapse of civilization, where the palaces and cities of the Mycenaeans were either destroyed, abandoned, or both. At around the same time, the H",
+      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
+    },
+    "Peshawar": {
+      "title": "Peshawar",
+      "lead": "Peshawar is the capital and largest city of the Pakistani province of Khyber Pakhtunkhwa. It is the eighth-most populous Pakistani city, with a population of over 1.9 million. It is located in the north-west of the country, lying in the Val",
+      "image": "Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan_cropped.jpg"
+    },
+    "Deccan_Plateau": {
+      "title": "Deccan Plateau",
+      "lead": "The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (163,000 sq mi) on the southern part of the Indian subcontinent. The plateau forms the bulk of the Deccan Peninsula, and stretches fr",
+      "image": "Deccan,_India.png"
+    },
+    "Croesus": {
+      "title": "Croesus",
+      "lead": "Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 or 561 BC to 547 BC. He was renowned for his great wealth, as well as his ultimate defeat by the Persian king Cyrus the Great following the ",
+      "image": "Croesus_portrait.jpg"
+    },
+    "Greeks": {
+      "title": "Greeks",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, Southern Italy (Greeks in Italy), parts of Egypt, and to a lesser extent, other countries surrou",
+      "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "Anathapindika": {
+      "title": "Anathapindika",
+      "lead": "Anathapindika (Pali: Anāthapiṇḍika; Sanskrit: Anāthapiṇḍada), born Sudatta, was a wealthy merchant, banker, and philanthropist, believed to have been the wealthiest merchant in Savatthi in the time of Gautama Buddha. He is considered to hav",
+      "image": "Jetvan_bharhut.JPG"
+    },
+    "Jetavana": {
+      "title": "Jetavana",
+      "lead": "Jetavana (lit. 'Jeta's grove') was one of the most famous of the vihāras (Buddhist monasteries) in what is now Uttar Pradesh, India. It was the second vihāra donated to the Buddha after the Venuvana in Rajgir. The monastery was given to him",
+      "image": "Mulagandhakuti.jpg"
+    },
+    "Xerxes_I": {
+      "title": "Xerxes I",
+      "lead": "Xerxes I ( ZURK-seez; from Old Iranian Khshayarsha, commonly known as Xerxes the Great; c. 518 BC – 465 BC) was a Persian ruler who reigned as the fourth King of Kings of the Achaemenid Empire, reigning from 486 BC until his assassination i",
+      "image": "National_Museum_of_Iran_Darafsh_(785).JPG"
+    },
+    "Aryabhata": {
+      "title": "Aryabhata",
+      "lead": "Aryabhata (Sanskrit: आर्यभट, IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathematician-astronomers from the classical age of Indian mathematics and Indian astronomy. His works include the Āryabhaṭīya (which menti",
+      "image": "Aryabhatta_of_Bihar.jpg"
+    },
+    "Ravana": {
+      "title": "Ravana",
+      "lead": "Ravana (Sanskrit: रावण, romanized: Rāvaṇa, lit. 'roaring') is the principal antagonist of the ancient Hindu epic Ramayana and its several other versions. He is traditionally depicted as a ten-headed rakshasa (demon) king of Lanka (present-d",
+      "image": "Ravana.jpg"
+    },
+    "Arjuna": {
+      "title": "Arjuna",
+      "lead": "Arjuna (Sanskrit: अर्जुन, IAST: Arjuna) is one of the central characters of the ancient Hindu epic Mahabharata. He is the third oldest of the five Pandava brothers and is widely recognised as the most distinguished among them. He is the son",
+      "image": "Arjuna_statue.JPG"
+    },
+    "Krishna": {
+      "title": "Krishna",
+      "lead": "Krishna (; Sanskrit: कृष्ण, IAST: Kṛṣṇa Sanskrit: [ˈkr̩ʂɳɐ] ) is a major deity in Hinduism. He is worshipped as the eighth avatar of Vishnu and also as the Supreme God in his own right. He is the God of Love and widely revered for his divin",
+      "image": "Krishna_Holds_Up_Mount_Govardhan_(MET_70694)_cropped.png"
+    },
     "Shakya": {
       "title": "Shakya",
       "lead": "Shakya (Pāḷi: Sakya; Sanskrit: Śākya) was an ancient Indo-Aryan tribe of north-eastern South Asia whose existence is attested during the Iron Age. The Shakyas were organised into a gaṇasaṅgha (an aristocratic oligarchic republic), known as ",
       "image": "Gana_Sanghas_(c._500_BCE).jpg"
+    },
+    "Hindus": {
+      "title": "Hindus",
+      "lead": "Hindus (Hindustani: [ˈɦɪndu] ; ), also known as Sanatanis, are people who religiously adhere to Hinduism, also known by its endonym Sanatana Dharma. Historically, the term has also been used as a geographical, cultural, and later religious ",
+      "image": "Puran_Reading_in_a_Temple.jpg"
     },
     "Lumbini": {
       "title": "Lumbini",
@@ -1131,16 +1341,6 @@
       "title": "Vinaya",
       "lead": "The Vinaya (Pali and Sanskrit: विनय) refers to numerous monastic rules and ethical precepts for fully ordained monks and nuns of Buddhist Sanghas (community of like-minded sramanas). These sets of ethical rules and guidelines developed over",
       "image": "Buddhist_Ordination_Ceremony.jpg"
-    },
-    "Anathapindika": {
-      "title": "Anathapindika",
-      "lead": "Anathapindika (Pali: Anāthapiṇḍika; Sanskrit: Anāthapiṇḍada), born Sudatta, was a wealthy merchant, banker, and philanthropist, believed to have been the wealthiest merchant in Savatthi in the time of Gautama Buddha. He is considered to hav",
-      "image": "Jetvan_bharhut.JPG"
-    },
-    "Jetavana": {
-      "title": "Jetavana",
-      "lead": "Jetavana (lit. 'Jeta's grove') was one of the most famous of the vihāras (Buddhist monasteries) in what is now Uttar Pradesh, India. It was the second vihāra donated to the Buddha after the Venuvana in Rajgir. The monastery was given to him",
-      "image": "Mulagandhakuti.jpg"
     },
     "Ānanda": {
       "title": "Ānanda",
@@ -1197,6 +1397,16 @@
       "lead": "Kushinagar (Pali: Kusinārā; Sanskrit: Kuśinagara) is a town in the Kushinagar district in Uttar Pradesh, India. Kushinagar is a Buddhist pilgrimage site where Gautama Buddha attained parinirvana.",
       "image": "Kushinara1.jpg"
     },
+    "The_Buddha": {
+      "title": "The Buddha",
+      "lead": "Siddhartha Gautama, most commonly referred to as the Buddha (lit. 'the awakened one'), was a wandering ascetic and religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. Accor",
+      "image": "Buddha_in_Sarnath_Museum_(Dhammajak_Mutra).jpg"
+    },
+    "Vajjika_League": {
+      "title": "Vajjika League",
+      "lead": "The Vajjika (Pāli: Vajjika) or Vrijika (IAST: Vṛjika) League, Confederacy, or Sangha, also called simply Vajji (Pāli: Vajji) or Vriji (IAST: Vṛji), was an ancient Indo-Aryan tribal league which existed during the later Iron Age period in no",
+      "image": "Gana_Sanghas_(c._500_BCE).jpg"
+    },
     "Shishunaga_dynasty": {
       "title": "Shaishunaga dynasty",
       "lead": "The Shaishunaga dynasty (IAST: Śaiśunāga, literally \"of Shishunaga\") was possibly the second ruling dynasty of Magadha. According to the Buddhist text Mahavamsa, this dynasty was the second ruling dynasty of Magadha, succeeding Nagadashaka ",
@@ -1206,11 +1416,6 @@
       "title": "Mahapadma Nanda",
       "lead": "Mahapadma Nanda (Sanskrit: महापद्मानन्द; IAST: mahāpadmānanda, c. mid 4th century BCE), according to the Puranas, was the first Nanda king of Magadha. The Puranas describe him as a son of the last Shaishunaga king Mahanandin and a Shudra wo",
       "image": "I12_1karshapana_Maghada_1ar_(8482307176).jpg"
-    },
-    "Alexander_the_Great": {
-      "title": "Alexander the Great",
-      "lead": "Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323 BC), most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip",
-      "image": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg"
     },
     "Porus": {
       "title": "Porus",
@@ -1252,11 +1457,6 @@
       "lead": "Gymnosophists (Ancient Greek: γυμνοσοφισταί, gymnosophistaí, i.e. \"naked philosophers\" or \"naked wise men\" (from Greek γυμνός gymnós \"naked\" and σοφία sophía \"wisdom\")) were ancient Indian philosophers who pursued asceticism to the point of",
       "image": "Taynush_before_Iskandar_and_the_Visit_to_the_Brahmans.jpg"
     },
-    "Aṣṭādhyāyī": {
-      "title": "Aṣṭādhyāyī",
-      "lead": "The Aṣṭādhyāyī (; Sanskrit: अष्टाध्यायी [ɐʂʈaːdʱjáːjiː]) is a grammar text that describes a form of the Sanskrit language. Attributed to Pāṇini, the composition of the work is dated to somewhere between the 6th and 4th c. BCE. It describes ",
-      "image": ""
-    },
     "Noam_Chomsky": {
       "title": "Noam Chomsky",
       "lead": "Avram Noam Chomsky (born December 7, 1928) is an American intellectual, philosopher, linguist, political activist, and social critic. Sometimes called \"the father of modern linguistics\", Chomsky is also a major figure in analytic philosophy",
@@ -1266,6 +1466,81 @@
       "title": "Manusmriti",
       "lead": "The Manusmṛti (Sanskrit: मनुस्मृति), also known as the Mānava-Dharmaśāstra or the Laws of Manu, is one of the many legal texts and constitutions among the many Dharmaśāstras of Hinduism. Over fifty manuscripts of the Manusmriti are now know",
       "image": ""
+    },
+    "Hannibal": {
+      "title": "Hannibal",
+      "lead": "Hannibal (; Punic: 𐤇𐤍𐤁𐤏𐤋; 247 – between 183 and 181 BC) also referred to as Hannibal the Great was a Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second P",
+      "image": "Hannibal_Barca_bust_from_Capua_photo.jpg"
+    },
+    "Alps": {
+      "title": "Alps",
+      "lead": "The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,200 km (750 mi) across several Alpine countries (from west to east): Monaco, France, Switzerland, Italy, Liechtenstein, Germany, Au",
+      "image": "Alps_2007-03-13_10.10UTC_1px-250m.jpg"
+    },
+    "Macedonia_(ancient_kingdom)": {
+      "title": "Macedonia (ancient kingdom)",
+      "lead": "Macedonia ( MASS-ih-DOH-nee-ə; Greek: Μακεδονία, Makedonía), also called Macedon ( MASS-ih-don), was an ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece. The kingd",
+      "image": "Map_Macedonia_336_BC-en.svg"
+    },
+    "Alexandria_Hyphasis": {
+      "title": "Alexandria Hyphasis",
+      "lead": "Alexandria (on the) Hyphasis was the name of the fortress on the west bank of the Hyphasis (Beas) river at which Alexander the Great stopped on 31 Aug 326 BCE in the course of his Indian campaign. It was on the eastern border of Alexander's",
+      "image": ""
+    },
+    "Dharmachakra": {
+      "title": "Dharmachakra",
+      "lead": "The dharmachakra (Sanskrit: धर्मचक्र, Pali: dhammacakka) or wheel of dharma is a symbol used in the Dharmic religions. It has a widespread use in Buddhism. In Hinduism, the symbol is particularly used in places that underwent religious tran",
+      "image": "Ashoka_Chakra_Y.svg"
+    },
+    "Seleucid_Empire": {
+      "title": "Seleucid Empire",
+      "lead": "The Seleucid Empire ( sih-LEW-sid) was a Greek state in West Asia during the Hellenistic period. It was founded in 312 BC by the Macedonian general Seleucus I Nicator, following the division of the Macedonian Empire founded by Alexander the",
+      "image": "201209071746a_Berlin_Pergamonmuseum,_Tetradrachme_Seleukos'_I,_Silber,_Pergamon,_281-280_v.u.Z.jpg"
+    },
+    "Indica_(Megasthenes)": {
+      "title": "Indica (Megasthenes)",
+      "lead": "Indika (Greek: Ἰνδικά; Latin: Indica) is an account of Mauryan India by the Greek writer Megasthenes (died c. 290 BCE). The original work is now lost, but its fragments have survived in later Greek and Latin works. The earliest of these wor",
+      "image": ""
+    },
+    "Confucianism": {
+      "title": "Confucianism",
+      "lead": "Confucianism, also known as Ruism or Ru classicism, is a system of thought and behavior originating in ancient China, and is variously described as a tradition, philosophy, religion, theory of government, or way of life. Founded by Confuciu",
+      "image": "木鐸_---_Confucian_wooden-clapper_bell.svg"
+    },
+    "Taoism": {
+      "title": "Taoism",
+      "lead": "Taoism or Daoism ( , ) is a philosophical and religious tradition indigenous to China, emphasizing harmony with the Tao 道. With a range of meaning in Chinese philosophy, translations of Tao include 'way', 'road', 'path', or 'technique', gen",
+      "image": "武当山紫霄宫_(14739990839).jpg"
+    },
+    "Classical_Chinese": {
+      "title": "Classical Chinese",
+      "lead": "Classical Chinese is the style of Chinese language in which the classics of Chinese literature were written, from c. the 5th century BCE. For millennia thereafter, the syntax of written Chinese used in these works was imitated and iterated ",
+      "image": ""
+    },
+    "Mahatma_Gandhi": {
+      "title": "Mahatma Gandhi",
+      "lead": "Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence fro",
+      "image": "Mahatma-Gandhi,_studio,_1931.jpg"
+    },
+    "Dharma%C5%9B%C4%81stra": {
+      "title": "Dharmaśāstra",
+      "lead": "Dharmaśāstra (Sanskrit: धर्मशास्त्र) are Sanskrit Puranic Smriti texts on law and conduct, and refer to treatises (śāstras) on Dharma. Like the Dharmasūtras which are based upon the Vedas, these texts are also elaborate law commentaries bas",
+      "image": ""
+    },
+    "Twelve_Tables": {
+      "title": "Twelve Tables",
+      "lead": "The Twelve Tables (Latin: Lex Duodecim Tabularum) was the legislation that stood at the foundation of Roman law. Formally promulgated in 449 BC, the Tables consolidated earlier traditions into an enduring set of laws. In the Forum, \"The Twe",
+      "image": "Roman_SPQR_banner.svg"
+    },
+    "Buddhism_and_Jainism": {
+      "title": "Buddhism and Jainism",
+      "lead": "Buddhism and Jainism are Eastern religions that developed in the Indian subcontinent. The Buddha and the 24th Jain Tirthankar, Mahavira are generally accepted as near contemporaries. Jainism and Buddhism share many features, terminology, an",
+      "image": "Great_Buddha_Statue,_Bodh_Gaya.jpg"
+    },
+    "Southeast_Asia": {
+      "title": "Southeast Asia",
+      "lead": "Southeast Asia is the geographical southeastern region of Asia, consisting of the regions that are situated south of China, east of the Indian subcontinent, and northwest of mainland Australia, which is part of Oceania. Southeast Asia is bo",
+      "image": "Southeast_Asia_(orthographic_projection).svg"
     }
   }
 }

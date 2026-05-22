@@ -1,0 +1,258 @@
+# link-suggest — vedic-period
+
+{"REUSE":120,"LINK-CANDIDATE":43,"SKIP":28,"CROSS":43,"NO-PAGE":3}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Bronze Age** → REUSE `Bronze_Age` [high] — _Bronze Age_: The Bronze Age is an archaeological and anthropological term defining a phase in the development of material c  (linked in 15 civ(s) (e.g. ancient-china) ×38)
+- *** Afghan** → `Afghanistan` [high] — _Afghanistan_: Afghanistan, officially the Islamic Emirate of Afghanistan, is a landlocked country located at the crossroads of Central
+- Gujarat → SKIP (modern locator, cat A)
+- **Harappan** → REUSE `Indus_Valley_Civilisation` [high] — _Indus Valley Civilisation_: The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in th  (linked in 1 civ(s) (e.g. shang-dynasty) ×1)
+- **Harappans** → REUSE `Indus_Valley_Civilisation` [CONFIRM-homonym] — _Indus Valley Civilisation_: The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in th  (linked in 2 civ(s) (e.g. kingdom-of-kush) ×3 — ⚠ AMBIGUOUS: also Indus_Valley_civilisation(ancient-nubia))
+- *** Hindi** → `Hindi` [high] — _Hindi_: Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an 
+- **Urdu** → REUSE `Urdu` [high] — _Urdu_: Urdu (اُرْدُو, urdū, [ˈʊɾduː] ) is an Indo-Aryan language spoken primarily in South Asia. It is the national l  (linked in 3 civ(s) (e.g. delhi-sultanate) ×6)
+- Pakistan → SKIP (modern locator, cat A)
+- Central Asia → SKIP (modern locator, cat A)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+- **Ukraine** → REUSE `Ukraine` [high] — _Ukraine_: Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders  (linked in 11 civ(s) (e.g. early-medieval-europe) ×43)
+- Kazakhstan → SKIP (modern locator, cat A)
+- **Black Sea** → REUSE `Black_Sea` [high] — _Black Sea_: The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European  (linked in 19 civ(s) (e.g. byzantine-empire) ×76)
+- **Caspian Sea** → REUSE `Caspian_Sea` [high] — _Caspian Sea_: The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually  (linked in 9 civ(s) (e.g. gokturk-khaganate) ×31)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×25)
+- **Germanic** → CROSS → `germanic-tribes`  (cross-linked elsewhere ×11)
+- *** Slavic** → `Slavic_languages` [high] — _Slavic languages_: The Slavic languages, also known as the Slavonic languages, are Indo-European languages spoken primarily by the Slavic p
+- **Anatolia** → REUSE `Anatolia` [high] — _Anatolia_: Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority   (linked in 29 civ(s) (e.g. ancient-korea) ×151)
+- **Zoroastrian** → REUSE `Zoroastrianism` [high] — _Zoroastrianism_: Zoroastrianism, also called Mazdayasna and Behdin, is an Iranian religion centred on the Avesta and the teachi  (linked in 9 civ(s) (e.g. byzantine-empire) ×28)
+- **Rigveda** → REUSE `Rigveda` [high] — _Rigveda_: The Rigveda or Rig Veda (Sanskrit: ऋग्वेद, IAST: ṛgvedá, from ऋच्, "praise" and वेद, "knowledge") is an ancien  (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Mature Harappan** → REUSE `Indus_Valley_Civilisation` [high] — _Indus Valley Civilisation_: The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in th  (linked in 1 civ(s) (e.g. indus-valley) ×4)
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- **Telugu** → REUSE `Telugu_language` [high] — _Telugu language_: Telugu ( ; తెలుగు, Telugu pronunciation: [ˈt̪eluɡu]) is a Dravidian language native to the Indian states of An  (linked in 3 civ(s) (e.g. delhi-sultanate) ×4)
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 9 civ(s) (e.g. delhi-sultanate) ×30)
+- **gomat** → `Ashapura_Gomat_railway_station` [high] — _Ashapura Gomat railway station_: Ashapura Gomat railway station is a railway station in Jaisalmer district, Rajasthan. Its code is AQG. It serves Gomat. 
+- **aghnya** → `Vedic_period` [low] — _Vedic period_: The Vedic period, or the Vedic age (c. 1500 – c. 500 BCE), is the period in the late Bronze Age and early Iron Age of th
+
+## Chapter 2
+- **Indo-Aryans** → CROSS → `indus-valley`  (cross-linked elsewhere ×1)
+- **Classical Sanskrit** → `Sanskrit` [high] — _Sanskrit_: Sanskrit (; stem form संस्कृत; nominal singular संस्कृतम्, saṃskṛtam,) is a classical language belonging to the Indo-Ary
+- **Panini** → REUSE `Pāṇini` [high] — _Pāṇini_: Panini (Sanskrit: पाणिनि, pāṇini) was a Sanskrit grammarian, logician, philologist, and revered scholar of Anc  (linked in 2 civ(s) (e.g. gupta-empire) ×3)
+- **Dead Sea Scrolls** → REUSE `Dead_Sea_Scrolls` [high] — _Dead Sea Scrolls_: The Dead Sea Scrolls (DSS), in the narrow sense identical with the Qumran Caves Scrolls, are a set of ancient   (linked in 2 civ(s) (e.g. assyrian-empire) ×4)
+- **Warring States** → REUSE `Warring_States_period` [high] — _Warring States period_: The Warring States period in Chinese history (c. 475 – 221 BC) comprises the final centuries of the Zhou dynas  (linked in 6 civ(s) (e.g. han-dynasty) ×12)
+- **Vedas** → REUSE `Vedas` [high] — _Vedas_: The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda,   (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 7 civ(s) (e.g. gupta-empire) ×28)
+- **Bronze Age** → REUSE `Bronze_Age` [high] — _Bronze Age_: The Bronze Age is an archaeological and anthropological term defining a phase in the development of material c  (linked in 15 civ(s) (e.g. ancient-china) ×38)
+- **Iliad** → REUSE `Iliad` [CONFIRM-homonym] — _Iliad_: The Iliad ( ; Ancient Greek: Ἰλιάς, romanized: Iliás, [iːli'as]; lit. '[a poem] about Ilion (Troy)') is one of  (linked in 5 civ(s) (e.g. heian-japan) ×18 — ⚠ AMBIGUOUS: also Odyssey(ancient-greece))
+- **Odyssey** → REUSE `Odyssey` [high] — _Odyssey_: The Odyssey (; Ancient Greek: Ὀδύσσεια, romanized: Odýsseia) is one of two major epics of ancient Greek litera  (linked in 4 civ(s) (e.g. ancient-greece) ×9)
+- **Rigvedic** → `Rigvedic_deities` [high] — _Rigvedic deities_: Rigvedic deities are deities mentioned in the sacred texts of Rigveda, the principal text of the historical Vedic religi
+- **Quran** → REUSE `Quran` [high] — _Quran_: The Quran (Arabic: الْقُرْآن, lit. 'the recitation' or 'the lecture'), also romanized Qur'an or Koran, is the   (linked in 9 civ(s) (e.g. al-andalus) ×38)
+- **Indo-Aryan** → REUSE `Indo-Aryan_peoples` [high] — _Indo-Aryan peoples_: Indo-Aryan peoples (also known as Indic peoples in the context of Indo-European studies) are a diverse collect  (linked in 1 civ(s) (e.g. indus-valley) ×2)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 8 civ(s) (e.g. delhi-sultanate) ×23)
+- **Indo-European** → REUSE `Indo-European_languages` [high] — _Indo-European languages_: The Indo-European languages are a language family native to the northern Indian subcontinent, most of Europe,   (linked in 13 civ(s) (e.g. celtic-cultures) ×22)
+- **Zoroastrianism** → REUSE `Zoroastrianism` [high] — _Zoroastrianism_: Zoroastrianism, also called Mazdayasna and Behdin, is an Iranian religion centred on the Avesta and the teachi  (linked in 8 civ(s) (e.g. byzantine-empire) ×20)
+- Central Asia → SKIP (modern locator, cat A)
+- **Zoroastrian** → REUSE `Zoroastrianism` [high] — _Zoroastrianism_: Zoroastrianism, also called Mazdayasna and Behdin, is an Iranian religion centred on the Avesta and the teachi  (linked in 9 civ(s) (e.g. byzantine-empire) ×28)
+- Punjab → SKIP (modern locator, cat A)
+- **Hittite** → CROSS → `hittite-empire`  (cross-linked elsewhere ×2)
+- **Homer** → REUSE `Homer` [high] — _Homer_: Homer (; Ancient Greek: Ὅμηρος [hómɛːros], Hómēros; possibly born c. the 8th century BC) was an ancient Greek   (linked in 5 civ(s) (e.g. assyrian-empire) ×14)
+- **Bharatavarsha** → NO-PAGE → blurb (top hit "Bharat" is a disambiguation page)
+- **Mahabharata** → CROSS → `vedic-period`  (cross-linked elsewhere ×7)
+- **Harappans** → REUSE `Indus_Valley_Civilisation` [CONFIRM-homonym] — _Indus Valley Civilisation_: The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in th  (linked in 2 civ(s) (e.g. kingdom-of-kush) ×3 — ⚠ AMBIGUOUS: also Indus_Valley_civilisation(ancient-nubia))
+- **Prakrits** → `Prakrit` [high] — _Prakrit_: Prakrit ( PRAH-krit) is a group of vernacular classical Middle Indo-Aryan languages that were used in the Indian subcont
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×25)
+- *** Hindi** → `Hindi` [high] — _Hindi_: Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an 
+- **Gujarati** → REUSE `Gujarati_people` [CONFIRM-homonym] — _Gujarati people_: The Gujarati people, or Gujaratis, are an Indo-Aryan ethnolinguistic group native to the Indian state of Gujar  (linked in 2 civ(s) (e.g. medieval-india) ×3 — ⚠ AMBIGUOUS: also Gujarat(majapahit))
+- *** Punjabi** → `Punjabi_language` [high] — _Punjabi language_: Punjabi, sometimes spelled Panjabi, is an Indo-Aryan language native to the Punjab region of Pakistan and India. It is o
+- Pakistan → SKIP (modern locator, cat A)
+- **Prakrit** → REUSE `Prakrit` [high] — _Prakrit_: Prakrit ( PRAH-krit) is a group of vernacular classical Middle Indo-Aryan languages that were used in the Indi  (linked in 4 civ(s) (e.g. gupta-empire) ×16)
+- **Proto-Indo-European** → REUSE `Proto-Indo-European_language` [high] — _Proto-Indo-European language_: Proto-Indo-European (PIE) is the reconstructed common ancestor of the Indo-European language family. No direct  (linked in 1 civ(s) (e.g. hittite-empire) ×2)
+- *** Delhi** → CROSS → `delhi-sultanate`  (matches a civ id)
+- **Dravidian** → REUSE `Dravidian_languages` [high] — _Dravidian languages_: The Dravidian languages are a family of languages spoken by 250 million people, primarily in South India, part  (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Pada-patha** → `Vedic_chant` [low] — _Vedic chant_: The oral tradition of the Vedas (Śruti) consists of several pathas, "recitations" or ways of chanting the Vedic mantras.
+- **Krama-patha** → `Vedic_chant` [low] — _Vedic chant_: The oral tradition of the Vedas (Śruti) consists of several pathas, "recitations" or ways of chanting the Vedic mantras.
+- **Jata-patha** → `Vedic_chant` [low] — _Vedic chant_: The oral tradition of the Vedas (Śruti) consists of several pathas, "recitations" or ways of chanting the Vedic mantras.
+- **Ghana-patha** → `Vedic_chant` [low] — _Vedic chant_: The oral tradition of the Vedas (Śruti) consists of several pathas, "recitations" or ways of chanting the Vedic mantras.
+
+## Chapter 3
+- Vedic → SKIP (own-name, cat B)
+- **Indo-Aryans** → CROSS → `indus-valley`  (cross-linked elsewhere ×1)
+- Punjab → SKIP (modern locator, cat A)
+- **Himalayas** → REUSE `Himalayas` [high] — _Himalayas_: The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from   (linked in 7 civ(s) (e.g. ancient-china) ×15)
+- **Bay of Bengal** → REUSE `Bay_of_Bengal` [high] — _Bay of Bengal_: The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and  (linked in 6 civ(s) (e.g. gupta-empire) ×27)
+- **Bronze Age** → REUSE `Bronze_Age` [high] — _Bronze Age_: The Bronze Age is an archaeological and anthropological term defining a phase in the development of material c  (linked in 15 civ(s) (e.g. ancient-china) ×38)
+- **Late Vedic** → `Vedic_period` [med] — _Vedic period_: The Vedic period, or the Vedic age (c. 1500 – c. 500 BCE), is the period in the late Bronze Age and early Iron Age of th
+- **Vedas** → REUSE `Vedas` [high] — _Vedas_: The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda,   (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Rigveda** → REUSE `Rigveda` [high] — _Rigveda_: The Rigveda or Rig Veda (Sanskrit: ऋग्वेद, IAST: ṛgvedá, from ऋच्, "praise" and वेद, "knowledge") is an ancien  (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 8 civ(s) (e.g. delhi-sultanate) ×23)
+- **Vedic India** → CROSS → `indus-valley`  (cross-linked elsewhere ×1)
+- **Gupta** → CROSS → `gupta-empire`  (cross-linked elsewhere ×4)
+- **Pythagoras** → REUSE `Pythagoras` [high] — _Pythagoras_: Pythagoras of Samos (Ancient Greek: Πυθαγόρας; c. 570 – c. 495 BC) was an ancient Ionian Greek philosopher, po  (linked in 3 civ(s) (e.g. celtic-cultures) ×6)
+- Kerala → SKIP (modern locator, cat A)
+- **Kshatriyas** → REUSE `Kshatriya` [high] — _Kshatriya_: Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, "rule, authority"; also called Raja  (linked in 1 civ(s) (e.g. indus-valley) ×1)
+- **Vaishyas** → REUSE `Vaishya` [high] — _Vaishya_: Vaishya (Sanskrit: वैश्य, vaiśya) is one of the four varnas of the Vedic Hindu social order in India. Vaishyas  (linked in 1 civ(s) (e.g. indus-valley) ×1)
+- **Shudras** → REUSE `Shudra` [high] — _Shudra_: Shudra or Shoodra (Sanskrit: Śūdra) is one of the four varnas of the Hindu class and social system in ancient   (linked in 1 civ(s) (e.g. indus-valley) ×1)
+- **Bharata** → REUSE `Bharata_(Ramayana)` [high] — _Bharata (Ramayana)_: Bharata (Sanskrit: भरत IAST: Bharata) is a younger half-brother of Lord Rama in the Hindu epic Ramayana, and t  (linked in 1 civ(s) (e.g. gupta-empire) ×2)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×21)
+- **Odyssey** → REUSE `Odyssey` [high] — _Odyssey_: The Odyssey (; Ancient Greek: Ὀδύσσεια, romanized: Odýsseia) is one of two major epics of ancient Greek litera  (linked in 4 civ(s) (e.g. ancient-greece) ×9)
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Upanishadic** → CROSS → `indus-valley`  (cross-linked elsewhere ×1)
+
+## Chapter 4
+- **Rigveda** → REUSE `Rigveda` [high] — _Rigveda_: The Rigveda or Rig Veda (Sanskrit: ऋग्वेद, IAST: ṛgvedá, from ऋच्, "praise" and वेद, "knowledge") is an ancien  (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- Vedic → SKIP (own-name, cat B)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×19)
+- **Mahavira** → REUSE `Mahavira` [high] — _Mahavira_: Mahavira (Mahāvīra), also known by his birth name Vardhamana (Vardhamāna), was an Indian religious reformer an  (linked in 2 civ(s) (e.g. early-andean-civilizations) ×4)
+- **Brahmana** → `Brahmana` [high] — _Brahmana_: The Brahmanas (; Sanskrit: ब्राह्मणम्, IAST: Brāhmaṇam) are Vedic śruti works attached to the Samhitas (hymns and mantra
+- **Indo-Aryan** → REUSE `Indo-Aryan_peoples` [high] — _Indo-Aryan peoples_: Indo-Aryan peoples (also known as Indic peoples in the context of Indo-European studies) are a diverse collect  (linked in 1 civ(s) (e.g. indus-valley) ×2)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×24)
+- **Jainism** → REUSE `Jainism` [high] — _Jainism_: Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward  (linked in 4 civ(s) (e.g. indus-valley) ×13)
+
+## Chapter 5
+- **Brahmins** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 3 civ(s) (e.g. gupta-empire) ×4)
+- Vedic → SKIP (own-name, cat B)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 8 civ(s) (e.g. delhi-sultanate) ×23)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×24)
+- **Jainism** → REUSE `Jainism` [high] — _Jainism_: Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward  (linked in 4 civ(s) (e.g. indus-valley) ×13)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 7 civ(s) (e.g. gupta-empire) ×28)
+- **Upanishadic** → CROSS → `indus-valley`  (cross-linked elsewhere ×1)
+- **Shvetaketu** → `Śvetaketu` [low] — _Śvetaketu_: Svetaketu (IAST: Śvetaketu), also spelt Shvetaketu, was a sage mentioned in the Chandogya Upanishad. He was the son of t
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×30)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×19)
+- **Pythagoras** → REUSE `Pythagoras` [high] — _Pythagoras_: Pythagoras of Samos (Ancient Greek: Πυθαγόρας; c. 570 – c. 495 BC) was an ancient Ionian Greek philosopher, po  (linked in 3 civ(s) (e.g. celtic-cultures) ×6)
+- **Hebrew** → REUSE `Hebrew_language` [high] — _Hebrew language_: Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaa  (linked in 12 civ(s) (e.g. al-andalus) ×27)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 8 civ(s) (e.g. delhi-sultanate) ×36)
+- Bihar → SKIP (modern locator, cat A)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×13)
+- **Gupta** → CROSS → `gupta-empire`  (cross-linked elsewhere ×4)
+- **Vedas** → REUSE `Vedas` [high] — _Vedas_: The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda,   (linked in 2 civ(s) (e.g. indus-valley) ×4)
+
+## Chapter 6
+- **Harappan** → REUSE `Indus_Valley_Civilisation` [high] — _Indus Valley Civilisation_: The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in th  (linked in 1 civ(s) (e.g. shang-dynasty) ×1)
+- **Ganges Valley** → `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of Asia which 
+- Vedic → SKIP (own-name, cat B)
+- Punjab → SKIP (modern locator, cat A)
+- **Mohenjo-daro** → REUSE `Mohenjo-daro` [high] — _Mohenjo-daro_: Mohenjo-daro (; Sindhi: موهن جو دڙو‎, lit. 'Mound of the Dead Men'; Urdu: موئن جو دڑو [muˑənⁱ dʑoˑ d̪əɽoˑ]) is  (linked in 7 civ(s) (e.g. ancient-nubia) ×14)
+- **Harappa** → REUSE `Harappa` [high] — _Harappa_: Harappa (Punjabi pronunciation: [ɦəɽəˈpaː]) is an archaeological site in Punjab, Pakistan, about 24 kilometres  (linked in 7 civ(s) (e.g. ancient-nubia) ×14)
+- **Dholavira** → REUSE `Dholavira` [high] — _Dholavira_: Dholavira (Gujarati: ધોળાવીરા) is an archaeological site at Khadirbet in Bhachau Taluka of Kutch District, in   (linked in 1 civ(s) (e.g. indus-valley) ×2)
+- **Champa** → REUSE `Champa` [high] — _Champa_: Champa were a collection of independent Cham polities that extended across the coast of what is present-day ce  (linked in 6 civ(s) (e.g. dai-viet) ×20)
+- **Babylon** → REUSE `Babylon` [high] — _Babylon_: Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within   (linked in 13 civ(s) (e.g. ancient-greece) ×38)
+- **Dark Ages** → REUSE `Greek_Dark_Ages` [high] — _Greek Dark Ages_: The Greek Dark Ages (c. 1180–800 BC) was a period in Ancient Greece characterized by societal collapse of civi  (linked in 1 civ(s) (e.g. minoan-civilization) ×1)
+- **Bronze Age Collapse** → CROSS → `mesopotamia`  (cross-linked elsewhere ×2)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×29)
+- **Moche** → CROSS → `andean-kingdoms`  (cross-linked elsewhere ×1)
+- **Tiwanaku** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×10)
+- **Peshawar** → REUSE `Peshawar` [high] — _Peshawar_: Peshawar is the capital and largest city of the Pakistani province of Khyber Pakhtunkhwa. It is the eighth-mos  (linked in 3 civ(s) (e.g. gupta-empire) ×10)
+- Pakistan → SKIP (modern locator, cat A)
+- Bihar → SKIP (modern locator, cat A)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 8 civ(s) (e.g. delhi-sultanate) ×36)
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 7 civ(s) (e.g. gupta-empire) ×27 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Anatolia** → REUSE `Anatolia` [high] — _Anatolia_: Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority   (linked in 29 civ(s) (e.g. ancient-korea) ×151)
+- **Croesus** → REUSE `Croesus` [high] — _Croesus_: Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 or 561 BC   (linked in 3 civ(s) (e.g. ancient-greece) ×6)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×19)
+- **Greeks** → REUSE `Greeks` [CONFIRM-homonym] — _Greeks_: The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece,   (linked in 8 civ(s) (e.g. byzantine-empire) ×36 — ⚠ AMBIGUOUS: also Ancient_Greece(al-andalus))
+- **Maurya Empire** → CROSS → `maurya-empire`  (cross-linked elsewhere ×18)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×24)
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- **Anathapindika** → `Anathapindika` [high] — _Anathapindika_: Anathapindika (Pali: Anāthapiṇḍika; Sanskrit: Anāthapiṇḍada), born Sudatta, was a wealthy merchant, banker, and philanth
+- **Jetavana** → `Jetavana` [high] — _Jetavana_: Jetavana (lit. 'Jeta's grove') was one of the most famous of the vihāras (Buddhist monasteries) in what is now Uttar Pra
+- Afghanistan → SKIP (modern locator, cat A)
+- Central Asia → SKIP (modern locator, cat A)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×30)
+- **Vedas** → REUSE `Vedas` [high] — _Vedas_: The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda,   (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Panini** → REUSE `Pāṇini` [high] — _Pāṇini_: Panini (Sanskrit: पाणिनि, pāṇini) was a Sanskrit grammarian, logician, philologist, and revered scholar of Anc  (linked in 2 civ(s) (e.g. gupta-empire) ×3)
+- **Xerxes'** → `Xerxes_I` [high] — _Xerxes I_: Xerxes I ( ZURK-seez; from Old Iranian Khshayarsha, commonly known as Xerxes the Great; c. 518 BC – 465 BC) was a Persia
+- **Aryabhata** → REUSE `Aryabhata` [high] — _Aryabhata_: Aryabhata (Sanskrit: आर्यभट, IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathemati  (linked in 4 civ(s) (e.g. gupta-empire) ×8)
+- **Ravana** → `Ravana` [high] — _Ravana_: Ravana (Sanskrit: रावण, romanized: Rāvaṇa, lit. 'roaring') is the principal antagonist of the ancient Hindu epic Ramayan
+- **Arjuna** → `Arjuna` [high] — _Arjuna_: Arjuna (Sanskrit: अर्जुन, IAST: Arjuna) is one of the central characters of the ancient Hindu epic Mahabharata. He is th
+- **Krishna** → REUSE `Krishna` [CONFIRM-homonym] — _Krishna_: Krishna (; Sanskrit: कृष्ण, IAST: Kṛṣṇa Sanskrit: [ˈkr̩ʂɳɐ] ) is a major deity in Hinduism. He is worshipped a  (linked in 3 civ(s) (e.g. gupta-empire) ×8 — ⚠ AMBIGUOUS: also Krishna_River(delhi-sultanate))
+- **Kurukshetra** → `Kurukshetra` [high] — _Kurukshetra_: Kurukshetra (Hindi: kurukṣetra, pronounced [kʊrʊkʃeːtɾə]) is a historical region in India, also known as Dharmakshetra (
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 8 civ(s) (e.g. delhi-sultanate) ×23)
+- **Shakya** → REUSE `Shakya` [high] — _Shakya_: Shakya (Pāḷi: Sakya; Sanskrit: Śākya) was an ancient Indo-Aryan tribe of north-eastern South Asia whose existe  (linked in 1 civ(s) (e.g. gupta-empire) ×2)
+- **Kshatriya** → REUSE `Kshatriya` [high] — _Kshatriya_: Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, "rule, authority"; also called Raja  (linked in 4 civ(s) (e.g. indus-valley) ×7)
+- **Athenian** → CROSS → `ancient-greece`  (cross-linked elsewhere ×3)
+- **Upanishads** → REUSE `Upanishads` [high] — _Upanishads_: The Upanishads (; Sanskrit: उपनिषद्, IAST: Upaniṣad, pronounced [ˈupɐniʂɐd]) are Sanskrit texts of the late Ve  (linked in 6 civ(s) (e.g. high-medieval-europe) ×13)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 7 civ(s) (e.g. gupta-empire) ×28)
+- **coinage** → NO-PAGE → blurb (top hit "Coinage" is a disambiguation page)
+- **Trade** → `Trade` [high] — _Trade_: Trade involves the transfer of goods and services from one person or entity to another, often in exchange for money. Eco
+
+## Chapter 7
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 8 civ(s) (e.g. delhi-sultanate) ×36)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 7 civ(s) (e.g. gupta-empire) ×28)
+- **Vedas** → REUSE `Vedas` [high] — _Vedas_: The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda,   (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Kshatriyas** → REUSE `Kshatriya` [high] — _Kshatriya_: Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, "rule, authority"; also called Raja  (linked in 1 civ(s) (e.g. indus-valley) ×1)
+- **Upanishadic** → CROSS → `indus-valley`  (cross-linked elsewhere ×1)
+- **Mahajanapada** → `Mahajanapadas` [high] — _Mahajanapadas_: The Mahājanapadas were sixteen kingdoms and aristocratic republics that existed in ancient India from the sixth to fourt
+- **Brahminical** → `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu society. The ot
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×19)
+- **Kshatriya** → REUSE `Kshatriya` [high] — _Kshatriya_: Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, "rule, authority"; also called Raja  (linked in 4 civ(s) (e.g. indus-valley) ×7)
+- Bihar → SKIP (modern locator, cat A)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×24)
+- **Vaishyas** → REUSE `Vaishya` [high] — _Vaishya_: Vaishya (Sanskrit: वैश्य, vaiśya) is one of the four varnas of the Vedic Hindu social order in India. Vaishyas  (linked in 1 civ(s) (e.g. indus-valley) ×1)
+- **Varanasi** → REUSE `Varanasi` [high] — _Varanasi_: Varanasi (Hindi pronunciation: [ʋaːˈɾaːɳəsi], also Benares, Banaras Hindustani pronunciation: [bəˈnaːɾəs]), or  (linked in 5 civ(s) (e.g. delhi-sultanate) ×16)
+- **Rajagriha** → `Rajgir` [low] — _Rajgir_: Rajgir (old name Rajagriha, meaning "The City of Kings") is an ancient city and university town in the Nalanda district 
+- **Shravasti** → `Shravasti` [high] — _Shravasti_: Shravasti (Sanskrit: श्रावस्ती, IAST: Śrāvastī; Pali: 𑀲𑀸𑀯𑀢𑁆𑀣𑀻, romanized: Sāvatthī) is a town in Shravasti distri
+- **Kosala** → `Kosala` [high] — _Kosala_: Kosala (IPA: [koːɕɐlɐ]), sometimes referred to as Uttara Kosala (lit. 'Northern Kosala') was one of the Mahajanapadas of
+- **Brahmins** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 3 civ(s) (e.g. gupta-empire) ×4)
+- Vedic → SKIP (own-name, cat B)
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- Sri Lanka → SKIP (modern locator, cat A)
+- **Vajjian Confederacy** → `Amrapali` [low] — _Amrapali_: Āmrapālī, also known as "Ambapālika", "Ambapali", or "Amra" was a celebrated nagarvadhu (royal courtesan) of the Republi
+- **Jain** → REUSE `Jainism` [high] — _Jainism_: Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward  (linked in 2 civ(s) (e.g. gupta-empire) ×6)
+- **Jainism** → REUSE `Jainism` [high] — _Jainism_: Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward  (linked in 4 civ(s) (e.g. indus-valley) ×13)
+- **Upanishads** → REUSE `Upanishads` [high] — _Upanishads_: The Upanishads (; Sanskrit: उपनिषद्, IAST: Upaniṣad, pronounced [ˈupɐniʂɐd]) are Sanskrit texts of the late Ve  (linked in 6 civ(s) (e.g. high-medieval-europe) ×13)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 8 civ(s) (e.g. delhi-sultanate) ×23)
+
+## Chapter 8
+- Vedic → SKIP (own-name, cat B)
+- **Ajatashatru** → `Ajatashatru` [high] — _Ajatashatru_: Ajatasattu (Pāli: Ajātasattu) or Ajatashatru (Sanskrit: Ajātaśatru) in the Buddhist tradition, or Kunika (Kūṇika) and Ku
+- **Magadha** → REUSE `Magadha` [high] — _Magadha_: Magadha (IPA: [məɡəd̪ʰaː]) was a region and kingdom in ancient India, based in the eastern Ganges Plain. It wa  (linked in 4 civ(s) (e.g. gupta-empire) ×16)
+- **Haryanka** → `Haryanka_dynasty` [high] — _Haryanka dynasty_: The Haryanka dynasty was the ruling dynasty of Magadha, according to the Buddhist text Mahavamsa between 544 BC and 413 
+- **Kshatriya** → REUSE `Kshatriya` [high] — _Kshatriya_: Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, "rule, authority"; also called Raja  (linked in 4 civ(s) (e.g. indus-valley) ×7)
+- **Kshatriyas** → REUSE `Kshatriya` [high] — _Kshatriya_: Kshatriya (Sanskrit: क्षत्रिय, romanized: Kṣatriya) (from Sanskrit kṣatra, "rule, authority"; also called Raja  (linked in 1 civ(s) (e.g. indus-valley) ×1)
+- **Hannibal** → REUSE `Hannibal` [high] — _Hannibal_: Hannibal (; Punic: 𐤇𐤍𐤁𐤏𐤋; 247 – between 183 and 181 BC) also referred to as Hannibal the Great was a Cart  (linked in 5 civ(s) (e.g. carthage) ×9)
+- **Alps** → REUSE `Alps` [high] — _Alps_: The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,2  (linked in 10 civ(s) (e.g. ancient-rome) ×24)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 7 civ(s) (e.g. gupta-empire) ×28)
+- **Alexander the Great** → CROSS → `ancient-greece`  (cross-linked elsewhere ×7)
+- **Hindu Kush** → REUSE `Hindu_Kush` [high] — _Hindu Kush_: The Hindu Kush is an 800-kilometre-long (500 mi) mountain range in Central and South Asia to the west of the H  (linked in 12 civ(s) (e.g. asuka-nara-japan) ×36)
+- **Achaemenid Persians** → REUSE `Achaemenid_Empire` [high] — _Achaemenid Empire_: The Achaemenid Empire (, ə-KEE-mə-nid; Old Persian: 𐎧𐏁𐏂, Xšāça, lit. 'The Empire' or 'The Kingdom') was an   (linked in 1 civ(s) (e.g. maurya-empire) ×2)
+- Punjab → SKIP (modern locator, cat A)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 8 civ(s) (e.g. delhi-sultanate) ×36)
+- **Macedonia** → REUSE `Macedonia_(region)` [CONFIRM-homonym] — _Macedonia (region)_: Macedonia ( MASS-ih-DOH-nee-ə) is a geographical and historical region of the Balkan Peninsula in Southeast Eu  (linked in 2 civ(s) (e.g. byzantine-empire) ×4 — ⚠ AMBIGUOUS: also Macedonia_(ancient_kingdom)(late-egypt))
+- **Hyphasis** → `Alexandria_Hyphasis` [high] — _Alexandria Hyphasis_: Alexandria (on the) Hyphasis was the name of the fortress on the west bank of the Hyphasis (Beas) river at which Alexand
+- **Babylon** → REUSE `Babylon` [high] — _Babylon_: Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within   (linked in 13 civ(s) (e.g. ancient-greece) ×38)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×19)
+- **Dharma Wheel** → REUSE `Dharmachakra` [high] — _Dharmachakra_: The dharmachakra (Sanskrit: धर्मचक्र, Pali: dhammacakka) or wheel of dharma is a symbol used in the Dharmic re  (linked in 1 civ(s) (e.g. maurya-empire) ×2)
+- **Seleucid** → REUSE `Seleucid_Empire` [high] — _Seleucid Empire_: The Seleucid Empire ( sih-LEW-sid) was a Greek state in West Asia during the Hellenistic period. It was founde  (linked in 2 civ(s) (e.g. mesopotamia) ×7)
+- **Pataliputra** → REUSE `Pataliputra` [high] — _Pataliputra_: Pataliputra (IAST: Pāṭaliputra), adjacent to modern-day Patna, Bihar, was a city in ancient India, originally   (linked in 4 civ(s) (e.g. gupta-empire) ×22)
+- **Indica** → NO-PAGE → blurb (top hit "Indica" is a disambiguation page)
+- **Shramana** → `Śramaṇa` [low] — _Śramaṇa_: In Indian religions and philosophies, a śramaṇa (from Sanskrit) or samaṇa (from Pali), sometimes anglicised as shramana,
+- **Plato** → CROSS → `ancient-greece`  (cross-linked elsewhere ×7)
+- **Aristotle** → CROSS → `ancient-greece`  (cross-linked elsewhere ×17)
+- **Upanishads** → REUSE `Upanishads` [high] — _Upanishads_: The Upanishads (; Sanskrit: उपनिषद्, IAST: Upaniṣad, pronounced [ˈupɐniʂɐd]) are Sanskrit texts of the late Ve  (linked in 6 civ(s) (e.g. high-medieval-europe) ×13)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×24)
+- **Confucianism** → REUSE `Confucianism` [CONFIRM-homonym] — _Confucianism_: Confucianism, also known as Ruism or Ru classicism, is a system of thought and behavior originating in ancient  (linked in 19 civ(s) (e.g. ancient-korea) ×44 — ⚠ AMBIGUOUS: also Korean_Confucianism(goryeo-korea))
+- **Daoism** → REUSE `Taoism` [high] — _Taoism_: Taoism or Daoism ( , ) is a philosophical and religious tradition indigenous to China, emphasizing harmony wit  (linked in 8 civ(s) (e.g. han-dynasty) ×17)
+- **Kautilya** → REUSE `Chanakya` [high] — _Chanakya_: Chanakya (ISO: Cāṇakya, चाणक्य, ), according to legendary narratives preserved in various traditions dating fr  (linked in 1 civ(s) (e.g. maurya-empire) ×4)
+- **Vishnugupta** → REUSE `Vishnugupta_(Gupta_Empire)` [CONFIRM-homonym] — _Vishnugupta (Gupta Empire)_: Vishnugupta Chandraditya (Gupta script: Vi-ṣ-ṇu-gu-pta,) was one of the lesser-known kings of the Gupta Dynast  (linked in 1 civ(s) (e.g. gupta-empire) ×2 — ⚠ AMBIGUOUS: also Chanakya(maurya-empire))
+- **Renaissance Italy** → CROSS → `renaissance-italy`  (cross-linked elsewhere ×5)
+- **Ashoka** → CROSS → `maurya-empire`  (cross-linked elsewhere ×10)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×21)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×25)
+- **Classical Chinese** → REUSE `Classical_Chinese` [high] — _Classical Chinese_: Classical Chinese is the style of Chinese language in which the classics of Chinese literature were written, f  (linked in 1 civ(s) (e.g. chinese-revolution) ×2)
+- **Vedas** → REUSE `Vedas` [high] — _Vedas_: The Vedas ( or ; Sanskrit: वेदः, romanized: Vēdaḥ, lit. 'knowledge'), sometimes collectively called the Veda,   (linked in 2 civ(s) (e.g. indus-valley) ×4)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 8 civ(s) (e.g. delhi-sultanate) ×23)
+- **Brahman** → REUSE `Brahman` [high] — _Brahman_: In the Vedic and Hindu religions, Brahman (Sanskrit: ब्रह्मन्; IAST: Brahman) has a "variety of meanings", but  (linked in 2 civ(s) (e.g. medieval-india) ×4)
+- **Atman** → REUSE `%C4%80tman_(Hinduism)` [high] — _Ātman (Hinduism)_: Ātman (; Sanskrit: आत्मन्) in Hinduism is the true, innermost essence or self of a living being, conceived as   (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Jainism** → REUSE `Jainism` [high] — _Jainism_: Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward  (linked in 4 civ(s) (e.g. indus-valley) ×13)
+- **Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 4 civ(s) (e.g. modern-india) ×13)
+- **Vedanga Jyotisha** → `Vedanga_Jyotisha` [high] — _Vedanga Jyotisha_: Vedanga Jyotisha (IAST: Vedāṅga Jyotiṣa), or Jyotishavedanga (Jyotiṣavedāṅga), is one of earliest known Indian texts on 
+- **Mahabharata** → CROSS → `vedic-period`  (cross-linked elsewhere ×7)
+- **Ramayana** → REUSE `Ramayana` [high] — _Ramayana_: The Ramayana (; Sanskrit: रामायणम्, romanized: Rāmāyaṇam), also known as the Valmiki Ramayana, as traditionall  (linked in 6 civ(s) (e.g. delhi-sultanate) ×16)
+- **Atharvaveda** → `Atharvaveda` [high] — _Atharvaveda_: The Atharvaveda or Atharva Veda (Sanskrit: अथर्ववेद, IAST: Atharvaveda, from अथर्वन्, "priest" and वेद, "knowledge") is 
+- **Dharmasutras** → `Dharmaśāstra` [low] — _Dharmaśāstra_: Dharmaśāstra (Sanskrit: धर्मशास्त्र) are Sanskrit Puranic Smriti texts on law and conduct, and refer to treatises (śāstr
+- **Vasishtha** → `Vasishtha` [high] — _Vasishtha_: Vasishtha (Sanskrit: वसिष्ठ, lit. 'most excellent', IAST: Vasiṣṭha) is one of the oldest and revered Vedic rishis or sag
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Twelve Tables** → REUSE `Twelve_Tables` [high] — _Twelve Tables_: The Twelve Tables (Latin: Lex Duodecim Tabularum) was the legislation that stood at the foundation of Roman la  (linked in 1 civ(s) (e.g. mesopotamia) ×4)
+- **The Vedanga Jyotisha** → `Vedanga_Jyotisha` [high] — _Vedanga Jyotisha_: Vedanga Jyotisha (IAST: Vedāṅga Jyotiṣa), or Jyotishavedanga (Jyotiṣavedāṅga), is one of earliest known Indian texts on 
+- **Buddhism and Jainism** → `Buddhism_and_Jainism` [high] — _Buddhism and Jainism_: Buddhism and Jainism are Eastern religions that developed in the Indian subcontinent. The Buddha and the 24th Jain Tirth
+- **Ayurvedic medicine** → REUSE `Ayurveda` [high] — _Ayurveda_: Ayurveda (; IAST: āyurveda) is an alternative medicine system with historical roots in the Indian subcontinent  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
