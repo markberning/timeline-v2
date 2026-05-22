@@ -507,15 +507,30 @@
     }
   },
   "glossary": {
+    "Genghis_Khan": {
+      "title": "Genghis Khan",
+      "lead": "Genghis Khan (born Temüjin; c. 1162 – August 1227), also known as Chinggis Khan, was the founder and first khan of the Mongol Empire. After spending most of his life uniting the Mongol tribes, he launched a series of military campaigns, con",
+      "image": "YuanEmperorAlbumGenghisPortrait.jpg"
+    },
     "Yassa": {
       "title": "Yassa",
       "lead": "The Yassa (alternatively Yasa, Yasaq, Jazag or Zasag; Mongolian: Их Засаг, romanized: Ikh Zasag) was the oral law code of the Mongols, gradually built up through the reign of Genghis Khan. It was the de facto law of the Mongol Empire, even ",
       "image": ""
     },
+    "Silk_Road": {
+      "title": "Silk Road",
+      "lead": "The Silk Road was a network of Asian trade routes active from the second century BCE until the mid-15th century. Spanning over 6,400 km (4,000 mi) on land, it played a central role in facilitating economic, cultural, political, and religiou",
+      "image": "Silk_road_Kazakhstan.svg"
+    },
     "Subutai": {
       "title": "Subutai",
       "lead": "Subutai (c. 1175–1248) was a Mongol general and the primary military strategist of Genghis Khan and Ögedei Khan. He ultimately directed more than 20 campaigns, during which he conquered more territory than any other commander in history as ",
       "image": "Subudei.jpg"
+    },
+    "Karakorum": {
+      "title": "Karakorum",
+      "lead": "Karakorum (Halh Mongolian: Хархорум, Kharkhorum; Mongolian script: ᠬᠠᠷᠠᠬᠣᠷᠣᠮ, Qaraqorum) was the capital of the Mongol Empire between 1235 and 1260 and of the Northern Yuan dynasty in the late 14th and 15th centuries. Its ruins lie in the n",
+      "image": "Erdene_Zuu_Monastery_05.jpg"
     },
     "Yam_(route)": {
       "title": "Yam (route)",
@@ -562,10 +577,20 @@
       "lead": "Marco Polo (c. 1254 – 8 January 1324) was a Venetian merchant, explorer, and writer who travelled through Asia along the Silk Road between 1271 and 1295. His travels are recorded in The Travels of Marco Polo (also known as Book of the Marve",
       "image": "Marco_Polo_-_costume_tartare.jpg"
     },
+    "Battle_of_Yamen": {
+      "title": "Battle of Yamen",
+      "lead": "The Battle of Yamen (Chinese: 厓門戰役), also known as the Battle of Yashan (Chinese: 厓山海戰), was a naval battle which took place in southern China on 19 March 1279. It is considered to be the last stand of the Song dynasty against the invading ",
+      "image": "Jingmen002.jpg"
+    },
     "Ghazan": {
       "title": "Ghazan",
       "lead": "Mahmud Ghazan (also Ghazan Khan, sometimes westernized as Casanus; 5 November 1271 – 11 May 1304) was the seventh ruler of the Mongol Empire's Ilkhanate division in modern-day Iran from 1295 to 1304. He was the son of Arghun, grandson of Ab",
       "image": "Ghazan_with_wife_at_his_court.jpg"
+    },
+    "Soltaniyeh": {
+      "title": "Soltaniyeh",
+      "lead": "Soltaniyeh (Persian: سلطانيه) is a city in the Central District of Soltaniyeh County, Zanjan province, Iran, serving as capital of both the county and the district.",
+      "image": "Soltaniyeh_Dome.JPG"
     },
     "Jami%27_al-tawarikh": {
       "title": "Jami' al-tawarikh",
@@ -587,6 +612,21 @@
       "lead": "Jebe (or Jebei, Mongolian: Зэв, pronounced as Zev; birth name: Jirqo'adai (Modern Mongolian: Zurgaadai), Mongolian: Зургаадай, Chinese: 哲别) (death: approximately 1224) was one of the most prominent Noyans (generals) of Genghis Khan. He belo",
       "image": ""
     },
+    "Battle_of_Mohi": {
+      "title": "Battle of Mohi",
+      "lead": "The Battle of Mohi (11 April 1241) was a pivotal conflict between the Mongol Empire and the Kingdom of Hungary during the Mongol invasion of Europe. The battle took place at Muhi (then Mohi), a town located in present-day Hungary, southwest",
+      "image": "Battle_of_Mohi_1241.PNG"
+    },
+    "Battle_of_Legnica": {
+      "title": "Battle of Legnica",
+      "lead": "The Battle of Legnica (Polish: bitwa pod Legnicą), also known as the Battle of Liegnitz (German: Schlacht von Liegnitz) or Battle of Wahlstatt (German: Schlacht bei Wahlstatt), was fought between the Mongol Empire and combined European forc",
+      "image": "Battle_of_Legnica1241-From_Legend_of_Saint_Hedwig.jpg"
+    },
+    "Berke": {
+      "title": "Berke",
+      "lead": "Berke Khan (died 1266/1267; also Birkai; Turki/Kypchak: برکه خان, Mongolian: Бэрх хан ᠪᠡᠷᠬᠡ ᠬᠠᠭᠠᠨ Tatar: Бәркә хан) was a Mongol military commander and the ruler of the Golden Horde, a division of the Mongol Empire, who effectively consolid",
+      "image": "Golden_Horde._Berke._AH_655-665_AD_1257-1267_Qrim_(Crimea)_mint._Struck_circa_AH_662-665_(AD_1263-1267).jpg"
+    },
     "John_of_Montecorvino": {
       "title": "John of Montecorvino",
       "lead": "John of Montecorvino, OFM (Italian: Giovanni da Montecorvino; 1247–1328) was an Italian Franciscan missionary, traveller and statesman, founder of the earliest Latin Catholic missions in India and China, and Archbishop of Peking. He convert",
@@ -601,6 +641,11 @@
       "title": "Pax Mongolica",
       "lead": "The Pax Mongolica (Latin for \"Mongol Peace\"), less often known as Pax Tatarica (\"Tatar Peace\"), is a historiographical term modeled after the original phrase Pax Romana which describes the stabilizing effects of the conquests of the Mongol ",
       "image": "Caravane_Marco_Polo.jpg"
+    },
+    "Guillaume_Boucher": {
+      "title": "Guillaume Boucher",
+      "lead": "Guillaume Boucher (fl. 1240–1254), also known as William of Paris and William Boucher, was a French Parisian metalsmith and artisan who lived and worked in Karakorum, Mongolia during the reign of Möngke Khan.",
+      "image": "Folio_21_verso._The_pavilion_called_Frashi,_built_by_order_of_Uktay_Qa'an_in_the_city_of_Qaraqorum_with_gold_and_silver_statues_made_so_as_wine_and_qumiz,_deposited_in_them,_should_run_out_of_their_mouths.jpg"
     },
     "Ata-Malik_Juvayni": {
       "title": "Ata-Malik Juvayni",
@@ -622,10 +667,10 @@
       "lead": "Chabi (Mongolian: Чаби хатан, ᠴᠠᠪᠢ ᠬᠠᠲᠤᠨ; Chinese: 察必, c. 1216–1281) was a Khongirad empress consort of the Yuan dynasty, married to Kublai Khan.",
       "image": "YuanEmpressAlbumChabi.jpg"
     },
-    "Ibn_Battuta": {
-      "title": "Ibn Battuta",
-      "lead": "Ibn Battuta (; 24 February 1304 – 1368/1369) was a Maghrebi Muslim traveller, explorer and scholar from Tangier (in present-day Morocco). Over a period of 30 years from 1325 to 1354, he visited much of Africa, Asia, and the Iberian Peninsul",
-      "image": "Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg"
+    "Grand_Canal_(China)": {
+      "title": "Grand Canal (China)",
+      "lead": "The Grand Canal (Chinese: 大运河; pinyin: Dà yùnhé) is a system of interconnected canals linking various major rivers and lakes in North and East China, serving as an important waterborne transport infrastructure between the north and the sout",
+      "image": "Wanning_Bridge_1.jpg"
     },
     "Toghrul": {
       "title": "Toghrul",
@@ -647,19 +692,14 @@
       "lead": "Muḥammad ibn Muḥammad ibn al-Ḥasan al-Ṭūsī (1201 – 1274), also known as Naṣīr al-Dīn al-Ṭūsī (Arabic: نصیر الدین الطوسی; Persian: نصیر الدین طوسی) or simply as (al-)Tusi, was a Persian polymath, architect, philosopher, physician, scientist,",
       "image": "Nasir_al-Din_Tusi.jpg"
     },
-    "Kebek": {
-      "title": "Kebek",
-      "lead": "Kebek (died 1325/1326) was Khan of the Chagatai Khanate from 1309 until 1310, and again from c. 1318 until his death.",
-      "image": "Chaghatayid_Khans._Kebek._Second_reign,_circa_AH_720-726_AD_1320-1326_Bukhara_mint._Dated_AH_(7)22_(AD_1322).jpg"
+    "Abu_Sa'id_Bahadur_Khan": {
+      "title": "Abu Sa'id Bahadur Khan",
+      "lead": "Abu Sa'id Bahadur Khan (June 2, 1305 – December 1, 1335; Persian: ابو سعید بهادر خان), also spelled Abusaid Bahador Khan, Abu Sa'id Behauder (Modern Mongolian: Абу-Саид Баатар хан, Abu sayid Baghatur Khan, [ˈabusæt ˈbaːtər xaːŋ] in modern M",
+      "image": "Abu_sa'id.jpg"
     },
-    "Red_Turban_Rebellion": {
-      "title": "Red Turban Rebellions",
-      "lead": "The Red Turban Rebellions (Chinese: 紅巾起義; pinyin: Hóngjīn Qǐyì) were uprisings against the Yuan dynasty between 1351 and 1368, eventually leading to its collapse. Remnants of the Yuan imperial court retreated northwards and is thereafter kn",
-      "image": "Red_Turban.png"
-    },
-    "Bayan_of_the_Baarin": {
-      "title": "Bayan of the Baarin",
-      "lead": "Bayan of the Baarin (Mongolian: Баян; 1236 – January 11, 1295), or Boyan (Chinese: 伯顔; pinyin: Bóyán) was an ethnic Mongol general of the Yuan dynasty of China. He was known to Marco Polo as \"Bayan Hundred Eyes\" (probably from a confusion w",
+    "Tarmashirin": {
+      "title": "Tarmashirin",
+      "lead": "Ala-ad-din Tarmashirin Khan (Chagatai and Persian: علاء الدین; ruled 1331 AD - 1334 AD) was the khan of the Chagatai Khanate following Duwa Timur.",
       "image": ""
     },
     "Mukhali": {
@@ -676,6 +716,11 @@
       "title": "House of Wisdom",
       "lead": "The House of Wisdom (Arabic: بَيْت الْحِكْمَة Bayt al-Ḥikmah), also known as the Grand Library of Baghdad, was believed to be a major Abbasid-era public academy and intellectual center in Baghdad. In popular reference, it acted as one of th",
       "image": "Maqamat_hariri.jpg"
+    },
+    "Sarai_(city)": {
+      "title": "Sarai (city)",
+      "lead": "Sarai (Turki/Kypchak and Persian: سرای; also transcribed as Saraj or Saray; \"mansion\" or \"court\") was the name of possibly two cities near the lower Volga, that served successively as the effective capitals of the Cuman–Kipchak Confederatio",
+      "image": ""
     },
     "Eurasian_Steppe": {
       "title": "Eurasian Steppe",
@@ -742,11 +787,6 @@
       "lead": "Mongolia is a landlocked country in the East Asia region. It is bordered by Russia to the north and China to the south, and covers an area of 1,564,116 square kilometers (603,909 square miles), making it the 18th-largest country in the worl",
       "image": "Flag_of_Mongolia.svg"
     },
-    "G%C3%B6kt%C3%BCrk_Khaganate": {
-      "title": "First Turkic Khaganate",
-      "lead": "The First Turkic Khaganate, also referred to as the First Turkic Empire, the Turkic Khaganate or the Göktürk Khaganate, was a Turkic khaganate established by the Ashina clan of the Göktürks in medieval Inner Asia under the leadership of Bum",
-      "image": ""
-    },
     "Altai_Mountains": {
       "title": "Altai Mountains",
       "lead": "The Altai Mountains ( ahl-TY) are a mountain range in Central Asia, where Russia, China, Mongolia, and Kazakhstan converge, and where the rivers Irtysh and Ob have their headwaters. The highest summit of the range is Belukha, whose summit r",
@@ -781,6 +821,76 @@
       "title": "Toltec",
       "lead": "The Toltec culture () was a pre-Columbian Mesoamerican culture that ruled a state centered in Tula, Hidalgo, Mexico, during the Epiclassic and the early Post-Classic period of Mesoamerican chronology, reaching prominence from 950 to 1150 CE",
       "image": "Toltecas.png"
+    },
+    "Manchuria": {
+      "title": "Manchuria",
+      "lead": "Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China and parts of the modern-day Russian Far East south of the Uda River and the Tukuringra-Dzhagdy ranges. The exact geographical extent",
+      "image": "Manchuria.png"
+    },
+    "Khentii_Mountains": {
+      "title": "Khentii Mountains",
+      "lead": "The Khentii Mountains (Mongolian: Хэнтийн нуруу) are a mountain range in the Töv and Khentii Provinces in northeastern Mongolia.",
+      "image": ""
+    },
+    "Khangai_Mountains": {
+      "title": "Khangai Mountains",
+      "lead": "The Khangai Mountains form a range in central Mongolia, some 400 km (250 mi) west of Ulaanbaatar.",
+      "image": ""
+    },
+    "Turkic_peoples": {
+      "title": "Turkic peoples",
+      "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
+      "image": "Turkic_Languages_distribution_map.png"
+    },
+    "Greater_Iran": {
+      "title": "Greater Iran",
+      "lead": "Greater Iran or Greater Persia (Persian: ایران بزرگ; Irān-e Bozorg), also called the Iranosphere, the Persosphere or Iranzamin (Persian: ایران‌زمین; Irān-zamin), is a term used to refer to a broader cultural sphere that has been influenced ",
+      "image": "Faravahar_at_Behistun.jpg"
+    },
+    "Byzantine_Empire": {
+      "title": "Byzantine Empire",
+      "lead": "The Byzantine Empire, also known as the Eastern Roman Empire, was the continuation of the Roman Empire centred on Constantinople during late antiquity and the Middle Ages. Having survived the events that caused the fall of the Western Roman",
+      "image": "Eastern_Roman_Empire_565_CE.svg"
+    },
+    "Huai_River": {
+      "title": "Huai River",
+      "lead": "The Huai River, formerly romanized as the Hwai, is a major river in East China, about 1,110 km (690 mi) long with a drainage area of 174,000 km2 (67,000 sq mi). It is located about midway between the Yellow River and Yangtze River, the two ",
+      "image": "201806_Bengbu_and_Huai_River.jpg"
+    },
+    "Chan_Chan": {
+      "title": "Chan Chan",
+      "lead": "Chan Chan (Spanish pronunciation: [tʃaɲ ˈtʃaŋ]), sometimes called Chimor itself, was the capital city of the Chimor kingdom. It was the largest city of the pre-Columbian era in South America. It is now an archeological site in the departmen",
+      "image": "Chan_chan_view1.jpg"
+    },
+    "Persians": {
+      "title": "Persians",
+      "lead": "Persians, or Persian people, are an Iranian ethnic group indigenous to the Iranian plateau in West Asia that comprise the majority of the population of modern-day Iran. They have a common cultural system and are native speakers of the Persi",
+      "image": ""
+    },
+    "Mongol_Empire": {
+      "title": "Mongol Empire",
+      "lead": "The Mongol Empire was the largest contiguous empire in history. Originating in present-day Mongolia in East Asia, the medieval empire at its height stretched from the Sea of Japan to Eastern Europe, extending northward into Siberia and east",
+      "image": "Expansion_of_the_Mongol_Empire_1206–1294.gif"
+    },
+    "Modu_Chanyu": {
+      "title": "Modu Chanyu",
+      "lead": "Modu (c. 234–174 BCE) was the son of Touman and the founder of the empire of the Xiongnu. He came to power by ordering his men to kill his father in 209 BCE. Modu ruled from 209 to 174 BCE. He was a military leader under his father Touman a",
+      "image": ""
+    },
+    "Russians": {
+      "title": "Russians",
+      "lead": "Russians (Russian: русские, romanized: russkiye [ˈruskʲɪje] ) are an East Slavic ethnic group native to Eastern Europe. Their mother tongue is Russian, the most spoken Slavic language. The majority of Russians adhere to Orthodox Christianit",
+      "image": "Map_of_the_Russian_Diaspora_in_the_World2025.svg"
+    },
+    "Chimú_culture": {
+      "title": "Chimor",
+      "lead": "Chimor (also Kingdom of Chimor or Chimú Empire) was the political grouping of the Chimú culture (Spanish pronunciation: [tʃiˈmu]). The culture arose about 900 CE, succeeding the Moche culture, and was later conquered by the Inca emperor Top",
+      "image": "Photomontage_Chimu_Culture.jpg"
+    },
+    "Mesoamerica": {
+      "title": "Mesoamerica",
+      "lead": "Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern Mexico, all of Belize, Guatemala, El Salvador, western Honduras, and the Greater Nicoya region of Nicaragua and Costa Rica. As a c",
+      "image": "Mesoamerica_english.PNG"
     },
     "Tug_(banner)": {
       "title": "Tug (banner)",
@@ -837,6 +947,31 @@
       "lead": "Tumen, or tümen (\"unit of ten thousand\"; Old Turkic: tümän; Mongolian: Түмэн, tümen; Turkish: tumën), was a decimal unit of measurement used by the Turkic and Mongol peoples to quantify and organize their societies in groups of 10,000. A tu",
       "image": ""
     },
+    "Behter": {
+      "title": "Behter",
+      "lead": "Behter or Bekter (Mongolian: Бэхтэр; died 1180) was the son of the Mongol chieftain Yesugei and a junior wife named Sochigel or Suchigu in some sources and Ko'agjin in others. He was also a half-brother of Genghis Khan, then known as Temuji",
+      "image": ""
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Tangut_people": {
+      "title": "Tangut people",
+      "lead": "The Tangut people (Tangut: 𗼎𗾧, mjɨ nja̱ or 𗼇𘓐, mji dzjwo; Chinese: 党項; pinyin: Dǎngqiāng; Tibetan: མི་ཉག་, Wylie: mi nyak; Mongolian: Тангуд) were a Sino-Tibetan people who founded and inhabited the Western Xia dynasty. The group initia",
+      "image": "西夏男供養人像.png"
+    },
+    "Mongols": {
+      "title": "Mongols",
+      "lead": "The Mongols are an East Asian ethnic group native to Mongolia and China (Inner Mongolia and other 11 autonomous territories), as well as the republics of Buryatia and Kalmykia in Russia. The Mongols are the principal member of the large fam",
+      "image": "Naadam,_Mongolian_traditional_festival.jpg"
+    },
+    "Bo%27orchu": {
+      "title": "Bo'orchu",
+      "lead": "Bo'orchu (Mongolian: Боорчи, Boorchi) was one of the first and most loyal of Genghis Khan's friends and allies. He first met Genghis Khan as a boy. At that time, Genghis Khan (then Temujin) was looking for his stolen horses. Bo'orchu helped",
+      "image": "Statue_of_Bo'orchu_in_Ulaanbaatar,_Mongolia.jpg"
+    },
     "Hexi_Corridor": {
       "title": "Hexi Corridor",
       "lead": "The Hexi Corridor, also known as the Gansu Corridor, is an important historical region located in the modern western Gansu province of China. It refers to a narrow stretch of traversable and relatively arable plain west of the Yellow River'",
@@ -877,11 +1012,6 @@
       "lead": "The Pontic–Caspian Steppe is a steppe extending across Eastern Europe to Central Asia, formed by the Caspian and Pontic steppes. It stretches from the northern shores of the Black Sea (the Pontus Euxinus of antiquity) to the northern area a",
       "image": "Обитатели_Азово-Сивашского_заповедника_на_Бирючем_острове.jpg"
     },
-    "Cumans": {
-      "title": "Cumans",
-      "lead": "The Cumans or Kumans were a Turkic nomadic people from Central Asia comprising the western branch of the Cuman–Kipchak confederation who spoke the Cuman language. They are referred to as Polovtsians (Polovtsy) in Rus' chronicles, as \"Cumans",
-      "image": "Cumania_(1200)_eng.png"
-    },
     "Muhammad_II_of_Khwarezm": {
       "title": "Muhammad II of Khwarazm",
       "lead": "'Alā' al-Din Muhammad II (Persian: علاءالدین محمد خوارزمشاه; full name: Ala ad-Dunya wa ad-Din Abul-Fath Muhammad Sanjar ibn Tekish) was the Shah of the Khwarazmian Empire from 3 August 1200 to 11 January 1221. His ancestor was Anushtegin G",
@@ -896,11 +1026,6 @@
       "title": "Jalal al-Din Mangburni",
       "lead": "Jalal al-Din Mangburni (Persian: جلال الدین مِنکُبِرنی), also known as Jalal al-Din Khwarazmshah (جلال الدین خوارزمشاه), was the last Khwarazmshah of the Anushtegin dynasty. The eldest son and successor of Ala ad-Din Muhammad II of the Khwa",
       "image": "OUZBEKISTAN,_25_Som_à_l'effigie_de_Jaloliddin_Manguberdi_(portrait).jpg"
-    },
-    "Tangut_people": {
-      "title": "Tangut people",
-      "lead": "The Tangut people (Tangut: 𗼎𗾧, mjɨ nja̱ or 𗼇𘓐, mji dzjwo; Chinese: 党項; pinyin: Dǎngqiāng; Tibetan: མི་ཉག་, Wylie: mi nyak; Mongolian: Тангуд) were a Sino-Tibetan people who founded and inhabited the Western Xia dynasty. The group initia",
-      "image": "西夏男供養人像.png"
     },
     "Yellow_River": {
       "title": "Yellow River",
@@ -932,6 +1057,86 @@
       "lead": "The fire lance (simplified Chinese: 火枪; traditional Chinese: 火槍; pinyin: huǒqiāng; lit. 'fire spear') was a gunpowder weapon used by lighting it on fire, and is the ancestor of modern firearms. It first appeared in 10th–12th century China a",
       "image": "梨花鎗.jpg"
     },
+    "Caucasus": {
+      "title": "Caucasus",
+      "lead": "The Caucasus ( KAW-kə-səss) is a geographical region spanning parts of Eastern Europe and Western Asia. It is situated between the Black Sea and the Caspian Sea, comprising parts of Southern Russia, Georgia, Armenia, and Azerbaijan. The Cau",
+      "image": "Caucasus_topographic_map-en.svg"
+    },
+    "Pacific_Ocean": {
+      "title": "Pacific Ocean",
+      "lead": "The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions. It stretches from the Arctic Ocean in the north to the Southern Ocean, or, depending on the definition, to Antarctica in the south, and is bounded by the contin",
+      "image": "Pacific_Ocean_-_en.png"
+    },
+    "Gansu": {
+      "title": "Gansu",
+      "lead": "Gansu is a province in Northwestern China. Its capital and largest city is Lanzhou, in the southeastern part of the province. The seventh-largest administrative district by area at 453,700 square kilometres (175,200 sq mi), Gansu lies betwe",
+      "image": "Hoodoos_at_Zhangye_Danxia.jpg"
+    },
+    "Gobi_Desert": {
+      "title": "Gobi Desert",
+      "lead": "The Gobi Desert is a large, cold desert and grassland region in southern Mongolia and North China. It is the sixth-largest desert in the world. The name of the desert comes from the Mongolian word Gov', (Говь) -dryland-, used to refer to al",
+      "image": "Gobi_Desert.jpg"
+    },
+    "Tibetan_Plateau": {
+      "title": "Tibetan Plateau",
+      "lead": "The Tibetan Plateau, also known as the Qinghai–Tibet Plateau, Qingzang Plateau, or as the Himalayan Plateau, is a vast elevated plateau located at the intersection of Central, South, and East Asia. Geographically, Tibet is located to the no",
+      "image": "Himalaya_composite.jpg"
+    },
+    "Tian_Shan": {
+      "title": "Tian Shan",
+      "lead": "The Tian Shan, also known as the Tengri Tagh or Tengir-Too, is a large system of mountain ranges in Central Asia. The highest peak is Jengish Chokusu at 7,439 metres (24,406 ft) high and located in Kyrgyzstan. Its lowest point is at the Tur",
+      "image": "Alpine_meadows_and_snow-covered_peaks_in_Khan_Tengri_Nature_Park,_Tien_Shan.jpg"
+    },
+    "Beijing": {
+      "title": "Beijing",
+      "lead": "Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it is the world's most populous national capital city, as well as China's second-largest city by urban area, after Shanghai. It is l",
+      "image": "Skyline_of_Beijing_CBD_with_B-5906_approaching_(20211016171955)_(1).jpg"
+    },
+    "Dnieper": {
+      "title": "Dnieper",
+      "lead": "The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboundary rivers of Europe, rising in the Valdai Hills near Smolensk, Russia, before flowing through Belarus and Ukraine to the Black S",
+      "image": "Dniepr_river_in_Kyiv.jpg"
+    },
+    "Georgians": {
+      "title": "Georgians",
+      "lead": "The Georgians, or Kartvelians (; Georgian: ქართველები, romanized: kartvelebi, pronounced [kʰaɾtʰʷelebi]), are a nation and Caucasian ethnic group native to present-day Georgia and surrounding areas historically associated with the Georgian ",
+      "image": "Georgia,_Kutaisi,_Gelati_Monastery_(29812678274).jpg"
+    },
+    "Jurchen_people": {
+      "title": "Jurchen people",
+      "lead": "Jurchen (Manchu: ᠵᡠᡧᡝᠨ, romanized: Jušen, [dʒuʃən]; Chinese: 女真, romanized: Nǚzhēn, [nỳ.ʈʂə́n]) were a number of East Asian Tungusic-speaking people. They lived in northeastern China, also known as Manchuria, before the 18th century. The Ju",
+      "image": "Jin_(Jurchen)_flags_(51168762691).png"
+    },
+    "Ming_dynasty": {
+      "title": "Ming dynasty",
+      "lead": "The Ming dynasty, officially the Great Ming, was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty. The Ming was the last imperial dynasty of China ruled by the Han people, the ",
+      "image": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
+    },
+    "Confucianism": {
+      "title": "Confucianism",
+      "lead": "Confucianism, also known as Ruism or Ru classicism, is a system of thought and behavior originating in ancient China, and is variously described as a tradition, philosophy, religion, theory of government, or way of life. Founded by Confuciu",
+      "image": "木鐸_---_Confucian_wooden-clapper_bell.svg"
+    },
+    "Hanafi": {
+      "title": "Hanafi school",
+      "lead": "The Hanafi school or Hanafism is the largest school of Islamic jurisprudence out of the four principal schools within Sunni Islam. It developed from the teachings of the jurist and theologian Abu Hanifa (c. 699–767 CE), who systemised the u",
+      "image": ""
+    },
+    "Datong": {
+      "title": "Datong",
+      "lead": "Datong is a prefecture-level city in northern Shanxi Province in the People's Republic of China. It is located in the Datong Basin at an elevation of 1,040 metres (3,410 ft) and borders Inner Mongolia to the north and west and Hebei to the ",
+      "image": "Datong_Ancient_City_Wall_01.jpg"
+    },
+    "Zhongdu": {
+      "title": "Zhongdu",
+      "lead": "Zhongdu (Chinese: 中都; lit. 'Middle Capital'), also called Daxing City (Chinese: 大興城), was a capital city of the Jin dynasty (1115–1234) of China, located in modern-day Beijing, in the southwestern part of Xicheng District. It served as the ",
+      "image": "Beijing_history.jpg"
+    },
+    "Khwarazm": {
+      "title": "Khwarazm",
+      "lead": "Khwarazm or Chorasmia is a large oasis region on the Amu Darya river delta in western Central Asia, bordered on the north by the (former) Aral Sea, on the east by the Kyzylkum Desert, on the south by the Karakum Desert, and on the west by t",
+      "image": "Map_of_Khwarazm_in_the_Islamic_period,_before_the_Mongol_invasion.svg"
+    },
     "Chagatai_Khan": {
       "title": "Chagatai Khan",
       "lead": "Chagatai Khan (Mongolian: ᠴᠠᠭᠠᠲᠠᠶ; c. 1184 – 1242) was a son of Genghis Khan, a prominent figure in the early Mongol Empire, and the first khan of the Chagatai Khanate. The second son of Genghis's wife Börte, Chagatai was renowned for his m",
@@ -947,11 +1152,6 @@
       "lead": "Ryazan (Russian: Рязань, IPA: [rʲɪˈzanʲ] ; also Riazan) is the largest city and the administrative center of Ryazan Oblast, Russia. The city is located on the banks of the Oka River in Central Russia, 196 km (122 mi) southeast of Moscow. As",
       "image": "Фестиваль_воздухоплавания_в_Рязани.jpg"
     },
-    "Tian_Shan": {
-      "title": "Tian Shan",
-      "lead": "The Tian Shan, also known as the Tengri Tagh or Tengir-Too, is a large system of mountain ranges in Central Asia. The highest peak is Jengish Chokusu at 7,439 metres (24,406 ft) high and located in Kyrgyzstan. Its lowest point is at the Tur",
-      "image": "Alpine_meadows_and_snow-covered_peaks_in_Khan_Tengri_Nature_Park,_Tien_Shan.jpg"
-    },
     "Song_dynasty": {
       "title": "Song dynasty",
       "lead": "The Song dynasty ( SUUNG) was an imperial dynasty of China that ruled from 960 to 1279. The dynasty was founded by Emperor Taizu of Song, who usurped the throne of the Later Zhou dynasty and went on to conquer the rest of the Ten Kingdoms, ",
@@ -962,6 +1162,11 @@
       "lead": "Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities in Eastern Europe from the late 9th to the mid-13th century. Encompassing a variety of polities and peoples, including East Slavi",
       "image": "Location_of_Kyivan_Rus.png"
     },
+    "Cumans": {
+      "title": "Cumans",
+      "lead": "The Cumans or Kumans were a Turkic nomadic people from Central Asia comprising the western branch of the Cuman–Kipchak confederation who spoke the Cuman language. They are referred to as Polovtsians (Polovtsy) in Rus' chronicles, as \"Cumans",
+      "image": "Cumania_(1200)_eng.png"
+    },
     "Order_of_Assassins": {
       "title": "Order of Assassins",
       "lead": "The Order of Assassins (Arabic: حَشّاشُون, romanized: Ḥaššāšūn; Persian: حشاشين, romanized: Haššāšīn) was a Nizari Isma'ili Shia Islamic military order founded by Hasan-i Sabbah in 1090. Based in the Nizari Isma'ili state, which comprised a",
@@ -971,6 +1176,86 @@
       "title": "Volga Bulgaria",
       "lead": "Volga Bulgaria or Volga–Kama Bulgaria (sometimes referred to as the Volga Bulgar Emirate) was a historical Bulgar state that existed between the 9th and 13th centuries around the confluence of the Volga and Kama River, in what is now Europe",
       "image": "Volga-Bulgaria.jpg"
+    },
+    "Khagan": {
+      "title": "Khagan",
+      "lead": "Khagan or Qaghan (Kazakh: Қаған/Qağan, Middle Mongol:ᠬᠠᠭᠠᠨ; Khaan or Khagan; Old Turkic: 𐰴𐰍𐰣 Qaɣan) is a title of imperial rank in Turkic, Mongolic, and some other languages, equal to the status of emperor and someone who rules a khagana",
+      "image": ""
+    },
+    "Yel%C3%BC_Chucai": {
+      "title": "Yelü Chucai",
+      "lead": "Yelü Chucai (Chinese: 耶律楚材; pinyin: Yēlǜ Chǔcái; Mongolian: Urtu Saqaltu \"Longbeard\", written in Chinese characters as \"吾圖撒合里\", July 24, 1190 – June 20, 1244), courtesy name Jinqing (Chinese: 晉卿), was a Khitan statesman from the imperial Ye",
+      "image": "耶律楚材.JPG"
+    },
+    "Louis_IX_of_France": {
+      "title": "Louis IX of France",
+      "lead": "Louis IX (25 April 1214 – 25 August 1270), also known as Saint Louis, was King of France from 1226 until his death in 1270. He is widely recognized as the most distinguished of the Direct Capetians, is the sole king of France to be canonise",
+      "image": "Saintlouis_(cropped).jpg"
+    },
+    "Sardis": {
+      "title": "Sardis",
+      "lead": "Sardis ( SAR-diss) or Sardes ( SAR-deess; Lydian: 𐤮𐤱𐤠𐤭, romanized: Sfar; Ancient Greek: Σάρδεις, romanized: Sárdeis; Old Persian: 𐎿𐎱𐎼𐎭, romanized: Sparda) was an ancient city best known as the capital of the Lydian Empire. After the",
+      "image": "The_Bath-Gymnasium_complex_at_Sardis,_late_2nd_-_early_3rd_century_AD,_Sardis,_Turkey_(17098680002).jpg"
+    },
+    "Susa": {
+      "title": "Susa",
+      "lead": "Susa ( SOO-sə) was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, between the Karkheh and Dez Rivers in Iran. It represents the current city of Shush, located on the site of ancient Susa. One of the ",
+      "image": "History_of_Egypt,_Chaldea,_Syria,_Babylonia_and_Assyria_(1903)_(14584070300).jpg"
+    },
+    "Volga": {
+      "title": "Volga",
+      "lead": "The Volga (Russian: Волга, pronounced [ˈvolɡə] ) is the longest river in Europe and the longest endorheic basin river in the world. Situated in Russia, it flows through Central Russia to Southern Russia and into the Caspian Sea. The Volga h",
+      "image": "Yaroslavl._Volga_River._Cathedral_of_the_Dormition_P5212700_2200.jpg"
+    },
+    "Kingdom_of_Hungary": {
+      "title": "Kingdom of Hungary",
+      "lead": "The Kingdom of Hungary was a monarchy in Central Europe that existed for nearly a millennium, from 1000 to 1946. The Catholic kingdom emerged as a continuation of the Grand Principality of Hungary upon the coronation of the first king Steph",
+      "image": "Flag_of_Hungary_(1915-1918;_angels).svg"
+    },
+    "Adriatic_Sea": {
+      "title": "Adriatic Sea",
+      "lead": "The Adriatic Sea () is a body of water separating the Italian Peninsula from the Balkan Peninsula. The Adriatic is the northernmost arm of the Mediterranean Sea, extending from the Strait of Otranto (where it connects to the Ionian Sea) to ",
+      "image": "Adriatic_Sea_2003.jpg"
+    },
+    "Flemish_people": {
+      "title": "Flemish people",
+      "lead": "Flemish people or Flemings (Dutch: Vlamingen [ˈvlaːmɪŋə(n)] ; French: Flamands) are one of three Belgian main ethnic groups native to Flanders, Belgium, who speak Flemish Dutch. Flemish people make up the majority of Belgians, at about 60%.",
+      "image": "Flag_of_Flanders.svg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Ariq_B%C3%B6ke": {
+      "title": "Ariq Böke",
+      "lead": "Ariq Böke (c. 1219–1266) was the seventh and youngest son of Tolui and a grandson of Genghis Khan. After the death of his brother the Great Khan Möngke, Ariq Böke claimed the title of the Great Khan of the Mongol Empire and briefly took pow",
+      "image": "Ariq_Böke.jpg"
+    },
+    "Siege_of_Caizhou": {
+      "title": "Siege of Caizhou",
+      "lead": "The siege of Caizhou in 1233 and 1234 was a battle fought between the Jurchen-led Jin dynasty and the allied forces of the Mongol Empire and Southern Song dynasty. It was the last major battle in the Mongol conquest of the Jin dynasty.",
+      "image": ""
+    },
+    "Kyiv": {
+      "title": "Kyiv",
+      "lead": "Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the country, it straddles both banks of the Dnieper River. As of January 2022, the population of Kyiv was 2,952,301, making it the seven",
+      "image": "Будинок_з_химерами,_серпень_2019.jpg"
+    },
+    "Poland": {
+      "title": "Poland",
+      "lead": "Poland, officially the Republic of Poland, is a country in Central Europe. It extends from the Baltic Sea in the north to the Sudetes and Carpathian Mountains in the south, and borders Lithuania and Russia to the northeast; Belarus and Ukra",
+      "image": "Flag_of_Poland.svg"
+    },
+    "Hungarians": {
+      "title": "Hungarians",
+      "lead": "Hungarians, also known as Magyars, are an ethnic group native to Hungary (Magyarország), who share a common culture, language, history and ancestry. They also have a notable presence in former parts of the Kingdom of Hungary. The Hungarian ",
+      "image": "Map_of_the_Hungarian_Diaspora_in_the_World.svg"
+    },
+    "Oghul_Qaimish": {
+      "title": "Oghul Qaimish",
+      "lead": "Oghul Qaimish (Mongolian: ᠤᠤᠭᠠᠯ ᠬᠠᠶᠢᠮᠢᠰᠢ, Огул Каймиш; c. 1200s–1251) was the wife of Güyük Khan, the third ruler of the Mongol Empire, and was herself the nominal regent of the empire between Güyük's death in 1248 and the accession of Möng",
+      "image": ""
     },
     "Abbasid_Caliphate": {
       "title": "Abbasid Caliphate",
@@ -984,7 +1269,7 @@
     },
     "Seljuk_Empire": {
       "title": "Seljuk Empire",
-      "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval Turkic, culturally Persianate empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 mil",
+      "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval, Turko-Persian empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 million square kil",
       "image": ""
     },
     "Ayyubid_dynasty": {
@@ -1052,6 +1337,101 @@
       "lead": "Sayf ad-Din Qutuz (Arabic: سيف الدين قطز; died 24 October 1260), also romanized as Kutuz or Kotuz and fully al-Malik al-Muẓaffar Sayf ad-Dīn Quṭuz (الملك المظفر سيف الدين قطز lit. 'The Victorious King, Sword of the Faith Qutuz'), was the Ma",
       "image": "صورة_تمثال_سيف_الدين_قطز_crop.jpg"
     },
+    "Damascus": {
+      "title": "Damascus",
+      "lead": "Damascus is the capital and largest city of Syria. It is the oldest capital city in the world. Known colloquially in Syria as aš-Šām and dubbed, poetically, the \"City of Jasmine\" (مَدِيْنَةُ الْيَاسْمِينِ, Madīnat al-Yāsmīn), Damascus is a ",
+      "image": "Damascus_from_qasioun_mountain.jpg"
+    },
+    "Mesopotamia": {
+      "title": "Mesopotamia",
+      "lead": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, ",
+      "image": "N-Mesopotamia_and_Syria_english.svg"
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Muhammad": {
+      "title": "Muhammad",
+      "lead": "Muhammad (c. 570 CE – 8 June 632 CE) was an Arab religious, military and political leader, and the founder of Islam. According to Islam, he was the final prophet of God who was divinely inspired to preach and confirm the monotheistic teachi",
+      "image": "Al-Masjid_AL-Nabawi_Door.jpg"
+    },
+    "Syriac_language": {
+      "title": "Syriac language",
+      "lead": "The Syriac language ( SIRR-ee-ak; Classical Syriac: ܠܫܢܐ ܣܘܪܝܝܐ, romanized: Leššānā Suryāyā), also known natively in its spoken form in early Syriac literature as Edessan (Urhāyā), the Mesopotamian language (Nahrāyā) and Aramaic (Aramāyā), ",
+      "image": ""
+    },
+    "Tehran": {
+      "title": "Tehran",
+      "lead": "Tehran is the capital and largest city of Iran. It is also the capital of Tehran province and the administrative center for Tehran County and its Central District. With a population of around 9 million in the city, and 16.8 million in the m",
+      "image": "North_of_Tehran_Skyline_view.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Ilkhanate": {
+      "title": "Ilkhanate",
+      "lead": "The Ilkhanate or Il-khanate was a Mongol khanate founded in the southwestern territories of the Mongol Empire. It was ruled by the Il-Khans or Ilkhanids (Persian: ایلخانان, romanized: Īlkhānān), and known to the Mongols as Hülegü Ulus (lit.",
+      "image": "Historical_Atlas_of_Iran_-_Plate_No._17_(cropped).jpg"
+    },
+    "M%C3%B6ngke_Khan": {
+      "title": "Möngke Khan",
+      "lead": "Möngke Khan (also Möngke Khagan or Möngke; 11 January 1209 – 11 August 1259) was the fourth khagan of the Mongol Empire, ruling from 1 July 1251 to 11 August 1259. He was the first Khagan from the Toluid line, and made significant reforms t",
+      "image": "Möngke_Khan.jpg"
+    },
+    "Sichuan": {
+      "title": "Sichuan",
+      "lead": "Sichuan is an inland province in Southwestern China. It is located in the Sichuan Basin and Tibetan Plateau—between the Jinsha River to the west, the Daba Mountains to the north, and the Yunnan–Guizhou Plateau to the south. Its capital city",
+      "image": "1_huanglong_2.jpg"
+    },
+    "David": {
+      "title": "David",
+      "lead": "David (; Biblical Hebrew: דָּוִד‎, romanized: Dāwīḏ, \"beloved one\") was, originally, leader of the Tribe of Judah who became the first king of the united Kingdom of Israel, according to the Hebrew Bible and Old Testament. David's reign may ",
+      "image": "King_David,_the_King_of_Israel.jpg"
+    },
+    "Goliath": {
+      "title": "Goliath",
+      "lead": "Goliath ( gə-LY-əth) is a Philistine warrior of giant stature who plays a pivotal role in the origin myth of King David in the Book of Samuel. According to 1 Samuel, Goliath challenges the Israelites to best him in single combat. David, the",
+      "image": "Osmar_Schindler_David_und_Goliath.jpg"
+    },
+    "Hebrew_Bible": {
+      "title": "Hebrew Bible",
+      "lead": "The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ; or תְּנַ״ךְ, tənaḵ), also known in Hebrew as Miqra (; מִקְרָא, miqrāʾ), is the canonical collection of Hebrew scriptures, comprisi",
+      "image": "Tanach.jpg"
+    },
+    "Levant": {
+      "title": "Levant",
+      "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
+      "image": "Levant_(orthographic_projection).png"
+    },
+    "Yellow_Sea": {
+      "title": "Yellow Sea",
+      "lead": "The Yellow Sea (simplified Chinese: 黄海; traditional Chinese: 黃海; pinyin: Huáng Hǎi; Zhuyin Fuhao: ㄏㄨㄤˊ ㄏㄞˇ; Korean: 황해; Hanja: 黃海; RR: Hwanghae), also known as the North Sea, is a marginal sea of the Western Pacific Ocean located between ma",
+      "image": "Bohaiseamap2.png"
+    },
+    "Iranian_peoples": {
+      "title": "Iranian peoples",
+      "lead": "Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their native usage of any of the Iranian languages, which are a branch of the Indo-Iranian languages within the Indo-European language fam",
+      "image": "Iranian_languages_distribution.png"
+    },
+    "Kurds": {
+      "title": "Kurds",
+      "lead": "Kurds (Kurdish: کورد, romanized: Kurd), or the Kurdish people, are an Iranian ethnic group from West Asia. They are indigenous to Kurdistan, which is a geographic region spanning southeastern Turkey, northwestern Iran, northern Iraq, and no",
+      "image": "Distribution_of_Kurds(1).png"
+    },
+    "Siege_of_Diaoyucheng": {
+      "title": "Siege of Diaoyucheng",
+      "lead": "The siege of Diaoyucheng, alternatively the siege of Diaoyu Castle, was a battle between the Southern Song dynasty and the Mongol Empire in 1259. It occurred at the Diaoyu Fortress in modern-day Hechuan District, Chongqing, China. Möngke Kh",
+      "image": "Fishingtown.jpg"
+    },
+    "Round_City_of_Baghdad": {
+      "title": "Round City of Baghdad",
+      "lead": "The Round City of Baghdad is the original core of Baghdad, built by the Abbasid Caliph al-Mansur in 762–766 CE as the official residence of the Abbasid court. Its official name in Abbasid times was City of Peace (Arabic: مدينة السلام, roman",
+      "image": "Baghdad_150_to_300_AH.png"
+    },
     "Drog%C3%B6n_Ch%C3%B6gyal_Phagpa": {
       "title": "Drogön Chögyal Phagpa",
       "lead": "Drogön Chogyal Phagpa (Tibetan: འགྲོ་མགོན་ཆོས་རྒྱལ་འཕགས་པ།, Wylie: ʼgro mgon chos rgyal ʼphags pa; Chinese: 八思巴; 26 March 1235 – 15 December 1280) was the fifth leader of the Sakya school of Tibetan Buddhism. He was also the first Imperial ",
@@ -1067,20 +1447,10 @@
       "lead": "Hangzhou is the capital and most populous city of Zhejiang province, China, situated at the intersection of the southern terminus of the Grand Canal and the head of Hangzhou Bay. Renowned as one of the Eight Ancient Capitals of China, Hangz",
       "image": "杭州钱江新城_4_(cropped).jpg"
     },
-    "Kamikaze_(typhoon)": {
-      "title": "Kamikaze (typhoon)",
-      "lead": "The kamikaze (Japanese: 神風, lit. 'divine wind') were winds or storms that are said to have saved Japan from two Mongol fleets under Kublai Khan. These fleets attacked Japan in 1274 and again in 1281. Due to the growth of Zen Buddhism among ",
-      "image": "Kikuchi_Yoosai_-_Mongol_Invasion_(mōko_shūrai)_-_Tokyo_National_Museum.jpg"
-    },
     "Han_River_(Hubei_and_Shaanxi)": {
       "title": "Han River (Hubei and Shaanxi)",
       "lead": "The Han River, also known by its Chinese names Hanshui and Hanjiang, is a major river in Central China. A left tributary of the Yangtze, the longest river in Asia, it has a length of 1,532 km (952 mi) and is the longest tributary of the Yan",
       "image": "Hanshui_River_in_Wuhan_-_panoramio.jpg"
-    },
-    "Ilkhanate": {
-      "title": "Ilkhanate",
-      "lead": "The Ilkhanate or Il-khanate was a Mongol khanate founded in the southwestern territories of the Mongol Empire. It was ruled by the Il-Khans or Ilkhanids (Persian: ایلخانان, romanized: Īlkhānān), and known to the Mongols as Hülegü Ulus (lit.",
-      "image": "Historical_Atlas_of_Iran_-_Plate_No._17_(cropped).jpg"
     },
     "Chagatai_Khanate": {
       "title": "Chagatai Khanate",
@@ -1097,15 +1467,100 @@
       "lead": "Christopher Columbus (; between 25 August and 31 October 1451 – 20 May 1506) was an Italian explorer and navigator from the Republic of Genoa who completed four Spanish transatlantic voyages in the name of the Catholic Monarchs, opening the",
       "image": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
     },
+    "G%C3%BCy%C3%BCk_Khan": {
+      "title": "Güyük Khan",
+      "lead": "Güyük Khan or Güyüg Khagan, mononymously Güyüg (c. 19 March 1206 – 20 April 1248), was the third Khagan of the Mongol Empire, the eldest son of Ögedei Khan and a grandson of Genghis Khan. He reigned from 1246 to 1248. He started his militar",
+      "image": "Guyuk_khan_from_Persian_miniature.jpg"
+    },
+    "Yangtze": {
+      "title": "Yangtze",
+      "lead": "The Yangtze River, Yangzi River (English: or ) or Chang Jiang (simplified Chinese: 长江; traditional Chinese: 長江; pinyin: Cháng Jiāng; Zhuyin Fuhao: ㄔㄤˊ ㄐㄧㄤ; lit. 'long river') is the longest river in China and the third-longest river in the ",
+      "image": "Dusk_on_the_Yangtze_River.jpg"
+    },
+    "Pearl_River_(China)": {
+      "title": "Pearl River",
+      "lead": "The Pearl River (Chinese: 珠江; pinyin: Zhūjiāng; lit. 'pearl river', or 粤江; 粵江; Yuèjiāng; 'Yue river') is an extensive river system in southern China. \"Pearl River\" is often also used as a catch-all for the watersheds of the Pearl tributarie",
+      "image": "Humen_Bridge-1.jpg"
+    },
+    "Macau": {
+      "title": "Macau",
+      "lead": "Macau or Macao is a special administrative region of China. It consists of the Macau Peninsula, the islands of Taipa and Coloane, the Cotai reclamation zone between Taipa and Coloane, and several smaller islets. It borders Zhuhai to the nor",
+      "image": "Flag_of_Macau.svg"
+    },
+    "Yunnan": {
+      "title": "Yunnan",
+      "lead": "Yunnan is an inland province in Southwestern China, spanning approximately 394,000 km2 (152,000 sq mi) and has a population of 47.2 million (as of 2020). The capital of the province is Kunming. The province borders the Chinese provinces of ",
+      "image": "55936-Lijiang_(27941831943).jpg"
+    },
+    "Genoa": {
+      "title": "Genoa",
+      "lead": "Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301 people live within the city's administrative limits. While its metropolitan city has 818,629 inhabitants, more than 1.5 million p",
+      "image": "Piazza_de_Ferrari,_Genoa.jpg"
+    },
+    "Great_Wall_of_China": {
+      "title": "Great Wall of China",
+      "lead": "The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally \"ten thousand li long wall\") is a series of fortifications in China. They were built across the historical northern borders of",
+      "image": "The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+    },
+    "Hangul": {
+      "title": "Hangul",
+      "lead": "The Korean alphabet is the modern writing system for the Korean language. It has gone by a variety of names, such as Chosŏn'gŭl in North Korea, Hangul internationally, and Hangeul in South Korea. The script's original name was Hunminjeongeu",
+      "image": "Hangul_chosongul_fontembed.svg"
+    },
+    "I_Ching": {
+      "title": "I Ching",
+      "lead": "The I Ching or Yijing (Chinese: 易經 Mandarin pronunciation:[î tɕíŋ] ), usually translated Book of Changes or Classic of Changes, is an ancient Chinese divination text that is among the oldest of the Chinese classics. The I Ching was original",
+      "image": "I_Ching_Song_Dynasty_print.jpg"
+    },
+    "Ezhou": {
+      "title": "Ezhou",
+      "lead": "Ezhou (Chinese: 鄂州), also known by another name O-chou is a prefecture-level city in eastern Hubei Province, China. As of the 2020 census, the city had a population of 1,079,353, of which 695,697 lived in the core Echeng District. The Ezhou",
+      "image": "洋澜湖（1）.jpg"
+    },
+    "Shangdu": {
+      "title": "Shangdu",
+      "lead": "Shangdu (Chinese: 上都; pinyin: Shàngdū; lit. \"Upper Capital\"; Mongolian: Шанду), known in the West as Xanadu, was the summer capital of the Yuan dynasty. Located in what is now Zhenglan Banner, Inner Mongolia, it was designed by Chinese arch",
+      "image": "Xanadu_(54565367991).jpg"
+    },
+    "Southern_Song": {
+      "title": "Song dynasty",
+      "lead": "The Song dynasty ( SUUNG) was an imperial dynasty of China that ruled from 960 to 1279. The dynasty was founded by Emperor Taizu of Song, who usurped the throne of the Later Zhou dynasty and went on to conquer the rest of the Ten Kingdoms, ",
+      "image": "China_-_Song_Dynasty-en.svg"
+    },
+    "Fancheng": {
+      "title": "Fancheng, Xiangyang",
+      "lead": "Fancheng is a district of the city of Xiangyang, Hubei, People's Republic of China.",
+      "image": "Xiangyang_skyline_02.jpg"
+    },
+    "Republic_of_Venice": {
+      "title": "Republic of Venice",
+      "lead": "The Republic of Venice, officially the Most Serene Republic of Venice and traditionally known as La Serenissima, was a sovereign state and maritime republic with its capital in Venice, on the northeastern coast of Italy. Founded, according ",
+      "image": "Variant_war_flag_of_the_Serene_Republic_of_Venice.svg"
+    },
+    "Singhasari": {
+      "title": "Singhasari",
+      "lead": "Singhasari (Javanese: ꦏꦫꦠꦺꦴꦤ꧀ꦱꦶꦔ꧀ꦲꦱꦫꦶ, romanized: Karaton Singhasari or Karaton Singosari, Indonesian: Kerajaan Singasari), also known as Tumapel, was a Javanese Hindu-Buddhist kingdom located in east Java between 1222 and 1292. The kingdom",
+      "image": "Singhasari_Kingdom_en.svg"
+    },
+    "Zhenjin": {
+      "title": "Zhenjin",
+      "lead": "Zhenjin (Mongolian: Чингим, ᠴᠢᠩᠭᠢᠮ; Chinese: 真金; pinyin: Zhēnjīn; July 8, 1243 – 1285 or January 5, 1286), also rendered as Jingim, Chinkim, or Chingkim, was a crown prince of the Yuan dynasty of China. He was a son of Kublai Khan (Emperor ",
+      "image": ""
+    },
+    "Temür_Khan": {
+      "title": "Temür Khan",
+      "lead": "Öljeyitü Khan (Mongolian: Өлзийт Хаан; Mongolian script: ᠥᠯᠵᠡᠶᠢᠲᠦ Öljeyitü; Chinese: 完澤篤汗), born Temür (Mongolian: Төмөр ᠲᠡᠮᠦᠷ; Chinese: 鐵穆耳; 15 October 1265 – 10 February 1307), also known by his temple name as the Emperor Chengzong of Yua",
+      "image": "YuanEmperorAlbumTemurOljeituPortrait.jpg"
+    },
+    "Counterweight_trebuchet": {
+      "title": "Trebuchet",
+      "lead": "A trebuchet (French: trébuchet) is a type of catapult that uses a hinged arm with a sling attached to the tip to launch a projectile. It was a common powerful siege engine until the advent of gunpowder. The design of a trebuchet allows it t",
+      "image": "Trebuchet_Castelnaud.jpg"
+    },
     "Paiza": {
       "title": "Paiza",
       "lead": "A paiza, paizi, or gerege (Middle Mongolian: Гэрэгэ, Mongolian: Пайз, Persian: پایزه pāiza, Chinese: 牌子 páizi) was a tablet carried by Mongol officials and envoys to signify certain privileges and authority. They enabled Mongol nobles and o",
       "image": "Paiza_Golden_Horde.jpg"
-    },
-    "Rashid-al-Din_Hamadani": {
-      "title": "Rashid al-Din Hamadani",
-      "lead": "Rashīd al-Dīn Ṭabīb (Persian: رشیدالدین طبیب;‎ 1247–1318; also known as Rashīd al-Dīn Faḍlullāh Hamadānī, Persian: رشیدالدین فضل‌الله همدانی) was a statesman, historian, and physician in Ilkhanate Iran. Having converted to Islam from Judais",
-      "image": "Presentation_of_the_book,_folio_6_(Bibliothèque_nationale_de_France,_Supplément_Persan_1113).jpg"
     },
     "Zij-i_Ilkhani": {
       "title": "Zij-i Ilkhani",
@@ -1139,7 +1594,7 @@
     },
     "Tarim_Basin": {
       "title": "Tarim Basin",
-      "lead": "The Tarim Basin is an endorheic basin in Xinjiang, Northwestern China occupying an area of about 888,000 km2 (343,000 sq mi) and the largest basin in Northwest China. Located in China's Xinjiang region, it is sometimes used synonymously to ",
+      "lead": "The Tarim Basin is an endorheic basin in Xinjiang, Northwestern China, occupying an area of about 888,000 km2 (343,000 sq mi) and the largest basin in Northwest China. Located in China's Xinjiang region, it is sometimes used synonymously to",
       "image": "Wfm_tarim_basin.jpg"
     },
     "Semu": {
@@ -1147,20 +1602,10 @@
       "lead": "The Semu (Chinese: 色目; pinyin: sèmù) were the name of a political class in Imperial China, made up of foreign experts who came to serve the political systems of Imperial China. The Semu were not a self-defined ethnic group unto themselves; ",
       "image": "Kunyang_-_Zheng_He_Park_-_P1350545.JPG"
     },
-    "Republic_of_Venice": {
-      "title": "Republic of Venice",
-      "lead": "The Republic of Venice, officially the Most Serene Republic of Venice and traditionally known as La Serenissima, was a sovereign state and maritime republic with its capital in Venice, on the northeastern coast of Italy. Founded, according ",
-      "image": "Variant_war_flag_of_the_Serene_Republic_of_Venice.svg"
-    },
     "Kamakura_shogunate": {
       "title": "Kamakura shogunate",
       "lead": "The Kamakura shogunate (Japanese: 鎌倉幕府, Hepburn: Kamakura bakufu) was the feudal military government of Japan during the Kamakura period from 1185 to 1333. The Kamakura shogunate was established by Minamoto no Yoritomo after victory in the ",
       "image": "Ancient_Provinces_of_Japan_Ryoseikoku_Map.png"
-    },
-    "Goryeo": {
-      "title": "Goryeo",
-      "lead": "Goryeo (Korean: 고려; Hanja: 高麗; MR: Koryŏ; pronounced [ko.ɾjʌ]; Middle Korean: 고ᇢ롕〮, romanized: kwòwlyéy) was a Korean state founded in 918, during a time of national division called the Later Three Kingdoms period, that unified and ruled th",
-      "image": "Seal_of_Goryeo_King.svg"
     },
     "Semu_people": {
       "title": "Semu",
@@ -1171,6 +1616,151 @@
       "title": "Crimea",
       "lead": "Crimea ( kry-MEE-ə) is a peninsula in Eastern Europe, on the northern coast of the Black Sea, almost entirely surrounded by the Black Sea and the smaller Sea of Azov. The Isthmus of Perekop connects the peninsula to Kherson Oblast in mainla",
       "image": "Crimea_(orthographic_projection).svg"
+    },
+    "Chinggisids": {
+      "title": "Chinggisids",
+      "lead": "The Chinggisids were the descendants of Genghis Khan, also known as Chinggis Khan, and his first wife Börte. The dynasty, which evolved from Genghis Khan's own Borjigin tribe, ruled the Mongol Empire and its successor states. The \"Chinggisi",
+      "image": "YuanEmperorAlbumGenghisPortrait.jpg"
+    },
+    "Alamut_Castle": {
+      "title": "Alamut Castle",
+      "lead": "Alamut (Persian: الموت, lit. 'Eagle's Nest') is a ruined mountain fortress located in the Alamut region in the South Caspian, near the village of Gazor Khan in Qazvin province in Iran, approximately 200 km (130 mi) from present-day Tehran. ",
+      "image": "Iran_-_Qazvin_-_Alamout_Castle_-_panoramio_(1).jpg"
+    },
+    "Ptolemy": {
+      "title": "Ptolemy",
+      "lead": "Claudius Ptolemy (; Ancient Greek: Πτολεμαῖος, Ptolemaios; Latin: Claudius Ptolemaeus; c. 100 – 160s/170s AD), better known mononymously as Ptolemy, was a Greco-Roman mathematician, astronomer, astrologer, geographer, and music theorist who",
+      "image": "Ptolemy_1476_with_armillary_sphere_model.jpg"
+    },
+    "Nicolaus_Copernicus": {
+      "title": "Nicolaus Copernicus",
+      "lead": "Nicolaus Copernicus (19 February 1473 – 24 May 1543) was a Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center. The publication of Copernicus's model in his book De revolutionibus ",
+      "image": "Nikolaus_Kopernikus_MOT.jpg"
+    },
+    "Slavs": {
+      "title": "Slavs",
+      "lead": "The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distributed throughout the northern parts of Eurasia; they predominantly inhabit Central Europe, Eastern Europe, Southeastern Europe, and N",
+      "image": "Slavic_europe_(Kosovo_unshaded).svg"
+    },
+    "Russian_Orthodox_Church": {
+      "title": "Russian Orthodox Church",
+      "lead": "The Russian Orthodox Church (ROC; Russian: Русская православная церковь, РПЦ, romanized: Russkaya pravoslavnaya tserkov', RPTs;), designated as the Moscow Patriarchate (Russian: Московский патриархат, romanized: Moskovskiy patriarkhat) or R",
+      "image": "Moscow_-_Cathedral_of_Christ_the_Saviour_29-8-2024_1.jpg"
+    },
+    "Moscow": {
+      "title": "Moscow",
+      "lead": "Moscow is the capital and largest city of Russia, standing on the Moskva River in Central Russia. It has a population estimated at over 13 million residents within the city limits, over 19.1 million residents in the urban area, and over 21.",
+      "image": "Saint_Basil's_Cathedral_and_the_Red_Square.jpg"
+    },
+    "Republic_of_Genoa": {
+      "title": "Republic of Genoa",
+      "lead": "The Republic of Genoa was a medieval and early modern maritime republic from the years 1099 to 1797 in Liguria on the northwestern Italian coast. During the Late Middle Ages, it was a major commercial power in both the Mediterranean and Bla",
+      "image": "Flag_of_Genoa.svg"
+    },
+    "Black_Sea": {
+      "title": "Black Sea",
+      "lead": "The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia. It is bounded by Bulgaria, Georgia, Romania, Russia, Turkey, and Ukraine. The",
+      "image": "Black_Sea_map.png"
+    },
+    "Ukraine": {
+      "title": "Ukraine",
+      "lead": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast. Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Mo",
+      "image": "Flag_of_Ukraine.svg"
+    },
+    "Aral_Sea": {
+      "title": "Aral Sea",
+      "lead": "The Aral Sea was an endorheic salt lake lying between Kazakhstan to its north and Uzbekistan to its south, which began shrinking in the 1960s and had largely dried up into desert by 2007. It was in the Aktobe and Kyzylorda regions of Kazakh",
+      "image": "AralSea1989_2014.jpg"
+    },
+    "Transoxiana": {
+      "title": "Transoxiana",
+      "lead": "Transoxiana or Transoxania (lit. 'Land beyond the Oxus', now called the Amu Darya) is the Latin name for the region and civilization located in lower Central Asia roughly corresponding to eastern Uzbekistan, western Tajikistan, southern Kyr",
+      "image": "Transoxiana_8th_century.svg"
+    },
+    "Moghulistan": {
+      "title": "Moghulistan",
+      "lead": "Moghulistan, also called the Moghul Khanate or the Eastern Chagatai Khanate, was a Turco-Mongol, Muslim, breakaway khanate of the Chagatai Khanate and a historical geographic area north of the Tengri Tagh mountain range, on the border of Ce",
+      "image": "Chagatai_Khanate_(1490).png"
+    },
+    "Barlas": {
+      "title": "Barlas",
+      "lead": "The Barlas (Mongolian: ᠪᠠᠷᠤᠯᠠᠰ, Барлас, romanized: Bārulās; Chagatai Turkic/Persian: برلاس, Barlās; also Berlās) were a Mongol tribe, [Mongol tradition|]] in Central Asia, forming a nomadic confederation. Originally Barlas were a sub-clan o",
+      "image": "Mongol_Empire_c.1207.png"
+    },
+    "Taj_Mahal": {
+      "title": "Taj Mahal",
+      "lead": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the f",
+      "image": "Taj_Mahal_(Edited).jpeg"
+    },
+    "Han_Chinese": {
+      "title": "Han Chinese",
+      "lead": "The Han Chinese, alternatively Han people, or Chinese people, are an East Asian ethnic group native to Greater China. With a global population of over 1.4 billion, the Han Chinese are the world's largest ethnic group, making up about 17% of",
+      "image": "武官肖像.jpg"
+    },
+    "Romance_of_the_Three_Kingdoms": {
+      "title": "Romance of the Three Kingdoms",
+      "lead": "Romance of the Three Kingdoms (traditional Chinese: 三國演義; simplified Chinese: 三国演义; pinyin: Sānguó Yǎnyì) is a 14th-century historical novel attributed to Luo Guanzhong. It is set during the turbulent final years of the Han dynasty and the ",
+      "image": "新刊校正古本大字音释三国志通俗演义_明万历十九年书林周曰校刊本_002.jpg"
+    },
+    "Water_Margin": {
+      "title": "Water Margin",
+      "lead": "Water Margin (simplified Chinese: 水浒传; traditional Chinese: 水滸傳; pinyin: Shuǐhǔ Zhuàn), also called Outlaws of the Marsh or All Men Are Brothers, is a Chinese novel from the Ming dynasty that is one of the preeminent Classic Chinese Novels.",
+      "image": "Shuihu_zhuan_-_juan_15-19_-_page_1.jpg"
+    },
+    "Tang_dynasty": {
+      "title": "Tang dynasty",
+      "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
+      "image": "Tang_outline_map,_661.svg"
+    },
+    "Muslims": {
+      "title": "Muslims",
+      "lead": "Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monotheistic religion belonging to the Abrahamic tradition. They consider the Quran, the foundational religious text of Islam, ",
+      "image": "Prayer_in_Cairo_1865.jpg"
+    },
+    "Greeks": {
+      "title": "Greeks",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, Southern Italy (Greeks in Italy), parts of Egypt, and to a lesser extent, other countries surrou",
+      "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "De_revolutionibus_orbium_coelestium": {
+      "title": "De revolutionibus orbium coelestium",
+      "lead": "De revolutionibus orbium coelestium (On the Revolutions of the Heavenly Spheres) is the seminal work on the heliocentric theory of the astronomer Nicolaus Copernicus (1473–1543 CE). The book, first printed in 1543 CE in Nuremberg, Holy Roma",
+      "image": "De_revolutionibus_1543.png"
+    },
+    "Jalayirid_Sultanate": {
+      "title": "Jalayirid Sultanate",
+      "lead": "The Jalayirid Sultanate (Persian: جلایریان, romanized: Jalāyiriyān), also Ilka dynasty or Ilkanids, was a Mongol dynasty which ruled over modern-day Iraq and western Iran after the breakup of the Ilkhanate in the 1330s. It expanded for abou",
+      "image": "Jalayirids,_Muzaffarids_in_1374.png"
+    },
+    "Chobanids": {
+      "title": "Chobanids",
+      "lead": "The Chobanids or the Chupanids (Persian: چوپانیان) were descendants of a Mongol family of the Suldus clan that came to prominence in 14th century Persia. At first serving under the Ilkhans, they took de facto control of the territory after ",
+      "image": "Chupanid_-_Jalayerid_dynasty_1337–1432_ad.png"
+    },
+    "Muzaffarids_(Iran)": {
+      "title": "Muzaffarids (Iran)",
+      "lead": "The Muzaffarid dynasty (Arabic: آل مظفر;Persian: مظفریان) was a Muslim dynasty that came to power in Iran following the breakup of the Ilkhanate in the 14th century. At their zenith, they ruled a kingdom comprising Iranian Azerbaijan, centr",
+      "image": "MuzaffaridDynastyofIranMapHistoryofIran.png"
+    },
+    "Middle_East": {
+      "title": "Middle East",
+      "lead": "The Middle East is a geo-political region that is generally defined as encompassing all of Egypt and all of West Asia except for the Caucasus. It roughly corresponds with what was historically referred to in Western Europe as the Near East,",
+      "image": "Middle_East_(orthographic_projection).svg"
+    },
+    "Persian_language": {
+      "title": "Persian language",
+      "lead": "Persian, also known by its endonym Farsi, or Parsi, is a Western Iranian language belonging to the Iranian branch of the Indo-Iranian subdivision of the Indo-European languages. Persian is a pluricentric language predominantly spoken and us",
+      "image": "Farsi.svg"
+    },
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "image": "Byzantine_Constantinople-en.png"
+    },
+    "Baltic_region": {
+      "title": "Baltic region",
+      "lead": "The Baltic Sea Region, alternatively the Baltic Rim countries (or simply the Baltic Rim), and the Baltic Sea countries/states, refers to the general area surrounding the Baltic Sea, including parts of Northern, Central and Eastern Europe. U",
+      "image": "Baltic_Sea_map.png"
     },
     "Yersinia_pestis": {
       "title": "Yersinia pestis",
@@ -1212,6 +1802,41 @@
       "lead": "The Northern Yuan was a dynastic state ruled by the Mongol Borjigin clan based in the Mongolian Plateau. It existed as a rump state after the collapse of the Yuan dynasty in 1368 and lasted until its conquest by the Jurchen-led Later Jin dy",
       "image": ""
     },
+    "%C3%96z_Beg_Khan": {
+      "title": "Özbeg Khan",
+      "lead": "Özbeg or Uzbeg Khan (1282–1341), also known as Giyas ad-Din Muhammad Uzbek Khan, was Khan of the Golden Horde from 1313 to 1341. He was the longest-reigning khan, under whose rule the state reached its zenith. He was succeeded by his son Ti",
+      "image": "Portrait_of_Khan_Uzbek.jpg"
+    },
+    "Great_Troubles": {
+      "title": "Great Troubles",
+      "lead": "The Great Troubles (Russian: Великая замятня, romanized: Velikaya zamyatnya, from Old East Slavic замѧтьнѧ, as found in Rus' chronicles), also known as the Golden Horde Dynastic War, was a war of succession in the Golden Horde from 1359 to ",
+      "image": "Mamai.jpg"
+    },
+    "Gabriel_de_Mussis": {
+      "title": "Gabriel de Mussis",
+      "lead": "Gabriel de Mussis (Italian: Gabriele de' Mussi; c. 1280 – c. 1356) was a notary from Piacenza, Italy, who gave a vivid account of the start of the Black Death in the Black Sea city of Kaffa and its spread to Sicily and Piacenza. His account",
+      "image": "Gabriele_de'_Mussi,_first_page.png"
+    },
+    "Han_Shantong": {
+      "title": "Han Shantong",
+      "lead": "Han Shantong (Chinese: 韓山童; pinyin: Hán Shāntóng; died 1351), born in Luancheng, Hebei, was one of the early leaders of the Red Turban Rebellions. He claimed to be the descendant of Emperor Huizong of Song (1082–1135), the penultimate emper",
+      "image": ""
+    },
+    "Anhui": {
+      "title": "Anhui",
+      "lead": "Anhui is an inland province located in East China. Its provincial capital and largest city is Hefei. The province is located across the basins of the Yangtze and Huai rivers, bordering Jiangsu and Zhejiang to the east, Jiangxi to the south,",
+      "image": "Mount-huangshan_53319732882_o.jpg"
+    },
+    "Nanjing": {
+      "title": "Nanjing",
+      "lead": "Nanjing is the capital of Jiangsu, East China. The city, which is located in the southwestern corner of the province, has 11 districts, an administrative area of 6,600 square kilometres (2,500 sq mi), and as of 2021 a population of 9,423,40",
+      "image": "Nanjing_CBD_from_City_Wall.jpg"
+    },
+    "Christianity": {
+      "title": "Christianity",
+      "lead": "Christianity is an Abrahamic monotheistic religion based on the Bible and the teachings of Jesus. The Gospels state that Jesus is the Son of God and rose from the dead after his crucifixion, whose coming as the messiah (Christ) was prophesi",
+      "image": "Church_of_the_Holy_Sepulchre_by_Gerd_Eichmann_(cropped).jpg"
+    },
     "Timurid_dynasty": {
       "title": "Timurid dynasty",
       "lead": "The Timurid dynasty, self-designated as Gurkani, was the ruling dynasty of the Timurid Empire (1370–1507). It was a Sunni Muslim dynasty or Barlās clan of Turco-Mongol origin descended from the warlord Timur (also known as Tamerlane). The w",
@@ -1227,11 +1852,6 @@
       "lead": "Babur (Persian: ببر, Persian: [bɑː.βuɾ]; 14 February 1483 – 26 December 1530; born Zahīr ud-Dīn Muhammad) was the founder of the Mughal Empire in the Indian subcontinent. He was a descendant of Timur and Genghis Khan through his father and ",
       "image": "Humayun_and_Babur_(Late_Shah_Jahan_Album)_Babur_detail.jpg"
     },
-    "Taj_Mahal": {
-      "title": "Taj Mahal",
-      "lead": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the f",
-      "image": "Taj_Mahal_(Edited).jpeg"
-    },
     "Shah_Jahan": {
       "title": "Shah Jahan",
       "lead": "Shah Jahan I (Shahab-ud-Din Muhammad Khurram; 5 January 1592 – 22 January 1666), also called Shah Jahan the Magnificent, was the fifth Mughal Emperor from 1628 until his deposition in 1658. His reign marked the zenith of Mughal architectura",
@@ -1241,11 +1861,6 @@
       "title": "Ulugh Beg",
       "lead": "Mīrzā Muhammad Tarāghāy bin Shāhrukh (Chagatay: میرزا محمد تراغای بن شاهرخ; Persian: میرزا محمد طارق بن شاهرخ), better known as Ulugh Beg (Persian: الغ‌بیک; 22 March 1394 – 27 October 1449), was a Timurid sultan, as well as an astronomer an",
       "image": "Ulugh_Beg_Observatory_02.jpg"
-    },
-    "Nicolaus_Copernicus": {
-      "title": "Nicolaus Copernicus",
-      "lead": "Nicolaus Copernicus (19 February 1473 – 24 May 1543) was a Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center. The publication of Copernicus's model in his book De revolutionibus ",
-      "image": "Nikolaus_Kopernikus_MOT.jpg"
     },
     "Ivan_III_of_Russia": {
       "title": "Ivan III of Russia",
@@ -1291,6 +1906,101 @@
       "title": "Khmer Empire",
       "lead": "The Khmer Empire was an empire in mainland Southeast Asia, centred on hydraulic cities in what is now northern Cambodia. Known as Kambuja (Old Khmer: កម្វុជ; Khmer: កម្ពុជ) by its inhabitants, it grew out of the former civilisation of Chenl",
       "image": "Map-of-southeast-asia_900_CE.svg"
+    },
+    "Emperor_Huizong_of_Yuan": {
+      "title": "Toghon Temür",
+      "lead": "Toghon Temür (Mongolian: Тогоон Төмөр, romanized: Togoon Tömör; simplified Chinese: 妥懽帖睦尔; traditional Chinese: 妥懽帖睦爾; pinyin: Tuǒhuān Tiēmù'ěr; 25 May 1320 – 23 May 1370), also known by his temple name as Emperor Huizong of Yuan and by his",
+      "image": "元順帝妥歡帖木兒_Emperor_Shun_of_Yuan_Toghon_Temür.png"
+    },
+    "Mongolian_language": {
+      "title": "Mongolian language",
+      "lead": "Mongolian is the principal language of the Mongolic language family that originated in the Mongolian Plateau. It is spoken by ethnic Mongols and other closely related Mongolic peoples who are native to modern Mongolia and surrounding parts ",
+      "image": "Idioma_mongol.png"
+    },
+    "Euphrates": {
+      "title": "Euphrates",
+      "lead": "The Euphrates ( yoo-FRAY-teez; see below) is the longest and one of the most historically important rivers of West Asia. Together with the Tigris, it is one of the two defining rivers of Mesopotamia (lit. 'the land between the rivers'). Ori",
+      "image": "The_Euphrates_River_in_Turkey,_Rumkale_(52031477798).jpg"
+    },
+    "Y_chromosome": {
+      "title": "Y chromosome",
+      "lead": "The Y chromosome is one of two sex chromosomes in therian mammals and other organisms. Along with the X chromosome, it is part of the XY sex-determination system, in which the Y is used for sex-determining as the presence of the Y chromosom",
+      "image": "Human_male_karyotpe_high_resolution_-_Chromosome_Y.png"
+    },
+    "Tsar": {
+      "title": "Tsar",
+      "lead": "Tsar (; also spelled czar, tzar, or csar; Bulgarian: цар, romanized: tsar; Russian: царь, romanized: tsar'; Serbian: цар, car) is a Slavic title derived from the Latin word caesar, which was intended to mean emperor in the European medieval",
+      "image": "Car_Simeon_Bulharsky_-_Alfons_Mucha.jpg"
+    },
+    "Siberia": {
+      "title": "Siberia",
+      "lead": "Siberia ( sy-BEER-ee-ə; Russian: Сибирь, romanized: Sibir', IPA: [sʲɪˈbʲirʲ] ) is an extensive geographical region comprising all of North Asia, from the Ural Mountains in the west (with the Ural River usually forming the southernmost porti",
+      "image": "Siberia_(orthographic_projection).svg"
+    },
+    "Manchu_people": {
+      "title": "Manchu people",
+      "lead": "The Manchus (Manchu: ᠮᠠᠨᠵᡠ, romanized: manju; Chinese: 满洲、满族; pinyin: Mǎnzhōu, Mǎnzú; Wade–Giles: Man3-chou1, Man3-tsu2) are a Tungusic East Asian ethnic group native to Manchuria in Northeast Asia. They are an officially recognized ethnic ",
+      "image": "Empress_Wan_Rong.jpg"
+    },
+    "Manchu_language": {
+      "title": "Manchu language",
+      "lead": "Manchu (ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ Manju gisun) is a critically endangered Tungusic language native to the historical region of Manchuria in Northeast China. As the traditional native language of the Manchus, it was the national language of the Qing dynas",
+      "image": ""
+    },
+    "Urgench": {
+      "title": "Urgench",
+      "lead": "Urgench (Uzbek: Urganch/Урганч/اورگنج, pronounced [urɡæntʃ]; Russian: Ургенч, romanized: Urgench; Persian: گرگانج, romanized: Gorgânj) is a district-level city in western Uzbekistan. It is the capital of Xorazm Region. The estimated populat",
+      "image": "Waterfront_of_Shavat_canal_in_Urganch.jpg"
+    },
+    "Petrarch": {
+      "title": "Petrarch",
+      "lead": "Francis Petrarch (born Francesco di Petracco; 20 July 1304 – 19 July 1374) was an Italian scholar and poet of the early Italian Renaissance, as well as one of the earliest humanists. Petrarch's rediscovery of Cicero's letters is often credi",
+      "image": "Portrait_of_Francesco_Petrarca_(called_Petrarch)_-_French_school,_17th_century.jpg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Paper": {
+      "title": "Paper",
+      "lead": "Paper is a thin sheet of matted cellulose fibers. Largely derived from lignocellulose, paper is created from a pulp dissolved into a slurry that is drained and dried into sheets. Different types of paper are defined by constituent fiber, pa",
+      "image": "Various_products_made_from_paper.JPG"
+    },
+    "Achaemenid_Empire": {
+      "title": "Achaemenid Empire",
+      "lead": "The Achaemenid Empire (, ə-KEE-mə-nid; Old Persian: 𐎧𐏁𐏂, Xšāça, lit. 'The Empire' or 'The Kingdom') was an ancient Iranian empire founded by Cyrus the Great of the Achaemenid dynasty in 550 BC. At peak, its territorial extent was roughly",
+      "image": "Achaemenid_Empire_500_BCE.jpg"
+    },
+    "Roman_Empire": {
+      "title": "Roman Empire",
+      "lead": "The Roman Empire was a state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period. The Roman Republic had previously conquered most of these territories, which later came under perm",
+      "image": "Roman_Empire_Trajan_117AD.png"
+    },
+    "Mansa_Musa": {
+      "title": "Mansa Musa",
+      "lead": "Mansa Musa (c. 1280 – c. 1337) was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign. Musa's reign is often regarded as the zenith of Mali's power and prestige, although he features less in Mandinka ora",
+      "image": "Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg"
+    },
+    "Tenochtitlan": {
+      "title": "Tenochtitlan",
+      "lead": "Tenochtitlan, also known as Mexico-Tenochtitlan, was a large Mexican altepetl in what is now the historic center of Mexico City. The exact date of the founding of the city is unclear, but the date 13 March 1325 was chosen in 1925 to celebra",
+      "image": "Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_(9755215791).jpg"
+    },
+    "Trecento": {
+      "title": "Trecento",
+      "lead": "The Trecento ( tray-CHEN-toh, US also treh-, Italian: [treˈtʃɛnto]; short for milletrecento, \"1300\") refers to the 14th century in Italian cultural history. The Trecento is considered to be the beginning of the Italian Renaissance or at lea",
+      "image": "Collage_arte_italiana.jpg"
+    },
+    "Giovanni_Boccaccio": {
+      "title": "Giovanni Boccaccio",
+      "lead": "Giovanni Boccaccio (16 June 1313 – 21 December 1375) was an Italian writer, poet, correspondent of Petrarch, and an important Renaissance humanist. Born in the town of Certaldo, he became so well known as a writer that he was sometimes simp",
+      "image": "Andrea_del_Castagno_Giovanni_Boccaccio_c_1450.jpg"
+    },
+    "Muslim_world": {
+      "title": "Islamic world",
+      "lead": "The terms Islamic world and Muslim world commonly refer to the Islamic community, which is also known as the Ummah. This consists of all those who adhere to the religious beliefs, politics, and laws of Islam or to societies in which Islam i",
+      "image": "Islam_percent_population_in_each_nation_World_Map_Muslim_data_by_Pew_Research.svg"
     }
   }
 }

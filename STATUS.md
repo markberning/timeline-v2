@@ -47,16 +47,18 @@ fix-links, audit-reuse-links, snapshot, G10/11/12, waiver-flag → one
 catches name-overlap homonyms fix-links misses, e.g. Assassins→
 Assassin's_Creed). Per-civ coordinator work is now ~2 commands.
 
-**▶ KNOWN QUALITY GAP — bold-only matcher limitation (surfaced 2026-05-21):**
-the link matcher will not render a link whose ONLY occurrence in a chapter
-is inside `**bold**` (house first-use style). Real entities that appear
-only bolded (hme: Raymond of Toulouse, County of Tripoli, Spanish
-Inquisition, Pisa, Córdoba, Valencia, Seville, etc. — ~20) get waived
-"bold-only-renders-nowhere" — coverage gate passes (it reads JSON) but no
-link renders. Same in every civ (STATUS noted ~37 in ottoman). If the
-matcher were taught to render a link inside/around a bold span, it would
-unlock these corpus-wide. NOT yet investigated — flagged as a high-value
-follow-up.
+**▶ CORRECTED 2026-05-21 — "bold-only doesn't render" IS A MYTH. BOLD/ITALIC
+TERMS LINK FINE.** Verified end-to-end: injecting `<a>` into `**Term**`
+yields `<strong><a>Term</a></strong>` (remark/rehype handles it); confirmed
+on a real term (Spanish Inquisition in hme renders as an anchor) and on
+shipped ottoman bold terms (beyliks, Söğüt, Seljuk Sultanate of Rum all
+render `<a>`). The old "matcher won't underline bold / ~37 ottoman links
+don't render" note was a **misdiagnosis** — those were `not found`
+collision/overlap drops, not a bold problem. **DO NOT waive a term as
+"bold-only-renders-nowhere" — that rule was wrong.** A bold first-use term
+is a normal linkable occurrence; link it. Cleanup owed: the sweep agents
+this session wrongly waived ~bold-only terms (hme + safavid) — converting
+those waivers to real links + re-deploying.
 
 **▶ USE THE NEW PIPELINE for every remaining civ — NOT the old full-sweep
 agent (it over-waived catastrophically; see HARD LESSON below).** Per civ:

@@ -59,6 +59,12 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 3,
       "blurb": "The writing system the Naimans loaned to the Mongols originated not with the Naimans but with the Uyghurs, who adapted it from the Sogdian alphabet on the Orkhon steppe — in Chapter 3, as part of the state Manichaeism project that required a script capable of transmitting a Persian religion's sacred texts. That alphabet, built for a church, became the administrative backbone of the largest empire on earth."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "While the steppe was about to unify, the Maya of the Yucatan were deep in their Postclassic phase — the great Classic-era cities long abandoned, power shifted to northern centers like Chichen Itza and later Mayapan. A civilization of city-states and trade leagues, as unaware of the Mongols as the Mongols were of them, until the Eurasian world the Mongols knit together eventually reached across the Atlantic."
     }
   ],
   "2": [
@@ -111,6 +117,12 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 7,
       "blurb": "Chapter 7 is the full account of the Qara-Khitai: Yelü Dashi's flight from the collapsing Liao, the Battle of Qatwan (1141) that made the Gurkhans masters of Central Asia, the Prester John legend their victory accidentally generated in the Latin West, and the tolerant-rule model — tax and leave alone — that the Mongols observed and later emulated. The Kara-Khitai chapter is the political and institutional template the Mongol Empire borrowed for governing Muslim subjects without converting them."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile, the Persian imperial tradition was on its tenth life. Khwarezm's rulers were Turkic by blood but Persian in language, court culture, and administration — the same pattern the Persian Empire narrative traces from Cyrus through the Sassanids to the Islamic age. Genghis's destruction of Khwarezm ended the last great political expression of that tradition in Central Asia, even as the culture itself survived to absorb the Mongols in turn."
     }
   ],
   "4": [
@@ -131,6 +143,12 @@
       "targetTl": "kievan-rus",
       "targetChapter": 12,
       "blurb": "Told from the Rus' side, the conquest sequence reads as the end of a world. The Kievan Rus' narrative gives the chroniclers' apocalyptic voice in full: the Dormition Cathedral at Vladimir burning with the population sheltering inside, John of Plano Carpini's eyewitness line about countless skulls and bones, and the Golden Horde's indirect-rule machinery through the yarlik patent. It also follows what grew after — the three divergent trajectories that became Russia, Ukraine, and Belarus."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Baghdad was the Abbasid capital and the brain of the Islamic Golden Age — the House of Wisdom, the translators, the algebraists, the physicians all worked here. The Islamic Golden Age narrative ends with the city Hülegü is marching toward: in 1258 the Mongols sacked Baghdad, executed the last caliph, and (by legend) threw so many books into the Tigris that the river ran black with ink. It is the hard close of five centuries of Abbasid scholarship."
     }
   ],
   "5": [
@@ -157,6 +175,24 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "Nasir al-Din al-Tusi's Maragheh Observatory sat on the intellectual tradition that the Persian world had maintained through the Islamic golden age — the translation of Greek astronomical texts into Arabic, their elaboration by Islamic mathematicians, and the compilation of increasingly accurate observational tables. The Zij-i Ilkhani extended a tradition that ran from Ptolemy through the Abbasid House of Wisdom to Maragheh, and from Maragheh eventually to Copernicus. The Mongol destruction of Baghdad was partially compensated by the Mongol creation of Maragheh — the same patrons who burned one library built a better observatory."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in China, the Southern Song were fighting for their lives. Möngke died in 1259 while personally commanding the Mongol campaign against them, and his death bought the dynasty a reprieve — but only briefly. Kublai would finish the conquest two decades later, drowning the last Song court at sea in 1279 and folding China into the Mongol world."
+    },
+    {
+      "matchText": "Timurids",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "The center of gravity that drifted into Central Asia after Baghdad's fall would, a century and a half later, throw up its own world-conqueror: Timur (Tamerlane), who built a vast empire from Samarkand while claiming the Mongol mantle through marriage into Genghis Khan's line. The Timurid courts became the great patrons of Persian art and science — the cultural reconquest the Mongols had started, brought to full flower."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "When the Ottomans conquered the Mamluk Sultanate in 1517, they inherited the shadow Abbasid caliphate the Mamluks had been keeping in Cairo ever since Hülegü extinguished the real one in Baghdad. The Ottoman sultans deployed the caliph title as a political instrument for the next four centuries, until the new Turkish republic abolished it in 1924 — the final end of the institution the Mongols had broken."
     }
   ],
   "6": [
@@ -195,6 +231,24 @@
       "targetTl": "yuan-dynasty",
       "targetChapter": 2,
       "blurb": "Bayan's 1276 capture of Hangzhou and his command of the final Yangtze campaign that destroyed the Song are covered from the Yuan side in the Yuan Dynasty narrative. The institutional infrastructure Kublai built in the 1270s — Khanbaliq as a deliberate Chinese-style capital, the Mandate of Heaven proclamation, the hybrid Mongol-Chinese bureaucracy — is the political project the Yuan TL examines as the empire that resulted from this conquest."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Hülegü's 1258 sack of Baghdad — the killing of the last Abbasid caliph and the wrecking of the great library city — is the closing catastrophe of the Islamic Golden Age narrative. From Baghdad's side it was the abrupt end of five centuries of Abbasid civilization; here it becomes the grievance that turned Berke's Golden Horde against his cousin Hülegü, the first time Mongols fought Mongols over religion."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "When Kublai took the Mandate of Heaven and claimed continuity with the long line of Chinese dynasties, the Han was the benchmark he was reaching back to — the 400-year dynasty that first defined what a unified, bureaucratic Chinese empire looked like. A Mongol on the dragon throne invoking the Han is the whole paradox of the Yuan in one gesture."
+    },
+    {
+      "matchText": "Tang dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Manuscripts and goods moving along the Silk Road in Kublai's day reached volumes 'not seen since the Tang' — the cosmopolitan high point when foreign merchants, monks, and ideas flooded into Chang'an. The Pax Mongolica was, in a sense, a reopening of the long-distance exchange the Tang had pioneered and the upheavals after it had choked off."
     }
   ],
   "7": [
@@ -227,6 +281,66 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 10,
       "blurb": "A diminished Palaiologan Byzantium was one node in the Mongol-era trade web — Constantinople now a commercial hinge between the Golden Horde, Venice, and the Ilkhanate rather than a great power."
+    },
+    {
+      "matchText": "Song subjects",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "These were the people the Yuan had only just finished conquering. The Tang & Song China narrative ends on that war: the long, grinding Mongol campaign that finally swallowed the Southern Song in 1279, the richest and most populous state on earth at the time. The 'southern Chinese' at the bottom of the Yuan ethnic ladder were the freshly defeated subjects of that vanished empire."
+    },
+    {
+      "matchText": "Persian Empire narrative",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "The Persian Empire narrative makes a recurring argument: Persia keeps getting conquered, and keeps culturally swallowing its conquerors. Greeks, Parthians, and Sassanids all ran on Persian administrative and royal forms in the end. The Ilkhanate is the same story one more time — Mongol warlords who within two generations were ruling as Persian-style monarchs."
+    },
+    {
+      "matchText": "Safavid Isfahan",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Three centuries downstream, the dome-building tradition the Ilkhans began at Sultaniyya reached its peak when Shah Abbas the Great rebuilt Isfahan as a planned capital of tiled domes and grand squares — the moment the Safavid Persia narrative treats as the dynasty's golden age."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "The same religion that some Mongol khans adopted had, six centuries earlier, triggered a political crisis on the far edge of Asia. The Asuka-Nara Japan narrative opens with the violent court fight over whether to accept Buddhism at all — a reminder of how far and how variously the faith had traveled by the time a Mongol khan could take it up as one option among several."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "The fight Berke and Hülegü had 'over Baghdad' was the aftermath of one of history's great catastrophes: Hülegü's 1258 sack of Baghdad, which ended the Abbasid Caliphate. The Islamic Golden Age narrative closes on exactly that event — the Mongol destruction of the city that had been the intellectual capital of the Muslim world for half a millennium."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "At the western terminus of these trade routes sat the patchwork of the Holy Roman Empire, whose defining medieval drama — the long struggle between popes and emperors over who outranked whom — is the centerpiece of the High Medieval Europe narrative."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Indian Ocean shipping lanes that linked Yuan China to the Islamic world would, a century after the Mongols fell, carry the largest fleets the premodern world ever saw. The Ming Dynasty narrative tells how the admiral Zheng He sailed treasure ships all the way to East Africa in the early 1400s, before the dynasty abruptly turned its back on the sea."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The al-Tusi mathematics that may have reached Copernicus traveled, in part, through the Italian city-states whose explosion of art, learning, and money is the subject of the Renaissance Italy narrative — the same Genoese and Venetian merchant networks that ran the Black Sea trade with the Golden Horde."
+    },
+    {
+      "matchText": "Timurids",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "Out of the wreckage of the Ilkhanate and the Chagatai Khanate rose Timur, who rebuilt a centralized empire by conquest in the 1370s. The Timurid Empire narrative is that story — a Turco-Mongol warlord claiming the Genghisid mantle, and the brilliant Persianate court culture his descendants built before the dynasty faded."
+    },
+    {
+      "matchText": "Safavid dynasty",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Safavid dynasty (1501) was the next state to unify Iran after the long fragmentation that followed the Ilkhanate's collapse. It inherited the Ilkhanate's former capital at Tabriz, the Tabriz school of miniature painting, and the networks of Shia scholarship the Mongol-era Ilkhans had helped sustain — and it made Twelver Shi'ism the state religion of Iran, a decision that still shapes the country today."
     }
   ],
   "8": [
@@ -241,6 +355,90 @@
       "targetTl": "ancient-rome",
       "targetChapter": 8,
       "blurb": "Caffa in Crimea — the Genoese trading colony that functioned as the western terminus of the Mongol Silk Road — was built on a site that had been a Greek colonial settlement since antiquity and a Roman provincial outpost for centuries. The Italian merchants who traded there in the thirteenth century were, in a sense, the distant successors of Roman commercial networks in the Black Sea. The Pax Mongolica reactivated a Eurasian commercial geography that the fall of Rome had disrupted, and it used Italian merchants — heirs to Roman commercial tradition — as its western operators."
+    },
+    {
+      "matchText": "Marco Polo",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "Marco Polo reached the Mongol court in the years after the Yuan finished swallowing Song China. The world he described to Europe — teeming canal cities, paper money, coal burned for fuel — was largely the inheritance of the Song, the most commercially and technologically advanced society on earth, now ruled by Kublai's Mongols."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "The Ilkhanate's conversion under Ghazan set a pattern: Mongol conquerors absorbed into a Persian-Islamic monarchy. Two centuries later the Safavids would complete the arc, forging a Persian state whose Shia identity defined Iran into the modern era — the long Persian tradition of Islamic kingship the Mongols had married into rather than erased."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "The Yuan court's patronage of Tibetan Buddhism was one branch of a faith that had spread across all of Asia. Centuries earlier in Japan, the arrival of Buddhism had triggered a court crisis over whether a foreign religion could sit beside the native gods — a recurring drama wherever Buddhism met an established order."
+    },
+    {
+      "matchText": "Timurids",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "The Persianized Chagatai aristocracy produced Timur (Tamerlane), who claimed Genghisid legitimacy through marriage and rebuilt a steppe empire out of the western khanate's wreckage — the Mongol inheritance reassembled one last time around Samarkand."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The same Chagatai-Timurid line ran on to Babur, who lost his Central Asian inheritance and won India instead, founding the Mughal Empire — a dynasty proud of its descent from both Genghis Khan and Timur."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "The overland trade corridors the Mongols knit into a single secured network were over a thousand years old by the fourteenth century. They had first opened under the Han, when Emperor Wu's envoys pushed west into Central Asia and the silk routes to the Roman world began to take shape."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "As Silk Road banditry pushed merchants toward sea lanes, the Indian Ocean became the great alternative to the steppe routes. The Ming would later send Zheng He's vast treasure fleet across that same ocean, projecting Chinese power as far as the coast of Africa."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "The ethnic identity the Yuan ranked beneath its Mongol elite took its very name from the Han dynasty, which had first forged a durable sense of Chinese-ness out of the warring kingdoms it inherited."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "The first great plague pandemic, the Plague of Justinian, struck the Byzantine Empire in the sixth century at the height of Justinian's bid to reconquer the lost Roman west — gutting his armies and population and helping doom the project."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 10,
+      "blurb": "The Genoese galleys carrying plague survivors west stopped at Constantinople in 1347. By then the once-mighty capital was a shrunken Palaiologan city, its empire reduced to a rump and increasingly dependent on the very Italian merchants whose ships now carried the Black Death into its harbor."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 8,
+      "blurb": "By 1350 the plague had reached Scandinavia and the Baltic — the far northern edge of the Mongol-built world's reach. It was the same maritime north whose longships, centuries earlier, had carried Norse traders and raiders across these waters."
+    },
+    {
+      "matchText": "China's Sorrow",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "The Yellow River — China's Sorrow — had been shaping and devastating Chinese civilization since its very beginnings. Its loess-laden floods and course-changes were a force the earliest Chinese states organized themselves to control, and one the Yuan ultimately failed to."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Han Shantong rallied followers by claiming descent from the Song imperial house — the dynasty the Mongols had conquered less than a century before. The memory of Song China, with its prosperous cities and refined culture, still carried enormous legitimacy among the Han population the Yuan ruled."
+    },
+    {
+      "matchText": "Qin Shi Huang",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 2,
+      "blurb": "The wall Hongwu rebuilt against the Mongols was not the famous First Emperor's. Qin Shi Huang's third-century-BCE wall was rammed earth, long eroded by the fourteenth century; the stone Great Wall tourists see today is a Ming creation, built against Genghis Khan's descendants."
     }
   ],
   "9": [
@@ -297,6 +495,84 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 3,
       "blurb": "The script the Mongols were still writing in at the empire's end was a Sogdian-derived alphabet the Uyghurs adapted for their own language — originally to transmit Manichaean sacred texts on the Orkhon steppe. Chapter 3 tells that origin story: how a Persian religion's need for a portable script produced the writing system that would outlive every empire it passed through."
+    },
+    {
+      "matchText": "Mesopotamia narrative",
+      "targetTl": "mesopotamia",
+      "targetChapter": 13,
+      "blurb": "The canal network the Mongols wrecked in the 1250s was the same irrigation system that had carried Mesopotamian civilization for three thousand years. The Mesopotamia narrative's final chapter traces how the land between the Tigris and Euphrates went from the world's first urban heartland to a battered province — the Mongol sack of Baghdad being one of the last and heaviest blows."
+    },
+    {
+      "matchText": "late Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "The Southern Song that the Yuan absorbed was the richest, most commercialized society on earth — and its conquest is where the Tang–Song China narrative ends. Chapter 9 covers the long Mongol war against the Song, finishing at the Battle of Yamen in 1279, after which a unified China passed for the first time into non-Chinese hands."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "The plague that the Mongol-era trade routes carried west reached Constantinople in 1347 and gutted what was left of the Byzantine state in its final century. The Byzantine narrative's late chapters show an empire already shrinking to a single city, then losing perhaps half its remaining population to the same pandemic the Pax Mongolica had helped move."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Russian Tsars consciously cast themselves as heirs to the Caesars of Constantinople, the thousand-year Christian empire whose own story runs in the Byzantine Empire narrative. By the time Ivan III claimed the title, Constantinople itself had already fallen — to the Ottomans, in 1453 — making Moscow's claim to be a 'Third Rome' a bid for an inheritance no one else was left to hold."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "The caliphate the Mongols extinguished in 1258 had presided over the most dazzling intellectual flowering in medieval Islam. The Islamic Golden Age narrative ends, fittingly, with a chapter literally titled 'The Mongol End' — the destruction of Baghdad and the House of Wisdom seen from the other side of the sword."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Baghdad's House of Wisdom — the translation academy and library the Mongols burned — is the centerpiece of the Islamic Golden Age narrative's second chapter, the place where Greek, Persian, and Indian learning was gathered and transformed. What the Mongols destroyed in days had taken five centuries to build."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "The Persian-Mongol miniature idiom refined at Herat became the house style of Ottoman manuscript art too. The Ottoman Empire — the dynasty that finally took Constantinople in 1453 — was one of three great 'gunpowder empires' (with Safavid Persia and Mughal India) whose courts all drew on the Timurid-Mongol cultural synthesis."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "The trans-Eurasian routes the Mongols reactivated had first knit together under earlier Chinese dynasties. The Ancient China narrative covers the deep origins of the civilization whose paper, gunpowder, and printing the Mongol road would eventually carry all the way to Europe."
+    },
+    {
+      "matchText": "Tang dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Paper had been traveling the Silk Road westward since the cosmopolitan Tang, the high point of medieval Chinese openness covered in the Tang–Song China narrative. The Mongol period simply accelerated a transmission the Tang had begun centuries earlier."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The corrected astronomical models that traveled west through the Mongol-connected world helped seed the European Renaissance, whose Italian heartland gets its own narrative. The same fourteenth century that saw the Yuan fall saw Petrarch and the Trecento open the long cultural movement that would eventually produce Copernicus."
+    },
+    {
+      "matchText": "Kievan Rus'",
+      "targetTl": "kievan-rus",
+      "targetChapter": 12,
+      "blurb": "The state the Mongols broke in 1240 has its own narrative, and its final chapter is exactly this moment — the Kievan Rus' narrative ends with 'the end of the world' as the Horde arrives, then asks what grew from the wreckage. The answer, told from the Mongol side here, was Moscow."
+    },
+    {
+      "matchText": "Han Dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "The unified Chinese imperial tradition the Yuan inherited and the Ming reclaimed was forged a millennium earlier under the Han, the dynasty that gave the Chinese majority its name. The Han Dynasty narrative covers the original template of centralized bureaucratic empire that every later conquest dynasty, Mongol included, chose to operate rather than dismantle."
+    },
+    {
+      "matchText": "Moghul",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "\"Moghul\" is simply the Persian-Indian pronunciation of \"Mongol.\" The Mughal Empire, founded in 1526 by Babur — a descendant of Timur on his father's side and of Genghis Khan on his mother's — was the most direct continuation of the Mongol political tradition into the early modern world, ruling most of the Indian subcontinent for nearly two centuries with a Persian-Mongol hybrid administration and culture."
     }
   ]
 }
