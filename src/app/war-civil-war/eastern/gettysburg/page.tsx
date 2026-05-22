@@ -18,7 +18,7 @@ const CRUMBS = [
   { label: 'Gettysburg' },
 ]
 
-const HERO_IMG = 'https://commons.wikimedia.org/wiki/Special:FilePath/Thure%20de%20Thulstrup%20-%20L.%20Prang%20and%20Co.%20-%20Battle%20of%20Gettysburg%20-%20Restoration%20by%20Adam%20Cuerden.jpg?width=900'
+const HERO_IMG = '/war-img/gettysburg-hero.jpg' // Thure de Thulstrup, 1887 (PD); self-hosted to avoid Commons hotlink rate-limiting
 const HERO_PAL = ['#3a2a1c', '#7a1422', '#100506']
 
 const ARMIES = [
@@ -49,15 +49,15 @@ const TL_META: Record<string, { size: CardSize; date: string; palette: [string, 
 const SECTION_HREF = '/war-pilot-preview' // standalone reader stand-in for now
 const num = (n: number) => n.toLocaleString('en-US')
 
-// Verified public-domain Commons images per section (campaign + day maps + Lincoln).
+// Self-hosted public-domain images per section (campaign + day maps + Lincoln);
+// downloaded from Commons into /public/war-img to avoid hotlink rate-limiting.
 const SECTION_IMG: Record<string, string> = {
-  setting: 'Gettysburg Campaign.png',
-  mcpherson: 'Gettysburg Battle Map Day1.png',
-  hooks: 'Gettysburg Battle Map Day2.png',
-  pickett: 'Gettysburg Battle Map Day3.png',
-  aftermath: 'Abraham Lincoln November 1863.jpg',
+  setting: '/war-img/gettysburg-campaign.png',
+  mcpherson: '/war-img/gettysburg-day1.png',
+  hooks: '/war-img/gettysburg-day2.png',
+  pickett: '/war-img/gettysburg-day3.png',
+  aftermath: '/war-img/gettysburg-aftermath.jpg',
 }
-const commons = (file: string, w = 400) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${w}`
 
 function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
   return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{children}</div>
@@ -323,7 +323,7 @@ function Thumb({ file, w, h }: { file: string; w: number; h: number }) {
   const [failed, setFailed] = useState(false)
   return (
     <div style={{ width: w, height: h, borderRadius: 6, overflow: 'hidden', flexShrink: 0, background: 'linear-gradient(135deg, #3a2e21, #1c1814)' }}>
-      {!failed && <img src={commons(file, 240)} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />}
+      {!failed && <img src={file} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />}
     </div>
   )
 }
@@ -380,7 +380,7 @@ export default function GettysburgPage() {
             <CordTimeline>
               {SECTIONS.map(s => {
                 const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={commons(SECTION_IMG[s.id], 400)} title={s.title} sub={s.eyebrow} hook={s.blurb} href={SECTION_HREF} />
+                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={SECTION_HREF} />
               })}
             </CordTimeline>
           </div>
