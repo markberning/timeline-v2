@@ -98,7 +98,65 @@ needs sourcing + craft + the accuracy gates). So **build incrementally:**
 3. Expand to **Major (~104)**, then **Mid (~128)** in waves.
 The pilot is "done enough to ship/learn" early; the long tail follows.
 
-## Status
-Scope locked 2026-05-21 (American Civil War; ~10 chapters; battle layer A+B+C
-~280, each its own VARIABLE-depth story; storytelling-first). 8 categories
-signed off. Next: write a few sample battle stories to validate the format.
+## War narrative pipeline (recommended — 2026-05-22)
+A war narrative is DONE only after all of:
+0. **Source** — seed each battle's stat block from the CWSAC catalog + Wikipedia
+   battle infoboxes (machine-assist the numbers; prose is authored).
+1. **Author** — section narratives, storytelling-first, variable depth. Chapter
+   shape: an orientation subsection (eyebrow + h2) → timestamped/themed
+   subsections → close. Apply **person side-tags** (every named combatant,
+   once per section — see memory feedback_war_person_side_tags).
+2. **Sourced accuracy fact-check — MANDATORY, the zero-hallucination floor.**
+   Verify every date / number / name / place / geographic claim against a
+   source; fix, or flag-as-uncertain. This is NOT covered by the persona audit:
+   the Gettysburg "fishhook" error sailed past the original author AND a casual
+   re-read. Ported mockup prose must clear this too (it is reference, not truth).
+3. **5-persona narrative audit** (`.claude/skills/audit-narrative.md`) PLUS a
+   **war POV persona** ("told from one side? both sides represented?"). Persona-D
+   flow + all factual/citation findings = must-fix.
+4. **Images** — self-host PD/licensed only (Commons hotlinking 429-blocks in the
+   browser); verify each filename resolves; track credit + license (some maps are
+   CC-BY). Photos on section cards; maps inside narratives.
+5. **Links** — glossary links + cross-modal war↔civ links (once on the real
+   reader engine).
+6. **Gates** — when lifted from the prototype TSX into real content format
+   (`narratives/*.md` + data), run the standard gates adapted for the war
+   category set. Do NOT edit shared gate scripts during the main-session sweep;
+   make them kind-aware afterward.
+
+## Status & handoff (updated 2026-05-22)
+Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
+`feat/phase-2`, all committed + pushed). Dev: `npx next dev -p 3007`. Canonical
+design = `mockups/war-prompt.zip` → `design_handoff_war_drilldown/` (README spec +
+source jsx; decode the bundled.html via the Commons-API/zlib method in memory).
+Mockup viewer (local only, NOT committed): copy `mockups/Historica - War
+Drilldown.bundled.html` → `public/` → open `/mockup-war-drilldown.html`.
+
+**BUILT & live on :3007** — Slice 0 (kind discriminator, mode shell, accent);
+War front door (`war-front-door.tsx`); shared chrome (`war-chrome.tsx`) + cord
+card (`war-battle-card.tsx`); **Battle dossier (Gettysburg) FULL** (hero,
+collapsible At-a-glance, outcome pill, interactive SVG fishhook map w/ per-day
+filter+text, commanders strip, 5-section list; Timeline = spine); **5 section
+narratives FULL** (`/war-civil-war/eastern/gettysburg/s/[section]`, mockup text
+ported + side-tags, drop cap, figures, italic asides, Address blockquote,
+end-of-chapter Meanwhile; no lineage strip). Images self-hosted in
+`public/war-img/`. Palette: Civil War=violet, Union=blue, Confederate=rust;
+day-colors removed (attacks colored by side).
+
+**PENDING (next session):**
+1. **Theatre page faithful rebuild** (`src/app/war-civil-war/eastern/page.tsx`)
+   — still rough (oxblood); port handoff `EasternTheatrePage` + `ET` data
+   (war-detail-deeper.jsx): Antietam "Dunker Church" hero, collapsible At-a-glance,
+   commanders strip, VA-corridor map, interleaved-campaigns timeline. **USER
+   ASKED FOR THIS NEXT.**
+2. **War dossier faithful rebuild** (`src/app/war-civil-war/page.tsx`) — rough;
+   port the interactive Theatres block (US map + commanders + segmented control)
+   + hero (Lincoln-at-Antietam) + At-a-glance, from `TheatresInteractive`/`CW`.
+3. **Accuracy fact-check the 5 narratives** — known issues: Vicksburg distance
+   inconsistent (600/800/1000 mi → reconcile ~900); Greene "cadet at West Point
+   with Lee" (likely no class overlap — verify/fix).
+4. Finalize/run the pipeline above; glossary links + real reader-engine
+   integration; then scale battles (Decisive 45 → Major → Mid).
+
+Scope (locked 2026-05-21): American Civil War; ~10 chapters; battle layer A+B+C
+~280, variable-depth; 8 categories signed off; storytelling-first.
