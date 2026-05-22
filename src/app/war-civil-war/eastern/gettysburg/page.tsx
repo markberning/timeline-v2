@@ -142,24 +142,33 @@ function OutcomePill() {
   )
 }
 
-// SVG fishhook battlefield diagram — the real hook shape, both army lines, the
-// three days' attacks as arrows, terrain labels, radiating roads. Themeable
-// (foreground var + accents), offline, no deps. Stylized, not to scale.
+// Per-day explanations shown below the map; also drive the interactive filter.
+const DAYS = [
+  { n: 1, title: 'Day 1 · July 1', sub: 'McPherson’s Ridge', text: 'Confederate divisions marching in from the northwest blunder into Union cavalry along McPherson’s Ridge. Both armies rush troops toward the sound of the guns; Gen. Reynolds is killed early. By evening the outnumbered Union forces are driven back through the town — but they rally onto the high ground south of it, the hills and ridges that form the fishhook.' },
+  { n: 2, title: 'Day 2 · July 2', sub: 'The hooks', text: 'Lee strikes both ends of the fishhook at once. On the south, Longstreet’s men tear into Devil’s Den, the Wheatfield, the Peach Orchard, and Little Round Top — where Chamberlain’s 20th Maine holds the very end of the Union line. On the northern barb, Ewell claws at Culp’s Hill. The line bends everywhere and breaks nowhere.' },
+  { n: 3, title: 'Day 3 · July 3', sub: 'Pickett’s Charge', text: 'After the largest artillery bombardment of the war, Lee gambles on the center. Roughly 12,500 men — Pickett’s Charge — step off across three-quarters of a mile of open ground toward the Angle on Cemetery Ridge. Canister and rifle fire shred them; the handful who reach the wall (the “high-water mark”) are killed or captured. The charge fails, and Lee’s invasion with it.' },
+]
+
+// Interactive SVG fishhook battlefield diagram — tap a day to spotlight its
+// attacks; per-day text below. Themeable, offline, no deps. Not to scale.
 function Fishhook() {
   const MONO = 'var(--font-geist-mono)'
   const fg = 'var(--foreground)'
   const blue = ACCENTS.blue, rust = ACCENTS.rust
+  const [active, setActive] = useState(0) // 0 = all days
+  const dayOp = (n: number) => (active === 0 || active === n ? 1 : 0.12)
   const TOWN = { x: 150, y: 64 }
   const roads = [-40, -10, 35, 80, 120, 160, 205, 250, 300]
   type Anchor = 'start' | 'middle' | 'end'
   const Lbl = ({ x, y, children, color, op = 0.62, size = 7.5, anchor = 'start' as Anchor }: { x: number; y: number; children: string; color?: string; op?: number; size?: number; anchor?: Anchor }) => (
     <text x={x} y={y} fontFamily={MONO} fontSize={size} fill={color || fg} opacity={color ? 1 : op} textAnchor={anchor}>{children}</text>
   )
+  const grp: React.CSSProperties = { transition: 'opacity 220ms ease' }
   return (
     <div style={{ padding: '0 16px 8px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
         <Eyebrow color={ACCENT}>The battlefield · the fishhook</Eyebrow>
-        <span style={{ fontFamily: MONO, fontSize: 9, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>stylized · not to scale</span>
+        <span style={{ fontFamily: MONO, fontSize: 9, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>tap a day · not to scale</span>
       </div>
       <svg viewBox="0 0 360 300" style={{ width: '100%', height: 'auto', marginTop: 10, borderRadius: 6, background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)' }}>
         <defs>
@@ -186,38 +195,87 @@ function Fishhook() {
         {/* town */}
         <circle cx={TOWN.x} cy={TOWN.y} r={6} fill="var(--background)" stroke={fg} strokeOpacity={0.6} strokeWidth={1.4} />
 
-        {/* Day 1 — amber (McPherson's Ridge, NW of town) */}
-        <line x1="48" y1="42" x2="118" y2="60" stroke={ACCENTS.amber} strokeWidth={2.4} markerEnd="url(#ah-amber)" />
-        {[[58, 46], [86, 55]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.amber} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
-
-        {/* Day 2 — violet (Longstreet on the left, Ewell at the barb) */}
-        <line x1="104" y1="208" x2="150" y2="242" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
-        <line x1="218" y1="100" x2="200" y2="112" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
-        {[[132, 254], [138, 236], [122, 222], [156, 248]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.violet} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
-
-        {/* Day 3 — Pickett's Charge (rust, dashed, bold) into the Angle */}
-        <line x1="102" y1="158" x2="156" y2="158" stroke={ACCENTS.rust} strokeWidth={3} strokeDasharray="6 4" markerEnd="url(#ah-rust)" />
-        <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={ACCENTS.rust} />
-
-        {/* labels */}
+        {/* static terrain labels */}
         <Lbl x={132} y={50} color="color-mix(in srgb, var(--foreground) 62%, transparent)">GETTYSBURG</Lbl>
         <Lbl x={202} y={118}>Culp’s Hill</Lbl>
         <Lbl x={172} y={86}>Cemetery Hill</Lbl>
         <Lbl x={167} y={182}>Cemetery Ridge</Lbl>
         <Lbl x={32} y={176}>Seminary Ridge</Lbl>
-        <Lbl x={98} y={252} anchor="end">Little Round Top</Lbl>
-        <Lbl x={168} y={150} color={ACCENTS.rust}>the Angle — high-water mark</Lbl>
-        <Lbl x={20} y={38}>McPherson’s Ridge</Lbl>
+
+        {/* Day 1 — amber */}
+        <g opacity={dayOp(1)} style={grp}>
+          <line x1="48" y1="42" x2="118" y2="60" stroke={ACCENTS.amber} strokeWidth={2.4} markerEnd="url(#ah-amber)" />
+          {[[58, 46], [86, 55]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.amber} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
+          <Lbl x={20} y={38}>McPherson’s Ridge</Lbl>
+        </g>
+
+        {/* Day 2 — violet (Longstreet on the left, Ewell at the barb) */}
+        <g opacity={dayOp(2)} style={grp}>
+          <line x1="104" y1="208" x2="150" y2="242" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
+          <line x1="218" y1="100" x2="200" y2="112" stroke={ACCENTS.violet} strokeWidth={2.4} markerEnd="url(#ah-violet)" />
+          {[[132, 254], [138, 236], [122, 222], [156, 248]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r={4} fill={ACCENTS.violet} stroke="rgba(0,0,0,0.3)" strokeWidth={0.8} />)}
+          <Lbl x={98} y={252} anchor="end">Little Round Top</Lbl>
+        </g>
+
+        {/* Day 3 — Pickett's Charge */}
+        <g opacity={dayOp(3)} style={grp}>
+          <line x1="102" y1="158" x2="156" y2="158" stroke={ACCENTS.rust} strokeWidth={3} strokeDasharray="6 4" markerEnd="url(#ah-rust)" />
+          <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={ACCENTS.rust} />
+          <Lbl x={168} y={150} color={ACCENTS.rust}>the Angle — high-water mark</Lbl>
+        </g>
 
         {/* compass */}
         <path d="M334,18 l2.4,7 l-2.4,-2 l-2.4,2 z" fill={fg} opacity={0.5} />
         <Lbl x={331} y={36} op={0.5} size={9}>N</Lbl>
       </svg>
-      {/* legend */}
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px 14px', marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>
+
+      {/* day filter pills */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 10 }}>
+        {[0, 1, 2, 3].map(n => {
+          const on = active === n
+          const c = n === 0 ? ACCENT : DAY_COLOR[n]
+          return (
+            <button key={n} onClick={() => setActive(n)} style={{
+              cursor: 'pointer', fontFamily: SANS, fontSize: 11, fontWeight: 600, padding: '5px 11px', borderRadius: 999,
+              border: `1px solid ${on ? c : 'color-mix(in srgb, var(--foreground) 18%, transparent)'}`,
+              background: on ? alpha(c, 0.14) : 'transparent', color: on ? c : 'color-mix(in srgb, var(--foreground) 65%, transparent)',
+              display: 'inline-flex', alignItems: 'center', gap: 6,
+            }}>
+              {n !== 0 && <span style={{ width: 8, height: 8, borderRadius: 999, background: c }} />}
+              {n === 0 ? 'All three days' : `Day ${n}`}
+            </button>
+          )
+        })}
+      </div>
+
+      {/* static line key */}
+      <div style={{ display: 'flex', gap: 14, marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>
         <span><span style={{ color: blue }}>▬</span> Union line</span>
         <span><span style={{ color: rust }}>▬</span> Confederate line</span>
-        {([[1, 'Day 1'], [2, 'Day 2'], [3, 'Day 3']] as const).map(([d, l]) => <span key={l}><span style={{ color: DAY_COLOR[d] }}>●</span> {l}</span>)}
+      </div>
+
+      {/* per-day explanations (also filter the map) */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginTop: 14 }}>
+        {DAYS.map(d => {
+          const dim = active !== 0 && active !== d.n
+          const sel = active === d.n
+          const c = DAY_COLOR[d.n]
+          return (
+            <button key={d.n} onClick={() => setActive(sel ? 0 : d.n)} style={{
+              textAlign: 'left', cursor: 'pointer', width: '100%',
+              border: `1px solid ${sel ? alpha(c, 0.5) : 'color-mix(in srgb, var(--foreground) 12%, transparent)'}`,
+              background: sel ? alpha(c, 0.06) : 'transparent', borderRadius: 8, padding: '10px 12px',
+              opacity: dim ? 0.45 : 1, transition: 'opacity 200ms ease, border-color 200ms ease',
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <span style={{ width: 9, height: 9, borderRadius: 999, background: c }} />
+                <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.8, textTransform: 'uppercase', color: c }}>{d.title}</span>
+                <span style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>{d.sub}</span>
+              </div>
+              <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, margin: '6px 0 0', color: 'color-mix(in srgb, var(--foreground) 82%, transparent)' }}>{d.text}</p>
+            </button>
+          )
+        })}
       </div>
     </div>
   )
