@@ -16,12 +16,23 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 22 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 26 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-22 batch 5:** **ming-dynasty** (`8f51bd8`, 396→0 NEW), **songhai-empire**
+  (`7fd6c97`, 353→0 NEW), **modern-india** (`94ef11d`, 350→0 NEW, 15 ch / 3 waves),
+  **persian-empire** (`6c75987`, 349→0 NEW) swept on the new pipeline + ONE batched
+  atomic deploy + curl-verified (Forbidden_City; Saadi_Sultanate; Lok_Sabha;
+  Cyrus_the_Great). Demonym residual closed per civ via a deterministic validated
+  script (modern-india needed 50: Lok Sabha/Supreme Court of India/Indian Army by
+  era/Indo-Pakistani wars etc.). **wiki-verify cache bug found & worked around:** a
+  429 poisons the slug's cache entry permanently (cached failures never retry) —
+  clear `audits/.wiki-verify-cache.json` entries with `reason~="lookup failed"`
+  before each snapshot. Agents caught many REUSE homonyms (Congress→US Congress in
+  every modern-india ch; Sonni→Jack_Sonni guitarist; Zarathustra→Nietzsche book;
+  shah mat→Checkmate). **~77 remain. Next worst-first:** heian-japan (334),
+  gupta-empire (332), joseon-korea (318), asuka-nara-japan (309), mali-empire (301).
 - **2026-05-21 batch 4:** **mesopotamia** (`ce75cc4`, 398→0 NEW) swept one-wave
   (13 chapters, 5 agents × 2-3 ch) + DEPLOYED LIVE + curl-verified
-  (Code_of_Hammurabi/Inanna/Babylonia). **~81 remain. Next worst-first:**
-  ming-dynasty (393), songhai-empire (353), modern-india (350), persian-empire
-  (344), heian-japan (333).
+  (Code_of_Hammurabi/Inanna/Babylonia).
 
 - **2026-05-21 batch 3:** **early-medieval-europe** (`e54a9ab`, 401→0 NEW) and
   **viking-age** (`15b5015`, 401→0 NEW) swept + DEPLOYED LIVE + curl-verified
