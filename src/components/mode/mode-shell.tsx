@@ -5,6 +5,7 @@ import { TL_KIND_LIVE, type TlKind } from '@/lib/navigator-tls'
 import { ChronologyPage } from '@/components/chronology/chronology-page'
 import { ModeSwitcher } from './mode-switcher'
 import { ComingSoonDoor } from './coming-soon-door'
+import { WarFrontDoor } from './war-front-door'
 
 const STORAGE_KEY = 'active-mode'
 
@@ -42,7 +43,7 @@ export function ModeShell() {
   return (
     <div className="flex flex-col h-dvh bg-background text-foreground">
       <ModeSwitcher mode={mode} onChange={handleChange} />
-      {mode === 'civ' ? <ChronologyPage /> : <ComingSoonDoor kind={mode} />}
+      {mode === 'civ' ? <ChronologyPage /> : mode === 'war' ? <WarFrontDoor /> : <ComingSoonDoor kind={mode} />}
     </div>
   )
 }
