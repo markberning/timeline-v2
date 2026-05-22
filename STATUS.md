@@ -16,7 +16,17 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 17 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 19 of 103 civs genuinely swept + DEPLOYED LIVE.**
+- **2026-05-21 batch 2 (fresh-worklist):** worklists refreshed corpus-wide via
+  `--corpus` (the stale-worklist fix); **tang-song-china** (`4b022e0`, 405→3 NEW)
+  and **gokturk-khaganate** (`c2ded10`, 406→2 NEW) swept on the new pipeline +
+  DEPLOYED LIVE + curl-verified (An_Lushan/Wu_Zetian/Marco_Polo; Bumin_Qaghan/
+  Ilterish_Khagan/Tiele_people). gokturk needed extra coordinator cleanup: a dead
+  event slug (Ilterish_Qaghan→Ilterish_Khagan in reference-data), 2 pre-existing
+  sloppy sentence-matchText crosses dropped, a 'Huns' cross retargeted off
+  'White Huns'. **~84 remain. Next worst-first:** early-medieval-europe (401),
+  viking-age (401), mesopotamia (398), ming-dynasty (393), songhai-empire (353).
+
 - Prior: goryeo-korea, uyghur-steppe, renaissance-italy, byzantine-empire,
   delhi-sultanate, swahili-coast, ottoman-empire, mughal-empire,
   umayyad-caliphate, medieval-india, yuan-dynasty, timurid-empire,
