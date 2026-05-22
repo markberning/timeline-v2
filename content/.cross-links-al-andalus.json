@@ -11,6 +11,60 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
       "blurb": "While al-Andalus was being born in the west, the empire that still called itself Rome was fighting for its life in the east. In the same decades the Arabs swept through Syria, Egypt, and North Africa, Constantinople watched its richest provinces vanish — and yet the Byzantine state survived, adapted, and would remain a great power for another seven centuries."
+    },
+    {
+      "matchText": "Granada",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the wider Islamic world: Granada was the last Muslim kingdom in Iberia, the final glittering survival of the western world that Córdoba's scholars and artisans had built."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Umayyad story: when the Abbasid revolution wiped out the dynasty in Damascus, one surviving prince fled west and refounded Umayyad rule in Córdoba — the seed of al-Andalus's golden capital."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile north of the Pyrenees: Charlemagne, king of the Franks and the first western emperor since Rome, pushed back across the mountains into the Muslim frontier of Iberia."
+    },
+    {
+      "matchText": "Muhammad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Arabia: Muhammad, the Prophet of Islam, preached the new monotheist faith whose armies would reach Iberia within eighty years of his death."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Arabia: Mecca was the city where Muhammad began preaching Islam, and the spiritual center from which the faith spread across the Mediterranean world."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the deep past: Rome had ruled Iberia for six centuries, and its dissolution into Germanic kingdoms is the wreckage from which the Visigoths and then al-Andalus emerged."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the east: Constantinople was the capital of the surviving Roman Empire, which the Byzantines called simply Rome, still standing as the Caliphate stripped away its southern provinces."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic heartland: Damascus was the Umayyad capital from which the Caliphate was ruled in 700 — until the Abbasid revolution overthrew the dynasty and moved the center of Islamic power east to Baghdad."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the linguistic inheritance: Latin was the language Rome left behind in Iberia, already mutating toward Spanish among the Hispano-Romans the Visigoths ruled."
     }
   ],
   "2": [
@@ -37,6 +91,30 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 4,
       "blurb": "The fall of Visigothic Spain is the 'Iberian loss' the European story marks — Latin Christendom's southwest amputated for eight centuries."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic heartland — Damascus was the Umayyad capital, the distant seat of the caliph for whom Tariq's army was nominally conquering Iberia."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the wider caliphate — Córdoba, taken in the conquest, would become the great Umayyad city of the West, capital of al-Andalus for centuries."
+    },
+    {
+      "matchText": "Muhammad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the origins of Islam — the Prophet Muhammad, whose recorded practice (alongside the Quran) gave Muslim scholars the law applied to the conquered."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Christian Europe — the Franks under Charles Martel held the line in Gaul; Early Medieval Europe tells the clash at Tours from their side."
     }
   ],
   "3": [
@@ -51,6 +129,48 @@
       "targetTl": "umayyad-caliphate",
       "targetChapter": 8,
       "blurb": "Abd al-Rahman I was a Umayyad prince fleeing the Abbasid massacre of his family — al-Andalus born as the surviving Umayyad remnant."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Islamic east: the caliphate was the office of the successor to Muhammad, leader of all Muslims — the institution the Umayyads held and the Abbasids seized."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Baghdad: the Abbasids who toppled the Umayyads built a new capital in Iraq and presided over three centuries of science, philosophy, and translation."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic east: the Abbasid revolution that destroyed the Umayyad dynasty sent one surviving grandson fleeing west — to Córdoba, where he rebuilt the family's fortunes."
+    },
+    {
+      "matchText": "Muhammad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Arabia: Muhammad, the prophet of Islam, founded the community whose Quraysh aristocracy the Umayyads — and Abd al-Rahman — descended from."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile north of the Pyrenees: Charlemagne's Frankish kingdom was the rising Christian power whose Spanish campaign of 778 ended at Roncesvalles."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Christian Europe: the Muslim conquest of Iberia and the loss of the peninsula seen from the other side of the frontier."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in northern Europe: the Germanic peoples whose tongues form the language family the Basques' speech is not — neither Romance nor Germanic nor anything else."
     }
   ],
   "4": [
@@ -65,6 +185,18 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The Norsemen who sacked Seville in 844 were the same raiding networks simultaneously terrorizing the coasts of England, Ireland, and Francia. From the Viking side, Iberia was the far-southern reach of a remarkable seafaring expansion — the raiders who showed up in the Guadalquivir estuary had also been up the Loire and the Seine, and their arrival in al-Andalus was as unexpected to them as it was to the Andalusis."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Christian north: while Córdoba drowned in competing high literacies, the post-Roman West was clawing its way back from a near-total collapse of the written word — the story of how Latin Christendom relearned to read."
+    },
+    {
+      "matchText": "Scandinavian",
+      "targetTl": "viking-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the North: the same seaborne raiders who terrorized Atlantic Europe struck al-Andalus too — Seville was sacked in 844 — part of the wider eruption of Viking raids out of Scandinavia."
     }
   ],
   "5": [
@@ -85,6 +217,42 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 6,
       "blurb": "Abd al-Rahman III's Cordoban caliphate was one of the three rival caliphates — the western pole of a tripartite Islamic world."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Umayyad world: Córdoba became the western capital of the Umayyad dynasty, whose conquests carried the family's name from Damascus all the way to Iberia."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the wider Islamic world: by the 10th century three rival caliphs claimed the title at once — Abbasid in Baghdad, Fatimid in North Africa, and the Umayyad in Córdoba."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in early medieval Europe: the Frankish lands across the Pyrenees were the realm of Charlemagne's heirs, and a source of the slaves who became Córdoba's saqaliba soldiers."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: Constantinople cultivated the western caliph as a counterweight to its nearer rivals, sending Abd al-Rahman III a deluxe Greek manuscript of Dioscorides as an instrument of statecraft."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in early medieval Europe: Otto I had welded the German lands into a new empire, and his envoy John of Gorze spent years waiting on a Córdoban audience."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Umayyad Caliphate: the institution Abd al-Rahman III now claimed had begun far to the east, a universal religious-political office tracing back to the succession of the Prophet."
     }
   ],
   "6": [
@@ -99,6 +267,42 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 7,
       "blurb": "Cordoba's libraries made it the Baghdad of the West — the same translation-and-scholarship culture, transplanted to Iberia."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic Golden Age: Baghdad's House of Wisdom made the Abbasid capital the book and translation hub of the Islamic world — the eastern market al-Hakam's agents combed for new works to ship west."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Byzantine Empire: Constantinople was the Christian East's great surviving metropolis, with libraries and a learned culture that put it in the same league as Baghdad and Córdoba."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic Golden Age: Damascus had been the Umayyad capital before the Abbasids moved east, and it remained one of the great eastern Islamic cities whose markets al-Hakam's buyers worked."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Ancient Greece: Aristotle built the systematic body of philosophy and science that, centuries later, Córdoba's library would help preserve and that Latin Europe would frantically translate."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the early Caliphate: Mecca, with its Kaaba, is the holy city of Islam — the direction every mosque's mihrab, including Córdoba's gilded one, is built to face."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the early Caliphate: the caliphate began as the office of the Prophet's successor, the institution Córdoba's rulers would eventually claim for the West."
     }
   ],
   "7": [
@@ -113,6 +317,24 @@
       "targetTl": "heian-japan",
       "targetChapter": 1,
       "blurb": "The Heian court that perfected the shogunal arrangement was, like Cordoba under Almanzor, a world of extraordinary cultural refinement sustained by a political fiction — a sacred emperor whose real power had migrated elsewhere. Both civilizations in this same century were building the most sophisticated literary cultures of their respective worlds while the machinery of real governance ran on entirely different rails."
+    },
+    {
+      "matchText": "Reconquista",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Reconquista was the centuries-long Christian push to retake Iberia from al-Andalus — the same northern kingdoms Almanzor raided at will would, generations later, reverse the tide and take Córdoba itself."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the early Caliphate: Córdoba fell to Tariq ibn Ziyad's armies in 711, and after the Abbasid massacre of 750 the lone Umayyad survivor made it the capital of an independent emirate in the far west."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Cordoban Umayyads were the Spanish branch of the dynasty the Abbasids had overthrown in the east — by Almanzor's day a sacred figurehead caliphate whose surviving claimants would tear each other apart in the Fitna."
     }
   ],
   "8": [
@@ -121,6 +343,36 @@
       "targetTl": "renaissance-italy",
       "targetChapter": 1,
       "blurb": "The taifa kingdoms' competitive cultural patronage — thirty courts each trying to out-Cordoba each other in poetry, architecture, and philosophy — is the exact mechanism that would later generate the Italian Renaissance. In both cases political fragmentation produced a patron market that no single court could monopolize, and the result was a florescence of competitive brilliance that looked, to those living through it, mostly like embarrassing weakness."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the eastern caliphate: when the Abbasids slaughtered the Umayyad family in 750, one prince escaped to Spain and rebuilt the dynasty's fortunes in Córdoba — the city the taifa kings now all longed to imitate."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile north of the Pyrenees: Charlemagne's Frankish empire reached into northeastern Iberia, and Barcelona's count remained nominally a vassal of that Carolingian crown even as he ruled in practice on his own."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, fourteen centuries earlier in Athens: Aristotle built the systematic philosophy whose works, lost to the Latin West, would re-enter Europe through the Arabic libraries of conquered Toledo."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in the language of old Rome: Latin had been the West's tongue of learning since antiquity, and it was into Latin that Toledo's translators would render the Arabic Aristotle."
+    },
+    {
+      "matchText": "Almoravids",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile across the strait in Morocco: the Almoravids, a militant Berber reform movement out of the western Sahara, had built a disciplined empire — the fearsome power al-Mu'tamid now chose to summon against the Christians."
     }
   ],
   "9": [
@@ -135,6 +387,18 @@
       "targetTl": "high-medieval-europe",
       "targetChapter": 5,
       "blurb": "The crusading movement that launched for Jerusalem in 1095 and the Almoravid intervention in Iberia in 1086 were simultaneous responses to the same generation of Islamic military pressure on Christian frontiers. From the European side, the First Crusade was ignited by Byzantine appeals after Manzikert — the same moment the Christian kingdoms of Spain were reeling from Zallaqa — and it created the crusading framework the Iberian wars would eventually borrow."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the East: the same generation that saw the Almoravids storm out of the Sahara watched the Byzantine army shattered by the Seljuk Turks at Manzikert in 1071, a defeat that cracked open Anatolia and helped trigger the call for the First Crusade."
+    },
+    {
+      "matchText": "Reconquista",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the wider Islamic west: the Christian Reconquista was the centuries-long reconquest of Iberia that picked off the fragmented taifa kingdoms one by one, absorbing the cities, libraries, and scholarship of Islamic Spain even as it dismantled its states."
     }
   ],
   "10": [
@@ -143,6 +407,24 @@
       "targetTl": "high-medieval-europe",
       "targetChapter": 5,
       "blurb": "When the Pope declared the Iberian campaign a crusade, he was applying to Spain the same theological machinery that had been running in the Holy Land since 1095. From the broader crusading world, the Iberian front was always somewhat awkward — the papacy kept trying to redirect Iberian knights to the east, while the Iberian kings kept insisting their own frontier was the real holy war. Las Navas de Tolosa was the moment the Iberian crusade delivered results that silenced the argument."
+    },
+    {
+      "matchText": "Almoravids",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Almoravids were the earlier Berber dynasty out of the Sahara that the Almohads overthrew — the veiled-men empire that linked the gold of West Africa to Muslim Spain before its own collapse."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Umayyad Caliphate: Córdoba became the great Muslim capital of Iberia after the Umayyad conquest of the peninsula in 711, the seat from which the west would later be governed."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Ancient Greece: Aristotle, the 4th-century-BCE philosopher and tutor of Alexander, built the system of logic, nature, and metaphysics that Averroes would later reorganize for the European mind."
     }
   ],
   "11": [
@@ -157,6 +439,36 @@
       "targetTl": "scientific-revolution",
       "targetChapter": 1,
       "blurb": "The Arabic manuscripts captured in Toledo and the other reconquered Andalusi cities were the raw material that fed the European intellectual revival of the twelfth and thirteenth centuries. From the Scientific Revolution's side, the chain runs directly from these Toledo translations — Ptolemy, Euclid, al-Zarqali, Averroes — through the medieval universities to the moment Copernicus and Galileo had the mathematical tools to overturn what those same texts had taught."
+    },
+    {
+      "matchText": "Almohad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Almohads, a Berber reform movement out of the Maghreb, built an empire across North Africa and al-Andalus before Las Navas de Tolosa shattered their power."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Byzantium: only eight years before Las Navas, a Catholic crusader army sacked Christian Constantinople in 1204, breaking the empire from inside."
+    },
+    {
+      "matchText": "Granada",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Emirate of Granada under the Nasrids became the last Muslim polity in Iberia, surviving as a Christian tributary until 1492."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in ancient Greece: Aristotle, Plato's student and Alexander's tutor, built the systematic philosophy of logic, ethics, and nature that the Arabic world preserved and Toledo translated back to Latin Europe."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Umayyad world: Córdoba fell to the Arabs in the 711 conquest and became the seat of the breakaway Emirate of Córdoba, the start of its centuries as the glory of Islamic Spain."
     }
   ],
   "12": [
@@ -165,6 +477,18 @@
       "targetTl": "high-medieval-europe",
       "targetChapter": 5,
       "blurb": "The Rhineland massacres of 1096 — Jewish communities destroyed by mobs accompanying the First Crusade — happened just as Jewish life in al-Andalus was still at or near its peak. From the high medieval European side, the First Crusade's anti-Jewish violence inaugurated a century of worsening persecution that made the contrast with Andalusi Jewish life starker and the eventual collapse of that life under the Almohads all the more devastating."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Umayyad Caliphate: the institution itself — the office of the caliph as successor to Muhammad — took its imperial form from Damascus, the model the Córdoba rulers would later claim for themselves."
+    },
+    {
+      "matchText": "Maimonides",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic Golden Age: Maimonides, the Córdoba-born Jewish philosopher and physician, is treated there as a peak of that age's shared Arabic intellectual world — Jewish thought conducted on the same framework as its Muslim contemporaries."
     }
   ],
   "13": [
@@ -185,6 +509,36 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 2,
       "blurb": "The 'House of Wisdom of the West' consciously mirrored Baghdad's — al-Andalus a second great node of the Islamic scientific enterprise."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Abbasid dynasty seized the caliphate in 750 and moved its capital east, presiding over the cultural flowering whose translation movement supplied al-Andalus its scientific substrate."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic Golden Age: Baghdad's House of Wisdom drove the great Arabic translation movement, rendering the Greek and Indian scientific corpus into Arabic — the very corpus Córdoba's library imported wholesale."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in ancient Greece: Aristotle, Plato's student and Alexander's tutor, built the systematic philosophy of logic, ethics, and natural science that Andalusi scholars and Averroes would later recover for the West."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Umayyad world: Córdoba fell to the Muslim conquest of Spain in 711 and became the seat of an exiled Umayyad line, growing into one of the great cities of the medieval Mediterranean."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in ancient Rome: Latin began as the language of a small cluster of central-Italian towns and rode Rome's expansion into the common tongue of Western Christendom — the language Andalusi science had to be translated into to reach Europe."
     }
   ],
   "14": [
@@ -205,6 +559,30 @@
       "targetTl": "high-medieval-europe",
       "targetChapter": 5,
       "blurb": "Averroes and Maimonides, translated at Toledo, detonated inside Latin scholasticism — al-Andalus the pipeline that fed Europe's Twelfth-Century Renaissance."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Umayyad world: when the Abbasid revolution toppled the dynasty in Damascus, a surviving Umayyad prince fled west and founded an emirate at Córdoba — the city that would become al-Andalus's capital and the birthplace of Averroes and Maimonides."
+    },
+    {
+      "matchText": "Averroes",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the wider Islamic Golden Age: Córdoba and the western Mediterranean were a second pole of Muslim learning, and Averroes's commentaries on Aristotle were its crowning — and most exported — achievement."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, later in Europe: the Aristotle that scholars first had to overthrow was the Aristotle handed to them through Averroes's commentaries — the world that the Scientific Revolution would inherit and then dismantle."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, later in Europe: the scholastic habits of reasoning that the Enlightenment both built on and rebelled against descended in significant part from the medieval argument with this Muslim philosopher from al-Andalus."
     }
   ],
   "15": [
@@ -213,6 +591,12 @@
       "targetTl": "high-medieval-europe",
       "targetChapter": 5,
       "blurb": "The question of whether Andalusi muwashshah song-forms influenced the Provencal troubadours is one of the great contested puzzles of medieval literary history. From the high medieval European side, the troubadours emerged in the same region and roughly the same generation as the Andalusi poetic tradition was at its height — and the new European ideal of courtly love, with its paradoxes of longing and praise, has structural relatives in the Arabic poetry filtering north across the Pyrenees."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the wider Islamic world: Damascus had been the Umayyad capital, but by the mid-eighth century the Abbasid revolution shifted the caliphate's center east to Baghdad — the world al-Andalus's founders carried in memory but did not simply copy."
     }
   ],
   "16": [
@@ -233,6 +617,18 @@
       "targetTl": "late-medieval-europe",
       "targetChapter": 8,
       "blurb": "1492 — Granada's fall and Columbus's departure in the same months — is the hinge from the medieval to the early-modern world."
+    },
+    {
+      "matchText": "Almohad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the wider Islamic world: the Almohads were the Berber reform dynasty out of Morocco that overthrew the Almoravids and ruled the Maghreb and al-Andalus in the twelfth and thirteenth centuries — the high-water mark of Berber political power."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the early Caliphate: Córdoba fell to the Muslim conquest of Iberia in 711–712 and would become the seat of the breakaway Umayyad emirate in the west, the brilliant capital from which al-Andalus took its shape."
     }
   ],
   "17": [
@@ -259,6 +655,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 5,
       "blurb": "The expelled Moriscos scattered across the Mediterranean — many to the Ottoman lands, the great refuge for Iberia's exiled Muslims and Jews."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Byzantium: Constantinople had fallen to the Ottomans in 1453, and by 1492 the city was the capital of the Muslim empire welcoming the Jews Spain expelled."
+    },
+    {
+      "matchText": "Reconquista",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile across the Islamic west: the centuries-long Christian Reconquista steadily ground down al-Andalus, the brilliant Cordoban civilization seen from the inside."
     }
   ],
   "18": [
@@ -267,6 +675,18 @@
       "targetTl": "enlightenment",
       "targetChapter": 20,
       "blurb": "Washington Irving's 1832 Tales of the Alhambra arrived in the middle of the Romantic movement's fascination with the medieval Islamic world — itself a reaction against Enlightenment rationalism. From the Enlightenment's side, the eighteenth century had first produced the scholarly apparatus (translations, critical editions, comparative history) that made al-Andalus legible to European readers, and then the Romantics used that apparatus to construct the nostalgic golden-age image that tourism and popular history still largely reproduce."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in fourth-century-BCE Greece: Aristotle, Plato's student and tutor to Alexander the Great, built the encyclopedic system of logic, physics, and metaphysics that — lost to Latin Europe for centuries — survived in Arabic and reached the West largely through al-Andalus."
+    },
+    {
+      "matchText": "Almohad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the western Islamic world: the Almohad caliphate, a rigorist Berber regime out of North Africa, ruled Muslim Spain at its twelfth-century height — patron of the philosopher Averroes even as its zeal drove Jews like Maimonides into exile."
     }
   ]
 }

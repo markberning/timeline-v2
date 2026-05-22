@@ -1,12 +1,6 @@
 {
   "1": [
     {
-      "term": "convivencia",
-      "matchText": "convivencia",
-      "wikiSlug": "Convivencia",
-      "type": "concept"
-    },
-    {
       "term": "Jewish diaspora",
       "matchText": "diaspora",
       "wikiSlug": "Jewish_diaspora",
@@ -43,12 +37,6 @@
       "type": "concept"
     },
     {
-      "term": "Umayyad dynasty",
-      "matchText": "Umayyad",
-      "wikiSlug": "Umayyad_Caliphate",
-      "type": "concept"
-    },
-    {
       "term": "Ifriqiya",
       "matchText": "Ifriqiya",
       "wikiSlug": "Ifriqiya",
@@ -71,18 +59,6 @@
       "matchText": "Imazighen",
       "wikiSlug": "Berbers",
       "type": "people"
-    },
-    {
-      "term": "Visigoths",
-      "matchText": "Visigoths",
-      "wikiSlug": "Visigoths",
-      "type": "people"
-    },
-    {
-      "term": "Strait of Gibraltar",
-      "matchText": "Strait of Gibraltar",
-      "wikiSlug": "Strait_of_Gibraltar",
-      "type": "place"
     },
     {
       "term": "Byzantine Empire",
@@ -109,28 +85,91 @@
       "type": "concept"
     },
     {
-      "term": "al-Maqqari",
-      "matchText": "al-Maqqari",
-      "wikiSlug": "Al-Maqqari",
-      "type": "people"
-    },
-    {
       "term": "Second Temple",
       "matchText": "Second Temple",
       "wikiSlug": "Second_Temple",
       "type": "place"
     },
     {
-      "term": "Ibn al-Qutiya",
-      "matchText": "Ibn al-Qutiya",
-      "wikiSlug": "Ibn_al-Qutiyya",
-      "type": "people"
-    },
-    {
       "term": "Vandals",
       "matchText": "Vandals",
       "wikiSlug": "Vandals",
       "type": "people"
+    },
+    {
+      "matchText": "Prophet Muhammad",
+      "term": "Prophet Muhammad",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Gothic",
+      "term": "Gothic (Goths)",
+      "wikiSlug": "Goths"
+    },
+    {
+      "matchText": "Américo Castro",
+      "term": "Américo Castro",
+      "wikiSlug": "Américo_Castro"
+    },
+    {
+      "matchText": "Claudio Sánchez-Albornoz",
+      "term": "Claudio Sánchez-Albornoz",
+      "wikiSlug": "Claudio_Sánchez-Albornoz"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Medina",
+      "term": "Medina",
+      "wikiSlug": "Medina"
+    },
+    {
+      "matchText": "Visigothic",
+      "term": "Visigothic Kingdom",
+      "wikiSlug": "Visigothic_Kingdom"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
     }
   ],
   "2": [
@@ -138,12 +177,6 @@
       "term": "dhimmi",
       "matchText": "dhimmi",
       "wikiSlug": "Dhimmi",
-      "type": "concept"
-    },
-    {
-      "term": "jizya",
-      "matchText": "jizya",
-      "wikiSlug": "Jizya",
       "type": "concept"
     },
     {
@@ -163,30 +196,6 @@
       "matchText": "dhimma",
       "wikiSlug": "Dhimma",
       "type": "concept"
-    },
-    {
-      "term": "Treaty of Tudmir",
-      "matchText": "Treaty of Tudmir",
-      "wikiSlug": "Treaty_of_Orihuela",
-      "type": "concept"
-    },
-    {
-      "term": "Battle of Tours",
-      "matchText": "Battle of Tours",
-      "wikiSlug": "Battle_of_Tours",
-      "type": "concept"
-    },
-    {
-      "term": "Covadonga",
-      "matchText": "Covadonga",
-      "wikiSlug": "Battle_of_Covadonga",
-      "type": "place"
-    },
-    {
-      "term": "Battle of Guadalete",
-      "matchText": "Guadalete",
-      "wikiSlug": "Battle_of_Guadalete",
-      "type": "place"
     },
     {
       "term": "freedman",
@@ -214,12 +223,6 @@
       "type": "concept"
     },
     {
-      "term": "Kingdom of Asturias",
-      "matchText": "Kingdom of Asturias",
-      "wikiSlug": "Kingdom_of_Asturias",
-      "type": "place"
-    },
-    {
       "term": "Charles Martel",
       "matchText": "Charles Martel",
       "wikiSlug": "Charles_Martel",
@@ -242,6 +245,116 @@
       "matchText": "Narbonne",
       "wikiSlug": "Narbonne",
       "type": "place"
+    },
+    {
+      "matchText": "Indus River",
+      "term": "Indus River",
+      "wikiSlug": "Indus_River"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Gibraltar",
+      "term": "Gibraltar",
+      "wikiSlug": "Gibraltar"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Maghreb",
+      "term": "Maghreb",
+      "wikiSlug": "Maghreb"
+    },
+    {
+      "matchText": "Roderic",
+      "term": "Roderic",
+      "wikiSlug": "Roderic"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Gothic",
+      "term": "Gothic",
+      "wikiSlug": "Visigoths"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Zaragoza",
+      "term": "Zaragoza",
+      "wikiSlug": "Zaragoza"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Quran",
+      "term": "Quran",
+      "wikiSlug": "Quran"
+    },
+    {
+      "matchText": "Pyrenees",
+      "term": "Pyrenees",
+      "wikiSlug": "Pyrenees"
+    },
+    {
+      "matchText": "Poitiers",
+      "term": "Poitiers",
+      "wikiSlug": "Poitiers"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Fall of the Roman Empire",
+      "term": "Fall of the Roman Empire",
+      "wikiSlug": "The_History_of_the_Decline_and_Fall_of_the_Roman_Empire"
+    },
+    {
+      "matchText": "Oxford",
+      "term": "Oxford",
+      "wikiSlug": "University_of_Oxford"
+    },
+    {
+      "matchText": "Gaul",
+      "term": "Gaul",
+      "wikiSlug": "Gaul"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Abd al-Rahman al-Ghafiqi",
+      "term": "Abd al-Rahman al-Ghafiqi",
+      "wikiSlug": "Abd_al-Rahman_ibn_Abd_Allah_al-Ghafiqi"
+    },
+    {
+      "matchText": "Jabal Tariq",
+      "term": "Jabal Tariq",
+      "definition": "Arabic for \"Tariq's mountain,\" named for the Berber commander Tariq ibn Ziyad who landed beneath it in 711. Eight centuries of European mangling turned the name into \"Gibraltar.\""
     }
   ],
   "3": [
@@ -270,22 +383,10 @@
       "type": "people"
     },
     {
-      "term": "Great Mosque of Cordoba",
-      "matchText": "Great Mosque",
-      "wikiSlug": "Mosque–Cathedral_of_Córdoba",
-      "type": "place"
-    },
-    {
       "term": "Mezquita",
       "matchText": "Mezquita",
       "wikiSlug": "Mosque–Cathedral_of_Córdoba",
       "type": "place"
-    },
-    {
-      "term": "Berber revolt",
-      "matchText": "Berber revolt",
-      "wikiSlug": "Berber_revolt",
-      "type": "concept"
     },
     {
       "term": "khutba (Friday sermon)",
@@ -342,23 +443,66 @@
       "type": "people"
     },
     {
-      "term": "Roncesvalles",
-      "matchText": "Roncesvalles",
-      "wikiSlug": "Battle_of_Roncevaux_Pass",
-      "type": "place"
-    },
-    {
-      "term": "Song of Roland",
-      "matchText": "Song of Roland",
-      "wikiSlug": "The_Song_of_Roland",
-      "type": "object"
-    },
-    {
       "term": "thughur",
       "matchText": "thughur",
       "wikiSlug": "",
       "type": "concept",
       "definition": "The thughur were the fortified frontier marches of the Islamic world — chains of garrison towns and border fortresses guarding the edge of Muslim territory, most famously the war-zone facing the Byzantine Empire."
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Maghreb",
+      "term": "Maghreb",
+      "wikiSlug": "Maghreb"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Zaragoza",
+      "term": "Zaragoza",
+      "wikiSlug": "Zaragoza"
+    },
+    {
+      "matchText": "Pyrenees",
+      "term": "Pyrenees",
+      "wikiSlug": "Pyrenees"
+    },
+    {
+      "matchText": "Romance",
+      "term": "Romance languages",
+      "wikiSlug": "Romance_languages"
+    },
+    {
+      "matchText": "Saracens",
+      "term": "Saracens",
+      "wikiSlug": "Saracen"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Asturias",
+      "term": "Asturias",
+      "wikiSlug": "Kingdom_of_Asturias"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
     }
   ],
   "4": [
@@ -372,12 +516,6 @@
       "term": "muwallad",
       "matchText": "muwallad",
       "wikiSlug": "Muwallad",
-      "type": "people"
-    },
-    {
-      "term": "Mozarabs",
-      "matchText": "Mozarabs",
-      "wikiSlug": "Mozarabs",
       "type": "people"
     },
     {
@@ -405,27 +543,9 @@
       "type": "people"
     },
     {
-      "term": "Bobastro",
-      "matchText": "Bobastro",
-      "wikiSlug": "Bobastro",
-      "type": "place"
-    },
-    {
       "term": "Eulogius of Cordoba",
       "matchText": "Eulogius",
       "wikiSlug": "Eulogius_of_Córdoba",
-      "type": "people"
-    },
-    {
-      "term": "Paul Alvarus",
-      "matchText": "Paul Alvarus",
-      "wikiSlug": "Paul_Albar",
-      "type": "people"
-    },
-    {
-      "term": "Richard Bulliet",
-      "matchText": "Richard Bulliet",
-      "wikiSlug": "Richard_W._Bulliet",
       "type": "people"
     },
     {
@@ -451,26 +571,64 @@
       "matchText": "musta'rib",
       "wikiSlug": "Mozarabs",
       "type": "concept"
+    },
+    {
+      "matchText": "Prophet Muhammad",
+      "term": "Prophet Muhammad",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Córdoba",
+      "term": "Córdoba",
+      "wikiSlug": "Córdoba,_Spain"
+    },
+    {
+      "matchText": "Córdoba Martyrs",
+      "term": "Córdoba Martyrs",
+      "wikiSlug": "Martyrs_of_Córdoba"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Emirate of Córdoba",
+      "term": "Emirate of Córdoba",
+      "wikiSlug": "Emirate_of_Córdoba"
+    },
+    {
+      "matchText": "Emirate",
+      "term": "Emirate",
+      "wikiSlug": "Emirate"
+    },
+    {
+      "matchText": "Visigothic",
+      "term": "Visigothic",
+      "wikiSlug": "Visigothic_Kingdom"
     }
   ],
   "5": [
-    {
-      "term": "Caliphate of Cordoba",
-      "matchText": "proclaimed himself",
-      "wikiSlug": "Caliphate_of_Córdoba",
-      "type": "concept"
-    },
     {
       "term": "khalifa",
       "matchText": "khalifa",
       "wikiSlug": "Caliph",
       "type": "concept"
-    },
-    {
-      "term": "Fatimids",
-      "matchText": "Fatimids",
-      "wikiSlug": "Fatimid_Caliphate",
-      "type": "people"
     },
     {
       "term": "Shia Islam",
@@ -485,24 +643,6 @@
       "type": "place"
     },
     {
-      "term": "saqaliba",
-      "matchText": "saqaliba",
-      "wikiSlug": "Saqaliba",
-      "type": "people"
-    },
-    {
-      "term": "dinar",
-      "matchText": "dinar",
-      "wikiSlug": "Dinar",
-      "type": "object"
-    },
-    {
-      "term": "Dioscorides (De Materia Medica)",
-      "matchText": "Dioscorides",
-      "wikiSlug": "De_Materia_Medica",
-      "type": "object"
-    },
-    {
       "term": "concubinage (Islamic law)",
       "matchText": "concubines",
       "wikiSlug": "History_of_concubinage_in_the_Muslim_world",
@@ -513,12 +653,6 @@
       "matchText": "liquid mercury",
       "wikiSlug": "Mercury_(element)",
       "type": "object"
-    },
-    {
-      "term": "John of Gorze",
-      "matchText": "John of Gorze",
-      "wikiSlug": "John_of_Gorze",
-      "type": "people"
     },
     {
       "term": "Otto I (Holy Roman Emperor)",
@@ -543,15 +677,49 @@
       "matchText": "Morocco",
       "wikiSlug": "Morocco",
       "type": "place"
+    },
+    {
+      "matchText": "Basque",
+      "term": "Basques",
+      "wikiSlug": "Basques"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Prophet",
+      "term": "the Prophet (Muhammad)",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Fatima",
+      "term": "Fatima",
+      "wikiSlug": "Fatima"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Berbers",
+      "term": "Berbers",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
     }
   ],
   "6": [
-    {
-      "term": "mihrab",
-      "matchText": "mihrab",
-      "wikiSlug": "Mihrab",
-      "type": "object"
-    },
     {
       "term": "tesserae (mosaic)",
       "matchText": "tesserae",
@@ -595,40 +763,16 @@
       "type": "concept"
     },
     {
-      "term": "Hisham II",
-      "matchText": "Hisham II",
-      "wikiSlug": "Hisham_II",
-      "type": "people"
-    },
-    {
-      "term": "Averroes",
-      "matchText": "Averroes",
-      "wikiSlug": "Averroes",
-      "type": "people"
-    },
-    {
       "term": "manuscript (hand-copied)",
       "matchText": "hand-copied manuscript",
       "wikiSlug": "Manuscript",
       "type": "object"
     },
     {
-      "term": "House of Wisdom (Baghdad)",
-      "matchText": "House of Wisdom of the West",
-      "wikiSlug": "House_of_Wisdom",
-      "type": "place"
-    },
-    {
       "term": "al-Hakam II",
       "matchText": "al-Hakam II",
       "wikiSlug": "Al-Hakam_II",
       "type": "people"
-    },
-    {
-      "term": "caliphal library (Cordoba)",
-      "matchText": "caliphal library",
-      "wikiSlug": "Caliphate_of_Córdoba",
-      "type": "concept"
     },
     {
       "term": "Monastic libraries (Latin Europe)",
@@ -642,6 +786,36 @@
       "matchText": "Great Mosque of Córdoba",
       "wikiSlug": "Mosque–Cathedral_of_Córdoba",
       "type": "place"
+    },
+    {
+      "matchText": "Latin Europe",
+      "term": "Latin Europe",
+      "wikiSlug": "Western_Christianity"
+    },
+    {
+      "matchText": "Latin Christendom",
+      "term": "Latin Christendom",
+      "wikiSlug": "Latin_Church"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Pope",
+      "term": "Pope",
+      "wikiSlug": "Pope"
+    },
+    {
+      "matchText": "Greek-speaking",
+      "term": "Greek-speaking",
+      "definition": "Worshipping and conducting its liturgy in Greek rather than Latin. The Byzantine (Eastern) church used Greek as its sacred and administrative language, one of the deep markers separating it from the Latin-speaking Western church that answered to the Pope in Rome."
     }
   ],
   "7": [
@@ -652,34 +826,10 @@
       "type": "people"
     },
     {
-      "term": "razzia",
-      "matchText": "razzia",
-      "wikiSlug": "Razzia_(military)",
-      "type": "concept"
-    },
-    {
-      "term": "Fitna (civil war)",
-      "matchText": "Fitna",
-      "wikiSlug": "Fitna_(word)",
-      "type": "concept"
-    },
-    {
       "term": "shogun",
       "matchText": "shogun",
       "wikiSlug": "Shogun",
       "type": "people"
-    },
-    {
-      "term": "Santiago de Compostela",
-      "matchText": "Santiago de Compostela",
-      "wikiSlug": "Santiago_de_Compostela",
-      "type": "place"
-    },
-    {
-      "term": "Madinat al-Zahira",
-      "matchText": "Madinat al-Zahira",
-      "wikiSlug": "Madinat_al-Zahira",
-      "type": "place"
     },
     {
       "term": "ghazwa (raid)",
@@ -722,6 +872,46 @@
       "matchText": "chamberlain",
       "wikiSlug": "Chamberlain_(office)",
       "type": "people"
+    },
+    {
+      "matchText": "Almanzor",
+      "term": "Almanzor",
+      "wikiSlug": "Almanzor"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Hisham II",
+      "term": "Hisham II",
+      "wikiSlug": "Hisham_II"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "León",
+      "term": "Kingdom of León",
+      "wikiSlug": "Kingdom_of_León"
+    },
+    {
+      "matchText": "Great Mosque",
+      "term": "Great Mosque of Córdoba",
+      "wikiSlug": "Great_Mosque_of_Córdoba"
+    },
+    {
+      "matchText": "Castile",
+      "term": "Castile",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berbers",
+      "wikiSlug": "Berbers"
     }
   ],
   "8": [
@@ -736,24 +926,6 @@
       "matchText": "parias",
       "wikiSlug": "Parias",
       "type": "concept"
-    },
-    {
-      "term": "Abbadid dynasty",
-      "matchText": "Abbadid",
-      "wikiSlug": "Abbadid_dynasty",
-      "type": "people"
-    },
-    {
-      "term": "Ibn Hazm",
-      "matchText": "Ibn Hazm",
-      "wikiSlug": "Ibn_Hazm",
-      "type": "people"
-    },
-    {
-      "term": "Ring of the Dove",
-      "matchText": "Ring of the Dove",
-      "wikiSlug": "The_Ring_of_the_Dove",
-      "type": "object"
     },
     {
       "term": "County of Barcelona",
@@ -827,6 +999,51 @@
       "matchText": "Badajoz",
       "wikiSlug": "Badajoz",
       "type": "place"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Toledo",
+      "term": "Toledo",
+      "wikiSlug": "Toledo,_Spain"
+    },
+    {
+      "matchText": "Almería",
+      "term": "Almería",
+      "wikiSlug": "Almería"
+    },
+    {
+      "matchText": "León",
+      "term": "León",
+      "wikiSlug": "Kingdom_of_León"
+    },
+    {
+      "matchText": "Visigothic",
+      "term": "Visigothic",
+      "wikiSlug": "Visigothic_Kingdom"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "muluk al-tawa'if",
+      "term": "muluk al-tawa'if",
+      "wikiSlug": "Taifa"
     }
   ],
   "9": [
@@ -873,18 +1090,6 @@
       "type": "object"
     },
     {
-      "term": "al-Ghazali",
-      "matchText": "al-Ghazali",
-      "wikiSlug": "Al-Ghazali",
-      "type": "people"
-    },
-    {
-      "term": "El Cid",
-      "matchText": "El Cid",
-      "wikiSlug": "El_Cid",
-      "type": "people"
-    },
-    {
       "term": "Cantar de Mio Cid",
       "matchText": "Cantar de Mio Cid",
       "wikiSlug": "Cantar_de_mio_Cid",
@@ -895,18 +1100,6 @@
       "matchText": "Marrakesh",
       "wikiSlug": "Marrakesh",
       "type": "place"
-    },
-    {
-      "term": "Battle of Manzikert",
-      "matchText": "Manzikert",
-      "wikiSlug": "Battle_of_Manzikert",
-      "type": "concept"
-    },
-    {
-      "term": "First Crusade",
-      "matchText": "First Crusade",
-      "wikiSlug": "First_Crusade",
-      "type": "concept"
     },
     {
       "term": "Yusuf ibn Tashfin",
@@ -921,12 +1114,6 @@
       "type": "people"
     },
     {
-      "term": "Rodrigo Diaz de Vivar",
-      "matchText": "El Cid",
-      "wikiSlug": "El_Cid",
-      "type": "people"
-    },
-    {
       "term": "Mauritania (Saharan origin)",
       "matchText": "Mauritania",
       "wikiSlug": "Mauritania",
@@ -937,6 +1124,81 @@
       "matchText": "Aghmat",
       "wikiSlug": "Aghmat",
       "type": "place"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Badajoz",
+      "term": "Badajoz",
+      "wikiSlug": "Badajoz"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Quran",
+      "term": "Quran",
+      "wikiSlug": "Quran"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Zaragoza",
+      "term": "Zaragoza",
+      "wikiSlug": "Zaragoza"
+    },
+    {
+      "matchText": "Valencia",
+      "term": "Valencia",
+      "wikiSlug": "Valencia"
+    },
+    {
+      "matchText": "Roland",
+      "term": "Roland",
+      "wikiSlug": "Roland"
+    },
+    {
+      "matchText": "al-mulaththamun",
+      "term": "al-mulaththamun",
+      "wikiSlug": "Litham"
+    },
+    {
+      "matchText": "al-sayyid",
+      "term": "al-sayyid",
+      "definition": "Arabic for \"the lord\" or \"the master\" (al-sayyid). It is the title that Rodrigo Díaz's Muslim contemporaries gave him, which Christian Spain reworked into his immortal nickname, El Cid."
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Castilian",
+      "term": "Castilian",
+      "definition": "Of Castile, the central and ultimately dominant Christian kingdom of medieval Iberia — the power whose language became modern Spanish and whose monarchs completed the Reconquista."
     }
   ],
   "10": [
@@ -959,22 +1221,10 @@
       "type": "concept"
     },
     {
-      "term": "Giralda",
-      "matchText": "Giralda",
-      "wikiSlug": "Giralda",
-      "type": "place"
-    },
-    {
       "term": "minaret",
       "matchText": "minaret",
       "wikiSlug": "Minaret",
       "type": "object"
-    },
-    {
-      "term": "Battle of Alarcos",
-      "matchText": "Battle of Alarcos",
-      "wikiSlug": "Battle_of_Alarcos",
-      "type": "concept"
     },
     {
       "term": "crusade (Iberian)",
@@ -987,30 +1237,6 @@
       "matchText": "Maimonides",
       "wikiSlug": "Maimonides",
       "type": "people"
-    },
-    {
-      "term": "Ibn Tufayl",
-      "matchText": "Ibn Tufayl",
-      "wikiSlug": "Ibn_Tufayl",
-      "type": "people"
-    },
-    {
-      "term": "Ibn Arabi",
-      "matchText": "Ibn Arabi",
-      "wikiSlug": "Ibn_Arabi",
-      "type": "people"
-    },
-    {
-      "term": "Averroes (Almohad context)",
-      "matchText": "Averroes",
-      "wikiSlug": "Averroes",
-      "type": "people"
-    },
-    {
-      "term": "Torre del Oro",
-      "matchText": "Torre del Oro",
-      "wikiSlug": "Torre_del_Oro",
-      "type": "place"
     },
     {
       "term": "Abd al-Mumin (Almohad commander)",
@@ -1047,6 +1273,86 @@
       "matchText": "Sufi mystic-philosopher",
       "wikiSlug": "Sufism",
       "type": "concept"
+    },
+    {
+      "matchText": "Ibn Rushd",
+      "term": "Ibn Rushd",
+      "wikiSlug": "Averroes"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Maliki",
+      "term": "Maliki",
+      "wikiSlug": "Maliki"
+    },
+    {
+      "matchText": "Marrakesh",
+      "term": "Marrakesh",
+      "wikiSlug": "Marrakesh"
+    },
+    {
+      "matchText": "Maghreb",
+      "term": "Maghreb",
+      "wikiSlug": "Maghreb"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Castile",
+      "term": "Castile",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "matchText": "Aragon",
+      "term": "Aragon",
+      "wikiSlug": "Crown_of_Aragon"
+    },
+    {
+      "matchText": "Navarre",
+      "term": "Navarre",
+      "wikiSlug": "Kingdom_of_Navarre"
+    },
+    {
+      "matchText": "Pope",
+      "term": "Pope",
+      "wikiSlug": "Pope"
+    },
+    {
+      "matchText": "Holy Land",
+      "term": "Holy Land",
+      "wikiSlug": "Holy_Land"
+    },
+    {
+      "matchText": "al-Mansur",
+      "term": "al-Mansur",
+      "definition": "An Arabic honorific laqab meaning \"the Victorious,\" adopted as a regnal title by Muslim rulers who wished to advertise a military triumph. Here it is the victory-name taken by the Almohad caliph Abu Yusuf Yaqub after Alarcos — the same boast Almanzor of Cordoba had claimed two centuries earlier, with no connection between the men beyond the title."
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Morocco"
     }
   ],
   "11": [
@@ -1061,36 +1367,6 @@
       "matchText": "Sierra Morena",
       "wikiSlug": "Sierra_Morena",
       "type": "place"
-    },
-    {
-      "term": "Great Reconquista",
-      "matchText": "Great Reconquista",
-      "wikiSlug": "Reconquista",
-      "type": "concept"
-    },
-    {
-      "term": "Toledo School of Translators",
-      "matchText": "translation enterprise",
-      "wikiSlug": "Toledo_School_of_Translators",
-      "type": "concept"
-    },
-    {
-      "term": "Fourth Crusade (sack of Constantinople)",
-      "matchText": "sacked Christian Constantinople itself",
-      "wikiSlug": "Fourth_Crusade",
-      "type": "concept"
-    },
-    {
-      "term": "Ferdinand III of Castile",
-      "matchText": "Ferdinand III of Castile",
-      "wikiSlug": "Ferdinand_III_of_Castile",
-      "type": "people"
-    },
-    {
-      "term": "James I of Aragon",
-      "matchText": "James I of Aragon",
-      "wikiSlug": "James_I_of_Aragon",
-      "type": "people"
     },
     {
       "term": "mudajjan",
@@ -1111,16 +1387,60 @@
       "type": "concept"
     },
     {
-      "term": "crusader sack of Constantinople",
-      "matchText": "1204",
-      "wikiSlug": "Sack_of_Constantinople_(1204)",
-      "type": "concept"
-    },
-    {
       "term": "Great Mosque (as cathedral)",
       "matchText": "reconsecrated as a Christian cathedral",
       "wikiSlug": "Mosque–Cathedral_of_Córdoba",
       "type": "concept"
+    },
+    {
+      "matchText": "Guadalquivir",
+      "term": "Guadalquivir",
+      "wikiSlug": "Guadalquivir"
+    },
+    {
+      "matchText": "Pyrenees",
+      "term": "Pyrenees",
+      "wikiSlug": "Pyrenees"
+    },
+    {
+      "matchText": "Great Mosque",
+      "term": "Great Mosque of Córdoba",
+      "wikiSlug": "Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Mudéjars",
+      "term": "Mudéjars",
+      "wikiSlug": "Mud%C3%A9jar"
+    },
+    {
+      "matchText": "Toledo",
+      "term": "Toledo",
+      "wikiSlug": "Toledo,_Spain"
+    },
+    {
+      "matchText": "Valencia",
+      "term": "Valencia",
+      "wikiSlug": "Valencia"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Almanzor",
+      "term": "Almanzor",
+      "wikiSlug": "Almanzor"
     }
   ],
   "12": [
@@ -1155,27 +1475,9 @@
       "type": "people"
     },
     {
-      "term": "Judah Halevi",
-      "matchText": "Judah Halevi",
-      "wikiSlug": "Judah_Halevi",
-      "type": "people"
-    },
-    {
-      "term": "Solomon ibn Gabirol",
-      "matchText": "Solomon ibn Gabirol",
-      "wikiSlug": "Solomon_ibn_Gabirol",
-      "type": "people"
-    },
-    {
       "term": "pogrom",
       "matchText": "pogroms",
       "wikiSlug": "Pogrom",
-      "type": "concept"
-    },
-    {
-      "term": "Granada massacre 1066",
-      "matchText": "1066 Granada massacre",
-      "wikiSlug": "1066_Granada_massacre",
       "type": "concept"
     },
     {
@@ -1219,6 +1521,41 @@
       "matchText": "Joseph",
       "wikiSlug": "Joseph_ibn_Naghrillah",
       "type": "people"
+    },
+    {
+      "matchText": "People of the Book",
+      "term": "People of the Book",
+      "wikiSlug": "People_of_the_Book"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Latin Christendom",
+      "term": "Latin Christendom",
+      "wikiSlug": "Christendom"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Arabized",
+      "term": "Arabized",
+      "wikiSlug": "Arabization"
+    },
+    {
+      "matchText": "Mudéjars",
+      "term": "Mudéjars",
+      "wikiSlug": "Mudéjar"
     }
   ],
   "13": [
@@ -1229,21 +1566,9 @@
       "type": "object"
     },
     {
-      "term": "Toledan Tables",
-      "matchText": "Toledan Tables",
-      "wikiSlug": "Toledan_Tables",
-      "type": "object"
-    },
-    {
       "term": "precession of the equinoxes",
       "matchText": "precession of the equinoxes",
       "wikiSlug": "Axial_precession",
-      "type": "concept"
-    },
-    {
-      "term": "Arab Agricultural Revolution",
-      "matchText": "Arab Agricultural Revolution",
-      "wikiSlug": "Arab_agricultural_revolution",
       "type": "concept"
     },
     {
@@ -1265,12 +1590,6 @@
       "type": "object"
     },
     {
-      "term": "Tribunal de las Aguas",
-      "matchText": "Tribunal de las Aguas",
-      "wikiSlug": "Tribunal_de_las_Aguas",
-      "type": "concept"
-    },
-    {
       "term": "Ptolemy (astronomer)",
       "matchText": "Ptolemy",
       "wikiSlug": "Ptolemy",
@@ -1289,12 +1608,6 @@
       "type": "people"
     },
     {
-      "term": "al-Zahrawi (Abulcasis)",
-      "matchText": "al-Zahrawi",
-      "wikiSlug": "Al-Zahrawi",
-      "type": "people"
-    },
-    {
       "term": "al-Zarqali (Arzachel)",
       "matchText": "al-Zarqali",
       "wikiSlug": "Al-Zarqālī",
@@ -1307,34 +1620,10 @@
       "type": "concept"
     },
     {
-      "term": "Gerard of Cremona",
-      "matchText": "Gerard of Cremona",
-      "wikiSlug": "Gerard_of_Cremona",
-      "type": "people"
-    },
-    {
       "term": "Almagest",
       "matchText": "Almagest",
       "wikiSlug": "Almagest",
       "type": "object"
-    },
-    {
-      "term": "Ibn Zuhr (Avenzoar)",
-      "matchText": "Ibn Zuhr",
-      "wikiSlug": "Ibn_Zuhr",
-      "type": "people"
-    },
-    {
-      "term": "Ibn al-Baytar",
-      "matchText": "Ibn al-Baytar",
-      "wikiSlug": "Ibn_al-Baitar",
-      "type": "people"
-    },
-    {
-      "term": "Toledo School of Translators",
-      "matchText": "Toledo School of Translators",
-      "wikiSlug": "Toledo_School_of_Translators",
-      "type": "concept"
     },
     {
       "term": "astronomical tables",
@@ -1385,15 +1674,39 @@
       "matchText": "Abulcasis",
       "wikiSlug": "Al-Zahrawi",
       "type": "people"
+    },
+    {
+      "matchText": "Copernicus",
+      "term": "Copernicus",
+      "wikiSlug": "Nicolaus_Copernicus"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Ancient_Greece"
+    },
+    {
+      "matchText": "Latin Christendom",
+      "term": "Latin Christendom",
+      "wikiSlug": "Christendom"
+    },
+    {
+      "matchText": "Málaga",
+      "term": "Málaga",
+      "wikiSlug": "Málaga"
     }
   ],
   "14": [
-    {
-      "term": "Averroes (Ibn Rushd)",
-      "matchText": "Ibn Rushd",
-      "wikiSlug": "Averroes",
-      "type": "people"
-    },
     {
       "term": "Aristotle",
       "matchText": "Aristotle",
@@ -1401,27 +1714,9 @@
       "type": "people"
     },
     {
-      "term": "Hayy ibn Yaqzan",
-      "matchText": "Hayy ibn Yaqzan",
-      "wikiSlug": "Hayy_ibn_Yaqdhan",
-      "type": "object"
-    },
-    {
       "term": "Latin Averroism",
       "matchText": "Latin Averroist",
       "wikiSlug": "Averroism",
-      "type": "concept"
-    },
-    {
-      "term": "Thomas Aquinas",
-      "matchText": "Thomas Aquinas",
-      "wikiSlug": "Thomas_Aquinas",
-      "type": "people"
-    },
-    {
-      "term": "scholasticism",
-      "matchText": "European scholasticism",
-      "wikiSlug": "Scholasticism",
       "type": "concept"
     },
     {
@@ -1434,24 +1729,6 @@
       "term": "Mishneh Torah",
       "matchText": "Mishneh Torah",
       "wikiSlug": "Mishneh_Torah",
-      "type": "object"
-    },
-    {
-      "term": "Guide for the Perplexed",
-      "matchText": "Guide for the Perplexed",
-      "wikiSlug": "The_Guide_for_the_Perplexed",
-      "type": "object"
-    },
-    {
-      "term": "Ibn Bajja (Avempace)",
-      "matchText": "Ibn Bajja",
-      "wikiSlug": "Ibn_Bajja",
-      "type": "people"
-    },
-    {
-      "term": "Tawq al-hamama (Ring of the Dove)",
-      "matchText": "Tawq al-hamama",
-      "wikiSlug": "The_Ring_of_the_Dove",
       "type": "object"
     },
     {
@@ -1507,6 +1784,81 @@
       "matchText": "Maimonides",
       "wikiSlug": "Maimonides",
       "type": "people"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Zaragoza",
+      "term": "Zaragoza",
+      "wikiSlug": "Zaragoza"
+    },
+    {
+      "matchText": "Maghreb",
+      "term": "Maghreb",
+      "wikiSlug": "Maghreb"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Aristotelian",
+      "term": "Aristotelianism",
+      "wikiSlug": "Aristotelianism"
+    },
+    {
+      "matchText": "Toledo",
+      "term": "Toledo",
+      "wikiSlug": "Toledo,_Spain"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Kurdish",
+      "term": "Kurds",
+      "wikiSlug": "Kurds"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Crusaders",
+      "term": "Crusaders",
+      "wikiSlug": "Crusades"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "al-Shaykh al-Akbar",
+      "term": "Ibn Arabi",
+      "wikiSlug": "Ibn_Arabi"
+    },
+    {
+      "matchText": "Commentator",
+      "term": "the Commentator",
+      "definition": "The honorific the medieval Latin schoolmen gave Averroes — capital C, no name needed — just as Aristotle was simply \"the Philosopher.\" It marks how completely his commentaries dominated Europe's reading of Aristotle."
+    },
+    {
+      "matchText": "Latin Europe",
+      "term": "Latin Europe",
+      "wikiSlug": "Western_Christianity"
     }
   ],
   "15": [
@@ -1517,21 +1869,9 @@
       "type": "object"
     },
     {
-      "term": "horseshoe arch",
-      "matchText": "horseshoe arch",
-      "wikiSlug": "Horseshoe_arch",
-      "type": "object"
-    },
-    {
       "term": "muqarnas",
       "matchText": "muqarnas",
       "wikiSlug": "Muqarnas",
-      "type": "object"
-    },
-    {
-      "term": "muwashshah",
-      "matchText": "muwashshah",
-      "wikiSlug": "Muwashshah",
       "type": "object"
     },
     {
@@ -1551,12 +1891,6 @@
       "matchText": "Romance",
       "wikiSlug": "Romance_languages",
       "type": "concept"
-    },
-    {
-      "term": "troubadours",
-      "matchText": "troubadours",
-      "wikiSlug": "Troubadour",
-      "type": "people"
     },
     {
       "term": "oud",
@@ -1623,6 +1957,46 @@
       "matchText": "idealized courtly love",
       "wikiSlug": "Courtly_love",
       "type": "concept"
+    },
+    {
+      "matchText": "Great Mosque of Córdoba",
+      "term": "Great Mosque of Córdoba",
+      "wikiSlug": "Mosque–Cathedral_of_Córdoba"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Charles V",
+      "term": "Charles V",
+      "wikiSlug": "Charles_V,_Holy_Roman_Emperor"
+    },
+    {
+      "matchText": "Fitna",
+      "term": "Fitna of al-Andalus",
+      "wikiSlug": "Fitna_of_al-Andalus"
+    },
+    {
+      "matchText": "Nasrid",
+      "term": "Nasrid dynasty",
+      "wikiSlug": "Nasrid_dynasty"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Provence",
+      "term": "Provence",
+      "wikiSlug": "Provence"
+    },
+    {
+      "matchText": "Córdoba",
+      "term": "Córdoba",
+      "wikiSlug": "Córdoba,_Spain"
     }
   ],
   "16": [
@@ -1633,22 +2007,10 @@
       "type": "people"
     },
     {
-      "term": "Emirate of Granada",
-      "matchText": "Emirate of Granada",
-      "wikiSlug": "Emirate_of_Granada",
-      "type": "place"
-    },
-    {
       "term": "vassal",
       "matchText": "vassal",
       "wikiSlug": "Vassal",
       "type": "concept"
-    },
-    {
-      "term": "Marinid dynasty",
-      "matchText": "Marinids",
-      "wikiSlug": "Marinid_dynasty",
-      "type": "people"
     },
     {
       "term": "entrepot (trading hub)",
@@ -1663,34 +2025,10 @@
       "type": "place"
     },
     {
-      "term": "Ibn al-Khatib",
-      "matchText": "Ibn al-Khatib",
-      "wikiSlug": "Ibn_al-Khatib",
-      "type": "people"
-    },
-    {
-      "term": "Ibn Battuta",
-      "matchText": "Ibn Battuta",
-      "wikiSlug": "Ibn_Battuta",
-      "type": "people"
-    },
-    {
       "term": "Black Death",
       "matchText": "Black Death",
       "wikiSlug": "Black_Death",
       "type": "concept"
-    },
-    {
-      "term": "Ibn Zamrak",
-      "matchText": "Ibn Zamrak",
-      "wikiSlug": "Ibn_Zamrak",
-      "type": "people"
-    },
-    {
-      "term": "Court of the Lions",
-      "matchText": "Court of the Lions",
-      "wikiSlug": "Court_of_the_Lions",
-      "type": "place"
     },
     {
       "term": "stucco (carved)",
@@ -1739,6 +2077,71 @@
       "matchText": "Saharan gold",
       "wikiSlug": "Trans-Saharan_trade_route",
       "type": "concept"
+    },
+    {
+      "matchText": "Almoravid",
+      "term": "Almoravid",
+      "wikiSlug": "Almoravid_dynasty"
+    },
+    {
+      "matchText": "Almería",
+      "term": "Almería",
+      "wikiSlug": "Almería"
+    },
+    {
+      "matchText": "Ferdinand III of Castile",
+      "term": "Ferdinand III of Castile",
+      "wikiSlug": "Ferdinand_III_of_Castile"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Castile",
+      "term": "Castile",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "matchText": "Aragon",
+      "term": "Aragon",
+      "wikiSlug": "Crown_of_Aragon"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Almohads",
+      "term": "Almohads",
+      "wikiSlug": "Almohad_Caliphate"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Castilian",
+      "term": "Castilian",
+      "definition": "The adjectival form of Castile — meaning belonging to or under the Crown of Castile, the dominant Christian kingdom of central Iberia to which Nasrid Granada paid tribute and owed military service."
+    },
+    {
+      "matchText": "Málaga",
+      "term": "Málaga",
+      "wikiSlug": "Málaga"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Morocco"
     }
   ],
   "17": [
@@ -1749,34 +2152,10 @@
       "type": "people"
     },
     {
-      "term": "Spanish Inquisition",
-      "matchText": "Spanish Inquisition",
-      "wikiSlug": "Spanish_Inquisition",
-      "type": "concept"
-    },
-    {
       "term": "conversos",
       "matchText": "conversos",
       "wikiSlug": "Converso",
       "type": "concept"
-    },
-    {
-      "term": "Capitulations of Granada",
-      "matchText": "Capitulations of Granada",
-      "wikiSlug": "Treaty_of_Granada_(1491)",
-      "type": "concept"
-    },
-    {
-      "term": "Alhambra Decree",
-      "matchText": "Alhambra Decree",
-      "wikiSlug": "Alhambra_Decree",
-      "type": "concept"
-    },
-    {
-      "term": "Sephardim",
-      "matchText": "Sephardim",
-      "wikiSlug": "Sephardi_Jews",
-      "type": "people"
     },
     {
       "term": "Ladino language",
@@ -1791,22 +2170,10 @@
       "type": "people"
     },
     {
-      "term": "Granada War",
-      "matchText": "Granada War",
-      "wikiSlug": "Granada_War",
-      "type": "concept"
-    },
-    {
       "term": "siege artillery (gunpowder)",
       "matchText": "siege artillery",
       "wikiSlug": "Siege_artillery",
       "type": "object"
-    },
-    {
-      "term": "Christopher Columbus",
-      "matchText": "Christopher Columbus",
-      "wikiSlug": "Christopher_Columbus",
-      "type": "people"
     },
     {
       "term": "Boabdil (Muhammad XII)",
@@ -1827,12 +2194,6 @@
       "type": "concept"
     },
     {
-      "term": "Siege of Malaga (1487)",
-      "matchText": "city held out through a long siege",
-      "wikiSlug": "Siege_of_Málaga_(1487)",
-      "type": "concept"
-    },
-    {
       "term": "Nasrid civil war (final decade)",
       "matchText": "Nasrid civil war",
       "wikiSlug": "Granada_War",
@@ -1843,6 +2204,81 @@
       "matchText": "Muhammad XII",
       "wikiSlug": "Muhammad_XII_of_Granada",
       "type": "people"
+    },
+    {
+      "matchText": "Isabella",
+      "term": "Isabella",
+      "wikiSlug": "Isabella_I_of_Castile"
+    },
+    {
+      "matchText": "Castile",
+      "term": "Castile",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "matchText": "Ferdinand",
+      "term": "Ferdinand",
+      "wikiSlug": "Ferdinand_II_of_Aragon"
+    },
+    {
+      "matchText": "Aragon",
+      "term": "Aragon",
+      "wikiSlug": "Crown_of_Aragon"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Málaga",
+      "term": "Málaga",
+      "wikiSlug": "Málaga"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Gibraltar",
+      "term": "Gibraltar",
+      "wikiSlug": "Gibraltar"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Santa Fe",
+      "term": "Santa Fe",
+      "wikiSlug": "Santa_Fe,_Granada"
+    },
+    {
+      "matchText": "Caribbean",
+      "term": "Caribbean",
+      "wikiSlug": "Caribbean"
+    },
+    {
+      "matchText": "el último suspiro del Moro",
+      "term": "el último suspiro del Moro",
+      "wikiSlug": "Puerto_del_Suspiro_del_Moro"
+    },
+    {
+      "matchText": "Castilian",
+      "term": "Castilian",
+      "definition": "Of Castile, the central and ultimately dominant Christian kingdom of medieval Iberia — the power whose language became modern Spanish and whose monarchs completed the Reconquista."
     }
   ],
   "18": [
@@ -1850,36 +2286,6 @@
       "term": "Moriscos",
       "matchText": "Moriscos",
       "wikiSlug": "Moriscos",
-      "type": "people"
-    },
-    {
-      "term": "Cardinal Cisneros",
-      "matchText": "Cardinal Cisneros",
-      "wikiSlug": "Francisco_Jiménez_de_Cisneros",
-      "type": "people"
-    },
-    {
-      "term": "War of the Alpujarras",
-      "matchText": "War of the Alpujarras",
-      "wikiSlug": "Rebellion_of_the_Alpujarras_(1568%E2%80%931571)",
-      "type": "concept"
-    },
-    {
-      "term": "Expulsion of the Moriscos",
-      "matchText": "expulsion of the Moriscos",
-      "wikiSlug": "Expulsion_of_the_Moriscos",
-      "type": "concept"
-    },
-    {
-      "term": "Ladino (diaspora language)",
-      "matchText": "Ladino alive",
-      "wikiSlug": "Judeo-Spanish",
-      "type": "concept"
-    },
-    {
-      "term": "Washington Irving",
-      "matchText": "Washington Irving",
-      "wikiSlug": "Washington_Irving",
       "type": "people"
     },
     {
@@ -1947,6 +2353,51 @@
       "matchText": "Morisco",
       "wikiSlug": "Morisco",
       "type": "people"
+    },
+    {
+      "matchText": "Sephardic Jews",
+      "term": "Sephardic Jews",
+      "wikiSlug": "Sephardic_Jews"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Castile",
+      "term": "Castile",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Andalusian",
+      "term": "Andalusian",
+      "definition": "Of or relating to al-Andalus — the Muslim-ruled portion of medieval Iberia and its culture. The \"Andalusian paradise\" is the romanticized image of that lost society as a golden age of tolerance and learning."
+    },
+    {
+      "matchText": "Boabdil",
+      "term": "Boabdil",
+      "wikiSlug": "Boabdil"
+    },
+    {
+      "matchText": "Giralda",
+      "term": "Giralda",
+      "wikiSlug": "Giralda"
     }
   ]
 }

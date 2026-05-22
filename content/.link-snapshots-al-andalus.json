@@ -82,7 +82,7 @@
     },
     "Abbasid_Revolution": {
       "title": "Abbasid revolution",
-      "lead": "The Abbasid revolution (Arabic: اَلثَّوْرَة اَلْعَبَّاسِيَّةِ, romanized: aṯ-Ṯawra al-ʿAbbāsiyyah), was the overthrow of the Umayyad Caliphate (661–750) by the Abbasid Caliphate (750–1517), respectively the second and third of the four majo",
+      "lead": "The Abbasid revolution (Arabic: اَلثَّوْرَة اَلْعَبَّاسِيَّةِ, romanized: aṯ-Ṯawra al-ʿAbbāsiyyah), was the overthrow of the Umayyad Caliphate (661–750), the second major caliphate, by the Hashimiyya movement, resulting in the establishment",
       "image": "Caliphate_750.jpg"
     },
     "Abd_al-Rahman_I": {
@@ -542,7 +542,7 @@
     },
     "Alhambra": {
       "title": "Alhambra",
-      "lead": "The Alhambra (, Spanish: [aˈlambɾa]; Arabic: الْحَمْرَاء, romanized: al-ḥamrāʼ ) is a palace and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved palace f",
+      "lead": "The Alhambra (, Spanish: [aˈlambɾa]; Arabic: الْحَمْرَاء, romanized: al-ḥamrāʼ ) is a palatine city and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved p",
       "image": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
     },
     "Court_of_the_Lions": {
@@ -662,20 +662,10 @@
     }
   },
   "glossary": {
-    "Strait_of_Gibraltar": {
-      "title": "Strait of Gibraltar",
-      "lead": "The Strait of Gibraltar, also known as the Straits of Gibraltar, is a narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Europe from Africa. The two continents are separated by 7.7 nautical miles (14.2 kil",
-      "image": "STS059-238-074_Strait_of_Gibraltar.jpg"
-    },
     "Visigothic_Kingdom": {
       "title": "Visigothic Kingdom",
       "lead": "The Visigothic Kingdom, Visigothic Spain or Kingdom of the Goths (Latin: Regnum Gothorum) was a barbarian kingdom that occupied what is now southwestern France and the Iberian Peninsula from the 5th to the 8th century. One of the Germanic s",
       "image": "Leovigild_CNG_97-722237_(obverse).jpg"
-    },
-    "Umayyad_Caliphate": {
-      "title": "Umayyad Caliphate",
-      "lead": "The Umayyad Caliphate or the Umayyad Empire (US: ; Arabic: ٱلْخِلَافَة ٱلْأُمَوِيَّة, romanized: al-Khilāfa al-Umawiyya) was the second caliphate established after the death of the Islamic prophet Muhammad and was ruled by the Umayyad dynas",
-      "image": "Umayyad_Caliphate_720_AD_(orthographic_projection).svg"
     },
     "Berbers": {
       "title": "Berbers",
@@ -687,30 +677,10 @@
       "lead": "Convivencia (Spanish for \"living together\") is a term used by scholar Américo Castro to describe a period in Spanish history from the Muslim Umayyad conquest of Hispania in the 700s to the expulsion of the Jews in 1492 by the Catholic Monar",
       "image": ""
     },
-    "Battle_of_Guadalete": {
-      "title": "Battle of Guadalete",
-      "lead": "The Battle of Guadalete was the first major battle of the Muslim conquest of the Iberian Peninsula, fought in July 711 at an unidentified location in what is now southern Spain between the Visigoths under their king, Roderic, and the invadi",
-      "image": "The_battle_of_Guadelete.jpg"
-    },
-    "Treaty_of_Orihuela": {
-      "title": "Treaty of Orihuela",
-      "lead": "Treaty of Orihuela (also known as the Treaty of Tudmir/Theodemir) was an early Dhimmi treaty imposed by the invading Umayyad Caliphate on the Christians in the city of Orihuela in the Iberian Peninsula in 713.",
-      "image": "Pacto_de_Teodomiro.JPG"
-    },
     "Dhimmi": {
       "title": "Dhimmi",
       "lead": "Dhimmī (Arabic: ذمي ḏimmī, IPA: [ˈðimmiː], collectively أهل الذمة ʾahl aḏ-ḏimmah/dhimmah \"the people of the covenant\") or muʿāhid (معاهد) is a historical term for non-Muslims living in an Islamic state with certain legal protections and res",
       "image": "ALFiqh.png"
-    },
-    "Battle_of_Tours": {
-      "title": "Battle of Tours",
-      "lead": "The Battle of Tours, also called the Battle of Poitiers and the Battle of the Highway of the Martyrs (Arabic: معركة بلاط الشهداء, romanized: Maʿrakat Balāṭ ash-Shuhadā'), was fought on 10 October 732, and was an important battle during the ",
-      "image": "Steuben_-_Bataille_de_Poitiers.png"
-    },
-    "Battle_of_Covadonga": {
-      "title": "Battle of Covadonga",
-      "lead": "The Battle of Covadonga took place in 722 between the army of Pelagius of Asturias and the army of Umayyad Caliphate commanders Alqama and Munuza. Fought near Covadonga, in the Picos de Europa, the outcome was victory for the Christian forc",
-      "image": "Invasionislámicaespaña.svg"
     },
     "Kingdom_of_Asturias": {
       "title": "Kingdom of Asturias",
@@ -727,16 +697,6 @@
       "lead": "The Mosque–Cathedral of Córdoba (Spanish: Mezquita-Catedral de Córdoba [meθˈkita kateˈðɾal de ˈkoɾðoβa]) is the cathedral of the Roman Catholic Diocese of Córdoba in the Spanish region of Andalusia. Officially called the Cathedral of Our La",
       "image": "Mezquita_de_Córdoba_desde_el_aire_(Córdoba,_España).jpg"
     },
-    "Battle_of_Roncevaux_Pass": {
-      "title": "Battle of Roncevaux Pass",
-      "lead": "The Battle of Roncevaux Pass (French and English spelling, Roncesvalles in Spanish, Orreaga in Basque) in 778 saw a large force of Basques ambush a part of Charlemagne's army in Roncevaux Pass, a high mountain pass in the Pyrenees on the pr",
-      "image": "Batalla.roncesvalles.jpg"
-    },
-    "The_Song_of_Roland": {
-      "title": "Song of Roland",
-      "lead": "The Song of Roland (French: La Chanson de Roland) is an 11th-century chanson de geste based on the deeds of the Frankish military leader Roland at the Battle of Roncevaux Pass in AD 778, during the reign of Charlemagne. It is the oldest sur",
-      "image": "Grandes_chroniques_Roland.jpg"
-    },
     "Marca_Hispanica": {
       "title": "Spanish March",
       "lead": "The Spanish March or Hispanic March was a march or military buffer zone established after the failed Umayyad invasion of Francia. It was established in c. 795 by Charlemagne in the eastern Pyrenees and nearby areas, to protect the new terri",
@@ -747,15 +707,15 @@
       "lead": "Abu al-Hasan 'Ali Ibn Nafi' (Arabic: أبو الحسن علي ابن نافع, زریاب; c. 789–c. 857), commonly known as Ziryab, was a singer, oud and lute player, composer, poet, and teacher. He lived and worked in what is now Iraq, West Asia, and Andalusia ",
       "image": "Monumento_a_Ziryab_002.JPG"
     },
+    "Martyrs_of_Córdoba": {
+      "title": "Martyrs of Córdoba",
+      "lead": "The Martyrs of Córdoba were forty-eight Christian martyrs executed under the rule of the Muslim administration in al-Andalus for capital violations of Islamic law, namely blasphemy and apostasy, between 850 and 859 AD. Some of the Christian",
+      "image": "EulogioCordovamart.JPG"
+    },
     "Eulogius_of_Córdoba": {
       "title": "Eulogius of Córdoba",
       "lead": "Saint Eulogius of Córdoba (Spanish: San Eulogio de Córdoba (died 11 March 859)) was one of the Martyrs of Córdoba. He lived during the reigns of the Cordovan emirs Abd ar-Rahman II and Muhammad I (mid-9th century).",
       "image": "EulogioCordovamart.JPG"
-    },
-    "Bobastro": {
-      "title": "Bobastro",
-      "lead": "Bobastro (Arabic Bubashtru) was a castle of Roman origin, rebuilt as the headquarters of Umar ibn Hafsun during his rebellion against the Caliphate of Córdoba in the 9th century. Its ruins lie in the Province of Málaga, Spain. There had bee",
-      "image": "Bobastro_ruinas.jpg"
     },
     "Banu_Qasi": {
       "title": "Banu Qasi",
@@ -767,16 +727,6 @@
       "lead": "The Mozarabs (from Arabic: مُسْتَعْرَب, romanized: musta‘rab, lit. 'Arabized'), or more precisely Andalusi Christians, were the Christians of al-Andalus, or the territories of Iberia under Muslim rule from 711 to 1492. Following the Umayyad",
       "image": "Arcos_de_herradura_mozárabe_de_Santiago_de_Peñalba.jpg"
     },
-    "Caliphate_of_Córdoba": {
-      "title": "Umayyad state of Córdoba",
-      "lead": "The Emirate of Córdoba, and from 929, the Caliphate of Córdoba, was an Arab Islamic state ruled by the Umayyad dynasty from 756 to 1031. Its territory comprised most of the Iberian Peninsula (known to Muslims as al-Andalus), the Balearic Is",
-      "image": "Caliphate_of_Córdoba_under_Almanzor_-_1000_CE.png"
-    },
-    "Fatimid_Caliphate": {
-      "title": "Fatimid Caliphate",
-      "lead": "The Fatimid Caliphate (; Arabic: الخلافة الفاطمیّة, romanized: al-Khilāfa al-Fāṭimiyya), also known as the Fatimid Empire, was a caliphate that existed from the tenth to the twelfth centuries CE under the rule of the Fatimids, an Isma'ili S",
-      "image": "Fatimid_Caliphate.PNG"
-    },
     "Medina_Azahara": {
       "title": "Madinat al-Zahra",
       "lead": "Madinat al-Zahra or Medina Azahara (Arabic: مدينة الزهراء, romanized: Madīnat az-Zahrāʾ, lit. 'the radiant city') was a fortified palace-city on the western outskirts of Córdoba in present-day Spain. Its remains are a major archaeological s",
@@ -785,11 +735,6 @@
     "Hasdai_ibn_Shaprut": {
       "title": "Hasdai ibn Shaprut",
       "lead": "Hasdai ibn Shaprut (Hebrew: חסדאי אבן שפרוט; Arabic: حسداي بن شبروط, romanized: Abu Yusuf ibn Shaprut), also known as Abu Yusuf ben Yitzhak ben Ezra, was a Jewish scholar, physician, diplomat, and patron of science in medieval al-Andalus (c",
-      "image": ""
-    },
-    "John_of_Gorze": {
-      "title": "John of Gorze",
-      "lead": "Saint John of Gorze (French: Jean de Gorze, also called John of Lorraine) (c. 900 — 7 March 974) was a Lorraine-born monk, diplomat, administrator, and monastic reformer.",
       "image": ""
     },
     "Saqaliba": {
@@ -802,40 +747,30 @@
       "lead": "Al-Hakam II, also known as Abū al-ʿĀṣ al-Mustanṣir bi-Llāh al-Hakam b. ʿAbd al-Raḥmān (أَبُو الْعَاصٍ الْمُسْتَنْصِرِ بِاللهِ الْحَكْمِ بْن عَبْدِ الرَّحْمَنِ; 13 January 915 – 1 October 976), was the Caliph of Córdoba. He was the second Um",
       "image": "AlHakemII_dirhem_MedinaAzahara.jpg"
     },
-    "Mihrab": {
-      "title": "Mihrab",
-      "lead": "Mihrab (Arabic: محراب, miḥrāb, pl. محاريب maḥārīb) is a niche in the wall of a mosque that indicates the qibla, the direction of the Kaaba in Mecca towards which Muslims should face when praying. The wall in which a mihrab appears is thus t",
-      "image": "Mihrab_Othmani.jpg"
-    },
     "Hisham_II": {
       "title": "Hisham II",
       "lead": "Hisham II or Abu'l-Walid Hisham II al-Mu'ayyad bi-llah (ابو الولید ھشام المؤيد بالله, Abū'l-Walīd Hishām al-Muʾayyad bi-ʾllāh; 966 – 1044) (son of Al-Hakam II and Subh of Córdoba) was the third Umayyad Caliph of Spain, in Al-Andalus from 97",
       "image": "Silver_dirham_LACMA_M.2002.1.437_(2_of_2).jpg"
+    },
+    "Almanzor": {
+      "title": "Almanzor",
+      "lead": "Abu ʿAmer Muḥammad ibn ʿAbdullāh ibn Abi ʿAmer al-Maʿafiri (Arabic: أبو عامر محمد بن عبد الله بن أبي عامر المعافري), nicknamed al-Manṣūr (Arabic: المنصور, \"the Victorious\"), which is often Latinized as Almanzor in Spanish, Almansor in Catal",
+      "image": "Busto_de_Almanzor_en_Calatañazor_(cropped)_3.png"
     },
     "Razzia_(military)": {
       "title": "Razzia (military)",
       "lead": "A razzia is a surprise raid against an enemy settlement. Although primarily aimed at obtaining booty, historically the objectives of a razzia have been diverse: the capture of slaves, religious or ethnic cleansing, expansion of territory, a",
       "image": "Razzia_of_Circassian_Guerillas._Edmund_Spencer._Turkey,_Russia,_the_Black_Sea,_and_Circassia.P.359.jpg"
     },
+    "Fitna_of_al-Andalus": {
+      "title": "Fitna of al-Andalus",
+      "lead": "The Fitna of al-Andalus (Arabic: فتنة الأندلس, romanized: Fitnat al-Andalus) (1009–1031), sometimes referred to as the second fitna of al-Andalus, was a civil war in the Caliphate of Córdoba. It began in the year 1009 with a coup d'état whi",
+      "image": "Califato_de_Córdoba_-_1000-en.svg"
+    },
     "Taifa": {
       "title": "Taifa",
       "lead": "The taifas (from Arabic: طائفة ṭā'ifa, plural طوائف ṭawā'if, meaning \"party, band, faction\") were the independent Muslim principalities and kingdoms of the Iberian Peninsula (modern Portugal and Spain), referred to by Muslims as al-Andalus,",
       "image": "Taifas2.gif"
-    },
-    "Abbadid_dynasty": {
-      "title": "Abbadid dynasty",
-      "lead": "The Abbadid dynasty or Abbadids (Arabic: بنو عباد, romanized: Banū ʿAbbād) was an Arab dynasty from the tribe of Banu Lakhm of al-Hirah, which ruled the Taifa of Seville in al-Andalus following the fall of the Caliphate of Cordoba in 1031. ",
-      "image": ""
-    },
-    "Ibn_Hazm": {
-      "title": "Ibn Hazm",
-      "lead": "Ibn Hazm (Arabic: ابن حزم, romanized: Ibn Ḥazm; November 994 – 15 August 1064) was an Andalusi Muslim polymath, historian, traditionist, jurist, philosopher, and theologian, born in the Córdoban Caliphate, present-day Spain. Described as on",
-      "image": "Statue_of_Abén_Házam_(Ibn_Hazm)_in_Córdoba,_2021.jpg"
-    },
-    "The_Ring_of_the_Dove": {
-      "title": "The Ring of the Dove",
-      "lead": "The Ring of the Dove or Ṭawq al-Ḥamāmah (Arabic: طوق الحمامة) is a treatise on love written in the year 1022 by Ibn Hazm. Normally a writer of theology and law, Ibn Hazm produced his only work of literature with The Ring of the Dove. He was",
-      "image": "WarnerUBL.jpg"
     },
     "Parias": {
       "title": "Parias",
@@ -846,21 +781,6 @@
       "title": "Samuel ibn Naghrillah",
       "lead": "Shemuel ibn Naghrillah (Hebrew: שְׁמוּאֵל הַלֵּוִי בֶּן יוֹסֵף, romanized: Šəmuʿēl HalLēvi ben Yosēf; Arabic: أبو إسحاق إسماعيل بن النغريلة, romanized: ʾAbū ʾIsḥāq ʾIsmāʿīl bin an-Naġrīlah), mainly known as Shemuel HaNagid (Hebrew: שמואל הנ",
       "image": ""
-    },
-    "1066_Granada_massacre": {
-      "title": "1066 Granada massacre",
-      "lead": "The 1066 Granada massacre took place on 30 December 1066 (9 Tevet 4827; 10 Safar 459 AH) when a Muslim mob stormed the royal palace in Granada, in the Taifa of Granada, killed and crucified the Jewish vizier Joseph ibn Naghrela, and massacr",
-      "image": ""
-    },
-    "Solomon_ibn_Gabirol": {
-      "title": "Solomon ibn Gabirol",
-      "lead": "Solomon ibn Gabirol or Solomon ben Judah (Hebrew: ר׳ שְׁלֹמֹה בֶּן יְהוּדָה אִבְּן גָּבִּירוֹל, romanized: Šəlomo ben Yəhūdā ʾībən Gābīrōl, pronounced [ʃ(e)loˈmo ben jehuˈda ʔibn ɡabiˈʁol]; Arabic: أبو أيوب سليمان بن يحيى بن جبيرول, romaniz",
-      "image": "Malaga-Al_Malaqui-20110921_(cropped).jpg"
-    },
-    "Judah_Halevi": {
-      "title": "Judah Halevi",
-      "lead": "Judah haLevi (also Yehuda Halevi or ha-Levi; Hebrew: יהודה בן שמואל הלוי, romanized: Yəhūḏā ben Šəmūʾēl ha-Lēvī; Arabic: أبو الحسن يهوذا اللاوي, romanized: Abū-l-Ḥasan Yahūḏā al-Lāwī; c. 1075–1141) was a Sephardic Jewish poet, physician and",
-      "image": "Letter_(T-S_8J18.5).jpg"
     },
     "Almoravid_dynasty": {
       "title": "Almoravid dynasty",
@@ -882,26 +802,6 @@
       "lead": "The Battle of Sagrajas (23 October 1086), also called Zalaca or Zallaqah (Arabic: معركة الزلاقة, romanized: Maʿrakat az-Zallāqah), was a conflict fought in 1086 between the Almoravid army, led by their king, Yusuf ibn Tashfin, and the force",
       "image": "Batalha_de_Zalaka_-_História_de_Portugal,_popular_e_ilustrada.png"
     },
-    "El_Cid": {
-      "title": "El Cid",
-      "lead": "Rodrigo Díaz de Vivar (c. 1043 – 10 July 1099) was a Castilian knight and ruler in medieval Spain. Fighting with both Christian and Muslim armies during his lifetime, he earned the Arabic honorific as-Sayyid (\"the Lord\" or \"the Master\"), wh",
-      "image": "Estatua_del_Cid_(Burgos).jpg"
-    },
-    "Battle_of_Manzikert": {
-      "title": "Battle of Manzikert",
-      "lead": "The Battle of Manzikert or Malazgirt was fought between the Byzantine Empire and the Seljuk Empire on 26 August 1071 near Manzikert, Iberia (modern Malazgirt in Muş Province, eastern Turkey). The decisive defeat of the Byzantine army and th",
-      "image": "Battle_of_Manzikert_(1071).webp"
-    },
-    "First_Crusade": {
-      "title": "First Crusade",
-      "lead": "The First Crusade (1096–1099) was the first of a series of religious wars, or Crusades, which were initiated, supported and at times directed by the Latin Church in the Middle Ages. Their aim was to return the Holy Land—which had been conqu",
-      "image": "Peter_the_Hermit.jpg"
-    },
-    "Al-Ghazali": {
-      "title": "Al-Ghazali",
-      "lead": "Al-Ghazali, (Persian: ابو حامد محمد ابن محمد غزالی توسی, romanized: Abū Ḥāmid Muḥammad ibn Muḥammad Ghazālī Ṭūsi (c. 1058 – 19 December 1111), Latinized as Algazelus, was a Shafi'i Sunni Muslim Persian scholar and polymath. He is known as o",
-      "image": ""
-    },
     "Ibn_Tumart": {
       "title": "Ibn Tumart",
       "lead": "Abū ʿAbd Allāh Muḥammad Ibn Tūmart (Arabic: أبو عبد الله محمد ابن تومرت, Berber languages: ⵎⵓⵃⵎⵎⴰⴷ ⵓⵜⵎⵔⵜ; ca. 1080– August 1130) was a Muslim religious scholar, teacher and political leader, from the Sous in southern present-day Morocco. He",
@@ -922,40 +822,15 @@
       "lead": "The Giralda (Spanish: La Giralda [la xiˈɾalda]) is the bell tower of Seville Cathedral in Seville, Spain. It was built as the minaret for the Great Mosque of Seville in al-Andalus, during the reign of the Almohad dynasty, with a Renaissance",
       "image": "Sevilla_Cathedral_-_Giralda.jpg"
     },
-    "Torre_del_Oro": {
-      "title": "Torre del Oro",
-      "lead": "The Torre del Oro (Arabic: بُرْج الذَّهَب, romanized: burj aḏẖ-ḏẖahab, lit. 'Tower of Gold') is a dodecagonal military watchtower in Seville, southern Spain. It was erected by the Almohad Caliphate in order to control access to Seville via ",
-      "image": "Torre_del_Oro_flag_Seville_Spain.jpg"
-    },
-    "Battle_of_Alarcos": {
-      "title": "Battle of Alarcos",
-      "lead": "Battle of Alarcos (July 18, 1195), was fought between the Almohads led by Abu Yusuf Ya'qub al-Mansur and King Alfonso VIII of Castile. It resulted in the defeat of the Castilian forces and their subsequent retreat to Toledo, whereas the Alm",
-      "image": "Alarcos_(Ciudad_Real)_castillo_(RPS_25-08-2012).png"
-    },
     "Averroes": {
       "title": "Averroes",
       "lead": "Ibn Rushd (14 April 1126 – 11 December 1198), Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mat",
       "image": "Andrea_di_bonaiuto,_apotesosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
     },
-    "Hayy_ibn_Yaqdhan": {
-      "title": "Hayy ibn Yaqdhan",
-      "lead": "Ḥayy ibn Yaqẓān or Yaqdhan (Arabic: حي بن يقظان, lit. 'Alive son of Awake'; also transliterated as Hai eb'n Yockdan) is an Arabic philosophical novel and an allegorical tale written by Ibn Tufail (c. 1105 – 1185) in the early 12th century i",
-      "image": "The_History_of_Hayy_Ibn_Yaqzan_(page_13_crop).jpg"
-    },
-    "Ibn_Bajja": {
-      "title": "Avempace",
-      "lead": "Abū Bakr Muḥammad ibn Yaḥya ibn aṣ-Ṣā’igh at-Tūjībī ibn Bājja (Arabic: أبو بكر محمد بن يحيى بن الصائغ التجيبي بن باجة), known simply as Ibn Bajja (Arabic: ابن باجة) or his Latinized name Avempace (; c. 1085 – 1138), was an Arab polymath, wh",
-      "image": ""
-    },
     "Maimonides": {
       "title": "Maimonides",
       "lead": "Moses ben Maimon (died 12 December 1204), commonly known as Maimonides and also referred to by the Hebrew acronym Rambam, was a Sephardic Jewish rabbi who is widely acknowledged as one of the most prolific and influential Torah scholars of ",
       "image": "Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif"
-    },
-    "The_Guide_for_the_Perplexed": {
-      "title": "The Guide for the Perplexed",
-      "lead": "The Guide for the Perplexed, Judeo-Arabic: דלאלת אלחאירין, romanized: Dalālat al-ḥā'irīn; Arabic: دلالة الحائرين, romanized: Dalālat al-ḥā'irīn; Hebrew: מורה הנבוכים, romanized: Moreh HaNevukhim, is a 12th-century work of Jewish theology by",
-      "image": "Manuscript_page_by_Maimonides_Arabic_in_Hebrew_letters.jpg"
     },
     "Ibn_Arabi": {
       "title": "Ibn Arabi",
@@ -967,11 +842,6 @@
       "lead": "The Battle of Las Navas de Tolosa, known in Islamic history as the Battle of Al-Uqab (Arabic: معركة العقاب), took place on 16 July 1212 and was an important turning point in the Reconquista and the history of medieval Spain. The Christian f",
       "image": "Batalla_de_las_Navas_de_Tolosa,_por_Francisco_van_Halen.jpg"
     },
-    "Sack_of_Constantinople_(1204)": {
-      "title": "Sack of Constantinople",
-      "lead": "The sack of Constantinople occurred in April 1204 and marked the culmination of the Fourth Crusade. Crusaders sacked and destroyed most of Constantinople, the capital of the Byzantine Empire. After the capture of the city, the Latin Empire ",
-      "image": "Frammenti_di_mosaico_pavimentale_del_1213,_09.JPG"
-    },
     "Reconquista": {
       "title": "Reconquista",
       "lead": "The Reconquista (Spanish and Portuguese for 'reconquest') or the fall of al-Andalus was a series of military campaigns by northern Iberian Christian polities against Muslim-ruled al-Andalus, which had previously been part of the Visigothic ",
@@ -982,115 +852,40 @@
       "lead": "Ferdinand III (Spanish: Fernando; 1199/1201 – 30 May 1252), called the Saint (el Santo), was King of Castile from 1217 and King of León from 1230 as well as King of Galicia from 1231. He was the son of Alfonso IX of León and Berengaria of C",
       "image": "Fernando_III_de_Castilla_02.jpg"
     },
-    "James_I_of_Aragon": {
-      "title": "James I of Aragon",
-      "lead": "James I the Conqueror (Catalan: Jaume I or Jaume el Conqueridor; Aragonese: Chaime I o Conqueridor; 2 February 1208 – 27 July 1276) was King of Aragon, Count of Barcelona, and Lord of Montpellier from 1213 to 1276; King of Majorca from 1231",
-      "image": "Jaime_I_de_Aragón.jpg"
-    },
     "Mudéjar": {
       "title": "Mudéjar",
       "lead": "Mudéjar were Muslims who remained in Iberia in the late medieval period following the Christian reconquest. It is also a term for Mudéjar art, which was greatly influenced by Islamic art, but produced typically by Christian craftsmen for Ch",
       "image": "Torre_de_El_Salvador._Teruel.jpg"
-    },
-    "Toledo_School_of_Translators": {
-      "title": "Toledo School of Translators",
-      "lead": "The Toledo School of Translators (Spanish: Escuela de Traductores de Toledo) is the group of scholars who worked together in the city of Toledo during the 12th and 13th centuries, to translate many of the Islamic philosophy and scientific w",
-      "image": "KathedraleToledo.jpg"
-    },
-    "Gerard_of_Cremona": {
-      "title": "Gerard of Cremona",
-      "lead": "Gerard of Cremona (Latin: Gerardus Cremonensis; c. 1114 – 1187) was an Italian translator of scientific books from Arabic into Latin. He worked in Toledo, Kingdom of Castile, and obtained the Arabic books in the libraries at Toledo. Some of",
-      "image": "Al-RaziInGerardusCremonensis1250.JPG"
     },
     "Al-Zarqali": {
       "title": "Al-Zarqali",
       "lead": "Abū Isḥāq Ibrāhīm ibn Yaḥyā al-Naqqāsh al-Zarqālī al-Tujibi (Arabic: إبراهيم بن يحيى الزرقالي); also known as Al-Zarkali or Ibn Zarqala (1029–1100), was an Arab maker of astronomical instruments and an astrologer from the western part of th",
       "image": "Azarquiel_(MUNCYT,_Eulogia_Merle).jpg"
     },
-    "Toledan_Tables": {
-      "title": "Toledan Tables",
-      "lead": "The Toledan Tables, or Tables of Toledo, were astronomical tables which were used to predict the movements of the Sun, Moon and planets relative to the fixed stars. They were a collection of mathematical tables that describe different aspec",
-      "image": "Gerardus_Cremonensis_(1114-1187)_Wellcome_L0070081.jpg"
-    },
     "Al-Zahrawi": {
       "title": "Al-Zahrawi",
       "lead": "Abū al-Qāsim Khalaf ibn al-'Abbās al-Zahrāwī al-Ansari (c. 936–1013), popularly known as al-Zahrawi, Latinised as Albucasis or Abulcasis (from Arabic Abū al-Qāsim), was an Arab physician, surgeon and chemist from al-Andalus. He is considere",
       "image": "Al-Zahrawi.png"
-    },
-    "Ibn_Zuhr": {
-      "title": "Ibn Zuhr",
-      "lead": "Abū Marwān ‘Abd al-Malik ibn Zuhr (Arabic: أبو مروان عبد الملك بن زهر), traditionally known by his Latinized name Avenzoar (; 1094–1162), was an Arab physician, surgeon, and poet. He was born at Seville in medieval Andalusia (present-day Sp",
-      "image": "Ibn_Zuhr,_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png"
-    },
-    "Ibn_al-Baitar": {
-      "title": "Ibn al-Baytar",
-      "lead": "Diyāʾ al-Dīn Abū Muḥammad ʿAbd Allāh ibn Aḥmad al-Mālaqī, commonly known as Ibn al-Bayṭār (Arabic: ابن البيطار) (1197–1248 AD) was an Andalusian Arab physician, botanist, pharmacist and scientist. His main contribution was to systematically",
-      "image": "Ibn_al-Baytar.JPG"
     },
     "Acequia": {
       "title": "Acequia",
       "lead": "An acequia (Spanish: [aˈθekja]) or séquia (Catalan: [ˈsekiə, -a], also known as síquia [ˈsikiə, -a], all from Andalusian Arabic: (ال)ساقية, romanized: (al-)sāqiya) is a community-operated watercourse used in Spain and former Spanish colonie",
       "image": "Potrero_Ditch_at_Santuario_de_Chimayo.jpg"
     },
-    "Tribunal_de_las_Aguas": {
-      "title": "Water Tribunal of the plain of Valencia",
-      "lead": "The Water Tribunal of the plain of Valencia, also known as the Tribunal of Waters (Valencian: Tribunal de les Aigües de la Vega de València), is an institution of justice to settle disputes arising from the use of irrigation water by farmer",
-      "image": "The_Tribunal_de_las_Aguas_of_Valencia.jpg"
-    },
     "Averroism": {
       "title": "Averroism",
       "lead": "Averroism, also known as Rushdism, was a school of medieval philosophy based on the application of the works of 12th-century Andalusian philosopher Averroes, (Ibn Rushd in Arabic; 1126–1198) a commentator on Aristotle, in 13th-century Latin",
       "image": "Andrea_di_bonaiuto,_apotesosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
-    },
-    "Muwashshah": {
-      "title": "Muwashshah",
-      "lead": "Muwashshah (Arabic: مُوَشَّح muwaššaḥ 'girdled'; plural مُوَشَّحَات muwaššaḥāt; also تَوْشِيْح tawšīḥ 'girdling,' pl. تَوَاشِيْح tawāšīḥ) is a strophic poetic form that developed in al-Andalus in the late 10th and early 11th centuries. The ",
-      "image": ""
     },
     "Horseshoe_arch": {
       "title": "Horseshoe arch",
       "lead": "The horseshoe arch (Arabic: قوس حدوة الحصان; Spanish: arco de herradura), also called the Moorish arch and the keyhole arch, is a type of arch in which the circular curve is continued below the horizontal line of its diameter, so that the o",
       "image": "Hästskobåge.png"
     },
-    "Troubadour": {
-      "title": "Troubadour",
-      "lead": "A troubadour (English: , French: [tʁubaduʁ] ; Occitan: trobador [tɾuβaˈðu] ) was a composer and performer of Old Occitan lyric poetry during the High Middle Ages (1100–1350). Since the word troubadour is etymologically masculine, a female e",
-      "image": "BnF_ms._854_fol._49_-_Perdigon_(1).jpg"
-    },
-    "Emirate_of_Granada": {
-      "title": "Emirate of Granada",
-      "lead": "The Emirate of Granada, also known as the Nasrid Kingdom of Granada, was an Islamic polity in the southern Iberian Peninsula during the Late Middle Ages, ruled by the Nasrid dynasty. It was the last independent Muslim state in Western Europ",
-      "image": "Emirate_of_Granada.svg"
-    },
     "Alhambra": {
       "title": "Alhambra",
-      "lead": "The Alhambra (, Spanish: [aˈlambɾa]; Arabic: الْحَمْرَاء, romanized: al-ḥamrāʼ ) is a palace and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved palace f",
+      "lead": "The Alhambra (, Spanish: [aˈlambɾa]; Arabic: الْحَمْرَاء, romanized: al-ḥamrāʼ ) is a palatine city and fortress complex located in Granada, Spain. It is one of the most famous monuments of Islamic architecture and the only well-preserved p",
       "image": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
-    },
-    "Court_of_the_Lions": {
-      "title": "Court of the Lions",
-      "lead": "The Court of the Lions (Spanish: Patio de los Leones) or Palace of the Lions (Spanish: Palacio de los Leones) is a palace in the heart of the Alhambra, a historic citadel formed by a complex of palaces, gardens and forts in Granada, Spain. ",
-      "image": "Fountain_in_Patio_de_los_Leones,_Alhambra,_16.08.14.jpg"
-    },
-    "Ibn_al-Khatib": {
-      "title": "Ibn al-Khatib",
-      "lead": "Lisan ad-Din Ibn al-Khatib (Arabic: لسان الدين ابن الخطيب; 16 November 1313 – 1374) was an Arab Andalusi polymath who was active as a poet, writer, historian, philosopher, physician and politician from Emirate of Granada. Being one of the m",
-      "image": "Alhambra_104.JPG"
-    },
-    "Ibn_Zamrak": {
-      "title": "Ibn Zamrak",
-      "lead": "Ibn Zamrak (Arabic: ابن زمرك) (also Zumruk) or Abu Abduallah Muhammad ibn Yusuf ibn Muhammad ibn Ahmad ibn Muhammad ibn Yusuf al-Surayhi, (1333–1393) was an Arab Andalusian poet and statesman from Granada, Al-Andalus. Some of his poems stil",
-      "image": ""
-    },
-    "Ibn_Battuta": {
-      "title": "Ibn Battuta",
-      "lead": "Ibn Battuta (; 24 February 1304 – 1368/1369) was a Maghrebi Muslim traveller, explorer and scholar from Tangier (in present-day Morocco). Over a period of 30 years from 1325 to 1354, he visited much of Africa, Asia, and the Iberian Peninsul",
-      "image": "Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg"
-    },
-    "Spanish_Inquisition": {
-      "title": "Spanish Inquisition",
-      "lead": "The Tribunal of the Holy Office of the Inquisition (Spanish: Tribunal del Santo Oficio de la Inquisición) was authorized by Pope Sixtus IV in 1478 and the first inquisitors, Miguel de Morillo and Juan de San Martín, were appointed by the fu",
-      "image": "Inquisición_española.svg"
     },
     "Granada_War": {
       "title": "Granada War",
@@ -1102,50 +897,20 @@
       "lead": "Muhammad XII, known as al-Zagal (c. 1440 – May,1494), was the 23rd Nasrid ruler of the Granada, reigning from 1485 to 1487. His popular epithet, al-Zagal, meaning \"the Brave,\" or \"the Valiant,\" distinguished him as the last significant mili",
       "image": ""
     },
-    "Siege_of_Málaga_(1487)": {
-      "title": "Siege of Málaga (1487)",
-      "lead": "The 1487 siege of Málaga was an action during the Reconquest of Spain in which the Catholic Monarchs of Spain conquered the city of Mālaqa from the Emirate of Granada. The siege lasted about four months. It was the first conflict in which a",
-      "image": "Malaga_Alcazaba_25-9-2007a.JPG"
-    },
-    "Treaty_of_Granada_(1491)": {
-      "title": "Treaty of Granada (1491)",
-      "lead": "",
-      "image": "La_Rendición_de_Granada_-_Pradilla.jpg"
-    },
-    "Alhambra_Decree": {
-      "title": "Alhambra Decree",
-      "lead": "The Alhambra Decree (also known as the Edict of Expulsion; Spanish: Decreto de la Alhambra, Edicto de Granada) was an edict issued on 31 March 1492 by the joint Catholic Monarchs of Spain, Isabella I of Castile and Ferdinand II of Aragon, o",
-      "image": "Spanishhaggadah.jpg"
-    },
-    "Christopher_Columbus": {
-      "title": "Christopher Columbus",
-      "lead": "Christopher Columbus (; between 25 August and 31 October 1451 – 20 May 1506) was an Italian explorer and navigator from the Republic of Genoa who completed four Spanish transatlantic voyages in the name of the Catholic Monarchs, opening the",
-      "image": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
-    },
-    "Francisco_Jiménez_de_Cisneros": {
-      "title": "Francisco Jiménez de Cisneros",
-      "lead": "Francisco Jiménez de Cisneros, OFM (1436 – 8 November 1517) was a Spanish cardinal, religious figure, and statesman. Starting from humble beginnings he rose to the heights of power, becoming a religious reformer, twice regent of Spain, Card",
-      "image": "Jimenez_de_Cisneiros_Toledo.jpg"
+    "Sephardic_Jews": {
+      "title": "Sephardic Jews",
+      "lead": "Sephardic Jews, also known as Sephardi Jews or Sephardim, and rarely as Iberian Peninsular Jews, are a Jewish diaspora population associated with the historic Jewish communities of the Iberian Peninsula (Spain and Portugal) and their descen",
+      "image": "Torah_Reading_Sephardic_custom.jpg"
     },
     "Morisco": {
       "title": "Morisco",
       "lead": "Moriscos (Spanish: [moˈɾiskos], Catalan: [muˈɾiskus]; Portuguese: mouriscos [mo(u)ˈɾiʃkuʃ]; \"Moorish\") were former Muslims and their descendants whom the Catholic Church and Habsburg Spain commanded to forcibly convert to Christianity or fa",
       "image": ""
     },
-    "Expulsion_of_the_Moriscos": {
-      "title": "Expulsion of the Moriscos",
-      "lead": "The Expulsion of the Moriscos (Spanish: Expulsión de los moriscos) was decreed by King Philip III of Spain on April 9, 1609. The Moriscos were descendants of Spain's Muslim population who had been forced to convert to Christianity. Since th",
-      "image": "La_Expulsión_en_el_Puerto_de_Denia._Vicente_Mestre.jpg"
-    },
     "Tales_of_the_Alhambra": {
       "title": "Tales of the Alhambra",
       "lead": "The Alhambra: A Series of Tales and Sketches of the Moors and Spaniards is an 1832 collection of essays, verbal sketches and stories by American author Washington Irving (1783–1859) inspired by, and partly written during, his 1828 visit to ",
       "image": "The_Alhambra,_London_1832,_title-page.jpg"
-    },
-    "Ibn_al-Qutiyya": {
-      "title": "Ibn al-Qutiyya",
-      "lead": "Ibn al-Qūṭiyya (ابن القوطية, died 6 November 977), born Muḥammad Ibn ʿUmar Ibn ʿAbd al-ʿAzīz ibn ʾIbrāhīm ibn ʿIsā ibn Muzāḥim (محمد ابن عمر ابن عبد العزيز ابن إبراهيم ابن عيسى ابن مزاحم), also known as Abu Bakr or al-Qurtubi (\"the Córdoban",
-      "image": ""
     },
     "Jewish_diaspora": {
       "title": "Jewish diaspora",
@@ -1187,11 +952,6 @@
       "lead": "The Maghreb, also known as the Greater Maghreb and Northwest Africa, is the western part of the Arab world. The region comprises western and central North Africa, including Algeria, Libya, Mauritania, Morocco, Tunisia, and the disputed terr",
       "image": "Maghreb_(orthographic_projection).svg"
     },
-    "Visigoths": {
-      "title": "Visigoths",
-      "lead": "The Visigoths (; Latin: Visigothi, Wisigothi, Vesi, Visi, Wesi, Wisi) were a Gothic people who emerged in the Balkans during late antiquity. Likely descended from the Thervingi who entered the Roman Empire in 376 and defeated the Romans at ",
-      "image": "Visigothic_-_Pair_of_Eagle_Fibula_-_Walters_54421,_54422_-_Group.jpg"
-    },
     "Byzantine_Empire": {
       "title": "Byzantine Empire",
       "lead": "The Byzantine Empire, also known as the Eastern Roman Empire, was the continuation of the Roman Empire centred on Constantinople during late antiquity and the Middle Ages. Having survived the events that caused the fall of the Western Roman",
@@ -1212,11 +972,6 @@
       "lead": "The Hijri calendar (Arabic: ٱلتَّقْوِيم ٱلْهِجْرِيّ, romanized: al-taqwīm al-hijrī), also known in English as the Islamic calendar, is a lunar calendar consisting of 12 lunar months in a year of 354 or 355 days. It is used to determine the ",
       "image": ""
     },
-    "Al-Maqqari": {
-      "title": "Ahmad al-Maqqari",
-      "lead": "Aḥmad ibn Muḥammad al-Maqqarī al-Tilmisānī (or al-Maḳḳarī) (أحمد المقري التلمساني), (1577-1632) was an Algerian scholar, biographer and historian who is best known for his Nafh at-Tib ,S a compendium of the history of Al-Andalus which provi",
-      "image": ""
-    },
     "Second_Temple": {
       "title": "Second Temple",
       "lead": "The Second Temple (Hebrew: בֵּית־הַמִּקְדָּשׁ‎ הַשֵּׁנִי‎, romanized: Bēṯ hamMīqdāš hašŠēnī, lit. 'Second House of the Sanctum') was the temple in Jerusalem that replaced Solomon's Temple, which was destroyed during the Babylonian siege of ",
@@ -1227,10 +982,75 @@
       "lead": "The Vandals were a group of Germanic peoples who were first mentioned by a small number of Roman writers in the first and second centuries. The Vandal name reappeared in Roman accounts in the late second century during the tumultuous Marcom",
       "image": "KHM_Wien_VIIb_105_-_Vandalic_goldfoil_jewelry,_c._300_AD.jpg"
     },
-    "Jizya": {
-      "title": "Jizya",
-      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, lit. 'poll tax', [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and",
+    "Muhammad": {
+      "title": "Muhammad",
+      "lead": "Muhammad (c. 570 CE – 8 June 632 CE) was an Arab religious, military and political leader, and the founder of Islam. According to Islam, he was the final prophet of God who was divinely inspired to preach and confirm the monotheistic teachi",
+      "image": "Al-Masjid_AL-Nabawi_Door.jpg"
+    },
+    "Jerusalem": {
+      "title": "Jerusalem",
+      "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
+      "image": "המצודה_בלילה.jpg"
+    },
+    "Jews": {
+      "title": "Jews",
+      "lead": "Jews (Hebrew: יְהוּדִים‎, ISO 259-2: Yehudim, Israeli pronunciation: [jehuˈdim]), or the Jewish people, are an ethnoreligious group and nation, originating from the Israelites of ancient Israel and Judah. They traditionally adhere to Judais",
+      "image": "Map_of_the_Jewish_Diaspora_in_the_World.svg"
+    },
+    "Muslims": {
+      "title": "Muslims",
+      "lead": "Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monotheistic religion belonging to the Abrahamic tradition. They consider the Quran, the foundational religious text of Islam, ",
+      "image": "Prayer_in_Cairo_1865.jpg"
+    },
+    "Christians": {
+      "title": "Christians",
+      "lead": "A Christian ( ) is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life and teachings of Jesus Christ. Christians form the largest religious community in the world. The words Christ and Christ",
+      "image": "Raphael_-_The_Miraculous_Draft_of_Fishes_-_Google_Art_Project.jpg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Goths": {
+      "title": "Goths",
+      "lead": "The Goths were a Germanic people who played a major role in the fall of the Western Roman Empire and the emergence of medieval Europe. They were first mentioned by Greco-Roman authors in the 3rd century AD, living north of the Danube in wha",
       "image": ""
+    },
+    "Américo_Castro": {
+      "title": "Américo Castro",
+      "lead": "Américo Castro Quesada (May 4, 1885 – July 25, 1972) was a Spanish cultural historian, philologist, and literary critic who challenged some of the prevailing notions of Spanish identity, raising controversy with his conclusions that Spaniar",
+      "image": "AMERICO_CASTRO_1885_CRITICO_ESPAÑOL_(13451217465).jpg"
+    },
+    "Claudio_Sánchez-Albornoz": {
+      "title": "Claudio Sánchez-Albornoz",
+      "lead": "Claudio Sánchez-Albornoz y Menduiña (Spanish pronunciation: [ˈklawðjo ˈsantʃeθ alβoɾˈnoθ]; April 7, 1893, in Madrid – July 8, 1984, in Ávila) was a Spanish scholar, politician and orator. He served as Prime Minister of the Spanish Republica",
+      "image": "Claudio_Sánchez-Albornoz.png"
+    },
+    "Seville": {
+      "title": "Seville",
+      "lead": "Seville ( sə-VIL; Spanish: Sevilla, pronounced [seˈβiʎa] locally [seˈβiʝa]) is the capital and largest city of the Spanish autonomous community of Andalusia and the province of Seville. It is situated on the lower reaches of the River Guada",
+      "image": "Sevilla_Cathedral_-_Southeast.jpg"
+    },
+    "Franks": {
+      "title": "Franks",
+      "lead": "The Franks (Latin: Franci or gens Francorum) were a northern European group of peoples who first appeared in the third century AD as a new name for the Germanic tribes living near the lower stretches of the Rhine River military border of th",
+      "image": "Germania_inferior_roads_towns.png"
+    },
+    "Medina": {
+      "title": "Medina",
+      "lead": "Medina, officially al-Madinah al-Munawwarah, also known as al-Madinah an-Nabawiyyah and Taybah, and known in pre-Islamic times as Yathrib, is the capital and administrative centre of Medina Province in the Hejaz region of western Saudi Arab",
+      "image": "Al-Masjid_An-Nabawi_(Bird's_Eye_View).jpg"
+    },
+    "Arabian_Peninsula": {
+      "title": "Arabian Peninsula",
+      "lead": "The Arabian Peninsula, or simply Arabia, is a peninsula in West Asia. It accounts for the majority of the land situated on the Arabian plate. With an area of 3,237,500 km2 (1.25 million mi2), it is the world's largest peninsula—roughly comp",
+      "image": "Arabian_Peninsula_dust_SeaWiFS.jpg"
+    },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
     },
     "Sharia": {
       "title": "Sharia",
@@ -1272,6 +1092,61 @@
       "lead": "Narbonne ( nar-BON, US also -⁠BAWN, -⁠BUN, French: [naʁbɔn] ; Occitan: Narbona [naɾˈβunɔ]; Latin: Narbo [ˈna(ː)rboː]; Late Latin: Narbona) is a commune and subprefecture in Southern France, located in the Occitania region. It is located abo",
       "image": "Narbonne_Cathedrale_Saint_Just_et_Saint_Pasteur.jpg"
     },
+    "Indus_River": {
+      "title": "Indus River",
+      "lead": "The Indus ( IN-dəs) is a transboundary river of Asia and a trans-Himalayan river of South and Central Asia. The 3,180 km (1,980 mi) river rises in the Tibet Autonomous Region of China where it is known as Sengge Zangbo, flows northwest thro",
+      "image": "Nanga_Parbat_Indus_Gorge.jpg"
+    },
+    "Gibraltar": {
+      "title": "Gibraltar",
+      "lead": "Gibraltar ( jih-BRAWL-tər, -⁠BROL-, Spanish: [xiβɾalˈtaɾ]) is a British Overseas Territory and city located at the southern tip of the Iberian Peninsula, on the Bay of Gibraltar, near the exit of the Mediterranean Sea into the Atlantic Ocea",
+      "image": "Flag_of_Gibraltar.svg"
+    },
+    "Roderic": {
+      "title": "Roderic",
+      "lead": "Roderic (also spelled Ruderic, Roderik, Roderich, or Roderick; Spanish and Portuguese: Rodrigo, Arabic: لذريق, romanized: Ludharīq; died July 711) was the Visigothic king in Hispania between 710 and 711. He is well known as \"the last king o",
+      "image": "Amra5.jpg"
+    },
+    "Visigoths": {
+      "title": "Visigoths",
+      "lead": "The Visigoths (; Latin: Visigothi, Wisigothi, Vesi, Visi, Wesi, Wisi) were a Gothic people who emerged in the Balkans during late antiquity. Likely descended from the Thervingi who entered the Roman Empire in 376 and defeated the Romans at ",
+      "image": "Visigothic_-_Pair_of_Eagle_Fibula_-_Walters_54421,_54422_-_Group.jpg"
+    },
+    "Zaragoza": {
+      "title": "Zaragoza",
+      "lead": "Zaragoza (Spanish: [θaɾaˈɣoθa] ), traditionally known in English as Saragossa ( SARR-ə-GOSS-ə), is the capital city of the province of Zaragoza and of the autonomous community of Aragon, Spain. It lies by the Ebro river and its tributaries,",
+      "image": "Zaragoza_-_Basílica_del_Pilar_y_río_Ebro.jpg"
+    },
+    "Quran": {
+      "title": "Quran",
+      "lead": "The Quran (Arabic: الْقُرْآن, lit. 'the recitation' or 'the lecture'), also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a revelation directly from God (Allāh). It is organized in 114 chapters",
+      "image": "Birmingham_Quran_manuscript_full.jpg"
+    },
+    "Poitiers": {
+      "title": "Poitiers",
+      "lead": "Poitiers is a university city on the river Clain in west-central France. It is a commune, the capital of the Vienne department, part of the Nouvelle-Aquitaine region of France, and the historical center of Poitou Province. In 2022, the comm",
+      "image": "Poitiers_hill.jpg"
+    },
+    "The_History_of_the_Decline_and_Fall_of_the_Roman_Empire": {
+      "title": "The History of the Decline and Fall of the Roman Empire",
+      "lead": "The History of the Decline and Fall of the Roman Empire, sometimes shortened to Decline and Fall of the Roman Empire, is a six-volume work by the English historian Edward Gibbon. The six volumes cover, from 98 to 1590, the peak of the Roman",
+      "image": "Decline_and_Fall_of_the_Roman_Empire_vol_1_(1777).djvu"
+    },
+    "University_of_Oxford": {
+      "title": "University of Oxford",
+      "lead": "The University of Oxford is a collegiate research university in Oxford, England. There is evidence of teaching as early as 1096, making it the oldest university in the English-speaking world and the world’s second-oldest university in conti",
+      "image": "Arms_of_University_of_Oxford.svg"
+    },
+    "Gaul": {
+      "title": "Gaul",
+      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
+      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    },
+    "Abd_al-Rahman_ibn_Abd_Allah_al-Ghafiqi": {
+      "title": "Abd al-Rahman ibn Abd Allah al-Ghafiqi",
+      "lead": "Abd al-Rahman ibn Abd Allah Al-Ghafiqi (Arabic: عبد الرحمن بن عبد اللّه الغافقي, romanized: ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Ghāfiqī; died 732), was an Arab Umayyad commander and governor who led Andalusian Umayyad forces against the Franks",
+      "image": "Abdul_Rahman_Al_Ghafiqi.png"
+    },
     "Abbasid_Caliphate": {
       "title": "Abbasid Caliphate",
       "lead": "The Abbasid Caliphate or Abbasid Empire was the third Islamic caliphate, ruled by the Abbasid dynasty. The dynasty was descended from Muhammad's uncle, Abbas ibn Abd al-Muttalib (d. 653), after whom it is named. The Abbasids rose to power i",
@@ -1286,11 +1161,6 @@
       "title": "Quraysh",
       "lead": "The Quraysh (Arabic: قُرَيْشٍ) are an Arab tribe who controlled Mecca before the rise of Islam. Their members were divided into ten main clans, most notably the Banu Hashim, into which Islam's founder prophet Muhammad was born. By the 7th c",
       "image": "Pre_Islamic_Arabian_Tribes_(Harold_Dixon).svg"
-    },
-    "Berber_revolt": {
-      "title": "Berber Revolt",
-      "lead": "The Berber Revolt or the Kharijite Revolt of 740–743 AD (122–125 AH in the Islamic calendar) took place during the reign of the Umayyad caliph Hisham ibn Abd al-Malik and marked the first successful secession from the Arab Caliphate (then r",
-      "image": ""
     },
     "Khutba": {
       "title": "Khutbah",
@@ -1332,6 +1202,16 @@
       "lead": "Basques are a Southwestern European ethnic group, characterised by the Basque language, a common culture, shared genetic ancestry to the ancient Vascones and Aquitanians, and are considered among the last remaining direct descendants of Neo",
       "image": "Flag_of_the_Basque_Country.svg"
     },
+    "Romance_languages": {
+      "title": "Romance languages",
+      "lead": "The Romance languages, also known as the Latin or Neo-Latin languages, are the languages that directly descended from Vulgar Latin. They are the only extant subgroup of the Italic branch of the Indo-European language family. The five most w",
+      "image": "Romance_languages.png"
+    },
+    "Saracen": {
+      "title": "Saracen",
+      "lead": "The word \"Saracen\" ( SARR-ə-sən) was commonly used in medieval Europe to refer to a person who lived in or near what the ancient Romans knew as Arabia Petraea and Arabia Deserta. Its original meaning in Greek and Latin is not known with cer",
+      "image": "Erhard_Reuwich_Sarazenen_1486.png"
+    },
     "Qadi": {
       "title": "Qadi",
       "lead": "A qadi (; Arabic: قاضي, romanized: qāḍī) is the magistrate or judge of a Sharia court, who also exercises extrajudicial functions such as mediation, guardianship over orphans and minors, and supervision and auditing of public works.",
@@ -1352,16 +1232,6 @@
       "lead": "A hagiography (; from Ancient Greek ἅγιος (hágios) 'holy' and -γραφία (-graphía) 'writing') is a biography of a saint or an ecclesiastical leader, as well as, by extension, an adulatory and idealized biography of a preacher, priest, founder",
       "image": "Caroline_2.jpg"
     },
-    "Paul_Albar": {
-      "title": "Paul Albar",
-      "lead": "Paul Albar (Latin: Paulus Alvarus, Spanish: Paulo Álvaro or Álvaro de Córdoba; c. 800 – 861) was a Mozarab Andalusi scholar, poet and theologian of the Iberian Peninsula under Muslim rule. He is most notable for his writings around the time",
-      "image": ""
-    },
-    "Richard_W._Bulliet": {
-      "title": "Richard W. Bulliet",
-      "lead": "Richard W. Bulliet (born 1940) is a professor emeritus of Middle Eastern history at Columbia University who specializes in the history of Islamic society and institutions, the history of technology, and the history of the role of animals in",
-      "image": ""
-    },
     "Logistic_function": {
       "title": "Logistic function",
       "lead": "A logistic function or logistic curve is a common S-shaped curve (sigmoid curve) with the equation f ( x ) = L 1 + e − k ( x − x 0 ) {\\displaystyle f(x)={\\frac {L}{1+e^{-k(x-x_{0})}}}} where L {\\displaystyle L} is the carrying capacity, the",
@@ -1377,6 +1247,16 @@
       "lead": "Arabization or Arabicization (Arabic: تعريب, romanized: taʻrīb) is a sociological process of cultural change in which a non-Arab society becomes Arab, meaning it either directly adopts, is forced to accept, or becomes strongly influenced by",
       "image": "Umayyaden-_Abd_al-Malik_-_Münzkabinett,_Berlin_-_5489972.jpg"
     },
+    "Córdoba,_Spain": {
+      "title": "Córdoba, Spain",
+      "lead": "Córdoba ( KOR-də-bə; Spanish: [ˈkoɾðoβa] ), or sometimes Cordova ( KOR-də-və), is a city in Andalusia, Spain, and the capital of the province of Córdoba. With a population of 324,902 as of 2024, it is the 12th-largest city in Spain and the ",
+      "image": "Córdoba_aerial_2.jpg"
+    },
+    "Emirate": {
+      "title": "Emirate",
+      "lead": "An emirate is a territory ruled by an emir, a title used by monarchs or high officeholders in the Muslim world. From a historical point of view, an emirate is a political-religious unit smaller than a caliphate. It can be considered equival",
+      "image": ""
+    },
     "Caliph": {
       "title": "Caliphate",
       "lead": "A caliphate is an institution or public office under the leadership of an Islamic steward with the title of caliph (), a person considered a political–religious successor to the Islamic prophet Muhammad and a leader of the entire Muslim wor",
@@ -1386,16 +1266,6 @@
       "title": "Shia Islam",
       "lead": "Shia Islam is the second-largest branch of Islam. It is rooted in the belief that the Islamic prophet Muhammad explicitly designated his cousin and son-in-law Ali ibn Abi Talib (r. 656–661) as his rightful political successor (caliph) and t",
       "image": ""
-    },
-    "Dinar": {
-      "title": "Dinar",
-      "lead": "The dinar (, ) is the name of the principal currency unit in several countries near the Mediterranean Sea, with a more widespread historical use. The English word \"dinar\" is the transliteration of the Arabic دينار (dīnār), which was possibl",
-      "image": "Dinar.svg"
-    },
-    "De_Materia_Medica": {
-      "title": "De materia medica",
-      "lead": "De materia medica (Latin name for the Greek work Περὶ ὕλης ἰατρικῆς, Peri hulēs iatrikēs, both meaning \"On Medical Material\") is a pharmacopoeia of medicinal plants and the medicines that can be obtained from them. The five-volume work was ",
-      "image": "1554Arnoullet.jpg"
     },
     "History_of_concubinage_in_the_Muslim_world": {
       "title": "History of concubinage in the Muslim world",
@@ -1421,6 +1291,16 @@
       "title": "Morocco",
       "lead": "Morocco, officially the Kingdom of Morocco, is a country in the Maghreb region of North Africa. It has coastlines on the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east; the S",
       "image": "Flag_of_Morocco.svg"
+    },
+    "Fatima": {
+      "title": "Fatima",
+      "lead": "Fatima bint Muhammad (Arabic: فَاطِمَة بِنْت مُحَمَّد, romanized: Fāṭima bint Muḥammad; 605/15–632 CE), commonly known as Fatima al-Zahra' (Arabic: فَاطِمَة ٱلزَّهْرَاء, romanized: Fāṭima al-Zahrāʾ), was the daughter of the Islamic prophet ",
+      "image": "FatimaalZahra_(cropped).jpg"
+    },
+    "Slavs": {
+      "title": "Slavs",
+      "lead": "The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distributed throughout the northern parts of Eurasia; they predominantly inhabit Central Europe, Eastern Europe, Southeastern Europe, and N",
+      "image": "Slavic_europe_(Kosovo_unshaded).svg"
     },
     "Tessera": {
       "title": "Tessera",
@@ -1462,34 +1342,39 @@
       "lead": "A manuscript (abbreviated MS for singular and MSS for plural) was, traditionally, any document written by hand or typewritten, as opposed to mechanically printed or reproduced in some indirect or automated way. More recently, the term has c",
       "image": "Codex_Bruchsal_1_68r.jpg"
     },
-    "House_of_Wisdom": {
-      "title": "House of Wisdom",
-      "lead": "The House of Wisdom (Arabic: بَيْت الْحِكْمَة Bayt al-Ḥikmah), also known as the Grand Library of Baghdad, was believed to be a major Abbasid-era public academy and intellectual center in Baghdad. In popular reference, it acted as one of th",
-      "image": "Maqamat_hariri.jpg"
+    "Western_Christianity": {
+      "title": "Western Christianity",
+      "lead": "Western Christianity is one of two subdivisions of Christianity (Eastern Christianity being the other). Western Christianity is composed of the Latin Church (sometimes known as the Roman or Roman Catholic Church) as well as the churches of ",
+      "image": "Glenbeigh_St._James'_Church_Nave_Triple_Window_Agnus_Dei_2012_09_09.jpg"
+    },
+    "Latin_Church": {
+      "title": "Latin Church",
+      "lead": "The Latin Church (Latin: Ecclesia Latina) is the largest autonomous (sui iuris) particular church within the Catholic Church, whose members constitute the vast majority of the 1.3 billion Catholics. The Latin Church is one of 24 sui iuris c",
+      "image": "San_Giovanni_in_Laterano_2021.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Pope": {
+      "title": "Pope",
+      "lead": "The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, Roman pontiff, or sovereign pontiff. From the 8th century until 1870, the pope was the sovereign or head of state of the ",
+      "image": "Pope_Leo_XIV_3_(3x4_cropped).png"
     },
     "Hajib": {
       "title": "Hajib",
       "lead": "Hajib or hadjib (Arabic: الحاجب, romanized: al-ḥājib, [æl ˈħæːdʒib]) was a court official, equivalent to a chamberlain, in the early Muslim world, which evolved to fulfil various functions, often serving as chief ministers or enjoying dicta",
       "image": ""
     },
-    "Fitna_(word)": {
-      "title": "Fitna (word)",
-      "lead": "Fitna (or fitnah, pl. fitan; Arabic: فتن ,فتنة: \"temptation, trial; sedition, civil strife, conflict\") is an Arabic term that denotes concepts such as temptation, trial, sedition, civil strife, and conflict. The term encompasses a broad ran",
-      "image": "UsulALFiqh.svg"
-    },
     "Shogun": {
       "title": "Shogun",
       "lead": "Shōgun (将軍, shōgun; English: SHOH-gun, Japanese: [ɕoː.ɡɯɴ, -ŋɯɴ] ), officially sei-i taishōgun (征夷大将軍; Japanese: [seꜜi.i | tai.ɕo(ꜜ)ː.ɡɯɴ, seꜜː-, -ŋɯɴ] lit. 'Commander-in-Chief of the Expeditionary Force Against the Barbarians'), was the ti",
-      "image": ""
-    },
-    "Santiago_de_Compostela": {
-      "title": "Santiago de Compostela",
-      "lead": "Santiago de Compostela, alternatively abbreviated to Santiago or Compostela, is the capital of the autonomous community of Galicia, Spain. It is located in the province of A Coruña, in the northwest of the Iberian Peninsula. The city has it",
-      "image": "Santiago_Cathedral_2021_-_west_panorama.jpg"
-    },
-    "Madinat_al-Zahira": {
-      "title": "Madinat al-Zahira",
-      "lead": "Madinat al-Zâhira (English: \"The resplendent city\") was the fortified palace-city and residence of Almanzor, the vizier of Hisham II, and his sons, who effectively ruled the Caliphate of Córdoba from 978 to 1009. Constructed to the east of ",
       "image": ""
     },
     "Military_dictatorship": {
@@ -1517,35 +1402,35 @@
       "lead": "A chamberlain (Medieval Latin: cambellanus or cambrerius, with charge of treasury camerarius) is a senior royal official in charge of managing a royal household. Historically, the chamberlain superintends the arrangement of domestic affairs",
       "image": "18257_Kammerherrenøkkel.jpg"
     },
-    "County_of_Barcelona": {
-      "title": "County of Barcelona",
-      "lead": "The County of Barcelona (Latin: Comitatus Barcinonensis, Catalan: Comtat de Barcelona) was a polity in northeastern Iberian Peninsula, originally located in the southern frontier region of the Carolingian Empire. In the 10th century, the Co",
-      "image": "Expansión_peninsular_de_la_Corona_de_Aragón.svg"
+    "Kingdom_of_León": {
+      "title": "Kingdom of León",
+      "lead": "The Kingdom of León was an independent kingdom situated in the northwest region of the Iberian Peninsula. It was founded in 910, when the Christian princes of Asturias along the northern coast of the peninsula shifted their capital from Ovi",
+      "image": "Royal_Banner_of_Leon_(Variant).svg"
+    },
+    "Great_Mosque_of_Córdoba": {
+      "title": "Mosque–Cathedral of Córdoba",
+      "lead": "The Mosque–Cathedral of Córdoba (Spanish: Mezquita-Catedral de Córdoba [meθˈkita kateˈðɾal de ˈkoɾðoβa]) is the cathedral of the Roman Catholic Diocese of Córdoba in the Spanish region of Andalusia. Officially called the Cathedral of Our La",
+      "image": "Mezquita_de_Córdoba_desde_el_aire_(Córdoba,_España).jpg"
     },
     "Crown_of_Castile": {
       "title": "Crown of Castile",
       "lead": "The Crown of Castile, sometimes known as the Crowns of Castile and León, was a medieval polity in the Iberian Peninsula that formed in 1230 as a result of the third and definitive union of the crowns and, some decades later, the parliaments",
       "image": "Banner_of_arms_crown_of_Castille_Habsbourg_style.svg"
     },
+    "County_of_Barcelona": {
+      "title": "County of Barcelona",
+      "lead": "The County of Barcelona (Latin: Comitatus Barcinonensis, Catalan: Comtat de Barcelona) was a polity in northeastern Iberian Peninsula, originally located in the southern frontier region of the Carolingian Empire. In the 10th century, the Co",
+      "image": "Expansión_peninsular_de_la_Corona_de_Aragón.svg"
+    },
     "Crown_of_Aragon": {
       "title": "Crown of Aragon",
       "lead": "The Crown of Aragon (US: ) was a composite monarchy ruled by one king, originated by the dynastic union of the Kingdom of Aragon and the County of Barcelona (later Principality of Catalonia) and ended as a consequence of the War of the Span",
       "image": "Royal_Banner_of_Aragón.svg"
     },
-    "Seville": {
-      "title": "Seville",
-      "lead": "Seville ( sə-VIL; Spanish: Sevilla, pronounced [seˈβiʎa] locally [seˈβiʝa]) is the capital and largest city of the Spanish autonomous community of Andalusia and the province of Seville. It is situated on the lower reaches of the River Guada",
-      "image": "Sevilla_Cathedral_-_Southeast.jpg"
-    },
     "Alfonso_VI_of_León": {
       "title": "Alfonso VI of León and Castile",
       "lead": "Alfonso VI (c. 1040/1041 – 1 July 1109), nicknamed the Brave (El Bravo) or the Valiant, was king of León (1065–1109), Galicia (1071–1109), and Castile (1072–1109). After the conquest of Toledo in 1085, Alfonso proclaimed himself victoriosis",
       "image": "AlfonsoVI_of_Castile.jpg"
-    },
-    "Zaragoza": {
-      "title": "Zaragoza",
-      "lead": "Zaragoza (Spanish: [θaɾaˈɣoθa] ), traditionally known in English as Saragossa ( SARR-ə-GOSS-ə), is the capital city of the province of Zaragoza and of the autonomous community of Aragon, Spain. It lies by the Ebro river and its tributaries,",
-      "image": "Zaragoza_-_Basílica_del_Pilar_y_río_Ebro.jpg"
     },
     "Valencia": {
       "title": "Valencia",
@@ -1561,6 +1446,11 @@
       "title": "Badajoz",
       "lead": "Badajoz is the capital of the province of Badajoz in the autonomous community of Extremadura, Spain. It is situated close to the Portuguese border, on the left bank of the river Guadiana. The population in 2011 was 151,565. Badajoz (Baṭalya",
       "image": "Badajoz_desde_la_Torre_de_Espantaperros.jpg"
+    },
+    "Almería": {
+      "title": "Almería",
+      "lead": "Almería (UK: , US also , Spanish: [almeˈɾi.a] ) is a city and municipality of Spain, located in Andalusia. It is the capital of the province of the same name. The city lies in southeastern Iberia, extending primarily in between the eastern ",
+      "image": "Alcazaba_1,_Almeria,_Spain.jpg"
     },
     "Sanhaja": {
       "title": "Sanhaja",
@@ -1607,6 +1497,16 @@
       "lead": "Aghmat (Tashelhit: Aɣmat, Arabic: أغمات Āghmāt; pronounced locally Ughmat, Uɣmat) was an important commercial medieval Berber town in Morocco. It is today an archaeological site known as \"Joumâa Aghmat\". The city is located approximately 30",
       "image": ""
     },
+    "Sahara": {
+      "title": "Sahara",
+      "lead": "The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica an",
+      "image": "Sahara_real_color.jpg"
+    },
+    "Roland": {
+      "title": "Roland",
+      "lead": "Roland (French pronunciation: [ʁɔ.lɑ̃]; Old Frankish: *Hrōþiland; Medieval Latin: Hruodlandus or Rotholandus; Italian: Orlando or Rolando; died 15 August 778) was a Frankish military leader under Charlemagne who became an epic hero and one ",
+      "image": "Gare_Metz_décor_16.png"
+    },
     "Tawhid": {
       "title": "Tawhid",
       "lead": "Tawhid, literally \"to unite\" or \"to make one\", refers to the principle of monotheism in Islam. It is the religion's central and single most important concept, upon which a Muslim's entire religious adherence rests. It unequivocally holds th",
@@ -1627,11 +1527,6 @@
       "lead": "The Iberian Crusades were papally promoted wars, part of the Reconquista, fought against the Muslim states of the Iberian Peninsula within the wider Crusading movement from 1095 to 1492. The Muslim conquest of the peninsula was completed in",
       "image": ""
     },
-    "Ibn_Tufayl": {
-      "title": "Ibn Tufayl",
-      "lead": "Ibn Ṭufayl (c. 1105 – 1185) was an Arab Andalusian Muslim polymath: a writer, physician, philosopher, theologian, astronomer, and vizier. As a philosopher and novelist, he is most famous for writing the first philosophical novel, Hayy ibn Y",
-      "image": "Ibn_Ṭufail,_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png"
-    },
     "Atlas_Mountains": {
       "title": "Atlas Mountains",
       "lead": "The Atlas Mountains are a mountain range in the Maghreb in North Africa. They separate the Sahara from the Mediterranean Sea and the Atlantic Ocean; the mountain range stretches around 2,500 km (1,600 mi) through Morocco, Algeria and Tunisi",
@@ -1647,25 +1542,35 @@
       "lead": "Sufism (Arabic: التصوف‎, romanized: al-Taṣawwuf) is a mystic body of religious practice found within Islam that is characterized by a focus on Islamic purification, spirituality, ritualism, and asceticism. Practitioners of Sufism are referr",
       "image": ""
     },
-    "Sierra_Morena": {
-      "title": "Sierra Morena",
-      "lead": "The Sierra Morena is one of the main systems of mountain ranges in Spain. It stretches for 450 kilometres from east to west across the south of the Iberian Peninsula, forming the southern border of the Meseta Central plateau and providing t",
-      "image": "Valles_típicos_de_Obejo,_Sierra_Morena.JPG"
-    },
-    "Fourth_Crusade": {
-      "title": "Fourth Crusade",
-      "lead": "The Fourth Crusade (1202–1204) was a Latin Christian armed expedition called by Pope Innocent III. The stated intent of the expedition was to recapture the Muslim-controlled city of Jerusalem, by first defeating the powerful Egyptian Ayyubi",
-      "image": "ConquestOfConstantinopleByTheCrusadersIn1204.jpg"
+    "Middle_Ages": {
+      "title": "Middle Ages",
+      "lead": "In the history of Europe, the Middle Ages or medieval period lasted approximately from the 5th to late 15th centuries, comparable with the post-classical period of global history. The medieval period is the middle epoch of the three traditi",
+      "image": "Canterbury_Cathedral,_window_nXV_detail_(46220634195).jpg"
     },
     "Kingdom_of_Navarre": {
       "title": "Kingdom of Navarre",
       "lead": "The Kingdom of Navarre ( nə-VAR), originally the Kingdom of Pamplona, was a historical Iberian polity which occupied lands on both sides of the western Pyrenees, with its northernmost areas originally reaching the Atlantic Ocean (Bay of Bis",
       "image": "Bandera_de_Reino_de_Navarra.svg"
     },
+    "Holy_Land": {
+      "title": "Holy Land",
+      "lead": "The term \"Holy Land\" is used to collectively denote areas of the Southern Levant that hold great significance in the Abrahamic religions, primarily because of their association with people and events featured in the Bible. It is traditional",
+      "image": "The_map_of_the_Holy_Land_by_Marino_Sanudo_(drawn_in_1320).jpg"
+    },
+    "Sierra_Morena": {
+      "title": "Sierra Morena",
+      "lead": "The Sierra Morena is one of the main systems of mountain ranges in Spain. It stretches for 450 kilometres from east to west across the south of the Iberian Peninsula, forming the southern border of the Meseta Central plateau and providing t",
+      "image": "Valles_típicos_de_Obejo,_Sierra_Morena.JPG"
+    },
     "Arabic_literature": {
       "title": "Arabic literature",
       "lead": "Arabic literature (Arabic: الأدب العربي / ALA-LC: al-Adab al-‘Arabī) is the writing, both as prose and poetry, produced by writers in the Arabic language. The Arabic word used for literature is Adab, which comes from a meaning of etiquette,",
       "image": ""
+    },
+    "Mud%C3%A9jar": {
+      "title": "Mudéjar",
+      "lead": "Mudéjar were Muslims who remained in Iberia in the late medieval period following the Christian reconquest. It is also a term for Mudéjar art, which was greatly influenced by Islamic art, but produced typically by Christian craftsmen for Ch",
+      "image": "Torre_de_El_Salvador._Teruel.jpg"
     },
     "Vizier": {
       "title": "Vizier",
@@ -1697,6 +1602,11 @@
       "lead": "Hebrew poetry is poetry written in the Hebrew language. It encompasses such things as: Biblical poetry, the poetry found in the poetic books of the Hebrew Bible Piyyut, religious Jewish liturgical poetry in Hebrew or Aramaic Medieval Hebrew",
       "image": ""
     },
+    "Jizya": {
+      "title": "Jizya",
+      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and the application ",
+      "image": ""
+    },
     "Sephardi_Jews": {
       "title": "Sephardic Jews",
       "lead": "Sephardic Jews, also known as Sephardi Jews or Sephardim, and rarely as Iberian Peninsular Jews, are a Jewish diaspora population associated with the historic Jewish communities of the Iberian Peninsula (Spain and Portugal) and their descen",
@@ -1716,11 +1626,6 @@
       "title": "Axial precession",
       "lead": "In astronomy, axial precession is a gravity-induced, slow, and continuous change in the orientation of an astronomical body's rotational axis. In the absence of precession, the astronomical body's orbit would show axial parallelism. In part",
       "image": "Earth_precession.svg"
-    },
-    "Arab_agricultural_revolution": {
-      "title": "Arab Agricultural Revolution",
-      "lead": "The Arab Agricultural Revolution was the transformation in agriculture in the Old World during the Islamic Golden Age (8th to 13th centuries). The agronomic literature of the time, with major books by Ibn Bassal and Ibn al-'Awwam, demonstra",
-      "image": "Foggara_01.jpg"
     },
     "Qanat": {
       "title": "Qanat",
@@ -1782,20 +1687,25 @@
       "lead": "The history of pharmacy as a modern and independent science dates back to the first third of the 19th century. Before then, pharmacy evolved from antiquity as part of medicine. Before the advent of pharmacists, there existed apothecaries th",
       "image": "Rome_(Italy),_Pharmacy_--_2013_--_3519.jpg"
     },
+    "Nicolaus_Copernicus": {
+      "title": "Nicolaus Copernicus",
+      "lead": "Nicolaus Copernicus (19 February 1473 – 24 May 1543) was a Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center. The publication of Copernicus's model in his book De revolutionibus ",
+      "image": "Nikolaus_Kopernikus_MOT.jpg"
+    },
+    "Ancient_Greece": {
+      "title": "Ancient Greece",
+      "lead": "Ancient Greece (Ancient Greek: Ἑλλάς, romanized: Hellás) was a northeastern Mediterranean civilization, existing from the Greek Dark Ages of the 12th–9th centuries BC to the end of classical antiquity (c. 600 AD), comprising a loose collect",
+      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
+    },
+    "Málaga": {
+      "title": "Málaga",
+      "lead": "Málaga ( ; Spanish: [ˈmalaɣa] ) is a municipality of Spain and the capital of the province of Málaga, in the autonomous community of Andalusia. With a population of 592,346 in 2024, it is the 2nd-largest city in Andalusia and the 6th-larges",
+      "image": "Da_Gibralfaro_(cropped)2.jpg"
+    },
     "Aristotle": {
       "title": "Aristotle",
       "lead": "Aristotle (Ancient Greek: Ἀριστοτέλης, romanized: Aristotélēs; 384–322 BC) was an ancient Greek philosopher and polymath. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the",
       "image": "Aristotle_Altemps_Inv8575.jpg"
-    },
-    "Thomas_Aquinas": {
-      "title": "Thomas Aquinas",
-      "lead": "Thomas Aquinas ( ə-KWY-nəs; Italian: Tommaso d'Aquino, lit. 'Thomas of Aquino'; c. 1225 – 7 March 1274) was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the his",
-      "image": "St-thomas-aquinasFXD.jpg"
-    },
-    "Scholasticism": {
-      "title": "Scholasticism",
-      "lead": "Scholasticism is a medieval European philosophical movement or methodology that was the predominant education in Europe from about 1100 to 1700. It is known for employing logically precise analyses toward the goal of reconciling classical p",
-      "image": "Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg"
     },
     "Neoplatonism": {
       "title": "Neoplatonism",
@@ -1842,6 +1752,26 @@
       "lead": "Murcia ( MOOR-see-ə, US also MUR-sh(ee-)ə, Spanish: [ˈmuɾθja] ) is a city in south-eastern Spain, and the capital and most populous city of the autonomous community of the Region of Murcia. As of 2024, with a population of 471,982, it is th",
       "image": "Sabado_Santo_Murcia_19-04-2014.jpg"
     },
+    "Judaism": {
+      "title": "Judaism",
+      "lead": "Judaism (Hebrew: יַהֲדוּת, romanized: Yahăḏūṯ) is an Abrahamic, monotheistic, ethnic religion that comprises the collective spiritual, cultural, and legal traditions of the Jewish people. Religious Jews regard Judaism as their means of obse",
+      "image": "Judaica.jpg"
+    },
+    "Aristotelianism": {
+      "title": "Aristotelianism",
+      "lead": "Aristotelianism ( ARR-i-stə-TEE-lee-ə-niz-əm) is a philosophical tradition inspired by the work of Aristotle, usually characterized by deductive logic and an analytic inductive method in the study of natural philosophy and metaphysics. It c",
+      "image": "(Venice)_Aristotele_by_Francesco_Hayez_in_gallerie_Accademia_Venice.jpg"
+    },
+    "Kurds": {
+      "title": "Kurds",
+      "lead": "Kurds (Kurdish: کورد, romanized: Kurd), or the Kurdish people, are an Iranian ethnic group from West Asia. They are indigenous to Kurdistan, which is a geographic region spanning southeastern Turkey, northwestern Iran, northern Iraq, and no",
+      "image": "Distribution_of_Kurds(1).png"
+    },
+    "Crusades": {
+      "title": "Crusades",
+      "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
+      "image": "Combat_deuxième_croisade.jpg"
+    },
     "Hypostyle": {
       "title": "Hypostyle",
       "lead": "In architecture, a hypostyle () hall has a roof which is supported by columns.",
@@ -1861,11 +1791,6 @@
       "title": "Kharja",
       "lead": "A kharja or kharjah (Arabic: خرجة, romanized: kharjah, lit. 'exit' [ˈxardʒa]; Spanish: jarcha [ˈxaɾtʃa]; Portuguese: carja [ˈkaɾʒɐ]; also known as a markaz مَرْكَز 'center'), is the final couple of abyāt, or verses, of a muwaššaḥ (مُوَشَّح ",
       "image": ""
-    },
-    "Romance_languages": {
-      "title": "Romance languages",
-      "lead": "The Romance languages, also known as the Latin or Neo-Latin languages, are the languages that directly descended from Vulgar Latin. They are the only extant subgroup of the Italic branch of the Indo-European language family. The five most w",
-      "image": "Romance_languages.png"
     },
     "Oud": {
       "title": "Oud",
@@ -1907,20 +1832,25 @@
       "lead": "Courtly love (Occitan: fin'amor [finaˈmuɾ]; French: amour courtois [amuʁ kuʁtwa]) was a medieval European literary conception of love that emphasized nobility and chivalry. Medieval literature is filled with examples of knights setting out ",
       "image": "Leighton-God_Speed!.jpg"
     },
+    "Charles_V,_Holy_Roman_Emperor": {
+      "title": "Charles V, Holy Roman Emperor",
+      "lead": "Charles V (24 February 1500 – 21 September 1558) was Holy Roman Emperor and Archduke of Austria from 1519 to 1556, King of Spain (as Charles I) from 1516 to 1556, King of Sicily and Naples from 1516 to 1554, and also Lord of the Netherlands",
+      "image": "Portrait_of_Charles_V,_Holy_Roman_Emperor,_seated_(1500–1558),_formerly_attributed_to_Titian_(Alte_Pinakothek,_Munich).jpg"
+    },
     "Nasrid_dynasty": {
       "title": "Nasrid dynasty",
       "lead": "The Nasrid dynasty (Arabic: بنو نصر banū Naṣr or بنو الأحمر banū al-Aḥmar; Spanish: Nazarí) was an Arab dynasty that ruled the Emirate of Granada from 1232 to 1492. It was the last Muslim dynasty in the Iberian Peninsula and of al-Andalus. ",
       "image": "Coat_of_Arms_of_Nasrid_Granada_(modern_emblazonment).svg"
     },
+    "Provence": {
+      "title": "Provence",
+      "lead": "Provence is a geographical, cultural region and historical province of southeastern France, which stretches from the left bank of the lower Rhône to the west to the Italian border to the east; it is bordered by the Mediterranean Sea to the ",
+      "image": "Lavender_field_and_Mont_Ventoux.jpg"
+    },
     "Vassal": {
       "title": "Vassal",
       "lead": "A vassal or liege subject is a person regarded as having a mutual obligation to a lord or monarch, in the context of the feudal system in medieval Europe and elsewhere. While the subordinate party is called a vassal, the dominant party is c",
       "image": "Bayeux_Tapestry_scene23_Harold_sacramentum_fecit_Willelmo_duci.jpg"
-    },
-    "Marinid_dynasty": {
-      "title": "Marinid dynasty",
-      "lead": "The Marinid dynasty (Arabic: المرينيون, romanized: al-Marīniyyūn) was a Berber Zenata dynasty that ruled much of the Maghreb, chiefly present-day Morocco, from the mid-13th to the 15th century. At various times, they also extended their aut",
-      "image": "Marinids_Zayyanids_and_Hafsids_c1360.png"
     },
     "Entrepôt": {
       "title": "Entrepôt",
@@ -1984,7 +1914,7 @@
     },
     "Bayezid_II": {
       "title": "Bayezid II",
-      "lead": "Bayezid II (Ottoman Turkish: بايزيد ثانى, romanized: Bāyezīd-i s̱ānī; Turkish: II. Bayezid; 3 December 1447 – 26 May 1512) was the sultan of the Ottoman Empire from 1481 to 1512. During his reign, Bayezid consolidated the Ottoman Empire, th",
+      "lead": "Bayezid II (Ottoman Turkish: بايزيد ثانى, romanized: Bāyezīd-i s̱ānī; Turkish: II. Bayezid; 3 December 1447/1448 – 26 May 1512) was the sultan of the Ottoman Empire from 1481 to 1512. During his reign, Bayezid consolidated the Ottoman Empir",
       "image": "Portrait_of_Bayezid_II_from_a_16th_century_Ottoman_miniature.jpg"
     },
     "Siege_artillery": {
@@ -1997,20 +1927,40 @@
       "lead": "Sepharad ( SEF-ər-ad or sə-FAIR-əd; Hebrew: סְפָרַד, romanized: Səp̄āraḏ, Israeli pronunciation: [sfaˈʁad]; also Sfard, Spharad, Sefarad, or Sephared) is the Hebrew-language name for the Iberian Peninsula, referring to the regions of presen",
       "image": "Caminos_de_Sefarad.jpg"
     },
+    "Isabella_I_of_Castile": {
+      "title": "Isabella I of Castile",
+      "lead": "Isabella I (Spanish: Isabel I; 22 April 1451 – 26 November 1504), also known as Isabella the Catholic (Spanish: Isabel la Católica), was Queen of Castile and León from 1474 until her death in 1504. She was also Queen of Aragon from 1479 unt",
+      "image": "IsabellaofCastile03.jpg"
+    },
+    "Ferdinand_II_of_Aragon": {
+      "title": "Ferdinand II of Aragon",
+      "lead": "Ferdinand II (also known as Ferdinand I; Ferdinand III; and Ferdinand V; called Ferdinand the Catholic; 10 March 1452 – 23 January 1516) was King of Aragon from 1479 until his death in 1516. As the husband and co-ruler of Queen Isabella I o",
+      "image": "Michel_Sittow_004.jpg"
+    },
+    "Hebrew_language": {
+      "title": "Hebrew language",
+      "lead": "Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaanite languages, it was natively spoken by the Israelites and remained in regular use as a first language until after 200 CE and as",
+      "image": "המילה_עברית_בכתב_ובכתב_העברי_הקדום.jpg"
+    },
+    "Santa_Fe,_Granada": {
+      "title": "Santa Fe, Granada",
+      "lead": "Santa Fe is a Spanish municipality in the province of Granada, situated in the Vega de Granada, irrigated by the river Genil. The town was originally built by the Catholic armies besieging Granada (c. 1490-1492) after a fire destroyed much ",
+      "image": "Ayuntamiento_de_Santa_Fe_(Granada).jpg"
+    },
+    "Caribbean": {
+      "title": "Caribbean",
+      "lead": "The Caribbean is a region in the middle of the Americas centered around the Caribbean Sea in the North Atlantic Ocean, mostly overlapping with the West Indies. Bordered by North America to the north and also the west through Central America",
+      "image": "Central_America_and_the_Caribbean_Shaded_Relief_Map.png"
+    },
+    "Puerto_del_Suspiro_del_Moro": {
+      "title": "Puerto del Suspiro del Moro",
+      "lead": "Puerto del Suspiro del Moro or Pass of the Moor's Sigh is a mountain pass in the Spanish Sierra Nevada.",
+      "image": ""
+    },
     "Moriscos": {
       "title": "Morisco",
       "lead": "Moriscos (Spanish: [moˈɾiskos], Catalan: [muˈɾiskus]; Portuguese: mouriscos [mo(u)ˈɾiʃkuʃ]; \"Moorish\") were former Muslims and their descendants whom the Catholic Church and Habsburg Spain commanded to forcibly convert to Christianity or fa",
       "image": ""
-    },
-    "Rebellion_of_the_Alpujarras_(1568%E2%80%931571)": {
-      "title": "Rebellion of the Alpujarras (1568–1571)",
-      "lead": "The second rebellion of the Alpujarras (Arabic: ثورة البشرات الثانية; 1568–1571), sometimes called the War of the Alpujarras or the Morisco Revolt, was triggered by Philip II of Spain's Pragmática Sanción de 1567 and was the second Morisco ",
-      "image": "Rebelión_de_Las_Alpujarras.png"
-    },
-    "Washington_Irving": {
-      "title": "Washington Irving",
-      "lead": "Washington Irving (April 3, 1783 – November 28, 1859) was an American short-story writer, essayist, biographer, historian, and diplomat of the early 19th century. He wrote the short stories \"Rip Van Winkle\" (1819) and \"The Legend of Sleepy ",
-      "image": "Irving-Washington-LOC.jpg"
     },
     "Arab_nationalism": {
       "title": "Arab nationalism",
@@ -2032,11 +1982,6 @@
       "lead": "Population transfer or resettlement is a type of mass migration that is often imposed by a state policy or international authority. Such mass migrations are most frequently spurred on the basis of ethnicity or religion, but they also occur ",
       "image": "Bundesarchiv_R_49_Bild-0131,_Aussiedlung_von_Polen_im_Wartheland.jpg"
     },
-    "Quran": {
-      "title": "Quran",
-      "lead": "The Quran (Arabic: الْقُرْآن, lit. 'the recitation' or 'the lecture'), also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a revelation directly from God (Allāh). It is organized in 114 chapters",
-      "image": "Birmingham_Quran_manuscript_full.jpg"
-    },
     "Al-Andalus": {
       "title": "Al-Andalus",
       "lead": "Al-Andalus (Arabic: الأَنْدَلُس, romanised: al-ʾAndalus) was the Muslim-ruled area of the Iberian Peninsula. The name refers to the different Muslim states that controlled these territories at various times between 711 and 1492. At its grea",
@@ -2046,6 +1991,11 @@
       "title": "Sierra Nevada (Spain)",
       "lead": "Sierra Nevada (Spanish: [ˈsjera neˈβaða]; meaning \"snow-covered mountain range\") is a mountain range in the Andalusian province of Granada in Spain. It contains the highest point of continental Spain: Mulhacén, at 3,479 metres (11,414 ft) a",
       "image": "Sierra_Nevada_desde_el_embalse_del_Cubillas,_en_Atarfe_(Granada).jpg"
+    },
+    "Boabdil": {
+      "title": "Muhammad XI of Granada",
+      "lead": "Abu Abdallah Muhammad XI (Arabic: أبو عبد الله محمد الثاني عشر, romanized: Abū ʿAbdi-llāh Muḥammad ath-thānī ʿashar; c. 1460–1533), known in Europe as Boabdil, was the 22nd and last Nasrid ruler of the Emirate of Granada in Iberia.",
+      "image": "Portrait_of_Muhammad_XII_of_Granada.jpg"
     }
   }
 }
