@@ -16,7 +16,7 @@ const ACCENT = '#7c3aed' // Civil War (violet)
 
 type Block =
   | { h: string; eyebrow?: string }
-  | { p: string; i?: boolean }
+  | { p: string; i?: boolean; q?: boolean }
   | { fig: string; cap: string; credit: string }
 
 interface Lineage { label: string; mode: 'war' | 'civ' }
@@ -38,12 +38,21 @@ const GB_NARR: Record<string, Narr> = {
     from: [{ label: 'Eastern Theatre', mode: 'war' }, { label: 'Chancellorsville', mode: 'war' }],
     to: [{ label: 'McPherson’s Ridge', mode: 'war' }],
     blocks: [
-      { h: 'A gamble going north', eyebrow: 'June 1863' },
-      { p: 'Fresh off the most lopsided victory of his career at Chancellorsville, Robert E. Lee (South) made a daring decision: take the war out of ravaged Virginia and onto Northern soil. A win in Pennsylvania might feed his army off untouched farms, frighten Northern voters, and maybe convince Washington that the South was simply not worth the cost of conquering.' },
-      { p: 'So in June he marched the Army of Northern Virginia north, screened by the mountains. Hurrying to keep between Lee and the Northern cities came the Army of the Potomac — and, three days before the armies met, a new commander for it: the careful, short-tempered George Meade (North). Neither general chose the ground. On July 1 their lead elements simply collided at a market town where ten roads crossed.' },
-      { fig: '/war-img/gettysburg-campaign.png', cap: 'The Gettysburg Campaign: Lee slips north through the Shenandoah; the armies converge on the crossroads town almost by accident.', credit: 'Map: Hal Jespersen · CC BY' },
+      { h: 'Late spring, 1863', eyebrow: 'Setting' },
+      { p: 'In May of 1863, Robert E. Lee (South) did something his army had never done. Fresh off a brilliant tactical victory at Chancellorsville — a battle in which he had attacked a Union force twice his size and won — he proposed invading the North.' },
+      { p: 'The strategic case was thin and the political case was thick. Vicksburg, a thousand miles down the Mississippi, was about to fall to Grant (North). A decisive Confederate victory on Northern soil might draw Union troops west to stop him, might force Lincoln (North) to the negotiating table, might finally provoke Britain and France into the recognition the Confederacy had been waiting for since 1861. The practical case was simpler: Virginia had been picked clean. Lee’s men were hungry. There was food in Pennsylvania.' },
+      { p: 'They left for the north on June 3rd.', i: true },
+      { h: 'Three weeks, three states', eyebrow: 'The march' },
+      { p: 'Lee took the Shenandoah Valley north — the same broad green corridor that Stonewall Jackson (South) had ridden up and down for two years. By the third week of June the Army of Northern Virginia was loose in Pennsylvania, an army of seventy thousand men strung out across forty miles of farm country, requisitioning shoes and flour and not, by Lee’s strict orders, burning anything they did not need to.' },
+      { fig: '/war-img/gettysburg-campaign.png', cap: 'The march north: Lee takes the Shenandoah Valley into Pennsylvania while the Army of the Potomac shadows him east of the mountains.', credit: 'Map: Hal Jespersen · CC BY' },
+      { p: 'The Army of the Potomac, under Joseph Hooker (North), moved in parallel — slowly, arguing with Washington the whole way. On June 28th, three days before the battle, Hooker resigned. He was replaced overnight by a corps commander named George Meade (North) who had not been told he was being considered for the job and who accepted it, in his own words, like a man going to his execution.' },
+      { p: 'Meade had three days to assemble a defence of the entire North. He had no idea where Lee was. Lee had no idea where Meade was, either: Jeb Stuart (South), the eyes of the Confederate army, had ridden off on a long glory raid east and was, for all practical purposes, missing.' },
+      { h: 'A town with ten roads', eyebrow: 'Why here' },
+      { p: 'Nobody planned to fight at Gettysburg. It was a small market town in south-central Pennsylvania, ten thousand people, a Lutheran seminary, a couple of colleges, no military value to speak of. What it had was roads. Ten of them, radiating out like spokes from a wheel hub. Whichever army arrived first could pick which way the other one would have to attack from.' },
+      { p: 'On the morning of July 1st, a Confederate brigade marching east in search of shoes met a Union cavalry brigade riding west in search of the Confederate army. Both were as surprised as each other. The shooting started at McPherson’s Ridge a little after seven in the morning. By the end of the day, both armies would be arriving piecemeal and the Battle of Gettysburg would already be underway whether either side had wanted it or not.' },
+      { p: 'It would last three days, kill or wound fifty thousand men, and decide whether the Confederacy got to keep existing.', i: true },
     ],
-    meanwhile: { region: 'Pennsylvania', title: 'A town with ten roads', body: 'Gettysburg mattered to no one strategically — it just happened to be where a dozen roads met, which is exactly why two armies groping for each other ended up there.' },
+    meanwhile: { region: 'London', title: 'The cotton ministers are watching.', body: 'In Westminster, Confederate envoys John Slidell (South) and James Mason (South) are pressing Lord Palmerston for recognition. The Foreign Office has told them to wait for the next great victory. They are about to be waiting forever.' },
   },
 
   mcpherson: {
@@ -53,13 +62,19 @@ const GB_NARR: Record<string, Narr> = {
     from: [{ label: 'How they got there', mode: 'war' }],
     to: [{ label: 'The Hooks', mode: 'war' }],
     blocks: [
-      { h: 'First contact', eyebrow: 'Wed, July 1' },
-      { p: 'It began with a meeting engagement nobody planned. Confederate infantry under Henry Heth (South), looking for shoes, ran into dismounted Union cavalry under John Buford (North) on the ridges northwest of town — and Buford’s troopers, fighting from behind fences with fast-firing carbines, held just long enough for the infantry to come up.' },
-      { p: 'The man who brought them up, John Reynolds (North) — arguably the best general in the army — was shot dead in the first hour. The Union held through the morning and into the afternoon, then buckled as Confederate numbers told. They were driven back through the streets of Gettysburg in chaos.' },
-      { fig: '/war-img/gettysburg-day1.png', cap: 'July 1: the Confederates push the outnumbered Union forces back through the town — and onto the high ground south of it.', credit: 'Map: Hal Jespersen · CC BY' },
-      { p: 'But the bluecoats fell back onto exactly the ground they needed: the hills and ridges south of town that would become the famous fishhook. Day 1 looked like a Confederate win. It had quietly handed the Union the high ground.' },
+      { h: 'The morning of July 1st', eyebrow: 'First contact' },
+      { p: 'John Buford (North) had ridden into Gettysburg the night before with two cavalry brigades — about three thousand men, dismounted, armed with breech-loading carbines. He had picked his ground. He had told his officers, that night in a tavern on the town square, that the rebels would be on them in the morning and that they would have to hold until the infantry arrived.' },
+      { p: 'Heth’s (South) division — about seven thousand Confederate infantry — was on the Chambersburg Pike coming east. Heth had been told there might be militia in the town. He did not believe Buford’s cavalry was anywhere near him. He sent two brigades forward without skirmishers.' },
+      { h: 'The first shots', eyebrow: '7:30 a.m.' },
+      { p: 'Buford’s pickets opened fire from behind a fence rail west of McPherson’s Ridge. The shooting was uneven and confused. Heth deployed for what he thought was a brush with mounted militia. By the time he understood he was fighting two full brigades of regulars, he had committed himself to a fight he could not call off.' },
+      { fig: '/war-img/gettysburg-day1.png', cap: 'July 1: Buford’s cavalry delays Heth west of town until the infantry arrives; by evening the Union is pushed back to Cemetery Hill.', credit: 'Map: Hal Jespersen · CC BY' },
+      { h: 'Reynolds is killed', eyebrow: '10:00 a.m.' },
+      { p: 'John F. Reynolds (North), the senior Union corps commander, rode onto the field at the head of the I Corps. Buford had held; Reynolds would relieve him. Reynolds was placing the Iron Brigade — Wisconsin and Indiana farmers who had earned their name at South Mountain — when he was shot through the neck. He was dead before he hit the ground.' },
+      { p: 'The Union held the ridge through the morning. By afternoon they were outnumbered three to one, three Confederate divisions converging on them from two directions, and they were being driven steadily back through their own forming lines, through the town of Gettysburg, and finally onto a long low cemetery hill south of town.' },
+      { p: 'They dug in. What they dug into would, by morning, look like a fishhook.', i: true },
+      { p: 'When Lee (South) arrived that evening on Seminary Ridge and looked east at the Union line forming on the heights opposite him, he found himself in exactly the strategic situation he had not planned to be in: committed to a battle, against an enemy on high ground, with one corps of his army still a day’s march away. He chose to attack anyway.' },
     ],
-    meanwhile: { region: 'the high ground', title: 'A lucky retreat', body: 'Defeats rarely come with a silver lining this large: in losing the first day, the Union backed onto the strongest defensive position on the field.' },
+    meanwhile: { region: 'Cemetery Hill', title: 'A lucky retreat', body: 'In losing the first day, the Union backed onto the strongest defensive position on the field — the high ground that would become the fishhook.' },
   },
 
   hooks: {
@@ -105,12 +120,18 @@ const GB_NARR: Record<string, Narr> = {
     from: [{ label: 'The Hooks', mode: 'war' }],
     to: [{ label: 'The retreat & the Address', mode: 'war' }, { label: 'High-water mark', mode: 'civ' }],
     blocks: [
-      { h: 'Before the charge', eyebrow: 'Fri, July 3' },
-      { p: 'Having failed at both ends, Lee (South) did the thing his most trusted general begged him not to do: he aimed straight at the center. Early that afternoon some 150 Confederate guns opened the largest bombardment ever heard on the continent, meant to shatter the Union middle on Cemetery Ridge. Then the guns fell silent, and the waiting men knew what the silence meant.' },
-      { p: 'Roughly 12,500 men stepped out of the woods and started across three-quarters of a mile of open ground in parade-ground order. Union artillery switched to canister; the rifles opened along the wall. A few hundred crossed it, at a little clump of trees forever after called the high-water mark of the Confederacy. Almost none came back. Barely half of those who started returned, and Lee rode out among the survivors saying, over and over, “It is all my fault.”' },
-      { fig: '/war-img/gettysburg-day3.png', cap: 'July 3: Pickett’s Charge crosses open ground at the Union center — and is destroyed.', credit: 'Map: Hal Jespersen · CC BY' },
+      { h: 'The third morning', eyebrow: 'Before the charge' },
+      { p: 'Lee (South) had attacked both Union flanks and not broken the line. Longstreet (South), who had urged against the whole campaign and against the attack on the second day, urged again on the morning of the third: pull back, get between Meade (North) and Washington, force Meade to attack on ground of Lee’s choosing. Lee, who could not retreat now without admitting the whole invasion had been a mistake, refused. He resolved to attack the centre.' },
+      { p: 'He chose Pickett’s (South) division, freshly arrived and not yet bloodied, plus two more divisions of Longstreet’s corps. Twelve thousand five hundred men. The target was a stand of trees on Cemetery Ridge, three-quarters of a mile away across open ground.' },
+      { h: 'The cannonade', eyebrow: '1:00 p.m.' },
+      { p: 'The largest artillery bombardment ever conducted on the North American continent began at one in the afternoon and lasted nearly two hours. One hundred and fifty Confederate guns against eighty Union guns. The smoke was so thick the Confederate artillerists could not see whether they were hitting anything. Most of their shells overshot. The Union guns went quiet — partly to conserve ammunition, partly to let the Confederates think they had been silenced.' },
+      { fig: '/war-img/gettysburg-day3.png', cap: 'July 3: Pickett’s Charge crosses three-quarters of a mile of open ground at the Union centre — the angle.', credit: 'Map: Hal Jespersen · CC BY' },
+      { h: 'The charge', eyebrow: '3:00 p.m.' },
+      { p: 'They came out of the woods on Seminary Ridge in three long parade-ground lines, a mile across. They marched at quick step for the first half-mile and then double-quick for the rest. The Union guns reopened at four hundred yards. Canister at two hundred. Rifle fire at one hundred.' },
+      { p: 'A few hundred Confederates reached the wall at the angle, a stone fence at the centre of the Union line. They fought there hand-to-hand for about ten minutes. Then they were either killed, captured, or turned around and started walking back across the same field they had just crossed.' },
+      { p: 'About half of the twelve thousand five hundred did not come back.', i: true },
+      { p: 'Lee rode out to meet the survivors. According to Pickett, he said: “This was all my fault. Get together, and let us do the best we can toward saving that which is left to us.” Pickett, when asked later for his report on the division, is said to have replied: “General Lee, I have no division.”' },
     ],
-    meanwhile: { region: 'Cemetery Ridge', title: 'The high tide', body: 'The copse of trees where a few hundred Confederates briefly crossed the wall is still called the high-water mark — the farthest north the rebellion ever reached, and the moment it began to recede.' },
   },
 
   aftermath: {
@@ -120,11 +141,16 @@ const GB_NARR: Record<string, Narr> = {
     from: [{ label: 'Pickett’s Charge', mode: 'war' }],
     to: [{ label: 'The Reckoning', mode: 'war' }, { label: 'A New Birth of Freedom', mode: 'civ' }],
     blocks: [
-      { h: 'The cost', eyebrow: 'Jul → Nov' },
-      { p: 'Three days had left something like fifty thousand men killed, wounded, or missing — the bloodiest battle ever fought in the hemisphere. On July 4, in driving rain, Lee (South) began the long retreat back to Virginia. He had lost close to a third of his army, and he would never invade the North again.' },
-      { p: 'That November, Abraham Lincoln (North) came to Gettysburg to dedicate a cemetery for the dead. He spoke for barely two minutes — and in them recast the entire war as a test of whether a nation “conceived in liberty,” governed “of the people, by the people, for the people,” could endure.' },
+      { h: 'The morning of July 4th', eyebrow: 'After three days' },
+      { p: 'It rained. It rained on the dead, who were still in the fields and the orchards and the woods where they had fallen. It rained on the fifteen-mile-long Confederate wagon train that began moving south at dusk on the 4th, ambulances in the middle, escorted by Stuart’s (South) cavalry. Meade (North) let them go. The argument over whether he should have pursued more aggressively would go on as long as he lived.' },
+      { fig: '/war-img/gettysburg-aftermath-photo.jpg', cap: 'A Harvest of Death — Timothy O’Sullivan’s photograph of the Union dead, made in the days after the battle.', credit: 'Timothy H. O’Sullivan · public domain' },
+      { p: 'Eight hundred miles to the west, on the same morning, the Confederate garrison at Vicksburg surrendered to Grant (North). The Mississippi was open end to end. The Confederacy had been cut in two on the same day Lee (South) began his retreat. Lincoln (North) was reading the dispatches in Washington and thinking about Independence Day.' },
+      { h: 'Two minutes at the cemetery', eyebrow: 'November 19th' },
+      { p: 'Five months later, on a cold November morning, Lincoln was invited to a cemetery dedication. The main speaker, Edward Everett, spoke for two hours. Lincoln spoke for two minutes. He said two hundred and seventy-two words. He worried, on the train home, that the speech had been a flat failure.' },
+      { p: '“Four score and seven years ago our fathers brought forth, upon this continent, a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal.”', q: true },
+      { p: 'What Lincoln said, in two minutes, was that the Declaration of Independence — not the Constitution, with its compromises over slavery — was the founding document of the United States. He was quietly rewriting the country’s memory of itself, on the field where fifty thousand men had been killed or wounded fighting over the question.' },
+      { p: 'The country has been arguing about which document was the real one ever since.', i: true },
     ],
-    meanwhile: { region: 'Washington', title: 'A new birth of freedom', body: 'The Address didn’t just mourn the dead; it redefined the war’s purpose — pointing past the battlefield toward emancipation and the unfinished work of Reconstruction.' },
   },
 }
 
@@ -171,6 +197,10 @@ export function SectionNarrative({ id }: { id: string }) {
                   {b.cap} <span style={{ fontFamily: SANS, fontStyle: 'normal', fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>· {b.credit}</span>
                 </figcaption>
               </figure>
+            )
+            // blockquote (e.g. the Gettysburg Address)
+            if (b.q) return (
+              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${ACCENT}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{b.p}</p>
             )
             // italic aside
             if (b.i) return (
