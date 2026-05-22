@@ -9,6 +9,16 @@ export const SANS = 'var(--font-geist-sans)'
 export const SERIF = 'var(--font-lora)'
 export const WAR_OXBLOOD = '#b91c1c'
 
+// Mockup palette (supersedes oxblood on the war-detail pages).
+export const ACCENTS = {
+  blue: '#1d4ed8',   // Union, Western theatre
+  amber: '#d97706',  // Colonial wars, Day 1
+  rust: '#b44d3b',   // Confederate, Day 3, Naval
+  violet: '#7c3aed', // Industrial Wars / Civil War, Day 2, Eastern
+  green: '#047857',  // Cold War & after
+}
+export const CIVIL_WAR_ACCENT = ACCENTS.violet
+
 export function alpha(hex: string, a: number): string {
   const h = hex.replace('#', '')
   return `rgba(${parseInt(h.slice(0, 2), 16)}, ${parseInt(h.slice(2, 4), 16)}, ${parseInt(h.slice(4, 6), 16)}, ${a})`
@@ -21,7 +31,7 @@ export interface Crumb {
   href?: string
 }
 
-export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: View; onView: (v: View) => void }) {
+export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
   return (
     <div style={{
       position: 'sticky', top: 0, zIndex: 5,
@@ -55,7 +65,7 @@ export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: Vie
             <button key={v} onClick={() => onView(v)} style={{
               cursor: 'pointer', padding: '5px 12px', fontSize: 11, fontWeight: 600, textTransform: 'capitalize',
               fontFamily: SANS, border: 'none',
-              background: active ? WAR_OXBLOOD : 'transparent',
+              background: active ? accent : 'transparent',
               color: active ? '#fff' : 'color-mix(in srgb, var(--foreground) 65%, transparent)',
             }}>{v}</button>
           )
@@ -66,10 +76,10 @@ export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: Vie
 }
 
 // A labeled dossier section (prose-first), reused across dossier views.
-export function DossierSection({ label, children }: { label: string; children: React.ReactNode }) {
+export function DossierSection({ label, children, accent = CIVIL_WAR_ACCENT }: { label: string; children: React.ReactNode; accent?: string }) {
   return (
     <section style={{ marginBottom: 26 }}>
-      <h2 style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: WAR_OXBLOOD, marginBottom: 10 }}>{label}</h2>
+      <h2 style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: accent, marginBottom: 10 }}>{label}</h2>
       {children}
     </section>
   )
