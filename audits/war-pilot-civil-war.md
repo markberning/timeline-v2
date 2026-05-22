@@ -29,9 +29,11 @@ never bends to story: dates, numbers, quotes are sourced. See
   - Narrative chapters are SELECTIVE (the story; major battles inline).
   - A separate battle layer is EXHAUSTIVE — **Decisive + Major + Mid (CWSAC
     A+B+C, ~280 battles)**.
-  - **Each battle is its OWN full story**, not a card+stats: chapter-like
-    sections — *What came before* → *The battle* (with dual POV) → *What it
-    meant* — then the stat block as support. ~400–700 words each.
+  - **Each battle is its OWN story at VARIABLE depth** — depth scales with what
+    the battle warrants ("each battle does not need a full chapter unless
+    warranted"). Decisive → full chapter-like treatment (*What came before* →
+    *The battle*, with dual POV → *What it meant* → stat block). Major → a
+    medium version. Minor → a paragraph + stats. Never a bare stat sheet.
   - Reached two ways: **inline-expandable** in the prose, and a **complete
     searchable/sortable battle index**.
   - **Source data seeds from the CWSAC principal-battles catalog + Wikipedia
@@ -55,7 +57,7 @@ never bends to story: dates, numbers, quotes are sourced. See
 (East/West split, ch 4–5, kept deliberately — the war's best structural contrast.
 Compressible to 9 if needed.)
 
-## War category set (PROPOSED — needs sign-off)
+## War category set (SIGNED OFF 2026-05-21)
 Replaces the civ 8. War events spread across these so a chapter isn't all battles:
 1. **Battle** — battles, sieges, engagements
 2. **Campaign** — operational movements / offensives
@@ -83,18 +85,20 @@ Replaces the civ 8. War events spread across these so a chapter isn't all battle
 - Map prompts need a war template (fronts/advances, not territorial extent).
 
 ## Scale & build strategy (read this honestly)
-~280 battle stories × ~400–700 words each ≈ **150k–200k words** — on top of the
-10 main chapters. That is the single largest content effort in the project,
-several civs' worth, and storytelling-first + zero-hallucination means it CANNOT
-be mass-generated and shipped — each story needs sourcing + craft + the accuracy
-gates. So **build in tiers, never all at once:**
+Variable depth keeps this from exploding: ~45 Decisive at full length, ~104
+Major at medium, ~128 Mid at a paragraph ≈ **~80–100k words** — still the
+largest single content effort in the project, and storytelling-first +
+zero-hallucination means it CANNOT be mass-generated and shipped (each story
+needs sourcing + craft + the accuracy gates). So **build incrementally:**
+0. **Build a FEW battles first** (mixed depth — a decisive full story + a minor
+   brief one) and see how the format + writing read. (User, 2026-05-21.)
 1. Lock the battle-story format + the 10 chapters (the spine).
-2. Author the **~45 Decisive battles** at full quality first — shippable, proves
-   the format and the pipeline.
+2. Author the **~45 Decisive battles** at full quality — shippable, proves the
+   format and the pipeline.
 3. Expand to **Major (~104)**, then **Mid (~128)** in waves.
-The pilot is "done enough to ship/learn" at tier 1–2; the long tail follows.
+The pilot is "done enough to ship/learn" early; the long tail follows.
 
 ## Status
 Scope locked 2026-05-21 (American Civil War; ~10 chapters; battle layer A+B+C
-~280, each a full story; storytelling-first). Category set proposed, pending
-sign-off. Authoring not started.
+~280, each its own VARIABLE-depth story; storytelling-first). 8 categories
+signed off. Next: write a few sample battle stories to validate the format.
