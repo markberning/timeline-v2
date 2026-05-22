@@ -16,7 +16,7 @@ const ACCENT = '#7c3aed' // Civil War (violet)
 
 type Block =
   | { h: string; eyebrow?: string }
-  | { p: string }
+  | { p: string; i?: boolean }
   | { fig: string; cap: string; credit: string }
 
 interface Lineage { label: string; mode: 'war' | 'civ' }
@@ -69,18 +69,33 @@ const GB_NARR: Record<string, Narr> = {
     from: [{ label: 'McPherson’s Ridge', mode: 'war' }, { label: 'Battle of Gettysburg', mode: 'war' }, { label: 'Eastern Theatre', mode: 'war' }],
     to: [{ label: 'Pickett’s Charge', mode: 'war' }, { label: 'A New Birth of Freedom', mode: 'civ' }],
     blocks: [
-      { h: 'The fishhook', eyebrow: 'Where we are' },
-      { p: 'By the morning of July 2, 1863, the two armies had hardened into the shapes they would keep for the rest of the battle. The Union line ran in a long curve south of town — up over Culp’s Hill, around Cemetery Hill, and straight down Cemetery Ridge toward two rocky hills called the Round Tops. On a map it looked like a fishhook, and the shape gave Meade (North) a priceless advantage: he could shuttle reinforcements along the short inside of the curve faster than Lee (South) could shift men around the long outside.' },
-      { p: 'Lee saw the same shape and read it as opportunity. Crush either end — the barb up at Culp’s Hill or the point down by the Round Tops — and he might roll the whole Union line up like a carpet. So on the second day he swung at both ends at once.' },
-      { h: 'Longstreet on the left', eyebrow: 'Late afternoon' },
-      { p: 'The hardest blow fell on the Union left, where a politically-appointed general named Daniel Sickles (North) had pushed his corps forward off the ridge into a peach orchard — out of the line, exposed on three sides, against orders. Longstreet’s (South) divisions came down on the salient in the late afternoon and tore it apart. The fighting swept through places whose names became shorthand for slaughter: the Wheatfield, which changed hands six times; Devil’s Den, a jumble of boulders fought over at arm’s length; the Peach Orchard, simply overrun.' },
-      { fig: '/war-img/gettysburg-day2.png', cap: 'July 2: Longstreet hits the Union left, Ewell the barb at Culp’s Hill. The fishhook bends everywhere and breaks nowhere.', credit: 'Map: Hal Jespersen · CC BY' },
-      { h: 'Little Round Top' },
-      { p: 'At the very end of the line sat Little Round Top, undefended until a quick-thinking engineer rushed troops onto it minutes before the Confederates arrived. The extreme tip of the entire army — the place where the line simply stopped — was held by the 20th Maine under Joshua Chamberlain (North), a college rhetoric professor who had learned soldiering on the job. His men threw back charge after charge until their cartridge boxes were empty; then Chamberlain ordered a downhill bayonet charge that swept the exhausted attackers off the slope and saved the flank.' },
-      { h: 'The barb' },
-      { p: 'On the far right, Ewell’s (South) men finally clawed up the wooded slopes of Culp’s Hill in the dusk and took a foothold in the abandoned Union trenches — but there were too few of them, too late in the day, to do more than hang on. By nightfall Lee had hammered both ends of the fishhook and bent neither past breaking. He had one day, and one idea, left.' },
+      { h: 'The morning after Day 1', eyebrow: 'The fishhook' },
+      { p: 'By midnight on July 1st, the Army of the Potomac had spent the day getting beaten. By dawn it was, by accident, in one of the strongest defensive positions any American army would ever occupy. The ridge ran south from Cemetery Hill for two miles, then bent east into a wooded knob called Culp’s Hill. Seen from above, it looked exactly like a fishhook — the curl in the north, the long shank running south, and an iron barb at the bottom called Little Round Top.' },
+      { fig: '/war-img/gettysburg-day2.png', cap: 'The fishhook on Day 2: Longstreet swings against the southern point, Ewell against the northern barb.', credit: 'Map: Hal Jespersen · CC BY' },
+      { p: 'Lee’s (South) options that morning were three: withdraw, hold and let Meade (North) attack, or attack. Longstreet (South), who could see what Meade had to work with, urged the first. Lee, who could see what HE had to work with — the largest army he would ever command, deep in northern territory, with Vicksburg slipping away to Grant in the west — chose the third. Longstreet would swing around to the south and roll up the Union left. Ewell (South) would press the right at Culp’s Hill. The centre would feint.' },
+      { p: 'It took most of the morning to get into position. By the time Longstreet was ready to attack, it was past three in the afternoon. The line he was about to hit was not the line he had set out to hit: Daniel Sickles (North), commanding the Union III Corps, had taken it on himself to advance his men three-quarters of a mile west of the ridge, into a peach orchard and a wheat field. Whether this was a brilliant tactical move or a court-martial offence would be argued for the next sixty years.' },
+      { p: 'It would all start to come apart at about three-thirty.', i: true },
+      { h: 'Devil’s Den', eyebrow: '3:30 p.m.' },
+      { p: 'Hood’s (South) division stepped off first. The Texas Brigade came out of the woods at the south end of the Confederate line, climbing into a jumble of car-sized boulders known to the locals as the Devil’s Den. Ward’s (North) brigade — New Yorkers and New Hampshiremen — held the rocks. They held them for an hour, and then they didn’t.' },
+      { fig: '/war-img/gettysburg-day2-photo.jpg', cap: 'Devil’s Den, photographed shortly after the war. The rocks were as confusing in 1863 as they look now.', credit: 'Library of Congress · public domain' },
+      { p: 'By four-thirty the rocks belonged to the Confederates, and three regiments of Alabamans and Texans were jogging up the wooded slope to the south. They couldn’t see the top. They didn’t know yet that there was anyone up there.' },
+      { h: 'Little Round Top', eyebrow: '4:30 p.m.' },
+      { p: 'The story everyone knows about Little Round Top is the bayonet charge — Joshua Chamberlain (North), a Maine college professor in command of the 20th Maine, his men out of ammunition, ordering them to fix bayonets and run down the hill. The story is true and it happened, and the way it’s told it sounds like the whole battle. It is not the whole battle. It is twenty minutes of the whole battle.' },
+      { p: 'The actual decisive moment had come twenty minutes earlier, when a chief engineer of the Army of the Potomac named Gouverneur K. Warren (North) had ridden to the top of Little Round Top, found it undefended, looked west, and seen the entire Confederate line coming straight for him. Warren — a topographer by training, not a combat officer — turned and started screaming for troops.' },
+      { p: 'Strong Vincent’s (North) brigade arrived first, then Patrick O’Rorke’s (North). Chamberlain held the left through five separate assaults, and when his men ran out of ammunition, he held it with bayonets. He won the Medal of Honor. He also won the long argument over whether college professors could fight.' },
+      { h: 'The Wheatfield', eyebrow: '5:00 p.m.' },
+      { p: 'While Little Round Top was being saved, the Wheatfield — nineteen acres of waist-high wheat between the Peach Orchard and the rocks — became something out of a fever dream. Fourteen brigades from both sides fought across it over six hours. The wheat changed hands at least six times. By sundown the field belonged to nobody and the wheat had been ground into the dirt.' },
+      { p: 'The Wheatfield is what people mean when they say the Civil War was the first modern war.', i: true },
+      { h: 'The Peach Orchard', eyebrow: '6:00 p.m.' },
+      { p: 'Sickles, having advanced his corps into the salient, paid for the geometry. McLaws’ (South) division came at him from two directions at once. By six o’clock the Peach Orchard was lost, the III Corps was broken, and Sickles was being carried off the field with one leg gone. He would later argue, for the rest of his life, that his decision to advance had won the battle. Nobody who was at the Wheatfield agreed.' },
+      { h: 'Culp’s Hill', eyebrow: '7:30 p.m.' },
+      { p: 'On the other end of the line, Ewell finally attacked the Union right. He had been ordered to attack in the morning. It was now nearly sundown. Greene’s (North) brigade — one brigade — held Culp’s Hill against three Confederate divisions until reinforcements arrived after dark.' },
+      { p: 'Greene was sixty-two years old. He was the only Union general on the field of Gettysburg who had been a cadet at West Point with Lee.' },
+      { h: 'The line held', eyebrow: 'Aftermath' },
+      { p: 'By midnight the firing had finally stopped. The Union line was still where it had been at dawn — a little bent, but unbroken. Lee, who had attacked both flanks, would the next morning resolve to attack the centre.' },
+      { p: 'He would order Pickett’s Charge.', i: true },
     ],
-    meanwhile: { region: 'the Mississippi', title: 'Vicksburg is starving', body: 'A thousand miles west, Grant’s siege has squeezed the river fortress of Vicksburg down to mule meat. It will surrender in two days — on the Fourth of July — the same week the war turns here.' },
+    meanwhile: { region: 'Vicksburg', title: 'Grant takes the Mississippi tomorrow.', body: 'Six hundred miles to the south-west, after seven weeks of siege, the Confederate garrison at Vicksburg is starving. They will surrender on the morning of July 4th — the same morning Lee begins his long retreat from Gettysburg.' },
   },
 
   pickett: {
@@ -156,6 +171,10 @@ export function SectionNarrative({ id }: { id: string }) {
                   {b.cap} <span style={{ fontFamily: SANS, fontStyle: 'normal', fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>· {b.credit}</span>
                 </figcaption>
               </figure>
+            )
+            // italic aside
+            if (b.i) return (
+              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{b.p}</p>
             )
             // paragraph — drop cap on the very first one
             const drop = firstP
