@@ -132,7 +132,7 @@
     },
     "Wokou": {
       "title": "Wokou",
-      "lead": "Wokou (Chinese: 倭寇; pinyin: Wōkòu; Japanese: 倭寇; Hepburn: Wakō; Korean: 왜구; Hanja: 倭寇; RR: Waegu; literal Chinese translation: \"dwarf bandits\"), which translates to \"Japanese pirates\", were pirates who raided the coastlines of China and Kor",
+      "lead": "Wokou, meaning \"Japanese pirates\" (lit. 'dwarf bandits'), were pirates who raided the coastlines of China and Korea from the 13th century to the 17th century. The wokou were made of various ethnicities of East Asian ancestry, which varied o",
       "image": "Een_zeeslag_tussen_Japanse_zeerovers_en_Chinezen.jpg"
     },
     "Altan_Khan": {
@@ -252,7 +252,7 @@
     },
     "Li_Zicheng": {
       "title": "Li Zicheng",
-      "lead": "Li Zicheng (22 September 1606 – 1645), born Li Hongji, also known as the Thunder King, was a Chinese peasant rebel leader who helped overthrow the Ming dynasty in April 1644 and ruled over northern China briefly as the Yongchang Emperor (Ch",
+      "lead": "Li Zicheng (22 September 1606 – 1645), born Li Hongji, also known as the Thunder King, was a Chinese rebel leader who helped overthrow the Ming dynasty in April 1644 and ruled over northern China briefly as the Yongchang Emperor (Chinese: 永",
       "image": "李自成行宫_(cropped).png"
     },
     "Zhang_Xianzhong": {
@@ -342,29 +342,134 @@
     }
   },
   "glossary": {
+    "Hongwu_Emperor": {
+      "title": "Hongwu Emperor",
+      "lead": "The Hongwu Emperor (21 October 1328 – 24 June 1398), personal name Zhu Yuanzhang, was the founding emperor of the Ming dynasty, reigning from 1368 to 1398. In the mid-14th century, China suffered from epidemics, famines, and widespread upri",
+      "image": "Portrait_assis_de_l'empereur_Ming_Taizu.jpg"
+    },
+    "Nanjing": {
+      "title": "Nanjing",
+      "lead": "Nanjing is the capital of Jiangsu, East China. The city, which is located in the southwestern corner of the province, has 11 districts, an administrative area of 6,600 square kilometres (2,500 sq mi), and as of 2021 a population of 9,423,40",
+      "image": "Nanjing_CBD_from_City_Wall.jpg"
+    },
     "Grand_Secretariat": {
       "title": "Grand Secretariat",
       "lead": "The Grand Secretariat, or the Cabinet (Chinese: 內閣; pinyin: Nèigé), was nominally a coordinating agency but de facto the highest institution in the imperial government of the Chinese Ming dynasty. It first took shape after the Hongwu Empero",
       "image": "Wen_Yuan_Chamber.JPG"
+    },
+    "Jianwen_Emperor": {
+      "title": "Jianwen Emperor",
+      "lead": "The Jianwen Emperor (5 December 1377 – 13 July 1402), personal name Zhu Yunwen, was the second emperor of the Ming dynasty, reigning from 1398 to 1402. Zhu Yunwen's father was Zhu Biao, the eldest son and heir apparent of the Hongwu Emperor",
+      "image": ""
+    },
+    "Jingnan_campaign": {
+      "title": "Jingnan campaign",
+      "lead": "The Jingnan campaign, or the campaign to clear away disorders, was a three-year civil war from 1399 to 1402 in the early years of the Ming dynasty of China between the Jianwen Emperor and his uncle, Zhu Di, Prince of Yan. The war was sparke",
+      "image": "Jingnan_Campaign_(English).svg"
+    },
+    "Yongle_Emperor": {
+      "title": "Yongle Emperor",
+      "lead": "The Yongle Emperor (2 May 1360 – 12 August 1424), personal name Zhu Di, was the third emperor of the Ming dynasty, reigning from 1402 to 1424. He was the fourth son of the Hongwu Emperor, the founder of the dynasty. In 1370, Zhu Di was gran",
+      "image": "Portrait_assis_de_l'empereur_Ming_Chengzu.jpg"
     },
     "Beijing": {
       "title": "Beijing",
       "lead": "Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it is the world's most populous national capital city, as well as China's second-largest city by urban area, after Shanghai. It is l",
       "image": "Skyline_of_Beijing_CBD_with_B-5906_approaching_(20211016171955)_(1).jpg"
     },
+    "Forbidden_City": {
+      "title": "Forbidden City",
+      "lead": "The Forbidden City (Chinese: 紫禁城; pinyin: Zǐjìnchéng) is the imperial palace complex in the center of the Imperial City in Beijing, China. It was the residence of 24 Ming and Qing dynasty Emperors, and the center of political power in China",
+      "image": "The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+    },
+    "Zheng_He": {
+      "title": "Zheng He",
+      "lead": "Zheng He (Wade-Giles: Cheng Ho; 1371–1433/1435) was a Chinese explorer, admiral, diplomat, and eunuch from the early Ming dynasty, who is often regarded as the greatest admiral in Chinese history. Born into a Muslim family as Ma He, he late",
+      "image": "2016_Malakka,_Stadhuys_(09).jpg"
+    },
     "Chinese_treasure_ship": {
       "title": "Chinese treasure ship",
       "lead": "A Chinese treasure ship (simplified Chinese: 宝船; traditional Chinese: 寶船; pinyin: bǎochuán, literally \"gem ship\") is a type of large wooden Chinese junk in the fleet of admiral Zheng He, who led seven voyages during the early 15th-century M",
       "image": "Jonque_de_Mer_de_\"A_Propos_des_Voyages_Aventureux_de_Fernand_Mendez_Pinto\".jpg"
+    },
+    "Grand_Canal_(China)": {
+      "title": "Grand Canal (China)",
+      "lead": "The Grand Canal (Chinese: 大运河; pinyin: Dà yùnhé) is a system of interconnected canals linking various major rivers and lakes in North and East China, serving as an important waterborne transport infrastructure between the north and the sout",
+      "image": "Wanning_Bridge_1.jpg"
     },
     "Temple_of_Heaven": {
       "title": "Temple of Heaven",
       "lead": "The Temple of Heaven (simplified Chinese: 天坛; traditional Chinese: 天壇; pinyin: Tiāntán) is a complex of imperial religious Confucian buildings situated in the southeastern part of central Beijing. The complex was visited by the Emperors of ",
       "image": "Temple_of_Heaven_20160323_01.jpg"
     },
+    "Great_Wall_of_China": {
+      "title": "Great Wall of China",
+      "lead": "The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally \"ten thousand li long wall\") is a series of fortifications in China. They were built across the historical northern borders of",
+      "image": "The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+    },
+    "Zhang_Juzheng": {
+      "title": "Zhang Juzheng",
+      "lead": "Zhang Juzheng (26 May 1525 – 9 July 1582) was a prominent grand secretary during the reigns of Ming emperors Longqing and Wanli. In 1547, he passed the highest level of official examinations and was granted the rank of jinshi. He then serve",
+      "image": "張居正-清晰版.jpeg"
+    },
     "Single_whip_law": {
       "title": "Single whip law",
       "lead": "The single whip law or the \"Single whip reform\" (simplified Chinese: 一条鞭法; traditional Chinese: 一條鞭法; pinyin: Yì Tiáo Biān Fǎ) was a fiscal law first instituted during the middle Ming dynasty, in the early 16th century, and then promulgated",
+      "image": ""
+    },
+    "Wanli_Emperor": {
+      "title": "Wanli Emperor",
+      "lead": "The Wanli Emperor (4 September 1563 – 18 August 1620), personal name Zhu Yijun, was the 14th emperor of the Ming dynasty, reigning from 1572 to 1620. He succeeded his father, the Longqing Emperor. The Wanli Emperor ascended the throne at th",
+      "image": "MingShenzong1.jpg"
+    },
+    "Matteo_Ricci": {
+      "title": "Matteo Ricci",
+      "lead": "Matteo Ricci (Italian: [matˈtɛːo ˈrittʃi]; Latin: Matthaeus Riccius; 6 October 1552 – 11 May 1610) was an Italian Jesuit priest and one of the founding figures of the Jesuit China missions. He created the Kunyu Wanguo Quantu, a 1602 map of ",
+      "image": "Ricciportrait.jpg"
+    },
+    "Jingdezhen": {
+      "title": "Jingdezhen",
+      "lead": "Jingdezhen is a prefecture-level city in eastern Jiangxi province with a total population of 1,669,057 (2018), bordering Anhui to the north. It is known as the \"Porcelain Capital\" because it has been producing Chinese ceramics for at least ",
+      "image": "景德镇市昌江东岸.JPG"
+    },
+    "Journey_to_the_West": {
+      "title": "Journey to the West",
+      "lead": "Journey to the West (traditional Chinese: 西遊記; simplified Chinese: 西游记; pinyin: Xīyóujì) is a Chinese novel published in the 16th century during the Ming dynasty and attributed to Wu Cheng'en. It is regarded as one of the great Chinese nove",
+      "image": "Evl53201b_pic.jpg"
+    },
+    "Donglin_movement": {
+      "title": "Donglin movement",
+      "lead": "The Donglin movement (Chinese: 東林黨; pinyin: Dōnglíndǎng; Wade–Giles: Tung-lin-tang) was an ideological and philosophical movement of the late Ming and early Qing dynasties of China. The movement was established in 1604, during the Wanli era",
+      "image": ""
+    },
+    "Wei_Zhongxian": {
+      "title": "Wei Zhongxian",
+      "lead": "Wei Zhongxian (1568 – December 12, 1627), born Wei Si (魏四), was a Chinese court eunuch who lived in the late Ming dynasty. As a eunuch he used the name Li Jinzhong (李進忠). He is considered by most historians as the most notorious eunuch in C",
+      "image": ""
+    },
+    "Nurhaci": {
+      "title": "Nurhaci",
+      "lead": "Nurhaci (14 May 1559 – 30 September 1626), also known by his temple name Emperor Taizu of Qing, was the founding khan of the Jurchen-led Later Jin dynasty. As leader of the Aisin-Gioro clan, Nurhaci reorganized and united various Jurchen tr",
+      "image": "清_佚名_《清太祖天命皇帝朝服像》_1361x1869.jpg"
+    },
+    "Chongzhen_Emperor": {
+      "title": "Chongzhen Emperor",
+      "lead": "The Chongzhen Emperor (6 February 1611 – 25 April 1644), temple name Ming Sizong, personal name Zhu Youjian, courtesy name Deyue, was the 17th and last emperor of the Ming dynasty. He reigned from 1627 to 1644. \"Chongzhen\", the era name of ",
+      "image": ""
+    },
+    "Wu_Sangui": {
+      "title": "Wu Sangui",
+      "lead": "Wu Sangui (Chinese: 吳三桂; pinyin: Wú Sānguì; Wade–Giles: Wu San-kuei; 8 June 1612 – 2 October 1678), courtesy name Changbai (長白) or Changbo (長伯), was a Chinese military leader who played a key role in the fall of the Ming dynasty and the fou",
+      "image": "Wu_Sangui.jpg"
+    },
+    "Koxinga": {
+      "title": "Koxinga",
+      "lead": "Zheng Chenggong (Chinese: 鄭成功; pinyin: Zhèng Chénggōng; Pe̍h-ōe-jī: Tēⁿ Sêng-kong; Tâi-lô: Tēnn Sîng-kong; 27 August 1624 – 23 June 1662), born Zheng Sen (鄭森) and better known internationally by his honorific title Koxinga (國姓爺), was a Sout",
+      "image": "The_Portrait_of_Koxinga.jpg"
+    },
+    "Haijin": {
+      "title": "Haijin",
+      "lead": "The Haijin (海禁) or sea ban was a series of related policies in China restricting private maritime trading during much of the Ming dynasty and early Qing dynasty. The sea ban was an anomaly in Chinese history as such restrictions were unknow",
       "image": ""
     },
     "Anhui": {
@@ -412,15 +517,80 @@
       "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
       "image": "Tang_outline_map,_661.svg"
     },
-    "Han_dynasty": {
-      "title": "Han dynasty",
-      "lead": "The Han dynasty (202 BC – 9 AD, 25–220 AD) was an imperial dynasty of China established by Liu Bang, and preceded by the short-lived Qin dynasty (221–206 BC) and the interregnum known as the Chu–Han Contention (206–202 BC). It was succeeded",
-      "image": "Han_Dynasty_2_BC_(cropped).svg"
-    },
     "Crown_prince": {
       "title": "Crown prince",
       "lead": "A crown prince or hereditary prince is the heir apparent to the throne in a royal or imperial monarchy. The female form of the title, crown princess, is held by a woman who is heir apparent or is married to the heir apparent. Crown prince a",
       "image": "Crowd_awaiting_Crown_Prince_Tokyo_Dec1916.jpg"
+    },
+    "Tang_Code": {
+      "title": "Tang Code",
+      "lead": "The Tang Code (Chinese: 唐律; pinyin: Táng lǜ; Wade–Giles: T'ang2 lü4) was a penal code that was established and used during the Tang dynasty in China. Supplemented by civil statutes and regulations, it became the basis for later dynastic cod",
+      "image": ""
+    },
+    "Tumu_Crisis": {
+      "title": "Tumu Crisis",
+      "lead": "The Tumu Crisis, also known as the Crisis of the Tumu Fortress, or the Jisi Incident, was a border conflict between the Oirat Mongols and the Ming dynasty. In July 1449, Esen Taishi, leader of the Oirat Mongols, launched a large-scale, thre",
+      "image": "Tumu_Crisis.jpg"
+    },
+    "Xu_Da": {
+      "title": "Xu Da",
+      "lead": "Xu Da (1332–1385), courtesy name Tiande, known by his title as Duke of Wei (魏國公), later posthumously as Prince of Zhongshan (中山王), was a Chinese military general and official who lived in the late Yuan dynasty and early Ming dynasty. He was",
+      "image": "Xu_Da.jpg"
+    },
+    "Battle_of_Lake_Poyang": {
+      "title": "Battle of Lake Poyang",
+      "lead": "The Battle of Lake Poyang (Chinese: 鄱陽湖之戰; pinyin: Póyáng Hú Zhīzhàn) was a naval battle which took place (30 August – 4 October 1363) between the rebel forces of Zhu Yuanzhang and Chen Youliang during the Red Turban Rebellion which led to ",
+      "image": ""
+    },
+    "Suzhou": {
+      "title": "Suzhou",
+      "lead": "Suzhou is a prefecture-level city in Jiangsu province, Eastern China. Suzhou is a major tourist destination and industrial hub of Eastern China, specializing in high-end manufacturing. Renowned as the cradle of Wu culture, Suzhou flourished",
+      "image": "东方之门1.jpg"
+    },
+    "Mongolia": {
+      "title": "Mongolia",
+      "lead": "Mongolia is a landlocked country in the East Asia region. It is bordered by Russia to the north and China to the south, and covers an area of 1,564,116 square kilometers (603,909 square miles), making it the 18th-largest country in the worl",
+      "image": "Flag_of_Mongolia.svg"
+    },
+    "Liaoning": {
+      "title": "Liaoning",
+      "lead": "Liaoning is a coastal province in Northeastern China that is the smallest, southernmost, and most populous province in the region. With its capital at Shenyang, it is located on the northern shore of the Yellow Sea, and is the northernmost ",
+      "image": "Xinghai_Square_.jpg"
+    },
+    "Gansu": {
+      "title": "Gansu",
+      "lead": "Gansu is a province in Northwestern China. Its capital and largest city is Lanzhou, in the southeastern part of the province. The seventh-largest administrative district by area at 453,700 square kilometres (175,200 sq mi), Gansu lies betwe",
+      "image": "Hoodoos_at_Zhangye_Danxia.jpg"
+    },
+    "Eastern_Depot": {
+      "title": "Eastern Depot",
+      "lead": "Eastern Depot or Eastern Bureau (traditional Chinese: 東廠; simplified Chinese: 东厂; pinyin: Dōng Chǎng; Wade–Giles: Tung Ch'ang) was a Ming dynasty spy and secret police agency run by eunuchs. It was created by the Yongle Emperor.",
+      "image": ""
+    },
+    "Avignon_Papacy": {
+      "title": "Avignon Papacy",
+      "lead": "The Avignon Papacy (Occitan: Papat d'Avinhon; French: Papauté d'Avignon) was the period from 1309 to 1376 during which seven successive popes resided in Avignon (at the time within the Kingdom of Arles, part of the Holy Roman Empire, now pa",
+      "image": ""
+    },
+    "Peasants'_Revolt": {
+      "title": "Peasants' Revolt",
+      "lead": "The Peasants' Revolt, also named Wat Tyler's Rebellion or the Great Uprising, was a major uprising across large parts of England in 1381. The revolt had various causes, including the socio-economic and political tensions generated by the Bl",
+      "image": "Jean_Froissart,_Chroniques,_154v,_12148_btv1b8438605hf336,_crop.jpg"
+    },
+    "Murad_I": {
+      "title": "Murad I",
+      "lead": "Murad I (Ottoman Turkish: مراد اول; Turkish: I. Murad), nicknamed Hüdavendigâr, (from Persian: خداوندگار, romanized: Khodāvandgār, lit. 'the devotee of God' – meaning \"sovereign\" in this context; 29 June 1326 – 15 June 1389) was the sultan ",
+      "image": "Fol._254a._The_murder_of_Sultan_Murad_I,_Iskender-name_by_Ahmedi,_late_15th_century_(National_Library_of_Russia,_C133).jpg"
+    },
+    "Battle_of_Kosovo": {
+      "title": "Battle of Kosovo",
+      "lead": "The Battle of Kosovo took place on 15 June 1389 between an army led by the Serbian Prince Lazar Hrebeljanović and an invading army of the Ottoman Empire under the command of Sultan Murad I. It was one of the largest battles of the Late Midd",
+      "image": "Battle_of_Kosovo,_Adam_Stefanović,_1870.jpg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
     },
     "Yangtze": {
       "title": "Yangtze",
@@ -467,6 +637,126 @@
       "lead": "The Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers (French for 'Encyclopedia, or a Systematic Dictionary of the Sciences, Arts and Crafts'), better known as the Encyclopédie (French: [ɑ̃siklɔpedi]), was a gener",
       "image": "Encyclopedie_de_D'Alembert_et_Diderot_-_Premiere_Page_-_ENC_1-NA5.jpg"
     },
+    "Ibn_Khaldun": {
+      "title": "Ibn Khaldun",
+      "lead": "Ibn Khaldun (27 May 1332 – 17 March 1406, 732–808 AH) was an Arab scholar, historian, philosopher, and sociologist. He is widely acknowledged to be one of the greatest social scientists of the Middle Ages, and is considered by a number of s",
+      "image": "Bust_of_Ibn_Khaldun_(Casbah_of_Bejaia,_Algeria).jpg"
+    },
+    "Boxer_Rebellion": {
+      "title": "Boxer Rebellion",
+      "lead": "The Boxer Rebellion, also known as the Boxer Uprising, Boxer Movement, Yihetuan Movement (traditional Chinese: 義和團運動; simplified Chinese: 义和团运动), or Boxer War, was an anti-foreign, anti-imperialist, and anti-Christian uprising in North Chin",
+      "image": "Taku_Forts_Landing.JPG"
+    },
+    "Emperor_Huizong_of_Yuan": {
+      "title": "Toghon Temür",
+      "lead": "Toghon Temür (Mongolian: Тогоон Төмөр, romanized: Togoon Tömör; simplified Chinese: 妥懽帖睦尔; traditional Chinese: 妥懽帖睦爾; pinyin: Tuǒhuān Tiēmù'ěr; 25 May 1320 – 23 May 1370), also known by his temple name as Emperor Huizong of Yuan and by his",
+      "image": "元順帝妥歡帖木兒_Emperor_Shun_of_Yuan_Toghon_Temür.png"
+    },
+    "Council_of_Constance": {
+      "title": "Council of Constance",
+      "lead": "The Council of Constance (Latin: Concilium Constantiense; German: Konzil von Konstanz) was an ecumenical council of the Catholic Church that was held from 1414 to 1418 in the Bishopric of Constance (Konstanz) in present-day Germany. This wa",
+      "image": "Vaclav_Brozik_-_Hus.jpg"
+    },
+    "Western_Schism": {
+      "title": "Western Schism",
+      "lead": "The Western Schism, also known as the Great Divide, the Great Occidental Schism, the Schism of 1378, or the Great Western Schism (Latin: Magnum schisma occidentale, Ecclesiae occidentalis schisma), was a split within the Catholic Church las",
+      "image": "Grandes_Chroniques_de_Frances_de_Charles_V_-_BNF_fr2813_f208_(Clercs_se_disputant).jpg"
+    },
+    "Joan_of_Arc": {
+      "title": "Joan of Arc",
+      "lead": "Joan of Arc (French: Jeanne d'Arc [ʒan daʁk] ; Middle French: Jehanne Darc [ʒəˈãnə ˈdark]; c. 1412 – 30 May 1431) is a patron saint of France, honored as a defender of the French nation for her role in the siege of Orléans and her insistenc",
+      "image": "Joan_of_Arc_miniature_graded.jpg"
+    },
+    "Indian_Ocean": {
+      "title": "Indian Ocean",
+      "lead": "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface. It is bounded by Asia to the north, Africa to the west and Au",
+      "image": "Indian_Ocean-CIA_WFB_Map.png"
+    },
+    "Tacitus": {
+      "title": "Tacitus",
+      "lead": "Publius Cornelius Tacitus, known simply as Tacitus ( TAS-it-əs, Latin: [ˈtakɪtʊs]; c. AD 56 – c. 120), was a Roman historian and politician. He is widely regarded as one of the greatest Roman historians by modern scholars. His two major his",
+      "image": "Wien-_Parlament-Tacitus.jpg"
+    },
+    "Datong": {
+      "title": "Datong",
+      "lead": "Datong is a prefecture-level city in northern Shanxi Province in the People's Republic of China. It is located in the Datong Basin at an elevation of 1,040 metres (3,410 ft) and borders Inner Mongolia to the north and west and Hebei to the ",
+      "image": "Datong_Ancient_City_Wall_01.jpg"
+    },
+    "Xi%27an": {
+      "title": "Xi'an",
+      "lead": "Xi'an is the capital of the Chinese province of Shaanxi. A sub-provincial city on the Guanzhong plain, the city is the third-most populous city in Western China after Chongqing and Chengdu, as well as the most populous city in Northwestern ",
+      "image": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg"
+    },
+    "Kaifeng": {
+      "title": "Kaifeng",
+      "lead": "Kaifeng (simplified Chinese: 开封; traditional Chinese: 開封; pinyin: Kāifēng) is a prefecture-level city in east-central Henan province, China. It is one of the Eight Ancient Capitals of China, having been the capital eight times in history, m",
+      "image": "龙亭公园_-_panoramio_(2).jpg"
+    },
+    "Chengdu": {
+      "title": "Chengdu",
+      "lead": "Chengdu is the capital city of the Chinese province of Sichuan. With a population of 20,937,757 at the 2020 census, it is the fourth most populous city in China, and it is the only city with a population of over 20 million apart from provin",
+      "image": "雪山下的成都市天际线_Chengdu_skyline_with_snow_capped_mountains.jpg"
+    },
+    "Fang_Xiaoru": {
+      "title": "Fang Xiaoru",
+      "lead": "Fang Xiaoru (Chinese: 方孝孺; pinyin: Fāng Xìaorú; 1357 – 25 July 1402), courtesy name Xizhi (希直) or Xigu (希古), a native of Ninghai County, Zhejiang (present-day Ningbo, Zhejiang), was a Chinese official and Confucian scholar of the Ming dynas",
+      "image": "Fang_Xiaoru_tomb.jpg"
+    },
+    "Republic_of_China_(1912%E2%80%931949)": {
+      "title": "Republic of China (1912–1949)",
+      "lead": "The Republic of China (simplified Chinese: 中华民国; traditional Chinese: 中華民國; pinyin: Zhōnghuá Mínguó) established its rule over Mainland China on 1 January 1912 following the Xinhai Revolution, which overthrew the Manchu-led Qing dynasty and",
+      "image": "Flag_of_China_(1912–1928).svg"
+    },
+    "China": {
+      "title": "China",
+      "lead": "China, officially the People's Republic of China (PRC), is a country in East Asia. It is the second-most populous country after India, with a population exceeding 1.4 billion, representing 17% of the world's population. China borders fourte",
+      "image": "Flag_of_the_People's_Republic_of_China.svg"
+    },
+    "Red_Guards": {
+      "title": "Red Guards",
+      "lead": "The Red Guards (Chinese: 红卫兵; pinyin: hóng wèibīng) were a mass, student-led, paramilitary social movement mobilized by Chairman Mao Zedong in 1966 until their abolition in 1968, during the first phase of the Cultural Revolution, which he h",
+      "image": "Red_Guards_Armband_Calligraphy.svg"
+    },
+    "Shia_Islam": {
+      "title": "Shia Islam",
+      "lead": "Shia Islam is the second-largest branch of Islam. It is rooted in the belief that the Islamic prophet Muhammad explicitly designated his cousin and son-in-law Ali ibn Abi Talib (r. 656–661) as his rightful political successor (caliph) and t",
+      "image": ""
+    },
+    "Tokyo": {
+      "title": "Tokyo",
+      "lead": "Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of over 14 million in the city proper in 2023, it is one of the most populous urban areas in the world. The Greater Tokyo Area, which ",
+      "image": "Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
+    "University_of_Cambridge": {
+      "title": "University of Cambridge",
+      "lead": "The University of Cambridge is a collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the second-oldest university in the English-speaking world and the world's third-oldest university in con",
+      "image": "Coat_of_Arms_of_the_University_of_Cambridge.svg"
+    },
+    "London": {
+      "title": "London",
+      "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
+      "image": "London_Skyline_(125508655).jpeg"
+    },
+    "Battle_of_Ankara": {
+      "title": "Battle of Ankara",
+      "lead": "The Battle of Ankara or Angora (Ottoman Turkish: آنقره محاربه‌سی, romanized: Anḳara Muḥârebesi) was fought on 28 July 1402, at the Çubuk plain near Ankara, between the forces of Timur and the Ottoman sultan Bayezid I. The battle was a major",
+      "image": "Timur_reviews_his_troops_in_the_plain_of_Sivas_in_the_battle_of_Ankara_in_mid-summer_1402._Zafarnama_of_1436,_facing_folios_356r_(left),_355v_(right).jpg"
+    },
+    "Battle_of_Agincourt": {
+      "title": "Battle of Agincourt",
+      "lead": "The Battle of Agincourt ( AJ-in-kor(t); French: Azincourt [azɛ̃kuʁ]) was an English victory in the Hundred Years' War. It took place on 25 October 1415 (Saint Crispin's Day) near Azincourt, in northern France. The unexpected victory of the ",
+      "image": "Schlacht_von_Azincourt.jpg"
+    },
+    "Florence": {
+      "title": "Florence",
+      "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 362,353 inhabitants as of 2025. It is also the capital of the eponymous metropolitan province, which counts 989,460 inhabitants. Floren",
+      "image": "FirenzeDec092023_01.jpg"
+    },
+    "Hangul": {
+      "title": "Hangul",
+      "lead": "The Korean alphabet is the modern writing system for the Korean language. It has gone by a variety of names, such as Chosŏn'gŭl in North Korea, Hangul internationally, and Hangeul in South Korea. The script's original name was Hunminjeongeu",
+      "image": "Hangul_chosongul_fontembed.svg"
+    },
     "Hui_people": {
       "title": "Hui people",
       "lead": "The Hui people are an East Asian ethnoreligious group predominantly composed of Chinese-speaking adherents of Islam. They are distributed throughout China, mainly in the northwestern provinces and in the Zhongyuan region. According to the 2",
@@ -500,7 +790,7 @@
     "Champa": {
       "title": "Champa",
       "lead": "Champa were a collection of independent Cham polities that extended across the coast of what is present-day central and southern Vietnam from approximately the 2nd century CE until 1832. According to earliest historical references found in ",
-      "image": "Map-of-southeast-asia_1000_-_1100_CE.png"
+      "image": "Linyi_and_Chamic_states_of_the_fifth_century_AD.png"
     },
     "Kozhikode": {
       "title": "Kozhikode",
@@ -542,6 +832,91 @@
       "lead": "Mogadishu, locally known as Xamar or Hamar, is the capital and most populous city of Somalia. The city has served as an important port connecting traders across the Indian Ocean for millennia and has an estimated urban population of 4,126,8",
       "image": "Lido_beach_from_the_sea_in_Mogadishu.jpg"
     },
+    "Arabian_Peninsula": {
+      "title": "Arabian Peninsula",
+      "lead": "The Arabian Peninsula, or simply Arabia, is a peninsula in West Asia. It accounts for the majority of the land situated on the Arabian plate. With an area of 3,237,500 km2 (1.25 million mi2), it is the world's largest peninsula—roughly comp",
+      "image": "Arabian_Peninsula_dust_SeaWiFS.jpg"
+    },
+    "Valley_of_Mexico": {
+      "title": "Valley of Mexico",
+      "lead": "The Valley of Mexico (Spanish: Valle de México; Nahuatl languages: Anahuac, lit. 'Land Between the Waters'), sometimes also called the Basin of Mexico, is a large natural basin on the highland plateau of central Mexico. Surrounded by mounta",
+      "image": "Basin_of_Mexico_1519_map-en.svg"
+    },
+    "Java": {
+      "title": "Java",
+      "lead": "Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the Indian Ocean to the south and the Java Sea (a part of Pacific Ocean) to the north. With a population of 156.9 million people (inclu",
+      "image": "Java_Topography.png"
+    },
+    "Sumatra": {
+      "title": "Sumatra",
+      "lead": "Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian territory, as well as the sixth-largest island in the world at 482,286.55 km2 (182,812 mi.2), including adjacent islands s",
+      "image": "Sumatra_Topography.png"
+    },
+    "Lisbon": {
+      "title": "Lisbon",
+      "lead": "Lisbon ( LIZ-bən; Portuguese: Lisboa [liʒˈβoɐ] ) is the capital and most populous city of Portugal, with an estimated population of 575,739 as of 2024, within its administrative limits and 3,028,000 within the metropolis, as of 2025. Lisbon",
+      "image": "Lisboa_-_Portugal_(52597836992).jpg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Malacca": {
+      "title": "Malacca",
+      "lead": "Malacca (Malay: Melaka), officially the Historic State of Malacca (Malay: Melaka Negeri Bersejarah), is a state in Malaysia located in the southern region of the Malay Peninsula, facing the Strait of Malacca. The state is bordered by Negeri",
+      "image": "Flag_of_Malacca.svg"
+    },
+    "Malabar_Coast": {
+      "title": "Malabar Coast",
+      "lead": "The Malabar Coast (Malayalam: [mɐlɐbaːr]) is the southwestern region of the Indian subcontinent. It generally refers to the western coastline of India stretching from Konkan to Kanyakumari. Geographically, it comprises one of the wettest re",
+      "image": "India_Malabar_Coast_locator_map.svg"
+    },
+    "East_India_Company": {
+      "title": "East India Company",
+      "lead": "The East India Company (EIC) was an English, and later British, joint-stock company that was founded in 1600 and dissolved in 1874. It was formed to trade in the Indian Ocean region, initially with the East Indies (which included the Indian",
+      "image": "Flag_of_the_British_East_India_Company_(1801).svg"
+    },
+    "Hongxi_Emperor": {
+      "title": "Hongxi Emperor",
+      "lead": "The Hongxi Emperor (16 August 1378 – 29 May 1425), personal name Zhu Gaochi, was the fourth emperor of the Ming dynasty, reigning from 1424 to 1425. He was the eldest son of the Yongle Emperor and ascended the throne after the death of his ",
+      "image": "Portrait_assis_de_l'empereur_Ming_Renzong.jpg"
+    },
+    "Xuande_Emperor": {
+      "title": "Xuande Emperor",
+      "lead": "The Xuande Emperor (16 March 1399 – 31 January 1435), personal name Zhu Zhanji, was the fifth emperor of the Ming dynasty, reigning from 1425 to 1435. He succeeded his father, the Hongxi Emperor. The Xuande Emperor had a passion for poetry ",
+      "image": "Ming_Xuanzong.jpg"
+    },
+    "Mongols": {
+      "title": "Mongols",
+      "lead": "The Mongols are an East Asian ethnic group native to Mongolia and China (Inner Mongolia and other 11 autonomous territories), as well as the republics of Buryatia and Kalmykia in Russia. The Mongols are the principal member of the large fam",
+      "image": "Naadam,_Mongolian_traditional_festival.jpg"
+    },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
+    },
+    "Dutch_East_India_Company": {
+      "title": "Dutch East India Company",
+      "lead": "The United East India Company (Dutch: Vereenigde Oostindische Compagnie [vərˈeːnɪɣdə oːstˈɪndisə kɔmpɑˈɲi]; abbr. VOC [veː(j)oːˈseː]), commonly known as the Dutch East India Company, was a chartered trading company and one of the first join",
+      "image": "Flag_of_the_Dutch_East_India_Company.svg"
+    },
+    "Fortress_of_Sagres": {
+      "title": "Fortress of Sagres",
+      "lead": "The Fortress of Sagres, also known as Castle of Sagres or Fort of Sagres (Portuguese: Fortaleza de Sagres), is a military structure, located near the Sagres freguesia, in the municipality of Vila do Bispo, in the Algarve region of Portugal.",
+      "image": "Fortaleza_de_Sagres_-_Muralha.jpg"
+    },
+    "Sahel": {
+      "title": "Sahel",
+      "lead": "The Sahel region (; from Arabic ساحل (sāḥil [ˈsaːħil]) 'coast, shore'), or Sahelian acacia savanna, is a biogeographical region in Africa. It is the transition zone between the more humid Sudanian savannas to its south and the drier Sahara ",
+      "image": "Mud_Mosque_-_Bani_-_Sahel_Region_-_Burkina_Faso_-_02.jpg"
+    },
+    "Prince_Henry_the_Navigator": {
+      "title": "Prince Henry the Navigator",
+      "lead": "Prince Henry of Portugal, Duke of Viseu (Portuguese: Infante Dom Henrique; 4 March 1394 – 13 December 1460), better known in English as Prince Henry the Navigator, was a Portuguese prince, a central figure in the early days of the Portugues",
+      "image": "Henry_the_Navigator1.jpg"
+    },
     "Esen_Taishi": {
       "title": "Esen Taishi",
       "lead": "Esen (Mongolian: Эсэн; Mongol script: ᠡᠰᠡᠨ; Chinese: 也先; d. 1455) was a powerful Oirat taishi and khagan of the Northern Yuan dynasty between 1453 and 1454. Esen, the son of Oirat taishi Toghon, distinguished himself in wars against Moghuli",
@@ -556,11 +931,6 @@
       "title": "Government of the Ming dynasty",
       "lead": "The government of the Ming dynasty (1368–1644) was modeled after the Mongol-led Yuan dynasty. Over time, the government system changed and adapted to circumstances. The Ming government was traditionally divided into three branches—civil, mi",
       "image": "Gugong.jpg"
-    },
-    "Eastern_Depot": {
-      "title": "Eastern Depot",
-      "lead": "Eastern Depot or Eastern Bureau (traditional Chinese: 東廠; simplified Chinese: 东厂; pinyin: Dōng Chǎng; Wade–Giles: Tung Ch'ang) was a Ming dynasty spy and secret police agency run by eunuchs. It was created by the Yongle Emperor.",
-      "image": ""
     },
     "Jiayu_Pass": {
       "title": "Jiayu Pass",
@@ -582,11 +952,6 @@
       "lead": "Badaling (Chinese: 八达岭; pinyin: Bādálǐng) is the site of the most visited section of the Great Wall of China, approximately 80 kilometers (50 mi) northwest of Beijing's city center, in Badaling Town, Yanqing District, Beijing municipality. ",
       "image": "The_Great_Wall_of_China_-_Badaling.jpg"
     },
-    "Suzhou": {
-      "title": "Suzhou",
-      "lead": "Suzhou is a prefecture-level city in Jiangsu province, Eastern China. Suzhou is a major tourist destination and industrial hub of Eastern China, specializing in high-end manufacturing. Renowned as the cradle of Wu culture, Suzhou flourished",
-      "image": "东方之门1.jpg"
-    },
     "Hangzhou": {
       "title": "Hangzhou",
       "lead": "Hangzhou is the capital and most populous city of Zhejiang province, China, situated at the intersection of the southern terminus of the Grand Canal and the head of Hangzhou Bay. Renowned as one of the Eight Ancient Capitals of China, Hangz",
@@ -606,6 +971,81 @@
       "title": "Lingchi",
       "lead": "Lingchi (IPA: [lǐŋ.ʈʂʰɨ̌], Chinese: 凌遲), usually translated \"slow slicing\" or (incorrectly) \"death by a thousand cuts\", is a form of torture and execution that was used in China from c. 900 until it was banned in 1905. It was also used in V",
       "image": "Martyrerp_2.jpg"
+    },
+    "Wars_of_the_Roses": {
+      "title": "Wars of the Roses",
+      "lead": "The Wars of the Roses, known at the time and in following centuries as the Civil Wars, and also the Cousins' War, were a series of armed confrontations, machinations, battles and campaigns fought for control of the English throne from 1455 ",
+      "image": "Beheading_duke_somerset.jpg"
+    },
+    "Emperor_Yingzong_of_Ming": {
+      "title": "Emperor Yingzong of Ming",
+      "lead": "Emperor Yingzong of Ming (29 November 1427 – 23 February 1464), personal name Zhu Qizhen, was the sixth and eighth emperor of the Ming dynasty. He ruled as the Zhengtong Emperor from 1435 to 1449, and as the Tianshun Emperor from 1457 to 14",
+      "image": "Ming_Yingzong_(1).jpg"
+    },
+    "Jingtai_Emperor": {
+      "title": "Jingtai Emperor",
+      "lead": "The Jingtai Emperor (21 September 1428 – 14 March 1457), personal name Zhu Qiyu, was the seventh emperor of the Ming dynasty, reigning from 1449 to 1457. He succeeded his elder brother, Emperor Yingzong. In 1449, Emperor Yingzong personally",
+      "image": ""
+    },
+    "Hebei": {
+      "title": "Hebei",
+      "lead": "Hebei is a province in North China. It is China's sixth-most populous province, with a population of over 75 million people. Shijiazhuang is the capital city. It borders Shanxi to the west, Henan to the south, Shandong and Liaoning to the e",
+      "image": "Fengning_Jing_Bei_meadow.jpg"
+    },
+    "Manchu_people": {
+      "title": "Manchu people",
+      "lead": "The Manchus (Manchu: ᠮᠠᠨᠵᡠ, romanized: manju; Chinese: 满洲、满族; pinyin: Mǎnzhōu, Mǎnzú; Wade–Giles: Man3-chou1, Man3-tsu2) are a Tungusic East Asian ethnic group native to Manchuria in Northeast Asia. They are an officially recognized ethnic ",
+      "image": "Empress_Wan_Rong.jpg"
+    },
+    "Wuxi": {
+      "title": "Wuxi",
+      "lead": "Wuxi (Chinese: 无锡; pinyin: Wúxī, WOO-shee) is a city in southern Jiangsu, China. As of 2024, it had a population of 7,495,000. The city lies in the southern Yangtze delta and borders Lake Tai. Notable landmarks include Lihu Park, the Mt. Li",
+      "image": "无锡三阳广场.jpg"
+    },
+    "Jingdezhen_porcelain": {
+      "title": "Jingdezhen porcelain",
+      "lead": "Jingdezhen porcelain (simplified Chinese: 景德镇陶瓷; traditional Chinese: 景德鎮陶瓷) is Chinese porcelain produced in or near Jingdezhen in Jiangxi province in southern China. Jingdezhen may have produced pottery as early as the sixth century CE, t",
+      "image": "MET_DP342705.jpg"
+    },
+    "Taoism": {
+      "title": "Taoism",
+      "lead": "Taoism or Daoism ( , ) is a philosophical and religious tradition indigenous to China, emphasizing harmony with the Tao 道. With a range of meaning in Chinese philosophy, translations of Tao include 'way', 'road', 'path', or 'technique', gen",
+      "image": "武当山紫霄宫_(14739990839).jpg"
+    },
+    "Martin_Luther": {
+      "title": "Martin Luther",
+      "lead": "Martin Luther ( LOO-thər; German: [ˈmaʁtiːn ˈlʊtɐ] ; 10 November 1483 – 18 February 1546) was a German priest, theologian, author, hymnwriter, professor, and former Augustinian friar. Luther was the seminal figure of the Protestant Reformat",
+      "image": "Lucas_Cranach_d.Ä._-_Martin_Luther,_1528_(Veste_Coburg).jpg"
+    },
+    "Francisco_Pizarro": {
+      "title": "Francisco Pizarro",
+      "lead": "Francisco Pizarro (; Spanish: [fɾanˈθisko piˈθaro]; c. 1478 – 26 June 1541) was a Spanish conquistador, best known for his expeditions that led to the Spanish conquest of the Inca Empire. Born in Trujillo, Spain, to a poor family of pig far",
+      "image": "Portrait_of_Francisco_Pizarro.jpg"
+    },
+    "Ismail_I": {
+      "title": "Ismail I",
+      "lead": "Ismail I (Persian: اسماعیل یکم, romanized: Ismāʿīl; 17 July 1487 – 23 May 1524) was the founder and first shah of Safavid Iran, ruling from 1501 until his death in 1524. His reign is one of the most vital in the history of Iran, and the Saf",
+      "image": "Shah_Ismail_I_Safavid,_Behzad.jpg"
+    },
+    "Longqing_Emperor": {
+      "title": "Longqing Emperor",
+      "lead": "The Longqing Emperor (4 March 1537 – 5 July 1572), personal name Zhu Zaiji, was the 13th emperor of the Ming dynasty, reigning from 1567 to 1572. He was initially known as the Prince of Yu (裕王) from 1539 to 1567 before he became the emperor",
+      "image": "MingMuzong1.jpg"
+    },
+    "Voyages_of_Christopher_Columbus": {
+      "title": "Voyages of Christopher Columbus",
+      "lead": "Between 1492 and 1504, the Italian explorer and navigator Christopher Columbus led four Spanish transatlantic maritime expeditions in the name of the Catholic Monarchs to the Americas. These voyages led to Europeans learning about the New W",
+      "image": "Viajes_de_colon_en2.svg"
+    },
+    "Spanish_conquest_of_the_Aztec_Empire": {
+      "title": "Spanish conquest of the Aztec Empire",
+      "lead": "The Spanish conquest of the Aztec Empire was a pivotal event in the history of the Americas, marked by the collision of the Aztec Triple Alliance and the Spanish Empire with its Indigenous allies. Between 1519 and 1521, Spanish conquistador",
+      "image": "Conquista-de-México-por-Cortés-Tenochtitlan-Painting.png"
+    },
+    "Safavid_dynasty": {
+      "title": "Safavid dynasty",
+      "lead": "The Safavid dynasty (; Persian: دودمان صفوی, romanized: Dudmân-e Safavi, pronounced [d̪uːd̪ˈmɒːne sæfæˈviː]) was the ruling dynasty of Safavid Iran, and one of Iran's most significant ruling dynasties reigning from 1501 to 1736. Their rule ",
+      "image": "Safavid_Flag.svg"
     },
     "Hubei": {
       "title": "Hubei",
@@ -632,11 +1072,6 @@
       "lead": "Manila, officially the City of Manila, is the capital and second-most populous city of the Philippines after Quezon City. According to the 2024 census, it has a population of 1,902,590 people. Located on the eastern shore of Manila Bay on t",
       "image": "Cityscape_of_Manila,_2025_(01).jpg"
     },
-    "Iwami_Ginzan_Silver_Mine": {
-      "title": "Iwami Ginzan Silver Mine",
-      "lead": "The Iwami Ginzan (石見銀山) was an underground silver mine in the city of Ōda, in Shimane Prefecture on the main island of Honshu, Japan. It was the largest silver mine in Japanese history. It was active for almost four hundred years, from its ",
-      "image": "Shimizudani_Refinery_Ruins_at_Iwami_Ginzan_Silver_Mine_001.jpg"
-    },
     "Ryukyu_Kingdom": {
       "title": "Ryukyu Kingdom",
       "lead": "The Ryukyu Kingdom was a kingdom in the Ryukyu Islands from 1429 until 1872, when it was reorganized as the Ryukyu Domain, before being fully abolished in 1879. It was ruled as a tributary state of the Ming dynasty by the Ryukyuan monarchy,",
@@ -646,11 +1081,6 @@
       "title": "Habsburg Spain",
       "lead": "Habsburg Spain, also known as the Catholic Monarchy, was the period of Spanish history and Spanish Empire from 1516 to 1700 when it was ruled by kings from the House of Habsburg. In this period the Spanish Empire was at the zenith of its in",
       "image": "Flag_of_Cross_of_Burgundy.svg"
-    },
-    "Tokugawa_shogunate": {
-      "title": "Tokugawa shogunate",
-      "lead": "The Tokugawa shogunate, also known as the Edo shogunate, was the military government of Japan during the Edo period from 1603 to 1868. The Tokugawa shogunate was established by Tokugawa Ieyasu after victory at the Battle of Sekigahara, endi",
-      "image": "Flag_of_the_Tokugawa_Shogunate.svg"
     },
     "Society_of_Jesus": {
       "title": "Jesuits",
@@ -682,6 +1112,141 @@
       "lead": "Jiaochao (simplified Chinese: 交钞; traditional Chinese: 交鈔; pinyin: jiāochāo) is a Chinese word for banknote first used for the currency of the Jurchen-led Jin dynasty and later by the Mongol-led Yuan dynasty of China.",
       "image": "Yuan_dynasty_banknote_with_its_printing_plate_1287.jpg"
     },
+    "Murad_III": {
+      "title": "Murad III",
+      "lead": "Murad III (Ottoman Turkish: مراد ثالث, romanized: Murād-i sālis; Turkish: III. Murad; 4 July 1546 – 16 January 1595) was the sultan of the Ottoman Empire from 1574 until his death in 1595. His rule saw battles with the Habsburgs and exhaust",
+      "image": "The_reception_of_the_Persian_ambassador_Maksud_by_Sultan_Murad_III_(detail)_and_his_entourage_(24b)._Manuscript_miniature_ms._TSMK_B.200_“Sehinsahname”.jpg"
+    },
+    "Seville": {
+      "title": "Seville",
+      "lead": "Seville ( sə-VIL; Spanish: Sevilla, pronounced [seˈβiʎa] locally [seˈβiʝa]) is the capital and largest city of the Spanish autonomous community of Andalusia and the province of Seville. It is situated on the lower reaches of the River Guada",
+      "image": "Sevilla_Cathedral_-_Southeast.jpg"
+    },
+    "Philippines": {
+      "title": "Philippines",
+      "lead": "The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. Located in the western Pacific Ocean, it consists of about 7,641 islands, with a total area of about 300,000 square kilometers, which",
+      "image": "Flag_of_the_Philippines.svg"
+    },
+    "Sado_Island": {
+      "title": "Sado Island",
+      "lead": "Sado Island (佐渡島, Sado(ga)shima; Japanese pronunciation: [sa.do.ɡaꜜ.ɕi.ma, -do.ŋaꜜ-]) is an island located in the eastern part of the Sea of Japan, under the jurisdiction of Sado City, Niigata Prefecture, Japan, with a coastline of 262.7 ki",
+      "image": "MapSado.png"
+    },
+    "Nagasaki": {
+      "title": "Nagasaki",
+      "lead": "Nagasaki (長崎, Nagasaki; Japanese pronunciation: [na.ɡaꜜ.sa.kʲi, na.ŋa-], lit. 'Long Cape'), officially Nagasaki City (長崎市, Nagasaki-shi; [na.ɡa.sa.kʲi̥ꜜ.ɕi, na.ɡa.saꜜ.kʲi̥.ɕi, na.ŋa-]), is the capital and the largest city of Nagasaki Prefec",
+      "image": "Nagasaki_City_View_from_Glover_Garden,_Nagasaki_2014.jpg"
+    },
+    "Sichuan": {
+      "title": "Sichuan",
+      "lead": "Sichuan is an inland province in Southwestern China. It is located in the Sichuan Basin and Tibetan Plateau—between the Jinsha River to the west, the Daba Mountains to the north, and the Yunnan–Guizhou Plateau to the south. Its capital city",
+      "image": "1_huanglong_2.jpg"
+    },
+    "Shanxi": {
+      "title": "Shanxi",
+      "lead": "Shanxi is a province in North China. Its capital and largest city is Taiyuan, while its next most populated prefecture-level cities are Changzhi and Datong. Its one-character abbreviation is 晋 (Jìn), after the state of Jin that existed ther",
+      "image": "Yanmenguan3.JPG"
+    },
+    "Guangdong": {
+      "title": "Guangdong",
+      "lead": "Guangdong is a coastal province in South China, on the north shore of the South China Sea with Guangzhou as the capital. With a population of 127.06 million (as of 2023) across a total area of about 179,800 km2 (69,400 sq mi), Guangdong is ",
+      "image": "China_Resources_Headquarters&Shenzhen_Bay_gymnasium_in_Nanshan_District2020.jpg"
+    },
+    "Noble_Consort_Zheng": {
+      "title": "Noble Consort Zheng",
+      "lead": "Noble Consort Zheng (1565–1630) was an imperial consort of the Ming dynasty. She is remembered for having been the most beloved consort of the Wanli Emperor and, in an attempt to please her, he tried to make her son his heir apparent. This ",
+      "image": ""
+    },
+    "Dingling_(Ming)": {
+      "title": "Ding Mausoleum",
+      "lead": "The Ming Dingling (Chinese: 明定陵; pinyin: Míng Dìng Líng) is a mausoleum in China where the Wanli Emperor, together with his two empresses Wang Xijie and Dowager Xiaojing, were buried. Dingling is one of the thirteen imperial tombs at Ming t",
+      "image": "Dingling2020.jpg"
+    },
+    "Reformation": {
+      "title": "Reformation",
+      "lead": "The Reformation, also known as the Protestant Reformation or the European Reformation, was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the auth",
+      "image": ""
+    },
+    "Brazil": {
+      "title": "Brazil",
+      "lead": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 213 million people. Brazil is a federation ",
+      "image": "Flag_of_Brazil.svg"
+    },
+    "Dominican_Order": {
+      "title": "Dominican Order",
+      "lead": "The Order of Preachers (Latin: Ordo Prædicatorum, abbreviated OP), commonly known as the Dominican Order, is a Catholic mendicant order of pontifical right that was founded in France by the Castilian priest Dominic de Guzmán. It was approve",
+      "image": "Seal_of_the_Dominican_Order.svg"
+    },
+    "Michele_Ruggieri": {
+      "title": "Michele Ruggieri",
+      "lead": "Michele Ruggieri, SJ (born Pompilio Ruggieri and known in China as Luo Mingjian; 1543 – 11 May 1607) was an Italian Jesuit priest and missionary. A founding father of the Jesuit China missions, co-author of the first European–Chinese dictio",
+      "image": ""
+    },
+    "Tian": {
+      "title": "Tian",
+      "lead": "Tian (天) is one of the oldest Chinese terms for heaven or the cosmos and is a central concept in Chinese mythology, philosophy, and cosmology. During the Shang dynasty (17th–11th century BCE), the highest deity was referred to as Shangdi or",
+      "image": "天-bronze-shang.svg"
+    },
+    "Kunyu_Wanguo_Quantu": {
+      "title": "Kunyu Wanguo Quantu",
+      "lead": "Kunyu Wanguo Quantu is a Chinese world map printed in 1602. It was created by the Italian Jesuit missionary Matteo Ricci and his Chinese collaborators, the mandarin Zhong Wentao, and the technical translator Li Zhizao. It is the earliest kn",
+      "image": ""
+    },
+    "Ferdinand_Verbiest": {
+      "title": "Ferdinand Verbiest",
+      "lead": "Ferdinand Verbiest, (9 October 1623 – 28 January 1688) was a Flemish Jesuit missionary in China during the Qing dynasty. He was born in Pittem near Tielt in the County of Flanders (now part of Belgium). He is known as Nan Huairen (南懷仁) in C",
+      "image": "南公懷仁像.jpg"
+    },
+    "Euclid": {
+      "title": "Euclid",
+      "lead": "Euclid (; Ancient Greek: Εὐκλείδης; fl. 300 BC) was an ancient Greek mathematician active as a geometer and logician. Considered the \"father of geometry\", he is chiefly known for the Elements treatise, which established the foundations of g",
+      "image": "Jusepe_de_Ribera_-_Euclid_-_2001.26_-_J._Paul_Getty_Museum.jpg"
+    },
+    "Philip_II_of_Spain": {
+      "title": "Philip II of Spain",
+      "lead": "Philip II (21 May 1527 – 13 September 1598), sometimes known in Spain as Philip the Prudent (Spanish: Felipe el Prudente), was King of Spain from 1556, King of Portugal from 1580, and King of Naples and Sicily from 1554 until his death in 1",
+      "image": "Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+    },
+    "Elizabethan_era": {
+      "title": "Elizabethan era",
+      "lead": "The Elizabethan era is the epoch in the Tudor period of the history of England during the reign of Queen Elizabeth I (1558–1603). Historians often depict it as the golden age in English history, with an effective government, resulting from ",
+      "image": "Queen_Elizabeth_I_by_George_Gower.jpg"
+    },
+    "Jacobean_era": {
+      "title": "Jacobean era",
+      "lead": "The Jacobean era was the period in English and Scottish history that coincides with the reign of James VI of Scotland who also inherited the crown of England in 1603 as James I. The Jacobean era succeeds the Elizabethan era and is followed ",
+      "image": "James_I_of_England_by_Daniel_Mytens.jpg"
+    },
+    "William_Shakespeare": {
+      "title": "William Shakespeare",
+      "lead": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's natio",
+      "image": "William_Shakespeare_by_John_Taylor,_edited.jpg"
+    },
+    "Mehmed_III": {
+      "title": "Mehmed III",
+      "lead": "Mehmed III (Ottoman Turkish: محمد ثالث, Meḥmed-i sālis; Turkish: III. Mehmed; 26 May 1566 – 22 December 1603) was the sultan of the Ottoman Empire from 1595 until his death in 1603. Mehmed was known for ordering the execution of his brother",
+      "image": "Sultan_Mehmed_III_(detail)_at_the_reception_of_the_commanders_of_Eğri_Castle._Eğri_Fetihnamesi,_1598_(TSMK,_H.1609).jpg"
+    },
+    "Battle_of_Sekigahara": {
+      "title": "Battle of Sekigahara",
+      "lead": "The Battle of Sekigahara (Shinjitai: 関ヶ原の戦い; Kyūjitai: 關ヶ原の戰い, Hepburn romanization: Sekigahara no Tatakai) was an important battle in Japan which occurred on October 21, 1600 (Keichō 5, 15th day of the 9th month) in what is now Gifu Prefec",
+      "image": "Sekigaharascreen.jpg"
+    },
+    "Galileo_Galilei": {
+      "title": "Galileo Galilei",
+      "lead": "Galileo di Vincenzo Bonaiuti de' Galilei (15 February 1564 – 8 January 1642), commonly referred to as Galileo Galilei, was an Italian astronomer, physicist, and engineer, sometimes described as a polymath. He was born in the city of Pisa, t",
+      "image": "Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff"
+    },
+    "Isfahan": {
+      "title": "Isfahan",
+      "lead": "Isfahan (Persian: اصفهان [esfæˈhɒːn] ) is a city in the Central District of Isfahan County, Isfahan Province, Iran. It is the capital of the province, the county, and the district. It is located 440 kilometres (270 miles) south of Tehran. T",
+      "image": "Naghshe_jahan_01.jpg"
+    },
+    "Eighty_Years%27_War": {
+      "title": "Eighty Years' War",
+      "lead": "The Eighty Years' War or Dutch Revolt (c. 1566/1568–1648) was an armed conflict in the Habsburg Netherlands between disparate groups of rebels and the Spanish government. The causes of the war included the Reformation, centralisation, exces",
+      "image": "Battle_of_Gibraltar_1607.jpg"
+    },
     "Toyotomi_Hideyoshi": {
       "title": "Toyotomi Hideyoshi",
       "lead": "Toyotomi Hideyoshi (豊臣 秀吉; Japanese pronunciation: [to.jo.to.mʲi (|) çi.de(ꜜ).jo.ɕi], 16 February 1537 – 18 September 1598), otherwise known as Kinoshita Tōkichirō (木下 藤吉郎) and Hashiba Hideyoshi (羽柴 秀吉), was a Japanese samurai and daimyō (f",
@@ -694,7 +1259,7 @@
     },
     "Busan": {
       "title": "Busan",
-      "lead": "Busan (Korean: 부산; pronounced [pusan]), officially Busan Metropolitan City, is the second most populous city in South Korea, after Seoul; it has a population of over 3.3 million as of 2024. Alternatively romanized as Pusan, it is the econom",
+      "lead": "Busan (Korean: 부산; Hanja: 釜山; pronounced [pusʰa̠n]), officially Busan Metropolitan City, is the second most populous city in South Korea, after Seoul; it has a population of over 3.3 million as of 2024. Alternatively romanized as Pusan, it ",
       "image": "Gwangandaegyo_Bridge_in_Busan,_South_Korea_(iau2207b).tiff"
     },
     "Oda_Nobunaga": {
@@ -747,10 +1312,55 @@
       "lead": "The Mimizuka (耳塚; \"Ear Mound\" or \"Ear Tomb\"), which was renamed from Hanazuka (鼻塚; \"Nose Mound\"), is a monument in Kyoto, Japan. It is dedicated to the sliced noses of killed Korean soldiers and civilians, as well as those of Ming Chinese t",
       "image": "Ear_mound_side.jpg"
     },
-    "Battle_of_Sekigahara": {
-      "title": "Battle of Sekigahara",
-      "lead": "The Battle of Sekigahara (Shinjitai: 関ヶ原の戦い; Kyūjitai: 關ヶ原の戰い, Hepburn romanization: Sekigahara no Tatakai) was an important battle in Japan which occurred on October 21, 1600 (Keichō 5, 15th day of the 9th month) in what is now Gifu Prefec",
-      "image": "Sekigaharascreen.jpg"
+    "Yalu_River": {
+      "title": "Yalu River",
+      "lead": "The Yalu River (Chinese: 鸭绿江; pinyin: Yālù Jiāng) or Amnok River (Korean: 압록강; MR: Amnokkang) is a river on the border between China and North Korea. Together with the Tumen River to its east, and a small portion of Paektu Mountain, the Yal",
+      "image": "巡道工出品_photo_by_Xundaogong_-_panoramio_(66).jpg"
+    },
+    "Warring_States_period": {
+      "title": "Warring States period",
+      "lead": "The Warring States period in Chinese history (c. 475 – 221 BC) comprises the final centuries of the Zhou dynasty (c. 1046 – 256 BC), which were characterized by warfare, bureaucratic and military reform, and political consolidation. It foll",
+      "image": "EN-WarringStatesAll260BCE.jpg"
+    },
+    "Jindo_County": {
+      "title": "Jindo County",
+      "lead": "Jindo County (Jindo-gun) is a county in South Jeolla Province, South Korea. It consists of the island of Jindo and several smaller nearby islands. Jindo Bridge connects Jindo county with Haenam county. Together with Jindo Island, Jindo Coun",
+      "image": "Flag_of_Jindo.svg"
+    },
+    "Li_Rusong": {
+      "title": "Li Rusong",
+      "lead": "Li Rusong (1549–1598) was a Chinese general of Korean descent from Tieling, Liaodong during the Ming Dynasty. He was a Ming army commander in the first half of the Imjin War that took place in the Korean Peninsula. Upon the request of the K",
+      "image": "Li_Rusong.jpg"
+    },
+    "Spanish_Armada": {
+      "title": "Spanish Armada",
+      "lead": "The Spanish Armada (often known as Invincible Armada, or the Enterprise of England, Spanish: Grande y Felicísima Armada, lit. 'Great and Most Fortunate Navy') was a Spanish fleet that sailed from Lisbon in late May 1588, and was the largest",
+      "image": "Armadaroute.jpg"
+    },
+    "Habsburg_Spain": {
+      "title": "Habsburg Spain",
+      "lead": "Habsburg Spain, also known as the Catholic Monarchy, was the period of Spanish history and Spanish Empire from 1516 to 1700 when it was ruled by kings from the House of Habsburg. In this period the Spanish Empire was at the zenith of its in",
+      "image": "Flag_of_Cross_of_Burgundy.svg"
+    },
+    "Konishi_Yukinaga": {
+      "title": "Konishi Yukinaga",
+      "lead": "Konishi Yukinaga (小西 行長, baptized under the Portuguese personal name Agostinho; 1558 – November 6, 1600) was a Japanese daimyō who served under Toyotomi Hideyoshi. Known as a Kirishitan daimyo, he is notable for his role as the vanguard of ",
+      "image": "Daimyo_Konishi_Yukinaga_Ukiyo-e.jpg"
+    },
+    "Battle_of_Jiksan": {
+      "title": "Battle of Jiksan",
+      "lead": "The Battle of Jiksan (직산 전투) was a military conflict fought between Ming and Japanese forces on 16 October 1597. It resulted in withdrawal by both sides. However the battle marked the furthest point the Japanese ever got to reaching Hanseon",
+      "image": ""
+    },
+    "Battle_of_Sacheon_(1598)": {
+      "title": "Battle of Sacheon (1598)",
+      "lead": "The Battle of Sacheon (泗川) was a siege by Korean and Chinese forces against the Japanese fortification of Sacheon from 28 to 29 September 1598, during Toyotomi Hideyoshi's invasions of Korea. Due to a fortuitous explosion in the Chinese art",
+      "image": ""
+    },
+    "Battle_of_Noryang": {
+      "title": "Battle of Noryang",
+      "lead": "The Battle of Noryang, the last major battle of the Japanese invasions of Korea (1592–1598), was fought between the Japanese navy and the combined fleets of the Joseon Kingdom and the Ming dynasty. It took place in the early morning of 16 D",
+      "image": "『征倭紀功図巻』に描かれた露梁海戦.jpg"
     },
     "Classical_Chinese": {
       "title": "Classical Chinese",
@@ -822,11 +1432,6 @@
       "lead": "Edo Neo-Confucianism, known in Japanese as Shushi-Gaku (朱子學, shushigaku), refers to the schools of Neo-Confucian philosophy that developed in Japan during the Edo period. Neo-Confucianism reached Japan during the Kamakura period. The philos",
       "image": "木鐸_---_Confucian_wooden-clapper_bell.svg"
     },
-    "Wuxi": {
-      "title": "Wuxi",
-      "lead": "Wuxi (Chinese: 无锡; pinyin: Wúxī, WOO-shee) is a city in southern Jiangsu, China. As of 2024, it had a population of 7,495,000. The city lies in the southern Yangtze delta and borders Lake Tai. Notable landmarks include Lihu Park, the Mt. Li",
-      "image": "无锡三阳广场.jpg"
-    },
     "Woodblock_printing": {
       "title": "Woodblock printing",
       "lead": "Woodblock printing or block printing is a technique for printing text, images or patterns used widely throughout East Asia and originating in China in antiquity as a method of printing on textiles and later on paper. Each page or image is c",
@@ -856,6 +1461,101 @@
       "title": "Luo Guanzhong",
       "lead": "Luo Ben (c. 1330–1400, or c.1280–1360), better known by his courtesy name Guanzhong (Mandarin pronunciation: [lwo kwanʈʂʊŋ]), was a Chinese novelist who lived during the Ming dynasty. He is also known by his pseudonym Huhai Sanren (Chinese:",
       "image": "罗贯中_01.jpg"
+    },
+    "Guan_Hanqing": {
+      "title": "Guan Hanqing",
+      "lead": "Guan Hanqing (traditional Chinese: 關漢卿; simplified Chinese: 关汉卿; c. 1241–1320), art names Yizhai (已齋 or 一齋) and Yizhaisou (已齋叟), was a Chinese dramatist, playwright, and poet of the Yuan dynasty. He has been described as among the most prol",
+      "image": "Stamp_of_USSR_2262.jpg"
+    },
+    "Augustine_of_Hippo": {
+      "title": "Augustine of Hippo",
+      "lead": "Augustine of Hippo ( aw-GUST-in, US also AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430) was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is",
+      "image": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    },
+    "Shi_Nai%27an": {
+      "title": "Shi Nai'an",
+      "lead": "Shi Nai'an (Chinese: 施耐庵; pinyin: Shī Nài'ān, c. 1296–1372) was a Chinese writer from the Yuan and early Ming periods. Shuihu zhuan (Water Margin), one of the Four Great Classical Novels of Chinese literature, is traditionally attributed to",
+      "image": "Statue_of_Shi_Naian_(cropped).jpg"
+    },
+    "Macau": {
+      "title": "Macau",
+      "lead": "Macau or Macao is a special administrative region of China. It consists of the Macau Peninsula, the islands of Taipa and Coloane, the Cotai reclamation zone between Taipa and Coloane, and several smaller islets. It borders Zhuhai to the nor",
+      "image": "Flag_of_Macau.svg"
+    },
+    "Quanzhou": {
+      "title": "Quanzhou",
+      "lead": "Quanzhou is a prefecture-level port city on the north bank of the Jin River, beside the Taiwan Strait in southern Fujian, People's Republic of China. It is Fujian's most populous metropolitan region, with an area of 11,245 square kilometers",
+      "image": "20230130_Old_City_of_Quanzhou_01.jpg"
+    },
+    "Lima": {
+      "title": "Lima",
+      "lead": "Lima is the capital and largest city of Peru, as well as a primate city. It is located in the valleys of the Chillón, Rímac and Lurín Rivers, in the desert zone of the central coastal part of the country, overlooking the Pacific Ocean. The ",
+      "image": "Basílica_Catedral_Metropolitana_de_Lima_(cropped).jpg"
+    },
+    "Mulla_Sadra": {
+      "title": "Mulla Sadra",
+      "lead": "Ṣadr ad-Dīn Muḥammad Shīrāzī, more commonly known as Mullā Ṣadrā (Persian: ملا صدرا; Arabic: صدر المتألهین; c. 1571/2 – c. 1635/40 CE / 980 – 1050 AH), was an Iranian Twelver Shi'i Islamic mystic, philosopher, theologian, and ‘Ālim who led ",
+      "image": "مجسمه_ملاصدرا.jpg"
+    },
+    "Cao_Wei": {
+      "title": "Cao Wei",
+      "lead": "Wei (Chinese: 魏), also known as Cao Wei (曹魏) or Former Wei, was one of the major dynastic states in China during the Three Kingdoms period. The state was established in 220 AD by Cao Pi based upon the foundations laid by his father Cao Cao ",
+      "image": "Three_Kingdoms.png"
+    },
+    "Shu_Han": {
+      "title": "Shu Han",
+      "lead": "Han (漢; 221–263 AD), known in historiography as Shu Han (蜀漢 [ʂù xân] ) or Ji Han (季漢 \"Junior Han\"), or often shortened to Shu (Chinese: 蜀; pinyin: Shǔ; Sichuanese Pinyin: Su2 < Middle Chinese: *źjowk < Eastern Han Chinese: *dźok), was a dyn",
+      "image": "Three_Kingdoms.png"
+    },
+    "Donglin_Academy": {
+      "title": "Donglin Academy",
+      "lead": "The Donglin Academy (Chinese: 東林書院; pinyin: Dōnglín Shūyuàn; lit. 'Eastern Grove Academy', Wade–Giles Tung-lin), also known as the Guishan Academy (龜山書院 Guīshān Shūyuàn), was a former Chinese educational institution in Wuxi, China. It was o",
+      "image": "東林書院牌坊.jpg"
+    },
+    "Wu_Cheng%27en": {
+      "title": "Wu Cheng'en",
+      "lead": "Wu Cheng'en (traditional Chinese: 吳承恩; simplified Chinese: 吴承恩; pinyin: Wú Chéng'ēn; Wade–Giles: Wu2 Ch‘êng2-ên1; Jyutping: Ng4 Sing4 Jan1, c. 1500 – 1582 or 1505–1580), courtesy name Ruzhong (汝忠), was a Chinese novelist, poet, and politici",
+      "image": ""
+    },
+    "Zhu_Bajie": {
+      "title": "Zhu Bajie",
+      "lead": "Zhu Bajie, also named Zhu Wuneng, is one of the three disciples of Tang Sanzang, along with Sun Wukong and Sha Heshang, and a major character of the 16th century novel Journey to the West. Zhu means \"swine\" and Bajie means \"eight precepts\".",
+      "image": "Xiyou2.PNG"
+    },
+    "Sha_Wujing": {
+      "title": "Sha Wujing",
+      "lead": "Sha Wujing (Chinese: 沙悟淨) is one of the three disciples of the Buddhist pilgrim Tang Sanzang in the 16th-century novel Journey to the West written by Wu Cheng'en in the Ming dynasty, although versions of his character predate the Ming novel",
+      "image": "Xyj-shaseng.jpg"
+    },
+    "Ximen_Qing": {
+      "title": "Ximen Qing",
+      "lead": "Ximen Qing (Chinese: 西門慶) is a fictional Chinese Song dynasty merchant, womanizer, and murderer in Yanggu County, Shandong. He is the male protagonist in the classic Chinese novel Jin Ping Mei and a minor character in the classic Chinese no",
+      "image": "狮子楼141503.jpg"
+    },
+    "Yangmingism": {
+      "title": "Yangmingism",
+      "lead": "The School of Mind, or the School of Heart (Chinese: 心學; pinyin: xīn xué), or Yangmingism (Chinese: 陽明學; pinyin: yángmíng xué; Japanese: 陽明学, romanized: yōmeigaku), is one of the major philosophical schools of Neo-Confucianism, based on the",
+      "image": "Wang-yang-ming.jpg"
+    },
+    "Great_Tang_Records_on_the_Western_Regions": {
+      "title": "Records of the Western Regions",
+      "lead": "The Records of the Western Regions, also known by its Chinese name as the Datang Xiyuji or Da Tang Xiyu Ji and by various other translations and Romanized transcriptions, is a narrative of the Chinese Buddhist monk Xuanzang's 19 year journe",
+      "image": "大唐西域記（四庫）.jpg"
+    },
+    "Spanish_Golden_Age": {
+      "title": "Spanish Golden Age",
+      "lead": "The Spanish Golden Age (Spanish: Siglo de Oro [ˈsiɣlo ðe ˈoɾo] 'Golden Century') was a period of intense artistic, literary, and intellectual flourishing in Spain that broadly coincided with the political rise of the Spanish monarchy under ",
+      "image": "Monasterio_de_El_Escorial_en_Madrid.jpg"
+    },
+    "Miguel_de_Cervantes": {
+      "title": "Miguel de Cervantes",
+      "lead": "Miguel de Cervantes Saavedra ( sur-VAN-teez, -⁠tiz; Spanish: [miˈɣel de θeɾˈβantes saːˈβeðɾa]; 29 September 1547 (assumed) – 22 April 1616) was a Spanish writer widely regarded as the greatest writer in the Spanish language and one of the w",
+      "image": "Cervantes_Jáuregui.jpg"
+    },
+    "Don_Quixote": {
+      "title": "Don Quixote",
+      "lead": "Don Quixote, the full title being The Ingenious Gentleman Don Quixote of La Mancha, is a Spanish novel by Miguel de Cervantes. Originally published in two parts in 1605 and 1615, the novel is considered a founding work of Western literature",
+      "image": "Title_page_first_edition_Don_Quijote.jpg"
     },
     "Madam_Ke": {
       "title": "Madame Ke",
@@ -907,11 +1607,6 @@
       "lead": "Shaanxi is a province in Northwestern China. It borders the province-level divisions of Inner Mongolia to the north; Shanxi and Henan to the east; Hubei, Chongqing, and Sichuan to the south; and Gansu and Ningxia to the west. Shaanxi covers",
       "image": "Qianling_Mausoleum_25_2013-08.JPG"
     },
-    "Xi%27an": {
-      "title": "Xi'an",
-      "lead": "Xi'an is the capital of the Chinese province of Shaanxi. A sub-provincial city on the Guanzhong plain, the city is the third-most populous city in Western China after Chongqing and Chengdu, as well as the most populous city in Northwestern ",
-      "image": "City_wall_of_Xi'an_51550-Xian_(27959363326).jpg"
-    },
     "Princess_Changping": {
       "title": "Princess Changping",
       "lead": "Zhu Meichuo (2 May 1630 – 26 September 1647), known by her title Princess Changping, was a Chinese princess of the Ming dynasty. She was the daughter of the Chongzhen Emperor and Consort Shun, of the Wang clan but was raised by Empress Zhou",
@@ -932,11 +1627,6 @@
       "lead": "Fort Zeelandia (Chinese: 熱蘭遮城; pinyin: Rèlánzhē Chéng; Pe̍h-ōe-jī: Ji̍at-lân-jia Siâⁿ) was a fortress built over ten years from 1624 to 1634 by the Dutch East India Company (VOC), in the town of Anping (now Anping District of Tainan) on For",
       "image": "Fort_Zeelandia,_Anping_District,_Tainan_City_(Taiwan).jpg"
     },
-    "Dutch_East_India_Company": {
-      "title": "Dutch East India Company",
-      "lead": "The United East India Company (Dutch: Vereenigde Oostindische Compagnie [vərˈeːnɪɣdə oːstˈɪndisə kɔmpɑˈɲi]; abbr. VOC [veː(j)oːˈseː]), commonly known as the Dutch East India Company, was a chartered trading company and one of the first join",
-      "image": "Flag_of_the_Dutch_East_India_Company.svg"
-    },
     "Sakoku": {
       "title": "Sakoku",
       "lead": "Sakoku (Japanese: 鎖国; IPA: [sa̠ko̞kɯ̟]; lit. 'locked country') was the isolationist foreign policy of the Japanese Tokugawa shogunate under which, during the Edo period (from 1603 to 1868), relations and trade between Japan and other countr",
@@ -951,6 +1641,116 @@
       "title": "Mandate of Heaven",
       "lead": "The Mandate of Heaven (Chinese: 天命; pinyin: Tiānmìng; Wade–Giles: T'ien1-ming4; lit. 'Heaven's command') is a Chinese political doctrine that was used in Ancient China and Imperial China to legitimize the rule of the king or emperor of Chin",
       "image": "Dynastic_Cycle.svg"
+    },
+    "Pacific_Ocean": {
+      "title": "Pacific Ocean",
+      "lead": "The Pacific Ocean is the largest and deepest of Earth's five oceanic divisions. It stretches from the Arctic Ocean in the north to the Southern Ocean, or, depending on the definition, to Antarctica in the south, and is bounded by the contin",
+      "image": "Pacific_Ocean_-_en.png"
+    },
+    "Han_dynasty": {
+      "title": "Han dynasty",
+      "lead": "The Han dynasty (202 BC – 9 AD, 25–220 AD) was an imperial dynasty of China established by Liu Bang, and preceded by the short-lived Qin dynasty (221–206 BC) and the interregnum known as the Chu–Han Contention (206–202 BC). It was succeeded",
+      "image": "Han_Dynasty_2_BC_(cropped).svg"
+    },
+    "English_Civil_War": {
+      "title": "English Civil War",
+      "lead": "The English Civil War or Great Rebellion was a series of civil wars and political machinations between Royalists and Parliamentarians in the Kingdom of England from 1642 to 1651. Part of the wider 1639 to 1653 Wars of the Three Kingdoms, th",
+      "image": "Battle_of_Naseby,_hand-coloured_copper_engraving.jpg"
+    },
+    "Shah_Jahan": {
+      "title": "Shah Jahan",
+      "lead": "Shah Jahan I (Shahab-ud-Din Muhammad Khurram; 5 January 1592 – 22 January 1666), also called Shah Jahan the Magnificent, was the fifth Mughal Emperor from 1628 until his deposition in 1658. His reign marked the zenith of Mughal architectura",
+      "image": "'Jujhar_Singh_Bundela_Kneels_in_Submission_to_Shah_Jahan',_painted_by_Bichitr,_c._1630,_Chester_Beatty_Library_(cropped2).jpg"
+    },
+    "Taj_Mahal": {
+      "title": "Taj Mahal",
+      "lead": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the f",
+      "image": "Taj_Mahal_(Edited).jpeg"
+    },
+    "Taichang_Emperor": {
+      "title": "Taichang Emperor",
+      "lead": "The Taichang Emperor (28 August 1582 – 26 September 1620), personal name Zhu Changluo, was the 15th emperor of the Ming dynasty. He was the eldest son of the Wanli Emperor and succeeded his father as emperor in 1620. His reign came to an ab",
+      "image": "MingGuangzong1.jpg"
+    },
+    "Han_Chinese": {
+      "title": "Han Chinese",
+      "lead": "The Han Chinese, alternatively Han people, or Chinese people, are an East Asian ethnic group native to Greater China. With a global population of over 1.4 billion, the Han Chinese are the world's largest ethnic group, making up about 17% of",
+      "image": "武官肖像.jpg"
+    },
+    "Shun_dynasty": {
+      "title": "Shun dynasty",
+      "lead": "The Shun dynasty, officially the Great Shun, also known as Li Shun, was a short-lived dynasty of China that existed during the Ming–Qing transition. The dynasty was founded in Xi'an on 8 February 1644, the first day of the lunar year, by Li",
+      "image": "Shun-dynasty.png"
+    },
+    "Chen_Yuanyuan": {
+      "title": "Chen Yuanyuan",
+      "lead": "Chen Yuanyuan (c. 1623–1689 or 1695) was a Chinese courtesan who later became the concubine of military leader Wu Sangui. In Chinese folklore, Chen’s capture by the Shun army during Li Zicheng’s conquest of Beijing in 1644 prompted Wu’s fat",
+      "image": "Portrait_of_Chen_Yuanyuan.jpg"
+    },
+    "Dodo_(prince)": {
+      "title": "Dodo, Prince Yu",
+      "lead": "Dodo (Manchu: ᡩᠣᡩᠣ; 2 April 1614 – 29 April 1649), formally known as Prince Yu, was a Manchu prince and military general of the early Qing dynasty.",
+      "image": "Dodo,_Prince_Yu.JPG"
+    },
+    "Guangxi": {
+      "title": "Guangxi",
+      "lead": "Guangxi, officially the Guangxi Zhuang Autonomous Region (GZAR), is an autonomous region of the People's Republic of China, located in South China and bordering Vietnam (Tuyên Quang, Cao Bằng, Lạng Sơn, and Quảng Ninh Provinces) and the Gul",
+      "image": "1_li_jiang_guilin_yangshuo_2011.jpg"
+    },
+    "Taiwan": {
+      "title": "Taiwan",
+      "lead": "Taiwan, officially the Republic of China (ROC), is a country in East Asia. The main island of Taiwan, also known as Formosa, lies between the East and South China Seas in the northwestern Pacific Ocean, with the People's Republic of China (",
+      "image": "Flag_of_the_Republic_of_China.svg"
+    },
+    "Kingdom_of_Tungning": {
+      "title": "Kingdom of Tungning",
+      "lead": "The Kingdom of Tungning, also known as Tywan, was a dynastic maritime state that ruled part of southwestern Taiwan and the Penghu islands between 1662 and 1683. It is the first predominantly ethnic Han state in Taiwanese history. At its zen",
+      "image": "Flag_of_Ming_Cheng.svg"
+    },
+    "Yongzheng_Emperor": {
+      "title": "Yongzheng Emperor",
+      "lead": "The Yongzheng Emperor (13 December 1678 – 8 October 1735), also known by his temple name Emperor Shizong of Qing, personal name Yinzhen, was the fourth emperor of the Qing dynasty, and the third Qing emperor to rule over China proper. The f",
+      "image": "雍正朝服像轴.jpg"
+    },
+    "Qianlong_Emperor": {
+      "title": "Qianlong Emperor",
+      "lead": "The Qianlong Emperor (25 September 1711 – 7 February 1799), also known by his temple name Emperor Gaozong of Qing, personal name Hongli, was the fifth emperor of the Qing dynasty and the fourth Qing emperor to rule over China proper. He rei",
+      "image": "乾隆皇帝朝服像轴.png"
+    },
+    "Zhou_dynasty": {
+      "title": "Zhou dynasty",
+      "lead": "The Zhou dynasty ( JOH; Chinese: 周; pinyin: Zhōu, pronunciation: [ʈʂóʊ]) was a royal dynasty of China that existed for 789 years from c. 1046 BC until 256 BC, the longest span of any dynasty in Chinese history. During the Western Zhou perio",
+      "image": "Zhou_dynasty_1000_BC.png"
+    },
+    "Charles_I_of_England": {
+      "title": "Charles I of England",
+      "lead": "Charles I (19 November 1600 – 30 January 1649) was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649. Charles was born into the House of Stuart as the second son of King James VI of Scotland. After his fa",
+      "image": "King_Charles_I_after_original_by_van_Dyck.jpg"
+    },
+    "Thirty_Years%27_War": {
+      "title": "Thirty Years' War",
+      "lead": "The Thirty Years' War, fought primarily in Central Europe between 1618 and 1648, was one of the most destructive conflicts in European history. An estimated 4.5 to 8 million soldiers and civilians died from the effects of battle, famine, or",
+      "image": "Carl_Friedrich_Lessing_-_The_Siege_(Defense_of_a_Church_Courtyard_During_the_Thirty_Years’_War)_-_Google_Art_Project.jpg"
+    },
+    "Hongguang_Emperor": {
+      "title": "Hongguang Emperor",
+      "lead": "The Hongguang Emperor (5 September 1607 – 23 May 1646), personal name Zhu Yousong, was the first emperor of the Chinese Southern Ming dynasty. He was the grandson of the Wanli Emperor through his third son Zhu Changxun, and a cousin of the ",
+      "image": ""
+    },
+    "Longwu_Emperor": {
+      "title": "Longwu Emperor",
+      "lead": "Zhu Yujian (1602 – 6 October 1646), nickname Changshou, originally the Prince of Tang, later reigned as the Longwu Emperor of the Southern Ming dynasty from 18 August 1645, when he was enthroned in Fuzhou, to 6 October 1646, when he was cap",
+      "image": "Long-wu.jpg"
+    },
+    "Yongli_Emperor": {
+      "title": "Yongli Emperor",
+      "lead": "The Yongli Emperor (1623–1662), personal name Zhu Youlang, was the fourth and last emperor of the Southern Ming dynasty, reigning in turbulent times when the former Ming dynasty was overthrown and the Manchu-led Qing dynasty progressively c",
+      "image": ""
+    },
+    "Tsardom_of_Russia": {
+      "title": "Tsardom of Russia",
+      "lead": "The Tsardom of Russia, also known as the Tsardom of Moscow, was the centralized Russian state from the assumption of the title of tsar by Ivan IV in 1547 until the foundation of the Russian Empire by Peter the Great in 1721. From 1550 to 17",
+      "image": "Flag_of_Russia_(1668–1693).svg"
     }
   }
 }

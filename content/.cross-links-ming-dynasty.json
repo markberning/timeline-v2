@@ -47,6 +47,84 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 2,
       "blurb": "Ming and Ottoman were the two great gunpowder empires consolidating at opposite ends of Eurasia in the same century."
+    },
+    {
+      "matchText": "Yellow River",
+      "targetTl": "ancient-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in ancient China: the Yellow River was the cradle of the millet-farming north, the spine around which the first Chinese states organized — and the same river whose floods would later help bring down the Yuan."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Han Dynasty: the very name 'Han' for China's majority ethnic group comes from the dynasty a peasant emperor founded in 202 BCE — the lineage Hongwu cast himself as restoring."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Tang–Song China: the Southern Song was the rump regime that ruled south of the Yangtze after the Jurchen overran the north — the last Han dynasty before the Mongol conquest the Ming would reverse."
+    },
+    {
+      "matchText": "Northern Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Mongol Empire: after fleeing China in 1368 the Yuan court survived on the steppe as the Northern Yuan, a rump khanate that harried the Ming frontier for two more centuries without ever recovering the Chinese provinces."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in late-medieval Europe: while Hongwu rebuilt China, England and France were locked in the Hundred Years' War, the long dynastic struggle that defined the western end of the same post-plague century."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Ottoman Empire: as the Ming consolidated in the east, the Ottomans under Murad I were swallowing the Balkans, the conquest that turned a frontier beylik into a European power."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Persian heartland: the same Iranian plateau that Cyrus once forged into the first world empire was, by Hongwu's day, the staging ground for Timur's conquests."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Mongol successor world: Timur, the Turco-Mongol warlord rebuilding a steppe empire from Samarkand, was a near-exact contemporary of Hongwu and was planning an invasion of Ming China when he died in 1405."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Mali Empire: the legendary gold-laden pilgrimage of Mansa Musa half a century earlier had made Mali a byword for wealth — riches the empire was still riding when the Ming was founded."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the South American highlands had already cycled through the Wari and Tiwanaku empires before the Inca began the imperial expansion that coincided with the Ming founding."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Inca, one small Cusco-valley kingdom among many, were just beginning the explosive imperial expansion that would build the largest state in the pre-Columbian Americas."
+    },
+    {
+      "matchText": "Pachacuti",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Inca Empire: Pachacuti was the ruler who transformed Cusco from a regional kingdom into an empire, launching the imperial burst that was just underway as Hongwu ruled China."
+    },
+    {
+      "matchText": "Mali",
+      "targetTl": "mali-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in West Africa: the Mali Empire, founded by Sundiata Keita in the thirteenth century, dominated the Sahel's gold and salt trade and remained the great power of the region in Hongwu's lifetime."
     }
   ],
   "2": [
@@ -79,6 +157,60 @@
       "targetTl": "safavid-persia",
       "targetChapter": 5,
       "blurb": "Yongle's grand capital and cosmic kingship parallel the great early-modern Islamic imperial capitals — power written in monumental architecture."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Mongols whose frontier Yongle guarded were the heirs of the empire Genghis Khan had built two centuries earlier."
+    },
+    {
+      "matchText": "High Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, seven centuries earlier: the High Tang was the peak of Tang imperial power that Yongle consciously sought to rival."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in the dynasty that gave its name to an ethnicity: the Han people became the majority population whose rule the Ming styled itself a restoration of."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Mongols Yongle campaigned against were the splintered remnants of the world-conquering empire of Genghis Khan."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, the dynasty the Ming replaced: Kublai Khan's Yuan ruled China as the eastern arm of the Mongol Empire until its 1368 collapse."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the dynasty that would follow: the Manchu-led Qing conquered Ming China in 1644 and ruled until 1912."
+    },
+    {
+      "matchText": "Northern Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile on the steppe: after 1368 the Yuan court fled north and survived as the Northern Yuan, the Mongol confederations Yongle marched out to break."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Central Asia: Timur, who claimed Mongol descent, built a Samarkand-centered empire and crushed the Ottomans at Ankara in 1402."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in western Europe: England and France were locked in the Hundred Years' War, contemporary with Yongle's reign."
     }
   ],
   "3": [
@@ -117,6 +249,72 @@
       "targetTl": "safavid-persia",
       "targetChapter": 6,
       "blurb": "The Ming's choice to burn the fleets and turn inward contrasts sharply with the outward-facing Safavid and Ottoman trade empires."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the East African coast: the Swahili merchant city-states the treasure fleet visited — Malindi, Mogadishu and their neighbors — whose own trade-hungry diplomacy first courted the Chinese and later welcomed Vasco da Gama."
+    },
+    {
+      "matchText": "Muhammad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the wider Islamic world: the Prophet Muhammad, founder of the faith carried by Zheng He's Hui Muslim family, whose name survives in the Chinese surname Ma."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the dynasty the Ming overthrew: the Mongol Yuan, whose loyalist holdout in Yunnan is where the young Ma He was captured and castrated."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in earlier China: the Song dynasty, under which the magnetic compass and much of the maritime knowledge the treasure fleet relied on were first developed."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile ahead: the Manchu Qing dynasty that succeeded the Ming and continued its inward-facing, anti-maritime sea-ban policy."
+    },
+    {
+      "matchText": "People's Republic",
+      "targetTl": "rise-of-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in our own century: the People's Republic of China, which began building a true blue-water navy in the 2000s — the first time China projected sea power on a comparable scale since Zheng He."
+    },
+    {
+      "matchText": "Imjin War",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Korea: the Imjin War, Hideyoshi's invasions, where Joseon's turtle-ship navy and Ming relief armies fought the Japanese to a standstill."
+    },
+    {
+      "matchText": "Polynesian navigators",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the Pacific: the Polynesian navigators, who had just completed a two-millennium expansion across thousands of miles of open ocean with no instruments at all."
+    },
+    {
+      "matchText": "Mali",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in West Africa: the empire of Mali, at its commercial peak as the dominant power of the gold-rich western Sahel."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Valley of Mexico: Tenochtitlan, the Aztec capital, completing its dominance of central Mexico in the same generation as the treasure voyages."
+    },
+    {
+      "matchText": "Korean Joseon dynasty",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Korea: the Joseon dynasty under King Sejong, whose court was developing the geobukseon turtle-ship gunboats that would later fight Japan at sea."
     }
   ],
   "4": [
@@ -143,6 +341,90 @@
       "targetTl": "yuan-dynasty",
       "targetChapter": 2,
       "blurb": "The Ming kept the Yuan capital (Beijing) and much of its administrative geography — restoration built on Mongol foundations."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Qing: the Manchu dynasty that would replace the Ming in 1644 and rule China until 1912."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Qing: the Manchus from beyond the northeastern frontier founded the dynasty that conquered Ming China."
+    },
+    {
+      "matchText": "Imjin War",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Joseon Korea: the 1592–1598 Japanese invasions that the Ming intervened to repel, told from the Korean side."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Ottoman Empire: the 1453 conquest of Constantinople that ended Byzantium and announced the Ottoman age."
+    },
+    {
+      "matchText": "Reconquista",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic west: the centuries-long Christian reconquest of Iberia that ended Muslim rule there."
+    },
+    {
+      "matchText": "Granada",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in al-Andalus: Granada, the last Muslim kingdom in Iberia, fell in 1492."
+    },
+    {
+      "matchText": "Reformation",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Europe: the religious upheaval whose late-medieval roots in Wycliffe and Hus preceded Luther."
+    },
+    {
+      "matchText": "Mughal founding",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: Babur founded the Mughal Empire in 1526, building the great early-modern South Asian state."
+    },
+    {
+      "matchText": "Babur",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: Babur, descendant of Timur and Genghis Khan, founded the Mughal Empire."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mexico: the Aztec Empire, brought down by Cortés between 1519 and 1521."
+    },
+    {
+      "matchText": "Cortés",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mexico: Hernán Cortés led the Spanish conquest of the Aztec Empire."
+    },
+    {
+      "matchText": "Inca conquest",
+      "targetTl": "inca-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Andes: the Spanish conquest of the Inca Empire under Pizarro in the 1530s."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Iran: Ismail I founded the Safavid dynasty and made Shia Islam the state religion."
+    },
+    {
+      "matchText": "Suleiman the Magnificent",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Ottoman Empire: Suleiman the Magnificent presided over the empire's 1520–1566 zenith."
     }
   ],
   "5": [
@@ -181,6 +463,72 @@
       "targetTl": "safavid-persia",
       "targetChapter": 6,
       "blurb": "The Single Whip silver tax plugged Ming China into the global bullion flow — the same New World silver river that ran through Safavid and Ottoman markets."
+    },
+    {
+      "matchText": "Imjin War",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Korea, the same war that drained the Ming treasury was, from the Korean side, the existential trauma of the Joseon dynasty — Hideyoshi's two invasions of 1592–1598."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the northeast, the Jurchen confederation rising on the Ming's frontier would become the Manchus — and within decades sweep south to found the Qing dynasty that replaced the Ming."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Korea, the same Confucian scholar-official order shaped the yangban elite that governed Joseon for centuries."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Mediterranean, the Habsburgs were spending the same American silver fighting the Ottoman Empire at its Süleymanic height."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South America, the Andean highlands whose Potosí silver flooded Ming markets had long been the heartland of native empires like Wari and Tiwanaku."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the future, the Qing dynasty that would inherit the Jesuit astronomers and the Single Whip system began as the Manchu conquest of a collapsing Ming."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in India, the Mughal Empire reached its own apex of wealth and cultural confidence under Akbar, exactly contemporary with the late Ming."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in India, Akbar the Great ruled the Mughal Empire at its zenith during the same decades as the Wanli reign."
+    },
+    {
+      "matchText": "Jahangir",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in India, Akbar's son Jahangir continued the Mughal apex, presiding over a court famed for its painting and connoisseurship."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the eastern Mediterranean, the Ottoman Empire in its classical age was the great Islamic power contemporary with late Ming China."
+    },
+    {
+      "matchText": "Tokugawa Ieyasu",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan, Tokugawa Ieyasu won at Sekigahara in 1600 and founded the shogunate that would rule Japan for over two and a half centuries."
     }
   ],
   "6": [
@@ -213,6 +561,24 @@
       "targetTl": "safavid-persia",
       "targetChapter": 3,
       "blurb": "Hideyoshi's continental ambition and the Ming-Joseon resistance is East Asia's version of the era's great confessional-imperial collisions."
+    },
+    {
+      "matchText": "Edo Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: Hideyoshi's death and the wreckage of the Korean adventure cleared the way for Tokugawa Ieyasu, who founded the shogunate that would rule Japan for the next two and a half centuries."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: Kyoto — site of the grim Mound of Ears — had been Japan's imperial capital since 794, when the court founded the city as Heian-kyo."
+    },
+    {
+      "matchText": "Ottoman-Safavid wars",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Persia: the Ottomans and the Safavids fought their own brutal early-modern wars over the same decades, a parallel grind between major Asian states that exhausted both sides and reshaped the regional balance."
     }
   ],
   "7": [
@@ -257,6 +623,96 @@
       "targetTl": "six-dynasties",
       "targetChapter": 1,
       "blurb": "Late-Ming aesthetic refinement amid political rot recalls the Six Dynasties' brilliant decadence — culture blooming as the state hollows."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile, on the steppe frontier: the Manchu were a Jurchen-descended people from Manchuria who, like the Mongols before them, welded the northern tribes into a war machine and conquered all of China — the last of the great steppe-edge conquests that shaped Chinese history."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile, the long echo of the steppe: the Qing were the Manchu-founded dynasty that succeeded the Ming in 1644, the final empire built by a northern frontier people ruling over China — a pattern that runs from the Mongol Yuan onward."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far to the west and centuries earlier: Latin was the language of Rome, which after the empire's fall lived on as the formal written tongue of medieval Europe — the same gap between learned written language and everyday speech that separated literary Chinese from vernacular baihua."
+    },
+    {
+      "matchText": "Northern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, the era the bandits of Water Margin inhabit: the Northern Song (960–1127) was the prosperous, commercially dynamic Chinese dynasty whose collapse to the Jurchen set the stage for the Southern Song."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, the home of Ming orthodoxy's founder: the Southern Song (1127–1279) was the rump dynasty that ruled south of the Yangtze after losing the north, the era when Zhu Xi systematized the Cheng-Zhu Confucianism the Ming made state doctrine."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the long afterlife of a Ming idea: the Meiji Restoration of 1868 toppled Japan's shoguns and launched its modernization — and its reformers had been shaped in part by Wang Yangming's School of Mind, transmitted to Japan as Yomeigaku."
+    },
+    {
+      "matchText": "Safavid",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, across Asia: the Safavids were the Shia Persian dynasty whose courts prized Ming blue-and-white porcelain and whose Iznik-adjacent cobalt-blue ceramics drew on the same Chinese palette."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in India: the Mughals were the Muslim Turco-Mongol dynasty whose courts collected Ming porcelain and whose painting tradition was reaching its classical peak in exactly the same decades as the late-Ming cultural flowering."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, at the far end of the trade routes: Constantinople, the great imperial city captured by the Ottomans in 1453, was one of the global markets where Ming blue-and-white porcelain circulated as a luxury good."
+    },
+    {
+      "matchText": "Imjin War",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, in Korea: the Imjin War (1592–1598) was Hideyoshi's catastrophic invasion of Joseon Korea, fought off with Ming help — the conflict whose silver-draining cost the late Ming was still paying even as its culture flourished."
+    },
+    {
+      "matchText": "Heian",
+      "targetTl": "heian-japan",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, an earlier parallel in Japan: the late Heian period (roughly the eleventh century) produced The Tale of Genji and the foundations of vernacular Japanese literature even as the imperial state lost ground to the warrior class — the same pattern of cultural peak amid political decline as the late Ming."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, in India: Akbar was the great Mughal emperor (reigned 1556–1605) whose court patronized the classical phase of Mughal miniature painting, contemporary with the late-Ming cultural peak."
+    },
+    {
+      "matchText": "Jahangir",
+      "targetTl": "mughal-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, in India: Jahangir was Akbar's son and successor (reigned 1605–1627), a connoisseur emperor under whom Mughal painting reached new refinement — the Indian counterpart to the late Ming's artistic flourishing."
+    },
+    {
+      "matchText": "Abbas the Great",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, in Persia: Shah Abbas the Great (reigned 1588–1629) rebuilt Isfahan into a glittering capital and presided over the Isfahan school of miniature painting — the Safavid peak running parallel to the late Ming."
+    },
+    {
+      "matchText": "Tokugawa-period",
+      "targetTl": "edo-japan",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in Japan: the Tokugawa shogunate (1603–1868) was the long peace under which Edo-period culture flourished — and whose later reformers absorbed Wang Yangming's School of Mind as Yomeigaku."
     }
   ],
   "8": [
@@ -307,6 +763,36 @@
       "targetTl": "yuan-dynasty",
       "targetChapter": 8,
       "blurb": "The Manchu conquest replays the Yuan: a northern steppe-frontier people taking all of China when the native dynasty rots from within."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the dynasty taking shape here goes on to rule China for 268 years — the Qing's own story begins with this very conquest."
+    },
+    {
+      "matchText": "Confucius",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, centuries earlier in the Eastern Zhou, the teacher whose statues these eunuchs displaced first laid out the ethical system the Ming court lived by."
+    },
+    {
+      "matchText": "Northern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, the earlier dynasty the Jurchen overran in the twelfth century — the high point of Song commerce and culture before the steppe broke it."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, the cosmopolitan dynasty remembered as China's cultural zenith, the benchmark against which the Ming measured its own restoration."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, the commercial-cultural dynasty whose achievements the Ming saw as the standard of a flourishing Han China."
     }
   ]
 }

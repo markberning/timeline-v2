@@ -55,16 +55,135 @@
       "type": "concept"
     },
     {
-      "term": "Han dynasty",
-      "matchText": "late Han",
-      "wikiSlug": "Han_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Crown prince",
       "matchText": "crown prince",
       "wikiSlug": "Crown_prince",
       "type": "concept"
+    },
+    {
+      "matchText": "Zhu Yuanzhang",
+      "term": "Zhu Yuanzhang",
+      "wikiSlug": "Hongwu_Emperor"
+    },
+    {
+      "matchText": "Tang Code",
+      "term": "Tang Code",
+      "wikiSlug": "Tang_Code"
+    },
+    {
+      "matchText": "Tumu Crisis",
+      "term": "Tumu Crisis",
+      "wikiSlug": "Tumu_Crisis"
+    },
+    {
+      "matchText": "Great Wall",
+      "term": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "matchText": "Xu Da",
+      "term": "Xu Da",
+      "wikiSlug": "Xu_Da"
+    },
+    {
+      "matchText": "Chongzhen Emperor",
+      "term": "Chongzhen Emperor",
+      "wikiSlug": "Chongzhen_Emperor"
+    },
+    {
+      "matchText": "Battle of Lake Poyang",
+      "term": "Battle of Lake Poyang",
+      "wikiSlug": "Battle_of_Lake_Poyang"
+    },
+    {
+      "matchText": "Suzhou",
+      "term": "Suzhou",
+      "wikiSlug": "Suzhou"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Grand Secretariat",
+      "term": "Grand Secretariat",
+      "wikiSlug": "Grand_Secretariat"
+    },
+    {
+      "matchText": "Liaoning",
+      "term": "Liaoning",
+      "wikiSlug": "Liaoning"
+    },
+    {
+      "matchText": "Gansu",
+      "term": "Gansu",
+      "wikiSlug": "Gansu"
+    },
+    {
+      "matchText": "Eastern Depot",
+      "term": "Eastern Depot",
+      "wikiSlug": "Eastern_Depot"
+    },
+    {
+      "matchText": "Wei Zhongxian",
+      "term": "Wei Zhongxian",
+      "wikiSlug": "Wei_Zhongxian"
+    },
+    {
+      "matchText": "Yongle Emperor",
+      "term": "Yongle Emperor",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "Jianwen Emperor",
+      "term": "Jianwen Emperor",
+      "wikiSlug": "Jianwen_Emperor"
+    },
+    {
+      "matchText": "Zhu Di",
+      "term": "Zhu Di",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "Beiping",
+      "term": "Beiping",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Avignon",
+      "term": "Avignon Papacy",
+      "wikiSlug": "Avignon_Papacy"
+    },
+    {
+      "matchText": "Peasants' Revolt",
+      "term": "Peasants' Revolt",
+      "wikiSlug": "Peasants'_Revolt"
+    },
+    {
+      "matchText": "Murad I",
+      "term": "Murad I",
+      "wikiSlug": "Murad_I"
+    },
+    {
+      "matchText": "Battle of Kosovo",
+      "term": "Battle of Kosovo",
+      "wikiSlug": "Battle_of_Kosovo"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Shundi",
+      "term": "Shundi",
+      "definition": "The Chinese reign name of Toghon Temur, the last Yuan emperor, who abandoned Khanbaliq (Beijing) and fled north to the steppe in 1368 as Xu Da's Ming army approached."
+    },
+    {
+      "matchText": "Directorate of Ceremonial",
+      "term": "Directorate of Ceremonial",
+      "definition": "The Si Li Jian, the inner-palace eunuch office that came to control the flow of memorials between the outer government and the Ming emperor — meaning the eunuchs decided which documents the throne ever saw."
     }
   ],
   "2": [
@@ -133,6 +252,166 @@
       "matchText": "Encyclopédie",
       "wikiSlug": "Encyclop%C3%A9die",
       "type": "concept"
+    },
+    {
+      "matchText": "Ibn Khaldun",
+      "term": "Ibn Khaldun",
+      "wikiSlug": "Ibn_Khaldun"
+    },
+    {
+      "matchText": "Great Wall",
+      "term": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "matchText": "Boxer Rebellion",
+      "term": "Boxer Rebellion",
+      "wikiSlug": "Boxer_Rebellion"
+    },
+    {
+      "matchText": "Toghon Temur",
+      "term": "Toghon Temur",
+      "wikiSlug": "Emperor_Huizong_of_Yuan"
+    },
+    {
+      "matchText": "Tumu Crisis",
+      "term": "Tumu Crisis",
+      "wikiSlug": "Tumu_Crisis"
+    },
+    {
+      "matchText": "Council of Constance",
+      "term": "Council of Constance",
+      "wikiSlug": "Council_of_Constance"
+    },
+    {
+      "matchText": "Western Schism",
+      "term": "Western Schism",
+      "wikiSlug": "Western_Schism"
+    },
+    {
+      "matchText": "Joan of Arc",
+      "term": "Joan of Arc",
+      "wikiSlug": "Joan_of_Arc"
+    },
+    {
+      "matchText": "Hongwu",
+      "term": "Hongwu",
+      "wikiSlug": "Hongwu_Emperor"
+    },
+    {
+      "matchText": "Zhu Di",
+      "term": "Zhu Di",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Tacitus",
+      "term": "Tacitus",
+      "wikiSlug": "Tacitus"
+    },
+    {
+      "matchText": "Datong",
+      "term": "Datong",
+      "wikiSlug": "Datong"
+    },
+    {
+      "matchText": "Xi'an",
+      "term": "Xi'an",
+      "wikiSlug": "Xi%27an"
+    },
+    {
+      "matchText": "Kaifeng",
+      "term": "Kaifeng",
+      "wikiSlug": "Kaifeng"
+    },
+    {
+      "matchText": "Chengdu",
+      "term": "Chengdu",
+      "wikiSlug": "Chengdu"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucian",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Fang Xiaoru",
+      "term": "Fang Xiaoru",
+      "wikiSlug": "Fang_Xiaoru"
+    },
+    {
+      "matchText": "Khanbaliq",
+      "term": "Khanbaliq",
+      "wikiSlug": "Khanbaliq"
+    },
+    {
+      "matchText": "Republic of China",
+      "term": "Republic of China",
+      "wikiSlug": "Republic_of_China_(1912%E2%80%931949)"
+    },
+    {
+      "matchText": "People's Republic",
+      "term": "People's Republic",
+      "wikiSlug": "China"
+    },
+    {
+      "matchText": "Red Guard",
+      "term": "Red Guard",
+      "wikiSlug": "Red_Guards"
+    },
+    {
+      "matchText": "Shia",
+      "term": "Shia",
+      "wikiSlug": "Shia_Islam"
+    },
+    {
+      "matchText": "Tokyo",
+      "term": "Tokyo",
+      "wikiSlug": "Tokyo"
+    },
+    {
+      "matchText": "Cambridge",
+      "term": "Cambridge",
+      "wikiSlug": "University_of_Cambridge"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Ankara",
+      "term": "Ankara",
+      "wikiSlug": "Battle_of_Ankara"
+    },
+    {
+      "matchText": "Agincourt",
+      "term": "Agincourt",
+      "wikiSlug": "Battle_of_Agincourt"
+    },
+    {
+      "matchText": "Florence",
+      "term": "Florence",
+      "wikiSlug": "Florence"
+    },
+    {
+      "matchText": "Hangul",
+      "term": "Hangul",
+      "wikiSlug": "Hangul"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
     }
   ],
   "3": [
@@ -231,6 +510,151 @@
       "matchText": "baochuan",
       "wikiSlug": "Chinese_treasure_ship",
       "type": "concept"
+    },
+    {
+      "matchText": "Arabian Peninsula",
+      "term": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Valley of Mexico",
+      "term": "Valley of Mexico",
+      "wikiSlug": "Valley_of_Mexico"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Lisbon",
+      "term": "Lisbon",
+      "wikiSlug": "Lisbon"
+    },
+    {
+      "matchText": "Nanjing",
+      "term": "Nanjing",
+      "wikiSlug": "Nanjing"
+    },
+    {
+      "matchText": "Ma He",
+      "term": "Ma He",
+      "wikiSlug": "Zheng_He"
+    },
+    {
+      "matchText": "Hongwu",
+      "term": "Hongwu",
+      "wikiSlug": "Hongwu_Emperor"
+    },
+    {
+      "matchText": "Yongle Emperor",
+      "term": "Yongle Emperor",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "Beiping",
+      "term": "Beiping",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Jingnan Campaign",
+      "term": "Jingnan Campaign",
+      "wikiSlug": "Jingnan_campaign"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Suzhou",
+      "term": "Suzhou",
+      "wikiSlug": "Suzhou"
+    },
+    {
+      "matchText": "Malacca",
+      "term": "Malacca",
+      "wikiSlug": "Malacca"
+    },
+    {
+      "matchText": "Malabar coast",
+      "term": "Malabar",
+      "wikiSlug": "Malabar_Coast"
+    },
+    {
+      "matchText": "English East India Company",
+      "term": "English East India Company",
+      "wikiSlug": "East_India_Company"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucian",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Hongxi Emperor",
+      "term": "Hongxi Emperor",
+      "wikiSlug": "Hongxi_Emperor"
+    },
+    {
+      "matchText": "Xuande Emperor",
+      "term": "Xuande Emperor",
+      "wikiSlug": "Xuande_Emperor"
+    },
+    {
+      "matchText": "Mongolian",
+      "term": "Mongolian",
+      "wikiSlug": "Mongols"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch",
+      "wikiSlug": "Dutch_East_India_Company"
+    },
+    {
+      "matchText": "Sagres",
+      "term": "Sagres",
+      "wikiSlug": "Fortress_of_Sagres"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Portuguese Atlantic exploration",
+      "term": "Portuguese Atlantic exploration",
+      "wikiSlug": "Prince_Henry_the_Navigator"
+    },
+    {
+      "matchText": "Liu Daxia",
+      "term": "Liu Daxia",
+      "definition": "A Ming Ministry of War official traditionally credited with destroying (around 1480) the navigation records of Zheng He's voyages, to keep any future emperor from reviving the costly maritime program. The dramatic version of the story is probably exaggerated, but the underlying suppression of the records is real."
+    },
+    {
+      "matchText": "Zhu Di",
+      "term": "Zhu Di",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
     }
   ],
   "4": [
@@ -311,6 +735,166 @@
       "matchText": "lingchi",
       "wikiSlug": "Lingchi",
       "type": "concept"
+    },
+    {
+      "matchText": "Forbidden City",
+      "term": "Forbidden City",
+      "wikiSlug": "Forbidden_City"
+    },
+    {
+      "matchText": "Wanli Emperor",
+      "term": "Wanli Emperor",
+      "wikiSlug": "Wanli_Emperor"
+    },
+    {
+      "matchText": "Wars of the Roses",
+      "term": "Wars of the Roses",
+      "wikiSlug": "Wars_of_the_Roses"
+    },
+    {
+      "matchText": "Zheng He",
+      "term": "Zheng He",
+      "wikiSlug": "Zheng_He"
+    },
+    {
+      "matchText": "Zhengtong Emperor",
+      "term": "Zhengtong Emperor",
+      "wikiSlug": "Emperor_Yingzong_of_Ming"
+    },
+    {
+      "matchText": "Hongwu",
+      "term": "Hongwu",
+      "wikiSlug": "Hongwu_Emperor"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucian",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Grand Canal",
+      "term": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Jingtai Emperor",
+      "term": "Jingtai Emperor",
+      "wikiSlug": "Jingtai_Emperor"
+    },
+    {
+      "matchText": "Tianshun",
+      "term": "Tianshun",
+      "wikiSlug": "Emperor_Yingzong_of_Ming"
+    },
+    {
+      "matchText": "Wei Zhongxian",
+      "term": "Wei Zhongxian",
+      "wikiSlug": "Wei_Zhongxian"
+    },
+    {
+      "matchText": "Hebei",
+      "term": "Hebei",
+      "wikiSlug": "Hebei"
+    },
+    {
+      "matchText": "Liaoning",
+      "term": "Liaoning",
+      "wikiSlug": "Liaoning"
+    },
+    {
+      "matchText": "Gansu",
+      "term": "Gansu",
+      "wikiSlug": "Gansu"
+    },
+    {
+      "matchText": "Wu Sangui",
+      "term": "Wu Sangui",
+      "wikiSlug": "Wu_Sangui"
+    },
+    {
+      "matchText": "Manchus",
+      "term": "Manchus",
+      "wikiSlug": "Manchu_people"
+    },
+    {
+      "matchText": "Khanbaliq",
+      "term": "Khanbaliq",
+      "wikiSlug": "Khanbaliq"
+    },
+    {
+      "matchText": "Yongle Emperor",
+      "term": "Yongle Emperor",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Wuxi",
+      "term": "Wuxi",
+      "wikiSlug": "Wuxi"
+    },
+    {
+      "matchText": "Jingdezhen porcelain kilns",
+      "term": "Jingdezhen porcelain kilns",
+      "wikiSlug": "Jingdezhen_porcelain"
+    },
+    {
+      "matchText": "Zhang Juzheng",
+      "term": "Zhang Juzheng",
+      "wikiSlug": "Zhang_Juzheng"
+    },
+    {
+      "matchText": "Daoist",
+      "term": "Daoist",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Luther",
+      "term": "Luther",
+      "wikiSlug": "Martin_Luther"
+    },
+    {
+      "matchText": "Pizarro",
+      "term": "Pizarro",
+      "wikiSlug": "Francisco_Pizarro"
+    },
+    {
+      "matchText": "Ismail",
+      "term": "Ismail",
+      "wikiSlug": "Ismail_I"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Longqing settlement",
+      "term": "Longqing settlement",
+      "wikiSlug": "Longqing_Emperor"
+    },
+    {
+      "matchText": "Columbus's voyages",
+      "term": "Columbus's voyages",
+      "wikiSlug": "Voyages_of_Christopher_Columbus"
+    },
+    {
+      "matchText": "Aztec conquest",
+      "term": "Aztec conquest",
+      "wikiSlug": "Spanish_conquest_of_the_Aztec_Empire"
+    },
+    {
+      "matchText": "Safavid founding",
+      "term": "Safavid founding",
+      "wikiSlug": "Safavid_dynasty"
     }
   ],
   "5": [
@@ -351,12 +935,6 @@
       "type": "place"
     },
     {
-      "term": "Iwami silver mine",
-      "matchText": "Iwami",
-      "wikiSlug": "Iwami_Ginzan_Silver_Mine",
-      "type": "place"
-    },
-    {
       "term": "Ryukyu Kingdom",
       "matchText": "Ryukyu Islands",
       "wikiSlug": "Ryukyu_Kingdom",
@@ -366,12 +944,6 @@
       "term": "Spanish Habsburgs",
       "matchText": "Spanish Habsburg",
       "wikiSlug": "Spanish_Habsburgs",
-      "type": "concept"
-    },
-    {
-      "term": "Tokugawa shogunate",
-      "matchText": "Tokugawa shogunate",
-      "wikiSlug": "Tokugawa_shogunate",
       "type": "concept"
     },
     {
@@ -415,6 +987,211 @@
       "matchText": "jiaochao",
       "wikiSlug": "Jiaochao",
       "type": "concept"
+    },
+    {
+      "matchText": "Murad III",
+      "term": "Murad III",
+      "wikiSlug": "Murad_III"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Hongwu",
+      "term": "Hongwu",
+      "wikiSlug": "Hongwu_Emperor"
+    },
+    {
+      "matchText": "Seville",
+      "term": "Seville",
+      "wikiSlug": "Seville"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "matchText": "Philippines",
+      "term": "Philippines",
+      "wikiSlug": "Philippines"
+    },
+    {
+      "matchText": "Sado",
+      "term": "Sado",
+      "wikiSlug": "Sado_Island"
+    },
+    {
+      "matchText": "Nagasaki",
+      "term": "Nagasaki",
+      "wikiSlug": "Nagasaki"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Jingdezhen",
+      "term": "Jingdezhen",
+      "wikiSlug": "Jingdezhen"
+    },
+    {
+      "matchText": "Sichuan",
+      "term": "Sichuan",
+      "wikiSlug": "Sichuan"
+    },
+    {
+      "matchText": "Shanxi",
+      "term": "Shanxi",
+      "wikiSlug": "Shanxi"
+    },
+    {
+      "matchText": "Guangdong",
+      "term": "Guangdong",
+      "wikiSlug": "Guangdong"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Lady Zheng",
+      "term": "Lady Zheng",
+      "wikiSlug": "Noble_Consort_Zheng"
+    },
+    {
+      "matchText": "Grand Canal",
+      "term": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)"
+    },
+    {
+      "matchText": "Dingling",
+      "term": "Dingling",
+      "wikiSlug": "Dingling_(Ming)"
+    },
+    {
+      "matchText": "Protestant Reformation",
+      "term": "Protestant Reformation",
+      "wikiSlug": "Reformation"
+    },
+    {
+      "matchText": "Brazil",
+      "term": "Brazil",
+      "wikiSlug": "Brazil"
+    },
+    {
+      "matchText": "Dominicans",
+      "term": "Dominicans",
+      "wikiSlug": "Dominican_Order"
+    },
+    {
+      "matchText": "Michele Ruggieri",
+      "term": "Michele Ruggieri",
+      "wikiSlug": "Michele_Ruggieri"
+    },
+    {
+      "matchText": "Tian",
+      "term": "Tian",
+      "wikiSlug": "Tian"
+    },
+    {
+      "matchText": "Elements",
+      "term": "Euclid's Elements",
+      "wikiSlug": "Euclid%27s_Elements"
+    },
+    {
+      "matchText": "Daoist",
+      "term": "Daoist",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Kunyu Wanguo Quantu",
+      "term": "Kunyu Wanguo Quantu",
+      "wikiSlug": "Kunyu_Wanguo_Quantu"
+    },
+    {
+      "matchText": "Ferdinand Verbiest",
+      "term": "Ferdinand Verbiest",
+      "wikiSlug": "Ferdinand_Verbiest"
+    },
+    {
+      "matchText": "Euclid",
+      "term": "Euclid",
+      "wikiSlug": "Euclid"
+    },
+    {
+      "matchText": "Zheng He",
+      "term": "Zheng He",
+      "wikiSlug": "Zheng_He"
+    },
+    {
+      "matchText": "Haijin",
+      "term": "Haijin",
+      "wikiSlug": "Haijin"
+    },
+    {
+      "matchText": "Philip II",
+      "term": "Philip II",
+      "wikiSlug": "Philip_II_of_Spain"
+    },
+    {
+      "matchText": "Elizabethan",
+      "term": "Elizabethan",
+      "wikiSlug": "Elizabethan_era"
+    },
+    {
+      "matchText": "Jacobean",
+      "term": "Jacobean",
+      "wikiSlug": "Jacobean_era"
+    },
+    {
+      "matchText": "Shakespeare",
+      "term": "Shakespeare",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "matchText": "Mehmed III",
+      "term": "Mehmed III",
+      "wikiSlug": "Mehmed_III"
+    },
+    {
+      "matchText": "Sekigahara",
+      "term": "Sekigahara",
+      "wikiSlug": "Battle_of_Sekigahara"
+    },
+    {
+      "matchText": "Galileo",
+      "term": "Galileo",
+      "wikiSlug": "Galileo_Galilei"
+    },
+    {
+      "matchText": "Dutch Republic",
+      "term": "Dutch Republic",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "matchText": "Isfahan",
+      "term": "Isfahan",
+      "wikiSlug": "Isfahan"
+    },
+    {
+      "matchText": "Dutch revolt",
+      "term": "Dutch revolt",
+      "wikiSlug": "Eighty_Years%27_War"
+    },
+    {
+      "matchText": "Wanli work strike",
+      "term": "Wanli work strike",
+      "definition": "Historians' name for the Wanli Emperor's decades-long withdrawal from governing (roughly 1589–1620), during which he refused to attend court, fill vacant offices, or act on most memorials — leaving the Ming state to run on institutional autopilot."
+    },
+    {
+      "matchText": "Tokugawa unification",
+      "term": "Tokugawa unification",
+      "definition": "The consolidation of warring Japan under Tokugawa Ieyasu after his victory at Sekigahara in 1600, ending a century of civil war and founding the Edo shogunate that ruled until 1868."
     }
   ],
   "6": [
@@ -501,6 +1278,111 @@
       "matchText": "Battle of Sekigahara",
       "wikiSlug": "Battle_of_Sekigahara",
       "type": "concept"
+    },
+    {
+      "matchText": "Yalu River",
+      "term": "Yalu River",
+      "wikiSlug": "Yalu_River"
+    },
+    {
+      "matchText": "Warring States",
+      "term": "Warring States",
+      "wikiSlug": "Warring_States_period"
+    },
+    {
+      "matchText": "Matteo Ricci",
+      "term": "Matteo Ricci",
+      "wikiSlug": "Matteo_Ricci"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Yalu",
+      "term": "Yalu River",
+      "wikiSlug": "Yalu_River"
+    },
+    {
+      "matchText": "Jindo",
+      "term": "Jindo",
+      "wikiSlug": "Jindo_County"
+    },
+    {
+      "matchText": "Nurhaci",
+      "term": "Nurhaci",
+      "wikiSlug": "Nurhaci"
+    },
+    {
+      "matchText": "Manchu",
+      "term": "Manchu",
+      "wikiSlug": "Manchu_people"
+    },
+    {
+      "matchText": "Liaoning",
+      "term": "Liaoning",
+      "wikiSlug": "Liaoning"
+    },
+    {
+      "matchText": "Hebei",
+      "term": "Hebei",
+      "wikiSlug": "Hebei"
+    },
+    {
+      "matchText": "Mongol",
+      "term": "Mongols",
+      "wikiSlug": "Mongols"
+    },
+    {
+      "matchText": "Philip II",
+      "term": "Philip II",
+      "wikiSlug": "Philip_II_of_Spain"
+    },
+    {
+      "matchText": "Li Rusong",
+      "term": "Li Rusong",
+      "wikiSlug": "Li_Rusong"
+    },
+    {
+      "matchText": "Spanish Armada",
+      "term": "Spanish Armada",
+      "wikiSlug": "Spanish_Armada"
+    },
+    {
+      "matchText": "Spanish Habsburg",
+      "term": "Spanish Habsburg",
+      "wikiSlug": "Habsburg_Spain"
+    },
+    {
+      "matchText": "Konishi Yukinaga",
+      "term": "Konishi Yukinaga",
+      "wikiSlug": "Konishi_Yukinaga"
+    },
+    {
+      "matchText": "Jiksan",
+      "term": "Battle of Jiksan",
+      "wikiSlug": "Battle_of_Jiksan"
+    },
+    {
+      "matchText": "Sacheon",
+      "term": "Battle of Sacheon",
+      "wikiSlug": "Battle_of_Sacheon_(1598)"
+    },
+    {
+      "matchText": "Battle of Noryang",
+      "term": "Battle of Noryang",
+      "wikiSlug": "Battle_of_Noryang"
+    },
+    {
+      "matchText": "Wanli era",
+      "term": "Wanli era",
+      "wikiSlug": "Wanli_Emperor"
+    },
+    {
+      "matchText": "Shen Weijing",
+      "term": "Shen Weijing",
+      "definition": "The Ming negotiator who handled the failed 1593–1597 truce talks with Japan during the Imjin War. He told the Beijing court that Hideyoshi had agreed to accept Ming suzerainty as a tributary king — a fiction that collapsed when the real terms surfaced and the war resumed in 1597."
     }
   ],
   "7": [
@@ -629,6 +1511,196 @@
       "matchText": "Luo Guanzhong",
       "wikiSlug": "Luo_Guanzhong",
       "type": "people"
+    },
+    {
+      "matchText": "Guan Hanqing",
+      "term": "Guan Hanqing",
+      "wikiSlug": "Guan_Hanqing"
+    },
+    {
+      "matchText": "Dutch East India Company",
+      "term": "Dutch East India Company",
+      "wikiSlug": "Dutch_East_India_Company"
+    },
+    {
+      "matchText": "Wanli Emperor",
+      "term": "Wanli Emperor",
+      "wikiSlug": "Wanli_Emperor"
+    },
+    {
+      "matchText": "Augustine of Hippo",
+      "term": "Augustine of Hippo",
+      "wikiSlug": "Augustine_of_Hippo"
+    },
+    {
+      "matchText": "Forbidden City",
+      "term": "Forbidden City",
+      "wikiSlug": "Forbidden_City"
+    },
+    {
+      "matchText": "Matteo Ricci",
+      "term": "Matteo Ricci",
+      "wikiSlug": "Matteo_Ricci"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucian",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Shi Nai'an",
+      "term": "Shi Nai'an",
+      "wikiSlug": "Shi_Nai%27an"
+    },
+    {
+      "matchText": "Anhui",
+      "term": "Anhui",
+      "wikiSlug": "Anhui"
+    },
+    {
+      "matchText": "Daoist",
+      "term": "Daoist",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Macao",
+      "term": "Macao",
+      "wikiSlug": "Macau"
+    },
+    {
+      "matchText": "Quanzhou",
+      "term": "Quanzhou",
+      "wikiSlug": "Quanzhou"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch",
+      "wikiSlug": "Dutch_people"
+    },
+    {
+      "matchText": "Dutch Republic",
+      "term": "Dutch Republic",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Lima",
+      "term": "Lima",
+      "wikiSlug": "Lima"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Isfahan",
+      "term": "Isfahan",
+      "wikiSlug": "Isfahan"
+    },
+    {
+      "matchText": "Mulla Sadra",
+      "term": "Mulla Sadra",
+      "wikiSlug": "Mulla_Sadra"
+    },
+    {
+      "matchText": "Shakespeare",
+      "term": "Shakespeare",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "matchText": "Wei",
+      "term": "Wei",
+      "wikiSlug": "Cao_Wei"
+    },
+    {
+      "matchText": "Shu",
+      "term": "Shu",
+      "wikiSlug": "Shu_Han"
+    },
+    {
+      "matchText": "Wanli",
+      "term": "Wanli",
+      "wikiSlug": "Wanli_Emperor"
+    },
+    {
+      "matchText": "Donglin Academy",
+      "term": "Donglin Academy",
+      "wikiSlug": "Donglin_Academy"
+    },
+    {
+      "matchText": "Wu Cheng'en",
+      "term": "Wu Cheng'en",
+      "wikiSlug": "Wu_Cheng%27en"
+    },
+    {
+      "matchText": "Zhu Bajie",
+      "term": "Zhu Bajie",
+      "wikiSlug": "Zhu_Bajie"
+    },
+    {
+      "matchText": "Sha Wujing",
+      "term": "Sha Wujing",
+      "wikiSlug": "Sha_Wujing"
+    },
+    {
+      "matchText": "Ximen Qing",
+      "term": "Ximen Qing",
+      "wikiSlug": "Ximen_Qing"
+    },
+    {
+      "matchText": "Wei Zhongxian",
+      "term": "Wei Zhongxian",
+      "wikiSlug": "Wei_Zhongxian"
+    },
+    {
+      "matchText": "School of Mind",
+      "term": "School of Mind",
+      "wikiSlug": "Yangmingism"
+    },
+    {
+      "matchText": "Records of the Western Regions",
+      "term": "Records of the Western Regions",
+      "wikiSlug": "Great_Tang_Records_on_the_Western_Regions"
+    },
+    {
+      "matchText": "Spanish Golden Age",
+      "term": "Spanish Golden Age",
+      "wikiSlug": "Spanish_Golden_Age"
+    },
+    {
+      "matchText": "Cervantes",
+      "term": "Cervantes",
+      "wikiSlug": "Miguel_de_Cervantes"
+    },
+    {
+      "matchText": "Don Quixote",
+      "term": "Don Quixote",
+      "wikiSlug": "Don_Quixote"
+    },
+    {
+      "matchText": "Manila",
+      "term": "Manila",
+      "wikiSlug": "Manila"
+    },
+    {
+      "matchText": "Patricia Sieber",
+      "term": "Patricia Sieber",
+      "definition": "A contemporary American scholar of Chinese literature whose work on late-Ming and early Chinese vernacular fiction argues for reading novels like Plum in the Golden Vase as foundational works of world literature rather than mere local curiosities."
+    },
+    {
+      "matchText": "Elizabethan and Jacobean",
+      "term": "Elizabethan and Jacobean",
+      "definition": "The back-to-back golden ages of English drama and poetry under Queen Elizabeth I (reigned 1558–1603) and her successor James I (the Jacobean era, 1603–1625) — the decades that produced Shakespeare and ran almost exactly parallel to the late-Ming literary peak."
     }
   ],
   "8": [
@@ -752,6 +1824,256 @@
       "matchText": "Mandate of Heaven",
       "wikiSlug": "Mandate_of_Heaven",
       "type": "concept"
+    },
+    {
+      "matchText": "Yalu River",
+      "term": "Yalu River",
+      "wikiSlug": "Yalu_River"
+    },
+    {
+      "matchText": "Forbidden City",
+      "term": "Forbidden City",
+      "wikiSlug": "Forbidden_City"
+    },
+    {
+      "matchText": "Great Wall",
+      "term": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "matchText": "Pacific Ocean",
+      "term": "Pacific Ocean",
+      "wikiSlug": "Pacific_Ocean"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Matteo Ricci",
+      "term": "Matteo Ricci",
+      "wikiSlug": "Matteo_Ricci"
+    },
+    {
+      "matchText": "English Civil War",
+      "term": "English Civil War",
+      "wikiSlug": "English_Civil_War"
+    },
+    {
+      "matchText": "Shah Jahan",
+      "term": "Shah Jahan",
+      "wikiSlug": "Shah_Jahan"
+    },
+    {
+      "matchText": "Taj Mahal",
+      "term": "Taj Mahal",
+      "wikiSlug": "Taj_Mahal"
+    },
+    {
+      "matchText": "Taichang Emperor",
+      "term": "Taichang Emperor",
+      "wikiSlug": "Taichang_Emperor"
+    },
+    {
+      "matchText": "Shanhaiguan",
+      "term": "Shanhaiguan",
+      "wikiSlug": "Shanhai_Pass"
+    },
+    {
+      "matchText": "Eastern Depot",
+      "term": "Eastern Depot",
+      "wikiSlug": "Eastern_Depot"
+    },
+    {
+      "matchText": "Donglin Society",
+      "term": "Donglin Society",
+      "wikiSlug": "Donglin_movement"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucian",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Zhu Youjian",
+      "term": "Zhu Youjian",
+      "wikiSlug": "Chongzhen_Emperor"
+    },
+    {
+      "matchText": "Han Chinese",
+      "term": "Han Chinese",
+      "wikiSlug": "Han_Chinese"
+    },
+    {
+      "matchText": "Liaoning",
+      "term": "Liaoning",
+      "wikiSlug": "Liaoning"
+    },
+    {
+      "matchText": "Dashun",
+      "term": "Dashun",
+      "wikiSlug": "Shun_dynasty"
+    },
+    {
+      "matchText": "Cultural Revolution",
+      "term": "Cultural Revolution",
+      "wikiSlug": "Cultural_Revolution"
+    },
+    {
+      "matchText": "Chen Yuanyuan",
+      "term": "Chen Yuanyuan",
+      "wikiSlug": "Chen_Yuanyuan"
+    },
+    {
+      "matchText": "Yunnan",
+      "term": "Yunnan",
+      "wikiSlug": "Yunnan"
+    },
+    {
+      "matchText": "Nanjing",
+      "term": "Nanjing",
+      "wikiSlug": "Nanjing"
+    },
+    {
+      "matchText": "Dodo",
+      "term": "Dodo",
+      "wikiSlug": "Dodo_(prince)"
+    },
+    {
+      "matchText": "Guangxi",
+      "term": "Guangxi",
+      "wikiSlug": "Guangxi"
+    },
+    {
+      "matchText": "Taiwan",
+      "term": "Taiwan",
+      "wikiSlug": "Taiwan"
+    },
+    {
+      "matchText": "Kingdom of Tungning",
+      "term": "Kingdom of Tungning",
+      "wikiSlug": "Kingdom_of_Tungning"
+    },
+    {
+      "matchText": "Temple of Heaven",
+      "term": "Temple of Heaven",
+      "wikiSlug": "Temple_of_Heaven"
+    },
+    {
+      "matchText": "Yongle",
+      "term": "Yongle",
+      "wikiSlug": "Yongle_Emperor"
+    },
+    {
+      "matchText": "People's Republic",
+      "term": "People's Republic",
+      "wikiSlug": "China"
+    },
+    {
+      "matchText": "Journey to the West",
+      "term": "Journey to the West",
+      "wikiSlug": "Journey_to_the_West"
+    },
+    {
+      "matchText": "Yongzheng",
+      "term": "Yongzheng",
+      "wikiSlug": "Yongzheng_Emperor"
+    },
+    {
+      "matchText": "Qianlong",
+      "term": "Qianlong",
+      "wikiSlug": "Qianlong_Emperor"
+    },
+    {
+      "matchText": "Hongwu",
+      "term": "Hongwu",
+      "wikiSlug": "Hongwu_Emperor"
+    },
+    {
+      "matchText": "Ming Tombs",
+      "term": "Ming Tombs",
+      "wikiSlug": "Ming_tombs"
+    },
+    {
+      "matchText": "Zhou",
+      "term": "Zhou",
+      "wikiSlug": "Zhou_dynasty"
+    },
+    {
+      "matchText": "Zheng He",
+      "term": "Zheng He",
+      "wikiSlug": "Zheng_He"
+    },
+    {
+      "matchText": "Jingdezhen",
+      "term": "Jingdezhen",
+      "wikiSlug": "Jingdezhen"
+    },
+    {
+      "matchText": "Charles I",
+      "term": "Charles I",
+      "wikiSlug": "Charles_I_of_England"
+    },
+    {
+      "matchText": "Thirty Years' War",
+      "term": "Thirty Years' War",
+      "wikiSlug": "Thirty_Years%27_War"
+    },
+    {
+      "matchText": "Hongguang regime",
+      "term": "Hongguang regime",
+      "wikiSlug": "Hongguang_Emperor"
+    },
+    {
+      "matchText": "Longwu regime",
+      "term": "Longwu regime",
+      "wikiSlug": "Longwu_Emperor"
+    },
+    {
+      "matchText": "Yongli regime",
+      "term": "Yongli regime",
+      "wikiSlug": "Yongli_Emperor"
+    },
+    {
+      "matchText": "Zheng Chenggong",
+      "term": "Zheng Chenggong",
+      "wikiSlug": "Koxinga"
+    },
+    {
+      "matchText": "Russian tsardom",
+      "term": "Russian tsardom",
+      "wikiSlug": "Tsardom_of_Russia"
+    },
+    {
+      "matchText": "Directorate of Ceremonial",
+      "term": "Directorate of Ceremonial",
+      "definition": "The top eunuch agency of the Ming palace bureaucracy. Whoever controlled it controlled the flow of documents to and from the throne — which is why ambitious eunuchs like Wei Zhongxian fought to run it."
+    },
+    {
+      "matchText": "Manchu confederation",
+      "term": "Manchu confederation",
+      "definition": "The unified alliance of Jurchen (later Manchu) tribes that Nurhaci forged in the early 1600s out of the fragmented frontier clans of the northeast. Organized under the Eight Banners, it became the military machine that would topple the Ming and found the Qing."
+    },
+    {
+      "matchText": "Liaodong army",
+      "term": "Liaodong army",
+      "definition": "The main surviving Ming field force, garrisoned at Shanhaiguan under general Wu Sangui to hold the Manchu frontier. Its commander's defection — opening the pass to the Manchus in 1644 — decided the fate of the dynasty."
+    },
+    {
+      "matchText": "Ming porcelain",
+      "term": "Ming porcelain",
+      "definition": "The blue-and-white ceramics produced at Jingdezhen during the Ming, painted with cobalt under a clear glaze. For four centuries it has been the visual style most associated with Chinese ceramic art worldwide."
+    },
+    {
+      "matchText": "Ming-Qing",
+      "term": "Ming-Qing transition",
+      "definition": "The violent decades-long handover of power from the Ming to the Manchu Qing, conventionally dated to 1644 (the fall of Beijing) but really stretching from Nurhaci's rise around 1616 to the final defeat of Southern Ming resistance in the 1660s."
+    },
+    {
+      "matchText": "Wanli",
+      "term": "Wanli",
+      "wikiSlug": "Wanli_Emperor"
     }
   ]
 }
