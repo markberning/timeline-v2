@@ -46,7 +46,7 @@ const TL_META: Record<string, { size: CardSize; date: string; palette: [string, 
   pickett: { size: 'xl', date: 'Jul 3', palette: ['#7a1422', '#3a1208', '#0a0606'] },
   aftermath: { size: 'm', date: 'Jul →', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
 }
-const SECTION_HREF = '/war-pilot-preview' // standalone reader stand-in for now
+const sectionHref = (id: string) => `/war-civil-war/eastern/gettysburg/s/${id}`
 const num = (n: number) => n.toLocaleString('en-US')
 
 // Self-hosted public-domain images per section. Card images are PHOTOS/art
@@ -336,7 +336,7 @@ function SectionsList() {
       <div style={{ position: 'relative', marginTop: 12 }}>
         <div style={{ position: 'absolute', left: 13, top: 8, bottom: 8, width: 1, background: 'color-mix(in srgb, var(--foreground) 18%, transparent)' }} />
         {SECTIONS.map((s, i) => (
-          <a key={s.id} href={SECTION_HREF} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+          <a key={s.id} href={sectionHref(s.id)} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
             <div style={{ position: 'relative', paddingLeft: 40, paddingBottom: 14 }}>
               <div style={{ position: 'absolute', left: 0, top: 2, width: 27, height: 27, borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SANS, fontSize: 12, fontWeight: 700, background: i === 0 ? ACCENT : 'var(--background)', color: i === 0 ? '#fff' : 'color-mix(in srgb, var(--foreground) 60%, transparent)', border: `1px solid ${i === 0 ? ACCENT : 'color-mix(in srgb, var(--foreground) 25%, transparent)'}`, zIndex: 1 }}>{i + 1}</div>
               <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
@@ -381,7 +381,7 @@ export default function GettysburgPage() {
             <CordTimeline>
               {SECTIONS.map(s => {
                 const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={SECTION_HREF} />
+                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} />
               })}
             </CordTimeline>
           </div>
