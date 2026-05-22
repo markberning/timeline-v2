@@ -23,8 +23,8 @@ const HERO_IMG = 'https://commons.wikimedia.org/wiki/Special:FilePath/Thure%20de
 const HERO_PAL = ['#3a2a1c', '#7a1422', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Army of the Potomac', size: '93,921', commander: 'Maj. Gen. G. G. Meade', motto: 'Three days from command', color: ACCENTS.blue },
-  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '71,699', commander: 'Gen. R. E. Lee', motto: 'Second invasion of the North', color: ACCENTS.rust },
+  { side: 'Union', label: 'Army of the Potomac', size: '93,921', commander: 'Maj. Gen. George G. Meade', note: 'Newly in command — Meade took over the army just three days before the battle.', color: ACCENTS.blue },
+  { side: 'Confederacy', label: 'Army of Northern Virginia', size: '71,699', commander: 'Gen. Robert E. Lee', note: 'On the offensive — Lee’s second and deepest invasion of the North.', color: ACCENTS.rust },
 ]
 const CAS = { union: 23055, csa: 28063, civ: 1 }
 const FIGURES = [
@@ -116,8 +116,9 @@ function AtAGlance() {
               <div key={a.side} style={{ flex: 1, textAlign: i ? 'right' : 'left', paddingRight: i ? 0 : 18, paddingLeft: i ? 18 : 0 }}>
                 <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: a.color }}>{a.side}</div>
                 <div style={{ fontFamily: SERIF, fontSize: 15, marginTop: 2 }}>{a.label}</div>
-                <div style={{ fontFamily: SANS, fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 3 }}>{a.size} · {a.commander}</div>
-                <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)', marginTop: 3 }}>{a.motto}</div>
+                <div style={{ fontFamily: SANS, fontSize: 12.5, marginTop: 3 }}><strong style={{ fontWeight: 600 }}>{a.size}</strong> <span style={{ color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>troops</span></div>
+                <div style={{ fontFamily: SANS, fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 1 }}>{a.commander}</div>
+                <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.4, color: 'color-mix(in srgb, var(--foreground) 60%, transparent)', marginTop: 5 }}>{a.note}</div>
               </div>
             ))}
             <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%,-50%)', width: 26, height: 26, borderRadius: 999, background: 'var(--background)', border: '1px solid color-mix(in srgb, var(--foreground) 20%, transparent)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>vs</div>
@@ -344,9 +345,9 @@ export default function GettysburgPage() {
         {view === 'dossier' ? (
           <>
             <AtAGlance />
+            <CommandersStrip />
             <OutcomePill />
             <Fishhook />
-            <CommandersStrip />
             <SectionsList />
           </>
         ) : (
