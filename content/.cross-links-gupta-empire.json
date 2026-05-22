@@ -47,6 +47,60 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 5,
       "blurb": "Nagarjuna's Madhyamaka philosophy — developed in the post-Maurya period — was the foundation on which Gupta-era Buddhist thinkers like Asanga and Vasubandhu built their Yogacara synthesis. The great Buddhist philosophical school of the Gupta age was in direct dialogue with Nagarjuna's logic, even as Yogacara reached conclusions Nagarjuna had not."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the late Vedic age: a prince of the Shakya clan walked away from his kingdom and became the Buddha, launching a movement that would outgrow the Brahmanical order around it."
+    },
+    {
+      "matchText": "Mahabharata",
+      "targetTl": "vedic-period",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Vedic world: the war story that became the Mahabharata — India's vast national epic, 'the great story of the Bharatas' — took shape out of the rituals and rivalries of the early Indo-Aryan tribes."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, more than a millennium later in Ming China: Admiral Zheng He's treasure fleets crossed the same Indian Ocean in seven gigantic expeditions, reaching India, Arabia, and the East African coast."
+    },
+    {
+      "matchText": "Indus",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, two thousand years earlier on the same river: the Indus Valley civilization built the subcontinent's first cities — Harappa and Mohenjo-daro — long before any of the dynasties fighting over the northwest."
+    },
+    {
+      "matchText": "Scythians",
+      "targetTl": "scythians",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Eurasian steppe: the Scythians were the mounted nomad world that Greek and Roman writers named — the same horse-peoples whose Saka cousins pushed south into India."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, centuries later in Japan: Buddhism's arrival from Korea touched off a court crisis, pitting the pro-Buddhist Soga clan against rivals who saw the foreign faith as a threat to the native gods."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Iran: Ardashir I overthrew the Parthians in 224 CE and founded the Sasanian Empire, the aggressive new Persian power whose pressure helped shatter the Kushans on India's northwest frontier."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, far earlier: Sanskrit began as the language of the Rigveda's hymns, transmitted orally by Brahmin chanters for a thousand years before it became the prestige tongue the Guptas would patronize."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on Rome's northern frontier: the Germanic tribes were the warrior peoples whose incursions, alongside Persian invasion, helped drive the Crisis of the Third Century that nearly broke the Roman Empire."
     }
   ],
   "2": [
@@ -73,6 +127,54 @@
       "targetTl": "maurya-empire",
       "targetChapter": 7,
       "blurb": "Samudragupta's Allahabad pillar deliberately echoed Ashoka's pillars — a new conqueror inscribing himself onto the Mauryan monument to claim the imperial mantle."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, twelve centuries later, the Mughals would build their own North Indian empire — and Akbar's fort would rise over this very Gupta-and-Ashoka pillar."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Akbar the Great, the Mughal emperor who built the Allahabad fort around this pillar, was India's next great consolidator after the Guptas."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Sanskrit, the sacred language Harishena used for his victory panegyric, was first crystallized a millennium earlier in the hymns of the Vedic age."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China, the Tang would run a near-identical tribute-network empire of subordinate client kings — strong while the center held, fragile the moment it weakened."
+    },
+    {
+      "matchText": "Pallava",
+      "targetTl": "medieval-india",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the deep south, the Pallava kingdom near modern Madras marked the far reach of Samudragupta's march — and would later flower into a great temple-building power."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "The Indian Ocean trade routes that carried Roman gold to the Guptas would, a thousand years later, carry Zheng He's vast Ming treasure fleet across the same waters."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile to the west, the Roman Empire whose denarius lent its name to the Gupta dinara was locked in its long contest with Parthian Persia."
+    },
+    {
+      "matchText": "Ancient Rome",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Rome, the imperial denarius — the coin the Gupta dinara was named for — was the standard money of Augustus's empire."
     }
   ],
   "3": [
@@ -105,6 +207,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 7,
       "blurb": "The Roman Empire's centuries-long silver drain into India — documented by Pliny the Elder's complaint that 50 million sesterces per year went east for spices and luxury goods — was one of the economic pressures on the late Roman economy. From the Indian side, that same bullion flow was what made the Arabian Sea ports worth conquering and helped fund the Gupta golden age."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Vedic period: Sanskrit began as the sacred tongue of the Rigvedic hymns, the language the priests chanted into the fire centuries before the Guptas made it the polish of empire."
+    },
+    {
+      "matchText": "Delhi Sultanate",
+      "targetTl": "delhi-sultanate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Delhi Sultanate: around 1192 CE the new Muslim rulers raised the Quwwat-ul-Islam mosque and Qutb Minar on the ruins of older Hindu temples — and left the Gupta-era Iron Pillar standing where they found it."
     }
   ],
   "4": [
@@ -149,6 +263,54 @@
       "targetTl": "ancient-rome",
       "targetChapter": 6,
       "blurb": "Pliny the Elder's complaint that Rome was hemorrhaging silver to India — writing in the 1st century CE — documents the Indian Ocean trade that made the western ports so strategically valuable. The Roman bullion that flowed through Bharuch and the other Kshatrapa ports was the same revenue stream Chandragupta II seized when he conquered the Western Kshatrapas around 409 CE."
+    },
+    {
+      "matchText": "Shungas",
+      "targetTl": "post-maurya-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the post-Maurya age: a general's coup founded the Shunga dynasty, which began the long shift back toward Sanskrit and Brahminical court culture that the Guptas would complete."
+    },
+    {
+      "matchText": "Hephthalites",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the same Hephthalites (White Huns) who battered the Guptas pressed west and clashed with the Sassanid king Khosrow I on the empire's eastern frontier."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Rome: under Augustus, Latin came into its own as a literary language, with Virgil's Aeneid setting the canonical standard the way Sanskrit poets now looked to Kalidasa."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: a golden Buddha gift from Korea in 538 introduced Buddhism to the Yamato court and split it into a generation-long religious civil war."
+    },
+    {
+      "matchText": "Virgil",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Rome: Virgil, patronized at the court of Augustus, wrote the Aeneid as Rome's national epic — the cultural anchor for Latin that Kalidasa's Raghuvamsa became for Sanskrit."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the earlier Maurya age: Ashoka carved his famous rock edicts across the subcontinent — official inscriptions, not literature, in the centuries before the Sanskrit court culture the Guptas would build."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile a thousand years later in Ming China: Admiral Zheng He's treasure fleets crossed the same Indian Ocean that fed Gupta ports with Roman silver, reaching as far as East Africa."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile a thousand years later: Babur founded the Mughal Empire, whose courtly cultural template inherited much from the model the Guptas had first built."
     }
   ],
   "5": [
@@ -199,6 +361,84 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "The Sasanian Empire had been fighting the Hephthalites on its own eastern frontier since the 420s CE — the same threat the Guptas now faced from the other side. The Sasanian-Hephthalite conflicts and the Gupta-Hephthalite conflicts were two faces of the same Central Asian pressure on the settled civilizations of Eurasia's middle tier."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Mesopotamia: Babylonian scribes ran a base-60 place-value system more than a thousand years before the Gupta-era decimal one."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Mesoamerica: the Maya invented their own place-value system in base 20, complete with a symbol for zero, entirely independently of India."
+    },
+    {
+      "matchText": "Maurya",
+      "targetTl": "maurya-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Maurya Empire: the Brahmi numerals — the ancestors of the digit-shapes the Gupta mathematicians would systematize — were already in use centuries earlier."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Rome: the 5th-century empire was fragmenting under Germanic pressure, its mathematics still leaning on Greek sources two centuries old."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Islamic Golden Age: al-Khwarizmi's synthesis of the Indian decimal tradition produced algebra and the word \"algorithm.\""
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy: the Renaissance would later receive Indian surgical and mathematical knowledge filtered through Arabic manuscripts."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the north: the Germanic peoples whose migrations were dismantling Rome stood at the opposite intellectual pole from Gupta India."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Ming China: Zheng He's treasure fleets would later cross the same Indian Ocean trade routes that carried Gupta wootz steel west."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Persia: the Gulf trade lanes that funneled Indian steel toward Damascus stayed a commercial artery into the Safavid age."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far in the future: European steelmaking would not match Gupta-era Indian crucible steel until the Industrial Revolution."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, a thousand years later: the Mughals would mint the only Indian coinage to rival the technical refinement of the Gupta gold dinaras."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, in the deep past: Vedic astronomy computed lunar and solar calendars to time fire sacrifices, seeding the tradition Aryabhata inherited."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Abbasid Baghdad: the new capital became the western terminus of the path that carried Indian decimal mathematics out of Pataliputra."
     }
   ],
   "6": [
@@ -213,6 +453,60 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 6,
       "blurb": "The Satavahana-period rock-cut chaityas at Karle and Bhaja — excavated in the post-Maurya centuries — were the architectural predecessors of the Gupta-age Buddhist cave temples at Ajanta and Ellora. The tradition of carving elaborate worship halls into cliff faces, begun under the Satavahanas, reached its visual peak under the Vakatakas who were the Guptas' closest southern allies."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the late Vedic age: the prince Siddhartha Gautama became the Buddha, one of the renouncer-teachers who broke with Brahmin ritual authority."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile six centuries earlier: the Maurya emperor Ashoka embraced Buddhism after Kalinga and set the South Asian model of a religiously plural state the Guptas would inherit."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile far earlier: Sanskrit took shape as the sacred language of the Rigveda's hymns, transmitted orally for centuries before it became the Guptas' courtly lingua franca."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile centuries later in Japan: Buddhism arrived as a gift from the Korean kingdom of Baekje and touched off a court crisis over whether to adopt the foreign religion."
+    },
+    {
+      "matchText": "Tibetan Buddhism",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile centuries later: Kublai Khan made Tibetan Buddhism the favored faith of the Mongol Yuan court, carrying the tradition rooted in Yogacara thought across Asia."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile at the other end of Eurasia: Constantinople was the surviving Roman capital, its cathedral school teaching a handful of students while Nalanda taught thousands."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile a millennium later: Ming China's admiral Zheng He sailed treasure fleets across the same Indian Ocean whose trade revenue had once funded Gupta temples."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile a thousand years later: the Ming dynasty founded by Hongwu rebuilt a native Chinese empire after Mongol rule."
+    },
+    {
+      "matchText": "Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in classical Athens: Plato founded the Academy, the West's first institution of higher learning, the philosopher Faxian's pilgrimage is implicitly compared to going back to read."
     }
   ],
   "7": [
@@ -245,6 +539,60 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "The Hephthalite 'White Huns' who battered the Guptas were the same power pressing Sassanid Persia's eastern frontier — one nomad surge, two empires bled."
+    },
+    {
+      "matchText": "Post-Maurya Kingdoms Ch 1",
+      "targetTl": "post-maurya-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the post-Maurya centuries: the wave of Central Asian peoples — Sakas, Yuezhi, Kushans — who poured into India through the northwestern passes long before the Hunas took the same road."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Vedic age: the deep roots of Sanskrit, the sacred and literary language whose conventions the Gupta court — and even Hunnic conquerors like Toramana — would adopt wholesale."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sasanian Empire, the great Iranian power whose eastern frontier the Hephthalites battered for decades before they turned the same pressure onto Gupta India."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile at the western end of the steppe world: the Roman Empire, Persia's perennial rival, facing its own Hunnic storm as Attila's confederation pressed in from the east."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the West: the dying Western Roman Empire, which — unlike the Guptas — could not absorb the blow when Attila's branch of the Hunnic migration arrived, and disintegrated within a generation."
+    },
+    {
+      "matchText": "Indus",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far upstream in deep time: the Indus, the great northwestern river whose valley had been India's gateway for invaders since the Bronze Age cities of Harappa and Mohenjo-daro."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, six centuries earlier: the Maurya emperor Ashoka, whose edicts were carved on the very Junagadh rock that Skandagupta later reused — the Guptas consciously claiming his empire-building mantle."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, on the far side of Asia: Buddhism — the faith Mihirakula was accused of butchering — was at this same time taking root in the islands of Japan."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, a millennium later on the same waters: the Indian Ocean that the merchant Cosmas sailed would carry the Ming treasure fleets of Zheng He across to India and Africa."
     }
   ],
   "8": [
@@ -307,6 +655,48 @@
       "targetTl": "maurya-empire",
       "targetChapter": 6,
       "blurb": "Ashoka's Buddhist missions to Sri Lanka, the Greek kingdoms, and Southeast Asia in the 3rd century BCE were the first wave of Indian cultural export. The Gupta-age Indianization of Southeast Asia — the second, more durable wave — built on the trading networks and Buddhist institutional presence that Ashoka's missions had established two centuries earlier."
+    },
+    {
+      "matchText": "Xuanzang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Tang China: the monk Xuanzang made his famous overland pilgrimage to India in the 7th century, studied at Nalanda, and brought home a vast cargo of Buddhist texts — his travelogue is one of our best outside sources on late-Gupta-era India."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, a thousand years later: the Mughals would build the next great pan-North-Indian empire from 1526, reuniting much of the territory that had splintered after the Guptas."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in India's deep past: the historical Buddha had emerged from the late-Vedic ferment around 500 BCE — by the Gupta age he had been folded into the Hindu fold as the ninth avatar of Vishnu."
+    },
+    {
+      "matchText": "Mahabharata",
+      "targetTl": "vedic-period",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, centuries earlier: the Mahabharata's Kuru-war kernel took shape in the Late Vedic period before swelling into the world's longest epic, reaching its final form right around the Gupta age."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang dynasty (618–907) presided over its own classical flowering of poetry, cosmopolitan cities, and Buddhist scholarship — China's analogue to the Gupta golden age."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China: the Song dynasty (960–1279) carried the classical Chinese flowering forward with printing, commerce, and Neo-Confucian thought."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate (from 750) anchored its own golden age in Baghdad, where Indian decimal mathematics — Aryabhata's place-value system — was absorbed and transmitted onward to Europe."
     }
   ]
 }

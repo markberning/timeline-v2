@@ -1,0 +1,353 @@
+# link-suggest — gupta-empire
+
+{"CROSS":77,"REUSE":119,"SKIP":41,"NO-PAGE":44,"LINK-CANDIDATE":51}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×7)
+- **Bhagavad Gita** → REUSE `Bhagavad_Gita` [high] — _Bhagavad Gita_: The Bhagavad Gita (; Sanskrit: भगवद्गीता, IPA: [ˌbʱɐɡɐʋɐd ˈɡiːtaː], romanized: bhagavad-gītā, lit. 'God's song  (linked in 3 civ(s) (e.g. medieval-india) ×6)
+- **Mahabharata** → CROSS → `vedic-period`  (cross-linked elsewhere ×2)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×8)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 3 civ(s) (e.g. medieval-india) ×9 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- **Ayurvedic** → REUSE `Ayurveda` [high] — _Ayurveda_: Ayurveda (; IAST: āyurveda) is an alternative medicine system with historical roots in the Indian subcontinent  (linked in 1 civ(s) (e.g. vedic-period) ×2)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 5 civ(s) (e.g. delhi-sultanate) ×16)
+- **Vidisha** → REUSE `Vidisha` [high] — _Vidisha_: Vidisha (formerly known as Bhelsa, Besnagar and Bhaddalpur in ancient times) is a Jain pilgrimage centre, loca  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 6 civ(s) (e.g. late-medieval-europe) ×13 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Indus** → CROSS → `indus-valley`  (cross-linked elsewhere ×5)
+- Punjab → SKIP (modern locator, cat A)
+- **Chandragupta Maurya** → REUSE `Chandragupta_Maurya` [high] — _Chandragupta Maurya_: Chandragupta Maurya (reigned c. 320 BCE – c. 298 BCE) was the founder and the first emperor of the Maurya Empi  (linked in 3 civ(s) (e.g. post-maurya-kingdoms) ×5)
+- **Alexander** → REUSE `Alexander_the_Great` [high] — _Alexander the Great_: Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323  (linked in 6 civ(s) (e.g. assyrian-empire) ×16)
+- *** Greek-speaking** → NO-PAGE → blurb (top hit "Greek-speaking Muslims" is a disambiguation page)
+- **Bactria** → REUSE `Bactria` [high] — _Bactria_: Bactria (; Bactrian: βαχλο, Bakhlo), or Bactriana, was an ancient Iranian civilization in Central Asia, locate  (linked in 7 civ(s) (e.g. gokturk-khaganate) ×16)
+- **Iranian-speaking** → REUSE `Iranian_peoples` [CONFIRM-homonym] — _Iranian peoples_: Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their na  (linked in 5 civ(s) (e.g. gokturk-khaganate) ×11 — ⚠ AMBIGUOUS: also Iranian_languages(post-maurya-kingdoms))
+- Central Asia → SKIP (modern locator, cat A)
+- **Scythians** → CROSS → `scythians`  (cross-linked elsewhere ×9)
+- Afghanistan → SKIP (modern locator, cat A)
+- Pakistan → SKIP (modern locator, cat A)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×7)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Western Satraps** → REUSE `Western_Satraps` [high] — _Western Satraps_: The Western Satraps, or Western Kshatrapas (Brahmi: , Mahakṣatrapa, "Great Satraps") were Indo-Scythian (Saka)  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×3)
+- **Malwa** → REUSE `Malwa` [CONFIRM-homonym] — _Malwa_: Malwa (IPA: [maːlʋaː]) is a historical region of west-central India occupying a plateau of volcanic origin. Ge  (linked in 4 civ(s) (e.g. medieval-india) ×16 — ⚠ AMBIGUOUS: also Mandu,_Madhya_Pradesh(delhi-sultanate))
+- **Konkan** → `Konkan` [high] — _Konkan_: The Konkan is a stretch of land by the western coast of India, bound by the river Daman Ganga at Damaon in the north, to
+- **Arabian Sea** → REUSE `Arabian_Sea` [high] — _Arabian Sea_: The Arabian Sea (Arabic: بَحرُ ٱلْعَرَبْ, romanized: baḥr al-ʿarab) is a region of sea in the northern Indian   (linked in 3 civ(s) (e.g. indus-valley) ×10)
+- Maharashtra → SKIP (modern locator, cat A)
+- **Brahmins** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 3 civ(s) (e.g. indus-valley) ×4)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×4)
+- **Germanic** → CROSS → `germanic-tribes`  (cross-linked elsewhere ×6)
+- **Valerian** → REUSE `Valerian_(emperor)` [high] — _Valerian (emperor)_: Valerian ( və-LEER-ee-ən; Latin: Publius Licinius Valerianus; c. 199 – 260 or 264) was Roman emperor from 253   (linked in 4 civ(s) (e.g. ancient-rome) ×7)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+- **Shakya** → REUSE `Shakya` [high] — _Shakya_: Shakya (Pāḷi: Sakya; Sanskrit: Śākya) was an ancient Indo-Aryan tribe of north-eastern South Asia whose existe  (linked in 1 civ(s) (e.g. vedic-period) ×2)
+- Bengal → SKIP (modern locator, cat A)
+
+## Chapter 2
+- **Gupta Empire** → CROSS → `gupta-empire`  (cross-linked elsewhere ×16)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×8)
+- **Akbar** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×11)
+- **Samudragupta** → REUSE `Samudragupta` [high] — _Samudragupta_: Samudragupta (Gupta script: Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient I  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 5 civ(s) (e.g. indus-valley) ×14)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×4)
+- **Kalinga War** → `Kalinga_War` [high] — _Kalinga War_: The Kalinga War (ended c. 261 BCE) was fought in ancient India between the Mauryan Empire under Ashoka the Great and Kal
+- **Kalinga** → REUSE `Kalinga_(historical_region)` [CONFIRM-homonym] — _Kalinga (region)_: Kalinga is a historical region of India. It is generally defined as the eastern coastal region between the Gan  (linked in 2 civ(s) (e.g. medieval-india) ×4 — ⚠ AMBIGUOUS: also Kalinga_(historical_kingdom)(maurya-empire))
+- Gupta → SKIP (own-name, cat B)
+- Punjab → SKIP (modern locator, cat A)
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 6 civ(s) (e.g. late-medieval-europe) ×13 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Magadha** → REUSE `Magadha` [high] — _Magadha_: Magadha (IPA: [məɡəd̪ʰaː]) was a region and kingdom in ancient India, based in the eastern Ganges Plain. It wa  (linked in 4 civ(s) (e.g. maurya-empire) ×10)
+- Guptas → SKIP (own-name, cat B)
+- **Tang-Song China** → CROSS → `tang-song-china`  (cross-linked elsewhere ×30)
+- **Shakas** → `Shaka` [high] — _Shaka_: Shaka kaSenzangakhona (c. 1787 – 24 September 1828), also known as Shaka (the) Zulu (Zulu pronunciation: [ˈʃaːɠa]) and S
+- **Murundas** → `Samudragupta` [low] — _Samudragupta_: Samudragupta (Gupta script: Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient India. As a
+- Sri Lanka → SKIP (modern locator, cat A)
+- **Pallava** → CROSS → `medieval-india`  (cross-linked elsewhere ×1)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×8)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×12)
+- **Ancient Rome** → CROSS → `ancient-rome`  (cross-linked elsewhere ×22)
+- **Vishnu** → REUSE `Vishnu` [high] — _Vishnu_: Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and  (linked in 4 civ(s) (e.g. delhi-sultanate) ×14)
+- **Sakas** → `Saka-saka` [high] — _Saka-saka_: Saka-saka is a 2013 Filipino action film co-written and directed by Toto Natividad. The film stars Ejay Falcon and Josep
+- **Ujjain** → REUSE `Ujjain` [high] — _Ujjain_: Ujjain (, Hindi pronunciation: [ʊ̯d͡ːʑæn] , [əʋən̪t̪ɪkaː]), also known as Ujjayini, is a city in Ujjain distri  (linked in 2 civ(s) (e.g. maurya-empire) ×6)
+
+## Chapter 3
+- **Samudragupta** → REUSE `Samudragupta` [high] — _Samudragupta_: Samudragupta (Gupta script: Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient I  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- Gupta → SKIP (own-name, cat B)
+- **Chandragupta Maurya** → REUSE `Chandragupta_Maurya` [high] — _Chandragupta Maurya_: Chandragupta Maurya (reigned c. 320 BCE – c. 298 BCE) was the founder and the first emperor of the Maurya Empi  (linked in 3 civ(s) (e.g. post-maurya-kingdoms) ×5)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×4)
+- **Devi** → REUSE `Devi` [high] — _Devi_: Devī (; Sanskrit: देवी) is the Sanskrit word for 'goddess'; the masculine form is Deva. Devi and Deva mean 'he  (linked in 2 civ(s) (e.g. delhi-sultanate) ×4)
+- **Saka** → `Saka` [med] — _Saka_: The Saka were a group of nomadic Eastern Iranian peoples who lived in the Eurasian Steppe and the Tarim Basin from the 9
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 5 civ(s) (e.g. delhi-sultanate) ×16)
+- **Gupta Empire** → CROSS → `gupta-empire`  (cross-linked elsewhere ×16)
+- **Sakas** → `Saka-saka` [high] — _Saka-saka_: Saka-saka is a 2013 Filipino action film co-written and directed by Toto Natividad. The film stars Ejay Falcon and Josep
+- Guptas → SKIP (own-name, cat B)
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 6 civ(s) (e.g. delhi-sultanate) ×16)
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 6 civ(s) (e.g. late-medieval-europe) ×13 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Delhi Sultanate** → CROSS → `delhi-sultanate`  (cross-linked elsewhere ×13)
+- **Vishnu** → REUSE `Vishnu` [high] — _Vishnu_: Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and  (linked in 4 civ(s) (e.g. delhi-sultanate) ×14)
+- **Chandra** → `Chandra` [high] — _Chandra_: Chandra (Sanskrit: चन्द्र, romanized: Chandra, lit. 'shining' or 'moon'), also known as Soma (Sanskrit: सोम), is the Hin
+- **Vahlikas** → `Bahlikas` [low] — _Bahlikas_: The Bahlikas (Sanskrit: बाह्लिक; Bāhlika) were the inhabitants of a location called Bahlika (Sanskrit: बह्लिक, located i
+- Madhya Pradesh → SKIP (modern locator, cat A)
+- **Varahamihira** → `Varāhamihira` [high] — _Varāhamihira_: Varāhamihira (c. 20/21 March 505 – c. 587), also called Varāha or Mihira, was an ancient Indian mathematician, astrologe
+- **Kalidasa** → `Kalidasa` [high] — _Kalidasa_: Kālidāsa (Sanskrit: कालिदास, "Servant of Kali"; 4th–5th century CE) was a Classical Sanskrit author who is often conside
+- **Kumaragupta I** → `Kumaragupta_I` [high] — _Kumaragupta I_: Kumaragupta I was Gupta emperor from 415 until his death in 455. A son of the Gupta king Chandragupta II and Queen Dhruv
+
+## Chapter 4
+- **Gupta Empire** → CROSS → `gupta-empire`  (cross-linked elsewhere ×16)
+- **Chandragupta II** → CROSS → `gupta-empire`  (cross-linked elsewhere ×1)
+- **Kumaragupta I** → `Kumaragupta_I` [high] — _Kumaragupta I_: Kumaragupta I was Gupta emperor from 415 until his death in 455. A son of the Gupta king Chandragupta II and Queen Dhruv
+- **Skandagupta** → REUSE `Skandagupta` [high] — _Skandagupta_: Skandagupta (Ska-nda-gu-pta, r. c. 455–467) was a Gupta Emperor who ruled in northern India. His Bhitari pilla  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Hephthalites** → CROSS → `persian-empire`  (cross-linked elsewhere ×1)
+- Gupta → SKIP (own-name, cat B)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×15)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×7)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 5 civ(s) (e.g. indus-valley) ×14)
+- Guptas → SKIP (own-name, cat B)
+- **Shungas** → `Shunga` [high] — _Shunga_: Shunga (春画) is a type of Japanese erotic art typically executed as a kind of ukiyo-e, often in woodblock print format. W
+- **Kali** → `Kali` [med] — _Kali_: Kali (; Sanskrit: काली, IAST: Kālī), also called Kalika, is a major goddess in Hinduism, primarily associated with time,
+- **Ujjain** → REUSE `Ujjain` [high] — _Ujjain_: Ujjain (, Hindi pronunciation: [ʊ̯d͡ːʑæn] , [əʋən̪t̪ɪkaː]), also known as Ujjayini, is a city in Ujjain distri  (linked in 2 civ(s) (e.g. maurya-empire) ×6)
+- Sri Lanka → SKIP (modern locator, cat A)
+- **Shakespeare** → REUSE `William_Shakespeare` [high] — _William Shakespeare_: William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely  (linked in 9 civ(s) (e.g. carthage) ×19)
+- **Virgil** → CROSS → `ancient-rome`  (cross-linked elsewhere ×2)
+- **Aeneid** → REUSE `Aeneid` [high] — _Aeneid_: The Aeneid ( ih-NEE-id; Latin: Aeneis [ae̯ˈneːɪs]) is a Latin epic poem that tells the legendary story of Aene  (linked in 5 civ(s) (e.g. ancient-rome) ×10)
+- **Dushyanta** → `Dushyanta` [high] — _Dushyanta_: Dushyanta (Sanskrit: दुष्यन्त, IAST: Duṣyanta) is a king of the Chandravamsha (Lunar) dynasty featured in Hindu literatu
+- **Calcutta** → REUSE `Kolkata` [high] — _Kolkata_: Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian   (linked in 3 civ(s) (e.g. maurya-empire) ×19)
+- **Malavikagnimitra** → `Mālavikāgnimitram` [high] — _Mālavikāgnimitram_: The Mālavikāgnimitram (Sanskrit: मालविकाग्निमित्रम्, translation : Mālavikā and Agnimitra) is a Sanskrit play by Kālidās
+- **Rama** → REUSE `Rama` [high] — _Rama_: Rama (; Sanskrit: राम, IAST: Rāma, Sanskrit: [ˈraːmɐ] ) is a major deity in Hinduism. He is worshipped as the   (linked in 3 civ(s) (e.g. delhi-sultanate) ×5)
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 6 civ(s) (e.g. delhi-sultanate) ×16)
+- **Himalayas** → REUSE `Himalayas` [high] — _Himalayas_: The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from   (linked in 6 civ(s) (e.g. ancient-china) ×11)
+- **Gupta-era** → `Gupta_era` [high] — _Gupta era_: The Gupta era is a historical calendar era that begins from c. 318–319 CE. It was used by the Gupta emperors, as well as
+- **Sudraka** → `Mṛcchakatika` [low] — _Mṛcchakatika_: Mṛcchakatika (Sanskrit: मृच्छकटिकम्, romanized: Mṛcchakaṭikam), also spelled Mṛcchakaṭikā, Mrchchhakatika, Mricchakatika
+- **Vishakhadatta** → `Vishakhadatta` [high] — _Vishakhadatta_: Vishakhadatta (Sanskrit: विशाखदत्त) was an Indian Sanskrit poet and playwright. Although Vishakhadatta furnishes the nam
+- **Chanakya** → REUSE `Chanakya` [high] — _Chanakya_: Chanakya (ISO: Cāṇakya, चाणक्य, ), according to legendary narratives preserved in various traditions dating fr  (linked in 1 civ(s) (e.g. vedic-period) ×4)
+- **Devichandraguptam** → `Devichandraguptam` [high] — _Devichandraguptam_: Devi-Chandraguptam (IAST: Devīcandraguptam) or Devi-Chandragupta is an Indian Sanskrit-language political drama attribut
+- **Pahlavi** → REUSE `Middle_Persian` [CONFIRM-homonym] — _Middle Persian_: Middle Persian, also known by its endonym Pārsīk or Pārsīg (Inscriptional Pahlavi script: 𐭯𐭠𐭫𐭮𐭩𐭪, Manich  (linked in 3 civ(s) (e.g. islamic-golden-age) ×9 — ⚠ AMBIGUOUS: also Pahlavi_dynasty(safavid-persia))
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 21 civ(s) (e.g. ancient-nubia) ×87 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Hebrew** → REUSE `Hebrew_language` [high] — _Hebrew language_: Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaa  (linked in 10 civ(s) (e.g. ancient-nubia) ×23)
+- **Ashoka** → CROSS → `maurya-empire`  (cross-linked elsewhere ×2)
+- **Kushans** → NO-PAGE → blurb (top hit "Kushan" is a disambiguation page)
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 4 civ(s) (e.g. maurya-empire) ×18)
+- Tamil Nadu → SKIP (modern locator, cat A)
+- Gujarat → SKIP (modern locator, cat A)
+- **Vakatakas** → REUSE `Vakataka_dynasty` [high] — _Vakataka dynasty_: The Vakataka dynasty (IAST: Vākāṭaka) was an ancient Indian dynasty that originated from the Deccan in the mid  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×8)
+- **Western Kshatrapas** → `Western_Satraps` [med] — _Western Satraps_: The Western Satraps, or Western Kshatrapas (Brahmi: , Mahakṣatrapa, "Great Satraps") were Indo-Scythian (Saka) rulers of
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×8)
+- **Mughals** → CROSS → `mughal-empire`  (cross-linked elsewhere ×10)
+
+## Chapter 5
+- Gupta → SKIP (own-name, cat B)
+- **Arab** → REUSE `Arabs` [high] — _Arabs_: Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A si  (linked in 15 civ(s) (e.g. byzantine-empire) ×50)
+- Earth → SKIP (generic common noun, cat C)
+- **Mesopotamia** → CROSS → `mesopotamia`  (cross-linked elsewhere ×80)
+- **Mesoamerica** → REUSE `Mesoamerica` [high] — _Mesoamerica_: Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern   (linked in 17 civ(s) (e.g. andean-kingdoms) ×54)
+- **Maya Civilization** → CROSS → `maya-civilization`  (cross-linked elsewhere ×13)
+- **Maurya** → CROSS → `maurya-empire`  (cross-linked elsewhere ×1)
+- **Gupta-era** → `Gupta_era` [high] — _Gupta era_: The Gupta era is a historical calendar era that begins from c. 318–319 CE. It was used by the Gupta emperors, as well as
+- **Pataliputra** → REUSE `Pataliputra` [high] — _Pataliputra_: Pataliputra (IAST: Pāṭaliputra), adjacent to modern-day Patna, Bihar, was a city in ancient India, originally   (linked in 3 civ(s) (e.g. maurya-empire) ×12)
+- **Moon** → `Moon` [med] — _Moon_: The Moon is the only natural satellite of Earth. It orbits around Earth at an average distance of 384,399 kilometers (23
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×15)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- *** High Middle Ages** → `High_Middle_Ages` [high] — _High Middle Ages_: The High Middle Ages, or High Medieval Period, was the period of European history between c. 1000 and c. 1300; it was pr
+- **Renaissance** → CROSS → `renaissance-italy`  (cross-linked elsewhere ×7)
+- **Germanic** → CROSS → `germanic-tribes`  (cross-linked elsewhere ×6)
+- **Ujjain** → REUSE `Ujjain` [high] — _Ujjain_: Ujjain (, Hindi pronunciation: [ʊ̯d͡ːʑæn] , [əʋən̪t̪ɪkaː]), also known as Ujjayini, is a city in Ujjain distri  (linked in 2 civ(s) (e.g. maurya-empire) ×6)
+- Guptas → SKIP (own-name, cat B)
+- **Romaka Siddhanta** → `Romaka_Siddhanta` [high] — _Romaka Siddhanta_: The Romaka Siddhanta (Sanskrit: रोमकसिद्धान्त, romanized: Romaka Siddhānta), literally "The Doctrine of the Romans", is 
+- **Paulisha Siddhanta** → `Siddhanta` [high] — _Siddhanta_: Siddhānta (Devanagari: सिद्धान्त lit. 'established end') is a Sanskrit term denoting the established and accepted view o
+- **Vasishtha Siddhanta** → `Vasishtha_Siddhanta` [high] — _Vasishtha Siddhanta_: Vasishtha Siddhanta is one of the earliest astronomical systems in use in India, which is summarized in Varahamihira's P
+- **Paitamaha Siddhanta** → `Siddhanta` [high] — _Siddhanta_: Siddhānta (Devanagari: सिद्धान्त lit. 'established end') is a Sanskrit term denoting the established and accepted view o
+- **Brihat Samhita** → `Samhita` [high] — _Samhita_: Samhita (IAST: Saṃhitā) literally means "put together, joined, union", a "collection", and "a methodical, rule-based com
+- **Charaka Samhita** → `Charaka_Samhita` [high] — _Charaka Samhita_: The Charaka Samhita (Sanskrit: चरक संहिता, romanized: Caraka-Saṃhitā, lit. 'Compendium of Charaka') is a Sanskrit text o
+- **Ayurvedic** → REUSE `Ayurveda` [high] — _Ayurveda_: Ayurveda (; IAST: āyurveda) is an alternative medicine system with historical roots in the Indian subcontinent  (linked in 1 civ(s) (e.g. vedic-period) ×2)
+- **Hippocrates** → REUSE `Hippocrates` [high] — _Hippocrates_: Hippocrates of Kos (; Ancient Greek: Ἱπποκράτης ὁ Κῷος, romanized: Hippokrátēs ho Kôios; c. 460 – c. 370 BC),   (linked in 4 civ(s) (e.g. high-medieval-europe) ×10)
+- **Galen** → REUSE `Galen` [high] — _Galen_: Aelius Galenus or Claudius Galenus (Greek: Κλαύδιος Γαληνός; September 129 – c. 216 CE), often anglicized as G  (linked in 6 civ(s) (e.g. al-andalus) ×17)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×8)
+- **Persian Gulf** → CROSS → `safavid-persia`  (cross-linked elsewhere ×12)
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 15 civ(s) (e.g. early-dynastic-egypt) ×34)
+- **Industrial Revolution** → CROSS → `industrial-revolution`  (cross-linked elsewhere ×16)
+- **Samudragupta** → REUSE `Samudragupta` [high] — _Samudragupta_: Samudragupta (Gupta script: Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient I  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Chandragupta II** → CROSS → `gupta-empire`  (cross-linked elsewhere ×1)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×8)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×4)
+- **Syriac** → REUSE `Syriac_language` [high] — _Syriac language_: The Syriac language ( SIRR-ee-ak; Classical Syriac: ܠܫܢܐ ܣܘܪܝܝܐ, romanized: Leššānā Suryāyā), also known nativ  (linked in 5 civ(s) (e.g. islamic-golden-age) ×11)
+- *** Iranian** → `Iranian_Revolution` [high] — _Iranian Revolution_: The Iranian Revolution, also known as the Islamic Revolution, culminated in the overthrow of the Pahlavi dynasty in 1979
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×34)
+- *** Khwarizmi** → `Al-Khwarizmi` [high] — _Al-Khwarizmi_: Muhammad ibn Musa al-Khwarizmi, or simply al-Khwarizmi (c. 780 – c. 850) was a mathematician active during the Islamic G
+- **asanna** → `Baldr` [low] — _Baldr_: Baldr (Old Norse also Balder, Baldur) is a god in Germanic mythology. In Norse mythology, he is a son of the god Odin an
+- **jaib** → `Aryabhata` [low] — _Aryabhata_: Aryabhata (Sanskrit: आर्यभट, IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathematician-astro
+- **Hindu astrology** → `Hindu_astrology` [high] — _Hindu astrology_: Hindu astrology, also called Indian astrology, jyotisha (Sanskrit: ज्योतिष, romanized: jyotiṣa; from jyót 'light, heaven
+
+## Chapter 6
+- Gupta → SKIP (own-name, cat B)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×7)
+- Odisha → SKIP (modern locator, cat A)
+- **Jain** → `Jain_vegetarianism` [med] — _Jain vegetarianism_: Jain vegetarianism is the mandatory, spiritually motivated diet practiced by the followers of Jainism. Rooted in the fou
+- **Vidisha** → REUSE `Vidisha` [high] — _Vidisha_: Vidisha (formerly known as Bhelsa, Besnagar and Bhaddalpur in ancient times) is a Jain pilgrimage centre, loca  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Chandragupta II** → CROSS → `gupta-empire`  (cross-linked elsewhere ×1)
+- **Deogarh** → `Dashavatara_Temple,_Deogarh` [high] — _Dashavatara Temple, Deogarh_: The Dashavatara Temple is an early 6th century Hindu temple located at Deogarh, Lalitpur district, Uttar Pradesh which i
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- **Vishnu Anantasayana** → `Anantashayana_Vishnu` [med] — _Anantashayana Vishnu_: Anantashayi Vishnu, also known as Anantashayana Vishnu (both literally "sleeping on the serpent Ananta"),And Garbhodaxyi
+- **Nara-Narayana** → `Nara-Narayana` [high] — _Nara-Narayana_: Naranarayana (Sanskrit: नरनारायण, romanized: Naranārāyaṇa), also rendered Nara-Narayana, are a pair of sage-brothers in 
+- **Gajendra-moksha** → `Gajendra_Moksha` [high] — _Gajendra Moksha_: Gajendra Mokṣaḥ (Sanskrit: गजेन्द्रमोक्षः) or The Liberation of Gajendra is a Puranic legend from the 8th Skandha of the
+- **Vaishnava** → REUSE `Vaishnavism` [high] — _Vaishnavism_: Vaishnavism (Sanskrit: वैष्णवसम्प्रदायः, romanised: Vaiṣṇavasampradāyaḥ), also called Vishnuism, is one of the  (linked in 1 civ(s) (e.g. medieval-india) ×1)
+- **Kumaragupta I** → `Kumaragupta_I` [high] — _Kumaragupta I_: Kumaragupta I was Gupta emperor from 415 until his death in 455. A son of the Gupta king Chandragupta II and Queen Dhruv
+- **Eran** → `Eran` [med] — _Eran_: Eran is an ancient town and archaeological site in the Sagar district of Madhya Pradesh, India. It was one of the ancien
+- Maharashtra → SKIP (modern locator, cat A)
+- **Vakatakas'** → `Vakataka_dynasty` [low] — _Vakataka dynasty_: The Vakataka dynasty (IAST: Vākāṭaka) was an ancient Indian dynasty that originated from the Deccan in the mid-3rd centu
+- Guptas → SKIP (own-name, cat B)
+- **Shaivite** → `Shaivism` [low] — _Shaivism_: Shaivism (; Sanskrit: शैवसंप्रदायः, romanised: Śaivasampradāyaḥ) is an umbrella-term for a number of Hindu religious tra
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 6 civ(s) (e.g. delhi-sultanate) ×16)
+- **Hinduism** → REUSE `Hinduism` [high] — _Hinduism_: Hinduism () is an umbrella term for a range of Indian religious and spiritual traditions (sampradayas) that ar  (linked in 6 civ(s) (e.g. delhi-sultanate) ×15)
+- **Ashoka** → CROSS → `maurya-empire`  (cross-linked elsewhere ×2)
+- **Mahakala** → `Mahakala` [high] — _Mahakala_: Mahākāla (Sanskrit: महाकाल, pronounced [mɐɦaːˈkaːlɐ]) is a deity common to Hinduism and Buddhism. In Buddhism, Mahākāla 
+- **Ujjain** → REUSE `Ujjain` [high] — _Ujjain_: Ujjain (, Hindi pronunciation: [ʊ̯d͡ːʑæn] , [əʋən̪t̪ɪkaː]), also known as Ujjayini, is a city in Ujjain distri  (linked in 2 civ(s) (e.g. maurya-empire) ×6)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×4)
+- **Mahadevi** → `Mahadevi` [high] — _Mahadevi_: Mahadevi (Sanskrit: महादेवी, IAST: Mahādevī), also referred to as Devi, Mahamaya and Adi Parashakti, is the supreme godd
+- **Great Goddess** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×7)
+- **Mahayana** → REUSE `Mahayana` [high] — _Mahayana_: Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions,  (linked in 8 civ(s) (e.g. heian-japan) ×16)
+- *** Indian Buddhism** → `Buddhism` [high] — _Buddhism_: Buddhism, also known as Buddhadharma and Dharmavinaya, is an Indian religion and philosophy based on teachings attribute
+- **Peshawar** → REUSE `Peshawar` [high] — _Peshawar_: Peshawar is the capital and largest city of the Pakistani province of Khyber Pakhtunkhwa. It is the eighth-mos  (linked in 2 civ(s) (e.g. medieval-india) ×4)
+- **Gandharan** → REUSE `Gandhara` [high] — _Gandhara_: Gandhara (Sanskrit: गन्धारः, romanized: Gandhāra) was an ancient Indo-Aryan civilisation located in present-da  (linked in 1 civ(s) (e.g. six-dynasties) ×1)
+- Pakistan → SKIP (modern locator, cat A)
+- **Mahayana Buddhism** → REUSE `Mahayana` [high] — _Mahayana_: Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions,  (linked in 4 civ(s) (e.g. majapahit) ×8)
+- **Yogacarabhumi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Vimshatika** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tibetan Buddhism** → CROSS → `mongol-empire`  (cross-linked elsewhere ×1)
+- **Nyaya** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Navya-Nyaya** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pataliputra** → REUSE `Pataliputra` [high] — _Pataliputra_: Pataliputra (IAST: Pāṭaliputra), adjacent to modern-day Patna, Bihar, was a city in ancient India, originally   (linked in 3 civ(s) (e.g. maurya-empire) ×12)
+- **Ratnasagara** → `Nalanda_mahavihara` [low] — _Nalanda mahavihara_: Nalanda (IAST: Nālandā, pronounced [naːlən̪d̪aː]) was a renowned Buddhist mahavihara (great monastery) in medieval Magad
+- **Ratnodadhi** → `Nalanda_mahavihara` [low] — _Nalanda mahavihara_: Nalanda (IAST: Nālandā, pronounced [naːlən̪d̪aː]) was a renowned Buddhist mahavihara (great monastery) in medieval Magad
+- **Ratnaranjaka** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×50)
+- **Bologna** → REUSE `Bologna` [CONFIRM-homonym] — _Bologna_: Bologna (Italian: [boˈloɲɲa] ) is the capital and largest city of the Emilia-Romagna region in northern Italy.  (linked in 3 civ(s) (e.g. early-medieval-europe) ×9 — ⚠ AMBIGUOUS: also University_of_Bologna(byzantine-empire))
+- **Paris** → REUSE `Paris` [CONFIRM-homonym] — _Paris_: Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area   (linked in 11 civ(s) (e.g. byzantine-empire) ×46 — ⚠ AMBIGUOUS: also University_of_Paris(high-medieval-europe), Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire))
+- **Oxford** → REUSE `University_of_Oxford` [CONFIRM-homonym] — _University of Oxford_: The University of Oxford is a collegiate research university in Oxford, England. There is evidence of teaching  (linked in 6 civ(s) (e.g. high-medieval-europe) ×12 — ⚠ AMBIGUOUS: also Oxford(viking-age))
+- *** Pala** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tibetan** → REUSE `Tibet` [CONFIRM-homonym] — _Tibet_: Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homel  (linked in 1 civ(s) (e.g. medieval-india) ×3 — ⚠ AMBIGUOUS: also Tibetan_Buddhism(yuan-dynasty))
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 4 civ(s) (e.g. maurya-empire) ×18)
+- Sri Lanka → SKIP (modern locator, cat A)
+- **Maitrakas** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Vallabhi** → REUSE `Vallabhi` [high] — _Vallabhi_: Vallabhi (or Valabhi or Valabhipur) is an ancient city located in the Saurashtra peninsula of Gujarat, near Bh  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Pallavas** → REUSE `Pallava_dynasty` [high] — _Pallava dynasty_: The Pallava dynasty existed from 275 to 897, ruling a significant portion of the Deccan, also known as Tondaim  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×8)
+- *** Sanskrit Buddhist** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Ming** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×17)
+- **Plato** → CROSS → `ancient-greece`  (cross-linked elsewhere ×6)
+- **Hindu Kush** → REUSE `Hindu_Kush` [high] — _Hindu Kush_: The Hindu Kush is an 800-kilometre-long (500 mi) mountain range in Central and South Asia to the west of the H  (linked in 11 civ(s) (e.g. elamite-civilization) ×24)
+- **Mathura** → REUSE `Mathura` [high] — _Mathura_: Mathura (Braj pronunciation: [mɐ.t̪ʰʊ.ɾäː] ) is a city and the administrative headquarters of Mathura district  (linked in 3 civ(s) (e.g. delhi-sultanate) ×8)
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 3 civ(s) (e.g. majapahit) ×6)
+- **Mahayanasutralankara** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Trimshika** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Patronage stability** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 7
+- **Chandragupta II** → CROSS → `gupta-empire`  (cross-linked elsewhere ×1)
+- **Kumara** → REUSE `Sweet_potato_cultivation_in_Polynesia` [high] — _Sweet potato cultivation in Polynesia_: Sweet potato cultivation in Polynesia as a crop began around 1000 AD in central Polynesia. The plant became a   (linked in 1 civ(s) (e.g. polynesian-voyagers) ×2)
+- **Kartikeya** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Post-Maurya Kingdoms Ch** → CROSS → `post-maurya-kingdoms`  (cross-linked elsewhere ×3)
+- **Samudragupta** → REUSE `Samudragupta` [high] — _Samudragupta_: Samudragupta (Gupta script: Sa-mu-dra-gu-pta; 318–375) was the second emperor of the Gupta Empire of ancient I  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Hunnic** → REUSE `Huns` [high] — _Huns_: The Huns were a nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and  (linked in 2 civ(s) (e.g. byzantine-empire) ×2)
+- **Hindu Kush** → REUSE `Hindu_Kush` [high] — _Hindu Kush_: The Hindu Kush is an 800-kilometre-long (500 mi) mountain range in Central and South Asia to the west of the H  (linked in 11 civ(s) (e.g. elamite-civilization) ×24)
+- **Iranian-speaking** → REUSE `Iranian_peoples` [CONFIRM-homonym] — _Iranian peoples_: Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their na  (linked in 5 civ(s) (e.g. gokturk-khaganate) ×11 — ⚠ AMBIGUOUS: also Iranian_languages(post-maurya-kingdoms))
+- **Mongolic** → REUSE `Mongolic_languages` [CONFIRM-homonym] — _Mongolic languages_: The Mongolic languages are a language family spoken by the Mongolic peoples in North Asia, East Asia, Central   (linked in 2 civ(s) (e.g. goryeo-korea) ×4 — ⚠ AMBIGUOUS: also Mongolic_peoples(xiongnu-huns))
+- **Turkic** → REUSE `Turkic_peoples` [high] — _Turkic peoples_: Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as par  (linked in 18 civ(s) (e.g. byzantine-empire) ×56)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×4)
+- **Sasanian** → CROSS → `persian-empire`  (cross-linked elsewhere ×7)
+- Central Asia → SKIP (modern locator, cat A)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×12)
+- *** Eurasia** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sasanian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×6)
+- **Kushans** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Indus** → CROSS → `indus-valley`  (cross-linked elsewhere ×5)
+- Gupta → SKIP (own-name, cat B)
+- Uttar Pradesh → SKIP (modern locator, cat A)
+- **Western Roman Empire** → CROSS → `ancient-rome`  (cross-linked elsewhere ×5)
+- Guptas → SKIP (own-name, cat B)
+- Gujarat → SKIP (modern locator, cat A)
+- **Ashoka** → CROSS → `maurya-empire`  (cross-linked elsewhere ×2)
+- **Western Kshatrapas** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Chandragupta Maurya** → REUSE `Chandragupta_Maurya` [high] — _Chandragupta Maurya_: Chandragupta Maurya (reigned c. 320 BCE – c. 298 BCE) was the founder and the first emperor of the Maurya Empi  (linked in 3 civ(s) (e.g. post-maurya-kingdoms) ×5)
+- **Kumaragupta II** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Vainyagupta** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Narasimhagupta Baladitya** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kumaragupta III** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 5 civ(s) (e.g. delhi-sultanate) ×16)
+- Afghanistan → SKIP (modern locator, cat A)
+- **Greeks** → REUSE `Greeks` [CONFIRM-homonym] — _Greeks_: The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece,   (linked in 7 civ(s) (e.g. byzantine-empire) ×34 — ⚠ AMBIGUOUS: also Ancient_Greece(hittite-empire))
+- *** Iranian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Tibetan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×7)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×8)
+- **Dharma** → REUSE `Dharma` [high] — _Dharma_: Dharma (; Sanskrit: धर्म, pronounced [dʱɐrmɐ] ) is a key concept in various Indian religions. The term dharma   (linked in 5 civ(s) (e.g. han-dynasty) ×10)
+- **Shaivite** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 6 civ(s) (e.g. delhi-sultanate) ×16)
+- Madhya Pradesh → SKIP (modern locator, cat A)
+- **Brahmaputra** → REUSE `Brahmaputra_River` [high] — _Brahmaputra River_: The Brahmaputra is a trans-boundary river which flows through Southwestern China, Northeastern India, and Bang  (linked in 1 civ(s) (e.g. ancient-china) ×2)
+- **Himalayas** → REUSE `Himalayas` [high] — _Himalayas_: The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from   (linked in 6 civ(s) (e.g. ancient-china) ×11)
+- **Kashmir** → REUSE `Kashmir` [high] — _Kashmir_: Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until th  (linked in 4 civ(s) (e.g. maurya-empire) ×18)
+- **Magadha** → REUSE `Magadha` [high] — _Magadha_: Magadha (IPA: [məɡəd̪ʰaː]) was a region and kingdom in ancient India, based in the eastern Ganges Plain. It wa  (linked in 4 civ(s) (e.g. maurya-empire) ×10)
+- **Vallabhi** → REUSE `Vallabhi` [high] — _Vallabhi_: Vallabhi (or Valabhi or Valabhipur) is an ancient city located in the Saurashtra peninsula of Gujarat, near Bh  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+
+## Chapter 8
+- Gupta → SKIP (own-name, cat B)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 5 civ(s) (e.g. delhi-sultanate) ×16)
+- **Magadha** → REUSE `Magadha` [high] — _Magadha_: Magadha (IPA: [məɡəd̪ʰaː]) was a region and kingdom in ancient India, based in the eastern Ganges Plain. It wa  (linked in 4 civ(s) (e.g. maurya-empire) ×10)
+- Bengal → SKIP (modern locator, cat A)
+- **Eran** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Vainyagupta** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Hunas** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mihirakula** → REUSE `Mihirakula` [high] — _Mihirakula_: Mihirakula (Gupta script: , Mi-hi-ra-ku-la, Chinese: 摩酰逻矩罗 Mo-hi-lo-kiu-lo), sometimes referred to as Mihiragu  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Xuanzang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- *** Hunnic** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Yashodharman** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mandasor** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kanauj** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Guptas → SKIP (own-name, cat B)
+- **Thanesar** → REUSE `Thanesar` [high] — _Thanesar_: Thanesar (IAST: Sthāṇvīśvara) is a historic city and Hindu pilgrimage centre in the Kurukshetra district of Ha  (linked in 1 civ(s) (e.g. medieval-india) ×4)
+- **Harshavardhana** → REUSE `Harsha` [high] — _Harsha_: Harshavardhana (Sanskrit: हर्षवर्धन; 4 June 590 – 647) was the emperor of Kannauj from April 606 until his dea  (linked in 1 civ(s) (e.g. medieval-india) ×1)
+- Gujarat → SKIP (modern locator, cat A)
+- **Nalanda** → REUSE `Nalanda_mahavihara` [CONFIRM-homonym] — _Nalanda mahavihara_: Nalanda (IAST: Nālandā, pronounced [naːlən̪d̪aː]) was a renowned Buddhist mahavihara (great monastery) in medi  (linked in 1 civ(s) (e.g. medieval-india) ×6 — ⚠ AMBIGUOUS: also Nalanda(srivijaya))
+- **Vakatakas** → REUSE `Vakataka_dynasty` [high] — _Vakataka dynasty_: The Vakataka dynasty (IAST: Vākāṭaka) was an ancient Indian dynasty that originated from the Deccan in the mid  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Deccan** → REUSE `Deccan_Plateau` [CONFIRM-homonym] — _Deccan Plateau_: The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (16  (linked in 6 civ(s) (e.g. late-medieval-europe) ×13 — ⚠ AMBIGUOUS: also Deccan_plateau(mughal-empire), Deccan(delhi-sultanate))
+- **Hephthalite** → REUSE `Hephthalites` [high] — _Hephthalites_: The Hephthalites or Ephthalites (Bactrian: ηβοδαλο, romanized: Ebodalo), sometimes called the White Huns (also  (linked in 1 civ(s) (e.g. xiongnu-huns) ×1)
+- **Hindu Kush** → REUSE `Hindu_Kush` [high] — _Hindu Kush_: The Hindu Kush is an 800-kilometre-long (500 mi) mountain range in Central and South Asia to the west of the H  (linked in 11 civ(s) (e.g. elamite-civilization) ×24)
+- **Mughals** → CROSS → `mughal-empire`  (cross-linked elsewhere ×10)
+- **Vishakhadatta** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Bhartrihari** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Vatsyayana** → CROSS → `maurya-empire`  (cross-linked elsewhere ×1)
+- **Vishnu Sharma** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Gupta-age** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Madurai** → REUSE `Madurai` [high] — _Madurai_: Madurai is a major tier II city in the Indian state of Tamil Nadu. It is the cultural capital of Tamil Nadu an  (linked in 4 civ(s) (e.g. delhi-sultanate) ×12)
+- *** Cambodia** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Prambanan** → REUSE `Prambanan` [high] — _Prambanan_: Prambanan (Indonesian: Candi Prambanan, Javanese: Rara Jonggrang, Hanacaraka: ꦫꦫꦗꦺꦴꦁꦒꦿꦁ) is a 9th-century Hind  (linked in 1 civ(s) (e.g. srivijaya) ×2)
+- *** Arab** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×15)
+- **Aryabhata** → REUSE `Aryabhata` [high] — _Aryabhata_: Aryabhata (Sanskrit: आर्यभट, IAST: Āryabhaṭa) or Aryabhata I (476–550 CE) was the first of the major mathemati  (linked in 3 civ(s) (e.g. islamic-golden-age) ×6)
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 21 civ(s) (e.g. ancient-nubia) ×87 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Vishnu** → REUSE `Vishnu` [high] — _Vishnu_: Vishnu (; Sanskrit: विष्णु, lit. 'All Pervasive', IAST: Viṣṇu, pronounced [ʋɪʂɳʊ]), also known as Narayana and  (linked in 4 civ(s) (e.g. delhi-sultanate) ×14)
+- **Varaha** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Rama** → REUSE `Rama` [high] — _Rama_: Rama (; Sanskrit: राम, IAST: Rāma, Sanskrit: [ˈraːmɐ] ) is a major deity in Hinduism. He is worshipped as the   (linked in 3 civ(s) (e.g. delhi-sultanate) ×5)
+- **Krishna** → REUSE `Krishna` [CONFIRM-homonym] — _Krishna_: Krishna (; Sanskrit: कृष्ण, IAST: Kṛṣṇa Sanskrit: [ˈkr̩ʂɳɐ] ) is a major deity in Hinduism. He is worshipped a  (linked in 2 civ(s) (e.g. medieval-india) ×6 — ⚠ AMBIGUOUS: also Krishna_River(delhi-sultanate))
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×7)
+- **Vaishnavism** → REUSE `Vaishnavism` [high] — _Vaishnavism_: Vaishnavism (Sanskrit: वैष्णवसम्प्रदायः, romanised: Vaiṣṇavasampradāyaḥ), also called Vishnuism, is one of the  (linked in 2 civ(s) (e.g. delhi-sultanate) ×5)
+- **Mahabharata** → CROSS → `vedic-period`  (cross-linked elsewhere ×2)
+- **Ramayana** → REUSE `Ramayana` [high] — _Ramayana_: The Ramayana (; Sanskrit: रामायणम्, romanized: Rāmāyaṇam), also known as the Valmiki Ramayana, as traditionall  (linked in 6 civ(s) (e.g. delhi-sultanate) ×14)
+- **Bay of Bengal** → REUSE `Bay_of_Bengal` [high] — _Bay of Bengal_: The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and  (linked in 4 civ(s) (e.g. high-medieval-europe) ×19)
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Southeast Asian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mekong** → REUSE `Mekong` [high] — _Mekong_: The Mekong or Mekong River (UK: mee-KONG, US: may-KAWNG) is a transboundary river in East Asia and Southeast A  (linked in 2 civ(s) (e.g. ancient-china) ×4)
+- **Chenla** → REUSE `Chenla` [high] — _Chenla_: "Chenla" or "Zhenla" was the name given in Chinese accounts of an entity that sent tributes to Chinese emperor  (linked in 2 civ(s) (e.g. khmer-empire) ×4)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 8 civ(s) (e.g. high-medieval-europe) ×20)
+- **Sailendra** → REUSE `Shailendra_dynasty` [high] — _Shailendra dynasty_: The Shailendra dynasty (IAST: Śailēndra, Indonesian pronunciation: [ʃaɪlenˈdraː] derived from Sanskrit combine  (linked in 1 civ(s) (e.g. khmer-empire) ×1)
+- *** Burma** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Greater India** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 5 civ(s) (e.g. indus-valley) ×14)
+- Republic → SKIP (generic common noun, cat C)
+- **Tang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×14)
+- **Song** → CROSS → `tang-song-china`  (cross-linked elsewhere ×6)
+- **Abbasid** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×16)
+- **Goethe** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Gupta Empire** → CROSS → `gupta-empire`  (cross-linked elsewhere ×16)
+- **Badami** → REUSE `Badami` [high] — _Badami_: Badami (Kannada: [baːd̪aːmi]), formerly known as Vātāpi (Sanskrit: from āpi, ‘friend, ally’; ‘having the wind   (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Eran posthumous inscription** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pyu** → REUSE `Pyu_city-states` [high] — _Pyu city-states_: The Pyu city-states (Burmese: ပျူ မြို့ပြ နိုင်ငံများ [pjù mjo̼.pjɑ̼ nàɪɴŋàɴ mjá]) were a group of city-states  (linked in 1 civ(s) (e.g. srivijaya) ×1)

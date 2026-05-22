@@ -85,12 +85,6 @@
       "type": "concept"
     },
     {
-      "term": "gana-sangha",
-      "matchText": "gana-sangha",
-      "wikiSlug": "Gana_sangha",
-      "type": "concept"
-    },
-    {
       "term": "Vaishali",
       "matchText": "Vaishali",
       "wikiSlug": "Vaishali_(ancient_city)",
@@ -161,6 +155,101 @@
       "matchText": "Indo-Parthians",
       "wikiSlug": "Indo-Parthian_Kingdom",
       "type": "concept"
+    },
+    {
+      "matchText": "Bhagavad Gita",
+      "term": "Bhagavad Gita",
+      "wikiSlug": "Bhagavad_Gita"
+    },
+    {
+      "matchText": "Chandragupta Maurya",
+      "term": "Chandragupta Maurya",
+      "wikiSlug": "Chandragupta_Maurya"
+    },
+    {
+      "matchText": "Arabian Sea",
+      "term": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea"
+    },
+    {
+      "matchText": "Tamil",
+      "term": "Tamil",
+      "wikiSlug": "Tamils"
+    },
+    {
+      "matchText": "Ayurvedic",
+      "term": "Ayurvedic",
+      "wikiSlug": "Ayurveda"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Vidisha",
+      "term": "Vidisha",
+      "wikiSlug": "Vidisha"
+    },
+    {
+      "matchText": "Deccan",
+      "term": "Deccan",
+      "wikiSlug": "Deccan_Plateau"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Greek-speaking",
+      "term": "Greek-speaking",
+      "wikiSlug": "Indo-Greek_Kingdom"
+    },
+    {
+      "matchText": "Bactria",
+      "term": "Bactria",
+      "wikiSlug": "Bactria"
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian-speaking",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Western Satraps",
+      "term": "Western Satraps",
+      "wikiSlug": "Western_Satraps"
+    },
+    {
+      "matchText": "Malwa",
+      "term": "Malwa",
+      "wikiSlug": "Malwa"
+    },
+    {
+      "matchText": "Konkan",
+      "term": "Konkan",
+      "wikiSlug": "Konkan"
+    },
+    {
+      "matchText": "Brahmins",
+      "term": "Brahmins",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Valerian",
+      "term": "Valerian",
+      "wikiSlug": "Valerian_(emperor)"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Shakya",
+      "term": "Shakya",
+      "wikiSlug": "Shakya"
     }
   ],
   "2": [
@@ -204,19 +293,6 @@
       "term": "graha-moksha-anugraha",
       "matchText": "graha-moksha-anugraha",
       "wikiSlug": "Samudragupta",
-      "type": "concept"
-    },
-    {
-      "term": "dinara",
-      "matchText": "dinara",
-      "wikiSlug": "",
-      "type": "concept",
-      "definition": "The Gupta gold coin, widely considered the most beautiful currency ever struck in India. Its name was borrowed from the Roman denarius, which reached India through Indian Ocean trade."
-    },
-    {
-      "term": "ashvamedha",
-      "matchText": "ashvamedha",
-      "wikiSlug": "Ashvamedha",
       "type": "concept"
     },
     {
@@ -268,10 +344,59 @@
       "type": "place"
     },
     {
-      "term": "Arthashastra",
-      "matchText": "Arthashastra",
-      "wikiSlug": "Arthashastra",
-      "type": "concept"
+      "matchText": "Samudragupta",
+      "term": "Samudragupta",
+      "wikiSlug": "Samudragupta"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Kalinga War",
+      "term": "Kalinga War",
+      "wikiSlug": "Kalinga_War"
+    },
+    {
+      "matchText": "Kalinga",
+      "term": "Kalinga",
+      "wikiSlug": "Kalinga_(historical_region)"
+    },
+    {
+      "matchText": "Deccan",
+      "term": "Deccan",
+      "wikiSlug": "Deccan_Plateau"
+    },
+    {
+      "matchText": "Magadha",
+      "term": "Magadha",
+      "wikiSlug": "Magadha"
+    },
+    {
+      "matchText": "Shakas",
+      "term": "Shakas",
+      "wikiSlug": "Indo-Scythians"
+    },
+    {
+      "matchText": "Sakas",
+      "term": "Sakas",
+      "wikiSlug": "Indo-Scythians"
+    },
+    {
+      "matchText": "Vishnu",
+      "term": "Vishnu",
+      "wikiSlug": "Vishnu"
+    },
+    {
+      "matchText": "Ujjain",
+      "term": "Ujjain",
+      "wikiSlug": "Ujjain"
+    },
+    {
+      "matchText": "Murundas",
+      "term": "Murundas",
+      "definition": "A poorly attested people of the northwestern Indian frontier in the early centuries CE, tied to the Kushan-era political world. The Allahabad pillar lists them among the peoples who acknowledged Samudragupta's overlordship without being conquered, but almost nothing else about them survives."
     }
   ],
   "3": [
@@ -382,6 +507,76 @@
       "matchText": "Konkan",
       "wikiSlug": "Konkan",
       "type": "place"
+    },
+    {
+      "matchText": "Chandragupta Maurya",
+      "term": "Chandragupta Maurya",
+      "wikiSlug": "Chandragupta_Maurya"
+    },
+    {
+      "matchText": "Samudragupta",
+      "term": "Samudragupta",
+      "wikiSlug": "Samudragupta"
+    },
+    {
+      "matchText": "Devi",
+      "term": "Devi",
+      "wikiSlug": "Devi"
+    },
+    {
+      "matchText": "Saka",
+      "term": "Saka",
+      "wikiSlug": "Saka"
+    },
+    {
+      "matchText": "Sakas",
+      "term": "Sakas",
+      "wikiSlug": "Saka"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "Deccan",
+      "term": "Deccan",
+      "wikiSlug": "Deccan_Plateau"
+    },
+    {
+      "matchText": "Vishnu",
+      "term": "Vishnu",
+      "wikiSlug": "Vishnu"
+    },
+    {
+      "matchText": "Chandra",
+      "term": "Chandra (Chandragupta II)",
+      "wikiSlug": "Chandragupta_II"
+    },
+    {
+      "matchText": "Vahlikas",
+      "term": "Vahlikas",
+      "wikiSlug": "Bahlikas"
+    },
+    {
+      "matchText": "Varahamihira",
+      "term": "Varahamihira",
+      "wikiSlug": "Varāhamihira"
+    },
+    {
+      "matchText": "Kalidasa",
+      "term": "Kalidasa",
+      "wikiSlug": "Kalidasa"
+    },
+    {
+      "matchText": "Kumaragupta I",
+      "term": "Kumaragupta I",
+      "wikiSlug": "Kumaragupta_I"
+    },
+    {
+      "matchText": "Jain",
+      "term": "Jain",
+      "wikiSlug": "Jainism"
     }
   ],
   "4": [
@@ -513,12 +708,6 @@
       "type": "concept"
     },
     {
-      "term": "Mahabharata",
-      "matchText": "Mahabharata",
-      "wikiSlug": "Mahabharata",
-      "type": "concept"
-    },
-    {
       "term": "Solar Dynasty",
       "matchText": "Solar Dynasty",
       "wikiSlug": "Ikshvaku_dynasty",
@@ -553,6 +742,136 @@
       "matchText": "Bhartrihari",
       "wikiSlug": "Bhartrihari",
       "type": "people"
+    },
+    {
+      "matchText": "Chandragupta II",
+      "term": "Chandragupta II",
+      "wikiSlug": "Chandragupta_II"
+    },
+    {
+      "matchText": "Kumaragupta I",
+      "term": "Kumaragupta I",
+      "wikiSlug": "Kumaragupta_I"
+    },
+    {
+      "matchText": "Skandagupta",
+      "term": "Skandagupta",
+      "wikiSlug": "Skandagupta"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Kali",
+      "term": "Kali",
+      "wikiSlug": "Kali"
+    },
+    {
+      "matchText": "Ujjain",
+      "term": "Ujjain",
+      "wikiSlug": "Ujjain"
+    },
+    {
+      "matchText": "Shakespeare",
+      "term": "Shakespeare",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "matchText": "Aeneid",
+      "term": "Aeneid",
+      "wikiSlug": "Aeneid"
+    },
+    {
+      "matchText": "Dushyanta",
+      "term": "Dushyanta",
+      "wikiSlug": "Dushyanta"
+    },
+    {
+      "matchText": "Calcutta",
+      "term": "Calcutta",
+      "wikiSlug": "Kolkata"
+    },
+    {
+      "matchText": "Malavikagnimitra",
+      "term": "Malavikagnimitra",
+      "wikiSlug": "Mālavikāgnimitram"
+    },
+    {
+      "matchText": "Rama",
+      "term": "Rama",
+      "wikiSlug": "Rama"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "Himalayas",
+      "term": "Himalayas",
+      "wikiSlug": "Himalayas"
+    },
+    {
+      "matchText": "Sudraka",
+      "term": "Sudraka",
+      "wikiSlug": "Shudraka"
+    },
+    {
+      "matchText": "Vishakhadatta",
+      "term": "Vishakhadatta",
+      "wikiSlug": "Vishakhadatta"
+    },
+    {
+      "matchText": "Chanakya",
+      "term": "Chanakya",
+      "wikiSlug": "Chanakya"
+    },
+    {
+      "matchText": "Devichandraguptam",
+      "term": "Devichandraguptam",
+      "wikiSlug": "Devichandraguptam"
+    },
+    {
+      "matchText": "Pahlavi",
+      "term": "Pahlavi",
+      "wikiSlug": "Middle_Persian"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Kashmir",
+      "term": "Kashmir",
+      "wikiSlug": "Kashmir"
+    },
+    {
+      "matchText": "Vakatakas",
+      "term": "Vakatakas",
+      "wikiSlug": "Vakataka_dynasty"
+    },
+    {
+      "matchText": "Western Kshatrapas",
+      "term": "Western Kshatrapas",
+      "wikiSlug": "Western_Satraps"
+    },
+    {
+      "matchText": "Kushans",
+      "term": "Kushans",
+      "definition": "The Kushan Empire (c. 30–375 CE) was a powerful realm founded by Central Asian Yuezhi nomads that ruled across the northwest of the Indian subcontinent, Afghanistan, and parts of Central Asia. Famous as heavy patrons of Buddhism, the Kushans dominated north India in the centuries just before the Gupta rise."
+    },
+    {
+      "matchText": "Shaivite",
+      "term": "Shaivite",
+      "wikiSlug": "Shaivism"
     }
   ],
   "5": [
@@ -675,6 +994,111 @@
       "matchText": "Joseph Constantine Carpue",
       "wikiSlug": "Joseph_Constantine_Carpue",
       "type": "people"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Pataliputra",
+      "term": "Pataliputra",
+      "wikiSlug": "Pataliputra"
+    },
+    {
+      "matchText": "Ujjain",
+      "term": "Ujjain",
+      "wikiSlug": "Ujjain"
+    },
+    {
+      "matchText": "Romaka Siddhanta",
+      "term": "Romaka Siddhanta",
+      "wikiSlug": "Romaka_Siddhanta"
+    },
+    {
+      "matchText": "Paulisha Siddhanta",
+      "term": "Paulisha Siddhanta",
+      "wikiSlug": "Pancha-siddhantika"
+    },
+    {
+      "matchText": "Vasishtha Siddhanta",
+      "term": "Vasishtha Siddhanta",
+      "wikiSlug": "Vasishtha_Siddhanta"
+    },
+    {
+      "matchText": "Paitamaha Siddhanta",
+      "term": "Paitamaha Siddhanta",
+      "wikiSlug": "Pancha-siddhantika"
+    },
+    {
+      "matchText": "Brihat Samhita",
+      "term": "Brihat Samhita",
+      "wikiSlug": "Brihat_Samhita"
+    },
+    {
+      "matchText": "Charaka Samhita",
+      "term": "Charaka Samhita",
+      "wikiSlug": "Charaka_Samhita"
+    },
+    {
+      "matchText": "Hippocrates",
+      "term": "Hippocrates",
+      "wikiSlug": "Hippocrates"
+    },
+    {
+      "matchText": "Galen",
+      "term": "Galen",
+      "wikiSlug": "Galen"
+    },
+    {
+      "matchText": "Samudragupta",
+      "term": "Samudragupta",
+      "wikiSlug": "Samudragupta"
+    },
+    {
+      "matchText": "Syriac",
+      "term": "Syriac",
+      "wikiSlug": "Syriac_language"
+    },
+    {
+      "matchText": "Chandragupta II",
+      "term": "Chandragupta II",
+      "wikiSlug": "Chandragupta_II"
+    },
+    {
+      "matchText": "Hindu astrology",
+      "term": "Hindu astrology",
+      "wikiSlug": "Hindu_astrology"
+    },
+    {
+      "matchText": "al-Khwarizmi",
+      "term": "al-Khwarizmi",
+      "wikiSlug": "Al-Khwarizmi"
+    },
+    {
+      "matchText": "High Middle Ages",
+      "term": "High Middle Ages",
+      "wikiSlug": "High_Middle_Ages"
+    },
+    {
+      "matchText": "asanna",
+      "term": "asanna",
+      "definition": "Sanskrit for \"approximate.\" Aryabhata used it for his value of pi (3.1416) to flag that the number was only an estimate of an irrational quantity no finite ratio could capture exactly."
+    },
+    {
+      "matchText": "jaib",
+      "term": "jaib",
+      "definition": "Arabic for \"pocket\" or \"bay.\" It arose as a misreading of jiba, the Arabic transliteration of Aryabhata's jya (\"bowstring\") for the sine; rendered into Latin as sinus, it gave the modern word \"sine.\""
     }
   ],
   "6": [
@@ -811,18 +1235,6 @@
       "type": "concept"
     },
     {
-      "term": "Foguoji",
-      "matchText": "Foguoji",
-      "wikiSlug": "Faxian#Record_of_Buddhist_Kingdoms",
-      "type": "concept"
-    },
-    {
-      "term": "White Horse Temple",
-      "matchText": "White Horse Temple",
-      "wikiSlug": "White_Horse_Temple",
-      "type": "place"
-    },
-    {
       "term": "Luoyang",
       "matchText": "Luoyang",
       "wikiSlug": "Luoyang",
@@ -863,6 +1275,246 @@
       "matchText": "Vikramashila",
       "wikiSlug": "Vikramashila",
       "type": "place"
+    },
+    {
+      "matchText": "Mahayana Buddhism",
+      "term": "Mahayana Buddhism",
+      "wikiSlug": "Mahayana"
+    },
+    {
+      "matchText": "Hindu Kush",
+      "term": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush"
+    },
+    {
+      "matchText": "Jain",
+      "term": "Jain",
+      "wikiSlug": "Jainism"
+    },
+    {
+      "matchText": "Vidisha",
+      "term": "Vidisha",
+      "wikiSlug": "Vidisha"
+    },
+    {
+      "matchText": "Chandragupta II",
+      "term": "Chandragupta II",
+      "wikiSlug": "Chandragupta_II"
+    },
+    {
+      "matchText": "Deogarh",
+      "term": "Deogarh",
+      "wikiSlug": "Dashavatara_Temple,_Deogarh"
+    },
+    {
+      "matchText": "Vishnu Anantasayana",
+      "term": "Vishnu Anantasayana",
+      "definition": "An iconographic form of Vishnu shown reclining in cosmic sleep on the coils of the world-serpent Ananta as he floats on the primordial ocean between creations. The Dashavatara Temple at Deogarh carries one of the earliest great relief versions of the image."
+    },
+    {
+      "matchText": "Nara-Narayana",
+      "term": "Nara-Narayana",
+      "wikiSlug": "Nara-Narayana"
+    },
+    {
+      "matchText": "Gajendra-moksha",
+      "term": "Gajendra-moksha",
+      "wikiSlug": "Gajendra_Moksha"
+    },
+    {
+      "matchText": "Vaishnava",
+      "term": "Vaishnava",
+      "wikiSlug": "Vaishnavism"
+    },
+    {
+      "matchText": "Kumaragupta I",
+      "term": "Kumaragupta I",
+      "wikiSlug": "Kumaragupta_I"
+    },
+    {
+      "matchText": "Eran",
+      "term": "Eran",
+      "wikiSlug": "Eran"
+    },
+    {
+      "matchText": "Vakatakas'",
+      "term": "Vakatakas",
+      "wikiSlug": "Vakataka_dynasty"
+    },
+    {
+      "matchText": "Shaivite",
+      "term": "Shaivite",
+      "wikiSlug": "Shaivism"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "Hinduism",
+      "term": "Hinduism",
+      "wikiSlug": "Hinduism"
+    },
+    {
+      "matchText": "Mahakala",
+      "term": "Mahakala",
+      "wikiSlug": "Mahakala"
+    },
+    {
+      "matchText": "Ujjain",
+      "term": "Ujjain",
+      "wikiSlug": "Ujjain"
+    },
+    {
+      "matchText": "Mahadevi",
+      "term": "Mahadevi",
+      "wikiSlug": "Mahadevi"
+    },
+    {
+      "matchText": "Great Goddess",
+      "term": "Great Goddess",
+      "definition": "The supreme cosmic feminine principle of the Shakta tradition of Hinduism, the single divine Goddess behind whom all the individual goddesses are understood as manifestations. The Gupta-era Devi Mahatmya was the first major scripture to give her this overarching theological form."
+    },
+    {
+      "matchText": "Mahayana",
+      "term": "Mahayana",
+      "wikiSlug": "Mahayana"
+    },
+    {
+      "matchText": "Indian Buddhism",
+      "term": "Indian Buddhism",
+      "wikiSlug": "Buddhism"
+    },
+    {
+      "matchText": "Peshawar",
+      "term": "Peshawar",
+      "wikiSlug": "Peshawar"
+    },
+    {
+      "matchText": "Gandharan",
+      "term": "Gandharan",
+      "wikiSlug": "Gandhara"
+    },
+    {
+      "matchText": "Yogacarabhumi",
+      "term": "Yogacarabhumi",
+      "wikiSlug": "Yogacarabhumi-sastra"
+    },
+    {
+      "matchText": "Vimshatika",
+      "term": "Vimshatika",
+      "definition": "The Vimshatika (\"Twenty Verses\") of Vasubandhu, a compact Yogacara Buddhist treatise arguing that the apparently external world is a projection of consciousness rather than a mind-independent reality. It is a companion piece to his Trimshika."
+    },
+    {
+      "matchText": "Nyaya",
+      "term": "Nyaya",
+      "wikiSlug": "Nyaya"
+    },
+    {
+      "matchText": "Navya-Nyaya",
+      "term": "Navya-Nyaya",
+      "wikiSlug": "Navya-Nyaya"
+    },
+    {
+      "matchText": "Pataliputra",
+      "term": "Pataliputra",
+      "wikiSlug": "Pataliputra"
+    },
+    {
+      "matchText": "Ratnasagara",
+      "term": "Ratnasagara",
+      "wikiSlug": "Nalanda_mahavihara"
+    },
+    {
+      "matchText": "Ratnodadhi",
+      "term": "Ratnodadhi",
+      "wikiSlug": "Nalanda_mahavihara"
+    },
+    {
+      "matchText": "Ratnaranjaka",
+      "term": "Ratnaranjaka",
+      "definition": "One of the three multi-story library buildings of the Buddhist university at Nalanda, its name meaning roughly \"Jewel-Adorned.\" Together with the Ratnasagara and Ratnodadhi it held one of the largest manuscript collections of the premodern world."
+    },
+    {
+      "matchText": "Bologna",
+      "term": "Bologna",
+      "wikiSlug": "University_of_Bologna"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "University_of_Paris"
+    },
+    {
+      "matchText": "Oxford",
+      "term": "Oxford",
+      "wikiSlug": "University_of_Oxford"
+    },
+    {
+      "matchText": "Pala",
+      "term": "Pala",
+      "wikiSlug": "Pala_Empire"
+    },
+    {
+      "matchText": "Tibetan",
+      "term": "Tibetan",
+      "wikiSlug": "Tibetan_Buddhism"
+    },
+    {
+      "matchText": "Kashmir",
+      "term": "Kashmir",
+      "wikiSlug": "Kashmir"
+    },
+    {
+      "matchText": "Maitrakas",
+      "term": "Maitrakas",
+      "wikiSlug": "Maitraka"
+    },
+    {
+      "matchText": "Vallabhi",
+      "term": "Vallabhi",
+      "wikiSlug": "Vallabhi"
+    },
+    {
+      "matchText": "Pallavas",
+      "term": "Pallavas",
+      "wikiSlug": "Pallava_dynasty"
+    },
+    {
+      "matchText": "Sanskrit Buddhist",
+      "term": "Sanskrit Buddhist scriptures",
+      "definition": "Buddhist canonical texts preserved in their original Sanskrit, as opposed to the intermediary Central Asian recensions Chinese translators had long worked from. Pilgrims like Faxian traveled to India specifically to retrieve these source-language originals."
+    },
+    {
+      "matchText": "Mathura",
+      "term": "Mathura",
+      "wikiSlug": "Mathura"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Mahayanasutralankara",
+      "term": "Mahayanasutralankara",
+      "definition": "The Mahayanasutralankara (\"Ornament of the Mahayana Sutras\"), a foundational Yogacara Buddhist treatise associated with Asanga that systematizes the bodhisattva path and the consciousness-only doctrine of the school."
+    },
+    {
+      "matchText": "Trimshika",
+      "term": "Trimshika",
+      "wikiSlug": "Trimsika-vijnaptimatrata"
+    },
+    {
+      "matchText": "Patronage stability",
+      "term": "Patronage stability",
+      "definition": "The long, dependable flow of Gupta royal support that gave temple-builders, theologians, and monastic founders a multi-generational horizon. A temple takes decades, a philosophical school a lifetime, and a university centuries, so steady patronage was the precondition for all of them."
+    },
+    {
+      "matchText": "Saka",
+      "term": "Saka",
+      "wikiSlug": "Saka"
     }
   ],
   "7": [
@@ -883,18 +1535,6 @@
       "matchText": "Attila",
       "wikiSlug": "Attila",
       "type": "people"
-    },
-    {
-      "term": "Bhitari pillar inscription",
-      "matchText": "Bhitari pillar inscription",
-      "wikiSlug": "Bhitari_pillar_inscription_of_Skandagupta",
-      "type": "concept"
-    },
-    {
-      "term": "Sudarshana Lake",
-      "matchText": "Sudarshana Lake",
-      "wikiSlug": "Sudarshana_Lake",
-      "type": "place"
     },
     {
       "term": "Junagadh inscription",
@@ -975,12 +1615,6 @@
       "type": "place"
     },
     {
-      "term": "Pushyamitras",
-      "matchText": "Pushyamitras",
-      "wikiSlug": "Pushyamitra_Shunga",
-      "type": "concept"
-    },
-    {
       "term": "Nalanda",
       "matchText": "Nalanda",
       "wikiSlug": "Nalanda",
@@ -997,6 +1631,151 @@
       "matchText": "Vakataka dynasty",
       "wikiSlug": "Vakataka_dynasty",
       "type": "concept"
+    },
+    {
+      "matchText": "Hindu Kush",
+      "term": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush"
+    },
+    {
+      "matchText": "Chandragupta Maurya",
+      "term": "Chandragupta Maurya",
+      "wikiSlug": "Chandragupta_Maurya"
+    },
+    {
+      "matchText": "Chandragupta II",
+      "term": "Chandragupta II",
+      "wikiSlug": "Chandragupta_II"
+    },
+    {
+      "matchText": "Kumara",
+      "term": "Kumara",
+      "wikiSlug": "Kartikeya"
+    },
+    {
+      "matchText": "Kartikeya",
+      "term": "Kartikeya",
+      "wikiSlug": "Kartikeya"
+    },
+    {
+      "matchText": "Samudragupta",
+      "term": "Samudragupta",
+      "wikiSlug": "Samudragupta"
+    },
+    {
+      "matchText": "Hunnic",
+      "term": "Hunnic peoples",
+      "wikiSlug": "Huns"
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian-speaking peoples",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Mongolic",
+      "term": "Mongolic peoples",
+      "wikiSlug": "Mongolic_peoples"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic peoples",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Kushans",
+      "term": "Kushans",
+      "wikiSlug": "Kushan_Empire"
+    },
+    {
+      "matchText": "Western Kshatrapas",
+      "term": "Western Kshatrapas",
+      "wikiSlug": "Western_Satraps"
+    },
+    {
+      "matchText": "Kumaragupta II",
+      "term": "Kumaragupta II",
+      "wikiSlug": "Kumaragupta_II"
+    },
+    {
+      "matchText": "Vainyagupta",
+      "term": "Vainyagupta",
+      "wikiSlug": "Vainyagupta"
+    },
+    {
+      "matchText": "Narasimhagupta Baladitya",
+      "term": "Narasimhagupta Baladitya",
+      "wikiSlug": "Narasimhagupta"
+    },
+    {
+      "matchText": "Kumaragupta III",
+      "term": "Kumaragupta III",
+      "wikiSlug": "Kumaragupta_III"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Greeks",
+      "term": "Greeks",
+      "wikiSlug": "Greeks"
+    },
+    {
+      "matchText": "Dharma",
+      "term": "Dharma",
+      "wikiSlug": "Dharma"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "Brahmaputra",
+      "term": "Brahmaputra",
+      "wikiSlug": "Brahmaputra_River"
+    },
+    {
+      "matchText": "Himalayas",
+      "term": "Himalayas",
+      "wikiSlug": "Himalayas"
+    },
+    {
+      "matchText": "Kashmir",
+      "term": "Kashmir",
+      "wikiSlug": "Kashmir"
+    },
+    {
+      "matchText": "Magadha",
+      "term": "Magadha",
+      "wikiSlug": "Magadha"
+    },
+    {
+      "matchText": "Vallabhi",
+      "term": "Vallabhi",
+      "wikiSlug": "Vallabhi"
+    },
+    {
+      "matchText": "Shaivite",
+      "term": "Shaivite",
+      "definition": "A worshipper of Shiva — a follower of Shaivism, one of the major branches of Hinduism, which holds Shiva as the supreme deity rather than Vishnu or the Goddess."
+    },
+    {
+      "matchText": "Tibetan",
+      "term": "Tibetan historical texts",
+      "definition": "Tibet's own tradition of religious and dynastic chronicles, written in Tibetan and preserved largely within Tibetan Buddhist monasteries; they retain accounts of events in India that are sometimes lost from the Indian sources themselves."
+    },
+    {
+      "matchText": "Kanauj",
+      "term": "Kanauj",
+      "wikiSlug": "Kannauj"
     }
   ],
   "8": [
@@ -1016,12 +1795,6 @@
       "term": "Vishnugupta",
       "matchText": "Vishnugupta",
       "wikiSlug": "Vishnugupta_(Gupta_Empire)",
-      "type": "people"
-    },
-    {
-      "term": "Harsha",
-      "matchText": "Harsha",
-      "wikiSlug": "Harsha",
       "type": "people"
     },
     {
@@ -1079,12 +1852,6 @@
       "type": "people"
     },
     {
-      "term": "Bakhtiyar Khilji",
-      "matchText": "Bakhtiyar Khilji",
-      "wikiSlug": "Bakhtiyar_Khilji",
-      "type": "people"
-    },
-    {
       "term": "Delhi Sultanate",
       "matchText": "Delhi Sultanate",
       "wikiSlug": "Delhi_Sultanate",
@@ -1131,6 +1898,236 @@
       "matchText": "Maukharis",
       "wikiSlug": "Maukhari_dynasty",
       "type": "concept"
+    },
+    {
+      "matchText": "Hindu Kush",
+      "term": "Hindu Kush",
+      "wikiSlug": "Hindu_Kush"
+    },
+    {
+      "matchText": "Bay of Bengal",
+      "term": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Magadha",
+      "term": "Magadha",
+      "wikiSlug": "Magadha"
+    },
+    {
+      "matchText": "Eran",
+      "term": "Eran",
+      "wikiSlug": "Eran"
+    },
+    {
+      "matchText": "Vainyagupta",
+      "term": "Vainyagupta",
+      "wikiSlug": "Vainyagupta"
+    },
+    {
+      "matchText": "Hunas",
+      "term": "Hunas",
+      "wikiSlug": "Huna_people"
+    },
+    {
+      "matchText": "Mihirakula",
+      "term": "Mihirakula",
+      "wikiSlug": "Mihirakula"
+    },
+    {
+      "matchText": "Yashodharman",
+      "term": "Yashodharman",
+      "wikiSlug": "Yashodharman"
+    },
+    {
+      "matchText": "Mandasor",
+      "term": "Mandasor",
+      "wikiSlug": "Mandsaur"
+    },
+    {
+      "matchText": "Kanauj",
+      "term": "Kanauj",
+      "wikiSlug": "Kannauj"
+    },
+    {
+      "matchText": "Thanesar",
+      "term": "Thanesar",
+      "wikiSlug": "Thanesar"
+    },
+    {
+      "matchText": "Harshavardhana",
+      "term": "Harshavardhana",
+      "wikiSlug": "Harsha"
+    },
+    {
+      "matchText": "Nalanda",
+      "term": "Nalanda",
+      "wikiSlug": "Nalanda_mahavihara"
+    },
+    {
+      "matchText": "Vakatakas",
+      "term": "Vakatakas",
+      "wikiSlug": "Vakataka_dynasty"
+    },
+    {
+      "matchText": "Deccan",
+      "term": "Deccan",
+      "wikiSlug": "Deccan_Plateau"
+    },
+    {
+      "matchText": "Hephthalite",
+      "term": "Hephthalite",
+      "wikiSlug": "Hephthalites"
+    },
+    {
+      "matchText": "Vishakhadatta",
+      "term": "Vishakhadatta",
+      "wikiSlug": "Vishakhadatta"
+    },
+    {
+      "matchText": "Bhartrihari",
+      "term": "Bhartrihari",
+      "wikiSlug": "Bhartrihari"
+    },
+    {
+      "matchText": "Vatsyayana",
+      "term": "Vatsyayana",
+      "wikiSlug": "Vatsyayana"
+    },
+    {
+      "matchText": "Vishnu Sharma",
+      "term": "Vishnu Sharma",
+      "wikiSlug": "Vishnu_Sharma"
+    },
+    {
+      "matchText": "Madurai",
+      "term": "Madurai",
+      "wikiSlug": "Madurai"
+    },
+    {
+      "matchText": "Prambanan",
+      "term": "Prambanan",
+      "wikiSlug": "Prambanan"
+    },
+    {
+      "matchText": "Arab world",
+      "term": "Arab world",
+      "wikiSlug": "Arab_world"
+    },
+    {
+      "matchText": "Persian",
+      "term": "Persian",
+      "wikiSlug": "Persians"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin",
+      "wikiSlug": "Latin"
+    },
+    {
+      "matchText": "Aryabhata",
+      "term": "Aryabhata",
+      "wikiSlug": "Aryabhata"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Vishnu",
+      "term": "Vishnu",
+      "wikiSlug": "Vishnu"
+    },
+    {
+      "matchText": "Varaha",
+      "term": "Varaha",
+      "wikiSlug": "Varaha"
+    },
+    {
+      "matchText": "Rama",
+      "term": "Rama",
+      "wikiSlug": "Rama"
+    },
+    {
+      "matchText": "Krishna",
+      "term": "Krishna",
+      "wikiSlug": "Krishna"
+    },
+    {
+      "matchText": "Vaishnavism",
+      "term": "Vaishnavism",
+      "wikiSlug": "Vaishnavism"
+    },
+    {
+      "matchText": "Ramayana",
+      "term": "Ramayana",
+      "wikiSlug": "Ramayana"
+    },
+    {
+      "matchText": "Southeast Asia",
+      "term": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "matchText": "Mekong",
+      "term": "Mekong",
+      "wikiSlug": "Mekong"
+    },
+    {
+      "matchText": "Chenla",
+      "term": "Chenla",
+      "wikiSlug": "Chenla"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Sailendra",
+      "term": "Sailendra",
+      "wikiSlug": "Shailendra_dynasty"
+    },
+    {
+      "matchText": "Greater India",
+      "term": "Greater India",
+      "wikiSlug": "Greater_India"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Goethe",
+      "term": "Goethe",
+      "wikiSlug": "Johann_Wolfgang_von_Goethe"
+    },
+    {
+      "matchText": "Badami",
+      "term": "Badami",
+      "wikiSlug": "Badami"
+    },
+    {
+      "matchText": "Pyu",
+      "term": "Pyu",
+      "wikiSlug": "Pyu_city-states"
+    },
+    {
+      "matchText": "Eran posthumous inscription",
+      "term": "Eran posthumous inscription",
+      "definition": "A stone inscription from Eran dated about 510 CE that records the death in battle of a noble named Goparaja, fighting alongside the late Gupta king Bhanugupta, and notes that Goparaja's widow performed sati on his funeral pyre — one of the earliest unambiguous epigraphic records of the practice in India."
+    },
+    {
+      "matchText": "Sudraka",
+      "term": "Sudraka",
+      "wikiSlug": "Shudraka"
     }
   ]
 }
