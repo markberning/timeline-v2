@@ -7,6 +7,7 @@
 import { useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, alpha, type View } from '@/components/mode/war-chrome'
+import { BattleCard } from '@/components/mode/war-battle-card'
 
 const TYPE_COLOR: Record<string, string> = { CAUSE: '#8a6d3b', BATTLE: '#b91c1c', POLITICS: '#1d4ed8', SOCIETY: '#b45309', AFTERMATH: '#7c3aed' }
 type Size = 's' | 'm' | 'l' | 'xl'
@@ -97,7 +98,7 @@ export default function CivilWarPage() {
                     <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 34, fontWeight: 400, letterSpacing: -0.5, color: alpha(WAR_OXBLOOD, 0.13), lineHeight: 1, whiteSpace: 'nowrap', pointerEvents: 'none', overflow: 'hidden' }}>{phase.label}</div>
                     <div style={{ position: 'absolute', left: CORD_X + 14, top: 24, fontFamily: SANS, fontSize: 10, letterSpacing: 1.4, fontWeight: 700, color: WAR_OXBLOOD, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>{phase.label}</div>
                   </div>
-                  {phase.nodes.map(n => <NodeCard key={n.id} n={n} />)}
+                  {phase.nodes.map(n => <BattleCard key={n.id} size={n.size} accent={TYPE_COLOR[n.type]} dateTop={(n.date.match(/\d{4}/) || [''])[0]} sub={n.type} hook={n.hook} title={n.name} href={n.href} />)}
                 </div>
               ))}
             </div>

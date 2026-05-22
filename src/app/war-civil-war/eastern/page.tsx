@@ -7,6 +7,7 @@
 import { useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, alpha, type View } from '@/components/mode/war-chrome'
+import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
 
 const CRUMBS = [
   { label: 'War', href: '/' },
@@ -105,11 +106,10 @@ export default function EasternTheatrePage() {
           </div>
         ) : (
           <>
-            <p style={{ fontFamily: SERIF, fontSize: 14.5, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)', padding: '20px 0 4px', margin: 0 }}>The theatre’s battles, sized by significance. Tap to drop into one.</p>
-            <div style={{ position: 'relative', paddingTop: 12, paddingBottom: 30 }}>
-              <div style={{ position: 'absolute', left: CORD_X, top: 0, bottom: 0, width: 1, background: 'color-mix(in srgb, var(--foreground) 22%, transparent)' }} />
-              {BATTLES.map(b => <BattleRow key={b.id} b={b} />)}
-            </div>
+            <p style={{ fontFamily: SERIF, fontSize: 14.5, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)', padding: '20px 18px 4px', margin: 0 }}>The theatre’s battles, sized by significance. Tap to drop into one.</p>
+            <CordTimeline>
+              {BATTLES.map(b => <BattleCard key={b.id} size={b.size} accent={WAR_OXBLOOD} dateTop={(b.date.match(/\d{4}/) || [''])[0]} title={b.name} sub={b.date} hook={b.hook} href={b.href} />)}
+            </CordTimeline>
           </>
         )}
       </div>

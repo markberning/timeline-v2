@@ -10,6 +10,7 @@
 import { useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, type View } from '@/components/mode/war-chrome'
+import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
 
 const CRUMBS = [
   { label: 'War', href: '/' },
@@ -40,6 +41,13 @@ const SECTIONS = [
   { id: 'aftermath', eyebrow: 'Aftermath', title: 'The retreat & the Address', blurb: 'Lee withdraws south through ten days of rain. Five months later Lincoln dedicates the cemetery in two minutes.', cas: null, day: null },
 ]
 const DAY_COLOR: Record<number, string> = { 1: ACCENTS.amber, 2: ACCENTS.violet, 3: ACCENTS.rust }
+const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
+  setting: { size: 'm', date: '1863', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
+  mcpherson: { size: 'l', date: 'Jul 1', palette: ['#7a3b1c', '#3a2820', '#0e0805'] },
+  hooks: { size: 'l', date: 'Jul 2', palette: ['#5a5034', '#3a3020', '#100c08'] },
+  pickett: { size: 'xl', date: 'Jul 3', palette: ['#7a1422', '#3a1208', '#0a0606'] },
+  aftermath: { size: 'm', date: 'Jul →', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
+}
 const SECTION_HREF = '/war-pilot-preview' // standalone reader stand-in for now
 const num = (n: number) => n.toLocaleString('en-US')
 
@@ -226,21 +234,16 @@ export default function GettysburgPage() {
             <SectionsList />
           </>
         ) : (
-          <div style={{ padding: '16px 16px 40px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '0 0 18px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
+          <div style={{ padding: '8px 0 20px' }}>
+            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
               Three days of disaster for Lee. The Confederacy never reaches this far north again.
             </p>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-              {SECTIONS.map((s, i) => (
-                <a key={s.id} href={SECTION_HREF} style={{ textDecoration: 'none', color: 'inherit' }}>
-                  <div style={{ border: `1px solid ${i === 0 ? alpha(ACCENT, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)'}`, borderRadius: 8, padding: 14, background: 'color-mix(in srgb, var(--foreground) 3%, transparent)' }}>
-                    <Eyebrow color={s.day ? DAY_COLOR[s.day] : ACCENT}>{s.eyebrow}</Eyebrow>
-                    <div style={{ fontFamily: SERIF, fontSize: 18, marginTop: 3 }}>{s.title}</div>
-                    <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 3 }}>{s.blurb}</div>
-                  </div>
-                </a>
-              ))}
-            </div>
+            <CordTimeline>
+              {SECTIONS.map(s => {
+                const m = TL_META[s.id]
+                return <BattleCard key={s.id} size={m.size} accent={s.day ? DAY_COLOR[s.day] : ACCENT} dateTop={m.date} palette={m.palette} title={s.title} sub={s.eyebrow} hook={s.blurb} href={SECTION_HREF} />
+              })}
+            </CordTimeline>
           </div>
         )}
       </div>
