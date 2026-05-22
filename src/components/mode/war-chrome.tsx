@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment, useState } from 'react'
+import { Fragment, useLayoutEffect, useRef, useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
@@ -36,15 +36,54 @@ export interface CrumbOption {
 }
 export interface Crumb {
   label: string
+  short?: string // compact label used in the trail when this crumb is an ancestor (e.g. "ACW")
   href?: string
   options?: CrumbOption[] // when present, the crumb is a dropdown (e.g. switch theatre)
+}
+
+// Just the breadcrumb bar (sticky, top:0) — shared by WarChrome and by the
+// narrative/reader pages that don't want the Timeline/Dossier toggle. Shows the
+// full trail; it never scrolls horizontally — link crumbs shrink with an
+// ellipsis if a screen is very narrow.
+export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; accent?: string }) {
+  const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
+  const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
+  const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
+  const faint = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
+  const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
+  const ell: React.CSSProperties = { minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
+  return (
+    <div style={{
+      position: 'sticky', top: 0, zIndex: 8, background: bar,
+      backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
+      borderBottom: border, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8,
+      minHeight: 34, boxSizing: 'border-box',
+    }}>
+      <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflow: 'hidden', whiteSpace: 'nowrap' }}>
+        {crumbs.map((c, i) => {
+          const last = i === crumbs.length - 1
+          const text = !last && c.short ? c.short : c.label
+          return (
+            <Fragment key={i}>
+              {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
+              {c.options
+                ? <CrumbDropdown crumb={c} chip={chip} faint={faint} accent={accent} />
+                : c.href && !last
+                  ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
+                  : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
+            </Fragment>
+          )
+        })}
+      </nav>
+      <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
+    </div>
+  )
 }
 
 export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
   const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
   const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
   const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
-  const faint = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
   const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
   const chipActive = 'color-mix(in srgb, var(--foreground) 14%, var(--background))'
   const iconBtn: React.CSSProperties = {
@@ -53,30 +92,7 @@ export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: {
   }
   return (
     <>
-      {/* breadcrumb — its own line, sticky above the toggle; night-mode toggle on the right */}
-      <div style={{
-        position: 'sticky', top: 0, zIndex: 8, background: bar,
-        backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
-        borderBottom: border, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8,
-        minHeight: 34, boxSizing: 'border-box',
-      }}>
-        <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', whiteSpace: 'nowrap' }}>
-          {crumbs.map((c, i) => {
-            const last = i === crumbs.length - 1
-            return (
-              <Fragment key={i}>
-                {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
-                {c.options
-                  ? <CrumbDropdown crumb={c} chip={chip} faint={faint} accent={accent} />
-                  : c.href && !last
-                    ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flexShrink: 0 }}>{c.label}</a>
-                    : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flexShrink: 0 }}>{c.label}</span>}
-              </Fragment>
-            )
-          })}
-        </nav>
-        <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
-      </div>
+      <WarBreadcrumb crumbs={crumbs} accent={accent} />
 
       {/* toggle bar — back + Timeline/Dossier segmented + spacer */}
       <div style={{
@@ -115,13 +131,24 @@ export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: {
 // is checked; entries without an href render as a disabled "soon" row.
 function CrumbDropdown({ crumb, chip, faint, accent }: { crumb: Crumb; chip: string; faint: string; accent: string }) {
   const [open, setOpen] = useState(false)
+  const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
+  const btnRef = useRef<HTMLButtonElement>(null)
   const border = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
+  // The breadcrumb <nav> scrolls horizontally (overflow-x: auto), which clips an
+  // absolutely-positioned menu hanging below it. Anchor the menu with
+  // position: fixed off the button's viewport rect so it escapes the clip.
+  useLayoutEffect(() => {
+    if (!open || !btnRef.current) return
+    const r = btnRef.current.getBoundingClientRect()
+    setPos({ left: r.left, top: r.bottom + 6 })
+  }, [open])
   return (
     <span style={{ position: 'relative', flexShrink: 0 }}>
-      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
+      <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
         display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px',
         fontFamily: SANS, fontSize: 11, fontWeight: 600, color: 'var(--foreground)',
-        background: chip, borderRadius: 999, border: 'none', cursor: 'pointer',
+        background: alpha(accent, open ? 0.22 : 0.14), borderRadius: 999,
+        border: `1px solid ${alpha(accent, 0.5)}`, cursor: 'pointer',
       }}>
         {crumb.label}
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
@@ -130,9 +157,9 @@ function CrumbDropdown({ crumb, chip, faint, accent }: { crumb: Crumb; chip: str
       </button>
       {open && (
         <>
-          <div onClick={() => setOpen(false)} style={{ position: 'fixed', inset: 0, zIndex: 20 }} />
+          <div onClick={() => setOpen(false)} style={{ position: 'fixed', inset: 0, zIndex: 9998 }} />
           <div style={{
-            position: 'absolute', top: 'calc(100% + 6px)', left: 0, zIndex: 21, minWidth: 184,
+            position: 'fixed', top: pos.top, left: pos.left, zIndex: 9999, minWidth: 184,
             background: 'var(--background)', border, borderRadius: 10,
             boxShadow: '0 10px 28px rgba(0,0,0,0.20)', padding: 5,
           }}>

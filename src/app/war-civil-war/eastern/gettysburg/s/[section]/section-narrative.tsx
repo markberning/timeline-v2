@@ -8,11 +8,20 @@
 // integration comes later. Person side-tags applied per the standing rule.
 
 import { useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { WarBreadcrumb } from '@/components/mode/war-chrome'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
 const ACCENT = '#7c3aed' // Civil War (violet)
+
+// Theatre switcher (same dropdown the theatre/battle pages use). A section sits
+// under Gettysburg → Eastern Theatre; Eastern is the checked entry.
+const THEATRE_OPTIONS = [
+  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
+  { label: 'Western Theatre', href: '/war-civil-war/western' },
+  { label: 'Trans-Mississippi', disabled: true },
+  { label: 'Naval & Coastal', disabled: true },
+]
 
 type Block =
   | { h: string; eyebrow?: string }
@@ -165,8 +174,17 @@ export function SectionNarrative({ id }: { id: string }) {
   let firstP = true
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      {/* sticky chapter header */}
-      <div style={{ position: 'sticky', top: 0, zIndex: 8, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
+      <WarBreadcrumb
+        accent={ACCENT}
+        crumbs={[
+          { label: 'War', href: '/' },
+          { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
+          { label: 'Eastern Theatre', href: '/war-civil-war/eastern', options: THEATRE_OPTIONS },
+          { label: 'Gettysburg', href: '/war-civil-war/eastern/gettysburg' },
+        ]}
+      />
+      {/* sticky chapter header — sits below the breadcrumb bar */}
+      <div style={{ position: 'sticky', top: 36, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px' }}>
           <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
@@ -175,7 +193,6 @@ export function SectionNarrative({ id }: { id: string }) {
             <div style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.eyebrow}</div>
             <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.15, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.title}</div>
           </div>
-          <DarkModeToggle />
         </div>
       </div>
 

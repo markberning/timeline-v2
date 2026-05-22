@@ -11,10 +11,18 @@ import { useState } from 'react'
 import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
 
+// Theatre switcher (same dropdown the theatre pages use). Gettysburg sits in
+// the Eastern theatre, so that's the checked entry.
+const THEATRE_OPTIONS = [
+  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
+  { label: 'Western Theatre', href: '/war-civil-war/western' },
+  { label: 'Trans-Mississippi', disabled: true },
+  { label: 'Naval & Coastal', disabled: true },
+]
 const CRUMBS = [
   { label: 'War', href: '/' },
-  { label: 'American Civil War', href: '/war-civil-war' },
-  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
+  { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
+  { label: 'Eastern Theatre', href: '/war-civil-war/eastern', options: THEATRE_OPTIONS },
   { label: 'Gettysburg' },
 ]
 
