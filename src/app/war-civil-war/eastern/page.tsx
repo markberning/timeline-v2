@@ -20,7 +20,6 @@ const FAINT = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const BORDER_STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
 const CARD = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
-const GRID = 'color-mix(in srgb, var(--foreground) 5%, transparent)'
 
 const num = (n: number) => n.toLocaleString('en-US')
 
@@ -256,46 +255,77 @@ function CommandersStrip() {
   )
 }
 
-// Stylised VA/MD/PA map with battle markers and the Washington–Richmond axis.
+// 8-bit pixel-art map of the theatre on the grid. Each char is one cell:
+// P/M = gray states (Pennsylvania / Maryland), V = violet Virginia.
+const ET_GRID = [
+  '............................',
+  '..PPPPPPPPPPPPPPPPPPPPPPP....',
+  '..PPPPPPPPPPPPPPPPPPPPPPPP...',
+  '..PPPPPPPPPPPPPPPPPPPPPPPP...',
+  '..PPPPPPPPPPPPPPPPPPPPPPPP...',
+  '..PPPPPPPPPPPPPPPPPPPPPPPP...',
+  '....MMMMMMMMMMMMMMMMMMMMMM...',
+  '............MMMMMMMMMMMMMM...',
+  '............MMMMMMM.MMMMMM...',
+  '...VVVVVVVVVVVVVVVV..VV.MM...',
+  '...VVVVVVVVVVVVVVVVVV...VV...',
+  '...VVVVVVVVVVVVVVVVVV...VV...',
+  '..VVVVVVVVVVVVVVVVVV.........',
+  '.VVVVVVVVVVVVVVVVVV..........',
+  'VVVVVVVVVVVVVVVVV............',
+  '..VVVVVVVVVVVVVV.............',
+  '...VVVVVVVVVV................',
+  '.....VVVVVV..................',
+  '.......VV...................',
+  '............................',
+]
+const ET_CELL = 13, ET_COLS = 28, ET_ROWS = 20
+type Mark = { c: number; r: number; label: string; kind: 'site' | 'capital-u' | 'capital-c'; anchor: 'start' | 'end' }
+const ET_MARKS: Mark[] = [
+  { c: 13, r: 4, label: 'Gettysburg', kind: 'site', anchor: 'start' },
+  { c: 7, r: 6, label: 'Antietam', kind: 'site', anchor: 'start' },
+  { c: 17, r: 8, label: 'Washington', kind: 'capital-u', anchor: 'start' },
+  { c: 14, r: 10, label: 'Bull Run', kind: 'site', anchor: 'end' },
+  { c: 16, r: 11, label: 'Fredericksburg', kind: 'site', anchor: 'start' },
+  { c: 17, r: 12, label: 'Richmond', kind: 'capital-c', anchor: 'start' },
+  { c: 17, r: 14, label: 'Petersburg', kind: 'site', anchor: 'start' },
+  { c: 9, r: 15, label: 'Appomattox', kind: 'site', anchor: 'end' },
+]
+
 function ETMap() {
-  const pts: { x: string; y: string; label: string; heavy?: boolean; kind?: 'capital' }[] = [
-    { x: '70%', y: '14%', label: 'Gettysburg', heavy: true },
-    { x: '60%', y: '28%', label: 'Antietam' },
-    { x: '52%', y: '38%', label: 'Washington', kind: 'capital' },
-    { x: '60%', y: '46%', label: 'Bull Run' },
-    { x: '46%', y: '56%', label: 'Fredericksburg' },
-    { x: '42%', y: '70%', label: 'Chancellorsville' },
-    { x: '40%', y: '84%', label: 'Richmond', kind: 'capital' },
-    { x: '50%', y: '92%', label: 'Petersburg' },
-    { x: '28%', y: '88%', label: 'Appomattox' },
-  ]
+  const W = ET_COLS * ET_CELL, H = ET_ROWS * ET_CELL
+  const gridline = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
+  const stateLbl = 'color-mix(in srgb, var(--foreground) 34%, transparent)'
+  const dotFill = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
+  const fillFor = (ch: string) => ch === 'V' ? alpha(ACCENT, 0.24) : ch === 'M' ? 'color-mix(in srgb, var(--foreground) 19%, transparent)' : 'color-mix(in srgb, var(--foreground) 14%, transparent)'
+  const cap = (k: string) => k === 'capital-u' ? ACCENTS.blue : ACCENTS.rust
+  const wash = ET_MARKS.find(m => m.kind === 'capital-u')!, rich = ET_MARKS.find(m => m.kind === 'capital-c')!
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
       <Eyebrow color={ACCENT}>Geography</Eyebrow>
-      <div style={{ marginTop: 12, position: 'relative', height: 280, borderRadius: 6, background: CARD, border: `1px solid ${BORDER}`, overflow: 'hidden', backgroundImage: [`repeating-linear-gradient(0deg, ${GRID} 0 1px, transparent 1px 22px)`, `repeating-linear-gradient(90deg, ${GRID} 0 1px, transparent 1px 22px)`].join(',') }}>
-        {/* Pennsylvania */}
-        <div style={{ position: 'absolute', left: '38%', right: '8%', top: '4%', height: '18%', background: GRID, borderRadius: 4, boxShadow: `inset 0 0 0 1px ${BORDER}` }} />
-        <div style={{ position: 'absolute', right: '14%', top: '6%', fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.4, color: FAINT }}>PA</div>
-        {/* Maryland */}
-        <div style={{ position: 'absolute', left: '40%', right: '20%', top: '22%', height: '18%', background: GRID, borderRadius: 4, boxShadow: `inset 0 0 0 1px ${BORDER}` }} />
-        <div style={{ position: 'absolute', right: '26%', top: '24%', fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.4, color: FAINT }}>MD</div>
-        {/* Virginia — the corridor */}
-        <div style={{ position: 'absolute', left: '10%', right: '14%', top: '40%', bottom: '6%', background: alpha(ACCENT, 0.1), border: `1px dashed ${alpha(ACCENT, 0.55)}`, borderRadius: 6 }} />
-        <div style={{ position: 'absolute', left: '16%', top: '44%', fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.4, color: ACCENT }}>VIRGINIA · CORRIDOR</div>
-        {/* axis between capitals */}
-        <div style={{ position: 'absolute', left: '40%', right: '56%', top: '36%', bottom: '12%', borderLeft: `1.5px dashed color-mix(in srgb, var(--foreground) 35%, transparent)` }} />
-        {/* dots */}
-        {pts.map(p => {
-          const cap = p.kind === 'capital'
-          return (
-            <div key={p.label} style={{ position: 'absolute', left: p.x, top: p.y, transform: 'translate(-50%,-50%)' }}>
-              <div style={{ width: cap ? 12 : (p.heavy ? 10 : 7), height: cap ? 12 : (p.heavy ? 10 : 7), borderRadius: cap ? 2 : 999, background: cap ? 'var(--foreground)' : ACCENT, boxShadow: (p.heavy && !cap) ? `0 0 0 3px ${alpha(ACCENT, 0.2)}` : 'none' }} />
-              <div style={{ position: 'absolute', left: 14, top: -3, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.3, color: cap ? 'var(--foreground)' : MUTED, whiteSpace: 'nowrap', fontWeight: cap ? 700 : 500 }}>{p.label}</div>
-            </div>
-          )
-        })}
-        <div style={{ position: 'absolute', left: '8%', bottom: 10, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.4, color: FAINT }}>110 mi  between two capitals</div>
+      <div style={{ marginTop: 12, borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD }}>
+        <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', height: 'auto', display: 'block', imageRendering: 'pixelated' }}>
+          {ET_GRID.flatMap((row, r) => row.split('').map((ch, c) => ch === '.' ? null : (
+            <rect key={`${r}-${c}`} x={c * ET_CELL} y={r * ET_CELL} width={ET_CELL} height={ET_CELL} fill={fillFor(ch)} />
+          )))}
+          {Array.from({ length: ET_COLS + 1 }, (_, c) => <line key={`v${c}`} x1={c * ET_CELL} y1={0} x2={c * ET_CELL} y2={H} stroke={gridline} strokeWidth={1} />)}
+          {Array.from({ length: ET_ROWS + 1 }, (_, r) => <line key={`h${r}`} x1={0} y1={r * ET_CELL} x2={W} y2={r * ET_CELL} stroke={gridline} strokeWidth={1} />)}
+          <text x={4 * ET_CELL} y={3 * ET_CELL} fontFamily={MONO} fontSize={8.5} letterSpacing={1} fill={stateLbl}>PENNSYLVANIA</text>
+          <text x={4.2 * ET_CELL} y={6.6 * ET_CELL} fontFamily={MONO} fontSize={8.5} letterSpacing={1} fill={stateLbl}>MD</text>
+          <text x={1 * ET_CELL} y={13.4 * ET_CELL} fontFamily={MONO} fontSize={8.5} letterSpacing={1} fill={stateLbl}>VIRGINIA</text>
+          <line x1={wash.c * ET_CELL + ET_CELL / 2} y1={wash.r * ET_CELL + ET_CELL / 2} x2={rich.c * ET_CELL + ET_CELL / 2} y2={rich.r * ET_CELL + ET_CELL / 2} stroke="color-mix(in srgb, var(--foreground) 38%, transparent)" strokeWidth={1.5} strokeDasharray="3 3" />
+          <text x={rich.c * ET_CELL + 15} y={(wash.r + rich.r) / 2 * ET_CELL + 6} fontFamily={MONO} fontSize={8.5} fill={MUTED}>110 mi</text>
+          {ET_MARKS.map(m => m.kind.startsWith('capital')
+            ? <rect key={m.label} x={m.c * ET_CELL + 1.5} y={m.r * ET_CELL + 1.5} width={ET_CELL - 3} height={ET_CELL - 3} fill={cap(m.kind)} stroke="var(--background)" strokeWidth={1.4} />
+            : <rect key={m.label} x={m.c * ET_CELL + ET_CELL / 2 - 3} y={m.r * ET_CELL + ET_CELL / 2 - 3} width={6} height={6} fill={dotFill} stroke="var(--background)" strokeWidth={1} />
+          )}
+          {ET_MARKS.map(m => {
+            const cx = m.c * ET_CELL + ET_CELL / 2, cy = m.r * ET_CELL + ET_CELL / 2
+            return <text key={m.label} x={m.anchor === 'end' ? cx - 8 : cx + 8} y={cy + 3} fontFamily={MONO} fontSize={9} fill="var(--foreground)" textAnchor={m.anchor} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.6}>{m.label}</text>
+          })}
+        </svg>
       </div>
+      <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: FAINT }}>Most of the war’s battles fell in the 110-mile corridor between Washington and Richmond.</div>
     </div>
   )
 }
