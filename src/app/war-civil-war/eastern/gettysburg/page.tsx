@@ -183,7 +183,7 @@ function Fishhook() {
         {roads.map((deg, i) => { const r = deg * Math.PI / 180; return <line key={i} x1={TOWN.x} y1={TOWN.y} x2={TOWN.x + Math.cos(r) * 26} y2={TOWN.y + Math.sin(r) * 26} stroke={fg} strokeOpacity={0.16} strokeWidth={1.2} /> })}
 
         {/* Confederate lines (rust): Seminary Ridge + outer arc north of town */}
-        <path d="M92,92 C118,66 168,62 224,92" fill="none" stroke={rust} strokeWidth={2.5} strokeDasharray="5 4" opacity={0.85} />
+        <path d="M92,92 C118,66 168,62 224,92" fill="none" stroke={rust} strokeWidth={4} strokeLinecap="round" />
         <path d="M92,92 L98,250" fill="none" stroke={rust} strokeWidth={4} strokeLinecap="round" />
         {/* Union fishhook (blue): Culp's Hill barb → Cemetery Hill → ridge → Round Tops */}
         <path d="M196,114 C206,96 188,86 168,92 C160,95 165,104 164,112 L161,234 L156,250" fill="none" stroke={blue} strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
@@ -219,7 +219,7 @@ function Fishhook() {
 
         {/* Day 3 — Pickett's Charge */}
         <g opacity={dayOp(3)} style={grp}>
-          <line x1="102" y1="158" x2="156" y2="158" stroke={ACCENTS.rust} strokeWidth={3} strokeDasharray="6 4" markerEnd="url(#ah-rust)" />
+          <line x1="102" y1="158" x2="156" y2="158" stroke={ACCENTS.rust} strokeWidth={3} markerEnd="url(#ah-rust)" />
           <rect x="157" y="154.5" width="6.5" height="6.5" transform="rotate(45 160.25 157.75)" fill={ACCENTS.rust} />
           <Lbl x={168} y={150} color={ACCENTS.rust}>the Angle — high-water mark</Lbl>
         </g>
@@ -248,11 +248,25 @@ function Fishhook() {
         })}
       </div>
 
-      {/* static line key */}
-      <div style={{ display: 'flex', gap: 14, marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>
-        <span><span style={{ color: blue }}>▬</span> Union line</span>
-        <span><span style={{ color: rust }}>▬</span> Confederate line</span>
+      {/* legend / key for every glyph on the map */}
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px 16px', marginTop: 10, fontFamily: SANS, fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 68%, transparent)', alignItems: 'center' }}>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+          <svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" stroke={blue} strokeWidth="3" strokeLinecap="round" /></svg>Union line
+        </span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+          <svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" stroke={rust} strokeWidth="3" strokeLinecap="round" /></svg>Confederate line
+        </span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+          <svg width="26" height="10"><line x1="1" y1="5" x2="16" y2="5" stroke={DAY_COLOR[active]} strokeWidth="2.4" /><path d="M15,1 L24,5 L15,9 z" fill={DAY_COLOR[active]} /></svg>Attack
+        </span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+          <svg width="12" height="10"><circle cx="6" cy="5" r="4" fill={DAY_COLOR[active]} /></svg>Key fighting
+        </span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+          <svg width="14" height="12"><path d="M2,11 L7,2 L12,11 z" fill={fg} opacity="0.4" /></svg>Hill (the Round Tops)
+        </span>
       </div>
+      <div style={{ fontFamily: SANS, fontSize: 9.5, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)', marginTop: 6 }}>Attacks &amp; fighting markers take the selected day’s colour.</div>
 
       {/* selected day's explanation */}
       {(() => {
