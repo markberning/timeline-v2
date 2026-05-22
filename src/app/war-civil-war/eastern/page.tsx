@@ -20,7 +20,6 @@ const FAINT = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const BORDER_STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
 const CARD = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
-const CHIP = 'color-mix(in srgb, var(--foreground) 8%, transparent)'
 const GRID = 'color-mix(in srgb, var(--foreground) 5%, transparent)'
 
 const num = (n: number) => n.toLocaleString('en-US')
@@ -130,11 +129,11 @@ function GenericHero() {
     <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: ET.heroPalette[2] }}>
       {failed
         ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${ET.heroPalette[0]}, ${ET.heroPalette[1]} 55%, ${ET.heroPalette[2]})` }} />
-        : <img src={ET.heroImage} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 35%', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
+        : <img src={ET.heroImage} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.22)', transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 30%, rgba(10,6,6,0.86) 100%)' }} />
       <div style={{ position: 'absolute', right: 10, top: 60, padding: '3px 7px', background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderRadius: 4, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.75)', pointerEvents: 'none' }}>{ET.heroCredit}</div>
       <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
-        <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: ACCENT, textTransform: 'uppercase', textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>{`War · ${ET.chain.name} · ${ET.chain.index} of ${ET.chain.total}`}</div>
+        <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: '#c4b5fd', textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>{`War · ${ET.chain.name} · ${ET.chain.index} of ${ET.chain.total}`}</div>
         <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontSize: 28, lineHeight: 1.05, letterSpacing: -0.5, fontWeight: 500, textShadow: '0 2px 12px rgba(0,0,0,0.55)' }}>{ET.name}</h1>
         <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 12.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.78)' }}>{`${ET.span} · ${ET.region}`}</div>
       </div>
@@ -199,16 +198,13 @@ function AtAGlance() {
     { v: String(ET.battlesCount), k: 'Battles' },
     { v: num((ET.casualties.union + ET.casualties.csa) / 1000) + 'k', k: 'Dead' },
   ]
-  const summary = stats.map(s => `${s.v} ${s.k.toLowerCase()}`).join(' · ')
   return (
     <div style={{ borderBottom: `1px solid ${BORDER}` }}>
-      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', padding: '12px 14px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'var(--foreground)', textAlign: 'left', gap: 12 }}>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 10, minWidth: 0, flex: 1 }}>
-          <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: ACCENT, textTransform: 'uppercase', flexShrink: 0 }}>At a glance</span>
-          {!open && <span style={{ fontFamily: SERIF, fontSize: 13, color: MUTED, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', minWidth: 0 }}>{summary}</span>}
-        </div>
-        <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 22, height: 22, borderRadius: 999, background: CHIP, color: MUTED, border: `1px solid ${BORDER}`, transition: 'transform 200ms ease', transform: open ? 'rotate(180deg)' : 'none', flexShrink: 0 }}>
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '14px 16px', color: 'inherit' }}>
+        <Eyebrow color={ACCENT}>At a glance</Eyebrow>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: ACCENT }}>
+          {open ? 'Hide' : 'Show'}
+          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(ACCENT, 0.55)}`, background: alpha(ACCENT, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
         </span>
       </button>
       {open && (
@@ -222,6 +218,7 @@ function AtAGlance() {
             ))}
           </div>
           <ArmiesFaceoff />
+          <CommandersStrip />
           <CasualtiesBlock />
         </>
       )}
@@ -231,7 +228,7 @@ function AtAGlance() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '20px 0 22px', borderBottom: `1px solid ${BORDER}` }}>
+    <div style={{ padding: '20px 0 22px', borderTop: `1px solid ${BORDER}` }}>
       <div style={{ padding: '0 16px' }}><Eyebrow color={ACCENT}>Commanders</Eyebrow></div>
       <div style={{ display: 'flex', gap: 12, overflowX: 'auto', padding: '12px 16px 0' }}>
         {ET.commanders.map(f => {
@@ -351,7 +348,6 @@ export default function EasternTheatrePage() {
         {view === 'dossier' ? (
           <>
             <AtAGlance />
-            <CommandersStrip />
             <ETMap />
             <InterleavedCampaigns active="east" />
           </>

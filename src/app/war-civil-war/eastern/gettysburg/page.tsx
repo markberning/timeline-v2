@@ -70,11 +70,11 @@ function HeroImg() {
     <div style={{ position: 'relative', height: 260, overflow: 'hidden' }}>
       {failed
         ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${HERO_PAL[0]}, ${HERO_PAL[1]} 55%, ${HERO_PAL[2]})` }} />
-        : <img src={HERO_IMG} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />}
+        : <img src={HERO_IMG} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.22)', transformOrigin: 'center' }} />}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.75) 100%)' }} />
       <div style={{ position: 'absolute', top: 10, right: 12, fontFamily: SANS, fontSize: 9, color: 'rgba(255,255,255,0.7)', background: 'rgba(0,0,0,0.4)', padding: '3px 7px', borderRadius: 4 }}>Thure de Thulstrup, 1887 · chromolithograph</div>
       <div style={{ position: 'absolute', left: 16, right: 16, bottom: 14 }}>
-        <Eyebrow color={ACCENT}>Battle · Eastern Theatre battles · 5 of 8</Eyebrow>
+        <Eyebrow color="#c4b5fd">Battle · Eastern Theatre battles · 5 of 8</Eyebrow>
         <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 30, lineHeight: 1.05, letterSpacing: -0.5, color: '#fff' }}>Battle of Gettysburg</h1>
         <div style={{ fontFamily: SERIF, fontSize: 14, color: 'rgba(255,255,255,0.82)', marginTop: 4 }}>July 1–3, 1863 · Adams County, Pennsylvania</div>
       </div>
