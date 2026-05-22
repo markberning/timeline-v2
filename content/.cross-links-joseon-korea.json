@@ -35,6 +35,120 @@
       "targetTl": "mongol-empire",
       "targetChapter": 6,
       "blurb": "Goryeo's century as a Mongol son-in-law state is the trauma Joseon's founders defined themselves against."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Tungusic-speaking forest people north of Korea who, three centuries later, would unite as the Manchus, conquer China, and found the Qing dynasty."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "China's last imperial dynasty (1644–1912), founded by the Manchus, who would later force Joseon into vassalage."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Japan's 1868 overthrow of the shogunate and rush to modernize — the upheaval that ended the long Tokugawa peace."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Italy's rebirth of classical art and learning, unfolding just as Joseon was founding itself on the far side of Eurasia."
+    },
+    {
+      "matchText": "Reformation",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 8,
+      "blurb": "The sixteenth-century split of Western Christianity — one of the convulsions reshaping Europe while Joseon stayed unchanged."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "Europe's eighteenth-century age of reason — another sweeping transformation that came and went over Joseon's long life."
+    },
+    {
+      "matchText": "French Revolution",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "The 1789 overthrow of the French monarchy, born of Enlightenment ideas — one more European earthquake during Joseon's tenure."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Europe's leap into machine production and factory labor — the change that would eventually reach and unmake old East Asia."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "The Chinese dynasty (960–1279) under which Neo-Confucianism was synthesized — the philosophy Joseon would adopt as its state ideology."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 4,
+      "blurb": "Confucianism had been part of Korean elite culture since the Three Kingdoms period, long before Joseon made it the official creed."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "The faith that had defined Korean (and East Asian) cultural life for centuries before Joseon set out to suppress it."
+    },
+    {
+      "matchText": "Safavid",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "The Persian dynasty that forcibly converted Iran from Sunni to Shia Islam — a religious displacement as thorough as Joseon's purge of Buddhism."
+    },
+    {
+      "matchText": "Confucius",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 1,
+      "blurb": "The sixth-century-BCE Chinese sage of the Zhou era whose ethics, reworked by later thinkers, became Joseon's governing philosophy."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "While Joseon was being founded, the Ottomans under Bayezid I were conquering southeastern Europe."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Byzantine capital the Ottomans were already encircling in 1392 and would seize in 1453."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "The long Anglo-French conflict grinding through its later phases just as Joseon was born."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The cultural rebirth finding its earliest footing in figures like Brunelleschi while Joseon laid out its new capital."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "On the far side of the world, the Inca under Pachacuti were about to begin their great burst of Andean expansion."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "The Turco-Mongol conqueror who, in the Mongol Empire's long afterlife, was building pyramids of skulls across Iran, Iraq, and India as Joseon began."
     }
   ],
   "2": [
@@ -55,6 +169,60 @@
       "targetTl": "han-dynasty",
       "targetChapter": 5,
       "blurb": "Sejong's Confucian state-building — script, science, ritual — is the fullest realization of the Han-derived bureaucratic model in Korea."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in earlier Korea: Confucian learning had been imported from China and institutionalized under Unified Silla, the seedbed of the scholar-official ideal Joseon would push to its limit."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Abbasid Baghdad: caliphal patronage under figures like al-Ma'mun had turned the city into the great translation-and-science hub of its age — the same pay-the-scholars idea Sejong's Hall of Worthies would echo."
+    },
+    {
+      "matchText": "Akbar",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Mughal India: Akbar the Great would run his own concentrated golden age of art, administration, and religious experiment in the late sixteenth century."
+    },
+    {
+      "matchText": "Jurchen",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in China's past: the same Tungusic Jurchen people had already shocked the world by overrunning the Northern Song and founding the Jin dynasty — a preview of the power they would regain as the Manchus."
+    },
+    {
+      "matchText": "Imperial Academy",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Han China: Emperor Wu founded the Taixue, the world's first state-funded academy for training officials — the original of the state-scholars idea Sejong rebuilt in Korea."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: Latin was the language of empire and, later, of the medieval European learned class — a foreign prestige tongue much as classical Chinese was for educated Koreans."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty was Joseon's giant neighbor and cultural lodestar, the power whose script and orthodoxy the yangban feared abandoning."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the strait: Buddhism had reshaped the Japanese state centuries earlier, while in Confucian Joseon it was being pushed to the cultural margins."
+    },
+    {
+      "matchText": "Reformation",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Europe: the religious upheavals leading to the Reformation were still brewing — and Korean books were already cheaper and more widely printed than European ones would be until then."
     }
   ],
   "3": [
@@ -93,6 +261,66 @@
       "targetTl": "aztec-empire",
       "targetChapter": 3,
       "blurb": "Joseon's rigid status hierarchy is a Confucian cousin of the Aztec tributary order — different cosmology, same logic of a service nobility atop commoners."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in China: the Tang and Song dynasties had built the imperial civil-service examination into the central machine of government — the model Joseon copied, scaled down, and made even more rigidly hereditary in the gwageo."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in earlier Korea: Confucian learning had been imported from China and institutionalized under Unified Silla, planting the scholar-official ideal that the Joseon yangban would push to its absolute limit."
+    },
+    {
+      "matchText": "Goryeo",
+      "targetTl": "goryeo-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the dynasty before Joseon: Goryeo had given Korean women relatively free standing — equal inheritance, easy remarriage, bilateral kinship — much of which the Confucianizing Joseon court would systematically grind away."
+    },
+    {
+      "matchText": "Zhu Xi",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Song China: the philosopher Zhu Xi had fused Confucian ethics into a sweeping metaphysical system, the Neo-Confucian orthodoxy whose fine points Joseon scholars like Toegye and Yulgok would spend centuries refining."
+    },
+    {
+      "matchText": "Pachacuti",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Andes: the conqueror-king Pachacuti was forging the Inca Empire into the largest state in the pre-Columbian Americas — at almost exactly the moment Joseon's yangban order was setting hard."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South America: the Andean highlands had already cradled the Wari and Tiwanaku empires, the road-and-storehouse states whose template the Inca would later inherit and surpass."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the eastern Mediterranean: Mehmed II's Ottomans took Constantinople in 1453, snuffing out the last Roman empire and announcing themselves as the new great power between Europe and Asia."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in the Christian East: the fall of Constantinople in 1453 ended the thousand-year Byzantine Empire — the same mid-fifteenth-century moment Joseon's class hierarchy was locking into place on the far side of the world."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty was Joseon's giant neighbor and cultural lodestar, settling into the complacent middle decades of a reign whose Confucian script and orthodoxy Korea looked to as the standard."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Italy: the Quattrocento Renaissance was producing Donatello, Brunelleschi, and the young Botticelli — a burst of artistic reinvention happening in a Europe Joseon Korea had barely heard of."
     }
   ],
   "4": [
@@ -137,6 +365,24 @@
       "targetTl": "persian-empire",
       "targetChapter": 5,
       "blurb": "Korea survived the Imjin War as a battered but continuous state — the resilience of an old civilization absorbing a near-fatal invasion."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Ming China: the dynasty poured 8 to 25 million ounces of silver into rescuing its Korean tributary from Hideyoshi — a forward defense of the Chinese frontier that helped drain the treasury and hasten the Ming's own fall."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the northern frontier: the Manchu (Jurchen) were beginning the rise that would topple the Ming in 1644 and force Joseon to choose between its Ming benefactor and a new conqueror."
+    },
+    {
+      "matchText": "Unified Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Korea's deep past: Unified Silla (676–935) was the peninsula's golden age, whose Bulguksa temple near Gyeongju the Japanese armies would burn centuries later."
     }
   ],
   "5": [
@@ -157,6 +403,42 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 7,
       "blurb": "Hamel's thirteen-year detention in Korea is part of the broader story of European traveler-captives accumulating early-modern ethnographic knowledge under non-European confinement. The Ottoman captivity narratives of the same period (Polish, Italian, Russian sailors enslaved in Algiers and Tunis) produced a substantial European literature about the unknown East. Hamel's Journal performed the same function for Korea — producing a detailed European description of an otherwise inaccessible East Asian society from the position of an involuntary insider."
+    },
+    {
+      "matchText": "Jurchen",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Jurchens — the same Tungusic forest people consolidating north of Korea here — had centuries earlier swept out of Manchuria to found the Jin dynasty and seize north China, driving the Song court south."
+    },
+    {
+      "matchText": "Jurchens",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: these northern forest tribes were the heirs of the earlier Jurchens who founded the Jin dynasty and conquered north China, pushing the Song into its long southern exile."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Mongols whose thirteenth-century invasions had once sent Korean kings fleeing to Ganghwa Island built the largest contiguous land empire in history under Genghis Khan and his heirs."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Mongols now riding as Qing auxiliaries had, generations before, conquered from China to eastern Europe under Genghis Khan's empire."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty — the Han-Chinese power Joseon revered as its civilizational benefactor — was visibly collapsing under peasant rebellion and Manchu pressure even as Korea clung to it."
+    },
+    {
+      "matchText": "Tokugawa Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the Tokugawa shogunate ran its own controlled isolation, yet still permitted a sliver of Dutch trade through Nagasaki — making it, by Joseon's measure, the less closed of the two."
     }
   ],
   "6": [
@@ -183,6 +465,42 @@
       "targetTl": "edo-japan",
       "targetChapter": 1,
       "blurb": "The Imjin War was Hideyoshi's invasion — the cataclysm that bled Joseon and helped clear the way for the Tokugawa order in Japan."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Qing dynasty: the Manchus, a people from northeast of the Great Wall, conquered Ming China and built the empire whose techniques and wealth so impressed traveling Joseon scholars."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Qing dynasty: the Manchu empire that ruled China during late Joseon, whose paved roads, brick cities, and water mills the Silhak travelers urged Korea to learn from."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Asuka-Nara Japan: Buddhism, the imported faith Joseon's Confucian state spent four centuries suppressing, had centuries earlier become the spiritual foundation of the early Japanese court."
+    },
+    {
+      "matchText": "American Revolution",
+      "targetTl": "early-american-republic",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the early American republic: while Jeongjo built the Gyujanggak, the American Revolution had just produced the United States Constitution of 1787."
+    },
+    {
+      "matchText": "French Revolution",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Enlightenment: as Dasan wrote in exile, the French Revolution erupted in 1789, toppling the monarchy at the other end of Eurasia."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mughal Empire: by the late eighteenth century India's great Muslim empire was nearly extinguished, with the British East India Company consolidating control across the subcontinent."
     }
   ],
   "7": [
@@ -209,6 +527,36 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 8,
       "blurb": "Joseon's faction wars and slow decline track the Ottoman 'long defeat' — an old empire ossifying as the early-modern world accelerated past it."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Korea's earlier history: the Neo-Confucian framework that turned Joseon court ritual into a matter of life and death — the same scholar-official tradition, civil-service examinations, and metaphysics of li and gi — had been imported from China and institutionalized in Korean statecraft over the preceding centuries."
+    },
+    {
+      "matchText": "Qing Empire",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in China: as Sedo-era Joseon stagnated, the Qing suffered its first humiliating defeat by a Western power in the First Opium War (1839–42), the opening shock of the \"century of humiliation\" that would eventually engulf the whole East Asian order, Korea included."
+    },
+    {
+      "matchText": "United States",
+      "targetTl": "antebellum-america",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in America: while Joseon turned inward under in-law clan rule, the United States was completing its continental expansion through the Mexican War (1846–48), seizing the territory that would carry the slavery crisis to its breaking point."
+    },
+    {
+      "matchText": "Russian Empire",
+      "targetTl": "russian-empire",
+      "targetChapter": 17,
+      "blurb": "Meanwhile in Russia: the same decades that saw Joseon paralyzed by Sedo politics saw the Russian Empire pushing its frontier eastward into Central Asia and southward toward Iran — the imperial pressure that would soon reach Korea's own northern border."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Persia: the Safavid state had already collapsed, and its successor the Qajar dynasty was being subjected to Russian military and diplomatic pressure at the same moment Joseon faced its own analogous squeeze from the industrial-age powers."
     }
   ],
   "8": [
@@ -241,6 +589,54 @@
       "targetTl": "korean-modern",
       "targetChapter": 1,
       "blurb": "The 1910 annexation is where the Joseon story ends and the Korean Modern story begins. The Korean Modern TL picks up at the colonial moment: thirty-five years of Japanese rule, the cultural-erasure policies, the wartime mobilizations, the comfort-women system, and the long road through liberation, division, war, and the eventual emergence of two very different Koreas on either side of the 38th parallel."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in early Korea: Confucian statecraft and scholarship had taken root centuries before Joseon, becoming the framework of the unified peninsular kingdom."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Manchu Qing dynasty ruled the empire that had claimed Joseon as a tributary, and whose collapse in the same era left Korea exposed to Japan."
+    },
+    {
+      "matchText": "Meiji",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the Meiji Restoration had remade the country into a modern industrial and military power, the very engine now bearing down on Korea."
+    },
+    {
+      "matchText": "Korean Modern",
+      "targetTl": "korean-modern",
+      "targetChapter": 1,
+      "blurb": "Next in the chain: Korea under Japanese colonial rule and the divided peninsula that followed Joseon's end."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mediterranean: the Roman Empire, founded by Augustus, ran for roughly five centuries in the West — a long-lived state Joseon outlasted."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty, Joseon's longtime patron and cultural model, lasted 276 years before falling to the Manchus."
+    },
+    {
+      "matchText": "Tokugawa Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Japan: the Tokugawa shogunate ran a closed, stable order for over two and a half centuries before the Meiji opening."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Manchus conquered the Ming and forced Joseon's humiliating surrender at Samjeondo, founding the Qing dynasty."
     }
   ]
 }
