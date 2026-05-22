@@ -59,6 +59,84 @@
       "targetTl": "qin-dynasty",
       "targetChapter": 4,
       "blurb": "Tang frontier policy inherited the Qin-Han wall-and-garrison logic, now projected deep into the steppe under the 'Heavenly Khan.'"
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: when the court built Heian-kyo (modern Kyoto) in 794, it laid out the new capital on the same north-south grid plan codified at Sui Daxing two centuries earlier."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Korea: the Three Kingdoms were absorbing the same Confucian classics and statecraft that the Sui were now testing as an examination subject."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 8,
+      "blurb": "Meanwhile on the steppe: the Eastern Turks now held the same Mongolian grasslands the Xiongnu confederation had dominated seven centuries before."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Mediterranean: Justinian I was launching his own reconquest of the lost Roman west, an overstretch that mirrors Sui Yang's ambitions."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the west: the Western Roman Empire that Justinian dreamed of restoring had fallen in 476, leaving the successor kingdoms Byzantium hoped to reconquer."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Byzantium: Justinian rebuilt the Hagia Sophia in Constantinople (532-537), an engineering feat nearly contemporary with the design of Sui Daxing."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sassanid Empire under Khosrow I and his successors was entering its final century before the Arab Muslim conquest."
+    },
+    {
+      "matchText": "Sassanid Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sassanid Empire was the great rival power at the western end of the trade routes, a generation from its collapse to Islam."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in India: the Gupta Empire had fragmented, and its successor kingdoms were settling into the regional states of medieval India."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the early Maya city-states were entering the peak of their Classic Period, a world away from Sui China."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile across Eurasia: the caravan network the Han had opened under Emperor Wu still carried Chinese silk west to Persia and the Mediterranean."
+    },
+    {
+      "matchText": "Sassanids",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sassanids were one of the great trading partners at the western end of the Silk Road, in their last century of power."
+    },
+    {
+      "matchText": "Koguryo",
+      "targetTl": "ancient-korea",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Korea: Goguryeo, the warrior kingdom spanning Manchuria and the north, refused Sui suzerainty and shattered three Sui invasions."
     }
   ],
   "2": [
@@ -91,6 +169,48 @@
       "targetTl": "ancient-korea",
       "targetChapter": 6,
       "blurb": "The Silla kingdom unified the Korean peninsula in 668 with Tang military assistance against Goguryeo and Baekje, then promptly fought Tang armies to assert independence. The resulting compromise produced the unified Silla state that would dominate Korea for the next 250 years and that maintained extensive cultural exchange with the Tang — Silla students at the Tang capital, Tang Buddhist monks in Korea, and the Korean adoption of Tang law, art, and bureaucracy."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Tang military protectorates reached the borders of Persia — the old Iranian heartland that, centuries later, the Safavids would forge into a Shia state."
+    },
+    {
+      "matchText": "Western Turks",
+      "targetTl": "gokturk-khaganate",
+      "targetChapter": 5,
+      "blurb": "Meanwhile on the steppe: the Western Turkic Khaganate was the western half of the Göktürk realm after its great east-west split, before Tang armies broke it in 657."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in India, a millennium earlier: the Buddha — a Kshatriya prince turned wandering teacher — founded the tradition whose Maitreya prophecy Wu Zetian would later use to justify her rule."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, back at the beginning: silk and the long-distance jade trade of prehistoric China seeded the overland route that, by the High Tang, was carrying the world's goods to Chang'an."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Middle East: the Umayyad and then Abbasid caliphates were building the first Islamic empire, whose Central Asian frontier was already brushing up against Tang power."
+    },
+    {
+      "matchText": "Battle of Talas",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Caliphate: the 751 clash at the Talas River — the only direct Tang-Abbasid battle — handed the Islamic world Chinese papermaking captives and transformed literate culture."
+    },
+    {
+      "matchText": "Nara",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Japan: the new capital of Nara, founded in 710, was laid out on the Daxing/Chang'an grid — one of the clearest cases of Tang cultural projection across East Asia."
     }
   ],
   "3": [
@@ -147,6 +267,108 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
       "blurb": "Tang Chang'an and Byzantine Constantinople were the two great cosmopolitan capitals of the 7th century, each the terminus of the other's trade."
+    },
+    {
+      "matchText": "Abbasids",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid caliphs would seize power in 750 and build Baghdad in the 760s, raising a new megacity that briefly rivaled Chang'an itself."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the west: the Umayyads ruled the first great Islamic empire from Damascus, stretching from Spain to the edge of Central Asia."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China's earlier centuries: the Six Dynasties era of disunion is where Buddhism, calligraphy, and much of the culture the Tang inherited first took root."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile to the west: Sassanid Persia, the great rival of Rome and Byzantium, fell to the Arab Muslim conquest in the 650s — sending refugees and a last prince eastward to Tang protection."
+    },
+    {
+      "matchText": "Heian",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the Heian court drank in Tang culture wholesale — Chinese-style exams, Bai Juyi's verse, and the literary world that produced The Tale of Genji."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India's deep past: Sanskrit, the sacred language of the Vedic tradition, carried Buddhist scripture and terms like dhyana eastward into Chinese."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in ancient India: the historical Buddha emerged from the religious ferment of the post-Vedic age, founding the tradition that would centuries later remake Chinese culture."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China's future: the Mongol Yuan dynasty would later make blue-and-white porcelain the global signature of Chinese ceramics."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China's future: the Ming would mass-produce blue-and-white porcelain for European markets, completing the trade in Chinese ceramics that the Tang first ignited."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the west: Damascus was the capital of the Umayyad Caliphate at its peak, the western counterpart to Chang'an in the densely connected 8th-century world."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid revolution of 750 launched the era of Baghdad's intellectual flowering, the western anchor of the Eurasian trade system."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in western Europe: the Carolingian dynasty was rebuilding a Frankish state under Charles Martel and Charlemagne — Europe's eastern silk reached its courts."
+    },
+    {
+      "matchText": "Charles Martel",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Francia: Charles Martel halted an Arab advance at Tours in 732 and laid the foundation for his grandson Charlemagne's empire."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Mesoamerica: the great Maya city of Tikal was at its Classic-period peak, an entire urban world unconnected to the Eurasian one."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South America: the Wari and Tiwanaku empires dominated the Andes during the Middle Horizon."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Wari empire ran a highland imperial network from its capital near modern Ayacucho."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile near Lake Titicaca: Tiwanaku built a monumental ceremonial state that shaped the southern Andes for centuries."
     }
   ],
   "4": [
@@ -185,6 +407,84 @@
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "The Mongol conquests of the 13th century — the only pre-modern conflict whose death toll competes with the An Lushan Rebellion's — would similarly reshape the Eurasian political map. The Mongols would take down the Jurchen Jin (which had risen in the wake of the Tang collapse), the Tangut Western Xia, the Abbasid Caliphate (Hulagu's sack of Baghdad in 1258 finished the Islamic Golden Age in much the way An Lushan had finished the Tang's golden age), and finally the Southern Song itself in 1279."
+    },
+    {
+      "matchText": "Qing Dynasty",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Qing story: the Ming–Qing transition of the 1640s was the only later Chinese upheaval whose death toll rivaled the An Lushan Rebellion's."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Persian world: Chang'an's Persian community traced back to Sassanid Iran, whose fall to the Arabs sent refugees and merchants eastward along the Silk Road."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Six Dynasties era: the ornate parallel-prose style that Han Yu's \"ancient prose\" movement rebelled against had taken hold during the fragmented post-Han centuries."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in ancient India: the historical Buddha, whose finger-bone relic Han Yu attacked in 819, taught in the Ganges plain more than a thousand years earlier."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the same Buddhism the Tang persecuted in 845 had been adopted as a state religion, igniting the Buddhist crisis at the dawn of the Asuka period."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the long Chinese story: the Silk Road oasis network the Tang lost after the rebellion had linked China to the west since antiquity."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Korea: the Confucian revival Han Yu and Li Deyu championed was spreading across East Asia, where Unified Silla built its own Confucian institutions."
+    },
+    {
+      "matchText": "Umayyad Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Revolution that overthrew the Umayyad Caliphate in 750 coincided almost exactly with the Tang's collapse into the An Lushan Rebellion."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iraq: the Abbasids founded Baghdad in 762, building a new imperial capital just as the Tang was losing control of its own."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Europe: Charlemagne was crowned emperor on Christmas Day 800, a few decades after An Lushan's rebellion shattered Tang central power."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: Heian-kyō (modern Kyoto), founded in 794 and modeled on Chang'an, opened the great age of Heian court culture."
+    },
+    {
+      "matchText": "Classic Period",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the Maya Classic Period began its mysterious collapse around 800, an unrelated catastrophe that emptied the great city-states."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the Maya city-states fell apart in the same century the Tang did, for reasons still debated."
     }
   ],
   "5": [
@@ -205,6 +505,36 @@
       "targetTl": "han-dynasty",
       "targetChapter": 5,
       "blurb": "The Five Dynasties interregnum is a compressed replay of the Han-collapse pattern — brief warlord states before reunification under the Song."
+    },
+    {
+      "matchText": "Mongol conquest",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, the steppe power that would finish the Song. Kublai Khan completed the conquest of southern China in 1279 and founded the Yuan dynasty."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "The Mongols swallowed all of China by 1279 under Kublai Khan, ending the Song and founding the Yuan dynasty."
+    },
+    {
+      "matchText": "Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the late-Roman world, the Goths admitted across the Danube turned on Rome and destroyed an emperor's army at Adrianople in 378 — the classic case of a short-term decision with permanent strategic cost."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Islamic world, the Abbasid Caliphate presided over a flowering of science, medicine, and learning that peaked around the same era as the Song founding."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the eastern Mediterranean, the Byzantine Empire under the Macedonian dynasty enjoyed its own military and cultural revival, retaking lost frontiers under generals like Nikephoros II Phokas and Basil II."
     }
   ],
   "6": [
@@ -231,6 +561,66 @@
       "targetTl": "mongol-empire",
       "targetChapter": 5,
       "blurb": "Northern Song wealth and weakness set the stage: the richest state on earth, militarily fragile, the prize the steppe would eventually take."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the future: the Ming dynasty (1368–1644) would later copy out Zhang Zeduan's Kaifeng scroll many times over — a measure of how the Northern Song's urban world haunted the Chinese imagination."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile centuries on: the Manchu-led Qing dynasty (1644–1912) made its own court reinterpretations of the Song masterwork, and the surviving versions all trace back to this single Song original."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile far in the future: the Manchu, descendants of forest peoples from the same Manchuria, would sweep out of the northeast to found the Qing dynasty in the 17th century — echoing the Jurchen who broke the Song."
+    },
+    {
+      "matchText": "Yuan Dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile a century later: the Mongol Yuan dynasty inherited Song paper money and printed it to catastrophic excess, learning the hard way the lesson the Song had only begun to feel — fiat currency overissued becomes worthless."
+    },
+    {
+      "matchText": "Industrial Revolution",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "Meanwhile seven centuries later in Britain: coke-fired iron, mass production, and proto-factory output finally arrived — the very things the Song had already pioneered, prompting historians to ask why China did not industrialize first."
+    },
+    {
+      "matchText": "Crusader",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Mediterranean: as the Northern Song flourished, European knights launched the First Crusade (1099) and carved out the Crusader states in the Levant."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in central Europe: the Holy Roman Empire under the Salian and Hohenstaufen dynasties was locked in its own struggle between emperor and pope over who held supreme authority."
+    },
+    {
+      "matchText": "Angkor",
+      "targetTl": "khmer-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Southeast Asia: the Khmer Empire at Angkor was raising Angkor Wat in the early 12th century, contemporary with the Song's Iron Pagoda and its most active building era."
+    },
+    {
+      "matchText": "Heian",
+      "targetTl": "heian-japan",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Japan: the Heian court was at its refined late peak, an aristocratic culture obsessed with poetry, calligraphy, and seasonal aesthetics."
+    },
+    {
+      "matchText": "Tale of Genji",
+      "targetTl": "heian-japan",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Japan: the court lady Murasaki Shikibu wrote The Tale of Genji around 1010, often called the world's first novel, as the Northern Song reached its height."
     }
   ],
   "7": [
@@ -263,6 +653,42 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 7,
       "blurb": "The Southern Song, like contemporary Byzantium, was a brilliant rump state managing decline with money and diplomacy against stronger neighbors."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Byzantine world, Constantinople would suffer its own civilizational trauma in 1204, when a Crusader army sacked the city — the wound the Song author invokes as a parallel to the Jingkang catastrophe."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile on the steppe, the Mongols were building the power that would eventually conquer the Southern Song in the 1270s — a campaign that forced them to build a navy capable of breaking the Song's hold on the Yangtze."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Persia, long-distance merchants tied into the trade networks that brought foreign traders all the way to Song Hangzhou, one of the great commercial entrepots of the medieval world."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in northern Europe, the Holy Roman Empire was locked in the Investiture Controversy, a power struggle between popes and emperors that ran parallel to the Jurchen catastrophe in China."
+    },
+    {
+      "matchText": "Investiture Controversy",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Latin Christendom, the Investiture Controversy pitted popes against emperors over who could appoint bishops — the defining church-state clash of the era contemporary with the Southern Song."
+    },
+    {
+      "matchText": "Almohad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the western Islamic world, the Almohad caliphate was rising across North Africa and Muslim Spain, one of the great contemporary powers as the Jin-Song conflict ground on in the east."
     }
   ],
   "8": [
@@ -307,6 +733,120 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 7,
       "blurb": "Neo-Confucian metaphysics is the Hundred Schools argument resumed a millennium on, now the official ideology rather than one voice among many."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Six Dynasties era: the centuries of division after the Han when Buddhism surged into China and out-competed classical Confucianism on intellectual ground."
+    },
+    {
+      "matchText": "Joseon",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Joseon Korea: the dynasty that adopted Zhu Xi's Neo-Confucian framework as state orthodoxy, making its civil exams explicitly Neo-Confucian after 1392."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Ming China: the dynasty where Wang Yangming developed a rival Neo-Confucianism that prized intuition over Zhu Xi's patient investigation of things."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Ming: the native Chinese dynasty that followed the Mongol Yuan and carried Song innovations — porcelain, examinations, Neo-Confucianism — to new heights."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Yuan: the Mongol dynasty that conquered the Song, inherited its maritime trade machine, and in 1313 fixed Zhu Xi's commentaries as the examination curriculum."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Han: the dynasty whose name became the ethnonym for China's majority people, the Han Chinese among whom foot-binding spread nearly universal by the late Qing."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Qing: the last imperial dynasty, under which foot-binding reached near-universal prevalence before its early-20th-century suppression."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Enlightenment Europe: the era of print-driven public debate whose volume of intellectual exchange the Song's cheap-book examination culture had foreshadowed centuries earlier."
+    },
+    {
+      "matchText": "Khitan Liao",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "Meanwhile among the Khitan Liao: the steppe-rooted dynasty that walled off the Song's northern frontier and helped push Chinese trade toward the sea."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "kingdom-of-aksum",
+      "targetChapter": 8,
+      "blurb": "Meanwhile on the Swahili Coast: the East African trading cities where Song celadon and blue-and-white bowls were set into pillar tombs and mosque mihrabs as ornament."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Persian Gulf: the northwestern terminus of the Indian Ocean routes that carried Song porcelain toward Iran and Mesopotamia."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Persian world: the merchants, glassmakers, and language community whose goods and traders filled Quanzhou's foreign quarters and the Indian Ocean trade."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Silk Road: the overland route that peaked under the Tang and then closed to the Song, pushing China to pivot its trade to the ocean."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile among the Mongols: the steppe conquerors who would absorb the Song and inherit its world-leading maritime trade network."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile the Mongol Yuan: the regime that conquered the Song and extended Chinese naval reach toward Cambodia, Java, and Madagascar."
+    },
+    {
+      "matchText": "Cambodia",
+      "targetTl": "khmer-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Cambodia: the Khmer realm the Mongol Yuan tried to draw into China's orbit during its late-13th-century naval campaigns."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Venice: the Italian maritime republic anchoring the western end of the Eurasian trade chain that began on the Song coast."
+    },
+    {
+      "matchText": "Hanseatic League",
+      "targetTl": "viking-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile with the Hanseatic League: the northern-European trading confederation that, like the Song maritime network, knit a whole region into one commercial web."
+    },
+    {
+      "matchText": "Safavid",
+      "targetTl": "safavid-persia",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Safavid Persia: the dynasty that fused a religious-philosophical synthesis with state power — a parallel to how Neo-Confucianism became East Asia's official ideology."
     }
   ],
   "9": [
@@ -357,6 +897,48 @@
       "targetTl": "goryeo-korea",
       "targetChapter": 6,
       "blurb": "Meanwhile in Goryeo Korea: the Mongol storm that ended the Song was the same one battering Korea. The Goryeo court fled to Ganghwa Island and resisted for nearly thirty years before submitting in 1259, surviving as a vassal where the Song was annexed outright."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Mongol Empire: Persia was ruled by the Ilkhanate, the Mongol successor state founded by Hulagu, one of the four khanates the empire split into."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, centuries later: the Qing — Manchu rulers descended from the Jurchen — would conquer all of China in 1644 and govern it as foreigners, as the Mongols had."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate, the great patron of the Islamic Golden Age, was ended by the Mongol sack of Baghdad in 1258 — the western parallel of the Song's fall."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Islamic world: Baghdad, the Abbasid capital and intellectual heart of the Golden Age, was stormed and gutted by Hulagu's Mongols in 1258."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Islamic world: the Mongol sack of Baghdad in 1258 closed the Islamic Golden Age, the eastern parallel of the conquest devouring Song China."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy: the early Renaissance was stirring in the city-states just as the Mongols completed their conquest of China."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Italy: Venice, the maritime republic Marco Polo returned to in 1295, built its wealth on long-distance trade reaching as far as Mongol Asia."
     }
   ]
 }

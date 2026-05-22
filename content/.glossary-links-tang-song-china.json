@@ -67,12 +67,6 @@
       "type": "people"
     },
     {
-      "term": "Northern Wei",
-      "matchText": "Northern Wei",
-      "wikiSlug": "Northern_Wei",
-      "type": "concept"
-    },
-    {
       "term": "Yang Jian",
       "matchText": "Yang Jian",
       "wikiSlug": "Emperor_Wen_of_Sui",
@@ -117,12 +111,6 @@
       "type": "place"
     },
     {
-      "term": "Kaihuang Code",
-      "matchText": "Kaihuang Code",
-      "wikiSlug": "Kaihuang_Code",
-      "type": "concept"
-    },
-    {
       "term": "Tang Code",
       "matchText": "Tang Code",
       "wikiSlug": "Tang_Code",
@@ -151,12 +139,6 @@
       "matchText": "Eastern Turkic Khaganate",
       "wikiSlug": "First_Turkic_Khaganate",
       "type": "concept"
-    },
-    {
-      "term": "Qin Shi Huang",
-      "matchText": "Qin Shi Huang",
-      "wikiSlug": "Qin_Shi_Huang",
-      "type": "people"
     },
     {
       "term": "Emperor Yang of Sui",
@@ -195,12 +177,6 @@
       "type": "concept"
     },
     {
-      "term": "Justinian I",
-      "matchText": "Justinian I",
-      "wikiSlug": "Justinian_I",
-      "type": "people"
-    },
-    {
       "term": "Hagia Sophia",
       "matchText": "Hagia Sophia",
       "wikiSlug": "Hagia_Sophia",
@@ -211,6 +187,96 @@
       "matchText": "Khosrow I",
       "wikiSlug": "Khosrow_I",
       "type": "people"
+    },
+    {
+      "matchText": "Great Wall",
+      "term": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "matchText": "Inner Asian",
+      "term": "Inner Asia",
+      "wikiSlug": "Inner_Asia"
+    },
+    {
+      "matchText": "Mongolian",
+      "term": "Mongolian Plateau",
+      "wikiSlug": "Mongolian_Plateau"
+    },
+    {
+      "matchText": "Yang Yong",
+      "term": "Yang Yong",
+      "wikiSlug": "Yang_Yong_(Sui_dynasty)"
+    },
+    {
+      "matchText": "Emperor Wen of Sui",
+      "term": "Emperor Wen of Sui",
+      "wikiSlug": "Emperor_Wen_of_Sui"
+    },
+    {
+      "matchText": "Crown Prince",
+      "term": "Crown prince",
+      "wikiSlug": "Crown_prince"
+    },
+    {
+      "matchText": "Hangzhou",
+      "term": "Hangzhou",
+      "wikiSlug": "Hangzhou"
+    },
+    {
+      "matchText": "Huai",
+      "term": "Huai River",
+      "wikiSlug": "Huai_River"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "UNESCO World Heritage Site",
+      "term": "World Heritage Site",
+      "wikiSlug": "World_Heritage_Site"
+    },
+    {
+      "matchText": "Manchuria",
+      "term": "Manchuria",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "matchText": "Jiangdu",
+      "term": "Jiangdu",
+      "wikiSlug": "Jiangdu,_Yangzhou"
+    },
+    {
+      "matchText": "Yangzhou",
+      "term": "Yangzhou",
+      "wikiSlug": "Yangzhou"
+    },
+    {
+      "matchText": "Taiyuan",
+      "term": "Taiyuan",
+      "wikiSlug": "Taiyuan"
+    },
+    {
+      "matchText": "Shanxi",
+      "term": "Shanxi",
+      "wikiSlug": "Shanxi"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Classic Period",
+      "term": "Classic Period",
+      "wikiSlug": "Mesoamerican_chronology"
     }
   ],
   "2": [
@@ -275,12 +341,6 @@
       "type": "people"
     },
     {
-      "term": "Western Turkic Khaganate",
-      "matchText": "Western Turkic Khaganate",
-      "wikiSlug": "Western_Turkic_Khaganate",
-      "type": "concept"
-    },
-    {
       "term": "Emperor Gaozong of Tang",
       "matchText": "Emperor Gaozong",
       "wikiSlug": "Emperor_Gaozong_of_Tang",
@@ -336,40 +396,10 @@
       "definition": "The Wordless Stele is a tall blank stone monument standing at the tomb of China's only female emperor, Wu Zetian. Famously left without any inscription, it still stands today."
     },
     {
-      "term": "Emperor Xuanzong",
-      "matchText": "Emperor Xuanzong",
-      "wikiSlug": "Emperor_Xuanzong_of_Tang",
-      "type": "people"
-    },
-    {
-      "term": "Yang Guifei",
-      "matchText": "Yang Guifei",
-      "wikiSlug": "Yang_Guifei",
-      "type": "people"
-    },
-    {
       "term": "An Lushan",
       "matchText": "An Lushan",
       "wikiSlug": "An_Lushan",
       "type": "people"
-    },
-    {
-      "term": "Umayyad Caliphate",
-      "matchText": "Umayyad Caliphate",
-      "wikiSlug": "Umayyad_Caliphate",
-      "type": "concept"
-    },
-    {
-      "term": "Silla",
-      "matchText": "Silla",
-      "wikiSlug": "Silla",
-      "type": "concept"
-    },
-    {
-      "term": "Taika Reform",
-      "matchText": "Taika Reform",
-      "wikiSlug": "Taika_Reform",
-      "type": "concept"
     },
     {
       "term": "Jinshi",
@@ -382,6 +412,136 @@
       "matchText": "fubing",
       "wikiSlug": "Fubing_system",
       "type": "concept"
+    },
+    {
+      "matchText": "Chang'an",
+      "term": "Chang'an",
+      "wikiSlug": "Chang%27an"
+    },
+    {
+      "matchText": "Li Jiancheng",
+      "term": "Li Jiancheng",
+      "wikiSlug": "Li_Jiancheng"
+    },
+    {
+      "matchText": "Crown Prince",
+      "term": "Crown Prince",
+      "wikiSlug": "Crown_prince"
+    },
+    {
+      "matchText": "Li Yuanji",
+      "term": "Li Yuanji",
+      "wikiSlug": "Li_Yuanji"
+    },
+    {
+      "matchText": "Northern Wei",
+      "term": "Northern Wei",
+      "wikiSlug": "Northern_Wei"
+    },
+    {
+      "matchText": "Li Jing",
+      "term": "Li Jing",
+      "wikiSlug": "Li_Jing_(Tang_dynasty)"
+    },
+    {
+      "matchText": "Illig Qaghan",
+      "term": "Illig Qaghan",
+      "wikiSlug": "Illig_Qaghan"
+    },
+    {
+      "matchText": "Turks",
+      "term": "Turks",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Tian Kehan",
+      "term": "Tian Kehan",
+      "wikiSlug": "Tian_Kehan"
+    },
+    {
+      "matchText": "Sogdian",
+      "term": "Sogdian",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Xinjiang",
+      "term": "Xinjiang",
+      "wikiSlug": "Xinjiang"
+    },
+    {
+      "matchText": "Wu Zhao",
+      "term": "Wu Zhao",
+      "wikiSlug": "Wu_Zetian"
+    },
+    {
+      "matchText": "Huangdi",
+      "term": "Huangdi",
+      "wikiSlug": "Emperor_of_China"
+    },
+    {
+      "matchText": "Confucianism",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Xi'an",
+      "term": "Xi'an",
+      "wikiSlug": "Xi%27an"
+    },
+    {
+      "matchText": "Li Longji",
+      "term": "Li Longji",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "wikiSlug": "Middle_East"
+    },
+    {
+      "matchText": "Heraclian",
+      "term": "Heraclian dynasty",
+      "wikiSlug": "Byzantine_Empire_under_the_Heraclian_dynasty"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Tang military",
+      "term": "Tang military",
+      "wikiSlug": "Military_history_of_the_Tang_dynasty"
+    },
+    {
+      "matchText": "Zhenguan era",
+      "term": "Zhenguan era",
+      "definition": "The reign of Emperor Taizong (626–649), named for his \"True View\" reign-slogan. Tang and later historians treated it as the gold standard of Chinese governance — a model of institutional reform, military expansion, and a ruler who welcomed criticism."
+    },
+    {
+      "matchText": "Zhenguan Zhengyao",
+      "term": "Zhenguan Zhengyao",
+      "definition": "\"Essentials of Government from the Zhenguan Era\" — a later compilation of the court dialogues between Taizong and his advisors. It became required reading for Chinese (and Korean and Japanese) rulers for centuries as a manual of model governance."
+    },
+    {
+      "matchText": "Kaiyuan era",
+      "term": "Kaiyuan era",
+      "definition": "The reign-period (713–741) of Emperor Xuanzong, the absolute peak of Tang prosperity, when the equal-field system still worked, the examinations produced a steady stream of officials, and Chang'an was the most cosmopolitan city in the world."
+    },
+    {
+      "matchText": "High Tang",
+      "term": "High Tang",
+      "definition": "The cultural and political high-water mark of the Tang dynasty, centered on Xuanzong's reign — the period of China's greatest poetry, court music, and Buddhist philosophy that the Chinese literary tradition celebrates above all other moments."
+    },
+    {
+      "matchText": "Daxing",
+      "term": "Daxing",
+      "definition": "Daxingcheng, the planned grid-capital built by the Sui in 582 on the site that the Tang renamed Chang'an. Its rigid grid plan was copied across East Asia, most clearly in the Japanese capital of Nara."
+    },
+    {
+      "matchText": "Inner Asian",
+      "term": "Inner Asian",
+      "wikiSlug": "Inner_Asia"
     }
   ],
   "3": [
@@ -402,12 +562,6 @@
       "matchText": "Sogdian",
       "wikiSlug": "Sogdia",
       "type": "people"
-    },
-    {
-      "term": "Sassanid Empire",
-      "matchText": "Sassanid Empire",
-      "wikiSlug": "Sasanian_Empire",
-      "type": "concept"
     },
     {
       "term": "Peroz III",
@@ -438,12 +592,6 @@
       "matchText": "Manichaean",
       "wikiSlug": "Manichaeism",
       "type": "concept"
-    },
-    {
-      "term": "Nestorian Stele",
-      "matchText": "Nestorian Stele",
-      "wikiSlug": "Nestorian_Stele",
-      "type": "place"
     },
     {
       "term": "Silk Road",
@@ -506,28 +654,10 @@
       "type": "people"
     },
     {
-      "term": "Tale of Genji",
-      "matchText": "Tale of Genji",
-      "wikiSlug": "The_Tale_of_Genji",
-      "type": "concept"
-    },
-    {
       "term": "Lüshi",
       "matchText": "lüshi",
       "wikiSlug": "L%C3%BCshi_(poetry)",
       "type": "concept"
-    },
-    {
-      "term": "Chan Buddhism",
-      "matchText": "Chan Buddhism",
-      "wikiSlug": "Chan_Buddhism",
-      "type": "concept"
-    },
-    {
-      "term": "Bodhidharma",
-      "matchText": "Bodhidharma",
-      "wikiSlug": "Bodhidharma",
-      "type": "people"
     },
     {
       "term": "Huineng",
@@ -548,16 +678,229 @@
       "type": "people"
     },
     {
-      "term": "Wang Xizhi",
-      "matchText": "Wang Xizhi",
-      "wikiSlug": "Wang_Xizhi",
-      "type": "people"
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
     },
     {
-      "term": "Charlemagne",
-      "matchText": "Charlemagne",
-      "wikiSlug": "Charlemagne",
-      "type": "people"
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Emperor Xuanzong",
+      "term": "Emperor Xuanzong",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang"
+    },
+    {
+      "matchText": "South China Sea",
+      "term": "South China Sea",
+      "wikiSlug": "South_China_Sea"
+    },
+    {
+      "matchText": "Strait of Malacca",
+      "term": "Strait of Malacca",
+      "wikiSlug": "Strait_of_Malacca"
+    },
+    {
+      "matchText": "Zhuque Boulevard",
+      "term": "Zhuque Boulevard",
+      "definition": "The grand central north-south avenue of Tang Chang'an, running from the imperial city to the southern gate. At about 150 meters (nearly 500 feet) wide, it was the spine of the capital's vast grid plan and broader than any street in any modern city."
+    },
+    {
+      "matchText": "dhyana",
+      "term": "dhyana",
+      "definition": "The Sanskrit word for meditative absorption or deep contemplative focus in Indian religious practice. Transliterated into Chinese as chan, it gave its name to Chan Buddhism — and, downstream, to Zen, Seon, and Thiền."
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian-speaking",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Taizong",
+      "term": "Emperor Taizong of Tang",
+      "wikiSlug": "Emperor_Taizong_of_Tang"
+    },
+    {
+      "matchText": "High Tang",
+      "term": "High Tang",
+      "definition": "The cultural and political high-water mark of the Tang dynasty, roughly the late 7th to mid-8th century, peaking in Emperor Xuanzong's Kaiyuan era (713–741) — the era of a million-strong cosmopolitan Chang'an and the golden age of Tang poetry, just before the An Lushan Rebellion broke the dynasty."
+    },
+    {
+      "matchText": "Berlin",
+      "term": "Berlin",
+      "wikiSlug": "Berlin"
+    },
+    {
+      "matchText": "Central Asia",
+      "term": "Central Asia",
+      "wikiSlug": "Central_Asia"
+    },
+    {
+      "matchText": "Kucha",
+      "term": "Kucha",
+      "wikiSlug": "Kucha"
+    },
+    {
+      "matchText": "Khotan",
+      "term": "Kingdom of Khotan",
+      "wikiSlug": "Kingdom_of_Khotan"
+    },
+    {
+      "matchText": "Kashgar",
+      "term": "Kashgar",
+      "wikiSlug": "Kashgar"
+    },
+    {
+      "matchText": "Karashahr",
+      "term": "Karashahr",
+      "wikiSlug": "Karasahr"
+    },
+    {
+      "matchText": "Yaghnobi",
+      "term": "Yaghnobi language",
+      "wikiSlug": "Yaghnobi_language"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Guangzhou",
+      "term": "Guangzhou",
+      "wikiSlug": "Guangzhou"
+    },
+    {
+      "matchText": "Quanzhou",
+      "term": "Quanzhou",
+      "wikiSlug": "Quanzhou"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Shakespeare",
+      "term": "William Shakespeare",
+      "wikiSlug": "William_Shakespeare"
+    },
+    {
+      "matchText": "Immortal Poet",
+      "term": "Li Bai (the Immortal Poet)",
+      "wikiSlug": "Li_Bai"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic peoples",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Sichuan",
+      "term": "Sichuan",
+      "wikiSlug": "Sichuan"
+    },
+    {
+      "matchText": "Poet Sage",
+      "term": "Du Fu (the Poet Sage)",
+      "wikiSlug": "Du_Fu"
+    },
+    {
+      "matchText": "Daoist",
+      "term": "Daoism",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Yang Guifei",
+      "term": "Yang Guifei",
+      "wikiSlug": "Yang_Guifei"
+    },
+    {
+      "matchText": "Gwageo",
+      "term": "Gwageo",
+      "wikiSlug": "Gwageo"
+    },
+    {
+      "matchText": "Seon",
+      "term": "Korean Seon",
+      "wikiSlug": "Korean_Seon"
+    },
+    {
+      "matchText": "Thiền",
+      "term": "Thiền Buddhism",
+      "wikiSlug": "Thi%E1%BB%81n_Buddhism"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Java Sea",
+      "term": "Java Sea",
+      "wikiSlug": "Java_Sea"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "wikiSlug": "Middle_East"
+    },
+    {
+      "matchText": "Yang Guozhong",
+      "term": "Yang Guozhong",
+      "wikiSlug": "Yang_Guozhong"
+    },
+    {
+      "matchText": "Isaurian",
+      "term": "Isaurian dynasty",
+      "wikiSlug": "Isaurian_dynasty"
+    },
+    {
+      "matchText": "Iconoclast",
+      "term": "Byzantine Iconoclasm",
+      "wikiSlug": "Byzantine_Iconoclasm"
+    },
+    {
+      "matchText": "Holy Roman Emperor",
+      "term": "Holy Roman Emperor",
+      "wikiSlug": "Holy_Roman_Emperor"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Tikal",
+      "term": "Tikal",
+      "wikiSlug": "Tikal"
+    },
+    {
+      "matchText": "calligraphy",
+      "term": "Chinese calligraphy",
+      "wikiSlug": "Chinese_calligraphy"
+    },
+    {
+      "matchText": "pottery",
+      "term": "Pottery",
+      "wikiSlug": "Pottery"
+    },
+    {
+      "matchText": "Zen",
+      "term": "Zen",
+      "wikiSlug": "Zen"
+    },
+    {
+      "matchText": "Painting",
+      "term": "Painting",
+      "wikiSlug": "Painting"
     }
   ],
   "4": [
@@ -731,16 +1074,180 @@
       "type": "concept"
     },
     {
-      "term": "Abbasid Revolution",
-      "matchText": "Abbasid Revolution",
-      "wikiSlug": "Abbasid_Revolution",
-      "type": "concept"
-    },
-    {
       "term": "Wang Yuanlu",
       "matchText": "Wang Yuanlu",
       "wikiSlug": "Wang_Yuanlu",
       "type": "people"
+    },
+    {
+      "matchText": "Emperor Xuanzong",
+      "term": "Emperor Xuanzong",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang"
+    },
+    {
+      "matchText": "Yellow River",
+      "term": "Yellow River",
+      "wikiSlug": "Yellow_River"
+    },
+    {
+      "matchText": "Xiang River",
+      "term": "Xiang River",
+      "wikiSlug": "Xiang_River"
+    },
+    {
+      "matchText": "British Museum",
+      "term": "British Museum",
+      "wikiSlug": "British_Museum"
+    },
+    {
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "An Lushan",
+      "term": "An Lushan",
+      "wikiSlug": "An_Lushan"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Yang Guifei",
+      "term": "Yang Guifei",
+      "wikiSlug": "Yang_Guifei"
+    },
+    {
+      "matchText": "Xuanzong",
+      "term": "Emperor Xuanzong of Tang",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang"
+    },
+    {
+      "matchText": "Fanyang",
+      "term": "Fanyang",
+      "wikiSlug": "Fanyang"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Shanxi",
+      "term": "Shanxi",
+      "wikiSlug": "Shanxi"
+    },
+    {
+      "matchText": "Tongguan Pass",
+      "term": "Tongguan Pass",
+      "wikiSlug": "Tongguan_Pass"
+    },
+    {
+      "matchText": "Sichuan",
+      "term": "Sichuan",
+      "wikiSlug": "Sichuan"
+    },
+    {
+      "matchText": "Chang'an",
+      "term": "Chang'an",
+      "wikiSlug": "Chang'an"
+    },
+    {
+      "matchText": "Li Heng",
+      "term": "Emperor Suzong of Tang",
+      "wikiSlug": "Emperor_Suzong_of_Tang"
+    },
+    {
+      "matchText": "Lingwu",
+      "term": "Lingwu",
+      "wikiSlug": "Lingwu"
+    },
+    {
+      "matchText": "Eastern Turkic Khaganate",
+      "term": "Eastern Turkic Khaganate",
+      "wikiSlug": "Eastern_Turkic_Khaganate"
+    },
+    {
+      "matchText": "Shi Siming",
+      "term": "Shi Siming",
+      "wikiSlug": "Shi_Siming"
+    },
+    {
+      "matchText": "Shi Chaoyi",
+      "term": "Shi Chaoyi",
+      "wikiSlug": "Shi_Chaoyi"
+    },
+    {
+      "matchText": "Late Tang",
+      "term": "Tang dynasty",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "matchText": "Yan",
+      "term": "Yan (An Lushan's dynasty)",
+      "wikiSlug": "Yan_(An–Shi)"
+    },
+    {
+      "matchText": "Daoism",
+      "term": "Daoism",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Chan",
+      "term": "Chan Buddhism",
+      "wikiSlug": "Chan_Buddhism"
+    },
+    {
+      "matchText": "Yogacara",
+      "term": "Yogacara",
+      "wikiSlug": "Yogachara"
+    },
+    {
+      "matchText": "Caozhou",
+      "term": "Caozhou",
+      "wikiSlug": "Caozhou"
+    },
+    {
+      "matchText": "Shandong",
+      "term": "Shandong",
+      "wikiSlug": "Shandong"
+    },
+    {
+      "matchText": "Gansu",
+      "term": "Gansu",
+      "wikiSlug": "Gansu"
+    },
+    {
+      "matchText": "Gutenberg",
+      "term": "Johannes Gutenberg",
+      "wikiSlug": "Johannes_Gutenberg"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Holy Roman Emperor",
+      "term": "Holy Roman Emperor",
+      "wikiSlug": "Holy_Roman_Emperor"
+    },
+    {
+      "matchText": "Rokhshan",
+      "term": "Rokhshan",
+      "definition": "The Sogdian form of An Lushan's name. \"An\" was the Chinese rendering of his clan name and \"Lushan\" of his given name; in his native Sogdian he was likely called Rokhshan, meaning roughly \"bright\" or \"luminous.\""
+    },
+    {
+      "matchText": "Zhang Shougui",
+      "term": "Zhang Shougui",
+      "definition": "A powerful Tang frontier general of the early 8th century who governed the northeastern border region around modern Beijing. He spotted the young An Lushan's talent and made him a protégé, the patronage that launched An Lushan's military career."
+    },
+    {
+      "matchText": "Wang Jie",
+      "term": "Wang Jie",
+      "definition": "The otherwise-obscure private patron who in 868 commissioned the printing of the Diamond Sutra \"for universal free distribution\" — making him the named sponsor of the world's oldest dated complete printed book."
     }
   ],
   "5": [
@@ -887,6 +1394,71 @@
       "matchText": "Chola",
       "wikiSlug": "Chola_dynasty",
       "type": "concept"
+    },
+    {
+      "matchText": "Inner Mongolia",
+      "term": "Inner Mongolia",
+      "wikiSlug": "Inner_Mongolia"
+    },
+    {
+      "matchText": "Yellow River",
+      "term": "Yellow River",
+      "wikiSlug": "Yellow_River"
+    },
+    {
+      "matchText": "Manchuria",
+      "term": "Manchuria",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "matchText": "Datong",
+      "term": "Datong",
+      "wikiSlug": "Datong"
+    },
+    {
+      "matchText": "Hebei",
+      "term": "Hebei",
+      "wikiSlug": "Hebei"
+    },
+    {
+      "matchText": "Henan",
+      "term": "Henan",
+      "wikiSlug": "Henan"
+    },
+    {
+      "matchText": "Jurchen",
+      "term": "Jurchen",
+      "wikiSlug": "Jurchen_people"
+    },
+    {
+      "matchText": "Taizu",
+      "term": "Taizu (Zhao Kuangyin)",
+      "wikiSlug": "Emperor_Taizu_of_Song"
+    },
+    {
+      "matchText": "Northern Song",
+      "term": "Northern Song",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "matchText": "Nikephoros II Phokas",
+      "term": "Nikephoros II Phokas",
+      "wikiSlug": "Nikephoros_II"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Toltec",
+      "term": "Toltec",
+      "wikiSlug": "Toltec"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
     }
   ],
   "6": [
@@ -907,12 +1479,6 @@
       "matchText": "Zhang Zeduan",
       "wikiSlug": "Zhang_Zeduan",
       "type": "people"
-    },
-    {
-      "term": "Along the River During Qingming Festival",
-      "matchText": "Along the River During the Qingming Festival",
-      "wikiSlug": "Along_the_River_During_the_Qingming_Festival",
-      "type": "concept"
     },
     {
       "term": "Wang Anshi",
@@ -966,12 +1532,6 @@
       "term": "Records of the Grand Historian",
       "matchText": "Records of the Grand Historian",
       "wikiSlug": "Records_of_the_Grand_Historian",
-      "type": "concept"
-    },
-    {
-      "term": "Wujing Zongyao",
-      "matchText": "Wujing Zongyao",
-      "wikiSlug": "Wujing_Zongyao",
       "type": "concept"
     },
     {
@@ -1053,12 +1613,6 @@
       "type": "people"
     },
     {
-      "term": "Champa rice",
-      "matchText": "Champa rice",
-      "wikiSlug": "Champa_rice",
-      "type": "concept"
-    },
-    {
       "term": "Emperor Zhenzong",
       "matchText": "Emperor Zhenzong",
       "wikiSlug": "Emperor_Zhenzong",
@@ -1069,12 +1623,6 @@
       "matchText": "Champa",
       "wikiSlug": "Champa",
       "type": "concept"
-    },
-    {
-      "term": "Emperor Huizong",
-      "matchText": "Emperor Huizong",
-      "wikiSlug": "Emperor_Huizong_of_Song",
-      "type": "people"
     },
     {
       "term": "Slender Gold script",
@@ -1106,6 +1654,161 @@
       "matchText": "Zhao Kuangyin",
       "wikiSlug": "Emperor_Taizu_of_Song",
       "type": "people"
+    },
+    {
+      "matchText": "Yellow River",
+      "term": "Yellow River",
+      "wikiSlug": "Yellow_River"
+    },
+    {
+      "matchText": "Angkor Wat",
+      "term": "Angkor Wat",
+      "wikiSlug": "Angkor_Wat"
+    },
+    {
+      "matchText": "Murasaki Shikibu",
+      "term": "Murasaki Shikibu",
+      "wikiSlug": "Murasaki_Shikibu"
+    },
+    {
+      "matchText": "Tang Chang'an",
+      "term": "Tang Chang'an",
+      "wikiSlug": "Chang'an"
+    },
+    {
+      "matchText": "Palace Museum",
+      "term": "Palace Museum",
+      "wikiSlug": "Palace_Museum"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Gansu",
+      "term": "Gansu",
+      "wikiSlug": "Gansu"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Cham",
+      "term": "Cham",
+      "wikiSlug": "Chams"
+    },
+    {
+      "matchText": "Hangzhou",
+      "term": "Hangzhou",
+      "wikiSlug": "Hangzhou"
+    },
+    {
+      "matchText": "Quanzhou",
+      "term": "Quanzhou",
+      "wikiSlug": "Quanzhou"
+    },
+    {
+      "matchText": "Zhao Ji",
+      "term": "Zhao Ji (Emperor Huizong)",
+      "wikiSlug": "Emperor_Huizong_of_Song"
+    },
+    {
+      "matchText": "Manchuria",
+      "term": "Manchuria",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "matchText": "Khitan Liao",
+      "term": "Khitan Liao",
+      "wikiSlug": "Liao_dynasty"
+    },
+    {
+      "matchText": "Khitan",
+      "term": "Khitan people",
+      "wikiSlug": "Khitan_people"
+    },
+    {
+      "matchText": "Jingkang Incident",
+      "term": "Jingkang Incident",
+      "wikiSlug": "Jingkang_incident"
+    },
+    {
+      "matchText": "Salian",
+      "term": "Salian dynasty",
+      "wikiSlug": "Salian_dynasty"
+    },
+    {
+      "matchText": "Bologna",
+      "term": "University of Bologna",
+      "wikiSlug": "University_of_Bologna"
+    },
+    {
+      "matchText": "Paris",
+      "term": "University of Paris",
+      "wikiSlug": "University_of_Paris"
+    },
+    {
+      "matchText": "Oxford",
+      "term": "University of Oxford",
+      "wikiSlug": "University_of_Oxford"
+    },
+    {
+      "matchText": "Jin",
+      "term": "Jin dynasty (Jurchen)",
+      "wikiSlug": "Jin_dynasty_(1115–1234)"
+    },
+    {
+      "matchText": "Sixteen Prefectures",
+      "term": "Sixteen Prefectures",
+      "wikiSlug": "Sixteen_Prefectures"
+    },
+    {
+      "matchText": "Mainz",
+      "term": "Mainz",
+      "wikiSlug": "Mainz"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Seljuk Turkic",
+      "term": "Seljuk Empire",
+      "wikiSlug": "Seljuk_Empire"
+    },
+    {
+      "matchText": "paper money",
+      "term": "Jiaozi (paper money)",
+      "wikiSlug": "Jiaozi_(currency)"
+    },
+    {
+      "matchText": "Night markets",
+      "term": "Night market",
+      "wikiSlug": "Night_market"
+    },
+    {
+      "matchText": "Printing",
+      "term": "Printing in East Asia",
+      "wikiSlug": "History_of_printing_in_East_Asia"
+    },
+    {
+      "matchText": "Green Sprouts",
+      "term": "Green Sprouts program",
+      "definition": "Wang Anshi's signature New Policies measure: government loans of seed grain and cash to peasant farmers at below-market rates, timed to the planting season, meant to break the grip of rural moneylenders who charged ruinous harvest-time interest."
+    },
+    {
+      "matchText": "Five-Colored Parakeet",
+      "term": "Five-Colored Parakeet",
+      "definition": "A famous bird-and-flower handscroll painted by Emperor Huizong, depicting a parakeet on a blossoming apricot branch in his exacting court style; it now hangs in the Boston Museum of Fine Arts."
+    },
+    {
+      "matchText": "Genyue",
+      "term": "Genyue",
+      "definition": "Emperor Huizong's vast artificial imperial garden in Kaifeng (\"Heightened Mountain\"), an extravagant landscape of piled rockeries, rare plants, and exotic animals whose construction drained the Song treasury in the dynasty's final years."
     }
   ],
   "7": [
@@ -1156,12 +1859,6 @@
       "matchText": "West Lake",
       "wikiSlug": "West_Lake",
       "type": "place"
-    },
-    {
-      "term": "Marco Polo",
-      "matchText": "Marco Polo",
-      "wikiSlug": "Marco_Polo",
-      "type": "people"
     },
     {
       "term": "Su Causeway",
@@ -1224,12 +1921,6 @@
       "type": "concept"
     },
     {
-      "term": "Kamakura Shogunate",
-      "matchText": "Kamakura Shogunate",
-      "wikiSlug": "Kamakura_shogunate",
-      "type": "concept"
-    },
-    {
       "term": "Genpei War",
       "matchText": "Genpei War",
       "wikiSlug": "Genpei_War",
@@ -1252,6 +1943,131 @@
       "matchText": "Su Shi",
       "wikiSlug": "Su_Shi",
       "type": "people"
+    },
+    {
+      "matchText": "Crusader States",
+      "term": "Crusader States",
+      "wikiSlug": "Crusader_states"
+    },
+    {
+      "matchText": "Manchuria",
+      "term": "Manchuria",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "matchText": "Jurchen",
+      "term": "Jurchen",
+      "wikiSlug": "Jurchen_people"
+    },
+    {
+      "matchText": "Kaifeng",
+      "term": "Kaifeng",
+      "wikiSlug": "Kaifeng"
+    },
+    {
+      "matchText": "Yangtze valley",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Yangtze River",
+      "term": "Yangtze River",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Khitan",
+      "term": "Khitan",
+      "wikiSlug": "Khitan_people"
+    },
+    {
+      "matchText": "Zhao Gou",
+      "term": "Zhao Gou (Emperor Gaozong of Song)",
+      "wikiSlug": "Emperor_Gaozong_of_Song"
+    },
+    {
+      "matchText": "Yingtian",
+      "term": "Yingtian (modern Shangqiu)",
+      "wikiSlug": "Shangqiu"
+    },
+    {
+      "matchText": "Henan",
+      "term": "Henan",
+      "wikiSlug": "Henan"
+    },
+    {
+      "matchText": "Southern Song",
+      "term": "Southern Song",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "matchText": "Northern Song",
+      "term": "Northern Song",
+      "wikiSlug": "Song_dynasty"
+    },
+    {
+      "matchText": "Grand Canal",
+      "term": "Grand Canal",
+      "wikiSlug": "Grand_Canal_(China)"
+    },
+    {
+      "matchText": "Jurchen Jin",
+      "term": "Jurchen Jin dynasty",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)"
+    },
+    {
+      "matchText": "Mississippi",
+      "term": "Mississippi River",
+      "wikiSlug": "Mississippi_River"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Almoravid",
+      "term": "Almoravid dynasty",
+      "wikiSlug": "Almoravid_dynasty"
+    },
+    {
+      "matchText": "Norman",
+      "term": "Normans",
+      "wikiSlug": "Normans"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Zhang Xian",
+      "term": "Zhang Xian",
+      "definition": "Yue Fei's chief subordinate officer, tortured to death alongside his commander in the fabricated treason case engineered by chancellor Qin Hui in 1142."
+    },
+    {
+      "matchText": "Yuelai Mountain",
+      "term": "Yuelai Mountain",
+      "definition": "The hill beside West Lake in Hangzhou where Yue Fei's rebuilt tomb stands, fronted by the kneeling iron statues of the officials who had him killed."
+    },
+    {
+      "matchText": "Lady Wang",
+      "term": "Lady Wang",
+      "definition": "The wife of chancellor Qin Hui, cast as his accomplice in destroying Yue Fei; her kneeling iron statue stands beside Qin Hui's at the hero's tomb, where visitors have abused it for centuries."
+    },
+    {
+      "matchText": "huan wo heshan",
+      "term": "huan wo heshan",
+      "definition": "Yue Fei's rallying cry, \"give us back our rivers and mountains\" — a demand to recover the Chinese homeland lost to the Jurchen, now a stock phrase for patriotic resolve."
+    },
+    {
+      "matchText": "mo xu you",
+      "term": "mo xu you",
+      "definition": "Qin Hui's notorious answer when asked for evidence against Yue Fei: \"perhaps it exists.\" It became the standard Chinese byword for a trumped-up charge with no proof behind it."
     }
   ],
   "8": [
@@ -1316,12 +2132,6 @@
       "type": "concept"
     },
     {
-      "term": "Wang Yangming",
-      "matchText": "Wang Yangming",
-      "wikiSlug": "Wang_Yangming",
-      "type": "people"
-    },
-    {
       "term": "Foot binding",
       "matchText": "foot-binding",
       "wikiSlug": "Foot_binding",
@@ -1361,12 +2171,6 @@
       "term": "Red Cliff Rhapsodies",
       "matchText": "Red Cliff Rhapsodies",
       "wikiSlug": "First_Ode_on_the_Red_Cliffs",
-      "type": "concept"
-    },
-    {
-      "term": "Literati painting",
-      "matchText": "literati painting",
-      "wikiSlug": "Literati_painting",
       "type": "concept"
     },
     {
@@ -1440,6 +2244,211 @@
       "matchText": "Strait of Malacca",
       "wikiSlug": "Strait_of_Malacca",
       "type": "place"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "South China Sea",
+      "term": "South China Sea",
+      "wikiSlug": "South_China_Sea"
+    },
+    {
+      "matchText": "Arabian Sea",
+      "term": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea"
+    },
+    {
+      "matchText": "Nestorian Christian",
+      "term": "Nestorian Christian",
+      "wikiSlug": "Church_of_the_East"
+    },
+    {
+      "matchText": "Neo-Confucianism",
+      "term": "Neo-Confucianism",
+      "wikiSlug": "Neo-Confucianism"
+    },
+    {
+      "matchText": "Confucianism",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Book of Rites",
+      "term": "Book of Rites",
+      "wikiSlug": "Book_of_Rites"
+    },
+    {
+      "matchText": "Great Learning",
+      "term": "Great Learning",
+      "wikiSlug": "Great_Learning"
+    },
+    {
+      "matchText": "Five Classics",
+      "term": "Five Classics",
+      "wikiSlug": "Chinese_classics"
+    },
+    {
+      "matchText": "Islamic Republic of Iran",
+      "term": "Islamic Republic of Iran",
+      "wikiSlug": "Iran"
+    },
+    {
+      "matchText": "Hangzhou",
+      "term": "Hangzhou",
+      "wikiSlug": "Hangzhou"
+    },
+    {
+      "matchText": "West Lake",
+      "term": "West Lake",
+      "wikiSlug": "West_Lake"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Philippines",
+      "term": "Philippines",
+      "wikiSlug": "Philippines"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Tangut Western Xia",
+      "term": "Tangut Western Xia (Western Xia)",
+      "wikiSlug": "Western_Xia"
+    },
+    {
+      "matchText": "Jurchen Jin",
+      "term": "Jurchen Jin (Jin dynasty 1115–1234)",
+      "wikiSlug": "Jin_dynasty_(1115%E2%80%931234)"
+    },
+    {
+      "matchText": "Jurchen",
+      "term": "Jurchen",
+      "wikiSlug": "Jurchens"
+    },
+    {
+      "matchText": "Guangzhou",
+      "term": "Guangzhou",
+      "wikiSlug": "Guangzhou"
+    },
+    {
+      "matchText": "Mingzhou",
+      "term": "Mingzhou (Ningbo)",
+      "wikiSlug": "Ningbo"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Zayton",
+      "term": "Zayton (Quanzhou)",
+      "wikiSlug": "Quanzhou"
+    },
+    {
+      "matchText": "Tamil",
+      "term": "Tamils",
+      "wikiSlug": "Tamils"
+    },
+    {
+      "matchText": "polo",
+      "term": "polo (sport)",
+      "wikiSlug": "Polo"
+    },
+    {
+      "matchText": "Alexandria",
+      "term": "Alexandria",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "matchText": "Madagascar",
+      "term": "Madagascar",
+      "wikiSlug": "Madagascar"
+    },
+    {
+      "matchText": "Genoa",
+      "term": "Genoa",
+      "wikiSlug": "Genoa"
+    },
+    {
+      "matchText": "Pisa",
+      "term": "Pisa",
+      "wikiSlug": "Pisa"
+    },
+    {
+      "matchText": "Amalfi",
+      "term": "Amalfi",
+      "wikiSlug": "Amalfi"
+    },
+    {
+      "matchText": "Gujarati",
+      "term": "Gujarati (Gujarat)",
+      "wikiSlug": "Gujarat"
+    },
+    {
+      "matchText": "qingbai",
+      "term": "qingbai ware",
+      "wikiSlug": "Qingbai_ware"
+    },
+    {
+      "matchText": "Analects",
+      "term": "Analects",
+      "wikiSlug": "Analects"
+    },
+    {
+      "matchText": "Longquan",
+      "term": "Longquan celadon",
+      "wikiSlug": "Longquan_celadon"
+    },
+    {
+      "matchText": "Belitung shipwreck",
+      "term": "Belitung shipwreck",
+      "wikiSlug": "Belitung_shipwreck"
+    },
+    {
+      "matchText": "Marco Polo",
+      "term": "Marco Polo",
+      "wikiSlug": "Marco_Polo"
+    },
+    {
+      "matchText": "Su Causeway",
+      "term": "Su Causeway",
+      "definition": "A tree-lined embankment Su Shi built across Hangzhou's West Lake while serving as governor; it still bears his name and is walked by tourists nine centuries later."
+    },
+    {
+      "matchText": "Neo-Confucian",
+      "term": "Neo-Confucian",
+      "definition": "Of or relating to Neo-Confucianism, the Song-era revival that built a Confucian metaphysics to rival Buddhism and became the dominant intellectual framework across East Asia for centuries."
+    },
+    {
+      "matchText": "Five Great Kilns",
+      "term": "Five Great Kilns",
+      "definition": "The five most celebrated Song ceramic traditions — Ru, Guan, Ge, Ding, and Jun ware — each prized for a signature glaze or decorative effect and treated as the pinnacle of Chinese porcelain."
     }
   ],
   "9": [
@@ -1577,22 +2586,150 @@
       "type": "people"
     },
     {
-      "term": "Marco Polo",
-      "matchText": "Marco Polo",
-      "wikiSlug": "Marco_Polo",
-      "type": "people"
-    },
-    {
       "term": "Acre",
       "matchText": "Acre",
       "wikiSlug": "Acre,_Israel",
       "type": "place"
     },
     {
-      "term": "Hanseatic League",
-      "matchText": "Hanseatic League",
-      "wikiSlug": "Hanseatic_League",
-      "type": "concept"
+      "matchText": "South China Sea",
+      "term": "South China Sea",
+      "wikiSlug": "South_China_Sea"
+    },
+    {
+      "matchText": "Hong Kong",
+      "term": "Hong Kong",
+      "wikiSlug": "Hong_Kong"
+    },
+    {
+      "matchText": "huihui pao",
+      "term": "huihui pao",
+      "wikiSlug": "Counterweight_trebuchet"
+    },
+    {
+      "matchText": "Jingkang Incident",
+      "term": "Jingkang Incident",
+      "wikiSlug": "Jingkang_incident"
+    },
+    {
+      "matchText": "Yunnan",
+      "term": "Yunnan",
+      "wikiSlug": "Yunnan"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Sichuan",
+      "term": "Sichuan",
+      "wikiSlug": "Sichuan"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Ismail",
+      "term": "Ismail",
+      "wikiSlug": "Yisimayin"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Hangzhou",
+      "term": "Hangzhou",
+      "wikiSlug": "Hangzhou"
+    },
+    {
+      "matchText": "Gong",
+      "term": "Emperor Gong",
+      "wikiSlug": "Emperor_Gong_of_Song"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Zhao Bing",
+      "term": "Zhao Bing",
+      "wikiSlug": "Emperor_Bing_of_Song"
+    },
+    {
+      "matchText": "Guangdong",
+      "term": "Guangdong",
+      "wikiSlug": "Guangdong"
+    },
+    {
+      "matchText": "Zhang Hongfan",
+      "term": "Zhang Hongfan",
+      "wikiSlug": "Zhang_Hongfan"
+    },
+    {
+      "matchText": "Yang Jian",
+      "term": "Yang Jian (Emperor Wen of Sui)",
+      "wikiSlug": "Emperor_Wen_of_Sui"
+    },
+    {
+      "matchText": "Jingdezhen",
+      "term": "Jingdezhen",
+      "wikiSlug": "Jingdezhen"
+    },
+    {
+      "matchText": "Neo-Confucianism",
+      "term": "Neo-Confucianism",
+      "wikiSlug": "Neo-Confucianism"
+    },
+    {
+      "matchText": "Manchus",
+      "term": "Manchus",
+      "wikiSlug": "Manchu_people"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Great Khan",
+      "term": "Great Khan",
+      "wikiSlug": "Khagan"
+    },
+    {
+      "matchText": "Duanzong",
+      "term": "Emperor Duanzong",
+      "wikiSlug": "Emperor_Duanzong_of_Song"
+    },
+    {
+      "matchText": "William of Rubruck",
+      "term": "William of Rubruck",
+      "wikiSlug": "William_of_Rubruck"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "definition": "The region around the eastern Mediterranean, the Levant, and the Persian Gulf — the source, in this chapter, of the counterweight-trebuchet engineers the Mongols imported to crack Xiangyang's walls."
+    },
+    {
+      "matchText": "Crusader",
+      "term": "Crusader-states",
+      "definition": "The Latin Christian principalities planted in the eastern Mediterranean during the Crusades, where the counterweight trebuchet had been perfected — the technology that traveled across Eurasia to the siege of Xiangyang."
+    },
+    {
+      "matchText": "Ala al-Din",
+      "term": "Ala al-Din",
+      "definition": "One of the two Muslim siege engineers (with Ismail) sent from the Ilkhanate of Persia to build the giant counterweight trebuchets that breached Xiangyang in 1273."
     }
   ]
 }
