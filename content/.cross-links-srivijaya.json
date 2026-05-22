@@ -53,6 +53,48 @@
       "targetTl": "medieval-india",
       "targetChapter": 1,
       "blurb": "Srivijaya was an Indianized state — Sanskrit, Buddhism, and kingship imported from the medieval Indian world it traded with."
+    },
+    {
+      "matchText": "Mesopotamian",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Mesopotamia: a riverine civilization whose whole life turned on its relationship to irrigation water, the same way a Southeast Asian village's turned on the sea."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Rome: the empire at its commercial height, draining silver eastward to pay for the spices and luxuries that ultimately came from islands like Sumatra."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang capital at Chang'an, the eastern terminus of the trade road whose tribute missions Srivijaya's rulers would soon be sending."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sassanid world that fed merchants and goods into the same Indian Ocean trade circuit that reached Sumatra."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sassanid Empire, the last great pre-Islamic Persian state, destroyed by the Arab conquests just as Srivijaya was being born."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Byzantium: the eastern Roman empire reeling from the loss of Egypt, Syria, and North Africa to the same Arab armies that toppled Sassanid Persia."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the Maya entering their Late Classic peak, a contemporary of Srivijaya on the far side of the world."
     }
   ],
   "2": [
@@ -91,6 +133,54 @@
       "targetTl": "indus-valley",
       "targetChapter": 7,
       "blurb": "Like the Indus before it, Srivijaya was a trade civilization whose physical capital is archaeologically faint — known mostly through its commerce."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Persia: the Sasanian shahs ran the merchant fleets and trade routes that carried Persian ships as far as the South China Sea — the world Yijing's vessel sailed from."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Persia: the Sasanian Empire left a rich tradition of royal rock inscriptions — exactly the kind of internal record Srivijaya never produced."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: the same wave of Buddhism spreading by sea reached the Yamato court, where its arrival set off a court crisis over the new foreign faith."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in India: Sanskrit began as the sacred language of the Vedic hymns, the very texts Chinese pilgrims like Yijing crossed the seas to read in the original."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang dynasty was at its early height, running the centralized bureaucratic state that Srivijaya's loose federation of harbor towns deliberately did not resemble."
+    },
+    {
+      "matchText": "Umayyad dynasty",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Islamic world: the Umayyads were driving the conquest across North Africa into Spain that would seed the brilliant culture of Cordoba."
+    },
+    {
+      "matchText": "Harsha",
+      "targetTl": "medieval-india",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in India: Harsha had built the last great empire of northern India, and his death in 647 left the political vacuum the chapter describes."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Mesoamerica: the Maya city-states were at their Late Classic golden age, building the great temple-pyramids of their rival kingdoms."
     }
   ],
   "3": [
@@ -129,6 +219,54 @@
       "targetTl": "heian-japan",
       "targetChapter": 7,
       "blurb": "Srivijaya's Buddhist-monastic networks reached as far as Tang China and, through it, the Japan then absorbing the same dharma."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in Vedic India: Sanskrit began as the sacred language of the Rigveda's hymns, memorized and transmitted orally by priestly families before it became the lingua franca of Buddhist scholarship across Asia."
+    },
+    {
+      "matchText": "Xuanzang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in Tang China: Xuanzang made his famous overland pilgrimage to India and returned to Chang'an with cartloads of scriptures, becoming the most celebrated translator-monk of the age — the model Yijing followed by sea."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, in early China: the invention of silk in the painted-pottery world seeded the overland trade artery that would one day carry goods, ideas, and Buddhism between China and the West."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in Europe: the Carolingian empire of Charlemagne dominated the West just as Borobudur rose in Java — the great Frankish realm whose wealth would soon draw Viking raiders."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, in Western Europe: Charlemagne forged a Frankish empire and a cultural revival, the Carolingian Renaissance — Europe's monumental moment exactly as the Sailendras were building Borobudur."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, in Western Europe: the Carolingian building campaigns marked the early-medieval West's grandest era, yet produced nothing on Borobudur's scale."
+    },
+    {
+      "matchText": "Heian",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in Japan: the early Heian period opened with a new capital and a court culture that prized refinement over monumental stone — contemporary with, but utterly unlike, Sailendra Java."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in China: the high Tang dynasty sponsored grand Buddhist building, yet even Tang monumental architecture produced nothing matching Borobudur's scale."
     }
   ],
   "4": [
@@ -155,6 +293,96 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
       "blurb": "The ninth-century Arab geographical work known as the Akhbar al-Sin wa-l-Hind is one of the great products of the Abbasid-era explosion of Islamic geographical writing. The same intellectual culture that produced al-Khwarizmi's algebra, al-Razi's medicine, and the great translation movement at the Bayt al-Hikma also produced systematic accounts of the Indian Ocean trade world that are now indispensable for reconstructing Srivijaya."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South Asia, the Mughals built a land empire of conquered provinces and agricultural revenue — the exact opposite of Srivijaya's water-borne, customs-funded thalassocracy."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China, the Tang ran a graduated hierarchy of provinces, districts, and counties — the territorial model Srivijaya pointedly was not built on."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile at the other end of Eurasia, Venice ran the same playbook on the Mediterranean: a tiny lagoon city taxing the chokepoints of long-distance trade — Srivijaya's near-twin as a thalassocracy."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the Ottoman Empire would eventually break Venice's chokepoint on Mediterranean trade — the same fate that the Cholas, and then Java, dealt Srivijaya."
+    },
+    {
+      "matchText": "Cholas",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in southern India, the Chola dynasty's Tamil merchant guilds and naval reach would, in 1025, cross the Bay of Bengal and raid Srivijaya's ports directly."
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in southern India, the Chola dynasty's 1025 seaborne raid would shatter Srivijaya's fleet and loosen its grip on the tributary ports."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "Meanwhile across the Indian Ocean monsoon world, the trade routes that fed Srivijaya were the same lanes Ming China's treasure fleets would later sail."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China, the Tang court was Srivijaya's largest single trading partner, sending silk and ceramics south through Guangzhou and Quanzhou."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China, the Song-era ports kept the flow of silks, ceramics, and copper coin moving through the Strait that Srivijaya taxed."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in West Asia, the Abbasid Caliphate's merchants rode the monsoon to the Strait, where Arab geographers spun tales of Srivijaya's fabulously wealthy Maharaja of Zabag."
+    },
+    {
+      "matchText": "Mesopotamian",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the agricultural produce of Mesopotamia traveled east with Arab and Persian traders into Srivijaya's markets."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the Sanskrit heard on Srivijaya's piers descended from the sacred language of Vedic India, carried east as the prestige tongue of Hindu-Buddhist court culture."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the eastern Mediterranean, Byzantine emperors were the upstream power Venice allied with — the same chokepoint diplomacy Srivijaya practiced with China and India."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "Meanwhile two thousand years earlier, the Phoenician city-states ran the original thalassocracy — small coastal ports, vast commercial reach, wealth from trade rather than land."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South Asia, the Mughal image of empire — a territorial land power — is exactly the wrong mental model for Srivijaya's sea-based state."
     }
   ],
   "5": [
@@ -187,6 +415,84 @@
       "targetTl": "medieval-india",
       "targetChapter": 5,
       "blurb": "Srivijaya's trade network meshed with the Chola maritime sphere — the Indian Ocean economy that would soon turn from partner to predator."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in China, the Song dynasty presided over a commercial boom — kilns, foundries, and silk workshops pouring out the manufactured goods that powered the maritime trade."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile at the western end of the route, the Persian Gulf funneled Indian Ocean cargo into the markets of the Iranian world — a trade artery Persia worked for centuries."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Constantinople, the Byzantine capital was one of the great luxury markets where Srivijayan spices fetched extravagant prices."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Baghdad, the Abbasid capital sat at the head of the western trade and was one of the richest consumers of eastern spices and ceramics."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Chang'an, the cosmopolitan Tang capital drew in goods and traders from across Eurasia, the eastern anchor of the spice market."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile back in India, Sanskrit — the sacred language whose hymns shaped the Vedic world — supplied Srivijaya names like Suvarnabhumi, the 'land of gold.'"
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in southern India, the Chola kings backed the Tamil merchant guilds operating at Srivijayan ports — a relationship that would soon turn violent."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China, Tang merchants and their goods — silk, porcelain, ironware — were the eastern engine of the Indian Ocean trade."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China, the Tang dynasty was a manufacturing superpower whose exports flowed west through Srivijaya's straits."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic world, the Abbasid Caliphate formed the western point of the trade triangle, its dirhams and demand pulling goods across the ocean."
+    },
+    {
+      "matchText": "Kingdom of Aksum",
+      "targetTl": "kingdom-of-aksum",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Horn of Africa, Aksum's Red Sea port had long plugged East Africa into the Indian Ocean trade that Srivijaya's spices reached."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "viking-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in western Europe, the Carolingian Frankish realm imported eastern luxuries — Sumatran spices reached its aristocratic kitchens by the late ninth century."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mediterranean, Byzantine traders helped run the parallel commercial world that the Indian Ocean system most resembled."
     }
   ],
   "6": [
@@ -225,6 +531,72 @@
       "targetTl": "medieval-india",
       "targetChapter": 5,
       "blurb": "The Chola raid of 1025 — a south Indian fleet sacking Srivijaya's ports — is the moment the friendly Indian Ocean partner became a rival."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in India: the long-dead courtly language whose hymns and grammar were first composed and memorized by Vedic priests — the same Sanskrit in which Chola scribes later inscribed the captured Srivijayan king's elaborate name."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: four centuries after the Chola raid, the Ming sent Zheng He's vast treasure fleets across this same ocean — far larger in ships and men, but diplomatic missions rather than the war fleet Rajendra unleashed."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the earlier north Indian empire that, like the Mauryans and Mughals after it, fielded powerful armies but never projected force across open oceans the way the Cholas did."
+    },
+    {
+      "matchText": "Mughal",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the great later north Indian empire — one more land power that, for all its might, never mounted a transoceanic naval expedition like the Chola raid on Srivijaya."
+    },
+    {
+      "matchText": "Ancient Greece",
+      "targetTl": "ancient-greece",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Greece: Athens' catastrophic Sicilian Expedition of 415 BCE was the closest ancient parallel to the Chola raid in scale and ambition — except the Athenians lost everything and the Cholas won."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: the Northern Song was consolidating its great commercial cities, and Srivijaya kept sending it tribute missions even after the raid — proof the empire survived 1025."
+    },
+    {
+      "matchText": "Seljuk Turks",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Islamic world: the Turkic newcomers whose victory at Manzikert (1071) shattered Byzantine control of Anatolia in the very decade of the Chola raids."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Mediterranean: the same generation that saw the Chola fleet cross the Bay of Bengal saw the Byzantine army crushed at Manzikert (1071), opening Anatolia to the Turks."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Islamic world: the First Crusade (1095–99) erupted a generation after the Chola raid, part of the same densely connected eleventh-century Eurasia."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Constantinople: the great domed church whose famous mosaics were being installed in the very generations the Cholas were sacking Srivijayan ports — both ends of a connected Eurasia."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mediterranean: the imperial Byzantine capital, where the Hagia Sophia mosaics went up in the same eleventh century the Chola fleet was crossing the Bay of Bengal."
     }
   ],
   "7": [
@@ -281,6 +653,60 @@
       "targetTl": "mongol-empire",
       "targetChapter": 6,
       "blurb": "The Mongol-era reordering of Asian trade (and the failed Java expedition) accelerated Srivijaya's fragmentation into successor states."
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in India: the Chola dynasty of the Tamil south built a maritime empire whose 1025 naval raid shattered Srivijaya's monopoly on the Strait."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: the Song dynasty ran the era's richest economy and a sophisticated maritime trade administration that Srivijaya's ports depended on."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the long Iranian world supplied many of the Muslim merchants whose growing dominance reshaped the Indian Ocean trade."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: centuries later the Ming sent Zheng He's treasure fleets across this same Indian Ocean trade world Srivijaya once helped knit together."
+    },
+    {
+      "matchText": "Sufi",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: Sufi orders — mystical Muslim brotherhoods like the one that founded the Safavids — carried Islam along trade routes into maritime Southeast Asia."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic world: the traveler Ibn Battuta crossed this same trading sphere, recording the Muslim courts that were now rising along Srivijaya's old coast."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: Buddhism — the faith at the heart of Srivijaya's identity — had earlier arrived as a state religion, here being supplanted by Islam."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Islamic world: the same decade the Mongols attacked Java, they sacked Baghdad and ended the Abbasid Caliphate."
+    },
+    {
+      "matchText": "Norman Conquest",
+      "targetTl": "viking-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in England: the year of the Chola raid's afterlife, William of Normandy — descendant of Vikings — conquered England at Hastings in 1066."
     }
   ],
   "8": [
@@ -337,6 +763,36 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "Srivijaya's true inheritance was the Malay maritime-trade tradition — a commercial-civilizational template that outlived the state, as Persia's did."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in Persia — the Persian merchants who thronged the Malacca ports came out of an Iranian civilization whose imperial story began with Cyrus the Great."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, in Greece — the conqueror whose name (\"Iskandar\") the Malacca sultans borrowed had, seventeen centuries earlier, marched a Macedonian army from the Aegean to the edge of India."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, in Ming China — the same Indian Ocean that Malacca's sultan reached for international standing was being crossed by Admiral Zheng He's gigantic treasure fleets, which formally enrolled Malacca as a Ming vassal."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in Japan — the same Buddhism that Malacca's conversion replaced had arrived centuries earlier at the Yamato court, where it set off its own bitter religious crisis."
+    },
+    {
+      "matchText": "Ibn Battuta",
+      "targetTl": "mali-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, in Mali — the Moroccan traveler whose account is a key window on the medieval world also crossed the Sahara to Timbuktu, leaving the richest eyewitness description of the West African empire."
     }
   ]
 }

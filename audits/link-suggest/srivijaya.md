@@ -1,0 +1,317 @@
+# link-suggest — srivijaya
+
+{"SKIP":24,"REUSE":106,"NO-PAGE":25,"LINK-CANDIDATE":61,"CROSS":80}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- Srivijaya → SKIP (own-name, cat B)
+- **Han China** → REUSE `Han_dynasty` [high] — _Han dynasty_: The Han dynasty (202 BC – 9 AD, 25–220 AD) was an imperial dynasty of China established by Liu Bang, and prece  (linked in 9 civ(s) (e.g. gokturk-khaganate) ×24)
+- **Taiwan** → REUSE `Taiwan` [CONFIRM-homonym] — _Taiwan_: Taiwan, officially the Republic of China (ROC), is a country in East Asia. The main island of Taiwan, also kno  (linked in 7 civ(s) (e.g. chinese-revolution) ×14 — ⚠ AMBIGUOUS: also Taiwan_under_Japanese_rule(meiji-japan))
+- **Philippines** → REUSE `Philippines` [high] — _Philippines_: The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. Loc  (linked in 5 civ(s) (e.g. joseon-korea) ×10)
+- **Indonesian** → NO-PAGE → blurb (top hit "Indonesian" is a disambiguation page)
+- **Easter Island** → REUSE `Easter_Island` [high] — _Easter Island_: Easter Island (Spanish: Isla de Pascua, [ˈizla ðe ˈpaskwa]; Rapa Nui: Rapa Nui, [ˈɾapa ˈnu.i]) is an island an  (linked in 4 civ(s) (e.g. ancestral-puebloans) ×9)
+- **Indo-European** → REUSE `Indo-European_languages` [high] — _Indo-European languages_: The Indo-European languages are a language family native to the northern Indian subcontinent, most of Europe,   (linked in 11 civ(s) (e.g. celtic-cultures) ×18)
+- *** Hindi** → `Hindi` [high] — _Hindi_: Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an 
+- **Malay Peninsula** → `Malay_Peninsula` [high] — _Malay Peninsula_: The Malay Peninsula is located in Mainland Southeast Asia. The landmass runs approximately north–south, and at its termi
+- *** Mesopotamian** → `Mesopotamia` [high] — _Mesopotamia_: Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part 
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 5 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Borneo** → REUSE `Borneo` [high] — _Borneo_: Borneo () is the third-largest island in the world, with an area of 748,168 km2 (288,869 sq mi), and populatio  (linked in 1 civ(s) (e.g. majapahit) ×2)
+- **Guangzhou** → REUSE `Guangzhou` [high] — _Guangzhou_: Guangzhou, also known as Canton, is the capital and largest city of Guangdong in southern China. Located on th  (linked in 2 civ(s) (e.g. han-dynasty) ×8)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×15)
+- *** Middle East** → `Middle_East` [high] — _Middle East_: The Middle East is a geo-political region that is generally defined as encompassing all of Egypt and all of West Asia ex
+- **Bay of Bengal** → REUSE `Bay_of_Bengal` [high] — _Bay of Bengal_: The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and  (linked in 4 civ(s) (e.g. gupta-empire) ×19)
+- **South China Sea** → REUSE `South_China_Sea` [high] — _South China Sea_: The South China Sea is a marginal sea of the Western Pacific Ocean. It is bounded in the north by South China,  (linked in 4 civ(s) (e.g. asuka-nara-japan) ×14)
+- Tamil Nadu → SKIP (modern locator, cat A)
+- **Sumatran** → `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian te
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×16)
+- **Southeast Asian** → `Southeast_Asia` [high] — _Southeast Asia_: Southeast Asia is the geographical southeastern region of Asia, consisting of the regions that are situated south of Chi
+- **Mekong** → REUSE `Mekong` [high] — _Mekong_: The Mekong or Mekong River (UK: mee-KONG, US: may-KAWNG) is a transboundary river in East Asia and Southeast A  (linked in 3 civ(s) (e.g. ancient-china) ×6)
+- *** Cambodia** → `Cambodia` [high] — _Cambodia_: Cambodia, officially the Kingdom of Cambodia, is a country in Mainland Southeast Asia. It is bordered by Thailand to the
+- **Vyadhapura** → `Vyadhapura` [high] — _Vyadhapura_: Vyadhapura (Khmer: វ្យាធបុរៈ, Sanskrit: व्याधपूर Vyādhapūra) was an ancient city of the Funan civilization, likely in wh
+- **Indianized** → NO-PAGE → blurb (top hit "Indian" is a disambiguation page)
+- **Brahmin** → REUSE `Brahmin` [high] — _Brahmin_: Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu socie  (linked in 6 civ(s) (e.g. gupta-empire) ×20)
+- **Alexander** → REUSE `Alexander_the_Great` [high] — _Alexander the Great_: Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323  (linked in 7 civ(s) (e.g. assyrian-empire) ×18)
+- *** Burma** → `Burma_campaign` [high] — _Burma campaign_: The Burma campaign was a series of battles fought in the British colony of Burma as part of the South-East Asian theatre
+- **Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×13)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×23)
+- **Byzantine Empire** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×64)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- **Emperor Xuanzong** → REUSE `Emperor_Xuanzong_of_Tang` [high] — _Emperor Xuanzong of Tang_: Emperor Xuanzong of Tang ([ɕwǎn.tsʊ́ŋ]; 8 September 685 – 3 May 762), personal name Li Longji, was an emperor   (linked in 4 civ(s) (e.g. asuka-nara-japan) ×13)
+- **Pushyabhuti** → `Pushyabhuti_dynasty` [high] — _Pushyabhuti dynasty_: The Pushyabhuti dynasty (IAST: Puṣyabhūti), also known as the Vardhana dynasty, was the ruling dynasty of the Kingdom of
+- **Mesoamerica** → REUSE `Mesoamerica` [high] — _Mesoamerica_: Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern   (linked in 18 civ(s) (e.g. andean-kingdoms) ×56)
+- **Maya** → CROSS → `maya-civilization`  (cross-linked elsewhere ×15)
+- *** Late Classic** → `Mesoamerican_chronology` [low] — _Mesoamerican chronology_: Mesoamerican chronology divides the history of prehispanic Mesoamerica into several periods: the Paleo-Indian (first hum
+- **-varman** → `University_of_Michigan` [low] — _University of Michigan_: The University of Michigan (UMich, U-M, or Michigan) is a public research university in Ann Arbor, Michigan, United Stat
+
+## Chapter 2
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×14)
+- **Foshi** → `Indrapura_(Champa)` [low] — _Indrapura (Champa)_: Indrapura or Đồng Dương was the capital city of the kingdom of Champa from 875 AD until 982, or until 12th century AD. I
+- **Palembang** → REUSE `Palembang` [high] — _Palembang_: Palembang (Indonesian pronunciation: [paˈlɛmbaŋ] , Palembang: Pelémbang, Mandarin: 巨港 (Jùgǎng), Hokkien: 舊港 (K  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- Srivijaya → SKIP (own-name, cat B)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×11)
+- Central Asia → SKIP (modern locator, cat A)
+- **Sumatran** → `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian te
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Srivijayan** → `Srivijaya` [high] — _Srivijaya_: Srivijaya, also spelled Sri Vijaya or Sriwijaya, was a Malay thalassocratic empire based on the island of Sumatra (in mo
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 5 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Tang Chinese** → CROSS → `tang-song-china`  (cross-linked elsewhere ×6)
+- *** Pala** → `Pala_Empire` [med] — _Pala Empire_: The Pāla Empire was an empire ruled by the Pala (lit. 'protector' in Prakrit and Sanskrit) dynasty, an early medieval In
+- **Anglo-Saxon Chronicle** → REUSE `Anglo-Saxon_Chronicle` [high] — _Anglo-Saxon Chronicle_: The Anglo-Saxon Chronicle (also ASC and the Chronicle) is the term used by historians to describe a set of ann  (linked in 3 civ(s) (e.g. anglo-saxon-england) ×10)
+- **Sasanian** → CROSS → `persian-empire`  (cross-linked elsewhere ×7)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 4 civ(s) (e.g. gupta-empire) ×11 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- **Sunda Strait** → `Sunda_Strait` [high] — _Sunda Strait_: The Sunda Strait (Indonesian: Selat Sunda) is the strait between the Indonesian islands of Java and Sumatra. It connects
+- **Strait of Malacca** → REUSE `Strait_of_Malacca` [high] — _Strait of Malacca_: The Strait of Malacca is a narrow stretch of water, 900 kilometres (560 mi) long and from 65 to 250 km (40 to   (linked in 2 civ(s) (e.g. medieval-india) ×6)
+- **Malacca** → REUSE `Malacca` [high] — _Malacca_: Malacca (Malay: Melaka), officially the Historic State of Malacca (Malay: Melaka Negeri Bersejarah), is a stat  (linked in 3 civ(s) (e.g. late-medieval-europe) ×6)
+- **Tang Dynasty China** → `Tang_dynasty` [high] — _Tang dynasty_: The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an i
+- **Musi River** → `Musi_River_(India)` [high] — _Musi River (India)_: The Musi River, also known as Muchukunda or Musunuru river, is a major tributary of the Krishna River in the Deccan Plat
+- **Islamic Caliphate** → `Caliphate` [high] — _Caliphate_: A caliphate is an institution or public office under the leadership of an Islamic steward with the title of caliph (), a
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- **Pushyabhuti** → `Pushyabhuti_dynasty` [high] — _Pushyabhuti dynasty_: The Pushyabhuti dynasty (IAST: Puṣyabhūti), also known as the Vardhana dynasty, was the ruling dynasty of the Kingdom of
+- **Harsha** → CROSS → `medieval-india`  (cross-linked elsewhere ×1)
+- **Tripartite Struggle** → REUSE `Tripartite_Struggle` [high] — _Tripartite Struggle_: The Tripartite Struggle (785–816) also known as the Kannauj Wars, were a series of wars in northern India foug  (linked in 1 civ(s) (e.g. medieval-india) ×8)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- **Mesoamerica** → REUSE `Mesoamerica` [high] — _Mesoamerica_: Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern   (linked in 18 civ(s) (e.g. andean-kingdoms) ×56)
+- **Maya** → CROSS → `maya-civilization`  (cross-linked elsewhere ×15)
+- *** Late Classic** → `Mesoamerican_chronology` [low] — _Mesoamerican chronology_: Mesoamerican chronology divides the history of prehispanic Mesoamerica into several periods: the Paleo-Indian (first hum
+- **Pushyabhuti dynasty** → REUSE `Vardhana_dynasty` [high] — _Pushyabhuti dynasty_: The Pushyabhuti dynasty (IAST: Puṣyabhūti), also known as the Vardhana dynasty, was the ruling dynasty of the   (linked in 1 civ(s) (e.g. medieval-india) ×2)
+
+## Chapter 3
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 5 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Siddhartha Gautama** → REUSE `Gautama_Buddha` [high] — _The Buddha_: Siddhartha Gautama, most commonly referred to as the Buddha (lit. 'the awakened one'), was a wandering ascetic  (linked in 2 civ(s) (e.g. ancient-korea) ×4)
+- **Vindhya Mountains** → REUSE `Vindhya_Range` [high] — _Vindhya Range_: The Vindhya Range (IPA: [ʋɪnd̪ʱjə], also known as Vindhyachal) is a complex, discontinuous chain of mountain r  (linked in 2 civ(s) (e.g. medieval-india) ×6)
+- Sri Lanka → SKIP (modern locator, cat A)
+- Southeast Asia → SKIP (modern locator, cat A)
+- *** Burma** → `Burma_campaign` [high] — _Burma campaign_: The Burma campaign was a series of battles fought in the British colony of Burma as part of the South-East Asian theatre
+- *** Cambodia** → `Cambodia` [high] — _Cambodia_: Cambodia, officially the Kingdom of Cambodia, is a country in Mainland Southeast Asia. It is bordered by Thailand to the
+- **Tibetan** → REUSE `Tibetan_Buddhism` [CONFIRM-homonym] — _Tibetan Buddhism_: Tibetan Buddhism is a form of Buddhism practiced in Tibet, Bhutan, and Mongolia. It also has a sizable number   (linked in 2 civ(s) (e.g. gupta-empire) ×3 — ⚠ AMBIGUOUS: also Tibet(medieval-india))
+- **Yijing** → REUSE `Yijing_(monk)` [high] — _Yijing (monk)_: Yijing (635–713 CE), formerly romanized as I-ching or I-tsing, born Zhang Wenming, was a Tang-era Chinese Budd  (linked in 1 civ(s) (e.g. medieval-india) ×1)
+- **Palembang** → REUSE `Palembang` [high] — _Palembang_: Palembang (Indonesian pronunciation: [paˈlɛmbaŋ] , Palembang: Pelémbang, Mandarin: 巨港 (Jùgǎng), Hokkien: 舊港 (K  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- *** Sanskrit Buddhist** → `Sanskrit_Buddhist_literature` [high] — _Sanskrit Buddhist literature_: Sanskrit Buddhist literature refers to Buddhist texts composed either in classical Sanskrit, or in a register that has b
+- *** Indian Buddhism** → `Buddhism` [high] — _Buddhism_: Buddhism, also known as Buddhadharma and Dharmavinaya, is an Indian religion and philosophy based on teachings attribute
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×11)
+- **Srivijayan** → `Srivijaya` [high] — _Srivijaya_: Srivijaya, also spelled Sri Vijaya or Sriwijaya, was a Malay thalassocratic empire based on the island of Sumatra (in mo
+- **Xuanzang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- **Silk Road** → CROSS → `ancient-china`  (cross-linked elsewhere ×19)
+- *** Journey** → NO-PAGE → blurb (top hit "Journey" is a disambiguation page)
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- **Java Sea** → REUSE `Java_Sea` [high] — _Java Sea_: The Java Sea (Indonesian: Laut Jawa, Javanese: Segara Jawa) is an extensive shallow sea in Indonesia. It lies   (linked in 2 civ(s) (e.g. majapahit) ×4)
+- **Carolingian** → CROSS → `viking-age`  (cross-linked elsewhere ×9)
+- **Charlemagne** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×12)
+- **Early Medieval Europe** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×11)
+- **Heian** → CROSS → `heian-japan`  (cross-linked elsewhere ×4)
+- **Tang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×17)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- Bengal → SKIP (modern locator, cat A)
+- **Tibetan Buddhist** → REUSE `Tibetan_Buddhism` [high] — _Tibetan Buddhism_: Tibetan Buddhism is a form of Buddhism practiced in Tibet, Bhutan, and Mongolia. It also has a sizable number   (linked in 2 civ(s) (e.g. heian-japan) ×3)
+- **Strait of Malacca** → REUSE `Strait_of_Malacca` [high] — _Strait of Malacca_: The Strait of Malacca is a narrow stretch of water, 900 kilometres (560 mi) long and from 65 to 250 km (40 to   (linked in 2 civ(s) (e.g. medieval-india) ×6)
+
+## Chapter 4
+- Srivijaya → SKIP (own-name, cat B)
+- **Mughals** → CROSS → `mughal-empire`  (cross-linked elsewhere ×11)
+- **Tang Chinese** → CROSS → `tang-song-china`  (cross-linked elsewhere ×6)
+- **Venice** → CROSS → `ancient-rome`  (cross-linked elsewhere ×7)
+- **Ottoman Empire** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×48)
+- **Cholas** → CROSS → `medieval-india`  (cross-linked elsewhere ×1)
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 5 civ(s) (e.g. asuka-nara-japan) ×10)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+- **Palembang** → REUSE `Palembang` [high] — _Palembang_: Palembang (Indonesian pronunciation: [paˈlɛmbaŋ] , Palembang: Pelémbang, Mandarin: 巨港 (Jùgǎng), Hokkien: 舊港 (K  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Musi River** → `Musi_River_(India)` [high] — _Musi River (India)_: The Musi River, also known as Muchukunda or Musunuru river, is a major tributary of the Krishna River in the Deccan Plat
+- **Bangka** → NO-PAGE → blurb (top hit "Bangka" is a disambiguation page)
+- **Belitung** → `Belitung` [high] — _Belitung_: Belitung (Belitung Malay: Belitong, formerly Billiton) is an island on the east coast of Sumatra, Indonesia in the Java 
+- **Jambi** → `Jambi` [high] — _Jambi_: Jambi is a province of Indonesia. It is located on the east coast of central Sumatra and stretches to the Barisan Mounta
+- **Kedah** → REUSE `Kedah` [high] — _Kedah_: Kedah (Malay pronunciation: [kəˈdah]), also known by its honorific Darul Aman (دار الأمان; Arabic for 'The Saf  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Sailendra** → REUSE `Shailendra_dynasty` [high] — _Shailendra dynasty_: The Shailendra dynasty (IAST: Śailēndra, Indonesian pronunciation: [ʃaɪlenˈdraː] derived from Sanskrit combine  (linked in 2 civ(s) (e.g. gupta-empire) ×3)
+- **Chola** → CROSS → `medieval-india`  (cross-linked elsewhere ×4)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×16)
+- **Java Sea** → REUSE `Java_Sea` [high] — _Java Sea_: The Java Sea (Indonesian: Laut Jawa, Javanese: Segara Jawa) is an extensive shallow sea in Indonesia. It lies   (linked in 2 civ(s) (e.g. majapahit) ×4)
+- **Javanese** → `Javanese_people` [high] — _Javanese people_: The Javanese (Javanese: ꦮꦺꦴꦁꦗꦮ, romanized: Wong Jåwå (in the ngoko register), ꦠꦶꦪꦁꦗꦮꦶ, Tiyang Jawi (in the krama registe
+- Southeast Asia → SKIP (modern locator, cat A)
+- *** Cambodia** → `Cambodia` [high] — _Cambodia_: Cambodia, officially the Kingdom of Cambodia, is a country in Mainland Southeast Asia. It is bordered by Thailand to the
+- **Borneo** → REUSE `Borneo` [high] — _Borneo_: Borneo () is the third-largest island in the world, with an area of 748,168 km2 (288,869 sq mi), and populatio  (linked in 1 civ(s) (e.g. majapahit) ×2)
+- **Philippines** → REUSE `Philippines` [high] — _Philippines_: The Philippines, officially the Republic of the Philippines, is an archipelagic country in Southeast Asia. Loc  (linked in 5 civ(s) (e.g. joseon-korea) ×10)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 4 civ(s) (e.g. gupta-empire) ×11 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- Tamil Nadu → SKIP (modern locator, cat A)
+- **Genoa** → REUSE `Genoa` [CONFIRM-homonym] — _Genoa_: Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301  (linked in 8 civ(s) (e.g. early-medieval-europe) ×27 — ⚠ AMBIGUOUS: also Republic_of_Genoa(high-medieval-europe))
+- **Tang** → CROSS → `tang-song-china`  (cross-linked elsewhere ×17)
+- **Song** → CROSS → `tang-song-china`  (cross-linked elsewhere ×8)
+- **Guangzhou** → REUSE `Guangzhou` [high] — _Guangzhou_: Guangzhou, also known as Canton, is the capital and largest city of Guangdong in southern China. Located on th  (linked in 2 civ(s) (e.g. han-dynasty) ×8)
+- **Quanzhou** → REUSE `Quanzhou` [high] — _Quanzhou_: Quanzhou is a prefecture-level port city on the north bank of the Jin River, beside the Taiwan Strait in south  (linked in 3 civ(s) (e.g. ming-dynasty) ×14)
+- **Lobu Tua** → `Lobu_Tua_Inscription` [high] — _Lobu Tua Inscription_: Lobu Tua Inscription, also called Barus Inscription, is an inscription written in Tamil language which was discovered in
+- **Abbasid Caliphate** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×15)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- *** Mesopotamian** → `Mesopotamia` [high] — _Mesopotamia_: Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part 
+- **Zabag** → `Zabag_(ancient_territory)` [high] — _Zabag (ancient territory)_: Zabag (Indonesian: Sabak; Chinese: 阇婆 or 闍婆 "She-bó", "Shepo"; Sanskrit: Javaka; Arabic: الزابج "al-Zabaj"; Latin: Jabad
+- **Kediri** → `Persik_Kediri` [high] — _Persik Kediri_: Persatuan sepak bola Indonesia Kediri (lit. Indonesian football association of Kediri; abbreviated Persik Kediri) (prono
+- **Singhasari** → REUSE `Singhasari` [high] — _Singhasari_: Singhasari (Javanese: ꦏꦫꦠꦺꦴꦤ꧀ꦱꦶꦔ꧀ꦲꦱꦫꦶ, romanized: Karaton Singhasari or Karaton Singosari, Indonesian: Kerajaa  (linked in 2 civ(s) (e.g. mongol-empire) ×4)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×11)
+- **Mandarin** → REUSE `Mandarin_Chinese` [high] — _Mandarin Chinese_: Mandarin ( MAN-dər-in) is the largest branch of the Sinitic languages. Mandarin varieties are natively spoken   (linked in 1 civ(s) (e.g. qin-dynasty) ×2)
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 24 civ(s) (e.g. ancient-nubia) ×109 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Austronesian** → CROSS → `srivijaya`  (cross-linked elsewhere ×1)
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×26)
+- **Levant** → REUSE `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The  (linked in 27 civ(s) (e.g. ancient-nubia) ×70)
+- **Phoenician** → CROSS → `phoenicia`  (cross-linked elsewhere ×3)
+- *** Levantine** → `Levant` [high] — _Levant_: The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is o
+- **Tyre** → REUSE `Tyre,_Lebanon` [high] — _Tyre, Lebanon_: Tyre is a city in Lebanon, and one of the oldest continuously inhabited cities in the world. It was one of the  (linked in 8 civ(s) (e.g. ancient-greece) ×17)
+- **Sidon** → REUSE `Sidon` [high] — _Sidon_: Sidon ( SY-dən), or Saida ( SY-də, SAH-id-ə; Arabic: صيدا, romanized: Ṣaydā), is the third-largest city in Leb  (linked in 3 civ(s) (e.g. mesopotamia) ×6)
+- **Byblos** → REUSE `Byblos` [high] — _Byblos_: Byblos ( BIB-loss; Ancient Greek: Βύβλος), also known as Jbail, Jebeil, Jbeil or Jubayl (Arabic: جُبَيْل, roma  (linked in 6 civ(s) (e.g. early-dynastic-egypt) ×12)
+- **Cassiterides** → REUSE `Cassiterides` [high] — _Cassiterides_: The Cassiterides (Ancient Greek: Κασσιτερίδες, meaning "tin place", from κασσίτερος, kassíteros "tin") are an   (linked in 1 civ(s) (e.g. phoenicia) ×2)
+- **British Isles** → REUSE `British_Isles` [high] — _British Isles_: The British Isles are an archipelago in the North Atlantic Ocean off the north-western coast of continental Eu  (linked in 3 civ(s) (e.g. late-medieval-europe) ×8)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×11)
+- **thalassa** → `Thalassa` [high] — _Thalassa_: In Greek mythology, Thalassa (Ancient Greek: θάλασσα, lit. 'sea') is a divine female personification of the sea. Her nam
+- **kratos** → `Kratos_(mythology)` [high] — _Kratos (mythology)_: In Greek mythology, Kratos (Ancient Greek: Κράτος, lit. 'power, strength') also known as Cratus or Cratos, is the divine
+
+## Chapter 5
+- Srivijaya → SKIP (own-name, cat B)
+- **Guangzhou** → REUSE `Guangzhou` [high] — _Guangzhou_: Guangzhou, also known as Canton, is the capital and largest city of Guangdong in southern China. Located on th  (linked in 2 civ(s) (e.g. han-dynasty) ×8)
+- **Guangdong** → REUSE `Guangdong` [high] — _Guangdong_: Guangdong is a coastal province in South China, on the north shore of the South China Sea with Guangzhou as th  (linked in 5 civ(s) (e.g. han-dynasty) ×10)
+- **South China Sea** → REUSE `South_China_Sea` [high] — _South China Sea_: The South China Sea is a marginal sea of the Western Pacific Ocean. It is bounded in the north by South China,  (linked in 4 civ(s) (e.g. asuka-nara-japan) ×14)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+- **Song China** → CROSS → `tang-song-china`  (cross-linked elsewhere ×12)
+- **Champa** → REUSE `Champa` [high] — _Champa_: Champa were a collection of independent Cham polities that extended across the coast of what is present-day ce  (linked in 5 civ(s) (e.g. dai-viet) ×16)
+- **Srivijayan** → `Srivijaya` [high] — _Srivijaya_: Srivijaya, also spelled Sri Vijaya or Sriwijaya, was a Malay thalassocratic empire based on the island of Sumatra (in mo
+- **Strait of Malacca** → REUSE `Strait_of_Malacca` [high] — _Strait of Malacca_: The Strait of Malacca is a narrow stretch of water, 900 kilometres (560 mi) long and from 65 to 250 km (40 to   (linked in 2 civ(s) (e.g. medieval-india) ×6)
+- **Palembang** → REUSE `Palembang` [high] — _Palembang_: Palembang (Indonesian pronunciation: [paˈlɛmbaŋ] , Palembang: Pelémbang, Mandarin: 巨港 (Jùgǎng), Hokkien: 舊港 (K  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Lamuri** → `Lambri` [low] — _Lambri_: Lamuri, Lamri, or Lambri was a kingdom in northern Sumatra, recorded from the 9th century until the early 16th century. 
+- **Southeast Asian** → `Southeast_Asia` [high] — _Southeast Asia_: Southeast Asia is the geographical southeastern region of Asia, consisting of the regions that are situated south of Chi
+- **Bay of Bengal** → REUSE `Bay_of_Bengal` [high] — _Bay of Bengal_: The Bay of Bengal forms the northeastern part of the Indian Ocean, located between the Indian subcontinent and  (linked in 4 civ(s) (e.g. gupta-empire) ×19)
+- Sri Lanka → SKIP (modern locator, cat A)
+- **Persian Gulf** → CROSS → `safavid-persia`  (cross-linked elsewhere ×14)
+- **Arab** → REUSE `Arabs` [high] — _Arabs_: Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A si  (linked in 18 civ(s) (e.g. asuka-nara-japan) ×57)
+- **Basra** → REUSE `Basra` [high] — _Basra_: Basra (Arabic: ٱلْبَصْرَة, romanized: al-Baṣrah) or Basrah is a port city in southern Iraq. It is the capital   (linked in 3 civ(s) (e.g. islamic-golden-age) ×20)
+- **Malacca** → REUSE `Malacca` [high] — _Malacca_: Malacca (Malay: Melaka), officially the Historic State of Malacca (Malay: Melaka Negeri Bersejarah), is a stat  (linked in 3 civ(s) (e.g. late-medieval-europe) ×6)
+- **Spices** → `Spice` [high] — _Spice_: In the culinary arts, a spice is a seed, fruit, root, bark, or other plant substance primarily used for flavouring or co
+- **Cairo** → REUSE `Cairo` [high] — _Cairo_: Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million   (linked in 18 civ(s) (e.g. ancient-nubia) ×84)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×56)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×42)
+- **Chang'an** → CROSS → `tang-song-china`  (cross-linked elsewhere ×13)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×11)
+- **Suvarnabhumi** → `Suvarnabhumi_Airport` [high] — _Suvarnabhumi Airport_: Suvarnabhumi Airport (IATA: BKK, ICAO: VTBS) is the main international airport serving Bangkok, the capital of Thailand.
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Chola** → CROSS → `medieval-india`  (cross-linked elsewhere ×4)
+- **Cholas** → CROSS → `medieval-india`  (cross-linked elsewhere ×1)
+- **Sailendra** → REUSE `Shailendra_dynasty` [high] — _Shailendra dynasty_: The Shailendra dynasty (IAST: Śailēndra, Indonesian pronunciation: [ʃaɪlenˈdraː] derived from Sanskrit combine  (linked in 2 civ(s) (e.g. gupta-empire) ×3)
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 5 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Nalanda** → REUSE `Nalanda_mahavihara` [CONFIRM-homonym] — _Nalanda mahavihara_: Nalanda (IAST: Nālandā, pronounced [naːlən̪d̪aː]) was a renowned Buddhist mahavihara (great monastery) in medi  (linked in 2 civ(s) (e.g. gupta-empire) ×8 — ⚠ AMBIGUOUS: also Nalanda(gupta-empire))
+- **Pala** → REUSE `Pala_Empire` [high] — _Pala Empire_: The Pāla Empire was an empire ruled by the Pala (lit. 'protector' in Prakrit and Sanskrit) dynasty, an early m  (linked in 3 civ(s) (e.g. gupta-empire) ×4)
+- Bihar → SKIP (modern locator, cat A)
+- Bengal → SKIP (modern locator, cat A)
+- *** Tibetan Buddhist** → `Tibetan_Buddhist_canon` [high] — _Tibetan Buddhist canon_: The Tibetan Buddhist canon is a compilation of the Buddhist sacred texts recognized by various schools of Tibetan Buddhi
+- **Yijing** → REUSE `Yijing_(monk)` [high] — _Yijing (monk)_: Yijing (635–713 CE), formerly romanized as I-ching or I-tsing, born Zhang Wenming, was a Tang-era Chinese Budd  (linked in 1 civ(s) (e.g. medieval-india) ×1)
+- **Tang Chinese** → CROSS → `tang-song-china`  (cross-linked elsewhere ×6)
+- **Tang China** → CROSS → `ancient-china`  (cross-linked elsewhere ×18)
+- **Abbasid Caliphate** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×15)
+- *** Mombasa** → `Mombasa` [high] — _Mombasa_: Mombasa ( mom-BASS-ə; also US: -⁠BAH-sə) is a coastal city in southeastern Kenya along the Indian Ocean. It was the firs
+- **Kingdom of Aksum** → CROSS → `kingdom-of-aksum`  (cross-linked elsewhere ×1)
+- **Carolingian** → CROSS → `viking-age`  (cross-linked elsewhere ×9)
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×26)
+- **Tamil coast** → `Tamil_Nadu` [med] — _Tamil Nadu_: Tamil Nadu is the southernmost state of India. The tenth largest Indian state by area and the sixth largest by populatio
+- **Gujarati** → REUSE `Gujarat` [CONFIRM-homonym] — _Gujarat_: Gujarat (Gujarati: Gujarāt, pronounced [ˈɡudʒəɾaːt] ) is a state along the western coast of India. Its coastli  (linked in 2 civ(s) (e.g. majapahit) ×2 — ⚠ AMBIGUOUS: also Gujarati_people(medieval-india))
+- **Song silver coins** → `Silver_Dragon_(coin)` [low] — _Silver Dragon (coin)_: Silver Dragon coins, also sometimes known as Dragon dollars, are silver coins issued by China, Japan and later Korea for
+
+## Chapter 6
+- **Srivijayan** → `Srivijaya` [high] — _Srivijaya_: Srivijaya, also spelled Sri Vijaya or Sriwijaya, was a Malay thalassocratic empire based on the island of Sumatra (in mo
+- **Palembang** → REUSE `Palembang` [high] — _Palembang_: Palembang (Indonesian pronunciation: [paˈlɛmbaŋ] , Palembang: Pelémbang, Mandarin: 巨港 (Jùgǎng), Hokkien: 舊港 (K  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- Southeast Asia → SKIP (modern locator, cat A)
+- Tamil Nadu → SKIP (modern locator, cat A)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 4 civ(s) (e.g. gupta-empire) ×11 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- Sri Lanka → SKIP (modern locator, cat A)
+- **Ganges** → REUSE `Ganges` [high] — _Ganges_: The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of A  (linked in 6 civ(s) (e.g. delhi-sultanate) ×24)
+- **Shiva** → REUSE `Shiva` [high] — _Shiva_: Shiva (; Sanskrit: शिव, IAST: Śiva, lit. 'The Auspicious One'), also known as Mahadeva (; Sanskrit: महादेव, IA  (linked in 7 civ(s) (e.g. delhi-sultanate) ×24)
+- Srivijaya → SKIP (own-name, cat B)
+- **Ainurruvar** → REUSE `Five_Hundred_Lords_of_Ayyavole` [high] — _Five Hundred Lords of Ayyavole_: The Five Hundred Lords of Ayyavole were a merchant guild from Aihole that provided trade links between trading  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- **Dutch** → REUSE `Dutch_Republic` [CONFIRM-homonym] — _Dutch Republic_: The Republic of the Seven United Netherlands, also known as the United Provinces (of the Netherlands), and ref  (linked in 7 civ(s) (e.g. late-medieval-europe) ×12 — ⚠ AMBIGUOUS: also Dutch_East_India_Company(edo-japan), Dutch_people(late-medieval-europe), Dutch_language(early-medieval-europe))
+- **Strait of Malacca** → REUSE `Strait_of_Malacca` [high] — _Strait of Malacca_: The Strait of Malacca is a narrow stretch of water, 900 kilometres (560 mi) long and from 65 to 250 km (40 to   (linked in 2 civ(s) (e.g. medieval-india) ×6)
+- **Mahayana Buddhist** → `Mahayana` [high] — _Mahayana_: Mahayana is the largest branch of Buddhism, followed by Theravada. It is a broad group of Buddhist traditions, texts, ph
+- *** Pala** → `Pala_Empire` [med] — _Pala Empire_: The Pāla Empire was an empire ruled by the Pala (lit. 'protector' in Prakrit and Sanskrit) dynasty, an early medieval In
+- **Sanskrit** → CROSS → `vedic-period`  (cross-linked elsewhere ×11)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×16)
+- **Gupta** → CROSS → `gupta-empire`  (cross-linked elsewhere ×2)
+- **Mughal** → CROSS → `mughal-empire`  (cross-linked elsewhere ×11)
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- **English Channel** → REUSE `English_Channel` [high] — _English Channel_: The English Channel, also known as the Channel, is an arm of the Atlantic Ocean that separates Southern Englan  (linked in 2 civ(s) (e.g. ancient-rome) ×3)
+- *** Channel** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Ancient Greece** → CROSS → `ancient-greece`  (cross-linked elsewhere ×6)
+- **Song China** → CROSS → `tang-song-china`  (cross-linked elsewhere ×12)
+- **Seljuk Turks** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×1)
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×26)
+- **Anatolia** → REUSE `Anatolia` [high] — _Anatolia_: Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority   (linked in 28 civ(s) (e.g. ancient-korea) ×149)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- **Romanesque** → REUSE `Romanesque_architecture` [high] — _Romanesque architecture_: Romanesque architecture is an architectural style of medieval Europe that was predominant in the 11th and 12th  (linked in 2 civ(s) (e.g. high-medieval-europe) ×5)
+- **Hagia Sophia** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×12)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×56)
+- *** Eurasia** → `Eurasia` [high] — _Eurasia_: Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. Acco
+
+## Chapter 7
+- **Tibet** → REUSE `Tibet` [CONFIRM-homonym] — _Tibet_: Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homel  (linked in 8 civ(s) (e.g. asuka-nara-japan) ×22 — ⚠ AMBIGUOUS: also Tibet_under_Qing_rule(qing-dynasty))
+- Bengal → SKIP (modern locator, cat A)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- **Palembang** → REUSE `Palembang` [high] — _Palembang_: Palembang (Indonesian pronunciation: [paˈlɛmbaŋ] , Palembang: Pelémbang, Mandarin: 巨港 (Jùgǎng), Hokkien: 舊港 (K  (linked in 1 civ(s) (e.g. medieval-india) ×2)
+- **Sumatran** → `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Indonesian te
+- **Chola** → CROSS → `medieval-india`  (cross-linked elsewhere ×4)
+- **Lamuri** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Arab** → REUSE `Arabs` [high] — _Arabs_: Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A si  (linked in 18 civ(s) (e.g. asuka-nara-japan) ×57)
+- **Song** → CROSS → `tang-song-china`  (cross-linked elsewhere ×8)
+- **Quanzhou** → REUSE `Quanzhou` [high] — _Quanzhou_: Quanzhou is a prefecture-level port city on the north bank of the Jin River, beside the Taiwan Strait in south  (linked in 3 civ(s) (e.g. ming-dynasty) ×14)
+- **Sailendras'** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sanjaya** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Borobudur** → CROSS → `srivijaya`  (cross-linked elsewhere ×1)
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×23)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×16)
+- **Mogadishu** → REUSE `Mogadishu` [high] — _Mogadishu_: Mogadishu, locally known as Xamar or Hamar, is the capital and most populous city of Somalia. The city has ser  (linked in 3 civ(s) (e.g. islamic-golden-age) ×10)
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 24 civ(s) (e.g. ancient-nubia) ×109 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Sufi** → CROSS → `safavid-persia`  (cross-linked elsewhere ×6)
+- Yemen → SKIP (modern locator, cat A)
+- **Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×28)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×14)
+- **Jayakatwang** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Eurasian** → `Eurasianism` [high] — _Eurasianism_: Eurasianism (Russian: евразийство, romanized: yevrazíystvo [jɪvrɐˈzʲijstvə]) is a socio-political movement in Russia tha
+- **Norman Conquest of England** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×42)
+- *** Eurasia** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Norman Conquest** → CROSS → `viking-age`  (cross-linked elsewhere ×2)
+
+## Chapter 8
+- **Musi River** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Indonesian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sumatra** → REUSE `Sumatra` [high] — _Sumatra_: Sumatra () is one of the Sunda Islands of western Indonesia. It is the largest island that is fully within Ind  (linked in 9 civ(s) (e.g. gupta-empire) ×22)
+- **Borneo** → REUSE `Borneo` [high] — _Borneo_: Borneo () is the third-largest island in the world, with an area of 748,168 km2 (288,869 sq mi), and populatio  (linked in 1 civ(s) (e.g. majapahit) ×2)
+- **Moluccas** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mpu Prapanca** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Srivijayan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sumatran** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tamil** → REUSE `Tamils` [CONFIRM-homonym] — _Tamils_: The Tamils ( TAM-ilz, TAHM-), also known by their demonym Tamilar, are a Dravidian ethnic group who natively s  (linked in 4 civ(s) (e.g. gupta-empire) ×11 — ⚠ AMBIGUOUS: also Tamil_language(delhi-sultanate), Tamil_script(maurya-empire), Tamil_people(yuan-dynasty))
+- *** Arab** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Alexander the Great** → CROSS → `ancient-greece`  (cross-linked elsewhere ×5)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×16)
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×14)
+- **Dutch** → REUSE `Dutch_Republic` [CONFIRM-homonym] — _Dutch Republic_: The Republic of the Seven United Netherlands, also known as the United Provinces (of the Netherlands), and ref  (linked in 7 civ(s) (e.g. late-medieval-europe) ×12 — ⚠ AMBIGUOUS: also Dutch_East_India_Company(edo-japan), Dutch_people(late-medieval-europe), Dutch_language(early-medieval-europe))
+- **Java** → REUSE `Java` [high] — _Java_: Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the I  (linked in 5 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Twelver Shia Islam** → REUSE `Twelver` [CONFIRM-homonym] — _Twelver Shi'ism_: Twelver Shi'ism (Arabic: اِثْنَا عَشَرِيَّة, romanized: Ithnā ʿAshariyya; Persian: دوازده‌ امامی, romanized: D  (linked in 2 civ(s) (e.g. mughal-empire) ×8 — ⚠ AMBIGUOUS: also Twelver_Shia(renaissance-italy))
+- **Sunni** → REUSE `Sunni_Islam` [high] — _Sunni Islam_: Sunni Islam is the largest branch of Islam and the largest religious denomination in the world. It holds that   (linked in 13 civ(s) (e.g. al-andalus) ×39)
+- *** Muslims** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Napoleonic Wars** → REUSE `Napoleonic_Wars` [high] — _Napoleonic Wars_: The Napoleonic Wars (1803–1815) were a global series of conflicts fought by a fluctuating array of European co  (linked in 3 civ(s) (e.g. edo-japan) ×6)
+- **Dharmakirti** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Atisha** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Suvarnadvipa** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Hanoi** → REUSE `Hanoi` [high] — _Hanoi_: Hanoi ( han-OY; Vietnamese: Hà Nội, pronounced [haː˨˩ noj˧˨ʔ]) is the capital and second-most populous municip  (linked in 1 civ(s) (e.g. dai-viet) ×2)
+- **Babylon** → REUSE `Babylon` [high] — _Babylon_: Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within   (linked in 12 civ(s) (e.g. ancient-greece) ×36)
+- **Pompeii** → REUSE `Pompeii` [high] — _Pompeii_: Pompeii ( ; Latin: [pɔmˈpei̯.iː]) was a city in what is now the municipality of Pompei, near Naples, in the Ca  (linked in 2 civ(s) (e.g. minoan-civilization) ×4)
+- *** Tibetan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 24 civ(s) (e.g. ancient-nubia) ×109 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Tibet** → REUSE `Tibet` [CONFIRM-homonym] — _Tibet_: Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homel  (linked in 8 civ(s) (e.g. asuka-nara-japan) ×22 — ⚠ AMBIGUOUS: also Tibet_under_Qing_rule(qing-dynasty))
+- **Ibn Battuta** → CROSS → `mali-empire`  (cross-linked elsewhere ×3)
+- **Dalai Lama** → REUSE `14th_Dalai_Lama` [high] — _14th Dalai Lama_: The 14th Dalai Lama (born Lhamo Thondup; 6 July 1935; full spiritual name: Jetsun Jamphel Ngawang Lobsang Yesh  (linked in 1 civ(s) (e.g. chinese-revolution) ×2)
+- **Dapunta Hyang Sri Jayanasa** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Buddhist heritage** → NO-PAGE → blurb (no confident Wikipedia page found)

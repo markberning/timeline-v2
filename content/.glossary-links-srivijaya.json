@@ -43,12 +43,6 @@
       "type": "people"
     },
     {
-      "term": "Suvarnabhumi",
-      "matchText": "Suvarnabhumi",
-      "wikiSlug": "Suvarnabhumi",
-      "type": "place"
-    },
-    {
       "term": "Monsoon",
       "matchText": "monsoon",
       "wikiSlug": "Monsoon",
@@ -133,12 +127,6 @@
       "type": "concept"
     },
     {
-      "term": "Sassanid Empire",
-      "matchText": "Sassanid Empire",
-      "wikiSlug": "Sasanian_Empire",
-      "type": "concept"
-    },
-    {
       "term": "Tang Dynasty",
       "matchText": "Tang Dynasty",
       "wikiSlug": "Tang_dynasty",
@@ -155,6 +143,151 @@
       "matchText": "Suvarnadvipa",
       "wikiSlug": "Suvarnabhumi",
       "type": "place"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Easter Island",
+      "term": "Easter Island",
+      "wikiSlug": "Easter_Island"
+    },
+    {
+      "matchText": "Bay of Bengal",
+      "term": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal"
+    },
+    {
+      "matchText": "South China Sea",
+      "term": "South China Sea",
+      "wikiSlug": "South_China_Sea"
+    },
+    {
+      "matchText": "Emperor Xuanzong",
+      "term": "Emperor Xuanzong",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang"
+    },
+    {
+      "matchText": "Taiwan",
+      "term": "Taiwan",
+      "wikiSlug": "Taiwan"
+    },
+    {
+      "matchText": "Philippines",
+      "term": "Philippines",
+      "wikiSlug": "Philippines"
+    },
+    {
+      "matchText": "Indo-European",
+      "term": "Indo-European",
+      "wikiSlug": "Indo-European_languages"
+    },
+    {
+      "matchText": "Hindi",
+      "term": "Hindi",
+      "wikiSlug": "Hindi"
+    },
+    {
+      "matchText": "Malay Peninsula",
+      "term": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Borneo",
+      "term": "Borneo",
+      "wikiSlug": "Borneo"
+    },
+    {
+      "matchText": "Guangzhou",
+      "term": "Guangzhou",
+      "wikiSlug": "Guangzhou"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "wikiSlug": "Middle_East"
+    },
+    {
+      "matchText": "Sumatran",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "matchText": "Mekong",
+      "term": "Mekong",
+      "wikiSlug": "Mekong"
+    },
+    {
+      "matchText": "Cambodia",
+      "term": "Cambodia",
+      "wikiSlug": "Cambodia"
+    },
+    {
+      "matchText": "Vyadhapura",
+      "term": "Vyadhapura",
+      "wikiSlug": "Vyadhapura"
+    },
+    {
+      "matchText": "Brahmin",
+      "term": "Brahmin",
+      "wikiSlug": "Brahmin"
+    },
+    {
+      "matchText": "Alexander",
+      "term": "Alexander the Great",
+      "wikiSlug": "Alexander_the_Great"
+    },
+    {
+      "matchText": "Burma",
+      "term": "Burma",
+      "wikiSlug": "Myanmar"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Pushyabhuti",
+      "term": "Pushyabhuti dynasty",
+      "wikiSlug": "Pushyabhuti_dynasty"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Late Classic",
+      "term": "Late Classic period",
+      "wikiSlug": "Mesoamerican_chronology"
+    },
+    {
+      "matchText": "varman",
+      "term": "-varman",
+      "definition": "A Sanskrit suffix meaning \"protected by,\" attached to royal names across Indianized Southeast Asia. A king styled himself something-varman to mark himself as a protector and to broadcast that his court ran on Indian models of kingship."
     }
   ],
   "2": [
@@ -171,12 +304,6 @@
       "type": "place"
     },
     {
-      "term": "Xuanzang",
-      "matchText": "Xuanzang",
-      "wikiSlug": "Xuanzang",
-      "type": "people"
-    },
-    {
       "term": "Nalanda",
       "matchText": "Nalanda",
       "wikiSlug": "Nalanda",
@@ -186,12 +313,6 @@
       "term": "Buddhism",
       "matchText": "Buddhist",
       "wikiSlug": "Buddhism",
-      "type": "concept"
-    },
-    {
-      "term": "Old Malay",
-      "matchText": "Old Malay",
-      "wikiSlug": "Old_Malay",
       "type": "concept"
     },
     {
@@ -219,27 +340,9 @@
       "type": "concept"
     },
     {
-      "term": "Indus Valley civilization",
-      "matchText": "Indus Valley civilization",
-      "wikiSlug": "Indus_Valley_Civilisation",
-      "type": "concept"
-    },
-    {
       "term": "Tang dynasty",
       "matchText": "Tang court",
       "wikiSlug": "Tang_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Empress Wu Zetian",
-      "matchText": "Empress Wu Zetian",
-      "wikiSlug": "Wu_Zetian",
-      "type": "people"
-    },
-    {
-      "term": "Umayyad Caliphate",
-      "matchText": "Umayyad",
-      "wikiSlug": "Umayyad_Caliphate",
       "type": "concept"
     },
     {
@@ -259,6 +362,111 @@
       "matchText": "Dapunta Hyang Sri Jayanasa",
       "wikiSlug": "Dapunta_Hyang_Sri_Jayanasa",
       "type": "people"
+    },
+    {
+      "matchText": "Anglo-Saxon Chronicle",
+      "term": "Anglo-Saxon Chronicle",
+      "wikiSlug": "Anglo-Saxon_Chronicle"
+    },
+    {
+      "matchText": "Strait of Malacca",
+      "term": "Strait of Malacca",
+      "wikiSlug": "Strait_of_Malacca"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Palembang",
+      "term": "Palembang",
+      "wikiSlug": "Palembang"
+    },
+    {
+      "matchText": "Sumatran",
+      "term": "Sumatran",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Pala",
+      "term": "Pala Empire",
+      "wikiSlug": "Pala_Empire"
+    },
+    {
+      "matchText": "Tamil",
+      "term": "Tamils",
+      "wikiSlug": "Tamils"
+    },
+    {
+      "matchText": "Sunda Strait",
+      "term": "Sunda Strait",
+      "wikiSlug": "Sunda_Strait"
+    },
+    {
+      "matchText": "Malacca",
+      "term": "Malacca",
+      "wikiSlug": "Malacca"
+    },
+    {
+      "matchText": "Tang Dynasty China",
+      "term": "Tang dynasty",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "matchText": "Musi River",
+      "term": "Musi River",
+      "wikiSlug": "Musi_River_(Indonesia)"
+    },
+    {
+      "matchText": "Islamic Caliphate",
+      "term": "Caliphate",
+      "wikiSlug": "Caliphate"
+    },
+    {
+      "matchText": "Pushyabhuti dynasty",
+      "term": "Pushyabhuti dynasty",
+      "wikiSlug": "Pushyabhuti_dynasty"
+    },
+    {
+      "matchText": "Tripartite Struggle",
+      "term": "Tripartite Struggle",
+      "wikiSlug": "Tripartite_Struggle"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Late Classic",
+      "term": "Mesoamerican chronology",
+      "wikiSlug": "Mesoamerican_chronology"
+    },
+    {
+      "matchText": "Foshi",
+      "term": "Foshi",
+      "definition": "The Chinese name (also rendered Shilifoshi) for Srivijaya's chief port, which Yijing reached in 671 and which modern scholars identify with Palembang on the Musi River in southern Sumatra."
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "matchText": "Malay Peninsula",
+      "term": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula"
     }
   ],
   "3": [
@@ -335,28 +543,10 @@
       "type": "concept"
     },
     {
-      "term": "Pallava dynasty",
-      "matchText": "Pallava",
-      "wikiSlug": "Pallava_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Chola dynasty",
-      "matchText": "Chola",
-      "wikiSlug": "Chola_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Atisha",
       "matchText": "Atisha",
       "wikiSlug": "Atisha",
       "type": "people"
-    },
-    {
-      "term": "Pala Empire",
-      "matchText": "Pala-dynasty heartland",
-      "wikiSlug": "Pala_Empire",
-      "type": "concept"
     },
     {
       "term": "Vikramashila",
@@ -395,10 +585,99 @@
       "type": "people"
     },
     {
-      "term": "Muara Takus",
-      "matchText": "Muara Takus",
-      "wikiSlug": "Muara_Takus",
-      "type": "place"
+      "matchText": "Siddhartha Gautama",
+      "term": "Siddhartha Gautama",
+      "wikiSlug": "Gautama_Buddha"
+    },
+    {
+      "matchText": "Vindhya Mountains",
+      "term": "Vindhya Mountains",
+      "wikiSlug": "Vindhya_Range"
+    },
+    {
+      "matchText": "Java Sea",
+      "term": "Java Sea",
+      "wikiSlug": "Java_Sea"
+    },
+    {
+      "matchText": "Tibetan Buddhist",
+      "term": "Tibetan Buddhist",
+      "wikiSlug": "Tibetan_Buddhism"
+    },
+    {
+      "matchText": "Strait of Malacca",
+      "term": "Strait of Malacca",
+      "wikiSlug": "Strait_of_Malacca"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Burma",
+      "term": "Burma",
+      "wikiSlug": "Myanmar"
+    },
+    {
+      "matchText": "Cambodia",
+      "term": "Cambodia",
+      "wikiSlug": "Cambodia"
+    },
+    {
+      "matchText": "Tibetan world",
+      "term": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism"
+    },
+    {
+      "matchText": "Yijing",
+      "term": "Yijing",
+      "wikiSlug": "Yijing_(monk)"
+    },
+    {
+      "matchText": "Palembang",
+      "term": "Palembang",
+      "wikiSlug": "Palembang"
+    },
+    {
+      "matchText": "Indian Buddhism",
+      "term": "Indian Buddhism",
+      "wikiSlug": "History_of_Buddhism_in_India"
+    },
+    {
+      "matchText": "Journey to the West",
+      "term": "Journey to the West",
+      "wikiSlug": "Journey_to_the_West"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian",
+      "definition": "Of or relating to Eurasia, the single connected landmass of Europe and Asia. Here it marks a continent-spanning story: the shift of Buddhist transmission between India and China from the overland routes to the southern sea lanes."
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "matchText": "Javanese",
+      "term": "Javanese",
+      "wikiSlug": "Javanese_people"
+    },
+    {
+      "matchText": "Sumatran",
+      "term": "Sumatran",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Bengali",
+      "term": "Bengali",
+      "wikiSlug": "Bengalis"
     }
   ],
   "4": [
@@ -412,12 +691,6 @@
       "term": "Phoenicia",
       "matchText": "Phoenicia",
       "wikiSlug": "Phoenicia",
-      "type": "concept"
-    },
-    {
-      "term": "Athens",
-      "matchText": "Athenian",
-      "wikiSlug": "Delian_League",
       "type": "concept"
     },
     {
@@ -481,29 +754,196 @@
       "type": "place"
     },
     {
-      "term": "Ainurruvar",
-      "matchText": "Ainurruvar",
-      "wikiSlug": "Ainurruvar",
-      "type": "concept"
-    },
-    {
       "term": "Orang Laut",
       "matchText": "Orang Laut",
       "wikiSlug": "Orang_Laut",
       "type": "people"
     },
     {
-      "term": "Akhbar al-Sin wa-l-Hind",
-      "matchText": "Akhbar al-Sin wa-l-Hind",
-      "wikiSlug": "",
-      "type": "concept",
-      "definition": "A ninth-century Arabic travel compilation, its title meaning \"Account of China and India.\" It gathered sailors' reports of Asian lands, including tales of the fabulously wealthy king of Zabag."
-    },
-    {
       "term": "Strait of Malacca",
       "matchText": "Strait of Malacca",
       "wikiSlug": "Strait_of_Malacca",
       "type": "place"
+    },
+    {
+      "matchText": "Java Sea",
+      "term": "Java Sea",
+      "wikiSlug": "Java_Sea"
+    },
+    {
+      "matchText": "British Isles",
+      "term": "British Isles",
+      "wikiSlug": "British_Isles"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Palembang",
+      "term": "Palembang",
+      "wikiSlug": "Palembang"
+    },
+    {
+      "matchText": "Musi River",
+      "term": "Musi River",
+      "wikiSlug": "Musi_River_(Indonesia)"
+    },
+    {
+      "matchText": "Bangka",
+      "term": "Bangka Island",
+      "wikiSlug": "Bangka_Island"
+    },
+    {
+      "matchText": "Belitung",
+      "term": "Belitung",
+      "wikiSlug": "Belitung"
+    },
+    {
+      "matchText": "Jambi",
+      "term": "Jambi",
+      "wikiSlug": "Jambi"
+    },
+    {
+      "matchText": "Kedah",
+      "term": "Kedah",
+      "wikiSlug": "Kedah"
+    },
+    {
+      "matchText": "Sailendra",
+      "term": "Sailendra dynasty",
+      "wikiSlug": "Shailendra_dynasty"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Javanese",
+      "term": "Javanese people",
+      "wikiSlug": "Javanese_people"
+    },
+    {
+      "matchText": "Borneo",
+      "term": "Borneo",
+      "wikiSlug": "Borneo"
+    },
+    {
+      "matchText": "Philippines",
+      "term": "Philippines",
+      "wikiSlug": "Philippines"
+    },
+    {
+      "matchText": "Tamil",
+      "term": "Tamils",
+      "wikiSlug": "Tamils"
+    },
+    {
+      "matchText": "Genoa",
+      "term": "Republic of Genoa",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "matchText": "Guangzhou",
+      "term": "Guangzhou",
+      "wikiSlug": "Guangzhou"
+    },
+    {
+      "matchText": "Quanzhou",
+      "term": "Quanzhou",
+      "wikiSlug": "Quanzhou"
+    },
+    {
+      "matchText": "Lobu Tua",
+      "term": "Lobu Tua Inscription",
+      "wikiSlug": "Lobu_Tua_Inscription"
+    },
+    {
+      "matchText": "Zabag",
+      "term": "Zabag",
+      "wikiSlug": "Zabag_(ancient_territory)"
+    },
+    {
+      "matchText": "Kediri",
+      "term": "Kediri Kingdom",
+      "wikiSlug": "Kediri_Kingdom"
+    },
+    {
+      "matchText": "Singhasari",
+      "term": "Singhasari",
+      "wikiSlug": "Singhasari"
+    },
+    {
+      "matchText": "Mandarin",
+      "term": "Mandarin Chinese",
+      "wikiSlug": "Mandarin_Chinese"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Austronesian",
+      "term": "Austronesian peoples",
+      "wikiSlug": "Austronesian_peoples"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Levantine",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Tyre",
+      "term": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon"
+    },
+    {
+      "matchText": "Sidon",
+      "term": "Sidon",
+      "wikiSlug": "Sidon"
+    },
+    {
+      "matchText": "Byblos",
+      "term": "Byblos",
+      "wikiSlug": "Byblos"
+    },
+    {
+      "matchText": "Cassiterides",
+      "term": "Cassiterides",
+      "wikiSlug": "Cassiterides"
+    },
+    {
+      "matchText": "thalassa",
+      "term": "thalassa",
+      "definition": "The Greek word for \"sea\" (θάλασσα). It forms the first half of \"thalassocracy,\" a sea-based state whose power runs across water rather than across land."
+    },
+    {
+      "matchText": "kratos",
+      "term": "kratos",
+      "definition": "The Greek word for \"power\" or \"strength\" (κράτος). It forms the second half of \"thalassocracy\" — literally, rule exercised through command of the sea."
+    },
+    {
+      "matchText": "Malay Peninsula",
+      "term": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula"
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia"
     }
   ],
   "5": [
@@ -616,22 +1056,10 @@
       "type": "place"
     },
     {
-      "term": "Lobu Tua",
-      "matchText": "Lobu Tua",
-      "wikiSlug": "Barus",
-      "type": "place"
-    },
-    {
       "term": "Manigramam",
       "matchText": "Manigramam",
       "wikiSlug": "Manigramam",
       "type": "concept"
-    },
-    {
-      "term": "Balaputradeva",
-      "matchText": "Balaputradeva",
-      "wikiSlug": "Balaputradeva",
-      "type": "people"
     },
     {
       "term": "Devapala",
@@ -652,12 +1080,6 @@
       "type": "place"
     },
     {
-      "term": "Swahili coast",
-      "matchText": "Swahili coast",
-      "wikiSlug": "Swahili_coast",
-      "type": "concept"
-    },
-    {
       "term": "Mogadishu",
       "matchText": "Mogadishu",
       "wikiSlug": "Mogadishu",
@@ -668,6 +1090,141 @@
       "matchText": "Kilwa",
       "wikiSlug": "Kilwa_Kisiwani",
       "type": "place"
+    },
+    {
+      "matchText": "South China Sea",
+      "term": "South China Sea",
+      "wikiSlug": "South_China_Sea"
+    },
+    {
+      "matchText": "Strait of Malacca",
+      "term": "Strait of Malacca",
+      "wikiSlug": "Strait_of_Malacca"
+    },
+    {
+      "matchText": "Bay of Bengal",
+      "term": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal"
+    },
+    {
+      "matchText": "Guangzhou",
+      "term": "Guangzhou",
+      "wikiSlug": "Guangzhou"
+    },
+    {
+      "matchText": "Guangdong",
+      "term": "Guangdong",
+      "wikiSlug": "Guangdong"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Champa",
+      "term": "Champa",
+      "wikiSlug": "Champa"
+    },
+    {
+      "matchText": "Palembang",
+      "term": "Palembang",
+      "wikiSlug": "Palembang"
+    },
+    {
+      "matchText": "Lamuri",
+      "term": "Lamuri",
+      "wikiSlug": "Lambri"
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Basra",
+      "term": "Basra",
+      "wikiSlug": "Basra"
+    },
+    {
+      "matchText": "Malacca",
+      "term": "Malacca",
+      "wikiSlug": "Malacca"
+    },
+    {
+      "matchText": "Spices",
+      "term": "Spices",
+      "wikiSlug": "Spice"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Suvarnabhumi",
+      "term": "Suvarnabhumi",
+      "wikiSlug": "Suvarnabhumi"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Nalanda",
+      "term": "Nalanda",
+      "wikiSlug": "Nalanda_mahavihara"
+    },
+    {
+      "matchText": "Pala",
+      "term": "Pala Empire",
+      "wikiSlug": "Pala_Empire"
+    },
+    {
+      "matchText": "Tibetan Buddhist",
+      "term": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism"
+    },
+    {
+      "matchText": "Yijing",
+      "term": "Yijing",
+      "wikiSlug": "Yijing_(monk)"
+    },
+    {
+      "matchText": "Mombasa",
+      "term": "Mombasa",
+      "wikiSlug": "Mombasa"
+    },
+    {
+      "matchText": "Tamil coast",
+      "term": "Tamil coast",
+      "wikiSlug": "Tamil_Nadu"
+    },
+    {
+      "matchText": "Gujarati",
+      "term": "Gujarati",
+      "wikiSlug": "Gujarati_people"
+    },
+    {
+      "matchText": "Sailendra",
+      "term": "Sailendra dynasty",
+      "wikiSlug": "Shailendra_dynasty"
+    },
+    {
+      "matchText": "Song silver coins",
+      "term": "Song silver coins",
+      "definition": "Silver coinage minted by China's Song dynasty (960–1279). Though the Song economy ran largely on copper cash and paper money, its silver ingots and coins traveled astonishingly far down the trade routes, turning up in archaeological finds as distant as the East African coast — evidence of just how connected the medieval Indian Ocean world had become."
     }
   ],
   "6": [
@@ -690,12 +1247,6 @@
       "type": "people"
     },
     {
-      "term": "Rajendra Chola I",
-      "matchText": "Rajendra Chola I",
-      "wikiSlug": "Rajendra_I",
-      "type": "people"
-    },
-    {
       "term": "Brihadeeswara Temple",
       "matchText": "Brihadeeswara Temple",
       "wikiSlug": "Brihadeeswarar_Temple",
@@ -712,19 +1263,6 @@
       "matchText": "Nagapattinam",
       "wikiSlug": "Nagapattinam",
       "type": "place"
-    },
-    {
-      "term": "Larger Leiden Grant",
-      "matchText": "Larger Leiden Grant",
-      "wikiSlug": "Battle_of_Takkolam",
-      "type": "concept"
-    },
-    {
-      "term": "Sangrama Vijayottungavarman",
-      "matchText": "Sangrama Vijayottungavarman",
-      "wikiSlug": "",
-      "type": "people",
-      "definition": "The king of Srivijaya around 1025 CE, captured when the south Indian Chola fleet launched its surprise naval raid on his maritime empire."
     },
     {
       "term": "Kedah",
@@ -745,45 +1283,15 @@
       "type": "place"
     },
     {
-      "term": "Norman Conquest of England",
-      "matchText": "Norman Conquest of England",
-      "wikiSlug": "Norman_Conquest",
-      "type": "concept"
-    },
-    {
       "term": "Sicilian Expedition",
       "matchText": "Athenian Sicilian Expedition",
       "wikiSlug": "Sicilian_Expedition",
       "type": "concept"
     },
     {
-      "term": "Zheng He",
-      "matchText": "Zheng He",
-      "wikiSlug": "Zheng_He",
-      "type": "people"
-    },
-    {
       "term": "Ming dynasty",
       "matchText": "Ming dynasty",
       "wikiSlug": "Ming_dynasty",
-      "type": "concept"
-    },
-    {
-      "term": "Virarajendra Chola",
-      "matchText": "Virarajendra Chola",
-      "wikiSlug": "Virarajendra_Chola",
-      "type": "people"
-    },
-    {
-      "term": "Battle of Manzikert",
-      "matchText": "Battle of Manzikert",
-      "wikiSlug": "Battle_of_Manzikert",
-      "type": "concept"
-    },
-    {
-      "term": "First Crusade",
-      "matchText": "First Crusade",
-      "wikiSlug": "First_Crusade",
       "type": "concept"
     },
     {
@@ -805,10 +1313,89 @@
       "type": "concept"
     },
     {
-      "term": "Larger Leiden Grant",
-      "matchText": "Larger Leiden Grant",
-      "wikiSlug": "Battle_of_Takkolam",
-      "type": "concept"
+      "matchText": "Strait of Malacca",
+      "term": "Strait of Malacca",
+      "wikiSlug": "Strait_of_Malacca"
+    },
+    {
+      "matchText": "English Channel",
+      "term": "English Channel",
+      "wikiSlug": "English_Channel"
+    },
+    {
+      "matchText": "Palembang",
+      "term": "Palembang",
+      "wikiSlug": "Palembang"
+    },
+    {
+      "matchText": "Tamil power",
+      "term": "Tamil",
+      "wikiSlug": "Tamils"
+    },
+    {
+      "matchText": "Ganges",
+      "term": "Ganges",
+      "wikiSlug": "Ganges"
+    },
+    {
+      "matchText": "Shiva",
+      "term": "Shiva",
+      "wikiSlug": "Shiva"
+    },
+    {
+      "matchText": "Ainurruvar",
+      "term": "Ainurruvar",
+      "wikiSlug": "Five_Hundred_Lords_of_Ayyavole"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Dutch museum",
+      "term": "Dutch",
+      "wikiSlug": "Dutch_people"
+    },
+    {
+      "matchText": "Mahayana Buddhist",
+      "term": "Mahayana Buddhist",
+      "wikiSlug": "Mahayana"
+    },
+    {
+      "matchText": "Pala kingdom",
+      "term": "Pala",
+      "wikiSlug": "Pala_Empire"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Romanesque",
+      "term": "Romanesque",
+      "wikiSlug": "Romanesque_architecture"
+    },
+    {
+      "matchText": "Malay Peninsula",
+      "term": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula"
+    },
+    {
+      "matchText": "Sumatran",
+      "term": "Sumatran",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Javanese",
+      "term": "Javanese",
+      "wikiSlug": "Javanese_people"
     }
   ],
   "7": [
@@ -879,39 +1466,15 @@
       "type": "concept"
     },
     {
-      "term": "Pasai Sultanate",
-      "matchText": "Pasai Sultanate",
-      "wikiSlug": "Samudera_Pasai_Sultanate",
-      "type": "concept"
-    },
-    {
       "term": "Aceh",
       "matchText": "Aceh",
       "wikiSlug": "Aceh",
       "type": "place"
     },
     {
-      "term": "Ibn Battuta",
-      "matchText": "Ibn Battuta",
-      "wikiSlug": "Ibn_Battuta",
-      "type": "people"
-    },
-    {
       "term": "Delhi Sultanate",
       "matchText": "Delhi Sultanate",
       "wikiSlug": "Delhi_Sultanate",
-      "type": "concept"
-    },
-    {
-      "term": "Mali Empire",
-      "matchText": "Mali Empire",
-      "wikiSlug": "Mali_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Yuan dynasty",
-      "matchText": "Yuan dynasty",
-      "wikiSlug": "Yuan_dynasty",
       "type": "concept"
     },
     {
@@ -939,12 +1502,6 @@
       "type": "people"
     },
     {
-      "term": "Mamluk Sultanate",
-      "matchText": "Mamluk",
-      "wikiSlug": "Mamluk_Sultanate_(Cairo)",
-      "type": "concept"
-    },
-    {
       "term": "Abbasid Caliphate",
       "matchText": "Abbasid Caliphate",
       "wikiSlug": "Abbasid_Caliphate",
@@ -955,6 +1512,81 @@
       "matchText": "Kahuripan",
       "wikiSlug": "Kahuripan",
       "type": "place"
+    },
+    {
+      "matchText": "Tibet",
+      "term": "Tibet",
+      "wikiSlug": "Tibet"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Palembang",
+      "term": "Palembang",
+      "wikiSlug": "Palembang"
+    },
+    {
+      "matchText": "Sumatran",
+      "term": "Sumatran",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Lamuri",
+      "term": "Lamuri",
+      "wikiSlug": "Lamuri_Kingdom"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Quanzhou",
+      "term": "Quanzhou",
+      "wikiSlug": "Quanzhou"
+    },
+    {
+      "matchText": "Sailendras",
+      "term": "Sailendra dynasty",
+      "wikiSlug": "Shailendra_dynasty"
+    },
+    {
+      "matchText": "Sanjaya",
+      "term": "Sanjaya dynasty",
+      "wikiSlug": "Sanjaya_dynasty"
+    },
+    {
+      "matchText": "Borobudur",
+      "term": "Borobudur",
+      "wikiSlug": "Borobudur"
+    },
+    {
+      "matchText": "Mogadishu",
+      "term": "Mogadishu",
+      "wikiSlug": "Mogadishu"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Jayakatwang",
+      "term": "Jayakatwang",
+      "wikiSlug": "Jayakatwang"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Morocco"
+    },
+    {
+      "matchText": "Malay Peninsula",
+      "term": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula"
     }
   ],
   "8": [
@@ -1019,22 +1651,10 @@
       "type": "people"
     },
     {
-      "term": "Ming China",
-      "matchText": "Ming China",
-      "wikiSlug": "Ming_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Singapore",
       "matchText": "Singapore",
       "wikiSlug": "Singapore",
       "type": "place"
-    },
-    {
-      "term": "Sufism",
-      "matchText": "Sufi orders",
-      "wikiSlug": "Sufism",
-      "type": "concept"
     },
     {
       "term": "Bali",
@@ -1053,12 +1673,6 @@
       "matchText": "Old Malay",
       "wikiSlug": "Old_Malay",
       "type": "concept"
-    },
-    {
-      "term": "George Coedes",
-      "matchText": "George Coedes",
-      "wikiSlug": "George_C%C5%93d%C3%A8s",
-      "type": "people"
     },
     {
       "term": "Borobudur",
@@ -1095,6 +1709,151 @@
       "matchText": "Prambanan",
       "wikiSlug": "Prambanan",
       "type": "place"
+    },
+    {
+      "matchText": "Napoleonic Wars",
+      "term": "Napoleonic Wars",
+      "wikiSlug": "Napoleonic_Wars"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Borneo",
+      "term": "Borneo",
+      "wikiSlug": "Borneo"
+    },
+    {
+      "matchText": "Moluccas",
+      "term": "Moluccas",
+      "wikiSlug": "Maluku_Islands"
+    },
+    {
+      "matchText": "Mpu Prapanca",
+      "term": "Mpu Prapanca",
+      "wikiSlug": "Mpu_Prapanca"
+    },
+    {
+      "matchText": "Tamil",
+      "term": "Tamils",
+      "wikiSlug": "Tamils"
+    },
+    {
+      "matchText": "Java",
+      "term": "Java",
+      "wikiSlug": "Java"
+    },
+    {
+      "matchText": "Twelver Shia Islam",
+      "term": "Twelver Shia Islam",
+      "wikiSlug": "Twelver"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Hanoi",
+      "term": "Hanoi",
+      "wikiSlug": "Hanoi"
+    },
+    {
+      "matchText": "Babylon",
+      "term": "Babylon",
+      "wikiSlug": "Babylon"
+    },
+    {
+      "matchText": "Pompeii",
+      "term": "Pompeii",
+      "wikiSlug": "Pompeii"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Tibet",
+      "term": "Tibet",
+      "wikiSlug": "Tibet"
+    },
+    {
+      "matchText": "Dalai Lama",
+      "term": "Dalai Lama",
+      "wikiSlug": "Dalai_Lama"
+    },
+    {
+      "matchText": "Musi River",
+      "term": "Musi River",
+      "wikiSlug": "Musi_River_(Indonesia)"
+    },
+    {
+      "matchText": "Dapunta Hyang Sri Jayanasa",
+      "term": "Dapunta Hyang Sri Jayanasa",
+      "wikiSlug": "Dapunta_Hyang_Sri_Jayanasa"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Tibetan",
+      "term": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism"
+    },
+    {
+      "matchText": "Atisha",
+      "term": "Atisha",
+      "wikiSlug": "Atiśa"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch",
+      "wikiSlug": "Dutch_people"
+    },
+    {
+      "matchText": "Dharmakirti",
+      "term": "Dharmakirti",
+      "definition": "The Buddhist teacher (also called Serlingpa, \"the man from the Golden Isle\") who taught at the Srivijayan court in Sumatra in the early 11th century and was the principal master of Atisha. He is distinct from the famous 7th-century Indian logician of the same name."
+    },
+    {
+      "matchText": "Suvarnadvipa",
+      "term": "Suvarnadvipa",
+      "definition": "Sanskrit for \"Golden Island\" — the name Indian and Tibetan Buddhist sources used for Sumatra (and the wider Srivijayan realm), the \"land of gold\" that drew traders and pilgrims across the Bay of Bengal."
+    },
+    {
+      "matchText": "Buddhist heritage",
+      "term": "Buddhist heritage",
+      "definition": "Srivijaya's surviving religious legacy — above all the great Mahayana monuments of central Java, Borobudur and Prambanan, built in the Sailendra era and preserved through Java's later Islamization as the most visible physical trace of the Srivijayan Buddhist world."
+    },
+    {
+      "matchText": "Javanese",
+      "term": "Javanese",
+      "wikiSlug": "Javanese_people"
+    },
+    {
+      "matchText": "Malay Peninsula",
+      "term": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula"
+    },
+    {
+      "matchText": "Foshi",
+      "term": "Foshi",
+      "definition": "The Chinese name for Srivijaya’s capital and chief port at Palembang on Sumatra — the great entrepôt that Chinese pilgrims and merchants knew as the gateway to the southern seas."
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
     }
   ]
 }
