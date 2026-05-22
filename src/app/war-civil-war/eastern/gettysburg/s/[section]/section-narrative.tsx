@@ -13,7 +13,6 @@ import { DarkModeToggle } from '@/components/dark-mode-toggle'
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
 const ACCENT = '#7c3aed' // Civil War (violet)
-const CIV = '#047857'    // civ-chapter lineage pills (green)
 
 type Block =
   | { h: string; eyebrow?: string }
@@ -116,19 +115,6 @@ const GB_NARR: Record<string, Narr> = {
 
 const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineHeight: 1.62, letterSpacing: '-0.01em', margin: 0, color: 'var(--foreground)' }
 
-function LineageRow({ dir, items }: { dir: 'from' | 'to'; items: Lineage[] }) {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, overflowX: 'auto', whiteSpace: 'nowrap', padding: '4px 0' }}>
-      <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)', flexShrink: 0 }}>{dir === 'from' ? '↑ FROM' : '↓ TO'}</span>
-      {items.map((it, i) => (
-        <span key={i} style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 500, padding: '4px 10px', borderRadius: 999, border: `1px solid ${it.mode === 'civ' ? CIV : ACCENT}`, color: it.mode === 'civ' ? CIV : ACCENT, background: `color-mix(in srgb, ${it.mode === 'civ' ? CIV : ACCENT} 8%, transparent)` }}>
-          {it.mode === 'civ' && <span style={{ opacity: 0.7 }}>civ · </span>}{it.label}
-        </span>
-      ))}
-    </div>
-  )
-}
-
 export function SectionNarrative({ id }: { id: string }) {
   const n = GB_NARR[id] ?? GB_NARR.hooks
   const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
@@ -152,12 +138,6 @@ export function SectionNarrative({ id }: { id: string }) {
       </div>
 
       <div style={{ maxWidth: 640, margin: '0 auto', padding: '0 18px 120px' }}>
-        {/* lineage */}
-        <div style={{ padding: '12px 0 4px', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 8%, transparent)' }}>
-          <LineageRow dir="from" items={n.from} />
-          <LineageRow dir="to" items={n.to} />
-        </div>
-
         {/* article */}
         <article style={{ paddingTop: 18 }}>
           {n.blocks.map((b, i) => {
