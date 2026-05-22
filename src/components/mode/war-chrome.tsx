@@ -66,11 +66,16 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
           return (
             <Fragment key={i}>
               {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
-              {c.options
+              {c.options && last
                 ? <CrumbDropdown crumb={c} chip={chip} faint={faint} accent={accent} />
-                : c.href && !last
-                  ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
-                  : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
+                : c.options && c.href
+                  // dropdown crumb as an ancestor (e.g. theatre on a battle page):
+                  // a gray pill that links up to its own page, where it becomes
+                  // the accent-colored switcher.
+                  ? <a href={c.href} style={{ padding: '3px 9px', background: chip, color: 'var(--foreground)', fontFamily: SANS, fontSize: 11, fontWeight: 600, borderRadius: 999, border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
+                  : c.href && !last
+                    ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
+                    : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
             </Fragment>
           )
         })}
