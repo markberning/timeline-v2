@@ -35,6 +35,90 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 2,
       "blurb": "Songhai and the Ottomans were the two great Islamic gunpowder-era powers of their respective worlds, both expanding in the 15th century."
+    },
+    {
+      "matchText": "Nubian",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile up the Nile: the Nubians of the middle Nile, whose ancient bow-wielding kingdoms gave their language a distant cousin in Songhai's own Nilo-Saharan tongue."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 3,
+      "blurb": "Meanwhile on the Indian Ocean: the Swahili Coast, whose city-states ran the same trick — claiming foreign Shirazi (Persian) royal descent to dress a local Muslim dynasty in prestigious origins."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the long Persian imperial tradition, the prestige civilization whose city of Shiraz the Swahili dynasties claimed as their ancestral home."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the Sahara: al-Andalus, Muslim Iberia, whose merchants reached as far south as Gao and whose scholars and goods filtered into the Sahel trade."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in North Africa: the Maghreb, home of the Berber dynasties (Almoravids, Almohads) whose power swept north into Muslim Spain even as it anchored the desert end of the gold trade."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in the eastern Mediterranean: Constantinople, the thousand-year Byzantine capital, which fell to the Ottomans in 1453 — the same generation Songhai was quietly breaking from Mali."
+    },
+    {
+      "matchText": "Zheng He",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: the admiral Zheng He, whose vast Ming treasure fleets sailed the Indian Ocean to East Africa and then stopped for good in 1433 — the same year the Tuareg seized Timbuktu."
+    },
+    {
+      "matchText": "Aztec Triple Alliance",
+      "targetTl": "aztec-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in central Mexico: the Aztec Triple Alliance, founded in 1428 — the same decade Songhai stopped paying tribute to Mali, an empire being born on the opposite side of the world."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Inca Empire, another fifteenth-century imperial burst building a continental state out of a regional kingdom."
+    },
+    {
+      "matchText": "Pachacuti",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Peru: Pachacuti, the Inca conqueror who took the throne around 1438 and transformed Cuzco from a town into the capital of an empire."
+    },
+    {
+      "matchText": "Mamluk Sultanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Egypt: the Mamluk Sultanate, the slave-soldier regime that had famously halted the Mongols at Ayn Jalut and was now at its institutional peak."
+    },
+    {
+      "matchText": "Timurid Empire",
+      "targetTl": "timurid-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Central Asia: the Timurid Empire, Tamerlane's heirs, fragmenting into squabbling successor states even as it produced a brilliant late cultural flowering."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in East Asia: Ming China, at the height of its early-fifteenth-century power under the dynasty that had just expelled the Mongols and rebuilt a centralized empire."
+    },
+    {
+      "matchText": "Joseon dynasty",
+      "targetTl": "joseon-korea",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Korea: the Joseon dynasty, whose King Sejong was inventing the hangul alphabet in the same decades Songhai was finding its independence."
     }
   ],
   "2": [
@@ -67,6 +151,42 @@
       "targetTl": "safavid-persia",
       "targetChapter": 2,
       "blurb": "Sonni Ali's reign overlaps the Safavid order's militant rise — charismatic conqueror-states forming across the Islamic world."
+    },
+    {
+      "matchText": "Mali",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mali: the empire that had ruled the western Sudan before Songhai, whose decline opened the space Sonni Ali filled."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Mali: the famously rich emperor whose Sanhaja scholars had run Timbuktu's religious life since his era, generations before Sonni Ali arrived."
+    },
+    {
+      "matchText": "Ghana",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mali: the Ghana Empire, the earlier West African gold power that Djenné-Djenno predates — Mali's own predecessor on the Sahel."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming were in a stable middle period under Hongzhi while Sonni Ali built his river empire."
+    },
+    {
+      "matchText": "Sufi",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the Safavids were still a militant Sufi order at Ardabil, decades before they seized a kingdom."
+    },
+    {
+      "matchText": "Safavid dynasty",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the Safavid order had not yet become a dynasty — Shah Ismail would not declare himself until 1501."
     }
   ],
   "3": [
@@ -99,6 +219,90 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 3,
       "blurb": "Askia's centralized, Islamic-legitimated empire parallels the contemporary Ottoman consolidation — administration as the basis of durable power."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, two and a half centuries earlier: the Mongols sacked Baghdad in 1258, killing the Abbasid caliph and ending the dynasty's real power — leaving only the powerless Cairo figurehead who would later invest Askia Muhammad."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in the heartland: Baghdad was the Abbasid capital, founded in the 760s as the brain of the Islamic world before the Mongols destroyed it in 1258."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch 10",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile, the long ending: the Mongol sack of Baghdad in 1258 closed the Abbasid era, scattering the caliphal line that survived only as the ceremonial figurehead in Mamluk Cairo."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, a thousand years earlier: the Persian Empire under Darius pioneered the satrap-rotation system of governing provinces through appointed officials rotated to prevent local power bases — the same logic Askia Muhammad applied on the Niger."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, in Constantinople: the Byzantine Empire ran a salaried, archived civil service of a sophistication Songhai's officer corps never matched — the benchmark Askia's administration is being measured against."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 9,
+      "blurb": "Meanwhile, across the Sahara: the Maghreb (Muslim northwest Africa) supplied Songhai's horses and mail armor, and earlier launched the Almoravid Berbers who reshaped Islamic Iberia."
+    },
+    {
+      "matchText": "Safavid Persia",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, in Iran: Safavid Persia built a ghulam army of slave-soldiers loyal to the shah — a far more institutionally robust version of the slave-soldier corps Askia Muhammad raised."
+    },
+    {
+      "matchText": "Safavids",
+      "targetTl": "safavid-persia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, at the other end of Islam: Shah Ismail's Safavids were forcibly converting Iran to Twelver Shia Islam in exactly the years Askia Muhammad was importing Sunni orthodoxy from Cairo."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in China: the Ming dynasty ruled the largest contemporary empire by population, one of the few states whose heartland exceeded Songhai at its peak."
+    },
+    {
+      "matchText": "Babur",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in India: Babur won the Battle of Panipat in 1526 and founded the Mughal Empire — another early-modern Islamic gunpowder empire reaching its founding moment in the same decade Askia Muhammad fell."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in India: Babur founded the Mughal Empire in 1526, two years before Askia Muhammad's son deposed him — the great Islamic empires of east and west cresting and collapsing in lockstep."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, in the Americas: Hernán Cortés destroyed the Aztec Empire in 1521, the same decade Askia Muhammad's reign ended — the European conquests that would eventually hollow out Songhai's gold trade."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, in the Andes: Francisco Pizarro would destroy the Inca Empire a decade after the Aztecs fell, completing the Spanish conquest of the Americas."
+    },
+    {
+      "matchText": "Ghana",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the predecessor: the Ghana Empire was the first great Sahelian gold state, the trans-Saharan model that Mali and then Songhai inherited and that Atlantic trade would eventually undo."
     }
   ],
   "4": [
@@ -107,6 +311,78 @@
       "targetTl": "safavid-persia",
       "targetChapter": 2,
       "blurb": "Songhai's bureaucratic empire was a West African peer of the Safavid state-building project, an ocean and a desert apart."
+    },
+    {
+      "matchText": "Ghana",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mali Empire: the gold-and-salt trade that the Wangara ran for Songhai had been their business since the much older Ghana Empire, the first great West African trade state and Mali's predecessor."
+    },
+    {
+      "matchText": "Mali",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mali Empire: the western provinces Songhai now ruled under the askias had been Mali's own heartland under the mansas, its kings."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Mali Empire: by the sixteenth century Mali had contracted to a shadow of its former self, leaving Songhai's western frontier facing a fading rival rather than a peer."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in al-Andalus: the Maghreb, northwest Africa across the Sahara, was the source of Songhai's imported mail armor and the northern terminus of its caravan trade — and the launching ground of the Berber dynasties that shaped both shores."
+    },
+    {
+      "matchText": "Mamluk",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic Golden Age world: the Mamluks of Egypt ran a tightly centralized slave-soldier state whose provincial government Songhai's ministerial system distantly resembled."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Ottoman Empire: the sultans were restructuring their army around gunpowder with an authority over their nobility the Askias never had — the gap that would doom Songhai at Tondibi."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Ottoman Empire: Ottoman cannon had already shattered the walls of Constantinople in 1453, announcing the gunpowder age that Songhai would never join."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in the Byzantine Empire: its thousand-year capital fell to Ottoman cannon in 1453, the textbook demonstration of the gunpowder weapons Songhai's army never adopted."
+    },
+    {
+      "matchText": "Selim",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Ottoman Empire: Sultan Selim I used massed firearms to crush the Mamluks at Marj Dabiq in 1516, conquering Egypt and Syria — exactly the military revolution Songhai sat out."
+    },
+    {
+      "matchText": "Marj Dabiq",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Ottoman Empire: at Marj Dabiq in 1516 Selim's gunpowder army destroyed the Mamluks, showing how decisively firearms now settled battles between great states."
+    },
+    {
+      "matchText": "Mamluks",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic Golden Age world: the Mamluk sultanate of Egypt, long a leading Islamic power, was overrun by the gunpowder-armed Ottomans in 1516."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mughal Empire: the Mughals, like the Ottomans and Safavids, rebuilt their armies around firearms in these same decades — the global gunpowder revolution Songhai missed."
     }
   ],
   "5": [
@@ -133,6 +409,66 @@
       "targetTl": "safavid-persia",
       "targetChapter": 4,
       "blurb": "Timbuktu's Islamic learning flourished as Safavid Isfahan built its own scholarly-religious capital — two poles of the early-modern Muslim intellectual world."
+    },
+    {
+      "matchText": "Mali",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Mali Empire: Mansa Musa absorbed Timbuktu and turned it into an imperial showcase before Songhai ate Mali's place in the Sahel."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Mali Empire: Mansa Musa's legendary hajj recruited the scholars who seeded Timbuktu's learning, and his gold made the city famous across the Mediterranean."
+    },
+    {
+      "matchText": "Ghana",
+      "targetTl": "mali-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the West African Sahel: the Ghana Empire pioneered the trans-Saharan gold trade that Mali and then Songhai inherited and consolidated."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Byzantine Empire: the Hagia Sophia of Constantinople was the giant domed church against which Timbuktu's modest mud-brick mosques are measured."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Islamic heartland: Damascus, an old caliphal capital, was a scholarly hub where a Sankoré-trained jurist could arrive and be recognized as a peer."
+    },
+    {
+      "matchText": "Mamluk",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Egypt: the Mamluk sultanate kept great state libraries — exactly the centralized institution Songhai never built, relying instead on private family collections."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Arabia: Mecca, Islam's holiest city and the direction of prayer, anchored the pilgrimage networks that linked Timbuktu's scholars to the wider Muslim world."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the eastern Mediterranean: the Ottoman Empire ran vast state libraries and, crucially, had embraced the gunpowder weapons Songhai lacked."
+    },
+    {
+      "matchText": "Sufi",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the Safavid dynasty itself began as a Sufi mystical order — the same devotional Islam whose texts filled Timbuktu's libraries."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the Mughals were building a gunpowder empire on the same military revolution that would soon doom Songhai at Tondibi."
     }
   ],
   "6": [
@@ -153,6 +489,42 @@
       "targetTl": "mali-empire",
       "targetChapter": 5,
       "blurb": "Songhai's blend of court Islam and older river-spirit religion continued the syncretism Mali's Timbuktu had institutionalized."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 3,
+      "blurb": "Meanwhile on the East African coast, the same layered religion took hold — Islam in the cosmopolitan coral towns, older traditions among the wider population — as the monsoon trade carried the faith ashore."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic heartland, Damascus had been the Umayyad capital before the Abbasid revolution shifted the center of the Muslim world eastward to Baghdad."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic heartland, Baghdad was founded by the Abbasids as the great capital of the caliphate — the city where the Qadiriyya Sufi order that reached Songhai was born."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the Sahara, the Maghreb of North Africa was the Mediterranean terminus of the trans-Saharan trade and the cultural bridge between West Africa and Islamic Iberia."
+    },
+    {
+      "matchText": "Mamluks",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Egypt, the Mamluks — a state literally built on military slaves — were the power that halted the Mongol advance at Ayn Jalut and bought West African captives through the trans-Saharan trade."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile at the height of Süleyman's reign, the Ottomans absorbed the Mamluk lands and drew slaves from across the Islamic world into the largest empire of the age."
     }
   ],
   "7": [
@@ -179,6 +551,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 4,
       "blurb": "Songhai's long decay made it vulnerable the way over-extended gunpowder empires were — succession crises hollowing the center."
+    },
+    {
+      "matchText": "Safavids",
+      "targetTl": "safavid-persia",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Persia: Shah Abbas I took the throne in 1588 and launched the ghulam revolution that rebuilt the Iranian state around a gunpowder army."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in India: Akbar was consolidating Mughal rule over the north, breaking the last major Rajput resistance and folding the Hindu nobility into his administration."
     }
   ],
   "8": [
@@ -229,6 +613,54 @@
       "targetTl": "mongol-empire",
       "targetChapter": 8,
       "blurb": "Like the Mongol successor states, Songhai dissolved into fragmented successors once its military edge was lost."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Ottoman Empire: the Pasha rank Songhai's conquerors borrowed was a fixture of Süleyman's gunpowder superstate, then at its peak."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Mughal India: Akbar was running the same matchlock-and-artillery military system that won Tondibi, against the Deccan and the Rajputs."
+    },
+    {
+      "matchText": "Tuareg",
+      "targetTl": "scythians",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the steppe world: the Tuareg of the Sahara fill the same desert-nomad role the Scythians once played on the grasslands of Eurasia."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia's story: the Sasanian dynasty fell to the Arab conquest, yet its dynastic memory survived in Iranian successor traditions — the same outliving-the-empire pattern as the Askia."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in the Byzantine inheritance: the empire's cultural memory outlived the fall of Constantinople inside the Greek Orthodox Church, just as the Askia outlived Songhai."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in the Byzantine Empire: Constantinople fell to the Ottomans in 1453, ending the Roman state that had endured for a thousand years."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Song China: gunpowder weapons were first developed here, centuries before the matchlock volleys that broke the Songhai cavalry at Tondibi."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 6,
+      "blurb": "Meanwhile on the Swahili Coast: the same Portuguese sea-power building Fort Jesus at Mombasa was breaking an older African gold trade from the water in exactly these decades."
     }
   ]
 }

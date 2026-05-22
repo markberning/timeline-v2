@@ -13,12 +13,6 @@
       "type": "place"
     },
     {
-      "term": "Niger River",
-      "matchText": "Niger River",
-      "wikiSlug": "Niger_River",
-      "type": "place"
-    },
-    {
       "term": "Inner Niger Delta",
       "matchText": "Inner Niger Delta",
       "wikiSlug": "Inner_Niger_Delta",
@@ -151,6 +145,166 @@
       "matchText": "Hausa",
       "wikiSlug": "Hausa_people",
       "type": "people"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Atlantic Ocean",
+      "term": "Atlantic Ocean",
+      "wikiSlug": "Atlantic_Ocean"
+    },
+    {
+      "matchText": "Inner Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "western Sudan",
+      "term": "the western Sudan",
+      "wikiSlug": "Sudan_(region)"
+    },
+    {
+      "matchText": "Sonni Ali",
+      "term": "Sonni Ali",
+      "wikiSlug": "Sonni_Ali"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Tondibi",
+      "term": "Battle of Tondibi",
+      "wikiSlug": "Battle_of_Tondibi"
+    },
+    {
+      "matchText": "Songhay",
+      "term": "Songhay languages",
+      "wikiSlug": "Songhay_languages"
+    },
+    {
+      "matchText": "Maasai",
+      "term": "Maasai",
+      "wikiSlug": "Maasai_people"
+    },
+    {
+      "matchText": "Soninke",
+      "term": "Soninke",
+      "wikiSlug": "Soninke_people"
+    },
+    {
+      "matchText": "Berber language",
+      "term": "Berber languages",
+      "wikiSlug": "Berber_languages"
+    },
+    {
+      "matchText": "Berbers",
+      "term": "Berbers",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Hungarian",
+      "term": "Hungarians",
+      "wikiSlug": "Hungarians"
+    },
+    {
+      "matchText": "Za Alayaman",
+      "term": "Za Alayaman",
+      "wikiSlug": "Za_dynasty"
+    },
+    {
+      "matchText": "Yemeni",
+      "term": "Yemen",
+      "wikiSlug": "Yemen"
+    },
+    {
+      "matchText": "Prophet",
+      "term": "the Prophet Muhammad",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Shiraz",
+      "term": "Shiraz",
+      "wikiSlug": "Shiraz"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Sonni Sulayman Dama",
+      "term": "Sonni Sulayman Dama",
+      "wikiSlug": "Sonni_dynasty"
+    },
+    {
+      "matchText": "Tukulor",
+      "term": "Tukulor",
+      "wikiSlug": "Toucouleur_people"
+    },
+    {
+      "matchText": "Cuzco",
+      "term": "Cuzco",
+      "wikiSlug": "Cusco"
+    },
+    {
+      "matchText": "Florence",
+      "term": "Florence",
+      "wikiSlug": "Florence"
+    },
+    {
+      "matchText": "Brunelleschi",
+      "term": "Filippo Brunelleschi",
+      "wikiSlug": "Filippo_Brunelleschi"
+    },
+    {
+      "matchText": "Donatello",
+      "term": "Donatello",
+      "wikiSlug": "Donatello"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Renaissance",
+      "term": "the Renaissance",
+      "wikiSlug": "Renaissance"
+    },
+    {
+      "matchText": "Wangara",
+      "term": "Wangara",
+      "definition": "The Wangara (also called Juula or Dyula) were the West African Muslim merchant networks that ran the long-distance gold-and-salt trade across the Sahel. They were not a single ethnic group so much as a trading diaspora, threading caravans and credit between the gold fields of the south and the desert-edge markets of the north."
+    },
+    {
+      "matchText": "Shirazi",
+      "term": "the Shirazi tradition",
+      "definition": "The Shirazi tradition is a foundation legend of the Swahili Coast, in which the ruling dynasties of the East African coastal towns claimed descent from a Persian prince of Shiraz. Like the Songhai Za dynasty's claimed Yemeni origin, it is a post-conversion genealogical motif — a way of grafting a prestigious Islamic pedigree onto a local ruling line rather than literal history."
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
+    },
+    {
+      "matchText": "Askia",
+      "term": "Askia",
+      "wikiSlug": "Askia_dynasty"
     }
   ],
   "2": [
@@ -227,12 +381,6 @@
       "type": "people"
     },
     {
-      "term": "Constantinople",
-      "matchText": "Constantinople",
-      "wikiSlug": "Constantinople",
-      "type": "place"
-    },
-    {
       "term": "Lodi sultanate",
       "matchText": "Lodi sultanate",
       "wikiSlug": "Lodi_dynasty",
@@ -267,6 +415,121 @@
       "matchText": "Sonni Ali",
       "wikiSlug": "Sonni_Ali",
       "type": "people"
+    },
+    {
+      "matchText": "Huayna Capac",
+      "term": "Huayna Capac",
+      "wikiSlug": "Huayna_Capac"
+    },
+    {
+      "matchText": "Tuareg",
+      "term": "Tuareg",
+      "wikiSlug": "Tuareg"
+    },
+    {
+      "matchText": "Dogon",
+      "term": "Dogon",
+      "wikiSlug": "Dogon_people"
+    },
+    {
+      "matchText": "Fattash",
+      "term": "Tarikh al-Fattash",
+      "wikiSlug": "Tarikh_al-fattash"
+    },
+    {
+      "matchText": "Inner Niger Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Inner Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Sorko",
+      "term": "Sorko",
+      "wikiSlug": "Bozo_people"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_Bend"
+    },
+    {
+      "matchText": "Tondibi",
+      "term": "Battle of Tondibi",
+      "wikiSlug": "Battle_of_Tondibi"
+    },
+    {
+      "matchText": "Askia Muhammad",
+      "term": "Askia Muhammad",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Muhammad Ture",
+      "term": "Muhammad Ture",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Askia",
+      "term": "Askia",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Isabella",
+      "term": "Isabella I of Castile",
+      "wikiSlug": "Isabella_I_of_Castile"
+    },
+    {
+      "matchText": "Caribbean",
+      "term": "Caribbean",
+      "wikiSlug": "Caribbean"
+    },
+    {
+      "matchText": "Ardabil",
+      "term": "Ardabil",
+      "wikiSlug": "Ardabil"
+    },
+    {
+      "matchText": "Shah Ismail",
+      "term": "Shah Ismail",
+      "wikiSlug": "Ismail_I"
+    },
+    {
+      "matchText": "Tabriz",
+      "term": "Tabriz",
+      "wikiSlug": "Tabriz"
+    },
+    {
+      "matchText": "Ahuitzotl",
+      "term": "Ahuitzotl",
+      "wikiSlug": "Ahuitzotl"
+    },
+    {
+      "matchText": "Abd al-Sadi",
+      "term": "Abd al-Sadi",
+      "wikiSlug": "Tarikh_al-Sudan"
+    },
+    {
+      "matchText": "Muhammad Naddi",
+      "term": "Muhammad Naddi",
+      "definition": "The chief qadi (Islamic judge) of Timbuktu and head of the Aqit family, the city's most prominent Sanhaja Berber clerical lineage, when Sonni Ali took the city in 1468. The chronicles credit him or his colleagues with inviting Sonni Ali in to remove the Tuareg garrison."
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
     }
   ],
   "3": [
@@ -349,12 +612,6 @@
       "type": "people"
     },
     {
-      "term": "Shah Ismail",
-      "matchText": "Shah Ismail",
-      "wikiSlug": "Ismail_I",
-      "type": "people"
-    },
-    {
       "term": "Twelver Shia",
       "matchText": "Shia",
       "wikiSlug": "Shia_Islam",
@@ -413,6 +670,211 @@
       "matchText": "Mesufa Berber",
       "wikiSlug": "Massufa",
       "type": "people"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Sunni Islam",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Muhammad Ture",
+      "term": "Muhammad Ture",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Soninke",
+      "term": "Soninke",
+      "wikiSlug": "Soninke_people"
+    },
+    {
+      "matchText": "Sonni Baru",
+      "term": "Sonni Baru",
+      "wikiSlug": "Sonni_Baru"
+    },
+    {
+      "matchText": "Sonni",
+      "term": "Sonni dynasty",
+      "wikiSlug": "Sonni_dynasty"
+    },
+    {
+      "matchText": "Sonni Ali",
+      "term": "Sonni Ali",
+      "wikiSlug": "Sonni_Ali"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Sankoré",
+      "term": "Sankoré",
+      "wikiSlug": "Sankore_Madrasah"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Taghaza",
+      "term": "Taghaza",
+      "wikiSlug": "Taghaza"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Prophet",
+      "term": "the Prophet",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Kurmina",
+      "term": "Kurmina",
+      "wikiSlug": "Kurmina-fari"
+    },
+    {
+      "matchText": "Lake Faguibine",
+      "term": "Lake Faguibine",
+      "wikiSlug": "Lake_Faguibine"
+    },
+    {
+      "matchText": "Dirma",
+      "term": "Dirma",
+      "wikiSlug": "Dirma"
+    },
+    {
+      "matchText": "Djenné",
+      "term": "Djenné",
+      "wikiSlug": "Djenné"
+    },
+    {
+      "matchText": "Bandiagara",
+      "term": "Bandiagara",
+      "wikiSlug": "Bandiagara"
+    },
+    {
+      "matchText": "Dogon",
+      "term": "Dogon",
+      "wikiSlug": "Dogon_people"
+    },
+    {
+      "matchText": "Hombori",
+      "term": "Hombori",
+      "wikiSlug": "Hombori"
+    },
+    {
+      "matchText": "Niger",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Katsina",
+      "term": "Katsina",
+      "wikiSlug": "Katsina"
+    },
+    {
+      "matchText": "Sanhaja Berbers",
+      "term": "Sanhaja Berbers",
+      "wikiSlug": "Sanhaja"
+    },
+    {
+      "matchText": "Mossi",
+      "term": "Mossi",
+      "wikiSlug": "Mossi_people"
+    },
+    {
+      "matchText": "Judar Pasha",
+      "term": "Judar Pasha",
+      "wikiSlug": "Judar_Pasha"
+    },
+    {
+      "matchText": "Tabriz",
+      "term": "Tabriz",
+      "wikiSlug": "Tabriz"
+    },
+    {
+      "matchText": "Belgrade",
+      "term": "Belgrade",
+      "wikiSlug": "Belgrade"
+    },
+    {
+      "matchText": "Rhodes",
+      "term": "Rhodes",
+      "wikiSlug": "Rhodes"
+    },
+    {
+      "matchText": "Zhengde Emperor",
+      "term": "Ming Zhengde Emperor",
+      "wikiSlug": "Zhengde_Emperor"
+    },
+    {
+      "matchText": "Elmina",
+      "term": "Elmina",
+      "wikiSlug": "Elmina_Castle"
+    },
+    {
+      "matchText": "Mahmud Aqit",
+      "term": "Mahmud Aqit",
+      "definition": "The Timbuktu chief qadi (supreme judge) at the time of Askia Muhammad's coup, head of the Aqit scholarly lineage. His public endorsement and fatwa declaring the Sonni regime religiously illegitimate gave the new ruler theological cover."
+    },
+    {
+      "matchText": "Aqit family",
+      "term": "Aqit family",
+      "definition": "A Sanhaja Berber scholarly lineage of Timbuktu that dominated the city's religious-legal class for generations, supplying qadis and imams to the Sankoré mosque despite being targeted under Sonni Ali."
+    },
+    {
+      "matchText": "Bara",
+      "term": "Bara",
+      "definition": "A Songhai province south of Lake Faguibine, one of the roughly dozen administrative districts Askia Muhammad organized under appointed governors."
+    },
+    {
+      "matchText": "Dendi",
+      "term": "Dendi",
+      "definition": "The eastern Niger frontier province of the Songhai Empire toward modern Nigeria; the name later attached to the rump Dendi kingdom Songhai survivors founded after the 1591 Moroccan conquest."
+    },
+    {
+      "matchText": "Gungu",
+      "term": "Gungu",
+      "definition": "A small island in the Niger River where Askia Muhammad was exiled after his son Askia Musa deposed him in 1528; he lived there in powerless isolation until his death a decade later."
+    },
+    {
+      "matchText": "Kano",
+      "term": "Kano",
+      "definition": "One of the two largest Hausa walled commercial cities of northern Nigeria (with Katsina), a major hub of trade and Islamic learning that paid loose tribute to Songhai after Askia Muhammad's eastern campaign of around 1513–14."
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
     }
   ],
   "4": [
@@ -505,6 +967,176 @@
       "matchText": "Tuareg",
       "wikiSlug": "Tuareg",
       "type": "people"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Sunni Islam",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Askia Muhammad",
+      "term": "Askia Muhammad",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Askia Dawud",
+      "term": "Askia Dawud",
+      "wikiSlug": "Askia_Daoud"
+    },
+    {
+      "matchText": "Tondibi",
+      "term": "Tondibi",
+      "wikiSlug": "Battle_of_Tondibi"
+    },
+    {
+      "matchText": "Songhai-speaking population",
+      "term": "Songhai-speaking population",
+      "wikiSlug": "Songhai_people"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Soninke",
+      "term": "Soninke",
+      "wikiSlug": "Soninke_people"
+    },
+    {
+      "matchText": "western Sudan",
+      "term": "Sudan (region)",
+      "wikiSlug": "Sudan_(region)"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Djenné",
+      "term": "Djenné",
+      "wikiSlug": "Djenné"
+    },
+    {
+      "matchText": "Hausa",
+      "term": "Hausa",
+      "wikiSlug": "Hausa_language"
+    },
+    {
+      "matchText": "Niger",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Sanhaja",
+      "term": "Sanhaja",
+      "wikiSlug": "Sanhaja"
+    },
+    {
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_people"
+    },
+    {
+      "matchText": "Mossi",
+      "term": "Mossi",
+      "wikiSlug": "Mossi_people"
+    },
+    {
+      "matchText": "Askia",
+      "term": "Askia",
+      "wikiSlug": "Askia_dynasty"
+    },
+    {
+      "matchText": "Lake Faguibine",
+      "term": "Lake Faguibine",
+      "wikiSlug": "Lake_Faguibine"
+    },
+    {
+      "matchText": "Mande",
+      "term": "Mande",
+      "wikiSlug": "Mande_languages"
+    },
+    {
+      "matchText": "Dendi",
+      "term": "Dendi",
+      "wikiSlug": "Dendi_Kingdom"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Maliki",
+      "term": "Maliki school",
+      "wikiSlug": "Maliki"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Medina",
+      "term": "Medina",
+      "wikiSlug": "Medina"
+    },
+    {
+      "matchText": "Sonni Ali",
+      "term": "Sonni Ali",
+      "wikiSlug": "Sonni_Ali"
+    },
+    {
+      "matchText": "Aqit",
+      "term": "Aqit family",
+      "definition": "A prominent Sanhaja Berber clerical lineage of Timbuktu — the family of Mahmud Aqit, who provided the religious legitimation for Askia Muhammad's seizure of power and supplied many of the city's leading scholars and chief qadis."
+    },
+    {
+      "matchText": "Kurmina",
+      "term": "Kurmina",
+      "definition": "The western frontier province of the Songhai Empire, facing the contracting Mali Empire and governed from a regional capital at Tindirma. Its governor, the Kurmina-fari, held the second-most-powerful office in the empire after the Askia and was usually a close royal kinsman."
+    },
+    {
+      "matchText": "Bara",
+      "term": "Bara",
+      "definition": "A Songhai province in the western Inner Niger Delta, lying south of Lake Faguibine."
+    },
+    {
+      "matchText": "Dirma",
+      "term": "Dirma",
+      "definition": "A Songhai province centered on Djenné, controlling the commercial heartland of the Inner Niger Delta."
+    },
+    {
+      "matchText": "Hombori",
+      "term": "Hombori",
+      "definition": "A south-central frontier province of the Songhai Empire, containing some of its most fertile farmland."
+    },
+    {
+      "matchText": "Sorko",
+      "term": "Sorko",
+      "definition": "A Niger River fishing and boating people who supplied the specialized crews for the Songhai war-canoe fleet, the empire's strategic transport arm along the river."
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Inner Delta",
+      "term": "Inner Delta",
+      "wikiSlug": "Inner_Niger_Delta"
     }
   ],
   "5": [
@@ -518,18 +1150,6 @@
       "term": "Sankoré Mosque",
       "matchText": "Sankoré",
       "wikiSlug": "Sankore_Madrasah",
-      "type": "place"
-    },
-    {
-      "term": "Djinguereber Mosque",
-      "matchText": "Djinguereber Mosque",
-      "wikiSlug": "Djinguereber_Mosque",
-      "type": "place"
-    },
-    {
-      "term": "Sidi Yahya Mosque",
-      "matchText": "Sidi Yahya",
-      "wikiSlug": "Sidi_Yahya_Mosque",
       "type": "place"
     },
     {
@@ -599,18 +1219,6 @@
       "type": "place"
     },
     {
-      "term": "cowrie shells",
-      "matchText": "cowrie shells",
-      "wikiSlug": "Shell_money",
-      "type": "concept"
-    },
-    {
-      "term": "kola nut",
-      "matchText": "kola nut",
-      "wikiSlug": "Kola_nut",
-      "type": "concept"
-    },
-    {
       "term": "Maghreb",
       "matchText": "Maghreb",
       "wikiSlug": "Maghreb",
@@ -639,6 +1247,206 @@
       "matchText": "Tlemcen",
       "wikiSlug": "Tlemcen",
       "type": "place"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Tuareg",
+      "term": "Tuareg",
+      "wikiSlug": "Tuareg"
+    },
+    {
+      "matchText": "Sonni Ali",
+      "term": "Sonni Ali",
+      "wikiSlug": "Sonni_Ali"
+    },
+    {
+      "matchText": "Sudano-Sahelian",
+      "term": "Sudano-Sahelian architecture",
+      "wikiSlug": "Sudano-Sahelian_architecture"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Istanbul",
+      "term": "Istanbul",
+      "wikiSlug": "Istanbul"
+    },
+    {
+      "matchText": "Isfahan",
+      "term": "Isfahan",
+      "wikiSlug": "Isfahan"
+    },
+    {
+      "matchText": "Shah Mosque",
+      "term": "Shah Mosque (Isfahan)",
+      "wikiSlug": "Shah_Mosque_(Isfahan)"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Marrakesh",
+      "term": "Marrakesh",
+      "wikiSlug": "Marrakesh"
+    },
+    {
+      "matchText": "Judar Pasha",
+      "term": "Judar Pasha",
+      "wikiSlug": "Judar_Pasha"
+    },
+    {
+      "matchText": "Bamako",
+      "term": "Bamako",
+      "wikiSlug": "Bamako"
+    },
+    {
+      "matchText": "Inner Niger Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Bambuk",
+      "term": "Bambuk",
+      "wikiSlug": "Bambouk"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Castile",
+      "term": "Crown of Castile",
+      "wikiSlug": "Crown_of_Castile"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Lisbon",
+      "term": "Lisbon",
+      "wikiSlug": "Lisbon"
+    },
+    {
+      "matchText": "Habsburg",
+      "term": "House of Habsburg",
+      "wikiSlug": "House_of_Habsburg"
+    },
+    {
+      "matchText": "Prophet",
+      "term": "Muhammad (the Prophet)",
+      "definition": "Muhammad, the founder of Islam, revered by Muslims as God's final prophet. The hadith are the collected records of his sayings and practices."
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "definition": "The region spanning Egypt, the Levant, the Arabian Peninsula, and Persia — the heartland of the Islamic scholarly networks that Timbuktu plugged into."
+    },
+    {
+      "matchText": "Aqit",
+      "term": "Aqit clan",
+      "definition": "A Sanhaja Berber clerical lineage that dominated Timbuktu's scholarly community for generations; Ahmed Baba al-Timbukti was its most famous son."
+    },
+    {
+      "matchText": "Muhammad Baghayogho",
+      "term": "Muhammad Baghayogho",
+      "definition": "A leading late-sixteenth-century jurist at Sankoré, trained there and counted among the most-cited Maliki scholars of his day; he was a teacher of Ahmed Baba."
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "definition": "Followers of Islam. In Songhai, an urban, trading, and scholarly elite practiced a textual Islam while much of the countryside kept older animist traditions."
+    },
+    {
+      "matchText": "Kati",
+      "term": "Kati library",
+      "definition": "One of Timbuktu's great private scholarly libraries, owned by the Kati family and passed down across generations as inheritance."
+    },
+    {
+      "matchText": "Wangara",
+      "term": "Wangara",
+      "definition": "A West African Muslim merchant and scholarly diaspora (also called Dyula) that ran much of the gold and kola trade; one of Timbuktu's great library families bore the name."
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "definition": "Of the Sahel — the semi-arid belt between the Sahara and the savanna where Timbuktu, salt caravans, and the gold trade all converged."
+    },
+    {
+      "matchText": "Bure",
+      "term": "Bure goldfields",
+      "definition": "Gold-bearing region in the upper Niger basin (modern Guinea) that, with Bambuk, fed the trans-Saharan gold trade Songhai taxed at Timbuktu."
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "definition": "The great eastward arc of the Niger River across the southern Sahara; Timbuktu and Gao sat on it, making it the caravan terminus of the gold-and-salt trade."
+    },
+    {
+      "matchText": "Quranic memorization",
+      "term": "Quranic memorization",
+      "definition": "The foundational stage of Islamic education — committing the entire Quran to memory — taught in the lower grades at Sankoré before students moved on to grammar and law."
+    },
+    {
+      "matchText": "Kifayat al-Muhtaj",
+      "term": "Kifayat al-Muhtaj",
+      "definition": "Ahmed Baba's biographical dictionary of Maliki jurists, extending Ibn Farhun's earlier work; still a standard reference for the history of the Maliki legal school."
+    },
+    {
+      "matchText": "Mi'raj al-Su'ud",
+      "term": "Mi'raj al-Su'ud",
+      "definition": "Ahmed Baba's treatise on the Islamic law of slavery (the 'Ladder of Ascent'), arguing that free-born Muslims cannot be enslaved regardless of origin or skin color."
+    },
+    {
+      "matchText": "Askia",
+      "term": "Askia",
+      "wikiSlug": "Askia_dynasty"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
+    },
+    {
+      "matchText": "Saadian",
+      "term": "Saadian",
+      "wikiSlug": "Saadi_Sultanate"
     }
   ],
   "6": [
@@ -671,12 +1479,6 @@
       "matchText": "Abd al-Qadir al-Jilani",
       "wikiSlug": "Abdul_Qadir_Gilani",
       "type": "people"
-    },
-    {
-      "term": "Qadiriyya",
-      "matchText": "Qadiriyya",
-      "wikiSlug": "Qadiriyya",
-      "type": "concept"
     },
     {
       "term": "marabout",
@@ -721,12 +1523,6 @@
       "type": "concept"
     },
     {
-      "term": "Mossi cavalry",
-      "matchText": "Mossi cavalry",
-      "wikiSlug": "Mossi_Kingdoms",
-      "type": "concept"
-    },
-    {
       "term": "Iwellemmedan",
       "matchText": "Iwellemmedan",
       "wikiSlug": "Iwellemmedan",
@@ -749,15 +1545,139 @@
       "matchText": "Quran",
       "wikiSlug": "Quran",
       "type": "concept"
+    },
+    {
+      "matchText": "Sunni Muslim",
+      "term": "Sunni Muslim",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Tomb of Askia",
+      "term": "Tomb of Askia",
+      "wikiSlug": "Tomb_of_Askia"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "trans-Saharan",
+      "term": "Trans-Saharan trade",
+      "wikiSlug": "Trans-Saharan_trade"
+    },
+    {
+      "matchText": "Court Islam",
+      "term": "Court Islam",
+      "definition": "Shorthand for the orthodox Sunni Maliki Islam practiced by the Songhai ruling class at Gao and Timbuktu — the religion of the court, the cities, and the merchant networks, modeled on Mediterranean Islamic norms and distinct from the traditional religion of the rural villages."
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Askia",
+      "term": "Askia",
+      "definition": "The royal title taken by the Songhai dynasty founded by Askia Muhammad in 1493, replacing the older Sonni line; the Askias ruled the empire at its height through the sixteenth century."
+    },
+    {
+      "matchText": "Askia Muhammad",
+      "term": "Askia Muhammad",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Djinguereber Mosque",
+      "term": "Djinguereber Mosque",
+      "wikiSlug": "Djinguereber_Mosque"
+    },
+    {
+      "matchText": "Sankoré",
+      "term": "Sankoré",
+      "wikiSlug": "Sankore_Madrasah"
+    },
+    {
+      "matchText": "Hijaz",
+      "term": "Hijaz",
+      "wikiSlug": "Hejaz"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Sudan",
+      "term": "Sudan (region)",
+      "wikiSlug": "Sudan_(region)"
+    },
+    {
+      "matchText": "Qadiri",
+      "term": "Qadiriyya",
+      "wikiSlug": "Qadiriyya"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Dogon",
+      "term": "Dogon",
+      "wikiSlug": "Dogon_people"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Tuareg",
+      "term": "Tuareg",
+      "wikiSlug": "Tuareg_people"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "definition": "The great boomerang-shaped bend of the Niger River as it loops north into the Sahara near Timbuktu before turning southeast — the river-and-market core of the Songhai heartland and a frequent target of Tuareg raids."
+    },
+    {
+      "matchText": "Tondibi",
+      "term": "Battle of Tondibi",
+      "wikiSlug": "Battle_of_Tondibi"
+    },
+    {
+      "matchText": "Maliki",
+      "term": "Maliki school",
+      "wikiSlug": "Maliki_school"
+    },
+    {
+      "matchText": "Sonni",
+      "term": "Sonni",
+      "wikiSlug": "Sonni_dynasty"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "wikiSlug": "Sahel"
     }
   ],
   "7": [
-    {
-      "term": "Saadi Sultanate",
-      "matchText": "Saadian dynasty",
-      "wikiSlug": "Saadi_Sultanate",
-      "type": "concept"
-    },
     {
       "term": "Sous Valley",
       "matchText": "Sous Valley",
@@ -831,16 +1751,100 @@
       "type": "people"
     },
     {
-      "term": "Shah Abbas",
-      "matchText": "Shah Abbas I",
-      "wikiSlug": "Abbas_the_Great",
-      "type": "people"
-    },
-    {
       "term": "Abd al-Malik",
       "matchText": "Abd al-Malik",
       "wikiSlug": "Abu_Marwan_Abd_al-Malik_I_Saadi",
       "type": "people"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
+    },
+    {
+      "matchText": "Tondibi",
+      "term": "Tondibi",
+      "wikiSlug": "Battle_of_Tondibi"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Taghaza",
+      "term": "Taghaza",
+      "wikiSlug": "Taghaza"
+    },
+    {
+      "matchText": "Habsburg",
+      "term": "Habsburg",
+      "wikiSlug": "House_of_Habsburg"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Rajput",
+      "term": "Rajput",
+      "wikiSlug": "Rajput"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Sultan Muhammad",
+      "term": "Sultan Muhammad al-Shaykh",
+      "wikiSlug": "Mohammed_ash-Sheikh"
+    },
+    {
+      "matchText": "Askia Musa",
+      "term": "Askia Musa",
+      "wikiSlug": "Askia_Musa"
+    },
+    {
+      "matchText": "Askia Ismail",
+      "term": "Askia Ismail",
+      "wikiSlug": "Askia_Ismail"
+    },
+    {
+      "matchText": "Askia Ishaq I",
+      "term": "Askia Ishaq I",
+      "wikiSlug": "Askia_Ishaq_I"
+    },
+    {
+      "matchText": "Askia al-Hajj",
+      "term": "Askia al-Hajj",
+      "wikiSlug": "Askia_Al-Hajj"
+    },
+    {
+      "matchText": "Askia Muhammad Bani",
+      "term": "Askia Muhammad Bani",
+      "wikiSlug": "Askia_Muhammad_Bani"
+    },
+    {
+      "matchText": "Sultan Ahmad",
+      "term": "Sultan Ahmad",
+      "wikiSlug": "Ahmad_al-Mansur"
+    },
+    {
+      "matchText": "Low Countries",
+      "term": "Low Countries",
+      "wikiSlug": "Low_Countries"
     }
   ],
   "8": [
@@ -899,12 +1903,6 @@
       "type": "concept"
     },
     {
-      "term": "Pashalik of Timbuktu",
-      "matchText": "Pashalik of Timbuktu",
-      "wikiSlug": "Pashalik_of_Timbuktu",
-      "type": "concept"
-    },
-    {
       "term": "Arma people",
       "matchText": "Arma",
       "wikiSlug": "Arma_people",
@@ -947,18 +1945,6 @@
       "type": "place"
     },
     {
-      "term": "Elmina Castle",
-      "matchText": "Elmina",
-      "wikiSlug": "Elmina_Castle",
-      "type": "place"
-    },
-    {
-      "term": "UNESCO World Heritage",
-      "matchText": "UNESCO",
-      "wikiSlug": "World_Heritage_Site",
-      "type": "concept"
-    },
-    {
       "term": "Ahmad al-Mansur",
       "matchText": "Sultan Ahmad al-Mansur",
       "wikiSlug": "Ahmad_al-Mansur",
@@ -969,6 +1955,236 @@
       "matchText": "Songhai language",
       "wikiSlug": "Songhay_languages",
       "type": "concept"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Ahmed Baba",
+      "term": "Ahmed Baba",
+      "wikiSlug": "Ahmad_Baba_al-Timbukti"
+    },
+    {
+      "matchText": "Sudan",
+      "term": "Sudan",
+      "wikiSlug": "Sudan"
+    },
+    {
+      "matchText": "Taghaza",
+      "term": "Taghaza",
+      "wikiSlug": "Taghaza"
+    },
+    {
+      "matchText": "Niger",
+      "term": "Niger",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Swedes",
+      "term": "Swedes",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Djenné",
+      "term": "Djenné",
+      "wikiSlug": "Djenné"
+    },
+    {
+      "matchText": "Maliki",
+      "term": "Maliki",
+      "wikiSlug": "Maliki"
+    },
+    {
+      "matchText": "Sankoré",
+      "term": "Sankoré",
+      "wikiSlug": "Sankore_Madrasah"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Askia Ishaq II",
+      "term": "Askia Ishaq II",
+      "wikiSlug": "Askia_Ishaq_II"
+    },
+    {
+      "matchText": "Mossi",
+      "term": "Mossi",
+      "wikiSlug": "Mossi_people"
+    },
+    {
+      "matchText": "Kangaba",
+      "term": "Kangaba",
+      "wikiSlug": "Kangaba"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Amsterdam",
+      "term": "Amsterdam",
+      "wikiSlug": "Amsterdam"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Inner Niger Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Segou",
+      "term": "Segou",
+      "wikiSlug": "Ségou"
+    },
+    {
+      "matchText": "Bamako",
+      "term": "Bamako",
+      "wikiSlug": "Bamako"
+    },
+    {
+      "matchText": "Sudano-Sahelian",
+      "term": "Sudano-Sahelian",
+      "wikiSlug": "Sudano-Sahelian_architecture"
+    },
+    {
+      "matchText": "Fort Jesus",
+      "term": "Fort Jesus",
+      "wikiSlug": "Fort_Jesus"
+    },
+    {
+      "matchText": "Mombasa",
+      "term": "Mombasa",
+      "wikiSlug": "Mombasa"
+    },
+    {
+      "matchText": "Hausa",
+      "term": "Hausa",
+      "wikiSlug": "Hausa_people"
+    },
+    {
+      "matchText": "Fulani",
+      "term": "Fulani",
+      "wikiSlug": "Fula_people"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Lisbon",
+      "term": "Lisbon",
+      "wikiSlug": "Lisbon"
+    },
+    {
+      "matchText": "Askia",
+      "term": "Askia",
+      "wikiSlug": "Askiya_dynasty"
+    },
+    {
+      "matchText": "Tomb of Askia",
+      "term": "Tomb of Askia",
+      "wikiSlug": "Tomb_of_Askia"
+    },
+    {
+      "matchText": "Ahmed Baba Institute",
+      "term": "Ahmed Baba Institute",
+      "wikiSlug": "Ahmed_Baba_Institute"
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "definition": "Of or relating to the Sahara, the vast North African desert whose oasis-and-salt-mining chain the Moroccan column had to cross to reach Songhai."
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "definition": "Of or relating to the Sahel, the semi-arid belt south of the Sahara where Songhai and the other great West African empires grew up along the Niger."
+    },
+    {
+      "matchText": "Saadian",
+      "term": "Saadian",
+      "definition": "Of the Saadian (Saadi) dynasty, the Arab-Berber sharifian rulers of Morocco from Marrakesh whose sultan al-Mansur launched the 1591 invasion."
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "definition": "The great northward arc of the Niger River as it curves up toward the Sahara, the heartland strip where Gao, Timbuktu, and Djenné sat — the prize the Moroccans came for."
+    },
+    {
+      "matchText": "Wangara",
+      "term": "Wangara",
+      "definition": "The Soninke-rooted Muslim merchant diaspora (also called Dyula) that ran West Africa's long-distance gold-and-salt trade, knitting the Niger Bend to the Mediterranean."
+    },
+    {
+      "matchText": "Muhammad Gao",
+      "term": "Muhammad Gao",
+      "definition": "The brother of Askia Ishaq II who deposed him within months of Tondibi and founded the Dendi successor kingdom that carried the Askia dynasty on for three more centuries."
+    },
+    {
+      "matchText": "Lulami",
+      "term": "Lulami",
+      "definition": "The first capital of the Dendi successor kingdom, established by Muhammad Gao in the eastern Niger provinces after the empire's collapse."
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "definition": "Relating to the Arabic-speaking peoples of the Near East and North Africa; here, the Arab-Berber makeup of the Saadian state and the seventh-century Arab conquest of Persia."
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian",
+      "definition": "Of or relating to Iran and the Persian cultural world; here, the local successor traditions in which Sasanian dynastic memory outlived the Arab conquest."
+    },
+    {
+      "matchText": "Askia Dawud",
+      "term": "Askia Dawud",
+      "definition": "The long-reigning sixteenth-century Songhai emperor whose death triggered the succession crisis that left the empire fatally weakened by 1591."
+    },
+    {
+      "matchText": "Sorko",
+      "term": "Sorko",
+      "definition": "The Niger River fishing and boatman people whose riverine culture, central to imperial Songhai, still operates along the Niger today."
+    },
+    {
+      "matchText": "Abdel Kader Haidara",
+      "term": "Abdel Kader Haidara",
+      "definition": "The Malian librarian who in 2012 organized the smuggling of tens of thousands of medieval Timbuktu manuscripts to safety in Bamako ahead of the jihadist occupation."
+    },
+    {
+      "matchText": "al-rumat",
+      "term": "al-rumat",
+      "definition": "Arabic for \"the marksmen\" or \"the gunners\" — the term that gave the Arma, the gunpowder-armed descendants of the Saadian expedition, their name."
+    },
+    {
+      "matchText": "Ahmed Baba's exile",
+      "term": "Ahmed Baba's exile",
+      "definition": "The fifteen years (1593–1608) the Timbuktu jurist Ahmed Baba spent held in Marrakesh as a trophy of the conquest, during which he kept teaching and writing."
     }
   ]
 }
