@@ -110,6 +110,42 @@ not for a handful of drift gaps.
 The manual gate-by-gate sequence below is what those two scripts run; keep it as the
 reference for what each check means.
 
+## Per-civ coordinator cleanup recipe (the routine tail — codified 2026-05-21)
+
+After `sweep-merge` + `sweep-verify --fix-drops`, every civ this batch needed the SAME
+small cleanup. Do it in this order; it's bounded (~5 min) and now mostly scripted:
+
+1. **MANUAL parse drops = overlap-redundant, not real losses.** A dropped glossary
+   matchText is almost always a span an existing longer glossary / cross / event link
+   already owns (e.g. `Genoese` ⊂ `Genoese crossbowmen`; `Sasanian` ⊂ cross
+   `Sasanian Persians`; `Mohenjo-daro` ⊂ cross `Mohenjo-daro and Harappa`). Diagnose:
+   ```js
+   // node -e — show what overlaps each dropped matchText in its chapter
+   const g=require('./content/.glossary-links-<tl>.json'),c=require('./content/.cross-links-<tl>.json'),e=require('./content/.event-links-<tl>.json');
+   const all=n=>[...(g[n]||[]).map(x=>['G',x.matchText]),...(c[n]||[]).map(x=>['C',x.matchText]),...(e[n]||[]).map(x=>['E',x.matchText])];
+   const mt='Genoese', n='3'; console.log(all(n).filter(([k,m])=>m!==mt&&(m.includes(mt)||mt.includes(m))));
+   ```
+   Then DROP the redundant glossary entry — UNLESS the *owner* is the sloppy one (a
+   pre-existing sentence-matchText cross like `negotiate with Khusrau I in 568`); there,
+   drop the bad cross and keep the tight glossary instead. This is a judgement call —
+   do NOT blind-auto-drop (see `feedback_gate_pass_not_correct`).
+
+2. **Residual NEW gaps = demonyms + missed recurrences.** Born-verify each slug, write
+   `audits/link-suggest/<tl>.residual.json` (`{glossary:[["Term","Slug"]], waivers:[[ch,"Term"]]}`),
+   then `node scripts/link-residual.mjs <tl> --apply`. It adds each term wherever it has
+   a free unowned PROSE occurrence (heading-stripped, owner-guarded so it can't recreate
+   overlap drops). The civ's OWN-name adjective (`Mesopotamian` in mesopotamia) is the
+   only demonym you WAIVE, not link.
+
+3. **Transient snapshot auto-fails on accented slugs** (`Blót`, `Dísablót`,
+   `Ilterish_Khagan`) are usually rate-limiting from the big batch verify, NOT real rot.
+   Confirm the page is live (`verifySlugs([...],{refresh:true})`), pause ~15s, re-run
+   `sweep-verify`. A genuinely dead event slug lives in `reference-data/<tl>.json` (fix
+   there, e.g. gokturk's `Ilterish_Qaghan`→`Ilterish_Khagan`).
+
+4. Re-run `sweep-verify <tl> --fix-drops` → expect 0 NEW (a few grandfathered residual
+   is fine), all ship gates green. Then commit.
+
 ## Verify (coordinator, every civ — verify don't relay)
 - `link-coverage --tl=<civ>` (no --strict): TOTAL GATE ≈ 0 (NOT just "0 NEW").
 - `lint-links --tl=<civ> --strict`: 0 ERROR.
