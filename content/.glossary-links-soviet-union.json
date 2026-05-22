@@ -137,6 +137,41 @@
       "matchText": "Siberian exile system",
       "wikiSlug": "Katorga",
       "type": "concept"
+    },
+    {
+      "matchText": "Cold War",
+      "term": "Cold War",
+      "wikiSlug": "Cold_War"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic Sea",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Manchester",
+      "term": "Manchester",
+      "wikiSlug": "Manchester"
+    },
+    {
+      "matchText": "Bolsheviks",
+      "term": "Bolsheviks",
+      "wikiSlug": "Bolsheviks"
+    },
+    {
+      "matchText": "Caesar",
+      "term": "Caesar (title)",
+      "wikiSlug": "Caesar_(title)"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Ukrainian",
+      "term": "Ukrainian",
+      "wikiSlug": "Ukrainians"
     }
   ],
   "2": [
@@ -284,6 +319,26 @@
       "matchText": "Moscow",
       "wikiSlug": "Moscow",
       "type": "place"
+    },
+    {
+      "matchText": "Romanov",
+      "term": "Romanov",
+      "wikiSlug": "House_of_Romanov"
+    },
+    {
+      "matchText": "Duma",
+      "term": "Duma",
+      "wikiSlug": "Duma"
+    },
+    {
+      "matchText": "Gregorian",
+      "term": "Gregorian",
+      "wikiSlug": "Gregorian_calendar"
+    },
+    {
+      "matchText": "Decree on Land",
+      "term": "Decree on Land",
+      "wikiSlug": "Decree_on_Land"
     }
   ],
   "3": [
@@ -292,12 +347,6 @@
       "matchText": "Cheka",
       "wikiSlug": "Cheka",
       "type": "institution"
-    },
-    {
-      "term": "Felix Dzerzhinsky",
-      "matchText": "Felix Dzerzhinsky",
-      "wikiSlug": "Felix_Dzerzhinsky",
-      "type": "person"
     },
     {
       "term": "Whites",
@@ -413,6 +462,136 @@
       "matchText": "nationalization of industry",
       "wikiSlug": "Nationalization",
       "type": "concept"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Petrograd",
+      "term": "Petrograd",
+      "wikiSlug": "Saint_Petersburg"
+    },
+    {
+      "matchText": "Russians",
+      "term": "Russians",
+      "wikiSlug": "Russians"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_states"
+    },
+    {
+      "matchText": "Finland",
+      "term": "Finland",
+      "wikiSlug": "Grand_Duchy_of_Finland"
+    },
+    {
+      "matchText": "Lenin",
+      "term": "Lenin",
+      "wikiSlug": "Vladimir_Lenin"
+    },
+    {
+      "matchText": "Bolsheviks",
+      "term": "Bolsheviks",
+      "wikiSlug": "Bolsheviks"
+    },
+    {
+      "matchText": "Reds",
+      "term": "Reds",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Czech",
+      "term": "Czech",
+      "wikiSlug": "Czechs"
+    },
+    {
+      "matchText": "Czech Legion",
+      "term": "Czech Legion",
+      "wikiSlug": "Czechoslovak_Legion"
+    },
+    {
+      "matchText": "Romanovs",
+      "term": "Romanovs",
+      "wikiSlug": "House_of_Romanov"
+    },
+    {
+      "matchText": "Vladivostok",
+      "term": "Vladivostok",
+      "wikiSlug": "Vladivostok"
+    },
+    {
+      "matchText": "Eastern Front",
+      "term": "Eastern Front",
+      "wikiSlug": "Eastern_Front_(World_War_I)"
+    },
+    {
+      "matchText": "Trotsky",
+      "term": "Trotsky",
+      "wikiSlug": "Leon_Trotsky"
+    },
+    {
+      "matchText": "Polish",
+      "term": "Polish",
+      "wikiSlug": "Polish_people"
+    },
+    {
+      "matchText": "Vistula",
+      "term": "Vistula",
+      "wikiSlug": "Vistula"
+    },
+    {
+      "matchText": "Ukrainians",
+      "term": "Ukrainians",
+      "wikiSlug": "Ukrainians"
+    },
+    {
+      "matchText": "OGPU",
+      "term": "OGPU",
+      "wikiSlug": "Joint_State_Political_Directorate"
+    },
+    {
+      "matchText": "NKVD",
+      "term": "NKVD",
+      "wikiSlug": "NKVD"
+    },
+    {
+      "matchText": "Nicholas II",
+      "term": "Nicholas II",
+      "wikiSlug": "Nicholas_II"
+    },
+    {
+      "matchText": "Urals",
+      "term": "Urals",
+      "wikiSlug": "Ural_Mountains"
+    },
+    {
+      "matchText": "Polish–Soviet War",
+      "term": "Polish–Soviet War",
+      "wikiSlug": "Polish–Soviet_War"
+    },
+    {
+      "matchText": "Party",
+      "term": "Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
     }
   ],
   "4": [
@@ -440,12 +619,6 @@
       "wikiSlug": "",
       "type": "people",
       "definition": "The private traders, shopkeepers, and small businessmen who got rich during the 1920s New Economic Policy, when Lenin briefly allowed a slice of capitalism back into Soviet Russia. They were resented as profiteers, became a stock villain in Soviet propaganda, and were squeezed out of existence once Stalin ended the policy."
-    },
-    {
-      "term": "Workers' Opposition",
-      "matchText": "Workers' Opposition",
-      "wikiSlug": "Workers'_Opposition",
-      "type": "institution"
     },
     {
       "term": "Alexander Shlyapnikov",
@@ -488,13 +661,6 @@
       "matchText": "Central Committee",
       "wikiSlug": "Central_Committee_of_the_Communist_Party_of_the_Soviet_Union",
       "type": "institution"
-    },
-    {
-      "term": "ban on factions",
-      "matchText": "ban on factions",
-      "wikiSlug": "",
-      "type": "concept",
-      "definition": "A 1921 Communist Party resolution, pushed through by Lenin, that forbade members from forming organized groups or blocs inside the Party. It froze internal dissent and became a powerful weapon for crushing rivals later on."
     },
     {
       "term": "Communist Party",
@@ -545,10 +711,59 @@
       "type": "place"
     },
     {
-      "term": "New Economic Policy",
-      "matchText": "New Economic Policy",
-      "wikiSlug": "New_Economic_Policy",
-      "type": "concept"
+      "matchText": "Bolsheviks",
+      "term": "Bolsheviks",
+      "wikiSlug": "Bolsheviks"
+    },
+    {
+      "matchText": "Petrograd",
+      "term": "Petrograd",
+      "wikiSlug": "Saint_Petersburg"
+    },
+    {
+      "matchText": "Trotsky",
+      "term": "Trotsky",
+      "wikiSlug": "Leon_Trotsky"
+    },
+    {
+      "matchText": "Whites",
+      "term": "Whites",
+      "wikiSlug": "White_movement"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Mikhail Tukhachevsky",
+      "term": "Mikhail Tukhachevsky",
+      "wikiSlug": "Mikhail_Tukhachevsky"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Communism",
+      "term": "Communism",
+      "wikiSlug": "Communism"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Commissar",
+      "term": "Commissar",
+      "wikiSlug": "Commissar"
+    },
+    {
+      "matchText": "Khrushchev",
+      "term": "Khrushchev",
+      "wikiSlug": "Nikita_Khrushchev"
     }
   ],
   "5": [
@@ -607,12 +822,6 @@
       "type": "concept"
     },
     {
-      "term": "Mexico",
-      "matchText": "Mexico",
-      "wikiSlug": "Mexico",
-      "type": "place"
-    },
-    {
       "term": "Vozhd",
       "matchText": "Vozhd",
       "wikiSlug": "Vozhd",
@@ -643,12 +852,6 @@
       "type": "place"
     },
     {
-      "term": "kulaks",
-      "matchText": "liquidate the kulaks as a class",
-      "wikiSlug": "Dekulakization",
-      "type": "concept"
-    },
-    {
       "term": "Germany",
       "matchText": "Germany",
       "wikiSlug": "Weimar_Republic",
@@ -659,6 +862,41 @@
       "matchText": "Soviet historiography",
       "wikiSlug": "Historiography_in_the_Soviet_Union",
       "type": "concept"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Lenin",
+      "term": "Lenin",
+      "wikiSlug": "Vladimir_Lenin"
+    },
+    {
+      "matchText": "General Secretary",
+      "term": "General Secretary",
+      "wikiSlug": "General_Secretary_of_the_Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Marxism",
+      "term": "Marxism",
+      "wikiSlug": "Marxism"
+    },
+    {
+      "matchText": "Harvard",
+      "term": "Harvard",
+      "wikiSlug": "Harvard_University"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
     }
   ],
   "6": [
@@ -736,12 +974,6 @@
       "definition": "A modern historian of the Soviet Union, known for arguing that the 1932–33 famine in Ukraine was deliberately aimed at the Ukrainian nation, not just a byproduct of bad collectivization policy."
     },
     {
-      "term": "Raphael Lemkin",
-      "matchText": "Raphael Lemkin",
-      "wikiSlug": "Raphael_Lemkin",
-      "type": "person"
-    },
-    {
       "term": "Genocide Convention",
       "matchText": "UN Genocide Convention",
       "wikiSlug": "Genocide_Convention",
@@ -796,12 +1028,6 @@
       "type": "place"
     },
     {
-      "term": "Irish Famine",
-      "matchText": "Irish Famine",
-      "wikiSlug": "Great_Famine_(Ireland)",
-      "type": "concept"
-    },
-    {
       "term": "collectivization",
       "matchText": "Collectivization",
       "wikiSlug": "Collectivization_in_the_Soviet_Union",
@@ -812,6 +1038,46 @@
       "matchText": "kulak",
       "wikiSlug": "Kulak",
       "type": "people"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Party",
+      "term": "Communist Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Ukrainians",
+      "term": "Ukrainians",
+      "wikiSlug": "Ukrainians"
+    },
+    {
+      "matchText": "Robert Conquest",
+      "term": "Robert Conquest",
+      "wikiSlug": "Robert_Conquest"
+    },
+    {
+      "matchText": "Ukrainian",
+      "term": "Ukrainian",
+      "definition": "Of or belonging to Ukraine and its people — the East Slavic nation whose distinct language, peasantry, and national institutions were the disputed target of the 1932-33 famine that Ukrainians call the Holodomor."
     }
   ],
   "7": [
@@ -834,12 +1100,6 @@
       "type": "institution"
     },
     {
-      "term": "GOELRO",
-      "matchText": "GOELRO",
-      "wikiSlug": "GOELRO_plan",
-      "type": "object"
-    },
-    {
       "term": "Magnitogorsk",
       "matchText": "Magnitogorsk",
       "wikiSlug": "Magnitogorsk",
@@ -850,12 +1110,6 @@
       "matchText": "Gary, Indiana",
       "wikiSlug": "Gary,_Indiana",
       "type": "place"
-    },
-    {
-      "term": "Dnieprostroi",
-      "matchText": "Dnieprostroi",
-      "wikiSlug": "Dnieper_Hydroelectric_Station",
-      "type": "object"
     },
     {
       "term": "Belomorkanal",
@@ -879,24 +1133,6 @@
       "term": "Alexei Stakhanov",
       "matchText": "Alexei Stakhanov",
       "wikiSlug": "Alexey_Stakhanov",
-      "type": "person"
-    },
-    {
-      "term": "Stakhanovite movement",
-      "matchText": "Stakhanovite movement",
-      "wikiSlug": "Stakhanovite_movement",
-      "type": "concept"
-    },
-    {
-      "term": "Likbez",
-      "matchText": "Likbez",
-      "wikiSlug": "Likbez",
-      "type": "concept"
-    },
-    {
-      "term": "Nehru",
-      "matchText": "Nehru",
-      "wikiSlug": "Jawaharlal_Nehru",
       "type": "person"
     },
     {
@@ -930,16 +1166,50 @@
       "type": "object"
     },
     {
-      "term": "Industrial Revolution",
-      "matchText": "first industrial revolution",
-      "wikiSlug": "Industrial_Revolution",
-      "type": "concept"
-    },
-    {
       "term": "Gilded Age",
       "matchText": "American Gilded Age",
       "wikiSlug": "Gilded_Age",
       "type": "concept"
+    },
+    {
+      "matchText": "Ural mountains",
+      "term": "Ural",
+      "wikiSlug": "Ural_Mountains"
+    },
+    {
+      "matchText": "Lenin",
+      "term": "Lenin",
+      "wikiSlug": "Vladimir_Lenin"
+    },
+    {
+      "matchText": "Dnieper Hydroelectric Dam",
+      "term": "Dnieper Hydroelectric Dam",
+      "wikiSlug": "Dnieper_Hydroelectric_Station"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Hitler",
+      "term": "Hitler",
+      "wikiSlug": "Adolf_Hitler"
+    },
+    {
+      "matchText": "White Sea–Baltic Canal",
+      "term": "White Sea–Baltic Canal",
+      "wikiSlug": "White_Sea–Baltic_Canal"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
     }
   ],
   "8": [
@@ -968,12 +1238,6 @@
       "type": "place"
     },
     {
-      "term": "KGB",
-      "matchText": "KGB",
-      "wikiSlug": "KGB",
-      "type": "institution"
-    },
-    {
       "term": "MGB",
       "matchText": "MGB",
       "wikiSlug": "Ministry_for_State_Security_(Soviet_Union)",
@@ -989,12 +1253,6 @@
       "term": "Viktor Zemskov",
       "matchText": "Viktor Zemskov",
       "wikiSlug": "Viktor_Zemskov",
-      "type": "person"
-    },
-    {
-      "term": "Sergei Kirov",
-      "matchText": "Sergei Kirov",
-      "wikiSlug": "Sergei_Kirov",
       "type": "person"
     },
     {
@@ -1016,22 +1274,10 @@
       "type": "person"
     },
     {
-      "term": "Moscow show trials",
-      "matchText": "Moscow show trials",
-      "wikiSlug": "Moscow_trials",
-      "type": "concept"
-    },
-    {
       "term": "Bukharin",
       "matchText": "Bukharin",
       "wikiSlug": "Nikolai_Bukharin",
       "type": "person"
-    },
-    {
-      "term": "Order No. 00447",
-      "matchText": "Order No. 00447",
-      "wikiSlug": "NKVD_Order_No._00447",
-      "type": "object"
     },
     {
       "term": "national operations",
@@ -1086,6 +1332,96 @@
       "matchText": "Gulag",
       "wikiSlug": "Gulag",
       "type": "concept"
+    },
+    {
+      "matchText": "Cold War",
+      "term": "Cold War",
+      "wikiSlug": "Cold_War"
+    },
+    {
+      "matchText": "Lenin",
+      "term": "Lenin",
+      "wikiSlug": "Vladimir_Lenin"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Cheka",
+      "term": "Cheka",
+      "wikiSlug": "Cheka"
+    },
+    {
+      "matchText": "OGPU",
+      "term": "OGPU",
+      "wikiSlug": "Joint_State_Political_Directorate"
+    },
+    {
+      "matchText": "NKVD",
+      "term": "NKVD",
+      "wikiSlug": "NKVD"
+    },
+    {
+      "matchText": "Memorial",
+      "term": "Memorial",
+      "wikiSlug": "Memorial_(society)"
+    },
+    {
+      "matchText": "Party",
+      "term": "Party (Communist Party of the Soviet Union)",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Leningrad",
+      "term": "Leningrad",
+      "wikiSlug": "Leningrad"
+    },
+    {
+      "matchText": "Khrushchev",
+      "term": "Khrushchev",
+      "wikiSlug": "Nikita_Khrushchev"
+    },
+    {
+      "matchText": "Kronstadt",
+      "term": "Kronstadt",
+      "wikiSlug": "Kronstadt_rebellion"
+    },
+    {
+      "matchText": "Wehrmacht",
+      "term": "Wehrmacht",
+      "wikiSlug": "Wehrmacht"
+    },
+    {
+      "matchText": "Indian National Congress",
+      "term": "Indian National Congress",
+      "wikiSlug": "Indian_National_Congress"
+    },
+    {
+      "matchText": "White Sea–Baltic Canal",
+      "term": "White Sea–Baltic Canal",
+      "wikiSlug": "White_Sea–Baltic_Canal"
+    },
+    {
+      "matchText": "Nazi",
+      "term": "Nazi",
+      "wikiSlug": "Nazi_Germany"
+    },
+    {
+      "matchText": "Polish",
+      "term": "Polish",
+      "wikiSlug": "Polish_people"
+    },
+    {
+      "matchText": "Supreme Court",
+      "term": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States"
     }
   ],
   "9": [
@@ -1096,22 +1432,10 @@
       "type": "concept"
     },
     {
-      "term": "Russian Orthodox Church",
-      "matchText": "Russian Orthodox Church",
-      "wikiSlug": "Russian_Orthodox_Church",
-      "type": "institution"
-    },
-    {
       "term": "opium of the people",
       "matchText": "opium of the people",
       "wikiSlug": "Opium_of_the_people",
       "type": "concept"
-    },
-    {
-      "term": "League of Militant Godless",
-      "matchText": "League of Militant Godless",
-      "wikiSlug": "League_of_Militant_Atheists",
-      "type": "institution"
     },
     {
       "term": "Cathedral of Christ the Saviour",
@@ -1120,22 +1444,10 @@
       "type": "place"
     },
     {
-      "term": "Palace of the Soviets",
-      "matchText": "Palace of the Soviets",
-      "wikiSlug": "Palace_of_the_Soviets",
-      "type": "object"
-    },
-    {
       "term": "Zhenotdel",
       "matchText": "Zhenotdel",
       "wikiSlug": "Zhenotdel",
       "type": "institution"
-    },
-    {
-      "term": "korenizatsiya",
-      "matchText": "korenizatsiya",
-      "wikiSlug": "Korenizatsiia",
-      "type": "concept"
     },
     {
       "term": "Terry Martin",
@@ -1175,33 +1487,15 @@
       "type": "object"
     },
     {
-      "term": "Socialist Realism",
-      "matchText": "Socialist Realism",
-      "wikiSlug": "Socialist_realism",
-      "type": "concept"
-    },
-    {
       "term": "Maxim Gorky",
       "matchText": "Maxim Gorky",
       "wikiSlug": "Maxim_Gorky",
       "type": "person"
     },
     {
-      "term": "Union of Soviet Writers",
-      "matchText": "Union of Soviet Writers",
-      "wikiSlug": "Union_of_Soviet_Writers",
-      "type": "institution"
-    },
-    {
       "term": "Vladimir Mayakovsky",
       "matchText": "Vladimir Mayakovsky",
       "wikiSlug": "Vladimir_Mayakovsky",
-      "type": "person"
-    },
-    {
-      "term": "Osip Mandelstam",
-      "matchText": "Osip Mandelstam",
-      "wikiSlug": "Osip_Mandelstam",
       "type": "person"
     },
     {
@@ -1241,10 +1535,94 @@
       "type": "institution"
     },
     {
-      "term": "Semashko system",
-      "matchText": "Semashko system",
-      "wikiSlug": "Semashko_system",
-      "type": "institution"
+      "matchText": "Bolsheviks",
+      "term": "Bolsheviks",
+      "wikiSlug": "Bolsheviks"
+    },
+    {
+      "matchText": "Gulag",
+      "term": "Gulag",
+      "wikiSlug": "Gulag"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Lenin",
+      "term": "Lenin",
+      "wikiSlug": "Vladimir_Lenin"
+    },
+    {
+      "matchText": "Khrushchev",
+      "term": "Khrushchev",
+      "wikiSlug": "Nikita_Khrushchev"
+    },
+    {
+      "matchText": "Alexandra Kollontai",
+      "term": "Alexandra Kollontai",
+      "wikiSlug": "Alexandra_Kollontai"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Russification",
+      "term": "Russification",
+      "wikiSlug": "Russification"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin script",
+      "wikiSlug": "Latin_script"
+    },
+    {
+      "matchText": "Cyrillic",
+      "term": "Cyrillic",
+      "wikiSlug": "Cyrillic_script"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Kremlin",
+      "term": "Kremlin",
+      "wikiSlug": "Moscow_Kremlin"
+    },
+    {
+      "matchText": "Vladivostok",
+      "term": "Vladivostok",
+      "wikiSlug": "Vladivostok"
+    },
+    {
+      "matchText": "Leningrad",
+      "term": "Leningrad",
+      "wikiSlug": "Saint_Petersburg"
+    },
+    {
+      "matchText": "NKVD",
+      "term": "NKVD",
+      "wikiSlug": "NKVD"
+    },
+    {
+      "matchText": "Likbez",
+      "term": "Likbez",
+      "wikiSlug": "Likbez"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
+    },
+    {
+      "matchText": "Party",
+      "term": "Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
     }
   ],
   "10": [
@@ -1279,18 +1657,6 @@
       "type": "concept"
     },
     {
-      "term": "Spanish Civil War",
-      "matchText": "Spanish Civil War",
-      "wikiSlug": "Spanish_Civil_War",
-      "type": "concept"
-    },
-    {
-      "term": "International Brigades",
-      "matchText": "International Brigades",
-      "wikiSlug": "International_Brigades",
-      "type": "institution"
-    },
-    {
       "term": "George Orwell",
       "matchText": "George Orwell",
       "wikiSlug": "George_Orwell",
@@ -1301,12 +1667,6 @@
       "matchText": "Homage to Catalonia",
       "wikiSlug": "Homage_to_Catalonia",
       "type": "object"
-    },
-    {
-      "term": "Khalkhin Gol",
-      "matchText": "Khalkhin Gol",
-      "wikiSlug": "Battles_of_Khalkhin_Gol",
-      "type": "concept"
     },
     {
       "term": "Georgy Zhukov",
@@ -1345,12 +1705,6 @@
       "type": "place"
     },
     {
-      "term": "Katyn massacre",
-      "matchText": "Katyn massacre",
-      "wikiSlug": "Katyn_massacre",
-      "type": "concept"
-    },
-    {
       "term": "Winter War",
       "matchText": "Winter War",
       "wikiSlug": "Winter_War",
@@ -1379,15 +1733,79 @@
       "matchText": "appeased Hitler at Munich",
       "wikiSlug": "Munich_Agreement",
       "type": "concept"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "NKVD",
+      "term": "NKVD",
+      "wikiSlug": "NKVD"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Berlin",
+      "term": "Berlin",
+      "wikiSlug": "Berlin"
+    },
+    {
+      "matchText": "Lithuania",
+      "term": "Lithuania",
+      "wikiSlug": "Lithuania"
+    },
+    {
+      "matchText": "Ukrainians",
+      "term": "Ukrainians",
+      "wikiSlug": "Ukrainians"
+    },
+    {
+      "matchText": "Brest",
+      "term": "Brest",
+      "wikiSlug": "Brest,_Belarus"
+    },
+    {
+      "matchText": "Politburo",
+      "term": "Politburo",
+      "wikiSlug": "Politburo_of_the_Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Molotov–Ribbentrop Pact",
+      "term": "Molotov–Ribbentrop Pact",
+      "wikiSlug": "Molotov–Ribbentrop_Pact"
+    },
+    {
+      "matchText": "Polish",
+      "term": "Polish",
+      "definition": "Of or relating to Poland and its people, the Poles—a West Slavic nation in Central Europe. In this chapter the captured \"Polish officers\" are the men of the Polish state that the USSR and Nazi Germany jointly invaded and partitioned in September 1939."
+    },
+    {
+      "matchText": "Nazi",
+      "term": "Nazi",
+      "wikiSlug": "Nazi_Germany"
     }
   ],
   "11": [
-    {
-      "term": "Operation Barbarossa",
-      "matchText": "Operation Barbarossa",
-      "wikiSlug": "Operation_Barbarossa",
-      "type": "concept"
-    },
     {
       "term": "Great Patriotic War",
       "matchText": "Great Patriotic War",
@@ -1399,12 +1817,6 @@
       "matchText": "Lebensraum",
       "wikiSlug": "Lebensraum",
       "type": "concept"
-    },
-    {
-      "term": "Hunger Plan",
-      "matchText": "Hunger Plan",
-      "wikiSlug": "Hunger_Plan",
-      "type": "object"
     },
     {
       "term": "Kiev",
@@ -1447,18 +1859,6 @@
       "matchText": "Red Square",
       "wikiSlug": "Red_Square",
       "type": "place"
-    },
-    {
-      "term": "Richard Sorge",
-      "matchText": "Richard Sorge",
-      "wikiSlug": "Richard_Sorge",
-      "type": "person"
-    },
-    {
-      "term": "Zhukov",
-      "matchText": "General Zhukov",
-      "wikiSlug": "Georgy_Zhukov",
-      "type": "person"
     },
     {
       "term": "Wehrmacht",
@@ -1507,6 +1907,66 @@
       "matchText": "Molotov",
       "wikiSlug": "Vyacheslav_Molotov",
       "type": "person"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_states"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Nazi",
+      "term": "Nazi",
+      "wikiSlug": "Nazism"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Politburo",
+      "term": "Politburo",
+      "wikiSlug": "Politburo_of_the_Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Khrushchev",
+      "term": "Khrushchev",
+      "wikiSlug": "Nikita_Khrushchev"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Kursk",
+      "term": "Kursk",
+      "wikiSlug": "Battle_of_Kursk"
+    },
+    {
+      "matchText": "Petrograd",
+      "term": "Petrograd",
+      "wikiSlug": "Saint_Petersburg"
+    },
+    {
+      "matchText": "Khalkhin Gol",
+      "term": "Khalkhin Gol",
+      "wikiSlug": "Battles_of_Khalkhin_Gol"
+    },
+    {
+      "matchText": "Tokyo",
+      "term": "Tokyo",
+      "wikiSlug": "Tokyo"
     }
   ],
   "12": [
@@ -1515,18 +1975,6 @@
       "matchText": "Eastern Front",
       "wikiSlug": "Eastern_Front_(World_War_II)",
       "type": "concept"
-    },
-    {
-      "term": "Stalingrad",
-      "matchText": "Battle of Stalingrad",
-      "wikiSlug": "Battle_of_Stalingrad",
-      "type": "concept"
-    },
-    {
-      "term": "Order No. 227",
-      "matchText": "Order No. 227",
-      "wikiSlug": "Order_No._227",
-      "type": "object"
     },
     {
       "term": "penal battalions",
@@ -1556,12 +2004,6 @@
       "term": "Kursk",
       "matchText": "Kursk",
       "wikiSlug": "Battle_of_Kursk",
-      "type": "concept"
-    },
-    {
-      "term": "Operation Bagration",
-      "matchText": "Operation Bagration",
-      "wikiSlug": "Operation_Bagration",
       "type": "concept"
     },
     {
@@ -1619,12 +2061,6 @@
       "type": "concept"
     },
     {
-      "term": "filtration camps",
-      "matchText": "filtration camps",
-      "wikiSlug": "NKVD_filtration_camps",
-      "type": "concept"
-    },
-    {
       "term": "The Motherland Calls",
       "matchText": "The Motherland Calls",
       "wikiSlug": "The_Motherland_Calls",
@@ -1641,6 +2077,76 @@
       "matchText": "Putin's Russia",
       "wikiSlug": "Vladimir_Putin",
       "type": "person"
+    },
+    {
+      "matchText": "Korean War",
+      "term": "Korean War",
+      "wikiSlug": "Korean_War"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Hitler",
+      "term": "Hitler",
+      "wikiSlug": "Adolf_Hitler"
+    },
+    {
+      "matchText": "Belarus",
+      "term": "Belarus",
+      "wikiSlug": "Belarus"
+    },
+    {
+      "matchText": "Winter Palace",
+      "term": "Winter Palace",
+      "wikiSlug": "Winter_Palace"
+    },
+    {
+      "matchText": "Allied",
+      "term": "Allied (World War II)",
+      "wikiSlug": "Allies_of_World_War_II"
+    },
+    {
+      "matchText": "Great Patriotic War",
+      "term": "Great Patriotic War",
+      "wikiSlug": "Eastern_Front_(World_War_II)"
+    },
+    {
+      "matchText": "Warsaw",
+      "term": "Warsaw",
+      "wikiSlug": "Warsaw"
+    },
+    {
+      "matchText": "Budapest",
+      "term": "Budapest",
+      "wikiSlug": "Budapest"
+    },
+    {
+      "matchText": "Gulag",
+      "term": "Gulag",
+      "wikiSlug": "Gulag"
     }
   ],
   "13": [
@@ -1663,22 +2169,10 @@
       "type": "concept"
     },
     {
-      "term": "Potsdam",
-      "matchText": "Potsdam",
-      "wikiSlug": "Potsdam_Conference",
-      "type": "concept"
-    },
-    {
       "term": "Non-Aligned Movement",
       "matchText": "Non-Aligned Movement",
       "wikiSlug": "Non-Aligned_Movement",
       "type": "institution"
-    },
-    {
-      "term": "Tito",
-      "matchText": "Tito's Yugoslavia",
-      "wikiSlug": "Josip_Broz_Tito",
-      "type": "person"
     },
     {
       "term": "Nasser",
@@ -1699,18 +2193,6 @@
       "type": "concept"
     },
     {
-      "term": "Iron Curtain",
-      "matchText": "Iron Curtain",
-      "wikiSlug": "Iron_Curtain",
-      "type": "concept"
-    },
-    {
-      "term": "COMECON",
-      "matchText": "COMECON",
-      "wikiSlug": "Comecon",
-      "type": "institution"
-    },
-    {
       "term": "Marshall Plan",
       "matchText": "Marshall Plan",
       "wikiSlug": "Marshall_Plan",
@@ -1721,12 +2203,6 @@
       "matchText": "Warsaw Pact",
       "wikiSlug": "Warsaw_Pact",
       "type": "institution"
-    },
-    {
-      "term": "Berlin Airlift",
-      "matchText": "Berlin Airlift",
-      "wikiSlug": "Berlin_Blockade",
-      "type": "concept"
     },
     {
       "term": "German Democratic Republic",
@@ -1759,34 +2235,16 @@
       "type": "person"
     },
     {
-      "term": "Zhdanovshchina",
-      "matchText": "Zhdanovshchina",
-      "wikiSlug": "Zhdanov_Doctrine",
-      "type": "concept"
-    },
-    {
       "term": "Trofim Lysenko",
       "matchText": "Trofim Lysenko",
       "wikiSlug": "Trofim_Lysenko",
       "type": "person"
     },
     {
-      "term": "Lysenkoism",
-      "matchText": "Lysenkoism",
-      "wikiSlug": "Lysenkoism",
-      "type": "concept"
-    },
-    {
       "term": "Nikolai Vavilov",
       "matchText": "Nikolai Vavilov",
       "wikiSlug": "Nikolai_Vavilov",
       "type": "person"
-    },
-    {
-      "term": "Jewish Anti-Fascist Committee",
-      "matchText": "Jewish Anti-Fascist Committee",
-      "wikiSlug": "Jewish_Anti-Fascist_Committee",
-      "type": "institution"
     },
     {
       "term": "Leningrad Affair",
@@ -1799,6 +2257,51 @@
       "matchText": "Doctors' Plot",
       "wikiSlug": "Doctors'_plot",
       "type": "concept"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Red Army",
+      "term": "Red Army",
+      "wikiSlug": "Red_Army"
+    },
+    {
+      "matchText": "Mátyás Rákosi",
+      "term": "Mátyás Rákosi",
+      "wikiSlug": "Mátyás_Rákosi"
+    },
+    {
+      "matchText": "Adriatic",
+      "term": "Adriatic",
+      "wikiSlug": "Adriatic_Sea"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Elbe",
+      "term": "Elbe",
+      "wikiSlug": "Elbe"
+    },
+    {
+      "matchText": "Kremlin",
+      "term": "Kremlin",
+      "wikiSlug": "Moscow_Kremlin"
+    },
+    {
+      "matchText": "Tito–Stalin split",
+      "term": "Tito–Stalin split",
+      "wikiSlug": "Tito–Stalin_split"
+    },
+    {
+      "matchText": "Czechoslovakia",
+      "term": "Czechoslovakia",
+      "wikiSlug": "Czechoslovakia"
     }
   ],
   "14": [
@@ -1809,21 +2312,9 @@
       "type": "concept"
     },
     {
-      "term": "Ilya Ehrenburg",
-      "matchText": "Ilya Ehrenburg",
-      "wikiSlug": "Ilya_Ehrenburg",
-      "type": "person"
-    },
-    {
       "term": "Georgy Malenkov",
       "matchText": "Georgy Malenkov",
       "wikiSlug": "Georgy_Malenkov",
-      "type": "person"
-    },
-    {
-      "term": "Lavrenty Beria",
-      "matchText": "Lavrenty Beria",
-      "wikiSlug": "Lavrentiy_Beria",
       "type": "person"
     },
     {
@@ -1836,12 +2327,6 @@
       "term": "Marshal Zhukov",
       "matchText": "Marshal Zhukov",
       "wikiSlug": "Georgy_Zhukov",
-      "type": "person"
-    },
-    {
-      "term": "Nikita Khrushchev",
-      "matchText": "Nikita Khrushchev",
-      "wikiSlug": "Nikita_Khrushchev",
       "type": "person"
     },
     {
@@ -1881,24 +2366,6 @@
       "type": "object"
     },
     {
-      "term": "Alexander Tvardovsky",
-      "matchText": "Alexander Tvardovsky",
-      "wikiSlug": "Alexander_Tvardovsky",
-      "type": "person"
-    },
-    {
-      "term": "One Day in the Life of Ivan Denisovich",
-      "matchText": "One Day in the Life of Ivan Denisovich",
-      "wikiSlug": "One_Day_in_the_Life_of_Ivan_Denisovich",
-      "type": "object"
-    },
-    {
-      "term": "Polish October",
-      "matchText": "Polish October",
-      "wikiSlug": "Polish_October",
-      "type": "concept"
-    },
-    {
       "term": "Imre Nagy",
       "matchText": "Imre Nagy",
       "wikiSlug": "Imre_Nagy",
@@ -1933,6 +2400,56 @@
       "matchText": "Hungary",
       "wikiSlug": "Hungarian_People's_Republic",
       "type": "place"
+    },
+    {
+      "matchText": "Crimean Tatars",
+      "term": "Crimean Tatars",
+      "wikiSlug": "Crimean_Tatars"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
+    },
+    {
+      "matchText": "Kremlin",
+      "term": "Kremlin",
+      "wikiSlug": "Moscow_Kremlin"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Komsomol",
+      "term": "Komsomol",
+      "wikiSlug": "Komsomol"
+    },
+    {
+      "matchText": "Volga Germans",
+      "term": "Volga Germans",
+      "wikiSlug": "Volga_Germans"
+    },
+    {
+      "matchText": "Aleksandr Solzhenitsyn",
+      "term": "Aleksandr Solzhenitsyn",
+      "wikiSlug": "Aleksandr_Solzhenitsyn"
+    },
+    {
+      "matchText": "Hungarian",
+      "term": "Hungarian",
+      "wikiSlug": "Hungarians"
     }
   ],
   "15": [
@@ -1955,76 +2472,16 @@
       "type": "institution"
     },
     {
-      "term": "Laika",
-      "matchText": "Laika",
-      "wikiSlug": "Laika",
-      "type": "concept"
-    },
-    {
-      "term": "Luna",
-      "matchText": "Luna",
-      "wikiSlug": "Luna_programme",
-      "type": "object"
-    },
-    {
-      "term": "Yuri Gagarin",
-      "matchText": "Yuri Gagarin",
-      "wikiSlug": "Yuri_Gagarin",
-      "type": "person"
-    },
-    {
-      "term": "Valentina Tereshkova",
-      "matchText": "Valentina Tereshkova",
-      "wikiSlug": "Valentina_Tereshkova",
-      "type": "person"
-    },
-    {
       "term": "Chief Designer",
       "matchText": "Chief Designer",
       "wikiSlug": "Sergei_Korolev",
       "type": "concept"
     },
     {
-      "term": "Sergei Korolev",
-      "matchText": "Sergei Korolev",
-      "wikiSlug": "Sergei_Korolev",
-      "type": "person"
-    },
-    {
-      "term": "N1 Moon rocket",
-      "matchText": "N1 Moon rocket",
-      "wikiSlug": "N1_(rocket)",
-      "type": "object"
-    },
-    {
-      "term": "Vladimir Komarov",
-      "matchText": "Vladimir Komarov",
-      "wikiSlug": "Vladimir_Komarov",
-      "type": "person"
-    },
-    {
       "term": "Soyuz 1",
       "matchText": "Soyuz 1",
       "wikiSlug": "Soyuz_1",
       "type": "object"
-    },
-    {
-      "term": "Novocherkassk",
-      "matchText": "Novocherkassk",
-      "wikiSlug": "Novocherkassk_massacre",
-      "type": "place"
-    },
-    {
-      "term": "Berlin Wall",
-      "matchText": "Berlin Wall",
-      "wikiSlug": "Berlin_Wall",
-      "type": "object"
-    },
-    {
-      "term": "Cuban Missile Crisis",
-      "matchText": "Cuban Missile Crisis",
-      "wikiSlug": "Cuban_Missile_Crisis",
-      "type": "concept"
     },
     {
       "term": "Fidel Castro",
@@ -2045,59 +2502,83 @@
       "type": "person"
     },
     {
-      "term": "Partial Nuclear Test Ban Treaty",
-      "matchText": "Partial Nuclear Test Ban Treaty",
-      "wikiSlug": "Partial_Nuclear_Test_Ban_Treaty",
-      "type": "object"
-    },
-    {
-      "term": "Tsar Bomba",
-      "matchText": "Tsar Bomba",
-      "wikiSlug": "Tsar_Bomba",
-      "type": "object"
-    },
-    {
-      "term": "Sino-Soviet split",
-      "matchText": "Sino-Soviet split",
-      "wikiSlug": "Sino-Soviet_split",
-      "type": "concept"
-    },
-    {
       "term": "Mao Zedong",
       "matchText": "Mao Zedong",
       "wikiSlug": "Mao_Zedong",
       "type": "person"
     },
     {
-      "term": "Virgin Lands Campaign",
-      "matchText": "Virgin Lands Campaign",
-      "wikiSlug": "Virgin_Lands_campaign",
-      "type": "concept"
-    },
-    {
       "term": "sovnarkhozy",
       "matchText": "sovnarkhozy",
       "wikiSlug": "Regional_Economic_Council",
       "type": "institution"
+    },
+    {
+      "matchText": "Kolyma",
+      "term": "Kolyma",
+      "wikiSlug": "Kolyma"
+    },
+    {
+      "matchText": "Gulag",
+      "term": "Gulag",
+      "wikiSlug": "Gulag"
+    },
+    {
+      "matchText": "Thaw",
+      "term": "Thaw",
+      "wikiSlug": "Khrushchev_Thaw"
+    },
+    {
+      "matchText": "Cuba",
+      "term": "Cuba",
+      "wikiSlug": "Cuba"
+    },
+    {
+      "matchText": "Cold War",
+      "term": "Cold War",
+      "wikiSlug": "Cold_War"
+    },
+    {
+      "matchText": "Khrushchev",
+      "term": "Khrushchev",
+      "wikiSlug": "Nikita_Khrushchev"
+    },
+    {
+      "matchText": "Communism",
+      "term": "Communism",
+      "wikiSlug": "Communism"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
+    },
+    {
+      "matchText": "Party",
+      "term": "Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
     }
   ],
   "16": [
     {
-      "term": "Leonid Brezhnev",
-      "matchText": "Leonid Brezhnev",
-      "wikiSlug": "Leonid_Brezhnev",
-      "type": "person"
-    },
-    {
       "term": "developed socialism",
       "matchText": "developed socialism",
       "wikiSlug": "Developed_socialism",
-      "type": "concept"
-    },
-    {
-      "term": "Era of Stagnation",
-      "matchText": "Era of Stagnation",
-      "wikiSlug": "Era_of_Stagnation",
       "type": "concept"
     },
     {
@@ -2113,12 +2594,6 @@
       "type": "concept"
     },
     {
-      "term": "Kosygin reform",
-      "matchText": "Kosygin reform",
-      "wikiSlug": "1965_Soviet_economic_reform",
-      "type": "concept"
-    },
-    {
       "term": "Alexei Kosygin",
       "matchText": "Alexei Kosygin",
       "wikiSlug": "Alexei_Kosygin",
@@ -2129,18 +2604,6 @@
       "matchText": "hard currency",
       "wikiSlug": "Hard_currency",
       "type": "concept"
-    },
-    {
-      "term": "great grain deal",
-      "matchText": "great grain deal",
-      "wikiSlug": "Great_Grain_Robbery",
-      "type": "concept"
-    },
-    {
-      "term": "Khrushchyovka",
-      "matchText": "Khrushchyovka",
-      "wikiSlug": "Khrushchyovka",
-      "type": "object"
     },
     {
       "term": "blat",
@@ -2161,34 +2624,10 @@
       "type": "person"
     },
     {
-      "term": "Brezhnev Doctrine",
-      "matchText": "Brezhnev Doctrine",
-      "wikiSlug": "Brezhnev_Doctrine",
-      "type": "concept"
-    },
-    {
-      "term": "Eurocommunism",
-      "matchText": "Eurocommunism",
-      "wikiSlug": "Eurocommunism",
-      "type": "concept"
-    },
-    {
-      "term": "Ussuri River",
-      "matchText": "Ussuri River",
-      "wikiSlug": "Sino-Soviet_border_conflict",
-      "type": "place"
-    },
-    {
       "term": "détente",
       "matchText": "the cautious early-1970s thaw with the West",
       "wikiSlug": "Détente",
       "type": "concept"
-    },
-    {
-      "term": "SALT I",
-      "matchText": "SALT I",
-      "wikiSlug": "Strategic_Arms_Limitation_Talks",
-      "type": "object"
     },
     {
       "term": "Ostpolitik",
@@ -2197,27 +2636,9 @@
       "type": "concept"
     },
     {
-      "term": "Apollo-Soyuz",
-      "matchText": "docking in 1975",
-      "wikiSlug": "Apollo–Soyuz",
-      "type": "concept"
-    },
-    {
-      "term": "Helsinki Accords",
-      "matchText": "Helsinki Accords",
-      "wikiSlug": "Helsinki_Accords",
-      "type": "object"
-    },
-    {
       "term": "SALT II",
       "matchText": "SALT II",
       "wikiSlug": "SALT_II",
-      "type": "object"
-    },
-    {
-      "term": "Brezhnev Constitution",
-      "matchText": "Brezhnev Constitution",
-      "wikiSlug": "1977_Soviet_Constitution",
       "type": "object"
     },
     {
@@ -2225,6 +2646,56 @@
       "matchText": "leading role",
       "wikiSlug": "Leading_role_of_the_party",
       "type": "concept"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Khrushchev",
+      "term": "Khrushchev",
+      "wikiSlug": "Nikita_Khrushchev"
+    },
+    {
+      "matchText": "Party committee",
+      "term": "Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Russians",
+      "term": "Russians",
+      "wikiSlug": "Russians"
+    },
+    {
+      "matchText": "Czechoslovakia",
+      "term": "Czechoslovakia",
+      "wikiSlug": "Czechoslovakia"
+    },
+    {
+      "matchText": "Warsaw Pact",
+      "term": "Warsaw Pact",
+      "wikiSlug": "Warsaw_Pact"
+    },
+    {
+      "matchText": "Communism",
+      "term": "Communism",
+      "wikiSlug": "Communism"
+    },
+    {
+      "matchText": "Apollo–Soyuz",
+      "term": "Apollo–Soyuz",
+      "wikiSlug": "Apollo–Soyuz"
+    },
+    {
+      "matchText": "Communist Party",
+      "term": "Communist Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
     }
   ],
   "17": [
@@ -2253,12 +2724,6 @@
       "type": "concept"
     },
     {
-      "term": "Vladimir Vysotsky",
-      "matchText": "Vladimir Vysotsky",
-      "wikiSlug": "Vladimir_Vysotsky",
-      "type": "person"
-    },
-    {
       "term": "Andrei Sinyavsky",
       "matchText": "Andrei Sinyavsky",
       "wikiSlug": "Andrei_Sinyavsky",
@@ -2277,12 +2742,6 @@
       "type": "concept"
     },
     {
-      "term": "Chronicle of Current Events",
-      "matchText": "Chronicle of Current Events",
-      "wikiSlug": "A_Chronicle_of_Current_Events",
-      "type": "object"
-    },
-    {
       "term": "Helsinki Groups",
       "matchText": "Helsinki Groups",
       "wikiSlug": "Moscow_Helsinki_Group",
@@ -2295,12 +2754,6 @@
       "type": "person"
     },
     {
-      "term": "The Gulag Archipelago",
-      "matchText": "The Gulag Archipelago",
-      "wikiSlug": "The_Gulag_Archipelago",
-      "type": "object"
-    },
-    {
       "term": "Andrei Sakharov",
       "matchText": "Andrei Sakharov",
       "wikiSlug": "Andrei_Sakharov",
@@ -2311,24 +2764,6 @@
       "matchText": "Soviet hydrogen bomb",
       "wikiSlug": "RDS-6s",
       "type": "object"
-    },
-    {
-      "term": "Nobel Peace Prize",
-      "matchText": "Nobel Peace Prize",
-      "wikiSlug": "Nobel_Peace_Prize",
-      "type": "concept"
-    },
-    {
-      "term": "Gorky",
-      "matchText": "the closed city of Gorky",
-      "wikiSlug": "Nizhny_Novgorod",
-      "type": "place"
-    },
-    {
-      "term": "punitive psychiatry",
-      "matchText": "punitive psychiatry",
-      "wikiSlug": "Political_abuse_of_psychiatry_in_the_Soviet_Union",
-      "type": "concept"
     },
     {
       "term": "sluggish schizophrenia",
@@ -2349,16 +2784,65 @@
       "type": "person"
     },
     {
-      "term": "refuseniks",
-      "matchText": "refuseniks",
-      "wikiSlug": "Refusenik",
-      "type": "people"
-    },
-    {
       "term": "parasitism",
       "matchText": "parasitism",
       "wikiSlug": "Social_parasitism_(offense)",
       "type": "concept"
+    },
+    {
+      "matchText": "Brezhnev",
+      "term": "Brezhnev",
+      "wikiSlug": "Leonid_Brezhnev"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Thaw",
+      "term": "Thaw",
+      "wikiSlug": "Khrushchev_Thaw"
+    },
+    {
+      "matchText": "Helsinki Accords",
+      "term": "Helsinki Accords",
+      "wikiSlug": "Helsinki_Accords"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Berlin Wall",
+      "term": "Berlin Wall",
+      "wikiSlug": "Berlin_Wall"
+    },
+    {
+      "matchText": "Holodomor",
+      "term": "Holodomor",
+      "wikiSlug": "Holodomor"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Baltics",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_states"
+    },
+    {
+      "matchText": "Memorial",
+      "term": "Memorial",
+      "wikiSlug": "Memorial_(society)"
+    },
+    {
+      "matchText": "Party",
+      "term": "Party",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
     }
   ],
   "18": [
@@ -2375,22 +2859,10 @@
       "type": "people"
     },
     {
-      "term": "Indo-Soviet Treaty",
-      "matchText": "Indo-Soviet Treaty",
-      "wikiSlug": "Indo-Soviet_Treaty_of_Friendship_and_Cooperation",
-      "type": "object"
-    },
-    {
       "term": "Bangladesh",
       "matchText": "Bangladesh",
       "wikiSlug": "Bangladesh_Liberation_War",
       "type": "place"
-    },
-    {
-      "term": "1980 Moscow Olympics",
-      "matchText": "1980 Moscow Olympics",
-      "wikiSlug": "1980_Summer_Olympics_boycott",
-      "type": "concept"
     },
     {
       "term": "SALT II",
@@ -2411,24 +2883,6 @@
       "type": "concept"
     },
     {
-      "term": "Strategic Defense Initiative",
-      "matchText": "Strategic Defense Initiative",
-      "wikiSlug": "Strategic_Defense_Initiative",
-      "type": "object"
-    },
-    {
-      "term": "Korean Air Lines Flight 007",
-      "matchText": "Korean Air Lines Flight 007",
-      "wikiSlug": "Korean_Air_Lines_Flight_007",
-      "type": "concept"
-    },
-    {
-      "term": "Able Archer 83",
-      "matchText": "Able Archer 83",
-      "wikiSlug": "Able_Archer_83",
-      "type": "concept"
-    },
-    {
       "term": "Oleg Gordievsky",
       "matchText": "Oleg Gordievsky",
       "wikiSlug": "Oleg_Gordievsky",
@@ -2438,18 +2892,6 @@
       "term": "Brezhnev",
       "matchText": "Brezhnev",
       "wikiSlug": "Leonid_Brezhnev",
-      "type": "person"
-    },
-    {
-      "term": "Yuri Andropov",
-      "matchText": "Yuri Andropov",
-      "wikiSlug": "Yuri_Andropov",
-      "type": "person"
-    },
-    {
-      "term": "Konstantin Chernenko",
-      "matchText": "Konstantin Chernenko",
-      "wikiSlug": "Konstantin_Chernenko",
       "type": "person"
     },
     {
@@ -2471,12 +2913,6 @@
       "type": "concept"
     },
     {
-      "term": "Mikhail Gorbachev",
-      "matchText": "Mikhail Gorbachev",
-      "wikiSlug": "Mikhail_Gorbachev",
-      "type": "person"
-    },
-    {
       "term": "Vietnam",
       "matchText": "USSR's Vietnam",
       "wikiSlug": "Vietnam_War",
@@ -2487,6 +2923,16 @@
       "matchText": "Pakistan",
       "wikiSlug": "Pakistan",
       "type": "place"
+    },
+    {
+      "matchText": "Politburo",
+      "term": "Politburo",
+      "wikiSlug": "Politburo_of_the_Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Afghan",
+      "term": "Afghan",
+      "wikiSlug": "Afghans"
     }
   ],
   "19": [
@@ -2495,13 +2941,6 @@
       "matchText": "Mikhail Gorbachev",
       "wikiSlug": "Mikhail_Gorbachev",
       "type": "person"
-    },
-    {
-      "term": "anti-alcohol campaign",
-      "matchText": "anti-alcohol campaign",
-      "wikiSlug": "",
-      "type": "concept",
-      "definition": "Mikhail Gorbachev's 1985–87 drive to slash Soviet drinking, which by the 1980s was among the world's heaviest and was actually dragging down male life expectancy. It cut consumption but also gutted state revenue and bred resentment."
     },
     {
       "term": "uskorenie",
@@ -2522,18 +2961,6 @@
       "type": "concept"
     },
     {
-      "term": "Law on Cooperatives",
-      "matchText": "Law on Cooperatives",
-      "wikiSlug": "Law_on_Cooperatives",
-      "type": "object"
-    },
-    {
-      "term": "500 Days Programme",
-      "matchText": "500 Days Programme",
-      "wikiSlug": "500_Days",
-      "type": "object"
-    },
-    {
       "term": "Chernobyl",
       "matchText": "Chernobyl",
       "wikiSlug": "Chernobyl_disaster",
@@ -2552,48 +2979,6 @@
       "type": "object"
     },
     {
-      "term": "Revolutions of 1989",
-      "matchText": "Revolutions of 1989",
-      "wikiSlug": "Revolutions_of_1989",
-      "type": "concept"
-    },
-    {
-      "term": "Solidarity",
-      "matchText": "Solidarity",
-      "wikiSlug": "Solidarity_(Polish_trade_union)",
-      "type": "institution"
-    },
-    {
-      "term": "Berlin Wall",
-      "matchText": "Berlin Wall",
-      "wikiSlug": "Berlin_Wall",
-      "type": "object"
-    },
-    {
-      "term": "Germany reunified",
-      "matchText": "Germany reunified",
-      "wikiSlug": "German_reunification",
-      "type": "concept"
-    },
-    {
-      "term": "Baltic Way",
-      "matchText": "Baltic Way",
-      "wikiSlug": "Baltic_Way",
-      "type": "concept"
-    },
-    {
-      "term": "Nagorno-Karabakh",
-      "matchText": "Nagorno-Karabakh",
-      "wikiSlug": "First_Nagorno-Karabakh_War",
-      "type": "place"
-    },
-    {
-      "term": "Congress of People's Deputies",
-      "matchText": "Congress of People's Deputies",
-      "wikiSlug": "Congress_of_People's_Deputies_of_the_Soviet_Union",
-      "type": "institution"
-    },
-    {
       "term": "Boris Yeltsin",
       "matchText": "Boris Yeltsin",
       "wikiSlug": "Boris_Yeltsin",
@@ -2604,12 +2989,6 @@
       "matchText": "parade of sovereignties",
       "wikiSlug": "Parade_of_sovereignties",
       "type": "concept"
-    },
-    {
-      "term": "President of the USSR",
-      "matchText": "President of the USSR",
-      "wikiSlug": "President_of_the_Soviet_Union",
-      "type": "institution"
     },
     {
       "term": "Tallinn",
@@ -2624,36 +3003,98 @@
       "type": "place"
     },
     {
-      "term": "Sakharov",
-      "matchText": "Sakharov, recalled from exile",
-      "wikiSlug": "Andrei_Sakharov",
-      "type": "person"
-    },
-    {
       "term": "Perestroika",
       "matchText": "perestroika",
       "wikiSlug": "Perestroika",
       "type": "concept"
+    },
+    {
+      "matchText": "Cold War",
+      "term": "Cold War",
+      "wikiSlug": "Cold_War"
+    },
+    {
+      "matchText": "Russians",
+      "term": "Russians",
+      "wikiSlug": "Russians"
+    },
+    {
+      "matchText": "Gulag",
+      "term": "Gulag",
+      "wikiSlug": "Gulag"
+    },
+    {
+      "matchText": "Holodomor",
+      "term": "Holodomor",
+      "wikiSlug": "Holodomor"
+    },
+    {
+      "matchText": "Hitler",
+      "term": "Adolf Hitler",
+      "wikiSlug": "Adolf_Hitler"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Joseph Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Secret Speech",
+      "term": "Secret Speech",
+      "wikiSlug": "On_the_Cult_of_Personality_and_Its_Consequences"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Brezhnev Doctrine",
+      "term": "Brezhnev Doctrine",
+      "wikiSlug": "Brezhnev_Doctrine"
+    },
+    {
+      "matchText": "Nobel Peace Prize",
+      "term": "Nobel Peace Prize",
+      "wikiSlug": "Nobel_Peace_Prize"
+    },
+    {
+      "matchText": "Molotov",
+      "term": "Vyacheslav Molotov",
+      "wikiSlug": "Vyacheslav_Molotov"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Communist Party",
+      "term": "Communist Party of the Soviet Union",
+      "wikiSlug": "Communist_Party_of_the_Soviet_Union"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
     }
   ],
   "20": [
-    {
-      "term": "Novo-Ogaryovo process",
-      "matchText": "Novo-Ogaryovo process",
-      "wikiSlug": "New_Union_Treaty",
-      "type": "concept"
-    },
     {
       "term": "Union Treaty",
       "matchText": "Union Treaty",
       "wikiSlug": "New_Union_Treaty",
       "type": "object"
-    },
-    {
-      "term": "August Coup",
-      "matchText": "August Coup",
-      "wikiSlug": "1991_Soviet_coup_d'état_attempt",
-      "type": "concept"
     },
     {
       "term": "State Committee for the State of Emergency",
@@ -2680,12 +3121,6 @@
       "type": "person"
     },
     {
-      "term": "Communist Party of the Soviet Union",
-      "matchText": "Communist Party of the Soviet Union",
-      "wikiSlug": "Communist_Party_of_the_Soviet_Union",
-      "type": "institution"
-    },
-    {
       "term": "Ukraine",
       "matchText": "Ukraine",
       "wikiSlug": "Ukraine",
@@ -2704,12 +3139,6 @@
       "type": "place"
     },
     {
-      "term": "Belovezha Accords",
-      "matchText": "Belovezha Accords",
-      "wikiSlug": "Belovezha_Accords",
-      "type": "object"
-    },
-    {
       "term": "Commonwealth of Independent States",
       "matchText": "Commonwealth of Independent States",
       "wikiSlug": "Commonwealth_of_Independent_States",
@@ -2722,22 +3151,10 @@
       "type": "person"
     },
     {
-      "term": "Alma-Ata",
-      "matchText": "Alma-Ata",
-      "wikiSlug": "Alma-Ata_Protocol",
-      "type": "concept"
-    },
-    {
       "term": "Gorbachev",
       "matchText": "Mikhail Gorbachev",
       "wikiSlug": "Mikhail_Gorbachev",
       "type": "person"
-    },
-    {
-      "term": "hammer and sickle",
-      "matchText": "hammer and sickle",
-      "wikiSlug": "Hammer_and_sickle",
-      "type": "object"
     },
     {
       "term": "Vladimir Putin",
@@ -2774,6 +3191,66 @@
       "matchText": "Belarus",
       "wikiSlug": "Belarus",
       "type": "place"
+    },
+    {
+      "matchText": "European Union",
+      "term": "European Union",
+      "wikiSlug": "European_Union"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Kremlin",
+      "term": "Kremlin",
+      "wikiSlug": "Moscow_Kremlin"
+    },
+    {
+      "matchText": "Gulag",
+      "term": "Gulag",
+      "wikiSlug": "Gulag"
+    },
+    {
+      "matchText": "Cold War",
+      "term": "Cold War",
+      "wikiSlug": "Cold_War"
+    },
+    {
+      "matchText": "Stalin",
+      "term": "Stalin",
+      "wikiSlug": "Joseph_Stalin"
+    },
+    {
+      "matchText": "Moldova",
+      "term": "Moldova",
+      "wikiSlug": "Moldova"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_states"
+    },
+    {
+      "matchText": "Lithuania",
+      "term": "Lithuania",
+      "wikiSlug": "Lithuania"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Terror",
+      "term": "Terror",
+      "wikiSlug": "Great_Purge"
     }
   ]
 }

@@ -39,6 +39,23 @@
       "blurb": "1917 is the fuse the imperial narrative ended on reaching the powder — the Romanov collapse the Soviet story grows from."
     }
   ],
+  "3": [],
+  "4": [
+    {
+      "matchText": "Meiji Japan",
+      "targetTl": "meiji-japan",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Meiji Japan: the state ran its own deliberate, temporary tolerance of private enterprise as a transitional tool — building pilot factories with state money, then selling them off to private owners (the future industrial combines) before squeezing the countryside to pay for heavy industry."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Cold War",
+      "targetTl": "korean-modern",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Korea: the Cold War split the peninsula in two and ignited the Korean War, the first hot proxy fight of the superpower standoff."
+    }
+  ],
   "6": [
     {
       "matchText": "the Irish Famine",
@@ -67,14 +84,27 @@
       "blurb": "Stalin's 'furnace' compressed Britain's century of industrialization into a decade of coerced, state-driven heavy industry — the dark mirror of the developmental state."
     }
   ],
+  "8": [],
+  "9": [],
+  "10": [],
+  "11": [],
+  "12": [],
   "13": [
     {
       "matchText": "newly independent India under Nehru refused to join either camp",
       "targetTl": "modern-india",
       "targetChapter": 6,
       "blurb": "While Europe froze into two blocs, Nehru's India led the Non-Aligned Movement with Tito and Nasser, a third pole of post-colonial states that took neither NATO nor Warsaw Pact membership yet accepted Soviet industrial collaboration. The modern-India narrative tells the story of that sophisticated triangulation from Delhi's side."
+    },
+    {
+      "matchText": "People's Republic",
+      "targetTl": "chinese-revolution",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in China: in 1949 Mao's Communists won their civil war and proclaimed the People's Republic, briefly seeming to extend the Communist world from the Elbe to the Pacific."
     }
   ],
+  "14": [],
+  "15": [],
   "16": [
     {
       "matchText": "two planned economies, one buffered and one squeezed by the same price",
@@ -83,6 +113,7 @@
       "blurb": "The 1973 oil shock that briefly enriched the petro-fattened USSR pushed oil-importing, state-planned India deeper into difficulty and toward closer partnership with Moscow. The modern-India narrative follows the Indira years, the Indo-Soviet Treaty, and two planned economies drawn together by the same price that buffered one and squeezed the other."
     }
   ],
+  "17": [],
   "18": [
     {
       "matchText": "Soviet diplomatic and military backing of India, formalized in the Indo-Soviet Treaty",
@@ -99,6 +130,5 @@
       "blurb": "In 1991, the same year the USSR dissolved, India hit its own balance-of-payments wall and began dismantling the Soviet-influenced planning model in favor of the market. The modern-India narrative covers the 1991 crisis and Manmohan Singh's liberalization: the template and its abandonment moved together across the same year."
     }
   ],
-  "20": [
-  ]
+  "20": []
 }
