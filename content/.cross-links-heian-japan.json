@@ -47,6 +47,60 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 7,
       "blurb": "Heian's elaborate court ceremonial and rank-obsession is the East Asian sibling of Byzantine palace ritual — power as performed hierarchy."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world, the Abbasids were laying out Baghdad as a round cosmological city — a capital built, like Heian-kyo, to make a political argument in architecture."
+    },
+    {
+      "matchText": "Abbasids",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world, the Abbasid caliphate had moved its capital to Baghdad and was entering the brilliant stretch later called the Islamic Golden Age."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Islamic world, the Abbasid caliphate under Harun al-Rashid stood at its height — the contemporary peak of one of the great early-medieval capitals."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world, the Abbasid era of science, translation, and wealth was running at full tilt while Kammu built his capital in the east."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in China, the Tang dynasty Kammu was copying had already been cracked by the An Lushan rebellion and was sliding toward the collapse that would leave Japan modeling itself on a vanished civilization."
+    },
+    {
+      "matchText": "Carolingian moment",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Western Europe, Charlemagne's Carolingian empire briefly reconstituted Roman rule — an empire that would fragment within fifty years and whose seams the Vikings would soon exploit."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, the Wari and Tiwanaku empires were running parallel imperial projects across the highlands of South America."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, the Wari ran a road-and-administration empire from their highland capital — a contemporary of early Heian Japan with no knowledge of it."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, Tiwanaku built a monumental ceremonial city near Lake Titicaca, the southern counterpart to the Wari in the same Middle Horizon."
     }
   ],
   "2": [
@@ -85,6 +139,60 @@
       "targetTl": "ancient-korea",
       "targetChapter": 7,
       "blurb": "The continental Buddhism they reimported still flowed through the Korea-China channel that had carried it for centuries."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Byzantine Empire, monasticism had its own great centers — Mount Athos and the Studite house in Constantinople — that anchored Eastern Christian spiritual life the way Hiei and Koya anchored Japan's."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Tang China, Chang'an was the cosmopolitan imperial capital and the world's largest city — the model on which Heian-kyo was laid out, and the place Kukai went to study esoteric Buddhism."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, the sacred language of the mantras Kukai chanted was Sanskrit — the ancient liturgical tongue of India, whose oldest layer is the Vedic hymns composed more than two thousand years earlier."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, the historical Buddha had been a renunciant teacher in northern India in the 5th century BCE, one of the spiritual rebels who broke from the older Vedic sacrificial order."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, centuries later the Mongol Yuan dynasty of Kublai Khan would adopt Tibetan Vajrayana Buddhism as a state faith — the same esoteric technology Kukai had carried to Japan, taking a different route across Asia."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Tang China, court taste was built on Confucian classical models — the aesthetic backdrop against which the Heian court's mikkyo-inflected sensibility looks so distinctive."
+    },
+    {
+      "matchText": "Meiji",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, a thousand years later the Meiji government would forcibly tear Shinto and Buddhism apart in 1868, ending the syncretism that Saicho and Kukai's era helped create."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Abbasid world, the Caliphate tolerated minority religions under the dhimmi model — permitted, but framed as inferior to Islam — a coexistence very different from Heian Japan's blended kami-and-Buddhas synthesis."
+    },
+    {
+      "matchText": "Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Korea, the Silla kingdom was patronizing its own Buddhist schools, and Korean monks were among the teachers Saicho and Kukai met in China."
     }
   ],
   "3": [
@@ -123,6 +231,54 @@
       "targetTl": "viking-age",
       "targetChapter": 6,
       "blurb": "While the Fujiwara wrote regency politics in poetry, the Norse were writing power in skaldic verse — two aristocratic worlds, opposite ends of Eurasia."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Frankia: the Carolingian mayors of the palace ran the kingdom while the last Merovingian \"do-nothing kings\" sat as figureheads — the same split between formal sovereignty and real power the Fujiwara perfected, until the Carolingians simply took the crown."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Baghdad: the Abbasid Caliphate's capital, the seat of caliphs who would later be reduced to ceremonial figureheads while military strongmen actually governed — a Near Eastern echo of the Fujiwara arrangement."
+    },
+    {
+      "matchText": "Buyid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Islamic world: the Buyid (and later Seljuk) sultans seized real power and pushed the Abbasid caliphs into ceremonial irrelevance — figureheads ruled through, not deposed, exactly as the Fujiwara did to Japan's emperors."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Korea: Unified Silla institutionalized Confucian classical learning in a state academy, the same Chinese scholarly tradition that produced Japan's court historians like Sugawara no Michizane."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang dynasty whose government, capital plan, and writing Japan had imitated for two centuries — now visibly disintegrating, which is why Michizane argued the embassies were no longer worth the voyage."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: Chang'an, the cosmopolitan Tang capital that was the model for Japan's grid cities and the destination of the official embassies Michizane cancelled in 894."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Constantinople: the Macedonian dynasty under Basil II had just crushed Bulgaria and brought the Byzantine Empire to its medieval peak — part of the same unusually creative decade as Michinaga's full-moon poem."
+    },
+    {
+      "matchText": "North Sea",
+      "targetTl": "viking-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in northern Europe: Cnut the Great was assembling his short-lived North Sea empire spanning England, Denmark, and Norway — another power at its height during the decade of Michinaga's full-moon poem."
     }
   ],
   "4": [
@@ -149,6 +305,48 @@
       "targetTl": "tang-song-china",
       "targetChapter": 5,
       "blurb": "As Heian aesthetics turned inward and away from China, the Tang fell and the Song rose — Japan's 'national' culture born partly from severed contact."
+    },
+    {
+      "matchText": "Nara",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Nara period: the older capital where the great poetry anthology Man'yoshu was compiled, using the clumsy man'yogana script that Heian scribes would streamline into kana."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Constantinople: the Macedonian Renaissance was reviving classical Greek learning at the imperial court, with manuscript illumination and ivory carving reaching new heights — a courtly aesthetic flowering parallel to the Heian one."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in al-Andalus: the Umayyad dynasty, transplanted to Iberia after losing the East, was building toward the cultural peak of Córdoba and its great mosque."
+    },
+    {
+      "matchText": "Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in al-Andalus: tenth-century Córdoba was at its cultural peak — a city of libraries, poetry, and philosophy, a Western counterpart to Heian Kyoto's aesthetic flowering."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Baghdad: the Abbasid court was in the last high-cultural decades before military disintegration broke the caliphate's central power."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Baghdad: the Abbasid court presided over a final flowering of scholarship and patronage before its political collapse."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Baghdad of this era was the great rival center of learning, its translation movement and patronage another courtly aesthetic project unaware of the Heian one."
     }
   ],
   "5": [
@@ -181,6 +379,84 @@
       "targetTl": "umayyad-caliphate",
       "targetChapter": 8,
       "blurb": "The Brilliant Women — Murasaki, Sei Shonagon — produced a vernacular literary golden age contemporary with the Islamic world's own great flowering."
+    },
+    {
+      "matchText": "Yuan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mongol Empire: the Yuan dynasty, the Mongol regime that ruled China, would not arise until the thirteenth century — centuries after Genji, when Chinese vernacular fiction finally began to appear."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty (1368–1644) is when long Chinese vernacular novels finally emerged — hundreds of years after Murasaki Shikibu had already written one."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China: Tang and Song China, Heian Japan's cultural model, produced extraordinary poetry and short prose tales but nothing on the structural scale of The Tale of Genji."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China: Tang China's women poets, like Yu Xuanji and Xue Tao, wrote fine lyric verse but did not generate the sustained prose fiction of the Heian women."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in China: early Song China, the period's cultural touchstone for Japan, excelled at poetry and short tales but produced no work of Genji's length and psychological scope."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid caliphate's literary culture included gifted women poets, but none produced a sustained prose fiction comparable to Genji."
+    },
+    {
+      "matchText": "Abbasid Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Islamic world: Abbasid Baghdad in this same era had brilliant women poets and scholars, but its gendered literary economy produced nothing like the Heian women's novels and miscellanies."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "viking-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Europe: in the Carolingian and post-Carolingian Frankish world, women's writing was confined to monasteries and a few learned nuns — a tiny output beside the Heian women's."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile the prestige written language of medieval Europe was Latin, the inherited tongue of Rome — the European counterpart to the classical Chinese that Heian men were expected to write in."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Islamic Spain: around 1010 the Caliphate of Cordoba was sliding into the fitna, the civil war that would shatter Muslim Spain into rival statelets."
+    },
+    {
+      "matchText": "Chola",
+      "targetTl": "medieval-india",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in southern India: the Chola dynasty under Rajaraja was at its imperial peak around 1010, endowing temple complexes larger than anything built in Heian Japan."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in India: the Chola realm of this era was a distant successor to the classical Gupta Empire, the earlier golden age of Indian civilization."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Abbasid world, the Islamic Golden Age was at its intellectual height — translation, science, and philosophy flourishing exactly as Heian court culture peaked."
     }
   ],
   "6": [
@@ -213,6 +489,60 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "The Insei 'cloistered rule' is a Japanese answer to the universal dynastic problem the Song solved with bureaucracy — power behind the throne, not on it."
+    },
+    {
+      "matchText": "Nara",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the earlier capital: the great Nara schools and state temples whose elaborate ritual Buddhism Honen's Pure Land movement was reacting against."
+    },
+    {
+      "matchText": "Reformation",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Europe, centuries later: a parallel shift from an institutional church mediating salvation toward a more direct, popular religiosity."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the old heartland of the Near East: by the twelfth century its Abbasid order was a facade behind Turkish and Daylamite power-brokers."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid caliphate, by now a sacral figurehead ruled from behind by the Buyids and then the Seljuks — a structural echo of Heian Insei."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Bosporus: the Byzantine capital, where the Komnenian dynasty was rebuilding the empire after the Manzikert disaster."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the eastern Mediterranean: the surviving Roman empire, under Alexios Komnenos clawing back stability in the same decades as the Insei era."
+    },
+    {
+      "matchText": "Manzikert",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in 1071 Anatolia: the catastrophic Byzantine defeat by the Seljuk Turks that opened Asia Minor and helped trigger the Crusades."
+    },
+    {
+      "matchText": "Crusader",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Levant: the Crusader states carved out after the First Crusade (1096–1099), Latin principalities holding the eastern Mediterranean coast."
+    },
+    {
+      "matchText": "Jurchen",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: the Jurchen who overran the Northern Song's capital in 1127, ending the dynasty's cultural golden age."
     }
   ],
   "7": [
@@ -245,6 +575,30 @@
       "targetTl": "ancient-korea",
       "targetChapter": 8,
       "blurb": "The Hogen and Heiji disturbances let the warrior houses into court politics — the opening of the door that ends aristocratic rule, as Korea's own order shifted."
+    },
+    {
+      "matchText": "Mahabharata",
+      "targetTl": "vedic-period",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in early India: the Mahabharata, the colossal Sanskrit war epic whose Kuru-dynasty kernel took shape in the Late Vedic period, grew into the foundational narrative of South Asian literature."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in ancient India: the Buddha, the wandering teacher of the sixth–fifth centuries BCE whose rejection of Brahmin ritual launched a world religion — the same impermanence-centered Buddhism that pervades the Tale of the Heike."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the eastern Mediterranean: Constantinople, capital of the Byzantine Empire, was sliding from its Komnenian high point toward the catastrophe of 1204, when a Crusader army sacked the city."
+    },
+    {
+      "matchText": "Southern Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in China: the Southern Song, driven below the Yangtze after the Jurchen conquest of the north, was at its commercial peak — the maritime trade that funded Kiyomori's Inland Sea ports flowed straight from its ports."
     }
   ],
   "8": [
@@ -295,6 +649,36 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "As Heian Japan fell to its warriors, Song China was being pressed by its own frontier armies — the age of the aristocrat ending across East Asia."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe, the nomadic Mongol confederations were still a generation from unification — the empire that legend would graft onto Yoshitsune's afterlife."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Mongolia, the man born Temüjin in the 1160s would forge the steppe tribes into a single horde and take the title Genghis Khan."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, seven centuries later: the Meiji Restoration of 1868 deliberately reversed the post-Dannoura order, pulling the emperor back to the practical center of government."
+    },
+    {
+      "matchText": "Cambodia",
+      "targetTl": "khmer-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Cambodia, the Khmer Empire ruled the largest state in mainland Southeast Asia from its capital at Angkor."
+    },
+    {
+      "matchText": "Angkor",
+      "targetTl": "khmer-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile at Angkor, the Khmer Empire was at its imperial height under Jayavarman VII, the Buddhist god-king who built the Bayon and rebuilt the capital."
     }
   ]
 }

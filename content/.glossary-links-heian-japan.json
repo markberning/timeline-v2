@@ -55,12 +55,6 @@
       "type": "people"
     },
     {
-      "term": "Sakanoue no Tamuramaro",
-      "matchText": "Sakanoue no Tamuramaro",
-      "wikiSlug": "Sakanoue_no_Tamuramaro",
-      "type": "people"
-    },
-    {
       "term": "Samurai",
       "matchText": "samurai",
       "wikiSlug": "Samurai",
@@ -77,6 +71,111 @@
       "matchText": "Sadaijin",
       "wikiSlug": "Sadaijin",
       "type": "concept"
+    },
+    {
+      "matchText": "Heijo-kyo",
+      "term": "Heijo-kyo",
+      "wikiSlug": "Heij%C5%8D-ky%C5%8D"
+    },
+    {
+      "matchText": "Xi'an",
+      "term": "Xi'an",
+      "wikiSlug": "Xi%27an"
+    },
+    {
+      "matchText": "Daidairi",
+      "term": "Daidairi",
+      "wikiSlug": "Heian_Palace"
+    },
+    {
+      "matchText": "Chodoin",
+      "term": "Chodoin",
+      "wikiSlug": "Heian_Palace"
+    },
+    {
+      "matchText": "Dairi",
+      "term": "Dairi",
+      "wikiSlug": "Heian_Palace"
+    },
+    {
+      "matchText": "Honshu",
+      "term": "Honshu",
+      "wikiSlug": "Honshu"
+    },
+    {
+      "matchText": "Yamato",
+      "term": "Yamato",
+      "wikiSlug": "Yamato_period"
+    },
+    {
+      "matchText": "Sei-i Taishogun",
+      "term": "Sei-i Taishogun",
+      "wikiSlug": "Shogun"
+    },
+    {
+      "matchText": "Council of State",
+      "term": "Council of State",
+      "wikiSlug": "Daij%C5%8D-kan"
+    },
+    {
+      "matchText": "Daijo-daijin",
+      "term": "Daijo-daijin",
+      "wikiSlug": "Daij%C5%8D-daijin"
+    },
+    {
+      "matchText": "Udaijin",
+      "term": "Udaijin",
+      "wikiSlug": "Minister_of_the_Right"
+    },
+    {
+      "matchText": "Fujiwara",
+      "term": "Fujiwara",
+      "wikiSlug": "Fujiwara_clan"
+    },
+    {
+      "matchText": "Heizei",
+      "term": "Heizei",
+      "wikiSlug": "Emperor_Heizei"
+    },
+    {
+      "matchText": "Saga",
+      "term": "Saga",
+      "wikiSlug": "Emperor_Saga"
+    },
+    {
+      "matchText": "Junna",
+      "term": "Junna",
+      "wikiSlug": "Emperor_Junna"
+    },
+    {
+      "matchText": "Holy Roman Emperor",
+      "term": "Holy Roman Emperor",
+      "wikiSlug": "Holy_Roman_Emperor"
+    },
+    {
+      "matchText": "Aachen",
+      "term": "Aachen",
+      "wikiSlug": "Aachen"
+    },
+    {
+      "matchText": "Chinese-style",
+      "term": "Chinese-style",
+      "definition": "The Tang Chinese administrative and architectural model that Japan imported wholesale in this era — gridded capitals, a conscript army, ranked bureaucracy, and government conducted in classical Chinese. The Heian court treated it as the template of a legitimate, centralized state."
+    },
+    {
+      "matchText": "Sakyo",
+      "term": "Sakyo",
+      "definition": "The \"left capital,\" the eastern half of Heian-kyo as seen by a south-facing emperor at the city's north end. It sat on better-drained ground and became the living heart of medieval Kyoto."
+    },
+    {
+      "matchText": "Ukyo",
+      "term": "Ukyo",
+      "definition": "The \"right capital,\" the western half of Heian-kyo. Built on marshy ground, it was largely abandoned by the late ninth century as the population drained eastward into Sakyo."
+    },
+    {
+      "matchText": "Japanese Buddhism",
+      "term": "Japanese Buddhism",
+      "wikiSlug": "Buddhism_in_Japan"
     }
   ],
   "2": [
@@ -199,6 +298,206 @@
       "matchText": "Amaterasu",
       "wikiSlug": "Amaterasu",
       "type": "concept"
+    },
+    {
+      "matchText": "Pure Land",
+      "term": "Pure Land",
+      "wikiSlug": "Pure_Land_Buddhism"
+    },
+    {
+      "matchText": "Kamakura",
+      "term": "Kamakura",
+      "wikiSlug": "Kamakura_shogunate"
+    },
+    {
+      "matchText": "Japanese Buddhism",
+      "term": "Japanese Buddhism",
+      "wikiSlug": "Buddhism_in_Japan"
+    },
+    {
+      "matchText": "Kongobuji",
+      "term": "Kongobuji",
+      "wikiSlug": "Kong%C5%8Dbu-ji"
+    },
+    {
+      "matchText": "Cluny",
+      "term": "Cluny",
+      "wikiSlug": "Cluny_Abbey"
+    },
+    {
+      "matchText": "Todaiji",
+      "term": "Todaiji",
+      "wikiSlug": "T%C5%8Ddai-ji"
+    },
+    {
+      "matchText": "Nanto Rokushu",
+      "term": "Nanto Rokushu",
+      "wikiSlug": "Nanto_Rokush%C5%AB"
+    },
+    {
+      "matchText": "Kammu",
+      "term": "Kammu (Emperor Kanmu)",
+      "wikiSlug": "Emperor_Kanmu"
+    },
+    {
+      "matchText": "Kyoto",
+      "term": "Kyoto",
+      "wikiSlug": "Kyoto"
+    },
+    {
+      "matchText": "Heian-kyo",
+      "term": "Heian-kyo",
+      "wikiSlug": "Heian-ky%C5%8D"
+    },
+    {
+      "matchText": "Kyushu",
+      "term": "Kyushu",
+      "wikiSlug": "Kyushu"
+    },
+    {
+      "matchText": "Mount Tiantai",
+      "term": "Mount Tiantai",
+      "wikiSlug": "Tiantai_Mountain"
+    },
+    {
+      "matchText": "Zhejiang",
+      "term": "Zhejiang",
+      "wikiSlug": "Zhejiang"
+    },
+    {
+      "matchText": "Tiantai",
+      "term": "Tiantai (school)",
+      "wikiSlug": "Tiantai"
+    },
+    {
+      "matchText": "Huiguo",
+      "term": "Huiguo",
+      "wikiSlug": "Huiguo"
+    },
+    {
+      "matchText": "Womb Realm",
+      "term": "Womb Realm",
+      "wikiSlug": "Mandala_of_the_Two_Realms"
+    },
+    {
+      "matchText": "Diamond Realm",
+      "term": "Diamond Realm",
+      "wikiSlug": "Mandala_of_the_Two_Realms"
+    },
+    {
+      "matchText": "Dharma",
+      "term": "Dharma",
+      "wikiSlug": "Dharma"
+    },
+    {
+      "matchText": "Tibet",
+      "term": "Tibet",
+      "wikiSlug": "Tibet"
+    },
+    {
+      "matchText": "Tibetan Buddhist",
+      "term": "Tibetan Buddhism",
+      "wikiSlug": "Tibetan_Buddhism"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Rashomon",
+      "term": "Rashomon gate",
+      "wikiSlug": "Raj%C5%8Dmon"
+    },
+    {
+      "matchText": "Kobo Daishi",
+      "term": "Kobo Daishi (Kukai)",
+      "wikiSlug": "K%C5%ABkai"
+    },
+    {
+      "matchText": "Mahayana",
+      "term": "Mahayana",
+      "wikiSlug": "Mahayana"
+    },
+    {
+      "matchText": "Pure Land Buddhism",
+      "term": "Pure Land Buddhism",
+      "wikiSlug": "Pure_Land_Buddhism"
+    },
+    {
+      "matchText": "Shirakawa",
+      "term": "Shirakawa (Emperor Shirakawa)",
+      "wikiSlug": "Emperor_Shirakawa"
+    },
+    {
+      "matchText": "Tale of Genji",
+      "term": "The Tale of Genji",
+      "wikiSlug": "The_Tale_of_Genji"
+    },
+    {
+      "matchText": "Confucian",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Daoism",
+      "term": "Daoism",
+      "wikiSlug": "Taoism"
+    },
+    {
+      "matchText": "Confucianism",
+      "term": "Confucianism",
+      "wikiSlug": "Confucianism"
+    },
+    {
+      "matchText": "Fujiwara",
+      "term": "Fujiwara clan",
+      "wikiSlug": "Fujiwara_clan"
+    },
+    {
+      "matchText": "Chan",
+      "term": "Chan Buddhism",
+      "wikiSlug": "Chan_Buddhism"
+    },
+    {
+      "matchText": "Huichang Persecution",
+      "term": "Huichang Persecution",
+      "wikiSlug": "Huichang_persecution_of_Buddhism"
+    },
+    {
+      "matchText": "Honen",
+      "term": "Honen",
+      "wikiSlug": "H%C5%8Dnen"
+    },
+    {
+      "matchText": "Eisai",
+      "term": "Eisai",
+      "wikiSlug": "Eisai"
+    },
+    {
+      "matchText": "Dogen",
+      "term": "Dogen",
+      "wikiSlug": "D%C5%8Dgen"
+    },
+    {
+      "matchText": "Nichiren",
+      "term": "Nichiren",
+      "wikiSlug": "Nichiren_Buddhism"
+    },
+    {
+      "matchText": "Shugei Shuchiin",
+      "term": "Shugei Shuchiin",
+      "definition": "The first school in Japanese history open to commoners, founded by Kukai in 828 near his temple Toji in the capital. Unlike the existing schools that trained only aristocrats and officials, it admitted students regardless of birth and fed them for free — a strikingly egalitarian experiment that did not long outlive its founder."
+    },
+    {
+      "matchText": "Emperor Saga",
+      "term": "Emperor Saga",
+      "wikiSlug": "Emperor_Saga"
+    },
+    {
+      "matchText": "Chinese-style",
+      "term": "Chinese-style",
+      "definition": "Modeled on Tang China — the continental template of script, court ranks, city planning, and Buddhism that early Heian Japan imported and adapted."
     }
   ],
   "3": [
@@ -221,12 +520,6 @@
       "type": "concept"
     },
     {
-      "term": "Fujiwara no Yoshifusa",
-      "matchText": "Fujiwara no Yoshifusa",
-      "wikiSlug": "Fujiwara_no_Yoshifusa",
-      "type": "people"
-    },
-    {
       "term": "Sugawara no Michizane",
       "matchText": "Sugawara no Michizane",
       "wikiSlug": "Sugawara_no_Michizane",
@@ -239,22 +532,10 @@
       "type": "concept"
     },
     {
-      "term": "Fujiwara no Michinaga",
-      "matchText": "Fujiwara no Michinaga",
-      "wikiSlug": "Fujiwara_no_Michinaga",
-      "type": "people"
-    },
-    {
       "term": "Empress Shoshi",
       "matchText": "Empress Shoshi",
       "wikiSlug": "Fujiwara_no_Shōshi",
       "type": "people"
-    },
-    {
-      "term": "Byodoin",
-      "matchText": "Byodoin",
-      "wikiSlug": "Byōdō-in",
-      "type": "place"
     },
     {
       "term": "Phoenix Hall",
@@ -279,6 +560,136 @@
       "matchText": "Dazaifu",
       "wikiSlug": "Dazaifu_(government)",
       "type": "place"
+    },
+    {
+      "matchText": "Korea Strait",
+      "term": "Korea Strait",
+      "wikiSlug": "Korea_Strait"
+    },
+    {
+      "matchText": "Murasaki Shikibu",
+      "term": "Murasaki Shikibu",
+      "wikiSlug": "Murasaki_Shikibu"
+    },
+    {
+      "matchText": "Basil II",
+      "term": "Basil II",
+      "wikiSlug": "Basil_II"
+    },
+    {
+      "matchText": "Soga",
+      "term": "Soga clan",
+      "wikiSlug": "Soga_clan"
+    },
+    {
+      "matchText": "Seiwa",
+      "term": "Emperor Seiwa",
+      "wikiSlug": "Emperor_Seiwa"
+    },
+    {
+      "matchText": "Mototsune",
+      "term": "Fujiwara no Mototsune",
+      "wikiSlug": "Fujiwara_no_Mototsune"
+    },
+    {
+      "matchText": "Merovingian",
+      "term": "Merovingian dynasty",
+      "wikiSlug": "Merovingian_dynasty"
+    },
+    {
+      "matchText": "Seljuk",
+      "term": "Seljuk Empire",
+      "wikiSlug": "Seljuk_Empire"
+    },
+    {
+      "matchText": "Udaijin",
+      "term": "Udaijin (Minister of the Right)",
+      "wikiSlug": "Minister_of_the_Right"
+    },
+    {
+      "matchText": "Kyushu",
+      "term": "Kyushu",
+      "wikiSlug": "Kyushu"
+    },
+    {
+      "matchText": "Tokihira",
+      "term": "Fujiwara no Tokihira",
+      "wikiSlug": "Fujiwara_no_Tokihira"
+    },
+    {
+      "matchText": "Daigo",
+      "term": "Emperor Daigo",
+      "wikiSlug": "Emperor_Daigo"
+    },
+    {
+      "matchText": "Kitano",
+      "term": "Kitano Tenmangu",
+      "wikiSlug": "Kitano_Tenmang%C5%AB"
+    },
+    {
+      "matchText": "Kyoto",
+      "term": "Kyoto",
+      "wikiSlug": "Kyoto"
+    },
+    {
+      "matchText": "Sanesuke",
+      "term": "Fujiwara no Sanesuke",
+      "wikiSlug": "Fujiwara_no_Sanesuke"
+    },
+    {
+      "matchText": "Tale of Genji",
+      "term": "The Tale of Genji",
+      "wikiSlug": "The_Tale_of_Genji"
+    },
+    {
+      "matchText": "Hojoji",
+      "term": "Hojo-ji",
+      "wikiSlug": "H%C5%8Dj%C5%8D-ji"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Fatimid",
+      "term": "Fatimid Caliphate",
+      "wikiSlug": "Fatimid_Caliphate"
+    },
+    {
+      "matchText": "Christianization",
+      "term": "Christianization",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Nakatomi no Kamatari",
+      "term": "Fujiwara no Kamatari",
+      "wikiSlug": "Fujiwara_no_Kamatari"
+    },
+    {
+      "matchText": "Uda",
+      "term": "Emperor Uda",
+      "wikiSlug": "Emperor_Uda"
+    },
+    {
+      "matchText": "Uji",
+      "term": "Uji, Kyoto",
+      "wikiSlug": "Uji,_Kyoto"
+    },
+    {
+      "matchText": "Hokke",
+      "term": "Hokke (Northern House of the Fujiwara)",
+      "definition": "The senior \"northern house\" of the Fujiwara clan, the branch from which nearly every regent (sessho and kampaku) was drawn during the Heian peak. The other Fujiwara branches were permanently subordinate to it."
+    },
+    {
+      "matchText": "Chinese-style",
+      "term": "Chinese-style",
+      "definition": "Modeled on Tang China — the continental template of script, court ranks, city planning, and Buddhism that early Heian Japan imported and adapted."
+    },
+    {
+      "matchText": "Nijo",
+      "term": "Nijo",
+      "wikiSlug": "Nijō_family"
     }
   ],
   "4": [
@@ -316,12 +727,6 @@
       "term": "Iroha",
       "matchText": "Iroha",
       "wikiSlug": "Iroha",
-      "type": "concept"
-    },
-    {
-      "term": "Tale of the Bamboo Cutter",
-      "matchText": "Tale of the Bamboo Cutter",
-      "wikiSlug": "The_Tale_of_the_Bamboo_Cutter",
       "type": "concept"
     },
     {
@@ -383,6 +788,126 @@
       "matchText": "onnade",
       "wikiSlug": "The_Tale_of_Genji",
       "type": "concept"
+    },
+    {
+      "matchText": "Murasaki Shikibu",
+      "term": "Murasaki Shikibu",
+      "wikiSlug": "Murasaki_Shikibu"
+    },
+    {
+      "matchText": "Fujiwara",
+      "term": "Fujiwara clan",
+      "wikiSlug": "Fujiwara_clan"
+    },
+    {
+      "matchText": "Tale of Genji",
+      "term": "The Tale of Genji",
+      "wikiSlug": "The_Tale_of_Genji"
+    },
+    {
+      "matchText": "Pillow Book",
+      "term": "The Pillow Book",
+      "wikiSlug": "The_Pillow_Book"
+    },
+    {
+      "matchText": "Kukai",
+      "term": "Kūkai",
+      "wikiSlug": "Kūkai"
+    },
+    {
+      "matchText": "Taketori Monogatari",
+      "term": "The Tale of the Bamboo Cutter",
+      "wikiSlug": "The_Tale_of_the_Bamboo_Cutter"
+    },
+    {
+      "matchText": "Tosa Nikki",
+      "term": "Tosa Nikki",
+      "wikiSlug": "Tosa_Nikki"
+    },
+    {
+      "matchText": "Shikoku",
+      "term": "Shikoku",
+      "wikiSlug": "Shikoku"
+    },
+    {
+      "matchText": "Mount Hiei",
+      "term": "Mount Hiei",
+      "wikiSlug": "Mount_Hiei"
+    },
+    {
+      "matchText": "Kamakura",
+      "term": "Kamakura period",
+      "wikiSlug": "Kamakura_period"
+    },
+    {
+      "matchText": "Kyoto",
+      "term": "Kyoto",
+      "wikiSlug": "Kyoto"
+    },
+    {
+      "matchText": "Calligraphy",
+      "term": "Japanese calligraphy",
+      "wikiSlug": "Japanese_calligraphy"
+    },
+    {
+      "matchText": "Emperor Saga",
+      "term": "Emperor Saga",
+      "wikiSlug": "Emperor_Saga"
+    },
+    {
+      "matchText": "Sanpitsu",
+      "term": "Sanpitsu",
+      "wikiSlug": "Sanpitsu"
+    },
+    {
+      "matchText": "Sanseki",
+      "term": "Sanseki",
+      "wikiSlug": "Sanseki"
+    },
+    {
+      "matchText": "Phoenix Hall",
+      "term": "Phoenix Hall (Byōdō-in)",
+      "wikiSlug": "Byōdō-in"
+    },
+    {
+      "matchText": "Byodoin",
+      "term": "Byōdō-in",
+      "wikiSlug": "Byōdō-in"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Daigo",
+      "term": "Emperor Daigo",
+      "wikiSlug": "Emperor_Daigo"
+    },
+    {
+      "matchText": "Tachibana no Hayanari",
+      "term": "Tachibana no Hayanari",
+      "wikiSlug": "Tachibana_no_Hayanari"
+    },
+    {
+      "matchText": "Fujiwara no Sukemasa",
+      "term": "Fujiwara no Sukemasa",
+      "wikiSlug": "Fujiwara_no_Sukemasa"
+    },
+    {
+      "matchText": "Fujiwara no Yukinari",
+      "term": "Fujiwara no Yukinari",
+      "wikiSlug": "Fujiwara_no_Yukinari"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin alphabet",
+      "wikiSlug": "Latin_alphabet"
+    },
+    {
+      "matchText": "Yamato",
+      "term": "Yamato (poetic name for Japan)",
+      "definition": "An old poetic and ethnic name for Japan and the Japanese people. In Tsurayuki's preface, \"Yamato uta\" simply means \"Japanese poetry\" — the native verse tradition, set against Chinese-language poetry."
     }
   ],
   "5": [
@@ -463,6 +988,151 @@
       "matchText": "Kiyohara Nagiko",
       "wikiSlug": "Sei_Shōnagon",
       "type": "people"
+    },
+    {
+      "matchText": "Shikibu-sho",
+      "term": "Shikibu-sho",
+      "wikiSlug": "Shikibu-shō"
+    },
+    {
+      "matchText": "Fujiwara",
+      "term": "Fujiwara",
+      "wikiSlug": "Fujiwara_clan"
+    },
+    {
+      "matchText": "Michinaga",
+      "term": "Michinaga",
+      "wikiSlug": "Fujiwara_no_Michinaga"
+    },
+    {
+      "matchText": "Fujiwara no Michinaga",
+      "term": "Fujiwara no Michinaga",
+      "wikiSlug": "Fujiwara_no_Michinaga"
+    },
+    {
+      "matchText": "Fujiwara no Tametoki",
+      "term": "Fujiwara no Tametoki",
+      "wikiSlug": "Fujiwara_no_Tametoki"
+    },
+    {
+      "matchText": "Byodoin",
+      "term": "Byodoin",
+      "wikiSlug": "Byōdō-in"
+    },
+    {
+      "matchText": "Makura no Soshi",
+      "term": "Makura no Soshi",
+      "wikiSlug": "The_Pillow_Book"
+    },
+    {
+      "matchText": "Essays in Idleness",
+      "term": "Essays in Idleness",
+      "wikiSlug": "Tsurezuregusa"
+    },
+    {
+      "matchText": "Tale of the Bamboo Cutter",
+      "term": "Tale of the Bamboo Cutter",
+      "wikiSlug": "The_Tale_of_the_Bamboo_Cutter"
+    },
+    {
+      "matchText": "fukinuki yatai",
+      "term": "fukinuki yatai",
+      "wikiSlug": "Fukinuki_yatai"
+    },
+    {
+      "matchText": "hikime kagibana",
+      "term": "hikime kagibana",
+      "wikiSlug": "Hikime_kagibana"
+    },
+    {
+      "matchText": "Cervantes",
+      "term": "Cervantes",
+      "wikiSlug": "Miguel_de_Cervantes"
+    },
+    {
+      "matchText": "Iliad",
+      "term": "Iliad",
+      "wikiSlug": "Iliad"
+    },
+    {
+      "matchText": "Odyssey",
+      "term": "Odyssey",
+      "wikiSlug": "Odyssey"
+    },
+    {
+      "matchText": "Mahdi",
+      "term": "Mahdi",
+      "wikiSlug": "Mahdi"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Alexiad",
+      "term": "Alexiad",
+      "wikiSlug": "Alexiad"
+    },
+    {
+      "matchText": "Canon of Medicine",
+      "term": "Canon of Medicine",
+      "wikiSlug": "The_Canon_of_Medicine"
+    },
+    {
+      "matchText": "Bukhara",
+      "term": "Bukhara",
+      "wikiSlug": "Bukhara"
+    },
+    {
+      "matchText": "Vinland",
+      "term": "Vinland",
+      "wikiSlug": "Vinland"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Newfoundland",
+      "term": "Newfoundland",
+      "wikiSlug": "Newfoundland_(island)"
+    },
+    {
+      "matchText": "Yugao",
+      "term": "Yugao",
+      "definition": "A character in The Tale of Genji — the shy, sweet, low-born woman with whom the young Prince Genji has a brief, doomed affair in the novel's fourth chapter, which is named after her. The name means \"evening face,\" a moonflower that opens at dusk."
+    },
+    {
+      "matchText": "Akashi",
+      "term": "Akashi",
+      "definition": "In The Tale of Genji, both a coastal place where the exiled Genji takes refuge and the proud provincial \"Akashi lady\" he meets there, whose daughter eventually rises to become empress. The thirteenth chapter is named after the place."
+    },
+    {
+      "matchText": "Fujitsubo",
+      "term": "Fujitsubo",
+      "definition": "A central character in The Tale of Genji — an imperial consort, resembling Genji's dead mother, with whom the young Genji has a forbidden affair that produces a son later passed off as the emperor's legitimate heir. One of pre-modern fiction's most psychologically detailed women."
+    },
+    {
+      "matchText": "Lady Rokujo",
+      "term": "Lady Rokujo",
+      "definition": "A high-born older lover of Genji in The Tale of Genji, whose consuming jealousy is depicted leaving her body as a vengeful living spirit that harms her rivals — the novel's most famous use of the supernatural to externalize emotion."
+    },
+    {
+      "matchText": "Macedonian-period Constantinople",
+      "term": "Macedonian-period Constantinople",
+      "definition": "The Byzantine capital during the rule of the Macedonian dynasty (867–1056), a high point of Byzantine power, wealth, and learning — the political and cultural setting in which the princess-historian Anna Komnene would later write."
+    },
+    {
+      "matchText": "Hokke",
+      "term": "Hokke",
+      "definition": "The senior Northern branch (Hokke) of the Fujiwara clan — the line that monopolized the regency (sesshō and kampaku) and dominated Heian court politics."
     }
   ],
   "6": [
@@ -471,12 +1141,6 @@
       "matchText": "Insei",
       "wikiSlug": "Cloistered_rule",
       "type": "concept"
-    },
-    {
-      "term": "Emperor Shirakawa",
-      "matchText": "Emperor Shirakawa",
-      "wikiSlug": "Emperor_Shirakawa",
-      "type": "people"
     },
     {
       "term": "Emperor Toba",
@@ -579,6 +1243,186 @@
       "matchText": "retired emperor",
       "wikiSlug": "Cloistered_rule",
       "type": "concept"
+    },
+    {
+      "matchText": "Murasaki Shikibu",
+      "term": "Murasaki Shikibu",
+      "wikiSlug": "Murasaki_Shikibu"
+    },
+    {
+      "matchText": "Michinaga",
+      "term": "Michinaga",
+      "wikiSlug": "Fujiwara_no_Michinaga"
+    },
+    {
+      "matchText": "Fujiwara",
+      "term": "Fujiwara",
+      "wikiSlug": "Fujiwara_clan"
+    },
+    {
+      "matchText": "Sutoku",
+      "term": "Sutoku",
+      "wikiSlug": "Emperor_Sutoku"
+    },
+    {
+      "matchText": "Mount Hiei",
+      "term": "Mount Hiei",
+      "wikiSlug": "Mount_Hiei"
+    },
+    {
+      "matchText": "Kammu",
+      "term": "Kammu",
+      "wikiSlug": "Emperor_Kammu"
+    },
+    {
+      "matchText": "Honshu",
+      "term": "Honshu",
+      "wikiSlug": "Honshu"
+    },
+    {
+      "matchText": "Shikoku",
+      "term": "Shikoku",
+      "wikiSlug": "Shikoku"
+    },
+    {
+      "matchText": "Kyushu",
+      "term": "Kyushu",
+      "wikiSlug": "Kyushu"
+    },
+    {
+      "matchText": "Kamakura",
+      "term": "Kamakura",
+      "wikiSlug": "Kamakura_shogunate"
+    },
+    {
+      "matchText": "Genpei War",
+      "term": "Genpei War",
+      "wikiSlug": "Genpei_War"
+    },
+    {
+      "matchText": "Yoriyoshi",
+      "term": "Minamoto no Yoriyoshi",
+      "wikiSlug": "Minamoto_no_Yoriyoshi"
+    },
+    {
+      "matchText": "Kiyowara",
+      "term": "Kiyowara clan",
+      "wikiSlug": "Kiyohara_clan"
+    },
+    {
+      "matchText": "Abe",
+      "term": "Abe clan",
+      "wikiSlug": "Abe_clan"
+    },
+    {
+      "matchText": "Tendai",
+      "term": "Tendai",
+      "wikiSlug": "Tendai"
+    },
+    {
+      "matchText": "Saicho",
+      "term": "Saicho",
+      "wikiSlug": "Saich%C5%8D"
+    },
+    {
+      "matchText": "Byodoin",
+      "term": "Byodoin",
+      "wikiSlug": "By%C5%8Dd%C5%8D-in"
+    },
+    {
+      "matchText": "Phoenix Hall",
+      "term": "Phoenix Hall",
+      "wikiSlug": "By%C5%8Dd%C5%8D-in"
+    },
+    {
+      "matchText": "Mount Koya",
+      "term": "Mount Koya",
+      "wikiSlug": "Mount_K%C5%8Dya"
+    },
+    {
+      "matchText": "Shingon",
+      "term": "Shingon",
+      "wikiSlug": "Shingon_Buddhism"
+    },
+    {
+      "matchText": "Shinran",
+      "term": "Shinran",
+      "wikiSlug": "Shinran"
+    },
+    {
+      "matchText": "Jodo Shinshu",
+      "term": "Jodo Shinshu",
+      "wikiSlug": "J%C5%8Ddo_Shinsh%C5%AB"
+    },
+    {
+      "matchText": "Levant",
+      "term": "Levant",
+      "wikiSlug": "Levant"
+    },
+    {
+      "matchText": "Buyids",
+      "term": "Buyids",
+      "wikiSlug": "Buyid_dynasty"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Fatimid",
+      "term": "Fatimid",
+      "wikiSlug": "Fatimid_Caliphate"
+    },
+    {
+      "matchText": "Kyoto",
+      "term": "Kyoto",
+      "wikiSlug": "Kyoto"
+    },
+    {
+      "matchText": "Hoo",
+      "term": "Hoo",
+      "definition": "A retired Japanese emperor who had taken Buddhist orders (the title means \"cloistered Dharma sovereign\"). In the Insei system, such a monk-emperor could still run the state from behind the reigning emperor — a religious twist on the cloistered-government arrangement."
+    },
+    {
+      "matchText": "Genji",
+      "term": "Genji",
+      "definition": "The Sino-Japanese reading of the Minamoto clan name. (Confusingly, it is also the name of the fictional hero of Murasaki Shikibu's novel — but that Prince Genji is a separate, unrelated Genji.)"
+    },
+    {
+      "matchText": "Prince Genji",
+      "term": "Prince Genji",
+      "definition": "The fictional protagonist of Murasaki Shikibu's *The Tale of Genji* — a courtier hero, unrelated to the real Minamoto warrior clan that shared the \"Genji\" reading."
+    },
+    {
+      "matchText": "Heike",
+      "term": "Heike",
+      "definition": "The Sino-Japanese reading of the Taira clan name, the great western warrior house that fought the Minamoto in the Genpei War."
+    },
+    {
+      "matchText": "Namu Amida Butsu",
+      "term": "Namu Amida Butsu",
+      "definition": "The Pure Land Buddhist invocation, \"Hail Amida Buddha\" — the chant (nembutsu) believed to win rebirth in Amida's paradise for anyone who calls on his name with faith."
+    },
+    {
+      "matchText": "Inland Sea",
+      "term": "Inland Sea",
+      "definition": "The Seto Inland Sea, the long sheltered waterway between Honshu, Shikoku, and Kyushu. Controlling its ports and trade routes was the foundation of the Taira clan's wealth and naval power."
+    },
+    {
+      "matchText": "Council of State",
+      "term": "Council of State",
+      "wikiSlug": "Daijō-kan"
+    },
+    {
+      "matchText": "Todaiji",
+      "term": "Todaiji",
+      "wikiSlug": "Tōdai-ji"
+    },
+    {
+      "matchText": "Kiyomori",
+      "term": "Kiyomori",
+      "wikiSlug": "Taira_no_Kiyomori"
     }
   ],
   "7": [
@@ -665,6 +1509,176 @@
       "matchText": "Mochihito",
       "wikiSlug": "Prince_Mochihito",
       "type": "people"
+    },
+    {
+      "matchText": "Philip II Augustus",
+      "term": "Philip II Augustus",
+      "wikiSlug": "Philip_II_of_France"
+    },
+    {
+      "matchText": "Kammu",
+      "term": "Kammu",
+      "wikiSlug": "Emperor_Kanmu"
+    },
+    {
+      "matchText": "Fujiwara",
+      "term": "Fujiwara",
+      "wikiSlug": "Fujiwara_clan"
+    },
+    {
+      "matchText": "Insei",
+      "term": "Insei",
+      "wikiSlug": "Cloistered_rule"
+    },
+    {
+      "matchText": "Kyoto",
+      "term": "Kyoto",
+      "wikiSlug": "Kyoto"
+    },
+    {
+      "matchText": "Genpei War",
+      "term": "Genpei War",
+      "wikiSlug": "Genpei_War"
+    },
+    {
+      "matchText": "Toba",
+      "term": "Toba",
+      "wikiSlug": "Emperor_Toba"
+    },
+    {
+      "matchText": "Tadamichi",
+      "term": "Tadamichi",
+      "wikiSlug": "Fujiwara_no_Tadamichi"
+    },
+    {
+      "matchText": "Yorinaga",
+      "term": "Yorinaga",
+      "wikiSlug": "Fujiwara_no_Yorinaga"
+    },
+    {
+      "matchText": "Shikoku",
+      "term": "Shikoku",
+      "wikiSlug": "Shikoku"
+    },
+    {
+      "matchText": "Shinzei",
+      "term": "Shinzei",
+      "wikiSlug": "Fujiwara_no_Michinori"
+    },
+    {
+      "matchText": "Nijo",
+      "term": "Nijo",
+      "wikiSlug": "Emperor_Nijō"
+    },
+    {
+      "matchText": "Honshu",
+      "term": "Honshu",
+      "wikiSlug": "Honshu"
+    },
+    {
+      "matchText": "Izu Peninsula",
+      "term": "Izu Peninsula",
+      "wikiSlug": "Izu_Peninsula"
+    },
+    {
+      "matchText": "Northern Fujiwara",
+      "term": "Northern Fujiwara",
+      "wikiSlug": "Northern_Fujiwara"
+    },
+    {
+      "matchText": "Dannoura",
+      "term": "Dannoura",
+      "wikiSlug": "Battle_of_Dan-no-ura"
+    },
+    {
+      "matchText": "Tokuko",
+      "term": "Tokuko",
+      "wikiSlug": "Taira_no_Tokuko"
+    },
+    {
+      "matchText": "Takakura",
+      "term": "Takakura",
+      "wikiSlug": "Emperor_Takakura"
+    },
+    {
+      "matchText": "Kobe",
+      "term": "Kobe",
+      "wikiSlug": "Kobe"
+    },
+    {
+      "matchText": "Iliad",
+      "term": "Iliad",
+      "wikiSlug": "Iliad"
+    },
+    {
+      "matchText": "Shahnameh",
+      "term": "Shahnameh",
+      "wikiSlug": "Shahnameh"
+    },
+    {
+      "matchText": "Persian",
+      "term": "Persian literature",
+      "wikiSlug": "Persian_literature"
+    },
+    {
+      "matchText": "Kamakura",
+      "term": "Kamakura",
+      "wikiSlug": "Kamakura_shogunate"
+    },
+    {
+      "matchText": "Capetian",
+      "term": "Capetian",
+      "wikiSlug": "House_of_Capet"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Komnenian",
+      "term": "Komnenian",
+      "wikiSlug": "Komnenos"
+    },
+    {
+      "matchText": "Minamoto no Tameyoshi",
+      "term": "Minamoto no Tameyoshi",
+      "wikiSlug": "Minamoto_no_Tameyoshi"
+    },
+    {
+      "matchText": "Fujiwara no Teika",
+      "term": "Fujiwara no Teika",
+      "wikiSlug": "Fujiwara_no_Teika"
+    },
+    {
+      "matchText": "Fujiwara no Nobuyori",
+      "term": "Fujiwara no Nobuyori",
+      "wikiSlug": "Fujiwara_no_Nobuyori"
+    },
+    {
+      "matchText": "Minamoto no Yoritomo",
+      "term": "Minamoto no Yoritomo",
+      "wikiSlug": "Minamoto_no_Yoritomo"
+    },
+    {
+      "matchText": "Minamoto no Yoshitsune",
+      "term": "Minamoto no Yoshitsune",
+      "wikiSlug": "Minamoto_no_Yoshitsune"
+    },
+    {
+      "matchText": "Ike no Zenni",
+      "term": "Ike no Zenni",
+      "definition": "Taira no Kiyomori's stepmother, a Heian-period noblewoman. After the Heiji Disturbance she begged Kiyomori to spare the captured boy Yoritomo — reportedly because he resembled a son of hers who had died young — and so set in motion the Minamoto revival that would later destroy the Taira."
+    },
+    {
+      "matchText": "Holy Land",
+      "term": "Holy Land",
+      "definition": "The region around Jerusalem held sacred by Jews, Christians, and Muslims. In the 1180s it was the battleground between the Crusader states and Saladin's reunified Muslim forces, who retook Jerusalem in 1187."
+    },
+    {
+      "matchText": "Crusaders",
+      "term": "Crusaders",
+      "definition": "Western European Christian warriors who, from 1095 onward, fought to seize and hold the Holy Land. They had carved out states around Jerusalem in the early twelfth century, only to lose the city to Saladin in 1187."
     }
   ],
   "8": [
@@ -673,18 +1687,6 @@
       "matchText": "Genpei War",
       "wikiSlug": "Genpei_War",
       "type": "concept"
-    },
-    {
-      "term": "Minamoto no Yoritomo",
-      "matchText": "Minamoto no Yoritomo",
-      "wikiSlug": "Minamoto_no_Yoritomo",
-      "type": "people"
-    },
-    {
-      "term": "Minamoto no Yoshitsune",
-      "matchText": "Minamoto no Yoshitsune",
-      "wikiSlug": "Minamoto_no_Yoshitsune",
-      "type": "people"
     },
     {
       "term": "Izu Peninsula",
@@ -705,40 +1707,10 @@
       "type": "place"
     },
     {
-      "term": "Battle of Fujigawa",
-      "matchText": "Battle of Fujigawa",
-      "wikiSlug": "Battle_of_Fujigawa",
-      "type": "concept"
-    },
-    {
       "term": "Minamoto no Yoshinaka",
       "matchText": "Minamoto no Yoshinaka",
       "wikiSlug": "Minamoto_no_Yoshinaka",
       "type": "people"
-    },
-    {
-      "term": "Battle of Kurikara",
-      "matchText": "Battle of Kurikara",
-      "wikiSlug": "Battle_of_Kurikara",
-      "type": "concept"
-    },
-    {
-      "term": "Battle of Ichinotani",
-      "matchText": "Battle of Ichinotani",
-      "wikiSlug": "Battle_of_Ichi-no-Tani",
-      "type": "concept"
-    },
-    {
-      "term": "Battle of Yashima",
-      "matchText": "Battle of Yashima",
-      "wikiSlug": "Battle_of_Yashima",
-      "type": "concept"
-    },
-    {
-      "term": "Battle of Dannoura",
-      "matchText": "Battle of Dannoura",
-      "wikiSlug": "Battle_of_Dan-no-ura",
-      "type": "concept"
     },
     {
       "term": "Shimonoseki Strait",
@@ -793,6 +1765,201 @@
       "matchText": "hogan-biiki",
       "wikiSlug": "Hōgan-biiki",
       "type": "concept"
+    },
+    {
+      "matchText": "Ashikaga Shogunate",
+      "term": "Ashikaga Shogunate",
+      "wikiSlug": "Ashikaga_shogunate"
+    },
+    {
+      "matchText": "Frederick Barbarossa",
+      "term": "Frederick Barbarossa",
+      "wikiSlug": "Frederick_Barbarossa"
+    },
+    {
+      "matchText": "Jayavarman VII",
+      "term": "Jayavarman VII",
+      "wikiSlug": "Jayavarman_VII"
+    },
+    {
+      "matchText": "Honshu",
+      "term": "Honshu",
+      "wikiSlug": "Honshu"
+    },
+    {
+      "matchText": "Taira",
+      "term": "Taira",
+      "wikiSlug": "Taira_clan"
+    },
+    {
+      "matchText": "Heike",
+      "term": "Heike",
+      "wikiSlug": "Taira_clan"
+    },
+    {
+      "matchText": "Kyoto",
+      "term": "Kyoto",
+      "wikiSlug": "Kyoto"
+    },
+    {
+      "matchText": "Kiyomori",
+      "term": "Kiyomori",
+      "wikiSlug": "Taira_no_Kiyomori"
+    },
+    {
+      "matchText": "Battle of Ishibashiyama",
+      "term": "Battle of Ishibashiyama",
+      "wikiSlug": "Battle_of_Ishibashiyama"
+    },
+    {
+      "matchText": "Chiba",
+      "term": "Chiba",
+      "wikiSlug": "Chiba_clan"
+    },
+    {
+      "matchText": "Tokyo",
+      "term": "Tokyo",
+      "wikiSlug": "Tokyo"
+    },
+    {
+      "matchText": "Mandokoro",
+      "term": "Mandokoro",
+      "wikiSlug": "Mandokoro"
+    },
+    {
+      "matchText": "Samurai-dokoro",
+      "term": "Samurai-dokoro",
+      "wikiSlug": "Samurai-dokoro"
+    },
+    {
+      "matchText": "Inland Sea",
+      "term": "Inland Sea",
+      "wikiSlug": "Seto_Inland_Sea"
+    },
+    {
+      "matchText": "Heiji Disturbance",
+      "term": "Heiji Disturbance",
+      "wikiSlug": "Heiji_rebellion"
+    },
+    {
+      "matchText": "Kobe",
+      "term": "Kobe",
+      "wikiSlug": "Kobe"
+    },
+    {
+      "matchText": "Shikoku",
+      "term": "Shikoku",
+      "wikiSlug": "Shikoku"
+    },
+    {
+      "matchText": "Kyushu",
+      "term": "Kyushu",
+      "wikiSlug": "Kyushu"
+    },
+    {
+      "matchText": "Tokiko",
+      "term": "Tokiko",
+      "wikiSlug": "Taira_no_Tokiko"
+    },
+    {
+      "matchText": "Niigata",
+      "term": "Niigata",
+      "wikiSlug": "Niigata_Prefecture"
+    },
+    {
+      "matchText": "Emishi",
+      "term": "Emishi",
+      "wikiSlug": "Emishi"
+    },
+    {
+      "matchText": "Tokugawa Shogunate",
+      "term": "Tokugawa Shogunate",
+      "wikiSlug": "Tokugawa_shogunate"
+    },
+    {
+      "matchText": "Yasuhira",
+      "term": "Yasuhira",
+      "wikiSlug": "Fujiwara_no_Yasuhira"
+    },
+    {
+      "matchText": "Osaka",
+      "term": "Osaka",
+      "wikiSlug": "Osaka"
+    },
+    {
+      "matchText": "Satsuma",
+      "term": "Satsuma",
+      "wikiSlug": "Satsuma_Domain"
+    },
+    {
+      "matchText": "Kabuki",
+      "term": "Kabuki",
+      "wikiSlug": "Kabuki"
+    },
+    {
+      "matchText": "Hokkaido",
+      "term": "Hokkaido",
+      "wikiSlug": "Hokkaido"
+    },
+    {
+      "matchText": "Sei Shonagon",
+      "term": "Sei Shonagon",
+      "wikiSlug": "Sei_Shōnagon"
+    },
+    {
+      "matchText": "Phoenix Hall",
+      "term": "Phoenix Hall",
+      "wikiSlug": "Byōdō-in"
+    },
+    {
+      "matchText": "Byodoin",
+      "term": "Byodoin",
+      "wikiSlug": "Byōdō-in"
+    },
+    {
+      "matchText": "Heian-kyo",
+      "term": "Heian-kyo",
+      "wikiSlug": "Heian-kyō"
+    },
+    {
+      "matchText": "Kukai",
+      "term": "Kukai",
+      "wikiSlug": "Kūkai"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Crusaders",
+      "term": "Crusaders",
+      "wikiSlug": "Crusades"
+    },
+    {
+      "matchText": "Kiso no Yoshinaka",
+      "term": "Kiso no Yoshinaka",
+      "wikiSlug": "Minamoto_no_Yoshinaka"
+    },
+    {
+      "matchText": "Sakanoue no Tamuramaro",
+      "term": "Sakanoue no Tamuramaro",
+      "wikiSlug": "Sakanoue_no_Tamuramaro"
+    },
+    {
+      "matchText": "Fujiwara no Hidehira",
+      "term": "Fujiwara no Hidehira",
+      "wikiSlug": "Fujiwara_no_Hidehira"
+    },
+    {
+      "matchText": "Genji",
+      "term": "Genji",
+      "wikiSlug": "Minamoto_clan"
+    },
+    {
+      "matchText": "Japanese Buddhism",
+      "term": "Japanese Buddhism",
+      "wikiSlug": "Buddhism_in_Japan"
     }
   ]
 }
