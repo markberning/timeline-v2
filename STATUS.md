@@ -16,7 +16,19 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 38 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 41 of 103 civs genuinely swept + DEPLOYED LIVE.** (User paused the session
+here at 41.)
+- **2026-05-22 batch 9:** **post-maurya-kingdoms** (`b700eb6`, 241→0 NEW),
+  **vedic-period** (`aab30df`, 237→0 NEW), **kingdom-of-aksum** (`d5866ff`, 0 NEW)
+  swept + ONE batched atomic deploy + curl-verified (Shunga_Empire; Rigveda;
+  Frumentius). Agents caught Shunga Japanese-art, Turks-and-Caicos, Emperor Ming of
+  Han vs Ming dynasty, gomat railway station, Bharata Ramayana-char vs tribe, Hebrew
+  language vs prophets, Amrapali courtesan→Vajjika League, Aedesius philosopher→
+  Frumentius, Joseph ibn Naghrillah→biblical Joseph, Shanga Forsberg footballer.
+  **NOTE: russian-empire (237, 20 ch — tied with vedic at the worst-first front) was
+  DEFERRED, not done — it's the next worst and a big 4-wave lift; pick it up first
+  next session.** **~62 remain. Next worst-first:** russian-empire (237, 20 ch),
+  zhou-dynasty, then continue down `audits/link-coverage-ledger.md`.
 - **2026-05-22 batch 8:** **soviet-union** (`5872156`, 278→0 NEW, 20 ch / 4 waves),
   **meiji-japan** (`f921ad0`, 277→0 NEW), **kievan-rus** (`3679854`, 267→0 NEW,
   12 ch / 3 waves), **inca-empire** (`470fbc3`, 254→0 NEW) swept + ONE batched
