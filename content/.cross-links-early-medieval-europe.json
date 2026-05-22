@@ -47,6 +47,108 @@
       "targetTl": "maya-civilization",
       "targetChapter": 4,
       "blurb": "In Mesoamerica the Classic Maya were at their apogee, utterly unconnected to the Roman collapse — a reminder that 'the fall of civilization' was a local European event."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: Constantinople remained the living capital of a Roman state that never fell, where the eastern emperors still claimed authority over the lost West."
+    },
+    {
+      "matchText": "Roman Senate",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome's own story: the Senate began as the council of aristocrats that governed the Republic, an institution that improbably outlived the empire it once ran."
+    },
+    {
+      "matchText": "Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Gothic story: the complete arc from Scandinavian origins through Adrianople, the sack of Rome, and the kingdoms of Toulouse and Toledo gets its own narrative."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome's own story: Latin spread with the legions and the law courts to become the language of literacy across the western provinces, surviving the state that carried it."
+    },
+    {
+      "matchText": "Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iberia: the Arab conquest of 711 ended the Visigothic kingdom and opened nearly eight centuries of Islamic al-Andalus."
+    },
+    {
+      "matchText": "Plato",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Greece's own story: Plato's philosophy, the deepest well of classical thought, is the wellspring Boethius drew on in his prison-cell synthesis."
+    },
+    {
+      "matchText": "Cicero",
+      "targetTl": "ancient-rome",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Rome's own story: Cicero, the Republic's great orator and stylist, is exactly the kind of pagan classic Cassiodorus's monks copied to keep Latin literature alive."
+    },
+    {
+      "matchText": "Virgil",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Rome's own story: Virgil's Aeneid was the imperial epic that monastic copyists preserved alongside scripture."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, nine centuries later: Renaissance humanists hunted the monastic libraries for the lost classical manuscripts that Cassiodorus's principle had quietly preserved."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome's own story: the empire whose western half ended in 476 is the subject the early medieval west kept trying to inherit and reassemble."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Rome's own story: Chapter 10 covers the fall of the West from the Roman side and the eighty-year cascade that preceded 476."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the East: Justinian's great domed church in Constantinople was the architectural statement of a Roman state still very much alive."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the East: Sasanian Persia was Byzantium's great rival, the two empires locked in wars that drained both as the medieval West formed in the ruins of the other Rome."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sasanian dynasty ruled the last great pre-Islamic Persian empire, at the height of its rivalry with Byzantium."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: Byzantium, the eastern Roman state centred on Constantinople, was thriving even as the western half dissolved into Germanic kingdoms."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Six Dynasties period split the country between rival northern and southern regimes until the Sui reunification of 581."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: the great pyramid-city of Teotihuacan was at or near its peak as the western Roman world fell apart."
     }
   ],
   "2": [
@@ -79,6 +181,84 @@
       "targetTl": "tang-song-china",
       "targetChapter": 1,
       "blurb": "As Justinian tried to restore Rome, China was about to be reunified by the Sui after centuries of division — the eastern superpower reassembling as the western one shattered."
+    },
+    {
+      "matchText": "Constantinopolitan",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the East: Constantinople was the capital from which Justinian governed, the surviving heart of the Roman world after the West fragmented."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the East: the imperial capital on the Bosphorus, from which Justinian launched his reconquest and where the plague struck hardest."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile: the Germanic peoples whose kingdoms had carved up the western provinces Justinian set out to recover."
+    },
+    {
+      "matchText": "Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "Meanwhile: the Gothic peoples, here the Ostrogoths whose Italian kingdom Justinian's armies spent twenty years destroying."
+    },
+    {
+      "matchText": "Black Death",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, eight centuries later: the same disease (Yersinia pestis) returned in 1347 as the Black Death and killed a third of Europe again."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the North: southern Scandinavia, the distant homeland from which the Lombards had been migrating for centuries."
+    },
+    {
+      "matchText": "Ostrogoths",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "Meanwhile: the Ostrogoths, the eastern Goths whose sophisticated kingdom of Italy Justinian's reconquest shattered."
+    },
+    {
+      "matchText": "Six Dynasties",
+      "targetTl": "six-dynasties",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the three centuries of division that ended when the Sui reunified the empire in 581."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the reunification under Sui and Tang that followed the long age of division."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: the great central-Mexican metropolis, burning around 550 just as Justinian's wars wound down."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: Tiwanaku, beginning the ascent that would make it one of the great Andean civilizations."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South America: the Andean highlands where Tiwanaku was rising as Justinian's Mediterranean world contracted."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the Maya Classic period was at its height while the Mediterranean fell into plague and war."
     }
   ],
   "3": [
@@ -111,6 +291,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 3,
       "blurb": "The Christianization of the West proceeded under the long shadow of Constantinople, whose theology, missions, and prestige set the terms even where the pope acted independently."
+    },
+    {
+      "matchText": "Persian invasion",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sasanian king Khosrow II launched a devastating twenty-six-year war on the Byzantine Empire (602–628), overrunning Syria, Palestine, Egypt, and Anatolia — briefly recreating the old Persian empire — before Heraclius's counterattack collapsed it and the exhausted Sasanians fell to the Arabs within a generation."
     }
   ],
   "4": [
@@ -155,6 +341,156 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 4,
       "blurb": "Byzantium was fighting the same Arab wave on its own frontier — the Umayyad surge hit Constantinople and the Pyrenees in the same generation."
+    },
+    {
+      "matchText": "Muhammad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Prophet Muhammad, whose death in 632 set off the explosive Arab expansion that reshaped the Mediterranean."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the African coast: Carthage, the great Phoenician colony, here falling in 698 as Roman-Byzantine North Africa was finally swallowed."
+    },
+    {
+      "matchText": "Indus",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South Asia: the Indus, the river marking the eastern edge of the territory the new Islamic state had reached."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the East: the eastern Roman Empire, two-thirds of it amputated by the Arab conquests just as Persia was destroyed."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the surviving Roman East: Latin, the legal and liturgical language the West preserved as the empire split into Latin and Greek halves."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the strait: the Maghreb, the Muslim North African shore that fed the conquest of Spain and bounded the western Mediterranean."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in conquered Spain: the brilliant Andalusian civilization of al-Andalus, whose scholarship would feed back into Latin Europe centuries later."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in al-Andalus: Cordoba, capital of Muslim Spain and seat of the brilliant culture that grew up in the conquered peninsula."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: Damascus, the Umayyad capital from which the distant raids into Gaul were impractically far to direct."
+    },
+    {
+      "matchText": "Carolingian",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the North: the Carolingian realm whose wealth and coastline would draw the Viking raiders of the following century."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Caliphate, the central Umayyad government whose frontier commanders, not its core, mounted the raids into Gaul."
+    },
+    {
+      "matchText": "Lombards",
+      "targetTl": "migration-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Italy: the Lombards, the Germanic kingdom pressing on Rome that drove the pope into the arms of the Franks."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the East: Constantinople, the Byzantine capital that had effectively given up on protecting Rome, pushing the papacy toward the Franks."
+    },
+    {
+      "matchText": "Great Schism",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Looking ahead: the Great Schism of 1054, the formal split of Latin and Greek Christianity that this Frankish-papal re-orientation set in motion."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: Baghdad, the new Abbasid capital that replaced Damascus as the center of the Islamic world after 750."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the religious and political background of the new caliphate, told from inside."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang dynasty at its golden classical peak while the early medieval west was a small player."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang-Song era, the dominant civilization of the Eurasian east during these centuries."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Americas: the Maya cities of the southern lowlands entering their late-Classic florescence."
+    },
+    {
+      "matchText": "Maya Civilization",
+      "targetTl": "maya-civilization",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica: the Maya civilization, its great lowland cities like Tikal and Palenque at their height."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South America: the Andes, where the Wari and Tiwanaku empires were the dominant powers of the era."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Wari, one of the two great highland empires of the Middle Horizon."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: Tiwanaku, the great altiplano empire sharing dominance with the Wari."
+    },
+    {
+      "matchText": "Polynesia",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Pacific: Polynesia, where the great voyaging expansion was reaching New Zealand and Hawaii within the next two centuries."
+    },
+    {
+      "matchText": "Polynesian Voyagers",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Pacific: the Polynesian voyagers carrying the largest seaborne migration in human history across the open ocean."
     }
   ],
   "5": [
@@ -181,6 +517,84 @@
       "targetTl": "middle-horizon-empires",
       "targetChapter": 4,
       "blurb": "The Wari Empire was the dominant Andean polity through Charlemagne's lifetime — a highland imperial state with a planned-grid urban capital at Wari (near modern Ayacucho), administrative outposts running from the Pacific coast into the eastern slopes, and a textile-and-quipu accounting system that would inform the later Inca administrative apparatus. Middle Horizon Empires Ch 4 covers the Wari at the same decades described in this chapter."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Germanic world: the Saxons Charlemagne fought were one of the great tribal confederations that coalesced out of the third-century crisis on Rome's frontier."
+    },
+    {
+      "matchText": "Vendel Age",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Scandinavia: the pressure of Charlemagne's Saxon Wars helped trigger the Danish consolidation of the Vendel Age, the era just before the Vikings."
+    },
+    {
+      "matchText": "Lindisfarne",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the North: the 793 raid on the island monastery of Lindisfarne is conventionally taken as the opening blow of the Viking Age."
+    },
+    {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, centuries later in Italy: Renaissance humanists hunting old manuscripts rediscovered Carolingian copies and mistook the clean script for ancient Roman hand."
+    },
+    {
+      "matchText": "Cicero",
+      "targetTl": "ancient-rome",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, back in Rome: the orator and statesman Cicero, whose works survive almost entirely because Carolingian monks copied them."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the East: Constantinople was the seat of the surviving Roman Empire, whose emperors regarded the Roman imperial title as theirs alone."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the East: the Byzantine court furiously rejected Charlemagne's imperial title, insisting there could be only one Roman emperor."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate under Harun al-Rashid, Charlemagne's diplomatic correspondent, was at the height of its golden age."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the Tang dynasty was at its classical peak, the age of the great poets Li Bai and Du Fu."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Wari Empire was the dominant power across the Peruvian highlands."
+    },
+    {
+      "matchText": "Classic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Mesoamerica: the great Classic Maya cities were entering the terminal collapse that would empty the southern lowlands over the next century."
+    },
+    {
+      "matchText": "Polynesia",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the Pacific: Polynesian voyagers were settling Hawaii and pushing toward New Zealand at the far edge of human migration."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iberia: Charlemagne intervened in 778 on behalf of one faction in Muslim al-Andalus, the campaign that produced the Roncesvalles ambush."
     }
   ],
   "6": [
@@ -213,6 +627,48 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "The Macedonian Renaissance was reviving Byzantium just as Carolingian Europe fractured — the Greek east waxing as the Latin west waned."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China, the Tang Dynasty was at its mature classical peak even as it began wrestling with the imperial overstretch that the An Lushan Rebellion exposed."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Abbasid Caliphate, Baghdad was the largest city on earth and the cultural and political heart of the Islamic world."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile the Abbasid Caliphate was at the height of its power under al-Mu'tasim and al-Wathiq, with Baghdad the world's largest city."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, the two great highland empires of the Middle Horizon were beginning to weaken."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, the Tiwanaku state around Lake Titicaca was one of the twin powers of the Middle Horizon, now entering decline."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, the Wari empire of the central highlands was the other great Middle Horizon power, also beginning to fray."
+    },
+    {
+      "matchText": "Aztec",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesoamerica, the Postclassic cultures that would culminate in the Aztec empire were just emerging after the Classic Maya collapse."
     }
   ],
   "7": [
@@ -269,6 +725,72 @@
       "targetTl": "tang-song-china",
       "targetChapter": 4,
       "blurb": "The triple shock that battered Europe coincides with the An Lushan catastrophe gutting Tang China — both classical orders reeling from mobile force at once."
+    },
+    {
+      "matchText": "Anglo-Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the English kingdoms the Vikings were dismantling: the Anglo-Saxon world that the Great Heathen Army shattered."
+    },
+    {
+      "matchText": "Vendel Age",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Scandinavia: the pre-Viking Vendel Age society whose boat-graves and warbands produced the raiders who fell on Europe."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in England: the Anglo-Saxon kingdoms, told from their own side of the Viking storm."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: the surviving Roman empire at Constantinople, into whose cultural and religious orbit Rus' was drawn."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, three centuries later: the steppe terror the Mongols would unleash, which Frankish chroniclers' Magyar-raid language eerily prefigures."
+    },
+    {
+      "matchText": "Tang-Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in China: the An Lushan Rebellion and its aftermath crippled the Tang in the same mid-ninth-century crisis window."
+    },
+    {
+      "matchText": "al-Andalus",
+      "targetTl": "al-andalus",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Iberia: Muslim al-Andalus, from whose coast the raiders who seized Fraxinetum sailed."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile, a Roman afterlife: the lagoon city of Venice, founded by refugees from Rome's collapse, kept its own fleet against the Saracens."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid civil wars that fractured the caliphate at the same mid-ninth-century moment."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the East: the Abbasid Caliphate, whose splintering into rival caliphates the Islamic Golden Age narrative tells from the inside."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the same Saracens from the Muslim side: the Islamic Golden Age and its Mediterranean dynasties."
     }
   ],
   "8": [
@@ -325,6 +847,60 @@
       "targetTl": "polynesian-voyagers",
       "targetChapter": 3,
       "blurb": "Around the year 1000, as Ottonian Europe stabilized, Polynesians were completing the settlement of the remotest Pacific — Easter Island, New Zealand — the opposite edge of the human world."
+    },
+    {
+      "matchText": "Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Britain: the same Saxon stock that backed the Ottonian dynasty had, centuries earlier, crossed the North Sea to settle and rule post-Roman England."
+    },
+    {
+      "matchText": "Henry II",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the High Middle Ages: the last Ottonian emperor's church-driven rule set up the emperor-versus-pope showdown that would dominate the coming centuries."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Constantinople: at its Macedonian-dynasty peak, the eastern Roman empire was the senior Christian power whose princess Vladimir married to seal the Rus' conversion."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Constantinople: it was Byzantium's alphabet, architecture, and political theology — not Rome's — that the newly-Christian Rus' adopted."
+    },
+    {
+      "matchText": "Byzantine Macedonian Renaissance",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Constantinople: under the Macedonian dynasty the empire reconquered lost ground and enjoyed a cultural revival just as the Latin west was stabilizing."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic world: in the year 1000 the Abbasid realm was demonstrably larger, richer, and more sophisticated than the recovering Latin west."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Egypt: the Fatimid Caliphate was at its peak, with Cairo ranking among the great cities of the Mediterranean world."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in South America: the Wari empire had collapsed and the regional Andean kingdoms that would precede the Inca were taking shape."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Andes: the Wari, one of the two great Middle Horizon empires, had fallen by the year 1000, leaving a patchwork of successor kingdoms."
     }
   ]
 }

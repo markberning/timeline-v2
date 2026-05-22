@@ -43,18 +43,6 @@
       "type": "people"
     },
     {
-      "term": "Anglo-Saxons",
-      "matchText": "Anglo-Saxons",
-      "wikiSlug": "Anglo-Saxons",
-      "type": "people"
-    },
-    {
-      "term": "Lombards",
-      "matchText": "Lombards",
-      "wikiSlug": "Lombards",
-      "type": "people"
-    },
-    {
       "term": "Arianism",
       "matchText": "Arianism",
       "wikiSlug": "Arianism",
@@ -109,12 +97,6 @@
       "type": "people"
     },
     {
-      "term": "Alaric II",
-      "matchText": "Alaric II",
-      "wikiSlug": "Alaric_II",
-      "type": "people"
-    },
-    {
       "term": "Pyrenees",
       "matchText": "Pyrenees",
       "wikiSlug": "Pyrenees",
@@ -125,12 +107,6 @@
       "matchText": "Carthage",
       "wikiSlug": "Carthage",
       "type": "place"
-    },
-    {
-      "term": "Anglo-Saxons",
-      "matchText": "Anglo-Saxons",
-      "wikiSlug": "Anglo-Saxons",
-      "type": "people"
     },
     {
       "term": "Salarian Gate",
@@ -155,6 +131,241 @@
       "matchText": "Remigius",
       "wikiSlug": "Saint_Remigius",
       "type": "people"
+    },
+    {
+      "matchText": "King Alfred",
+      "term": "King Alfred",
+      "wikiSlug": "Alfred_the_Great"
+    },
+    {
+      "matchText": "Scirian",
+      "term": "Sciri (Scirians)",
+      "wikiSlug": "Sciri"
+    },
+    {
+      "matchText": "Campania",
+      "term": "Campania",
+      "wikiSlug": "Campania"
+    },
+    {
+      "matchText": "Zeno",
+      "term": "Zeno (emperor)",
+      "wikiSlug": "Zeno_(emperor)"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Gothic",
+      "term": "Goths",
+      "wikiSlug": "Goths"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch language",
+      "wikiSlug": "Dutch_language"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "North Germanic (Scandinavian) languages",
+      "wikiSlug": "North_Germanic_languages"
+    },
+    {
+      "matchText": "Danube",
+      "term": "Danube",
+      "wikiSlug": "Danube"
+    },
+    {
+      "matchText": "Valens",
+      "term": "Valens",
+      "wikiSlug": "Valens"
+    },
+    {
+      "matchText": "Gaul",
+      "term": "Gaul",
+      "wikiSlug": "Gaul"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Toulouse",
+      "term": "Toulouse",
+      "wikiSlug": "Toulouse"
+    },
+    {
+      "matchText": "Toledo",
+      "term": "Toledo, Spain",
+      "wikiSlug": "Toledo,_Spain"
+    },
+    {
+      "matchText": "Rhine",
+      "term": "Rhine",
+      "wikiSlug": "Rhine"
+    },
+    {
+      "matchText": "Western Empire",
+      "term": "Western Roman Empire",
+      "wikiSlug": "Western_Roman_Empire"
+    },
+    {
+      "matchText": "Burgundy",
+      "term": "Burgundy",
+      "wikiSlug": "Burgundy"
+    },
+    {
+      "matchText": "Angles",
+      "term": "Angles (tribe)",
+      "wikiSlug": "Angles_(tribe)"
+    },
+    {
+      "matchText": "Jutes",
+      "term": "Jutes",
+      "wikiSlug": "Jutes"
+    },
+    {
+      "matchText": "North Sea",
+      "term": "North Sea",
+      "wikiSlug": "North_Sea"
+    },
+    {
+      "matchText": "Vikings",
+      "term": "Vikings",
+      "wikiSlug": "Vikings"
+    },
+    {
+      "matchText": "Alps",
+      "term": "Alps",
+      "wikiSlug": "Alps"
+    },
+    {
+      "matchText": "Frankish",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Reims",
+      "term": "Reims",
+      "wikiSlug": "Reims"
+    },
+    {
+      "matchText": "Arius",
+      "term": "Arius",
+      "wikiSlug": "Arius"
+    },
+    {
+      "matchText": "Arian",
+      "term": "Arianism",
+      "wikiSlug": "Arianism"
+    },
+    {
+      "matchText": "Arian Christianity",
+      "term": "Gothic (Arian) Christianity",
+      "wikiSlug": "Gothic_Christianity"
+    },
+    {
+      "matchText": "Hunnic",
+      "term": "Huns",
+      "wikiSlug": "Huns"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norsemen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Catholicism",
+      "term": "Catholic Church",
+      "wikiSlug": "Catholic_Church"
+    },
+    {
+      "matchText": "Eastern Roman Empire",
+      "term": "Byzantine Empire",
+      "wikiSlug": "Byzantine_Empire"
+    },
+    {
+      "matchText": "Francia",
+      "term": "Francia",
+      "wikiSlug": "Francia"
+    },
+    {
+      "matchText": "Charlemagne",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Symmachus",
+      "term": "Quintus Aurelius Memmius Symmachus",
+      "wikiSlug": "Quintus_Aurelius_Memmius_Symmachus"
+    },
+    {
+      "matchText": "Horace",
+      "term": "Horace",
+      "wikiSlug": "Horace"
+    },
+    {
+      "matchText": "Carolingian",
+      "term": "Carolingian dynasty",
+      "wikiSlug": "Carolingian_dynasty"
+    },
+    {
+      "matchText": "Aachen",
+      "term": "Aachen",
+      "wikiSlug": "Aachen"
+    },
+    {
+      "matchText": "Petrarch",
+      "term": "Petrarch",
+      "wikiSlug": "Petrarch"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Yucatán",
+      "term": "Yucatán Peninsula",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula"
+    },
+    {
+      "matchText": "Völkerwanderung",
+      "term": "Migration Period",
+      "wikiSlug": "Migration_Period"
+    },
+    {
+      "matchText": "Langobardi",
+      "term": "Lombards",
+      "wikiSlug": "Lombards"
+    },
+    {
+      "matchText": "bishops",
+      "term": "Bishop",
+      "wikiSlug": "Bishop"
+    },
+    {
+      "matchText": "pope",
+      "term": "Pope",
+      "wikiSlug": "Pope"
+    },
+    {
+      "matchText": "pappas",
+      "term": "pappas",
+      "definition": "Greek for \"father\" (Παππάς) — the affectionate term for a senior churchman that, applied to the bishop of Rome, gives us the English word \"pope.\""
+    },
+    {
+      "matchText": "Christianized",
+      "term": "Christianized",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
     }
   ],
   "2": [
@@ -285,18 +496,6 @@
       "type": "people"
     },
     {
-      "term": "Sasanian Empire",
-      "matchText": "Sasanian",
-      "wikiSlug": "Sasanian_Empire",
-      "type": "concept"
-    },
-    {
-      "term": "Edictum Rothari",
-      "matchText": "Edictum Rothari",
-      "wikiSlug": "Edictum_Rothari",
-      "type": "concept"
-    },
-    {
       "term": "Isidore of Miletus",
       "matchText": "Isidore of Miletus",
       "wikiSlug": "Isidore_of_Miletus",
@@ -313,6 +512,151 @@
       "matchText": "Pavia",
       "wikiSlug": "Pavia",
       "type": "place"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Digest",
+      "term": "Digest (Roman law)",
+      "wikiSlug": "Digest_(Roman_law)"
+    },
+    {
+      "matchText": "Institutes",
+      "term": "Institutes (Justinian)",
+      "wikiSlug": "Institutes_(Justinian)"
+    },
+    {
+      "matchText": "Novels",
+      "term": "Novellae Constitutiones",
+      "wikiSlug": "Novellae_Constitutiones"
+    },
+    {
+      "matchText": "Bologna",
+      "term": "University of Bologna",
+      "wikiSlug": "University_of_Bologna"
+    },
+    {
+      "matchText": "Solomon",
+      "term": "Solomon",
+      "wikiSlug": "Solomon"
+    },
+    {
+      "matchText": "Roman Empire",
+      "term": "Roman Empire",
+      "wikiSlug": "Roman_Empire"
+    },
+    {
+      "matchText": "Naples",
+      "term": "Naples",
+      "wikiSlug": "Naples"
+    },
+    {
+      "matchText": "Ravenna",
+      "term": "Ravenna",
+      "wikiSlug": "Ravenna"
+    },
+    {
+      "matchText": "Mons Lactarius",
+      "term": "Battle of Mons Lactarius",
+      "wikiSlug": "Battle_of_Mons_Lactarius"
+    },
+    {
+      "matchText": "Theodoric",
+      "term": "Theodoric the Great",
+      "wikiSlug": "Theodoric_the_Great"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin",
+      "wikiSlug": "Latin"
+    },
+    {
+      "matchText": "Gothic War",
+      "term": "Gothic War (535–554)",
+      "wikiSlug": "Gothic_War_(535%E2%80%93554)"
+    },
+    {
+      "matchText": "Visigoths",
+      "term": "Visigoths",
+      "wikiSlug": "Visigoths"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Western Empire",
+      "term": "Western Roman Empire",
+      "wikiSlug": "Western_Roman_Empire"
+    },
+    {
+      "matchText": "Hungarian",
+      "term": "Great Hungarian Plain",
+      "wikiSlug": "Great_Hungarian_Plain"
+    },
+    {
+      "matchText": "Saxons",
+      "term": "Saxons",
+      "wikiSlug": "Saxons"
+    },
+    {
+      "matchText": "Arianism",
+      "term": "Arianism",
+      "wikiSlug": "Arianism"
+    },
+    {
+      "matchText": "Catholicism",
+      "term": "Catholic Church",
+      "wikiSlug": "Catholic_Church"
+    },
+    {
+      "matchText": "Charlemagne",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Arabs",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Thebes",
+      "term": "Thebes, Greece",
+      "wikiSlug": "Thebes,_Greece"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Langobardi",
+      "term": "Lombards",
+      "wikiSlug": "Lombards"
+    },
+    {
+      "matchText": "Hunnic",
+      "term": "Huns",
+      "definition": "Relating to the Huns, the nomadic confederation whose westward push helped shatter the late-antique order; here, the steppe pressure that helped topple the Gupta Empire in India around 550."
     }
   ],
   "3": [
@@ -977,6 +1321,11 @@
       "matchText": "canonized",
       "wikiSlug": "Canonization",
       "type": "concept"
+    },
+    {
+      "matchText": "Christianized",
+      "term": "Christianized",
+      "wikiSlug": "Christianization"
     }
   ],
   "4": [
@@ -985,12 +1334,6 @@
       "matchText": "caliphs",
       "wikiSlug": "Caliph",
       "type": "concept"
-    },
-    {
-      "term": "Battle of Yarmouk",
-      "matchText": "Yarmouk",
-      "wikiSlug": "Battle_of_the_Yarmuk",
-      "type": "place"
     },
     {
       "term": "Sasanian Empire",
@@ -1077,12 +1420,6 @@
       "type": "concept"
     },
     {
-      "term": "Reccared I",
-      "matchText": "Reccared",
-      "wikiSlug": "Reccared_I",
-      "type": "people"
-    },
-    {
       "term": "Visigothic kingdom",
       "matchText": "Visigothic kingdom",
       "wikiSlug": "Visigothic_Kingdom",
@@ -1111,6 +1448,206 @@
       "matchText": "Stephen II",
       "wikiSlug": "Pope_Stephen_II",
       "type": "people"
+    },
+    {
+      "matchText": "Jabal Tariq",
+      "term": "Jabal Tariq",
+      "wikiSlug": "Gibraltar"
+    },
+    {
+      "matchText": "Edward Gibbon",
+      "term": "Edward Gibbon",
+      "wikiSlug": "Edward_Gibbon"
+    },
+    {
+      "matchText": "Medina",
+      "term": "Medina",
+      "wikiSlug": "Medina"
+    },
+    {
+      "matchText": "Frankish",
+      "term": "Frankish",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Gaul",
+      "term": "Gaul",
+      "wikiSlug": "Gaul"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Ctesiphon",
+      "term": "Ctesiphon",
+      "wikiSlug": "Ctesiphon"
+    },
+    {
+      "matchText": "Alexandria",
+      "term": "Alexandria",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "matchText": "Augustus",
+      "term": "Augustus",
+      "wikiSlug": "Augustus"
+    },
+    {
+      "matchText": "Tunisia",
+      "term": "Tunisia",
+      "wikiSlug": "Tunisia"
+    },
+    {
+      "matchText": "Arabs",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Clovis",
+      "term": "Clovis",
+      "wikiSlug": "Clovis_I"
+    },
+    {
+      "matchText": "Vouillé",
+      "term": "Vouillé",
+      "wikiSlug": "Battle_of_Vouill%C3%A9"
+    },
+    {
+      "matchText": "Pillars of Hercules",
+      "term": "Pillars of Hercules",
+      "wikiSlug": "Pillars_of_Hercules"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Gibraltar",
+      "term": "Gibraltar",
+      "wikiSlug": "Gibraltar"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberia",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Navarre",
+      "term": "Navarre",
+      "wikiSlug": "Kingdom_of_Navarre"
+    },
+    {
+      "matchText": "Basque",
+      "term": "Basque",
+      "wikiSlug": "Basque_language"
+    },
+    {
+      "matchText": "Pyrenees",
+      "term": "Pyrenees",
+      "wikiSlug": "Pyrenees"
+    },
+    {
+      "matchText": "Merovingian",
+      "term": "Merovingian dynasty",
+      "wikiSlug": "Merovingian_dynasty"
+    },
+    {
+      "matchText": "Francia",
+      "term": "Francia",
+      "wikiSlug": "Francia"
+    },
+    {
+      "matchText": "Charlemagne",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Bordeaux",
+      "term": "Bordeaux",
+      "wikiSlug": "Bordeaux"
+    },
+    {
+      "matchText": "Saint-Martin",
+      "term": "Abbey of Saint-Martin at Tours",
+      "wikiSlug": "Martin_of_Tours"
+    },
+    {
+      "matchText": "Khazars",
+      "term": "Khazars",
+      "wikiSlug": "Khazars"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Samuel",
+      "term": "Samuel",
+      "wikiSlug": "Samuel"
+    },
+    {
+      "matchText": "Alps",
+      "term": "Alps",
+      "wikiSlug": "Alps"
+    },
+    {
+      "matchText": "Saint-Denis",
+      "term": "Saint-Denis",
+      "wikiSlug": "Basilica_of_Saint-Denis"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "Ravenna",
+      "term": "Ravenna",
+      "wikiSlug": "Ravenna"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Tikal",
+      "term": "Tikal",
+      "wikiSlug": "Tikal"
+    },
+    {
+      "matchText": "Palenque",
+      "term": "Palenque",
+      "wikiSlug": "Palenque"
+    },
+    {
+      "matchText": "Copán",
+      "term": "Copán",
+      "wikiSlug": "Cop%C3%A1n"
+    },
+    {
+      "matchText": "Abd al-Rahman al-Ghafiqi",
+      "term": "Abd al-Rahman al-Ghafiqi",
+      "wikiSlug": "Abd_al-Rahman_ibn_Abd_Allah_al-Ghafiqi"
+    },
+    {
+      "matchText": "Carolus",
+      "term": "Carolus",
+      "definition": "The Latin form of the name Charles. The Frankish ruling house took its dynastic name, Carolingian, from this Latin root — first from Charles Martel's grandfather Charles, and later cemented by Charles Martel himself and his grandson Charlemagne."
     }
   ],
   "5": [
@@ -1251,6 +1788,201 @@
       "matchText": "Louis the Pious",
       "wikiSlug": "Louis_the_Pious",
       "type": "people"
+    },
+    {
+      "matchText": "True Cross",
+      "term": "True Cross",
+      "wikiSlug": "True_Cross"
+    },
+    {
+      "matchText": "Otto I",
+      "term": "Otto I",
+      "wikiSlug": "Otto_I,_Holy_Roman_Emperor"
+    },
+    {
+      "matchText": "Li Bai",
+      "term": "Li Bai",
+      "wikiSlug": "Li_Bai"
+    },
+    {
+      "matchText": "Du Fu",
+      "term": "Du Fu",
+      "wikiSlug": "Du_Fu"
+    },
+    {
+      "matchText": "Pippin the Short",
+      "term": "Pippin the Short",
+      "wikiSlug": "Pepin_the_Short"
+    },
+    {
+      "matchText": "Frankish",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Charles",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin language",
+      "wikiSlug": "Latin"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Carolus Magnus",
+      "term": "Carolus Magnus (Charlemagne)",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Carolingian Empire",
+      "term": "Carolingian Empire",
+      "wikiSlug": "Carolingian_Empire"
+    },
+    {
+      "matchText": "North Sea",
+      "term": "North Sea",
+      "wikiSlug": "North_Sea"
+    },
+    {
+      "matchText": "Lent",
+      "term": "Lent",
+      "wikiSlug": "Lent"
+    },
+    {
+      "matchText": "Donation of Pippin",
+      "term": "Donation of Pippin",
+      "wikiSlug": "Donation_of_Pepin"
+    },
+    {
+      "matchText": "Hungarian plain",
+      "term": "Great Hungarian Plain",
+      "wikiSlug": "Great_Hungarian_Plain"
+    },
+    {
+      "matchText": "Pyrenees",
+      "term": "Pyrenees",
+      "wikiSlug": "Pyrenees"
+    },
+    {
+      "matchText": "Elbe",
+      "term": "Elbe",
+      "wikiSlug": "Elbe"
+    },
+    {
+      "matchText": "Low Countries",
+      "term": "Low Countries",
+      "wikiSlug": "Low_Countries"
+    },
+    {
+      "matchText": "Ravenna",
+      "term": "Ravenna",
+      "wikiSlug": "Ravenna"
+    },
+    {
+      "matchText": "Bede",
+      "term": "Bede",
+      "wikiSlug": "Bede"
+    },
+    {
+      "matchText": "Tacitus",
+      "term": "Tacitus",
+      "wikiSlug": "Tacitus"
+    },
+    {
+      "matchText": "Livy",
+      "term": "Livy",
+      "wikiSlug": "Livy"
+    },
+    {
+      "matchText": "Suetonius",
+      "term": "Suetonius",
+      "wikiSlug": "Suetonius"
+    },
+    {
+      "matchText": "Insular",
+      "term": "Insular script",
+      "wikiSlug": "Insular_script"
+    },
+    {
+      "matchText": "Visigothic",
+      "term": "Visigothic script",
+      "wikiSlug": "Visigothic_script"
+    },
+    {
+      "matchText": "Merovingian",
+      "term": "Merovingian dynasty",
+      "wikiSlug": "Merovingian_dynasty"
+    },
+    {
+      "matchText": "Gaul",
+      "term": "Gaul",
+      "wikiSlug": "Gaul"
+    },
+    {
+      "matchText": "Gothic",
+      "term": "Gothic (blackletter) script",
+      "wikiSlug": "Blackletter"
+    },
+    {
+      "matchText": "Mass",
+      "term": "Mass (liturgy)",
+      "wikiSlug": "Mass_(liturgy)"
+    },
+    {
+      "matchText": "Eastern Roman Empire",
+      "term": "Eastern Roman Empire",
+      "wikiSlug": "Byzantine_Empire"
+    },
+    {
+      "matchText": "Constantine VI",
+      "term": "Constantine VI",
+      "wikiSlug": "Constantine_VI"
+    },
+    {
+      "matchText": "Augustus",
+      "term": "Augustus",
+      "wikiSlug": "Augustus"
+    },
+    {
+      "matchText": "Constantine",
+      "term": "Constantine the Great",
+      "wikiSlug": "Constantine_the_Great"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "High Middle Ages",
+      "term": "High Middle Ages",
+      "wikiSlug": "High_Middle_Ages"
+    },
+    {
+      "matchText": "littera antiqua",
+      "term": "littera antiqua / Antiqua type",
+      "wikiSlug": "Antiqua"
+    },
+    {
+      "matchText": "Danish",
+      "term": "Danish",
+      "wikiSlug": "Danes"
     }
   ],
   "6": [
@@ -1276,12 +2008,6 @@
       "term": "Field of Lies",
       "matchText": "Field of Lies",
       "wikiSlug": "Field_of_Lies",
-      "type": "concept"
-    },
-    {
-      "term": "Strasbourg Oaths",
-      "matchText": "Strasbourg Oaths",
-      "wikiSlug": "Oaths_of_Strasbourg",
       "type": "concept"
     },
     {
@@ -1380,6 +2106,176 @@
       "matchText": "missi dominici",
       "wikiSlug": "Missus_dominicus",
       "type": "concept"
+    },
+    {
+      "matchText": "Louis XIV",
+      "term": "Louis XIV",
+      "wikiSlug": "Louis_XIV"
+    },
+    {
+      "matchText": "Charlemagne",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Vikings",
+      "term": "Vikings",
+      "wikiSlug": "Vikings"
+    },
+    {
+      "matchText": "Frankish",
+      "term": "Frankish",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Benedictine",
+      "term": "Benedictine",
+      "wikiSlug": "Benedictines"
+    },
+    {
+      "matchText": "Carolingian",
+      "term": "Carolingian",
+      "wikiSlug": "Carolingian_dynasty"
+    },
+    {
+      "matchText": "Lothair",
+      "term": "Lothair I",
+      "wikiSlug": "Lothair_I"
+    },
+    {
+      "matchText": "Pippin",
+      "term": "Pippin (Pepin I of Aquitaine)",
+      "wikiSlug": "Pepin_I_of_Aquitaine"
+    },
+    {
+      "matchText": "Louis the German",
+      "term": "Louis the German",
+      "wikiSlug": "Louis_the_German"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin",
+      "wikiSlug": "Latin"
+    },
+    {
+      "matchText": "West Francia",
+      "term": "West Francia",
+      "wikiSlug": "West_Francia"
+    },
+    {
+      "matchText": "East Francia",
+      "term": "East Francia",
+      "wikiSlug": "East_Francia"
+    },
+    {
+      "matchText": "Rhine",
+      "term": "Rhine",
+      "wikiSlug": "Rhine"
+    },
+    {
+      "matchText": "Saxony",
+      "term": "Saxony",
+      "wikiSlug": "Duchy_of_Saxony"
+    },
+    {
+      "matchText": "Middle Francia",
+      "term": "Middle Francia",
+      "wikiSlug": "Middle_Francia"
+    },
+    {
+      "matchText": "Low Countries",
+      "term": "Low Countries",
+      "wikiSlug": "Low_Countries"
+    },
+    {
+      "matchText": "Burgundy",
+      "term": "Burgundy",
+      "wikiSlug": "Burgundy"
+    },
+    {
+      "matchText": "Alsace",
+      "term": "Alsace",
+      "wikiSlug": "Alsace"
+    },
+    {
+      "matchText": "European Union",
+      "term": "European Union",
+      "wikiSlug": "European_Union"
+    },
+    {
+      "matchText": "Louis II",
+      "term": "Louis II of Italy",
+      "wikiSlug": "Louis_II_of_Italy"
+    },
+    {
+      "matchText": "Lothair II",
+      "term": "Lothair II",
+      "wikiSlug": "Lothair_II"
+    },
+    {
+      "matchText": "Provence",
+      "term": "Provence",
+      "wikiSlug": "Provence"
+    },
+    {
+      "matchText": "Carolingian Empire",
+      "term": "Carolingian Empire",
+      "wikiSlug": "Carolingian_Empire"
+    },
+    {
+      "matchText": "Kingdom of Italy",
+      "term": "Kingdom of Italy",
+      "wikiSlug": "Kingdom_of_Italy_(Holy_Roman_Empire)"
+    },
+    {
+      "matchText": "Kingdom of Burgundy",
+      "term": "Kingdom of Burgundy",
+      "wikiSlug": "Kingdom_of_Burgundy"
+    },
+    {
+      "matchText": "Kingdom of Provence",
+      "term": "Kingdom of Provence",
+      "wikiSlug": "Lower_Burgundy"
+    },
+    {
+      "matchText": "Saxon",
+      "term": "Saxon",
+      "wikiSlug": "Saxons"
+    },
+    {
+      "matchText": "Henry the Fowler",
+      "term": "Henry the Fowler",
+      "wikiSlug": "Henry_the_Fowler"
+    },
+    {
+      "matchText": "Saracen",
+      "term": "Saracen",
+      "wikiSlug": "Saracen"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Frankish inheritance custom",
+      "term": "Frankish inheritance custom",
+      "wikiSlug": "Partible_inheritance"
+    },
+    {
+      "matchText": "Norman",
+      "term": "Norman",
+      "definition": "The Normans were the descendants of Vikings who settled in northern France in the early tenth century, took on French language and Frankish customs, and went on to conquer England in 1066 and carve out kingdoms in southern Italy and Sicily — the \"Norman south\" the chapter points to."
+    },
+    {
+      "matchText": "lingua romana rustica",
+      "term": "lingua romana rustica",
+      "definition": "Latin for \"rustic Roman language\" — the everyday spoken descendant of Latin in the western Frankish lands by the ninth century. Charles the Bald's Strasbourg oath, recorded in it, is the earliest substantial text that reads as French rather than Latin."
     }
   ],
   "7": [
@@ -1486,12 +2382,6 @@
       "type": "place"
     },
     {
-      "term": "Aghlabid dynasty",
-      "matchText": "Aghlabid",
-      "wikiSlug": "Aghlabids",
-      "type": "concept"
-    },
-    {
       "term": "Palermo",
       "matchText": "Palermo",
       "wikiSlug": "Palermo",
@@ -1562,6 +2452,281 @@
       "matchText": "Cluny",
       "wikiSlug": "Cluny_Abbey",
       "type": "place"
+    },
+    {
+      "matchText": "Stamford Bridge",
+      "term": "Stamford Bridge",
+      "wikiSlug": "Battle_of_Stamford_Bridge"
+    },
+    {
+      "matchText": "North Sea",
+      "term": "North Sea",
+      "wikiSlug": "North_Sea"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavians",
+      "wikiSlug": "Scandinavians"
+    },
+    {
+      "matchText": "Newfoundland",
+      "term": "Newfoundland",
+      "wikiSlug": "Newfoundland_(island)"
+    },
+    {
+      "matchText": "Carolingian",
+      "term": "Carolingian Empire",
+      "wikiSlug": "Carolingian_Empire"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Alcuin of York",
+      "term": "Alcuin of York",
+      "wikiSlug": "Alcuin"
+    },
+    {
+      "matchText": "Charlemagne",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin",
+      "wikiSlug": "Latin"
+    },
+    {
+      "matchText": "Frankish",
+      "term": "Frankish",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Low Countries",
+      "term": "Low Countries",
+      "wikiSlug": "Low_Countries"
+    },
+    {
+      "matchText": "Louis the Pious",
+      "term": "Louis the Pious",
+      "wikiSlug": "Louis_the_Pious"
+    },
+    {
+      "matchText": "Charles the Bald",
+      "term": "Charles the Bald",
+      "wikiSlug": "Charles_the_Bald"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "Danish",
+      "term": "Danes",
+      "wikiSlug": "Danes"
+    },
+    {
+      "matchText": "Whitby",
+      "term": "Whitby",
+      "wikiSlug": "Whitby"
+    },
+    {
+      "matchText": "Augustine",
+      "term": "Augustine of Hippo",
+      "wikiSlug": "Augustine_of_Hippo"
+    },
+    {
+      "matchText": "Seine",
+      "term": "Seine",
+      "wikiSlug": "Seine"
+    },
+    {
+      "matchText": "Loire",
+      "term": "Loire",
+      "wikiSlug": "Loire"
+    },
+    {
+      "matchText": "Siege of Paris",
+      "term": "Siege of Paris",
+      "wikiSlug": "Siege_of_Paris_(885%E2%80%93886)"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Charles the Fat",
+      "term": "Charles the Fat",
+      "wikiSlug": "Charles_the_Fat"
+    },
+    {
+      "matchText": "Burgundy",
+      "term": "Burgundy",
+      "wikiSlug": "Burgundy"
+    },
+    {
+      "matchText": "Arnulf of Carinthia",
+      "term": "Arnulf of Carinthia",
+      "wikiSlug": "Arnulf_of_Carinthia"
+    },
+    {
+      "matchText": "Normandy",
+      "term": "Normandy",
+      "wikiSlug": "Duchy_of_Normandy"
+    },
+    {
+      "matchText": "Dukes of Normandy",
+      "term": "Dukes of Normandy",
+      "wikiSlug": "Norman_dynasty"
+    },
+    {
+      "matchText": "Normans",
+      "term": "Normans",
+      "wikiSlug": "Normans"
+    },
+    {
+      "matchText": "Novgorod",
+      "term": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod"
+    },
+    {
+      "matchText": "Rurik",
+      "term": "Rurik",
+      "wikiSlug": "Rurik"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Belarus",
+      "term": "Belarus",
+      "wikiSlug": "Belarus"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Anna",
+      "term": "Anna Porphyrogenita",
+      "wikiSlug": "Anna_Porphyrogenita"
+    },
+    {
+      "matchText": "Eastern Orthodox",
+      "term": "Eastern Orthodox",
+      "wikiSlug": "Eastern_Orthodox_Church"
+    },
+    {
+      "matchText": "Indo-European",
+      "term": "Indo-European",
+      "wikiSlug": "Indo-European_languages"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Avar",
+      "term": "Avar",
+      "wikiSlug": "Pannonian_Avars"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Saxony",
+      "term": "Saxony",
+      "wikiSlug": "Duchy_of_Saxony"
+    },
+    {
+      "matchText": "Provence",
+      "term": "Provence",
+      "wikiSlug": "Provence"
+    },
+    {
+      "matchText": "Pavia",
+      "term": "Pavia",
+      "wikiSlug": "Pavia"
+    },
+    {
+      "matchText": "Verona",
+      "term": "Verona",
+      "wikiSlug": "Verona"
+    },
+    {
+      "matchText": "Battle of Lechfeld",
+      "term": "Battle of Lechfeld",
+      "wikiSlug": "Battle_of_Lechfeld"
+    },
+    {
+      "matchText": "Tunisia",
+      "term": "Tunisia",
+      "wikiSlug": "Tunisia"
+    },
+    {
+      "matchText": "Syracuse",
+      "term": "Syracuse",
+      "wikiSlug": "Syracuse,_Sicily"
+    },
+    {
+      "matchText": "Tiber",
+      "term": "Tiber",
+      "wikiSlug": "Tiber"
+    },
+    {
+      "matchText": "Alps",
+      "term": "Alps",
+      "wikiSlug": "Alps"
+    },
+    {
+      "matchText": "Corsica",
+      "term": "Corsica",
+      "wikiSlug": "Corsica"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Yucatán",
+      "term": "Yucatán",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula"
+    },
+    {
+      "matchText": "Count Odo",
+      "term": "Count Odo",
+      "wikiSlug": "Odo_of_France"
+    },
+    {
+      "matchText": "Árpád",
+      "term": "Árpád",
+      "wikiSlug": "%C3%81rp%C3%A1d"
+    },
+    {
+      "matchText": "Provençal coast",
+      "term": "Provençal coast",
+      "definition": "The coastline of Provence in southeastern France, between the Rhône delta and the Italian border. In the ninth and tenth centuries it was lightly defended and exposed to Saracen raiders operating from the Muslim base at Fraxinetum."
+    },
+    {
+      "matchText": "West Francia",
+      "term": "West Francia",
+      "wikiSlug": "West_Francia"
     }
   ],
   "8": [
@@ -1611,18 +2776,6 @@
       "term": "Otto II",
       "matchText": "Otto II",
       "wikiSlug": "Otto_II,_Holy_Roman_Emperor",
-      "type": "people"
-    },
-    {
-      "term": "Otto III",
-      "matchText": "Otto III",
-      "wikiSlug": "Otto_III,_Holy_Roman_Emperor",
-      "type": "people"
-    },
-    {
-      "term": "Pope Sylvester II",
-      "matchText": "Pope Sylvester II",
-      "wikiSlug": "Pope_Sylvester_II",
       "type": "people"
     },
     {
@@ -1744,6 +2897,266 @@
       "matchText": "Ottonian Renaissance",
       "wikiSlug": "Ottonian_Renaissance",
       "type": "concept"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Easter Island",
+      "term": "Easter Island",
+      "wikiSlug": "Easter_Island"
+    },
+    {
+      "matchText": "Frankish",
+      "term": "Frankish",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Magyars",
+      "term": "Magyars",
+      "wikiSlug": "Hungarians"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Elbe",
+      "term": "Elbe",
+      "wikiSlug": "Elbe"
+    },
+    {
+      "matchText": "High Middle Ages",
+      "term": "High Middle Ages",
+      "wikiSlug": "High_Middle_Ages"
+    },
+    {
+      "matchText": "Crusades",
+      "term": "Crusades",
+      "wikiSlug": "Crusades"
+    },
+    {
+      "matchText": "Hamburg",
+      "term": "Hamburg",
+      "wikiSlug": "Hamburg"
+    },
+    {
+      "matchText": "Charlemagne",
+      "term": "Charlemagne",
+      "wikiSlug": "Charlemagne"
+    },
+    {
+      "matchText": "Latin Christianity",
+      "term": "Latin Christianity",
+      "wikiSlug": "Latin_Church"
+    },
+    {
+      "matchText": "East Frankish",
+      "term": "East Frankish kingdom",
+      "wikiSlug": "East_Francia"
+    },
+    {
+      "matchText": "Cluny",
+      "term": "Cluny",
+      "wikiSlug": "Cluny_Abbey"
+    },
+    {
+      "matchText": "Maiolus",
+      "term": "Maiolus of Cluny",
+      "wikiSlug": "Maiolus_of_Cluny"
+    },
+    {
+      "matchText": "Saracens",
+      "term": "Saracens",
+      "wikiSlug": "Saracen"
+    },
+    {
+      "matchText": "Fraxinetum",
+      "term": "Fraxinetum",
+      "wikiSlug": "Fraxinetum"
+    },
+    {
+      "matchText": "Saxony",
+      "term": "Saxony",
+      "wikiSlug": "Saxony"
+    },
+    {
+      "matchText": "East Slavs",
+      "term": "East Slavs",
+      "wikiSlug": "East_Slavs"
+    },
+    {
+      "matchText": "Russians",
+      "term": "Russians",
+      "wikiSlug": "Russians"
+    },
+    {
+      "matchText": "Ukrainians",
+      "term": "Ukrainians",
+      "wikiSlug": "Ukrainians"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic peoples",
+      "wikiSlug": "Baltic_peoples"
+    },
+    {
+      "matchText": "Christianized",
+      "term": "Christianization",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Anna",
+      "term": "Anna Porphyrogenita",
+      "wikiSlug": "Anna_Porphyrogenita"
+    },
+    {
+      "matchText": "Carpathians",
+      "term": "Carpathians",
+      "wikiSlug": "Carpathian_Mountains"
+    },
+    {
+      "matchText": "Adriatic",
+      "term": "Adriatic",
+      "wikiSlug": "Adriatic_Sea"
+    },
+    {
+      "matchText": "Last Judgment",
+      "term": "Last Judgment",
+      "wikiSlug": "Last_Judgment"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Carolingian",
+      "term": "Carolingian dynasty",
+      "wikiSlug": "Carolingian_dynasty"
+    },
+    {
+      "matchText": "Chartres",
+      "term": "Chartres",
+      "wikiSlug": "Chartres_Cathedral"
+    },
+    {
+      "matchText": "Venice",
+      "term": "Venice",
+      "wikiSlug": "Republic_of_Venice"
+    },
+    {
+      "matchText": "Pisa",
+      "term": "Pisa",
+      "wikiSlug": "Pisa"
+    },
+    {
+      "matchText": "Genoa",
+      "term": "Genoa",
+      "wikiSlug": "Genoa"
+    },
+    {
+      "matchText": "Rhine",
+      "term": "Rhine",
+      "wikiSlug": "Rhine"
+    },
+    {
+      "matchText": "Gothic",
+      "term": "Gothic",
+      "wikiSlug": "Gothic_architecture"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Bologna",
+      "term": "Bologna",
+      "wikiSlug": "Bologna"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "Columbus",
+      "term": "Christopher Columbus",
+      "wikiSlug": "Christopher_Columbus"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Rus'",
+      "term": "Kievan Rus'",
+      "wikiSlug": "Kievan_Rus%27"
+    },
+    {
+      "matchText": "Sudan",
+      "term": "Sudan",
+      "wikiSlug": "Sudan"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Odo",
+      "term": "Odo of Cluny",
+      "wikiSlug": "Odo_of_Cluny"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Tula",
+      "term": "Tula",
+      "wikiSlug": "Tula_(Mesoamerican_site)"
+    },
+    {
+      "matchText": "Amalfi",
+      "term": "Amalfi",
+      "wikiSlug": "Amalfi"
+    },
+    {
+      "matchText": "Louis the German",
+      "term": "Louis the German",
+      "wikiSlug": "Louis_the_German"
+    },
+    {
+      "matchText": "Reims",
+      "term": "Reims",
+      "wikiSlug": "Reims"
     }
   ]
 }

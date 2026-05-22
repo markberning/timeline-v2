@@ -373,7 +373,7 @@
     "Papal_States": {
       "title": "Papal States",
       "lead": "The Papal States ( PAY-pəl; Italian: Stato Pontificio; Latin: Dicio Pontificia), officially the State of the Church, were a conglomeration of territories on the Italian peninsula under the direct sovereign rule of the pope from 756 to 1870.",
-      "image": "Papal_proto-national_flag.svg"
+      "image": "Flag_of_the_Papal_States_(pre_1808).svg"
     },
     "Charles_the_Bald": {
       "title": "Charles the Bald",
@@ -452,6 +452,21 @@
     }
   },
   "glossary": {
+    "Clovis_I": {
+      "title": "Clovis I",
+      "lead": "Clovis I (Latin: Chlodovechus; reconstructed Frankish: *Hlodowig; c. 466 – 27 November 511) was the first Frankish king to unite the Franks, changing the form of leadership from a group of petty kings to rule by a single king, and ensuring ",
+      "image": "Saint_Remy_baptise_Clovis_détail.jpg"
+    },
+    "Battle_of_Vouill%C3%A9": {
+      "title": "Battle of Vouillé",
+      "lead": "The Battle of Vouillé (from Latin Campus Vogladensis) was a battle in the Franco-Gothic War and was fought in the northern marches of Visigothic territory, at Vouillé, near Poitiers (Gaul), around spring 507 between the Franks, commanded by",
+      "image": "Clovis_tue_Alaric_II.jpg"
+    },
+    "Theodoric_the_Great": {
+      "title": "Theodoric the Great",
+      "lead": "Theodoric (or Theoderic) the Great (about 454 – 30 August 526), also called the Amal, was king of the Ostrogoths (475–526), and ruler of the Ostrogothic Kingdom of Italy between 493 and 526, regent of the Visigoths (511–526), and a patricia",
+      "image": "Teodorico_re_dei_Goti_(493-526).png"
+    },
     "Cassiodorus": {
       "title": "Cassiodorus",
       "lead": "Magnus Aurelius Cassiodorus Senator (c. 485 – c. 585), commonly known as Cassiodorus (), was a Roman statesman, scholar, and writer who served in the administration of Theodoric the Great, king of the Ostrogoths. Senator was part of his sur",
@@ -461,11 +476,6 @@
       "title": "Visigothic Kingdom",
       "lead": "The Visigothic Kingdom, Visigothic Spain or Kingdom of the Goths (Latin: Regnum Gothorum) was a barbarian kingdom that occupied what is now southwestern France and the Iberian Peninsula from the 5th to the 8th century. One of the Germanic s",
       "image": "Leovigild_CNG_97-722237_(obverse).jpg"
-    },
-    "Reccared_I": {
-      "title": "Reccared I",
-      "lead": "Reccared I (or Recared; Latin: Flavius Reccaredus; Spanish: Flavio Recaredo; c. 559 – December 601; reigned 586–601) was the king of the Visigoths, ruling in Hispania, Gallaecia and Septimania. His reign marked a climactic shift in history,",
-      "image": "Recaredo_Tremis_Ispali.jpg"
     },
     "Lombards": {
       "title": "Lombards",
@@ -487,45 +497,105 @@
       "lead": "The Battle of Tours, also called the Battle of Poitiers and the Battle of the Highway of the Martyrs (Arabic: معركة بلاط الشهداء, romanized: Maʿrakat Balāṭ ash-Shuhadā'), was fought on 10 October 732, and was an important battle during the ",
       "image": "Steuben_-_Bataille_de_Poitiers.png"
     },
+    "Pepin_the_Short": {
+      "title": "Pepin the Short",
+      "lead": "Pepin the Short (Latin: Pipinus; French: Pépin le Bref; German: Pippin der Kurze; c. 714 – 24 September 768) was King of the Franks from 751 until his death in 768. He was the first Carolingian to become king. Pepin was the son of the Frank",
+      "image": "PippinImperialChronicleCorpusChristiCollegeMS373Fol14.jpg"
+    },
+    "Donation_of_Pepin": {
+      "title": "Donation of Pepin",
+      "lead": "The Donation of Pepin, or Donation of Pippin, was the transfer of Frankish territory in central Italy to Pope Stephen II made by Pepin the Short, King of the Franks, in 756. Credited with \"effectively establishing the temporal authority of ",
+      "image": "La_donacion_de_Pipino_el_Breve_al_Papa_Esteban_II.jpg"
+    },
     "Byzantine_Iconoclasm": {
       "title": "Byzantine Iconoclasm",
       "lead": "The Byzantine Iconoclasm (Ancient Greek: Εἰκονομαχία, romanized: Eikonomachía, lit. 'image struggle', 'war on icons') are two periods in the history of the Byzantine Empire when the use of religious images or icons was opposed by religious ",
       "image": "Irenekirken.jpg"
+    },
+    "Charlemagne": {
+      "title": "Charlemagne",
+      "lead": "Charlemagne ( SHAR-lə-mayn; 2 April 748 – 28 January 814) was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and ",
+      "image": "Charlemagne_denier_Mayence_812_814.jpg"
+    },
+    "Carolingian_Renaissance": {
+      "title": "Carolingian Renaissance",
+      "lead": "The Carolingian Renaissance was the first of three medieval renaissances, a period of cultural activity in the Carolingian Empire. Charlemagne's reign led to an intellectual revival beginning in the 8th century and continuing throughout the",
+      "image": "Minuscule_caroline.jpg"
+    },
+    "Alcuin": {
+      "title": "Alcuin",
+      "lead": "Alcuin of York (; Latin: Flaccus Albinus Alcuinus; c. 735 – 19 May 804), also called Ealhwine, Alhwin, or Alchoin, was an Anglo-Latin scholar, clergyman, poet, and teacher from York, Northumbria. He was born around 735 and became the studen",
+      "image": "Raban-Maur_Alcuin_Otgar.jpg"
     },
     "Louis_the_Pious": {
       "title": "Louis the Pious",
       "lead": "Louis the Pious (Latin: Hludowicus Pius; French: Louis le Pieux; German: Ludwig der Fromme; 778 – 20 June 840), also called the Fair and the Debonaire, was King of the Franks and co-emperor with his father, Charlemagne, from 813. He was als",
       "image": "Ludwik_I_Pobożny.jpg"
     },
-    "Oaths_of_Strasbourg": {
-      "title": "Oaths of Strasbourg",
-      "lead": "The Oaths of Strasbourg were a military pact made on 14 February 842 by Charles the Bald and Louis the German against their older brother Lothair I, the designated heir of Louis the Pious, the successor of Charlemagne. One year later the Tr",
-      "image": "Serments_de_Strasbourg.jpg"
+    "Vikings": {
+      "title": "Vikings",
+      "lead": "Vikings were a seafaring people originally from Scandinavia (present-day Denmark, Norway, and Sweden), who from the late 8th to the late 11th centuries raided, pirated, traded, and settled throughout parts of Europe. They voyaged as far as ",
+      "image": "Viking_attack_on_Guérande,_from_a_Saint-Aubin_MS.jpg"
+    },
+    "Alfred_the_Great": {
+      "title": "Alfred the Great",
+      "lead": "Alfred the Great (Old English: Ælfrǣd [ˈæɫvˌræːd]; c. 849 – 26 October 899) was King of the West Saxons from 871 to 886, and King of the Anglo-Saxons from 886 until his death in 899. He was the youngest son of King Æthelwulf and Æthelwulf's",
+      "image": "Alfred_the_Great,_silver_penny;_struck_875–880_(obverse).png"
     },
     "Rollo": {
       "title": "Rollo",
       "lead": "Rollo (Norman: Rou, Rolloun; Old Norse: Hrólfr; French: Rollon; c. 835/870 – 933), also known with his epithet, Rollo \"the Walker\", was a Viking who, as Count of Rouen, became the first ruler of Normandy, a region in today's northern France",
       "image": "RolloA.jpg"
     },
+    "Kievan_Rus%27": {
+      "title": "Kievan Rus'",
+      "lead": "Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities in Eastern Europe from the late 9th to the mid-13th century. Encompassing a variety of polities and peoples, including East Slavi",
+      "image": "Location_of_Kyivan_Rus.png"
+    },
     "Stirrup": {
       "title": "Stirrup",
       "lead": "A stirrup is a light frame or ring that holds the foot of a rider, attached to the saddle by a strap, often called a stirrup leather. Stirrups are usually paired and are used to aid in mounting and as a support while using a riding animal (",
       "image": "EnduranceStirrup.jpg"
+    },
+    "Otto_I,_Holy_Roman_Emperor": {
+      "title": "Otto the Great",
+      "lead": "Otto I (23 November 912 – 7 May 973), known as Otto the Great (German: Otto der Große; Italian: Ottone il Grande) or Otto of Saxony (German: Otto von Sachsen; Italian: Ottone di Sassonia), was East Frankish (German) king from 936 and Holy R",
+      "image": "Siegel_Otto_I_Posse.JPG"
+    },
+    "Battle_of_Lechfeld": {
+      "title": "Battle of Lechfeld",
+      "lead": "The Battle of Lechfeld, also known as the Second Battle of Lechfeld, was a series of military engagements over the course of three days from 10–12 August 955 in which the Kingdom of Germany, led by King Otto I the Great, defeated the Hungar",
+      "image": "Lechfeld1457.jpg"
     },
     "Cluny_Abbey": {
       "title": "Cluny Abbey",
       "lead": "Cluny Abbey (French: [klyni]; French: Abbaye de Cluny, formerly also Cluni or Clugny; Latin: Abbatia Cluniacensis) is a former Benedictine monastery in Cluny, Saône-et-Loire, France. It was dedicated to Saints Peter and Paul. The abbey was ",
       "image": "Cluny_-_Bâtiments_abbatiaux_-_08.jpg"
     },
-    "Otto_III,_Holy_Roman_Emperor": {
-      "title": "Otto III, Holy Roman Emperor",
-      "lead": "Otto III (June/July 980 – 23 January 1002) was the Holy Roman emperor and King of Italy from 996 until his death in 1002. A member of the Ottonian dynasty, Otto III was the only son of Emperor Otto II and his wife Theophanu. Otto III was cr",
-      "image": "Clm_4453_fol_24r_Detail_Herrscherbild.jpg"
+    "Charles_the_Bald": {
+      "title": "Charles the Bald",
+      "lead": "Charles the Bald (French: Charles le Chauve; 13 June 823 – 6 October 877) was king of West Francia (843–77), king of Italy (875–77) and emperor of the Carolingian Empire (875–77). After a series of civil wars during the reign of his father,",
+      "image": "Bibliothèque_nationale_de_France_-_Bible_de_Vivien_Ms._Latin_1_folio_423r_détail_Le_comte_Vivien_offre_le_manuscrit_de_la_Bible_faite_à_l'abbaye_de_Saint-Martin_de_Tours_à_Charles_le_Chauve.jpg"
     },
-    "Pope_Sylvester_II": {
-      "title": "Pope Sylvester II",
-      "lead": "Pope Sylvester II (Latin: Silvester II; c. 946 – 12 May 1003), originally known as Gerbert of Aurillac, was a scholar and teacher who served as the bishop of Rome and ruled the Papal States from 999 to his death. He endorsed and promoted st",
-      "image": "Meister_der_Reichenauer_Schule_002_(cropped).jpg"
+    "Siege_of_Paris_(885%E2%80%93886)": {
+      "title": "Siege of Paris (885–886)",
+      "lead": "The siege of Paris of 885–886 was part of a Viking raid on the Seine, in the western part of the Frankish Empire. The siege was the most important event of the reign of Charles the Fat and a turning point in the fortunes of the Carolingian ",
+      "image": "Siege_of_Paris_(885–886).jpeg"
+    },
+    "Charles_the_Fat": {
+      "title": "Charles the Fat",
+      "lead": "Charles the Fat (839 – 13 January 888) was the emperor of the Carolingian Empire from 881 to 887. A member of the Carolingian dynasty, Charles was the youngest son of Louis the German and Hemma, and a great-grandson of Charlemagne. He was t",
+      "image": "Sceau_de_Charles_le_gros.jpg"
+    },
+    "Henry_the_Fowler": {
+      "title": "Henry the Fowler",
+      "lead": "Henry the Fowler (German: Heinrich der Vogler or Heinrich der Finkler; Latin: Henricus Auceps; c. 876 – 2 July 936) was the duke of Saxony from 912 and the king of East Francia from 919 until his death in 936. As the first non-Frankish king",
+      "image": "Siegel_Heinrich_I_Posse.JPG"
+    },
+    "Republic_of_Venice": {
+      "title": "Republic of Venice",
+      "lead": "The Republic of Venice, officially the Most Serene Republic of Venice and traditionally known as La Serenissima, was a sovereign state and maritime republic with its capital in Venice, on the northeastern coast of Italy. Founded, according ",
+      "image": "Variant_war_flag_of_the_Serene_Republic_of_Venice.svg"
     },
     "Migration_Period": {
       "title": "Migration Period",
@@ -562,11 +632,6 @@
       "lead": "The Burgundians (Latin: Burgundiones or less commonly Burgundii) were a Germanic people of the Roman imperial era, who established the powerful Kingdom of the Burgundians within the Roman empire in what is now western Switzerland and south-",
       "image": "Conquests_of_Clovis.png"
     },
-    "Anglo-Saxons": {
-      "title": "Anglo-Saxons",
-      "lead": "The Anglo-Saxons, in some contexts simply called Saxons or the English, were a cultural group who spoke Old English and inhabited much of what is now England and south-eastern Scotland in the Early Middle Ages. They traced their origins to ",
-      "image": "LindisfarneChiRiho.jpg"
-    },
     "Arianism": {
       "title": "Arianism",
       "lead": "Arianism (Koine Greek: Ἀρειανισμός, romanized: Areianismós) is a Christological doctrine that rejects the traditional notion of the Trinity, teaching that Jesus was created by God and is therefore distinct from God. It is named after its pr",
@@ -602,11 +667,6 @@
       "lead": "Aristotle (Ancient Greek: Ἀριστοτέλης, romanized: Aristotélēs; 384–322 BC) was an ancient Greek philosopher and polymath. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the",
       "image": "Aristotle_Altemps_Inv8575.jpg"
     },
-    "Alaric_II": {
-      "title": "Alaric II",
-      "lead": "Alaric II (Gothic: 𐌰𐌻𐌰𐍂𐌴𐌹𐌺𐍃, Alareiks, 'ruler of all'; Latin: Alaricus; c. 458/466 – August 507) was the King of the Visigoths from 484 until 507. He succeeded his father Euric as King of the Visigoths in Toulouse on 28 December 484",
-      "image": "Anneau_sigillaire_Alaric_II.jpg"
-    },
     "Pyrenees": {
       "title": "Pyrenees",
       "lead": "The Pyrenees are a mountain range in southwestern Europe, straddling the France–Spain border. They extend nearly 500 kilometres (310 mi) from their union with the Cantabrian Mountains to Cap de Creus on the Mediterranean coast, reaching a m",
@@ -637,10 +697,195 @@
       "lead": "Remigius (French: Remy or Rémi; c. 437 – 13 January 533) was the Bishop of Reims and \"Apostle of the Franks\". On 25 December 496, he baptised Clovis I, King of the Franks. The baptism, leading to about 3000 additional converts, was an impor",
       "image": "Chlodwigs_taufe.jpg"
     },
+    "Sciri": {
+      "title": "Sciri",
+      "lead": "The Sciri, or Scirians, were a Germanic people, who were first mentioned in the late 3rd century BC as participants in a raid on the city of Olbia near modern-day Odesa. Along with the Bastarnae, who are much more frequently mentioned, they",
+      "image": "Odovacar_Ravenna_477.jpg"
+    },
+    "Campania": {
+      "title": "Campania",
+      "lead": "Campania is an administrative region of Italy, located in the south of the country; most of it is in the southwestern portion of the Italian Peninsula (with the Tyrrhenian Sea to its west), but it also includes the small Phlegraean Islands ",
+      "image": "Campania_in_Italy.svg"
+    },
+    "Zeno_(emperor)": {
+      "title": "Zeno (emperor)",
+      "lead": "Zeno (; Ancient Greek: Ζήνων, romanized: Zēnōn; c. 425 – 9 April 491) was Eastern Roman emperor from 474 to 475 and again from 476 to 491. His reign was plagued by domestic revolts and religious dissension, but was more successful on the fo",
+      "image": "Solidus_of_Roman_emperor_Zeno.jpg"
+    },
+    "Middle_Ages": {
+      "title": "Middle Ages",
+      "lead": "In the history of Europe, the Middle Ages or medieval period lasted approximately from the 5th to late 15th centuries, comparable with the post-classical period of global history. The medieval period is the middle epoch of the three traditi",
+      "image": "Canterbury_Cathedral,_window_nXV_detail_(46220634195).jpg"
+    },
+    "Goths": {
+      "title": "Goths",
+      "lead": "The Goths were a Germanic people who played a major role in the fall of the Western Roman Empire and the emergence of medieval Europe. They were first mentioned by Greco-Roman authors in the 3rd century AD, living north of the Danube in wha",
+      "image": ""
+    },
+    "Dutch_language": {
+      "title": "Dutch language",
+      "lead": "Dutch (Endonym: Nederlands [ˈneːdərlɑnts] , Nederlandse taal) is a West Germanic language of the Indo-European language family, spoken by about 25 million people as a first language and 5 million as a second language and is the third most s",
+      "image": "NBVp1.jpg"
+    },
+    "North_Germanic_languages": {
+      "title": "North Germanic languages",
+      "lead": "The North Germanic languages are one of the three branches of the Germanic languages—a sub-family of the Indo-European languages—along with the West Germanic languages and the extinct East Germanic languages. The language group is also refe",
+      "image": "North_germanic_languages.svg"
+    },
+    "Danube": {
+      "title": "Danube",
+      "lead": "The Danube ( DAN-yoob; see also other names) is a river in Europe, the second-longest after the Volga in Russia. It flows through Central and Southeastern Europe, from the Black Forest of Germany south through the Danube Delta in Romania in",
+      "image": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg"
+    },
+    "Valens": {
+      "title": "Valens",
+      "lead": "Valens (; Ancient Greek: Οὐάλης, romanized: Ouálēs; 328 – 9 August 378) was Roman emperor from 364 to 378. Following a largely unremarkable military career, he was named co-emperor by his elder brother Valentinian I, who gave him the easter",
+      "image": "INC-3015-a_Солид._Валент_II._Ок._364_г._(аверс).png"
+    },
+    "Gaul": {
+      "title": "Gaul",
+      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
+      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
+    },
+    "Toulouse": {
+      "title": "Toulouse",
+      "lead": "Toulouse (, too-LOOZ, French: [tuluz] ; Occitan: Tolosa [tuˈluzɔ] ) is a city in Southern France, the prefecture of the Haute-Garonne department and of the Occitania region. The city is on the banks of the River Garonne, 150 kilometres (93 ",
+      "image": "Toulouse_-_vue_du_Vieux_Toulouse_depuis_St_Sernin_06.jpg"
+    },
+    "Toledo,_Spain": {
+      "title": "Toledo, Spain",
+      "lead": "Toledo (UK: tol-AY-doh; Spanish: [toˈleðo] ) is a city and municipality in Spain. It is the capital of the province of Toledo and the de jure seat of the government and parliament of the autonomous community of Castilla–La Mancha. Toledo is",
+      "image": "Toledo_(37737041515).jpg"
+    },
+    "Rhine": {
+      "title": "Rhine",
+      "lead": "The Rhine ( RYNE) is one of the major rivers of Europe. The river begins in the Swiss canton of Graubünden in the southeastern Swiss Alps. It forms part of the Swiss–Liechtenstein border, then part of the Swiss–Austrian border. From Lake Co",
+      "image": "Middle_Bridge,_Basel,_Switzerland.JPG"
+    },
+    "Western_Roman_Empire": {
+      "title": "Western Roman Empire",
+      "lead": "In modern historiography, the Western Roman Empire was the Roman Empire's western provinces collectively during any period in which they were administered separately from the eastern provinces by a separate, independent imperial court. Part",
+      "image": "Mapa_Imperio_Occidental_año_418.svg"
+    },
+    "Burgundy": {
+      "title": "Burgundy",
+      "lead": "Burgundy ( BUR-gən-dee; French: Bourgogne [buʁɡɔɲ] ; Burgundian: Bregogne) is a historical region in France, broadly corresponding to the territory of the former administrative region of the same name, which existed from 1982 to 2015 and wa",
+      "image": "Flag_of_Bourgogne.svg"
+    },
+    "Angles_(tribe)": {
+      "title": "Angles (tribe)",
+      "lead": "The Angles (Old English: Engle, Latin: Anglii) were one of the main Germanic peoples who settled in Great Britain in the post-Roman period. They founded several kingdoms of the Heptarchy in Anglo-Saxon England. Their name, which probably de",
+      "image": "Anglo-Saxon_Homelands_and_Settlements.svg"
+    },
+    "Jutes": {
+      "title": "Jutes",
+      "lead": "The Jutes ( JOOTS) were one of the Germanic tribes who settled in Great Britain after the departure of the Romans. According to Bede, they were one of the three most powerful Germanic nations, along with the Angles and the Saxons: Those who",
+      "image": "Jutland_Peninsula_map.PNG"
+    },
+    "North_Sea": {
+      "title": "North Sea",
+      "lead": "The North Sea lies between Great Britain, Denmark, Norway, Germany, the Netherlands, Belgium, and France. A sea on the European continental shelf, it connects to the Atlantic Ocean through the English Channel in the south and the Norwegian ",
+      "image": "NASA_NorthSea1_2.jpg"
+    },
+    "Alps": {
+      "title": "Alps",
+      "lead": "The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,200 km (750 mi) across several Alpine countries (from west to east): Monaco, France, Switzerland, Italy, Liechtenstein, Germany, Au",
+      "image": "Alps_2007-03-13_10.10UTC_1px-250m.jpg"
+    },
+    "Reims": {
+      "title": "Reims",
+      "lead": "Reims ( REEMZ; French: [ʁɛ̃s] ; also spelled Rheims in English) is the most populous city in the French department of Marne, and the 12th most populous city in France. The city lies 129 km (80 mi) northeast of Paris on the Vesle river, a tr",
+      "image": "Subé_Fountain,_Reims,_France.jpg"
+    },
+    "Arius": {
+      "title": "Arius",
+      "lead": "Arius (; Koine Greek: Ἄρειος, romanized: Áreios; 250 or 256 – 336) was a Cyrenaic presbyter and ascetic. He was not the founder of Arianism. The opposing sides in the Controversy were already well established before the dispute between Ariu",
+      "image": "Arius_püspök.jpg"
+    },
+    "Gothic_Christianity": {
+      "title": "Gothic Christianity",
+      "lead": "Gothic Christianity refers to the Christian religion of the Goths and sometimes non-Gothic tribes, such as the Gepids, Vandals, and Burgundians, who may have used the translation of the Bible into the Gothic language and shared common doctr",
+      "image": ""
+    },
+    "Huns": {
+      "title": "Huns",
+      "lead": "The Huns were a nomadic people who lived in Central Asia, the Caucasus, and Eastern Europe between the 4th and 6th centuries CE. According to European tradition, they were first reported living east of the Volga River, in an area that was p",
+      "image": "Huns450.png"
+    },
+    "Norsemen": {
+      "title": "Norsemen",
+      "lead": "The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers of Old Norse in Scandinavia. During the late eighth century, Scandinavians embarked on a large-scale expansion in all directions,",
+      "image": "Old_norse,_ca_900.svg"
+    },
     "Byzantine_Empire": {
       "title": "Byzantine Empire",
       "lead": "The Byzantine Empire, also known as the Eastern Roman Empire, was the continuation of the Roman Empire centred on Constantinople during late antiquity and the Middle Ages. Having survived the events that caused the fall of the Western Roman",
       "image": "Eastern_Roman_Empire_565_CE.svg"
+    },
+    "Francia": {
+      "title": "Francia",
+      "lead": "The Kingdom of the Franks (Latin: Regnum Francorum), also known as the Frankish Kingdom or Francia, was the largest post-Roman kingdom in Western Europe. It was established by the Franks, one of the Germanic peoples. Its founder was King Cl",
+      "image": "Franks_expansion.gif"
+    },
+    "Quintus_Aurelius_Memmius_Symmachus": {
+      "title": "Quintus Aurelius Memmius Symmachus",
+      "lead": "Quintus Aurelius Memmius Symmachus (died 526) was a 6th-century Roman aristocrat, a historian and a supporter of Nicene Christianity. He was a patron of secular learning, and became the consul for the year 485. He supported Pope Symmachus i",
+      "image": "Boethius_and_Simmachos.jpg"
+    },
+    "Horace": {
+      "title": "Horace",
+      "lead": "Quintus Horatius Flaccus (Classical Latin: [ˈkʷiːntʊs (h)ɔˈraːtiʊs ˈfɫakːʊs]; 8 December 65 BC – 27 November 8 BC), commonly known in the English-speaking world as Horace ( HORR-iss), was the leading Roman lyric poet during the time of Augu",
+      "image": "(contorniate_Médaillon_Horace_Rome_(...)Horace_(0065-0008_btv1b11343890r_1_(cropped).jpg"
+    },
+    "Carolingian_dynasty": {
+      "title": "Carolingian dynasty",
+      "lead": "The Carolingian dynasty ( KARR-ə-LIN-jee-ən; known variously as the Carlovingians, Carolingi, Carolings, Karolinger or Karlings) was a Frankish noble family named after Charles Martel and his grandson Charlemagne, descendants of the Arnulfi",
+      "image": "Charlemagne_autograph.svg"
+    },
+    "Aachen": {
+      "title": "Aachen",
+      "lead": "Aachen is the 13th-largest city in North Rhine-Westphalia and the 27th-largest city of Germany, with around 261,000 inhabitants. It is the westernmost major city in Germany, lying approximately 61 km (38 mi) west of Cologne and Bonn, direct",
+      "image": "Blick_auf_das_Rathaus_und_den_Dom_Aachens_aufgenommen_von_St_Jakob.jpg"
+    },
+    "Petrarch": {
+      "title": "Petrarch",
+      "lead": "Francis Petrarch (born Francesco di Petracco; 20 July 1304 – 19 July 1374) was an Italian scholar and poet of the early Italian Renaissance, as well as one of the earliest humanists. Petrarch's rediscovery of Cicero's letters is often credi",
+      "image": "Portrait_of_Francesco_Petrarca_(called_Petrarch)_-_French_school,_17th_century.jpg"
+    },
+    "Mesoamerica": {
+      "title": "Mesoamerica",
+      "lead": "Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern Mexico, all of Belize, Guatemala, El Salvador, western Honduras, and the Greater Nicoya region of Nicaragua and Costa Rica. As a c",
+      "image": "Mesoamerica_english.PNG"
+    },
+    "Yucat%C3%A1n_Peninsula": {
+      "title": "Yucatán Peninsula",
+      "lead": "The Yucatán Peninsula ( YOO-kə-TA(H)N, UK also YUU-; Spanish: Península de Yucatán [peˈninsula ðe ʝukaˈtan]) is a large peninsula in southeast Mexico and adjacent portions of Belize and Guatemala. The peninsula extends towards the northeast",
+      "image": "Yucatan_peninsula_250m.jpg"
+    },
+    "Bishop": {
+      "title": "Bishop",
+      "lead": "A bishop is an ordained member of the clergy who is entrusted with a position of authority and oversight in a religious institution. In Christianity, bishops are normally responsible for the governance and administration of dioceses. The ro",
+      "image": ""
+    },
+    "Pope": {
+      "title": "Pope",
+      "lead": "The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, Roman pontiff, or sovereign pontiff. From the 8th century until 1870, the pope was the sovereign or head of state of the ",
+      "image": "Pope_Leo_XIV_3_(3x4_cropped).png"
+    },
+    "Christianization": {
+      "title": "Christianization",
+      "lead": "Christianization (or Christianisation) is a term for the specific type of change that occurs when someone or something has been or is being converted to Christianity. Christianization has, for the most part, spread through missions by indiv",
+      "image": "Japanese_Map_symbol_(Church).svg"
+    },
+    "Denmark": {
+      "title": "Denmark",
+      "lead": "Denmark is a Nordic country in Northern Europe. It is the metropole and most populous constituent of the Kingdom of Denmark, also known as the Danish Realm, a constitutionally unitary state that includes the autonomous territories of the Fa",
+      "image": "Flag_of_Denmark.svg"
     },
     "Theodora_(wife_of_Justinian_I)": {
       "title": "Theodora (wife of Justinian I)",
@@ -742,16 +987,6 @@
       "lead": "Henri Pirenne (French: [piʁɛn]; 23 December 1862 – 24 October 1935) was a Belgian nationalist and historian. A medievalist of Walloon descent, he wrote a multivolume history of Belgium in French and became a prominent public intellectual. P",
       "image": "Henri.Pirenne.Portrait.gif"
     },
-    "Sasanian_Empire": {
-      "title": "Sasanian Empire",
-      "lead": "The Sasanian Empire (), officially Eranshahr (Middle Persian: 𐭠𐭩𐭥𐭠𐭭𐭱𐭲𐭥𐭩 Ērānšahr, 'Empire of the Iranians'), was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for over four centuries",
-      "image": "The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg"
-    },
-    "Edictum_Rothari": {
-      "title": "Edictum Rothari",
-      "lead": "The Edictum Rothari (transl. Edict of Rothari; also Edictus Rothari or Edictum Rotharis) was the first written compilation of Lombard law, codified and promulgated on 22 November 643 by King Rothari in Pavia by a gairethinx, an assembly of ",
-      "image": "St._Gallen,_Stiftsbibliothek_St._Gallen,_Cod._Sang._730,_p._18.png"
-    },
     "Isidore_of_Miletus": {
       "title": "Isidore of Miletus",
       "lead": "Isidore of Miletus (Greek: Ἰσίδωρος ὁ Μιλήσιος; Medieval Greek pronunciation: [iˈsiðoros o miˈlisios]; Latin: Isidorus Miletus) was one of the two main Byzantine Greek mathematician, physicist and architects (Anthemius of Tralles was the ot",
@@ -761,6 +996,81 @@
       "title": "Pavia",
       "lead": "Pavia (UK: PAH-vee-ə, US: pə-VEE-ə; Italian: [paˈviːa] ) is a town and comune in south-western Lombardy, Northern Italy, 35 kilometres (22 miles) south of Milan on the lower Ticino near its confluence with the Po. It has a population of abo",
       "image": "20160807-Pavia-002.jpg"
+    },
+    "Red_Sea": {
+      "title": "Red Sea",
+      "lead": "The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is in the south, through the Bab-el-Mandeb Strait and the Gulf of Aden. To the north of the Red Sea lies the Sinai Peninsula, the Gul",
+      "image": "Red_Sea_topographic_map-en.jpg"
+    },
+    "Digest_(Roman_law)": {
+      "title": "Digest (Roman law)",
+      "lead": "The Digest (Latin: Digesta), also known as the Pandects (Pandectae; Ancient Greek: Πανδέκται, Pandéktai, \"All-Containing\"), was a compendium or digest of juristic writings on Roman law compiled by order of the Byzantine emperor Justinian I ",
+      "image": "Florence,_Biblioteca_Medicea_Laurenziana_Ms_Littera_Florentina_(Codex_Florentinus)_fol._112v-113r_Pandects_excerpt.jpg"
+    },
+    "Institutes_(Justinian)": {
+      "title": "Institutes (Justinian)",
+      "lead": "The Institutes (Latin: Institutiones) is a component of the Corpus Juris Civilis, the 6th-century codification of Roman law ordered by the Byzantine emperor Justinian I. It is largely based upon the Institutes of Gaius, a Roman jurist of th",
+      "image": "Vatican,_Biblioteca_Apostolica_Vaticana_Ms_Vatican_Bibliotheca_Palatina_Latin_765_fol_50v-51r_Institutiones_Iustiniani_cum_Glossa_ordinaria_excerpt.jpg"
+    },
+    "Novellae_Constitutiones": {
+      "title": "Novellae Constitutiones",
+      "lead": "The Novellae Constitutiones (\"new constitutions\"; Ancient Greek: Νεαραὶ διατάξεις, romanized: Nearaì diatáxeis), or Justinian's Novels, are now considered one of the four major units of Roman law initiated by Roman emperor Justinian I in th",
+      "image": "Vatican,_Biblioteca_Apostolica_Vaticana_Ms_Vatican_Bibliotheca_Palatina_Latin_765_fol_159v-160r_Authenticum_Novellae_Constitutiones_excerpt.jpg"
+    },
+    "University_of_Bologna": {
+      "title": "University of Bologna",
+      "lead": "The University of Bologna (Italian: Alma Mater Studiorum – Università di Bologna; abbreviated Unibo) is a public research university in Bologna, Italy. It is the oldest university in continuous operation in the world, and the first degree-a",
+      "image": "Seal_of_the_University_of_Bologna.svg"
+    },
+    "Solomon": {
+      "title": "Solomon",
+      "lead": "Solomon (), also called Jedidiah, was a king of ancient Israel, according to the Hebrew Bible. The successor of his father David, he is described as the penultimate ruler of all Twelve Tribes of Israel under a united Israel and Judah. His r",
+      "image": "Simeon_Solomon,_King_Solomon,_1872_or_1874,_NGA_76152_(cropped).jpg"
+    },
+    "Roman_Empire": {
+      "title": "Roman Empire",
+      "lead": "The Roman Empire was a state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period. The Roman Republic had previously conquered most of these territories, which later came under perm",
+      "image": "Roman_Empire_Trajan_117AD.png"
+    },
+    "Naples": {
+      "title": "Naples",
+      "lead": "Naples is the regional capital of Campania, southern Italy. With a population of 905,050 within the city's administrative limits as of 2026, it is the largest city in southern Italy and the third-largest city in Italy after Rome and Milan, ",
+      "image": "Napoli_-_Maschio_Angioino_-_202209302342_3.jpg"
+    },
+    "Battle_of_Mons_Lactarius": {
+      "title": "Battle of Mons Lactarius",
+      "lead": "The Battle of Mons Lactarius (also known as Battle of the Vesuvius) took place in 552 or 553 AD during the Gothic War (535–554) between Byzantine forces and the Ostrogoths (Goths) near Mount Vesuvius in Italy. Byzantine forces, led by Gener",
+      "image": "Gothic_Battle_of_Mons_Lactarius_on_Vesuvius.jpg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Gothic_War_(535%E2%80%93554)": {
+      "title": "Gothic War (535–554)",
+      "lead": "The Gothic War between the Eastern Roman Empire (Byzantine Empire) during the reign of Emperor Justinian I and the Ostrogothic Kingdom of Italy took place from 535 to 554 in the Italian peninsula, Dalmatia, Sardinia, Sicily, and Corsica. It",
+      "image": "Erster_und_Zweiter_Gotenkrieg.png"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Great_Hungarian_Plain": {
+      "title": "Great Hungarian Plain",
+      "lead": "The Great Hungarian Plain (also known as Alföld or Great Alföld, Hungarian: Alföld [ˈɒlføld] or Nagy Alföld) is a plain occupying the majority of the modern territory of Hungary. It is the largest part of the wider Pannonian Plain (however,",
+      "image": "HU_region_1._Alföld.png"
+    },
+    "Saxons": {
+      "title": "Saxons",
+      "lead": "The Saxons, sometimes called the Old Saxons or Continental Saxons, were a Germanic people of early medieval \"Old\" Saxony (Latin: Antiqua Saxonia) which became a Carolingian \"stem duchy\" in 804, in what is now northern Germany. Many of their",
+      "image": "Saxony_locator_map_(1000).svg"
+    },
+    "Thebes,_Greece": {
+      "title": "Thebes, Greece",
+      "lead": "Thebes ( THEEBZ; Greek: Θήβα, Thíva [ˈθiva]; Ancient Greek: Θῆβαι, Thêbai [tʰɛ̂ːbai̯]) is a city in Boeotia, Central Greece, and one of the oldest continuously inhabited cities in the world. It is the largest city in Boeotia and a major cen",
+      "image": "Vue_Nord_Ville_-_Thèbes_(GR03)_-_2022-03-21_-_3.jpg"
     },
     "Monasticism": {
       "title": "Monasticism",
@@ -872,15 +1182,365 @@
       "lead": "Aidan of Lindisfarne (Irish: Naomh Aodhán; died 31 August 651) was an Irish monk and missionary credited with converting the Anglo-Saxons to Christianity in Northumbria. He founded a ministry cathedral on the island of Lindisfarne, known as",
       "image": "Saint_Aidan.jpg"
     },
+    "Columba": {
+      "title": "Columba",
+      "lead": "Columba () or Colmcille (7 December 521 – 9 June 597 AD) was an Irish abbot and missionary credited with spreading Christianity at the start of the Hiberno-Scottish mission in what became Scotland. He founded the important abbey on Iona, wh",
+      "image": "Columba_at_Bridei's_fort.jpg"
+    },
+    "The_Reckoning_of_Time": {
+      "title": "The Reckoning of Time",
+      "lead": "The Reckoning of Time (Latin: De temporum ratione, CPL 2320) is a Medieval Latin treatise written by the Northumbrian monk Bede in 725.",
+      "image": ""
+    },
+    "Æthelberht_of_Kent": {
+      "title": "Æthelberht of Kent",
+      "lead": "Æthelberht (; Old English: Æðelberht [ˈæðelberˠxt]; c. 550 – 24 February 616) was King of Kent from about 589 until his death. The eighth-century monk Bede, in his Ecclesiastical History of the English People, lists him as the third king to",
+      "image": "Statue_Ethelbert_jubé_Rochester_(3x4_cropped).jpg"
+    },
+    "Palestine_(region)": {
+      "title": "Palestine (region)",
+      "lead": "The region of Palestine, also known as historic Palestine or land of Palestine, is a geographical area in West Asia. It generally encompasses the area inhabited by the modern states of Israel and Palestine, though over history it has also b",
+      "image": "Historical_boundaries_of_Palestine_(plain).svg"
+    },
+    "Cappadocia": {
+      "title": "Cappadocia",
+      "lead": "Cappadocia (; Turkish: Kapadokya, from Greek: Καππαδοκία) is a historical region in Central Anatolia region, Turkey. It is largely in the provinces of Nevşehir, Kayseri, Aksaray, Kırşehir, Sivas and Niğde. Today, the touristic Cappadocia Re",
+      "image": "Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg"
+    },
+    "Benedictines": {
+      "title": "Benedictines",
+      "lead": "The Benedictines, officially the Order of Saint Benedict (Latin: Ordo Sancti Benedicti, abbreviated as O.S.B. or OSB), are a mainly contemplative monastic order of the Catholic Church for men and for women who follow the Rule of Saint Bened",
+      "image": "Coat_of_Arms_of_the_Order_of_Saint_Benedict_(simple).svg"
+    },
+    "Cicero": {
+      "title": "Cicero",
+      "lead": "Marcus Tullius Cicero ( SISS-ər-oh, Classical Latin: [ˈmaːrkʊs ˈtʊlli.ʊs ˈkɪkɛroː]; 3 January 106 BC – 7 December 43 BC) was a Roman statesman, lawyer, scholar, philosopher, orator, and writer who tried to uphold optimate principles during ",
+      "image": "Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+    },
+    "Virgil": {
+      "title": "Virgil",
+      "lead": "Publius Vergilius Maro (Classical Latin: [ˈpuːbliʊs wɛrˈɡɪliʊs ˈmaroː]; 15 October 70 BC – 21 September 19 BC), usually called Virgil or Vergil ( VUR-jil) in English, was an ancient Roman poet of the Augustan period. He composed three of th",
+      "image": "Virgil_mosaic_in_the_Bardo_National_Museum_(Tunis)_(12241228546).jpg"
+    },
+    "Tacitus": {
+      "title": "Tacitus",
+      "lead": "Publius Cornelius Tacitus, known simply as Tacitus ( TAS-it-əs, Latin: [ˈtakɪtʊs]; c. AD 56 – c. 120), was a Roman historian and politician. He is widely regarded as one of the greatest Roman historians by modern scholars. His two major his",
+      "image": "Wien-_Parlament-Tacitus.jpg"
+    },
+    "Livy": {
+      "title": "Livy",
+      "lead": "Titus Livius (Latin: [ˈtɪtʊs ˈliːwiʊs]; 59 BC – AD 17), known in English as Livy ( LIV-ee), was a Roman historian. He wrote a monumental history of Rome and the Roman people, titled Ab Urbe Condita, ''From the Founding of the City'', coveri",
+      "image": "Titus-Livius-Austrian-Parliament-Building.jpg"
+    },
+    "Northumbria": {
+      "title": "Northumbria",
+      "lead": "Northumbria was an early medieval English kingdom, existing between 654 and 1066 AD, spanning modern-day Northern England and Southern Scotland. The name derives from the Old English Norþhymbre meaning \"the people or province north of the H",
+      "image": "Map_of_the_Kingdom_of_Northumbria_around_700_AD.svg"
+    },
+    "Oswald_of_Northumbria": {
+      "title": "Oswald of Northumbria",
+      "lead": "Oswald (Old English pronunciation: [ˈoːzwɑɫd]; c. 604 – 5 August 641/642) was King of Northumbria from 634 until his death, and is venerated as a saint, of whom there was a particular cult in the Middle Ages. Oswald was the son of Æthelfrit",
+      "image": "Saint_Oswald_Durham_Cathedral.jpg"
+    },
+    "Luxeuil_Abbey": {
+      "title": "Luxeuil Abbey",
+      "lead": "Luxeuil Abbey (French pronunciation: [lyksœj]), the Abbaye Saint-Pierre et Saint-Paul, was one of the oldest and best-known monasteries in Franche-Comté, located in what is now the département of Haute-Saône in Franche-Comté, France.",
+      "image": "2020-08_-_Monastère_de_Luxeuil_-_06.jpg"
+    },
+    "Frisia": {
+      "title": "Frisia",
+      "lead": "Frisia () is a cross-border cultural region in Northwestern Europe. Stretching along the Wadden Sea, it encompasses the north of the Netherlands and parts of northwestern Germany. Wider definitions of \"Frisia\" may include the island of Rem ",
+      "image": "Frisia_map.svg"
+    },
+    "Frisians": {
+      "title": "Frisians",
+      "lead": "The Frisians ( FREEZH-ənz) are an ethnic group indigenous to Northwestern Europe on the coastal regions of northern Netherlands, north-western Germany and southwestern Denmark. They inhabit an area known as Frisia and are concentrated in th",
+      "image": ""
+    },
+    "Wessex": {
+      "title": "Wessex",
+      "lead": "The Kingdom of the West Saxons, also known as the Kingdom of Wessex, was an Anglo-Saxon kingdom in the south of Great Britain, from around 519 until around 927. Its origins trace back when Alfred the Great adopted the title 'King of the Ang",
+      "image": "Southern_British_Isles_9th_century.svg"
+    },
+    "Monkwearmouth–Jarrow_Abbey": {
+      "title": "Monkwearmouth–Jarrow Abbey",
+      "lead": "The Abbey Church of Saint Peter and Saint Paul, Monkwearmouth–Jarrow, known simply as Monkwearmouth–Jarrow Abbey (Latin: Monasterii Wirimutham-Gyruum), was a Benedictine double monastery in the Kingdom of Northumbria, England. Its first hou",
+      "image": "St_Peters_Church_2019_02.jpg"
+    },
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "image": "Byzantine_Constantinople-en.png"
+    },
+    "Alexandria": {
+      "title": "Alexandria",
+      "lead": "Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km (25 mi) along the country's northern coast. It is Egypt's principal seaport, the second largest city after Cairo, and the largest",
+      "image": "San_Stefano_Grand_Plaza.JPG"
+    },
+    "Antioch": {
+      "title": "Antioch",
+      "lead": "Antioch was a city located in northern Syria at the site of modern Antakya, Turkey. Founded in 300 BC, Antioch became one of the most important cities of the ancient eastern Mediterranean. The capital of the Hellenistic Seleucid Empire, it ",
+      "image": "Antioch_on_the_Orontes_en.svg"
+    },
+    "Jerusalem": {
+      "title": "Jerusalem",
+      "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
+      "image": "המצודה_בלילה.jpg"
+    },
+    "Anglo-Saxons": {
+      "title": "Anglo-Saxons",
+      "lead": "The Anglo-Saxons, in some contexts simply called Saxons or the English, were a cultural group who spoke Old English and inhabited much of what is now England and south-eastern Scotland in the Early Middle Ages. They traced their origins to ",
+      "image": "LindisfarneChiRiho.jpg"
+    },
+    "Augustine_of_Hippo": {
+      "title": "Augustine of Hippo",
+      "lead": "Augustine of Hippo ( aw-GUST-in, US also AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430) was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is",
+      "image": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    },
+    "Jerome": {
+      "title": "Jerome",
+      "lead": "Jerome (; Latin: Eusebius Sophronius Hieronymus; Ancient Greek: Εὐσέβιος Σωφρόνιος Ἱερώνυμος; c. 342–347 – 30 September 420), also known as Jerome of Stridon, was an early Christian priest, confessor, theologian, translator, and historian; ",
+      "image": "MatthiasStom-SaintJerome-Nantes.jpg"
+    },
+    "Ambrose": {
+      "title": "Ambrose",
+      "lead": "Ambrose of Milan (Latin: Aurelius Ambrosius; c. 339 – 4 April 397), canonized as Saint Ambrose, was a theologian and statesman who served as Bishop of Milan from 374 to 397. Ambrose was serving as the Roman governor of Aemilia-Liguria in Mi",
+      "image": "AmbroseOfMilan_(cropped).jpg"
+    },
+    "Reformation": {
+      "title": "Reformation",
+      "lead": "The Reformation, also known as the Protestant Reformation or the European Reformation, was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the auth",
+      "image": ""
+    },
+    "Elbe": {
+      "title": "Elbe",
+      "lead": "The Elbe (Czech: Labe) is one of the major rivers of Central Europe. It rises in the Giant Mountains of the northern Czech Republic before traversing much of Bohemia (western half of the Czech Republic), then Germany before flowing into the",
+      "image": "Labe_udoli.jpg"
+    },
+    "Nubia": {
+      "title": "Nubia",
+      "lead": "Nubia ( NEW-bee-uh; Nobiin: Nⲟ̅ⲩ̅ⲃⲁ; Arabic: النُوبَة, romanized: an-Nūba) is a region along the Nile river encompassing the area between the confluence of the Blue and White Niles (near Khartoum in central Sudan) and the First Cataract (so",
+      "image": "Rulers_of_Kush,_Kerma_Museum.jpg"
+    },
+    "Buddhism": {
+      "title": "Buddhism",
+      "lead": "Buddhism, also known as Buddhadharma and Dharmavinaya, is an Indian religion and philosophy based on teachings attributed to the Buddha, a śramaṇa and religious teacher who lived in the 6th or 5th century BCE. It is the world's fourth-large",
+      "image": "Kamakura_Budda_Daibutsu_front_1885.jpg"
+    },
+    "Dialogues_(Pope_Gregory_I)": {
+      "title": "Dialogues (Pope Gregory I)",
+      "lead": "The Dialogues (Latin: Dialogi) of Gregory the Great, completed in 593, is a collection of four books. The first three are of miracles, signs, wonders, and healings done by the holy, mostly men, in Italy. Notably the second book focuses on t",
+      "image": "Gregory_the_Great_with_the_Holy_Spirit.jpg"
+    },
+    "Matins": {
+      "title": "Matins",
+      "lead": "Matins (also Mattins) is a canonical hour in Christian liturgy, originally sung during the darkness of early morning (between midnight and dawn). The earliest use of the term was in reference to the canonical hour, also called the vigil, wh",
+      "image": ""
+    },
+    "Compline": {
+      "title": "Compline",
+      "lead": "Compline ( KOM-plin), also known as Complin, Night Prayer, or the Prayers at the End of the Day, is the final prayer liturgy (or office) of the day in the Christian tradition of canonical hours, which are prayed at fixed prayer times. The E",
+      "image": "Vor_der_Komplet.JPG"
+    },
+    "David_Knowles_(scholar)": {
+      "title": "David Knowles (scholar)",
+      "lead": "Michael David Knowles (born Michael Clive Knowles, 29 September 1896 – 21 November 1974) was an English Benedictine monk, Catholic priest, and historian, who became Regius Professor of Modern History at the University of Cambridge from 1954",
+      "image": ""
+    },
+    "Lent": {
+      "title": "Lent",
+      "lead": "Lent (Latin: Quadragesima, 'Fortieth') is the solemn Christian religious observance in the liturgical year in preparation for Easter. It echoes the 40 days Jesus spent fasting in the desert and enduring temptation by Satan, according to the",
+      "image": "Altar_Dom_Greifswald.JPG"
+    },
+    "Easter": {
+      "title": "Easter",
+      "lead": "Easter, also called Pasch () or Pascha or Resurrection Sunday, is a Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead, described in the Bible's New Testament as having occurred on the third day of",
+      "image": "Chora_Anastasis2.jpg"
+    },
+    "Saint_Peter": {
+      "title": "Saint Peter",
+      "lead": "Saint Peter (born Shimon bar Yonah; c. 1 BC – AD 64/68), also known as Peter the Apostle and Simon Peter, was one of the Twelve Apostles of Jesus and one of the first leaders of the early Christian Church. He appears repeatedly and prominen",
+      "image": "Saint_Peter-Sinai_(6th_Century)_Crop.jpg"
+    },
+    "Würzburg": {
+      "title": "Würzburg",
+      "lead": "Würzburg (German: [ˈvʏʁtsbʊʁk] ; Main-Franconian: Wörtzburch, historical engl. exonyme Wurtzbourg) is the second-largest city in Franconia after Nuremberg and is located in the north of Bavaria. Würzburg is the administrative seat of the Re",
+      "image": "Marienberg_wuerzburg.jpg"
+    },
+    "Salzburg": {
+      "title": "Salzburg",
+      "lead": "Salzburg is the fourth-largest city in Austria. In 2020 its population was 156,852. The city lies on the Salzach River, near the border with Germany and at the foot of the Alps mountains. The town occupies the site of the Roman settlement o",
+      "image": "Salzburg_(48489551981).jpg"
+    },
+    "Hebrides": {
+      "title": "Hebrides",
+      "lead": "The Hebrides are the largest archipelago in the United Kingdom, off the west coast of the Scottish mainland. The islands fall into two main groups, based on their proximity to the mainland: the Inner and Outer Hebrides. These islands have a",
+      "image": "Hebridesmap.png"
+    },
+    "Old_Saxony": {
+      "title": "Old Saxony",
+      "lead": "Old Saxony was the homeland of the Saxons who fought the Frankish empire during the Early Middle Ages, until being conquered and converted into a Carolingian stem duchy in the 8th century, the Duchy of Saxony. Contemporary authors such as B",
+      "image": "Duchy_of_Saxony_(134037775).jpg"
+    },
+    "Duchy_of_Bavaria": {
+      "title": "Duchy of Bavaria",
+      "lead": "The Duchy of Bavaria (German: Herzogtum Bayern) was a frontier region in the southeastern part of the Merovingian kingdom from the sixth through the eighth century. It was settled by Bavarian tribes and ruled by dukes (duces) under Frankish",
+      "image": "Rautenflagge_(24_Rauten).svg"
+    },
+    "Slavs": {
+      "title": "Slavs",
+      "lead": "The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distributed throughout the northern parts of Eurasia; they predominantly inhabit Central Europe, Eastern Europe, Southeastern Europe, and N",
+      "image": "Slavic_europe_(Kosovo_unshaded).svg"
+    },
+    "Tonsure": {
+      "title": "Tonsure",
+      "lead": "Tonsure () is the practice of cutting or shaving some or all of the hair on the scalp as a sign of religious devotion or humility. The term originates from the Latin word tonsura (meaning \"clipping\" or \"shearing\") and referred to a specific",
+      "image": "Tonsure_fx_tr.png"
+    },
+    "Late_antiquity": {
+      "title": "Late antiquity",
+      "lead": "Late antiquity is a time period between classical antiquity and the Early Middle Ages. The exact start and end dates are debatable. Late antiquity represents a cultural sphere covering much of the Mediterranean world, including parts of Eur",
+      "image": "Diptych_Barberini_Louvre_OA9063_whole.jpg"
+    },
+    "Saracen": {
+      "title": "Saracen",
+      "lead": "The word \"Saracen\" ( SARR-ə-sən) was commonly used in medieval Europe to refer to a person who lived in or near what the ancient Romans knew as Arabia Petraea and Arabia Deserta. Its original meaning in Greek and Latin is not known with cer",
+      "image": "Erhard_Reuwich_Sarazenen_1486.png"
+    },
+    "Picts": {
+      "title": "Picts",
+      "lead": "The Picts were a group of peoples in what is now Scotland north of the Firth of Forth, in the Early Middle Ages. Where they lived and details of their culture can be gleaned from early medieval texts and Pictish stones. The name Picti appea",
+      "image": "Serpent_stone.JPG"
+    },
+    "Zoomorphism": {
+      "title": "Zoomorphism",
+      "lead": "In the context of art, zoomorphism (from the Ancient Greek words ζῶον (zōon) meaning \"animal\" and μορφή (morphē) meaning \"shape\") describes art that imagines humans as non-human animals. It can also be defined as art that portrays one speci",
+      "image": "Lauterbach_Stadtkirche_Türgriff_513.JPG"
+    },
+    "Carpet_page": {
+      "title": "Carpet page",
+      "lead": "A carpet page is a full page in an illuminated manuscript containing intricate, non-figurative, patterned designs. They are a characteristic feature of Insular manuscripts, and typically placed at the beginning of a Gospel Book. Carpet page",
+      "image": "Meister_des_Book_of_Lindisfarne_002.jpg"
+    },
+    "Pentarchy": {
+      "title": "Pentarchy",
+      "lead": "Pentarchy (from Ancient Greek Πενταρχία (Pentarchía), from πέντε (pénte) 'five' and ἄρχειν (archein) 'to rule') was a model of Church organization formulated in the laws of Emperor Justinian I (r. 527–565) of the Roman Empire. In this model",
+      "image": "1800_Wilkinson_Map_of_the_4_Eastern_Churches_rectified.jpg"
+    },
+    "Archbishop": {
+      "title": "Archbishop",
+      "lead": "In Christianity, an archbishop is a bishop of higher rank or office. In most cases, such as the Catholic Church, there are many archbishops who either have jurisdiction over an ecclesiastical province in addition to their own archdiocese, a",
+      "image": "Ärkebiskop_Martin_Modéus_konverserar_utanför_Uppsala_domkyrka.jpg"
+    },
+    "Plainsong": {
+      "title": "Plainsong",
+      "lead": "Plainsong or plainchant (calque from the French plain-chant; Latin: cantus planus) is a body of chants used in the liturgies of the Western Church. When referring to the term plainsong, it is those sacred pieces that are composed in Latin t",
+      "image": ""
+    },
+    "Liturgy": {
+      "title": "Liturgy",
+      "lead": "Liturgy is the customary public ritual of worship performed by a religious group. As a religious phenomenon, liturgy represents a communal response to and participation in the sacred through activities reflecting praise, thanksgiving, remem",
+      "image": "Літургія_в_Церкві_Покрови_Пресвятої_Богородиці_(Пирогів)2.jpg"
+    },
+    "Cantor_(Christianity)": {
+      "title": "Cantor (Christianity)",
+      "lead": "In Christianity, the cantor, female chantress, sometimes called the precentor or the protopsaltes (Greek: πρωτοψάλτης, lit. 'first singer'; from Greek: ψάλτης, romanized: psaltes, lit. 'singer'), is the chief singer, and usually instructor,",
+      "image": "Štefan_Straka_-_Precentor_-_O_112_-_Slovak_National_Gallery.jpg"
+    },
+    "Anchorite": {
+      "title": "Anchorite",
+      "lead": "In Christianity, an anchorite or anchoret (female: anchoress; from Ancient Greek ἀναχωρέω (anakhōréō) 'I withdraw, retire') is someone who, for religious reasons, withdraws from secular society to be able to lead an intensely prayer-oriente",
+      "image": "Anchorites_Skipton.JPG"
+    },
+    "Asceticism": {
+      "title": "Asceticism",
+      "lead": "Asceticism is a lifestyle characterized by abstinence from worldly pleasures through self-discipline, self-imposed poverty, and simple living, often for the purpose of pursuing spiritual goals. Ascetics may withdraw from the world or contin",
+      "image": "Emaciated_Siddhartha_Fasting_Gautama_Buddha.jpg"
+    },
+    "Hermit": {
+      "title": "Hermit",
+      "lead": "A hermit, also known as an eremite (adjectival form: hermitic or eremitic) or solitary, is a person who lives in seclusion. Eremitism plays a role in a variety of religions.",
+      "image": "St.-Jerome-In-His-Study.jpg"
+    },
+    "Desert_Fathers": {
+      "title": "Desert Fathers",
+      "lead": "The Desert Fathers were early Christian hermits and ascetics, who lived primarily in the Wadi El Natrun, then known as Skete, in Roman Egypt, beginning around the third century. The Sayings of the Desert Fathers is a collection of sayings a",
+      "image": "StAnthony.jpg"
+    },
+    "Patrimony_of_Saint_Peter": {
+      "title": "Patrimony of Saint Peter",
+      "lead": "The Patrimony of Saint Peter (Latin: Patrimonium Sancti Petri) originally designated the landed possessions and revenues of various kinds that belonged to the apostolic Holy See. Until the middle of the 8th century this consisted wholly of ",
+      "image": ""
+    },
+    "Papal_primacy": {
+      "title": "Papal primacy",
+      "lead": "Papal primacy, also known as the primacy of the bishop of Rome, is an ecclesiological doctrine in the Catholic Church concerning the respect and authority that is due to the pope from other bishops and their episcopal sees. While the doctri",
+      "image": "Decretals_of_Pope_Boniface_VIII_-_zoomed_on_the_illustration_(cropped).jpg"
+    },
+    "Syncretism": {
+      "title": "Syncretism",
+      "lead": "Syncretism () is the combining or merging of various distinct beliefs or schools of thought, particularly religious ones. For instance, features and components of one religion are incorporated and absorbed into another. It can include assim",
+      "image": "Pluto_Serapis_and_Persephone_Isis_Heraklion_museum.jpg"
+    },
+    "Paganism": {
+      "title": "Paganism",
+      "lead": "In early Christianity, paganism (from Latin: paganus, lit. 'rustic') collectively referred to the diverse religious practices of all people who were polytheists. More specifically, it denoted anyone who did not adhere to an Abrahamic religi",
+      "image": "Die_Gartenlaube_(1887)_b_016.jpg"
+    },
+    "Illuminated_manuscript": {
+      "title": "Illuminated manuscript",
+      "lead": "An illuminated manuscript is a formally prepared document where the text is decorated with flourishes such as borders and miniature illustrations. Often used in the Roman Catholic Church for prayers and liturgical books such as psalters and",
+      "image": "Byzantium,_Constantinople,_11th_century_-_Gospel_Book_with_Commentaries_-_1942.152_-_Cleveland_Museum_of_Art.tif"
+    },
+    "Parchment": {
+      "title": "Parchment",
+      "lead": "Parchment is a writing material made from specially prepared untanned skins of animals—primarily sheep, calves and goats. It has been used as a writing medium in West Asia and Europe for more than two millennia. By 400 AD many of the writte",
+      "image": "Parchment_from_goatskin.jpg"
+    },
+    "Missionary": {
+      "title": "Missionary",
+      "lead": "A missionary is a member of a religious group who is sent into an area in order to promote its faith or provide services to people, such as education, literacy, social justice, health care, and economic development. In the Latin translation",
+      "image": "IVE_Missionaries_in_Papua_New_Guinea.jpg"
+    },
+    "Penance": {
+      "title": "Penance",
+      "lead": "Penance is any act or a set of actions done out of contrition for sins committed, as well as an alternative name for the Catholic, Eastern Orthodox, and Oriental Orthodox sacrament of Reconciliation or Confession. The word penance derives f",
+      "image": "PenitientGirl_Rotari.JPG"
+    },
+    "Interlace_(art)": {
+      "title": "Interlace (art)",
+      "lead": "In the visual arts, interlace is a decorative element found in medieval art. In interlace, bands or portions of other motifs are looped, braided, and knotted in complex geometric patterns, often to fill a space. Interlacing is common in the",
+      "image": "KellsFol034rXRhoDet3.jpeg"
+    },
+    "Clerical_celibacy": {
+      "title": "Clerical celibacy",
+      "lead": "Clerical celibacy is the requirement in certain religions that some or all members of the clergy be unmarried. Clerical celibacy also requires abstention from deliberately indulging in sexual thoughts and behavior outside of marriage, becau",
+      "image": ""
+    },
+    "Myth_of_the_flat_Earth": {
+      "title": "Myth of the flat Earth",
+      "lead": "The myth of the flat Earth, or the flat-Earth error, is a modern historical misconception that European scholars and educated people during the Middle Ages believed the Earth to be flat. According to Stephen Jay Gould, \"there never was a pe",
+      "image": "Flammarion.jpg"
+    },
+    "Celtic_Christianity": {
+      "title": "Celtic Christianity",
+      "lead": "Celtic Christianity is a form of Christianity that was common, or held to be common, across the Celtic-speaking world during the Early Middle Ages. The term Celtic Church is deprecated by many historians as it implies a unified and identifi",
+      "image": "Celtic_cross_Knock_Ireland.jpg"
+    },
+    "Canonization": {
+      "title": "Canonization",
+      "lead": "Canonization is the declaration of a deceased person as an officially recognized saint, specifically, the official act of a Christian communion declaring a person worthy of public veneration and entering their name in the canon catalogue of",
+      "image": "Canonization_of_the_Martyrs_of_Katyn_by_the_Polish_Orthodox_Church_(25).jpg"
+    },
     "Caliph": {
       "title": "Caliphate",
       "lead": "A caliphate is an institution or public office under the leadership of an Islamic steward with the title of caliph (), a person considered a political–religious successor to the Islamic prophet Muhammad and a leader of the entire Muslim wor",
       "image": ""
     },
-    "Battle_of_the_Yarmuk": {
-      "title": "Battle of the Yarmuk",
-      "lead": "The Battle of the Yarmuk (also spelled Yarmouk; Arabic: معركة اليرموك) was a major battle between the Byzantine Empire and the Rashidun Caliphate near the Yarmouk River in Byzantine Syria that marked a crucial point in the Muslim conquest o",
-      "image": "Hayton_BNF886_9v.jpg"
+    "Sasanian_Empire": {
+      "title": "Sasanian Empire",
+      "lead": "The Sasanian Empire (), officially Eranshahr (Middle Persian: 𐭠𐭩𐭥𐭠𐭭𐭱𐭲𐭥𐭩, romanized: Ērānšahr, lit. 'Empire of the Iranians'), was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for ov",
+      "image": "The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg"
     },
     "Kairouan": {
       "title": "Kairouan",
@@ -956,6 +1616,121 @@
       "title": "Pope Stephen II",
       "lead": "Pope Stephen II (Latin: Stephanus II; 714 – 26 April 757) was the bishop of Rome from 752 until his death in 757. Stephen II marks the historical delineation between the Byzantine Papacy and the Frankish Papacy. During Stephen's pontificate",
       "image": "Pape_Etienne_II_(cropped).jpg"
+    },
+    "Gibraltar": {
+      "title": "Gibraltar",
+      "lead": "Gibraltar ( jih-BRAWL-tər, -⁠BROL-, Spanish: [xiβɾalˈtaɾ]) is a British Overseas Territory and city located at the southern tip of the Iberian Peninsula, on the Bay of Gibraltar, near the exit of the Mediterranean Sea into the Atlantic Ocea",
+      "image": "Flag_of_Gibraltar.svg"
+    },
+    "Edward_Gibbon": {
+      "title": "Edward Gibbon",
+      "lead": "Edward Gibbon (; 8 May 1737 – 16 January 1794) was a British essayist, historian and minor politician. His most important and influential work, The History of the Decline and Fall of the Roman Empire, was published in six volumes between 17",
+      "image": "Edward_Emily_Gibbon.jpg"
+    },
+    "Medina": {
+      "title": "Medina",
+      "lead": "Medina, officially al-Madinah al-Munawwarah, also known as al-Madinah an-Nabawiyyah and Taybah, and known in pre-Islamic times as Yathrib, is the capital and administrative centre of Medina Province in the Hejaz region of western Saudi Arab",
+      "image": "Al-Masjid_An-Nabawi_(Bird's_Eye_View).jpg"
+    },
+    "Ctesiphon": {
+      "title": "Ctesiphon",
+      "lead": "Ctesiphon ( TESS-if-on; Middle Persian: 𐭲𐭩𐭮𐭯𐭥𐭭, Tyspwn or Tysfwn; Persian: تیسفون; Ancient Greek: Κτησιφῶν, Attic Greek: [ktɛːsipʰɔ̂ːn]; Syriac: ܩܛܝܣܦܘܢ) was an ancient city in modern Iraq, on the eastern bank of the Tigris, about 35 ",
+      "image": "Ctesiphon_map-en_reformat.svg"
+    },
+    "Augustus": {
+      "title": "Augustus",
+      "lead": "Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14), also known as Octavian (Latin: Octavianus), was the founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14. The reign of Augustus ini",
+      "image": "Augustus_of_Prima_Porta.jpg"
+    },
+    "Tunisia": {
+      "title": "Tunisia",
+      "lead": "Tunisia, officially the Republic of Tunisia, is a country in the Maghreb region of North Africa. It is bordered by Algeria to the west and southwest, Libya to the southeast, and the Mediterranean Sea to the north and east. Tunisia also shar",
+      "image": "Flag_of_Tunisia.svg"
+    },
+    "Pillars_of_Hercules": {
+      "title": "Pillars of Hercules",
+      "lead": "The Pillars of Hercules are the promontories that flank the entrance to the Strait of Gibraltar. The northern Pillar, Calpe Mons, is the Rock of Gibraltar. A corresponding North African peak not being predominant, the identity of the southe",
+      "image": "De_Zuilen_van_Hercules_Gibraltar_en_Ceuta.jpg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Iberian_Peninsula": {
+      "title": "Iberian Peninsula",
+      "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
+      "image": "España_y_Portugal.jpg"
+    },
+    "Kingdom_of_Navarre": {
+      "title": "Kingdom of Navarre",
+      "lead": "The Kingdom of Navarre ( nə-VAR), originally the Kingdom of Pamplona, was a historical Iberian polity which occupied lands on both sides of the western Pyrenees, with its northernmost areas originally reaching the Atlantic Ocean (Bay of Bis",
+      "image": "Bandera_de_Reino_de_Navarra.svg"
+    },
+    "Basque_language": {
+      "title": "Basque language",
+      "lead": "Basque ( BASK, BAHSK; endonym euskara [eus̺ˈkaɾa]) is a language spoken by Basques and other residents of the Basque Country, a region that straddles the westernmost Pyrenees in adjacent parts of southwestern France and northern Spain. Basq",
+      "image": "Euskalkiak.svg"
+    },
+    "Bordeaux": {
+      "title": "Bordeaux",
+      "lead": "Bordeaux ( bor-DOH; French: [bɔʁdo] ; Gascon Occitan: Bordèu [buɾˈðɛw]; Basque: Bordele) is a city on the river Garonne in the Gironde department, southwestern France. A port city, it is the capital of the Nouvelle-Aquitaine region, as well",
+      "image": "Bordeaux_Place_de_la_Bourse_de_nuit.jpg"
+    },
+    "Martin_of_Tours": {
+      "title": "Martin of Tours",
+      "lead": "Martin of Tours (Latin: Martinus Turonensis; 316/336 – 8 November 397) was the third bishop of Tours. He is the patron saint of many communities and organizations across Europe, including of the former French Third Republic. A native of Pan",
+      "image": "Simone_Martini_040.jpg"
+    },
+    "Khazars": {
+      "title": "Khazars",
+      "lead": "The Khazars (/kəˈzɑːrz/) were a semi-nomadic Turkic people who established a major commercial empire in the late 6th century CE spanning the south of modern European Russia, southern Ukraine, and western Kazakhstan. It was the most powerful",
+      "image": "Chasaren.jpg"
+    },
+    "Caucasus": {
+      "title": "Caucasus",
+      "lead": "The Caucasus ( KAW-kə-səss) is a geographical region spanning parts of Eastern Europe and Western Asia. It is situated between the Black Sea and the Caspian Sea, comprising parts of Southern Russia, Georgia, Armenia, and Azerbaijan. The Cau",
+      "image": "Caucasus_topographic_map-en.svg"
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Samuel": {
+      "title": "Samuel",
+      "lead": "Samuel is a figure who, in the narratives of the Hebrew Bible, plays a key role in the transition from the biblical judges to the United Kingdom of Israel under Saul, and again in the monarchy's transition from Saul to David. He is venerate",
+      "image": "Saul_and_the_Witch_of_Endor_(Stom,_1635)_(cropped).jpg"
+    },
+    "Basilica_of_Saint-Denis": {
+      "title": "Basilica of Saint-Denis",
+      "lead": "The Basilica of Saint-Denis (French: basilique royale Saint-Denis; now formally known as the basilique cathédrale Saint-Denis) is a Roman Catholic cathedral that originated as a medieval abbey church. It is located in the commune of Saint-D",
+      "image": "Saint-Denis_-_Façade.jpg"
+    },
+    "Paris": {
+      "title": "Paris",
+      "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
+      "image": "La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_août_2014_(2).jpg"
+    },
+    "Tikal": {
+      "title": "Tikal",
+      "lead": "Tikal (; Tik'al in modern Mayan orthography) is the ruin of an ancient city, which was likely to have been called Yax Mutal, found in a rainforest in Guatemala. It is one of the largest archaeological sites and urban centers of the pre-Colu",
+      "image": "Tikal_3.jpg"
+    },
+    "Palenque": {
+      "title": "Palenque",
+      "lead": "Palenque (Spanish pronunciation: [pa'leŋke]; Yucatec Maya: Bàakʼ [ɓaːkʼ]), also anciently known in the Itzaʼ language as Lakamha (\"big water\" or \"big waters\"), was a Maya city-state in southern Mexico that perished in the 8th century. The P",
+      "image": "Palenque_Collage.jpg"
+    },
+    "Cop%C3%A1n": {
+      "title": "Copán",
+      "lead": "Copán is an archaeological site of the Maya civilization in the Copán Department of western Honduras, not far from the border with Guatemala. It is one of the most important sites of the Maya civilization, which was not excavated until the ",
+      "image": "Copan_sculpture.jpg"
+    },
+    "Abd_al-Rahman_ibn_Abd_Allah_al-Ghafiqi": {
+      "title": "Abd al-Rahman ibn Abd Allah al-Ghafiqi",
+      "lead": "Abd al-Rahman ibn Abd Allah Al-Ghafiqi (Arabic: عبد الرحمن بن عبد اللّه الغافقي, romanized: ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Ghāfiqī; died 732), was an Arab Umayyad commander and governor who led Andalusian Umayyad forces against the Franks",
+      "image": "Abdul_Rahman_Al_Ghafiqi.png"
     },
     "Carloman_I": {
       "title": "Carloman I",
@@ -1052,15 +1827,80 @@
       "lead": "The Massacre of Verden was an event during the Saxon Wars where the Frankish king Charlemagne ordered the death of 4,500 Saxons in October 782. Charlemagne claimed suzerainty over Saxony and in 772 destroyed the Irminsul, an important objec",
       "image": ""
     },
-    "Saxons": {
-      "title": "Saxons",
-      "lead": "The Saxons, sometimes called the Old Saxons or Continental Saxons, were a Germanic people of early medieval \"Old\" Saxony (Latin: Antiqua Saxonia) which became a Carolingian \"stem duchy\" in 804, in what is now northern Germany. Many of their",
-      "image": "Saxony_locator_map_(1000).svg"
+    "True_Cross": {
+      "title": "True Cross",
+      "lead": "In Christian tradition, the True Cross is the original wooden cross on which Jesus of Nazareth was crucified. It is related by numerous historical accounts and legends that Helen, the mother of Roman emperor Constantine the Great, recovered",
+      "image": "Giotto_Crucifixion.jpg"
     },
-    "Aachen": {
-      "title": "Aachen",
-      "lead": "Aachen is the 13th-largest city in North Rhine-Westphalia and the 27th-largest city of Germany, with around 261,000 inhabitants. It is the westernmost major city in Germany, lying approximately 61 km (38 mi) west of Cologne and Bonn, direct",
-      "image": "Blick_auf_das_Rathaus_und_den_Dom_Aachens_aufgenommen_von_St_Jakob.jpg"
+    "Li_Bai": {
+      "title": "Li Bai",
+      "lead": "Li Bai (c. 701 – 762), also known by his courtesy name of Taibai, was a Chinese poet acclaimed as one of the best and most important poets of the Tang dynasty, and even in the whole of Chinese poetry. He and his friends such as Du Fu (712–7",
+      "image": "LiBai.jpg"
+    },
+    "Du_Fu": {
+      "title": "Du Fu",
+      "lead": "Du Fu (Chinese: 杜甫; pinyin: Dù Fǔ; Wade–Giles: Tu Fu; 712 – 770) was a Chinese poet and politician during the Tang dynasty. Together with his elder contemporary and friend Li Bai, Du is often considered one of the greatest Chinese poets of ",
+      "image": "Dufu.jpg"
+    },
+    "Carolingian_Empire": {
+      "title": "Carolingian Empire",
+      "lead": "The Carolingian Empire (800–887) was a Frankish-dominated empire in Western and Central Europe during the Early Middle Ages. It was ruled by the Carolingian dynasty, which had ruled as kings of the Franks since 751 and as kings of the Lomba",
+      "image": "Francia_814.svg"
+    },
+    "Low_Countries": {
+      "title": "Low Countries",
+      "lead": "The Low Countries is a historical and geographically coastal lowland region in Northwestern Europe forming the lower basin of the Rhine–Meuse–Scheldt delta and consisting today of the three modern \"Benelux\" countries: Belgium, the Netherlan",
+      "image": "NasaBenelux.jpg"
+    },
+    "Suetonius": {
+      "title": "Suetonius",
+      "lead": "Gaius Suetonius Tranquillus (Latin: [ˈɡaːiʊs sweːˈtoːniʊs traŋˈkᶣɪlːʊs]), commonly referred to as Suetonius ( swih-TOH-nee-əs; c. AD 69 – after AD 122), was a Roman historian who wrote during the early Imperial era of the Roman Empire. His ",
+      "image": "Suetonius_etching_(cropped).jpg"
+    },
+    "Insular_script": {
+      "title": "Insular script",
+      "lead": "Insular script is a medieval script system originating in Ireland that spread to England and continental Europe under the influence of Irish Christianity. Irish missionaries took the script to continental Europe, where they founded monaster",
+      "image": "BookDurrowInitMark86r.jpg"
+    },
+    "Visigothic_script": {
+      "title": "Visigothic script",
+      "lead": "The Visigothic script was a medieval script that originated in the Visigothic Kingdom in Hispania (the Iberian Peninsula). Its more limiting alternative designations littera toletana and littera mozarabica associate it with scriptoria speci",
+      "image": "Visigothic_Z-C_cedille.svg"
+    },
+    "Blackletter": {
+      "title": "Blackletter",
+      "lead": "Blackletter (also black letter or sometimes black-letter; sometimes popularly known as Gothic minuscule or Gothic type) was originally a medieval book hand (Textualis or Textura) of the Gothic family of scripts, later adapted into typefaces",
+      "image": "Calligraphy.malmesbury.bible.arp.jpg"
+    },
+    "Mass_(liturgy)": {
+      "title": "Mass (liturgy)",
+      "lead": "Mass is the main Eucharistic liturgical service in many forms of Western Christianity. The term Mass is commonly used in the Catholic Church, Lutheran Churches, Western Rite Orthodoxy, Old Catholicism, and Independent Catholicism. The term ",
+      "image": "Pontifical_Mass_-_15th_Century_-_Project_Gutenberg_eText_16531.jpg"
+    },
+    "Constantine_VI": {
+      "title": "Constantine VI",
+      "lead": "Constantine VI (Greek: Κωνσταντῖνος, romanized: Kōnstantīnos, 14 January 771 – before 805), sometimes called the Blind, was Byzantine emperor from 780 to 797. The only child of Emperor Leo IV, Constantine was named co-emperor with him at th",
+      "image": "INC-3040-r_Солид._Константин_VI_и_Ирина._793—979_гг._(реверс).png"
+    },
+    "Constantine_the_Great": {
+      "title": "Constantine the Great",
+      "lead": "Constantine I (27 February 272 – 22 May 337), also known as Constantine the Great, was Roman emperor from AD 306 to 337 and the first Roman emperor to convert to Christianity. He played a pivotal role in elevating the status of Christianity",
+      "image": "Statua_di_Costantino_ai_musei_capitolini.jpg"
+    },
+    "High_Middle_Ages": {
+      "title": "High Middle Ages",
+      "lead": "The High Middle Ages, or High Medieval Period, was the period of European history between c. 1000 and c. 1300; it was preceded by the Early Middle Ages and followed by the Late Middle Ages, which ended c. 1500 according to historiographical",
+      "image": "Europe_mediterranean_1190.jpg"
+    },
+    "Antiqua": {
+      "title": "Antiqua",
+      "lead": "Antiqua () is a style of typeface used to mimic styles of handwriting or calligraphy common during the 15th and 16th centuries. Letters are designed to flow, and strokes connect together in a continuous fashion; in this way it is often cont",
+      "image": "Jenson_1475_venice_laertius.png"
+    },
+    "Danes": {
+      "title": "Danes",
+      "lead": "Danes (Danish: danskere, pronounced [ˈtænskɐɐ]), or Danish people, are an ethnic group and nationality native to Denmark and a modern nation identified with the country of Denmark. This connection may be ancestral, legal, historical, or cul",
+      "image": "Map_of_the_Danish_Diaspora_in_the_World.svg"
     },
     "Benedict_of_Aniane": {
       "title": "Benedict of Aniane",
@@ -1132,11 +1972,6 @@
       "lead": "Duke is a male title either of a monarch ruling over a duchy, or of a member of royalty, or nobility. As rulers, dukes are ranked below emperors, kings, grand princes, grand dukes, and above sovereign princes. As royalty or nobility, they a",
       "image": "James_Brydges,_1st_Duke_of_Chandos_by_Michael_Dahl.jpg"
     },
-    "Bishop": {
-      "title": "Bishop",
-      "lead": "A bishop is an ordained member of the clergy who is entrusted with a position of authority and oversight in a religious institution. In Christianity, bishops are normally responsible for the governance and administration of dioceses. The ro",
-      "image": ""
-    },
     "Fief": {
       "title": "Fief",
       "lead": "A fief (; Latin: feudum) was a central element in medieval contracts based on feudal law. It consisted of a form of property holding or other rights granted by an overlord to a vassal, who held it in fealty or \"in fee\" in return for a form ",
@@ -1152,6 +1987,91 @@
       "lead": "Aquitaine (UK: , US: ; French: [akitɛn] ; Occitan: Aquitània [akiˈtanjɔ]; Basque: Akitania; Poitevin-Saintongeais: Aguiéne), archaic Guyenne or Guienne (Occitan: Guiana), is a historical region of southwestern France and a former administra",
       "image": "Flag_of_Aquitaine.svg"
     },
+    "Louis_XIV": {
+      "title": "Louis XIV",
+      "lead": "Louis XIV (Louis-Dieudonné; 5 September 1638 – 1 September 1715) was King of France from 14 May 1643 until his death in 1715. He is a symbol of the Age of Absolutism in Europe for styling himself as \"The Sun King\" (Le Roi Soleil), which por",
+      "image": "Portrait_of_Louis_XIV_of_France_in_Coronation_Robes_(by_Hyacinthe_Rigaud)_-_Louvre_Museum.jpg"
+    },
+    "Lothair_I": {
+      "title": "Lothair I",
+      "lead": "Lothair I (9th. C. Frankish: Ludher and Medieval Latin: Lodharius; Dutch and Medieval Latin: Lotharius; German: Lothar; French: Lothaire; Italian: Lotario; 795 – 29 September 855) was a 9th-century Emperor of the Carolingian Empire (817–855",
+      "image": "Lothar_I.jpg"
+    },
+    "Pepin_I_of_Aquitaine": {
+      "title": "Pepin I of Aquitaine",
+      "lead": "Pepin I or Pepin I of Aquitaine (French: Pépin; 797 – 13 December 838) was King of Aquitaine and Duke of Maine. Pepin was the second son of Emperor Louis the Pious and his first wife, Ermengarde of Hesbaye. When his father assigned to each ",
+      "image": "Pepin_I_Aquitaine_denier_817_838.jpg"
+    },
+    "Louis_the_German": {
+      "title": "Louis the German",
+      "lead": "Louis the German (German: Ludwig der Deutsche; c. 806/810 – 28 August 876), also known as Louis II of Germany (German: Ludwig II. von Deutschland), was the first king of East Francia, and ruled from 843 to 876 AD. Grandson of emperor Charle",
+      "image": "Ludwig_der_Deutsche.jpg"
+    },
+    "West_Francia": {
+      "title": "West Francia",
+      "lead": "In medieval historiography, West Francia (Medieval Latin: Francia occidentalis) or the Kingdom of the West Franks (Latin: regnum Francorum occidentalium) constitutes the initial stage of the Kingdom of France and extends from the Treaty of ",
+      "image": "West_Francia_843.svg"
+    },
+    "East_Francia": {
+      "title": "East Francia",
+      "lead": "East Francia (Latin: Francia orientalis) or the Kingdom of the East Franks (Regnum Francorum orientalium) was a successor state of the Carolingian Empire ruled by the Carolingian dynasty until 911. It was established through the 843 Treaty ",
+      "image": "East_Francia_843.svg"
+    },
+    "Duchy_of_Saxony": {
+      "title": "Duchy of Saxony",
+      "lead": "The Duchy of Saxony (Low German: Hartogdom Sassen) was a medieval duchy that was encompassing the Old Saxony, a historical region settled by the Saxons since the Migration Period. Initially independent, it came under the sphere of influence",
+      "image": "Saxony_locator_map_(1000).svg"
+    },
+    "Middle_Francia": {
+      "title": "Middle Francia",
+      "lead": "Middle Francia (Latin: Francia media) was a short-lived Frankish kingdom which was created in 843 by the Treaty of Verdun after an intermittent dynastic war between the grandsons of Charlemagne resulted in division of the united Carolingian",
+      "image": "Middle_Francia_843.svg"
+    },
+    "Alsace": {
+      "title": "Alsace",
+      "lead": "Alsace is a cultural region and a territorial collectivity in the Grand Est administrative region of northeastern France, on the west bank of the upper Rhine, next to Germany and Switzerland. In January 2021, it had a population of 1,919,74",
+      "image": "Colmar_(32350846618).jpg"
+    },
+    "European_Union": {
+      "title": "European Union",
+      "lead": "The European Union (EU) is a political and economic union of 27 member states that are located primarily in Europe. A supranational union with a total area of 4,233,255 km2 (1,634,469 sq mi) and an estimated population of over 450 million a",
+      "image": "Flag_of_Europe.svg"
+    },
+    "Louis_II_of_Italy": {
+      "title": "Louis II of Italy",
+      "lead": "Louis II (825 – 12 August 875), sometimes called the Younger, was the king of Italy and emperor of the Carolingian Empire from 844, co-ruling with his father Lothair I until 855, after which he ruled alone. Louis's usual title was imperator",
+      "image": "Louis_II_of_Italy.png"
+    },
+    "Lothair_II": {
+      "title": "Lothair II",
+      "lead": "Lothair II (c.837 — 7 August 869) was the king of Lotharingia from 855 until his death. He is known for his over ten-year-long divorce case with his wife Teutberga so that he could remarry his long-standing lover Waldrada. Lothair began a r",
+      "image": "Lothar_II,_King_of_Lotharingie.PNG"
+    },
+    "Provence": {
+      "title": "Provence",
+      "lead": "Provence is a geographical, cultural region and historical province of southeastern France, which stretches from the left bank of the lower Rhône to the west to the Italian border to the east; it is bordered by the Mediterranean Sea to the ",
+      "image": "Lavender_field_and_Mont_Ventoux.jpg"
+    },
+    "Kingdom_of_Italy_(Holy_Roman_Empire)": {
+      "title": "Kingdom of Italy (Holy Roman Empire)",
+      "lead": "The Kingdom of Italy, also called Imperial Italy (Italian: Italia Imperiale; German: Reichsitalien), was one of the constituent kingdoms of the Holy Roman Empire, along with the kingdoms of Germany, Bohemia, and Burgundy. It originally comp",
+      "image": "Banner_of_the_Holy_Roman_Emperor_with_haloes_(1430-1806).svg"
+    },
+    "Kingdom_of_Burgundy": {
+      "title": "Kingdom of Burgundy",
+      "lead": "Kingdom of Burgundy named after the Germanic tribe of Burgundians, was a name given to various successive kingdoms centered in the historical region of Burgundy during the Middle Ages. The heartland of historical Burgundy correlates with th",
+      "image": "Les_4_commendement_de_bourgognes.png"
+    },
+    "Lower_Burgundy": {
+      "title": "Lower Burgundy",
+      "lead": "Lower Burgundy (Latin: Burgundia inferior; French: Bourgogne inférieure) was a historical region in the early medieval Burgundy, and a distinctive realm known as the Kingdom of Lower Burgundy, that existed from 879 to 933, when it was incor",
+      "image": "Karte_Hoch_und_Niederburgund_EN.png"
+    },
+    "Partible_inheritance": {
+      "title": "Partible inheritance",
+      "lead": "Partible inheritance, sometimes also called partitive, is a system of inheritance in which property is apportioned among heirs. It contrasts in particular with primogeniture, which was common in feudal society and requires that the whole or",
+      "image": ""
+    },
     "Symeon_of_Durham": {
       "title": "Symeon of Durham",
       "lead": "Symeon (or Simeon) of Durham (fl. c.1090 to c. 1128) was an English chronicler and a monk of Durham Priory. He is known for two historical works which are particularly valuable for northern affairs, about the church of Durham and the histor",
@@ -1161,16 +2081,6 @@
       "title": "History of Dublin",
       "lead": "The city of Dublin can trace its origin back more than 1,000 years, and for much of this time it has been Ireland's principal city and the cultural, educational and industrial centre of the island.",
       "image": ""
-    },
-    "Wessex": {
-      "title": "Wessex",
-      "lead": "The Kingdom of the West Saxons, also known as the Kingdom of Wessex, was an Anglo-Saxon kingdom in the south of Great Britain, from around 519 until around 927. Its origins trace back when Alfred the Great adopted the title 'King of the Ang",
-      "image": "Southern_British_Isles_9th_century.svg"
-    },
-    "Northumbria": {
-      "title": "Northumbria",
-      "lead": "Northumbria was an early medieval English kingdom, existing between 654 and 1066 AD, spanning modern-day Northern England and Southern Scotland. The name derives from the Old English Norþhymbre meaning \"the people or province north of the H",
-      "image": "Map_of_the_Kingdom_of_Northumbria_around_700_AD.svg"
     },
     "Kingdom_of_East_Anglia": {
       "title": "Kingdom of East Anglia",
@@ -1195,7 +2105,7 @@
     "Old_English": {
       "title": "Old English",
       "lead": "Old English (Englisc or Ænglisc, pronounced [ˈeŋɡliʃ] or [ˈæŋɡliʃ]), or Anglo-Saxon, is the earliest attested form of the English language, spoken in England and southern and eastern Scotland in the Early Middle Ages. It developed from the ",
-      "image": ""
+      "image": "2008-05-17-SuttonHoo_crop.jpg"
     },
     "%C3%86thelstan": {
       "title": "Æthelstan",
@@ -1236,11 +2146,6 @@
       "title": "Pannonian Basin",
       "lead": "The Pannonian Basin, or Carpathian Basin is a large, mainly lowland area in southeastern Central Europe, briefly described as a sedimentary basin. It was the core territory of the historical Kingdom of Hungary. Under the geopolitically chan",
       "image": "Carpathian_Basin_-_Geographic_Map_-_Location_in_Europe.jpg"
-    },
-    "Aghlabids": {
-      "title": "Aghlabid dynasty",
-      "lead": "The Aghlabid dynasty (Arabic: الأغالبة) was an Arab dynasty that ruled Ifriqiya from 800 to 909, nominally as vassals of the Abbasid Caliphate. During this time, they also conquered Sicily, Malta, parts of southern Italy, and possibly Sardi",
-      "image": "Aghlabids_Dynasty_800_-_909_(AD).svg"
     },
     "Palermo": {
       "title": "Palermo",
@@ -1287,6 +2192,131 @@
       "lead": "Fraxinetum or Fraxinet (Arabic: فرخشنيط, romanized: Farakhshanīt or فرخشة Farakhsha, from Latin fraxinus: \"ash tree\", fraxinetum: \"ash forest\") was the site of a Muslim stronghold at the centre of a frontier state in Provence between about ",
       "image": "Fraxinetum_EN.svg"
     },
+    "Battle_of_Stamford_Bridge": {
+      "title": "Battle of Stamford Bridge",
+      "lead": "The Battle of Stamford Bridge took place at the village of Stamford Bridge, East Riding of Yorkshire, in England, on 25 September 1066, between an English army under King Harold Godwinson and an invading Norwegian force led by King Harald H",
+      "image": "Battle_of_Stamford_Bridge,_full.png"
+    },
+    "Scandinavians": {
+      "title": "Scandinavia",
+      "lead": "Scandinavia is a subregion of northern Europe that most commonly comprises Denmark, Norway, and Sweden, which share strong historical, cultural, and linguistic ties. It may also refer to the Scandinavian Peninsula (which excludes Denmark bu",
+      "image": "Scandinavia_M2002074_lrg.jpg"
+    },
+    "Newfoundland_(island)": {
+      "title": "Newfoundland (island)",
+      "lead": "Newfoundland ( NEW-fən(d)-land, locally NEW-fən-LAND; French: Terre-Neuve, locally [taɛ̯ʁˈnœːv]) is a large island within the Canadian province of Newfoundland and Labrador. It is situated off the eastern coast of the North American mainlan",
+      "image": "Newfoundland_OSE2002210.jpg"
+    },
+    "Whitby": {
+      "title": "Whitby",
+      "lead": "Whitby is a seaside town, port and civil parish in North Yorkshire, England. It is located at the mouth of the River Esk, where the North York Moors meet the Yorkshire Coast, and has a maritime, mineral and tourist economy. It is 47 miles (",
+      "image": "Whitby_Abbey_(geograph_7249897).jpg"
+    },
+    "Seine": {
+      "title": "Seine",
+      "lead": "The Seine ( sayn, sen; French: [sɛn] ) is a 777-kilometre-long (483 mi) river in northern France. Its drainage basin is in the Paris Basin (a geological relative lowland) covering most of northern France. It rises at Source-Seine, 30 kilome",
+      "image": "Bercy,_Paris_01.jpg"
+    },
+    "Loire": {
+      "title": "Loire",
+      "lead": "The Loire ( LWAR, US also loo-AR, French: [lwaʁ] ; Occitan: Léger [ˈledʒe]; Arpitan: Lêre; Breton: Liger [ˈliːɡɛr]; Latin: Liger) is the longest river in France and the 171st-longest in the world. With a length of 1,006 kilometres (625 mi),",
+      "image": "LoireAChamptoceaux.jpg"
+    },
+    "Duchy_of_Normandy": {
+      "title": "Duchy of Normandy",
+      "lead": "The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 until 1204, as a result of the No",
+      "image": "Flag_of_Normandie.svg"
+    },
+    "Norman_dynasty": {
+      "title": "House of Normandy",
+      "lead": "The House of Normandy (Norman: Maison de Nouormandie [mɛ.zɔ̃ d̪e nɔʁ.mɛnde]) was a noble family originating from the Duchy of Normandy. The House of Normandy's lineage began with the Scandinavian Rollo who founded the Duchy of Normandy in 9",
+      "image": ""
+    },
+    "Normans": {
+      "title": "Normans",
+      "lead": "The Normans (Norman: Normaunds; French: Normands; Latin: Nortmanni/Normanni) were a population arising in the medieval Duchy of Normandy from the intermingling between Norse Viking settlers and locals of West Francia. The Norse settlements ",
+      "image": "Drapeau_de_la_Normandie_(version_traditionnelle).png"
+    },
+    "Veliky_Novgorod": {
+      "title": "Veliky Novgorod",
+      "lead": "Veliky Novgorod ( və-LEE-kee NOV-gə-rod; Russian: Великий Новгород, IPA: [vʲɪˈlʲikʲɪj ˈnovɡərət]; lit. 'Great Newtown'), also known simply as Novgorod (Новгород), is the largest city and administrative centre of Novgorod Oblast, Russia. The",
+      "image": "Veliky_Novgorod_montage_(2015).png"
+    },
+    "Rurik": {
+      "title": "Rurik",
+      "lead": "Rurik (also spelled Rorik, Riurik or Ryurik; Church Slavonic: Рюрикъ, romanized: Rjurikŭ; Old Norse: Hrøríkʀ; died 879) was a Varangian chieftain of the Rus' who, according to tradition, was invited to reign in Novgorod in the year 862. The",
+      "image": "1000_Rurik.JPG"
+    },
+    "Kyiv": {
+      "title": "Kyiv",
+      "lead": "Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the country, it straddles both banks of the Dnieper River. As of January 2022, the population of Kyiv was 2,952,301, making it the seven",
+      "image": "Будинок_з_химерами,_серпень_2019.jpg"
+    },
+    "Belarus": {
+      "title": "Belarus",
+      "lead": "Belarus, officially the Republic of Belarus, is a landlocked country in Eastern Europe. It is bordered by Russia to the east and northeast, Ukraine to the south, Poland to the west, and Lithuania and Latvia to the northwest. Belarus spans a",
+      "image": "Flag_of_Belarus.svg"
+    },
+    "Ukraine": {
+      "title": "Ukraine",
+      "lead": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast. Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Mo",
+      "image": "Flag_of_Ukraine.svg"
+    },
+    "Anna_Porphyrogenita": {
+      "title": "Anna Porphyrogenita",
+      "lead": "Anna Porphyrogenita (Greek: Άννα Πορφυρογέννητη; 13 March 963 – 1011) was the grand princess consort of Kiev during her marriage to Vladimir the Great.",
+      "image": ""
+    },
+    "Eastern_Orthodox_Church": {
+      "title": "Eastern Orthodox Church",
+      "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches that adh",
+      "image": "St._George's_Cathedral_2022_(6).jpg"
+    },
+    "Indo-European_languages": {
+      "title": "Indo-European languages",
+      "lead": "The Indo-European languages are a language family native to the northern Indian subcontinent, most of Europe, and the Iranian plateau, with additional native branches found in regions such as parts of Central Asia (e.g., Tajikistan and Afgh",
+      "image": "Indo-European_Language_Family_Branches_in_Eurasia.png"
+    },
+    "Turkic_peoples": {
+      "title": "Turkic peoples",
+      "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
+      "image": "Turkic_Languages_distribution_map.png"
+    },
+    "Pannonian_Avars": {
+      "title": "Pannonian Avars",
+      "lead": "The Pannonian Avars or Carpathian Avars ( AV-arz) were an alliance of several groups of Eurasian nomads of various origins. The peoples were also known as the Obri (modern Russian: обры, Obry) in the chronicles of the Rus, the Abaroi or Var",
+      "image": "Avar_Khaganate_Map_602.png"
+    },
+    "Verona": {
+      "title": "Verona",
+      "lead": "Verona ( və-ROH-nə, Italian: [veˈroːna] ; Venetian: Verona or Veròna) is the largest city in the region of Veneto in Italy, with 255,131 inhabitants. It is one of the seven provincial capitals of the region, and is the largest city municipa",
+      "image": "Tramonto_a_Verona.jpg"
+    },
+    "Syracuse,_Sicily": {
+      "title": "Syracuse, Sicily",
+      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Sarausa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern It",
+      "image": "Veduta_aerea_di_Siracusa_e_con_l'Etna_sullo_sfondo_(Foto_di_Angelo_Bonomo).jpg"
+    },
+    "Tiber": {
+      "title": "Tiber",
+      "lead": "The Tiber ( TY-bər; Italian: Tevere [ˈteːvere]; Latin: Tiberis) is the third-longest river in Italy and the longest in Central Italy, rising in the Apennine Mountains in Emilia-Romagna and flowing 406 km (252 mi) through Tuscany, Umbria, an",
+      "image": "PonteSantAngeloRom.jpg"
+    },
+    "Corsica": {
+      "title": "Corsica",
+      "lead": "Corsica ( KOR-sik-ə; Corsican: [ˈkorsiɡa, ˈkɔrsika]; Italian: [ˈkɔrsika]; French: Corse [kɔʁs] ; Ligurian: Còrsega) is an island in the Mediterranean Sea and one of the 18 regions of France. It is the fourth-largest island in the Mediterran",
+      "image": "Corsica_in_France_2016.svg"
+    },
+    "Odo_of_France": {
+      "title": "Odo of France",
+      "lead": "Odo (French: Eudes; c. 857 – 1 January 898), also known as Odo of Paris, was King of West Francia from 888 to 898. He was the first king from the Robertian dynasty, the parent house of the House of Capet. Before assuming the kingship, Odo w",
+      "image": "Coronation_of_Odo.png"
+    },
+    "%C3%81rp%C3%A1d": {
+      "title": "Árpád",
+      "lead": "Árpád (Hungarian pronunciation: [ˈaːrpaːd]; c. 845 – c. 907) was the head of the confederation of the Magyar tribes at the turn of the 9th and 10th centuries. He might have been either the sacred ruler or kende of the Hungarians, or their m",
+      "image": "Árpád_Ráckeve.JPG"
+    },
     "Battle_of_Riade": {
       "title": "Battle of Riade",
       "lead": "The Battle of Riade or Battle of Merseburg was fought between the troops of East Francia under King Henry I and the Magyars at an unidentified location in northern Thuringia along the river Unstrut on 15 March 933. The battle was precipitat",
@@ -1327,11 +2357,6 @@
       "lead": "Otto II (955 – 7 December 983), called the Red (German: der Rote), was Holy Roman Emperor from 973 until his death in 983. A member of the Ottonian dynasty, Otto II was the youngest and sole surviving son of Otto the Great and Adelaide of I",
       "image": "Otto_II_(HRE).jpg"
     },
-    "Burgundy": {
-      "title": "Burgundy",
-      "lead": "Burgundy ( BUR-gən-dee; French: Bourgogne [buʁɡɔɲ] ; Burgundian: Bregogne) is a historical region in France, broadly corresponding to the territory of the former administrative region of the same name, which existed from 1982 to 2015 and wa",
-      "image": "Flag_of_Bourgogne.svg"
-    },
     "Odilo_of_Cluny": {
       "title": "Odilo of Cluny",
       "lead": "Odilo of Cluny (c. 962 – 1 January 1049) was the 5th Benedictine Abbot of Cluny, succeeding Mayeul and holding the post for around 54 years. During his tenure Cluny became the most important monastery in western Europe. Odilo actively worke",
@@ -1345,11 +2370,6 @@
     "Simony": {
       "title": "Simony",
       "lead": "Simony () is the act of selling church offices and roles or sacred things. It is named after Simon Magus, who is described in the Acts of the Apostles as having offered two disciples of Jesus payment in exchange for their empowering him to ",
-      "image": ""
-    },
-    "Clerical_celibacy": {
-      "title": "Clerical celibacy",
-      "lead": "Clerical celibacy is the requirement in certain religions that some or all members of the clergy be unmarried. Clerical celibacy also requires abstention from deliberately indulging in sexual thoughts and behavior outside of marriage, becau",
       "image": ""
     },
     "Gregorian_Reform": {
@@ -1392,11 +2412,6 @@
       "lead": "The Alþingi (Icelandic: [ˈalˌθiɲcɪ]; Icelandic for 'general meeting', anglicised as Althing or Althingi), is the national legislature of Iceland, which is also known in the English language as the Icelandic Parliament or as the Parliament o",
       "image": "Althing_Logo.svg"
     },
-    "Eastern_Orthodox_Church": {
-      "title": "Eastern Orthodox Church",
-      "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches that adh",
-      "image": "St._George's_Cathedral_2022_(6).jpg"
-    },
     "Domesday_Book": {
       "title": "Domesday Book",
       "lead": "Domesday Book ( DOOMZ-day; the Middle English spelling of \"Doomsday Book\") is a manuscript record of the Great Survey of much of England and parts of Wales completed in 1086 at the behest of William the Conqueror. The manuscript was origina",
@@ -1426,6 +2441,126 @@
       "title": "Ottonian Renaissance",
       "lead": "The Ottonian Renaissance was a renaissance of Byzantine and Late Antique art in Central and Southern Europe that accompanied the reigns of the first three Holy Roman Emperors of the Ottonian (or Saxon) dynasty: Otto I (936–973), Otto II (97",
       "image": "Kreuz-Große-Senkschmelzen-Domschatz-Essen-2025.jpg"
+    },
+    "Easter_Island": {
+      "title": "Easter Island",
+      "lead": "Easter Island (Spanish: Isla de Pascua, [ˈizla ðe ˈpaskwa]; Rapa Nui: Rapa Nui, [ˈɾapa ˈnu.i]) is an island and special territory of Chile in the southeastern Pacific Ocean, at the southeasternmost point of the Polynesian Triangle in Oceani",
+      "image": "Easter_Island_5.jpg"
+    },
+    "Hungarians": {
+      "title": "Hungarians",
+      "lead": "Hungarians, also known as Magyars, are an ethnic group native to Hungary (Magyarország), who share a common culture, language, history and ancestry. They also have a notable presence in former parts of the Kingdom of Hungary. The Hungarian ",
+      "image": "Map_of_the_Hungarian_Diaspora_in_the_World.svg"
+    },
+    "Crusades": {
+      "title": "Crusades",
+      "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
+      "image": "Combat_deuxième_croisade.jpg"
+    },
+    "Hamburg": {
+      "title": "Hamburg",
+      "lead": "Hamburg, officially the Free and Hanseatic City of Hamburg, is the second-largest city in Germany after Berlin and seventh-largest city in the European Union, with a population of over 1.9 million. The Hamburg Metropolitan Region has a popu",
+      "image": "Hamburg,_Landungsbrücken_--_2016_--_3131-7.jpg"
+    },
+    "Latin_Church": {
+      "title": "Latin Church",
+      "lead": "The Latin Church (Latin: Ecclesia Latina) is the largest autonomous (sui iuris) particular church within the Catholic Church, whose members constitute the vast majority of the 1.3 billion Catholics. The Latin Church is one of 24 sui iuris c",
+      "image": "San_Giovanni_in_Laterano_2021.jpg"
+    },
+    "East_Slavs": {
+      "title": "East Slavs",
+      "lead": "The East Slavs are a subgroup of the Slavs, who speak East Slavic languages and reside chiefly in Eastern Europe but extending also across northern Asia and the Pacific Ocean. They formed the majority of the population of the medieval state",
+      "image": "East_Slavic_Europe.svg"
+    },
+    "Russians": {
+      "title": "Russians",
+      "lead": "Russians (Russian: русские, romanized: russkiye [ˈruskʲɪje] ) are an East Slavic ethnic group native to Eastern Europe. Their mother tongue is Russian, the most spoken Slavic language. The majority of Russians adhere to Orthodox Christianit",
+      "image": "Map_of_the_Russian_Diaspora_in_the_World2025.svg"
+    },
+    "Ukrainians": {
+      "title": "Ukrainians",
+      "lead": "Ukrainians (Ukrainian: українці, romanised: ukraintsi, pronounced [ʊkrɐˈjin⁽ʲ⁾ts⁽ʲ⁾i]) are an East Slavic ethnic group native to Ukraine. Their native tongue is Ukrainian, and the majority adhere to Eastern Orthodoxy. At around 46 million w",
+      "image": "Map_of_the_Ukrainian_Diaspora_in_the_World.svg"
+    },
+    "Baltic_peoples": {
+      "title": "Balts",
+      "lead": "The Balts or Baltic peoples (Lithuanian: baltai, Latvian: balti) are a group of peoples inhabiting the eastern coast of the Baltic Sea who speak Baltic languages. Among the Baltic peoples are modern-day Lithuanians (including Samogitians) a",
+      "image": "Balts.svg"
+    },
+    "Adriatic_Sea": {
+      "title": "Adriatic Sea",
+      "lead": "The Adriatic Sea () is a body of water separating the Italian Peninsula from the Balkan Peninsula. The Adriatic is the northernmost arm of the Mediterranean Sea, extending from the Strait of Otranto (where it connects to the Ionian Sea) to ",
+      "image": "Adriatic_Sea_2003.jpg"
+    },
+    "Last_Judgment": {
+      "title": "Last Judgment",
+      "lead": "The Last Judgment, or Judgment Day, is a central Christian eschatological event marking the return of Jesus Christ to evaluate all of humanity, both the living and the resurrected dead (Jn 5:28–29). According to biblical apocalyptic literat",
+      "image": "Cathédrale_d'Amiens,_façade_-_détail.JPG"
+    },
+    "Chartres_Cathedral": {
+      "title": "Chartres Cathedral",
+      "lead": "Chartres Cathedral (French: Cathédrale Notre-Dame de Chartres, lit. 'Cathedral of Our Lady of Chartres') is a Catholic cathedral in Chartres, France, about 80 km (50 miles) southwest of Paris, and is the seat of the Bishop of Chartres. Dedi",
+      "image": "Notre_Dame_de_Chartres.jpg"
+    },
+    "Pisa": {
+      "title": "Pisa",
+      "lead": "Pisa ( PEE-zə; Italian: [ˈpiːza] or [ˈpiːsa]) is a city and comune (municipality) in Tuscany, Central Italy, straddling the Arno just before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is ",
+      "image": "Italy_-_Pisa.jpg"
+    },
+    "Genoa": {
+      "title": "Genoa",
+      "lead": "Genoa is the sixth-largest city in Italy and the capital of the Italian region of Liguria. As of 2025, 565,301 people live within the city's administrative limits. While its metropolitan city has 818,629 inhabitants, more than 1.5 million p",
+      "image": "Piazza_de_Ferrari,_Genoa.jpg"
+    },
+    "Gothic_architecture": {
+      "title": "Gothic architecture",
+      "lead": "Gothic architecture is an architectural style that was prevalent in Europe from the late 12th to the 16th century, during the High and Late Middle Ages, surviving into the 17th and 18th centuries in some areas. It evolved from Romanesque ar",
+      "image": "Wells_Cathedral_West_Front_Exterior,_UK_-_Diliff.jpg"
+    },
+    "Bologna": {
+      "title": "Bologna",
+      "lead": "Bologna (Italian: [boˈloɲɲa] ) is the capital and largest city of the Emilia-Romagna region in northern Italy. It is the seventh most populous city in Italy, with 390,734 inhabitants and 150 different nationalities. Its metropolitan provinc",
+      "image": "Torri_di_Bologna,_Bologna.jpg"
+    },
+    "Christopher_Columbus": {
+      "title": "Christopher Columbus",
+      "lead": "Christopher Columbus (; between 25 August and 31 October 1451 – 20 May 1506) was an Italian explorer and navigator from the Republic of Genoa who completed four Spanish transatlantic voyages in the name of the Catholic Monarchs, opening the",
+      "image": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Sudan": {
+      "title": "Sudan",
+      "lead": "Sudan, officially the Republic of the Sudan, is a country in Northeast Africa. It borders the Central African Republic to the southwest, Chad to the west, Libya to the northwest, Egypt to the north, the Red Sea to the east, Eritrea and Ethi",
+      "image": "Flag_of_Sudan.svg"
+    },
+    "Odo_of_Cluny": {
+      "title": "Odo of Cluny",
+      "lead": "Odo of Cluny (French: Odon) (c. 878 – 18 November 942) was the second abbot of Cluny. Born to a noble family, he served as a page at the court of Aquitaine. He became a canon of the Church of St. Martin in Tours and continued his education ",
+      "image": "Odo_Cluny-11.jpg"
+    },
+    "Norway": {
+      "title": "Norway",
+      "lead": "Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scandinavian Peninsula in Northern Europe, the remote Arctic island Jan Mayen and the archipelago Svalbard. Bouvet Island, lo",
+      "image": "Flag_of_Norway.svg"
+    },
+    "Sweden": {
+      "title": "Sweden",
+      "lead": "Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern Europe. It borders Norway to the west and north, and Finland to the east, and shares a maritime border with Denmark to the south. ",
+      "image": "Flag_of_Sweden.svg"
+    },
+    "Tula_(Mesoamerican_site)": {
+      "title": "Tula (Mesoamerican site)",
+      "lead": "Tula (Otomi: Mämeni) is a Mesoamerican archaeological site, which was an important regional center that reached its height as the capital of the Toltec Empire between the fall of Teotihuacan and the rise of Tenochtitlan. It has not been wel",
+      "image": "TulaSite81.JPG"
+    },
+    "Amalfi": {
+      "title": "Amalfi",
+      "lead": "Amalfi (UK: , US: , Italian: [aˈmalfi]) is a town and comune in the province of Salerno, in the region of Campania, Italy, on the Gulf of Salerno. It lies at the mouth of a deep ravine, at the foot of Monte Cerreto (1,315 metres, 4,314 feet",
+      "image": "Amalfi_sea_view_Italy.JPG"
     }
   }
 }
