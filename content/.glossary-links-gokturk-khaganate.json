@@ -85,12 +85,6 @@
       "type": "concept"
     },
     {
-      "term": "Romulus and Remus",
-      "matchText": "Romulus and Remus",
-      "wikiSlug": "Romulus_and_Remus",
-      "type": "people"
-    },
-    {
       "term": "Bozkurt",
       "matchText": "Bozkurt",
       "wikiSlug": "Grey_wolf_(mythology)",
@@ -114,12 +108,6 @@
       "wikiSlug": "",
       "type": "people",
       "definition": "The last strong ruler of the Rouran, the steppe empire the Göktürks served as ironworking vassals. When Anagui treated the Türk leader Bumin with contempt, Bumin revolted, smashed the Rouran in 552, and founded the Türk Khaganate in their place — making Anagui the man whose arrogance handed the steppe to the Turks."
-    },
-    {
-      "term": "Avars",
-      "matchText": "Avars",
-      "wikiSlug": "Pannonian_Avars",
-      "type": "concept"
     },
     {
       "term": "Yabghu",
@@ -150,15 +138,104 @@
       "matchText": "Muqan Qaghan",
       "wikiSlug": "Muqan_Qaghan",
       "type": "people"
+    },
+    {
+      "matchText": "Mongolian steppe",
+      "term": "Mongolian Plateau",
+      "wikiSlug": "Mongolian_Plateau"
+    },
+    {
+      "matchText": "Donghu",
+      "term": "Donghu people",
+      "wikiSlug": "Donghu_people"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic peoples",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Manchuria",
+      "term": "Manchuria",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "matchText": "Tiber",
+      "term": "Tiber",
+      "wikiSlug": "Tiber"
+    },
+    {
+      "matchText": "Tuwu",
+      "term": "Ashina Tuwu",
+      "wikiSlug": "Ashina_Tuwu"
+    },
+    {
+      "matchText": "Tumen",
+      "term": "Bumin (Tumen)",
+      "wikiSlug": "Bumin_Qaghan"
+    },
+    {
+      "matchText": "Istanbul",
+      "term": "Istanbul",
+      "wikiSlug": "Istanbul"
+    },
+    {
+      "matchText": "Xinjiang",
+      "term": "Xinjiang",
+      "wikiSlug": "Xinjiang"
+    },
+    {
+      "matchText": "Hephthalites",
+      "term": "Hephthalites",
+      "wikiSlug": "Hephthalites"
+    },
+    {
+      "matchText": "Western Türk Khaganate",
+      "term": "Western Turkic Khaganate",
+      "wikiSlug": "Western_Turkic_Khaganate"
+    },
+    {
+      "matchText": "Belisarius",
+      "term": "Belisarius",
+      "wikiSlug": "Belisarius"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Khusrau",
+      "term": "Khosrow I",
+      "wikiSlug": "Khosrow_I"
+    },
+    {
+      "matchText": "Northern Qi",
+      "term": "Northern Qi",
+      "wikiSlug": "Northern_Qi"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Wei princess",
+      "term": "Western Wei marriage alliance",
+      "definition": "The Chinese imperial bride Bumin secured from the Western Wei court in 551. Marrying a Chinese princess gave a steppe ruler semi-imperial standing by Chinese diplomatic convention; no individual record of this particular princess survives."
+    },
+    {
+      "matchText": "Inner Asian",
+      "term": "Inner Asian",
+      "wikiSlug": "Inner_Asia"
     }
   ],
   "2": [
-    {
-      "term": "Orkhon Valley",
-      "matchText": "Orkhon Valley",
-      "wikiSlug": "Orkhon_Valley",
-      "type": "place"
-    },
     {
       "term": "Khangai Mountains",
       "matchText": "Khangai Mountains",
@@ -172,12 +249,6 @@
       "type": "place"
     },
     {
-      "term": "Karakorum",
-      "matchText": "Karakorum",
-      "wikiSlug": "Karakorum",
-      "type": "place"
-    },
-    {
       "term": "Otuken",
       "matchText": "Otuken",
       "wikiSlug": "%C3%96t%C3%BCken",
@@ -187,12 +258,6 @@
       "term": "Bilge Kagan",
       "matchText": "Bilge Kagan",
       "wikiSlug": "Bilge_Qaghan",
-      "type": "people"
-    },
-    {
-      "term": "Muqan Qaghan",
-      "matchText": "Muqan Qaghan",
-      "wikiSlug": "Muqan_Qaghan",
       "type": "people"
     },
     {
@@ -238,16 +303,155 @@
       "type": "concept"
     },
     {
-      "term": "Heqin",
-      "matchText": "heqin",
-      "wikiSlug": "Heqin",
-      "type": "concept"
-    },
-    {
       "term": "Sogdian",
       "matchText": "Sogdian",
       "wikiSlug": "Sogdia",
       "type": "concept"
+    },
+    {
+      "matchText": "Caspian Sea",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Uyghur Khaganate",
+      "term": "Uyghur Khaganate",
+      "wikiSlug": "Uyghur_Khaganate"
+    },
+    {
+      "matchText": "Lake Baikal",
+      "term": "Lake Baikal",
+      "wikiSlug": "Lake_Baikal"
+    },
+    {
+      "matchText": "North China Plain",
+      "term": "North China Plain",
+      "wikiSlug": "North_China_Plain"
+    },
+    {
+      "matchText": "Ashina",
+      "term": "Ashina",
+      "wikiSlug": "Ashina_(tribe)"
+    },
+    {
+      "matchText": "Rouran",
+      "term": "Rouran",
+      "wikiSlug": "Rouran_Khaganate"
+    },
+    {
+      "matchText": "Manchuria",
+      "term": "Manchuria",
+      "wikiSlug": "Manchuria"
+    },
+    {
+      "matchText": "Türks",
+      "term": "Turkic peoples",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Mongolian",
+      "term": "Mongolian steppe",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Karabalghasun",
+      "term": "Karabalghasun",
+      "wikiSlug": "Ordu-Baliq"
+    },
+    {
+      "matchText": "Altai",
+      "term": "Altai Mountains",
+      "wikiSlug": "Altai_Mountains"
+    },
+    {
+      "matchText": "Bumin",
+      "term": "Bumin Qaghan",
+      "wikiSlug": "Bumin_Qaghan"
+    },
+    {
+      "matchText": "Istemi",
+      "term": "Istemi",
+      "wikiSlug": "Istemi"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Hephthalites",
+      "term": "Hephthalites",
+      "wikiSlug": "Hephthalites"
+    },
+    {
+      "matchText": "Sogdiana",
+      "term": "Sogdiana",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Liang",
+      "term": "Liang dynasty",
+      "wikiSlug": "Liang_dynasty"
+    },
+    {
+      "matchText": "Chen",
+      "term": "Chen dynasty",
+      "wikiSlug": "Chen_dynasty"
+    },
+    {
+      "matchText": "Xianbei",
+      "term": "Xianbei",
+      "wikiSlug": "Xianbei"
+    },
+    {
+      "matchText": "Xi'an",
+      "term": "Xi'an",
+      "wikiSlug": "Xi%27an"
+    },
+    {
+      "matchText": "Hebei",
+      "term": "Hebei",
+      "wikiSlug": "Hebei"
+    },
+    {
+      "matchText": "Justin II",
+      "term": "Justin II",
+      "wikiSlug": "Justin_II"
+    },
+    {
+      "matchText": "Khusrau",
+      "term": "Khusrau I",
+      "wikiSlug": "Khosrow_I"
+    },
+    {
+      "matchText": "Mayan classical period",
+      "term": "Maya classical period",
+      "wikiSlug": "Maya_civilization"
     }
   ],
   "3": [
@@ -390,13 +594,6 @@
       "type": "people"
     },
     {
-      "term": "Maniakh",
-      "matchText": "Maniakh",
-      "wikiSlug": "",
-      "type": "people",
-      "definition": "A Sogdian merchant who became the Türk empire's chief diplomat in the 560s, leading missions across Persia and on to Byzantium to open up the silk trade — the human face of the Sogdian network that ran the khaganate's commerce."
-    },
-    {
       "term": "Sephardic Jews",
       "matchText": "Sephardic Jews",
       "wikiSlug": "Sephardic_Jews",
@@ -407,6 +604,131 @@
       "matchText": "Hanseatic League",
       "wikiSlug": "Hanseatic_League",
       "type": "concept"
+    },
+    {
+      "matchText": "Amu Darya",
+      "term": "Amu Darya",
+      "wikiSlug": "Amu_Darya"
+    },
+    {
+      "matchText": "Syr Darya",
+      "term": "Syr Darya",
+      "wikiSlug": "Syr_Darya"
+    },
+    {
+      "matchText": "Hexi Corridor",
+      "term": "Hexi Corridor",
+      "wikiSlug": "Hexi_Corridor"
+    },
+    {
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Dutch East India Company",
+      "term": "Dutch East India Company",
+      "wikiSlug": "Dutch_East_India_Company"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Iranian languages",
+      "term": "Iranian languages",
+      "wikiSlug": "Iranian_languages"
+    },
+    {
+      "matchText": "Ashina",
+      "term": "Ashina",
+      "wikiSlug": "Ashina_(tribe)"
+    },
+    {
+      "matchText": "Iranian-speaking",
+      "term": "Iranian-speaking peoples",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Kurdish",
+      "term": "Kurdish language",
+      "wikiSlug": "Kurdish_language"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin",
+      "wikiSlug": "Latin"
+    },
+    {
+      "matchText": "Sanskrit",
+      "term": "Sanskrit",
+      "wikiSlug": "Sanskrit"
+    },
+    {
+      "matchText": "Turkmen",
+      "term": "Turkmen language",
+      "wikiSlug": "Turkmen_language"
+    },
+    {
+      "matchText": "Khitan",
+      "term": "Khitan language",
+      "wikiSlug": "Khitan_language"
+    },
+    {
+      "matchText": "Mongolian",
+      "term": "Mongolian language",
+      "wikiSlug": "Mongolian_language"
+    },
+    {
+      "matchText": "Manchu",
+      "term": "Manchu language",
+      "wikiSlug": "Manchu_language"
+    },
+    {
+      "matchText": "Sogdiana",
+      "term": "Sogdiana",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Türks",
+      "term": "Turkic peoples",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Arab conquest of Transoxiana",
+      "term": "Arab conquest of Transoxiana",
+      "wikiSlug": "Muslim_conquest_of_Transoxiana"
+    },
+    {
+      "matchText": "Samanid",
+      "term": "Samanid Empire",
+      "wikiSlug": "Samanid_Empire"
+    },
+    {
+      "matchText": "Orkhon Inscriptions",
+      "term": "Orkhon Inscriptions",
+      "wikiSlug": "Orkhon_inscriptions"
+    },
+    {
+      "matchText": "Hephthalite Empire",
+      "term": "Hephthalite Empire",
+      "wikiSlug": "Hephthalites"
+    },
+    {
+      "matchText": "Istemi",
+      "term": "Istämi",
+      "wikiSlug": "Istami"
+    },
+    {
+      "matchText": "Turkic languages",
+      "term": "Turkic languages",
+      "wikiSlug": "Turkic_languages"
+    },
+    {
+      "matchText": "western Türk",
+      "term": "Western Türk",
+      "wikiSlug": "Western_Turkic_Khaganate"
     }
   ],
   "4": [
@@ -433,12 +755,6 @@
       "matchText": "Bactria",
       "wikiSlug": "Bactria",
       "type": "place"
-    },
-    {
-      "term": "Khusrau I",
-      "matchText": "Khusrau I",
-      "wikiSlug": "Khosrow_I",
-      "type": "people"
     },
     {
       "term": "Sasanian",
@@ -496,12 +812,6 @@
       "type": "concept"
     },
     {
-      "term": "Kumis",
-      "matchText": "kumis",
-      "wikiSlug": "Kumis",
-      "type": "concept"
-    },
-    {
       "term": "Lombards",
       "matchText": "Lombards",
       "wikiSlug": "Lombards",
@@ -514,16 +824,110 @@
       "type": "concept"
     },
     {
-      "term": "Muhammad",
-      "matchText": "Muhammad",
-      "wikiSlug": "Muhammad",
-      "type": "people"
-    },
-    {
       "term": "Pannonian Avars",
       "matchText": "Avars",
       "wikiSlug": "Pannonian_Avars",
       "type": "people"
+    },
+    {
+      "matchText": "Northern Zhou",
+      "term": "Northern Zhou",
+      "wikiSlug": "Northern_Zhou"
+    },
+    {
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Caspian Sea",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Marcus Aurelius",
+      "term": "Marcus Aurelius",
+      "wikiSlug": "Marcus_Aurelius"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Northern Qi",
+      "term": "Northern Qi",
+      "wikiSlug": "Northern_Qi"
+    },
+    {
+      "matchText": "Sogdiana",
+      "term": "Sogdiana",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Istemi",
+      "term": "Istemi",
+      "wikiSlug": "Istämi"
+    },
+    {
+      "matchText": "Gātfar",
+      "term": "Gātfar",
+      "definition": "The last king of the Hephthalite Empire, defeated and killed around 560 CE when the Türks and Sasanian Persians crushed the Hephthalites in a coordinated two-front war."
+    },
+    {
+      "matchText": "Oxus River",
+      "term": "Oxus River",
+      "wikiSlug": "Amu_Darya"
+    },
+    {
+      "matchText": "Caspian",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Wusun",
+      "term": "Wusun",
+      "wikiSlug": "Wusun"
+    },
+    {
+      "matchText": "Silk Road",
+      "term": "Silk Road",
+      "wikiSlug": "Silk_Road"
+    },
+    {
+      "matchText": "Dunhuang",
+      "term": "Dunhuang",
+      "wikiSlug": "Dunhuang"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "wikiSlug": "Middle_East"
+    },
+    {
+      "matchText": "Suyab",
+      "term": "Suyab",
+      "wikiSlug": "Suyab"
+    },
+    {
+      "matchText": "Rouran",
+      "term": "Rouran",
+      "wikiSlug": "Rouran_Khaganate"
+    },
+    {
+      "matchText": "Hungarian",
+      "term": "the Hungarian plain",
+      "definition": "The flat lowland of the Pannonian (Carpathian) Basin in central Europe, around modern Hungary — where the Avars built their khaganate in the late sixth century after fleeing west."
+    },
+    {
+      "matchText": "Mecca",
+      "term": "Mecca",
+      "wikiSlug": "Mecca"
     }
   ],
   "5": [
@@ -612,22 +1016,10 @@
       "type": "people"
     },
     {
-      "term": "Illig Qaghan",
-      "matchText": "Illig Qaghan",
-      "wikiSlug": "Illig_Qaghan",
-      "type": "people"
-    },
-    {
       "term": "Mandate of Heaven",
       "matchText": "Mandate of Heaven",
       "wikiSlug": "Mandate_of_Heaven",
       "type": "concept"
-    },
-    {
-      "term": "Su Dingfang",
-      "matchText": "Su Dingfang",
-      "wikiSlug": "Su_Dingfang",
-      "type": "people"
     },
     {
       "term": "Ashina Helu",
@@ -640,6 +1032,231 @@
       "matchText": "Battle of Talas",
       "wikiSlug": "Battle_of_Talas",
       "type": "concept"
+    },
+    {
+      "matchText": "Tian Shan",
+      "term": "Tian Shan",
+      "wikiSlug": "Tian_Shan"
+    },
+    {
+      "matchText": "Altai Mountains",
+      "term": "Altai Mountains",
+      "wikiSlug": "Altai_Mountains"
+    },
+    {
+      "matchText": "Northern Zhou",
+      "term": "Northern Zhou",
+      "wikiSlug": "Northern_Zhou"
+    },
+    {
+      "matchText": "Gobi Desert",
+      "term": "Gobi Desert",
+      "wikiSlug": "Gobi_Desert"
+    },
+    {
+      "matchText": "Son of Heaven",
+      "term": "Son of Heaven",
+      "wikiSlug": "Son_of_Heaven"
+    },
+    {
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Aral Sea",
+      "term": "Aral Sea",
+      "wikiSlug": "Aral_Sea"
+    },
+    {
+      "matchText": "Türks",
+      "term": "Türks (Göktürks)",
+      "wikiSlug": "Göktürks"
+    },
+    {
+      "matchText": "Eastern Türks",
+      "term": "Eastern Türks (Eastern Turkic Khaganate)",
+      "wikiSlug": "Eastern_Turkic_Khaganate"
+    },
+    {
+      "matchText": "Bumin",
+      "term": "Bumin Qaghan",
+      "wikiSlug": "Bumin_Qaghan"
+    },
+    {
+      "matchText": "Istemi",
+      "term": "Istemi (Istämi)",
+      "wikiSlug": "Istämi"
+    },
+    {
+      "matchText": "Ishbara Qaghan",
+      "term": "Ishbara Qaghan",
+      "wikiSlug": "Ishbara_Qaghan"
+    },
+    {
+      "matchText": "Apa",
+      "term": "Apa Qaghan",
+      "wikiSlug": "Apa_Qaghan"
+    },
+    {
+      "matchText": "Orkhon",
+      "term": "Orkhon River",
+      "wikiSlug": "Orkhon_River"
+    },
+    {
+      "matchText": "Mongolian",
+      "term": "Mongolian Plateau",
+      "wikiSlug": "Mongolian_Plateau"
+    },
+    {
+      "matchText": "Suyab",
+      "term": "Suyab",
+      "wikiSlug": "Suyab"
+    },
+    {
+      "matchText": "Sogdiana",
+      "term": "Sogdiana",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Caspian",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Yangtze",
+      "term": "Yangtze River",
+      "wikiSlug": "Yangtze"
+    },
+    {
+      "matchText": "Northern Qi",
+      "term": "Northern Qi",
+      "wikiSlug": "Northern_Qi"
+    },
+    {
+      "matchText": "Yong Yulu",
+      "term": "Yong Yulu",
+      "definition": "A son of Ishbara Qaghan and an eastern Türk claimant during the succession wars of the 580s. The Sui court backed him against the rival Apa faction as part of its strategy of keeping the Türks fighting each other."
+    },
+    {
+      "matchText": "Tieli",
+      "term": "Tieli (Tiele tribes)",
+      "wikiSlug": "Tiele_people"
+    },
+    {
+      "matchText": "Luoyang",
+      "term": "Luoyang",
+      "wikiSlug": "Luoyang"
+    },
+    {
+      "matchText": "Shanxi",
+      "term": "Shanxi",
+      "wikiSlug": "Shanxi"
+    },
+    {
+      "matchText": "Li Shimin",
+      "term": "Li Shimin (Emperor Taizong of Tang)",
+      "wikiSlug": "Emperor_Taizong_of_Tang"
+    },
+    {
+      "matchText": "Huhanye",
+      "term": "Huhanye Chanyu",
+      "wikiSlug": "Huhanye_Chanyu"
+    },
+    {
+      "matchText": "Heavenly Kaghan",
+      "term": "Heavenly Kaghan (Tian Kehan)",
+      "wikiSlug": "Tian_Kehan"
+    },
+    {
+      "matchText": "Tengri",
+      "term": "Tengri",
+      "wikiSlug": "Tengri"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Tang Empire",
+      "term": "Tang dynasty",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "matchText": "Anxi Protectorate",
+      "term": "Anxi Protectorate",
+      "wikiSlug": "Protectorate_General_to_Pacify_the_West"
+    },
+    {
+      "matchText": "Kashgar",
+      "term": "Kashgar",
+      "wikiSlug": "Kashgar"
+    },
+    {
+      "matchText": "Khotan",
+      "term": "Khotan",
+      "wikiSlug": "Hotan"
+    },
+    {
+      "matchText": "Kucha",
+      "term": "Kucha",
+      "wikiSlug": "Kucha"
+    },
+    {
+      "matchText": "Beiting Protectorate",
+      "term": "Beiting Protectorate",
+      "wikiSlug": "Beiting_Protectorate"
+    },
+    {
+      "matchText": "Dzungaria",
+      "term": "Dzungaria",
+      "wikiSlug": "Dzungaria"
+    },
+    {
+      "matchText": "Khazar Khaganate",
+      "term": "Khazar Khaganate",
+      "wikiSlug": "Khazars"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga River",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Transoxiana",
+      "term": "Transoxiana",
+      "wikiSlug": "Transoxiana"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Pamirs",
+      "term": "Pamir Mountains",
+      "wikiSlug": "Pamir_Mountains"
+    },
+    {
+      "matchText": "Taiyuan",
+      "term": "Taiyuan",
+      "wikiSlug": "Taiyuan"
+    },
+    {
+      "matchText": "Karashahr",
+      "term": "Karashahr",
+      "wikiSlug": "Karashahr"
+    },
+    {
+      "matchText": "Emperor Wen of Sui",
+      "term": "Emperor Wen of Sui",
+      "wikiSlug": "Emperor_Wen_of_Sui"
+    },
+    {
+      "matchText": "Western Türk",
+      "term": "Western Türk",
+      "wikiSlug": "Western_Turkic_Khaganate"
     }
   ],
   "6": [
@@ -716,21 +1333,9 @@
       "type": "concept"
     },
     {
-      "term": "Tibetan Empire",
-      "matchText": "Tibetan Empire",
-      "wikiSlug": "Tibetan_Empire",
-      "type": "concept"
-    },
-    {
       "term": "Songtsen Gampo",
       "matchText": "Songtsen Gampo",
       "wikiSlug": "Songtsen_Gampo",
-      "type": "people"
-    },
-    {
-      "term": "Empress Wu Zetian",
-      "matchText": "Empress Wu Zetian",
-      "wikiSlug": "Wu_Zetian",
       "type": "people"
     },
     {
@@ -743,8 +1348,153 @@
     {
       "term": "Kutlugh",
       "matchText": "Kutlugh",
-      "wikiSlug": "Ilterish_Qaghan",
+      "wikiSlug": "Ilterish_Khagan",
       "type": "people"
+    },
+    {
+      "matchText": "Great Wall",
+      "term": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Su Dingfang",
+      "term": "Su Dingfang",
+      "wikiSlug": "Su_Dingfang"
+    },
+    {
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Tian Shan",
+      "term": "Tian Shan",
+      "wikiSlug": "Tian_Shan"
+    },
+    {
+      "matchText": "Türks",
+      "term": "Türks",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Tang Taizong",
+      "term": "Tang Taizong (Emperor Taizong of Tang)",
+      "wikiSlug": "Emperor_Taizong_of_Tang"
+    },
+    {
+      "matchText": "Wen Yanbo",
+      "term": "Wen Yanbo",
+      "wikiSlug": "Wen_Yanbo_(Tang_dynasty)"
+    },
+    {
+      "matchText": "Tieli",
+      "term": "Tieli confederation",
+      "wikiSlug": "Tiele_people"
+    },
+    {
+      "matchText": "Karluks",
+      "term": "Karluks",
+      "wikiSlug": "Karluks"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Turfan",
+      "term": "Turfan",
+      "wikiSlug": "Turpan"
+    },
+    {
+      "matchText": "Tarim",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian peoples",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Karashahr",
+      "term": "Karashahr",
+      "wikiSlug": "Karasahr"
+    },
+    {
+      "matchText": "Suyab",
+      "term": "Suyab",
+      "wikiSlug": "Suyab"
+    },
+    {
+      "matchText": "Xinjiang",
+      "term": "Xinjiang",
+      "wikiSlug": "Xinjiang"
+    },
+    {
+      "matchText": "Ili Valley",
+      "term": "Ili Valley",
+      "wikiSlug": "Ili_River"
+    },
+    {
+      "matchText": "Gaozong",
+      "term": "Emperor Gaozong of Tang",
+      "wikiSlug": "Emperor_Gaozong_of_Tang"
+    },
+    {
+      "matchText": "Ashina",
+      "term": "Ashina",
+      "wikiSlug": "Ashina_(tribe)"
+    },
+    {
+      "matchText": "Ilterish Qaghan",
+      "term": "Ilterish Qaghan",
+      "wikiSlug": "Ilterish_Khagan"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Visigothic",
+      "term": "Visigothic kingdom",
+      "wikiSlug": "Visigothic_Kingdom"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Tang Empire",
+      "term": "Tang Empire",
+      "wikiSlug": "Tang_dynasty"
+    },
+    {
+      "matchText": "Islamic conquests",
+      "term": "Early Muslim conquests",
+      "wikiSlug": "Early_Muslim_conquests"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Kyrgyz",
+      "term": "Kyrgyz",
+      "wikiSlug": "Kyrgyz_people"
+    },
+    {
+      "matchText": "Western Türk",
+      "term": "Western Türk",
+      "wikiSlug": "Western_Turkic_Khaganate"
     }
   ],
   "7": [
@@ -752,12 +1502,6 @@
       "term": "Pei Xingjian",
       "matchText": "Pei Xingjian",
       "wikiSlug": "Pei_Xingjian",
-      "type": "people"
-    },
-    {
-      "term": "Ilterish Qaghan",
-      "matchText": "Ilterish Qaghan",
-      "wikiSlug": "Ilterish_Qaghan",
       "type": "people"
     },
     {
@@ -816,12 +1560,6 @@
       "type": "concept"
     },
     {
-      "term": "Old Turkic script",
-      "matchText": "Old Turkic script",
-      "wikiSlug": "Old_Turkic_script",
-      "type": "concept"
-    },
-    {
       "term": "Augustus",
       "matchText": "Augustus",
       "wikiSlug": "Augustus",
@@ -834,12 +1572,6 @@
       "type": "people"
     },
     {
-      "term": "Umayyad Caliphate",
-      "matchText": "Umayyad Caliphate",
-      "wikiSlug": "Umayyad_Caliphate",
-      "type": "concept"
-    },
-    {
       "term": "Abbasid Revolution",
       "matchText": "Abbasid Revolution",
       "wikiSlug": "Abbasid_Revolution",
@@ -850,6 +1582,141 @@
       "matchText": "Bede",
       "wikiSlug": "Bede",
       "type": "people"
+    },
+    {
+      "matchText": "Great Wall",
+      "term": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "matchText": "Emperor Xuanzong",
+      "term": "Emperor Xuanzong",
+      "wikiSlug": "Emperor_Xuanzong_of_Tang"
+    },
+    {
+      "matchText": "Kutlugh",
+      "term": "Kutlugh",
+      "wikiSlug": "Ilterish_Khagan"
+    },
+    {
+      "matchText": "Ashina",
+      "term": "Ashina",
+      "wikiSlug": "Ashina_(tribe)"
+    },
+    {
+      "matchText": "Mongolian",
+      "term": "Mongolian steppe",
+      "wikiSlug": "Mongolian_Plateau"
+    },
+    {
+      "matchText": "Orkhon Valley",
+      "term": "Orkhon Valley",
+      "wikiSlug": "Orkhon_Valley"
+    },
+    {
+      "matchText": "Anxi Protectorate",
+      "term": "Anxi Protectorate",
+      "wikiSlug": "Protectorate_General_to_Pacify_the_West"
+    },
+    {
+      "matchText": "Sogdians",
+      "term": "Sogdians",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Tarim",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Tengri",
+      "term": "Tengri",
+      "wikiSlug": "Tengri"
+    },
+    {
+      "matchText": "Khitan",
+      "term": "Khitan",
+      "wikiSlug": "Khitan_people"
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "term": "Wu Zhou",
+      "wikiSlug": "Wu_Zhou"
+    },
+    {
+      "matchText": "Karluks",
+      "term": "Karluks",
+      "wikiSlug": "Karluks"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Tieli",
+      "term": "Tiele people",
+      "wikiSlug": "Tiele_people"
+    },
+    {
+      "matchText": "Bumin",
+      "term": "Bumin Qaghan",
+      "wikiSlug": "Bumin_Qaghan"
+    },
+    {
+      "matchText": "Istemi",
+      "term": "Istemi",
+      "wikiSlug": "Istemi"
+    },
+    {
+      "matchText": "Leo III",
+      "term": "Leo III",
+      "wikiSlug": "Leo_III_the_Isaurian"
+    },
+    {
+      "matchText": "Ecclesiastical History of the English People",
+      "term": "Ecclesiastical History of the English People",
+      "wikiSlug": "Ecclesiastical_History_of_the_English_People"
+    },
+    {
+      "matchText": "Orkhon script",
+      "term": "Orkhon script",
+      "wikiSlug": "Old_Turkic_script"
+    },
+    {
+      "matchText": "Ashide Wenfu",
+      "term": "Ashide Wenfu",
+      "definition": "A Türk leader of the Ashide clan whose 679 revolt against Tang overlordship was crushed by the general Pei Xingjian. His rising was a dress rehearsal for the successful Kutlugh revolt three years later."
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian",
+      "definition": "Spanning the connected landmass of Europe and Asia. Used here for the trade-and-tribute web that linked the Türk court to China, Sogdia, and beyond."
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "definition": "The armies of the early Islamic caliphate, mostly Arabian in origin, whose conquests in the early 700s swept from Spain to Central Asia and pressed Constantinople in the great siege of 717–718."
+    },
+    {
+      "matchText": "Kyrgyz",
+      "term": "Kyrgyz",
+      "wikiSlug": "Kyrgyz_people"
+    },
+    {
+      "matchText": "Inner Asian",
+      "term": "Inner Asian",
+      "wikiSlug": "Inner_Asia"
+    },
+    {
+      "matchText": "Gaozong",
+      "term": "Gaozong",
+      "wikiSlug": "Emperor_Gaozong_of_Tang"
+    },
+    {
+      "matchText": "Western Türk",
+      "term": "Western Türk",
+      "wikiSlug": "Western_Turkic_Khaganate"
     }
   ],
   "8": [
@@ -909,12 +1776,6 @@
       "type": "concept"
     },
     {
-      "term": "Battle of Talas",
-      "matchText": "Battle of Talas",
-      "wikiSlug": "Battle_of_Talas",
-      "type": "concept"
-    },
-    {
       "term": "Abbasid Caliphate",
       "matchText": "Abbasid Caliphate",
       "wikiSlug": "Abbasid_Caliphate",
@@ -925,18 +1786,6 @@
       "matchText": "Gao Xianzhi",
       "wikiSlug": "Gao_Xianzhi",
       "type": "people"
-    },
-    {
-      "term": "Karakhanid Khanate",
-      "matchText": "Karakhanid Khanate",
-      "wikiSlug": "Kara-Khanid_Khanate",
-      "type": "concept"
-    },
-    {
-      "term": "Khazar Khaganate",
-      "matchText": "Khazar Khaganate",
-      "wikiSlug": "Khazars",
-      "type": "concept"
     },
     {
       "term": "Sviatoslav",
@@ -993,12 +1842,6 @@
       "type": "people"
     },
     {
-      "term": "Battle of Manzikert",
-      "matchText": "Battle of Manzikert",
-      "wikiSlug": "Battle_of_Manzikert",
-      "type": "concept"
-    },
-    {
       "term": "Sultanate of Rum",
       "matchText": "Sultanate of Rum",
       "wikiSlug": "Sultanate_of_Rum",
@@ -1011,12 +1854,6 @@
       "type": "people"
     },
     {
-      "term": "Ottoman dynasty",
-      "matchText": "Ottoman dynasty",
-      "wikiSlug": "Ottoman_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Genghis Khan",
       "matchText": "Genghis Khan",
       "wikiSlug": "Genghis_Khan",
@@ -1027,6 +1864,311 @@
       "matchText": "Uyghur script",
       "wikiSlug": "Old_Uyghur_alphabet",
       "type": "concept"
+    },
+    {
+      "matchText": "Tian Shan",
+      "term": "Tian Shan",
+      "wikiSlug": "Tian_Shan"
+    },
+    {
+      "matchText": "Tarim Basin",
+      "term": "Tarim Basin",
+      "wikiSlug": "Tarim_Basin"
+    },
+    {
+      "matchText": "Talas River",
+      "term": "Talas River",
+      "wikiSlug": "Talas_River"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Aral Sea",
+      "term": "Aral Sea",
+      "wikiSlug": "Aral_Sea"
+    },
+    {
+      "matchText": "Sunni Islam",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Sunni Muslim",
+      "term": "Sunni Muslim",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Türk-speaking",
+      "term": "Turkic peoples",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Altai",
+      "term": "Altai Mountains",
+      "wikiSlug": "Altai_Mountains"
+    },
+    {
+      "matchText": "Ashina",
+      "term": "Ashina tribe",
+      "wikiSlug": "Ashina_(tribe)"
+    },
+    {
+      "matchText": "Bilge Kagan",
+      "term": "Bilge Qaghan",
+      "wikiSlug": "Bilge_Qaghan"
+    },
+    {
+      "matchText": "Bögü Qaghan",
+      "term": "Bögü Qaghan",
+      "definition": "The Uyghur khagan (reigned 759-779) who converted his empire to Manichaeism in 762 after Sogdian missionaries introduced him to the faith during his occupation of the Tang capital. His choice made the Uyghurs the only steppe empire ever to adopt Manichaeism as a state religion."
+    },
+    {
+      "matchText": "Sogdian",
+      "term": "Sogdia",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Luoyang",
+      "term": "Luoyang",
+      "wikiSlug": "Luoyang"
+    },
+    {
+      "matchText": "Mani",
+      "term": "Mani (prophet)",
+      "wikiSlug": "Mani_(prophet)"
+    },
+    {
+      "matchText": "Zoroastrian",
+      "term": "Zoroastrianism",
+      "wikiSlug": "Zoroastrianism"
+    },
+    {
+      "matchText": "Tonyukuk",
+      "term": "Tonyukuk",
+      "wikiSlug": "Tonyukuk"
+    },
+    {
+      "matchText": "Tengri",
+      "term": "Tengri",
+      "wikiSlug": "Tengri"
+    },
+    {
+      "matchText": "Orkhon Valley",
+      "term": "Orkhon Valley",
+      "wikiSlug": "Orkhon_Valley"
+    },
+    {
+      "matchText": "Manichaean",
+      "term": "Manichaeism",
+      "wikiSlug": "Manichaeism"
+    },
+    {
+      "matchText": "Western Türk",
+      "term": "Western Turkic Khaganate",
+      "wikiSlug": "Western_Turkic_Khaganate"
+    },
+    {
+      "matchText": "Yenisei Kyrgyz",
+      "term": "Yenisei Kyrgyz",
+      "wikiSlug": "Yenisei_Kyrgyz"
+    },
+    {
+      "matchText": "Siberia",
+      "term": "Siberia",
+      "wikiSlug": "Siberia"
+    },
+    {
+      "matchText": "Turfan",
+      "term": "Turfan",
+      "wikiSlug": "Turfan"
+    },
+    {
+      "matchText": "Xinjiang",
+      "term": "Xinjiang",
+      "wikiSlug": "Xinjiang"
+    },
+    {
+      "matchText": "Transoxiana",
+      "term": "Transoxiana",
+      "wikiSlug": "Transoxiana"
+    },
+    {
+      "matchText": "Anxi Protectorate",
+      "term": "Anxi Protectorate",
+      "wikiSlug": "Protectorate_General_to_Pacify_the_West"
+    },
+    {
+      "matchText": "Khurasan",
+      "term": "Khorasan",
+      "wikiSlug": "Greater_Khorasan"
+    },
+    {
+      "matchText": "Ziyad ibn Salih",
+      "term": "Ziyad ibn Salih al-Khuza'i",
+      "wikiSlug": "Ziyad_ibn_Salih_al-Khuza'i"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Bukhara",
+      "term": "Bukhara",
+      "wikiSlug": "Bukhara"
+    },
+    {
+      "matchText": "Khwarezm",
+      "term": "Khwarazm",
+      "wikiSlug": "Khwarezm"
+    },
+    {
+      "matchText": "Ferghana",
+      "term": "Fergana Valley",
+      "wikiSlug": "Ferghana_Valley"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Iranian",
+      "term": "Iranian peoples",
+      "wikiSlug": "Iranian_peoples"
+    },
+    {
+      "matchText": "Vikings",
+      "term": "Vikings",
+      "wikiSlug": "Vikings"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Kiev",
+      "term": "Kyiv",
+      "wikiSlug": "Kiev"
+    },
+    {
+      "matchText": "Danube",
+      "term": "Danube",
+      "wikiSlug": "Danube"
+    },
+    {
+      "matchText": "Hungarian",
+      "term": "Hungary",
+      "wikiSlug": "Hungary"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Bumin",
+      "term": "Bumin Qaghan",
+      "wikiSlug": "Bumin_Qaghan"
+    },
+    {
+      "matchText": "Republic of Turkey",
+      "term": "Turkey",
+      "wikiSlug": "Turkey"
+    },
+    {
+      "matchText": "Sogdians",
+      "term": "Sogdia",
+      "wikiSlug": "Sogdia"
+    },
+    {
+      "matchText": "Visigoths",
+      "term": "Visigoths",
+      "wikiSlug": "Visigoths"
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "term": "Western Roman Empire",
+      "wikiSlug": "Western_Roman_Empire"
+    },
+    {
+      "matchText": "Akkadians",
+      "term": "Akkadian Empire",
+      "wikiSlug": "Akkadian_Empire"
+    },
+    {
+      "matchText": "Rouran",
+      "term": "Rouran Khaganate",
+      "wikiSlug": "Rouran_Khaganate"
+    },
+    {
+      "matchText": "Hephthalites",
+      "term": "Hephthalites",
+      "wikiSlug": "Hephthalite_Empire"
+    },
+    {
+      "matchText": "Kazakhs",
+      "term": "Kazakhs",
+      "wikiSlug": "Kazakhs"
+    },
+    {
+      "matchText": "Kyrgyz",
+      "term": "Kyrgyz people",
+      "wikiSlug": "Kyrgyz_people"
+    },
+    {
+      "matchText": "Uzbeks",
+      "term": "Uzbeks",
+      "wikiSlug": "Uzbeks"
+    },
+    {
+      "matchText": "Turkmen",
+      "term": "Turkmens",
+      "wikiSlug": "Turkmens"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "Anatolian Türks",
+      "term": "Anatolian Türks",
+      "definition": "The Türk-speaking nomads who poured into Anatolia after the Seljuk victory at Manzikert (1071), gradually converting the peninsula from Greek-speaking Christianity to Türk-speaking Islam over the following centuries and forming the ancestral core of the later Ottoman and modern Turkish populations."
+    },
+    {
+      "matchText": "Carpathians",
+      "term": "Carpathian Mountains",
+      "wikiSlug": "Carpathian_Mountains"
+    },
+    {
+      "matchText": "Ghaznavid",
+      "term": "Ghaznavid Empire",
+      "wikiSlug": "Ghaznavid_dynasty"
     }
   ]
 }

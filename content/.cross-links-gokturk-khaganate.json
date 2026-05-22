@@ -47,6 +47,60 @@
       "targetTl": "maya-civilization",
       "targetChapter": 5,
       "blurb": "In Mesoamerica the Maya were at their classical peak, simultaneous with everything in Eurasia and entirely unconnected to it."
+    },
+    {
+      "matchText": "Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Xiongnu & Huns story: the steppe superpower whose political template every later nomadic empire — including the Türks — inherited and refined."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Mongol Empire: the conqueror who, six centuries later, would claim the same khagan title the Türks helped make the universal Inner Asian imperial style."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Mongol Empire: the heirs who eventually pushed the steppe political system the Türks scaled up to its absolute limit."
+    },
+    {
+      "matchText": "Scythians",
+      "targetTl": "scythians",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Scythians' world: the earlier mounted nomads of the western steppe, the first of this app's grassland empires."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Byzantine Empire: the Roman successor state in Constantinople with whom Istemi's western Türks would open direct diplomatic contact."
+    },
+    {
+      "matchText": "Sasanian Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Persian Empire: the Sasanian dynasty under Khusrau I, at its height — first the Türks' ally against the Hephthalites, then their enemy."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Byzantine Empire: Justinian's great domed cathedral in Constantinople, built in the same years Bumin was destroying the Rouran."
+    },
+    {
+      "matchText": "Ostrogoths",
+      "targetTl": "the-goths",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in the Goths' story: the Gothic kingdom in Italy that Justinian's general Belisarius was fighting as the Türk Khaganate was founded."
+    },
+    {
+      "matchText": "Sui Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the dynasty that would soon reunify the divided north and south — and become the Türks' great southern neighbor."
     }
   ],
   "2": [
@@ -91,6 +145,78 @@
       "targetTl": "gupta-empire",
       "targetChapter": 8,
       "blurb": "The Gupta Empire had collapsed into successor states by the time the Türk realm peaked — India's classical age ending as the steppe's apex began."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile at the other end of the Türk diplomatic chessboard sat Constantinople, capital of the Eastern Roman (Byzantine) Empire — the city the khaganate's embassies traveled to in pursuit of the silk trade."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Chang'an, the great walled capital on the Wei River, would soon become the cosmopolitan heart of Tang China — the eastern terminus of the embassies and caravans the Türks dispatched."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "The overland trade artery the Türks now controlled had been pried open centuries earlier by Han Emperor Wu's push into the western regions."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Seven centuries later another steppe conqueror would plant his capital almost exactly where the Türks centered theirs — Genghis Khan, who built Karakorum on the Orkhon."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 1,
+      "blurb": "The Xiongnu were the earlier steppe confederation whose dual-wing kingship and decimal army the Türks inherited and pushed further."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Persia the western Türk wing dealt with was the Sasanian Empire, then at its sixth-century height under Khusrau I."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Türk silk flowed west into the Sasanian Persian markets — the empire then enjoying its Sassanid golden age under Khusrau I."
+    },
+    {
+      "matchText": "Sasanian Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "The Sasanian Persians were one of the great settled powers the Türks treated as a diplomatic equal, then at their peak under Khusrau I."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Byzantium — the Eastern Roman Empire ruled from Constantinople — was the western anchor of the Türk diplomatic world."
+    },
+    {
+      "matchText": "Justinian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Justinian's costly reconquest of the western Mediterranean had left Byzantium financially overstretched just as the Türks rose in the east."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "The southern dynasties along the Yangtze were ruled by Han Chinese, the ethnic majority that took its name from the earlier Han Empire."
+    },
+    {
+      "matchText": "Uyghurs",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile the people who would one day replace the Türks on the steppe — the Uyghurs — were still subject tribes; in 840 they would topple the Türks' successors and build their own capital on the same Orkhon."
     }
   ],
   "3": [
@@ -107,18 +233,6 @@
       "blurb": "The Sogdian merchant diaspora is the closest pre-modern analogue to the medieval Sephardic Jewish trading network and the early modern Armenian merchant network. All three operated as multi-city kinship networks that combined commercial expertise, language skills, and political neutrality to handle long-distance trade for patron empires that could not have built equivalent commercial apparatus from scratch. The Sogdians ran the Silk Road for the Türks; the Armenians of New Julfa would run it for the Safavids; the Sephardim would run Mediterranean and Atlantic trade in the early-modern period."
     },
     {
-      "matchText": "Achaemenid Persian rule",
-      "targetTl": "persian-empire",
-      "targetChapter": 2,
-      "blurb": "Bukhara and Samarkand had been Achaemenid Persian satrapies under Cyrus and Darius in the sixth century BCE — fully a thousand years before the Türk conquest. The Sogdian language itself descended from the Old Persian-related Iranian languages spoken in the Achaemenid east, and the cities had been continuously inhabited and continuously commercial through Achaemenid, Hellenistic, Parthian, and Sasanian rule. The Türks were the latest in a very long line of imperial overlords; the Sogdians were the constant."
-    },
-    {
-      "matchText": "negotiate with Khusrau I in 568",
-      "targetTl": "persian-empire",
-      "targetChapter": 9,
-      "blurb": "Khusrau I's decision to close the Persian market to Sogdian silk in 568 and then to poison the Türk envoys who came to negotiate is documented in Persian and Byzantine sources but rarely highlighted in Sasanian historical memory. From the Persian perspective it was state-protective economic policy; from the Türk perspective it was a casus belli that pushed the alliance into open hostility and led directly to Maniakh's mission to Constantinople — one of the more consequential Sasanian foreign policy errors of the entire dynasty."
-    },
-    {
       "matchText": "Phoenicians",
       "targetTl": "phoenicia",
       "targetChapter": 4,
@@ -129,6 +243,78 @@
       "targetTl": "safavid-persia",
       "targetChapter": 6,
       "blurb": "A millennium later the Armenian merchants of New Julfa under Safavid Persia would build a strikingly similar state-aligned commercial diaspora — the same structure the Sogdians pioneered for the Türks."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mongol Empire: the steppe-warrior-plus-conquered-bureaucracy model the Türks pioneered with the Sogdians would be inherited, six centuries later, by Genghis Khan's heirs — who likewise ran a Eurasian empire on borrowed administrators."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Byzantine Empire: Constantinople's silk-hungry market was the prize the Sogdians and their Türk patrons were chasing — and the reason they would soon attempt the most audacious end-run in steppe diplomacy, going around Persia entirely."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Tang China: the great cosmopolitan dynasty whose capital Chang'an hosted Sogdian merchant colonies and whose silk tribute, piling up in the Türk treasury, set this whole chapter's commerce in motion."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in India: the Gupta Empire and the successor kingdoms that followed it were the southern end of the Sogdian trade web, reached through the several Indian languages the merchants kept on hand."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Byzantine Empire: Constantinople, the imperial capital on the Bosphorus, anchored the western end of the Sogdian diaspora — a documented Sogdian merchant community lived there in the seventh century."
+    },
+    {
+      "matchText": "Timurid",
+      "targetTl": "timurid-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Central Asia eight centuries later: Samarkand, a Sogdian city in the Türk era, would become the glittering capital of Timur's empire, the high-water mark of Transoxiana's long history as a seat of power."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Byzantine Empire: the Greek-speaking Roman state on the Bosphorus, the Mediterranean buyer the Türks turned to once the Sasanians blocked their silk from the Persian market."
+    },
+    {
+      "matchText": "Safavid Empire",
+      "targetTl": "safavid-persia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Safavid Persia a thousand years later: the Armenian merchants of New Julfa served the shah as a state-aligned commercial diaspora in almost exactly the role the Sogdians played for the Türks — the closest functional parallel in all of history."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the earlier steppe: the Xiongnu confederation fought Han China chronically for grain, iron, and silk — a raid-and-extort relationship with none of the commercial sophistication the Türk-Sogdian partnership brought to the trade."
+    },
+    {
+      "matchText": "Sasanian Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Iran: the Sasanian Persian Empire ran its own royal silk monopoly, turned away Sogdian silk as competition, and poisoned the Türk envoys sent to Khusrau I in 568 — the provocation that pushed the embassy toward Constantinople."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Iran: Sasanian Persia was the immovable obstacle on the silk routes' western end, unwilling to buy Sogdian silk and unwise to fight just yet — the diplomatic problem this chapter sets up."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the wider Islamic world: after the Arab conquest of Transoxiana, the old Sogdian cities of Bukhara and Samarkand were reborn as celebrated centers of learning and culture during the Islamic Golden Age."
     }
   ],
   "4": [
@@ -155,6 +341,54 @@
       "targetTl": "tang-song-china",
       "targetChapter": 1,
       "blurb": "The Sui reunification of China (589) was a generation away — the dynasty whose successor, the Tang, would ultimately conquer the Türk Khaganate."
+    },
+    {
+      "matchText": "Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sasanian Empire under Khusrau I, the dynasty's most successful king, who reformed the army and tax system and allied with the Türks to destroy the Hephthalites."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the earlier steppe: the Xiongnu, the first great nomadic empire of Inner Asia, whose disputed link to the western Huns shadows the question of who the Hephthalites really were."
+    },
+    {
+      "matchText": "the Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the west: the Huns of Attila — the European nomads whose connection to the Xiongnu and the Hephthalites' 'White Hun' label remains debated."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Later in China: the Tang dynasty, which would inherit the Türk-steppe relationship and play the same alliance-and-conquest game against later nomadic empires."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, centuries later: the Mongols, who repeated the steppe-and-settled crushing pattern against Khwarezm — the cleanest sequel to the Türk-Sasanian destruction of the Hephthalites."
+    },
+    {
+      "matchText": "Khwarezm",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, centuries later: the Khwarazmian Empire, the Central Asian power the Mongols obliterated — the later echo of the joint settled-and-steppe campaigns the Türks pioneered."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile at the other end of Eurasia: the Byzantine (Eastern Roman) Empire, the third great settled power the Türks worked into their diplomacy to outflank Sasanian Persia."
+    },
+    {
+      "matchText": "Justinian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Constantinople: the emperor Justinian I, whose nephew and successor Justin II received Maniakh's Türk embassy in 568 and accepted the alliance against Persia."
     }
   ],
   "5": [
@@ -187,6 +421,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "The Arab destruction of Sasanian Persia and the Tang destruction of the Türk Empire happened in the same span — two great pre-modern empires toppling within ten years."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the earlier steppe: the Xiongnu were the first great nomadic empire, and their lateral succession habits and tribute extraction set the template the Türks inherited."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Tang China: Chang'an, the dynasty's capital, grew into the cosmopolitan heart of the empire where surrendered Türk leaders and steppe envoys filled the court."
     }
   ],
   "6": [
@@ -207,6 +453,96 @@
       "targetTl": "tang-song-china",
       "targetChapter": 4,
       "blurb": "Empress Wu Zetian's rise to power in the late seventh century — culminating in her proclamation of the Zhou Dynasty in 690, the only time a Chinese woman has ruled in her own name — destabilized the Tang court enough to make sustained frontier policy impossible. Kutlugh's revolt in 682 was made possible by exactly this internal Tang turmoil, and the long-term decline of the Tang protectorate over the steppe began with Wu Zetian's elimination of the Tang princes who might have managed the frontier more effectively."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in China: the Tang dynasty, the cosmopolitan empire that conquered the Türks in 630 and ran the steppe through its protectorate system for fifty years."
+    },
+    {
+      "matchText": "Yellow River",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Yellow River, the great northern artery whose Ordos bend the steppe powers and settled empires fought over for a thousand years."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 4,
+      "blurb": "Meanwhile on the steppe: the Xiongnu, the earlier nomadic confederation that contested the same Ordos frontier with Han China eight centuries before the Türks."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: Chang'an, the Tang capital and the most cosmopolitan city in the world, where the captured Türk khagan lived out his days as a court ornament."
+    },
+    {
+      "matchText": "Uyghurs",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Uyghurs, one of the Tieli tribes folded under Tang authority who would later inherit the steppe from the Türks."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile across Eurasia: the Silk Road, the caravan network the Tang protectorates and their Four Garrisons existed to keep open and safe."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Near East: the early Islamic conquests exploding out of Arabia, toppling the Sasanians and reshaping the western half of Eurasia in the same decades."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sasanian Empire, the last pre-Islamic Persian dynasty, destroyed by the Arab armies in 651 as the Tang consolidated the eastern steppe."
+    },
+    {
+      "matchText": "Heraclius",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mediterranean: the emperor Heraclius and his heirs, fighting Byzantium's desperate survival war against the Arab onslaught."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Mesoamerica: Teotihuacan, the great central-Mexican metropolis in decline just as the Tang protectorate flourished on the other side of the world."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Wari state expanding toward its Middle Horizon peak in seventh-century Peru."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: Tiwanaku, the highland power around Lake Titicaca, rising alongside Wari during the same Middle Horizon centuries."
+    },
+    {
+      "matchText": "Middle Horizon",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Middle Horizon, the era when Wari and Tiwanaku spread the first true Andean empires across the highlands."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mediterranean: the Byzantine Empire, the eastern Roman state fighting for survival against the Arabs while the Tang ran the eastern steppe."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Americas: the Andes, where the Wari and Tiwanaku empires were peaking during the same seventh-century window."
     }
   ],
   "7": [
@@ -239,6 +575,84 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 3,
       "blurb": "The Uyghurs broke with Tonyukuk's counsel here, but not in the way he feared. They did not convert to Buddhism — they converted to Manichaeism, the syncretic Persian religion Mani had founded in the third century. The structural consequences Tonyukuk warned against — a contemplative religion softening warrior culture, a foreign ideology reorganizing state power — arrived anyway, routed through a different scripture. Chapter 3 is the Manichaean conversion and what it actually produced."
+    },
+    {
+      "matchText": "Empress Wu Zetian",
+      "targetTl": "tang-song-china",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Tang China: Wu Zetian seized the regency and then the throne itself, becoming the only woman to rule China in her own name — the court chaos of her takeover is exactly what let Kutlugh's revolt succeed."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in China: the early Tang built the most powerful and cosmopolitan empire of the age, the settled colossus on the Türks' southern border that both fed and threatened the steppe."
+    },
+    {
+      "matchText": "Uyghurs",
+      "targetTl": "uyghur-steppe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Uyghurs, a Türk subject people, would overthrow the Second Khaganate in 744 and inherit its place as masters of the Mongolian grasslands."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile (centuries later): the Mongols would rise on the same steppe and, unlike the Türks, embrace Buddhism — exactly the path Tonyukuk had warned against."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: Chang'an was the Tang capital and the largest city on Earth, where Kapaghan's victims and severed enemies alike ended up — a war trophy displayed at the imperial court."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile across Eurasia: the Silk Road ran smoothly under joint Tang and Türk protection, with Sogdian merchants paying the khaganate handsome commissions for safe passage."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in northern Europe: the Germanic peoples carved their own runes into stone — angular letters that look like the Old Turkic script by coincidence, not contact (sharp tools on hard stone produce similar shapes)."
+    },
+    {
+      "matchText": "Attila",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 7,
+      "blurb": "Meanwhile (two centuries earlier): Attila led the Huns against Rome, but everything we know of him comes from his enemies — unlike Bilge, who speaks for himself in the Orkhon stones."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the west: the Umayyad Caliphate was conquering Sogdiana, Spain, and pushing to the gates of France — the Second Khaganate's lifespan overlaps almost exactly with the great Arab conquests."
+    },
+    {
+      "matchText": "Visigothic",
+      "targetTl": "the-goths",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Iberia: the Visigothic kingdom of Spain, the last Gothic state in the West, fell to the Umayyad invasion of 711 — the same wave of conquest that closed out the Western Türk legacy in Central Asia."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the eastern Mediterranean: the Byzantine Empire, the surviving Roman state, was the great power the Western Türks had once allied with against Persia and was now fighting off the Arabs."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the west: Constantinople, the Byzantine capital, survived the second great Arab siege of 717–718 under Leo III — the same years Bilge Kagan was consolidating the steppe."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Britain: the patchwork of Anglo-Saxon kingdoms was producing its own literate culture, where the monk Bede was writing the history of the English Church the same year the Türk inscriptions were carved."
     }
   ],
   "8": [
@@ -283,6 +697,132 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 1,
       "blurb": "The Uyghur Khaganate that replaced the Türks in 744 is the subject of its own narrative now. The full story — how they built the only Manichaean steppe state in history, how they became the Tang dynasty's indispensable creditor and military rescuer, how 840 ended everything — is told there from the start."
+    },
+    {
+      "matchText": "Tang Dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang dynasty, which the Uyghurs rescued from the An Lushan Rebellion in exchange for silk subsidies and parity of status."
+    },
+    {
+      "matchText": "Tang Empire",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Tang state, whose westward push into Central Asia collided with the Abbasids at the Battle of Talas in 751."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: Tang China, the great eastern power the steppe peoples alternately served, rescued, and raided."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the deep Persian tradition whose language and culture saturated Central Asia before the Arab and Türk conquests."
+    },
+    {
+      "matchText": "Chang'an",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: Chang'an, the Tang capital the Uyghur cavalry helped retake from An Lushan's rebels."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 2,
+      "blurb": "Meanwhile across Asia: Buddhism, the faith the displaced Uyghurs of the Tarim Basin gradually adopted in place of Manichaeism."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Umayyad dynasty, overthrown by the Abbasids in 750 just before the Talas confrontation."
+    },
+    {
+      "matchText": "Samarkand",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: Samarkand, one of the great Sogdian-Iranian oasis cities that began converting to Islam after Talas."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: the Silk Road, the trans-Eurasian trade network the Sogdians ran and the steppe empires taxed."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile on the steppe: the Mongol Empire, in many ways a continuation of the Türk political template four centuries later."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Mongols, Türk-adjacent conquerors who inherited the entire steppe political tradition from the Türks."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Mongol invasions of the 1230s that swept away the last Türk-speaking confederations of the western steppe."
+    },
+    {
+      "matchText": "Khitan Liao",
+      "targetTl": "mongol-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Khitan Liao dynasty, a link in the chain of khagan-titled steppe states running from the Türks to Genghis Khan."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mediterranean: the Byzantine Empire, the Christian power the western Türk peoples raided, allied with, and finally displaced from Anatolia."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mediterranean: Byzantium, whose loss of Anatolia after Manzikert opened the region to Türk settlement."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Mediterranean: Constantinople, the Byzantine capital the Ottomans finally took in 1453."
+    },
+    {
+      "matchText": "Balkans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in southeastern Europe: the Balkans, the European heartland of the Ottoman Empire, the last and longest-lasting post-Türk state."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the Persian Gulf, a frontier of the multi-continental Ottoman realm at its height."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: Baghdad, the Abbasid capital the Seljuks seized in 1055, taking the title of Sultan from the figurehead caliph."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the steppe: the Xiongnu, the earlier nomadic confederation whose traditions the Türks inherited."
+    },
+    {
+      "matchText": "Phoenicians",
+      "targetTl": "phoenicia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Mediterranean: the Phoenicians, another pivot-people who gave the world the alphabet and then vanished as a distinct nation."
     }
   ]
 }
