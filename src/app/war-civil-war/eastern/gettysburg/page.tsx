@@ -155,8 +155,8 @@ function Fishhook() {
   const MONO = 'var(--font-geist-mono)'
   const fg = 'var(--foreground)'
   const blue = ACCENTS.blue, rust = ACCENTS.rust
-  const [active, setActive] = useState(0) // 0 = all days
-  const dayOp = (n: number) => (active === 0 || active === n ? 1 : 0.12)
+  const [active, setActive] = useState(1) // always one day selected
+  const dayOp = (n: number) => (active === n ? 1 : 0.12)
   const TOWN = { x: 150, y: 64 }
   const roads = [-40, -10, 35, 80, 120, 160, 205, 250, 300]
   type Anchor = 'start' | 'middle' | 'end'
@@ -231,9 +231,9 @@ function Fishhook() {
 
       {/* day filter pills */}
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 10 }}>
-        {[0, 1, 2, 3].map(n => {
+        {[1, 2, 3].map(n => {
           const on = active === n
-          const c = n === 0 ? ACCENT : DAY_COLOR[n]
+          const c = DAY_COLOR[n]
           return (
             <button key={n} onClick={() => setActive(n)} style={{
               cursor: 'pointer', fontFamily: SANS, fontSize: 11, fontWeight: 600, padding: '5px 11px', borderRadius: 999,
@@ -241,8 +241,8 @@ function Fishhook() {
               background: on ? alpha(c, 0.14) : 'transparent', color: on ? c : 'color-mix(in srgb, var(--foreground) 65%, transparent)',
               display: 'inline-flex', alignItems: 'center', gap: 6,
             }}>
-              {n !== 0 && <span style={{ width: 8, height: 8, borderRadius: 999, background: c }} />}
-              {n === 0 ? 'All three days' : `Day ${n}`}
+              <span style={{ width: 8, height: 8, borderRadius: 999, background: c }} />
+              Day {n}
             </button>
           )
         })}
@@ -254,29 +254,22 @@ function Fishhook() {
         <span><span style={{ color: rust }}>▬</span> Confederate line</span>
       </div>
 
-      {/* per-day explanations (also filter the map) */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginTop: 14 }}>
-        {DAYS.map(d => {
-          const dim = active !== 0 && active !== d.n
-          const sel = active === d.n
-          const c = DAY_COLOR[d.n]
-          return (
-            <button key={d.n} onClick={() => setActive(sel ? 0 : d.n)} style={{
-              textAlign: 'left', cursor: 'pointer', width: '100%',
-              border: `1px solid ${sel ? alpha(c, 0.5) : 'color-mix(in srgb, var(--foreground) 12%, transparent)'}`,
-              background: sel ? alpha(c, 0.06) : 'transparent', borderRadius: 8, padding: '10px 12px',
-              opacity: dim ? 0.45 : 1, transition: 'opacity 200ms ease, border-color 200ms ease',
-            }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                <span style={{ width: 9, height: 9, borderRadius: 999, background: c }} />
-                <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.8, textTransform: 'uppercase', color: c }}>{d.title}</span>
-                <span style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>{d.sub}</span>
-              </div>
-              <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, margin: '6px 0 0', color: 'color-mix(in srgb, var(--foreground) 82%, transparent)' }}>{d.text}</p>
-            </button>
-          )
-        })}
-      </div>
+      {/* selected day's explanation */}
+      {(() => {
+        const d = DAYS.find(x => x.n === active)
+        if (!d) return null
+        const c = DAY_COLOR[d.n]
+        return (
+          <div style={{ marginTop: 14, border: `1px solid ${alpha(c, 0.4)}`, background: alpha(c, 0.06), borderRadius: 8, padding: '12px 14px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span style={{ width: 9, height: 9, borderRadius: 999, background: c }} />
+              <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.8, textTransform: 'uppercase', color: c }}>{d.title}</span>
+              <span style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>{d.sub}</span>
+            </div>
+            <p style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.55, margin: '8px 0 0', color: 'color-mix(in srgb, var(--foreground) 85%, transparent)' }}>{d.text}</p>
+          </div>
+        )
+      })()}
     </div>
   )
 }
