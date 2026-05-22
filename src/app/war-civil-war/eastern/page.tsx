@@ -24,10 +24,18 @@ const GRID = 'color-mix(in srgb, var(--foreground) 5%, transparent)'
 
 const num = (n: number) => n.toLocaleString('en-US')
 
+// The theatre breadcrumb is a dropdown: switch theatre. Only Eastern is live;
+// the others are 'soon' (no page yet).
+const THEATRE_OPTIONS = [
+  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
+  { label: 'Western Theatre', disabled: true },
+  { label: 'Trans-Mississippi', disabled: true },
+  { label: 'Naval & Coastal', disabled: true },
+]
 const CRUMBS = [
   { label: 'War', href: '/' },
   { label: 'American Civil War', href: '/war-civil-war' },
-  { label: 'Eastern Theatre' },
+  { label: 'Eastern Theatre', options: THEATRE_OPTIONS },
 ]
 
 const GBURG_HREF = '/war-civil-war/eastern/gettysburg'
@@ -218,8 +226,8 @@ function AtAGlance() {
             ))}
           </div>
           <ArmiesFaceoff />
-          <CommandersStrip />
           <CasualtiesBlock />
+          <CommandersStrip />
         </>
       )}
     </div>

@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
@@ -29,12 +29,18 @@ export function alpha(hex: string, a: number): string {
 
 export type View = 'timeline' | 'dossier'
 
+export interface CrumbOption {
+  label: string
+  href?: string
+  disabled?: boolean
+}
 export interface Crumb {
   label: string
   href?: string
+  options?: CrumbOption[] // when present, the crumb is a dropdown (e.g. switch theatre)
 }
 
-export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
+export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
   const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
   const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
   const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
@@ -60,9 +66,11 @@ export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: Vie
             return (
               <Fragment key={i}>
                 {i > 0 && <span aria-hidden style={{ color: faint, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>}
-                {c.href && !last
-                  ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flexShrink: 0 }}>{c.label}</a>
-                  : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flexShrink: 0 }}>{c.label}</span>}
+                {c.options
+                  ? <CrumbDropdown crumb={c} chip={chip} faint={faint} accent={accent} />
+                  : c.href && !last
+                    ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flexShrink: 0 }}>{c.label}</a>
+                    : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flexShrink: 0 }}>{c.label}</span>}
               </Fragment>
             )
           })}
@@ -100,6 +108,53 @@ export function WarChrome({ crumbs, view, onView }: { crumbs: Crumb[]; view: Vie
         <div style={{ width: 34, height: 34, flexShrink: 0 }} />
       </div>
     </>
+  )
+}
+
+// A breadcrumb crumb that opens a dropdown (e.g. switch theatre). Current entry
+// is checked; entries without an href render as a disabled "soon" row.
+function CrumbDropdown({ crumb, chip, faint, accent }: { crumb: Crumb; chip: string; faint: string; accent: string }) {
+  const [open, setOpen] = useState(false)
+  const border = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
+  return (
+    <span style={{ position: 'relative', flexShrink: 0 }}>
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
+        display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px',
+        fontFamily: SANS, fontSize: 11, fontWeight: 600, color: 'var(--foreground)',
+        background: chip, borderRadius: 999, border: 'none', cursor: 'pointer',
+      }}>
+        {crumb.label}
+        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
+          <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
+      {open && (
+        <>
+          <div onClick={() => setOpen(false)} style={{ position: 'fixed', inset: 0, zIndex: 20 }} />
+          <div style={{
+            position: 'absolute', top: 'calc(100% + 6px)', left: 0, zIndex: 21, minWidth: 184,
+            background: 'var(--background)', border, borderRadius: 10,
+            boxShadow: '0 10px 28px rgba(0,0,0,0.20)', padding: 5,
+          }}>
+            {crumb.options!.map(o => {
+              const current = o.label === crumb.label
+              if (o.disabled || !o.href) return (
+                <div key={o.label} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10, padding: '8px 10px', fontFamily: SANS, fontSize: 12, color: faint, borderRadius: 7, cursor: 'default' }}>
+                  <span>{o.label}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.7, textTransform: 'uppercase', color: faint, border: `1px solid ${faint}`, borderRadius: 999, padding: '1px 6px' }}>soon</span>
+                </div>
+              )
+              return (
+                <a key={o.label} href={o.href} onClick={() => setOpen(false)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10, padding: '8px 10px', fontFamily: SANS, fontSize: 12, fontWeight: current ? 700 : 500, color: 'var(--foreground)', textDecoration: 'none', borderRadius: 7, background: current ? chip : 'transparent' }}>
+                  <span>{o.label}</span>
+                  {current && <span style={{ color: accent, fontWeight: 700 }}>✓</span>}
+                </a>
+              )
+            })}
+          </div>
+        </>
+      )}
+    </span>
   )
 }
 
