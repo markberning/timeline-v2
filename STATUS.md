@@ -16,17 +16,37 @@ regen from a prior session, not this session's work; leave it or regen.)
 User cleared the session here intentionally; resume the #7 link sweep FASTER
 (two policy changes locked below).
 
-**State: 16 of 103 civs genuinely swept + DEPLOYED LIVE.**
+**State: 17 of 103 civs genuinely swept + DEPLOYED LIVE.**
 - Prior: goryeo-korea, uyghur-steppe, renaissance-italy, byzantine-empire,
   delhi-sultanate, swahili-coast, ottoman-empire, mughal-empire,
-  umayyad-caliphate, medieval-india, yuan-dynasty, timurid-empire (12).
-- This session (all 0 GATE, 0 ERROR, fix-links clean, ship gates pass, LIVE):
-  **islamic-golden-age** (665→0, `79710c2`), **safavid-persia** (453→0,
-  `6246c14`), **high-medieval-europe** (383→0, `e78381e`),
-  **mongol-empire** (381→0, `45bd337`).
-- **~87 remain.**
+  umayyad-caliphate, medieval-india, yuan-dynasty, timurid-empire,
+  islamic-golden-age, safavid-persia, high-medieval-europe, mongol-empire (16).
+- **2026-05-21 (pipeline rebuild session):** speed tooling shipped (`950346a`);
+  **hme + safavid bold-waiver cleanup** (`acfcbe7` — real entities un-waived to
+  born-verified links, both ALL GREEN); **late-medieval-europe** swept on the new
+  pipeline (`7e0c372`, 380→0 NEW, 7 grandfathered residual). All three DEPLOYED
+  LIVE + curl-verified (County_of_Tripoli/Spanish_Inquisition; Abbas_the_Great/
+  Janissary/Shah_Mosque; Joan_of_Arc/Petrarch/Pope_Alexander_VI).
+- **~86 remain.**
 
-**▶ NEXT BATCH (worst-first, after the 16):** late-medieval-europe,
+**▶ PIPELINE REBUILT 2026-05-21 — 3 speed levers (see `audits/link-pipeline.md`):**
+1. `link-suggest` BATCHED (~5s, was minutes). 2. `link-apply` auto-writes the
+provably-safe REUSE slice (~30/civ; multi-word + multi-civ + clean prose match —
+NEVER widen, REUSE is not quality-guaranteed, see `feedback_reuse_not_trustworthy`).
+3. `link-split` auto-generates agent inputs + brief. Residual round now OPTIONAL.
+Per-civ flow: `link-suggest --tl=<civ>` → `link-apply <civ> --apply` → `link-split
+<civ>` → ≤5 chapter agents (2 waves >5ch) → `sweep-merge` → `sweep-verify --fix-drops`.
+
+**▶ PROCESS FINDING (act on before next sweeps): the per-civ worklists in
+`audits/link-coverage/` are STALE (2026-05-18).** The corpus has grown so much that
+a fresh coverage run surfaces ~50–60 entities the stale worklist never showed the
+agents (lme: agents closed the 380-term stale list, then a fresh run revealed 62
+more — Petrarch, Alexander VI, Gattamelata, Charles IV — closed by a coordinator
+residual pass). **FIX: run `tsx scripts/link-coverage.ts --corpus` once at the start
+of each batch session to refresh ALL worklists, THEN sweep** (deterministic, no
+network, ~1 min). Otherwise every civ needs a heavy residual pass.
+
+**▶ NEXT BATCH (worst-first):** refresh worklists (`--corpus`) FIRST, then
 tang-song-china, then continue down `audits/link-coverage-ledger.md`.
 
 **▶ TWO SPEED CHANGES LOCKED BY USER 2026-05-21 (apply from here on):**
