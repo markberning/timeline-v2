@@ -1,0 +1,298 @@
+# link-suggest — meiji-japan
+
+{"REUSE":109,"CROSS":33,"NO-PAGE":80,"LINK-CANDIDATE":49,"SKIP":6}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Meiji Restoration** → CROSS → `meiji-japan`  (cross-linked elsewhere ×8)
+- **Confucian** → CROSS → `ancient-korea`  (cross-linked elsewhere ×11)
+- **Dutch** → REUSE `Dutch_Republic` [CONFIRM-homonym] — _Dutch Republic_: The Republic of the Seven United Netherlands, also known as the United Provinces (of the Netherlands), and ref  (linked in 7 civ(s) (e.g. late-medieval-europe) ×12 — ⚠ AMBIGUOUS: also Dutch_people(late-medieval-europe), Dutch_East_India_Company(edo-japan), Dutch_language(early-medieval-europe))
+- **Qing** → CROSS → `mongol-empire`  (cross-linked elsewhere ×19)
+- **United States** → CROSS → `antebellum-america`  (cross-linked elsewhere ×1)
+- **Shimoda** → NO-PAGE → blurb (top hit "Shimoda" is a disambiguation page)
+- **Izu Peninsula** → REUSE `Izu_Peninsula` [high] — _Izu Peninsula_: The Izu peninsula (伊豆半島, Izu Hantō; Japanese pronunciation: [i.(d)zɯ, i.(d)zɯ haꜜn.toː]) is a mountainous peni  (linked in 1 civ(s) (e.g. heian-japan) ×4)
+- **Hakodate** → `Hakodate` [high] — _Hakodate_: Hakodate (函館市, Hakodate-shi; Japanese pronunciation: [ha.ko.da.te, ha.ko.da.teꜜ.ɕi]) is a city and port located in Oshim
+- **Ansei Treaties** → `Ansei_Treaties` [high] — _Ansei Treaties_: The Ansei Treaties (Japanese: 安政条約) or the Ansei Five-Power Treaties (Japanese: 安政五カ国条約) are a series of treaties signed
+- **Ryukyu Islands** → REUSE `Ryukyu_Islands` [CONFIRM-homonym] — _Ryukyu Islands_: The Ryukyu Islands (Japanese: 琉球列島, Hepburn: Ryūkyū Rettō), also known as the Nansei Islands (南西諸島, Nansei Sho  (linked in 1 civ(s) (e.g. prehistoric-japan) ×2 — ⚠ AMBIGUOUS: also Ryukyu_Kingdom(ming-dynasty))
+- **Shimazu Hisamitsu** → `Shimazu_Hisamitsu` [high] — _Shimazu Hisamitsu_: Prince Shimazu Hisamitsu (島津 久光; November 28, 1817 – December 6, 1887), also known as Shimazu Saburō (島津 三郎), was a Japa
+- **Glover Trading Company** → `VFC_(company)` [low] — _VFC (company)_: VFC Foods is a British vegan food company that started trading in December 2020. An acronym for "Vegan Fried Chicken", i
+- **Namamugi Incident** → REUSE `Namamugi_Incident` [high] — _Namamugi Incident_: The Namamugi incident (生麦事件, Namamugi-jiken), also known as the Kanagawa incident and Richardson affair, was a  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Tōkaidō** → REUSE `T%C5%8Dkaid%C5%8D_(road)` [high] — _Tōkaidō (road)_: The Tōkaidō road (東海道, Tōkaidō; [to̞ːka̠ido̞ː]), which roughly means "eastern sea route," was the most importa  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Shimonoseki Strait** → REUSE `Kanmon_Straits` [high] — _Kanmon Straits_: The Kanmon Straits (関門海峡, Kanmon-kaikyō) or the Straits of Shimonoseki is the stretch of water separating Hons  (linked in 1 civ(s) (e.g. heian-japan) ×2)
+- **Tosa** → NO-PAGE → blurb (top hit "Tosa" is a disambiguation page)
+- **Toba-Fushimi** → REUSE `Battle_of_Toba%E2%80%93Fushimi` [high] — _Battle of Toba–Fushimi_: The Battle of Toba–Fushimi (鳥羽・伏見の戦い, Toba-Fushimi no Tatakai) occurred between pro-Imperial and Tokugawa shog  (linked in 1 civ(s) (e.g. edo-japan) ×1)
+- **Tōhoku** → REUSE `Tōhoku_region` [high] — _Tōhoku region_: The Tōhoku region (東北地方, Tōhoku-chihō; IPA: [toːhokɯ̥ tɕiꜜhoː]), Northeast region, Ōu region (奥羽地方, Ōu-chihō),  (linked in 1 civ(s) (e.g. asuka-nara-japan) ×2)
+- **Republic of Ezo** → REUSE `Republic_of_Ezo` [high] — _Republic of Ezo_: The Republic of Ezo (蝦夷共和國, Ezo Kyōwakoku) was a short-lived separatist state established in 1869 on the islan  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Enomoto Takeaki** → REUSE `Enomoto_Takeaki` [high] — _Enomoto Takeaki_: Viscount Enomoto Takeaki (榎本 武揚; 5 October 1836 – 26 October 1908) was a Japanese samurai and admiral of the T  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Mutsuhito** → `Emperor_Meiji` [low] — _Emperor Meiji_: Emperor Meiji (born Mutsuhito; 3 November 1852 – 29 July 1912) was Emperor of Japan from 30 January 1867 until his death
+- **Hizen** → `Hizen_Province` [high] — _Hizen Province_: Hizen Province (肥前国, Hizen no Kuni; Japanese pronunciation: [çiꜜ.(d)zeɴ, -(d)zen no kɯ.ɲi]) was an old province of Japan
+- **Saigō Takamori** → `Saigō_Takamori` [high] — _Saigō Takamori_: Saigō Takamori (Japanese: 西郷 隆盛; 23 January 1828 – 24 September 1877) was a Japanese samurai and politician who was one 
+- **Kido Takayoshi** → `Kido_Takayoshi` [high] — _Kido Takayoshi_: Kido Takayoshi (木戸 孝允; born Wada Kogorō (和田 小五郎); August 11, 1833 – May 26, 1877), formerly known as Katsura Kogorō (桂 小
+- **Itō Hirobumi** → REUSE `It%C5%8D_Hirobumi` [CONFIRM-homonym] — _Itō Hirobumi_: Prince Itō Hirobumi (Japanese: 伊藤 博文 [i.toː (|) çi.ɾoꜜ.bɯ.mʲi]; born Hayashi Risuke (林 利助); 16 October 1841 –   (linked in 1 civ(s) (e.g. joseon-korea) ×2 — ⚠ AMBIGUOUS: also Ito_Hirobumi(korean-modern))
+- **Yamagata Aritomo** → `Yamagata_Aritomo` [high] — _Yamagata Aritomo_: Prince Yamagata Aritomo (Japanese: 山縣 有朋; 14 June 1838 – 1 February 1922) was a Japanese statesman and general who twice
+- **Itagaki Taisuke** → `Itagaki_Taisuke` [high] — _Itagaki Taisuke_: Count Itagaki Taisuke (板垣 退助, 21 May 1837 – 16 July 1919) was a Japanese samurai, politician, and leader of the Freedom 
+- **Iwakura Mission** → `Iwakura_Mission` [high] — _Iwakura Mission_: The Iwakura Mission or Iwakura Embassy (岩倉使節団, Iwakura Shisetsudan) was a Japanese diplomatic voyage to Europe and the U
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×25)
+- *** Tokugawa Japan** → `Tokugawa_shogunate` [med] — _Tokugawa shogunate_: The Tokugawa shogunate, also known as the Edo shogunate, was the military government of Japan during the Edo period from
+- **Italian Risorgimento** → `Risorgimento_Socialista` [med] — _Risorgimento Socialista_: Socialist Resurgence (Italian: Risorgimento Socialista; RS) is a socialist political party in Italy.
+- **House of Savoy** → REUSE `House_of_Savoy` [high] — _House of Savoy_: The House of Savoy (Italian: Casa Savoia, French: Maison de Savoie, Arpitan: Mêson de Savouè) is a royal house  (linked in 1 civ(s) (e.g. renaissance-italy) ×2)
+- **American Reconstruction** → NO-PAGE → blurb (top hit "Reconstruction" is a disambiguation page)
+- **Civil War** → REUSE `American_Civil_War` [high] — _American Civil War_: The American Civil War (April 12, 1861 – May 26, 1865; also known by other names) was a civil war in the Unite  (linked in 2 civ(s) (e.g. antebellum-america) ×2)
+- **Prussia** → REUSE `Kingdom_of_Prussia` [high] — _Kingdom of Prussia_: The Kingdom of Prussia (German: Königreich Preußen, pronounced [ˈkøːnɪkʁaɪç ˈpʁɔʏsn̩] ) was a German state tha  (linked in 1 civ(s) (e.g. russian-empire) ×3)
+- **Manchuria** → REUSE `Manchuria` [CONFIRM-homonym] — _Manchuria_: Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China an  (linked in 14 civ(s) (e.g. ancient-korea) ×51 — ⚠ AMBIGUOUS: also Soviet_invasion_of_Manchuria(soviet-union), Manchukuo(qing-dynasty))
+- **kokugaku** → REUSE `Kokugaku` [high] — _Kokugaku_: Kokugaku (国学; Japanese pronunciation: [ko.kɯ.ɡa.kɯ, -ŋa.kɯ], lit. 'national study') was an academic movement,   (linked in 1 civ(s) (e.g. asuka-nara-japan) ×2)
+- **Ōmura Masujirō** → `Ōmura_Masujirō` [high] — _Ōmura Masujirō_: Ōmura Masujirō (大村 益次郎) (May 30, 1824 – December 7, 1869) was a Japanese military leader and theorist in Bakumatsu perio
+- **Ōkubo Toshimichi** → `Ōkubo_Toshimichi` [high] — _Ōkubo Toshimichi_: Ōkubo Toshimichi (Japanese: 大久保 利通; 26 September 1830 – 14 May 1878) was a Japanese statesman and samurai of the Satsuma
+- **Self-Strengthening Movement** → CROSS → `qing-dynasty`  (cross-linked elsewhere ×1)
+- **German unification** → `Unification_of_Germany` [med] — _Unification of Germany_: The Unification of Germany (German: Deutsche Einigung, pronounced [ˈdɔʏtʃə ˈʔaɪnɪɡʊŋ] ) was a process of building the fi
+
+## Chapter 2
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Step** → NO-PAGE → blurb (top hit "Step" is a disambiguation page)
+- **Satsuma** → REUSE `Satsuma_Domain` [high] — _Satsuma Domain_: The Satsuma Domain (薩摩藩, Satsuma-han Ryukyuan: Sachima-han), briefly known as the Kagoshima Domain (鹿児島藩, Kago  (linked in 3 civ(s) (e.g. edo-japan) ×5)
+- **Chōshū** → REUSE `Ch%C5%8Dsh%C5%AB_Domain` [high] — _Chōshū Domain_: The Chōshū Domain (長州藩, Chōshū-han), also known as the Hagi Domain (萩藩, Hagi-han), was a domain (han) of the T  (linked in 1 civ(s) (e.g. edo-japan) ×1)
+- Meiji → SKIP (own-name, cat B)
+- **Yamagata Aritomo** → `Yamagata_Aritomo` [high] — _Yamagata Aritomo_: Prince Yamagata Aritomo (Japanese: 山縣 有朋; 14 June 1838 – 1 February 1922) was a Japanese statesman and general who twice
+- **Prussian** → `Prussia` [high] — _Prussia_: Prussia (; German: Preußen [ˈpʁɔʏsn̩] ; Old Prussian: Prūsija) was a German state centred on the North European Plain. I
+- **Mitsubishi** → REUSE `Mitsubishi` [high] — _Mitsubishi_: The Mitsubishi Group (三菱グループ, Mitsubishi Gurūpu) is a Japanese multinational conglomerate. Founded by Iwasaki   (linked in 1 civ(s) (e.g. japanese-economic-miracle) ×1)
+- **Satsuma Rebellion** → `Satsuma_Rebellion` [high] — _Satsuma Rebellion_: The Satsuma Rebellion, also known as the Seinan War (Japanese: 西南戦争, Hepburn: Seinan Sensō; lit. 'Southwestern War'), wa
+- **National Bank Act** → `National_Bank_Act` [high] — _National Bank Act_: The National Banking Acts of 1863 and 1864 were two United States federal banking acts that established a system of nati
+- **Bank of Japan** → `Bank_of_Japan` [high] — _Bank of Japan_: The Bank of Japan (日本銀行, Nippon Ginkō; BOJ) is the central bank of Japan. The bank is often called Nichigin (日銀) for sho
+- **Yokohama** → `Yokohama` [high] — _Yokohama_: Yokohama (Japanese: 横浜; pronounced [jokohama] ) is the second-largest city in Japan by population as well as by area, an
+- **Emperor Meiji** → REUSE `Emperor_Meiji` [high] — _Emperor Meiji_: Emperor Meiji (born Mutsuhito; 3 November 1852 – 29 July 1912) was Emperor of Japan from 30 January 1867 until  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Itō Hirobumi** → REUSE `It%C5%8D_Hirobumi` [CONFIRM-homonym] — _Itō Hirobumi_: Prince Itō Hirobumi (Japanese: 伊藤 博文 [i.toː (|) çi.ɾoꜜ.bɯ.mʲi]; born Hayashi Risuke (林 利助); 16 October 1841 –   (linked in 1 civ(s) (e.g. joseon-korea) ×2 — ⚠ AMBIGUOUS: also Ito_Hirobumi(korean-modern))
+- **Washington** → REUSE `Washington,_D.C.` [high] — _Washington, D.C._: Washington, D.C., officially the District of Columbia and commonly known as simply Washington or D.C., is the   (linked in 2 civ(s) (e.g. modern-india) ×3)
+- *** Denmark** → `Denmark` [high] — _Denmark_: Denmark is a Nordic country in Northern Europe. It is the metropole and most populous constituent of the Kingdom of Denm
+- **Sweden** → REUSE `Sweden` [CONFIRM-homonym] — _Sweden_: Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern   (linked in 4 civ(s) (e.g. early-medieval-europe) ×20 — ⚠ AMBIGUOUS: also Swedish_Empire(russian-empire))
+- **Queen Victoria** → REUSE `Queen_Victoria` [high] — _Queen Victoria_: Victoria (Alexandrina Victoria; 24 May 1819 – 22 January 1901) was Queen of the United Kingdom of Great Britai  (linked in 5 civ(s) (e.g. maya-civilization) ×10)
+- **Tsar** → REUSE `Tsar` [high] — _Tsar_: Tsar (; also spelled czar, tzar, or csar; Bulgarian: цар, romanized: tsar; Russian: царь, romanized: tsar'; Se  (linked in 5 civ(s) (e.g. byzantine-empire) ×10)
+- *** Pope** → `Pope` [med] — _Pope_: The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, R
+- **Western-style** → `Western_pattern_diet` [med] — _Western pattern diet_: The Western pattern diet is a modern dietary pattern originating in the industrialized West which is generally character
+- **Berlin** → REUSE `Berlin` [CONFIRM-homonym] — _Berlin_: Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inha  (linked in 7 civ(s) (e.g. kingdom-of-kush) ×16 — ⚠ AMBIGUOUS: also Battle_of_Berlin(soviet-union))
+- **Liverpool** → REUSE `Liverpool` [high] — _Liverpool_: Liverpool is a port city and metropolitan borough in Merseyside, England. It is situated on the eastern side o  (linked in 1 civ(s) (e.g. antebellum-america) ×2)
+- **Manchester** → REUSE `Manchester` [CONFIRM-homonym] — _Manchester_: Manchester is a city in Greater Manchester, England. It had a population of over 589,000 in 2024. It borders t  (linked in 4 civ(s) (e.g. industrial-revolution) ×10 — ⚠ AMBIGUOUS: also History_of_Manchester(early-american-republic))
+- **Krupp** → REUSE `Krupp` [high] — _Krupp_: Friedrich Krupp AG Hoesch-Krupp (formerly Fried. Krupp AG and Friedrich Krupp GmbH), trading as Krupp, was the  (linked in 1 civ(s) (e.g. industrial-revolution) ×2)
+- **Saigō Takamori** → `Saigō_Takamori` [high] — _Saigō Takamori_: Saigō Takamori (Japanese: 西郷 隆盛; 23 January 1828 – 24 September 1877) was a Japanese samurai and politician who was one 
+- **Itagaki Taisuke** → `Itagaki_Taisuke` [high] — _Itagaki Taisuke_: Count Itagaki Taisuke (板垣 退助, 21 May 1837 – 16 July 1919) was a Japanese samurai, politician, and leader of the Freedom 
+- **Itagaki** → `Tomonobu_Itagaki` [high] — _Tomonobu Itagaki_: Tomonobu Itagaki (板垣 伴信, Itagaki Tomonobu; April 1, 1967 – c. October 2025) was a Japanese video game designer best know
+- **Kagoshima** → `Kagoshima` [high] — _Kagoshima_: Kagoshima (鹿児島市, Kagoshima-shi; IPA: [ka.ɡo.ɕi.ma, -maꜜ.ɕi, ka.ŋo-]), is the capital city of Kagoshima Prefecture, Japan
+- **Liberal Party** → `Liberal_Party_(UK)` [high] — _Liberal Party (UK)_: The Liberal Party was one of the two major political parties in the United Kingdom, along with the Conservative Party, i
+- **Qing** → CROSS → `mongol-empire`  (cross-linked elsewhere ×19)
+- **Yalu River** → REUSE `Yalu_River` [high] — _Yalu River_: The Yalu River (Chinese: 鸭绿江; pinyin: Yālù Jiāng) or Amnok River (Korean: 압록강; MR: Amnokkang) is a river on th  (linked in 6 civ(s) (e.g. ancient-korea) ×20)
+- **Tanzimat** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×1)
+- **yen** → `Japanese_yen` [med] — _Japanese yen_: The yen (Japanese: 円; symbol: ¥; code: JPY) is the official currency of Japan. It is the third-most traded currency in t
+- **Rudolf von Gneist** → `Rudolf_von_Gneist` [high] — _Rudolf von Gneist_: Heinrich Rudolf Hermann Friedrich von Gneist (13 August 1816 – 22 July 1895) was a German jurist and politician. Born in
+- **Saigō** → `Saigō_Takamori` [high] — _Saigō Takamori_: Saigō Takamori (Japanese: 西郷 隆盛; 23 January 1828 – 24 September 1877) was a Japanese samurai and politician who was one 
+
+## Chapter 3
+- **Toba-Fushimi** → REUSE `Battle_of_Toba%E2%80%93Fushimi` [high] — _Battle of Toba–Fushimi_: The Battle of Toba–Fushimi (鳥羽・伏見の戦い, Toba-Fushimi no Tatakai) occurred between pro-Imperial and Tokugawa shog  (linked in 1 civ(s) (e.g. edo-japan) ×1)
+- **Katsu Kaishū** → REUSE `Katsu_Kaish%C5%AB` [high] — _Katsu Kaishū_: Count Katsu Yasuyoshi (勝 安芳; March 12, 1823—January 21, 1899), born Katsu Yoshikuni (勝 義邦), best known by his   (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- Meiji → SKIP (own-name, cat B)
+- **Restoration** → NO-PAGE → blurb (top hit "Restoration" is a disambiguation page)
+- **Toshimichi** → `Ōkubo_Toshimichi` [high] — _Ōkubo Toshimichi_: Ōkubo Toshimichi (Japanese: 大久保 利通; 26 September 1830 – 14 May 1878) was a Japanese statesman and samurai of the Satsuma
+- **Iwakura Mission** → `Iwakura_Mission` [high] — _Iwakura Mission_: The Iwakura Mission or Iwakura Embassy (岩倉使節団, Iwakura Shisetsudan) was a Japanese diplomatic voyage to Europe and the U
+- **Kagoshima** → `Kagoshima` [high] — _Kagoshima_: Kagoshima (鹿児島市, Kagoshima-shi; IPA: [ka.ɡo.ɕi.ma, -maꜜ.ɕi, ka.ŋo-]), is the capital city of Kagoshima Prefecture, Japan
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. asuka-nara-japan) ×24 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Shigakkō** → `Shi-gakkō` [high] — _Shi-gakkō_: The Shi-gakkō or Shigakkō (Japanese: 私學校; literally "Private school") was a system of military academies in Kagoshima Pr
+- **Akizuki Rebellion** → `Akizuki_rebellion` [high] — _Akizuki rebellion_: The Akizuki rebellion (秋月の乱, Akizuki no ran) was an uprising against the Meiji government of Japan that occurred in Akiz
+- **Beppu Shinsuke** → `Beppu_Shinsuke` [high] — _Beppu Shinsuke_: Beppu Shinsuke (別府 晋介; 1847 – September 24, 1877) was a Japanese samurai of the late Edo period who fought for the Satsu
+- **Chōshū** → REUSE `Ch%C5%8Dsh%C5%AB_Domain` [high] — _Chōshū Domain_: The Chōshū Domain (長州藩, Chōshū-han), also known as the Hagi Domain (萩藩, Hagi-han), was a domain (han) of the T  (linked in 1 civ(s) (e.g. edo-japan) ×1)
+- **Manchuria** → REUSE `Manchuria` [CONFIRM-homonym] — _Manchuria_: Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China an  (linked in 14 civ(s) (e.g. ancient-korea) ×51 — ⚠ AMBIGUOUS: also Soviet_invasion_of_Manchuria(soviet-union), Manchukuo(qing-dynasty))
+- **Eight-Nation Alliance** → `Eight-Nation_Alliance` [high] — _Eight-Nation Alliance_: The Eight-Nation Alliance was a multinational military coalition that invaded northern China in 1900 during the Boxer Re
+- **Qing** → CROSS → `mongol-empire`  (cross-linked elsewhere ×19)
+- **Tani Tateki** → `Tani_Tateki` [high] — _Tani Tateki_: Tani Tateki (谷 干城; 18 March 1837 – 13 May 1911) was a statesman and lieutenant general in the Imperial Japanese Army in 
+
+## Chapter 4
+- **Satsuma Rebellion** → `Satsuma_Rebellion` [high] — _Satsuma Rebellion_: The Satsuma Rebellion, also known as the Seinan War (Japanese: 西南戦争, Hepburn: Seinan Sensō; lit. 'Southwestern War'), wa
+- Meiji → SKIP (own-name, cat B)
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Yokohama** → `Yokohama` [high] — _Yokohama_: Yokohama (Japanese: 横浜; pronounced [jokohama] ) is the second-largest city in Japan by population as well as by area, an
+- **Paul Brunat** → `Huaihai_Road` [low] — _Huaihai Road_: Huaihai Road or Huaihai Lu (Chinese: 淮海路; pinyin: Huáihǎi Lù; Shanghainese: Wahae Lu) is a road in Shanghai, China. The 
+- **Kagoshima Spinning Mill** → `Kagoshima_Spinning_Mill` [high] — _Kagoshima Spinning Mill_: The Kagoshima Spinning Mill (鹿児島紡績所跡, Kagoshima bōsekijo ato) is a former cotton spinning mill constructed in the Bakuma
+- **Satsuma** → REUSE `Satsuma_Domain` [high] — _Satsuma Domain_: The Satsuma Domain (薩摩藩, Satsuma-han Ryukyuan: Sachima-han), briefly known as the Kagoshima Domain (鹿児島藩, Kago  (linked in 3 civ(s) (e.g. edo-japan) ×5)
+- **Restoration** → NO-PAGE → blurb (top hit "Restoration" is a disambiguation page)
+- **Manchuria** → REUSE `Manchuria` [CONFIRM-homonym] — _Manchuria_: Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China an  (linked in 14 civ(s) (e.g. ancient-korea) ×51 — ⚠ AMBIGUOUS: also Soviet_invasion_of_Manchuria(soviet-union), Manchukuo(qing-dynasty))
+- **Yokosuka** → REUSE `Yokosuka,_Kanagawa` [high] — _Yokosuka_: Yokosuka (横須賀市, Yokosuka-shi; pronounced [jokosɯ̥ka]) is a city in Kanagawa Prefecture, Japan. As of February   (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Nagasaki** → REUSE `Nagasaki` [high] — _Nagasaki_: Nagasaki (長崎, Nagasaki; Japanese pronunciation: [na.ɡaꜜ.sa.kʲi, na.ŋa-], lit. 'Long Cape'), officially Nagasak  (linked in 5 civ(s) (e.g. edo-japan) ×10)
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. asuka-nara-japan) ×24 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Mitsubishi Nagasaki Shipyard** → `Nagasaki` [high] — _Nagasaki_: Nagasaki (長崎, Nagasaki; Japanese pronunciation: [na.ɡaꜜ.sa.kʲi, na.ŋa-], lit. 'Long Cape'), officially Nagasaki City (長崎
+- **Mitsubishi** → REUSE `Mitsubishi` [high] — _Mitsubishi_: The Mitsubishi Group (三菱グループ, Mitsubishi Gurūpu) is a Japanese multinational conglomerate. Founded by Iwasaki   (linked in 1 civ(s) (e.g. japanese-economic-miracle) ×1)
+- **Tsushima** → REUSE `Tsushima_Island` [CONFIRM-homonym] — _Tsushima Island_: Tsushima (Japanese: 対馬, Hepburn: Tsushima) is an island of the Japanese archipelago situated in-between the Ts  (linked in 2 civ(s) (e.g. prehistoric-japan) ×4 — ⚠ AMBIGUOUS: also Tsushima_Domain(edo-japan), Battle_of_Tsushima(russian-empire))
+- **Takashima Coal Mine** → `Takashima_Coal_Mine` [high] — _Takashima Coal Mine_: Takashima coal mine (高島炭鉱, Takashima Tankō) was a coal mine in Japan, located on the island of Takashima off the norther
+- **Miike Coal Mine** → `Miike_coal_mine` [high] — _Miike coal mine_: Miike coal mine (三池炭鉱, Miike Tankō), also known as the Mitsui Miike Coal Mine (三井三池炭鉱, Mitsui Miike Tankō), was the larg
+- **Fukuoka** → REUSE `Fukuoka` [high] — _Fukuoka_: Fukuoka (福岡市, Fukuoka-shi; [ɸɯ̥.kɯꜜ.o.ka, -kɯ.o.kaꜜ.ɕi] ) is a designated city in the Kyushu region of Japan a  (linked in 1 civ(s) (e.g. prehistoric-japan) ×2)
+- **Kyoto** → CROSS → `heian-japan`  (cross-linked elsewhere ×6)
+- **Meiji Japan** → CROSS → `meiji-japan`  (cross-linked elsewhere ×11)
+- **Taiwan** → REUSE `Taiwan` [high] — _Taiwan_: Taiwan, officially the Republic of China (ROC), is a country in East Asia. The main island of Taiwan, also kno  (linked in 8 civ(s) (e.g. chinese-revolution) ×16)
+- **Besshi Copper Mine** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sumitomo** → REUSE `Sumitomo_Group` [high] — _Sumitomo Group_: The Sumitomo Group (Japanese: 住友グループ, Hepburn: Sumitomo Gurūpu) is a group of autonomous Japanese multinationa  (linked in 1 civ(s) (e.g. japanese-economic-miracle) ×1)
+- **Shikoku** → REUSE `Shikoku` [high] — _Shikoku_: Shikoku (四国, Shikoku; pronounced [ɕi̥ꜜ.ko.kɯ, ɕi̥.koꜜ.kɯ] , lit. 'four provinces') is the smallest of the four  (linked in 2 civ(s) (e.g. heian-japan) ×10)
+- **Asano** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Suzuki** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 15 civ(s) (e.g. antebellum-america) ×69 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Paris** → REUSE `Paris` [CONFIRM-homonym] — _Paris_: Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area   (linked in 13 civ(s) (e.g. asuka-nara-japan) ×50 — ⚠ AMBIGUOUS: also University_of_Paris(gupta-empire), Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire))
+- **Russo-Japanese War** → CROSS → `mongol-empire`  (cross-linked elsewhere ×1)
+- **Brazil** → REUSE `Brazil` [high] — _Brazil_: Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the   (linked in 3 civ(s) (e.g. late-medieval-europe) ×6)
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 5 civ(s) (e.g. andean-kingdoms) ×10)
+- **Tokyo-Yokohama** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Railway Nationalization Law** → `Nationalization` [high] — _Nationalization_: Nationalisation (nationalization in American English) is the process of transforming privately owned assets into public 
+- **Japanese Government Railways** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Japan Railways** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Maejima Hisoka** → NO-PAGE → blurb (no confident Wikipedia page found)
+- *** Russians** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mukden** → REUSE `Shenyang` [high] — _Shenyang_: Shenyang, formerly known by its Manchu name Mukden, is a sub-provincial city in China and the provincial capit  (linked in 1 civ(s) (e.g. joseon-korea) ×2)
+- **Soviet Union** → CROSS → `soviet-union`  (cross-linked elsewhere ×9)
+
+## Chapter 5
+- **Iwakura Mission** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Emperor Meiji** → REUSE `Emperor_Meiji` [high] — _Emperor Meiji_: Emperor Meiji (born Mutsuhito; 3 November 1852 – 29 July 1912) was Emperor of Japan from 30 January 1867 until  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Chōshū** → REUSE `Ch%C5%8Dsh%C5%AB_Domain` [high] — _Chōshū Domain_: The Chōshū Domain (長州藩, Chōshū-han), also known as the Hagi Domain (萩藩, Hagi-han), was a domain (han) of the T  (linked in 1 civ(s) (e.g. edo-japan) ×1)
+- **Berlin** → REUSE `Berlin` [CONFIRM-homonym] — _Berlin_: Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inha  (linked in 7 civ(s) (e.g. kingdom-of-kush) ×16 — ⚠ AMBIGUOUS: also Battle_of_Berlin(soviet-union))
+- **Bismarck's Germany** → REUSE `Otto_von_Bismarck` [high] — _Otto von Bismarck_: Otto Eduard Leopold, Prince of Bismarck, Count of Bismarck-Schönhausen, Duke of Lauenburg (1 April 1815 – 30 J  (linked in 1 civ(s) (e.g. industrial-revolution) ×1)
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Tokyo Imperial University** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kyoto** → CROSS → `heian-japan`  (cross-linked elsewhere ×6)
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. asuka-nara-japan) ×24 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Hokkaido** → REUSE `Hokkaido` [high] — _Hokkaido_: Hokkaido is the second-largest and northernmost of Japan's four main islands. Together with its surrounding is  (linked in 4 civ(s) (e.g. asuka-nara-japan) ×8)
+- **Osaka** → REUSE `Osaka` [high] — _Osaka_: Osaka (Japanese: 大阪市, Hepburn: Ōsaka-shi; pronounced [oː.sa.kaꜜ.ɕi]; commonly just 大阪, Ōsaka [oː.sa.ka] ) is a  (linked in 3 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Itō Miyoji** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kaneko Kentarō** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kigensetsu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Manchuria** → REUSE `Manchuria` [CONFIRM-homonym] — _Manchuria_: Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China an  (linked in 14 civ(s) (e.g. ancient-korea) ×51 — ⚠ AMBIGUOUS: also Soviet_invasion_of_Manchuria(soviet-union), Manchukuo(qing-dynasty))
+- **Yamagata Aritomo** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Matsukata Masayoshi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Saigō Takamori** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Qing** → CROSS → `mongol-empire`  (cross-linked elsewhere ×19)
+- **Qajar** → REUSE `Qajar_Iran` [CONFIRM-homonym] — _Qajar Iran_: The Guarded Domains of Iran, commonly known as Qajar Iran, was the Iranian state under the rule of the Qajar d  (linked in 1 civ(s) (e.g. safavid-persia) ×2 — ⚠ AMBIGUOUS: also Qajar_dynasty(ottoman-empire))
+- **Lorenz von Stein** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Rudolf von Gneist** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Cabinet System** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Imperial University Ordinance** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Imperial sovereignty.** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Limited suffrage.** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Independent military command.** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 6
+- Meiji → SKIP (own-name, cat B)
+- **Kyoto** → CROSS → `heian-japan`  (cross-linked elsewhere ×6)
+- **Kyushu** → REUSE `Kyushu` [CONFIRM-homonym] — _Kyushu_: Kyushu (九州, Kyūshū; pronounced [kʲɯꜜː.ɕɯː] , lit. 'nine provinces') is the third-largest and most southerly of  (linked in 6 civ(s) (e.g. asuka-nara-japan) ×24 — ⚠ AMBIGUOUS: also Ky%C5%ABsh%C5%AB(goryeo-korea))
+- **Hokkaido** → REUSE `Hokkaido` [high] — _Hokkaido_: Hokkaido is the second-largest and northernmost of Japan's four main islands. Together with its surrounding is  (linked in 4 civ(s) (e.g. asuka-nara-japan) ×8)
+- **Berlin** → REUSE `Berlin` [CONFIRM-homonym] — _Berlin_: Berlin is the capital of Germany, as well as its largest city by both area and population. With 4 million inha  (linked in 7 civ(s) (e.g. kingdom-of-kush) ×16 — ⚠ AMBIGUOUS: also Battle_of_Berlin(soviet-union))
+- **Hong Kong** → REUSE `Hong_Kong` [high] — _Hong Kong_: Hong Kong is a special administrative region of China. Situated on China's southern coast just south of Shenzh  (linked in 4 civ(s) (e.g. modern-india) ×8)
+- **Honda Kōtarō** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Meiji Gakuin** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Confucian** → CROSS → `ancient-korea`  (cross-linked elsewhere ×11)
+- **Satsuma** → REUSE `Satsuma_Domain` [high] — _Satsuma Domain_: The Satsuma Domain (薩摩藩, Satsuma-han Ryukyuan: Sachima-han), briefly known as the Kagoshima Domain (鹿児島藩, Kago  (linked in 3 civ(s) (e.g. edo-japan) ×5)
+- **Meiji Constitution** → REUSE `Meiji_Constitution` [high] — _Meiji Constitution_: The Constitution of the Empire of Japan (Kyūjitai: 大日本帝國憲法; Shinjitai: 大日本帝国憲法, romanized: Dai-Nippon Teikoku   (linked in 2 civ(s) (e.g. asuka-nara-japan) ×4)
+- **Nishino Buntarō** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Amaterasu** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×2)
+- **Kyōiku Chokugo** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Emperor Meiji** → REUSE `Emperor_Meiji` [high] — _Emperor Meiji_: Emperor Meiji (born Mutsuhito; 3 November 1852 – 29 July 1912) was Emperor of Japan from 30 January 1867 until  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Motoda Eifu** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Inoue Kowashi** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Buddhism** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×18)
+- **Buddha** → CROSS → `vedic-period`  (cross-linked elsewhere ×12)
+- **Nara** → CROSS → `asuka-nara-japan`  (cross-linked elsewhere ×3)
+- **Meiji Japan** → CROSS → `meiji-japan`  (cross-linked elsewhere ×11)
+- **Boshin War** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Russo-Japanese War** → CROSS → `mongol-empire`  (cross-linked elsewhere ×1)
+- *** Christians** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 15 civ(s) (e.g. antebellum-america) ×69 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Tayama Katai** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kunikida Doppo** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Izumi Kyōka** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Hishida Shunsō** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Asai Chū** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Paris** → REUSE `Paris` [CONFIRM-homonym] — _Paris_: Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area   (linked in 13 civ(s) (e.g. asuka-nara-japan) ×50 — ⚠ AMBIGUOUS: also University_of_Paris(gupta-empire), Paris_(mythology)(mycenaean-civilization), Battle_of_Paris_(1814)(russian-empire))
+- **Ichikawa Danjūrō IX** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tokyo Music School** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Thomas Waters** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tokyo Station** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Meiji Shrine** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Bismarck** → REUSE `Otto_von_Bismarck` [high] — _Otto von Bismarck_: Otto Eduard Leopold, Prince of Bismarck, Count of Bismarck-Schönhausen, Duke of Lauenburg (1 April 1815 – 30 J  (linked in 1 civ(s) (e.g. ottoman-empire) ×1)
+- **Ottoman Tanzimat-era** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Nagaoka Hantarō** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Ōkuma Shigenobu** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 7
+- Meiji → SKIP (own-name, cat B)
+- **London** → REUSE `London` [CONFIRM-homonym] — _London_: London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million peo  (linked in 15 civ(s) (e.g. antebellum-america) ×69 — ⚠ AMBIGUOUS: also History_of_London(mississippian-culture))
+- **Confucian** → CROSS → `ancient-korea`  (cross-linked elsewhere ×11)
+- **Qing** → CROSS → `mongol-empire`  (cross-linked elsewhere ×19)
+- **Yellow Sea** → REUSE `Yellow_Sea` [high] — _Yellow Sea_: The Yellow Sea (simplified Chinese: 黄海; traditional Chinese: 黃海; pinyin: Huáng Hǎi; Zhuyin Fuhao: ㄏㄨㄤˊ ㄏㄞˇ; Ko  (linked in 5 civ(s) (e.g. ancient-korea) ×10)
+- **Manchuria** → REUSE `Manchuria` [CONFIRM-homonym] — _Manchuria_: Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China an  (linked in 14 civ(s) (e.g. ancient-korea) ×51 — ⚠ AMBIGUOUS: also Soviet_invasion_of_Manchuria(soviet-union), Manchukuo(qing-dynasty))
+- **Bohai Sea** → REUSE `Bohai_Sea` [high] — _Bohai Sea_: The Bohai Sea (Chinese: 渤海; pinyin: Bó Hǎi; Zhuyin Fuhao: ㄅㄛˊ ㄏㄞˇ; lit. 'Bo Sea') is a gulf/inland sea approxi  (linked in 1 civ(s) (e.g. ancient-china) ×2)
+- **Weihaiwei** → REUSE `Weihaiwei_under_British_rule` [high] — _British Weihaiwei_: Weihaiwei or Wei-hai-wei, on the northeastern coast of China, was a leased territory of the United Kingdom fro  (linked in 1 civ(s) (e.g. qing-dynasty) ×2)
+- **Shandong Peninsula** → REUSE `Shandong` [high] — _Shandong_: Shandong is a coastal province in East China which has played a major role in the development of the Chinese c  (linked in 2 civ(s) (e.g. shang-dynasty) ×2)
+- **Itō Hirobumi** → REUSE `It%C5%8D_Hirobumi` [CONFIRM-homonym] — _Itō Hirobumi_: Prince Itō Hirobumi (Japanese: 伊藤 博文 [i.toː (|) çi.ɾoꜜ.bɯ.mʲi]; born Hayashi Risuke (林 利助); 16 October 1841 –   (linked in 1 civ(s) (e.g. joseon-korea) ×2 — ⚠ AMBIGUOUS: also Ito_Hirobumi(korean-modern))
+- **Chongqing** → REUSE `Chongqing` [high] — _Chongqing_: Chongqing is a provincial-level direct-administered municipality in Southwestern China. It is one of the four   (linked in 2 civ(s) (e.g. chinese-revolution) ×4)
+- **Suzhou** → REUSE `Suzhou` [high] — _Suzhou_: Suzhou is a prefecture-level city in Jiangsu province, Eastern China. Suzhou is a major tourist destination an  (linked in 1 civ(s) (e.g. ming-dynasty) ×6)
+- **Hangzhou** → CROSS → `mongol-empire`  (cross-linked elsewhere ×1)
+- **Yawata Steel Works** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pearl Harbor** → REUSE `Attack_on_Pearl_Harbor` [high] — _Attack on Pearl Harbor_: On December 7, 1941, the Empire of Japan launched a surprise military strike on the United States Pacific Flee  (linked in 1 civ(s) (e.g. japanese-economic-miracle) ×2)
+- **General Nogi Maresuke** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kronstadt** → REUSE `Kronstadt` [CONFIRM-homonym] — _Kronstadt_: Kronstadt (Russian: Кроншта́дт, romanized: Kronshtadt, IPA: [krɐnˈʂtat]) is a Russian port city in Kronshtadts  (linked in 1 civ(s) (e.g. soviet-union) ×2 — ⚠ AMBIGUOUS: also Kronstadt_rebellion(soviet-union))
+- **Singapore Strait** → REUSE `Singapore_Strait` [high] — _Singapore Strait_: The Singapore Strait is a 113 km-long (70 mi), 19 km-wide (12 mi) strait between the Strait of Malacca in the   (linked in 1 civ(s) (e.g. srivijaya) ×2)
+- **Vladivostok** → REUSE `Vladivostok` [high] — _Vladivostok_: Vladivostok is the largest city and the administrative center of Primorsky Krai and the capital of the Far Eas  (linked in 3 civ(s) (e.g. qing-dynasty) ×8)
+- **Washington Naval Conference** → REUSE `Washington_Naval_Conference` [high] — _Washington Naval Conference_: The Washington Naval Conference (or the Washington Conference on the Limitation of Armament) was a disarmament  (linked in 1 civ(s) (e.g. roaring-twenties) ×1)
+- **Nobel Peace Prize** → REUSE `Nobel_Peace_Prize` [high] — _Nobel Peace Prize_: The Nobel Peace Prize is one of the five Nobel Prizes established by the will of Swedish industrialist, invent  (linked in 2 civ(s) (e.g. joseon-korea) ×4)
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Iwakura Mission** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×25)
+- **Mohandas Gandhi** → REUSE `Mahatma_Gandhi` [high] — _Mahatma Gandhi_: Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial   (linked in 1 civ(s) (e.g. antebellum-america) ×2)
+- **Vietnamese** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Indonesian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Filipino** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Tsar** → REUSE `Tsar` [high] — _Tsar_: Tsar (; also spelled czar, tzar, or csar; Bulgarian: цар, romanized: tsar; Russian: царь, romanized: tsar'; Se  (linked in 5 civ(s) (e.g. byzantine-empire) ×10)
+- **Persian Constitutional Revolution** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Persian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×52)
+- **Ottoman Empire** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×45)
+- **Meiji Constitution** → REUSE `Meiji_Constitution` [high] — _Meiji Constitution_: The Constitution of the Empire of Japan (Kyūjitai: 大日本帝國憲法; Shinjitai: 大日本帝国憲法, romanized: Dai-Nippon Teikoku   (linked in 2 civ(s) (e.g. asuka-nara-japan) ×4)
+- **gashin shōtan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Zinovy Rozhestvensky** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Combined Fleet** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 8
+- **Meiji Japan** → CROSS → `meiji-japan`  (cross-linked elsewhere ×11)
+- **Yuan Shikai** → REUSE `Yuan_Shikai` [high] — _Yuan Shikai_: Yuan Shikai (traditional Chinese: 袁世凱; simplified Chinese: 袁世凯; pinyin: Yuán Shìkǎi; Wade–Giles: Yüan2 Shih4-k  (linked in 2 civ(s) (e.g. chinese-revolution) ×4)
+- **Treaty of Shimonoseki** → REUSE `Treaty_of_Shimonoseki` [high] — _Treaty of Shimonoseki_: The Treaty of Shimonoseki (Japanese: 下関条約, Hepburn: Shimonoseki Jōyaku), also known as the Treaty of Maguan in  (linked in 1 civ(s) (e.g. joseon-korea) ×2)
+- **Russo-Japanese War** → CROSS → `mongol-empire`  (cross-linked elsewhere ×1)
+- **Treaty of Portsmouth** → REUSE `Treaty_of_Portsmouth` [high] — _Treaty of Portsmouth_: The Treaty of Portsmouth formally ended the 1904–1905 Russo-Japanese War. It was signed on September 5, 1905,   (linked in 1 civ(s) (e.g. joseon-korea) ×2)
+- **Meiji Constitution** → REUSE `Meiji_Constitution` [high] — _Meiji Constitution_: The Constitution of the Empire of Japan (Kyūjitai: 大日本帝國憲法; Shinjitai: 大日本帝国憲法, romanized: Dai-Nippon Teikoku   (linked in 2 civ(s) (e.g. asuka-nara-japan) ×4)
+- **Tokyo** → REUSE `Tokyo` [CONFIRM-homonym] — _Tokyo_: Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of o  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×16 — ⚠ AMBIGUOUS: also Tokyō(asuka-nara-japan))
+- **Anglo-Japanese Alliance** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Manchuria** → REUSE `Manchuria` [CONFIRM-homonym] — _Manchuria_: Manchuria is a historical region in Northeast Asia encompassing the entirety of present-day Northeast China an  (linked in 14 civ(s) (e.g. ancient-korea) ×51 — ⚠ AMBIGUOUS: also Soviet_invasion_of_Manchuria(soviet-union), Manchukuo(qing-dynasty))
+- Southeast Asia → SKIP (modern locator, cat A)
+- **Chōsen** → REUSE `Korea_under_Japanese_rule` [high] — _Korea under Japanese rule_: From 1910 to 1945, Korea was ruled by the Empire of Japan as a colony under the name Chōsen (朝鮮), the Japanese  (linked in 1 civ(s) (e.g. korean-modern) ×1)
+- **Taiwan** → REUSE `Taiwan` [high] — _Taiwan_: Taiwan, officially the Republic of China (ROC), is a country in East Asia. The main island of Taiwan, also kno  (linked in 8 civ(s) (e.g. chinese-revolution) ×16)
+- **Liaodong** → REUSE `Liaodong_Peninsula` [high] — _Liaodong Peninsula_: The Liaodong or Liaotung Peninsula (simplified Chinese: 辽东半岛; traditional Chinese: 遼東半島; pinyin: Liáodōng Bànd  (linked in 2 civ(s) (e.g. goryeo-korea) ×4)
+- **Port Arthur** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sakhalin** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Nagasaki** → REUSE `Nagasaki` [high] — _Nagasaki_: Nagasaki (長崎, Nagasaki; Japanese pronunciation: [na.ɡaꜜ.sa.kʲi, na.ŋa-], lit. 'Long Cape'), officially Nagasak  (linked in 5 civ(s) (e.g. edo-japan) ×10)
+- **Queen Victoria** → REUSE `Queen_Victoria` [high] — _Queen Victoria_: Victoria (Alexandrina Victoria; 24 May 1819 – 22 January 1901) was Queen of the United Kingdom of Great Britai  (linked in 5 civ(s) (e.g. maya-civilization) ×10)
+- **Emperor Meiji** → REUSE `Emperor_Meiji` [high] — _Emperor Meiji_: Emperor Meiji (born Mutsuhito; 3 November 1852 – 29 July 1912) was Emperor of Japan from 30 January 1867 until  (linked in 1 civ(s) (e.g. edo-japan) ×2)
+- **Diet** → REUSE `National_Diet` [high] — _National Diet_: The National Diet (国会, Kokkai; Japanese pronunciation: [kok̚.kai]) is the national legislature of Japan. It is  (linked in 1 civ(s) (e.g. japanese-economic-miracle) ×1)
+- **Momoyama Imperial Mausoleum** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kyoto** → CROSS → `heian-japan`  (cross-linked elsewhere ×6)
+- **Peers' School** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Battle of Kumamoto** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Shizuko** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mori Ōgai** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Meiji-era** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Edo Japan** → CROSS → `heian-japan`  (cross-linked elsewhere ×5)
+- **Imperial Rescript** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Osaka** → REUSE `Osaka` [high] — _Osaka_: Osaka (Japanese: 大阪市, Hepburn: Ōsaka-shi; pronounced [oː.sa.kaꜜ.ɕi]; commonly just 大阪, Ōsaka [oː.sa.ka] ) is a  (linked in 3 civ(s) (e.g. asuka-nara-japan) ×10)
+- **Yokohama** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **State Shinto** → REUSE `State_Shinto` [high] — _State Shinto_: State Shintō (国家神道 or 國家神道, Kokka Shintō) was Imperial Japan's ideological use of the Japanese folk religion a  (linked in 1 civ(s) (e.g. japanese-economic-miracle) ×2)
+- **Kuomintang** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Park's South Korea** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **fukoku kyōhei** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Government-General** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Natsume Sōseki** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Bismarckian Germany** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Soviet Russia** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Republican-period China** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Kemalist secularism** → NO-PAGE → blurb (no confident Wikipedia page found)

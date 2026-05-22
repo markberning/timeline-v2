@@ -71,6 +71,42 @@
       "targetTl": "joseon-korea",
       "targetChapter": 4,
       "blurb": "Japan met Western pressure with revolutionary self-transformation; Joseon Korea met the same pressure with rigidity — divergent fates from one shock."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Korea: the same Confucian hierarchy of scholars over farmers over merchants ordered society under Unified Silla and the dynasties that followed."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Qing was the Manchu dynasty that ruled the empire Japan watched being humbled by Western gunboats in the Opium Wars."
+    },
+    {
+      "matchText": "United States",
+      "targetTl": "antebellum-america",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in America: the republic that sent Perry's black ships was itself a restless, expanding nation pushing toward the Pacific in the decades before its Civil War."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, Persia: to 1870s Western diplomats, Japan ranked alongside Persia as an exotic, backward land ripe for partition — a slur against the heir of one of history's first world empires."
+    },
+    {
+      "matchText": "Self-Strengthening Movement",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in China: the Qing's Self-Strengthening Movement chased the same goal as Meiji Japan — Western arms and industry — but never captured the central state the way the Meiji oligarchs did."
+    },
+    {
+      "matchText": "American Reconstruction",
+      "targetTl": "reconstruction",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in America: Reconstruction was the contemporaneous attempt to rebuild a shattered Union and a nation-state after the Civil War, part of the same 1860s-70s wave of state consolidation."
     }
   ],
   "2": [
@@ -91,6 +127,18 @@
       "targetTl": "joseon-korea",
       "targetChapter": 8,
       "blurb": "Dismantling feudalism is exactly what Joseon failed to do — the comparison that explains why one was colonizer and the other colonized."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in China, the Qing tried the same race to catch up — the Self-Strengthening Movement bought arsenals, shipyards, and a modern fleet without touching the imperial bureaucracy or the social order, and it failed the test Japan passed."
+    },
+    {
+      "matchText": "Tanzimat",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Ottoman Empire, the Tanzimat reforms (1839–76) attempted an even broader overhaul — legal equality across religions, a modernized army and bureaucracy, and a written constitution — but never achieved the full institutional restructuring Japan pushed through in the 1870s."
     }
   ],
   "3": [
@@ -99,6 +147,12 @@
       "targetTl": "edo-japan",
       "targetChapter": 8,
       "blurb": "Saigo Takamori had led the imperial forces at Toba-Fushimi in early 1868, accepted the bloodless surrender of Edo from Katsu Kaishu later that same year, and personified the moral seriousness of the Restoration. The same Boshin War in which Saigo and Yamagata had fought as comrades against the bakufu would, nine years later, see them fight as enemies at Shiroyama — the institutional momentum of the Meiji project breaking up the very alliance that had created it."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in China, the Qing dynasty faced its own doomed traditional uprising — the Boxer Rising of 1900, crushed by the Eight-Nation Alliance and then absorbed into national memory, just as Saigō was."
     }
   ],
   "4": [
@@ -119,6 +173,24 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 18,
       "blurb": "'Industrial revolution by decree' compressed Britain's century-long process into decades — the developmental-state model born here."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Heian Japan: Kyoto began life as Heian-kyo, the imperial capital laid out in 794 on a Chinese grid — the city whose merchant houses, like Mitsui's, would still be powering Japan a thousand years later."
+    },
+    {
+      "matchText": "Russians",
+      "targetTl": "russian-empire",
+      "targetChapter": 19,
+      "blurb": "Meanwhile in the Russian Empire: defeat by Japan in 1905 detonated the first Russian Revolution at home — the year the autocracy cracked."
+    },
+    {
+      "matchText": "Soviet Union",
+      "targetTl": "soviet-union",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Soviet Union: Stalin's Five-Year Plans compressed a Meiji-style industrial leap into a single decade — but by state coercion rather than recycled export earnings."
     }
   ],
   "5": [
@@ -139,6 +211,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 9,
       "blurb": "The Meiji Constitution succeeded where the Ottoman constitutional experiment stalled — controlled top-down reform versus reform-and-backlash."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Heian Japan: Kyoto was Heian-kyō, the imperial capital laid out in 794, the seat of the court for over a thousand years before Meiji moved the throne to Tokyo."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in Qing China: the dynasty's own constitutional reforms of 1906–11 came too late and from a position of dynastic weakness — the abortive 1911 constitution fell with the dynasty within months."
     }
   ],
   "6": [
@@ -165,6 +249,54 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 9,
       "blurb": "State-engineered education and national identity is the nation-building toolkit the late Ottoman reformers also reached for, with less success."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Heian Japan: Kyoto began life as Heian-kyō, the grid-planned imperial capital founded in 794 that would house the court for over a thousand years."
+    },
+    {
+      "matchText": "Confucian",
+      "targetTl": "ancient-korea",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in ancient Korea: Confucianism arrived from China and became the backbone of statecraft — Unified Silla built a state Confucian academy to train officials in the classics, the same fusion of filial piety and loyalty the Meiji Rescript would later weaponize."
+    },
+    {
+      "matchText": "Amaterasu",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in prehistoric Japan: the Yamato clan claimed descent from the sun goddess Amaterasu, founding the imperial line's divine pedigree that Meiji ideologists would systematize into kokutai."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Asuka-Nara Japan: Buddhism arrived in the sixth century and triggered a crisis at court before being adopted as a tool of statecraft — the cosmopolitan tradition Meiji reformers would later strip back in favor of State Shinto."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Vedic-era India: Siddhartha Gautama became the Buddha, founding the religion whose Japanese temples and statuary the Meiji Haibutsu Kishaku movement would destroy by the thousands."
+    },
+    {
+      "matchText": "Nara",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Asuka-Nara Japan: Nara was Japan's first permanent capital and the home of the great temple complexes — like Tōdai-ji and its Great Buddha — that survived the Meiji anti-Buddhist purge only as cultural monuments."
+    },
+    {
+      "matchText": "Russo-Japanese War",
+      "targetTl": "russian-empire",
+      "targetChapter": 19,
+      "blurb": "Meanwhile in the Russian Empire: the Russo-Japanese War of 1904–05 ended in catastrophe at Port Arthur and Tsushima — a European great power humiliated by an Asian one, helping to ignite the Revolution of 1905."
+    },
+    {
+      "matchText": "Ottoman Tanzimat-era",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Ottoman Empire: the Tanzimat reforms (1839–76) tried to forge a single Ottoman national identity over the multi-religious millet system — a state-building project parallel to Meiji's, but one that never cohered across so diverse a population."
     }
   ],
   "7": [
@@ -191,6 +323,30 @@
       "targetTl": "joseon-korea",
       "targetChapter": 7,
       "blurb": "The Sino-Japanese and Russo-Japanese wars were fought largely over Korea — Meiji Japan's victories sealed Joseon's fate."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in Qing China: the dynasty's defeat in the 1894–95 war, its forced concessions, and the carve-up of treaty ports were a national catastrophe that helped push it toward collapse."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the once-mighty empire of Cyrus and Darius had become, by the 1870s, a weak Qajar state Western diplomats ranked alongside the most backward courts of the world."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the lands of the old Persian Empire: its late Qajar successor state was itself stirred toward constitutional reform, partly inspired by Japan's defeat of Russia."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Ottoman Empire: the 1908 Young Turk Revolution drew direct inspiration from Japan's example of an Asian power modernizing and beating a European one."
     }
   ],
   "8": [
@@ -217,6 +373,42 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 12,
       "blurb": "Meiji ends with Japan a great power and Korea annexed — the opposite endpoint to the Ottoman collapse from the same modernization race."
+    },
+    {
+      "matchText": "Kyoto",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Heian Japan: Kyoto began life in 794 as Heian-kyō, the new imperial capital — the city Emperor Meiji's body returned to for burial after a thousand years as the seat of the throne."
+    },
+    {
+      "matchText": "Edo Japan",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Edo Japan: the Tokugawa order Meiji dismantled — the warrior class, the four-tier hierarchy, the daimyō, and the closed borders — was the world the Restoration overthrew in 1868."
+    },
+    {
+      "matchText": "Soviet Russia",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Soviet Union: another crash-modernization project that built an extraordinary military-industrial state at staggering human cost, then committed catastrophic strategic and humanitarian errors of its own."
+    },
+    {
+      "matchText": "Republican-period China",
+      "targetTl": "chinese-revolution",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Chinese Revolution: the Kuomintang attempted a Meiji-style modernization in the 1920s and 1930s but lacked the institutional unity to execute it."
+    },
+    {
+      "matchText": "Park's South Korea",
+      "targetTl": "korean-modern",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in modern Korea: Park Chung-hee's developmental dictatorship drove the Miracle on the Han, drawing consciously on the Meiji template of state-directed industrialization."
+    },
+    {
+      "matchText": "Kemalist secularism",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 12,
+      "blurb": "Meanwhile in the late Ottoman world: Atatürk built a secular republic on the ashes of the empire — another twentieth-century late-modernizing state working through the questions the Meiji oligarchs first put on the table."
     }
   ]
 }
