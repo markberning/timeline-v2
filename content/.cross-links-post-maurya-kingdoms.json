@@ -29,6 +29,48 @@
       "targetTl": "vedic-period",
       "targetChapter": 4,
       "blurb": "The Shunga restoration was partly a Brahmanical revival — the varna order reasserting itself over the heterodox, Buddhist-favoring Mauryan century."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Gupta Empire: the dynasty that finally reunited northern India five centuries after the Mauryas, ushering in a classical golden age."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Japan: Buddhism arrived from the Asian mainland and touched off a political and religious crisis at the Yamato court."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Vedic India: the historical Buddha emerged as one of the rebel teachers challenging Brahmanical ritual orthodoxy."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Vedic India: Sanskrit was being codified by grammarians like Panini into the prestige language of ritual and learning."
+    },
+    {
+      "matchText": "Mahabharata",
+      "targetTl": "vedic-period",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Vedic India: the great epic of the Kuru war took shape against the backdrop of the late-Vedic kingdoms of the Ganges plain."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the eastern terminus of the overland trade routes that would knit together India, Central Asia, and the Han world."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Ming China: Zheng He's treasure fleets sailed these same Indian Ocean sea-lanes on a far grander scale, fifteen centuries later."
     }
   ],
   "2": [
@@ -49,6 +91,48 @@
       "targetTl": "vedic-period",
       "targetChapter": 8,
       "blurb": "The Indo-Greek kingdoms inherited a fractured post-imperial India — the sixteen-kingdoms condition the Vedic age had reached, now with Hellenistic players added."
+    },
+    {
+      "matchText": "Indus",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Indus Valley: the great river the Greeks crossed had, two thousand years earlier, cradled South Asia's first cities."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Maurya Empire: the subcontinent-spanning state whose collapse opened the door for the Greek kings to push south."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Persian Empire: the Achaemenids ruled Bactria as a satrapy long before the Greeks arrived, leaving an administrative legacy the Hellenistic kings inherited."
+    },
+    {
+      "matchText": "Athens",
+      "targetTl": "ancient-greece",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Greece: Athens, the cultural heart of the Greek world, lay more than 3,000 miles from the improbable Greek kingdoms of Central Asia."
+    },
+    {
+      "matchText": "Soviet",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "Meanwhile (much later) in the Soviet Union: the 1979 invasion of Afghanistan destroyed Ai-Khanoum, the best-preserved Greek city ever found in Central Asia."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile (centuries on) in Japan: the same faith King Menander embraced would travel the Silk Road east and reshape the early Japanese state."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Vedic India: the Buddha was born into the religious ferment of the late Vedic age, generations before any Greek king honored his memory."
     }
   ],
   "3": [
@@ -59,7 +143,7 @@
       "blurb": "The Sakas who invaded India were the eastern cousins of the Scythians who had dominated the Pontic steppe north of the Black Sea. Both groups spoke Iranian languages, practiced mounted warfare, and produced animal-style art — the same steppe culture transplanted 3,000 miles apart."
     },
     {
-      "matchText": "Persians who had built the Achaemenid Empire",
+      "matchText": "Achaemenid Empire",
       "targetTl": "persian-empire",
       "targetChapter": 1,
       "blurb": "The Sakas, the Scythians, and the Persians all belonged to the Iranian-speaking branch of the Indo-European family. Cyrus the Great was killed fighting the Massagetae, a Saka-related group, on the northeastern frontier of his empire. The Sakas who entered India were the distant descendants of the same steppe peoples who had given the Persian Empire so much trouble."
@@ -87,6 +171,42 @@
       "targetTl": "gupta-empire",
       "targetChapter": 3,
       "blurb": "This fragmented, cosmopolitan age set the stage the Guptas would later reunify into a classical golden age."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Vedic Period: Sanskrit arrived with the Indo-Aryan newcomers and became the sacred and literary language of the subcontinent — the tongue these Central Asian invaders would eventually adopt."
+    },
+    {
+      "matchText": "Indus",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Indus Valley: the same river plains the Saka king Maues seized had, two thousand years earlier, cradled South Asia's first great urban civilization."
+    },
+    {
+      "matchText": "Chandragupta II",
+      "targetTl": "gupta-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Gupta Empire: Chandragupta II finally crushed the Western Satraps around 409 CE, ending the Saka dynasty and winning the Guptas their western seaboard."
+    },
+    {
+      "matchText": "Parthian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Persian world: the Arsacid Parthians rebuilt an Iranian empire on the ruins of the Seleucids and held the line against Rome — the dynasty the Indo-Parthians of India branched from."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile far to the east: the Buddhism that Saka and Kushan kings patronized in India would travel the Silk Road and reach Japan centuries later, sparking its own court crisis."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, much later in the same land: the Mughals were the great foreign dynasty that, unlike the Sakas, was never fully absorbed — a Central Asian house that ruled India yet kept its distinct identity."
     }
   ],
   "4": [
@@ -101,6 +221,66 @@
       "targetTl": "persian-empire",
       "targetChapter": 8,
       "blurb": "The Parthian Empire was the buffer state between Rome and the Kushans, controlling the western section of the Silk Road from Mesopotamia to eastern Iran. At Kanishka's peak around 130-150 CE, four great empires formed a continuous chain from Britain to the Pacific: Rome, Parthia, Kushan, and Han China."
+    },
+    {
+      "matchText": "Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the Iranian-speaking peoples the Yuezhi distinguished themselves from had built one of antiquity's first world empires under Cyrus the Great."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the land Zhang Qian's reports first described to China was the heartland of the empire founded by Cyrus the Great."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Maurya Empire: Kanishka cast himself as Buddhism's greatest royal patron since Ashoka, the emperor who made the faith a state religion three centuries earlier."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Vedic world: the Buddha emerged among the renunciant rebels of the Ganges plain whose teaching the Kushans would carry across Asia."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Vedic world: Sanskrit was the sacred language of the hymns, now being reclaimed for Buddhist literature at Kanishka's court."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, far later in the Ming dynasty: the same Indian Ocean sea lanes that fed Kushan trade would carry Zheng He's treasure fleets fourteen centuries on."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Rome: under Hadrian and Antoninus Pius the empire reached its territorial zenith, one of the four great powers ringing the Kushan world."
+    },
+    {
+      "matchText": "Parthian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Iran: the Parthian Empire, heirs to Persia, held the buffer between Rome and the Kushans."
+    },
+    {
+      "matchText": "Parthia",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Iran: Parthia ruled the Iranian plateau, the overland bridge across which Roman goods reached Kushan markets."
+    },
+    {
+      "matchText": "Han dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: it was the Martial Emperor Wu Di of the Han dynasty who dispatched Zhang Qian westward to seek the Yuezhi."
     }
   ],
   "5": [
@@ -115,6 +295,30 @@
       "targetTl": "indus-valley",
       "targetChapter": 4,
       "blurb": "India's sculptural tradition reaches back to the Indus Valley civilization, where figurines from Mohenjo-daro and Harappa show a mastery of modeling the human form that the Mathura yaksha sculptors inherited. The Mathura school that gave the Buddha an Indian face drew on artistic traditions with roots over two thousand years old."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, centuries earlier: the historical Buddha — Siddhartha Gautama, a prince of the Shakya clan — walked away from his palace and taught the path to release in the Gangetic plain of late-Vedic India. The post-Maurya sculptors who finally gave him a face were depicting a teacher who had died around 483 BCE."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, in the empire that came before: the Maurya emperor Ashoka turned state machinery to spreading the Buddha's dharma, carving edicts across the subcontinent that emphasized the teaching over the teacher — one of the explanations scholars offer for why early Buddhist art showed symbols rather than the Buddha himself."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, to the northeast: the overland trade routes the Chinese called the road to the West carried silk, ideas, and — once Gandhara and Mathura had given the Buddha a face — Buddhist images and monks deep into Central Asia and on to China."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, much later and on the same waters: the Ming admiral Zheng He would sail vast treasure fleets across the Indian Ocean in the 15th century, following maritime routes that — fourteen centuries earlier — already carried the Buddha image and Indian merchants across to Southeast Asia."
     }
   ],
   "6": [
@@ -123,6 +327,24 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "The Satavahana trade routes that connected India's western coast to Rome passed through the same Red Sea ports that Augustus had seized after defeating Cleopatra. The Roman Empire's insatiable demand for Indian pepper and gems funded the Deccan's cave monasteries, merchant guilds, and Buddhist art, an economic connection that peaked during the Pax Romana of the 1st and 2nd centuries CE."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Maurya Empire: the centralized, command-economy state whose collapse opened the door to the Deccan powers — read the empire the Satavahanas inherited their world from."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Vedic Period: the historical Buddha emerged among the heterodox teachers of the eastern Ganges plain, the movement whose monuments the Satavahanas would later carve into the Western Ghats."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Asuka-Nara Japan: the same religion the Satavahanas funded in their cave temples reached the Yamato court a thousand years later and split it in two."
     }
   ],
   "7": [
@@ -143,6 +365,42 @@
       "targetTl": "ancient-rome",
       "targetChapter": 8,
       "blurb": "Hoards of Roman gold aurei in south India are hard evidence of the Indo-Roman sea trade — Rome's silver draining east for pepper, gems, and silk."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Maurya Empire: Ashoka's rock edicts named the Cholas and Pandyas as independent peoples beyond his southern frontier — proof the Tamil kingdoms were never conquered."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Vedic period: Sanskrit, the sacred language of the Rigveda hymns, was the northern tongue against which Tamil's utterly unrelated Dravidian roots stand out."
+    },
+    {
+      "matchText": "Mahabharata",
+      "targetTl": "vedic-period",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Vedic period: the Mahabharata grew out of the Kuru kingdom's dynastic war, becoming the world's longest epic and the religious counterpoint to the south's secular Sangam verse."
+    },
+    {
+      "matchText": "Confucius",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Zhou China: Confucius taught statecraft and ethics during the Hundred Schools era — the same ground the Tamil Tirukkural would cover in its own idiom."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesopotamia: the land between the Tigris and Euphrates marked the far eastern edge of the Roman world that India's pepper and gems flowed toward."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "han-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Han China: Emperor Wu's envoy Zhang Qian opened the Silk Road, the overland route the Kushans straddled while India worked the parallel sea lanes."
     }
   ],
   "8": [
@@ -163,6 +421,84 @@
       "targetTl": "vedic-period",
       "targetChapter": 7,
       "blurb": "The intellectual seeds of the coming Golden Age — Mahayana, mathematics, the heterodox legacy — trace back to the rebels and forest philosophers of the Vedic twilight."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Rome: the same decades that broke India's empires were the Third Century Crisis, when dozens of emperors rose and fell amid civil war and invasion."
+    },
+    {
+      "matchText": "Parthian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Iran: the Parthians (Arsacids) ruled the Persian world for nearly five centuries before the Sassanids overthrew them in 224 CE."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Iran: Ardashir I founded the Sassanid Empire in 224 CE, the new Persian dynasty that toppled the Parthians and pressed in on the Kushans."
+    },
+    {
+      "matchText": "Silk Road",
+      "targetTl": "ancient-china",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in China: the overland trade routes the Kushans helped run linked Han China to India and Rome, carrying silk west and Buddhism east."
+    },
+    {
+      "matchText": "Buddhism",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far downstream: the Mahayana Buddhism maturing here would travel the Silk Road to China, Korea, and eventually Japan."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, earlier in India: the Buddha (Siddhartha Gautama) had taught in the Ganges plain centuries before, and his teaching was now being reinterpreted."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, in India's deep past: Sanskrit, the sacred and scholarly language refined in the Vedic age, supplied the word shunya — \"empty\" — that became the name for zero."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the Maya independently invented a zero symbol — but unlike India's, it never spread beyond the Americas."
+    },
+    {
+      "matchText": "Maurya Empire",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, before all this: the Maurya Empire was the unified Indian state whose collapse opened the fragmented post-Maurya centuries."
+    },
+    {
+      "matchText": "Chandragupta Maurya",
+      "targetTl": "maurya-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, six centuries earlier: Chandragupta Maurya founded the Maurya Empire — the namesake the later Gupta kings deliberately echoed."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, just ahead: the Gupta Empire would consolidate the art, philosophy, trade, and mathematics of the post-Maurya centuries into India's classical golden age."
+    },
+    {
+      "matchText": "Golden Age",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, just ahead: historians call the Gupta era India's Golden Age — but it inherited its riches from the \"fragmented\" centuries covered here."
+    },
+    {
+      "matchText": "Ashoka",
+      "targetTl": "maurya-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, before all this: Ashoka was the great Maurya emperor whose unified imperial scale the post-Maurya world never matched — and didn't need."
     }
   ]
 }
