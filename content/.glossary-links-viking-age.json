@@ -79,12 +79,6 @@
       "type": "concept"
     },
     {
-      "term": "Oseberg ship",
-      "matchText": "Oseberg ship",
-      "wikiSlug": "Oseberg_ship",
-      "type": "concept"
-    },
-    {
       "term": "Gokstad ship",
       "matchText": "Gokstad ship",
       "wikiSlug": "Gokstad_ship",
@@ -106,12 +100,6 @@
       "term": "Dirham",
       "matchText": "Abbasid silver dirhams",
       "wikiSlug": "Dirham",
-      "type": "concept"
-    },
-    {
-      "term": "Carolingian Empire",
-      "matchText": "Carolingian Empire",
-      "wikiSlug": "Carolingian_Empire",
       "type": "concept"
     },
     {
@@ -360,6 +348,96 @@
       "matchText": "knots",
       "wikiSlug": "Knot_(unit)",
       "type": "concept"
+    },
+    {
+      "matchText": "Russians",
+      "term": "Russians",
+      "wikiSlug": "Russians"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic Sea",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norsemen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "definition": "Of or belonging to Norway — here the mountainous, fjord-cut Atlantic flank of Scandinavia and its North Germanic farming-and-seafaring people, one of the three Norse populations from which the Viking raiders sailed."
+    },
+    {
+      "matchText": "Finland",
+      "term": "Finland",
+      "wikiSlug": "Finland"
+    },
+    {
+      "matchText": "Finno-Ugric",
+      "term": "Finno-Ugric languages",
+      "wikiSlug": "Finno-Ugric_languages"
+    },
+    {
+      "matchText": "Scandinavian languages",
+      "term": "North Germanic languages",
+      "wikiSlug": "North_Germanic_languages"
+    },
+    {
+      "matchText": "Columbus",
+      "term": "Christopher Columbus",
+      "wikiSlug": "Christopher_Columbus"
+    },
+    {
+      "matchText": "Valsgärde",
+      "term": "Valsgärde",
+      "wikiSlug": "Valsgärde"
+    },
+    {
+      "matchText": "Paris",
+      "term": "Paris",
+      "wikiSlug": "Paris"
+    },
+    {
+      "matchText": "Yucatán",
+      "term": "Yucatán Peninsula",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula"
+    },
+    {
+      "matchText": "Seine",
+      "term": "Seine",
+      "wikiSlug": "Seine"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavian",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "wikiSlug": "Iceland"
     }
   ],
   "2": [
@@ -380,12 +458,6 @@
       "matchText": "Alcuin of York",
       "wikiSlug": "Alcuin",
       "type": "people"
-    },
-    {
-      "term": "Carolingian Renaissance",
-      "matchText": "Carolingian Renaissance",
-      "wikiSlug": "Carolingian_Renaissance",
-      "type": "concept"
     },
     {
       "term": "Iona",
@@ -603,6 +675,166 @@
       "matchText": "Battle of Clontarf",
       "wikiSlug": "Battle_of_Clontarf",
       "type": "concept"
+    },
+    {
+      "matchText": "Northumbrian",
+      "term": "Northumbria",
+      "wikiSlug": "Northumbria"
+    },
+    {
+      "matchText": "Aidan",
+      "term": "Aidan of Lindisfarne",
+      "wikiSlug": "Aidan_of_Lindisfarne"
+    },
+    {
+      "matchText": "Hebridean",
+      "term": "Hebrides",
+      "wikiSlug": "Hebrides"
+    },
+    {
+      "matchText": "Holy Roman Emperor",
+      "term": "Holy Roman Emperor",
+      "wikiSlug": "Holy_Roman_Emperor"
+    },
+    {
+      "matchText": "Pyrenees",
+      "term": "Pyrenees",
+      "wikiSlug": "Pyrenees"
+    },
+    {
+      "matchText": "Elbe",
+      "term": "Elbe",
+      "wikiSlug": "Elbe"
+    },
+    {
+      "matchText": "Blathmac",
+      "term": "Blathmac",
+      "wikiSlug": "Blathmac"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norsemen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic Sea",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Norse-Irish",
+      "term": "Norse–Gaels",
+      "wikiSlug": "Norse%E2%80%93Gaels"
+    },
+    {
+      "matchText": "Burgundy",
+      "term": "Burgundy",
+      "wikiSlug": "Burgundy"
+    },
+    {
+      "matchText": "Insular",
+      "term": "Celtic (Insular) Christianity",
+      "wikiSlug": "Celtic_Christianity"
+    },
+    {
+      "matchText": "Loire",
+      "term": "Loire",
+      "wikiSlug": "Loire"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberian Peninsula",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Provence",
+      "term": "Provence",
+      "wikiSlug": "Provence"
+    },
+    {
+      "matchText": "Brittany",
+      "term": "Brittany",
+      "wikiSlug": "Brittany"
+    },
+    {
+      "matchText": "Mercia",
+      "term": "Mercia",
+      "wikiSlug": "Mercia"
+    },
+    {
+      "matchText": "Alfred",
+      "term": "Alfred the Great",
+      "wikiSlug": "Alfred_the_Great"
+    },
+    {
+      "matchText": "Huang Chao Rebellion",
+      "term": "Huang Chao Rebellion",
+      "wikiSlug": "Huang_Chao_Rebellion"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Dubh Linn",
+      "term": "Dublin",
+      "wikiSlug": "Dublin"
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "wikiSlug": "Norwegians"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Seine",
+      "term": "Seine",
+      "wikiSlug": "Seine"
+    },
+    {
+      "matchText": "Latin Christendom",
+      "term": "Latin Christendom",
+      "wikiSlug": "Christendom"
+    },
+    {
+      "matchText": "West Francia",
+      "term": "West Francia",
+      "wikiSlug": "West_Francia"
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "wikiSlug": "Iceland"
     }
   ],
   "3": [
@@ -714,6 +946,176 @@
       "matchText": "Naddodd",
       "wikiSlug": "Naddodd",
       "type": "people"
+    },
+    {
+      "matchText": "Anglo-Saxon Chronicle",
+      "term": "Anglo-Saxon Chronicle",
+      "wikiSlug": "Anglo-Saxon_Chronicle"
+    },
+    {
+      "matchText": "Little Ice Age",
+      "term": "Little Ice Age",
+      "wikiSlug": "Little_Ice_Age"
+    },
+    {
+      "matchText": "Medieval Warm Period",
+      "term": "Medieval Warm Period",
+      "wikiSlug": "Medieval_Warm_Period"
+    },
+    {
+      "matchText": "Somerset",
+      "term": "Somerset",
+      "wikiSlug": "Somerset"
+    },
+    {
+      "matchText": "Wessex",
+      "term": "Wessex",
+      "wikiSlug": "Wessex"
+    },
+    {
+      "matchText": "Scandinavian world",
+      "term": "Scandinavia",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Etruscan",
+      "term": "Etruscan language",
+      "wikiSlug": "Etruscan_language"
+    },
+    {
+      "matchText": "Great Heathen Army",
+      "term": "Great Heathen Army",
+      "wikiSlug": "Great_Heathen_Army"
+    },
+    {
+      "matchText": "East Anglia",
+      "term": "Kingdom of East Anglia",
+      "wikiSlug": "Kingdom_of_East_Anglia"
+    },
+    {
+      "matchText": "Mercia",
+      "term": "Mercia",
+      "wikiSlug": "Mercia"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Yorkshire",
+      "term": "Yorkshire",
+      "wikiSlug": "Yorkshire"
+    },
+    {
+      "matchText": "cities of York",
+      "term": "York",
+      "wikiSlug": "York"
+    },
+    {
+      "matchText": "modern Dutch",
+      "term": "Dutch language",
+      "wikiSlug": "Dutch_language"
+    },
+    {
+      "matchText": "Papar",
+      "term": "Papar",
+      "wikiSlug": "Papar"
+    },
+    {
+      "matchText": "Landnám",
+      "term": "Settlement of Iceland (Landnám)",
+      "wikiSlug": "Settlement_of_Iceland"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Hebrides",
+      "term": "Hebrides",
+      "wikiSlug": "Hebrides"
+    },
+    {
+      "matchText": "Eurasian tectonic plates",
+      "term": "Eurasian Plate",
+      "wikiSlug": "Eurasian_Plate"
+    },
+    {
+      "matchText": "Dublin",
+      "term": "Dublin",
+      "wikiSlug": "History_of_Dublin"
+    },
+    {
+      "matchText": "Eastern Settlement",
+      "term": "Eastern Settlement",
+      "wikiSlug": "Eastern_Settlement"
+    },
+    {
+      "matchText": "Western Settlement",
+      "term": "Western Settlement",
+      "wikiSlug": "Western_Settlement"
+    },
+    {
+      "matchText": "Helluland",
+      "term": "Helluland",
+      "wikiSlug": "Helluland"
+    },
+    {
+      "matchText": "Markland",
+      "term": "Markland",
+      "wikiSlug": "Markland"
+    },
+    {
+      "matchText": "Newfoundland",
+      "term": "Newfoundland",
+      "wikiSlug": "Newfoundland_(island)"
+    },
+    {
+      "matchText": "Columbus",
+      "term": "Christopher Columbus",
+      "wikiSlug": "Christopher_Columbus"
+    },
+    {
+      "matchText": "King Æthelstan",
+      "term": "Æthelstan, King of the English",
+      "wikiSlug": "Æthelstan"
+    },
+    {
+      "matchText": "Ísland",
+      "term": "Iceland",
+      "wikiSlug": "Iceland"
+    },
+    {
+      "matchText": "Freydis Eriksdottir",
+      "term": "Freydís Eiríksdóttir",
+      "wikiSlug": "Freydís_Eiríksdóttir"
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "definition": "Of Norway — the people, language, and kingdom of the western Scandinavian coast, the homeland from which most of Iceland's settlers sailed."
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "definition": "Of Iceland — the North Atlantic island colony and the Old Norse dialect that, preserved in saga manuscripts, became the closest surviving relative of the language the Vikings spoke."
+    },
+    {
+      "matchText": "Christianized",
+      "term": "Christianized",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavian",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Danish",
+      "term": "Danish",
+      "wikiSlug": "Danes"
     }
   ],
   "4": [
@@ -860,15 +1262,249 @@
       "matchText": "Liao dynasty",
       "wikiSlug": "Liao_dynasty",
       "type": "concept"
+    },
+    {
+      "matchText": "Lake Ladoga",
+      "term": "Lake Ladoga",
+      "wikiSlug": "Lake_Ladoga"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Caspian Sea",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Stamford Bridge",
+      "term": "Stamford Bridge",
+      "wikiSlug": "Battle_of_Stamford_Bridge"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norsemen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Newfoundland",
+      "term": "Newfoundland",
+      "wikiSlug": "Newfoundland_(island)"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Salme boat-grave",
+      "term": "Salme ships",
+      "wikiSlug": "Salme_ships"
+    },
+    {
+      "matchText": "Estonia",
+      "term": "Estonia",
+      "wikiSlug": "Estonia"
+    },
+    {
+      "matchText": "Lindisfarne",
+      "term": "Lindisfarne",
+      "wikiSlug": "Lindisfarne"
+    },
+    {
+      "matchText": "Scandinavian sea-raid",
+      "term": "Scandinavia",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Neva",
+      "term": "Neva",
+      "wikiSlug": "Neva"
+    },
+    {
+      "matchText": "Volkhov",
+      "term": "Volkhov",
+      "wikiSlug": "Volkhov_(river)"
+    },
+    {
+      "matchText": "9th-century Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Eurasian commercial world",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Swedes",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Hedeby",
+      "term": "Hedeby",
+      "wikiSlug": "Hedeby"
+    },
+    {
+      "matchText": "Birka",
+      "term": "Birka",
+      "wikiSlug": "Birka"
+    },
+    {
+      "matchText": "Slavs",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Finno-Ugric",
+      "term": "Finno-Ugric languages",
+      "wikiSlug": "Finno-Ugric_languages"
+    },
+    {
+      "matchText": "Slavic-speaking",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Arab geographer",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Belarus",
+      "term": "Belarus",
+      "wikiSlug": "Belarus"
+    },
+    {
+      "matchText": "Svyatoslav",
+      "term": "Sviatoslav I",
+      "wikiSlug": "Sviatoslav_I"
+    },
+    {
+      "matchText": "Old Norse Helgi",
+      "term": "Helgi (Norse name)",
+      "wikiSlug": "Helge"
+    },
+    {
+      "matchText": "Bosporus",
+      "term": "Bosporus",
+      "wikiSlug": "Bosporus"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Anatolian generals",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Drevlians",
+      "term": "Drevlians",
+      "wikiSlug": "Drevlians"
+    },
+    {
+      "matchText": "Constantine VII Porphyrogenitus",
+      "term": "Constantine VII",
+      "wikiSlug": "Constantine_VII"
+    },
+    {
+      "matchText": "joy of the Russians",
+      "term": "Rus' people",
+      "wikiSlug": "Rus%27_people"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Cyril and Methodius",
+      "term": "Cyril and Methodius",
+      "wikiSlug": "Cyril_and_Methodius"
+    },
+    {
+      "matchText": "Thor",
+      "term": "Thor",
+      "wikiSlug": "Thor"
+    },
+    {
+      "matchText": "sister Anna",
+      "term": "Anna Porphyrogenita",
+      "wikiSlug": "Anna_Porphyrogenita"
+    },
+    {
+      "matchText": "Harald Sigurdsson",
+      "term": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada"
+    },
+    {
+      "matchText": "Caucasus",
+      "term": "Caucasus",
+      "wikiSlug": "Caucasus"
+    },
+    {
+      "matchText": "Shia",
+      "term": "Shia Islam",
+      "wikiSlug": "Shia_Islam"
+    },
+    {
+      "matchText": "Bukhara",
+      "term": "Bukhara",
+      "wikiSlug": "Bukhara"
+    },
+    {
+      "matchText": "Yucatán",
+      "term": "Yucatán Peninsula",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula"
+    },
+    {
+      "matchText": "Khurasan",
+      "term": "Greater Khorasan",
+      "wikiSlug": "Greater_Khorasan"
+    },
+    {
+      "matchText": "Ruotsi",
+      "term": "Sweden (Finnish: Ruotsi)",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Greenland",
+      "term": "Greenland",
+      "wikiSlug": "Greenland"
+    },
+    {
+      "matchText": "Rōþskarlar",
+      "term": "Rōþskarlar",
+      "definition": "Old Norse for \"rowing men\" — one proposed origin of the word Rus', describing the Swedish crews who plied the Russian river routes by drag-and-row."
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "wikiSlug": "Norwegians"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
     }
   ],
   "5": [
-    {
-      "term": "Poetic Edda",
-      "matchText": "Poetic Edda",
-      "wikiSlug": "Poetic_Edda",
-      "type": "concept"
-    },
     {
       "term": "Codex Regius",
       "matchText": "Codex Regius",
@@ -1007,6 +1643,301 @@
       "matchText": "seiðr",
       "wikiSlug": "Sei%C3%B0r",
       "type": "concept"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Danes",
+      "term": "Danes",
+      "wikiSlug": "Danes"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Well of Urd",
+      "term": "Well of Urd",
+      "wikiSlug": "Urðarbrunnr"
+    },
+    {
+      "matchText": "Níðhöggr",
+      "term": "Níðhöggr",
+      "wikiSlug": "Nidhogg"
+    },
+    {
+      "matchText": "Ratatoskr",
+      "term": "Ratatoskr",
+      "wikiSlug": "Ratatoskr"
+    },
+    {
+      "matchText": "Asgard",
+      "term": "Asgard",
+      "wikiSlug": "Asgard"
+    },
+    {
+      "matchText": "Midgard",
+      "term": "Midgard",
+      "wikiSlug": "Midgard"
+    },
+    {
+      "matchText": "Jotunheim",
+      "term": "Jotunheim",
+      "wikiSlug": "Jötunheimr"
+    },
+    {
+      "matchText": "Jötnar",
+      "term": "Jötnar",
+      "wikiSlug": "List_of_jötnar_in_Norse_mythology"
+    },
+    {
+      "matchText": "Hel",
+      "term": "Hel",
+      "wikiSlug": "Hel_(location)"
+    },
+    {
+      "matchText": "Muspelheim",
+      "term": "Muspelheim",
+      "wikiSlug": "Muspelheim"
+    },
+    {
+      "matchText": "Vanaheim",
+      "term": "Vanaheim",
+      "wikiSlug": "Vanaheimr"
+    },
+    {
+      "matchText": "Niflheim",
+      "term": "Niflheim",
+      "wikiSlug": "Niflheim"
+    },
+    {
+      "matchText": "Alfheim",
+      "term": "Alfheim",
+      "wikiSlug": "Álfheimr"
+    },
+    {
+      "matchText": "Svartalfheim",
+      "term": "Svartalfheim",
+      "wikiSlug": "Svartálfar"
+    },
+    {
+      "matchText": "Æsir",
+      "term": "Æsir",
+      "wikiSlug": "Æsir"
+    },
+    {
+      "matchText": "Huginn",
+      "term": "Huginn",
+      "wikiSlug": "Huginn_and_Muninn"
+    },
+    {
+      "matchText": "Muninn",
+      "term": "Muninn",
+      "wikiSlug": "Huginn_and_Muninn"
+    },
+    {
+      "matchText": "Tyr",
+      "term": "Tyr",
+      "wikiSlug": "Týr"
+    },
+    {
+      "matchText": "Fenrir",
+      "term": "Fenrir",
+      "wikiSlug": "Fenrir"
+    },
+    {
+      "matchText": "Hávamál",
+      "term": "Hávamál",
+      "wikiSlug": "Hávamál"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Swedes",
+      "term": "Swedes",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Gorm the Old",
+      "term": "Gorm the Old",
+      "wikiSlug": "Gorm_the_Old"
+    },
+    {
+      "matchText": "Ansgar",
+      "term": "Ansgar",
+      "wikiSlug": "Ansgar"
+    },
+    {
+      "matchText": "Jutland",
+      "term": "Jutland",
+      "wikiSlug": "Jutland"
+    },
+    {
+      "matchText": "Sweyn Forkbeard",
+      "term": "Sweyn Forkbeard",
+      "wikiSlug": "Sweyn_Forkbeard"
+    },
+    {
+      "matchText": "Harald Fairhair",
+      "term": "Harald Fairhair",
+      "wikiSlug": "Harald_Fairhair"
+    },
+    {
+      "matchText": "Saint Olaf",
+      "term": "Saint Olaf",
+      "wikiSlug": "Saint_Olaf"
+    },
+    {
+      "matchText": "British Isles",
+      "term": "British Isles",
+      "wikiSlug": "British_Isles"
+    },
+    {
+      "matchText": "Greenland",
+      "term": "Greenland",
+      "wikiSlug": "Greenland"
+    },
+    {
+      "matchText": "Althing",
+      "term": "Althing",
+      "wikiSlug": "Althing"
+    },
+    {
+      "matchText": "Lawspeaker",
+      "term": "Lawspeaker",
+      "wikiSlug": "Lawspeaker"
+    },
+    {
+      "matchText": "Olof Skötkonung",
+      "term": "Olof Skötkonung",
+      "wikiSlug": "Olof_Skötkonung"
+    },
+    {
+      "matchText": "Cluny",
+      "term": "Cluny",
+      "wikiSlug": "Cluny_Abbey"
+    },
+    {
+      "matchText": "Burgundy",
+      "term": "Burgundy",
+      "wikiSlug": "Burgundy"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Leif Erikson",
+      "term": "Leif Erikson",
+      "wikiSlug": "Leif_Erikson"
+    },
+    {
+      "matchText": "Vinland",
+      "term": "Vinland",
+      "wikiSlug": "Vinland"
+    },
+    {
+      "matchText": "Christianization",
+      "term": "Christianization of Scandinavia",
+      "wikiSlug": "Christianization_of_Scandinavia"
+    },
+    {
+      "matchText": "Dísablót",
+      "term": "Dísablót",
+      "wikiSlug": "Dísir"
+    },
+    {
+      "matchText": "Sigrblót",
+      "term": "Sigrblót",
+      "definition": "A Norse spring sacrifice (\"victory-blót\") dedicated to Odin, performed at the start of the raiding season to beg the gods for triumph on the year's campaigns."
+    },
+    {
+      "matchText": "Miðsumarblót",
+      "term": "Miðsumarblót",
+      "definition": "A midsummer Norse sacrifice dedicated to the fertility god Freyr, offered to secure a good harvest for the coming year."
+    },
+    {
+      "matchText": "Vetrnætrablót",
+      "term": "Vetrnætrablót",
+      "definition": "The \"Winter-Nights\" sacrifice, held in October to mark the beginning of the winter half of the Norse year."
+    },
+    {
+      "matchText": "Jólablót",
+      "term": "Jólablót",
+      "definition": "The midwinter Norse sacrifice from which the word Yule descends — the great pagan winter feast that Christianity later absorbed and rebranded as Christmas."
+    },
+    {
+      "matchText": "Latin Christendom",
+      "term": "Latin Christendom",
+      "definition": "The community of western and central European lands under the Latin-rite, Rome-centered church — the \"diplomatic club\" a converting Norse king joined, distinct from the Greek Orthodox Byzantine world to the east."
+    },
+    {
+      "matchText": "Denmark's baptismal certificate",
+      "term": "Jelling Stones",
+      "wikiSlug": "Jelling_stones"
+    },
+    {
+      "matchText": "Christianity brought writing",
+      "term": "Christianity and literacy in Scandinavia",
+      "definition": "With conversion came the Latin alphabet, which displaced runes for serious record-keeping — kings issued written charters and laws, and monasteries became the new centers of literacy across the Norse world."
+    },
+    {
+      "matchText": "Þingvellir",
+      "term": "Þingvellir",
+      "wikiSlug": "Þingvellir"
+    },
+    {
+      "matchText": "Iceland",
+      "term": "Iceland",
+      "wikiSlug": "Iceland"
+    },
+    {
+      "matchText": "Stephen I",
+      "term": "Stephen I of Hungary",
+      "wikiSlug": "Stephen_I_of_Hungary"
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "wikiSlug": "Norwegians"
+    },
+    {
+      "matchText": "Christianized",
+      "term": "Christianized",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavian",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Pope",
+      "term": "Pope",
+      "wikiSlug": "Pope"
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "wikiSlug": "Iceland"
+    },
+    {
+      "matchText": "Danish",
+      "term": "Danish",
+      "wikiSlug": "Danes"
     }
   ],
   "6": [
@@ -1053,22 +1984,10 @@
       "type": "concept"
     },
     {
-      "term": "Nibelungenlied",
-      "matchText": "Nibelungenlied",
-      "wikiSlug": "Nibelungenlied",
-      "type": "concept"
-    },
-    {
       "term": "Ferdowsi",
       "matchText": "Ferdowsi",
       "wikiSlug": "Ferdowsi",
       "type": "people"
-    },
-    {
-      "term": "Ferdowsi",
-      "matchText": "classical Persian poetry",
-      "wikiSlug": "Ferdowsi",
-      "type": "concept"
     },
     {
       "term": "Sanskrit literature",
@@ -1113,6 +2032,216 @@
       "matchText": "Njál's Saga",
       "wikiSlug": "Nj%C3%A1ls_saga",
       "type": "concept"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Li Bai",
+      "term": "Li Bai",
+      "wikiSlug": "Li_Bai"
+    },
+    {
+      "matchText": "Du Fu",
+      "term": "Du Fu",
+      "wikiSlug": "Du_Fu"
+    },
+    {
+      "matchText": "Su Shi",
+      "term": "Su Shi",
+      "wikiSlug": "Su_Shi"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Runes",
+      "term": "Runes",
+      "wikiSlug": "Runes"
+    },
+    {
+      "matchText": "Lake Mälaren",
+      "term": "Lake Mälaren",
+      "wikiSlug": "Lake_Mälaren"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Garðaríki",
+      "term": "Garðaríki",
+      "wikiSlug": "Garðaríki"
+    },
+    {
+      "matchText": "Serkland",
+      "term": "Serkland",
+      "wikiSlug": "Serkland"
+    },
+    {
+      "matchText": "Englaland",
+      "term": "Englaland",
+      "wikiSlug": "England"
+    },
+    {
+      "matchText": "Langbarðaland",
+      "term": "Langbarðaland",
+      "wikiSlug": "Kingdom_of_the_Lombards"
+    },
+    {
+      "matchText": "Late Antique Little Ice Age",
+      "term": "Late Antique Little Ice Age",
+      "wikiSlug": "Late_Antique_Little_Ice_Age"
+    },
+    {
+      "matchText": "Harald Bluetooth",
+      "term": "Harald Bluetooth",
+      "wikiSlug": "Harald_Bluetooth"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "Odin",
+      "term": "Odin",
+      "wikiSlug": "Odin"
+    },
+    {
+      "matchText": "Sonatorrek",
+      "term": "Sonatorrek",
+      "wikiSlug": "Sonatorrek"
+    },
+    {
+      "matchText": "Snorri Sturluson",
+      "term": "Snorri Sturluson",
+      "wikiSlug": "Snorri_Sturluson"
+    },
+    {
+      "matchText": "Codex Regius",
+      "term": "Codex Regius",
+      "wikiSlug": "Codex_Regius"
+    },
+    {
+      "matchText": "Ragnarök",
+      "term": "Ragnarök",
+      "wikiSlug": "Ragnarök"
+    },
+    {
+      "matchText": "Yggdrasil",
+      "term": "Yggdrasil",
+      "wikiSlug": "Yggdrasil"
+    },
+    {
+      "matchText": "Vafþrúðnismál",
+      "term": "Vafþrúðnismál",
+      "wikiSlug": "Vafþrúðnismál"
+    },
+    {
+      "matchText": "Thor",
+      "term": "Thor",
+      "wikiSlug": "Thor"
+    },
+    {
+      "matchText": "Freyja",
+      "term": "Freyja",
+      "wikiSlug": "Freyja"
+    },
+    {
+      "matchText": "Lokasenna",
+      "term": "Lokasenna",
+      "wikiSlug": "Lokasenna"
+    },
+    {
+      "matchText": "Loki",
+      "term": "Loki",
+      "wikiSlug": "Loki"
+    },
+    {
+      "matchText": "Adam of Bremen",
+      "term": "Adam of Bremen",
+      "wikiSlug": "Adam_of_Bremen"
+    },
+    {
+      "matchText": "Vinland",
+      "term": "Vinland",
+      "wikiSlug": "Vinland"
+    },
+    {
+      "matchText": "Landnámabók",
+      "term": "Landnámabók",
+      "wikiSlug": "Landnámabók"
+    },
+    {
+      "matchText": "Shahnameh",
+      "term": "Shahnameh",
+      "wikiSlug": "Shahnameh"
+    },
+    {
+      "matchText": "Þrymskviða",
+      "term": "Þrymskviða",
+      "wikiSlug": "Þrymskviða"
+    },
+    {
+      "matchText": "Egill Skallagrímsson",
+      "term": "Egill Skallagrímsson",
+      "wikiSlug": "Egill_Skallagrímsson"
+    },
+    {
+      "matchText": "skald",
+      "term": "Skald",
+      "wikiSlug": "Skald"
+    },
+    {
+      "matchText": "Erik Bloodaxe",
+      "term": "Erik Bloodaxe",
+      "wikiSlug": "Erik_Bloodaxe"
+    },
+    {
+      "matchText": "Icelandic family sagas",
+      "term": "Sagas of Icelanders",
+      "wikiSlug": "Sagas_of_Icelanders"
+    },
+    {
+      "matchText": "Miklagarðr",
+      "term": "Miklagarðr",
+      "definition": "Old Norse for \"the Great City\" — the Viking name for Constantinople, the dazzling Byzantine capital that drew Swedish adventurers down the eastern rivers to serve, trade, and raid."
+    },
+    {
+      "matchText": "Iceland",
+      "term": "Iceland",
+      "wikiSlug": "Iceland"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "wikiSlug": "Norwegians"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "wikiSlug": "Iceland"
     }
   ],
   "7": [
@@ -1177,16 +2306,250 @@
       "type": "concept"
     },
     {
-      "term": "Khazar Khaganate",
-      "matchText": "Khazar Khaganate",
-      "wikiSlug": "Khazar_Khaganate",
-      "type": "concept"
-    },
-    {
       "term": "Aethelred II",
       "matchText": "Æthelred II",
       "wikiSlug": "%C3%86thelred_the_Unready",
       "type": "people"
+    },
+    {
+      "matchText": "Harald Hardrada",
+      "term": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada"
+    },
+    {
+      "matchText": "Carolingian Empire",
+      "term": "Carolingian Empire",
+      "wikiSlug": "Carolingian_Empire"
+    },
+    {
+      "matchText": "Danish",
+      "term": "Danes",
+      "wikiSlug": "Danes"
+    },
+    {
+      "matchText": "Canute",
+      "term": "Cnut (Canute)",
+      "wikiSlug": "Cnut"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Olaf Haraldsson",
+      "term": "Olaf Haraldsson (Saint Olaf)",
+      "wikiSlug": "Olaf_II_of_Norway"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavia",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norsemen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Jutland",
+      "term": "Jutland",
+      "wikiSlug": "Jutland"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic region",
+      "wikiSlug": "Baltic_region"
+    },
+    {
+      "matchText": "Sirius",
+      "term": "Sirius",
+      "wikiSlug": "Sirius"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Lake Mälaren",
+      "term": "Lake Mälaren",
+      "wikiSlug": "Mälaren"
+    },
+    {
+      "matchText": "Birka",
+      "term": "Birka",
+      "wikiSlug": "Birka"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Rus'",
+      "term": "Kievan Rus'",
+      "wikiSlug": "Kievan_Rus%27"
+    },
+    {
+      "matchText": "Svyatoslav",
+      "term": "Sviatoslav I",
+      "wikiSlug": "Sviatoslav_I"
+    },
+    {
+      "matchText": "British Isles",
+      "term": "British Isles",
+      "wikiSlug": "British_Isles"
+    },
+    {
+      "matchText": "Phoenician",
+      "term": "Phoenicia",
+      "wikiSlug": "Phoenicia"
+    },
+    {
+      "matchText": "Fyrkat",
+      "term": "Fyrkat",
+      "wikiSlug": "Fyrkat"
+    },
+    {
+      "matchText": "Aggersborg",
+      "term": "Aggersborg",
+      "wikiSlug": "Aggersborg"
+    },
+    {
+      "matchText": "Nonnebakken",
+      "term": "Nonnebakken",
+      "wikiSlug": "Nonnebakken"
+    },
+    {
+      "matchText": "Borgring",
+      "term": "Borgring",
+      "wikiSlug": "Borgring"
+    },
+    {
+      "matchText": "Harald Fairhair",
+      "term": "Harald Fairhair",
+      "wikiSlug": "Harald_Fairhair"
+    },
+    {
+      "matchText": "Uppsala",
+      "term": "Temple at Uppsala",
+      "wikiSlug": "Temple_at_Uppsala"
+    },
+    {
+      "matchText": "Alfred",
+      "term": "Alfred the Great",
+      "wikiSlug": "Alfred_the_Great"
+    },
+    {
+      "matchText": "Danes",
+      "term": "Danes",
+      "wikiSlug": "Danes"
+    },
+    {
+      "matchText": "Oxford",
+      "term": "Oxford",
+      "wikiSlug": "Oxford"
+    },
+    {
+      "matchText": "Danelaw",
+      "term": "Danelaw",
+      "wikiSlug": "Danelaw"
+    },
+    {
+      "matchText": "Wessex",
+      "term": "Wessex",
+      "wikiSlug": "Wessex"
+    },
+    {
+      "matchText": "Norman",
+      "term": "Normans",
+      "wikiSlug": "Normans"
+    },
+    {
+      "matchText": "Edward the Confessor",
+      "term": "Edward the Confessor",
+      "wikiSlug": "Edward_the_Confessor"
+    },
+    {
+      "matchText": "Harthacnut",
+      "term": "Harthacnut",
+      "wikiSlug": "Harthacnut"
+    },
+    {
+      "matchText": "Varangian Guard",
+      "term": "Varangian Guard",
+      "wikiSlug": "Varangian_Guard"
+    },
+    {
+      "matchText": "Hardrada",
+      "term": "Harald Hardrada",
+      "wikiSlug": "Harald_Hardrada"
+    },
+    {
+      "matchText": "Yorkshire",
+      "term": "Yorkshire",
+      "wikiSlug": "Yorkshire"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Cluniac",
+      "term": "Cluniac Reforms",
+      "wikiSlug": "Cluniac_Reforms"
+    },
+    {
+      "matchText": "Middle Ages",
+      "term": "Middle Ages",
+      "wikiSlug": "Middle_Ages"
+    },
+    {
+      "matchText": "Æþelræd",
+      "term": "Æthelred the Unready",
+      "wikiSlug": "Æthelred_the_Unready"
+    },
+    {
+      "matchText": "Viking-Age Scandinavia",
+      "term": "Viking-Age Scandinavia",
+      "definition": "The Scandinavian homeland (Denmark, Norway, Sweden) during the Viking Age, c. 793–1066 — the fjord-and-farm world whose trading towns, ring fortresses, and emerging kingdoms powered the diaspora."
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "definition": "Arabic-speaking peoples of the Islamic world; here the Andalusian merchant At-Tartushi, whose travelogue records a horrified outsider's look at the pagan trading town of Hedeby."
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "definition": "The Slavic peoples of eastern and central Europe, whose pottery, goods, and captives moved through Norse trade hubs like Birka along the river routes east."
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "definition": "Of Norway — here the Norwegian fleets and royal armies that, alongside Danish ones, mounted the second great wave of seaborne attacks on England."
+    },
+    {
+      "matchText": "Gunhilde",
+      "term": "Gunhilde",
+      "definition": "Sister of Sweyn Forkbeard of Denmark, reportedly among the Danes killed in the St Brice's Day Massacre of 1002 — the act that helped trigger Sweyn's war of conquest against England."
+    },
+    {
+      "matchText": "Latin Christendom",
+      "term": "Latin Christendom",
+      "wikiSlug": "Christendom"
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "wikiSlug": "Iceland"
     }
   ],
   "8": [
@@ -1251,12 +2614,6 @@
       "type": "concept"
     },
     {
-      "term": "Yaroslav the Wise",
-      "matchText": "Yaroslav the Wise",
-      "wikiSlug": "Yaroslav_the_Wise",
-      "type": "people"
-    },
-    {
       "term": "Almoravid dynasty",
       "matchText": "Almoravid",
       "wikiSlug": "Almoravid_dynasty",
@@ -1279,6 +2636,216 @@
       "matchText": "Toltec",
       "wikiSlug": "Toltec",
       "type": "concept"
+    },
+    {
+      "matchText": "Anglo-Saxon Chronicle",
+      "term": "Anglo-Saxon Chronicle",
+      "wikiSlug": "Anglo-Saxon_Chronicle"
+    },
+    {
+      "matchText": "Harold Godwinson",
+      "term": "Harold Godwinson",
+      "wikiSlug": "Harold_Godwinson"
+    },
+    {
+      "matchText": "Magnus the Good",
+      "term": "Magnus the Good",
+      "wikiSlug": "Magnus_the_Good"
+    },
+    {
+      "matchText": "William the Conqueror",
+      "term": "William the Conqueror",
+      "wikiSlug": "William_the_Conqueror"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norsemen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavia",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Norman",
+      "term": "Normans",
+      "wikiSlug": "Normans"
+    },
+    {
+      "matchText": "Solund Islands",
+      "term": "Solund Islands",
+      "wikiSlug": "Solund_Municipality"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Humber",
+      "term": "Humber",
+      "wikiSlug": "Humber"
+    },
+    {
+      "matchText": "Battle of Fulford",
+      "term": "Battle of Fulford",
+      "wikiSlug": "Battle_of_Fulford"
+    },
+    {
+      "matchText": "York",
+      "term": "York",
+      "wikiSlug": "York"
+    },
+    {
+      "matchText": "Channel",
+      "term": "English Channel",
+      "wikiSlug": "English_Channel"
+    },
+    {
+      "matchText": "Yorkshire",
+      "term": "Yorkshire",
+      "wikiSlug": "Yorkshire"
+    },
+    {
+      "matchText": "Heimskringla",
+      "term": "Heimskringla",
+      "wikiSlug": "Heimskringla"
+    },
+    {
+      "matchText": "Somme",
+      "term": "Somme (river)",
+      "wikiSlug": "Somme_(river)"
+    },
+    {
+      "matchText": "Pevensey",
+      "term": "Pevensey",
+      "wikiSlug": "Pevensey"
+    },
+    {
+      "matchText": "Sussex",
+      "term": "Sussex",
+      "wikiSlug": "Sussex"
+    },
+    {
+      "matchText": "London",
+      "term": "London",
+      "wikiSlug": "London"
+    },
+    {
+      "matchText": "Gyrth",
+      "term": "Gyrth Godwinson",
+      "wikiSlug": "Gyrth_Godwinson"
+    },
+    {
+      "matchText": "Leofwine",
+      "term": "Leofwine Godwinson",
+      "wikiSlug": "Leofwine_Godwinson"
+    },
+    {
+      "matchText": "Cnut",
+      "term": "Cnut",
+      "wikiSlug": "Cnut"
+    },
+    {
+      "matchText": "Greenland",
+      "term": "Greenland",
+      "wikiSlug": "Greenland"
+    },
+    {
+      "matchText": "Dublin",
+      "term": "Dublin",
+      "wikiSlug": "History_of_Dublin"
+    },
+    {
+      "matchText": "Rus'",
+      "term": "Kievan Rus'",
+      "wikiSlug": "Kievan_Rus%27"
+    },
+    {
+      "matchText": "Kiev",
+      "term": "Kyiv",
+      "wikiSlug": "Kiev"
+    },
+    {
+      "matchText": "Byzantines",
+      "term": "Byzantine Empire",
+      "wikiSlug": "Byzantine_Empire"
+    },
+    {
+      "matchText": "Antioch",
+      "term": "Antioch",
+      "wikiSlug": "Antioch"
+    },
+    {
+      "matchText": "Lindisfarne",
+      "term": "Lindisfarne",
+      "wikiSlug": "Lindisfarne"
+    },
+    {
+      "matchText": "Newfoundland",
+      "term": "Newfoundland",
+      "wikiSlug": "Newfoundland_(island)"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Anatolia",
+      "term": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Crusades",
+      "term": "Crusades",
+      "wikiSlug": "Crusades"
+    },
+    {
+      "matchText": "Iberia",
+      "term": "Iberian Peninsula",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Tula",
+      "term": "Tula (Toltec capital)",
+      "wikiSlug": "Tula_(Mesoamerican_site)"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "definition": "Followers of Christianity; here the Norse Normans who, three generations after Rollo, had become Christians and continental knights — the faith that reshaped the whole Norse world by 1066."
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "definition": "Followers of Islam; here the Muslim rulers of Sicily and southern Italy from whom Norman warlords seized those lands in 1060–1130."
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "wikiSlug": "Norwegians"
+    },
+    {
+      "matchText": "Denmark",
+      "term": "Denmark",
+      "wikiSlug": "Denmark"
+    },
+    {
+      "matchText": "Seine",
+      "term": "Seine",
+      "wikiSlug": "Seine"
+    },
+    {
+      "matchText": "Icelandic",
+      "term": "Icelandic",
+      "wikiSlug": "Iceland"
+    },
+    {
+      "matchText": "Harthacnut",
+      "term": "Harthacnut",
+      "wikiSlug": "Harthacnut"
     }
   ]
 }

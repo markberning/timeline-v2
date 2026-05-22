@@ -207,7 +207,7 @@
     },
     "Ragnar_Lodbrok": {
       "title": "Ragnar Lodbrok",
-      "lead": "Ragnar Lodbrok (Old Norse: Ragnarr loðbrók, lit. 'Ragnar hairy-breeches'), according to legends, was a Viking hero and a Swedish and Danish king. He is known from Old Norse poetry of the Viking Age, Icelandic sagas, and near-contemporary ch",
+      "lead": "Ragnar Lodbrok or Ragnar Lothbrok (Old Norse: Ragnarr loðbrók, lit. 'Ragnar hairy-breeches'), according to legends, was a Viking hero and a Swedish and Danish king. He is known from Old Norse poetry of the Viking Age, Icelandic sagas, and n",
       "image": "Harley_MS_2278,_folio_39r_excerpt.jpg"
     },
     "Ivar_the_Boneless": {
@@ -502,10 +502,15 @@
       "lead": "Iona is an island in the Inner Hebrides, off the Ross of Mull on the western coast of Scotland. It is mainly known for Iona Abbey, though there are other buildings on the island. Iona Abbey was a centre of Gaelic monasticism for three centu",
       "image": "Iona_(15020668711).jpg"
     },
-    "Oseberg_ship": {
-      "title": "Oseberg ship",
-      "lead": "The Oseberg ship (Norwegian: Osebergskipet) is a well-preserved longship (probably a karve) discovered in a large burial mound at the Oseberg farm near Tønsberg in Vestfold county, Norway. This ship is commonly acknowledged to be among the ",
-      "image": "Osebergskipet_2016.jpg"
+    "Great_Heathen_Army": {
+      "title": "Great Heathen Army",
+      "lead": "The Great Heathen Army, also known as the Viking Great Army, was a coalition of Scandinavian warriors who invaded England in AD 865. Since the late 8th century, the Vikings had been engaging in raids on centres of wealth, such as monasterie",
+      "image": "England_Great_Army_map.svg"
+    },
+    "Settlement_of_Iceland": {
+      "title": "Settlement of Iceland",
+      "lead": "The settlement of Iceland (Icelandic: landnámsöld [ˈlantˌnaumsˌœlt]) is generally believed to have begun in the second half of the ninth century, when Norse settlers migrated across the North Atlantic. The reasons for the migration are unce",
+      "image": "The_Norwegians_land_in_Iceland_year_872.jpg"
     },
     "Alfred_the_Great": {
       "title": "Alfred the Great",
@@ -527,6 +532,11 @@
       "lead": "Rollo (Norman: Rou, Rolloun; Old Norse: Hrólfr; French: Rollon; c. 835/870 – 933), also known with his epithet, Rollo \"the Walker\", was a Viking who, as Count of Rouen, became the first ruler of Normandy, a region in today's northern France",
       "image": "RolloA.jpg"
     },
+    "Althing": {
+      "title": "Althing",
+      "lead": "The Alþingi (Icelandic: [ˈalˌθiɲcɪ]; Icelandic for 'general meeting', anglicised as Althing or Althingi), is the national legislature of Iceland, which is also known in the English language as the Icelandic Parliament or as the Parliament o",
+      "image": "Althing_Logo.svg"
+    },
     "Harald_Bluetooth": {
       "title": "Harald Bluetooth",
       "lead": "Harald \"Bluetooth\" Gormsson (Old Norse: Haraldr Blátǫnn Gormsson; Danish: Harald Blåtand Gormsen, died c. 985/86) was a king of Denmark and Norway. The son of King Gorm the Old and Thyra Dannebod, Harald ruled as king of Denmark from c. 958",
@@ -542,10 +552,45 @@
       "lead": "Erik Thorvaldsson (c. 950 – c. 1003), known as Erik the Red (Norwegian: Eirik den røde), was a Norse explorer, described in medieval and Icelandic saga sources as having founded the first European settlement in Greenland. He most likely ear",
       "image": "Eric_the_Red.png"
     },
+    "Leif_Erikson": {
+      "title": "Leif Erikson",
+      "lead": "Leif Erikson, also known as Leif the Lucky (c. 970s – c. 1018 to 1025), was a Norse explorer who is thought to have been the first European to set foot on continental America, approximately half a millennium before Christopher Columbus. Acc",
+      "image": "Leif_Erikson_Statue,_Duluth_(15290644106).jpg"
+    },
+    "Sweyn_Forkbeard": {
+      "title": "Swein Forkbeard",
+      "lead": "Swein Forkbeard (also spelled Sweyn, ; died 3 February 1014) was King of Denmark from 986, King of England for five weeks from December 1013, and King of Norway from 999/1000, all until his death in 1014. He was the father of King Harald II",
+      "image": "Sweyn_Forkbeard.jpg"
+    },
+    "Cnut": {
+      "title": "Cnut",
+      "lead": "Cnut ( kə-NYOOT; Old Norse: Knútr; c. 990 – 12 November 1035), also known as Canute and with the epithet the Great, was King of England from 1016, King of Denmark from 1018, and King of Norway from 1028 until his death in 1035. The three ki",
+      "image": "Canute_and_Ælfgifu_cropped_(Canute).jpg"
+    },
     "Gr%C3%A1g%C3%A1s": {
       "title": "Gray Goose Laws",
       "lead": "The Gray Goose Laws (Icelandic: Grágás, Icelandic pronunciation: [ˈkrauːˌkauːs], Old Norse pronunciation: [ˈgrɒːˌgɒːs]) are a collection of laws from the Icelandic Commonwealth period. The term Grágás was originally used in a medieval sourc",
       "image": "Gragas_GKS_1157_fol,_s._84,_sp._B.jpg"
+    },
+    "Olaf_II_of_Norway": {
+      "title": "Saint Olaf",
+      "lead": "Saint Olaf (c. 995 – 29 July 1030), also called Olaf the Holy, Olaf II, Olaf Haraldsson, and Olaf the Stout or \"Large\", was King of Norway from 1015 to 1028. Son of Harald Grenske, a petty king in Vestfold, Norway, he was posthumously given",
+      "image": "Olav_der_Heilige07.jpg"
+    },
+    "Hedeby": {
+      "title": "Hedeby",
+      "lead": "Hedeby (Danish pronunciation: [ˈhe̝ːðəˌpyˀ], Old Norse: Heiðabýr, German: Haithabu) was an important Danish Viking Age (8th to the 11th centuries) trading settlement near the southern end of the Jutland Peninsula, now in the Schleswig-Flens",
+      "image": "Wikingerhaeuser_Haithabu.jpg"
+    },
+    "Birka": {
+      "title": "Birka",
+      "lead": "Birka (Birca in medieval sources), on the island of Björkö (lit. \"Birch Island\") in present-day Sweden, was an important Viking Age trading center which handled goods from Scandinavia as well as many parts of Continental Europe and the Orie",
+      "image": "Birka_Ansgar_2008.jpg"
+    },
+    "Varangian_Guard": {
+      "title": "Varangian Guard",
+      "lead": "The Varangian Guard (Greek: Τάγμα τῶν Βαράγγων, romanized: Tágma tōn Varángōn) was an elite unit of the Byzantine army from the 10th to the 14th century who served as personal bodyguards to the Byzantine emperors. The Varangian Guard was kn",
+      "image": "The_body_of_Leo_V_is_dragged_to_the_Hippodrome_through_the_Skyla_Gate.jpg"
     },
     "R%C3%B6k_runestone": {
       "title": "Rök runestone",
@@ -567,6 +612,11 @@
       "lead": "Longships (Old Norse: langskip) were long clinker-built warships (Old Norse: herskip, Old Swedish: hærskip) propelled by oars, and later also by sail, used by the Norse and surrounding Germanic tribes from at least the 4th century AD and th",
       "image": "Viking_longship.png"
     },
+    "Adam_of_Bremen": {
+      "title": "Adam of Bremen",
+      "lead": "Adam of Bremen (Latin: Adamus Bremensis; German: Adam von Bremen; before 1050 – 12 October 1081/1085) was a German medieval chronicler. He lived and worked in the second half of the eleventh century. Adam is most famous for his chronicle Ge",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
     "Harald_Hardrada": {
       "title": "Harald Hardrada",
       "lead": "Harald Sigurdsson (Old Norse: Haraldr Sigurðarson; c. 1015 – 25 September 1066), also known as Harald III and given the epithet Hardrada in the sagas, was King of Norway from 1046 to 1066. He unsuccessfully claimed the Danish throne until 1",
@@ -579,7 +629,7 @@
     },
     "Ragnar_Lodbrok": {
       "title": "Ragnar Lodbrok",
-      "lead": "Ragnar Lodbrok (Old Norse: Ragnarr loðbrók, lit. 'Ragnar hairy-breeches'), according to legends, was a Viking hero and a Swedish and Danish king. He is known from Old Norse poetry of the Viking Age, Icelandic sagas, and near-contemporary ch",
+      "lead": "Ragnar Lodbrok or Ragnar Lothbrok (Old Norse: Ragnarr loðbrók, lit. 'Ragnar hairy-breeches'), according to legends, was a Viking hero and a Swedish and Danish king. He is known from Old Norse poetry of the Viking Age, Icelandic sagas, and n",
       "image": "Harley_MS_2278,_folio_39r_excerpt.jpg"
     },
     "Ivar_the_Boneless": {
@@ -597,10 +647,25 @@
       "lead": "The Battle of Hastings was fought on 14 October 1066 between the Norman-French army of William, Duke of Normandy, and an English army under the Anglo-Saxon King Harold Godwinson, beginning the Norman Conquest of England. It took place appro",
       "image": "Bayeux_Tapestry_scene57_Harold_death.jpg"
     },
-    "Poetic_Edda": {
-      "title": "Poetic Edda",
-      "lead": "The Poetic Edda is the modern name for an untitled collection of Old Norse anonymous narrative poems in alliterative verse (known as Eddic poems). It is distinct from the closely related Prose Edda, although both works are seminal to the st",
-      "image": "The_Tree_of_Yggdrasil.jpg"
+    "Freydís_Eiríksdóttir": {
+      "title": "Freydís Eiríksdóttir",
+      "lead": "Freydís Eiríksdóttir (born c. 965) was an Icelandic woman said to be the daughter of Erik the Red (as in her patronym), who figured prominently in the Norse exploration of North America as an early colonist of Vinland, while her brother, Le",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Egill_Skallagrímsson": {
+      "title": "Egill Skallagrímsson",
+      "lead": "Egil Skallagrímsson (Old Norse: Egil Skallagrímsson [ˈeɣelː ˈskɑlːɑˌɡriːmsˌson]; Modern Icelandic: [ˈeijɪtl̥ ˈskatlaˌkrimsˌsɔːn]; c. 904 – c. 995) was a Viking Age war poet, sorcerer, berserker, and farmer. He is known mainly as the anti-he",
+      "image": "Egil_Skallagrimsson_17c_manuscript.jpg"
+    },
+    "Temple_at_Uppsala": {
+      "title": "Temple at Uppsala",
+      "lead": "The Temple at Uppsala was long held to be a religious centre in the Norse religion once located at what became Gamla Uppsala (Swedish \"Old Uppsala\"), Sweden attested in Adam of Bremen's 11th-century work Gesta Hammaburgensis ecclesiae ponti",
+      "image": "Olaus_Magnus_-_On_the_Glorious_Temple_Devoted_to_the_Nordic_Gods.jpg"
+    },
+    "Blathmac": {
+      "title": "Blathmac",
+      "lead": "Saint Blathmac (Latin: Blathmacus, Florentius) was a distinguished Irish monk, born in Ireland about 750 AD. He is known as \"Blathmac, son of Flann\", to distinguish him from the poet and monk Blathmac mac Con Brettan. He was killed and beca",
+      "image": ""
     },
     "Ansgar": {
       "title": "Ansgar",
@@ -611,11 +676,6 @@
       "title": "Danegeld",
       "lead": "Danegeld (; literally \"Dane yield\") was a tax raised to pay tribute or protection money to the Viking raiders to save a land from being ravaged. It was called the geld or gafol in eleventh-century sources. It was characteristic of royal pol",
       "image": "U_241,_Lingsberg.JPG"
-    },
-    "Yaroslav_the_Wise": {
-      "title": "Yaroslav the Wise",
-      "lead": "Yaroslav I Vladimirovich (c. 978 – 20 February 1054), better known as Yaroslav the Wise, was Grand Prince of Kiev from 1019 until his death in 1054. He was also earlier Prince of Novgorod from 1010 to 1034 and Prince of Rostov from 987 to 1",
-      "image": "YaroslavWiseSeal.jpg"
     },
     "Codex_Regius": {
       "title": "Codex Regius",
@@ -632,6 +692,11 @@
       "lead": "Alcuin of York (; Latin: Flaccus Albinus Alcuinus; c. 735 – 19 May 804), also called Ealhwine, Alhwin, or Alchoin, was an Anglo-Latin scholar, clergyman, poet, and teacher from York, Northumbria. He was born around 735 and became the studen",
       "image": "Raban-Maur_Alcuin_Otgar.jpg"
     },
+    "Gorm_the_Old": {
+      "title": "Gorm the Old",
+      "lead": "Gorm the Old (Danish: Gorm den Gamle; Old Norse: Gormr gamli; Latin: Gormus Senex), also called Gorm the Languid (Danish: Gorm Løge, Gorm den Dvaske), was ruler of Denmark, reigning from c. 936 to his death c. 958 or a few years later. He r",
+      "image": "August_Thomsen_-_Thyra_Dannebod_meddeler_Kong_Gorm_den_Gamle_Underretning_om_hans_Søn_Knuds_Død.png"
+    },
     "Ibn_Fadlan": {
       "title": "Ahmad ibn Fadlan",
       "lead": "Ahmad ibn Fadlan ibn al-Abbas al-Baghdadi (Arabic: أحمد بن فضلان بن العباس بن راشد بن حماد, romanized: Aḥmad ibn Faḍlān ibn al-ʿAbbās al-Baghdādī) or simply known as Ibn Fadlan, was a 10th-century Arab traveler from Baghdad, Abbasid Calipha",
@@ -646,6 +711,11 @@
       "title": "Gjermundbu helmet",
       "lead": "The Gjermundbu helmet is a Viking Age helmet. The helmet was discovered during field clearing in 1943 at the Gjermundbu farm near Haugsbygd in the municipality of Ringerike in Buskerud, Norway. Officials at the University of Oslo were later",
       "image": "Gjermundbu_helmet_-_cropped.jpg"
+    },
+    "Battle_of_Fulford": {
+      "title": "Battle of Fulford",
+      "lead": "The Battle of Fulford was fought on the outskirts of the village of Fulford, just south of York in England, on 20 September 1066. King Harald III of Norway, also known as Harald Hardrada, a claimant to the English throne, and Tostig Godwins",
+      "image": "Battle_of_Fulford.png"
     },
     "Magnus_the_Good": {
       "title": "Magnus the Good",
@@ -669,7 +739,7 @@
     },
     "Fjord": {
       "title": "Fjord",
-      "lead": "In physical geography, a fjord (also spelled fiord, a variant most common in New Zealand English; ) is a long, narrow sea inlet with steep sides or cliffs in a valley created by a former glacier, which has since become inundated with water.",
+      "lead": "In physical geography, a fjord (also spelled fiord, a variant most common in New Zealand English; ) is a long, relatively narrow sea inlet with steep sides or cliffs in a valley created by a former glacier, which has since become inundated ",
       "image": "Geirangerfjord_(6-2007).jpg"
     },
     "Medieval_Warm_Period": {
@@ -721,11 +791,6 @@
       "title": "Dirham",
       "lead": "The dirham, dirhem or drahm is a unit of currency and of mass. It is the name of the currencies of Morocco, the United Arab Emirates and Armenia, and is the name of a currency subdivision in Jordan, Libya, Qatar and Tajikistan. It was histo",
       "image": "Dirham.svg"
-    },
-    "Carolingian_Empire": {
-      "title": "Carolingian Empire",
-      "lead": "The Carolingian Empire (800–887) was a Frankish-dominated empire in Western and Central Europe during the Early Middle Ages. It was ruled by the Carolingian dynasty, which had ruled as kings of the Franks since 751 and as kings of the Lomba",
-      "image": "Francia_814.svg"
     },
     "Richard_Wagner": {
       "title": "Richard Wagner",
@@ -779,7 +844,7 @@
     },
     "Hebrides": {
       "title": "Hebrides",
-      "lead": "The Hebrides ( HEB-rid-eez; Scottish Gaelic: Innse Gall, pronounced [ˈĩːʃə ˈkaul̪ˠ], lit. Islands of the Foreigners, i.e. in this context the Norsemen; Old Norse: Suðreyjar, lit. 'Southern isles') are the largest archipelago in the United K",
+      "lead": "The Hebrides are the largest archipelago in the United Kingdom, off the west coast of the Scottish mainland. The islands fall into two main groups, based on their proximity to the mainland: the Inner and Outer Hebrides. These islands have a",
       "image": "Hebridesmap.png"
     },
     "Yorkshire": {
@@ -799,7 +864,7 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was a historical city located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopolis in Bithynia, Anatolia (Asia Minor) to th",
+      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
     },
     "Northumbria": {
@@ -884,7 +949,7 @@
     },
     "Caulk": {
       "title": "Caulk",
-      "lead": "Caulk (also known as caulking and calking) is a material used to seal joints or seams against leakage in various structures and piping. The oldest form of caulk consisted of fibrous materials driven into the wedge-shaped seams between board",
+      "lead": "Caulk (also known as caulking and calking) is a material used to seal joints or seams against leakage in various structures and piping. The same word is also the verb for the action of applying such sealing material. The oldest form of caul",
       "image": "Caulking_underneath_bathroom_sink.jpg"
     },
     "Portage": {
@@ -922,6 +987,86 @@
       "lead": "The knot () is a unit of speed equal to one nautical mile per hour, exactly 1.852 km/h (approximately 1.151 mph or 0.514 m/s). The ISO standard symbol for the knot is kn. The same symbol is preferred by the Institute of Electrical and Elect",
       "image": "Airspeed_Indicator.svg"
     },
+    "Russians": {
+      "title": "Russians",
+      "lead": "Russians (Russian: русские, romanized: russkiye [ˈruskʲɪje] ) are an East Slavic ethnic group native to Eastern Europe. Their mother tongue is Russian, the most spoken Slavic language. The majority of Russians adhere to Orthodox Christianit",
+      "image": "Map_of_the_Russian_Diaspora_in_the_World2025.svg"
+    },
+    "Denmark": {
+      "title": "Denmark",
+      "lead": "Denmark is a Nordic country in Northern Europe. It is the metropole and most populous constituent of the Kingdom of Denmark, also known as the Danish Realm, a constitutionally unitary state that includes the autonomous territories of the Fa",
+      "image": "Flag_of_Denmark.svg"
+    },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
+    },
+    "Baltic_Sea": {
+      "title": "Baltic Sea",
+      "lead": "The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, Latvia, Lithuania, Poland, Russia, Sweden, and the North and Central European Plain regions. It is the world's largest b",
+      "image": "The_Baltic_Sea.png"
+    },
+    "Sweden": {
+      "title": "Sweden",
+      "lead": "Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern Europe. It borders Norway to the west and north, and Finland to the east, and shares a maritime border with Denmark to the south. ",
+      "image": "Flag_of_Sweden.svg"
+    },
+    "Norway": {
+      "title": "Norway",
+      "lead": "Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scandinavian Peninsula in Northern Europe, the remote Arctic island Jan Mayen and the archipelago Svalbard. Bouvet Island, lo",
+      "image": "Flag_of_Norway.svg"
+    },
+    "Norsemen": {
+      "title": "Norsemen",
+      "lead": "The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers of Old Norse in Scandinavia. During the late eighth century, Scandinavians embarked on a large-scale expansion in all directions,",
+      "image": "Old_norse,_ca_900.svg"
+    },
+    "Finland": {
+      "title": "Finland",
+      "lead": "Finland, or the Republic of Finland, is a Nordic country in Northern Europe. It borders Sweden to the northwest, Norway to the north, and Russia to the east, with the Gulf of Bothnia to the west and the Gulf of Finland to the south, opposit",
+      "image": "Flag_of_Finland.svg"
+    },
+    "Finno-Ugric_languages": {
+      "title": "Finno-Ugric languages",
+      "lead": "Finno-Ugric () is a traditional linguistic grouping of all languages in the Uralic language family except for the Samoyedic languages. Its once commonly accepted status as a subfamily of Uralic is based on criteria formulated in the 19th ce",
+      "image": "Finno-Ugric_Languages.png"
+    },
+    "North_Germanic_languages": {
+      "title": "North Germanic languages",
+      "lead": "The North Germanic languages are one of the three branches of the Germanic languages—a sub-family of the Indo-European languages—along with the West Germanic languages and the extinct East Germanic languages. The language group is also refe",
+      "image": "North_germanic_languages.svg"
+    },
+    "Christopher_Columbus": {
+      "title": "Christopher Columbus",
+      "lead": "Christopher Columbus (; between 25 August and 31 October 1451 – 20 May 1506) was an Italian explorer and navigator from the Republic of Genoa who completed four Spanish transatlantic voyages in the name of the Catholic Monarchs, opening the",
+      "image": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+    },
+    "Valsgärde": {
+      "title": "Valsgärde",
+      "lead": "Valsgärde or Vallsgärde is a farm on the Fyris river, about three kilometres north of Gamla Uppsala, the ancient centre of the Swedish kings and of the pagan faith in Sweden. The present farm dates from the 16th century. The farm's notabili",
+      "image": "Vallsgärde.jpg"
+    },
+    "Paris": {
+      "title": "Paris",
+      "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
+      "image": "La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_août_2014_(2).jpg"
+    },
+    "Yucat%C3%A1n_Peninsula": {
+      "title": "Yucatán Peninsula",
+      "lead": "The Yucatán Peninsula ( YOO-kə-TA(H)N, UK also YUU-; Spanish: Península de Yucatán [peˈninsula ðe ʝukaˈtan]) is a large peninsula in southeast Mexico and adjacent portions of Belize and Guatemala. The peninsula extends towards the northeast",
+      "image": "Yucatan_peninsula_250m.jpg"
+    },
+    "Seine": {
+      "title": "Seine",
+      "lead": "The Seine ( sayn, sen; French: [sɛn] ) is a 777-kilometre-long (483 mi) river in northern France. Its drainage basin is in the Paris Basin (a geological relative lowland) covering most of northern France. It rises at Source-Seine, 30 kilome",
+      "image": "Bercy,_Paris_01.jpg"
+    },
+    "Iceland": {
+      "title": "Iceland",
+      "lead": "Iceland is a Nordic island country between the Arctic Ocean and the North Atlantic Ocean, located on the Mid-Atlantic Ridge between Europe and North America. It is culturally and politically linked with Europe and is the region's westernmos",
+      "image": "Flag_of_Iceland.svg"
+    },
     "Lindisfarne": {
       "title": "Lindisfarne",
       "lead": "Lindisfarne, also known as Holy Island, is a tidal island off the northeast coast of England, which constitutes the civil parish of Holy Island in Northumberland. Holy Island has a recorded history from the 6th century AD; it was an importa",
@@ -932,11 +1077,6 @@
       "lead": "The Lindisfarne Gospels (London, British Library Cotton MS Nero D.IV) is an illuminated manuscript gospel book in the Latin language produced probably around the years 715–720 in the monastery at Lindisfarne, off the coast of Northumberland",
       "image": "LindisfarneFol27rIncipitMatt.jpg"
     },
-    "Carolingian_Renaissance": {
-      "title": "Carolingian Renaissance",
-      "lead": "The Carolingian Renaissance was the first of three medieval renaissances, a period of cultural activity in the Carolingian Empire. Charlemagne's reign led to an intellectual revival beginning in the 8th century and continuing throughout the",
-      "image": "Minuscule_caroline.jpg"
-    },
     "Book_of_Kells": {
       "title": "Book of Kells",
       "lead": "The Book of Kells (Latin: Codex Cenannensis; Irish: Leabhar Cheanannais; Library of Trinity College Dublin, MS A. I. [58], sometimes known as the Book of Columba) is an illustrated manuscript and Celtic Gospel book in Latin, containing the ",
@@ -946,11 +1086,6 @@
       "title": "Longphort",
       "lead": "A longphort (Ir. plur. longphuirt) is a term used in Ireland for a Viking ship enclosure or shore fortress. The longphorts were bases for Viking raids but had multiple purposes. There were not always large numbers of Vikings at these settle",
       "image": ""
-    },
-    "Seine": {
-      "title": "Seine",
-      "lead": "The Seine ( sayn, sen; French: [sɛn] ) is a 777-kilometre-long (483 mi) river in northern France. Its drainage basin is in the Paris Basin (a geological relative lowland) covering most of northern France. It rises at Source-Seine, 30 kilome",
-      "image": "Bercy,_Paris_01.jpg"
     },
     "Charles_the_Bald": {
       "title": "Charles the Bald",
@@ -1082,6 +1217,96 @@
       "lead": "The Battle of Clontarf (Irish: Cath Chluain Tarbh) took place on 23 April 1014 at Clontarf, near Dublin, on the east coast of Ireland. It pitted an army led by Brian Boru, High King of Ireland, against a Norse-Irish alliance comprising the ",
       "image": "'Battle_of_Clontarf',_oil_on_canvas_painting_by_Hugh_Frazer,_1826.jpg"
     },
+    "Aidan_of_Lindisfarne": {
+      "title": "Aidan of Lindisfarne",
+      "lead": "Aidan of Lindisfarne (Irish: Naomh Aodhán; died 31 August 651) was an Irish monk and missionary credited with converting the Anglo-Saxons to Christianity in Northumbria. He founded a ministry cathedral on the island of Lindisfarne, known as",
+      "image": "Saint_Aidan.jpg"
+    },
+    "Holy_Roman_Emperor": {
+      "title": "Holy Roman Emperor",
+      "lead": "The Holy Roman Emperor, originally and officially the Emperor of the Romans (Latin: Imperator Romanorum; German: Kaiser der Römer) during the Middle Ages, and also known as the Roman-German Emperor since the early modern period (Latin: Impe",
+      "image": "Hans_Burgkmair_d._Ä._005.jpg"
+    },
+    "Pyrenees": {
+      "title": "Pyrenees",
+      "lead": "The Pyrenees are a mountain range in southwestern Europe, straddling the France–Spain border. They extend nearly 500 kilometres (310 mi) from their union with the Cantabrian Mountains to Cap de Creus on the Mediterranean coast, reaching a m",
+      "image": "Central_pyrenees.jpg"
+    },
+    "Elbe": {
+      "title": "Elbe",
+      "lead": "The Elbe (Czech: Labe) is one of the major rivers of Central Europe. It rises in the Giant Mountains of the northern Czech Republic before traversing much of Bohemia (western half of the Czech Republic), then Germany before flowing into the",
+      "image": "Labe_udoli.jpg"
+    },
+    "Slavs": {
+      "title": "Slavs",
+      "lead": "The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distributed throughout the northern parts of Eurasia; they predominantly inhabit Central Europe, Eastern Europe, Southeastern Europe, and N",
+      "image": "Slavic_europe_(Kosovo_unshaded).svg"
+    },
+    "Norse%E2%80%93Gaels": {
+      "title": "Norse–Gaels",
+      "lead": "The Norse–Gaels (Old Irish: Gall-Goídil; Irish: Gall-Ghaeil; Scottish Gaelic: Gall-Gàidheal; Manx: Goal-Gael, 'foreigner-Gaels') were a people of mixed Gaelic and Norse ancestry and culture. They emerged in the Viking Age, when Vikings who ",
+      "image": "Kingdom_of_Mann_and_the_Isles-en.svg"
+    },
+    "Burgundy": {
+      "title": "Burgundy",
+      "lead": "Burgundy ( BUR-gən-dee; French: Bourgogne [buʁɡɔɲ] ; Burgundian: Bregogne) is a historical region in France, broadly corresponding to the territory of the former administrative region of the same name, which existed from 1982 to 2015 and wa",
+      "image": "Flag_of_Bourgogne.svg"
+    },
+    "Celtic_Christianity": {
+      "title": "Celtic Christianity",
+      "lead": "Celtic Christianity is a form of Christianity that was common, or held to be common, across the Celtic-speaking world during the Early Middle Ages. The term Celtic Church is deprecated by many historians as it implies a unified and identifi",
+      "image": "Celtic_cross_Knock_Ireland.jpg"
+    },
+    "Loire": {
+      "title": "Loire",
+      "lead": "The Loire ( LWAR, US also loo-AR, French: [lwaʁ] ; Occitan: Léger [ˈledʒe]; Arpitan: Lêre; Breton: Liger [ˈliːɡɛr]; Latin: Liger) is the longest river in France and the 171st-longest in the world. With a length of 1,006 kilometres (625 mi),",
+      "image": "LoireAChamptoceaux.jpg"
+    },
+    "Muslims": {
+      "title": "Muslims",
+      "lead": "Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monotheistic religion belonging to the Abrahamic tradition. They consider the Quran, the foundational religious text of Islam, ",
+      "image": "Prayer_in_Cairo_1865.jpg"
+    },
+    "Iberian_Peninsula": {
+      "title": "Iberian Peninsula",
+      "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
+      "image": "España_y_Portugal.jpg"
+    },
+    "Provence": {
+      "title": "Provence",
+      "lead": "Provence is a geographical, cultural region and historical province of southeastern France, which stretches from the left bank of the lower Rhône to the west to the Italian border to the east; it is bordered by the Mediterranean Sea to the ",
+      "image": "Lavender_field_and_Mont_Ventoux.jpg"
+    },
+    "Brittany": {
+      "title": "Brittany",
+      "lead": "Brittany ( BRIT-ən-ee) is a peninsula, historical region and cultural area in the north-west of modern France, covering the western part of what was known as Armorica in Roman Gaul. It became an independent kingdom and then a duchy before b",
+      "image": "Satellite_picture_of_Brittany_-_NASA,_2002.jpg"
+    },
+    "Mercia": {
+      "title": "Mercia",
+      "lead": "Mercia () was an early medieval English kingdom, one of the seven kingdoms of the Anglo-Saxon period. It was centred on the River Trent and its tributaries, in a region now known as the Midlands of England. The royal court moved around the ",
+      "image": "Mercian_Supremacy_x_4_alt.png"
+    },
+    "Huang_Chao_Rebellion": {
+      "title": "Huang Chao Rebellion",
+      "lead": "The Huang Chao Rebellion was a rebellion that took place in China from 874 to 884. It was instigated by Huang Chao and Wang Xianzhi against the Tang dynasty. While both were eventually defeated, by the end of Emperor Xizong's reign, the Tan",
+      "image": "Huang_Chao_Uprising.png"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Dublin": {
+      "title": "Dublin",
+      "lead": "Dublin is the capital and largest city of Ireland. Situated on Dublin Bay at the mouth of the River Liffey, it is in the province of Leinster, and is bordered on the south by the Dublin Mountains, part of the Wicklow Mountains range. Dublin",
+      "image": "Dublin_-_aerial_-_2025-07-07_01.jpg"
+    },
+    "West_Francia": {
+      "title": "West Francia",
+      "lead": "In medieval historiography, West Francia (Medieval Latin: Francia occidentalis) or the Kingdom of the West Franks (Latin: regnum Francorum occidentalium) constitutes the initial stage of the Kingdom of France and extends from the Treaty of ",
+      "image": "West_Francia_843.svg"
+    },
     "%C3%9Eingvellir": {
       "title": "Þingvellir",
       "lead": "Þingvellir (Icelandic: [ˈθiŋkˌvɛtlɪr̥] , anglicised as Thingvellir) was the site of the Alþing, the annual parliament of Iceland from the year 930 until the last session held at Þingvellir in 1798. Since 1881, the parliament has been locate",
@@ -1131,6 +1356,81 @@
       "title": "Skræling",
       "lead": "Skræling (Old Norse and Icelandic: skrælingi, plural skrælingjar) is the name the Norse Greenlanders used for the peoples they encountered in North America (Canada and Greenland). In surviving sources, it is first applied to the Thule peopl",
       "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Somerset": {
+      "title": "Somerset",
+      "lead": "Somerset ( SUM-ər-set, -⁠sit), archaically Somersetshire ( SUM-ər-set-sheer, -⁠sit-, -⁠shər), is a ceremonial county in South West England. It is bordered by the Bristol Channel, Bristol, and Gloucestershire to the north, Wiltshire to the e",
+      "image": "Puente_Pulteney,_Bath,_Inglaterra,_2014-08-12,_DD_51.JPG"
+    },
+    "Etruscan_language": {
+      "title": "Etruscan language",
+      "lead": "Etruscan ( ih-TRUSK-ən) was the language of the Etruscan civilization in the ancient region of Etruria, in Etruria Padana and Etruria Campana in what is now Italy. Etruscan influenced Latin but was eventually superseded by it. Around 13,000",
+      "image": "Perugia,_Museo_archeologico_Nazionale_dell'Umbria,_cippo_di_Perugia.jpg"
+    },
+    "Kingdom_of_East_Anglia": {
+      "title": "Kingdom of East Anglia",
+      "lead": "The Kingdom of the East Angles (Old English: Ēastengla Rīċe; Latin: Regnum Orientalium Anglorum), informally known as the Kingdom of East Anglia or East Anglia, was an early medieval English kingdom of the Angles during the Anglo-Saxon peri",
+      "image": "Williamson_p16_3.svg"
+    },
+    "London": {
+      "title": "London",
+      "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
+      "image": "London_Skyline_(125508655).jpeg"
+    },
+    "Dutch_language": {
+      "title": "Dutch language",
+      "lead": "Dutch (Endonym: Nederlands [ˈneːdərlɑnts] , Nederlandse taal) is a West Germanic language of the Indo-European language family, spoken by about 25 million people as a first language and 5 million as a second language and is the third most s",
+      "image": "NBVp1.jpg"
+    },
+    "Papar": {
+      "title": "Papar",
+      "lead": "The Papar (Icelandic pronunciation: [ˈpʰaːpar̥]; from Latin papa, via Old Irish, meaning \"father\" or \"pope\") were Irish monks who took eremitic residence in parts of Iceland before that island's habitation by the Norsemen of Scandinavia. Th",
+      "image": ""
+    },
+    "Eurasian_Plate": {
+      "title": "Eurasian plate",
+      "lead": "The Eurasian plate is a tectonic plate that includes most of Eurasia (a landmass consisting of the traditional continents of Asia and Europe), with the notable exceptions of the Arabian Peninsula, the Indian subcontinent, and the area east ",
+      "image": "EurasianPlate.png"
+    },
+    "Eastern_Settlement": {
+      "title": "Eastern Settlement",
+      "lead": "The Eastern Settlement (Old Norse: Eystribygð [ˈœystreˌbyɣð]) was the first and by far the larger of the two main areas of Norse Greenland, settled c. AD 985 – c. AD 1000 by Norsemen from Iceland. At its peak, it contained approximately 4,0",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Western_Settlement": {
+      "title": "Western Settlement",
+      "lead": "The Western Settlement (Old Norse: Vestribygð [ˈwestreˌbyɣð]) was a group of farms and communities established by Norsemen from Iceland around 985 in medieval Greenland. Despite its name, the Western Settlement was more north than west of i",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Helluland": {
+      "title": "Helluland",
+      "lead": "Helluland (Old Norse pronunciation: [ˈhelːoˌlɑnd]) is one of the three lands, the others being Vinland and Markland, seen by Bjarni Herjólfsson, encountered by Leif Erikson and further explored by Thorfinn Karlsefni Thórdarson around AD 100",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Markland": {
+      "title": "Markland",
+      "lead": "Markland (Old Norse pronunciation: [ˈmɑrkˌlɑnd]) is the name given to one of three lands on North America's Atlantic shore discovered by Leif Eriksson around 1000 AD. It was located south of Helluland and north of Vinland. Although it was n",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Newfoundland_(island)": {
+      "title": "Newfoundland (island)",
+      "lead": "Newfoundland ( NEW-fən(d)-land, locally NEW-fən-LAND; French: Terre-Neuve, locally [taɛ̯ʁˈnœːv]) is a large island within the Canadian province of Newfoundland and Labrador. It is situated off the eastern coast of the North American mainlan",
+      "image": "Newfoundland_OSE2002210.jpg"
+    },
+    "Æthelstan": {
+      "title": "Æthelstan",
+      "lead": "Æthelstan or Athelstan (; Old English: Æðelstān [ˈæðelstɑːn]; Old Norse: Aðalsteinn; lit. 'noble stone'; c. 894 – 27 October 939) was King of the Anglo-Saxons from 924 to 927 and King of the English from 927 to his death in 939. He was the ",
+      "image": "Athelstan_(cropped).jpg"
+    },
+    "Christianization": {
+      "title": "Christianization",
+      "lead": "Christianization (or Christianisation) is a term for the specific type of change that occurs when someone or something has been or is being converted to Christianity. Christianization has, for the most part, spread through missions by indiv",
+      "image": "Japanese_Map_symbol_(Church).svg"
+    },
+    "Danes": {
+      "title": "Danes",
+      "lead": "Danes (Danish: danskere, pronounced [ˈtænskɐɐ]), or Danish people, are an ethnic group and nationality native to Denmark and a modern nation identified with the country of Denmark. This connection may be ancestral, legal, historical, or cul",
+      "image": "Map_of_the_Danish_Diaspora_in_the_World.svg"
     },
     "Dnieper": {
       "title": "Dnieper",
@@ -1232,6 +1532,126 @@
       "lead": "The Liao dynasty (; traditional Chinese: 遼朝; simplified Chinese: 辽朝; pinyin: Liáo cháo), also known as the Khitan State (Mos diau-d kitai huldʒi gur), officially the Great Liao (Chinese: 大遼; pinyin: Dà Liáo), was a Khitan-led imperial dynas",
       "image": "Liao_circuits.png"
     },
+    "Lake_Ladoga": {
+      "title": "Lake Ladoga",
+      "lead": "Lake Ladoga is a freshwater lake located in the Republic of Karelia and Leningrad Oblast in northwestern Russia, in the vicinity of Saint Petersburg. It is the largest lake located entirely in Europe, the second largest lake in Russia after",
+      "image": "Sortavalan_saaristoa.jpg"
+    },
+    "Black_Sea": {
+      "title": "Black Sea",
+      "lead": "The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia. It is bounded by Bulgaria, Georgia, Romania, Russia, Turkey, and Ukraine. The",
+      "image": "Black_Sea_map.png"
+    },
+    "Salme_ships": {
+      "title": "Salme ships",
+      "lead": "The Salme ships are two clinker-built ships of Scandinavian origin discovered in 2008 and 2010 near the village of Salme on the island of Saaremaa, Estonia. Both ships were used for ship burials around AD 700–750 in the Nordic Iron Age and ",
+      "image": ""
+    },
+    "Estonia": {
+      "title": "Estonia",
+      "lead": "Estonia, officially the Republic of Estonia, is a country in the Baltic region of Northern Europe. It is bordered to the north by the Gulf of Finland across from Finland, to the west by the Baltic Sea across from Sweden, to the south by Lat",
+      "image": "Flag_of_Estonia.svg"
+    },
+    "Neva": {
+      "title": "Neva",
+      "lead": "The Neva ( NEE-və, UK also NAY-və; Russian: Нева́, IPA: [nʲɪˈva] ) is a river in northwestern Russia flowing from Lake Ladoga through the western part of Leningrad Oblast (historical region of Ingria) to the Neva Bay of the Gulf of Finland.",
+      "image": "Spb_Finland_Bridge_asv2019-09_img2.jpg"
+    },
+    "Volkhov_(river)": {
+      "title": "Volkhov (river)",
+      "lead": "The Volkhov ( VAWL-khov; Russian: Волхов [ˈvoɫxəf]; Veps: Olhav) is a river in Novgorodsky and Chudovsky Districts of Novgorod Oblast and Kirishsky and Volkhovsky Districts of Leningrad Oblast in northwestern Russia. The Volkhov, which form",
+      "image": "Veliky_Novgorod._Volkhov_river_P7211161_2350.jpg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Ukraine": {
+      "title": "Ukraine",
+      "lead": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast. Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Mo",
+      "image": "Flag_of_Ukraine.svg"
+    },
+    "Belarus": {
+      "title": "Belarus",
+      "lead": "Belarus, officially the Republic of Belarus, is a landlocked country in Eastern Europe. It is bordered by Russia to the east and northeast, Ukraine to the south, Poland to the west, and Lithuania and Latvia to the northwest. Belarus spans a",
+      "image": "Flag_of_Belarus.svg"
+    },
+    "Sviatoslav_I": {
+      "title": "Sviatoslav I",
+      "lead": "Sviatoslav I or Svyatoslav I Igorevich (Old East Slavic: Свѧтославъ Игорєвичь, romanised: Svętoslavŭ Igorevičǐ; Old Norse: Sveinald; c. 943 – 972) was Prince of Kiev from 945 until his death in 972. He is known for his persistent campaigns ",
+      "image": "Sviatoslav_by_Eugene_Lanceray_1886.JPG"
+    },
+    "Helge": {
+      "title": "Helge",
+      "lead": "Helge or Helgi is a Scandinavian, German, and Dutch mostly male name. The name is derived from Proto-Norse Hailaga with its original meaning being dedicated to the gods. For its Slavic version, see Oleg. Its feminine equivalent is Olga.",
+      "image": ""
+    },
+    "Bosporus": {
+      "title": "Bosporus",
+      "lead": "The Bosporus or Bosphorus Strait is a natural strait and an internationally significant waterway located in Turkey which is straddled by the city of Istanbul. The Bosporus connects the Black Sea to the Sea of Marmara and forms one of the co",
+      "image": "Turkish_Strait_disambig.svg"
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Drevlians": {
+      "title": "Drevlians",
+      "lead": "The Drevlians, Derevlians or Derevlianians (Ukrainian: Древляни, romanized: Drevliany or Деревляни, Derevliany, Russian: Древля́не, romanized: Drevlyane) were a tribe of East Slavs between the 6th and the 10th centuries, which inhabited the",
+      "image": "East_Slavic_tribes_peoples_8th_9th_century.jpg"
+    },
+    "Constantine_VII": {
+      "title": "Constantine VII",
+      "lead": "Constantine VII Porphyrogenitus (Medieval Greek: Κωνσταντῖνος Πορφυρογέννητος, romanized: Kōnstantīnos Porphyrogénnētos; 17 May 905 – 9 November 959) was the fourth Byzantine emperor of the Macedonian dynasty, reigning from 6 June 913 to 9 ",
+      "image": "Constantine_VII_Porphyrogenitus_(2).jpeg"
+    },
+    "Jerusalem": {
+      "title": "Jerusalem",
+      "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
+      "image": "המצודה_בלילה.jpg"
+    },
+    "Cyril_and_Methodius": {
+      "title": "Cyril and Methodius",
+      "lead": "Cyril (Greek: Κύριλλος, romanized: Kýrillos; born Constantine [Greek: Κωνσταντίνος, romanized: Konstantínos]; 826–869) and Methodius (Μεθόδιος, Methódios; born Michael [Greek: Μιχαήλ, romanized: Michaíl]; 815–885) were brothers, Byzantine C",
+      "image": "Sv_Kiril_Metodij_Zahari_Zograf_Trojanski_mon_1848.jpg"
+    },
+    "Thor": {
+      "title": "Thor",
+      "lead": "Thor (from Old Norse: Þórr) is a prominent god in Germanic paganism. In Norse mythology, he is a hammer-wielding god associated with thunder, storms, strength, protection, fertility, and farmers. Besides Old Norse Þórr, the deity occurs in ",
+      "image": "A_painting_by_Max_Friedrich_Koch_-_Donar-Thor.jpg"
+    },
+    "Anna_Porphyrogenita": {
+      "title": "Anna Porphyrogenita",
+      "lead": "Anna Porphyrogenita (Greek: Άννα Πορφυρογέννητη; 13 March 963 – 1011) was the grand princess consort of Kiev during her marriage to Vladimir the Great.",
+      "image": ""
+    },
+    "Caucasus": {
+      "title": "Caucasus",
+      "lead": "The Caucasus ( KAW-kə-səss) is a geographical region spanning parts of Eastern Europe and Western Asia. It is situated between the Black Sea and the Caspian Sea, comprising parts of Southern Russia, Georgia, Armenia, and Azerbaijan. The Cau",
+      "image": "Caucasus_topographic_map-en.svg"
+    },
+    "Shia_Islam": {
+      "title": "Shia Islam",
+      "lead": "Shia Islam is the second-largest branch of Islam. It is rooted in the belief that the Islamic prophet Muhammad explicitly designated his cousin and son-in-law Ali ibn Abi Talib (r. 656–661) as his rightful political successor (caliph) and t",
+      "image": ""
+    },
+    "Bukhara": {
+      "title": "Bukhara",
+      "lead": "Bukhara ( buu-KHAR-ə) is the seventh-largest city in Uzbekistan by population, with 280,187 residents as of 1 January 2020. It is the capital of Bukhara Region. The Bukhara region has been inhabited for at least five millennia, and the city",
+      "image": "2012_Bukhara_7515821196_cropped.jpg"
+    },
+    "Greater_Khorasan": {
+      "title": "Khorasan",
+      "lead": "Khorasan is a historical eastern region in the Iranian Plateau in West and Central Asia that encompasses western and northern Afghanistan, northeastern Iran, the eastern halves of Turkmenistan and Uzbekistan, western Tajikistan, and portion",
+      "image": "Khorasan-Transoxiana-Khwarazm_nopaths.svg"
+    },
+    "Greenland": {
+      "title": "Greenland",
+      "lead": "Greenland is an autonomous territory of the Kingdom of Denmark and is the largest of the kingdom's three constituent parts by land area, the others being Denmark proper and the Faroe Islands. Citizens of Greenland are citizens of Denmark. T",
+      "image": "Flag_of_Greenland.svg"
+    },
     "Snorri_Sturluson": {
       "title": "Snorri Sturluson",
       "lead": "Snorri Sturluson (Old Norse: [ˈsnorːe ˈsturloˌson]; Icelandic: [ˈstnɔrːɪ ˈstʏ(r)tlʏˌsɔːn]; 1179 – 23 September 1241) was an Icelandic historian, poet, knight, and politician. He was elected twice as lawspeaker of the Icelandic parliament, t",
@@ -1266,11 +1686,6 @@
       "title": "Valkyrie",
       "lead": "In Norse mythology, a valkyrie ( VAL-kirr-ee or val-KEER-ee; from Old Norse: valkyrja, lit. 'chooser of the slain') is one of a host of female figures who guide souls of the dead to the god Odin's hall Valhalla. There, the deceased warriors",
       "image": "Historiska_museet_043.jpg"
-    },
-    "Thor": {
-      "title": "Thor",
-      "lead": "Thor (from Old Norse: Þórr) is a prominent god in Germanic paganism. In Norse mythology, he is a hammer-wielding god associated with thunder, storms, strength, protection, fertility, and farmers. Besides Old Norse Þórr, the deity occurs in ",
-      "image": "Mårten_Eskil_Winge_-_Tor's_Fight_with_the_Giants_-_Google_Art_Project.jpg"
     },
     "Freyr": {
       "title": "Freyr",
@@ -1327,6 +1742,151 @@
       "lead": "In Old Norse, seiðr (sometimes anglicized as seidhr, seidh, seidr, seithr, seith, or seid) was a type of magic practiced in Norse society during the Late Scandinavian Iron Age. The practice of seiðr is believed to be a form of magic which i",
       "image": ""
     },
+    "Urðarbrunnr": {
+      "title": "Urðarbrunnr",
+      "lead": "Urðarbrunnr (Old Norse \"Wellspring of Urðr\"; either referring to a Germanic concept of fate—urðr—or the norn named Urðr) is a spring or well in Norse mythology. Urðarbrunnr is attested in the Poetic Edda, compiled in the 13th century from e",
+      "image": "Nornorna_vid_Urdarbrunnen.jpg"
+    },
+    "Nidhogg": {
+      "title": "Nidhogg",
+      "lead": "Nidhogg (Old Norse: Níðhǫggr, [ˈniːðˌhɔɡːz̠]; older Icelandic: Níðhöggr, Modern Icelandic: Níðhöggur) is a Germanic dragon in Norse mythology who is said to gnaw at the roots of the world tree, Yggdrasil, and is likewise associated with the",
+      "image": "U_887,_Skillsta.jpg"
+    },
+    "Ratatoskr": {
+      "title": "Ratatoskr",
+      "lead": "In Norse mythology, Ratatoskr (Old Norse, generally considered to mean \"drill-tooth\" or \"bore-tooth\") is a squirrel who runs up and down the world tree Yggdrasil to carry messages between the eagles perched atop it and the dragon Níðhöggr w",
+      "image": "AM_738_4to_Ratatoskr.png"
+    },
+    "Asgard": {
+      "title": "Asgard",
+      "lead": "Asgard (Old Norse: Ásgarðr; \"Enclosure of the Æsir\") is a location associated with the gods in Nordic mythology. It appears in several Old Norse sagas and mythological texts, including the Eddas. It has also been suggested to be referred to",
+      "image": ""
+    },
+    "Midgard": {
+      "title": "Midgard",
+      "lead": "In Germanic cosmology, Midgard (an anglicised form of Old Norse Miðgarðr; Old English Middangeard, Old Saxon Middilgard, Old High German Mittilagart, and Gothic Midjun-gards; \"middle yard\", \"middle enclosure\") is the name for Earth (equival",
+      "image": ""
+    },
+    "Jötunheimr": {
+      "title": "Jötunheimr",
+      "lead": "The terms Jötunheimr (in Old Norse orthography: Jǫtunheimr [ˈjɔtonˌhɛimz̠]; often anglicised as Jotunheim) or Jötunheimar refer to either a land or multiple lands respectively in Nordic mythology inhabited by the jötnar (relatives of the go",
+      "image": "Kulturen_-_Riesin_Holdrykka.jpg"
+    },
+    "List_of_jötnar_in_Norse_mythology": {
+      "title": "List of jötnar in Norse mythology",
+      "lead": "The extant sources for Norse mythology, particularly the Prose and Poetic Eddas, contain many names of jötnar and gýgjar (often glossed as giants and giantesses respectively). While many of them are featured in extant myths of their own, ma",
+      "image": ""
+    },
+    "Hel_(location)": {
+      "title": "Hel (location)",
+      "lead": "Hel (Old Norse: [ˈhel]) is an afterlife location in Norse mythology and paganism. It is ruled over by a being of the same name, Hel. In late Icelandic sources, varying descriptions of Hel are given and various figures are described as being",
+      "image": "Odin_rides_to_Hel.jpg"
+    },
+    "Muspelheim": {
+      "title": "Muspelheim",
+      "lead": "In Norse cosmology, Muspelheim (Old Norse: Múspellsheimr), also called Muspell (Old Norse: Múspell), is a realm of fire. The etymology of \"Muspelheim\" is uncertain, but may come from Mund-spilli, \"world-destroyers\", \"wreck of the world\".",
+      "image": ""
+    },
+    "Vanaheimr": {
+      "title": "Vanaheimr",
+      "lead": "In Norse cosmology, Vanaheimr (Old Norse for 'home of the Vanir') is a location associated with the Vanir, a group of gods themselves associated with fertility, wisdom, and the ability to see the future. Vanaheimr is attested in the Poetic ",
+      "image": ""
+    },
+    "Niflheim": {
+      "title": "Niflheim",
+      "lead": "In Norse cosmology, Niflheim or Niflheimr (Old Norse: [ˈnivlˌhɛimz̠]; \"World of Mist\", literally \"Home of Mist\") is a location which sometimes overlaps with the notions of Niflhel and Hel. The name Niflheimr appears only in two extant sourc",
+      "image": "WHEATON(1844)_The_Cosmos_in_the_Norse_mythology.jpg"
+    },
+    "Álfheimr": {
+      "title": "Álfheimr",
+      "lead": "In Norse cosmology, Álfheimr (Old Norse: [ˈɑːlvˌhɛimz̠], \"Home of the Elves\" or \"Elfland\"; anglicized as Alfheim), also called \"Ljósálfheimr\" (Ljósálf[a]heimr [ˈljoːsˌɑːlv(ɑ)ˌhɛimz̠], \"home of the Light Elves\"), is home of the Light Elves.",
+      "image": "Älvalek.jpg"
+    },
+    "Svartálfar": {
+      "title": "Svartálfar",
+      "lead": "In Norse cosmology, svartálfar (O.N. \"black elves\", \"swarthy elves\", sing. svartálfr), also called myrkálfar (\"dark elves\", \"dusky elves\", \"murky elves\", sing. myrkálfr), are beings who dwell in Svartálfheim (Svartálf[a]heimr, \"home of the ",
+      "image": ""
+    },
+    "Æsir": {
+      "title": "Æsir",
+      "lead": "Æsir (Old Norse; singular: áss, female: ásynja, female plural: ásynjur) or ēse (Old English; singular: ōs) are gods in Germanic paganism. In Old Nordic religion and mythology, the precise meaning of the term Æsir is debated, as it can refer",
+      "image": "Baldr_dead_by_Eckersberg.jpg"
+    },
+    "Huginn_and_Muninn": {
+      "title": "Huginn and Muninn",
+      "lead": "In Norse mythology, Huginn and Muninn (sometimes anglicized as Hugin and Munin; or ; roughly \"mind and will\" – see § Etymology) are a pair of ravens that serve under the god Odin, flying around the world (Midgard) and bringing him informati",
+      "image": "Del_av_hjälm_vendel_vendeltid_möjligen_oden.jpg"
+    },
+    "Týr": {
+      "title": "Týr",
+      "lead": "Týr (; Old Norse: Týr, pronounced [tyːr]) is a god in Germanic mythology and member of the Æsir. In Norse mythology, which provides most of the surviving narratives about gods among the Germanic peoples, Týr sacrifices his right hand to the",
+      "image": "Tyr_and_Fenrir-John_Bauer_(cropped).jpg"
+    },
+    "Fenrir": {
+      "title": "Fenrir",
+      "lead": "Fenrir (Old Norse 'fen-dweller') or Fenrisúlfr (Old Norse \"Fenrir's wolf\", often translated \"Fenris-wolf\"), also referred to as Hróðvitnir (Old Norse \"fame-wolf\") and Vánagandr (Old Norse 'monster of the [River] Ván'), is a monstrous wolf i",
+      "image": "Tullstorpstenen,_DR_271,Tullstorp_1-1,_Runristning_(cropped).jpg"
+    },
+    "Hávamál": {
+      "title": "Hávamál",
+      "lead": "Hávamál (\"Words of Hávi [the High One]\" in Old Norse) is presented as a single poem in the Codex Regius, a collection of Old Norse poems from the Viking age. A scholarly estimate of Hávamál's age dates the poem to between 900 and 1000 A.D. ",
+      "image": "The_Stranger_at_the_Door.jpg"
+    },
+    "Saint_Olaf": {
+      "title": "Saint Olaf",
+      "lead": "Saint Olaf (c. 995 – 29 July 1030), also called Olaf the Holy, Olaf II, Olaf Haraldsson, and Olaf the Stout or \"Large\", was King of Norway from 1015 to 1028. Son of Harald Grenske, a petty king in Vestfold, Norway, he was posthumously given",
+      "image": "Olav_der_Heilige07.jpg"
+    },
+    "British_Isles": {
+      "title": "British Isles",
+      "lead": "The British Isles are an archipelago in the North Atlantic Ocean off the north-western coast of continental Europe, consisting of the islands of Great Britain, Ireland, the Isle of Man, the Inner and Outer Hebrides, the Northern Isles (Orkn",
+      "image": "MODIS_-_Great_Britain_and_Ireland_-_2012-06-04_during_heat_wave.jpg"
+    },
+    "Olof_Skötkonung": {
+      "title": "Olof Skötkonung",
+      "lead": "Olof Skötkonung (Old Norse: Óláfr skautkonungr; c. 980 – 1022), sometimes stylized as Olaf the Swede, was King of Sweden, son of Eric the Victorious and, according to Icelandic sources, Sigrid the Haughty. He succeeded his father in c. 995.",
+      "image": "Olaf_Scotking_of_Sweden_coin_c_1030.jpg"
+    },
+    "Cluny_Abbey": {
+      "title": "Cluny Abbey",
+      "lead": "Cluny Abbey (French: [klyni]; French: Abbaye de Cluny, formerly also Cluni or Clugny; Latin: Abbatia Cluniacensis) is a former Benedictine monastery in Cluny, Saône-et-Loire, France. It was dedicated to Saints Peter and Paul. The abbey was ",
+      "image": "Cluny_-_Bâtiments_abbatiaux_-_08.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Vinland": {
+      "title": "Vinland",
+      "lead": "Vinland, Vineland, or Winland (Old Norse: Vínland hit góða, lit. 'Vinland the Good') was an area of coastal North America explored by Vikings. Leif Erikson landed there around AD 1000, nearly five centuries before the voyages of Christopher",
+      "image": "Christian_Krohg_-_Leiv_Eirikson_discovering_America_-_Google_Art_Project.jpg"
+    },
+    "Christianization_of_Scandinavia": {
+      "title": "Christianization of Scandinavia",
+      "lead": "The Christianization of Scandinavia, as well as other Nordic countries, took place between the 9th and the 12th centuries. The realms of Denmark, Norway and Sweden established their own archdioceses, responsible directly to the pope, in 110",
+      "image": "Map_of_Scandinavia.svg"
+    },
+    "Dísir": {
+      "title": "Dís",
+      "lead": "In Norse mythology, a dís (Old Norse: [ˈdiːs], \"lady\", plural dísir [ˈdiːsez̠]) is a female deity, ghost, or spirit associated with Fate who can be either benevolent or antagonistic toward mortals. Dísir may act as protective spirits of Nor",
+      "image": "The_Dises_by_Hardy.jpg"
+    },
+    "Þingvellir": {
+      "title": "Þingvellir",
+      "lead": "Þingvellir (Icelandic: [ˈθiŋkˌvɛtlɪr̥] , anglicised as Thingvellir) was the site of the Alþing, the annual parliament of Iceland from the year 930 until the last session held at Þingvellir in 1798. Since 1881, the parliament has been locate",
+      "image": "Þingvellir_from_the_information_centre.JPG"
+    },
+    "Stephen_I_of_Hungary": {
+      "title": "Stephen I of Hungary",
+      "lead": "Stephen I, also known as King Saint Stephen (Hungarian: Szent István király [ˌsɛnt ˈiʃtvaːn kiraːj]; Latin: Sanctus Stephanus; Slovak: Štefan I. or Štefan Veľký; c. 975 – 15 August 1038), was the last grand prince of the Hungarians between ",
+      "image": "Portrayal_of_Stephen_I,_King_of_Hungary_on_the_coronation_pall.jpg"
+    },
+    "Pope": {
+      "title": "Pope",
+      "lead": "The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, Roman pontiff, or sovereign pontiff. From the 8th century until 1870, the pope was the sovereign or head of state of the ",
+      "image": "Pope_Leo_XIV_3_(3x4_cropped).png"
+    },
     "Elder_Futhark": {
       "title": "Elder Futhark",
       "lead": "The Elder Futhark, or Pan-Germanic Futhark (also spelt Fuþark, , FOO-thark), is the oldest form of the runic alphabets. It was a writing system used by Germanic peoples in the Migration Period. Inscriptions are found on artifacts including ",
@@ -1352,11 +1912,6 @@
       "lead": "Heimskringla (Icelandic pronunciation: [ˈheimsˌkʰriŋla]) is the best known of the Old Norwegian kings' sagas. It was written in Old Norse in Iceland. While authorship of Heimskringla is nowhere attributed, some scholars assume it is written",
       "image": "Lbs_fragm_82,_0001r_-_0.jpg"
     },
-    "Nibelungenlied": {
-      "title": "Nibelungenlied",
-      "lead": "The Nibelungenlied (German pronunciation: [ˈniːbəlʊŋən-], [ˈnɪbəlʊŋən-] or [ˌniːbəˈlʊŋənˌliːt] ; Middle High German: Der Nibelunge liet or Der Nibelunge nôt), translated as The Song of the Nibelungs, is an epic poem written around 1200 in M",
-      "image": "Nibelungenlied_manuscript-c_f1r.jpg"
-    },
     "Ferdowsi": {
       "title": "Ferdowsi",
       "lead": "Abolqasem Mansour bin Hassan Tusi (940–1025), better known by his pen name Ferdowsi, was a Persian poet who is notable for being the author of the Shahnameh (\"Book of Kings\"), which is one of the world's longest epic poems created by a sing",
@@ -1372,15 +1927,100 @@
       "lead": "Völuspá (also Vǫluspá, Vǫlospá, or Vǫluspǫ́; Old Norse: 'Prophecy of the völva, a seeress') is the best known poem of the Poetic Edda. It dates back to the tenth century and tells the story from Norse Mythology of the creation of the world,",
       "image": "Odin_og_Völven_by_Frølich.jpg"
     },
-    "H%C3%A1vam%C3%A1l": {
-      "title": "Hávamál",
-      "lead": "Hávamál (\"Words of Hávi [the High One]\" in Old Norse) is presented as a single poem in the Codex Regius, a collection of Old Norse poems from the Viking age. A scholarly estimate of Hávamál's age dates the poem to between 900 and 1000 A.D. ",
-      "image": "The_Stranger_at_the_Door.jpg"
-    },
     "Nj%C3%A1ls_saga": {
       "title": "Njáls saga",
       "lead": "Njáls saga (Icelandic pronunciation: [ˈnjauls ˌsaːɣa] ), also Njála ([ˈnjauːla] ), or Brennu-Njáls saga ([ˈprɛnːʏ-ˌnjauls ˌsaːɣa] ) (Which can be translated as The Story of Burnt Njáll, or The Saga of Njáll the Burner), is a thirteenth-cent",
       "image": "Njal_saga_-_Skarphedinn.jpg"
+    },
+    "Li_Bai": {
+      "title": "Li Bai",
+      "lead": "Li Bai (c. 701 – 762), also known by his courtesy name of Taibai, was a Chinese poet acclaimed as one of the best and most important poets of the Tang dynasty, and even in the whole of Chinese poetry. He and his friends such as Du Fu (712–7",
+      "image": "LiBai.jpg"
+    },
+    "Du_Fu": {
+      "title": "Du Fu",
+      "lead": "Du Fu (Chinese: 杜甫; pinyin: Dù Fǔ; Wade–Giles: Tu Fu; 712 – 770) was a Chinese poet and politician during the Tang dynasty. Together with his elder contemporary and friend Li Bai, Du is often considered one of the greatest Chinese poets of ",
+      "image": "Dufu.jpg"
+    },
+    "Su_Shi": {
+      "title": "Su Shi",
+      "lead": "Su Shi (traditional Chinese: 蘇軾; simplified Chinese: 苏轼; pinyin: Sū Shì; 8 January 1037 – 24 August 1101), courtesy name Zizhan (子瞻), art name Dongpo (東坡), was a Chinese poet, literatus, painter, calligrapher, and scholar-official of the So",
+      "image": "Su_shi.jpg"
+    },
+    "Runes": {
+      "title": "Runes",
+      "lead": "Runes are the letters in a set of related alphabets, known as rune-rows, runic alphabets or futharks, native to the Germanic peoples. Runes were primarily used to represent a sound value (a phoneme) but they were also used to represent the ",
+      "image": "CodexRunicus.jpeg"
+    },
+    "Lake_Mälaren": {
+      "title": "Mälaren",
+      "lead": "Mälaren (UK: MEL-ər-en, US: MAY-lar-ən, Swedish: [ˈmɛ̂ːlarɛn] or [ˈmɛ̂ːlaɳ]), historically referred to as Lake Malar in English, is the third-largest freshwater lake in Sweden (after Vänern and Vättern). Its area is 1,140 km2 (440 sq mi) an",
+      "image": "Mälarsee.jpg"
+    },
+    "Garðaríki": {
+      "title": "Garðaríki",
+      "lead": "Garðaríki (anglicized Gardariki or Gardarike) or Garðaveldi was the Old Norse term used in the Middle Ages for the lands of Rus'. According to Göngu-Hrólfs saga, the name Hólmgarðaríki (also used as a name for Novgorodian Rus') was synonymo",
+      "image": "GardarikiTownsEngRusFirst.png"
+    },
+    "Serkland": {
+      "title": "Serkland",
+      "lead": "In Old Norse sources, such as sagas and runestones, Serkland (also Særkland, Srklant, Sirklant, Serklat, etc.) was the \"land of the Serkir\", usually identified with the Saracens. The exact etymology is disputed. Serk- may derive from \"Sarac",
+      "image": ""
+    },
+    "England": {
+      "title": "England",
+      "lead": "England is a country that is part of the United Kingdom. It is located on the island of Great Britain, of which it covers about 62%, and more than 100 smaller adjacent islands. England shares a land border with Scotland to the north and ano",
+      "image": "Flag_of_England.svg"
+    },
+    "Kingdom_of_the_Lombards": {
+      "title": "Kingdom of the Lombards",
+      "lead": "The Kingdom of the Lombards, also known as the Lombard Kingdom and later as the Kingdom of all Italy (Latin: Regnum totius Italiae), was an early medieval state established by the Lombards, a Germanic people, on the Italian Peninsula in the",
+      "image": "Lombard_(Kingdom_of)_Italy.png"
+    },
+    "Late_Antique_Little_Ice_Age": {
+      "title": "Late Antique Little Ice Age",
+      "lead": "The Late Antique Little Ice Age (LALIA) was a long-lasting Northern Hemispheric cooling period in the 6th and 7th centuries AD, during the period known as Late Antiquity. The period coincides with three large volcanic eruptions in 535/536, ",
+      "image": "2000+_year_global_temperature_including_Late_Antique_Little_Ice_Age,_Medieval_Warm_Period_and_Little_Ice_Age_-_Ed_Hawkins.svg"
+    },
+    "Sonatorrek": {
+      "title": "Sonatorrek",
+      "lead": "Sonatorrek (\"the irreparable loss of sons\") is a skaldic poem in 25 stanzas, that appears in Egil's Saga (written c.a. 1220–1240), an Icelandic saga focusing on the life of skald and viking, Egill Skallagrímsson (ca. 910–990). The work lame",
+      "image": ""
+    },
+    "Ragnarök": {
+      "title": "Ragnarök",
+      "lead": "In Norse mythology, Ragnarök (also Ragnarok; RAG-nə-rok or RAHG-; Old Norse: Ragnarǫk [ˈrɑɣnɑˌrɒk]) is a foretold series of impending events, including a great battle in which numerous great Norse mythological figures will perish (including",
+      "image": "Stave_church_Urnes,_craving_detail_1.jpg"
+    },
+    "Vafþrúðnismál": {
+      "title": "Vafþrúðnismál",
+      "lead": "Vafþrúðnismál (Old Norse: 'The Lay of Vafþrúðnir') is the third poem in the Poetic Edda. It is a conversation in verse form conducted initially between the Æsir Odin and Frigg, and subsequently between Odin and the jötunn Vafþrúðnir, as the",
+      "image": "Odin_and_Vafþrúðnir_by_Frølich.jpg"
+    },
+    "Lokasenna": {
+      "title": "Lokasenna",
+      "lead": "Lokasenna (Old Norse: 'The Flyting of Loki', or 'Loki's Verbal Duel') is one of the poems of the Poetic Edda. The poem presents flyting between the gods and Loki. It is written in the ljóðaháttr metre, typical for wisdom verse. Lokasenna is",
+      "image": "Lokasenna_by_Lorenz_Frølich.jpg"
+    },
+    "Shahnameh": {
+      "title": "Shahnameh",
+      "lead": "The Shahnameh, also romanized Shahnama (lit. 'Book of Kings'), is a long epic poem written by the Persian poet Ferdowsi between c. 977 and 1010 CE and is the national epic of Greater Iran. Consisting of some 50,000 distichs or couplets (two",
+      "image": "The_Court_of_Gayumars_(Cropped).jpg"
+    },
+    "Þrymskviða": {
+      "title": "Þrymskviða",
+      "lead": "Þrymskviða (Þrym's Poem; the name can be anglicised as Thrymskviða, Thrymskvitha, Thrymskvidha or Thrymskvida) is one of the best known poems from the Poetic Edda. The Norse myth had enduring popularity in Scandinavia and continued to be to",
+      "image": "Ah,_what_a_lovely_maid_it_is!_by_Elmer_Boyd_Smith.jpg"
+    },
+    "Erik_Bloodaxe": {
+      "title": "Eric Bloodaxe",
+      "lead": "Eric Haraldsson (Old Norse: Eiríkr Haraldsson [ˈɛiˌriːkz̠ ˈhɑrˌɑldsˌson], Norwegian: Eirik Haraldsson; fl. c.930−954), nicknamed Bloodaxe (Old Norse: blóðøx [ˈbloːðˌøks], Norwegian: Blodøks) and Brother-Slayer (Latin: fratrum interfector), ",
+      "image": "Eric_Bloodaxe_silver_penny;_struck_952-954_AD_(obverse).jpg"
+    },
+    "Middle_Ages": {
+      "title": "Middle Ages",
+      "lead": "In the history of Europe, the Middle Ages or medieval period lasted approximately from the 5th to late 15th centuries, comparable with the post-classical period of global history. The medieval period is the middle epoch of the three traditi",
+      "image": "Canterbury_Cathedral,_window_nXV_detail_(46220634195).jpg"
     },
     "Emma_of_Normandy": {
       "title": "Emma of Normandy",
@@ -1427,20 +2067,70 @@
       "lead": "The Western Chalukya Empire ( chə-LOO-kyə) ruled most of the western Deccan, South India, between the 10th and 12th centuries. This Kannada dynasty is sometimes called the Kalyani Chalukya after its regal capital at Kalyani, today's Basavak",
       "image": "Indian_Western_Chalukya_Empire_map.svg"
     },
-    "Khazar_Khaganate": {
-      "title": "Khazars",
-      "lead": "The Khazars (/kəˈzɑːrz/) were a semi-nomadic Turkic people who established a major commercial empire in the late 6th century CE spanning the south of modern European Russia, southern Ukraine, and western Kazakhstan. It was the most powerful",
-      "image": "Chasaren.jpg"
-    },
     "%C3%86thelred_the_Unready": {
       "title": "Æthelred the Unready",
       "lead": "Æthelred II (c. 968 – 23 April 1016), known as Æthelred the Unready, was King of the English from March 978 to December 1013 and again from February 1014 until his death. The epithet \"Unready\" is a pun on his name in Old English, Æðel (nobl",
-      "image": "Ethelred_the_Unready.jpg"
+      "image": "2008-05-17-SuttonHoo_crop.jpg"
+    },
+    "Carolingian_Empire": {
+      "title": "Carolingian Empire",
+      "lead": "The Carolingian Empire (800–887) was a Frankish-dominated empire in Western and Central Europe during the Early Middle Ages. It was ruled by the Carolingian dynasty, which had ruled as kings of the Franks since 751 and as kings of the Lomba",
+      "image": "Francia_814.svg"
+    },
+    "Baltic_region": {
+      "title": "Baltic region",
+      "lead": "The Baltic Sea Region, alternatively the Baltic Rim countries (or simply the Baltic Rim), and the Baltic Sea countries/states, refers to the general area surrounding the Baltic Sea, including parts of Northern, Central and Eastern Europe. U",
+      "image": "Baltic_Sea_map.png"
+    },
+    "Sirius": {
+      "title": "Sirius",
+      "lead": "Sirius is the brightest star in the night sky, located in the southern constellation of Canis Major. Its name is derived from the Greek word Σείριος (Latin script: Seirios; lit. 'glowing' or 'scorching'). The star is designated α Canis Majo",
+      "image": "Canis_Major_constellation_map.svg"
+    },
+    "Phoenicia": {
+      "title": "Phoenicia",
+      "lead": "The Phoenicians were an ancient Semitic people who inhabited city-states in Canaan along the Levantine coast of the eastern Mediterranean, primarily in present-day Lebanon and parts of coastal Syria. Their maritime civilization expanded and",
+      "image": "Phoenicia_map-en.svg"
+    },
+    "Fyrkat": {
+      "title": "Fyrkat",
+      "lead": "Fyrkat is a former Viking ring castle in Denmark, dating from c. 980 AD. It is located near the town of Hobro, some distance from the present end of the Mariager Fjord in Northern Jutland. The fortress is built on a narrow piece of land, wi",
+      "image": "Fyrkat-2.jpg"
+    },
+    "Aggersborg": {
+      "title": "Aggersborg",
+      "lead": "Aggersborg is the largest of Denmark's former Viking ring fortress, and one of the largest archaeological sites in Denmark. It is located near Aggersund on the north side of the Limfjord. It consists of a circular rampart surrounded by a di",
+      "image": "Aggersborg_Viking_Castle.jpg"
+    },
+    "Nonnebakken": {
+      "title": "Nonnebakken",
+      "lead": "Nonnebakken (literally, \"The Nun Hill\") is a hill in Odense, Denmark. It is the site of one of Denmark's six former Viking ring castles, built during the reign of Sweyn Forkbeard, who had forced his father Harold Bluetooth to leave the coun",
+      "image": "Nonnebakken.jpg"
+    },
+    "Borgring": {
+      "title": "Borgring",
+      "lead": "Borgring (older spelling Borrering) also known as Vallø Borgring, is a Danish Viking ring fortress located near Køge on the island of Zealand. Likely built around 970 or 980, the fortress may have been built to defend trade routes or as a m",
+      "image": "Zealand_2016-06-12_(28449616492).jpg"
+    },
+    "Oxford": {
+      "title": "Oxford",
+      "lead": "Oxford ( ) is a cathedral city and non-metropolitan district in Oxfordshire, England, of which it is the county town. The city is home to the University of Oxford, the oldest university in the English-speaking world; it has buildings in eve",
+      "image": "Museum_of_Oxford_(5652685943).jpg"
     },
     "Edward_the_Confessor": {
       "title": "Edward the Confessor",
       "lead": "Edward the Confessor (1003/1005 – 5 January 1066) was King of the English from 1042 until his death in 1066. He was the last reigning monarch of the House of Wessex. Edward was the son of Æthelred the Unready and Emma of Normandy. He succee",
       "image": "Bayeux_Tapestry_scene1_EDWARD_REX.jpg"
+    },
+    "Harthacnut": {
+      "title": "Harthacnut",
+      "lead": "Harthacnut (c. 1018 – 8 June 1042) was King of Denmark from 1035, and King of England from 1040 until his death in 1042. He was the last monarch of the North Sea Empire, an empire consisting of England and Denmark, and was also the last mon",
+      "image": "Harthacnut_-_MS_Royal_14_B_VI.jpg"
+    },
+    "Æthelred_the_Unready": {
+      "title": "Æthelred the Unready",
+      "lead": "Æthelred II (c. 968 – 23 April 1016), known as Æthelred the Unready, was King of the English from March 978 to December 1013 and again from February 1014 until his death. The epithet \"Unready\" is a pun on his name in Old English, Æðel (nobl",
+      "image": "2008-05-17-SuttonHoo_crop.jpg"
     },
     "Witenagemot": {
       "title": "Witan",
@@ -1486,6 +2176,66 @@
       "title": "Battle of Manzikert",
       "lead": "The Battle of Manzikert or Malazgirt was fought between the Byzantine Empire and the Seljuk Empire on 26 August 1071 near Manzikert, Iberia (modern Malazgirt in Muş Province, eastern Turkey). The decisive defeat of the Byzantine army and th",
       "image": "Battle_of_Manzikert_(1071).webp"
+    },
+    "Harold_Godwinson": {
+      "title": "Harold Godwinson",
+      "lead": "Harold Godwinson (died 14 October 1066), also called Harold II, was the last crowned Anglo-Saxon king of England. Harold reigned from 6 January 1066 until his death at the Battle of Hastings on 14 October 1066, the decisive battle of the No",
+      "image": "Bayeux_tapestry_stitches_detail..jpg"
+    },
+    "Solund_Municipality": {
+      "title": "Solund Municipality",
+      "lead": "Solund is a municipality in Vestland county, Norway. It is located in the traditional district of Sogn. Solund Municipality is the westernmost island municipality in Norway. Holmebåen on the island of Steinsøy is the westernmost point in al",
+      "image": "Hardbakke.JPG"
+    },
+    "Humber": {
+      "title": "Humber",
+      "lead": "The Humber is a large tidal estuary on the east coast of Northern England. It is formed at Trent Falls, Faxfleet, by the confluence of the tidal rivers Ouse and Trent. From there to the North Sea, it forms part of the boundary between the E",
+      "image": "Humber_Bridge.png"
+    },
+    "English_Channel": {
+      "title": "English Channel",
+      "lead": "The English Channel, also known as the Channel, is an arm of the Atlantic Ocean that separates Southern England from northern France. It links to the southern part of the North Sea by the Strait of Dover at its northeastern end. It is the b",
+      "image": "English_Channel_Satellite.jpg"
+    },
+    "Somme_(river)": {
+      "title": "Somme (river)",
+      "lead": "The Somme (UK: SOM, US: SUM; French: [sɔm] ) is a river in Picardy, northern France. The river is 245 km (152 mi) in length, from its source in the high ground of the former Arrouaise Forest at Fonsomme near Saint-Quentin, to the Bay of the",
+      "image": "Somme.JPG"
+    },
+    "Pevensey": {
+      "title": "Pevensey",
+      "lead": "Pevensey ( PEV-ən-zee) is a village and civil parish in the Wealden district of East Sussex, England. The main village is located five miles (8 km) north-east of Eastbourne, one mile (1.6 km) inland from Pevensey Bay. The settlement of Peve",
+      "image": "Pevensey_Sussex_DSC00132.JPG"
+    },
+    "Sussex": {
+      "title": "Sussex",
+      "lead": "Sussex (/ˈsʌsɪks/; from the Old English: Sūþseaxe, lit. 'South Saxons') is an area of South East England that was historically a kingdom and, later, a county. The current ceremonial counties of East Sussex and West Sussex cover approximatel",
+      "image": "View_from_Devil's_Dyke_towards_Poynings.jpg"
+    },
+    "Gyrth_Godwinson": {
+      "title": "Gyrth Godwinson",
+      "lead": "Gyrth Godwinson (Old English: Gyrð Godƿinson; c. 1032 – 14 October 1066) was the fourth son of Earl Godwin, and thus a younger brother of Harold Godwinson. He went with his eldest brother Sweyn into exile to Flanders in 1051, but unlike Swe",
+      "image": ""
+    },
+    "Leofwine_Godwinson": {
+      "title": "Leofwine Godwinson",
+      "lead": "Leofwine Godwinson (c. 1035 – 14 October 1066) was a younger brother of King Harold Godwinson, the fifth son of Earl Godwin. When the Godwin family was exiled from England in 1051 he went with Harold to Ireland, where they were sheltered an",
+      "image": "Bayeux_Tapestry_scene1_EDWARD_REX.jpg"
+    },
+    "Antioch": {
+      "title": "Antioch",
+      "lead": "Antioch was a city located in northern Syria at the site of modern Antakya, Turkey. Founded in 300 BC, Antioch became one of the most important cities of the ancient eastern Mediterranean. The capital of the Hellenistic Seleucid Empire, it ",
+      "image": "Antioch_on_the_Orontes_en.svg"
+    },
+    "Crusades": {
+      "title": "Crusades",
+      "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
+      "image": "Combat_deuxième_croisade.jpg"
+    },
+    "Tula_(Mesoamerican_site)": {
+      "title": "Tula (Mesoamerican site)",
+      "lead": "Tula (Otomi: Mämeni) is a Mesoamerican archaeological site, which was an important regional center that reached its height as the capital of the Toltec Empire between the fall of Teotihuacan and the rise of Tenochtitlan. It has not been wel",
+      "image": "TulaSite81.JPG"
     }
   }
 }

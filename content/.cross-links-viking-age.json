@@ -35,6 +35,36 @@
       "targetTl": "maya-civilization",
       "targetChapter": 4,
       "blurb": "Across the Atlantic the Maya city-states of the Yucatán were at the dazzling height of their Classic period — towering pyramids, divine kings, and a written script no European would read for another thousand years. Within a century many of these cities would be mysteriously abandoned, just as the Viking Age was hitting its stride."
+    },
+    {
+      "matchText": "North Sea",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in early-medieval Europe: the North Sea was already a busy commercial highway, ringed by the wic trading towns — Hamwic, Lundenwic, Ipswich — that tied England to Frisian and Frankish ports. The same waters the Vikings would treat as an open road were a shared trade zone before they turned it into a war zone."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: Damascus had been the Umayyad capital before the Abbasids moved the center of gravity east to Baghdad. By the Viking Age it sat inside the vast Islamic trade network whose silver dirhams would flow up the Russian rivers into Scandinavia."
+    },
+    {
+      "matchText": "Vendel Age",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in pre-Viking Scandinavia: the Vendel Age (c. 550–790) was the aristocratic, boat-grave society that produced the warrior culture, the ring-swords, and the seafaring skill the Vikings inherited — the dress rehearsal for the raids."
+    },
+    {
+      "matchText": "Vendel",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in pre-Viking Scandinavia: Vendel, in Uppland, gives its name to the era and to the spectacular boat-grave cemeteries (alongside Valsgärde) where the rowed, sailless clinker hull that preceded the longship was buried with its dead chieftains."
+    },
+    {
+      "matchText": "Classic period",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Mesoamerica: the Maya Classic period was the golden age of the southern lowland city-states — Tikal, Calakmul, Palenque — at the very moment the first longships were beaching at Lindisfarne, a connected world neither half knew about."
     }
   ],
   "2": [
@@ -91,6 +121,66 @@
       "targetTl": "uyghur-steppe",
       "targetChapter": 4,
       "blurb": "The same 840s decade that sent Norse fleets up the Seine to sack Paris also saw the Uyghur Khaganate destroyed by a Yenisei Kirghiz invasion, and the Carolingian empire formally fractured at Verdun. The Uyghur Steppe chapter on this decade — the eastern axis of that decade's cascade of collapses — shows how a world-spanning set of crises unfolded simultaneously at opposite ends of Eurasia."
+    },
+    {
+      "matchText": "North Sea",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in early-medieval Europe: the North Sea was the trade artery linking England's wic towns to Frisian and Frankish ports. The Vikings turned a commercial highway into a raiding corridor — and the boats vanished back into it as fast as they had come."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in early-medieval Europe: the Frankish realm under Charlemagne and his heirs was the great land empire of the West — heavy cavalry, monastic learning, no navy. Built to withstand a siege, it had no answer to a shallow-draft fleet that could be gone in three weeks."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Anglo-Saxon England: the Northumbrian golden age that produced Lindisfarne, Bede, and Alcuin — the literate Christian world whose horror at the raids gives us so much of the written record of the Viking Age."
+    },
+    {
+      "matchText": "Vendel Age",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in pre-Viking Scandinavia: the Vendel Age (c. 550–790) was the boat-grave, ring-sword warrior society that bred the raiders — the world the men who beached at Lindisfarne came out of."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in pre-Viking Scandinavia: still a pagan patchwork of petty kingdoms and chieftain halls when Ansgar arrived to plant the first church — the homeland the raiding fleets sailed from and returned to each autumn."
+    },
+    {
+      "matchText": "Umayyad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Umayyads had ruled the first Arab caliphate from Damascus before the Abbasid revolution; a surviving Umayyad prince fled to Iberia and founded the emirate of Córdoba, the Muslim power whose coast Hastein's fleet would raid."
+    },
+    {
+      "matchText": "Córdoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Umayyad world: Spain was conquered in 711, and after the Abbasid takeover the lone surviving Umayyad rebuilt his dynasty at Córdoba — the Iberian power whose coast a Norse fleet raided on its way into the Mediterranean in 859."
+    },
+    {
+      "matchText": "Byzantines",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: the Eastern Roman Empire still treated the Mediterranean as its own sea, alongside the Arabs — until a Norse fleet sailed in through Gibraltar and proved otherwise. The Rus' would soon be hammering on Constantinople's own gates (Chapter 4)."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: Baghdad was the Abbasid capital and the intellectual capital of the planet — its scholars translating Aristotle into Arabic while Saxon kings died in the rain. Its silver dirhams flooded north into Scandinavia for two centuries."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, the legacy of classical Greece: Aristotle's works, lost to the Latin West, survived through Arabic translation in Baghdad — proof that the ninth-century world was a single connected library even as its halves barely knew each other."
     }
   ],
   "3": [
@@ -111,6 +201,36 @@
       "targetTl": "ancient-rome",
       "targetChapter": 2,
       "blurb": "Iceland's Althing and its Grágás law code — government by assembly and recited law, with no king — is the closest medieval analogue to the early Roman Republic's instinct that power must be plural and answerable, not vested in one ruler."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Anglo-Saxon England: the patchwork of English kingdoms the Great Heathen Army was busy dismantling on the eve of the Viking storm."
+    },
+    {
+      "matchText": "Anglo-Saxon political entity",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Anglo-Saxon England: the kingdoms whose survival hung on Alfred's stand at Edington."
+    },
+    {
+      "matchText": "Germanic-Romance hybrid",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Germanic world: the ancestral tongues whose northern and continental branches gave English its Germanic backbone."
+    },
+    {
+      "matchText": "the North Sea",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in early-medieval Europe: the North Sea world the Viking raids stitched together — and tore apart."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in ancient Rome: Latin, the language that spread with Roman power and erased older tongues like Etruscan."
     }
   ],
   "4": [
@@ -185,6 +305,84 @@
       "targetTl": "maya-civilization",
       "targetChapter": 6,
       "blurb": "As Norse traders worked the rivers, the Maya world was passing through its Postclassic transition — the old southern cities gone, new powers like Chichen Itza rising in the Yucatán."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Baghdad-centered caliphate whose silver dirhams flowed north up the Volga to bankroll the Viking world."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic Golden Age: Baghdad, the wealthiest city on earth, whose minted silver became the Norse trade economy's lifeblood."
+    },
+    {
+      "matchText": "Abbasids minted",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Abbasid mints that struck the tens of millions of dirhams the Rus' rowed home."
+    },
+    {
+      "matchText": "Abbasid silver dirhams",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic Golden Age: the dirham flood — the trade and silver economy that pulled Norse merchants down the Russian rivers."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch 8",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Islamic Golden Age: the Caliphate's silver mining, trade revenues, and monetary policy that made the dirham flood possible."
+    },
+    {
+      "matchText": "Caliphate during",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the early Caliphate: the Islamic state whose conquests and wealth set up the silver-rich world the Rus' traded into."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Persia: the Sasanian empire whose silver coinage circulated alongside Abbasid dirhams in the Norse hoards."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in early-medieval Europe: the Frankish realm whose Danegelds paid off Viking raiders in the west."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Islamic west: Cordoba, where some of the slaves shipped down the Volga route ended their journey."
+    },
+    {
+      "matchText": "Theodosian Walls",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the triple land walls that turned back every besieger of Constantinople, the Rus' included."
+    },
+    {
+      "matchText": "Persian Empire Ch 8",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Persia: the Sasanian state that shaped the Byzantine and Islamic worlds the Rus' did business with."
+    },
+    {
+      "matchText": "Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the future: the Ottomans, who would finally take Constantinople in 1453 and dissolve the Varangian Guard."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Anglo-Saxon England: a later recruiting ground for the Varangian Guard after 1066 sent English exiles east."
     }
   ],
   "5": [
@@ -223,6 +421,60 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "In Persia the Buyids still ran Baghdad behind a puppet caliph — the eastern political backdrop to the same generation that Christianized the north."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Rome: Latin was the language of the empire and, after Constantine, of the western Church — the tongue that displaced runes for serious writing once the Norse converted."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile among the Germani: the Norse gods belonged to a wider Germanic pagan family, with cousins worshipped by the continental tribes Rome first met centuries earlier."
+    },
+    {
+      "matchText": "Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in England: the Saxons who crossed to Britain were close kin of the Norse, sharing gods, language roots, and the same pagan-to-Christian arc."
+    },
+    {
+      "matchText": "Anglo-Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in England: the cult of Saint Olaf spread as far as the Anglo-Saxon church, echoing how England had made its own martyr-king cults a generation earlier."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 4,
+      "blurb": "Meanwhile before the Vikings: the gods and cult sites converted away here had taken shape in the Vendel-era Scandinavia of the centuries just before the raids began."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Francia: Frankish missionaries like Ansgar had been seeding Christianity into Denmark for a century, part of the wider Christianizing of the post-Roman West."
+    },
+    {
+      "matchText": "Charlemagne",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Francia: the Holy Roman Empire pressuring Denmark to convert was the German-led successor to the empire Charlemagne had built."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Germany: the empire that leaned on Harald to convert under Otto I would, a century on, be locked in the great struggle of pope versus emperor."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the East: the same generation that converted the Norse saw the Buyids running Baghdad, the Abbasid capital at the heart of the Islamic Golden Age."
     }
   ],
   "6": [
@@ -255,6 +507,48 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 2,
       "blurb": "The Abbasid court sustained an Arabic poetic golden age exactly as the Eddic poems were taking shape — both elite traditions, but one written into a vast scholarly civilization, the other carried in memory on the rim of Christendom."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Rome: Latin was the learned language of Christendom, the script the Norse adopted only after conversion — which is why pre-Christian Scandinavia wrote in runes instead."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile among the Germani: the runes and heroic legends the Norse preserved descended from a wider Germanic tradition shared with the continental tribes."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the Miklagarðr of the runestones was Constantinople, the wealthiest city the Norse knew, where Swedish adventurers served in the imperial guard."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the Berezan' runestone marks a Swede who died returning from a Byzantine expedition — the empire whose silver drew the eastern Norse south."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the runestones call it Serkland, the land of the Caliphate, whose silver dirhams flooded north along the Volga route."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Baghdad: the Norse poetic flowering ran alongside the Arabic literary golden age of the Abbasid court, the high point of medieval Islamic letters."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile before the Vikings: the runic script and ship-burial culture of these texts had been maturing through the Vendel age that preceded the raids."
     }
   ],
   "7": [
@@ -299,6 +593,84 @@
       "targetTl": "han-dynasty",
       "targetChapter": 1,
       "blurb": "The 'pay the raiders to leave' logic of Danegeld had a deep precedent: a thousand years earlier Han China had bought off the Xiongnu the same way, and learned the same lesson about what tribute does and doesn't buy."
+    },
+    {
+      "matchText": "Anglo-Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in England: the Anglo-Saxon kingdoms whose crown the Danish kings were now fighting to seize."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "Meanwhile on the Continent: the Frankish (Carolingian) realm whose royal annals recorded Hedeby and whose markets fed the Norse trade towns."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Islamic Iberia: al-Andalus, home of the Andalusian merchant At-Tartushi, whose travelogue gives us one of the only outside descriptions of a Norse town."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate, whose silver dirhams flowed up the Volga and into Birka's graves."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the eastern Mediterranean: the Byzantine Empire, terminus of the Volga route and a buyer in the Norse slave trade."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "phoenicia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, centuries earlier: Phoenician Carthage ran Mediterranean slave hubs on the same fortified-port model that Dublin would later mirror."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, just before: Vendel-era Scandinavia, the pre-Viking world out of which these trading towns and kingdoms grew."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 1,
+      "blurb": "Meanwhile to the south: the Holy Roman Empire, the unified Christian neighbor whose pressure helped drive Scandinavian state formation."
+    },
+    {
+      "matchText": "Xiongnu",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, eleven centuries earlier in China: the Xiongnu confederation, whom the Han bought off with heqin tribute exactly as England bought off the Vikings with Danegeld."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the east: Constantinople, the Byzantine capital where Norse warriors served in the Varangian Guard."
+    },
+    {
+      "matchText": "Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in England: the Anglo-Saxon (Saxon) realm whose arrows would later kill Harald Hardrada at Stamford Bridge."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in China: the Song dynasty, stabilizing after the Five Dynasties and on its way to becoming the wealthiest state on earth."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in the Near East: the early Seljuk Turks pushing across Persia and Anatolia."
     }
   ],
   "8": [
@@ -331,6 +703,78 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "Five years after Hastings, the Seljuks would shatter Byzantine power at Manzikert (1071), opening the road to the Crusades — the medieval world the Viking Age fed into."
+    },
+    {
+      "matchText": "Anglo-Saxon",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in England: the Anglo-Saxon political class whose entire defending core was destroyed at Stamford Bridge and Hastings in 1066."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 4,
+      "blurb": "Meanwhile on the Continent: the Frankish kingdom whose king Charles the Simple granted Normandy to the Viking Rollo in 911."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the east: Constantinople, where Harald Hardrada had served in the Varangian Guard before sailing to claim England."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Roman inheritance: Latin, the language of the Carmen de Hastingae Proelio and the clerical chronicles that recorded 1066."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the eastern Mediterranean: the Byzantine Empire, from whom Norman warlords would take Sicily and southern Italy."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Constantinople: Hagia Sophia, the great church on which Yaroslav the Wise modeled his Saint Sophia Cathedral in Kiev."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, for scale: the Roman Republic, which lasted longer than the entire 273-year Viking Age."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China: the Tang dynasty, another empire that outlasted the whole span of the Viking Age."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Islamic world: Baghdad, the Abbasid capital that the Norse dirham-flow trade networks reached from the North Atlantic."
+    },
+    {
+      "matchText": "Kievan Rus'",
+      "targetTl": "kievan-rus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the east: Kievan Rus', the state founded by Norse expansion and the direct ancestor of medieval Russia."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Caliphate, the silver-rich market the Norse slave and trade networks ultimately fed."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 4,
+      "blurb": "Meanwhile across the world: the Indian Ocean, where the Chola dynasty was projecting naval power at the very moment the Vikings exited the stage."
     }
   ]
 }
