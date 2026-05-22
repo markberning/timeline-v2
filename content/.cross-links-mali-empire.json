@@ -29,6 +29,84 @@
       "targetTl": "aztec-empire",
       "targetChapter": 1,
       "blurb": "Mali's founding generation is roughly contemporary with the Aztec arrival in the Valley of Mexico — two empires being born unconnected on two continents."
+    },
+    {
+      "matchText": "Songhai",
+      "targetTl": "songhai-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, downstream on the Niger: Songhai would become the third and largest of the great Sahelian gold empires, eventually swallowing Mali itself."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in the ancient Mediterranean: the Phoenicians, a seafaring trading people, were the kind of 'outside influence' that European scholars wrongly invoked to explain away West African achievement."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, in Muslim Spain: Cordoba was the dazzling capital of al-Andalus, a center of Arabic learning that produced geographers like al-Bakri, who wrote about Ghana without ever seeing it."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile, in the Islamic heartland: the Mongols sacked Baghdad in 1258, ending the Abbasid caliphate just as Mali was rising into the Islamic world it was about to join."
+    },
+    {
+      "matchText": "Holy Roman Empire",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in central Europe: the Holy Roman Empire was locked in its long struggle with the papacy over who held supreme authority in Christendom."
+    },
+    {
+      "matchText": "Frederick II",
+      "targetTl": "high-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in Europe: Frederick II, the brilliant and excommunicated Holy Roman Emperor, pushed the conflict between emperor and pope to its bitter height."
+    },
+    {
+      "matchText": "Song China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, in East Asia: Song China was the wealthiest and most technologically advanced society on Earth, exporting porcelain and silk along trade routes that had not yet reached West Africa."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile, across the seas: the Indian Ocean carried Chinese goods west for centuries, and would later bear Ming China's vast treasure fleets under Zheng He."
+    },
+    {
+      "matchText": "Khmer Empire",
+      "targetTl": "khmer-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in Southeast Asia: the Khmer Empire ruled the lower Mekong from its capital at Angkor, a hydraulic state on a scale comparable to Mali's."
+    },
+    {
+      "matchText": "Angkor",
+      "targetTl": "khmer-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, in Cambodia: at Angkor the Khmer were raising the great temple-mountains, including Angkor Wat, the largest religious monument in the world."
+    },
+    {
+      "matchText": "Late Postclassic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, in the Americas: the Late Postclassic Maya were trading along long coastal canoe routes around the Yucatan, their old inland city-states long abandoned."
+    },
+    {
+      "matchText": "Inca state",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, in the Andes: the Inca state had not yet emerged in Sundiata's day; its explosive imperial expansion under Pachacuti lay more than two centuries ahead."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, in central Mexico: the future Aztec capital of Tenochtitlan would not be founded for nearly a century after Sundiata's rise."
     }
   ],
   "2": [
@@ -67,6 +145,66 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 5,
       "blurb": "Mali's consolidation parallels the Andean kingdoms' own pre-Inca state-building — complex empires rising outside the literate Old World's notice."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic heartland: Damascus had been the seat of the Umayyad caliphs before the Abbasid revolution shifted the center of the Muslim world eastward — one of the great cities Mali's mud-brick capital was implicitly measured against."
+    },
+    {
+      "matchText": "Songhai",
+      "targetTl": "songhai-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile on the Niger Bend: the Songhai were one of the peoples Mali absorbed as an autonomous tributary — and the very people who, two centuries later, would rise up and swallow the Mali Empire whole."
+    },
+    {
+      "matchText": "Achaemenid Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile, far earlier in Persia: the Achaemenid Empire ran a tribute hierarchy that ranked its subject peoples beneath the Persian core — the opposite of Mali's three-ring system, which kept its subjects autonomous and culturally intact."
+    },
+    {
+      "matchText": "Postclassic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Mesoamerica: while Sundiata was founding Mali, the Postclassic Maya city-states of the Yucatán carried on in a world emptied of the great Classic-era cities, which had collapsed centuries before."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South America: the Andes had no single dominant power in these decades, sitting in the gap between the collapse of the great highland empires and the rise of the Inca."
+    },
+    {
+      "matchText": "Late Intermediate Period",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Andes: the Late Intermediate Period was the fragmented era of rival kingdoms after the old empires fell and before the Inca unified everything — a patchwork world contemporary with Sundiata's Mali."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Andean highlands, earlier: Wari was one of the two great empires whose collapse left the Late Intermediate Period vacuum that the Inca would later fill."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Andes, later: the Inca were still centuries from their imperial burst — they would rise out of the same fragmented Late Intermediate Period that defined South America in Sundiata's day."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate at Baghdad was about to be annihilated by the Mongols in 1258, scattering Sunni scholars — a diffusion that would eventually help stock the libraries and schools of Timbuktu."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Islamic Iberia: al-Andalus was a great center of Muslim scholarship, and Andalusian scholars were among those Mansa Musa would later recruit to staff Timbuktu's schools."
     }
   ],
   "3": [
@@ -119,6 +257,54 @@
       "targetTl": "aztec-empire",
       "targetChapter": 2,
       "blurb": "Mansa Musa's Mali and the rising Aztec hegemony were the two great non-European imperial powers of the 14th century."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Umayyad story: Mecca was Muhammad's birthplace and Islam's holiest city — the destination of the hajj that Mansa Musa was undertaking."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic Golden Age: Damascus, the old Umayyad capital, remained a major center of Arabic scholarship whose chroniclers recorded Mali's sudden fame."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in al-Andalus: the Maghreb of North Africa was the homeland of the Almoravids and Almohads who crossed into Iberia — and the source of the scholars Musa recruited."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 4,
+      "blurb": "Meanwhile on the Swahili Coast: the eastern half of Africa's gold economy, where Zimbabwe-plateau gold flowed through Sofala and built the wealth of Kilwa."
+    },
+    {
+      "matchText": "Marco Polo",
+      "targetTl": "tang-song-china",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in China: Marco Polo had returned to Venice with accounts of the Mongol-ruled empire and its capital at Khanbaliq, a generation before Musa's hajj."
+    },
+    {
+      "matchText": "Venice",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in the Roman afterlife: Venice grew from lagoon refuges after Rome's fall into the Mediterranean trading republic that Marco Polo sailed home to."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Europe: the Hundred Years' War between England and France began in 1337, the same year Mansa Musa died."
+    },
+    {
+      "matchText": "Andalusian",
+      "targetTl": "al-andalus",
+      "targetChapter": 16,
+      "blurb": "Meanwhile in al-Andalus: the poet-architect Abu Ishaq al-Sahili came from Granada, the last Muslim kingdom of Iberia, before migrating to Musa's court."
     }
   ],
   "5": [
@@ -145,6 +331,48 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 8,
       "blurb": "The Songhai Empire under Sonni Ali and Askia Muhammad represents the third major phase of West African Islamic-period state-building, after Ghana and Mali. The intellectual and architectural inheritance these empires drew on was the Islamic Golden Age tradition — Mansa Musa imported scholars from the Maghreb, Askia Muhammad consulted al-Maghili on questions of governance modeled on classical Islamic political philosophy, and the Timbuktu manuscript collection grew from Arabic-language scholarly texts that were the direct successors of the Baghdad and Cairo scholarly traditions."
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, across the strait: the Maghreb (northwest Africa) and Muslim Iberia formed one connected world, the same world that produced the scholars and architects Mansa Musa recruited for Timbuktu."
+    },
+    {
+      "matchText": "Damascus",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic heartland: Damascus, the old Umayyad capital, was one of the great teaching cities whose scholarly chains stretched all the way down to Timbuktu."
+    },
+    {
+      "matchText": "Cordoba",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Muslim Spain: Cordoba was the dazzling capital of the western Umayyad world, the architectural and intellectual benchmark against which Timbuktu's mosques are measured here."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Arabia: Mecca, the holiest city of Islam and the destination of every hajj, anchored the master-student chains that linked Timbuktu's scholars back to the religion's center."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Mesopotamia: Baghdad was the towering capital of Abbasid learning, the eastern end of the scholarly lineage that ran through Cairo and the Maghreb down to Timbuktu."
+    },
+    {
+      "matchText": "Sufism",
+      "targetTl": "safavid-persia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: Sufism, Islam's mystical tradition, was a major current across the whole Muslim world, including the manuscripts copied and composed in Timbuktu."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the east: Persia (modern Iran) was one of the many lands Ibn Battuta crossed on the decades-long journey that eventually brought him to Mali."
     }
   ],
   "6": [
@@ -195,6 +423,84 @@
       "targetTl": "aztec-empire",
       "targetChapter": 5,
       "blurb": "Mali shrank as the Aztec Triple Alliance reached its high tide — the medieval imperial baton passing on both continents."
+    },
+    {
+      "matchText": "Mamluks",
+      "targetTl": "mongol-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Near East, the Mamluk soldier-rulers of Egypt had halted the Mongol advance at Ayn Jalut in 1260 and kept a powerless Abbasid caliph in Cairo as a legitimacy token — the same figurehead who would later name Askia Muhammad \"Caliph of Sudan.\""
+    },
+    {
+      "matchText": "Maghreb",
+      "targetTl": "al-andalus",
+      "targetChapter": 9,
+      "blurb": "Meanwhile across the Sahara, the Maghreb — Berber North Africa — had repeatedly sent dynasties and scholars southward and northward, including the Almoravid veiled men who once stormed into Muslim Spain."
+    },
+    {
+      "matchText": "Catholic Monarchs",
+      "targetTl": "al-andalus",
+      "targetChapter": 17,
+      "blurb": "Meanwhile in Iberia, Ferdinand and Isabella — the Catholic Monarchs — completed the centuries-long Reconquista by taking Granada in 1492, the same year Sonni Ali died."
+    },
+    {
+      "matchText": "Mongol Empire",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile across Eurasia, the once-unified Mongol Empire had splintered into rival khanates, each going its own way after the heirs of Genghis Khan fell out."
+    },
+    {
+      "matchText": "Yuan dynasty",
+      "targetTl": "yuan-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China, the Mongol Yuan dynasty founded by Kublai Khan ruled until 1368, when a peasant rebellion swept it away and installed the Ming."
+    },
+    {
+      "matchText": "Ilkhanate",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Iran, the Ilkhanate — the Mongol successor state ruling Persia — had fragmented into a tangle of post-Mongol dynasties."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "Meanwhile in the eastern Mediterranean, the Ottomans stormed Constantinople in 1453, ending the thousand-year Byzantine Empire twenty-eight years before Sonni Ali's death."
+    },
+    {
+      "matchText": "Granada",
+      "targetTl": "al-andalus",
+      "targetChapter": 17,
+      "blurb": "Meanwhile in Spain, the fall of Granada in 1492 extinguished the last Muslim kingdom of Iberia after nearly eight centuries."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in South America, the Inca Empire was exploding outward under Pachacuti, who turned a small Andean kingdom into the largest state the continent had ever seen."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes, a long succession of highland empires — Wari and Tiwanaku among them — had laid the road networks and statecraft the Inca would later inherit."
+    },
+    {
+      "matchText": "Aztec Triple Alliance",
+      "targetTl": "aztec-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in central Mexico, the Aztec Triple Alliance of Tenochtitlan, Texcoco, and Tlacopan had risen from vassalage to dominate the Valley of Mexico."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Indian Ocean, China's Ming dynasty had sent Zheng He's vast treasure fleets as far as East Africa — before Portuguese caravels began rewiring the same sea lanes."
+    },
+    {
+      "matchText": "Ottoman expansion",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in southeastern Europe, the expanding Ottoman Empire was conquering the Balkans under Mehmed II, the sultan who would take Constantinople."
     }
   ],
   "7": [
@@ -221,6 +527,24 @@
       "targetTl": "songhai-empire",
       "targetChapter": 8,
       "blurb": "The destruction of Askia Ishaq II's Songhai army at Tondibi is the closing event of the Songhai Empire narrative — the moment a Sahelian cavalry empire was wiped out in a single afternoon by a much smaller force armed with matchlock muskets and cannon. The Songhai TL covers the same battle from the Songhai side: how the imperial military system Askia Muhammad had built failed against gunpowder, and what happened to Gao, Timbuktu, and Djenné after the Saadian occupation."
+    },
+    {
+      "matchText": "Songhai",
+      "targetTl": "songhai-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Songhai: the same musket-versus-cavalry rout at Tondibi in 1591 ended the empire that had eaten Mali's old domains."
+    },
+    {
+      "matchText": "Ottoman Turks",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile among the Ottomans: the gunpowder empire pressing on Morocco from the east, whose matchlock trade helped arm the Saadian army."
+    },
+    {
+      "matchText": "Reconquista",
+      "targetTl": "al-andalus",
+      "targetChapter": 17,
+      "blurb": "Meanwhile in al-Andalus: the Christian reconquest of Iberia, finished in 1492, whose expelled Muslims (the moriscos) ended up in the Saadian ranks at Tondibi."
     }
   ],
   "8": [
@@ -265,6 +589,54 @@
       "targetTl": "mesopotamia",
       "targetChapter": 5,
       "blurb": "Like the old Mesopotamian states, Mali ended not in a single catastrophe but in a slow dissolution into successors."
+    },
+    {
+      "matchText": "Songhai",
+      "targetTl": "songhai-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Songhai: the Niger-bend empire that swallowed Mali's heartland, taking Timbuktu under Sonni Ali in 1468 and inheriting the trade and the manuscript city Mali had built."
+    },
+    {
+      "matchText": "Ming China",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in China: the Ming dynasty fell to the Manchu invaders who founded the Qing—the conquest that was just being completed as Mali faded into its long afterlife."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Meanwhile, centuries earlier in Rome: the Western Roman Empire that did suffer the dramatic, total collapse Mali's quiet thinning-out so pointedly avoided."
+    },
+    {
+      "matchText": "Aztec Empire",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mesoamerica: the Aztec Empire, whose colonial absorption shattered its local institutions—the opposite of Mali, whose culture survived the empire's end."
+    },
+    {
+      "matchText": "Inca Empire",
+      "targetTl": "inca-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Andes: the Inca Empire, conquered and dismantled by the Spanish—another empire whose institutions did not outlive its political fall the way Mali's did."
+    },
+    {
+      "matchText": "Mughal Empire",
+      "targetTl": "mughal-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in India: the Mughal Empire at its peak under Aurangzeb, on the eve of the long decline—one of the great seventeenth-century powers whose world was replacing Mali's."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the South American highland world whose colonial silver mines at Potosí flooded global markets, much as Mansa Musa's gold once did to Egypt."
+    },
+    {
+      "matchText": "Kiswahili",
+      "targetTl": "swahili-coast",
+      "targetChapter": 8,
+      "blurb": "Meanwhile on the Swahili Coast: Kiswahili, the trade language that outlasted the gold and the empires—the corpus's twin to Mali, an African export that survived the polity that carried it."
     }
   ]
 }

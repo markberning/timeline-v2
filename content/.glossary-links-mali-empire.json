@@ -86,12 +86,6 @@
       "type": "people"
     },
     {
-      "term": "Almoravid dynasty",
-      "matchText": "Almoravids",
-      "wikiSlug": "Almoravid_dynasty",
-      "type": "concept"
-    },
-    {
       "term": "Almohad Caliphate",
       "matchText": "Almohad Caliphate",
       "wikiSlug": "Almohad_Caliphate",
@@ -102,12 +96,6 @@
       "matchText": "Sosso",
       "wikiSlug": "Sosso_Empire",
       "type": "concept"
-    },
-    {
-      "term": "Sumanguru Kante",
-      "matchText": "Sumanguru Kante",
-      "wikiSlug": "Soumaoro_Kanté",
-      "type": "people"
     },
     {
       "term": "Mande languages",
@@ -151,15 +139,79 @@
       "matchText": "jeli",
       "wikiSlug": "Griot",
       "type": "concept"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Atlantic Ocean",
+      "term": "Atlantic Ocean",
+      "wikiSlug": "Atlantic_Ocean"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata Keita",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Mansa Musa",
+      "term": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa"
+    },
+    {
+      "matchText": "Indo-European",
+      "term": "Indo-European languages",
+      "wikiSlug": "Indo-European_languages"
+    },
+    {
+      "matchText": "Kurukan Fuga",
+      "term": "Kurukan Fuga",
+      "wikiSlug": "Kouroukan_Fouga"
+    },
+    {
+      "matchText": "Andalusian",
+      "term": "Andalusian",
+      "definition": "Of al-Andalus, the Muslim-ruled regions of medieval Iberia (Spain and Portugal). An Andalusian scholar like al-Bakri belonged to the sophisticated Arabic-language learned culture of cities such as Cordoba."
+    },
+    {
+      "matchText": "Keita",
+      "term": "Keita",
+      "definition": "The royal clan of the Mandinka and the ruling lineage of the Mali Empire. Sundiata, the empire's founder, was a Keita, and his descendants held the title of mansa for centuries."
+    },
+    {
+      "matchText": "Inner Delta",
+      "term": "Inner Delta",
+      "wikiSlug": "Inner_Niger_Delta"
     }
   ],
   "2": [
-    {
-      "term": "Sundiata Keita",
-      "matchText": "Sundiata Keita",
-      "wikiSlug": "Sundiata_Keita",
-      "type": "people"
-    },
     {
       "term": "Mansa",
       "matchText": "Mansa",
@@ -167,20 +219,8 @@
       "type": "concept"
     },
     {
-      "term": "Battle of Kirina",
-      "matchText": "Battle of Kirina",
-      "wikiSlug": "Battle_of_Kirina",
-      "type": "concept"
-    },
-    {
       "term": "Kurukan Fuga",
       "matchText": "Kurukan Fuga",
-      "wikiSlug": "Kouroukan_Fouga",
-      "type": "concept"
-    },
-    {
-      "term": "Manden Charter",
-      "matchText": "Manden Charter",
       "wikiSlug": "Kouroukan_Fouga",
       "type": "concept"
     },
@@ -206,12 +246,6 @@
       "term": "Kouyate",
       "matchText": "Kouyate",
       "wikiSlug": "Kouyaté",
-      "type": "concept"
-    },
-    {
-      "term": "Epic of Sundiata",
-      "matchText": "Sundiata epic",
-      "wikiSlug": "Epic_of_Sundiata",
       "type": "concept"
     },
     {
@@ -273,15 +307,134 @@
       "matchText": "Abbasid Caliphate",
       "wikiSlug": "Abbasid_Caliphate",
       "type": "concept"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_people"
+    },
+    {
+      "matchText": "Sosso",
+      "term": "Sosso",
+      "wikiSlug": "Sosso"
+    },
+    {
+      "matchText": "Sumanguru",
+      "term": "Sumanguru",
+      "wikiSlug": "Soumaoro_Kant%C3%A9"
+    },
+    {
+      "matchText": "Niger",
+      "term": "Niger",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Mande",
+      "term": "Mande",
+      "wikiSlug": "Mande_languages"
+    },
+    {
+      "matchText": "Faama",
+      "term": "Faama",
+      "wikiSlug": "Faama"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Runnymede",
+      "term": "Runnymede",
+      "wikiSlug": "Runnymede"
+    },
+    {
+      "matchText": "Ibn Battuta",
+      "term": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Soninke",
+      "term": "Soninke",
+      "wikiSlug": "Soninke_people"
+    },
+    {
+      "matchText": "Walata",
+      "term": "Walata",
+      "wikiSlug": "Oualata"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Ghana",
+      "term": "Ghana Empire",
+      "wikiSlug": "Ghana_Empire"
+    },
+    {
+      "matchText": "Inner Niger Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Iltutmish",
+      "term": "Iltutmish",
+      "wikiSlug": "Iltutmish"
+    },
+    {
+      "matchText": "Latin Empire of Constantinople",
+      "term": "Latin Empire of Constantinople",
+      "wikiSlug": "Latin_Empire"
+    },
+    {
+      "matchText": "Kamakura",
+      "term": "Kamakura",
+      "wikiSlug": "Kamakura_shogunate"
+    },
+    {
+      "matchText": "Yucatán",
+      "term": "Yucatán",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula"
+    },
+    {
+      "matchText": "Bozo",
+      "term": "Bozo",
+      "definition": "A West African people known above all as masters of the Niger River — fishermen and boat-builders of the Inner Niger Delta whose lives are organized around the water. Under the Mali Empire they kept their language and river-bound way of life while becoming imperial subjects."
+    },
+    {
+      "matchText": "Crusader",
+      "term": "Crusader state",
+      "definition": "A territory carved out and ruled by Western European Crusaders, most of them established in the eastern Mediterranean and the lands of the former Byzantine Empire after the Crusades. The Latin Empire of Constantinople, built on the wreckage of the Fourth Crusade's sack of the Byzantine capital, was one of them."
     }
   ],
   "3": [
-    {
-      "term": "African rice",
-      "matchText": "African rice",
-      "wikiSlug": "Oryza_glaberrima",
-      "type": "concept"
-    },
     {
       "term": "Pearl millet",
       "matchText": "pearl millet",
@@ -337,12 +490,6 @@
       "type": "people"
     },
     {
-      "term": "Mansa Sakura",
-      "matchText": "Mansa Sakura",
-      "wikiSlug": "Sakura_of_Mali",
-      "type": "people"
-    },
-    {
       "term": "Walata",
       "matchText": "Walata",
       "wikiSlug": "Oualata",
@@ -359,6 +506,116 @@
       "matchText": "al-Umari",
       "wikiSlug": "Shihab_al-Umari",
       "type": "people"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Mansa Musa",
+      "term": "Mansa Musa",
+      "wikiSlug": "Musa_I_of_Mali"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_Bend"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Somono",
+      "term": "Somono",
+      "wikiSlug": "Somono"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_people"
+    },
+    {
+      "matchText": "Bambuk",
+      "term": "Bambuk",
+      "wikiSlug": "Bambouk"
+    },
+    {
+      "matchText": "Wolof",
+      "term": "Wolof",
+      "wikiSlug": "Wolof_people"
+    },
+    {
+      "matchText": "Keita",
+      "term": "Keita",
+      "wikiSlug": "Keita_dynasty"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Hejaz",
+      "term": "Hejaz",
+      "wikiSlug": "Hejaz"
+    },
+    {
+      "matchText": "Ghana",
+      "term": "Ghana",
+      "wikiSlug": "Ghana_Empire"
+    },
+    {
+      "matchText": "Mansa Wati",
+      "term": "Mansa Wati",
+      "wikiSlug": "Wati_(mansa)"
+    },
+    {
+      "matchText": "Mansa Khalifa",
+      "term": "Mansa Khalifa",
+      "wikiSlug": "Khalifa_of_Mali"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Mansa Muhammad",
+      "term": "Mansa Muhammad",
+      "wikiSlug": "Mansa_Muhammad"
+    },
+    {
+      "matchText": "Eurasia",
+      "term": "Eurasia",
+      "wikiSlug": "Eurasia"
+    },
+    {
+      "matchText": "Kouyate",
+      "term": "Kouyate clan",
+      "definition": "The Kouyate (or Kouyaté) were a hereditary clan of jeli — Mande griots — who served as the official bards, genealogists, and counselors to Mali's ruling Keita lineage. By tradition the line runs back to Sundiata's own griot, and the clan remained the imperial court's keepers of dynastic memory for centuries."
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Inner Delta",
+      "term": "Inner Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "wikiSlug": "Sahel"
     }
   ],
   "4": [
@@ -441,12 +698,6 @@
       "type": "concept"
     },
     {
-      "term": "Abu Ishaq al-Sahili",
-      "matchText": "Abu Ishaq al-Sahili",
-      "wikiSlug": "Abu_Es_Haq_es_Saheli",
-      "type": "people"
-    },
-    {
       "term": "Granada",
       "matchText": "Granada",
       "wikiSlug": "Granada",
@@ -459,28 +710,156 @@
       "type": "concept"
     },
     {
-      "term": "Mansa Suleyman",
-      "matchText": "Mansa Suleyman",
-      "wikiSlug": "Mansa_Suleyman",
-      "type": "people"
-    },
-    {
       "term": "Mossi",
       "matchText": "Mossi",
       "wikiSlug": "Mossi_people",
       "type": "people"
     },
     {
-      "term": "Black Death",
-      "matchText": "Black Death",
-      "wikiSlug": "Black_Death",
-      "type": "concept"
-    },
-    {
       "term": "Ibn Khaldun",
       "matchText": "Ibn Khaldun",
       "wikiSlug": "Ibn_Khaldun",
       "type": "people"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_Bend"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_people"
+    },
+    {
+      "matchText": "Ramadan",
+      "term": "Ramadan",
+      "wikiSlug": "Ramadan"
+    },
+    {
+      "matchText": "Niani",
+      "term": "Niani",
+      "wikiSlug": "Niani,_Guinea"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Eurasian",
+      "term": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe"
+    },
+    {
+      "matchText": "Ayyubid",
+      "term": "Ayyubid dynasty",
+      "wikiSlug": "Ayyubid_dynasty"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Sofala",
+      "term": "Sofala",
+      "wikiSlug": "Sofala"
+    },
+    {
+      "matchText": "Kilwa",
+      "term": "Kilwa",
+      "wikiSlug": "Kilwa_Sultanate"
+    },
+    {
+      "matchText": "Djenné-Djenno",
+      "term": "Djenné-Djenno",
+      "wikiSlug": "Djenné-Djenno"
+    },
+    {
+      "matchText": "Djenné",
+      "term": "Djenné",
+      "wikiSlug": "Djenné"
+    },
+    {
+      "matchText": "Mansa Maghan",
+      "term": "Mansa Maghan",
+      "wikiSlug": "Maghan_I"
+    },
+    {
+      "matchText": "Ibn Battuta",
+      "term": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta"
+    },
+    {
+      "matchText": "Khanbaliq",
+      "term": "Khanbaliq",
+      "wikiSlug": "Khanbaliq"
+    },
+    {
+      "matchText": "Beijing",
+      "term": "Beijing",
+      "wikiSlug": "Beijing"
+    },
+    {
+      "matchText": "Sultanate of Delhi",
+      "term": "Sultanate of Delhi",
+      "wikiSlug": "Delhi_Sultanate"
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "term": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan"
+    },
+    {
+      "matchText": "Edward III",
+      "term": "Edward III",
+      "wikiSlug": "Edward_III_of_England"
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "wikiSlug": "Sahel"
     }
   ],
   "5": [
@@ -500,12 +879,6 @@
       "term": "Sankoré Madrasah",
       "matchText": "Sankoré",
       "wikiSlug": "Sankore_Madrasah",
-      "type": "concept"
-    },
-    {
-      "term": "Sidi Yahya Mosque",
-      "matchText": "Sidi Yahya",
-      "wikiSlug": "Sidi_Yahya_Mosque",
       "type": "concept"
     },
     {
@@ -531,12 +904,6 @@
       "matchText": "fiqh",
       "wikiSlug": "Fiqh",
       "type": "concept"
-    },
-    {
-      "term": "Avicenna",
-      "matchText": "Avicennian",
-      "wikiSlug": "Avicenna",
-      "type": "people"
     },
     {
       "term": "Ajami script",
@@ -581,12 +948,6 @@
       "type": "people"
     },
     {
-      "term": "Ahmed Baba",
-      "matchText": "Ahmed Baba al-Timbukti",
-      "wikiSlug": "Ahmad_Baba_al-Timbukti",
-      "type": "people"
-    },
-    {
       "term": "Sanhaja",
       "matchText": "Sanhaja",
       "wikiSlug": "Sanhaja",
@@ -615,6 +976,126 @@
       "matchText": "Sudano-Sahelian",
       "wikiSlug": "Sudano-Sahelian_architecture",
       "type": "concept"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Prophet Muhammad",
+      "term": "Prophet Muhammad",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Arabian Peninsula",
+      "term": "Arabian Peninsula",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Saharan",
+      "term": "Saharan",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "the Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Mansa Musa",
+      "term": "Mansa Musa",
+      "wikiSlug": "Musa_I_of_Mali"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Sunni",
+      "term": "Sunni",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Hausa",
+      "term": "Hausa",
+      "wikiSlug": "Hausa_language"
+    },
+    {
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_language"
+    },
+    {
+      "matchText": "Maldives",
+      "term": "Maldives",
+      "wikiSlug": "Maldives"
+    },
+    {
+      "matchText": "Sumatra",
+      "term": "Sumatra",
+      "wikiSlug": "Sumatra"
+    },
+    {
+      "matchText": "Mansa Suleyman",
+      "term": "Mansa Suleyman",
+      "wikiSlug": "Sulayman_of_Mali"
+    },
+    {
+      "matchText": "Niani",
+      "term": "Niani",
+      "wikiSlug": "Niani,_Guinea"
+    },
+    {
+      "matchText": "Taghaza",
+      "term": "Taghaza",
+      "wikiSlug": "Taghaza"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Inner Niger Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Askia Muhammad",
+      "term": "Askia Muhammad",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Abu Inan Faris",
+      "term": "Abu Inan Faris",
+      "wikiSlug": "Abu_Inan_Faris"
+    },
+    {
+      "matchText": "Gao",
+      "term": "Gao",
+      "wikiSlug": "Gao"
+    },
+    {
+      "matchText": "Andalusian",
+      "term": "Andalusian",
+      "definition": "Of al-Andalus, the Muslim-ruled regions of medieval Spain and Portugal. The Andalusian poet-architect al-Sahili, whom Mansa Musa is said to have brought back from his hajj, came from this Iberian Islamic world."
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Morocco"
     }
   ],
   "6": [
@@ -656,12 +1137,6 @@
       "definition": "A prominent scholarly family of Timbuktu, central to the city's intellectual life. When invaders sacked Timbuktu, the family was reportedly almost entirely slaughtered."
     },
     {
-      "term": "Tarikh al-Sudan",
-      "matchText": "Tarikh al-Sudan",
-      "wikiSlug": "Tarikh_al-Sudan",
-      "type": "concept"
-    },
-    {
       "term": "Reconquista",
       "matchText": "Reconquista",
       "wikiSlug": "Reconquista",
@@ -681,22 +1156,184 @@
       "type": "people"
     },
     {
-      "term": "Mehmed II",
-      "matchText": "Mehmed II",
-      "wikiSlug": "Mehmed_II",
-      "type": "people"
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
     },
     {
-      "term": "Vasco da Gama",
-      "matchText": "Vasco da Gama",
-      "wikiSlug": "Vasco_da_Gama",
-      "type": "people"
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_River"
     },
     {
-      "term": "Pachacuti",
-      "matchText": "Pachacuti",
-      "wikiSlug": "Pachacuti",
-      "type": "people"
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_people"
+    },
+    {
+      "matchText": "Mande",
+      "term": "Mande",
+      "wikiSlug": "Mande_languages"
+    },
+    {
+      "matchText": "Nilo-Saharan",
+      "term": "Nilo-Saharan",
+      "wikiSlug": "Nilo-Saharan_languages"
+    },
+    {
+      "matchText": "Niger-Congo",
+      "term": "Niger-Congo",
+      "wikiSlug": "Niger–Congo_languages"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Mansa Sakura",
+      "term": "Mansa Sakura",
+      "wikiSlug": "Mansa_Sakura"
+    },
+    {
+      "matchText": "Mansa Musa",
+      "term": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Mossi",
+      "term": "Mossi",
+      "wikiSlug": "Mossi_people"
+    },
+    {
+      "matchText": "Tuareg",
+      "term": "Tuareg",
+      "wikiSlug": "Tuareg"
+    },
+    {
+      "matchText": "Walata",
+      "term": "Walata",
+      "wikiSlug": "Oualata"
+    },
+    {
+      "matchText": "Inner Niger Delta",
+      "term": "Inner Niger Delta",
+      "wikiSlug": "Inner_Niger_Delta"
+    },
+    {
+      "matchText": "Niani",
+      "term": "Niani",
+      "wikiSlug": "Niani,_Guinea"
+    },
+    {
+      "matchText": "Columbus",
+      "term": "Columbus",
+      "wikiSlug": "Christopher_Columbus"
+    },
+    {
+      "matchText": "Caribbean",
+      "term": "Caribbean",
+      "wikiSlug": "Caribbean"
+    },
+    {
+      "matchText": "Sonni Baru",
+      "term": "Sonni Baru",
+      "wikiSlug": "Sonni_Baru"
+    },
+    {
+      "matchText": "Muhammad Ture",
+      "term": "Muhammad Ture",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Soninke",
+      "term": "Soninke",
+      "wikiSlug": "Soninke_people"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "West African Sahel",
+      "term": "West African Sahel",
+      "wikiSlug": "West_Africa"
+    },
+    {
+      "matchText": "Muslim",
+      "term": "Muslim",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Kangaba",
+      "term": "Kangaba",
+      "wikiSlug": "Kangaba"
+    },
+    {
+      "matchText": "Kurukan Fuga",
+      "term": "Kurukan Fuga",
+      "wikiSlug": "Kouroukan_Fouga"
+    },
+    {
+      "matchText": "Mauritania",
+      "term": "Mauritania",
+      "wikiSlug": "Mauritania"
+    },
+    {
+      "matchText": "Wolof",
+      "term": "Wolof",
+      "wikiSlug": "Wolof_people"
+    },
+    {
+      "matchText": "Moctezuma I",
+      "term": "Moctezuma I",
+      "wikiSlug": "Moctezuma_I"
+    },
+    {
+      "matchText": "Mesoamerican",
+      "term": "Mesoamerican",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Replies to Askia",
+      "term": "Replies to Askia",
+      "wikiSlug": "Al-Maghili"
+    },
+    {
+      "matchText": "Ferdinand and Isabella",
+      "term": "Ferdinand and Isabella",
+      "wikiSlug": "Ferdinand_II_of_Aragon"
+    },
+    {
+      "matchText": "Caliph of Sudan",
+      "term": "Caliph of Sudan",
+      "definition": "An honorific Islamic title — \"sudan\" being the Arabic term for the West African Sahel — conferred on Askia Muhammad of Songhai by the powerless Abbasid figurehead caliph in Cairo after his 1497–98 pilgrimage. Largely symbolic, it gave him religious prestige no Mali mansa had bothered to acquire."
+    },
+    {
+      "matchText": "Keita",
+      "term": "Keita",
+      "wikiSlug": "Keita_dynasty"
     }
   ],
   "7": [
@@ -755,12 +1392,6 @@
       "type": "concept"
     },
     {
-      "term": "Judar Pasha",
-      "matchText": "Judar Pasha",
-      "wikiSlug": "Judar_Pasha",
-      "type": "people"
-    },
-    {
       "term": "Askia Ishaq II",
       "matchText": "Askia Ishaq II",
       "wikiSlug": "Askia_Ishaq_II",
@@ -783,6 +1414,136 @@
       "matchText": "Tarikh al-Fattash",
       "wikiSlug": "Tarikh_al-Fattash",
       "type": "concept"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Prophet Muhammad",
+      "term": "Prophet Muhammad",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Sunni Islam",
+      "term": "Sunni Islam",
+      "wikiSlug": "Sunni_Islam"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Djenné",
+      "term": "Djenné",
+      "wikiSlug": "Djenné"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Berber",
+      "term": "Berber",
+      "wikiSlug": "Berbers"
+    },
+    {
+      "matchText": "Wattasid",
+      "term": "Wattasid dynasty",
+      "wikiSlug": "Wattasid_dynasty"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Tuareg",
+      "term": "Tuareg",
+      "wikiSlug": "Tuareg_people"
+    },
+    {
+      "matchText": "Maghreb",
+      "term": "Maghreb",
+      "wikiSlug": "Maghreb"
+    },
+    {
+      "matchText": "Niger",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Almoravid",
+      "term": "Almoravid dynasty",
+      "wikiSlug": "Almoravid_dynasty"
+    },
+    {
+      "matchText": "Marrakesh",
+      "term": "Marrakesh",
+      "wikiSlug": "Marrakesh"
+    },
+    {
+      "matchText": "Niger Bend",
+      "term": "Niger Bend",
+      "wikiSlug": "Niger_Bend"
+    },
+    {
+      "matchText": "Askia Muhammad",
+      "term": "Askia Muhammad",
+      "wikiSlug": "Askia_Muhammad_I"
+    },
+    {
+      "matchText": "Sudan",
+      "term": "Sudan (region)",
+      "wikiSlug": "Sudan_(region)"
+    },
+    {
+      "matchText": "Mande",
+      "term": "Mande languages",
+      "wikiSlug": "Mande_languages"
+    },
+    {
+      "matchText": "Niani",
+      "term": "Niani",
+      "wikiSlug": "Niani,_Guinea"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata Keita",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Kangaba",
+      "term": "Kangaba",
+      "wikiSlug": "Kangaba"
+    },
+    {
+      "matchText": "Abd al-Malik",
+      "term": "Abd al-Malik",
+      "wikiSlug": "Abu_Marwan_Abd_al-Malik_I_Saadi"
+    },
+    {
+      "matchText": "Dutch",
+      "term": "Dutch Republic",
+      "wikiSlug": "Dutch_Republic"
+    },
+    {
+      "matchText": "Keita",
+      "term": "Keita",
+      "wikiSlug": "Keita_dynasty"
     }
   ],
   "8": [
@@ -848,19 +1609,6 @@
       "type": "place"
     },
     {
-      "term": "al-Qaeda in the Islamic Maghreb",
-      "matchText": "al-Qaeda in the Islamic Maghreb",
-      "wikiSlug": "Al-Qaeda_in_the_Islamic_Maghreb",
-      "type": "concept"
-    },
-    {
-      "term": "Abdel Kader Haidara",
-      "matchText": "Abdel Kader Haidara",
-      "wikiSlug": "",
-      "type": "people",
-      "definition": "A Timbuktu librarian who organized a secret operation to smuggle the city's historic Islamic manuscripts to safety, saving thousands of irreplaceable texts from destruction."
-    },
-    {
       "term": "Bamako",
       "matchText": "Bamako",
       "wikiSlug": "Bamako",
@@ -878,24 +1626,6 @@
       "matchText": "Intangible Cultural Heritage of Humanity",
       "wikiSlug": "UNESCO_Intangible_Cultural_Heritage_Lists",
       "type": "concept"
-    },
-    {
-      "term": "René Caillié",
-      "matchText": "René Caillié",
-      "wikiSlug": "René_Caillié",
-      "type": "people"
-    },
-    {
-      "term": "Aurangzeb",
-      "matchText": "Aurangzeb",
-      "wikiSlug": "Aurangzeb",
-      "type": "people"
-    },
-    {
-      "term": "Potosí",
-      "matchText": "Potosí",
-      "wikiSlug": "Potosí",
-      "type": "place"
     },
     {
       "term": "Iroquois Confederation",
@@ -920,6 +1650,151 @@
       "matchText": "Qing Dynasty",
       "wikiSlug": "Qing_dynasty",
       "type": "concept"
+    },
+    {
+      "matchText": "Niger River",
+      "term": "Niger River",
+      "wikiSlug": "Niger_River"
+    },
+    {
+      "matchText": "Louis XIV",
+      "term": "Louis XIV",
+      "wikiSlug": "Louis_XIV"
+    },
+    {
+      "matchText": "Keita",
+      "term": "Keita",
+      "wikiSlug": "Keita_dynasty"
+    },
+    {
+      "matchText": "Sundiata",
+      "term": "Sundiata",
+      "wikiSlug": "Sundiata_Keita"
+    },
+    {
+      "matchText": "Mande",
+      "term": "Mande",
+      "wikiSlug": "Mande_languages"
+    },
+    {
+      "matchText": "Timbuktu",
+      "term": "Timbuktu",
+      "wikiSlug": "Timbuktu"
+    },
+    {
+      "matchText": "Sosso",
+      "term": "Sosso",
+      "wikiSlug": "Sosso"
+    },
+    {
+      "matchText": "Mandinka",
+      "term": "Mandinka",
+      "wikiSlug": "Mandinka_people"
+    },
+    {
+      "matchText": "Sahel",
+      "term": "Sahel",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Sahelian",
+      "term": "Sahelian",
+      "wikiSlug": "Sahel"
+    },
+    {
+      "matchText": "Ibn Battuta",
+      "term": "Ibn Battuta",
+      "wikiSlug": "Ibn_Battuta"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Arma",
+      "term": "Arma",
+      "wikiSlug": "Arma_people"
+    },
+    {
+      "matchText": "Tuareg",
+      "term": "Tuareg",
+      "wikiSlug": "Tuareg"
+    },
+    {
+      "matchText": "Sufi",
+      "term": "Sufi",
+      "wikiSlug": "Sufism"
+    },
+    {
+      "matchText": "Kurukan Fuga",
+      "term": "Kurukan Fuga",
+      "wikiSlug": "Kouroukan_Fouga"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Catalan Atlas",
+      "term": "Catalan Atlas",
+      "wikiSlug": "Catalan_Atlas"
+    },
+    {
+      "matchText": "Cairo",
+      "term": "Cairo",
+      "wikiSlug": "Cairo"
+    },
+    {
+      "matchText": "Akkadian",
+      "term": "Akkadian",
+      "wikiSlug": "Akkadian_language"
+    },
+    {
+      "matchText": "Mehmed IV",
+      "term": "Mehmed IV",
+      "wikiSlug": "Mehmed_IV"
+    },
+    {
+      "matchText": "Versailles",
+      "term": "Versailles",
+      "wikiSlug": "Palace_of_Versailles"
+    },
+    {
+      "matchText": "Viceroyalty of Peru",
+      "term": "Viceroyalty of Peru",
+      "wikiSlug": "Viceroyalty_of_Peru"
+    },
+    {
+      "matchText": "Timbuktu manuscript tradition",
+      "term": "Timbuktu manuscript tradition",
+      "wikiSlug": "Timbuktu_Manuscripts"
+    },
+    {
+      "matchText": "Atlantic slave trade",
+      "term": "Atlantic slave trade",
+      "wikiSlug": "Atlantic_slave_trade"
+    },
+    {
+      "matchText": "Newton",
+      "term": "Newton",
+      "wikiSlug": "Isaac_Newton"
+    },
+    {
+      "matchText": "Kouyate",
+      "term": "Kouyate",
+      "definition": "One of the senior griot (jeli) lineages of the Mande world, charged—alongside families like the Diabate—with memorizing and reciting the Sundiata epic. The Kouyate trace their role as hereditary keepers of oral history back to the founding court of the Mali Empire."
+    },
+    {
+      "matchText": "Fulani",
+      "term": "Fulani",
+      "wikiSlug": "Fula_people"
+    },
+    {
+      "matchText": "Moroccan",
+      "term": "Moroccan",
+      "wikiSlug": "Saadi_Sultanate"
     }
   ]
 }
