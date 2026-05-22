@@ -1,0 +1,275 @@
+# link-suggest — inca-empire
+
+{"REUSE":98,"LINK-CANDIDATE":49,"CROSS":68,"NO-PAGE":35,"SKIP":4}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Colombia** → REUSE `Colombia` [high] — _Colombia_: Colombia, officially the Republic of Colombia, is a country located in South America, with insular regions in   (linked in 2 civ(s) (e.g. early-andean-civilizations) ×4)
+- **Chile** → REUSE `Chile` [high] — _Chile_: Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost country  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Topa Inca Yupanqui** → `Topa_Inca_Yupanqui` [high] — _Topa Inca Yupanqui_: Topa Inca Yupanqui or Túpac Inca Yupanqui (Cusco Quechua: Thupa Inka Yupanki, pronounced [ˈtʰupa ˈiŋka juˈpaŋki]), also 
+- **Huayna Capac** → REUSE `Huayna_Capac` [high] — _Huayna Capac_: Huayna Capac ( WY-nə KAP-ak; Cusco Quechua: Wayna Qhapaq [ˈwajna ˈqʰapaχ] – lit. 'the young generous one'; Spa  (linked in 3 civ(s) (e.g. delhi-sultanate) ×6)
+- **Alexander of Macedon** → REUSE `Alexander_the_Great` [high] — _Alexander the Great_: Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323  (linked in 3 civ(s) (e.g. maurya-empire) ×5)
+- **Early Andean Civilizations** → CROSS → `early-andean-civilizations`  (cross-linked elsewhere ×3)
+- **Middle Horizon** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×1)
+- **Chimu** → REUSE `Chimú_culture` [CONFIRM-homonym] — _Chimor_: Chimor (also Kingdom of Chimor or Chimú Empire) was the political grouping of the Chimú culture (Spanish pronu  (linked in 2 civ(s) (e.g. high-medieval-europe) ×3 — ⚠ AMBIGUOUS: also Chim%C3%BA_culture(middle-horizon-empires), Chimor(yuan-dynasty))
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 6 civ(s) (e.g. andean-kingdoms) ×12)
+- **Trujillo** → REUSE `Trujillo,_Peru` [high] — _Trujillo, Peru_: Trujillo (Spanish: [tɾuˈxiʝo]; Quechua: Truhillu; Mochica: Cɥimor) is a city in coastal northwestern Peru and   (linked in 1 civ(s) (e.g. andean-kingdoms) ×3)
+- **Staff God** → CROSS → `early-andean-civilizations`  (cross-linked elsewhere ×2)
+- **Lucanas** → NO-PAGE → blurb (top hit "Lucanas" is a disambiguation page)
+- **Soras** → `SORAS_Group_Limited` [high] — _SORAS Group Limited_: SORAS Group Limited, commonly known as SORAS, is an insurance services group. It offers a wide range of financial produc
+- **Ayarmaca** → `Ayarmaca` [high] — _Ayarmaca_: The manor of Ayarmaca was an ethnic group that in the primitive era of the Inca manor was in full splendor, being feared
+- **Amazon** → REUSE `Amazon_basin` [high] — _Amazon basin_: The Amazon basin is the part of South America drained by the Amazon River and its tributaries. The Amazon drai  (linked in 1 civ(s) (e.g. andean-kingdoms) ×2)
+- **Sipán** → REUSE `Sipán` [high] — _Huaca Rajada_: Huaca Rajada, also known as Sipán, is a Moche archaeological site in northern Peru in the Lambayeque Valley, t  (linked in 1 civ(s) (e.g. andean-kingdoms) ×2)
+- **Castillo de Huarmey** → CROSS → `andean-kingdoms`  (cross-linked elsewhere ×1)
+- **Sinchi Roca** → `Sinchi_Roca` [high] — _Sinchi Roca_: Sinchi Roca (c. 1230 – c. 1260), also known as Sinchi Rocca, Cinchi Roca (in Hispanicized spellings), Sinchi Ruq'a and S
+- **Lloque Yupanqui** → `Lloque_Yupanqui` [high] — _Lloque Yupanqui_: Lloque Yupanqui (c. 1260 – c. 1290, aged approximately circa 30) (Quechua: Lluq'i Yupanki "the glorified lefthander") wa
+- **Mayta Capac** → `Mayta_Cápac` [high] — _Mayta Cápac_: Mayta Cápac (Quechua: Mayta Qhapaq Inka) (c. 1290 – c. 1320) was the fourth Sapa Inca of the Kingdom of Cuzco (beginning
+- **Capac Yupanqui** → `Cápac_Yupanqui` [high] — _Cápac Yupanqui_: Cápac Yupanqui (Quechua: Qhapaq Yupanki Inka, "splendid accountant Inca") (c. 1320 – c. 1350) was the fifth Sapa Inca of
+- **Inca Roca** → `Inca_Roca` [high] — _Inca Roca_: Inca Roca (Quechua: Inka Ruq'a, "magnanimous Inca") (c. 1350 – c. 1380) was the sixth Sapa Inca of the Kingdom of Cusco 
+- **Yahuar Huacac** → `Yawar_Waqaq` [low] — _Yawar Waqaq_: Yawar Waqaq (Hispanicized spellings Yahuar Huacac, Yáhuar Huácac) or Yawar Waqaq Inka (c. 1380 – c. 1410) was the sevent
+- **Inca Urco** → `Viracocha_Inca` [med] — _Viracocha Inca_: Viracocha Inca (Quechua, the name of a god) or Viracocha (in hispanicized spelling) (c. 1410 – 1438) was the eighth Sapa
+- **Zhou** → REUSE `Zhou_dynasty` [CONFIRM-homonym] — _Zhou dynasty_: The Zhou dynasty ( JOH; Chinese: 周; pinyin: Zhōu, pronunciation: [ʈʂóʊ]) was a royal dynasty of China that exi  (linked in 5 civ(s) (e.g. andean-kingdoms) ×7 — ⚠ AMBIGUOUS: also Wu_Zhou(tang-song-china))
+- **Garcilaso de la Vega** → `Garcilaso_de_la_Vega_(poet)` [high] — _Garcilaso de la Vega (poet)_: Garcilaso de la Vega, KOS (c. 1501 – 14 October 1536) was a Spanish soldier and poet. Although not the first or the only
+- **Juan de Betanzos** → `Juan_de_Betanzos` [high] — _Juan de Betanzos_: Juan Diez de Betanzos (b. Betanzos, Spain 1510 – d. Cusco, Peru March 1, 1576) wrote one of the most important sources o
+- **Cusi Yupanqui** → `Yupanqui` [high] — _Yupanqui_: Yupanqui is a surname. Notable people with the surname include: Amaru Yupanqui, elder brother of Túpac Inca Yupanqui Ata
+- **Yupanqui** → `Yupanqui` [high] — _Yupanqui_: Yupanqui is a surname. Notable people with the surname include: Amaru Yupanqui, elder brother of Túpac Inca Yupanqui Ata
+- **Ming Dynasty** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×19)
+- **Grand Canal** → REUSE `Grand_Canal_(China)` [CONFIRM-homonym] — _Grand Canal (China)_: The Grand Canal (Chinese: 大运河; pinyin: Dà yùnhé) is a system of interconnected canals linking various major ri  (linked in 7 civ(s) (e.g. asuka-nara-japan) ×21 — ⚠ AMBIGUOUS: also Grand_Canal_(Venice)(renaissance-italy))
+- **Ottoman Empire** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×49)
+- **Murad II** → REUSE `Murad_II` [high] — _Murad II_: Murad II (Ottoman Turkish: مراد ثانى, romanized: Murād-ı sānī, Turkish: II. Murad; June 1404 – 3 February 1451  (linked in 3 civ(s) (e.g. byzantine-empire) ×8)
+- **Timur** → CROSS → `mongol-empire`  (cross-linked elsewhere ×9)
+- **Ankara** → REUSE `Ankara` [CONFIRM-homonym] — _Ankara_: Ankara is the capital city of Turkey. Located in the central part of Anatolia, the city has a population of ov  (linked in 5 civ(s) (e.g. celtic-cultures) ×10 — ⚠ AMBIGUOUS: also Battle_of_Ankara(late-medieval-europe))
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×66)
+- **Hundred Years' War** → CROSS → `late-medieval-europe`  (cross-linked elsewhere ×9)
+- **Joan of Arc** → REUSE `Joan_of_Arc` [high] — _Joan of Arc_: Joan of Arc (French: Jeanne d'Arc [ʒan daʁk] ; Middle French: Jehanne Darc [ʒəˈãnə ˈdark]; c. 1412 – 30 May 14  (linked in 3 civ(s) (e.g. late-medieval-europe) ×8)
+- **Mali Empire** → CROSS → `mali-empire`  (cross-linked elsewhere ×25)
+- **Mansa Musa** → CROSS → `mali-empire`  (cross-linked elsewhere ×10)
+- **Songhai** → CROSS → `songhai-empire`  (cross-linked elsewhere ×5)
+- **Niger** → REUSE `Niger_River` [high] — _Niger River_: The Niger River ( NY-jər; French: (le) fleuve Niger [(lə) flœv niʒɛʁ]) is the main river of West Africa, exten  (linked in 2 civ(s) (e.g. mali-empire) ×8)
+- **Mesoamerica** → REUSE `Mesoamerica` [high] — _Mesoamerica_: Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern   (linked in 19 civ(s) (e.g. andean-kingdoms) ×60)
+- **Tenochtitlan** → CROSS → `aztec-empire`  (cross-linked elsewhere ×6)
+
+## Chapter 2
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 6 civ(s) (e.g. andean-kingdoms) ×12)
+- **Ecuador** → REUSE `Ecuador` [high] — _Ecuador_: Ecuador, officially the Republic of Ecuador, is a country in northwestern South America, bordered by Colombia   (linked in 1 civ(s) (e.g. early-andean-civilizations) ×2)
+- **Chile** → REUSE `Chile` [high] — _Chile_: Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost country  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Bolivia** → REUSE `Bolivia` [high] — _Bolivia_: Bolivia, officially the Plurinational State of Bolivia, is a landlocked country located in central South Ameri  (linked in 3 civ(s) (e.g. andean-kingdoms) ×6)
+- **Roman Republic** → CROSS → `ancient-rome`  (cross-linked elsewhere ×10)
+- **Han Chinese** → CROSS → `han-dynasty`  (cross-linked elsewhere ×6)
+- **Caliphate** → CROSS → `umayyad-caliphate`  (cross-linked elsewhere ×9)
+- *** Arabia** → `Saudi_Arabia` [high] — _Saudi Arabia_: Saudi Arabia, officially the Kingdom of Saudi Arabia (KSA), is a country in West Asia. Located in the centre of the Midd
+- **Mongols** → CROSS → `mongol-empire`  (cross-linked elsewhere ×21)
+- *** Mongol** → CROSS → `mongol-empire`  (matches a civ id)
+- **Aymara** → REUSE `Aymara_language` [high] — _Aymara language_: Aymara (Aymara pronunciation: [ajˈmaɾa] ; also Aymar aru) is an Aymaran language spoken by the Aymara people o  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Lake Titicaca** → CROSS → `early-andean-civilizations`  (cross-linked elsewhere ×1)
+- **Chanka** → `Chanka` [high] — _Chanka_: The Chanka (or Chanca) were an ethnic group living in Pre-Columbian South America, whose chiefdom was part of the Chanka
+- **Andean** → CROSS → `andean-kingdoms`  (matches a civ id)
+- **Tullumayo** → `Plaza_de_Armas_(Cusco)` [low] — _Plaza de Armas (Cusco)_: The Plaza de Armas of Cusco is located in the city of Cusco, Peru. Located in the historic center of the city is the mai
+- **Saphi** → `OR-201` [low] — _OR-201_: The OR-201, also designated Kasda OR-201 Model 76 or M-76 for short, is a combat helmet of Israeli origin. Developed in 
+- **Huacaypata** → `Plaza_de_Armas_(Cusco)` [low] — _Plaza de Armas (Cusco)_: The Plaza de Armas of Cusco is located in the city of Cusco, Peru. Located in the historic center of the city is the mai
+- **Pumachupan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Hurin Cuzco** → `Kingdom_of_Cusco` [low] — _Kingdom of Cusco_: The Kingdom of Cusco (sometimes spelled Cuzco and in Quechua Qosqo or Qusqu), also called the Cusco confederation, the C
+- **Wari** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×9)
+- **Tiwanaku** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×7)
+- *** Dominican** → `Dominican_Republic` [high] — _Dominican Republic_: Dominican Republic is a country on the Caribbean island of Hispaniola in the Greater Antilles of the Caribbean Sea in th
+- **Quechua** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- **Sacred Valley** → `Sacred_Valley` [high] — _Sacred Valley_: The Sacred Valley of the Incas (Spanish: Valle Sagrado de los Incas; Quechua: Willka Qhichwa), or the Urubamba Valley, i
+- **Melchor Arteaga** → `Machu_Picchu` [low] — _Machu Picchu_: Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge at 2,
+- **Pisac** → `Písac` [high] — _Písac_: Písac or Pisac (possibly from Quechua for Nothoprocta, also spelled p'isaqa) is a Peruvian town in the Sacred Valley of 
+- **Ollantaytambo** → `Ollantaytambo` [high] — _Ollantaytambo_: Ollantaytambo (Quechua: Ullantaytampu) is a town and an Inca archaeological site in southern Peru some 72 km (45 mi) by 
+- **Choquequirao** → `Choquequirao` [high] — _Choquequirao_: Choquequirao is a 16th-century Incan site in the Cusco Region of southern Peru. Often called the "sister city" of Machu 
+- **Vilcabamba** → `Vilcabamba,_Peru` [high] — _Vilcabamba, Peru_: Vilcabamba (in Hispanicized spelling) or Willkapampa (Aymara and Quechua), often called the Lost City of the Incas, is a
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×24)
+- **Chimor** → REUSE `Chimor` [high] — _Chimor_: Chimor (also Kingdom of Chimor or Chimú Empire) was the political grouping of the Chimú culture (Spanish pronu  (linked in 2 civ(s) (e.g. high-medieval-europe) ×3)
+- **Romulus** → REUSE `Romulus` [high] — _Romulus_: Romulus (, Classical Latin: [ˈroːmʊɫʊs]) was the legendary founder and first king of Rome. Various traditions   (linked in 1 civ(s) (e.g. late-medieval-europe) ×2)
+
+## Chapter 3
+- **Pachacuti** → CROSS → `inca-empire`  (cross-linked elsewhere ×8)
+- **Colombia** → REUSE `Colombia` [high] — _Colombia_: Colombia, officially the Republic of Colombia, is a country located in South America, with insular regions in   (linked in 2 civ(s) (e.g. early-andean-civilizations) ×4)
+- **Chile** → REUSE `Chile` [high] — _Chile_: Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost country  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Moche Valley** → REUSE `Moche_Valley` [high] — _Moche Valley_: The Valley of Moche, or Valley of Santa Catalina, is a large area of the La Libertad Region in northern Peru s  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Andean** → CROSS → `andean-kingdoms`  (matches a civ id)
+- **Minchançaman** → `Chimor` [low] — _Chimor_: Chimor (also Kingdom of Chimor or Chimú Empire) was the political grouping of the Chimú culture (Spanish pronunciation: 
+- **Cuzco** → REUSE `Cusco` [high] — _Cusco_: Cusco or Cuzco (; Quechua: Qosqo or Qusqu, both pronounced in Cuzco Quechua as [ˈqosqɔ]) is a city in southeas  (linked in 4 civ(s) (e.g. ancient-nubia) ×5)
+- **Quechua** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- **Coricancha** → REUSE `Coricancha` [high] — _Coricancha_: The Coricancha (Cusco Quechua: Quri Kancha, lit. 'golden temple', pronounced [ˈqɔɾi ˈkantʃa]) was the most imp  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Bolivia** → REUSE `Bolivia` [high] — _Bolivia_: Bolivia, officially the Plurinational State of Bolivia, is a landlocked country located in central South Ameri  (linked in 3 civ(s) (e.g. andean-kingdoms) ×6)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×24)
+- **Amazon** → REUSE `Amazon_basin` [high] — _Amazon basin_: The Amazon basin is the part of South America drained by the Amazon River and its tributaries. The Amazon drai  (linked in 1 civ(s) (e.g. andean-kingdoms) ×2)
+- **Antis** → NO-PAGE → blurb (top hit "Antis" is a disambiguation page)
+- **Antisuyu** → `Antisuyu` [high] — _Antisuyu_: Antisuyu (Quechua: anti lit. 'east', suyu lit. 'quadrant'; Spanish: Antisuyo) was the eastern part of the Inca Empire wh
+- **Ecuador** → REUSE `Ecuador` [high] — _Ecuador_: Ecuador, officially the Republic of Ecuador, is a country in northwestern South America, bordered by Colombia   (linked in 1 civ(s) (e.g. early-andean-civilizations) ×2)
+- **Ecuadorian** → `Ecuadorians` [high] — _Ecuadorians_: Ecuadorians (Spanish: ecuatorianos) are people identified with the South American country of Ecuador. This connection ma
+- **Cara** → NO-PAGE → blurb (top hit "Cara" is a disambiguation page)
+- **Cayambi** → `Cara_culture` [low] — _Cara culture_: The Cara or Caranqui culture was an archaeological culture which flourished in coastal Ecuador, in what is now Manabí Pr
+- **Sapa Inca** → REUSE `Sapa_Inca` [high] — _Sapa Inca_: The Sapa Inca (from Quechua: sapa inka; lit. 'the only emperor') was the monarch of the Inca Empire (Tawantins  (linked in 1 civ(s) (e.g. mississippian-culture) ×2)
+- **Ibarra** → NO-PAGE → blurb (top hit "Ibarra" is a disambiguation page)
+- **Ancasmayo River** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sun Temple** → `Konark_Sun_Temple` [high] — _Konark Sun Temple_: Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city o
+- **Ottoman Empire** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×49)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×18)
+- **Western Hemisphere** → REUSE `Western_Hemisphere` [high] — _Western Hemisphere_: The Western Hemisphere is the half of the planet Earth that lies west of the Prime Meridian and east of the 18  (linked in 5 civ(s) (e.g. early-american-republic) ×11)
+- **Tahuantinsuyu** → `Inca_Empire` [low] — _Inca Empire_: The Inca Empire, officially known as the Realm of the Four Parts (Quechua: Tawantinsuyu pronounced [taˈwantiŋ ˈsuju], li
+- **Inti** → REUSE `Inti` [high] — _Inti_: Inti (Quechua: inti, lit. 'sun') is the ancient Inca sun god. He is revered as the national patron of the Inca  (linked in 3 civ(s) (e.g. andean-kingdoms) ×4)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×28)
+- **Caliphate** → CROSS → `umayyad-caliphate`  (cross-linked elsewhere ×9)
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 6 civ(s) (e.g. andean-kingdoms) ×12)
+- **Pizarro** → REUSE `Francisco_Pizarro` [high] — _Francisco Pizarro_: Francisco Pizarro (; Spanish: [fɾanˈθisko piˈθaro]; c. 1478 – 26 June 1541) was a Spanish conquistador, best k  (linked in 7 civ(s) (e.g. aztec-empire) ×9)
+- **Cuxirimay Ocllo** → `Cuxirimay_Ocllo` [high] — _Cuxirimay Ocllo_: Cuxirimay Ocllo (Classical Quechua: Kuši Rimay Uqllu) (born before 1532–d. after 1576), also known as Doña Angelina Yupa
+- **Atahualpa** → REUSE `Atahualpa` [high] — _Atahualpa_: Atawallpa ( ), also Atahualpa or Ataw Wallpa (Classical Quechua: Ataw Wallpa, pronounced [ˈataw ˈwaʎpa]) (c. 1  (linked in 3 civ(s) (e.g. aztec-empire) ×5)
+- **Isabel Chimpu Ocllo** → `Chimpu_Ocllo` [high] — _Chimpu Ocllo_: Isabel Suárez Yupanqui, born as Palla Chimpu Ocllo (1523-1571), was a princess of the Inca Empire. She was born to Sapa 
+- **Jesuit** → REUSE `Society_of_Jesus` [CONFIRM-homonym] — _Jesuits_: The Society of Jesus (Latin: Societas Iesu; abbreviation: S.J. or SJ), also known as the Jesuit Order or the J  (linked in 4 civ(s) (e.g. joseon-korea) ×6 — ⚠ AMBIGUOUS: also Jesuits(renaissance-italy))
+
+## Chapter 4
+- **Andean** → CROSS → `andean-kingdoms`  (matches a civ id)
+- Inca → SKIP (own-name, cat B)
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 6 civ(s) (e.g. andean-kingdoms) ×12)
+- **Ecuador** → REUSE `Ecuador` [high] — _Ecuador_: Ecuador, officially the Republic of Ecuador, is a country in northwestern South America, bordered by Colombia   (linked in 1 civ(s) (e.g. early-andean-civilizations) ×2)
+- **Bolivia** → REUSE `Bolivia` [high] — _Bolivia_: Bolivia, officially the Plurinational State of Bolivia, is a landlocked country located in central South Ameri  (linked in 3 civ(s) (e.g. andean-kingdoms) ×6)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×24)
+- **Quito** → `Quito` [high] — _Quito_: Quito (Spanish pronunciation: [ˈkito] ; Quechua: Kitu), officially San Francisco de Quito, is the capital and second-lar
+- **Cuzco** → REUSE `Cusco` [high] — _Cusco_: Cusco or Cuzco (; Quechua: Qosqo or Qusqu, both pronounced in Cuzco Quechua as [ˈqosqɔ]) is a city in southeas  (linked in 4 civ(s) (e.g. ancient-nubia) ×5)
+- **Chile** → REUSE `Chile` [high] — _Chile_: Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost country  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Maule River** → `Maule_River` [high] — _Maule River_: The Maule river or Río Maule (Mapudungun: rainy) is one of the most important rivers of Chile. It is inextricably linked
+- **Tumbes** → NO-PAGE → blurb (top hit "Tumbes" is a disambiguation page)
+- **UNESCO** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×1)
+- **Sapa Inca** → REUSE `Sapa_Inca` [high] — _Sapa Inca_: The Sapa Inca (from Quechua: sapa inka; lit. 'the only emperor') was the monarch of the Inca Empire (Tawantins  (linked in 1 civ(s) (e.g. mississippian-culture) ×2)
+- **Late Intermediate Period** → CROSS → `andean-kingdoms`  (cross-linked elsewhere ×2)
+- **Achaemenid Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×1)
+- **Herodotus** → CROSS → `ancient-greece`  (cross-linked elsewhere ×3)
+- **Pizarro** → REUSE `Francisco_Pizarro` [high] — _Francisco Pizarro_: Francisco Pizarro (; Spanish: [fɾanˈθisko piˈθaro]; c. 1478 – 26 June 1541) was a Spanish conquistador, best k  (linked in 7 civ(s) (e.g. aztec-empire) ×9)
+- **Western Hemisphere** → REUSE `Western_Hemisphere` [high] — _Western Hemisphere_: The Western Hemisphere is the half of the planet Earth that lies west of the Prime Meridian and east of the 18  (linked in 5 civ(s) (e.g. early-american-republic) ×11)
+- **Inti** → REUSE `Inti` [high] — _Inti_: Inti (Quechua: inti, lit. 'sun') is the ancient Inca sun god. He is revered as the national patron of the Inca  (linked in 3 civ(s) (e.g. andean-kingdoms) ×4)
+- **Leland Locke** → `Leslie_Leland_Locke` [high] — _Leslie Leland Locke_: Leslie Leland Locke (1875–1943) was an American mathematician, historian, and educator, best known for his work towards 
+- **kamayoq** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 5
+- **Andean** → CROSS → `andean-kingdoms`  (matches a civ id)
+- **Helios** → REUSE `Helios` [high] — _Helios_: In ancient Greek religion and mythology, Helios (; Ancient Greek: Ἥλιος pronounced [hɛ̌ːlios], lit. 'Sun'; Hom  (linked in 1 civ(s) (e.g. post-maurya-kingdoms) ×2)
+- **Pachacuti** → CROSS → `inca-empire`  (cross-linked elsewhere ×8)
+- **Coricancha** → REUSE `Coricancha` [high] — _Coricancha_: The Coricancha (Cusco Quechua: Quri Kancha, lit. 'golden temple', pronounced [ˈqɔɾi ˈkantʃa]) was the most imp  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Cuzco** → REUSE `Cusco` [high] — _Cusco_: Cusco or Cuzco (; Quechua: Qosqo or Qusqu, both pronounced in Cuzco Quechua as [ˈqosqɔ]) is a city in southeas  (linked in 4 civ(s) (e.g. ancient-nubia) ×5)
+- **Aten** → REUSE `Aten` [high] — _Aten_: Aten, also Aton, Atonu, or Itn (Ancient Egyptian: jtn, reconstructed [ˈjaːtin]) was the focus of Atenism, the   (linked in 1 civ(s) (e.g. new-kingdom-egypt) ×2)
+- **Aurelian** → REUSE `Aurelian` [high] — _Aurelian_: Aurelian (; Latin: Lucius Domitius Aurelianus; 9 September c. 214 – c. November 275) was a Roman emperor from   (linked in 1 civ(s) (e.g. the-goths) ×2)
+- **Sol Invictus** → `Sol_Invictus` [high] — _Sol Invictus_: Sol Invictus (Classical Latin: [ˈsoːɫ ɪnˈwɪktʊs], "Invincible Sun" or "Unconquered Sun") was the official sun god of the
+- **Amaterasu** → CROSS → `prehistoric-japan`  (cross-linked elsewhere ×3)
+- **Lake Titicaca** → CROSS → `early-andean-civilizations`  (cross-linked elsewhere ×1)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×24)
+- **Sapan Apu** → `Mukhosh_(2022_film)` [low] — _Mukhosh (2022 film)_: Mukhosh is a 2022 Bangladeshi mystery thriller film directed by Efthakhar Suvo. With the grant from Government of Bangla
+- **Intip Churin** → `Sapa_Inca` [low] — _Sapa Inca_: The Sapa Inca (from Quechua: sapa inka; lit. 'the only emperor') was the monarch of the Inca Empire (Tawantinsuyu "the r
+- **Topa Inca Yupanqui** → `Topa_Inca_Yupanqui` [high] — _Topa Inca Yupanqui_: Topa Inca Yupanqui or Túpac Inca Yupanqui (Cusco Quechua: Thupa Inka Yupanki, pronounced [ˈtʰupa ˈiŋka juˈpaŋki]), also 
+- **Huayna Capac** → REUSE `Huayna_Capac` [high] — _Huayna Capac_: Huayna Capac ( WY-nə KAP-ak; Cusco Quechua: Wayna Qhapaq [ˈwajna ˈqʰapaχ] – lit. 'the young generous one'; Spa  (linked in 3 civ(s) (e.g. delhi-sultanate) ×6)
+- **Pharaonic Egypt** → CROSS → `early-dynastic-egypt`  (cross-linked elsewhere ×1)
+- **Polo de Ondegardo** → `Polo_de_Ondegardo` [high] — _Polo de Ondegardo_: Polo Ondegardo (c. 1520 in Valladolid – 1575 in Ciudad Rica de La Plata) was a Spanish colonial jurist, civil servant, b
+- **Lima** → REUSE `Lima` [CONFIRM-homonym] — _Lima_: Lima is the capital and largest city of Peru, as well as a primate city. It is located in the valleys of the C  (linked in 3 civ(s) (e.g. andean-kingdoms) ×5 — ⚠ AMBIGUOUS: also Lima_culture(middle-horizon-empires))
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 6 civ(s) (e.g. andean-kingdoms) ×12)
+- **Cerro El Plomo** → `Cerro_El_Plomo` [high] — _Cerro El Plomo_: Cerro El Plomo is a mountain in the Andes near Santiago, Chile. With an elevation of 5,444 metres (17,861 ft), it is the
+- **Chile** → REUSE `Chile` [high] — _Chile_: Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost country  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Aconcagua** → `Aconcagua` [high] — _Aconcagua_: Aconcagua (Spanish pronunciation: [akoŋˈkaɣwa]) is a mountain in the Principal Cordillera of the Andes range, located in
+- **Jesuit** → REUSE `Society_of_Jesus` [CONFIRM-homonym] — _Jesuits_: The Society of Jesus (Latin: Societas Iesu; abbreviation: S.J. or SJ), also known as the Jesuit Order or the J  (linked in 4 civ(s) (e.g. joseon-korea) ×6 — ⚠ AMBIGUOUS: also Jesuits(renaissance-italy))
+- **Akhenaten** → REUSE `Akhenaten` [high] — _Akhenaten_: Akhenaten (pronounced ), also spelled Akhenaton, Echnaton, and Khuenaten (Ancient Egyptian: ꜣḫ-n-jtn ʾŪḫə-nə-y  (linked in 7 civ(s) (e.g. ancient-nubia) ×14)
+- **Roman emperor Aurelian** → `Aurelian` [high] — _Aurelian_: Aurelian (; Latin: Lucius Domitius Aurelianus; 9 September c. 214 – c. November 275) was a Roman emperor from 270 to 275
+- **Japanese imperial tradition** → `Empire_of_Japan` [low] — _Empire of Japan_: The Empire of Japan, also known as the Japanese Empire or Imperial Japan, was the period of Japanese history spanning 79
+- **Citua** → `Situa` [low] — _Situa_: The situa or citua (in Quechua situwa raymi) was the health and ritual purification festival in the Inca Empire. It was 
+
+## Chapter 6
+- **Cuzco** → REUSE `Cusco` [high] — _Cusco_: Cusco or Cuzco (; Quechua: Qosqo or Qusqu, both pronounced in Cuzco Quechua as [ˈqosqɔ]) is a city in southeas  (linked in 4 civ(s) (e.g. ancient-nubia) ×5)
+- **King's Chamber** → REUSE `Great_Pyramid_of_Giza#King's_Chamber` [high] — _Great Pyramid of Giza_: The Great Pyramid of Giza is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyr  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×2)
+- **Great Pyramid** → REUSE `Great_Pyramid_of_Giza` [high] — _Great Pyramid of Giza_: The Great Pyramid of Giza is the largest of the Egyptian pyramids and the most famous landmark of the Giza pyr  (linked in 4 civ(s) (e.g. ancient-nubia) ×9)
+- **Greeks** → REUSE `Greeks` [CONFIRM-homonym] — _Greeks_: The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece,   (linked in 8 civ(s) (e.g. byzantine-empire) ×36 — ⚠ AMBIGUOUS: also Ancient_Greece(al-andalus))
+- **Parthenon** → CROSS → `persian-empire`  (cross-linked elsewhere ×1)
+- **Coricancha** → REUSE `Coricancha` [high] — _Coricancha_: The Coricancha (Cusco Quechua: Quri Kancha, lit. 'golden temple', pronounced [ˈqɔɾi ˈkantʃa]) was the most imp  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Sun Temple** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Sacred Valley** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pachacuti** → CROSS → `inca-empire`  (cross-linked elsewhere ×8)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×24)
+- **Topa Inca Yupanqui** → `Topa_Inca_Yupanqui` [high] — _Topa Inca Yupanqui_: Topa Inca Yupanqui or Túpac Inca Yupanqui (Cusco Quechua: Thupa Inka Yupanki, pronounced [ˈtʰupa ˈiŋka juˈpaŋki]), also 
+- **Huayna Capac** → REUSE `Huayna_Capac` [high] — _Huayna Capac_: Huayna Capac ( WY-nə KAP-ak; Cusco Quechua: Wayna Qhapaq [ˈwajna ˈqʰapaχ] – lit. 'the young generous one'; Spa  (linked in 3 civ(s) (e.g. delhi-sultanate) ×6)
+- **Pachamama** → REUSE `Pachamama` [high] — _Pachamama_: Pachamama (Quechua pronunciation: [ˈpatʃa ˈmama]) or Mama Pacha (pronounced [ˈmama ˈpatʃa]) is the Andean deit  (linked in 3 civ(s) (e.g. early-andean-civilizations) ×6)
+
+## Chapter 7
+- **Caribbean** → REUSE `Caribbean` [high] — _Caribbean_: The Caribbean is a region in the middle of the Americas centered around the Caribbean Sea in the North Atlanti  (linked in 6 civ(s) (e.g. al-andalus) ×12)
+- Mexico → SKIP (modern locator, cat A)
+- **Valley of Mexico** → REUSE `Valley_of_Mexico` [high] — _Valley of Mexico_: The Valley of Mexico (Spanish: Valle de México; Nahuatl languages: Anahuac, lit. 'Land Between the Waters'), s  (linked in 8 civ(s) (e.g. aztec-empire) ×16)
+- **Pizarro** → REUSE `Francisco_Pizarro` [high] — _Francisco Pizarro_: Francisco Pizarro (; Spanish: [fɾanˈθisko piˈθaro]; c. 1478 – 26 June 1541) was a Spanish conquistador, best k  (linked in 7 civ(s) (e.g. aztec-empire) ×9)
+- **Hernando de Soto** → REUSE `Hernando_de_Soto` [high] — _Hernando de Soto_: Hernando de Soto (; Spanish: [eɾˈnando ðe ˈsoto]; c. 1497 – 21 May 1542) was a Spanish explorer and conquistad  (linked in 1 civ(s) (e.g. mississippian-culture) ×1)
+- **Western Hemisphere** → REUSE `Western_Hemisphere` [high] — _Western Hemisphere_: The Western Hemisphere is the half of the planet Earth that lies west of the Prime Meridian and east of the 18  (linked in 5 civ(s) (e.g. early-american-republic) ×11)
+- **Cuzco** → REUSE `Cusco` [high] — _Cusco_: Cusco or Cuzco (; Quechua: Qosqo or Qusqu, both pronounced in Cuzco Quechua as [ˈqosqɔ]) is a city in southeas  (linked in 4 civ(s) (e.g. ancient-nubia) ×5)
+- **Sapa Inca** → REUSE `Sapa_Inca` [high] — _Sapa Inca_: The Sapa Inca (from Quechua: sapa inka; lit. 'the only emperor') was the monarch of the Inca Empire (Tawantins  (linked in 1 civ(s) (e.g. mississippian-culture) ×2)
+- **Atoq** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Huanca Auqui** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Caranqui** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Quipaipan** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Cajamarca** → REUSE `Cajamarca` [CONFIRM-homonym] — _Cajamarca_: Cajamarca (Spanish pronunciation: [kaxaˈmaɾka]), also known by the Quechua name, Kashamarka, is the capital an  (linked in 1 civ(s) (e.g. delhi-sultanate) ×2 — ⚠ AMBIGUOUS: also Battle_of_Cajamarca(mississippian-culture))
+- **Moctezuma** → REUSE `Moctezuma_I` [CONFIRM-homonym] — _Moctezuma I_: Moctezuma I (c. 1398–1469), also known as Montezuma I, Moteuczomatzin Ilhuicamina (Classical Nahuatl: Motēuczō  (linked in 2 civ(s) (e.g. joseon-korea) ×2 — ⚠ AMBIGUOUS: also Moctezuma_II(maya-civilization))
+- **Muisca Confederation** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Colombia** → REUSE `Colombia` [high] — _Colombia_: Colombia, officially the Republic of Colombia, is a country located in South America, with insular regions in   (linked in 2 civ(s) (e.g. early-andean-civilizations) ×4)
+- **Yucatán** → REUSE `Yucat%C3%A1n_Peninsula` [CONFIRM-homonym] — _Yucatán Peninsula_: The Yucatán Peninsula ( YOO-kə-TA(H)N, UK also YUU-; Spanish: Península de Yucatán [peˈninsula ðe ʝukaˈtan]) i  (linked in 5 civ(s) (e.g. early-medieval-europe) ×10 — ⚠ AMBIGUOUS: also Yucatán_Peninsula(zapotec-civilization))
+- **Aztec collapse** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Inca collapse** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Maya Postclassic kingdoms** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Mapuche** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 8
+- **Atahualpa** → REUSE `Atahualpa` [high] — _Atahualpa_: Atawallpa ( ), also Atahualpa or Ataw Wallpa (Classical Quechua: Ataw Wallpa, pronounced [ˈataw ˈwaʎpa]) (c. 1  (linked in 3 civ(s) (e.g. aztec-empire) ×5)
+- **Inca Empire** → CROSS → `inca-empire`  (cross-linked elsewhere ×18)
+- **Francisco de Xerez** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pedro Pizarro** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Juan de Sámano** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Garcilaso de la Vega** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Andean** → CROSS → `andean-kingdoms`  (matches a civ id)
+- **Trujillo** → REUSE `Trujillo,_Peru` [high] — _Trujillo, Peru_: Trujillo (Spanish: [tɾuˈxiʝo]; Quechua: Truhillu; Mochica: Cɥimor) is a city in coastal northwestern Peru and   (linked in 1 civ(s) (e.g. andean-kingdoms) ×3)
+- **Caribbean** → REUSE `Caribbean` [high] — _Caribbean_: The Caribbean is a region in the middle of the Americas centered around the Caribbean Sea in the North Atlanti  (linked in 6 civ(s) (e.g. al-andalus) ×12)
+- **Panama** → REUSE `Panama` [high] — _Panama_: Panama, officially the Republic of Panama, is a country located at the southern end of Central America in Nort  (linked in 1 civ(s) (e.g. maya-civilization) ×2)
+- **Peru** → REUSE `Peru` [high] — _Peru_: Peru, officially the Republic of Peru, is a country in western South America. It is bordered to the north by E  (linked in 6 civ(s) (e.g. andean-kingdoms) ×12)
+- **Peruvian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×24)
+- **Huascar** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Hernando de Soto** → REUSE `Hernando_de_Soto` [high] — _Hernando de Soto_: Hernando de Soto (; Spanish: [eɾˈnando ðe ˈsoto]; c. 1497 – 21 May 1542) was a Spanish explorer and conquistad  (linked in 1 civ(s) (e.g. mississippian-culture) ×1)
+- **Coricancha** → REUSE `Coricancha` [high] — _Coricancha_: The Coricancha (Cusco Quechua: Quri Kancha, lit. 'golden temple', pronounced [ˈqɔɾi ˈkantʃa]) was the most imp  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Seville** → REUSE `Seville` [high] — _Seville_: Seville ( sə-VIL; Spanish: Sevilla, pronounced [seˈβiʎa] locally [seˈβiʝa]) is the capital and largest city of  (linked in 7 civ(s) (e.g. al-andalus) ×32)
+- **Quizquiz** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Lima** → REUSE `Lima` [CONFIRM-homonym] — _Lima_: Lima is the capital and largest city of Peru, as well as a primate city. It is located in the valleys of the C  (linked in 3 civ(s) (e.g. andean-kingdoms) ×5 — ⚠ AMBIGUOUS: also Lima_culture(middle-horizon-empires))
+- *** Dominican** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Huayna Capac** → REUSE `Huayna_Capac` [high] — _Huayna Capac_: Huayna Capac ( WY-nə KAP-ak; Cusco Quechua: Wayna Qhapaq [ˈwajna ˈqʰapaχ] – lit. 'the young generous one'; Spa  (linked in 3 civ(s) (e.g. delhi-sultanate) ×6)
+- **Sapa Inca** → REUSE `Sapa_Inca` [high] — _Sapa Inca_: The Sapa Inca (from Quechua: sapa inka; lit. 'the only emperor') was the monarch of the Inca Empire (Tawantins  (linked in 1 civ(s) (e.g. mississippian-culture) ×2)
+- **Sacsayhuaman** → REUSE `Sacsayhuam%C3%A1n` [high] — _Sacsayhuamán_: Sacsayhuamán ( SACK-sy-wuh-mən; Spanish pronunciation: [saksajwaˈman]) or Saksaywaman (from Quechua Saksay wam  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Juan Pizarro** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Mexico → SKIP (modern locator, cat A)
+- **Sacred Valley** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Pachacuti** → CROSS → `inca-empire`  (cross-linked elsewhere ×8)
+- **Bolivia** → REUSE `Bolivia` [high] — _Bolivia_: Bolivia, officially the Plurinational State of Bolivia, is a landlocked country located in central South Ameri  (linked in 3 civ(s) (e.g. andean-kingdoms) ×6)
+- **Quechua** → CROSS → `tang-song-china`  (cross-linked elsewhere ×1)
+- **Western Hemisphere** → REUSE `Western_Hemisphere` [high] — _Western Hemisphere_: The Western Hemisphere is the half of the planet Earth that lies west of the Prime Meridian and east of the 18  (linked in 5 civ(s) (e.g. early-american-republic) ×11)
+- **Ecuador** → REUSE `Ecuador` [high] — _Ecuador_: Ecuador, officially the Republic of Ecuador, is a country in northwestern South America, bordered by Colombia   (linked in 1 civ(s) (e.g. early-andean-civilizations) ×2)
+- **Argentina** → REUSE `Argentina` [high] — _Argentina_: Argentina, officially the Argentine Republic, is a country in the southern cone of South America. It covers an  (linked in 1 civ(s) (e.g. andean-kingdoms) ×2)
+- **Colombia** → REUSE `Colombia` [high] — _Colombia_: Colombia, officially the Republic of Colombia, is a country located in South America, with insular regions in   (linked in 2 civ(s) (e.g. early-andean-civilizations) ×4)
+- **Pisac** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Juan Velasco** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Aymara** → REUSE `Aymara_language` [high] — _Aymara language_: Aymara (Aymara pronunciation: [ajˈmaɾa] ; also Aymar aru) is an Aymaran language spoken by the Aymara people o  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Chile** → REUSE `Chile` [high] — _Chile_: Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost country  (linked in 2 civ(s) (e.g. andean-kingdoms) ×4)
+- **Moche** → REUSE `Moche_culture` [high] — _Moche culture_: The Moche civilization (Spanish pronunciation: [ˈmotʃe]; alternatively, the Moche culture or the Early, Pre- o  (linked in 2 civ(s) (e.g. early-andean-civilizations) ×3)
+- **Polynesia** → CROSS → `polynesian-voyagers`  (cross-linked elsewhere ×3)
+- **Han Chinese** → CROSS → `han-dynasty`  (cross-linked elsewhere ×6)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Caliphate** → CROSS → `umayyad-caliphate`  (cross-linked elsewhere ×9)
+- **Wari** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×9)
+- **Tiwanaku** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×7)
+- **Machu Picchu** → REUSE `Machu_Picchu` [high] — _Machu Picchu_: Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain r  (linked in 1 civ(s) (e.g. middle-horizon-empires) ×2)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×18)
+- **Ancient Rome** → CROSS → `ancient-rome`  (cross-linked elsewhere ×24)
+- **Han Dynasty** → CROSS → `han-dynasty`  (cross-linked elsewhere ×25)
+- *** Islamic Golden Age Ch** → CROSS → `islamic-golden-age`  (matches a civ id)
+- *** Eurasian** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Battle of Lepanto** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×1)
+- **Mughal Emperor Akbar** → NO-PAGE → blurb (no confident Wikipedia page found)
+- Bengal → SKIP (modern locator, cat A)
+- **Ming China** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×10)
+- **Wanli Emperor** → REUSE `Wanli_Emperor` [high] — _Wanli Emperor_: The Wanli Emperor (4 September 1563 – 18 August 1620), personal name Zhu Yijun, was the 14th emperor of the Mi  (linked in 3 civ(s) (e.g. joseon-korea) ×8)
+- **Ming** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×21)
+- **Songhai Empire** → CROSS → `songhai-empire`  (cross-linked elsewhere ×1)
+- **Ethiopian Empire** → NO-PAGE → blurb (no confident Wikipedia page found)
+- **Songhai** → CROSS → `songhai-empire`  (cross-linked elsewhere ×5)
+- **Mughals** → CROSS → `mughal-empire`  (cross-linked elsewhere ×12)
+- **Tupamaros** → NO-PAGE → blurb (no confident Wikipedia page found)

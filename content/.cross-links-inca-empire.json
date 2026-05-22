@@ -59,6 +59,84 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 5,
       "blurb": "The Inca inherited a deep Andean toolkit — Moche metallurgy, Wari roads, the ayllu — and welded it into the largest empire the Americas ever produced."
+    },
+    {
+      "matchText": "Early Andean Civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The deep backstory: five thousand years of Andean civilization, from the monumental coastal cities of Caral-Supe onward, the foundation the Inca eventually scaled up."
+    },
+    {
+      "matchText": "Middle Horizon",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "The first true Andean empires — Tiwanaku on the southern altiplano and Wari in the central highlands — whose collapse around 1000 CE left the wreckage the Inca inherited."
+    },
+    {
+      "matchText": "Staff God",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 6,
+      "blurb": "The staff-bearing deity at the heart of Chavín de Huántar's religious vocabulary, an image that echoed through Andean iconography for two thousand years down to the Inca."
+    },
+    {
+      "matchText": "Castillo de Huarmey",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 6,
+      "blurb": "A spectacular Wari elite tomb on the Peruvian coast, the kind of rich royal burial the modest Killke culture of the Cuzco basin never produced."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "On the other side of the world, Ming China had just sent Admiral Zheng He's treasure fleets across the Indian Ocean — the same decades Pachacuti was preparing to expand the Inca outward."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 3,
+      "blurb": "Recovering from Timur's catastrophic defeat at Ankara in 1402 and rebuilding toward the conquest of Constantinople, as the Inca began their own imperial surge."
+    },
+    {
+      "matchText": "Timur",
+      "targetTl": "mongol-empire",
+      "targetChapter": 9,
+      "blurb": "The Turco-Mongol conqueror who rebuilt a vast Central Asian empire from Samarkand and shattered the Ottomans at Ankara in 1402, the last great echo of the Mongol order."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 11,
+      "blurb": "The thousand-year Byzantine capital, which fell to the Ottomans in 1453 — fifteen years after Pachacuti seized the Cuzco throne."
+    },
+    {
+      "matchText": "Hundred Years' War",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 3,
+      "blurb": "The long Anglo-French struggle grinding through its final phase as the Inca rose; Joan of Arc was burned in 1431, seven years before Pachacuti took power."
+    },
+    {
+      "matchText": "Mali Empire",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "The great West African gold empire, at the end of its peak under the heirs of Mansa Musa just as the Inca expansion was beginning half a world away."
+    },
+    {
+      "matchText": "Mansa Musa",
+      "targetTl": "mali-empire",
+      "targetChapter": 4,
+      "blurb": "The Mali emperor whose legendary pilgrimage to Mecca made him the richest man of the medieval world; his successors still held Mali at its height as Pachacuti rose."
+    },
+    {
+      "matchText": "Songhai",
+      "targetTl": "songhai-empire",
+      "targetChapter": 1,
+      "blurb": "The rising West African state along the Niger that would soon eat the declining Mali Empire, expanding in the same century the Inca were consolidating the Andes."
+    },
+    {
+      "matchText": "Tenochtitlan",
+      "targetTl": "aztec-empire",
+      "targetChapter": 3,
+      "blurb": "The island capital where the Aztec Triple Alliance was formalized in 1428 — the two great pre-Columbian American empires consolidating in parallel, within a decade of each other."
     }
   ],
   "2": [
@@ -79,6 +157,60 @@
       "targetTl": "han-dynasty",
       "targetChapter": 2,
       "blurb": "The Inca built a road-and-relay administrative state — a New World parallel to the Han imperial machine, reached without writing or the wheel."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Rome: the early Republic, where it took roughly five centuries to grow from a small Italian city-state into a Mediterranean power — the slow expansion the Inca burst would invert."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Han China: after the dynasty's 202 BCE founding, decades of consolidation locked in the territory the Qin had briefly held — a slower path to empire than the Inca's single reign."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the early Caliphate: Arab armies grew a transcontinental Islamic state in about a hundred years through the great conquests west and east."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile on the steppe: the Mongols' Eurasian whirlwind expanded faster than any earlier empire — the closest precedent for the Inca's explosive growth rate."
+    },
+    {
+      "matchText": "Lake Titicaca",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the deeper Andean past: the high basin around Lake Titicaca, a cradle of Andean civilization long before the Aymara kingdoms the Inca would absorb."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Andean past: the Wari, the highland empire whose roads, storehouses, and rotational-labor practices the Inca inherited and scaled up centuries later."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Andean past: Tiwanaku, the Lake Titicaca-centered state whose dual-division organizing principles the Inca built into the very layout of Cuzco."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andean past: the mountain world after Moche and Nazca, where the Wari and Tiwanaku empires set the template the Inca would later inherit."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andean past: the regional kingdoms that followed Chavín, the older organizational world from which Inca principles like paired complementary opposition descended."
     }
   ],
   "3": [
@@ -87,6 +219,42 @@
       "targetTl": "mongol-empire",
       "targetChapter": 8,
       "blurb": "The administrative scale of the Inca Empire under Topa Inca and Huayna Capac (roughly 12 million subjects, 770,000 square miles, 25,000 miles of road network) is the closest pre-Columbian analogue to the largest Eurasian empires of the same century. The Mongol successor states across Asia — and in particular the Yuan-into-Ming transition — show a comparable institutional sophistication built on inherited regional administrative traditions, both of them executing imperial administration at continental scale through small bureaucratic elites."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the wider Andes — the regional kingdoms that rose across the highlands and coast in the centuries before the Inca pulled them all into a single empire."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the earlier Andes — the Wari and Tiwanaku empires of the Middle Horizon that first built highland statecraft the Inca would later inherit and expand."
+    },
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the Atlantic — the Ottoman Empire, the contemporary Old World state whose roughly comparable size makes a striking yardstick for the Inca realm."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, by way of comparison — Rome, whose empire at its greatest extent was actually shorter north-to-south than the 2,500-mile Inca state."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, by way of comparison — Persia, one of the Old World empires that solved the problems of long-distance imperial administration with a different toolset than the Inca."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, by way of comparison — the Caliphate, another vast premodern state that ran administration across great distances by means the Inca achieved without writing or the wheel."
     }
   ],
   "4": [
@@ -113,6 +281,36 @@
       "targetTl": "persian-empire",
       "targetChapter": 3,
       "blurb": "The Inca imperial machine — resettlement, road system, storehouses, a lingua franca — is the closest New World analogue to the Achaemenid administrative empire."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andean Kingdoms: the regional cultures the Inca later inherited — Moche, Nazca, and their neighbors — built the coastal and highland traditions that the Inca scaled up into an empire."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Middle Horizon Empires: Wari and Tiwanaku spread the first highland states across the Andes, laying down the roads and storehouses the Inca would later refurbish."
+    },
+    {
+      "matchText": "Late Intermediate Period",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Andean Kingdoms: after the Middle Horizon empires collapsed, the Andes broke into the competing regional kingdoms of the Late Intermediate Period, the world the Inca conquered."
+    },
+    {
+      "matchText": "Achaemenid Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in the Persian Empire: the Achaemenids ran a continent-spanning state on a Royal Road with relay couriers — the closest Old World parallel to the chasqui system."
+    },
+    {
+      "matchText": "Herodotus",
+      "targetTl": "ancient-greece",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Ancient Greece: Herodotus, the \"Father of History,\" wrote the account of the Persian royal courier relays that the chasqui are measured against."
     }
   ],
   "5": [
@@ -133,8 +331,39 @@
       "targetTl": "aztec-empire",
       "targetChapter": 6,
       "blurb": "Inca solar religion and royal mummy cult parallels Aztec state religion — divine kingship demanding ritual to keep the cosmos running."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andean world: the older highland and coastal kingdoms — Moche, Nazca, and their neighbors — built the pan-Andean religious tradition the Inca later absorbed and centralized."
+    },
+    {
+      "matchText": "Amaterasu",
+      "targetTl": "prehistoric-japan",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in early Japan: rulers from Himiko onward derived authority from descent from the sun goddess Amaterasu — the same sun-god-as-dynastic-ancestor logic the Inca built around Inti."
+    },
+    {
+      "matchText": "Lake Titicaca",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the early Andes: the Titicaca basin was a hearth of highland civilization — where the potato was domesticated and where Andean creation myths, including Viracocha's, were rooted."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile across the Andes: Wari and Tiwanaku had already knit the mountain world into empire-scale systems centuries before the Inca, laying the religious and administrative groundwork."
+    },
+    {
+      "matchText": "Pharaonic Egypt",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in early Egypt: the pharaonic system made the king a living divinity, and royal brother-sister marriage was justified the same way the Inca justified theirs — keeping a divine bloodline pure."
     }
   ],
+  "6": [],
   "7": [
     {
       "matchText": "Tenochtitlan in 1521",
@@ -165,6 +394,18 @@
       "targetTl": "maya-civilization",
       "targetChapter": 8,
       "blurb": "The conquest-era collapse of the Inca closes the independent history of the Americas' great civilizations, as it did for the last Maya states."
+    },
+    {
+      "matchText": "Aztec collapse",
+      "targetTl": "aztec-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mexico: the same script ran twelve years earlier — smallpox swept Tenochtitlan, the emperor Moctezuma died in the surge, and Cortés exploited the succession crisis to bring down the Aztec Empire in 1519–21."
+    },
+    {
+      "matchText": "Maya Postclassic kingdoms",
+      "targetTl": "maya-civilization",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Yucatán: the small, splintered Maya kingdoms of the Postclassic had no single capital to capture, so the Spanish ground through them piecemeal from 1527, and the last independent kingdom held out until 1697."
     }
   ],
   "8": [
@@ -197,6 +438,90 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 5,
       "blurb": "Pizarro's tiny band toppling a vast empire is the gunpowder-and-disease asymmetry that, in a gentler form, also shadowed the Ottoman age."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: long before the Inca, regional kingdoms like the Chimú and the lake peoples built the political world Pizarro's expedition was sailing toward."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: the Wari and Tiwanaku empires of the Middle Horizon were the first to knit the highlands and coast into something the Inca would later inherit."
+    },
+    {
+      "matchText": "Polynesia",
+      "targetTl": "polynesian-voyagers",
+      "targetChapter": 7,
+      "blurb": "Meanwhile across the Pacific: Polynesian navigators reached the most remote islands on Earth — and, the sweet-potato trail suggests, the South American coast as well."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Han dynasty ran a continent-scale empire whose administrative reach is one of the Old World's closest parallels to the Inca state."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the Achaemenid Persians pioneered the road network, provincial governors, and royal relay couriers that the Inca would independently reinvent in the Andes."
+    },
+    {
+      "matchText": "Caliphate",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Near East: the early Islamic Caliphate built one of history's fastest-expanding empires, a benchmark for the kind of integration the Inca achieved."
+    },
+    {
+      "matchText": "Wari",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 3,
+      "blurb": "Meanwhile centuries earlier in Peru: the Wari built the road and storehouse systems the Inca would later scale up across the whole Andes."
+    },
+    {
+      "matchText": "Tiwanaku",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 2,
+      "blurb": "Meanwhile centuries earlier near Lake Titicaca: Tiwanaku's monumental stonework and religious iconography prefigured the Inca cult of the Sun."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in the Mediterranean: Rome's empire is the classic Old-World comparison for the Inca — continent-scale rule held together by roads and administration."
+    },
+    {
+      "matchText": "Ming",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: the Ming dynasty ran the largest, most centralized state on Earth in the same century the Inca empire rose and fell."
+    },
+    {
+      "matchText": "Battle of Lepanto",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Mediterranean: in 1571, the year before Tupac Amaru's execution, a Christian fleet shattered the Ottoman navy at Lepanto."
+    },
+    {
+      "matchText": "Songhai Empire",
+      "targetTl": "songhai-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in West Africa: the Songhai Empire was decades from its 1591 collapse to a Moroccan musket army — another great state about to fall to a small gunpowder force."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in South Asia: the Mughal Empire under Akbar was consolidating one of history's largest contiguous states — a rival Spain could not touch."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Near East: the Abbasid Caliphate's golden age was the Old World's great example of an empire fusing administration, science, and trade at continental scale."
     }
   ]
 }
