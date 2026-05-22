@@ -4,6 +4,13 @@ Phase-2 War vertical, pilot #1. Built in the `feat/phase-2` worktree. The point
 of the pilot: push the forked civ pipeline end-to-end on one war and let it
 reveal what actually breaks — before building any other war. `kind: 'war'`.
 
+## Governing principle
+**Good storytelling is the top priority — with factual accuracy and zero
+hallucination as non-negotiable hard constraints.** Every section leads with
+narrative (prose first, stats second); nothing is a bare stat sheet. Accuracy
+never bends to story: dates, numbers, quotes are sourced. See
+`memory/feedback_storytelling_first`.
+
 ## Locked decisions
 - **Pilot = American Civil War**, 1861–1865 (causes from 1850).
 - **~10 chapters**, movement-driven (NOT a template, NOT padded with battles).
@@ -13,17 +20,23 @@ reveal what actually breaks — before building any other war. `kind: 'war'`.
 - **Signature "more than a civ" features for the pilot: A + C.**
   - **A · Dual perspective** — key moments readable from both sides (Union /
     Confederate). A reader POV toggle. Pairs with the war POV audit persona.
-  - **C · Battle box-score cards** — date / place / commanders / forces /
-    casualties / outcome, richer than a civ event card.
+  - **C · Battle box-score cards** — NARRATIVE-LED: lead with a few paragraphs
+    of house-voice prose telling the battle's story, with the stat block (date /
+    place / commanders / forces / casualties / outcome) as support underneath.
+    Every section follows this rule — prose first, data second; never a bare
+    stat sheet.
 - **Battle layer is two-layer (comprehensiveness):**
   - Narrative chapters are SELECTIVE (the story; major battles inline).
-  - A separate battle layer is EXHAUSTIVE — target **Decisive + Major (CWSAC
-    A+B, ~150 battles)**, built in tiers (Decisive ~45 first, then Major).
-  - Reached two ways: **inline-expandable** battle cards in the prose, and a
-    **complete searchable/sortable battle index**.
+  - A separate battle layer is EXHAUSTIVE — **Decisive + Major + Mid (CWSAC
+    A+B+C, ~280 battles)**.
+  - **Each battle is its OWN full story**, not a card+stats: chapter-like
+    sections — *What came before* → *The battle* (with dual POV) → *What it
+    meant* — then the stat block as support. ~400–700 words each.
+  - Reached two ways: **inline-expandable** in the prose, and a **complete
+    searchable/sortable battle index**.
   - **Source data seeds from the CWSAC principal-battles catalog + Wikipedia
-    battle infoboxes** (wars have no v1 timeline file). Machine-assist the stat
-    blocks from infoboxes, then edit.
+    battle infoboxes** (wars have no v1 timeline file). Infoboxes seed the stat
+    blocks; the prose is authored + sourced (no hallucinated specifics).
 - **Deferred:** B (living map — needs real map art, the planned interactive
   drawer) and D (follow-a-commander synthesized arc) come AFTER the pilot.
 
@@ -69,5 +82,19 @@ Replaces the civ 8. War events spread across these so a chapter isn't all battle
   after the sweep settles.
 - Map prompts need a war template (fronts/advances, not territorial extent).
 
+## Scale & build strategy (read this honestly)
+~280 battle stories × ~400–700 words each ≈ **150k–200k words** — on top of the
+10 main chapters. That is the single largest content effort in the project,
+several civs' worth, and storytelling-first + zero-hallucination means it CANNOT
+be mass-generated and shipped — each story needs sourcing + craft + the accuracy
+gates. So **build in tiers, never all at once:**
+1. Lock the battle-story format + the 10 chapters (the spine).
+2. Author the **~45 Decisive battles** at full quality first — shippable, proves
+   the format and the pipeline.
+3. Expand to **Major (~104)**, then **Mid (~128)** in waves.
+The pilot is "done enough to ship/learn" at tier 1–2; the long tail follows.
+
 ## Status
-Scope locked 2026-05-21. Category set pending sign-off. Authoring not started.
+Scope locked 2026-05-21 (American Civil War; ~10 chapters; battle layer A+B+C
+~280, each a full story; storytelling-first). Category set proposed, pending
+sign-off. Authoring not started.
