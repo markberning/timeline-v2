@@ -17,6 +17,90 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "Kievan Rus' is the eastern half of the Viking expansion — the Norse who rowed down the Russian rivers after silver, not the ones who raided the Atlantic."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, the army that burned Kyiv in 1240 was no random raid: it was the western wing of the Mongol world-conquest, the campaign Genghis Khan's sons and grandsons drove deep into Europe."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, far to the southeast lay a civilization even harder to reconstruct than early Rus' — the Indus Valley, a vast Bronze Age urban world whose script we still cannot read."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, the Abbasid world the Rus' traded into was at its intellectual height — translating Greek science, inventing algebra, and minting the silver that flowed up the Russian rivers."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, Latin was the language of Rome, the ancestral western tongue of the same Indo-European family that produced Slavic, Greek, and Persian."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile, to the west the Frankish realm of Charlemagne had crowned a new western Roman emperor in 800 before fragmenting into the warring kingdoms that became France and Germany."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, Persian sits in the same vast Indo-European language family as Slavic, Latin, and Greek — kindred tongues from a common deep root."
+    },
+    {
+      "matchText": "Scandinavian",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, the same Norse outward push that raided England and France sent its eastern wing — these Scandinavian traders — down the Russian rivers after silver."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, across the Black Sea sat Byzantium, the Greek-speaking eastern continuation of the Roman Empire and the richest city in Christian Europe."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile, the dirhams that buried themselves in northern hoards were struck in Baghdad and other Abbasid mints — the silver flood that drew the Rus' down the Volga."
+    },
+    {
+      "matchText": "Samarkand",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile, Samarkand was an ancient Central Asian trade city, long part of the Persian world, whose mints helped feed the silver pouring north to the Rus'."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, in Scandinavia the Islamic silver pouring up the rivers piled into hoards — one Gotland find held some 14,000 coins — fueling the trading society the Vikings grew out of."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile, the Roman Empire that Byzantium continued had for centuries faced its great eastern rival across the Euphrates — Parthian, then Sassanid Persia."
+    },
+    {
+      "matchText": "Early Medieval Europe",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 6,
+      "blurb": "Meanwhile, in the West, Charlemagne's empire split apart at the Treaty of Verdun into the warring fragments that would become the kingdoms of medieval Europe."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile, on the open steppe the deadliest nomads of all were rising — the Mongols, whose grandsons of Genghis Khan would end Kievan Rus' in 1240."
     }
   ],
   "2": [
@@ -31,6 +115,48 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The 'invitation to the Varangians' is the Rus' foundation legend — the eastern Norse story the Viking narrative tells from the Scandinavian end."
+    },
+    {
+      "matchText": "Scandinavian",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Viking Age: the same Scandinavian war-bands that founded Rus' were, at home, the seafaring raiders and traders of the Norse world."
+    },
+    {
+      "matchText": "North Sea",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in early medieval Europe: while one Norse stream pushed east down the rivers, others raided the North Sea and Frankish coasts during the Viking shock of the 9th century."
+    },
+    {
+      "matchText": "Soviet",
+      "targetTl": "soviet-union",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Soviet Union: under Stalin the state policed history itself, and the Normanist reading of Rus' origins was banned as an insult to the Slavic peoples."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in early medieval Europe: the Frankish kings who chronicled the Rhos and later granted the Seine valley to Norsemen were the heirs of Charlemagne's divided empire."
+    },
+    {
+      "matchText": "Vladimir",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Viking Age: the eastern Norse adventure produced the Rus' princes — Svyatoslav, Vladimir — whose dynasty began with Scandinavian names and ended up thoroughly Slavic."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the empire on the Bosphorus was the southern magnet for the river road, the destination the Rus' both raided and traded with."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: Greek chroniclers recorded the Rus' raids on Constantinople, giving us an outside check on the Primary Chronicle's foundation stories."
     }
   ],
   "3": [
@@ -51,6 +177,42 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "Oleg's shield on Constantinople's gate marks the relationship that defined Rus' — Byzantium as trade partner, military target, and civilizational model."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: these were the Macedonian-dynasty decades, when Constantinople was the richest, most bureaucratic city in Christendom — the prize the Rus' raided in 860 and then signed trade treaties with."
+    },
+    {
+      "matchText": "Frankish",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Frankish world: Charlemagne's heirs ruled the great Christian realm of western Europe, whose annals recorded one of the earliest outside mentions of the Rus' in 839."
+    },
+    {
+      "matchText": "Abbasid Caliphate",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Abbasid Caliphate: the Baghdad-centered empire that, even as the Rus' were taking shape, sat at the heart of the Islamic world and drew Rus' silver-and-fur traders down the Volga."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Islamic Golden Age: while Oleg's envoys haggled over customs duties in Constantinople, Baghdad's scholars were at the height of a scientific and translation boom that had no rival anywhere."
+    },
+    {
+      "matchText": "Anglo-Saxon England",
+      "targetTl": "anglo-saxon-england",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Anglo-Saxon England: the heirs of Alfred the Great were fighting off Viking armies — the western cousins of the very Norse-rooted Rus' now treating with Byzantium in the east."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Viking Age: the Rus' were the eastern front of a single Scandinavian outward push that reached the Atlantic, the Mediterranean, and the Caspian within one human lifetime."
     }
   ],
   "4": [
@@ -65,6 +227,30 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "The Viking Age narrative rates Olga's 957 baptism among the era's most consequential individual choices. From the Norse-dynastic angle, a Scandinavian-descended ruling house had just brought the most prestigious Christian court on earth into formal relationship with itself."
+    },
+    {
+      "matchText": "Byzantine Empire",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: in the tenth-century Macedonian era, the empire the Rus' raided was at the height of its power and guarded Greek fire as its great state secret."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: the wealthy, ceremony-obsessed Macedonian-era empire that fought off Igor's fleet in 941 and then negotiated the 945 treaty."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Viking world: the same Scandinavians who raided westward also pushed east down the rivers, becoming the Rus' and reaching all the way to Constantinople."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome's long shadow: Latin, the language of the old empire, was the tongue of the Western church Olga briefly courted before the Rus' settled on the Greek East."
     }
   ],
   "5": [
@@ -85,6 +271,24 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "Svyatoslav's wars smashed the Khazars and battered Byzantium — the pagan Rus' at its most ferocious, just before the great conversion."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: in the 960s Constantinople was the rich, scheming superpower that hired Svyatoslav to break Bulgaria, then turned on him when he grew too dangerous."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: the Macedonian-era empire under John Tzimiskes played Rus' and Bulgaria against each other, then crushed Svyatoslav and swallowed Bulgaria itself."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile on the steppe: two and a half centuries later, the western Mongol campaign under Batu Khan poured through the same gap Svyatoslav had opened and ended Kievan Rus'."
     }
   ],
   "6": [
@@ -105,6 +309,30 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 5,
       "blurb": "Vladimir's choice of Greek Christianity (988), sealed by marriage to Basil II's sister, bound Rus' to Byzantium — the decision that made Russia Orthodox."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Scandinavia, the seafaring Norse world that a fleeing Rus' prince could sail to for hired men."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Viking Age, the Norse turn east into the rivers of the Rus', making the Baltic a revolving harbor for displaced rulers."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium, the Macedonian emperors' wealth and liturgical splendor made Constantinople the prestige patron Vladimir chose."
+    },
+    {
+      "matchText": "Norman Conquest",
+      "targetTl": "viking-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in 1066, the Norman conquest of England drove Anglo-Saxon exiles east, some into the Varangian Guard at Constantinople."
     }
   ],
   "7": [
@@ -125,6 +353,80 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 6,
       "blurb": "Yaroslav's golden-age Kyiv consciously imitated Constantinople — its own Hagia Sophia, its own Golden Gate, a daughter-civilization of Byzantium."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: Constantine founded his new capital on the Bosphorus in 324, the city the Rus' spent two centuries raiding and trading with before Yaroslav set out to imitate it."
+    },
+    {
+      "matchText": "Macedonian Renaissance",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: the Macedonian Renaissance was Constantinople's cultural and military high tide under emperors like Basil II — the dazzling model Yaroslav's Kyiv was reaching to rival."
+    },
+    {
+      "matchText": "Hagia Sophia",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Byzantium: Justinian's Hagia Sophia, the 'Holy Wisdom' raised in 537, was the domed marvel that gave Yaroslav's Saint Sophia of Kyiv its name and its template."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "Meanwhile among the Germani: their early law codes made the same move Yaroslav's Russkaya Pravda did, replacing private blood-vengeance with fixed scales of compensation."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: Latin began as the tongue of a small town on the Tiber and became the language of Western Christendom — the script Anne of Kyiv signed her name beside in Cyrillic."
+    },
+    {
+      "matchText": "Varangian Guard",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Viking world: the Varangian Guard was the elite Norse bodyguard of the Byzantine emperors, the Constantinople posting where men like Harald Hardrada earned fame and fortune."
+    },
+    {
+      "matchText": "Viking Age",
+      "targetTl": "viking-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Viking world: the great age of Scandinavian raiding, trading, and settlement that sent the Varangians east into Rus' and west across the seas."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the Greek-speaking Roman empire centered on Constantinople, the cultural and religious parent Yaroslav's Kyiv was modeling itself upon."
+    },
+    {
+      "matchText": "Norman Conquest of England",
+      "targetTl": "viking-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Viking world: in 1066 William of Normandy crossed to Hastings days after Harald Hardrada — Elisaveta's husband — fell at Stamford Bridge, the twin invasions that closed the Viking age."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 3,
+      "blurb": "Meanwhile on the steppe: the Mongol whirlwind of the 1230s would overrun the Rus' principalities and cut them off from Europe, the rupture Chapter 12 returns to."
+    }
+  ],
+  "8": [
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in ancient Rome, the language of these legal terms was born. Latin was the speech of the small Italian city on the Tiber that grew into an empire, and it long outlived Rome itself as the working tongue of law, scholarship, and the Western Church."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Constantinople, the emperor Constantine IX Monomachos — Vladimir Monomakh's namesake grandfather — sat on the throne in the closing years of the Macedonian dynasty, when a dynastic marriage tied the Byzantine and Rus' courts together."
     }
   ],
   "9": [
@@ -133,6 +435,80 @@
       "targetTl": "viking-age",
       "targetChapter": 4,
       "blurb": "Novgorod's twelfth-century fur wealth flowed down trade routes the Norse had pioneered three centuries earlier. The same squirrel, sable, wax, and amber that drew Scandinavians toward Baghdad's silver now fed Baltic German markets, the eastern terminus of a Viking-age commercial geography."
+    },
+    {
+      "matchText": "Mongol",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Mongol Empire: Batu Khan's Great Western Campaign smashed the Russian principalities, taking Vladimir in 1238 and Kyiv in 1240."
+    },
+    {
+      "matchText": "Mongols",
+      "targetTl": "mongol-empire",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Mongol Empire: the western campaign that overran Rus' and pushed on into Hungary and Poland."
+    },
+    {
+      "matchText": "North Sea",
+      "targetTl": "early-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in early medieval Europe: the Vikings who came out of the North Sea were the same Scandinavian world whose Baltic trade Novgorod now anchored."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: Constantinople was the imperial capital Kyiv had always looked to for legitimacy and faith."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the empire whose icons, churches, and Orthodoxy the Rus' princes imported and reproduced."
+    }
+  ],
+  "10": [
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: the Macedonian Renaissance had Constantinople at the height of its wealth and prestige, the very market Rus' furs and slaves flowed down the Dnieper to reach."
+    },
+    {
+      "matchText": "Vladimir",
+      "targetTl": "viking-age",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Viking world: Vladimir, the Norse-descended prince of Kiev, chose Orthodox Christianity in 988, the conversion that turned a Norse trading enterprise into a Byzantine-Christian realm."
+    },
+    {
+      "matchText": "Scandinavia",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Scandinavia: the same Islamic dirhams that buried hoards across Rus' lands also flooded the Swedish trading towns, the silver residue of the river trade reaching its northern source."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in Byzantium: Constantinople was the great southern terminus of the Rus' river trade, buying the furs, wax, and slaves that came down the Dnieper each spring."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in the Abbasid world: Baghdad's mints and markets pulled Rus' silver northward in such volume that imported Islamic dirhams became the money supply of the north."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Baghdad: the Abbasid capital anchored the silver flood, its dirhams carried up the Volga to pay for the furs and slaves of the Rus' forests."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Constantinople: the imperial capital so dazzled western visitors that they compared Kyiv to it; the annual Rus' trade convoy ran the Dnieper rapids to reach its markets."
     }
   ],
   "11": [
@@ -191,6 +567,36 @@
       "targetTl": "russian-empire",
       "targetChapter": 1,
       "blurb": "What grew after — Moscow, the gathering of the Rus' lands — is the direct sequel: the Russian Empire's deep root is the Kievan inheritance."
+    },
+    {
+      "matchText": "Genghis Khan",
+      "targetTl": "mongol-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in the Mongol Empire: Temüjin united the steppe tribes and took the title Genghis Khan, founding the war machine whose grandsons would later overrun Rus'."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the land of Cyrus and Darius, an old heartland of empire whose conquered cities gave the Mongols their siege engineers."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Byzantine Empire: Constantinople, the great Christian metropolis on the Bosphorus that Rus' raided, traded with, and finally took as the model for its own churches."
+    },
+    {
+      "matchText": "Tatar Yoke",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in the Mongol Empire: the western khanate, the Golden Horde, settled on the lower Volga and ruled the Rus' principalities for some 240 years through tribute and the yarlik."
+    },
+    {
+      "matchText": "Soviet",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Soviet Union: the regime that reclaimed Alexander Nevsky as a patriotic icon and rewrote the Kievan origin story to fit its own myths."
     }
   ]
 }

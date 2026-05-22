@@ -73,12 +73,6 @@
       "type": "institution"
     },
     {
-      "term": "Constantine VII Porphyrogenitus",
-      "matchText": "Constantine VII",
-      "wikiSlug": "Constantine_VII",
-      "type": "person"
-    },
-    {
       "term": "De Administrando Imperio",
       "matchText": "De Administrando Imperio",
       "wikiSlug": "De_Administrando_Imperio",
@@ -151,12 +145,6 @@
       "type": "institution"
     },
     {
-      "term": "Macedonian Renaissance",
-      "matchText": "Macedonian Renaissance",
-      "wikiSlug": "Macedonian_Renaissance",
-      "type": "concept"
-    },
-    {
       "term": "Pechenegs",
       "matchText": "Pechenegs",
       "wikiSlug": "Pechenegs",
@@ -181,16 +169,125 @@
       "type": "people"
     },
     {
-      "term": "Gotland",
-      "matchText": "Gotland",
-      "wikiSlug": "Gotland",
-      "type": "place"
-    },
-    {
       "term": "Primary Chronicle",
       "matchText": "Povest' vremennykh let",
       "wikiSlug": "Primary_Chronicle",
       "type": "concept"
+    },
+    {
+      "matchText": "Baltic Sea",
+      "term": "Baltic Sea",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Caspian Sea",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Moscow",
+      "term": "Moscow",
+      "wikiSlug": "Moscow"
+    },
+    {
+      "matchText": "Polotsk",
+      "term": "Polotsk",
+      "wikiSlug": "Polotsk"
+    },
+    {
+      "matchText": "Russians",
+      "term": "Russians",
+      "wikiSlug": "Russians"
+    },
+    {
+      "matchText": "Ukrainians",
+      "term": "Ukrainians",
+      "wikiSlug": "Ukrainians"
+    },
+    {
+      "matchText": "Oleg",
+      "term": "Oleg",
+      "wikiSlug": "Oleg_of_Novgorod"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Rurik",
+      "term": "Rurik",
+      "wikiSlug": "Rurik"
+    },
+    {
+      "matchText": "Pilgrims",
+      "term": "Pilgrims",
+      "wikiSlug": "Pilgrimage"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Iranian plateau",
+      "term": "Iranian plateau",
+      "wikiSlug": "Iranian_Plateau"
+    },
+    {
+      "matchText": "Swedes",
+      "term": "Swedes",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Indo-European",
+      "term": "Indo-European",
+      "wikiSlug": "Indo-European_languages"
+    },
+    {
+      "matchText": "Scandinavians",
+      "term": "Scandinavians",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Danegeld",
+      "term": "Danegeld",
+      "wikiSlug": "Danegeld"
+    },
+    {
+      "matchText": "Francia",
+      "term": "Francia",
+      "wikiSlug": "Francia"
+    },
+    {
+      "matchText": "Neva",
+      "term": "Neva",
+      "wikiSlug": "Neva"
+    },
+    {
+      "matchText": "Istanbul",
+      "term": "Istanbul",
+      "wikiSlug": "Istanbul"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Pontic steppe",
+      "term": "Pontic steppe",
+      "wikiSlug": "Pontic%E2%80%93Caspian_steppe"
+    },
+    {
+      "matchText": "Greek-speaking",
+      "term": "Greek-speaking",
+      "definition": "Although the Byzantine Empire was the direct eastern continuation of the Roman Empire and its people called themselves Romans, their everyday and administrative language was Greek, not Latin. \"Greek-speaking\" marks that linguistic reality: a Roman state that thought in Greek."
+    },
+    {
+      "matchText": "Rhos",
+      "term": "Rhos",
+      "definition": "The Rhos — the name Byzantine and Arab writers gave the Norse-led Rus’ traders and raiders, the people from whom “Rus’” and “Russia” take their name."
     }
   ],
   "2": [
@@ -279,12 +376,6 @@
       "type": "people"
     },
     {
-      "term": "Annals of Saint-Bertin",
-      "matchText": "Annals of Saint-Bertin",
-      "wikiSlug": "Annales_Bertiniani",
-      "type": "object"
-    },
-    {
       "term": "Khagan",
       "matchText": "khagan",
       "wikiSlug": "Khagan",
@@ -337,6 +428,76 @@
       "matchText": "tsars of Russia",
       "wikiSlug": "Tsar",
       "type": "institution"
+    },
+    {
+      "matchText": "Basque",
+      "term": "Basque",
+      "wikiSlug": "Basques"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Scandinavians",
+      "term": "Scandinavians",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Slavs",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Seine",
+      "term": "Seine",
+      "wikiSlug": "Seine"
+    },
+    {
+      "matchText": "Northmen",
+      "term": "Northmen",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Danube",
+      "term": "Danube",
+      "wikiSlug": "Danube"
+    },
+    {
+      "matchText": "Slavic-speaking",
+      "term": "Slavic-speaking",
+      "wikiSlug": "Slavic_languages"
+    },
+    {
+      "matchText": "Svyatoslav",
+      "term": "Svyatoslav",
+      "wikiSlug": "Sviatoslav_I"
+    },
+    {
+      "matchText": "Franks",
+      "term": "Franks",
+      "wikiSlug": "Franks"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Danish",
+      "term": "Danish",
+      "definition": "Of Denmark or the Danes, the North Germanic people of the Jutland peninsula and surrounding islands. In the Viking Age the Danes were among the most active Scandinavian seafarers raiding and settling the North Sea coasts."
+    },
+    {
+      "matchText": "Rhos",
+      "term": "Rhos",
+      "definition": "An early Latin and Greek rendering of \"Rus'\" — the name outside observers (here a Frankish chronicle echoing a Byzantine report) used for the Scandinavian traders and warriors operating along the eastern rivers, who turned out, on Frankish inquiry, to be Swedes."
     }
   ],
   "3": [
@@ -480,6 +641,71 @@
       "wikiSlug": "",
       "type": "concept",
       "definition": "A fortune-teller — someone believed able to foretell what is coming, by reading omens, casting lots, or sheer prophetic gift. In the Rus' chronicles a soothsayer is the figure who warns a prince how he will die, and is then proven grimly right."
+    },
+    {
+      "matchText": "Primary Chronicle",
+      "term": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Helgi",
+      "term": "Helgi",
+      "definition": "The Old Norse personal name that the Slavs reshaped into \"Oleg.\" It carries the sense of \"holy\" or \"blessed,\" and its survival in the early Rus' dynasty is a small clue that those first rulers were still Norse-named even as they governed Slavic-speaking subjects."
+    },
+    {
+      "matchText": "Slavs",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Rurik",
+      "term": "Rurik",
+      "wikiSlug": "Rurik"
+    },
+    {
+      "matchText": "Slavic liturgical script",
+      "term": "Slavic languages",
+      "wikiSlug": "Slavic_languages"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Askold",
+      "term": "Askold and Dir",
+      "wikiSlug": "Askold_and_Dir"
+    },
+    {
+      "matchText": "Varangians",
+      "term": "Varangians",
+      "wikiSlug": "Varangians"
+    },
+    {
+      "matchText": "Olga",
+      "term": "Olga of Kiev",
+      "wikiSlug": "Olga_of_Kiev"
+    },
+    {
+      "matchText": "Normandy",
+      "term": "Duchy of Normandy",
+      "wikiSlug": "Duchy_of_Normandy"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavia",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Caspian",
+      "term": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea"
     }
   ],
   "4": [
@@ -488,12 +714,6 @@
       "matchText": "al-Mas'udi",
       "wikiSlug": "Al-Masudi",
       "type": "person"
-    },
-    {
-      "term": "Caspian Sea",
-      "matchText": "the Caspian Sea",
-      "wikiSlug": "Caspian_Sea",
-      "type": "place"
     },
     {
       "term": "Greek fire siphon",
@@ -557,12 +777,6 @@
       "type": "person"
     },
     {
-      "term": "Otto I",
-      "matchText": "Otto I",
-      "wikiSlug": "Otto_I,_Holy_Roman_Emperor",
-      "type": "person"
-    },
-    {
       "term": "Holy Roman Emperor",
       "matchText": "Holy Roman Emperor",
       "wikiSlug": "Holy_Roman_Emperor",
@@ -605,16 +819,34 @@
       "type": "object"
     },
     {
-      "term": "Equal-to-apostles",
-      "matchText": "Equal to the Apostles",
-      "wikiSlug": "Equal-to-apostles",
-      "type": "concept"
+      "matchText": "Igor",
+      "term": "Igor",
+      "wikiSlug": "Igor_of_Kiev"
     },
     {
-      "term": "Olga of Kiev",
-      "matchText": "the Widow Who Burned a City",
-      "wikiSlug": "Olga_of_Kiev",
-      "type": "people"
+      "matchText": "Oleg",
+      "term": "Oleg",
+      "wikiSlug": "Oleg_of_Novgorod"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Vladimir",
+      "term": "Vladimir",
+      "wikiSlug": "Vladimir_the_Great"
     }
   ],
   "5": [
@@ -649,12 +881,6 @@
       "type": "institution"
     },
     {
-      "term": "Vyatichi",
-      "matchText": "Vyatichi",
-      "wikiSlug": "Vyatichi",
-      "type": "people"
-    },
-    {
       "term": "Sarkel",
       "matchText": "Sarkel",
       "wikiSlug": "Sarkel",
@@ -671,12 +897,6 @@
       "matchText": "the Don",
       "wikiSlug": "Don_(river)",
       "type": "place"
-    },
-    {
-      "term": "First Bulgarian Empire",
-      "matchText": "First Bulgarian Empire",
-      "wikiSlug": "First_Bulgarian_Empire",
-      "type": "institution"
     },
     {
       "term": "Danube",
@@ -709,18 +929,6 @@
       "type": "people"
     },
     {
-      "term": "John I Tzimiskes",
-      "matchText": "John I Tzimiskes",
-      "wikiSlug": "John_I_Tzimiskes",
-      "type": "person"
-    },
-    {
-      "term": "Dorostolon",
-      "matchText": "Dorostolon",
-      "wikiSlug": "Drastar",
-      "type": "place"
-    },
-    {
       "term": "Khan Kurya",
       "matchText": "their khan Kurya",
       "wikiSlug": "Kurya_(khan)",
@@ -749,6 +957,66 @@
       "matchText": "his mother Olga",
       "wikiSlug": "Olga_of_Kiev",
       "type": "person"
+    },
+    {
+      "matchText": "Igor",
+      "term": "Igor",
+      "wikiSlug": "Igor_of_Kiev"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Slavs",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Chronicle",
+      "term": "Chronicle",
+      "wikiSlug": "Primary_Chronicle"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Khazaria",
+      "term": "Khazaria",
+      "wikiSlug": "Khazar_Khaganate"
+    },
+    {
+      "matchText": "Caspian",
+      "term": "Caspian",
+      "wikiSlug": "Caspian_Sea"
+    },
+    {
+      "matchText": "Cumans",
+      "term": "Cumans",
+      "wikiSlug": "Cumans"
+    },
+    {
+      "matchText": "Balkans",
+      "term": "Balkans",
+      "wikiSlug": "Balkans"
+    },
+    {
+      "matchText": "Helgi",
+      "term": "Helgi",
+      "definition": "The Old Norse personal name that the Slavic chronicles rendered as \"Oleg\" — one of the founding dynasty's Norse names, sitting beside Ingvar (Igor) and Helga (Olga) before the ruling house switched to naming its children in Slavic."
     }
   ],
   "6": [
@@ -819,18 +1087,6 @@
       "type": "institution"
     },
     {
-      "term": "Basil II",
-      "matchText": "Basil II",
-      "wikiSlug": "Basil_II",
-      "type": "person"
-    },
-    {
-      "term": "Bardas Phokas the Younger",
-      "matchText": "Bardas Phokas",
-      "wikiSlug": "Bardas_Phokas_the_Younger",
-      "type": "person"
-    },
-    {
       "term": "Anna Porphyrogenita",
       "matchText": "Anna",
       "wikiSlug": "Anna_Porphyrogenita",
@@ -853,12 +1109,6 @@
       "matchText": "the Crimea",
       "wikiSlug": "Crimea",
       "type": "place"
-    },
-    {
-      "term": "Varangian Guard",
-      "matchText": "Varangian Guard",
-      "wikiSlug": "Varangian_Guard",
-      "type": "institution"
     },
     {
       "term": "Metropolitan bishop",
@@ -897,10 +1147,129 @@
       "type": "concept"
     },
     {
-      "term": "Serpent's Walls",
-      "matchText": "Serpent's Walls",
-      "wikiSlug": "Serpent%27s_Wall",
-      "type": "object"
+      "matchText": "Oleg",
+      "term": "Oleg",
+      "definition": "A son of Svyatoslav set over the Drevlian land; not Oleg the Wise the regent of Chapter 3. He was killed in a rout during the war among the brothers and his body found in a ditch under the fallen."
+    },
+    {
+      "matchText": "Novgorod",
+      "term": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod"
+    },
+    {
+      "matchText": "Chronicle",
+      "term": "Chronicle",
+      "wikiSlug": "Primary_Chronicle"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Sweden",
+      "term": "Sweden",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Norwegian",
+      "term": "Norwegian",
+      "definition": "Of or belonging to Norway, the Scandinavian kingdom on the western edge of the peninsula. The exiled claimant meant here is Harald Hardrada, who ran the Norway–Rus'–Constantinople circuit before winning the Norwegian crown."
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Khazars",
+      "term": "Khazars",
+      "wikiSlug": "Khazars"
+    },
+    {
+      "matchText": "Svyatoslav",
+      "term": "Svyatoslav",
+      "wikiSlug": "Sviatoslav_I"
+    },
+    {
+      "matchText": "Latin Christianity",
+      "term": "Latin Christianity",
+      "wikiSlug": "Latin_Church"
+    },
+    {
+      "matchText": "Jews",
+      "term": "Jews",
+      "wikiSlug": "Jews"
+    },
+    {
+      "matchText": "Olga",
+      "term": "Olga",
+      "wikiSlug": "Olga_of_Kiev"
+    },
+    {
+      "matchText": "Anatolian",
+      "term": "Anatolian",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Armenian",
+      "term": "Armenian",
+      "wikiSlug": "Armenians"
+    },
+    {
+      "matchText": "Bulgarian",
+      "term": "Bulgarian",
+      "wikiSlug": "Bulgarians"
+    },
+    {
+      "matchText": "Yaroslav",
+      "term": "Yaroslav",
+      "wikiSlug": "Yaroslav_the_Wise"
+    },
+    {
+      "matchText": "Anglo-Saxons",
+      "term": "Anglo-Saxons",
+      "wikiSlug": "Anglo-Saxons"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "Christianization",
+      "term": "Christianization",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Photius",
+      "term": "Photius",
+      "wikiSlug": "Photios_I_of_Constantinople"
+    },
+    {
+      "matchText": "Slavs",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Pechenegs",
+      "term": "Pechenegs",
+      "wikiSlug": "Pechenegs"
+    },
+    {
+      "matchText": "Latin Europe",
+      "term": "Latin Europe",
+      "wikiSlug": "Western_Christianity"
     }
   ],
   "7": [
@@ -959,12 +1328,6 @@
       "type": "people"
     },
     {
-      "term": "Saint Sophia Cathedral, Kyiv",
-      "matchText": "Saint Sophia Cathedral of Kyiv",
-      "wikiSlug": "Saint_Sophia_Cathedral,_Kyiv",
-      "type": "object"
-    },
-    {
       "term": "Apse",
       "matchText": "apse",
       "wikiSlug": "Apse",
@@ -975,24 +1338,6 @@
       "matchText": "Orans",
       "wikiSlug": "Orans",
       "type": "concept"
-    },
-    {
-      "term": "Golden Gate of Kyiv",
-      "matchText": "Golden Gate of Kyiv",
-      "wikiSlug": "Golden_Gate,_Kyiv",
-      "type": "object"
-    },
-    {
-      "term": "Kyiv Pechersk Lavra",
-      "matchText": "Kyiv Caves Monastery",
-      "wikiSlug": "Kyiv_Pechersk_Lavra",
-      "type": "institution"
-    },
-    {
-      "term": "Russkaya Pravda",
-      "matchText": "Russkaya Pravda",
-      "wikiSlug": "Russkaya_Pravda",
-      "type": "object"
     },
     {
       "term": "Blood feud",
@@ -1013,28 +1358,10 @@
       "type": "person"
     },
     {
-      "term": "Henry I of France",
-      "matchText": "King Henry I of France",
-      "wikiSlug": "Henry_I_of_France",
-      "type": "person"
-    },
-    {
       "term": "Philip I of France",
       "matchText": "King Philip I",
       "wikiSlug": "Philip_I_of_France",
       "type": "person"
-    },
-    {
-      "term": "Harald Hardrada",
-      "matchText": "Harald Hardrada",
-      "wikiSlug": "Harald_Hardrada",
-      "type": "person"
-    },
-    {
-      "term": "Battle of Stamford Bridge",
-      "matchText": "Stamford Bridge",
-      "wikiSlug": "Battle_of_Stamford_Bridge",
-      "type": "concept"
     },
     {
       "term": "Battle of Hastings",
@@ -1059,6 +1386,81 @@
       "matchText": "the Wise",
       "wikiSlug": "Yaroslav_the_Wise",
       "type": "people"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Basil II",
+      "term": "Basil II",
+      "wikiSlug": "Basil_II"
+    },
+    {
+      "matchText": "Primary Chronicle",
+      "term": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle"
+    },
+    {
+      "matchText": "Novgorod",
+      "term": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod"
+    },
+    {
+      "matchText": "Varangians",
+      "term": "Varangians",
+      "wikiSlug": "Varangians"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "UNESCO World Heritage Site",
+      "term": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site"
+    },
+    {
+      "matchText": "Vladimir Monomakh",
+      "term": "Vladimir Monomakh",
+      "wikiSlug": "Vladimir_II_Monomakh"
+    },
+    {
+      "matchText": "Cyrillic",
+      "term": "Cyrillic",
+      "wikiSlug": "Cyrillic_script"
+    },
+    {
+      "matchText": "Elisaveta",
+      "term": "Elisaveta",
+      "wikiSlug": "Elisiv_of_Kiev"
+    },
+    {
+      "matchText": "Normans",
+      "term": "Normans",
+      "wikiSlug": "Normans"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Eupraxia",
+      "term": "Eupraxia",
+      "wikiSlug": "Eupraxia_of_Kiev"
+    },
+    {
+      "matchText": "Polish",
+      "term": "Polish",
+      "wikiSlug": "Polish_people"
+    },
+    {
+      "matchText": "Khazaria",
+      "term": "Khazaria",
+      "wikiSlug": "Khazar_Khaganate"
     }
   ],
   "8": [
@@ -1105,30 +1507,10 @@
       "type": "people"
     },
     {
-      "term": "Yaroslavichi",
-      "matchText": "Yaroslavichi",
-      "wikiSlug": "",
-      "type": "institution",
-      "definition": "The sons of Prince Yaroslav the Wise, who jointly revised the Rus' law code into a version known as the \"Pravda of the Yaroslavichi\" — one of the richest surviving windows into how Rus' society was actually structured."
-    },
-    {
-      "term": "Alta River",
-      "matchText": "the Alta River",
-      "wikiSlug": "Alta_(river)",
-      "type": "place"
-    },
-    {
       "term": "Veche",
       "matchText": "veche",
       "wikiSlug": "Veche",
       "type": "institution"
-    },
-    {
-      "term": "Vasilko of Terebovlia",
-      "matchText": "Vasilko",
-      "wikiSlug": "",
-      "type": "person",
-      "definition": "Vasilko of Terebovlia, a Rus' prince seized by his own kinsmen at a meeting he had been told was friendly in 1097, then held down and blinded — knifed in both eyes — an atrocity the Chronicle recounts in horrified detail."
     },
     {
       "term": "Council of Liubech",
@@ -1143,41 +1525,16 @@
       "type": "concept"
     },
     {
-      "term": "Vladimir II Monomakh",
-      "matchText": "Vladimir Monomakh",
-      "wikiSlug": "Vladimir_II_Monomakh",
-      "type": "person"
-    },
-    {
       "term": "Constantine IX Monomachos",
       "matchText": "Constantine IX Monomachos",
       "wikiSlug": "Constantine_IX_Monomachos",
       "type": "person"
     },
     {
-      "term": "Dolobsk",
-      "matchText": "a council at Dolobsk",
-      "wikiSlug": "Council_of_Dolobsk",
-      "type": "concept"
-    },
-    {
       "term": "Debt bondage",
       "matchText": "debt-slavery",
       "wikiSlug": "Debt_bondage",
       "type": "concept"
-    },
-    {
-      "term": "Instruction of Vladimir Monomakh",
-      "matchText": "Instruction",
-      "wikiSlug": "",
-      "type": "object",
-      "definition": "A remarkable secular text Prince Vladimir Monomakh wrote for his sons near the end of his life — part autobiography, part military memoir, part manual of Christian princely conduct, and one of the very few glimpses of a Rus' ruler thinking in his own voice."
-    },
-    {
-      "term": "Mstislav I of Kyiv",
-      "matchText": "Mstislav the Great",
-      "wikiSlug": "Mstislav_I_of_Kiev",
-      "type": "person"
     },
     {
       "term": "Yaroslav the Wise",
@@ -1190,6 +1547,41 @@
       "matchText": "Kyiv",
       "wikiSlug": "Kyiv",
       "type": "place"
+    },
+    {
+      "matchText": "Primary Chronicle",
+      "term": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle"
+    },
+    {
+      "matchText": "Igor",
+      "term": "Igor",
+      "wikiSlug": "Igor_of_Kiev"
+    },
+    {
+      "matchText": "Olga",
+      "term": "Olga",
+      "wikiSlug": "Olga_of_Kiev"
+    },
+    {
+      "matchText": "Svyatoslav",
+      "term": "Svyatoslav",
+      "wikiSlug": "Sviatoslav_I"
+    },
+    {
+      "matchText": "Novgorod",
+      "term": "Novgorod",
+      "wikiSlug": "Veliky_Novgorod"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "kazhdo da derzhit otchinu svoiu",
+      "term": "kazhdo da derzhit otchinu svoiu",
+      "definition": "The Old East Slavic principle agreed at the 1097 Lyubech council — \"let each hold his own patrimony.\" It conceded that each branch of the dynasty would keep its territory hereditarily, passing it down its own line rather than circulating it around the rota's shared ladder, and so ratified the very breakup the council met to prevent."
     }
   ],
   "9": [
@@ -1204,18 +1596,6 @@
       "matchText": "Novgorod",
       "wikiSlug": "Novgorod_Republic",
       "type": "institution"
-    },
-    {
-      "term": "Hanseatic League",
-      "matchText": "Hanseatic League",
-      "wikiSlug": "Hanseatic_League",
-      "type": "institution"
-    },
-    {
-      "term": "Boyar",
-      "matchText": "merchant boyars",
-      "wikiSlug": "Boyar",
-      "type": "concept"
     },
     {
       "term": "Veche",
@@ -1240,12 +1620,6 @@
       "matchText": "Galicia–Volhynia",
       "wikiSlug": "Kingdom_of_Galicia–Volhynia",
       "type": "institution"
-    },
-    {
-      "term": "Roman the Great",
-      "matchText": "Roman the Great",
-      "wikiSlug": "Roman_the_Great",
-      "type": "person"
     },
     {
       "term": "Daniel of Galicia",
@@ -1278,12 +1652,6 @@
       "type": "people"
     },
     {
-      "term": "Yuri Dolgorukiy",
-      "matchText": "Yuri Dolgoruki",
-      "wikiSlug": "Yuri_Dolgorukiy",
-      "type": "person"
-    },
-    {
       "term": "Hypatian Codex",
       "matchText": "the Hypatian Chronicle",
       "wikiSlug": "Hypatian_Codex",
@@ -1291,21 +1659,9 @@
     },
     {
       "term": "Moscow",
-      "matchText": "to Moscow",
+      "matchText": "Moscow",
       "wikiSlug": "Moscow",
       "type": "place"
-    },
-    {
-      "term": "Andrei Bogolyubsky",
-      "matchText": "Andrei Bogolyubsky",
-      "wikiSlug": "Andrey_Bogolyubsky",
-      "type": "person"
-    },
-    {
-      "term": "Theotokos of Vladimir",
-      "matchText": "Our Lady of Vladimir",
-      "wikiSlug": "Theotokos_of_Vladimir",
-      "type": "object"
     },
     {
       "term": "Palladium",
@@ -1314,28 +1670,80 @@
       "type": "concept"
     },
     {
-      "term": "Church of the Intercession on the Nerl",
-      "matchText": "Church of the Intercession on the Nerl",
-      "wikiSlug": "Church_of_the_Intercession_on_the_Nerl",
-      "type": "object"
-    },
-    {
-      "term": "Dormition Cathedral, Vladimir",
-      "matchText": "Dormition Cathedral of Vladimir",
-      "wikiSlug": "Dormition_Cathedral,_Vladimir",
-      "type": "object"
-    },
-    {
-      "term": "Vsevolod the Big Nest",
-      "matchText": "Vsevolod the Big Nest",
-      "wikiSlug": "Vsevolod_the_Big_Nest",
-      "type": "person"
-    },
-    {
       "term": "Belarus",
       "matchText": "Belarus",
       "wikiSlug": "Belarus",
       "type": "place"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavian",
+      "wikiSlug": "Scandinavia"
+    },
+    {
+      "matchText": "Norse",
+      "term": "Norse",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Carpathians",
+      "term": "Carpathians",
+      "wikiSlug": "Carpathian_Mountains"
+    },
+    {
+      "matchText": "Hungarian",
+      "term": "Hungarian",
+      "wikiSlug": "Kingdom_of_Hungary"
+    },
+    {
+      "matchText": "Pope",
+      "term": "Pope",
+      "wikiSlug": "Pope"
+    },
+    {
+      "matchText": "Lithuania",
+      "term": "Lithuania",
+      "wikiSlug": "Grand_Duchy_of_Lithuania"
+    },
+    {
+      "matchText": "Ukraine",
+      "term": "Ukraine",
+      "wikiSlug": "Ukraine"
+    },
+    {
+      "matchText": "Zalesye",
+      "term": "Zalesye",
+      "wikiSlug": "Zalesye"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Vladimir the Great",
+      "term": "Vladimir the Great",
+      "wikiSlug": "Vladimir_the_Great"
+    },
+    {
+      "matchText": "Vladimir Monomakh",
+      "term": "Vladimir Monomakh",
+      "wikiSlug": "Vladimir_II_Monomakh"
+    },
+    {
+      "matchText": "Orthodoxy",
+      "term": "Orthodoxy",
+      "wikiSlug": "Eastern_Orthodox_Church"
+    },
+    {
+      "matchText": "Polish",
+      "term": "Polish",
+      "wikiSlug": "Polish_people"
     }
   ],
   "10": [
@@ -1358,12 +1766,6 @@
       "type": "object"
     },
     {
-      "term": "Dirham",
-      "matchText": "dirhams",
-      "wikiSlug": "Dirham",
-      "type": "object"
-    },
-    {
       "term": "Samanid Empire",
       "matchText": "Samanids",
       "wikiSlug": "Samanid_Empire",
@@ -1376,12 +1778,6 @@
       "type": "place"
     },
     {
-      "term": "Slavery",
-      "matchText": "slave traders",
-      "wikiSlug": "Slavery_in_medieval_Europe",
-      "type": "concept"
-    },
-    {
       "term": "Trident of Ukraine",
       "matchText": "trident",
       "wikiSlug": "Coat_of_arms_of_Ukraine",
@@ -1392,36 +1788,6 @@
       "matchText": "Ibn Fadlan",
       "wikiSlug": "Ahmad_ibn_Fadlan",
       "type": "person"
-    },
-    {
-      "term": "Constantine VII",
-      "matchText": "Constantine VII",
-      "wikiSlug": "Constantine_VII",
-      "type": "person"
-    },
-    {
-      "term": "Birch bark manuscript",
-      "matchText": "birchbark letters",
-      "wikiSlug": "Birch_bark_manuscript",
-      "type": "object"
-    },
-    {
-      "term": "Novgorod Codex",
-      "matchText": "Novgorod Codex",
-      "wikiSlug": "Novgorod_Codex",
-      "type": "object"
-    },
-    {
-      "term": "Ostromir Gospel",
-      "matchText": "Ostromir Gospel",
-      "wikiSlug": "Ostromir_Gospel",
-      "type": "object"
-    },
-    {
-      "term": "Smerd",
-      "matchText": "smerdy",
-      "wikiSlug": "Smerd",
-      "type": "concept"
     },
     {
       "term": "Kholop",
@@ -1466,24 +1832,6 @@
       "type": "person"
     },
     {
-      "term": "Cyril of Turov",
-      "matchText": "Cyril of Turov",
-      "wikiSlug": "Cyril_of_Turov",
-      "type": "person"
-    },
-    {
-      "term": "Daniel the Traveller",
-      "matchText": "Abbot Daniel",
-      "wikiSlug": "Daniel_the_Traveller",
-      "type": "person"
-    },
-    {
-      "term": "Kirik of Novgorod",
-      "matchText": "Kirik of Novgorod",
-      "wikiSlug": "Kirik_the_Novgorodian",
-      "type": "person"
-    },
-    {
       "term": "Domovoy",
       "matchText": "domovoi",
       "wikiSlug": "Domovoy",
@@ -1495,6 +1843,91 @@
       "wikiSlug": "",
       "type": "concept",
       "definition": "Russian for \"double faith\": the long stretch after Rus' converted in 988 when people were officially Christian but still kept the old Slavic pagan habits — house-spirits, sky-god festivals, charms — folded quietly into the new religion rather than dropped."
+    },
+    {
+      "matchText": "Primary Chronicle",
+      "term": "Primary Chronicle",
+      "wikiSlug": "Primary_Chronicle"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Slavic",
+      "term": "Slavic",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arab",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Scandinavian",
+      "term": "Scandinavian",
+      "wikiSlug": "Norsemen"
+    },
+    {
+      "matchText": "Pechenegs",
+      "term": "Pechenegs",
+      "wikiSlug": "Pechenegs"
+    },
+    {
+      "matchText": "Russkaya Pravda",
+      "term": "Russkaya Pravda",
+      "wikiSlug": "Russkaya_Pravda"
+    },
+    {
+      "matchText": "Cyrillic",
+      "term": "Cyrillic",
+      "wikiSlug": "Cyrillic_script"
+    },
+    {
+      "matchText": "Kyiv Caves Monastery",
+      "term": "Kyiv Caves Monastery",
+      "wikiSlug": "Kyiv_Pechersk_Lavra"
+    },
+    {
+      "matchText": "Yaroslav",
+      "term": "Yaroslav",
+      "wikiSlug": "Yaroslav_the_Wise"
+    },
+    {
+      "matchText": "Caves Paterik",
+      "term": "Caves Paterik",
+      "wikiSlug": "Kyiv_Caves_Patericon"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Christianization",
+      "term": "Christianization",
+      "wikiSlug": "Christianization"
+    },
+    {
+      "matchText": "Norway",
+      "term": "Norway",
+      "wikiSlug": "Norway"
+    },
+    {
+      "matchText": "Olga",
+      "term": "Olga",
+      "wikiSlug": "Olga_of_Kiev"
     }
   ],
   "11": [
@@ -1527,24 +1960,6 @@
       "matchText": "the Kipchaks",
       "wikiSlug": "Kipchak_people",
       "type": "people"
-    },
-    {
-      "term": "Stugna River",
-      "matchText": "the Stugna",
-      "wikiSlug": "Stuhna",
-      "type": "place"
-    },
-    {
-      "term": "Igor Svyatoslavich",
-      "matchText": "Igor Svyatoslavich",
-      "wikiSlug": "Igor_Svyatoslavich",
-      "type": "person"
-    },
-    {
-      "term": "The Tale of Igor's Campaign",
-      "matchText": "Tale of Igor's Campaign",
-      "wikiSlug": "The_Tale_of_Igor%27s_Campaign",
-      "type": "object"
     },
     {
       "term": "Yaroslavna",
@@ -1601,22 +2016,70 @@
       "type": "place"
     },
     {
-      "term": "Battle of the Kalka River",
-      "matchText": "Battle of the Kalka River",
-      "wikiSlug": "Battle_of_the_Kalka_River",
-      "type": "concept"
-    },
-    {
       "term": "Feigned retreat",
       "matchText": "the feigned retreat",
       "wikiSlug": "Feigned_retreat",
       "type": "concept"
     },
     {
-      "term": "Solar eclipse",
-      "matchText": "a solar eclipse",
-      "wikiSlug": "Solar_eclipse",
-      "type": "concept"
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Slavs",
+      "term": "Slavs",
+      "wikiSlug": "Slavs"
+    },
+    {
+      "matchText": "Svyatoslav",
+      "term": "Svyatoslav",
+      "wikiSlug": "Sviatoslav_I"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Yaroslav",
+      "term": "Yaroslav",
+      "wikiSlug": "Yaroslav_the_Wise"
+    },
+    {
+      "matchText": "Polovtsy",
+      "term": "Polovtsy",
+      "wikiSlug": "Cumans"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Temüjin",
+      "term": "Temüjin",
+      "wikiSlug": "Genghis_Khan"
+    },
+    {
+      "matchText": "Arab expansion",
+      "term": "Arab expansion",
+      "wikiSlug": "Early_Muslim_conquests"
+    },
+    {
+      "matchText": "Khwarazmian",
+      "term": "Khwarazmian",
+      "wikiSlug": "Khwarazmian_Empire"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "Khazaria",
+      "term": "Khazaria",
+      "wikiSlug": "Khazar_Khaganate"
     }
   ],
   "12": [
@@ -1639,21 +2102,9 @@
       "type": "object"
     },
     {
-      "term": "Ryazan",
-      "matchText": "Ryazan",
-      "wikiSlug": "Ryazan",
-      "type": "place"
-    },
-    {
       "term": "Vladimir, Russia",
       "matchText": "Vladimir",
       "wikiSlug": "Vladimir,_Russia",
-      "type": "place"
-    },
-    {
-      "term": "Sit River",
-      "matchText": "Sit River",
-      "wikiSlug": "Sit_River",
       "type": "place"
     },
     {
@@ -1663,28 +2114,10 @@
       "type": "place"
     },
     {
-      "term": "Chernigov",
-      "matchText": "Chernigov",
-      "wikiSlug": "Chernihiv",
-      "type": "place"
-    },
-    {
       "term": "Golden Gate of Kyiv",
       "matchText": "the Golden Gate",
       "wikiSlug": "Golden_Gate,_Kyiv",
       "type": "object"
-    },
-    {
-      "term": "Giovanni da Pian del Carpine",
-      "matchText": "John of Plano Carpini",
-      "wikiSlug": "Giovanni_da_Pian_del_Carpine",
-      "type": "person"
-    },
-    {
-      "term": "Golden Horde",
-      "matchText": "Golden Horde",
-      "wikiSlug": "Golden_Horde",
-      "type": "institution"
     },
     {
       "term": "Mongol yoke",
@@ -1711,12 +2144,6 @@
       "type": "person"
     },
     {
-      "term": "Berke",
-      "matchText": "its khans Berke",
-      "wikiSlug": "Berke",
-      "type": "person"
-    },
-    {
       "term": "Öz Beg Khan",
       "matchText": "Öz Beg",
       "wikiSlug": "Öz_Beg_Khan",
@@ -1733,12 +2160,6 @@
       "matchText": "the Black Death",
       "wikiSlug": "Black_Death",
       "type": "concept"
-    },
-    {
-      "term": "Alexander Nevsky",
-      "matchText": "Alexander Nevsky",
-      "wikiSlug": "Alexander_Nevsky",
-      "type": "person"
     },
     {
       "term": "Neva River",
@@ -1775,6 +2196,116 @@
       "matchText": "Belarus",
       "wikiSlug": "Belarus",
       "type": "place"
+    },
+    {
+      "matchText": "Black Sea",
+      "term": "Black Sea",
+      "wikiSlug": "Black_Sea"
+    },
+    {
+      "matchText": "Russian Orthodox Church",
+      "term": "Russian Orthodox Church",
+      "wikiSlug": "Russian_Orthodox_Church"
+    },
+    {
+      "matchText": "Turkic",
+      "term": "Turkic",
+      "wikiSlug": "Turkic_peoples"
+    },
+    {
+      "matchText": "Andrei Bogolyubsky",
+      "term": "Andrei Bogolyubsky",
+      "wikiSlug": "Andrey_Bogolyubsky"
+    },
+    {
+      "matchText": "Kyiv",
+      "term": "Kyiv",
+      "wikiSlug": "Kyiv"
+    },
+    {
+      "matchText": "Oleg",
+      "term": "Oleg",
+      "wikiSlug": "Oleg_of_Novgorod"
+    },
+    {
+      "matchText": "Yaroslav",
+      "term": "Yaroslav",
+      "wikiSlug": "Yaroslav_the_Wise"
+    },
+    {
+      "matchText": "Franciscan",
+      "term": "Franciscan",
+      "wikiSlug": "Franciscans"
+    },
+    {
+      "matchText": "Pope",
+      "term": "Pope",
+      "wikiSlug": "Pope"
+    },
+    {
+      "matchText": "Latin",
+      "term": "Latin",
+      "wikiSlug": "Latin_Church"
+    },
+    {
+      "matchText": "Volga",
+      "term": "Volga",
+      "wikiSlug": "Volga"
+    },
+    {
+      "matchText": "Mongolia",
+      "term": "Mongolia",
+      "wikiSlug": "Mongolia"
+    },
+    {
+      "matchText": "Genoese",
+      "term": "Genoese",
+      "wikiSlug": "Republic_of_Genoa"
+    },
+    {
+      "matchText": "Crimea",
+      "term": "Crimea",
+      "wikiSlug": "Crimea"
+    },
+    {
+      "matchText": "Baltic",
+      "term": "Baltic",
+      "wikiSlug": "Baltic_Sea"
+    },
+    {
+      "matchText": "Swedes",
+      "term": "Swedes",
+      "wikiSlug": "Sweden"
+    },
+    {
+      "matchText": "Catholicism",
+      "term": "Catholicism",
+      "wikiSlug": "Catholic_Church"
+    },
+    {
+      "matchText": "Dnieper",
+      "term": "Dnieper",
+      "wikiSlug": "Dnieper"
+    },
+    {
+      "matchText": "Polotsk",
+      "term": "Polotsk",
+      "wikiSlug": "Polotsk"
+    },
+    {
+      "matchText": "Cyrillic",
+      "term": "Cyrillic",
+      "wikiSlug": "Cyrillic_script"
+    },
+    {
+      "matchText": "Kyiv in 1240",
+      "term": "Kyiv in 1240",
+      "wikiSlug": "Siege_of_Kiev_(1240)"
+    },
+    {
+      "matchText": "Polish",
+      "term": "Polish",
+      "wikiSlug": "Polish_people"
     }
   ]
 }

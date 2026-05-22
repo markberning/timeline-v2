@@ -1,0 +1,296 @@
+# link-suggest — kievan-rus
+
+{"REUSE":108,"LINK-CANDIDATE":58,"CROSS":76,"NO-PAGE":13,"SKIP":12}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Moscow** → REUSE `Moscow` [high] — _Moscow_: Moscow is the capital and largest city of Russia, standing on the Moskva River in Central Russia. It has a pop  (linked in 5 civ(s) (e.g. byzantine-empire) ×39)
+- **Polotsk** → `Polotsk` [high] — _Polotsk_: Polotsk, or Polatsk, is a town in Vitebsk Region, Belarus. It is situated on the Dvina River and serves as the administr
+- *** Russians** → `Russians` [high] — _Russians_: Russians (Russian: русские, romanized: russkiye [ˈruskʲɪje] ) are an East Slavic ethnic group native to Eastern Europe. 
+- **Ukrainians** → REUSE `Ukrainians` [high] — _Ukrainians_: Ukrainians (Ukrainian: українці, romanised: ukraintsi, pronounced [ʊkrɐˈjin⁽ʲ⁾ts⁽ʲ⁾i]) are an East Slavic ethn  (linked in 3 civ(s) (e.g. early-medieval-europe) ×10)
+- **Oleg** → REUSE `Oleg_of_Novgorod` [high] — _Oleg the Wise_: Oleg (Old East Slavic: Ѡлегъ, romanised: Ōlegǔ, Ольгъ, Olǐgǔ; Old Norse: Helgi; died 912), also known as Oleg   (linked in 1 civ(s) (e.g. byzantine-empire) ×1)
+- *** Mongol** → CROSS → `mongol-empire`  (matches a civ id)
+- **Ukraine** → REUSE `Ukraine` [high] — _Ukraine_: Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders  (linked in 10 civ(s) (e.g. early-medieval-europe) ×37)
+- **Rurik** → REUSE `Rurik` [high] — _Rurik_: Rurik (also spelled Rorik, Riurik or Ryurik; Church Slavonic: Рюрикъ, romanized: Rjurikŭ; Old Norse: Hrøríkʀ;   (linked in 1 civ(s) (e.g. early-medieval-europe) ×2)
+- **Pilgrims** → REUSE `Pilgrimage` [high] — _Pilgrimage_: A pilgrimage is a journey to a holy place, which can lead to a personal transformation, after which the pilgri  (linked in 1 civ(s) (e.g. early-andean-civilizations) ×1)
+- **Indus Valley** → CROSS → `indus-valley`  (cross-linked elsewhere ×30)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- *** Iranian** → `Iranian_Revolution` [high] — _Iranian Revolution_: The Iranian Revolution, also known as the Islamic Revolution, culminated in the overthrow of the Pahlavi dynasty in 1979
+- **Islamic Golden Age** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×31)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×21)
+- **Frankish** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×19)
+- **Swedes** → REUSE `Sweden` [high] — _Sweden_: Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern   (linked in 2 civ(s) (e.g. songhai-empire) ×5)
+- **Indo-European** → REUSE `Indo-European_languages` [high] — _Indo-European languages_: The Indo-European languages are a language family native to the northern Indian subcontinent, most of Europe,   (linked in 12 civ(s) (e.g. celtic-cultures) ×20)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Scandinavians** → REUSE `Scandinavians` [high] — _Scandinavia_: Scandinavia is a subregion of northern Europe that most commonly comprises Denmark, Norway, and Sweden, which   (linked in 1 civ(s) (e.g. early-medieval-europe) ×1)
+- **Scandinavian** → CROSS → `viking-age`  (cross-linked elsewhere ×1)
+- **Danegeld** → REUSE `Danegeld` [high] — _Danegeld_: Danegeld (; literally "Dane yield") was a tax raised to pay tribute or protection money to the Viking raiders   (linked in 2 civ(s) (e.g. early-medieval-europe) ×4)
+- *** Francia** → `Francia` [high] — _Francia_: The Kingdom of the Franks (Latin: Regnum Francorum), also known as the Frankish Kingdom or Francia, was the largest post
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- **Baltic Sea** → REUSE `Baltic_Sea` [high] — _Baltic Sea_: The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland,  (linked in 8 civ(s) (e.g. high-medieval-europe) ×11)
+- **Neva** → REUSE `Neva` [high] — _Neva_: The Neva ( NEE-və, UK also NAY-və; Russian: Нева́, IPA: [nʲɪˈva] ) is a river in northwestern Russia flowing f  (linked in 1 civ(s) (e.g. viking-age) ×2)
+- **Caspian Sea** → REUSE `Caspian_Sea` [high] — _Caspian Sea_: The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually  (linked in 8 civ(s) (e.g. gokturk-khaganate) ×27)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×46)
+- **Samarkand** → CROSS → `persian-empire`  (cross-linked elsewhere ×2)
+- **Scandinavia** → CROSS → `vendel-scandinavia`  (cross-linked elsewhere ×8)
+- *** Greek-speaking** → NO-PAGE → blurb (top hit "Greek speaking Muslims" is a disambiguation page)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×17)
+- **Istanbul** → REUSE `Istanbul` [high] — _Istanbul_: Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical center.   (linked in 9 civ(s) (e.g. byzantine-empire) ×40)
+- **Judaism** → REUSE `Judaism` [high] — _Judaism_: Judaism (Hebrew: יַהֲדוּת, romanized: Yahăḏūṯ) is an Abrahamic, monotheistic, ethnic religion that comprises t  (linked in 8 civ(s) (e.g. al-andalus) ×22)
+- **Early Medieval Europe** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×15)
+- Hungary → SKIP (modern locator, cat A)
+- **Mongols** → CROSS → `mongol-empire`  (cross-linked elsewhere ×18)
+- **Pontic steppe** → REUSE `Pontic%E2%80%93Caspian_steppe` [CONFIRM-homonym] — _Pontic–Caspian steppe_: The Pontic–Caspian Steppe is a steppe extending across Eastern Europe to Central Asia, formed by the Caspian a  (linked in 4 civ(s) (e.g. mesopotamia) ×7 — ⚠ AMBIGUOUS: also Pontic–Caspian_steppe(scythians))
+
+## Chapter 2
+- **Rus'** → REUSE `Kievan_Rus%27` [high] — _Kievan Rus'_: Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities  (linked in 3 civ(s) (e.g. early-medieval-europe) ×4)
+- **Basque** → REUSE `Basque_language` [CONFIRM-homonym] — _Basque language_: Basque ( BASK, BAHSK; endonym euskara [eus̺ˈkaɾa]) is a language spoken by Basques and other residents of the   (linked in 2 civ(s) (e.g. celtic-cultures) ×3 — ⚠ AMBIGUOUS: also Basques(al-andalus))
+- **Scandinavian** → CROSS → `viking-age`  (cross-linked elsewhere ×1)
+- *** Danish** → NO-PAGE → blurb (top hit "Danish" is a disambiguation page)
+- **North Sea** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×4)
+- **Norse** → REUSE `Norsemen` [high] — _Norsemen_: The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers  (linked in 7 civ(s) (e.g. byzantine-empire) ×23)
+- **Scandinavians** → REUSE `Scandinavians` [high] — _Scandinavia_: Scandinavia is a subregion of northern Europe that most commonly comprises Denmark, Norway, and Sweden, which   (linked in 1 civ(s) (e.g. early-medieval-europe) ×1)
+- **Slavs** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 9 civ(s) (e.g. al-andalus) ×16 — ⚠ AMBIGUOUS: also Slavic_peoples(byzantine-empire))
+- **Soviet** → CROSS → `soviet-union`  (cross-linked elsewhere ×1)
+- *** Seine** → `Seine` [high] — _Seine_: The Seine ( sayn, sen; French: [sɛn] ) is a 777-kilometre-long (483 mi) river in northern France. Its drainage basin is 
+- **Frankish** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×19)
+- **Northmen** → REUSE `Norse_people` [high] — _Norsemen_: The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers  (linked in 1 civ(s) (e.g. anglo-saxon-england) ×1)
+- **Turkic** → REUSE `Turkic_peoples` [high] — _Turkic peoples_: Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as par  (linked in 20 civ(s) (e.g. byzantine-empire) ×59)
+- **Danube** → REUSE `Danube` [high] — _Danube_: The Danube ( DAN-yoob; see also other names) is a river in Europe, the second-longest after the Volga in Russi  (linked in 11 civ(s) (e.g. byzantine-empire) ×30)
+- *** Slavic-speaking** → `Languages_of_Europe` [low] — _Languages of Europe_: There are over 250 languages indigenous to Europe, and most belong to the Indo-European language family. Out of a total 
+- **Svyatoslav** → REUSE `Sviatoslav_I` [high] — _Sviatoslav I_: Sviatoslav I or Svyatoslav I Igorevich (Old East Slavic: Свѧтославъ Игорєвичь, romanised: Svętoslavŭ Igorevičǐ  (linked in 1 civ(s) (e.g. viking-age) ×2)
+- **Vladimir** → CROSS → `viking-age`  (cross-linked elsewhere ×1)
+- **Rhos** → NO-PAGE → blurb (top hit "Rhos" is a disambiguation page)
+- **Franks** → REUSE `Franks` [high] — _Franks_: The Franks (Latin: Franci or gens Francorum) were a northern European group of peoples who first appeared in t  (linked in 11 civ(s) (e.g. al-andalus) ×36)
+- *** Baltic** → `Baltic_Sea` [high] — _Baltic Sea_: The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, 
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×29)
+
+## Chapter 3
+- **Primary Chronicle** → REUSE `Primary_Chronicle` [high] — _Primary Chronicle_: The Primary Chronicle, shortened from the common Russian Primary Chronicle (Church Slavonic: Повѣсть времѧньны  (linked in 2 civ(s) (e.g. byzantine-empire) ×4)
+- **Helgi** → `Helgi_Haddingjaskati` [high] — _Helgi Haddingjaskati_: Helgi Haddingjaskati (Old Norse: [ˈhelɡe ˈhɑdːeŋɡjɑˌskɑte], meaning "Helgi the lord of the Haddingjar") was a legendary 
+- **Slavs** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 9 civ(s) (e.g. al-andalus) ×16 — ⚠ AMBIGUOUS: also Slavic_peoples(byzantine-empire))
+- **Chronicle** → `Chronicle` [high] — _Chronicle_: A chronicle (Latin: chronica, from Greek χρονικά chroniká, from χρόνος, chrónos – "time") is a historical account of eve
+- **Rurik** → REUSE `Rurik` [high] — _Rurik_: Rurik (also spelled Rorik, Riurik or Ryurik; Church Slavonic: Рюрикъ, romanized: Rjurikŭ; Old Norse: Hrøríkʀ;   (linked in 1 civ(s) (e.g. early-medieval-europe) ×2)
+- *** Slavic** → `Slavic_languages` [high] — _Slavic languages_: The Slavic languages, also known as the Slavonic languages, are Indo-European languages spoken primarily by the Slavic p
+- **Kyiv** → REUSE `Kyiv` [CONFIRM-homonym] — _Kyiv_: Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the co  (linked in 4 civ(s) (e.g. early-medieval-europe) ×10 — ⚠ AMBIGUOUS: also Kiev(gokturk-khaganate))
+- **Askold** → `Askold_and_Dir` [high] — _Askold and Dir_: Askold and Dir (Haskuldr or Hǫskuldr and Dyr or Dýri in Old Norse; died in 882), mentioned in both the Primary Chronicle
+- **Kievan Rus'** → CROSS → `kievan-rus`  (cross-linked elsewhere ×3)
+- **Varangians** → `Varangians` [high] — _Varangians_: The Varangians (; Old Norse: Væringjar; Medieval Greek: Βάραγγοι, romanized: Várangoi; Old East Slavic: варяже, romanize
+- **Black Sea** → REUSE `Black_Sea` [high] — _Black Sea_: The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European  (linked in 17 civ(s) (e.g. byzantine-empire) ×65)
+- **Olga** → NO-PAGE → blurb (top hit "Olga" is a disambiguation page)
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- **Frankish** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×19)
+- Bulgaria → SKIP (modern locator, cat A)
+- **Abbasid Caliphate** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×17)
+- **Islamic Golden Age** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×31)
+- **Anglo-Saxon England** → CROSS → `anglo-saxon-england`  (cross-linked elsewhere ×6)
+- **Viking Age** → CROSS → `viking-age`  (cross-linked elsewhere ×18)
+- **Normandy** → REUSE `Duchy_of_Normandy` [CONFIRM-homonym] — _Duchy of Normandy_: The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Fran  (linked in 3 civ(s) (e.g. early-medieval-europe) ×6 — ⚠ AMBIGUOUS: also Normandy(viking-age))
+- *** Scandinavian** → `Scandinavian_Airlines` [high] — _Scandinavian Airlines_: The Scandinavian Airlines System (SAS), commonly known as Scandinavian Airlines, is the joint flag carrier airline of De
+- **Caspian** → REUSE `Caspian_Sea` [high] — _Caspian Sea_: The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually  (linked in 6 civ(s) (e.g. gokturk-khaganate) ×9)
+
+## Chapter 4
+- **Igor** → NO-PAGE → blurb (top hit "Igor" is a disambiguation page)
+- **Oleg** → REUSE `Oleg_of_Novgorod` [high] — _Oleg the Wise_: Oleg (Old East Slavic: Ѡлегъ, romanised: Ōlegǔ, Ольгъ, Olǐgǔ; Old Norse: Helgi; died 912), also known as Oleg   (linked in 1 civ(s) (e.g. byzantine-empire) ×1)
+- **Byzantine Empire** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×64)
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- *** Christians** → `Christians` [high] — _Christians_: A Christian ( ) is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life 
+- **Kievan Rus'** → CROSS → `kievan-rus`  (cross-linked elsewhere ×3)
+- **Kyiv** → REUSE `Kyiv` [CONFIRM-homonym] — _Kyiv_: Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the co  (linked in 4 civ(s) (e.g. early-medieval-europe) ×10 — ⚠ AMBIGUOUS: also Kiev(gokturk-khaganate))
+- **Norse** → REUSE `Norsemen` [high] — _Norsemen_: The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers  (linked in 7 civ(s) (e.g. byzantine-empire) ×23)
+- **Viking Age** → CROSS → `viking-age`  (cross-linked elsewhere ×18)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×21)
+- **Vladimir** → CROSS → `viking-age`  (cross-linked elsewhere ×1)
+
+## Chapter 5
+- **Igor** → NO-PAGE → blurb (top hit "Igor" is a disambiguation page)
+- **Norse** → REUSE `Norsemen` [high] — _Norsemen_: The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers  (linked in 7 civ(s) (e.g. byzantine-empire) ×23)
+- **Slavic** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 10 civ(s) (e.g. al-andalus) ×19 — ⚠ AMBIGUOUS: also Slavic_languages(islamic-golden-age), Saqaliba(islamic-golden-age))
+- **Helgi** → `Helgi_Haddingjaskati` [high] — _Helgi Haddingjaskati_: Helgi Haddingjaskati (Old Norse: [ˈhelɡe ˈhɑdːeŋɡjɑˌskɑte], meaning "Helgi the lord of the Haddingjar") was a legendary 
+- **Slavs** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 9 civ(s) (e.g. al-andalus) ×16 — ⚠ AMBIGUOUS: also Slavic_peoples(byzantine-empire))
+- **Chronicle** → `Chronicle` [high] — _Chronicle_: A chronicle (Latin: chronica, from Greek χρονικά chroniká, from χρόνος, chrónos – "time") is a historical account of eve
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×61)
+- **Rus'** → REUSE `Kievan_Rus%27` [high] — _Kievan Rus'_: Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities  (linked in 3 civ(s) (e.g. early-medieval-europe) ×4)
+- **Turkic** → REUSE `Turkic_peoples` [high] — _Turkic peoples_: Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as par  (linked in 20 civ(s) (e.g. byzantine-empire) ×59)
+- **Volga** → REUSE `Volga` [CONFIRM-homonym] — _Volga_: The Volga (Russian: Волга, pronounced [ˈvolɡə] ) is the longest river in Europe and the longest endorheic basi  (linked in 8 civ(s) (e.g. byzantine-empire) ×26 — ⚠ AMBIGUOUS: also Volga_River(timurid-empire))
+- **Khazaria** → `Theodora_of_Khazaria` [high] — _Theodora of Khazaria_: Theodora of Khazaria (Greek: Θεοδώρα τῶν Χαζάρων, romanized: Theodṓra thou Khazária) was Byzantine empress as the second
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- **Caspian** → REUSE `Caspian_Sea` [high] — _Caspian Sea_: The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually  (linked in 6 civ(s) (e.g. gokturk-khaganate) ×9)
+- **Cumans** → REUSE `Cumans` [high] — _Cumans_: The Cumans or Kumans were a Turkic nomadic people from Central Asia comprising the western branch of the Cuman  (linked in 2 civ(s) (e.g. gokturk-khaganate) ×4)
+- **Mongols** → CROSS → `mongol-empire`  (cross-linked elsewhere ×18)
+- **Balkans** → CROSS → `ottoman-empire`  (cross-linked elsewhere ×11)
+- Bulgaria → SKIP (modern locator, cat A)
+- *** Czech** → `Czech_Republic` [high] — _Czech Republic_: The Czech Republic, also known as Czechia and historically known as Bohemia, is a landlocked country in Central Europe. 
+
+## Chapter 6
+- **Oleg** → REUSE `Oleg_of_Novgorod` [high] — _Oleg the Wise_: Oleg (Old East Slavic: Ѡлегъ, romanised: Ōlegǔ, Ольгъ, Olǐgǔ; Old Norse: Helgi; died 912), also known as Oleg   (linked in 1 civ(s) (e.g. byzantine-empire) ×1)
+- **Novgorod** → REUSE `Veliky_Novgorod` [CONFIRM-homonym] — _Veliky Novgorod_: Veliky Novgorod ( və-LEE-kee NOV-gə-rod; Russian: Великий Новгород, IPA: [vʲɪˈlʲikʲɪj ˈnovɡərət]; lit. 'Great   (linked in 3 civ(s) (e.g. early-medieval-europe) ×6 — ⚠ AMBIGUOUS: also Novgorod(viking-age))
+- **Chronicle** → `Chronicle` [high] — _Chronicle_: A chronicle (Latin: chronica, from Greek χρονικά chroniká, from χρόνος, chrónos – "time") is a historical account of eve
+- *** Baltic** → `Baltic_Sea` [high] — _Baltic Sea_: The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, 
+- **Scandinavia** → CROSS → `vendel-scandinavia`  (cross-linked elsewhere ×8)
+- **Norse** → REUSE `Norsemen` [high] — _Norsemen_: The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers  (linked in 7 civ(s) (e.g. byzantine-empire) ×23)
+- **Sweden** → REUSE `Sweden` [CONFIRM-homonym] — _Sweden_: Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern   (linked in 4 civ(s) (e.g. early-medieval-europe) ×21 — ⚠ AMBIGUOUS: also Swedish_Empire(russian-empire))
+- *** Norwegian** → NO-PAGE → blurb (top hit "Norwegian" is a disambiguation page)
+- *** Norway** → `Norway` [high] — _Norway_: Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scand
+- **Viking Age** → CROSS → `viking-age`  (cross-linked elsewhere ×18)
+- **Khazars** → REUSE `Khazars` [high] — _Khazars_: The Khazars (/kəˈzɑːrz/) were a semi-nomadic Turkic people who established a major commercial empire in the la  (linked in 5 civ(s) (e.g. byzantine-empire) ×12)
+- **Svyatoslav** → REUSE `Sviatoslav_I` [high] — _Sviatoslav I_: Sviatoslav I or Svyatoslav I Igorevich (Old East Slavic: Свѧтославъ Игорєвичь, romanised: Svętoslavŭ Igorevičǐ  (linked in 1 civ(s) (e.g. viking-age) ×2)
+- *** Latin Christianity** → `Christianity` [high] — _Christianity_: Christianity is an Abrahamic monotheistic religion based on the Bible and the teachings of Jesus. The Gospels state that
+- *** Jews** → `Jews` [med] — _Jews_: Jews (Hebrew: יְהוּדִים‎, ISO 259-2: Yehudim, Israeli pronunciation: [jehuˈdim]), or the Jewish people, are an ethnoreli
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- **Olga** → NO-PAGE → blurb (top hit "Olga" is a disambiguation page)
+- *** Anatolian** → `Anatolia` [high] — _Anatolia_: Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the lan
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- *** Armenian** → `Armenia` [high] — _Armenia_: Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia. It is a par
+- **Bulgarian** → REUSE `Bulgarians` [CONFIRM-homonym] — _Bulgarians_: Bulgarians (Bulgarian: българи, romanized: bŭlgari, IPA: [ˈbɤɫɡɐri]) are a nation and South Slavic ethnic grou  (linked in 2 civ(s) (e.g. byzantine-empire) ×4 — ⚠ AMBIGUOUS: also First_Bulgarian_Empire(byzantine-empire), Second_Bulgarian_Empire(byzantine-empire))
+- **Yaroslav** → `Yaroslav_Amosov` [high] — _Yaroslav Amosov_: Yaroslav Amosov (born 9 September 1993) is a Ukrainian mixed martial artist who currently competes in the Welterweight d
+- **Anglo-Saxons** → REUSE `Anglo-Saxons` [high] — _Anglo-Saxons_: The Anglo-Saxons, in some contexts simply called Saxons or the English, were a cultural group who spoke Old En  (linked in 5 civ(s) (e.g. byzantine-empire) ×11)
+- **Norman Conquest** → CROSS → `viking-age`  (cross-linked elsewhere ×3)
+- **Dnieper** → REUSE `Dnieper` [high] — _Dnieper_: The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboun  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×9)
+- *** Christianization** → `Christianization` [high] — _Christianization_: Christianization (or Christianisation) is a term for the specific type of change that occurs when someone or something h
+- **Photius** → REUSE `Photius_I_of_Constantinople` [CONFIRM-homonym] — _Photios I of Constantinople_: Photios I of Constantinople (; also spelled Photius; Greek: Φώτιος, romanized: Phōtios; c. 815 – 6 February 89  (linked in 2 civ(s) (e.g. byzantine-empire) ×4 — ⚠ AMBIGUOUS: also Photios_I_of_Constantinople(byzantine-empire))
+- **Slavs** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 9 civ(s) (e.g. al-andalus) ×16 — ⚠ AMBIGUOUS: also Slavic_peoples(byzantine-empire))
+- **Pechenegs** → REUSE `Pechenegs` [high] — _Pechenegs_: The Pechenegs () or Patzinaks, were a semi-nomadic Turkic people from Central Asia who spoke the Pecheneg lang  (linked in 3 civ(s) (e.g. byzantine-empire) ×8)
+
+## Chapter 7
+- **Rus'** → REUSE `Kievan_Rus%27` [high] — _Kievan Rus'_: Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities  (linked in 3 civ(s) (e.g. early-medieval-europe) ×4)
+- **Novgorod** → REUSE `Veliky_Novgorod` [CONFIRM-homonym] — _Veliky Novgorod_: Veliky Novgorod ( və-LEE-kee NOV-gə-rod; Russian: Великий Новгород, IPA: [vʲɪˈlʲikʲɪj ˈnovɡərət]; lit. 'Great   (linked in 3 civ(s) (e.g. early-medieval-europe) ×6 — ⚠ AMBIGUOUS: also Novgorod(viking-age))
+- **Varangians** → `Varangians` [high] — _Varangians_: The Varangians (; Old Norse: Væringjar; Medieval Greek: Βάραγγοι, romanized: Várangoi; Old East Slavic: варяже, romanize
+- Poland → SKIP (modern locator, cat A)
+- **Black Sea** → REUSE `Black_Sea` [high] — _Black Sea_: The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European  (linked in 17 civ(s) (e.g. byzantine-empire) ×65)
+- **Dnieper** → REUSE `Dnieper` [high] — _Dnieper_: The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboun  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×9)
+- **Kievan Rus'** → CROSS → `kievan-rus`  (cross-linked elsewhere ×3)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×61)
+- **Macedonian Renaissance** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×3)
+- **Basil II** → REUSE `Basil_II` [high] — _Basil II_: Basil II Porphyrogenitus (Greek: Βασίλειος Πορφυρογέννητος, romanized: Basíleios Porphyrogénnētos; 958 – 15 De  (linked in 4 civ(s) (e.g. byzantine-empire) ×10)
+- **Hagia Sophia** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×13)
+- **UNESCO World Heritage Site** → REUSE `World_Heritage_Site` [CONFIRM-homonym] — _World Heritage Site_: World Heritage Sites are landmarks and areas with legal protection under an international treaty administered   (linked in 13 civ(s) (e.g. ancient-china) ×17 — ⚠ AMBIGUOUS: also UNESCO_World_Heritage_Site(teotihuacan))
+- **Primary Chronicle** → REUSE `Primary_Chronicle` [high] — _Primary Chronicle_: The Primary Chronicle, shortened from the common Russian Primary Chronicle (Church Slavonic: Повѣсть времѧньны  (linked in 2 civ(s) (e.g. byzantine-empire) ×4)
+- **Germanic** → CROSS → `germanic-tribes`  (cross-linked elsewhere ×10)
+- **Vladimir Monomakh** → `Russian_cruiser_Vladimir_Monomakh` [high] — _Russian cruiser Vladimir Monomakh_: Vladimir Monomakh (Russian: Владимир Мономах) was an armoured cruiser built for the Imperial Russian Navy during the 188
+- **Cyrillic** → REUSE `Cyrillic_script` [high] — _Cyrillic script_: The Cyrillic script ( sih-RI-lik) is a writing system used for various languages across Eurasia. It is the des  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×21)
+- **Elisaveta** → `Elisaveta` [high] — _Elisaveta_: Elisaveta (Bulgarian: Елисавета) is a name that may refer to: Elisaveta Bagriana (1893–1991), Bulgarian poet Elisaveta B
+- **Varangian Guard** → CROSS → `viking-age`  (cross-linked elsewhere ×3)
+- **Normans** → REUSE `Normans` [high] — _Normans_: The Normans (Norman: Normaunds; French: Normands; Latin: Nortmanni/Normanni) were a population arising in the   (linked in 5 civ(s) (e.g. byzantine-empire) ×11)
+- **Viking Age** → CROSS → `viking-age`  (cross-linked elsewhere ×18)
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- *** Norway** → `Norway` [high] — _Norway_: Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scand
+- **Norman Conquest of England** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×1)
+- Hungary → SKIP (modern locator, cat A)
+- **Eupraxia** → `Eupraxia_of_Kiev` [high] — _Eupraxia of Kiev_: Eupraxia Vsevolodovna of Kiev (c. 1067 – 10 July 1109; Old East Slavic: Еоупраксиа), sometimes westernised as Praxedis, 
+- *** Mongol** → CROSS → `mongol-empire`  (matches a civ id)
+
+## Chapter 8
+- **Igor** → NO-PAGE → blurb (top hit "Igor" is a disambiguation page)
+- **Olga** → NO-PAGE → blurb (top hit "Olga" is a disambiguation page)
+- **Svyatoslav** → REUSE `Sviatoslav_I` [high] — _Sviatoslav I_: Sviatoslav I or Svyatoslav I Igorevich (Old East Slavic: Свѧтославъ Игорєвичь, romanised: Svętoslavŭ Igorevičǐ  (linked in 1 civ(s) (e.g. viking-age) ×2)
+- **Primary Chronicle** → REUSE `Primary_Chronicle` [high] — _Primary Chronicle_: The Primary Chronicle, shortened from the common Russian Primary Chronicle (Church Slavonic: Повѣсть времѧньны  (linked in 2 civ(s) (e.g. byzantine-empire) ×4)
+- **Rus'** → REUSE `Kievan_Rus%27` [high] — _Kievan Rus'_: Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities  (linked in 3 civ(s) (e.g. early-medieval-europe) ×4)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×21)
+- **Novgorod** → REUSE `Veliky_Novgorod` [CONFIRM-homonym] — _Veliky Novgorod_: Veliky Novgorod ( və-LEE-kee NOV-gə-rod; Russian: Великий Новгород, IPA: [vʲɪˈlʲikʲɪj ˈnovɡərət]; lit. 'Great   (linked in 3 civ(s) (e.g. early-medieval-europe) ×6 — ⚠ AMBIGUOUS: also Novgorod(viking-age))
+- **Dnieper** → REUSE `Dnieper` [high] — _Dnieper_: The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboun  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×9)
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×29)
+- **kazhdo da derzhit otchinu svoiu** → NO-PAGE → blurb (no confident Wikipedia page found)
+
+## Chapter 9
+- **Kievan Rus'** → CROSS → `kievan-rus`  (cross-linked elsewhere ×3)
+- *** Mongol** → CROSS → `mongol-empire`  (matches a civ id)
+- *** Scandinavian** → `Scandinavian_Airlines` [high] — _Scandinavian Airlines_: The Scandinavian Airlines System (SAS), commonly known as Scandinavian Airlines, is the joint flag carrier airline of De
+- **Norse** → REUSE `Norsemen` [high] — _Norsemen_: The Norsemen (or Northmen) were a Germanic cultural group in the Early Middle Ages, originating among speakers  (linked in 7 civ(s) (e.g. byzantine-empire) ×23)
+- **North Sea** → CROSS → `early-medieval-europe`  (cross-linked elsewhere ×4)
+- **Carpathians** → REUSE `Carpathian_Mountains` [high] — _Carpathian Mountains_: The Carpathian Mountains or Carpathians () are a range of mountains forming an arc across Central Europe and S  (linked in 2 civ(s) (e.g. early-medieval-europe) ×4)
+- *** Hungarian** → NO-PAGE → blurb (top hit "Hungarian" is a disambiguation page)
+- Hungary → SKIP (modern locator, cat A)
+- *** Pope** → `Pope` [med] — _Pope_: The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, R
+- **Mongols** → CROSS → `mongol-empire`  (cross-linked elsewhere ×18)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×61)
+- **Lithuania** → REUSE `Grand_Duchy_of_Lithuania` [CONFIRM-homonym] — _Grand Duchy of Lithuania_: The Grand Duchy of Lithuania was a sovereign state in northeastern Europe that existed from the 13th century,   (linked in 2 civ(s) (e.g. late-medieval-europe) ×4 — ⚠ AMBIGUOUS: also Lithuania(soviet-union))
+- **Ukraine** → REUSE `Ukraine` [high] — _Ukraine_: Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders  (linked in 10 civ(s) (e.g. early-medieval-europe) ×37)
+- **Zalesye** → `Zalesye` [high] — _Zalesye_: Zalesye (Russian: Зале́сье, IPA: [zɐˈlʲesʲjə], lit. area beyond the forest) or Opolye (Russian: Опо́лье, IPA: [ɐˈpolʲjə]
+- **Volga** → REUSE `Volga` [CONFIRM-homonym] — _Volga_: The Volga (Russian: Волга, pronounced [ˈvolɡə] ) is the longest river in Europe and the longest endorheic basi  (linked in 8 civ(s) (e.g. byzantine-empire) ×26 — ⚠ AMBIGUOUS: also Volga_River(timurid-empire))
+- **Slavic** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 10 civ(s) (e.g. al-andalus) ×19 — ⚠ AMBIGUOUS: also Slavic_languages(islamic-golden-age), Saqaliba(islamic-golden-age))
+- **Vladimir the Great** → `Vladimir_the_Great` [high] — _Vladimir the Great_: Vladimir I Sviatoslavich or Volodymyr I Sviatoslavych (Old East Slavic: Володимѣръ Свѧтославичь, romanized: Volodiměr Sv
+- **Vladimir Monomakh** → `Russian_cruiser_Vladimir_Monomakh` [high] — _Russian cruiser Vladimir Monomakh_: Vladimir Monomakh (Russian: Владимир Мономах) was an armoured cruiser built for the Imperial Russian Navy during the 188
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×29)
+- **Orthodoxy** → REUSE `Eastern_Orthodox_Church` [CONFIRM-homonym] — _Eastern Orthodox Church_: The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church   (linked in 2 civ(s) (e.g. byzantine-empire) ×3 — ⚠ AMBIGUOUS: also Orthodoxy(hittite-empire))
+
+## Chapter 10
+- **Kievan Rus'** → CROSS → `kievan-rus`  (cross-linked elsewhere ×3)
+- *** Baltic** → `Baltic_Sea` [high] — _Baltic Sea_: The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, 
+- **Dnieper** → REUSE `Dnieper` [high] — _Dnieper_: The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboun  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×9)
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×11)
+- **Volga** → REUSE `Volga` [CONFIRM-homonym] — _Volga_: The Volga (Russian: Волга, pronounced [ˈvolɡə] ) is the longest river in Europe and the longest endorheic basi  (linked in 8 civ(s) (e.g. byzantine-empire) ×26 — ⚠ AMBIGUOUS: also Volga_River(timurid-empire))
+- **Ukraine** → REUSE `Ukraine` [high] — _Ukraine_: Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders  (linked in 10 civ(s) (e.g. early-medieval-europe) ×37)
+- **Scandinavia** → CROSS → `vendel-scandinavia`  (cross-linked elsewhere ×8)
+- Central Asia → SKIP (modern locator, cat A)
+- **Vladimir** → CROSS → `viking-age`  (cross-linked elsewhere ×1)
+- *** Slavic** → `Slavic_languages` [high] — _Slavic languages_: The Slavic languages, also known as the Slavonic languages, are Indo-European languages spoken primarily by the Slavic p
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×29)
+- **Abbasid** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×19)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×46)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- *** Scandinavian** → `Scandinavian_Airlines` [high] — _Scandinavian Airlines_: The Scandinavian Airlines System (SAS), commonly known as Scandinavian Airlines, is the joint flag carrier airline of De
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×61)
+- **Pechenegs** → REUSE `Pechenegs` [high] — _Pechenegs_: The Pechenegs () or Patzinaks, were a semi-nomadic Turkic people from Central Asia who spoke the Pecheneg lang  (linked in 3 civ(s) (e.g. byzantine-empire) ×8)
+- **Russkaya Pravda** → REUSE `Russkaya_Pravda` [high] — _Russkaya Pravda_: The Russkaya Pravda (sometimes translated as Rus' Justice, Rus' Truth, or Russian Justice) was the legal code   (linked in 1 civ(s) (e.g. viking-age) ×2)
+- **Cyrillic** → REUSE `Cyrillic_script` [high] — _Cyrillic script_: The Cyrillic script ( sih-RI-lik) is a writing system used for various languages across Eurasia. It is the des  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Kyiv Caves Monastery** → `Kyiv_Caves_Patericon` [med] — _Kyiv Caves Patericon_: The Kyiv Caves Patericon or the Kyiv-Pechersk Patericon (Ukrainian: Києво-Печерський патерик), full title: Patericon, or
+- **Yaroslav** → `Yaroslav_Amosov` [high] — _Yaroslav Amosov_: Yaroslav Amosov (born 9 September 1993) is a Ukrainian mixed martial artist who currently competes in the Welterweight d
+- **Caves Paterik** → `Kyiv_Caves_Patericon` [med] — _Kyiv Caves Patericon_: The Kyiv Caves Patericon or the Kyiv-Pechersk Patericon (Ukrainian: Києво-Печерський патерик), full title: Patericon, or
+- **Primary Chronicle** → REUSE `Primary_Chronicle` [high] — _Primary Chronicle_: The Primary Chronicle, shortened from the common Russian Primary Chronicle (Church Slavonic: Повѣсть времѧньны  (linked in 2 civ(s) (e.g. byzantine-empire) ×4)
+- **Jerusalem** → REUSE `Jerusalem` [high] — _Jerusalem_: Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean an  (linked in 17 civ(s) (e.g. al-andalus) ×64)
+- *** Christianization** → `Christianization` [high] — _Christianization_: Christianization (or Christianisation) is a term for the specific type of change that occurs when someone or something h
+- *** Norway** → `Norway` [high] — _Norway_: Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scand
+- **Olga** → NO-PAGE → blurb (top hit "Olga" is a disambiguation page)
+
+## Chapter 11
+- **Black Sea** → REUSE `Black_Sea` [high] — _Black Sea_: The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European  (linked in 17 civ(s) (e.g. byzantine-empire) ×65)
+- **Rus'** → REUSE `Kievan_Rus%27` [high] — _Kievan Rus'_: Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities  (linked in 3 civ(s) (e.g. early-medieval-europe) ×4)
+- **Slavs** → REUSE `Slavs` [CONFIRM-homonym] — _Slavs_: The Slavs or Slavic people are groups of people who speak Slavic languages. Slavs are geographically distribut  (linked in 9 civ(s) (e.g. al-andalus) ×16 — ⚠ AMBIGUOUS: also Slavic_peoples(byzantine-empire))
+- **Svyatoslav** → REUSE `Sviatoslav_I` [high] — _Sviatoslav I_: Sviatoslav I or Svyatoslav I Igorevich (Old East Slavic: Свѧтославъ Игорєвичь, romanised: Svętoslavŭ Igorevičǐ  (linked in 1 civ(s) (e.g. viking-age) ×2)
+- **Kyiv** → REUSE `Kyiv` [CONFIRM-homonym] — _Kyiv_: Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the co  (linked in 4 civ(s) (e.g. early-medieval-europe) ×10 — ⚠ AMBIGUOUS: also Kiev(gokturk-khaganate))
+- **Yaroslav** → `Yaroslav_Amosov` [high] — _Yaroslav Amosov_: Yaroslav Amosov (born 9 September 1993) is a Ukrainian mixed martial artist who currently competes in the Welterweight d
+- **Polovtsy** → `Cumans` [low] — _Cumans_: The Cumans or Kumans were a Turkic nomadic people from Central Asia comprising the western branch of the Cuman–Kipchak c
+- **Turkic** → REUSE `Turkic_peoples` [high] — _Turkic peoples_: Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as par  (linked in 20 civ(s) (e.g. byzantine-empire) ×59)
+- **Temüjin** → REUSE `Genghis_Khan` [high] — _Genghis Khan_: Genghis Khan (born Temüjin; c. 1162 – August 1227), also known as Chinggis Khan, was the founder and first kha  (linked in 2 civ(s) (e.g. mongol-empire) ×3)
+- Central Asia → SKIP (modern locator, cat A)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- **Khwarazmian** → REUSE `Khwarazm` [CONFIRM-homonym] — _Khwarazm_: Khwarazm or Chorasmia is a large oasis region on the Amu Darya river delta in western Central Asia, bordered o  (linked in 1 civ(s) (e.g. medieval-india) ×2 — ⚠ AMBIGUOUS: also Khwarazmian_Empire(delhi-sultanate))
+- **Dnieper** → REUSE `Dnieper` [high] — _Dnieper_: The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboun  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×9)
+- Hungary → SKIP (modern locator, cat A)
+
+## Chapter 12
+- **Rus'** → REUSE `Kievan_Rus%27` [high] — _Kievan Rus'_: Kievan Rus', also known as Kyivan Rus', was the first East Slavic state and later an amalgam of principalities  (linked in 3 civ(s) (e.g. early-medieval-europe) ×4)
+- **Turkic** → REUSE `Turkic_peoples` [high] — _Turkic peoples_: Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as par  (linked in 20 civ(s) (e.g. byzantine-empire) ×59)
+- **Genghis Khan** → CROSS → `mongol-empire`  (cross-linked elsewhere ×17)
+- Poland → SKIP (modern locator, cat A)
+- Hungary → SKIP (modern locator, cat A)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×27)
+- **Andrei Bogolyubsky** → `Andrey_Bogolyubsky` [med] — _Andrey Bogolyubsky_: Andrey I Yuryevich Bogolyubsky (Russian: Андрей Ю́рьевич Боголюбский, lit. 'Andrey Yuryevich of Bogolyubovo'; died 28 Ju
+- **Kyiv** → REUSE `Kyiv` [CONFIRM-homonym] — _Kyiv_: Kyiv, also Kiev, is the capital and most populous city of Ukraine. Located in the north-central part of the co  (linked in 4 civ(s) (e.g. early-medieval-europe) ×10 — ⚠ AMBIGUOUS: also Kiev(gokturk-khaganate))
+- **Kievan Rus'** → CROSS → `kievan-rus`  (cross-linked elsewhere ×3)
+- **Oleg** → REUSE `Oleg_of_Novgorod` [high] — _Oleg the Wise_: Oleg (Old East Slavic: Ѡлегъ, romanised: Ōlegǔ, Ольгъ, Olǐgǔ; Old Norse: Helgi; died 912), also known as Oleg   (linked in 1 civ(s) (e.g. byzantine-empire) ×1)
+- **Yaroslav** → `Yaroslav_Amosov` [high] — _Yaroslav Amosov_: Yaroslav Amosov (born 9 September 1993) is a Ukrainian mixed martial artist who currently competes in the Welterweight d
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×61)
+- **Franciscan** → REUSE `Franciscans` [high] — _Franciscans_: The Franciscans are a group of related organizations in the Catholic Church, founded by the Italian saint Fran  (linked in 5 civ(s) (e.g. high-medieval-europe) ×8)
+- *** Pope** → `Pope` [med] — _Pope_: The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, R
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×21)
+- Central Asia → SKIP (modern locator, cat A)
+- **Volga** → REUSE `Volga` [CONFIRM-homonym] — _Volga_: The Volga (Russian: Волга, pronounced [ˈvolɡə] ) is the longest river in Europe and the longest endorheic basi  (linked in 8 civ(s) (e.g. byzantine-empire) ×26 — ⚠ AMBIGUOUS: also Volga_River(timurid-empire))
+- **Tatar Yoke** → CROSS → `mongol-empire`  (cross-linked elsewhere ×1)
+- **Mongolia** → REUSE `Mongolia` [high] — _Mongolia_: Mongolia is a landlocked country in the East Asia region. It is bordered by Russia to the north and China to t  (linked in 12 civ(s) (e.g. delhi-sultanate) ×52)
+- **Black Sea** → REUSE `Black_Sea` [high] — _Black Sea_: The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European  (linked in 17 civ(s) (e.g. byzantine-empire) ×65)
+- **Genoese** → REUSE `Republic_of_Genoa` [high] — _Republic of Genoa_: The Republic of Genoa was a medieval and early modern maritime republic from the years 1099 to 1797 in Liguria  (linked in 7 civ(s) (e.g. byzantine-empire) ×19)
+- **Crimea** → REUSE `Crimea` [high] — _Crimea_: Crimea ( kry-MEE-ə) is a peninsula in Eastern Europe, on the northern coast of the Black Sea, almost entirely   (linked in 7 civ(s) (e.g. islamic-golden-age) ×18)
+- *** Baltic** → `Baltic_Sea` [high] — _Baltic Sea_: The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, 
+- **Swedes** → REUSE `Sweden` [high] — _Sweden_: Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern   (linked in 2 civ(s) (e.g. songhai-empire) ×5)
+- **Russian Orthodox Church** → REUSE `Russian_Orthodox_Church` [high] — _Russian Orthodox Church_: The Russian Orthodox Church (ROC; Russian: Русская православная церковь, РПЦ, romanized: Russkaya pravoslavnay  (linked in 2 civ(s) (e.g. byzantine-empire) ×4)
+- **Soviet** → CROSS → `soviet-union`  (cross-linked elsewhere ×1)
+- *** Catholicism** → `Traditionalist_Catholicism` [high] — _Traditionalist Catholicism_: Traditionalist Catholicism is a movement that emphasizes beliefs, practices, customs, traditions, liturgical forms, devo
+- **Dnieper** → REUSE `Dnieper` [high] — _Dnieper_: The Dnieper or Dnepr ( (də-)NEE-pər), also known as the Dnipro ( (də-)NEE-proh), is one of the major transboun  (linked in 4 civ(s) (e.g. gokturk-khaganate) ×9)
+- **Polotsk** → `Polotsk` [high] — _Polotsk_: Polotsk, or Polatsk, is a town in Vitebsk Region, Belarus. It is situated on the Dvina River and serves as the administr
+- **Cyrillic** → REUSE `Cyrillic_script` [high] — _Cyrillic script_: The Cyrillic script ( sih-RI-lik) is a writing system used for various languages across Eurasia. It is the des  (linked in 1 civ(s) (e.g. soviet-union) ×2)
+- **Kyiv in 1240** → `Siege_of_Kiev_(1240)` [med] — _Siege of Kiev (1240)_: The Siege of Kiev by the Mongols took place between 28 November and 6 December 1240, and resulted in a Mongol victory. I
