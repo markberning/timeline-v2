@@ -107,6 +107,71 @@
       "matchText": "Axum",
       "wikiSlug": "Axum",
       "type": "place"
+    },
+    {
+      "matchText": "White Nile",
+      "term": "White Nile",
+      "wikiSlug": "White_Nile"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "South Arabian",
+      "term": "South Arabian",
+      "wikiSlug": "Ancient_South_Arabian"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Aramaic",
+      "term": "Aramaic",
+      "wikiSlug": "Aramaic"
+    },
+    {
+      "matchText": "Semitic-speaking",
+      "term": "Semitic-speaking",
+      "wikiSlug": "Ancient_Semitic-speaking_peoples"
+    },
+    {
+      "matchText": "Greek-speaking",
+      "term": "Greek-speaking",
+      "definition": "Speaking Greek, the language of the eastern Mediterranean's merchants and educated classes in the Roman era. Greek was the working tongue of Red Sea and Indian Ocean trade, so a Greek-speaking merchant could do business from Egypt to India."
+    },
+    {
+      "matchText": "Adulis",
+      "term": "Adulis",
+      "wikiSlug": "Adulis"
+    },
+    {
+      "matchText": "Esarhaddon",
+      "term": "Esarhaddon",
+      "wikiSlug": "Esarhaddon"
+    },
+    {
+      "matchText": "Ashurbanipal",
+      "term": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal"
+    },
+    {
+      "matchText": "Meroitic",
+      "term": "Meroitic",
+      "wikiSlug": "Meroë"
     }
   ],
   "2": [
@@ -177,12 +242,6 @@
       "type": "place"
     },
     {
-      "term": "Beja",
-      "matchText": "Beja",
-      "wikiSlug": "Beja_people",
-      "type": "people"
-    },
-    {
       "term": "amphora",
       "matchText": "amphoras",
       "wikiSlug": "Amphora",
@@ -247,6 +306,96 @@
       "matchText": "Han Dynasty",
       "wikiSlug": "Han_dynasty",
       "type": "concept"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Horn of Africa",
+      "term": "Horn of Africa",
+      "wikiSlug": "Horn_of_Africa"
+    },
+    {
+      "matchText": "Ostia",
+      "term": "Ostia",
+      "wikiSlug": "Ostia_Antica"
+    },
+    {
+      "matchText": "Piraeus",
+      "term": "Piraeus",
+      "wikiSlug": "Piraeus"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Rhapta",
+      "term": "Rhapta",
+      "wikiSlug": "Rhapta"
+    },
+    {
+      "matchText": "Azania",
+      "term": "Azania",
+      "wikiSlug": "Azania"
+    },
+    {
+      "matchText": "Ptolemaic",
+      "term": "Ptolemaic dynasty",
+      "wikiSlug": "Ptolemaic_dynasty"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Vesuvius",
+      "term": "Mount Vesuvius",
+      "wikiSlug": "Mount_Vesuvius"
+    },
+    {
+      "matchText": "Silk Road",
+      "term": "Silk Road",
+      "wikiSlug": "Silk_Road"
+    },
+    {
+      "matchText": "Arab",
+      "term": "Arabs",
+      "wikiSlug": "Arabs"
+    },
+    {
+      "matchText": "Mediterranean trade",
+      "term": "Mediterranean trade",
+      "definition": "The web of seaborne commerce that tied the Roman world together, carrying African ivory, incense, gold, and gemstones north in exchange for Roman wine, olive oil, glassware, and coin. For Aksum it was the richest of its three trading horizons, with Roman Egypt as its biggest customer."
+    },
+    {
+      "matchText": "African interior trade",
+      "term": "African interior trade",
+      "definition": "The overland caravan traffic that fed goods from deep inside the continent — ivory, gold dust, frankincense and myrrh, emeralds, hides, and enslaved people — to Aksum's highland markets and on to Adulis. Aksum rarely produced these goods itself; it controlled the point where they entered the international market and taxed the flow."
+    },
+    {
+      "matchText": "Southeast Asian",
+      "term": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "matchText": "Ethiopian",
+      "term": "Ethiopian",
+      "wikiSlug": "Ethiopia"
+    },
+    {
+      "matchText": "Egyptians",
+      "term": "Egyptians",
+      "wikiSlug": "Ancient_Egypt"
+    },
+    {
+      "matchText": "South Arabian",
+      "term": "South Arabian",
+      "wikiSlug": "Ancient_South_Arabian_script"
     }
   ],
   "3": [
@@ -255,12 +404,6 @@
       "matchText": "stelae",
       "wikiSlug": "Stele",
       "type": "concept"
-    },
-    {
-      "term": "Gobedra Hill",
-      "matchText": "Gobedra Hill",
-      "wikiSlug": "Kingdom_of_Aksum",
-      "type": "place"
     },
     {
       "term": "abjad",
@@ -369,6 +512,81 @@
       "matchText": "Addis Ababa",
       "wikiSlug": "Addis_Ababa",
       "type": "place"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Han China",
+      "term": "Han China",
+      "wikiSlug": "Han_dynasty"
+    },
+    {
+      "matchText": "Western Jin",
+      "term": "Western Jin",
+      "wikiSlug": "Jin_dynasty_(266%E2%80%93420)"
+    },
+    {
+      "matchText": "Valley of Mexico",
+      "term": "Valley of Mexico",
+      "wikiSlug": "Valley_of_Mexico"
+    },
+    {
+      "matchText": "King Ezana's Stela",
+      "term": "King Ezana's Stela",
+      "wikiSlug": "King_Ezana's_Stele"
+    },
+    {
+      "matchText": "South Arabian",
+      "term": "South Arabian script",
+      "wikiSlug": "Ancient_South_Arabian_script"
+    },
+    {
+      "matchText": "D'mt",
+      "term": "D'mt",
+      "wikiSlug": "Dʿmt"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Ethiopian",
+      "term": "Ethiopia",
+      "wikiSlug": "Ethiopia"
+    },
+    {
+      "matchText": "Eritrea",
+      "term": "Eritrea",
+      "wikiSlug": "Eritrea"
+    },
+    {
+      "matchText": "Mani",
+      "term": "Mani",
+      "wikiSlug": "Mani_(prophet)"
+    },
+    {
+      "matchText": "Parthians",
+      "term": "Parthians",
+      "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Ethiopia",
+      "term": "Ethiopia",
+      "wikiSlug": "Ethiopia"
     }
   ],
   "4": [
@@ -509,6 +727,96 @@
       "matchText": "Ten Commandments",
       "wikiSlug": "Ten_Commandments",
       "type": "concept"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Hebrew Bible",
+      "term": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible"
+    },
+    {
+      "matchText": "Iberian Peninsula",
+      "term": "Iberian Peninsula",
+      "wikiSlug": "Iberian_Peninsula"
+    },
+    {
+      "matchText": "Aedesius",
+      "term": "Aedesius",
+      "wikiSlug": "Frumentius"
+    },
+    {
+      "matchText": "Joseph",
+      "term": "Joseph (biblical figure)",
+      "wikiSlug": "Joseph_(Genesis)"
+    },
+    {
+      "matchText": "Persian Gulf",
+      "term": "Persian Gulf",
+      "wikiSlug": "Persian_Gulf"
+    },
+    {
+      "matchText": "Alexandria",
+      "term": "Alexandria",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "matchText": "Beher",
+      "term": "Beher",
+      "definition": "A sea god of the pre-Christian Aksumite pantheon, invoked in King Ezana's earlier inscriptions alongside Mahrem and Meder before his conversion to Christianity replaced the old gods with 'the Lord of Heaven.'"
+    },
+    {
+      "matchText": "Meder",
+      "term": "Meder",
+      "definition": "An earth god of the pre-Christian Aksumite pantheon, named in King Ezana's earlier inscriptions and dropped after his conversion to Christianity in favor of Christian formulas."
+    },
+    {
+      "matchText": "Kebra Nagast",
+      "term": "Kebra Nagast",
+      "wikiSlug": "Kebra_Nagast"
+    },
+    {
+      "matchText": "Constantius II",
+      "term": "Constantius II",
+      "wikiSlug": "Constantius_II"
+    },
+    {
+      "matchText": "Arius",
+      "term": "Arius",
+      "wikiSlug": "Arius"
+    },
+    {
+      "matchText": "Council of Chalcedon",
+      "term": "Council of Chalcedon",
+      "wikiSlug": "Council_of_Chalcedon"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Ge'ez",
+      "term": "Ge'ez",
+      "wikiSlug": "Ge%27ez"
+    },
+    {
+      "matchText": "Beja",
+      "term": "Beja",
+      "wikiSlug": "Beja_people"
+    },
+    {
+      "matchText": "South Arabian",
+      "term": "South Arabian",
+      "wikiSlug": "Ancient_South_Arabian_script"
+    },
+    {
+      "matchText": "Ethiopian Christianity",
+      "term": "Ethiopian Christianity",
+      "wikiSlug": "Christianity_in_Ethiopia"
     }
   ],
   "5": [
@@ -529,12 +837,6 @@
       "matchText": "Bab el-Mandeb",
       "wikiSlug": "Bab-el-Mandeb",
       "type": "place"
-    },
-    {
-      "term": "Justinian I",
-      "matchText": "Justinian I",
-      "wikiSlug": "Justinian_I",
-      "type": "people"
     },
     {
       "term": "Byzantine Empire",
@@ -637,6 +939,86 @@
       "matchText": "Kaleb",
       "wikiSlug": "Kaleb_of_Axum",
       "type": "people"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Horn of Africa",
+      "term": "Horn of Africa",
+      "wikiSlug": "Horn_of_Africa"
+    },
+    {
+      "matchText": "Eastern Roman Empire",
+      "term": "Eastern Roman Empire",
+      "wikiSlug": "Byzantine_Empire"
+    },
+    {
+      "matchText": "Prophet Muhammad",
+      "term": "Prophet Muhammad",
+      "wikiSlug": "Muhammad"
+    },
+    {
+      "matchText": "Ezana",
+      "term": "Ezana",
+      "wikiSlug": "Ezana_of_Axum"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Aramaic",
+      "term": "Aramaic",
+      "wikiSlug": "Aramaic"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Alexandria",
+      "term": "Alexandria",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "matchText": "Adulis",
+      "term": "Adulis",
+      "wikiSlug": "Adulis"
+    },
+    {
+      "matchText": "Monumentum Adulitanum",
+      "term": "Monumentum Adulitanum",
+      "wikiSlug": "Monumentum_Adulitanum"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Mesoamerica",
+      "term": "Mesoamerica",
+      "wikiSlug": "Mesoamerica"
+    },
+    {
+      "matchText": "Ethiopian",
+      "term": "Ethiopian",
+      "wikiSlug": "Ethiopia"
     }
   ],
   "6": [
@@ -783,6 +1165,106 @@
       "matchText": "Tis'atu Qiddusan",
       "wikiSlug": "Nine_Saints",
       "type": "concept"
+    },
+    {
+      "matchText": "Eastern Orthodox",
+      "term": "Eastern Orthodox",
+      "wikiSlug": "Eastern_Orthodox_Church"
+    },
+    {
+      "matchText": "Hebrew Bible",
+      "term": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible"
+    },
+    {
+      "matchText": "Ethiopian Orthodox Church",
+      "term": "Ethiopian Orthodox Church",
+      "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church"
+    },
+    {
+      "matchText": "Ezana",
+      "term": "Ezana",
+      "wikiSlug": "Ezana_of_Axum"
+    },
+    {
+      "matchText": "Ethiopian Christianity",
+      "term": "Ethiopian Christianity",
+      "wikiSlug": "Christianity_in_Ethiopia"
+    },
+    {
+      "matchText": "Ethiopian",
+      "term": "Ethiopian",
+      "wikiSlug": "Ethiopia"
+    },
+    {
+      "matchText": "Ethiopia",
+      "term": "Ethiopia",
+      "wikiSlug": "Ethiopian_Highlands"
+    },
+    {
+      "matchText": "Chalcedonian",
+      "term": "Chalcedonian",
+      "wikiSlug": "Chalcedonian_Christianity"
+    },
+    {
+      "matchText": "Alexandria",
+      "term": "Alexandria",
+      "wikiSlug": "Alexandria"
+    },
+    {
+      "matchText": "Amharic",
+      "term": "Amharic",
+      "wikiSlug": "Amharic"
+    },
+    {
+      "matchText": "Tigrinya",
+      "term": "Tigrinya",
+      "wikiSlug": "Tigrinya_language"
+    },
+    {
+      "matchText": "Armenian",
+      "term": "Armenian",
+      "wikiSlug": "Armenians"
+    },
+    {
+      "matchText": "Syriac",
+      "term": "Syriac",
+      "wikiSlug": "Syriac_language"
+    },
+    {
+      "matchText": "Hebrew",
+      "term": "Hebrew",
+      "wikiSlug": "Hebrew_language"
+    },
+    {
+      "matchText": "Messiah",
+      "term": "Messiah",
+      "wikiSlug": "Messiah"
+    },
+    {
+      "matchText": "Genesis",
+      "term": "Genesis",
+      "wikiSlug": "Book_of_Genesis"
+    },
+    {
+      "matchText": "Exodus",
+      "term": "Exodus",
+      "wikiSlug": "Book_of_Exodus"
+    },
+    {
+      "matchText": "Christians",
+      "term": "Christians",
+      "wikiSlug": "Christians"
+    },
+    {
+      "matchText": "Isis",
+      "term": "Isis",
+      "wikiSlug": "Isis"
+    },
+    {
+      "matchText": "mia physis",
+      "term": "mia physis",
+      "wikiSlug": "Miaphysitism"
     }
   ],
   "7": [
@@ -875,6 +1357,111 @@
       "matchText": "highland fortress",
       "wikiSlug": "History_of_Ethiopia",
       "type": "concept"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Najashi",
+      "term": "Najashi",
+      "wikiSlug": "Najashi"
+    },
+    {
+      "matchText": "Ge'ez",
+      "term": "Ge'ez",
+      "wikiSlug": "Ge%27ez"
+    },
+    {
+      "matchText": "Muslims",
+      "term": "Muslims",
+      "wikiSlug": "Muslims"
+    },
+    {
+      "matchText": "Ethiopia",
+      "term": "Ethiopia",
+      "wikiSlug": "Ethiopia"
+    },
+    {
+      "matchText": "Periplus",
+      "term": "Periplus",
+      "wikiSlug": "Periplus_of_the_Erythraean_Sea"
+    },
+    {
+      "matchText": "Azania",
+      "term": "Azania",
+      "wikiSlug": "Azania"
+    },
+    {
+      "matchText": "Shanga",
+      "term": "Shanga",
+      "wikiSlug": "Shanga,_Pate_Island"
+    },
+    {
+      "matchText": "Manda",
+      "term": "Manda",
+      "wikiSlug": "Manda_Island"
+    },
+    {
+      "matchText": "Unguja Ukuu",
+      "term": "Unguja Ukuu",
+      "wikiSlug": "Unguja_Ukuu"
+    },
+    {
+      "matchText": "Indian Ocean",
+      "term": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean"
+    },
+    {
+      "matchText": "Debre Damo",
+      "term": "Debre Damo",
+      "wikiSlug": "Debre_Dammo"
+    },
+    {
+      "matchText": "Jerusalem",
+      "term": "Jerusalem",
+      "wikiSlug": "Jerusalem"
+    },
+    {
+      "matchText": "Ark of the Covenant",
+      "term": "Ark of the Covenant",
+      "wikiSlug": "Ark_of_the_Covenant"
+    },
+    {
+      "matchText": "Coptic",
+      "term": "Coptic",
+      "wikiSlug": "Coptic_language"
+    },
+    {
+      "matchText": "Haile Selassie",
+      "term": "Haile Selassie",
+      "wikiSlug": "Haile_Selassie"
+    },
+    {
+      "matchText": "Babylonian",
+      "term": "Babylonian",
+      "wikiSlug": "Babylonia"
+    },
+    {
+      "matchText": "Aeneas",
+      "term": "Aeneas",
+      "wikiSlug": "Aeneas"
+    },
+    {
+      "matchText": "Book of Enoch",
+      "term": "Book of Enoch",
+      "wikiSlug": "Book_of_Enoch"
+    },
+    {
+      "matchText": "negus",
+      "term": "negus",
+      "wikiSlug": "Negus"
     }
   ],
   "8": [
@@ -951,12 +1538,6 @@
       "type": "concept"
     },
     {
-      "term": "Dungur",
-      "matchText": "Dungur Palace",
-      "wikiSlug": "Dungur",
-      "type": "place"
-    },
-    {
       "term": "Cushitic",
       "matchText": "Cushitic-speaking",
       "wikiSlug": "Cushitic_languages",
@@ -997,6 +1578,136 @@
       "matchText": "Abbasid Caliphate",
       "wikiSlug": "Abbasid_Caliphate",
       "type": "concept"
+    },
+    {
+      "matchText": "Red Sea",
+      "term": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "matchText": "Western Empire",
+      "term": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire"
+    },
+    {
+      "matchText": "Ethiopian Orthodox Church",
+      "term": "Ethiopian Orthodox Church",
+      "wikiSlug": "Ethiopian_Orthodox_Tewahedo_Church"
+    },
+    {
+      "matchText": "Adulis",
+      "term": "Adulis",
+      "wikiSlug": "Adulis"
+    },
+    {
+      "matchText": "Arabic",
+      "term": "Arabic",
+      "wikiSlug": "Arabic"
+    },
+    {
+      "matchText": "Nile",
+      "term": "Nile",
+      "wikiSlug": "Nile"
+    },
+    {
+      "matchText": "Arabia",
+      "term": "Arabia",
+      "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "matchText": "Ethiopia",
+      "term": "Ethiopia",
+      "wikiSlug": "Ethiopian_Highlands"
+    },
+    {
+      "matchText": "Judaism",
+      "term": "Judaism",
+      "wikiSlug": "Judaism"
+    },
+    {
+      "matchText": "Ezana",
+      "term": "Ezana",
+      "wikiSlug": "Ezana_of_Axum"
+    },
+    {
+      "matchText": "Zoskales",
+      "term": "Zoskales",
+      "wikiSlug": "Zoskales"
+    },
+    {
+      "matchText": "Kebra Nagast",
+      "term": "Kebra Nagast",
+      "wikiSlug": "Kebra_Nagast"
+    },
+    {
+      "matchText": "Debre Damo",
+      "term": "Debre Damo",
+      "wikiSlug": "Debre_Dammo"
+    },
+    {
+      "matchText": "Middle East",
+      "term": "Middle East",
+      "wikiSlug": "Middle_East"
+    },
+    {
+      "matchText": "Solomon",
+      "term": "Solomon",
+      "wikiSlug": "Solomon"
+    },
+    {
+      "matchText": "Great Stela",
+      "term": "Great Stela",
+      "definition": "The largest of the giant carved obelisks (stelae) at Aksum — a single granite shaft roughly 100 feet tall, the biggest monolith ancient people ever tried to raise. It broke and toppled, probably during erection, and still lies shattered across the northern stelae field where it fell."
+    },
+    {
+      "matchText": "Church of Our Lady Mary of Zion",
+      "term": "Church of Our Lady Mary of Zion",
+      "wikiSlug": "Church_of_Our_Lady_Mary_of_Zion"
+    },
+    {
+      "matchText": "Garima Gospels",
+      "term": "Garima Gospels",
+      "wikiSlug": "Garima_Gospels"
+    },
+    {
+      "matchText": "Adwa",
+      "term": "Adwa",
+      "wikiSlug": "Adwa"
+    },
+    {
+      "matchText": "Ge'ez",
+      "term": "Ge'ez",
+      "wikiSlug": "Ge%27ez"
+    },
+    {
+      "matchText": "Eritrea",
+      "term": "Eritrea",
+      "wikiSlug": "Eritrea"
+    },
+    {
+      "matchText": "Augustus",
+      "term": "Augustus",
+      "wikiSlug": "Augustus"
+    },
+    {
+      "matchText": "Sahara",
+      "term": "Sahara",
+      "wikiSlug": "Sahara"
+    },
+    {
+      "matchText": "Kilwa",
+      "term": "Kilwa",
+      "wikiSlug": "Kilwa_Sultanate"
+    },
+    {
+      "matchText": "Toltec",
+      "term": "Toltec",
+      "wikiSlug": "Toltec"
+    },
+    {
+      "matchText": "Gregorian",
+      "term": "Gregorian",
+      "wikiSlug": "Gregorian_calendar"
     }
   ]
 }

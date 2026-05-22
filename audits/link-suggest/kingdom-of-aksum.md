@@ -1,0 +1,233 @@
+# link-suggest — kingdom-of-aksum
+
+{"CROSS":53,"LINK-CANDIDATE":56,"REUSE":87,"SKIP":12,"NO-PAGE":4}
+
+Confirm each row's subject from the lead, then write the curated entry. SKIP set is the ONLY allowed non-link.
+
+## Chapter 1
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×32)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×22)
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- *** Arabia** → `Saudi_Arabia` [high] — _Saudi Arabia_: Saudi Arabia, officially the Kingdom of Saudi Arabia (KSA), is a country in West Asia. Located in the centre of the Midd
+- **Mecca** → CROSS → `umayyad-caliphate`  (cross-linked elsewhere ×7)
+- **Sudan** → REUSE `Sudan` [CONFIRM-homonym] — _Sudan_: Sudan, officially the Republic of the Sudan, is a country in Northeast Africa. It borders the Central African   (linked in 5 civ(s) (e.g. ancient-nubia) ×10 — ⚠ AMBIGUOUS: also Sudan_(region)(mali-empire))
+- **White Nile** → REUSE `White_Nile` [high] — _White Nile_: The White Nile (Arabic: النيل الأبيض an-nīl al-'abyaḍ) is a river in North and East Africa. It is the less-vol  (linked in 2 civ(s) (e.g. ancient-nubia) ×4)
+- **Nubia** → CROSS → `ancient-nubia`  (cross-linked elsewhere ×12)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×25)
+- **Ethiopia** → REUSE `Ethiopian_Highlands` [high] — _Ethiopian Highlands_: The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Et  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×1)
+- **Indus Valley** → CROSS → `indus-valley`  (cross-linked elsewhere ×31)
+- **Indus** → CROSS → `indus-valley`  (cross-linked elsewhere ×9)
+- **Yellow River** → CROSS → `ancient-china`  (cross-linked elsewhere ×6)
+- **Andes** → CROSS → `middle-horizon-empires`  (cross-linked elsewhere ×30)
+- Yemen → SKIP (modern locator, cat A)
+- **South Arabian** → `Ancient_South_Arabian` [high] — _Ancient South Arabian_: Ancient South Arabian (ASA), also known as Old South Arabian (OSA), Epigraphic South Arabian, Ṣayhadic, or Yemenite, is 
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 28 civ(s) (e.g. al-andalus) ×143 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Hebrew** → REUSE `Hebrew_language` [high] — _Hebrew language_: Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaa  (linked in 12 civ(s) (e.g. al-andalus) ×27)
+- **Aramaic** → REUSE `Aramaic` [CONFIRM-homonym] — _Aramaic_: Aramaic (Jewish Babylonian Aramaic: ארמית, romanized: ˀərāmiṯ; Classical Syriac: ܐܪܡܐܝܬ, romanized: arāmāˀiṯ)   (linked in 7 civ(s) (e.g. ancient-nubia) ×18 — ⚠ AMBIGUOUS: also Aramaic_language(assyrian-empire), Aramaic_alphabet(gokturk-khaganate))
+- *** Semitic-speaking** → `Ancient_Semitic-speaking_peoples` [high] — _Ancient Semitic-speaking peoples_: Ancient Semitic-speaking peoples or Proto-Semitic people were speakers of Semitic languages who lived throughout the anc
+- *** Greek-speaking** → NO-PAGE → blurb (top hit "Greek-speaking Muslims" is a disambiguation page)
+- **Adulis** → CROSS → `kingdom-of-aksum`  (cross-linked elsewhere ×1)
+- **Esarhaddon** → REUSE `Esarhaddon` [high] — _Esarhaddon_: Esarhaddon, also spelled Essarhaddon, Assarhaddon and Ashurhaddon (Neo-Assyrian Akkadian: 𒀭𒊹𒉽𒀸, also 𒀭𒊹�  (linked in 4 civ(s) (e.g. ancient-israel) ×10)
+- **Ashurbanipal** → REUSE `Ashurbanipal` [high] — _Ashurbanipal_: Ashurbanipal (Neo-Assyrian Akkadian: 𒀸𒋩𒆕𒀀, romanized: Aššur-bāni-apli, meaning "Ashur is the creator of th  (linked in 8 civ(s) (e.g. ancient-israel) ×22)
+
+## Chapter 2
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×44)
+- Aksum → SKIP (own-name, cat B)
+- **Ostia** → REUSE `Ostia_Antica` [high] — _Ostia Antica_: Ostia Antica (lit. 'Ancient Ostia') is the modern name given to the ancient Roman city of Ostia. It became the  (linked in 1 civ(s) (e.g. ancient-rome) ×2)
+- **Piraeus** → REUSE `Piraeus` [high] — _Piraeus_: Piraeus ( py-REE-əs, pirr-AY-əs; Greek: Πειραιάς Peiraiás [pireˈas]; Ancient Greek and Katharevousa: Πειραιεύς  (linked in 1 civ(s) (e.g. ancient-greece) ×2)
+- **Athens** → CROSS → `ancient-greece`  (cross-linked elsewhere ×6)
+- **Arabia** → REUSE `Arabian_Peninsula` [high] — _Arabian Peninsula_: The Arabian Peninsula, or simply Arabia, is a peninsula in West Asia. It accounts for the majority of the land  (linked in 6 civ(s) (e.g. al-andalus) ×12)
+- *** Rhapta** → `Rhapta` [high] — _Rhapta_: Rhapta (Ancient Greek: τὰ Ῥάπτα and τὰ Ῥαπτά) was an emporion said to be on the coast of Southeast Africa, first describ
+- *** Azania** → `Azania` [high] — _Azania_: A'zania (Ancient Greek: Ἀζανία) is a name that has been applied to various parts of southeastern tropical Africa. In the
+- *** Swahili Coast** → CROSS → `swahili-coast`  (matches a civ id)
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- **Ptolemaic** → REUSE `Ptolemaic_dynasty` [CONFIRM-homonym] — _Ptolemaic dynasty_: The Ptolemaic dynasty (; Ancient Greek: Πτολεμαῖοι, Ptolemaioi), also known as the Lagid dynasty (Λαγίδαι, Lag  (linked in 2 civ(s) (e.g. early-dynastic-egypt) ×4 — ⚠ AMBIGUOUS: also Ptolemaic_Kingdom(kingdom-of-kush), Ptolemy(mongol-empire), Ptolemaic_system(timurid-empire))
+- **Sudan** → REUSE `Sudan` [CONFIRM-homonym] — _Sudan_: Sudan, officially the Republic of the Sudan, is a country in Northeast Africa. It borders the Central African   (linked in 5 civ(s) (e.g. ancient-nubia) ×10 — ⚠ AMBIGUOUS: also Sudan_(region)(mali-empire))
+- **Horn of Africa** → REUSE `Horn_of_Africa` [high] — _Horn of Africa_: The Horn of Africa (HOA), also known as the Somali Peninsula, is a large peninsula and geopolitical region loc  (linked in 3 civ(s) (e.g. byzantine-empire) ×6)
+- *** Arab** → `United_Arab_Emirates` [med] — _United Arab Emirates_: The United Arab Emirates (UAE), also known simply as the Emirates, is a country in West Asia, situated at the eastern en
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×33)
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 15 civ(s) (e.g. ancient-nubia) ×48)
+- Yemen → SKIP (modern locator, cat A)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Vesuvius** → REUSE `Mount_Vesuvius` [high] — _Mount Vesuvius_: Mount Vesuvius ( və-SOO-vee-əs) is a somma–stratovolcano located on the Gulf of Naples in Campania, Italy, abo  (linked in 1 civ(s) (e.g. minoan-civilization) ×2)
+- Central Asia → SKIP (modern locator, cat A)
+- **Silk Road** → CROSS → `ancient-china`  (cross-linked elsewhere ×24)
+- **Parthian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×4)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×32)
+- **Mediterranean trade** → `Trade` [high] — _Trade_: Trade involves the transfer of goods and services from one person or entity to another, often in exchange for money. Eco
+- **African interior trade** → `Slavery_in_Africa` [low] — _Slavery in Africa_: Slavery has historically been widespread in Africa. Systems of servitude and slavery were once commonplace in parts of A
+
+## Chapter 3
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- **Mesopotamia** → CROSS → `mesopotamia`  (cross-linked elsewhere ×86)
+- **King Ezana's Stela** → `King_Ezana's_Stele` [med] — _King Ezana's Stele_: King Ezana's Stele is a 4th century obelisk in the ancient city of Axum, in the Tigray Region of Ethiopia. The monument 
+- Lebanon → SKIP (modern locator, cat A)
+- **Aksumites** → `Kingdom_of_Aksum` [low] — _Kingdom of Aksum_: The Kingdom of Aksum, or the Aksumite Empire, was a kingdom in North East Africa and South Arabia from classical antiqui
+- **South Arabian** → `Ancient_South_Arabian` [high] — _Ancient South Arabian_: Ancient South Arabian (ASA), also known as Old South Arabian (OSA), Epigraphic South Arabian, Ṣayhadic, or Yemenite, is 
+- **D'mt** → `Dʿmt` [low] — _Dʿmt_: dʿmt (Ge'ez: ደዐመተ, romanized: dʿmt; theoretically vocalized ዳዓማት, *Daʿamat or ዳዕማት, *Daʿəmat) was a Ethio-Sabaean kingdo
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×44)
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 28 civ(s) (e.g. al-andalus) ×143 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Hebrew** → REUSE `Hebrew_language` [high] — _Hebrew language_: Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaa  (linked in 12 civ(s) (e.g. al-andalus) ×27)
+- **Ethiopian** → `Ethiopia` [high] — _Ethiopia_: Ethiopia, officially the Federal Democratic Republic of Ethiopia, is a landlocked country located in the Horn of Africa 
+- **Eritrea** → REUSE `Eritrea` [high] — _Eritrea_: Eritrea, officially the State of Eritrea, is a country in the Horn of Africa region of East Africa. Its capita  (linked in 3 civ(s) (e.g. kingdom-of-kush) ×6)
+- **Phoenician** → CROSS → `phoenicia`  (cross-linked elsewhere ×5)
+- **Latin** → CROSS → `ancient-rome`  (cross-linked elsewhere ×28)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×22)
+- **Mani** → REUSE `Mani_(prophet)` [high] — _Mani (prophet)_: Mani (; c. April AD 216 – 2 March AD 274 or 26 February AD 277) was an Iranian prophet and the founder of Mani  (linked in 3 civ(s) (e.g. gokturk-khaganate) ×6)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×32)
+- **Han China** → REUSE `Han_dynasty` [high] — _Han dynasty_: The Han dynasty (202 BC – 9 AD, 25–220 AD) was an imperial dynasty of China established by Liu Bang, and prece  (linked in 11 civ(s) (e.g. gokturk-khaganate) ×28)
+- **Parthians** → REUSE `Parthian_Empire` [high] — _Parthian Empire_: The Parthian Empire (), also known as the Arsacid Empire (), was a major Iranian political and cultural power   (linked in 4 civ(s) (e.g. ancient-greece) ×10)
+- **Gupta Empire** → CROSS → `gupta-empire`  (cross-linked elsewhere ×18)
+- **Western Jin** → REUSE `Jin_dynasty_(266%E2%80%93420)` [high] — _Jin dynasty (266–420)_: The Jin dynasty or the Jin Empire, officially Jin, sometimes distinguished as the Sima Jin or the Two Jins, wa  (linked in 2 civ(s) (e.g. kingdom-of-kush) ×4)
+- **Sixteen Kingdoms** → CROSS → `ancient-china`  (cross-linked elsewhere ×2)
+- **Mesoamerica** → REUSE `Mesoamerica` [high] — _Mesoamerica_: Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern   (linked in 21 civ(s) (e.g. andean-kingdoms) ×64)
+- **Teotihuacan** → CROSS → `teotihuacan`  (cross-linked elsewhere ×11)
+- **Valley of Mexico** → REUSE `Valley_of_Mexico` [high] — _Valley of Mexico_: The Valley of Mexico (Spanish: Valle de México; Nahuatl languages: Anahuac, lit. 'Land Between the Waters'), s  (linked in 9 civ(s) (e.g. aztec-empire) ×18)
+
+## Chapter 4
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×44)
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- **Aedesius** → `Aedesius` [high] — _Aedesius_: Aedesius (Ancient Greek: Αἰδέσιος, died shortly before 355 AD) was a Neoplatonist philosopher and mystic. He was born in
+- **Joseph** → REUSE `Joseph_ibn_Naghrillah` [high] — _Yosef ha-Nagid_: Yosef ben Shmuel ha-Levi ha-Nagid (Joseph ibn Naghrela, or Joseph ha-Nagid; Hebrew: רבי יהוסף בן שמואל הלוי הנ  (linked in 1 civ(s) (e.g. al-andalus) ×1)
+- *** Arabia** → `Saudi_Arabia` [high] — _Saudi Arabia_: Saudi Arabia, officially the Kingdom of Saudi Arabia (KSA), is a country in West Asia. Located in the centre of the Midd
+- **Persian Gulf** → CROSS → `safavid-persia`  (cross-linked elsewhere ×16)
+- **Alexandria** → REUSE `Alexandria` [high] — _Alexandria_: Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km  (linked in 13 civ(s) (e.g. ancient-greece) ×36)
+- **Ethiopia** → REUSE `Ethiopian_Highlands` [high] — _Ethiopian Highlands_: The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Et  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×1)
+- **Beher** → NO-PAGE → blurb (top hit "Beher" is a disambiguation page)
+- **Meder** → `Meder` [high] — _Meder_: Meder is a surname. Notable people with the surname include: Angela Meder, a German primatologist Anna Meder (1606–1649)
+- **Hebrew Bible** → REUSE `Hebrew_Bible` [high] — _Hebrew Bible_: The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ;   (linked in 14 civ(s) (e.g. ancient-israel) ×30)
+- **Kebra Nagast** → REUSE `Kebra_Nagast` [high] — _Kebra Nagast_: The Kebra Nagast (Ge'ez: ክብረ ነገሥት, kəbrä nägäśt), or The Glory of the Kings, is a 14th-century national epic o  (linked in 1 civ(s) (e.g. swahili-coast) ×2)
+- **Constantius II** → `Constantius_II` [high] — _Constantius II_: Constantius II (Latin: Flavius Julius Constantius; Ancient Greek: Κωνστάντιος, romanized: Kōnstántios; 7 August 317 – 3 
+- **Arius** → REUSE `Arius` [high] — _Arius_: Arius (; Koine Greek: Ἄρειος, romanized: Áreios; 250 or 256 – 336) was a Cyrenaic presbyter and ascetic. He wa  (linked in 5 civ(s) (e.g. ancient-rome) ×10)
+- **Council of Chalcedon** → `Council_of_Chalcedon` [high] — _Council of Chalcedon_: The Council of Chalcedon (; Latin: Concilium Chalcedonense) was the fourth ecumenical council of the Christian Church. I
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 15 civ(s) (e.g. ancient-nubia) ×48)
+- **Ge'ez** → REUSE `Ge%27ez` [high] — _Geʽez_: Geʽez ( or ; ግዕዝ Gəʽ(ə)z [ˈɡɨʕ(ɨ)z] , and sometimes referred to in scholarly literature as Classical Ethiopic)  (linked in 1 civ(s) (e.g. kingdom-of-kush) ×2)
+- **Beja** → NO-PAGE → blurb (top hit "Beja" is a disambiguation page)
+- Georgia → SKIP (modern locator, cat A)
+- **Iberian Peninsula** → REUSE `Iberian_Peninsula` [high] — _Iberian Peninsula_: The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Most  (linked in 9 civ(s) (e.g. al-andalus) ×18)
+- **Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×32)
+- **Sasanian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×7)
+
+## Chapter 5
+- **Ezana** → REUSE `Ezana_of_Axum` [high] — _Ezana of Axum_: Ezana (Ge'ez: ዒዛና, ‘Ezana, unvocalized ዐዘነ ‘zn); Ancient Greek: Ἠεζάνα, Aezana) was the ruler of the Kingdom o  (linked in 1 civ(s) (e.g. kingdom-of-kush) ×2)
+- **Kingdom of Aksum** → CROSS → `kingdom-of-aksum`  (cross-linked elsewhere ×2)
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×44)
+- **Horn of Africa** → REUSE `Horn_of_Africa` [high] — _Horn of Africa_: The Horn of Africa (HOA), also known as the Somali Peninsula, is a large peninsula and geopolitical region loc  (linked in 3 civ(s) (e.g. byzantine-empire) ×6)
+- Aksum → SKIP (own-name, cat B)
+- **Arabia** → REUSE `Arabian_Peninsula` [high] — _Arabian Peninsula_: The Arabian Peninsula, or simply Arabia, is a peninsula in West Asia. It accounts for the majority of the land  (linked in 6 civ(s) (e.g. al-andalus) ×12)
+- **Judaism** → REUSE `Judaism` [high] — _Judaism_: Judaism (Hebrew: יַהֲדוּת, romanized: Yahăḏūṯ) is an Abrahamic, monotheistic, ethnic religion that comprises t  (linked in 9 civ(s) (e.g. al-andalus) ×25)
+- *** Yemeni** → `Yemen` [high] — _Yemen_: Yemen, officially the Republic of Yemen, is a country in West Asia. Including the Socotra Archipelago, mainland Yemen is
+- *** Christians** → `Christians` [high] — _Christians_: A Christian ( ) is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life 
+- **Aramaic** → REUSE `Aramaic` [CONFIRM-homonym] — _Aramaic_: Aramaic (Jewish Babylonian Aramaic: ארמית, romanized: ˀərāmiṯ; Classical Syriac: ܐܪܡܐܝܬ, romanized: arāmāˀiṯ)   (linked in 7 civ(s) (e.g. ancient-nubia) ×18 — ⚠ AMBIGUOUS: also Aramaic_language(assyrian-empire), Aramaic_alphabet(gokturk-khaganate))
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 28 civ(s) (e.g. al-andalus) ×143 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- **Alexandria** → REUSE `Alexandria` [high] — _Alexandria_: Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km  (linked in 13 civ(s) (e.g. ancient-greece) ×36)
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- **Eastern Roman Empire** → REUSE `Byzantine_Empire` [high] — _Byzantine Empire_: The Byzantine Empire, also known as the Eastern Roman Empire, was the continuation of the Roman Empire centred  (linked in 2 civ(s) (e.g. early-medieval-europe) ×5)
+- **Sasanian Persia** → CROSS → `persian-empire`  (cross-linked elsewhere ×3)
+- **Indian Ocean** → CROSS → `ming-dynasty`  (cross-linked elsewhere ×25)
+- **Adulis** → CROSS → `kingdom-of-aksum`  (cross-linked elsewhere ×1)
+- **Monumentum Adulitanum** → `Monumentum_Adulitanum` [high] — _Monumentum Adulitanum_: The Monumentum Adulitanum II, so named by Leo Allatius, was an ancient inscription written in Greek, depicting the milit
+- **Prophet Muhammad** → REUSE `Muhammad` [high] — _Muhammad_: Muhammad (c. 570 CE – 8 June 632 CE) was an Arab religious, military and political leader, and the founder of   (linked in 8 civ(s) (e.g. al-andalus) ×24)
+- **Jerusalem** → REUSE `Jerusalem` [high] — _Jerusalem_: Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean an  (linked in 18 civ(s) (e.g. al-andalus) ×68)
+- **Sasanian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×7)
+- **Gupta** → CROSS → `gupta-empire`  (cross-linked elsewhere ×6)
+- **Mesoamerica** → REUSE `Mesoamerica` [high] — _Mesoamerica_: Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern   (linked in 21 civ(s) (e.g. andean-kingdoms) ×64)
+- **Teotihuacan** → CROSS → `teotihuacan`  (cross-linked elsewhere ×11)
+
+## Chapter 6
+- **Ezana** → REUSE `Ezana_of_Axum` [high] — _Ezana of Axum_: Ezana (Ge'ez: ዒዛና, ‘Ezana, unvocalized ዐዘነ ‘zn); Ancient Greek: Ἠεζάνα, Aezana) was the ruler of the Kingdom o  (linked in 1 civ(s) (e.g. kingdom-of-kush) ×2)
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- **Ethiopian Christianity** → `Christianity_in_Ethiopia` [med] — _Christianity in Ethiopia_: Christianity in Ethiopia is the country's largest religion with members making up 61.6% of the population in 2020. Chris
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×22)
+- **Constantinople** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×67)
+- **Ethiopian** → `Ethiopia` [high] — _Ethiopia_: Ethiopia, officially the Federal Democratic Republic of Ethiopia, is a landlocked country located in the Horn of Africa 
+- **Istanbul** → REUSE `Istanbul` [high] — _Istanbul_: Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical center.   (linked in 10 civ(s) (e.g. byzantine-empire) ×42)
+- *** Chalcedonian** → `Chalcedonian_Christianity` [high] — _Chalcedonian Christianity_: Chalcedonian Christianity is the branch of Christianity that accepts and upholds theological resolutions of the Council 
+- **Alexandria** → REUSE `Alexandria` [high] — _Alexandria_: Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km  (linked in 13 civ(s) (e.g. ancient-greece) ×36)
+- Armenia → SKIP (modern locator, cat A)
+- **Ethiopia** → REUSE `Ethiopian_Highlands` [high] — _Ethiopian Highlands_: The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Et  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×1)
+- Aksum → SKIP (own-name, cat B)
+- **Eastern Orthodox** → REUSE `Eastern_Orthodox_Church` [high] — _Eastern Orthodox Church_: The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church   (linked in 2 civ(s) (e.g. byzantine-empire) ×6)
+- **Amharic** → `Amharic` [high] — _Amharic_: Amharic is an Ethio-Semitic language, which is a subgrouping within the Semitic branch of the Afroasiatic languages. It 
+- **Tigrinya** → `Tigrinya_language` [high] — _Tigrinya language_: Tigrinya, sometimes romanized according to Italian spelling rules as Tigrigna, is an Ethio-Semitic language, which is a 
+- *** Armenian** → `Armenians` [high] — _Armenians_: Armenians (Armenian: հայեր, romanized: hayer, [hɑˈjɛɾ]) are an ethnic group indigenous to the Armenian highlands of West
+- **Hebrew Bible** → REUSE `Hebrew_Bible` [high] — _Hebrew Bible_: The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ;   (linked in 14 civ(s) (e.g. ancient-israel) ×30)
+- **Syriac** → REUSE `Syriac_language` [high] — _Syriac language_: The Syriac language ( SIRR-ee-ak; Classical Syriac: ܠܫܢܐ ܣܘܪܝܝܐ, romanized: Leššānā Suryāyā), also known nativ  (linked in 5 civ(s) (e.g. gupta-empire) ×11)
+- **Hebrew** → REUSE `Hebrew_language` [high] — _Hebrew language_: Hebrew is a Northwest Semitic language within the Afroasiatic language family. A regional dialect of the Canaa  (linked in 12 civ(s) (e.g. al-andalus) ×27)
+- **Ethiopian Orthodox Church** → REUSE `Ethiopian_Orthodox_Tewahedo_Church` [high] — _Ethiopian Orthodox Tewahedo Church_: The Ethiopian Orthodox Tewahedo Church (Amharic: የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን, romanized: Yä-ityopp'ya ortodok  (linked in 2 civ(s) (e.g. byzantine-empire) ×3)
+- **Messiah** → REUSE `Messiah` [high] — _Messiah_: In Abrahamic religions, a messiah or messias (Hebrew: מָשִׁיחַ, romanized: māšīaḥ; Greek: μεσσίας, messías; Ar  (linked in 2 civ(s) (e.g. ancient-israel) ×4)
+- **Genesis** → REUSE `Book_of_Genesis` [high] — _Book of Genesis_: The Book of Genesis (from Greek Γένεσις, Génesis, 'Origin'; Biblical Hebrew: בְּרֵאשִׁית‎, romanized: Bərēʾšīṯ  (linked in 4 civ(s) (e.g. high-medieval-europe) ×8)
+- **Exodus** → REUSE `The_Exodus` [CONFIRM-homonym] — _The Exodus_: The Exodus (Hebrew: יציאת מצרים, romanized: Yəṣīʾat Mīṣrayīm, lit. 'Departure from Egypt') is the founding myt  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×2 — ⚠ AMBIGUOUS: also Book_of_Exodus(byzantine-empire))
+- *** Christians** → `Christians` [high] — _Christians_: A Christian ( ) is a person who follows or adheres to Christianity, a monotheistic Abrahamic religion based on the life 
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×33)
+- **Isis** → REUSE `Isis` [CONFIRM-homonym] — _Isis_: Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. I  (linked in 7 civ(s) (e.g. ancient-greece) ×18 — ⚠ AMBIGUOUS: also Islamic_State(mesopotamia))
+- **Eritrea** → REUSE `Eritrea` [high] — _Eritrea_: Eritrea, officially the State of Eritrea, is a country in the Horn of Africa region of East Africa. Its capita  (linked in 3 civ(s) (e.g. kingdom-of-kush) ×6)
+- **mia physis** → `Miaphysitism` [low] — _Miaphysitism_: Miaphysitism () is the Christological doctrine that holds Jesus, the Incarnate Word, is fully divine and fully human, in
+
+## Chapter 7
+- **Mecca** → CROSS → `umayyad-caliphate`  (cross-linked elsewhere ×7)
+- *** Arabia** → `Saudi_Arabia` [high] — _Saudi Arabia_: Saudi Arabia, officially the Kingdom of Saudi Arabia (KSA), is a country in West Asia. Located in the centre of the Midd
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×44)
+- **Najashi** → `Najashi` [high] — _Najashi_: The Najashi (Arabic: ٱلنَّجَاشِيّ, romanized: al-Najāshī) is an Arabic term, a loanword from the word negus (Ge'ez: ንጉሥ,
+- **Ge'ez** → REUSE `Ge%27ez` [high] — _Geʽez_: Geʽez ( or ; ግዕዝ Gəʽ(ə)z [ˈɡɨʕ(ɨ)z] , and sometimes referred to in scholarly literature as Classical Ethiopic)  (linked in 1 civ(s) (e.g. kingdom-of-kush) ×2)
+- **Muslims** → REUSE `Muslims` [high] — _Muslims_: Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam,  (linked in 8 civ(s) (e.g. al-andalus) ×44)
+- **Ethiopia** → REUSE `Ethiopian_Highlands` [high] — _Ethiopian Highlands_: The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Et  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×1)
+- Aksum → SKIP (own-name, cat B)
+- **Sasanian Persian Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×2)
+- **Byzantine** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×33)
+- *** Periplus** → `Periplus` [high] — _Periplus_: A periplus (), or periplous, is a manuscript document that lists the ports and coastal landmarks, in order and with appr
+- *** Azania** → `Azania` [high] — _Azania_: A'zania (Ancient Greek: Ἀζανία) is a name that has been applied to various parts of southeastern tropical Africa. In the
+- *** Shanga** → `Shanga_Forsberg` [high] — _Shanga Forsberg_: Shanga Forsberg (née Hussain, born August 16, 1992) is a retired Swedish footballer who played for RB Leipzig.
+- *** Manda** → NO-PAGE → blurb (top hit "Manda" is a disambiguation page)
+- *** Unguja Ukuu** → `Unguja_Ukuu` [high] — _Unguja Ukuu_: Unguja Ukuu (Mji wa Kale wa Unguja Ukuu in Swahili) is a historic Swahili settlement on Unguja island (Zanzibar Island),
+- *** Indian Ocean** → `Indian_Ocean` [high] — _Indian Ocean_: The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) 
+- *** Swahili Coast** → CROSS → `swahili-coast`  (matches a civ id)
+- **Debre Damo** → `Debre_Dammo` [high] — _Debre Dammo_: Debre Dammo (Tigrinya: ደብረ ዳሞ), Däbrä Dammo (with the geminated -mm-) in Tigrinya or Däbrä Damo in later Amharic appella
+- **Jerusalem** → REUSE `Jerusalem` [high] — _Jerusalem_: Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean an  (linked in 18 civ(s) (e.g. al-andalus) ×68)
+- **Ark of the Covenant** → REUSE `Ark_of_the_Covenant` [high] — _Ark of the Covenant_: The Ark of the Covenant, also known as the Ark of the Testimony or the Ark of God, was a religious storage che  (linked in 1 civ(s) (e.g. ancient-israel) ×2)
+- **Coptic** → REUSE `Copts` [CONFIRM-homonym] — _Copts_: Copts (Coptic: ⲚⲓⲢⲉⲙ̀ⲛⲭⲏⲙⲓ ⲛ̀Ⲭⲣⲏⲥⲧⲓ̀ⲁⲛⲟⲥ, romanized: NiRemenkēmi enKhristianos; Arabic: أقباط, romanized: aqbā  (linked in 3 civ(s) (e.g. islamic-golden-age) ×8 — ⚠ AMBIGUOUS: also Coptic_language(late-egypt), Coptic_Christianity(vendel-scandinavia))
+- **Haile Selassie** → `Haile_Selassie` [high] — _Haile Selassie_: Haile Selassie I (born Tafari Makonnen or Lij Tafari; 23 July 1892 – 27 August 1975) was Emperor of Ethiopia from 1930 t
+- *** Babylonian** → `Babylonia` [high] — _Babylonia_: Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the cit
+- **Virgil** → CROSS → `ancient-rome`  (cross-linked elsewhere ×3)
+- **Aeneas** → REUSE `Aeneas` [high] — _Aeneas_: Aeneas ( in-EE-əs; Classical Latin: [ae̯ˈneːaːs]; from Ancient Greek: Αἰνείας, romanized: Aineías) was a Troja  (linked in 1 civ(s) (e.g. ancient-rome) ×2)
+- **Book of Enoch** → `Book_of_Enoch` [high] — _Book of Enoch_: The Book of Enoch (also 1 Enoch; Hebrew: סֵפֶר חֲנוֹךְ, romanized: Sēfer Ḥănōḵ; Ge'ez: መጽሐፈ ሄኖክ, romanized: Maṣḥafa Hēno
+- **negus** → REUSE `Negus` [high] — _Negus_: Negus is the word for "king" in the Ethiopian Semitic languages and a title which was usually bestowed upon a   (linked in 1 civ(s) (e.g. umayyad-caliphate) ×2)
+
+## Chapter 8
+- **Red Sea** → REUSE `Red_Sea` [high] — _Red Sea_: The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is   (linked in 16 civ(s) (e.g. early-dynastic-egypt) ×44)
+- **Adulis** → CROSS → `kingdom-of-aksum`  (cross-linked elsewhere ×1)
+- **Byzantium** → CROSS → `byzantine-empire`  (cross-linked elsewhere ×19)
+- **Aksumite** → `Aksumite_currency` [high] — _Aksumite currency_: Aksumite currency was coinage produced and used within the Kingdom of Aksum (or Axum) centered in present-day Ethiopia a
+- **Arabic** → REUSE `Arabic` [CONFIRM-homonym] — _Arabic_: Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. Th  (linked in 28 civ(s) (e.g. al-andalus) ×143 — ⚠ AMBIGUOUS: also Arabic_language(mughal-empire))
+- Aksum → SKIP (own-name, cat B)
+- **Nile** → REUSE `Nile` [high] — _Nile_: The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088  (linked in 15 civ(s) (e.g. ancient-nubia) ×48)
+- *** Arabia** → `Saudi_Arabia` [high] — _Saudi Arabia_: Saudi Arabia, officially the Kingdom of Saudi Arabia (KSA), is a country in West Asia. Located in the centre of the Midd
+- **Ethiopia** → REUSE `Ethiopian_Highlands` [high] — _Ethiopian Highlands_: The Ethiopian Highlands (also called the Abyssinian Highlands) is a rugged mass of mountains extending from Et  (linked in 1 civ(s) (e.g. old-kingdom-egypt) ×1)
+- **Judaism** → REUSE `Judaism` [high] — _Judaism_: Judaism (Hebrew: יַהֲדוּת, romanized: Yahăḏūṯ) is an Abrahamic, monotheistic, ethnic religion that comprises t  (linked in 9 civ(s) (e.g. al-andalus) ×25)
+- **Ezana** → REUSE `Ezana_of_Axum` [high] — _Ezana of Axum_: Ezana (Ge'ez: ዒዛና, ‘Ezana, unvocalized ዐዘነ ‘zn); Ancient Greek: Ἠεζάνα, Aezana) was the ruler of the Kingdom o  (linked in 1 civ(s) (e.g. kingdom-of-kush) ×2)
+- **Zoskales** → `Zoskales` [high] — _Zoskales_: Zoskales (Ancient Greek: Ζωσκάλης) (c. 1st Century) was a King of the Kingdom of Aksum.
+- **Kebra Nagast** → REUSE `Kebra_Nagast` [high] — _Kebra Nagast_: The Kebra Nagast (Ge'ez: ክብረ ነገሥት, kəbrä nägäśt), or The Glory of the Kings, is a 14th-century national epic o  (linked in 1 civ(s) (e.g. swahili-coast) ×2)
+- **Debre Damo** → `Debre_Dammo` [high] — _Debre Dammo_: Debre Dammo (Tigrinya: ደብረ ዳሞ), Däbrä Dammo (with the geminated -mm-) in Tigrinya or Däbrä Damo in later Amharic appella
+- *** Middle East** → `Middle_East` [high] — _Middle East_: The Middle East is a geo-political region that is generally defined as encompassing all of Egypt and all of West Asia ex
+- **Solomon** → REUSE `Solomon` [CONFIRM-homonym] — _Solomon_: Solomon (), also called Jedidiah, was a king of ancient Israel, according to the Hebrew Bible. The successor o  (linked in 4 civ(s) (e.g. ancient-israel) ×8 — ⚠ AMBIGUOUS: also Solomon_in_Islam(ottoman-empire))
+- **Great Stela** → `Great_Mendes_Stela` [med] — _Great Mendes Stela_: The Great Mendes Stela is a commemorative stele erected during the Ptolemaic dynasty by Ptolemy II Philadelphus for Mend
+- **Church of Our Lady Mary of Zion** → `Church_of_Our_Lady_Mary_of_Zion` [high] — _Church of Our Lady Mary of Zion_: The Church of Our Lady, Mary of Zion is an Ethiopian Orthodox Tewahedo Church which is claimed to contain the Ark of the
+- **Garima Gospels** → `Garima_Gospels` [high] — _Garima Gospels_: The Garima Gospels are three ancient Geʽez manuscripts containing all four canonical Gospel Books, as well as some suppl
+- **Adwa** → `Adwa` [med] — _Adwa_: Adwa (Tigrinya: ዓድዋ; Amharic: ዐድዋ; Arabic: عدوة also spelled Adowa or Aduwa) is a town and separate woreda in Tigray Reg
+- **Ge'ez** → REUSE `Ge%27ez` [high] — _Geʽez_: Geʽez ( or ; ግዕዝ Gəʽ(ə)z [ˈɡɨʕ(ɨ)z] , and sometimes referred to in scholarly literature as Classical Ethiopic)  (linked in 1 civ(s) (e.g. kingdom-of-kush) ×2)
+- **Eritrea** → REUSE `Eritrea` [high] — _Eritrea_: Eritrea, officially the State of Eritrea, is a country in the Horn of Africa region of East Africa. Its capita  (linked in 3 civ(s) (e.g. kingdom-of-kush) ×6)
+- **Kingdom of Aksum** → CROSS → `kingdom-of-aksum`  (cross-linked elsewhere ×2)
+- **Roman Empire** → CROSS → `persian-empire`  (cross-linked elsewhere ×22)
+- **Augustus** → REUSE `Augustus` [CONFIRM-homonym] — _Augustus_: Augustus (born Gaius Octavius; 23 September 63 BC – 19 August AD 14), also known as Octavian (Latin: Octavianu  (linked in 14 civ(s) (e.g. ancient-rome) ×34 — ⚠ AMBIGUOUS: also Augustus_(title)(byzantine-empire))
+- **Western Empire** → REUSE `Western_Roman_Empire` [high] — _Western Roman Empire_: In modern historiography, the Western Roman Empire was the Roman Empire's western provinces collectively durin  (linked in 3 civ(s) (e.g. early-medieval-europe) ×5)
+- *** Persian** → CROSS → `persian-empire`  (matches a civ id)
+- **Carthage** → CROSS → `phoenicia`  (cross-linked elsewhere ×14)
+- **Sahara** → REUSE `Sahara` [high] — _Sahara_: The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq m  (linked in 9 civ(s) (e.g. al-andalus) ×45)
+- *** Kilwa** → `Kilwa_Kisiwani` [high] — _Kilwa Kisiwani_: Kilwa Kisiwani ('Kilwa Island') is an island, national historic site, and hamlet community located in the township of Ki
+- *** Swahili Coast** → CROSS → `swahili-coast`  (matches a civ id)
+- **Baghdad** → CROSS → `islamic-golden-age`  (cross-linked elsewhere ×48)
+- **Classic Maya** → CROSS → `maya-civilization`  (cross-linked elsewhere ×2)
+- **Toltec** → REUSE `Toltec` [high] — _Toltec_: The Toltec culture () was a pre-Columbian Mesoamerican culture that ruled a state centered in Tula, Hidalgo, M  (linked in 7 civ(s) (e.g. maya-civilization) ×14)
+- Mexico → SKIP (modern locator, cat A)
+- **Heian** → CROSS → `heian-japan`  (cross-linked elsewhere ×5)
+- **Ethiopian Orthodox Church** → REUSE `Ethiopian_Orthodox_Tewahedo_Church` [high] — _Ethiopian Orthodox Tewahedo Church_: The Ethiopian Orthodox Tewahedo Church (Amharic: የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን, romanized: Yä-ityopp'ya ortodok  (linked in 2 civ(s) (e.g. byzantine-empire) ×3)

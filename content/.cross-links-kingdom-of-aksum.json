@@ -23,6 +23,48 @@
       "targetTl": "persian-empire",
       "targetChapter": 1,
       "blurb": "Cyrus's Persia was building the first world-empire while pre-Aksumite culture was still forming — Aksum would later inherit the Indian Ocean trade routes Persia helped knit."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: one of the four great empires on Mani's list, the Persian state that ruled the Iranian plateau and rivalled Rome across the ancient Near East."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome: the Mediterranean superpower that bought Aksum's ivory and, notably, adopted Christianity decades after Aksum did."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Arabia: Mecca, the Arabian city where Islam began and from which early Muslim refugees fled persecution, finding shelter at the Aksumite court."
+    },
+    {
+      "matchText": "Nubia",
+      "targetTl": "ancient-nubia",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Nubia: the Nile-valley civilization between Egypt and the African interior whose trade and territory Aksum would inherit."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Indus Valley: one of the great river-valley civilizations of the ancient world, built on a great river the way Aksum was built on a mountain."
+    },
+    {
+      "matchText": "Yellow River",
+      "targetTl": "ancient-china",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in China: civilization grew up along the Yellow River, the river-valley pattern that Aksum, a highland trading kingdom, broke from."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "middle-horizon-empires",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Andes: mountain kingdoms built empires on high plateaus far above the valleys, the closest ancient parallel to highland Aksum."
     }
   ],
   "2": [
@@ -49,6 +91,42 @@
       "targetTl": "ancient-rome",
       "targetChapter": 7,
       "blurb": "Aksum's trade empire rose on the Roman Red Sea boom — the Antonine peak, when Roman gold flowed to India and Aksum sat astride the route."
+    },
+    {
+      "matchText": "Athens",
+      "targetTl": "ancient-greece",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Greece: Athens was the city Piraeus served, the political and cultural heart of the classical Greek world at its golden-age peak."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 1,
+      "blurb": "Meanwhile down the coast: the stretch the Periplus called Azania would, centuries later, become the Swahili world — a chain of cosmopolitan trading towns strung along East Africa's shore."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in Constantinople: the eastern Roman empire that endured for another thousand years — its traveler-merchant Cosmas Indicopleustes copied the Adulis inscription on his way through."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Iran: the Achaemenid kings had pioneered the grand title 'King of Kings' centuries before an Aksumite ruler reached for it."
+    },
+    {
+      "matchText": "Parthian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Iran: the Parthians ruled Persia as Rome's great eastern rival, controlling the overland route between Rome and China."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in Iran: Parthian Persia sat astride the overland Silk Road and taxed it heavily — the very tolls Aksum's Red Sea route helped traders bypass."
     }
   ],
   "3": [
@@ -63,6 +141,54 @@
       "targetTl": "ancient-rome",
       "targetChapter": 8,
       "blurb": "The great stelae went up as Rome endured the Crisis of the Third Century — Aksum ascending exactly as its main trade partner nearly collapsed."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Mesopotamia, the city-state of Ur built lavish royal tombs whose engineering rivaled the Aksumite stelae's underground chambers."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in Phoenicia, traders devised the consonant-only alphabet that became the ancestor of nearly every later script — including, by a long chain, Ge'ez."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Rome, Latin grew from a small Italian dialect into a full alphabet that wrote every sound with its own symbol — the opposite design choice from Ge'ez."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Rome, the empire was reeling through the Crisis of the Third Century even as its gold solidus set the weight standard Aksum copied for its own coins."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Persia, the Sasanians had just overthrown the Parthians and were forging the centralized state that would rival Rome for centuries."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 2,
+      "blurb": "Meanwhile in India, the Guptas were assembling the empire whose classical golden age was about to begin."
+    },
+    {
+      "matchText": "Sixteen Kingdoms",
+      "targetTl": "six-dynasties",
+      "targetChapter": 3,
+      "blurb": "Meanwhile in China, the brief Western Jin reunification was collapsing into the chaotic patchwork of the Sixteen Kingdoms."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in the Valley of Mexico, Teotihuacan was at its height — a city of 100,000 — at the same moment Aksum's stelae and coinage peaked."
     }
   ],
   "4": [
@@ -89,6 +215,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 9,
       "blurb": "Ezana adopted Christianity around 330 CE — essentially alongside Constantine's Rome, making Aksum one of the first Christian states on earth."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: during Ezana's lifetime the Sasanian Empire ruled the Iranian plateau and actively persecuted Christians, treating them as potential agents of Rome — the opposite of Aksum's embrace of the faith."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Persia: the Sasanian Empire was Rome's great eastern rival, and its persecution of Christians stood in sharp contrast to Aksum, which made Christianity its state religion in this same period."
     }
   ],
   "5": [
@@ -115,6 +253,56 @@
       "targetTl": "persian-empire",
       "targetChapter": 9,
       "blurb": "The Yemen war was a proxy front of the great Byzantine-Sasanian rivalry — Aksum and Sassanid Persia fighting through Arabian clients."
+    },
+    {
+      "matchText": "Sasanian Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the Sasanian Empire was Aksum's great rival for the Red Sea and Arabian trade — a resurgent Persian superpower at its cultural and military height under the Sassanid kings."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: under Khosrow I the Sasanian Empire reached its golden-age peak, the last great pre-Islamic Persian state and the power that would ultimately seize Yemen out of Aksum's reach."
+    },
+    {
+      "matchText": "Indian Ocean",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 3,
+      "blurb": "Meanwhile across the water: the Indian Ocean was the maritime highway Aksum tapped for trade — the same sea-lanes that, nine centuries later, would carry Zheng He's Chinese treasure fleets all the way to East Africa."
+    },
+    {
+      "matchText": "Gupta",
+      "targetTl": "gupta-empire",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in India: the Gupta golden age — the high point of classical Indian science, mathematics, and art — had recently passed its peak as Kaleb crossed the Red Sea."
+    },
+    {
+      "matchText": "Teotihuacan",
+      "targetTl": "teotihuacan",
+      "targetChapter": 8,
+      "blurb": "Meanwhile in Mesoamerica: Teotihuacan, the great planned metropolis of the Valley of Mexico, was sliding into the decline and burning that would end it."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Rome: by the time the Nine Saints fled east, the Roman Empire had become a Christian state and the arena for the church councils that split Christendom."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Constantinople: the surviving Eastern Roman capital whose church accepted Chalcedon, putting it on the opposite side of the doctrinal divide from Aksum."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Byzantium: the Eastern Roman world whose late-antique art helped shape the painted style of the Garima Gospels."
     }
   ],
   "7": [
@@ -123,6 +311,36 @@
       "targetTl": "ancient-israel",
       "targetChapter": 3,
       "blurb": "Solomon ruled the united Kingdom of Israel at its peak of wealth and power, building the First Temple in Jerusalem. The Kebra Nagast traces Ethiopian royal lineage to Solomon through his encounter with the Queen of Sheba, creating a founding myth that connected Ethiopia to the most prestigious biblical lineage imaginable."
+    },
+    {
+      "matchText": "Mecca",
+      "targetTl": "umayyad-caliphate",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Arabia: Mecca was the caravan-trading and pilgrimage hub of the western peninsula, the city Muhammad came from and the cradle of Islam."
+    },
+    {
+      "matchText": "Sasanian Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "Meanwhile in Persia: the Sasanian (Sassanid) empire was Rome's great eastern rival until Arab armies overran it in the 630s–640s, ending the last pre-Islamic Persian dynasty."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Constantinople: the Byzantine Empire was the Greek-speaking Christian continuation of Rome in the east, and the Egypt that anchored Aksum's trade was a Byzantine province until the Arab conquest."
+    },
+    {
+      "matchText": "Virgil",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Rome: Virgil was the Augustan poet whose epic the Aeneid traced Rome's origins to the Trojan exile Aeneas, giving the empire a prestigious founding myth."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 1,
+      "blurb": "Meanwhile down the coast: a string of East African port towns grew into the Swahili world, the merchant culture that inherited the Indian Ocean trade as Aksum's Red Sea reach collapsed."
     }
   ],
   "8": [
@@ -143,6 +361,54 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 8,
       "blurb": "Aksum declined as the Abbasid-centered Islamic trade world, past its peak but still vast, redrew the Red Sea commerce Aksum had lived on."
+    },
+    {
+      "matchText": "Byzantium",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in Constantinople: the eastern Roman Empire that Aksum had once dealt with as a Christian peer carried on as Byzantium, the empire that wouldn't die."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Meanwhile in Rome: Augustus turned the old Republic into the Roman Empire, the Mediterranean superpower Aksum is measured against here."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "Meanwhile in Persia: the prophet Mani preached under the Sassanid kings, and his roster of the world's great powers famously included Aksum."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "phoenicia",
+      "targetChapter": 7,
+      "blurb": "Meanwhile in North Africa: Phoenician Carthage had struck its own coins centuries before Aksum did, the one earlier African mint."
+    },
+    {
+      "matchText": "Swahili Coast",
+      "targetTl": "swahili-coast",
+      "targetChapter": 4,
+      "blurb": "Meanwhile down the coast: the Swahili sultanate of Kilwa minted its own copper coinage, the next African state south of the Sahara to do so after Aksum."
+    },
+    {
+      "matchText": "Baghdad",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "Meanwhile in the Islamic world: the Abbasid Caliphate ruled a vast territory from Baghdad, past its peak but still the great power of the age."
+    },
+    {
+      "matchText": "Classic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 5,
+      "blurb": "Meanwhile in the Americas: the Classic Maya city-states had already collapsed, their great southern centers abandoned by the time Aksum fell."
+    },
+    {
+      "matchText": "Heian",
+      "targetTl": "heian-japan",
+      "targetChapter": 4,
+      "blurb": "Meanwhile in Japan: the Heian court was producing the masterworks of classical Japanese literature even as Aksum was ending."
     }
   ]
 }
