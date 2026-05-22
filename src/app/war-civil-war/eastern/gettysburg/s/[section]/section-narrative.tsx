@@ -137,7 +137,7 @@ export function SectionNarrative({ id }: { id: string }) {
         <div style={{ height: 2, background: 'color-mix(in srgb, var(--foreground) 10%, transparent)' }}><div style={{ height: 2, width: `${n.progress * 100}%`, background: ACCENT }} /></div>
       </div>
 
-      <div style={{ maxWidth: 640, margin: '0 auto', padding: '0 18px 120px' }}>
+      <div style={{ maxWidth: 640, margin: '0 auto', padding: '0 18px 48px' }}>
         {/* article */}
         <article style={{ paddingTop: 18 }}>
           {n.blocks.map((b, i) => {
@@ -168,18 +168,16 @@ export function SectionNarrative({ id }: { id: string }) {
             )
           })}
         </article>
-      </div>
 
-      {/* docked Meanwhile card */}
-      {n.meanwhile && (
-        <div style={{ position: 'sticky', bottom: 0, zIndex: 7, padding: 12, background: 'linear-gradient(to top, var(--background) 70%, transparent)' }}>
-          <div style={{ maxWidth: 640, margin: '0 auto', border: `1px solid ${'color-mix(in srgb, var(--foreground) 14%, transparent)'}`, borderRadius: 12, padding: '12px 14px', background: 'color-mix(in srgb, var(--foreground) 5%, var(--background))', boxShadow: '0 8px 24px rgba(0,0,0,0.18)' }}>
+        {/* Meanwhile — at the end of the chapter (not sticky) */}
+        {n.meanwhile && (
+          <div style={{ marginTop: 28, border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)' }}>
             <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Meanwhile in {n.meanwhile.region}</div>
             <div style={{ fontFamily: SERIF, fontSize: 16, fontStyle: 'italic', marginTop: 3 }}>{n.meanwhile.title}</div>
             <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 75%, transparent)', marginTop: 3 }}>{n.meanwhile.body}</div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   )
 }
