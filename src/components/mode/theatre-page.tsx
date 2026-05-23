@@ -12,7 +12,7 @@
 // audits/war-pilot-civil-war.md.
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
+import { WarChrome, SANS, SERIF, ACCENTS, WAR_ACCENT, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
@@ -103,22 +103,19 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   // full name current (via currentLabel)
   const battleLabel = active?.short ?? battleFull
 
-  // The ACW pill only lights up on the war home page, in the Civil War's own
-  // era-band colour (Industrial Wars = violet) so it matches its dropdown dot;
-  // as an ancestor crumb on theatre/battle pages it stays a muted gray pill.
-  const onWarHome = !theatre && !battleId
-  const acwColor = BAND_COLOR[WAR_EVENTS.find(w => w.id === 'cw')?.band ?? 'ind']
+  // The ACW pill only lights up on the ACW home page, in the War vertical's
+  // identity colour (WAR_ACCENT, a neutral stone OUTSIDE the theatre palette so
+  // it never collides with a theatre); as an ancestor crumb on theatre/battle
+  // pages it stays a muted gray pill.
+  const onAcwHome = !theatre && !battleId
 
   return [
     { label: 'War', options: modeOptions, currentLabel: 'War' },
-    { label: 'ACW', short: 'ACW', color: onWarHome ? acwColor : undefined, options: warOptions, currentLabel: 'American Civil War', active: onWarHome },
+    { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, options: warOptions, currentLabel: 'American Civil War', active: onAcwHome },
     { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]
 }
-
-// Neutral accent for the all-wars home (it isn't a specific war, so no band colour).
-export const WAR_HOME_ACCENT = '#8a7a66'
 
 // The all-wars front door (/war) breadcrumb: just the first two rungs of the
 // ladder — the vertical (War) and the war picker (current, "All Wars"). The

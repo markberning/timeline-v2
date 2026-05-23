@@ -22,6 +22,13 @@ export const ACCENTS = {
 }
 export const CIVIL_WAR_ACCENT = ACCENTS.violet
 
+// The War vertical's identity colour for the war-level breadcrumb pills (the
+// all-wars home + the current war). Deliberately a neutral stone OUTSIDE the
+// five theatre/era-band hues (violet/blue/amber/rust/green) so the war level
+// never collides with a theatre colour. Theatres stay vivid; the war level is
+// the calm parent above them.
+export const WAR_ACCENT = '#8a7a66'
+
 export function alpha(hex: string, a: number): string {
   const h = hex.replace('#', '')
   return `rgba(${parseInt(h.slice(0, 2), 16)}, ${parseInt(h.slice(2, 4), 16)}, ${parseInt(h.slice(4, 6), 16)}, ${a})`
@@ -91,7 +98,9 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
                 // any crumb with options is an interactive dropdown — the theatre
                 // switcher and the battle/event jump list, on every page. Accent
                 // when it's the current page's leaf (c.active), gray otherwise.
-                ? <CrumbDropdown crumb={c} emphasized={c.active ?? last} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
+                // only the crumb that IS the current page lights up — not the
+                // trailing generic picker just because it's last
+                ? <CrumbDropdown crumb={c} emphasized={!!c.active} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
                 : c.href && !last
                   ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
                   : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? accent : muted, fontWeight: last ? 700 : 500, background: last ? alpha(accent, 0.14) : 'transparent', border: last ? `1px solid ${alpha(accent, 0.5)}` : undefined, borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}

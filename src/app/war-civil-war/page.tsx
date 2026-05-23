@@ -5,7 +5,7 @@
 // the shared breadcrumb + Timeline/Dossier toggle. Preview, sample content.
 
 import { useState } from 'react'
-import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
+import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, WAR_ACCENT, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
@@ -283,7 +283,7 @@ export default function CivilWarPage() {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={civilWarCrumbs()} view={view} onView={setView} />
+      <WarChrome crumbs={civilWarCrumbs()} view={view} onView={setView} accent={WAR_ACCENT} />
       <div style={{ maxWidth: 680, margin: '0 auto' }}>
         {/* hero — the 54th Massachusetts at Fort Wagner (Kurz & Allison) */}
         <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: '#0e0c08' }}>

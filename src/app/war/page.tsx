@@ -1,7 +1,7 @@
 'use client'
 
-import { WarBreadcrumb } from '@/components/mode/war-chrome'
-import { warHomeCrumbs, WAR_HOME_ACCENT } from '@/components/mode/theatre-page'
+import { WarBreadcrumb, WAR_ACCENT } from '@/components/mode/war-chrome'
+import { warHomeCrumbs } from '@/components/mode/theatre-page'
 import { WarFrontDoor } from '@/components/mode/war-front-door'
 
 // The War vertical's front door (the all-wars escalating spine). It wears the
@@ -12,7 +12,7 @@ import { WarFrontDoor } from '@/components/mode/war-front-door'
 export default function WarHome() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb crumbs={warHomeCrumbs()} accent={WAR_HOME_ACCENT} />
+      <WarBreadcrumb crumbs={warHomeCrumbs()} accent={WAR_ACCENT} />
       <WarFrontDoor showToggle={false} />
     </div>
   )
