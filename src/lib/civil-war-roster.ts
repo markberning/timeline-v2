@@ -76,10 +76,22 @@ export interface Theme {
   date: string; year: number; m: number; hook: string; href?: string; short?: string; img?: string
 }
 
-// The ~15 locked non-battle sections, placed on the home spine by phase.
+// The non-battle/theme sections, placed on the home spine by phase. Roster expanded
+// 2026-05-23 after comprehensiveness/framing gates on the LIST itself (audits/
+// war-content-pipeline.md). Whole-roster pass: broadened th-usct into self-emancipation
+// + soldiers, added th-northwithin (dissent + the 1864 election). Causes-phase pass
+// (esp. "the rise of Lincoln"): added th-lincoln1860 (the 1858 debates → Cooper Union →
+// the four-way 1860 election → secession winter — previously untold; it fell between
+// th-road and th-twogov), and reshaped th-road's hook to claim Uncle Tom's Cabin + the
+// Republican Party's birth. FRAMING REQUIREMENT when th-road / th-lincoln1860 / th-twogov
+// are built: quote the secession declarations + the Cornerstone Speech (slavery in the
+// South's own words) — the primary-source rebuttal to any "states' rights" reading.
+// Considered but PARKED (not adopted): a Confederate home-front/war-finance theme, and a
+// Native-Americans theme (Stand Watie's Indian Territory + the 1862 Dakota War).
 export const THEMES: Theme[] = [
   { id: 'th-slavery', name: 'Slavery & the Cotton Economy', phase: 'causes', type: 'CAUSE', size: 'l', date: '1793–1860', year: 1850, m: 1, hook: 'King Cotton, the domestic slave trade, and a Southern economy built on human bondage.', href: '/war-civil-war/off-the-battlefield/slavery-cotton', short: 'Slavery & Cotton', img: '/war-img/slavery-cotton-hero.jpg' },
-  { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1850–1861', year: 1855, m: 1, hook: 'Compromise, Bleeding Kansas, Dred Scott, John Brown — the country arguing its way to the cliff edge.' },
+  { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1850–1860', year: 1855, m: 1, hook: 'The Compromise of 1850, Uncle Tom’s Cabin, the Kansas-Nebraska Act and a new Republican Party, Bleeding Kansas, Dred Scott, John Brown — the country arguing its way to the cliff edge.' },
+  { id: 'th-lincoln1860', name: 'Lincoln’s Rise & the Election of 1860', phase: 'causes', type: 'POLITICS', size: 'l', date: '1858–1861', year: 1860, m: 11, hook: 'How a one-term prairie lawyer who had lost a Senate race became president without a single Southern vote — the 1858 debates, Cooper Union, the four-way election of 1860, and the secession winter it set off.' },
   { id: 'th-twogov', name: 'Two Governments', phase: 'causes', type: 'POLITICS', size: 'm', date: '1861', year: 1860, m: 12, hook: 'Lincoln versus Davis — and the desperate fight to keep the border states in the Union.' },
 
   { id: 'th-diplomacy', name: 'Britain, France & Cotton', phase: 'hard', type: 'POLITICS', size: 'm', date: '1861–1863', year: 1862, m: 2, hook: 'Cotton diplomacy, the Trent Affair, and the foreign recognition the South never got.' },
@@ -89,10 +101,11 @@ export const THEMES: Theme[] = [
   { id: 'th-medicine', name: 'Medicine & Disease', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1861–1865', year: 1862, m: 8, hook: 'Two soldiers died of disease for every one killed in battle.' },
 
   { id: 'th-emancipation', name: 'The Emancipation Proclamation', phase: 'turning', type: 'POLITICS', size: 'l', date: 'Jan 1863', year: 1863, m: 1, hook: 'Lincoln changes what the entire war is for.', href: '/war-civil-war/off-the-battlefield/emancipation', short: 'Emancipation', img: '/war-img/emancipation-hero.jpg' },
-  { id: 'th-usct', name: 'The USCT', phase: 'turning', type: 'SOCIETY', size: 'm', date: '1863–1865', year: 1863, m: 5, hook: 'Nearly 180,000 Black soldiers put on Union blue — and changed the war’s meaning.' },
+  { id: 'th-usct', name: 'Freedom Seekers & the USCT', phase: 'turning', type: 'SOCIETY', size: 'l', date: '1861–1865', year: 1863, m: 5, hook: 'The enslaved freed themselves — fleeing to Union lines by the hundreds of thousands, filling the contraband camps, and finally putting on Union blue: nearly 180,000 Black soldiers who changed the war’s meaning.' },
 
   { id: 'th-prisons', name: 'Andersonville & the Prisons', phase: 'total', type: 'AFTERMATH', size: 'm', date: '1864–1865', year: 1864, m: 2, hook: 'Prison camps North and South where tens of thousands died of disease and starvation.' },
   { id: 'th-atrocity', name: 'Fort Pillow & the Guerrilla War', phase: 'total', type: 'AFTERMATH', size: 'm', date: '1862–1865', year: 1864, m: 5, hook: 'No-quarter killings and the savage irregular war along the borderlands.' },
+  { id: 'th-northwithin', name: 'The War Within the North', phase: 'total', type: 'POLITICS', size: 'l', date: '1861–1864', year: 1864, m: 11, hook: 'Copperheads, jailed editors, and suspended habeas corpus — climaxing in the 1864 election, a wartime referendum on the war that Lincoln feared he would lose.' },
 
   { id: 'th-assassination', name: 'Lincoln Assassinated', phase: 'after', type: 'AFTERMATH', size: 'm', date: 'Apr 1865', year: 1865, m: 5, hook: 'Five days after Appomattox, Lincoln is murdered at Ford’s Theatre.' },
   { id: 'th-reckoning', name: 'The Reckoning', phase: 'after', type: 'AFTERMATH', size: 'l', date: '1865 →', year: 1865, m: 12, hook: 'Three-quarters of a million dead, four million freed, and the unfinished work that becomes Reconstruction.' },
