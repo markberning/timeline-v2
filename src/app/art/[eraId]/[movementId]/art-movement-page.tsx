@@ -53,9 +53,8 @@ function CordTile({ palette, imageUrl, label, isXL }: { palette: Palette; imageU
       {hasImg && (
         <img src={imageUrl} alt={label || ''} loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />
       )}
-      {label && (
-        <div style={{ position: 'absolute', left: 8, right: 8, bottom: 7, fontFamily: MONO, fontSize: 9, letterSpacing: 0.4, color: 'rgba(255,255,255,0.86)', textShadow: '0 1px 2px rgba(0,0,0,0.55)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</div>
-      )}
+      {/* No name overlaid on the artwork — redundant with the title beside it (pipeline
+          rule, audits/art-vertical.md §5b). */}
     </div>
   )
 }

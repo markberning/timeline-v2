@@ -226,6 +226,10 @@ frame and crop it.
 - **Hero eyebrow stays white** (`rgba(255,255,255,0.9)` + shadow), NOT the accent — accent
   (violet) text was unreadable over dark paintings like Starry Night. Accent identity lives
   in the breadcrumb/accordion, not in text laid over imagery.
+- **No item NAME overlaid on the artwork in list/cord views.** The movement/work title sits
+  in the text beside the image, so a name laid over the painting (e.g. "POST-IMPRESSIONISM")
+  is redundant and obscures the art — don't render it. (A *descriptive scene caption* of the
+  image, like War's "The 54th Massachusetts at Fort Wagner", is different and fine.)
 
 Data hooks: `heroFit` / `heroFocus` / `heroImages` on every entity drive the hero;
 inline figures already render at natural height.
