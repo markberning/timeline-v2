@@ -13,6 +13,7 @@
 import { useState } from 'react'
 import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
+import { DottedMap } from '@/components/mode/dotted-map'
 
 const MONO = 'var(--font-geist-mono)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
@@ -255,103 +256,39 @@ function CommandersStrip() {
   )
 }
 
-// High-res 8-bit pixel-art map of the theatre. The land/water grid is computed
-// from real geography (grid coords ~ longitude/latitude over the VA/MD/PA
-// corridor): the Mason–Dixon line, the Potomac (MD↔VA border, with D.C. on it),
-// the Chesapeake coastline, the Rappahannock & James rivers, and the Shenandoah
-// Valley. Cells: P=Pennsylvania, M=Maryland (both gray), V=Virginia (violet),
-// S=Shenandoah (faint violet), ~=water (cyan). Schematic, not survey-accurate,
-// but the shapes and battle placements are geographically faithful.
-const ET_CELL = 7, ET_COLS = 52, ET_ROWS = 48
-const lerp = (a: number, b: number, t: number) => a + (b - a) * t
-type Pt = [number, number]
-const MASON = 7.3 // PA/MD border (Mason–Dixon line), in grid rows
-const POTOMAC: Pt[] = [[6, 8], [14, 9.5], [20, 10.5], [24, 11.5], [26, 12], [30, 15], [34, 18], [38, 23], [41, 27], [44, 31]]
-const RAPP: Pt[] = [[23, 20], [27, 23], [29, 25], [33, 27], [37, 28], [42, 30]]
-const JAMES: Pt[] = [[13, 37], [20, 36.2], [26, 36], [30, 35], [34, 37], [38, 39], [43, 41]]
-const waterEdge = (y: number) => Math.max(36, 45 - (y - 10) * 0.25) // Chesapeake/Atlantic coastline
-function rowAtCol(pts: Pt[], col: number) {
-  if (col <= pts[0][0]) return pts[0][1]
-  for (let i = 1; i < pts.length; i++) if (col <= pts[i][0]) return lerp(pts[i - 1][1], pts[i][1], (col - pts[i - 1][0]) / (pts[i][0] - pts[i - 1][0]))
-  return pts[pts.length - 1][1]
-}
-function distToSeg(px: number, py: number, [ax, ay]: Pt, [bx, by]: Pt) {
-  const dx = bx - ax, dy = by - ay, l2 = dx * dx + dy * dy
-  const t = Math.max(0, Math.min(1, l2 ? ((px - ax) * dx + (py - ay) * dy) / l2 : 0))
-  return Math.hypot(px - (ax + t * dx), py - (ay + t * dy))
-}
-const nearRiver = (x: number, y: number, pts: Pt[], w: number) => pts.some((_, i) => i > 0 && distToSeg(x, y, pts[i - 1], pts[i]) < w)
-function classify(c: number, r: number) {
-  const x = c + 0.5, y = r + 0.5
-  if (y >= 10 && x > waterEdge(y)) return '~'
-  if (nearRiver(x, y, POTOMAC, 0.72) || nearRiver(x, y, RAPP, 0.5) || nearRiver(x, y, JAMES, 0.55)) return '~'
-  if (y < MASON) return 'P'
-  if (y < rowAtCol(POTOMAC, x)) return 'M'
-  if (x >= 9 && x <= 12 && y < 34) return 'S'
-  return 'V'
-}
-const ET_GRID: string[] = Array.from({ length: ET_ROWS }, (_, r) => Array.from({ length: ET_COLS }, (_, c) => classify(c, r)).join(''))
-
-type Mark = { c: number; r: number; label: string; anchor: 'start' | 'end' }
-const ET_MARKS: Mark[] = [
-  { c: 32, r: 6, label: 'Gettysburg', anchor: 'start' },
-  { c: 26, r: 10, label: 'Antietam', anchor: 'start' },
-  { c: 29, r: 19, label: 'Bull Run', anchor: 'end' },
-  { c: 26, r: 25, label: 'Chancellorsville', anchor: 'end' },
-  { c: 29, r: 25, label: 'Fredericksburg', anchor: 'start' },
-  { c: 14, r: 37, label: 'Appomattox', anchor: 'end' },
-  { c: 30, r: 39, label: 'Petersburg', anchor: 'start' },
-]
-const ET_DC = { c: 34, r: 18 }, ET_RICH = { c: 30, r: 35 }
-
+// Theatre geography — real dotted state outlines (Pennsylvania / Maryland /
+// Virginia + West Virginia for context), zoomed to the Washington–Richmond
+// corridor, with the battle dots, the two capitals, and the 110-mile corridor
+// line. Rendered by the shared <DottedMap>.
 function ETMap() {
-  const W = ET_COLS * ET_CELL, H = ET_ROWS * ET_CELL
-  const gridline = 'color-mix(in srgb, var(--foreground) 5%, transparent)'
-  const stateLbl = 'color-mix(in srgb, var(--foreground) 34%, transparent)'
-  const waterLbl = 'color-mix(in srgb, #0ea5e9 60%, var(--foreground))'
-  const dotFill = 'color-mix(in srgb, var(--foreground) 82%, transparent)'
-  const fillFor = (ch: string) => ch === 'V' ? alpha(ACCENT, 0.2) : ch === 'S' ? alpha(ACCENT, 0.1)
-    : ch === 'M' ? 'color-mix(in srgb, var(--foreground) 22%, transparent)'
-    : ch === 'P' ? 'color-mix(in srgb, var(--foreground) 13%, transparent)' : alpha('#0ea5e9', 0.5)
-  // Run-length merge each row into spans so the SVG stays light (~400 rects, not ~2,500).
-  const cells: { x: number; y: number; w: number; fill: string; key: string }[] = []
-  ET_GRID.forEach((row, r) => {
-    let c = 0
-    while (c < row.length) {
-      let e = c + 1
-      while (e < row.length && row[e] === row[c]) e++
-      cells.push({ x: c * ET_CELL, y: r * ET_CELL, w: (e - c) * ET_CELL, fill: fillFor(row[c]), key: `${r}-${c}` })
-      c = e
-    }
-  })
-  const at = (m: { c: number; r: number }) => ({ x: m.c * ET_CELL + ET_CELL / 2, y: m.r * ET_CELL + ET_CELL / 2 })
-  const dc = at(ET_DC), rich = at(ET_RICH)
   return (
-    <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <Eyebrow color={ACCENT}>Geography</Eyebrow>
-      <div style={{ marginTop: 12, borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD }}>
-        <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', height: 'auto', display: 'block', imageRendering: 'pixelated' }}>
-          {cells.map(c => <rect key={c.key} x={c.x} y={c.y} width={c.w} height={ET_CELL} fill={c.fill} />)}
-          {Array.from({ length: ET_COLS + 1 }, (_, c) => <line key={`v${c}`} x1={c * ET_CELL} y1={0} x2={c * ET_CELL} y2={H} stroke={gridline} strokeWidth={0.5} />)}
-          {Array.from({ length: ET_ROWS + 1 }, (_, r) => <line key={`h${r}`} x1={0} y1={r * ET_CELL} x2={W} y2={r * ET_CELL} stroke={gridline} strokeWidth={0.5} />)}
-          <text x={16 * ET_CELL} y={4 * ET_CELL} fontFamily={MONO} fontSize={9} letterSpacing={1} fill={stateLbl}>PENNSYLVANIA</text>
-          <text x={33 * ET_CELL} y={13.4 * ET_CELL} fontFamily={MONO} fontSize={7.5} letterSpacing={1} fill={stateLbl}>MARYLAND</text>
-          <text x={16 * ET_CELL} y={32 * ET_CELL} fontFamily={MONO} fontSize={9} letterSpacing={1} fill={stateLbl}>VIRGINIA</text>
-          <text x={10.3 * ET_CELL} y={28 * ET_CELL} fontFamily={MONO} fontSize={7} fill={alpha(ACCENT, 0.55)} transform={`rotate(-90 ${10.3 * ET_CELL} ${28 * ET_CELL})`}>SHEN.</text>
-          <text x={47 * ET_CELL} y={24 * ET_CELL} fontFamily={MONO} fontSize={7} fill={waterLbl} textAnchor="middle" transform={`rotate(-90 ${47 * ET_CELL} ${24 * ET_CELL})`}>CHESAPEAKE</text>
-          <text x={35.5 * ET_CELL} y={16.5 * ET_CELL} fontFamily={MONO} fontSize={7} fill={waterLbl}>Potomac R.</text>
-          <line x1={dc.x} y1={dc.y} x2={rich.x} y2={rich.y} stroke="color-mix(in srgb, var(--foreground) 42%, transparent)" strokeWidth={1.4} strokeDasharray="3 3" />
-          <text x={31.4 * ET_CELL} y={28 * ET_CELL} fontFamily={MONO} fontSize={8} fill={MUTED} textAnchor="end" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.4}>110 mi</text>
-          <rect x={ET_DC.c * ET_CELL + 1} y={ET_DC.r * ET_CELL + 1} width={ET_CELL - 2} height={ET_CELL - 2} fill={ACCENTS.blue} stroke="var(--background)" strokeWidth={1.2} />
-          <rect x={ET_RICH.c * ET_CELL + 1} y={ET_RICH.r * ET_CELL + 1} width={ET_CELL - 2} height={ET_CELL - 2} fill={ACCENTS.rust} stroke="var(--background)" strokeWidth={1.2} />
-          <text x={dc.x + 8} y={dc.y + 3} fontFamily={MONO} fontSize={9} fill="var(--foreground)" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.6}>Washington</text>
-          <text x={rich.x + 8} y={rich.y + 3} fontFamily={MONO} fontSize={9} fill="var(--foreground)" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.6}>Richmond</text>
-          {ET_MARKS.map(m => { const p = at(m); return <rect key={m.label} x={p.x - 2.6} y={p.y - 2.6} width={5.2} height={5.2} fill={dotFill} stroke="var(--background)" strokeWidth={1} /> })}
-          {ET_MARKS.map(m => { const p = at(m); return <text key={m.label} x={m.anchor === 'end' ? p.x - 7 : p.x + 7} y={p.y + 3} fontFamily={MONO} fontSize={9} fill="var(--foreground)" textAnchor={m.anchor} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.6}>{m.label}</text> })}
-        </svg>
-      </div>
-      <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: FAINT }}>Most of the Eastern war fell in the 110-mile corridor between Washington and Richmond — the Shenandoah Valley on one flank, the Chesapeake on the other.</div>
-    </div>
+    <DottedMap
+      eyebrow="Geography"
+      accent={ACCENT}
+      frame={{ lonMin: -79.5, lonMax: -75.6, latMin: 36.8, latMax: 40.05 }}
+      states={[
+        { name: 'West Virginia', tone: 'faint' },
+        { name: 'Pennsylvania', tone: 'gray', label: 'PENNSYLVANIA', labelLon: -76.9, labelLat: 39.93 },
+        { name: 'Maryland', tone: 'gray', label: 'MARYLAND', labelLon: -76.5, labelLat: 39.28 },
+        { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.7, labelLat: 37.5 },
+      ]}
+      labels={[{ text: 'Shenandoah', lon: -78.5, lat: 38.7, kind: 'accent', size: 10 }]}
+      corridor={{ fromLon: -77.04, fromLat: 38.90, toLon: -77.43, toLat: 37.54, label: '110 mi', labelLon: -77.0, labelLat: 38.25 }}
+      dots={[
+        { name: 'Gettysburg', lat: 39.83, lon: -77.23 },
+        { name: 'Antietam', lat: 39.46, lon: -77.74, anchor: 'end' },
+        { name: 'Bull Run', lat: 38.81, lon: -77.52, anchor: 'end' },
+        { name: 'Fredericksburg', lat: 38.30, lon: -77.46 },
+        { name: 'Chancellorsville', lat: 38.31, lon: -77.64, anchor: 'end' },
+        { name: 'Appomattox', lat: 37.36, lon: -78.80 },
+        { name: 'Petersburg', lat: 37.23, lon: -77.40, dy: 15 },
+      ]}
+      capitals={[
+        { name: 'Washington', lat: 38.90, lon: -77.04 },
+        { name: 'Richmond', lat: 37.54, lon: -77.43 },
+      ]}
+      caption="Most of the Eastern war fell in the 110-mile corridor between Washington and Richmond — the Shenandoah Valley on one flank, the Chesapeake on the other."
+    />
   )
 }
 

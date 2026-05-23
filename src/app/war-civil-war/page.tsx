@@ -5,8 +5,10 @@
 // the shared breadcrumb + Timeline/Dossier toggle. Preview, sample content.
 
 import { useState } from 'react'
-import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, alpha, type View } from '@/components/mode/war-chrome'
+import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard } from '@/components/mode/war-battle-card'
+import { DottedMap } from '@/components/mode/dotted-map'
+import { US_RIVERS } from '@/lib/us-rivers'
 
 const TYPE_COLOR: Record<string, string> = { CAUSE: '#8a6d3b', BATTLE: '#b91c1c', POLITICS: '#1d4ed8', SOCIETY: '#b45309', AFTERMATH: '#7c3aed' }
 type Size = 's' | 'm' | 'l' | 'xl'
@@ -36,12 +38,93 @@ const NODES: Node[] = [
   { id: 'reck', phase: 'after', type: 'AFTERMATH', size: 'l', name: 'The Reckoning', date: '1865 →', hook: 'Three-quarters of a million dead, and the unfinished work that becomes Reconstruction.' },
 ]
 
-const THEATRES = [
-  { id: 'eastern', name: 'Eastern Theatre', blurb: 'Virginia and the road between the two capitals — Lee vs. a parade of Union generals, ending with Grant.', battles: 'Bull Run · Antietam · Fredericksburg · Chancellorsville · Gettysburg · the Overland Campaign', href: '/war-civil-war/eastern' },
-  { id: 'western', name: 'Western Theatre', blurb: 'The rivers and the railroads — where the Union actually won the war, and where Grant and Sherman rose.', battles: 'Shiloh · Vicksburg · Chickamauga · Chattanooga · Atlanta', href: undefined },
-  { id: 'transmiss', name: 'Trans-Mississippi', blurb: 'The sprawling, half-forgotten war west of the great river.', battles: 'Pea Ridge · Wilson’s Creek · the Red River Campaign', href: undefined },
-  { id: 'naval', name: 'Naval & Coastal', blurb: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.', battles: 'Hampton Roads · New Orleans · Mobile Bay', href: undefined },
+const num = (n: number) => n.toLocaleString('en-US')
+
+// Whole-war theatre data for the interactive home map: each theatre's states
+// (coloured on the dotted US map), battle dots, and dossier panel content.
+type ThEvent = { mo: string; year: number; name: string; place: string; heavy?: boolean; href?: string }
+type Theatre = {
+  id: string; name: string; longName: string; color: string; span: string; region: string
+  summary: string; peakArmies: string; casualties: number; battlesCount: number; commanderRotation: string
+  href?: string; states: string[]; labelLon: number; labelLat: number
+  dots: { name: string; lat: number; lon: number; heavy?: boolean; anchor?: 'start' | 'end' }[]
+  events: ThEvent[]
+}
+const THEATRE_DATA: Theatre[] = [
+  {
+    id: 'east', name: 'Eastern', longName: 'Eastern Theatre', color: ACCENTS.violet, span: '1861–1865',
+    region: 'Virginia · Maryland · Pennsylvania', summary: 'The political war. Between the two capitals, Lee was at his best — and where the war finally ended.',
+    peakArmies: '120k vs 75k', casualties: 230000, battlesCount: 8, commanderRotation: 'Seven Union commanders, then Grant',
+    href: '/war-civil-war/eastern', states: ['Virginia', 'Maryland', 'Pennsylvania'], labelLon: -78.0, labelLat: 40.6,
+    dots: [
+      { name: 'Gettysburg', lat: 39.83, lon: -77.23, heavy: true, anchor: 'end' },
+      { name: 'Antietam', lat: 39.46, lon: -77.74, anchor: 'end' },
+      { name: 'Bull Run', lat: 38.81, lon: -77.52, anchor: 'end' },
+      { name: 'Petersburg', lat: 37.23, lon: -77.40, anchor: 'end' },
+    ],
+    events: [
+      { mo: 'Jul', year: 1861, name: 'First Bull Run', place: 'Manassas, VA' },
+      { mo: 'Sep', year: 1862, name: 'Antietam', place: 'Sharpsburg, MD', heavy: true },
+      { mo: 'Jul', year: 1863, name: 'Gettysburg', place: 'Adams County, PA', heavy: true, href: '/war-civil-war/eastern/gettysburg' },
+      { mo: 'May', year: 1864, name: 'Overland Campaign', place: 'Wilderness → Cold Harbor', heavy: true },
+      { mo: 'Apr', year: 1865, name: 'Appomattox', place: 'Appomattox C.H., VA' },
+    ],
+  },
+  {
+    id: 'west', name: 'Western', longName: 'Western Theatre', color: ACCENTS.blue, span: '1861–1865',
+    region: 'Kentucky · Tennessee · Mississippi · Georgia', summary: 'Where the Union actually won the war. Grant took the rivers and split the Confederacy in two.',
+    peakArmies: '110k vs 80k', casualties: 195000, battlesCount: 12, commanderRotation: 'Grant rises, then Sherman',
+    href: '/war-civil-war/western', states: ['Kentucky', 'Tennessee', 'Mississippi', 'Georgia', 'Alabama'], labelLon: -86.4, labelLat: 34.3,
+    dots: [
+      { name: 'Shiloh', lat: 35.14, lon: -88.34, anchor: 'end' },
+      { name: 'Vicksburg', lat: 32.35, lon: -90.88, heavy: true, anchor: 'end' },
+      { name: 'Chickamauga', lat: 34.94, lon: -85.29 },
+      { name: 'Atlanta', lat: 33.75, lon: -84.39, heavy: true },
+    ],
+    events: [
+      { mo: 'Feb', year: 1862, name: 'Forts Henry & Donelson', place: 'Tennessee River' },
+      { mo: 'Apr', year: 1862, name: 'Shiloh', place: 'Pittsburg Landing, TN', heavy: true },
+      { mo: 'May', year: 1863, name: 'Vicksburg', place: 'Vicksburg, MS', heavy: true },
+      { mo: 'Nov', year: 1863, name: 'Chattanooga', place: 'Tennessee–Georgia' },
+      { mo: 'Summer', year: 1864, name: 'Atlanta Campaign', place: 'Northern Georgia', heavy: true },
+      { mo: 'Nov', year: 1864, name: 'March to the Sea', place: 'Atlanta → Savannah', heavy: true },
+    ],
+  },
+  {
+    id: 'tmis', name: 'Trans-Miss', longName: 'Trans-Mississippi', color: ACCENTS.amber, span: '1861–1865',
+    region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
+    peakArmies: '30k vs 20k', casualties: 30000, battlesCount: 6, commanderRotation: 'Mostly forgotten',
+    href: undefined, states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -94.5, labelLat: 33.4,
+    dots: [
+      { name: 'Pea Ridge', lat: 36.45, lon: -94.03, anchor: 'end' },
+      { name: 'Mansfield', lat: 32.04, lon: -93.70, anchor: 'end' },
+    ],
+    events: [
+      { mo: 'Aug', year: 1861, name: 'Wilson’s Creek', place: 'SW Missouri' },
+      { mo: 'Mar', year: 1862, name: 'Pea Ridge', place: 'NW Arkansas', heavy: true },
+      { mo: 'Apr', year: 1864, name: 'Mansfield', place: 'NW Louisiana' },
+    ],
+  },
+  {
+    id: 'naval', name: 'Naval', longName: 'Naval & Coastal', color: ACCENTS.rust, span: '1861–1865',
+    region: 'Atlantic · Gulf · the Mississippi', summary: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.',
+    peakArmies: '700+ ships', casualties: 10000, battlesCount: 5, commanderRotation: 'Farragut, Porter, Du Pont',
+    href: undefined, states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
+    dots: [
+      { name: 'Fort Fisher', lat: 33.97, lon: -77.92 },
+      { name: 'Mobile Bay', lat: 30.4, lon: -88.04, anchor: 'end' },
+      { name: 'New Orleans', lat: 29.95, lon: -90.07, anchor: 'end' },
+    ],
+    events: [
+      { mo: 'Mar', year: 1862, name: 'Hampton Roads', place: 'Virginia coast', heavy: true },
+      { mo: 'Apr', year: 1862, name: 'New Orleans', place: 'Mouth of the Mississippi', heavy: true },
+      { mo: 'Aug', year: 1864, name: 'Mobile Bay', place: 'Alabama coast', heavy: true },
+    ],
+  },
 ]
+// Non-theatre fill states (dotted, always faint) so the map reads as the US.
+const CONTEXT_STATES = ['West Virginia', 'Ohio', 'Indiana', 'Illinois', 'New Jersey', 'Delaware', 'Oklahoma', 'Kansas', 'Iowa', 'Wisconsin', 'Michigan', 'New York', 'Minnesota']
+const US_FRAME = { lonMin: -99, lonMax: -74.6, latMin: 28.5, latMax: 42.4 }
 
 const CORD_X = 56, CARD_LEFT = CORD_X + 16
 
@@ -64,6 +147,88 @@ function NodeCard({ n }: { n: Node }) {
       <div style={{ position: 'absolute', left: CORD_X + 5, top: 16, width: 11, height: 1, background: alpha(color, 0.5) }} />
       {n.href ? <a href={n.href} style={{ textDecoration: 'none', display: 'block', color: 'inherit' }}>{card}</a> : card}
     </div>
+  )
+}
+
+// Interactive theatres block for the war home: the dotted US map (each theatre
+// in its colour, the active one lit), a segmented control, and the active
+// theatre's dossier panel + engagement list.
+function TheatresInteractive() {
+  const [active, setActive] = useState('east')
+  const at = THEATRE_DATA.find(t => t.id === active)!
+  const muted = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
+  const faint = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
+  const border = 'color-mix(in srgb, var(--foreground) 14%, transparent)'
+  const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
+  const card = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
+
+  const states = [
+    ...CONTEXT_STATES.map(n => ({ name: n, tone: 'faint' as const })),
+    ...THEATRE_DATA.flatMap(t => t.states.map((n, i) => ({
+      name: n, color: t.color, tone: (t.id === active ? 'focus' : 'faint') as 'focus' | 'faint',
+      ...(i === 0 ? { label: t.name.toUpperCase(), labelLon: t.labelLon, labelLat: t.labelLat } : {}),
+    }))),
+  ]
+  const dots = THEATRE_DATA.flatMap(t => t.dots.map(d => ({
+    ...d, color: t.id === active ? t.color : alpha(t.color, 0.16), name: t.id === active ? d.name : undefined,
+  })))
+  // the Mississippi (real course) anchors the map; brighten it only with Western/Trans-Miss/Naval up
+  const rivers = US_RIVERS.Mississippi.map(pts => ({ pts }))
+
+  return (
+    <DossierSection label="The theatres" accent={WAR_OXBLOOD}>
+      <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: muted, margin: '0 0 12px' }}>
+        The war was fought in parallel across four theatres. Tap one to light it up — then open it to drill into its battles.
+      </p>
+      <DottedMap inset={false} accent={at.color} frame={US_FRAME} states={states} dots={dots} rivers={rivers} vbWidth={760} />
+      <div style={{ display: 'flex', gap: 4, padding: 3, marginTop: 12, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
+        {THEATRE_DATA.map(t => {
+          const on = t.id === active
+          return (
+            <button key={t.id} onClick={() => setActive(t.id)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 600 : 500, padding: '7px 0', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
+              <span style={{ width: 7, height: 7, borderRadius: 2, background: t.color, opacity: on ? 1 : 0.6 }} />
+              {t.name}
+            </button>
+          )
+        })}
+      </div>
+      <div style={{ marginTop: 14, border: `1px solid ${alpha(at.color, 0.4)}`, borderRadius: 10, padding: 16, background: card }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <span style={{ width: 10, height: 10, borderRadius: 2, background: at.color, boxShadow: `0 0 0 3px ${alpha(at.color, 0.2)}`, flexShrink: 0 }} />
+          <div style={{ flex: 1, fontFamily: SERIF, fontSize: 18, fontWeight: 500, letterSpacing: -0.2 }}>{at.longName}</div>
+          <div style={{ fontFamily: SANS, fontSize: 10, color: faint }}>{at.span}</div>
+        </div>
+        <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 10.5, color: muted }}>{at.region}</div>
+        <div style={{ marginTop: 10, fontFamily: SERIF, fontSize: 14, lineHeight: 1.45 }}>{at.summary}</div>
+        <div style={{ marginTop: 12, paddingTop: 11, borderTop: `1px solid ${border}`, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '4px 12px', fontFamily: SANS, fontSize: 10.5, color: muted }}>
+          <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.battlesCount}</span> battles</div>
+          <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.peakArmies}</span></div>
+          <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{num(at.casualties)}</span> dead</div>
+        </div>
+        <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: faint }}>{at.commanderRotation}</div>
+        {at.href
+          ? <a href={at.href} style={{ marginTop: 13, display: 'inline-flex', alignItems: 'center', gap: 6, border: `1px solid ${alpha(at.color, 0.5)}`, color: at.color, padding: '8px 12px', borderRadius: 8, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, textDecoration: 'none' }}>Open theatre <span aria-hidden>→</span></a>
+          : <div style={{ marginTop: 13, display: 'inline-flex', alignItems: 'center', gap: 6, border: `1px solid ${border}`, color: faint, padding: '8px 12px', borderRadius: 8, fontFamily: SANS, fontWeight: 600, fontSize: 11.5 }}>Coming soon</div>}
+        <div style={{ marginTop: 16 }}>
+          <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: alpha(at.color, 0.95), textTransform: 'uppercase', marginBottom: 10 }}>{at.events.length} key engagements</div>
+          <div style={{ position: 'relative' }}>
+            <div style={{ position: 'absolute', left: 4, top: 5, bottom: 5, width: 1, background: border }} />
+            {at.events.map(e => {
+              const row = (
+                <>
+                  <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: e.heavy ? at.color : card, border: `1px solid ${e.heavy ? at.color : faint}` }} />
+                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(at.color, 0.9), textTransform: 'uppercase' }}>{e.mo} {e.year}</div>
+                  <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{e.name} <span style={{ color: faint, fontSize: 12 }}>· {e.place}</span></div>
+                  {e.href && <span style={{ position: 'absolute', right: 0, top: 11, color: alpha(at.color, 0.7), fontFamily: SANS, fontSize: 13, fontWeight: 600 }} aria-hidden>→</span>}
+                </>
+              )
+              const style: React.CSSProperties = { position: 'relative', display: 'block', width: '100%', textAlign: 'left', color: 'var(--foreground)', padding: '5px 0 9px 20px', textDecoration: 'none' }
+              return e.href ? <a key={e.name} href={e.href} style={style}>{row}</a> : <div key={e.name} style={style}>{row}</div>
+            })}
+          </div>
+        </div>
+      </div>
+    </DossierSection>
   )
 }
 
@@ -106,26 +271,7 @@ export default function CivilWarPage() {
             <DossierSection label="At a glance">
               <GlanceGrid rows={[['Dates', 'Apr 1861 – Apr 1865'], ['Belligerents', 'United States vs. Confederate States'], ['Outcome', 'Union victory; slavery abolished'], ['The cost', '~750,000 dead']]} />
             </DossierSection>
-            <DossierSection label="The theatres">
-              <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', margin: '0 0 14px' }}>
-                The war was fought in parallel across several theatres. Open one to drill into its battles.
-              </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-                {THEATRES.map(th => {
-                  const card = (
-                    <div style={{ border: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)', borderRadius: 10, padding: 16, background: 'color-mix(in srgb, var(--foreground) 3%, transparent)' }}>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 8 }}>
-                        <div style={{ fontFamily: SERIF, fontSize: 19, fontStyle: 'italic' }}>{th.name}</div>
-                        {th.href && <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: WAR_OXBLOOD }}>Open →</span>}
-                      </div>
-                      <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 72%, transparent)', marginTop: 4 }}>{th.blurb}</div>
-                      <div style={{ fontFamily: SANS, fontSize: 11, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 8 }}>{th.battles}</div>
-                    </div>
-                  )
-                  return th.href ? <a key={th.id} href={th.href} style={{ textDecoration: 'none', color: 'inherit' }}>{card}</a> : <div key={th.id} style={{ opacity: 0.66 }}>{card}</div>
-                })}
-              </div>
-            </DossierSection>
+            <TheatresInteractive />
           </div>
         )}
       </div>

@@ -22,6 +22,8 @@
 import { useState } from 'react'
 import { WarChrome, SANS, SERIF, ACCENTS, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
+import { DottedMap } from '@/components/mode/dotted-map'
+import { US_RIVERS } from '@/lib/us-rivers'
 
 const ACCENT = ACCENTS.blue // Western theatre identity color (mockup)
 const MONO = 'var(--font-geist-mono)'
@@ -268,85 +270,45 @@ function CommandersStrip() {
   )
 }
 
-// 8-bit pixel-art map of the theatre on the grid. Each char is one cell:
-// K = Kentucky (gray border state), C = the Confederate heartland being invaded
-// (blue-tint: TN/MS/AL/GA), ~ = river (cyan — the Mississippi running down the
-// west). Schematic, not cartographic — matches the Eastern map's level.
-const WT_GRID = [
-  '..............................',
-  '...KKKKKKKKKKKKKKKKKKKKKK......',
-  '.~.KKKKKKKKKKKKKKKKKKKKKKKK....',
-  '.~.KKKKKKKKKKKKKKKKKKKKKKKK....',
-  '.~.KKKKKKKKKKKKKKKKKKKKKKKKK...',
-  '~..CCCCCCCCCCCCCCCCCCCCCCCCC...',
-  '~..CCCCCCCCCCCCCCCCCCCCCCCCC...',
-  '.~.CCCCCCCCCCCCCCCCCCCCCCCCCC..',
-  '.~.CCCCCCCCCCCCCCCCCCCCCCCCCC..',
-  '~..CCCCCCCCCCCCCCCCCCCCCCCCC...',
-  '~..CCCCCCCCCCCCCCCCCCCCCCCCC...',
-  '.~.CCCCCCCCCCCCCCCCCCCCCCCCCC..',
-  '~..CCCCCCCCCCCCCCCCCCCCCCCCCC..',
-  '~..CCCCCCCCCCCCCCCCCCCCCCCCCC..',
-  '.~.CCCCCCCCCCCCCCCCCCCCCCCCCCC.',
-  '.~..CCCCCCCCCCCCCCCCCCCCCCCCCC.',
-  '~....CCCCCCCCCCCCCCCCCCCCCCCCC.',
-  '~.......CCCCCCCCCCCCCCCCCCCCCC.',
-  '.~........CCCCCCCCCCCCCCCCCCCC.',
-  '..~..........CCCCCCCCCCCCCCCC..',
-  '...~............CCCCCCCCCCC....',
-  '..............................',
-]
-const WT_CELL = 12, WT_COLS = 30, WT_ROWS = 22
-type Mark = { c: number; r: number; label: string; kind: 'site' | 'key'; anchor: 'start' | 'end' }
-const WT_MARKS: Mark[] = [
-  { c: 6, r: 4, label: 'Forts Henry & Donelson', kind: 'site', anchor: 'start' },
-  { c: 6, r: 7, label: 'Shiloh', kind: 'site', anchor: 'start' },
-  { c: 2, r: 12, label: 'Vicksburg', kind: 'key', anchor: 'start' },
-  { c: 12, r: 6, label: 'Nashville', kind: 'site', anchor: 'start' },
-  { c: 18, r: 8, label: 'Chattanooga', kind: 'site', anchor: 'start' },
-  { c: 20, r: 12, label: 'Atlanta', kind: 'key', anchor: 'start' },
-  { c: 27, r: 18, label: 'Savannah', kind: 'site', anchor: 'end' },
-]
-// Sherman's drive to the sea: Atlanta → Savannah (the dashed axis).
-const SHERMAN = { from: WT_MARKS.find(m => m.label === 'Atlanta')!, to: WT_MARKS.find(m => m.label === 'Savannah')! }
-
+// Theatre geography — real dotted state outlines (Tennessee / Mississippi /
+// Georgia in the theatre accent; Kentucky / Alabama + neighbours as context),
+// the river system (Mississippi / Tennessee / Cumberland), the battle dots, and
+// Sherman's march-to-the-sea axis. Rendered by the shared <DottedMap>.
 function WTMap() {
-  const W = WT_COLS * WT_CELL, H = WT_ROWS * WT_CELL
-  const gridline = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
-  const stateLbl = 'color-mix(in srgb, var(--foreground) 34%, transparent)'
-  const dotFill = 'color-mix(in srgb, var(--foreground) 78%, transparent)'
-  const river = alpha('#0ea5e9', 0.55) // cyan — distinct from the blue accent
-  const fillFor = (ch: string) => ch === 'C' ? alpha(ACCENT, 0.24) : ch === 'K' ? 'color-mix(in srgb, var(--foreground) 19%, transparent)' : river
-  const cx = (m: Mark) => m.c * WT_CELL + WT_CELL / 2
-  const cy = (m: Mark) => m.r * WT_CELL + WT_CELL / 2
   return (
-    <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <Eyebrow color={ACCENT}>Geography</Eyebrow>
-      <div style={{ marginTop: 12, borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD }}>
-        <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', height: 'auto', display: 'block', imageRendering: 'pixelated' }}>
-          {WT_GRID.flatMap((row, r) => row.split('').map((ch, c) => ch === '.' ? null : (
-            <rect key={`${r}-${c}`} x={c * WT_CELL} y={r * WT_CELL} width={WT_CELL} height={WT_CELL} fill={fillFor(ch)} />
-          )))}
-          {Array.from({ length: WT_COLS + 1 }, (_, c) => <line key={`v${c}`} x1={c * WT_CELL} y1={0} x2={c * WT_CELL} y2={H} stroke={gridline} strokeWidth={1} />)}
-          {Array.from({ length: WT_ROWS + 1 }, (_, r) => <line key={`h${r}`} x1={0} y1={r * WT_CELL} x2={W} y2={r * WT_CELL} stroke={gridline} strokeWidth={1} />)}
-          <text x={4 * WT_CELL} y={3.2 * WT_CELL} fontFamily={MONO} fontSize={8.5} letterSpacing={1} fill={stateLbl}>KENTUCKY</text>
-          <text x={5 * WT_CELL} y={6.4 * WT_CELL} fontFamily={MONO} fontSize={8.5} letterSpacing={1} fill={stateLbl}>TENNESSEE</text>
-          <text x={20 * WT_CELL} y={16.6 * WT_CELL} fontFamily={MONO} fontSize={8.5} letterSpacing={1} fill={stateLbl}>GEORGIA</text>
-          <text x={0.2 * WT_CELL} y={9.5 * WT_CELL} fontFamily={MONO} fontSize={8} letterSpacing={0.5} fill={alpha('#0ea5e9', 0.85)} transform={`rotate(-90 ${0.6 * WT_CELL} ${9.5 * WT_CELL})`}>MISS. R.</text>
-          {/* Sherman's march to the sea — dashed axis, mirrors the Eastern corridor line */}
-          <line x1={cx(SHERMAN.from)} y1={cy(SHERMAN.from)} x2={cx(SHERMAN.to)} y2={cy(SHERMAN.to)} stroke="color-mix(in srgb, var(--foreground) 38%, transparent)" strokeWidth={1.5} strokeDasharray="3 3" />
-          <text x={(cx(SHERMAN.from) + cx(SHERMAN.to)) / 2 - 2} y={(cy(SHERMAN.from) + cy(SHERMAN.to)) / 2 - 5} fontFamily={MONO} fontSize={8.5} fill={MUTED} textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.4}>to the sea · 300 mi</text>
-          {WT_MARKS.map(m => m.kind === 'key'
-            ? <rect key={m.label} x={m.c * WT_CELL + 1.5} y={m.r * WT_CELL + 1.5} width={WT_CELL - 3} height={WT_CELL - 3} fill={ACCENT} stroke="var(--background)" strokeWidth={1.4} />
-            : <rect key={m.label} x={cx(m) - 3} y={cy(m) - 3} width={6} height={6} fill={dotFill} stroke="var(--background)" strokeWidth={1} />
-          )}
-          {WT_MARKS.map(m => (
-            <text key={m.label} x={m.anchor === 'end' ? cx(m) - 8 : cx(m) + 8} y={cy(m) + 3} fontFamily={MONO} fontSize={9} fill="var(--foreground)" textAnchor={m.anchor} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={2.6}>{m.label}</text>
-          ))}
-        </svg>
-      </div>
-      <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 10.5, color: FAINT }}>The rivers were the roads. Grant took the Mississippi and split the Confederacy at Vicksburg; Sherman drove from Chattanooga through Atlanta to the sea.</div>
-    </div>
+    <DottedMap
+      eyebrow="Geography"
+      accent={ACCENT}
+      frame={{ lonMin: -91.7, lonMax: -80.6, latMin: 30.2, latMax: 37.6 }}
+      states={[
+        { name: 'Arkansas', tone: 'faint' },
+        { name: 'Louisiana', tone: 'faint' },
+        { name: 'North Carolina', tone: 'faint' },
+        { name: 'South Carolina', tone: 'faint' },
+        { name: 'Kentucky', tone: 'gray', label: 'KENTUCKY', labelLon: -85.6, labelLat: 37.35 },
+        { name: 'Alabama', tone: 'gray', label: 'ALA.', labelLon: -86.7, labelLat: 32.4 },
+        { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -85.9, labelLat: 35.85 },
+        { name: 'Mississippi', tone: 'focus', label: 'MISS.', labelLon: -89.6, labelLat: 33.2 },
+        { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -83.4, labelLat: 32.7 },
+      ]}
+      rivers={[
+        ...US_RIVERS.Mississippi.map((pts, i) => i === 0 ? { pts, label: 'Mississippi R.', labelLon: -90.7, labelLat: 31.4, labelAnchor: 'start' as const } : { pts }),
+        ...US_RIVERS.Tennessee.map((pts, i) => i === 0 ? { pts, label: 'Tennessee R.', labelLon: -88.25, labelLat: 36.35, labelAnchor: 'start' as const } : { pts }),
+      ]}
+      corridor={{ fromLon: -84.39, fromLat: 33.75, toLon: -81.09, toLat: 32.08, label: 'to the sea · 300 mi', labelLon: -83.4, labelLat: 33.15 }}
+      dots={[
+        { name: 'Forts Henry & Donelson', lat: 36.5, lon: -87.9, anchor: 'end' },
+        { name: 'Shiloh', lat: 35.14, lon: -88.34, anchor: 'end' },
+        { name: 'Nashville', lat: 36.16, lon: -86.78 },
+        { name: 'Stones River', lat: 35.85, lon: -86.39, dy: 15 },
+        { name: 'Chattanooga', lat: 35.04, lon: -85.31, anchor: 'end' },
+        { name: 'Chickamauga', lat: 34.94, lon: -85.29, dy: 15 },
+        { name: 'Vicksburg', lat: 32.35, lon: -90.88, heavy: true },
+        { name: 'Atlanta', lat: 33.75, lon: -84.39, heavy: true },
+        { name: 'Savannah', lat: 32.08, lon: -81.09, anchor: 'end' },
+      ]}
+      caption="The rivers were the roads. Grant took the Mississippi and split the Confederacy at Vicksburg; Sherman drove from Chattanooga through Atlanta to the sea."
+    />
   )
 }
 
