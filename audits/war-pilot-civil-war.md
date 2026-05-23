@@ -128,62 +128,74 @@ A war narrative is DONE only after all of:
    category set. Do NOT edit shared gate scripts during the main-session sweep;
    make them kind-aware afterward.
 
-## Status & handoff (updated 2026-05-22, session 2)
+## Status & handoff (updated 2026-05-22, session 3 — COLD START READ THIS)
 Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
-`feat/phase-2`, all committed + pushed). Dev: `npx next dev -p 3007` (was running
-all session). Canonical design = `mockups/war-prompt.zip` →
-`design_handoff_war_drilldown/` (README spec + source jsx; extract with `unzip -o
-mockups/war-prompt.zip -d /tmp/wardh`; `war-detail-deeper.jsx` holds
-EasternTheatrePage + ET data). Mockup viewer (local only, NOT committed): copy
-`mockups/Historica - War Drilldown.bundled.html` → `public/` → open
-`/mockup-war-drilldown.html`.
+`feat/phase-2`, all committed + pushed). Dev: `npx next dev -p 3007`.
 
-**BUILT & live on :3007** — Slice 0; War front door; shared chrome
-(`war-chrome.tsx`, now with a **dropdown-capable breadcrumb** — a `Crumb` with
-`options[]` renders `CrumbDropdown`) + cord card. **Battle dossier (Gettysburg)
-FULL**. **5 section narratives FULL** (`…/gettysburg/s/[section]`) — progress bar
-REMOVED this session. **Eastern Theatre page (`eastern/page.tsx`) FULLY REBUILT
-this session** (was rough oxblood): GenericHero (period Kurz & Allison Antietam
-print, zoomed past the mat) · collapsible **At-a-glance** with battle-page
-Hide/Show control, containing stat strip + armies face-off w/ commander trail +
-casualties bar + **commanders strip (folded in, under casualties)** · **8-bit
-pixel-art geography map** (PA/MD gray, VA violet, capitals = blue/rust pixels,
-Washington–Richmond 110 mi axis) · interleaved-campaigns timeline (4 theatres,
-Eastern in colour, Gettysburg taps through) · **theatre-switcher dropdown** in
-the breadcrumb (Eastern live; Western/Trans-Miss/Naval = "soon"). Hero eyebrow
-recolored violet→`#c4b5fd` (was unreadable) on BOTH pages; both heroes zoom
-`scale(1.22)` past the print matting. Images self-hosted in `public/war-img/`.
+**BUILT & live on :3007 (sessions 1–3):**
+- **War front door** (`war-civil-war/page.tsx`) — REBUILT this session: image
+  hero (Fort Wagner, `civil-war-hero.jpg`); collapsible **At-a-glance** matching
+  the theatre style (full-bleed, violet); **TheatresInteractive** — a DottedMap
+  US map + segmented control + active theatre panel; sticky Timeline/Dossier
+  views (`useWarView`). NODES carry `img` + Antietam href.
+- **Theatre pages** — `eastern/page.tsx` AND `western/page.tsx` both built, using
+  **DottedMap** (real state outlines, NOT the old pixel-art — that was rejected).
+  Collapsible At-a-glance, dotted strategic map, interleaved-campaign timeline,
+  theatre-switcher dropdown in the breadcrumb.
+- **Breadcrumbs on narrative pages** — `War > American Civil War > Theatre >
+  Battle` (narratives dropped from the crumb; war title can shorten, e.g. ACW).
+  The **theatre pill is a "you are here"** indicator: gray on battle pages, accent
+  on the theatre page. `CrumbDropdown` menu is `position:fixed` (the nav's
+  `overflow-x:auto` clipped an absolute menu).
+- **Two FULL battles:** **Gettysburg** (dossier + 5 sections) and **Antietam**
+  (dossier + 4 sections: lost-order, cornfield, bridge, bloodiest) — Antietam was
+  the **first battle built through the formal pipeline** this session.
+- **Shared reader component** `src/components/mode/battle-reader.tsx`
+  (`BattleSectionReader`) — each battle is now a thin data file (`GB_NARR`,
+  `ANTIETAM_NARR`). Dossiers carry: full-bleed PD hero (`scale(1.16)` to crop
+  mats), At-a-glance, **commander headshots** (`public/war-img/cmdr/<slug>.jpg`,
+  blue/rust rings), integrated **Outcome card** (verdict + 2–4 sentences), section
+  list (each a distinct image). Battle cards on theatre + home timeline carry the
+  battle's hero `img`. All photos full-frame (`objectFit:cover` + `scale(1.16)`).
 
-**War-map tooling built this session:** `scripts/generate-war-maps.mjs`
-(standalone; does NOT touch the civ `generate-maps.mjs`) reads
-`map-prompts/war/<war>.md` (`## Map <slug>` sections) and writes
-`public/war-img/<slug>.png`. Run: `node --env-file=/Users/mberning/projects/
-personal/timeline-v2/.env.local scripts/generate-war-maps.mjs gettysburg --map
-day2 --ar 4:3 [--force]`. The 7 Gettysburg narrative maps were regenerated as
-clean flat schematics matched to the prose (overview + per-moment: LRT,
-wheatfield, culps). Color words (BLUE/RUST) are ink instructions, never labels
-(hardened in the prompt after day1 printed "RUST"). Devil's Den caption fixed
-(it's a wartime sketch, not a post-war photo).
+**Maps — current state + the OPEN DECISION (the thing to resolve first):**
+- We **generate** flat tan schematic battle maps via `scripts/generate-war-maps.mjs`
+  (Gemini, `map-prompts/war/<war>.md` → `public/war-img/<slug>.png`). Antietam has
+  4: campaign, cornfield, sunken-road, bridge. Run: `node --env-file=/Users/
+  mberning/projects/personal/timeline-v2/.env.local scripts/generate-war-maps.mjs
+  antietam --map <slug> --ar 4:3 --force`.
+- **A map-review GATE was added to the pipeline** (`war-content-pipeline.md` step
+  6b): review every map for TACTICAL/GEOGRAPHIC correctness (defensive line faces
+  the attack; arrows match the action; positions/orientation right), not just
+  label hygiene. Lesson baked in: the Cornfield's Confederate line was first drawn
+  N–S on the west — it should be E–W facing Hooker's southward attack. Now fixed +
+  richer (was "awfully plain").
+- **OPEN: generate-our-own vs. use freely-available real per-day maps.** User
+  asked (end of session 3) whether simpler free maps exist for individual battle
+  days. **They do, and they're good:** **Hal Jespersen's maps (cwmaps.com)** —
+  **CC-BY 3.0**, all over Wikipedia/Commons, clean modern per-phase maps (Antietam
+  dawn/morning/midday/afternoon = Cornfield/East Woods/Sunken Road/Burnside's
+  Bridge; Gettysburg day 1/2/3 + overview). Also **NPS maps (public domain)** and
+  the **West Point atlas (PD)**. (American Battlefield Trust maps are excellent but
+  COPYRIGHTED — not free.) Trade-off: Jespersen maps are accurate, free, and far
+  richer than our schematics (directly answers "awfully plain"), BUT a different
+  visual style (white-ground modern cartography) that won't match our flat-tan
+  house look. **Decision for next session:** keep generating schematics, OR adopt
+  Jespersen (CC-BY, credit under image) per-day maps and drop the generated ones,
+  OR hybrid (Jespersen as the tactical ground-truth reference for our schematics).
+  This wasn't decided — surface it first.
 
 **PENDING (next session):**
-1. **War dossier rebuild** (`src/app/war-civil-war/page.tsx`) — still rough; port
-   the interactive Theatres block (US map + commanders + segmented control) + hero
-   + At-a-glance, from `TheatresInteractive`/`WarDossierTheatresV2` in
-   war-detail-deeper.jsx. Reuse the new `CrumbDropdown` if useful.
-2. **Accuracy fact-check the narratives + theatre data** (storytelling-first's
-   zero-hallucination floor) — known: Vicksburg distance inconsistent
-   (600/800/1000 mi → ~900); Greene "cadet at West Point with Lee" (likely no
-   class overlap); ET casualty splits (145k/95k/8k civilian) are MOCKUP ESTIMATES
-   (labeled "(est.)"); ET "Battles: 8" stat vs 10 Eastern events on the timeline —
-   count mismatch to reconcile.
-3. **`map-prompts/war/eastern-theatre.md`** (corridor schematic) was written but
-   the generated image is UNUSED — the 8-bit CSS/SVG map replaced it (user
-   preferred the pixel grid). Gemini's image API was throwing transient "fetch
-   failed" late this session (5×); retry war-map generation next time if needed.
-4. Other theatre pages (Western/Trans-Miss/Naval) are data-only, marked "soon" in
-   the dropdown — build later if wanted (user chose "dropdown now, others soon").
-5. Real reader-engine integration + glossary links; then scale battles
-   (Decisive 45 → Major → Mid).
+1. **Resolve the map decision above** (generate vs. Jespersen CC-BY vs. hybrid).
+2. **Retrofit Gettysburg's narrative through the pipeline** — it's over-tactical /
+   human-light (the v0 lesson) AND has a known factual error: Greene "West Point
+   classmate of Lee" is false (no class overlap). Run author→fact-check→critic.
+3. **Scale the Major battles** (~46 in the "just majors" cut — see
+   `war-engagements-roster.md`) through the proven pipeline, + the ~15 locked
+   non-battle/theme sections (Emancipation, etc.).
+4. Real reader-engine integration + glossary links; kind-aware gate refactor
+   after the main-session corpus sweep settles.
 
 Scope (locked 2026-05-21): American Civil War; ~10 chapters; battle layer A+B+C
-~280, variable-depth; 8 categories signed off; storytelling-first.
+~280, variable-depth; 8 categories signed off; storytelling-first. Pipeline spec:
+`audits/war-content-pipeline.md`. Roster: `audits/war-engagements-roster.md`.
