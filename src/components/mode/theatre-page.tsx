@@ -14,7 +14,7 @@
 import { useState } from 'react'
 import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
-import { theatreEv, theatreSpine, majorCount, majorsOf, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
+import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 
 const MONO = 'var(--font-geist-mono)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
@@ -69,13 +69,12 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
   const activeTheatre = theatre ? THEATRE_NAV.find(t => t.id === theatre) : undefined
 
-  const jump: CrumbOption[] = []
-  ;(['east', 'west', 'tmis', 'naval'] as Theatre[]).forEach(tid => {
-    jump.push({ label: THEATRE_NAV.find(t => t.id === tid)!.label, heading: true, color: THEATRE_DOT[tid] })
-    majorsOf(tid).forEach(b => jump.push({ label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[tid] }))
-  })
-  jump.push({ label: 'Off the Battlefield', heading: true, color: THEATRE_DOT.offfield })
-  THEMES.forEach(t => jump.push({ label: t.name, disabled: true, color: THEATRE_DOT.offfield }))
+  // All 46 majors + 14 themes in one chronological list; the dot keeps the
+  // theatre colour code (built battles link, the rest are "soon").
+  const jump: CrumbOption[] = [
+    ...MAJORS.map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre] })),
+    ...THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, disabled: true, color: THEATRE_DOT.offfield })),
+  ].sort((a, b) => a._k - b._k).map(({ _k, ...o }) => o)
 
   const activeMajor = battleId ? MAJORS.find(b => b.id === battleId) : undefined
   const activeTheme = battleId && !activeMajor ? THEMES.find(t => t.id === battleId) : undefined
