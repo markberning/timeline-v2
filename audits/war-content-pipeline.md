@@ -8,6 +8,13 @@ Antietam (2026-05-22)** — author → fact-check + storytelling critic → revi
 may never cross.** Every section clears **two non-negotiable gates**: a
 storytelling critic and a fact-checker. It ships only when both pass.
 
+**No length limit (locked 2026-05-22, user direction).** A section is as long as
+the story needs — there is NO word cap, no target length, no "trim to fit." The
+only mandates are: tell a genuinely good story (priority #1) and be factually
+accurate with zero hallucinations or guesses (the hard floor). Do not pad to hit
+a length, and do not cut a strong, well-sourced passage to be shorter. Length is
+an output of good storytelling, never a constraint on it.
+
 Failure mode to design against (the Gettysburg v0 lesson): tactical play-by-play
 ("this brigade took that ridge at that hour"), human cost thin. Lead with stakes
 and people; make the cost *felt*.
