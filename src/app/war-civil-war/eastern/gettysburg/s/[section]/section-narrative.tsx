@@ -154,5 +154,5 @@ const GB_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={GB_NARR} id={id} slug="gettysburg" battleName="Gettysburg" />
+  return <BattleSectionReader sections={GB_NARR} id={id} slug="gettysburg" battleName="Gettysburg" theatreId="east" battleId="e-gettysburg" />
 }

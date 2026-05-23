@@ -7,6 +7,8 @@
 
 import { useState } from 'react'
 import { WarBreadcrumb, alpha } from '@/components/mode/war-chrome'
+import { civilWarCrumbs } from '@/components/mode/theatre-page'
+import type { Theatre } from '@/lib/civil-war-roster'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -23,20 +25,13 @@ export interface Narr {
   meanwhile?: { region: string; title: string; body: string }
 }
 
-const THEATRE_OPTIONS = [
-  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
-  { label: 'Western Theatre', href: '/war-civil-war/western' },
-  { label: 'Trans-Mississippi', disabled: true },
-  { label: 'Naval & Coastal', disabled: true },
-]
-
 const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineHeight: 1.62, letterSpacing: '-0.01em', margin: 0, color: 'var(--foreground)' }
 
 export function BattleSectionReader({
-  sections, id, slug, battleName, theatreName = 'Eastern Theatre', theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
+  sections, id, slug, battleName, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
 }: {
   sections: Record<string, Narr>; id: string; slug: string; battleName: string
-  theatreName?: string; theatreHref?: string; accent?: string
+  theatreId?: Theatre | 'offfield'; battleId?: string; theatreHref?: string; accent?: string
 }) {
   const ids = Object.keys(sections)
   const n = sections[id] ?? sections[ids[0]]
@@ -49,15 +44,7 @@ export function BattleSectionReader({
 
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb
-        accent={accent}
-        crumbs={[
-          { label: 'War', href: '/' },
-          { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
-          { label: theatreName, href: theatreHref, options: THEATRE_OPTIONS },
-          { label: battleName, href: battleHref },
-        ]}
-      />
+      <WarBreadcrumb accent={accent} crumbs={civilWarCrumbs({ theatre: theatreId, battleId })} />
       <div style={{ position: 'sticky', top: 36, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px' }}>
           <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>

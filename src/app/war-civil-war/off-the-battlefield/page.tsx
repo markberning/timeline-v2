@@ -11,7 +11,7 @@
 
 import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
-import { theatreCrumbs } from '@/components/mode/theatre-page'
+import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { THEMES, type Theme } from '@/lib/civil-war-roster'
 
 const ACCENT = ACCENTS.green
@@ -76,7 +76,7 @@ export default function OffTheBattlefieldPage() {
   const spine = [...THEMES].sort((a, b) => (a.year !== b.year ? a.year - b.year : a.m - b.m))
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={theatreCrumbs('offfield')} view={view} onView={setView} accent={ACCENT} />
+      <WarChrome crumbs={civilWarCrumbs({ theatre: 'offfield' })} view={view} onView={setView} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
         <Header />
         {view === 'dossier' ? (

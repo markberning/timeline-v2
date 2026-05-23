@@ -12,9 +12,9 @@
 // audits/war-pilot-civil-war.md.
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb } from './war-chrome'
+import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
-import { theatreEv, theatreSpine, majorCount, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
+import { theatreEv, theatreSpine, majorCount, majorsOf, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 
 const MONO = 'var(--font-geist-mono)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
@@ -53,15 +53,39 @@ export interface TheatreData {
   timelineIntro: string
 }
 
-// War > ACW > [active theatre dropdown]. Options come from the shared THEATRE_NAV
-// (ready → href; not-ready → disabled "soon").
-export function theatreCrumbs(activeId: Theatre | 'offfield'): Crumb[] {
-  const options = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready }))
-  const active = THEATRE_NAV.find(t => t.id === activeId)!
+// Theatre-coded dot colours for the breadcrumb dropdowns.
+const THEATRE_DOT: Record<string, string> = {
+  east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green,
+}
+
+// The unified ACW breadcrumb: War › ACW › Theatre › Battle/Event, on EVERY ACW
+// page. Theatre and Battle/Event are both interactive dropdowns everywhere —
+// Theatre switches theatre (color-coded), Battle/Event jumps to any of the 46
+// Major battles + 14 themes (grouped + color-coded by theatre; built ones link,
+// the rest are "soon"). Pass the active `theatre` and/or `battleId`; omit both on
+// the home page (the two crumbs become generic "Theatre" / "Battle / Event"
+// pickers). The leaf crumb (the current page) gets accent emphasis.
+export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield'; battleId?: string } = {}): Crumb[] {
+  const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
+  const activeTheatre = theatre ? THEATRE_NAV.find(t => t.id === theatre) : undefined
+
+  const jump: CrumbOption[] = []
+  ;(['east', 'west', 'tmis', 'naval'] as Theatre[]).forEach(tid => {
+    jump.push({ label: THEATRE_NAV.find(t => t.id === tid)!.label, heading: true, color: THEATRE_DOT[tid] })
+    majorsOf(tid).forEach(b => jump.push({ label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[tid] }))
+  })
+  jump.push({ label: 'Off the Battlefield', heading: true, color: THEATRE_DOT.offfield })
+  THEMES.forEach(t => jump.push({ label: t.name, disabled: true, color: THEATRE_DOT.offfield }))
+
+  const activeMajor = battleId ? MAJORS.find(b => b.id === battleId) : undefined
+  const activeTheme = battleId && !activeMajor ? THEMES.find(t => t.id === battleId) : undefined
+  const battleLabel = activeMajor?.name ?? activeTheme?.name ?? 'Battle / Event'
+
   return [
     { label: 'War', href: '/' },
     { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
-    { label: active.label, options },
+    { label: activeTheatre?.label ?? 'Theatre', options: theatreOptions, active: !!theatre && !battleId },
+    { label: battleLabel, options: jump, active: !!battleId },
   ]
 }
 
@@ -257,7 +281,7 @@ export function TheatrePage({ data, map }: { data: TheatreData; map: React.React
   const spine = theatreSpine(data.id)
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={theatreCrumbs(data.id)} view={view} onView={setView} accent={data.accent} />
+      <WarChrome crumbs={civilWarCrumbs({ theatre: data.id })} view={view} onView={setView} accent={data.accent} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
         <GenericHero d={data} />
         {view === 'dossier' ? (

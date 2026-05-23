@@ -10,21 +10,9 @@
 import { useState } from 'react'
 import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
-// Theatre switcher (same dropdown the theatre pages use). Gettysburg sits in
-// the Eastern theatre, so that's the checked entry.
-const THEATRE_OPTIONS = [
-  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
-  { label: 'Western Theatre', href: '/war-civil-war/western' },
-  { label: 'Trans-Mississippi', disabled: true },
-  { label: 'Naval & Coastal', disabled: true },
-]
-const CRUMBS = [
-  { label: 'War', href: '/' },
-  { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
-  { label: 'Eastern Theatre', href: '/war-civil-war/eastern', options: THEATRE_OPTIONS },
-  { label: 'Gettysburg' },
-]
+const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-gettysburg' })
 
 const HERO_IMG = '/war-img/gettysburg-hero.jpg' // Thure de Thulstrup, 1887 (PD); self-hosted to avoid Commons hotlink rate-limiting
 const HERO_PAL = ['#3a2a1c', '#7a1422', '#100506']

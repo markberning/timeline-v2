@@ -90,5 +90,5 @@ const ANTIETAM_NARR: Record<string, Narr> = {
 }
 
 export function SectionNarrative({ id }: { id: string }) {
-  return <BattleSectionReader sections={ANTIETAM_NARR} id={id} slug="antietam" battleName="Antietam" />
+  return <BattleSectionReader sections={ANTIETAM_NARR} id={id} slug="antietam" battleName="Antietam" theatreId="east" battleId="e-antietam" />
 }

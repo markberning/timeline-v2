@@ -10,6 +10,7 @@ import { BattleCard } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
 import { SPINE_NODES, majorsOf, majorCount, THEMES } from '@/lib/civil-war-roster'
+import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const TYPE_COLOR: Record<string, string> = { CAUSE: '#8a6d3b', BATTLE: '#b91c1c', POLITICS: '#1d4ed8', SOCIETY: '#b45309', AFTERMATH: '#7c3aed' }
 
@@ -282,7 +283,7 @@ export default function CivilWarPage() {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={[{ label: 'War', href: '/' }, { label: 'American Civil War' }]} view={view} onView={setView} />
+      <WarChrome crumbs={civilWarCrumbs()} view={view} onView={setView} />
       <div style={{ maxWidth: 680, margin: '0 auto' }}>
         {/* hero — the 54th Massachusetts at Fort Wagner (Kurz & Allison) */}
         <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: '#0e0c08' }}>
