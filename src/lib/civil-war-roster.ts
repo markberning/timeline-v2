@@ -100,6 +100,19 @@ export const THEMES: Theme[] = [
 
 export const THEATRE_LABEL: Record<Theatre, string> = { east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval' }
 
+// Theatre navigation — the single source for the breadcrumb theatre-switch
+// dropdown and the home "open theatre" links. `ready` flips to true when the
+// page exists; an un-ready entry renders as a disabled "soon" row. The fifth
+// lane (Off the Battlefield) is the thematic, non-geographic sections.
+export interface TheatreNav { id: Theatre | 'offfield'; label: string; href: string; ready: boolean }
+export const THEATRE_NAV: TheatreNav[] = [
+  { id: 'east', label: 'Eastern Theatre', href: '/war-civil-war/eastern', ready: true },
+  { id: 'west', label: 'Western Theatre', href: '/war-civil-war/western', ready: true },
+  { id: 'tmis', label: 'Trans-Mississippi', href: '/war-civil-war/trans-mississippi', ready: false },
+  { id: 'naval', label: 'Naval & Coastal', href: '/war-civil-war/naval', ready: false },
+  { id: 'offfield', label: 'Off the Battlefield', href: '/war-civil-war/off-the-battlefield', ready: false },
+]
+
 export const majorsOf = (t: Theatre): Major[] => MAJORS.filter(b => b.theatre === t)
 export const majorCount = (t: Theatre): number => majorsOf(t).length
 
