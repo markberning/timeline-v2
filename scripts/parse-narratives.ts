@@ -798,7 +798,7 @@ async function main() {
       label: refData.label,
       chapters: new Map(rawChapters.map(c => [c.number, c.title])),
       colorLight: accent.text,
-      colorDark: accent.base,
+      colorDark: accent.baseDark ?? accent.base,
     })
   }
 
