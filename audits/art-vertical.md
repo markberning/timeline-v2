@@ -32,11 +32,11 @@ structure and signature visuals layered on.
 
 ## 2. Navigation — reuse War's top breadcrumb bar
 
-**Decision:** Art uses the same chrome as War — `WarBreadcrumb` + the Timeline/Dossier
-toggle bar in `src/components/mode/war-chrome.tsx`. It's already mode-agnostic (`Crumb` /
-`CrumbOption` model), so this is reuse, not a rewrite. Generalize the naming
-(`WarBreadcrumb` → a shared `DrilldownBreadcrumb`, or wrap it) so Art and War share one
-component.
+**Decision:** Art reuses War's breadcrumb chrome — `WarBreadcrumb` in
+`src/components/mode/war-chrome.tsx` (mode-agnostic `Crumb`/`CrumbOption`), so reuse, not a
+rewrite. `ArtChrome` wraps it and is **breadcrumb-only** (the Timeline/Dossier toggle bar
+was removed — see "No view toggle" below). Generalize the naming (`WarBreadcrumb` → a shared
+`DrilldownBreadcrumb`) so Art and War share one component.
 
 **The Art breadcrumb trail** (each crumb a dropdown level-switcher where it makes sense):
 
@@ -50,17 +50,29 @@ Art ▸ Modern ▸ Cubism ▸ Demoiselles ▸ Painting it
 - `Demoiselles` → work jump-list within the movement.
 - leaf → current chapter; lit in **violet** (Art's accent).
 
-**The toggle bar** (same component, label varies by level — it's the unifying device):
+**No view toggle (locked 2026-05-23).** The original Timeline/Dossier toggle was removed —
+it showed the same spine (the list) twice, differing only by whether the detail blocks
+were present. `ArtChrome` is now **just the breadcrumb** (no toggle bar). Every drilldown
+page is a SINGLE view:
 
-| Level     | Toggle            | Left view = | Right view = |
-|-----------|-------------------|-------------|--------------|
-| Era       | `Timeline ∣ Dossier` | cord/node of movements | facts + anchor painters + map |
-| Movement  | `Timeline ∣ Dossier` | cord/node of works | facts + factions + Influence Ribbon |
-| Work      | `Story ∣ Dossier`    | the 5 section chapters | facts + canvas viewer + provenance |
-| Artist    | `Lifeline ∣ Dossier` | cord/node of periods | facts + Lifeline + key works |
+```
+hero  →  (lead paragraph)  →  the ONE signature visual (always visible)
+      →  a CLOSED "The details" accordion (secondary blocks)  →  the list
+```
 
-The **Climb tree** (§3) is an explore lens reachable from the lineage strip / a dedicated
-affordance; the breadcrumb stays the spine and still reflects position.
+| Level    | Signature visual (visible) | "The details" accordion (CLOSED) | The list |
+|----------|----------------------------|----------------------------------|----------|
+| Era      | the "where it happened" map | stats + tensions + painters strip | movements cord |
+| Movement | the Influence Ribbon       | stats + factions + artists + parallels | works cord |
+| Work     | the Canvas Viewer          | stats + figures + provenance | the 5 chapters |
+| Artist   | the Lifeline               | stats + key works | periods list |
+
+- **Accordion control MUST match War's "At a glance" control** (`theatre-page.tsx`): an
+  accent eyebrow + a "Show/Hide" word + an accent-tinted round ▾ chevron that rotates on
+  open. Use the shared `ArtAccordion` (closed by default) + `StatsRow` — never a bespoke
+  toggle.
+- The **Climb tree** (§3) is a separate explore lens off the front door; the breadcrumb is
+  the spine and reflects position.
 
 ---
 
@@ -116,9 +128,9 @@ influence graph; render it both as the Climb tree and as the LineageStrip.
 `Era → Movement → Work → Section chapters`, plus **Artist** as a parallel level reachable
 from a movement (artists strip) or a work (figures strip). **Museum is deferred** (see §6).
 
-Every spine page shares the layout: breadcrumb + toggle bar (§2), a hero photo, a
-collapsible **"At a glance"** block (stats + a tensions/factions face-off), a
-level-specific **signature visual**, and a structured body.
+Every spine page shares the single-view layout (§2): breadcrumb (no toggle), a hero photo
+(credit UNDERNEATH — §5b), the level's **signature visual** always visible, a CLOSED
+**"The details"** accordion (stats + face-off + the secondary strips), then the list.
 
 ### Signature visual per level (the content-embodying graphic, like War's theatre map)
 
@@ -206,6 +218,15 @@ frame and crop it.
   Applies across war/art/music card components, not per-spot. See memory
   `feedback_image_text_breathing_room`.
 
+- **Credits go UNDER the image (museum-label), with the current location.** Every art
+  image's credit sits *beneath* the image (never a chip floating on it) and names where the
+  work lives now — model: `Van Gogh, The Starry Night, 1889 · MoMA`. Heroes included (the
+  hero credit renders under the banner). Inline figures + the Canvas Viewer already caption
+  underneath with the museum.
+- **Hero eyebrow stays white** (`rgba(255,255,255,0.9)` + shadow), NOT the accent — accent
+  (violet) text was unreadable over dark paintings like Starry Night. Accent identity lives
+  in the breadcrumb/accordion, not in text laid over imagery.
+
 Data hooks: `heroFit` / `heroFocus` / `heroImages` on every entity drive the hero;
 inline figures already render at natural height.
 
@@ -278,7 +299,7 @@ Constants in the mockup's `art-data.jsx` are the schema. Per entity (add `region
 
 ## 10. Build sequencing (proposed)
 
-1. Generalize War's chrome into a shared drilldown breadcrumb + toggle (§2).
+1. Generalize War's breadcrumb chrome into a shared drilldown breadcrumb (§2; no toggle).
 2. Build the front door: Era Hub + Climb tree (§3), wired to the breadcrumb.
 3. Build the spine pages Era / Movement / Work / Artist with their signature visuals (§4),
    data-driven from §7.
