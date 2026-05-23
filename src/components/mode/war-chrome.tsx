@@ -54,11 +54,12 @@ export interface CrumbOption {
 }
 export interface Crumb {
   label: string
-  short?: string // compact label used in the trail when this crumb is an ancestor (e.g. "ACW")
+  short?: string // compact label used in the trail when this crumb is an ancestor (e.g. "Eastern" not "Eastern Theatre")
   href?: string
   options?: CrumbOption[] // when present, the crumb is an interactive dropdown (theatre switch / battle jump)
   active?: boolean // dropdown crumb that is the current page's leaf — gets accent emphasis (else gray)
   currentLabel?: string // option label to check (✓) when the button shows a SHORT label (e.g. button "ACW", current option "American Civil War")
+  color?: string // fixed pill colour overriding the page accent (e.g. the ACW war crumb's oxblood signature)
 }
 
 // Just the breadcrumb bar (sticky, top:0) — shared by WarChrome and by the
@@ -163,6 +164,11 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   const btnRef = useRef<HTMLButtonElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
   const border = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
+  // Ancestor crumbs show their compact `short` label (the trail stays narrow);
+  // the leaf (emphasized) keeps the full label. `pill` = a fixed crumb colour
+  // (the ACW war crumb's oxblood) that overrides the page accent in all states.
+  const label = !emphasized && crumb.short ? crumb.short : crumb.label
+  const pill = crumb.color
   // The breadcrumb <nav> scrolls horizontally (overflow-x: auto), which clips an
   // absolutely-positioned menu hanging below it. Anchor the menu with
   // position: fixed off the button's viewport rect so it escapes the clip; clamp
@@ -190,12 +196,13 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
     <span style={{ position: 'relative', flexShrink: 0 }}>
       <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
         display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px',
-        fontFamily: SANS, fontSize: 11, fontWeight: 600, color: emphasized ? 'var(--foreground)' : muted,
-        background: emphasized ? alpha(accent, open ? 0.22 : 0.14) : (open ? 'color-mix(in srgb, var(--foreground) 12%, transparent)' : chip),
-        borderRadius: 999, border: `1px solid ${emphasized ? alpha(accent, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)'}`, cursor: 'pointer',
+        fontFamily: SANS, fontSize: 11, fontWeight: pill || emphasized ? 700 : 600,
+        color: pill ?? (emphasized ? 'var(--foreground)' : muted),
+        background: pill ? alpha(pill, open ? 0.22 : 0.13) : (emphasized ? alpha(accent, open ? 0.22 : 0.14) : (open ? 'color-mix(in srgb, var(--foreground) 12%, transparent)' : chip)),
+        borderRadius: 999, border: `1px solid ${pill ? alpha(pill, 0.5) : (emphasized ? alpha(accent, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)')}`, cursor: 'pointer',
         maxWidth: maxLabel, minWidth: 0,
       }}>
-        <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{crumb.label}</span>
+        <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
           <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>

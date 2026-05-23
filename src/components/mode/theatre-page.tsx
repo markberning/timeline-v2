@@ -12,7 +12,7 @@
 // audits/war-pilot-civil-war.md.
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
+import { WarChrome, SANS, SERIF, ACCENTS, WAR_OXBLOOD, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
@@ -60,6 +60,12 @@ const THEATRE_DOT: Record<string, string> = {
   east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green,
 }
 
+// Compact ancestor labels for the breadcrumb trail (keep it narrow on a phone);
+// the lane keeps its full evocative name on its own landing page.
+const THEATRE_TRAIL_SHORT: Record<string, string> = {
+  east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off-Field',
+}
+
 // Mode (vertical) + war switch data for the top two breadcrumb dropdowns.
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
 const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war-civil-war', art: undefined, music: undefined }
@@ -97,8 +103,8 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
 
   return [
     { label: 'War', options: modeOptions, currentLabel: 'War' },
-    { label: 'ACW', options: warOptions, currentLabel: 'American Civil War', active: !theatre && !battleId },
-    { label: activeTheatre?.label ?? 'Theatre', options: theatreOptions, active: !!theatre && !battleId },
+    { label: 'ACW', short: 'ACW', color: WAR_OXBLOOD, options: warOptions, currentLabel: 'American Civil War', active: !theatre && !battleId },
+    { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]
 }
