@@ -66,6 +66,26 @@ and people; make the cost *felt*.
    it meant" movement — who won tactically vs. strategically, the cost, and what
    it changed/led to. (A bare one-line outcome undersells the battle.)
 
+## Integration checklist — what a built battle needs (proven on Antietam)
+
+The reader + dossier are shared components — a new battle is mostly a data file.
+
+**Per-section reader** (`<theatre>/<slug>/s/[section]`, data → `<BattleSectionReader>`):
+- Section data in the shared shape; **a section's `eyebrow` must NOT repeat its `title`** (the kicker is a distinct phase label, e.g. "Lee invades the North", not "The Lost Order").
+- The prose blocks; a **tactical map** AND **period photo(s) where they exist** (PD), credit UNDER each; the Meanwhile card; the next-section link.
+
+**Battle dossier** (`<theatre>/<slug>/page.tsx`):
+- **Hero** — a near-full-bleed PD battle print. **Reject matted/bordered scans** (a print floating in a wide cream mat never fills the frame no matter the scale) — pick a clean full-bleed print (Thulstrup/Prang or Kurz & Allison). Hero/card images use `transform: scale(~1.16)` to crop hairline mats.
+- **At-a-glance** (stat strip + Union-vs-Confederate face-off + casualties bar).
+- **Commanders strip with REAL headshots** — PD portraits from Wikipedia pageimages (the article infobox image) → `public/war-img/cmdr/<slug>.jpg`, blue/rust side rings, gradient fallback.
+- **Outcome card** — verdict + 2–4 sentence explanation (see step 7).
+- **Section list** — each section a **distinct** image; never reuse the hero as a section card.
+- Timeline + Dossier views; sticky via `useWarView`.
+
+**Wiring & images:**
+- Link the battle from the **theatre spine** AND the **ACW home timeline**, and give those battle cards the battle's hero `img` (only built battles get images; others keep the gradient placeholder).
+- Self-host PD images only (Commons hotlinking 429-blocks). **Verify every image matches its caption before trusting it** (stereoview cards, wrong-subject scans, and matted prints all slip through search).
+
 ## Hard-won notes
 - **Agents run in the MAIN worktree** (`timeline-v2`), not the phase-2 worktree.
   Either point them at the phase-2 tree or move their output over (and they can't
