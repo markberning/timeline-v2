@@ -200,6 +200,12 @@ frame and crop it.
 - **When sourcing (step in §"image sourcing"), record each file's orientation**
   (w vs h) so the right composition is chosen up front, not patched later.
 
+- **Breathing room (mode-wide rule).** Text next to an image in a card/row must
+  have a clear gap — never butted against the photo edge. Card text padding is
+  ~15–18px horizontal (`isXL ? '12px 18px 14px' : isLG ? '14px 18px' : '11px 15px'`).
+  Applies across war/art/music card components, not per-spot. See memory
+  `feedback_image_text_breathing_room`.
+
 Data hooks: `heroFit` / `heroFocus` / `heroImages` on every entity drive the hero;
 inline figures already render at natural height.
 

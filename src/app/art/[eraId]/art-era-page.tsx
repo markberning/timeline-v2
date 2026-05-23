@@ -146,7 +146,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
       </div>
       <div style={{
         flex: 1, minWidth: 0,
-        padding: isXL ? '10px 14px 12px' : (isLG ? '10px 12px' : '8px 11px'),
+        padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'),
         display: 'flex', flexDirection: 'column',
       }}>
         <div style={{ fontFamily: SERIF, fontSize: isXL ? 21 : (isLG ? 17 : 15), lineHeight: 1.1, letterSpacing: -0.2, color: INK }}>{b.name}</div>
