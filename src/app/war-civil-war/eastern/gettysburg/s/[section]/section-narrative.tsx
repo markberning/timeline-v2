@@ -8,7 +8,7 @@
 // integration comes later. Person side-tags applied per the standing rule.
 
 import { useState } from 'react'
-import { WarBreadcrumb } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, alpha } from '@/components/mode/war-chrome'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -172,6 +172,11 @@ export function SectionNarrative({ id }: { id: string }) {
   const n = GB_NARR[id] ?? GB_NARR.hooks
   const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
   let firstP = true
+  // sequential nav — the next section in reading order (or back to the battle)
+  const seq = Object.keys(GB_NARR)
+  const idx = seq.indexOf(id)
+  const nextId = idx >= 0 ? seq[idx + 1] : undefined
+  const next = nextId ? GB_NARR[nextId] : null
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb
@@ -243,6 +248,25 @@ export function SectionNarrative({ id }: { id: string }) {
             <div style={{ fontFamily: SERIF, fontSize: 16, fontStyle: 'italic', marginTop: 3 }}>{n.meanwhile.title}</div>
             <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 75%, transparent)', marginTop: 3 }}>{n.meanwhile.body}</div>
           </div>
+        )}
+
+        {/* sequential nav — next section, or back to the battle at the end */}
+        {next ? (
+          <a href={`/war-civil-war/eastern/gettysburg/s/${nextId}`} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: `1px solid ${alpha(ACCENT, 0.4)}`, borderRadius: 12, padding: '14px 16px', background: alpha(ACCENT, 0.06), textDecoration: 'none', color: 'inherit' }}>
+            <div style={{ minWidth: 0 }}>
+              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT }}>Next section</div>
+              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{next.title}</div>
+            </div>
+            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: ACCENT }} aria-hidden>→</span>
+          </a>
+        ) : (
+          <a href="/war-civil-war/eastern/gettysburg" style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: '1px solid color-mix(in srgb, var(--foreground) 16%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', textDecoration: 'none', color: 'inherit' }}>
+            <div>
+              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>End of Gettysburg</div>
+              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2 }}>Back to the battle</div>
+            </div>
+            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }} aria-hidden>↩</span>
+          </a>
         )}
       </div>
     </div>
