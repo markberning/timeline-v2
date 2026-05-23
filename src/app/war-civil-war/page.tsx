@@ -9,7 +9,7 @@ import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, us
 import { BattleCard } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
-import { SPINE_NODES, majorsOf, majorCount } from '@/lib/civil-war-roster'
+import { SPINE_NODES, majorsOf, majorCount, THEMES } from '@/lib/civil-war-roster'
 
 const TYPE_COLOR: Record<string, string> = { CAUSE: '#8a6d3b', BATTLE: '#b91c1c', POLITICS: '#1d4ed8', SOCIETY: '#b45309', AFTERMATH: '#7c3aed' }
 
@@ -27,11 +27,11 @@ const num = (n: number) => n.toLocaleString('en-US')
 
 // Whole-war theatre data for the interactive home map: each theatre's states
 // (coloured on the dotted US map), battle dots, and dossier panel content.
-type ThEvent = { mo: string; year: number; name: string; place: string; heavy?: boolean; href?: string }
+type ThEvent = { mo: string; year: number; name: string; place: string; heavy?: boolean; href?: string; when?: string }
 type Theatre = {
   id: string; name: string; longName: string; color: string; span: string; region: string
-  summary: string; peakArmies: string; casualties: number; battlesCount: number; commanderRotation: string
-  href?: string; states: string[]; labelLon: number; labelLat: number
+  summary: string; peakArmies?: string; casualties?: number; battlesCount?: number; commanderRotation?: string
+  href?: string; kind?: 'themes'; states: string[]; labelLon: number; labelLat: number
   dots: { name: string; lat: number; lon: number; heavy?: boolean; anchor?: 'start' | 'end' }[]
   events: ThEvent[]
 }
@@ -84,6 +84,15 @@ const THEATRE_DATA: Theatre[] = [
       { name: 'New Orleans', lat: 29.95, lon: -90.07, anchor: 'end' },
     ],
     events: majorsOf('naval').map(b => ({ mo: b.mo, year: b.year, name: b.name, place: b.place, heavy: b.size === 'l' || b.size === 'xl', href: b.href })),
+  },
+  // The fifth lane: not a place — the war off the battlefield. No map geography;
+  // holds the locked non-battle/theme sections (causes → society → aftermath).
+  {
+    id: 'offfield', name: 'Off the Battlefield', longName: 'Off the Battlefield', color: ACCENTS.green, span: '1850–1877',
+    region: 'Causes · emancipation · society · technology · diplomacy · aftermath',
+    summary: 'The war beyond the battles — what caused it, what it changed, and how it was fought and felt off the firing line.',
+    href: undefined, kind: 'themes', states: [], labelLon: 0, labelLat: 0, dots: [],
+    events: THEMES.map(t => ({ mo: '', year: t.year, name: t.name, place: '', when: t.date })),
   },
 ]
 // Non-theatre fill states (dotted, always faint) so the map reads as the US.
@@ -179,6 +188,7 @@ function WarGlance() {
 function TheatresInteractive() {
   const [active, setActive] = useState('east')
   const at = THEATRE_DATA.find(t => t.id === active)!
+  const off = THEATRE_DATA.find(t => t.kind === 'themes')!
   const muted = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
   const faint = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
   const border = 'color-mix(in srgb, var(--foreground) 14%, transparent)'
@@ -201,11 +211,11 @@ function TheatresInteractive() {
   return (
     <DossierSection label="The theatres" accent={ACCENTS.violet}>
       <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: muted, margin: '0 0 12px' }}>
-        The war was fought in parallel across four theatres. Tap one to light it up — then open it to drill into its battles.
+        The war ran in parallel across four theatres — plus everything that happened off the battlefield. Tap one to light it up.
       </p>
       <DottedMap inset={false} accent={at.color} frame={US_FRAME} states={states} dots={dots} rivers={rivers} vbWidth={760} />
       <div style={{ display: 'flex', gap: 4, padding: 3, marginTop: 12, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
-        {THEATRE_DATA.map(t => {
+        {THEATRE_DATA.filter(t => t.kind !== 'themes').map(t => {
           const on = t.id === active
           return (
             <button key={t.id} onClick={() => setActive(t.id)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 600 : 500, padding: '7px 0', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
@@ -215,6 +225,12 @@ function TheatresInteractive() {
           )
         })}
       </div>
+      {/* The fifth lane sits apart — it isn't a place. */}
+      <button onClick={() => setActive(off.id)} style={{ width: '100%', marginTop: 8, appearance: 'none', cursor: 'pointer', background: active === off.id ? alpha(off.color, 0.12) : chip, color: active === off.id ? 'var(--foreground)' : muted, border: `1px solid ${active === off.id ? alpha(off.color, 0.5) : border}`, borderRadius: 999, fontFamily: SANS, fontSize: 11, fontWeight: active === off.id ? 700 : 500, padding: '8px 0', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7 }}>
+        <span style={{ width: 7, height: 7, borderRadius: 2, background: off.color, opacity: active === off.id ? 1 : 0.6 }} />
+        {off.name}
+        <span style={{ fontFamily: SANS, fontSize: 9, color: faint, fontWeight: 500 }}>· the war beyond the battles</span>
+      </button>
       <div style={{ marginTop: 14, border: `1px solid ${alpha(at.color, 0.4)}`, borderRadius: 10, padding: 16, background: card }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <span style={{ width: 10, height: 10, borderRadius: 2, background: at.color, boxShadow: `0 0 0 3px ${alpha(at.color, 0.2)}`, flexShrink: 0 }} />
@@ -223,25 +239,29 @@ function TheatresInteractive() {
         </div>
         <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 10.5, color: muted }}>{at.region}</div>
         <div style={{ marginTop: 10, fontFamily: SERIF, fontSize: 14, lineHeight: 1.45 }}>{at.summary}</div>
-        <div style={{ marginTop: 12, paddingTop: 11, borderTop: `1px solid ${border}`, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '4px 12px', fontFamily: SANS, fontSize: 10.5, color: muted }}>
-          <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.battlesCount}</span> battles</div>
-          <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.peakArmies}</span></div>
-          <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{num(at.casualties)}</span> dead</div>
-        </div>
-        <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: faint }}>{at.commanderRotation}</div>
+        {at.kind !== 'themes' && (
+          <>
+            <div style={{ marginTop: 12, paddingTop: 11, borderTop: `1px solid ${border}`, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '4px 12px', fontFamily: SANS, fontSize: 10.5, color: muted }}>
+              <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.battlesCount}</span> battles</div>
+              <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{at.peakArmies}</span></div>
+              <div><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{num(at.casualties ?? 0)}</span> dead</div>
+            </div>
+            <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: faint }}>{at.commanderRotation}</div>
+          </>
+        )}
         {at.href
           ? <a href={at.href} style={{ marginTop: 13, display: 'inline-flex', alignItems: 'center', gap: 6, border: `1px solid ${alpha(at.color, 0.5)}`, color: at.color, padding: '8px 12px', borderRadius: 8, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, textDecoration: 'none' }}>Open theatre <span aria-hidden>→</span></a>
           : <div style={{ marginTop: 13, display: 'inline-flex', alignItems: 'center', gap: 6, border: `1px solid ${border}`, color: faint, padding: '8px 12px', borderRadius: 8, fontFamily: SANS, fontWeight: 600, fontSize: 11.5 }}>Coming soon</div>}
         <div style={{ marginTop: 16 }}>
-          <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: alpha(at.color, 0.95), textTransform: 'uppercase', marginBottom: 10 }}>{at.events.length} key engagements</div>
+          <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: alpha(at.color, 0.95), textTransform: 'uppercase', marginBottom: 10 }}>{at.events.length} {at.kind === 'themes' ? 'sections' : 'key engagements'}</div>
           <div style={{ position: 'relative' }}>
             <div style={{ position: 'absolute', left: 4, top: 5, bottom: 5, width: 1, background: border }} />
             {at.events.map(e => {
               const row = (
                 <>
                   <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: at.color, border: `1px solid ${at.color}` }} />
-                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(at.color, 0.9), textTransform: 'uppercase' }}>{e.mo} {e.year}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{e.name} <span style={{ color: faint, fontSize: 12 }}>· {e.place}</span></div>
+                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(at.color, 0.9), textTransform: 'uppercase' }}>{e.when || `${e.mo} ${e.year}`}</div>
+                  <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{e.name}{e.place && <span style={{ color: faint, fontSize: 12 }}> · {e.place}</span>}</div>
                   <span style={{ position: 'absolute', right: 0, top: 7, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: e.href ? '#fff' : faint, background: e.href ? at.color : 'transparent', border: e.href ? 'none' : `1px solid ${border}` }}>{e.href ? 'Read →' : 'Soon'}</span>
                 </>
               )
