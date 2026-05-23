@@ -11,8 +11,31 @@ import { ART_ACCENTS } from './art-data'
 
 export type Palette = [string, string, string]
 
-const fp = (filename: string, width = 900) =>
-  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=${width}`
+// Verified image URLs — resolved via the MediaWiki API and load-checked (200,
+// image/*) on 2026-05-23. The earlier mockup filenames mostly 404'd (wrong names;
+// curly vs straight apostrophe; Commons doesn't host works still in copyright).
+//
+// COPYRIGHT TIERS (drives the inline-vs-restricted treatment):
+//  • EN-tier  = en.wikipedia *fair-use* copy. These works are PUBLIC DOMAIN IN
+//    THE US (first published before 1931), so they are servable inline in this
+//    US-jurisdiction product even though still under copyright in France.
+//  • COMMONS  = free worldwide (PD or CC). Inline anywhere.
+//  • Guernica (1937) is NOT US public domain → it is NEVER inline; it renders as
+//    a restricted reference (degraded treatment) in the reader.
+export const ART_IMG = {
+  // EN-tier (US public domain, pre-1931 — inline OK)
+  demoiselles: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/960px-Les_Demoiselles_d%27Avignon.jpg',
+  girlWithMandolin: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin_%28Fanny_Tellier%29%2C_oil_on_canvas%2C_100.3_x_73.6_cm%2C_Museum_of_Modern_Art_New_York..jpg/960px-Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin_%28Fanny_Tellier%29%2C_oil_on_canvas%2C_100.3_x_73.6_cm%2C_Museum_of_Modern_Art_New_York..jpg',
+  picassoStudy1907: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Pablo_Picasso%2C_1907%2C_Head_of_a_Sleeping_Woman_%28Study_for_Nude_with_Drapery%29%2C_oil_on_canvas%2C_61.4_x_47.6_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg/960px-Pablo_Picasso%2C_1907%2C_Head_of_a_Sleeping_Woman_%28Study_for_Nude_with_Drapery%29%2C_oil_on_canvas%2C_61.4_x_47.6_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg',
+  kahnweiler: 'https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg',
+  braqueEstaque: 'https://upload.wikimedia.org/wikipedia/en/a/ad/Georges_Braque%2C_1908%2C_Maisons_et_arbre%2C_oil_on_canvas%2C_40.5_x_32.5_cm%2C_Lille_M%C3%A9tropole_Museum_of_Modern%2C_Contemporary_and_Outsider_Art.jpg',
+  // COMMONS (free worldwide)
+  picassoPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/960px-Pablo_picasso_1.jpg',
+  cezanneBathers: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg/960px-Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg',
+  momaFacade: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/960px-MoMa_NY_USA_1.jpg',
+  // RESTRICTED — Guernica (1937), NOT US public domain → degraded reference only
+  guernica: 'https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg',
+} as const
 
 export interface ArtStat { v: string; k: string }
 export interface ArtSide { side?: string; label: string; color: string; motto?: string; detail?: string; members?: string[] }
@@ -61,7 +84,7 @@ export const MODERN_ERA: ArtEraContent = {
   hook: 'Painters break the picture and put it back together wrong on purpose.',
   hookLong:
     'In a hundred and twenty years, Western painting goes from cathedral-trained perspective masters making one more Madonna to a man in a Paris studio dripping enamel onto a canvas on the floor. Almost everything in between is somebody arguing about whether that should be allowed.',
-  heroImage: fp('Les Demoiselles d’Avignon.jpg'),
+  heroImage: ART_IMG.demoiselles,
   heroCredit: 'Picasso, Les Demoiselles d’Avignon (detail) · 1907 · MoMA · fair use',
   stats: [
     { v: '120 yrs', k: 'Span' },
@@ -159,8 +182,8 @@ export const CUBISM: ArtMovementContent = {
   hook: 'Pablo and Georges decide a face has six sides.',
   hookLong:
     'For about a decade, two painters in Paris worked so closely that they had to sign the backs of each other’s canvases just to remember whose was whose. What they did, in essence, was repeal the law of single-point perspective that had ruled European painting since 1420. The picture stopped pretending to be a window.',
-  heroImage: fp('Pablo Picasso, 1909-10, Figure dans un Fauteuil, oil on canvas, 100 x 81 cm, Tate Modern, London.jpg'),
-  heroCredit: 'Picasso, Figure dans un Fauteuil, 1909–10 · Tate Modern',
+  heroImage: ART_IMG.girlWithMandolin,
+  heroCredit: 'Picasso, Girl with a Mandolin (Fanny Tellier), 1910 · MoMA · PD-US',
   stats: [
     { v: '15 yrs', k: 'Span' },
     { v: '~40', k: 'Canonical works' },
@@ -171,7 +194,7 @@ export const CUBISM: ArtMovementContent = {
     { side: 'salon', label: 'The Salon Cubists', color: ART_ACCENTS.amber, members: ['Gleizes', 'Metzinger', 'Léger', 'Delaunay', 'Gris'], detail: 'A larger second wave that showed at the Salon des Indépendants. They wrote the manifestos. The pioneers didn’t join.' },
   ],
   works: [
-    { id: 'demoiselles', year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso', place: 'Paris', size: 'xl', blurb: 'Five women, five sets of impossible angles, masks where the faces should be. Even his friends thought he had lost it.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: fp('Les Demoiselles d’Avignon.jpg', 600) },
+    { id: 'demoiselles', year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso', place: 'Paris', size: 'xl', blurb: 'Five women, five sets of impossible angles, masks where the faces should be. Even his friends thought he had lost it.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles },
     { id: 'three-women', year: 1908, name: 'Three Women', artist: 'Picasso', place: 'Paris', size: 's', blurb: 'The hangover from Demoiselles. The faces become less savage; the geometry hardens.', palette: ['#7a5a3a', '#3a2820', '#1a1208'] },
     { id: 'horta', year: 1909, name: 'Houses on the Hill, Horta', artist: 'Picasso', place: 'Catalonia', size: 'l', blurb: 'Picasso paints a Spanish village as nesting cubes. The summer everyone agrees this is now a movement.', palette: ['#a08a4a', '#5a4a1c', '#1a1a14'] },
     { id: 'kahnweiler', year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'Their dealer, in shards. Analytic Cubism arrives — monochrome, angular, almost unreadable.', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
@@ -287,7 +310,7 @@ export const DEMOISELLES: ArtWorkContent = {
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 1, total: 9 },
   hook: 'Five women, five sets of impossible angles, masks where the faces should be.',
-  heroImage: fp('Les Demoiselles d’Avignon.jpg'),
+  heroImage: ART_IMG.demoiselles,
   heroCredit: 'MoMA · Bequest of Lillie P. Bliss · fair use',
   rights: 'pd-us',
   stats: [
@@ -374,8 +397,8 @@ export const PICASSO: ArtArtistContent = {
   hook: 'The most famous artist of the twentieth century, and the one who decided what the rest of it would have to argue with.',
   hookLong:
     'Picasso made roughly 50,000 works in his lifetime — paintings, drawings, sculptures, ceramics, prints, costumes. He invented Cubism with Braque, then walked away from it. He painted in classical styles in the 1920s, made the most famous antiwar painting of the century in 1937, and was a millionaire by forty. He outlived most of his contemporaries and several of his children.',
-  heroImage: fp('Portrait de Picasso, 1908.jpg'),
-  heroCredit: 'Photographer unknown · 1908 · Paris',
+  heroImage: ART_IMG.picassoPhoto,
+  heroCredit: 'Photograph · Wikimedia Commons',
   stats: [
     { v: '1881–1973', k: 'Lived' },
     { v: '~50,000', k: 'Works (lifetime)' },

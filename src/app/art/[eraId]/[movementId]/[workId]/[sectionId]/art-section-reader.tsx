@@ -19,9 +19,7 @@ import {
   artWorkCrumbs, artAlpha,
   SANS, SERIF, INK, MUTED, FAINT, BORDER, CARD_BG,
 } from '@/components/mode/art-chrome'
-import { ART_WORK_CONTENT } from '@/lib/art-content'
-
-const ASFP = (filename: string) => 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(filename) + '?width=600'
+import { ART_WORK_CONTENT, ART_IMG } from '@/lib/art-content'
 
 // ─────────────────────────────────────────────────────────────
 // Prose primitives
@@ -211,11 +209,11 @@ function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: st
         <PaintingFigure
           onZoom={onZoom}
           palette={['#5a7042', '#8a7848', '#1c1a12']}
-          imageUrl={ASFP('Paul Cézanne, 1898-1905, Les Grandes Baigneuses (The Large Bathers), oil on canvas, 210.5 × 250.8 cm, Philadelphia Museum of Art.jpg')}
+          imageUrl={ART_IMG.cezanneBathers}
           ratio="6/5"
           alt="Cézanne, Les Grandes Baigneuses"
           caption={<>Cézanne, <em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art.</>}
-          rights={PD_RIGHTS}
+          rights="Public domain worldwide (Paul Cézanne died 1906). Wikimedia Commons."
         />
 
         <p style={proseStyle}>
@@ -314,7 +312,7 @@ function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         <PaintingFigure
           onZoom={onZoom}
           palette={['#a08a4a', '#5a4a1c', '#1a1a14']}
-          imageUrl={ASFP('Pablo Picasso, 1907, Etudes de nus pour Les Demoiselles d\'Avignon.jpg')}
+          imageUrl={ART_IMG.picassoStudy1907}
           ratio="4/5"
           alt="Sketchbook studies"
           caption={<>One of dozens of sheets of preparatory studies. Some are tender; some are violent. The composition keeps simplifying.</>}
@@ -423,7 +421,7 @@ function ReceptionNarrative({ accent, onZoom }: { accent: string; onZoom: (src: 
         <PaintingFigure
           onZoom={onZoom}
           palette={['#5a4a3a', '#2a221c', '#0a0606']}
-          imageUrl={ASFP('Picasso - Portrait of Daniel-Henry Kahnweiler.jpg')}
+          imageUrl={ART_IMG.kahnweiler}
           ratio="3/4"
           alt="Picasso, Portrait of Daniel-Henry Kahnweiler"
           caption={<>Three years later: Picasso&rsquo;s analytic Cubist portrait of Kahnweiler, the dealer who never doubted him.</>}
@@ -485,7 +483,7 @@ function HiddenNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         <PaintingFigure
           onZoom={onZoom}
           palette={['#7a6a4a', '#3a3020', '#100c08']}
-          imageUrl={ASFP('Georges Braque, 1908, Maisons à l\'Estaque.jpg')}
+          imageUrl={ART_IMG.braqueEstaque}
           ratio="4/5"
           alt="Braque, Houses at l'Estaque"
           caption={<>Braque&rsquo;s <em>Houses at l&rsquo;Estaque</em>, painted within twelve months of seeing the Demoiselles. Matisse said it looked like little cubes.</>}
@@ -563,7 +561,7 @@ function LegacyNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         <PaintingFigure
           onZoom={onZoom}
           palette={['#3a4a8b', '#7a6a3a', '#0e1224']}
-          imageUrl={ASFP('Museum of Modern Art New York 04 2014.JPG')}
+          imageUrl={ART_IMG.momaFacade}
           ratio="5/3"
           alt="The Museum of Modern Art"
           caption={<>MoMA acquired the Demoiselles in 1939 through the Lillie P. Bliss Bequest. It has hung in the museum almost continuously since.</>}
@@ -586,6 +584,23 @@ function LegacyNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
           stand in front of it every year and try to understand what it is. They cannot, exactly. That,
           one might argue, is what makes it the painting that it is.
         </p>
+
+        <p style={proseStyle}>
+          Picasso himself painted for another sixty years. His most famous later canvas &mdash;{' '}
+          <em>Guernica</em>, made in a month in 1937 for a republic already losing a war &mdash; is exactly
+          the kind of work this app often can&rsquo;t hand you in full. Painted after 1930, it is still under
+          copyright in the United States, not only abroad. So here it is the way the rights regime leaves it:
+          a small reference, with the prose carrying the picture you can&rsquo;t be shown.
+        </p>
+
+        <RestrictedFigure
+          imageUrl={ART_IMG.guernica}
+          title={<>Picasso, <i>Guernica</i></>}
+          year="1937 · Museo Reina Sofía, Madrid"
+          note="Post-1930 — not public domain in the US either. Shown as a small reference; the full work can't be served inline."
+          linkLabel="View at the Reina Sofía"
+          href="https://www.museoreinasofia.es/en/collection/artwork/guernica"
+        />
 
         <p style={proseMutedStyle}>
           It has never been resold. It has been loaned exactly once, to the Musée Picasso in Paris, in
