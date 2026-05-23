@@ -69,20 +69,20 @@ export function DottedMap({
             return (
               <g key={`r${i}`}>
                 <path d={d} fill="none" stroke={alpha('#0ea5e9', 0.55)} strokeWidth={1.8} strokeDasharray="1.5 4.5" strokeLinecap="round" strokeLinejoin="round" />
-                {rv.label && <text x={X(rv.labelLon ?? rv.pts[0][0])} y={Y(rv.labelLat ?? rv.pts[0][1])} fontFamily={MONO} fontSize={9.5} fill={water} textAnchor={rv.labelAnchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3}>{rv.label}</text>}
+                {rv.label && <text x={X(rv.labelLon ?? rv.pts[0][0])} y={Y(rv.labelLat ?? rv.pts[0][1])} fontFamily={MONO} fontSize={12.5} fill={water} textAnchor={rv.labelAnchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.6}>{rv.label}</text>}
               </g>
             )
           })}
           {states.filter(st => st.label).map(st => (
-            <text key={`l${st.name}`} x={X(st.labelLon!)} y={Y(st.labelLat!)} fontFamily={MONO} fontSize={st.labelSize ?? 15} fontWeight={700} letterSpacing={1.8} fill={toneLabel(st.tone, st.color)} textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={4.5} strokeLinejoin="round">{st.label}</text>
+            <text key={`l${st.name}`} x={X(st.labelLon!)} y={Y(st.labelLat!)} fontFamily={MONO} fontSize={st.labelSize ?? 19} fontWeight={700} letterSpacing={1.8} fill={toneLabel(st.tone, st.color)} textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={5.5} strokeLinejoin="round">{st.label}</text>
           ))}
           {labels.map((l, i) => (
-            <text key={`f${i}`} x={X(l.lon)} y={Y(l.lat)} fontFamily={MONO} fontSize={l.size ?? 10} letterSpacing={0.5} fill={labelColor(l.kind)} textAnchor={l.anchor ?? 'middle'}>{l.text}</text>
+            <text key={`f${i}`} x={X(l.lon)} y={Y(l.lat)} fontFamily={MONO} fontSize={l.size ?? 13} letterSpacing={0.5} fill={labelColor(l.kind)} textAnchor={l.anchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3}>{l.text}</text>
           ))}
           {corridor && (
             <>
               <line x1={X(corridor.fromLon)} y1={Y(corridor.fromLat)} x2={X(corridor.toLon)} y2={Y(corridor.toLat)} stroke={FG(0.5)} strokeWidth={1.5} strokeDasharray="2 4" />
-              {corridor.label && <text x={X(corridor.labelLon ?? (corridor.fromLon + corridor.toLon) / 2)} y={Y(corridor.labelLat ?? (corridor.fromLat + corridor.toLat) / 2)} fontFamily={MONO} fontSize={11} fill={FG(0.6)} textAnchor={corridor.labelAnchor ?? 'start'} dx={corridor.labelAnchor === 'end' ? -6 : 6}>{corridor.label}</text>}
+              {corridor.label && <text x={X(corridor.labelLon ?? (corridor.fromLon + corridor.toLon) / 2)} y={Y(corridor.labelLat ?? (corridor.fromLat + corridor.toLat) / 2)} fontFamily={MONO} fontSize={13.5} fill={FG(0.62)} textAnchor={corridor.labelAnchor ?? 'start'} dx={corridor.labelAnchor === 'end' ? -6 : 6} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3}>{corridor.label}</text>}
             </>
           )}
           {dots.map((d, i) => {
@@ -91,7 +91,7 @@ export function DottedMap({
               <g key={`d${i}`}>
                 <circle cx={x} cy={y} r={r} fill={col} />
                 <circle cx={x} cy={y} r={r + 3.5} fill="none" stroke={alpha(col, 0.25)} strokeWidth={2} />
-                {d.name && <text x={x + (d.anchor === 'end' ? -(d.dx ?? 9) : (d.dx ?? 9))} y={y + (d.dy ?? 4)} fontFamily={MONO} fontSize={13} fill="var(--foreground)" textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.2}>{d.name}</text>}
+                {d.name && <text x={x + (d.anchor === 'end' ? -(d.dx ?? 10) : (d.dx ?? 10))} y={y + (d.dy ?? 5)} fontFamily={MONO} fontSize={16} fill="var(--foreground)" textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={4}>{d.name}</text>}
               </g>
             )
           })}
@@ -100,7 +100,7 @@ export function DottedMap({
             return (
               <g key={`c${i}`}>
                 <rect x={x - 6} y={y - 6} width={12} height={12} rx={2} fill="var(--foreground)" stroke="var(--background)" strokeWidth={1.5} />
-                <text x={x + (c.anchor === 'end' ? -(c.dx ?? 10) : (c.dx ?? 10))} y={y + (c.dy ?? 4.5)} fontFamily={MONO} fontSize={14} fontWeight={700} fill="var(--foreground)" textAnchor={c.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.2}>{c.name}</text>
+                <text x={x + (c.anchor === 'end' ? -(c.dx ?? 11) : (c.dx ?? 11))} y={y + (c.dy ?? 5)} fontFamily={MONO} fontSize={17} fontWeight={700} fill="var(--foreground)" textAnchor={c.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={4}>{c.name}</text>
               </g>
             )
           })}
