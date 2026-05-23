@@ -191,15 +191,58 @@ is fully reachable and the built sections work. The civ site is unchanged.
 - `war-content-pipeline.md` gained: short-bc-label + accent-must-be-`'use client'`
   rules, and the theme-needs-`img` integration step.
 
-**Still PENDING (carried forward):**
-- 13 of 14 Off-the-Battlefield themes still "Soon" (only Emancipation built).
-- Gettysburg narrative retrofit (over-tactical + the Greene/Lee factual error).
-- Scale the ~46 Major battles + remaining themes through the pipeline.
-- Accuracy fact-check on the theatre `(est.)` casualty/strength figures.
-- Real reader-engine integration + glossary links; kind-aware gate refactor
-  (after the civ corpus sweep settles).
-- Optional: the war-level stone is understated — user may want a bolder distinct
-  hue (offered, not done).
+## ▶ OUTSTANDING WAR DEBT — locked in 2026-05-23 (read before resuming war)
+
+The pilot is **parked in a clean, shipped state** so attention can move to the Art
+section. This is the complete, deduplicated ledger of what the war vertical still
+owes — verified against the code 2026-05-23, not relayed from older notes. Two
+buckets: **debt to close** (real defects/gaps) and **planned content** (the
+user is fine with this coming later — NOT debt).
+
+**DEBT TO CLOSE (finite, should be done before the war section is called "done"):**
+1. **Theatre `(est.)` casualty/strength figures — accuracy fact-check owed.** The
+   theatre-page casualty splits are mockup ESTIMATES, labeled `(est.)` in the UI
+   (`src/components/mode/theatre-page.tsx` ~line 188). They never went through the
+   fact-checker. Run a fact pass; replace with sourced figures (with the scholarly
+   range) and drop the `(est.)` tag, OR keep the tag if a number is genuinely
+   contested. This is the one place a UN-fact-checked number is currently live.
+2. **Gettysburg storytelling retrofit (quality, NOT a live factual error).**
+   CORRECTION to older notes: the "Greene was a West Point classmate of Lee" error
+   is **already gone** — no `classmate` claim exists anywhere in the app
+   (verified), and the current Greene text (`.../gettysburg/s/[section]/
+   section-narrative.tsx` ~line 106) is accurate, as is the "fishhook" passage.
+   What remains is purely a STORY problem: Gettysburg was the v0 draft, written
+   before the pipeline, and reads over-tactical / human-light (the failure mode the
+   storytelling gate now exists to catch). Run it back through the full pipeline
+   (author → fact-check → storytelling critic) to bring it up to the
+   Antietam/Emancipation/Slavery-&-Cotton bar. No live falsehood is blocking; this
+   is a polish-to-bar job.
+
+**INTEGRATION DEBT (deferred by design — tied to the civ corpus sweep settling):**
+3. **Real reader-engine integration + glossary links.** War sections are currently
+   bespoke TSX pages, not run through the civ reader/link pipeline. Wire them in +
+   add glossary/cross-modal war↔civ links once the main-session corpus sweep is
+   done (collision avoidance — do NOT edit shared gate scripts from the war stream
+   while the sweep runs on `main`).
+4. **Kind-aware gate refactor.** Make the shared gates `kind`-aware (battle/theme/
+   civ) instead of the current minimal per-`kind` additions. Also gated on the
+   sweep settling.
+
+**OPTIONAL / COSMETIC (offered, user has not asked for it):**
+5. War-level identity color is the understated stone `WAR_ACCENT` (#8a7a66). A
+   bolder distinct hue was offered, not done. Only revisit if the user wants it.
+
+**PLANNED CONTENT — NOT debt (user explicitly fine with this coming later):**
+- **12 of 14 Off-the-Battlefield themes** still "Soon" (Emancipation + Slavery & the
+  Cotton Economy are built).
+- The Major battle tail (~46 CWSAC Class-A) + the longer A+B+C ~280-battle ambition.
+- These are a sustained content campaign, run one section at a time through the
+  proven pipeline. The user has signed off on them arriving over time; their
+  absence is the soft-launch plan, not a defect.
+
+**State for the Art pivot:** `feat/phase-2` == `main` for war (Slavery & Cotton
+merged + deployed + prod-verified 2026-05-23). No war work in flight, no agents
+running, nothing half-built. Safe to switch focus to Art.
 
 ## Status & handoff — sessions 1–3 (prior; still accurate)
 Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch

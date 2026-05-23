@@ -19,6 +19,20 @@ Failure mode to design against (the Gettysburg v0 lesson): tactical play-by-play
 ("this brigade took that ridge at that hour"), human cost thin. Lead with stakes
 and people; make the cost *felt*.
 
+**The story gate can NEVER override the accuracy floor (locked 2026-05-22,
+Slavery & the Cotton Economy run).** When the storytelling critic demands NEW
+material — a named witness, a quote, a vivid specific to fix an anonymous or flat
+passage — that material does NOT get invented to satisfy the story gate. The
+COORDINATOR sources it first (find the real, documented person/quote), adds it to
+the **fact pack**, and it goes through the **fact-checker** like everything else,
+THEN the author writes it in. The two gates are not symmetric: a great story built
+on a fabricated detail still fails. (Proof: the critic flagged the Second Middle
+Passage beat as too anonymous; the fix was to research Solomon Northup & Eliza
+into the fact pack and verify the quotes — NOT to let the author conjure a person.
+The author correctly *refused* to dramatize a second parting the source didn't
+describe — that instinct is the bar.) Corollary: when a revision crosses both
+gates, re-confirm the new content cleared the fact-checker before integrating.
+
 ## Roles
 - **Coordinator (the human-facing agent, i.e. you):** writes the brief, builds &
   verifies the fact pack, spawns the agents, **reads critic output critically
