@@ -134,15 +134,8 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
             style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }}
           />
         )}
-        {b.imgLabel && (
-          <div style={{
-            position: 'absolute', left: 8, bottom: 7, right: 8,
-            fontFamily: MONO, fontSize: 9, letterSpacing: 0.4,
-            color: 'rgba(255,255,255,0.86)',
-            textShadow: '0 1px 2px rgba(0,0,0,0.55)',
-            overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-          }}>{b.imgLabel}</div>
-        )}
+        {/* No name overlaid on the artwork — it's redundant with the title text beside it
+            and obscures the painting (pipeline rule, audits/art-vertical.md §5b). */}
       </div>
       <div style={{
         flex: 1, minWidth: 0,
