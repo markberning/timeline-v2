@@ -25,7 +25,7 @@ function Tile({ palette, imageUrl, label, isXL }: { palette: [string, string, st
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
       {imageUrl && !failed && (
-        <img src={imageUrl} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
+        <img src={imageUrl} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.16)', transformOrigin: 'center' }} />
       )}
       {label && (
         <div style={{ position: 'absolute', left: 8, bottom: 7, right: 8, fontFamily: SANS, fontSize: isXL ? 9.5 : 8.5, color: 'rgba(255,255,255,0.78)', textShadow: '0 1px 2px rgba(0,0,0,0.5)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</div>
