@@ -53,12 +53,12 @@ const ET = {
     { side: 'Confederacy', label: 'Army of Northern Virginia', peak: '75k', commanders: ['Beauregard', 'J. Johnston', 'Lee'], color: ACCENTS.rust },
   ],
   commanders: [
-    { name: 'G. Meade', role: 'Cmdr., Potomac (Jun ’63–)', side: 'U' },
-    { name: 'U. S. Grant', role: 'Lt. Gen., U.S. (’64–)', side: 'U' },
-    { name: 'G. McClellan', role: 'Cmdr., Potomac (’61–’62)', side: 'U' },
-    { name: 'R. E. Lee', role: 'Cmdr., N. Virginia', side: 'C' },
-    { name: 'J. Longstreet', role: 'Lt. Gen., CSA', side: 'C' },
-    { name: 'T. J. Jackson', role: 'Lt. Gen., CSA (KIA ’63)', side: 'C' },
+    { name: 'G. Meade', role: 'Cmdr., Potomac (Jun ’63–)', side: 'U', img: '/war-img/cmdr/meade.jpg' },
+    { name: 'U. S. Grant', role: 'Lt. Gen., U.S. (’64–)', side: 'U', img: '/war-img/cmdr/grant.jpg' },
+    { name: 'G. McClellan', role: 'Cmdr., Potomac (’61–’62)', side: 'U', img: '/war-img/cmdr/mcclellan.jpg' },
+    { name: 'R. E. Lee', role: 'Cmdr., N. Virginia', side: 'C', img: '/war-img/cmdr/lee.jpg' },
+    { name: 'J. Longstreet', role: 'Lt. Gen., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
+    { name: 'T. J. Jackson', role: 'Lt. Gen., CSA (KIA ’63)', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
   ],
   casualties: { union: 145000, csa: 95000, civilian: 8000 },
   chain: { name: 'Theatres of the Civil War', index: 1, total: 4 },
@@ -191,6 +191,16 @@ function AtAGlance() {
   )
 }
 
+// Round commander headshot with a side-colored ring; falls back to a gradient
+// disc if the portrait is missing or fails to load.
+function Headshot({ img, ring }: { img?: string; ring: string }) {
+  const [failed, setFailed] = useState(false)
+  const base: React.CSSProperties = { width: 64, height: 64, borderRadius: 999, boxShadow: `inset 0 0 0 2px ${ring}`, flexShrink: 0 }
+  return (!img || failed)
+    ? <div style={{ ...base, background: 'linear-gradient(135deg, #3a2e21, #1c1814)' }} />
+    : <img src={img} alt="" onError={() => setFailed(true)} style={{ ...base, objectFit: 'cover', objectPosition: 'center 25%' }} />
+}
+
 function CommandersStrip() {
   return (
     <div style={{ padding: '20px 0 22px', borderTop: `1px solid ${BORDER}` }}>
@@ -200,7 +210,7 @@ function CommandersStrip() {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
             <div key={f.name} style={{ flexShrink: 0, width: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
-              <div style={{ width: 64, height: 64, borderRadius: 999, background: 'linear-gradient(135deg, #3a2e21, #1c1814)', boxShadow: `inset 0 0 0 2px ${ring}` }} />
+              <Headshot img={f.img} ring={ring} />
               <div style={{ textAlign: 'center' }}>
                 <div style={{ fontFamily: SERIF, fontSize: 12, lineHeight: 1.15, letterSpacing: -0.1 }}>{f.name}</div>
                 <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.2, color: FAINT }}>{f.role}</div>
