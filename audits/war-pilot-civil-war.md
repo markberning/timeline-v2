@@ -192,19 +192,23 @@ Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
   `TheatreData`. Each theatre page is just its data object + a `<DottedMap>`.
 - **All five "theatres" now exist:** Eastern (violet), Western (blue),
   **Trans-Mississippi (amber, NEW)**, **Naval & Coastal (rust, NEW)**, **Off the
-  Battlefield (green, NEW** — non-geographic fifth lane: the 14 themes grouped by
-  phase, no army face-off / no battle map). Trans-Miss + Naval have PD hero art
-  (Kurz & Allison Pea Ridge; Prang/Davidson Mobile Bay) and 10 identity-verified
-  PD commander portraits (lyon/curtis/price/van-dorn/kirby-smith;
-  farragut/dd-porter/dupont/buchanan/semmes). Casualty/peak figures are flagged
-  `(est.)` — still owed the accuracy fact-check pass.
+  Battlefield (green, NEW** — non-geographic fifth lane: the 14 themes as a
+  chronological timeline spine, no army face-off / no battle map, and **no
+  Timeline/Dossier toggle** — it's a subject list, so breadcrumb-only + the one
+  spine view). Trans-Miss + Naval have PD hero art (Kurz & Allison Pea Ridge;
+  Prang/Davidson Mobile Bay) and 10 identity-verified PD commander portraits
+  (lyon/curtis/price/van-dorn/kirby-smith; farragut/dd-porter/dupont/buchanan/
+  semmes). Casualty/peak figures are flagged `(est.)` — still owed the accuracy
+  fact-check pass.
 - **Unified breadcrumb (`civilWarCrumbs()`):** every ACW page shows the full trail
   **War > ACW > Theatre > Battle/Event**, with Theatre AND Battle/Event both as
   interactive dropdowns everywhere. Theatre = color-coded switcher; Battle/Event =
-  jump to any of the 46 majors + 14 themes, grouped + color-coded by theatre
-  (built battles link, the rest "soon"). Leaf crumb gets accent emphasis. On the
-  home page both are generic pickers. `CrumbDropdown` gained color dots, section
-  headings, scrolling + viewport clamping.
+  **chronological** jump list of all 46 majors + 14 themes, color-coded by theatre
+  (the dot), built battles link (and show their date on the right), the rest
+  "soon". Leaf crumb gets accent emphasis. On the home page both are generic
+  pickers. `CrumbDropdown` gained color dots, scrolling + viewport clamping, and
+  **closes on any outside tap** (a fixed overlay can't be used — the bar's
+  backdrop-filter is the containing block for fixed children).
 - **Timelines now show ready vs. soon** (BattleCard `soon` badge + dimmed) and use
   consistent colored dots. Home page got the 5th "Off the Battlefield" lane.
 
