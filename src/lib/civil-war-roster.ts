@@ -110,7 +110,7 @@ export const THEATRE_NAV: TheatreNav[] = [
   { id: 'west', label: 'Western Theatre', href: '/war-civil-war/western', ready: true },
   { id: 'tmis', label: 'Trans-Mississippi', href: '/war-civil-war/trans-mississippi', ready: true },
   { id: 'naval', label: 'Naval & Coastal', href: '/war-civil-war/naval', ready: true },
-  { id: 'offfield', label: 'Off the Battlefield', href: '/war-civil-war/off-the-battlefield', ready: false },
+  { id: 'offfield', label: 'Off the Battlefield', href: '/war-civil-war/off-the-battlefield', ready: true },
 ]
 
 export const majorsOf = (t: Theatre): Major[] => MAJORS.filter(b => b.theatre === t)

@@ -91,7 +91,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'offfield', name: 'Off the Battlefield', longName: 'Off the Battlefield', color: ACCENTS.green, span: '1850–1877',
     region: 'Causes · emancipation · society · technology · diplomacy · aftermath',
     summary: 'The war beyond the battles — what caused it, what it changed, and how it was fought and felt off the firing line.',
-    href: undefined, kind: 'themes', states: [], labelLon: 0, labelLat: 0, dots: [],
+    href: '/war-civil-war/off-the-battlefield', kind: 'themes', states: [], labelLon: 0, labelLat: 0, dots: [],
     events: THEMES.map(t => ({ mo: '', year: t.year, name: t.name, place: '', when: t.date })),
   },
 ]
