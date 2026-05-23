@@ -128,7 +128,74 @@ A war narrative is DONE only after all of:
    category set. Do NOT edit shared gate scripts during the main-session sweep;
    make them kind-aware afterward.
 
-## Status & handoff (updated 2026-05-22, session 3 — COLD START READ THIS)
+## Status & handoff (updated 2026-05-22, session 4 — COLD START READ THIS FIRST)
+
+**SHIPPED TO PRODUCTION (soft launch).** `feat/phase-2` was merged into `main`
+and is **LIVE on stuffhappened.com**. War is a **soft launch**:
+`TL_KIND_LIVE.war = false`, so the War tab carries a **SOON** marker, but the app
+is fully reachable and the built sections work. The civ site is unchanged.
+
+**Workflow now (important — two worktrees):**
+- War dev continues in the `feat/phase-2` worktree
+  (`/Users/mberning/projects/personal/timeline-v2-phase2`, dev `npx next dev
+  -p 3007`). Edit there → preview on :3007 → commit + push `feat/phase-2`.
+- To ship: from the **main** worktree
+  (`/Users/mberning/projects/personal/timeline-v2`):
+  `git fetch && git merge --no-ff origin/feat/phase-2` →
+  `rm -rf out && npm run build && npx wrangler deploy` → `git push origin main`.
+  Merges are clean/additive (phase-2 is behind main on civ but never touches civ
+  files; merge-tree shows 0 conflicts). **The main worktree has unrelated
+  uncommitted files from a paused civ session (`next-env.d.ts` + untracked) —
+  leave them alone** (don't `git checkout --` or `git add -A`).
+
+**Navigation model (finalized this session):**
+- **Two homes:** `/war` = the **all-wars front door** (every US war — the
+  `WarFrontDoor` escalating list); `/war-civil-war` = the **ACW home** (one war).
+  Breadcrumb ladder = **War › [war] › Theatre › Battle**, growing as you descend.
+- **Mode tabs navigate** (`ModeSwitcher`): Civ → `/`, War → `/war` (real URLs via
+  `MODE_ROUTE`, not in-place swap). Art/Music stay in-place coming-soon.
+- **The war home wears the breadcrumb bar**, not the tab strip — showing just the
+  **first 2 pills: War › All Wars** (Theatre/Battle appear only after you pick a
+  war). `warHomeCrumbs()` builds it; `/war` = `WarBreadcrumb` + `WarFrontDoor`
+  (its internal dark-toggle suppressed via `showToggle={false}`).
+- The leftmost **War** crumb's dropdown (Civ/War/Art/Music) leaves to the civ app
+  from any war page.
+
+**War color system (finalized this session):**
+- **`WAR_ACCENT` = neutral stone `#8a7a66`** (in `war-chrome.tsx`) — the War
+  vertical's identity color for the **war-level pills** (All Wars home, the current
+  war "ACW", and the ACW home accent). Deliberately OUTSIDE the 5 theatre/era hues
+  so it never collides with a theatre.
+- **Theatres keep vivid colors:** Eastern violet, Western blue, Trans-Miss amber,
+  Naval rust, Off-the-Battlefield green. **Era-band colors** (the same 5 hues)
+  group wars in the all-wars list/dropdown only.
+- **Only the actually-current crumb lights up** (`emphasized = !!c.active` — the
+  trailing generic picker no longer lights just for being last). Ancestor crumbs
+  show a compact `short` label (e.g. "Off-Field", "Eastern") to keep the trail
+  narrow on a phone.
+
+**Built this session:**
+- **Emancipation Proclamation theme** — run end-to-end through the war content
+  pipeline (`off-the-battlefield/emancipation`, green accent, Carlton "Waiting for
+  the Hour" hero; shows on the Off-the-Battlefield + home timelines). **First theme
+  built — proves the theme content type.** 13 of 14 themes are still "Soon".
+- **Front-door war cards support real hero images** (gradient fallback); the ACW
+  card on `/war` uses `civil-war-hero.jpg` (Fort Wagner) with a bottom scrim.
+- Timeline cards: fixed the image↔text gap; theme cards now carry `Theme.img`.
+- `war-content-pipeline.md` gained: short-bc-label + accent-must-be-`'use client'`
+  rules, and the theme-needs-`img` integration step.
+
+**Still PENDING (carried forward):**
+- 13 of 14 Off-the-Battlefield themes still "Soon" (only Emancipation built).
+- Gettysburg narrative retrofit (over-tactical + the Greene/Lee factual error).
+- Scale the ~46 Major battles + remaining themes through the pipeline.
+- Accuracy fact-check on the theatre `(est.)` casualty/strength figures.
+- Real reader-engine integration + glossary links; kind-aware gate refactor
+  (after the civ corpus sweep settles).
+- Optional: the war-level stone is understated — user may want a bolder distinct
+  hue (offered, not done).
+
+## Status & handoff — sessions 1–3 (prior; still accurate)
 Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
 `feat/phase-2`, all committed + pushed). Dev: `npx next dev -p 3007`.
 
