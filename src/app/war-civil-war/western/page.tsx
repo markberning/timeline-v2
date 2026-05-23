@@ -293,7 +293,7 @@ function WTMap() {
       ]}
       rivers={[
         ...US_RIVERS.Mississippi.map((pts, i) => i === 0 ? { pts, label: 'Mississippi R.', labelLon: -90.7, labelLat: 31.4, labelAnchor: 'start' as const } : { pts }),
-        ...US_RIVERS.Tennessee.map((pts, i) => i === 0 ? { pts, label: 'Tennessee R.', labelLon: -86.7, labelLat: 34.78, labelAnchor: 'start' as const } : { pts }),
+        ...US_RIVERS.Tennessee.map((pts, i) => i === 0 ? { pts, label: 'Tennessee R.', labelLon: -87.95, labelLat: 34.62, labelAnchor: 'start' as const } : { pts }),
       ]}
       corridor={{ fromLon: -84.39, fromLat: 33.75, toLon: -81.09, toLat: 32.08, label: 'to the sea · 300 mi', labelLon: -83.4, labelLat: 33.15 }}
       dots={[
