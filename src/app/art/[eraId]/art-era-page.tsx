@@ -75,6 +75,7 @@ interface ArtCardData {
   imgLabel?: string
   imageUrl?: string
   focus?: string // object-position for the cover crop (frame a deliberate detail)
+  imageAspect?: string // w/h of the work, for the xl panel to fill edge-to-edge w/o crop
 }
 
 function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
@@ -82,17 +83,16 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
   const sz = CARD_SIZES[b.size]
   const isXL = b.size === 'xl'
   const isLG = b.size === 'l'
-  const gradient = `linear-gradient(135deg, ${b.palette[0]}, ${b.palette[1]} 55%, ${b.palette[2]})`
 
   // xl (flagship) card: show the painting at its CORRECT aspect on the left —
   // never cropped — with the text to the right (design freedom, user 2026-05-23).
   if (isXL) {
     return (
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', background: CARD_BG, borderRadius: 8, border: `1px solid ${artAlpha(accent, 0.55)}`, boxShadow: `0 0 0 4px ${artAlpha(accent, 0.1)}, 0 12px 28px rgba(0,0,0,0.32)`, overflow: 'hidden' }}>
-        <div style={{ width: 172, flexShrink: 0, borderRight: `1px solid ${BORDER}`, background: gradient, position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 140 }}>
+        <div style={{ width: 172, flexShrink: 0, alignSelf: 'center', aspectRatio: b.imageAspect || '5 / 6', borderRight: `1px solid ${BORDER}`, background: b.palette[1], position: 'relative', overflow: 'hidden' }}>
           {b.imageUrl && !imgFailed && (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={b.imageUrl} alt={b.imgLabel || b.name} loading="lazy" onError={() => setImgFailed(true)} style={{ width: '100%', height: 'auto', display: 'block', filter: 'sepia(0.16) saturate(0.88) contrast(1.04)' }} />
+            <img src={b.imageUrl} alt={b.imgLabel || b.name} loading="lazy" onError={() => setImgFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', filter: 'sepia(0.12) saturate(0.9) contrast(1.03)' }} />
           )}
         </div>
         <div style={{ flex: 1, minWidth: 0, padding: '14px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
@@ -228,6 +228,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
                 palette: m.palette,
                 imageUrl: m.imageUrl,
                 focus: m.focus,
+                imageAspect: m.imageAspect,
                 imgLabel: m.name,
               }}
             />
