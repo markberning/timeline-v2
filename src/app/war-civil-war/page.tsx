@@ -239,7 +239,7 @@ function TheatresInteractive() {
             {at.events.map(e => {
               const row = (
                 <>
-                  <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: e.heavy ? at.color : card, border: `1px solid ${e.heavy ? at.color : faint}` }} />
+                  <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: at.color, border: `1px solid ${at.color}` }} />
                   <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(at.color, 0.9), textTransform: 'uppercase' }}>{e.mo} {e.year}</div>
                   <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{e.name} <span style={{ color: faint, fontSize: 12 }}>· {e.place}</span></div>
                   <span style={{ position: 'absolute', right: 0, top: 7, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: e.href ? '#fff' : faint, background: e.href ? at.color : 'transparent', border: e.href ? 'none' : `1px solid ${border}` }}>{e.href ? 'Read →' : 'Soon'}</span>

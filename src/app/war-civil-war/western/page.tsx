@@ -294,7 +294,7 @@ function InterleavedCampaigns({ active = 'west' }: { active?: string }) {
           const tappable = isActive && !!e.href
           const inner = (
             <>
-              <span style={{ position: 'absolute', left: 3, top: 8, width: heavy ? 10 : 8, height: heavy ? 10 : 8, borderRadius: 999, background: heavy && isActive ? dotColor : (isActive ? CARD : 'transparent'), border: `1px solid ${dotColor}`, boxShadow: heavy && isActive ? `0 0 0 3px ${alpha(e.theatreColor, 0.18)}` : 'none' }} />
+              <span style={{ position: 'absolute', left: 3, top: 8, width: 9, height: 9, borderRadius: 999, background: isActive ? dotColor : 'transparent', border: `1px solid ${dotColor}`, boxShadow: isActive ? `0 0 0 3px ${alpha(e.theatreColor, 0.16)}` : 'none' }} />
               <div style={{ display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap' }}>
                 <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.3, fontWeight: 700, color: isActive ? alpha(dotColor, 0.95) : FAINT, textTransform: 'uppercase' }}>{e.mo} {e.year}</div>
                 {!isActive && <div style={{ fontFamily: MONO, fontSize: 9, letterSpacing: 0.3, color: FAINT }}>· {e.theatreName} theatre</div>}
