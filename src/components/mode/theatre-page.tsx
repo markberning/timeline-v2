@@ -70,7 +70,7 @@ const THEATRE_TRAIL_SHORT: Record<string, string> = {
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
 // Each mode crumb points at its vertical's FRONT DOOR — civ = the home spine,
 // war = the all-wars list (NOT the ACW home; that's the next crumb).
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: undefined, music: undefined }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: '/art', music: undefined }
 const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b => [b.id, b.color]))
 
 // The unified ACW breadcrumb: War › ACW › Theatre › Battle/Event, on EVERY ACW
