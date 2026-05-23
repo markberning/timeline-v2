@@ -88,7 +88,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
   // never cropped — with the text to the right (design freedom, user 2026-05-23).
   if (isXL) {
     return (
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', background: CARD_BG, borderRadius: 8, border: `1px solid ${artAlpha(accent, 0.55)}`, boxShadow: `0 0 0 4px ${artAlpha(accent, 0.1)}, 0 12px 28px rgba(0,0,0,0.32)`, overflow: 'hidden' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', background: CARD_BG, borderRadius: 8, border: `1px solid ${BORDER}`, boxShadow: '0 6px 20px rgba(0,0,0,0.18)', overflow: 'hidden' }}>
         <div style={{ width: 172, flexShrink: 0, alignSelf: 'center', aspectRatio: b.imageAspect || '5 / 6', borderRight: `1px solid ${BORDER}`, background: b.palette[1], position: 'relative', overflow: 'hidden' }}>
           {b.imageUrl && !imgFailed && (
             // eslint-disable-next-line @next/next/no-img-element
