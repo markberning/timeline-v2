@@ -16,17 +16,16 @@
 // (art-pages.jsx) into the app's CSS-var theming, fonts, and accent palette.
 // See audits/art-vertical.md (§"Lifeline is the Artist-page anchor").
 
-import { useState } from 'react'
 import Link from 'next/link'
 import {
   ArtChrome,
   ArtPageShell,
   ArtHero,
-  ArtAtAGlance,
+  ArtAccordion,
+  StatsRow,
   ArtTile,
   Eyebrow,
   artArtistCrumbs,
-  type ArtView,
   SANS,
   SERIF,
   MONO,
@@ -43,7 +42,6 @@ import {
   ART_ARTIST_CONTENT,
   ART_WORK_CONTENT,
   type ArtArtistContent,
-  type ArtistPeriod,
   type Palette,
 } from '@/lib/art-content'
 
@@ -215,73 +213,17 @@ function PeriodsList({ a }: { a: ArtArtistContent }) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Lifeline view — a cord/node list of the periods (one card per period, node
-// dot in the period's colour), echoing the era page's cord/node timeline but
-// keyed on periods rather than movements.
-// ─────────────────────────────────────────────────────────────
-const CORD_X = 56
-const CARD_LEFT = CORD_X + 16
-
-function PeriodCord({ a, accent }: { a: ArtArtistContent; accent: string }) {
-  return (
-    <div style={{ position: 'relative', paddingTop: 26, paddingBottom: 4 }}>
-      <div style={{ position: 'absolute', left: CORD_X, top: 8, bottom: 8, width: 1, background: BORDER_STRONG }} />
-      <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>
-        {a.periods.length} periods
-      </div>
-      <div style={{ paddingTop: 14 }}>
-        {a.periods.map(p => (
-          <PeriodCordCard key={p.id} period={p} />
-        ))}
-      </div>
-    </div>
-  )
-}
-
-function PeriodCordCard({ period: p }: { period: ArtistPeriod }) {
-  const [startYear, endYear] = parseRange(p.range)
-  const years = `${endYear - startYear} yrs`
-  const isLG = p.size === 'l'
-  const cardHeight = p.size === 'l' ? 168 : p.size === 'm' ? 124 : 96
-  const imgW = p.size === 'l' ? 140 : p.size === 'm' ? 116 : 96
-  return (
-    <div style={{ position: 'relative', paddingLeft: CARD_LEFT, paddingRight: 16, marginBottom: 14 }}>
-      {/* date tag on cord */}
-      <div style={{ position: 'absolute', left: 4, top: 10, width: CORD_X - 12, textAlign: 'right', paddingRight: 6, fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.3, fontWeight: 600 }}>
-        <div style={{ color: p.color, fontWeight: 700, fontSize: 11 }}>{startYear}</div>
-        <div style={{ color: FAINT, fontSize: 9.5, marginTop: 1 }}>· {years}</div>
-      </div>
-      {/* node */}
-      <div style={{ position: 'absolute', left: CORD_X - 5, top: 12, width: 10, height: 10, borderRadius: 999, background: p.color, boxShadow: `0 0 0 3px ${artAlpha(p.color, 0.18)}`, border: `1px solid ${p.color}`, zIndex: 1 }} />
-      {/* connector */}
-      <div style={{ position: 'absolute', left: CORD_X + 5, top: 16, width: 11, height: 1, background: artAlpha(p.color, 0.5) }} />
-      <div style={{ background: CARD_BG, borderRadius: 8, border: `1px solid ${BORDER}`, overflow: 'hidden', display: 'flex', flexDirection: 'row', height: cardHeight }}>
-        <div style={{ width: imgW, height: '100%', flexShrink: 0, borderRight: `1px solid ${BORDER}`, position: 'relative', background: `linear-gradient(135deg, ${artAlpha(p.color, 0.85)}, #2a221c 55%, #0a0606)` }}>
-          <div style={{ position: 'absolute', left: 8, bottom: 7, right: 8, fontFamily: MONO, fontSize: 9, letterSpacing: 0.4, color: 'rgba(255,255,255,0.86)', textShadow: '0 1px 2px rgba(0,0,0,0.55)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.label}</div>
-        </div>
-        <div style={{ flex: 1, minWidth: 0, padding: isLG ? '10px 12px' : '8px 11px', display: 'flex', flexDirection: 'column' }}>
-          <div style={{ fontFamily: SERIF, fontSize: isLG ? 17 : 15, lineHeight: 1.1, letterSpacing: -0.2, color: INK }}>{p.label}</div>
-          <div style={{ fontFamily: SANS, fontSize: 10, color: MUTED, marginTop: 3, letterSpacing: 0.1 }}>{p.range}</div>
-          <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: isLG ? 13.5 : 12.5, lineHeight: 1.4, color: MUTED, overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: isLG ? 3 : 2, WebkitBoxOrient: 'vertical' }}>{p.summary}</div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-// ─────────────────────────────────────────────────────────────
 // Page
 // ─────────────────────────────────────────────────────────────
 export function ArtArtistPage({ artistId }: { artistId: string }) {
   const a = ART_ARTIST_CONTENT[artistId]
-  // Dossier is the default view (right); Lifeline is left.
-  const [view, setView] = useState<ArtView>('right')
+  // Single view (the Lifeline/Dossier toggle was removed).
 
   // ── Unauthored artist: graceful "coming soon" under the same chrome. ──
   if (!a) {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-        <ArtChrome crumbs={artArtistCrumbs('This artist')} view={view} onView={setView} labels={['Lifeline', 'Dossier']} accent={ART_ACCENT} />
+        <ArtChrome crumbs={artArtistCrumbs('This artist')} accent={ART_ACCENT} />
         <ArtPageShell>
           <ArtHero
             eyebrow="ART · ARTIST"
@@ -308,50 +250,31 @@ export function ArtArtistPage({ artistId }: { artistId: string }) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <ArtChrome crumbs={artArtistCrumbs(a.name)} view={view} onView={setView} labels={['Lifeline', 'Dossier']} accent={accent} />
+      <ArtChrome crumbs={artArtistCrumbs(a.name)} accent={accent} />
       <ArtPageShell>
-        {view === 'right' ? (
-          <div key="dossier">
-            <ArtHero
-              eyebrow="ART · ARTIST"
-              title={a.name}
-              sub={`${a.born.year}–${a.died.year} · ${a.nationality}`}
-              palette={HERO_PALETTE}
-              imageUrl={a.heroImage}
-              images={a.heroImages}
-              fit={a.heroFit}
-              focus={a.heroFocus}
-              credit={a.heroCredit}
-              accent={accent}
-            />
-            <ArtAtAGlance
-              summary={a.stats.map(s => `${s.k} · ${s.v}`).join('  ')}
-              stats={a.stats}
-            />
-            <Lifeline a={a} />
-            <KeyWorksStrip a={a} />
-            <PeriodsList a={a} />
-          </div>
-        ) : (
-          <div key="lifeline">
-            <ArtHero
-              eyebrow="ART · ARTIST"
-              title={a.name}
-              sub={`${a.born.year}–${a.died.year} · ${a.nationality}`}
-              palette={HERO_PALETTE}
-              imageUrl={a.heroImage}
-              images={a.heroImages}
-              fit={a.heroFit}
-              focus={a.heroFocus}
-              credit={a.heroCredit}
-              accent={accent}
-            />
-            <div style={{ padding: '16px 18px 0' }}>
-              <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{a.hookLong}</p>
-            </div>
-            <PeriodCord a={a} accent={accent} />
-          </div>
-        )}
+        <ArtHero
+          eyebrow="ART · ARTIST"
+          title={a.name}
+          sub={`${a.born.year}–${a.died.year} · ${a.nationality}`}
+          palette={HERO_PALETTE}
+          imageUrl={a.heroImage}
+          images={a.heroImages}
+          fit={a.heroFit}
+          focus={a.heroFocus}
+          credit={a.heroCredit}
+          accent={accent}
+        />
+        <div style={{ padding: '16px 18px 4px' }}>
+          <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{a.hookLong}</p>
+        </div>
+        {/* signature visual — always visible */}
+        <Lifeline a={a} />
+        {/* secondary detail — collapsed by default */}
+        <ArtAccordion label="The details">
+          <StatsRow stats={a.stats} />
+          <KeyWorksStrip a={a} />
+        </ArtAccordion>
+        <PeriodsList a={a} />
       </ArtPageShell>
     </div>
   )

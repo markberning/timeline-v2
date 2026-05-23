@@ -11,17 +11,15 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import {
-  ArtChrome, ArtPageShell, ArtHero, ArtAtAGlance, ArtistsStrip,
+  ArtChrome, ArtPageShell, ArtHero, ArtAccordion, StatsRow, ArtistsStrip,
   artWorkCrumbs, artAlpha,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG, CHIP,
-  type ArtView,
 } from '@/components/mode/art-chrome'
 import { ART_WORK_CONTENT } from '@/lib/art-content'
 
 export function ArtWorkPage({ workId }: { eraId: string; movementId: string; workId: string }) {
   const w = ART_WORK_CONTENT[workId]
   const accent = w.accent
-  const [view, setView] = useState<ArtView>('right')
 
   const base = `/art/${w.eraId}/${w.movementId}/${w.id}`
 
@@ -29,35 +27,31 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <ArtChrome
         crumbs={artWorkCrumbs(w.eraId, w.era, w.movementId, w.movement, w.id, w.name, w.shortName)}
-        view={view}
-        onView={setView}
-        labels={['Story', 'Dossier']}
         accent={accent}
       />
       <ArtPageShell>
-        {view === 'right' ? (
-          <>
-            <ArtHero
-              eyebrow={`${w.movement.toUpperCase()} · WORK`}
-              title={w.name}
-              sub={`${w.artist} · ${w.year}`}
-              palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
-              imageUrl={w.heroImage}
-              fit={w.heroFit}
-              focus={w.heroFocus}
-              images={w.heroImages}
-              credit={w.heroCredit}
-              accent={accent}
-            />
-            <ArtAtAGlance summary={w.stats.map(s => `${s.k} · ${s.v}`).join('  ')} stats={w.stats} />
-            <CanvasViewer accent={accent} />
-            <ArtistsStrip artists={w.figures} label="Figures around the work" />
-            <WorkSectionsList base={base} accent={accent} />
-            <ProvenanceBlock accent={accent} />
-          </>
-        ) : (
-          <StoryView base={base} accent={accent} />
-        )}
+        <ArtHero
+          eyebrow={`${w.movement.toUpperCase()} · WORK`}
+          title={w.name}
+          sub={`${w.artist} · ${w.year}`}
+          palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
+          imageUrl={w.heroImage}
+          fit={w.heroFit}
+          focus={w.heroFocus}
+          images={w.heroImages}
+          credit={w.heroCredit}
+          accent={accent}
+        />
+        {/* signature visual — always visible */}
+        <CanvasViewer accent={accent} />
+        {/* secondary detail — collapsed by default */}
+        <ArtAccordion label="The details">
+          <StatsRow stats={w.stats} />
+          <ArtistsStrip artists={w.figures} label="Figures around the work" />
+          <ProvenanceBlock accent={accent} />
+        </ArtAccordion>
+        {/* the 5 chapters — the primary read entry, always visible */}
+        <WorkSectionsList base={base} accent={accent} />
       </ArtPageShell>
     </div>
   )
@@ -218,75 +212,3 @@ function ProvenanceBlock({ accent }: { accent: string }) {
   )
 }
 
-// ─────────────────────────────────────────────────────────────
-// Story view — cord/node of the 5 section chapters, each a reader link.
-// ─────────────────────────────────────────────────────────────
-const SECTION_PALETTES: Record<string, [string, string, string]> = {
-  setting: ['#3a3a4a', '#1c1c2a', '#0a0a14'],
-  making: ['#c0a06c', '#3d3a2e', '#8a6b3a'],
-  reception: ['#bf2f25', '#3a1c14', '#0a0606'],
-  hidden: ['#3a2a1c', '#1c1410', '#0a0606'],
-  legacy: ['#3a4a8b', '#7a6a3a', '#0e1224'],
-}
-const SECTION_SIZES: Record<string, 'm' | 'l'> = { setting: 'm', making: 'l', reception: 'm', hidden: 'm', legacy: 'l' }
-
-function StoryView({ base, accent }: { base: string; accent: string }) {
-  const w = ART_WORK_CONTENT['demoiselles']
-  return (
-    <div style={{ background: 'var(--background)', color: 'var(--foreground)' }}>
-      <ArtHero
-        eyebrow={`${w.movement.toUpperCase()} · WORK`}
-        title={w.name}
-        sub={`${w.artist} · ${w.year}`}
-        palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
-        imageUrl={w.heroImage}
-        credit={w.heroCredit}
-        accent={accent}
-      />
-      <div style={{ padding: '16px 18px 0' }}>
-        <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED }}>{w.hook}</p>
-      </div>
-      <div style={{ position: 'relative', paddingTop: 26, paddingBottom: 4 }}>
-        <div style={{ position: 'absolute', left: 56, top: 8, bottom: 8, width: 1, background: BORDER_STRONG }} />
-        <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>{w.sections.length} chapters</div>
-        <div style={{ paddingTop: 14, padding: '14px 16px 0' }}>
-          {w.sections.map((s, i) => {
-            const palette = SECTION_PALETTES[s.id] || ['#3a3a4a', '#1c1c2a', '#0a0a14']
-            const heavy = (SECTION_SIZES[s.id] || 'm') === 'l'
-            const [c0, c1, c2] = palette
-            return (
-              <Link
-                key={s.id}
-                href={`${base}/${s.id}`}
-                style={{
-                  display: 'flex', gap: 14, alignItems: 'stretch', textDecoration: 'none',
-                  marginBottom: 14, position: 'relative',
-                }}
-              >
-                <span style={{
-                  flexShrink: 0, alignSelf: 'center', width: 13, height: 13, borderRadius: 999,
-                  background: heavy ? accent : CARD_BG,
-                  border: `2px solid ${heavy ? accent : BORDER_STRONG}`,
-                  boxShadow: heavy ? `0 0 0 4px ${artAlpha(accent, 0.18)}` : 'none',
-                  marginLeft: 33,
-                }} />
-                <div style={{
-                  flex: 1, minWidth: 0, display: 'flex', gap: 12, alignItems: 'stretch',
-                  background: CARD_BG, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden',
-                  padding: 12,
-                }}>
-                  <div style={{ flexShrink: 0, width: 54, borderRadius: 5, background: `linear-gradient(135deg, ${c0}, ${c1} 55%, ${c2})` }} />
-                  <div style={{ flex: 1, minWidth: 0 }}>
-                    <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.4, fontWeight: 700, color: artAlpha(accent, 0.95), textTransform: 'uppercase' }}>{s.eyebrow} · {s.dateLabel}</div>
-                    <div style={{ fontFamily: SERIF, fontSize: heavy ? 17 : 15.5, lineHeight: 1.2, letterSpacing: -0.15, color: INK, marginTop: 3, fontWeight: 500 }}>{i + 1}. {s.title}</div>
-                    <div style={{ marginTop: 5, fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{s.blurb}</div>
-                  </div>
-                </div>
-              </Link>
-            )
-          })}
-        </div>
-      </div>
-    </div>
-  )
-}

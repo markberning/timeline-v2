@@ -22,11 +22,12 @@ import {
   ArtChrome,
   ArtPageShell,
   ArtHero,
-  ArtAtAGlance,
+  ArtAccordion,
+  StatsRow,
+  ArtFaceoff,
   ArtistsStrip,
   Eyebrow,
   artEraCrumbs,
-  type ArtView,
   SANS,
   SERIF,
   MONO,
@@ -307,8 +308,7 @@ function EraDossierMap({ accent }: { accent: string }) {
 export function ArtEraPage({ eraId }: { eraId: string }) {
   const era = ART_ERA_CONTENT[eraId]
   const eraMeta = ART_ERAS.find(e => e.id === eraId)
-  // Dossier is the default view (right); Timeline is left.
-  const [view, setView] = useState<ArtView>('right')
+  // Single view (the Timeline/Dossier toggle was removed).
 
   // ── Unauthored era: graceful "coming soon" under the same chrome. ──
   if (!era) {
@@ -316,7 +316,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
     const palette: Palette = eraMeta?.palette ?? ['#3a3a4a', '#1c1c2a', '#0a0a14']
     return (
       <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-        <ArtChrome crumbs={artEraCrumbs(eraId, name)} view={view} onView={setView} labels={['Timeline', 'Dossier']} accent={ART_ACCENT} />
+        <ArtChrome crumbs={artEraCrumbs(eraId, name)} accent={ART_ACCENT} />
         <ArtPageShell>
           <ArtHero
             eyebrow="ART · ERAS OF WESTERN ART"
@@ -346,51 +346,32 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <ArtChrome crumbs={artEraCrumbs('mod', era.name)} view={view} onView={setView} labels={['Timeline', 'Dossier']} accent={accent} />
+      <ArtChrome crumbs={artEraCrumbs('mod', era.name)} accent={accent} />
       <ArtPageShell>
-        {view === 'right' ? (
-          <div key="dossier">
-            <ArtHero
-              eyebrow={`ART · ERAS OF WESTERN ART · ${era.chain.index} OF ${era.chain.total}`}
-              title={era.name}
-              sub={`${era.range} · ${era.span}`}
-              palette={palette}
-              imageUrl={era.heroImage}
-              images={era.heroImages}
-              fit={era.heroFit}
-              focus={era.heroFocus}
-              credit={era.heroCredit}
-              accent={accent}
-            />
-            <ArtAtAGlance
-              summary={era.stats.map(s => `${s.k} · ${s.v}`).join('  ')}
-              stats={era.stats}
-              faceoff={era.tensions}
-            />
-            <ArtistsStrip artists={era.anchorPainters} label="Painters who anchor the era" />
-            <EraDossierMap accent={accent} />
-            <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
-          </div>
-        ) : (
-          <div key="timeline">
-            <ArtHero
-              eyebrow={`ART · ERAS OF WESTERN ART · ${era.chain.index} OF ${era.chain.total}`}
-              title={era.name}
-              sub={`${era.range} · ${era.span}`}
-              palette={palette}
-              imageUrl={era.heroImage}
-              images={era.heroImages}
-              fit={era.heroFit}
-              focus={era.heroFocus}
-              credit={era.heroCredit}
-              accent={accent}
-            />
-            <div style={{ padding: '16px 18px 0' }}>
-              <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
-            </div>
-            <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
-          </div>
-        )}
+        <ArtHero
+          eyebrow={`ART · ERAS OF WESTERN ART · ${era.chain.index} OF ${era.chain.total}`}
+          title={era.name}
+          sub={`${era.range} · ${era.span}`}
+          palette={palette}
+          imageUrl={era.heroImage}
+          images={era.heroImages}
+          fit={era.heroFit}
+          focus={era.heroFocus}
+          credit={era.heroCredit}
+          accent={accent}
+        />
+        <div style={{ padding: '16px 18px 4px' }}>
+          <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
+        </div>
+        {/* signature visual — always visible */}
+        <EraDossierMap accent={accent} />
+        {/* secondary detail — collapsed by default */}
+        <ArtAccordion label="The details">
+          <StatsRow stats={era.stats} />
+          <ArtFaceoff items={era.tensions} />
+          <ArtistsStrip artists={era.anchorPainters} label="Painters who anchor the era" />
+        </ArtAccordion>
+        <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
       </ArtPageShell>
     </div>
   )

@@ -14,8 +14,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import {
-  ArtChrome, ArtPageShell, ArtHero, ArtAtAGlance, ArtistsStrip, Eyebrow,
-  artMovementCrumbs, type ArtView,
+  ArtChrome, ArtPageShell, ArtHero, ArtAccordion, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow,
+  artMovementCrumbs,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG, artAlpha,
 } from '@/components/mode/art-chrome'
 import { ART_ACCENT } from '@/lib/art-data'
@@ -258,9 +258,6 @@ function ComingSoon({ eraId, movementId }: { eraId: string; movementId: string }
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <ArtChrome
         crumbs={artMovementCrumbs(eraId, eraId, movementId, title)}
-        view="right"
-        onView={() => {}}
-        labels={['Timeline', 'Dossier']}
         accent={accent}
       />
       <ArtPageShell>
@@ -282,7 +279,6 @@ function ComingSoon({ eraId, movementId }: { eraId: string; movementId: string }
 
 // ═════════════════════════════════════════════════════════════
 export function ArtMovementPage({ eraId, movementId }: { eraId: string; movementId: string }) {
-  const [view, setView] = useState<ArtView>('right')
   const mv = ART_MOVEMENT_CONTENT[movementId]
 
   if (!mv) return <ComingSoon eraId={eraId} movementId={movementId} />
@@ -293,56 +289,34 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <ArtChrome
         crumbs={artMovementCrumbs(mv.eraId, mv.era, mv.id, mv.name)}
-        view={view}
-        onView={setView}
-        labels={['Timeline', 'Dossier']}
         accent={accent}
       />
       <ArtPageShell>
-        {view === 'right' ? (
-          <>
-            <ArtHero
-              eyebrow={`${mv.era.toUpperCase()} · MOVEMENT · ${mv.chain.index} OF ${mv.chain.total}`}
-              title={mv.name}
-              sub={`${mv.range} · ${mv.span}`}
-              palette={mv.works[0].palette}
-              imageUrl={mv.heroImage}
-              images={mv.heroImages}
-              fit={mv.heroFit}
-              focus={mv.heroFocus}
-              credit={mv.heroCredit}
-              accent={accent}
-            />
-            <ArtAtAGlance
-              summary={mv.stats.map(s => `${s.k} · ${s.v}`).join('  ')}
-              stats={mv.stats}
-              faceoff={mv.factions}
-            />
-            <ArtistsStrip artists={mv.artists} label="Cubist artists" />
-            <InfluenceRibbon accent={accent} eraId={mv.eraId} movementId={mv.id} />
-            <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
-            <ParallelsList parallels={mv.parallels} />
-          </>
-        ) : (
-          <>
-            <ArtHero
-              eyebrow={`${mv.era.toUpperCase()} · MOVEMENT · ${mv.chain.index} OF ${mv.chain.total}`}
-              title={mv.name}
-              sub={`${mv.range} · ${mv.span}`}
-              palette={mv.works[0].palette}
-              imageUrl={mv.heroImage}
-              images={mv.heroImages}
-              fit={mv.heroFit}
-              focus={mv.heroFocus}
-              credit={mv.heroCredit}
-              accent={accent}
-            />
-            <div style={{ padding: '16px 18px 0' }}>
-              <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
-            </div>
-            <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
-          </>
-        )}
+        <ArtHero
+          eyebrow={`${mv.era.toUpperCase()} · MOVEMENT · ${mv.chain.index} OF ${mv.chain.total}`}
+          title={mv.name}
+          sub={`${mv.range} · ${mv.span}`}
+          palette={mv.works[0].palette}
+          imageUrl={mv.heroImage}
+          images={mv.heroImages}
+          fit={mv.heroFit}
+          focus={mv.heroFocus}
+          credit={mv.heroCredit}
+          accent={accent}
+        />
+        <div style={{ padding: '16px 18px 4px' }}>
+          <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
+        </div>
+        {/* signature visual — always visible */}
+        <InfluenceRibbon accent={accent} eraId={mv.eraId} movementId={mv.id} />
+        {/* secondary detail — collapsed by default */}
+        <ArtAccordion label="The details">
+          <StatsRow stats={mv.stats} />
+          <ArtFaceoff items={mv.factions} />
+          <ArtistsStrip artists={mv.artists} label="Cubist artists" />
+          <ParallelsList parallels={mv.parallels} />
+        </ArtAccordion>
+        <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
       </ArtPageShell>
     </div>
   )

@@ -85,31 +85,43 @@ export function artArtistCrumbs(artistName: string): Crumb[] {
 // ─────────────────────────────────────────────────────────────
 export type ArtView = 'left' | 'right'
 
-export function ArtChrome({ crumbs, view, onView, labels, accent = ART_ACCENT }: { crumbs: Crumb[]; view: ArtView; onView: (v: ArtView) => void; labels: [string, string]; accent?: string }) {
-  const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
-  const border = `1px solid ${BORDER}`
-  const chipActive = 'color-mix(in srgb, var(--foreground) 14%, var(--background))'
-  const iconBtn: React.CSSProperties = { width: 34, height: 34, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border, background: CHIP, borderRadius: 999, color: INK, cursor: 'pointer', padding: 0 }
+export function ArtChrome({ crumbs, accent = ART_ACCENT }: { crumbs: Crumb[]; accent?: string }) {
+  // Single-view drilldown: just the breadcrumb. The Timeline/Dossier toggle was
+  // removed — the page leads with its signature visual and tucks the secondary
+  // detail blocks into a closed ArtAccordion (user direction 2026-05-23).
+  return <WarBreadcrumb crumbs={crumbs} accent={accent} />
+}
+
+// Stats row (the "at a glance" numbers), standalone so it can sit inside an
+// ArtAccordion instead of its own collapsible.
+export function StatsRow({ stats }: { stats: ArtStat[] }) {
   return (
-    <>
-      <WarBreadcrumb crumbs={crumbs} accent={accent} />
-      <div style={{ position: 'sticky', top: 36, zIndex: 6, background: bar, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: border, padding: '10px 14px 12px', display: 'flex', alignItems: 'center', gap: 10 }}>
-        <button aria-label="Back" onClick={() => history.back()} style={iconBtn}>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-        </button>
-        <div style={{ flex: 1, display: 'flex', background: CHIP, border, borderRadius: 999, padding: 3, gap: 2 }}>
-          {(['left', 'right'] as ArtView[]).map((v, i) => {
-            const active = v === view
-            return (
-              <button key={v} onClick={() => onView(v)} style={{ flex: 1, appearance: 'none', border: 'none', borderRadius: 999, cursor: 'pointer', background: active ? chipActive : 'transparent', color: active ? INK : MUTED, fontFamily: SANS, fontWeight: active ? 600 : 500, fontSize: 12.5, letterSpacing: 0.2, padding: '7px 0', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
-                {labels[i]}
-              </button>
-            )
-          })}
+    <div style={{ display: 'flex', borderTop: `1px solid ${BORDER}`, borderBottom: `1px solid ${BORDER}` }}>
+      {stats.map((s, i) => (
+        <div key={s.k} style={{ flex: 1, padding: '14px 12px', borderLeft: i === 0 ? 'none' : `1px solid ${BORDER}`, textAlign: 'center' }}>
+          <div style={{ fontFamily: SERIF, fontSize: 20, lineHeight: 1, letterSpacing: -0.4, color: INK, fontWeight: 500 }}>{s.v}</div>
+          <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>{s.k}</div>
         </div>
-        <div style={{ width: 34, height: 34, flexShrink: 0 }} />
-      </div>
-    </>
+      ))}
+    </div>
+  )
+}
+
+// Closed-by-default collapsible holding a level's secondary "dossier" detail
+// blocks (stats, face-off, strips, parallels, provenance). The page's ONE
+// signature visual stays OUTSIDE this, always visible.
+export function ArtAccordion({ label = 'The details', children, defaultOpen = false }: { label?: string; children: React.ReactNode; defaultOpen?: boolean }) {
+  const [open, setOpen] = useState(defaultOpen)
+  return (
+    <div style={{ borderBottom: `1px solid ${BORDER}` }}>
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', padding: '13px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: INK, textAlign: 'left', gap: 12 }}>
+        <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>{label}</span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 22, height: 22, borderRadius: 999, background: CHIP, color: MUTED, border: `1px solid ${BORDER}`, transition: 'transform 200ms ease', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}>
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+        </span>
+      </button>
+      {open && <div>{children}</div>}
+    </div>
   )
 }
 
