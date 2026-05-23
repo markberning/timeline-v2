@@ -272,7 +272,7 @@ function ETMap() {
         { name: 'Maryland', tone: 'gray', label: 'MARYLAND', labelLon: -76.5, labelLat: 39.28 },
         { name: 'Virginia', tone: 'focus', label: 'VIRGINIA', labelLon: -78.7, labelLat: 37.5 },
       ]}
-      labels={[{ text: 'Shenandoah', lon: -78.5, lat: 38.7, kind: 'accent', size: 13 }]}
+      labels={[{ text: 'Shenandoah', lon: -78.5, lat: 38.7, kind: 'accent', size: 15 }]}
       corridor={{ fromLon: -77.04, fromLat: 38.90, toLon: -77.43, toLat: 37.54, label: '110 mi', labelLon: -77.0, labelLat: 38.25 }}
       dots={[
         { name: 'Gettysburg', lat: 39.83, lon: -77.23 },

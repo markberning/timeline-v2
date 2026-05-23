@@ -287,13 +287,13 @@ function WTMap() {
         { name: 'South Carolina', tone: 'faint' },
         { name: 'Kentucky', tone: 'gray', label: 'KENTUCKY', labelLon: -85.6, labelLat: 37.35 },
         { name: 'Alabama', tone: 'gray', label: 'ALA.', labelLon: -86.7, labelLat: 32.4 },
-        { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -85.9, labelLat: 35.85 },
+        { name: 'Tennessee', tone: 'focus', label: 'TENNESSEE', labelLon: -87.4, labelLat: 35.3 },
         { name: 'Mississippi', tone: 'focus', label: 'MISS.', labelLon: -89.6, labelLat: 33.2 },
         { name: 'Georgia', tone: 'focus', label: 'GEORGIA', labelLon: -83.4, labelLat: 32.7 },
       ]}
       rivers={[
         ...US_RIVERS.Mississippi.map((pts, i) => i === 0 ? { pts, label: 'Mississippi R.', labelLon: -90.7, labelLat: 31.4, labelAnchor: 'start' as const } : { pts }),
-        ...US_RIVERS.Tennessee.map((pts, i) => i === 0 ? { pts, label: 'Tennessee R.', labelLon: -88.25, labelLat: 36.35, labelAnchor: 'start' as const } : { pts }),
+        ...US_RIVERS.Tennessee.map((pts, i) => i === 0 ? { pts, label: 'Tennessee R.', labelLon: -86.7, labelLat: 34.78, labelAnchor: 'start' as const } : { pts }),
       ]}
       corridor={{ fromLon: -84.39, fromLat: 33.75, toLon: -81.09, toLat: 32.08, label: 'to the sea · 300 mi', labelLon: -83.4, labelLat: 33.15 }}
       dots={[

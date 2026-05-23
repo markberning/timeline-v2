@@ -69,7 +69,7 @@ export function DottedMap({
             return (
               <g key={`r${i}`}>
                 <path d={d} fill="none" stroke={alpha('#0ea5e9', 0.55)} strokeWidth={1.8} strokeDasharray="1.5 4.5" strokeLinecap="round" strokeLinejoin="round" />
-                {rv.label && <text x={X(rv.labelLon ?? rv.pts[0][0])} y={Y(rv.labelLat ?? rv.pts[0][1])} fontFamily={MONO} fontSize={12.5} fill={water} textAnchor={rv.labelAnchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.6}>{rv.label}</text>}
+                {rv.label && <text x={X(rv.labelLon ?? rv.pts[0][0])} y={Y(rv.labelLat ?? rv.pts[0][1])} fontFamily={MONO} fontSize={15} fill={water} textAnchor={rv.labelAnchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={4}>{rv.label}</text>}
               </g>
             )
           })}
@@ -77,12 +77,12 @@ export function DottedMap({
             <text key={`l${st.name}`} x={X(st.labelLon!)} y={Y(st.labelLat!)} fontFamily={MONO} fontSize={st.labelSize ?? 19} fontWeight={700} letterSpacing={1.8} fill={toneLabel(st.tone, st.color)} textAnchor="middle" style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={5.5} strokeLinejoin="round">{st.label}</text>
           ))}
           {labels.map((l, i) => (
-            <text key={`f${i}`} x={X(l.lon)} y={Y(l.lat)} fontFamily={MONO} fontSize={l.size ?? 13} letterSpacing={0.5} fill={labelColor(l.kind)} textAnchor={l.anchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3}>{l.text}</text>
+            <text key={`f${i}`} x={X(l.lon)} y={Y(l.lat)} fontFamily={MONO} fontSize={l.size ?? 15} letterSpacing={0.5} fill={labelColor(l.kind)} textAnchor={l.anchor ?? 'middle'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.6}>{l.text}</text>
           ))}
           {corridor && (
             <>
               <line x1={X(corridor.fromLon)} y1={Y(corridor.fromLat)} x2={X(corridor.toLon)} y2={Y(corridor.toLat)} stroke={FG(0.5)} strokeWidth={1.5} strokeDasharray="2 4" />
-              {corridor.label && <text x={X(corridor.labelLon ?? (corridor.fromLon + corridor.toLon) / 2)} y={Y(corridor.labelLat ?? (corridor.fromLat + corridor.toLat) / 2)} fontFamily={MONO} fontSize={13.5} fill={FG(0.62)} textAnchor={corridor.labelAnchor ?? 'start'} dx={corridor.labelAnchor === 'end' ? -6 : 6} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3}>{corridor.label}</text>}
+              {corridor.label && <text x={X(corridor.labelLon ?? (corridor.fromLon + corridor.toLon) / 2)} y={Y(corridor.labelLat ?? (corridor.fromLat + corridor.toLat) / 2)} fontFamily={MONO} fontSize={15} fill={FG(0.62)} textAnchor={corridor.labelAnchor ?? 'start'} dx={corridor.labelAnchor === 'end' ? -6 : 6} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={3.6}>{corridor.label}</text>}
             </>
           )}
           {dots.map((d, i) => {
