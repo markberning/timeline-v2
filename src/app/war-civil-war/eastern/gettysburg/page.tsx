@@ -35,10 +35,10 @@ const ARMIES = [
 ]
 const CAS = { union: 23055, csa: 28063, civ: 1 }
 const FIGURES = [
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C' }, { name: 'J. Longstreet', role: 'Lt. Gen., CSA', side: 'C' },
-  { name: 'G. Pickett', role: 'Div., CSA', side: 'C' }, { name: 'G. Meade', role: 'Cmdr., Potomac', side: 'U' },
-  { name: 'W. Hancock', role: 'Corps, Union', side: 'U' }, { name: 'J. Buford', role: 'Cav., Union', side: 'U' },
-  { name: 'J. Chamberlain', role: 'Col., 20th Maine', side: 'U' },
+  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' }, { name: 'J. Longstreet', role: 'Lt. Gen., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
+  { name: 'G. Pickett', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/pickett.jpg' }, { name: 'G. Meade', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg' },
+  { name: 'W. Hancock', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg' }, { name: 'J. Buford', role: 'Cav., Union', side: 'U', img: '/war-img/cmdr/buford.jpg' },
+  { name: 'J. Chamberlain', role: 'Col., 20th Maine', side: 'U', img: '/war-img/cmdr/chamberlain.jpg' },
 ]
 const SECTIONS = [
   { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee (South) marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
@@ -322,7 +322,9 @@ function CommandersStrip() {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
             <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }} />
+              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+                {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
+              </div>
               <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
               <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
             </div>

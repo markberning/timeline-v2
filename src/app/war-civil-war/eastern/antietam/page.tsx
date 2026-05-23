@@ -31,10 +31,10 @@ const ARMIES = [
 ]
 const CAS = { union: 12410, csa: 10316, civ: 0 }
 const FIGURES = [
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C' }, { name: 'T. J. Jackson', role: 'Left wing, CSA', side: 'C' },
-  { name: 'J. Longstreet', role: 'Right wing, CSA', side: 'C' }, { name: 'A. P. Hill', role: 'Div., CSA', side: 'C' },
-  { name: 'G. McClellan', role: 'Cmdr., Potomac', side: 'U' }, { name: 'J. Hooker', role: 'I Corps, Union', side: 'U' },
-  { name: 'A. Burnside', role: 'IX Corps, Union', side: 'U' },
+  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' }, { name: 'T. J. Jackson', role: 'Left wing, CSA', side: 'C', img: '/war-img/cmdr/jackson.jpg' },
+  { name: 'J. Longstreet', role: 'Right wing, CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' }, { name: 'A. P. Hill', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/ap-hill.jpg' },
+  { name: 'G. McClellan', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/mcclellan.jpg' }, { name: 'J. Hooker', role: 'I Corps, Union', side: 'U', img: '/war-img/cmdr/hooker.jpg' },
+  { name: 'A. Burnside', role: 'IX Corps, Union', side: 'U', img: '/war-img/cmdr/burnside.jpg' },
 ]
 const SECTIONS = [
   { id: 'lost-order', eyebrow: 'The lost order', title: 'The Lost Order', blurb: 'Lee (South) invades the North. A Union soldier finds Lee’s battle plan wrapped around three cigars — and McClellan (North) sits on it for eighteen hours.' },
@@ -160,7 +160,9 @@ function CommandersStrip() {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
             <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }} />
+              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+                {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
+              </div>
               <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
               <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
             </div>
