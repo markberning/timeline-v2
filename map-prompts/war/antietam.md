@@ -33,13 +33,15 @@ Six labels only: Potomac, Sharpsburg, Frederick, Harpers Ferry, Lee, McClellan. 
 
 ## Map antietam-cornfield
 
-A clean schematic close-up of the morning fight at Antietam, dawn September 17, 1862 — the northern end of the field. A zoomed-in tactical view, NOT the whole battle.
+A clean schematic close-up of the morning fight at Antietam, dawn September 17, 1862 — the northern end of the field. A zoomed-in tactical view, NOT the whole battle. Fill the frame with the action; do not leave large empty areas.
 
-The Confederates are defending the SOUTH end of the field, facing NORTH. Draw their position as a horizontal RUST line running east–west across the lower-center of the image — the line the Union is attacking into. Anchor the western end of that rust line at a stand of trees labeled "West Woods" (lower left). Place a small building marker labeled "Dunker Church" just behind the rust line (below it). Label the open ground NORTH of the rust line (upper-center) "The Cornfield".
+In the center, draw a defined rectangular field with a thin dark outline and a faint pale-gold wash, labeled "The Cornfield" — the contested killing ground. Flank it with two stands of trees: "West Woods" on the left and "East Woods" on the right, so the Cornfield sits between them.
 
-Show the Union attack as one bold BLUE arrow driving straight south from the top edge, down through the Cornfield and into the rust line, labeled "Hooker".
+The Confederates defend the SOUTH, facing NORTH: draw the Confederate line in rust-red ink, running east–west across the lower edge of the Cornfield — its western end anchored in the West Woods, its eastern end stopping short of the right edge (a held position, not a wall spanning everything). Place a small building marker labeled "Dunker Church" just behind (below) the line.
 
-Four labels only: The Cornfield, Dunker Church, West Woods, Hooker. Nothing else.
+Show the back-and-forth that made this the bloodiest ground of the day with TWO arrows that meet in the Cornfield: one bold blue Union arrow driving south from the top into the Cornfield, labeled "Hooker", and one bold rust-red Confederate counterattack arrow pushing back north from the line into the Cornfield.
+
+The ONLY text anywhere on the image is these five labels: The Cornfield, Dunker Church, West Woods, East Woods, Hooker. Print no colour words. Print nothing else.
 
 ## Map antietam-sunken-road
 
