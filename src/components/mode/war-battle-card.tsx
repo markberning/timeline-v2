@@ -77,9 +77,9 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
       <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : '100%', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
         <Tile palette={palette} imageUrl={imageUrl} label={imgLabel} isXL={isXL} />
       </div>
-      {/* extra LEFT padding on horizontal cards so the text isn't butted up
+      {/* clear LEFT padding on horizontal cards so the text isn't butted up
           against the image divider */}
-      <div style={{ flex: 1, minWidth: 0, padding: isXL ? '10px 14px 12px' : (isLG ? '10px 13px 10px 16px' : '8px 12px 8px 15px'), display: 'flex', flexDirection: 'column' }}>
+      <div style={{ flex: 1, minWidth: 0, padding: isXL ? '10px 14px 12px' : (isLG ? '10px 14px 10px 22px' : '8px 12px 8px 20px'), display: 'flex', flexDirection: 'column' }}>
         {/* reserve right-edge space so a long title wraps clear of the corner
             Read/Soon pill (the badge is absolutely positioned; non-XL only,
             where it sits over the title row rather than the image) */}
