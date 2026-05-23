@@ -22,14 +22,20 @@ function getInitialMode(): TlKind {
  * Phase-2 mode-switcher shell. Owns the active vertical and renders its
  * front door. Civ is the only live door today; the rest fall through to a
  * coming-soon placeholder. Persists live modes only.
+ *
+ * `initialMode` pins the shell to one vertical (e.g. the `/war` route forces
+ * the war front door regardless of the saved mode) — when set, the saved-mode
+ * restore is skipped so the URL, not localStorage, decides what shows.
  */
-export function ModeShell() {
-  const [mode, setMode] = useState<TlKind>('civ')
+export function ModeShell({ initialMode }: { initialMode?: TlKind } = {}) {
+  const [mode, setMode] = useState<TlKind>(initialMode ?? 'civ')
 
-  // Restore after mount so SSR markup (always 'civ') and the client agree.
+  // Restore after mount so SSR markup and the client agree. A pinned
+  // initialMode (a per-vertical route) overrides the saved mode.
   useEffect(() => {
+    if (initialMode) return
     setMode(getInitialMode())
-  }, [])
+  }, [initialMode])
 
   const handleChange = (next: TlKind) => {
     setMode(next)
