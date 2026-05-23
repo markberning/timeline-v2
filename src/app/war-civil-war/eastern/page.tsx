@@ -116,12 +116,12 @@ const THEATRE_EVENTS: Record<string, Ev[]> = {
 
 // Timeline-view battles (the theatre's own spine).
 type Size = 's' | 'm' | 'l' | 'xl'
-const BATTLES: { id: string; size: Size; name: string; date: string; hook: string; href?: string }[] = [
+const BATTLES: { id: string; size: Size; name: string; date: string; hook: string; href?: string; img?: string }[] = [
   { id: 'bull', size: 'm', name: 'First Bull Run', date: 'Jul 1861', hook: 'The first big clash — and the end of the short-war fantasy.' },
-  { id: 'antietam', size: 'l', name: 'Antietam', date: 'Sep 1862', hook: 'The bloodiest single day in American history; Lee’s first invasion turned back.', href: '/war-civil-war/eastern/antietam' },
+  { id: 'antietam', size: 'l', name: 'Antietam', date: 'Sep 1862', hook: 'The bloodiest single day in American history; Lee’s first invasion turned back.', href: '/war-civil-war/eastern/antietam', img: '/war-img/antietam-hero.jpg' },
   { id: 'fred', size: 'm', name: 'Fredericksburg', date: 'Dec 1862', hook: 'Wave after wave thrown at a stone wall. A Union disaster.' },
   { id: 'chanc', size: 'm', name: 'Chancellorsville', date: 'May 1863', hook: 'Lee’s masterpiece — and the night Stonewall Jackson was shot by his own men.' },
-  { id: 'gburg', size: 'xl', name: 'Gettysburg', date: 'Jul 1863', hook: 'Three days, fifty thousand casualties, the high-water mark of the Confederacy.', href: GBURG_HREF },
+  { id: 'gburg', size: 'xl', name: 'Gettysburg', date: 'Jul 1863', hook: 'Three days, fifty thousand casualties, the high-water mark of the Confederacy.', href: GBURG_HREF, img: '/war-img/gettysburg-hero.jpg' },
   { id: 'overland', size: 'l', name: 'The Overland Campaign', date: '1864', hook: 'Grant arrives and refuses to retreat. Six weeks of relentless grinding.' },
   { id: 'peters', size: 'm', name: 'Siege of Petersburg', date: '1864–65', hook: 'Ten months of trenches that prefigured the Western Front.' },
   { id: 'appom', size: 'm', name: 'Appomattox', date: 'Apr 1865', hook: 'Lee, cornered at last, surrenders to Grant.' },
@@ -359,7 +359,7 @@ export default function EasternTheatrePage() {
               The theatre’s battles, sized by significance. Tap Gettysburg to drop into the battle.
             </p>
             <CordTimeline>
-              {BATTLES.map(b => <BattleCard key={b.id} size={b.size} accent={ACCENT} dateTop={(b.date.match(/\d{4}/) || [''])[0]} title={b.name} sub={b.date} hook={b.hook} href={b.href} />)}
+              {BATTLES.map(b => <BattleCard key={b.id} size={b.size} accent={ACCENT} dateTop={(b.date.match(/\d{4}/) || [''])[0]} title={b.name} sub={b.date} hook={b.hook} href={b.href} imageUrl={b.img} />)}
             </CordTimeline>
           </div>
         )}
