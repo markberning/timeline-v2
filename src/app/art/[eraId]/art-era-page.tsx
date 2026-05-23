@@ -82,6 +82,28 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
   const sz = CARD_SIZES[b.size]
   const isXL = b.size === 'xl'
   const isLG = b.size === 'l'
+  const gradient = `linear-gradient(135deg, ${b.palette[0]}, ${b.palette[1]} 55%, ${b.palette[2]})`
+
+  // xl (flagship) card: show the painting at its CORRECT aspect on the left —
+  // never cropped — with the text to the right (design freedom, user 2026-05-23).
+  if (isXL) {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', background: CARD_BG, borderRadius: 8, border: `1px solid ${artAlpha(accent, 0.55)}`, boxShadow: `0 0 0 4px ${artAlpha(accent, 0.1)}, 0 12px 28px rgba(0,0,0,0.32)`, overflow: 'hidden' }}>
+        <div style={{ width: 172, flexShrink: 0, borderRight: `1px solid ${BORDER}`, background: gradient, position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 140 }}>
+          {b.imageUrl && !imgFailed && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={b.imageUrl} alt={b.imgLabel || b.name} loading="lazy" onError={() => setImgFailed(true)} style={{ width: '100%', height: 'auto', display: 'block', filter: 'sepia(0.16) saturate(0.88) contrast(1.04)' }} />
+          )}
+        </div>
+        <div style={{ flex: 1, minWidth: 0, padding: '14px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <div style={{ fontFamily: SERIF, fontSize: 22, lineHeight: 1.08, letterSpacing: -0.3, color: INK }}>{b.name}</div>
+          <div style={{ fontFamily: SANS, fontSize: 10.5, color: MUTED, marginTop: 4, letterSpacing: 0.1 }}>{b.place}</div>
+          <div style={{ marginTop: 9, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.45, color: INK, overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' }}>{b.blurb}</div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div style={{
       background: CARD_BG,
