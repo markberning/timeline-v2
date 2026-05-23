@@ -5,8 +5,30 @@ Antietam (2026-05-22)** — author → fact-check + storytelling critic → revi
 
 ## Governing principle
 **Storytelling is the #1 goal. Accuracy / zero-hallucination is a hard floor it
-may never cross.** Every section clears **two non-negotiable gates**: a
-storytelling critic and a fact-checker. It ships only when both pass.
+may never cross.** Every section clears **three non-negotiable gates**: a
+**fact-checker** ("is everything here TRUE?"), a **storytelling critic** ("is it
+told WELL?"), and a **comprehensiveness critic** ("is anything IMPORTANT
+missing?"). It ships only when all three pass.
+
+**Why three (the comprehensiveness gate, added 2026-05-23, user's idea).** The
+fact-checker only judges the claims that are *present* — it is blind to omissions.
+The storytelling critic judges the arc of what's *there* — a tight, well-told
+section can still silently skip something essential. So a third gate, the inverse
+of the fact-checker, independently works out what a strong telling of the subject
+MUST cover and hunts the draft for what's been left out or underweighted; it also
+catches blind spots in the **fact pack itself** (anything the pack misses, every
+downstream agent inherits). It earned its place on its first run: on the Gettysburg
+redo it caught five essential omissions both other gates missed — Ewell declining
+Cemetery Hill (which makes the fishhook a *decision*, not an accident), Harrison the
+spy (how blind-Lee learned the enemy was close), that "Pickett's Charge" is a
+misnomer erasing Pettigrew's and Trimble's men, that Lee never invaded the North
+again (the turning-point mechanism), and the **Confederate kidnapping of free Black
+Pennsylvanians** during the march north (a fact-pack blind spot, and dead on the
+app's central theme). **Its one rule: storytelling-first means SELECTIVE is fine —
+it flags genuinely ESSENTIAL gaps, never demands an encyclopedia.** The coordinator
+reconciles all three gates (a comprehensiveness must-add and a storytelling "cut
+this" can both be right — place the new material where it belongs, don't just bolt
+it on).
 
 **No length limit (locked 2026-05-22, user direction).** A section is as long as
 the story needs — there is NO word cap, no target length, no "trim to fit." The
@@ -38,8 +60,9 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
   verifies the fact pack, spawns the agents, **reads critic output critically
   (never rubber-stamps)**, reconciles, integrates.
 - **Author agent** — model **Opus**. Drafts storytelling-first from the fact pack ONLY.
-- **Fact-checker agent** — model Sonnet, **web-enabled**. Verifies every claim against sources; must be able to FAIL the draft.
-- **Storytelling critic agent** — model Sonnet. Judges as a story; can demand rewrites.
+- **Fact-checker agent** — model Sonnet, **web-enabled**. Verifies every claim against sources; must be able to FAIL the draft. ("Is everything here true?")
+- **Storytelling critic agent** — model Sonnet. Judges as a story; can demand rewrites. ("Is it told well?")
+- **Comprehensiveness critic agent** — model Sonnet, **web-enabled**. Independently builds the must-cover checklist for the subject, then flags essential OMISSIONS / underweighting / perspective gaps in the draft AND blind spots in the fact pack. ("Is anything important missing?") Flags only genuinely essential gaps — selective narrative is correct.
 - (The civ 5-persona audit can run once a section is close; not required for the gate.)
 
 ## `kind` — every section is battle or theme
@@ -65,17 +88,25 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
    see `memory/feedback_war_person_side_tags`), house voice (`WRITING-RULES.md`),
    dual POV for battles, human cost weighted. Output: draft markdown **plus a
    Fact ledger** (every concrete claim → which fact-pack item; `[VERIFY]` flags).
-4. **Two critics, in parallel:**
+4. **Three critics, in parallel:**
    - **Fact-checker** — independently verify EVERY date/number/name/rank/place/
      quote against authoritative sources (don't trust the draft or the ledger).
      Output ✅ CONFIRMED / ❌ WRONG (+ correct fact + source) / ⚠️ UNSUPPORTED,
-     then MUST-FIX (❌) and SHOULD-FIX (⚠️). Coordinator reads it; the gate is
-     the coordinator's judgement, not the agent's say-so (`feedback_gate_pass_not_correct`).
+     then MUST-FIX (❌) and SHOULD-FIX (⚠️). Also resolves every `[VERIFY]` flag
+     the author raised (confirm-or-cut). Coordinator reads it; the gate is the
+     coordinator's judgement, not the agent's say-so (`feedback_gate_pass_not_correct`).
    - **Storytelling critic** — grade per section (STRONG / GOOD / NEEDS WORK /
      REWRITE) + overall, with quoted, actionable rewrite notes: hook & stakes,
      human dimension, play-by-play tedium, dual POV, voice, pacing.
-5. **Revise** — author applies fixes (fact ❌ = must-fix; weak story = must-improve).
-   Loop until both gates are clean.
+   - **Comprehensiveness critic** — independent must-cover checklist for the
+     subject, then COVERED / THIN / MISSING per item; MUST-ADD (essential gaps,
+     blocking) vs SHOULD-CONSIDER (enriching, non-blocking); plus fact-pack blind
+     spots. Honest and tight — essential only, never encyclopedic.
+5. **Revise** — author applies fixes (fact ❌ = must-fix; weak story = must-improve;
+   comprehensiveness MUST-ADD = must-cover). **A comprehensiveness MUST-ADD usually
+   means NEW material → it goes through the fact pack + fact-checker FIRST** (the
+   cross-gate rule above), THEN the author writes it in. Loop until all three gates
+   are clean.
 6. **Images** — self-host PD/licensed only (Commons hotlinking 429-blocks in the
    browser); **credit line goes UNDER the image**, not as an overlay. Battles get
    a tactical map; theme sections get a period portrait/photo.
