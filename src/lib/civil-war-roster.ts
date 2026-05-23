@@ -78,19 +78,29 @@ export interface Theme {
 
 // The non-battle/theme sections, placed on the home spine by phase. Roster expanded
 // 2026-05-23 after comprehensiveness/framing gates on the LIST itself (audits/
-// war-content-pipeline.md). Whole-roster pass: broadened th-usct into self-emancipation
-// + soldiers, added th-northwithin (dissent + the 1864 election). Causes-phase pass
-// (esp. "the rise of Lincoln"): added th-lincoln1860 (the 1858 debates → Cooper Union →
-// the four-way 1860 election → secession winter — previously untold; it fell between
-// th-road and th-twogov), and reshaped th-road's hook to claim Uncle Tom's Cabin + the
-// Republican Party's birth. FRAMING REQUIREMENT when th-road / th-lincoln1860 / th-twogov
-// are built: quote the secession declarations + the Cornerstone Speech (slavery in the
-// South's own words) — the primary-source rebuttal to any "states' rights" reading.
-// Considered but PARKED (not adopted): a Confederate home-front/war-finance theme, and a
-// Native-Americans theme (Stand Watie's Indian Territory + the 1862 Dakota War).
+// war-content-pipeline.md), across three passes:
+//  • whole-roster: broadened th-usct -> "Freedom Seekers & the USCT" (self-emancipation +
+//    soldiers); added th-northwithin (dissent + the 1864 election).
+//  • causes / "the rise of Lincoln": added th-lincoln1860 (1858 debates -> Cooper Union ->
+//    the four-way 1860 election -> secession winter; previously untold, fell between
+//    th-road and th-twogov).
+//  • lead-ups + the BLACK PERSPECTIVE + secession: added th-freedomstruggle (antebellum
+//    Black-led abolition — Walker, Douglass, Tubman, the Underground Railroad, the slave
+//    narratives — and the Fugitive Slave Act, which previously had NO home; the Black story
+//    used to start at 1861). Reshaped th-road to OPEN on the Mexican War spoils + the
+//    Missouri Compromise line (the "why 1850" it was missing).
+// FRAMING REQUIREMENTS when these are built (the standing framing gate enforces; lock the
+// homes): th-twogov MUST quote the Confederate Constitution's explicit slavery clauses +
+// the Cornerstone Speech + the secession declarations (slavery in the South's own words —
+// the primary-source rebuttal to "states' rights"). th-freedomstruggle tells the Black
+// story as AGENCY, not only suffering. Deeper secessionist ideology (Calhoun/nullification,
+// the fire-eaters) is a build-time element of th-road/th-twogov, not its own theme.
+// Considered but PARKED: a Confederate home-front/war-finance theme; a Native-Americans
+// theme (Stand Watie's Indian Territory + the 1862 Dakota War).
 export const THEMES: Theme[] = [
   { id: 'th-slavery', name: 'Slavery & the Cotton Economy', phase: 'causes', type: 'CAUSE', size: 'l', date: '1793–1860', year: 1850, m: 1, hook: 'King Cotton, the domestic slave trade, and a Southern economy built on human bondage.', href: '/war-civil-war/off-the-battlefield/slavery-cotton', short: 'Slavery & Cotton', img: '/war-img/slavery-cotton-hero.jpg' },
-  { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1850–1860', year: 1855, m: 1, hook: 'The Compromise of 1850, Uncle Tom’s Cabin, the Kansas-Nebraska Act and a new Republican Party, Bleeding Kansas, Dred Scott, John Brown — the country arguing its way to the cliff edge.' },
+  { id: 'th-freedomstruggle', name: 'The Freedom Struggle', phase: 'causes', type: 'SOCIETY', size: 'l', date: '1829–1861', year: 1850, m: 9, hook: 'David Walker, Frederick Douglass, Harriet Tubman and the Underground Railroad — Black-led abolition, the slave narratives, and the Fugitive Slave Act that turned the North against slavery.' },
+  { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1846–1860', year: 1855, m: 1, hook: 'The Mexican War handed the country half a continent to fight over, and the Missouri Compromise line that had kept the peace since 1820 couldn’t hold it — then Uncle Tom’s Cabin, Kansas-Nebraska and a new Republican Party, Bleeding Kansas, Dred Scott, and John Brown drove it to the cliff edge.' },
   { id: 'th-lincoln1860', name: 'Lincoln’s Rise & the Election of 1860', phase: 'causes', type: 'POLITICS', size: 'l', date: '1858–1861', year: 1860, m: 11, hook: 'How a one-term prairie lawyer who had lost a Senate race became president without a single Southern vote — the 1858 debates, Cooper Union, the four-way election of 1860, and the secession winter it set off.' },
   { id: 'th-twogov', name: 'Two Governments', phase: 'causes', type: 'POLITICS', size: 'm', date: '1861', year: 1860, m: 12, hook: 'Lincoln versus Davis — and the desperate fight to keep the border states in the Union.' },
 

@@ -250,8 +250,14 @@ user is fine with this coming later — NOT debt).
    bolder distinct hue was offered, not done. Only revisit if the user wants it.
 
 **PLANNED CONTENT — NOT debt (user explicitly fine with this coming later):**
-- **12 of 14 Off-the-Battlefield themes** still "Soon" (Emancipation + Slavery & the
-  Cotton Economy are built).
+- **14 of 16 Off-the-Battlefield themes** still "Soon" (only Emancipation + Slavery & the
+  Cotton Economy are built). Roster grew 2026-05-23 after gating the LIST itself: added
+  *The War Within the North* (dissent + the 1864 election) and *Lincoln's Rise & the
+  Election of 1860*; *The USCT* broadened to *Freedom Seekers & the USCT* (self-emancipation
+  + soldiers). Build them through the now-5-gate pipeline; when building the causes themes,
+  honor the framing requirement noted in `src/lib/civil-war-roster.ts` (quote the secession
+  declarations + Cornerstone Speech). PARKED roster candidates: a Confederate home-front/
+  war-finance theme, and a Native-Americans theme (Indian Territory + 1862 Dakota War).
 - The Major battle tail (~46 CWSAC Class-A) + the longer A+B+C ~280-battle ambition.
 - These are a sustained content campaign, run one section at a time through the
   proven pipeline. The user has signed off on them arriving over time; their
