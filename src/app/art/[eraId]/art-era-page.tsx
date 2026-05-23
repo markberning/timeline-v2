@@ -366,7 +366,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
         {/* signature visual — always visible */}
         <EraDossierMap accent={accent} />
         {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details">
+        <ArtAccordion label="The details" accent={accent}>
           <StatsRow stats={era.stats} />
           <ArtFaceoff items={era.tensions} />
           <ArtistsStrip artists={era.anchorPainters} label="Painters who anchor the era" />

@@ -110,14 +110,17 @@ export function StatsRow({ stats }: { stats: ArtStat[] }) {
 // Closed-by-default collapsible holding a level's secondary "dossier" detail
 // blocks (stats, face-off, strips, parallels, provenance). The page's ONE
 // signature visual stays OUTSIDE this, always visible.
-export function ArtAccordion({ label = 'The details', children, defaultOpen = false }: { label?: string; children: React.ReactNode; defaultOpen?: boolean }) {
+export function ArtAccordion({ label = 'The details', children, accent = ART_ACCENT, defaultOpen = false }: { label?: string; children: React.ReactNode; accent?: string; defaultOpen?: boolean }) {
   const [open, setOpen] = useState(defaultOpen)
+  // Controls match the War "At a glance" accordion (theatre-page.tsx): accent
+  // eyebrow + "Show/Hide" + an accent-tinted round ▾ chevron that rotates.
   return (
     <div style={{ borderBottom: `1px solid ${BORDER}` }}>
-      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', padding: '13px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: INK, textAlign: 'left', gap: 12 }}>
-        <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>{label}</span>
-        <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 22, height: 22, borderRadius: 999, background: CHIP, color: MUTED, border: `1px solid ${BORDER}`, transition: 'transform 200ms ease', transform: open ? 'rotate(180deg)' : 'rotate(0deg)' }}>
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '14px 16px', color: 'inherit' }}>
+        <Eyebrow color={accent}>{label}</Eyebrow>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: accent }}>
+          {open ? 'Hide' : 'Show'}
+          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${artAlpha(accent, 0.55)}`, background: artAlpha(accent, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
         </span>
       </button>
       {open && <div>{children}</div>}

@@ -45,7 +45,7 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
         {/* signature visual — always visible */}
         <CanvasViewer accent={accent} />
         {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details">
+        <ArtAccordion label="The details" accent={accent}>
           <StatsRow stats={w.stats} />
           <ArtistsStrip artists={w.figures} label="Figures around the work" />
           <ProvenanceBlock accent={accent} />

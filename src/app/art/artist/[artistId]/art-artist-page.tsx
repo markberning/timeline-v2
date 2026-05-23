@@ -270,7 +270,7 @@ export function ArtArtistPage({ artistId }: { artistId: string }) {
         {/* signature visual — always visible */}
         <Lifeline a={a} />
         {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details">
+        <ArtAccordion label="The details" accent={accent}>
           <StatsRow stats={a.stats} />
           <KeyWorksStrip a={a} />
         </ArtAccordion>

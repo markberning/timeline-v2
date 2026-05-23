@@ -310,7 +310,7 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         {/* signature visual — always visible */}
         <InfluenceRibbon accent={accent} eraId={mv.eraId} movementId={mv.id} />
         {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details">
+        <ArtAccordion label="The details" accent={accent}>
           <StatsRow stats={mv.stats} />
           <ArtFaceoff items={mv.factions} />
           <ArtistsStrip artists={mv.artists} label="Cubist artists" />
