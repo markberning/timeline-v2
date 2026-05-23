@@ -204,7 +204,7 @@ export const CUBISM: ArtMovementContent = {
   hookLong:
     'For about a decade, two painters in Paris worked so closely that they had to sign the backs of each other’s canvases just to remember whose was whose. What they did, in essence, was repeal the law of single-point perspective that had ruled European painting since 1420. The picture stopped pretending to be a window.',
   heroImage: ART_IMG.girlWithMandolin,
-  heroCredit: 'Picasso, Girl with a Mandolin · Portrait of Kahnweiler · 1910 · PD-US',
+  heroCredit: 'Picasso · Girl with a Mandolin (MoMA) · Portrait of Kahnweiler (Art Institute of Chicago) · 1910',
   // A portrait diptych — two analytic-Cubism works side by side represent the
   // movement without cropping either (the genre-pairing pattern).
   heroImages: [
@@ -344,7 +344,7 @@ export const DEMOISELLES: ArtWorkContent = {
   chain: { name: 'Works of Cubism', index: 1, total: 9 },
   hook: 'Five women, five sets of impossible angles, masks where the faces should be.',
   heroImage: ART_IMG.demoiselles,
-  heroCredit: 'MoMA · Bequest of Lillie P. Bliss · fair use',
+  heroCredit: 'Picasso, Les Demoiselles d’Avignon, 1907 · MoMA',
   // The work page hero shows the WHOLE painting (≈square) — contain, never cropped.
   heroFit: 'contain',
   rights: 'pd-us',

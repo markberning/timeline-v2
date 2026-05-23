@@ -153,12 +153,13 @@ export function ArtTile({ palette, imageUrl, label, ratio = '1/1', round = false
 //   • single portrait/square WHOLE work          → fit="contain" (blurred backdrop)
 //   • two+ portrait works as a genre diptych     → pass `images`
 /* eslint-disable @next/next/no-img-element */
-export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit, accent, fit = 'cover', focus = 'center' }: { eyebrow: string; title: string; sub?: string; palette: Palette; imageUrl?: string; images?: HeroImage[]; credit?: string; accent: string; fit?: 'cover' | 'contain'; focus?: string }) {
+export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit, fit = 'cover', focus = 'center' }: { eyebrow: string; title: string; sub?: string; palette: Palette; imageUrl?: string; images?: HeroImage[]; credit?: string; accent?: string; fit?: 'cover' | 'contain'; focus?: string }) {
   const [failed, setFailed] = useState(false)
   const list: HeroImage[] = images && images.length ? images : (imageUrl ? [{ src: imageUrl, focus }] : [])
   const multi = list.length > 1
   const show = list.length > 0 && !failed
   return (
+    <>
     <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
       {/* blurred, dimmed backdrop fills the letterbox so a contained work never reads as "cut off" */}
       {show && fit === 'contain' && !multi && (
@@ -174,13 +175,18 @@ export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit
         <img src={list[0].src} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: fit, objectPosition: list[0].focus || focus }} />
       ))}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.05) 30%, rgba(0,0,0,0.72) 100%)' }} />
-      {credit && <div style={{ position: 'absolute', top: 10, right: 10, fontFamily: SANS, fontSize: 8.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.7)', background: 'rgba(0,0,0,0.35)', borderRadius: 999, padding: '3px 8px', maxWidth: '60%', textAlign: 'right' }}>{credit}</div>}
       <div style={{ position: 'absolute', left: 18, right: 18, bottom: 14 }}>
-        <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.5, fontWeight: 700, textTransform: 'uppercase', color: artAlpha(accent.startsWith('#') ? accent : '#ffffff', 1), filter: 'brightness(1.5)', textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>{eyebrow}</div>
+        {/* eyebrow stays white for contrast over any painting (accent purple was unreadable on dark images) */}
+        <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.5, fontWeight: 700, textTransform: 'uppercase', color: 'rgba(255,255,255,0.9)', textShadow: '0 1px 3px rgba(0,0,0,0.75)' }}>{eyebrow}</div>
         <h1 style={{ margin: '4px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 28, lineHeight: 1.05, letterSpacing: -0.4, color: '#fff', textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}>{title}</h1>
         {sub && <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 12.5, color: 'rgba(255,255,255,0.85)', textShadow: '0 1px 3px rgba(0,0,0,0.55)' }}>{sub}</div>}
       </div>
-    </div>
+      </div>
+      {/* credit goes UNDER the image, museum-label style, with the work's current location */}
+      {credit && (
+        <div style={{ padding: '8px 16px 2px', fontFamily: SANS, fontSize: 11, lineHeight: 1.45, color: MUTED, letterSpacing: 0.2 }}>{credit}</div>
+      )}
+    </>
   )
 }
 
