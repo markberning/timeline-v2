@@ -11,6 +11,12 @@ narrative (prose first, stats second); nothing is a bare stat sheet. Accuracy
 never bends to story: dates, numbers, quotes are sourced. See
 `memory/feedback_storytelling_first`.
 
+**No length limit (user direction, 2026-05-22).** Narratives are as long as the
+story needs — no word cap, no target, no trimming for length. Priority #1 is a
+genuinely good story; the hard floor is accuracy with zero hallucinations or
+guesses. Length follows the story; it is never a constraint on it. (Full rule in
+`audits/war-content-pipeline.md` Governing principle.)
+
 ## Locked decisions
 - **Pilot = American Civil War**, 1861–1865 (causes from 1850).
 - **~10 chapters**, movement-driven (NOT a template, NOT padded with battles).
