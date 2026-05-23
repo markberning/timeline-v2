@@ -99,6 +99,10 @@ needs sourcing + craft + the accuracy gates). So **build incrementally:**
 The pilot is "done enough to ship/learn" early; the long tail follows.
 
 ## War narrative pipeline (recommended — 2026-05-22)
+**Canonical, proven spec now lives in `audits/war-content-pipeline.md`** (fact pack
+→ author agent → fact-check + storytelling critic in parallel → revise → integrate;
+kind-aware for battle vs theme sections; proven on Antietam). The summary below is
+retained for context.
 A war narrative is DONE only after all of:
 0. **Source** — seed each battle's stat block from the CWSAC catalog + Wikipedia
    battle infoboxes (machine-assist the numbers; prose is authored).
