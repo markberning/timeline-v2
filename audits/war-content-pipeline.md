@@ -108,6 +108,12 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 
 **Wiring & images:**
 - Link the battle from the **theatre spine** AND the **ACW home timeline**, and give those battle cards the battle's hero `img` (only built battles get images; others keep the gradient placeholder).
+- **Themes (Off the Battlefield) need `img` too.** Set `Theme.img` on the roster
+  entry (and it must flow into `SPINE_NODES`) so the section's card shows its hero
+  in the Off-the-Battlefield spine AND the home timeline. The card reads
+  `imageUrl={t.img}`; without it the card is a gradient placeholder even though the
+  page is built. (`Theme` had no `img` field until the Emancipation card shipped
+  blank — added 2026-05-22.)
 - Self-host PD images only (Commons hotlinking 429-blocks). **Verify every image matches its caption before trusting it** (stereoview cards, wrong-subject scans, and matted prints all slip through search).
 
 **Breadcrumb + accent (locked 2026-05-22):**
