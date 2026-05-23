@@ -45,11 +45,11 @@ interface RibbonShape { startYear: number; endYear: number; tracks: RibbonTrack[
 // Image tile that falls back to its 3-colour palette gradient on error.
 // (A flat tile with optional label — the mockup's PaintingTile.)
 // ─────────────────────────────────────────────────────────────
-function CordTile({ palette, imageUrl, label, isXL }: { palette: Palette; imageUrl?: string; label?: string; isXL: boolean }) {
+function CordTile({ palette, imageUrl, label }: { palette: Palette; imageUrl?: string; label?: string }) {
   const [failed, setFailed] = useState(false)
   const hasImg = !!imageUrl && !failed
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`, [isXL ? 'borderBottom' : 'borderRight']: `1px solid ${BORDER}` }}>
+    <div style={{ position: 'relative', width: '100%', height: '100%', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
       {hasImg && (
         <img src={imageUrl} alt={label || ''} loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />
       )}
@@ -69,7 +69,7 @@ function WorkCard({ work, accent, href }: { work: MovementWork; accent: string; 
   const inner = (
     <>
       <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 124 : '100%', flexShrink: 0 }}>
-        <CordTile palette={work.palette} imageUrl={work.imageUrl} label={work.name} isXL={isXL} />
+        <CordTile palette={work.palette} imageUrl={work.imageUrl} label={work.name} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
         <div style={{ fontFamily: SERIF, fontSize: sz.title, lineHeight: 1.1, letterSpacing: -0.2, color: INK, textWrap: 'balance' }}>{work.name}</div>
