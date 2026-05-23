@@ -307,6 +307,9 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
               sub={`${mv.range} · ${mv.span}`}
               palette={mv.works[0].palette}
               imageUrl={mv.heroImage}
+              images={mv.heroImages}
+              fit={mv.heroFit}
+              focus={mv.heroFocus}
               credit={mv.heroCredit}
               accent={accent}
             />
@@ -328,6 +331,9 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
               sub={`${mv.range} · ${mv.span}`}
               palette={mv.works[0].palette}
               imageUrl={mv.heroImage}
+              images={mv.heroImages}
+              fit={mv.heroFit}
+              focus={mv.heroFocus}
               credit={mv.heroCredit}
               accent={accent}
             />

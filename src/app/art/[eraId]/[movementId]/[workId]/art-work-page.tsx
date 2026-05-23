@@ -43,6 +43,9 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
               sub={`${w.artist} · ${w.year}`}
               palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
               imageUrl={w.heroImage}
+              fit={w.heroFit}
+              focus={w.heroFocus}
+              images={w.heroImages}
               credit={w.heroCredit}
               accent={accent}
             />
@@ -81,17 +84,21 @@ function CanvasViewer({ accent }: { accent: string }) {
           }}
         >{annotated ? 'Annotations on' : 'Annotations off'}</button>
       </div>
-      <div style={{ position: 'relative', aspectRatio: '5/6', background: '#8a6b3a', borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}` }}>
-        {!failed && (
+      {/* Natural-aspect frame: the whole painting is shown (never cropped), so the
+          annotation pins — placed at % coordinates — land on the right spots. */}
+      <div style={{ position: 'relative', background: '#8a6b3a', borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}` }}>
+        {!failed ? (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
             src={w.heroImage}
             alt="Les Demoiselles d'Avignon"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+            style={{ width: '100%', height: 'auto', display: 'block' }}
             onError={() => setFailed(true)}
           />
+        ) : (
+          <div style={{ aspectRatio: '243 / 234', background: 'linear-gradient(135deg, #c0a06c, #3d3a2e 55%, #8a6b3a)' }} />
         )}
-        {annotated && w.annotations.map(a => (
+        {annotated && !failed && w.annotations.map(a => (
           <div key={a.label} style={{ position: 'absolute', left: a.x, top: a.y, transform: 'translate(-50%, -50%)' }}>
             <div style={{ width: 18, height: 18, borderRadius: 999, background: 'rgba(0,0,0,0.55)', border: `1.5px solid ${accent}`, boxShadow: `0 0 0 3px ${artAlpha(accent, 0.2)}` }} />
             <div style={{

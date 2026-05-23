@@ -330,6 +330,9 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
               sub={`${era.range} · ${era.span}`}
               palette={palette}
               imageUrl={era.heroImage}
+              images={era.heroImages}
+              fit={era.heroFit}
+              focus={era.heroFocus}
               credit={era.heroCredit}
               accent={accent}
             />
@@ -350,6 +353,9 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
               sub={`${era.range} · ${era.span}`}
               palette={palette}
               imageUrl={era.heroImage}
+              images={era.heroImages}
+              fit={era.heroFit}
+              focus={era.heroFocus}
               credit={era.heroCredit}
               accent={accent}
             />

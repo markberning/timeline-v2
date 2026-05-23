@@ -171,6 +171,40 @@ corpus, alongside the "Meanwhile in…" sheet.
 
 ---
 
+## 5b. Image orientation & framing — BUILD RULE (every image spot)
+
+**A painting being cut off is a defect.** In an art app the artwork *is* the
+content, so every image spot must use an orientation-appropriate source and frame.
+The builder picks the composition per spot; never drop a tall painting into a wide
+frame and crop it.
+
+- **Inline figures + the work's Canvas Viewer → show the WHOLE work.** Frame aspect
+  follows the artwork (image `height: auto`, no fixed-ratio `cover`). The Canvas
+  Viewer especially: its annotation pins are placed at % coordinates, so cropping
+  also *misaligns the pins*. (Both are implemented this way now — don't regress
+  them to `object-fit: cover`.)
+- **Heroes (240px landscape banner) → pick the fitting composition (`ArtHero`):**
+  1. a genuinely **landscape work** → `fit="cover"` (default). e.g. Modern era =
+     Van Gogh, *The Starry Night*.
+  2. a deliberate **landscape detail** of a tall work → `fit="cover"` + `focus`
+     (CSS object-position) to frame the region; **credit it "(detail)"** so the crop
+     reads as intentional.
+  3. a **whole portrait/square work** → `fit="contain"` (the component letterboxes
+     it on a blurred, dimmed copy of itself — never bars-on-blank). e.g. the
+     Demoiselles work hero.
+  4. a **portrait diptych** — two portrait works side by side to represent a
+     genre/movement → pass `heroImages: [{src,focus},{src,focus}]`. e.g. Cubism =
+     Girl with a Mandolin + Portrait of Kahnweiler.
+- **Cord/grid thumbnails (`ArtTile`)** may `cover`-crop (small, decorative) — but
+  center the focal point; a recognizable work is better than an arbitrary corner.
+- **When sourcing (step in §"image sourcing"), record each file's orientation**
+  (w vs h) so the right composition is chosen up front, not patched later.
+
+Data hooks: `heroFit` / `heroFocus` / `heroImages` on every entity drive the hero;
+inline figures already render at natural height.
+
+---
+
 ## 6. v1 scope: in vs. deferred
 
 **In v1:**

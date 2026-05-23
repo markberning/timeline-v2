@@ -11,6 +11,10 @@ import { ART_ACCENTS } from './art-data'
 
 export type Palette = [string, string, string]
 
+// A hero image cell. `focus` is the CSS object-position (e.g. '50% 20%') used to
+// frame a deliberate landscape *detail* of a tall work without cutting content.
+export interface HeroImage { src: string; focus?: string }
+
 // Verified image URLs — resolved via the MediaWiki API and load-checked (200,
 // image/*) on 2026-05-23. The earlier mockup filenames mostly 404'd (wrong names;
 // curly vs straight apostrophe; Commons doesn't host works still in copyright).
@@ -30,6 +34,7 @@ export const ART_IMG = {
   kahnweiler: 'https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg',
   braqueEstaque: 'https://upload.wikimedia.org/wikipedia/en/a/ad/Georges_Braque%2C_1908%2C_Maisons_et_arbre%2C_oil_on_canvas%2C_40.5_x_32.5_cm%2C_Lille_M%C3%A9tropole_Museum_of_Modern%2C_Contemporary_and_Outsider_Art.jpg',
   // COMMONS (free worldwide)
+  starryNight: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
   picassoPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/960px-Pablo_picasso_1.jpg',
   cezanneBathers: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg/960px-Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg',
   momaFacade: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/960px-MoMa_NY_USA_1.jpg',
@@ -67,6 +72,12 @@ export interface ArtEraContent {
   hookLong: string
   heroImage: string
   heroCredit: string
+  // Hero composition (see ArtHero / audits/art-vertical.md "Image orientation"):
+  // default is a single cover image; use contain for a whole portrait/square work,
+  // or heroImages (2+) for a portrait diptych. heroFocus frames a cover detail.
+  heroFit?: 'cover' | 'contain'
+  heroFocus?: string
+  heroImages?: HeroImage[]
   stats: ArtStat[]
   tensions: ArtSide[]
   movements: EraMovement[]
@@ -84,8 +95,8 @@ export const MODERN_ERA: ArtEraContent = {
   hook: 'Painters break the picture and put it back together wrong on purpose.',
   hookLong:
     'In a hundred and twenty years, Western painting goes from cathedral-trained perspective masters making one more Madonna to a man in a Paris studio dripping enamel onto a canvas on the floor. Almost everything in between is somebody arguing about whether that should be allowed.',
-  heroImage: ART_IMG.demoiselles,
-  heroCredit: 'Picasso, Les Demoiselles d’Avignon (detail) · 1907 · MoMA · fair use',
+  heroImage: ART_IMG.starryNight,
+  heroCredit: 'Van Gogh, The Starry Night, 1889 · MoMA · public domain worldwide',
   stats: [
     { v: '120 yrs', k: 'Span' },
     { v: '18', k: 'Major movements' }, // FLAG: only 10 listed below — reconcile
@@ -162,6 +173,12 @@ export interface ArtMovementContent {
   hookLong: string
   heroImage: string
   heroCredit: string
+  // Hero composition (see ArtHero / audits/art-vertical.md "Image orientation"):
+  // default is a single cover image; use contain for a whole portrait/square work,
+  // or heroImages (2+) for a portrait diptych. heroFocus frames a cover detail.
+  heroFit?: 'cover' | 'contain'
+  heroFocus?: string
+  heroImages?: HeroImage[]
   stats: ArtStat[]
   factions: ArtSide[]
   works: MovementWork[]
@@ -183,7 +200,13 @@ export const CUBISM: ArtMovementContent = {
   hookLong:
     'For about a decade, two painters in Paris worked so closely that they had to sign the backs of each other’s canvases just to remember whose was whose. What they did, in essence, was repeal the law of single-point perspective that had ruled European painting since 1420. The picture stopped pretending to be a window.',
   heroImage: ART_IMG.girlWithMandolin,
-  heroCredit: 'Picasso, Girl with a Mandolin (Fanny Tellier), 1910 · MoMA · PD-US',
+  heroCredit: 'Picasso, Girl with a Mandolin · Portrait of Kahnweiler · 1910 · PD-US',
+  // A portrait diptych — two analytic-Cubism works side by side represent the
+  // movement without cropping either (the genre-pairing pattern).
+  heroImages: [
+    { src: ART_IMG.girlWithMandolin, focus: '50% 14%' },
+    { src: ART_IMG.kahnweiler, focus: '50% 16%' },
+  ],
   stats: [
     { v: '15 yrs', k: 'Span' },
     { v: '~40', k: 'Canonical works' },
@@ -282,6 +305,12 @@ export interface ArtWorkContent {
   hook: string
   heroImage: string
   heroCredit: string
+  // Hero composition (see ArtHero / audits/art-vertical.md "Image orientation"):
+  // default is a single cover image; use contain for a whole portrait/square work,
+  // or heroImages (2+) for a portrait diptych. heroFocus frames a cover detail.
+  heroFit?: 'cover' | 'contain'
+  heroFocus?: string
+  heroImages?: HeroImage[]
   // rights: drives the inline-figure treatment. PD-US for pre-1931 works.
   rights: 'pd-us' | 'in-copyright'
   stats: ArtStat[]
@@ -312,6 +341,8 @@ export const DEMOISELLES: ArtWorkContent = {
   hook: 'Five women, five sets of impossible angles, masks where the faces should be.',
   heroImage: ART_IMG.demoiselles,
   heroCredit: 'MoMA · Bequest of Lillie P. Bliss · fair use',
+  // The work page hero shows the WHOLE painting (≈square) — contain, never cropped.
+  heroFit: 'contain',
   rights: 'pd-us',
   stats: [
     { v: '1907', k: 'Painted' },
@@ -376,6 +407,12 @@ export interface ArtArtistContent {
   hookLong: string
   heroImage: string
   heroCredit: string
+  // Hero composition (see ArtHero / audits/art-vertical.md "Image orientation"):
+  // default is a single cover image; use contain for a whole portrait/square work,
+  // or heroImages (2+) for a portrait diptych. heroFocus frames a cover detail.
+  heroFit?: 'cover' | 'contain'
+  heroFocus?: string
+  heroImages?: HeroImage[]
   stats: ArtStat[]
   periods: ArtistPeriod[]
   keyWorks: ArtistKeyWork[]
@@ -399,6 +436,7 @@ export const PICASSO: ArtArtistContent = {
     'Picasso made roughly 50,000 works in his lifetime — paintings, drawings, sculptures, ceramics, prints, costumes. He invented Cubism with Braque, then walked away from it. He painted in classical styles in the 1920s, made the most famous antiwar painting of the century in 1937, and was a millionaire by forty. He outlived most of his contemporaries and several of his children.',
   heroImage: ART_IMG.picassoPhoto,
   heroCredit: 'Photograph · Wikimedia Commons',
+  heroFocus: '50% 22%',
   stats: [
     { v: '1881–1973', k: 'Lived' },
     { v: '~50,000', k: 'Works (lifetime)' },

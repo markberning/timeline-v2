@@ -318,6 +318,9 @@ export function ArtArtistPage({ artistId }: { artistId: string }) {
               sub={`${a.born.year}–${a.died.year} · ${a.nationality}`}
               palette={HERO_PALETTE}
               imageUrl={a.heroImage}
+              images={a.heroImages}
+              fit={a.heroFit}
+              focus={a.heroFocus}
               credit={a.heroCredit}
               accent={accent}
             />
@@ -337,6 +340,9 @@ export function ArtArtistPage({ artistId }: { artistId: string }) {
               sub={`${a.born.year}–${a.died.year} · ${a.nationality}`}
               palette={HERO_PALETTE}
               imageUrl={a.heroImage}
+              images={a.heroImages}
+              fit={a.heroFit}
+              focus={a.heroFocus}
               credit={a.heroCredit}
               accent={accent}
             />

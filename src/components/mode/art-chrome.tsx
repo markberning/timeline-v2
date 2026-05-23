@@ -11,7 +11,7 @@ import { useState, Fragment } from 'react'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
-import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette } from '@/lib/art-content'
+import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage } from '@/lib/art-content'
 import { TL_KIND_ORDER, type TlKind } from '@/lib/navigator-tls'
 
 export const SANS = 'var(--font-geist-sans)'
@@ -132,13 +132,32 @@ export function ArtTile({ palette, imageUrl, label, ratio = '1/1', round = false
   )
 }
 
-// Full-bleed hero with title block overlay + credit chip.
-export function ArtHero({ eyebrow, title, sub, palette, imageUrl, credit, accent }: { eyebrow: string; title: string; sub?: string; palette: Palette; imageUrl?: string; credit?: string; accent: string }) {
+// Full-bleed hero. Composition adapts so a painting is NEVER awkwardly cut off
+// (audits/art-vertical.md "Image orientation"):
+//   • single landscape work / deliberate detail → fit="cover" (+ focus)  [default]
+//   • single portrait/square WHOLE work          → fit="contain" (blurred backdrop)
+//   • two+ portrait works as a genre diptych     → pass `images`
+/* eslint-disable @next/next/no-img-element */
+export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit, accent, fit = 'cover', focus = 'center' }: { eyebrow: string; title: string; sub?: string; palette: Palette; imageUrl?: string; images?: HeroImage[]; credit?: string; accent: string; fit?: 'cover' | 'contain'; focus?: string }) {
   const [failed, setFailed] = useState(false)
-  const hasImg = !!imageUrl && !failed
+  const list: HeroImage[] = images && images.length ? images : (imageUrl ? [{ src: imageUrl, focus }] : [])
+  const multi = list.length > 1
+  const show = list.length > 0 && !failed
   return (
     <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
-      {hasImg && <img src={imageUrl} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />}
+      {/* blurred, dimmed backdrop fills the letterbox so a contained work never reads as "cut off" */}
+      {show && fit === 'contain' && !multi && (
+        <img src={list[0].src} alt="" aria-hidden style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(28px) brightness(0.45) saturate(1.1)', transform: 'scale(1.15)' }} />
+      )}
+      {show && (multi ? (
+        <div style={{ position: 'absolute', inset: 0, display: 'flex', gap: 2 }}>
+          {list.map((im, i) => (
+            <img key={i} src={im.src} alt="" onError={i === 0 ? () => setFailed(true) : undefined} style={{ flex: 1, minWidth: 0, height: '100%', objectFit: 'cover', objectPosition: im.focus || 'center' }} />
+          ))}
+        </div>
+      ) : (
+        <img src={list[0].src} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: fit, objectPosition: list[0].focus || focus }} />
+      ))}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.05) 30%, rgba(0,0,0,0.72) 100%)' }} />
       {credit && <div style={{ position: 'absolute', top: 10, right: 10, fontFamily: SANS, fontSize: 8.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.7)', background: 'rgba(0,0,0,0.35)', borderRadius: 999, padding: '3px 8px', maxWidth: '60%', textAlign: 'right' }}>{credit}</div>}
       <div style={{ position: 'absolute', left: 18, right: 18, bottom: 14 }}>
