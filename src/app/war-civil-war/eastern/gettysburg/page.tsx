@@ -8,7 +8,7 @@
 // now). Palette = mockup (Civil War violet, Union blue, Confederate rust).
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, type View } from '@/components/mode/war-chrome'
+import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
 
 // Theatre switcher (same dropdown the theatre pages use). Gettysburg sits in
@@ -367,7 +367,7 @@ function SectionsList() {
 }
 
 export default function GettysburgPage() {
-  const [view, setView] = useState<View>('dossier')
+  const [view, setView] = useWarView()
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarChrome crumbs={CRUMBS} view={view} onView={setView} accent={ACCENT} />

@@ -5,7 +5,7 @@
 // the shared breadcrumb + Timeline/Dossier toggle. Preview, sample content.
 
 import { useState } from 'react'
-import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, type View } from '@/components/mode/war-chrome'
+import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
@@ -159,7 +159,7 @@ function WarGlance() {
   const FAINT = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
   const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
   const STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
-  const accent = WAR_OXBLOOD
+  const accent = ACCENTS.violet
   const stats = [{ v: '4 years', k: 'Span' }, { v: '~10,500', k: 'Engagements' }, { v: '~750k', k: 'Dead' }]
   const armies = [
     { side: 'Union', label: 'United States', served: '2.1M served', trail: 'Lincoln → Grant → Sherman', color: ACCENTS.blue },
@@ -173,12 +173,12 @@ function WarGlance() {
     { v: cas.civilian, color: FAINT, label: 'Civilian', n: num(cas.civilian) },
   ]
   return (
-    <section style={{ marginBottom: 26, border: `1px solid ${BORDER}`, borderRadius: 10, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 3%, transparent)' }}>
-      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '13px 14px', color: 'inherit' }}>
-        <span style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: accent }}>At a glance</span>
+    <div style={{ borderBottom: `1px solid ${BORDER}` }}>
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '14px 16px', color: 'inherit' }}>
+        <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: accent }}>At a glance</span>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: accent }}>
           {open ? 'Hide' : 'Show'}
-          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(accent, 0.5)}`, background: alpha(accent, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
+          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(accent, 0.55)}`, background: alpha(accent, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
         </span>
       </button>
       {open && (
@@ -227,7 +227,7 @@ function WarGlance() {
           </div>
         </>
       )}
-    </section>
+    </div>
   )
 }
 
@@ -257,7 +257,7 @@ function TheatresInteractive() {
   const rivers = US_RIVERS.Mississippi.map(pts => ({ pts }))
 
   return (
-    <DossierSection label="The theatres" accent={WAR_OXBLOOD}>
+    <DossierSection label="The theatres" accent={ACCENTS.violet}>
       <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: muted, margin: '0 0 12px' }}>
         The war was fought in parallel across four theatres. Tap one to light it up — then open it to drill into its battles.
       </p>
@@ -314,7 +314,7 @@ function TheatresInteractive() {
 }
 
 export default function CivilWarPage() {
-  const [view, setView] = useState<View>('timeline')
+  const [view, setView] = useWarView()
   const [heroFailed, setHeroFailed] = useState(false)
   const byPhase = PHASES.map(p => ({ ...p, nodes: NODES.filter(n => n.phase === p.id) })).filter(p => p.nodes.length > 0)
 
@@ -355,10 +355,12 @@ export default function CivilWarPage() {
             </div>
           </>
         ) : (
-          <div style={{ padding: '14px 18px 48px' }}>
+          <>
             <WarGlance />
-            <TheatresInteractive />
-          </div>
+            <div style={{ padding: '18px 18px 48px' }}>
+              <TheatresInteractive />
+            </div>
+          </>
         )}
       </div>
     </div>

@@ -20,7 +20,7 @@
 // theatres exist and the pattern is proven.
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, alpha, type View } from '@/components/mode/war-chrome'
+import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
@@ -361,7 +361,7 @@ function InterleavedCampaigns({ active = 'west' }: { active?: string }) {
 }
 
 export default function WesternTheatrePage() {
-  const [view, setView] = useState<View>('dossier')
+  const [view, setView] = useWarView()
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarChrome crumbs={CRUMBS} view={view} onView={setView} accent={ACCENT} />

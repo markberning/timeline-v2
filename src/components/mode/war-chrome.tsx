@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment, useLayoutEffect, useRef, useState } from 'react'
+import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
@@ -28,6 +28,21 @@ export function alpha(hex: string, a: number): string {
 }
 
 export type View = 'timeline' | 'dossier'
+
+// Timeline/Dossier choice persists across all War pages (localStorage). Starts
+// from a default to avoid an SSR/hydration mismatch, then syncs on mount.
+export function useWarView(initial: View = 'dossier'): [View, (v: View) => void] {
+  const [view, setViewState] = useState<View>(initial)
+  useEffect(() => {
+    const stored = typeof window !== 'undefined' ? window.localStorage.getItem('war-view') : null
+    if (stored === 'timeline' || stored === 'dossier') setViewState(stored)
+  }, [])
+  const setView = (v: View) => {
+    setViewState(v)
+    try { window.localStorage.setItem('war-view', v) } catch { /* ignore */ }
+  }
+  return [view, setView]
+}
 
 export interface CrumbOption {
   label: string
