@@ -78,7 +78,10 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
         <Tile palette={palette} imageUrl={imageUrl} label={imgLabel} isXL={isXL} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '10px 14px 12px' : (isLG ? '10px 12px' : '8px 11px'), display: 'flex', flexDirection: 'column' }}>
-        <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2 }}>{title}</div>
+        {/* reserve right-edge space so a long title wraps clear of the corner
+            Read/Soon pill (the badge is absolutely positioned; non-XL only,
+            where it sits over the title row rather than the image) */}
+        <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2, paddingRight: !isXL && (soon || ready) ? 48 : undefined }}>{title}</div>
         {sub && <div style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 3, letterSpacing: 0.1 }}>{sub}</div>}
         {hook && <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: isXL ? 3 : (isLG ? 3 : 2), WebkitBoxOrient: 'vertical' }}>{hook}</div>}
       </div>
