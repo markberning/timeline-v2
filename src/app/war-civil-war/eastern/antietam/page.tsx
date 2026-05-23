@@ -37,7 +37,7 @@ const FIGURES = [
   { name: 'A. Burnside', role: 'IX Corps, Union', side: 'U', img: '/war-img/cmdr/burnside.jpg' },
 ]
 const SECTIONS = [
-  { id: 'lost-order', eyebrow: 'The lost order', title: 'The Lost Order', blurb: 'Lee (South) invades the North. A Union soldier finds Lee’s battle plan wrapped around three cigars — and McClellan (North) sits on it for eighteen hours.' },
+  { id: 'lost-order', eyebrow: 'Lee invades the North', title: 'The Lost Order', blurb: 'Lee (South) invades the North. A Union soldier finds Lee’s battle plan wrapped around three cigars — and McClellan (North) sits on it for eighteen hours.' },
   { id: 'cornfield', eyebrow: 'The morning', title: 'The Cornfield', blurb: 'Dawn slaughter at Miller’s Cornfield and the Dunker Church; 2,200 men fall in the West Woods in about twenty minutes.' },
   { id: 'bridge', eyebrow: 'Midday & afternoon', title: 'The Bloody Lane & the Bridge', blurb: 'The center breaks at the Sunken Road — but the reserves never move. A. P. Hill (South) arrives from Harpers Ferry just in time to save Lee.' },
   { id: 'bloodiest', eyebrow: 'The cost & the meaning', title: 'The bloodiest day', blurb: '22,726 casualties in a single day. Brady’s photographs of the dead — and five days later, the Emancipation Proclamation.' },

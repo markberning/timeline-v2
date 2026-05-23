@@ -8,7 +8,7 @@ import { BattleSectionReader, type Narr } from '@/components/mode/battle-reader'
 
 const ANTIETAM_NARR: Record<string, Narr> = {
   'lost-order': {
-    eyebrow: 'Antietam · The lost order',
+    eyebrow: 'Antietam · Lee invades the North',
     title: 'The Lost Order',
     blocks: [
       { p: 'In the late summer of 1862, the Civil War was going badly for the United States, and Robert E. Lee (South) decided to make it worse. For more than a year the fighting in the East had been a war fought on Southern soil, with Northern armies grinding into Virginia and getting thrown back out again. Lee had just broken one of those armies near Washington. Now, instead of waiting for the next blow, he did something audacious: he marched his Army of Northern Virginia north, across the Potomac River and into Maryland. It was his first invasion of the North.' },
