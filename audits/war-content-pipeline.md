@@ -57,8 +57,15 @@ and people; make the cost *felt*.
    Loop until both gates are clean.
 6. **Images** — self-host PD/licensed only (Commons hotlinking 429-blocks in the
    browser); **credit line goes UNDER the image**, not as an overlay. Battles get
-   a schematic map (smooth blue/rust arrows — see `feedback_war_map_styles`);
-   theme sections get a period portrait/photo.
+   a tactical map; theme sections get a period portrait/photo.
+   **Map house style = MODERN TEXTBOOK (Hal Jespersen / NPS look), chosen
+   2026-05-22** — clean modern cartography: pale ground, muted sage woods, pale-
+   gold fields, light-blue water, gray roads/towns; forces as crisp rectangular
+   **unit blocks** (blue Union / rust Confederate) or a bold band on wide overviews;
+   bold smooth arrows; clean sans labels with a white halo. This **replaced the
+   old flat-tan schematic** (it read "awfully plain"). The full rules live in each
+   war's prompt-file preamble (`map-prompts/war/<war>.md`) — copy that preamble
+   verbatim for a new war. Generate with `scripts/generate-war-maps.mjs`.
 6b. **Map review — a GATE, not a glance.** Every generated map is reviewed like
    the fact-checker reviews prose — for **tactical/geographic correctness**, not
    just label hygiene. Check each map against the battle's real geography (the

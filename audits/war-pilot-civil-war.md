@@ -158,36 +158,31 @@ Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
   list (each a distinct image). Battle cards on theatre + home timeline carry the
   battle's hero `img`. All photos full-frame (`objectFit:cover` + `scale(1.16)`).
 
-**Maps — current state + the OPEN DECISION (the thing to resolve first):**
-- We **generate** flat tan schematic battle maps via `scripts/generate-war-maps.mjs`
-  (Gemini, `map-prompts/war/<war>.md` → `public/war-img/<slug>.png`). Antietam has
-  4: campaign, cornfield, sunken-road, bridge. Run: `node --env-file=/Users/
+**Maps — RESOLVED this session: MODERN TEXTBOOK style, generated.**
+- Style decision (user picked, 2026-05-22): a **clean modern textbook map (Hal
+  Jespersen / NPS look)** — pale ground, sage woods, gold fields, blue/rust troop
+  **unit blocks**, bold arrows, sans labels. This **replaced the old flat-tan
+  schematic** (which read "awfully plain"). We tested antique-parchment vs.
+  modern-textbook on the Cornfield; user chose modern.
+- We **generate** them via `scripts/generate-war-maps.mjs` (Gemini, `map-prompts/
+  war/<war>.md` → `public/war-img/<slug>.png`). Run: `node --env-file=/Users/
   mberning/projects/personal/timeline-v2/.env.local scripts/generate-war-maps.mjs
-  antietam --map <slug> --ar 4:3 --force`.
-- **A map-review GATE was added to the pipeline** (`war-content-pipeline.md` step
-  6b): review every map for TACTICAL/GEOGRAPHIC correctness (defensive line faces
-  the attack; arrows match the action; positions/orientation right), not just
-  label hygiene. Lesson baked in: the Cornfield's Confederate line was first drawn
-  N–S on the west — it should be E–W facing Hooker's southward attack. Now fixed +
-  richer (was "awfully plain").
-- **OPEN: generate-our-own vs. use freely-available real per-day maps.** User
-  asked (end of session 3) whether simpler free maps exist for individual battle
-  days. **They do, and they're good:** **Hal Jespersen's maps (cwmaps.com)** —
-  **CC-BY 3.0**, all over Wikipedia/Commons, clean modern per-phase maps (Antietam
-  dawn/morning/midday/afternoon = Cornfield/East Woods/Sunken Road/Burnside's
-  Bridge; Gettysburg day 1/2/3 + overview). Also **NPS maps (public domain)** and
-  the **West Point atlas (PD)**. (American Battlefield Trust maps are excellent but
-  COPYRIGHTED — not free.) Trade-off: Jespersen maps are accurate, free, and far
-  richer than our schematics (directly answers "awfully plain"), BUT a different
-  visual style (white-ground modern cartography) that won't match our flat-tan
-  house look. **Decision for next session:** keep generating schematics, OR adopt
-  Jespersen (CC-BY, credit under image) per-day maps and drop the generated ones,
-  OR hybrid (Jespersen as the tactical ground-truth reference for our schematics).
-  This wasn't decided — surface it first.
+  <war> [--map <slug>] --ar 4:3 --force`. The modern house-style rules are the
+  preamble of each war's prompt file — **copy that preamble for a new war.**
+- **All 11 shipped battle maps regenerated in the modern style this session:**
+  Antietam (campaign, cornfield, sunken-road, bridge) + Gettysburg (day1, day2,
+  day3, lrt, wheatfield, culps, campaign). All geography-verified.
+- **A map-review GATE is in the pipeline** (`war-content-pipeline.md` step 6b):
+  review every map for TACTICAL/GEOGRAPHIC correctness (defensive line faces the
+  attack; arrows match the action; positions right), not just label hygiene.
+  Lessons baked in: the Cornfield line was first drawn facing the wrong way; the
+  campaign map duplicated a label — both caught + fixed by re-rolling.
+- (Free real maps exist if we ever want them — **Hal Jespersen, CC-BY 3.0** on
+  Commons; NPS/West Point atlas, PD; American Battlefield Trust is copyrighted.
+  Not used — we went with our own generated modern style for house consistency.)
 
 **PENDING (next session):**
-1. **Resolve the map decision above** (generate vs. Jespersen CC-BY vs. hybrid).
-2. **Retrofit Gettysburg's narrative through the pipeline** — it's over-tactical /
+1. **Retrofit Gettysburg's narrative through the pipeline** — it's over-tactical /
    human-light (the v0 lesson) AND has a known factual error: Greene "West Point
    classmate of Lee" is false (no class overlap). Run author→fact-check→critic.
 3. **Scale the Major battles** (~46 in the "just majors" cut — see
