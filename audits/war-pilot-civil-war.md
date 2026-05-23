@@ -261,8 +261,11 @@ user is fine with this coming later — NOT debt).
    bolder distinct hue was offered, not done. Only revisit if the user wants it.
 
 **PLANNED CONTENT — NOT debt (user explicitly fine with this coming later):**
-- **14 of 16 Off-the-Battlefield themes** still "Soon" (only Emancipation + Slavery & the
-  Cotton Economy are built). Roster grew 2026-05-23 after gating the LIST itself: added
+- **14 of 17 Off-the-Battlefield themes** still "Soon." BUILT: Slavery & the Cotton Economy,
+  Emancipation, and **The Freedom Struggle** (2026-05-23 — first theme built under the
+  causes-first direction; first full FIVE-gate run; framing gate passed, fact-check clean;
+  3 self-hosted PD images). Causes/off-the-battlefield is the app's HEART (see Governing
+  principle + memory/project_war_causes_first). Roster grew 2026-05-23 after gating the LIST itself: added
   *The War Within the North* (dissent + the 1864 election) and *Lincoln's Rise & the
   Election of 1860*; *The USCT* broadened to *Freedom Seekers & the USCT* (self-emancipation
   + soldiers). Build them through the now-5-gate pipeline; when building the causes themes,
