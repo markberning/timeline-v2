@@ -89,13 +89,17 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
 
   const activeMajor = battleId ? MAJORS.find(b => b.id === battleId) : undefined
   const activeTheme = battleId && !activeMajor ? THEMES.find(t => t.id === battleId) : undefined
-  const battleLabel = activeMajor?.name ?? activeTheme?.name ?? 'Battle / Event'
+  const active = activeMajor ?? activeTheme
+  const battleFull = active?.name ?? 'Battle / Event'
+  // the bc shows a SHORT label for long names; the jump menu still marks the
+  // full name current (via currentLabel)
+  const battleLabel = active?.short ?? battleFull
 
   return [
     { label: 'War', options: modeOptions, currentLabel: 'War' },
     { label: 'ACW', options: warOptions, currentLabel: 'American Civil War', active: !theatre && !battleId },
     { label: activeTheatre?.label ?? 'Theatre', options: theatreOptions, active: !!theatre && !battleId },
-    { label: battleLabel, options: jump, active: !!battleId },
+    { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]
 }
 

@@ -110,6 +110,21 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 - Link the battle from the **theatre spine** AND the **ACW home timeline**, and give those battle cards the battle's hero `img` (only built battles get images; others keep the gradient placeholder).
 - Self-host PD images only (Commons hotlinking 429-blocks). **Verify every image matches its caption before trusting it** (stereoview cards, wrong-subject scans, and matted prints all slip through search).
 
+**Breadcrumb + accent (locked 2026-05-22):**
+- **Short breadcrumb label for long titles.** A long section name overflows the
+  bc bar — set `short` on the Major/Theme (e.g. "The Emancipation Proclamation"
+  → "Emancipation"). The crumb shows the short; the jump menu still marks the
+  full name current via `Crumb.currentLabel`. (Never shorten War/ACW — only the
+  leaf crumb truncates.)
+- **Accent must match the lane colour** (Off the Battlefield = green, Eastern =
+  violet, Western = blue, Trans-Miss = amber, Naval = rust). **Gotcha that bit
+  us:** a page that passes an `ACCENTS` colour MUST be `'use client'`. In a
+  server component, a value imported from the `'use client'` war-chrome module
+  resolves to a client *reference*, so `ACCENTS.green` is `undefined` and the
+  accent silently falls back to the violet default. (Caught on the Emancipation
+  theme: the bc pill rendered violet instead of green until the page was made a
+  client component.)
+
 ## Hard-won notes
 - **Agents run in the MAIN worktree** (`timeline-v2`), not the phase-2 worktree.
   Either point them at the phase-2 tree or move their output over (and they can't

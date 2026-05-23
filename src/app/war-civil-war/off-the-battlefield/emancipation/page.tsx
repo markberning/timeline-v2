@@ -1,4 +1,10 @@
+'use client'
+
 // THEME section — The Emancipation Proclamation (Off the Battlefield, kind=theme).
+// NOTE: 'use client' is REQUIRED — this page reads ACCENTS (a value exported from
+// a 'use client' module); in a server component that import resolves to a client
+// reference and ACCENTS.green is undefined, so the accent silently falls back to
+// violet. Any war page that passes an ACCENTS color must be a client component.
 // First non-battle section built through the war content pipeline (fact pack →
 // author(Opus) → fact-check + storytelling critic(Sonnet) → revise). A theme is
 // ONE arc-driven section (pressure → turning point → consequence), rendered by
