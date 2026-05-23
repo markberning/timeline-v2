@@ -17,6 +17,17 @@ genuinely good story; the hard floor is accuracy with zero hallucinations or
 guesses. Length follows the story; it is never a constraint on it. (Full rule in
 `audits/war-content-pipeline.md` Governing principle.)
 
+**Causes / off-the-battlefield are the HEART (user direction, 2026-05-23).** The
+single most important part of the war app is **WHY we went into each war** — the
+user is "much more" interested in the causes/context than the battles. The
+off-the-battlefield / thematic layer should **rival, if not exceed, the entire
+battle layer in scope and coverage**, and this holds for EVERY war, not just this
+pilot. This RECONTEXTUALIZES the "two-layer / exhaustive battle layer" framing in
+Locked decisions below: the off-battlefield layer is now **co-primary (or
+primary), not a sidebar**. Lead every war with a rich "why did we fight this?"
+treatment, scope the thematic roster generously, and weight off-battlefield BUILD
+effort at least as high as battles. See `memory/project_war_causes_first`.
+
 ## Locked decisions
 - **Pilot = American Civil War**, 1861–1865 (causes from 1850).
 - **~10 chapters**, movement-driven (NOT a template, NOT padded with battles).
