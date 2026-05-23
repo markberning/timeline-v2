@@ -7,21 +7,7 @@
 // and a docked "Meanwhile" card. Standalone prototype; the real reader engine
 // integration comes later. Person side-tags applied per the standing rule.
 
-import { useState } from 'react'
-import { WarBreadcrumb, alpha } from '@/components/mode/war-chrome'
-
-const SANS = 'var(--font-geist-sans)'
-const SERIF = 'var(--font-lora)'
-const ACCENT = '#7c3aed' // Civil War (violet)
-
-// Theatre switcher (same dropdown the theatre/battle pages use). A section sits
-// under Gettysburg → Eastern Theatre; Eastern is the checked entry.
-const THEATRE_OPTIONS = [
-  { label: 'Eastern Theatre', href: '/war-civil-war/eastern' },
-  { label: 'Western Theatre', href: '/war-civil-war/western' },
-  { label: 'Trans-Mississippi', disabled: true },
-  { label: 'Naval & Coastal', disabled: true },
-]
+import { BattleSectionReader } from '@/components/mode/battle-reader'
 
 type Block =
   | { h: string; eyebrow?: string }
@@ -166,109 +152,6 @@ const GB_NARR: Record<string, Narr> = {
   },
 }
 
-const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineHeight: 1.62, letterSpacing: '-0.01em', margin: 0, color: 'var(--foreground)' }
-
 export function SectionNarrative({ id }: { id: string }) {
-  const n = GB_NARR[id] ?? GB_NARR.hooks
-  const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
-  let firstP = true
-  // sequential nav — the next section in reading order (or back to the battle)
-  const seq = Object.keys(GB_NARR)
-  const idx = seq.indexOf(id)
-  const nextId = idx >= 0 ? seq[idx + 1] : undefined
-  const next = nextId ? GB_NARR[nextId] : null
-  return (
-    <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb
-        accent={ACCENT}
-        crumbs={[
-          { label: 'War', href: '/' },
-          { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
-          { label: 'Eastern Theatre', href: '/war-civil-war/eastern', options: THEATRE_OPTIONS },
-          { label: 'Gettysburg', href: '/war-civil-war/eastern/gettysburg' },
-        ]}
-      />
-      {/* sticky chapter header — sits below the breadcrumb bar */}
-      <div style={{ position: 'sticky', top: 36, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px' }}>
-          <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-          </button>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.eyebrow}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.15, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.title}</div>
-          </div>
-        </div>
-      </div>
-
-      <div style={{ maxWidth: 640, margin: '0 auto', padding: '0 18px 48px' }}>
-        {/* article */}
-        <article style={{ paddingTop: 18 }}>
-          {n.blocks.map((b, i) => {
-            if ('h' in b) return (
-              <div key={i} style={{ marginTop: i === 0 ? 0 : 26, marginBottom: 10 }}>
-                {b.eyebrow && <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: ACCENT, marginBottom: 3 }}>{b.eyebrow}</div>}
-                <h2 style={{ fontFamily: SERIF, fontWeight: 500, fontSize: 22, lineHeight: 1.15, letterSpacing: '-0.3px', margin: 0 }}>{b.h}</h2>
-              </div>
-            )
-            if ('fig' in b) return (
-              <figure key={i} style={{ margin: '20px 0' }}>
-                <div style={{ borderRadius: 6, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
-                  {!figFailed[i] && <img src={b.fig} alt="" onError={() => setFigFailed(f => ({ ...f, [i]: true }))} style={{ display: 'block', width: '100%', height: 'auto' }} />}
-                </div>
-                <figcaption style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, lineHeight: 1.45, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)', marginTop: 8 }}>
-                  {b.cap} <span style={{ fontFamily: SANS, fontStyle: 'normal', fontSize: 10.5, color: 'color-mix(in srgb, var(--foreground) 42%, transparent)' }}>· {b.credit}</span>
-                </figcaption>
-              </figure>
-            )
-            // blockquote (e.g. the Gettysburg Address)
-            if (b.q) return (
-              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${ACCENT}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{b.p}</p>
-            )
-            // italic aside
-            if (b.i) return (
-              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{b.p}</p>
-            )
-            // paragraph — drop cap on the very first one
-            const drop = firstP
-            firstP = false
-            return (
-              <p key={i} style={{ ...proseStyle, marginTop: 12 }}>
-                {drop && <span style={{ float: 'left', fontFamily: SERIF, fontWeight: 500, fontSize: 50, lineHeight: 0.82, color: ACCENT, paddingRight: 8, marginTop: 4 }}>{b.p.charAt(0)}</span>}
-                {drop ? b.p.slice(1) : b.p}
-              </p>
-            )
-          })}
-        </article>
-
-        {/* Meanwhile — at the end of the chapter (not sticky) */}
-        {n.meanwhile && (
-          <div style={{ marginTop: 28, border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)' }}>
-            <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Meanwhile in {n.meanwhile.region}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 16, fontStyle: 'italic', marginTop: 3 }}>{n.meanwhile.title}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 75%, transparent)', marginTop: 3 }}>{n.meanwhile.body}</div>
-          </div>
-        )}
-
-        {/* sequential nav — next section, or back to the battle at the end */}
-        {next ? (
-          <a href={`/war-civil-war/eastern/gettysburg/s/${nextId}`} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: `1px solid ${alpha(ACCENT, 0.4)}`, borderRadius: 12, padding: '14px 16px', background: alpha(ACCENT, 0.06), textDecoration: 'none', color: 'inherit' }}>
-            <div style={{ minWidth: 0 }}>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: ACCENT }}>Next section</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{next.title}</div>
-            </div>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: ACCENT }} aria-hidden>→</span>
-          </a>
-        ) : (
-          <a href="/war-civil-war/eastern/gettysburg" style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: '1px solid color-mix(in srgb, var(--foreground) 16%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', textDecoration: 'none', color: 'inherit' }}>
-            <div>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>End of Gettysburg</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2 }}>Back to the battle</div>
-            </div>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }} aria-hidden>↩</span>
-          </a>
-        )}
-      </div>
-    </div>
-  )
+  return <BattleSectionReader sections={GB_NARR} id={id} slug="gettysburg" battleName="Gettysburg" />
 }

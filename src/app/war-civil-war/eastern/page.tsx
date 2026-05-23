@@ -79,7 +79,7 @@ const THEATRE_EVENTS: Record<string, Ev[]> = {
     { mo: 'Jul', year: 1861, name: 'First Bull Run', place: 'Manassas, VA', size: 's' },
     { mo: 'Spring', year: 1862, name: 'Peninsula Campaign', place: 'York–James, VA', size: 's' },
     { mo: 'Aug', year: 1862, name: 'Second Bull Run', place: 'Manassas, VA', size: 's' },
-    { mo: 'Sep', year: 1862, name: 'Antietam', place: 'Sharpsburg, MD', size: 'l' },
+    { mo: 'Sep', year: 1862, name: 'Antietam', place: 'Sharpsburg, MD', size: 'l', href: '/war-civil-war/eastern/antietam' },
     { mo: 'Dec', year: 1862, name: 'Fredericksburg', place: 'Fredericksburg, VA', size: 's' },
     { mo: 'May', year: 1863, name: 'Chancellorsville', place: 'Spotsylvania, VA', size: 's' },
     { mo: 'Jul', year: 1863, name: 'Gettysburg', place: 'Adams County, PA', size: 'xl', href: GBURG_HREF },
@@ -118,7 +118,7 @@ const THEATRE_EVENTS: Record<string, Ev[]> = {
 type Size = 's' | 'm' | 'l' | 'xl'
 const BATTLES: { id: string; size: Size; name: string; date: string; hook: string; href?: string }[] = [
   { id: 'bull', size: 'm', name: 'First Bull Run', date: 'Jul 1861', hook: 'The first big clash — and the end of the short-war fantasy.' },
-  { id: 'antietam', size: 'l', name: 'Antietam', date: 'Sep 1862', hook: 'The bloodiest single day in American history; Lee’s first invasion turned back.' },
+  { id: 'antietam', size: 'l', name: 'Antietam', date: 'Sep 1862', hook: 'The bloodiest single day in American history; Lee’s first invasion turned back.', href: '/war-civil-war/eastern/antietam' },
   { id: 'fred', size: 'm', name: 'Fredericksburg', date: 'Dec 1862', hook: 'Wave after wave thrown at a stone wall. A Union disaster.' },
   { id: 'chanc', size: 'm', name: 'Chancellorsville', date: 'May 1863', hook: 'Lee’s masterpiece — and the night Stonewall Jackson was shot by his own men.' },
   { id: 'gburg', size: 'xl', name: 'Gettysburg', date: 'Jul 1863', hook: 'Three days, fifty thousand casualties, the high-water mark of the Confederacy.', href: GBURG_HREF },
