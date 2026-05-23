@@ -5,12 +5,36 @@ Antietam (2026-05-22)** — author → fact-check + storytelling critic → revi
 
 ## Governing principle
 **Storytelling is the #1 goal. Accuracy / zero-hallucination is a hard floor it
-may never cross.** Every section clears **three non-negotiable gates**: a
+may never cross.** Every section clears **five non-negotiable gates**: a
 **fact-checker** ("is everything here TRUE?"), a **storytelling critic** ("is it
-told WELL?"), and a **comprehensiveness critic** ("is anything IMPORTANT
-missing?"). It ships only when all three pass.
+told WELL?"), a **comprehensiveness critic** ("is anything IMPORTANT missing?"),
+a **newcomer/clarity critic** ("can a zero-knowledge reader actually FOLLOW
+this?"), and a **Lost Cause / framing critic** ("is it FAIR — free of slavery-
+cause soft-pedaling, false balance, and Confederate romanticization?"). It ships
+only when all five pass.
 
-**Why three (the comprehensiveness gate, added 2026-05-23, user's idea).** The
+**Why the newcomer/clarity gate (added 2026-05-23, user's idea).** The whole
+product is built for a reader with ZERO prior knowledge — every term inline-
+defined on first use, the scene set before new people/places/concepts arrive (the
+civ side enforces this with a "first-time reader" persona). Authors who know the
+subject unconsciously write for readers who already know it, leaving military
+jargon ("corps," "enfilade," "flank in detail," "the border states") and named
+actors unglossed. This gate reads the section cold as a 15-year-old who has never
+heard of any of it and flags every undefined term, unexplained leap, and place
+where the reader would be lost or overwhelmed. Storytelling judges craft; this
+judges *comprehension* — they are not the same.
+
+**Why the Lost Cause / framing gate (added 2026-05-23, user's idea).** Civil War
+history has a famous, well-documented failure mode: the Lost Cause — soft-pedaling
+slavery as the cause, "both-sidesing" the morality, romanticizing Confederate
+leadership, "states' rights" euphemism, and presentism. The comprehensiveness gate
+catches *some* of this as a perspective check, but only incidentally. This gate's
+ONLY job is to hunt distortion, false balance, sanitization, and unfair sympathy
+distribution — and to confirm the human reality (the enslaved, the dead,
+civilians) is neither sanitized nor made gratuitous. Reusable for any war with a
+contested memory.
+
+**Why the comprehensiveness gate (added 2026-05-23, user's idea).** The
 fact-checker only judges the claims that are *present* — it is blind to omissions.
 The storytelling critic judges the arc of what's *there* — a tight, well-told
 section can still silently skip something essential. So a third gate, the inverse
@@ -63,7 +87,10 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
 - **Fact-checker agent** — model Sonnet, **web-enabled**. Verifies every claim against sources; must be able to FAIL the draft. ("Is everything here true?")
 - **Storytelling critic agent** — model Sonnet. Judges as a story; can demand rewrites. ("Is it told well?")
 - **Comprehensiveness critic agent** — model Sonnet, **web-enabled**. Independently builds the must-cover checklist for the subject, then flags essential OMISSIONS / underweighting / perspective gaps in the draft AND blind spots in the fact pack. ("Is anything important missing?") Flags only genuinely essential gaps — selective narrative is correct.
+- **Newcomer/clarity critic agent** — model Sonnet. Reads the section cold as a reader with ZERO prior knowledge (a sharp 15-year-old). Flags every undefined term/acronym/jargon ("corps," "enfilade," "flank in detail"), every unexplained leap, every named actor introduced without a side-tag or scene-set, and any passage that would lose or overwhelm a first-timer. Output: per-term/per-passage CLEAR / NEEDS-GLOSS / LOST, then MUST-FIX (genuine comprehension breakers) vs SHOULD-FIX. ("Can a zero-knowledge reader follow this?")
+- **Lost Cause / framing critic agent** — model Sonnet, **web-enabled**. Hunts ONLY for distortion: slavery-cause soft-pedaling, false both-sides balance, Confederate romanticization, "states' rights" euphemism, presentism, and unfair sympathy distribution; confirms the human reality (enslaved, dead, civilians) is neither sanitized nor gratuitous. Output: FAIR / TILTED / DISTORTED per finding, MUST-FIX vs SHOULD-FIX. ("Is it fair?") Reusable for any war with a contested memory.
 - (The civ 5-persona audit can run once a section is close; not required for the gate.)
+- **Continuity (corpus-level, NOT per-section).** Cross-section + cross-battle consistency of recurring people/units/numbers (e.g., Antietam's casualty figure must read the same everywhere; Lee's characterization must not drift) is checked by a **periodic corpus sweep**, not on every section build. Run it on a cadence as the war corpus grows.
 
 ## `kind` — every section is battle or theme
 | | **battle** | **theme** (non-battle) |
@@ -88,7 +115,7 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
    see `memory/feedback_war_person_side_tags`), house voice (`WRITING-RULES.md`),
    dual POV for battles, human cost weighted. Output: draft markdown **plus a
    Fact ledger** (every concrete claim → which fact-pack item; `[VERIFY]` flags).
-4. **Three critics, in parallel:**
+4. **Five critics, in parallel:**
    - **Fact-checker** — independently verify EVERY date/number/name/rank/place/
      quote against authoritative sources (don't trust the draft or the ledger).
      Output ✅ CONFIRMED / ❌ WRONG (+ correct fact + source) / ⚠️ UNSUPPORTED,
@@ -102,11 +129,20 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
      subject, then COVERED / THIN / MISSING per item; MUST-ADD (essential gaps,
      blocking) vs SHOULD-CONSIDER (enriching, non-blocking); plus fact-pack blind
      spots. Honest and tight — essential only, never encyclopedic.
+   - **Newcomer/clarity critic** — read cold as a zero-knowledge reader; flag
+     every undefined term/jargon, missing side-tag, unexplained leap, and
+     overwhelming passage. CLEAR / NEEDS-GLOSS / LOST; MUST-FIX (comprehension
+     breakers) vs SHOULD-FIX.
+   - **Lost Cause / framing critic** — hunt distortion only: slavery-cause soft-
+     pedaling, false balance, Confederate romanticization, euphemism, presentism,
+     unfair sympathy; confirm human reality is neither sanitized nor gratuitous.
+     FAIR / TILTED / DISTORTED; MUST-FIX vs SHOULD-FIX.
 5. **Revise** — author applies fixes (fact ❌ = must-fix; weak story = must-improve;
-   comprehensiveness MUST-ADD = must-cover). **A comprehensiveness MUST-ADD usually
-   means NEW material → it goes through the fact pack + fact-checker FIRST** (the
-   cross-gate rule above), THEN the author writes it in. Loop until all three gates
-   are clean.
+   comprehensiveness MUST-ADD = must-cover; clarity MUST-FIX = gloss/scene-set the
+   term; framing MUST-FIX = correct the distortion). **A comprehensiveness MUST-ADD
+   (or a framing fix that adds material) usually means NEW material → it goes
+   through the fact pack + fact-checker FIRST** (the cross-gate rule above), THEN
+   the author writes it in. Loop until all five gates are clean.
 6. **Images** — self-host PD/licensed only (Commons hotlinking 429-blocks in the
    browser); **credit line goes UNDER the image**, not as an overlay. Battles get
    a tactical map; theme sections get a period portrait/photo.
