@@ -58,6 +58,7 @@ export interface Crumb {
   href?: string
   options?: CrumbOption[] // when present, the crumb is an interactive dropdown (theatre switch / battle jump)
   active?: boolean // dropdown crumb that is the current page's leaf — gets accent emphasis (else gray)
+  currentLabel?: string // option label to check (✓) when the button shows a SHORT label (e.g. button "ACW", current option "American Civil War")
 }
 
 // Just the breadcrumb bar (sticky, top:0) — shared by WarChrome and by the
@@ -89,7 +90,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
                 // any crumb with options is an interactive dropdown — the theatre
                 // switcher and the battle/event jump list, on every page. Accent
                 // when it's the current page's leaf (c.active), gray otherwise.
-                ? <CrumbDropdown crumb={c} emphasized={c.active ?? last} chip={chip} faint={faint} muted={muted} accent={accent} />
+                ? <CrumbDropdown crumb={c} emphasized={c.active ?? last} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
                 : c.href && !last
                   ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
                   : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? accent : muted, fontWeight: last ? 700 : 500, background: last ? alpha(accent, 0.14) : 'transparent', border: last ? `1px solid ${alpha(accent, 0.5)}` : undefined, borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
@@ -156,7 +157,7 @@ export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: {
 // scrolls (the jump list is long) and is clamped to the viewport so the
 // rightmost crumb's menu doesn't run off-screen.
 const MENU_W = 252
-function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean }) {
+function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number }) {
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
   const btnRef = useRef<HTMLButtonElement>(null)
@@ -192,7 +193,7 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crum
         fontFamily: SANS, fontSize: 11, fontWeight: 600, color: emphasized ? 'var(--foreground)' : muted,
         background: emphasized ? alpha(accent, open ? 0.22 : 0.14) : (open ? 'color-mix(in srgb, var(--foreground) 12%, transparent)' : chip),
         borderRadius: 999, border: `1px solid ${emphasized ? alpha(accent, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)'}`, cursor: 'pointer',
-        maxWidth: 168, minWidth: 0,
+        maxWidth: maxLabel, minWidth: 0,
       }}>
         <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{crumb.label}</span>
         <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
@@ -213,7 +214,7 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crum
                   {dot}<span>{o.label}</span>
                 </div>
               )
-              const current = o.label === crumb.label
+              const current = o.label === (crumb.currentLabel ?? crumb.label)
               if (o.disabled || !o.href) return (
                 <div key={`o${oi}`} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, color: faint, borderRadius: 7, cursor: 'default' }}>
                   <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{dot}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{o.label}</span></span>

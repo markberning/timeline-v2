@@ -51,7 +51,7 @@ interface War {
   href?: string
 }
 
-const WAR_EVENTS: War[] = [
+export const WAR_EVENTS: War[] = [
   { id: 'fi', band: 'col', size: 's', name: 'French & Indian War', range: '1754–1763', vs: 'Britain & colonies vs. France & allies', hook: 'A continent-sized turf war — also the first half of a world war.', palette: ['#5f6b3a', '#1c1a10', '#a08a4a'], imgLabel: 'Lake George skirmish' },
   { id: 'rev', band: 'forge', size: 'm', name: 'American Revolution', range: '1775–1783', vs: 'United States vs. Great Britain', hook: 'We hold these truths to be — well, you know the rest.', palette: ['#7a3b1c', '#c08a3a', '#0a0a0a'], imgLabel: 'Crossing the Delaware' },
   { id: '12', band: 'forge', size: 's', name: 'War of 1812', range: '1812–1815', vs: 'United States vs. Great Britain', hook: 'Britain burned the White House. We got an anthem out of it.', palette: ['#4a3a1c', '#a8763a', '#1a0e07'], imgLabel: 'Burning of Washington' },
@@ -66,7 +66,7 @@ const WAR_EVENTS: War[] = [
   { id: 'wot', band: 'cold', size: 'm', name: 'War on Terror', range: '2001–present', vs: 'United States & allies vs. al-Qaeda, Taliban, ISIS', hook: 'A war fought in deserts and in spreadsheets. The longest one yet.', palette: ['#3a1c1c', '#c08a3a', '#0a0a0a'], imgLabel: 'Tora Bora' },
 ]
 
-const WAR_BANDS = [
+export const WAR_BANDS = [
   { id: 'col', label: 'Colonial Wars', color: BAND_COLORS.amber },
   { id: 'forge', label: 'A Nation Forged', color: BAND_COLORS.rust },
   { id: 'ind', label: 'Industrial Wars', color: BAND_COLORS.violet },

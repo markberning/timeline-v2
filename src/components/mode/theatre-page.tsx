@@ -15,6 +15,8 @@ import { useState } from 'react'
 import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
+import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
+import { TL_KIND_ORDER, type TlKind } from '@/lib/navigator-tls'
 
 const MONO = 'var(--font-geist-mono)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
@@ -58,14 +60,23 @@ const THEATRE_DOT: Record<string, string> = {
   east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green,
 }
 
+// Mode (vertical) + war switch data for the top two breadcrumb dropdowns.
+const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war-civil-war', art: undefined, music: undefined }
+const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b => [b.id, b.color]))
+
 // The unified ACW breadcrumb: War › ACW › Theatre › Battle/Event, on EVERY ACW
-// page. Theatre and Battle/Event are both interactive dropdowns everywhere —
-// Theatre switches theatre (color-coded), Battle/Event jumps to any of the 46
-// Major battles + 14 themes (grouped + color-coded by theatre; built ones link,
-// the rest are "soon"). Pass the active `theatre` and/or `battleId`; omit both on
-// the home page (the two crumbs become generic "Theatre" / "Battle / Event"
-// pickers). The leaf crumb (the current page) gets accent emphasis.
+// page — all four crumbs are interactive dropdowns. Mode switches vertical
+// (Civ/War/Art/Music); War switches war (all US wars, color-coded by era, built
+// ones link); Theatre switches theatre; Battle/Event jumps to any of the 46
+// Major battles + 14 themes (chronological, color-coded by theatre; built ones
+// link with a date). Pass the active `theatre` and/or `battleId`; omit both on
+// the war home (Theatre / Battle/Event become generic pickers and the WAR crumb
+// lights up). The current page's leaf crumb gets accent emphasis.
 export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield'; battleId?: string } = {}): Crumb[] {
+  const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
+  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
+
   const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
   const activeTheatre = theatre ? THEATRE_NAV.find(t => t.id === theatre) : undefined
 
@@ -81,8 +92,8 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   const battleLabel = activeMajor?.name ?? activeTheme?.name ?? 'Battle / Event'
 
   return [
-    { label: 'War', href: '/' },
-    { label: 'American Civil War', short: 'ACW', href: '/war-civil-war' },
+    { label: 'War', options: modeOptions, currentLabel: 'War' },
+    { label: 'ACW', options: warOptions, currentLabel: 'American Civil War', active: !theatre && !battleId },
     { label: activeTheatre?.label ?? 'Theatre', options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, options: jump, active: !!battleId },
   ]
