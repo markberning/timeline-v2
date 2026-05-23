@@ -49,7 +49,7 @@ const TL_META: Record<string, { size: CardSize; date: string; palette: [string, 
   'bloodiest': { size: 'xl', date: 'Sep 17', palette: ['#7a1422', '#3a1208', '#0a0606'] },
 }
 const SECTION_IMG: Record<string, string> = {
-  'lost-order': '/war-img/antietam-hero.jpg',
+  'lost-order': '/war-img/antietam-lost-order.jpg',
   'cornfield': '/war-img/antietam-dunker-church.jpg',
   'bridge': '/war-img/antietam-burnside-bridge.jpg',
   'bloodiest': '/war-img/antietam-bloody-lane.jpg',
@@ -177,7 +177,7 @@ function Thumb({ file, w, h }: { file: string; w: number; h: number }) {
   const [failed, setFailed] = useState(false)
   return (
     <div style={{ width: w, height: h, borderRadius: 6, overflow: 'hidden', flexShrink: 0, background: 'linear-gradient(135deg, #3a2e21, #1c1814)' }}>
-      {!failed && <img src={file} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />}
+      {!failed && <img src={file} alt="" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.16)', transformOrigin: 'center' }} />}
     </div>
   )
 }
