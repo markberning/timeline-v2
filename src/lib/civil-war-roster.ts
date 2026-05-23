@@ -73,7 +73,7 @@ export const MAJORS: Major[] = [
 
 export interface Theme {
   id: string; name: string; phase: string; type: SpineType; size: Size
-  date: string; year: number; m: number; hook: string
+  date: string; year: number; m: number; hook: string; href?: string
 }
 
 // The ~15 locked non-battle sections, placed on the home spine by phase.
@@ -88,7 +88,7 @@ export const THEMES: Theme[] = [
   { id: 'th-homefront', name: 'The Home Front', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1861–1865', year: 1862, m: 7, hook: 'Draft riots, war economies, and women running the farms and the hospitals.' },
   { id: 'th-medicine', name: 'Medicine & Disease', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1861–1865', year: 1862, m: 8, hook: 'Two soldiers died of disease for every one killed in battle.' },
 
-  { id: 'th-emancipation', name: 'The Emancipation Proclamation', phase: 'turning', type: 'POLITICS', size: 'l', date: 'Jan 1863', year: 1863, m: 1, hook: 'Lincoln changes what the entire war is for.' },
+  { id: 'th-emancipation', name: 'The Emancipation Proclamation', phase: 'turning', type: 'POLITICS', size: 'l', date: 'Jan 1863', year: 1863, m: 1, hook: 'Lincoln changes what the entire war is for.', href: '/war-civil-war/off-the-battlefield/emancipation' },
   { id: 'th-usct', name: 'The USCT', phase: 'turning', type: 'SOCIETY', size: 'm', date: '1863–1865', year: 1863, m: 5, hook: 'Nearly 180,000 Black soldiers put on Union blue — and changed the war’s meaning.' },
 
   { id: 'th-prisons', name: 'Andersonville & the Prisons', phase: 'total', type: 'AFTERMATH', size: 'm', date: '1864–1865', year: 1864, m: 2, hook: 'Prison camps North and South where tens of thousands died of disease and starvation.' },
@@ -135,7 +135,7 @@ const phaseOfYear = (y: number): string =>
 
 export const SPINE_NODES: SpineNode[] = [
   ...THEMES.map<SpineNode & { _s: number }>(t => ({
-    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, date: t.date, hook: t.hook, _s: t.year * 100 + t.m,
+    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, date: t.date, hook: t.hook, href: t.href, _s: t.year * 100 + t.m,
   })),
   ...MAJORS.map<SpineNode & { _s: number }>(b => ({
     id: b.id, phase: phaseOfYear(b.year), type: 'BATTLE', size: b.size, name: b.name,

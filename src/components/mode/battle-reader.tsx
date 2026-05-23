@@ -29,9 +29,13 @@ const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineH
 
 export function BattleSectionReader({
   sections, id, slug, battleName, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
+  endHref, endKicker, endLabel,
 }: {
   sections: Record<string, Narr>; id: string; slug: string; battleName: string
   theatreId?: Theatre | 'offfield'; battleId?: string; theatreHref?: string; accent?: string
+  // override the final "End of …" link (e.g. a one-section theme returns to the
+  // Off the Battlefield spine rather than self-linking to its own page)
+  endHref?: string; endKicker?: string; endLabel?: string
 }) {
   const ids = Object.keys(sections)
   const n = sections[id] ?? sections[ids[0]]
@@ -110,10 +114,10 @@ export function BattleSectionReader({
             <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: accent }} aria-hidden>→</span>
           </a>
         ) : (
-          <a href={battleHref} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: '1px solid color-mix(in srgb, var(--foreground) 16%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', textDecoration: 'none', color: 'inherit' }}>
+          <a href={endHref ?? battleHref} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: '1px solid color-mix(in srgb, var(--foreground) 16%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', textDecoration: 'none', color: 'inherit' }}>
             <div>
-              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>End of {battleName}</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2 }}>Back to the battle</div>
+              <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{endKicker ?? `End of ${battleName}`}</div>
+              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2 }}>{endLabel ?? 'Back to the battle'}</div>
             </div>
             <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }} aria-hidden>↩</span>
           </a>

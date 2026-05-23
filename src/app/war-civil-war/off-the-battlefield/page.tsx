@@ -47,7 +47,7 @@ export default function OffTheBattlefieldPage() {
             The threads off the firing line, in the order they shaped the war. Section pages are coming; for now, this is the map of what’s here.
           </p>
           <CordTimeline>
-            {spine.map(t => <BattleCard key={t.id} size={t.size} accent={ACCENT} dateTop={String(t.year)} title={t.name} sub={`${t.date} · ${TYPE_LABEL[t.type] || t.type}`} hook={t.hook} soon />)}
+            {spine.map(t => <BattleCard key={t.id} size={t.size} accent={ACCENT} dateTop={String(t.year)} title={t.name} sub={`${t.date} · ${TYPE_LABEL[t.type] || t.type}`} hook={t.hook} href={t.href} soon={!t.href} />)}
           </CordTimeline>
         </div>
       </div>
