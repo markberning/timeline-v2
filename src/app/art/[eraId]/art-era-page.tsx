@@ -92,7 +92,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
         <div style={{ width: 172, flexShrink: 0, alignSelf: 'center', aspectRatio: b.imageAspect || '5 / 6', borderRight: `1px solid ${BORDER}`, background: b.palette[1], position: 'relative', overflow: 'hidden' }}>
           {b.imageUrl && !imgFailed && (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={b.imageUrl} alt={b.imgLabel || b.name} loading="lazy" onError={() => setImgFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', filter: 'sepia(0.12) saturate(0.9) contrast(1.03)' }} />
+            <img src={b.imageUrl} alt={b.imgLabel || b.name} loading="lazy" onError={() => setImgFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', transform: 'scale(1.08)', transformOrigin: 'center', filter: 'sepia(0.12) saturate(0.9) contrast(1.03)' }} />
           )}
         </div>
         <div style={{ flex: 1, minWidth: 0, padding: '14px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
