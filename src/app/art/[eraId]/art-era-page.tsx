@@ -203,6 +203,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
                 blurb: m.hook,
                 size: m.size,
                 palette: m.palette,
+                imageUrl: m.imageUrl,
                 imgLabel: m.name,
               }}
             />
