@@ -35,9 +35,9 @@ Six labels only: Potomac, Sharpsburg, Frederick, Harpers Ferry, Lee, McClellan. 
 
 A clean schematic close-up of the morning fight at Antietam, dawn September 17, 1862 — the northern end of the field. A zoomed-in tactical view, NOT the whole battle.
 
-Draw the Confederate position as a vertical RUST band down the west (left) side. Near the center, label a small open patch "The Cornfield". Just south of the cornfield, draw a small building marker labeled "Dunker Church". West of the church, label a stand of trees "West Woods".
+The Confederates are defending the SOUTH end of the field, facing NORTH. Draw their position as a horizontal RUST line running east–west across the lower-center of the image — the line the Union is attacking into. Anchor the western end of that rust line at a stand of trees labeled "West Woods" (lower left). Place a small building marker labeled "Dunker Church" just behind the rust line (below it). Label the open ground NORTH of the rust line (upper-center) "The Cornfield".
 
-Show the Union attack as one bold BLUE arrow driving straight south from the top edge into the Cornfield, labeled "Hooker".
+Show the Union attack as one bold BLUE arrow driving straight south from the top edge, down through the Cornfield and into the rust line, labeled "Hooker".
 
 Four labels only: The Cornfield, Dunker Church, West Woods, Hooker. Nothing else.
 

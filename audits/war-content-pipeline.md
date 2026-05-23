@@ -59,6 +59,23 @@ and people; make the cost *felt*.
    browser); **credit line goes UNDER the image**, not as an overlay. Battles get
    a schematic map (smooth blue/rust arrows — see `feedback_war_map_styles`);
    theme sections get a period portrait/photo.
+6b. **Map review — a GATE, not a glance.** Every generated map is reviewed like
+   the fact-checker reviews prose — for **tactical/geographic correctness**, not
+   just label hygiene. Check each map against the battle's real geography (the
+   fact pack / sources):
+   - **Orientation & positions:** a defensive line must FACE the attack — the
+     attacker's arrow strikes the defender's *front*; lines and places sit in
+     their true relative positions; north is up. (Lesson: the Cornfield's
+     Confederate line was first drawn as a north–south band on the *west* when
+     it should be an east–west line *facing Hooker's southward attack* — a label-
+     only eyeball missed it.)
+   - **Arrows match the action:** who attacked, from which direction, against what.
+   - **Label hygiene:** no colour words (BLUE/RUST) printed as labels, exact
+     spelling, ≤6 labels, no garbled glyphs.
+   - **Style:** flat tan, no frame, no compass/ornament.
+   Regenerate until correct. (A vision-capable critic agent can do this pass —
+   it reads the PNG and verifies the geography against sources, same discipline
+   as the prose fact-checker.)
 7. **Integrate** — convert to the reader section format, wire the route, add the
    next-section link, run the deterministic gates (links) as applicable. The
    battle **dossier** also carries an **Outcome section**: a one-line verdict
