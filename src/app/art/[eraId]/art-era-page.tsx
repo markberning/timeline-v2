@@ -74,6 +74,7 @@ interface ArtCardData {
   palette: Palette
   imgLabel?: string
   imageUrl?: string
+  focus?: string // object-position for the cover crop (frame a deliberate detail)
 }
 
 function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
@@ -107,7 +108,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
             alt={b.imgLabel || b.name}
             loading="lazy"
             onError={() => setImgFailed(true)}
-            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }}
+            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }}
           />
         )}
         {b.imgLabel && (
@@ -204,6 +205,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
                 size: m.size,
                 palette: m.palette,
                 imageUrl: m.imageUrl,
+                focus: m.focus,
                 imgLabel: m.name,
               }}
             />
