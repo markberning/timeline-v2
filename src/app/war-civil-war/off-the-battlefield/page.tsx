@@ -9,29 +9,40 @@
 // pages aren't written yet. No Timeline/Dossier toggle (it's a subject list, not
 // a two-view battle theatre) — breadcrumb only, the timeline spine.
 
-import { WarBreadcrumb, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
+import { useState } from 'react'
+import { WarBreadcrumb, SANS, SERIF, ACCENTS } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { THEMES } from '@/lib/civil-war-roster'
 
 const ACCENT = ACCENTS.green
-const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
-const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 
 const TYPE_LABEL: Record<string, string> = { CAUSE: 'Cause', POLITICS: 'Politics', SOCIETY: 'Society', AFTERMATH: 'Aftermath', BATTLE: 'Battle' }
 
-// Non-battle header — a clean accent banner, not the battle GenericHero (this
-// "theatre" is a subject, not a place).
+// Non-battle hero — a full-bleed period image for the subject (Nast's
+// "Emancipation," the era's great emblem of the war's social transformation),
+// with the title overlaid, then the framing paragraph below.
 function Header() {
+  const [failed, setFailed] = useState(false)
+  const PAL = ['#3a342a', '#23201a', '#0a0806']
   return (
-    <div style={{ position: 'relative', overflow: 'hidden', background: `linear-gradient(150deg, ${alpha(ACCENT, 0.22)}, ${alpha(ACCENT, 0.05)} 60%, transparent)`, borderBottom: `1px solid ${BORDER}`, padding: '24px 18px 22px' }}>
-      <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: ACCENT, textTransform: 'uppercase' }}>War · the war beyond the battles</div>
-      <h1 style={{ margin: '8px 0 0', fontFamily: SERIF, fontSize: 30, lineHeight: 1.04, letterSpacing: -0.5, fontWeight: 500 }}>Off the Battlefield</h1>
-      <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 12.5, letterSpacing: 0.3, color: MUTED }}>Causes · society · technology · diplomacy · aftermath</div>
-      <p style={{ margin: '14px 0 0', fontFamily: SERIF, fontSize: 15.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', maxWidth: 380 }}>
+    <>
+      <div style={{ position: 'relative', height: 248, overflow: 'hidden', background: PAL[2] }}>
+        {failed
+          ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${PAL[0]}, ${PAL[1]} 55%, ${PAL[2]})` }} />
+          : <img src="/war-img/off-the-battlefield-hero.jpg" alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 32%', transform: 'scale(1.04)', transformOrigin: 'center', filter: 'sepia(0.16) saturate(0.9) contrast(1.04)' }} />}
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 26%, rgba(8,8,8,0.9) 100%)' }} />
+        <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
+          <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: `color-mix(in srgb, ${ACCENT} 45%, white)`, textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>War · the war beyond the battles</div>
+          <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontSize: 30, lineHeight: 1.04, letterSpacing: -0.5, fontWeight: 500, textShadow: '0 2px 12px rgba(0,0,0,0.55)' }}>Off the Battlefield</h1>
+          <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 12.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.8)' }}>Causes · society · technology · diplomacy · aftermath</div>
+        </div>
+      </div>
+      <div style={{ padding: '7px 16px 0', fontFamily: SANS, fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Thomas Nast, “Emancipation” (Harper’s Weekly, 1863) · public domain</div>
+      <p style={{ margin: '14px 16px 4px', fontFamily: SERIF, fontSize: 15.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)' }}>
         Battles decide who holds the field. They don’t explain why four million people were enslaved, how a rifled musket changed everything, or what the war did to the people who never fired a shot. These are those threads.
       </p>
-    </div>
+    </>
   )
 }
 

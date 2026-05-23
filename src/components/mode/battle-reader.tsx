@@ -29,17 +29,20 @@ const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineH
 
 export function BattleSectionReader({
   sections, id, slug, battleName, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
-  endHref, endKicker, endLabel,
+  endHref, endKicker, endLabel, heroImage, heroPalette = ['#3a2e21', '#2a221c', '#0a0806'], heroCredit,
 }: {
   sections: Record<string, Narr>; id: string; slug: string; battleName: string
   theatreId?: Theatre | 'offfield'; battleId?: string; theatreHref?: string; accent?: string
   // override the final "End of …" link (e.g. a one-section theme returns to the
   // Off the Battlefield spine rather than self-linking to its own page)
   endHref?: string; endKicker?: string; endLabel?: string
+  // optional full-bleed hero (themes use it; battle sections usually don't)
+  heroImage?: string; heroPalette?: [string, string, string] | string[]; heroCredit?: string
 }) {
   const ids = Object.keys(sections)
   const n = sections[id] ?? sections[ids[0]]
   const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
+  const [heroFailed, setHeroFailed] = useState(false)
   let firstP = true
   const idx = ids.indexOf(id)
   const nextId = idx >= 0 ? ids[idx + 1] : undefined
@@ -49,6 +52,21 @@ export function BattleSectionReader({
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb accent={accent} crumbs={civilWarCrumbs({ theatre: theatreId, battleId })} />
+      {heroImage && (
+        <>
+          <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: heroPalette[2] }}>
+            {heroFailed
+              ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${heroPalette[0]}, ${heroPalette[1]} 55%, ${heroPalette[2]})` }} />
+              : <img src={heroImage} alt="" onError={() => setHeroFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 34%', transform: 'scale(1.06)', transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
+            <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 28%, rgba(8,8,8,0.88) 100%)' }} />
+            <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
+              <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: `color-mix(in srgb, ${accent} 45%, white)`, textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>{n.eyebrow}</div>
+              <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontSize: 28, lineHeight: 1.06, letterSpacing: -0.5, fontWeight: 500, textShadow: '0 2px 12px rgba(0,0,0,0.55)' }}>{n.title}</h1>
+            </div>
+          </div>
+          {heroCredit && <div style={{ padding: '7px 16px 0', fontFamily: SANS, fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{heroCredit}</div>}
+        </>
+      )}
       <div style={{ position: 'sticky', top: 36, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px' }}>
           <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>

@@ -71,6 +71,9 @@ export default function EmancipationThemePage() {
       battleId="th-emancipation"
       theatreHref="/war-civil-war/off-the-battlefield"
       accent={ACCENTS.green}
+      heroImage="/war-img/emancipation-hero.jpg"
+      heroPalette={['#3a342a', '#23201a', '#0a0806']}
+      heroCredit="“Watch Meeting — Dec. 31st 1862 — Waiting for the Hour” · W. T. Carlton, 1863 · public domain"
       endHref="/war-civil-war/off-the-battlefield"
       endKicker="End of this story"
       endLabel="Back to Off the Battlefield"
