@@ -108,8 +108,8 @@ export interface TheatreNav { id: Theatre | 'offfield'; label: string; href: str
 export const THEATRE_NAV: TheatreNav[] = [
   { id: 'east', label: 'Eastern Theatre', href: '/war-civil-war/eastern', ready: true },
   { id: 'west', label: 'Western Theatre', href: '/war-civil-war/western', ready: true },
-  { id: 'tmis', label: 'Trans-Mississippi', href: '/war-civil-war/trans-mississippi', ready: false },
-  { id: 'naval', label: 'Naval & Coastal', href: '/war-civil-war/naval', ready: false },
+  { id: 'tmis', label: 'Trans-Mississippi', href: '/war-civil-war/trans-mississippi', ready: true },
+  { id: 'naval', label: 'Naval & Coastal', href: '/war-civil-war/naval', ready: true },
   { id: 'offfield', label: 'Off the Battlefield', href: '/war-civil-war/off-the-battlefield', ready: false },
 ]
 

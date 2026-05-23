@@ -66,7 +66,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'tmis', name: 'Trans-Miss', longName: 'Trans-Mississippi', color: ACCENTS.amber, span: '1861–1865',
     region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
     peakArmies: '30k vs 20k', casualties: 30000, battlesCount: majorCount('tmis'), commanderRotation: 'Mostly forgotten',
-    href: undefined, states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
+    href: '/war-civil-war/trans-mississippi', states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
     dots: [
       { name: 'Pea Ridge', lat: 36.45, lon: -94.03, anchor: 'end' },
       { name: 'Mansfield', lat: 32.04, lon: -93.70, anchor: 'end' },
@@ -77,7 +77,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'naval', name: 'Naval', longName: 'Naval & Coastal', color: ACCENTS.rust, span: '1861–1865',
     region: 'Atlantic · Gulf · the Mississippi', summary: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.',
     peakArmies: '700+ ships', casualties: 10000, battlesCount: majorCount('naval'), commanderRotation: 'Farragut, Porter, Du Pont',
-    href: undefined, states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
+    href: '/war-civil-war/naval', states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
     dots: [
       { name: 'Fort Fisher', lat: 33.97, lon: -77.92 },
       { name: 'Mobile Bay', lat: 30.4, lon: -88.04, anchor: 'end' },
