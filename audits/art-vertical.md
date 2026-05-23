@@ -230,6 +230,9 @@ frame and crop it.
   in the text beside the image, so a name laid over the painting (e.g. "POST-IMPRESSIONISM")
   is redundant and obscures the art — don't render it. (A *descriptive scene caption* of the
   image, like War's "The 54th Massachusetts at Fort Wagner", is different and fine.)
+- **No divider line between the image and the text in a cord/timeline card.** The image tile
+  butts straight against the text panel — no `borderRight`/`borderBottom` separator. The card's
+  own outer border + the image's natural edge are enough; an internal rule just adds clutter.
 
 Data hooks: `heroFit` / `heroFocus` / `heroImages` on every entity drive the hero;
 inline figures already render at natural height.
