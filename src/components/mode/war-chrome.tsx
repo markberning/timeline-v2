@@ -164,10 +164,11 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   const btnRef = useRef<HTMLButtonElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
   const border = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
-  // Ancestor crumbs show their compact `short` label (the trail stays narrow);
-  // the leaf (emphasized) keeps the full label. `pill` = a fixed crumb colour
-  // (the ACW war crumb's oxblood) that overrides the page accent in all states.
-  const label = !emphasized && crumb.short ? crumb.short : crumb.label
+  // A crumb with a `short` always shows it in the bar (keeps the trail narrow
+  // even when it's the current page) — the full name still lives in the page's
+  // hero title. The dropdown options + ✓ matching still use the full `label`.
+  // `pill` = a fixed crumb colour (the ACW band colour) overriding the accent.
+  const label = crumb.short ?? crumb.label
   const pill = crumb.color
   // The breadcrumb <nav> scrolls horizontally (overflow-x: auto), which clips an
   // absolutely-positioned menu hanging below it. Anchor the menu with
