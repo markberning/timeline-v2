@@ -148,18 +148,20 @@ function Eyebrow({ children, color }: { children: React.ReactNode; color?: strin
 function GenericHero() {
   const [failed, setFailed] = useState(false)
   return (
+    <>
     <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: WT.heroPalette[2] }}>
       {failed
         ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${WT.heroPalette[0]}, ${WT.heroPalette[1]} 55%, ${WT.heroPalette[2]})` }} />
         : <img src={WT.heroImage} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 38%', transform: 'scale(1.22)', transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 30%, rgba(8,8,10,0.86) 100%)' }} />
-      <div style={{ position: 'absolute', right: 10, top: 60, padding: '3px 7px', background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderRadius: 4, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.75)', pointerEvents: 'none' }}>{WT.heroCredit}</div>
       <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
         <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: '#93c5fd', textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>{`War · ${WT.chain.name} · ${WT.chain.index} of ${WT.chain.total}`}</div>
         <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontSize: 28, lineHeight: 1.05, letterSpacing: -0.5, fontWeight: 500, textShadow: '0 2px 12px rgba(0,0,0,0.55)' }}>{WT.name}</h1>
         <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 12.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.78)' }}>{`${WT.span} · ${WT.region}`}</div>
       </div>
     </div>
+    <div style={{ padding: '7px 16px 0', fontFamily: MONO, fontSize: 10, letterSpacing: 0.2, color: FAINT }}>{WT.heroCredit}</div>
+    </>
   )
 }
 

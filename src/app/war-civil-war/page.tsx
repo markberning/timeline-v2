@@ -5,7 +5,7 @@
 // the shared breadcrumb + Timeline/Dossier toggle. Preview, sample content.
 
 import { useState } from 'react'
-import { WarChrome, DossierSection, GlanceGrid, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, type View } from '@/components/mode/war-chrome'
+import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, type View } from '@/components/mode/war-chrome'
 import { BattleCard } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
@@ -94,7 +94,7 @@ const THEATRE_DATA: Theatre[] = [
     id: 'tmis', name: 'Trans-Miss', longName: 'Trans-Mississippi', color: ACCENTS.amber, span: '1861–1865',
     region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
     peakArmies: '30k vs 20k', casualties: 30000, battlesCount: 6, commanderRotation: 'Mostly forgotten',
-    href: undefined, states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -94.5, labelLat: 33.4,
+    href: undefined, states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
     dots: [
       { name: 'Pea Ridge', lat: 36.45, lon: -94.03, anchor: 'end' },
       { name: 'Mansfield', lat: 32.04, lon: -93.70, anchor: 'end' },
@@ -124,7 +124,7 @@ const THEATRE_DATA: Theatre[] = [
 ]
 // Non-theatre fill states (dotted, always faint) so the map reads as the US.
 const CONTEXT_STATES = ['West Virginia', 'Ohio', 'Indiana', 'Illinois', 'New Jersey', 'Delaware', 'Oklahoma', 'Kansas', 'Iowa', 'Wisconsin', 'Michigan', 'New York', 'Minnesota']
-const US_FRAME = { lonMin: -99, lonMax: -74.6, latMin: 28.5, latMax: 42.4 }
+const US_FRAME = { lonMin: -96.5, lonMax: -75, latMin: 28.8, latMax: 42.1 }
 
 const CORD_X = 56, CARD_LEFT = CORD_X + 16
 
@@ -147,6 +147,87 @@ function NodeCard({ n }: { n: Node }) {
       <div style={{ position: 'absolute', left: CORD_X + 5, top: 16, width: 11, height: 1, background: alpha(color, 0.5) }} />
       {n.href ? <a href={n.href} style={{ textDecoration: 'none', display: 'block', color: 'inherit' }}>{card}</a> : card}
     </div>
+  )
+}
+
+// Collapsible "At a glance" for the war home — stats, the Union vs Confederacy
+// face-off, a casualties bar, and the outcome. Figures are estimates (the war's
+// death toll is genuinely contested) pending the accuracy fact-check pass.
+function WarGlance() {
+  const [open, setOpen] = useState(true)
+  const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
+  const FAINT = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
+  const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
+  const STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
+  const accent = WAR_OXBLOOD
+  const stats = [{ v: '4 years', k: 'Span' }, { v: '~10,500', k: 'Engagements' }, { v: '~750k', k: 'Dead' }]
+  const armies = [
+    { side: 'Union', label: 'United States', served: '2.1M served', trail: 'Lincoln → Grant → Sherman', color: ACCENTS.blue },
+    { side: 'Confederacy', label: 'Confederate States', served: '~900k served', trail: 'Davis · Lee · Jackson', color: ACCENTS.rust },
+  ]
+  const cas = { union: 390000, csa: 310000, civilian: 50000 }
+  const total = cas.union + cas.csa + cas.civilian
+  const segs = [
+    { v: cas.union, color: ACCENTS.blue, label: 'Union', n: num(cas.union) },
+    { v: cas.csa, color: ACCENTS.rust, label: 'Confederacy', n: num(cas.csa) },
+    { v: cas.civilian, color: FAINT, label: 'Civilian', n: num(cas.civilian) },
+  ]
+  return (
+    <section style={{ marginBottom: 26, border: `1px solid ${BORDER}`, borderRadius: 10, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 3%, transparent)' }}>
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '13px 14px', color: 'inherit' }}>
+        <span style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: accent }}>At a glance</span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: accent }}>
+          {open ? 'Hide' : 'Show'}
+          <span style={{ width: 22, height: 22, borderRadius: 999, border: `1px solid ${alpha(accent, 0.5)}`, background: alpha(accent, 0.1), display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 11, lineHeight: 1, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 200ms ease' }}>▾</span>
+        </span>
+      </button>
+      {open && (
+        <>
+          <div style={{ display: 'flex', borderTop: `1px solid ${BORDER}` }}>
+            {stats.map((s, i) => (
+              <div key={s.k} style={{ flex: 1, padding: '14px 12px', borderLeft: i === 0 ? 'none' : `1px solid ${BORDER}`, textAlign: 'center' }}>
+                <div style={{ fontFamily: SERIF, fontSize: 20, lineHeight: 1, letterSpacing: -0.4, fontWeight: 500 }}>{s.v}</div>
+                <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>{s.k}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1fr 1fr', padding: '20px 16px 22px', borderTop: `1px solid ${BORDER}` }}>
+            <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', zIndex: 1, width: 32, height: 32, borderRadius: 999, background: 'var(--background)', color: MUTED, border: `1px solid ${STRONG}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SERIF, fontStyle: 'italic', fontSize: 13.5, fontWeight: 500 }}>vs</div>
+            {armies.map((a, i) => (
+              <div key={a.side} style={{ padding: i === 0 ? '0 18px 0 0' : '0 0 0 18px', textAlign: i === 0 ? 'left' : 'right' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, justifyContent: i === 0 ? 'flex-start' : 'flex-end' }}>
+                  <div style={{ width: 22, height: 14, borderRadius: 2, background: a.color, boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.25)', order: i === 0 ? 0 : 1 }} />
+                  <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: a.color, textTransform: 'uppercase' }}>{a.side}</div>
+                </div>
+                <div style={{ marginTop: 6, fontFamily: SERIF, fontSize: 15, lineHeight: 1.18, letterSpacing: -0.2, fontWeight: 500 }}>{a.label}</div>
+                <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 11, color: MUTED }}>{a.served}</div>
+                <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, lineHeight: 1.45, color: MUTED }}>{a.trail}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ padding: '20px 16px 22px', borderTop: `1px solid ${BORDER}` }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12 }}>
+              <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>Casualties (est.)</span>
+              <div style={{ fontFamily: SERIF, fontSize: 14, letterSpacing: -0.2 }}><span style={{ fontWeight: 500 }}>{num(total)}</span><span style={{ color: MUTED }}> dead</span></div>
+            </div>
+            <div style={{ display: 'flex', height: 26, borderRadius: 4, overflow: 'hidden', border: `1px solid ${BORDER}` }}>
+              {segs.map(s => <div key={s.label} style={{ flex: s.v, background: s.color, opacity: s.label === 'Civilian' ? 0.45 : 1, borderRight: s.label !== 'Civilian' ? '1px solid var(--background)' : 'none' }} />)}
+            </div>
+            <div style={{ marginTop: 10, display: 'flex', flexWrap: 'wrap', gap: '6px 14px' }}>
+              {segs.map(s => (
+                <div key={s.label} style={{ display: 'flex', alignItems: 'center', gap: 6, fontFamily: SANS, fontSize: 10.5, color: MUTED, letterSpacing: 0.2 }}>
+                  <span style={{ width: 8, height: 8, borderRadius: 2, background: s.color, opacity: s.label === 'Civilian' ? 0.45 : 1 }} />
+                  <span><span style={{ color: 'var(--foreground)', fontWeight: 600 }}>{s.n}</span> {s.label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div style={{ padding: '14px 16px 18px', borderTop: `1px solid ${BORDER}`, fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: MUTED }}>
+            <span style={{ color: 'var(--foreground)', fontWeight: 600 }}>Outcome:</span> Union victory; the Confederacy dissolved and slavery abolished by the Thirteenth Amendment.
+          </div>
+        </>
+      )}
+    </section>
   )
 }
 
@@ -247,13 +328,13 @@ export default function CivilWarPage() {
             ? <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, #3a2a1c, #5a2a32 55%, #0e0c08)' }} />
             : <img src="/war-img/civil-war-hero.jpg" alt="" onError={() => setHeroFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%', transform: 'scale(1.16)', transformOrigin: 'center', filter: 'sepia(0.16) saturate(0.88) contrast(1.04)' }} />}
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 28%, rgba(8,8,10,0.88) 100%)' }} />
-          <div style={{ position: 'absolute', right: 10, top: 60, padding: '3px 7px', background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderRadius: 4, fontFamily: 'var(--font-geist-mono)', fontSize: 8.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.75)', pointerEvents: 'none' }}>Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
           <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
             <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: '#c4b5fd', textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>War · 1861–1865</div>
             <h1 style={{ margin: '6px 0 0', fontFamily: SERIF, fontSize: 30, lineHeight: 1.05, letterSpacing: -0.5, fontWeight: 500, textShadow: '0 2px 12px rgba(0,0,0,0.55)' }}>American Civil War</h1>
             <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 12.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.78)' }}>Union vs. Confederacy · four years · ~750,000 dead</div>
           </div>
         </div>
+        <div style={{ padding: '7px 18px 0', fontFamily: 'var(--font-geist-mono)', fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
 
         {view === 'timeline' ? (
           <>
@@ -275,9 +356,7 @@ export default function CivilWarPage() {
           </>
         ) : (
           <div style={{ padding: '14px 18px 48px' }}>
-            <DossierSection label="At a glance">
-              <GlanceGrid rows={[['Dates', 'Apr 1861 – Apr 1865'], ['Belligerents', 'United States vs. Confederate States'], ['Outcome', 'Union victory; slavery abolished'], ['The cost', '~750,000 dead']]} />
-            </DossierSection>
+            <WarGlance />
             <TheatresInteractive />
           </div>
         )}
