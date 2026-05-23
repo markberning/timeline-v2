@@ -12,7 +12,7 @@
 // audits/war-pilot-civil-war.md.
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, WAR_OXBLOOD, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
+import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
@@ -101,13 +101,15 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   // full name current (via currentLabel)
   const battleLabel = active?.short ?? battleFull
 
-  // The ACW pill only lights up (oxblood) on the war home page; as an ancestor
-  // crumb on theatre/battle pages it stays a muted gray pill.
+  // The ACW pill only lights up on the war home page, in the Civil War's own
+  // era-band colour (Industrial Wars = violet) so it matches its dropdown dot;
+  // as an ancestor crumb on theatre/battle pages it stays a muted gray pill.
   const onWarHome = !theatre && !battleId
+  const acwColor = BAND_COLOR[WAR_EVENTS.find(w => w.id === 'cw')?.band ?? 'ind']
 
   return [
     { label: 'War', options: modeOptions, currentLabel: 'War' },
-    { label: 'ACW', short: 'ACW', color: onWarHome ? WAR_OXBLOOD : undefined, options: warOptions, currentLabel: 'American Civil War', active: onWarHome },
+    { label: 'ACW', short: 'ACW', color: onWarHome ? acwColor : undefined, options: warOptions, currentLabel: 'American Civil War', active: onWarHome },
     { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]
