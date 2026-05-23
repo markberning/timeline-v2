@@ -213,9 +213,8 @@ Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
   consistent colored dots. Home page got the 5th "Off the Battlefield" lane.
 
 **PENDING (next session):**
-0. **Battle-map review** for the two NEW theatre `<DottedMap>`s was coordinate-
-   checked + SSR-verified, but never eyeballed in a browser (no headless tool in
-   this worktree) — give Trans-Miss + Naval maps a visual once-over.
+0. ~~Battle-map review for the two NEW theatre maps~~ — **DONE**: user eyeballed
+   the Trans-Miss + Naval `<DottedMap>`s in-browser (2026-05-22) and approved.
 1. **Retrofit Gettysburg's narrative through the pipeline** — it's over-tactical /
    human-light (the v0 lesson) AND has a known factual error: Greene "West Point
    classmate of Lee" is false (no class overlap). Run author→fact-check→critic.
