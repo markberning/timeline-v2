@@ -181,7 +181,37 @@ Worktree `/Users/mberning/projects/personal/timeline-v2-phase2` (branch
   Commons; NPS/West Point atlas, PD; American Battlefield Trust is copyrighted.
   Not used — we went with our own generated modern style for house consistency.)
 
+**Theatre layer + navigation — BUILT this session (2026-05-22):**
+- **Single source of truth:** `src/lib/civil-war-roster.ts` — the 46 CWSAC
+  Class-A majors + 14 locked theme sections, with `theatreEv` / `theatreSpine` /
+  `SPINE_NODES` / `THEATRE_NAV` helpers. Every war-page timeline reads from it
+  (home spine, home dossier, all theatre pages); no more hand-maintained copies.
+- **Shared `<TheatrePage>`** (`src/components/mode/theatre-page.tsx`) — Eastern +
+  Western were ~95% duplicate; all structure (hero, At-a-glance, commanders strip,
+  interleaved campaigns, timeline spine) now lives here, driven by per-theatre
+  `TheatreData`. Each theatre page is just its data object + a `<DottedMap>`.
+- **All five "theatres" now exist:** Eastern (violet), Western (blue),
+  **Trans-Mississippi (amber, NEW)**, **Naval & Coastal (rust, NEW)**, **Off the
+  Battlefield (green, NEW** — non-geographic fifth lane: the 14 themes grouped by
+  phase, no army face-off / no battle map). Trans-Miss + Naval have PD hero art
+  (Kurz & Allison Pea Ridge; Prang/Davidson Mobile Bay) and 10 identity-verified
+  PD commander portraits (lyon/curtis/price/van-dorn/kirby-smith;
+  farragut/dd-porter/dupont/buchanan/semmes). Casualty/peak figures are flagged
+  `(est.)` — still owed the accuracy fact-check pass.
+- **Unified breadcrumb (`civilWarCrumbs()`):** every ACW page shows the full trail
+  **War > ACW > Theatre > Battle/Event**, with Theatre AND Battle/Event both as
+  interactive dropdowns everywhere. Theatre = color-coded switcher; Battle/Event =
+  jump to any of the 46 majors + 14 themes, grouped + color-coded by theatre
+  (built battles link, the rest "soon"). Leaf crumb gets accent emphasis. On the
+  home page both are generic pickers. `CrumbDropdown` gained color dots, section
+  headings, scrolling + viewport clamping.
+- **Timelines now show ready vs. soon** (BattleCard `soon` badge + dimmed) and use
+  consistent colored dots. Home page got the 5th "Off the Battlefield" lane.
+
 **PENDING (next session):**
+0. **Battle-map review** for the two NEW theatre `<DottedMap>`s was coordinate-
+   checked + SSR-verified, but never eyeballed in a browser (no headless tool in
+   this worktree) — give Trans-Miss + Naval maps a visual once-over.
 1. **Retrofit Gettysburg's narrative through the pipeline** — it's over-tactical /
    human-light (the v0 lesson) AND has a known factual error: Greene "West Point
    classmate of Lee" is false (no class overlap). Run author→fact-check→critic.
