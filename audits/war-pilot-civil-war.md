@@ -218,6 +218,22 @@ user is fine with this coming later — NOT debt).
    declining Cemetery Hill with the Lost-Cause framing; the "Pickett's Charge"
    misnomer; "Lee never invaded the North again"; the Confederate slave-hunt during
    the march north). Records: `audits/war-pipeline/gettysburg-*.md`.
+2b. ~~**Pre-gate war sections never quality-passed.**~~ ✅ **DONE 2026-05-23.** Antietam
+   and the two Off-the-Battlefield themes (Slavery & Cotton, Emancipation) were built
+   before the comprehensiveness/clarity/framing gates existed, so they were re-run
+   through the now-**FIVE-gate** pipeline. All three came back NEEDS WORK with real,
+   sourced gaps; every MUST-ADD/MUST-FIX closed and all new material fact-checked at
+   creation. Antietam: Hood's counterattack, Hooker wounded + Mansfield's XII corps/death,
+   the Irish Brigade absolution (Fr. Corby, ~540 lost). Slavery & Cotton: Northern
+   complicity, the Slave Power/Three-Fifths bridge, enslaved agency/resistance. Emancipation:
+   contraband self-emancipation (Fort Monroe 1861) ahead of the Confiscation Acts, the USCT
+   equal-pay fight, a Juneteenth + Black Codes closing, de-centered Lincoln framing. Plus
+   newcomer clarity glosses throughout. Records: `audits/war-pipeline/{antietam,slavery-cotton,emancipation}-{factpack-addendum,retrofit}.md`.
+   **Pipeline change:** added two standing gates — a **newcomer/clarity critic** ("can a
+   zero-knowledge reader follow this?") and a **Lost Cause/framing critic** ("is it fair?")
+   — making five total; **continuity** is a corpus-level sweep, not per-section. See
+   `audits/war-content-pipeline.md`. (Gettysburg above was run at the 3-gate stage; it
+   predates clarity/framing and could get a light pass if ever re-touched — not owed.)
 
 **INTEGRATION DEBT (deferred by design — tied to the civ corpus sweep settling):**
 3. **Real reader-engine integration + glossary links.** War sections are currently
