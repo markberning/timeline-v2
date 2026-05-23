@@ -5,6 +5,7 @@
 // Ported from the Historica `war.jsx` mockup into the app's CSS-var theming,
 // fonts, and region-accent palette. The Civil War card opens the pilot reader.
 
+import { useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 // Era-band colors = the 5 region accents (grouping device on the front door).
@@ -48,6 +49,7 @@ interface War {
   hook: string
   palette: [string, string, string]
   imgLabel: string
+  img?: string   // real hero (built wars); absent ⇒ gradient placeholder
   href?: string
 }
 
@@ -56,7 +58,7 @@ export const WAR_EVENTS: War[] = [
   { id: 'rev', band: 'forge', size: 'm', name: 'American Revolution', range: '1775–1783', vs: 'United States vs. Great Britain', hook: 'We hold these truths to be — well, you know the rest.', palette: ['#7a3b1c', '#c08a3a', '#0a0a0a'], imgLabel: 'Crossing the Delaware' },
   { id: '12', band: 'forge', size: 's', name: 'War of 1812', range: '1812–1815', vs: 'United States vs. Great Britain', hook: 'Britain burned the White House. We got an anthem out of it.', palette: ['#4a3a1c', '#a8763a', '#1a0e07'], imgLabel: 'Burning of Washington' },
   { id: 'mex', band: 'forge', size: 's', name: 'Mexican–American War', range: '1846–1848', vs: 'United States vs. Mexico', hook: 'Texas, California, and a long argument about whether any of this was OK.', palette: ['#7a4a1c', '#c79338', '#1a0e07'], imgLabel: 'Battle of Veracruz' },
-  { id: 'cw', band: 'ind', size: 'l', name: 'American Civil War', range: '1861–1865', vs: 'Union vs. Confederacy', hook: 'The argument the country had been refusing to finish since 1789.', palette: ['#3a2a1c', '#7a1422', '#100506'], imgLabel: 'Battle of Gettysburg', href: '/war-civil-war' },
+  { id: 'cw', band: 'ind', size: 'l', name: 'American Civil War', range: '1861–1865', vs: 'Union vs. Confederacy', hook: 'The argument the country had been refusing to finish since 1789.', palette: ['#3a2a1c', '#7a1422', '#100506'], imgLabel: 'The 54th Massachusetts at Fort Wagner', img: '/war-img/civil-war-hero.jpg', href: '/war-civil-war' },
   { id: 'sp', band: 'ind', size: 's', name: 'Spanish–American War', range: '1898', vs: 'United States vs. Spain', hook: 'Ten weeks, four oceans, one empire — ours, now.', palette: ['#6b3a3a', '#c8a72a', '#0e0a08'], imgLabel: 'San Juan Hill' },
   { id: 'ww1', band: 'world', size: 'l', name: 'World War I', range: '1917–1918', vs: 'Allies vs. Central Powers', hook: 'The war that finally explained what artillery could really do.', palette: ['#3a3a32', '#a08a4a', '#0e0c08'], imgLabel: 'Trenches, Western Front' },
   { id: 'ww2', band: 'world', size: 'xl', name: 'World War II', range: '1939/41–1945', vs: 'Allies vs. Axis', hook: 'The big one. Set the table for everything that came after.', palette: ['#1c1c1c', '#7a1422', '#c8a72a'], imgLabel: 'Normandy landings, June 1944' },
@@ -77,10 +79,17 @@ export const WAR_BANDS = [
 const CORD_X = 56
 const CARD_LEFT_OFFSET = CORD_X + 16
 
-// Image placeholder — palette gradient + label (real art comes later).
-function PaintingTile({ palette, label, isXL }: { palette: [string, string, string]; label: string; isXL: boolean }) {
+// War card image tile — a real hero where we have one, else a palette gradient.
+// The label rides over a bottom scrim so it stays readable on a bright image.
+function PaintingTile({ palette, imageUrl, label, isXL }: { palette: [string, string, string]; imageUrl?: string; label: string; isXL: boolean }) {
+  const [failed, setFailed] = useState(false)
+  const hasImg = !!imageUrl && !failed
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
+      {hasImg && (
+        <img src={imageUrl} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 32%', transform: 'scale(1.16)', transformOrigin: 'center' }} />
+      )}
+      {hasImg && <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,0.62) 100%)' }} />}
       <div style={{ position: 'absolute', left: 8, bottom: 6, right: 8, fontFamily: SANS, fontSize: isXL ? 10 : 8.5, color: 'rgba(255,255,255,0.82)', letterSpacing: 0.2, textShadow: '0 1px 2px rgba(0,0,0,0.5)', lineHeight: 1.2 }}>
         {label}
       </div>
@@ -105,7 +114,7 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
       height: sz.content,
     }}>
       <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : '100%', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
-        <PaintingTile palette={w.palette} label={w.imgLabel} isXL={isXL} />
+        <PaintingTile palette={w.palette} imageUrl={w.img} label={w.imgLabel} isXL={isXL} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '10px 14px 12px' : (isLG ? '10px 12px' : '8px 11px'), display: 'flex', flexDirection: 'column' }}>
         <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2, color: 'var(--foreground)' }}>{w.name}</div>
