@@ -159,6 +159,7 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crum
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
   const btnRef = useRef<HTMLButtonElement>(null)
+  const menuRef = useRef<HTMLDivElement>(null)
   const border = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
   // The breadcrumb <nav> scrolls horizontally (overflow-x: auto), which clips an
   // absolutely-positioned menu hanging below it. Anchor the menu with
@@ -169,6 +170,19 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crum
     const r = btnRef.current.getBoundingClientRect()
     const left = Math.max(8, Math.min(r.left, window.innerWidth - MENU_W - 8))
     setPos({ left, top: r.bottom + 6 })
+  }, [open])
+  // Close on any outside tap. (A fixed-position overlay can't be used here: the
+  // breadcrumb bar's backdrop-filter makes it the containing block for fixed
+  // descendants, so an inset:0 overlay would only cover the bar, not the page.)
+  useEffect(() => {
+    if (!open) return
+    const onDown = (e: Event) => {
+      const t = e.target as Node
+      if (btnRef.current?.contains(t) || menuRef.current?.contains(t)) return
+      setOpen(false)
+    }
+    document.addEventListener('pointerdown', onDown, true)
+    return () => document.removeEventListener('pointerdown', onDown, true)
   }, [open])
   return (
     <span style={{ position: 'relative', flexShrink: 0 }}>
@@ -186,8 +200,7 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crum
       </button>
       {open && (
         <>
-          <div onClick={() => setOpen(false)} style={{ position: 'fixed', inset: 0, zIndex: 9998 }} />
-          <div style={{
+          <div ref={menuRef} style={{
             position: 'fixed', top: pos.top, left: pos.left, zIndex: 9999, width: MENU_W, maxHeight: '70vh', overflowY: 'auto',
             background: 'var(--background)', border, borderRadius: 10,
             boxShadow: '0 10px 28px rgba(0,0,0,0.20)', padding: 5,

@@ -6,11 +6,10 @@
 // the reckoning), the war beyond the firing line. Reads the THEMES from the
 // shared roster (src/lib/civil-war-roster.ts) — the same sections placed on the
 // home spine. Palette: green (mockup ACCENTS.green). Every section is "Soon" —
-// the theme pages aren't written yet. Same Timeline/Dossier toggle as the battle
-// theatres, for consistency.
+// the theme pages aren't written yet. No Timeline/Dossier toggle (it's a subject
+// list, not a two-view battle theatre) — breadcrumb only, one grouped view.
 
-import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import { THEMES, type Theme } from '@/lib/civil-war-roster'
 
@@ -72,39 +71,26 @@ function ThemeCard({ t }: { t: Theme }) {
 }
 
 export default function OffTheBattlefieldPage() {
-  const [view, setView] = useWarView()
-  const spine = [...THEMES].sort((a, b) => (a.year !== b.year ? a.year - b.year : a.m - b.m))
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={civilWarCrumbs({ theatre: 'offfield' })} view={view} onView={setView} accent={ACCENT} />
+      <WarBreadcrumb crumbs={civilWarCrumbs({ theatre: 'offfield' })} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
         <Header />
-        {view === 'dossier' ? (
-          <div style={{ padding: '4px 0 16px' }}>
-            {PHASE_SECTIONS.map(sec => {
-              const items = THEMES.filter(t => t.phase === sec.phase)
-              if (!items.length) return null
-              return (
-                <section key={sec.phase} style={{ padding: '18px 16px 4px', borderTop: `1px solid ${BORDER}` }}>
-                  <Eyebrow color={ACCENT}>{sec.label}</Eyebrow>
-                  <div style={{ marginTop: 4, marginBottom: 12, fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, lineHeight: 1.4, color: FAINT }}>{sec.note}</div>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                    {items.map(t => <ThemeCard key={t.id} t={t} />)}
-                  </div>
-                </section>
-              )
-            })}
-          </div>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The threads off the firing line, in the order they shaped the war. Section pages are coming; for now, this is the map of what’s here.
-            </p>
-            <CordTimeline>
-              {spine.map(t => <BattleCard key={t.id} size={t.size} accent={ACCENT} dateTop={String(t.year)} title={t.name} sub={`${t.date} · ${TYPE_LABEL[t.type] || t.type}`} hook={t.hook} soon />)}
-            </CordTimeline>
-          </div>
-        )}
+        <div style={{ padding: '4px 0 16px' }}>
+          {PHASE_SECTIONS.map(sec => {
+            const items = THEMES.filter(t => t.phase === sec.phase)
+            if (!items.length) return null
+            return (
+              <section key={sec.phase} style={{ padding: '18px 16px 4px', borderTop: `1px solid ${BORDER}` }}>
+                <Eyebrow color={ACCENT}>{sec.label}</Eyebrow>
+                <div style={{ marginTop: 4, marginBottom: 12, fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, lineHeight: 1.4, color: FAINT }}>{sec.note}</div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                  {items.map(t => <ThemeCard key={t.id} t={t} />)}
+                </div>
+              </section>
+            )
+          })}
+        </div>
       </div>
     </div>
   )
