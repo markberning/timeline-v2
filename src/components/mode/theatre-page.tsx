@@ -72,7 +72,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   // All 46 majors + 14 themes in one chronological list; the dot keeps the
   // theatre colour code (built battles link, the rest are "soon").
   const jump: CrumbOption[] = [
-    ...MAJORS.map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre] })),
+    ...MAJORS.map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre], date: b.href ? `${b.mo} ${b.year}` : undefined })),
     ...THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, disabled: true, color: THEATRE_DOT.offfield })),
   ].sort((a, b) => a._k - b._k).map(({ _k, ...o }) => o)
 

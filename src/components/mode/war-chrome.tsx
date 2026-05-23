@@ -50,6 +50,7 @@ export interface CrumbOption {
   disabled?: boolean
   color?: string   // colored dot (e.g. theatre-coded jump list)
   heading?: boolean // render as a non-interactive section label, not a row
+  date?: string    // shown on the right of a built/linkable row (when it happened)
 }
 export interface Crumb {
   label: string
@@ -222,7 +223,11 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized }: { crum
               return (
                 <a key={`o${oi}`} href={o.href} onClick={() => setOpen(false)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, fontWeight: current ? 700 : 500, color: 'var(--foreground)', textDecoration: 'none', borderRadius: 7, background: current ? chip : 'transparent' }}>
                   <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{dot}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{o.label}</span></span>
-                  {current && <span style={{ flexShrink: 0, color: accent, fontWeight: 700 }}>✓</span>}
+                  {current
+                    ? <span style={{ flexShrink: 0, color: accent, fontWeight: 700 }}>✓</span>
+                    : o.date
+                      ? <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 600, letterSpacing: 0.2, color: faint }}>{o.date}</span>
+                      : null}
                 </a>
               )
             })}
