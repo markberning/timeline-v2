@@ -24,6 +24,7 @@ import { WarChrome, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components
 import { BattleCard, CordTimeline } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
+import { theatreEv, theatreSpine } from '@/lib/civil-war-roster'
 
 const ACCENT = ACCENTS.blue // Western theatre identity color (mockup)
 const MONO = 'var(--font-geist-mono)'
@@ -84,62 +85,15 @@ const THEATRES: Record<string, { name: string; color: string }> = {
   naval: { name: 'Naval', color: ACCENTS.rust },
 }
 
-type Ev = { mo: string; year: number; name: string; place: string; size: 's' | 'm' | 'l' | 'xl'; href?: string }
-const GBURG_HREF = '/war-civil-war/eastern/gettysburg'
+type Ev = { mo: string; year: number; m: number; name: string; place: string; size: 's' | 'm' | 'l' | 'xl'; href?: string; ready?: boolean }
+// All theatre events come from the shared roster (src/lib/civil-war-roster.ts) —
+// the 46 Major battles, one source for every war-page timeline.
 const THEATRE_EVENTS: Record<string, Ev[]> = {
-  east: [
-    { mo: 'Jul', year: 1861, name: 'First Bull Run', place: 'Manassas, VA', size: 's' },
-    { mo: 'Spring', year: 1862, name: 'Peninsula Campaign', place: 'York–James, VA', size: 's' },
-    { mo: 'Aug', year: 1862, name: 'Second Bull Run', place: 'Manassas, VA', size: 's' },
-    { mo: 'Sep', year: 1862, name: 'Antietam', place: 'Sharpsburg, MD', size: 'l' },
-    { mo: 'Dec', year: 1862, name: 'Fredericksburg', place: 'Fredericksburg, VA', size: 's' },
-    { mo: 'May', year: 1863, name: 'Chancellorsville', place: 'Spotsylvania, VA', size: 's' },
-    { mo: 'Jul', year: 1863, name: 'Gettysburg', place: 'Adams County, PA', size: 'xl', href: GBURG_HREF },
-    { mo: 'May', year: 1864, name: 'Overland Campaign', place: 'Wilderness → Cold Harbor', size: 'l' },
-    { mo: '1864–65', year: 1864, name: 'Petersburg Siege', place: 'Petersburg, VA', size: 's' },
-    { mo: 'Apr', year: 1865, name: 'Appomattox', place: 'Appomattox C.H., VA', size: 'm' },
-  ],
-  west: [
-    { mo: 'Feb', year: 1862, name: 'Forts Henry & Donelson', place: 'Tennessee River', size: 'm' },
-    { mo: 'Apr', year: 1862, name: 'Shiloh', place: 'Pittsburg Landing, TN', size: 'l' },
-    { mo: 'Dec', year: 1862, name: 'Stones River', place: 'Murfreesboro, TN', size: 's' },
-    { mo: 'May', year: 1863, name: 'Vicksburg Siege', place: 'Vicksburg, MS', size: 'xl' },
-    { mo: 'Sep', year: 1863, name: 'Chickamauga', place: 'NW Georgia', size: 's' },
-    { mo: 'Nov', year: 1863, name: 'Chattanooga', place: 'Tennessee–Georgia', size: 'm' },
-    { mo: 'Summer', year: 1864, name: 'Atlanta Campaign', place: 'Northern Georgia', size: 'l' },
-    { mo: 'Nov', year: 1864, name: 'March to the Sea', place: 'Atlanta → Savannah', size: 'l' },
-    { mo: 'Dec', year: 1864, name: 'Nashville', place: 'Nashville, TN', size: 'm' },
-  ],
-  tmis: [
-    { mo: 'Mar', year: 1862, name: 'Pea Ridge', place: 'NW Arkansas', size: 's' },
-    { mo: 'Mar', year: 1862, name: 'Glorieta Pass', place: 'New Mexico Territory', size: 's' },
-    { mo: 'Dec', year: 1862, name: 'Prairie Grove', place: 'NW Arkansas', size: 's' },
-    { mo: 'Apr', year: 1864, name: 'Mansfield', place: 'NW Louisiana', size: 's' },
-    { mo: 'Sep', year: 1864, name: 'Pilot Knob', place: 'Missouri', size: 's' },
-  ],
-  naval: [
-    { mo: 'Nov', year: 1861, name: 'Port Royal', place: 'South Carolina coast', size: 's' },
-    { mo: 'Mar', year: 1862, name: 'Hampton Roads', place: 'Virginia coast', size: 'l' },
-    { mo: 'Apr', year: 1862, name: 'New Orleans', place: 'Mouth of the Mississippi', size: 'l' },
-    { mo: 'Jul', year: 1863, name: 'Charleston Harbor', place: 'South Carolina', size: 's' },
-    { mo: 'Aug', year: 1864, name: 'Mobile Bay', place: 'Alabama coast', size: 'l' },
-    { mo: 'Jan', year: 1865, name: 'Fort Fisher', place: 'North Carolina coast', size: 's' },
-  ],
+  east: theatreEv('east'), west: theatreEv('west'), tmis: theatreEv('tmis'), naval: theatreEv('naval'),
 }
 
-// Timeline-view battles (the theatre's own spine, sized by significance).
-type Size = 's' | 'm' | 'l' | 'xl'
-const BATTLES: { id: string; size: Size; name: string; date: string; hook: string; href?: string }[] = [
-  { id: 'donelson', size: 'm', name: 'Forts Henry & Donelson', date: 'Feb 1862', hook: 'Grant cracks the river line and earns his nickname — “Unconditional Surrender.”' },
-  { id: 'shiloh', size: 'l', name: 'Shiloh', date: 'Apr 1862', hook: 'Two days in the Tennessee woods; more dead than every prior American war combined.' },
-  { id: 'stones', size: 'm', name: 'Stones River', date: 'Dec 1862', hook: 'A bloody New Year’s draw that Lincoln needed to call a victory.' },
-  { id: 'vicksburg', size: 'xl', name: 'Siege of Vicksburg', date: 'May–Jul 1863', hook: 'Grant takes the Mississippi and cuts the Confederacy in two — on July 4th.' },
-  { id: 'chickamauga', size: 'm', name: 'Chickamauga', date: 'Sep 1863', hook: 'The Confederacy’s one big Western win. Thomas becomes the Rock of Chickamauga.' },
-  { id: 'chattanooga', size: 'm', name: 'Chattanooga', date: 'Nov 1863', hook: 'Grant breaks the siege; the gateway to Georgia swings open.' },
-  { id: 'atlanta', size: 'l', name: 'The Atlanta Campaign', date: 'Summer 1864', hook: 'Sherman cracks the Confederate arsenal. The city’s fall re-elects Lincoln.' },
-  { id: 'march', size: 'l', name: 'March to the Sea', date: 'Nov–Dec 1864', hook: 'Sherman cuts loose and walks 300 miles to Savannah, burning war as he goes.' },
-  { id: 'nashville', size: 'm', name: 'Nashville', date: 'Dec 1864', hook: 'Thomas annihilates Hood’s army. The Confederate West is finished.' },
-]
+// This theatre's own Timeline-view spine (all its Major battles).
+const BATTLES = theatreSpine('west')
 
 function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
   return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || FAINT }}>{children}</div>
@@ -314,7 +268,6 @@ function WTMap() {
   )
 }
 
-const M_ORDER: Record<string, number> = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12, Spring: 4, Summer: 7 }
 
 // All theatres on one timeline; the active theatre (Western) in colour, the
 // others grayed for context.
@@ -324,7 +277,7 @@ function InterleavedCampaigns({ active = 'west' }: { active?: string }) {
     const th = THEATRES[tid]
     list.forEach((e, i) => events.push({ ...e, theatreId: tid, theatreName: th.name, theatreColor: th.color, key: tid + '-' + i }))
   })
-  events.sort((a, b) => (a.year !== b.year ? a.year - b.year : (M_ORDER[a.mo] || 0) - (M_ORDER[b.mo] || 0)))
+  events.sort((a, b) => (a.year !== b.year ? a.year - b.year : a.m - b.m))
   const hereCount = events.filter(e => e.theatreId === active).length
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
@@ -347,7 +300,7 @@ function InterleavedCampaigns({ active = 'west' }: { active?: string }) {
                 {!isActive && <div style={{ fontFamily: MONO, fontSize: 9, letterSpacing: 0.3, color: FAINT }}>· {e.theatreName} theatre</div>}
               </div>
               <div style={{ fontFamily: SERIF, fontSize: heavy ? 15.5 : 14, lineHeight: 1.2, letterSpacing: -0.1, fontWeight: heavy ? 500 : 400, marginTop: 1 }}>{e.name} <span style={{ color: FAINT, fontWeight: 400, fontSize: 12 }}>· {e.place}</span></div>
-              {tappable && <span style={{ position: 'absolute', right: 0, top: 12, color: alpha(e.theatreColor, 0.7), fontFamily: SANS, fontSize: 13, fontWeight: 600 }} aria-hidden>→</span>}
+              {isActive && <span style={{ position: 'absolute', right: 0, top: 8, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: e.href ? '#fff' : FAINT, background: e.href ? e.theatreColor : 'transparent', border: e.href ? 'none' : `1px solid ${BORDER}` }}>{e.href ? 'Read →' : 'Soon'}</span>}
             </>
           )
           const style: React.CSSProperties = { position: 'relative', display: 'block', width: '100%', textAlign: 'left', color: 'var(--foreground)', padding: '6px 0 10px 26px', opacity: isActive ? 1 : 0.42, filter: isActive ? 'none' : 'saturate(0.4)', textDecoration: 'none' }
@@ -379,7 +332,7 @@ export default function WesternTheatrePage() {
               The theatre’s battles, sized by significance. Battle pages for the West are coming; for now, this is the spine of the campaign.
             </p>
             <CordTimeline>
-              {BATTLES.map(b => <BattleCard key={b.id} size={b.size} accent={ACCENT} dateTop={(b.date.match(/\d{4}/) || [''])[0]} title={b.name} sub={b.date} hook={b.hook} href={b.href} />)}
+              {BATTLES.map(b => <BattleCard key={b.id} size={b.size} accent={ACCENT} dateTop={(b.date.match(/\d{4}/) || [''])[0]} title={b.name} sub={`${b.date} · ${b.place}`} href={b.href} imageUrl={b.img} soon={!b.ready} />)}
             </CordTimeline>
           </div>
         )}

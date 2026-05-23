@@ -46,19 +46,34 @@ export interface BattleCardProps {
   sub?: string
   hook?: string
   href?: string
+  soon?: boolean
 }
 
-export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEFAULT_PALETTE, imageUrl, imgLabel, title, sub, hook, href }: BattleCardProps) {
+export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEFAULT_PALETTE, imageUrl, imgLabel, title, sub, hook, href, soon }: BattleCardProps) {
   const sz = SIZES[size]
   const isXL = size === 'xl'
   const isLG = size === 'l'
+  const ready = !soon && !!href
+  const badge = (soon || ready) && (
+    <span style={{
+      position: 'absolute', top: 7, right: 7, zIndex: 2, fontFamily: SANS, fontSize: 8, fontWeight: 700,
+      letterSpacing: 0.7, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, lineHeight: 1.05,
+      color: ready ? '#fff' : 'color-mix(in srgb, var(--foreground) 55%, transparent)',
+      background: ready ? accent : 'color-mix(in srgb, var(--foreground) 9%, transparent)',
+      border: ready ? 'none' : '1px solid color-mix(in srgb, var(--foreground) 16%, transparent)',
+      boxShadow: ready ? '0 1px 4px rgba(0,0,0,0.25)' : 'none',
+    }}>{ready ? 'Read →' : 'Soon'}</span>
+  )
   const card = (
     <div style={{
+      position: 'relative',
       background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', borderRadius: 8,
-      border: `1px solid ${isXL ? alpha(accent, 0.55) : 'color-mix(in srgb, var(--foreground) 15%, transparent)'}`,
+      border: `1px solid ${isXL ? alpha(accent, 0.55) : (ready ? alpha(accent, 0.4) : 'color-mix(in srgb, var(--foreground) 15%, transparent)')}`,
       boxShadow: isXL ? `0 0 0 4px ${alpha(accent, 0.1)}, 0 12px 28px rgba(0,0,0,0.28)` : 'none',
       overflow: 'hidden', display: 'flex', flexDirection: isXL ? 'column' : 'row', height: sz.h,
+      opacity: soon ? 0.74 : 1,
     }}>
+      {badge}
       <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : '100%', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
         <Tile palette={palette} imageUrl={imageUrl} label={imgLabel} isXL={isXL} />
       </div>

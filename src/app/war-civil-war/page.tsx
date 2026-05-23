@@ -9,34 +9,19 @@ import { WarChrome, DossierSection, SANS, SERIF, WAR_OXBLOOD, ACCENTS, alpha, us
 import { BattleCard } from '@/components/mode/war-battle-card'
 import { DottedMap } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
+import { SPINE_NODES, majorsOf, majorCount } from '@/lib/civil-war-roster'
 
 const TYPE_COLOR: Record<string, string> = { CAUSE: '#8a6d3b', BATTLE: '#b91c1c', POLITICS: '#1d4ed8', SOCIETY: '#b45309', AFTERMATH: '#7c3aed' }
-type Size = 's' | 'm' | 'l' | 'xl'
-const SIZE_H: Record<Size, number> = { s: 60, m: 86, l: 124, xl: 180 }
-
-interface Node { id: string; phase: string; type: keyof typeof TYPE_COLOR; size: Size; name: string; date: string; hook: string; href?: string; img?: string }
 
 const PHASES = [
   { id: 'causes', label: 'Causes' }, { id: 'outbreak', label: 'Outbreak · 1861' },
-  { id: 'hard', label: 'The Hard Years · 1862–63' }, { id: 'turning', label: 'The Turning · 1863' },
+  { id: 'hard', label: 'The Hard Years · 1862' }, { id: 'turning', label: 'The Turning · 1863' },
   { id: 'total', label: 'Total War · 1864–65' }, { id: 'after', label: 'Aftermath' },
 ]
 
-const NODES: Node[] = [
-  { id: 'road', phase: 'causes', type: 'CAUSE', size: 'l', name: 'The Road to War', date: '1850–1861', hook: 'Compromise, Bleeding Kansas, Dred Scott, John Brown — the country arguing its way to the cliff edge.' },
-  { id: 'sumter', phase: 'outbreak', type: 'BATTLE', size: 'm', name: 'Fort Sumter', date: 'Apr 1861', hook: 'Thirty-four hours of bombardment, nobody killed — and a nation at war.' },
-  { id: 'bull', phase: 'outbreak', type: 'BATTLE', size: 'm', name: 'First Bull Run', date: 'Jul 1861', hook: 'Picnickers came to watch. Both sides went home knowing it would not be quick.' },
-  { id: 'phil', phase: 'outbreak', type: 'BATTLE', size: 's', name: 'Philippi', date: 'Jun 1861', hook: 'The “Philippi Races” — barely a battle, but the first land action.' },
-  { id: 'shiloh', phase: 'hard', type: 'BATTLE', size: 'm', name: 'Shiloh', date: 'Apr 1862', hook: 'Two days that killed the idea of a bloodless war.', img: '/war-img/shiloh-hero.jpg' },
-  { id: 'antietam', phase: 'hard', type: 'BATTLE', size: 'l', name: 'Antietam', date: 'Sep 1862', hook: 'The bloodiest single day in American history.', href: '/war-civil-war/eastern/antietam', img: '/war-img/antietam-hero.jpg' },
-  { id: 'emanc', phase: 'hard', type: 'POLITICS', size: 'l', name: 'The Emancipation Proclamation', date: 'Jan 1863', hook: 'Lincoln changes what the entire war is for.' },
-  { id: 'home', phase: 'hard', type: 'SOCIETY', size: 'm', name: 'The Home Front', date: '1861–1865', hook: 'Draft riots, war economies, women running the farms and the hospitals.' },
-  { id: 'gburg', phase: 'turning', type: 'BATTLE', size: 'xl', name: 'Gettysburg', date: 'Jul 1863', hook: 'Three days, some fifty thousand casualties, the high-water mark of the Confederacy.', href: '/war-civil-war/eastern/gettysburg', img: '/war-img/gettysburg-hero.jpg' },
-  { id: 'vicks', phase: 'turning', type: 'BATTLE', size: 'l', name: 'Vicksburg', date: 'May–Jul 1863', hook: 'Grant takes the Mississippi and cuts the South in two.' },
-  { id: 'sherman', phase: 'total', type: 'BATTLE', size: 'l', name: 'Sherman’s March', date: '1864', hook: 'Total war — making Georgia howl, all the way to the sea.' },
-  { id: 'appom', phase: 'total', type: 'BATTLE', size: 'm', name: 'Appomattox', date: 'Apr 1865', hook: 'Lee surrenders; Lincoln is murdered five days later.' },
-  { id: 'reck', phase: 'after', type: 'AFTERMATH', size: 'l', name: 'The Reckoning', date: '1865 →', hook: 'Three-quarters of a million dead, and the unfinished work that becomes Reconstruction.' },
-]
+// The whole-war spine = the locked themes + all 46 Major battles (one source:
+// src/lib/civil-war-roster.ts), phase-tagged and chronologically sorted.
+const NODES = SPINE_NODES
 
 const num = (n: number) => n.toLocaleString('en-US')
 
@@ -54,7 +39,7 @@ const THEATRE_DATA: Theatre[] = [
   {
     id: 'east', name: 'Eastern', longName: 'Eastern Theatre', color: ACCENTS.violet, span: '1861–1865',
     region: 'Virginia · Maryland · Pennsylvania', summary: 'The political war. Between the two capitals, Lee was at his best — and where the war finally ended.',
-    peakArmies: '120k vs 75k', casualties: 230000, battlesCount: 8, commanderRotation: 'Seven Union commanders, then Grant',
+    peakArmies: '120k vs 75k', casualties: 230000, battlesCount: majorCount('east'), commanderRotation: 'Seven Union commanders, then Grant',
     href: '/war-civil-war/eastern', states: ['Virginia', 'Maryland', 'Pennsylvania'], labelLon: -78.0, labelLat: 40.6,
     dots: [
       { name: 'Gettysburg', lat: 39.83, lon: -77.23, heavy: true, anchor: 'end' },
@@ -62,18 +47,12 @@ const THEATRE_DATA: Theatre[] = [
       { name: 'Bull Run', lat: 38.81, lon: -77.52, anchor: 'end' },
       { name: 'Petersburg', lat: 37.23, lon: -77.40, anchor: 'end' },
     ],
-    events: [
-      { mo: 'Jul', year: 1861, name: 'First Bull Run', place: 'Manassas, VA' },
-      { mo: 'Sep', year: 1862, name: 'Antietam', place: 'Sharpsburg, MD', heavy: true },
-      { mo: 'Jul', year: 1863, name: 'Gettysburg', place: 'Adams County, PA', heavy: true, href: '/war-civil-war/eastern/gettysburg' },
-      { mo: 'May', year: 1864, name: 'Overland Campaign', place: 'Wilderness → Cold Harbor', heavy: true },
-      { mo: 'Apr', year: 1865, name: 'Appomattox', place: 'Appomattox C.H., VA' },
-    ],
+    events: majorsOf('east').map(b => ({ mo: b.mo, year: b.year, name: b.name, place: b.place, heavy: b.size === 'l' || b.size === 'xl', href: b.href })),
   },
   {
     id: 'west', name: 'Western', longName: 'Western Theatre', color: ACCENTS.blue, span: '1861–1865',
     region: 'Kentucky · Tennessee · Mississippi · Georgia', summary: 'Where the Union actually won the war. Grant took the rivers and split the Confederacy in two.',
-    peakArmies: '110k vs 80k', casualties: 195000, battlesCount: 12, commanderRotation: 'Grant rises, then Sherman',
+    peakArmies: '110k vs 80k', casualties: 195000, battlesCount: majorCount('west'), commanderRotation: 'Grant rises, then Sherman',
     href: '/war-civil-war/western', states: ['Kentucky', 'Tennessee', 'Mississippi', 'Georgia', 'Alabama'], labelLon: -86.4, labelLat: 34.3,
     dots: [
       { name: 'Shiloh', lat: 35.14, lon: -88.34, anchor: 'end' },
@@ -81,74 +60,37 @@ const THEATRE_DATA: Theatre[] = [
       { name: 'Chickamauga', lat: 34.94, lon: -85.29 },
       { name: 'Atlanta', lat: 33.75, lon: -84.39, heavy: true },
     ],
-    events: [
-      { mo: 'Feb', year: 1862, name: 'Forts Henry & Donelson', place: 'Tennessee River' },
-      { mo: 'Apr', year: 1862, name: 'Shiloh', place: 'Pittsburg Landing, TN', heavy: true },
-      { mo: 'May', year: 1863, name: 'Vicksburg', place: 'Vicksburg, MS', heavy: true },
-      { mo: 'Nov', year: 1863, name: 'Chattanooga', place: 'Tennessee–Georgia' },
-      { mo: 'Summer', year: 1864, name: 'Atlanta Campaign', place: 'Northern Georgia', heavy: true },
-      { mo: 'Nov', year: 1864, name: 'March to the Sea', place: 'Atlanta → Savannah', heavy: true },
-    ],
+    events: majorsOf('west').map(b => ({ mo: b.mo, year: b.year, name: b.name, place: b.place, heavy: b.size === 'l' || b.size === 'xl', href: b.href })),
   },
   {
     id: 'tmis', name: 'Trans-Miss', longName: 'Trans-Mississippi', color: ACCENTS.amber, span: '1861–1865',
     region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
-    peakArmies: '30k vs 20k', casualties: 30000, battlesCount: 6, commanderRotation: 'Mostly forgotten',
+    peakArmies: '30k vs 20k', casualties: 30000, battlesCount: majorCount('tmis'), commanderRotation: 'Mostly forgotten',
     href: undefined, states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
     dots: [
       { name: 'Pea Ridge', lat: 36.45, lon: -94.03, anchor: 'end' },
       { name: 'Mansfield', lat: 32.04, lon: -93.70, anchor: 'end' },
     ],
-    events: [
-      { mo: 'Aug', year: 1861, name: 'Wilson’s Creek', place: 'SW Missouri' },
-      { mo: 'Mar', year: 1862, name: 'Pea Ridge', place: 'NW Arkansas', heavy: true },
-      { mo: 'Apr', year: 1864, name: 'Mansfield', place: 'NW Louisiana' },
-    ],
+    events: majorsOf('tmis').map(b => ({ mo: b.mo, year: b.year, name: b.name, place: b.place, heavy: b.size === 'l' || b.size === 'xl', href: b.href })),
   },
   {
     id: 'naval', name: 'Naval', longName: 'Naval & Coastal', color: ACCENTS.rust, span: '1861–1865',
     region: 'Atlantic · Gulf · the Mississippi', summary: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.',
-    peakArmies: '700+ ships', casualties: 10000, battlesCount: 5, commanderRotation: 'Farragut, Porter, Du Pont',
+    peakArmies: '700+ ships', casualties: 10000, battlesCount: majorCount('naval'), commanderRotation: 'Farragut, Porter, Du Pont',
     href: undefined, states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
     dots: [
       { name: 'Fort Fisher', lat: 33.97, lon: -77.92 },
       { name: 'Mobile Bay', lat: 30.4, lon: -88.04, anchor: 'end' },
       { name: 'New Orleans', lat: 29.95, lon: -90.07, anchor: 'end' },
     ],
-    events: [
-      { mo: 'Mar', year: 1862, name: 'Hampton Roads', place: 'Virginia coast', heavy: true },
-      { mo: 'Apr', year: 1862, name: 'New Orleans', place: 'Mouth of the Mississippi', heavy: true },
-      { mo: 'Aug', year: 1864, name: 'Mobile Bay', place: 'Alabama coast', heavy: true },
-    ],
+    events: majorsOf('naval').map(b => ({ mo: b.mo, year: b.year, name: b.name, place: b.place, heavy: b.size === 'l' || b.size === 'xl', href: b.href })),
   },
 ]
 // Non-theatre fill states (dotted, always faint) so the map reads as the US.
 const CONTEXT_STATES = ['West Virginia', 'Ohio', 'Indiana', 'Illinois', 'New Jersey', 'Delaware', 'Oklahoma', 'Kansas', 'Iowa', 'Wisconsin', 'Michigan', 'New York', 'Minnesota']
 const US_FRAME = { lonMin: -96.5, lonMax: -75, latMin: 28.8, latMax: 42.1 }
 
-const CORD_X = 56, CARD_LEFT = CORD_X + 16
-
-function NodeCard({ n }: { n: Node }) {
-  const color = TYPE_COLOR[n.type]; const isXL = n.size === 'xl'; const isLG = n.size === 'l'
-  const card = (
-    <div style={{ background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', borderRadius: 8, border: `1px solid ${isXL ? alpha(color, 0.55) : 'color-mix(in srgb, var(--foreground) 15%, transparent)'}`, boxShadow: isXL ? `0 0 0 4px ${alpha(color, 0.1)}, 0 12px 28px rgba(0,0,0,0.28)` : 'none', height: SIZE_H[n.size], padding: isXL ? '12px 16px' : (isLG ? '11px 14px' : '8px 12px'), display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
-        <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.8, color: '#fff', background: color, padding: '2px 6px', borderRadius: 3 }}>{n.type}</span>
-        <span style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 55%, transparent)' }}>{n.date}</span>
-      </div>
-      <div style={{ fontFamily: SERIF, fontSize: isXL ? 24 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2 }}>{n.name}</div>
-      <div style={{ marginTop: 'auto', paddingTop: 4, fontFamily: SERIF, fontSize: isXL ? 14.5 : 13, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: isXL ? 3 : 2, WebkitBoxOrient: 'vertical' }}>{n.hook}</div>
-      {n.href && <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color }}>Open →</div>}
-    </div>
-  )
-  return (
-    <div style={{ position: 'relative', paddingLeft: CARD_LEFT, paddingRight: 16, marginBottom: 12 }}>
-      <div style={{ position: 'absolute', left: CORD_X - 5, top: 12, width: 10, height: 10, borderRadius: 999, background: color, boxShadow: `0 0 0 3px ${alpha(color, 0.18)}`, border: `1px solid ${color}`, zIndex: 1 }} />
-      <div style={{ position: 'absolute', left: CORD_X + 5, top: 16, width: 11, height: 1, background: alpha(color, 0.5) }} />
-      {n.href ? <a href={n.href} style={{ textDecoration: 'none', display: 'block', color: 'inherit' }}>{card}</a> : card}
-    </div>
-  )
-}
+const CORD_X = 56
 
 // Collapsible "At a glance" for the war home — stats, the Union vs Confederacy
 // face-off, a casualties bar, and the outcome. Figures are estimates (the war's
@@ -300,7 +242,7 @@ function TheatresInteractive() {
                   <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: e.heavy ? at.color : card, border: `1px solid ${e.heavy ? at.color : faint}` }} />
                   <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(at.color, 0.9), textTransform: 'uppercase' }}>{e.mo} {e.year}</div>
                   <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{e.name} <span style={{ color: faint, fontSize: 12 }}>· {e.place}</span></div>
-                  {e.href && <span style={{ position: 'absolute', right: 0, top: 11, color: alpha(at.color, 0.7), fontFamily: SANS, fontSize: 13, fontWeight: 600 }} aria-hidden>→</span>}
+                  <span style={{ position: 'absolute', right: 0, top: 7, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: e.href ? '#fff' : faint, background: e.href ? at.color : 'transparent', border: e.href ? 'none' : `1px solid ${border}` }}>{e.href ? 'Read →' : 'Soon'}</span>
                 </>
               )
               const style: React.CSSProperties = { position: 'relative', display: 'block', width: '100%', textAlign: 'left', color: 'var(--foreground)', padding: '5px 0 9px 20px', textDecoration: 'none' }
@@ -349,7 +291,7 @@ export default function CivilWarPage() {
                     <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 34, fontWeight: 400, letterSpacing: -0.5, color: alpha(WAR_OXBLOOD, 0.13), lineHeight: 1, whiteSpace: 'nowrap', pointerEvents: 'none', overflow: 'hidden' }}>{phase.label}</div>
                     <div style={{ position: 'absolute', left: CORD_X + 14, top: 24, fontFamily: SANS, fontSize: 10, letterSpacing: 1.4, fontWeight: 700, color: WAR_OXBLOOD, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>{phase.label}</div>
                   </div>
-                  {phase.nodes.map(n => <BattleCard key={n.id} size={n.size} accent={TYPE_COLOR[n.type]} dateTop={(n.date.match(/\d{4}/) || [''])[0]} sub={n.type} hook={n.hook} title={n.name} href={n.href} imageUrl={n.img} />)}
+                  {phase.nodes.map(n => <BattleCard key={n.id} size={n.size} accent={TYPE_COLOR[n.type]} dateTop={(n.date.match(/\d{4}/) || [''])[0]} sub={n.sub} hook={n.hook} title={n.name} href={n.href} imageUrl={n.img} soon={!n.href} />)}
                 </div>
               ))}
             </div>
