@@ -154,8 +154,11 @@ function OutcomePill() {
       <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, border: `1px solid ${alpha(ACCENT, 0.4)}`, background: alpha(ACCENT, 0.08), borderRadius: 999, padding: '7px 14px' }}>
         <span style={{ color: ACCENT, fontWeight: 700 }}>✓</span>
         <span style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: ACCENT }}>Outcome</span>
-        <span style={{ fontFamily: SERIF, fontSize: 14 }}>Union victory · CSA high-water mark</span>
+        <span style={{ fontFamily: SERIF, fontSize: 14 }}>Union victory · the Confederacy’s high-water mark</span>
       </div>
+      <p style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '11px 0 0' }}>
+        Lee’s deepest invasion of the North was broken in three days, at a cost of roughly 50,000 casualties on both sides — and the very next morning, far to the west, Vicksburg surrendered to Grant. The two defeats together are remembered as the war’s turning point: the Army of Northern Virginia never mounted a major offensive into Union territory again. Yet Meade let Lee’s wrecked army slip back across the Potomac, the chance to end the war that summer went with it, and the fighting ground on for nearly two more years.
+      </p>
     </div>
   )
 }

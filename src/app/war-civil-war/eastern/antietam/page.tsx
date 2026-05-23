@@ -140,8 +140,11 @@ function OutcomePill() {
       <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, border: `1px solid ${alpha(ACCENT, 0.4)}`, background: alpha(ACCENT, 0.08), borderRadius: 999, padding: '7px 14px' }}>
         <span style={{ color: ACCENT, fontWeight: 700 }}>✓</span>
         <span style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: ACCENT }}>Outcome</span>
-        <span style={{ fontFamily: SERIF, fontSize: 14 }}>Union strategic victory · led to Emancipation</span>
+        <span style={{ fontFamily: SERIF, fontSize: 14 }}>Union strategic victory · the road to Emancipation</span>
       </div>
+      <p style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '11px 0 0' }}>
+        Tactically the bloodiest day in American history was close to a draw — the Union lost more men, and Lee’s army escaped intact back across the Potomac. Strategically it was decisive: Lee’s first invasion of the North was turned back, handing Lincoln the victory he had been waiting for. Five days later he issued the preliminary Emancipation Proclamation, changing what the war was for and ending any real hope of British or French recognition of the Confederacy. McClellan’s refusal to pursue the beaten enemy cost him his command that November.
+      </p>
     </div>
   )
 }

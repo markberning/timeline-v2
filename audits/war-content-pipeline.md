@@ -60,7 +60,11 @@ and people; make the cost *felt*.
    a schematic map (smooth blue/rust arrows — see `feedback_war_map_styles`);
    theme sections get a period portrait/photo.
 7. **Integrate** — convert to the reader section format, wire the route, add the
-   next-section link, run the deterministic gates (links) as applicable.
+   next-section link, run the deterministic gates (links) as applicable. The
+   battle **dossier** also carries an **Outcome section**: a one-line verdict
+   (the pill) PLUS a 2–4 sentence explanation distilled from the section's "what
+   it meant" movement — who won tactically vs. strategically, the cost, and what
+   it changed/led to. (A bare one-line outcome undersells the battle.)
 
 ## Hard-won notes
 - **Agents run in the MAIN worktree** (`timeline-v2`), not the phase-2 worktree.
