@@ -90,7 +90,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
                   ? <a href={c.href} style={{ padding: '3px 9px', background: chip, color: 'var(--foreground)', fontFamily: SANS, fontSize: 11, fontWeight: 600, borderRadius: 999, border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
                   : c.href && !last
                     ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
-                    : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? 'var(--foreground)' : muted, fontWeight: last ? 600 : 500, background: last ? chip : 'transparent', borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
+                    : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? accent : muted, fontWeight: last ? 700 : 500, background: last ? alpha(accent, 0.14) : 'transparent', border: last ? `1px solid ${alpha(accent, 0.5)}` : undefined, borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
             </Fragment>
           )
         })}
