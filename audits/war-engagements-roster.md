@@ -14,6 +14,19 @@ _Generated from the CWSAC principal-battles catalog (the Civil War Sites Advisor
 | Naval & Coastal | 4 | 12 | 11 | 27 |
 | **Total** | **46** | **105** | **129** | **280** |
 
+## Non-battle sections (LOCKED 2026-05-22)
+
+The war is not just battles. These thematic sections carry the story and let us
+trim the standalone Major-battle count (esp. Eastern/Western).
+
+- **Causes** — Slavery & the cotton economy · The road to war (1850 → secession) · Two governments (Lincoln vs. Davis; the border states)
+- **Emancipation & society** — Emancipation (the Proclamation) · The USCT (Black soldiers) · The home front, North & South (war economies, the draft & riots, women, shortages)
+- **Technology & logistics** — Rifles, railroads & telegraph · Medicine & disease · Ironclads & the blockade
+- **Diplomacy** — British & French involvement (cotton diplomacy, the Trent Affair, foreign-built raiders)
+- **Atrocity & aftermath** — The prisons (Andersonville) · Atrocity (Fort Pillow, guerrilla war) · Appomattox & the assassination · The Reckoning (→ Reconstruction)
+
+≈15 non-battle sections.
+
 ## Eastern
 
 ### Major — Class A (20)
