@@ -101,9 +101,13 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   // full name current (via currentLabel)
   const battleLabel = active?.short ?? battleFull
 
+  // The ACW pill only lights up (oxblood) on the war home page; as an ancestor
+  // crumb on theatre/battle pages it stays a muted gray pill.
+  const onWarHome = !theatre && !battleId
+
   return [
     { label: 'War', options: modeOptions, currentLabel: 'War' },
-    { label: 'ACW', short: 'ACW', color: WAR_OXBLOOD, options: warOptions, currentLabel: 'American Civil War', active: !theatre && !battleId },
+    { label: 'ACW', short: 'ACW', color: onWarHome ? WAR_OXBLOOD : undefined, options: warOptions, currentLabel: 'American Civil War', active: onWarHome },
     { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]
