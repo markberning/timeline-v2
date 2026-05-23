@@ -117,6 +117,21 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   ]
 }
 
+// Neutral accent for the all-wars home (it isn't a specific war, so no band colour).
+export const WAR_HOME_ACCENT = '#8a7a66'
+
+// The all-wars front door (/war) breadcrumb: just the first two rungs of the
+// ladder — the vertical (War) and the war picker (current, "All Wars"). The
+// Theatre / Battle rungs only appear once you've drilled into a specific war.
+export function warHomeCrumbs(): Crumb[] {
+  const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
+  const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
+  return [
+    { label: 'War', options: modeOptions, currentLabel: 'War' },
+    { label: 'All Wars', options: warOptions, active: true },
+  ]
+}
+
 function Eyebrow({ children, color }: { children: React.ReactNode; color?: string }) {
   return <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: color || FAINT }}>{children}</div>
 }

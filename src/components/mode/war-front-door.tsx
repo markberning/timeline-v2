@@ -136,7 +136,7 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
   )
 }
 
-export function WarFrontDoor() {
+export function WarFrontDoor({ showToggle = true }: { showToggle?: boolean } = {}) {
   const byBand = WAR_BANDS.map(b => ({ ...b, wars: WAR_EVENTS.filter(w => w.band === b.id) })).filter(b => b.wars.length > 0)
 
   return (
@@ -150,7 +150,7 @@ export function WarFrontDoor() {
             Scroll down. The cards get bigger as the wars get bigger. It is not subtle.
           </p>
         </div>
-        <DarkModeToggle />
+        {showToggle && <DarkModeToggle />}
       </div>
 
       {/* Timeline */}
