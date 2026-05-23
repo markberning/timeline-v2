@@ -206,17 +206,18 @@ user is fine with this coming later — NOT debt).
    fact-checker. Run a fact pass; replace with sourced figures (with the scholarly
    range) and drop the `(est.)` tag, OR keep the tag if a number is genuinely
    contested. This is the one place a UN-fact-checked number is currently live.
-2. **Gettysburg storytelling retrofit (quality, NOT a live factual error).**
-   CORRECTION to older notes: the "Greene was a West Point classmate of Lee" error
-   is **already gone** — no `classmate` claim exists anywhere in the app
-   (verified), and the current Greene text (`.../gettysburg/s/[section]/
-   section-narrative.tsx` ~line 106) is accurate, as is the "fishhook" passage.
-   What remains is purely a STORY problem: Gettysburg was the v0 draft, written
-   before the pipeline, and reads over-tactical / human-light (the failure mode the
-   storytelling gate now exists to catch). Run it back through the full pipeline
-   (author → fact-check → storytelling critic) to bring it up to the
-   Antietam/Emancipation/Slavery-&-Cotton bar. No live falsehood is blocking; this
-   is a polish-to-bar job.
+2. ~~**Gettysburg storytelling retrofit.**~~ ✅ **DONE 2026-05-23.** The marquee
+   battle was re-run end-to-end through the full pipeline (fact pack → 3 author
+   agents [Day 1 / Day 2 / Day 3+aftermath] → THREE gates [fact-check + storytelling
+   + the new comprehensiveness critic] → revise → integrate). All 5 sections
+   (`setting`/`mcpherson`/`hooks`/`pickett`/`aftermath`) elevated: human-cost-first,
+   dual POV, fact-corrected (Reynolds "behind the ear"; Culp's Hill = Johnson's one
+   division; the "shoes" legend recast; Address 271 words / "on this continent" /
+   train + "failure" myths dropped; Imboden not Stuart; the shaky "heard in
+   Pittsburgh" cut), and comprehensiveness-enriched (Harrison the spy; Ewell
+   declining Cemetery Hill with the Lost-Cause framing; the "Pickett's Charge"
+   misnomer; "Lee never invaded the North again"; the Confederate slave-hunt during
+   the march north). Records: `audits/war-pipeline/gettysburg-*.md`.
 
 **INTEGRATION DEBT (deferred by design — tied to the civ corpus sweep settling):**
 3. **Real reader-engine integration + glossary links.** War sections are currently
