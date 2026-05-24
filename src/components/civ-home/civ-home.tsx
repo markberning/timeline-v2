@@ -14,6 +14,8 @@ import { SORTED_CIVS, CHAINS_BY_REGION, CIV_CHAIN_MAP, formatYear, formatYearRan
 import { NAVIGATOR_TLS, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
 import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
 import { getCivIconPath } from '@/lib/civ-icons'
+import { ICON_LABELS } from '@/lib/civ-icon-labels'
+import { CIV_BLURBS } from '@/lib/civ-blurbs'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 
 const SANS = 'var(--font-geist-sans)'
@@ -81,19 +83,39 @@ function eraHeader(era: { label: string; start: number; end: number }) {
 
 function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean) {
   const range = formatYearRange(civ.startYear, civ.endYear)
+  const desc = CIV_BLURBS[civ.id] ?? civ.subtitle
+  const titleRow = (
+    <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+      <span style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase', color: INK, lineHeight: 1.2, minWidth: 0 }}>{civ.label}</span>
+      {ci && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }}>{ci.chain.shortLabel} {ci.index + 1}/{ci.total}</span>}
+    </div>
+  )
+  const descEl = desc ? <div style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.45, color: MUTED, marginTop: 4 }}>{desc}</div> : null
   const content = (
     <>
-      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
-        <span style={{ fontFamily: SERIF, fontSize: 16, color: INK, lineHeight: 1.15, minWidth: 0 }}>{civ.label}</span>
-        {ci && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }}>{ci.chain.shortLabel} {ci.index + 1}/{ci.total}</span>}
-      </div>
-      <div style={{ fontFamily: SANS, fontSize: 10.5, color: MUTED, marginTop: 3 }}>{range}</div>
-      {civ.subtitle && <div style={{ fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED, marginTop: 4 }}>{civ.subtitle}</div>}
+      {titleRow}
+      <div style={{ fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.4, textTransform: 'uppercase', color: MUTED, marginTop: 3 }}>{range}</div>
+      {descEl}
     </>
   )
   // Representative ICON graphic (the existing /icons set) on a region-tinted
   // panel, left; text right. Replaces the photo approach.
   const icon = GEN_ICONS.has(civ.id) ? `/icons-gen/${civ.id}.webp` : getCivIconPath(civ.id)
+  const iconLabel = ICON_LABELS[civ.id]
+  // New card: a smaller emblem hugging the top-left of the region-tinted panel,
+  // with a concise caption naming what it depicts below it.
+  if (withImage && icon && iconLabel) {
+    return (
+      <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
+        <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 74, background: alpha(color, 0.1), display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 5, padding: '10px 8px' }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={icon} alt="" loading="lazy" style={{ width: 54, height: 54, objectFit: 'contain' }} className="dark:brightness-150" />
+          <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.3, textTransform: 'uppercase', color, lineHeight: 1.2, textAlign: 'center' }}>{iconLabel}</span>
+        </div>
+        <div style={{ flex: 1, minWidth: 0, padding: '10px 12px' }}>{content}</div>
+      </div>
+    )
+  }
   if (withImage && icon) {
     return (
       <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
