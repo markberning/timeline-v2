@@ -91,8 +91,10 @@ function shuffle<T>(arr: T[]): T[] {
  * civilizations, wars, and art rather than drowning in the (much larger) civ
  * pool. Random each call — invoked client-side only, so no hydration drift.
  */
-export function sampleFeed(n = 8): FeedItem[] {
-  const pools = [shuffle(civPool()), shuffle(warPool()), shuffle(artPool()), shuffle(musicPool())]
+export function sampleFeed(n = 8, chapters: FeedItem[] = []): FeedItem[] {
+  // chapters are built server-side (their data is fs-only) and passed in as a
+  // ready-made pool; they ride as their own lane so they're always in the mix.
+  const pools = [shuffle(civPool()), shuffle(chapters), shuffle(warPool()), shuffle(artPool()), shuffle(musicPool())]
   const out: FeedItem[] = []
   let i = 0
   while (out.length < n && pools.some(p => p.length)) {

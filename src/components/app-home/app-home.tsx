@@ -68,11 +68,12 @@ function Card({ e }: { e: FeedItem }) {
   )
 }
 
-export function AppHome() {
+export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
   // The feed is a random sample drawn client-side only (it uses Math.random and
   // the page is statically exported), so it mounts after hydration — no drift.
+  // `chapters` come prebuilt from the server (their data is fs-only).
   const [feed, setFeed] = useState<FeedItem[]>([])
-  useEffect(() => { setFeed(sampleFeed(8)) }, [])
+  useEffect(() => { setFeed(sampleFeed(8, chapters)) }, [chapters])
 
   return (
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
@@ -114,7 +115,7 @@ export function AppHome() {
           <div style={{ borderTop: `8px solid ${CHIP}`, padding: '14px 16px 28px' }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
               <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>Wander in</span>
-              <button onClick={() => setFeed(sampleFeed(8))} aria-label="Shuffle" style={{ appearance: 'none', border: `1px solid ${BORDER}`, background: CHIP, cursor: 'pointer', color: MUTED, display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase' }}>
+              <button onClick={() => setFeed(sampleFeed(8, chapters))} aria-label="Shuffle" style={{ appearance: 'none', border: `1px solid ${BORDER}`, background: CHIP, cursor: 'pointer', color: MUTED, display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase' }}>
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 2v6h-6" /><path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M3 22v-6h6" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /></svg>
                 Shuffle
               </button>
