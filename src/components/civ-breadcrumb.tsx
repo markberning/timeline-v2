@@ -176,7 +176,7 @@ export function ModePill({ accent }: { accent: string }) {
           if (!href) return null
           const color = THREAD_ACCENT[k]
           return (
-            <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, borderRadius: 0, borderLeft: `3px solid ${color}`, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
+            <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, borderRadius: 0, borderLeft: `3px solid ${color}`, marginBottom: 4, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
               <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={`/thread-icons/${k}.webp`} alt="" style={{ width: 16, height: 16, objectFit: 'contain', flexShrink: 0 }} />
