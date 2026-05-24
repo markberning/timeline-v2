@@ -1,7 +1,8 @@
 'use client'
 
-import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ArtFrontDoor } from '@/components/mode/art-front-door'
+import { ART_ERAS } from '@/lib/art-data'
 
 // Neutral "section home" hue — the same stone the War home crumb + the app's
 // other top-level controls use. The art accent (violet) stays for the content,
@@ -18,8 +19,10 @@ const STONE = '#8a7a66'
 // follow-up cleanup (see audits/art-vertical.md §2).
 
 function artHomeCrumbs(): Crumb[] {
+  // The era switcher — mirrors the war home's "All Wars" dropdown.
+  const eraOptions: CrumbOption[] = ART_ERAS.map(e => ({ label: e.name, href: `/art/${e.id}` }))
   return [
-    { label: 'All eras', active: true },
+    { label: 'All eras', options: eraOptions, active: true },
   ]
 }
 
