@@ -6,13 +6,14 @@ interface LightboxProps {
   src: string
   alt: string
   onClose: () => void
+  caption?: string
 }
 
 const DOUBLE_TAP_SCALE = 2.5
 const DOUBLE_TAP_MS = 300
 const SWIPE_DOWN_THRESHOLD = 80
 
-export function Lightbox({ src, alt, onClose }: LightboxProps) {
+export function Lightbox({ src, alt, onClose, caption }: LightboxProps) {
   const [scale, setScale] = useState(1)
   const [translate, setTranslate] = useState({ x: 0, y: 0 })
   const lastDistance = useRef(0)
@@ -169,6 +170,11 @@ export function Lightbox({ src, alt, onClose }: LightboxProps) {
         style={{ transform: `translate(${translate.x}px, ${translate.y}px) scale(${scale})` }}
         draggable={false}
       />
+      {caption && scale <= 1.05 && (
+        <div className="absolute bottom-0 left-0 right-0 px-6 pb-6 pt-10 text-center text-[12px] leading-snug text-white/70 pointer-events-none" style={{ background: 'linear-gradient(180deg, transparent, rgba(0,0,0,0.6))' }}>
+          {caption}
+        </div>
+      )}
     </div>
   )
 }
