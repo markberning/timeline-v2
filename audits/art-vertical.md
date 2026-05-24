@@ -176,6 +176,12 @@ on the era/movement/work content object. `generateStaticParams` gates on the pla
 registry (NOT the `'use client'` narratives module — importing a client module into the
 server page breaks static export).
 
+**Content is produced + GATED via `audits/art-content-pipeline.md`** (the art analog of the
+civ 5-persona audit and the war content pipeline — fact-checker, storytelling-&-looking,
+comprehensiveness, newcomer-clarity, framing/fairness, plus art-specific image/rights and
+nesting-coherence gates). **The 13 chapters shipped 2026-05-23 predate that pipeline and have
+NOT been gated yet** — they are a first draft pending a fact-checker pass first.
+
 **ENTRY = a "Read the full story" button directly under the `hookLong`** (user direction
 2026-05-23) — the shared `ReadStoryButton` (art-chrome). It is the primary doorway into the
 read; the signature visual + lists below it are for browsing. Label `Read the <name> story` /
