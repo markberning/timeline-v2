@@ -8,6 +8,7 @@
 // See audits/art-vertical.md.
 
 import { useState, Fragment } from 'react'
+import Link from 'next/link'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
@@ -124,6 +125,29 @@ export function ArtAccordion({ label = 'The details', children, accent = ART_ACC
         </span>
       </button>
       {open && <div>{children}</div>}
+    </div>
+  )
+}
+
+// "Read the full story" entry button — sits directly under the hookLong on a
+// level that has its own chaptered narrative (era / movement / work). The
+// primary doorway into the long-form read; the signature visual + lists below
+// are for browsing (audits/art-vertical.md §2).
+export function ReadStoryButton({ href, label = 'Read the full story', accent = ART_ACCENT, sub }: { href: string; label?: string; accent?: string; sub?: string }) {
+  return (
+    <div style={{ padding: '14px 18px 4px' }}>
+      <Link href={href} style={{
+        display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
+        textDecoration: 'none', borderRadius: 12,
+        border: `1px solid ${artAlpha(accent, 0.55)}`, background: artAlpha(accent, 0.1),
+        padding: '13px 16px', color: INK,
+      }}>
+        <span style={{ minWidth: 0 }}>
+          <span style={{ display: 'block', fontFamily: SANS, fontSize: 14, fontWeight: 600, letterSpacing: 0.1, color: INK }}>{label}</span>
+          {sub && <span style={{ display: 'block', marginTop: 2, fontFamily: SANS, fontSize: 11.5, color: MUTED }}>{sub}</span>}
+        </span>
+        <span style={{ flexShrink: 0, width: 30, height: 30, borderRadius: 999, background: accent, color: '#fff', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: 15, fontWeight: 700 }}>→</span>
+      </Link>
     </div>
   )
 }

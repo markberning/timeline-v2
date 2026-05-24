@@ -23,6 +23,7 @@ import {
   ArtPageShell,
   ArtHero,
   ArtAccordion,
+  ReadStoryButton,
   StatsRow,
   ArtFaceoff,
   ArtistsStrip,
@@ -355,6 +356,15 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
         <div style={{ padding: '16px 18px 4px' }}>
           <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
         </div>
+        {/* primary doorway into the era's chaptered narrative */}
+        {era.sections.length > 0 && (
+          <ReadStoryButton
+            href={`/art/${era.id}/s/${era.sections[0].id}`}
+            accent={accent}
+            label={`Read the ${era.name} era`}
+            sub={`${era.sections.length} chapters · ${era.range}`}
+          />
+        )}
         {/* signature visual — always visible */}
         <EraDossierMap accent={accent} />
         {/* secondary detail — collapsed by default */}
