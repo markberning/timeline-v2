@@ -35,7 +35,8 @@ const FAINT = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
 const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
 const OPEN_BG = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const MENU_BORDER = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
-const CIV_ACCENT = '#d97706' // the Civ thread colour (matches the app-home launcher)
+// Thread colours, matching the app-home launcher rows + emblems.
+const THREAD_ACCENT: Record<string, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
 
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
 const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: '/music' }
@@ -144,7 +145,7 @@ export function ModePill({ accent }: { accent: string }) {
           chevron opens the app switcher (Civ/War/Art/Music). */}
       <span style={{
         display: 'inline-flex', alignItems: 'stretch', borderRadius: 5, overflow: 'hidden',
-        border: `1px solid ${PILL_BORDER}`, borderLeft: `3px solid ${CIV_ACCENT}`, background: mode.open ? OPEN_BG : CHIP,
+        border: `1px solid ${PILL_BORDER}`, borderLeft: `3px solid ${THREAD_ACCENT.civ}`, background: mode.open ? OPEN_BG : CHIP,
       }}>
         <a href="/civ" aria-label="Civ home" style={{
           display: 'inline-flex', alignItems: 'center', gap: 6, padding: '3px 7px 3px 8px',
@@ -173,9 +174,14 @@ export function ModePill({ accent }: { accent: string }) {
           const current = k === 'civ'
           const soon = !TL_KIND_LIVE[k]
           if (!href) return null
+          const color = THREAD_ACCENT[k]
           return (
-            <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
-              <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={ell}>{MODE_SHORT[k]}</span></span>
+            <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, borderLeft: `3px solid ${color}`, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={`/thread-icons/${k}.webp`} alt="" style={{ width: 16, height: 16, objectFit: 'contain', flexShrink: 0 }} />
+                <span style={ell}>{MODE_SHORT[k]}</span>
+              </span>
               {current ? <Check accent={accent} /> : soon ? <Soon /> : null}
             </a>
           )
