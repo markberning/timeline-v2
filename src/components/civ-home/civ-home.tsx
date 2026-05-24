@@ -79,7 +79,7 @@ function eraHeader(era: { label: string; start: number; end: number }) {
 }
 
 
-function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean, onFilterChain?: (q: string) => void) {
+function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean, onFilterChain?: (q: string, color: string) => void) {
   const range = formatYearRange(civ.startYear, civ.endYear)
   const desc = CIV_BLURBS[civ.id] ?? civ.subtitle
   const chainPillStyle: React.CSSProperties = { flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }
@@ -87,8 +87,8 @@ function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof
   // chain (and stops the tap from also opening the civ behind it).
   const chainPill = ci && (onFilterChain ? (
     <span role="button" tabIndex={0}
-      onClick={(e) => { e.preventDefault(); e.stopPropagation(); onFilterChain(ci.chain.label) }}
-      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); onFilterChain(ci.chain.label) } }}
+      onClick={(e) => { e.preventDefault(); e.stopPropagation(); onFilterChain(ci.chain.label, color) }}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); onFilterChain(ci.chain.label, color) } }}
       title={`Filter to ${ci.chain.label}`}
       style={{ ...chainPillStyle, cursor: 'pointer' }}>{ci.chain.shortLabel} {ci.index + 1}/{ci.total}</span>
   ) : (
@@ -145,7 +145,7 @@ function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof
 }
 
 // ───────────────────────────────────────────── Timeline view
-function TimelineView({ query, onFilterChain }: { query: string; onFilterChain: (q: string) => void }) {
+function TimelineView({ query, onFilterChain }: { query: string; onFilterChain: (q: string, color: string) => void }) {
   const RAIL = 58 // px from column left to the cord centre
   const eras = ERA_BANDS.map(era => ({
     era,
@@ -256,8 +256,12 @@ function NoResults({ query, kind }: { query: string; kind: string }) {
 export function CivHome() {
   const [view, setView] = useState<View>('timeline')
   const [query, setQuery] = useState('')
+  // Colour the lit filter chrome to the chain when the filter came from a chain
+  // badge; null (→ stone) for a plain typed filter.
+  const [filterColor, setFilterColor] = useState<string | null>(null)
   const [searchOpen, setSearchOpen] = useState(false) // full-text chapter search
   const q = query.trim().toLowerCase()
+  const litColor = filterColor ?? STONE
 
   const civCount = SORTED_CIVS.filter(c => civMatches(c.id, q)).length
   const chainCount = CHAINS_BY_REGION.reduce((n, g) => n + g.chains.length, 0)
@@ -291,7 +295,7 @@ export function CivHome() {
           <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', padding: '6px 16px 6px' }}>
             <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>{intro.eyebrow}</span>
             <span style={q
-              ? { fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: STONE, padding: '2px 9px', borderRadius: 999 }
+              ? { fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '2px 9px', borderRadius: 999 }
               : { fontFamily: SANS, fontSize: 11, color: MUTED }}>{intro.count}</span>
           </div>
 
@@ -301,9 +305,9 @@ export function CivHome() {
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
             {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
-            <input value={query} onChange={e => setQuery(e.target.value)} placeholder="Filter by name, region, era…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
-            {query && <button onClick={() => setQuery('')} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
-              <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: STONE, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
+            <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter by name, region, era…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
+            {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
+              <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
             </button>}
             </div>
           </div>
@@ -312,7 +316,10 @@ export function CivHome() {
         {/* body */}
         <div key={view} style={{ flex: 1 }}>
           {view === 'timeline'
-            ? <TimelineView query={q} onFilterChain={(label) => setQuery(prev => (prev ? '' : label))} />
+            ? <TimelineView query={q} onFilterChain={(label, color) => {
+                if (query) { setQuery(''); setFilterColor(null) }
+                else { setQuery(label); setFilterColor(color) }
+              }} />
             : <ChainsView query={q} />}
         </div>
       </div>
