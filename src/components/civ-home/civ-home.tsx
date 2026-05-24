@@ -16,6 +16,7 @@ import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
 import { getCivEmblemPath } from '@/lib/civ-icons'
 import { ICON_LABELS } from '@/lib/civ-icon-labels'
 import { CIV_BLURBS } from '@/lib/civ-blurbs'
+import { CHAIN_BLURBS } from '@/lib/chain-blurbs'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
 
 const SANS = 'var(--font-geist-sans)'
@@ -218,6 +219,9 @@ function ChainsView({ query }: { query: string }) {
                       <span style={{ fontFamily: SERIF, fontSize: 16, color: INK, minWidth: 0 }}>{chain.label}</span>
                       <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color }}>{civs.length} civ{civs.length === 1 ? '' : 's'}</span>
                     </div>
+                    {CHAIN_BLURBS[chain.id] && (
+                      <div style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.4, color: MUTED, marginTop: 4 }}>{CHAIN_BLURBS[chain.id]}</div>
+                    )}
                     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, marginTop: 10 }}>
                       {civs.map((tl, i) => {
                         const match = !query || civMatches(tl.id, query)
