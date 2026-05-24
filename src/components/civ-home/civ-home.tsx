@@ -172,8 +172,12 @@ function TimelineView({ query, onFilterChain, onEraChange, headerH }: { query: s
       <div style={{ position: 'absolute', left: RAIL, top: 0, bottom: 28, width: 1, background: BORDER_STRONG }} />
       {eras.map(({ era, civs }, ei) => (
         <div key={era.id} ref={el => { if (el) eraRefs.current.set(era.id, el); else eraRefs.current.delete(era.id) }} style={{ scrollMarginTop: headerH }}>
-          {/* a hairline marks each new era; its title rides the sticky bar */}
-          {ei > 0 && <div style={{ marginLeft: CARD_INSET, borderTop: `1px solid ${BORDER}`, marginTop: 6, marginBottom: 6 }} />}
+          {/* in-list section header so the next era is visible coming up; the
+              same title also rides the sticky bar once this band reaches the top */}
+          <div style={{ marginLeft: CARD_INSET, padding: ei > 0 ? '14px 0 8px' : '2px 0 8px', marginTop: ei > 0 ? 6 : 0, borderTop: ei > 0 ? `1px solid ${BORDER}` : 'none' }}>
+            <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 400, fontSize: 22, color: INK, lineHeight: 1.1 }}>{era.label}</div>
+            <div style={{ fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.3, color: MUTED, marginTop: 3 }}>{eraRangeLabel(era.start, era.end)}</div>
+          </div>
           {civs.map(civ => {
             const ci = CIV_CHAIN_MAP.get(civ.id)
             const color = REGION_COLORS[civ.region]
