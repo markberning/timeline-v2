@@ -301,21 +301,6 @@ export function CivHome() {
             </button>
             <DarkModeToggle />
           </div>
-
-          {/* one line: filter · count */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
-            <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-              {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
-              <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
-              {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 28, height: 28, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
-                <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
-              </button>}
-            </div>
-            <span style={q
-              ? { flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '2px 9px', borderRadius: 999, whiteSpace: 'nowrap' }
-              : { flexShrink: 0, fontFamily: SANS, fontSize: 11, color: MUTED, whiteSpace: 'nowrap' }}>{intro.count}</span>
-          </div>
         </div>
 
         {/* app title + what-this-is — sits where the filter row used to live and
@@ -327,6 +312,21 @@ export function CivHome() {
           </div>
           <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Stuff Happened</h1>
           <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every civilization that ever rose, peaked, and fell apart, told as one readable story — and we explain everything, including the parts your textbook assumed you already knew.</p>
+        </div>
+
+        {/* filter · count — non-sticky, sits just above the list */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0 16px 12px' }}>
+          <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+            {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
+            <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
+            {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 28, height: 28, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
+              <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
+            </button>}
+          </div>
+          <span style={q
+            ? { flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '2px 9px', borderRadius: 999, whiteSpace: 'nowrap' }
+            : { flexShrink: 0, fontFamily: SANS, fontSize: 11, color: MUTED, whiteSpace: 'nowrap' }}>{intro.count}</span>
         </div>
 
         {/* body */}
