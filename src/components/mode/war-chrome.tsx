@@ -73,7 +73,12 @@ export interface Crumb {
 // narrative/reader pages that don't want the Timeline/Dossier toggle. Shows the
 // full trail; it never scrolls horizontally — link crumbs shrink with an
 // ellipsis if a screen is very narrow.
-export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; accent?: string }) {
+// `splitNav` (on by default): an ancestor crumb that has BOTH an href and a
+// dropdown renders as a split pill — tap the label to navigate straight to that
+// page, tap the ▾ to open the jump dropdown. Only ancestors-with-an-href split;
+// the mode picker (no href) and the active leaf stay dropdown-only, so this
+// safely applies across War (ACW/theatre rungs) and Art (era/movement/work).
+export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, splitNav = true }: { crumbs: Crumb[]; accent?: string; splitNav?: boolean }) {
   const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
   const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
   const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
@@ -100,7 +105,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
                 // when it's the current page's leaf (c.active), gray otherwise.
                 // only the crumb that IS the current page lights up — not the
                 // trailing generic picker just because it's last
-                ? <CrumbDropdown crumb={c} emphasized={!!c.active} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
+                ? <CrumbDropdown crumb={c} emphasized={!!c.active} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} split={splitNav && !!c.href && !c.active} />
                 : c.href && !last
                   ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
                   : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? accent : muted, fontWeight: last ? 700 : 500, background: last ? alpha(accent, 0.14) : 'transparent', border: last ? `1px solid ${alpha(accent, 0.5)}` : undefined, borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
@@ -167,7 +172,7 @@ export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: {
 // scrolls (the jump list is long) and is clamped to the viewport so the
 // rightmost crumb's menu doesn't run off-screen.
 const MENU_W = 252
-function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number }) {
+function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168, split = false }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number; split?: boolean }) {
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
   const btnRef = useRef<HTMLButtonElement>(null)
@@ -202,21 +207,50 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
     document.addEventListener('pointerdown', onDown, true)
     return () => document.removeEventListener('pointerdown', onDown, true)
   }, [open])
+  // Shared pill chrome so the single-button and split variants look identical.
+  const pillColor = pill ?? (emphasized ? 'var(--foreground)' : muted)
+  const pillBg = pill ? alpha(pill, open ? 0.22 : 0.13) : (emphasized ? alpha(accent, open ? 0.22 : 0.14) : (open ? 'color-mix(in srgb, var(--foreground) 12%, transparent)' : chip))
+  const pillBorder = `1px solid ${pill ? alpha(pill, 0.5) : (emphasized ? alpha(accent, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)')}`
+  const pillWeight = pill || emphasized ? 700 : 600
+  const chevron = (
+    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
+      <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
   return (
     <span style={{ position: 'relative', flexShrink: 0 }}>
+      {split && crumb.href ? (
+        // Split pill: label navigates, the ▾ half opens the dropdown. One pill
+        // look (shared chrome); a faint divider separates the two tap zones.
+        <span style={{
+          display: 'inline-flex', alignItems: 'stretch', fontFamily: SANS, fontSize: 11, fontWeight: pillWeight,
+          color: pillColor, background: pillBg, borderRadius: 999, border: pillBorder, overflow: 'hidden',
+          maxWidth: maxLabel, minWidth: 0,
+        }}>
+          <a href={crumb.href} style={{ display: 'inline-flex', alignItems: 'center', padding: '3px 7px 3px 10px', color: 'inherit', textDecoration: 'none', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
+          </a>
+          <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`Jump to another ${label}`} style={{
+            display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 24, flexShrink: 0,
+            background: open ? 'color-mix(in srgb, var(--foreground) 9%, transparent)' : 'transparent',
+            border: 'none', borderLeft: `1px solid ${pill ? alpha(pill, 0.4) : 'color-mix(in srgb, var(--foreground) 16%, transparent)'}`,
+            color: 'inherit', cursor: 'pointer', padding: 0,
+          }}>
+            {chevron}
+          </button>
+        </span>
+      ) : (
       <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
         display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px',
-        fontFamily: SANS, fontSize: 11, fontWeight: pill || emphasized ? 700 : 600,
-        color: pill ?? (emphasized ? 'var(--foreground)' : muted),
-        background: pill ? alpha(pill, open ? 0.22 : 0.13) : (emphasized ? alpha(accent, open ? 0.22 : 0.14) : (open ? 'color-mix(in srgb, var(--foreground) 12%, transparent)' : chip)),
-        borderRadius: 999, border: `1px solid ${pill ? alpha(pill, 0.5) : (emphasized ? alpha(accent, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)')}`, cursor: 'pointer',
+        fontFamily: SANS, fontSize: 11, fontWeight: pillWeight,
+        color: pillColor, background: pillBg,
+        borderRadius: 999, border: pillBorder, cursor: 'pointer',
         maxWidth: maxLabel, minWidth: 0,
       }}>
         <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
-        <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
-          <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+        {chevron}
       </button>
+      )}
       {open && (
         <>
           <div ref={menuRef} style={{
