@@ -9,8 +9,7 @@
 import { useState, useEffect } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { TL_KIND_LABELS, type TlKind } from '@/lib/navigator-tls'
-import { formatYear } from '@/lib/chronology-data'
-import { eventsForDay, sampleEvents, type OnThisDayEvent } from '@/lib/on-this-day'
+import { sampleFeed, type FeedItem } from '@/lib/app-feed'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -40,8 +39,6 @@ const THREADS: Thread[] = [
   { kind: 'music', tag: 'What we listened to, in order.', href: '/music', live: false },
 ]
 
-const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-
 function ThreadIcon({ kind, color }: { kind: TlKind; color: string }) {
   const c = { width: 24, height: 24, viewBox: '0 0 24 24', fill: 'none', stroke: color, strokeWidth: 1.6, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const }
   if (kind === 'civ') return <svg {...c}><path d="M3 21h18" /><path d="M5 21V9l7-5 7 5v12" /><path d="M9 21v-6h6v6" /></svg>
@@ -50,44 +47,32 @@ function ThreadIcon({ kind, color }: { kind: TlKind; color: string }) {
   return <svg {...c}><circle cx="7" cy="18" r="2.6" /><circle cx="18" cy="15" r="2.6" /><path d="M9.6 18V6l10.4-2v11" /></svg>
 }
 
-function Card({ e }: { e: OnThisDayEvent }) {
+function Card({ e }: { e: FeedItem }) {
   const color = ACCENT[e.kind]
-  const inner = (
-    <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
-      <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <span style={{ opacity: 0.5 }}><ThreadIcon kind={e.kind} color={color} /></span>
+  return (
+    <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
+      <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
+        <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <span style={{ opacity: 0.5 }}><ThreadIcon kind={e.kind} color={color} /></span>
+        </div>
+        <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{ fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color }}>{e.type}</span>
+            {e.soon && <span style={{ fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 5px', borderRadius: 999 }}>Soon</span>}
+          </div>
+          <div style={{ fontFamily: SERIF, fontSize: 17, color: INK, lineHeight: 1.15, marginTop: 3 }}>{e.title}</div>
+          <div style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.45, color: MUTED, marginTop: 4 }}>{e.blurb}</div>
+        </div>
       </div>
-      <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
-        <div style={{ fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color }}>{TL_KIND_LABELS[e.kind]} · {formatYear(e.year)}</div>
-        <div style={{ fontFamily: SERIF, fontSize: 17, color: INK, lineHeight: 1.15, marginTop: 3 }}>{e.title}</div>
-        <div style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.45, color: MUTED, marginTop: 4 }}>{e.blurb}</div>
-      </div>
-    </div>
+    </a>
   )
-  return e.href ? <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>{inner}</a> : inner
 }
 
 export function AppHome() {
-  // "Today" is read on the client only — the page is statically exported, so a
-  // build-time date would be wrong and would mismatch on hydration.
-  const [today, setToday] = useState<Date | null>(null)
-  useEffect(() => { setToday(new Date()) }, [])
-
-  let feed: OnThisDayEvent[] = []
-  let onThisDay = false
-  let dateLabel = ''
-  if (today) {
-    const m = today.getMonth() + 1
-    const d = today.getDate()
-    dateLabel = `${MONTHS[today.getMonth()].slice(0, 3).toUpperCase()} ${d}`
-    const exact = eventsForDay(m, d)
-    if (exact.length) { feed = exact; onThisDay = true }
-    else {
-      // day-of-year seed so the sampling is stable through the day
-      const seed = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000)
-      feed = sampleEvents(seed, 4)
-    }
-  }
+  // The feed is a random sample drawn client-side only (it uses Math.random and
+  // the page is statically exported), so it mounts after hydration — no drift.
+  const [feed, setFeed] = useState<FeedItem[]>([])
+  useEffect(() => { setFeed(sampleFeed(8)) }, [])
 
   return (
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
@@ -123,17 +108,17 @@ export function AppHome() {
           })}
         </div>
 
-        {/* on this day — the date is client-only (static export), so this whole
-            section mounts after hydration rather than flashing a wrong header */}
-        {today && (
+        {/* discovery feed — a balanced random sample across the threads. Mounts
+            after hydration (random + static export), so it's gated on the feed */}
+        {feed.length > 0 && (
           <div style={{ borderTop: `8px solid ${CHIP}`, padding: '14px 16px 28px' }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 10 }}>
-              <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>{onThisDay ? 'On this day' : 'From the archive'}</span>
-              <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT }}>{dateLabel}</span>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
+              <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>Wander in</span>
+              <button onClick={() => setFeed(sampleFeed(8))} aria-label="Shuffle" style={{ appearance: 'none', border: `1px solid ${BORDER}`, background: CHIP, cursor: 'pointer', color: MUTED, display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase' }}>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 2v6h-6" /><path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M3 22v-6h6" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /></svg>
+                Shuffle
+              </button>
             </div>
-            {!onThisDay && (
-              <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, color: MUTED, marginBottom: 10 }}>Nothing we’ve written down happened on this date — so here’s a sampling.</div>
-            )}
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {feed.map((e, i) => <Card key={i} e={e} />)}
             </div>
