@@ -48,6 +48,10 @@ export const REGION_COLORS: Record<NavigatorRegion, string> = {
 // Order the four doors appear in the switcher.
 export const TL_KIND_ORDER: TlKind[] = ['civ', 'war', 'art', 'music']
 
+// Per-thread accent colour, shared by the app-home launcher, the breadcrumb
+// mode crumb, and the switcher dropdowns.
+export const TL_KIND_ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
+
 export const TL_KIND_LABELS: Record<TlKind, string> = {
   civ: 'Civilizations',
   war: 'Wars',

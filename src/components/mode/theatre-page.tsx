@@ -16,7 +16,7 @@ import { WarChrome, SANS, SERIF, ACCENTS, WAR_ACCENT, alpha, useWarView, type Cr
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
-import { TL_KIND_ORDER, type TlKind } from '@/lib/navigator-tls'
+import { TL_KIND_ORDER, TL_KIND_ACCENT, type TlKind } from '@/lib/navigator-tls'
 
 const MONO = 'var(--font-geist-mono)'
 const MUTED = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
@@ -82,7 +82,7 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 // the war home (Theatre / Battle/Event become generic pickers and the WAR crumb
 // lights up). The current page's leaf crumb gets accent emphasis.
 export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield'; battleId?: string } = {}): Crumb[] {
-  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k], accentBar: TL_KIND_ACCENT[k], icon: `/thread-icons/${k}.webp` }))]
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
 
   const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
@@ -110,7 +110,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   const onAcwHome = !theatre && !battleId
 
   return [
-    { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War' },
+    { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War', accentBar: TL_KIND_ACCENT.war, icon: '/thread-icons/war.webp' },
     // ACW + Theatre carry an `href` (their own home page) so that with splitNav
     // an ancestor pill can navigate directly; as the active leaf the href is
     // ignored (split is suppressed for the current page).
@@ -124,10 +124,10 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
 // ladder — the vertical (War) and the war picker (current, "All Wars"). The
 // Theatre / Battle rungs only appear once you've drilled into a specific war.
 export function warHomeCrumbs(): Crumb[] {
-  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k], accentBar: TL_KIND_ACCENT[k], icon: `/thread-icons/${k}.webp` }))]
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
   return [
-    { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War' },
+    { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War', accentBar: TL_KIND_ACCENT.war, icon: '/thread-icons/war.webp' },
     { label: 'All Wars', options: warOptions, active: true },
   ]
 }

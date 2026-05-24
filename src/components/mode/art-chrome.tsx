@@ -13,7 +13,7 @@ import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/w
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
 import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage } from '@/lib/art-content'
-import { TL_KIND_ORDER, type TlKind } from '@/lib/navigator-tls'
+import { TL_KIND_ORDER, TL_KIND_ACCENT, type TlKind } from '@/lib/navigator-tls'
 
 export const SANS = 'var(--font-geist-sans)'
 export const SERIF = 'var(--font-lora)'
@@ -37,8 +37,8 @@ const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art',
 const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: undefined }
 
 function modeCrumb(): Crumb {
-  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
-  return { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art' }
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k], accentBar: TL_KIND_ACCENT[k], icon: `/thread-icons/${k}.webp` }))]
+  return { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art', accentBar: TL_KIND_ACCENT.art, icon: '/thread-icons/art.webp' }
 }
 
 // All 8 eras as a switcher; every era resolves (unauthored ⇒ coming-soon page).

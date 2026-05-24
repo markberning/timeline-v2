@@ -2,7 +2,7 @@
 
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ArtFrontDoor, ART_ACCENT } from '@/components/mode/art-front-door'
-import { TL_KIND_ORDER, type TlKind } from '@/lib/navigator-tls'
+import { TL_KIND_ORDER, TL_KIND_ACCENT, type TlKind } from '@/lib/navigator-tls'
 
 // The Art vertical's front door (Era Hub + Climb tree). It wears the same
 // breadcrumb bar as the rest of the app (Art › All eras), NOT the
@@ -18,9 +18,9 @@ const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art',
 const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: undefined }
 
 function artHomeCrumbs(): Crumb[] {
-  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k], accentBar: TL_KIND_ACCENT[k], icon: `/thread-icons/${k}.webp` }))]
   return [
-    { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art' },
+    { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art', accentBar: TL_KIND_ACCENT.art, icon: '/thread-icons/art.webp' },
     { label: 'All eras', active: true },
   ]
 }

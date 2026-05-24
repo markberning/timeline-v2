@@ -58,6 +58,8 @@ export interface CrumbOption {
   color?: string   // colored dot (e.g. theatre-coded jump list)
   heading?: boolean // render as a non-interactive section label, not a row
   date?: string    // shown on the right of a built/linkable row (when it happened)
+  accentBar?: string // thread accent: a square row with a colored left bar
+  icon?: string    // small leading emblem (e.g. /thread-icons/{kind}.webp)
 }
 export interface Crumb {
   label: string
@@ -67,6 +69,8 @@ export interface Crumb {
   active?: boolean // dropdown crumb that is the current page's leaf — gets accent emphasis (else gray)
   currentLabel?: string // option label to check (✓) when the button shows a SHORT label (e.g. button "ACW", current option "American Civil War")
   color?: string // fixed pill colour overriding the page accent (e.g. the ACW war crumb's oxblood signature)
+  accentBar?: string // thread accent: render as a square rectangle with a colored left bar (the mode crumb)
+  icon?: string // small leading emblem (e.g. /thread-icons/{kind}.webp)
 }
 
 // Just the breadcrumb bar (sticky, top:0) — shared by WarChrome and by the
@@ -224,10 +228,13 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
         // look (shared chrome); a faint divider separates the two tap zones.
         <span style={{
           display: 'inline-flex', alignItems: 'stretch', fontFamily: SANS, fontSize: 11, fontWeight: pillWeight,
-          color: pillColor, background: pillBg, borderRadius: 999, border: pillBorder, overflow: 'hidden',
+          color: pillColor, background: pillBg, borderRadius: crumb.accentBar ? 0 : 999, border: pillBorder,
+          borderLeft: crumb.accentBar ? `3px solid ${crumb.accentBar}` : pillBorder, overflow: 'hidden',
           maxWidth: maxLabel, minWidth: 0,
         }}>
-          <a href={crumb.href} style={{ display: 'inline-flex', alignItems: 'center', padding: '3px 7px 3px 10px', color: 'inherit', textDecoration: 'none', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          <a href={crumb.href} style={{ display: 'inline-flex', alignItems: 'center', gap: crumb.icon ? 6 : 0, padding: crumb.accentBar ? '3px 7px 3px 8px' : '3px 7px 3px 10px', color: 'inherit', textDecoration: 'none', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            {crumb.icon && <img src={crumb.icon} alt="" style={{ width: 15, height: 15, objectFit: 'contain', flexShrink: 0 }} />}
             <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
           </a>
           <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`Jump to another ${label}`} style={{
@@ -266,15 +273,18 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
                 </div>
               )
               const current = o.label === (crumb.currentLabel ?? crumb.label)
+              // eslint-disable-next-line @next/next/no-img-element
+              const lead = o.icon ? <img src={o.icon} alt="" style={{ width: 16, height: 16, objectFit: 'contain', flexShrink: 0 }} /> : dot
+              const barStyle: React.CSSProperties = o.accentBar ? { borderRadius: 0, borderLeft: `3px solid ${o.accentBar}`, marginBottom: 4 } : {}
               if (o.disabled || !o.href) return (
-                <div key={`o${oi}`} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, color: faint, borderRadius: 7, cursor: 'default' }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{dot}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{o.label}</span></span>
+                <div key={`o${oi}`} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, color: faint, borderRadius: 7, cursor: 'default', ...barStyle }}>
+                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{lead}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{o.label}</span></span>
                   <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.7, textTransform: 'uppercase', color: faint, border: `1px solid ${faint}`, borderRadius: 999, padding: '1px 6px' }}>soon</span>
                 </div>
               )
               return (
-                <a key={`o${oi}`} href={o.href} onClick={() => setOpen(false)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, fontWeight: current ? 700 : 500, color: 'var(--foreground)', textDecoration: 'none', borderRadius: 7, background: current ? chip : 'transparent' }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{dot}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{o.label}</span></span>
+                <a key={`o${oi}`} href={o.href} onClick={() => setOpen(false)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, padding: '7px 10px', fontFamily: SANS, fontSize: 12, fontWeight: current ? 700 : 500, color: 'var(--foreground)', textDecoration: 'none', borderRadius: 7, background: current ? chip : 'transparent', ...barStyle }}>
+                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}>{lead}<span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{o.label}</span></span>
                   {current
                     ? <span style={{ flexShrink: 0, color: accent, fontWeight: 700 }}>✓</span>
                     : o.date
