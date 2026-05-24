@@ -74,11 +74,25 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <PaintingFigure
         onZoom={onZoom}
+        palette={['#5a6a3a', '#2a3018', '#0a0c06']}
+        imageUrl={ART_IMG.manetDejeuner}
+        ratio="5/4"
+        alt="Manet, Le Déjeuner sur l'herbe"
+        caption={<>Manet, <em>Le Déjeuner sur l&rsquo;herbe</em>, 1863 — Musée d&rsquo;Orsay. The scandal of the Salon des Refusés: a plainly modern naked woman picnicking with two clothed men, staring out at us, unbothered.</>}
+        rights="Public domain worldwide. Wikimedia Commons."
+      />
+      <p style={proseStyle}>
+        He did it again two years later, and worse. <em>Olympia</em> — a naked Parisian courtesan reclining
+        on her bed, meeting your eye without a flicker of shame — caused such an uproar at the 1865 Salon that
+        it had to be re-hung high on the wall, out of reach of the canes and umbrellas of furious visitors.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
         palette={['#5a4a3a', '#2a221c', '#0a0606']}
         imageUrl={ART_IMG.manetOlympia}
         ratio="3/2"
         alt="Manet, Olympia"
-        caption={<>Manet, <em>Olympia</em>, 1863 — Musée d&rsquo;Orsay. A modern courtesan, returning the viewer&rsquo;s gaze without shame. The Salon hung it high, out of reach of walking sticks.</>}
+        caption={<>Manet, <em>Olympia</em>, 1863 (shown 1865) — Musée d&rsquo;Orsay. The same flat, blunt handling and the same level, unembarrassed gaze.</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseMutedStyle}>
