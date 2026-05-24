@@ -111,8 +111,11 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
 
   return [
     { label: 'War', options: modeOptions, currentLabel: 'War' },
-    { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, options: warOptions, currentLabel: 'American Civil War', active: onAcwHome },
-    { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, options: theatreOptions, active: !!theatre && !battleId },
+    // ACW + Theatre carry an `href` (their own home page) so that with splitNav
+    // an ancestor pill can navigate directly; as the active leaf the href is
+    // ignored (split is suppressed for the current page).
+    { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War', active: onAcwHome },
+    { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: activeTheatre?.href, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]
 }
