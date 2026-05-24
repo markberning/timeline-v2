@@ -323,7 +323,7 @@ export function CivHome() {
             scrolls away; the functional bar above stays put */}
         <div style={{ padding: '14px 16px 16px' }}>
           <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Stuff Happened</h1>
-          <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every (well, quite a few) civilization that ever rose, peaked, and fell apart — one readable story at a time. We explain everything, including the parts your textbook assumed you&rsquo;d already know.</p>
+          <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every civilization that ever rose, peaked, and fell apart, told as one readable story — and we explain everything, including the parts your textbook assumed you already knew.</p>
         </div>
 
         {/* body */}
