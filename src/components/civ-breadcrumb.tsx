@@ -35,6 +35,7 @@ const FAINT = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
 const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
 const OPEN_BG = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const MENU_BORDER = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
+const CIV_ACCENT = '#d97706' // the Civ thread colour (matches the app-home launcher)
 
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
 const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: '/music' }
@@ -138,16 +139,21 @@ export function ModePill({ accent }: { accent: string }) {
   const ell: React.CSSProperties = { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
   return (
     <span style={{ position: 'relative', flexShrink: 0, display: 'inline-flex' }}>
-      {/* split pill: the "Civ" label links to the civ home; the chevron opens
-          the app switcher (Civ/War/Art/Music). */}
+      {/* split RECTANGLE carrying the home's thread styling: an orange (civ
+          accent) left bar + the civ emblem + "Civ" links to the civ home; the
+          chevron opens the app switcher (Civ/War/Art/Music). */}
       <span style={{
-        display: 'inline-flex', alignItems: 'stretch', borderRadius: 999, overflow: 'hidden',
-        border: `1px solid ${PILL_BORDER}`, background: mode.open ? OPEN_BG : CHIP,
+        display: 'inline-flex', alignItems: 'stretch', borderRadius: 5, overflow: 'hidden',
+        border: `1px solid ${PILL_BORDER}`, borderLeft: `3px solid ${CIV_ACCENT}`, background: mode.open ? OPEN_BG : CHIP,
       }}>
         <a href="/civ" aria-label="Civ home" style={{
-          display: 'inline-flex', alignItems: 'center', padding: '3px 7px 3px 10px',
+          display: 'inline-flex', alignItems: 'center', gap: 6, padding: '3px 7px 3px 8px',
           fontFamily: SANS, fontSize: 11, fontWeight: 600, color: MUTED, textDecoration: 'none', cursor: 'pointer',
-        }}>Civ</a>
+        }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/thread-icons/civ.webp" alt="" style={{ width: 15, height: 15, objectFit: 'contain' }} />
+          Civ
+        </a>
         <span aria-hidden style={{ width: 1, alignSelf: 'stretch', background: DIVIDER, flexShrink: 0 }} />
         <button ref={mode.btnRef} onClick={() => mode.setOpen(o => !o)} aria-expanded={mode.open} aria-label="Switch app" style={{
           display: 'inline-flex', alignItems: 'center', padding: '3px 7px', appearance: 'none', border: 'none',
