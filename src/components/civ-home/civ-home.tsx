@@ -7,12 +7,12 @@
 // in reserve. Mockup reference: mockups/Historica-civ-redesign (not copied
 // literally — fit to the app's own data + style).
 
-import { useState, useRef, useEffect, useLayoutEffect } from 'react'
+import { useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { ModePill } from '@/components/civ-breadcrumb'
 import { SORTED_CIVS, CHAINS_BY_REGION, CIV_CHAIN_MAP, formatYear, formatYearRange } from '@/lib/chronology-data'
 import { NAVIGATOR_TLS, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
-import { ERA_BANDS, eraOfYear, type EraBand } from '@/lib/civ-eras'
+import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
 import { getCivEmblemPath } from '@/lib/civ-icons'
 import { ICON_LABELS } from '@/lib/civ-icon-labels'
 import { CIV_BLURBS } from '@/lib/civ-blurbs'
@@ -69,6 +69,14 @@ function eraRangeLabel(start: number, end: number): string {
 const CARD_INSET = 70 // marginLeft to align an era header with the cards
 
 // Era-band header: a serif divider — italic Lora era name + a small date line.
+function eraHeader(era: { label: string; start: number; end: number }) {
+  return (
+    <div style={{ marginLeft: CARD_INSET, padding: '20px 0 8px' }}>
+      <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 400, fontSize: 22, color: INK, lineHeight: 1.1 }}>{era.label}</div>
+      <div style={{ fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.3, color: MUTED, marginTop: 3 }}>{eraRangeLabel(era.start, era.end)}</div>
+    </div>
+  )
+}
 
 
 function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean, onFilterChain?: (q: string, color: string) => void) {
@@ -137,47 +145,22 @@ function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof
 }
 
 // ───────────────────────────────────────────── Timeline view
-function TimelineView({ query, onFilterChain, onEraChange, headerH }: { query: string; onFilterChain: (q: string, color: string) => void; onEraChange: (era: EraBand) => void; headerH: number }) {
+function TimelineView({ query, onFilterChain }: { query: string; onFilterChain: (q: string, color: string) => void }) {
   const RAIL = 58 // px from column left to the cord centre
   const eras = ERA_BANDS.map(era => ({
     era,
     civs: SORTED_CIVS.filter(c => eraOfYear(c.startYear).id === era.id && civMatches(c.id, query)),
   })).filter(g => g.civs.length > 0)
 
-  // Scroll-spy: the era whose band has scrolled up under the sticky bar is the
-  // "current" one — its title shows (and swaps) in the sticky header. We read
-  // geometry only when a band crosses the header line (IntersectionObserver),
-  // never per scroll frame, so the bar stays a constant-height pure swap.
-  const eraRefs = useRef<Map<string, HTMLDivElement>>(new Map())
-  const eraKey = eras.map(e => e.era.id).join(',')
-  useEffect(() => {
-    const compute = () => {
-      let cur: EraBand | undefined = eras[0]?.era
-      for (const { era } of eras) {
-        const el = eraRefs.current.get(era.id)
-        if (el && el.getBoundingClientRect().top <= headerH + 6) cur = era
-      }
-      if (cur) onEraChange(cur)
-    }
-    compute()
-    const obs = new IntersectionObserver(compute, { rootMargin: `-${headerH}px 0px 0px 0px`, threshold: [0, 1] })
-    eras.forEach(({ era }) => { const el = eraRefs.current.get(era.id); if (el) obs.observe(el) })
-    return () => obs.disconnect()
-  }, [eraKey, headerH, onEraChange]) // eslint-disable-line react-hooks/exhaustive-deps
-
   if (eras.length === 0) return <NoResults query={query} kind="civilizations" />
 
   return (
     <div style={{ position: 'relative', padding: '6px 16px 8px' }}>
       <div style={{ position: 'absolute', left: RAIL, top: 0, bottom: 28, width: 1, background: BORDER_STRONG }} />
-      {eras.map(({ era, civs }, ei) => (
-        <div key={era.id} ref={el => { if (el) eraRefs.current.set(era.id, el); else eraRefs.current.delete(era.id) }} style={{ scrollMarginTop: headerH }}>
-          {/* in-list section header so the next era is visible coming up; the
-              same title also rides the sticky bar once this band reaches the top */}
-          <div style={{ marginLeft: CARD_INSET, padding: ei > 0 ? '14px 0 8px' : '2px 0 8px', marginTop: ei > 0 ? 6 : 0, borderTop: ei > 0 ? `1px solid ${BORDER}` : 'none' }}>
-            <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 400, fontSize: 22, color: INK, lineHeight: 1.1 }}>{era.label}</div>
-            <div style={{ fontFamily: SANS, fontSize: 10.5, letterSpacing: 0.3, color: MUTED, marginTop: 3 }}>{eraRangeLabel(era.start, era.end)}</div>
-          </div>
+      {eras.map(({ era, civs }) => (
+        <div key={era.id}>
+          {/* era band */}
+          {eraHeader(era)}
           {civs.map(civ => {
             const ci = CIV_CHAIN_MAP.get(civ.id)
             const color = REGION_COLORS[civ.region]
@@ -289,30 +272,16 @@ export function CivHome() {
 
   const civCount = SORTED_CIVS.filter(c => civMatches(c.id, q)).length
   const chainCount = CHAINS_BY_REGION.reduce((n, g) => n + g.chains.length, 0)
-
-  // The Timeline view reports the era currently under the sticky bar; its title
-  // rides the bar's left, on the same line as the filter, and swaps on scroll.
-  const [currentEra, setCurrentEra] = useState<EraBand>(ERA_BANDS[0])
-  const headerRef = useRef<HTMLDivElement>(null)
-  const [headerH, setHeaderH] = useState(108)
-  useLayoutEffect(() => {
-    const el = headerRef.current
-    if (!el) return
-    const measure = () => setHeaderH(el.offsetHeight)
-    measure()
-    const ro = new ResizeObserver(measure)
-    ro.observe(el)
-    return () => ro.disconnect()
-  }, [])
-
-  const litBadge: React.CSSProperties = { fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '3px 10px', borderRadius: 999, whiteSpace: 'nowrap' }
+  const intro = view === 'timeline'
+    ? { eyebrow: 'ALL OF HUMAN HISTORY', count: q ? `${civCount} matches` : `${SORTED_CIVS.length} civs · by era` }
+    : { eyebrow: 'BY CHAIN', count: `${chainCount} chains · ${SORTED_CIVS.length} civs` }
 
   return (
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
       {/* phone-width column */}
       <div style={{ width: '100%', maxWidth: 440, minHeight: '100dvh', background: 'var(--background)', borderLeft: `1px solid ${BORDER}`, borderRight: `1px solid ${BORDER}`, display: 'flex', flexDirection: 'column', boxShadow: '0 0 40px rgba(0,0,0,0.04)' }}>
         {/* single sticky header: [ Civ ▾ | Timeline | Chains | Globe ] + filter */}
-        <div ref={headerRef} style={{ position: 'sticky', top: 0, zIndex: 8, background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: `1px solid ${BORDER}` }}>
+        <div style={{ position: 'sticky', top: 0, zIndex: 8, background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: `1px solid ${BORDER}` }}>
           {/* mode pill + view pills — War-style breadcrumb bar (separate pills) */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '7px 10px 9px 12px' }}>
             <ModePill accent={STONE} />
@@ -329,33 +298,24 @@ export function CivHome() {
             <DarkModeToggle />
           </div>
 
-          {/* section + filter on ONE line — the left names the section (in
-              Timeline the era title, which swaps as you scroll into the next
-              era; in Chains a static "By chain" label), the right is the filter.
-              In Timeline it's inset to sit over the cards (past the date + cord). */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: `0 16px 10px ${view === 'timeline' ? 86 : 16}px` }}>
-            <div style={{ flexShrink: 0, minWidth: 0, maxWidth: '44%' }}>
-              {q ? (
-                <span style={litBadge}>{civCount} {civCount === 1 ? 'match' : 'matches'}</span>
-              ) : view === 'timeline' ? (
-                <>
-                  <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontWeight: 400, fontSize: 18, color: INK, lineHeight: 1.05, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{currentEra.label}</div>
-                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, color: MUTED, marginTop: 1, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{eraRangeLabel(currentEra.start, currentEra.end)}</div>
-                </>
-              ) : (
-                <>
-                  <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>By chain</div>
-                  <div style={{ fontFamily: SANS, fontSize: 11, color: MUTED, marginTop: 2, whiteSpace: 'nowrap' }}>{chainCount} chains</div>
-                </>
-              )}
-            </div>
-            <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-              {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
-              <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
-              {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
-                <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
-              </button>}
+          {/* intro row */}
+          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', padding: '6px 16px 6px' }}>
+            <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>{intro.eyebrow}</span>
+            <span style={q
+              ? { fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '2px 9px', borderRadius: 999 }
+              : { fontFamily: SANS, fontSize: 11, color: MUTED }}>{intro.count}</span>
+          </div>
+
+          {/* filter — pinned just above the list, inset to match the gray card
+              (in Timeline the cards start past the date + cord, so inset left) */}
+          <div style={{ padding: `0 16px 10px ${view === 'timeline' ? 86 : 16}px` }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+            {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
+            <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter by name, region, era…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
+            {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
+              <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
+            </button>}
             </div>
           </div>
         </div>
@@ -363,7 +323,7 @@ export function CivHome() {
         {/* body */}
         <div key={view} style={{ flex: 1 }}>
           {view === 'timeline'
-            ? <TimelineView query={q} headerH={headerH} onEraChange={setCurrentEra} onFilterChain={(label, color) => {
+            ? <TimelineView query={q} onFilterChain={(label, color) => {
                 if (query) { setQuery(''); setFilterColor(null) }
                 else { setQuery(label); setFilterColor(color) }
               }} />
