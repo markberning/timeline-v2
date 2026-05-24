@@ -273,8 +273,8 @@ export function CivHome() {
   const civCount = SORTED_CIVS.filter(c => civMatches(c.id, q)).length
   const chainCount = CHAINS_BY_REGION.reduce((n, g) => n + g.chains.length, 0)
   const intro = view === 'timeline'
-    ? { eyebrow: 'ALL OF HUMAN HISTORY', count: q ? `${civCount} matches` : `${SORTED_CIVS.length} civs · by era` }
-    : { eyebrow: 'BY CHAIN', count: `${chainCount} chains · ${SORTED_CIVS.length} civs` }
+    ? { eyebrow: 'ALL OF HUMAN HISTORY', count: q ? `${civCount} matches` : `${SORTED_CIVS.length} civs` }
+    : { eyebrow: 'BY CHAIN', count: q ? `${civCount} matches` : `${chainCount} chains` }
 
   return (
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
@@ -298,26 +298,28 @@ export function CivHome() {
             <DarkModeToggle />
           </div>
 
-          {/* intro row */}
-          <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', padding: '6px 16px 6px' }}>
-            <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>{intro.eyebrow}</span>
-            <span style={q
-              ? { fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '2px 9px', borderRadius: 999 }
-              : { fontFamily: SANS, fontSize: 11, color: MUTED }}>{intro.count}</span>
-          </div>
-
-          {/* filter — pinned just above the list, inset to match the gray card
-              (in Timeline the cards start past the date + cord, so inset left) */}
-          <div style={{ padding: `0 16px 10px ${view === 'timeline' ? 86 : 16}px` }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-            {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
-            <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter by name, region, era…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
-            {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
-              <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
-            </button>}
+          {/* one line: eyebrow · filter · count */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
+            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, whiteSpace: 'nowrap' }}>{intro.eyebrow}</span>
+            <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+              {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
+              <input value={query} onChange={e => { setQuery(e.target.value); setFilterColor(null) }} placeholder="Filter…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
+              {query && <button onClick={() => { setQuery(''); setFilterColor(null) }} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 28, height: 28, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
+                <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: litColor, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
+              </button>}
             </div>
+            <span style={q
+              ? { flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: litColor, padding: '2px 9px', borderRadius: 999, whiteSpace: 'nowrap' }
+              : { flexShrink: 0, fontFamily: SANS, fontSize: 11, color: MUTED, whiteSpace: 'nowrap' }}>{intro.count}</span>
           </div>
+        </div>
+
+        {/* app title + what-this-is — sits where the filter row used to live and
+            scrolls away; the functional bar above stays put */}
+        <div style={{ padding: '14px 16px 16px' }}>
+          <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Stuff Happened</h1>
+          <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every civilization that ever rose, peaked, and fell apart — one readable story at a time. We explain everything, including the parts your textbook assumed you&rsquo;d already know.</p>
         </div>
 
         {/* body */}
