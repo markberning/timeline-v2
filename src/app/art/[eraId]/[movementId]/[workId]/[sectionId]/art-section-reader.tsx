@@ -597,7 +597,13 @@ export function ArtSectionReader({ workId, sectionId }: { eraId: string; movemen
   const crumbs: Crumb[] = [
     ...workCrumbs.slice(0, -1),
     { ...workCrumbs[workCrumbs.length - 1], active: false, href: base },
-    { label: section.title, active: true },
+    // current-chapter leaf is a dropdown to jump to any other chapter
+    {
+      label: section.title,
+      active: true,
+      currentLabel: section.title,
+      options: w.sections.map(s => ({ label: s.title, href: `${base}/${s.id}` })),
+    },
   ]
 
   const Narrative = NARRATIVES[section.id] || SettingNarrative

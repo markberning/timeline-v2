@@ -265,13 +265,13 @@ frame and crop it.
   the small cord/list/browse cards** (an unattributed Monet on a movement card is a defect).
   Two placements, locked 2026-05-23:
   - **Narrative-image figures** (`PaintingFigure`): the descriptive caption (italic) and the
-    credit are SEPARATE — the credit is a **bold** line under the caption via the `credit` prop
-    (`Artist, Title, year · Current Museum, City`); the caption is description only. (This is what
-    the user meant by "credit at the end in bold" — it is for the images IN THE NARRATIVE.)
+    credit are SEPARATE — the credit is its own line under the caption via the `credit` prop
+    (`Artist, Title, year · Current Museum, City`); the caption is description only. **NOT bold**
+    (user reversed the earlier "bold" call 2026-05-23 — credits are plain everywhere now).
   - **Cord/list cards** (`credit` field on EraMovement / MovementWork): the credit is a small line
-    at the end of the card text, **NOT bold** (muted). The card grows via `minHeight` so it never
-    clips. NOTE: a flex image column needs `alignSelf:stretch` + `height:auto` (NOT `height:100%`)
-    or it collapses to zero once the card is `minHeight`.
+    at the end of the card text, also **NOT bold** (muted). The card grows via `minHeight` so it
+    never clips. NOTE: a flex image column needs `alignSelf:stretch` + `height:auto` (NOT
+    `height:100%`) or it collapses to zero once the card is `minHeight`.
 
   **JSX whitespace gotcha (cost two rounds):** an inline `<em>`/`<strong>` at a source line break
   loses the adjacent space in the build (e.g. "Post-Impressionistsnever"). Fix: put an explicit

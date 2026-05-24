@@ -20,7 +20,13 @@ export function ArtEraSectionReader({ eraId, sectionId }: { eraId: string; secti
   const crumbs: Crumb[] = [
     ...eraCrumbs.slice(0, -1),
     { ...eraCrumbs[eraCrumbs.length - 1], active: false, href: base },
-    { label: section.title, active: true },
+    // current-chapter leaf is a dropdown to jump to any other chapter
+    {
+      label: section.title,
+      active: true,
+      currentLabel: section.title,
+      options: era.sections.map(s => ({ label: s.title, href: `${base}/s/${s.id}` })),
+    },
   ]
 
   return (
