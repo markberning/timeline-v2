@@ -108,7 +108,10 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     // at the war level. ACW + Theatre carry an `href` (their own home page) so
     // that with splitNav an ancestor pill can navigate directly; as the active
     // leaf the href is ignored (split is suppressed for the current page).
-    { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War', active: onAcwHome },
+    // On the ACW home this is a split/dual pill too (label → ACW home, ▾ → switch
+    // war), lit via its accent colour — NOT flagged `active`, which would collapse
+    // it to a plain dropdown and drop the dual-action affordance.
+    { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War' },
     { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: activeTheatre?.href, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
   ]

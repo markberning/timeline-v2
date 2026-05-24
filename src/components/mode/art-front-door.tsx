@@ -40,7 +40,7 @@ type View = 'eras' | 'tree'
 function ViewToggle({ view, onView }: { view: View; onView: (v: View) => void }) {
   const chipActive = 'color-mix(in srgb, var(--foreground) 14%, var(--background))'
   return (
-    <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: 3, gap: 2, maxWidth: 280 }}>
+    <div style={{ display: 'flex', flex: 1, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: 3, gap: 2, maxWidth: 480 }}>
       {(['eras', 'tree'] as View[]).map(v => {
         const active = v === view
         return (
