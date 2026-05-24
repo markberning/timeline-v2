@@ -110,7 +110,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
   const onAcwHome = !theatre && !battleId
 
   return [
-    { label: 'War', options: modeOptions, currentLabel: 'War' },
+    { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War' },
     // ACW + Theatre carry an `href` (their own home page) so that with splitNav
     // an ancestor pill can navigate directly; as the active leaf the href is
     // ignored (split is suppressed for the current page).
@@ -127,7 +127,7 @@ export function warHomeCrumbs(): Crumb[] {
   const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
   return [
-    { label: 'War', options: modeOptions, currentLabel: 'War' },
+    { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War' },
     { label: 'All Wars', options: warOptions, active: true },
   ]
 }
