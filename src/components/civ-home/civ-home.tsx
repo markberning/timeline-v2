@@ -298,13 +298,8 @@ export function CivHome() {
             <DarkModeToggle />
           </div>
 
-          {/* one line: eyebrow · filter · count */}
+          {/* one line: filter · count */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
-            <span style={{ flexShrink: 0, maxWidth: 132, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, lineHeight: 1.25, textTransform: 'uppercase', color: FAINT }}>
-              {view === 'timeline'
-                ? <><s style={{ textDecorationThickness: '1.5px' }}>Complete</s> Partial History of People Living Together</>
-                : intro.eyebrow}
-            </span>
             <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
               {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
@@ -320,8 +315,12 @@ export function CivHome() {
         </div>
 
         {/* app title + what-this-is — sits where the filter row used to live and
-            scrolls away; the functional bar above stays put */}
+            scrolls away; the functional bar above stays put. The struck-scope
+            kicker now lives here, readable and on its own line. */}
         <div style={{ padding: '14px 16px 16px' }}>
+          <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, marginBottom: 7 }}>
+            <s style={{ textDecorationThickness: '1.5px' }}>Complete</s> Partial History of People Living Together
+          </div>
           <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Stuff Happened</h1>
           <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every civilization that ever rose, peaked, and fell apart, told as one readable story — and we explain everything, including the parts your textbook assumed you already knew.</p>
         </div>
