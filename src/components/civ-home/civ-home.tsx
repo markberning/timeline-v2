@@ -327,8 +327,9 @@ export function CivHome() {
 
           {/* section + filter on ONE line — the left names the section (in
               Timeline the era title, which swaps as you scroll into the next
-              era; in Chains a static "By chain" label), the right is the filter */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0 16px 10px' }}>
+              era; in Chains a static "By chain" label), the right is the filter.
+              In Timeline it's inset to sit over the cards (past the date + cord). */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: `0 16px 10px ${view === 'timeline' ? 86 : 16}px` }}>
             <div style={{ flexShrink: 0, minWidth: 0, maxWidth: '44%' }}>
               {q ? (
                 <span style={litBadge}>{civCount} {civCount === 1 ? 'match' : 'matches'}</span>
