@@ -55,7 +55,8 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.courbetStudio}
         ratio="2/1"
         alt="Courbet, The Painter's Studio"
-        caption={<>Courbet,{' '}<em>The Painter&rsquo;s Studio</em>, 1855 — Musée d&rsquo;Orsay, Paris. The huge canvas the Exposition refused, hung instead in his own one-man tent.</>}
+        caption={<>The huge canvas the Exposition refused, hung instead in his own one-man tent.</>}
+        credit={<>Courbet,{' '}<em>The Painter&rsquo;s Studio</em>, 1855 · Musée d&rsquo;Orsay, Paris</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
@@ -76,7 +77,8 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.manetDejeuner}
         ratio="5/4"
         alt="Manet, Le Déjeuner sur l'herbe"
-        caption={<>Manet,{' '}<em>Le Déjeuner sur l&rsquo;herbe</em>, 1863 — Musée d&rsquo;Orsay, Paris. The scandal of the Salon des Refusés: a modern naked woman picnicking with two clothed men, looking calmly out at us.</>}
+        caption={<>The scandal of the Salon des Refusés: a modern naked woman picnicking with two clothed men, looking calmly out at us.</>}
+        credit={<>Manet,{' '}<em>Le Déjeuner sur l&rsquo;herbe</em>, 1863 · Musée d&rsquo;Orsay, Paris</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -92,7 +94,8 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.manetOlympia}
         ratio="3/2"
         alt="Manet, Olympia"
-        caption={<>Manet,{' '}<em>Olympia</em>, 1863 (shown 1865) — Musée d&rsquo;Orsay, Paris. The same flat, blunt handling, the same level, unembarrassed gaze.</>}
+        caption={<>The same flat, blunt handling, the same level, unembarrassed gaze.</>}
+        credit={<>Manet,{' '}<em>Olympia</em>, 1863 (shown 1865) · Musée d&rsquo;Orsay, Paris</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -132,7 +135,8 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.impressionSunrise}
         ratio="3/2"
         alt="Monet, Impression, Sunrise"
-        caption={<>Monet,{' '}<em>Impression, Sunrise</em>, 1872 — Musée Marmottan Monet, Paris. An orange sun over a hazy harbour, the water a few quick smears, the cranes and smokestacks barely there. The painting a hostile critic used to coin &ldquo;Impressionism.&rdquo;</>}
+        caption={<>An orange sun over a hazy harbour, the water a few quick smears, the cranes and smokestacks barely there. The painting a hostile critic used to coin &ldquo;Impressionism.&rdquo;</>}
+        credit={<>Monet,{' '}<em>Impression, Sunrise</em>, 1872 · Musée Marmottan Monet, Paris</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
@@ -201,7 +205,8 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.seuratGrandeJatte}
         ratio="3/2"
         alt="Seurat, A Sunday on La Grande Jatte"
-        caption={<>Seurat,{' '}<em>A Sunday on La Grande Jatte</em>, 1884 — Art Institute of Chicago. Look closely and the whole sunlit park is built from millions of separate dots of pure colour your eye blends for you.</>}
+        caption={<>Look closely and the whole sunlit park is built from millions of separate dots of pure colour your eye blends for you.</>}
+        credit={<>Seurat,{' '}<em>A Sunday on La Grande Jatte</em>, 1884 · Art Institute of Chicago</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
@@ -224,7 +229,8 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.starryNight}
         ratio="5/4"
         alt="Van Gogh, The Starry Night"
-        caption={<>Van Gogh,{' '}<em>The Starry Night</em>, 1889 — MoMA, New York. Painted from the window of an asylum at Saint-Rémy: the sky churns in thick spiralling strokes, the cypress claws upward like a dark flame. The feeling is in the paint, not the facts.</>}
+        caption={<>Painted from the window of an asylum at Saint-Rémy: the sky churns in thick spiralling strokes, the cypress claws upward like a dark flame. The feeling is in the paint, not the facts.</>}
+        credit={<>Van Gogh,{' '}<em>The Starry Night</em>, 1889 · MoMA, New York</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -256,7 +262,8 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.matisseDance}
         ratio="3/2"
         alt="Matisse, Dance"
-        caption={<>Matisse,{' '}<em>Dance (I)</em>, 1909 — MoMA, New York. Five figures, three colours — a green hill, a blue sky, red bodies — no shading, no depth, and total conviction.</>}
+        caption={<>Five figures, three colours — a green hill, a blue sky, red bodies — no shading, no depth, and total conviction.</>}
+        credit={<>Matisse,{' '}<em>Dance (I)</em>, 1909 · MoMA, New York</>}
         rights={PD_RIGHTS}
       />
 
@@ -276,7 +283,8 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.demoiselles}
         ratio="1/1"
         alt="Picasso, Les Demoiselles d'Avignon"
-        caption={<>Picasso,{' '}<em>Les Demoiselles d&rsquo;Avignon</em>, 1907 — MoMA, New York. Five women, the two on the right wearing mask-faces; the starting gun of Cubism. It has its own movement and its own five-chapter story below this era.</>}
+        caption={<>Five women, the two on the right wearing mask-faces; the starting gun of Cubism. It has its own movement and its own five-chapter story below this era.</>}
+        credit={<>Picasso,{' '}<em>Les Demoiselles d&rsquo;Avignon</em>, 1907 · MoMA, New York</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -310,7 +318,8 @@ const ManifestoNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.boccioniCity}
         ratio="3/2"
         alt="Boccioni, The City Rises"
-        caption={<>Umberto Boccioni,{' '}<em>The City Rises</em>, 1910 — MoMA, New York. A huge blue workhorse lunges forward and the labourers and buildings smear into its motion: the modern city painted as raw, blurred force.</>}
+        caption={<>A huge blue workhorse lunges forward and the labourers and buildings smear into its motion: the modern city painted as raw, blurred force.</>}
+        credit={<>Umberto Boccioni,{' '}<em>The City Rises</em>, 1910 · MoMA, New York</>}
         rights={PD_RIGHTS}
       />
 
