@@ -144,7 +144,7 @@ export function ModePill({ accent }: { accent: string }) {
           accent) left bar + the civ emblem + "Civ" links to the civ home; the
           chevron opens the app switcher (Civ/War/Art/Music). */}
       <span style={{
-        display: 'inline-flex', alignItems: 'stretch', borderRadius: 5, overflow: 'hidden',
+        display: 'inline-flex', alignItems: 'stretch', borderRadius: 0, overflow: 'hidden',
         border: `1px solid ${PILL_BORDER}`, borderLeft: `3px solid ${THREAD_ACCENT.civ}`, background: mode.open ? OPEN_BG : CHIP,
       }}>
         <a href="/civ" aria-label="Civ home" style={{
