@@ -68,14 +68,14 @@ function WorkCard({ work, accent, href }: { work: MovementWork; accent: string; 
 
   const inner = (
     <>
-      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 124 : '100%', flexShrink: 0 }}>
+      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 124 : 'auto', alignSelf: 'stretch', flexShrink: 0 }}>
         <CordTile palette={work.palette} imageUrl={work.imageUrl} label={work.name} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
         <div style={{ fontFamily: SERIF, fontSize: sz.title, lineHeight: 1.1, letterSpacing: -0.2, color: INK, textWrap: 'balance' }}>{work.name}</div>
         <div style={{ fontFamily: SANS, fontSize: 10, color: MUTED, marginTop: 3, letterSpacing: 0.1 }}>{work.artist} · {work.place}</div>
         <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? INK : MUTED, textWrap: 'pretty', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: sz.lines, WebkitBoxOrient: 'vertical' }}>{work.blurb}</div>
-        {work.credit && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, lineHeight: 1.35, letterSpacing: 0.2, color: INK }}>{work.credit}</div>}
+        {work.credit && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 400, lineHeight: 1.35, letterSpacing: 0.2, color: MUTED }}>{work.credit}</div>}
       </div>
     </>
   )
