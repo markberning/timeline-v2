@@ -171,14 +171,17 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
   const sep = <span aria-hidden style={{ color: FAINT, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>
 
   // segment button inside the connected location pill — all three zones are
-  // identical: a (truncating) label + a chevron.
+  // identical: a (truncating) label + a chevron. The label flexes/ellipsizes so
+  // the whole bar shrinks to fit rather than forcing a horizontal scroll.
   const segStyle = (open: boolean): React.CSSProperties => ({
-    display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: 3,
-    padding: '3px 7px', flexShrink: 0,
+    display: 'flex', alignItems: 'center', gap: 3, padding: '3px 7px', width: '100%', minWidth: 0,
     appearance: 'none', border: 'none', background: open ? OPEN_BG : 'transparent', color: 'inherit', cursor: 'pointer',
-    fontFamily: SANS, fontSize: 11, fontWeight: 600, maxWidth: 104, minWidth: 0,
+    fontFamily: SANS, fontSize: 11, fontWeight: 600,
   })
-  const segLabel: React.CSSProperties = { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
+  const segLabel: React.CSSProperties = { flex: '0 1 auto', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
+  // Per-zone flex: region/chain give up width first; the civ you're reading
+  // keeps its width longest. minWidth:0 lets each ellipsize instead of pushing.
+  const zoneWrap = (shrink: number, maxWidth: number): React.CSSProperties => ({ position: 'relative', display: 'flex', minWidth: 0, flex: `0 ${shrink} auto`, maxWidth })
   const div = <span aria-hidden style={{ width: 1, alignSelf: 'stretch', background: DIVIDER, flexShrink: 0 }} />
 
   return (
@@ -186,7 +189,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
       background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
       borderBottom: BORDER, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8, minHeight: 34, boxSizing: 'border-box',
     }}>
-      <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
+      <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflow: 'hidden', whiteSpace: 'nowrap' }}>
         {/* ── mode pill ── */}
         <span style={{ position: 'relative', flexShrink: 0 }}>
           <button ref={mode.btnRef} onClick={() => mode.setOpen(o => !o)} aria-expanded={mode.open} style={{
@@ -217,13 +220,13 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
 
         {sep}
 
-        {/* ── combined location pill: region | chain | ▾ ── */}
+        {/* ── combined location pill: region | chain | civ ── */}
         <span style={{
           display: 'inline-flex', alignItems: 'stretch', borderRadius: 999, border: `1px solid ${PILL_BORDER}`, overflow: 'hidden',
-          background: CHIP, color: MUTED, flexShrink: 0, maxWidth: '100%', minWidth: 0,
+          background: CHIP, color: MUTED, flex: '0 1 auto', maxWidth: '100%', minWidth: 0,
         }}>
           {/* zone 1 — region */}
-          <span style={{ position: 'relative', display: 'inline-flex' }}>
+          <span style={zoneWrap(3, 96)}>
             <button ref={reg.btnRef} onClick={() => reg.setOpen(o => !o)} aria-expanded={reg.open} style={segStyle(reg.open)}>
               <span style={segLabel}>{REGION_LABELS[region]}</span><Chevron open={reg.open} />
             </button>
@@ -246,7 +249,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
 
           {/* zone 2 — chain (omitted for standalone civs, which have no family) */}
           {!isStandalone && (<>
-          <span style={{ position: 'relative', display: 'inline-flex' }}>
+          <span style={zoneWrap(2, 110)}>
             <button ref={chn.btnRef} onClick={() => chn.setOpen(o => !o)} aria-expanded={chn.open} style={segStyle(chn.open)}>
               <span style={segLabel}>{chain?.shortLabel ?? '—'}</span><Chevron open={chn.open} />
             </button>
@@ -271,8 +274,8 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
           {div}
           </>)}
 
-          {/* zone 3 — ▾ the civ list for the selected chain (tapping navigates) */}
-          <span style={{ position: 'relative', display: 'inline-flex' }}>
+          {/* zone 3 — the civ list for the selected chain (tapping navigates) */}
+          <span style={zoneWrap(1, 200)}>
             <button ref={civ.btnRef} onClick={() => civ.setOpen(o => !o)} aria-expanded={civ.open} aria-label="Jump to a civilization" style={segStyle(civ.open)}>
               <span style={segLabel}>{civLabel}</span><Chevron open={civ.open} />
             </button>
