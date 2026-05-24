@@ -1,7 +1,12 @@
 'use client'
 
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
-import { ArtFrontDoor, ART_ACCENT } from '@/components/mode/art-front-door'
+import { ArtFrontDoor } from '@/components/mode/art-front-door'
+
+// Neutral "section home" hue — the same stone the War home crumb + the app's
+// other top-level controls use. The art accent (violet) stays for the content,
+// not the breadcrumb's top-level rung.
+const STONE = '#8a7a66'
 
 // The Art vertical's front door (Era Hub + Climb tree). The thread switch lives
 // in the ThreadBar tier above (baked into WarBreadcrumb); this trail is just the
@@ -21,7 +26,7 @@ function artHomeCrumbs(): Crumb[] {
 export default function ArtHome() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb crumbs={artHomeCrumbs()} accent={ART_ACCENT} />
+      <WarBreadcrumb crumbs={artHomeCrumbs()} accent={STONE} />
       <ArtFrontDoor showToggle={false} />
     </div>
   )
