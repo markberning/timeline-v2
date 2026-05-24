@@ -163,8 +163,10 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, marginBottom: 10 }}>
               <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>Wander in</span>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
-                {/* 1 / 2 / 3-column segmented control */}
-                <div style={{ display: 'inline-flex', border: `1px solid ${BORDER}`, borderRadius: 999, overflow: 'hidden' }}>
+                {/* 1 / 2 / 3-column segmented control — "Cols" label so it doesn't
+                    read as pagination */}
+                <div style={{ display: 'inline-flex', alignItems: 'center', border: `1px solid ${BORDER}`, borderRadius: 999, overflow: 'hidden' }}>
+                  <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, padding: '0 8px', borderRight: `1px solid ${BORDER}`, alignSelf: 'stretch', display: 'inline-flex', alignItems: 'center' }}>Cols</span>
                   {[1, 2, 3].map(n => {
                     const on = cols === n
                     return (
