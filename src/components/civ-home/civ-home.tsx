@@ -79,13 +79,25 @@ function eraHeader(era: { label: string; start: number; end: number }) {
 }
 
 
-function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean) {
+function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof CIV_CHAIN_MAP.get>, color: string, withImage: boolean, onFilterChain?: (q: string) => void) {
   const range = formatYearRange(civ.startYear, civ.endYear)
   const desc = CIV_BLURBS[civ.id] ?? civ.subtitle
+  const chainPillStyle: React.CSSProperties = { flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }
+  // The chain badge doubles as a filter: tapping it narrows the list to that
+  // chain (and stops the tap from also opening the civ behind it).
+  const chainPill = ci && (onFilterChain ? (
+    <span role="button" tabIndex={0}
+      onClick={(e) => { e.preventDefault(); e.stopPropagation(); onFilterChain(ci.chain.label) }}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); onFilterChain(ci.chain.label) } }}
+      title={`Filter to ${ci.chain.label}`}
+      style={{ ...chainPillStyle, cursor: 'pointer' }}>{ci.chain.shortLabel} {ci.index + 1}/{ci.total}</span>
+  ) : (
+    <span style={chainPillStyle}>{ci.chain.shortLabel} {ci.index + 1}/{ci.total}</span>
+  ))
   const titleRow = (
     <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
       <span style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase', color: INK, lineHeight: 1.2, minWidth: 0 }}>{civ.label}</span>
-      {ci && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.16), padding: '2px 7px', borderRadius: 999, whiteSpace: 'nowrap' }}>{ci.chain.shortLabel} {ci.index + 1}/{ci.total}</span>}
+      {chainPill}
     </div>
   )
   const descEl = desc ? <div style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.45, color: MUTED, marginTop: 4 }}>{desc}</div> : null
@@ -133,7 +145,7 @@ function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof
 }
 
 // ───────────────────────────────────────────── Timeline view
-function TimelineView({ query }: { query: string }) {
+function TimelineView({ query, onFilterChain }: { query: string; onFilterChain: (q: string) => void }) {
   const RAIL = 58 // px from column left to the cord centre
   const eras = ERA_BANDS.map(era => ({
     era,
@@ -161,7 +173,7 @@ function TimelineView({ query }: { query: string }) {
                   <div style={{ position: 'absolute', left: '50%', top: 15, transform: 'translate(-50%,-50%)', width: 10, height: 10, borderRadius: 999, background: color, boxShadow: `0 0 0 3px ${alpha(color, 0.18)}` }} />
                 </div>
                 <a href={civ.hasContent ? `/${civ.id}` : undefined} style={{ display: 'block', textDecoration: 'none', color: 'inherit', paddingBottom: 12 }}>
-                  {civCardInner(civ, ci, color, true)}
+                  {civCardInner(civ, ci, color, true, onFilterChain)}
                 </a>
               </div>
             )
@@ -278,7 +290,9 @@ export function CivHome() {
           {/* intro row */}
           <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', padding: '6px 16px 6px' }}>
             <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>{intro.eyebrow}</span>
-            <span style={{ fontFamily: SANS, fontSize: 11, color: MUTED }}>{intro.count}</span>
+            <span style={q
+              ? { fontFamily: SANS, fontSize: 11, fontWeight: 700, color: '#fff', background: STONE, padding: '2px 9px', borderRadius: 999 }
+              : { fontFamily: SANS, fontSize: 11, color: MUTED }}>{intro.count}</span>
           </div>
 
           {/* filter — pinned just above the list, inset to match the gray card
@@ -295,7 +309,7 @@ export function CivHome() {
 
         {/* body */}
         <div key={view} style={{ flex: 1 }}>
-          {view === 'timeline' ? <TimelineView query={q} /> : <ChainsView query={q} />}
+          {view === 'timeline' ? <TimelineView query={q} onFilterChain={setQuery} /> : <ChainsView query={q} />}
         </div>
       </div>
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
