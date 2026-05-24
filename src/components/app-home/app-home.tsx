@@ -55,22 +55,44 @@ function ThreadEmblem({ kind, size }: { kind: TlKind; size: number }) {
   return <img src={`/thread-icons/${kind}.webp`} alt="" loading="lazy" style={{ width: size, height: size, objectFit: 'contain' }} />
 }
 
-function Card({ e }: { e: FeedItem }) {
+const clampN = (n: number): React.CSSProperties => ({ display: '-webkit-box', WebkitLineClamp: n, WebkitBoxOrient: 'vertical', overflow: 'hidden' })
+
+function Eyebrow({ e, color, size }: { e: FeedItem; color: string; size: number }) {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 5, minWidth: 0 }}>
+      <span style={{ fontFamily: SANS, fontSize: size, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', minWidth: 0 }}>{e.type}</span>
+      {e.soon && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: size - 1, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 5px', borderRadius: 999 }}>Soon</span>}
+    </div>
+  )
+}
+
+function Card({ e, horizontal }: { e: FeedItem; horizontal?: boolean }) {
   const color = ACCENT[e.kind]
-  const clampN = (n: number): React.CSSProperties => ({ display: '-webkit-box', WebkitLineClamp: n, WebkitBoxOrient: 'vertical', overflow: 'hidden' })
+  const emblem = e.icon
+    // eslint-disable-next-line @next/next/no-img-element
+    ? <img src={e.icon} alt="" loading="lazy" style={{ width: horizontal ? 52 : 38, height: horizontal ? 52 : 38, objectFit: 'contain' }} className="dark:brightness-150" />
+    : <ThreadEmblem kind={e.kind} size={horizontal ? 44 : 32} />
+
+  // 1-column: the original horizontal card — emblem left, roomier text right.
+  if (horizontal) {
+    return (
+      <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
+        <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{emblem}</div>
+        <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
+          <Eyebrow e={e} color={color} size={10.5} />
+          <div style={{ fontFamily: SERIF, fontSize: 17, color: INK, lineHeight: 1.15, marginTop: 3, ...clampN(2) }}>{e.title}</div>
+          <div style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.45, color: MUTED, marginTop: 4, ...clampN(2) }}>{e.blurb}</div>
+        </div>
+      </a>
+    )
+  }
+
+  // 2 / 3-column: compact vertical tile.
   return (
     <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
-      <div style={{ height: 60, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        {e.icon
-          // eslint-disable-next-line @next/next/no-img-element
-          ? <img src={e.icon} alt="" loading="lazy" style={{ width: 38, height: 38, objectFit: 'contain' }} className="dark:brightness-150" />
-          : <ThreadEmblem kind={e.kind} size={32} />}
-      </div>
+      <div style={{ height: 60, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{emblem}</div>
       <div style={{ flex: 1, minWidth: 0, padding: '7px 8px 9px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 4, minWidth: 0 }}>
-          <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', minWidth: 0 }}>{e.type}</span>
-          {e.soon && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 7.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 4px', borderRadius: 999 }}>Soon</span>}
-        </div>
+        <Eyebrow e={e} color={color} size={8.5} />
         <div style={{ fontFamily: SERIF, fontSize: 13.5, color: INK, lineHeight: 1.16, marginTop: 2, ...clampN(3) }}>{e.title}</div>
         <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.4, color: MUTED, marginTop: 3, ...clampN(4) }}>{short(e.blurb)}</div>
       </div>
@@ -146,8 +168,8 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
                 </button>
               </div>
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`, gap: 8 }}>
-              {feed.map((e, i) => <Card key={i} e={e} />)}
+            <div style={{ display: 'grid', gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`, gap: cols === 1 ? 10 : 8 }}>
+              {feed.map((e, i) => <Card key={i} e={e} horizontal={cols === 1} />)}
             </div>
           </div>
         )}
