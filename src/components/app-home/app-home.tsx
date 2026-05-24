@@ -39,12 +39,11 @@ const THREADS: Thread[] = [
   { kind: 'music', tag: 'What we listened to, in order.', href: '/music', live: false },
 ]
 
-function ThreadIcon({ kind, color }: { kind: TlKind; color: string }) {
-  const c = { width: 24, height: 24, viewBox: '0 0 24 24', fill: 'none', stroke: color, strokeWidth: 1.6, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const }
-  if (kind === 'civ') return <svg {...c}><path d="M3 21h18" /><path d="M5 21V9l7-5 7 5v12" /><path d="M9 21v-6h6v6" /></svg>
-  if (kind === 'war') return <svg {...c}><path d="M12 3l9 9-9 9-9-9z" /></svg>
-  if (kind === 'art') return <svg {...c}><rect x="3" y="4" width="18" height="16" rx="2" /><circle cx="9" cy="10" r="1.6" /><path d="M21 16l-5-5L5 20" /></svg>
-  return <svg {...c}><circle cx="7" cy="18" r="2.6" /><circle cx="18" cy="15" r="2.6" /><path d="M9.6 18V6l10.4-2v11" /></svg>
+// Gemini-generated flat emblems (public/thread-icons/{kind}.webp) — one per
+// thread, each in its accent color. See scripts/gen-thread-icons.mjs.
+function ThreadEmblem({ kind, size }: { kind: TlKind; size: number }) {
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src={`/thread-icons/${kind}.webp`} alt="" loading="lazy" style={{ width: size, height: size, objectFit: 'contain' }} />
 }
 
 function Card({ e }: { e: FeedItem }) {
@@ -53,7 +52,7 @@ function Card({ e }: { e: FeedItem }) {
     <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
       <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
         <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <span style={{ opacity: 0.5 }}><ThreadIcon kind={e.kind} color={color} /></span>
+          <ThreadEmblem kind={e.kind} size={44} />
         </div>
         <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -94,7 +93,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
             const row = (
               <div style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '16px 16px 16px 0', borderTop: `1px solid ${BORDER}`, position: 'relative' }}>
                 <div style={{ width: 4, alignSelf: 'stretch', flexShrink: 0, background: color }} />
-                <span style={{ flexShrink: 0 }}><ThreadIcon kind={t.kind} color={color} /></span>
+                <span style={{ flexShrink: 0, paddingLeft: 4 }}><ThreadEmblem kind={t.kind} size={32} /></span>
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
                     <span style={{ fontFamily: SERIF, fontSize: 21, color: INK, lineHeight: 1.1 }}>{TL_KIND_LABELS[t.kind]}</span>
