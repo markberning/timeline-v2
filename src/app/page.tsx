@@ -35,7 +35,7 @@ function chapterSeeds(): FeedItem[] {
     for (const c of n.chapters) {
       const blurb = clean(c.intro?.takeaway ?? c.subtitle ?? c.summaryBullets?.[0] ?? '')
       if (!blurb) continue
-      out.push({ kind: 'civ', type: `${n.label} · Ch ${c.number}`, title: c.title, blurb, href: `/civ/${id}?chapter=${c.number}`, icon: getCivEmblemPath(id) ?? undefined })
+      out.push({ kind: 'civ', type: `${n.label} · Ch ${c.number}`, title: c.title, blurb, href: `/civ/${id}?chapter=${c.number}`, icon: getCivEmblemPath(id) ?? undefined, chapter: true })
     }
   }
   // Embed a build-time random subset to keep the payload small; the client still

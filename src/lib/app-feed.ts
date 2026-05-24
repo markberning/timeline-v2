@@ -22,6 +22,7 @@ export interface FeedItem {
   href: string
   soon?: boolean // a teaser for content not built yet (badged, lands on the door)
   icon?: string  // a specific emblem (per-civ); falls back to the thread emblem
+  chapter?: boolean // a civ-chapter card — its title (the chapter name) wraps in full
 }
 
 // TEMP teasers for the not-yet-built threads. Clearly badged "Soon" and they

@@ -80,7 +80,7 @@ function Card({ e, horizontal }: { e: FeedItem; horizontal?: boolean }) {
         <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{emblem}</div>
         <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
           <Eyebrow e={e} color={color} size={10.5} />
-          <div style={{ fontFamily: SERIF, fontSize: 17, color: INK, lineHeight: 1.15, marginTop: 3, ...clampN(2) }}>{e.title}</div>
+          <div style={{ fontFamily: SERIF, fontSize: 17, color: INK, lineHeight: 1.15, marginTop: 3, ...(e.chapter ? {} : clampN(2)) }}>{e.title}</div>
           <div style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.45, color: MUTED, marginTop: 4, ...clampN(2) }}>{e.blurb}</div>
         </div>
       </a>
@@ -93,7 +93,7 @@ function Card({ e, horizontal }: { e: FeedItem; horizontal?: boolean }) {
       <div style={{ height: 60, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{emblem}</div>
       <div style={{ flex: 1, minWidth: 0, padding: '7px 8px 9px' }}>
         <Eyebrow e={e} color={color} size={8.5} />
-        <div style={{ fontFamily: SERIF, fontSize: 13.5, color: INK, lineHeight: 1.16, marginTop: 2, ...clampN(3) }}>{e.title}</div>
+        <div style={{ fontFamily: SERIF, fontSize: 13.5, color: INK, lineHeight: 1.16, marginTop: 2, ...(e.chapter ? {} : clampN(3)) }}>{e.title}</div>
         <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.4, color: MUTED, marginTop: 3, ...clampN(4) }}>{short(e.blurb)}</div>
       </div>
     </a>
