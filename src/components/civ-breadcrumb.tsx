@@ -37,7 +37,7 @@ const OPEN_BG = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const MENU_BORDER = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
 
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: '/art', music: undefined }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: '/art', music: '/music' }
 
 function alpha(hex: string, a: number): string {
   const h = hex.replace('#', '')
@@ -146,18 +146,14 @@ export function ModePill({ accent }: { accent: string }) {
       </button>
       <MenuPanel m={mode}>
         {TL_KIND_ORDER.map(k => {
-          const live = TL_KIND_LIVE[k]
-          const href = live ? MODE_HREF[k] : undefined
+          const href = MODE_HREF[k]
           const current = k === 'civ'
-          if (!href) return (
-            <div key={k} style={{ ...rowBase, cursor: 'default', color: FAINT }}>
-              <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={ell}>{MODE_SHORT[k]}</span></span><Soon />
-            </div>
-          )
+          const soon = !TL_KIND_LIVE[k]
+          if (!href) return null
           return (
             <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
               <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={ell}>{MODE_SHORT[k]}</span></span>
-              {current ? <Check accent={accent} /> : null}
+              {current ? <Check accent={accent} /> : soon ? <Soon /> : null}
             </a>
           )
         })}
