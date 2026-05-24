@@ -6,7 +6,7 @@
 // Used by Gettysburg, Antietam, and every battle to come.
 
 import { useState } from 'react'
-import { WarBreadcrumb, alpha, CHROME_TOP } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, alpha, CHROME_TOP, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import type { Theatre } from '@/lib/civil-war-roster'
 
@@ -49,9 +49,30 @@ export function BattleSectionReader({
   const next = nextId ? sections[nextId] : null
   const battleHref = `${theatreHref}/${slug}`
 
+  // Breadcrumb: ACW › Theatre › Battle › Chapter. On a section page the battle
+  // crumb demotes to an ancestor (links to the battle overview, keeps its jump
+  // dropdown via splitNav) and a "Chp N" pill becomes the leaf — a chapter
+  // switcher across this battle's sections. Only when there's more than one.
+  const safeId = sections[id] ? id : ids[0]
+  const safeIdx = Math.max(0, ids.indexOf(safeId))
+  const chLabel = (i: number, sid: string) => `Ch ${i + 1} · ${sections[sid].title}`
+  const baseCrumbs = civilWarCrumbs({ theatre: theatreId, battleId })
+  const crumbs: Crumb[] = ids.length > 1
+    ? [
+        ...baseCrumbs.slice(0, -1),
+        { ...baseCrumbs[baseCrumbs.length - 1], href: battleHref, active: false },
+        {
+          label: `Chp ${safeIdx + 1}`,
+          options: ids.map((sid, i) => ({ label: chLabel(i, sid), href: `${battleHref}/s/${sid}` })) as CrumbOption[],
+          active: true,
+          currentLabel: chLabel(safeIdx, safeId),
+        },
+      ]
+    : baseCrumbs
+
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb accent={accent} crumbs={civilWarCrumbs({ theatre: theatreId, battleId })} splitNav />
+      <WarBreadcrumb accent={accent} crumbs={crumbs} splitNav />
       {heroImage && (
         <>
           <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: heroPalette[2] }}>
