@@ -14,7 +14,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import {
-  ArtChrome, ArtPageShell, ArtHero, ArtAccordion, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow,
+  ArtChrome, ArtPageShell, ArtHero, ArtAccordion, ReadStoryButton, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow,
   artMovementCrumbs,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG, artAlpha,
 } from '@/components/mode/art-chrome'
@@ -306,6 +306,15 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         <div style={{ padding: '16px 18px 4px' }}>
           <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
         </div>
+        {/* primary doorway into the movement's chaptered narrative */}
+        {mv.sections.length > 0 && (
+          <ReadStoryButton
+            href={`/art/${mv.eraId}/${mv.id}/s/${mv.sections[0].id}`}
+            accent={accent}
+            label={`Read the ${mv.name} story`}
+            sub={`${mv.sections.length} chapters · ${mv.range}`}
+          />
+        )}
         {/* signature visual — always visible */}
         <InfluenceRibbon accent={accent} eraId={mv.eraId} movementId={mv.id} />
         {/* secondary detail — collapsed by default */}

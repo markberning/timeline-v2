@@ -147,20 +147,46 @@ Every spine page shares the single-view layout (§2): breadcrumb (no toggle), a 
 - **Artist → the Lifeline.** A single life-axis with period bands (Blue, Rose, Cubism…)
   layered as bars, key-work dots in period colors, birth/death markers at the ends.
 
-### Section chapters (the reader)
+### Chaptered narratives live at EVERY altitude — era, movement AND work (locked 2026-05-23)
 
-Each work has ~5 sibling narrative chapters (for Demoiselles: _Where this came from /
-Painting it / What his friends said / The painting goes away / What happened next_). Each
-is a full reader-engine chapter and **reuses the live app's reader** — do not reinvent:
+A long-form read is NOT only a work-level feature. **Each authored era, movement and work
+gets its own chaptered narrative**, each a different zoom on the same history:
 
-- `ChapterHeader` (eyebrow + title + progress)
-- `LineageStrip` (↑From / ↓To chips, cross-modal — see §5)
-- drop-cap prose in the house voice
-- **inline art figures** + the **rights treatment** (§5)
-- the existing `MeanwhileSheet` at the bottom (cross-link into the Civ corpus)
+- **Era (Modern → 7 ch)** — the whole century-long argument over what painting is for
+  (Salon → Impressionism → Post-Impressionism → the break → manifestos → Surrealism → New
+  York). Framed by the throughline, not a movement checklist, so it doesn't just duplicate
+  the movement reads.
+- **Movement (Cubism → 6 ch)** — the movement's own story (before the cube → Analytic →
+  hermetic peak → collage → Salon Cubists/Armory Show → the war scatters them).
+- **Work (Demoiselles → 5 ch)** — one painting, deep.
 
-Each chapter opens with its own brief orientation subsection (the chapter-intro rule from
-the rest of the app).
+They nest cleanly: the era touches each movement briefly, the movement goes deep on itself,
+the work goes deep on one canvas. Each read is the SAME furniture (`ArtNarrativeReader` in
+`src/components/mode/art-reader.tsx`): breadcrumb, `ChapterHeader` (eyebrow + title +
+progress), drop-cap house-voice prose, **inline art figures + the rights treatment** (§5/§5b),
+the `MeanwhileSheet` cross-link, prev/next nav, back link. **Reuse it — do not reinvent.**
+
+**Routing:** the section namespace is `/s/` (mirrors War), so it never collides with the
+sibling dynamic segments — era chapters at `/art/<era>/s/<sectionId>`, movement chapters at
+`/art/<era>/<movement>/s/<sectionId>`, work chapters keep `/art/<era>/<movement>/<work>/<sectionId>`.
+Prose is authored as JSX `Narrative` components keyed by section id (`era-narratives.tsx`,
+`movement-narratives.tsx`), registered in `ERA_NARRATIVES` / `MOVEMENT_NARRATIVES`. Chapter
+**metadata** (id/eyebrow/dateLabel/title/blurb/progress) is a `sections: WorkSection[]` array
+on the era/movement/work content object. `generateStaticParams` gates on the plain content
+registry (NOT the `'use client'` narratives module — importing a client module into the
+server page breaks static export).
+
+**ENTRY = a "Read the full story" button directly under the `hookLong`** (user direction
+2026-05-23) — the shared `ReadStoryButton` (art-chrome). It is the primary doorway into the
+read; the signature visual + lists below it are for browsing. Label `Read the <name> story` /
+`Read the <name> era` + `N chapters · range` subline.
+
+**Images are born-verified** (same doctrine as the rest of the app): resolve every figure URL
+against Wikimedia and load-check it (200 image/*) before committing; the URL path is the
+copyright tier (`/commons/` = free worldwide, `/en/` = US-PD pre-1931). A work with no
+serveable PD image (e.g. Picasso's *Still Life with Chair Caning* — not on Commons, no en-wiki
+file) is swapped for an on-topic verified substitute or rendered as a `RestrictedFigure` — never
+a guessed/blind URL.
 
 ---
 
