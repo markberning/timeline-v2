@@ -55,13 +55,13 @@ export const TL_KIND_LABELS: Record<TlKind, string> = {
   music: 'Music',
 }
 
-// Which verticals have shipped. Only `civ` is live today; the rest render
-// as "coming soon" doors until their content lands. Flip a flag when a
+// Which verticals have shipped. Civ/War/Art are live (War + Art soft-launched
+// with real content); Music is still a "coming soon" door. Flip a flag when a
 // vertical ships — the shell reads this, no other change needed.
 export const TL_KIND_LIVE: Record<TlKind, boolean> = {
   civ: true,
-  war: false,
-  art: false,
+  war: true,
+  art: true,
   music: false,
 }
 
