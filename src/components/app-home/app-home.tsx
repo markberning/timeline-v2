@@ -25,6 +25,7 @@ function alpha(hex: string, a: number): string {
 }
 
 const ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
+const STONE = '#8a7a66' // neutral accent for the home's own controls
 
 // Trim a long blurb to a word boundary so it fits the compact tile.
 function short(s: string, max = 92): string {
@@ -84,6 +85,11 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
   const [feed, setFeed] = useState<FeedItem[]>([])
   useEffect(() => { setFeed(sampleFeed(8, chapters)) }, [chapters])
 
+  // 1 / 2 / 3-column layout, remembered across visits
+  const [cols, setCols] = useState(3)
+  useEffect(() => { const s = localStorage.getItem('home-cols'); if (s) setCols(Math.min(3, Math.max(1, parseInt(s, 10) || 3))) }, [])
+  const chooseCols = (n: number) => { setCols(n); localStorage.setItem('home-cols', String(n)) }
+
   return (
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
       <div style={{ width: '100%', maxWidth: 440, minHeight: '100dvh', background: 'var(--background)', borderLeft: `1px solid ${BORDER}`, borderRight: `1px solid ${BORDER}`, boxShadow: '0 0 40px rgba(0,0,0,0.04)' }}>
@@ -122,14 +128,25 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
             after hydration (random + static export), so it's gated on the feed */}
         {feed.length > 0 && (
           <div style={{ borderTop: `8px solid ${CHIP}`, padding: '14px 16px 28px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, marginBottom: 10 }}>
               <span style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: FAINT }}>Wander in</span>
-              <button onClick={() => setFeed(sampleFeed(8, chapters))} aria-label="Shuffle" style={{ appearance: 'none', border: `1px solid ${BORDER}`, background: CHIP, cursor: 'pointer', color: MUTED, display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase' }}>
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 2v6h-6" /><path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M3 22v-6h6" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /></svg>
-                Shuffle
-              </button>
+              <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8 }}>
+                {/* 1 / 2 / 3-column segmented control */}
+                <div style={{ display: 'inline-flex', border: `1px solid ${BORDER}`, borderRadius: 999, overflow: 'hidden' }}>
+                  {[1, 2, 3].map(n => {
+                    const on = cols === n
+                    return (
+                      <button key={n} onClick={() => chooseCols(n)} aria-label={`${n} column${n > 1 ? 's' : ''}`} aria-pressed={on} style={{ appearance: 'none', border: 'none', cursor: 'pointer', width: 26, height: 24, background: on ? STONE : 'transparent', color: on ? '#fff' : MUTED, fontFamily: SANS, fontSize: 11, fontWeight: 700, lineHeight: 1 }}>{n}</button>
+                    )
+                  })}
+                </div>
+                <button onClick={() => setFeed(sampleFeed(8, chapters))} aria-label="Shuffle" style={{ appearance: 'none', border: `1px solid ${BORDER}`, background: CHIP, cursor: 'pointer', color: MUTED, display: 'inline-flex', alignItems: 'center', gap: 6, padding: '4px 10px', borderRadius: 999, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.4, textTransform: 'uppercase' }}>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 2v6h-6" /><path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M3 22v-6h6" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /></svg>
+                  Shuffle
+                </button>
+              </div>
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 8 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`, gap: 8 }}>
               {feed.map((e, i) => <Card key={i} e={e} />)}
             </div>
           </div>
