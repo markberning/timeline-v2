@@ -1,0 +1,157 @@
+# Art content pipeline (era / movement / work / artist narratives)
+
+The repeatable, gated process for producing an Art narrative — the analog of the
+civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
+`audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
+
+**Status: NEW (2026-05-23). NOT YET RUN on anything.** The first content shipped
+behind the SOON wall — Modern era (7 ch), Cubism movement (6 ch), Demoiselles work
+(5 ch) — was authored *before* this pipeline existed and has **not** been through
+any gate except born-verified images. It is a FIRST DRAFT. Running this pipeline on
+those 13 chapters (fact-checker first) is the immediate next action.
+
+## Governing principle
+Same spine as War: **storytelling is the #1 goal; accuracy / zero-hallucination is
+a hard floor it may never cross.** Two things are added because the subject is art:
+
+- **Make the reader SEE it.** Art is visual. A chapter that narrates art-world
+  events but never makes you *look at the painting* has failed at the one thing this
+  mode exists to do. "Looking" is a first-class craft axis, not a nicety.
+- **A wrong or blind image never ships** (born-verified doctrine, inherited from the
+  civ link layer). Every figure URL is resolved against Wikimedia and load-checked at
+  creation; the copyright tier is confirmed; a post-1930 / in-copyright work is NEVER
+  inlined (degraded `RestrictedFigure` only). This is the art analog of the
+  deterministic link gates.
+
+### Art's signature hallucination trap: the beautiful anecdote
+Art history is *full* of romantic legend repeated as fact — what Picasso "said" at
+the Trocadéro, the exact words of Braque's "tow and turpentine" jibe, who first
+uttered "cubes," the prices in a provenance trail, "the first-ever" claims. Much of
+it is apocryphal, misattributed, or contested. **The fact-checker's primary job in
+art is to separate documented fact from charming legend** — and where a story is
+legend-but-load-bearing, the prose must FRAME it as such ("by his own later account",
+"as the story goes"), never assert it flat.
+
+## The gates (a section ships only when all pass)
+Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
+
+1. **Fact-checker** (Sonnet, web-enabled) — independently verify every date,
+   attribution (who made it, when), medium, dimensions, museum/current location,
+   quote, "first/only" claim and provenance figure against authoritative sources.
+   Flag apocryphal anecdotes asserted as fact. ✅ CONFIRMED / ❌ WRONG (+correct
+   fact +source) / ⚠️ UNSUPPORTED / 🟡 LEGEND-FRAME-IT. MUST-FIX (❌, and any 🟡
+   asserted flatly) vs SHOULD-FIX. ("Is it true — or just a good story told as true?")
+2. **Storytelling & "looking" critic** (Sonnet) — judge as a story AND as art
+   writing. Grade per chapter STRONG / GOOD / NEEDS WORK / REWRITE. Hook & stakes,
+   pacing, voice — PLUS the art-specific axis: **does it make the reader see the
+   work?** Flag chapters that are all art-world history and no actual looking; flag
+   description that is vague ("striking", "powerful") instead of specific (what is
+   literally on the canvas). ("Is it told well, and does it make me look?")
+3. **Comprehensiveness critic** (Sonnet, web-enabled) — independent must-cover
+   checklist for the subject; COVERED / THIN / MISSING; MUST-ADD (essential, blocking)
+   vs SHOULD-CONSIDER. **Selective is correct** — flag only genuinely essential gaps,
+   never demand a survey. Also catches fact-pack blind spots. ("Is anything essential
+   missing?")
+4. **Newcomer / clarity critic** (Sonnet) — read cold as a zero-knowledge reader (a
+   sharp 15-year-old who has never set foot in a museum). Flag every undefined art
+   term/jargon (*papier collé*, *pointillism*, *Analytic vs Synthetic Cubism*,
+   *Fauvism*, *readymade*, *the Salon*, *avant-garde*, *picture plane*), every artist
+   introduced without a one-line who-they-are, every unexplained leap. CLEAR /
+   NEEDS-GLOSS / LOST; MUST-FIX (comprehension breakers) vs SHOULD-FIX. ("Can a
+   first-timer follow it?")
+5. **Framing / fairness critic** (Sonnet, web-enabled) — art history's contested-
+   memory failure modes, the analog of War's Lost Cause gate. Hunt ONLY for
+   distortion: **the romantic-genius myth** (the lone male titan; downplayed
+   collaborators, dealers, partners, sitters), **erasure of women** (Morisot,
+   Höch, Krasner, et al. written out), **the colonial-appropriation question**
+   (African / Iberian / Oceanic sources named honestly, their makers not
+   anonymized — and the ethical cost neither sanitized nor turned into a lecture),
+   and **Eurocentric overclaim** ("modern art begins here" stated as universal fact
+   when the v1 scope is explicitly Western — flag overclaims; the *scope* is allowed,
+   the *overclaim* is not). FAIR / TILTED / DISTORTED; MUST-FIX vs SHOULD-FIX.
+   Reusable for any art tradition. ("Is it fair, and honest about whose story this is?")
+
+### Two art-specific structural gates
+6. **Image & rights gate** (mostly deterministic + an eyeball) — for EVERY figure:
+   the URL resolves and load-checks (200 image/*); the copyright tier is correct
+   (`/commons/` free worldwide · `/en/` US-PD pre-1931 only · post-1930 → MUST be
+   `RestrictedFigure`, never inline); the **caption/Rights line matches the actual
+   image** (right work, right artist, right date, right current museum); credit sits
+   UNDER the image with current location; no item name overlaid on the artwork; the
+   orientation rule holds (whole work, never crop-cut a painting — `audits/art-
+   vertical.md §5b`). A figure that can't be verified is swapped for a verified
+   on-topic substitute or rendered restricted — NEVER a blind/guessed URL. (This is
+   the art analog of the war map-review gate: judged for *correctness*, not just hygiene.)
+7. **Nesting / coherence gate** (the multi-level analog of War's continuity sweep +
+   civ's Persona E) — because narratives exist at era → movement → work → artist,
+   each pair must be (a) **consistent** — a date, attribution or claim must read the
+   same at every altitude (the era's Cubism paragraph, the Cubism movement read, and
+   the Demoiselles work read may not contradict each other), and (b) **differentiated**
+   — a lower level goes DEEPER, it does not copy-paste the level above. Flag
+   contradictions (MUST-FIX) and redundant duplication (SHOULD-FIX). Run whenever a
+   new level is added to an already-authored branch.
+
+## `kind` — every section is era / movement / work / artist
+| | **era** | **movement** | **work** | **artist** |
+|---|---|---|---|---|
+| Altitude | the whole sweep, framed by a throughline | one movement's own story | one painting/object, deep | one life |
+| Shape | argument across movements (not a movement checklist) | rise → peak → spread → afterlife | where it came from → making → reception → afterlife | formation → breakthroughs → late work → legacy |
+| Looking | a few signature works, vividly | the movement's key works | THE work, exhaustively (it's the whole point) | the artist's pivotal works |
+| Don't | duplicate the movement reads | duplicate the work reads | restate the movement | become a CV / date-list |
+
+## The steps (coordinator-run, like War)
+0. **Pick the section + `kind`.** (Art roster lives in `audits/art-vertical.md`.)
+1. **Brief** — the section's job: throughline, cast, stakes, the shape (table), the
+   must-include works/beats, the storytelling-first + "make them look" mandate.
+2. **Fact pack** — assemble verifiable ground truth FIRST from real sources (museum
+   collection pages, Wikipedia API, the standard literature): dates, attributions,
+   media/dimensions, current locations, sourced quotes, provenance — each tied to a
+   source, **anecdotes explicitly flagged documented-vs-legend.** The author writes
+   ONLY from this. **Resolve the candidate images here too** (born-verified URLs +
+   tier), so the author references confirmed keys, not wishes.
+3. **Author agent (Opus)** — draft from the fact pack + brief in the house voice
+   (`WRITING-RULES.md`); inline-define every art term; weight the *looking*; honour
+   the rights subsystem (pre-1931 inline + Rights line, post-1930 restricted). Output:
+   draft + a **Fact ledger** (every concrete claim → fact-pack item; `[VERIFY]` /
+   `[LEGEND]` flags).
+4. **The gates, in parallel** (1–5 as agents; 6–7 by the coordinator). Read critic
+   output *critically* — gate = the coordinator's judgement, never the agent's
+   say-so (`feedback_gate_pass_not_correct`).
+5. **Revise** — author applies fixes. A comprehensiveness MUST-ADD or a framing fix
+   that adds material is **NEW material → it goes through the fact pack + fact-checker
+   FIRST**, then gets written in (the cross-gate rule: the story gate may never be
+   satisfied by an invented fact). Loop until all gates are clean.
+6. **Images** — born-verified figures per the image & rights gate (resolve via the
+   MediaWiki API, load-check, confirm tier + caption-match). Method proven 2026-05-23.
+7. **Integrate** — author the prose as JSX `Narrative` components
+   (`era-/movement-/<work>-narratives.tsx`), register in `ERA_NARRATIVES` /
+   `MOVEMENT_NARRATIVES`, fill the `sections` chapter metadata, wire the
+   `ReadStoryButton` under the hook, build (static export — `generateStaticParams`
+   gates on the plain content registry, never the client narratives module).
+
+## Roles
+- **Coordinator (you):** brief, build+verify the fact pack, resolve images, spawn
+  agents, read critics critically, reconcile, integrate. Runs gates 6–7 directly.
+- **Author** — Opus. Storytelling-first, from the fact pack only.
+- **Fact-checker / Comprehensiveness / Framing** — Sonnet, **web-enabled**.
+- **Storytelling-&-looking / Newcomer-clarity** — Sonnet.
+
+## Hard-won notes (inherited, apply here)
+- Subagents must NOT git commit/push — consolidate in one coordinator commit
+  (`feedback_subagent_commits`).
+- Agents run in the MAIN worktree; point them at the phase-2 tree or move output over
+  (`audits/war-content-pipeline.md` "Hard-won notes").
+- Born-verified images: hammering the Wikimedia API 429s — pace requests. The URL
+  path IS the copyright tier. A work with no serveable PD image (e.g. Picasso's *Still
+  Life with Chair Caning*) gets a verified on-topic substitute or a `RestrictedFigure`.
+- Gate-green ≠ correct (`feedback_gate_pass_not_correct`): sample what the gate can't
+  see, especially the apocryphal-anecdote trap, which no deterministic check catches.
+
+## Reusable agent briefs
+Build the five critic briefs by adapting the War briefs in
+`audits/war-content-pipeline.md` (§Reusable agent briefs) with the art re-points
+above: fact-checker → add the documented-vs-legend axis; storytelling → add the
+"does it make me look?" axis; clarity → art-jargon list; framing → genius-myth /
+women's-erasure / appropriation / Eurocentric-overclaim instead of Lost Cause;
+comprehensiveness → essential-works checklist. First proof run: pending (the 13
+already-written chapters).

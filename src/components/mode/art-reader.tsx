@@ -20,6 +20,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { artAlpha, SANS, SERIF, INK, MUTED, FAINT, BORDER, CARD_BG } from '@/components/mode/art-chrome'
+import { Lightbox } from '@/components/lightbox'
 import type { WorkSection } from '@/lib/art-content'
 
 // ─────────────────────────────────────────────────────────────
@@ -224,17 +225,8 @@ export function ArtNarrativeReader({
         </div>
       </div>
 
-      {/* lightbox */}
-      {lb && (
-        <div
-          onClick={() => setLb(null)}
-          style={{ position: 'fixed', inset: 0, background: 'rgba(10,9,7,0.95)', zIndex: 50, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 18, cursor: 'zoom-out' }}
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={lb.src} alt={lb.cap} style={{ maxWidth: '100%', maxHeight: '88vh', borderRadius: 6 }} />
-          <div style={{ position: 'absolute', bottom: 22, left: 0, right: 0, textAlign: 'center', fontFamily: SANS, fontSize: 12, lineHeight: 1.4, color: '#cfc6b4', padding: '0 24px' }}>{lb.cap}</div>
-        </div>
-      )}
+      {/* zoomable lightbox — pinch / double-tap / pan (shared with the civ reader) */}
+      {lb && <Lightbox src={lb.src} alt={lb.cap} caption={lb.cap} onClose={() => setLb(null)} />}
     </div>
   )
 }
