@@ -26,6 +26,14 @@ function alpha(hex: string, a: number): string {
 
 const ACCENT: Record<TlKind, string> = { civ: '#d97706', war: '#b44d3b', art: '#7c3aed', music: '#1d4ed8' }
 
+// Trim a long blurb to a word boundary so it fits the compact tile.
+function short(s: string, max = 92): string {
+  if (s.length <= max) return s
+  const cut = s.slice(0, max)
+  const i = cut.lastIndexOf(' ')
+  return cut.slice(0, i > max * 0.6 ? i : max).replace(/[,;:—–\s]+$/, '') + '…'
+}
+
 interface Thread {
   kind: TlKind
   tag: string
@@ -63,7 +71,7 @@ function Card({ e }: { e: FeedItem }) {
           {e.soon && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 7.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 4px', borderRadius: 999 }}>Soon</span>}
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 13.5, color: INK, lineHeight: 1.16, marginTop: 2, ...clampN(3) }}>{e.title}</div>
-        <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.4, color: MUTED, marginTop: 3, ...clampN(6) }}>{e.blurb}</div>
+        <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.4, color: MUTED, marginTop: 3, ...clampN(4) }}>{short(e.blurb)}</div>
       </div>
     </a>
   )
