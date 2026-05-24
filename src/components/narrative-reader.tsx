@@ -75,6 +75,25 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     if (openChapter !== null) setOpenSummaries(s => (s.size ? new Set() : s))
   }, [openChapter])
 
+  // Chapter-jump from the top breadcrumb (CivBreadcrumb). The bar lives outside
+  // this component's tree, so it asks for a chapter via a window event rather
+  // than calling setOpenChapter directly. Setting openChapter flips that
+  // chapter's accordion open → its own effect scrolls the page to the top.
+  useEffect(() => {
+    function onJump(e: Event) {
+      const n = (e as CustomEvent<number>).detail
+      if (typeof n === 'number' && chapters.some(c => c.number === n)) setOpenChapter(n)
+    }
+    window.addEventListener('civ-open-chapter', onJump)
+    return () => window.removeEventListener('civ-open-chapter', onJump)
+  }, [chapters])
+
+  // Broadcast the open chapter so the breadcrumb's "Chp N" pill stays in sync
+  // (null on the summary/landing view → the bar shows Chp 1).
+  useEffect(() => {
+    window.dispatchEvent(new CustomEvent('civ-chapter-changed', { detail: openChapter }))
+  }, [openChapter])
+
   // Load saved progress on mount + handle search highlight
   useEffect(() => {
     if (typeof window === 'undefined') return

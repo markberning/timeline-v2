@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { SORTED_CIVS } from '@/lib/chronology-data'
+import { TL_CHAINS } from '../../../reference-data/tl-chains'
 import { ChronologyHeader } from './chronology-header'
 import { CivIconsStrip } from './civ-icons-strip'
 import { TimelineRibbon } from './timeline-ribbon'
@@ -46,10 +47,44 @@ export function ChronologyPage() {
   const ribbonScrollRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
 
+  // Deep-link from a Civ reader's breadcrumb: ?chain=<id> solos that chain and
+  // jumps to its first built civ; ?area=<region> jumps to that region's first
+  // built civ. Runs before the generic scroll-to-active effect and wins.
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const p = new URLSearchParams(window.location.search)
+    const chainId = p.get('chain')
+    const area = p.get('area')
+    let target: string | null = null
+    if (chainId) {
+      const chain = TL_CHAINS.find(c => c.id === chainId)
+      if (chain) {
+        setSoloChainId(chainId)
+        const first = chain.entries.find(e => SORTED_CIVS.some(c => c.id === e.timelineId && c.hasContent))
+          ?? chain.entries[0]
+        target = first?.timelineId ?? null
+      }
+    } else if (area) {
+      target = SORTED_CIVS.find(c => c.region === area && c.hasContent)?.id
+        ?? SORTED_CIVS.find(c => c.region === area)?.id
+        ?? null
+    }
+    if (target) {
+      setActiveCivId(target)
+      const id = target
+      requestAnimationFrame(() => {
+        listRef.current?.querySelector(`[data-civ-id="${id}"]`)?.scrollIntoView({ block: 'start' })
+      })
+    }
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
   // On mount, scroll the list to the initial active civ.
   // On reload, force the list to the top instead of restoring scroll position.
   useEffect(() => {
     if (!listRef.current) return
+    // A ?chain= / ?area= deep-link owns the initial scroll (effect above).
+    const dl = new URLSearchParams(window.location.search)
+    if (dl.get('chain') || dl.get('area')) return
     if (isReload()) {
       // rAF defers past the browser's own scroll restoration on reload
       requestAnimationFrame(() => {

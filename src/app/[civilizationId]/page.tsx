@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { NarrativeReader } from '@/components/narrative-reader'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { CivBreadcrumb } from '@/components/civ-breadcrumb'
 import { MinCivHeader } from '@/components/min-civ-header'
 import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
@@ -44,18 +43,13 @@ export default async function CivilizationPage({ params }: PageProps) {
 
   return (
     <div className="max-w-prose mx-auto px-5">
-      <div data-top-nav className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm -mx-5 px-5 pt-3 pb-2 border-b-2" style={{ borderBottomColor: 'var(--accent)' }}>
-        <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-1 text-sm hover:opacity-80 transition-opacity" style={{ color: 'var(--accent-text)' }}>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <polyline points="15 18 9 12 15 6" />
-            </svg>
-            Stuff Happened
-          </Link>
-          <div className="flex items-center gap-1">
-            <DarkModeToggle />
-          </div>
-        </div>
+      <div data-top-nav className="sticky top-0 z-20 -mx-5">
+        <CivBreadcrumb
+          civId={civilizationId}
+          civLabel={narrative.label}
+          region={currentTl?.region ?? 'near-east'}
+          chapters={narrative.chapters.map(c => ({ number: c.number, title: c.title }))}
+        />
       </div>
 
       <div className="pt-4 pb-8">
