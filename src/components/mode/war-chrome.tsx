@@ -2,6 +2,12 @@
 
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { ThreadBar } from '@/components/thread-bar'
+
+// Combined height of the two pinned top tiers (ThreadBar + breadcrumb row), each
+// 36px. Anything that sticks BELOW the breadcrumb (the view toggle, a reader's
+// own sub-header) pins at this offset.
+export const CHROME_TOP = 72
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
 // a consistent breadcrumb + a Timeline/Dossier view toggle at the top of
@@ -90,11 +96,15 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, splitNav = tr
   const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
   const ell: React.CSSProperties = { minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
   return (
+    <div style={{ position: 'sticky', top: 0, zIndex: 8 }}>
+      {/* tier 1: the persistent thread switcher (Home · Civ · War · Art · Music) */}
+      <ThreadBar />
+      {/* tier 2: where-am-I within this thread (war/art drilldown trail) */}
     <div style={{
-      position: 'sticky', top: 0, zIndex: 8, background: bar,
+      background: bar,
       backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
       borderBottom: border, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8,
-      minHeight: 34, boxSizing: 'border-box',
+      height: 36, boxSizing: 'border-box',
     }}>
       <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
         {crumbs.map((c, i) => {
@@ -119,6 +129,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, splitNav = tr
       </nav>
       <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
     </div>
+    </div>
   )
 }
 
@@ -138,7 +149,7 @@ export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: {
 
       {/* toggle bar — back + Timeline/Dossier segmented + spacer */}
       <div style={{
-        position: 'sticky', top: 36, zIndex: 6, background: bar,
+        position: 'sticky', top: CHROME_TOP, zIndex: 6, background: bar,
         backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
         borderBottom: border, padding: '10px 14px 12px', display: 'flex', alignItems: 'center', gap: 10,
       }}>

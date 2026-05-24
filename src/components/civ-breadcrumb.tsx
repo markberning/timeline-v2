@@ -250,10 +250,8 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
       borderBottom: BORDER, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8, minHeight: 34, boxSizing: 'border-box',
     }}>
       <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflow: 'hidden', whiteSpace: 'nowrap' }}>
-        <ModePill accent={accent} />
-
-        {sep}
-
+        {/* the thread switcher now lives in the ThreadBar tier above; this bar is
+            purely "where am I within Civ": region | chain | civ  ›  chapter */}
         {/* ── combined location pill: region | chain | civ ── */}
         <span style={{
           display: 'inline-flex', alignItems: 'stretch', borderRadius: 999, border: `1px solid ${PILL_BORDER}`, overflow: 'hidden',

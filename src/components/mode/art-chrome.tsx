@@ -13,7 +13,6 @@ import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/w
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
 import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage } from '@/lib/art-content'
-import { TL_KIND_ORDER, TL_KIND_ACCENT, type TlKind } from '@/lib/navigator-tls'
 
 export const SANS = 'var(--font-geist-sans)'
 export const SERIF = 'var(--font-lora)'
@@ -31,15 +30,9 @@ export const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
 export { ART_ACCENT, artAlpha }
 
 // ─────────────────────────────────────────────────────────────
-// Breadcrumb trail builders (Crumb[] for WarBreadcrumb)
+// Breadcrumb trail builders (Crumb[] for WarBreadcrumb). The thread switch lives
+// in the ThreadBar tier above, so these trails start at the Art level (era …).
 // ─────────────────────────────────────────────────────────────
-const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: undefined }
-
-function modeCrumb(): Crumb {
-  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k], accentBar: TL_KIND_ACCENT[k], icon: `/thread-icons/${k}.webp` }))]
-  return { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art', accentBar: TL_KIND_ACCENT.art, icon: '/thread-icons/art.webp' }
-}
 
 // All 8 eras as a switcher; every era resolves (unauthored ⇒ coming-soon page).
 function eraOptions(): CrumbOption[] {
@@ -58,18 +51,16 @@ function workOptions(eraId: string, movementId: string): CrumbOption[] {
 }
 
 export function artEraCrumbs(eraId: string, eraName: string): Crumb[] {
-  return [modeCrumb(), { label: eraName, options: eraOptions(), active: true, currentLabel: eraName }]
+  return [{ label: eraName, options: eraOptions(), active: true, currentLabel: eraName }]
 }
 export function artMovementCrumbs(eraId: string, eraName: string, movementId: string, movementName: string): Crumb[] {
   return [
-    modeCrumb(),
     { label: eraName, href: `/art/${eraId}`, options: eraOptions(), currentLabel: eraName },
     { label: movementName, options: movementOptions(eraId), active: true, currentLabel: movementName },
   ]
 }
 export function artWorkCrumbs(eraId: string, eraName: string, movementId: string, movementName: string, workId: string, workName: string, workShort?: string): Crumb[] {
   return [
-    modeCrumb(),
     { label: eraName, href: `/art/${eraId}`, options: eraOptions(), currentLabel: eraName },
     { label: movementName, href: `/art/${eraId}/${movementId}`, options: movementOptions(eraId), currentLabel: movementName },
     { label: workName, short: workShort, options: workOptions(eraId, movementId), active: true, currentLabel: workName },
@@ -77,7 +68,7 @@ export function artWorkCrumbs(eraId: string, eraName: string, movementId: string
 }
 export function artArtistCrumbs(artistName: string): Crumb[] {
   const opts: CrumbOption[] = Object.values(ART_ARTIST_CONTENT).map(a => ({ label: a.name, href: `/art/artist/${a.id}` }))
-  return [modeCrumb(), { label: artistName, options: opts, active: true, currentLabel: artistName }]
+  return [{ label: artistName, options: opts, active: true, currentLabel: artistName }]
 }
 
 // ─────────────────────────────────────────────────────────────

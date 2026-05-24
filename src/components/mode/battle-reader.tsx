@@ -6,7 +6,7 @@
 // Used by Gettysburg, Antietam, and every battle to come.
 
 import { useState } from 'react'
-import { WarBreadcrumb, alpha } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, alpha, CHROME_TOP } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import type { Theatre } from '@/lib/civil-war-roster'
 
@@ -67,7 +67,7 @@ export function BattleSectionReader({
           {heroCredit && <div style={{ padding: '7px 16px 0', fontFamily: SANS, fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>{heroCredit}</div>}
         </>
       )}
-      <div style={{ position: 'sticky', top: 36, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
+      <div style={{ position: 'sticky', top: CHROME_TOP, zIndex: 7, background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 12px' }}>
           <button aria-label="Back" onClick={() => history.back()} style={{ width: 32, height: 32, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid color-mix(in srgb, var(--foreground) 12%, transparent)', background: 'color-mix(in srgb, var(--foreground) 6%, transparent)', borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer' }}>
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>

@@ -9,7 +9,7 @@
 
 import { useState } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
-import { ModePill } from '@/components/civ-breadcrumb'
+import { ThreadBar } from '@/components/thread-bar'
 import { SORTED_CIVS, CHAINS_BY_REGION, CIV_CHAIN_MAP, formatYear, formatYearRange } from '@/lib/chronology-data'
 import { NAVIGATOR_TLS, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
 import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
@@ -286,10 +286,10 @@ export function CivHome() {
       <div style={{ width: '100%', maxWidth: 440, minHeight: '100dvh', background: 'var(--background)', borderLeft: `1px solid ${BORDER}`, borderRight: `1px solid ${BORDER}`, display: 'flex', flexDirection: 'column', boxShadow: '0 0 40px rgba(0,0,0,0.04)' }}>
         {/* single sticky header: [ Civ ▾ | Timeline | Chains | Globe ] + filter */}
         <div style={{ position: 'sticky', top: 0, zIndex: 8, background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: `1px solid ${BORDER}` }}>
-          {/* mode pill + view pills — War-style breadcrumb bar (separate pills) */}
+          {/* tier 1: the persistent thread switcher */}
+          <ThreadBar />
+          {/* tier 2: view pills within the Civ thread (Timeline / Chains / Globe) */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '7px 10px 9px 12px' }}>
-            <ModePill accent={STONE} />
-            <span aria-hidden style={{ color: FAINT, fontFamily: SANS, fontSize: 11, padding: '0 1px' }}>›</span>
             {(['timeline', 'chains'] as View[]).map(v => {
               const active = v === view
               return <button key={v} onClick={() => setView(v)} style={viewPill(active)}>{v[0].toUpperCase() + v.slice(1)}</button>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import { NarrativeReader } from '@/components/narrative-reader'
 import { CivBreadcrumb } from '@/components/civ-breadcrumb'
+import { ThreadBar } from '@/components/thread-bar'
 import { MinCivHeader } from '@/components/min-civ-header'
 import { getChainsForTimeline, getChainPosition } from '../../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
@@ -44,6 +45,7 @@ export default async function CivilizationPage({ params }: PageProps) {
   return (
     <div className="max-w-prose mx-auto px-5">
       <div data-top-nav className="sticky top-0 z-20 -mx-5">
+        <ThreadBar />
         <CivBreadcrumb
           civId={civilizationId}
           civLabel={narrative.label}
