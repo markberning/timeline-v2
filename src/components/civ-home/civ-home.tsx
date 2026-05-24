@@ -300,9 +300,9 @@ export function CivHome() {
 
           {/* one line: eyebrow · filter · count */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
-            <span style={{ flexShrink: 0, maxWidth: 94, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, lineHeight: 1.25, textTransform: 'uppercase', color: FAINT }}>
+            <span style={{ flexShrink: 0, maxWidth: 132, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, lineHeight: 1.25, textTransform: 'uppercase', color: FAINT }}>
               {view === 'timeline'
-                ? <><s style={{ textDecorationThickness: '1.5px' }}>All</s> Most of human history</>
+                ? <><s style={{ textDecorationThickness: '1.5px' }}>Complete</s> Partial History of People Living Together</>
                 : intro.eyebrow}
             </span>
             <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
