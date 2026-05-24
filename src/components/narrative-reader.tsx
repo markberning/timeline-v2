@@ -361,7 +361,7 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
       if (openSummaries.size > 0) {
         setOpenSummaries(new Set())
       } else {
-        router.push('/')
+        router.push('/civ')
       }
     }
   }

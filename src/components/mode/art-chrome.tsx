@@ -34,10 +34,10 @@ export { ART_ACCENT, artAlpha }
 // Breadcrumb trail builders (Crumb[] for WarBreadcrumb)
 // ─────────────────────────────────────────────────────────────
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: '/art', music: undefined }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: undefined }
 
 function modeCrumb(): Crumb {
-  const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
   return { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art' }
 }
 

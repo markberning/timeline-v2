@@ -905,7 +905,7 @@ export default function Globe2() {
           Historica
         </div>
         <nav className={`${styles.viewToggle} font-[family-name:var(--font-lora)]`}>
-          <a href="/" className={styles.viewBtn}>List View</a>
+          <a href="/civ" className={styles.viewBtn}>List View</a>
           <span className={styles.viewBtnActive}>Globe View</span>
         </nav>
       </div>

@@ -1,7 +1,8 @@
-// Civ home — the redesigned timeline/chains experience. The previous home
-// (swim-lane ribbon + civ list, via ModeShell) is kept in reserve at /classic.
-import { CivHome } from '@/components/civ-home/civ-home'
+// App root — the home for the whole app: brand + the four threads
+// (Civilizations / Wars / Art / Music) + an "On This Day" feed. The Civ home
+// (timeline/chains) now lives at /civ; the legacy ModeShell home is at /classic.
+import { AppHome } from '@/components/app-home/app-home'
 
 export default function Home() {
-  return <CivHome />
+  return <AppHome />
 }

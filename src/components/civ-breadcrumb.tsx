@@ -37,7 +37,7 @@ const OPEN_BG = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
 const MENU_BORDER = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
 
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: '/art', music: '/music' }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: '/music' }
 
 function alpha(hex: string, a: number): string {
   const h = hex.replace('#', '')
@@ -144,7 +144,7 @@ export function ModePill({ accent }: { accent: string }) {
         display: 'inline-flex', alignItems: 'stretch', borderRadius: 999, overflow: 'hidden',
         border: `1px solid ${PILL_BORDER}`, background: mode.open ? OPEN_BG : CHIP,
       }}>
-        <a href="/" aria-label="Civ home" style={{
+        <a href="/civ" aria-label="Civ home" style={{
           display: 'inline-flex', alignItems: 'center', padding: '3px 7px 3px 10px',
           fontFamily: SANS, fontSize: 11, fontWeight: 600, color: MUTED, textDecoration: 'none', cursor: 'pointer',
         }}>Civ</a>
@@ -157,6 +157,11 @@ export function ModePill({ accent }: { accent: string }) {
         </button>
       </span>
       <MenuPanel m={mode}>
+        {/* back to the app root (the four-thread launcher) */}
+        <a href="/" onClick={() => mode.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>
+          <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={ell}>Stuff Happened</span></span>
+        </a>
+        <div aria-hidden style={{ height: 1, background: DIVIDER, margin: '4px 6px' }} />
         {TL_KIND_ORDER.map(k => {
           const href = MODE_HREF[k]
           const current = k === 'civ'

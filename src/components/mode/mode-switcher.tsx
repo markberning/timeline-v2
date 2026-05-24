@@ -9,7 +9,7 @@ interface ModeSwitcherProps {
 
 // Verticals with a real front-door URL navigate there (so the address bar
 // always matches the mode); the rest (coming-soon doors) swap in place.
-const MODE_ROUTE: Partial<Record<TlKind, string>> = { civ: '/', war: '/war', art: '/art' }
+const MODE_ROUTE: Partial<Record<TlKind, string>> = { civ: '/civ', war: '/war', art: '/art' }
 
 /**
  * Phase-2 product-level navigation: the four content verticals.

@@ -70,7 +70,7 @@ const THEATRE_TRAIL_SHORT: Record<string, string> = {
 const MODE_SHORT: Record<TlKind, string> = { civ: 'Civ', war: 'War', art: 'Art', music: 'Music' }
 // Each mode crumb points at its vertical's FRONT DOOR — civ = the home spine,
 // war = the all-wars list (NOT the ACW home; that's the next crumb).
-const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', art: '/art', music: undefined }
+const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/civ', war: '/war', art: '/art', music: undefined }
 const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b => [b.id, b.color]))
 
 // The unified ACW breadcrumb: War › ACW › Theatre › Battle/Event, on EVERY ACW
@@ -82,7 +82,7 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 // the war home (Theatre / Battle/Event become generic pickers and the WAR crumb
 // lights up). The current page's leaf crumb gets accent emphasis.
 export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield'; battleId?: string } = {}): Crumb[] {
-  const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
 
   const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
@@ -124,7 +124,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
 // ladder — the vertical (War) and the war picker (current, "All Wars"). The
 // Theatre / Battle rungs only appear once you've drilled into a specific war.
 export function warHomeCrumbs(): Crumb[] {
-  const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
+  const modeOptions: CrumbOption[] = [{ label: 'Stuff Happened', href: '/' }, ...TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))]
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
   return [
     { label: 'War', href: '/war', options: modeOptions, currentLabel: 'War' },
