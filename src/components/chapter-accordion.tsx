@@ -1,14 +1,13 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import type { NarrativeChapter, TlEvent } from '@/lib/types'
+import type { NarrativeChapter } from '@/lib/types'
 import { Lightbox } from './lightbox'
 import { ChapterIntroCard } from './chapter-intro-card'
 
 interface ChapterAccordionProps {
   chapter: NarrativeChapter
   civilizationId: string
-  chapterEvents: TlEvent[]
   open: boolean
   hidden: boolean
   nextChapterNumber: number | null
@@ -21,7 +20,7 @@ interface ChapterAccordionProps {
   suppressScrollOnOpen?: boolean
 }
 
-export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext, summaryOpen, onToggleSummary, suppressScrollOnOpen }: ChapterAccordionProps) {
+export function ChapterAccordion({ chapter, civilizationId, open, hidden, nextChapterNumber, nextChapterTitle, onExpand, onCollapse, onReadNext, summaryOpen, onToggleSummary, suppressScrollOnOpen }: ChapterAccordionProps) {
   const [showMapLightbox, setShowMapLightbox] = useState(false)
   const [mapExists, setMapExists] = useState<boolean | null>(null)
   const [justCollapsed, setJustCollapsed] = useState(false)
@@ -68,20 +67,39 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     })
   }
 
+  // Collapsing returns to the chapter list. Scroll the section (it carries
+  // scrollMarginTop for the sticky nav) so the chapter's row lands just below
+  // the top bar, and briefly tint it so the eye finds where it left off.
   function collapse() {
     onCollapse()
     setJustCollapsed(true)
-    // Scroll the section (which has scrollMarginTop: --reader-nav-h) so the
-    // chapter header lands just below the sticky top nav rather than
-    // flush to y=0 behind it.
     requestAnimationFrame(() => {
       sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
     setTimeout(() => setJustCollapsed(false), 1500)
   }
 
-  function expand() {
-    onExpand()
+  const pointerStart = useRef<{ x: number; y: number } | null>(null)
+
+  // Tapping a chapter row in the list opens the full chapter; tapping an open
+  // chapter's header (or swiping it right) collapses back to the list.
+  function onHeaderPointerDown(e: React.PointerEvent) {
+    pointerStart.current = { x: e.clientX, y: e.clientY }
+  }
+  function onHeaderPointerUp(e: React.PointerEvent) {
+    const t = e.target as HTMLElement
+    if (t.closest('.event-link') || t.closest('.glossary-link') || t.closest('.cross-link')) return
+    const start = pointerStart.current
+    pointerStart.current = null
+    const dx = start ? e.clientX - start.x : 0
+    const dy = start ? e.clientY - start.y : 0
+    const moved = Math.abs(dx) > 10 || Math.abs(dy) > 10
+    if (!moved) {
+      if (open) collapse()
+      else onExpand()
+      return
+    }
+    if (open && dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) collapse()
   }
 
   function estimateReadingTime(html: string): number {
@@ -107,45 +125,6 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
     const t1 = setTimeout(scrollToTop, 300)
     return () => clearTimeout(t1)
   }, [open, suppressScrollOnOpen])
-
-  const pointerStart = useRef<{ x: number; y: number } | null>(null)
-
-  function onHeaderPointerDown(e: React.PointerEvent) {
-    pointerStart.current = { x: e.clientX, y: e.clientY }
-  }
-
-  function onHeaderPointerUp(e: React.PointerEvent) {
-    // If the tap landed on an inline link inside a summary bullet, let
-    // the click delegation in narrative-reader handle it — don't toggle
-    // the chapter. Covers event, glossary, and cross-cultural links.
-    const t = e.target as HTMLElement
-    if (t.closest('.event-link') || t.closest('.glossary-link') || t.closest('.cross-link')) return
-    const start = pointerStart.current
-    pointerStart.current = null
-    const dx = start ? e.clientX - start.x : 0
-    const dy = start ? e.clientY - start.y : 0
-    const moved = Math.abs(dx) > 10 || Math.abs(dy) > 10
-    if (!moved) {
-      if (open) collapse()
-      else onToggleSummary()
-      return
-    }
-    if (!open) return
-    const swipeRight = dx > 60 && Math.abs(dx) > Math.abs(dy) * 1.5
-    if (swipeRight) collapse()
-  }
-
-  function formatYearRange(): string {
-    if (chapterEvents.length === 0) return ''
-    const years = chapterEvents.map(e => e.year)
-    const startYear = Math.min(...years)
-    const endYear = Math.max(...years)
-    const fmt = (y: number) => {
-      const abs = Math.abs(y).toLocaleString()
-      return y <= 0 ? `${abs} BCE` : `${abs} CE`
-    }
-    return `${fmt(startYear)} – ${fmt(endYear)}`
-  }
 
   function onBodyTouchStart(e: React.TouchEvent) {
     if (e.touches.length !== 1) { touchStart.current = null; return }
@@ -208,12 +187,12 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
                     <span className="whitespace-nowrap">
                       {last}
                       <span
-                        className={`inline-flex items-center justify-center align-middle ml-2 transition-all duration-200 ${summaryOpen ? 'rotate-90 text-white shadow-sm' : 'text-foreground/50'}`}
+                        className={`inline-flex items-center justify-center align-middle ml-2 transition-all duration-200 ${open ? 'rotate-90 text-white shadow-sm' : 'text-foreground/40'}`}
                         style={{
                           width: 'calc(var(--ch-title) * 1.4)',
                           height: 'calc(var(--ch-title) * 1.4)',
                           borderRadius: '9999px',
-                          backgroundColor: summaryOpen ? 'var(--accent)' : 'transparent',
+                          backgroundColor: open ? 'var(--accent)' : 'transparent',
                         }}
                       >
                         <svg
@@ -243,60 +222,47 @@ export function ChapterAccordion({ chapter, civilizationId, chapterEvents, open,
           </div>
         </div>
 
-        {/* Summary expanded state */}
-        {!open && summaryOpen && chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
-          <div className="pb-5 pl-10">
-            <button
-              onClick={expand}
-              className="mt-3 w-full py-4 px-5 text-left rounded-lg transition-colors hover:opacity-90 flex items-center gap-3 font-bold"
-              style={{ backgroundColor: 'var(--accent)', color: 'white' }}
-            >
-              <div className="flex-1 min-w-0">
-                <div className="tracking-wide uppercase flex items-center gap-1.5" style={{ fontSize: 'var(--ch-meta)' }}>
-                  <span className="inline-block w-3.5 h-3.5 rounded-[3px] bg-white/30" />
-                  Read the Full Chapter
-                </div>
-                <div className="mt-1 font-[family-name:var(--font-lora)]" style={{ fontSize: 'var(--ch-title)' }}>
-                  <span className="opacity-70 mr-1">{chapter.number}.</span>{chapter.title}
-                </div>
-                {formatYearRange() && (
-                  <div className="opacity-70 mt-0.5" style={{ fontSize: 'var(--ch-meta)' }}>
-                    {formatYearRange()}
-                  </div>
-                )}
-              </div>
-              <div className="shrink-0 w-9 h-9 rounded-full border-2 border-white/40 flex items-center justify-center">
-                <span className="text-lg leading-none">›</span>
-              </div>
-            </button>
-
-            {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
-              <div className="mt-4">
-                <div className="font-semibold tracking-[0.15em] text-foreground/40 uppercase" style={{ fontSize: 'calc(var(--ch-meta) * 0.85)' }}>
-                  Summary · for review
-                </div>
-                <div className="mt-2 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
-                  <ul className="space-y-2 list-disc list-outside pl-5" style={{ fontSize: 'var(--ch-subtitle)' }}>
-                    {chapter.summaryBullets.map((html, i) => (
-                      <li
-                        key={i}
-                        className="leading-snug text-foreground"
-                        dangerouslySetInnerHTML={{ __html: html }}
-                      />
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Collapsed — just the header row, no extra content */}
-        {!open && !summaryOpen && <div className="pb-2" />}
+        {/* Collapsed list row — just the header; tapping it opens the chapter. */}
+        {!open && <div className="pb-2" />}
       </div>
 
       {open && (
         <div className="pb-8" onTouchStart={onBodyTouchStart} onTouchEnd={onBodyTouchEnd}>
+          {/* Chapter summary — a collapsible recap pinned at the top of the
+              chapter, open it to review the beats before (or after) reading. */}
+          {chapter.summaryBullets && chapter.summaryBullets.length > 0 && (
+            <div className="mb-6">
+              <button
+                onClick={onToggleSummary}
+                aria-expanded={summaryOpen}
+                className="w-full flex items-center gap-2.5 py-3 px-4 rounded-lg border transition-colors hover:opacity-90"
+                style={{ borderColor: 'color-mix(in srgb, var(--accent) 35%, transparent)' }}
+              >
+                <span className="inline-block w-3.5 h-3.5 rounded-[3px]" style={{ backgroundColor: 'var(--accent)', opacity: 0.35 }} />
+                <span className="flex-1 text-left font-semibold tracking-[0.15em] uppercase" style={{ fontSize: 'var(--ch-meta)', color: 'var(--accent)' }}>
+                  Chapter Summary
+                </span>
+                <svg
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"
+                  strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"
+                  className={`transition-transform duration-200 ${summaryOpen ? 'rotate-90' : ''}`}
+                  style={{ width: 16, height: 16, color: 'var(--accent)' }}
+                >
+                  <polyline points="9 6 15 12 9 18" />
+                </svg>
+              </button>
+              {summaryOpen && (
+                <div className="mt-3 border-l-[2.5px] pl-4" style={{ borderColor: 'var(--accent)' }}>
+                  <ul className="space-y-2 list-disc list-outside pl-5" style={{ fontSize: 'var(--ch-subtitle)' }}>
+                    {chapter.summaryBullets.map((html, i) => (
+                      <li key={i} className="leading-snug text-foreground" dangerouslySetInnerHTML={{ __html: html }} />
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Chapter map — only mount when the probe in useEffect confirmed
               the file exists, so civs without maps don't reserve layout space. */}
           {mapExists === true && (

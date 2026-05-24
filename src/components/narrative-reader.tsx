@@ -69,10 +69,11 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
     localStorage.setItem('last-viewed-civ', civilizationId)
   }, [civilizationId])
 
-  // Opening a full chapter supersedes the summary view — drop any twirled
-  // summaries so swipe-back can't get out of sync.
+  // Each chapter's in-chapter summary bar starts collapsed: reset whenever the
+  // open chapter changes (including back to the list, so the list's swipe-home
+  // gesture isn't swallowed by a stale summary-open flag).
   useEffect(() => {
-    if (openChapter !== null) setOpenSummaries(s => (s.size ? new Set() : s))
+    setOpenSummaries(s => (s.size ? new Set() : s))
   }, [openChapter])
 
   // Chapter-jump from the top breadcrumb (CivBreadcrumb). The bar lives outside
@@ -407,7 +408,6 @@ export function NarrativeReader({ civilizationId, chapters, events, glossary, cr
               key={ch.slug}
               chapter={ch}
               civilizationId={civilizationId}
-              chapterEvents={ch.eventIds.map(id => eventMap.get(id)).filter((e): e is TlEvent => !!e)}
               open={openChapter === ch.number}
               hidden={openChapter !== null && openChapter !== ch.number}
               nextChapterNumber={next ? next.number : null}
