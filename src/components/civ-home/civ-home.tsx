@@ -300,7 +300,7 @@ export function CivHome() {
 
           {/* one line: eyebrow · filter · count */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, whiteSpace: 'nowrap' }}>
+            <span style={{ flexShrink: 0, maxWidth: 94, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, lineHeight: 1.25, textTransform: 'uppercase', color: FAINT }}>
               {view === 'timeline'
                 ? <><s style={{ opacity: 0.55, textDecorationThickness: '1.5px' }}>All</s> Most of human history</>
                 : intro.eyebrow}
