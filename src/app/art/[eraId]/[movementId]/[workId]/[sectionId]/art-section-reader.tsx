@@ -58,40 +58,6 @@ function ChapterHeader({ accent, eyebrow, title, progress }: { accent: string; e
 }
 
 // ─────────────────────────────────────────────────────────────
-// Lineage strip — ↑From / ↓To pill chips (cross-modal aware)
-// ─────────────────────────────────────────────────────────────
-type Chip = { label: string; mode?: 'art' | 'civ' | 'war' }
-
-function LineageStrip({ accent, parents, descendants }: { accent: string; parents: Chip[]; descendants: Chip[] }) {
-  const row = (label: string, items: Chip[]) => (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', margin: '5px 0' }}>
-      <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1, fontWeight: 700, color: accent, textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: 4 }}>{label}</span>
-      {items.map(c => {
-        const isCiv = c.mode === 'civ' || c.mode === 'war'
-        return (
-          <span
-            key={c.label}
-            style={{
-              fontFamily: SANS, fontSize: 12.5, fontWeight: 500, color: INK,
-              border: `1px solid ${isCiv ? artAlpha(accent, 0.45) : BORDER}`,
-              background: isCiv ? artAlpha(accent, 0.1) : CARD_BG,
-              padding: '7px 12px', borderRadius: 999, whiteSpace: 'nowrap',
-              borderStyle: isCiv ? 'dashed' : 'solid',
-            }}
-          >{c.label}</span>
-        )
-      })}
-    </div>
-  )
-  return (
-    <div style={{ padding: '14px 18px 16px', borderBottom: `1px solid ${BORDER}` }}>
-      {row('↑ From', parents)}
-      {row('↓ To', descendants)}
-    </div>
-  )
-}
-
-// ─────────────────────────────────────────────────────────────
 // Inline figure — full treatment (pre-1931 / PD-US) with a Rights line, plus a
 // tap-to-zoom lightbox.
 // ─────────────────────────────────────────────────────────────
@@ -180,10 +146,6 @@ const BLUE = '#1d4ed8'
 function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
   return (
     <>
-      <LineageStrip accent={accent}
-        parents={[{ label: 'Post-Impressionism' }, { label: 'Cézanne' }, { label: 'Iberian sculpture' }, { label: 'African masks' }]}
-        descendants={[{ label: 'Painting it' }, { label: 'The reception' }, { label: 'What came next' }]}
-      />
       <article style={{ padding: '18px 18px 40px' }}>
         <SectionHeader accent={accent} label="Setting" title="Winter 1906" first />
 
@@ -288,10 +250,6 @@ function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: st
 function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
   return (
     <>
-      <LineageStrip accent={accent}
-        parents={[{ label: 'Lay of the land' }, { label: 'Cézanne' }, { label: 'African masks' }]}
-        descendants={[{ label: 'The reception' }, { label: 'Cubism' }]}
-      />
       <article style={{ padding: '18px 18px 40px' }}>
         <SectionHeader accent={accent} label="Hundreds of sketches" title="Before any paint" first />
 
@@ -370,10 +328,6 @@ function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
 function ReceptionNarrative({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
   return (
     <>
-      <LineageStrip accent={accent}
-        parents={[{ label: 'Painting it' }, { label: 'Cézanne' }]}
-        descendants={[{ label: 'Hidden for nine years' }, { label: 'Braque' }, { label: 'Cubism' }]}
-      />
       <article style={{ padding: '18px 18px 40px' }}>
         <SectionHeader accent={accent} label="Late July 1907" title="The first viewers" first />
 
@@ -452,10 +406,6 @@ function ReceptionNarrative({ accent, onZoom }: { accent: string; onZoom: (src: 
 function HiddenNarrative({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
   return (
     <>
-      <LineageStrip accent={accent}
-        parents={[{ label: 'The reception' }]}
-        descendants={[{ label: 'Cubism' }, { label: 'What happened next' }]}
-      />
       <article style={{ padding: '18px 18px 40px' }}>
         <SectionHeader accent={accent} label="1907–1916" title="The painting in the corner" first />
 
@@ -524,10 +474,6 @@ function HiddenNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
 function LegacyNarrative({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
   return (
     <>
-      <LineageStrip accent={accent}
-        parents={[{ label: 'Hidden for nine years' }, { label: 'Cubism' }]}
-        descendants={[{ label: 'Abstract art' }, { label: 'MoMA' }, { label: 'Modern art canon' }]}
-      />
       <article style={{ padding: '18px 18px 40px' }}>
         <SectionHeader accent={accent} label="1924" title="Doucet's staircase" first />
 

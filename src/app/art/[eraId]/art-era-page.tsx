@@ -78,6 +78,16 @@ interface ArtCardData {
   imageUrl?: string
   focus?: string // object-position for the cover crop (frame a deliberate detail)
   imageAspect?: string // w/h of the work, for the xl panel to fill edge-to-edge w/o crop
+  credit?: string // art credit (artist · current location) shown bold at the end of the card
+}
+
+// Art credit shown bold at the end of a cord card whose image is a real artwork
+// (every image gets attributed with its current location — pipeline rule).
+function CardCredit({ credit }: { credit?: string }) {
+  if (!credit) return null
+  return (
+    <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, lineHeight: 1.35, letterSpacing: 0.2, color: MUTED }}>{credit}</div>
+  )
 }
 
 function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
@@ -101,6 +111,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
           <div style={{ fontFamily: SERIF, fontSize: 22, lineHeight: 1.08, letterSpacing: -0.3, color: INK }}>{b.name}</div>
           <div style={{ fontFamily: SANS, fontSize: 10.5, color: MUTED, marginTop: 4, letterSpacing: 0.1 }}>{b.place}</div>
           <div style={{ marginTop: 9, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.45, color: INK, overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' }}>{b.blurb}</div>
+          <CardCredit credit={b.credit} />
         </div>
       </div>
     )
@@ -115,7 +126,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
       overflow: 'hidden',
       display: 'flex',
       flexDirection: isXL ? 'column' : 'row',
-      height: sz.content,
+      minHeight: sz.content,
     }}>
       <div style={{
         width: isXL ? '100%' : sz.imgW,
@@ -153,6 +164,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
           WebkitLineClamp: isXL ? 3 : (isLG ? 3 : 2),
           WebkitBoxOrient: 'vertical',
         }}>{b.blurb}</div>
+        <CardCredit credit={b.credit} />
       </div>
     </div>
   )
@@ -223,6 +235,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
                 imageUrl: m.imageUrl,
                 focus: m.focus,
                 imageAspect: m.imageAspect,
+                credit: m.credit,
                 imgLabel: m.name,
               }}
             />

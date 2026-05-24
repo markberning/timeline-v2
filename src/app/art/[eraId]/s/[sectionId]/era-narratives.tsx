@@ -13,7 +13,7 @@
 // degraded RestrictedFigure — which is itself part of the story this era tells.
 
 import {
-  DropCap, SectionHeader, LineageStrip, PaintingFigure, RestrictedFigure, MeanwhileSheet,
+  DropCap, SectionHeader, PaintingFigure, RestrictedFigure, MeanwhileSheet,
   proseStyle, proseMutedStyle, PD_RIGHTS, AMBER, BLUE,
   type Narrative,
 } from '@/components/mode/art-reader'
@@ -30,10 +30,6 @@ const STEEL = ['#1c1c1c', '#a0a0a0', '#d6cf3f'] as [string, string, string]
 // ── 1. The Salon and its enemies ────────────────────────────
 const SalonNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Neoclassicism & Romanticism' }, { label: 'Photography', mode: 'civ' }]}
-      descendants={[{ label: 'Impressionism' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="Paris · 1850s" title="The one room that mattered" first />
       <p style={proseStyle}>
@@ -117,10 +113,6 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 2. Painting the light ───────────────────────────────────
 const LightNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'The Salon and its enemies' }, { label: 'Manet' }]}
-      descendants={[{ label: 'Post-Impressionism' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1874" title="The exhibition that named itself by accident" first />
       <p style={proseStyle}>
@@ -180,10 +172,6 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 3. Putting the structure back ───────────────────────────
 const StructureNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Impressionism' }]}
-      descendants={[{ label: 'Fauvism' }, { label: 'Cubism' }, { label: 'Abstraction' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1886–1905" title="Four ways out of the haze" first />
       <p style={proseStyle}>
@@ -241,10 +229,6 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 4. Breaking the picture ─────────────────────────────────
 const BreakNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Post-Impressionism' }, { label: 'Cézanne' }]}
-      descendants={[{ label: 'Abstraction' }, { label: 'Dada' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1905" title="Colour off the leash" first />
       <p style={proseStyle}>
@@ -295,10 +279,6 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 5. Manifestos and machines ──────────────────────────────
 const ManifestoNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Cubism' }, { label: 'The First World War', mode: 'war' }]}
-      descendants={[{ label: 'Surrealism' }, { label: 'Conceptual art' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1909–1914" title="Art in love with the motorcar" first />
       <p style={proseStyle}>
@@ -361,10 +341,6 @@ const ManifestoNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 6. The unconscious gets a paintbrush ────────────────────
 const UnconsciousNarrative: Narrative = ({ accent }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Dada' }, { label: 'Freud', mode: 'civ' }]}
-      descendants={[{ label: 'Abstract Expressionism' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="Paris · 1924" title="A manifesto for the dream" first />
       <p style={proseStyle}>
@@ -406,10 +382,6 @@ const UnconsciousNarrative: Narrative = ({ accent }) => (
 // ── 7. The center moves to New York ─────────────────────────
 const NewYorkNarrative: Narrative = ({ accent }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Surrealism' }, { label: 'The Second World War', mode: 'war' }]}
-      descendants={[{ label: 'Contemporary art' }, { label: 'Postmodernism' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1940–1950" title="The wire reverses" first />
       <p style={proseStyle}>

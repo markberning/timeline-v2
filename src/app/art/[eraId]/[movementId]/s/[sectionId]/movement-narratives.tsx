@@ -10,7 +10,7 @@
 // generateStaticParams only emits section routes for registered movements.
 
 import {
-  DropCap, SectionHeader, LineageStrip, PaintingFigure, MeanwhileSheet,
+  DropCap, SectionHeader, PaintingFigure, MeanwhileSheet,
   proseStyle, proseMutedStyle, italicStyle, PD_RIGHTS, AMBER, BLUE,
   type Narrative,
 } from '@/components/mode/art-reader'
@@ -24,10 +24,6 @@ const STONE = ['#5a4a3a', '#2a221c', '#0a0606'] as [string, string, string]
 // ── 1. Before the cube ──────────────────────────────────────
 const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Post-Impressionism' }, { label: 'Cézanne' }, { label: 'African & Iberian art' }]}
-      descendants={[{ label: 'Analytic Cubism' }, { label: 'The whole century' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="Paris · 1906" title="One painter, three obsessions" first />
       <p style={proseStyle}>
@@ -118,10 +114,6 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 2. Two men, one rope ────────────────────────────────────
 const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Before the cube' }, { label: 'Cézanne' }]}
-      descendants={[{ label: 'The world in shards' }, { label: 'Collage' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="Paris · 1909–1911" title="Roped together" first />
       <p style={proseStyle}>
@@ -199,10 +191,6 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 3. The world in shards ──────────────────────────────────
 const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Analytic Cubism' }]}
-      descendants={[{ label: 'Pasted paper' }, { label: 'Salon Cubism' }, { label: 'Abstraction' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1911–1912" title="The edge of legibility" first />
       <p style={proseStyle}>
@@ -262,10 +250,6 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 4. Pasted paper ─────────────────────────────────────────
 const PaperNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'The world in shards' }]}
-      descendants={[{ label: 'Collage' }, { label: 'Dada' }, { label: 'Pop art' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="1912" title="A scrap of oilcloth" first />
       <p style={proseStyle}>
@@ -313,10 +297,6 @@ const PaperNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 5. Cubism goes public ───────────────────────────────────
 const PublicNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Salle 41' }, { label: 'Analytic Cubism' }]}
-      descendants={[{ label: 'Armory Show' }, { label: 'American modernism' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="The Salon Cubists" title="The wave that explained itself" first />
       <p style={proseStyle}>
@@ -366,10 +346,6 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
 // ── 6. Mobilisation ─────────────────────────────────────────
 const AfterNarrative: Narrative = ({ accent, onZoom }) => (
   <>
-    <LineageStrip accent={accent}
-      parents={[{ label: 'Cubism goes public' }, { label: 'The First World War' }]}
-      descendants={[{ label: 'Abstract art' }, { label: 'The modern canon' }]}
-    />
     <article style={{ padding: '18px 18px 40px' }}>
       <SectionHeader accent={accent} label="August 1914" title="The rope is cut" first />
       <p style={proseStyle}>

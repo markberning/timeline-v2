@@ -151,23 +151,20 @@ export function RestrictedFigure({ imageUrl, title, year, note, linkLabel, href 
 }
 
 // ─────────────────────────────────────────────────────────────
-// "Meanwhile in…" sheet — accent top border cross-link into the corpus
+// "Meanwhile in…" sheet — styled to MATCH the War reader's Meanwhile card
+// (battle-reader.tsx): a plain bordered card, gray eyebrow, italic serif title,
+// serif body. No accent top-border, thumbnail, date pill, or CTA button. The
+// extra props (accent/when/palette/ctaLabel) are still accepted so call sites
+// don't change, but intentionally not rendered — same as War.
 // ─────────────────────────────────────────────────────────────
-export function MeanwhileSheet({ accent, region, when, title, body, palette, ctaLabel }: { accent: string; region: string; when: string; title: string; body: string; palette: [string, string, string]; ctaLabel: string }) {
+export function MeanwhileSheet({ region, title, body }: { accent?: string; region: string; when?: string; title: string; body: string; palette?: [string, string, string]; ctaLabel?: string }) {
+  const wEyebrow = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
+  const wBody = 'color-mix(in srgb, var(--foreground) 75%, transparent)'
   return (
-    <div style={{ margin: '20px 14px 0', border: `1px solid ${BORDER}`, borderTopWidth: 3, borderTopColor: accent, borderRadius: '16px 16px 0 0', background: CARD_BG, padding: '15px 16px 18px' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-        <span style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1, fontWeight: 700, color: accent, textTransform: 'uppercase' }}>Meanwhile in… {region}</span>
-        <span style={{ fontFamily: SANS, fontSize: 11, color: FAINT }}>{when}</span>
-      </div>
-      <div style={{ display: 'flex', gap: 12, marginTop: 11 }}>
-        <div style={{ flexShrink: 0, width: 62, height: 62, borderRadius: 9, background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }} />
-        <div>
-          <h4 style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 600, lineHeight: 1.3, color: INK }}>{title}</h4>
-          <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, marginTop: 3 }}>{body}</p>
-        </div>
-      </div>
-      <button style={{ marginTop: 13, fontFamily: SANS, fontSize: 13, fontWeight: 600, color: accent, border: `1px solid ${BORDER}`, background: 'transparent', borderRadius: 20, padding: '9px 15px', cursor: 'pointer' }}>{ctaLabel} →</button>
+    <div style={{ margin: '28px 18px 0', border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)' }}>
+      <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: wEyebrow }}>Meanwhile in {region}</div>
+      <div style={{ fontFamily: SERIF, fontSize: 16, fontStyle: 'italic', marginTop: 3, color: INK }}>{title}</div>
+      <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: wBody, marginTop: 3 }}>{body}</div>
     </div>
   )
 }
