@@ -76,7 +76,7 @@ export function ThreadBar() {
         {slots.map(s => (
           <a key={s.key} href={s.href} aria-current={s.active ? 'page' : undefined} style={{
             flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 5,
-            padding: '7px 4px 7px 6px', borderLeft: `3px solid ${s.color}`,
+            padding: '7px 6px',
             background: s.active ? alpha(s.color, 0.14) : 'transparent',
             textDecoration: 'none', color: 'inherit',
           }}>
