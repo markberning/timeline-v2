@@ -52,7 +52,10 @@ function Card({ e }: { e: FeedItem }) {
     <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
       <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
         <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <ThreadEmblem kind={e.kind} size={44} />
+          {e.icon
+            // eslint-disable-next-line @next/next/no-img-element
+            ? <img src={e.icon} alt="" loading="lazy" style={{ width: 52, height: 52, objectFit: 'contain' }} className="dark:brightness-150" />
+            : <ThreadEmblem kind={e.kind} size={44} />}
         </div>
         <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>

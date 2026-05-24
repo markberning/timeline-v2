@@ -7,6 +7,7 @@
 // within it alongside the other (static-data) threads.
 import { AppHome } from '@/components/app-home/app-home'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
+import { getCivEmblemPath } from '@/lib/civ-icons'
 import type { FeedItem } from '@/lib/app-feed'
 
 // Summary bullets carry inline link HTML and run long; strip tags + entities to
@@ -34,7 +35,7 @@ function chapterSeeds(): FeedItem[] {
     for (const c of n.chapters) {
       const blurb = clean(c.intro?.takeaway ?? c.subtitle ?? c.summaryBullets?.[0] ?? '')
       if (!blurb) continue
-      out.push({ kind: 'civ', type: `${n.label} · Ch ${c.number}`, title: c.title, blurb, href: `/${id}?chapter=${c.number}` })
+      out.push({ kind: 'civ', type: `${n.label} · Ch ${c.number}`, title: c.title, blurb, href: `/${id}?chapter=${c.number}`, icon: getCivEmblemPath(id) ?? undefined })
     }
   }
   // Embed a build-time random subset to keep the payload small; the client still

@@ -8,6 +8,7 @@
 import { SORTED_CIVS } from '@/lib/chronology-data'
 import { REGION_LABELS, type TlKind } from '@/lib/navigator-tls'
 import { CIV_BLURBS } from '@/lib/civ-blurbs'
+import { getCivEmblemPath } from '@/lib/civ-icons'
 import { WAR_EVENTS } from '@/components/mode/war-front-door'
 import { MAJORS, THEMES, THEATRE_NAV } from '@/lib/civil-war-roster'
 import { ART_ERAS } from '@/lib/art-data'
@@ -20,6 +21,7 @@ export interface FeedItem {
   blurb: string
   href: string
   soon?: boolean // a teaser for content not built yet (badged, lands on the door)
+  icon?: string  // a specific emblem (per-civ); falls back to the thread emblem
 }
 
 // TEMP teasers for the not-yet-built threads. Clearly badged "Soon" and they
@@ -54,7 +56,7 @@ const THEATRE_LABEL: Record<string, string> = { east: 'Eastern', west: 'Western'
 function civPool(): FeedItem[] {
   return SORTED_CIVS
     .filter(c => c.hasContent)
-    .map(c => ({ kind: 'civ' as const, type: 'Civilization', title: c.label, blurb: CIV_BLURBS[c.id] ?? c.subtitle ?? '', href: `/${c.id}` }))
+    .map(c => ({ kind: 'civ' as const, type: 'Civilization', title: c.label, blurb: CIV_BLURBS[c.id] ?? c.subtitle ?? '', href: `/${c.id}`, icon: getCivEmblemPath(c.id) ?? undefined }))
     .filter(i => i.blurb)
 }
 
