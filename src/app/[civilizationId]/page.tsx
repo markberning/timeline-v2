@@ -6,7 +6,7 @@ import { MinCivHeader } from '@/components/min-civ-header'
 import { getChainsForTimeline, getChainPosition } from '../../../reference-data/tl-chains'
 import { NAVIGATOR_TLS } from '@/lib/navigator-tls'
 import { formatYearRange } from '@/lib/chronology-data'
-import { getCivIconPath } from '@/lib/civ-icons'
+import { getCivEmblemPath } from '@/lib/civ-icons'
 
 interface PageProps {
   params: Promise<{ civilizationId: string }>
@@ -39,7 +39,7 @@ export default async function CivilizationPage({ params }: PageProps) {
   const nextTl = nextId ? NAVIGATOR_TLS.find(t => t.id === nextId) : null
   const currentTl = NAVIGATOR_TLS.find(t => t.id === civilizationId)
   const dateRange = currentTl ? formatYearRange(currentTl.startYear, currentTl.endYear) : null
-  const iconPath = getCivIconPath(civilizationId)
+  const iconPath = getCivEmblemPath(civilizationId)
 
   return (
     <div className="max-w-prose mx-auto px-5">

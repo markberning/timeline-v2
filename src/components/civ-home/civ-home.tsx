@@ -13,7 +13,7 @@ import { ModePill } from '@/components/civ-breadcrumb'
 import { SORTED_CIVS, CHAINS_BY_REGION, CIV_CHAIN_MAP, formatYear, formatYearRange } from '@/lib/chronology-data'
 import { NAVIGATOR_TLS, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
 import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
-import { getCivIconPath } from '@/lib/civ-icons'
+import { getCivEmblemPath } from '@/lib/civ-icons'
 import { ICON_LABELS } from '@/lib/civ-icon-labels'
 import { CIV_BLURBS } from '@/lib/civ-blurbs'
 import { SearchOverlay } from '@/components/chronology/search-overlay'
@@ -37,8 +37,6 @@ function alpha(hex: string, a: number): string {
 // Neutral accent for the home bar's mode ✓ and the active view pill (the home
 // has no region colour to key off).
 const STONE = '#8a7a66'
-// Civs with a generated unique emblem in /public/icons-gen (full set).
-const GEN_ICONS = new Set(["al-andalus", "ancestral-puebloans", "ancient-china", "ancient-greece", "ancient-israel", "ancient-korea", "ancient-nubia", "ancient-rome", "andean-kingdoms", "anglo-saxon-england", "antebellum-america", "assyrian-empire", "asuka-nara-japan", "aztec-empire", "byzantine-empire", "carthage", "celtic-cultures", "chinese-revolution", "civil-rights-era", "dai-viet", "delhi-sultanate", "early-american-republic", "early-andean-civilizations", "early-dynastic-egypt", "early-medieval-europe", "edo-japan", "elamite-civilization", "enlightenment", "germanic-tribes", "gokturk-khaganate", "goryeo-korea", "gupta-empire", "han-dynasty", "heian-japan", "high-medieval-europe", "hittite-empire", "inca-empire", "indus-valley", "industrial-revolution", "islamic-golden-age", "japanese-economic-miracle", "joseon-korea", "khmer-empire", "kievan-rus", "kingdom-of-aksum", "kingdom-of-kush", "korean-modern", "late-egypt", "late-medieval-europe", "majapahit", "mali-empire", "maurya-empire", "maya-civilization", "medieval-india", "meiji-japan", "mesopotamia", "middle-horizon-empires", "migration-period", "ming-dynasty", "minoan-civilization", "mississippian-culture", "modern-india", "mongol-empire", "mughal-empire", "mycenaean-civilization", "new-kingdom-egypt", "old-kingdom-egypt", "olmec-civilization", "ottoman-empire", "persian-empire", "phoenicia", "polynesian-voyagers", "post-maurya-kingdoms", "prehistoric-japan", "qin-dynasty", "qing-dynasty", "reconstruction", "renaissance-italy", "rise-of-china", "roaring-twenties", "russian-empire", "safavid-persia", "scientific-revolution", "scythians", "shang-dynasty", "six-dynasties", "songhai-empire", "soviet-union", "srivijaya", "swahili-coast", "tang-song-china", "teotihuacan", "the-goths", "timurid-empire", "umayyad-caliphate", "uyghur-steppe", "vedic-period", "vendel-scandinavia", "viking-age", "xiongnu-huns", "yuan-dynasty", "zapotec-civilization", "zhou-dynasty"])
 function viewPill(active: boolean): React.CSSProperties {
   return {
     appearance: 'none', cursor: 'pointer', padding: '3px 10px', borderRadius: 999,
@@ -100,7 +98,7 @@ function civCardInner(civ: (typeof NAVIGATOR_TLS)[number], ci: ReturnType<typeof
   )
   // Representative ICON graphic (the existing /icons set) on a region-tinted
   // panel, left; text right. Replaces the photo approach.
-  const icon = GEN_ICONS.has(civ.id) ? `/icons-gen/${civ.id}.webp` : getCivIconPath(civ.id)
+  const icon = getCivEmblemPath(civ.id)
   const iconLabel = ICON_LABELS[civ.id]
   // New card: a smaller emblem hugging the top-left of the region-tinted panel,
   // with a concise caption naming what it depicts below it.
