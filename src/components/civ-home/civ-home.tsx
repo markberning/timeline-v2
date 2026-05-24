@@ -300,7 +300,11 @@ export function CivHome() {
 
           {/* one line: eyebrow · filter · count */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
-            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, whiteSpace: 'nowrap' }}>{intro.eyebrow}</span>
+            <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, whiteSpace: 'nowrap' }}>
+              {view === 'timeline'
+                ? <><s style={{ opacity: 0.55, textDecorationThickness: '1.5px' }}>All</s> Most of human history</>
+                : intro.eyebrow}
+            </span>
             <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
               {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
