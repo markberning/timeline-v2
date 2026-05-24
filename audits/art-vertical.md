@@ -176,6 +176,13 @@ on the era/movement/work content object. `generateStaticParams` gates on the pla
 registry (NOT the `'use client'` narratives module — importing a client module into the
 server page breaks static export).
 
+**Reader chrome decisions (locked 2026-05-23):** NO ↑From/↓To lineage strip at the top of a
+narrative chapter (removed). The **"Meanwhile in…" sheet matches the War reader's** Meanwhile
+card exactly — a plain bordered card, gray eyebrow, italic serif title, serif body; no accent
+top-border, thumbnail, date pill or CTA button. Chapter figures open a **pinch/double-tap/pan
+zoomable lightbox** (the shared civ `Lightbox`, with an optional caption), so paintings can be
+zoomed for detail.
+
 **Content is produced + GATED via `audits/art-content-pipeline.md`** (the art analog of the
 civ 5-persona audit and the war content pipeline — fact-checker, storytelling-&-looking,
 comprehensiveness, newcomer-clarity, framing/fairness, plus art-specific image/rights and
@@ -254,7 +261,11 @@ frame and crop it.
   image's credit sits *beneath* the image (never a chip floating on it) and names where the
   work lives now — model: `Van Gogh, The Starry Night, 1889 · MoMA`. Heroes included (the
   hero credit renders under the banner). Inline figures + the Canvas Viewer already caption
-  underneath with the museum.
+  underneath with the museum. **EVERY image gets a credit with its current location — including
+  the small cord/list/browse cards** (an unattributed Monet on a movement card is a defect).
+  On a cord card the credit is a **bold** line at the end of the card text (the `credit` field on
+  EraMovement / MovementWork; the card grows via `minHeight` so it never clips). User-locked
+  2026-05-23.
 - **Hero eyebrow stays white** (`rgba(255,255,255,0.9)` + shadow), NOT the accent — accent
   (violet) text was unreadable over dark paintings like Starry Night. Accent identity lives
   in the breadcrumb/accordion, not in text laid over imagery.

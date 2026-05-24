@@ -47,6 +47,18 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    work?** Flag chapters that are all art-world history and no actual looking; flag
    description that is vague ("striking", "powerful") instead of specific (what is
    literally on the canvas). ("Is it told well, and does it make me look?")
+
+   **VOICE LOCKS (user, 2026-05-23):** (a) the house dry wit is **dialed up a
+   notch** — smart, dry asides, never zany/snarky; when a wry fact is earned, give
+   it the half-sentence of room to land (don't state the punchline and sprint on).
+   (b) **A healthy dose of comparisons** — analogies that drive the point home (an
+   x-ray, a blueprint, a scrapbook vs an autopsy, "the supermarket walks into the
+   museum"); comparison is the #1 comprehension tool, same as the civ side's
+   cross-civ comparisons. (c) **Never gray out substantive prose** — a closing
+   paragraph that carries wit or a real point uses normal body text, NOT a muted/
+   italic style; reserve muted/italic for genuinely minor asides or a single pull
+   quote. (User flagged a gray closing paragraph as "out of place"; the critic
+   independently found the best lines were being buried in muted/italic.)
 3. **Comprehensiveness critic** (Sonnet, web-enabled) — independent must-cover
    checklist for the subject; COVERED / THIN / MISSING; MUST-ADD (essential, blocking)
    vs SHOULD-CONSIDER. **Selective is correct** — flag only genuinely essential gaps,
@@ -153,5 +165,32 @@ Build the five critic briefs by adapting the War briefs in
 above: fact-checker → add the documented-vs-legend axis; storytelling → add the
 "does it make me look?" axis; clarity → art-jargon list; framing → genius-myth /
 women's-erasure / appropriation / Eurocentric-overclaim instead of Lost Cause;
-comprehensiveness → essential-works checklist. First proof run: pending (the 13
-already-written chapters).
+comprehensiveness → essential-works checklist.
+
+## First proof run — DONE (2026-05-23)
+Ran all five gates (each a Sonnet agent, in parallel) over the Modern era (7 ch)
+and Cubism movement (6 ch). The gates earned their keep on the first pass:
+- **Fact-checker** caught real errors a non-gated draft shipped: the
+  &ldquo;philosophical brothel&rdquo; was Apollinaire&rsquo;s epithet, not
+  Picasso&rsquo;s private name (he called it *le bordel d'Avignon*); Kahnweiler was
+  26 at his portrait, not 23; Picasso/Braque were born ~7 months apart, not &ldquo;a
+  year&rdquo;; the Trocadéro epiphany and the Braque &ldquo;tow and turpentine&rdquo;
+  quote are retrospective legend and were being asserted flat; the Iberian heads were
+  Louvre-stolen, not cleanly &ldquo;bought&rdquo;; the Aug-2-1914 mobilisation
+  collapsed three separate call-ups into one date; Van Gogh&rsquo;s &ldquo;sold
+  nothing&rdquo; is a softened myth.
+- **Framing** caught the African-art makers going unnamed (now: Fang/Kota named +
+  a beat of friction on Picasso&rsquo;s primitivist reading), Morisot named-then-
+  vanished, Sonia Delaunay & Hannah Höch missing, and a &ldquo;the whole of modern
+  art&rdquo; Eurocentric overclaim (now &ldquo;Western&rdquo;).
+- **Comprehensiveness** caught two essential MISSING items at era altitude:
+  **Mondrian / De Stijl** and the **Bauhaus** (both now added in ch5 &ldquo;Order,
+  not noise&rdquo;), plus the Cold-War/Greenberg mechanism behind New York&rsquo;s
+  rise (added ch7).
+- **Clarity** caught untranslated jargon (trompe-l&rsquo;œil, succès de scandale,
+  avant-garde, automatism) and an actual typo (&ldquo;They called nothing&rdquo; →
+  &ldquo;named nothing&rdquo;).
+- **Storytelling/looking** drove the wit-up + comparisons + make-them-look revise.
+
+All findings applied; both narratives revised + redeployed. This is the lesson the
+pipeline existed to prove: **gate-then-ship, don&rsquo;t ship-then-hope.**
