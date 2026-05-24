@@ -86,7 +86,7 @@ interface ArtCardData {
 function CardCredit({ credit }: { credit?: string }) {
   if (!credit) return null
   return (
-    <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, lineHeight: 1.35, letterSpacing: 0.2, color: MUTED }}>{credit}</div>
+    <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 700, lineHeight: 1.35, letterSpacing: 0.2, color: INK }}>{credit}</div>
   )
 }
 
