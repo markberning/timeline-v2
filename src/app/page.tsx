@@ -9,13 +9,30 @@ import { AppHome } from '@/components/app-home/app-home'
 import { getAllNarrativeIds, getNarrative } from '@/lib/data'
 import type { FeedItem } from '@/lib/app-feed'
 
+// Summary bullets carry inline link HTML and run long; strip tags + entities to
+// plain text, collapse whitespace, and truncate at a word boundary for the card.
+function clean(s: string): string {
+  const text = s
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&mdash;/g, '—').replace(/&ndash;/g, '–')
+    .replace(/&rsquo;/g, '’').replace(/&lsquo;/g, '‘').replace(/&rdquo;/g, '”').replace(/&ldquo;/g, '“').replace(/&hellip;/g, '…')
+    .replace(/\s+/g, ' ').trim()
+  // generous cap (the card 2-line-clamps the display); mainly keeps the embedded
+  // payload from carrying 400-char bullets
+  if (text.length <= 180) return text
+  const cut = text.slice(0, 180)
+  const lastSpace = cut.lastIndexOf(' ')
+  return cut.slice(0, lastSpace > 120 ? lastSpace : 180).replace(/[,;:—–\s]+$/, '') + '…'
+}
+
 function chapterSeeds(): FeedItem[] {
   const out: FeedItem[] = []
   for (const id of getAllNarrativeIds()) {
     let n
     try { n = getNarrative(id) } catch { continue }
     for (const c of n.chapters) {
-      const blurb = c.intro?.takeaway ?? c.subtitle ?? c.summaryBullets?.[0] ?? ''
+      const blurb = clean(c.intro?.takeaway ?? c.subtitle ?? c.summaryBullets?.[0] ?? '')
       if (!blurb) continue
       out.push({ kind: 'civ', type: `${n.label} · Ch ${c.number}`, title: c.title, blurb, href: `/${id}?chapter=${c.number}` })
     }
