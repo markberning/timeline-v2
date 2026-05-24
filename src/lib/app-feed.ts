@@ -29,12 +29,14 @@ export interface FeedItem {
 // Music has no real content yet; Art is barely started, so a few extra movements
 // and works tease what's coming. Delete these as the real content lands.
 const MUSIC_SOON: FeedItem[] = [
-  { kind: 'music', type: 'Music form', title: 'The Symphony', blurb: 'The orchestra’s tallest order — four movements and something to prove.', href: '/music', soon: true },
-  { kind: 'music', type: 'Genre', title: 'Jazz', blurb: 'America’s one wholly original art form, reinvented nightly.', href: '/music', soon: true },
-  { kind: 'music', type: 'Genre', title: 'The Blues', blurb: 'Three chords, the truth, and the root of nearly everything after.', href: '/music', soon: true },
-  { kind: 'music', type: 'Genre', title: 'Opera', blurb: 'Theatre that decided plain talking was for amateurs.', href: '/music', soon: true },
-  { kind: 'music', type: 'Genre', title: 'Hip-Hop', blurb: 'From a Bronx rec room to the planet’s dominant sound in forty years.', href: '/music', soon: true },
-  { kind: 'music', type: 'Music form', title: 'Gregorian Chant', blurb: 'A thousand years of monks, one unhurried note at a time.', href: '/music', soon: true },
+  { kind: 'music', type: 'Music era', title: 'Baroque', blurb: 'Ornament, counterpoint, and Bach quietly running the numbers.', href: '/music', soon: true, icon: '/music-icons/baroque.webp' },
+  { kind: 'music', type: 'Music era', title: 'Classical', blurb: 'Balance and clarity — Mozart and Haydn make it look easy.', href: '/music', soon: true, icon: '/music-icons/classical.webp' },
+  { kind: 'music', type: 'Music era', title: 'Romantic', blurb: 'Bigger orchestras, bigger feelings, Beethoven kicking the door open.', href: '/music', soon: true, icon: '/music-icons/romantic.webp' },
+  { kind: 'music', type: 'Music form', title: 'Opera', blurb: 'Theatre that decided plain talking was for amateurs.', href: '/music', soon: true, icon: '/music-icons/opera.webp' },
+  { kind: 'music', type: 'Genre', title: 'Jazz', blurb: 'America’s one wholly original art form, reinvented nightly.', href: '/music', soon: true, icon: '/music-icons/jazz.webp' },
+  { kind: 'music', type: 'Genre', title: 'The Blues', blurb: 'Three chords, the truth, and the root of nearly everything after.', href: '/music', soon: true, icon: '/music-icons/blues.webp' },
+  { kind: 'music', type: 'Genre', title: 'Rock', blurb: 'Took the blues, plugged it in, and turned it all the way up.', href: '/music', soon: true, icon: '/music-icons/rock.webp' },
+  { kind: 'music', type: 'Genre', title: 'Hip-Hop', blurb: 'From a Bronx rec room to the planet’s dominant sound in forty years.', href: '/music', soon: true, icon: '/music-icons/hiphop.webp' },
 ]
 const ART_SOON: FeedItem[] = [
   { kind: 'art', type: 'Art movement', title: 'Impressionism', blurb: 'Painting the light instead of the thing — and scandalizing the Salon.', href: '/art', soon: true },
@@ -61,7 +63,7 @@ function civPool(): FeedItem[] {
 }
 
 function warPool(): FeedItem[] {
-  const wars: FeedItem[] = WAR_EVENTS.map(w => ({ kind: 'war', type: 'War', title: w.name, blurb: w.hook, href: w.href ?? '/war' }))
+  const wars: FeedItem[] = WAR_EVENTS.map(w => ({ kind: 'war', type: 'War', title: w.name, blurb: w.hook, href: w.href ?? '/war', icon: `/war-icons/${w.id}.webp` }))
   const theatres: FeedItem[] = THEATRE_NAV.map(t => ({ kind: 'war', type: 'Theatre', title: t.label, blurb: THEATRE_BLURB[t.id] ?? '', href: t.href }))
   const battles: FeedItem[] = MAJORS.filter(b => b.href).map(b => ({ kind: 'war', type: `${THEATRE_LABEL[b.theatre]} battle`, title: b.name, blurb: `${b.place} · ${b.mo} ${b.year}`, href: b.href! }))
   const themes: FeedItem[] = THEMES.filter(t => t.href).map(t => ({ kind: 'war', type: 'Off the field', title: t.name, blurb: t.hook, href: t.href! }))
@@ -69,7 +71,7 @@ function warPool(): FeedItem[] {
 }
 
 function artPool(): FeedItem[] {
-  const eras: FeedItem[] = ART_ERAS.map(e => ({ kind: 'art', type: 'Art era', title: e.name, blurb: e.hook, href: `/art/${e.id}` }))
+  const eras: FeedItem[] = ART_ERAS.map(e => ({ kind: 'art', type: 'Art era', title: e.name, blurb: e.hook, href: `/art/${e.id}`, icon: `/art-icons/${e.id}.webp` }))
   const movements: FeedItem[] = Object.values(ART_MOVEMENT_CONTENT).map(m => ({ kind: 'art', type: 'Art movement', title: m.name, blurb: m.hook, href: `/art/${m.eraId}/${m.id}` }))
   const artists: FeedItem[] = Object.values(ART_ARTIST_CONTENT).map(a => ({ kind: 'art', type: 'Artist', title: a.name, blurb: a.hook, href: `/art/artist/${a.id}` }))
   return [...eras, ...movements, ...artists, ...ART_SOON].filter(i => i.blurb)
