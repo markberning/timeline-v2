@@ -302,7 +302,7 @@ export function CivHome() {
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '2px 16px 10px' }}>
             <span style={{ flexShrink: 0, maxWidth: 94, fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1, lineHeight: 1.25, textTransform: 'uppercase', color: FAINT }}>
               {view === 'timeline'
-                ? <><s style={{ opacity: 0.55, textDecorationThickness: '1.5px' }}>All</s> Most of human history</>
+                ? <><s style={{ textDecorationThickness: '1.5px' }}>All</s> Most of human history</>
                 : intro.eyebrow}
             </span>
             <div style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 8, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: '6px 12px' }}>
