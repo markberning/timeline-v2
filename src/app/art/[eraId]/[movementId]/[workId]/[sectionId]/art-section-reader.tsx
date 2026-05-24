@@ -151,8 +151,7 @@ function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: st
 
         <p style={proseStyle}>
           <DropCap accent={accent}>P</DropCap>
-          icasso was 25, broke, and living at the top of a tenement on the Montmartre hill called the
-          <em> Bateau-Lavoir</em> — the &ldquo;laundry boat,&rdquo; because it creaked when it rained and there was
+          icasso was 25, broke, and living at the top of a tenement on the Montmartre hill called the{' '}<em> Bateau-Lavoir</em>{' '}— the &ldquo;laundry boat,&rdquo; because it creaked when it rained and there was
           one tap on each floor. He was painting in oils on the back of broken doors. He was selling
           two or three canvases a month. He was about to make the painting that would change
           twentieth-century art.
@@ -175,7 +174,7 @@ function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: st
           imageUrl={ART_IMG.cezanneBathers}
           ratio="6/5"
           alt="Cézanne, Les Grandes Baigneuses"
-          caption={<>Cézanne, <em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art.</>}
+          caption={<>Cézanne,{' '}<em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art.</>}
           rights="Public domain worldwide (Paul Cézanne died 1906). Wikimedia Commons."
         />
 
@@ -261,7 +260,7 @@ function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         </p>
 
         <p style={proseStyle}>
-          The early drawings show a moralistic brothel scene called <em>The Wages of Sin</em>: five women,
+          The early drawings show a moralistic brothel scene called{' '}<em>The Wages of Sin</em>: five women,
           two men. The man in the middle is a sailor. The man on the left, in the early sketches, is a
           medical student. In some, he holds a textbook; in others, a human skull. The composition is
           theatrical — a curtain pulled back to reveal the women, the men reading the lesson on the
@@ -315,7 +314,7 @@ function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         </p>
 
         <p style={proseMutedStyle}>
-          He titled it, privately, <em>Le Bordel philosophique</em> — &ldquo;the philosophical brothel.&rdquo;
+          He titled it, privately,{' '}<em>Le Bordel philosophique</em>{' '}— &ldquo;the philosophical brothel.&rdquo;
           The title it now bears was given by his friend the poet André Salmon, ten years later, for an
           early public showing. The &ldquo;demoiselles&rdquo; in question were five women on the Carrer d&rsquo;Avinyó
           in Barcelona, where Picasso had spent his student years.
@@ -339,7 +338,7 @@ function ReceptionNarrative({ accent, onZoom }: { accent: string; onZoom: (src: 
         </p>
 
         <p style={proseStyle}>
-          <strong>Matisse</strong> was the first big visitor. Matisse was at that moment the most famous
+          <strong>Matisse</strong>{' '}was the first big visitor. Matisse was at that moment the most famous
           living painter in France — the Fauve, the man who had scandalised the 1905 Salon with bright
           unmodulated colour, who was thirteen years older than Picasso and his only real rival. He
           looked at the Demoiselles for a long time, and then he said it was an outrage, a betrayal of
@@ -359,8 +358,8 @@ function ReceptionNarrative({ accent, onZoom }: { accent: string; onZoom: (src: 
 
         <p style={proseStyle}>
           <strong>Gertrude Stein</strong>, Picasso&rsquo;s American patron and friend, was diplomatic; her
-          brother Leo Stein laughed. <strong>André Derain</strong> was reported to have said that
-          someone would find Picasso hanging from a beam behind the canvas one day. <strong>Sergei
+          brother Leo Stein laughed.{' '}<strong>André Derain</strong>{' '}was reported to have said that
+          someone would find Picasso hanging from a beam behind the canvas one day.{' '}<strong>Sergei
           Shchukin</strong>, the Russian textile baron who was Picasso&rsquo;s main buyer, looked at the
           painting and said it was a great loss to French art.
         </p>
@@ -437,7 +436,7 @@ function HiddenNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
           imageUrl={ART_IMG.braqueEstaque}
           ratio="4/5"
           alt="Braque, Houses at l'Estaque"
-          caption={<>Braque&rsquo;s <em>Houses at l&rsquo;Estaque</em>, painted within twelve months of seeing the Demoiselles. Matisse said it looked like little cubes.</>}
+          caption={<>Braque&rsquo;s{' '}<em>Houses at l&rsquo;Estaque</em>, painted within twelve months of seeing the Demoiselles. Matisse said it looked like little cubes.</>}
           rights={PD_RIGHTS}
         />
 
@@ -447,7 +446,7 @@ function HiddenNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
           In July 1916, during the Battle of the Somme, the poet André Salmon organised a small
           exhibition at the Salon d&rsquo;Antin, on the boulevard d&rsquo;Antin in Paris. Picasso lent
           a single picture. It was the rolled-up canvas from 1907. Salmon, who had to invent a title
-          on the spot to print in the catalogue, called it <em>Les Demoiselles d&rsquo;Avignon</em> —
+          on the spot to print in the catalogue, called it{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}—
           a softened-up reference to the women on the Carrer d&rsquo;Avinyó in Barcelona. The title
           stuck. It is now what it is called.
         </p>
@@ -479,7 +478,7 @@ function LegacyNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
 
         <p style={proseStyle}>
           <DropCap accent={accent}>I</DropCap>
-          n 1924 the couturier and book collector <strong>Jacques Doucet</strong> bought the Demoiselles
+          n 1924 the couturier and book collector{' '}<strong>Jacques Doucet</strong>{' '}bought the Demoiselles
           for 25,000 francs — roughly $1,300 in 1924 dollars, about $20,000 today. The advice he received
           from his friend the poet André Breton was not to buy it because it was beautiful but because
           it was, Breton said, the door through which a new century was going to walk.
@@ -494,8 +493,8 @@ function LegacyNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         <SectionHeader accent={accent} label="1939" title="MoMA, in exchange for a Degas" />
 
         <p style={proseStyle}>
-          In 1939 the <strong>Museum of Modern Art</strong> acquired the Demoiselles in a complicated
-          three-way trade. The museum gave up a Degas — <em>Race Course at Longchamp</em> — and roughly
+          In 1939 the{' '}<strong>Museum of Modern Art</strong>{' '}acquired the Demoiselles in a complicated
+          three-way trade. The museum gave up a Degas — <em>Race Course at Longchamp</em>{' '}— and roughly
           $24,000 in cash, drawn from the Lillie P. Bliss Bequest. The total value of the trade in 1939
           dollars was about $28,000. Today that is approximately $620,000.
         </p>

@@ -38,15 +38,14 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         or two hundred years there had been exactly one way to be a painter in France: get into the Salon. It
         was the official exhibition of the Académie des Beaux-Arts — the French state&rsquo;s art establishment —
         and it was the only theatre in town. A jury of professors decided what hung. They wanted polished
-        surfaces, noble subjects (gods, battles, scripture) and no visible brushwork. The whole of
-        <em> Western</em> modern art is, in one sense, a hundred-year argument with that jury.
+        surfaces, noble subjects (gods, battles, scripture) and no visible brushwork. The whole of{' '}<em> Western</em>{' '}modern art is, in one sense, a hundred-year argument with that jury.
       </p>
       <p style={proseStyle}>
-        The first to pick the fight was <strong>Gustave Courbet</strong>, who painted ordinary people —
+        The first to pick the fight was{' '}<strong>Gustave Courbet</strong>, who painted ordinary people —
         stonebreakers, a village funeral — at the vast, heroic scale the Salon reserved for kings and saints,
         in thick, earthy, trowelled-on paint that refused to prettify anyone. In 1855, when the world&rsquo;s
         fair turned down his biggest canvases, Courbet did the unheard-of thing: he put up his own building
-        across the street, charged admission, and called it the <em>Pavilion of Realism</em>. A painter could
+        across the street, charged admission, and called it the{' '}<em>Pavilion of Realism</em>. A painter could
         now go around the jury entirely — which is roughly the nineteenth-century equivalent of being rejected
         by every gallery and opening your own.
       </p>
@@ -56,16 +55,16 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.courbetStudio}
         ratio="2/1"
         alt="Courbet, The Painter's Studio"
-        caption={<>Courbet, <em>The Painter&rsquo;s Studio</em>, 1855 — Musée d&rsquo;Orsay, Paris. The huge canvas the Exposition refused, hung instead in his own one-man tent.</>}
+        caption={<>Courbet,{' '}<em>The Painter&rsquo;s Studio</em>, 1855 — Musée d&rsquo;Orsay, Paris. The huge canvas the Exposition refused, hung instead in his own one-man tent.</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
       <SectionHeader accent={accent} label="1863" title="The pictures that started the war" />
       <p style={proseStyle}>
         Two things broke in 1863. First, the jury rejected so many painters that the Emperor ordered an overflow
-        show — the <em>Salon des Refusés</em>, the Salon of the Rejected — so the public could come and laugh at
-        the art the jury had thrown out. Second, the star of that freak show was <strong>Édouard Manet</strong>,
-        whose <em>Déjeuner sur l&rsquo;herbe</em> sat a plainly naked, plainly modern woman at a picnic between
+        show — the{' '}<em>Salon des Refusés</em>, the Salon of the Rejected — so the public could come and laugh at
+        the art the jury had thrown out. Second, the star of that freak show was{' '}<strong>Édouard Manet</strong>,
+        whose{' '}<em>Déjeuner sur l&rsquo;herbe</em>{' '}sat a plainly naked, plainly modern woman at a picnic between
         two clothed men and had her gaze straight out at you, entirely unbothered. It was not the nudity — the
         Salon was wall-to-wall nudes. It was that she was obviously a real Parisian, here and now, not a goddess
         with an alibi; and that Manet painted her in flat, blunt patches instead of the smooth, blended shading
@@ -77,11 +76,11 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.manetDejeuner}
         ratio="5/4"
         alt="Manet, Le Déjeuner sur l'herbe"
-        caption={<>Manet, <em>Le Déjeuner sur l&rsquo;herbe</em>, 1863 — Musée d&rsquo;Orsay, Paris. The scandal of the Salon des Refusés: a modern naked woman picnicking with two clothed men, looking calmly out at us.</>}
+        caption={<>Manet,{' '}<em>Le Déjeuner sur l&rsquo;herbe</em>, 1863 — Musée d&rsquo;Orsay, Paris. The scandal of the Salon des Refusés: a modern naked woman picnicking with two clothed men, looking calmly out at us.</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseStyle}>
-        He did it again two years later, and worse. <em>Olympia</em> showed a naked Parisian courtesan — a
+        He did it again two years later, and worse.{' '}<em>Olympia</em>{' '}showed a naked Parisian courtesan — a
         high-priced kept woman — reclining on her bed and meeting your eye with the flat, businesslike stare of
         someone deciding whether you can afford her. At the 1865 Salon, contemporaries report, it had to be
         re-hung high on the wall, out of reach of the umbrellas and walking sticks of visitors who genuinely
@@ -93,7 +92,7 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.manetOlympia}
         ratio="3/2"
         alt="Manet, Olympia"
-        caption={<>Manet, <em>Olympia</em>, 1863 (shown 1865) — Musée d&rsquo;Orsay, Paris. The same flat, blunt handling, the same level, unembarrassed gaze.</>}
+        caption={<>Manet,{' '}<em>Olympia</em>, 1863 (shown 1865) — Musée d&rsquo;Orsay, Paris. The same flat, blunt handling, the same level, unembarrassed gaze.</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -123,8 +122,8 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
         <DropCap accent={accent}>I</DropCap>
         n April 1874 a group of friends who were sick of being rejected — Claude Monet, Pierre-Auguste Renoir,
         Camille Pissarro, Edgar Degas, Berthe Morisot — rented the studio of the photographer Nadar and put on
-        their own show. A critic seized on the title of one Monet canvas, <em>Impression, Sunrise</em>, and
-        sneered that the whole lot were mere <em>impressions</em> — sketches, not finished paintings. As usual,
+        their own show. A critic seized on the title of one Monet canvas,{' '}<em>Impression, Sunrise</em>, and
+        sneered that the whole lot were mere{' '}<em>impressions</em>{' '}— sketches, not finished paintings. As usual,
         the painters eventually wore the insult as a badge.
       </p>
       <PaintingFigure
@@ -133,7 +132,7 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.impressionSunrise}
         ratio="3/2"
         alt="Monet, Impression, Sunrise"
-        caption={<>Monet, <em>Impression, Sunrise</em>, 1872 — Musée Marmottan Monet, Paris. An orange sun over a hazy harbour, the water a few quick smears, the cranes and smokestacks barely there. The painting a hostile critic used to coin &ldquo;Impressionism.&rdquo;</>}
+        caption={<>Monet,{' '}<em>Impression, Sunrise</em>, 1872 — Musée Marmottan Monet, Paris. An orange sun over a hazy harbour, the water a few quick smears, the cranes and smokestacks barely there. The painting a hostile critic used to coin &ldquo;Impressionism.&rdquo;</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
@@ -141,7 +140,7 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         The Impressionists&rsquo; insight was almost a scientific one: you never actually see an object&rsquo;s
         &ldquo;true&rdquo; colour, only light bouncing off it at a particular moment. So they stopped painting
-        the cathedral and started painting the <em>light on</em> the cathedral — Monet would later paint the
+        the cathedral and started painting the{' '}<em>light on</em>{' '}the cathedral — Monet would later paint the
         same Rouen facade more than thirty times, the same stone reading pink at dawn and blue-grey in fog, the
         building almost an excuse. New tube paints let them work fast and outdoors, in front of the subject; they
         left the brushwork loose and laid pure dabs of colour side by side so your own eye would mix them at a
@@ -149,11 +148,11 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <p style={proseStyle}>
         Their subjects were just as new — not myth but modern leisure: boating parties, railway stations, dance
-        halls, the wide boulevards of a freshly rebuilt Paris. <strong>Berthe Morisot</strong>, the one woman in
+        halls, the wide boulevards of a freshly rebuilt Paris.{' '}<strong>Berthe Morisot</strong>, the one woman in
         the founding group, was no bystander: she organised nearly every one of the eight exhibitions and painted
         modern life from the private, domestic vantage — nurseries, drawing rooms, women at the mirror — that her
         male colleagues simply could not enter, which makes her work some of the most distinctive the movement
-        produced. <strong>Edgar Degas</strong>, the awkward cousin of the group, stayed indoors and caught
+        produced.{' '}<strong>Edgar Degas</strong>, the awkward cousin of the group, stayed indoors and caught
         dancers and laundresses in off-balance, snapshot poses he learned partly from the camera and partly from
         Japanese woodblock prints — which were arriving in Paris as the wrapping paper around imported china, and
         teaching half the city to crop boldly and flatten space.
@@ -182,16 +181,16 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
       <SectionHeader accent={accent} label="1886–1905" title="Four ways out of the haze" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>T</DropCap>
-        he painters we lump together as <strong>Post-Impressionists</strong> never formed a group; the label was
+        he painters we lump together as{' '}<strong>Post-Impressionists</strong>{' '}never formed a group; the label was
         coined later, in London, to mean roughly &ldquo;the interesting ones who came after.&rdquo; What they
         shared was a complaint — Impressionism had dissolved the world into shimmering light and lost its bones —
         and they took four different escape routes out of the same building, each convinced the others were
         fleeing the wrong way.
       </p>
       <p style={proseStyle}>
-        <strong>Georges Seurat</strong> turned it into a science: he painted in thousands of tiny, deliberate
-        dots of pure colour — <em>pointillism</em> — arranged by optical theory, and built a vast Sunday park
-        scene as still and ordered as an Egyptian frieze. <strong>Paul Cézanne</strong> went the opposite way,
+        <strong>Georges Seurat</strong>{' '}turned it into a science: he painted in thousands of tiny, deliberate
+        dots of pure colour — <em>pointillism</em>{' '}— arranged by optical theory, and built a vast Sunday park
+        scene as still and ordered as an Egyptian frieze.{' '}<strong>Paul Cézanne</strong>{' '}went the opposite way,
         alone in Provence, rebuilding apples and mountains out of blunt facets of colour until a painting felt as
         constructed as a stone wall. He is the hinge of this whole story: the man Picasso and Matisse would each
         call their father.
@@ -202,17 +201,17 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.seuratGrandeJatte}
         ratio="3/2"
         alt="Seurat, A Sunday on La Grande Jatte"
-        caption={<>Seurat, <em>A Sunday on La Grande Jatte</em>, 1884 — Art Institute of Chicago. Look closely and the whole sunlit park is built from millions of separate dots of pure colour your eye blends for you.</>}
+        caption={<>Seurat,{' '}<em>A Sunday on La Grande Jatte</em>, 1884 — Art Institute of Chicago. Look closely and the whole sunlit park is built from millions of separate dots of pure colour your eye blends for you.</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
       <SectionHeader accent={accent} label="Feeling, not optics" title="Van Gogh and Gauguin" />
       <p style={proseStyle}>
-        The other two routes went looking for emotion. <strong>Vincent van Gogh</strong>, a Dutch ex-preacher who
+        The other two routes went looking for emotion.{' '}<strong>Vincent van Gogh</strong>, a Dutch ex-preacher who
         painted seriously for barely a decade and, by the established record, sold a single painting in his
         lifetime, loaded his colour and clawed his brushstrokes until a wheat field or a night sky seemed to
         carry his own nervous charge — colour wired straight to feeling, with no polite filter in between. His
-        on-and-off friend <strong>Paul Gauguin</strong> went searching for an imagined &ldquo;primitive&rdquo;
+        on-and-off friend{' '}<strong>Paul Gauguin</strong>{' '}went searching for an imagined &ldquo;primitive&rdquo;
         innocence and never stopped moving to find it: he quit a Paris stockbroking desk, failed at it in
         Brittany, sailed to Panama and Martinique, came back, and finally fetched up in Tahiti and the Marquesas,
         painting in flat, walled-off zones of unreal colour. The &ldquo;innocence&rdquo; was always his own
@@ -225,7 +224,7 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.starryNight}
         ratio="5/4"
         alt="Van Gogh, The Starry Night"
-        caption={<>Van Gogh, <em>The Starry Night</em>, 1889 — MoMA, New York. Painted from the window of an asylum at Saint-Rémy: the sky churns in thick spiralling strokes, the cypress claws upward like a dark flame. The feeling is in the paint, not the facts.</>}
+        caption={<>Van Gogh,{' '}<em>The Starry Night</em>, 1889 — MoMA, New York. Painted from the window of an asylum at Saint-Rémy: the sky churns in thick spiralling strokes, the cypress claws upward like a dark flame. The feeling is in the paint, not the facts.</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -244,10 +243,10 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
       <SectionHeader accent={accent} label="1905" title="Colour off the leash" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>A</DropCap>
-        t the Salon d&rsquo;Automne of 1905 a room of canvases by <strong>Henri Matisse</strong> and his friends
+        t the Salon d&rsquo;Automne of 1905 a room of canvases by{' '}<strong>Henri Matisse</strong>{' '}and his friends
         hit visitors like a shout: a portrait with a green stripe running down the sitter&rsquo;s face, skies and
         shadows painted whatever colour the picture seemed to need rather than the colour the world actually was.
-        A critic called them <em>les fauves</em> — the wild beasts. Fauvism barely lasted three years, but like a
+        A critic called them{' '}<em>les fauves</em>{' '}— the wild beasts. Fauvism barely lasted three years, but like a
         lot of movements in this era it burned bright and fast because it had only one point to make, and it
         made it: colour does not have to describe anything. It can just be the painting&rsquo;s engine.
       </p>
@@ -257,13 +256,13 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.matisseDance}
         ratio="3/2"
         alt="Matisse, Dance"
-        caption={<>Matisse, <em>Dance (I)</em>, 1909 — MoMA, New York. Five figures, three colours — a green hill, a blue sky, red bodies — no shading, no depth, and total conviction.</>}
+        caption={<>Matisse,{' '}<em>Dance (I)</em>, 1909 — MoMA, New York. Five figures, three colours — a green hill, a blue sky, red bodies — no shading, no depth, and total conviction.</>}
         rights={PD_RIGHTS}
       />
 
       <SectionHeader accent={accent} label="1907–1914" title="Then perspective itself is repealed" />
       <p style={proseStyle}>
-        If Matisse freed the colour, <strong>Pablo Picasso</strong> and <strong>Georges Braque</strong> went
+        If Matisse freed the colour,{' '}<strong>Pablo Picasso</strong>{' '}and{' '}<strong>Georges Braque</strong>{' '}went
         after the deeper rule — the single fixed viewpoint that had made a painting behave like a window since
         the 1400s: one eye, one spot, one frozen instant. Starting from Cézanne&rsquo;s facets and from West and
         Central African sculpture — Fang, Kota and other masks Picasso met at Paris&rsquo;s ethnographic museum
@@ -277,7 +276,7 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.demoiselles}
         ratio="1/1"
         alt="Picasso, Les Demoiselles d'Avignon"
-        caption={<>Picasso, <em>Les Demoiselles d&rsquo;Avignon</em>, 1907 — MoMA, New York. Five women, the two on the right wearing mask-faces; the starting gun of Cubism. It has its own movement and its own five-chapter story below this era.</>}
+        caption={<>Picasso,{' '}<em>Les Demoiselles d&rsquo;Avignon</em>, 1907 — MoMA, New York. Five women, the two on the right wearing mask-faces; the starting gun of Cubism. It has its own movement and its own five-chapter story below this era.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -299,7 +298,7 @@ const ManifestoNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         <DropCap accent={accent}>O</DropCap>
         nce Cubism proved the rules could be torn up, a wave of movements arrived, each with a slogan and a
-        printed <em>manifesto</em>. In Italy the <strong>Futurists</strong>, led by the poet Marinetti, declared
+        printed{' '}<em>manifesto</em>. In Italy the{' '}<strong>Futurists</strong>, led by the poet Marinetti, declared
         that a roaring racing car was more beautiful than an ancient Greek statue and that the museums should be
         flooded. They painted speed, crowds and machines as Cubist shards set violently in motion — and they
         meant the worship of force, youth and speed as politics too, a romance with the machine that would
@@ -311,32 +310,30 @@ const ManifestoNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.boccioniCity}
         ratio="3/2"
         alt="Boccioni, The City Rises"
-        caption={<>Umberto Boccioni, <em>The City Rises</em>, 1910 — MoMA, New York. A huge blue workhorse lunges forward and the labourers and buildings smear into its motion: the modern city painted as raw, blurred force.</>}
+        caption={<>Umberto Boccioni,{' '}<em>The City Rises</em>, 1910 — MoMA, New York. A huge blue workhorse lunges forward and the labourers and buildings smear into its motion: the modern city painted as raw, blurred force.</>}
         rights={PD_RIGHTS}
       />
 
       <SectionHeader accent={accent} label="1916" title="Then the war answers with a urinal" />
       <p style={proseStyle}>
         The First World War turned the machine-romance into a slaughterhouse, and the artists who survived
-        answered with disgust. In neutral Zürich, refugees founded <strong>Dada</strong> — deliberate nonsense,
+        answered with disgust. In neutral Zürich, refugees founded{' '}<strong>Dada</strong>{' '}— deliberate nonsense,
         the name supposedly chosen by stabbing a knife at random into a dictionary — and staged performances built
         to insult an audience, and a civilisation, that had marched into the trenches quoting poetry. Its sharpest
-        weapon was the <em>readymade</em>: in 1917 <strong>Marcel Duchamp</strong> submitted a factory urinal,
-        signed with a joke name and titled <em>Fountain</em>, to an art show. If the artist says it is art, his
-        gesture asked, is it art? A century of conceptual art — art where the <em>idea</em> is the work and the
-        craft is beside the point — has not finished answering. Dada had its women, too: in Berlin
-        <strong> Hannah Höch</strong> was scissoring apart magazines and newspapers and reassembling the pieces
+        weapon was the{' '}<em>readymade</em>: in 1917{' '}<strong>Marcel Duchamp</strong>{' '}submitted a factory urinal,
+        signed with a joke name and titled{' '}<em>Fountain</em>, to an art show. If the artist says it is art, his
+        gesture asked, is it art? A century of conceptual art — art where the{' '}<em>idea</em>{' '}is the work and the
+        craft is beside the point — has not finished answering. Dada had its women, too: in Berlin{' '}<strong> Hannah Höch</strong>{' '}was scissoring apart magazines and newspapers and reassembling the pieces
         into savage photomontages that dissected the gender politics of her day — arguably the movement&rsquo;s
         most cutting visual work.
       </p>
 
       <SectionHeader accent={accent} label="The other answer" title="Order, not noise" />
       <p style={proseStyle}>
-        Not every response to the chaos was a provocation; some were the opposite — utopian order. In Holland,
-        <strong> Piet Mondrian</strong> and the <strong>De Stijl</strong> (&ldquo;The Style&rdquo;) group pushed
+        Not every response to the chaos was a provocation; some were the opposite — utopian order. In Holland,{' '}<strong> Piet Mondrian</strong>{' '}and the{' '}<strong>De Stijl</strong>{' '}(&ldquo;The Style&rdquo;) group pushed
         abstraction to its purest end: nothing but black grids, white fields and rectangles of primary red,
         yellow and blue, a kind of cosmic plumbing diagram meant to picture universal harmony. In Germany,
-        the <strong>Bauhaus</strong> — a 1919 art-and-design school that became the most influential of the whole
+        the{' '}<strong>Bauhaus</strong>{' '}— a 1919 art-and-design school that became the most influential of the whole
         century — took that clean abstraction off the canvas and into everyday life: the chairs, lamps,
         typefaces and glass-and-steel buildings that still look &ldquo;modern&rdquo; a hundred years on were
         largely dreamed up there. Cubism had broken the window; here, some of its heirs were quietly designing
@@ -360,21 +357,19 @@ const UnconsciousNarrative: Narrative = ({ accent }) => (
       <SectionHeader accent={accent} label="Paris · 1924" title="A manifesto for the dream" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>I</DropCap>
-        n 1924 the poet <strong>André Breton</strong> published the <em>Surrealist Manifesto</em> and turned the
-        inward turn into a programme. Where Dada had only mocked, <strong>Surrealism</strong> had a faith: that
+        n 1924 the poet{' '}<strong>André Breton</strong>{' '}published the{' '}<em>Surrealist Manifesto</em>{' '}and turned the
+        inward turn into a programme. Where Dada had only mocked,{' '}<strong>Surrealism</strong>{' '}had a faith: that
         Sigmund Freud was right, that the unconscious mind was the realer self, and that art&rsquo;s job was to
         slip past the rational guard and let the dream out. (Avant-garde, by the way — a phrase you will keep
         meeting — just means the leading edge, the scouts who run out ahead of the army.) The painters split into
-        two camps. One — <strong>Max Ernst</strong>, the Catalan <strong>Joan Miró</strong>, the Frenchman
-        <strong> André Masson</strong> — chased <em>automatism</em>: doodling, scraping paint over rough surfaces,
+        two camps. One — <strong>Max Ernst</strong>, the Catalan{' '}<strong>Joan Miró</strong>, the Frenchman{' '}<strong> André Masson</strong>{' '}— chased{' '}<em>automatism</em>: doodling, scraping paint over rough surfaces,
         and otherwise letting chance and the twitching hand outrun the conscious mind.
       </p>
       <p style={proseStyle}>
         The other camp painted dreams with hard, hallucinatory, almost photographic precision, so the impossible
-        looked like a snapshot. Its showman was <strong>Salvador Dalí</strong>, whose limp watches — draped over
+        looked like a snapshot. Its showman was{' '}<strong>Salvador Dalí</strong>, whose limp watches — draped over
         a branch, sliding off a table-edge, one being eaten by ants, all melting under a hard blue sky above a
-        bare Catalan shore — became the single most famous image the movement ever produced. (The Belgian
-        <strong> René Magritte</strong> worked the same quiet menace from the other end: a pipe labelled
+        bare Catalan shore — became the single most famous image the movement ever produced. (The Belgian{' '}<strong> René Magritte</strong>{' '}worked the same quiet menace from the other end: a pipe labelled
         &ldquo;this is not a pipe,&rdquo; a sky-blue day where it is somehow also night.) And here Dalí presents a
         problem this app cannot solve — because his watches cross a line drawn not by any critic but by the
         calendar.
@@ -397,8 +392,7 @@ const UnconsciousNarrative: Narrative = ({ accent }) => (
       </p>
       <p style={proseStyle}>
         Surrealism spread worldwide in the 1930s and briefly became the dominant avant-garde — though it had a
-        bad habit of treating women as muses and dream-objects rather than artists, a habit the likes of
-        <strong> Leonora Carrington</strong> and <strong>Meret Oppenheim</strong> spent careers pushing back
+        bad habit of treating women as muses and dream-objects rather than artists, a habit the likes of{' '}<strong> Leonora Carrington</strong>{' '}and{' '}<strong>Meret Oppenheim</strong>{' '}spent careers pushing back
         against. Then a second world war scattered the Surrealists, many of them to New York, with their theories
         of chance and the unconscious packed in the luggage.
       </p>
@@ -420,13 +414,13 @@ const NewYorkNarrative: Narrative = ({ accent }) => (
         for the first time the centre of gravity of Western art sat on the far side of the Atlantic.
       </p>
       <p style={proseStyle}>
-        What the Americans built was <strong>Abstract Expressionism</strong> — huge, ambitious, completely
-        abstract. <strong>Jackson Pollock</strong> took the Surrealists&rsquo; chance and automatism at its word:
+        What the Americans built was{' '}<strong>Abstract Expressionism</strong>{' '}— huge, ambitious, completely
+        abstract.{' '}<strong>Jackson Pollock</strong>{' '}took the Surrealists&rsquo; chance and automatism at its word:
         he laid the canvas on the floor and flung and dripped skeins of ordinary house paint across it, so the
-        finished picture is a frozen record of the dance that made it. <strong>Mark Rothko</strong> went the
+        finished picture is a frozen record of the dance that made it.{' '}<strong>Mark Rothko</strong>{' '}went the
         opposite way — two or three soft-edged rectangles of luminous colour stacked on a tall canvas, the edges
         bleeding and breathing so the colour seems to hover and glow, meant to be stood close to like an
-        altarpiece until it swallows your whole field of view. <strong>Willem de Kooning</strong> kept a
+        altarpiece until it swallows your whole field of view.{' '}<strong>Willem de Kooning</strong>{' '}kept a
         slashing, half-buried human figure in the mix. It was the first art movement the world looked to America
         to lead.
       </p>
@@ -447,15 +441,14 @@ const NewYorkNarrative: Narrative = ({ accent }) => (
 
       <SectionHeader accent={accent} label="1956–1970" title="And then a soup can answers back" />
       <p style={proseStyle}>
-        Abstract Expressionism grew so grand and so solemn that the next move was almost inevitable: puncture it.
-        <strong> Pop Art</strong> walked the supermarket and the comic strip straight into the museum —
-        <strong> Andy Warhol</strong>&rsquo;s silkscreened soup cans and repeated Marilyns, <strong>Roy
+        Abstract Expressionism grew so grand and so solemn that the next move was almost inevitable: puncture it.{' '}<strong> Pop Art</strong>{' '}walked the supermarket and the comic strip straight into the museum —
+        <strong> Andy Warhol</strong>&rsquo;s silkscreened soup cans and repeated Marilyns,{' '}<strong>Roy
         Lichtenstein</strong>&rsquo;s comic-book panels blown up huge, printer&rsquo;s dots and all. Where the
         Abstract Expressionists had agonised over the unique, soulful, handmade mark, Warhol courted the
         mechanical and the mass-produced and said, flatly, that he wanted to be a machine. There is a hard little
         joke buried in the reversal: the Abstract Expressionists mostly drank and suffered and died not rich,
         chasing authenticity; Warhol faked the factory and got famous and wealthy doing it. It was Duchamp&rsquo;s
-        1917 urinal question coming back — in colour, at scale, and very much <em>for sale</em>.
+        1917 urinal question coming back — in colour, at scale, and very much{' '}<em>for sale</em>.
       </p>
       <p style={proseStyle}>
         By the late 1960s a younger crowd was stripping even Pop&rsquo;s jokes away — the Minimalists, reducing
@@ -463,7 +456,7 @@ const NewYorkNarrative: Narrative = ({ accent }) => (
         &ldquo;modern&rdquo; quietly hands off to &ldquo;contemporary,&rdquo; the next era along. The whole
         century-long argument that began with Courbet&rsquo;s tent had come full circle, because it was never
         really about cubes or colour or drips. It was always the same question the Salon jury thought it had
-        settled for good: <em>who gets to decide what counts as art, and what is it for?</em> By 1970 the answer
+        settled for good:{' '}<em>who gets to decide what counts as art, and what is it for?</em>{' '}By 1970 the answer
         was wide open — which is the most modern thing about it.
       </p>
     </article>

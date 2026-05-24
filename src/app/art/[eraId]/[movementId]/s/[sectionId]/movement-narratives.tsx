@@ -51,7 +51,7 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.cezanneBathers}
         ratio="6/5"
         alt="Cézanne, The Large Bathers"
-        caption={<>Cézanne, <em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art. The bathers, the trees and the sky are all built from the same blunt facets.</>}
+        caption={<>Cézanne,{' '}<em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art. The bathers, the trees and the sky are all built from the same blunt facets.</>}
         rights="Public domain worldwide (Paul Cézanne died 1906). Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -74,15 +74,15 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         to Paris as colonial plunder and displayed as curiosities rather than as the precise, purposeful
         sculpture they were. By his own account, given to the writer André Malraux decades later, Picasso had
         something like a conversion experience there: he understood, he said, that an image could be a weapon
-        or a charm, a thing made to <em>do</em> something rather than to flatter. It is a wonderful story, and
+        or a charm, a thing made to{' '}<em>do</em>{' '}something rather than to flatter. It is a wonderful story, and
         worth remembering that it is also a story Picasso told about himself, long after the fact and after years
         of denying he owed African art anything at all.
       </p>
       <p style={proseStyle}>
         He carried all three obsessions back to a canvas nearly eight feet square. By the end of July 1907 it
         was finished: five women, a slash of curtain, a little still life, and two faces dragged halfway into
-        masks. Picasso called it, bluntly, <em>the brothel of Avignon</em>; the loftier title we use now —
-        <em> Les Demoiselles d&rsquo;Avignon</em> — was a later, more respectable coat of paint applied by his
+        masks. Picasso called it, bluntly,{' '}<em>the brothel of Avignon</em>; the loftier title we use now —
+        <em> Les Demoiselles d&rsquo;Avignon</em>{' '}— was a later, more respectable coat of paint applied by his
         friends. The picture has its own five-chapter story one level down. Here it matters as the starting
         gun.
       </p>
@@ -102,7 +102,7 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.braqueEstaque}
         ratio="4/5"
         alt="Braque, Houses at l'Estaque"
-        caption={<>Braque, <em>Houses at L&rsquo;Estaque</em>, 1908 — Lille Métropole Museum. The houses are stacked like a child&rsquo;s building blocks, the sky squeezed flat behind them.</>}
+        caption={<>Braque,{' '}<em>Houses at L&rsquo;Estaque</em>, 1908 — Lille Métropole Museum. The houses are stacked like a child&rsquo;s building blocks, the sky squeezed flat behind them.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -148,23 +148,23 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.picassoHorta}
         ratio="5/6"
         alt="Picasso, Houses on the Hill, Horta de Ebro"
-        caption={<>Picasso, <em>Houses on the Hill, Horta de Ebro</em>, summer 1909. The whole village and its hill are cut from one set of facets, so it is hard to say where the rock stops and the houses begin.</>}
+        caption={<>Picasso,{' '}<em>Houses on the Hill, Horta de Ebro</em>, summer 1909. The whole village and its hill are cut from one set of facets, so it is hard to say where the rock stops and the houses begin.</>}
         rights={PD_RIGHTS}
       />
 
       <SectionHeader accent={accent} label="The method" title="What 'Analytic' means" />
       <p style={proseStyle}>
-        Historians call this phase <strong>Analytic Cubism</strong>, because the painters take an object apart
+        Historians call this phase{' '}<strong>Analytic Cubism</strong>, because the painters take an object apart
         — analyse it — and lay several of its sides down on the flat canvas at once. Picture trying to describe
         a friend by pinning up their passport photo, their profile and the back of their head in a single
         frame: that is roughly the deal. The colour drains away to browns, greys and ochres, because colour
-        would only distract from the real subject, which is <em>structure</em>. A guitar shows you its face,
+        would only distract from the real subject, which is{' '}<em>structure</em>. A guitar shows you its face,
         its edge and its sound-hole simultaneously. And the law that had governed European painting since the
         1400s — that a picture is a window seen from one fixed spot, with one eye, in one frozen instant — is
         quietly repealed.
       </p>
       <p style={proseStyle}>
-        In the autumn of 1910 Picasso painted his dealer, the 26-year-old German <strong>Daniel-Henry
+        In the autumn of 1910 Picasso painted his dealer, the 26-year-old German{' '}<strong>Daniel-Henry
         Kahnweiler</strong>, in this new language: a man dissolved into a shimmer of facets, findable only by a
         watch chain, a wave of hair, a pair of clasped hands. Kahnweiler had been quietly buying almost
         everything the two of them made and asking for no explanations — the rare early backer who simply
@@ -176,7 +176,7 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.kahnweiler}
         ratio="3/4"
         alt="Picasso, Portrait of Daniel-Henry Kahnweiler"
-        caption={<>Picasso, <em>Portrait of Daniel-Henry Kahnweiler</em>, 1910 — Art Institute of Chicago. Find the watch chain and the clasped hands first; the rest of the man assembles itself around them.</>}
+        caption={<>Picasso,{' '}<em>Portrait of Daniel-Henry Kahnweiler</em>, 1910 — Art Institute of Chicago. Find the watch chain and the clasped hands first; the rest of the man assembles itself around them.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -192,7 +192,7 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.braqueViolinJug}
         ratio="3/4"
         alt="Braque, Violin and Jug"
-        caption={<>Braque, <em>Violin and Jug</em>, 1910 — Kunstmuseum Basel. The painted nail at the very top throws a real-looking shadow over a picture that has otherwise abandoned realism.</>}
+        caption={<>Braque,{' '}<em>Violin and Jug</em>, 1910 — Kunstmuseum Basel. The painted nail at the very top throws a real-looking shadow over a picture that has otherwise abandoned realism.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -213,7 +213,7 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
         y 1911 Picasso and Braque had faceted the world so finely that their pictures hovered on the edge of
         pure abstraction. A portrait of a girl with a mandolin still has a shoulder, a breast, the curve of the
         instrument — but they float in a haze of overlapping planes, and you have to assemble the figure the way
-        you assemble a face out of television static. Historians call this the <em>hermetic</em> phase, meaning
+        you assemble a face out of television static. Historians call this the{' '}<em>hermetic</em>{' '}phase, meaning
         sealed, nearly airless. The two painters got nervous enough about it that they began smuggling clues
         back in: a stencilled letter, a scrap of sheet music, the rope-weave of a chair — little handrails so a
         viewer would not float off the picture entirely.
@@ -224,7 +224,7 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.girlWithMandolin}
         ratio="5/6"
         alt="Picasso, Girl with a Mandolin"
-        caption={<>Picasso, <em>Girl with a Mandolin (Fanny Tellier)</em>, 1910 — MoMA. Already at the edge of legibility; within a year the pictures would push past it.</>}
+        caption={<>Picasso,{' '}<em>Girl with a Mandolin (Fanny Tellier)</em>, 1910 — MoMA. Already at the edge of legibility; within a year the pictures would push past it.</>}
         rights={PD_RIGHTS}
       />
 
@@ -234,9 +234,8 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
         their work privately, mostly to foreign collectors, which kept the prices steady and the scandals to a
         minimum. So when Paris finally met &ldquo;Cubism&rdquo; as a public outrage — at the Salon des
         Indépendants of 1911, the big open exhibition that, unlike the official Salon, had no jury to keep
-        anything out — the room that became notorious as <strong>Salle 41</strong> held no Picassos and no
-        Braques at all. The walls were a thicket of brown-grey planes, tilted faces and faceted figures by a
-        <em> second wave</em> of painters: Albert Gleizes, Jean Metzinger, Fernand Léger, Robert Delaunay and
+        anything out — the room that became notorious as{' '}<strong>Salle 41</strong>{' '}held no Picassos and no
+        Braques at all. The walls were a thicket of brown-grey planes, tilted faces and faceted figures by a{' '}<em> second wave</em>{' '}of painters: Albert Gleizes, Jean Metzinger, Fernand Léger, Robert Delaunay and
         Henri Le Fauconnier, all French, all in their twenties and thirties, who had picked the idea up
         secondhand. Crowds jeered, newspapers cried anarchy, and a movement neither founder had named or hung
         became front-page news.
@@ -275,10 +274,9 @@ const PaperNarrative: Narrative = ({ accent, onZoom }) => (
         patterned to look like the caning of a chair, and ran a length of rope around the edge as a frame. Stop
         and feel how strange that is: the caning is not painted, not even imitated by hand. It is a factory-made
         picture of caning, a found scrap, stuck straight onto what would become a canonical work of Western art.
-        For the first time a painter pointed at a piece of the real world and said <em>that&rsquo;ll do</em>
-        instead of laboriously copying it. <em>Still Life with Chair Caning</em> is usually called the first
+        For the first time a painter pointed at a piece of the real world and said{' '}<em>that&rsquo;ll do</em>{' '}instead of laboriously copying it.{' '}<em>Still Life with Chair Caning</em>{' '}is usually called the first
         modern collage, and it sets off a question painting has been arguing about ever since: if a glued scrap
-        can do the job, what exactly is the painter <em>for</em>?
+        can do the job, what exactly is the painter{' '}<em>for</em>?
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -286,24 +284,24 @@ const PaperNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.grisBreakfast}
         ratio="4/5"
         alt="Juan Gris, Le Petit Déjeuner (Breakfast)"
-        caption={<>The new technique in another pair of hands: <em>Le Petit Déjeuner (Breakfast)</em>, 1914, by Juan Gris (a younger Spanish Cubist) — Centre Pompidou, Paris. Real printed wallpaper and paper are pasted straight into the picture.</>}
+        caption={<>The new technique in another pair of hands:{' '}<em>Le Petit Déjeuner (Breakfast)</em>, 1914, by Juan Gris (a younger Spanish Cubist) — Centre Pompidou, Paris. Real printed wallpaper and paper are pasted straight into the picture.</>}
         rights="Public domain worldwide (Juan Gris died 1927). Wikimedia Commons."
       />
 
       <SectionHeader accent={accent} label="Synthetic Cubism" title="Building up instead of breaking down" />
       <p style={proseStyle}>
-        That autumn Braque answered with <em>papier collé</em> — pasted paper. He bought a roll of wallpaper
+        That autumn Braque answered with{' '}<em>papier collé</em>{' '}— pasted paper. He bought a roll of wallpaper
         printed to imitate oak grain, cut it into strips, and built a picture out of them. Where Analytic
-        Cubism had <em>taken objects apart</em>, this new mode <em>assembled</em> pictures out of ready-made
+        Cubism had{' '}<em>taken objects apart</em>, this new mode{' '}<em>assembled</em>{' '}pictures out of ready-made
         stuff: newspaper, sheet music, cigarette wrappers, stencilled letters, fake wood, fake marble. Call it
-        the difference between an autopsy and a scrapbook. Historians call it <strong>Synthetic Cubism</strong>.
+        the difference between an autopsy and a scrapbook. Historians call it{' '}<strong>Synthetic Cubism</strong>.
         The colour comes back, the planes go big and flat and almost poster-like, and the real world — actual
         newsprint reporting actual Balkan wars — gets pasted bodily into the art.
       </p>
       <p style={proseStyle}>
         It looks like a footnote and it is a hinge. Photomontage (pictures built from cut-up photographs),
         Dada&rsquo;s cut-ups, Surrealist collage, Pop Art&rsquo;s soup cans, the whole modern idea that an artist
-        might <em>select and arrange</em> existing images rather than render everything from scratch — all of it
+        might{' '}<em>select and arrange</em>{' '}existing images rather than render everything from scratch — all of it
         walks through the door Picasso and Braque opened in 1912 with a pot of glue and a yard of shelf liner.
       </p>
     </article>
@@ -318,13 +316,11 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         <DropCap accent={accent}>P</DropCap>
         icasso and Braque never wrote a manifesto and rarely exhibited. The painters who turned Cubism into a
-        public movement were the second wave — <strong>Albert Gleizes</strong> and <strong>Jean Metzinger</strong>
-        (the theorists), <strong>Fernand Léger</strong> (who pushed it toward gleaming tubes and pistons),
-        <strong> Robert Delaunay</strong> (toward pure colour), and the Spaniard <strong>Juan Gris</strong> (toward
+        public movement were the second wave — <strong>Albert Gleizes</strong>{' '}and{' '}<strong>Jean Metzinger</strong>{' '}(the theorists),{' '}<strong>Fernand Léger</strong>{' '}(who pushed it toward gleaming tubes and pistons),{' '}<strong> Robert Delaunay</strong>{' '}(toward pure colour), and the Spaniard{' '}<strong>Juan Gris</strong>{' '}(toward
         a tight, almost mathematical order). All French or Paris-based, all younger, they showed at the big
         open Salons, argued in the cafés, and in 1912 did the unthinkable: they turned a style into a theory.
-        Gleizes and Metzinger published <em>Du Cubisme</em>, the first book on the movement, and a sprawling
-        group show called the <em>Section d&rsquo;Or</em> (&ldquo;Golden Section,&rdquo; after the classical
+        Gleizes and Metzinger published{' '}<em>Du Cubisme</em>, the first book on the movement, and a sprawling
+        group show called the{' '}<em>Section d&rsquo;Or</em>{' '}(&ldquo;Golden Section,&rdquo; after the classical
         proportion) gathered dozens of them under one roof. Cubism now had a name, a literature and a crowd.
       </p>
       <PaintingFigure
@@ -333,24 +329,22 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.metzingerTea}
         ratio="4/5"
         alt="Jean Metzinger, Tea Time"
-        caption={<>Jean Metzinger, <em>Le Goûter (Tea Time)</em>, 1911 — Philadelphia Museum of Art. A woman with a teacup, her face split into a calm front-and-profile at once. A critic dubbed it &ldquo;the Mona Lisa of Cubism&rdquo;; the Salon Cubists kept the figure far more readable than the founders did.</>}
+        caption={<>Jean Metzinger,{' '}<em>Le Goûter (Tea Time)</em>, 1911 — Philadelphia Museum of Art. A woman with a teacup, her face split into a calm front-and-profile at once. A critic dubbed it &ldquo;the Mona Lisa of Cubism&rdquo;; the Salon Cubists kept the figure far more readable than the founders did.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
-        Their champion was the poet <strong>Guillaume Apollinaire</strong>, a one-man label factory who reviewed
+        Their champion was the poet{' '}<strong>Guillaume Apollinaire</strong>, a one-man label factory who reviewed
         the shows, defended them in print, and minted names the way a mint makes coins — he christened
-        Delaunay&rsquo;s colour-drunk, near-abstract variant <em>Orphism</em> (after Orpheus, because he thought
-        it worked on you like music). Robert Delaunay rarely worked alone: his partner <strong>Sonia Delaunay</strong>
-        drove the same colour experiments and carried them off the canvas entirely, into fabric, fashion and
+        Delaunay&rsquo;s colour-drunk, near-abstract variant{' '}<em>Orphism</em>{' '}(after Orpheus, because he thought
+        it worked on you like music). Robert Delaunay rarely worked alone: his partner{' '}<strong>Sonia Delaunay</strong>{' '}drove the same colour experiments and carried them off the canvas entirely, into fabric, fashion and
         book design — which is a large part of why Orphism outlived the painting room.
       </p>
 
       <SectionHeader accent={accent} label="New York · 1913" title="The freight train reaches America" />
       <p style={proseStyle}>
-        In February 1913 a vast show called the <strong>Armory Show</strong> opened in a New York drill hall and
-        dragged European modern art in front of the American public for the first time. The
-        <em> succès de scandale</em> — a hit precisely <em>because</em> it caused a scandal — was a
-        Cubo-Futurist canvas by Marcel Duchamp, <em>Nude Descending a Staircase</em>: a figure smeared into a
+        In February 1913 a vast show called the{' '}<strong>Armory Show</strong>{' '}opened in a New York drill hall and
+        dragged European modern art in front of the American public for the first time. The{' '}<em> succès de scandale</em>{' '}— a hit precisely{' '}<em>because</em>{' '}it caused a scandal — was a
+        Cubo-Futurist canvas by Marcel Duchamp,{' '}<em>Nude Descending a Staircase</em>: a figure smeared into a
         cascade of overlapping slats, less a nude than the photographic blur of one walking downstairs. A
         baffled critic called it &ldquo;an explosion in a shingle factory&rdquo;; a newspaper cartoonist redrew
         it as &ldquo;the rude descending a staircase — rush hour at the subway.&rdquo; People queued to be
@@ -388,13 +382,12 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="After" title="A language, loose in the world" />
       <p style={proseStyle}>
-        Picasso, during and after the war, swerved — into stage designs for the <em>Ballets Russes</em> (the
+        Picasso, during and after the war, swerved — into stage designs for the{' '}<em>Ballets Russes</em>{' '}(the
         dazzling Paris-based Russian dance company everyone in the arts was chasing), into a cool neoclassicism
         of heavy, stone-coloured figures that looked back to ancient Greece and Rome, and then back into a flat,
-        bright, almost decorative Cubism in big set-pieces like <em>Three Musicians</em>. Juan Gris carried the
+        bright, almost decorative Cubism in big set-pieces like{' '}<em>Three Musicians</em>. Juan Gris carried the
         strict version forward as an almost classical system until his early death in 1927. The movement as a
-        daily shared adventure was over by 1914; but by then it had stopped being a movement and become a
-        <em> language</em>.
+        daily shared adventure was over by 1914; but by then it had stopped being a movement and become a{' '}<em> language</em>.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -402,7 +395,7 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.picassoThreeMusicians}
         ratio="5/6"
         alt="Picasso, Three Musicians"
-        caption={<>Picasso, <em>Three Musicians</em>, 1921 — Philadelphia Museum of Art. Three masked carnival figures — a Harlequin, a Pierrot, a monk — built from flat coloured cut-outs: the broken window of Analytic Cubism turned into stained glass.</>}
+        caption={<>Picasso,{' '}<em>Three Musicians</em>, 1921 — Philadelphia Museum of Art. Three masked carnival figures — a Harlequin, a Pierrot, a monk — built from flat coloured cut-outs: the broken window of Analytic Cubism turned into stained glass.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -414,7 +407,7 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
         handed the rest of the century its grammar.
       </p>
       <p style={italicStyle}>
-        To watch it all begin in a single object, drop one level down to <em>Les Demoiselles d&rsquo;Avignon</em>
+        To watch it all begin in a single object, drop one level down to{' '}<em>Les Demoiselles d&rsquo;Avignon</em>
         — the canvas that fired the starting gun.
       </p>
     </article>
