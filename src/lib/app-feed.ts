@@ -64,10 +64,13 @@ function civPool(): FeedItem[] {
 }
 
 function warPool(): FeedItem[] {
+  // Everything under the Civil War (theatres, battles, off-field themes) carries
+  // the war's own icon — only the 12 WAR_EVENTS get their distinct emblem.
+  const ACW_ICON = '/war-icons/cw.webp'
   const wars: FeedItem[] = WAR_EVENTS.map(w => ({ kind: 'war', type: 'War', title: w.name, blurb: w.hook, href: w.href ?? '/war', icon: `/war-icons/${w.id}.webp` }))
-  const theatres: FeedItem[] = THEATRE_NAV.map(t => ({ kind: 'war', type: 'Theatre', title: t.label, blurb: THEATRE_BLURB[t.id] ?? '', href: t.href }))
-  const battles: FeedItem[] = MAJORS.filter(b => b.href).map(b => ({ kind: 'war', type: `${THEATRE_LABEL[b.theatre]} battle`, title: b.name, blurb: `${b.place} · ${b.mo} ${b.year}`, href: b.href! }))
-  const themes: FeedItem[] = THEMES.filter(t => t.href).map(t => ({ kind: 'war', type: 'Off the field', title: t.name, blurb: t.hook, href: t.href! }))
+  const theatres: FeedItem[] = THEATRE_NAV.map(t => ({ kind: 'war', type: 'Theatre', title: t.label, blurb: THEATRE_BLURB[t.id] ?? '', href: t.href, icon: ACW_ICON }))
+  const battles: FeedItem[] = MAJORS.filter(b => b.href).map(b => ({ kind: 'war', type: `${THEATRE_LABEL[b.theatre]} battle`, title: b.name, blurb: `${b.place} · ${b.mo} ${b.year}`, href: b.href!, icon: ACW_ICON }))
+  const themes: FeedItem[] = THEMES.filter(t => t.href).map(t => ({ kind: 'war', type: 'Off the field', title: t.name, blurb: t.hook, href: t.href!, icon: ACW_ICON }))
   return [...wars, ...theatres, ...battles, ...themes].filter(i => i.blurb)
 }
 

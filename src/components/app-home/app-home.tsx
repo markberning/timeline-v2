@@ -68,10 +68,20 @@ function Eyebrow({ e, color, size }: { e: FeedItem; color: string; size: number 
 
 function Card({ e, horizontal }: { e: FeedItem; horizontal?: boolean }) {
   const color = ACCENT[e.kind]
-  const emblem = e.icon
-    // eslint-disable-next-line @next/next/no-img-element
-    ? <img src={e.icon} alt="" loading="lazy" style={{ width: horizontal ? 52 : 38, height: horizontal ? 52 : 38, objectFit: 'contain' }} className="dark:brightness-150" />
-    : <ThreadEmblem kind={e.kind} size={horizontal ? 44 : 32} />
+  // Every feed icon is tinted to its thread colour: use the emblem (per-item or
+  // the thread fallback) as a mask filled with the accent — so all civ emblems
+  // read orange, wars rust, etc., regardless of the source artwork's colour.
+  const iconSrc = e.icon ?? `/thread-icons/${e.kind}.webp`
+  const sz = horizontal ? 50 : 38
+  const emblem = (
+    <span aria-hidden style={{
+      display: 'block', width: sz, height: sz, backgroundColor: color,
+      WebkitMaskImage: `url("${iconSrc}")`, maskImage: `url("${iconSrc}")`,
+      WebkitMaskRepeat: 'no-repeat', maskRepeat: 'no-repeat',
+      WebkitMaskPosition: 'center', maskPosition: 'center',
+      WebkitMaskSize: 'contain', maskSize: 'contain',
+    }} />
+  )
 
   // 1-column: the original horizontal card — emblem left, roomier text right.
   if (horizontal) {
