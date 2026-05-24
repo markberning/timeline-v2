@@ -263,9 +263,20 @@ frame and crop it.
   hero credit renders under the banner). Inline figures + the Canvas Viewer already caption
   underneath with the museum. **EVERY image gets a credit with its current location — including
   the small cord/list/browse cards** (an unattributed Monet on a movement card is a defect).
-  On a cord card the credit is a **bold** line at the end of the card text (the `credit` field on
-  EraMovement / MovementWork; the card grows via `minHeight` so it never clips). User-locked
-  2026-05-23.
+  Two placements, locked 2026-05-23:
+  - **Narrative-image figures** (`PaintingFigure`): the descriptive caption (italic) and the
+    credit are SEPARATE — the credit is a **bold** line under the caption via the `credit` prop
+    (`Artist, Title, year · Current Museum, City`); the caption is description only. (This is what
+    the user meant by "credit at the end in bold" — it is for the images IN THE NARRATIVE.)
+  - **Cord/list cards** (`credit` field on EraMovement / MovementWork): the credit is a small line
+    at the end of the card text, **NOT bold** (muted). The card grows via `minHeight` so it never
+    clips. NOTE: a flex image column needs `alignSelf:stretch` + `height:auto` (NOT `height:100%`)
+    or it collapses to zero once the card is `minHeight`.
+
+  **JSX whitespace gotcha (cost two rounds):** an inline `<em>`/`<strong>` at a source line break
+  loses the adjacent space in the build (e.g. "Post-Impressionistsnever"). Fix: put an explicit
+  `{' '}` on every whitespace boundary touching an inline tag, and VERIFY with
+  `grep -rE '</(em|strong)>[A-Za-z]|[A-Za-z]<(em|strong)>' out/art` (must be empty).
 - **Hero eyebrow stays white** (`rgba(255,255,255,0.9)` + shadow), NOT the accent — accent
   (violet) text was unreadable over dark paintings like Starry Night. Accent identity lives
   in the breadcrumb/accordion, not in text laid over imagery.

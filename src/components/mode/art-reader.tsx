@@ -99,7 +99,7 @@ export function LineageStrip({ accent, parents, descendants }: { accent: string;
 // ─────────────────────────────────────────────────────────────
 // Inline figure — full treatment (pre-1931 / PD-US) with a Rights line + zoom.
 // ─────────────────────────────────────────────────────────────
-export function PaintingFigure({ imageUrl, palette, alt, caption, rights, ratio = '4/5', onZoom }: { imageUrl: string; palette: [string, string, string]; alt: string; caption: React.ReactNode; rights?: React.ReactNode; ratio?: string; onZoom?: (src: string, cap: string) => void }) {
+export function PaintingFigure({ imageUrl, palette, alt, caption, credit, rights, ratio = '4/5', onZoom }: { imageUrl: string; palette: [string, string, string]; alt: string; caption: React.ReactNode; credit?: React.ReactNode; rights?: React.ReactNode; ratio?: string; onZoom?: (src: string, cap: string) => void }) {
   const [failed, setFailed] = useState(false)
   const captionText = typeof caption === 'string' ? caption : alt
   return (
@@ -117,6 +117,9 @@ export function PaintingFigure({ imageUrl, palette, alt, caption, rights, ratio 
         )}
       </div>
       <figcaption style={{ marginTop: 11, fontFamily: SERIF, fontSize: 12.5, fontStyle: 'italic', color: MUTED, lineHeight: 1.45 }}>{caption}</figcaption>
+      {credit && (
+        <div style={{ marginTop: 7, fontFamily: SANS, fontSize: 12, fontWeight: 700, lineHeight: 1.4, color: INK, letterSpacing: 0.1 }}>{credit}</div>
+      )}
       {rights && (
         <div style={{ display: 'flex', gap: 7, alignItems: 'flex-start', fontFamily: SANS, fontSize: 11.5, lineHeight: 1.5, color: FAINT, padding: '7px 0 0', borderTop: `1px dashed ${BORDER}`, marginTop: 9 }}>
           <b style={{ color: MUTED, fontWeight: 600 }}>Rights</b><span>{rights}</span>

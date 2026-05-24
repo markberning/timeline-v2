@@ -51,7 +51,8 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.cezanneBathers}
         ratio="6/5"
         alt="Cézanne, The Large Bathers"
-        caption={<>Cézanne,{' '}<em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art. The bathers, the trees and the sky are all built from the same blunt facets.</>}
+        caption={<>The bathers, the trees and the sky are all built from the same blunt facets.</>}
+        credit={<>Cézanne,{' '}<em>The Large Bathers</em>, 1898–1905 · Philadelphia Museum of Art</>}
         rights="Public domain worldwide (Paul Cézanne died 1906). Wikimedia Commons."
       />
       <p style={proseStyle}>
@@ -102,7 +103,8 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.braqueEstaque}
         ratio="4/5"
         alt="Braque, Houses at l'Estaque"
-        caption={<>Braque,{' '}<em>Houses at L&rsquo;Estaque</em>, 1908 — Lille Métropole Museum. The houses are stacked like a child&rsquo;s building blocks, the sky squeezed flat behind them.</>}
+        caption={<>The houses are stacked like a child&rsquo;s building blocks, the sky squeezed flat behind them.</>}
+        credit={<>Braque,{' '}<em>Houses at L&rsquo;Estaque</em>, 1908 · Lille Métropole Museum</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -148,7 +150,8 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.picassoHorta}
         ratio="5/6"
         alt="Picasso, Houses on the Hill, Horta de Ebro"
-        caption={<>Picasso,{' '}<em>Houses on the Hill, Horta de Ebro</em>, summer 1909. The whole village and its hill are cut from one set of facets, so it is hard to say where the rock stops and the houses begin.</>}
+        caption={<>The whole village and its hill are cut from one set of facets, so it is hard to say where the rock stops and the houses begin.</>}
+        credit={<>Picasso,{' '}<em>Houses on the Hill, Horta de Ebro</em>, 1909 · private collection</>}
         rights={PD_RIGHTS}
       />
 
@@ -176,7 +179,8 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.kahnweiler}
         ratio="3/4"
         alt="Picasso, Portrait of Daniel-Henry Kahnweiler"
-        caption={<>Picasso,{' '}<em>Portrait of Daniel-Henry Kahnweiler</em>, 1910 — Art Institute of Chicago. Find the watch chain and the clasped hands first; the rest of the man assembles itself around them.</>}
+        caption={<>Find the watch chain and the clasped hands first; the rest of the man assembles itself around them.</>}
+        credit={<>Picasso,{' '}<em>Portrait of Daniel-Henry Kahnweiler</em>, 1910 · Art Institute of Chicago</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -192,7 +196,8 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.braqueViolinJug}
         ratio="3/4"
         alt="Braque, Violin and Jug"
-        caption={<>Braque,{' '}<em>Violin and Jug</em>, 1910 — Kunstmuseum Basel. The painted nail at the very top throws a real-looking shadow over a picture that has otherwise abandoned realism.</>}
+        caption={<>The painted nail at the very top throws a real-looking shadow over a picture that has otherwise abandoned realism.</>}
+        credit={<>Braque,{' '}<em>Violin and Jug</em>, 1910 · Kunstmuseum Basel</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -224,7 +229,8 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.girlWithMandolin}
         ratio="5/6"
         alt="Picasso, Girl with a Mandolin"
-        caption={<>Picasso,{' '}<em>Girl with a Mandolin (Fanny Tellier)</em>, 1910 — MoMA. Already at the edge of legibility; within a year the pictures would push past it.</>}
+        caption={<>Already at the edge of legibility; within a year the pictures would push past it.</>}
+        credit={<>Picasso,{' '}<em>Girl with a Mandolin (Fanny Tellier)</em>, 1910 · MoMA</>}
         rights={PD_RIGHTS}
       />
 
@@ -284,7 +290,8 @@ const PaperNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.grisBreakfast}
         ratio="4/5"
         alt="Juan Gris, Le Petit Déjeuner (Breakfast)"
-        caption={<>The new technique in another pair of hands:{' '}<em>Le Petit Déjeuner (Breakfast)</em>, 1914, by Juan Gris (a younger Spanish Cubist) — Centre Pompidou, Paris. Real printed wallpaper and paper are pasted straight into the picture.</>}
+        caption={<>The new technique in another pair of hands (Juan Gris, a younger Spanish Cubist): real printed wallpaper and paper pasted straight into the picture.</>}
+        credit={<>Juan Gris,{' '}<em>Le Petit Déjeuner (Breakfast)</em>, 1914 · Centre Pompidou, Paris</>}
         rights="Public domain worldwide (Juan Gris died 1927). Wikimedia Commons."
       />
 
@@ -329,7 +336,8 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.metzingerTea}
         ratio="4/5"
         alt="Jean Metzinger, Tea Time"
-        caption={<>Jean Metzinger,{' '}<em>Le Goûter (Tea Time)</em>, 1911 — Philadelphia Museum of Art. A woman with a teacup, her face split into a calm front-and-profile at once. A critic dubbed it &ldquo;the Mona Lisa of Cubism&rdquo;; the Salon Cubists kept the figure far more readable than the founders did.</>}
+        caption={<>A woman with a teacup, her face split into a calm front-and-profile at once. A critic dubbed it &ldquo;the Mona Lisa of Cubism&rdquo;; the Salon Cubists kept the figure far more readable than the founders did.</>}
+        credit={<>Jean Metzinger,{' '}<em>Le Goûter (Tea Time)</em>, 1911 · Philadelphia Museum of Art</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -395,7 +403,8 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.picassoThreeMusicians}
         ratio="5/6"
         alt="Picasso, Three Musicians"
-        caption={<>Picasso,{' '}<em>Three Musicians</em>, 1921 — Philadelphia Museum of Art. Three masked carnival figures — a Harlequin, a Pierrot, a monk — built from flat coloured cut-outs: the broken window of Analytic Cubism turned into stained glass.</>}
+        caption={<>Three masked carnival figures — a Harlequin, a Pierrot, a monk — built from flat coloured cut-outs: the broken window of Analytic Cubism turned into stained glass.</>}
+        credit={<>Picasso,{' '}<em>Three Musicians</em>, 1921 · Philadelphia Museum of Art</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
