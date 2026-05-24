@@ -48,23 +48,22 @@ function ThreadEmblem({ kind, size }: { kind: TlKind; size: number }) {
 
 function Card({ e }: { e: FeedItem }) {
   const color = ACCENT[e.kind]
+  const clamp2: React.CSSProperties = { display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }
   return (
-    <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-      <div style={{ display: 'flex', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
-        <div style={{ width: 88, flexShrink: 0, alignSelf: 'stretch', minHeight: 78, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          {e.icon
-            // eslint-disable-next-line @next/next/no-img-element
-            ? <img src={e.icon} alt="" loading="lazy" style={{ width: 52, height: 52, objectFit: 'contain' }} className="dark:brightness-150" />
-            : <ThreadEmblem kind={e.kind} size={44} />}
+    <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
+      <div style={{ height: 76, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        {e.icon
+          // eslint-disable-next-line @next/next/no-img-element
+          ? <img src={e.icon} alt="" loading="lazy" style={{ width: 46, height: 46, objectFit: 'contain' }} className="dark:brightness-150" />
+          : <ThreadEmblem kind={e.kind} size={38} />}
+      </div>
+      <div style={{ flex: 1, minWidth: 0, padding: '9px 11px 11px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5, minWidth: 0 }}>
+          <span style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', minWidth: 0 }}>{e.type}</span>
+          {e.soon && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 5px', borderRadius: 999 }}>Soon</span>}
         </div>
-        <div style={{ flex: 1, minWidth: 0, padding: '10px 13px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-            <span style={{ fontFamily: SANS, fontSize: 10.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color }}>{e.type}</span>
-            {e.soon && <span style={{ fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 5px', borderRadius: 999 }}>Soon</span>}
-          </div>
-          <div style={{ fontFamily: SERIF, fontSize: 17, color: INK, lineHeight: 1.15, marginTop: 3 }}>{e.title}</div>
-          <div style={{ fontFamily: SANS, fontSize: 12.5, lineHeight: 1.45, color: MUTED, marginTop: 4, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{e.blurb}</div>
-        </div>
+        <div style={{ fontFamily: SERIF, fontSize: 15, color: INK, lineHeight: 1.18, marginTop: 3, ...clamp2 }}>{e.title}</div>
+        <div style={{ fontFamily: SANS, fontSize: 11.5, lineHeight: 1.4, color: MUTED, marginTop: 4, ...clamp2 }}>{e.blurb}</div>
       </div>
     </a>
   )
@@ -122,7 +121,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
                 Shuffle
               </button>
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: 10 }}>
               {feed.map((e, i) => <Card key={i} e={e} />)}
             </div>
           </div>
