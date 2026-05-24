@@ -131,14 +131,50 @@ function Soon() {
   return <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.7, textTransform: 'uppercase', color: FAINT, border: `1px solid ${FAINT}`, borderRadius: 999, padding: '1px 6px' }}>soon</span>
 }
 
+// The leading "Civ ▾" pill — switches verticals (Civ/War/Art/Music). Shared by
+// the reader breadcrumb and the home bar. `accent` colours the ✓ on the current.
+export function ModePill({ accent }: { accent: string }) {
+  const mode = useMenu()
+  const ell: React.CSSProperties = { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
+  return (
+    <span style={{ position: 'relative', flexShrink: 0 }}>
+      <button ref={mode.btnRef} onClick={() => mode.setOpen(o => !o)} aria-expanded={mode.open} style={{
+        display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px', fontFamily: SANS, fontSize: 11, fontWeight: 600,
+        color: MUTED, background: mode.open ? OPEN_BG : CHIP, borderRadius: 999, border: `1px solid ${PILL_BORDER}`, cursor: 'pointer',
+      }}>
+        <span>Civ</span><Chevron open={mode.open} />
+      </button>
+      <MenuPanel m={mode}>
+        {TL_KIND_ORDER.map(k => {
+          const live = TL_KIND_LIVE[k]
+          const href = live ? MODE_HREF[k] : undefined
+          const current = k === 'civ'
+          if (!href) return (
+            <div key={k} style={{ ...rowBase, cursor: 'default', color: FAINT }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={ell}>{MODE_SHORT[k]}</span></span><Soon />
+            </div>
+          )
+          return (
+            <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={ell}>{MODE_SHORT[k]}</span></span>
+              {current ? <Check accent={accent} /> : null}
+            </a>
+          )
+        })}
+      </MenuPanel>
+    </span>
+  )
+}
+
 export interface CivBreadcrumbProps {
   civId: string
   civLabel: string
   region: NavigatorRegion
-  chapters: { number: number; title: string }[]
+  chapters?: { number: number; title: string }[]
+  hideChapters?: boolean // home bar: no chapters, so drop the "Chp" pill
 }
 
-export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcrumbProps) {
+export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChapters = false }: CivBreadcrumbProps) {
   const accent = REGION_COLORS[region]
 
   // The picker always reflects the civ you're on. Selecting a region / chain /
@@ -151,7 +187,6 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
   // standalone civs via the synthetic chain.)
   const isStandalone = !CIV_CHAIN_MAP.has(civId)
 
-  const mode = useMenu()
   const reg = useMenu()
   const chn = useMenu()
   const civ = useMenu()
@@ -190,33 +225,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
       borderBottom: BORDER, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8, minHeight: 34, boxSizing: 'border-box',
     }}>
       <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflow: 'hidden', whiteSpace: 'nowrap' }}>
-        {/* ── mode pill ── */}
-        <span style={{ position: 'relative', flexShrink: 0 }}>
-          <button ref={mode.btnRef} onClick={() => mode.setOpen(o => !o)} aria-expanded={mode.open} style={{
-            display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px', fontFamily: SANS, fontSize: 11, fontWeight: 600,
-            color: MUTED, background: mode.open ? OPEN_BG : CHIP, borderRadius: 999, border: `1px solid ${PILL_BORDER}`, cursor: 'pointer',
-          }}>
-            <span>Civ</span><Chevron open={mode.open} />
-          </button>
-          <MenuPanel m={mode}>
-            {TL_KIND_ORDER.map(k => {
-              const live = TL_KIND_LIVE[k]
-              const href = live ? MODE_HREF[k] : undefined
-              const current = k === 'civ'
-              if (!href) return (
-                <div key={k} style={{ ...rowBase, cursor: 'default', color: FAINT }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={segLabel}>{MODE_SHORT[k]}</span></span><Soon />
-                </div>
-              )
-              return (
-                <a key={k} href={href} onClick={() => mode.setOpen(false)} style={{ ...rowBase, fontWeight: current ? 700 : 500, textDecoration: 'none', background: current ? CHIP : 'transparent' }}>
-                  <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={segLabel}>{MODE_SHORT[k]}</span></span>
-                  {current ? <Check accent={accent} /> : null}
-                </a>
-              )
-            })}
-          </MenuPanel>
-        </span>
+        <ModePill accent={accent} />
 
         {sep}
 
@@ -297,6 +306,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
           </span>
         </span>
 
+        {!hideChapters && (<>
         {sep}
 
         {/* ── chapters — jumps to a chapter within this single page ── */}
@@ -321,6 +331,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters }: CivBreadcru
             })}
           </MenuPanel>
         </span>
+        </>)}
       </nav>
 
       <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
