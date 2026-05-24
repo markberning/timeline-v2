@@ -221,8 +221,15 @@ function ChainsView({ query }: { query: string }) {
                     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 8, marginTop: 10 }}>
                       {civs.map((tl, i) => {
                         const match = !query || civMatches(tl.id, query)
+                        const emblem = getCivEmblemPath(tl.id)
                         const pill = (
-                          <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 10, fontWeight: 600, color, background: alpha(color, match ? 0.14 : 0.06), opacity: match ? 1 : 0.4, padding: '3px 8px', borderRadius: 999, whiteSpace: 'nowrap' }}>{tl.label}</span>
+                          <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6, flexShrink: 0, fontFamily: SANS, fontSize: 11.5, fontWeight: 600, color, background: alpha(color, match ? 0.14 : 0.06), opacity: match ? 1 : 0.4, padding: emblem ? '4px 11px 4px 5px' : '4px 11px', borderRadius: 999, whiteSpace: 'nowrap' }}>
+                            {emblem && (
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img src={emblem} alt="" loading="lazy" style={{ width: 18, height: 18, objectFit: 'contain', flexShrink: 0 }} className="dark:brightness-150" />
+                            )}
+                            {tl.label}
+                          </span>
                         )
                         return (
                           <span key={tl.id} style={{ display: 'inline-flex', alignItems: 'center', gap: 8, flexShrink: 0 }}>
