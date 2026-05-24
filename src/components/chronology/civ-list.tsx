@@ -207,7 +207,7 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
               civ.hasContent ? 'cursor-pointer active:opacity-80' : 'opacity-35'
             }`}
             style={{ '--row-color': color } as React.CSSProperties}
-            onClick={() => civ.hasContent && (window.location.href = `/${civ.id}/`)}
+            onClick={() => civ.hasContent && (window.location.href = `/civ/${civ.id}/`)}
           >
             <div className="civ-row-inner pl-3">
               <div className="flex-1 min-w-0">

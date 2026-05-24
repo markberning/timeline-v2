@@ -81,7 +81,7 @@ export function DetailPane({ activeCivId, onSelect }: DetailPaneProps) {
           <button
             className="mt-4 inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-bold text-white transition-opacity hover:opacity-90"
             style={{ backgroundColor: regionColor }}
-            onClick={() => { window.location.href = `/${civ.id}/` }}
+            onClick={() => { window.location.href = `/civ/${civ.id}/` }}
           >
             Enter {civ.label} →
           </button>

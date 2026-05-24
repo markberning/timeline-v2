@@ -69,7 +69,7 @@ if (exitCode === 0) {
   const shipped = [...navSrc.matchAll(/id:\s*'([a-z0-9-]+)'[^}]*hasContent:\s*true/g)].map((m) => m[1])
   const missing = []
   for (const id of shipped) {
-    const p = join(ROOT, 'out', id, 'index.html')
+    const p = join(ROOT, 'out', 'civ', id, 'index.html')
     if (!existsSync(p) || statSync(p).size < 20000) {
       missing.push(`${id}${existsSync(p) ? ` (thin ${statSync(p).size}b)` : ' (absent)'}`)
     }

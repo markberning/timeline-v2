@@ -19,7 +19,7 @@ export function ChapterListItem({
 }: ChapterListItemProps) {
   return (
     <Link
-      href={`/${civilizationId}/${slug}`}
+      href={`/civ/${civilizationId}/${slug}`}
       className="block py-4 border-b border-foreground/10 last:border-b-0"
     >
       <div className="flex items-baseline gap-3">

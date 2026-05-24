@@ -148,7 +148,7 @@ export default function GlobeView() {
         .polygonLabel(() => '')
         .polygonsTransitionDuration(200)
         .onPolygonClick((d: any) => {
-          if (d.type === 'civ' && d.hasContent) window.location.href = `/${d.id}`
+          if (d.type === 'civ' && d.hasContent) window.location.href = `/civ/${d.id}`
         })
         .onPolygonHover((d: any) => {
           if (d?.type === 'civ') setHovered(d.id)
@@ -166,7 +166,7 @@ export default function GlobeView() {
           setHovered(point?.id ?? null)
         })
         .onPointClick((point: any) => {
-          if (point?.hasContent) window.location.href = `/${point.id}`
+          if (point?.hasContent) window.location.href = `/civ/${point.id}`
         })
 
         .width(window.innerWidth)
@@ -296,7 +296,7 @@ export default function GlobeView() {
                     onMouseEnter={() => setHoveredRef.current(civ.id)}
                     onMouseLeave={() => setHoveredRef.current(null)}
                     onClick={() => {
-                      if (civ.hasContent) window.location.href = `/${civ.id}`
+                      if (civ.hasContent) window.location.href = `/civ/${civ.id}`
                     }}
                     className={`w-full text-left px-4 py-1.5 flex items-center gap-2.5 transition-colors ${
                       hoveredId === civ.id ? 'bg-white/10' : 'hover:bg-white/5'
@@ -333,7 +333,7 @@ export default function GlobeView() {
             <button
               onClick={() => {
                 if (activeCiv.hasContent)
-                  window.location.href = `/${activeCiv.id}`
+                  window.location.href = `/civ/${activeCiv.id}`
               }}
               className="w-full text-left p-5"
               style={{ borderLeft: `4px solid ${activeCiv.color}` }}

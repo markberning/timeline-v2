@@ -56,7 +56,7 @@ const THEATRE_LABEL: Record<string, string> = { east: 'Eastern', west: 'Western'
 function civPool(): FeedItem[] {
   return SORTED_CIVS
     .filter(c => c.hasContent)
-    .map(c => ({ kind: 'civ' as const, type: 'Civilization', title: c.label, blurb: CIV_BLURBS[c.id] ?? c.subtitle ?? '', href: `/${c.id}`, icon: getCivEmblemPath(c.id) ?? undefined }))
+    .map(c => ({ kind: 'civ' as const, type: 'Civilization', title: c.label, blurb: CIV_BLURBS[c.id] ?? c.subtitle ?? '', href: `/civ/${c.id}`, icon: getCivEmblemPath(c.id) ?? undefined }))
     .filter(i => i.blurb)
 }
 

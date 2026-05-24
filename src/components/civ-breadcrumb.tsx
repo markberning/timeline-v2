@@ -273,7 +273,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
                 )
                 const target = firstCivOfRegion(r)
                 return (
-                  <a key={r} href={target ? `/${target}` : undefined} onClick={() => reg.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
+                  <a key={r} href={target ? `/civ/${target}` : undefined} onClick={() => reg.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
                 )
               })}
             </MenuPanel>
@@ -299,7 +299,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
                   <div key={c.id} title={c.label} style={{ ...rowBase, cursor: 'default', color: FAINT }}>{label}<Soon /></div>
                 )
                 return (
-                  <a key={c.id} href={`/${target}`} onClick={() => chn.setOpen(false)} title={c.label} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
+                  <a key={c.id} href={`/civ/${target}`} onClick={() => chn.setOpen(false)} title={c.label} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
                 )
               })}
             </MenuPanel>
@@ -324,7 +324,7 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
                   <div key={tl.id} style={{ ...rowBase, cursor: 'default', color: FAINT }}>{label}<Soon /></div>
                 )
                 return (
-                  <a key={tl.id} href={`/${tl.id}`} onClick={() => civ.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
+                  <a key={tl.id} href={`/civ/${tl.id}`} onClick={() => civ.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
                 )
               }) : <div style={{ ...rowBase, cursor: 'default', color: FAINT }}>No civilizations</div>}
             </MenuPanel>

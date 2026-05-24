@@ -53,7 +53,7 @@ export function CrossLinkSheet({ crossLink, onClose }: CrossLinkSheetProps) {
   const accent = isDark ? crossLink.targetColorDark : crossLink.targetColorLight
 
   function jumpToTarget() {
-    window.location.href = `/${crossLink!.targetTl}?chapter=${crossLink!.targetChapter}`
+    window.location.href = `/civ/${crossLink!.targetTl}?chapter=${crossLink!.targetChapter}`
   }
 
   return (

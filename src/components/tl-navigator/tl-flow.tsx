@@ -202,7 +202,7 @@ export function TlFlow({ tls, enabledZones, rowHeight, theme, soloChainId, onCha
       onOfflineBlockedRef.current(tlId)
       return
     }
-    window.location.href = `/${tlId}`
+    window.location.href = `/civ/${tlId}`
   }
 
   useLayoutEffect(() => {

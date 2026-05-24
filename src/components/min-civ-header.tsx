@@ -58,7 +58,7 @@ export function MinCivHeader({ label, dates, prev, next }: MinCivHeaderProps) {
       <div className="flex-1 min-w-0">
         {prev && (prev.hasContent ? (
           <a
-            href={`/${prev.id}`}
+            href={`/civ/${prev.id}`}
             className="flex items-center gap-1 min-w-0 hover:opacity-80 transition-opacity"
             style={{ color: 'var(--accent-text)' }}
           >
@@ -87,7 +87,7 @@ export function MinCivHeader({ label, dates, prev, next }: MinCivHeaderProps) {
       <div className="flex-1 min-w-0">
         {next && (next.hasContent ? (
           <a
-            href={`/${next.id}`}
+            href={`/civ/${next.id}`}
             className="flex items-center justify-end gap-1 min-w-0 hover:opacity-80 transition-opacity"
             style={{ color: 'var(--accent-text)' }}
           >

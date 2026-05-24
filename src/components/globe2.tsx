@@ -993,7 +993,7 @@ export default function Globe2() {
             )}
             {readerSlug && (
               <a
-                href={`/${readerSlug}`}
+                href={`/civ/${readerSlug}`}
                 className={styles.readBtn}
                 style={{ background: cardColor }}
               >

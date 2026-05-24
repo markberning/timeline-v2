@@ -672,7 +672,7 @@ async function parseNarrative(filename: string, tlId: string, tlMetaMap: Map<str
   // and the unique thumbnail URLs for events + glossary. /_next/static/*
   // chunks are runtime-cached by the SW on first visit, so they don't
   // need to be in the manifest.
-  const pageUrl = `/${tlId}/`
+  const pageUrl = `/civ/${tlId}/`
   const mapUrls: string[] = []
   for (const ch of chapters) {
     const webp = join(MAPS_DIR, tlId, `chapter-${ch.number}.webp`)

@@ -242,7 +242,7 @@ export function SearchOverlay({ onClose }: SearchOverlayProps) {
                       onClick={() => {
                         // Pass a unique snippet from this sentence so the reader finds the exact paragraph
                         const snippet = sentence.slice(0, 60).trim()
-                        window.location.href = `/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}&snippet=${encodeURIComponent(snippet)}`
+                        window.location.href = `/civ/${result.tlId}/?chapter=${ch.number}&highlight=${encodeURIComponent(query.trim())}&snippet=${encodeURIComponent(snippet)}`
                       }}
                     >
                       <HighlightedText text={sentence} query={query.trim()} />

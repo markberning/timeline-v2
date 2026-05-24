@@ -10,7 +10,7 @@ interface CivilizationCardProps {
 export function CivilizationCard({ id, label, accentColor, chapterCount }: CivilizationCardProps) {
   return (
     <Link
-      href={`/${id}`}
+      href={`/civ/${id}`}
       className="block rounded-lg border border-foreground/10 p-5 transition-colors hover:border-foreground/20"
       style={{ borderLeftColor: accentColor, borderLeftWidth: 4 }}
     >

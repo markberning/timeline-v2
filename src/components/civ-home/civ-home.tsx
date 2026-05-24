@@ -173,7 +173,7 @@ function TimelineView({ query, onFilterChain }: { query: string; onFilterChain: 
                 <div style={{ position: 'relative' }}>
                   <div style={{ position: 'absolute', left: '50%', top: 15, transform: 'translate(-50%,-50%)', width: 10, height: 10, borderRadius: 999, background: color, boxShadow: `0 0 0 3px ${alpha(color, 0.18)}` }} />
                 </div>
-                <a href={civ.hasContent ? `/${civ.id}` : undefined} style={{ display: 'block', textDecoration: 'none', color: 'inherit', paddingBottom: 12 }}>
+                <a href={civ.hasContent ? `/civ/${civ.id}` : undefined} style={{ display: 'block', textDecoration: 'none', color: 'inherit', paddingBottom: 12 }}>
                   {civCardInner(civ, ci, color, true, onFilterChain)}
                 </a>
               </div>
@@ -238,7 +238,7 @@ function ChainsView({ query }: { query: string }) {
                         return (
                           <span key={tl.id} style={{ display: 'inline-flex', alignItems: 'center', gap: 8, flexShrink: 0 }}>
                             {i > 0 && <span aria-hidden style={{ flexShrink: 0, color: alpha(color, 0.55), fontFamily: SANS, fontSize: 11, lineHeight: 1 }}>→</span>}
-                            {tl.hasContent ? <a href={`/${tl.id}`} style={{ textDecoration: 'none' }}>{pill}</a> : pill}
+                            {tl.hasContent ? <a href={`/civ/${tl.id}`} style={{ textDecoration: 'none' }}>{pill}</a> : pill}
                           </span>
                         )
                       })}
