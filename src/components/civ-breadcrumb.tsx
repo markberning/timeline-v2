@@ -137,13 +137,25 @@ export function ModePill({ accent }: { accent: string }) {
   const mode = useMenu()
   const ell: React.CSSProperties = { overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
   return (
-    <span style={{ position: 'relative', flexShrink: 0 }}>
-      <button ref={mode.btnRef} onClick={() => mode.setOpen(o => !o)} aria-expanded={mode.open} style={{
-        display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px', fontFamily: SANS, fontSize: 11, fontWeight: 600,
-        color: MUTED, background: mode.open ? OPEN_BG : CHIP, borderRadius: 999, border: `1px solid ${PILL_BORDER}`, cursor: 'pointer',
+    <span style={{ position: 'relative', flexShrink: 0, display: 'inline-flex' }}>
+      {/* split pill: the "Civ" label links to the civ home; the chevron opens
+          the app switcher (Civ/War/Art/Music). */}
+      <span style={{
+        display: 'inline-flex', alignItems: 'stretch', borderRadius: 999, overflow: 'hidden',
+        border: `1px solid ${PILL_BORDER}`, background: mode.open ? OPEN_BG : CHIP,
       }}>
-        <span>Civ</span><Chevron open={mode.open} />
-      </button>
+        <a href="/" aria-label="Civ home" style={{
+          display: 'inline-flex', alignItems: 'center', padding: '3px 7px 3px 10px',
+          fontFamily: SANS, fontSize: 11, fontWeight: 600, color: MUTED, textDecoration: 'none', cursor: 'pointer',
+        }}>Civ</a>
+        <span aria-hidden style={{ width: 1, alignSelf: 'stretch', background: DIVIDER, flexShrink: 0 }} />
+        <button ref={mode.btnRef} onClick={() => mode.setOpen(o => !o)} aria-expanded={mode.open} aria-label="Switch app" style={{
+          display: 'inline-flex', alignItems: 'center', padding: '3px 7px', appearance: 'none', border: 'none',
+          background: 'transparent', color: MUTED, cursor: 'pointer',
+        }}>
+          <Chevron open={mode.open} />
+        </button>
+      </span>
       <MenuPanel m={mode}>
         {TL_KIND_ORDER.map(k => {
           const href = MODE_HREF[k]
