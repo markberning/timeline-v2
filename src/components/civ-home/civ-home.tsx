@@ -310,7 +310,7 @@ export function CivHome() {
           <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, marginBottom: 7 }}>
             <s style={{ textDecorationThickness: '1.5px' }}>Complete</s> Partial History of People Living Together
           </div>
-          <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Stuff Happened</h1>
+          <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Civilizations</h1>
           <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every civilization that ever rose, peaked, and fell apart, told as one readable story — and we explain everything, including the parts your textbook assumed you already knew.</p>
         </div>
 
