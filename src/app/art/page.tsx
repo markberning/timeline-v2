@@ -20,7 +20,7 @@ const MODE_HREF: Record<TlKind, string | undefined> = { civ: '/', war: '/war', a
 function artHomeCrumbs(): Crumb[] {
   const modeOptions: CrumbOption[] = TL_KIND_ORDER.map(k => ({ label: MODE_SHORT[k], href: MODE_HREF[k], disabled: !MODE_HREF[k] }))
   return [
-    { label: 'Art', options: modeOptions, currentLabel: 'Art' },
+    { label: 'Art', href: '/art', options: modeOptions, currentLabel: 'Art' },
     { label: 'All eras', active: true },
   ]
 }
