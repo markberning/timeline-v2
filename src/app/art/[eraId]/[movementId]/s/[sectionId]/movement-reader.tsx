@@ -20,7 +20,13 @@ export function ArtMovementSectionReader({ movementId, sectionId }: { movementId
   const crumbs: Crumb[] = [
     ...movementCrumbs.slice(0, -1),
     { ...movementCrumbs[movementCrumbs.length - 1], active: false, href: base },
-    { label: section.title, active: true },
+    // current-chapter leaf is a dropdown to jump to any other chapter
+    {
+      label: section.title,
+      active: true,
+      currentLabel: section.title,
+      options: mv.sections.map(s => ({ label: s.title, href: `${base}/s/${s.id}` })),
+    },
   ]
 
   return (

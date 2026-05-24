@@ -118,7 +118,7 @@ export function PaintingFigure({ imageUrl, palette, alt, caption, credit, rights
       </div>
       <figcaption style={{ marginTop: 11, fontFamily: SERIF, fontSize: 12.5, fontStyle: 'italic', color: MUTED, lineHeight: 1.45 }}>{caption}</figcaption>
       {credit && (
-        <div style={{ marginTop: 7, fontFamily: SANS, fontSize: 12, fontWeight: 700, lineHeight: 1.4, color: INK, letterSpacing: 0.1 }}>{credit}</div>
+        <div style={{ marginTop: 7, fontFamily: SANS, fontSize: 12, fontWeight: 400, lineHeight: 1.4, color: INK, letterSpacing: 0.1 }}>{credit}</div>
       )}
       {rights && (
         <div style={{ display: 'flex', gap: 7, alignItems: 'flex-start', fontFamily: SANS, fontSize: 11.5, lineHeight: 1.5, color: FAINT, padding: '7px 0 0', borderTop: `1px dashed ${BORDER}`, marginTop: 9 }}>
