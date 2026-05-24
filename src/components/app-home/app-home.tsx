@@ -48,8 +48,7 @@ function ThreadEmblem({ kind, size }: { kind: TlKind; size: number }) {
 
 function Card({ e }: { e: FeedItem }) {
   const color = ACCENT[e.kind]
-  const clamp2: React.CSSProperties = { display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }
-  const clamp3: React.CSSProperties = { display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }
+  const clampN = (n: number): React.CSSProperties => ({ display: '-webkit-box', WebkitLineClamp: n, WebkitBoxOrient: 'vertical', overflow: 'hidden' })
   return (
     <a href={e.href} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 8, overflow: 'hidden' }}>
       <div style={{ height: 60, background: alpha(color, 0.16), display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -63,8 +62,8 @@ function Card({ e }: { e: FeedItem }) {
           <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', minWidth: 0 }}>{e.type}</span>
           {e.soon && <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 7.5, fontWeight: 700, letterSpacing: 0.4, textTransform: 'uppercase', color, background: alpha(color, 0.14), padding: '1px 4px', borderRadius: 999 }}>Soon</span>}
         </div>
-        <div style={{ fontFamily: SERIF, fontSize: 13, color: INK, lineHeight: 1.16, marginTop: 2, ...clamp2 }}>{e.title}</div>
-        <div style={{ fontFamily: SANS, fontSize: 10, lineHeight: 1.35, color: MUTED, marginTop: 3, ...clamp3 }}>{e.blurb}</div>
+        <div style={{ fontFamily: SERIF, fontSize: 13.5, color: INK, lineHeight: 1.16, marginTop: 2, ...clampN(3) }}>{e.title}</div>
+        <div style={{ fontFamily: SANS, fontSize: 10.5, lineHeight: 1.4, color: MUTED, marginTop: 3, ...clampN(6) }}>{e.blurb}</div>
       </div>
     </a>
   )
