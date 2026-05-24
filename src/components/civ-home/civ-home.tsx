@@ -302,14 +302,18 @@ export function CivHome() {
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke={FAINT} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
             {/* fontSize must be >=16px or iOS Safari auto-zooms the page on focus */}
             <input value={query} onChange={e => setQuery(e.target.value)} placeholder="Filter by name, region, era…" style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: INK, fontFamily: SANS, fontSize: 16 }} />
-            {query && <button onClick={() => setQuery('')} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', color: FAINT, fontSize: 18, lineHeight: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>×</button>}
+            {query && <button onClick={() => setQuery('')} aria-label="Clear filter" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', width: 32, height: 32, margin: '-9px -8px -9px 0', padding: 0, flexShrink: 0 }}>
+              <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 20, height: 20, borderRadius: 999, background: STONE, color: '#fff', fontSize: 14, lineHeight: 1 }}>×</span>
+            </button>}
             </div>
           </div>
         </div>
 
         {/* body */}
         <div key={view} style={{ flex: 1 }}>
-          {view === 'timeline' ? <TimelineView query={q} onFilterChain={setQuery} /> : <ChainsView query={q} />}
+          {view === 'timeline'
+            ? <TimelineView query={q} onFilterChain={(label) => setQuery(prev => (prev ? '' : label))} />
+            : <ChainsView query={q} />}
         </div>
       </div>
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
