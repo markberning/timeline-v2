@@ -201,8 +201,8 @@ function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: st
         <SectionHeader accent={accent} label="The canvas" title="Eight feet tall, on the studio wall" />
 
         <p style={proseStyle}>
-          The canvas had been pinned to the wall since the spring. It was 243 × 234 centimetres — nearly
-          eight feet square — and Picasso had been making sketches for it since November. There would
+          The canvas had been pinned to the wall since the spring. It was nearly eight feet square — and
+          Picasso had been making sketches for it since November. There would
           be hundreds of them by the time he was done. The early ones showed a brothel scene with two
           clothed men: a sailor in the middle, a medical student on the left holding a book or a skull.
           By the time it was finished the men were gone. There were only the five women, the curtain,
@@ -286,7 +286,7 @@ function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         <SectionHeader accent={accent} label="What it weighs" title="A few facts about the object" />
 
         <p style={proseStyle}>
-          It is 243.9 × 233.7 centimetres. It is painted in oils on a single piece of linen canvas.
+          It is just under eight feet square. It is painted in oils on a single piece of linen canvas.
           Its colours are the reds and pinks of flesh, the deep blues of drapery, the rust of earth.
           The picture plane is broken into shards even before Cubism arrives: the curtain on the left
           is a fan of straight cuts; the small still life at the bottom is rendered in three views at
@@ -763,7 +763,7 @@ function CcMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
         The oval shape is not a whim. Picasso and Braque had been painting on oval canvases through 1911 and 1912 for a practical reason: the rounded format quietly does away with the four corners, the dead zones where a Cubist composition tends to fall apart, and it echoes the little round pedestal café table — the French call it a{' '}<em>guéridon</em>{' '}— that so many of these still lifes are built on. Here the oval and the rope-as-table-edge work together: the whole picture{' '}<em>is</em>{' '}a tabletop, tipped up to face you.
       </p>
       <p style={proseStyle}>
-        And the painted parts? They are still pure Analytic Cubism — the same brown-grey facets, the same splintered light he and Braque had been refining for three years. That is what makes this little canvas a hinge. One half of it is the last gasp of the old faceting; the other half is a glued-on scrap of the real world. The future and the past of Cubism, sharing a single oval thirty centimetres wide.
+        And the painted parts? They are still pure Analytic Cubism — the same brown-grey facets, the same splintered light he and Braque had been refining for three years. That is what makes this little canvas a hinge. One half of it is the last gasp of the old faceting; the other half is a glued-on scrap of the real world. The future and the past of Cubism, sharing a single oval about a foot across.
       </p>
     </article>
   )
@@ -851,7 +851,7 @@ function CcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
         <SectionHeader accent={accent} label="The object" title="Smaller than you think" first />
         <p style={proseStyle}>
           <DropCap accent={accent}>T</DropCap>
-          he first surprise, if you ever meet it in person, is the size. Reproductions make it loom like a monument; the actual thing is about{' '}<strong>29 by 37 centimetres</strong>{' '}— no bigger than a placemat, which, given the subject, feels about right. One of the most consequential objects in modern art is small enough to hold on your lap. The second surprise is that Picasso never sold it. He kept the breakthrough in his personal collection for the rest of his life — sixty-one years — the way you might keep the first banknote a business ever took.
+          he first surprise, if you ever meet it in person, is the size. Reproductions make it loom like a monument; the actual thing is about{' '}<strong>a foot by a foot and a half</strong>{' '}— no bigger than a placemat, which, given the subject, feels about right. One of the most consequential objects in modern art is small enough to hold on your lap. The second surprise is that Picasso never sold it. He kept the breakthrough in his personal collection for the rest of his life — sixty-one years — the way you might keep the first banknote a business ever took.
         </p>
         <SectionHeader accent={accent} label="The descendants" title="From a glued scrap to half a century" />
         <p style={proseStyle}>

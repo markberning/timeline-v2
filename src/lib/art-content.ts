@@ -558,7 +558,7 @@ export const CHAIR_CANING: ArtWorkContent = {
   era: 'Modern',
   eraId: 'mod',
   medium: 'Oil and oilcloth on canvas, framed with rope',
-  dimensions: '29 × 37 cm (11½ × 14½ in)',
+  dimensions: '11½ in × 14½ in',
   location: 'Musée national Picasso-Paris',
   acquired: 'Acquired 1979 (dation)',
   accent: ART_ACCENTS.violet,
@@ -570,7 +570,7 @@ export const CHAIR_CANING: ArtWorkContent = {
   rights: 'pd-us',
   stats: [
     { v: '1912', k: 'Painted' },
-    { v: '29 × 37 cm', k: 'Dimensions' },
+    { v: '11½″ × 14½″', k: 'Dimensions' },
     { v: 'Musée Picasso', k: 'Now at' },
   ],
   sections: [
@@ -621,7 +621,7 @@ export const HORTA: ArtWorkContent = {
   era: 'Modern',
   eraId: 'mod',
   medium: 'Oil on canvas',
-  dimensions: '25½ × 31⅞ in (65 × 81 cm)',
+  dimensions: '2 ft 1½ in × 2 ft 8 in',
   location: 'Museum Berggruen, Berlin',
   acquired: 'Acquired 2003',
   accent: ART_ACCENTS.violet,
@@ -633,7 +633,7 @@ export const HORTA: ArtWorkContent = {
   rights: 'pd-us',
   stats: [
     { v: '1909', k: 'Painted' },
-    { v: '65 × 81 cm', k: 'Dimensions' },
+    { v: '2′1½″ × 2′8″', k: 'Dimensions' },
     { v: 'Berggruen', k: 'Now at' },
   ],
   sections: [
@@ -686,7 +686,7 @@ export const VIOLIN_JUG: ArtWorkContent = {
   era: 'Modern',
   eraId: 'mod',
   medium: 'Oil on canvas',
-  dimensions: '46 × 28¾ in (116.8 × 73.2 cm)',
+  dimensions: '3 ft 10 in × 2 ft 5 in',
   location: 'Kunstmuseum Basel',
   acquired: 'Gift of Raoul La Roche',
   accent: ART_ACCENTS.violet,
@@ -700,7 +700,7 @@ export const VIOLIN_JUG: ArtWorkContent = {
   rights: 'pd-us',
   stats: [
     { v: '1909–10', k: 'Painted' },
-    { v: '117 × 73 cm', k: 'Dimensions' },
+    { v: '3′10″ × 2′5″', k: 'Dimensions' },
     { v: 'Basel', k: 'Now at' },
   ],
   sections: [

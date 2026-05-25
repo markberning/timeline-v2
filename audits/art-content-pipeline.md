@@ -160,6 +160,15 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
   Life with Chair Caning*) gets a verified on-topic substitute or a `RestrictedFigure`.
 - Gate-green ≠ correct (`feedback_gate_pass_not_correct`): sample what the gate can't
   see, especially the apocryphal-anecdote trap, which no deterministic check catches.
+- **Dimensions are IMPERIAL (ft/in), never cm — display-side house rule.** The
+  `dimensions` field and the `stats` "Dimensions" chip both use feet/inches only —
+  e.g. `dimensions: '8 ft × 7 ft 8 in'`, chip `'8′ × 7′8″'` — matching the shipped
+  Demoiselles/Kahnweiler works and the global "miles first" convention, NOT the
+  museum's metric label. Convert cm → ft/in **at authoring time**, in the content
+  fields AND in any size mentioned in the prose ("about a foot by a foot and a half,"
+  not "29 × 37 cm"). Wikimedia image-URL filenames keep their cm (they are URLs — do
+  not edit). Recurring slip: the first three works shipped with cm chips / cm-first
+  strings and were converted corpus-wide 2026-05-24. See `feedback_art_dimensions_imperial`.
 
 ## Reusable agent briefs
 Build the five critic briefs by adapting the War briefs in
