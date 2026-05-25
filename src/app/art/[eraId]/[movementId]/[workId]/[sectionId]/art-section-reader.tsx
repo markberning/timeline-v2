@@ -597,8 +597,8 @@ function KahAnalytic({ accent, onZoom }: { accent: string; onZoom: (src: string,
         palette={['#7a6a4a', '#3a3326', '#15110a']}
         imageUrl={ART_IMG.braqueViolinJug}
         ratio="3/4"
-        alt="Braque, Violin and Pitcher"
-        caption={<>Braque,{' '}<em>Violin and Pitcher</em>, 1909–10 — Kunstmuseum Basel. The same brown faceting Picasso was using on Kahnweiler, made the same year.</>}
+        alt="Braque, Violin and Jug"
+        caption={<>Braque,{' '}<em>Violin and Jug</em>, 1909–10 — Kunstmuseum Basel. The same brown faceting Picasso was using on Kahnweiler, made the same year.</>}
         rights={PD_RIGHTS}
       />
       <p style={proseStyle}>
@@ -882,6 +882,285 @@ function CcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// Houses on the Hill, Horta de Ebro — the five chapters (the Cubist summer, 1909)
+// ─────────────────────────────────────────────────────────────
+function HoSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Summer 1909" title="Get out of Paris" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y the spring of 1909 Picasso was, by his own account, worn out. He was 27, newly able to sell his work but not yet rich, and stuck: the savage breakthrough of his{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}two years earlier had blown a hole in painting — it had repelled even his closest allies, and the two years since had been a restless, unresolved search for what to build in the gap it left. So he did what he often did when a problem would not move: he left the city. With his partner{' '}<strong>Fernande Olivier</strong>{' '}(his companion through these Montmartre years) he travelled south, across the Pyrenees, to a remote village in Catalonia called{' '}<strong>Horta de Ebro</strong>{' '}(today Horta de Sant Joan).
+      </p>
+      <p style={proseStyle}>
+        He knew the place. It was the home town of{' '}<strong>Manuel Pallarès</strong>, his oldest friend, a fellow painter who had taken the teenage Picasso there in 1898 to recover from a bout of scarlet fever. Picasso always said those months in the Catalan hills had made him — &ldquo;everything I know, I learned in Pallarès&rsquo;s village,&rdquo; he liked to claim. Now he came back as a man with a problem to solve, and the village handed him the answer almost by accident.
+      </p>
+      <SectionHeader accent={accent} label="The lesson in his head" title="Cézanne, and a box of shapes" />
+      <p style={proseStyle}>
+        He arrived carrying an idea he could not stop turning over. Paul Cézanne — the older painter whose memorial shows had hit every artist in Paris when he died in 1906 — had written, in a letter that young painters now passed around like scripture, that one should treat nature in terms of{' '}<em>the cylinder, the sphere and the cone</em>: build a picture out of simple solid shapes rather than copying surfaces. It was a recipe for{' '}<em>structure</em>, for making a painted thing feel weighty and built. Picasso had been chewing on it for two years.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#5a7042', '#8a7848', '#1c1a12']}
+        imageUrl={ART_IMG.cezanneBathers}
+        ratio="6/5"
+        alt="Cézanne, The Large Bathers"
+        caption={<>Cézanne,{' '}<em>The Large Bathers</em>, 1898–1905 — Philadelphia Museum of Art. The lesson Picasso carried to Spain: build the picture from solid, faceted blocks.</>}
+        rights="Public domain worldwide (Paul Cézanne died 1906). Wikimedia Commons."
+      />
+      <p style={proseStyle}>
+        And here was Horta: a dry, sun-bleached hill town of bare ochre stone, its flat-roofed houses stacked up the slope in hard-edged terraces — already, in real life, a heap of plain geometric blocks. A village that looked like a Cézanne theory made of masonry. Picasso took one look and, in effect, stopped inventing and started copying — except that what he copied was the underlying geometry, not the postcard. The laboratory had built itself.
+      </p>
+    </article>
+  )
+}
+
+function HoMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="June – September 1909" title="The whole village, as blocks" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ver that summer Picasso painted Horta over and over — the houses on the hill, the village reservoir, the factory on the edge of town — running the same geometric method across deliberately different subjects, as if to prove it could crack anything, not just a picturesque cluster of roofs. The method was consistent and ruthless. He took the houses and pared them down to their bare solid geometry: cubes, wedges, prisms. He tilted the planes so a wall and a roof you could never see at the same time are shown to you together. He drained the colour back to dusty ochres, greys and greens, so nothing pretty distracts from the structure.
+      </p>
+      <p style={proseStyle}>
+        Most radically, he flattened the distance. In an ordinary landscape the far hills recede into haze; here Picasso pulls the background mountain up flat against the houses and breaks it into the same facets, so the whole canvas presses toward you at once. The village and the hillside are made of one continuous geometry. It is recognisably a place — and it is also a stack of painted blocks, refusing to settle into a comfortable view.
+      </p>
+      <SectionHeader accent={accent} label="The photographs" title="'Look — the cubes are really there'" />
+      <p style={proseStyle}>
+        Here is the detail everyone remembers. While he was in Horta, Picasso took{' '}<em>photographs</em>{' '}of the actual village — and when he got back to Paris he showed them around — not least to the American writer and collector{' '}<strong>Gertrude Stein</strong>, an early buyer and fierce champion of his work when almost no one else would touch it — as if to say: I did not invent this. Stein later wrote that the photographs looked startlingly like the paintings, and even singled out one of the Horta canvases as the first true Cubist picture; the real houses really did pile up into blocks. Whether Picasso meant the photographs as proof or as a sly joke (a Cubist painting and a snapshot of Spain, side by side, both made of cubes) is part of the fun. Either way it makes the point that early Cubism grew out of{' '}<em>looking hard at the world</em>, not turning away from it.
+      </p>
+      <p style={proseStyle}>
+        He came home at the end of the summer with a suite of canvases and, in them, a working method. The shock of 1907 had become a technique anyone could see being applied.
+      </p>
+    </article>
+  )
+}
+
+function HoReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Climb the hill" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#a08a4a', '#5a4a1c', '#1a1a14']}
+        imageUrl={ART_IMG.picassoHorta}
+        ratio="5/4"
+        alt="Picasso, Houses on the Hill, Horta de Ebro, 1909"
+        caption={<>Picasso,{' '}<em>Houses on the Hill, Horta de Ebro</em>, 1909 — Museum Berggruen, Berlin. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t reads as a jumble of brown boxes until you realise you are looking up a hillside at a village. Start low and climb. The big pale shapes filling the foreground are{' '}<strong>houses</strong> — each one reduced to a few flat planes, a wall here, a tilted roof there, meeting at edges that don&rsquo;t quite obey real space. They stack and overlap up the slope, so you read the climb of the land without any of the usual tricks of distance.
+      </p>
+      <p style={proseStyle}>
+        Keep going up and the{' '}<strong>hillside</strong>{' '}behind the village is broken into the very same facets as the buildings — so the mountain and the houses rhyme, made of one geometry. There is no soft, hazy background; Picasso has pulled the far hill flat against the near houses so the whole picture stands up toward you like a wall. Notice, too, the light: each plane seems lit from its own direction, which is why the blocks feel solid and flat at the same time. You can&rsquo;t find the sun, because there isn&rsquo;t one.
+      </p>
+      <p style={proseStyle}>
+        Then look to the left edge for the one thing that breaks the spell: a soft clump of{' '}<strong>green</strong>, a tree, almost the only curve and almost the only living colour in the whole baked, angular scene. Picasso leaves it deliberately loose — a single organic breath in a town made of geometry. Find it and the picture suddenly reads as a real, hot, dry place you could walk into, if the streets weren&rsquo;t made of cubes.
+      </p>
+    </article>
+  )
+}
+
+function HoBreakthrough({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="1909–1910" title="The summer it became a movement" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he Demoiselles had been a bomb — shocking, jagged, a one-off scandal that even Picasso&rsquo;s friends recoiled from. What it was{' '}<em>not</em>{' '}was a method anybody could follow. The Horta paintings are the opposite: calm, systematic, repeatable. This is the summer the shock of 1907 hardens into a{' '}<em>technique</em> — the faceting of solid form that art historians call{' '}<em>Analytic Cubism</em>{' '}(the patient breaking-down of objects into planes seen from several angles at once). If the Demoiselles kicked the door open, Horta is where Picasso walked through it and found he could keep going — and he was not the only one walking through. Georges Braque, that same year, was arriving at almost exactly the same place from the other direction, breaking the houses of the southern French village of L&rsquo;Estaque into the same blunt cubes.
+        </p>
+        <p style={proseStyle}>
+          That convergence is what made it a movement rather than a quirk. Within a year the two of them were &ldquo;roped together&rdquo; (as Braque put it) in Paris, faceting everything in sight — portraits, still lifes, the dealer Kahnweiler — in exactly the language they had hammered out, Picasso on a Catalan hillside and Braque in the south. Horta is the launch pad. The same ochre cubes you just climbed in this picture are the cubes that, three years on, would dissolve into the near-abstract shimmer of high Analytic Cubism (the style at its most extreme, the world almost faceted away to pattern).
+        </p>
+        <p style={proseStyle}>
+          There is a tidy irony in it, too. The most cosmopolitan revolution in modern art — the thing that would be argued over in Paris cafés and New York galleries — was worked out in a village with no railway, by a man who said he&rsquo;d learned everything he knew there as a sick teenager. Cubism&rsquo;s grammar was, in a real sense, Spanish before it was Parisian.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={BLUE}
+        region="Vienna"
+        when="1908–1909 · the same years"
+        title="Music throws away its home key."
+        body="While Picasso was repealing single-viewpoint perspective, in Vienna the composer Arnold Schoenberg was abandoning the 'home key' that had anchored Western music for centuries — writing the first fully atonal pieces. Two arts, in the same few years, kicked away the one fixed point each had leaned on."
+        palette={['#3a4a8b', '#1c1c1c', '#d6cf3f']}
+        ctaLabel="Read 'Atonal music'"
+      />
+    </>
+  )
+}
+
+function HoAfterlife({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The long afterlife" title="A trophy, and a scandal" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a painting about a sleepy village, the Horta has led a dramatic life. It made its way, in time, into one of the greatest private collections in America — that of{' '}<strong>Nelson Rockefeller</strong>, the financier and future US vice-president — and on his death in 1979 it was bequeathed to the{' '}<strong>Museum of Modern Art</strong>{' '}in New York, where for decades it hung as a landmark of early Cubism.
+      </p>
+      <p style={proseStyle}>
+        And then, in 2003, MoMA{' '}<em>sold</em>{' '}it. Museums do this — they call it{' '}<em>deaccessioning</em>, quietly selling one work to buy others — but selling a Cubist cornerstone bequeathed by a Rockefeller struck a number of critics as something close to vandalism — Picasso&rsquo;s own great biographer, John Richardson, was loudly among the appalled. The painting went, reportedly for $12–15 million and through a New York dealer, to the Berlin-born collector{' '}<strong>Heinz Berggruen</strong>, a man who had spent a lifetime buying Picasso.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#3a4a8b', '#7a6a3a', '#0e1224']}
+        imageUrl={ART_IMG.momaFacade}
+        ratio="5/3"
+        alt="The Museum of Modern Art, New York"
+        caption={<>MoMA held the Horta for over twenty years before deaccessioning it in 2003 — a sale some critics never forgave.</>}
+        rights="Photograph CC BY-SA 4.0 via Wikimedia Commons."
+      />
+      <SectionHeader accent={accent} label="Settled at last" title="Where it lives now" />
+      <p style={proseStyle}>
+        So the picture ended up in Berlin, at the{' '}<strong>Museum Berggruen</strong>, which calls it one of the most significant works it owns. Stand in front of it there and you see what the Rockefellers and the Berggruens paid fortunes for: a hot ochre hillside of stacked cubes, one stubborn green tree, and no real sky at all. There is a neat symmetry in the journey: a painting made in the poorest corner of Picasso&rsquo;s Spain, fought over by the richest museums of the next century, and finally settled in a German palace of modern art. The houses on the hill never moved. Everything around them — money, fame, the whole apparatus of the twentieth-century art world — was built on top of summers like this one.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// Violin and Jug (Braque, 1909–10) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function VjSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1909–1910" title="The other half of Cubism" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>E</DropCap>
+        veryone remembers Picasso. But Cubism took two people, and the other one matters just as much.{' '}<strong>Georges Braque</strong>{' '}was a Frenchman from near Le Havre on the Normandy coast, the son of a house-painter and decorator — a trade he was apprenticed to before he turned to fine art. That ordinary detail will matter later: Braque was trained to imitate wood grain and marble on plaster, the honest tricks of a decorator, and he never forgot them.
+      </p>
+      <p style={proseStyle}>
+        He had first made his name as a{' '}<em>Fauve</em>{' '}— one of the &ldquo;wild beasts,&rdquo; a short-lived movement of painters whom critics mocked, around 1905, for their raw, deliberately unnatural colour. Then in 1907 he saw the Demoiselles in Picasso&rsquo;s studio, was appalled and gripped in equal measure, and within a couple of years had thrown the colour overboard and joined Picasso in the most demanding experiment in modern art. If Picasso was the showman with the wild ideas, Braque was the patient builder who turned them into a coherent style.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#7a6a4a', '#3a3020', '#100c08']}
+        imageUrl={ART_IMG.braqueEstaque}
+        ratio="4/5"
+        alt="Braque, Houses at l'Estaque, 1908"
+        caption={<>Braque,{' '}<em>Houses at l&rsquo;Estaque</em>, 1908. A critic sneered that Braque had reduced everything to &ldquo;little cubes&rdquo; — and the insult became the name of the movement.</>}
+        rights={PD_RIGHTS}
+      />
+      <SectionHeader accent={accent} label="Roped together" title="Two studios, one experiment" />
+      <p style={proseStyle}>
+        Through 1909 and 1910 Picasso and Braque lived near each other on the Montmartre hill in Paris and visited almost daily, checking each other&rsquo;s canvases and pushing the same problem one step further each time. &ldquo;It was like being roped together on a mountain,&rdquo; Braque said later. They worked so closely that, for a while, they stopped signing the fronts of their pictures — and scholars still argue over who painted what.{' '}<em>Violin and Jug</em>{' '}is Braque at the very top of that climb.
+      </p>
+    </article>
+  )
+}
+
+function VjMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Winter 1909–10" title="Taking a violin apart" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ver the winter of 1909 into 1910, in his Paris studio, Braque painted a violin and a jug. That is the whole subject — two ordinary things on a table. What he did to them is the point. He shattered each object into dozens of small flat{' '}<em>facets</em>, the little angled planes you see on a cut gem, and laid those planes out as if you were circling the table and seeing the violin from several sides at once. This is{' '}<em>Analytic Cubism</em>{' '}at full strength: the patient analysis of a thing into all its views, reassembled on a flat canvas.
+      </p>
+      <p style={proseStyle}>
+        He drained almost all the colour out of it. The whole picture is a fog of browns, greys and soft ochres — deliberately drab, because colour would only be a distraction. With nothing pretty to look at, your eye is forced onto the only thing left: the structure, the shimmer of planes sliding over and into one another. Braque even lets the facets{' '}<em>bleed</em>{' '}— an edge that should belong to the violin opens and leaks into the background, so object and air are built from the same broken light. (Painters have a name for this trick of letting one plane flow into the next: they call it{' '}<em>passage</em>.)
+      </p>
+      <SectionHeader accent={accent} label="Why a violin" title="Something you can almost still see" />
+      <p style={proseStyle}>
+        The choice of subject is not random. Musical instruments turn up again and again in Cubism, and for good reasons: a violin has strong, familiar curves you can still half-recognise even after it has been smashed into planes, which keeps the picture from tipping into pure abstraction. And Braque{' '}<em>loved</em>{' '}music — he played instruments in the studio. A violin let him work right at the edge of legibility: faceted almost past recognition, but never quite. Look long enough and the instrument keeps surfacing and dissolving — the curled scroll, then an f-hole, then nothing — like a word on the tip of your tongue.
+      </p>
+    </article>
+  )
+}
+
+function VjReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Start at the nail" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#8a8478', '#4a463c', '#15110a']}
+        imageUrl={ART_IMG.braqueViolinJug}
+        ratio="3/4"
+        alt="Braque, Violin and Jug, 1909–10"
+        caption={<>Braque,{' '}<em>Violin and Jug</em>, 1909–10 — Kunstmuseum Basel. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t looks, at first, like a grey avalanche — and the way in is a single odd detail at the very top. Look up there and you will find a{' '}<strong>nail</strong>, painted with old-fashioned, photographic realism, casting a small neat shadow, as if it were hammered into the wall to hang the picture from. After the shock of that one solid, real-looking thing, let your eye fall.
+      </p>
+      <p style={proseStyle}>
+        Down in the centre and lower half, the{' '}<strong>violin</strong>{' '}assembles itself out of the rubble: the little curled{' '}<em>scroll</em>{' '}(the carved spiral at the top of the neck) near the middle, a few taut{' '}<em>strings</em>, and below them the unmistakable rounded body with its two{' '}<em>f-holes</em>{' '}— the f-shaped slots cut into a violin&rsquo;s top. Up to the left, a paler cluster of planes with a rounded lip is the{' '}<strong>jug</strong>. Neither object holds still; each one swims into focus and then breaks apart again as your eye moves.
+      </p>
+      <p style={proseStyle}>
+        That is the whole experience Braque is after. He builds the violin and the jug right at the brink of legibility — solid enough that you can find them, broken enough that you never quite hold them — and then pins the entire shifting field to the wall with one perfectly real nail. Which raises the obvious question: why, in one of the most radical paintings of its day, paint one flawless illusion?
+      </p>
+    </article>
+  )
+}
+
+function VjNail({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The point" title="The joke that holds it up" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he nail is the most talked-about detail in early Cubism, and it is doing several jobs at once. The first is simple kindness to the viewer. Surrounded by a faceted fog where nothing sits at a fixed distance, the eye is desperate for one secure thing — and the nail, with its honest shadow, is a{' '}<em>foothold</em>: a single point of ordinary, believable space to stand on before you wade into the rest.
+      </p>
+      <p style={proseStyle}>
+        The second is wit. Braque has dropped a piece of old-fashioned{' '}<em>trompe-l&rsquo;œil</em>{' '}(French for &ldquo;fool the eye&rdquo; — painting so realistic it tricks you into reaching for it) into one of the most anti-illusionistic paintings the Cubists had yet made. It is a quiet joke at his own expense, and a flick at the centuries of illusion-painting Cubism was tearing up: you want a convincing illusion? Here is one nail&rsquo;s worth. Remember, too, that Braque was a decorator&rsquo;s son, trained to fake wood and marble — the painted nail is the tradesman&rsquo;s old trick, smuggled into the{' '}<em>avant-garde</em>{' '}(the small leading edge of artists making the most radical new work). He liked the joke enough to repeat it: a painted nail had already turned up the year before, in his{' '}<em>Violin and Palette</em>{' '}(now in New York), so this is a deliberate signature, not a one-off whim.
+      </p>
+      <SectionHeader accent={accent} label="The deeper move" title="A door about to open" />
+      <p style={proseStyle}>
+        The nail also makes you notice that the picture is a flat object hanging on a wall — not a window into a room, but a{' '}<em>thing</em>, with a nail at the top, like any framed board. That is a thought with a future. Within two years Picasso and Braque would stop{' '}<em>painting</em>{' '}imitations of reality and start gluing{' '}<em>real</em>{' '}things onto their canvases — oilcloth, newspaper, rope — inventing{' '}<em>collage</em>{' '}(art made by gluing real materials straight onto the surface). Braque&rsquo;s painted nail is the hinge: the last and cleverest illusion, made by two painters who were about to decide that the real thing was more interesting than the fake.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#b89055', '#5a4a2a', '#1a1208']}
+        imageUrl={ART_IMG.chairCaning}
+        ratio="4/3"
+        alt="Picasso, Still Life with Chair Caning, 1912"
+        caption={<>Two years later: Picasso&rsquo;s{' '}<em>Still Life with Chair Caning</em>, 1912. Braque&rsquo;s painted-on nail gives way to a real scrap of oilcloth, glued down. The illusion becomes the thing itself.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        The art historian William Rubin, for decades MoMA&rsquo;s authority on Cubism, thought this canvas the moment Braque came fully into his own — &ldquo;stunning and magisterial,&rdquo; he called it. The nail is why.
+      </p>
+    </article>
+  )
+}
+
+function VjAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="The afterlife" title="The banker who bought Cubism" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>W</DropCap>
+          hy does the textbook example of Analytic Cubism hang in{' '}<strong>Basel</strong>, a quiet Swiss city on the Rhine, rather than Paris or New York? Because of one man.{' '}<strong>Raoul La Roche</strong>{' '}was a Basel-born banker working in Paris and a friend of the architect Le Corbusier, and in the years after the First World War he did the unfashionable thing: he bought Cubism, in bulk, when most collectors still thought it was a joke or a fraud.
+        </p>
+        <p style={proseStyle}>
+          La Roche assembled one of the great early collections of Picasso and Braque — and then, in 1952, he gave the bulk of it to the public museum of his home city, the{' '}<strong>Kunstmuseum Basel</strong>. At a stroke a mid-sized Swiss museum became one of the world&rsquo;s strongholds of Cubist painting, which is why a pilgrim wanting to see{' '}<em>Violin and Jug</em>{' '}in the flesh buys a ticket to Basel.
+        </p>
+        <p style={proseStyle}>
+          It is a fitting home for a quiet masterpiece by the quieter of the two founders. Picasso got the fame, the scandals and the headlines; Braque got the deep respect of fellow painters and a slower-burning fame of his own. And this canvas — drab, patient, fiendishly built, the violin half-dissolved in its grey planes beneath that one perfect nail — is the one that other painters point to when they want to show what Analytic Cubism, at its absolute best, could do.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={BLUE}
+        region="Munich"
+        when="1910–1911 · just after"
+        title="A Russian drops the subject entirely."
+        body="Braque kept one real nail to hold his picture to the world. In Munich, the Russian painter Wassily Kandinsky was about to take the opposite road — letting the subject fall away completely into the first fully abstract paintings. Cubism kept a toehold in reality; abstraction let go."
+        palette={['#1d4ed8', '#d6cf3f', '#bf2f25']}
+        ctaLabel="Read 'Abstract art'"
+      />
+    </>
+  )
+}
+
 type NarrativeFn = (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement
 
 // A chapter whose prose isn't written yet — graceful placeholder so a partly
@@ -914,6 +1193,20 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
     reading: CcReading,
     break: CcBreak,
     afterlife: CcAfterlife,
+  },
+  horta: {
+    setting: HoSetting,
+    making: HoMaking,
+    reading: HoReading,
+    breakthrough: HoBreakthrough,
+    afterlife: HoAfterlife,
+  },
+  'violin-jug': {
+    setting: VjSetting,
+    making: VjMaking,
+    reading: VjReading,
+    nail: VjNail,
+    afterlife: VjAfterlife,
   },
 }
 

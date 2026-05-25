@@ -4,13 +4,13 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: ACTIVE — run three times (2026-05-23 Modern era + Cubism; 2026-05-24
-Kahnweiler work; 2026-05-24 Chair Caning work).** See the three proof-run logs at
-the bottom. This is the mandatory gate for every Art section — **do NOT author-and-
-ship; run all five critic gates every time** (the Kahnweiler run re-learned this the
-hard way; the Chair Caning run was gated from the start). **Still owed:** the
-Demoiselles WORK reader (5 ch) was authored before the pipeline existed and has not
-yet been through the gates.
+**Status: ACTIVE — run four times (2026-05-23 Modern era + Cubism; 2026-05-24
+Kahnweiler work; 2026-05-24 Chair Caning work; 2026-05-24 Horta + Violin and Jug,
+two works in one pass).** See the proof-run logs at the bottom. This is the
+mandatory gate for every Art section — **do NOT author-and-ship; run all five critic
+gates every time** (the Kahnweiler run re-learned this the hard way; every run
+since has been gated from the start). **Still owed:** the Demoiselles WORK reader
+(5 ch) was authored before the pipeline existed and has not yet been through the gates.
 
 ## Governing principle
 Same spine as War: **storytelling is the #1 goal; accuracy / zero-hallucination is
@@ -274,3 +274,42 @@ not author-then-hope. Two firsts for the pipeline:
 - tsc + eslint clean; clean static build green (shipped-page guard intact); work page +
   all five section routes render. Confirms the doctrine: **gate-from-the-start beats
   author-then-fix**, and a self-hosted PD image is a clean fit when Wikimedia has none.
+
+## Proof run 4 — DONE (2026-05-24) — Horta + Violin and Jug (TWO works, one pass)
+First **two-works-in-one-pass** run: Picasso&rsquo;s *Houses on the Hill, Horta de Ebro*
+(1909, the Cubist-summer landscape) and Braque&rsquo;s *Violin and Jug* (1909–10, the
+nail). Both images were already in `ART_IMG` (en-tier, pre-1931 PD-US); the Violin and
+Jug en copy is low-res (378×600 — WikiArt only serves wrong/downsized files), so the
+Look-closer crops were authored as a few **large** regions (≥45% width) that stay crisp
+rather than pixelating — verified by rendering the crops before locking x/y/w/h.
+- **Gate batching:** to respect the ~5-concurrent agent ceiling
+  (`project_g12_fanout_lessons`), ran **5 critics, each covering BOTH works** on its
+  axis, rather than 10 single-work agents. Worked well; each agent graded the two works
+  separately.
+- **Fact-checker** caught: Violin and Jug&rsquo;s exact dimensions are 116.8 × 73.2 cm
+  (had rounded to 117 × 73); the La Roche gift to Basel was three staged donations
+  (1952–63), not a single 1952 bequest; the Cézanne &ldquo;cylinder, sphere, cone&rdquo;
+  line is a 1904 letter to Émile Bernard, not advice to Picasso (re-framed). Horta
+  provenance (Rockefeller → MoMA 1979 → deaccessioned 2003 via Acquavella → Berggruen,
+  Berlin) confirmed correct, including that this is *Houses on the Hill*, NOT *The
+  Reservoir* (which MoMA kept).
+- **Framing** caught two real tilts: Gertrude Stein was reduced to a passive prop
+  (&ldquo;shown the photographs&rdquo;) — given agency as an early buyer/champion + her
+  figure-card role changed to &ldquo;Patron, early champion&rdquo;; and unhedged
+  superlatives (&ldquo;most abstract painting of its day&rdquo;) that the chapter&rsquo;s
+  own Kandinsky &ldquo;Meanwhile&rdquo; card contradicted — hedged.
+- **Storytelling** caught two thesis sentences buried in muted style (HoMaking,
+  VjNail) — promoted to body text; flagged the cool-down chapters &ldquo;going dark on
+  the canvas&rdquo; — added visual callbacks to Ho-Breakthrough/Afterlife and Vj-Afterlife.
+- **Clarity** caught broken cross-ref placeholders left in the draft
+  (`(Chapter, the Demoiselles)`, `(Portrait of Kahnweiler)`) — removed; &ldquo;facets&rdquo;
+  undefined in the Horta read and &ldquo;avant-garde&rdquo; undefined in VjNail — glossed.
+- **Comprehensiveness** added: the Horta campaign as a deliberate *series* (houses /
+  reservoir / factory; Stein&rsquo;s &ldquo;first Cubist picture&rdquo;); the technical
+  term *passage*; the painted-nail precedent in Braque&rsquo;s *Violin and Palette* (1909).
+- Coordinator gates 6–7 PASS: all figures pre-1931 PD-US / Commons-PD / the self-hosted
+  PD-US Chair Caning (reused as the VjNail collage payoff); title standardised to
+  &ldquo;Violin and Jug&rdquo; across the app (the Kahnweiler chapter had called the same
+  canvas &ldquo;Violin and Pitcher&rdquo;). tsc + eslint clean; build green; all 12 new
+  routes render. **Lesson: two works in one pass is efficient if the critics are batched
+  by axis (5 agents, both works each), not by work (10 agents).**

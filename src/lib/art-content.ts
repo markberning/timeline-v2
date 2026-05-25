@@ -292,9 +292,9 @@ export const CUBISM: ArtMovementContent = {
   works: [
     { id: 'demoiselles', year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso', place: 'Paris', size: 'xl', blurb: 'Five women, five sets of impossible angles, masks where the faces should be. Even his friends thought he had lost it.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
     { id: 'three-women', year: 1908, name: 'Three Women', artist: 'Picasso', place: 'Paris', size: 's', blurb: 'The hangover from Demoiselles. The faces become less savage; the geometry hardens.', palette: ['#7a5a3a', '#3a2820', '#1a1208'] },
-    { id: 'horta', year: 1909, name: 'Houses on the Hill, Horta', artist: 'Picasso', place: 'Catalonia', size: 'l', blurb: 'Picasso paints a Spanish village as nesting cubes. The summer everyone agrees this is now a movement.', palette: ['#a08a4a', '#5a4a1c', '#1a1a14'] },
+    { id: 'horta', year: 1909, name: 'Houses on the Hill, Horta', artist: 'Picasso', place: 'Catalonia', size: 'l', blurb: 'Picasso paints a Spanish village as nesting cubes. The summer everyone agrees this is now a movement.', palette: ['#a08a4a', '#5a4a1c', '#1a1a14'], imageUrl: ART_IMG.picassoHorta, credit: 'Picasso, Houses on the Hill, Horta de Ebro · Museum Berggruen, Berlin' },
     { id: 'kahnweiler', year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'Their dealer, in shards. Analytic Cubism arrives — monochrome, angular, almost unreadable.', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
-    { id: 'violin-jug', year: 1910, name: 'Violin and Jug', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque takes the still life apart. A nail in the corner of the canvas points to what was supposed to be the trompe-l’œil.', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { id: 'violin-jug', year: 1910, name: 'Violin and Jug', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque takes the still life apart. A nail in the corner of the canvas points to what was supposed to be the trompe-l’œil.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.braqueViolinJug, credit: 'Braque, Violin and Jug · Kunstmuseum Basel' },
     { id: 'chair-caning', year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso', place: 'Paris', size: 'l', blurb: 'A piece of oilcloth printed with chair caning, glued to the canvas. Collage is born; painting will never be only paint again.', palette: ['#b89055', '#3a3020', '#1a1208'], imageUrl: ART_IMG.chairCaning, credit: 'Picasso, Still Life with Chair Caning · Musée Picasso, Paris' },
     { id: 'cubist-years-end', year: 1914, name: 'The Cubist Years end', artist: 'Picasso & Braque', place: 'Paris', size: 'm', blurb: 'August 1914. Braque is mobilised; Picasso, a Spaniard, is not. They never paint together again.', palette: ['#3a3a4a', '#1c1c2a', '#0a0a14'] },
     { id: 'gris-bottle', year: 1916, name: 'Bottle and Glass', artist: 'Juan Gris', place: 'Paris', size: 's', blurb: 'Gris turns Cubism into a system. Tight, almost classical. The argument continues without the founders.', palette: ['#8a6b3a', '#3a2820', '#0e0805'] },
@@ -605,6 +605,134 @@ export const CHAIR_CANING: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
+// Work — Houses on the Hill, Horta de Ebro (1909): the landscape summer where
+// Analytic Cubism crystallised. Image en-tier (picassoHorta); Look-closer crops
+// verified against the 1280×1025 repro 2026-05-24. Prose: NARRATIVES['horta'].
+// ─────────────────────────────────────────────────────────────
+export const HORTA: ArtWorkContent = {
+  id: 'horta',
+  name: 'Houses on the Hill, Horta de Ebro',
+  shortName: 'Horta',
+  year: 1909,
+  artist: 'Pablo Picasso',
+  artistId: 'picasso',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '25½ × 31⅞ in (65 × 81 cm)',
+  location: 'Museum Berggruen, Berlin',
+  acquired: 'Acquired 2003',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 4, total: 9 },
+  hook: 'Picasso spent a summer in a Spanish hill town, painted its houses as a tumble of bare cubes, and came home with Cubism worked out.',
+  heroImage: ART_IMG.picassoHorta,
+  heroCredit: 'Picasso, Houses on the Hill, Horta de Ebro, 1909 · Museum Berggruen, Berlin',
+  heroAspect: 1.249,
+  rights: 'pd-us',
+  stats: [
+    { v: '1909', k: 'Painted' },
+    { v: '65 × 81 cm', k: 'Dimensions' },
+    { v: 'Berggruen', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Summer 1909', title: 'Why he went back to Horta', blurb: 'Broke, exhausted and stuck, Picasso flees Paris for the baked Catalan village of an old friend — a town of cube-shaped houses that turns out to be the perfect laboratory.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The summer', dateLabel: 'Jun–Sep 1909', title: 'Painting the village as blocks', blurb: 'He reduces the houses to nested geometric solids, tilts every plane, and — famously — brings home photographs to prove the cubes were really there.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A town built from geometry', blurb: 'Ochre cubes climbing a hill, roofs flattened into facets, the mountain behind broken into the same planes — and one stubborn patch of green.', progress: 0.56 },
+    { id: 'breakthrough', eyebrow: 'The breakthrough', dateLabel: '1909–1910', title: 'The summer it became a movement', blurb: 'This is where the shock of the Demoiselles hardens into a method. Cézanne’s advice, made real on a hillside — the launch pad for everything Picasso and Braque do next.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1909–today', title: 'The Picasso MoMA let go', blurb: 'A Rockefeller treasure, bequeathed to MoMA — and then, to some critics’ horror, quietly sold off, ending up a star of a Berlin museum.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1909', who: 'Pablo Picasso (the artist)', place: 'Horta de Sant Joan, Catalonia', note: 'Painted over the summer in his friend Pallarès’s village, then rolled up and carried back to Paris.', price: null },
+    { year: 'by 1960s', who: 'Nelson A. Rockefeller', place: 'New York', note: 'The canvas enters the celebrated modern collection of the financier and future US vice-president.', price: null },
+    { year: '1979', who: 'Museum of Modern Art', place: 'New York', note: 'Bequeathed to MoMA on Rockefeller’s death — for decades one of the museum’s landmark early Cubist paintings.', price: null, museum: true },
+    { year: '2003', who: 'Sold by MoMA (via Acquavella)', place: 'New York', note: 'In a deaccession that appalled some critics, MoMA sold the Horta — reported at $12–15 million — through Acquavella Galleries to raise acquisition funds.', price: '≈ $12–15m (2003)' },
+    { year: 'today', who: 'Museum Berggruen', place: 'Berlin', note: 'Bought by the Berlin-born dealer-collector Heinz Berggruen; now described by his museum as one of its most significant works.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Picasso', role: 'The painter', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Manuel Pallarès', role: 'The friend, the village', palette: ['#8a6b3a', '#3a2820', '#0e0805'] },
+    { name: 'Fernande Olivier', role: 'With him that summer', palette: ['#a85a4a', '#3a221c', '#0a0606'] },
+    { name: 'Gertrude Stein', role: 'Patron, early champion', palette: ['#8a3a4a', '#2a1c1c', '#0a0606'] },
+  ],
+  annotations: [
+    { x: '46%', y: '56%', w: 42, h: 34, label: 'Houses as cubes', detail: 'The heart of the picture: the village’s flat-roofed houses, stripped down to bare ochre blocks — cubes, wedges, prisms — stacked and tilted up the slope. Picasso throws out the fussy detail and keeps only the geometry, the lesson he took from Cézanne: build the world out of solid shapes.' },
+    { x: '64%', y: '20%', w: 52, h: 24, label: 'The hill, faceted too', detail: 'The mountain behind is broken into the same angular planes as the buildings. Village and hillside rhyme; nature and architecture are made of one geometry. There is no soft, hazy distance — the far hill is pulled up flat against the houses.' },
+    { x: '30%', y: '46%', w: 30, h: 26, label: 'A roof becomes a plane', detail: 'Follow a single house and watch a roof flatten into a tilted facet, a wall into another, the two meeting at an impossible angle. Picasso lights each plane from a different, unfixable direction, so the cube reads as solid and as flat at the same time.' },
+    { x: '12%', y: '33%', w: 24, h: 26, label: 'The one green note', detail: 'Almost the only curve, and almost the only colour that isn’t baked earth: a clump of green — a tree — clinging to the left edge. In a picture of relentless dry geometry, it is the single breath of organic life, and Picasso lets it stay soft.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'Les Demoiselles', mode: 'art' }, { label: 'Catalan hill towns', mode: 'civ' } ],
+    children: [ { label: 'Analytic Cubism', mode: 'art' }, { label: 'Portrait of Kahnweiler', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Violin and Jug (Braque, 1909–10): the textbook Analytic Cubism still
+// life, and the painted trompe-l'œil nail. Image en-tier (braqueViolinJug, low-
+// res but the only clean copy — crops kept large); verified 2026-05-24.
+// Prose: NARRATIVES['violin-jug'].
+// ─────────────────────────────────────────────────────────────
+export const VIOLIN_JUG: ArtWorkContent = {
+  id: 'violin-jug',
+  name: 'Violin and Jug',
+  shortName: 'Violin and Jug',
+  year: 1910,
+  artist: 'Georges Braque',
+  artistId: 'braque',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '46 × 28¾ in (116.8 × 73.2 cm)',
+  location: 'Kunstmuseum Basel',
+  acquired: 'Gift of Raoul La Roche',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 5, total: 9 },
+  hook: 'Braque shattered a violin and a jug into a fog of brown facets — then, at the top, painted one perfectly real nail to hold it all up.',
+  heroImage: ART_IMG.braqueViolinJug,
+  heroCredit: 'Braque, Violin and Jug, 1909–10 · Kunstmuseum Basel',
+  heroAspect: 0.63,
+  // The work is a tall portrait canvas — show the whole thing, never cropped.
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1909–10', k: 'Painted' },
+    { v: '117 × 73 cm', k: 'Dimensions' },
+    { v: 'Basel', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1909–1910', title: 'The other half of Cubism', blurb: 'Everyone remembers Picasso. But Cubism took two — and the quieter, more methodical half was a house-painter’s son from Normandy named Georges Braque.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The winter', dateLabel: 'Winter 1909–10', title: 'Faceting a violin', blurb: 'Braque takes a violin and a jug and shatters them into a near-colourless shimmer of planes — the purest example of the style he and Picasso were building.', progress: 0.3 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Find the nail, then the violin', blurb: 'Start at the top with the one solid thing — a painted nail — then hunt down the scroll, the strings and the body of the violin surfacing out of the rubble.', progress: 0.55 },
+    { id: 'nail', eyebrow: 'The point', dateLabel: 'The picture', title: 'Why paint a perfect nail', blurb: 'In the most radical painting in Europe, Braque planted one old-fashioned illusion — a joke, a foothold, and a quiet hint of the collage revolution two years off.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1910–today', title: 'How it got to Basel', blurb: 'A Swiss banker who bought Cubism when nobody else would gave his collection to his home city — which is why the textbook Analytic Cubist still life hangs in Basel.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1909–10', who: 'Georges Braque (the artist)', place: 'Paris', note: 'Painted in Montmartre over the winter, at the height of the daily Picasso–Braque exchange.', price: null },
+    { year: 'by the 1920s', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and collector — a friend of the architect Le Corbusier — buys Cubism early, when almost no one else will touch it.', price: null },
+    { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'La Roche gives his Cubist collection to his home city’s museum in stages, across three donations — making Basel a stronghold of the movement.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Braque', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Picasso', role: 'The other rope-end', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Kahnweiler', role: 'The dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { name: 'Raoul La Roche', role: 'The collector who saved it', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
+  ],
+  annotations: [
+    { x: '52%', y: '9%', w: 52, h: 15, label: 'The painted nail', detail: 'Start at the very top. That is a nail — painted with old-fashioned, photographic realism, casting a neat little shadow, as if it were pinning the whole picture to the wall. It is the one perfectly solid, real-looking thing in the painting, and Braque put it there on purpose.' },
+    { x: '50%', y: '64%', w: 58, h: 40, label: 'The violin', detail: 'Below the nail the violin surfaces out of the rubble: the curled scroll near the centre, the strings, and lower down the unmistakable curves of the body with its f-holes. Braque, who loved music, lets you half-find the instrument and then lose it again in the facets.' },
+    { x: '33%', y: '33%', w: 46, h: 30, label: 'The jug', detail: 'Up to the left, a pale faceted shape with a rounded lip is the jug. It is dissolving into the same brown-grey planes as everything around it — readable for a second, then gone: exactly the brink of legibility Analytic Cubism likes to walk.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'Houses at Horta', mode: 'art' }, { label: 'Trompe-l’œil', mode: 'art' } ],
+    children: [ { label: 'Collage', mode: 'art' }, { label: 'Chair Caning', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
 // Artist — Picasso (1881–1973)
 // ─────────────────────────────────────────────────────────────
 export interface ArtistPeriod { id: string; label: string; range: string; color: string; summary: string; size: 's' | 'm' | 'l' }
@@ -704,5 +832,5 @@ export const PICASSO: ArtArtistContent = {
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
