@@ -160,7 +160,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'real', name: 'Realism', range: '1848–1870', accent: ART_ACCENTS.amber, size: 's', hook: 'Painting the world as the eye actually sees it. Mostly farmers and laundresses.', palette: ['#6b5034', '#3a2820', '#100c08'] },
     { id: 'imp', name: 'Impressionism', range: '1860s–1886', accent: ART_ACCENTS.blue, size: 'l', hook: 'Painting the LIGHT instead of the thing. Outdoors. Quick.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.impressionSunrise, credit: 'Monet, Impression, Sunrise · Musée Marmottan Monet, Paris' },
     { id: 'post', name: 'Post-Impressionism', range: '1886–1905', accent: ART_ACCENTS.green, size: 'm', hook: 'Putting the structure back. Cézanne in Aix, Van Gogh in Arles, Gauguin in Tahiti.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.cezanneBathers, credit: 'Cézanne, The Large Bathers · Philadelphia Museum of Art' },
-    { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Colour off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
     { id: 'cubism', name: 'Cubism', range: '1907–1922', accent: ART_ACCENTS.violet, size: 'xl', hook: 'A face has six sides now. A guitar shows you its strings and its back.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, imageAspect: '4500 / 4661', credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
     { id: 'fut', name: 'Futurism', range: '1909–1944', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars. It ended badly.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
@@ -172,7 +172,7 @@ export const MODERN_ERA: ArtEraContent = {
     { name: 'Cézanne', role: 'The bridge', palette: ['#5a7042', '#8a7848', '#1c1a12'] },
     { name: 'Monet', role: 'Light, water', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
     { name: 'Picasso', role: 'The fault line', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
-    { name: 'Matisse', role: 'Colour', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { name: 'Matisse', role: 'Color', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
     { name: 'Duchamp', role: 'The provocateur', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
     { name: 'Pollock', role: 'The action', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'] },
   ],
@@ -185,7 +185,7 @@ export const MODERN_ERA: ArtEraContent = {
     { id: 'salon', eyebrow: 'The setup', dateLabel: '1850–1870', title: 'The Salon and its enemies', blurb: 'Who gets to decide what a painting is for — and the painters who stopped asking permission.', progress: 1 / 7 },
     { id: 'light', eyebrow: 'Impressionism', dateLabel: '1860s–1886', title: 'Painting the light', blurb: 'A handful of friends quit painting the thing and start painting the light falling on it.', progress: 2 / 7 },
     { id: 'structure', eyebrow: 'Post-Impressionism', dateLabel: '1886–1905', title: 'Putting the structure back', blurb: 'Cézanne, Van Gogh and Gauguin decide light was not enough, and go looking for what holds a picture up.', progress: 3 / 7 },
-    { id: 'break', eyebrow: 'Fauvism & Cubism', dateLabel: '1905–1914', title: 'Breaking the picture', blurb: 'First colour comes off the leash, then perspective itself is repealed. The window shatters.', progress: 4 / 7 },
+    { id: 'break', eyebrow: 'Fauvism & Cubism', dateLabel: '1905–1914', title: 'Breaking the picture', blurb: 'First color comes off the leash, then perspective itself is repealed. The window shatters.', progress: 4 / 7 },
     { id: 'manifesto', eyebrow: 'The avant-gardes', dateLabel: '1909–1924', title: 'Manifestos and machines', blurb: 'Futurists worship the motorcar; Dada answers the trenches with a urinal. Art picks sides.', progress: 5 / 7 },
     { id: 'unconscious', eyebrow: 'Surrealism', dateLabel: '1924–1940', title: 'The unconscious gets a paintbrush', blurb: 'Between two wars, the dream becomes a subject and Freud gets a studio.', progress: 6 / 7 },
     { id: 'newyork', eyebrow: 'The center moves', dateLabel: '1940–1970', title: 'The center moves to New York', blurb: 'War empties Europe of its painters. America inherits modern art and makes it enormous, then sells it back as soup cans.', progress: 1 },
@@ -195,7 +195,7 @@ export const MODERN_ERA: ArtEraContent = {
 // City hubs for the era "where it happened" map. Coordinates are SVG viewBox
 // units (0–340 wide, 0–224 tall — a schematic, not true geography), with the
 // Atlantic divider at x≈120. Each hub carries the movement(s) that happened
-// there; the two `hub` cities (Paris, then New York) are the era's centres of
+// there; the two `hub` cities (Paris, then New York) are the era's centers of
 // gravity, joined on the map by the c.1940 migration arc.
 export interface ModernHub {
   city: string
@@ -212,7 +212,7 @@ export interface ModernHub {
 }
 // Every label reads "● City" — dot, then the city name on the same line (name to
 // the right). Movements sit one line below. Coordinates are tuned so the right-
-// hand names don't run off the 340-wide canvas or into a neighbour.
+// hand names don't run off the 340-wide canvas or into a neighbor.
 export const MODERN_MAP_HUBS: ModernHub[] = [
   { city: 'New York', x: 68, y: 120, hub: true, movements: ['Abstract Expressionism', 'Pop Art'], movLines: ['Abstract Expressionism', 'Pop Art'], nameAnchor: 'start', nameDx: 8, nameDy: 3, movAnchor: 'middle', movDy: 17 },
   { city: 'Mexico City', x: 52, y: 216, movements: ['Muralism'], nameAnchor: 'start', nameDx: 7, nameDy: 3, movAnchor: 'middle', movDy: 14 },
@@ -309,7 +309,7 @@ export const CUBISM: ArtMovementContent = {
     { id: 'chair-caning', year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso', place: 'Paris', size: 'l', blurb: 'A piece of oilcloth printed with chair caning, glued to the canvas. Collage is born; painting will never be only paint again.', palette: ['#b89055', '#3a3020', '#1a1208'], imageUrl: ART_IMG.chairCaning, credit: 'Picasso, Still Life with Chair Caning · Musée Picasso, Paris' },
     { id: 'the-portuguese', year: 1911, name: 'The Portuguese', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque stencils letters straight onto the canvas — the first time type sits on the surface as pure form, and the hinge toward collage.', palette: ['#9a8458', '#4a3f28', '#15110a'], imageUrl: ART_IMG.portuguese, credit: 'Braque, The Portuguese, 1911 · Kunstmuseum Basel' },
     { id: 'gris-breakfast', year: 1914, name: 'Breakfast', artist: 'Juan Gris', place: 'Paris', size: 'm', blurb: 'Gris turns Cubism into a system — pasted wood-grain paper, a torn newspaper, his own name hidden in the headline.', palette: ['#3a6a7a', '#8a6b3a', '#1c2a2e'], imageUrl: ART_IMG.grisLunch, credit: 'Gris, Breakfast (Le Petit Déjeuner), 1914 · MoMA, New York' },
-    { id: 'three-musicians', year: 1921, name: 'Three Musicians', artist: 'Picasso', place: 'Fontainebleau', size: 'l', blurb: 'Picasso revisits Cubism as a synthetic, decorative language. Flat planes, bright colours, almost a poster.', palette: ['#c8a72a', '#7a1422', '#1c0a08'], imageUrl: ART_IMG.picassoThreeMusicians, credit: 'Picasso, Three Musicians, 1921 · Philadelphia Museum of Art' },
+    { id: 'three-musicians', year: 1921, name: 'Three Musicians', artist: 'Picasso', place: 'Fontainebleau', size: 'l', blurb: 'Picasso revisits Cubism as a synthetic, decorative language. Flat planes, bright colors, almost a poster.', palette: ['#c8a72a', '#7a1422', '#1c0a08'], imageUrl: ART_IMG.picassoThreeMusicians, credit: 'Picasso, Three Musicians, 1921 · Philadelphia Museum of Art' },
   ],
   artists: [
     { id: 'picasso', name: 'Picasso', role: 'Pioneer', years: '1881–1973', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
@@ -321,7 +321,7 @@ export const CUBISM: ArtMovementContent = {
   ],
   parallels: [
     { year: 1909, movement: 'Futurism', place: 'Milan', blurb: 'Marinetti publishes the Futurist Manifesto in Le Figaro.' },
-    { year: 1911, movement: 'Der Blaue Reiter', place: 'Munich', blurb: 'Kandinsky, Marc, Münter form a group around colour, music and abstraction.' },
+    { year: 1911, movement: 'Der Blaue Reiter', place: 'Munich', blurb: 'Kandinsky, Marc, Münter form a group around color, music and abstraction.' },
     { year: 1913, movement: 'Suprematism', place: 'St Petersburg', blurb: 'Malevich is heading toward the Black Square.' },
     { year: 1916, movement: 'Dada', place: 'Zürich', blurb: 'At the Cabaret Voltaire, a war refugee scene mocks the very idea of meaning.' },
   ],
@@ -341,7 +341,7 @@ export const CUBISM: ArtMovementContent = {
   },
   sections: [
     { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks — the three things Picasso could not stop looking at.', progress: 1 / 6 },
-    { id: 'analytic', eyebrow: 'The partnership', dateLabel: '1909–1911', title: 'Two men, one rope', blurb: 'Picasso and Braque climb the mountain roped together, faceting the world into brown and grey shards.', progress: 2 / 6 },
+    { id: 'analytic', eyebrow: 'The partnership', dateLabel: '1909–1911', title: 'Two men, one rope', blurb: 'Picasso and Braque climb the mountain roped together, faceting the world into brown and gray shards.', progress: 2 / 6 },
     { id: 'shards', eyebrow: 'The hermetic peak', dateLabel: '1911–1912', title: 'The world in shards', blurb: 'The pictures get so abstract even the painters get nervous — and the public meets Cubism in a room they were not ready for.', progress: 3 / 6 },
     { id: 'paper', eyebrow: 'A new technique', dateLabel: '1912–1914', title: 'Pasted paper', blurb: 'They glue a scrap of oilcloth to a canvas, and five centuries of painting-as-illusion quietly end.', progress: 4 / 6 },
     { id: 'public', eyebrow: 'The second wave', dateLabel: '1911–1914', title: 'Cubism goes public', blurb: 'The Salon Cubists exhibit, theorise and scandalise, and a freight train of it reaches New York.', progress: 5 / 6 },
@@ -462,7 +462,7 @@ export const DEMOISELLES: ArtWorkContent = {
     { id: 'making', eyebrow: 'Spring – Summer 1907', dateLabel: 'May–Jul 1907', title: 'Painting it', blurb: 'Hundreds of preparatory sketches. The canvas changes radically twice. By July the five faces have become masks.', progress: 0.3 },
     { id: 'reception', eyebrow: 'Studio shock', dateLabel: 'July–Nov 1907', title: 'What his friends said', blurb: 'Matisse calls it an outrage. Braque says it makes him feel like Picasso has been drinking turpentine and eating tow.', progress: 0.52 },
     { id: 'hidden', eyebrow: 'Nine years rolled up', dateLabel: '1907–1916', title: 'The painting goes away', blurb: 'Picasso rolls it up. It is shown only once, in 1916. Most painters who go on to make Cubism never see it.', progress: 0.74 },
-    { id: 'legacy', eyebrow: 'What happened next', dateLabel: '1916–today', title: 'The painting that broke the picture', blurb: 'Bought by a couturier, sold to MoMA in 1939, and slowly recognised as the canvas where modern art changed gear.', progress: 0.95 },
+    { id: 'legacy', eyebrow: 'What happened next', dateLabel: '1916–today', title: 'The painting that broke the picture', blurb: 'Bought by a couturier, sold to MoMA in 1939, and slowly recognized as the canvas where modern art changed gear.', progress: 0.95 },
   ],
   // FLAG: provenance prices below are from the mockup — verify before shipping.
   provenance: [
@@ -515,7 +515,7 @@ export const KAHNWEILER: ArtWorkContent = {
   acquired: 'Acquired 1948',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 2, total: 9 },
-  hook: 'A real man — Picasso’s own dealer — dissolved into a shimmer of brown-and-grey facets you have to decode.',
+  hook: 'A real man — Picasso’s own dealer — dissolved into a shimmer of brown-and-gray facets you have to decode.',
   heroImage: ART_IMG.kahnweiler,
   heroCredit: 'Picasso, Portrait of Daniel-Henry Kahnweiler, 1910 · Art Institute of Chicago',
   heroAspect: 0.717,
@@ -527,8 +527,8 @@ export const KAHNWEILER: ArtWorkContent = {
   ],
   sections: [
     { id: 'dealer', eyebrow: 'The man', dateLabel: '1907–1910', title: 'The dealer who bankrolled Cubism', blurb: 'A young German walks into a Paris backwater, signs the painters nobody else will touch, and becomes the quiet engine behind Cubism.', progress: 0.1 },
-    { id: 'analytic', eyebrow: 'The style', dateLabel: '1909–1911', title: 'Cubism, three years on', blurb: 'By 1910 Picasso and Braque are roped together, faceting the whole visible world into a shimmer of brown and grey.', progress: 0.3 },
-    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Finding the man in the facets', blurb: 'The wave of hair, two almond eyes, the clasped hands — the footholds that turn a grey scaffold back into a seated man.', progress: 0.55 },
+    { id: 'analytic', eyebrow: 'The style', dateLabel: '1909–1911', title: 'Cubism, three years on', blurb: 'By 1910 Picasso and Braque are roped together, faceting the whole visible world into a shimmer of brown and gray.', progress: 0.3 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Finding the man in the facets', blurb: 'The wave of hair, two almond eyes, the clasped hands — the footholds that turn a gray scaffold back into a seated man.', progress: 0.55 },
     { id: 'sitting', eyebrow: 'The edge of legible', dateLabel: 'Autumn 1910', title: 'Sitting for a near-abstraction', blurb: 'Many sittings push the portrait to the brink of unreadability — and then, deliberately, it stops just short.', progress: 0.78 },
     { id: 'seized', eyebrow: 'Afterlife', dateLabel: '1914–1948', title: 'Seized, scattered, saved', blurb: 'War turns Kahnweiler into an enemy alien; his whole collection is confiscated and auctioned, and the portrait drifts toward Chicago.', progress: 0.95 },
   ],
@@ -543,7 +543,7 @@ export const KAHNWEILER: ArtWorkContent = {
   figures: [],
   annotations: [
     { x: '61%', y: '12%', w: 30, h: 18, label: 'The wave of hair', detail: 'Start at the top: that patch of fine diagonal hatching is Kahnweiler’s neatly combed, wavy hair — one of the few passages Picasso leaves almost describable, a foothold before the rest dissolves.' },
-    { x: '50%', y: '22%', w: 32, h: 24, label: 'His eyes, looking out', detail: 'Below the hair, two dark almond eyes and the ridge of a nose surface out of the facets. Find the face looking back and the whole grey scaffold suddenly reads as a seated man.' },
+    { x: '50%', y: '22%', w: 32, h: 24, label: 'His eyes, looking out', detail: 'Below the hair, two dark almond eyes and the ridge of a nose surface out of the facets. Find the face looking back and the whole gray scaffold suddenly reads as a seated man.' },
     { x: '52%', y: '89%', w: 42, h: 20, label: 'The clasped hands', detail: 'At the very bottom, a cluster of pale interlocking blocks resolves into his hands, folded in his lap. Picasso pins the figure down with hair and hands — top and bottom — and lets everything between them break apart.' },
     { x: '18%', y: '70%', w: 32, h: 28, label: 'A still-life corner', detail: 'Down in the lower left (to the sitter’s right) sit the faceted shards of a small still life — a bottle, and probably a glass beside it. The everyday tabletop motif Picasso and Braque were faceting over and over in these years, tucked into the corner of a portrait.' },
   ],
@@ -607,9 +607,9 @@ export const CHAIR_CANING: ArtWorkContent = {
   ],
   annotations: [
     { x: '30%', y: '34%', w: 34, h: 18, label: 'The letters JOU', detail: 'Big black painted capitals: J-O-U, the first three letters of journal — French for newspaper (and literally “daily”). A café kept its papers on a rack; here one lies on the table. Viewers have long enjoyed the wink to jouer, “to play” — the game of the whole picture.' },
-    { x: '28%', y: '64%', w: 32, h: 28, label: 'The printed chair caning', detail: 'This woven lattice is the trick at the centre of the work. It is not real cane, and it is not painted — it is a strip of cheap oilcloth, machine-printed to imitate the rattan seat of a bistro chair, glued straight onto the canvas. A factory-made fake, standing in for the chair you would sit on.' },
+    { x: '28%', y: '64%', w: 32, h: 28, label: 'The printed chair caning', detail: 'This woven lattice is the trick at the center of the work. It is not real cane, and it is not painted — it is a strip of cheap oilcloth, machine-printed to imitate the rattan seat of a bistro chair, glued straight onto the canvas. A factory-made fake, standing in for the chair you would sit on.' },
     { x: '50%', y: '90%', w: 52, h: 16, label: 'The rope frame', detail: 'A length of ordinary rope, glued around the oval edge. It reads two ways at once: the carved rim of a little round café table seen from above, and the gilt edge of a picture frame. Picasso lets you choose — and so blurs the line between an object and a picture of one.' },
-    { x: '60%', y: '44%', w: 42, h: 38, label: 'The still life, in facets', detail: 'Everything else is hand-painted illusion in the brown-grey shards of Analytic Cubism: a stemmed wineglass, a pipe, a knife, a slice of lemon, a scallop shell — the remains of a drink and a light meal, dissolving into planes. The old painted fakery sits right beside the glued-on real thing.' },
+    { x: '60%', y: '44%', w: 42, h: 38, label: 'The still life, in facets', detail: 'Everything else is hand-painted illusion in the brown-gray shards of Analytic Cubism: a stemmed wineglass, a pipe, a knife, a slice of lemon, a scallop shell — the remains of a drink and a light meal, dissolving into planes. The old painted fakery sits right beside the glued-on real thing.' },
   ],
   lineage: {
     parents: [ { label: 'Analytic Cubism', mode: 'art' }, { label: 'Cézanne', mode: 'art' }, { label: 'Braque', mode: 'art' }, { label: 'Industrial mass production', mode: 'civ' } ],
@@ -673,7 +673,7 @@ export const HORTA: ArtWorkContent = {
     { x: '46%', y: '56%', w: 42, h: 34, label: 'Houses as cubes', detail: 'The heart of the picture: the village’s flat-roofed houses, stripped down to bare ochre blocks — cubes, wedges, prisms — stacked and tilted up the slope. Picasso throws out the fussy detail and keeps only the geometry, the lesson he took from Cézanne: build the world out of solid shapes.' },
     { x: '64%', y: '20%', w: 52, h: 24, label: 'The hill, faceted too', detail: 'The mountain behind is broken into the same angular planes as the buildings. Village and hillside rhyme; nature and architecture are made of one geometry. There is no soft, hazy distance — the far hill is pulled up flat against the houses.' },
     { x: '30%', y: '46%', w: 30, h: 26, label: 'A roof becomes a plane', detail: 'Follow a single house and watch a roof flatten into a tilted facet, a wall into another, the two meeting at an impossible angle. Picasso lights each plane from a different, unfixable direction, so the cube reads as solid and as flat at the same time.' },
-    { x: '12%', y: '33%', w: 24, h: 26, label: 'The one green note', detail: 'Almost the only curve, and almost the only colour that isn’t baked earth: a clump of green — a tree — clinging to the left edge. In a picture of relentless dry geometry, it is the single breath of organic life, and Picasso lets it stay soft.' },
+    { x: '12%', y: '33%', w: 24, h: 26, label: 'The one green note', detail: 'Almost the only curve, and almost the only color that isn’t baked earth: a clump of green — a tree — clinging to the left edge. In a picture of relentless dry geometry, it is the single breath of organic life, and Picasso lets it stay soft.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'Les Demoiselles', mode: 'art' }, { label: 'Catalan hill towns', mode: 'civ' } ],
@@ -736,8 +736,8 @@ export const VIOLIN_JUG: ArtWorkContent = {
   ],
   annotations: [
     { x: '52%', y: '9%', w: 52, h: 15, label: 'The painted nail', detail: 'Start at the very top. That is a nail — painted with old-fashioned, photographic realism, casting a neat little shadow, as if it were pinning the whole picture to the wall. It is the one perfectly solid, real-looking thing in the painting, and Braque put it there on purpose.' },
-    { x: '50%', y: '64%', w: 58, h: 40, label: 'The violin', detail: 'Below the nail the violin surfaces out of the rubble: the curled scroll near the centre, the strings, and lower down the unmistakable curves of the body with its f-holes. Braque, who loved music, lets you half-find the instrument and then lose it again in the facets.' },
-    { x: '33%', y: '33%', w: 46, h: 30, label: 'The jug', detail: 'Up to the left, a pale faceted shape with a rounded lip is the jug. It is dissolving into the same brown-grey planes as everything around it — readable for a second, then gone: exactly the brink of legibility Analytic Cubism likes to walk.' },
+    { x: '50%', y: '64%', w: 58, h: 40, label: 'The violin', detail: 'Below the nail the violin surfaces out of the rubble: the curled scroll near the center, the strings, and lower down the unmistakable curves of the body with its f-holes. Braque, who loved music, lets you half-find the instrument and then lose it again in the facets.' },
+    { x: '33%', y: '33%', w: 46, h: 30, label: 'The jug', detail: 'Up to the left, a pale faceted shape with a rounded lip is the jug. It is dissolving into the same brown-gray planes as everything around it — readable for a second, then gone: exactly the brink of legibility Analytic Cubism likes to walk.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'Houses at Horta', mode: 'art' }, { label: 'Trompe-l’œil', mode: 'art' } ],
@@ -801,7 +801,7 @@ export const THREE_WOMEN: ArtWorkContent = {
     { x: '48%', y: '20%', w: 46, h: 22, label: 'A monumental head', detail: 'The central figure’s head, tipped back with raised arms: heavy almond eyes, a blunt nose, the whole face simplified into a few carved planes. There is no expression to read — Picasso wants a mask, not a person, a head you could imagine cut from wood.' },
     { x: '75%', y: '34%', w: 40, h: 26, label: 'A mask for a face', detail: 'The right-hand figure’s face is the clearest mask of the three — gouged, frontal, deliberately “other,” lifted from the carved African sculpture Picasso had been staring at. A beautiful nude is given the face of a carved mask.' },
     { x: '42%', y: '58%', w: 54, h: 32, label: 'Carved from one block', detail: 'Where the three bodies meet, you can barely tell whose limb is whose: thighs, shoulders and arms lock into a single faceted mass of rust and ochre. The picture reads less like three figures than one solid thing chiselled into shape.' },
-    { x: '14%', y: '20%', w: 26, h: 26, label: 'A breath of green', detail: 'At the edges, slivers of cool green press in against all that fired-clay red — nearly the only colour in the picture that isn’t earth. It is the one note of air around a group otherwise packed as tight as masonry.' },
+    { x: '14%', y: '20%', w: 26, h: 26, label: 'A breath of green', detail: 'At the edges, slivers of cool green press in against all that fired-clay red — nearly the only color in the picture that isn’t earth. It is the one note of air around a group otherwise packed as tight as masonry.' },
   ],
   lineage: {
     parents: [ { label: 'Les Demoiselles', mode: 'art' }, { label: 'African sculpture', mode: 'art' }, { label: 'Cézanne', mode: 'art' } ],
@@ -863,7 +863,7 @@ export const THE_PORTUGUESE: ArtWorkContent = {
   annotations: [
     { x: '66%', y: '20%', w: 58, h: 34, label: 'Stencilled letters', detail: 'Across the top, in crisp block capitals, the letters “D BAL” (from GRAND BAL — a dance-hall poster) and below them a scatter of stencilled numbers. They are stencilled — sharp, flat, mechanical — and they sit dead on the surface, refusing to join the faceted haze behind them. This is the move the whole picture is famous for.' },
     { x: '46%', y: '28%', w: 54, h: 24, label: 'The musician’s head', detail: 'Below the lettering, a rounded mass of paler planes is the player’s head and shoulders, tipped slightly, almost lost in the shimmer. Braque gives you just enough — a curve, a shadow — to feel a person is there before he dissolves again.' },
-    { x: '40%', y: '74%', w: 52, h: 28, label: 'The guitar', detail: 'Lower centre, the diagonal strings and the soft curve of a sound-hole give away the guitar across the musician’s lap. It is the firmest object in the picture, the thing that tells you this is a seated player and not pure abstraction.' },
+    { x: '40%', y: '74%', w: 52, h: 28, label: 'The guitar', detail: 'Lower center, the diagonal strings and the soft curve of a sound-hole give away the guitar across the musician’s lap. It is the firmest object in the picture, the thing that tells you this is a seated player and not pure abstraction.' },
     { x: '55%', y: '50%', w: 44, h: 26, label: 'Planes that bleed', detail: 'Everywhere, edges that should belong to the figure open and leak into the background, so body and air are built from the same broken brown light — the Analytic-Cubism trick called passage, here pushed nearly to the point of vapour.' },
   ],
   lineage: {
@@ -924,8 +924,8 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
     { name: 'Braque', role: 'Co-inventor of papier collé', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
   ],
   annotations: [
-    { x: '42%', y: '78%', w: 42, h: 16, label: 'JOURNAL — and his name', detail: 'A torn strip of newspaper reads “…OURN…” — journal, the French daily — and just below it, “…ZA GRIS.” That last word is the painter signing his work inside the picture: Gris means “grey” in French, and here it is set in newsprint, a pun and a signature in one.' },
-    { x: '56%', y: '55%', w: 40, h: 24, label: 'The cup and saucer', detail: 'Dead centre, a white coffee cup and saucer are drawn with almost old-fashioned, rounded clarity — solid, shaded, completely readable. Gris lets you have the real object, then surrounds it with flat pasted planes, so realism and abstraction share one table.' },
+    { x: '42%', y: '78%', w: 42, h: 16, label: 'JOURNAL — and his name', detail: 'A torn strip of newspaper reads “…OURN…” — journal, the French daily — and just below it, “…ZA GRIS.” That last word is the painter signing his work inside the picture: Gris means “gray” in French, and here it is set in newsprint, a pun and a signature in one.' },
+    { x: '56%', y: '55%', w: 40, h: 24, label: 'The cup and saucer', detail: 'Dead center, a white coffee cup and saucer are drawn with almost old-fashioned, rounded clarity — solid, shaded, completely readable. Gris lets you have the real object, then surrounds it with flat pasted planes, so realism and abstraction share one table.' },
     { x: '33%', y: '40%', w: 40, h: 26, label: 'The coffee pot', detail: 'To the left, the tall pale shape of a coffee pot or pitcher rises out of the composition. Notice how Gris splits it down a clean vertical seam — light on one side, shadow on the other — slicing a single object into two views without ever losing it.' },
     { x: '30%', y: '86%', w: 46, h: 18, label: 'Imitation wood-grain', detail: 'The table and its turned legs are not painted wood — they are strips of cheap, factory-printed wood-grain paper, glued down. A mass-produced fake of timber, standing in for the real café table: collage doing the work paint used to do.' },
   ],
@@ -970,7 +970,7 @@ export const THREE_MUSICIANS: ArtWorkContent = {
   ],
   sections: [
     { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1921', title: 'Ten years on', blurb: 'Cubism is no longer a scandal but a style; the war is over, the old circle scattered, and Picasso sits down to paint its summation in a rented garage.', progress: 0.08 },
-    { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1921', title: 'Painted like cut paper', blurb: 'Two near-identical giants, built from flat interlocking planes of bright colour — the look of pasted paper, achieved in pure paint.', progress: 0.32 },
+    { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1921', title: 'Painted like cut paper', blurb: 'Two near-identical giants, built from flat interlocking planes of bright color — the look of pasted paper, achieved in pure paint.', progress: 0.32 },
     { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Three masked players', blurb: 'A clarinet, a guitar and a sheet of music: Pierrot, Harlequin and a robed monk, staring out of a shallow brown room.', progress: 0.56 },
     { id: 'elegy', eyebrow: 'The point', dateLabel: '1921', title: 'A portrait of ghosts', blurb: 'The three masks are widely read as Picasso and two poet friends — one dead, one turned monk — which makes this bright picture a quiet elegy.', progress: 0.78 },
     { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1921–today', title: 'Two versions, two cities', blurb: 'He painted it twice in the same summer; one hangs in New York, this one in Philadelphia — the grand last word of Cubism’s great decade.', progress: 0.95 },
@@ -987,10 +987,10 @@ export const THREE_MUSICIANS: ArtWorkContent = {
     { name: 'A. E. Gallatin', role: 'The collector', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
   ],
   annotations: [
-    { x: '50%', y: '22%', w: 82, h: 20, label: 'Three masks', detail: 'Across the top, three masked faces stare straight out: the white-and-bearded one at left, a black domino mask in the centre, a hooded face at right. They are flat, frontal and unreadable — carnival masks, not portraits, which is part of why the picture feels haunted.' },
-    { x: '38%', y: '31%', w: 52, h: 24, label: 'The instruments', detail: 'A clarinet held to the centre figure’s mouth, the neck of a guitar at the left — the “music” of three musicians, rendered as flat brown and black shapes. You read the instruments by their silhouettes, the way you’d read a paper cut-out.' },
-    { x: '47%', y: '52%', w: 40, h: 18, label: 'The sheet music', detail: 'On the table, a sheet of music with actual staves and notes — one of the few “realistic” passages in the picture, a small window of legibility in a wall of flat colour.' },
-    { x: '30%', y: '64%', w: 34, h: 28, label: 'Flat shapes, cut and laid down', detail: 'The Harlequin’s costume is a field of orange-and-cream diamonds, built as flat interlocking planes with hard edges — exactly the look of pasted coloured paper. Nine years after Chair Caning, Picasso paints collage instead of gluing it.' },
+    { x: '50%', y: '22%', w: 82, h: 20, label: 'Three masks', detail: 'Across the top, three masked faces stare straight out: the white-and-bearded one at left, a black domino mask in the center, a hooded face at right. They are flat, frontal and unreadable — carnival masks, not portraits, which is part of why the picture feels haunted.' },
+    { x: '38%', y: '31%', w: 52, h: 24, label: 'The instruments', detail: 'A clarinet held to the center figure’s mouth, the neck of a guitar at the left — the “music” of three musicians, rendered as flat brown and black shapes. You read the instruments by their silhouettes, the way you’d read a paper cut-out.' },
+    { x: '47%', y: '52%', w: 40, h: 18, label: 'The sheet music', detail: 'On the table, a sheet of music with actual staves and notes — one of the few “realistic” passages in the picture, a small window of legibility in a wall of flat color.' },
+    { x: '30%', y: '64%', w: 34, h: 28, label: 'Flat shapes, cut and laid down', detail: 'The Harlequin’s costume is a field of orange-and-cream diamonds, built as flat interlocking planes with hard edges — exactly the look of pasted colored paper. Nine years after Chair Caning, Picasso paints collage instead of gluing it.' },
   ],
   lineage: {
     parents: [ { label: 'Chair Caning', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Commedia dell’arte', mode: 'civ' } ],

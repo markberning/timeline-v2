@@ -2,7 +2,7 @@
 
 // Cubism — the movement's own six-chapter narrative, 1907–1922. One altitude
 // above the Demoiselles work read. House voice (dry wit dialed up, comparisons to
-// land the points); inline figures honour the copyright tiers in art-content.ts
+// land the points); inline figures honor the copyright tiers in art-content.ts
 // (pre-1931 → inline + Rights line; in-copyright → RestrictedFigure). Revised
 // 2026-05-23 against the art content pipeline gates (facts, looking, clarity,
 // framing, comprehensiveness) — see audits/art-content-pipeline.md.
@@ -40,7 +40,7 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
         Paul Cézanne died in October 1906, and within months every ambitious painter in Paris had filed
         through his memorial shows to work out what they had been missing. What they found was an old man who
         had quietly stopped pretending a painting was a window onto a real scene. Cézanne built his apples and
-        his mountains out of small facets of colour that did not blend but butted up against each other, like a
+        his mountains out of small facets of color that did not blend but butted up against each other, like a
         bricklayer who lets you see every brick. He even let a single tabletop tilt at two angles at once —
         which is, if you think about it, closer to how you actually scan a table than the polite fiction that
         you take it in from one frozen spot with one unblinking eye.
@@ -90,7 +90,7 @@ const BeforeNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="L'Estaque · 1908" title="Braque, and a word coined as an insult" />
       <p style={proseStyle}>
-        Georges Braque, born in 1882, was a young Fauve — one of the painters then using raw, blazing colour
+        Georges Braque, born in 1882, was a young Fauve — one of the painters then using raw, blazing color
         with no shading to round things out — when a friend marched him into Picasso&rsquo;s studio to see the
         Demoiselles. He hated it. He is supposed to have said it was like being made to eat rope and drink
         turpentine, though the exact wording drifts from teller to teller. Within a year he was painting in the
@@ -158,9 +158,9 @@ const AnalyticNarrative: Narrative = ({ accent, onZoom }) => (
       <SectionHeader accent={accent} label="The method" title="What 'Analytic' means" />
       <p style={proseStyle}>
         Historians call this phase{' '}<strong>Analytic Cubism</strong>, because the painters take an object apart
-        — analyse it — and lay several of its sides down on the flat canvas at once. Picture trying to describe
+        — analyze it — and lay several of its sides down on the flat canvas at once. Picture trying to describe
         a friend by pinning up their passport photo, their profile and the back of their head in a single
-        frame: that is roughly the deal. The colour drains away to browns, greys and ochres, because colour
+        frame: that is roughly the deal. The color drains away to browns, grays and ochres, because color
         would only distract from the real subject, which is{' '}<em>structure</em>. A guitar shows you its face,
         its edge and its sound-hole simultaneously. And the law that had governed European painting since the
         1400s — that a picture is a window seen from one fixed spot, with one eye, in one frozen instant — is
@@ -241,7 +241,7 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
         minimum. So when Paris finally met &ldquo;Cubism&rdquo; as a public outrage — at the Salon des
         Indépendants of 1911, the big open exhibition that, unlike the official Salon, had no jury to keep
         anything out — the room that became notorious as{' '}<strong>Salle 41</strong>{' '}held no Picassos and no
-        Braques at all. The walls were a thicket of brown-grey planes, tilted faces and faceted figures by a{' '}<em> second wave</em>{' '}of painters: Albert Gleizes, Jean Metzinger, Fernand Léger, Robert Delaunay and
+        Braques at all. The walls were a thicket of brown-gray planes, tilted faces and faceted figures by a{' '}<em> second wave</em>{' '}of painters: Albert Gleizes, Jean Metzinger, Fernand Léger, Robert Delaunay and
         Henri Le Fauconnier, all French, all in their twenties and thirties, who had picked the idea up
         secondhand. Crowds jeered, newspapers cried anarchy, and a movement neither founder had named or hung
         became front-page news.
@@ -263,7 +263,7 @@ const ShardsNarrative: Narrative = ({ accent, onZoom }) => (
       accent={BLUE}
       region="Munich"
       title="Kandinsky is about to drop the subject altogether."
-      body="While Cubism clings to a shoulder and a mandolin as handrails, in Munich the Russian painter Wassily Kandinsky is making pictures of nothing but colour and line — among the first fully abstract paintings. If Cubism took the window apart pane by pane, Kandinsky simply threw the whole window out."
+      body="While Cubism clings to a shoulder and a mandolin as handrails, in Munich the Russian painter Wassily Kandinsky is making pictures of nothing but color and line — among the first fully abstract paintings. If Cubism took the window apart pane by pane, Kandinsky simply threw the whole window out."
     />
   </>
 )
@@ -302,7 +302,7 @@ const PaperNarrative: Narrative = ({ accent, onZoom }) => (
         Cubism had{' '}<em>taken objects apart</em>, this new mode{' '}<em>assembled</em>{' '}pictures out of ready-made
         stuff: newspaper, sheet music, cigarette wrappers, stencilled letters, fake wood, fake marble. Call it
         the difference between an autopsy and a scrapbook. Historians call it{' '}<strong>Synthetic Cubism</strong>.
-        The colour comes back, the planes go big and flat and almost poster-like, and the real world — actual
+        The color comes back, the planes go big and flat and almost poster-like, and the real world — actual
         newsprint reporting actual Balkan wars — gets pasted bodily into the art.
       </p>
       <p style={proseStyle}>
@@ -323,7 +323,7 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         <DropCap accent={accent}>P</DropCap>
         icasso and Braque never wrote a manifesto and rarely exhibited. The painters who turned Cubism into a
-        public movement were the second wave — <strong>Albert Gleizes</strong>{' '}and{' '}<strong>Jean Metzinger</strong>{' '}(the theorists),{' '}<strong>Fernand Léger</strong>{' '}(who pushed it toward gleaming tubes and pistons),{' '}<strong> Robert Delaunay</strong>{' '}(toward pure colour), and the Spaniard{' '}<strong>Juan Gris</strong>{' '}(toward
+        public movement were the second wave — <strong>Albert Gleizes</strong>{' '}and{' '}<strong>Jean Metzinger</strong>{' '}(the theorists),{' '}<strong>Fernand Léger</strong>{' '}(who pushed it toward gleaming tubes and pistons),{' '}<strong> Robert Delaunay</strong>{' '}(toward pure color), and the Spaniard{' '}<strong>Juan Gris</strong>{' '}(toward
         a tight, almost mathematical order). All French or Paris-based, all younger, they showed at the big
         open Salons, argued in the cafés, and in 1912 did the unthinkable: they turned a style into a theory.
         Gleizes and Metzinger published{' '}<em>Du Cubisme</em>, the first book on the movement, and a sprawling
@@ -343,8 +343,8 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         Their champion was the poet{' '}<strong>Guillaume Apollinaire</strong>, a one-man label factory who reviewed
         the shows, defended them in print, and minted names the way a mint makes coins — he christened
-        Delaunay&rsquo;s colour-drunk, near-abstract variant{' '}<em>Orphism</em>{' '}(after Orpheus, because he thought
-        it worked on you like music). Robert Delaunay rarely worked alone: his partner{' '}<strong>Sonia Delaunay</strong>{' '}drove the same colour experiments and carried them off the canvas entirely, into fabric, fashion and
+        Delaunay&rsquo;s color-drunk, near-abstract variant{' '}<em>Orphism</em>{' '}(after Orpheus, because he thought
+        it worked on you like music). Robert Delaunay rarely worked alone: his partner{' '}<strong>Sonia Delaunay</strong>{' '}drove the same color experiments and carried them off the canvas entirely, into fabric, fashion and
         book design — which is a large part of why Orphism outlived the painting room.
       </p>
 
@@ -356,7 +356,7 @@ const PublicNarrative: Narrative = ({ accent, onZoom }) => (
         cascade of overlapping slats, less a nude than the photographic blur of one walking downstairs. A
         baffled critic called it &ldquo;an explosion in a shingle factory&rdquo;; a newspaper cartoonist redrew
         it as &ldquo;the rude descending a staircase — rush hour at the subway.&rdquo; People queued to be
-        outraged. And then American collectors started buying. The centre of gravity of modern art was still
+        outraged. And then American collectors started buying. The center of gravity of modern art was still
         firmly in Paris — but a wire had just been strung across the Atlantic, and thirty years later the
         current would reverse.
       </p>
@@ -392,7 +392,7 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         Picasso, during and after the war, swerved — into stage designs for the{' '}<em>Ballets Russes</em>{' '}(the
         dazzling Paris-based Russian dance company everyone in the arts was chasing), into a cool neoclassicism
-        of heavy, stone-coloured figures that looked back to ancient Greece and Rome, and then back into a flat,
+        of heavy, stone-colored figures that looked back to ancient Greece and Rome, and then back into a flat,
         bright, almost decorative Cubism in big set-pieces like{' '}<em>Three Musicians</em>. Juan Gris carried the
         strict version forward as an almost classical system until his early death in 1927. The movement as a
         daily shared adventure was over by 1914; but by then it had stopped being a movement and become a{' '}<em> language</em>.
@@ -403,7 +403,7 @@ const AfterNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.picassoThreeMusicians}
         ratio="5/6"
         alt="Picasso, Three Musicians"
-        caption={<>Three masked carnival figures — a Harlequin, a Pierrot, a monk — built from flat coloured cut-outs: the broken window of Analytic Cubism turned into stained glass.</>}
+        caption={<>Three masked carnival figures — a Harlequin, a Pierrot, a monk — built from flat colored cut-outs: the broken window of Analytic Cubism turned into stained glass.</>}
         credit={<>Picasso,{' '}<em>Three Musicians</em>, 1921 · Philadelphia Museum of Art</>}
         rights={PD_RIGHTS}
       />

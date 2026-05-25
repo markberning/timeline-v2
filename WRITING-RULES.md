@@ -6,6 +6,14 @@ Rules for drafting v2 narratives. Apply these to every new TL and every rewrite 
 
 For mesopotamia-specific chapter fixes and the contested-claims audit, see [audits/mesopotamia-rewrite-fixes.md](audits/mesopotamia-rewrite-fixes.md).
 
+**Spelling: American English, every vertical (locked 2026-05-25).** color/center/
+realize/organize/civilization/gray/theater/meter/catalog/neighbor/mustache — not
+the British -our/-re/-ise forms. The civ and war corpora are already American; the
+art vertical was drafted British and was normalized. The only exceptions are
+genuine proper nouns (e.g. **Centre Pompidou**) and established American art terms
+that happen to look British (**Color Field**, already correct). Never instruct a
+pipeline author to "match the existing file's spelling" — match the house standard.
+
 ---
 
 ## Core principle: Write for completeness, not for the existing event list

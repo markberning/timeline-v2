@@ -2,7 +2,7 @@
 
 // Art Movement page — Cubism is the only authored movement. Dossier (right) is
 // the default view: hero → at-a-glance → cubist-artists strip → the INFLUENCE
-// FLOW (the movement-page signature visual, the equivalent of War's theatre
+// FLOW (the movement-page signature visual, the equivalent of War's theater
 // map) → the works cord/node timeline → "Meanwhile, elsewhere" parallels.
 // Timeline (left) view = hero + the long hook + the same works cord/node.
 //
@@ -35,7 +35,7 @@ const SIZES: Record<MovementWork['size'], { content: number; body: number; imgW:
 }
 
 // ─────────────────────────────────────────────────────────────
-// Image tile that falls back to its 3-colour palette gradient on error.
+// Image tile that falls back to its 3-color palette gradient on error.
 // (A flat tile with optional label — the mockup's PaintingTile.)
 // ─────────────────────────────────────────────────────────────
 function CordTile({ palette, imageUrl, label, natural }: { palette: Palette; imageUrl?: string; label?: string; natural?: boolean }) {
@@ -145,7 +145,7 @@ function WorksCord({ works, accent, eraId, movementId }: { works: MovementWork[]
 // ─────────────────────────────────────────────────────────────
 // THE INFLUENCE FLOW — the movement-page signature visual. A top-to-bottom
 // flow that reads literally: what fed INTO the movement → the movement → what
-// it LED TO. Chips are coloured by lineage mode (art / civ / war). Mirrors the
+// it LED TO. Chips are colored by lineage mode (art / civ / war). Mirrors the
 // front-door climb tree's "grew out of / led to" framing. Built from mv.lineage.
 // ─────────────────────────────────────────────────────────────
 const MODE_COLOR = (mode: ArtLineageChip['mode'], accent: string) =>

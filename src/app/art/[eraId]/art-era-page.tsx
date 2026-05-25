@@ -255,7 +255,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
 // "Where modern art happened" map (rebuilt 2026-05-24). A schematic North-
 // Atlantic diagram (not true geography): a dashed Atlantic divider splitting
 // AMERICAS / EUROPE, each city dot labelled with the movement(s) born there,
-// and — the point of the card — the c.1940 migration arc carrying the centre of
+// and — the point of the card — the c.1940 migration arc carrying the center of
 // gravity from Paris across the ocean to New York. The two `hub` cities are the
 // era's successive capitals; everything else is a one-movement satellite.
 // ─────────────────────────────────────────────────────────────

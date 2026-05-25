@@ -7,7 +7,7 @@
 //   Dossier (default) — hero, "At a glance" (stats), the signature LIFELINE
 //     visual, the key-works strip, and the vertical list of the 9 periods.
 //   Lifeline — hero, the long hook as a lead paragraph, then a cord/node list
-//     of the 9 periods (node dot in each period's colour).
+//     of the 9 periods (node dot in each period's color).
 //
 // Only Picasso is authored (ART_ARTIST_CONTENT['picasso']); every other artist
 // id still builds and shows a tasteful "coming soon" body under the same chrome.
@@ -56,9 +56,9 @@ function parseRange(range: string): [number, number] {
 // ─────────────────────────────────────────────────────────────
 // THE LIFELINE — the signature artist visualization (ported from the mockup's
 // Lifeline). A ~168px-tall bordered card: a year grid spanning birth→death,
-// the periods drawn as layered horizontal bars in their colour with mono-caps
+// the periods drawn as layered horizontal bars in their color with mono-caps
 // labels along the top of each band, a single horizontal life axis at 60%,
-// key-work dots on the axis (coloured by their period), and birth/death
+// key-work dots on the axis (colored by their period), and birth/death
 // markers at the two ends.
 // ─────────────────────────────────────────────────────────────
 function Lifeline({ a }: { a: ArtArtistContent }) {
@@ -94,7 +94,7 @@ function Lifeline({ a }: { a: ArtArtistContent }) {
             />
           )
         })}
-        {/* period labels (first word, mono caps, centred over each band) */}
+        {/* period labels (first word, mono caps, centered over each band) */}
         {a.periods.map(p => {
           const [startYear, endYear] = parseRange(p.range)
           const center = (startYear + endYear) / 2
@@ -121,7 +121,7 @@ function Lifeline({ a }: { a: ArtArtistContent }) {
         })}
         {/* main life axis */}
         <div style={{ position: 'absolute', left: '4%', right: '4%', top: '60%', height: 2, background: artAlpha('#ffffff', 0.25), transform: 'translateY(-50%)' }} />
-        {/* key-work dots, coloured by their period */}
+        {/* key-work dots, colored by their period */}
         {a.keyWorks.map(w => {
           const p = a.periods.find(pp => pp.id === w.period)
           const dotColor = p?.color ?? a.accent
@@ -190,7 +190,7 @@ function KeyWorksStrip({ a }: { a: ArtArtistContent }) {
 
 // ─────────────────────────────────────────────────────────────
 // Periods — a vertical list of the artist's canonical periods. Each row: a
-// small colour dot on a cord, the range eyebrow (in the period colour), the
+// small color dot on a cord, the range eyebrow (in the period color), the
 // label, and the one-sentence summary.
 // ─────────────────────────────────────────────────────────────
 function PeriodsList({ a }: { a: ArtArtistContent }) {

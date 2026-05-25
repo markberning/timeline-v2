@@ -7,7 +7,7 @@
 // house-voice prose with subsection headers + inline figures + pull quotes ·
 // a "Meanwhile in…" cross-link sheet · prev/next chapter nav.
 //
-// Inline figures honour the rights subsystem (audits/art-vertical.md §5,
+// Inline figures honor the rights subsystem (audits/art-vertical.md §5,
 // samples/art-reader-picasso.html): Demoiselles is pre-1931 / PD-US, so its
 // figures render FULL inline with a Rights line. A post-1930 / in-copyright work
 // (e.g. Guernica) renders the DEGRADED reference card instead.
@@ -117,7 +117,7 @@ export function RestrictedFigure({ imageUrl, title, year, note, linkLabel, href 
 const PD_RIGHTS = 'Public domain in the United States (first published before 1931).'
 // MeanwhileSheet is imported from art-reader (shared, single source of truth) —
 // the era + movement chapters use the same component. A local variant here drifted
-// out of sync (top accent border, colour swatch, dead CTA), so it was removed.
+// out of sync (top accent border, color swatch, dead CTA), so it was removed.
 
 // ─────────────────────────────────────────────────────────────
 // The five narratives — prose ported verbatim from art-section.jsx
@@ -163,7 +163,7 @@ function SettingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: st
         <p style={proseStyle}>
           What Picasso would later say he saw was an old painter so tired of pretending that perspective
           was real that he had stopped pretending. The bathers were a pyramid. The trees were a pyramid.
-          The colours did not blend, they butted. The brushstrokes were visible blocks. You could see
+          The colors did not blend, they butted. The brushstrokes were visible blocks. You could see
           how the painting had been built.
         </p>
 
@@ -287,7 +287,7 @@ function MakingNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
 
         <p style={proseStyle}>
           It is just under eight feet square. It is painted in oils on a single piece of linen canvas.
-          Its colours are the reds and pinks of flesh, the deep blues of drapery, the rust of earth.
+          Its colors are the reds and pinks of flesh, the deep blues of drapery, the rust of earth.
           The picture plane is broken into shards even before Cubism arrives: the curtain on the left
           is a fan of straight cuts; the small still life at the bottom is rendered in three views at
           once. The Iberian face on the left coexists in the same canvas as the African mask on the
@@ -322,7 +322,7 @@ function ReceptionNarrative({ accent, onZoom }: { accent: string; onZoom: (src: 
         <p style={proseStyle}>
           <strong>Matisse</strong>{' '}was the first big visitor. Matisse was at that moment the most famous
           living painter in France — the Fauve, the man who had scandalised the 1905 Salon with bright
-          unmodulated colour, who was thirteen years older than Picasso and his only real rival. He
+          unmodulated color, who was thirteen years older than Picasso and his only real rival. He
           looked at the Demoiselles for a long time, and then he said it was an outrage, a betrayal of
           the modern movement, a hoax. He left.
         </p>
@@ -425,10 +425,10 @@ function HiddenNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
         <SectionHeader accent={accent} label="1916" title="Salon d'Antin, one room" />
 
         <p style={proseStyle}>
-          In July 1916, during the Battle of the Somme, the poet André Salmon organised a small
+          In July 1916, during the Battle of the Somme, the poet André Salmon organized a small
           exhibition at the Salon d&rsquo;Antin, on the boulevard d&rsquo;Antin in Paris. Picasso lent
           a single picture. It was the rolled-up canvas from 1907. Salmon, who had to invent a title
-          on the spot to print in the catalogue, called it{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}—
+          on the spot to print in the catalog, called it{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}—
           a softened-up reference to the women on the Carrer d&rsquo;Avinyó in Barcelona. The title
           stuck. It is now what it is called.
         </p>
@@ -558,10 +558,10 @@ function KahDealer({ accent }: { accent: string; onZoom: (src: string, cap: stri
       <SectionHeader accent={accent} label="Paris · 1907" title="A shop the size of a bedroom" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>W</DropCap>
-        alk into 28 rue Vignon, a side street near the Madeleine church in Paris, in 1907, and you would find a room about four metres square — roughly a single bedroom — with almost nothing on the walls. The man behind the counter was{' '}<strong>Daniel-Henry Kahnweiler</strong>: 23 years old, German, born in Mannheim into a banking family that had shipped him off to Paris and London to learn the money trade. He had learned it well enough to know what he wanted to do instead. With a small loan of family money he had rented this closet of a shop, and he intended to sell the most unsellable pictures in Europe.
+        alk into 28 rue Vignon, a side street near the Madeleine church in Paris, in 1907, and you would find a room about four meters square — roughly a single bedroom — with almost nothing on the walls. The man behind the counter was{' '}<strong>Daniel-Henry Kahnweiler</strong>: 23 years old, German, born in Mannheim into a banking family that had shipped him off to Paris and London to learn the money trade. He had learned it well enough to know what he wanted to do instead. With a small loan of family money he had rented this closet of a shop, and he intended to sell the most unsellable pictures in Europe.
       </p>
       <p style={proseStyle}>
-        Within a couple of years he had quietly signed up the wildest young painters in Paris: Pablo Picasso; Georges Braque; and two of the{' '}<em>Fauves</em>{' '}— the &ldquo;wild beasts,&rdquo; a movement of painters who slapped down raw, unmixed colour — namely André Derain and Maurice de Vlaminck. Soon a young Spaniard named Juan Gris joined them. Kahnweiler bought their canvases when nobody else would, back when the only people who admired this work were the handful of people making it. On the side he also dealt in African and Oceanic carvings — the same kind of objects that had just rewired Picasso&rsquo;s eye.
+        Within a couple of years he had quietly signed up the wildest young painters in Paris: Pablo Picasso; Georges Braque; and two of the{' '}<em>Fauves</em>{' '}— the &ldquo;wild beasts,&rdquo; a movement of painters who slapped down raw, unmixed color — namely André Derain and Maurice de Vlaminck. Soon a young Spaniard named Juan Gris joined them. Kahnweiler bought their canvases when nobody else would, back when the only people who admired this work were the handful of people making it. On the side he also dealt in African and Oceanic carvings — the same kind of objects that had just rewired Picasso&rsquo;s eye.
       </p>
       <SectionHeader accent={accent} label="The strategy" title="Pay them, and hide them" />
       <p style={proseStyle}>
@@ -590,7 +590,7 @@ function KahAnalytic({ accent, onZoom }: { accent: string; onZoom: (src: string,
       </p>
       <SectionHeader accent={accent} label="The method" title="A face from every side at once" />
       <p style={proseStyle}>
-        What they invented in those rope-together years is called{' '}<em>Analytic Cubism</em>{' '}(roughly 1909–1911). The idea: take an object — a violin, a bottle, a head — and shatter it into small flat{' '}<em>facets</em>, the little angled planes you see on the cut surface of a gem, then lay those facets out on the canvas as if you were seeing the thing from several sides at the same moment. And do all this in a deliberately drab, near-colourless range of browns, greys and{' '}<em>ochres</em>{' '}(the dull yellow-brown of dried clay). The colour is drained out{' '}<em>on purpose</em>: with nothing pretty to look at, your eye is forced onto the only thing left — the structure.
+        What they invented in those rope-together years is called{' '}<em>Analytic Cubism</em>{' '}(roughly 1909–1911). The idea: take an object — a violin, a bottle, a head — and shatter it into small flat{' '}<em>facets</em>, the little angled planes you see on the cut surface of a gem, then lay those facets out on the canvas as if you were seeing the thing from several sides at the same moment. And do all this in a deliberately drab, near-colourless range of browns, grays and{' '}<em>ochres</em>{' '}(the dull yellow-brown of dried clay). The color is drained out{' '}<em>on purpose</em>: with nothing pretty to look at, your eye is forced onto the only thing left — the structure.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -640,17 +640,17 @@ function KahReading({ accent, onZoom }: { accent: string; onZoom: (src: string, 
       />
       <p style={proseStyle}>
         <DropCap accent={accent}>A</DropCap>
-        t first glance it is a grey-brown avalanche of broken planes, and it is tempting to give up. Don&rsquo;t — there is a man in here, and finding him is the whole pleasure. Start at the very top. That patch of fine diagonal hatching, almost like wood grain, is{' '}<strong>hair</strong>: wavy, carefully combed, parted on one side. It is the easiest foothold, so plant your feet there first.
+        t first glance it is a gray-brown avalanche of broken planes, and it is tempting to give up. Don&rsquo;t — there is a man in here, and finding him is the whole pleasure. Start at the very top. That patch of fine diagonal hatching, almost like wood grain, is{' '}<strong>hair</strong>: wavy, carefully combed, parted on one side. It is the easiest foothold, so plant your feet there first.
       </p>
       <p style={proseStyle}>
-        Drop down a little and a face assembles itself out of the rubble — two dark almond{' '}<strong>eyes</strong>, the ridge of a{' '}<strong>nose</strong>, the line of a brow. Below them, a thin dark{' '}<strong>moustache</strong>{' '}sits over the mouth. Keep going down the centre and you reach the throat, where Picasso has left two of the clearest clues in the whole painting: the neat triangle of a{' '}<strong>tie knot</strong>, and, swagging across the waistcoat, the little chain of a{' '}<strong>pocket watch</strong>. Those two ordinary gentleman&rsquo;s details are the painting telling you, quietly, that this scaffold is a person, dressed for business.
+        Drop down a little and a face assembles itself out of the rubble — two dark almond{' '}<strong>eyes</strong>, the ridge of a{' '}<strong>nose</strong>, the line of a brow. Below them, a thin dark{' '}<strong>mustache</strong>{' '}sits over the mouth. Keep going down the center and you reach the throat, where Picasso has left two of the clearest clues in the whole painting: the neat triangle of a{' '}<strong>tie knot</strong>, and, swagging across the waistcoat, the little chain of a{' '}<strong>pocket watch</strong>. Those two ordinary gentleman&rsquo;s details are the painting telling you, quietly, that this scaffold is a person, dressed for business.
       </p>
       <p style={proseStyle}>
         Now the bottom. A cluster of pale interlocking blocks resolves into a pair of{' '}<strong>clasped hands</strong>, folded in his lap. And off to the{' '}<em>lower left of the canvas</em>{' '}— which is the sitter&rsquo;s{' '}<em>right</em>{' '}side, since he faces you — sit the shards of a small{' '}<strong>still life</strong>: a bottle, and most likely a glass beside it. So Picasso pins the figure down top and bottom — hair up here, hands down there, watch chain anchoring the middle — and lets everything between explode into facets.
       </p>
       <SectionHeader accent={accent} label="The point" title="Why it stops short" />
       <p style={proseStyle}>
-        Here is the thing people miss: this is{' '}<em>not</em>{' '}abstract art. Picasso could have dissolved Kahnweiler into pure pattern and walked away — and he chose not to. Analytic Cubism deliberately keeps a tether to the real world: just enough hair, eye, moustache, tie, watch chain and bottle that a patient viewer can climb back to a man. The painting&rsquo;s whole charge lives in that tension — a face on the knife-edge of vanishing, held back from the drop by five or six clues a stubborn eye can still find.
+        Here is the thing people miss: this is{' '}<em>not</em>{' '}abstract art. Picasso could have dissolved Kahnweiler into pure pattern and walked away — and he chose not to. Analytic Cubism deliberately keeps a tether to the real world: just enough hair, eye, mustache, tie, watch chain and bottle that a patient viewer can climb back to a man. The painting&rsquo;s whole charge lives in that tension — a face on the knife-edge of vanishing, held back from the drop by five or six clues a stubborn eye can still find.
       </p>
     </article>
   )
@@ -665,7 +665,7 @@ function KahSitting({ accent }: { accent: string; onZoom: (src: string, cap: str
         icture the room. Autumn 1910, Picasso&rsquo;s cluttered Paris studio, paint and canvases stacked against every wall. Kahnweiler comes by after the gallery closes and settles into a chair — tie knotted, watch chain across the waistcoat, hands folded in his lap — and holds still while his painter stares at him and works. Then he comes back and does it again. By his own later count he sat something like{' '}<strong>thirty times</strong>{' '}for this one picture. That is a lot of afternoons to give a man who is steadily making you disappear.
       </p>
       <p style={proseStyle}>
-        Because that is the joke at the centre of the whole thing: the longer Kahnweiler sat, the{' '}<em>less</em>{' '}the canvas looked like him. Most portrait painters work toward likeness — each sitting sharpens the nose, fixes the mouth, narrows the gap between paint and person. Picasso ran the engine in reverse. Each sitting he took the face further apart, prying the man into the flat planes of Analytic Cubism, trading the resemblance for structure. More looking, less likeness.
+        Because that is the joke at the center of the whole thing: the longer Kahnweiler sat, the{' '}<em>less</em>{' '}the canvas looked like him. Most portrait painters work toward likeness — each sitting sharpens the nose, fixes the mouth, narrows the gap between paint and person. Picasso ran the engine in reverse. Each sitting he took the face further apart, prying the man into the flat planes of Analytic Cubism, trading the resemblance for structure. More looking, less likeness.
       </p>
       <SectionHeader accent={accent} label="The paradox" title="Likeness by other means" />
       <p style={proseStyle}>
@@ -714,10 +714,10 @@ function CcSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       <SectionHeader accent={accent} label="Winter 1912" title="Roped together, out on a ledge" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>B</DropCap>
-        y the start of 1912, Picasso and Georges Braque (a young French painter who had become his almost-daily collaborator) had spent three years doing one thing with ferocious concentration: taking the visible world apart. Their method was{' '}<em>Analytic Cubism</em>{' '}— breaking an object into small flat{' '}<em>facets</em>, the little angled planes you see on a cut gem, and laying them out from several viewpoints at once, all in a drab fog of browns and greys. They worked so closely they stopped signing the fronts of their canvases; you had to turn a picture over to learn whose it was.
+        y the start of 1912, Picasso and Georges Braque (a young French painter who had become his almost-daily collaborator) had spent three years doing one thing with ferocious concentration: taking the visible world apart. Their method was{' '}<em>Analytic Cubism</em>{' '}— breaking an object into small flat{' '}<em>facets</em>, the little angled planes you see on a cut gem, and laying them out from several viewpoints at once, all in a drab fog of browns and grays. They worked so closely they stopped signing the fronts of their canvases; you had to turn a picture over to learn whose it was.
       </p>
       <p style={proseStyle}>
-        It was a triumph, and it was a trap. Each picture took the subject a little further apart than the last, and by 1911 the canvases had been faceted almost past reading — a shimmering grey scaffold in which you had to hunt for a moustache or the neck of a bottle to prove there was anything there at all. Set a Braque still life from these years in front of you and you can feel the problem: it is beautiful, and it is nearly illegible.
+        It was a triumph, and it was a trap. Each picture took the subject a little further apart than the last, and by 1911 the canvases had been faceted almost past reading — a shimmering gray scaffold in which you had to hunt for a mustache or the neck of a bottle to prove there was anything there at all. Set a Braque still life from these years in front of you and you can feel the problem: it is beautiful, and it is nearly illegible.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -730,7 +730,7 @@ function CcSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       />
       <SectionHeader accent={accent} label="The trap" title="A few more facets and it's wallpaper" />
       <p style={proseStyle}>
-        The danger was abstraction — and, oddly, neither man wanted it. A few more facets and the subject would vanish entirely, leaving only a handsome arrangement of greyish shapes: decoration, pattern, wallpaper. Picasso and Braque were not trying to leave the world behind; they were trying to show it more truthfully, from more sides at once. They had climbed out onto a ledge and could feel that one more step in the same direction was a drop.
+        The danger was abstraction — and, oddly, neither man wanted it. A few more facets and the subject would vanish entirely, leaving only a handsome arrangement of grayish shapes: decoration, pattern, wallpaper. Picasso and Braque were not trying to leave the world behind; they were trying to show it more truthfully, from more sides at once. They had climbed out onto a ledge and could feel that one more step in the same direction was a drop.
       </p>
       <SectionHeader accent={accent} label="The real problem" title="The window that had to go" />
       <p style={proseStyle}>
@@ -749,7 +749,7 @@ function CcMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
       <SectionHeader accent={accent} label="May 1912" title="The morning he reached for the glue" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>O</DropCap>
-        ne day in the spring of 1912 — by most accounts that May — Picasso took a small{' '}<em>oval</em>{' '}canvas and did something that had almost no precedent in serious Western painting. Instead of reaching for a brush, he reached for a strip of{' '}<strong>oilcloth</strong>: cheap, waterproof, factory-printed fabric, the kind people bought by the metre to cover a kitchen table. This particular oilcloth was printed with a pattern of{' '}<em>chair caning</em>{' '}— the woven rattan mesh of a bistro chair seat. He cut a piece off and glued it straight onto the canvas.
+        ne day in the spring of 1912 — by most accounts that May — Picasso took a small{' '}<em>oval</em>{' '}canvas and did something that had almost no precedent in serious Western painting. Instead of reaching for a brush, he reached for a strip of{' '}<strong>oilcloth</strong>: cheap, waterproof, factory-printed fabric, the kind people bought by the meter to cover a kitchen table. This particular oilcloth was printed with a pattern of{' '}<em>chair caning</em>{' '}— the woven rattan mesh of a bistro chair seat. He cut a piece off and glued it straight onto the canvas.
       </p>
       <p style={proseStyle}>
         Sit with how strange that is. The caning is not real cane. But it is also not{' '}<em>painted</em>{' '}cane. It is a machine-made, mass-produced{' '}<em>picture</em>{' '}of cane — a factory fake — and Picasso has dropped it, untouched, into the middle of a serious work of art. For five centuries a painter&rsquo;s job had been to imitate the world by hand, with skill. Picasso just bought the imitation at a shop and pasted it down. The most laborious trick in painting, the convincing surface, was suddenly something you could pick up ready-made.
@@ -763,7 +763,7 @@ function CcMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
         The oval shape is not a whim. Picasso and Braque had been painting on oval canvases through 1911 and 1912 for a practical reason: the rounded format quietly does away with the four corners, the dead zones where a Cubist composition tends to fall apart, and it echoes the little round pedestal café table — the French call it a{' '}<em>guéridon</em>{' '}— that so many of these still lifes are built on. Here the oval and the rope-as-table-edge work together: the whole picture{' '}<em>is</em>{' '}a tabletop, tipped up to face you.
       </p>
       <p style={proseStyle}>
-        And the painted parts? They are still pure Analytic Cubism — the same brown-grey facets, the same splintered light he and Braque had been refining for three years. That is what makes this little canvas a hinge. One half of it is the last gasp of the old faceting; the other half is a glued-on scrap of the real world. The future and the past of Cubism, sharing a single oval about a foot across.
+        And the painted parts? They are still pure Analytic Cubism — the same brown-gray facets, the same splintered light he and Braque had been refining for three years. That is what makes this little canvas a hinge. One half of it is the last gasp of the old faceting; the other half is a glued-on scrap of the real world. The future and the past of Cubism, sharing a single oval about a foot across.
       </p>
     </article>
   )
@@ -790,14 +790,14 @@ function CcReading({ accent, onZoom }: { accent: string; onZoom: (src: string, c
         Now read the tabletop. Those bold black capitals —{' '}<strong>JOU</strong>{' '}— are the corner of a{' '}<em>newspaper</em>: the first three letters of{' '}<em>journal</em>, the French word for a paper (literally &ldquo;daily&rdquo;). Cafés kept the day&rsquo;s papers for customers; here one lies folded on the table. Readers have long enjoyed the side-joke that{' '}<em>jou</em>{' '}also opens{' '}<em>jouer</em>, &ldquo;to play&rdquo; — a fair wink, given how much of this picture is a game, though it&rsquo;s the newspaper that&rsquo;s literally on the table.
       </p>
       <p style={proseStyle}>
-        Around the JOU, the rest of the meal assembles itself out of the grey facets: the bowl and stem of a{' '}<strong>wineglass</strong>, the curve of a{' '}<strong>pipe</strong>, the blade of a{' '}<strong>knife</strong>, a wedge of{' '}<strong>lemon</strong>, the fluted shell of a{' '}<strong>scallop</strong>. It is the debris of an apéritif (a pre-lunch café drink) and a light meal — the most ordinary half-hour in Paris, rendered in the most advanced painting in Europe.
+        Around the JOU, the rest of the meal assembles itself out of the gray facets: the bowl and stem of a{' '}<strong>wineglass</strong>, the curve of a{' '}<strong>pipe</strong>, the blade of a{' '}<strong>knife</strong>, a wedge of{' '}<strong>lemon</strong>, the fluted shell of a{' '}<strong>scallop</strong>. It is the debris of an apéritif (a pre-lunch café drink) and a light meal — the most ordinary half-hour in Paris, rendered in the most advanced painting in Europe.
       </p>
       <SectionHeader accent={accent} label="The point" title="The fake that tells the truth" />
       <p style={proseStyle}>
         Here is the move that makes the picture famous. Everything painted on this table is an{' '}<em>illusion</em>: hand-made fakery, paint pretending to be a glass or a lemon. The caning is the opposite — it is a{' '}<em>real</em>{' '}thing, an actual manufactured object stuck to the canvas. Except that the real thing is{' '}<em>itself</em>{' '}a fake: a printed picture of cane, not cane. It is as if, to explain what money is, you hung a flawless painting of a banknote beside a real banknote — and the real one turned out to be a film prop. Picasso has stacked illusion on illusion on reality in one small oval: hand-painted fakes, beside a real object, that is a machine-made fake. The picture is a little essay on the difference between a thing and a picture of a thing, and it pointedly refuses to settle the question.
       </p>
       <p style={proseStyle}>
-        The Met&rsquo;s own catalogue puts the whole revolution in a phrase: Picasso had found a way of{' '}<em>inserting a fragment of reality into the fictive realm of painting</em>{' '}— a scrap of the actual world, glued into the make-believe.
+        The Met&rsquo;s own catalog puts the whole revolution in a phrase: Picasso had found a way of{' '}<em>inserting a fragment of reality into the fictive realm of painting</em>{' '}— a scrap of the actual world, glued into the make-believe.
       </p>
     </article>
   )
@@ -855,7 +855,7 @@ function CcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
         </p>
         <SectionHeader accent={accent} label="The descendants" title="From a glued scrap to half a century" />
         <p style={proseStyle}>
-          What he had started ran straight through the century — and it began by turning Cubism inside out. Gluing a flat, ready-made shape onto the canvas taught Picasso and Braque a new lesson: a picture could be{' '}<em>built up</em>{' '}from flat pieces, instead of a real object being{' '}<em>broken down</em>{' '}into facets. That reversal became{' '}<em>Synthetic Cubism</em>{' '}— the brighter, assembled second phase of the movement, the mirror image of the grey, shattered-gem look of the Analytic years. Then the door swung wide. The German artist{' '}<strong>Kurt Schwitters</strong>{' '}(1887–1948), a few years later, built whole pictures — and eventually entire rooms — out of tram tickets, bus stubs and gutter trash, a one-man movement he named{' '}<em>Merz</em>{' '}(a nonsense syllable he had snipped from an advert for a bank,{' '}<em>Kommerz</em>).
+          What he had started ran straight through the century — and it began by turning Cubism inside out. Gluing a flat, ready-made shape onto the canvas taught Picasso and Braque a new lesson: a picture could be{' '}<em>built up</em>{' '}from flat pieces, instead of a real object being{' '}<em>broken down</em>{' '}into facets. That reversal became{' '}<em>Synthetic Cubism</em>{' '}— the brighter, assembled second phase of the movement, the mirror image of the gray, shattered-gem look of the Analytic years. Then the door swung wide. The German artist{' '}<strong>Kurt Schwitters</strong>{' '}(1887–1948), a few years later, built whole pictures — and eventually entire rooms — out of tram tickets, bus stubs and gutter trash, a one-man movement he named{' '}<em>Merz</em>{' '}(a nonsense syllable he had snipped from an advert for a bank,{' '}<em>Kommerz</em>).
         </p>
         <p style={proseStyle}>
           The Berlin Dadaists — a deliberately absurd, anti-art movement born of disgust at the First World War — turned scissors and magazines into political weapons.{' '}<strong>Hannah Höch</strong>, too often dropped from this story, was one of the sharpest of them, slicing the illustrated press into biting{' '}<em>photomontage</em>{' '}(pictures collaged from cut-up photographs). Decades on, the American artist{' '}<strong>Robert Rauschenberg</strong>, working in 1950s New York, fixed quilts, tyres, even a stuffed goat to his work and called the results{' '}<em>Combines</em>. And Pop Art — the movement that hung soup cans and comic strips on gallery walls — simply moved in for good: the supermarket Picasso had let through the door in 1912 took over the house. Every time an artist since has glued, taped, screwed or bolted a real object to a picture, they have been speaking the grammar this little oval invented.
@@ -891,7 +891,7 @@ function HoSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       <SectionHeader accent={accent} label="Summer 1909" title="Get out of Paris" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>B</DropCap>
-        y the spring of 1909 Picasso was, by his own account, worn out. He was 27, newly able to sell his work but not yet rich, and stuck: the savage breakthrough of his{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}two years earlier had blown a hole in painting — it had repelled even his closest allies, and the two years since had been a restless, unresolved search for what to build in the gap it left. So he did what he often did when a problem would not move: he left the city. With his partner{' '}<strong>Fernande Olivier</strong>{' '}(his companion through these Montmartre years) he travelled south, across the Pyrenees, to a remote village in Catalonia called{' '}<strong>Horta de Ebro</strong>{' '}(today Horta de Sant Joan).
+        y the spring of 1909 Picasso was, by his own account, worn out. He was 27, newly able to sell his work but not yet rich, and stuck: the savage breakthrough of his{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}two years earlier had blown a hole in painting — it had repelled even his closest allies, and the two years since had been a restless, unresolved search for what to build in the gap it left. So he did what he often did when a problem would not move: he left the city. With his partner{' '}<strong>Fernande Olivier</strong>{' '}(his companion through these Montmartre years) he traveled south, across the Pyrenees, to a remote village in Catalonia called{' '}<strong>Horta de Ebro</strong>{' '}(today Horta de Sant Joan).
       </p>
       <p style={proseStyle}>
         He knew the place. It was the home town of{' '}<strong>Manuel Pallarès</strong>, his oldest friend, a fellow painter who had taken the teenage Picasso there in 1898 to recover from a bout of scarlet fever. Picasso always said those months in the Catalan hills had made him — &ldquo;everything I know, I learned in Pallarès&rsquo;s village,&rdquo; he liked to claim. Now he came back as a man with a problem to solve, and the village handed him the answer almost by accident.
@@ -922,7 +922,7 @@ function HoMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
       <SectionHeader accent={accent} label="June – September 1909" title="The whole village, as blocks" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>O</DropCap>
-        ver that summer Picasso painted Horta over and over — the houses on the hill, the village reservoir, the factory on the edge of town — running the same geometric method across deliberately different subjects, as if to prove it could crack anything, not just a picturesque cluster of roofs. The method was consistent and ruthless. He took the houses and pared them down to their bare solid geometry: cubes, wedges, prisms. He tilted the planes so a wall and a roof you could never see at the same time are shown to you together. He drained the colour back to dusty ochres, greys and greens, so nothing pretty distracts from the structure.
+        ver that summer Picasso painted Horta over and over — the houses on the hill, the village reservoir, the factory on the edge of town — running the same geometric method across deliberately different subjects, as if to prove it could crack anything, not just a picturesque cluster of roofs. The method was consistent and ruthless. He took the houses and pared them down to their bare solid geometry: cubes, wedges, prisms. He tilted the planes so a wall and a roof you could never see at the same time are shown to you together. He drained the color back to dusty ochres, grays and greens, so nothing pretty distracts from the structure.
       </p>
       <p style={proseStyle}>
         Most radically, he flattened the distance. In an ordinary landscape the far hills recede into haze; here Picasso pulls the background mountain up flat against the houses and breaks it into the same facets, so the whole canvas presses toward you at once. The village and the hillside are made of one continuous geometry. It is recognisably a place — and it is also a stack of painted blocks, refusing to settle into a comfortable view.
@@ -953,13 +953,13 @@ function HoReading({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       />
       <p style={proseStyle}>
         <DropCap accent={accent}>I</DropCap>
-        t reads as a jumble of brown boxes until you realise you are looking up a hillside at a village. Start low and climb. The big pale shapes filling the foreground are{' '}<strong>houses</strong> — each one reduced to a few flat planes, a wall here, a tilted roof there, meeting at edges that don&rsquo;t quite obey real space. They stack and overlap up the slope, so you read the climb of the land without any of the usual tricks of distance.
+        t reads as a jumble of brown boxes until you realize you are looking up a hillside at a village. Start low and climb. The big pale shapes filling the foreground are{' '}<strong>houses</strong> — each one reduced to a few flat planes, a wall here, a tilted roof there, meeting at edges that don&rsquo;t quite obey real space. They stack and overlap up the slope, so you read the climb of the land without any of the usual tricks of distance.
       </p>
       <p style={proseStyle}>
         Keep going up and the{' '}<strong>hillside</strong>{' '}behind the village is broken into the very same facets as the buildings — so the mountain and the houses rhyme, made of one geometry. There is no soft, hazy background; Picasso has pulled the far hill flat against the near houses so the whole picture stands up toward you like a wall. Notice, too, the light: each plane seems lit from its own direction, which is why the blocks feel solid and flat at the same time. You can&rsquo;t find the sun, because there isn&rsquo;t one.
       </p>
       <p style={proseStyle}>
-        Then look to the left edge for the one thing that breaks the spell: a soft clump of{' '}<strong>green</strong>, a tree, almost the only curve and almost the only living colour in the whole baked, angular scene. Picasso leaves it deliberately loose — a single organic breath in a town made of geometry. Find it and the picture suddenly reads as a real, hot, dry place you could walk into, if the streets weren&rsquo;t made of cubes.
+        Then look to the left edge for the one thing that breaks the spell: a soft clump of{' '}<strong>green</strong>, a tree, almost the only curve and almost the only living color in the whole baked, angular scene. Picasso leaves it deliberately loose — a single organic breath in a town made of geometry. Find it and the picture suddenly reads as a real, hot, dry place you could walk into, if the streets weren&rsquo;t made of cubes.
       </p>
     </article>
   )
@@ -1035,7 +1035,7 @@ function VjSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, c
         veryone remembers Picasso. But Cubism took two people, and the other one matters just as much.{' '}<strong>Georges Braque</strong>{' '}was a Frenchman from near Le Havre on the Normandy coast, the son of a house-painter and decorator — a trade he was apprenticed to before he turned to fine art. That ordinary detail will matter later: Braque was trained to imitate wood grain and marble on plaster, the honest tricks of a decorator, and he never forgot them.
       </p>
       <p style={proseStyle}>
-        He had first made his name as a{' '}<em>Fauve</em>{' '}— one of the &ldquo;wild beasts,&rdquo; a short-lived movement of painters whom critics mocked, around 1905, for their raw, deliberately unnatural colour. Then in 1907 he saw the Demoiselles in Picasso&rsquo;s studio, was appalled and gripped in equal measure, and within a couple of years had thrown the colour overboard and joined Picasso in the most demanding experiment in modern art. If Picasso was the showman with the wild ideas, Braque was the patient builder who turned them into a coherent style.
+        He had first made his name as a{' '}<em>Fauve</em>{' '}— one of the &ldquo;wild beasts,&rdquo; a short-lived movement of painters whom critics mocked, around 1905, for their raw, deliberately unnatural color. Then in 1907 he saw the Demoiselles in Picasso&rsquo;s studio, was appalled and gripped in equal measure, and within a couple of years had thrown the color overboard and joined Picasso in the most demanding experiment in modern art. If Picasso was the showman with the wild ideas, Braque was the patient builder who turned them into a coherent style.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -1063,11 +1063,11 @@ function VjMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
         ver the winter of 1909 into 1910, in his Paris studio, Braque painted a violin and a jug. That is the whole subject — two ordinary things on a table. What he did to them is the point. He shattered each object into dozens of small flat{' '}<em>facets</em>, the little angled planes you see on a cut gem, and laid those planes out as if you were circling the table and seeing the violin from several sides at once. This is{' '}<em>Analytic Cubism</em>{' '}at full strength: the patient analysis of a thing into all its views, reassembled on a flat canvas.
       </p>
       <p style={proseStyle}>
-        He drained almost all the colour out of it. The whole picture is a fog of browns, greys and soft ochres — deliberately drab, because colour would only be a distraction. With nothing pretty to look at, your eye is forced onto the only thing left: the structure, the shimmer of planes sliding over and into one another. Braque even lets the facets{' '}<em>bleed</em>{' '}— an edge that should belong to the violin opens and leaks into the background, so object and air are built from the same broken light. (Painters have a name for this trick of letting one plane flow into the next: they call it{' '}<em>passage</em>.)
+        He drained almost all the color out of it. The whole picture is a fog of browns, grays and soft ochres — deliberately drab, because color would only be a distraction. With nothing pretty to look at, your eye is forced onto the only thing left: the structure, the shimmer of planes sliding over and into one another. Braque even lets the facets{' '}<em>bleed</em>{' '}— an edge that should belong to the violin opens and leaks into the background, so object and air are built from the same broken light. (Painters have a name for this trick of letting one plane flow into the next: they call it{' '}<em>passage</em>.)
       </p>
       <SectionHeader accent={accent} label="Why a violin" title="Something you can almost still see" />
       <p style={proseStyle}>
-        The choice of subject is not random. Musical instruments turn up again and again in Cubism, and for good reasons: a violin has strong, familiar curves you can still half-recognise even after it has been smashed into planes, which keeps the picture from tipping into pure abstraction. And Braque{' '}<em>loved</em>{' '}music — he played instruments in the studio. A violin let him work right at the edge of legibility: faceted almost past recognition, but never quite. Look long enough and the instrument keeps surfacing and dissolving — the curled scroll, then an f-hole, then nothing — like a word on the tip of your tongue.
+        The choice of subject is not random. Musical instruments turn up again and again in Cubism, and for good reasons: a violin has strong, familiar curves you can still half-recognize even after it has been smashed into planes, which keeps the picture from tipping into pure abstraction. And Braque{' '}<em>loved</em>{' '}music — he played instruments in the studio. A violin let him work right at the edge of legibility: faceted almost past recognition, but never quite. Look long enough and the instrument keeps surfacing and dissolving — the curled scroll, then an f-hole, then nothing — like a word on the tip of your tongue.
       </p>
     </article>
   )
@@ -1088,10 +1088,10 @@ function VjReading({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       />
       <p style={proseStyle}>
         <DropCap accent={accent}>I</DropCap>
-        t looks, at first, like a grey avalanche — and the way in is a single odd detail at the very top. Look up there and you will find a{' '}<strong>nail</strong>, painted with old-fashioned, photographic realism, casting a small neat shadow, as if it were hammered into the wall to hang the picture from. After the shock of that one solid, real-looking thing, let your eye fall.
+        t looks, at first, like a gray avalanche — and the way in is a single odd detail at the very top. Look up there and you will find a{' '}<strong>nail</strong>, painted with old-fashioned, photographic realism, casting a small neat shadow, as if it were hammered into the wall to hang the picture from. After the shock of that one solid, real-looking thing, let your eye fall.
       </p>
       <p style={proseStyle}>
-        Down in the centre and lower half, the{' '}<strong>violin</strong>{' '}assembles itself out of the rubble: the little curled{' '}<em>scroll</em>{' '}(the carved spiral at the top of the neck) near the middle, a few taut{' '}<em>strings</em>, and below them the unmistakable rounded body with its two{' '}<em>f-holes</em>{' '}— the f-shaped slots cut into a violin&rsquo;s top. Up to the left, a paler cluster of planes with a rounded lip is the{' '}<strong>jug</strong>. Neither object holds still; each one swims into focus and then breaks apart again as your eye moves.
+        Down in the center and lower half, the{' '}<strong>violin</strong>{' '}assembles itself out of the rubble: the little curled{' '}<em>scroll</em>{' '}(the carved spiral at the top of the neck) near the middle, a few taut{' '}<em>strings</em>, and below them the unmistakable rounded body with its two{' '}<em>f-holes</em>{' '}— the f-shaped slots cut into a violin&rsquo;s top. Up to the left, a paler cluster of planes with a rounded lip is the{' '}<strong>jug</strong>. Neither object holds still; each one swims into focus and then breaks apart again as your eye moves.
       </p>
       <p style={proseStyle}>
         That is the whole experience Braque is after. He builds the violin and the jug right at the brink of legibility — solid enough that you can find them, broken enough that you never quite hold them — and then pins the entire shifting field to the wall with one perfectly real nail. Which raises the obvious question: why, in one of the most radical paintings of its day, paint one flawless illusion?
@@ -1144,7 +1144,7 @@ function VjAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
           La Roche assembled one of the great early collections of Picasso and Braque — and then, in 1952, he gave the bulk of it to the public museum of his home city, the{' '}<strong>Kunstmuseum Basel</strong>. At a stroke a mid-sized Swiss museum became one of the world&rsquo;s strongholds of Cubist painting, which is why a pilgrim wanting to see{' '}<em>Violin and Jug</em>{' '}in the flesh buys a ticket to Basel.
         </p>
         <p style={proseStyle}>
-          It is a fitting home for a quiet masterpiece by the quieter of the two founders. Picasso got the fame, the scandals and the headlines; Braque got the deep respect of fellow painters and a slower-burning fame of his own. And this canvas — drab, patient, fiendishly built, the violin half-dissolved in its grey planes beneath that one perfect nail — is the one that other painters point to when they want to show what Analytic Cubism, at its absolute best, could do.
+          It is a fitting home for a quiet masterpiece by the quieter of the two founders. Picasso got the fame, the scandals and the headlines; Braque got the deep respect of fellow painters and a slower-burning fame of his own. And this canvas — drab, patient, fiendishly built, the violin half-dissolved in its gray planes beneath that one perfect nail — is the one that other painters point to when they want to show what Analytic Cubism, at its absolute best, could do.
         </p>
       </article>
 
@@ -1195,11 +1195,11 @@ function TwMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
       <SectionHeader accent={accent} label="1907–08" title="Three figures, one block" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>P</DropCap>
-        icasso worked this canvas for the better part of a year, and examination of the surface shows he buried earlier versions under it — a more striped, savage first attempt scraped back and rebuilt. What emerged is a single rust-red mass in which three nude women are fused so tightly you can barely prise them apart. Shoulders, thighs and arms lock together into one faceted block. The palette is fired clay: terracotta, ochre, brick, the colours of baked earth and old wood, with only thin slivers of cool green pressing in at the edges.
+        icasso worked this canvas for the better part of a year, and examination of the surface shows he buried earlier versions under it — a more striped, savage first attempt scraped back and rebuilt. What emerged is a single rust-red mass in which three nude women are fused so tightly you can barely prise them apart. Shoulders, thighs and arms lock together into one faceted block. The palette is fired clay: terracotta, ochre, brick, the colors of baked earth and old wood, with only thin slivers of cool green pressing in at the edges.
       </p>
       <SectionHeader accent={accent} label="The change" title="From savage to carved" />
       <p style={proseStyle}>
-        Set beside the Demoiselles, the difference is the whole point. The faces lose their snarl and settle into calm, heavy masks. The jagged shards harden into broad, blunt planes, each one shaded as if catching light on a chiselled surface. Where the Demoiselles felt like an attack, Three Women feels like a carving — something a sculptor might have cut from a single trunk of reddish wood and then, almost as an afterthought, painted. The savagery has been cooled into structure, and that cooling is exactly the road that leads, the next summer, to Cubism proper. What changed in that final step was mostly subtraction: the colour drained almost to grey, the planes shrank and multiplied, the heavy modelling thinned — until the solid bodies of Three Women broke up into the restless faceting of Analytic Cubism.
+        Set beside the Demoiselles, the difference is the whole point. The faces lose their snarl and settle into calm, heavy masks. The jagged shards harden into broad, blunt planes, each one shaded as if catching light on a chiselled surface. Where the Demoiselles felt like an attack, Three Women feels like a carving — something a sculptor might have cut from a single trunk of reddish wood and then, almost as an afterthought, painted. The savagery has been cooled into structure, and that cooling is exactly the road that leads, the next summer, to Cubism proper. What changed in that final step was mostly subtraction: the color drained almost to gray, the planes shrank and multiplied, the heavy modelling thinned — until the solid bodies of Three Women broke up into the restless faceting of Analytic Cubism.
       </p>
     </article>
   )
@@ -1220,10 +1220,10 @@ function TwReading({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       />
       <p style={proseStyle}>
         <DropCap accent={accent}>A</DropCap>
-        t first it is a wall of red rock, and the three women take a moment to separate out. Start in the centre: the tallest figure, head tipped back, arms lifted overhead, her face a calm mask of heavy almond eyes and a blunt nose. To her right sits a second woman, her face the clearest mask of the three — frontal, gouged, lifted straight from African carving. To the left a third figure bows her head, half-swallowed by the others. Their bodies do not so much touch as{' '}<em>merge</em>: try to follow one thigh or shoulder and it hands off to the next.
+        t first it is a wall of red rock, and the three women take a moment to separate out. Start in the center: the tallest figure, head tipped back, arms lifted overhead, her face a calm mask of heavy almond eyes and a blunt nose. To her right sits a second woman, her face the clearest mask of the three — frontal, gouged, lifted straight from African carving. To the left a third figure bows her head, half-swallowed by the others. Their bodies do not so much touch as{' '}<em>merge</em>: try to follow one thigh or shoulder and it hands off to the next.
       </p>
       <p style={proseStyle}>
-        Notice the light. It does not fall from any one direction; each plane is shaded on its own terms, which is why the whole group reads as solid and flat at once — carved and yet pressed up against the surface. And look to the edges for the single concession of colour: thin breaths of{' '}<strong>green</strong>{' '}against all that fired red, almost the only cool note in a picture packed as tight as brickwork. Find the three women and you have found the moment Picasso turned raw shock into something monumental and deliberate.
+        Notice the light. It does not fall from any one direction; each plane is shaded on its own terms, which is why the whole group reads as solid and flat at once — carved and yet pressed up against the surface. And look to the edges for the single concession of color: thin breaths of{' '}<strong>green</strong>{' '}against all that fired red, almost the only cool note in a picture packed as tight as brickwork. Find the three women and you have found the moment Picasso turned raw shock into something monumental and deliberate.
       </p>
     </article>
   )
@@ -1294,7 +1294,7 @@ function PtSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       <SectionHeader accent={accent} label="1911" title="Roped to Picasso, still" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>A</DropCap>
-        year after{' '}<em>Violin and Jug</em>, Georges Braque and Picasso were still &ldquo;roped together on a mountain,&rdquo; visiting each other&rsquo;s studios daily and pushing the same experiment one notch further each time. By 1911 that experiment —{' '}<em>Analytic Cubism</em>, the breaking of objects into small faceted planes seen from several sides at once — had reached its most extreme, sealed-off point — so abstract it was nearly a private code. The pictures were faceted so far that the subject all but evaporated into a shimmer of brown and grey.
+        year after{' '}<em>Violin and Jug</em>, Georges Braque and Picasso were still &ldquo;roped together on a mountain,&rdquo; visiting each other&rsquo;s studios daily and pushing the same experiment one notch further each time. By 1911 that experiment —{' '}<em>Analytic Cubism</em>, the breaking of objects into small faceted planes seen from several sides at once — had reached its most extreme, sealed-off point — so abstract it was nearly a private code. The pictures were faceted so far that the subject all but evaporated into a shimmer of brown and gray.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -1321,7 +1321,7 @@ function PtMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
         he subject is a man with a guitar — a Portuguese musician Braque said he remembered from a bar years before, which is why the picture is also called{' '}<em>The Emigrant</em>. Braque painted much of it that summer in{' '}<strong>Céret</strong>, a small town in the French Pyrenees where he and Picasso spent the season working side by side. He took the seated player and broke him into a fine brown mesh of facets — so fine, so evenly spread across the canvas, that the figure nearly disappears into his own background.
       </p>
       <p style={proseStyle}>
-        The palette is almost gone: ochres, tobacco browns, soft greys, drained on purpose so nothing distracts from the structure. Edges open and bleed from object into air — the Analytic trick called{' '}<em>passage</em>, one plane melting into the next — until you can no longer say where the man stops and the room begins. Only the guitar across his lap, a few taut strings on the diagonal, quite refuses to dissolve.
+        The palette is almost gone: ochres, tobacco browns, soft grays, drained on purpose so nothing distracts from the structure. Edges open and bleed from object into air — the Analytic trick called{' '}<em>passage</em>, one plane melting into the next — until you can no longer say where the man stops and the room begins. Only the guitar across his lap, a few taut strings on the diagonal, quite refuses to dissolve.
       </p>
       <SectionHeader accent={accent} label="The brink" title="Almost nothing left to hold" />
       <p style={proseStyle}>
@@ -1471,10 +1471,10 @@ function GrReading({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       />
       <p style={proseStyle}>
         <DropCap accent={accent}>A</DropCap>
-        fter the brown fog of Picasso and Braque, the first surprise here is that you can simply{' '}<em>read</em>{' '}it. This is a café tabletop, and the breakfast is all present. Centre: a white{' '}<strong>coffee cup and saucer</strong>, drawn with an almost old-fashioned, rounded solidity. Left: the tall pale shape of a{' '}<strong>coffee pot</strong>, split down a clean vertical seam — light on one side, shadow on the other, a single object shown as two views without ever falling apart. Right: faceted{' '}<strong>glasses</strong>{' '}and the pink Greek-key border of a napkin.
+        fter the brown fog of Picasso and Braque, the first surprise here is that you can simply{' '}<em>read</em>{' '}it. This is a café tabletop, and the breakfast is all present. Center: a white{' '}<strong>coffee cup and saucer</strong>, drawn with an almost old-fashioned, rounded solidity. Left: the tall pale shape of a{' '}<strong>coffee pot</strong>, split down a clean vertical seam — light on one side, shadow on the other, a single object shown as two views without ever falling apart. Right: faceted{' '}<strong>glasses</strong>{' '}and the pink Greek-key border of a napkin.
       </p>
       <p style={proseStyle}>
-        Below the cup, a torn strip of{' '}<strong>newspaper</strong>{' '}is glued in, and the legible scraps of type are a joke worth catching: it reads{' '}<em>…OURN…</em>{' '}for{' '}<em>journal</em>{' '}(the daily paper) and, just under it,{' '}<em>…ZA GRIS</em>. That last word is the painter signing his own work from inside the picture — and{' '}<em>gris</em>{' '}is simply French for &ldquo;grey,&rdquo; so the signature is a pun set in newsprint. Underneath it all runs the printed wood-grain of the table, down to its turned front legs.
+        Below the cup, a torn strip of{' '}<strong>newspaper</strong>{' '}is glued in, and the legible scraps of type are a joke worth catching: it reads{' '}<em>…OURN…</em>{' '}for{' '}<em>journal</em>{' '}(the daily paper) and, just under it,{' '}<em>…ZA GRIS</em>. That last word is the painter signing his own work from inside the picture — and{' '}<em>gris</em>{' '}is simply French for &ldquo;gray,&rdquo; so the signature is a pun set in newsprint. Underneath it all runs the printed wood-grain of the table, down to its turned front legs.
       </p>
     </article>
   )
@@ -1486,7 +1486,7 @@ function GrSystem({ accent }: { accent: string; onZoom: (src: string, cap: strin
       <SectionHeader accent={accent} label="The point" title="Cubism made rigorous" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>H</DropCap>
-        ere is what sets Gris apart from the two men who invented the style. Picasso and Braque worked from the object{' '}<em>inward</em>: they took a real guitar or jug and analysed it into pieces, feeling their way, improvising. Gris worked the other direction — from the{' '}<em>structure</em>{' '}outward. He began with an abstract scaffold of clean verticals and locked proportions, an almost architectural plan, and only then hung the cup, the pot and the paper onto it. He once put it almost exactly that way: he started with a cylinder and made it a bottle, rather than starting with a bottle. You can see the method in the coffee pot: split down one clean vertical seam, light on the left, shadow on the right — not a loose impression of a pot but a measured proof that one is there.
+        ere is what sets Gris apart from the two men who invented the style. Picasso and Braque worked from the object{' '}<em>inward</em>: they took a real guitar or jug and analyzed it into pieces, feeling their way, improvising. Gris worked the other direction — from the{' '}<em>structure</em>{' '}outward. He began with an abstract scaffold of clean verticals and locked proportions, an almost architectural plan, and only then hung the cup, the pot and the paper onto it. He once put it almost exactly that way: he started with a cylinder and made it a bottle, rather than starting with a bottle. You can see the method in the coffee pot: split down one clean vertical seam, light on the left, shadow on the right — not a loose impression of a pot but a measured proof that one is there.
       </p>
       <p style={proseStyle}>
         If the founders&rsquo; Cubism is jazz — two players trading improvisations — Gris&rsquo;s is a fugue (a piece of music where every voice enters in strict, planned order). That is why his pictures feel so calm and so clear: nothing is searching, everything has been decided. It is, by most accounts, the most{' '}<em>rigorous</em>{' '}Cubism anyone made, and that rigour would feed straight into the clean machine-age design of the 1920s — the architect Le Corbusier&rsquo;s{' '}<em>Purism</em>{' '}(a stripped-bare, ornament-free style) and the streamlined geometry of{' '}<em>Art Deco</em>.
@@ -1505,7 +1505,7 @@ function GrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
           ris made this in the spring of 1914. Months later the First World War broke out, scattering the Cubist circle — Braque and many others to the front, the dealer Kahnweiler into exile as an enemy alien — and the great heroic phase of the movement was effectively over. Kahnweiler&rsquo;s entire stock, Gris&rsquo;s pictures among it, was seized by the French state as enemy property and later auctioned off cheaply, sending these works scattering through the market. Gris himself kept working, refining his clear, systematic style through the 1920s.
         </p>
         <p style={proseStyle}>
-          He did not get long. Juan Gris died in 1927, of kidney and heart disease, at just{' '}<strong>forty</strong>. For years his reputation sat in the shadow of the two founders — the careful one, the follower. That has steadily corrected itself: he is now seen as the third great Cubist and, to many eyes, the most lucid of the three. This{' '}<em>Breakfast</em>{' '}hangs at the Museum of Modern Art in New York as very nearly the textbook example of what collage, handled with total discipline, could build — that calm blue-grey table, its wood-grain pasted rather than painted, its white cup unmistakably a cup.
+          He did not get long. Juan Gris died in 1927, of kidney and heart disease, at just{' '}<strong>forty</strong>. For years his reputation sat in the shadow of the two founders — the careful one, the follower. That has steadily corrected itself: he is now seen as the third great Cubist and, to many eyes, the most lucid of the three. This{' '}<em>Breakfast</em>{' '}hangs at the Museum of Modern Art in New York as very nearly the textbook example of what collage, handled with total discipline, could build — that calm blue-gray table, its wood-grain pasted rather than painted, its white cup unmistakably a cup.
         </p>
       </article>
 
@@ -1558,7 +1558,7 @@ function TmMaking({ accent }: { accent: string; onZoom: (src: string, cap: strin
         icasso painted{' '}<em>Three Musicians</em>{' '}twice that summer, in two enormous versions at once — this one, now in Philadelphia, and a near-twin now in New York. Each is over six feet tall. After a decade of small, brown, muttering Cubist canvases, these are loud: big, flat fields of orange, white, black and blue, snapped together along hard edges.
       </p>
       <p style={proseStyle}>
-        And here is the lovely circularity of it. The whole picture is built to look like{' '}<em>collage</em> — like sheets of brightly coloured paper cut into shapes and pasted down, the technique Picasso himself had invented nine years earlier with a scrap of oilcloth. Except not one piece of it is glued. It is all{' '}<strong>paint</strong>, brushed to imitate the look of pasting. Cubism had gone from gluing real paper to faking the look of glued paper — illusion, abstraction and collage chasing each other in a circle. This is what art historians mean by{' '}<em>Synthetic Cubism</em>: building a figure up from flat, simple, assembled shapes rather than breaking a real one down into facets.
+        And here is the lovely circularity of it. The whole picture is built to look like{' '}<em>collage</em> — like sheets of brightly colored paper cut into shapes and pasted down, the technique Picasso himself had invented nine years earlier with a scrap of oilcloth. Except not one piece of it is glued. It is all{' '}<strong>paint</strong>, brushed to imitate the look of pasting. Cubism had gone from gluing real paper to faking the look of glued paper — illusion, abstraction and collage chasing each other in a circle. This is what art historians mean by{' '}<em>Synthetic Cubism</em>: building a figure up from flat, simple, assembled shapes rather than breaking a real one down into facets.
       </p>
     </article>
   )
@@ -1579,10 +1579,10 @@ function TmReading({ accent, onZoom }: { accent: string; onZoom: (src: string, c
       />
       <p style={proseStyle}>
         <DropCap accent={accent}>T</DropCap>
-        hree figures sit jammed together along a table in a shallow brown room, and they are made of the same flat shapes as a paper cut-out. Read them left to right. At the left, a player in a diamond-patterned costume — a{' '}<strong>Harlequin</strong>, the clown of old Italian comedy — holds a stringed instrument. In the centre, a figure in white — a{' '}<strong>Pierrot</strong>, the sad-clown foil to the scheming Harlequin — raises a{' '}<strong>clarinet</strong>{' '}to a black domino mask (a half-mask covering just the eyes). At the right, a tall dark{' '}<strong>monk</strong>{' '}in a hooded robe holds a sheet of music, or perhaps an accordion.
+        hree figures sit jammed together along a table in a shallow brown room, and they are made of the same flat shapes as a paper cut-out. Read them left to right. At the left, a player in a diamond-patterned costume — a{' '}<strong>Harlequin</strong>, the clown of old Italian comedy — holds a stringed instrument. In the center, a figure in white — a{' '}<strong>Pierrot</strong>, the sad-clown foil to the scheming Harlequin — raises a{' '}<strong>clarinet</strong>{' '}to a black domino mask (a half-mask covering just the eyes). At the right, a tall dark{' '}<strong>monk</strong>{' '}in a hooded robe holds a sheet of music, or perhaps an accordion.
       </p>
       <p style={proseStyle}>
-        Three details reward a closer look: the three flat, frontal{' '}<strong>masks</strong>, staring straight out with no expression you can name; the actual{' '}<strong>sheet music</strong>{' '}laid on the table, drawn with real staves and notes, a small window of legibility in a wall of colour; and, if you hunt, the dim shape of a dog stretched beneath the table. It is a band, posed for a portrait — bright, festive, and somehow not quite alive.
+        Three details reward a closer look: the three flat, frontal{' '}<strong>masks</strong>, staring straight out with no expression you can name; the actual{' '}<strong>sheet music</strong>{' '}laid on the table, drawn with real staves and notes, a small window of legibility in a wall of color; and, if you hunt, the dim shape of a dog stretched beneath the table. It is a band, posed for a portrait — bright, festive, and somehow not quite alive.
       </p>
     </article>
   )
@@ -1594,7 +1594,7 @@ function TmElegy({ accent, onZoom }: { accent: string; onZoom: (src: string, cap
       <SectionHeader accent={accent} label="The point" title="A portrait of ghosts" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>W</DropCap>
-        hy does a picture this colourful feel haunted? Because of who the three players are widely thought to be. The reading most often given: the{' '}<strong>Harlequin</strong>{' '}is Picasso himself — Harlequin was his lifelong alter ego — and the other two are the friends he had made Cubism with in the poor, happy Bateau-Lavoir years. The{' '}<strong>clarinet-playing Pierrot</strong>{' '}is the poet Guillaume Apollinaire, and the{' '}<strong>monk</strong>{' '}is the poet Max Jacob.
+        hy does a picture this colorful feel haunted? Because of who the three players are widely thought to be. The reading most often given: the{' '}<strong>Harlequin</strong>{' '}is Picasso himself — Harlequin was his lifelong alter ego — and the other two are the friends he had made Cubism with in the poor, happy Bateau-Lavoir years. The{' '}<strong>clarinet-playing Pierrot</strong>{' '}is the poet Guillaume Apollinaire, and the{' '}<strong>monk</strong>{' '}is the poet Max Jacob.
       </p>
       <p style={proseStyle}>
         Both references cut deep. Apollinaire was{' '}<em>dead</em> — three years gone when Picasso painted this. And Max Jacob had, in 1921, the very year of the picture, withdrawn from the world to live at a Benedictine monastery, lost to his old friends in a different way. So the three musicians are a band that no longer exists, reassembled for one last portrait — two of them present only as masks. Picasso never confirmed the reading, and a careful viewer should hold it as the likeliest interpretation rather than a proven fact. But it is hard to stand in front of the picture, once you know, and not see a wake dressed up as a carnival.

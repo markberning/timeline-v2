@@ -10,7 +10,7 @@
 // House voice (dry wit up, comparisons to land the points, made to make you
 // LOOK). Revised 2026-05-23 against the art content pipeline gates (facts,
 // looking, clarity, framing, comprehensiveness) — see audits/art-content-pipeline.md.
-// Figures honour the copyright tiers in art-content.ts; the later the chapter,
+// Figures honor the copyright tiers in art-content.ts; the later the chapter,
 // the more the rights regime forces the degraded RestrictedFigure — which is
 // itself part of the story this era tells.
 
@@ -58,7 +58,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
         scholarship to study the old masters), which shipped its winner off to the{' '}<strong>Villa Medici</strong>{' '}in Rome at the country&rsquo;s expense to copy the masters for years on end. The house style this machine
         produced prized{' '}<em>fini</em>{' '}(a surface blended so smoothly that you could not find a single brushstroke
         if you went looking) — the paint was supposed to disappear, leaving only the picture — and clean line and
-        drawing over loose, expressive colour.
+        drawing over loose, expressive color.
       </p>
       <p style={proseStyle}>
         And it enforced a strict pecking order of{' '}<em>subjects</em>, a ranking formalised back in 1667 by the
@@ -73,7 +73,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
       <SectionHeader accent={accent} label="The one room" title="Where careers were made and skied" />
       <p style={proseStyle}>
         All of it funnelled into a single event. The{' '}<strong>Salon</strong>{' '}was the Académie&rsquo;s official
-        public exhibition, and it was the only theatre in town — the one place where a wide Paris public, hundreds
+        public exhibition, and it was the only theater in town — the one place where a wide Paris public, hundreds
         of thousands of people, came each year to look at, fight over and actually{' '}<em>buy</em>{' '}new art. The
         Académie held a monopoly on it right through 1880, so in the 1850s the Salon was, flatly, a State-run
         institution. What got in was decided by the{' '}<strong>Salon jury</strong>{' '}— a panel of Académie members and
@@ -86,7 +86,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         That experience was a wall of paintings stacked frame-to-frame from knee height all the way to the
         ceiling, dozens of feet up. Run your eye up that wall: the higher a canvas climbed, the harder it was to
-        see, until near the top the pictures were just coloured rectangles tilted down at a crowd that would never
+        see, until near the top the pictures were just colored rectangles tilted down at a crowd that would never
         read them. Where your picture landed decided its fate. The prime band, at eye level, was called being{' '}<strong>&ldquo;on the line&rdquo;</strong>{' '}— seen, studied, reviewed, sold. A picture hung up near the rafters
         was said to be{' '}<strong>&ldquo;skied,&rdquo;</strong>{' '}and a skied canvas was, for all practical purposes, an
         invisible one: nobody craned their neck three storeys up to discover a genius. The hang was the verdict
@@ -152,11 +152,11 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <p style={proseStyle}>
         Then the tools themselves changed. In 1841 an American painter in London named{' '}<strong>John Goffe Rand</strong>{' '}patented oil paint sold in collapsible metal tubes, the squeezable kind we still use, which for
-        the first time let a painter carry his colours out the door and set up in front of an actual haystack
+        the first time let a painter carry his colors out the door and set up in front of an actual haystack
         rather than reconstructing it from memory in a studio. (The metal tube is{' '}<em>often credited</em>{' '}with
         making{' '}<em>plein-air</em>{' '}painting — working outdoors, in front of the subject, in the open air — and even
         Impressionism itself possible. That is the popular version of the story; the truth is that it helped,
-        alongside several other things.) New railways then carried the painter and his portable colours out of
+        alongside several other things.) New railways then carried the painter and his portable colors out of
         Paris to the coast and the countryside for a few francs. And Paris itself was being gutted and rebuilt:
         from the early 1850s, under Napoleon III, his chief city-planner,{' '}<strong>Baron Haussmann</strong>, drove
         wide new boulevards through the medieval tangle and lined them with gas lamps, cafés, grand apartment
@@ -166,7 +166,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
 
       <SectionHeader accent={accent} label="The stakes" title="Who decides what a painting is for?" />
       <p style={proseStyle}>
-        So the table was set, and underneath every costume change to come — the loose brushwork, the wild colour,
+        So the table was set, and underneath every costume change to come — the loose brushwork, the wild color,
         the shattered perspective — it stayed the same fight for a hundred years:{' '}<em>who gets to decide what a
         painting is for?</em>{' '}The Académie&rsquo;s answer was settled and serene. Beauty, in this view, has rules;
         the Académie knows them; and the Salon is simply where you prove you have learned them. (That is the
@@ -204,7 +204,7 @@ const SalonNarrative: Narrative = ({ accent, onZoom }) => (
         <DropCap accent={accent}>F</DropCap>
         or two hundred years there had been exactly one way to be a painter in France: get into the Salon. It
         was the official exhibition of the Académie des Beaux-Arts — the French state&rsquo;s art establishment —
-        and it was the only theatre in town. A jury of professors decided what hung. They wanted polished
+        and it was the only theater in town. A jury of professors decided what hung. They wanted polished
         surfaces, noble subjects (gods, battles, scripture) and no visible brushwork. The whole of{' '}<em> Western</em>{' '}modern art is, in one sense, a hundred-year argument with that jury.
       </p>
       <p style={proseStyle}>
@@ -310,17 +310,17 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
       <SectionHeader accent={accent} label="The idea" title="Paint the light, not the thing" />
       <p style={proseStyle}>
         The Impressionists&rsquo; insight was almost a scientific one: you never actually see an object&rsquo;s
-        &ldquo;true&rdquo; colour, only light bouncing off it at a particular moment. So they stopped painting
+        &ldquo;true&rdquo; color, only light bouncing off it at a particular moment. So they stopped painting
         the cathedral and started painting the{' '}<em>light on</em>{' '}the cathedral — Monet would later paint the
-        same Rouen facade more than thirty times, the same stone reading pink at dawn and blue-grey in fog, the
+        same Rouen facade more than thirty times, the same stone reading pink at dawn and blue-gray in fog, the
         building almost an excuse. New tube paints let them work fast and outdoors, in front of the subject; they
-        left the brushwork loose and laid pure dabs of colour side by side so your own eye would mix them at a
+        left the brushwork loose and laid pure dabs of color side by side so your own eye would mix them at a
         distance. A shadow was no longer brown. It was violet and blue.
       </p>
       <p style={proseStyle}>
         Their subjects were just as new — not myth but modern leisure: boating parties, railway stations, dance
         halls, the wide boulevards of a freshly rebuilt Paris.{' '}<strong>Berthe Morisot</strong>, the one woman in
-        the founding group, was no bystander: she organised nearly every one of the eight exhibitions and painted
+        the founding group, was no bystander: she organized nearly every one of the eight exhibitions and painted
         modern life from the private, domestic vantage — nurseries, drawing rooms, women at the mirror — that her
         male colleagues simply could not enter, which makes her work some of the most distinctive the movement
         produced.{' '}<strong>Edgar Degas</strong>, the awkward cousin of the group, stayed indoors and caught
@@ -340,7 +340,7 @@ const LightNarrative: Narrative = ({ accent, onZoom }) => (
       accent={BLUE}
       region="Japan"
       title="A newly opened Japan rewires the European eye."
-      body="Cheap woodblock prints by Hokusai and Hiroshige — flat colour, daring crops, off-centre composition — flood into Paris and become an obsession. 'Japonisme' teaches Degas, Monet and Van Gogh to throw out the deep Renaissance box and think in flat shapes."
+      body="Cheap woodblock prints by Hokusai and Hiroshige — flat color, daring crops, off-center composition — flood into Paris and become an obsession. 'Japonisme' teaches Degas, Monet and Van Gogh to throw out the deep Renaissance box and think in flat shapes."
     />
   </>
 )
@@ -360,9 +360,9 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
       </p>
       <p style={proseStyle}>
         <strong>Georges Seurat</strong>{' '}turned it into a science: he painted in thousands of tiny, deliberate
-        dots of pure colour — <em>pointillism</em>{' '}— arranged by optical theory, and built a vast Sunday park
+        dots of pure color — <em>pointillism</em>{' '}— arranged by optical theory, and built a vast Sunday park
         scene as still and ordered as an Egyptian frieze.{' '}<strong>Paul Cézanne</strong>{' '}went the opposite way,
-        alone in Provence, rebuilding apples and mountains out of blunt facets of colour until a painting felt as
+        alone in Provence, rebuilding apples and mountains out of blunt facets of color until a painting felt as
         constructed as a stone wall. He is the hinge of this whole story: the man Picasso and Matisse would each
         call their father.
       </p>
@@ -372,7 +372,7 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.seuratGrandeJatte}
         ratio="3/2"
         alt="Seurat, A Sunday on La Grande Jatte"
-        caption={<>Look closely and the whole sunlit park is built from millions of separate dots of pure colour your eye blends for you.</>}
+        caption={<>Look closely and the whole sunlit park is built from millions of separate dots of pure color your eye blends for you.</>}
         credit={<>Seurat,{' '}<em>A Sunday on La Grande Jatte</em>, 1884 · Art Institute of Chicago</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
@@ -381,12 +381,12 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         The other two routes went looking for emotion.{' '}<strong>Vincent van Gogh</strong>, a Dutch ex-preacher who
         painted seriously for barely a decade and, by the established record, sold a single painting in his
-        lifetime, loaded his colour and clawed his brushstrokes until a wheat field or a night sky seemed to
-        carry his own nervous charge — colour wired straight to feeling, with no polite filter in between. His
+        lifetime, loaded his color and clawed his brushstrokes until a wheat field or a night sky seemed to
+        carry his own nervous charge — color wired straight to feeling, with no polite filter in between. His
         on-and-off friend{' '}<strong>Paul Gauguin</strong>{' '}went searching for an imagined &ldquo;primitive&rdquo;
         innocence and never stopped moving to find it: he quit a Paris stockbroking desk, failed at it in
         Brittany, sailed to Panama and Martinique, came back, and finally fetched up in Tahiti and the Marquesas,
-        painting in flat, walled-off zones of unreal colour. The &ldquo;innocence&rdquo; was always his own
+        painting in flat, walled-off zones of unreal color. The &ldquo;innocence&rdquo; was always his own
         projection — and, as we now reckon with, was bound up with a colonial fantasy that used the islands and
         their young women as scenery.
       </p>
@@ -402,7 +402,7 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
       />
       <p style={proseStyle}>
         Between them, these four had cracked the picture open in every direction at once — toward science, toward
-        structure, toward raw feeling, toward flat unreal colour. A generation of much younger painters in Paris
+        structure, toward raw feeling, toward flat unreal color. A generation of much younger painters in Paris
         inherited all four exits at the same moment. And, being young, they took all four.
       </p>
     </article>
@@ -413,15 +413,15 @@ const StructureNarrative: Narrative = ({ accent, onZoom }) => (
 const BreakNarrative: Narrative = ({ accent, onZoom }) => (
   <>
     <article style={{ padding: '18px 18px 40px' }}>
-      <SectionHeader accent={accent} label="1905" title="Colour off the leash" first />
+      <SectionHeader accent={accent} label="1905" title="Color off the leash" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>A</DropCap>
         t the Salon d&rsquo;Automne of 1905 a room of canvases by{' '}<strong>Henri Matisse</strong>{' '}and his friends
         hit visitors like a shout: a portrait with a green stripe running down the sitter&rsquo;s face, skies and
-        shadows painted whatever colour the picture seemed to need rather than the colour the world actually was.
+        shadows painted whatever color the picture seemed to need rather than the color the world actually was.
         A critic called them{' '}<em>les fauves</em>{' '}— the wild beasts. Fauvism barely lasted three years, but like a
         lot of movements in this era it burned bright and fast because it had only one point to make, and it
-        made it: colour does not have to describe anything. It can just be the painting&rsquo;s engine.
+        made it: color does not have to describe anything. It can just be the painting&rsquo;s engine.
       </p>
       <PaintingFigure
         onZoom={onZoom}
@@ -429,19 +429,19 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.matisseDance}
         ratio="3/2"
         alt="Matisse, Dance"
-        caption={<>Five figures, three colours — a green hill, a blue sky, red bodies — no shading, no depth, and total conviction.</>}
+        caption={<>Five figures, three colors — a green hill, a blue sky, red bodies — no shading, no depth, and total conviction.</>}
         credit={<>Matisse,{' '}<em>Dance (I)</em>, 1909 · MoMA, New York</>}
         rights={PD_RIGHTS}
       />
 
       <SectionHeader accent={accent} label="1907–1914" title="Then perspective itself is repealed" />
       <p style={proseStyle}>
-        If Matisse freed the colour,{' '}<strong>Pablo Picasso</strong>{' '}and{' '}<strong>Georges Braque</strong>{' '}went
+        If Matisse freed the color,{' '}<strong>Pablo Picasso</strong>{' '}and{' '}<strong>Georges Braque</strong>{' '}went
         after the deeper rule — the single fixed viewpoint that had made a painting behave like a window since
         the 1400s: one eye, one spot, one frozen instant. Starting from Cézanne&rsquo;s facets and from West and
         Central African sculpture — Fang, Kota and other masks Picasso met at Paris&rsquo;s ethnographic museum
         in 1907 — the two of them spent years showing several sides of an object on the flat canvas at once. They
-        named nothing and declared nothing; they just did it, roped together in neighbouring studios, until the
+        named nothing and declared nothing; they just did it, roped together in neighboring studios, until the
         window was gone.
       </p>
       <PaintingFigure
@@ -457,7 +457,7 @@ const BreakNarrative: Narrative = ({ accent, onZoom }) => (
       <p style={proseStyle}>
         Cubism is the pivot of the whole era, which is why it has its own read one level down — six chapters on
         Picasso, Braque, collage and the war that broke them apart. What matters here is the door it left open.
-        If a painting owes nothing to colour-as-description (Matisse) and nothing to single-point perspective
+        If a painting owes nothing to color-as-description (Matisse) and nothing to single-point perspective
         (Cubism), then it owes nothing to the visible world at all. From this moment, abstraction is only a
         matter of nerve.
       </p>
@@ -495,7 +495,7 @@ const ManifestoNarrative: Narrative = ({ accent, onZoom }) => (
         The First World War turned the machine-romance into a slaughterhouse, and the artists who survived
         answered with disgust. In neutral Zürich, refugees founded{' '}<strong>Dada</strong>{' '}— deliberate nonsense,
         the name supposedly chosen by stabbing a knife at random into a dictionary — and staged performances built
-        to insult an audience, and a civilisation, that had marched into the trenches quoting poetry. Its sharpest
+        to insult an audience, and a civilization, that had marched into the trenches quoting poetry. Its sharpest
         weapon was the{' '}<em>readymade</em>: in 1917{' '}<strong>Marcel Duchamp</strong>{' '}submitted a factory urinal,
         signed with a joke name and titled{' '}<em>Fountain</em>, to an art show. If the artist says it is art, his
         gesture asked, is it art? A century of conceptual art — art where the{' '}<em>idea</em>{' '}is the work and the
@@ -560,7 +560,7 @@ const UnconsciousNarrative: Narrative = ({ accent }) => (
       <p style={proseStyle}>
         Sit with that irony for a second. Dalí spent his life cultivating the most irrational public image in
         art — a movement devoted to dreams and the unconscious — and the thing now standing between you and his
-        most famous painting is the single most rational, bureaucratic instrument civilisation owns: United
+        most famous painting is the single most rational, bureaucratic instrument civilization owns: United
         States copyright law. Works first published before 1931 are public domain in the US; 1931 and after are
         not. That one-year line runs straight through the middle of Surrealism, which is exactly why this
         era&rsquo;s pictures thin out as the story nears the present. It is not a gap in our archive. It is the
@@ -587,15 +587,15 @@ const NewYorkNarrative: Narrative = ({ accent }) => (
         &ldquo;degenerate,&rdquo; or Jewish, or simply unsafe — and a great many of them washed up in New York,
         where a generation of young American painters had been waiting and watching. For a century Americans had
         sailed to Paris to learn how to paint; now, abruptly, the traffic ran the other way. When the war ended,
-        for the first time the centre of gravity of Western art sat on the far side of the Atlantic.
+        for the first time the center of gravity of Western art sat on the far side of the Atlantic.
       </p>
       <p style={proseStyle}>
         What the Americans built was{' '}<strong>Abstract Expressionism</strong>{' '}— huge, ambitious, completely
         abstract.{' '}<strong>Jackson Pollock</strong>{' '}took the Surrealists&rsquo; chance and automatism at its word:
         he laid the canvas on the floor and flung and dripped skeins of ordinary house paint across it, so the
         finished picture is a frozen record of the dance that made it.{' '}<strong>Mark Rothko</strong>{' '}went the
-        opposite way — two or three soft-edged rectangles of luminous colour stacked on a tall canvas, the edges
-        bleeding and breathing so the colour seems to hover and glow, meant to be stood close to like an
+        opposite way — two or three soft-edged rectangles of luminous color stacked on a tall canvas, the edges
+        bleeding and breathing so the color seems to hover and glow, meant to be stood close to like an
         altarpiece until it swallows your whole field of view.{' '}<strong>Willem de Kooning</strong>{' '}kept a
         slashing, half-buried human figure in the mix. It was the first art movement the world looked to America
         to lead.
@@ -624,14 +624,14 @@ const NewYorkNarrative: Narrative = ({ accent }) => (
         mechanical and the mass-produced and said, flatly, that he wanted to be a machine. There is a hard little
         joke buried in the reversal: the Abstract Expressionists mostly drank and suffered and died not rich,
         chasing authenticity; Warhol faked the factory and got famous and wealthy doing it. It was Duchamp&rsquo;s
-        1917 urinal question coming back — in colour, at scale, and very much{' '}<em>for sale</em>.
+        1917 urinal question coming back — in color, at scale, and very much{' '}<em>for sale</em>.
       </p>
       <p style={proseStyle}>
         By the late 1960s a younger crowd was stripping even Pop&rsquo;s jokes away — the Minimalists, reducing
         art to a plain metal box or a row of bricks, daring you to ask whether that counted. Which is right where
         &ldquo;modern&rdquo; quietly hands off to &ldquo;contemporary,&rdquo; the next era along. The whole
         century-long argument that began with Courbet&rsquo;s tent had come full circle, because it was never
-        really about cubes or colour or drips. It was always the same question the Salon jury thought it had
+        really about cubes or color or drips. It was always the same question the Salon jury thought it had
         settled for good:{' '}<em>who gets to decide what counts as art, and what is it for?</em>{' '}By 1970 the answer
         was wide open — which is the most modern thing about it.
       </p>

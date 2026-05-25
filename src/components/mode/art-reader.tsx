@@ -12,7 +12,7 @@
 // primitives (DropCap, SectionHeader, figures with the rights subsystem, the
 // "Meanwhile in…" sheet) live here so all three levels stay identical.
 //
-// Prose ported from / authored in the house voice; inline figures honour the
+// Prose ported from / authored in the house voice; inline figures honor the
 // copyright tiers in art-content.ts (pre-1931 → inline with a Rights line;
 // post-1930 / in-copyright → the degraded RestrictedFigure reference).
 

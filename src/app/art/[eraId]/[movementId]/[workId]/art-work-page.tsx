@@ -87,13 +87,13 @@ function CanvasViewer({ w }: { w: ArtWorkContent }) {
 // Look closer — a grid of CSS-cropped close-ups, each captioned. The frame
 // takes the region's true aspect (region w/h × source W/H) and the same source
 // image is scaled + offset so the region fills it (no extra image files). The
-// region is x/y (centre %) + w/h (size %), authored & verified per work.
+// region is x/y (center %) + w/h (size %), authored & verified per work.
 // ─────────────────────────────────────────────────────────────
 function CropRegion({ src, srcAspect, a }: { src: string; srcAspect: number; a: CanvasAnnotation }) {
   const w = a.w ?? 34, h = a.h ?? 26
   const cx = parseFloat(a.x), cy = parseFloat(a.y)
   // background-size matches the container aspect (= region aspect), so the image
-  // isn't distorted; background-position frames the region centred on (cx,cy).
+  // isn't distorted; background-position frames the region centered on (cx,cy).
   const posX = ((cx - w / 2) / (100 - w)) * 100
   const posY = ((cy - h / 2) / (100 - h)) * 100
   return (

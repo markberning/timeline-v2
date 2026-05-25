@@ -12,7 +12,7 @@
 
 export type ArtRegion = 'western' // worldwide expansion adds more later
 
-// The Art vertical's identity colour (the violet accent), used for the
+// The Art vertical's identity color (the violet accent), used for the
 // breadcrumb leaf, the front-door chrome, and the Modern era / Cubism.
 export const ART_ACCENT = '#7c3aed'
 
@@ -40,7 +40,7 @@ export interface ArtEra {
   // over the gradient placeholder. `focus` is the cover object-position.
   image?: string
   focus?: string
-  // The 5–6 names a reader is most likely to recognise from the era, shown as a
+  // The 5–6 names a reader is most likely to recognize from the era, shown as a
   // muted line on the home-page era card. Prehistoric has none (anonymous).
   artists?: string[]
 }
@@ -72,7 +72,7 @@ export const ART_CHIPS: ArtChip[] = [
 // ─────────────────────────────────────────────────────────────
 // Climb tree — the influence lens ("Climbing the tree")
 // ─────────────────────────────────────────────────────────────
-// v1 sample centred on Cubism: 3 parents up, 3 children down, re-centre on tap.
+// v1 sample centered on Cubism: 3 parents up, 3 children down, re-center on tap.
 // A full influence graph (every movement keyed by id) is a follow-up; for now
 // this renders the one fully-designed slice.
 export interface ClimbNode {
