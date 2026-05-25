@@ -282,25 +282,36 @@ export function ArtAtAGlance({ summary, stats, faceoff, extras }: { summary: str
 }
 
 // Horizontal scroll of portrait circles (painters / figures).
-export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: string; name: string; role?: string; years?: string; palette: Palette }[]; label?: string }) {
+// A circular artist headshot — a born-verified portrait/self-portrait where we
+// have one, biased up to the face (objectPosition), with a graceful fall back to
+// the artist's palette gradient when there's no photo or it fails to load.
+function ArtistAvatar({ photo, palette }: { photo?: string; palette: Palette }) {
+  const [failed, setFailed] = useState(false)
+  const showImg = !!photo && !failed
+  return (
+    <div style={{ width: 64, height: 64, borderRadius: 999, overflow: 'hidden', position: 'relative', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`, boxShadow: 'inset 0 0 0 2px color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
+      {showImg && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={photo} alt="" aria-hidden loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 18%', filter: 'sepia(0.12) saturate(0.9) contrast(1.02)' }} />
+      )}
+    </div>
+  )
+}
+
+export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: string; name: string; role?: string; years?: string; palette: Palette; photo?: string }[]; label?: string }) {
   return (
     <div style={{ padding: '20px 0 22px', borderBottom: `1px solid ${BORDER}` }}>
       <div style={{ padding: '0 16px', marginBottom: 12 }}><Eyebrow>{label}</Eyebrow></div>
       <div style={{ display: 'flex', gap: 12, overflowX: 'auto', scrollbarWidth: 'none', padding: '0 16px' }}>
-        {artists.map(a => {
-          const inner = (
-            <div style={{ flexShrink: 0, width: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
-              <div style={{ width: 64, height: 64, borderRadius: 999, overflow: 'hidden', boxShadow: `inset 0 0 0 2px ${artAlpha('#000000', 0.001)}, inset 0 0 0 2px color-mix(in srgb, var(--foreground) 15%, transparent)` }}>
-                <ArtTile palette={a.palette} ratio="1/1" round />
-              </div>
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.15, letterSpacing: -0.1, color: INK }}>{a.name}</div>
-                <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
-              </div>
+        {artists.map(a => (
+          <div key={a.id || a.name} style={{ flexShrink: 0, width: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
+            <ArtistAvatar photo={a.photo} palette={a.palette} />
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.15, letterSpacing: -0.1, color: INK }}>{a.name}</div>
+              <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.2, color: FAINT }}>{a.role || a.years}</div>
             </div>
-          )
-          return inner
-        })}
+          </div>
+        ))}
       </div>
     </div>
   )

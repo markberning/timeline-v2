@@ -100,6 +100,18 @@ export const ART_IMG = {
   // The ORIGINAL was destroyed in the bombing of Dresden, Feb 1945; shown here as a
   // desaturated record of the lost work (an archival stand-in, not the painting).
   courbetStoneBreakers: '/art/stone-breakers.jpg',
+  // ── Artist headshots (born-verified portraits/self-portraits, subjects
+  // eyeballed 2026-05-25; all PD on Commons). Picasso uses picassoPhoto above. ──
+  braquePhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Georges_Braque%2C_1908%2C_photograph_published_in_Gelett_Burgess%2C_The_Wild_Men_of_Paris%2C_Architectural_Record%2C_May_1910.jpg',
+  grisPhoto: 'https://upload.wikimedia.org/wikipedia/commons/4/47/Juan_Gris_-_1912_-_Self-portrait.jpg',
+  delaunayPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Robert_Delaunay_-_autoportrait.jpg/500px-Robert_Delaunay_-_autoportrait.jpg',
+  metzingerPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Jean_Metzinger%2C_portrait_photograph%2C_published_in_Les_Peintres_Cubistes%2C_1913.jpg/500px-Jean_Metzinger%2C_portrait_photograph%2C_published_in_Les_Peintres_Cubistes%2C_1913.jpg',
+  courbetPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg/500px-Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg',
+  milletPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Jean-Fran%C3%A7ois_Millet_by_Atelier_Nadar_-_Original.jpg/500px-Jean-Fran%C3%A7ois_Millet_by_Atelier_Nadar_-_Original.jpg',
+  daumierPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Honor%C3%A9_Daumier_c1850_-_crop.jpg/500px-Honor%C3%A9_Daumier_c1850_-_crop.jpg',
+  bonheurPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_photograph_of_Rosa_Bonheur%2C_private_collection.JPG/500px-Anonymous_photograph_of_Rosa_Bonheur%2C_private_collection.JPG',
+  corotPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Camille_Corot_by_%C3%89tienne_Carjat.jpg/500px-Camille_Corot_by_%C3%89tienne_Carjat.jpg',
+  rousseauPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Theodore_Rousseau.jpg/500px-Theodore_Rousseau.jpg',
   // Cubism influence-flow lineage nodes (Commons, load-verified 2026-05-24)
   fangMask: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg/960px-0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg',
   pissarroBoulevard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg/960px-Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg',
@@ -263,8 +275,11 @@ export interface MovementWork {
   imageUrl?: string
   credit?: string // art credit shown bold at the end of the card when imageUrl is set (artist · current location)
 }
-export interface MovementArtist { id: string; name: string; role: string; years: string; palette: Palette }
+export interface MovementArtist { id: string; name: string; role: string; years: string; palette: Palette; photo?: string }
 export interface MovementParallel { year: number; movement: string; place: string; blurb: string }
+// A canonical work in the movement's full checklist (the count behind the
+// "Canonical works" stat). Name · artist · year only — no descriptions.
+export interface CanonWork { year: number; name: string; artist: string }
 
 export interface ArtMovementContent {
   id: string
@@ -294,6 +309,9 @@ export interface ArtMovementContent {
   // One-line italic summary under the influence-flow diagram (what fed in → what
   // it handed on). Falls back to nothing when omitted.
   influenceSummary?: string
+  // The full canonical-works checklist (the count behind the "Canonical works"
+  // stat). Browsable as a plain list on the movement page; no descriptions.
+  canon?: CanonWork[]
   // The movement's own long-form narrative (chaptered prose). Prose lives in the
   // reader (movement-narratives.tsx); this is the chapter metadata only.
   sections: WorkSection[]
@@ -321,7 +339,7 @@ export const CUBISM: ArtMovementContent = {
   ],
   stats: [
     { v: '15 yrs', k: 'Span' },
-    { v: '~40', k: 'Canonical works' },
+    { v: '30', k: 'Canonical works' },
     { v: 'Paris', k: 'Centered on' },
   ],
   factions: [
@@ -340,12 +358,12 @@ export const CUBISM: ArtMovementContent = {
     { id: 'three-musicians', year: 1921, name: 'Three Musicians', artist: 'Picasso', place: 'Fontainebleau', size: 'l', blurb: 'Picasso revisits Cubism as a synthetic, decorative language. Flat planes, bright colors, almost a poster.', palette: ['#c8a72a', '#7a1422', '#1c0a08'], imageUrl: ART_IMG.picassoThreeMusicians, credit: 'Picasso, Three Musicians, 1921 · Philadelphia Museum of Art' },
   ],
   artists: [
-    { id: 'picasso', name: 'Picasso', role: 'Pioneer', years: '1881–1973', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
-    { id: 'braque', name: 'Braque', role: 'Pioneer', years: '1882–1963', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
-    { id: 'gris', name: 'Juan Gris', role: 'Synthesist', years: '1887–1927', palette: ['#8a6b3a', '#3a2820', '#0e0805'] },
+    { id: 'picasso', name: 'Picasso', role: 'Pioneer', years: '1881–1973', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], photo: ART_IMG.picassoPhoto },
+    { id: 'braque', name: 'Braque', role: 'Pioneer', years: '1882–1963', palette: ['#7a6a4a', '#3a3020', '#100c08'], photo: ART_IMG.braquePhoto },
+    { id: 'gris', name: 'Juan Gris', role: 'Synthesist', years: '1887–1927', palette: ['#8a6b3a', '#3a2820', '#0e0805'], photo: ART_IMG.grisPhoto },
     { id: 'leger', name: 'Léger', role: 'Salon cubist', years: '1881–1955', palette: ['#1c1c1c', '#a0a0a0', '#bf2f25'] },
-    { id: 'delaunay', name: 'Delaunay', role: 'Orphist', years: '1885–1941', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
-    { id: 'metzinger', name: 'Metzinger', role: 'Theorist', years: '1883–1956', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { id: 'delaunay', name: 'Delaunay', role: 'Orphist', years: '1885–1941', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'], photo: ART_IMG.delaunayPhoto },
+    { id: 'metzinger', name: 'Metzinger', role: 'Theorist', years: '1883–1956', palette: ['#5a4a3a', '#2a221c', '#0a0606'], photo: ART_IMG.metzingerPhoto },
   ],
   parallels: [
     { year: 1909, movement: 'Futurism', place: 'Milan', blurb: 'Marinetti publishes the Futurist Manifesto in Le Figaro.' },
@@ -368,6 +386,38 @@ export const CUBISM: ArtMovementContent = {
     ],
   },
   influenceSummary: 'Cubism took Cézanne’s faceted space and the flat planes of African masks, broke the single-viewpoint window once and for all, and handed that break on to nearly every abstract movement that followed.',
+  canon: [
+    { year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso' },
+    { year: 1908, name: 'Houses at L’Estaque', artist: 'Braque' },
+    { year: 1908, name: 'Three Women', artist: 'Picasso' },
+    { year: 1909, name: 'Houses on the Hill, Horta de Ebro', artist: 'Picasso' },
+    { year: 1910, name: 'Girl with a Mandolin (Fanny Tellier)', artist: 'Picasso' },
+    { year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso' },
+    { year: 1910, name: 'Violin and Candlestick', artist: 'Braque' },
+    { year: 1910, name: 'Violin and Jug', artist: 'Braque' },
+    { year: 1911, name: 'The Portuguese', artist: 'Braque' },
+    { year: 1911, name: 'Ma Jolie', artist: 'Picasso' },
+    { year: 1911, name: 'Le Goûter (Tea Time)', artist: 'Metzinger' },
+    { year: 1911, name: 'The Eiffel Tower', artist: 'Delaunay' },
+    { year: 1911, name: 'Abundance', artist: 'Le Fauconnier' },
+    { year: 1911, name: 'Portrait of Jacques Nayral', artist: 'Gleizes' },
+    { year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso' },
+    { year: 1912, name: 'Fruit Dish and Glass', artist: 'Braque' },
+    { year: 1912, name: 'The City of Paris', artist: 'Delaunay' },
+    { year: 1912, name: 'Simultaneous Windows', artist: 'Delaunay' },
+    { year: 1912, name: 'Nude Descending a Staircase No. 2', artist: 'Duchamp' },
+    { year: 1912, name: 'Man on a Balcony', artist: 'Gleizes' },
+    { year: 1912, name: 'Woman in Blue', artist: 'Léger' },
+    { year: 1912, name: 'Homage to Pablo Picasso', artist: 'Gris' },
+    { year: 1913, name: 'The Cardiff Team', artist: 'Delaunay' },
+    { year: 1913, name: 'Contrast of Forms', artist: 'Léger' },
+    { year: 1913, name: 'Udnie', artist: 'Picabia' },
+    { year: 1914, name: 'The Sunblind', artist: 'Gris' },
+    { year: 1914, name: 'Breakfast (Le Petit Déjeuner)', artist: 'Gris' },
+    { year: 1915, name: 'Man with a Guitar', artist: 'Lipchitz' },
+    { year: 1919, name: 'The City (La Ville)', artist: 'Léger' },
+    { year: 1921, name: 'Three Musicians', artist: 'Picasso' },
+  ],
   sections: [
     { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks — the three things Picasso could not stop looking at.', progress: 1 / 6 },
     { id: 'analytic', eyebrow: 'The partnership', dateLabel: '1909–1911', title: 'Two men, one rope', blurb: 'Picasso and Braque climb the mountain roped together, faceting the world into brown and gray shards.', progress: 2 / 6 },
@@ -433,7 +483,7 @@ export const REALISM: ArtMovementContent = {
   heroCredit: 'Courbet, A Burial at Ornans (detail), 1849–50 · Musée d’Orsay, Paris',
   stats: [
     { v: '22 yrs', k: 'Span' },
-    { v: '~30', k: 'Canonical works' },
+    { v: '30', k: 'Canonical works' },
     { v: 'Paris', k: 'Centered on' },
   ],
   factions: [
@@ -452,12 +502,12 @@ export const REALISM: ArtMovementContent = {
     { id: 'carriage', year: 1864, name: 'The Third-Class Carriage', artist: 'Daumier', place: 'Paris', size: 'l', blurb: 'The cheapest class of a railway car, packed with the urban poor — tired, dignified, unsentimental. Modern life, no pity.', palette: ['#53412c', '#2a1f14', '#0c0805'], imageUrl: ART_IMG.daumierCarriage, credit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York' },
   ],
   artists: [
-    { id: 'courbet', name: 'Courbet', role: 'The firebrand', years: '1819–1877', palette: ['#6b6354', '#39322a', '#120f0c'] },
-    { id: 'millet', name: 'Millet', role: 'Peasant painter', years: '1814–1875', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
-    { id: 'daumier', name: 'Daumier', role: 'The satirist', years: '1808–1879', palette: ['#7a7064', '#42382c', '#15110c'] },
-    { id: 'bonheur', name: 'Bonheur', role: 'Animalier', years: '1822–1899', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
-    { id: 'corot', name: 'Corot', role: 'Barbizon', years: '1796–1875', palette: ['#6a7250', '#3a3c28', '#14140e'] },
-    { id: 'rousseau', name: 'Rousseau', role: 'Barbizon', years: '1812–1867', palette: ['#5a5236', '#332e1c', '#100e08'] },
+    { id: 'courbet', name: 'Courbet', role: 'The firebrand', years: '1819–1877', palette: ['#6b6354', '#39322a', '#120f0c'], photo: ART_IMG.courbetPhoto },
+    { id: 'millet', name: 'Millet', role: 'Peasant painter', years: '1814–1875', palette: ['#a8915a', '#5a4a2a', '#1a1410'], photo: ART_IMG.milletPhoto },
+    { id: 'daumier', name: 'Daumier', role: 'The satirist', years: '1808–1879', palette: ['#7a7064', '#42382c', '#15110c'], photo: ART_IMG.daumierPhoto },
+    { id: 'bonheur', name: 'Bonheur', role: 'Animalier', years: '1822–1899', palette: ['#8a7a52', '#4a3c22', '#15110a'], photo: ART_IMG.bonheurPhoto },
+    { id: 'corot', name: 'Corot', role: 'Barbizon', years: '1796–1875', palette: ['#6a7250', '#3a3c28', '#14140e'], photo: ART_IMG.corotPhoto },
+    { id: 'rousseau', name: 'Rousseau', role: 'Barbizon', years: '1812–1867', palette: ['#5a5236', '#332e1c', '#100e08'], photo: ART_IMG.rousseauPhoto },
   ],
   parallels: [
     { year: 1848, movement: 'Pre-Raphaelites', place: 'London', blurb: 'Seven young British painters band together to revolt against academic polish and paint with sharp-eyed truth to nature.' },
@@ -480,6 +530,38 @@ export const REALISM: ArtMovementContent = {
     ],
   },
   influenceSummary: 'Realism took the shock of 1848 and the new mirror of photography, granted the ordinary present the scale once kept for gods, and handed that permission straight to the Impressionists.',
+  canon: [
+    { year: 1826, name: 'The Bridge at Narni', artist: 'Corot' },
+    { year: 1831, name: 'Gargantua', artist: 'Daumier' },
+    { year: 1834, name: 'Rue Transnonain', artist: 'Daumier' },
+    { year: 1834, name: 'The Legislative Belly', artist: 'Daumier' },
+    { year: 1844, name: 'Under the Birches, Evening', artist: 'Rousseau' },
+    { year: 1848, name: 'The Winnower', artist: 'Millet' },
+    { year: 1848, name: 'The Uprising', artist: 'Daumier' },
+    { year: 1849, name: 'After Dinner at Ornans', artist: 'Courbet' },
+    { year: 1849, name: 'The Stone Breakers', artist: 'Courbet' },
+    { year: 1849, name: 'Ploughing in the Nivernais', artist: 'Bonheur' },
+    { year: 1850, name: 'A Burial at Ornans', artist: 'Courbet' },
+    { year: 1850, name: 'The Sower', artist: 'Millet' },
+    { year: 1853, name: 'Harvesters Resting (Ruth and Boaz)', artist: 'Millet' },
+    { year: 1853, name: 'The Bathers', artist: 'Courbet' },
+    { year: 1854, name: 'The Wheat Sifters', artist: 'Courbet' },
+    { year: 1854, name: 'The Meeting (Bonjour, Monsieur Courbet)', artist: 'Courbet' },
+    { year: 1855, name: 'The Painter’s Studio', artist: 'Courbet' },
+    { year: 1855, name: 'The Horse Fair', artist: 'Bonheur' },
+    { year: 1857, name: 'The Gleaners', artist: 'Millet' },
+    { year: 1857, name: 'Young Ladies on the Banks of the Seine', artist: 'Courbet' },
+    { year: 1859, name: 'The Angelus', artist: 'Millet' },
+    { year: 1859, name: 'The Banks of the Oise', artist: 'Daubigny' },
+    { year: 1862, name: 'Man with a Hoe', artist: 'Millet' },
+    { year: 1862, name: 'The Third-Class Carriage', artist: 'Daumier' },
+    { year: 1863, name: 'The Laundress', artist: 'Daumier' },
+    { year: 1863, name: 'Shepherdess with her Flock', artist: 'Millet' },
+    { year: 1864, name: 'Souvenir de Mortefontaine', artist: 'Corot' },
+    { year: 1866, name: 'The Origin of the World', artist: 'Courbet' },
+    { year: 1869, name: 'Woman with a Pearl', artist: 'Corot' },
+    { year: 1872, name: 'The Trout', artist: 'Courbet' },
+  ],
   sections: [
     { id: 'why', eyebrow: 'The demand', dateLabel: '1848', title: 'Why Realism', blurb: 'A revolution puts ordinary people in the foreground of history — and a generation of painters asks why they’re only ever scenery.', progress: 1 / 6 },
     { id: 'gauntlet', eyebrow: 'Courbet', dateLabel: '1849–1850', title: 'Courbet’s gauntlet', blurb: 'Two laborers breaking rock and a whole village funeral, painted at the scale the Salon kept for gods. The scandal of dignifying nobodies.', progress: 2 / 6 },

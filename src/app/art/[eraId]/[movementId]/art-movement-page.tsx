@@ -67,7 +67,7 @@ function WorksCord({ works, accent, eraId, movementId }: { works: MovementWork[]
     <div style={{ position: 'relative', paddingTop: 26, paddingBottom: 4 }}>
       <div style={{ position: 'absolute', left: CORD_X, top: 8, bottom: 8, width: 1, background: BORDER_STRONG }} />
       <div style={{ position: 'absolute', left: 70, top: 12, fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: accent, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>
-        {works.length} works
+        {works.length} featured works
       </div>
       <div style={{ paddingTop: 14 }}>
         {works.map(w => (
@@ -216,6 +216,25 @@ function ParallelsList({ parallels }: { parallels: { year: number; movement: str
 }
 
 // ─────────────────────────────────────────────────────────────
+// The full canonical-works checklist (the count behind the "Canonical works"
+// stat). A plain, scannable list — year · work · artist, no descriptions.
+// ─────────────────────────────────────────────────────────────
+function CanonList({ canon, accent }: { canon: { year: number; name: string; artist: string }[]; accent: string }) {
+  const sorted = [...canon].sort((a, b) => a.year - b.year || a.name.localeCompare(b.name))
+  return (
+    <div style={{ padding: '4px 16px 18px' }}>
+      {sorted.map((w, i) => (
+        <div key={`${w.year}-${w.name}`} style={{ display: 'flex', gap: 12, alignItems: 'baseline', padding: '7px 0', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+          <div style={{ flexShrink: 0, width: 34, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</div>
+          <div style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.3, color: INK, textWrap: 'pretty' }}>{w.name}</div>
+          <div style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
 // Coming-soon body for an unauthored movement that still resolves to a route.
 // ─────────────────────────────────────────────────────────────
 function ComingSoon({ eraId, movementId }: { eraId: string; movementId: string }) {
@@ -293,6 +312,11 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
           <ParallelsList parallels={mv.parallels} />
         </ArtAccordion>
         <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
+        {mv.canon && mv.canon.length > 0 && (
+          <ArtAccordion label={`The full canon — ${mv.canon.length} works`} accent={accent}>
+            <CanonList canon={mv.canon} accent={accent} />
+          </ArtAccordion>
+        )}
       </ArtPageShell>
     </div>
   )
