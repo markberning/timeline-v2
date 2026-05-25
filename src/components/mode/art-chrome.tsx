@@ -105,15 +105,22 @@ export function ArtChrome({ crumbs, accent = ART_ACCENT }: { crumbs: Crumb[]; ac
 
 // Stats row (the "at a glance" numbers), standalone so it can sit inside an
 // ArtAccordion instead of its own collapsible.
-export function StatsRow({ stats }: { stats: ArtStat[] }) {
+export function StatsRow({ stats, accent = ART_ACCENT, actions }: { stats: ArtStat[]; accent?: string; actions?: Record<string, () => void> }) {
   return (
     <div style={{ display: 'flex', borderTop: `1px solid ${BORDER}`, borderBottom: `1px solid ${BORDER}` }}>
-      {stats.map((s, i) => (
-        <div key={s.k} style={{ flex: 1, padding: '14px 12px', borderLeft: i === 0 ? 'none' : `1px solid ${BORDER}`, textAlign: 'center' }}>
-          <div style={{ fontFamily: SERIF, fontSize: 20, lineHeight: 1, letterSpacing: -0.4, color: INK, fontWeight: 500 }}>{s.v}</div>
-          <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>{s.k}</div>
-        </div>
-      ))}
+      {stats.map((s, i) => {
+        const onClick = actions?.[s.k]
+        const cell: React.CSSProperties = { flex: 1, padding: '14px 12px', borderLeft: i === 0 ? 'none' : `1px solid ${BORDER}`, textAlign: 'center' }
+        const body = (
+          <>
+            <div style={{ fontFamily: SERIF, fontSize: 20, lineHeight: 1, letterSpacing: -0.4, color: onClick ? accent : INK, fontWeight: 500 }}>{s.v}</div>
+            <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 600, color: onClick ? accent : FAINT, textTransform: 'uppercase' }}>{s.k}{onClick ? ' ↓' : ''}</div>
+          </>
+        )
+        return onClick
+          ? <button key={s.k} onClick={onClick} style={{ ...cell, background: 'none', border: 'none', borderLeft: cell.borderLeft, cursor: 'pointer', font: 'inherit' }}>{body}</button>
+          : <div key={s.k} style={cell}>{body}</div>
+      })}
     </div>
   )
 }
@@ -121,13 +128,17 @@ export function StatsRow({ stats }: { stats: ArtStat[] }) {
 // Closed-by-default collapsible holding a level's secondary "dossier" detail
 // blocks (stats, face-off, strips, parallels, provenance). The page's ONE
 // signature visual stays OUTSIDE this, always visible.
-export function ArtAccordion({ label = 'The details', children, accent = ART_ACCENT, defaultOpen = false }: { label?: string; children: React.ReactNode; accent?: string; defaultOpen?: boolean }) {
-  const [open, setOpen] = useState(defaultOpen)
+export function ArtAccordion({ label = 'The details', children, accent = ART_ACCENT, defaultOpen = false, open: openProp, onOpenChange }: { label?: string; children: React.ReactNode; accent?: string; defaultOpen?: boolean; open?: boolean; onOpenChange?: (o: boolean) => void }) {
+  // Controllable: when `open` is supplied the parent owns the state (used so the
+  // "Canonical works" stat can open the canon section); otherwise it self-manages.
+  const [openState, setOpenState] = useState(defaultOpen)
+  const open = openProp ?? openState
+  const toggle = () => { const next = !open; onOpenChange?.(next); if (openProp === undefined) setOpenState(next) }
   // Controls match the War "At a glance" accordion (theatre-page.tsx): accent
   // eyebrow + "Show/Hide" + an accent-tinted round ▾ chevron that rotates.
   return (
     <div style={{ borderBottom: `1px solid ${BORDER}` }}>
-      <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '14px 16px', color: 'inherit' }}>
+      <button onClick={toggle} aria-expanded={open} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'none', border: 'none', cursor: 'pointer', padding: '14px 16px', color: 'inherit' }}>
         <Eyebrow color={accent}>{label}</Eyebrow>
         <span style={{ display: 'inline-flex', alignItems: 'center', gap: 7, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: accent }}>
           {open ? 'Hide' : 'Show'}

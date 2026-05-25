@@ -11,7 +11,7 @@
 // app's CSS-var tokens from art-chrome (INK/MUTED/FAINT/BORDER/etc.), `shHexAlpha`
 // → artAlpha, fonts → SANS/SERIF/MONO. See audits/art-vertical.md §4.
 
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import Link from 'next/link'
 import { OrientationCard } from '@/components/mode/orientation-card'
 import {
@@ -219,14 +219,17 @@ function ParallelsList({ parallels }: { parallels: { year: number; movement: str
 // The full canonical-works checklist (the count behind the "Canonical works"
 // stat). A plain, scannable list — year · work · artist, no descriptions.
 // ─────────────────────────────────────────────────────────────
-function CanonList({ canon, accent }: { canon: { year: number; name: string; artist: string }[]; accent: string }) {
+function CanonList({ canon, accent }: { canon: { year: number; name: string; artist: string; wiki: string }[]; accent: string }) {
   const sorted = [...canon].sort((a, b) => a.year - b.year || a.name.localeCompare(b.name))
+  const wikiHref = (w: string) => `https://en.wikipedia.org/wiki/${encodeURIComponent(w.replace(/ /g, '_'))}`
   return (
     <div style={{ padding: '4px 16px 18px' }}>
       {sorted.map((w, i) => (
         <div key={`${w.year}-${w.name}`} style={{ display: 'flex', gap: 12, alignItems: 'baseline', padding: '7px 0', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
           <div style={{ flexShrink: 0, width: 34, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</div>
-          <div style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.3, color: INK, textWrap: 'pretty' }}>{w.name}</div>
+          <div style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.3, textWrap: 'pretty' }}>
+            <a href={wikiHref(w.wiki)} target="_blank" rel="noopener noreferrer" style={{ color: INK, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}` }}>{w.name}</a>
+          </div>
           <div style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</div>
         </div>
       ))}
@@ -267,9 +270,21 @@ function ComingSoon({ eraId, movementId }: { eraId: string; movementId: string }
 export function ArtMovementPage({ eraId, movementId }: { eraId: string; movementId: string }) {
   const mv = ART_MOVEMENT_CONTENT[movementId]
 
+  const [canonOpen, setCanonOpen] = useState(false)
+  const canonRef = useRef<HTMLDivElement>(null)
+
   if (!mv) return <ComingSoon eraId={eraId} movementId={movementId} />
 
   const accent = mv.accent
+  const hasCanon = !!mv.canon && mv.canon.length > 0
+  // The "Canonical works" stat links inline to the full-canon section: open it,
+  // then scroll it to the top of the inner scroll column once it has rendered.
+  const goToCanon = () => {
+    setCanonOpen(true)
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      canonRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }))
+  }
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
@@ -306,16 +321,18 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} summary={mv.influenceSummary} />
         {/* secondary detail — collapsed by default */}
         <ArtAccordion label="The details" accent={accent}>
-          <StatsRow stats={mv.stats} />
+          <StatsRow stats={mv.stats} accent={accent} actions={hasCanon ? { 'Canonical works': goToCanon } : undefined} />
           <ArtFaceoff items={mv.factions} />
           <ArtistsStrip artists={mv.artists} label={`${mv.name} artists`} />
           <ParallelsList parallels={mv.parallels} />
         </ArtAccordion>
         <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
-        {mv.canon && mv.canon.length > 0 && (
-          <ArtAccordion label={`The full canon — ${mv.canon.length} works`} accent={accent}>
-            <CanonList canon={mv.canon} accent={accent} />
-          </ArtAccordion>
+        {hasCanon && (
+          <div ref={canonRef}>
+            <ArtAccordion label={`The full canon — ${mv.canon!.length} works`} accent={accent} open={canonOpen} onOpenChange={setCanonOpen}>
+              <CanonList canon={mv.canon!} accent={accent} />
+            </ArtAccordion>
+          </div>
         )}
       </ArtPageShell>
     </div>
