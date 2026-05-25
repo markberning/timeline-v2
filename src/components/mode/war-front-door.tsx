@@ -119,7 +119,7 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
         <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2, color: 'var(--foreground)' }}>{w.name}</div>
         <div style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 3, letterSpacing: 0.1 }}>{w.vs}</div>
-        <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: isXL ? 3 : (isLG ? 3 : 2), WebkitBoxOrient: 'vertical' }}>{w.hook}</div>
+        <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', textWrap: 'pretty' }}>{w.hook}</div>
         {w.href && (
           <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: bandColor }}>Read →</div>
         )}

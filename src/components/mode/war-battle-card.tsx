@@ -85,7 +85,7 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
             where it sits over the title row rather than the image) */}
         <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 18 : 15), lineHeight: 1.1, letterSpacing: -0.2, paddingRight: !isXL && (soon || ready) ? 48 : undefined }}>{title}</div>
         {sub && <div style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 3, letterSpacing: 0.1 }}>{sub}</div>}
-        {hook && <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: isXL ? 3 : (isLG ? 3 : 2), WebkitBoxOrient: 'vertical' }}>{hook}</div>}
+        {hook && <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? 'var(--foreground)' : 'color-mix(in srgb, var(--foreground) 70%, transparent)', textWrap: 'pretty' }}>{hook}</div>}
       </div>
     </div>
   )

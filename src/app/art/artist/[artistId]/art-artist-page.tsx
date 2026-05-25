@@ -166,7 +166,7 @@ function KeyWorksStrip({ a }: { a: ArtArtistContent }) {
               </div>
               <div style={{ fontFamily: MONO, fontSize: 9.5, letterSpacing: 0.3, color: artAlpha(a.accent, 0.95), fontWeight: 700, textTransform: 'uppercase', marginTop: 4 }}>{w.year}</div>
               <div style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.15, letterSpacing: -0.1, color: INK, fontWeight: 500 }}>{w.name}</div>
-              <div style={{ fontFamily: SERIF, fontSize: 12, lineHeight: 1.4, color: MUTED, textWrap: 'pretty', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{w.hook}</div>
+              <div style={{ fontFamily: SERIF, fontSize: 12, lineHeight: 1.4, color: MUTED, textWrap: 'pretty' }}>{w.hook}</div>
             </>
           )
           const cardStyle: React.CSSProperties = { flexShrink: 0, width: 168, display: 'flex', flexDirection: 'column', gap: 6, color: INK, textAlign: 'left', textDecoration: 'none' }

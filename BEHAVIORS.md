@@ -144,6 +144,26 @@ Three agent passes per new TL:
 - Only exception = a deliberate **portrait diptych** (`heroImages` with 2+ entries) — two works side by side at equal height for a genre/movement. A genuine cropped banner *detail* is a separate, explicit choice, credited "(detail)". Full rule + sourcing in `audits/art-vertical.md` §5b.
 - **Artwork pages have NO hero.** The annotated Canvas viewer is the signature visual for every work; a compact text header (name · artist·year · one-line hook) replaces the banner. The viewer is per-work and every artwork requires `annotations` authored (`{x,y,label}` at % coords).
 
+## Cards (era / movement / work / artist / battle / front-door) — locked 2026-05-25
+The cord/timeline + grid cards across art and war share one ported pattern (an
+image tile + name + meta + blurb). Two rules, both recurring defects:
+- **A card NEVER truncates its body text.** No `-webkit-line-clamp`, no
+  `text-overflow: ellipsis`, no JS substring (`short()`-style) on a card's
+  title/blurb/hook. The card GROWS to fit the full text — `textWrap: 'pretty'`,
+  no `overflow: hidden` clamp. Authors keep blurbs tight (one or two sentences),
+  but the UI must never cut a word. (The single-line ellipsis on *breadcrumb /
+  nav chrome* is a separate, deliberate narrow-screen guard and is allowed.)
+  Known still-clamped spot to revisit if flagged: the dense home-feed tiles
+  (`app-home.tsx` `clampN` + `short()`), kept bounded for the multi-column grid.
+- **A card image FILLS the frame with the artwork.** The image tile is
+  `object-fit: cover` (fills, crops to the frame). The SOURCE must be the artwork
+  itself — trim any scan mount, plate border, paper margin, or engraved caption
+  strip before use, and **self-host the trimmed crop** in `public/art/` when the
+  only available scan carries that chrome (e.g. `salon-1787.jpg`, cropped from the
+  Met's mounted engraving). A documentary print shown as a full in-article figure
+  may keep its caption; a card/fill crop may not. Trim with `sharp` (`.trim()` or
+  an explicit `.extract()`), eyeball the result, then optimize to `public/art/`.
+
 ## Chapter bottom navigation
 - Every expanded chapter: solid accent × close + "Read Next Chapter" button (next chapter title + number). Last chapter: × only.
 

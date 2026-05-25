@@ -45,9 +45,12 @@ export const ART_IMG = {
   manetDejeuner: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg/1280px-Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg',
   courbetStudio: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Courbet_LAtelier_du_peintre.jpg/1280px-Courbet_LAtelier_du_peintre.jpg',
   // The institution the whole era revolts against: the packed floor-to-ceiling
-  // Salon hang (Martini engraving, 1787 — PD worldwide; the hang barely changed
-  // by 1850) and the smooth academic nude it rewarded (Cabanel, 1863).
-  salonHang: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Exposition_au_Salon_du_Louvre_en_1787_MET_MM43349.jpg/1280px-Exposition_au_Salon_du_Louvre_en_1787_MET_MM43349.jpg',
+  // Salon hang (Martini after Ramberg, 1787 — PD worldwide; the hang barely
+  // changed by 1850) and the smooth academic nude it rewarded (Cabanel, 1863).
+  // SELF-HOSTED: the Met scan sits on a dark mount and carries an engraved caption
+  // strip; both were trimmed so the artwork FILLS a card frame (cover-crop) rather
+  // than showing border/caption. Source: commons MM43349, cropped to the scene.
+  salonHang: '/art/salon-1787.jpg',
   cabanelVenus: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg/1280px-Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg',
   seuratGrandeJatte: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/1280px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg',
   gauguinVision: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg/1280px-La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg',

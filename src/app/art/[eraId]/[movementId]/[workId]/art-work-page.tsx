@@ -165,8 +165,7 @@ function WorkSectionsList({ w, base, accent }: { w: ArtWorkContent; base: string
                 <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 0.4, fontWeight: 700, color: artAlpha(accent, 0.95), textTransform: 'uppercase' }}>{s.eyebrow}</span>
                 <div style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.2, letterSpacing: -0.15, color: INK, marginTop: 2, fontWeight: 500 }}>{s.title}</div>
                 <div style={{
-                  marginTop: 4, fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED,
-                  display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden',
+                  marginTop: 4, fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED, textWrap: 'pretty',
                 }}>{s.blurb}</div>
               </div>
               <span style={{ flexShrink: 0, color: artAlpha(accent, 0.7), fontFamily: SANS, fontSize: 13, fontWeight: 600, paddingTop: 14 }} aria-hidden>→</span>

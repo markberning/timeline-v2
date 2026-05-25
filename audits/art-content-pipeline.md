@@ -100,6 +100,17 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    vertical.md §5b`). A figure that can't be verified is swapped for a verified
    on-topic substitute or rendered restricted — NEVER a blind/guessed URL. (This is
    the art analog of the war map-review gate: judged for *correctness*, not just hygiene.)
+   **Card/fill images must fill the frame with the ARTWORK.** A cord/card image is
+   `object-fit: cover` — so the source must be the artwork itself, not a scan that
+   sits on a dark mount, plate border, paper margin, or engraved caption strip.
+   When the only available scan carries that chrome, TRIM it (sharp `.trim()` or an
+   explicit `.extract()`), eyeball the crop, and SELF-HOST it in `public/art/`
+   (e.g. `salon-1787.jpg`, cropped from the Met's mounted engraving) — never ship a
+   bordered/captioned scan as a fill image and hope cover hides it. (A full
+   in-article figure may keep a documentary print's caption; a card crop may not.)
+   **Cards never truncate text** (no line-clamp / ellipsis / `short()` on a card
+   blurb — the card grows; see `BEHAVIORS.md` "Cards"); keep card blurbs tight so a
+   grown card stays compact.
 7. **Nesting / coherence gate** (the multi-level analog of War's continuity sweep +
    civ's Persona E) — because narratives exist at era → movement → work → artist,
    each pair must be (a) **consistent** — a date, attribution or claim must read the

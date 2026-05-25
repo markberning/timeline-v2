@@ -111,7 +111,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
         <div style={{ flex: 1, minWidth: 0, padding: '14px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <div style={{ fontFamily: SERIF, fontSize: 22, lineHeight: 1.08, letterSpacing: -0.3, color: INK }}>{b.name}</div>
           <div style={{ fontFamily: SANS, fontSize: 10.5, color: MUTED, marginTop: 4, letterSpacing: 0.1 }}>{b.place}</div>
-          <div style={{ marginTop: 9, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.45, color: INK, overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 5, WebkitBoxOrient: 'vertical' }}>{b.blurb}</div>
+          <div style={{ marginTop: 9, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.45, color: INK, textWrap: 'pretty' }}>{b.blurb}</div>
           <CardCredit credit={b.credit} />
         </div>
       </div>
@@ -161,10 +161,7 @@ function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
           marginTop: 'auto', paddingTop: 5,
           fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4,
           color: isXL ? INK : MUTED,
-          overflow: 'hidden',
-          display: '-webkit-box',
-          WebkitLineClamp: isXL ? 3 : (isLG ? 3 : 2),
-          WebkitBoxOrient: 'vertical',
+          textWrap: 'pretty',
         }}>{b.blurb}</div>
         <CardCredit credit={b.credit} />
       </div>
