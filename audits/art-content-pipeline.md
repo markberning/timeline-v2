@@ -108,9 +108,12 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    or `.extract()`), eyeball it, and SELF-HOST the crop in `public/art/` (e.g.
    `salon-1787.jpg` from the Met's mounted engraving; `demoiselles.jpg` from the en
    scan's gray top border). A full in-article figure may keep a documentary print's
-   caption; a card may not. **Cards never truncate text** (no line-clamp / ellipsis
-   / `short()` — the card grows; see `BEHAVIORS.md` "Cards"); keep card blurbs tight
-   so a grown card stays compact.
+   caption; a card may not. Width caps: landscape/square ≤ ¾ screen, portrait image
+   ≤ ½ screen; near-square (~1.0–1.15) stays on top. **Cards never truncate text**
+   (no line-clamp / ellipsis / `short()` — the card grows). **The card BLURB is
+   written to FIT** the space the image leaves (the image is fixed/whole; the blurb
+   is the flexible element — a bit longer beside a tall portrait). Full spec in
+   `BEHAVIORS.md` "Cards".
 7. **Nesting / coherence gate** (the multi-level analog of War's continuity sweep +
    civ's Persona E) — because narratives exist at era → movement → work → artist,
    each pair must be (a) **consistent** — a date, attribution or claim must read the

@@ -158,20 +158,32 @@ The rules it bakes in (all of these are recurring defects it exists to prevent):
   `demoiselles.jpg` from the en scan's gray top border).
 - **The image fills 3 sides of the card; text is on the 4th**, by orientation:
   - **landscape / square** → image on TOP, filling top/left/right; text below.
-  - **portrait** → image on the LEFT, filling top/left/bottom; text on the right.
-    The image height drives the card height, so it's flush with no gap.
-  Orientation is **auto-detected** from the loaded image (`naturalHeight >
-  naturalWidth`); an optional `portrait` hint avoids the load-time reflow. The
-  author just supplies an image — no per-card tagging or sizing.
-- **The card is capped per size and its HEIGHT grows to fit** — it never stretches
-  full-width across the screen. Landscape and portrait images are normalized so
-  they read at roughly the same size.
+  - **portrait** (clearly tall) → image on the LEFT, filling top/left; text on the
+    right gets the rest, so the text column stays roomy.
+  Orientation is **auto-detected** from the loaded image — portrait only when
+  `naturalHeight > naturalWidth × PORTRAIT_RATIO` (≈1.18), so **near-square works
+  (~1.0–1.15) stay on TOP** (a near-square left image would starve the text). An
+  optional `portrait` hint avoids the load-time reflow; the author just supplies an
+  image — no per-card tagging or sizing.
+- **Screen-relative width caps (user rule):** a landscape/square card is never wider
+  than **¾ of the screen** (`75vw`); a portrait **image** is never wider than **½
+  the screen** (`50vw`). Per-size px values are the wide-screen target; the vw caps
+  win on phones. The card **grows in height** to fit; it never stretches full-width.
+- **Blurbs are written to FIT** (authoring rule). The image is the fixed element
+  (shown whole, sized by the width caps); the **blurb is the flexible element** — the
+  author writes it to fill the space the image leaves (a bit longer for a tall
+  portrait so the text runs down beside it; freer below a landscape). Card size is
+  responsive, so "fit" targets the primary phone layout; the CSS is the safety net
+  (card always grows, never crops or clips), so an imperfect fit is never broken.
 - **A card NEVER truncates text.** No `-webkit-line-clamp`, no `text-overflow:
   ellipsis`, no JS substring (`short()`-style) on a title/blurb. `textWrap:
-  'pretty'`; the card grows. Authors keep blurbs tight, but the UI never cuts a
-  word. (Single-line ellipsis on *breadcrumb / nav chrome* is a separate,
-  deliberate narrow-screen guard and is allowed.)
-- **Title** is a semibold serif headline; the sub line is a small uppercase label.
+  'pretty'`; the card grows. (Single-line ellipsis on *breadcrumb / nav chrome* is a
+  separate, deliberate narrow-screen guard and is allowed.)
+- **Text is TOP-aligned** in every card (title at the top, flowing down) — not
+  vertically centered — so all cards read consistently.
+- **Text sizes are MATCHED across all cards** regardless of size variant: title
+  18px semibold serif, blurb 13.5px serif, sub a 10px uppercase label, credit 9.5px.
+  Only the image size (and the XL flagship's accent ring) varies between cards.
 
 **War cards** (`war-battle-card.tsx`, `war-front-door.tsx`) keep their own design —
 the "escalating spine" where card height encodes the war's size, plus gradient

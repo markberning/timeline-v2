@@ -70,11 +70,12 @@ documented fact from charming legend**, and to frame a load-bearing legend as le
    (composition + recording) are cleared, or it's a degraded reference card; the
    caption/credit matches the actual track (right artist, title, year, label). A
    media item that can't be verified is swapped for a verified on-topic substitute
-   or rendered as a reference card — never a blind/guessed embed. **Card images
-   (album/cover art, portraits) fill the frame with the artwork** — trim any
-   border/letterbox and self-host the crop if the source carries chrome; and
-   **cards never truncate text** (no line-clamp/ellipsis on a card blurb — the card
-   grows). Same rules as art; see `BEHAVIORS.md` "Cards".
+   or rendered as a reference card — never a blind/guessed embed. **Card images use
+   the shared `OrientationCard`** (`src/components/mode/orientation-card.tsx`): image
+   shown WHOLE (never cropped; trim true borders + self-host), fills 3 sides
+   (landscape on top, portrait on left), width caps ¾ / ½ screen, card grows, never
+   truncates text, blurb written to FIT. Same rules as art; full spec in
+   `BEHAVIORS.md` "Cards".
 7. **Nesting / coherence gate** — across era → genre → work → artist, each pair is
    (a) consistent (a date/credit reads the same at every altitude) and
    (b) differentiated (a lower level goes DEEPER, never copy-pastes the level above).

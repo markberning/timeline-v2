@@ -26,9 +26,21 @@ const BORDER = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
 const CARD_BG = 'color-mix(in srgb, var(--foreground) 4%, transparent)'
 const IMG_FILTER = 'sepia(0.14) saturate(0.88) contrast(1.04)'
 
-const CARD_W: Record<OCardSize, number> = { s: 232, m: 272, l: 312, xl: 360 }
-const P_IMG_H: Record<OCardSize, number> = { s: 175, m: 215, l: 250, xl: 320 }
-const BODY_FS: Record<OCardSize, number> = { s: 12.5, m: 13, l: 13.5, xl: 14.5 }
+const CARD_W: Record<OCardSize, number> = { s: 232, m: 272, l: 312, xl: 312 }
+// Only a clearly TALL image uses the left (portrait) layout; near-square images
+// (e.g. ~1.08) stay on top so the text column isn't starved.
+const PORTRAIT_RATIO = 1.18
+// Top-layout images may be a little taller than the card is wide (so a mildly
+// tall work still fills the width instead of letterboxing); genuinely tall works
+// cross PORTRAIT_RATIO and go to the left layout instead.
+const LS_MAX_H_MULT = 1.25
+// Screen-relative width caps (user rule, 2026-05-25): a landscape/square card is
+// never wider than 3/4 of the screen; a portrait IMAGE is never wider than 1/2 the
+// screen (so the text column beside it stays roomy). The per-size px values are the
+// target on wide screens; the vw caps win on phones.
+const LS_MAX_VW = '75vw'
+const P_IMG_MAX_VW = '50vw'
+const P_IMG_W: Record<OCardSize, number> = { s: 150, m: 185, l: 210, xl: 225 }
 
 function hexAlpha(hex: string, a: number): string {
   const h = hex.replace('#', '')
@@ -64,7 +76,7 @@ export function OrientationCard({
   const onImgLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
     if (portrait === undefined) {
       const im = e.currentTarget
-      setOrient(im.naturalHeight > im.naturalWidth * 1.08 ? 'p' : 'ls')
+      setOrient(im.naturalHeight > im.naturalWidth * PORTRAIT_RATIO ? 'p' : 'ls')
     }
   }
 
@@ -77,16 +89,16 @@ export function OrientationCard({
     overflow: 'hidden',
     display: 'flex',
     flexDirection: portraitLayout ? 'row' : 'column',
-    width: cardW,
+    width: `min(${cardW}px, ${LS_MAX_VW})`,
     maxWidth: '100%',
     opacity: dim ? 0.74 : 1,
   }
 
   const textBlock = (
-    <div style={{ flex: portraitLayout ? 1 : undefined, minWidth: 0, padding: isXL ? '13px 16px 15px' : (isLG ? '12px 15px 14px' : '10px 13px 12px'), display: 'flex', flexDirection: 'column', justifyContent: portraitLayout ? 'center' : 'flex-start' }}>
-      <div style={{ fontFamily: SERIF, fontSize: isXL ? 22 : (isLG ? 19 : 17), fontWeight: 600, lineHeight: 1.1, letterSpacing: -0.3, color: INK }}>{title}</div>
+    <div style={{ flex: portraitLayout ? 1 : undefined, minWidth: 0, padding: isXL ? '13px 16px 15px' : (isLG ? '12px 15px 14px' : '10px 13px 12px'), display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+      <div style={{ fontFamily: SERIF, fontSize: 18, fontWeight: 600, lineHeight: 1.12, letterSpacing: -0.3, color: INK }}>{title}</div>
       {sub != null && <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: 0.6, textTransform: 'uppercase', color: MUTED, marginTop: 4 }}>{sub}</div>}
-      {body != null && <div style={{ marginTop: 7, fontFamily: SERIF, fontSize: BODY_FS[size], lineHeight: 1.42, color: INK, textWrap: 'pretty' }}>{body}</div>}
+      {body != null && <div style={{ marginTop: 7, fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.42, color: INK, textWrap: 'pretty' }}>{body}</div>}
       {credit != null && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 400, lineHeight: 1.35, letterSpacing: 0.2, color: MUTED }}>{credit}</div>}
       {footer != null && <div style={{ marginTop: 8 }}>{footer}</div>}
     </div>
@@ -98,11 +110,14 @@ export function OrientationCard({
   )
 
   if (portraitLayout) {
+    // Portrait: image on the LEFT at its natural aspect, capped at HALF the screen
+    // width (P images are never more than 1/2 screen), shown whole — text on the
+    // right gets the rest, so it stays roomy. The card sizes to its content.
     return (
-      <div style={{ ...outer, width: 'fit-content', maxWidth: `min(100%, ${cardW + 72}px)` }}>
+      <div style={{ ...outer, width: 'fit-content', maxWidth: `min(94vw, ${cardW + 150}px)`, alignItems: 'stretch' }}>
         {badge}
-        <div style={{ position: 'relative', flexShrink: 0, lineHeight: 0 }}>
-          {imgEl({ height: P_IMG_H[size], width: 'auto' })}
+        <div style={{ position: 'relative', flexShrink: 0, lineHeight: 0, overflow: 'hidden' }}>
+          {imgEl({ width: `min(${P_IMG_W[size]}px, ${P_IMG_MAX_VW})`, height: 'auto', alignSelf: 'flex-start' })}
           {imageOverlay}
         </div>
         {textBlock}
@@ -114,8 +129,8 @@ export function OrientationCard({
     <div style={outer}>
       {badge}
       {hasImg && (
-        <div style={{ position: 'relative', width: '100%', maxHeight: cardW, overflow: 'hidden', background: CARD_BG, lineHeight: 0 }}>
-          {imgEl({ width: '100%', height: 'auto', maxHeight: cardW, objectFit: 'contain' })}
+        <div style={{ position: 'relative', width: '100%', maxHeight: cardW * LS_MAX_H_MULT, overflow: 'hidden', background: CARD_BG, lineHeight: 0 }}>
+          {imgEl({ width: '100%', height: 'auto', maxHeight: cardW * LS_MAX_H_MULT, objectFit: 'contain' })}
           {imageOverlay}
         </div>
       )}
