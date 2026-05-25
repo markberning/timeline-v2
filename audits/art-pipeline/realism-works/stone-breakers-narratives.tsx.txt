@@ -1,0 +1,188 @@
+// ─────────────────────────────────────────────────────────────
+// The Stone Breakers (Courbet, 1849) — the five chapters
+// Drafted by the AUTHOR agent in the gated art pipeline. Same JSX
+// pattern as the BuTown…BuAfterlife functions in art-section-reader.tsx
+// (helpers SectionHeader / DropCap; styles proseStyle / italicStyle;
+// <strong> / <em>; <article style={{ padding: '18px 18px 40px' }}>;
+// `first` + <DropCap> on the opener). NO inline figures — the work
+// page already shows the hero painting (zoomable) + the Look-closer
+// pointers, exactly like the Burial. Section ids: road / looking /
+// salon / meaning / afterlife (match STONE_BREAKERS.sections[].id).
+// ─────────────────────────────────────────────────────────────
+
+function SbRoad({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Near Maisières · 1849" title="Two men on a road" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne day in the autumn of 1849, a young painter was riding his carriage out of the French countryside to go paint a landscape, and he stopped to watch two strangers break rocks by the side of the road. That is the whole origin of one of the most important paintings of the nineteenth century: a man pulled over to look at the dullest, hardest, most invisible work there is — smashing stone into gravel so that other people can have a road — and decided it was worth a canvas eight and a half feet wide.
+      </p>
+      <p style={proseStyle}>
+        The painter was <strong>Gustave Courbet</strong> (1819–1877), the loud, supremely self-certain man who would become the public face of <strong>Realism</strong> — the new movement that insisted ordinary, contemporary, unglamorous life was a fit subject for serious art, painted plain, with none of the official art world's polish (his fuller story, and the movement's, are told one level up in this app, in the Realism overview). He grew up in <strong>Ornans</strong>, a small town in eastern France, and that autumn he was near a village called <strong>Maisières</strong>, on his way to paint a château, when the two stone breakers caught his eye. He was not working alone, either: behind him stood a whole Ornans-and-Paris Realist circle — the critic <strong>Champfleury</strong>, who would give the movement the name "Realism," and Courbet's boyhood friend the poet <strong>Max Buchon</strong>, who was among the first to champion these very pictures and describe them in print (the Realism overview carries that circle in full).
+      </p>
+
+      <SectionHeader accent={accent} label="The letter" title="“The most complete expression of poverty”" />
+      <p style={proseStyle}>
+        We know how it happened because Courbet wrote it down. In a letter that November to his friend, the historian <strong>Francis Wey</strong>, he described the scene almost like a hunter describing game: he had stopped to consider two men breaking stones on the road, and, by his own account, one rarely sees "the most complete expression of poverty" so perfectly arranged — so, right there on the spot, he got the idea for a painting, and arranged for the two men to come to his studio the next morning to pose. He did not sketch them and invent the rest. He brought the actual road laborers indoors and painted <em>them</em>.
+      </p>
+      <p style={proseStyle}>
+        Hold onto how he framed it, because it matters for everything the painting was later accused of. Courbet did not say "I have found a symbol of the suffering working class." He said, in effect, <em>I have seen them.</em> The starting point was not a political idea looking for a picture; it was a real sight — two specific men, by a specific road — that he found so stark he couldn't drive past it. The politics arrived later, supplied by other people. The painting began as a stop on a country road.
+      </p>
+
+      <SectionHeader accent={accent} label="The decision" title="Paint them at the size of gods" />
+      <p style={proseStyle}>
+        To feel how strange Courbet's next move was, you have to know the rule he was about to break. European painting ran on a ranking system called the <strong>hierarchy of genres</strong> — an official ladder that sorted subjects by importance (the Realism overview lays it out in full). At the very top sat grand scenes from myth, scripture, and ancient legend: <strong>history painting</strong>, the prestige category, where "history" meant gods and heroes and saints, not last week's news. At the very bottom sat plain modern life. And the unspoken law was about <em>size</em>: a big canvas was a promise that the thing on it mattered enormously, and big canvases were reserved for the top of the ladder. You were allowed to paint a peasant. You were not allowed to paint a peasant at the scale of a god.
+      </p>
+      <p style={proseStyle}>
+        Courbet painted his two stone breakers <strong>life-size</strong> — at, or close to, the height of real people — on a canvas roughly <strong>5 feet 5 inches tall and 8 feet 5 inches wide</strong> (about 165 by 257 centimeters). Stand where it once hung and the laborers would be your own size, breaking rock at your eye level. That is not the scale of a quaint little scene of rustic life, the sort of small, charming "look at the simple poor folk" picture a Salon could happily ignore. That is the scale of an altarpiece. Courbet took the two least important men he could find and gave them the room the academy kept for the death of heroes.
+      </p>
+      <p style={proseStyle}>
+        It is worth being clear about why <em>size</em> was such a loaded weapon, because to a modern eye, where every photo on a phone is the same size, the whole fuss can seem strange. In Courbet's world, a picture's dimensions were a price tag on its importance — the bigger the canvas, the more the subject was officially declared to matter. A tiny picture of a peasant was a fine, harmless thing, the visual equivalent of a polite little anecdote. The same peasant rendered as tall as a real man, on a wall of canvas, was a public declaration that this person was as worth your serious attention as any saint or general. Courbet understood the grammar exactly, and he used it like a megaphone. The next chapter is what came out of it, inch by inch — which is the only way to read this picture, because the whole argument is in the looking.
+      </p>
+    </article>
+  )
+}
+
+function SbLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A boy, an old man, and a road" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore anything else, a warning about color, because it changes how you should look. <em>The Stone Breakers</em> no longer exists — the original was lost at the end of the Second World War (Chapter 5) — and every image of it you can find, including the one on this page, is a reproduction of a reproduction. The version we show is nearly <strong>gray</strong>, drained of color, almost a black-and-white photograph. That muted, ashen look is <em>not</em> what Courbet painted; it is the fingerprint of a lost picture, a record made from poor copies. So as you look, read the shapes, the poses, the gestures, the rags — and take the grayness as the sound of an absence, not as the artist's palette.
+      </p>
+      <p style={proseStyle}>
+        With that said: there are two figures, and almost nothing else. No crowd, no drama, no story unfolding. Just two men, a heap of broken stone, a few tools, and a steep bank of earth rising behind them. The composition is brutally simple, and every element earns its place.
+      </p>
+
+      <SectionHeader accent={accent} label="The boy" title="The one who carries" />
+      <p style={proseStyle}>
+        On the <strong>left</strong> stands a <strong>young man</strong> — really a boy, too young for this kind of work — straining to lift a heavy basket of broken stone. His whole body is wrenched by the load: knees bent, back twisted, every line of him fighting the weight. And here is the first thing to notice, because it governs the entire painting: <em>you never see his face.</em> He is turned away from you, so that you get his back, the nape of his neck, the strain in his shoulders — and nothing of his expression at all.
+      </p>
+      <p style={proseStyle}>
+        Look at what he is wearing. His white shirt has torn open across the shoulder blade, gaping at the seam. A leather strap crosses his back to hold up trousers that are themselves falling apart, and his shoes are coming off his feet, mismatched and split. Courbet paints the poverty with the patience of an inventory clerk: not "a ragged boy" in general, but <em>this</em> rip, <em>this</em> strap, <em>this</em> hole. The detail is the dignity. He treats the boy's broken clothes with exactly the care a court painter would lavish on a duke's lace.
+      </p>
+
+      <SectionHeader accent={accent} label="The old man" title="The one who breaks" />
+      <p style={proseStyle}>
+        On the <strong>right</strong>, the boy's partner kneels on one knee on a little pad of straw, a long-handled hammer raised over his shoulder, caught at the very top of its arc, an instant before it comes down on the stone. Courbet said in his letter that the man was about <strong>seventy</strong>. And now the pairing does its quiet, devastating work: on one side a child too young for this labor, on the other an old man too old for it, and <em>nothing in between.</em> There is no figure in the prime of life here, no strong young worker in his element. There is only the beginning of a hard life and the end of one — the same crushing job at both ends of a human existence, as if to say: this is what the road costs, from childhood to the grave, and it never lets up.
+      </p>
+      <p style={proseStyle}>
+        Like the boy, the old man has no visible face. His head is bent to his work and shaded under the brim of a battered <strong>straw hat</strong>, so the brim does to him what the turned back does to the boy: it hides him. His trousers are patched and re-patched; on his feet are wooden <strong>sabots</strong> (the heavy clogs French peasants wore) so cracked you can nearly see the heel through them. He is rendered with the same forensic attention to ruin — a striped waistcoat, a coarse shirt, the works.
+      </p>
+
+      <SectionHeader accent={accent} label="The faces" title="The decision that runs the picture" />
+      <p style={proseStyle}>
+        Put the two together and you arrive at the single most important choice Courbet made: <strong>neither man has a face you can see.</strong> One turns his back; the other's is lost under a hat. This was not laziness or accident — it scandalized people at the time precisely because it was so deliberate. A contemporary critic, irritated, complained that Courbet had "suppressed the two heads," noting that the standing worker shows only the back of his neck and the kneeling one has hidden his head under his straw hat. He was right, and he had missed why.
+      </p>
+      <p style={proseStyle}>
+        Think about what a visible face does. A face — especially a tired, pleading, soulful one — turns a laborer into a <em>character</em>, someone you can pity, an individual whose particular sad story you're invited to feel for. That is the whole engine of sentimental art: give the poor a noble, suffering face and let the comfortable viewer feel a warm, safe pang of sympathy. Courbet slams that door. By hiding both faces he refuses you the easy emotion. You don't get to know these men or feel sorry for them as individuals. You get only the bodies, the effort, the rags, and the work — which is far harder to feel sentimental about, and far harder to look away from. The painting doesn't ask for your pity. It just shows you the labor and dares you to keep watching.
+      </p>
+
+      <SectionHeader accent={accent} label="The setting" title="Tools, a pot, and a wall of earth" />
+      <p style={proseStyle}>
+        Around the two men, Courbet scatters the gear of the job — a pick, a basket, heaps of broken rock — with no arrangement, no grace, just the litter of actual work. Off at the far right, easy to miss, sits a small dark <strong>cooking pot</strong> with a scrap of bread beside it, presumably the men's lunch, set down in the dirt. It is the only soft, domestic note in the whole picture, and it is shoved to the very margin, almost out of frame, as if even eating is an afterthought to the rock.
+      </p>
+      <p style={proseStyle}>
+        And behind everything: a <strong>wall</strong>. There is almost no sky. A steep, dark bank of earth rises across nearly the entire top of the canvas, leaving only a thin wedge of pale light in the upper-right corner. That bank does something specific and airless — it presses the two figures forward, packing them flat against the front of the picture with nowhere to recede into. A normal landscape opens a window: a horizon, distance, sky, somewhere for the eye to escape. Courbet gives his laborers no window. They are pinned between the stone they break in front and the bank of earth that shuts the door behind. There is no exit in this picture, which is rather the point of the lives it shows.
+      </p>
+    </article>
+  )
+}
+
+function SbSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–51" title="The painting did not arrive alone" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>{' '}
+        painting this size is built for one destination: the <strong>Salon</strong> — the official annual State exhibition, the single show in France where an artistic career was made or buried (the academy ran it; you meet it properly in the Realism overview). In the <strong>Salon of 1850–1851</strong> (the show ran across that winter), Courbet hauled his eight-and-a-half feet of road laborers into the official halls and hung them up among the gods, the goddesses, and the Roman senators that the State liked to look at.
+      </p>
+      <p style={proseStyle}>
+        But <em>The Stone Breakers</em> did not arrive alone, and that is the key to its impact. In the very same Salon, Courbet also hung <strong>A Burial at Ornans</strong> — an even more enormous canvas, ten feet tall and twenty-two wide, showing a whole village funeral at the scale Europe reserved for the death of kings (it has its own deep read in this app, the twin to this one). Visitors met the two pictures as a single coordinated assault: the same radical program — heroic scale, common people, zero idealization — delivered twice in the same hall, by the same provincial troublemaker, in one season. One picture might be a curiosity. Two, hung together, deliberately, is a manifesto.
+      </p>
+
+      <SectionHeader accent={accent} label="The pairing" title="Why two pictures hit harder than one" />
+      <p style={proseStyle}>
+        It is worth pausing on how cleverly the pair worked, because between them they covered the whole ground. <em>A Burial at Ornans</em> took the great public ceremony — death, the church, the community gathered — and filled it with plain, unflattering, real townsfolk at monstrous scale. <em>The Stone Breakers</em> took the opposite pole: not a ceremony but pure, dull, private labor, with no event at all, just two anonymous men doing the most thankless work there is. Together they said the same thing from two directions: <strong>the ordinary, contemporary world — its funerals and its road work, its mourners and its laborers — deserves the size and seriousness art had always saved for myth.</strong> Wherever a 1851 visitor turned in that room, Courbet had a giant canvas waiting to make the argument again.
+      </p>
+      <p style={proseStyle}>
+        And the room reacted. The press did to <em>The Stone Breakers</em> what frightened, mocking critics always do — it went after the small, undeniable detail. Caricaturists seized on the old man's wooden clogs and drew them comically, grotesquely huge, the sabots swelling to the size of boats. That sounds like a trivial joke, but it is a tell. You exaggerate the clogs when you can't quite say out loud what really bothers you: that a painter has taken the kind of poverty you normally step around on the street and made it eight feet wide and dead serious, and hung it where you came to admire beauty.
+      </p>
+
+      <SectionHeader accent={accent} label="The deeper offense" title="Bottom of the ladder, bolted to the top" />
+      <p style={proseStyle}>
+        The mockery covered a real alarm, and it is the same alarm the Burial set off, so the Realism overview and the Burial read both tell it in full; here it is enough to name the mechanism. The hierarchy of genres reserved big, serious canvases for the top of the ladder — gods, kings, the great deaths and deeds. To spend that scale and that seriousness on two nameless road workers was, in the academy's grammar, a category error so loud it sounded like a threat. Courbet had taken the bottom rung of the ladder and bolted it to the top, and everyone who understood the ladder understood the violence of the swap. The painting was not just ugly to them. It was an argument that the whole ranking was a lie — and it was making that argument inside the State's own building, in the one room where French art came to be told what mattered.
+      </p>
+      <p style={proseStyle}>
+        The timing sharpened every nerve. The Salon of 1850–51 opened only two years after <strong>1848</strong> — the revolution that toppled the king and, for a few raw months, put the ordinary working people of France at the very center of their own history before the army shut the experiment down (the Realism overview tells that year in full). The barricades were a fresh, frightening memory, and the propertied classes who strolled the Salon were exactly the people who had been scared by them. So when a painter hung two giant, unsmiling laborers in the official halls — laborers given the dignity and scale of heroes, in the same year the memory of armed workers was still raw — it landed as more than a question of taste. To a nervous viewer in 1851, those two anonymous men with their hammers were not just ugly. They were, faintly, a threat. Courbet always denied he meant them that way. We will get to whether anyone believed him.
+      </p>
+    </article>
+  )
+}
+
+function SbMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The reading" title="“The first socialist painting”" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he label that has stuck to this picture for a century and a half is "the first socialist painting." It is a tidy phrase, and like most tidy phrases about art, it needs unpacking before you believe it — because it describes a <em>reading</em> of the painting, not a fact about it, and it came mostly from one very particular reader.
+      </p>
+      <p style={proseStyle}>
+        That reader was <strong>Pierre-Joseph Proudhon</strong> (1809–1865), and he is worth a sentence of his own. Proudhon was, in his day, France's most famous radical thinker — the man who answered his own question "What is property?" with the line "property is theft," and the first writer to call himself an <strong>anarchist</strong> (someone who believes society should run without rulers or the state). He was also, conveniently, an Ornans man and Courbet's friend. When Proudhon looked at <em>The Stone Breakers</em>, he did not see two men by a road. He saw the entire situation of the laboring poor — a society that uses people up between childhood and old age and then discards them — and he read the picture as social truth-telling, a condemnation in paint of a world that let this happen. The young worker, Proudhon wrote, stood for the whole proletariat (the class of people who own nothing and live by selling their labor). To him, the painting was a masterpiece because it was an <em>argument</em>.
+      </p>
+
+      <SectionHeader accent={accent} label="The painter's version" title="“I have seen them”" />
+      <p style={proseStyle}>
+        Here is the catch, and it is a good one: <strong>Courbet didn't say any of that.</strong> Go back to his own letter, the one from Chapter 1. He didn't write that he had found a symbol of class oppression; he wrote that he had stopped his carriage near Maisières, seen two real men breaking stones, been struck by the sheer completeness of their poverty, and asked them to come pose. By his own framing, he painted what he <em>saw</em>, not what he <em>believed</em>. The politics, the manifesto, the "socialism" — that was the meaning his friends and critics poured into the picture afterward. Proudhon supplied the theory. Courbet supplied the two men.
+      </p>
+      <p style={proseStyle}>
+        Both things can be true at once, and the honest version holds them together rather than picking one. A painter can sincerely set out to record a sight and still choose that sight, and paint it eight feet wide, and hang it in the State's exhibition next to a village funeral — and those choices carry a politics whether the painter signs a manifesto or not. Courbet was no innocent: he was a man of the left, painting laborers at heroic scale two years after a revolution. But the picture is more powerful, not less, for refusing to <em>announce</em> its meaning. It doesn't lecture. It just puts two ruined men in front of you, at your own height, and lets the size do the arguing.
+      </p>
+
+      <SectionHeader accent={accent} label="Dignity, not pity" title="Why the hidden faces are the whole point" />
+      <p style={proseStyle}>
+        This is where the looking from Chapter 2 pays off. Recall the one decision that runs the whole canvas: you never see either face. That choice is exactly what separates this painting from propaganda, and it is what lets it carry weight a poster never could.
+      </p>
+      <p style={proseStyle}>
+        A piece of pure political art — then or now — would give the laborers <em>faces</em>: noble, suffering, soulful faces lifted toward the light, the better to wring sympathy out of you. That is the art of pity, and pity is a comfortable feeling. You feel the warm pang, you feel like a good person, and nothing in your world has to change. Courbet refuses to play that game. By hiding both faces, he denies you the pity entirely. You can't bond with these men, can't read their feelings, can't reduce them to a sad story. And history kept the door shut the rest of the way: the two laborers were real men Courbet met by the road near Maisières, but their names were never written down, so we will never know who they were — the painting that gave them the scale of heroes preserves everything about them except the one thing pity wants, their identity. What is left is harder and stranger: their <em>bodies</em>, their <em>effort</em>, their <em>work</em>, given the full monumental seriousness of history painting. Not "feel sorry for the poor," but "look at this, and reckon with it." That is dignity instead of pity — and it is the reason a quiet picture of two men breaking rocks still feels, more than a century and a half later, less like a charity appeal and more like a fact you have to answer for.
+      </p>
+    </article>
+  )
+}
+
+function SbAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Dresden · before the war" title="The painting that ended up in Germany" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>E</DropCap>
+        very other deep read in this app ends with the painting hanging safely in a museum, where you can go stand in front of it. This one cannot, and that is its strange, sad distinction: <em>The Stone Breakers</em> is the famous picture you will never see, because it no longer exists. To understand why we can still talk about it at all, you have to follow it from a French road to a German city to the worst night of a long war.
+      </p>
+      <p style={proseStyle}>
+        After it left Courbet's hands, the canvas eventually made its way into German collections and came to rest at the <strong>Gemäldegalerie in Dresden</strong> — the great picture gallery of that city, one of the major museums of Europe. For decades that is where <em>The Stone Breakers</em> lived: a French painting of two French laborers, hanging as a treasure in a German museum, admired and reproduced and studied. If the twentieth century had gone differently, it would be hanging there still, and this chapter would be about which wall.
+      </p>
+
+      <SectionHeader accent={accent} label="February 1945" title="Lost in the last months of the war" />
+      <p style={proseStyle}>
+        In February 1945, in the final months of the Second World War, the painting was lost — and here we have to be careful, because the exact circumstances are genuinely uncertain, and it would be easy to tell a cleaner story than the evidence supports. The <strong>standard account</strong> is this: as Allied bombers closed in on Dresden, the museum tried to save its treasures by moving them out of the city toward the <strong>Königstein Fortress</strong> nearby, and the transport carrying <em>The Stone Breakers</em> — along with more than 150 other pictures — was caught in a bombing raid and destroyed. The famous firebombing of Dresden, one of the most destructive air raids of the entire war, happened that same week, which is why the painting's loss is so often folded into that catastrophe.
+      </p>
+      <p style={proseStyle}>
+        But not everyone accepts that version. At least one scholar (Richard Raskin, writing in 1988) has argued that the painting was <em>not</em> on the doomed transport at all — that it had already gone <strong>missing in 1944</strong>, after being moved out of the gallery, and was simply never seen again. Today the museum's own records do not say "destroyed by bombing." They say, more cautiously, <strong>"missing."</strong> The truth is probably that no one knows for certain whether <em>The Stone Breakers</em> burned in a convoy, vanished in the chaos, or met some other end. What is not in doubt is the result: the original canvas is gone, presumed destroyed, and it is not coming back.
+      </p>
+
+      <SectionHeader accent={accent} label="Only a photograph" title="Reading a work that no longer exists" />
+      <p style={proseStyle}>
+        So what is left? Reproductions. Photographs and printed copies made while the painting still hung in Dresden — and that is the entire reason the image on this page looks the way it does. Remember the warning from Chapter 2: it is nearly <strong>gray</strong>, drained and ashen, almost a black-and-white photo. That is not how Courbet painted it. The grayness is the trace of the loss itself — a once-living picture surviving only as a faded copy of a copy, with much of its color gone the way the canvas went. When you look at the muted image here, you are not looking at the painting. You are looking at the <em>memory</em> of the painting, which is a different and stranger thing to stand in front of.
+      </p>
+      <p style={proseStyle}>
+        There is one small consolation. Courbet had also painted a <strong>second, smaller version</strong> — a reversed, mirror-image copy, darker and only about a third the size — and that one survives, in the Oskar Reinhart Collection in Winterthur, Switzerland. It is not the great canvas that detonated the Salon of 1851; it is a quieter echo of it. But it means the composition itself was not entirely lost when the original was.
+      </p>
+      <p style={proseStyle}>
+        And here is the final twist, the one worth sitting with. <em>The Stone Breakers</em> is routinely called one of the founding pictures of modern art — the painting where serious art turned to face the ordinary working world without flinching, the twin that helped Realism walk through the front door of the Salon and bolt the bottom of the ladder to the top. It changed what painting was allowed to be about. And it did all of that, and goes on doing it in every art-history class in the world, as a <em>ghost</em> — a work so influential it shaped a century, and so lost that no living person has ever seen its true colors. The two anonymous men Courbet pulled over to watch on a country road have outlasted the canvas they were painted on. That is a strange kind of immortality, and it is exactly the kind Courbet's whole career was an argument for: that the most ordinary lives, looked at hard enough, are the ones that last.
+      </p>
+    </article>
+  )
+}

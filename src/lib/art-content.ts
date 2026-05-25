@@ -1403,7 +1403,7 @@ export const BURIAL: ArtWorkContent = {
   location: 'Musée d’Orsay, Paris',
   acquired: 'Given by Juliette Courbet, 1881',
   accent: ART_ACCENTS.amber,
-  chain: { name: 'Works of Realism', index: 1, total: 9 },
+  chain: { name: 'Works of Realism', index: 3, total: 9 },
   hook: 'A whole village funeral, painted ten feet tall — the scale the Salon kept for the death of kings.',
   heroImage: ART_IMG.courbetBurial,
   heroCredit: 'Courbet, A Burial at Ornans, 1849–50 · Musée d’Orsay, Paris',
@@ -1450,7 +1450,304 @@ export const BURIAL: ArtWorkContent = {
   },
 }
 
+// ─────────────────────────────────────────────────────────────────────────
+// The Stone Breakers (Courbet, 1849) — ArtWorkContent
+// Drafted by the AUTHOR agent in the gated art pipeline. Same field shape as
+// BURIAL (src/lib/art-content.ts ~1390). To be integrated by the coordinator
+// into art-content.ts after the critic gates pass. Section ids match the
+// Sb… JSX functions in stone-breakers-narratives.tsx.
+// ─────────────────────────────────────────────────────────────────────────
+
+export const STONE_BREAKERS: ArtWorkContent = {
+  id: 'stone-breakers',
+  name: 'The Stone Breakers',
+  shortName: 'The Stone Breakers',
+  year: 1849,
+  artist: 'Gustave Courbet',
+  artistId: 'courbet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '5 ft 5 in × 8 ft 5 in',
+  location: 'Destroyed 1945 — formerly Gemäldegalerie, Dresden',
+  acquired: 'Lost in WWII, February 1945 (museum status: missing, presumed destroyed)',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 2, total: 9 },
+  hook: 'Two road laborers breaking rock, life-size and dead serious — the scale the Salon kept for gods, spent on men with holes in their shoes. The original is gone; only reproductions survive.',
+  heroImage: ART_IMG.courbetStoneBreakers,
+  heroCredit: 'Courbet, The Stone Breakers, 1849 · destroyed 1945, formerly Gemäldegalerie, Dresden',
+  heroAspect: 1.56, // 257 × 165 cm → W/H ≈ 1.558
+  heroFit: 'contain', // the work hero shows the WHOLE canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1849', k: 'Painted' },
+    { v: '5′5″ × 8′5″', k: 'Dimensions' },
+    { v: 'Destroyed 1945', k: 'Now' },
+  ],
+  sections: [
+    { id: 'road', eyebrow: 'Near Maisières · 1849', dateLabel: '1849', title: 'Two men on a road', blurb: 'Courbet stops his carriage to watch two laborers break stones, sees “the most complete expression of poverty,” and asks them to his studio the next morning — to paint them life-size.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1849', title: 'A boy, an old man, and two hidden faces', blurb: 'The straining youth with the basket, the kneeling old man with the hammer, the patched clothes and cracked clogs — and the one decision that runs the whole picture: you never see either face.', progress: 0.32 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The Burial’s twin', blurb: 'Hung in the same Salon as A Burial at Ornans — two monumental Courbets, one program, delivered as a single coordinated assault on what serious painting was allowed to be about.', progress: 0.56 },
+    { id: 'meaning', eyebrow: 'Dignity vs pity', dateLabel: '1850s–1865', title: '“The first socialist painting”?', blurb: 'Proudhon read it as a manifesto for the laboring poor; Courbet swore he’d simply painted what he saw. Why the refusal of pity is exactly what gives the two men their weight.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1945–today', title: 'A painting that only survives as a photograph', blurb: 'Dresden, the last months of the war, and a masterpiece lost — the museum lists it as “missing.” Why the image you can see is gray, and what it means to read a work that no longer exists.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1849–1850s', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted in 1849 after meeting two stone breakers on the road near Maisières; shown at the Salon of 1850–51 alongside A Burial at Ornans.', price: null },
+    { year: '19th–20th c.', who: 'Private hands → German collections', place: 'France → Germany', note: 'The canvas passed out of Courbet’s hands and eventually into German collections, entering the Dresden picture gallery.', price: null },
+    { year: 'by the 20th c.–1945', who: 'Gemäldegalerie, Dresden', place: 'Dresden', note: 'Held by the Dresden state picture gallery — one of the great public homes for the painting before the war.', price: null, museum: true },
+    { year: 'February 1945', who: 'Lost in WWII', place: 'near Dresden', note: 'Lost in the last months of the war. By the standard account it was on a transport moving pictures toward Königstein Fortress when the convoy was bombed, destroyed with more than 150 other pictures; one scholar (Raskin, 1988) argues it had already gone missing in 1944. The museum lists it as “missing,” presumed destroyed.', price: 'destroyed', museum: true },
+  ],
+  figures: [
+    { name: 'Courbet', role: 'The painter', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'The old man', role: 'Kneeling, hammer raised', palette: ['#6a6256', '#3a342a', '#15110c'] },
+    { name: 'The young man', role: 'Standing, basket of stone', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { name: 'Proudhon', role: 'Read it as “socialist”', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'Francis Wey', role: 'Got the “I saw them” letter', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The boy with the basket', where: 'Left, the standing figure seen from behind', detail: 'A young man — too young, really, for this work — strains under a heavy basket of broken stone, his whole body torqued by the weight. You see his back and the nape of his neck; his face is turned away from you entirely. His white shirt has split open at the shoulder blade, a leather strap crosses his back, and his trousers and shoes are coming apart. Courbet gives you his effort and his rags, and withholds the one thing that would let you feel sorry for him: his face.' },
+    { label: 'The old man with the hammer', where: 'Right of center, kneeling on one knee', detail: 'An old man — Courbet said about seventy — kneels on a pad of straw with a long-handled hammer raised over his shoulder, caught at the top of its arc, an instant before it falls on the stone. He is too old, really, for this work either, which is the quiet point: between the boy and the old man there is no prime-of-life in this picture, only the start of a hard life and the end of one. His face is hidden under the brim of a battered straw hat; like the boy, he is all labor and no expression.' },
+    { label: 'The two hidden faces', where: 'Both heads — the boy’s turned away, the old man’s under the hat', detail: 'This is the decision that runs the whole painting. Neither man looks at you; neither face is visible. A contemporary critic complained that Courbet had “suppressed the two heads.” He had — on purpose. A visible, pleading face turns a laborer into a sympathetic individual you pity. Two hidden faces leave you only the bodies and the work, which is harder to feel sentimental about and harder to look away from.' },
+    { label: 'Patched clothes and cracked clogs', where: 'Low — the old man’s trousers and wooden sabots', detail: 'Look at the clothing close and you find the poverty rendered as fact, not pathos: trousers patched and re-patched, a striped waistcoat, and on the old man’s feet wooden sabots (clogs) so split you can almost see the heel through them. When the picture reached Paris, the press caricatured these clogs, drawing them comically huge — a tell that the real offense was making this kind of poverty big and serious at all.' },
+    { label: 'The pot at the edge', where: 'Far right, at ground level by the rocks', detail: 'Off to the right, easy to miss, sits a small dark cooking pot with a little bread beside it — presumably the men’s meal, set down in the dirt where they work. It is the only soft, domestic note in the picture, and it is parked at the very margin, almost out of frame: even lunch is an afterthought to the rock.' },
+    { label: 'The wall of hill behind them', where: 'The whole upper canvas — the dark bank, a sliver of sky at upper right', detail: 'There is almost no sky. A steep, dark bank fills nearly the entire top of the canvas, leaving only a thin wedge of pale light in the upper right corner. The hill presses the two men forward to the very front of the picture, with no horizon to look off into and no air to breathe. A landscape would have given them a distance; Courbet gives them a wall. They are pinned between the rock they break and the rock that rises behind them.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The 1848 Revolution', mode: 'civ' },
+      { label: 'Dutch genre painting', mode: 'art' },
+      { label: 'Realism', mode: 'art' },
+    ],
+    children: [
+      { label: 'A Burial at Ornans', mode: 'art' },
+      { label: 'Social Realism', mode: 'art' },
+      { label: 'Millet’s peasants', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Painter's Studio (Courbet, 1854–55) — ArtWorkContent
+// Built to the EXACT shape of BURIAL (art-content.ts). Drop into ART_WORK_CONTENT.
+// kind: WORK · chain "Works of Realism" 5 of 9 · accent amber.
+// ─────────────────────────────────────────────────────────────
+export const STUDIO: ArtWorkContent = {
+  id: 'studio',
+  name: 'The Painter’s Studio',
+  shortName: 'The Painter’s Studio',
+  year: 1855,
+  artist: 'Gustave Courbet',
+  artistId: 'courbet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '11 ft 10 in × 19 ft 7 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bought for the Louvre by public subscription, 1920; to the Musée d’Orsay, 1986',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 5, total: 9 },
+  hook: 'A whole society sorted into one room, with the painter dead-center — and a subtitle that calls itself, on purpose, a “real allegory.”',
+  heroImage: ART_IMG.courbetStudio,
+  heroCredit: 'Courbet, The Painter’s Studio, 1855 · Musée d’Orsay, Paris',
+  heroAspect: 1.66,
+  heroFit: 'contain', // the work hero shows the WHOLE ~1.66:1 three-part composition, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1854–55', k: 'Painted' },
+    { v: '11′10″ × 19′7″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'refusal', eyebrow: 'Paris · 1855', dateLabel: '1855', title: 'The world’s fair says no', blurb: 'The biggest show on Earth opens in Paris and refuses Courbet’s two largest canvases — this one and A Burial at Ornans — so he builds his own tent across the road and hangs them there himself.', progress: 0.08 },
+    { id: 'allegory', eyebrow: 'The subtitle', dateLabel: '1854–55', title: 'A “real allegory” of seven years', blurb: 'What it means to call a painting both real and an allegory at once — and why the painter sits dead-center, painting a landscape with his back to the whole crowd.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'Look closer', dateLabel: 'The canvas', title: 'The walk across the room', blurb: 'Center, then right, then left: the self-portrait at the easel, the “shareholders” who back him, and the “other world” of the poor and the powerful he claims as his subject.', progress: 0.56 },
+    { id: 'cast', eyebrow: 'Who’s in it', dateLabel: '1848–1855', title: 'Naming the room', blurb: 'Baudelaire reading in the corner, Proudhon the radical, Bruyas the collector who helped shape the picture’s whole idea — and the wide-hatted poacher on the left that half of art history reads as the Emperor.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1855–today', title: 'Afterlife', blurb: 'The tent loses money, the painting is too big to sell, and seventy years later France buys it back by public subscription — Courbet’s testament, hanging in the Orsay.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1855–1877', who: 'Gustave Courbet (the artist)', place: 'Paris / Ornans', note: 'Painted 1854–55; refused by the 1855 Exposition Universelle jury and shown instead in Courbet’s own Pavilion of Realism. The vast, near-unsellable canvas stayed with the artist until his death in Swiss exile in 1877.', price: null },
+    { year: '1877–1881', who: 'The Courbet estate', place: 'France', note: 'After Courbet died in exile, the enormous painting passed through his estate; too large and too political to find an easy buyer.', price: null },
+    { year: '1881–1919', who: 'Private hands', place: 'France', note: 'Held privately for decades — exactly the fate (a foreign sale, a breakup) a national-treasure painting risks when it is this hard to house.', price: null },
+    { year: '1920', who: 'Musée du Louvre', place: 'Paris', note: 'Bought for the French national museums by a public subscription, with the Société des Amis du Louvre — the nation raising the money to keep Courbet’s testament in France.', price: 'public subscription', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Orsay opens in a converted railway station, the Louvre’s 19th-century collection crosses the river to fill it. On permanent view.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Courbet', role: 'At the easel, center', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Bruyas', role: 'Collector & friend who shaped the idea', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Proudhon', role: 'Radical thinker (right)', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'Baudelaire', role: 'Poet, reading (far right)', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'Champfleury', role: 'The movement’s theorist & namer', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'The poacher (left)', role: 'Often read as Napoleon III', palette: ['#53412c', '#2a1f14', '#0c0805'] },
+  ],
+  annotations: [
+    { label: 'The painter, painting the wrong thing', where: 'Dead center — the seated man at the easel', detail: 'Courbet sits at his easel in the exact middle of the canvas, palette in hand, and the picture he is working on is not a portrait or a Bible scene but a plain green river landscape — a view of the Loue valley back home near Ornans. He is showing you what Realism does: turns its back on the whole theatrical room of human society behind him and paints the unremarkable real world instead. The self-portrait that runs the painting has the painter looking away from almost everyone in it.' },
+    { label: 'A nude with nowhere to be', where: 'Just behind Courbet, standing — the pale figure with a white sheet', detail: 'A naked model stands at Courbet’s shoulder, a white drapery slipping down her hip to the floor. The joke is that she has no job here: he is painting a landscape, so she is a model with nothing to model for — the academic nude (the idealized naked body the official schools drilled endlessly) standing idle behind a painter who would rather paint a riverbank. She is the old kind of subject, watching the new kind get made.' },
+    { label: 'The only one really looking', where: 'At the foot of the easel — the small boy in a smock', detail: 'A small peasant boy in a pale smock stands right at the easel, head tipped back, watching the landscape appear. In a room of forty adults posing, networking, reading, brooding, the child is the one figure giving the act of painting his whole open attention — the unschooled eye, the viewer Courbet actually wants.' },
+    { label: 'The cat that doesn’t care', where: 'On the floor near Courbet’s feet, center-low', detail: 'A white cat crouches on the bare floor by the painter’s feet, attending to nothing. It is the same flick of nerve as the bored dog in A Burial at Ornans (which has its own read in this app): a small indifferent animal dropped into a solemn, self-important scene, quietly refusing to be impressed by any of it.' },
+    { label: 'Baudelaire, reading in the corner', where: 'Far right edge, bent over a large book', detail: 'At the extreme right, almost falling off the canvas, a man sits hunched over a big open book, absorbed, ignoring the whole gathering. That is the poet Charles Baudelaire, copied from a portrait Courbet had painted of him in 1847 — the “shareholders” side’s patron saint, present but lost in his reading, the way poets are.' },
+    { label: 'The wide-hatted poacher (the Emperor?)', where: 'Left foreground — the seated man in a broad hat with hunting dogs', detail: 'Over on the dark left side sits a man in a broad-brimmed hat with hunting dogs at his feet, dressed as a poacher. Many readers, then and since, take him for Napoleon III — France’s emperor — slipped in among “the people who live off death,” identified by the hunting dogs and the curled moustache. Courbet’s own letter never names him, and X-rays show the figure was reworked later, so treat the imperial reading as the famous interpretation it is, not a caption Courbet signed.' },
+    { label: 'Cast-offs on the studio floor', where: 'Lower-left foreground, on the bare boards', detail: 'Scattered on the floor at the bottom-left lie a guitar, a dagger, and a plumed cavalier’s hat — the dressing-up box of Romanticism (the swashbuckling, exotic, high-drama painting Courbet was burying). Tossed aside on the boards of the “real” world, they read as the discarded props of the kind of art he refused to make.' },
+    { label: 'The crucified mannequin', where: 'Up in the shadows on the dark left side, behind the standing figures', detail: 'Strung up in the gloom on the left hangs a lay figure — an artist’s mannequin, the jointed, stuffed studio dummy academic painters draped and posed in place of a living body. Courbet has trussed his with the arms wrenched back so it reads unmistakably as a body on a cross. A crucified dummy, pinned up on the side of the room he gave to misery and the dead: the death of academic art itself, the lifeless stand-in for the real body nailed up in the shadows while the new kind of painting happens, alive, in the light at the center.' },
+  ],
+  lineage: {
+    parents: [ { label: 'A Burial at Ornans', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'Dutch group portrait', mode: 'art' } ],
+    children: [ { label: 'Realism', mode: 'art' }, { label: 'The artist’s self-portrait as manifesto', mode: 'art' }, { label: 'Édouard Manet', mode: 'art' } ],
+  },
+}
+
+// Millet, The Sower (1850) — ArtWorkContent (Realism works chain, index 4 of 9).
+// Author draft for the gated art pipeline. Copies the BURIAL shape exactly.
+// NOTE: ART_IMG.milletSower (the Google Art Project / Wikimedia file) is the
+// MUSEUM OF FINE ARTS, BOSTON version — credit confirmed correct. The which-
+// canvas-hung-at-the-Salon question (Boston vs Yamanashi) is handled as a debate
+// in the prose, not asserted here. See sower-factpack.md.
+
+export const SOWER: ArtWorkContent = {
+  id: 'sower',
+  name: 'The Sower',
+  shortName: 'The Sower',
+  year: 1850,
+  artist: 'Jean-François Millet',
+  artistId: 'millet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 4 in × 2 ft 8½ in',
+  location: 'Museum of Fine Arts, Boston',
+  acquired: 'Gift of Quincy Adams Shaw, 1917',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 4, total: 9 },
+  hook: 'A lone peasant strides a dusk field flinging seed — life-size, dark, almost menacing, two years after the poor toppled a throne.',
+  heroImage: ART_IMG.milletSower,
+  heroCredit: 'Millet, The Sower, 1850 · Museum of Fine Arts, Boston',
+  heroAspect: 0.813,
+  heroFit: 'contain', // the work is a PORTRAIT canvas — show the whole figure, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1850', k: 'Painted' },
+    { v: '3′4″ × 2′8½″', k: 'Dimensions' },
+    { v: 'MFA Boston', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'barbizon', eyebrow: 'Gruchy · Paris · Barbizon', dateLabel: '1814–1850', title: 'The farm boy who left for the field', blurb: 'A real peasant’s son trains as a painter, flees a cholera epidemic in Paris, and settles in a forest village to do the one thing the art world ranked dead last: paint the people he grew up with.', progress: 0.1 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1850', title: 'The man on the hill', blurb: 'Six feet of striding peasant, dark as a silhouette, flinging seed down a dusk slope — the sowing arm, the shadowed face, the diagonal, the tiny ploughman behind. Slow down and look.', progress: 0.36 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'A peasant in the temple', blurb: 'Hung in the official Salon the same season as Courbet’s village funeral and stone-breakers, the giant sower frightened a Paris still raw from 1848 — a field hand made monumental read like a threat.', progress: 0.6 },
+    { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Monument, sermon, or menace', blurb: 'Peasant as monument; the oldest parable in the West; a class threat in frightened eyes — and a painter who kept insisting he was not a socialist, only painting the truth of the soil.', progress: 0.82 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1851–today', title: 'Afterlife', blurb: 'An American buys it off the Salon wall, it crosses the Atlantic to Boston, and a young Dutchman named Van Gogh spends his whole life copying it. The versions question, and the long road.', progress: 0.97 },
+  ],
+  provenance: [
+    { year: '1850', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon in 1850 and shown at the Paris Salon of 1850–51. Millet made a nearly identical second version the same year (now in Japan); which exact canvas hung at the Salon is debated.', price: null },
+    { year: 'c. 1851–52', who: 'William Morris Hunt', place: 'Paris / Boston', note: 'The American painter William Morris Hunt saw The Sower at the Salon, bought it from Millet, and went to live near him at Barbizon for about two years. Hunt became the great early champion of Millet in the United States — the reason so much Millet ended up in Boston.', price: 'sold by the artist' },
+    { year: '1874', who: 'Quincy Adams Shaw', place: 'Boston', note: 'Hunt sold the painting through the Boston dealers Doll and Richards to the collector Quincy Adams Shaw (1825–1908), one of the largest private holders of Millet anywhere.', price: 'sold to a collector' },
+    { year: '1917', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'After Shaw’s death his heirs — Quincy Adams Shaw, Jr. and Mrs. Marian Shaw Haughton — gave the painting to the MFA. On view there ever since.', price: 'gift to the museum', museum: true },
+    { year: 'today', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'Accession 17.1485. The famous version — the one reproduced everywhere, including this app — hangs permanently in the MFA’s 19th-century galleries.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Millet', role: 'The peasant painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { name: 'The sower', role: 'A field laborer, made monumental', palette: ['#5a5238', '#332c1e', '#100c08'] },
+    { name: 'Courbet', role: 'Realism’s firebrand; Salon-mate of 1850–51', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'William Morris Hunt', role: 'American who bought it off the wall', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Van Gogh', role: 'Copied it his whole life', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+  ],
+  annotations: [
+    { label: 'The striding giant', where: 'The whole foreground — the dark figure walking toward you down the slope', detail: 'A single peasant fills almost the entire canvas, pitched diagonally downhill, his leading leg driving forward and down the slope while the trailing leg stretches back up the rise, weight tipping toward you. He is painted so dark and so large that he reads less as a man than as a silhouette cut out of the dusk — monumental, looming, and a little menacing. There is no one else near him at his scale; the whole picture is built to make this one field hand enormous.' },
+    { label: 'The sowing arm, caught mid-throw', where: 'His right arm, flung across his body to the left; the seed in the air', detail: 'His right arm is swept all the way across his chest, the hand open, just past the instant of the throw — you are seeing the follow-through, the seed scattering off into the furrows. It is the single most active gesture in the picture, and Millet froze it at the most violent point of the arc, which is why the figure feels like it is moving even though it is paint.' },
+    { label: 'The seed-bag at his hip', where: 'His left hand, holding a sack of grain against his left side', detail: 'His left hand grips a coarse sack or apron of seed slung at his hip — the supply his right hand keeps dipping into and flinging. It anchors the lower-left of the figure and explains the whole motion: reach in, stride, throw, repeat, all the way down the field.' },
+    { label: 'The face that isn’t there', where: 'Under the soft hat, upper-center of the figure', detail: 'A soft, floppy hat is pulled down low, and the face beneath it is sunk in shadow — barely a feature legible, no eyes to meet. He is almost faceless, and that is the point: not a portrait of a particular man but Labor itself, anonymous and a little frightening, walking straight at you.' },
+    { label: 'The legs, bound in straw and mud', where: 'His lower legs and feet', detail: 'Blue trousers, a rust-brown jacket — and the lower legs and feet wrapped in straw or rag and caked in the same dark earth he treads. These are not boots for a portrait. They are the real protection a man ties on to walk a cold, broken field at the end of the day.' },
+    { label: 'The tiny world behind him', where: 'Far upper right (ploughman and oxen, warm sky) and upper left (birds)', detail: 'Up the slope, very small, a man drives a team of oxen finishing the ploughing, with the last warm orange light of dusk and a sunlit bank behind him. At the upper left, a scatter of birds lifts off — already after the seed. These miniature figures do two jobs: they tell you it is the close of the working day, and by being so small they make the foreground sower colossal.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Barbizon landscape', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'The Parable of the Sower', mode: 'civ' } ],
+    children: [ { label: 'Van Gogh’s Sower', mode: 'art' }, { label: 'Realism', mode: 'art' }, { label: 'Social Realism', mode: 'art' } ],
+  },
+}
+
+// The Gleaners (Jean-François Millet, 1857) — ArtWorkContent
+// Author draft for the art-content pipeline. Matches the BURIAL shape in src/lib/art-content.ts.
+// Facts verified in gleaners-factpack.md (fact ledger). Dimensions ft/in only (house rule).
+// Defers movement-level material to the REALISM movement object; goes deeper on THIS work.
+
+export const GLEANERS: ArtWorkContent = {
+  id: 'gleaners',
+  name: 'The Gleaners',
+  shortName: 'The Gleaners',
+  year: 1857,
+  artist: 'Jean-François Millet',
+  artistId: 'millet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 9 in × 3 ft 8 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bequeathed to the Louvre by Mme Pommery, 1891',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 7, total: 9 },
+  hook: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped — and the bourgeois Salon saw a threat.',
+  heroImage: ART_IMG.milletGleaners,
+  heroCredit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris',
+  heroAspect: 1.33,
+  heroFit: 'contain', // the work hero shows the WHOLE ~1.33:1 field, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1857', k: 'Painted' },
+    { v: '2′9″ × 3′8″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'gleaning', eyebrow: 'The custom', dateLabel: 'centuries', title: 'Gleaning: the right of the poorest', blurb: 'Before the painting, the practice — the ancient, regulated, vanishing right of the poorest to enter a harvested field and gather the grain the reapers left on the ground.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857', title: 'Three bent backs and a harvest they don’t share', blurb: 'Look hard: three women stooped over the stubble in blue, red, and yellow caps — and behind them, in golden light, the overflowing harvest they are not part of.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'Paris · 1857', dateLabel: '1857', title: 'The Salon takes fright', blurb: 'Hung in the official exhibition, three poor women gathering scraps read to the propertied classes as “the three Fates of Poverty” and a whiff of 1793 — the rural poor made dignified, and dangerous.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What Millet meant', dateLabel: '1850s', title: 'Sympathy without sentiment', blurb: 'Millet gives the poor the seriousness of art without prettifying them — and whether that was a political act or simple human truth is a fight that has never settled.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1889–today', title: 'Afterlife', blurb: 'The despised picture sells for a hundred times its first price, becomes one of the most reproduced images ever made, and ends bequeathed to the nation that recoiled from it.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1857', who: 'Jean-François Millet (the artist)', place: 'Barbizon / Paris', note: 'Painted in Barbizon and shown at the Salon of 1857. Short of money, Millet sold it for 3,000 francs — below his 4,000-franc asking price.', price: '3,000 francs' },
+    { year: 'by 1880s', who: 'Ferdinand Bischoffsheim', place: 'Paris', note: 'By the 1880s the once-scandalous canvas had risen into a Paris banker’s collection — the picture the Salon had recoiled from now a sought-after asset.', price: null },
+    { year: '1889', who: 'Auction → Mme Pommery', place: 'Paris', note: 'Sold at auction for 300,000 francs — a hundredfold jump in about thirty years. Within a week it was announced that the champagne-house owner Jeanne-Alexandrine Louise Pommery had acquired it.', price: '300,000 francs' },
+    { year: '1891', who: 'Musée du Louvre', place: 'Paris', note: 'On Pommery’s death the painting was bequeathed to the Louvre per the terms of her will — given, free, to the nation whose official Salon had once treated it as a threat.', price: 'bequest to the nation', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Musée d’Orsay opens in the converted Gare d’Orsay railway station, the Louvre’s 19th-century collection crosses the river to fill it. The Gleaners goes with it, and is on permanent view.', price: 'never sold since', museum: true },
+  ],
+  figures: [
+    { name: 'Millet', role: 'The painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { name: 'The three gleaners', role: 'The subject', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Mme Pommery', role: 'Bought it; left it to France', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Courbet', role: 'The loud half of Realism', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Van Gogh', role: 'Worshipped Millet', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+  ],
+  annotations: [
+    { label: 'The three bent backs', where: 'Foreground, across the lower third', detail: 'Three women work the stripped field in a slow diagonal — and the picture’s whole feeling lives in their backs. The two on the left are folded almost double, hands down at the stubble; the one on the right is the most nearly upright of the three (still stooped, never standing straight), as if pausing to ease a back that has been bent all day. Millet gives you the labor as posture: you can feel the ache without a single grimace, because the bodies do all the talking.' },
+    { label: 'Blue, red, yellow — the only loud color', where: 'The three caps / headscarves', detail: 'Look at the caps: blue on the left woman, red on the center one, a warm yellow-gold on the woman at right. In a field of dust-browns and faded grays those three notes are the brightest color in the painting — the primary colors handed not to a goddess’s robe but to three field-workers’ headscarves. The eye finds them first and then has nowhere grander to go.' },
+    { label: 'What they’re actually holding', where: 'The women’s hands and aprons', detail: 'Now look at the harvest of the gleaners themselves: the right-hand woman holds a thin little bundle of stalks; the center woman has a small bunch tucked at her apron. After a full day bent over the ground, this is the yield — a few fistfuls of grain the reapers happened to drop. The meagreness is the point. They are gathering what the harvest threw away.' },
+    { label: 'The harvest they don’t share', where: 'The sunlit middle distance, behind the women', detail: 'Behind the three, the field is golden and overflowing: tall round stacks of grain, a loaded cart, long rows of sheaves, and a busy crew bringing the crop in under a hazy late-summer sun. This is the rich harvest — and the three women in front have no part in it. Millet split the canvas in two: grinding poverty stooped in the cool near-ground, abundance blazing in the warm distance, the bare stripped field between them like a moat.' },
+    { label: 'The man on the horse', where: 'Far right, among the working crew', detail: 'Small and easy to miss at the right edge of the busy distance sits a figure on horseback — by the usual reading the farm’s mounted overseer, watching the work get done. He is tiny, but once you find him the social order of the field snaps into place: someone owns this harvest and supervises it on horseback, and the three women bent in front own none of it and gather its leavings on foot.' },
+    { label: 'The low flat horizon', where: 'The top quarter of the canvas', detail: 'There are no mountains, no drama, no opening heaven — just a low, flat horizon with farm buildings and a hazy sky, the unremarkable countryside around Barbizon. Millet refuses scenery the way Courbet refuses it: nature here is not a backdrop for feeling, just the plain ground these people work, going on being ground.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The right of gleaning', mode: 'civ' },
+      { label: 'The Book of Ruth', mode: 'civ' },
+      { label: 'Barbizon landscape', mode: 'art' },
+      { label: 'The Sower', mode: 'art' },
+    ],
+    children: [
+      { label: 'The Angelus', mode: 'art' },
+      { label: 'Vincent van Gogh', mode: 'art' },
+      { label: 'Social Realism', mode: 'art' },
+      { label: 'Naturalism', mode: 'art' },
+    ],
+  },
+}
+
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

@@ -1,0 +1,77 @@
+// ─────────────────────────────────────────────────────────────────────────
+// The Stone Breakers (Courbet, 1849) — ArtWorkContent
+// Drafted by the AUTHOR agent in the gated art pipeline. Same field shape as
+// BURIAL (src/lib/art-content.ts ~1390). To be integrated by the coordinator
+// into art-content.ts after the critic gates pass. Section ids match the
+// Sb… JSX functions in stone-breakers-narratives.tsx.
+// ─────────────────────────────────────────────────────────────────────────
+
+export const STONE_BREAKERS: ArtWorkContent = {
+  id: 'stone-breakers',
+  name: 'The Stone Breakers',
+  shortName: 'The Stone Breakers',
+  year: 1849,
+  artist: 'Gustave Courbet',
+  artistId: 'courbet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '5 ft 5 in × 8 ft 5 in',
+  location: 'Destroyed 1945 — formerly Gemäldegalerie, Dresden',
+  acquired: 'Lost in WWII, February 1945 (museum status: missing, presumed destroyed)',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 2, total: 9 },
+  hook: 'Two road laborers breaking rock, life-size and dead serious — the scale the Salon kept for gods, spent on men with holes in their shoes. The original is gone; only reproductions survive.',
+  heroImage: ART_IMG.courbetStoneBreakers,
+  heroCredit: 'Courbet, The Stone Breakers, 1849 · destroyed 1945, formerly Gemäldegalerie, Dresden',
+  heroAspect: 1.56, // 257 × 165 cm → W/H ≈ 1.558
+  heroFit: 'contain', // the work hero shows the WHOLE canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1849', k: 'Painted' },
+    { v: '5′5″ × 8′5″', k: 'Dimensions' },
+    { v: 'Destroyed 1945', k: 'Now' },
+  ],
+  sections: [
+    { id: 'road', eyebrow: 'Near Maisières · 1849', dateLabel: '1849', title: 'Two men on a road', blurb: 'Courbet stops his carriage to watch two laborers break stones, sees “the most complete expression of poverty,” and asks them to his studio the next morning — to paint them life-size.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1849', title: 'A boy, an old man, and two hidden faces', blurb: 'The straining youth with the basket, the kneeling old man with the hammer, the patched clothes and cracked clogs — and the one decision that runs the whole picture: you never see either face.', progress: 0.32 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The Burial’s twin', blurb: 'Hung in the same Salon as A Burial at Ornans — two monumental Courbets, one program, delivered as a single coordinated assault on what serious painting was allowed to be about.', progress: 0.56 },
+    { id: 'meaning', eyebrow: 'Dignity vs pity', dateLabel: '1850s–1865', title: '“The first socialist painting”?', blurb: 'Proudhon read it as a manifesto for the laboring poor; Courbet swore he’d simply painted what he saw. Why the refusal of pity is exactly what gives the two men their weight.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1945–today', title: 'A painting that only survives as a photograph', blurb: 'Dresden, the last months of the war, and a masterpiece lost — the museum lists it as “missing.” Why the image you can see is gray, and what it means to read a work that no longer exists.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1849–1850s', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted in 1849 after meeting two stone breakers on the road near Maisières; shown at the Salon of 1850–51 alongside A Burial at Ornans.', price: null },
+    { year: '19th–20th c.', who: 'Private hands → German collections', place: 'France → Germany', note: 'The canvas passed out of Courbet’s hands and eventually into German collections, entering the Dresden picture gallery.', price: null },
+    { year: 'by the 20th c.–1945', who: 'Gemäldegalerie, Dresden', place: 'Dresden', note: 'Held by the Dresden state picture gallery — one of the great public homes for the painting before the war.', price: null, museum: true },
+    { year: 'February 1945', who: 'Lost in WWII', place: 'near Dresden', note: 'Lost in the last months of the war. By the standard account it was on a transport moving pictures toward Königstein Fortress when the convoy was bombed, destroyed with more than 150 other pictures; one scholar (Raskin, 1988) argues it had already gone missing in 1944. The museum lists it as “missing,” presumed destroyed.', price: 'destroyed', museum: true },
+  ],
+  figures: [
+    { name: 'Courbet', role: 'The painter', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'The old man', role: 'Kneeling, hammer raised', palette: ['#6a6256', '#3a342a', '#15110c'] },
+    { name: 'The young man', role: 'Standing, basket of stone', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { name: 'Proudhon', role: 'Read it as “socialist”', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'Francis Wey', role: 'Got the “I saw them” letter', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The boy with the basket', where: 'Left, the standing figure seen from behind', detail: 'A young man — too young, really, for this work — strains under a heavy basket of broken stone, his whole body torqued by the weight. You see his back and the nape of his neck; his face is turned away from you entirely. His white shirt has split open at the shoulder blade, a leather strap crosses his back, and his trousers and shoes are coming apart. Courbet gives you his effort and his rags, and withholds the one thing that would let you feel sorry for him: his face.' },
+    { label: 'The old man with the hammer', where: 'Right of center, kneeling on one knee', detail: 'An old man — Courbet said about seventy — kneels on a pad of straw with a long-handled hammer raised over his shoulder, caught at the top of its arc, an instant before it falls on the stone. He is too old, really, for this work either, which is the quiet point: between the boy and the old man there is no prime-of-life in this picture, only the start of a hard life and the end of one. His face is hidden under the brim of a battered straw hat; like the boy, he is all labor and no expression.' },
+    { label: 'The two hidden faces', where: 'Both heads — the boy’s turned away, the old man’s under the hat', detail: 'This is the decision that runs the whole painting. Neither man looks at you; neither face is visible. A contemporary critic complained that Courbet had “suppressed the two heads.” He had — on purpose. A visible, pleading face turns a laborer into a sympathetic individual you pity. Two hidden faces leave you only the bodies and the work, which is harder to feel sentimental about and harder to look away from.' },
+    { label: 'Patched clothes and cracked clogs', where: 'Low — the old man’s trousers and wooden sabots', detail: 'Look at the clothing close and you find the poverty rendered as fact, not pathos: trousers patched and re-patched, a striped waistcoat, and on the old man’s feet wooden sabots (clogs) so split you can almost see the heel through them. When the picture reached Paris, the press caricatured these clogs, drawing them comically huge — a tell that the real offense was making this kind of poverty big and serious at all.' },
+    { label: 'The pot at the edge', where: 'Far right, at ground level by the rocks', detail: 'Off to the right, easy to miss, sits a small dark cooking pot with a little bread beside it — presumably the men’s meal, set down in the dirt where they work. It is the only soft, domestic note in the picture, and it is parked at the very margin, almost out of frame: even lunch is an afterthought to the rock.' },
+    { label: 'The wall of hill behind them', where: 'The whole upper canvas — the dark bank, a sliver of sky at upper right', detail: 'There is almost no sky. A steep, dark bank fills nearly the entire top of the canvas, leaving only a thin wedge of pale light in the upper right corner. The hill presses the two men forward to the very front of the picture, with no horizon to look off into and no air to breathe. A landscape would have given them a distance; Courbet gives them a wall. They are pinned between the rock they break and the rock that rises behind them.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The 1848 Revolution', mode: 'civ' },
+      { label: 'Dutch genre painting', mode: 'art' },
+      { label: 'Realism', mode: 'art' },
+    ],
+    children: [
+      { label: 'A Burial at Ornans', mode: 'art' },
+      { label: 'Social Realism', mode: 'art' },
+      { label: 'Millet’s peasants', mode: 'art' },
+    ],
+  },
+}

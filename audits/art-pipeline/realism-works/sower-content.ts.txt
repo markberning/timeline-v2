@@ -1,0 +1,69 @@
+// Millet, The Sower (1850) — ArtWorkContent (Realism works chain, index 4 of 9).
+// Author draft for the gated art pipeline. Copies the BURIAL shape exactly.
+// NOTE: ART_IMG.milletSower (the Google Art Project / Wikimedia file) is the
+// MUSEUM OF FINE ARTS, BOSTON version — credit confirmed correct. The which-
+// canvas-hung-at-the-Salon question (Boston vs Yamanashi) is handled as a debate
+// in the prose, not asserted here. See sower-factpack.md.
+
+export const SOWER: ArtWorkContent = {
+  id: 'sower',
+  name: 'The Sower',
+  shortName: 'The Sower',
+  year: 1850,
+  artist: 'Jean-François Millet',
+  artistId: 'millet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 4 in × 2 ft 8½ in',
+  location: 'Museum of Fine Arts, Boston',
+  acquired: 'Gift of Quincy Adams Shaw, 1917',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 4, total: 9 },
+  hook: 'A lone peasant strides a dusk field flinging seed — life-size, dark, almost menacing, two years after the poor toppled a throne.',
+  heroImage: ART_IMG.milletSower,
+  heroCredit: 'Millet, The Sower, 1850 · Museum of Fine Arts, Boston',
+  heroAspect: 0.813,
+  heroFit: 'contain', // the work is a PORTRAIT canvas — show the whole figure, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1850', k: 'Painted' },
+    { v: '3′4″ × 2′8½″', k: 'Dimensions' },
+    { v: 'MFA Boston', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'barbizon', eyebrow: 'Gruchy · Paris · Barbizon', dateLabel: '1814–1850', title: 'The farm boy who left for the field', blurb: 'A real peasant’s son trains as a painter, flees a cholera epidemic in Paris, and settles in a forest village to do the one thing the art world ranked dead last: paint the people he grew up with.', progress: 0.1 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1850', title: 'The man on the hill', blurb: 'Six feet of striding peasant, dark as a silhouette, flinging seed down a dusk slope — the sowing arm, the shadowed face, the diagonal, the tiny ploughman behind. Slow down and look.', progress: 0.36 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'A peasant in the temple', blurb: 'Hung in the official Salon the same season as Courbet’s village funeral and stone-breakers, the giant sower frightened a Paris still raw from 1848 — a field hand made monumental read like a threat.', progress: 0.6 },
+    { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Monument, sermon, or menace', blurb: 'Peasant as monument; the oldest parable in the West; a class threat in frightened eyes — and a painter who kept insisting he was not a socialist, only painting the truth of the soil.', progress: 0.82 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1851–today', title: 'Afterlife', blurb: 'An American buys it off the Salon wall, it crosses the Atlantic to Boston, and a young Dutchman named Van Gogh spends his whole life copying it. The versions question, and the long road.', progress: 0.97 },
+  ],
+  provenance: [
+    { year: '1850', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon in 1850 and shown at the Paris Salon of 1850–51. Millet made a nearly identical second version the same year (now in Japan); which exact canvas hung at the Salon is debated.', price: null },
+    { year: 'c. 1851–52', who: 'William Morris Hunt', place: 'Paris / Boston', note: 'The American painter William Morris Hunt saw The Sower at the Salon, bought it from Millet, and went to live near him at Barbizon for about two years. Hunt became the great early champion of Millet in the United States — the reason so much Millet ended up in Boston.', price: 'sold by the artist' },
+    { year: '1874', who: 'Quincy Adams Shaw', place: 'Boston', note: 'Hunt sold the painting through the Boston dealers Doll and Richards to the collector Quincy Adams Shaw (1825–1908), one of the largest private holders of Millet anywhere.', price: 'sold to a collector' },
+    { year: '1917', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'After Shaw’s death his heirs — Quincy Adams Shaw, Jr. and Mrs. Marian Shaw Haughton — gave the painting to the MFA. On view there ever since.', price: 'gift to the museum', museum: true },
+    { year: 'today', who: 'Museum of Fine Arts, Boston', place: 'Boston', note: 'Accession 17.1485. The famous version — the one reproduced everywhere, including this app — hangs permanently in the MFA’s 19th-century galleries.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Millet', role: 'The peasant painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { name: 'The sower', role: 'A field laborer, made monumental', palette: ['#5a5238', '#332c1e', '#100c08'] },
+    { name: 'Courbet', role: 'Realism’s firebrand; Salon-mate of 1850–51', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'William Morris Hunt', role: 'American who bought it off the wall', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Van Gogh', role: 'Copied it his whole life', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+  ],
+  annotations: [
+    { label: 'The striding giant', where: 'The whole foreground — the dark figure walking toward you down the slope', detail: 'A single peasant fills almost the entire canvas, pitched diagonally downhill, his leading leg driving forward and down the slope while the trailing leg stretches back up the rise, weight tipping toward you. He is painted so dark and so large that he reads less as a man than as a silhouette cut out of the dusk — monumental, looming, and a little menacing. There is no one else near him at his scale; the whole picture is built to make this one field hand enormous.' },
+    { label: 'The sowing arm, caught mid-throw', where: 'His right arm, flung across his body to the left; the seed in the air', detail: 'His right arm is swept all the way across his chest, the hand open, just past the instant of the throw — you are seeing the follow-through, the seed scattering off into the furrows. It is the single most active gesture in the picture, and Millet froze it at the most violent point of the arc, which is why the figure feels like it is moving even though it is paint.' },
+    { label: 'The seed-bag at his hip', where: 'His left hand, holding a sack of grain against his left side', detail: 'His left hand grips a coarse sack or apron of seed slung at his hip — the supply his right hand keeps dipping into and flinging. It anchors the lower-left of the figure and explains the whole motion: reach in, stride, throw, repeat, all the way down the field.' },
+    { label: 'The face that isn’t there', where: 'Under the soft hat, upper-center of the figure', detail: 'A soft, floppy hat is pulled down low, and the face beneath it is sunk in shadow — barely a feature legible, no eyes to meet. He is almost faceless, and that is the point: not a portrait of a particular man but Labor itself, anonymous and a little frightening, walking straight at you.' },
+    { label: 'The legs, bound in straw and mud', where: 'His lower legs and feet', detail: 'Blue trousers, a rust-brown jacket — and the lower legs and feet wrapped in straw or rag and caked in the same dark earth he treads. These are not boots for a portrait. They are the real protection a man ties on to walk a cold, broken field at the end of the day.' },
+    { label: 'The tiny world behind him', where: 'Far upper right (ploughman and oxen, warm sky) and upper left (birds)', detail: 'Up the slope, very small, a man drives a team of oxen finishing the ploughing, with the last warm orange light of dusk and a sunlit bank behind him. At the upper left, a scatter of birds lifts off — already after the seed. These miniature figures do two jobs: they tell you it is the close of the working day, and by being so small they make the foreground sower colossal.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Barbizon landscape', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'The Parable of the Sower', mode: 'civ' } ],
+    children: [ { label: 'Van Gogh’s Sower', mode: 'art' }, { label: 'Realism', mode: 'art' }, { label: 'Social Realism', mode: 'art' } ],
+  },
+}

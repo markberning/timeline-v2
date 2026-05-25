@@ -1,0 +1,198 @@
+// ─────────────────────────────────────────────────────────────
+// The Sower (Millet, 1850) — the five chapters
+// Author draft for the gated art pipeline. Matches the BuTown…BuAfterlife pattern
+// exactly: SectionHeader, DropCap, proseStyle/italicStyle, <strong>/<em>,
+// <article style={{ padding: '18px 18px 40px' }}>, `first` on the opener, NO
+// inline figures. Section ids match sower-content.ts: barbizon · looking · salon ·
+// meaning · afterlife. Movement-level material (1848 in full, the hierarchy of
+// genres, Courbet's own story) is DEFERRED to the Realism overview with terse refs.
+// ─────────────────────────────────────────────────────────────
+
+function SoBarbizon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Gruchy, Normandy · 1814" title="The painter who was an actual peasant" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        lmost every painter who ever pointed a brush at a peasant did it from the outside, looking in — a city man visiting the countryside, charmed or appalled, painting the poor the way a tourist photographs them. <strong>Jean-François Millet</strong> (pronounced "mee-LAY," 1814–1875) is the rare exception, and it is the single most important fact about the painting you are here to look at. Millet did not visit the rural poor. He <em>was</em> the rural poor. He was born into a Normandy farming family — at <strong>Gruchy</strong>, a hamlet near the port of <strong>Cherbourg</strong> — and grew up doing the actual labor of the fields with his own hands. When he finally painted a man flinging seed across a hillside, the gesture did not come from a hired model holding a pose in a studio. It came from his own body, from work he had done.
+      </p>
+      <p style={proseStyle}>
+        He was born in October 1814. Gruchy (roughly "GROO-shee") sits on the windy Cotentin peninsula in <strong>Normandy</strong>, the farming country of northwestern France, and his people were peasants — not the romantic, barefoot-shepherdess kind, but the real kind, who worked the land for a living and were not at all sure that one of their sons drawing pictures was a sensible use of a boy. By his late teens his obvious talent won out, and he went to study art, first in nearby Cherbourg, then, in 1837, to <strong>Paris</strong> itself.
+      </p>
+
+      <SectionHeader accent={accent} label="Paris · 1837" title="Trained at the top of a ladder he would reject" />
+      <p style={proseStyle}>
+        In Paris he did the respectable thing: he entered the studio of <strong>Paul Delaroche</strong> (1797–1856), a smooth and successful academic painter of grand historical scenes — exactly the kind of art the official system prized. To understand why that matters, you need one piece of background that the Realism overview one level up in this app lays out in full, and which this read will only sketch. French art ran on a strict ranking of subject matter called the <strong>hierarchy of genres</strong> (an official ladder that sorted what a painting was <em>about</em>). At the top sat <strong>history painting</strong> (grand scenes from myth, scripture, and ancient legend — "history" in the old sense, not last week's news). At the very bottom sat plain modern life: laborers, farmers, the poor. And the whole thing was policed by <strong>the academy</strong> (the State institution that set the rules) through one all-important show, the <strong>Salon</strong>, which you will meet properly in Chapter 3.
+      </p>
+      <p style={proseStyle}>
+        So Millet trained in the prestige tradition — the gods-and-heroes business — and for years he did the expected things to survive: portraits, soft mythological scenes, the occasional nude. He was poor, and Paris was hard, and nothing he made yet was the thing he is remembered for. The man who would paint the dignity of dirt was, for the moment, painting whatever sold.
+      </p>
+
+      <SectionHeader accent={accent} label="The flight from Paris · 1849" title="Cholera, and a village in a forest" />
+      <p style={proseStyle}>
+        Then, in 1849, the city tried to kill him. A <strong>cholera</strong> epidemic (a fast, deadly waterborne disease that swept 19th-century cities in terrifying waves) tore through Paris, and Millet — by now with a family to protect — got out. He moved roughly 30 miles (50 km) south of the capital to a village called <strong>Barbizon</strong> (BAR-bee-zohn), a small place on the edge of the <strong>Forest of Fontainebleau</strong> (fon-ten-BLOH), the great royal woodland southeast of Paris. He meant it to be temporary. He stayed essentially the rest of his life, and died there in 1875.
+      </p>
+      <p style={proseStyle}>
+        Barbizon was not a random refuge. It was already becoming the headquarters of a loose group of painters who would be remembered as the <strong>Barbizon School</strong> — landscape and country-life painters (Théodore Rousseau, Camille Corot, Charles-François Daubigny, and others) who came out from the city to paint the real countryside directly, instead of inventing tidy, idealized Italian-looking scenery back in a studio the way the academy preferred. They wanted actual trees, actual weather, actual light. The Realism overview names this group as one of Realism's parents, and you can see why: a school built on painting the real world in front of you is one short step from painting the real <em>people</em> in front of you.
+      </p>
+      <p style={proseStyle}>
+        That short step is Millet's whole contribution. The other Barbizon men mostly painted the land. Millet put the peasant back into it — full size, dead center, doing the work — and turned a school of pretty landscapes into something that frightened Paris. The first big canvas he made in his new village was a single man walking a hillside, throwing seed. It is the painting in front of you, and the rest of this read is about what he did, and why a picture of farming caused a scandal.
+      </p>
+    </article>
+  )
+}
+
+function SoLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas · 1850" title="One figure, almost life-size" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore the meaning, the eyes. <em>The Sower</em> is not a big painting by the standards of this app — it is about <strong>3 feet 4 inches tall and 2 feet 8 inches wide</strong> (a tall, upright, portrait-shaped canvas, taller than it is wide). Stand Courbet's twenty-two-foot funeral in your mind from Chapter 1 of the Realism overview, and this is the opposite kind of object: not a wall-sized panorama of a whole crowd, but a single human being, pushed almost to the edges of an upright frame, taking up nearly all the room there is. Where Courbet spread a hundred feet of canvas thin across forty people, Millet spent a tall, narrow canvas on exactly one. The whole composition is built to make that one man huge.
+      </p>
+      <p style={proseStyle}>
+        And the first thing you notice is how <em>dark</em> he is. The peasant is painted as a near-silhouette — a heavy, shadowed shape against the gray-blue dusk — so that before you read any detail you read a looming dark mass, striding straight at you. That gloom is doing real work. A figure you can see clearly is a man. A figure sunk in shadow, large and advancing, is something closer to a force. Hold that feeling; the next chapter is about why a Paris audience found it threatening, and the threat starts right here, in how little of him you are allowed to see.
+      </p>
+
+      <SectionHeader accent={accent} label="The diagonal" title="Walking downhill, straight off the canvas" />
+      <p style={proseStyle}>
+        Now follow the <strong>diagonal</strong>, because the composition is one long slash from upper right to lower left, and the sower rides it like a man coming downhill fast. He is striding <em>down</em> a slope — his leading leg driving forward and downhill, bent and planted low; his trailing leg stretched back up the rise behind him; his body pitched toward you, his weight already past the point of balance, the way you walk a hill when gravity is helping. There is nothing static about him. Most painted figures stand still and pose; this one is caught mid-stride, leaning into the descent, and the slope of the ground feeds the motion. He is not posing in a field. He is crossing it, and he is crossing it toward you, and he is not going to stop.
+      </p>
+      <p style={proseStyle}>
+        The downhill diagonal is also why the figure feels like it is about to walk out of the frame. A man standing upright in the center is contained; a man striding down and out toward the lower corner is leaving. Millet built restlessness into the geometry. Even frozen in oil, the sower is going somewhere.
+      </p>
+
+      <SectionHeader accent={accent} label="The sowing arm" title="The throw, frozen at its most violent point" />
+      <p style={proseStyle}>
+        Look at his <strong>right arm</strong>, and look slowly, because it is the engine of the whole picture. It is flung all the way across his body to his <em>left</em> side, the hand open, the wrist past the snap of the motion — you are seeing the follow-through of a throw, the split second after the seed has left the fingers. To sow grain by hand is to walk and fling, walk and fling, in a steady rhythm, scattering seed in a wide arc with each step, and Millet caught the gesture at its most extreme: arm whipped across, hand spent, seed already gone into the dark furrows. It is the most active thing in the painting, and he chose the most violent instant of it.
+      </p>
+      <p style={proseStyle}>
+        And see where the seed comes from. His <strong>left hand</strong> grips a coarse sack or apron of grain slung at his hip — the supply. The motion of the whole figure is suddenly legible as one repeating loop: the left hand feeds the right, the right hand flings, the legs carry him a stride down the hill, and it begins again. Millet has painted not a pose but a <em>process</em>, the oldest agricultural process there is, mid-cycle — the mechanism of sowing, not a man holding a prop.
+      </p>
+
+      <SectionHeader accent={accent} label="The shadowed face" title="Almost no face at all" />
+      <p style={proseStyle}>
+        Now go to the head, and notice what is <em>missing</em>. A soft, floppy hat is pulled down low over his brow, and beneath it the face is sunk in shadow — you can make out that there is a face, but barely a feature, no clear eyes to meet, no expression to read. This is deliberate, and it is the quiet masterstroke of the picture. A clear face would make him a person — <em>this</em> man, with <em>this</em> mood, on <em>this</em> evening. The shadowed near-absence of a face makes him a type: the sower, any sower, every sower, Labor itself walking the hill. You cannot befriend him because you cannot see him. You can only watch him come.
+      </p>
+
+      <SectionHeader accent={accent} label="Boots of straw" title="The truth in the legs" />
+      <p style={proseStyle}>
+        Drop your eye to the lower half. He wears blue trousers and a rust-brown jacket — and his lower legs and feet are bound in <strong>straw or rag wrappings</strong>, caked with the same dark earth he is treading. This is the detail only a man who had been there would think to include. These are not the clean boots of a model in a studio. They are the makeshift protection a real field-worker ties on to walk cold, broken, muddy ground at the end of a long day — the cloth bindings wet and filthy, indistinguishable in places from the dirt itself. Millet, the actual peasant's son, knew exactly what a sower's feet looked like, and he refused to clean them up.
+      </p>
+
+      <SectionHeader accent={accent} label="The tiny world behind him" title="The ploughman, the oxen, the birds, the dusk" />
+      <p style={proseStyle}>
+        Finally, lift your eyes past the giant and find the little world in the background, because it sets the whole scale and the whole mood. Up the slope, far to the upper right and painted very small, a <strong>second man drives a team of oxen</strong>, finishing the ploughing — turning the soil the sower is now seeding. Behind that distant figure the sky warms to a band of pale orange: the last light of <strong>dusk</strong>, the close of the working day, the field being sown right up to dark. And at the upper left, a scatter of <strong>birds</strong> lifts into the gray air — already dropping in for the seed the moment it hits the ground, the ancient nuisance every sower fights.
+      </p>
+      <p style={proseStyle}>
+        Those small background figures are not decoration; they are the trick that makes the painting work. A man alone on a canvas could be any size. Put a tiny ploughman and a tiny ox-team on the hill behind him, and suddenly your eye does the math: the sower in front is <em>enormous</em>. Millet shrank the rest of the world so that one field hand could fill the sky. By the time you have read the dusk, the birds, the distant plough, and come back to the dark striding figure, you understand the scale he has been given — the scale, as the next chapter explains, that Paris had reserved for gods.
+      </p>
+    </article>
+  )
+}
+
+function SoSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–51" title="Sending the peasant to the capital" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        illet finished the painting in his Barbizon village and then did the thing every ambitious French painter had to do: he sent it to the <strong>Salon</strong> — the official annual State exhibition in Paris, run by the academy, the one show in all of France where a career was made or buried (you met it one level up in the Realism overview). The Sower went up in the <strong>Salon of 1850–1851</strong> (the show ran across that winter), which means it hung in the official halls, in the same rooms as the smooth mythological nudes and the grand history scenes — a dirt-caked field hand walking into the temple of beautiful gods.
+      </p>
+      <p style={proseStyle}>
+        And he did not walk in alone. In that <em>same</em> Salon — the same season, the same building — <strong>Gustave Courbet</strong> hung the two canvases that the Realism overview and the first work-reads in this chain are about: <strong>A Burial at Ornans</strong> (a whole village funeral painted ten feet tall, at the scale the Salon kept for the death of kings) and <strong>The Stone Breakers</strong> (two road laborers breaking rock, life-size and dead serious). So the Salon of 1850–51 is the hinge moment for the whole movement: in one show, Paris met both halves of Realism at once — Courbet's loud, monumental Paris assault and Millet's quiet, monumental Barbizon peasant. Two very different men, the same heresy: the ordinary working poor, made huge, hung where the gods belonged.
+      </p>
+
+      <SectionHeader accent={accent} label="Why a man with a seed-bag scared Paris" title="The fear in the room" />
+      <p style={proseStyle}>
+        Here is the part that is hard to feel today, when this looks like a handsome, dignified painting of a farmer: in 1850 it frightened people. Not "the critics found it unfashionable" frightened — genuinely, politically frightened. To understand why, you have to put two things side by side: <em>what</em> Millet painted, and <em>when</em> he painted it.
+      </p>
+      <p style={proseStyle}>
+        The <em>what</em> is everything Chapter 2 walked you through. A single peasant, almost faceless, painted dark and looming, made nearly life-size, striding straight downhill toward the viewer — given the scale, the seriousness, and the dead-center spotlight that the hierarchy of genres reserved for heroes and gods. A field hand was supposed to be, at most, a small picturesque figure in the corner of a landscape. Millet put him in the middle, blew him up, sank his face in shadow, and aimed him at you. To an eye trained by the academy, that was already a category error loud enough to feel like an insult.
+      </p>
+      <p style={proseStyle}>
+        The <em>when</em> is what turned the insult into a scare. The Sower went up only two years after <strong>1848</strong> — the revolution that toppled King Louis-Philippe and, for a few raw months, threw the ordinary people of France (workers, peasants, the poor) into the center of their own history before the army shut the experiment down (the Realism overview tells that year in full). In 1850 the memory was fresh, the countryside was restless, the propertied classes were nervous about the poor in a way that was not abstract, and the word "socialism" hung in the air like smoke. And into that nervous room walked a huge, dark, anonymous laborer, his face hidden, his arm cocked, advancing. Frightened viewers did not see a charming rustic. They saw the rural poor made monumental and faceless and <em>coming</em> — and they read a threat. The Boston museum that owns the painting today puts it plainly: viewers were shocked by Millet's heroic treatment of a lowly peasant, at a moment when the rural poor were suffering and socialism seemed to threaten respectable society.
+      </p>
+
+      <SectionHeader accent={accent} label="Praised and panned" title="The split verdict" />
+      <p style={proseStyle}>
+        The reaction was loud and divided, which is its own kind of success — a painting nobody argues about is a painting nobody remembers. Some critics admired exactly the energy Chapter 2 dwelt on: one called it an energetic study, full of movement, which is precisely right about that whipped-across sowing arm and that downhill stride. Others sneered at the surface. Millet did not finish his paint to the porcelain smoothness the Salon prized; he left it rough, dragged, and earthy, and one hostile critic dismissed the whole thing as "trowel scrapings" — as if the painter had simply scraped his palette onto the canvas. (That charge, "it isn't even finished," is the same one thrown at almost every painter in this whole era who refused the academic polish; you will hear it again from here to the Impressionists.)
+      </p>
+      <p style={proseStyle}>
+        Either way, the painting did the one thing a Salon picture exists to do: it could not be ignored. Hung in the official show, beside the gods, in the season of Courbet's bombshells, two years after the barricades, Millet's lone striding sower made the quiet half of Realism impossible to overlook — and made its painter, overnight, a name with a controversy attached.
+      </p>
+    </article>
+  )
+}
+
+function SoMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The oldest parable in the West" title="The size of a god, the job of a farmhand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t matters, enormously, that Millet chose a <em>sower</em> and not, say, a man chopping wood. For anyone raised in 19th-century Europe — which is to say everyone who would ever look at this painting — the image of a man casting seed by hand was not just farming. It was scripture. The <strong>Parable of the Sower</strong> (one of the best-known stories Jesus tells in the Christian Gospels, in which a farmer scatters seed that falls on rocky, thorny, and good ground) was as familiar as a nursery rhyme, and so was the old line about how, "as you sow, so shall you reap." A sower carried two thousand years of religious weight before Millet ever touched a brush.
+      </p>
+      <p style={proseStyle}>
+        So when Millet gives his anonymous field hand the great timeless gesture of casting seed, the picture quietly fills with that echo. He takes the most ordinary act in the human economy — a man scattering seed so that next year there will be bread — and paints it with the size, the gravity, and the dead-serious attention that European art had always saved for kings, saints, and gods. There is no story, no event, no king, no miracle: just a man doing the oldest job there is, blown up to the scale of an altarpiece. The peasant becomes something close to a biblical figure — labor as a sacrament, the field as a kind of altar, the eternal rhythm of seed and harvest standing in for the eternal rhythm of life and death. This is why the painting can feel solemn and even holy. Two paintings down this same chain, Millet will do it even more openly in <em>The Angelus</em>, where two peasants stop work to pray at the evening bell. The Sower is the first and fiercest version: no church, no bell, no prayer — just a man and the ground and a gesture as old as agriculture, painted as if it were a creed.
+      </p>
+
+      <SectionHeader accent={accent} label="The menace, and the denial" title="Was Millet a socialist?" />
+      <p style={proseStyle}>
+        And yet the very things that make the sower feel sacred are the things that frightened Paris. Here is the hard question, the one Chapter 3 left hanging: was this a political painting? Was the dark, looming, faceless, advancing peasant a deliberate class threat — the rural poor rendered as a coming storm, two years after they had nearly overturned France?
+      </p>
+      <p style={proseStyle}>
+        The honest answer is that the menace was largely in the eye of the frightened beholder, and that Millet himself spent years pushing the reading away. Because he kept painting peasants, and kept painting them big, he was <em>repeatedly accused of being a socialist</em> — a dangerous radical smuggling revolution onto the Salon walls. He rejected the charge. His defenders, then and since, argued that his real subject was not class war but something older and quieter: the timeless, almost classical dignity of rural life, the eternal bond between people and the soil. Millet seems to have genuinely meant the biblical, monumental reading more than the revolutionary one. He was not trying to paint a threat. He was trying to paint a truth.
+      </p>
+
+      <SectionHeader accent={accent} label="Monument and menace" title="The same brushstrokes, two ways" />
+      <p style={proseStyle}>
+        But — and this is the honest tension a good reading has to hold — it does not entirely matter what he meant. A painter does not get to control which feeling a frightened public reads off his canvas, and the same choices that make the sower feel <em>eternal</em> (the dark mass, the hidden face, the relentless advance, the giant scale) are exactly the choices that make him feel <em>dangerous</em>. The monument and the menace are the same brushstrokes seen by two different audiences. Millet painted reverence; a nervous Paris saw revolt; both were honestly there. That doubleness — sacred and threatening at once — is a large part of why this small painting refuses to settle down, and why people still argue about it.
+      </p>
+      <p style={proseStyle}>
+        And it is the deep link to Courbet, the Salon-mate of Chapter 3, even though the two men could hardly be less alike. Both granted the ordinary working poor the full weight of serious art — the whole argument of Realism, the Realism overview calls it — but they did it in opposite registers. Courbet did it loud, in Paris, at twenty-two feet, with a bored dog and a public sneer; Millet did it quiet, in a forest village, at three feet, with a shadowed face and no jokes at all. Same heresy, two volumes. The Sower is the gentle, monumental, almost reverent version of the revolution — and the most unsettling precisely because it is so calm.
+      </p>
+    </article>
+  )
+}
+
+function SoAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="An American at the Salon · 1851" title="Bought off the wall, shipped to Boston" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Sower</em> begins with a young American standing in front of it in the Salon and being changed. His name was <strong>William Morris Hunt</strong> (1824–1879), a painter from a well-off New England family who was studying in Europe. He saw the striding peasant on the Salon wall, was overwhelmed by it, and did two things at once: he bought it from Millet, and he went to live near Millet at Barbizon for about two years to learn from him directly.
+      </p>
+      <p style={proseStyle}>
+        That single purchase is why this very French painting now hangs in Massachusetts. Hunt became the great early evangelist for Millet in the United States — talking him up, collecting him, steering wealthy Boston friends toward his work. Through Hunt and the collectors he influenced, an unusual amount of Millet ended up in and around Boston, which is the reason an American city, of all places, owns one of the most famous images of a French peasant ever painted.
+      </p>
+
+      <SectionHeader accent={accent} label="Hunt to Shaw to the museum" title="The road to the MFA" />
+      <p style={proseStyle}>
+        From Hunt the painting passed, in 1874, to the Boston collector <strong>Quincy Adams Shaw</strong> (1825–1908), who assembled one of the largest private hoards of Millet anywhere on earth. And after Shaw's death his heirs gave it, in <strong>1917</strong>, to the <strong>Museum of Fine Arts, Boston</strong> — the MFA, the great encyclopedic art museum of New England. It has hung there ever since. So the version of <em>The Sower</em> reproduced everywhere — the one at the top of this very page — is the Boston picture, the one that traveled from a forest village outside Paris, to a Salon wall, to an American painter's hands, to a Boston collector, to a public museum, where any visitor can now stand in front of the striding peasant Paris once found frightening.
+      </p>
+
+      <SectionHeader accent={accent} label="Which Sower?" title="The versions question" />
+      <p style={proseStyle}>
+        One honest complication, because this read does not pretend to certainties it doesn't have: there is more than one Sower. Millet painted the subject more than once. The Boston canvas has a <strong>near-twin</strong>, an almost identical 1850 version that now lives at the Yamanashi Prefectural Museum in Japan, plus a handful of earlier and later relatives (an earlier version in Wales with a higher horizon and a smaller, less commanding figure; other oils and pastels scattered across museums). The Boston picture is the one history treats as <em>the</em> Sower — the famous, standard version, the one that became the image. But which exact canvas hung on the Salon wall in 1850–51, the Boston one or its Japanese twin, is genuinely debated among specialists, and you should hold it as an open question rather than a settled fact. What is not in doubt is the image itself, and the image is what changed everything.
+      </p>
+
+      <SectionHeader accent={accent} label="The Dutchman who couldn't let go" title="Van Gogh's lifelong obsession" />
+      <p style={proseStyle}>
+        And now the largest part of the afterlife, the part that matters most for the story this whole app is telling about how one painting feeds the next. A generation later, a struggling Dutch painter named <strong>Vincent van Gogh</strong> (1853–1890) fell completely, permanently in love with Millet. Of all the artists Van Gogh revered, Millet may have been the deepest — the painter of honest peasant labor, the model for what Van Gogh wanted his own art to be. And the image he came back to, over and over, for his entire short career, was <em>The Sower</em>.
+      </p>
+      <p style={proseStyle}>
+        Van Gogh copied and re-copied Millet's sower across his whole career — dozens of drawings and painted versions, returning to the striding figure again and again. But — and this is the crucial part, the part that makes it influence rather than imitation — he transformed it. Where Millet painted his sower in dusk-dark earth tones, a near-silhouette against a gray sky, Van Gogh blew the same figure open into blazing color: his great Arles sowers of 1888 set the striding peasant against searing orange fields and acid-yellow skies, sometimes with the setting sun placed like a halo right behind the worker's head, the religious echo Chapter 4 found in Millet now made explicit and electric. (One of the famous versions hangs at the Kröller-Müller Museum in the Netherlands.) Millet gave Van Gogh the figure and the meaning; Van Gogh gave it the light. That hand-off — a dark, monumental, half-scriptural peasant, passed from a French farmer's son to a Dutch preacher's son who set it on fire with color — is exactly the kind of line this app exists to draw.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The long life of a man with a seed-bag" />
+      <p style={proseStyle}>
+        Step back and the whole arc is one clean line. A real peasant's son, trained in the gods-and-heroes tradition, fled a plague into a forest village and there painted the one subject his teachers ranked dead last — a single field hand, almost faceless, walking a dusk hill and flinging seed — at the size and with the seriousness the art world kept for kings. A nervous Paris, two years after a revolution, looked at that monumental laborer and saw a threat; Millet insisted he had painted a truth; both were there in the same dark brushstrokes. An American carried it home to Boston. A Dutchman set it ablaze and carried it into modern art.
+      </p>
+      <p style={proseStyle}>
+        That is why a small, dark painting of a man doing farm chores is one of the most important pictures of the 19th century. It is the quiet half of the moment when art decided that the ordinary working present — not myth, not kings, not glory — was a fit subject for the most serious painting a person could make. Courbet announced it at the top of his lungs. Millet walked it down a hillside at dusk, threw a handful of seed, and let it grow.
+      </p>
+    </article>
+  )
+}

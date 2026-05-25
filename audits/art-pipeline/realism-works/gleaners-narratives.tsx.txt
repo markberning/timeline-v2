@@ -1,0 +1,212 @@
+// The Gleaners (Jean-François Millet, 1857) — the five chapters
+// Author draft for the art-content pipeline. Match the BuTown…BuAfterlife pattern exactly:
+// SectionHeader / DropCap / proseStyle / italicStyle / <strong>/<em>, <article style={{ padding: '18px 18px 40px' }}>,
+// `first` on the opener. No inline figures (follow Burial). Section ids: gleaning, looking, salon, meaning, afterlife.
+// Facts verified in gleaners-factpack.md. Dimensions ft/in only. Disputed readings flagged in prose, not asserted.
+// ─────────────────────────────────────────────────────────────
+
+function GlGleaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The custom" title="The poorest, allowed into the field" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore you look at the painting, you have to know the thing it is about, because the whole picture turns on a single old word: <strong>gleaning</strong>. When a field of grain was harvested, reapers cut the stalks, gathered them into bundles, and carted the bundles away. They were not careful. Stray heads of wheat fell to the ground and were left behind — too few to be worth a farmer’s time to chase, scattered across acres of stubble. <strong>Gleaning</strong> was the work of going over that stripped field afterward, on foot, bent double, and picking those dropped scraps up by hand, one at a time. It was the lowest, slowest, least rewarding kind of harvest labor there is, and it was done by the people who had nothing else: widows, orphans, the old, the landless poor.
+      </p>
+      <p style={proseStyle}>
+        Here is the part that makes it more than just hard work. For centuries, in much of Europe, gleaning was not begging and it was not stealing — it was a <em>right</em>. The poorest had a recognized, customary entitlement to walk into someone else’s harvested field and take what the harvest had dropped. The landowner did not get to say no. It was one of the oldest pieces of the social contract there is: the people who owned the land were obliged to leave the leavings for the people who owned nothing.
+      </p>
+
+      <SectionHeader accent={accent} label="Where the right comes from" title="Older than France" />
+      <p style={proseStyle}>
+        The custom is genuinely ancient. It is written into the Hebrew Bible as a flat command to harvesters: do not reap the very corners of your field, and do not go back for what you dropped — <em>leave it for the poor and the stranger</em> (the instruction appears in Leviticus and again in Deuteronomy). The most famous story of it is the <strong>Book of Ruth</strong>, in which a destitute widow named Ruth survives by gleaning behind the reapers in the field of a man named Boaz, who quietly tells his workers to drop extra on purpose for her. Any educated French viewer in 1857 would have had Ruth somewhere in the back of their mind looking at three women gleaning — which matters, because it meant the subject came pre-loaded with a faint religious dignity, whether Millet wanted it there or not.
+      </p>
+      <p style={proseStyle}>
+        And it was not just a pious memory; it was law. In France a royal edict of <strong>1554</strong> actually regulated gleaning — it permitted the poor to enter harvested fields, but only <em>between sunup and sundown</em>, hedging the right around with rules so the landowners and the gleaners both knew exactly where they stood. So by Millet’s day gleaning was two things at once: an ancient near-sacred custom <em>and</em> a regulated, on-the-books permission. The poor had a legal key to the rich man’s stubble for the daylight hours, and then they had to leave.
+      </p>
+
+      <SectionHeader accent={accent} label="A right on its way out" title="Painting something that was dying" />
+      <p style={proseStyle}>
+        Now the quiet sadness underneath the picture. By the middle of the nineteenth century, the gleaning right was disappearing. The reasons were the same forces remaking the whole countryside: farms were getting bigger and more business-minded, common land that the poor had used for generations was being fenced off and privatized (a long process historians call <strong>enclosure</strong> — turning shared land into private property), machinery was starting to harvest more cleanly and leave less behind, and landowners increasingly resented strangers tramping through their fields at all. The old obligation to leave the leavings was curdling into a nuisance to be policed. None of this happened on one dated afternoon — it was a slow squeeze across decades — but the direction was unmistakable: the right of the poorest to glean was being quietly strangled out of existence.
+      </p>
+      <p style={proseStyle}>
+        Hold that, because it changes what the painting is. Millet was not just recording a timeless rural chore. He was monumentalizing a custom that was already half gone — painting, at the size and seriousness of serious art, the very poorest people exercising one of the last rights they had left, in the years that right was being taken away. That is part of why the picture feels less like a snapshot and more like an elegy. It is a portrait of a vanishing piece of mercy.
+      </p>
+
+      <SectionHeader accent={accent} label="The man who painted it" title="A peasant’s son at Barbizon" />
+      <p style={proseStyle}>
+        The painter was <strong>Jean-François Millet</strong> (1814–1875), and he knew this world from the inside. He was born into a farming family in Normandy, in the rural northwest of France, and grew up around exactly this kind of labor before training as a painter and, in 1849, settling in the village of <strong>Barbizon</strong> (on the edge of the great Forest of Fontainebleau, southeast of Paris). Barbizon gave its name to the <strong>Barbizon School</strong> — a loose group of painters who left the city studio to paint the countryside and country life directly, from the real thing — and Millet became its great painter of <em>people</em>.
+      </p>
+      <p style={proseStyle}>
+        And he did not arrive at this picture in a hurry. The gleaning subject obsessed him for years before the great canvas existed. He circled it through the first half of the 1850s in drawings, in etchings and prints, even in an earlier upright, vertical version of the composition, working the same three stooped figures over and over before he finally settled them into the wide, horizontal painting he sent to the Paris Salon — the official annual State exhibition — in <strong>1857</strong>. That slow approach matters. This is not a scene Millet glimpsed once and dashed down; it is a subject he chewed on for the better part of a decade, refining it toward something monumental. That long gestation is part of what separates the picture from reportage. It is not a sketch of a thing seen. It is a considered, deliberate statement, built up over years.
+      </p>
+      <p style={proseStyle}>
+        Where does this sit in the bigger story? Millet is one half of <strong>Realism</strong>, the movement (told in full one level up in this app) that around 1848 insisted ordinary modern life — laborers, peasants, the poor — deserved the scale and seriousness art had always saved for gods and kings. The loud, public, city-facing half of Realism was <strong>Gustave Courbet</strong>, who hung a village funeral ten feet tall and dared the Salon to flinch. Millet is the quiet, rural half: no theatrics, no manifesto, just the people of the fields painted with a gravity nobody had spent on them before. He had already made <em>The Sower</em> (1850), a lone peasant flinging seed across a dusk field, monumental and almost menacing. Now he turned to three women picking up scraps — and somehow that turned out to be the more frightening picture of the two.
+      </p>
+    </article>
+  )
+}
+
+function GlLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Three women, bent over a stripped field" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because it is part of the argument and it is easy to get wrong. <em>The Gleaners</em> is not one of those room-swallowing ten-foot canvases — it is a manageable wall picture, about <strong>2 feet 9 inches tall and 3 feet 8 inches wide</strong> (roughly a yard high, a yard and a bit across). That is the scale of a respectable landscape or a comfortable family portrait. The provocation, as we will see in the next chapter, was not that the painting was gigantic; it was that this <em>much</em> seriousness, this much care, was being spent on three of the poorest people in France doing the lowest work there is. But first, just look at it.
+      </p>
+      <p style={proseStyle}>
+        The picture splits cleanly into two zones, and the meaning lives in the split. The bottom and front belong to three women, stooped over a flat, stripped field — the cool, shadowed, near foreground, painted in dust-browns and faded grays. Behind them, the field opens out into warm golden light and an enormous, busy, overflowing harvest. Front: poverty, bent low. Back: abundance, blazing. Between them, a wide stretch of bare stubble like a moat. Once you see that division you cannot unsee it; it is the whole sentence the painting is saying.
+      </p>
+
+      <SectionHeader accent={accent} label="The three backs" title="Labor painted as posture" />
+      <p style={proseStyle}>
+        Look first at the bodies, because Millet tells you everything about the work through their backs — not their faces, which are shadowed and turned away, but the lines of their spines. The two women on the left are folded almost in half, doubled over at the waist, hands down near the stubble, faces dropped toward the ground they are searching. The one in the very center reaches down with the patient, mechanical bend of someone who has done this a thousand times and will do it a thousand more before dark.
+      </p>
+      <p style={proseStyle}>
+        The third woman, on the right, is the one to watch, because she breaks the rhythm. She is the most nearly <em>upright</em> of the three — still stooped, still bent, never standing fully straight, but rising a little, as if pausing for one second to ease a back that has been folded over all day. That half-straightened body is the most human thing in the picture. You have felt that exact motion if you have ever weeded a garden or carried something heavy too far: the involuntary little stand-up-and-stretch that the body demands. Millet builds the entire weight of the labor into that one pose. There is no grimace, no tear, no caption telling you it is hard. The aching back says it for him.
+      </p>
+      <p style={proseStyle}>
+        And the three together make a slow, deliberate diagonal across the foreground — left, center, right; lowest, low, rising — so that your eye reads them almost like a single body moving through one full cycle of the work: bend, gather, straighten, repeat. Three women, or one woman’s whole exhausting day shown three times at once.
+      </p>
+
+      <SectionHeader accent={accent} label="The caps" title="Blue, red, yellow — the loudest thing here" />
+      <p style={proseStyle}>
+        Now look at color, because there is almost none, and that makes the little there is shout. The field is browns and grays, the women’s heavy clothes are muted and dull — and then, on their heads, three clean notes ring out: a <strong>blue</strong> cap on the woman at the left, a <strong>red</strong> one on the woman in the center, a warm <strong>yellow-gold</strong> kerchief on the woman at the right. Blue, red, yellow — the three primary colors, the brightest things in the entire painting, the first place your eye lands.
+      </p>
+      <p style={proseStyle}>
+        Sit with how strange that is. In the grand paintings the Salon prized, the most saturated, most expensive color — the deep reds and brilliant blues — was reserved for the robes of kings, cardinals, the Virgin Mary. Here Millet has taken those very colors and handed them to three field-workers’ headscarves, on the heads of women bent over picking up garbage grain. It is a small, quiet, completely deliberate act of dignity: the loudest color in the room goes to the lowest people in it.
+      </p>
+
+      <SectionHeader accent={accent} label="The yield" title="What a whole day actually gets you" />
+      <p style={proseStyle}>
+        Follow the women’s hands down and look at what they are actually carrying, because it is the bleakest detail in the picture. The woman on the right holds a thin little bunch of stalks — a handful, no more. The center woman has another small clutch tucked at her apron. This, after hours bent double across acres of stubble, is the harvest of the gleaners: a few fistfuls of grain that the reapers happened to let fall. The meagerness is not an accident of the painting; it is the subject of the painting. They are gathering what the harvest threw away, and there is heartbreakingly little of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The harvest behind" title="The abundance they’re not part of" />
+      <p style={proseStyle}>
+        Now lift your eyes off the three women to everything happening behind them, because Millet has loaded the distance with everything they don’t have. Out in the golden light stand <strong>tall round stacks of grain</strong>, fat and overflowing. There is a <strong>loaded cart</strong>, long rows of bundled <strong>sheaves</strong>, and a whole <strong>crew of workers</strong> busily bringing the crop in — the real harvest, the rich one, the one that fills barns. The far field is sunlit, warm, abundant, almost glowing. It is everything the foreground is not.
+      </p>
+      <p style={proseStyle}>
+        And small, off to the right among the busy crew, sits a figure on horseback. By the usual reading he is the farm’s <strong>overseer</strong> — the mounted steward who watches the work get done. He is easy to miss, but once you find him the whole social order of the field clicks into place: someone owns this enormous harvest and supervises it from a horse, and the three women in front own none of it and gather its scraps on foot. Wealth on horseback in the warm distance; poverty bent double in the cool front. Millet did not paint a label on any of this. He just arranged the field so that you cannot look at the three women without the rich harvest sitting right behind their heads, and cannot look at the rich harvest without the three women blocking your way to it.
+      </p>
+      <p style={proseStyle}>
+        Behind all of it: a low, flat horizon, a few farm buildings, a hazy sky — the ordinary countryside around Barbizon, refused any drama at all. No mountains, no storm, no opening heaven. Just the plain ground these people work, lit by an end-of-summer sun, going quietly on being ground. The grandeur of this painting is not in any view. It is entirely in three tired women and the dignity of the attention paid to them.
+      </p>
+    </article>
+  )
+}
+
+function GlSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1857" title="Three poor women walk into the Salon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1857 Millet sent the painting to the <strong>Salon</strong> — the official, State-run annual art exhibition in Paris, the one show in France that could make a painter’s name or bury it (you met it one level up in the Realism overview; it was run by <strong>the academy</strong>, the Academy of Fine Arts, the state institution that set the rules of what good art was). To hang in the Salon was to be measured, in public, against everything respectable in French painting at once. And into that room, among the gods and goddesses and noble Romans, Millet hung three of the poorest women in France bent over a field picking up scraps.
+      </p>
+      <p style={proseStyle}>
+        It did not go well. The reception from the middle and upper classes was openly hostile — not the polite dislike a painting shrugs off, but something closer to alarm. To understand why three women gleaning could <em>frighten</em> people, you have to put two things next to the canvas: an old rule about what art was for, and a fresh memory about what the poor could do.
+      </p>
+
+      <SectionHeader accent={accent} label="The rule it broke" title="Peasants at the size of saints" />
+      <p style={proseStyle}>
+        The rule first. European art ran on a ranking system, an official ladder of subject-matter the academy enforced. At the very top sat <strong>history painting</strong> — and “history” here did not mean real events; it meant grand scenes from scripture, from Greek and Roman myth, from ancient legend, the noble and the timeless. Those subjects got the biggest canvases, the most serious treatment, the prizes, the prestige. At the very bottom of the ladder sat plain modern life: peasants, laborers, the everyday. You were <em>allowed</em> to paint a peasant — but as a small, charming, picturesque thing, a rustic decoration. You were not allowed to paint a peasant with the grave, careful, full-dress seriousness the ladder reserved for gods.
+      </p>
+      <p style={proseStyle}>
+        Millet broke exactly that. <em>The Gleaners</em> is not a huge canvas — it is a moderate wall picture, not a ten-foot wall (that is Courbet’s game) — but it treats its three poor women with the dead-serious gravity, the monumental simplicity, the sculptural weight the academy kept for heroes. He gave field-workers the <em>dignity</em> of high art without the size, and to an eye trained on the ladder that was its own kind of provocation: he had taken the lowest possible subject and painted it as if it were among the highest. The category was being violated not by scale but by seriousness — and the Salon’s eye was finely tuned to feel that.
+      </p>
+
+      <SectionHeader accent={accent} label="The three Fates of Poverty" title="What a hostile critic saw" />
+      <p style={proseStyle}>
+        Now the famous insult, and it is worth quoting because it tells you exactly how the painting landed. But first, one piece of background you need, because the insult turns on it. The <strong>Three Fates</strong> are figures from Greek and Roman myth: three goddesses who between them spin, measure, and cut the thread of every human life — the implacable powers of destiny. Hold that image, because a critic reached for it. One critic looked at the three stooped women and recoiled: “his three gleaners have <strong>gigantic pretensions</strong>,” he wrote, “they pose as <strong>the Three Fates of Poverty</strong> … their ugliness and their grossness unrelieved.”
+      </p>
+      <p style={proseStyle}>
+        Unpack that. To say Millet’s three peasants “pose as the Three Fates” was to say they loom, that they have been made too large, too grave, too <em>important</em> — that three women picking up wheat had been given the bearing of the goddesses who decide when you die. The critic meant it as ridicule (“gigantic pretensions” — who do these scraps-gatherers think they are?). But read it the other way and it is an accidental compliment, and proof Millet’s move had worked: he <em>had</em> given three nobodies the gravity of fate itself, and the critic felt it, and it scared him. The word “ugliness” is the giveaway — to the Salon eye, refusing to prettify the poor read not as honesty but as an attack on beauty.
+      </p>
+
+      <SectionHeader accent={accent} label="The shadow of 1793" title="Why scraps looked like a threat" />
+      <p style={proseStyle}>
+        The deeper fright was not aesthetic; it was political, and it came from the calendar. The painting went up in <strong>1857</strong>, less than a decade after <strong>1848</strong> — the February revolution that toppled the king and, for a few raw months, put the ordinary poor of France (workers, peasants, the dispossessed) briefly at the very center of their own history, before the army closed the experiment down with great violence (the Realism overview tells that year in full). The propertied classes had been genuinely frightened by 1848, and they had not forgotten it. The poor, in 1857, were not a quaint background detail. They were a recent and real political force.
+      </p>
+      <p style={proseStyle}>
+        So when the rural poor turned up <em>monumentalized</em> in the State’s own exhibition — large, grave, dignified, undeniable — a nervous bourgeois eye did not see a tender pastoral. It saw a threat. One critic reportedly read into the canvas “an alarming intimation of the scaffolds of <strong>1793</strong>” — 1793 being the bloodiest year of the French Revolution, the year of the guillotine and the Terror, when the poor of France had cut off the heads of their betters. Three stooped women gathering wheat had, somehow, conjured the memory of the executioner’s blade. That is an astonishing thing for a picture of field-gleaning to do, and it is the clearest possible measure of how raw the nerve was. Millet had not painted a riot. He had painted three poor women with respect — and to the people who owned France in 1857, respect for the poor was itself a frightening thing to see hung on a wall.
+      </p>
+    </article>
+  )
+}
+
+function GlMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What Millet meant" title="Truth without prettiness — and without a sermon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o what was Millet actually doing? Was this a political painting — a deliberate indictment of an unjust society, a fist raised for the poor? Or was it simply an honest man painting, with great seriousness, a world he had grown up in and loved? Here it is worth being plain about the state of the argument: Millet’s politics are genuinely disputed among historians, and they have been for a long time. The art historian Robert Herbert, who did more than anyone to recover what Millet actually thought, read deep social feeling into the work; others have pushed back, warning against turning a Normandy peasant’s son into a tidy socialist. The honest answer is that the question has never been settled, that the painting holds both readings at once, and that it refuses to resolve them. We are not going to pretend otherwise here.
+      </p>
+      <p style={proseStyle}>
+        Start with what the painting plainly is. It is sympathetic — there is no question Millet is <em>with</em> these women, not above them. But the sympathy is the unusual kind: it has no sugar in it. He does not make the gleaners pretty. He does not give them sweet faces or rosy cheeks or a single tear glistening for effect. He does not arrange a kindly farmer pressing bread into their hands, or a shaft of golden light blessing their labor, or any of the cues a Victorian picture would use to tell you exactly how to feel. He gives you three tired, anonymous, heavy bodies doing brutal work, painted with grave respect and nothing else. The sympathy is in the seriousness, not in any softening. That is the whole secret of the picture: <em>dignity without sentimentality.</em>
+      </p>
+
+      <SectionHeader accent={accent} label="Dignity, threat, and the artist’s own word" title="The same picture, three ways" />
+      <p style={proseStyle}>
+        That refusal to sweeten is exactly why the painting could be read in opposite directions by opposite people. To someone disposed to sympathy, the gravity reads as <em>dignity</em>: Millet has insisted that these women, doing this lowly work, are as worthy of serious art as any saint or king — that their bent backs carry real human weight. To someone disposed to fear — the propertied Salon critic of the last chapter — the very same gravity reads as <em>threat</em>: why has the painter made the poor so large, so grave, so unignorable? What is he trying to make us feel about them? The painting did not change between those two viewers. Only the nerve it touched did. A picture that can be both an icon of human dignity and an “intimation of the scaffolds of 1793,” depending only on who is looking, is doing something genuinely powerful and genuinely unstable.
+      </p>
+      <p style={proseStyle}>
+        And then there is a third voice in the argument — Millet’s own. He resisted the political label, and we can hear him doing it: in his letters to his friend and biographer <strong>Alfred Sensier</strong>, Millet framed his peasants as a matter of sympathy and truth, the world he had grown up in and felt deeply, not a program he was pushing. He bristled at being read as an agitator and insisted he was painting human beings, not propaganda. So one honest fact is that the artist himself denied an explicit political agenda. But here is the catch, and it is a real one: a painter does not get the last word on what his picture <em>does</em> once it is on a public wall. Whatever Millet meant in his own heart, the canvas walked into the Salon and frightened the rich, and that effect is part of the work’s real history whether he aimed for it or not. The safest true thing to say is this — and it leaves the tension standing rather than pretending to settle it: Millet was a man of deep sympathy for the rural poor who insisted, in his own words, that his sympathy was human, not partisan; and the world insisted on reading partisanship into it anyway. Both of those are real. The gap between them is where the painting lives.
+      </p>
+
+      <SectionHeader accent={accent} label="The thing it may leave out" title="No biblical comfort — or is there?" />
+      <p style={proseStyle}>
+        One reading of the picture, and it is the freshest argument about it, turns on what Millet may have chosen <em>not</em> to include. We saw in the first chapter that gleaning carries an old religious warmth — the Book of Ruth, the biblical command to leave the leavings for the poor, the sense of a sacred mercy built into the harvest. On this reading, Millet could have leaned on all of that and pointedly refused to. There is no halo of consolation, no kindly Boaz quietly telling his reapers to drop extra grain for these women, no shaft of holy light, no sense that God or the community is reliably watching over them. The foreground poverty and the sunlit rich harvest behind it are simply set side by side, divided by bare ground, with no bridge of charity drawn between them. The Bible says: leave grain for the poor as an act of holy community. Millet’s field, on this account, shows the poor reduced to scavenging a few stalks while the real harvest is carted off behind their backs, and offers no comfort about it at all — full respect, withheld consolation, from them and from us.
+      </p>
+      <p style={proseStyle}>
+        But it is worth being honest that this is one art-historical reading, not a settled fact, and a strong counter-current runs the other way. Other writers hear something quietly sacred in exactly this canvas — they argue that Millet treats peasant labor with a reverence that <em>is</em> the consolation, that the gravity he lends these bent women is itself a kind of blessing, an echo of Ruth’s dignity rather than its absence. The painting does not announce which is right; it carries both. Read it cold and it is a bleak field with no mercy in it; read it warm and the seriousness Millet spends on the gleaners is a mercy of its own kind. That unresolved tension — whether the picture withholds biblical comfort or quietly supplies a different one — is part of why it keeps holding the eye. And the women themselves deepen it: they are anonymous. We have no names for these three gleaners, no record of who they were, and that is its own part of Millet’s point — these are not portraits of individuals but the nameless poor made monumental, every gleaner who ever bent over a stripped field at once.
+      </p>
+
+      <SectionHeader accent={accent} label="The company it keeps" title="Millet’s other peasants — and Courbet" />
+      <p style={proseStyle}>
+        It helps to see <em>The Gleaners</em> among its siblings. Two years before it, in spirit, stands <em>The Sower</em> (1850) — Millet’s lone peasant striding a dusk field, flinging seed in a great dark arc, monumental and almost menacing. Two years after, in the same emotional family, comes <em>The Angelus</em> (painted 1857–59) — two peasants standing in a field at evening, heads bowed, pausing in their work to pray at the sound of the church bell, tiny under an enormous sky. Set the three together and Millet’s whole project comes clear: sowing, gleaning, praying — the elemental acts of the rural poor, each given the weight of scripture without a word of scripture spoken. And across the movement stands his opposite number, <strong>Courbet</strong>, doing the loud version of the same revolution in the city and the provincial town — a whole village funeral ten feet tall (his story is one level up). Courbet shouted Realism into being. Millet whispered it, bent over a stubble field. The whisper, it turns out, carried just as far.
+      </p>
+    </article>
+  )
+}
+
+function GlAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The price reverses" title="Three thousand francs to three hundred thousand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Gleaners</em> is one of the great reversals in art history, and you can measure it in money. When Millet first sold the painting, in 1857, he was short of cash and let it go for <strong>3,000 francs</strong> — below even his own asking price of 4,000. The despised picture, the one the critics called ugly and dangerous, went out cheap. That is where the story starts: a working painter, underpaid, parting with a masterpiece because he needed the money.
+      </p>
+      <p style={proseStyle}>
+        Now jump forward about thirty years. By the 1880s the canvas had risen into the collection of a Paris banker, <strong>Ferdinand Bischoffsheim</strong> — already a sign that the despised had become the desirable. And in <strong>1889</strong> it went to auction and sold for <strong>300,000 francs</strong>. Read those two numbers together: three thousand francs to three hundred thousand, a hundredfold jump in a single working lifetime. The picture that frightened the bourgeoisie of 1857 had become, by 1889, exactly the kind of trophy the bourgeoisie paid fortunes to own. Within a week of that sale it was announced that the buyer was <strong>Jeanne-Alexandrine Louise Pommery</strong> — head of the great Pommery champagne house, one of the most successful businesswomen in France. The gleaners now belonged to a champagne fortune.
+      </p>
+
+      <SectionHeader accent={accent} label="From a champagne fortune to the nation" title="Pommery’s bequest" />
+      <p style={proseStyle}>
+        And then Mme Pommery did the thing that closes the circle. When she died, in <strong>1891</strong>, her will gave the painting to the nation: <em>The Gleaners</em> was bequeathed to the <strong>Louvre</strong>, the great Paris museum, the very heart of official French art. Sit with that for a moment. The picture the State’s own official Salon had recoiled from in 1857 — the one a critic had compared to the guillotines of the Terror — was handed, free, into the permanent keeping of the nation whose taste it had once outraged. The threat had become the heirloom. And there is a quiet symmetry worth naming: this painting of the rural female poor — three women who owned nothing — was carried into the national collection by a woman of great independent wealth, Louise Pommery, who had built and run one of France’s major champagne houses on her own account. The scandal had become a national treasure that one of the most successful businesswomen in France thought important enough to give to her country forever.
+      </p>
+      <p style={proseStyle}>
+        (A small note for the careful: the route into the national collection runs through Pommery’s 1889 purchase and her 1891 bequest, not through any single tidy “gift” a year before — the often-repeated shorthand. The verified dates are the ones above.)
+      </p>
+
+      <SectionHeader accent={accent} label="Louvre to Orsay" title="The wall it hangs on now" />
+      <p style={proseStyle}>
+        For most of the twentieth century the painting hung among the national collections, and then it found its permanent home. In <strong>1986</strong> the <strong>Musée d’Orsay</strong> opened on the Left Bank of the Seine — a museum dedicated to nineteenth-century art, installed inside the converted shell of the Gare d’Orsay, a grand old Paris railway station that had been saved from demolition and rebuilt as a gallery. The Louvre’s nineteenth-century holdings crossed the river to fill it, and <em>The Gleaners</em> went with them. It is there now, on permanent view, and you can stand in front of those three bent women any day the museum is open — a few feet from Courbet’s village funeral and Millet’s own <em>Angelus</em>, the quiet half of Realism gathered in one set of rooms.
+      </p>
+
+      <SectionHeader accent={accent} label="The most reproduced poor women in the world" title="Why it never went away" />
+      <p style={proseStyle}>
+        But the truest measure of the painting’s afterlife is not the auction price or the museum wall. It is how completely the image escaped the frame. <em>The Gleaners</em> became one of the most reproduced pictures of the entire nineteenth century — printed and reprinted, copied, hung in countless homes, taught to schoolchildren, parodied, quoted, turned into a shorthand for rural labor and rural poverty everywhere. Three anonymous women, bent over a stripped field, gathering the grain the harvest dropped, became one of the most recognized images on Earth.
+      </p>
+      <p style={proseStyle}>
+        It also lit a fire in other painters. The young <strong>Vincent van Gogh</strong> worshipped Millet, copied his peasant subjects again and again, and built his own early art on Millet’s example of taking field labor seriously; Millet’s name runs all through Van Gogh’s letters. Through Van Gogh and others, the gleaners’ dignity passed down into the painting of the poor for generations.
+      </p>
+      <p style={proseStyle}>
+        So put the whole arc in one breath. Millet took the very poorest people in France, doing the very lowest work there is — gathering the scraps a vanishing right still let them gather — and painted them with the grave seriousness art had always saved for gods and kings. The Salon of 1857 saw a threat and recoiled. Within a lifetime the same world paid a hundred times the original price to own the picture, gave it to the nation, and hung it where the schoolchildren file past. The three bent women won. They are still bent, still gathering, still there on the wall in Paris — and now everyone agrees they were always worth looking at.
+      </p>
+    </article>
+  )
+}

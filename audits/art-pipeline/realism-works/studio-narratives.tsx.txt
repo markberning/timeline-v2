@@ -1,0 +1,187 @@
+// ─────────────────────────────────────────────────────────────
+// The Painter's Studio (Courbet, 1854–55) — the five chapters
+// section ids: refusal · allegory · reading · cast · afterlife
+// No inline figures (matches Burial). Helpers SectionHeader / DropCap /
+// proseStyle / italicStyle assumed in scope, exactly as the Bu… functions.
+// ─────────────────────────────────────────────────────────────
+
+function StRefusal({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1855" title="The biggest show on Earth says no" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1855, Paris threw a party the size of an empire. The <strong>Exposition Universelle</strong> (a world&rsquo;s fair, the kind of vast international exhibition where every nation hauls in its machines and its manufactures and its art to show off in one place) sprawled across the city, and tucked inside it was a grand official art show meant to crown the best painting in France. Getting in was the whole game. A career was made in rooms like that. And the jury that decided who got in looked at the submissions of a loud, bearded provincial named <strong>Gustave Courbet</strong> (1819&ndash;1877) &mdash; the painter at the center of the new <strong>Realism</strong> movement, the school that insisted ordinary contemporary life was a fit subject for serious art, whose larger story is told in the Realism overview one level up in this app &mdash; and they made a decision that backfired beautifully.
+      </p>
+      <p style={proseStyle}>
+        They accepted a good number of his smaller pictures &mdash; and then they refused his <em>two largest canvases</em>, the two monumental paintings he most wanted on that wall: <em>The Painter&rsquo;s Studio</em> and <em>A Burial at Ornans</em> (the huge, scandalous funeral scene that has its own read in this app). The first of the two is the largest, strangest thing he had ever made: a canvas nearly <strong>twelve feet tall and twenty feet wide</strong> with a title so long it reads like a dare &mdash; <em>The Painter&rsquo;s Studio: A Real Allegory Summing Up Seven Years of My Artistic and Moral Life</em>. The jury looked at that wall of dim brown paint, with its naked model and its bored cat and its crowd of recognizable Parisians, and decided it would not hang in their show. The two refused giants would become the twin anchors of the building he was about to put up in answer.
+      </p>
+
+      <SectionHeader accent={accent} label="The tent across the road" title="Courbet builds his own show" />
+      <p style={proseStyle}>
+        Most painters, refused by the one show that mattered, would have swallowed it and waited a year. Courbet did the opposite. He had a crucial ally in <strong>Alfred Bruyas</strong> (1821&ndash;1877), a collector from Montpellier in the south of France &mdash; and Bruyas was far more than a checkbook. The two men had been writing to each other for years about exactly the ideas this painting is built on: what art was for, who it should serve, the artist&rsquo;s independence from the State and the Salon. That correspondence helped shape the Studio&rsquo;s whole conceptual program, and Bruyas put up much of the money to make the answer real. With his backing Courbet built a building of his own &mdash; the <strong>Pavilion of Realism</strong> &mdash; a temporary hall near the official fair, hung about forty of his paintings inside it with the two refused giants, the <em>Studio</em> and the <em>Burial</em>, anchoring the room, and <em>charged admission</em>. If the State would not show his masterpieces, he would stand at the door of his own one-man museum and sell tickets to them. The full story of that tent &mdash; the first artist-run solo show of its kind, the printed manifesto inside &mdash; belongs to the Realism overview. What matters here is the picture it was built around. (Bruyas himself is in the painting, over on the warm right-hand side, among the friends; the cast chapter comes back to him.)
+      </p>
+      <p style={proseStyle}>
+        Because the tent is the famous gesture, but the painting is the actual argument. Courbet did not build a pavilion to protest a rejection in the abstract. He built it to show <em>this</em> &mdash; a single canvas into which he had tried to cram his entire world, his whole art, his friends and enemies and the society he painted, all sorted into one enormous room. The rejection only makes sense once you understand what the jury was rejecting: not just a big painting, but a painting that quietly announced it was the summary of a life.
+      </p>
+
+      <SectionHeader accent={accent} label="The puzzle in the title" title="A “real allegory”" />
+      <p style={proseStyle}>
+        Start with the title, because the title is the first thing that ought to stop you. Courbet called the picture a &ldquo;<strong>real allegory</strong>.&rdquo; That is a contradiction, and he meant it to be. An <strong>allegory</strong> is a picture where the things you see stand for ideas you can&rsquo;t &mdash; a blindfolded woman holding scales <em>means</em> Justice; a skeleton with a scythe <em>means</em> Death. Allegory is the opposite of realism, which paints the world as it plainly is and lets a riverbank just be a riverbank. To call something a &ldquo;real allegory&rdquo; is like advertising a true fairy tale or a documentary myth. The words fight each other on purpose.
+      </p>
+      <p style={proseStyle}>
+        And that fight is the whole key to the painting. <em>The Painter&rsquo;s Studio</em> is, at face value, a completely real scene: a studio, a painter, his model, some visitors, the junk on the floor. Nothing in it is impossible. But every figure has also been chosen and placed to <em>mean</em> something &mdash; this person stands for poverty, that one for wealth, this group for the friends who back him, that group for the world he paints. It is a real room that is secretly a map. The jury could feel that double-game running under the brown paint, and a real allegory summing up seven years of one man&rsquo;s life was not the sort of thing the official Salon (the State-run exhibition the academy used to rank French art) knew how to award a medal to. The next chapter unpacks what those seven years were, and why the painter put himself in the dead center of all of it.
+      </p>
+    </article>
+  )
+}
+
+function StAllegory({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The subtitle" title="Seven years, summed up" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he title promises a &ldquo;summing up of <strong>seven years</strong>,&rdquo; and the arithmetic is not idle. Painted across the winter of <strong>1854&ndash;55</strong>, the picture looks back roughly seven years to <strong>1848</strong> &mdash; the year a revolution toppled a French king and, for a few raw months, put ordinary working people at the center of their own history (the Realism overview tells that year in full). Those seven years, 1848 to 1855, are the years Realism was born and Courbet became its bruising public face. So the painting is not a random studio scene. It is Courbet stopping at a milestone, looking back over the most important stretch of his life, and trying to get the entire thing &mdash; his art, his people, his enemies, his world &mdash; onto one canvas at once.
+      </p>
+      <p style={proseStyle}>
+        That ambition is enormous and slightly absurd, and Courbet knew it. In a letter to his friend the writer <strong>Champfleury</strong> (Jules Husson, 1821&ndash;1889, the critic credited with first using the word &ldquo;Realism&rdquo; for the new art) he tried to explain the thing, and his explanation is where almost everything we know about the painting&rsquo;s plan comes from. He described it, in the standard translation, as the whole world coming to him to be painted &mdash; society, he said, shown at its best, its worst, and its average. One room. All of it. The painter in the middle.
+      </p>
+
+      <SectionHeader accent={accent} label="The man in the middle" title="The painter, painting the wrong thing" />
+      <p style={proseStyle}>
+        And the painter <em>is</em> in the middle &mdash; not off to one side observing, but planted in the dead center of a nearly twenty-foot canvas, seated at his easel, palette in hand. This is a <strong>self-portrait</strong> at the very heart of his own world, which is already an enormous claim to make: in 1855 the center of a monumental painting was reserved for a saint, a hero, an emperor. Courbet gave it to a working painter in his shirtsleeves &mdash; himself.
+      </p>
+      <p style={proseStyle}>
+        Now look at what he is painting, because it is the sharpest joke in the picture. Surrounded by a whole theatrical room of human society &mdash; the rich, the poor, the famous friends, the strange types from the street &mdash; Courbet at his easel has turned away from all of it and is painting a <em>landscape</em>. A plain green river valley, a view of the <strong>Loue</strong> (pronounced &ldquo;loo&rdquo;), the river of his home country near the town of Ornans. The most dramatic gathering of human beings is at his back, and he is calmly painting some trees and water. That is Realism&rsquo;s entire attitude folded into one gesture: the painter declines the grand human drama everyone expects him to make a picture of, and paints the unremarkable real world instead.
+      </p>
+
+      <SectionHeader accent={accent} label="The model with no job" title="The nude who isn’t needed" />
+      <p style={proseStyle}>
+        Just behind him stands a <strong>naked woman</strong>, a white sheet sliding off her hip to the floor. She is doing the single most traditional thing a body can do in a painting &mdash; she is the <strong>academic nude</strong>, the idealized unclothed figure that the official art schools drilled their students to draw, over and over, as the foundation of all serious art. Put a nude in a picture and you signal &ldquo;real art happening here.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Except she has nothing to do. Courbet is painting a landscape; a landscape needs no nude model. So she stands there idle, the old kind of subject with no role to play, watching over the shoulder of a man making the new kind of art that doesn&rsquo;t need her. Some readers go further and take her as a near-allegory of Truth or of Nature herself, looking on while the painter works &mdash; and that reading fits the &ldquo;real allegory&rdquo; game perfectly, a real naked model who also <em>means</em> something. But it is worth saying plainly that before she was a symbol she was a person: a living woman who came to the studio and posed for this, an actual model whose name has simply been lost to us. We read her as Truth because the painting wants us to, but the body on the canvas belonged to someone real, the way every body Courbet painted did. Either way the point lands: the most academic thing in the room has been quietly retired, set to one side, no longer running the show.
+      </p>
+
+      <SectionHeader accent={accent} label="Why this counts as his testament" title="A life, mapped onto a floor" />
+      <p style={proseStyle}>
+        Step back and the structure becomes clear, and it is the reason this painting is treated as Courbet&rsquo;s <em>testament</em> &mdash; his statement of who he is and what his art is for. He has taken the inside of his own head and laid it out as a room. In the center: his art, the act of painting itself, with himself doing it. To one side: the people who believe in him. To the other side: the whole society he claims as his subject, rich and poor, powerful and wretched. It is an artist&rsquo;s self-portrait that swallows the entire world he works in.
+      </p>
+      <p style={proseStyle}>
+        No one had really made a painting do that before &mdash; turned a studio scene into a coded summary of a career and a creed. It is why the &ldquo;real allegory&rdquo; label, contradictory as it is, is exactly right: the room is real, every brick of it, and the room is also a diagram of one man&rsquo;s mind. The next chapter is the part the whole picture is built for: actually walking across it, left to right, and seeing what Courbet sorted where.
+      </p>
+    </article>
+  )
+}
+
+function StReading({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Look closer" title="Walking across the room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        orget, for a moment, that this is a famous painting, and just stand in front of it. The first thing to notice is how <em>dim</em> it is &mdash; a vast, brown, cavernous studio, lit unevenly, the back wall high and almost blank, the floor bare boards. Out of that gloom three things glow: the pale body of the model in the center, the bright green landscape on the easel beside her, and the small pale smock of a boy at the painter&rsquo;s knee. Everything else you have to dig for. Courbet has built the picture so your eye lands in the middle first, on himself and his work, and then has to <em>travel</em> outward to find the rest. So let&rsquo;s travel. Center, then right, then left &mdash; the order Courbet&rsquo;s own letter to Champfleury used to explain it.
+      </p>
+
+      <SectionHeader accent={accent} label="The center" title="The painter, the nude, the boy, the cat" />
+      <p style={proseStyle}>
+        You already know the center from the last chapter, but now see it as a tight little group rather than a single figure. <strong>Courbet</strong> sits at the easel, half-turned, painting his green river valley. The <strong>nude model</strong> &mdash; the <strong>academic nude</strong>, the idealized unclothed figure the official art schools made students draw endlessly as the bedrock of serious art &mdash; stands close behind his chair, drapery falling away, watching. At the foot of the easel a <strong>small peasant boy</strong> in a smock tilts his head back to watch the landscape appear &mdash; and he is worth pausing on, because in a room of forty adults busy being adults, the child is the only person giving the act of painting his complete, open attention. He is the unschooled eye, the viewer Courbet actually wants: someone who just <em>looks</em>.
+      </p>
+      <p style={proseStyle}>
+        And down on the floor, near the painter&rsquo;s feet, a <strong>white cat</strong> crouches, attending to absolutely nothing. If you read the Burial work read in this app you have met this animal&rsquo;s cousin &mdash; the small indifferent dog Courbet dropped into a solemn funeral. The cat is the same flick of nerve in the same hand: a creature that could not care less about the grand human meaning all around it, planted right at the center of a painting that is supposedly summing up the meaning of a life. It keeps the whole self-important scene honest.
+      </p>
+
+      <SectionHeader accent={accent} label="The right" title="The shareholders" />
+      <p style={proseStyle}>
+        Now walk right, into the warmer, better-dressed half of the room. Courbet, in his letter, had a wonderfully unromantic word for these people: he called them &ldquo;the <strong>shareholders</strong>&rdquo; &mdash; meaning, he explained, his friends, his fellow workers, the art lovers who had a stake in him. Shareholders. As if his career were a company and these were the people invested in it, which, financially and otherwise, several of them were.
+      </p>
+      <p style={proseStyle}>
+        This side is a crowd of recognizable, contemporary Parisians, and the next chapter names them one by one. For now just register the texture: well-cut coats, a fashionably dressed couple of art collectors standing as a kind of pair of well-off admirers, a knot of writers and thinkers, and &mdash; way over at the far right edge, almost sliding off the canvas &mdash; a man bent over a big open book, reading, oblivious to everything. The right side is Courbet&rsquo;s tribe: the people who chose him, the proof that the bearded provocateur from the provinces had built himself a circle of the most interesting minds in France.
+      </p>
+
+      <SectionHeader accent={accent} label="The left" title="The other world" />
+      <p style={proseStyle}>
+        Now turn and walk to the left, and the temperature drops. This half is darker, shabbier, more shadowed, and Courbet&rsquo;s letter gives it a heavier name. This, he wrote, is &ldquo;the other world of trivial life &mdash; <strong>the people, misery, poverty, wealth, the exploited and the exploiters, the people who live off death</strong>.&rdquo; If the right side is the friends who back his art, the left side is the <em>subject</em> of his art: society itself, the whole cross-section, the rich and the wretched standing in the same gloom.
+      </p>
+      <p style={proseStyle}>
+        It is a gallery of types rather than named friends. Scholars have read a great many specific roles into these figures over the years &mdash; a priest, a merchant, a laborer, a beggar &mdash; and the exact roster is genuinely debated, so hold the details loosely. What is solid is the cast Courbet himself pointed to: a <strong>Jewish man</strong> and an <strong>Irishwoman</strong> begging, both, he said, types he had seen on a trip to London in 1848. And one figure on this side is so famous it gets its own paragraph in the next chapter: a seated man in a broad-brimmed hat with hunting dogs at his feet, a <strong>poacher</strong>, whom a great many readers take for the Emperor of France himself, slipped in among &ldquo;the people who live off death.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        And there is one more thing on the left that is easy to miss in the gloom but impossible to unsee once you have it. Up behind the figures, slumped and strung up against the dark, hangs a <strong>lay figure</strong> &mdash; an <strong>artist&rsquo;s mannequin</strong>, the jointed wooden-and-stuffed dummy that academic painters posed and draped to stand in for a body while they worked. Courbet has hung his with its arms wrenched up and back, trussed and sagging, so that it reads unmistakably as a body on a cross. A crucified mannequin, pinned up in the shadows on the side of the room he gave to misery and the dead. Painters had used these dummies for centuries as the patient tool of the studio; Courbet nailed his up like a corpse. Read it the way the picture asks you to: the death of academic art itself &mdash; the old way of making pictures, the lifeless stand-in for the real body, crucified in the corner while the new kind of painting happens, alive, in the light at the center.
+      </p>
+
+      <SectionHeader accent={accent} label="The floor" title="Romanticism, in the trash" />
+      <p style={proseStyle}>
+        Before you leave the left side, look down at the bare boards in the lower-left corner, because Courbet left a little still life there that most viewers walk right past. Tossed on the floor lie a <strong>guitar</strong>, a <strong>dagger</strong>, and a <strong>plumed hat</strong> &mdash; the kind of swashbuckling cavalier&rsquo;s hat a hero in a costume drama would wear. These are the dressing-up props of <strong>Romanticism</strong>, the generation of painting just before Courbet&rsquo;s, all heaving drama and exotic adventure and high passion (the Realism overview tells that story). Courbet had no time for it; he thought it was costume, escapism, a refusal to paint the actual world. So here are its props &mdash; the guitar, the blade, the feathered hat &mdash; dumped on the floor of the real studio like a discarded costume, the swashbuckling fantasy laid down in the dust while the real painting happens overhead. Many readers also find a <strong>skull</strong> resting on a newspaper somewhere in this dim left half; if you can pick it out, it reads as the bluntest possible verdict &mdash; the death of the old order, set down on the daily news.
+      </p>
+      <p style={proseStyle}>
+        That is the whole machine: a real room you could have walked into in 1855, secretly arranged into a diagram of one painter&rsquo;s entire world &mdash; his art at the center, his believers on the right, the society he paints on the left, and the dead props of the art he refused to make lying in the corner. A real allegory, exactly as advertised.
+      </p>
+    </article>
+  )
+}
+
+function StCast({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Who’s in it" title="Putting names to the faces" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne of the strangest, most modern things about <em>The Painter&rsquo;s Studio</em> is that its &ldquo;allegory&rdquo; is built out of <em>real people you could have met</em>. The right side is not Justice and Wealth and Poetry in flowing robes. It is a guest list. Courbet packed the warm half of his canvas with his actual friends, painted from life or from photographs, and his letter to Champfleury runs through them almost like a man introducing you around a party. So let&rsquo;s be introduced.
+      </p>
+
+      <SectionHeader accent={accent} label="The friends" title="The right side, named" />
+      <p style={proseStyle}>
+        Several of them are home-country friends, and Courbet&rsquo;s letter names them in a quick warm cluster: <strong>Alphonse Promayet</strong> (1822&ndash;1872), a violinist and childhood friend from Ornans, holding his violin; <strong>Urbain Cuenot</strong>, Courbet&rsquo;s close friend from Ornans; and the poet <strong>Max Buchon</strong> (1818&ndash;1869). With them stands <strong>Alfred Bruyas</strong> &mdash; not just the collector whose money helped build the Pavilion but the friend Courbet had spent years writing to about what this very painting should mean, here taking his place among the people who shaped it. And there is <strong>Pierre-Joseph Proudhon</strong> (1809&ndash;1865), France&rsquo;s most famous radical thinker &mdash; the man who declared that property is theft &mdash; a native of the same corner of France. Proudhon wasn&rsquo;t available to sit, so Courbet worked his likeness up from a <em>photograph</em>, which in 1855 was still a young, commercial technology not yet accepted as a respectable art &mdash; faintly disreputable for exactly that reason, and a very Realist way to build a portrait.
+      </p>
+      <p style={proseStyle}>
+        Near them sits <strong>Champfleury</strong> himself, the critic this whole explanatory letter is addressed to &mdash; and he was more than the man who coined the word &ldquo;Realism.&rdquo; Champfleury was the movement&rsquo;s working <em>theorist</em>, the writer who argued out what Realism was and defended it in print while Courbet supplied the paintings; he and Courbet were building the same case from two ends. And then there is the <strong>fashionable couple</strong> &mdash; in Courbet&rsquo;s phrase, a woman of the world and her husband, both luxuriously dressed &mdash; standing in as a pair of well-off art lovers, the kind of moneyed admirers a painter needs. The right side, in other words, is Courbet&rsquo;s entire support system in one frame: the friends from home, the patron-collaborator, the radical philosopher, the movement&rsquo;s theorist, and the rich couple who buy. A career, drawn as a crowd.
+      </p>
+
+      <SectionHeader accent={accent} label="The poet in the corner" title="Baudelaire, reading" />
+      <p style={proseStyle}>
+        And then, at the very far right, hunched over a large open book and ignoring the whole gathering, sits <strong>Charles Baudelaire</strong> (1821&ndash;1867) &mdash; the poet who a couple of years later would publish <em>Les Fleurs du Mal</em> (&ldquo;The Flowers of Evil&rdquo;) and be prosecuted for it, one of the defining writers of the modern city. Courbet didn&rsquo;t paint him fresh; he copied the head from a portrait he had made of Baudelaire back in 1847. There is a small, real sadness folded into the figure: Courbet and Baudelaire had once been close, and by 1855 the friendship had cooled, so the poet sits at the edge of the painting, present but turned inward, reading, a little apart from the warmth of the group. He is on the shareholders&rsquo; side, but he is keeping his own counsel in the corner &mdash; which, for Baudelaire, was about right.
+      </p>
+
+      <SectionHeader accent={accent} label="The poacher" title="Is that the Emperor on the left?" />
+      <p style={proseStyle}>
+        Now cross to the dark left side, to its most argued-over figure. Find him first: down in the lower-center-left foreground, seated and leaning forward in a broad-brimmed hat, with two <strong>hunting dogs</strong> resting at his feet, is a man dressed as a <strong>poacher</strong> &mdash; someone who hunts on land that isn&rsquo;t his. For more than a century, a great many viewers have looked at that hat, those dogs, that curled moustache, and seen <strong>Napoleon III</strong> &mdash; the man who had seized power in a coup in 1851 and crowned himself Emperor of France, the ruler under whose reign Courbet was painting this very picture. Read that way, it is an astonishing thing to have done: to slide the Emperor onto the side of &ldquo;the people who live off death,&rdquo; cast as a poacher illegally hunting his own country, hung where the public could see it.
+      </p>
+      <p style={proseStyle}>
+        But this is exactly the kind of irresistible identification that the honest version of art history has to slow down for. Courbet&rsquo;s own letter to Champfleury &mdash; the document that names nearly everyone else &mdash; <em>never identifies this figure as the Emperor</em>. And technical study of the canvas (X-rays that let conservators see the layers underneath) shows the poacher was reworked and added relatively late, not part of the original plan. So the Napoleon III reading, satisfying as it is, is an <em>interpretation</em>, widely held but never confirmed by the painter &mdash; the famous story rather than a signed caption. It may well be right. It is not, on the evidence, a fact. Hold it the way Courbet left it: a poacher who looks an awful lot like the Emperor, and a painter who declined to say so out loud.
+      </p>
+    </article>
+  )
+}
+
+function StAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After the tent" title="A masterpiece nobody could house" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Pavilion of Realism, the tent Courbet built when the world&rsquo;s fair refused him, was a grand gesture and a financial flop. Far fewer people paid to come in than he had hoped, and when the fair closed, Courbet was left holding the largest, least sellable painting of his career. <em>The Painter&rsquo;s Studio</em> is nearly twenty feet wide. It is not a thing a private collector hangs over the sofa. The very ambition that made it a testament &mdash; one canvas to hold a whole world &mdash; made it almost impossible to place. So it stayed with him.
+      </p>
+      <p style={proseStyle}>
+        And Courbet&rsquo;s own story went badly from there. The Realism overview tells how his politics caught up with him &mdash; how, after the <strong>Paris Commune</strong> of 1871 (the radical revolutionary government that seized control of Paris for a couple of months that spring before it was crushed in brutal street fighting, which Courbet publicly backed), he was held responsible for the toppling of the <strong>Vendôme Column</strong> &mdash; the towering bronze victory column in central Paris that celebrated Napoleon&rsquo;s conquests, pulled down by the Communards as a hated symbol of empire and war. Courbet had argued for its removal, so when the column came down the new authorities pinned the destruction on him, ruined him with the bill for rebuilding it, and he fled into exile in Switzerland, where he died in 1877. The enormous summing-up of his seven best years outlived him, rolled up and homeless, exactly the kind of national treasure that quietly slips abroad or gets cut into sellable pieces.
+      </p>
+
+      <SectionHeader accent={accent} label="France buys it back" title="The public subscription of 1920" />
+      <p style={proseStyle}>
+        That it didn&rsquo;t is the quiet triumph of the painting&rsquo;s afterlife. In <strong>1920</strong> &mdash; sixty-five years after the State&rsquo;s own jury had refused it &mdash; the painting was bought for the <strong>Louvre</strong> (then France&rsquo;s great national museum) for the nation. And it was bought, fittingly, not by a single rich buyer but by a <strong>public subscription</strong>: a fundraising drive in which the public chips in, here with the help of the Society of the Friends of the Louvre. The country that had once turned the picture away now raised the money, in small pieces from many hands, to keep it.
+      </p>
+      <p style={proseStyle}>
+        Sit with the symmetry of that for a second. The whole scandal of <em>The Painter&rsquo;s Studio</em> was that it put the people &mdash; the shareholders, the poor, the whole ordinary cross-section of society &mdash; at the center of serious art. And in the end it was bought <em>by</em> the people, collectively, exactly the audience it had insisted mattered. The refused picture became a thing the nation chose to own together.
+      </p>
+
+      <SectionHeader accent={accent} label="The wall it hangs on now" title="Courbet’s testament, on permanent view" />
+      <p style={proseStyle}>
+        For decades it hung in the Louvre, and then, in <strong>1986</strong>, the <strong>Musée d&rsquo;Orsay</strong> &mdash; the Paris museum dedicated to nineteenth-century art, installed in a converted former railway station on the Left Bank of the Seine &mdash; opened, and the Louvre&rsquo;s nineteenth-century collection crossed the river to fill it. The <em>Studio</em> went with it, alongside its older sibling, <em>A Burial at Ornans</em> (which has its own read in this app). The two enormous Courbets &mdash; the funeral and the studio &mdash; now hang in the same museum, the two largest arguments Realism ever made in paint.
+      </p>
+      <p style={proseStyle}>
+        Stand in front of it today and the throughline is worth saying plainly, one last time. Refused by the most important show on Earth, Courbet built his own and made its centerpiece a single, impossible, twenty-foot painting that tried to hold his entire world: his art at the center, painting a plain green landscape while the academic nude (the idealized studio body the schools worshipped) stood idle behind him; his friends and patrons gathered warm on the right; the whole society he claimed as his subject &mdash; rich, poor, and possibly the Emperor in disguise &mdash; arranged in the gloom on the left; the academic mannequin strung up like a corpse in the shadows; and the cast-off props of the art he refused dumped on the floor. He called it a real allegory, daring the words to fight, and they do, and the fight is the point. It is the painting where an artist looked at the world, decided it was all his subject, and put himself, calmly, at the dead center of it.
+      </p>
+    </article>
+  )
+}

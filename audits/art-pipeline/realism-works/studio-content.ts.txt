@@ -1,0 +1,70 @@
+// ─────────────────────────────────────────────────────────────
+// The Painter's Studio (Courbet, 1854–55) — ArtWorkContent
+// Built to the EXACT shape of BURIAL (art-content.ts). Drop into ART_WORK_CONTENT.
+// kind: WORK · chain "Works of Realism" 5 of 9 · accent amber.
+// ─────────────────────────────────────────────────────────────
+export const STUDIO: ArtWorkContent = {
+  id: 'studio',
+  name: 'The Painter’s Studio',
+  shortName: 'The Painter’s Studio',
+  year: 1855,
+  artist: 'Gustave Courbet',
+  artistId: 'courbet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '11 ft 10 in × 19 ft 7 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bought for the Louvre by public subscription, 1920; to the Musée d’Orsay, 1986',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 5, total: 9 },
+  hook: 'A whole society sorted into one room, with the painter dead-center — and a subtitle that calls itself, on purpose, a “real allegory.”',
+  heroImage: ART_IMG.courbetStudio,
+  heroCredit: 'Courbet, The Painter’s Studio, 1855 · Musée d’Orsay, Paris',
+  heroAspect: 1.66,
+  heroFit: 'contain', // the work hero shows the WHOLE ~1.66:1 three-part composition, never cropped
+  rights: 'pd-art',
+  stats: [
+    { v: '1854–55', k: 'Painted' },
+    { v: '11′10″ × 19′7″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'refusal', eyebrow: 'Paris · 1855', dateLabel: '1855', title: 'The world’s fair says no', blurb: 'The biggest show on Earth opens in Paris and refuses Courbet’s two largest canvases — this one and A Burial at Ornans — so he builds his own tent across the road and hangs them there himself.', progress: 0.08 },
+    { id: 'allegory', eyebrow: 'The subtitle', dateLabel: '1854–55', title: 'A “real allegory” of seven years', blurb: 'What it means to call a painting both real and an allegory at once — and why the painter sits dead-center, painting a landscape with his back to the whole crowd.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'Look closer', dateLabel: 'The canvas', title: 'The walk across the room', blurb: 'Center, then right, then left: the self-portrait at the easel, the “shareholders” who back him, and the “other world” of the poor and the powerful he claims as his subject.', progress: 0.56 },
+    { id: 'cast', eyebrow: 'Who’s in it', dateLabel: '1848–1855', title: 'Naming the room', blurb: 'Baudelaire reading in the corner, Proudhon the radical, Bruyas the collector who helped shape the picture’s whole idea — and the wide-hatted poacher on the left that half of art history reads as the Emperor.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1855–today', title: 'Afterlife', blurb: 'The tent loses money, the painting is too big to sell, and seventy years later France buys it back by public subscription — Courbet’s testament, hanging in the Orsay.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1855–1877', who: 'Gustave Courbet (the artist)', place: 'Paris / Ornans', note: 'Painted 1854–55; refused by the 1855 Exposition Universelle jury and shown instead in Courbet’s own Pavilion of Realism. The vast, near-unsellable canvas stayed with the artist until his death in Swiss exile in 1877.', price: null },
+    { year: '1877–1881', who: 'The Courbet estate', place: 'France', note: 'After Courbet died in exile, the enormous painting passed through his estate; too large and too political to find an easy buyer.', price: null },
+    { year: '1881–1919', who: 'Private hands', place: 'France', note: 'Held privately for decades — exactly the fate (a foreign sale, a breakup) a national-treasure painting risks when it is this hard to house.', price: null },
+    { year: '1920', who: 'Musée du Louvre', place: 'Paris', note: 'Bought for the French national museums by a public subscription, with the Société des Amis du Louvre — the nation raising the money to keep Courbet’s testament in France.', price: 'public subscription', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Orsay opens in a converted railway station, the Louvre’s 19th-century collection crosses the river to fill it. On permanent view.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Courbet', role: 'At the easel, center', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Bruyas', role: 'Collector & friend who shaped the idea', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Proudhon', role: 'Radical thinker (right)', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'Baudelaire', role: 'Poet, reading (far right)', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'Champfleury', role: 'The movement’s theorist & namer', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'The poacher (left)', role: 'Often read as Napoleon III', palette: ['#53412c', '#2a1f14', '#0c0805'] },
+  ],
+  annotations: [
+    { label: 'The painter, painting the wrong thing', where: 'Dead center — the seated man at the easel', detail: 'Courbet sits at his easel in the exact middle of the canvas, palette in hand, and the picture he is working on is not a portrait or a Bible scene but a plain green river landscape — a view of the Loue valley back home near Ornans. He is showing you what Realism does: turns its back on the whole theatrical room of human society behind him and paints the unremarkable real world instead. The self-portrait that runs the painting has the painter looking away from almost everyone in it.' },
+    { label: 'A nude with nowhere to be', where: 'Just behind Courbet, standing — the pale figure with a white sheet', detail: 'A naked model stands at Courbet’s shoulder, a white drapery slipping down her hip to the floor. The joke is that she has no job here: he is painting a landscape, so she is a model with nothing to model for — the academic nude (the idealized naked body the official schools drilled endlessly) standing idle behind a painter who would rather paint a riverbank. She is the old kind of subject, watching the new kind get made.' },
+    { label: 'The only one really looking', where: 'At the foot of the easel — the small boy in a smock', detail: 'A small peasant boy in a pale smock stands right at the easel, head tipped back, watching the landscape appear. In a room of forty adults posing, networking, reading, brooding, the child is the one figure giving the act of painting his whole open attention — the unschooled eye, the viewer Courbet actually wants.' },
+    { label: 'The cat that doesn’t care', where: 'On the floor near Courbet’s feet, center-low', detail: 'A white cat crouches on the bare floor by the painter’s feet, attending to nothing. It is the same flick of nerve as the bored dog in A Burial at Ornans (which has its own read in this app): a small indifferent animal dropped into a solemn, self-important scene, quietly refusing to be impressed by any of it.' },
+    { label: 'Baudelaire, reading in the corner', where: 'Far right edge, bent over a large book', detail: 'At the extreme right, almost falling off the canvas, a man sits hunched over a big open book, absorbed, ignoring the whole gathering. That is the poet Charles Baudelaire, copied from a portrait Courbet had painted of him in 1847 — the “shareholders” side’s patron saint, present but lost in his reading, the way poets are.' },
+    { label: 'The wide-hatted poacher (the Emperor?)', where: 'Left foreground — the seated man in a broad hat with hunting dogs', detail: 'Over on the dark left side sits a man in a broad-brimmed hat with hunting dogs at his feet, dressed as a poacher. Many readers, then and since, take him for Napoleon III — France’s emperor — slipped in among “the people who live off death,” identified by the hunting dogs and the curled moustache. Courbet’s own letter never names him, and X-rays show the figure was reworked later, so treat the imperial reading as the famous interpretation it is, not a caption Courbet signed.' },
+    { label: 'Cast-offs on the studio floor', where: 'Lower-left foreground, on the bare boards', detail: 'Scattered on the floor at the bottom-left lie a guitar, a dagger, and a plumed cavalier’s hat — the dressing-up box of Romanticism (the swashbuckling, exotic, high-drama painting Courbet was burying). Tossed aside on the boards of the “real” world, they read as the discarded props of the kind of art he refused to make.' },
+    { label: 'The crucified mannequin', where: 'Up in the shadows on the dark left side, behind the standing figures', detail: 'Strung up in the gloom on the left hangs a lay figure — an artist’s mannequin, the jointed, stuffed studio dummy academic painters draped and posed in place of a living body. Courbet has trussed his with the arms wrenched back so it reads unmistakably as a body on a cross. A crucified dummy, pinned up on the side of the room he gave to misery and the dead: the death of academic art itself, the lifeless stand-in for the real body nailed up in the shadows while the new kind of painting happens, alive, in the light at the center.' },
+  ],
+  lineage: {
+    parents: [ { label: 'A Burial at Ornans', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'Dutch group portrait', mode: 'art' } ],
+    children: [ { label: 'Realism', mode: 'art' }, { label: 'The artist’s self-portrait as manifesto', mode: 'art' }, { label: 'Édouard Manet', mode: 'art' } ],
+  },
+}

@@ -1,0 +1,77 @@
+// The Gleaners (Jean-François Millet, 1857) — ArtWorkContent
+// Author draft for the art-content pipeline. Matches the BURIAL shape in src/lib/art-content.ts.
+// Facts verified in gleaners-factpack.md (fact ledger). Dimensions ft/in only (house rule).
+// Defers movement-level material to the REALISM movement object; goes deeper on THIS work.
+
+export const GLEANERS: ArtWorkContent = {
+  id: 'gleaners',
+  name: 'The Gleaners',
+  shortName: 'The Gleaners',
+  year: 1857,
+  artist: 'Jean-François Millet',
+  artistId: 'millet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 9 in × 3 ft 8 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bequeathed to the Louvre by Mme Pommery, 1891',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 7, total: 9 },
+  hook: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped — and the bourgeois Salon saw a threat.',
+  heroImage: ART_IMG.milletGleaners,
+  heroCredit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris',
+  heroAspect: 1.33,
+  heroFit: 'contain', // the work hero shows the WHOLE ~1.33:1 field, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1857', k: 'Painted' },
+    { v: '2′9″ × 3′8″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'gleaning', eyebrow: 'The custom', dateLabel: 'centuries', title: 'Gleaning: the right of the poorest', blurb: 'Before the painting, the practice — the ancient, regulated, vanishing right of the poorest to enter a harvested field and gather the grain the reapers left on the ground.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857', title: 'Three bent backs and a harvest they don’t share', blurb: 'Look hard: three women stooped over the stubble in blue, red, and yellow caps — and behind them, in golden light, the overflowing harvest they are not part of.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'Paris · 1857', dateLabel: '1857', title: 'The Salon takes fright', blurb: 'Hung in the official exhibition, three poor women gathering scraps read to the propertied classes as “the three Fates of Poverty” and a whiff of 1793 — the rural poor made dignified, and dangerous.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What Millet meant', dateLabel: '1850s', title: 'Sympathy without sentiment', blurb: 'Millet gives the poor the seriousness of art without prettifying them — and whether that was a political act or simple human truth is a fight that has never settled.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1889–today', title: 'Afterlife', blurb: 'The despised picture sells for a hundred times its first price, becomes one of the most reproduced images ever made, and ends bequeathed to the nation that recoiled from it.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1857', who: 'Jean-François Millet (the artist)', place: 'Barbizon / Paris', note: 'Painted in Barbizon and shown at the Salon of 1857. Short of money, Millet sold it for 3,000 francs — below his 4,000-franc asking price.', price: '3,000 francs' },
+    { year: 'by 1880s', who: 'Ferdinand Bischoffsheim', place: 'Paris', note: 'By the 1880s the once-scandalous canvas had risen into a Paris banker’s collection — the picture the Salon had recoiled from now a sought-after asset.', price: null },
+    { year: '1889', who: 'Auction → Mme Pommery', place: 'Paris', note: 'Sold at auction for 300,000 francs — a hundredfold jump in about thirty years. Within a week it was announced that the champagne-house owner Jeanne-Alexandrine Louise Pommery had acquired it.', price: '300,000 francs' },
+    { year: '1891', who: 'Musée du Louvre', place: 'Paris', note: 'On Pommery’s death the painting was bequeathed to the Louvre per the terms of her will — given, free, to the nation whose official Salon had once treated it as a threat.', price: 'bequest to the nation', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Musée d’Orsay opens in the converted Gare d’Orsay railway station, the Louvre’s 19th-century collection crosses the river to fill it. The Gleaners goes with it, and is on permanent view.', price: 'never sold since', museum: true },
+  ],
+  figures: [
+    { name: 'Millet', role: 'The painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { name: 'The three gleaners', role: 'The subject', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { name: 'Mme Pommery', role: 'Bought it; left it to France', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Courbet', role: 'The loud half of Realism', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Van Gogh', role: 'Worshipped Millet', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+  ],
+  annotations: [
+    { label: 'The three bent backs', where: 'Foreground, across the lower third', detail: 'Three women work the stripped field in a slow diagonal — and the picture’s whole feeling lives in their backs. The two on the left are folded almost double, hands down at the stubble; the one on the right is the most nearly upright of the three (still stooped, never standing straight), as if pausing to ease a back that has been bent all day. Millet gives you the labor as posture: you can feel the ache without a single grimace, because the bodies do all the talking.' },
+    { label: 'Blue, red, yellow — the only loud color', where: 'The three caps / headscarves', detail: 'Look at the caps: blue on the left woman, red on the center one, a warm yellow-gold on the woman at right. In a field of dust-browns and faded grays those three notes are the brightest color in the painting — the primary colors handed not to a goddess’s robe but to three field-workers’ headscarves. The eye finds them first and then has nowhere grander to go.' },
+    { label: 'What they’re actually holding', where: 'The women’s hands and aprons', detail: 'Now look at the harvest of the gleaners themselves: the right-hand woman holds a thin little bundle of stalks; the center woman has a small bunch tucked at her apron. After a full day bent over the ground, this is the yield — a few fistfuls of grain the reapers happened to drop. The meagreness is the point. They are gathering what the harvest threw away.' },
+    { label: 'The harvest they don’t share', where: 'The sunlit middle distance, behind the women', detail: 'Behind the three, the field is golden and overflowing: tall round stacks of grain, a loaded cart, long rows of sheaves, and a busy crew bringing the crop in under a hazy late-summer sun. This is the rich harvest — and the three women in front have no part in it. Millet split the canvas in two: grinding poverty stooped in the cool near-ground, abundance blazing in the warm distance, the bare stripped field between them like a moat.' },
+    { label: 'The man on the horse', where: 'Far right, among the working crew', detail: 'Small and easy to miss at the right edge of the busy distance sits a figure on horseback — by the usual reading the farm’s mounted overseer, watching the work get done. He is tiny, but once you find him the social order of the field snaps into place: someone owns this harvest and supervises it on horseback, and the three women bent in front own none of it and gather its leavings on foot.' },
+    { label: 'The low flat horizon', where: 'The top quarter of the canvas', detail: 'There are no mountains, no drama, no opening heaven — just a low, flat horizon with farm buildings and a hazy sky, the unremarkable countryside around Barbizon. Millet refuses scenery the way Courbet refuses it: nature here is not a backdrop for feeling, just the plain ground these people work, going on being ground.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The right of gleaning', mode: 'civ' },
+      { label: 'The Book of Ruth', mode: 'civ' },
+      { label: 'Barbizon landscape', mode: 'art' },
+      { label: 'The Sower', mode: 'art' },
+    ],
+    children: [
+      { label: 'The Angelus', mode: 'art' },
+      { label: 'Vincent van Gogh', mode: 'art' },
+      { label: 'Social Realism', mode: 'art' },
+      { label: 'Naturalism', mode: 'art' },
+    ],
+  },
+}

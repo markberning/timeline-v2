@@ -1652,12 +1652,12 @@ function BuTown({ accent }: { accent: string; onZoom: (src: string, cap: string)
         n September 1848, in a small town in the French countryside, an old man was lowered into the ground, and a crowd of his neighbors stood around the hole and watched. This happens somewhere on Earth every few seconds. It is the least remarkable event a human life contains. Nobody paints it. And if anyone had, they would certainly not have painted it <em>ten feet tall</em> — a wall of canvas the size Europe kept locked away for the death of saints and kings. That is the thing you are about to look at: the most ordinary death there is, blown up to the scale of the most important deaths there are.
       </p>
       <p style={proseStyle}>
-        The town was <strong>Ornans</strong> (pronounced "or-NAHN"), a cramped little place strung along a river in the Franche-Comté (frahnsh-kohn-TAY), the hilly region in eastern France that runs up to the Swiss border. It was the hometown of a loud, ambitious, supremely self-certain young painter named <strong>Gustave Courbet</strong> (1819–1877), whose larger story is told in the Realism overview one level up in this app (the man who would become the public face of <strong>Realism</strong> — the new school that insisted ordinary contemporary life was a fit subject for serious art, painted plain, with none of the official art establishment's polish). Courbet had grown up here, among these exact people. And in 1848 or so, one of them died.
+        The town was <strong>Ornans</strong> (pronounced &ldquo;or-NAHN&rdquo;), a cramped little place strung along a river in the Franche-Comté (frahnsh-kohn-TAY), the hilly region in eastern France that runs up to the Swiss border. It was the hometown of a loud, ambitious, supremely self-certain young painter named <strong>Gustave Courbet</strong> (1819–1877), whose larger story is told in the Realism overview one level up in this app (the man who would become the public face of <strong>Realism</strong> — the new school that insisted ordinary contemporary life was a fit subject for serious art, painted plain, with none of the official art establishment&rsquo;s polish). Courbet had grown up here, among these exact people. And in 1848 or so, one of them died.
       </p>
 
       <SectionHeader accent={accent} label="The man in the box" title="Whose burial this is" />
       <p style={proseStyle}>
-        By the usual account, the dead man was Courbet's own <strong>great-uncle, Claude-Étienne Teste</strong>, who died in September 1848. That identification, and the date, are the standard story rather than carved-in-stone fact — they are sometimes contested, so treat them as the received version, not a closed case. What is not in doubt is the kind of funeral it was: not a king's, not a saint's, not a hero's. A provincial one. A market-town one. The death of exactly the sort of person history files under "and others."
+        By the usual account, the dead man was Courbet&rsquo;s own <strong>great-uncle, Claude-Étienne Teste</strong>, who died in September 1848. That identification, and the date, are the standard story rather than carved-in-stone fact — they are sometimes contested, so treat them as the received version, not a closed case. What is not in doubt is the kind of funeral it was: not a king&rsquo;s, not a saint&rsquo;s, not a hero&rsquo;s. A provincial one. A market-town one. The death of exactly the sort of person history files under &ldquo;and others.&rdquo;
       </p>
       <p style={proseStyle}>
         That is the detail to hold onto, because it is the whole engine of the painting. Courbet did not go looking for a grand subject and dress it down. He took the most local, least important death imaginable — a relative in a backwater town, mourned by the people who happened to live nearby — and decided it deserved a canvas the size Europe reserved for the death of Christ.
@@ -1665,7 +1665,7 @@ function BuTown({ accent }: { accent: string; onZoom: (src: string, cap: string)
 
       <SectionHeader accent={accent} label="The decision" title="Paint my own people, full size" />
       <p style={proseStyle}>
-        To feel how strange that decision was in 1849, you have to know the rule he was breaking. European art ran on a ranking system called the <strong>hierarchy of genres</strong> (an official ladder of subject-matter categories), and the Realism overview sketches it; this read can make it concrete. At the top sat grand scenes from myth and scripture and ancient legend — <strong>history painting</strong> (the prestige category; "history" here meant scripture, myth, and classical antiquity, <em>not</em> real events in the modern sense — nobody at the top was painting last week's news). Plain modern life sat at the very bottom. Gods up here; greengrocers down there. You were <em>allowed</em> to paint a peasant. You were not allowed to paint a peasant at the size of a god. Size was reserved. A big canvas was a promise that the thing on it mattered enormously, and the body that decided what was permitted to matter that much was <strong>the academy</strong> (the Academy of Fine Arts, the French state institution that set the rules of painting and ran the official exhibition where careers were made — the <strong>Salon</strong>, which you will meet properly in Chapter 3).
+        To feel how strange that decision was in 1849, you have to know the rule he was breaking. European art ran on a ranking system called the <strong>hierarchy of genres</strong> (an official ladder of subject-matter categories), and the Realism overview sketches it; this read can make it concrete. At the top sat grand scenes from myth and scripture and ancient legend — <strong>history painting</strong> (the prestige category; &ldquo;history&rdquo; here meant scripture, myth, and classical antiquity, <em>not</em> real events in the modern sense — nobody at the top was painting last week&rsquo;s news). Plain modern life sat at the very bottom. Gods up here; greengrocers down there. You were <em>allowed</em> to paint a peasant. You were not allowed to paint a peasant at the size of a god. Size was reserved. A big canvas was a promise that the thing on it mattered enormously, and the body that decided what was permitted to matter that much was <strong>the academy</strong> (the Academy of Fine Arts, the French state institution that set the rules of painting and ran the official exhibition where careers were made — the <strong>Salon</strong>, which you will meet properly in Chapter 3).
       </p>
       <p style={proseStyle}>
         Courbet looked at that rule and did the one thing it forbade. He went home to Ornans, and instead of painting the death of some Greek warrior he had never met, he painted the death of his great-uncle, and he painted the actual townsfolk who came to the actual grave, and he painted all of them life-size. He was not illustrating a story. He was, in effect, telling the entire ranking system that its ranks were a fiction — that a real death in a real town was as serious as anything in the Louvre. The next chapter is what that looked like.
@@ -1680,10 +1680,10 @@ function BuFrieze({ accent }: { accent: string; onZoom: (src: string, cap: strin
       <SectionHeader accent={accent} label="The canvas" title="Ten feet tall, twenty-two feet wide" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>S</DropCap>
-        tart with the wall it needs. <em>A Burial at Ornans</em> is roughly <strong>10 feet 4 inches tall and 21 feet 11 inches wide</strong> (about 3.15 by 6.68 meters) — call it ten feet tall and twenty-two feet wide and you are close enough to feel it. That is not a painting you hang. That is a painting you give a room to. Stand in front of it and the figures are your own height; you are not looking at a picture of a funeral so much as standing at the back of one. At the heroic scale the Realism overview describes, this acreage was the academy's currency for the death of kings. Courbet spent the whole sum on a country graveside.
+        tart with the wall it needs. <em>A Burial at Ornans</em> is roughly <strong>10 feet 4 inches tall and 21 feet 11 inches wide</strong> (about 3.15 by 6.68 meters) — call it ten feet tall and twenty-two feet wide and you are close enough to feel it. That is not a painting you hang. That is a painting you give a room to. Stand in front of it and the figures are your own height; you are not looking at a picture of a funeral so much as standing at the back of one. At the heroic scale the Realism overview describes, this acreage was the academy&rsquo;s currency for the death of kings. Courbet spent the whole sum on a country graveside.
       </p>
       <p style={proseStyle}>
-        He painted it in 1849–1850, begun in Ornans, where he had to build the thing more or less by main force — there is barely a studio in the Franche-Comté big enough to back up far enough to see a canvas this size whole. The subtitle he gave it doubled down on the joke: he called it a "historical picture of a burial at Ornans," deliberately borrowing the language of history painting (the prestige category) for a thing with no history in it at all, only a Tuesday in a small town.
+        He painted it in 1849–1850, begun in Ornans, where he had to build the thing more or less by main force — there is barely a studio in the Franche-Comté big enough to back up far enough to see a canvas this size whole. The subtitle he gave it doubled down on the joke: he called it a &ldquo;historical picture of a burial at Ornans,&rdquo; deliberately borrowing the language of history painting (the prestige category) for a thing with no history in it at all, only a Tuesday in a small town.
       </p>
 
       <SectionHeader accent={accent} label="The frieze" title="Reading the crowd left to right" />
@@ -1691,10 +1691,10 @@ function BuFrieze({ accent }: { accent: string; onZoom: (src: string, cap: strin
         Now look along it, because the composition is doing something deliberate. The <strong>more than forty figures</strong> are not arranged in a pyramid building to a hero at the center, the way a proper history painting would marshal a crowd toward its protagonist. They are strung out in a long horizontal band — a <strong>frieze</strong> (a continuous decorated strip, the word borrowed from the carved ribbons that run along the tops of Greek temples) — shoulder to shoulder across the full twenty-two feet, every head at roughly the same height. There is no hero. There is no center of importance. Your eye just walks the line, the way it would walk a real crowd, finding no one it is told to care about more than anyone else.
       </p>
       <p style={proseStyle}>
-        The format was not invented on the spot. Courbet had taken it from the <strong>Dutch 17th-century civic-guard group portrait</strong> (the genre of Rembrandt's <em>Night Watch</em> and Frans Hals's militia pictures — rows of named, equally-lit men paid to be remembered together), which he studied on a trip through Belgium and the Netherlands in 1846–47. But borrowing the format makes the move sharper, not softer: Courbet slotted the rural poor of a French market town into the exact compositional slot the Amsterdam guilds had paid to occupy. Anyone who knew the old pictures felt the swap.
+        The format was not invented on the spot. Courbet had taken it from the <strong>Dutch 17th-century civic-guard group portrait</strong> (the genre of Rembrandt&rsquo;s <em>Night Watch</em> and Frans Hals&rsquo;s militia pictures — rows of named, equally-lit men paid to be remembered together), which he studied on a trip through Belgium and the Netherlands in 1846–47. But borrowing the format makes the move sharper, not softer: Courbet slotted the rural poor of a French market town into the exact compositional slot the Amsterdam guilds had paid to occupy. Anyone who knew the old pictures felt the swap.
       </p>
       <p style={proseStyle}>
-        And these were real, specific people. The townsfolk of Ornans posed for Courbet one by one in his studio — the mayor, the justice of the peace, the priest, the gravedigger, and his own family: his father <strong>Régis Courbet</strong> among the men, his sisters <strong>Juliette</strong>, <strong>Zoé</strong>, and <strong>Zélie</strong> among the women. The result is not a generalized "crowd of mourners" but a row of recognizable individuals, which is exactly why it unsettled people: you could, in 1850, point at the canvas and name the butcher.
+        And these were real, specific people. The townsfolk of Ornans posed for Courbet one by one in his studio — the mayor, the justice of the peace, the priest, the gravedigger, and his own family: his father <strong>Régis Courbet</strong> among the men, his sisters <strong>Juliette</strong>, <strong>Zoé</strong>, and <strong>Zélie</strong> among the women. The result is not a generalized &ldquo;crowd of mourners&rdquo; but a row of recognizable individuals, which is exactly why it unsettled people: you could, in 1850, point at the canvas and name the butcher.
       </p>
 
       <SectionHeader accent={accent} label="The hole" title="The grave, the gravedigger, the skull" />
@@ -1721,10 +1721,10 @@ function BuFrieze({ accent }: { accent: string; onZoom: (src: string, cap: strin
         Look at how the crowd is sorted. The <strong>men are massed on the left</strong>, the <strong>women on the right</strong> — some of the women pressing handkerchiefs to their faces, the only open grief in the painting — the social geography of a real country funeral reproduced exactly, because Courbet was painting one. Pick one face out of the line and it stops being a crowd: one of the women on the right has pressed a white handkerchief flat against her cheek and eyes, her head tipped slightly down, so that you get not a noble profile of Grief but the specific, awkward, half-hidden look of an actual woman trying not to cry in front of the neighbors. Nobody is striking a pose for the ages. Faces are tired, jowly, distracted, plain; some are frankly unflattering. This is what a crowd of real people actually looks like when it stands in a cold churchyard, which is to say: not like a frieze of noble Romans.
       </p>
       <p style={proseStyle}>
-        Among the men, two of them are wearing the wrong decade. Two old fellows stand in the dark suits and <strong>knee breeches of 1793</strong> — the dress of the First Republic, the high Revolutionary years — half a century out of fashion in 1850. They are real sitters (friends of Courbet's grandfather), and the antique costume is a deliberate time-stamp: these are men who lived through the Revolution, planted in the front of a contemporary crowd, quietly threading France's republican memory into a country burial. Hold that detail; it does real work in Chapter 3.
+        Among the men, two of them are wearing the wrong decade. Two old fellows stand in the dark suits and <strong>knee breeches of 1793</strong> — the dress of the First Republic, the high Revolutionary years — half a century out of fashion in 1850. They are real sitters (friends of Courbet&rsquo;s grandfather), and the antique costume is a deliberate time-stamp: these are men who lived through the Revolution, planted in the front of a contemporary crowd, quietly threading France&rsquo;s republican memory into a country burial. Hold that detail; it does real work in Chapter 3.
       </p>
       <p style={proseStyle}>
-        And then, down in the right foreground, the detail that tells you everything about Courbet's nerve: a <strong>small dog</strong>, back to the grave, sniffing off toward the edge of the canvas, completely indifferent to the solemn human business behind it. A dog has wandered into the most sacred moment a community has, and it does not care, and Courbet not only let it stay, he gave it the front row. No history painter alive would have permitted that animal. Its boredom is the painting's flat refusal to pretend the moment is more exalted than it is.
+        And then, down in the right foreground, the detail that tells you everything about Courbet&rsquo;s nerve: a <strong>small dog</strong>, back to the grave, sniffing off toward the edge of the canvas, completely indifferent to the solemn human business behind it. A dog has wandered into the most sacred moment a community has, and it does not care, and Courbet not only let it stay, he gave it the front row. No history painter alive would have permitted that animal. Its boredom is the painting&rsquo;s flat refusal to pretend the moment is more exalted than it is.
       </p>
 
       <SectionHeader accent={accent} label="The cliff" title="Ornans itself, in the background" />
@@ -1744,26 +1744,26 @@ function BuSalon({ accent }: { accent: string; onZoom: (src: string, cap: string
         painting this size is built to be seen in one place: the <strong>Salon</strong> — the official annual State exhibition, the one show in France where a career was made or buried (the academy ran it; you met it one level up). Courbet hauled the Burial to Paris and got it into the <strong>Salon of 1850–1851</strong> (the Salon ran across that winter), and there, in the official halls where the academy displayed the art the State approved of, ten feet of dead-serious country funeral went up on the wall next to the gods and the goddesses and the Roman senators.
       </p>
       <p style={proseStyle}>
-        And it did not arrive alone. In the same Salon Courbet also hung <strong>The Stone Breakers</strong> (1849–50), another monumental canvas — two road laborers, life-size, breaking rock — that he had finished just before this one. Visitors met the pair as a single coordinated assault: the same radical program (heroic scale, common laborers, zero idealization) delivered twice in the same hall, the Burial as the larger and more extreme half. (The Stone Breakers itself is gone — destroyed in 1945 in the bombing of Dresden — and its story belongs to the Realism overview; here it matters only as the Burial's twin.) Two pictures, one program, and the program detonated.
+        And it did not arrive alone. In the same Salon Courbet also hung <strong>The Stone Breakers</strong> (1849–50), another monumental canvas — two road laborers, life-size, breaking rock — that he had finished just before this one. Visitors met the pair as a single coordinated assault: the same radical program (heroic scale, common laborers, zero idealization) delivered twice in the same hall, the Burial as the larger and more extreme half. (The Stone Breakers itself is gone — destroyed in 1945 in the bombing of Dresden — and its story belongs to the Realism overview; here it matters only as the Burial&rsquo;s twin.) Two pictures, one program, and the program detonated.
       </p>
 
       <SectionHeader accent={accent} label="Why a country funeral blew up Paris" title="The Salon as detonator" />
       <p style={proseStyle}>
-        Of all the pictures Courbet ever made, this is the one that turned him from a promising provincial into a national scandal. The strange part is not that critics disliked it; critics dislike things every year and Paris forgets by spring. The strange part is that a <em>funeral</em> — a flat, gray, undramatic country funeral — became, for a season, one of the most talked-about objects in France. To see why, you have to understand that the Salon's own structure is what turned a painting into a bomb. The Salon was <em>the</em> show, the single official stage, the one room where everything respectable in French art stood together to be ranked. A picture hung there could not be quietly ignored; it was in the room with the gods, demanding to be measured against them. Courbet had not snuck his heresy into a side gallery. He had walked it through the front door of the temple and stood it next to the altar — and the temple had to respond.
+        Of all the pictures Courbet ever made, this is the one that turned him from a promising provincial into a national scandal. The strange part is not that critics disliked it; critics dislike things every year and Paris forgets by spring. The strange part is that a <em>funeral</em> — a flat, gray, undramatic country funeral — became, for a season, one of the most talked-about objects in France. To see why, you have to understand that the Salon&rsquo;s own structure is what turned a painting into a bomb. The Salon was <em>the</em> show, the single official stage, the one room where everything respectable in French art stood together to be ranked. A picture hung there could not be quietly ignored; it was in the room with the gods, demanding to be measured against them. Courbet had not snuck his heresy into a side gallery. He had walked it through the front door of the temple and stood it next to the altar — and the temple had to respond.
       </p>
       <p style={proseStyle}>
-        So what did the room actually see? First, an assault on beauty. The faces were common, ordinary, some of them unflattering — real market-town faces, not the smooth idealized features the Salon trained its painters to produce. It helps to picture what they were comparing it against: the Salon's reigning style finished a painting until the brushwork vanished and the skin turned to flawless porcelain, a nude goddess sliding poreless along a wave, every surface licked smooth (the kind of academic ideal the era overview describes). Set the Burial beside that and it looked like an insult — rough, dark, heavy, full of double chins and bad posture and weather-beaten skin. Courbet had not failed to make his people beautiful; he had refused to, and to an eye trained on porcelain goddesses the refusal read as an attack on beauty itself. The critics called it ugly.
+        So what did the room actually see? First, an assault on beauty. The faces were common, ordinary, some of them unflattering — real market-town faces, not the smooth idealized features the Salon trained its painters to produce. It helps to picture what they were comparing it against: the Salon&rsquo;s reigning style finished a painting until the brushwork vanished and the skin turned to flawless porcelain, a nude goddess sliding poreless along a wave, every surface licked smooth (the kind of academic ideal the era overview describes). Set the Burial beside that and it looked like an insult — rough, dark, heavy, full of double chins and bad posture and weather-beaten skin. Courbet had not failed to make his people beautiful; he had refused to, and to an eye trained on porcelain goddesses the refusal read as an attack on beauty itself. The critics called it ugly.
       </p>
       <p style={proseStyle}>
-        But ugliness in a small picture is a private matter; ugliness across twenty-two feet of canvas is a manifesto, and that was the deeper offense — the <em>scale</em>. That much canvas, that much seriousness, that much <em>room</em>, was reserved by the hierarchy of genres for history painting's top rung: gods, kings, saints, the great deaths and the great deeds. To spend it on a provincial funeral full of nobodies was, in the academy's grammar, a category error so loud it sounded like a threat. Either thing alone the Salon could have swallowed — a small picture of a funeral, fine; a huge picture of a coronation, fine. It was the <em>combination</em> that could not be forgiven, because the combination said the whole ranking was a lie. Courbet had taken the bottom rung of the ladder and bolted it to the top, and everyone who understood the ladder understood the violence of that.
+        But ugliness in a small picture is a private matter; ugliness across twenty-two feet of canvas is a manifesto, and that was the deeper offense — the <em>scale</em>. That much canvas, that much seriousness, that much <em>room</em>, was reserved by the hierarchy of genres for history painting&rsquo;s top rung: gods, kings, saints, the great deaths and the great deeds. To spend it on a provincial funeral full of nobodies was, in the academy&rsquo;s grammar, a category error so loud it sounded like a threat. Either thing alone the Salon could have swallowed — a small picture of a funeral, fine; a huge picture of a coronation, fine. It was the <em>combination</em> that could not be forgiven, because the combination said the whole ranking was a lie. Courbet had taken the bottom rung of the ladder and bolted it to the top, and everyone who understood the ladder understood the violence of that.
       </p>
       <p style={proseStyle}>
-        And then there was the year. The Burial went up only two years after <strong>1848</strong> — the February revolution that toppled King Louis-Philippe and, for a few raw months, put the ordinary people of France (workers, peasants, the poor) briefly at the center of their own history before the army closed the experiment down (the Realism overview tells that year in full). Memories were fresh and the propertied classes were frightened. And the fear had something to fix on right there in the paint: planted in the crowd, in the dark suits and breeches of 1793, stand two old men dressed as veterans of the First Republic — Courbet's own choice of costume, a visible reminder, in 1850, of the last time ordinary Frenchmen had been dangerous. So when some critics read a socialist menace into the canvas, they were not only reacting to the proximity of the barricades; they were reacting to the rural poor made enormous and dignified, with the ghosts of '93 standing among them, hung in the State's own exhibition.
+        And then there was the year. The Burial went up only two years after <strong>1848</strong> — the February revolution that toppled King Louis-Philippe and, for a few raw months, put the ordinary people of France (workers, peasants, the poor) briefly at the center of their own history before the army closed the experiment down (the Realism overview tells that year in full). Memories were fresh and the propertied classes were frightened. And the fear had something to fix on right there in the paint: planted in the crowd, in the dark suits and breeches of 1793, stand two old men dressed as veterans of the First Republic — Courbet&rsquo;s own choice of costume, a visible reminder, in 1850, of the last time ordinary Frenchmen had been dangerous. So when some critics read a socialist menace into the canvas, they were not only reacting to the proximity of the barricades; they were reacting to the rural poor made enormous and dignified, with the ghosts of &rsquo;93 standing among them, hung in the State&rsquo;s own exhibition.
       </p>
 
       <SectionHeader accent={accent} label="The voice that fought back" title="Champfleury and the name 'Realism'" />
       <p style={proseStyle}>
-        The painting was not left to the hostile critics alone. Its loudest defender was the writer <strong>Champfleury</strong> (Jules Husson, 1821–1889), a friend of Courbet's and the critic widely credited with first using the word "<strong>Realism</strong>" in the new art-critical sense — naming, in print, the very thing this painting was doing. Against the charge that the Burial was political propaganda, Champfleury answered flatly: "there is not a trace of socialism in <em>A Burial at Ornans</em>." (That the charge needed rebutting at all tells you how live the socialist reading was.) The point worth holding is that Realism never was one painter's lone stunt. It was argued into being by a circle — Courbet, Champfleury, and others who gathered at the Brasserie Andler, the Paris beer hall their friends nicknamed "the Temple of Realism." Courbet painted the manifesto; his friends supplied the word for it.
+        The painting was not left to the hostile critics alone. Its loudest defender was the writer <strong>Champfleury</strong> (Jules Husson, 1821–1889), a friend of Courbet&rsquo;s and the critic widely credited with first using the word &ldquo;<strong>Realism</strong>&ldquo; in the new art-critical sense — naming, in print, the very thing this painting was doing. Against the charge that the Burial was political propaganda, Champfleury answered flatly: &ldquo;there is not a trace of socialism in <em>A Burial at Ornans</em>.&rdquo; (That the charge needed rebutting at all tells you how live the socialist reading was.) The point worth holding is that Realism never was one painter&rsquo;s lone stunt. It was argued into being by a circle — Courbet, Champfleury, and others who gathered at the Brasserie Andler, the Paris beer hall their friends nicknamed &ldquo;the Temple of Realism.&rdquo; Courbet painted the manifesto; his friends supplied the word for it.
       </p>
     </article>
   )
@@ -1775,7 +1775,7 @@ function BuRomanticism({ accent }: { accent: string; onZoom: (src: string, cap: 
       <SectionHeader accent={accent} label="Courbet's own verdict" title="What he said he had buried" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>C</DropCap>
-        ourbet, who never in his life under-explained his own importance, later wrote — or is at least widely recorded as having said — that the Burial was, in fact, "<strong>the burial of Romanticism</strong>." (There is no single dated letter pinning the line down; it survives as strong secondary-source consensus, so take it as a remark genuinely his, not a quote anyone invented.) It is one of the great double meanings in art history, and worth unfolding slowly, because it is the key to why this particular painting is treated as the public birth of a movement rather than just a big sad picture.
+        ourbet, who never in his life under-explained his own importance, later wrote — or is at least widely recorded as having said — that the Burial was, in fact, &ldquo;<strong>the burial of Romanticism</strong>.&rdquo; (There is no single dated letter pinning the line down; it survives as strong secondary-source consensus, so take it as a remark genuinely his, not a quote anyone invented.) It is one of the great double meanings in art history, and worth unfolding slowly, because it is the key to why this particular painting is treated as the public birth of a movement rather than just a big sad picture.
       </p>
       <p style={proseStyle}>
         A painting of a burial — and what it buries, he says, is not only his great-uncle but an entire way of making art.
@@ -1783,26 +1783,26 @@ function BuRomanticism({ accent }: { accent: string; onZoom: (src: string, cap: 
 
       <SectionHeader accent={accent} label="What 'Romanticism' meant" title="The thing in the grave" />
       <p style={proseStyle}>
-        To get the line you have to know what was in the coffin. <strong>Romanticism</strong> (the generation of painting just before Courbet) was, the Realism overview explains, the academy's opposite excess: exotic settings, heaving drama, shipwrecks and harems and battlefield agony, emotion cranked to the ceiling. Where the academy painted cold marble gods, the Romantics painted hot fevered passion. They were enemies of each other, but from Courbet's point of view they were the same enemy: both were ways of <em>not</em> painting the actual, ordinary, present-tense world. One escaped into antiquity; the other escaped into drama. Neither would deign to paint a Tuesday in Ornans.
+        To get the line you have to know what was in the coffin. <strong>Romanticism</strong> (the generation of painting just before Courbet) was, the Realism overview explains, the academy&rsquo;s opposite excess: exotic settings, heaving drama, shipwrecks and harems and battlefield agony, emotion cranked to the ceiling. Where the academy painted cold marble gods, the Romantics painted hot fevered passion. They were enemies of each other, but from Courbet&rsquo;s point of view they were the same enemy: both were ways of <em>not</em> painting the actual, ordinary, present-tense world. One escaped into antiquity; the other escaped into drama. Neither would deign to paint a Tuesday in Ornans.
       </p>
       <p style={proseStyle}>
-        So when Courbet says the Burial buried Romanticism, he means this flat, gray, unbeautiful, undramatic, completely real funeral is the thing that kills the fever dream. You cannot look at this hole in the ground, this bored dog, these double chins, and still believe art's only proper business is gods and shipwrecks. The painting does not argue against Romanticism. It simply stands there being real at enormous scale, and makes the alternative look like costume drama.
+        So when Courbet says the Burial buried Romanticism, he means this flat, gray, unbeautiful, undramatic, completely real funeral is the thing that kills the fever dream. You cannot look at this hole in the ground, this bored dog, these double chins, and still believe art&rsquo;s only proper business is gods and shipwrecks. The painting does not argue against Romanticism. It simply stands there being real at enormous scale, and makes the alternative look like costume drama.
       </p>
       <p style={proseStyle}>
-        It helps that Courbet was not theorizing alone. The philosopher <strong>Pierre-Joseph Proudhon</strong> (1809–1865) — an Ornans man himself, and France's most famous radical thinker — was Courbet's friend and intellectual partner for years, and read Courbet's painting as social truth-telling, art with a public conscience. The self-understanding behind "the burial of Romanticism" was sharpened in that company, not generated in a vacuum.
+        It helps that Courbet was not theorizing alone. The philosopher <strong>Pierre-Joseph Proudhon</strong> (1809–1865) — an Ornans man himself, and France&rsquo;s most famous radical thinker — was Courbet&rsquo;s friend and intellectual partner for years, and read Courbet&rsquo;s painting as social truth-telling, art with a public conscience. The self-understanding behind &ldquo;the burial of Romanticism&rdquo; was sharpened in that company, not generated in a vacuum.
       </p>
 
       <SectionHeader accent={accent} label="A manifesto before the manifesto" title="Realism goes public" />
       <p style={proseStyle}>
-        The Realism overview tells the famous later moment: 1855, the Pavilion of Realism, the tent Courbet built across from the world's fair with a printed catalogue inside, the place where Realism finally got its <em>name</em> in writing and its argument on paper. That is where Realism became a stated program.
+        The Realism overview tells the famous later moment: 1855, the Pavilion of Realism, the tent Courbet built across from the world&rsquo;s fair with a printed catalogue inside, the place where Realism finally got its <em>name</em> in writing and its argument on paper. That is where Realism became a stated program.
       </p>
       <p style={proseStyle}>
-        But the Burial came five years earlier, and it made the argument with no words at all. It is the movement's public birth as a <em>fact</em> before it was a public birth as a <em>theory</em>. In 1850, before there was a tent or a catalogue or the word "Realism" on a sign, there was already a ten-foot wall of plain reality hanging in the official Salon, forcing every visitor in France to deal with it. The painting did the work a manifesto does — declared what art was now allowed to be about — except it declared it in oil instead of ink, and it declared it inside the enemy's own building. The tent of 1855 put Realism into words. The Burial of 1850 had already put it on the wall.
+        But the Burial came five years earlier, and it made the argument with no words at all. It is the movement&rsquo;s public birth as a <em>fact</em> before it was a public birth as a <em>theory</em>. In 1850, before there was a tent or a catalogue or the word &ldquo;Realism&rdquo; on a sign, there was already a ten-foot wall of plain reality hanging in the official Salon, forcing every visitor in France to deal with it. The painting did the work a manifesto does — declared what art was now allowed to be about — except it declared it in oil instead of ink, and it declared it inside the enemy&rsquo;s own building. The tent of 1855 put Realism into words. The Burial of 1850 had already put it on the wall.
       </p>
 
       <SectionHeader accent={accent} label="What it cracked open" title="The subject of art" />
       <p style={proseStyle}>
-        Step back and the size of the rupture is clear. Before the Burial, the question "what is a serious painting allowed to be <em>about</em>?" had an official answer, ranked and policed: gods at the top, the present at the bottom. After the Burial — and after the fight it started — that answer was permanently in doubt. Courbet had proved, on the largest possible canvas, in the most public possible room, that the ordinary contemporary world could carry the full weight and scale of the grandest art. He did not single-handedly cause everything that followed (the honest version resists hanging a whole century on one canvas). But the crack he opened — the present is a fit subject for serious art, at any scale a painter dares — is the crack the rest of modern painting pours through.
+        Step back and the size of the rupture is clear. Before the Burial, the question &ldquo;what is a serious painting allowed to be <em>about</em>?&rdquo; had an official answer, ranked and policed: gods at the top, the present at the bottom. After the Burial — and after the fight it started — that answer was permanently in doubt. Courbet had proved, on the largest possible canvas, in the most public possible room, that the ordinary contemporary world could carry the full weight and scale of the grandest art. He did not single-handedly cause everything that followed (the honest version resists hanging a whole century on one canvas). But the crack he opened — the present is a fit subject for serious art, at any scale a painter dares — is the crack the rest of modern painting pours through.
       </p>
     </article>
   )
@@ -1814,18 +1814,18 @@ function BuAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
       <SectionHeader accent={accent} label="From the artist to the nation" title="Juliette's gift" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>T</DropCap>
-        he painting outlived its painter, and the way it entered the public collections is its own quiet ending. Courbet's later life went badly: the Realism overview tells how his politics caught up with him after the Paris Commune of 1871 (the brief revolutionary workers' government in Paris, which Courbet publicly backed) and he died in exile in Switzerland in 1877. The Burial — this enormous, hard-to-house, once-scandalous thing — was still in the family.
+        he painting outlived its painter, and the way it entered the public collections is its own quiet ending. Courbet&rsquo;s later life went badly: the Realism overview tells how his politics caught up with him after the Paris Commune of 1871 (the brief revolutionary workers&rsquo; government in Paris, which Courbet publicly backed) and he died in exile in Switzerland in 1877. The Burial — this enormous, hard-to-house, once-scandalous thing — was still in the family.
       </p>
       <p style={proseStyle}>
-        It was Courbet's sister, <strong>Juliette Courbet</strong> — one of the women you can find in the canvas itself — who handed the painting to France. By the standard account she gave it to the State in <strong>1881</strong>, four years after her brother's death, donating to the nation the very canvas the nation's official Salon had once recoiled from. Sit with that for a second. The picture the academy had treated as an assault on its values — the thing the critics called ugly and dangerous — was given, for free, by the dead painter's sister, into the permanent keeping of the country whose taste it had outraged. The outrage became the heirloom.
+        It was Courbet&rsquo;s sister, <strong>Juliette Courbet</strong> — one of the women you can find in the canvas itself — who handed the painting to France. By the standard account she gave it to the State in <strong>1881</strong>, four years after her brother&rsquo;s death, donating to the nation the very canvas the nation&rsquo;s official Salon had once recoiled from. Sit with that for a second. The picture the academy had treated as an assault on its values — the thing the critics called ugly and dangerous — was given, for free, by the dead painter&rsquo;s sister, into the permanent keeping of the country whose taste it had outraged. The outrage became the heirloom.
       </p>
 
       <SectionHeader accent={accent} label="Louvre to Orsay" title="The wall it hangs on now" />
       <p style={proseStyle}>
-        For a long time the Burial hung in the <strong>Louvre</strong>, the great Paris museum, taking its place at last among the very history paintings it had once mocked. Then, in <strong>1986</strong>, the <strong>Musée d'Orsay</strong> (the Paris museum dedicated to nineteenth-century art, installed in a converted former railway station on the Left Bank) opened, and the Louvre's nineteenth-century collection moved across the river to fill it. The Burial went with it.
+        For a long time the Burial hung in the <strong>Louvre</strong>, the great Paris museum, taking its place at last among the very history paintings it had once mocked. Then, in <strong>1986</strong>, the <strong>Musée d&rsquo;Orsay</strong> (the Paris museum dedicated to nineteenth-century art, installed in a converted former railway station on the Left Bank) opened, and the Louvre&rsquo;s nineteenth-century collection moved across the river to fill it. The Burial went with it.
       </p>
       <p style={proseStyle}>
-        It is there now, in the Musée d'Orsay, and you can stand at the back of that country funeral any day the museum is open. The canvas that once needed defending hangs as a fixed point of the national collection, a thing schoolchildren are walked past as obviously important — which is the strangest fate of all for a painting whose entire scandal was that it refused to be obviously important.
+        It is there now, in the Musée d&rsquo;Orsay, and you can stand at the back of that country funeral any day the museum is open. The canvas that once needed defending hangs as a fixed point of the national collection, a thing schoolchildren are walked past as obviously important — which is the strangest fate of all for a painting whose entire scandal was that it refused to be obviously important.
       </p>
 
       <SectionHeader accent={accent} label="Why it still matters" title="The painting where the subject cracked open" />
@@ -1834,6 +1834,795 @@ function BuAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
       </p>
       <p style={proseStyle}>
         The throughline is worth saying flat, one more time: he took the single most ordinary event there is, the burial of an unimportant man in a backwater town, and he painted it at the size and with the seriousness Europe reserved for the death of kings and saints. No hierarchy, no idealization, no hero — more than forty real villagers, life-size, standing around a hole in the ground, with a bored dog in front and the bones of the last occupant scattered in the dirt. That mismatch of humble subject and monumental scale was the scandal, and it was also the door. Realism walked through it first. Everything restless in modern painting walked through after.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Stone Breakers (Courbet, 1849) — the five chapters
+// Drafted by the AUTHOR agent in the gated art pipeline. Same JSX
+// pattern as the BuTown…BuAfterlife functions in art-section-reader.tsx
+// (helpers SectionHeader / DropCap; styles proseStyle / italicStyle;
+// <strong> / <em>; <article style={{ padding: '18px 18px 40px' }}>;
+// `first` + <DropCap> on the opener). NO inline figures — the work
+// page already shows the hero painting (zoomable) + the Look-closer
+// pointers, exactly like the Burial. Section ids: road / looking /
+// salon / meaning / afterlife (match STONE_BREAKERS.sections[].id).
+// ─────────────────────────────────────────────────────────────
+
+function SbRoad({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Near Maisières · 1849" title="Two men on a road" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne day in the autumn of 1849, a young painter was riding his carriage out of the French countryside to go paint a landscape, and he stopped to watch two strangers break rocks by the side of the road. That is the whole origin of one of the most important paintings of the nineteenth century: a man pulled over to look at the dullest, hardest, most invisible work there is — smashing stone into gravel so that other people can have a road — and decided it was worth a canvas eight and a half feet wide.
+      </p>
+      <p style={proseStyle}>
+        The painter was <strong>Gustave Courbet</strong> (1819–1877), the loud, supremely self-certain man who would become the public face of <strong>Realism</strong> — the new movement that insisted ordinary, contemporary, unglamorous life was a fit subject for serious art, painted plain, with none of the official art world&rsquo;s polish (his fuller story, and the movement&rsquo;s, are told one level up in this app, in the Realism overview). He grew up in <strong>Ornans</strong>, a small town in eastern France, and that autumn he was near a village called <strong>Maisières</strong>, on his way to paint a château, when the two stone breakers caught his eye. He was not working alone, either: behind him stood a whole Ornans-and-Paris Realist circle — the critic <strong>Champfleury</strong>, who would give the movement the name &ldquo;Realism,&rdquo; and Courbet&rsquo;s boyhood friend the poet <strong>Max Buchon</strong>, who was among the first to champion these very pictures and describe them in print (the Realism overview carries that circle in full).
+      </p>
+
+      <SectionHeader accent={accent} label="The letter" title="“The most complete expression of poverty”" />
+      <p style={proseStyle}>
+        We know how it happened because Courbet wrote it down. In a letter that November to his friend, the historian <strong>Francis Wey</strong>, he described the scene almost like a hunter describing game: he had stopped to consider two men breaking stones on the road, and, by his own account, one rarely sees &ldquo;the most complete expression of poverty&rdquo; so perfectly arranged — so, right there on the spot, he got the idea for a painting, and arranged for the two men to come to his studio the next morning to pose. He did not sketch them and invent the rest. He brought the actual road laborers indoors and painted <em>them</em>.
+      </p>
+      <p style={proseStyle}>
+        Hold onto how he framed it, because it matters for everything the painting was later accused of. Courbet did not say &ldquo;I have found a symbol of the suffering working class.&rdquo; He said, in effect, <em>I have seen them.</em> The starting point was not a political idea looking for a picture; it was a real sight — two specific men, by a specific road — that he found so stark he couldn&rsquo;t drive past it. The politics arrived later, supplied by other people. The painting began as a stop on a country road.
+      </p>
+
+      <SectionHeader accent={accent} label="The decision" title="Paint them at the size of gods" />
+      <p style={proseStyle}>
+        To feel how strange Courbet&rsquo;s next move was, you have to know the rule he was about to break. European painting ran on a ranking system called the <strong>hierarchy of genres</strong> — an official ladder that sorted subjects by importance (the Realism overview lays it out in full). At the very top sat grand scenes from myth, scripture, and ancient legend: <strong>history painting</strong>, the prestige category, where &ldquo;history&rdquo; meant gods and heroes and saints, not last week&rsquo;s news. At the very bottom sat plain modern life. And the unspoken law was about <em>size</em>: a big canvas was a promise that the thing on it mattered enormously, and big canvases were reserved for the top of the ladder. You were allowed to paint a peasant. You were not allowed to paint a peasant at the scale of a god.
+      </p>
+      <p style={proseStyle}>
+        Courbet painted his two stone breakers <strong>life-size</strong> — at, or close to, the height of real people — on a canvas roughly <strong>5 feet 5 inches tall and 8 feet 5 inches wide</strong> (about 165 by 257 centimeters). Stand where it once hung and the laborers would be your own size, breaking rock at your eye level. That is not the scale of a quaint little scene of rustic life, the sort of small, charming &ldquo;look at the simple poor folk&rdquo; picture a Salon could happily ignore. That is the scale of an altarpiece. Courbet took the two least important men he could find and gave them the room the academy kept for the death of heroes.
+      </p>
+      <p style={proseStyle}>
+        It is worth being clear about why <em>size</em> was such a loaded weapon, because to a modern eye, where every photo on a phone is the same size, the whole fuss can seem strange. In Courbet&rsquo;s world, a picture&rsquo;s dimensions were a price tag on its importance — the bigger the canvas, the more the subject was officially declared to matter. A tiny picture of a peasant was a fine, harmless thing, the visual equivalent of a polite little anecdote. The same peasant rendered as tall as a real man, on a wall of canvas, was a public declaration that this person was as worth your serious attention as any saint or general. Courbet understood the grammar exactly, and he used it like a megaphone. The next chapter is what came out of it, inch by inch — which is the only way to read this picture, because the whole argument is in the looking.
+      </p>
+    </article>
+  )
+}
+
+function SbLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A boy, an old man, and a road" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore anything else, a warning about color, because it changes how you should look. <em>The Stone Breakers</em> no longer exists — the original was lost at the end of the Second World War (Chapter 5) — and every image of it you can find, including the one on this page, is a reproduction of a reproduction. The version we show is nearly <strong>gray</strong>, drained of color, almost a black-and-white photograph. That muted, ashen look is <em>not</em> what Courbet painted; it is the fingerprint of a lost picture, a record made from poor copies. So as you look, read the shapes, the poses, the gestures, the rags — and take the grayness as the sound of an absence, not as the artist&rsquo;s palette.
+      </p>
+      <p style={proseStyle}>
+        With that said: there are two figures, and almost nothing else. No crowd, no drama, no story unfolding. Just two men, a heap of broken stone, a few tools, and a steep bank of earth rising behind them. The composition is brutally simple, and every element earns its place.
+      </p>
+
+      <SectionHeader accent={accent} label="The boy" title="The one who carries" />
+      <p style={proseStyle}>
+        On the <strong>left</strong> stands a <strong>young man</strong> — really a boy, too young for this kind of work — straining to lift a heavy basket of broken stone. His whole body is wrenched by the load: knees bent, back twisted, every line of him fighting the weight. And here is the first thing to notice, because it governs the entire painting: <em>you never see his face.</em> He is turned away from you, so that you get his back, the nape of his neck, the strain in his shoulders — and nothing of his expression at all.
+      </p>
+      <p style={proseStyle}>
+        Look at what he is wearing. His white shirt has torn open across the shoulder blade, gaping at the seam. A leather strap crosses his back to hold up trousers that are themselves falling apart, and his shoes are coming off his feet, mismatched and split. Courbet paints the poverty with the patience of an inventory clerk: not &ldquo;a ragged boy&rdquo; in general, but <em>this</em> rip, <em>this</em> strap, <em>this</em> hole. The detail is the dignity. He treats the boy&rsquo;s broken clothes with exactly the care a court painter would lavish on a duke&rsquo;s lace.
+      </p>
+
+      <SectionHeader accent={accent} label="The old man" title="The one who breaks" />
+      <p style={proseStyle}>
+        On the <strong>right</strong>, the boy&rsquo;s partner kneels on one knee on a little pad of straw, a long-handled hammer raised over his shoulder, caught at the very top of its arc, an instant before it comes down on the stone. Courbet said in his letter that the man was about <strong>seventy</strong>. And now the pairing does its quiet, devastating work: on one side a child too young for this labor, on the other an old man too old for it, and <em>nothing in between.</em> There is no figure in the prime of life here, no strong young worker in his element. There is only the beginning of a hard life and the end of one — the same crushing job at both ends of a human existence, as if to say: this is what the road costs, from childhood to the grave, and it never lets up.
+      </p>
+      <p style={proseStyle}>
+        Like the boy, the old man has no visible face. His head is bent to his work and shaded under the brim of a battered <strong>straw hat</strong>, so the brim does to him what the turned back does to the boy: it hides him. His trousers are patched and re-patched; on his feet are wooden <strong>sabots</strong> (the heavy clogs French peasants wore) so cracked you can nearly see the heel through them. He is rendered with the same forensic attention to ruin — a striped waistcoat, a coarse shirt, the works.
+      </p>
+
+      <SectionHeader accent={accent} label="The faces" title="The decision that runs the picture" />
+      <p style={proseStyle}>
+        Put the two together and you arrive at the single most important choice Courbet made: <strong>neither man has a face you can see.</strong> One turns his back; the other&rsquo;s is lost under a hat. This was not laziness or accident — it scandalized people at the time precisely because it was so deliberate. A contemporary critic, irritated, complained that Courbet had &ldquo;suppressed the two heads,&rdquo; noting that the standing worker shows only the back of his neck and the kneeling one has hidden his head under his straw hat. He was right, and he had missed why.
+      </p>
+      <p style={proseStyle}>
+        Think about what a visible face does. A face — especially a tired, pleading, soulful one — turns a laborer into a <em>character</em>, someone you can pity, an individual whose particular sad story you&rsquo;re invited to feel for. That is the whole engine of sentimental art: give the poor a noble, suffering face and let the comfortable viewer feel a warm, safe pang of sympathy. Courbet slams that door. By hiding both faces he refuses you the easy emotion. You don&rsquo;t get to know these men or feel sorry for them as individuals. You get only the bodies, the effort, the rags, and the work — which is far harder to feel sentimental about, and far harder to look away from. The painting doesn&rsquo;t ask for your pity. It just shows you the labor and dares you to keep watching.
+      </p>
+
+      <SectionHeader accent={accent} label="The setting" title="Tools, a pot, and a wall of earth" />
+      <p style={proseStyle}>
+        Around the two men, Courbet scatters the gear of the job — a pick, a basket, heaps of broken rock — with no arrangement, no grace, just the litter of actual work. Off at the far right, easy to miss, sits a small dark <strong>cooking pot</strong> with a scrap of bread beside it, presumably the men&rsquo;s lunch, set down in the dirt. It is the only soft, domestic note in the whole picture, and it is shoved to the very margin, almost out of frame, as if even eating is an afterthought to the rock.
+      </p>
+      <p style={proseStyle}>
+        And behind everything: a <strong>wall</strong>. There is almost no sky. A steep, dark bank of earth rises across nearly the entire top of the canvas, leaving only a thin wedge of pale light in the upper-right corner. That bank does something specific and airless — it presses the two figures forward, packing them flat against the front of the picture with nowhere to recede into. A normal landscape opens a window: a horizon, distance, sky, somewhere for the eye to escape. Courbet gives his laborers no window. They are pinned between the stone they break in front and the bank of earth that shuts the door behind. There is no exit in this picture, which is rather the point of the lives it shows.
+      </p>
+    </article>
+  )
+}
+
+function SbSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–51" title="The painting did not arrive alone" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>{' '}
+        painting this size is built for one destination: the <strong>Salon</strong> — the official annual State exhibition, the single show in France where an artistic career was made or buried (the academy ran it; you meet it properly in the Realism overview). In the <strong>Salon of 1850–1851</strong> (the show ran across that winter), Courbet hauled his eight-and-a-half feet of road laborers into the official halls and hung them up among the gods, the goddesses, and the Roman senators that the State liked to look at.
+      </p>
+      <p style={proseStyle}>
+        But <em>The Stone Breakers</em> did not arrive alone, and that is the key to its impact. In the very same Salon, Courbet also hung <strong>A Burial at Ornans</strong> — an even more enormous canvas, ten feet tall and twenty-two wide, showing a whole village funeral at the scale Europe reserved for the death of kings (it has its own deep read in this app, the twin to this one). Visitors met the two pictures as a single coordinated assault: the same radical program — heroic scale, common people, zero idealization — delivered twice in the same hall, by the same provincial troublemaker, in one season. One picture might be a curiosity. Two, hung together, deliberately, is a manifesto.
+      </p>
+
+      <SectionHeader accent={accent} label="The pairing" title="Why two pictures hit harder than one" />
+      <p style={proseStyle}>
+        It is worth pausing on how cleverly the pair worked, because between them they covered the whole ground. <em>A Burial at Ornans</em> took the great public ceremony — death, the church, the community gathered — and filled it with plain, unflattering, real townsfolk at monstrous scale. <em>The Stone Breakers</em> took the opposite pole: not a ceremony but pure, dull, private labor, with no event at all, just two anonymous men doing the most thankless work there is. Together they said the same thing from two directions: <strong>the ordinary, contemporary world — its funerals and its road work, its mourners and its laborers — deserves the size and seriousness art had always saved for myth.</strong> Wherever a 1851 visitor turned in that room, Courbet had a giant canvas waiting to make the argument again.
+      </p>
+      <p style={proseStyle}>
+        And the room reacted. The press did to <em>The Stone Breakers</em> what frightened, mocking critics always do — it went after the small, undeniable detail. Caricaturists seized on the old man&rsquo;s wooden clogs and drew them comically, grotesquely huge, the sabots swelling to the size of boats. That sounds like a trivial joke, but it is a tell. You exaggerate the clogs when you can&rsquo;t quite say out loud what really bothers you: that a painter has taken the kind of poverty you normally step around on the street and made it eight feet wide and dead serious, and hung it where you came to admire beauty.
+      </p>
+
+      <SectionHeader accent={accent} label="The deeper offense" title="Bottom of the ladder, bolted to the top" />
+      <p style={proseStyle}>
+        The mockery covered a real alarm, and it is the same alarm the Burial set off, so the Realism overview and the Burial read both tell it in full; here it is enough to name the mechanism. The hierarchy of genres reserved big, serious canvases for the top of the ladder — gods, kings, the great deaths and deeds. To spend that scale and that seriousness on two nameless road workers was, in the academy&rsquo;s grammar, a category error so loud it sounded like a threat. Courbet had taken the bottom rung of the ladder and bolted it to the top, and everyone who understood the ladder understood the violence of the swap. The painting was not just ugly to them. It was an argument that the whole ranking was a lie — and it was making that argument inside the State&rsquo;s own building, in the one room where French art came to be told what mattered.
+      </p>
+      <p style={proseStyle}>
+        The timing sharpened every nerve. The Salon of 1850–51 opened only two years after <strong>1848</strong> — the revolution that toppled the king and, for a few raw months, put the ordinary working people of France at the very center of their own history before the army shut the experiment down (the Realism overview tells that year in full). The barricades were a fresh, frightening memory, and the propertied classes who strolled the Salon were exactly the people who had been scared by them. So when a painter hung two giant, unsmiling laborers in the official halls — laborers given the dignity and scale of heroes, in the same year the memory of armed workers was still raw — it landed as more than a question of taste. To a nervous viewer in 1851, those two anonymous men with their hammers were not just ugly. They were, faintly, a threat. Courbet always denied he meant them that way. We will get to whether anyone believed him.
+      </p>
+    </article>
+  )
+}
+
+function SbMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The reading" title="“The first socialist painting”" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he label that has stuck to this picture for a century and a half is &ldquo;the first socialist painting.&rdquo; It is a tidy phrase, and like most tidy phrases about art, it needs unpacking before you believe it — because it describes a <em>reading</em> of the painting, not a fact about it, and it came mostly from one very particular reader.
+      </p>
+      <p style={proseStyle}>
+        That reader was <strong>Pierre-Joseph Proudhon</strong> (1809–1865), and he is worth a sentence of his own. Proudhon was, in his day, France&rsquo;s most famous radical thinker — the man who answered his own question &ldquo;What is property?&rdquo; with the line &ldquo;property is theft,&rdquo; and the first writer to call himself an <strong>anarchist</strong> (someone who believes society should run without rulers or the state). He was also, conveniently, an Ornans man and Courbet&rsquo;s friend. When Proudhon looked at <em>The Stone Breakers</em>, he did not see two men by a road. He saw the entire situation of the laboring poor — a society that uses people up between childhood and old age and then discards them — and he read the picture as social truth-telling, a condemnation in paint of a world that let this happen. The young worker, Proudhon wrote, stood for the whole proletariat (the class of people who own nothing and live by selling their labor). To him, the painting was a masterpiece because it was an <em>argument</em>.
+      </p>
+
+      <SectionHeader accent={accent} label="The painter's version" title="“I have seen them”" />
+      <p style={proseStyle}>
+        Here is the catch, and it is a good one: <strong>Courbet didn&rsquo;t say any of that.</strong> Go back to his own letter, the one from Chapter 1. He didn&rsquo;t write that he had found a symbol of class oppression; he wrote that he had stopped his carriage near Maisières, seen two real men breaking stones, been struck by the sheer completeness of their poverty, and asked them to come pose. By his own framing, he painted what he <em>saw</em>, not what he <em>believed</em>. The politics, the manifesto, the &ldquo;socialism&rdquo; — that was the meaning his friends and critics poured into the picture afterward. Proudhon supplied the theory. Courbet supplied the two men.
+      </p>
+      <p style={proseStyle}>
+        Both things can be true at once, and the honest version holds them together rather than picking one. A painter can sincerely set out to record a sight and still choose that sight, and paint it eight feet wide, and hang it in the State&rsquo;s exhibition next to a village funeral — and those choices carry a politics whether the painter signs a manifesto or not. Courbet was no innocent: he was a man of the left, painting laborers at heroic scale two years after a revolution. But the picture is more powerful, not less, for refusing to <em>announce</em> its meaning. It doesn&rsquo;t lecture. It just puts two ruined men in front of you, at your own height, and lets the size do the arguing.
+      </p>
+
+      <SectionHeader accent={accent} label="Dignity, not pity" title="Why the hidden faces are the whole point" />
+      <p style={proseStyle}>
+        This is where the looking from Chapter 2 pays off. Recall the one decision that runs the whole canvas: you never see either face. That choice is exactly what separates this painting from propaganda, and it is what lets it carry weight a poster never could.
+      </p>
+      <p style={proseStyle}>
+        A piece of pure political art — then or now — would give the laborers <em>faces</em>: noble, suffering, soulful faces lifted toward the light, the better to wring sympathy out of you. That is the art of pity, and pity is a comfortable feeling. You feel the warm pang, you feel like a good person, and nothing in your world has to change. Courbet refuses to play that game. By hiding both faces, he denies you the pity entirely. You can&rsquo;t bond with these men, can&rsquo;t read their feelings, can&rsquo;t reduce them to a sad story. And history kept the door shut the rest of the way: the two laborers were real men Courbet met by the road near Maisières, but their names were never written down, so we will never know who they were — the painting that gave them the scale of heroes preserves everything about them except the one thing pity wants, their identity. What is left is harder and stranger: their <em>bodies</em>, their <em>effort</em>, their <em>work</em>, given the full monumental seriousness of history painting. Not &ldquo;feel sorry for the poor,&rdquo; but &ldquo;look at this, and reckon with it.&rdquo; That is dignity instead of pity — and it is the reason a quiet picture of two men breaking rocks still feels, more than a century and a half later, less like a charity appeal and more like a fact you have to answer for.
+      </p>
+    </article>
+  )
+}
+
+function SbAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Dresden · before the war" title="The painting that ended up in Germany" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>E</DropCap>
+        very other deep read in this app ends with the painting hanging safely in a museum, where you can go stand in front of it. This one cannot, and that is its strange, sad distinction: <em>The Stone Breakers</em> is the famous picture you will never see, because it no longer exists. To understand why we can still talk about it at all, you have to follow it from a French road to a German city to the worst night of a long war.
+      </p>
+      <p style={proseStyle}>
+        After it left Courbet&rsquo;s hands, the canvas eventually made its way into German collections and came to rest at the <strong>Gemäldegalerie in Dresden</strong> — the great picture gallery of that city, one of the major museums of Europe. For decades that is where <em>The Stone Breakers</em> lived: a French painting of two French laborers, hanging as a treasure in a German museum, admired and reproduced and studied. If the twentieth century had gone differently, it would be hanging there still, and this chapter would be about which wall.
+      </p>
+
+      <SectionHeader accent={accent} label="February 1945" title="Lost in the last months of the war" />
+      <p style={proseStyle}>
+        In February 1945, in the final months of the Second World War, the painting was lost — and here we have to be careful, because the exact circumstances are genuinely uncertain, and it would be easy to tell a cleaner story than the evidence supports. The <strong>standard account</strong> is this: as Allied bombers closed in on Dresden, the museum tried to save its treasures by moving them out of the city toward the <strong>Königstein Fortress</strong> nearby, and the transport carrying <em>The Stone Breakers</em> — along with more than 150 other pictures — was caught in a bombing raid and destroyed. The famous firebombing of Dresden, one of the most destructive air raids of the entire war, happened that same week, which is why the painting&rsquo;s loss is so often folded into that catastrophe.
+      </p>
+      <p style={proseStyle}>
+        But not everyone accepts that version. At least one scholar (Richard Raskin, writing in 1988) has argued that the painting was <em>not</em> on the doomed transport at all — that it had already gone <strong>missing in 1944</strong>, after being moved out of the gallery, and was simply never seen again. Today the museum&rsquo;s own records do not say &ldquo;destroyed by bombing.&rdquo; They say, more cautiously, <strong>&ldquo;missing.&rdquo;</strong> The truth is probably that no one knows for certain whether <em>The Stone Breakers</em> burned in a convoy, vanished in the chaos, or met some other end. What is not in doubt is the result: the original canvas is gone, presumed destroyed, and it is not coming back.
+      </p>
+
+      <SectionHeader accent={accent} label="Only a photograph" title="Reading a work that no longer exists" />
+      <p style={proseStyle}>
+        So what is left? Reproductions. Photographs and printed copies made while the painting still hung in Dresden — and that is the entire reason the image on this page looks the way it does. Remember the warning from Chapter 2: it is nearly <strong>gray</strong>, drained and ashen, almost a black-and-white photo. That is not how Courbet painted it. The grayness is the trace of the loss itself — a once-living picture surviving only as a faded copy of a copy, with much of its color gone the way the canvas went. When you look at the muted image here, you are not looking at the painting. You are looking at the <em>memory</em> of the painting, which is a different and stranger thing to stand in front of.
+      </p>
+      <p style={proseStyle}>
+        There is one small consolation. Courbet had also painted a <strong>second, smaller version</strong> — a reversed, mirror-image copy, darker and only about a third the size — and that one survives, in the Oskar Reinhart Collection in Winterthur, Switzerland. It is not the great canvas that detonated the Salon of 1851; it is a quieter echo of it. But it means the composition itself was not entirely lost when the original was.
+      </p>
+      <p style={proseStyle}>
+        And here is the final twist, the one worth sitting with. <em>The Stone Breakers</em> is routinely called one of the founding pictures of modern art — the painting where serious art turned to face the ordinary working world without flinching, the twin that helped Realism walk through the front door of the Salon and bolt the bottom of the ladder to the top. It changed what painting was allowed to be about. And it did all of that, and goes on doing it in every art-history class in the world, as a <em>ghost</em> — a work so influential it shaped a century, and so lost that no living person has ever seen its true colors. The two anonymous men Courbet pulled over to watch on a country road have outlasted the canvas they were painted on. That is a strange kind of immortality, and it is exactly the kind Courbet&rsquo;s whole career was an argument for: that the most ordinary lives, looked at hard enough, are the ones that last.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Painter's Studio (Courbet, 1854–55) — the five chapters
+// section ids: refusal · allegory · reading · cast · afterlife
+// No inline figures (matches Burial). Helpers SectionHeader / DropCap /
+// proseStyle / italicStyle assumed in scope, exactly as the Bu… functions.
+// ─────────────────────────────────────────────────────────────
+
+function StRefusal({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1855" title="The biggest show on Earth says no" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1855, Paris threw a party the size of an empire. The <strong>Exposition Universelle</strong> (a world&rsquo;s fair, the kind of vast international exhibition where every nation hauls in its machines and its manufactures and its art to show off in one place) sprawled across the city, and tucked inside it was a grand official art show meant to crown the best painting in France. Getting in was the whole game. A career was made in rooms like that. And the jury that decided who got in looked at the submissions of a loud, bearded provincial named <strong>Gustave Courbet</strong> (1819&ndash;1877) &mdash; the painter at the center of the new <strong>Realism</strong> movement, the school that insisted ordinary contemporary life was a fit subject for serious art, whose larger story is told in the Realism overview one level up in this app &mdash; and they made a decision that backfired beautifully.
+      </p>
+      <p style={proseStyle}>
+        They accepted a good number of his smaller pictures &mdash; and then they refused his <em>two largest canvases</em>, the two monumental paintings he most wanted on that wall: <em>The Painter&rsquo;s Studio</em> and <em>A Burial at Ornans</em> (the huge, scandalous funeral scene that has its own read in this app). The first of the two is the largest, strangest thing he had ever made: a canvas nearly <strong>twelve feet tall and twenty feet wide</strong> with a title so long it reads like a dare &mdash; <em>The Painter&rsquo;s Studio: A Real Allegory Summing Up Seven Years of My Artistic and Moral Life</em>. The jury looked at that wall of dim brown paint, with its naked model and its bored cat and its crowd of recognizable Parisians, and decided it would not hang in their show. The two refused giants would become the twin anchors of the building he was about to put up in answer.
+      </p>
+
+      <SectionHeader accent={accent} label="The tent across the road" title="Courbet builds his own show" />
+      <p style={proseStyle}>
+        Most painters, refused by the one show that mattered, would have swallowed it and waited a year. Courbet did the opposite. He had a crucial ally in <strong>Alfred Bruyas</strong> (1821&ndash;1877), a collector from Montpellier in the south of France &mdash; and Bruyas was far more than a checkbook. The two men had been writing to each other for years about exactly the ideas this painting is built on: what art was for, who it should serve, the artist&rsquo;s independence from the State and the Salon. That correspondence helped shape the Studio&rsquo;s whole conceptual program, and Bruyas put up much of the money to make the answer real. With his backing Courbet built a building of his own &mdash; the <strong>Pavilion of Realism</strong> &mdash; a temporary hall near the official fair, hung about forty of his paintings inside it with the two refused giants, the <em>Studio</em> and the <em>Burial</em>, anchoring the room, and <em>charged admission</em>. If the State would not show his masterpieces, he would stand at the door of his own one-man museum and sell tickets to them. The full story of that tent &mdash; the first artist-run solo show of its kind, the printed manifesto inside &mdash; belongs to the Realism overview. What matters here is the picture it was built around. (Bruyas himself is in the painting, over on the warm right-hand side, among the friends; the cast chapter comes back to him.)
+      </p>
+      <p style={proseStyle}>
+        Because the tent is the famous gesture, but the painting is the actual argument. Courbet did not build a pavilion to protest a rejection in the abstract. He built it to show <em>this</em> &mdash; a single canvas into which he had tried to cram his entire world, his whole art, his friends and enemies and the society he painted, all sorted into one enormous room. The rejection only makes sense once you understand what the jury was rejecting: not just a big painting, but a painting that quietly announced it was the summary of a life.
+      </p>
+
+      <SectionHeader accent={accent} label="The puzzle in the title" title="A “real allegory”" />
+      <p style={proseStyle}>
+        Start with the title, because the title is the first thing that ought to stop you. Courbet called the picture a &ldquo;<strong>real allegory</strong>.&rdquo; That is a contradiction, and he meant it to be. An <strong>allegory</strong> is a picture where the things you see stand for ideas you can&rsquo;t &mdash; a blindfolded woman holding scales <em>means</em> Justice; a skeleton with a scythe <em>means</em> Death. Allegory is the opposite of realism, which paints the world as it plainly is and lets a riverbank just be a riverbank. To call something a &ldquo;real allegory&rdquo; is like advertising a true fairy tale or a documentary myth. The words fight each other on purpose.
+      </p>
+      <p style={proseStyle}>
+        And that fight is the whole key to the painting. <em>The Painter&rsquo;s Studio</em> is, at face value, a completely real scene: a studio, a painter, his model, some visitors, the junk on the floor. Nothing in it is impossible. But every figure has also been chosen and placed to <em>mean</em> something &mdash; this person stands for poverty, that one for wealth, this group for the friends who back him, that group for the world he paints. It is a real room that is secretly a map. The jury could feel that double-game running under the brown paint, and a real allegory summing up seven years of one man&rsquo;s life was not the sort of thing the official Salon (the State-run exhibition the academy used to rank French art) knew how to award a medal to. The next chapter unpacks what those seven years were, and why the painter put himself in the dead center of all of it.
+      </p>
+    </article>
+  )
+}
+
+function StAllegory({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The subtitle" title="Seven years, summed up" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he title promises a &ldquo;summing up of <strong>seven years</strong>,&rdquo; and the arithmetic is not idle. Painted across the winter of <strong>1854&ndash;55</strong>, the picture looks back roughly seven years to <strong>1848</strong> &mdash; the year a revolution toppled a French king and, for a few raw months, put ordinary working people at the center of their own history (the Realism overview tells that year in full). Those seven years, 1848 to 1855, are the years Realism was born and Courbet became its bruising public face. So the painting is not a random studio scene. It is Courbet stopping at a milestone, looking back over the most important stretch of his life, and trying to get the entire thing &mdash; his art, his people, his enemies, his world &mdash; onto one canvas at once.
+      </p>
+      <p style={proseStyle}>
+        That ambition is enormous and slightly absurd, and Courbet knew it. In a letter to his friend the writer <strong>Champfleury</strong> (Jules Husson, 1821&ndash;1889, the critic credited with first using the word &ldquo;Realism&rdquo; for the new art) he tried to explain the thing, and his explanation is where almost everything we know about the painting&rsquo;s plan comes from. He described it, in the standard translation, as the whole world coming to him to be painted &mdash; society, he said, shown at its best, its worst, and its average. One room. All of it. The painter in the middle.
+      </p>
+
+      <SectionHeader accent={accent} label="The man in the middle" title="The painter, painting the wrong thing" />
+      <p style={proseStyle}>
+        And the painter <em>is</em> in the middle &mdash; not off to one side observing, but planted in the dead center of a nearly twenty-foot canvas, seated at his easel, palette in hand. This is a <strong>self-portrait</strong> at the very heart of his own world, which is already an enormous claim to make: in 1855 the center of a monumental painting was reserved for a saint, a hero, an emperor. Courbet gave it to a working painter in his shirtsleeves &mdash; himself.
+      </p>
+      <p style={proseStyle}>
+        Now look at what he is painting, because it is the sharpest joke in the picture. Surrounded by a whole theatrical room of human society &mdash; the rich, the poor, the famous friends, the strange types from the street &mdash; Courbet at his easel has turned away from all of it and is painting a <em>landscape</em>. A plain green river valley, a view of the <strong>Loue</strong> (pronounced &ldquo;loo&rdquo;), the river of his home country near the town of Ornans. The most dramatic gathering of human beings is at his back, and he is calmly painting some trees and water. That is Realism&rsquo;s entire attitude folded into one gesture: the painter declines the grand human drama everyone expects him to make a picture of, and paints the unremarkable real world instead.
+      </p>
+
+      <SectionHeader accent={accent} label="The model with no job" title="The nude who isn’t needed" />
+      <p style={proseStyle}>
+        Just behind him stands a <strong>naked woman</strong>, a white sheet sliding off her hip to the floor. She is doing the single most traditional thing a body can do in a painting &mdash; she is the <strong>academic nude</strong>, the idealized unclothed figure that the official art schools drilled their students to draw, over and over, as the foundation of all serious art. Put a nude in a picture and you signal &ldquo;real art happening here.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Except she has nothing to do. Courbet is painting a landscape; a landscape needs no nude model. So she stands there idle, the old kind of subject with no role to play, watching over the shoulder of a man making the new kind of art that doesn&rsquo;t need her. Some readers go further and take her as a near-allegory of Truth or of Nature herself, looking on while the painter works &mdash; and that reading fits the &ldquo;real allegory&rdquo; game perfectly, a real naked model who also <em>means</em> something. But it is worth saying plainly that before she was a symbol she was a person: a living woman who came to the studio and posed for this, an actual model whose name has simply been lost to us. We read her as Truth because the painting wants us to, but the body on the canvas belonged to someone real, the way every body Courbet painted did. Either way the point lands: the most academic thing in the room has been quietly retired, set to one side, no longer running the show.
+      </p>
+
+      <SectionHeader accent={accent} label="Why this counts as his testament" title="A life, mapped onto a floor" />
+      <p style={proseStyle}>
+        Step back and the structure becomes clear, and it is the reason this painting is treated as Courbet&rsquo;s <em>testament</em> &mdash; his statement of who he is and what his art is for. He has taken the inside of his own head and laid it out as a room. In the center: his art, the act of painting itself, with himself doing it. To one side: the people who believe in him. To the other side: the whole society he claims as his subject, rich and poor, powerful and wretched. It is an artist&rsquo;s self-portrait that swallows the entire world he works in.
+      </p>
+      <p style={proseStyle}>
+        No one had really made a painting do that before &mdash; turned a studio scene into a coded summary of a career and a creed. It is why the &ldquo;real allegory&rdquo; label, contradictory as it is, is exactly right: the room is real, every brick of it, and the room is also a diagram of one man&rsquo;s mind. The next chapter is the part the whole picture is built for: actually walking across it, left to right, and seeing what Courbet sorted where.
+      </p>
+    </article>
+  )
+}
+
+function StReading({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Look closer" title="Walking across the room" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        orget, for a moment, that this is a famous painting, and just stand in front of it. The first thing to notice is how <em>dim</em> it is &mdash; a vast, brown, cavernous studio, lit unevenly, the back wall high and almost blank, the floor bare boards. Out of that gloom three things glow: the pale body of the model in the center, the bright green landscape on the easel beside her, and the small pale smock of a boy at the painter&rsquo;s knee. Everything else you have to dig for. Courbet has built the picture so your eye lands in the middle first, on himself and his work, and then has to <em>travel</em> outward to find the rest. So let&rsquo;s travel. Center, then right, then left &mdash; the order Courbet&rsquo;s own letter to Champfleury used to explain it.
+      </p>
+
+      <SectionHeader accent={accent} label="The center" title="The painter, the nude, the boy, the cat" />
+      <p style={proseStyle}>
+        You already know the center from the last chapter, but now see it as a tight little group rather than a single figure. <strong>Courbet</strong> sits at the easel, half-turned, painting his green river valley. The <strong>nude model</strong> &mdash; the <strong>academic nude</strong>, the idealized unclothed figure the official art schools made students draw endlessly as the bedrock of serious art &mdash; stands close behind his chair, drapery falling away, watching. At the foot of the easel a <strong>small peasant boy</strong> in a smock tilts his head back to watch the landscape appear &mdash; and he is worth pausing on, because in a room of forty adults busy being adults, the child is the only person giving the act of painting his complete, open attention. He is the unschooled eye, the viewer Courbet actually wants: someone who just <em>looks</em>.
+      </p>
+      <p style={proseStyle}>
+        And down on the floor, near the painter&rsquo;s feet, a <strong>white cat</strong> crouches, attending to absolutely nothing. If you read the Burial work read in this app you have met this animal&rsquo;s cousin &mdash; the small indifferent dog Courbet dropped into a solemn funeral. The cat is the same flick of nerve in the same hand: a creature that could not care less about the grand human meaning all around it, planted right at the center of a painting that is supposedly summing up the meaning of a life. It keeps the whole self-important scene honest.
+      </p>
+
+      <SectionHeader accent={accent} label="The right" title="The shareholders" />
+      <p style={proseStyle}>
+        Now walk right, into the warmer, better-dressed half of the room. Courbet, in his letter, had a wonderfully unromantic word for these people: he called them &ldquo;the <strong>shareholders</strong>&rdquo; &mdash; meaning, he explained, his friends, his fellow workers, the art lovers who had a stake in him. Shareholders. As if his career were a company and these were the people invested in it, which, financially and otherwise, several of them were.
+      </p>
+      <p style={proseStyle}>
+        This side is a crowd of recognizable, contemporary Parisians, and the next chapter names them one by one. For now just register the texture: well-cut coats, a fashionably dressed couple of art collectors standing as a kind of pair of well-off admirers, a knot of writers and thinkers, and &mdash; way over at the far right edge, almost sliding off the canvas &mdash; a man bent over a big open book, reading, oblivious to everything. The right side is Courbet&rsquo;s tribe: the people who chose him, the proof that the bearded provocateur from the provinces had built himself a circle of the most interesting minds in France.
+      </p>
+
+      <SectionHeader accent={accent} label="The left" title="The other world" />
+      <p style={proseStyle}>
+        Now turn and walk to the left, and the temperature drops. This half is darker, shabbier, more shadowed, and Courbet&rsquo;s letter gives it a heavier name. This, he wrote, is &ldquo;the other world of trivial life &mdash; <strong>the people, misery, poverty, wealth, the exploited and the exploiters, the people who live off death</strong>.&rdquo; If the right side is the friends who back his art, the left side is the <em>subject</em> of his art: society itself, the whole cross-section, the rich and the wretched standing in the same gloom.
+      </p>
+      <p style={proseStyle}>
+        It is a gallery of types rather than named friends. Scholars have read a great many specific roles into these figures over the years &mdash; a priest, a merchant, a laborer, a beggar &mdash; and the exact roster is genuinely debated, so hold the details loosely. What is solid is the cast Courbet himself pointed to: a <strong>Jewish man</strong> and an <strong>Irishwoman</strong> begging, both, he said, types he had seen on a trip to London in 1848. And one figure on this side is so famous it gets its own paragraph in the next chapter: a seated man in a broad-brimmed hat with hunting dogs at his feet, a <strong>poacher</strong>, whom a great many readers take for the Emperor of France himself, slipped in among &ldquo;the people who live off death.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        And there is one more thing on the left that is easy to miss in the gloom but impossible to unsee once you have it. Up behind the figures, slumped and strung up against the dark, hangs a <strong>lay figure</strong> &mdash; an <strong>artist&rsquo;s mannequin</strong>, the jointed wooden-and-stuffed dummy that academic painters posed and draped to stand in for a body while they worked. Courbet has hung his with its arms wrenched up and back, trussed and sagging, so that it reads unmistakably as a body on a cross. A crucified mannequin, pinned up in the shadows on the side of the room he gave to misery and the dead. Painters had used these dummies for centuries as the patient tool of the studio; Courbet nailed his up like a corpse. Read it the way the picture asks you to: the death of academic art itself &mdash; the old way of making pictures, the lifeless stand-in for the real body, crucified in the corner while the new kind of painting happens, alive, in the light at the center.
+      </p>
+
+      <SectionHeader accent={accent} label="The floor" title="Romanticism, in the trash" />
+      <p style={proseStyle}>
+        Before you leave the left side, look down at the bare boards in the lower-left corner, because Courbet left a little still life there that most viewers walk right past. Tossed on the floor lie a <strong>guitar</strong>, a <strong>dagger</strong>, and a <strong>plumed hat</strong> &mdash; the kind of swashbuckling cavalier&rsquo;s hat a hero in a costume drama would wear. These are the dressing-up props of <strong>Romanticism</strong>, the generation of painting just before Courbet&rsquo;s, all heaving drama and exotic adventure and high passion (the Realism overview tells that story). Courbet had no time for it; he thought it was costume, escapism, a refusal to paint the actual world. So here are its props &mdash; the guitar, the blade, the feathered hat &mdash; dumped on the floor of the real studio like a discarded costume, the swashbuckling fantasy laid down in the dust while the real painting happens overhead. Many readers also find a <strong>skull</strong> resting on a newspaper somewhere in this dim left half; if you can pick it out, it reads as the bluntest possible verdict &mdash; the death of the old order, set down on the daily news.
+      </p>
+      <p style={proseStyle}>
+        That is the whole machine: a real room you could have walked into in 1855, secretly arranged into a diagram of one painter&rsquo;s entire world &mdash; his art at the center, his believers on the right, the society he paints on the left, and the dead props of the art he refused to make lying in the corner. A real allegory, exactly as advertised.
+      </p>
+    </article>
+  )
+}
+
+function StCast({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Who’s in it" title="Putting names to the faces" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne of the strangest, most modern things about <em>The Painter&rsquo;s Studio</em> is that its &ldquo;allegory&rdquo; is built out of <em>real people you could have met</em>. The right side is not Justice and Wealth and Poetry in flowing robes. It is a guest list. Courbet packed the warm half of his canvas with his actual friends, painted from life or from photographs, and his letter to Champfleury runs through them almost like a man introducing you around a party. So let&rsquo;s be introduced.
+      </p>
+
+      <SectionHeader accent={accent} label="The friends" title="The right side, named" />
+      <p style={proseStyle}>
+        Several of them are home-country friends, and Courbet&rsquo;s letter names them in a quick warm cluster: <strong>Alphonse Promayet</strong> (1822&ndash;1872), a violinist and childhood friend from Ornans, holding his violin; <strong>Urbain Cuenot</strong>, Courbet&rsquo;s close friend from Ornans; and the poet <strong>Max Buchon</strong> (1818&ndash;1869). With them stands <strong>Alfred Bruyas</strong> &mdash; not just the collector whose money helped build the Pavilion but the friend Courbet had spent years writing to about what this very painting should mean, here taking his place among the people who shaped it. And there is <strong>Pierre-Joseph Proudhon</strong> (1809&ndash;1865), France&rsquo;s most famous radical thinker &mdash; the man who declared that property is theft &mdash; a native of the same corner of France. Proudhon wasn&rsquo;t available to sit, so Courbet worked his likeness up from a <em>photograph</em>, which in 1855 was still a young, commercial technology not yet accepted as a respectable art &mdash; faintly disreputable for exactly that reason, and a very Realist way to build a portrait.
+      </p>
+      <p style={proseStyle}>
+        Near them sits <strong>Champfleury</strong> himself, the critic this whole explanatory letter is addressed to &mdash; and he was more than the man who coined the word &ldquo;Realism.&rdquo; Champfleury was the movement&rsquo;s working <em>theorist</em>, the writer who argued out what Realism was and defended it in print while Courbet supplied the paintings; he and Courbet were building the same case from two ends. And then there is the <strong>fashionable couple</strong> &mdash; in Courbet&rsquo;s phrase, a woman of the world and her husband, both luxuriously dressed &mdash; standing in as a pair of well-off art lovers, the kind of moneyed admirers a painter needs. The right side, in other words, is Courbet&rsquo;s entire support system in one frame: the friends from home, the patron-collaborator, the radical philosopher, the movement&rsquo;s theorist, and the rich couple who buy. A career, drawn as a crowd.
+      </p>
+
+      <SectionHeader accent={accent} label="The poet in the corner" title="Baudelaire, reading" />
+      <p style={proseStyle}>
+        And then, at the very far right, hunched over a large open book and ignoring the whole gathering, sits <strong>Charles Baudelaire</strong> (1821&ndash;1867) &mdash; the poet who a couple of years later would publish <em>Les Fleurs du Mal</em> (&ldquo;The Flowers of Evil&rdquo;) and be prosecuted for it, one of the defining writers of the modern city. Courbet didn&rsquo;t paint him fresh; he copied the head from a portrait he had made of Baudelaire back in 1847. There is a small, real sadness folded into the figure: Courbet and Baudelaire had once been close, and by 1855 the friendship had cooled, so the poet sits at the edge of the painting, present but turned inward, reading, a little apart from the warmth of the group. He is on the shareholders&rsquo; side, but he is keeping his own counsel in the corner &mdash; which, for Baudelaire, was about right.
+      </p>
+
+      <SectionHeader accent={accent} label="The poacher" title="Is that the Emperor on the left?" />
+      <p style={proseStyle}>
+        Now cross to the dark left side, to its most argued-over figure. Find him first: down in the lower-center-left foreground, seated and leaning forward in a broad-brimmed hat, with two <strong>hunting dogs</strong> resting at his feet, is a man dressed as a <strong>poacher</strong> &mdash; someone who hunts on land that isn&rsquo;t his. For more than a century, a great many viewers have looked at that hat, those dogs, that curled moustache, and seen <strong>Napoleon III</strong> &mdash; the man who had seized power in a coup in 1851 and crowned himself Emperor of France, the ruler under whose reign Courbet was painting this very picture. Read that way, it is an astonishing thing to have done: to slide the Emperor onto the side of &ldquo;the people who live off death,&rdquo; cast as a poacher illegally hunting his own country, hung where the public could see it.
+      </p>
+      <p style={proseStyle}>
+        But this is exactly the kind of irresistible identification that the honest version of art history has to slow down for. Courbet&rsquo;s own letter to Champfleury &mdash; the document that names nearly everyone else &mdash; <em>never identifies this figure as the Emperor</em>. And technical study of the canvas (X-rays that let conservators see the layers underneath) shows the poacher was reworked and added relatively late, not part of the original plan. So the Napoleon III reading, satisfying as it is, is an <em>interpretation</em>, widely held but never confirmed by the painter &mdash; the famous story rather than a signed caption. It may well be right. It is not, on the evidence, a fact. Hold it the way Courbet left it: a poacher who looks an awful lot like the Emperor, and a painter who declined to say so out loud.
+      </p>
+    </article>
+  )
+}
+
+function StAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After the tent" title="A masterpiece nobody could house" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he Pavilion of Realism, the tent Courbet built when the world&rsquo;s fair refused him, was a grand gesture and a financial flop. Far fewer people paid to come in than he had hoped, and when the fair closed, Courbet was left holding the largest, least sellable painting of his career. <em>The Painter&rsquo;s Studio</em> is nearly twenty feet wide. It is not a thing a private collector hangs over the sofa. The very ambition that made it a testament &mdash; one canvas to hold a whole world &mdash; made it almost impossible to place. So it stayed with him.
+      </p>
+      <p style={proseStyle}>
+        And Courbet&rsquo;s own story went badly from there. The Realism overview tells how his politics caught up with him &mdash; how, after the <strong>Paris Commune</strong> of 1871 (the radical revolutionary government that seized control of Paris for a couple of months that spring before it was crushed in brutal street fighting, which Courbet publicly backed), he was held responsible for the toppling of the <strong>Vendôme Column</strong> &mdash; the towering bronze victory column in central Paris that celebrated Napoleon&rsquo;s conquests, pulled down by the Communards as a hated symbol of empire and war. Courbet had argued for its removal, so when the column came down the new authorities pinned the destruction on him, ruined him with the bill for rebuilding it, and he fled into exile in Switzerland, where he died in 1877. The enormous summing-up of his seven best years outlived him, rolled up and homeless, exactly the kind of national treasure that quietly slips abroad or gets cut into sellable pieces.
+      </p>
+
+      <SectionHeader accent={accent} label="France buys it back" title="The public subscription of 1920" />
+      <p style={proseStyle}>
+        That it didn&rsquo;t is the quiet triumph of the painting&rsquo;s afterlife. In <strong>1920</strong> &mdash; sixty-five years after the State&rsquo;s own jury had refused it &mdash; the painting was bought for the <strong>Louvre</strong> (then France&rsquo;s great national museum) for the nation. And it was bought, fittingly, not by a single rich buyer but by a <strong>public subscription</strong>: a fundraising drive in which the public chips in, here with the help of the Society of the Friends of the Louvre. The country that had once turned the picture away now raised the money, in small pieces from many hands, to keep it.
+      </p>
+      <p style={proseStyle}>
+        Sit with the symmetry of that for a second. The whole scandal of <em>The Painter&rsquo;s Studio</em> was that it put the people &mdash; the shareholders, the poor, the whole ordinary cross-section of society &mdash; at the center of serious art. And in the end it was bought <em>by</em> the people, collectively, exactly the audience it had insisted mattered. The refused picture became a thing the nation chose to own together.
+      </p>
+
+      <SectionHeader accent={accent} label="The wall it hangs on now" title="Courbet’s testament, on permanent view" />
+      <p style={proseStyle}>
+        For decades it hung in the Louvre, and then, in <strong>1986</strong>, the <strong>Musée d&rsquo;Orsay</strong> &mdash; the Paris museum dedicated to nineteenth-century art, installed in a converted former railway station on the Left Bank of the Seine &mdash; opened, and the Louvre&rsquo;s nineteenth-century collection crossed the river to fill it. The <em>Studio</em> went with it, alongside its older sibling, <em>A Burial at Ornans</em> (which has its own read in this app). The two enormous Courbets &mdash; the funeral and the studio &mdash; now hang in the same museum, the two largest arguments Realism ever made in paint.
+      </p>
+      <p style={proseStyle}>
+        Stand in front of it today and the throughline is worth saying plainly, one last time. Refused by the most important show on Earth, Courbet built his own and made its centerpiece a single, impossible, twenty-foot painting that tried to hold his entire world: his art at the center, painting a plain green landscape while the academic nude (the idealized studio body the schools worshipped) stood idle behind him; his friends and patrons gathered warm on the right; the whole society he claimed as his subject &mdash; rich, poor, and possibly the Emperor in disguise &mdash; arranged in the gloom on the left; the academic mannequin strung up like a corpse in the shadows; and the cast-off props of the art he refused dumped on the floor. He called it a real allegory, daring the words to fight, and they do, and the fight is the point. It is the painting where an artist looked at the world, decided it was all his subject, and put himself, calmly, at the dead center of it.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Sower (Millet, 1850) — the five chapters
+// Author draft for the gated art pipeline. Matches the BuTown…BuAfterlife pattern
+// exactly: SectionHeader, DropCap, proseStyle/italicStyle, <strong>/<em>,
+// <article style={{ padding: '18px 18px 40px' }}>, `first` on the opener, NO
+// inline figures. Section ids match sower-content.ts: barbizon · looking · salon ·
+// meaning · afterlife. Movement-level material (1848 in full, the hierarchy of
+// genres, Courbet's own story) is DEFERRED to the Realism overview with terse refs.
+// ─────────────────────────────────────────────────────────────
+
+function SoBarbizon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Gruchy, Normandy · 1814" title="The painter who was an actual peasant" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        lmost every painter who ever pointed a brush at a peasant did it from the outside, looking in — a city man visiting the countryside, charmed or appalled, painting the poor the way a tourist photographs them. <strong>Jean-François Millet</strong> (pronounced &ldquo;mee-LAY,&rdquo; 1814–1875) is the rare exception, and it is the single most important fact about the painting you are here to look at. Millet did not visit the rural poor. He <em>was</em> the rural poor. He was born into a Normandy farming family — at <strong>Gruchy</strong>, a hamlet near the port of <strong>Cherbourg</strong> — and grew up doing the actual labor of the fields with his own hands. When he finally painted a man flinging seed across a hillside, the gesture did not come from a hired model holding a pose in a studio. It came from his own body, from work he had done.
+      </p>
+      <p style={proseStyle}>
+        He was born in October 1814. Gruchy (roughly &ldquo;GROO-shee&rdquo;) sits on the windy Cotentin peninsula in <strong>Normandy</strong>, the farming country of northwestern France, and his people were peasants — not the romantic, barefoot-shepherdess kind, but the real kind, who worked the land for a living and were not at all sure that one of their sons drawing pictures was a sensible use of a boy. By his late teens his obvious talent won out, and he went to study art, first in nearby Cherbourg, then, in 1837, to <strong>Paris</strong> itself.
+      </p>
+
+      <SectionHeader accent={accent} label="Paris · 1837" title="Trained at the top of a ladder he would reject" />
+      <p style={proseStyle}>
+        In Paris he did the respectable thing: he entered the studio of <strong>Paul Delaroche</strong> (1797–1856), a smooth and successful academic painter of grand historical scenes — exactly the kind of art the official system prized. To understand why that matters, you need one piece of background that the Realism overview one level up in this app lays out in full, and which this read will only sketch. French art ran on a strict ranking of subject matter called the <strong>hierarchy of genres</strong> (an official ladder that sorted what a painting was <em>about</em>). At the top sat <strong>history painting</strong> (grand scenes from myth, scripture, and ancient legend — &ldquo;history&rdquo; in the old sense, not last week&rsquo;s news). At the very bottom sat plain modern life: laborers, farmers, the poor. And the whole thing was policed by <strong>the academy</strong> (the State institution that set the rules) through one all-important show, the <strong>Salon</strong>, which you will meet properly in Chapter 3.
+      </p>
+      <p style={proseStyle}>
+        So Millet trained in the prestige tradition — the gods-and-heroes business — and for years he did the expected things to survive: portraits, soft mythological scenes, the occasional nude. He was poor, and Paris was hard, and nothing he made yet was the thing he is remembered for. The man who would paint the dignity of dirt was, for the moment, painting whatever sold.
+      </p>
+
+      <SectionHeader accent={accent} label="The flight from Paris · 1849" title="Cholera, and a village in a forest" />
+      <p style={proseStyle}>
+        Then, in 1849, the city tried to kill him. A <strong>cholera</strong> epidemic (a fast, deadly waterborne disease that swept 19th-century cities in terrifying waves) tore through Paris, and Millet — by now with a family to protect — got out. He moved roughly 30 miles (50 km) south of the capital to a village called <strong>Barbizon</strong> (BAR-bee-zohn), a small place on the edge of the <strong>Forest of Fontainebleau</strong> (fon-ten-BLOH), the great royal woodland southeast of Paris. He meant it to be temporary. He stayed essentially the rest of his life, and died there in 1875.
+      </p>
+      <p style={proseStyle}>
+        Barbizon was not a random refuge. It was already becoming the headquarters of a loose group of painters who would be remembered as the <strong>Barbizon School</strong> — landscape and country-life painters (Théodore Rousseau, Camille Corot, Charles-François Daubigny, and others) who came out from the city to paint the real countryside directly, instead of inventing tidy, idealized Italian-looking scenery back in a studio the way the academy preferred. They wanted actual trees, actual weather, actual light. The Realism overview names this group as one of Realism&rsquo;s parents, and you can see why: a school built on painting the real world in front of you is one short step from painting the real <em>people</em> in front of you.
+      </p>
+      <p style={proseStyle}>
+        That short step is Millet&rsquo;s whole contribution. The other Barbizon men mostly painted the land. Millet put the peasant back into it — full size, dead center, doing the work — and turned a school of pretty landscapes into something that frightened Paris. The first big canvas he made in his new village was a single man walking a hillside, throwing seed. It is the painting in front of you, and the rest of this read is about what he did, and why a picture of farming caused a scandal.
+      </p>
+    </article>
+  )
+}
+
+function SoLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas · 1850" title="One figure, almost life-size" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore the meaning, the eyes. <em>The Sower</em> is not a big painting by the standards of this app — it is about <strong>3 feet 4 inches tall and 2 feet 8 inches wide</strong> (a tall, upright, portrait-shaped canvas, taller than it is wide). Stand Courbet&rsquo;s twenty-two-foot funeral in your mind from Chapter 1 of the Realism overview, and this is the opposite kind of object: not a wall-sized panorama of a whole crowd, but a single human being, pushed almost to the edges of an upright frame, taking up nearly all the room there is. Where Courbet spread a hundred feet of canvas thin across forty people, Millet spent a tall, narrow canvas on exactly one. The whole composition is built to make that one man huge.
+      </p>
+      <p style={proseStyle}>
+        And the first thing you notice is how <em>dark</em> he is. The peasant is painted as a near-silhouette — a heavy, shadowed shape against the gray-blue dusk — so that before you read any detail you read a looming dark mass, striding straight at you. That gloom is doing real work. A figure you can see clearly is a man. A figure sunk in shadow, large and advancing, is something closer to a force. Hold that feeling; the next chapter is about why a Paris audience found it threatening, and the threat starts right here, in how little of him you are allowed to see.
+      </p>
+
+      <SectionHeader accent={accent} label="The diagonal" title="Walking downhill, straight off the canvas" />
+      <p style={proseStyle}>
+        Now follow the <strong>diagonal</strong>, because the composition is one long slash from upper right to lower left, and the sower rides it like a man coming downhill fast. He is striding <em>down</em> a slope — his leading leg driving forward and downhill, bent and planted low; his trailing leg stretched back up the rise behind him; his body pitched toward you, his weight already past the point of balance, the way you walk a hill when gravity is helping. There is nothing static about him. Most painted figures stand still and pose; this one is caught mid-stride, leaning into the descent, and the slope of the ground feeds the motion. He is not posing in a field. He is crossing it, and he is crossing it toward you, and he is not going to stop.
+      </p>
+      <p style={proseStyle}>
+        The downhill diagonal is also why the figure feels like it is about to walk out of the frame. A man standing upright in the center is contained; a man striding down and out toward the lower corner is leaving. Millet built restlessness into the geometry. Even frozen in oil, the sower is going somewhere.
+      </p>
+
+      <SectionHeader accent={accent} label="The sowing arm" title="The throw, frozen at its most violent point" />
+      <p style={proseStyle}>
+        Look at his <strong>right arm</strong>, and look slowly, because it is the engine of the whole picture. It is flung all the way across his body to his <em>left</em> side, the hand open, the wrist past the snap of the motion — you are seeing the follow-through of a throw, the split second after the seed has left the fingers. To sow grain by hand is to walk and fling, walk and fling, in a steady rhythm, scattering seed in a wide arc with each step, and Millet caught the gesture at its most extreme: arm whipped across, hand spent, seed already gone into the dark furrows. It is the most active thing in the painting, and he chose the most violent instant of it.
+      </p>
+      <p style={proseStyle}>
+        And see where the seed comes from. His <strong>left hand</strong> grips a coarse sack or apron of grain slung at his hip — the supply. The motion of the whole figure is suddenly legible as one repeating loop: the left hand feeds the right, the right hand flings, the legs carry him a stride down the hill, and it begins again. Millet has painted not a pose but a <em>process</em>, the oldest agricultural process there is, mid-cycle — the mechanism of sowing, not a man holding a prop.
+      </p>
+
+      <SectionHeader accent={accent} label="The shadowed face" title="Almost no face at all" />
+      <p style={proseStyle}>
+        Now go to the head, and notice what is <em>missing</em>. A soft, floppy hat is pulled down low over his brow, and beneath it the face is sunk in shadow — you can make out that there is a face, but barely a feature, no clear eyes to meet, no expression to read. This is deliberate, and it is the quiet masterstroke of the picture. A clear face would make him a person — <em>this</em> man, with <em>this</em> mood, on <em>this</em> evening. The shadowed near-absence of a face makes him a type: the sower, any sower, every sower, Labor itself walking the hill. You cannot befriend him because you cannot see him. You can only watch him come.
+      </p>
+
+      <SectionHeader accent={accent} label="Boots of straw" title="The truth in the legs" />
+      <p style={proseStyle}>
+        Drop your eye to the lower half. He wears blue trousers and a rust-brown jacket — and his lower legs and feet are bound in <strong>straw or rag wrappings</strong>, caked with the same dark earth he is treading. This is the detail only a man who had been there would think to include. These are not the clean boots of a model in a studio. They are the makeshift protection a real field-worker ties on to walk cold, broken, muddy ground at the end of a long day — the cloth bindings wet and filthy, indistinguishable in places from the dirt itself. Millet, the actual peasant&rsquo;s son, knew exactly what a sower&rsquo;s feet looked like, and he refused to clean them up.
+      </p>
+
+      <SectionHeader accent={accent} label="The tiny world behind him" title="The ploughman, the oxen, the birds, the dusk" />
+      <p style={proseStyle}>
+        Finally, lift your eyes past the giant and find the little world in the background, because it sets the whole scale and the whole mood. Up the slope, far to the upper right and painted very small, a <strong>second man drives a team of oxen</strong>, finishing the ploughing — turning the soil the sower is now seeding. Behind that distant figure the sky warms to a band of pale orange: the last light of <strong>dusk</strong>, the close of the working day, the field being sown right up to dark. And at the upper left, a scatter of <strong>birds</strong> lifts into the gray air — already dropping in for the seed the moment it hits the ground, the ancient nuisance every sower fights.
+      </p>
+      <p style={proseStyle}>
+        Those small background figures are not decoration; they are the trick that makes the painting work. A man alone on a canvas could be any size. Put a tiny ploughman and a tiny ox-team on the hill behind him, and suddenly your eye does the math: the sower in front is <em>enormous</em>. Millet shrank the rest of the world so that one field hand could fill the sky. By the time you have read the dusk, the birds, the distant plough, and come back to the dark striding figure, you understand the scale he has been given — the scale, as the next chapter explains, that Paris had reserved for gods.
+      </p>
+    </article>
+  )
+}
+
+function SoSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–51" title="Sending the peasant to the capital" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        illet finished the painting in his Barbizon village and then did the thing every ambitious French painter had to do: he sent it to the <strong>Salon</strong> — the official annual State exhibition in Paris, run by the academy, the one show in all of France where a career was made or buried (you met it one level up in the Realism overview). The Sower went up in the <strong>Salon of 1850–1851</strong> (the show ran across that winter), which means it hung in the official halls, in the same rooms as the smooth mythological nudes and the grand history scenes — a dirt-caked field hand walking into the temple of beautiful gods.
+      </p>
+      <p style={proseStyle}>
+        And he did not walk in alone. In that <em>same</em> Salon — the same season, the same building — <strong>Gustave Courbet</strong> hung the two canvases that the Realism overview and the first work-reads in this chain are about: <strong>A Burial at Ornans</strong> (a whole village funeral painted ten feet tall, at the scale the Salon kept for the death of kings) and <strong>The Stone Breakers</strong> (two road laborers breaking rock, life-size and dead serious). So the Salon of 1850–51 is the hinge moment for the whole movement: in one show, Paris met both halves of Realism at once — Courbet&rsquo;s loud, monumental Paris assault and Millet&rsquo;s quiet, monumental Barbizon peasant. Two very different men, the same heresy: the ordinary working poor, made huge, hung where the gods belonged.
+      </p>
+
+      <SectionHeader accent={accent} label="Why a man with a seed-bag scared Paris" title="The fear in the room" />
+      <p style={proseStyle}>
+        Here is the part that is hard to feel today, when this looks like a handsome, dignified painting of a farmer: in 1850 it frightened people. Not &ldquo;the critics found it unfashionable&rdquo; frightened — genuinely, politically frightened. To understand why, you have to put two things side by side: <em>what</em> Millet painted, and <em>when</em> he painted it.
+      </p>
+      <p style={proseStyle}>
+        The <em>what</em> is everything Chapter 2 walked you through. A single peasant, almost faceless, painted dark and looming, made nearly life-size, striding straight downhill toward the viewer — given the scale, the seriousness, and the dead-center spotlight that the hierarchy of genres reserved for heroes and gods. A field hand was supposed to be, at most, a small picturesque figure in the corner of a landscape. Millet put him in the middle, blew him up, sank his face in shadow, and aimed him at you. To an eye trained by the academy, that was already a category error loud enough to feel like an insult.
+      </p>
+      <p style={proseStyle}>
+        The <em>when</em> is what turned the insult into a scare. The Sower went up only two years after <strong>1848</strong> — the revolution that toppled King Louis-Philippe and, for a few raw months, threw the ordinary people of France (workers, peasants, the poor) into the center of their own history before the army shut the experiment down (the Realism overview tells that year in full). In 1850 the memory was fresh, the countryside was restless, the propertied classes were nervous about the poor in a way that was not abstract, and the word &ldquo;socialism&rdquo; hung in the air like smoke. And into that nervous room walked a huge, dark, anonymous laborer, his face hidden, his arm cocked, advancing. Frightened viewers did not see a charming rustic. They saw the rural poor made monumental and faceless and <em>coming</em> — and they read a threat. The Boston museum that owns the painting today puts it plainly: viewers were shocked by Millet&rsquo;s heroic treatment of a lowly peasant, at a moment when the rural poor were suffering and socialism seemed to threaten respectable society.
+      </p>
+
+      <SectionHeader accent={accent} label="Praised and panned" title="The split verdict" />
+      <p style={proseStyle}>
+        The reaction was loud and divided, which is its own kind of success — a painting nobody argues about is a painting nobody remembers. Some critics admired exactly the energy Chapter 2 dwelt on: one called it an energetic study, full of movement, which is precisely right about that whipped-across sowing arm and that downhill stride. Others sneered at the surface. Millet did not finish his paint to the porcelain smoothness the Salon prized; he left it rough, dragged, and earthy, and one hostile critic dismissed the whole thing as &ldquo;trowel scrapings&rdquo; — as if the painter had simply scraped his palette onto the canvas. (That charge, &ldquo;it isn&rsquo;t even finished,&rdquo; is the same one thrown at almost every painter in this whole era who refused the academic polish; you will hear it again from here to the Impressionists.)
+      </p>
+      <p style={proseStyle}>
+        Either way, the painting did the one thing a Salon picture exists to do: it could not be ignored. Hung in the official show, beside the gods, in the season of Courbet&rsquo;s bombshells, two years after the barricades, Millet&rsquo;s lone striding sower made the quiet half of Realism impossible to overlook — and made its painter, overnight, a name with a controversy attached.
+      </p>
+    </article>
+  )
+}
+
+function SoMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The oldest parable in the West" title="The size of a god, the job of a farmhand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t matters, enormously, that Millet chose a <em>sower</em> and not, say, a man chopping wood. For anyone raised in 19th-century Europe — which is to say everyone who would ever look at this painting — the image of a man casting seed by hand was not just farming. It was scripture. The <strong>Parable of the Sower</strong> (one of the best-known stories Jesus tells in the Christian Gospels, in which a farmer scatters seed that falls on rocky, thorny, and good ground) was as familiar as a nursery rhyme, and so was the old line about how, &ldquo;as you sow, so shall you reap.&rdquo; A sower carried two thousand years of religious weight before Millet ever touched a brush.
+      </p>
+      <p style={proseStyle}>
+        So when Millet gives his anonymous field hand the great timeless gesture of casting seed, the picture quietly fills with that echo. He takes the most ordinary act in the human economy — a man scattering seed so that next year there will be bread — and paints it with the size, the gravity, and the dead-serious attention that European art had always saved for kings, saints, and gods. There is no story, no event, no king, no miracle: just a man doing the oldest job there is, blown up to the scale of an altarpiece. The peasant becomes something close to a biblical figure — labor as a sacrament, the field as a kind of altar, the eternal rhythm of seed and harvest standing in for the eternal rhythm of life and death. This is why the painting can feel solemn and even holy. Two paintings down this same chain, Millet will do it even more openly in <em>The Angelus</em>, where two peasants stop work to pray at the evening bell. The Sower is the first and fiercest version: no church, no bell, no prayer — just a man and the ground and a gesture as old as agriculture, painted as if it were a creed.
+      </p>
+
+      <SectionHeader accent={accent} label="The menace, and the denial" title="Was Millet a socialist?" />
+      <p style={proseStyle}>
+        And yet the very things that make the sower feel sacred are the things that frightened Paris. Here is the hard question, the one Chapter 3 left hanging: was this a political painting? Was the dark, looming, faceless, advancing peasant a deliberate class threat — the rural poor rendered as a coming storm, two years after they had nearly overturned France?
+      </p>
+      <p style={proseStyle}>
+        The honest answer is that the menace was largely in the eye of the frightened beholder, and that Millet himself spent years pushing the reading away. Because he kept painting peasants, and kept painting them big, he was <em>repeatedly accused of being a socialist</em> — a dangerous radical smuggling revolution onto the Salon walls. He rejected the charge. His defenders, then and since, argued that his real subject was not class war but something older and quieter: the timeless, almost classical dignity of rural life, the eternal bond between people and the soil. Millet seems to have genuinely meant the biblical, monumental reading more than the revolutionary one. He was not trying to paint a threat. He was trying to paint a truth.
+      </p>
+
+      <SectionHeader accent={accent} label="Monument and menace" title="The same brushstrokes, two ways" />
+      <p style={proseStyle}>
+        But — and this is the honest tension a good reading has to hold — it does not entirely matter what he meant. A painter does not get to control which feeling a frightened public reads off his canvas, and the same choices that make the sower feel <em>eternal</em> (the dark mass, the hidden face, the relentless advance, the giant scale) are exactly the choices that make him feel <em>dangerous</em>. The monument and the menace are the same brushstrokes seen by two different audiences. Millet painted reverence; a nervous Paris saw revolt; both were honestly there. That doubleness — sacred and threatening at once — is a large part of why this small painting refuses to settle down, and why people still argue about it.
+      </p>
+      <p style={proseStyle}>
+        And it is the deep link to Courbet, the Salon-mate of Chapter 3, even though the two men could hardly be less alike. Both granted the ordinary working poor the full weight of serious art — the whole argument of Realism, the Realism overview calls it — but they did it in opposite registers. Courbet did it loud, in Paris, at twenty-two feet, with a bored dog and a public sneer; Millet did it quiet, in a forest village, at three feet, with a shadowed face and no jokes at all. Same heresy, two volumes. The Sower is the gentle, monumental, almost reverent version of the revolution — and the most unsettling precisely because it is so calm.
+      </p>
+    </article>
+  )
+}
+
+function SoAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="An American at the Salon · 1851" title="Bought off the wall, shipped to Boston" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Sower</em> begins with a young American standing in front of it in the Salon and being changed. His name was <strong>William Morris Hunt</strong> (1824–1879), a painter from a well-off New England family who was studying in Europe. He saw the striding peasant on the Salon wall, was overwhelmed by it, and did two things at once: he bought it from Millet, and he went to live near Millet at Barbizon for about two years to learn from him directly.
+      </p>
+      <p style={proseStyle}>
+        That single purchase is why this very French painting now hangs in Massachusetts. Hunt became the great early evangelist for Millet in the United States — talking him up, collecting him, steering wealthy Boston friends toward his work. Through Hunt and the collectors he influenced, an unusual amount of Millet ended up in and around Boston, which is the reason an American city, of all places, owns one of the most famous images of a French peasant ever painted.
+      </p>
+
+      <SectionHeader accent={accent} label="Hunt to Shaw to the museum" title="The road to the MFA" />
+      <p style={proseStyle}>
+        From Hunt the painting passed, in 1874, to the Boston collector <strong>Quincy Adams Shaw</strong> (1825–1908), who assembled one of the largest private hoards of Millet anywhere on earth. And after Shaw&rsquo;s death his heirs gave it, in <strong>1917</strong>, to the <strong>Museum of Fine Arts, Boston</strong> — the MFA, the great encyclopedic art museum of New England. It has hung there ever since. So the version of <em>The Sower</em> reproduced everywhere — the one at the top of this very page — is the Boston picture, the one that traveled from a forest village outside Paris, to a Salon wall, to an American painter&rsquo;s hands, to a Boston collector, to a public museum, where any visitor can now stand in front of the striding peasant Paris once found frightening.
+      </p>
+
+      <SectionHeader accent={accent} label="Which Sower?" title="The versions question" />
+      <p style={proseStyle}>
+        One honest complication, because this read does not pretend to certainties it doesn&rsquo;t have: there is more than one Sower. Millet painted the subject more than once. The Boston canvas has a <strong>near-twin</strong>, an almost identical 1850 version that now lives at the Yamanashi Prefectural Museum in Japan, plus a handful of earlier and later relatives (an earlier version in Wales with a higher horizon and a smaller, less commanding figure; other oils and pastels scattered across museums). The Boston picture is the one history treats as <em>the</em> Sower — the famous, standard version, the one that became the image. But which exact canvas hung on the Salon wall in 1850–51, the Boston one or its Japanese twin, is genuinely debated among specialists, and you should hold it as an open question rather than a settled fact. What is not in doubt is the image itself, and the image is what changed everything.
+      </p>
+
+      <SectionHeader accent={accent} label="The Dutchman who couldn't let go" title="Van Gogh's lifelong obsession" />
+      <p style={proseStyle}>
+        And now the largest part of the afterlife, the part that matters most for the story this whole app is telling about how one painting feeds the next. A generation later, a struggling Dutch painter named <strong>Vincent van Gogh</strong> (1853–1890) fell completely, permanently in love with Millet. Of all the artists Van Gogh revered, Millet may have been the deepest — the painter of honest peasant labor, the model for what Van Gogh wanted his own art to be. And the image he came back to, over and over, for his entire short career, was <em>The Sower</em>.
+      </p>
+      <p style={proseStyle}>
+        Van Gogh copied and re-copied Millet&rsquo;s sower across his whole career — dozens of drawings and painted versions, returning to the striding figure again and again. But — and this is the crucial part, the part that makes it influence rather than imitation — he transformed it. Where Millet painted his sower in dusk-dark earth tones, a near-silhouette against a gray sky, Van Gogh blew the same figure open into blazing color: his great Arles sowers of 1888 set the striding peasant against searing orange fields and acid-yellow skies, sometimes with the setting sun placed like a halo right behind the worker&rsquo;s head, the religious echo Chapter 4 found in Millet now made explicit and electric. (One of the famous versions hangs at the Kröller-Müller Museum in the Netherlands.) Millet gave Van Gogh the figure and the meaning; Van Gogh gave it the light. That hand-off — a dark, monumental, half-scriptural peasant, passed from a French farmer&rsquo;s son to a Dutch preacher&rsquo;s son who set it on fire with color — is exactly the kind of line this app exists to draw.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The long life of a man with a seed-bag" />
+      <p style={proseStyle}>
+        Step back and the whole arc is one clean line. A real peasant&rsquo;s son, trained in the gods-and-heroes tradition, fled a plague into a forest village and there painted the one subject his teachers ranked dead last — a single field hand, almost faceless, walking a dusk hill and flinging seed — at the size and with the seriousness the art world kept for kings. A nervous Paris, two years after a revolution, looked at that monumental laborer and saw a threat; Millet insisted he had painted a truth; both were there in the same dark brushstrokes. An American carried it home to Boston. A Dutchman set it ablaze and carried it into modern art.
+      </p>
+      <p style={proseStyle}>
+        That is why a small, dark painting of a man doing farm chores is one of the most important pictures of the 19th century. It is the quiet half of the moment when art decided that the ordinary working present — not myth, not kings, not glory — was a fit subject for the most serious painting a person could make. Courbet announced it at the top of his lungs. Millet walked it down a hillside at dusk, threw a handful of seed, and let it grow.
+      </p>
+    </article>
+  )
+}
+
+// The Gleaners (Jean-François Millet, 1857) — the five chapters
+// Author draft for the art-content pipeline. Match the BuTown…BuAfterlife pattern exactly:
+// SectionHeader / DropCap / proseStyle / italicStyle / <strong>/<em>, <article style={{ padding: '18px 18px 40px' }}>,
+// `first` on the opener. No inline figures (follow Burial). Section ids: gleaning, looking, salon, meaning, afterlife.
+// Facts verified in gleaners-factpack.md. Dimensions ft/in only. Disputed readings flagged in prose, not asserted.
+// ─────────────────────────────────────────────────────────────
+
+function GlGleaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The custom" title="The poorest, allowed into the field" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore you look at the painting, you have to know the thing it is about, because the whole picture turns on a single old word: <strong>gleaning</strong>. When a field of grain was harvested, reapers cut the stalks, gathered them into bundles, and carted the bundles away. They were not careful. Stray heads of wheat fell to the ground and were left behind — too few to be worth a farmer’s time to chase, scattered across acres of stubble. <strong>Gleaning</strong> was the work of going over that stripped field afterward, on foot, bent double, and picking those dropped scraps up by hand, one at a time. It was the lowest, slowest, least rewarding kind of harvest labor there is, and it was done by the people who had nothing else: widows, orphans, the old, the landless poor.
+      </p>
+      <p style={proseStyle}>
+        Here is the part that makes it more than just hard work. For centuries, in much of Europe, gleaning was not begging and it was not stealing — it was a <em>right</em>. The poorest had a recognized, customary entitlement to walk into someone else’s harvested field and take what the harvest had dropped. The landowner did not get to say no. It was one of the oldest pieces of the social contract there is: the people who owned the land were obliged to leave the leavings for the people who owned nothing.
+      </p>
+
+      <SectionHeader accent={accent} label="Where the right comes from" title="Older than France" />
+      <p style={proseStyle}>
+        The custom is genuinely ancient. It is written into the Hebrew Bible as a flat command to harvesters: do not reap the very corners of your field, and do not go back for what you dropped — <em>leave it for the poor and the stranger</em> (the instruction appears in Leviticus and again in Deuteronomy). The most famous story of it is the <strong>Book of Ruth</strong>, in which a destitute widow named Ruth survives by gleaning behind the reapers in the field of a man named Boaz, who quietly tells his workers to drop extra on purpose for her. Any educated French viewer in 1857 would have had Ruth somewhere in the back of their mind looking at three women gleaning — which matters, because it meant the subject came pre-loaded with a faint religious dignity, whether Millet wanted it there or not.
+      </p>
+      <p style={proseStyle}>
+        And it was not just a pious memory; it was law. In France a royal edict of <strong>1554</strong> actually regulated gleaning — it permitted the poor to enter harvested fields, but only <em>between sunup and sundown</em>, hedging the right around with rules so the landowners and the gleaners both knew exactly where they stood. So by Millet’s day gleaning was two things at once: an ancient near-sacred custom <em>and</em> a regulated, on-the-books permission. The poor had a legal key to the rich man’s stubble for the daylight hours, and then they had to leave.
+      </p>
+
+      <SectionHeader accent={accent} label="A right on its way out" title="Painting something that was dying" />
+      <p style={proseStyle}>
+        Now the quiet sadness underneath the picture. By the middle of the nineteenth century, the gleaning right was disappearing. The reasons were the same forces remaking the whole countryside: farms were getting bigger and more business-minded, common land that the poor had used for generations was being fenced off and privatized (a long process historians call <strong>enclosure</strong> — turning shared land into private property), machinery was starting to harvest more cleanly and leave less behind, and landowners increasingly resented strangers tramping through their fields at all. The old obligation to leave the leavings was curdling into a nuisance to be policed. None of this happened on one dated afternoon — it was a slow squeeze across decades — but the direction was unmistakable: the right of the poorest to glean was being quietly strangled out of existence.
+      </p>
+      <p style={proseStyle}>
+        Hold that, because it changes what the painting is. Millet was not just recording a timeless rural chore. He was monumentalizing a custom that was already half gone — painting, at the size and seriousness of serious art, the very poorest people exercising one of the last rights they had left, in the years that right was being taken away. That is part of why the picture feels less like a snapshot and more like an elegy. It is a portrait of a vanishing piece of mercy.
+      </p>
+
+      <SectionHeader accent={accent} label="The man who painted it" title="A peasant’s son at Barbizon" />
+      <p style={proseStyle}>
+        The painter was <strong>Jean-François Millet</strong> (1814–1875), and he knew this world from the inside. He was born into a farming family in Normandy, in the rural northwest of France, and grew up around exactly this kind of labor before training as a painter and, in 1849, settling in the village of <strong>Barbizon</strong> (on the edge of the great Forest of Fontainebleau, southeast of Paris). Barbizon gave its name to the <strong>Barbizon School</strong> — a loose group of painters who left the city studio to paint the countryside and country life directly, from the real thing — and Millet became its great painter of <em>people</em>.
+      </p>
+      <p style={proseStyle}>
+        And he did not arrive at this picture in a hurry. The gleaning subject obsessed him for years before the great canvas existed. He circled it through the first half of the 1850s in drawings, in etchings and prints, even in an earlier upright, vertical version of the composition, working the same three stooped figures over and over before he finally settled them into the wide, horizontal painting he sent to the Paris Salon — the official annual State exhibition — in <strong>1857</strong>. That slow approach matters. This is not a scene Millet glimpsed once and dashed down; it is a subject he chewed on for the better part of a decade, refining it toward something monumental. That long gestation is part of what separates the picture from reportage. It is not a sketch of a thing seen. It is a considered, deliberate statement, built up over years.
+      </p>
+      <p style={proseStyle}>
+        Where does this sit in the bigger story? Millet is one half of <strong>Realism</strong>, the movement (told in full one level up in this app) that around 1848 insisted ordinary modern life — laborers, peasants, the poor — deserved the scale and seriousness art had always saved for gods and kings. The loud, public, city-facing half of Realism was <strong>Gustave Courbet</strong>, who hung a village funeral ten feet tall and dared the Salon to flinch. Millet is the quiet, rural half: no theatrics, no manifesto, just the people of the fields painted with a gravity nobody had spent on them before. He had already made <em>The Sower</em> (1850), a lone peasant flinging seed across a dusk field, monumental and almost menacing. Now he turned to three women picking up scraps — and somehow that turned out to be the more frightening picture of the two.
+      </p>
+    </article>
+  )
+}
+
+function GlLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Three women, bent over a stripped field" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because it is part of the argument and it is easy to get wrong. <em>The Gleaners</em> is not one of those room-swallowing ten-foot canvases — it is a manageable wall picture, about <strong>2 feet 9 inches tall and 3 feet 8 inches wide</strong> (roughly a yard high, a yard and a bit across). That is the scale of a respectable landscape or a comfortable family portrait. The provocation, as we will see in the next chapter, was not that the painting was gigantic; it was that this <em>much</em> seriousness, this much care, was being spent on three of the poorest people in France doing the lowest work there is. But first, just look at it.
+      </p>
+      <p style={proseStyle}>
+        The picture splits cleanly into two zones, and the meaning lives in the split. The bottom and front belong to three women, stooped over a flat, stripped field — the cool, shadowed, near foreground, painted in dust-browns and faded grays. Behind them, the field opens out into warm golden light and an enormous, busy, overflowing harvest. Front: poverty, bent low. Back: abundance, blazing. Between them, a wide stretch of bare stubble like a moat. Once you see that division you cannot unsee it; it is the whole sentence the painting is saying.
+      </p>
+
+      <SectionHeader accent={accent} label="The three backs" title="Labor painted as posture" />
+      <p style={proseStyle}>
+        Look first at the bodies, because Millet tells you everything about the work through their backs — not their faces, which are shadowed and turned away, but the lines of their spines. The two women on the left are folded almost in half, doubled over at the waist, hands down near the stubble, faces dropped toward the ground they are searching. The one in the very center reaches down with the patient, mechanical bend of someone who has done this a thousand times and will do it a thousand more before dark.
+      </p>
+      <p style={proseStyle}>
+        The third woman, on the right, is the one to watch, because she breaks the rhythm. She is the most nearly <em>upright</em> of the three — still stooped, still bent, never standing fully straight, but rising a little, as if pausing for one second to ease a back that has been folded over all day. That half-straightened body is the most human thing in the picture. You have felt that exact motion if you have ever weeded a garden or carried something heavy too far: the involuntary little stand-up-and-stretch that the body demands. Millet builds the entire weight of the labor into that one pose. There is no grimace, no tear, no caption telling you it is hard. The aching back says it for him.
+      </p>
+      <p style={proseStyle}>
+        And the three together make a slow, deliberate diagonal across the foreground — left, center, right; lowest, low, rising — so that your eye reads them almost like a single body moving through one full cycle of the work: bend, gather, straighten, repeat. Three women, or one woman’s whole exhausting day shown three times at once.
+      </p>
+
+      <SectionHeader accent={accent} label="The caps" title="Blue, red, yellow — the loudest thing here" />
+      <p style={proseStyle}>
+        Now look at color, because there is almost none, and that makes the little there is shout. The field is browns and grays, the women’s heavy clothes are muted and dull — and then, on their heads, three clean notes ring out: a <strong>blue</strong> cap on the woman at the left, a <strong>red</strong> one on the woman in the center, a warm <strong>yellow-gold</strong> kerchief on the woman at the right. Blue, red, yellow — the three primary colors, the brightest things in the entire painting, the first place your eye lands.
+      </p>
+      <p style={proseStyle}>
+        Sit with how strange that is. In the grand paintings the Salon prized, the most saturated, most expensive color — the deep reds and brilliant blues — was reserved for the robes of kings, cardinals, the Virgin Mary. Here Millet has taken those very colors and handed them to three field-workers’ headscarves, on the heads of women bent over picking up garbage grain. It is a small, quiet, completely deliberate act of dignity: the loudest color in the room goes to the lowest people in it.
+      </p>
+
+      <SectionHeader accent={accent} label="The yield" title="What a whole day actually gets you" />
+      <p style={proseStyle}>
+        Follow the women’s hands down and look at what they are actually carrying, because it is the bleakest detail in the picture. The woman on the right holds a thin little bunch of stalks — a handful, no more. The center woman has another small clutch tucked at her apron. This, after hours bent double across acres of stubble, is the harvest of the gleaners: a few fistfuls of grain that the reapers happened to let fall. The meagerness is not an accident of the painting; it is the subject of the painting. They are gathering what the harvest threw away, and there is heartbreakingly little of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The harvest behind" title="The abundance they’re not part of" />
+      <p style={proseStyle}>
+        Now lift your eyes off the three women to everything happening behind them, because Millet has loaded the distance with everything they don’t have. Out in the golden light stand <strong>tall round stacks of grain</strong>, fat and overflowing. There is a <strong>loaded cart</strong>, long rows of bundled <strong>sheaves</strong>, and a whole <strong>crew of workers</strong> busily bringing the crop in — the real harvest, the rich one, the one that fills barns. The far field is sunlit, warm, abundant, almost glowing. It is everything the foreground is not.
+      </p>
+      <p style={proseStyle}>
+        And small, off to the right among the busy crew, sits a figure on horseback. By the usual reading he is the farm’s <strong>overseer</strong> — the mounted steward who watches the work get done. He is easy to miss, but once you find him the whole social order of the field clicks into place: someone owns this enormous harvest and supervises it from a horse, and the three women in front own none of it and gather its scraps on foot. Wealth on horseback in the warm distance; poverty bent double in the cool front. Millet did not paint a label on any of this. He just arranged the field so that you cannot look at the three women without the rich harvest sitting right behind their heads, and cannot look at the rich harvest without the three women blocking your way to it.
+      </p>
+      <p style={proseStyle}>
+        Behind all of it: a low, flat horizon, a few farm buildings, a hazy sky — the ordinary countryside around Barbizon, refused any drama at all. No mountains, no storm, no opening heaven. Just the plain ground these people work, lit by an end-of-summer sun, going quietly on being ground. The grandeur of this painting is not in any view. It is entirely in three tired women and the dignity of the attention paid to them.
+      </p>
+    </article>
+  )
+}
+
+function GlSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1857" title="Three poor women walk into the Salon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n 1857 Millet sent the painting to the <strong>Salon</strong> — the official, State-run annual art exhibition in Paris, the one show in France that could make a painter’s name or bury it (you met it one level up in the Realism overview; it was run by <strong>the academy</strong>, the Academy of Fine Arts, the state institution that set the rules of what good art was). To hang in the Salon was to be measured, in public, against everything respectable in French painting at once. And into that room, among the gods and goddesses and noble Romans, Millet hung three of the poorest women in France bent over a field picking up scraps.
+      </p>
+      <p style={proseStyle}>
+        It did not go well. The reception from the middle and upper classes was openly hostile — not the polite dislike a painting shrugs off, but something closer to alarm. To understand why three women gleaning could <em>frighten</em> people, you have to put two things next to the canvas: an old rule about what art was for, and a fresh memory about what the poor could do.
+      </p>
+
+      <SectionHeader accent={accent} label="The rule it broke" title="Peasants at the size of saints" />
+      <p style={proseStyle}>
+        The rule first. European art ran on a ranking system, an official ladder of subject-matter the academy enforced. At the very top sat <strong>history painting</strong> — and “history” here did not mean real events; it meant grand scenes from scripture, from Greek and Roman myth, from ancient legend, the noble and the timeless. Those subjects got the biggest canvases, the most serious treatment, the prizes, the prestige. At the very bottom of the ladder sat plain modern life: peasants, laborers, the everyday. You were <em>allowed</em> to paint a peasant — but as a small, charming, picturesque thing, a rustic decoration. You were not allowed to paint a peasant with the grave, careful, full-dress seriousness the ladder reserved for gods.
+      </p>
+      <p style={proseStyle}>
+        Millet broke exactly that. <em>The Gleaners</em> is not a huge canvas — it is a moderate wall picture, not a ten-foot wall (that is Courbet’s game) — but it treats its three poor women with the dead-serious gravity, the monumental simplicity, the sculptural weight the academy kept for heroes. He gave field-workers the <em>dignity</em> of high art without the size, and to an eye trained on the ladder that was its own kind of provocation: he had taken the lowest possible subject and painted it as if it were among the highest. The category was being violated not by scale but by seriousness — and the Salon’s eye was finely tuned to feel that.
+      </p>
+
+      <SectionHeader accent={accent} label="The three Fates of Poverty" title="What a hostile critic saw" />
+      <p style={proseStyle}>
+        Now the famous insult, and it is worth quoting because it tells you exactly how the painting landed. But first, one piece of background you need, because the insult turns on it. The <strong>Three Fates</strong> are figures from Greek and Roman myth: three goddesses who between them spin, measure, and cut the thread of every human life — the implacable powers of destiny. Hold that image, because a critic reached for it. One critic looked at the three stooped women and recoiled: “his three gleaners have <strong>gigantic pretensions</strong>,” he wrote, “they pose as <strong>the Three Fates of Poverty</strong> … their ugliness and their grossness unrelieved.”
+      </p>
+      <p style={proseStyle}>
+        Unpack that. To say Millet’s three peasants “pose as the Three Fates” was to say they loom, that they have been made too large, too grave, too <em>important</em> — that three women picking up wheat had been given the bearing of the goddesses who decide when you die. The critic meant it as ridicule (“gigantic pretensions” — who do these scraps-gatherers think they are?). But read it the other way and it is an accidental compliment, and proof Millet’s move had worked: he <em>had</em> given three nobodies the gravity of fate itself, and the critic felt it, and it scared him. The word “ugliness” is the giveaway — to the Salon eye, refusing to prettify the poor read not as honesty but as an attack on beauty.
+      </p>
+
+      <SectionHeader accent={accent} label="The shadow of 1793" title="Why scraps looked like a threat" />
+      <p style={proseStyle}>
+        The deeper fright was not aesthetic; it was political, and it came from the calendar. The painting went up in <strong>1857</strong>, less than a decade after <strong>1848</strong> — the February revolution that toppled the king and, for a few raw months, put the ordinary poor of France (workers, peasants, the dispossessed) briefly at the very center of their own history, before the army closed the experiment down with great violence (the Realism overview tells that year in full). The propertied classes had been genuinely frightened by 1848, and they had not forgotten it. The poor, in 1857, were not a quaint background detail. They were a recent and real political force.
+      </p>
+      <p style={proseStyle}>
+        So when the rural poor turned up <em>monumentalized</em> in the State’s own exhibition — large, grave, dignified, undeniable — a nervous bourgeois eye did not see a tender pastoral. It saw a threat. One critic reportedly read into the canvas “an alarming intimation of the scaffolds of <strong>1793</strong>” — 1793 being the bloodiest year of the French Revolution, the year of the guillotine and the Terror, when the poor of France had cut off the heads of their betters. Three stooped women gathering wheat had, somehow, conjured the memory of the executioner’s blade. That is an astonishing thing for a picture of field-gleaning to do, and it is the clearest possible measure of how raw the nerve was. Millet had not painted a riot. He had painted three poor women with respect — and to the people who owned France in 1857, respect for the poor was itself a frightening thing to see hung on a wall.
+      </p>
+    </article>
+  )
+}
+
+function GlMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What Millet meant" title="Truth without prettiness — and without a sermon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o what was Millet actually doing? Was this a political painting — a deliberate indictment of an unjust society, a fist raised for the poor? Or was it simply an honest man painting, with great seriousness, a world he had grown up in and loved? Here it is worth being plain about the state of the argument: Millet’s politics are genuinely disputed among historians, and they have been for a long time. The art historian Robert Herbert, who did more than anyone to recover what Millet actually thought, read deep social feeling into the work; others have pushed back, warning against turning a Normandy peasant’s son into a tidy socialist. The honest answer is that the question has never been settled, that the painting holds both readings at once, and that it refuses to resolve them. We are not going to pretend otherwise here.
+      </p>
+      <p style={proseStyle}>
+        Start with what the painting plainly is. It is sympathetic — there is no question Millet is <em>with</em> these women, not above them. But the sympathy is the unusual kind: it has no sugar in it. He does not make the gleaners pretty. He does not give them sweet faces or rosy cheeks or a single tear glistening for effect. He does not arrange a kindly farmer pressing bread into their hands, or a shaft of golden light blessing their labor, or any of the cues a Victorian picture would use to tell you exactly how to feel. He gives you three tired, anonymous, heavy bodies doing brutal work, painted with grave respect and nothing else. The sympathy is in the seriousness, not in any softening. That is the whole secret of the picture: <em>dignity without sentimentality.</em>
+      </p>
+
+      <SectionHeader accent={accent} label="Dignity, threat, and the artist’s own word" title="The same picture, three ways" />
+      <p style={proseStyle}>
+        That refusal to sweeten is exactly why the painting could be read in opposite directions by opposite people. To someone disposed to sympathy, the gravity reads as <em>dignity</em>: Millet has insisted that these women, doing this lowly work, are as worthy of serious art as any saint or king — that their bent backs carry real human weight. To someone disposed to fear — the propertied Salon critic of the last chapter — the very same gravity reads as <em>threat</em>: why has the painter made the poor so large, so grave, so unignorable? What is he trying to make us feel about them? The painting did not change between those two viewers. Only the nerve it touched did. A picture that can be both an icon of human dignity and an “intimation of the scaffolds of 1793,” depending only on who is looking, is doing something genuinely powerful and genuinely unstable.
+      </p>
+      <p style={proseStyle}>
+        And then there is a third voice in the argument — Millet’s own. He resisted the political label, and we can hear him doing it: in his letters to his friend and biographer <strong>Alfred Sensier</strong>, Millet framed his peasants as a matter of sympathy and truth, the world he had grown up in and felt deeply, not a program he was pushing. He bristled at being read as an agitator and insisted he was painting human beings, not propaganda. So one honest fact is that the artist himself denied an explicit political agenda. But here is the catch, and it is a real one: a painter does not get the last word on what his picture <em>does</em> once it is on a public wall. Whatever Millet meant in his own heart, the canvas walked into the Salon and frightened the rich, and that effect is part of the work’s real history whether he aimed for it or not. The safest true thing to say is this — and it leaves the tension standing rather than pretending to settle it: Millet was a man of deep sympathy for the rural poor who insisted, in his own words, that his sympathy was human, not partisan; and the world insisted on reading partisanship into it anyway. Both of those are real. The gap between them is where the painting lives.
+      </p>
+
+      <SectionHeader accent={accent} label="The thing it may leave out" title="No biblical comfort — or is there?" />
+      <p style={proseStyle}>
+        One reading of the picture, and it is the freshest argument about it, turns on what Millet may have chosen <em>not</em> to include. We saw in the first chapter that gleaning carries an old religious warmth — the Book of Ruth, the biblical command to leave the leavings for the poor, the sense of a sacred mercy built into the harvest. On this reading, Millet could have leaned on all of that and pointedly refused to. There is no halo of consolation, no kindly Boaz quietly telling his reapers to drop extra grain for these women, no shaft of holy light, no sense that God or the community is reliably watching over them. The foreground poverty and the sunlit rich harvest behind it are simply set side by side, divided by bare ground, with no bridge of charity drawn between them. The Bible says: leave grain for the poor as an act of holy community. Millet’s field, on this account, shows the poor reduced to scavenging a few stalks while the real harvest is carted off behind their backs, and offers no comfort about it at all — full respect, withheld consolation, from them and from us.
+      </p>
+      <p style={proseStyle}>
+        But it is worth being honest that this is one art-historical reading, not a settled fact, and a strong counter-current runs the other way. Other writers hear something quietly sacred in exactly this canvas — they argue that Millet treats peasant labor with a reverence that <em>is</em> the consolation, that the gravity he lends these bent women is itself a kind of blessing, an echo of Ruth’s dignity rather than its absence. The painting does not announce which is right; it carries both. Read it cold and it is a bleak field with no mercy in it; read it warm and the seriousness Millet spends on the gleaners is a mercy of its own kind. That unresolved tension — whether the picture withholds biblical comfort or quietly supplies a different one — is part of why it keeps holding the eye. And the women themselves deepen it: they are anonymous. We have no names for these three gleaners, no record of who they were, and that is its own part of Millet’s point — these are not portraits of individuals but the nameless poor made monumental, every gleaner who ever bent over a stripped field at once.
+      </p>
+
+      <SectionHeader accent={accent} label="The company it keeps" title="Millet’s other peasants — and Courbet" />
+      <p style={proseStyle}>
+        It helps to see <em>The Gleaners</em> among its siblings. Two years before it, in spirit, stands <em>The Sower</em> (1850) — Millet’s lone peasant striding a dusk field, flinging seed in a great dark arc, monumental and almost menacing. Two years after, in the same emotional family, comes <em>The Angelus</em> (painted 1857–59) — two peasants standing in a field at evening, heads bowed, pausing in their work to pray at the sound of the church bell, tiny under an enormous sky. Set the three together and Millet’s whole project comes clear: sowing, gleaning, praying — the elemental acts of the rural poor, each given the weight of scripture without a word of scripture spoken. And across the movement stands his opposite number, <strong>Courbet</strong>, doing the loud version of the same revolution in the city and the provincial town — a whole village funeral ten feet tall (his story is one level up). Courbet shouted Realism into being. Millet whispered it, bent over a stubble field. The whisper, it turns out, carried just as far.
+      </p>
+    </article>
+  )
+}
+
+function GlAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The price reverses" title="Three thousand francs to three hundred thousand" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Gleaners</em> is one of the great reversals in art history, and you can measure it in money. When Millet first sold the painting, in 1857, he was short of cash and let it go for <strong>3,000 francs</strong> — below even his own asking price of 4,000. The despised picture, the one the critics called ugly and dangerous, went out cheap. That is where the story starts: a working painter, underpaid, parting with a masterpiece because he needed the money.
+      </p>
+      <p style={proseStyle}>
+        Now jump forward about thirty years. By the 1880s the canvas had risen into the collection of a Paris banker, <strong>Ferdinand Bischoffsheim</strong> — already a sign that the despised had become the desirable. And in <strong>1889</strong> it went to auction and sold for <strong>300,000 francs</strong>. Read those two numbers together: three thousand francs to three hundred thousand, a hundredfold jump in a single working lifetime. The picture that frightened the bourgeoisie of 1857 had become, by 1889, exactly the kind of trophy the bourgeoisie paid fortunes to own. Within a week of that sale it was announced that the buyer was <strong>Jeanne-Alexandrine Louise Pommery</strong> — head of the great Pommery champagne house, one of the most successful businesswomen in France. The gleaners now belonged to a champagne fortune.
+      </p>
+
+      <SectionHeader accent={accent} label="From a champagne fortune to the nation" title="Pommery’s bequest" />
+      <p style={proseStyle}>
+        And then Mme Pommery did the thing that closes the circle. When she died, in <strong>1891</strong>, her will gave the painting to the nation: <em>The Gleaners</em> was bequeathed to the <strong>Louvre</strong>, the great Paris museum, the very heart of official French art. Sit with that for a moment. The picture the State’s own official Salon had recoiled from in 1857 — the one a critic had compared to the guillotines of the Terror — was handed, free, into the permanent keeping of the nation whose taste it had once outraged. The threat had become the heirloom. And there is a quiet symmetry worth naming: this painting of the rural female poor — three women who owned nothing — was carried into the national collection by a woman of great independent wealth, Louise Pommery, who had built and run one of France’s major champagne houses on her own account. The scandal had become a national treasure that one of the most successful businesswomen in France thought important enough to give to her country forever.
+      </p>
+      <p style={proseStyle}>
+        (A small note for the careful: the route into the national collection runs through Pommery’s 1889 purchase and her 1891 bequest, not through any single tidy “gift” a year before — the often-repeated shorthand. The verified dates are the ones above.)
+      </p>
+
+      <SectionHeader accent={accent} label="Louvre to Orsay" title="The wall it hangs on now" />
+      <p style={proseStyle}>
+        For most of the twentieth century the painting hung among the national collections, and then it found its permanent home. In <strong>1986</strong> the <strong>Musée d’Orsay</strong> opened on the Left Bank of the Seine — a museum dedicated to nineteenth-century art, installed inside the converted shell of the Gare d’Orsay, a grand old Paris railway station that had been saved from demolition and rebuilt as a gallery. The Louvre’s nineteenth-century holdings crossed the river to fill it, and <em>The Gleaners</em> went with them. It is there now, on permanent view, and you can stand in front of those three bent women any day the museum is open — a few feet from Courbet’s village funeral and Millet’s own <em>Angelus</em>, the quiet half of Realism gathered in one set of rooms.
+      </p>
+
+      <SectionHeader accent={accent} label="The most reproduced poor women in the world" title="Why it never went away" />
+      <p style={proseStyle}>
+        But the truest measure of the painting’s afterlife is not the auction price or the museum wall. It is how completely the image escaped the frame. <em>The Gleaners</em> became one of the most reproduced pictures of the entire nineteenth century — printed and reprinted, copied, hung in countless homes, taught to schoolchildren, parodied, quoted, turned into a shorthand for rural labor and rural poverty everywhere. Three anonymous women, bent over a stripped field, gathering the grain the harvest dropped, became one of the most recognized images on Earth.
+      </p>
+      <p style={proseStyle}>
+        It also lit a fire in other painters. The young <strong>Vincent van Gogh</strong> worshipped Millet, copied his peasant subjects again and again, and built his own early art on Millet’s example of taking field labor seriously; Millet’s name runs all through Van Gogh’s letters. Through Van Gogh and others, the gleaners’ dignity passed down into the painting of the poor for generations.
+      </p>
+      <p style={proseStyle}>
+        So put the whole arc in one breath. Millet took the very poorest people in France, doing the very lowest work there is — gathering the scraps a vanishing right still let them gather — and painted them with the grave seriousness art had always saved for gods and kings. The Salon of 1857 saw a threat and recoiled. Within a lifetime the same world paid a hundred times the original price to own the picture, gave it to the nation, and hung it where the schoolchildren file past. The three bent women won. They are still bent, still gathering, still there on the wall in Paris — and now everyone agrees they were always worth looking at.
       </p>
     </article>
   )
@@ -1921,6 +2710,10 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
     romanticism: BuRomanticism,
     afterlife: BuAfterlife,
   },
+  'stone-breakers': { road: SbRoad, looking: SbLooking, salon: SbSalon, meaning: SbMeaning, afterlife: SbAfterlife },
+  studio: { refusal: StRefusal, allegory: StAllegory, reading: StReading, cast: StCast, afterlife: StAfterlife },
+  sower: { barbizon: SoBarbizon, looking: SoLooking, salon: SoSalon, meaning: SoMeaning, afterlife: SoAfterlife },
+  gleaners: { gleaning: GlGleaning, looking: GlLooking, salon: GlSalon, meaning: GlMeaning, afterlife: GlAfterlife },
 }
 
 // ─────────────────────────────────────────────────────────────
