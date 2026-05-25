@@ -54,12 +54,18 @@ export const ART_IMG = {
   duchampFountain: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/1280px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg',
   grisBreakfast: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/1914_Gris_Le_Petit_D%C3%A9jeuner.jpg',
   // EN-tier (US public domain, pre-1931 — inline OK)
+  braqueFruitDish: 'https://upload.wikimedia.org/wikipedia/en/6/63/Braque_fruitdish_glass.jpg',
   picassoHorta: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Pablo_Picasso%2C_1909%2C_Maisons_%C3%A0_Horta_%28Houses_on_the_Hill%2C_Horta_de_Ebro%29%2C_oil_on_canvas%2C_65_x_81_cm%2C_private_collection.jpg/1280px-Pablo_Picasso%2C_1909%2C_Maisons_%C3%A0_Horta_%28Houses_on_the_Hill%2C_Horta_de_Ebro%29%2C_oil_on_canvas%2C_65_x_81_cm%2C_private_collection.jpg',
   braqueViolinJug: 'https://upload.wikimedia.org/wikipedia/en/0/0b/Georges_Braque%2C_1909-10%2C_Pitcher_and_Violin%2C_oil_on_canvas%2C_116.8_x_73.2_cm%2C_Kunstmuseum_Basel.jpg',
   metzingerTea: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Jean_Metzinger%2C_Le_go%C3%BBter%2C_Tea_Time%2C_1911%2C_75.9_x_70.2_cm%2C_Philadelphia_Museum_of_Art.jpg/1280px-Jean_Metzinger%2C_Le_go%C3%BBter%2C_Tea_Time%2C_1911%2C_75.9_x_70.2_cm%2C_Philadelphia_Museum_of_Art.jpg',
   picassoThreeMusicians: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Pablo_Picasso%2C_1921%2C_Nous_autres_musiciens_%28Three_Musicians%29%2C_oil_on_canvas%2C_204.5_x_188.3_cm%2C_Philadelphia_Museum_of_Art.jpg/1280px-Pablo_Picasso%2C_1921%2C_Nous_autres_musiciens_%28Three_Musicians%29%2C_oil_on_canvas%2C_204.5_x_188.3_cm%2C_Philadelphia_Museum_of_Art.jpg',
   // RESTRICTED — Guernica (1937), NOT US public domain → degraded reference only
   guernica: 'https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg',
+  // SELF-HOSTED — Still Life with Chair Caning (1912) is US public domain (pre-1931)
+  // but Wikimedia hosts NO copy of it (Commons can't until France-PD in 2044; no en
+  // fair-use file exists). A faithful repro is served from public/art/ instead, the
+  // one art figure not on Wikimedia. Subject + tier confirmed by eye (born-verified).
+  chairCaning: '/art/chair-caning.jpg',
   // Cubism influence-flow lineage nodes (Commons, load-verified 2026-05-24)
   fangMask: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg/960px-0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg',
   pissarroBoulevard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg/960px-Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg',
@@ -289,7 +295,7 @@ export const CUBISM: ArtMovementContent = {
     { id: 'horta', year: 1909, name: 'Houses on the Hill, Horta', artist: 'Picasso', place: 'Catalonia', size: 'l', blurb: 'Picasso paints a Spanish village as nesting cubes. The summer everyone agrees this is now a movement.', palette: ['#a08a4a', '#5a4a1c', '#1a1a14'] },
     { id: 'kahnweiler', year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'Their dealer, in shards. Analytic Cubism arrives — monochrome, angular, almost unreadable.', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
     { id: 'violin-jug', year: 1910, name: 'Violin and Jug', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque takes the still life apart. A nail in the corner of the canvas points to what was supposed to be the trompe-l’œil.', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
-    { id: 'chair-caning', year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso', place: 'Paris', size: 'l', blurb: 'A piece of oilcloth printed with chair caning, glued to the canvas. Collage is born; painting will never be only paint again.', palette: ['#b89055', '#3a3020', '#1a1208'] },
+    { id: 'chair-caning', year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso', place: 'Paris', size: 'l', blurb: 'A piece of oilcloth printed with chair caning, glued to the canvas. Collage is born; painting will never be only paint again.', palette: ['#b89055', '#3a3020', '#1a1208'], imageUrl: ART_IMG.chairCaning, credit: 'Picasso, Still Life with Chair Caning · Musée Picasso, Paris' },
     { id: 'cubist-years-end', year: 1914, name: 'The Cubist Years end', artist: 'Picasso & Braque', place: 'Paris', size: 'm', blurb: 'August 1914. Braque is mobilised; Picasso, a Spaniard, is not. They never paint together again.', palette: ['#3a3a4a', '#1c1c2a', '#0a0a14'] },
     { id: 'gris-bottle', year: 1916, name: 'Bottle and Glass', artist: 'Juan Gris', place: 'Paris', size: 's', blurb: 'Gris turns Cubism into a system. Tight, almost classical. The argument continues without the founders.', palette: ['#8a6b3a', '#3a2820', '#0e0805'] },
     { id: 'three-musicians', year: 1921, name: 'Three Musicians', artist: 'Picasso', place: 'Fontainebleau', size: 'l', blurb: 'Picasso revisits Cubism as a synthetic, decorative language. Flat planes, bright colours, almost a poster.', palette: ['#c8a72a', '#7a1422', '#1c0a08'] },
@@ -326,7 +332,7 @@ export const CUBISM: ArtMovementContent = {
     { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks — the three things Picasso could not stop looking at.', progress: 1 / 6 },
     { id: 'analytic', eyebrow: 'The partnership', dateLabel: '1909–1911', title: 'Two men, one rope', blurb: 'Picasso and Braque climb the mountain roped together, faceting the world into brown and grey shards.', progress: 2 / 6 },
     { id: 'shards', eyebrow: 'The hermetic peak', dateLabel: '1911–1912', title: 'The world in shards', blurb: 'The pictures get so abstract even the painters get nervous — and the public meets Cubism in a room they were not ready for.', progress: 3 / 6 },
-    { id: 'paper', eyebrow: 'A new technique', dateLabel: '1912–1914', title: 'Pasted paper', blurb: 'They glue a scrap of oilcloth to a canvas, and three thousand years of painting-as-illusion quietly ends.', progress: 4 / 6 },
+    { id: 'paper', eyebrow: 'A new technique', dateLabel: '1912–1914', title: 'Pasted paper', blurb: 'They glue a scrap of oilcloth to a canvas, and five centuries of painting-as-illusion quietly end.', progress: 4 / 6 },
     { id: 'public', eyebrow: 'The second wave', dateLabel: '1911–1914', title: 'Cubism goes public', blurb: 'The Salon Cubists exhibit, theorise and scandalise, and a freight train of it reaches New York.', progress: 5 / 6 },
     { id: 'after', eyebrow: 'The war and after', dateLabel: '1914–1922', title: 'Mobilisation', blurb: 'In August 1914 the founders are scattered to the front. What they had built was already loose in the world.', progress: 1 },
   ],
@@ -535,6 +541,70 @@ export const KAHNWEILER: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
+// Work — Still Life with Chair Caning (1912): the first Cubist collage and the
+// hinge between Analytic and Synthetic Cubism. Self-hosted image (no Wikimedia
+// copy exists); Look-closer crops verified against the 1043×796 repro 2026-05-24.
+// Chapter prose lives in the section reader (NARRATIVES['chair-caning']).
+// ─────────────────────────────────────────────────────────────
+export const CHAIR_CANING: ArtWorkContent = {
+  id: 'chair-caning',
+  name: 'Still Life with Chair Caning',
+  shortName: 'Chair Caning',
+  year: 1912,
+  artist: 'Pablo Picasso',
+  artistId: 'picasso',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil and oilcloth on canvas, framed with rope',
+  dimensions: '29 × 37 cm (11½ × 14½ in)',
+  location: 'Musée national Picasso-Paris',
+  acquired: 'Acquired 1979 (dation)',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 3, total: 9 },
+  hook: 'Picasso glued a scrap of printed oilcloth to a canvas, framed it with rope, and quietly ended five centuries of Western painting-as-illusion.',
+  heroImage: ART_IMG.chairCaning,
+  heroCredit: 'Picasso, Still Life with Chair Caning, 1912 · Musée Picasso, Paris',
+  heroAspect: 1.31,
+  rights: 'pd-us',
+  stats: [
+    { v: '1912', k: 'Painted' },
+    { v: '29 × 37 cm', k: 'Dimensions' },
+    { v: 'Musée Picasso', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Winter 1912', title: 'The dead end of the facets', blurb: 'Three years of faceting has left Picasso and Braque at the edge of a cliff: a few more shards and the picture dissolves into pure pattern. They need a way back to the world.', progress: 0.08 },
+    { id: 'making', eyebrow: 'Spring 1912', dateLabel: 'May 1912', title: 'The morning he stopped painting', blurb: 'On a small oval canvas Picasso reaches not for a brush but for a strip of machine-printed oilcloth and a length of rope — and glues them down.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A café table, seen from above', blurb: 'It reads as chaos until you spot the tabletop: a newspaper, a pipe, a wineglass, a slice of lemon — and the chair you would sit on, printed onto cloth.', progress: 0.56 },
+    { id: 'break', eyebrow: 'The break', dateLabel: '1912', title: 'Five centuries of illusion, over', blurb: 'The moment a real object lands on the canvas, painting stops having to pretend. Collage is born — and four months later Braque takes the next step.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1912–today', title: 'The little oval that opened the century', blurb: 'It is the size of a sheet of paper, Picasso never sold it, and almost every glued, taped or bolted-together artwork since descends from it.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1912–1973', who: 'Pablo Picasso (the artist)', place: 'Paris', note: 'Picasso kept his own breakthrough. The little oval stayed in his personal collection for sixty-one years — he never put it up for sale.', price: null },
+    { year: '1973', who: 'Estate of Pablo Picasso', place: 'Mougins / Paris', note: 'Picasso dies without a will. A vast hoard of work he had held back his whole life passes to his heirs, and the French state takes years to inventory it.', price: null },
+    { year: '1979', who: 'French national collections (by dation)', place: 'Paris', note: 'France lets heirs pay inheritance tax in artworks rather than cash — the dation. This canvas is among the works that pass to the nation, forming the core of a future Picasso museum.', price: 'paid as estate tax' },
+    { year: '1985', who: 'Musée national Picasso-Paris', place: 'Paris (Hôtel Salé)', note: 'The museum opens in a grand 17th-century mansion once built on a salt-tax fortune. The little oval, still framed in its piece of rope, has hung there since.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Picasso', role: 'The painter', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Braque', role: 'Papier collé, that September', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Kahnweiler', role: 'The dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { name: 'Kurt Schwitters', role: 'The heir, in glued trash', palette: ['#8a3a2a', '#2a1c16', '#0a0606'] },
+  ],
+  annotations: [
+    { x: '30%', y: '34%', w: 34, h: 18, label: 'The letters JOU', detail: 'Big black painted capitals: J-O-U, the first three letters of journal — French for newspaper (and literally “daily”). A café kept its papers on a rack; here one lies on the table. Viewers have long enjoyed the wink to jouer, “to play” — the game of the whole picture.' },
+    { x: '28%', y: '64%', w: 32, h: 28, label: 'The printed chair caning', detail: 'This woven lattice is the trick at the centre of the work. It is not real cane, and it is not painted — it is a strip of cheap oilcloth, machine-printed to imitate the rattan seat of a bistro chair, glued straight onto the canvas. A factory-made fake, standing in for the chair you would sit on.' },
+    { x: '50%', y: '90%', w: 52, h: 16, label: 'The rope frame', detail: 'A length of ordinary rope, glued around the oval edge. It reads two ways at once: the carved rim of a little round café table seen from above, and the gilt edge of a picture frame. Picasso lets you choose — and so blurs the line between an object and a picture of one.' },
+    { x: '60%', y: '44%', w: 42, h: 38, label: 'The still life, in facets', detail: 'Everything else is hand-painted illusion in the brown-grey shards of Analytic Cubism: a stemmed wineglass, a pipe, a knife, a slice of lemon, a scallop shell — the remains of a drink and a light meal, dissolving into planes. The old painted fakery sits right beside the glued-on real thing.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Analytic Cubism', mode: 'art' }, { label: 'Cézanne', mode: 'art' }, { label: 'Braque', mode: 'art' }, { label: 'Industrial mass production', mode: 'civ' } ],
+    children: [ { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Papier collé', mode: 'art' }, { label: 'Dada photomontage', mode: 'art' }, { label: 'Pop Art', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
 // Artist — Picasso (1881–1973)
 // ─────────────────────────────────────────────────────────────
 export interface ArtistPeriod { id: string; label: string; range: string; color: string; summary: string; size: 's' | 'm' | 'l' }
@@ -634,5 +704,5 @@ export const PICASSO: ArtArtistContent = {
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

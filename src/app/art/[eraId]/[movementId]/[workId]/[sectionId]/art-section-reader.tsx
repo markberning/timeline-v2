@@ -705,6 +705,183 @@ function KahSeized({ accent }: { accent: string; onZoom: (src: string, cap: stri
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// Still Life with Chair Caning — the five chapters (the first collage, 1912)
+// ─────────────────────────────────────────────────────────────
+function CcSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Winter 1912" title="Roped together, out on a ledge" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y the start of 1912, Picasso and Georges Braque (a young French painter who had become his almost-daily collaborator) had spent three years doing one thing with ferocious concentration: taking the visible world apart. Their method was{' '}<em>Analytic Cubism</em>{' '}— breaking an object into small flat{' '}<em>facets</em>, the little angled planes you see on a cut gem, and laying them out from several viewpoints at once, all in a drab fog of browns and greys. They worked so closely they stopped signing the fronts of their canvases; you had to turn a picture over to learn whose it was.
+      </p>
+      <p style={proseStyle}>
+        It was a triumph, and it was a trap. Each picture took the subject a little further apart than the last, and by 1911 the canvases had been faceted almost past reading — a shimmering grey scaffold in which you had to hunt for a moustache or the neck of a bottle to prove there was anything there at all. Set a Braque still life from these years in front of you and you can feel the problem: it is beautiful, and it is nearly illegible.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#7a6a4a', '#3a3326', '#15110a']}
+        imageUrl={ART_IMG.braqueViolinJug}
+        ratio="3/4"
+        alt="Braque, Violin and Pitcher, 1909–10"
+        caption={<>Braque,{' '}<em>Violin and Pitcher</em>, 1909–10 — Kunstmuseum Basel. This is the cliff edge: a still life faceted so far that the violin and jug have almost dissolved into pure brown pattern.</>}
+        rights={PD_RIGHTS}
+      />
+      <SectionHeader accent={accent} label="The trap" title="A few more facets and it's wallpaper" />
+      <p style={proseStyle}>
+        The danger was abstraction — and, oddly, neither man wanted it. A few more facets and the subject would vanish entirely, leaving only a handsome arrangement of greyish shapes: decoration, pattern, wallpaper. Picasso and Braque were not trying to leave the world behind; they were trying to show it more truthfully, from more sides at once. They had climbed out onto a ledge and could feel that one more step in the same direction was a drop.
+      </p>
+      <SectionHeader accent={accent} label="The real problem" title="The window that had to go" />
+      <p style={proseStyle}>
+        To see why the next move mattered so much, you have to know what these two were rebelling against. Since the Renaissance had worked out the geometry of{' '}<em>perspective</em>{' '}around 1420, a Western painting had been understood as a{' '}<strong>window</strong>: a flat surface you look{' '}<em>through</em>, faked so skilfully with paint and shadow that you seem to see a real room, a real face, real fruit. The whole game was{' '}<em>illusion</em>{' '}— make paint pretend to be something it isn&rsquo;t.
+      </p>
+      <p style={proseStyle}>
+        Cubism had already smashed that window: no single viewpoint, no convincing depth. But Analytic Cubism had replaced the illusion with something close to abstraction, and that was a dead end too. The question hanging over Picasso&rsquo;s studio in the spring of 1912 was simple and enormous: how do you let the real world back into a picture{' '}<em>without</em>{' '}going back to faking it? The answer, when it came, was not something he painted. It was something he glued.
+      </p>
+    </article>
+  )
+}
+
+function CcMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="May 1912" title="The morning he reached for the glue" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>O</DropCap>
+        ne day in the spring of 1912 — by most accounts that May — Picasso took a small{' '}<em>oval</em>{' '}canvas and did something that had almost no precedent in serious Western painting. Instead of reaching for a brush, he reached for a strip of{' '}<strong>oilcloth</strong>: cheap, waterproof, factory-printed fabric, the kind people bought by the metre to cover a kitchen table. This particular oilcloth was printed with a pattern of{' '}<em>chair caning</em>{' '}— the woven rattan mesh of a bistro chair seat. He cut a piece off and glued it straight onto the canvas.
+      </p>
+      <p style={proseStyle}>
+        Sit with how strange that is. The caning is not real cane. But it is also not{' '}<em>painted</em>{' '}cane. It is a machine-made, mass-produced{' '}<em>picture</em>{' '}of cane — a factory fake — and Picasso has dropped it, untouched, into the middle of a serious work of art. For five centuries a painter&rsquo;s job had been to imitate the world by hand, with skill. Picasso just bought the imitation at a shop and pasted it down. The most laborious trick in painting, the convincing surface, was suddenly something you could pick up ready-made.
+      </p>
+      <SectionHeader accent={accent} label="The second object" title="A piece of rope for a frame" />
+      <p style={proseStyle}>
+        Then he did it again. Around the oval edge of the canvas he glued a length of ordinary{' '}<strong>rope</strong>. It works as a frame — but a frame is supposed to sit{' '}<em>around</em>{' '}a picture, separating the art from the wall; this one is part of the object. And it reads two ways at once. It is the gilt rim of a picture frame, yes — but it is also, unmistakably, the carved wooden edge of a small round café table seen from above. Picasso refuses to tell you which. Is this a picture of a table, or a thing that is a table? Both. Neither.
+      </p>
+      <SectionHeader accent={accent} label="Why oval" title="Losing the corners" />
+      <p style={proseStyle}>
+        The oval shape is not a whim. Picasso and Braque had been painting on oval canvases through 1911 and 1912 for a practical reason: the rounded format quietly does away with the four corners, the dead zones where a Cubist composition tends to fall apart, and it echoes the little round pedestal café table — the French call it a{' '}<em>guéridon</em>{' '}— that so many of these still lifes are built on. Here the oval and the rope-as-table-edge work together: the whole picture{' '}<em>is</em>{' '}a tabletop, tipped up to face you.
+      </p>
+      <p style={proseStyle}>
+        And the painted parts? They are still pure Analytic Cubism — the same brown-grey facets, the same splintered light he and Braque had been refining for three years. That is what makes this little canvas a hinge. One half of it is the last gasp of the old faceting; the other half is a glued-on scrap of the real world. The future and the past of Cubism, sharing a single oval thirty centimetres wide.
+      </p>
+    </article>
+  )
+}
+
+function CcReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Look down at the table" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#b89055', '#5a4a2a', '#1a1208']}
+        imageUrl={ART_IMG.chairCaning}
+        ratio="4/3"
+        alt="Picasso, Still Life with Chair Caning, 1912"
+        caption={<>Picasso,{' '}<em>Still Life with Chair Caning</em>, 1912 — Musée Picasso, Paris. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        t first it is a brown jumble, and you may want to give up. Don&rsquo;t — it is a scene, and once it clicks you can&rsquo;t un-see it. You are looking{' '}<em>down</em>{' '}at a small round café table from directly above, the way you&rsquo;d glance at your own table mid-conversation. Start with the patch of woven mesh in the lower left: that is the printed{' '}<strong>chair caning</strong>, standing in for the seat of the chair you would be sitting on. The whole picture is your point of view at the café.
+      </p>
+      <p style={proseStyle}>
+        Now read the tabletop. Those bold black capitals —{' '}<strong>JOU</strong>{' '}— are the corner of a{' '}<em>newspaper</em>: the first three letters of{' '}<em>journal</em>, the French word for a paper (literally &ldquo;daily&rdquo;). Cafés kept the day&rsquo;s papers for customers; here one lies folded on the table. Readers have long enjoyed the side-joke that{' '}<em>jou</em>{' '}also opens{' '}<em>jouer</em>, &ldquo;to play&rdquo; — a fair wink, given how much of this picture is a game, though it&rsquo;s the newspaper that&rsquo;s literally on the table.
+      </p>
+      <p style={proseStyle}>
+        Around the JOU, the rest of the meal assembles itself out of the grey facets: the bowl and stem of a{' '}<strong>wineglass</strong>, the curve of a{' '}<strong>pipe</strong>, the blade of a{' '}<strong>knife</strong>, a wedge of{' '}<strong>lemon</strong>, the fluted shell of a{' '}<strong>scallop</strong>. It is the debris of an apéritif (a pre-lunch café drink) and a light meal — the most ordinary half-hour in Paris, rendered in the most advanced painting in Europe.
+      </p>
+      <SectionHeader accent={accent} label="The point" title="The fake that tells the truth" />
+      <p style={proseStyle}>
+        Here is the move that makes the picture famous. Everything painted on this table is an{' '}<em>illusion</em>: hand-made fakery, paint pretending to be a glass or a lemon. The caning is the opposite — it is a{' '}<em>real</em>{' '}thing, an actual manufactured object stuck to the canvas. Except that the real thing is{' '}<em>itself</em>{' '}a fake: a printed picture of cane, not cane. It is as if, to explain what money is, you hung a flawless painting of a banknote beside a real banknote — and the real one turned out to be a film prop. Picasso has stacked illusion on illusion on reality in one small oval: hand-painted fakes, beside a real object, that is a machine-made fake. The picture is a little essay on the difference between a thing and a picture of a thing, and it pointedly refuses to settle the question.
+      </p>
+      <p style={proseStyle}>
+        The Met&rsquo;s own catalogue puts the whole revolution in a phrase: Picasso had found a way of{' '}<em>inserting a fragment of reality into the fictive realm of painting</em>{' '}— a scrap of the actual world, glued into the make-believe.
+      </p>
+    </article>
+  )
+}
+
+function CcBreak({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The break" title="The window finally breaks for good" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tep back from the little oval and measure what just happened. For roughly five hundred years, a Western picture had been an illusion — paint working overtime to convince you it was grapes, or velvet, or a human face. Even Cubism, for all its smashing, had still been{' '}<em>paint pretending to be something</em>. The instant Picasso glued a real object onto the canvas, painting was let off that five-hundred-year hook. The thing itself could simply be{' '}<em>there</em>. It no longer had to be faked.
+      </p>
+      <p style={proseStyle}>
+        That move has a name now:{' '}<strong>collage</strong>, from the French{' '}<em>coller</em>, &ldquo;to glue&rdquo; — art made by sticking real materials onto a surface. It sounds modest. It was not. It quietly retired one of the deepest assumptions of European painting, the one even the rebels had kept: that a picture&rsquo;s job is to imitate.
+      </p>
+      <SectionHeader accent={accent} label="Braque, that September" title="The next step, in pasted paper" />
+      <p style={proseStyle}>
+        Picasso did not do this alone, and the story is usually told as if he did. Four months later, that September, Braque — still roped to him — took the idea one step further. He bought a roll of wallpaper printed to look like oak panelling, cut it into strips, and pasted them into a charcoal drawing of a fruit dish and a glass. That was the first{' '}<em>papier collé</em>{' '}(&ldquo;pasted paper&rdquo;): collage made of paper alone.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#9a8458', '#4a3f28', '#15110a']}
+        imageUrl={ART_IMG.braqueFruitDish}
+        ratio="3/4"
+        alt="Braque, Fruit Dish and Glass, 1912"
+        caption={<>Braque,{' '}<em>Fruit Dish and Glass</em>, September 1912 — the first{' '}<em>papier collé</em>. The wood-grain panels are strips of printed wallpaper, glued onto a charcoal drawing.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        The two inventions are cousins, and it is worth keeping them apart. Picasso&rsquo;s{' '}<em>collage</em>{' '}smuggles a foreign{' '}<em>material</em>{' '}into the picture — oilcloth, rope, anything. Braque&rsquo;s{' '}<em>papier collé</em>{' '}stays within one humble medium, paper. Between the two of them, in a single summer, they had opened a door, and everything came through it: within a year their canvases were sprouting scraps of newspaper, sheet music, cigarette wrappers and bottle labels.
+      </p>
+      <p style={proseStyle}>
+        Even the order of credit is argued over. A few scholars — and Braque himself, in later life — held that he had been gluing imitation-wood paper into his drawings before Picasso glued anything, which would shrink Picasso&rsquo;s prize to the first collage in a{' '}<em>painting</em>{' '}rather than the first collage at all. The textbooks still mostly hand the crown to this little oval; it is worth knowing the crown is contested, and that two people are wearing it.
+      </p>
+      <p style={proseStyle}>
+        It is also fair to add an asterisk to the word{' '}<em>first</em>{' '}itself. People had glued paper into devotional pictures, valentines and scrapbooks for centuries; collage as a craft is old. What was new in 1912 was collage as a deliberate, serious move inside the{' '}<em>avant-garde</em>{' '}— the small leading edge of artists pushing hardest against the rules. Picasso did not invent gluing. He made gluing a way of thinking.
+      </p>
+      <SectionHeader accent={accent} label="The bigger shock" title="The supermarket walks into the museum" />
+      <p style={proseStyle}>
+        The deepest break here is not technical, it is social. For centuries high art had guarded its noble materials — oil, marble, bronze, gold leaf — like a private club. Now a factory tablecloth, a roll of wallpaper, yesterday&rsquo;s newspaper, the cheapest mass-produced stuff in the city, walked straight into the most ambitious painting in Europe and put its feet up. The throwaway world of shops and advertising had been let in, and it never left.
+      </p>
+    </article>
+  )
+}
+
+function CcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="The object" title="Smaller than you think" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he first surprise, if you ever meet it in person, is the size. Reproductions make it loom like a monument; the actual thing is about{' '}<strong>29 by 37 centimetres</strong>{' '}— no bigger than a placemat, which, given the subject, feels about right. One of the most consequential objects in modern art is small enough to hold on your lap. The second surprise is that Picasso never sold it. He kept the breakthrough in his personal collection for the rest of his life — sixty-one years — the way you might keep the first banknote a business ever took.
+        </p>
+        <SectionHeader accent={accent} label="The descendants" title="From a glued scrap to half a century" />
+        <p style={proseStyle}>
+          What he had started ran straight through the century — and it began by turning Cubism inside out. Gluing a flat, ready-made shape onto the canvas taught Picasso and Braque a new lesson: a picture could be{' '}<em>built up</em>{' '}from flat pieces, instead of a real object being{' '}<em>broken down</em>{' '}into facets. That reversal became{' '}<em>Synthetic Cubism</em>{' '}— the brighter, assembled second phase of the movement, the mirror image of the grey, shattered-gem look of the Analytic years. Then the door swung wide. The German artist{' '}<strong>Kurt Schwitters</strong>{' '}(1887–1948), a few years later, built whole pictures — and eventually entire rooms — out of tram tickets, bus stubs and gutter trash, a one-man movement he named{' '}<em>Merz</em>{' '}(a nonsense syllable he had snipped from an advert for a bank,{' '}<em>Kommerz</em>).
+        </p>
+        <p style={proseStyle}>
+          The Berlin Dadaists — a deliberately absurd, anti-art movement born of disgust at the First World War — turned scissors and magazines into political weapons.{' '}<strong>Hannah Höch</strong>, too often dropped from this story, was one of the sharpest of them, slicing the illustrated press into biting{' '}<em>photomontage</em>{' '}(pictures collaged from cut-up photographs). Decades on, the American artist{' '}<strong>Robert Rauschenberg</strong>, working in 1950s New York, fixed quilts, tyres, even a stuffed goat to his work and called the results{' '}<em>Combines</em>. And Pop Art — the movement that hung soup cans and comic strips on gallery walls — simply moved in for good: the supermarket Picasso had let through the door in 1912 took over the house. Every time an artist since has glued, taped, screwed or bolted a real object to a picture, they have been speaking the grammar this little oval invented.
+        </p>
+        <SectionHeader accent={accent} label="Where it lives" title="A salt-tax mansion in Paris" />
+        <p style={proseStyle}>
+          When Picasso died in 1973 he left no will and an enormous hoard of work he had refused to part with. Under a French law that lets heirs settle inheritance tax in artworks rather than cash — the{' '}<em>dation</em>{' '}— much of that hoard passed to the nation, and it became the{' '}<strong>Musée Picasso</strong>, opened in 1985 in the Hôtel Salé, a grand 17th-century mansion built, fittingly, on a fortune made from the salt tax. The little oval hangs there now, behind glass, still wearing its piece of rope.
+        </p>
+        <p style={proseStyle}>
+          Visitors come expecting a monument and find a place setting the size of a napkin. Which may be the joke Picasso would have liked best: the picture that ended painting-as-illusion turns out to be a small, perfect illusion of a table — one you could almost pull up a chair to, if the chair weren&rsquo;t printed on a piece of cloth.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={AMBER}
+        region="Detroit"
+        when="1913 · one year later"
+        title="The same cheap world, on a moving belt."
+        body="The mass-produced stuff Picasso was gluing into art — printed cloth, machine-made goods — was about to remake daily life. In 1913 Henry Ford installed the first moving assembly line, and the throwaway consumer world that Cubism let into the museum began rolling off it by the million."
+        palette={['#6b6b6b', '#3a3a3a', '#1c1c1c']}
+        ctaLabel="Read 'The Assembly Line'"
+      />
+    </>
+  )
+}
+
 type NarrativeFn = (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement
 
 // A chapter whose prose isn't written yet — graceful placeholder so a partly
@@ -730,6 +907,13 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
     reading: KahReading,
     sitting: KahSitting,
     seized: KahSeized,
+  },
+  'chair-caning': {
+    setting: CcSetting,
+    making: CcMaking,
+    reading: CcReading,
+    break: CcBreak,
+    afterlife: CcAfterlife,
   },
 }
 

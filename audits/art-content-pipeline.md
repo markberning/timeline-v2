@@ -4,12 +4,13 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: ACTIVE — run twice (2026-05-23 Modern era + Cubism; 2026-05-24
-Kahnweiler work).** See the two proof-run logs at the bottom. This is the mandatory
-gate for every Art section — **do NOT author-and-ship; run all five critic gates
-every time** (the Kahnweiler run re-learned this the hard way; see that log).
-**Still owed:** the Demoiselles WORK reader (5 ch) was authored before the pipeline
-existed and has not yet been through the gates.
+**Status: ACTIVE — run three times (2026-05-23 Modern era + Cubism; 2026-05-24
+Kahnweiler work; 2026-05-24 Chair Caning work).** See the three proof-run logs at
+the bottom. This is the mandatory gate for every Art section — **do NOT author-and-
+ship; run all five critic gates every time** (the Kahnweiler run re-learned this the
+hard way; the Chair Caning run was gated from the start). **Still owed:** the
+Demoiselles WORK reader (5 ch) was authored before the pipeline existed and has not
+yet been through the gates.
 
 ## Governing principle
 Same spine as War: **storytelling is the #1 goal; accuracy / zero-hallucination is
@@ -227,3 +228,49 @@ five-gate pass, and the gates again earned their keep:
 All findings applied; chapters rewritten via an Opus author pass; tsc + eslint clean;
 all five section routes + the work page serve 200. **The standing rule this run nails
 down: never author-and-ship an Art work — run the five gates every single time.**
+
+## Proof run 3 — DONE (2026-05-24) — Still Life with Chair Caning work (5 ch)
+The 3rd authored work (Picasso&rsquo;s first collage, 1912) — gated from the START,
+not author-then-hope. Two firsts for the pipeline:
+- **First SELF-HOSTED art image.** Chair Caning is US public domain (1912, pre-1931)
+  but Wikimedia hosts NO copy (Commons can&rsquo;t until France-PD ~2044; no en fair-
+  use file exists). Per the &ldquo;no serveable PD image&rdquo; note above, a faithful
+  repro was sourced (WikiArt full-size, 1043×796), metadata-stripped, and committed to
+  `public/art/chair-caning.jpg`; subject + tier confirmed by eye. Because a WORK page
+  IS its canvas (CanvasViewer + Look-closer crops), the swap-to-substitute fallback
+  was not an option — the user chose self-host over picking a different work. The four
+  Look-closer crops (JOU / printed caning / rope frame / faceted still life) were
+  rendered and eyeballed before the x/y/w/h were locked.
+- **All five gates ran in parallel (Sonnet) and earned their keep again:**
+  - **Fact-checker** — the &ldquo;sheet of printer paper&rdquo; size analogy was
+    geometrically wrong (29×37 cm > A4) → &ldquo;no bigger than a placemat&rdquo;; the
+    &ldquo;fragment of reality&rdquo; line is Met-catalogue prose, not &ldquo;one art
+    historian&rdquo; → re-attributed; &ldquo;kept it on his own walls&rdquo; →
+    &ldquo;in his personal collection&rdquo; (undocumented elaboration).
+  - **Framing** + **Fact-checker** both caught the **&ldquo;three thousand years of
+    illusion&rdquo;** overclaim in the hook + chapter title + the (pre-existing)
+    movement &ldquo;Pasted paper&rdquo; blurb — the prose body correctly says ~500
+    years / Western. Reconciled all to &ldquo;five centuries.&rdquo; Also hedged
+    &ldquo;no serious painter had done before&rdquo; → &ldquo;almost no precedent in
+    serious Western painting,&rdquo; and added the Braque-priority dispute (some hold
+    Braque glued paper first → Picasso&rsquo;s crown is &ldquo;first collage in a
+    *painting*&rdquo;).
+  - **Storytelling/looking** — the chapter&rsquo;s thesis sentence was buried in
+    `proseMutedStyle` (voice-lock C violation) → moved to body text; added the
+    banknote/film-prop analogy for the stacked-illusion idea; moved the &ldquo;first&rdquo;
+    asterisk earlier so CcBreak ends on the &ldquo;supermarket walks into the
+    museum&rdquo; high. No chapter graded REWRITE; no thinness (the Kahnweiler failure
+    mode did not recur).
+  - **Newcomer/clarity** — the CcAfterlife descendants paragraph read LOST (Schwitters,
+    Merz, Dada, Höch, Rauschenberg, Combines, Pop all fired with no who-they-are);
+    every name got a one-clause tag; glossed *apéritif*, put English before *guéridon*.
+  - **Comprehensiveness** — added the Analytic→Synthetic *mechanism* (gluing a flat
+    ready-made shape taught them to build UP rather than break DOWN), not just the
+    sequence.
+- **Coordinator-run gates 6–7:** image/rights PASS (all figures pre-1931 PD-US or
+  self-hosted PD-US; Braque&rsquo;s *Fruit Dish and Glass* added as the ch4 papier-collé
+  figure, en-tier, load-checked); nesting/coherence PASS (movement card + &ldquo;Pasted
+  paper&rdquo; section now consistent with the work; work goes deeper, no contradiction).
+- tsc + eslint clean; clean static build green (shipped-page guard intact); work page +
+  all five section routes render. Confirms the doctrine: **gate-from-the-start beats
+  author-then-fix**, and a self-hosted PD image is a clean fit when Wikimedia has none.
