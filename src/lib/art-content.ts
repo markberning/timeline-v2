@@ -55,6 +55,9 @@ export const ART_IMG = {
   // than showing border/caption. Source: commons MM43349, cropped to the scene.
   salonHang: '/art/salon-1787.jpg',
   cabanelVenus: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg/1280px-Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg',
+  // "Why this is a break" predecessor foils (born-verified 2026-05-25, PD; subjects eyeballed).
+  ingresOdalisque: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg/960px-Jean_Auguste_Dominique_Ingres%2C_La_Grande_Odalisque%2C_1814.jpg',
+  davidHoratii: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg/960px-Jacques-Louis_David_-_Oath_of_the_Horatii_-_Google_Art_Project.jpg',
   // Portrait-orientation works, for the orientation-aware card prototype (these
   // sit image-LEFT / text-right; landscape/square works sit image-on-top).
   matisseHat: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Matisse-Woman-with-a-Hat.jpg/960px-Matisse-Woman-with-a-Hat.jpg',
@@ -228,6 +231,24 @@ export const MODERN_ERA: ArtEraContent = {
   lineage: {
     parents: [ { label: 'Neoclassical & Romantic', mode: 'art' }, { label: 'Industrial Revolution', mode: 'civ' }, { label: 'Photography', mode: 'civ' } ],
     children: [ { label: 'Contemporary', mode: 'art' }, { label: 'Conceptual art', mode: 'art' }, { label: 'Postmodernism', mode: 'civ' } ],
+  },
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.davidHoratii,
+      title: 'Before · David, Oath of the Horatii (1784)',
+      caption: 'What "great painting" had meant: a clear story from antiquity, idealized heroic bodies, textbook one-point perspective, the finish flawless — art as a window onto a noble world.',
+    },
+    after: {
+      img: ART_IMG.kandinskyComp7,
+      title: 'After · Kandinsky, Composition VII (1913)',
+      caption: 'No legible subject, no window — colour, line and force alone. Within two generations, painting had stopped depicting the visible world.',
+    },
+    prose: [
+      'Before 1850, everyone agreed what painting was for. It opened a window onto a recognizable world — gods, heroes, saints, history — rendered with idealized bodies, believable space and a finish that hid every brushstroke. David’s Oath of the Horatii is that ideal made law: three brothers throw out their arms to swear on the swords their father holds aloft, the architecture recedes in textbook perspective, the drama crystal clear.',
+      'The modern era is the slow-motion demolition of that agreement. Realism put real labourers where the gods had been; Impressionism dissolved solid form into light; Cubism broke the single viewpoint; then Kandinsky took the last step and dissolved the subject altogether. The boats, waves and apocalyptic riders he began with vanish into pure colour and line — a picture that refuses to be a window onto anything but itself.',
+      'That is the thread that makes 1850–1970 one era and not a string of unrelated styles: each movement attacks a different rule of the old picture — its subjects, its space, its surface, its very duty to depict — until almost nothing of the window is left. Modern art isn’t a single look. It is the century painting spent taking itself apart.',
+    ],
   },
   sections: [
     { id: 'land', eyebrow: 'Lay of the land', dateLabel: 'c. 1850', title: 'The world before the revolt', blurb: 'One ladder, owned by the State — and the modern world quietly loading the gun to kick it over.', progress: 0 },
@@ -417,6 +438,24 @@ export const CUBISM: ArtMovementContent = {
     ],
   },
   influenceSummary: 'Cubism took Cézanne’s faceted space and the flat planes of African masks, broke the single-viewpoint window once and for all, and handed that break on to nearly every abstract movement that followed.',
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.ingresOdalisque,
+      title: 'Before · Ingres, La Grande Odalisque (1814)',
+      caption: 'What "a nude" had meant for centuries: an idealized body seen from one fixed spot through an invisible window, the brushwork sanded to glass.',
+    },
+    after: {
+      img: ART_IMG.demoiselles,
+      title: 'After · Picasso, Les Demoiselles d’Avignon (1907)',
+      caption: 'What Picasso did instead: five women built from jagged planes and mask-faces, shown from several angles at once, the deep illusionistic space flattened against the surface.',
+    },
+    prose: [
+      'For five hundred years a painting was a window. You stood in one place, the picture opened onto a believable space, and the painter’s job was to hide the seams — to make a flat cloth read as a room you could step into. Ingres’s odalisque is that tradition at its most polished: one viewpoint, one idealized body, every brushstroke buffed away.',
+      'Les Demoiselles d’Avignon smashes the window. The five figures are assembled from hard angular shards; two of the faces are African masks; and bodies are shown from several positions at the same time — a back and a face that no single observer could ever see together. The illusion of depth is gone, pressed flat against the canvas.',
+      'That is why Cubism is a new movement and not a new style. It didn’t change how the window looked — it threw the window out. Once a painting could hold many viewpoints at once and admit it was a flat made thing, the single fixed eye that had governed Western art since the Renaissance was finished, and nearly every abstraction that followed walked through the hole Picasso and Braque tore open.',
+    ],
+  },
   canon: [
     { year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso', wiki: "Les Demoiselles d'Avignon", img: ART_IMG.demoiselles },
     { year: 1908, name: 'Houses at L’Estaque', artist: 'Braque', wiki: "Houses at l'Estaque", img: ART_IMG.braqueEstaque },

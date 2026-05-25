@@ -16,8 +16,10 @@
 // and BattleCard (war-detail.jsx → local ArtCard) into the app's CSS-var
 // theming, fonts, and accent palette. See audits/art-vertical.md.
 
+import { useState } from 'react'
 import Link from 'next/link'
 import { OrientationCard } from '@/components/mode/orientation-card'
+import { Lightbox } from '@/components/lightbox'
 import {
   ArtChrome,
   ArtPageShell,
@@ -28,6 +30,7 @@ import {
   ArtFaceoff,
   ArtistsStrip,
   Eyebrow,
+  WhatChangedBlock,
   artEraCrumbs,
   SANS,
   SERIF,
@@ -253,6 +256,7 @@ function EraDossierMap({ accent }: { accent: string }) {
 export function ArtEraPage({ eraId }: { eraId: string }) {
   const era = ART_ERA_CONTENT[eraId]
   const eraMeta = ART_ERAS.find(e => e.id === eraId)
+  const [lb, setLb] = useState<{ src: string; cap: string } | null>(null)
   // Single view (the Timeline/Dossier toggle was removed).
 
   // ── Unauthored era: graceful "coming soon" under the same chrome. ──
@@ -317,6 +321,10 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
             sub={`${era.sections.length} chapters · ${era.range}`}
           />
         )}
+        {/* why this is genuinely a new era — the before/after contrast */}
+        {era.whatChanged && (
+          <WhatChangedBlock wc={era.whatChanged} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
+        )}
         {/* signature visual — always visible */}
         <EraDossierMap accent={accent} />
         {/* secondary detail — collapsed by default */}
@@ -327,6 +335,7 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
         </ArtAccordion>
         <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
       </ArtPageShell>
+      {lb && <Lightbox src={lb.src} alt={lb.cap} caption={lb.cap} onClose={() => setLb(null)} />}
     </div>
   )
 }

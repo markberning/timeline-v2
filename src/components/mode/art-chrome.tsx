@@ -13,7 +13,7 @@ import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
-import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage } from '@/lib/art-content'
+import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage, type WhatChanged } from '@/lib/art-content'
 
 export const SANS = 'var(--font-geist-sans)'
 export const SERIF = 'var(--font-lora)'
@@ -386,6 +386,49 @@ export function SectionNav({ items, accent = ART_ACCENT }: { items: { id: string
 export function ArtPageShell({ children }: { children: React.ReactNode }) {
   const ref = useScrollMemory<HTMLDivElement>()
   return <div ref={ref} style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>{children}</div>
+}
+
+// "Why this is a break" — a side-by-side before→after contrast (a predecessor work vs.
+// a work of this era/movement), a "vs" pivot between them, captions, then the passage
+// naming what concretely changed. Both images tap-to-zoom. Shared by the era + movement
+// pages. (User directive 2026-05-25 — make the rupture explicit, in words AND pictures.)
+export function WhatChangedBlock({ wc, accent, onZoom }: { wc: WhatChanged; accent: string; onZoom: (src: string, cap: string) => void }) {
+  const matte = 'color-mix(in srgb, var(--foreground) 8%, var(--background))'
+  const Tile = ({ side, dim }: { side: WhatChanged['before']; dim: boolean }) => (
+    <button onClick={() => onZoom(side.img, side.title)} aria-label={`Zoom: ${side.title}`} style={{ display: 'block', width: '100%', padding: 0, margin: 0, border: `1px solid ${BORDER}`, borderRadius: 6, overflow: 'hidden', background: matte, cursor: 'zoom-in' }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={side.img} alt={side.title} loading="lazy" style={{ width: '100%', height: 132, objectFit: 'contain', display: 'block', filter: dim ? 'sepia(0.12) saturate(0.8) contrast(1.02)' : 'sepia(0.08) saturate(0.92) contrast(1.04)' }} />
+    </button>
+  )
+  const Caption = ({ side, dim }: { side: WhatChanged['before']; dim: boolean }) => (
+    <div>
+      <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 700, letterSpacing: 0.3, color: dim ? MUTED : INK, textTransform: 'uppercase' }}>{side.title}</div>
+      <div style={{ marginTop: 3, fontFamily: SERIF, fontSize: 11.5, lineHeight: 1.4, color: MUTED, textWrap: 'pretty' }}>{side.caption}</div>
+    </div>
+  )
+  return (
+    <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
+      <Eyebrow color={accent}>{wc.heading ?? 'Why this is a break'}</Eyebrow>
+      {/* images: before | vs | after */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 8, marginTop: 14 }}>
+        <Tile side={wc.before} dim />
+        <div style={{ width: 30, height: 30, borderRadius: 999, background: 'var(--background)', color: accent, border: `1px solid ${artAlpha(accent, 0.5)}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, fontWeight: 600 }}>vs</div>
+        <Tile side={wc.after} dim={false} />
+      </div>
+      {/* captions, aligned under each image (the centre "vs" column gets a spacer) */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: 8, marginTop: 8 }}>
+        <Caption side={wc.before} dim />
+        <div style={{ width: 30 }} />
+        <Caption side={wc.after} dim={false} />
+      </div>
+      {/* the passage — what concretely changed */}
+      <div style={{ marginTop: 16 }}>
+        {wc.prose.map((p, i) => (
+          <p key={i} style={{ margin: i === 0 ? 0 : '10px 0 0', fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
+        ))}
+      </div>
+    </div>
+  )
 }
 
 export type { Crumb, CrumbOption }
