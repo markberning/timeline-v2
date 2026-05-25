@@ -1,5 +1,9 @@
 # War content pipeline (battle & non-battle sections)
 
+> **App-wide rule (2026-05-25):** running this pipeline is MANDATORY for every war
+> section — no article ships author-and-hope, in any vertical. See the umbrella rule
+> in `CLAUDE.md` ("Authoring — the critic pipeline is MANDATORY in EVERY vertical").
+
 The repeatable process for producing a war section. **Proven end-to-end on
 Antietam (2026-05-22)** — author → fact-check + storytelling critic → revise.
 

@@ -16,6 +16,30 @@ A mobile-first reading app for long-form historical narratives. Each civilizatio
 - **Deploy**: Cloudflare Workers + Static Assets via `wrangler.jsonc`. `stuffhappened.com` is the v2 production domain; `v1.stuffhappened.com` is the legacy Vite explorer. Auto-deploy from GitHub on push to `main`. Manual fallback: `npx wrangler deploy`.
 - **Dev**: `npm run dev` → localhost:3000. Dev server keeps the dev-only api routes and dynamic review pages for local image curation.
 
+## Authoring — the critic pipeline is MANDATORY in EVERY vertical (locked 2026-05-25)
+**No article ships author-and-hope, in any vertical — civ, war, art, or music.**
+Every long-form narrative goes through its vertical's gated critic pipeline (build
+the fact pack → author → run the critic gates in parallel → reconcile + revise →
+verify images/sources + cross-level coherence → integrate) BEFORE it ships. This
+is a standing user directive, not a per-section choice: "make sure that from now on
+all articles app-wide go through the critical authoring pipeline." The verticals
+share one spine (storytelling first; accuracy / zero-hallucination a hard floor;
+born-verified media) with per-vertical re-points:
+- **civ** — the 5-persona audit, `.claude/skills/audit-narrative.md` (Persona-D
+  WEAK/REWRITE + Persona-E backward findings are ship-blocking; enforced at the
+  ship-check gate, step 14 below).
+- **war** — `audits/war-content-pipeline.md` (fact pack → author(Opus) →
+  fact-check + storytelling critic(Sonnet) → revise → integrate; 2 hard gates).
+- **art** — `audits/art-content-pipeline.md` (5 critic gates — fact / storytelling
+  +looking / comprehensiveness / clarity / framing — + image-rights + nesting).
+- **music** — `audits/music-content-pipeline.md` (the art/war analog; music content
+  not yet started, so the doc is ready before the first article, never after).
+**Recurring failure mode to refuse:** hand-authoring a section and shipping it,
+then gating later (the Kahnweiler work and the art "Lay of the land" prologue both
+hit this; the user caught both). A passing draft is not a gated draft. If you catch
+yourself writing narrative prose without a fact pack and the critic gates queued,
+stop and run the pipeline. See `memory/feedback_pipeline_mandatory_all_verticals`.
+
 ## Content Pipeline
 
 **The pipeline is gated, not advised.** Quality bars are enforced by scripts that
