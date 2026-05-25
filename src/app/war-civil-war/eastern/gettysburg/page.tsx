@@ -8,7 +8,7 @@
 // now). Palette = mockup (Civil War violet, Union blue, Confederate rust).
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, useWarView } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
@@ -365,9 +365,10 @@ export default function GettysburgPage() {
   const [view, setView] = useWarView()
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={CRUMBS} view={view} onView={setView} accent={ACCENT} />
+      <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
         <HeroImg />
+        <WarViewToggle view={view} onView={setView} />
         {view === 'dossier' ? (
           <>
             <AtAGlance />

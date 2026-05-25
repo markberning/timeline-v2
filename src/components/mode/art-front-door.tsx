@@ -40,19 +40,19 @@ type View = 'eras' | 'tree'
 function ViewToggle({ view, onView }: { view: View; onView: (v: View) => void }) {
   const chipActive = 'color-mix(in srgb, var(--foreground) 14%, var(--background))'
   return (
-    <div style={{ display: 'flex', flex: 1, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: 3, gap: 2, maxWidth: 480 }}>
+    <div style={{ display: 'flex', flex: 1, background: CHIP, border: `1px solid ${BORDER}`, borderRadius: 999, padding: 2, gap: 2, maxWidth: 240 }}>
       {(['eras', 'tree'] as View[]).map(v => {
         const active = v === view
         return (
           <button key={v} onClick={() => onView(v)} style={{
             flex: 1, appearance: 'none', border: 'none', borderRadius: 999, cursor: 'pointer',
             background: active ? chipActive : 'transparent', color: active ? 'var(--foreground)' : MUTED,
-            fontFamily: SANS, fontWeight: active ? 600 : 500, fontSize: 12.5, letterSpacing: 0.2, padding: '7px 0',
-            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, textTransform: 'capitalize',
+            fontFamily: SANS, fontWeight: active ? 600 : 500, fontSize: 11.5, letterSpacing: 0.2, padding: '4px 0',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5, textTransform: 'capitalize',
           }}>
             {v === 'eras'
-              ? <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="3.2" rx="1.2" fill="currentColor" /><rect x="4" y="10.4" width="16" height="3.2" rx="1.2" fill="currentColor" opacity="0.75" /><rect x="4" y="15.8" width="11" height="3.2" rx="1.2" fill="currentColor" opacity="0.5" /></svg>
-              : <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="5" r="2.4" fill="currentColor" /><circle cx="5" cy="19" r="2.4" fill="currentColor" /><circle cx="19" cy="19" r="2.4" fill="currentColor" /><path d="M12 7.4v4.6M12 12l-5.6 4.8M12 12l5.6 4.8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>}
+              ? <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="3.2" rx="1.2" fill="currentColor" /><rect x="4" y="10.4" width="16" height="3.2" rx="1.2" fill="currentColor" opacity="0.75" /><rect x="4" y="15.8" width="11" height="3.2" rx="1.2" fill="currentColor" opacity="0.5" /></svg>
+              : <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="5" r="2.4" fill="currentColor" /><circle cx="5" cy="19" r="2.4" fill="currentColor" /><circle cx="19" cy="19" r="2.4" fill="currentColor" /><path d="M12 7.4v4.6M12 12l-5.6 4.8M12 12l5.6 4.8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>}
             {v}
           </button>
         )
@@ -62,11 +62,12 @@ function ViewToggle({ view, onView }: { view: View; onView: (v: View) => void })
 }
 
 // ═════════════════════════════════════════════════════════════
-// A. Era Hub — browse by era
+// A. Era Hub — browse by era. The intro (hero + primary action + chips) is shown
+// above the Eras/Tree toggle; the era cards (ArtEraList) sit just below it.
 // ═════════════════════════════════════════════════════════════
-function ArtEraHub() {
+function ArtHubIntro() {
   return (
-    <div>
+    <>
       {/* Hero */}
       <div style={{ padding: '18px 18px 8px' }}>
         <div style={{ fontFamily: SANS, fontSize: 10, fontWeight: 600, letterSpacing: '0.15em', textTransform: 'uppercase', opacity: 0.4 }}>Art · Browse by era</div>
@@ -102,13 +103,15 @@ function ArtEraHub() {
           ))}
         </div>
       </div>
+    </>
+  )
+}
 
-      {/* Divider */}
-      <div style={{ margin: '14px 18px 6px', height: 1, background: BORDER }} />
-      <div style={{ padding: '8px 18px 10px', fontFamily: SANS, fontSize: 11, letterSpacing: 0.5, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>All eras</div>
-
+function ArtEraList() {
+  return (
+    <div>
       {/* Era cards */}
-      <div style={{ padding: '0 18px 24px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+      <div style={{ padding: '4px 18px 24px', display: 'flex', flexDirection: 'column', gap: 10 }}>
         {ART_ERAS.map((era, i) => (
           <Link key={era.id} href={`/art/${era.id}`} style={{
             display: 'flex', alignItems: 'stretch', gap: 12, padding: 10, borderRadius: 10,
@@ -231,12 +234,13 @@ export function ArtFrontDoor({ showToggle = true }: { showToggle?: boolean } = {
   const [view, setView] = useState<View>('eras')
   return (
     <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
-      {/* view toggle + (optional) dark toggle */}
-      <div style={{ padding: '12px 18px 4px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
+      <ArtHubIntro />
+      {/* Eras/Tree toggle — sits at the top of the era list (compact) */}
+      <div style={{ padding: '8px 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
         <ViewToggle view={view} onView={setView} />
         {showToggle && <DarkModeToggle />}
       </div>
-      {view === 'eras' ? <ArtEraHub /> : <ArtClimb />}
+      {view === 'eras' ? <ArtEraList /> : <ArtClimb />}
     </div>
   )
 }

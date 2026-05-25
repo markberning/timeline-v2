@@ -72,7 +72,7 @@ export function BattleSectionReader({
 
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb accent={accent} crumbs={crumbs} splitNav />
+      <WarBreadcrumb accent={accent} crumbs={crumbs} />
       {heroImage && (
         <>
           <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: heroPalette[2] }}>

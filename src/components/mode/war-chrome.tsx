@@ -1,13 +1,12 @@
 'use client'
 
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { ThreadBar } from '@/components/thread-bar'
 
-// Combined height of the two pinned top tiers (ThreadBar + breadcrumb row), each
-// 36px. Anything that sticks BELOW the breadcrumb (the view toggle, a reader's
-// own sub-header) pins at this offset.
-export const CHROME_TOP = 72
+// Combined height of the two pinned top tiers (ThreadBar 44 + breadcrumb row 50).
+// Anything that sticks BELOW the breadcrumb (the view toggle, a reader's own
+// sub-header) pins at this offset.
+export const CHROME_TOP = 94
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
 // a consistent breadcrumb + a Timeline/Dossier view toggle at the top of
@@ -79,16 +78,15 @@ export interface Crumb {
   icon?: string // small leading emblem (e.g. /thread-icons/{kind}.webp)
 }
 
-// Just the breadcrumb bar (sticky, top:0) — shared by WarChrome and by the
+// Just the breadcrumb bar (sticky, top:0) — shared by the war/art pages and the
 // narrative/reader pages that don't want the Timeline/Dossier toggle. Shows the
 // full trail; it never scrolls horizontally — link crumbs shrink with an
 // ellipsis if a screen is very narrow.
-// `splitNav` (on by default): an ancestor crumb that has BOTH an href and a
-// dropdown renders as a split pill — tap the label to navigate straight to that
-// page, tap the ▾ to open the jump dropdown. Only ancestors-with-an-href split;
-// the mode picker (no href) and the active leaf stay dropdown-only, so this
-// safely applies across War (ACW/theatre rungs) and Art (era/movement/work).
-export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, splitNav = true }: { crumbs: Crumb[]; accent?: string; splitNav?: boolean }) {
+// Crumbs render as plain text + a ▾ chevron (no pill chrome); tapping a crumb
+// opens its jump dropdown, and the menu items navigate. Earlier this was a split
+// pill (label navigates · chevron opens); flattened to text for a lighter bar.
+// applies across War (ACW/theatre rungs) and Art (era/movement/work).
+export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; accent?: string }) {
   const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
   const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
   const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
@@ -104,7 +102,7 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, splitNav = tr
       background: bar,
       backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
       borderBottom: border, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8,
-      height: 36, boxSizing: 'border-box',
+      height: 50, boxSizing: 'border-box',
     }}>
       <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflowX: 'auto', overflowY: 'hidden', whiteSpace: 'nowrap', scrollbarWidth: 'none' }}>
         {crumbs.map((c, i) => {
@@ -119,64 +117,54 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT, splitNav = tr
                 // when it's the current page's leaf (c.active), gray otherwise.
                 // only the crumb that IS the current page lights up — not the
                 // trailing generic picker just because it's last
-                ? <CrumbDropdown crumb={c} emphasized={!!c.active} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} split={splitNav && !!c.href && !c.active} />
+                ? <CrumbDropdown crumb={c} emphasized={!!c.active} chip={chip} faint={faint} muted={muted} accent={accent} maxLabel={last ? 124 : 164} />
                 : c.href && !last
-                  ? <a href={c.href} style={{ padding: '3px 9px', color: muted, fontFamily: SANS, fontSize: 11, fontWeight: 500, borderRadius: 999, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
-                  : <span style={{ padding: '3px 9px', fontFamily: SANS, fontSize: 11, color: last ? accent : muted, fontWeight: last ? 700 : 500, background: last ? alpha(accent, 0.14) : 'transparent', border: last ? `1px solid ${alpha(accent, 0.5)}` : undefined, borderRadius: 999, flex: '0 1 auto', ...ell }}>{text}</span>}
+                  ? <a href={c.href} style={{ padding: '2px 1px', color: muted, fontFamily: SANS, fontSize: 11.5, fontWeight: 500, textDecoration: 'none', flex: '0 1 auto', ...ell }}>{text}</a>
+                  : <span style={{ padding: '2px 1px', fontFamily: SANS, fontSize: 11.5, color: last ? accent : muted, fontWeight: last ? 700 : 500, flex: '0 1 auto', ...ell }}>{text}</span>}
             </Fragment>
           )
         })}
       </nav>
-      <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
     </div>
     </div>
   )
 }
 
-export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: { crumbs: Crumb[]; view: View; onView: (v: View) => void; accent?: string }) {
+// The Timeline/Dossier view toggle — now rendered by each page just BELOW its
+// hero image (no longer a sticky tier above it, and the old back button is gone;
+// the ThreadBar + breadcrumb handle navigation). Sticks under the breadcrumb on
+// scroll so it stays reachable.
+export function WarViewToggle({ view, onView }: { view: View; onView: (v: View) => void }) {
   const bar = 'color-mix(in srgb, var(--background) 92%, transparent)'
   const border = '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)'
   const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
   const chip = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
   const chipActive = 'color-mix(in srgb, var(--foreground) 14%, var(--background))'
-  const iconBtn: React.CSSProperties = {
-    width: 34, height: 34, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center',
-    border, background: chip, borderRadius: 999, color: 'var(--foreground)', cursor: 'pointer', padding: 0,
-  }
   return (
-    <>
-      <WarBreadcrumb crumbs={crumbs} accent={accent} />
-
-      {/* toggle bar — back + Timeline/Dossier segmented + spacer */}
-      <div style={{
-        position: 'sticky', top: CHROME_TOP, zIndex: 6, background: bar,
-        backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
-        borderBottom: border, padding: '10px 14px 12px', display: 'flex', alignItems: 'center', gap: 10,
-      }}>
-        <button aria-label="Back" onClick={() => history.back()} style={iconBtn}>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-        </button>
-        <div style={{ flex: 1, display: 'flex', background: chip, border, borderRadius: 999, padding: 3, gap: 2 }}>
-          {(['timeline', 'dossier'] as View[]).map(v => {
-            const active = v === view
-            return (
-              <button key={v} onClick={() => onView(v)} style={{
-                flex: 1, appearance: 'none', border: 'none', borderRadius: 999, cursor: 'pointer',
-                background: active ? chipActive : 'transparent', color: active ? 'var(--foreground)' : muted,
-                fontFamily: SANS, fontWeight: active ? 600 : 500, fontSize: 12.5, letterSpacing: 0.2, padding: '7px 0',
-                display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, textTransform: 'capitalize',
-              }}>
-                {v === 'timeline'
-                  ? <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.4" fill="currentColor" /><circle cx="6" cy="18" r="2.4" fill="currentColor" /><path d="M6 8.4v7.2" stroke="currentColor" strokeWidth="1.4" /><path d="M10 6h8M10 18h6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>
-                  : <svg width="12" height="12" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" strokeWidth="1.5" /><path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>}
-                {v}
-              </button>
-            )
-          })}
-        </div>
-        <div style={{ width: 34, height: 34, flexShrink: 0 }} />
+    <div style={{
+      position: 'sticky', top: CHROME_TOP, zIndex: 6, background: bar,
+      backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
+      borderBottom: border, padding: '7px 14px 8px',
+    }}>
+      <div style={{ display: 'flex', background: chip, border, borderRadius: 999, padding: 2, gap: 2, maxWidth: 240 }}>
+        {(['timeline', 'dossier'] as View[]).map(v => {
+          const active = v === view
+          return (
+            <button key={v} onClick={() => onView(v)} style={{
+              flex: 1, appearance: 'none', border: 'none', borderRadius: 999, cursor: 'pointer',
+              background: active ? chipActive : 'transparent', color: active ? 'var(--foreground)' : muted,
+              fontFamily: SANS, fontWeight: active ? 600 : 500, fontSize: 11.5, letterSpacing: 0.2, padding: '4px 0',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5, textTransform: 'capitalize',
+            }}>
+              {v === 'timeline'
+                ? <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.4" fill="currentColor" /><circle cx="6" cy="18" r="2.4" fill="currentColor" /><path d="M6 8.4v7.2" stroke="currentColor" strokeWidth="1.4" /><path d="M10 6h8M10 18h6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>
+                : <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" strokeWidth="1.5" /><path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" /></svg>}
+              {v}
+            </button>
+          )
+        })}
       </div>
-    </>
+    </div>
   )
 }
 
@@ -187,7 +175,7 @@ export function WarChrome({ crumbs, view, onView, accent = CIVIL_WAR_ACCENT }: {
 // scrolls (the jump list is long) and is clamped to the viewport so the
 // rightmost crumb's menu doesn't run off-screen.
 const MENU_W = 252
-function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168, split = false }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number; split?: boolean }) {
+function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number }) {
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
   const btnRef = useRef<HTMLButtonElement>(null)
@@ -222,53 +210,24 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
     document.addEventListener('pointerdown', onDown, true)
     return () => document.removeEventListener('pointerdown', onDown, true)
   }, [open])
-  // Shared pill chrome so the single-button and split variants look identical.
-  const pillColor = pill ?? (emphasized ? 'var(--foreground)' : muted)
-  const pillBg = pill ? alpha(pill, open ? 0.22 : 0.13) : (emphasized ? alpha(accent, open ? 0.22 : 0.14) : (open ? 'color-mix(in srgb, var(--foreground) 12%, transparent)' : chip))
-  const pillBorder = `1px solid ${pill ? alpha(pill, 0.5) : (emphasized ? alpha(accent, 0.5) : 'color-mix(in srgb, var(--foreground) 14%, transparent)')}`
-  const pillWeight = pill || emphasized ? 700 : 600
+  // Plain-text crumb: just the label + a ▾ chevron, no pill chrome. Colour: a
+  // fixed crumb colour if set, accent for the current page's leaf, else muted.
+  const color = pill ?? (emphasized ? accent : muted)
+  const weight = pill || emphasized ? 700 : 500
   const chevron = (
     <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
       <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
   return (
-    <span style={{ position: 'relative', flexShrink: 0 }}>
-      {split && crumb.href ? (
-        // Split pill: label navigates, the ▾ half opens the dropdown. One pill
-        // look (shared chrome); a faint divider separates the two tap zones.
-        <span style={{
-          display: 'inline-flex', alignItems: 'stretch', fontFamily: SANS, fontSize: 11, fontWeight: pillWeight,
-          color: pillColor, background: pillBg, borderRadius: crumb.accentBar ? 0 : 999, border: pillBorder,
-          borderLeft: crumb.accentBar ? `3px solid ${crumb.accentBar}` : pillBorder, overflow: 'hidden',
-          maxWidth: maxLabel, minWidth: 0,
-        }}>
-          <a href={crumb.href} style={{ display: 'inline-flex', alignItems: 'center', gap: crumb.icon ? 6 : 0, padding: crumb.accentBar ? '3px 7px 3px 8px' : '3px 7px 3px 10px', color: 'inherit', textDecoration: 'none', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            {crumb.icon && <img src={crumb.icon} alt="" style={{ width: 15, height: 15, objectFit: 'contain', flexShrink: 0 }} />}
-            <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
-          </a>
-          <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`Jump to another ${label}`} style={{
-            display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 24, flexShrink: 0,
-            background: open ? 'color-mix(in srgb, var(--foreground) 9%, transparent)' : 'transparent',
-            border: 'none', borderLeft: `1px solid ${pill ? alpha(pill, 0.4) : 'color-mix(in srgb, var(--foreground) 16%, transparent)'}`,
-            color: 'inherit', cursor: 'pointer', padding: 0,
-          }}>
-            {chevron}
-          </button>
-        </span>
-      ) : (
+    <span style={{ position: 'relative', flexShrink: 0, minWidth: 0 }}>
       <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
-        display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px',
-        fontFamily: SANS, fontSize: 11, fontWeight: pillWeight,
-        color: pillColor, background: pillBg,
-        borderRadius: 999, border: pillBorder, cursor: 'pointer',
-        maxWidth: maxLabel, minWidth: 0,
+        display: 'inline-flex', alignItems: 'center', gap: 3, padding: '2px 1px', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer',
+        fontFamily: SANS, fontSize: 11.5, fontWeight: weight, color, maxWidth: maxLabel, minWidth: 0,
       }}>
         <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
         {chevron}
       </button>
-      )}
       {open && (
         <>
           <div ref={menuRef} style={{

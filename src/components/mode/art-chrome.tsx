@@ -49,15 +49,33 @@ function workOptions(eraId: string, movementId: string): CrumbOption[] {
   if (!mv) return []
   return mv.works.map(w => ({ label: w.name, href: ART_WORK_CONTENT[w.id] ? `/art/${eraId}/${movementId}/${w.id}` : undefined, disabled: !ART_WORK_CONTENT[w.id] }))
 }
+// Every authored work in an era (across its movements) — for the era page's
+// "Works" picker crumb.
+function eraWorkOptions(eraId: string): CrumbOption[] {
+  return Object.values(ART_MOVEMENT_CONTENT)
+    .filter(m => m.eraId === eraId)
+    .flatMap(m => m.works.filter(w => ART_WORK_CONTENT[w.id]).map(w => ({ label: w.name, href: `/art/${eraId}/${m.id}/${w.id}` })))
+}
 
+// The art trail always shows the deeper levels as picker crumbs (so an era page
+// reads Era › Movements › Works and you can drill straight from the breadcrumb),
+// skipping a level only when it has no authored content yet.
 export function artEraCrumbs(eraId: string, eraName: string): Crumb[] {
-  return [{ label: eraName, options: eraOptions(), active: true, currentLabel: eraName }]
+  const movements = movementOptions(eraId)
+  const works = eraWorkOptions(eraId)
+  const crumbs: Crumb[] = [{ label: eraName, options: eraOptions(), active: true, currentLabel: eraName }]
+  if (movements.length) crumbs.push({ label: 'Movements', options: movements })
+  if (works.length) crumbs.push({ label: 'Works', options: works })
+  return crumbs
 }
 export function artMovementCrumbs(eraId: string, eraName: string, movementId: string, movementName: string): Crumb[] {
-  return [
+  const works = workOptions(eraId, movementId).filter(o => o.href)
+  const crumbs: Crumb[] = [
     { label: eraName, href: `/art/${eraId}`, options: eraOptions(), currentLabel: eraName },
     { label: movementName, options: movementOptions(eraId), active: true, currentLabel: movementName },
   ]
+  if (works.length) crumbs.push({ label: 'Works', options: works })
+  return crumbs
 }
 export function artWorkCrumbs(eraId: string, eraName: string, movementId: string, movementName: string, workId: string, workName: string, workShort?: string): Crumb[] {
   return [

@@ -8,8 +8,7 @@
 // literally — fit to the app's own data + style).
 
 import { useState } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
-import { ThreadBar } from '@/components/thread-bar'
+import { SectionHomeBar } from '@/components/section-home-bar'
 import { SORTED_CIVS, CHAINS_BY_REGION, CIV_CHAIN_MAP, formatYear, formatYearRange } from '@/lib/chronology-data'
 import { NAVIGATOR_TLS, REGION_LABELS, REGION_COLORS, type NavigatorRegion } from '@/lib/navigator-tls'
 import { ERA_BANDS, eraOfYear } from '@/lib/civ-eras'
@@ -17,7 +16,6 @@ import { getCivEmblemPath } from '@/lib/civ-icons'
 import { ICON_LABELS } from '@/lib/civ-icon-labels'
 import { CIV_BLURBS } from '@/lib/civ-blurbs'
 import { CHAIN_BLURBS } from '@/lib/chain-blurbs'
-import { SearchOverlay } from '@/components/chronology/search-overlay'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -28,7 +26,6 @@ const FAINT = 'color-mix(in srgb, var(--foreground) 38%, transparent)'
 const BORDER = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
 const BORDER_STRONG = 'color-mix(in srgb, var(--foreground) 20%, transparent)'
 const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
-const BAR_BG = 'color-mix(in srgb, var(--background) 92%, transparent)'
 
 function alpha(hex: string, a: number): string {
   const h = hex.replace('#', '')
@@ -270,7 +267,6 @@ export function CivHome() {
   // Colour the lit filter chrome to the chain when the filter came from a chain
   // badge; null (→ stone) for a plain typed filter.
   const [filterColor, setFilterColor] = useState<string | null>(null)
-  const [searchOpen, setSearchOpen] = useState(false) // full-text chapter search
   const q = query.trim().toLowerCase()
   const litColor = filterColor ?? STONE
 
@@ -284,34 +280,28 @@ export function CivHome() {
     <div style={{ minHeight: '100dvh', display: 'flex', justifyContent: 'center', background: 'var(--background)', backgroundImage: `radial-gradient(120% 60% at 50% 0%, color-mix(in srgb, var(--foreground) 5%, transparent), transparent 60%)` }}>
       {/* phone-width column */}
       <div style={{ width: '100%', maxWidth: 440, minHeight: '100dvh', background: 'var(--background)', borderLeft: `1px solid ${BORDER}`, borderRight: `1px solid ${BORDER}`, display: 'flex', flexDirection: 'column', boxShadow: '0 0 40px rgba(0,0,0,0.04)' }}>
-        {/* single sticky header: [ Civ ▾ | Timeline | Chains | Globe ] + filter */}
-        <div style={{ position: 'sticky', top: 0, zIndex: 8, background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)', borderBottom: `1px solid ${BORDER}` }}>
-          {/* tier 1: the persistent thread switcher */}
-          <ThreadBar />
-          {/* tier 2: view pills within the Civ thread (Timeline / Chains / Globe) */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '7px 10px 9px 12px' }}>
-            {(['timeline', 'chains'] as View[]).map(v => {
-              const active = v === view
-              return <button key={v} onClick={() => setView(v)} style={viewPill(active)}>{v[0].toUpperCase() + v.slice(1)}</button>
-            })}
-            <a href="/globe" style={{ ...viewPill(false), textDecoration: 'none' }}>Globe</a>
-            <div style={{ flex: 1 }} />
-            <button onClick={() => setSearchOpen(true)} aria-label="Search all chapters" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', color: MUTED, padding: 4, display: 'flex' }}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
-            </button>
-            <DarkModeToggle />
-          </div>
-        </div>
+        {/* shared section-home bar (just the top thread bar — the home's own
+            Timeline/Chains/Globe + filter handle browsing, so no pill row here) */}
+        <SectionHomeBar />
 
         {/* app title + what-this-is — sits where the filter row used to live and
             scrolls away; the functional bar above stays put. The struck-scope
             kicker now lives here, readable and on its own line. */}
         <div style={{ padding: '14px 16px 16px' }}>
           <div style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, marginBottom: 7 }}>
-            <s style={{ textDecorationThickness: '1.5px' }}>Complete</s> Partial History of People Living Together
+            The <s style={{ textDecorationThickness: '1.5px' }}>Complete</s> Partial History of People Living Together
           </div>
           <h1 style={{ fontFamily: SERIF, fontSize: 27, fontWeight: 600, color: INK, lineHeight: 1.02, margin: 0, letterSpacing: -0.2 }}>Civilizations</h1>
           <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, margin: '7px 0 0' }}>Every civilization that ever rose, peaked, and fell apart, told as one readable story — and we explain everything, including the parts your textbook assumed you already knew.</p>
+        </div>
+
+        {/* view pills (Timeline / Chains / Globe) — just above the filter */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, padding: '0 16px 10px' }}>
+          {(['timeline', 'chains'] as View[]).map(v => {
+            const active = v === view
+            return <button key={v} onClick={() => setView(v)} style={viewPill(active)}>{v[0].toUpperCase() + v.slice(1)}</button>
+          })}
+          <a href="/globe" style={{ ...viewPill(false), textDecoration: 'none' }}>Globe</a>
         </div>
 
         {/* filter · count — non-sticky, sits just above the list */}
@@ -339,7 +329,6 @@ export function CivHome() {
             : <ChainsView query={q} />}
         </div>
       </div>
-      {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
     </div>
   )
 }

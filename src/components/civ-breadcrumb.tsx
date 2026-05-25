@@ -15,12 +15,12 @@
 // actually reading, so the bar stays honest about "where am I" while browsing.
 
 import { useState, useRef, useLayoutEffect, useEffect } from 'react'
-import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import {
   NAVIGATOR_TLS, TL_KIND_ORDER, TL_KIND_LIVE,
   REGION_ORDER, REGION_LABELS, REGION_COLORS, type NavigatorRegion, type TlKind,
 } from '@/lib/navigator-tls'
-import { CIV_CHAIN_MAP, CHAINS_BY_REGION } from '@/lib/chronology-data'
+import { CIV_CHAIN_MAP, CHAINS_BY_REGION, SORTED_CIVS } from '@/lib/chronology-data'
+import type { SectionGroup } from '@/components/section-home-bar'
 import type { TlChain } from '../../reference-data/tl-chains'
 
 const SANS = 'var(--font-geist-sans)'
@@ -191,6 +191,35 @@ export function ModePill({ accent }: { accent: string }) {
   )
 }
 
+// The civ section's top-level browse is by REGION (the civ analogue of "all
+// wars" / "all art eras"): the pill lists the regions, each jumping to that
+// region's first civ. `currentRegion` marks the region you're in with a ✓.
+export function civSectionGroups(currentRegion?: NavigatorRegion): SectionGroup[] {
+  return [{
+    items: REGION_ORDER.map(r => {
+      const target = firstCivOfRegion(r)
+      return { label: REGION_LABELS[r], href: target ? `/civ/${target}` : undefined, dotColor: REGION_COLORS[r], current: r === currentRegion }
+    }),
+  }]
+}
+
+// The civ home's "All chains" picker — every chain, grouped by region, each
+// jumping to the chain's first built civ.
+export function chainSectionGroups(): SectionGroup[] {
+  return CHAINS_BY_REGION.map(g => ({
+    heading: REGION_LABELS[g.region],
+    items: g.chains.map(c => ({ label: c.shortLabel ?? c.label, href: firstCivOfChain(c) ? `/civ/${firstCivOfChain(c)}` : undefined, dotColor: REGION_COLORS[g.region] })).filter(it => it.href),
+  })).filter(g => g.items.length)
+}
+
+// The civ home's "All civs" picker — every built civ, grouped by region.
+export function civListGroups(): SectionGroup[] {
+  return REGION_ORDER.map(r => ({
+    heading: REGION_LABELS[r],
+    items: SORTED_CIVS.filter(c => c.region === r && c.hasContent).map(c => ({ label: c.label, href: `/civ/${c.id}`, dotColor: REGION_COLORS[r] })),
+  })).filter(g => g.items.length)
+}
+
 export interface CivBreadcrumbProps {
   civId: string
   civLabel: string
@@ -206,11 +235,11 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
   // civ navigates (region → that region's first built civ, chain → its first
   // built civ, civ → itself), and the new page re-renders this bar fresh — so
   // there's no browse state to keep.
+  // Standalone civs fall back to the region's synthetic "Standalone" chain, which
+  // IS one of the region's chains (CHAINS_BY_REGION includes it) — so the chain
+  // pill always renders and its dropdown always lists the real chains too, never
+  // trapping you among only the standalone civs.
   const chain = CIV_CHAIN_MAP.get(civId)?.chain ?? findChain(`__standalone__${region}`)
-  // Standalone civs have no real family — drop the chain zone for them, so the
-  // pill reads "Near East ▾ | Phoenicia ▾". (Zone 3 still lists the region's
-  // standalone civs via the synthetic chain.)
-  const isStandalone = !CIV_CHAIN_MAP.has(civId)
 
   const reg = useMenu()
   const chn = useMenu()
@@ -230,116 +259,105 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
 
   const sep = <span aria-hidden style={{ color: FAINT, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>
 
-  // segment button inside the connected location pill — all three zones are
-  // identical: a (truncating) label + a chevron. The label flexes/ellipsizes so
-  // the whole bar shrinks to fit rather than forcing a horizontal scroll.
-  const segStyle = (open: boolean): React.CSSProperties => ({
-    display: 'flex', alignItems: 'center', gap: 3, padding: '3px 7px', width: '100%', minWidth: 0,
-    appearance: 'none', border: 'none', background: open ? OPEN_BG : 'transparent', color: 'inherit', cursor: 'pointer',
-    fontFamily: SANS, fontSize: 11, fontWeight: 600,
-  })
   const segLabel: React.CSSProperties = { flex: '0 1 auto', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }
-  // Per-zone flex: region/chain give up width first; the civ you're reading
-  // keeps its width longest. minWidth:0 lets each ellipsize instead of pushing.
-  const zoneWrap = (shrink: number, maxWidth: number): React.CSSProperties => ({ position: 'relative', display: 'flex', minWidth: 0, flex: `0 ${shrink} auto`, maxWidth })
-  const div = <span aria-hidden style={{ width: 1, alignSelf: 'stretch', background: DIVIDER, flexShrink: 0 }} />
+  // plain-text crumb: label + ▾ chevron, no chip; tapping the crumb opens its
+  // switch menu (matching the war/art breadcrumbs).
+  const crumbBtn = (color: string, weight: number): React.CSSProperties => ({
+    display: 'inline-flex', alignItems: 'center', gap: 3, padding: '2px 1px', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer',
+    fontFamily: SANS, fontSize: 11.5, fontWeight: weight, color, minWidth: 0,
+  })
 
   return (
     <div style={{
       background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
-      borderBottom: BORDER, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8, minHeight: 34, boxSizing: 'border-box',
+      borderBottom: BORDER, padding: '5px 8px 5px 12px', display: 'flex', alignItems: 'center', gap: 8, minHeight: 50, boxSizing: 'border-box',
     }}>
       <nav style={{ flex: 1, minWidth: 0, display: 'flex', alignItems: 'center', gap: 4, overflow: 'hidden', whiteSpace: 'nowrap' }}>
-        {/* the thread switcher now lives in the ThreadBar tier above; this bar is
-            purely "where am I within Civ": region | chain | civ  ›  chapter */}
-        {/* ── combined location pill: region | chain | civ ── */}
-        <span style={{
-          display: 'inline-flex', alignItems: 'stretch', borderRadius: 999, border: `1px solid ${PILL_BORDER}`, overflow: 'hidden',
-          background: CHIP, color: MUTED, flex: '0 1 auto', maxWidth: '100%', minWidth: 0,
-        }}>
-          {/* zone 1 — region */}
-          <span style={zoneWrap(3, 96)}>
-            <button ref={reg.btnRef} onClick={() => reg.setOpen(o => !o)} aria-expanded={reg.open} style={segStyle(reg.open)}>
-              <span style={segLabel}>{REGION_LABELS[region]}</span><Chevron open={reg.open} />
-            </button>
-            <MenuPanel m={reg}>
-              {REGION_ORDER.map(r => {
-                const current = r === region
-                const label = <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><Dot color={REGION_COLORS[r]} /><span style={segLabel}>{REGION_LABELS[r]}</span></span>
-                if (current) return (
-                  <div key={r} style={{ ...rowBase, cursor: 'default', fontWeight: 700, background: CHIP }}>{label}<Check accent={accent} /></div>
-                )
-                const target = firstCivOfRegion(r)
-                return (
-                  <a key={r} href={target ? `/civ/${target}` : undefined} onClick={() => reg.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
-                )
-              })}
-            </MenuPanel>
-          </span>
-
-          {div}
-
-          {/* zone 2 — chain (omitted for standalone civs, which have no family) */}
-          {!isStandalone && (<>
-          <span style={zoneWrap(2, 110)}>
-            <button ref={chn.btnRef} onClick={() => chn.setOpen(o => !o)} aria-expanded={chn.open} style={segStyle(chn.open)}>
-              <span style={segLabel}>{chain?.shortLabel ?? '—'}</span><Chevron open={chn.open} />
-            </button>
-            <MenuPanel m={chn}>
-              {regionChains.map(c => {
-                const current = c.id === chain?.id
-                const label = <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={segLabel}>{c.label}</span></span>
-                if (current) return (
-                  <div key={c.id} title={c.label} style={{ ...rowBase, cursor: 'default', fontWeight: 700, background: CHIP }}>{label}<Check accent={accent} /></div>
-                )
-                const target = firstCivOfChain(c)
-                if (!target) return (
-                  <div key={c.id} title={c.label} style={{ ...rowBase, cursor: 'default', color: FAINT }}>{label}<Soon /></div>
-                )
-                return (
-                  <a key={c.id} href={`/civ/${target}`} onClick={() => chn.setOpen(false)} title={c.label} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
-                )
-              })}
-            </MenuPanel>
-          </span>
-
-          {div}
-          </>)}
-
-          {/* zone 3 — the civ list for the selected chain (tapping navigates) */}
-          <span style={zoneWrap(1, 200)}>
-            <button ref={civ.btnRef} onClick={() => civ.setOpen(o => !o)} aria-expanded={civ.open} aria-label="Jump to a civilization" style={segStyle(civ.open)}>
-              <span style={segLabel}>{civLabel}</span><Chevron open={civ.open} />
-            </button>
-            <MenuPanel m={civ}>
-              {chainCivs.length ? chainCivs.map(tl => {
-                const current = tl.id === civId
-                const label = <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><Dot color={REGION_COLORS[tl.region]} /><span style={segLabel}>{tl.label}</span></span>
-                if (current) return (
-                  <div key={tl.id} style={{ ...rowBase, cursor: 'default', fontWeight: 700, background: CHIP }}>{label}<Check accent={accent} /></div>
-                )
-                if (!tl.hasContent) return (
-                  <div key={tl.id} style={{ ...rowBase, cursor: 'default', color: FAINT }}>{label}<Soon /></div>
-                )
-                return (
-                  <a key={tl.id} href={`/civ/${tl.id}`} onClick={() => civ.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
-                )
-              }) : <div style={{ ...rowBase, cursor: 'default', color: FAINT }}>No civilizations</div>}
-            </MenuPanel>
-          </span>
+        {/* the thread switcher lives in the ThreadBar tier above; this bar is the
+            "where am I within Civ" trail of specific items: region › chain › civ ›
+            chapter (the "All regions" root lives on the /civ home, not here) */}
+        {/* region crumb — the top specific item, like war's ACW / art's era */}
+        <span style={{ position: 'relative', display: 'inline-flex', flex: '0 3 auto', minWidth: 0, maxWidth: 112 }}>
+          <button ref={reg.btnRef} onClick={() => reg.setOpen(o => !o)} aria-expanded={reg.open} aria-label="Switch region" style={crumbBtn(MUTED, 600)}>
+            <span style={segLabel}>{REGION_LABELS[region]}</span><Chevron open={reg.open} />
+          </button>
+          <MenuPanel m={reg}>
+            {REGION_ORDER.map(r => {
+              const current = r === region
+              const label = <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><Dot color={REGION_COLORS[r]} /><span style={segLabel}>{REGION_LABELS[r]}</span></span>
+              if (current) return (
+                <div key={r} style={{ ...rowBase, cursor: 'default', fontWeight: 700, background: CHIP }}>{label}<Check accent={accent} /></div>
+              )
+              const target = firstCivOfRegion(r)
+              return (
+                <a key={r} href={target ? `/civ/${target}` : undefined} onClick={() => reg.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
+              )
+            })}
+          </MenuPanel>
         </span>
 
-        {!hideChapters && (<>
         {sep}
 
-        {/* ── chapters — jumps to a chapter within this single page ── */}
+        {/* chain pill — separate split pill (label → the chain, ▾ → switch chain).
+            Always shown: standalone civs get a "Standalone" chain whose dropdown
+            still lists the region's real chains, so you can always navigate out. */}
+        <span style={{ position: 'relative', display: 'inline-flex', flex: '0 2 auto', minWidth: 0, maxWidth: 130 }}>
+          <button ref={chn.btnRef} onClick={() => chn.setOpen(o => !o)} aria-expanded={chn.open} aria-label="Switch chain" style={crumbBtn(MUTED, 600)}>
+            <span style={segLabel}>{chain?.shortLabel ?? '—'}</span><Chevron open={chn.open} />
+          </button>
+          <MenuPanel m={chn}>
+            {regionChains.map(c => {
+              const current = c.id === chain?.id
+              const label = <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><span style={segLabel}>{c.label}</span></span>
+              if (current) return (
+                <div key={c.id} title={c.label} style={{ ...rowBase, cursor: 'default', fontWeight: 700, background: CHIP }}>{label}<Check accent={accent} /></div>
+              )
+              const target = firstCivOfChain(c)
+              if (!target) return (
+                <div key={c.id} title={c.label} style={{ ...rowBase, cursor: 'default', color: FAINT }}>{label}<Soon /></div>
+              )
+              return (
+                <a key={c.id} href={`/civ/${target}`} onClick={() => chn.setOpen(false)} title={c.label} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
+              )
+            })}
+          </MenuPanel>
+        </span>
+
+        {sep}
+
+        {/* civ crumb — plain text + ▾ (tap to switch civ) */}
+        <span style={{ position: 'relative', display: 'inline-flex', flex: '0 1 auto', minWidth: 0, maxWidth: 200 }}>
+          <button ref={civ.btnRef} onClick={() => civ.setOpen(o => !o)} aria-expanded={civ.open} aria-label="Switch civilization" style={crumbBtn(MUTED, 600)}>
+            <span style={segLabel}>{civLabel}</span><Chevron open={civ.open} />
+          </button>
+          <MenuPanel m={civ}>
+            {chainCivs.length ? chainCivs.map(tl => {
+              const current = tl.id === civId
+              const label = <span style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0 }}><Dot color={REGION_COLORS[tl.region]} /><span style={segLabel}>{tl.label}</span></span>
+              if (current) return (
+                <div key={tl.id} style={{ ...rowBase, cursor: 'default', fontWeight: 700, background: CHIP }}>{label}<Check accent={accent} /></div>
+              )
+              if (!tl.hasContent) return (
+                <div key={tl.id} style={{ ...rowBase, cursor: 'default', color: FAINT }}>{label}<Soon /></div>
+              )
+              return (
+                <a key={tl.id} href={`/civ/${tl.id}`} onClick={() => civ.setOpen(false)} style={{ ...rowBase, fontWeight: 500, textDecoration: 'none' }}>{label}</a>
+              )
+            }) : <div style={{ ...rowBase, cursor: 'default', color: FAINT }}>No civilizations</div>}
+          </MenuPanel>
+        </span>
+
+        {/* the chapter pill only appears once a chapter is actually open (null on
+            the summary view) — no point showing it before you've entered one */}
+        {!hideChapters && curChapter != null && (<>
+        {sep}
+
+        {/* ── chapters — jumps to a chapter within this single page (accent text) ── */}
         <span style={{ position: 'relative', flexShrink: 0 }}>
           <button ref={leaf.btnRef} onClick={() => leaf.setOpen(o => !o)} aria-expanded={leaf.open} style={{
-            display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px 3px 9px', fontFamily: SANS, fontSize: 11, fontWeight: 700,
-            color: 'var(--foreground)', background: alpha(accent, leaf.open ? 0.22 : 0.14), borderRadius: 999, border: `1px solid ${alpha(accent, 0.5)}`, cursor: 'pointer',
-            maxWidth: 150, minWidth: 0,
+            ...crumbBtn(accent, 700), maxWidth: 150,
           }}>
-            <span style={segLabel}>Chp {curChapter ?? 1}</span><Chevron open={leaf.open} />
+            <span style={segLabel}>Chp {curChapter}</span><Chevron open={leaf.open} />
           </button>
           <MenuPanel m={leaf}>
             {chapters.map(c => {
@@ -356,8 +374,6 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
         </span>
         </>)}
       </nav>
-
-      <div style={{ flexShrink: 0, display: 'flex' }}><DarkModeToggle /></div>
     </div>
   )
 }

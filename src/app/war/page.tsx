@@ -1,17 +1,17 @@
 'use client'
 
-import { WarBreadcrumb, WAR_ACCENT } from '@/components/mode/war-chrome'
-import { warHomeCrumbs } from '@/components/mode/theatre-page'
+// The War vertical's front door (the all-wars escalating spine). It wears the
+// shared section-home bar (just the top thread bar — the front door's own spine +
+// theatre map handle browsing, so no breadcrumb pill row here). Search + dark
+// live in the ThreadBar; the WarFrontDoor's own dark-toggle is suppressed.
+
+import { SectionHomeBar } from '@/components/section-home-bar'
 import { WarFrontDoor } from '@/components/mode/war-front-door'
 
-// The War vertical's front door (the all-wars escalating spine). The thread
-// switch lives in the ThreadBar tier above (baked into WarBreadcrumb); this
-// trail is just the where-am-I rung (All Wars). The WarFrontDoor's own
-// dark-toggle is suppressed because the breadcrumb already carries one.
 export default function WarHome() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarBreadcrumb crumbs={warHomeCrumbs()} accent={WAR_ACCENT} />
+      <SectionHomeBar />
       <WarFrontDoor showToggle={false} />
     </div>
   )

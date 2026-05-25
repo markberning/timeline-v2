@@ -12,7 +12,7 @@
 // audits/war-pilot-civil-war.md.
 
 import { useState } from 'react'
-import { WarChrome, SANS, SERIF, ACCENTS, WAR_ACCENT, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
+import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, WAR_ACCENT, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
 import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
@@ -108,6 +108,8 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     // at the war level. ACW + Theatre carry an `href` (their own home page) so
     // that with splitNav an ancestor pill can navigate directly; as the active
     // leaf the href is ignored (split is suppressed for the current page).
+    // The trail starts at the specific war (ACW), matching civ (region first) and
+    // art (era first); the "All wars" root lives on the /war home, not here.
     // On the ACW home this is a split/dual pill too (label → ACW home, ▾ → switch
     // war), lit via its accent colour — NOT flagged `active`, which would collapse
     // it to a plain dropdown and drop the dual-action affordance.
@@ -319,9 +321,10 @@ export function TheatrePage({ data, map }: { data: TheatreData; map: React.React
   const spine = theatreSpine(data.id)
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
-      <WarChrome crumbs={civilWarCrumbs({ theatre: data.id })} view={view} onView={setView} accent={data.accent} />
+      <WarBreadcrumb crumbs={civilWarCrumbs({ theatre: data.id })} accent={data.accent} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
         <GenericHero d={data} />
+        <WarViewToggle view={view} onView={setView} />
         {view === 'dossier' ? (
           <>
             <AtAGlance d={data} />

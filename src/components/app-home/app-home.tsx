@@ -8,6 +8,7 @@
 
 import { useState, useEffect } from 'react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { SearchOverlay } from '@/components/chronology/search-overlay'
 import { TL_KIND_LABELS, type TlKind } from '@/lib/navigator-tls'
 import { sampleFeed, type FeedItem } from '@/lib/app-feed'
 
@@ -116,6 +117,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
   // `chapters` come prebuilt from the server (their data is fs-only).
   const [feed, setFeed] = useState<FeedItem[]>([])
   useEffect(() => { setFeed(sampleFeed(18, chapters)) }, [chapters])
+  const [searchOpen, setSearchOpen] = useState(false)
 
   // 1 / 2 / 3-column layout, remembered across visits
   const [cols, setCols] = useState(3)
@@ -131,7 +133,12 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
             <h1 style={{ fontFamily: SERIF, fontSize: 30, fontWeight: 600, color: INK, lineHeight: 1.0, margin: 0, letterSpacing: -0.3 }}>Stuff Happened</h1>
             <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 14, color: MUTED, marginTop: 6 }}>The story of everything, in four threads.</div>
           </div>
-          <DarkModeToggle />
+          <div style={{ flexShrink: 0, display: 'flex', alignItems: 'center', gap: 4 }}>
+            <button onClick={() => setSearchOpen(true)} aria-label="Search" style={{ appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer', color: MUTED, padding: 4, display: 'flex' }}>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+            </button>
+            <DarkModeToggle />
+          </div>
         </div>
 
         {/* four threads */}
@@ -186,6 +193,7 @@ export function AppHome({ chapters = [] }: { chapters?: FeedItem[] }) {
           </div>
         )}
       </div>
+      {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
     </div>
   )
 }
