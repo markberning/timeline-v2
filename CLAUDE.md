@@ -81,8 +81,12 @@ src/
     dark-mode-toggle.tsx        — sun/moon toggle, persisted to localStorage
     offline-registrar.tsx       — service worker registration
     globe2.tsx                  — D3 orthographic SVG globe
-    chronology/                 — home page: header, search overlay, ribbon, civ list, chain grid
+    thread-bar.tsx              — app-wide top nav (Home·Civ·War·Art·Music + search + dark); grayscale except the active section + centred underline (see BEHAVIORS.md "Top navigation")
+    section-home-bar.tsx        — section-home chrome (sticky ThreadBar) + shared SectionPill (plain-text breadcrumb pill)
+    civ-breadcrumb.tsx          — civ reader breadcrumb: Region › Chain › Civ › Chp (plain text + ▾)
+    chronology/                 — civ home (/civ): header, search overlay, ribbon, civ list, chain grid
     tl-navigator/               — navigator: flow renderer, zone toggles, offline library sheet
+    mode/                       — war + art verticals: war-chrome (WarBreadcrumb + WarViewToggle), art-chrome, theatre/battle/art readers, front doors
   lib/
     data.ts                     — reads content JSON at build time
     types.ts                    — NarrativeChapter, TlEvent, TimelineNarrative, etc.

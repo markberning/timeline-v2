@@ -57,11 +57,22 @@ Source of truth for how the reader app should behave. Update this when we change
 - On return with saved progress: accent-colored "Continue Reading" banner (chapter name + percentage). Entire banner clickable; × dismisses. Banner reappears only if progress is newer than dismissal. 90-day expiry.
 
 ## Navigation
-- Home page (`/`): Chronology page ("The Civ Lib"). Old TL Navigator at `/navigator`.
+- App root (`/`): the four-thread launcher (Civilizations / Wars / Art / Music) + discovery feed. The civ chronology home ("The Civ Lib") is at `/civ`; old TL Navigator at `/navigator`; legacy ModeShell home at `/classic`.
 - Chapter page: single-page accordion, no per-chapter routes.
 - **Swipe right on summary page** (dx > 80px, no chapter expanded) navigates home.
 - **Last-viewed civ**: saved to `localStorage['last-viewed-civ']`, used by home page for initial highlight.
 - **Whole-row tap**: tapping any `hasContent` row on home navigates to that civ.
+
+## Top navigation — ThreadBar + breadcrumbs (app-wide, redesigned 2026-05-24)
+- **ThreadBar** (tier 1, `thread-bar.tsx`) — a persistent top row on every section/reader page (NOT on `/`, which is the launcher): a Home icon, then Civ · War · Art · Music, then search + dark-mode. Everything is grayscale **except the current section**, which shows its accent colour (tinted icon + coloured label) with a short **centred underline** — no filled background. Active section is derived from the path. Search is owned here (works on every page; overlay portalled to `<body>` to escape the bar's backdrop-filter); the app root carries the same search in its own header.
+- **Section homes** (`/civ`, `/war`, `/art`, via `section-home-bar.tsx`) — just the ThreadBar; no breadcrumb pill row (the page's own browsing — Timeline/Chains/Globe + filter, the war spine, the art era hub/tree — covers it).
+- **Deep-page breadcrumb** (tier 2) — **plain text + ▾ chevrons** (no pill chips), separated by `›`, uniform across civ/war/art, starting at the specific item (no "All X" root):
+  - Civ reader (`civ-breadcrumb.tsx`): `Region › Chain › Civ › Chp`. The Chp crumb appears only once a chapter is open; standalone civs always show a "Standalone" chain crumb (whose menu still lists the region's real chains) so you're never trapped.
+  - War deep (`mode/war-chrome.tsx` `WarBreadcrumb`): `ACW › Theatre › Battle` (+ `Chp` on a battle/theme section page).
+  - Art (`mode/art-chrome.tsx`): `Era › Movements › Works` — the deeper levels render as picker crumbs scoped to the era/movement so you can drill from the bar (skipped when a level has no authored content).
+  - Each crumb is muted text; the current/leaf one is accent. Tapping a crumb opens its switch menu (the menu items navigate).
+- **View toggles** — Timeline/Dossier (war) and Eras/Tree (art) are compact segmented controls rendered **just below the hero** (sticky under the breadcrumb on scroll), `WarViewToggle`; Art's Eras/Tree sits at the top of the era list. The old back-arrow button is gone (ThreadBar + breadcrumb + browser back cover it).
+- **Readers never truncate section titles** — the war sub-header and the war/art prev/next links wrap instead of clipping with an ellipsis.
 
 ## TL Navigator (`/navigator`)
 Custom-touch scrolling flow layout of all 95 navigator civilizations with diagonal gap-driven positioning.
