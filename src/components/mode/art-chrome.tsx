@@ -367,11 +367,13 @@ export function SectionNav({ items, accent = ART_ACCENT }: { items: { id: string
     setTimeout(() => { lockRef.current = false }, 850)
   }
   return (
-    <div ref={navRef} style={{ position: 'sticky', top: 0, zIndex: 6, display: 'flex', gap: 6, overflowX: 'auto', scrollbarWidth: 'none', padding: '8px 12px', background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderBottom: `1px solid ${BORDER}` }}>
+    <div ref={navRef} style={{ position: 'sticky', top: 0, zIndex: 6, display: 'flex', justifyContent: 'center', gap: 4, overflowX: 'hidden', scrollbarWidth: 'none', padding: '8px 8px', background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderBottom: `1px solid ${BORDER}` }}>
       {items.map(it => {
         const on = active === it.id
+        // Compact, content-sized chips (tight font/padding) so the whole row fits one
+        // screen with NO horizontal scroll — keep labels short (≤8 chars) to stay safe.
         return (
-          <button key={it.id} onClick={() => jump(it)} style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 600, letterSpacing: 0.3, padding: '5px 11px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? artAlpha(accent, 0.5) : BORDER}`, background: on ? artAlpha(accent, 0.14) : 'transparent', color: on ? INK : MUTED }}>{it.label}</button>
+          <button key={it.id} onClick={() => jump(it)} style={{ flexShrink: 0, fontFamily: SANS, fontSize: 10.5, fontWeight: 600, letterSpacing: 0.2, padding: '4px 7px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? artAlpha(accent, 0.5) : BORDER}`, background: on ? artAlpha(accent, 0.14) : 'transparent', color: on ? INK : MUTED }}>{it.label}</button>
         )
       })}
     </div>

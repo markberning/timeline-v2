@@ -353,7 +353,7 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
   // Sticky in-page jump-bar: the long dossier's table of contents.
   const navItems = [
     { id: 'sec-overview', label: 'Overview' },
-    ...(hasBreak ? [{ id: 'sec-break', label: 'The break' }] : []),
+    ...(hasBreak ? [{ id: 'sec-break', label: 'Break' }] : []),
     { id: 'sec-influence', label: 'Influence' },
     { id: 'sec-details', label: 'Details' },
     { id: 'sec-works', label: 'Works' },

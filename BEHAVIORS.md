@@ -216,13 +216,17 @@ full checklist). Each section is wrapped in `<div id="sec-…" style={{scrollMar
 
 - **Sticky section jump-bar** — `SectionNav` (in `art-chrome.tsx`) renders as the
   FIRST child of `ArtPageShell` (so its parent IS the inner scroll container).
-  A one-row chip strip (`Overview · Influence · Details · Works · Canon`), sticky at
-  `top:0`. Tapping a chip scrolls to that `sec-…` id and highlights it; a scroll-spy
-  highlights the section in view ("you are here"). **Two bugs it must keep fixing:**
-  (1) images above reflow after the first scroll → the jump lands short, so `jump()`
-  **re-scrolls at 250ms + 600ms**; (2) the spy would re-light passing sections mid-
-  jump → a `lockRef` **freezes the spy until ~850ms** after a jump. Keep ≤5 chips
-  (group small dossier blocks under "Details") so it never wraps on a phone.
+  A one-row chip strip (`Overview · Break · Influence · Details · Works · Canon`),
+  sticky at `top:0`. Tapping a chip scrolls to that `sec-…` id and highlights it; a
+  scroll-spy highlights the section in view ("you are here"). **Two bugs it must keep
+  fixing:** (1) images above reflow after the first scroll → the jump lands short, so
+  `jump()` **re-scrolls at 250ms + 600ms**; (2) the spy would re-light passing sections
+  mid-jump → a `lockRef` **freezes the spy until ~850ms** after a jump. **The whole row
+  must FIT one screen with NO horizontal scroll (user, 2026-05-25)** — `SectionNav` is
+  content-sized + compact (font 10.5, padding `4px 7px`, gap 4, `overflowX:hidden`,
+  centered) so up to 6 short chips fit a 360px phone (~346px). Keep labels short (≤8
+  chars — "Break", not "The break") and cap at ~6; if a vertical needs more, merge
+  blocks, don't let it scroll.
 - **Influence flow lineage images** — every "Grew out of / Led to" node
   (`ArtLineageChip`) carries a born-verified `img`: a representative PD work for the
   concept (e.g. Daguerre's *Boulevard du Temple* for Photography, Vermeer's *Milkmaid*
