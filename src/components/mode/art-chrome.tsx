@@ -7,7 +7,7 @@
 // hero, and the image tile. Theme is the app's CSS vars (no `t` object).
 // See audits/art-vertical.md.
 
-import { useState, Fragment } from 'react'
+import { useState, useEffect, useRef, Fragment } from 'react'
 import Link from 'next/link'
 import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
@@ -324,6 +324,56 @@ export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: s
           </div>
         ))}
       </div>
+    </div>
+  )
+}
+
+// Sticky in-page jump-bar for the long drilldown pages — a single row of chips
+// that scrolls to each section (opening collapsed ones via onJump) and highlights
+// the section currently in view. Rendered as the first child of ArtPageShell, so
+// its parent IS the inner scroll container (no ref threading needed).
+export function SectionNav({ items, accent = ART_ACCENT }: { items: { id: string; label: string; onJump?: () => void }[]; accent?: string }) {
+  const navRef = useRef<HTMLDivElement>(null)
+  const lockRef = useRef(false) // while a jump is animating, freeze the scroll-spy
+  const [active, setActive] = useState(items[0]?.id)
+  useEffect(() => {
+    const cont = navRef.current?.parentElement
+    if (!cont) return
+    const onScroll = () => {
+      if (lockRef.current) return // don't let the pill flicker through passing sections
+      const top = cont.getBoundingClientRect().top
+      let cur = items[0]?.id
+      for (const it of items) {
+        const sec = document.getElementById(it.id)
+        if (sec && sec.getBoundingClientRect().top - top <= 60) cur = it.id
+      }
+      setActive(cur)
+    }
+    cont.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => cont.removeEventListener('scroll', onScroll)
+  }, [items])
+  const jump = (it: { id: string; onJump?: () => void }) => {
+    setActive(it.id)
+    lockRef.current = true // pin the highlight to the target until the scroll settles
+    it.onJump?.()
+    const go = () => document.getElementById(it.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    requestAnimationFrame(() => requestAnimationFrame(go))
+    // Images in the sections above can finish loading and reflow the page after the
+    // first scroll — landing short (worst for the last section). Re-scroll a couple
+    // of times as layout settles so the jump lands true on the first click.
+    setTimeout(go, 250)
+    setTimeout(go, 600)
+    setTimeout(() => { lockRef.current = false }, 850)
+  }
+  return (
+    <div ref={navRef} style={{ position: 'sticky', top: 0, zIndex: 6, display: 'flex', gap: 6, overflowX: 'auto', scrollbarWidth: 'none', padding: '8px 12px', background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderBottom: `1px solid ${BORDER}` }}>
+      {items.map(it => {
+        const on = active === it.id
+        return (
+          <button key={it.id} onClick={() => jump(it)} style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 600, letterSpacing: 0.3, padding: '5px 11px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? artAlpha(accent, 0.5) : BORDER}`, background: on ? artAlpha(accent, 0.14) : 'transparent', color: on ? INK : MUTED }}>{it.label}</button>
+        )
+      })}
     </div>
   )
 }

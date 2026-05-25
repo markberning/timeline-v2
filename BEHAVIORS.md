@@ -194,6 +194,47 @@ the same no-crop / **no-truncation** floor (cards use `minHeight`, not a fixed
 **Known still-clamped spot to revisit if flagged:** the dense home-feed tiles
 (`app-home.tsx` `clampN` + `short()`), kept bounded for the multi-column grid.
 
+## Art movement page — anatomy (locked 2026-05-25)
+The movement dossier (`mode/.../art-movement-page.tsx`) is a single scroll column
+of **always-visible** sections (NO accordions — the jump-bar replaced them):
+**Overview** (hero + hook + "Read the story") → **Influence** (the influence-flow
+diagram, the page's signature visual) → **Details** (stats · faceoff · artists ·
+parallels) → **Works** (the featured-works cord) → **Canon** (the full checklist).
+Each section is wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
+
+- **Sticky section jump-bar** — `SectionNav` (in `art-chrome.tsx`) renders as the
+  FIRST child of `ArtPageShell` (so its parent IS the inner scroll container).
+  A one-row chip strip (`Overview · Influence · Details · Works · Canon`), sticky at
+  `top:0`. Tapping a chip scrolls to that `sec-…` id and highlights it; a scroll-spy
+  highlights the section in view ("you are here"). **Two bugs it must keep fixing:**
+  (1) images above reflow after the first scroll → the jump lands short, so `jump()`
+  **re-scrolls at 250ms + 600ms**; (2) the spy would re-light passing sections mid-
+  jump → a `lockRef` **freezes the spy until ~850ms** after a jump. Keep ≤5 chips
+  (group small dossier blocks under "Details") so it never wraps on a phone.
+- **Artist row headshots** — `ArtistsStrip` shows a born-verified PD portrait or
+  self-portrait per artist (`MovementArtist.photo`), circular, face-biased
+  (`objectPosition '50% 18%'`), sepia-toned, with a **gradient fallback** (the
+  artist's palette) when there's no photo or it fails. Léger has no clean-PD
+  portrait → he keeps the gradient; that's expected, not a bug.
+- **The full canon** — the count behind the "Canonical works" stat is backed by a
+  real, browsable list (`ArtMovementContent.canon`: `{year,name,artist,wiki?,img?,
+  nsfw?}`). One row each: **thumbnail → tap opens the `Lightbox`**; year; name; artist.
+  The stat itself is a button that jumps to this section. Rules:
+  - **Thumbnail** (`img`): a born-verified image of THE WORK. All canon works are
+    pre-1931 → US-PD → inlinable from Commons/`en`. Confirm every subject by eye
+    (Commons text search returns wrong files — a Japanese print came back for Léger's
+    *Woman in Blue*, a writer for *The Cardiff Team*). `CanonThumb` degrades to a
+    dashed placeholder on load-failure. If a specific work has no free image, swap the
+    row to an equally-canonical work that does (e.g. *Ma Jolie*→*The Accordionist*,
+    *Under the Birches*→*The Oaks at Apremont*) rather than ship a gap.
+  - **Link** (`wiki`): the work's OWN Wikipedia article ONLY. **No artist-page
+    fallbacks** (a missing link beats a broad one — user rule 2026-05-25); works
+    without their own article are plain text.
+  - **Explicit works** (`nsfw:true`, e.g. Courbet's *The Origin of the World*): keep
+    them listed + linked, but **no inline thumbnail** and an `explicit` tag on the
+    name, so tapping through is a choice, not an ambush. Don't drop the work; don't
+    show it inline.
+
 ## Chapter bottom navigation
 - Every expanded chapter: solid accent × close + "Read Next Chapter" button (next chapter title + number). Last chapter: × only.
 

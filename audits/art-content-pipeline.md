@@ -156,6 +156,19 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    satisfied by an invented fact). Loop until all gates are clean.
 6. **Images** — born-verified figures per the image & rights gate (resolve via the
    MediaWiki API, load-check, confirm tier + caption-match). Method proven 2026-05-23.
+   **For a MOVEMENT this gate ALSO covers the page furniture (locked 2026-05-25 — see
+   BEHAVIORS.md "Art movement page"):** (a) the artist-row **headshots**
+   (`MovementArtist.photo`) — a born-verified PD portrait/self-portrait per artist,
+   gradient fallback when none exists; (b) the **full `canon`** list — every entry
+   gets a born-verified **thumbnail of the work** (all canon works are pre-1931 →
+   US-PD → inlinable) AND a **`wiki` link to the work's OWN article only** (NO
+   artist-page fallback — a missing link beats a broad one). **Confirm every
+   thumbnail subject BY EYE** — Commons keyword search returns wrong files
+   (a Japanese print for Léger's *Woman in Blue*, a writer for *The Cardiff Team*, a
+   Sisley for a Daubigny). If a work has no free image, **swap the row to an equally
+   canonical work that does** (don't ship a gap). **Explicit works** (e.g. Courbet's
+   *Origin of the World*) get `nsfw:true` → listed + linked but **no inline
+   thumbnail** + an `explicit` tag (never dropped, never shown inline).
 7. **Integrate** — author the prose as JSX `Narrative` components
    (`era-/movement-/<work>-narratives.tsx`), register in `ERA_NARRATIVES` /
    `MOVEMENT_NARRATIVES`, fill the `sections` chapter metadata, wire the

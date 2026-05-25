@@ -13,9 +13,10 @@
 
 import { useRef, useState } from 'react'
 import Link from 'next/link'
+import { Lightbox } from '@/components/lightbox'
 import { OrientationCard } from '@/components/mode/orientation-card'
 import {
-  ArtChrome, ArtPageShell, ArtHero, ArtAccordion, ReadStoryButton, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow,
+  ArtChrome, ArtPageShell, ArtHero, ReadStoryButton, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow, SectionNav,
   artMovementCrumbs,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG, artAlpha,
 } from '@/components/mode/art-chrome'
@@ -219,20 +220,46 @@ function ParallelsList({ parallels }: { parallels: { year: number; movement: str
 // The full canonical-works checklist (the count behind the "Canonical works"
 // stat). A plain, scannable list — year · work · artist, no descriptions.
 // ─────────────────────────────────────────────────────────────
-function CanonList({ canon, accent }: { canon: { year: number; name: string; artist: string; wiki: string }[]; accent: string }) {
+type CanonEntry = { year: number; name: string; artist: string; wiki?: string; img?: string; nsfw?: boolean }
+function NsfwTag() {
+  return <span style={{ marginLeft: 7, fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, border: `1px solid ${BORDER_STRONG}`, borderRadius: 4, padding: '1px 4px', verticalAlign: 'middle', whiteSpace: 'nowrap' }}>explicit</span>
+}
+// Square canon thumbnail. Tapping opens the lightbox; a load failure (or no
+// image at all) degrades to a subtle dashed placeholder rather than a broken icon.
+function CanonThumb({ img, alt, accent, onZoom, cap }: { img?: string; alt: string; accent: string; onZoom: (src: string, cap: string) => void; cap: string }) {
+  const [failed, setFailed] = useState(false)
+  if (!img || failed) {
+    return <div aria-hidden style={{ flexShrink: 0, width: 46, height: 46, borderRadius: 6, border: `1px dashed ${BORDER}`, background: artAlpha(accent, 0.05) }} />
+  }
+  return (
+    <button onClick={() => onZoom(img, cap)} aria-label={`View ${alt}`} style={{ flexShrink: 0, width: 46, height: 46, borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: '#1c1410', padding: 0, cursor: 'zoom-in' }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={img} alt="" loading="lazy" onError={() => setFailed(true)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 30%', filter: 'sepia(0.12) saturate(0.9) contrast(1.02)' }} />
+    </button>
+  )
+}
+function CanonList({ canon, accent, onZoom }: { canon: CanonEntry[]; accent: string; onZoom: (src: string, cap: string) => void }) {
   const sorted = [...canon].sort((a, b) => a.year - b.year || a.name.localeCompare(b.name))
   const wikiHref = (w: string) => `https://en.wikipedia.org/wiki/${encodeURIComponent(w.replace(/ /g, '_'))}`
   return (
-    <div style={{ padding: '4px 16px 18px' }}>
-      {sorted.map((w, i) => (
-        <div key={`${w.year}-${w.name}`} style={{ display: 'flex', gap: 12, alignItems: 'baseline', padding: '7px 0', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
-          <div style={{ flexShrink: 0, width: 34, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</div>
-          <div style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.3, textWrap: 'pretty' }}>
-            <a href={wikiHref(w.wiki)} target="_blank" rel="noopener noreferrer" style={{ color: INK, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}` }}>{w.name}</a>
+    <div style={{ padding: '4px 12px 18px' }}>
+      {sorted.map((w, i) => {
+        const cap = `${w.name} — ${w.artist}, ${w.year}`
+        return (
+          <div key={`${w.year}-${w.name}`} style={{ display: 'flex', gap: 11, alignItems: 'center', padding: '7px 4px', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+            {/* thumbnail — tap to see the work full-size in the lightbox */}
+            <CanonThumb img={w.img} alt={w.name} accent={accent} onZoom={onZoom} cap={cap} />
+            <div style={{ flexShrink: 0, width: 34, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</div>
+            <div style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.25, textWrap: 'pretty' }}>
+              {w.wiki
+                ? <a href={wikiHref(w.wiki)} target="_blank" rel="noopener noreferrer" style={{ color: INK, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}` }}>{w.name}</a>
+                : <span style={{ color: INK }}>{w.name}</span>}
+              {w.nsfw && <NsfwTag />}
+            </div>
+            <div style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</div>
           </div>
-          <div style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</div>
-        </div>
-      ))}
+        )
+      })}
     </div>
   )
 }
@@ -270,21 +297,24 @@ function ComingSoon({ eraId, movementId }: { eraId: string; movementId: string }
 export function ArtMovementPage({ eraId, movementId }: { eraId: string; movementId: string }) {
   const mv = ART_MOVEMENT_CONTENT[movementId]
 
-  const [canonOpen, setCanonOpen] = useState(false)
   const canonRef = useRef<HTMLDivElement>(null)
+  const [lb, setLb] = useState<{ src: string; cap: string } | null>(null)
 
   if (!mv) return <ComingSoon eraId={eraId} movementId={movementId} />
 
   const accent = mv.accent
   const hasCanon = !!mv.canon && mv.canon.length > 0
-  // The "Canonical works" stat links inline to the full-canon section: open it,
-  // then scroll it to the top of the inner scroll column once it has rendered.
-  const goToCanon = () => {
-    setCanonOpen(true)
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      canonRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }))
-  }
+  // The "Canonical works" stat jumps to the (always-visible) full-canon section.
+  const goToCanon = () => canonRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  // Sticky in-page jump-bar: the long dossier's table of contents.
+  const navItems = [
+    { id: 'sec-overview', label: 'Overview' },
+    { id: 'sec-influence', label: 'Influence' },
+    { id: 'sec-details', label: 'Details' },
+    { id: 'sec-works', label: 'Works' },
+    ...(hasCanon ? [{ id: 'sec-canon', label: 'Canon' }] : []),
+  ]
+  const secStyle: React.CSSProperties = { scrollMarginTop: 46 }
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
@@ -293,48 +323,56 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         accent={accent}
       />
       <ArtPageShell>
-        <ArtHero
-          eyebrow={`${mv.era.toUpperCase()} · MOVEMENT · ${mv.chain.index} OF ${mv.chain.total}`}
-          title={mv.name}
-          sub={`${mv.range} · ${mv.span}`}
-          palette={mv.works[0].palette}
-          imageUrl={mv.heroImage}
-          images={mv.heroImages}
-          fit={mv.heroFit}
-          focus={mv.heroFocus}
-          credit={mv.heroCredit}
-          accent={accent}
-        />
-        <div style={{ padding: '16px 18px 4px' }}>
-          <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
-        </div>
-        {/* primary doorway into the movement's chaptered narrative */}
-        {mv.sections.length > 0 && (
-          <ReadStoryButton
-            href={`/art/${mv.eraId}/${mv.id}/s/${mv.sections[0].id}`}
+        <SectionNav accent={accent} items={navItems} />
+        <div id="sec-overview" style={secStyle}>
+          <ArtHero
+            eyebrow={`${mv.era.toUpperCase()} · MOVEMENT · ${mv.chain.index} OF ${mv.chain.total}`}
+            title={mv.name}
+            sub={`${mv.range} · ${mv.span}`}
+            palette={mv.works[0].palette}
+            imageUrl={mv.heroImage}
+            images={mv.heroImages}
+            fit={mv.heroFit}
+            focus={mv.heroFocus}
+            credit={mv.heroCredit}
             accent={accent}
-            label={`Read the ${mv.name} story`}
-            sub={`${mv.sections.length} chapters · ${mv.range}`}
           />
-        )}
+          <div style={{ padding: '16px 18px 4px' }}>
+            <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{mv.hookLong}</p>
+          </div>
+          {/* primary doorway into the movement's chaptered narrative */}
+          {mv.sections.length > 0 && (
+            <ReadStoryButton
+              href={`/art/${mv.eraId}/${mv.id}/s/${mv.sections[0].id}`}
+              accent={accent}
+              label={`Read the ${mv.name} story`}
+              sub={`${mv.sections.length} chapters · ${mv.range}`}
+            />
+          )}
+        </div>
         {/* signature visual — always visible */}
-        <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} summary={mv.influenceSummary} />
-        {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details" accent={accent}>
+        <div id="sec-influence" style={secStyle}>
+          <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} summary={mv.influenceSummary} />
+        </div>
+        {/* secondary detail — always visible, reached via the jump-bar */}
+        <div id="sec-details" style={secStyle}>
+          <div style={{ padding: '16px 16px 2px' }}><Eyebrow color={accent}>The details</Eyebrow></div>
           <StatsRow stats={mv.stats} accent={accent} actions={hasCanon ? { 'Canonical works': goToCanon } : undefined} />
           <ArtFaceoff items={mv.factions} />
           <ArtistsStrip artists={mv.artists} label={`${mv.name} artists`} />
           <ParallelsList parallels={mv.parallels} />
-        </ArtAccordion>
-        <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
+        </div>
+        <div id="sec-works" style={secStyle}>
+          <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />
+        </div>
         {hasCanon && (
-          <div ref={canonRef}>
-            <ArtAccordion label={`The full canon — ${mv.canon!.length} works`} accent={accent} open={canonOpen} onOpenChange={setCanonOpen}>
-              <CanonList canon={mv.canon!} accent={accent} />
-            </ArtAccordion>
+          <div id="sec-canon" ref={canonRef} style={secStyle}>
+            <div style={{ padding: '16px 16px 2px', borderTop: `1px solid ${BORDER}` }}><Eyebrow color={accent}>{`The full canon · ${mv.canon!.length} works`}</Eyebrow></div>
+            <CanonList canon={mv.canon!} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
           </div>
         )}
       </ArtPageShell>
+      {lb && <Lightbox src={lb.src} alt={lb.cap} caption={lb.cap} onClose={() => setLb(null)} />}
     </div>
   )
 }
