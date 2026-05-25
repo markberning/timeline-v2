@@ -31,6 +31,16 @@ card.** Ship-gate checklist = this surface list, each critic-covered. (This rule
 the art/war retro lesson, applied pre-emptively: wrong facts hide in the small
 ungated surfaces — annotations, provenance, stats — not only in the prose.)
 
+**REQUIRED for every era + genre/movement: the "Why this is a break" block (locked
+2026-05-25, the music analog of art's `whatChanged`).** Each music era and each genre/
+movement must explicitly answer *why it is genuinely new — what changed in the sound*
+— with a contrast you can HEAR, not just read: a representative *before* example (the
+sound it broke from) set against an *after* example of this movement, plus a gated
+passage naming the concrete musical change (harmony, rhythm, instrumentation, form,
+production). Born-verified media on both sides (the audio analog of art's before/after
+images); the passage is fact-checked like all prose. Sits up front so the break lands
+before the reader dives in.
+
 Two music-specific additions (the analogs of art's "make them SEE
 it" + born-verified images):
 

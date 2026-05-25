@@ -197,10 +197,22 @@ the same no-crop / **no-truncation** floor (cards use `minHeight`, not a fixed
 ## Art movement page — anatomy (locked 2026-05-25)
 The movement dossier (`mode/.../art-movement-page.tsx`) is a single scroll column
 of **always-visible** sections (NO accordions — the jump-bar replaced them):
-**Overview** (hero + hook + "Read the story") → **Influence** (the influence-flow
-diagram, the page's signature visual) → **Details** (stats · faceoff · artists ·
-parallels) → **Works** (the featured-works cord) → **Canon** (the full checklist).
-Each section is wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
+**Overview** (hero + hook + "Read the story") → **The break** (why it's genuinely a
+new movement) → **Influence** (the influence-flow diagram) → **Details** (stats ·
+faceoff · artists · parallels) → **Works** (the featured-works cord) → **Canon** (the
+full checklist). Each section is wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
+
+- **The break** (`WhatChangedBlock`, `ArtMovementContent.whatChanged` / `ArtEraContent.
+  whatChanged`; locked 2026-05-25) — makes the rupture explicit, in pictures AND words:
+  a **side-by-side before→after contrast** (a born-verified representative work of what
+  came *before* — often outside our corpus, e.g. the academic Salon art a movement
+  rejected — with a "vs" pivot, beside a work of this movement; both tap-to-zoom), then
+  a short gated passage naming what *concretely* changed (subjects, finish, scale,
+  viewpoint — not "revolutionary"). Sits right after Overview so the break lands before
+  the reader dives in. Omitted → the chip + section just don't render. Eras carry the
+  same block. (User directive: "each era and movement must explain why it is in fact a
+  new era/movement — what changed — with works contrasting the difference"; applies to
+  music too.)
 
 - **Sticky section jump-bar** — `SectionNav` (in `art-chrome.tsx`) renders as the
   FIRST child of `ArtPageShell` (so its parent IS the inner scroll container).

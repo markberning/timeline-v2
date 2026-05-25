@@ -176,6 +176,8 @@ export interface ArtEraContent {
   movements: EraMovement[]
   anchorPainters: AnchorPainter[]
   lineage: ArtLineage
+  // "Why this is a break" — explicit contrast with the predecessor era (see WhatChanged).
+  whatChanged?: WhatChanged
   // The era's own long-form narrative: chaptered prose entered via the "Read the
   // full story" button under the hook. The prose itself lives in the reader
   // (modern-narratives.tsx); this is only the chapter metadata.
@@ -294,6 +296,20 @@ export interface MovementParallel { year: number; movement: string; place: strin
 // work (US-PD; all canon works pre-1931), tapped to open the lightbox.
 export interface CanonWork { year: number; name: string; artist: string; wiki?: string; img?: string; nsfw?: boolean }
 
+// "Why this is a break" — the explicit contrast that proves this is genuinely a NEW
+// era/movement, not a relabel. `before` = a representative work of what came just
+// before (often OUTSIDE our corpus — e.g. the academic Salon art Realism rejected);
+// `after` = a work of this era/movement. `prose` names the concrete rules that
+// changed (subjects, finish, scale, viewpoint), not vibes. Both images born-verified;
+// prose is gated like all narrative. Rendered as a side-by-side visual contrast +
+// the passage. (User directive 2026-05-25; applies to art + music.)
+export interface WhatChanged {
+  heading?: string
+  before: { img: string; title: string; caption: string }
+  after: { img: string; title: string; caption: string }
+  prose: string[]
+}
+
 export interface ArtMovementContent {
   id: string
   name: string
@@ -322,6 +338,8 @@ export interface ArtMovementContent {
   // One-line italic summary under the influence-flow diagram (what fed in → what
   // it handed on). Falls back to nothing when omitted.
   influenceSummary?: string
+  // "Why this is a break" — explicit contrast with the predecessor (see WhatChanged).
+  whatChanged?: WhatChanged
   // The full canonical-works checklist (the count behind the "Canonical works"
   // stat). Browsable as a plain list on the movement page; no descriptions.
   canon?: CanonWork[]
@@ -543,6 +561,24 @@ export const REALISM: ArtMovementContent = {
     ],
   },
   influenceSummary: 'Realism took the shock of 1848 and the new mirror of photography, granted the ordinary present the scale once kept for gods, and handed that permission straight to the Impressionists.',
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.cabanelVenus,
+      title: 'Before · Cabanel, The Birth of Venus (1863)',
+      caption: 'What the Salon crowned: a mythological goddess, idealized and weightless, finished so smoothly the brushwork disappears. Napoleon III bought it for himself.',
+    },
+    after: {
+      img: ART_IMG.courbetBurial,
+      title: 'After · Courbet, A Burial at Ornans (1850)',
+      caption: 'What Courbet did instead: real villagers at a real funeral, ten feet tall and twenty-two wide — the scale reserved for gods — in blunt, palpable paint.',
+    },
+    prose: [
+      'For two centuries French painting ran on a ladder. At the top: history and myth — gods, heroes, saints, kings. At the bottom: ordinary life. The Salon, the one official show that made or broke a career, rewarded the top of the ladder polished to a porcelain shine. Cabanel’s Venus is the perfect specimen — a flawless nude floating on a decorative wave, every brushstroke sanded away, the eroticism made respectable by calling her a goddess. The Emperor hung it in his own collection.',
+      'Courbet took the giant canvas size that the academy reserved for the death of a hero and spent it on a village funeral. No goddess, no allegory, no heaven opening overhead — just his own provincial neighbors in mud-black mourning clothes, ringed around an open grave, the paint laid on thick with brush and palette knife so you can see and almost feel every stroke. The faces are plain. The dog is bored. Nothing is idealized.',
+      'That is the whole argument of Realism, and it is why it counts as a new movement rather than a new style: the present — ordinary, unbeautiful, contemporary — deserves the scale and seriousness art had always saved for myth. Cabanel and Courbet hung in the same Paris a few years apart, and they are on opposite planets. The break wasn’t a new brush or a new color. It was throwing out the ladder.',
+    ],
+  },
   canon: [
     { year: 1826, name: 'The Bridge at Narni', artist: 'Corot', wiki: "The Bridge at Narni", img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Le_pont_de_Narni_-_Jean-Baptiste_Camille_Corot_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1613_-_photo_2.jpg/500px-Le_pont_de_Narni_-_Jean-Baptiste_Camille_Corot_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1613_-_photo_2.jpg' },
     { year: 1831, name: 'Gargantua', artist: 'Daumier', img: ART_IMG.daumierGargantua },

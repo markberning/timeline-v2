@@ -72,6 +72,18 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    retro pass): wrong price + Degas title on *Demoiselles*, wrong gallery city, a
    missing-then-misframed Shchukin/La Roche chain, ⅛-inch dimension slips. None of these
    are "metadata" — they are claims, and claims get fact-checked.
+
+   **REQUIRED for every era + movement: the "Why this is a break" block (`whatChanged`,
+   locked 2026-05-25).** Each era and each movement must explicitly answer *why it is
+   genuinely a new era/movement — what changed* — in pictures AND words: a born-verified
+   **before** work (a representative piece of the predecessor tradition, often outside
+   our corpus — e.g. the academic Salon painting a movement rejected), an **after** work
+   of this era/movement, and a gated passage naming the concrete change (subjects,
+   finish, scale, viewpoint — not "revolutionary"). The before image is born-verified
+   like any figure (subject eyeballed); the passage is fact-checked like any prose (the
+   *Realism* break passage's "loaded palette knife" overclaim was caught + softened at
+   this gate). Renders as the side-by-side contrast (BEHAVIORS "The break"). Same
+   requirement carried into the music pipeline.
 2. **Storytelling & "looking" critic** (Sonnet) — judge as a story AND as art
    writing. Grade per chapter STRONG / GOOD / NEEDS WORK / REWRITE. Hook & stakes,
    pacing, voice — PLUS the art-specific axis: **does it make the reader see the
