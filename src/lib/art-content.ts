@@ -1292,7 +1292,76 @@ export const PICASSO: ArtArtistContent = {
 }
 
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
+// ─────────────────────────────────────────────────────────────
+// Work — A Burial at Ornans (1850). The flagship Realism work read. Authored
+// through the art content pipeline (fact pack → Opus → 5 gates → revise);
+// chapter prose in art-section-reader.tsx NARRATIVES.burial. Annotations placed
+// against the real panorama (gate 6, 2026-05-25).
+// ─────────────────────────────────────────────────────────────
+export const BURIAL: ArtWorkContent = {
+  id: 'burial',
+  name: 'A Burial at Ornans',
+  shortName: 'A Burial at Ornans',
+  year: 1850,
+  artist: 'Gustave Courbet',
+  artistId: 'courbet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '10 ft 4 in × 21 ft 11 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Given by Juliette Courbet, 1881',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 1, total: 9 },
+  hook: 'A whole village funeral, painted ten feet tall — the scale the Salon kept for the death of kings.',
+  heroImage: ART_IMG.courbetBurial,
+  heroCredit: 'Courbet, A Burial at Ornans, 1849–50 · Musée d’Orsay, Paris',
+  heroAspect: 2.18,
+  heroFit: 'contain', // the work hero shows the WHOLE ~2.1:1 panorama, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1850', k: 'Painted' },
+    { v: '10′4″ × 21′11″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'town', eyebrow: 'Ornans · 1848', dateLabel: '1848', title: 'The town and the grave', blurb: 'The most ordinary death there is — a relative’s funeral in a backwater town — and Courbet decides to paint it at the size Europe kept for kings.', progress: 0.08 },
+    { id: 'frieze', eyebrow: 'The canvas', dateLabel: '1849–50', title: 'Forty neighbors at the scale of kings', blurb: 'Ten feet tall, twenty-two wide: a long frieze of real townsfolk around an open grave — the gravedigger, the skull, the red beadles, the indifferent dog, the Ornans cliff.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'Paris · 1850–51', dateLabel: '1850–51', title: 'The bomb in the Salon', blurb: 'Hung beside The Stone Breakers in the official Salon, the country funeral detonates — ugliness, monstrous scale, and the shadow of 1848.', progress: 0.58 },
+    { id: 'romanticism', eyebrow: 'Courbet’s verdict', dateLabel: '1850s', title: 'The burial of Romanticism', blurb: 'What Courbet meant by his famous line, and why this canvas is Realism’s public birth five years before the 1855 manifesto.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1881–today', title: 'Afterlife', blurb: 'Juliette Courbet gives it to the nation in 1881; the Louvre to the Musée d’Orsay in 1986; the canvas where modern art’s subject cracked open.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1849–1877', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted 1849–50 in Ornans; shown at the Salon of 1850–51; stayed with the artist through his career and his 1873 exile.', price: null },
+    { year: '1877–1881', who: 'The Courbet family', place: 'Ornans', note: 'After Courbet died in exile in Switzerland in 1877, the enormous canvas remained with his family.', price: null },
+    { year: '1881', who: 'Juliette Courbet (his sister)', place: 'Paris', note: 'Donates the painting to the French State — the very canvas the State’s official Salon had recoiled from thirty years earlier. Accession RF 325.', price: 'gift to the nation', museum: true },
+    { year: '1881–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Enters the national collections; for decades hangs in the Louvre, among the history paintings it had once mocked.', price: null, museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Orsay opens in a converted railway station, the Louvre’s 19th-century collection crosses the river to fill it. On permanent view.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Courbet', role: 'The painter', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'Champfleury', role: 'Named “Realism”', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'Proudhon', role: 'Radical friend', palette: ['#8a1c1c', '#c79338', '#0d0606'] },
+    { name: 'Juliette Courbet', role: 'Sitter; gave it to France', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'The Ornans townsfolk', role: 'The sitters', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { x: '31%', y: '75%', w: 24, h: 34, label: 'The hole everyone is here for', detail: 'The whole crowd is gathered around this — not a coffin, not a cross, but an open grave painted as a flat black wedge with almost no depth, a void dropped into the dead center where a hero ought to be. The gravedigger kneels patiently beside it in his shirtsleeves, and on the turned earth lie a skull and a scatter of bones, dug up to make room: the bluntest reminder of death there is, with no allegory and no scythe.' },
+    { x: '15%', y: '15%', w: 16, h: 36, label: 'The one thing pointing up', detail: 'A bearer holds a crucifix aloft against the flat gray sky — the single strong vertical in a painting that is otherwise all horizontal line. In a Salon history painting the heavens would open behind it; here the sky just stays gray and gives nothing back.' },
+    { x: '17%', y: '62%', w: 18, h: 42, label: 'The loudest color in the room', detail: 'The figures in vivid red are beadles — minor parish officers who keep order at services. Courbet gave the grandest color in the whole painting (the red a history painter would save for a cardinal or a king) to two small-town church ushers with frankly ordinary faces.' },
+    { x: '46%', y: '47%', w: 18, h: 46, label: 'Two men wearing the wrong decade', detail: 'Among the men in 1840s mourning black stand two old fellows in the suits and knee breeches of 1793 — the dress of the First Republic, half a century out of fashion. They are real sitters (friends of Courbet’s grandfather): veterans of the Revolution planted in the crowd. In 1850, two years after the barricades, that detail did not feel safe.' },
+    { x: '80%', y: '68%', w: 30, h: 44, label: 'Grief on the right, a dog who doesn’t care', detail: 'The women are massed on the right, some pressing handkerchiefs to their faces — the only open grief in the picture (the artist’s own sisters Juliette, Zoé and Zélie are among them). And down in front, back turned to the whole solemn business, a small dog sniffs off toward the edge, completely indifferent. No history painter would have let that animal stay; Courbet gave it the front row.' },
+    { x: '52%', y: '11%', w: 72, h: 20, label: 'The real rock behind the real people', detail: 'That pale, chalky wall of limestone is not invented scenery — it is the actual escarpment of the Ornans valley, Courbet’s hometown geology placed behind his hometown neighbors. Almost the same value as the sky, it refuses to recede; it stands up as a near-featureless wall that presses the figures flat against the viewer.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Dutch group portrait', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'The Stone Breakers', mode: 'art' } ],
+    children: [ { label: 'Realism', mode: 'art' }, { label: 'Impressionism', mode: 'art' }, { label: 'Édouard Manet', mode: 'art' } ],
+  },
+}
+
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

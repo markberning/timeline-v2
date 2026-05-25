@@ -235,6 +235,20 @@ Each section is wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
     name, so tapping through is a choice, not an ambush. Don't drop the work; don't
     show it inline.
 
+## Art WORK page — anatomy (locked 2026-05-25)
+The work dossier (`[workId]/art-work-page.tsx`) follows the same always-visible +
+jump-bar pattern as the movement page (NO accordions). Sticky `SectionNav` chips:
+**Canvas · Look closer · Story · Provenance** (the "Look closer" chip only when the
+work has annotations). Sections, each `<div id="sec-…" scrollMarginTop:46>`:
+- **Canvas** — compact text header (name · artist·year · hook) + the whole painting
+  (`CanvasViewer`, shown un-cropped; NO hero banner) + the museum caption.
+- **Look closer** — the `LookCloser` grid of CSS-cropped "Look closer" details, each
+  region authored as a `CanvasAnnotation` (`x/y` centre %, `w/h` size %), placed +
+  eyeballed against the real image at gate 6.
+- **Story** — the numbered chapter cord (links into the section reader).
+- **Provenance** — the at-a-glance `StatsRow` is **folded in here** (there was little
+  under the old "Details" accordion), above the provenance ledger.
+
 ## Chapter bottom navigation
 - Every expanded chapter: solid accent × close + "Read Next Chapter" button (next chapter title + number). Last chapter: × only.
 

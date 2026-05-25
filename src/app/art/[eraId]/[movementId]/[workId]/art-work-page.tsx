@@ -12,7 +12,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import {
-  ArtChrome, ArtPageShell, ArtAccordion, StatsRow, Eyebrow,
+  ArtChrome, ArtPageShell, SectionNav, StatsRow, Eyebrow,
   artWorkCrumbs, artAlpha,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG,
 } from '@/components/mode/art-chrome'
@@ -23,6 +23,16 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
   const accent = w.accent
 
   const base = `/art/${w.eraId}/${w.movementId}/${w.id}`
+  const secStyle: React.CSSProperties = { scrollMarginTop: 46 }
+  // Sticky jump-bar — same pattern as the movement page. Sections are always
+  // visible (no accordions); the stats fold into Provenance ("not much under
+  // details"). "Look closer" only when the work has annotation crops.
+  const navItems = [
+    { id: 'sec-canvas', label: 'Canvas' },
+    ...(w.annotations.length ? [{ id: 'sec-look', label: 'Look closer' }] : []),
+    { id: 'sec-story', label: 'Story' },
+    { id: 'sec-provenance', label: 'Provenance' },
+  ]
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
@@ -31,25 +41,31 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
         accent={accent}
       />
       <ArtPageShell>
+        <SectionNav accent={accent} items={navItems} />
         {/* No hero on artwork pages — the canvas + "Look closer" crops are the
             signature visual (audits/art-vertical.md §5b). A compact text header
             gives the work its name, artist·year and one-line lead. */}
-        <div style={{ padding: '18px 18px 4px' }}>
-          <Eyebrow>{`${w.movement.toUpperCase()} · WORK`}</Eyebrow>
-          <h1 style={{ margin: '8px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 27, lineHeight: 1.08, letterSpacing: -0.4, color: INK }}>{w.name}</h1>
-          <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 12.5, color: MUTED, letterSpacing: 0.1 }}>{w.artist} · {w.year}</div>
-          {w.hook && <p style={{ margin: '10px 0 0', fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{w.hook}</p>}
+        <div id="sec-canvas" style={secStyle}>
+          <div style={{ padding: '14px 18px 4px' }}>
+            <Eyebrow>{`${w.movement.toUpperCase()} · WORK`}</Eyebrow>
+            <h1 style={{ margin: '8px 0 0', fontFamily: SERIF, fontWeight: 500, fontSize: 27, lineHeight: 1.08, letterSpacing: -0.4, color: INK }}>{w.name}</h1>
+            <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 12.5, color: MUTED, letterSpacing: 0.1 }}>{w.artist} · {w.year}</div>
+            {w.hook && <p style={{ margin: '10px 0 0', fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{w.hook}</p>}
+          </div>
+          {/* signature visual — the whole canvas */}
+          <CanvasViewer w={w} />
         </div>
-        {/* signature visual — the whole canvas, then the Look-closer detail crops */}
-        <CanvasViewer w={w} />
-        <LookCloser w={w} />
-        {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details" accent={accent}>
-          <StatsRow stats={w.stats} />
+        {/* the Look-closer detail crops */}
+        {w.annotations.length > 0 && (
+          <div id="sec-look" style={secStyle}><LookCloser w={w} /></div>
+        )}
+        {/* the chapters — the primary read entry */}
+        <div id="sec-story" style={secStyle}><WorkSectionsList w={w} base={base} accent={accent} /></div>
+        {/* at-a-glance stats folded into the provenance ledger (always visible) */}
+        <div id="sec-provenance" style={secStyle}>
+          <StatsRow stats={w.stats} accent={accent} />
           <ProvenanceBlock w={w} accent={accent} />
-        </ArtAccordion>
-        {/* the chapters — the primary read entry, always visible */}
-        <WorkSectionsList w={w} base={base} accent={accent} />
+        </div>
       </ArtPageShell>
     </div>
   )

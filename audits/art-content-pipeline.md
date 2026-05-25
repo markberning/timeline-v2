@@ -462,3 +462,31 @@ earned their keep:
 - tsc clean; all routes render (movement page + 6 chapters, auto-generated from
   `ART_MOVEMENT_CONTENT`); era card → `/art/mod/real` now live. Pipeline artifacts in
   `audits/art-pipeline/realism-*`.
+
+## Proof run 8 — DONE (2026-05-25) — A Burial at Ornans (kind: WORK, flagship)
+The FIRST Realism **work** deep read (`/art/mod/real/burial`, 5 chapters: The town and
+the grave · Forty neighbors at the scale of kings · The bomb in the Salon · The burial
+of Romanticism · Afterlife). Gates-first via subagents (fact pack → Opus author → 5
+Sonnet critics in parallel → Opus revise → integrate). Gate yield:
+- **Fact-check** — clean (no invented quotes/names); hedged the "burial of Romanticism"
+  line (no dated source — "later wrote / is widely recorded as having said"); "roughly
+  fifty figures" → "more than forty"; confirmed dims (315×668cm = 10ft4×21ft11), the
+  RF 325 / Juliette-Courbet-1881 gift, Louvre→Orsay 1986, Salon 1850–51.
+- **Comprehensiveness + Framing** (MUST-ADDs, all verified) — the **Stone Breakers**
+  Salon-twin pairing; the two **1793 Revolutionary-dress veterans** in the crowd (the
+  visible hook for the socialist reading); **Champfleury** naming "Realism" in defense
+  ("not a trace of socialism in A Burial at Ornans") + the Brasserie Andler circle +
+  **Proudhon** (kills the lone-genius framing); the **Dutch civic-guard group-portrait**
+  formal source; named sitters (Régis, Juliette/Zoé/Zélie Courbet).
+- **Storytelling + Clarity** — surfaced the 10-ft scale into ch1; killed a numbered
+  "offense one/two/three" scaffold; added looking beats (the grave as a black void, the
+  cliff's chalky compression); glossed "the academy", "history painting" (= myth/
+  scripture, not the news), "the movement read".
+- **Gate 6 (image/annotations)** — hero = `ART_IMG.courbetBurial` (PD worldwide); 6
+  "Look closer" crops placed + eyeballed against the real panorama via a %-grid overlay
+  (grave/gravedigger/skull, crucifix, red beadles, 1793 veterans, women+dog, cliff).
+- Integrated: `BURIAL` ArtWorkContent + `NARRATIVES.burial` (5 JSX chapters) +
+  provenance + figures; registered in `ART_WORK_CONTENT` so the movement cord links it.
+  Work routes auto-generate. tsc clean; build generates all chapter pages. Artifacts in
+  `audits/art-pipeline/burial-*`. (Work pages also gained the SectionNav jump-bar +
+  always-visible sections — see BEHAVIORS.md "Art WORK page".)

@@ -1640,6 +1640,205 @@ function TmAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// A Burial at Ornans (Courbet, 1849–50) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function BuTown({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Ornans · 1848" title="A funeral nobody was supposed to paint" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n September 1848, in a small town in the French countryside, an old man was lowered into the ground, and a crowd of his neighbors stood around the hole and watched. This happens somewhere on Earth every few seconds. It is the least remarkable event a human life contains. Nobody paints it. And if anyone had, they would certainly not have painted it <em>ten feet tall</em> — a wall of canvas the size Europe kept locked away for the death of saints and kings. That is the thing you are about to look at: the most ordinary death there is, blown up to the scale of the most important deaths there are.
+      </p>
+      <p style={proseStyle}>
+        The town was <strong>Ornans</strong> (pronounced "or-NAHN"), a cramped little place strung along a river in the Franche-Comté (frahnsh-kohn-TAY), the hilly region in eastern France that runs up to the Swiss border. It was the hometown of a loud, ambitious, supremely self-certain young painter named <strong>Gustave Courbet</strong> (1819–1877), whose larger story is told in the Realism overview one level up in this app (the man who would become the public face of <strong>Realism</strong> — the new school that insisted ordinary contemporary life was a fit subject for serious art, painted plain, with none of the official art establishment's polish). Courbet had grown up here, among these exact people. And in 1848 or so, one of them died.
+      </p>
+
+      <SectionHeader accent={accent} label="The man in the box" title="Whose burial this is" />
+      <p style={proseStyle}>
+        By the usual account, the dead man was Courbet's own <strong>great-uncle, Claude-Étienne Teste</strong>, who died in September 1848. That identification, and the date, are the standard story rather than carved-in-stone fact — they are sometimes contested, so treat them as the received version, not a closed case. What is not in doubt is the kind of funeral it was: not a king's, not a saint's, not a hero's. A provincial one. A market-town one. The death of exactly the sort of person history files under "and others."
+      </p>
+      <p style={proseStyle}>
+        That is the detail to hold onto, because it is the whole engine of the painting. Courbet did not go looking for a grand subject and dress it down. He took the most local, least important death imaginable — a relative in a backwater town, mourned by the people who happened to live nearby — and decided it deserved a canvas the size Europe reserved for the death of Christ.
+      </p>
+
+      <SectionHeader accent={accent} label="The decision" title="Paint my own people, full size" />
+      <p style={proseStyle}>
+        To feel how strange that decision was in 1849, you have to know the rule he was breaking. European art ran on a ranking system called the <strong>hierarchy of genres</strong> (an official ladder of subject-matter categories), and the Realism overview sketches it; this read can make it concrete. At the top sat grand scenes from myth and scripture and ancient legend — <strong>history painting</strong> (the prestige category; "history" here meant scripture, myth, and classical antiquity, <em>not</em> real events in the modern sense — nobody at the top was painting last week's news). Plain modern life sat at the very bottom. Gods up here; greengrocers down there. You were <em>allowed</em> to paint a peasant. You were not allowed to paint a peasant at the size of a god. Size was reserved. A big canvas was a promise that the thing on it mattered enormously, and the body that decided what was permitted to matter that much was <strong>the academy</strong> (the Academy of Fine Arts, the French state institution that set the rules of painting and ran the official exhibition where careers were made — the <strong>Salon</strong>, which you will meet properly in Chapter 3).
+      </p>
+      <p style={proseStyle}>
+        Courbet looked at that rule and did the one thing it forbade. He went home to Ornans, and instead of painting the death of some Greek warrior he had never met, he painted the death of his great-uncle, and he painted the actual townsfolk who came to the actual grave, and he painted all of them life-size. He was not illustrating a story. He was, in effect, telling the entire ranking system that its ranks were a fiction — that a real death in a real town was as serious as anything in the Louvre. The next chapter is what that looked like.
+      </p>
+    </article>
+  )
+}
+
+function BuFrieze({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Ten feet tall, twenty-two feet wide" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the wall it needs. <em>A Burial at Ornans</em> is roughly <strong>10 feet 4 inches tall and 21 feet 11 inches wide</strong> (about 3.15 by 6.68 meters) — call it ten feet tall and twenty-two feet wide and you are close enough to feel it. That is not a painting you hang. That is a painting you give a room to. Stand in front of it and the figures are your own height; you are not looking at a picture of a funeral so much as standing at the back of one. At the heroic scale the Realism overview describes, this acreage was the academy's currency for the death of kings. Courbet spent the whole sum on a country graveside.
+      </p>
+      <p style={proseStyle}>
+        He painted it in 1849–1850, begun in Ornans, where he had to build the thing more or less by main force — there is barely a studio in the Franche-Comté big enough to back up far enough to see a canvas this size whole. The subtitle he gave it doubled down on the joke: he called it a "historical picture of a burial at Ornans," deliberately borrowing the language of history painting (the prestige category) for a thing with no history in it at all, only a Tuesday in a small town.
+      </p>
+
+      <SectionHeader accent={accent} label="The frieze" title="Reading the crowd left to right" />
+      <p style={proseStyle}>
+        Now look along it, because the composition is doing something deliberate. The <strong>more than forty figures</strong> are not arranged in a pyramid building to a hero at the center, the way a proper history painting would marshal a crowd toward its protagonist. They are strung out in a long horizontal band — a <strong>frieze</strong> (a continuous decorated strip, the word borrowed from the carved ribbons that run along the tops of Greek temples) — shoulder to shoulder across the full twenty-two feet, every head at roughly the same height. There is no hero. There is no center of importance. Your eye just walks the line, the way it would walk a real crowd, finding no one it is told to care about more than anyone else.
+      </p>
+      <p style={proseStyle}>
+        The format was not invented on the spot. Courbet had taken it from the <strong>Dutch 17th-century civic-guard group portrait</strong> (the genre of Rembrandt's <em>Night Watch</em> and Frans Hals's militia pictures — rows of named, equally-lit men paid to be remembered together), which he studied on a trip through Belgium and the Netherlands in 1846–47. But borrowing the format makes the move sharper, not softer: Courbet slotted the rural poor of a French market town into the exact compositional slot the Amsterdam guilds had paid to occupy. Anyone who knew the old pictures felt the swap.
+      </p>
+      <p style={proseStyle}>
+        And these were real, specific people. The townsfolk of Ornans posed for Courbet one by one in his studio — the mayor, the justice of the peace, the priest, the gravedigger, and his own family: his father <strong>Régis Courbet</strong> among the men, his sisters <strong>Juliette</strong>, <strong>Zoé</strong>, and <strong>Zélie</strong> among the women. The result is not a generalized "crowd of mourners" but a row of recognizable individuals, which is exactly why it unsettled people: you could, in 1850, point at the canvas and name the butcher.
+      </p>
+
+      <SectionHeader accent={accent} label="The hole" title="The grave, the gravedigger, the skull" />
+      <p style={proseStyle}>
+        Walk to the front-center and you find the thing the whole crowd is gathered around, and it is not a coffin or a cross or a grieving widow. It is a hole. An <strong>open grave</strong> gapes at the foreground, dark and empty, waiting. Courbet paints it as a flat black wedge cut into the turned earth, the soil broken and pale at its lip, the inside given almost no depth at all — a void rather than a pit, a blank dropped into the dead center of a monumental canvas where a history painter would have put the hero. Your eye reaches the most important spot in the picture and finds nothing in it.
+      </p>
+      <p style={proseStyle}>
+        Beside it a <strong>gravedigger kneels</strong>, patient, in his shirtsleeves, paused mid-job — the most unglamorous figure at any funeral, the man who actually has to do the work, given a front-row seat. And near the lip of the pit, on the turned earth, lies a <strong>skull and a scatter of bones</strong>, dug up to make room for the new occupant. It is the bluntest possible memento mori — an old artistic convention meaning, simply, that you too will die. Courbet renders it not as an allegorical skeleton with a scythe but as the actual bones of whoever was buried in this plot last, casually shoveled aside.
+      </p>
+      <p style={proseStyle}>
+        This is the radical absence the Realism overview names: no allegory of Death, no swooning angel, no shaft of heavenly light breaking through the clouds to receive the soul. The history-painting machinery is simply switched off. There is a hole, there are bones, there is a man with a shovel, and there is a row of people who will each be in that hole soon enough.
+      </p>
+
+      <SectionHeader accent={accent} label="The jolt of red" title="Crucifix and beadles" />
+      <p style={proseStyle}>
+        Scan the whole twenty-two feet and you will count exactly two notes of warm color, and they are worth finding because they are nearly the only ones. Up at left-center, a <strong>crucifix is held aloft against the flat gray sky</strong>, carried by a bearer — the one upward vertical in a painting that is otherwise all horizontal, the cross standing over the crowd as the priest reads.
+      </p>
+      <p style={proseStyle}>
+        And near the priest stand the <strong>beadles in red</strong> — a beadle being a minor church officer, a kind of parish usher who keeps order at services and processions. Courbet dressed them in vivid red robes, two slabs of hot color in a sea of funeral black and graveyard gray. The eye snags on them instantly. In a history painting that red would belong to a cardinal or a king. Here it belongs to two small-town church functionaries with frankly ordinary, ruddy, unidealized faces, and the effect is almost comic — the grandest color in the picture spent on its most minor officials.
+      </p>
+
+      <SectionHeader accent={accent} label="Men, women, and a dog who doesn't care" title="The crowd, sorted" />
+      <p style={proseStyle}>
+        Look at how the crowd is sorted. The <strong>men are massed on the left</strong>, the <strong>women on the right</strong> — some of the women pressing handkerchiefs to their faces, the only open grief in the painting — the social geography of a real country funeral reproduced exactly, because Courbet was painting one. Pick one face out of the line and it stops being a crowd: one of the women on the right has pressed a white handkerchief flat against her cheek and eyes, her head tipped slightly down, so that you get not a noble profile of Grief but the specific, awkward, half-hidden look of an actual woman trying not to cry in front of the neighbors. Nobody is striking a pose for the ages. Faces are tired, jowly, distracted, plain; some are frankly unflattering. This is what a crowd of real people actually looks like when it stands in a cold churchyard, which is to say: not like a frieze of noble Romans.
+      </p>
+      <p style={proseStyle}>
+        Among the men, two of them are wearing the wrong decade. Two old fellows stand in the dark suits and <strong>knee breeches of 1793</strong> — the dress of the First Republic, the high Revolutionary years — half a century out of fashion in 1850. They are real sitters (friends of Courbet's grandfather), and the antique costume is a deliberate time-stamp: these are men who lived through the Revolution, planted in the front of a contemporary crowd, quietly threading France's republican memory into a country burial. Hold that detail; it does real work in Chapter 3.
+      </p>
+      <p style={proseStyle}>
+        And then, down in the right foreground, the detail that tells you everything about Courbet's nerve: a <strong>small dog</strong>, back to the grave, sniffing off toward the edge of the canvas, completely indifferent to the solemn human business behind it. A dog has wandered into the most sacred moment a community has, and it does not care, and Courbet not only let it stay, he gave it the front row. No history painter alive would have permitted that animal. Its boredom is the painting's flat refusal to pretend the moment is more exalted than it is.
+      </p>
+
+      <SectionHeader accent={accent} label="The cliff" title="Ornans itself, in the background" />
+      <p style={proseStyle}>
+        Behind the whole crowd, closing off the top of the canvas, runs a band of low <strong>limestone cliffs</strong> under a flat, indifferent gray sky. Look at the rock itself: pale, chalky, almost the same washed-out value as the sky above it, so that cliff and sky nearly dissolve into one bright blank. It does not recede the way a landscape is supposed to — it stands up like a near-featureless wall, flat and frontal, pressing the long line of figures forward and packing them against the front of the picture and the viewer. There is no deep space to escape into; the rock simply shuts the door at the back. This is not invented scenery. It is the real escarpment of the Ornans valley, the pale rock wall that genuinely backs the town — Courbet put his actual hometown behind his actual neighbors. A history painting would open onto an idealized Italianate distance or a swirl of storm and glory. Courbet gave his mourners a hard, horizontal shelf of plain local stone. Nature here offers no comfort and no drama. It is just the rock these people live under, the rock they will be buried in, going on being rock.
+      </p>
+    </article>
+  )
+}
+
+function BuSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–51" title="Bringing the village to the capital" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>{' '}
+        painting this size is built to be seen in one place: the <strong>Salon</strong> — the official annual State exhibition, the one show in France where a career was made or buried (the academy ran it; you met it one level up). Courbet hauled the Burial to Paris and got it into the <strong>Salon of 1850–1851</strong> (the Salon ran across that winter), and there, in the official halls where the academy displayed the art the State approved of, ten feet of dead-serious country funeral went up on the wall next to the gods and the goddesses and the Roman senators.
+      </p>
+      <p style={proseStyle}>
+        And it did not arrive alone. In the same Salon Courbet also hung <strong>The Stone Breakers</strong> (1849–50), another monumental canvas — two road laborers, life-size, breaking rock — that he had finished just before this one. Visitors met the pair as a single coordinated assault: the same radical program (heroic scale, common laborers, zero idealization) delivered twice in the same hall, the Burial as the larger and more extreme half. (The Stone Breakers itself is gone — destroyed in 1945 in the bombing of Dresden — and its story belongs to the Realism overview; here it matters only as the Burial's twin.) Two pictures, one program, and the program detonated.
+      </p>
+
+      <SectionHeader accent={accent} label="Why a country funeral blew up Paris" title="The Salon as detonator" />
+      <p style={proseStyle}>
+        Of all the pictures Courbet ever made, this is the one that turned him from a promising provincial into a national scandal. The strange part is not that critics disliked it; critics dislike things every year and Paris forgets by spring. The strange part is that a <em>funeral</em> — a flat, gray, undramatic country funeral — became, for a season, one of the most talked-about objects in France. To see why, you have to understand that the Salon's own structure is what turned a painting into a bomb. The Salon was <em>the</em> show, the single official stage, the one room where everything respectable in French art stood together to be ranked. A picture hung there could not be quietly ignored; it was in the room with the gods, demanding to be measured against them. Courbet had not snuck his heresy into a side gallery. He had walked it through the front door of the temple and stood it next to the altar — and the temple had to respond.
+      </p>
+      <p style={proseStyle}>
+        So what did the room actually see? First, an assault on beauty. The faces were common, ordinary, some of them unflattering — real market-town faces, not the smooth idealized features the Salon trained its painters to produce. It helps to picture what they were comparing it against: the Salon's reigning style finished a painting until the brushwork vanished and the skin turned to flawless porcelain, a nude goddess sliding poreless along a wave, every surface licked smooth (the kind of academic ideal the era overview describes). Set the Burial beside that and it looked like an insult — rough, dark, heavy, full of double chins and bad posture and weather-beaten skin. Courbet had not failed to make his people beautiful; he had refused to, and to an eye trained on porcelain goddesses the refusal read as an attack on beauty itself. The critics called it ugly.
+      </p>
+      <p style={proseStyle}>
+        But ugliness in a small picture is a private matter; ugliness across twenty-two feet of canvas is a manifesto, and that was the deeper offense — the <em>scale</em>. That much canvas, that much seriousness, that much <em>room</em>, was reserved by the hierarchy of genres for history painting's top rung: gods, kings, saints, the great deaths and the great deeds. To spend it on a provincial funeral full of nobodies was, in the academy's grammar, a category error so loud it sounded like a threat. Either thing alone the Salon could have swallowed — a small picture of a funeral, fine; a huge picture of a coronation, fine. It was the <em>combination</em> that could not be forgiven, because the combination said the whole ranking was a lie. Courbet had taken the bottom rung of the ladder and bolted it to the top, and everyone who understood the ladder understood the violence of that.
+      </p>
+      <p style={proseStyle}>
+        And then there was the year. The Burial went up only two years after <strong>1848</strong> — the February revolution that toppled King Louis-Philippe and, for a few raw months, put the ordinary people of France (workers, peasants, the poor) briefly at the center of their own history before the army closed the experiment down (the Realism overview tells that year in full). Memories were fresh and the propertied classes were frightened. And the fear had something to fix on right there in the paint: planted in the crowd, in the dark suits and breeches of 1793, stand two old men dressed as veterans of the First Republic — Courbet's own choice of costume, a visible reminder, in 1850, of the last time ordinary Frenchmen had been dangerous. So when some critics read a socialist menace into the canvas, they were not only reacting to the proximity of the barricades; they were reacting to the rural poor made enormous and dignified, with the ghosts of '93 standing among them, hung in the State's own exhibition.
+      </p>
+
+      <SectionHeader accent={accent} label="The voice that fought back" title="Champfleury and the name 'Realism'" />
+      <p style={proseStyle}>
+        The painting was not left to the hostile critics alone. Its loudest defender was the writer <strong>Champfleury</strong> (Jules Husson, 1821–1889), a friend of Courbet's and the critic widely credited with first using the word "<strong>Realism</strong>" in the new art-critical sense — naming, in print, the very thing this painting was doing. Against the charge that the Burial was political propaganda, Champfleury answered flatly: "there is not a trace of socialism in <em>A Burial at Ornans</em>." (That the charge needed rebutting at all tells you how live the socialist reading was.) The point worth holding is that Realism never was one painter's lone stunt. It was argued into being by a circle — Courbet, Champfleury, and others who gathered at the Brasserie Andler, the Paris beer hall their friends nicknamed "the Temple of Realism." Courbet painted the manifesto; his friends supplied the word for it.
+      </p>
+    </article>
+  )
+}
+
+function BuRomanticism({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Courbet's own verdict" title="What he said he had buried" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>C</DropCap>
+        ourbet, who never in his life under-explained his own importance, later wrote — or is at least widely recorded as having said — that the Burial was, in fact, "<strong>the burial of Romanticism</strong>." (There is no single dated letter pinning the line down; it survives as strong secondary-source consensus, so take it as a remark genuinely his, not a quote anyone invented.) It is one of the great double meanings in art history, and worth unfolding slowly, because it is the key to why this particular painting is treated as the public birth of a movement rather than just a big sad picture.
+      </p>
+      <p style={proseStyle}>
+        A painting of a burial — and what it buries, he says, is not only his great-uncle but an entire way of making art.
+      </p>
+
+      <SectionHeader accent={accent} label="What 'Romanticism' meant" title="The thing in the grave" />
+      <p style={proseStyle}>
+        To get the line you have to know what was in the coffin. <strong>Romanticism</strong> (the generation of painting just before Courbet) was, the Realism overview explains, the academy's opposite excess: exotic settings, heaving drama, shipwrecks and harems and battlefield agony, emotion cranked to the ceiling. Where the academy painted cold marble gods, the Romantics painted hot fevered passion. They were enemies of each other, but from Courbet's point of view they were the same enemy: both were ways of <em>not</em> painting the actual, ordinary, present-tense world. One escaped into antiquity; the other escaped into drama. Neither would deign to paint a Tuesday in Ornans.
+      </p>
+      <p style={proseStyle}>
+        So when Courbet says the Burial buried Romanticism, he means this flat, gray, unbeautiful, undramatic, completely real funeral is the thing that kills the fever dream. You cannot look at this hole in the ground, this bored dog, these double chins, and still believe art's only proper business is gods and shipwrecks. The painting does not argue against Romanticism. It simply stands there being real at enormous scale, and makes the alternative look like costume drama.
+      </p>
+      <p style={proseStyle}>
+        It helps that Courbet was not theorizing alone. The philosopher <strong>Pierre-Joseph Proudhon</strong> (1809–1865) — an Ornans man himself, and France's most famous radical thinker — was Courbet's friend and intellectual partner for years, and read Courbet's painting as social truth-telling, art with a public conscience. The self-understanding behind "the burial of Romanticism" was sharpened in that company, not generated in a vacuum.
+      </p>
+
+      <SectionHeader accent={accent} label="A manifesto before the manifesto" title="Realism goes public" />
+      <p style={proseStyle}>
+        The Realism overview tells the famous later moment: 1855, the Pavilion of Realism, the tent Courbet built across from the world's fair with a printed catalogue inside, the place where Realism finally got its <em>name</em> in writing and its argument on paper. That is where Realism became a stated program.
+      </p>
+      <p style={proseStyle}>
+        But the Burial came five years earlier, and it made the argument with no words at all. It is the movement's public birth as a <em>fact</em> before it was a public birth as a <em>theory</em>. In 1850, before there was a tent or a catalogue or the word "Realism" on a sign, there was already a ten-foot wall of plain reality hanging in the official Salon, forcing every visitor in France to deal with it. The painting did the work a manifesto does — declared what art was now allowed to be about — except it declared it in oil instead of ink, and it declared it inside the enemy's own building. The tent of 1855 put Realism into words. The Burial of 1850 had already put it on the wall.
+      </p>
+
+      <SectionHeader accent={accent} label="What it cracked open" title="The subject of art" />
+      <p style={proseStyle}>
+        Step back and the size of the rupture is clear. Before the Burial, the question "what is a serious painting allowed to be <em>about</em>?" had an official answer, ranked and policed: gods at the top, the present at the bottom. After the Burial — and after the fight it started — that answer was permanently in doubt. Courbet had proved, on the largest possible canvas, in the most public possible room, that the ordinary contemporary world could carry the full weight and scale of the grandest art. He did not single-handedly cause everything that followed (the honest version resists hanging a whole century on one canvas). But the crack he opened — the present is a fit subject for serious art, at any scale a painter dares — is the crack the rest of modern painting pours through.
+      </p>
+    </article>
+  )
+}
+
+function BuAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="From the artist to the nation" title="Juliette's gift" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting outlived its painter, and the way it entered the public collections is its own quiet ending. Courbet's later life went badly: the Realism overview tells how his politics caught up with him after the Paris Commune of 1871 (the brief revolutionary workers' government in Paris, which Courbet publicly backed) and he died in exile in Switzerland in 1877. The Burial — this enormous, hard-to-house, once-scandalous thing — was still in the family.
+      </p>
+      <p style={proseStyle}>
+        It was Courbet's sister, <strong>Juliette Courbet</strong> — one of the women you can find in the canvas itself — who handed the painting to France. By the standard account she gave it to the State in <strong>1881</strong>, four years after her brother's death, donating to the nation the very canvas the nation's official Salon had once recoiled from. Sit with that for a second. The picture the academy had treated as an assault on its values — the thing the critics called ugly and dangerous — was given, for free, by the dead painter's sister, into the permanent keeping of the country whose taste it had outraged. The outrage became the heirloom.
+      </p>
+
+      <SectionHeader accent={accent} label="Louvre to Orsay" title="The wall it hangs on now" />
+      <p style={proseStyle}>
+        For a long time the Burial hung in the <strong>Louvre</strong>, the great Paris museum, taking its place at last among the very history paintings it had once mocked. Then, in <strong>1986</strong>, the <strong>Musée d'Orsay</strong> (the Paris museum dedicated to nineteenth-century art, installed in a converted former railway station on the Left Bank) opened, and the Louvre's nineteenth-century collection moved across the river to fill it. The Burial went with it.
+      </p>
+      <p style={proseStyle}>
+        It is there now, in the Musée d'Orsay, and you can stand at the back of that country funeral any day the museum is open. The canvas that once needed defending hangs as a fixed point of the national collection, a thing schoolchildren are walked past as obviously important — which is the strangest fate of all for a painting whose entire scandal was that it refused to be obviously important.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The painting where the subject cracked open" />
+      <p style={proseStyle}>
+        So what is the Burial today, beyond a famous big picture of a sad day in a small town? It is the canvas where the <em>subject matter</em> of modern art split open. Every later painter who pointed a serious brush at an ordinary contemporary thing — a railway carriage of the tired poor, a bottle of absinthe, a haystack at noon, a soup can — is working in the space Courbet pried open with a country funeral.
+      </p>
+      <p style={proseStyle}>
+        The throughline is worth saying flat, one more time: he took the single most ordinary event there is, the burial of an unimportant man in a backwater town, and he painted it at the size and with the seriousness Europe reserved for the death of kings and saints. No hierarchy, no idealization, no hero — more than forty real villagers, life-size, standing around a hole in the ground, with a bored dog in front and the bones of the last occupant scattered in the dirt. That mismatch of humble subject and monumental scale was the scandal, and it was also the door. Realism walked through it first. Everything restless in modern painting walked through after.
+      </p>
+    </article>
+  )
+}
+
 type NarrativeFn = (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement
 
 // A chapter whose prose isn't written yet — graceful placeholder so a partly
@@ -1714,6 +1913,13 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
     reading: TmReading,
     elegy: TmElegy,
     afterlife: TmAfterlife,
+  },
+  burial: {
+    town: BuTown,
+    frieze: BuFrieze,
+    salon: BuSalon,
+    romanticism: BuRomanticism,
+    afterlife: BuAfterlife,
   },
 }
 
