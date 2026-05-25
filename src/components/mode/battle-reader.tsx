@@ -94,8 +94,8 @@ export function BattleSectionReader({
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </button>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.eyebrow}</div>
-            <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.15, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{n.title}</div>
+            <div style={{ fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>{n.eyebrow}</div>
+            <div style={{ fontFamily: SERIF, fontSize: 15, lineHeight: 1.25 }}>{n.title}</div>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ export function BattleSectionReader({
           <a href={`${battleHref}/s/${nextId}`} style={{ marginTop: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, border: `1px solid ${alpha(accent, 0.4)}`, borderRadius: 12, padding: '14px 16px', background: alpha(accent, 0.06), textDecoration: 'none', color: 'inherit' }}>
             <div style={{ minWidth: 0 }}>
               <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: accent }}>Next section</div>
-              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.2, marginTop: 2, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{next.title}</div>
+              <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.25, marginTop: 2 }}>{next.title}</div>
             </div>
             <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 20, fontWeight: 600, color: accent }} aria-hidden>→</span>
           </a>
