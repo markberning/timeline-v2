@@ -219,7 +219,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
           palette: ['#6b5a3a', '#3a2e1c', '#14100a'],
           imageUrl: ART_IMG.salonHang,
           focus: '50% 42%',
-          credit: 'Martini, The Salon of 1787 (engraving) · The Met',
+          credit: 'Martini after Ramberg, Salon of 1787 (engraving) · The Met',
           imgLabel: 'The Salon hung floor-to-ceiling',
         }} />
         {movements.map(m => {

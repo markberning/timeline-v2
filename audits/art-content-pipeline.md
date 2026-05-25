@@ -4,14 +4,17 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: ACTIVE — run five times (2026-05-23 Modern era + Cubism; 2026-05-24
+**Status: ACTIVE — run six times (2026-05-23 Modern era + Cubism; 2026-05-24
 Kahnweiler; Chair Caning; Horta + Violin and Jug; and the final FOUR — Three Women,
 The Portuguese, Gris's Breakfast, Three Musicians — completing the 9-work Cubism
-chain).** See the proof-run logs at the bottom. This is the
+chain; 2026-05-25 the Modern era "Lay of the land" prologue chapter).** See the
+proof-run logs at the bottom. This is the
 mandatory gate for every Art section — **do NOT author-and-ship; run all five critic
-gates every time** (the Kahnweiler run re-learned this the hard way; every run
-since has been gated from the start). **Still owed:** the Demoiselles WORK reader
-(5 ch) was authored before the pipeline existed and has not yet been through the gates.
+gates every time** (the Kahnweiler run re-learned this the hard way, and the
+"Lay of the land" run re-learned it AGAIN — it was first hand-authored-and-shipped
+before the user caught it; every gated run has held). **Still owed:** the
+Demoiselles WORK reader (5 ch) was authored before the pipeline existed and has not
+yet been through the gates.
 
 ## Governing principle
 Same spine as War: **storytelling is the #1 goal; accuracy / zero-hallucination is
@@ -356,3 +359,38 @@ Cubism&rdquo; to 9 of 9. Scope notes:
 - Coordinator gates 6–7 PASS; tsc + eslint clean; build green; all 20 new routes render.
   **The Cubism movement is now a complete 9-work survey, 1907–1921, across Picasso, Braque
   and Gris.**
+
+## Proof run 6 — DONE (2026-05-25) — Modern era "Lay of the land" prologue (kind: ERA)
+The Modern era read gained an opening scene-setter chapter (`/art/mod/s/land`,
+"The world before the revolt") — the runway BEFORE the seven movement chapters:
+the academic/Salon system c.1850 and the modern forces about to crack it. **Lesson
+RE-LEARNED a second time:** the chapter was first **hand-authored-and-shipped with
+NO gates** (turned the dead dossier "Lay of the land" card into a real article +
+gave it a card image). The user caught it — "use the pipeline that is already setup
+… as we do for all articles" — and the full run was redone properly. The gates
+earned their keep again:
+- **Fact-checker** (web) — 0 flat errors, but corrected **Cabanel's professorship
+  to 1864** (the hand-draft said 1863 "the same year"; he was *elected to the
+  Académie* in 1863 but *appointed professor at the École* in 1864), and required
+  the Martini engraving credit to name **"after Johann Heinrich Ramberg"** (the
+  designer behind the engraver). Confirmed the Salon-venue chronology (Louvre to
+  1848 → Palais de l'Industrie from 1857), so the hand-draft's "iron-and-glass hall
+  *by the 1850s*" was a real anachronism the pipeline removed.
+- **Framing** — TILTED → fixed: the training paragraph described "a student… he"
+  without noting the official ladder was **closed to women** (the École admitted no
+  women until **1897**; they trained in private ateliers — the Académie Julian, from
+  1868, gave them the live model the École withheld). New material → fact-checked by
+  the coordinator before it was written in (the cross-gate rule).
+- **Storytelling/looking** — GOOD; drove a second beat of *looking* at the Cabanel
+  (the poreless, never-alive skin) so the "wedding cake" verdict is earned, and
+  un-hedged the Meanwhile card to end on the stronger line.
+- **Clarity** — glossed Félibien ("royal court historian") and dropped the bare
+  "prefect" for Haussmann ("chief city-planner").
+- **Comprehensiveness** — no MUST-ADD at era altitude; folded in naming the **Salon
+  jury** as the gatekeeping mechanism.
+- **Nesting gate 7** — the chapter sets the STAGE Chapter 1 ("The Salon and its
+  enemies") then acts on: Courbet's tent and Manet's scandals stay in Ch1; this
+  chapter ends on a one-line hand-off to the tent. No contradictions across the two.
+- Coordinator gates 6–7 PASS (both figures Commons PD-worldwide, load-checked,
+  captions/credits/locations correct); tsc + eslint clean; route renders. Pipeline
+  artifacts in `audits/art-pipeline/` (fact pack, draft, the five gate reports).

@@ -35,79 +35,154 @@ const STEEL = ['#1c1c1c', '#a0a0a0', '#d6cf3f'] as [string, string, string]
 const LandNarrative: Narrative = ({ accent, onZoom }) => (
   <>
     <article style={{ padding: '18px 18px 40px' }}>
-      <SectionHeader accent={accent} label="Paris · around 1850" title="One way to be a painter" first />
+      <SectionHeader accent={accent} label="Paris · around 1850" title="One ladder, and the State owned it" first />
       <p style={proseStyle}>
         <DropCap accent={accent}>B</DropCap>
         efore anybody breaks anything, look at what there was to break. In France around 1850 there was exactly
-        one ladder to a painting career, and the State owned it. The{' '}<strong>Académie des Beaux-Arts</strong>{' '}—
-        the art wing of the country&rsquo;s official academy of approved excellence — decided what good painting
-        was, trained the painters who made it, and showed the results once a year in one enormous room. Miss that
-        ladder and you did not have a career. You had a hobby.
+        one way to become a painter, and it was less a profession than a single narrow staircase with the State
+        standing at the top of it. The{' '}<strong>Académie des Beaux-Arts</strong>{' '}(the art wing of the Institut de
+        France, the country&rsquo;s official body of approved excellence) decided what counted as good painting,
+        trained the painters who made it, and showed the results once a year in one enormous public hall. Climb
+        that staircase and you had collectors, commissions, a name. Miss it and you did not have a career. You had
+        a hobby.
       </p>
       <p style={proseStyle}>
-        The training was a long boot camp. At the{' '}<strong>École des Beaux-Arts</strong>, the state art school, a
-        student drew from plaster casts and then live models for years before he was trusted with serious colour;
-        the supreme prize, the{' '}<em>Prix de Rome</em>, shipped its winner off to Italy to copy the old masters at
-        the country&rsquo;s expense. The house style this produced prized{' '}<em>fini</em>{' '}— a surface blended so
-        smoothly you could not find a single brushstroke — and clean drawing over loose colour. Above all it
-        enforced a strict pecking order of subjects: grand scenes from myth, scripture and history at the top,
-        portraits below that, scenes of ordinary life lower still, and a landscape or a bowl of fruit scraping the
-        bottom. A young painter who wanted respect painted gods, not greengrocers.
+        The training was a long boot camp, and the order in which you were allowed to do things tells you
+        everything about what the institution valued. At the{' '}<strong>École des Beaux-Arts</strong>{' '}(the state art
+        school) a student spent years drawing — first from plaster casts of antique statues, then from the live
+        model — before he was trusted to touch serious paint at all.{' '}<em>He</em>, and it mattered: the official
+        school admitted no women at all until 1897. A woman who wanted real training got it in the private studios
+        — the{' '}<strong>Académie Julian</strong>, opened in 1868, was the famous one, and it gave its women students
+        the thing the École withheld, a live nude model to draw from. For half the population the State staircase
+        simply had no bottom step. The supreme prize was the{' '}<strong>Prix de Rome</strong>{' '}(a State-funded
+        scholarship to study the old masters), which shipped its winner off to the{' '}<strong>Villa Medici</strong>{' '}in Rome at the country&rsquo;s expense to copy the masters for years on end. The house style this machine
+        produced prized{' '}<em>fini</em>{' '}(a surface blended so smoothly that you could not find a single brushstroke
+        if you went looking) — the paint was supposed to disappear, leaving only the picture — and clean line and
+        drawing over loose, expressive colour.
       </p>
       <p style={proseStyle}>
-        All of it funnelled into a single event: the{' '}<strong>Salon</strong>, the Académie&rsquo;s official
-        exhibition, named for the Louvre room where it started and by the 1850s filling a cavernous iron-and-glass
-        hall. This was the only theatre in town — the one place where hundreds of thousands of Parisians came to
-        look at, fight over, and buy new art. Win a medal there and you had collectors, commissions, a future. And
-        where you hung mattered enormously, because pictures were stacked frame-to-frame from knee height to the
-        ceiling; a canvas &ldquo;skied&rdquo; up in the rafters was a canvas nobody would ever really see.
+        And it enforced a strict pecking order of{' '}<em>subjects</em>, a ranking formalised back in 1667 by the
+        royal court historian André Félibien and still running the show two centuries later — the{' '}<strong>hierarchy of genres</strong>. Think of it as a caste system for things you could paint. At the very top
+        sat history painting (grand scenes from myth, scripture, ancient history and allegory, full of the human
+        body at heroic size), the only category serious enough to win a man real glory. At the very bottom sat the
+        still life — a bowl of fruit, a dead pheasant, painted small. The principle was blunt: gods at the top, a
+        bowl of fruit at the bottom, with the more ordinary subjects strung out in between. A young painter who
+        wanted respect painted gods, not greengrocers.
+      </p>
+
+      <SectionHeader accent={accent} label="The one room" title="Where careers were made and skied" />
+      <p style={proseStyle}>
+        All of it funnelled into a single event. The{' '}<strong>Salon</strong>{' '}was the Académie&rsquo;s official
+        public exhibition, and it was the only theatre in town — the one place where a wide Paris public, hundreds
+        of thousands of people, came each year to look at, fight over and actually{' '}<em>buy</em>{' '}new art. The
+        Académie held a monopoly on it right through 1880, so in the 1850s the Salon was, flatly, a State-run
+        institution. What got in was decided by the{' '}<strong>Salon jury</strong>{' '}— a panel of Académie members and
+        state appointees who reviewed the year&rsquo;s submissions and ruled each one in or out. A medal there
+        meant a future; rejection meant the dark. Its home kept moving in these years (it had outgrown the Louvre
+        by 1848 and used various halls through the early 1850s before settling, from 1857, into the cavernous
+        iron-and-glass Palais de l&rsquo;Industrie), but the{' '}<em>experience</em>{' '}of it barely changed for a
+        century.
+      </p>
+      <p style={proseStyle}>
+        That experience was a wall of paintings stacked frame-to-frame from knee height all the way to the
+        ceiling, dozens of feet up. Run your eye up that wall: the higher a canvas climbed, the harder it was to
+        see, until near the top the pictures were just coloured rectangles tilted down at a crowd that would never
+        read them. Where your picture landed decided its fate. The prime band, at eye level, was called being{' '}<strong>&ldquo;on the line&rdquo;</strong>{' '}— seen, studied, reviewed, sold. A picture hung up near the rafters
+        was said to be{' '}<strong>&ldquo;skied,&rdquo;</strong>{' '}and a skied canvas was, for all practical purposes, an
+        invisible one: nobody craned their neck three storeys up to discover a genius. The hang was the verdict
+        before the verdict.
       </p>
       <PaintingFigure
         onZoom={onZoom}
         palette={SALON}
         imageUrl={ART_IMG.salonHang}
-        ratio="3/2"
-        alt="The Salon hung floor-to-ceiling, paintings stacked frame to frame"
-        caption={<>The whole game in one room: paintings packed from knee height to the rafters, and a crowd come to judge. The hang barely changed for a century.</>}
-        credit={<>Pietro Antonio Martini,{' '}<em>The Salon of 1787</em>{' '}(engraving) · The Met, New York</>}
+        ratio="4/3"
+        alt="The Salon hung floor-to-ceiling, paintings stacked frame to frame above a crowd"
+        caption={<>The whole game in one room. Paintings packed frame to frame from knee height to the rafters, and a crowd come to judge — and to buy. Where your canvas landed on this wall decided whether it had a career.</>}
+        credit={<>Pietro Antonio Martini, after Johann Heinrich Ramberg,{' '}<em>Exposition au Salon du Louvre en 1787</em>{' '}(engraving), 1787 · The Met, New York</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
+      <p style={{ ...proseStyle, fontSize: 13.5, fontStyle: 'italic', opacity: 0.72 }}>
+        The engraving above shows the Salon of 1787, some sixty years before our moment — it is here because the
+        floor-to-ceiling hang it records had barely changed by 1850.
+      </p>
 
       <SectionHeader accent={accent} label="The official taste" title="What the jury loved" />
       <p style={proseStyle}>
-        The taste at the top ran to the polished and the mythological. The emperor{' '}<strong>Napoleon III</strong>{' '}himself bought{' '}<strong>Alexandre Cabanel</strong>&rsquo;s{' '}<em>The Birth of Venus</em>{' '}straight off the
-        1863 Salon wall — a nude goddess afloat on the foam in flawless, soft-focus, almost edible finish. This was
-        exactly the kind of nakedness the Salon adored, for a reason worth keeping in your head: a{' '}<em>goddess</em>{' '}was Art and therefore decent, while a real modern woman in the same pose would be filth. Hold this
-        painting in your eye — within two years a man named Manet will paint its evil twin, and the same crowd that
-        swooned here will try to attack his canvas with their umbrellas.
+        So what did all this training, all this State machinery, actually want a painting to{' '}<em>look</em>{' '}like?
+        Stand in front of{' '}<strong>Alexandre Cabanel</strong>&rsquo;s{' '}<em>The Birth of Venus</em>{' '}and you have
+        your answer, because the establishment did not merely admire this picture — it embraced it as its own
+        ideal. A nude goddess lies stretched along the crest of a low wave, eyes half-closed, one arm thrown
+        languidly back over her head, her body a single unbroken sweep of pearly, soft-focus flesh. The sea is a
+        flat, untroubled blue-green; a little fizz of foam supports her; a handful of plump cherubs tumble through
+        the air above. Look as hard as you like and you will not find a brushstroke — the surface is licked smooth,{' '}<em>fini</em>{' '}taken to its limit, the paint sanded out of existence so nothing comes between you and the
+        illusion. Now look at the skin. There is not a pore on it, not a blemish, not a crease where she has lain
+        on the water, no flush of blood, no mark that any real body or any human hand was ever in the room. It is
+        flawless the way a thing is flawless when it has never been alive. And there is the catch: it is
+        technically faultless and slightly too sweet, like a wedding cake.
+      </p>
+      <p style={proseStyle}>
+        The jury adored it, and so did the man at the very top: shown at the 1863 Salon, it was bought for the
+        imperial collection by the Emperor,{' '}<strong>Napoleon III</strong>, straight off the wall. Cabanel was
+        elected to the Académie des Beaux-Arts that same year and handed a professorship at the École the next —
+        the institution rewarding the man who had painted its perfect picture and then handing him the next
+        generation to train. Keep this canvas in your eye, because almost everything the coming rebels did, they
+        did{' '}<em>against</em>{' '}it.
       </p>
       <PaintingFigure
         onZoom={onZoom}
         palette={ACADEMY}
         imageUrl={ART_IMG.cabanelVenus}
         ratio="16/9"
-        alt="Cabanel, The Birth of Venus — a smooth academic nude"
-        caption={<>The Salon&rsquo;s ideal: a goddess, not a woman; a finish so seamless the paint disappears. The Emperor bought it on the spot.</>}
+        alt="Cabanel, The Birth of Venus — a smooth academic nude reclining on the foam"
+        caption={<>The Salon&rsquo;s ideal made flesh — a goddess, not a woman, and a finish so seamless the paint itself disappears. Shown in 1863, bought for the imperial collection by the Emperor, and its painter handed a professorship at the École the next year.</>}
         credit={<>Alexandre Cabanel,{' '}<em>The Birth of Venus</em>, 1863 · Musée d&rsquo;Orsay, Paris</>}
         rights="Public domain worldwide. Wikimedia Commons."
       />
 
       <SectionHeader accent={accent} label="Meanwhile, the ground shifts" title="The modern world loads the gun" />
       <p style={proseStyle}>
-        While the Académie polished its surfaces, the modern world was quietly arming the rebellion. In 1839{' '}<strong>photography</strong>{' '}arrived and did in a few seconds, perfectly, the one thing painters had been paid
-        to do for four hundred years — make an exact likeness — which left painting suddenly free, or forced, to
-        chase the things a camera could not. In 1841 someone started selling oil paint in squeezable{' '}<strong> metal tubes</strong>, and for the first time a painter could walk out the door with his colours and work in
-        front of an actual haystack instead of reconstructing it from memory indoors. New{' '}<strong>railways</strong>{' '}carried him out to that haystack for a few francs. And{' '}<strong>Paris itself</strong>{' '}was being torn down
-        and rebuilt into wide boulevards, gas-lit cafés and department-store windows — a glittering modern
-        spectacle begging to be painted, if only painting modern life had been allowed.
+        While the Académie polished its surfaces, the modern world was quietly loading the gun that would go off in
+        its face. The first round had landed already: in 1839 the French government bought the rights to a new
+        invention and released it to the world — the{' '}<strong>daguerreotype</strong>, the first practical
+        photograph, a hard, perfect image fixed on a silvered copper plate. In seconds, and flawlessly, a machine
+        could now do the one job painters had been paid handsomely to do for four hundred years: produce an exact
+        likeness. A portrait painter&rsquo;s bread suddenly had a competitor that never blinked. That single fact
+        freed painting — or forced it — to go chasing the things a camera could not.
       </p>
       <p style={proseStyle}>
-        So the table was set for a fight, and underneath the costume changes it stayed the same fight for a
-        hundred years:{' '}<em>who gets to decide what a painting is for?</em>{' '}The Académie&rsquo;s answer was settled
-        and serene — beauty has rules, we know them, and the Salon is where you prove you have learned them. The
-        painters in the chapters ahead would answer, one after another,{' '}<em>make it new</em>. And the very first
-        of them would not bother arguing with the jury at all. When the world&rsquo;s fair turned his pictures
-        down, he simply built his own tent across the street.
+        Then the tools themselves changed. In 1841 an American painter in London named{' '}<strong>John Goffe Rand</strong>{' '}patented oil paint sold in collapsible metal tubes, the squeezable kind we still use, which for
+        the first time let a painter carry his colours out the door and set up in front of an actual haystack
+        rather than reconstructing it from memory in a studio. (The metal tube is{' '}<em>often credited</em>{' '}with
+        making{' '}<em>plein-air</em>{' '}painting — working outdoors, in front of the subject, in the open air — and even
+        Impressionism itself possible. That is the popular version of the story; the truth is that it helped,
+        alongside several other things.) New railways then carried the painter and his portable colours out of
+        Paris to the coast and the countryside for a few francs. And Paris itself was being gutted and rebuilt:
+        from the early 1850s, under Napoleon III, his chief city-planner,{' '}<strong>Baron Haussmann</strong>, drove
+        wide new boulevards through the medieval tangle and lined them with gas lamps, cafés, grand apartment
+        blocks and department-store windows — a glittering, modern spectacle that all but begged to be painted, if
+        only painting modern life had been allowed.
+      </p>
+
+      <SectionHeader accent={accent} label="The stakes" title="Who decides what a painting is for?" />
+      <p style={proseStyle}>
+        So the table was set, and underneath every costume change to come — the loose brushwork, the wild colour,
+        the shattered perspective — it stayed the same fight for a hundred years:{' '}<em>who gets to decide what a
+        painting is for?</em>{' '}The Académie&rsquo;s answer was settled and serene. Beauty, in this view, has rules;
+        the Académie knows them; and the Salon is simply where you prove you have learned them. (That is the
+        institution&rsquo;s attitude put into plain words, not a quotation — nobody at the Académie said it quite
+        like that.) It was a closed system, and for two centuries it had worked beautifully for the people inside
+        it.
+      </p>
+      <p style={proseStyle}>
+        What it could no longer do was hold. A new kind of buyer was appearing, and with it the faint beginnings
+        of a private art trade that might one day let a painter live without the jury&rsquo;s blessing at all. The
+        disruptors were in place; the audience was changing; the painters of the chapters ahead would answer the
+        Académie&rsquo;s serene certainty with two reckless words:{' '}<em>make it new</em>. These restless newcomers,
+        running out ahead of respectable taste, are what the era will keep calling the{' '}<strong>avant-garde</strong>{' '}(a military term, the scouts who go out in front of the main army, borrowed for the artists who got somewhere
+        first). And the very first of them would not bother arguing with the jury at all. When the world&rsquo;s
+        fair turned his pictures down, he simply built his own tent across the street — and that is where the next
+        chapter begins.
       </p>
     </article>
 
@@ -115,7 +190,7 @@ const LandNarrative: Narrative = ({ accent, onZoom }) => (
       accent={AMBER}
       region="the Paris art market"
       title="A new buyer changes who needs the jury."
-      body="A rising middle class wanted smaller, cheaper pictures for ordinary walls, not ceiling-high mythologies — and a new kind of private art dealer was starting to sell directly to them. The Salon was still the only stage, but for the first time there was the faint outline of a way to live without it."
+      body="A rising middle class wanted smaller, cheaper pictures for ordinary walls, not ceiling-high mythologies — and a new kind of private art dealer was beginning to sell to them directly, outside the Salon. No alternative to the official machine yet, but for the first time there was the faint outline of a way to live without it."
     />
   </>
 )
