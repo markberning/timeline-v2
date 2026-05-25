@@ -17,6 +17,20 @@ this?"), and a **Lost Cause / framing critic** ("is it FAIR — free of slavery-
 cause soft-pedaling, false balance, and Confederate romanticization?"). It ships
 only when all five pass.
 
+**EVERY SURFACE IS GATED, not just the main prose (locked 2026-05-25 — "make sure
+critical agents run for all sections in war, art, music").** A war "section" is every
+reader-facing factual surface it ships, and all of it runs through the same gates:
+the narrative prose, **battle cards + stats** (date, location, commanders, troop
+numbers, casualties, outcome), **map labels** (place names, unit positions, dates),
+**cast / person side-tags** (every named person tagged with their side on first
+mention — `feedback_war_person_side_tags`), **captions**, intros and summary lines. A
+casualty figure or a commander's name on a card is a claim — it gets fact-checked
+exactly like a sentence of prose; it is **not exempt for being a stat or a card**.
+Ship-gate checklist = this surface list, each critic-covered. (This is the war analog
+of the art retro that caught wrong facts hiding in ungated annotations + provenance;
+the shipped Civil War pilot's non-prose surfaces — battle stats/cards — owe the same
+retro fact-check pass.)
+
 **Why the newcomer/clarity gate (added 2026-05-23, user's idea).** The whole
 product is built for a reader with ZERO prior knowledge — every term inline-
 defined on first use, the scene set before new people/places/concepts arrive (the

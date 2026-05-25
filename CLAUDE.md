@@ -25,6 +25,17 @@ is a standing user directive, not a per-section choice: "make sure that from now
 all articles app-wide go through the critical authoring pipeline." The verticals
 share one spine (storytelling first; accuracy / zero-hallucination a hard floor;
 born-verified media) with per-vertical re-points:
+**The gates cover EVERY SURFACE of a section, not just its main prose (locked
+2026-05-25 — "make sure critical agents run for all sections in war, art, music").**
+A "section" is every reader-facing factual surface it ships: captions,
+look-closer / annotation pointers, provenance, stats, dimensions, medium, cards,
+cast/side tags, intros, summary bullets, lineage/parallels. All of it is content and
+runs through the SAME fact-checker + critics. **A short caption is not exempt for
+being short** — that exemption is exactly how wrong facts shipped (the *Demoiselles*
+"two left-hand faces in profile" annotation; the *Three Women* / Shchukin provenance;
+a wrong Degas title + price on *Demoiselles*). Each vertical's doc carries the
+surface checklist its ship-gate enforces. See
+`memory/feedback_pipeline_mandatory_all_verticals`.
 - **civ** — the 5-persona audit, `.claude/skills/audit-narrative.md` (Persona-D
   WEAK/REWRITE + Persona-E backward findings are ship-blocking; enforced at the
   ship-check gate, step 14 below).

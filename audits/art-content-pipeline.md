@@ -57,6 +57,21 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    faces … seen in profile" shipped wrong — there are *three* Iberian-style left faces
    and only the far-left is in profile — because annotations were authored but never
    run through this gate. The same critics that read the narrative read the pointers.)
+
+   **EVERY SURFACE IS GATED — the checklist the ship-gate enforces (locked 2026-05-25,
+   "make sure critical agents run for all sections").** A work/movement is not just its
+   chapters. The fact-checker (and where relevant the other critics) must cover, for a
+   WORK: ① the hook/lead, ② the chapters, ③ the **Look-closer pointers** (`{label,
+   where, detail}` vs the image), ④ **stats** (medium, dimensions in ft/in **recomputed
+   from the museum's official cm**, date, current location, acquisition), ⑤ the full
+   **provenance** chain (every owner, order, dates, who-acquired-from-whom — *not*
+   "direct from the artist" when it went through a dealer/collector — prices, "gift/
+   never sold", accession), ⑥ figures/cast nameplates. For a MOVEMENT: the hook, the
+   chapters, the **lineage chips** (parents/children), **parallels**, **canon** rows,
+   artist nameplates. Provenance/stats were the second ungated surface caught (2026-05-25
+   retro pass): wrong price + Degas title on *Demoiselles*, wrong gallery city, a
+   missing-then-misframed Shchukin/La Roche chain, ⅛-inch dimension slips. None of these
+   are "metadata" — they are claims, and claims get fact-checked.
 2. **Storytelling & "looking" critic** (Sonnet) — judge as a story AND as art
    writing. Grade per chapter STRONG / GOOD / NEEDS WORK / REWRITE. Hook & stakes,
    pacing, voice — PLUS the art-specific axis: **does it make the reader see the

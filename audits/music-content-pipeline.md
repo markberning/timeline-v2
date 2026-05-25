@@ -14,7 +14,24 @@ at the bottom and flip this to ACTIVE.
 
 ## Governing principle (shared with civ / war / art)
 **Storytelling is the #1 goal; accuracy / zero-hallucination is a hard floor it may
-never cross.** Two music-specific additions (the analogs of art's "make them SEE
+never cross.**
+
+**EVERY SURFACE IS GATED, not just the main prose (locked 2026-05-25 — "make sure
+critical agents run for all sections in war, art, music"; born into this doc before
+the first music article so the mistake the other verticals made never happens here).**
+A music "section" is every reader-facing factual surface it will ship, and all of it
+runs through the same fact-checker + critics: the narrative prose, **track/album
+stats** (release date, label, personnel, producer, chart/sales figures, runtime),
+**look/listen-closer pointers** (what happens in which bars / at which timestamp —
+verified against the actual recording, the audio analog of art's image-checked
+Look-closer), **captions** on score/cover images, artist nameplates, intros, summary
+lines, lineage/influence chips. A chart position or a personnel credit on a card is a
+claim — fact-checked exactly like a sentence; **not exempt for being a stat or a
+card.** Ship-gate checklist = this surface list, each critic-covered. (This rule is
+the art/war retro lesson, applied pre-emptively: wrong facts hide in the small
+ungated surfaces — annotations, provenance, stats — not only in the prose.)
+
+Two music-specific additions (the analogs of art's "make them SEE
 it" + born-verified images):
 
 - **Make the reader HEAR it.** Music is sound. A chapter that narrates music-history

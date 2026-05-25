@@ -677,11 +677,11 @@ export const DEMOISELLES: ArtWorkContent = {
   // FLAG: provenance prices below are from the mockup — verify before shipping.
   provenance: [
     { year: '1907–1924', who: 'Pablo Picasso (the artist)', place: 'Bateau-Lavoir, Paris', note: 'Rolled up in the studio. Shown publicly once, briefly, at the Salon d’Antin in 1916.', price: null },
-    { year: '1924', who: 'Jacques Doucet', place: 'Paris', note: 'Couturier and book collector. Buys the canvas for 25,000 francs (≈ $1,300 in 1924; about $20,000 today).', price: '25,000 ₣ (1924)' },
+    { year: '1924', who: 'Jacques Doucet', place: 'Paris', note: 'Couturier and book collector. Buys the canvas for 25,000 francs — a modest price for what it would become; within months it was appraised at ten times that.', price: '25,000 ₣ (1924)' },
     { year: '1924–1929', who: 'Doucet collection', place: 'Paris', note: 'Hangs at the foot of Doucet’s staircase. Visitors complained about climbing past it.', price: null },
-    { year: '1937', who: 'Galerie Seligmann', place: 'Paris', note: 'Doucet’s widow consigns the painting; the gallery takes it to New York to find an institutional buyer.', price: null },
-    { year: '1939', who: 'Museum of Modern Art', place: 'New York', note: 'MoMA acquires the painting through the Lillie P. Bliss Bequest, in exchange for Degas’s Race Course at Longchamp and ≈ $24,000 cash. Equivalent to roughly $530,000 today.', price: '≈ $28,000 (1939)', museum: true },
-    { year: '1939–today', who: 'Museum of Modern Art', place: 'New York', note: 'On near-continuous view. Loaned once, to the Musée Picasso in Paris (1988). Insured value not disclosed; private estimates have placed it above $1.2 billion.', price: 'never resold', museum: true },
+    { year: '1937', who: 'Jacques Seligmann & Co.', place: 'New York', note: 'Doucet’s widow sells the painting; the New York gallery shows it, looking for an institutional buyer.', price: null },
+    { year: '1939', who: 'Museum of Modern Art', place: 'New York', note: 'MoMA buys the painting for $24,000 through the Lillie P. Bliss Bequest — raising $18,000 by selling a Degas (Jockeys on Horseback before Distant Hills) and the rest from the dealers Germain Seligman and César de Hauke.', price: '$24,000 (1939)', museum: true },
+    { year: '1939–today', who: 'Museum of Modern Art', place: 'New York', note: 'On near-continuous view; it rarely travels. Insured value undisclosed — long treated as effectively priceless.', price: 'never resold', museum: true },
   ],
   figures: [
     { name: 'Picasso', role: 'The painter', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
@@ -844,7 +844,7 @@ export const HORTA: ArtWorkContent = {
   era: 'Modern',
   eraId: 'mod',
   medium: 'Oil on canvas',
-  dimensions: '2 ft 1½ in × 2 ft 8 in',
+  dimensions: '2 ft 1⅝ in × 2 ft 7⅞ in',
   location: 'Museum Berggruen, Berlin',
   acquired: 'Acquired 2003',
   accent: ART_ACCENTS.violet,
@@ -856,7 +856,7 @@ export const HORTA: ArtWorkContent = {
   rights: 'pd-us',
   stats: [
     { v: '1909', k: 'Painted' },
-    { v: '2′1½″ × 2′8″', k: 'Dimensions' },
+    { v: '2′1⅝″ × 2′7⅞″', k: 'Dimensions' },
     { v: 'Berggruen', k: 'Now at' },
   ],
   sections: [
@@ -868,10 +868,10 @@ export const HORTA: ArtWorkContent = {
   ],
   provenance: [
     { year: '1909', who: 'Pablo Picasso (the artist)', place: 'Horta de Sant Joan, Catalonia', note: 'Painted over the summer in his friend Pallarès’s village, then rolled up and carried back to Paris.', price: null },
-    { year: 'by 1960s', who: 'Nelson A. Rockefeller', place: 'New York', note: 'The canvas enters the celebrated modern collection of the financier and future US vice-president.', price: null },
+    { year: 'by the 1970s', who: 'Nelson A. Rockefeller', place: 'New York', note: 'The canvas enters the celebrated modern collection of the oil heir, New York governor and future US vice-president.', price: null },
     { year: '1979', who: 'Museum of Modern Art', place: 'New York', note: 'Bequeathed to MoMA on Rockefeller’s death — for decades one of the museum’s landmark early Cubist paintings.', price: null, museum: true },
     { year: '2003', who: 'Sold by MoMA (via Acquavella)', place: 'New York', note: 'In a deaccession that appalled some critics, MoMA sold the Horta — reported at $12–15 million — through Acquavella Galleries to raise acquisition funds.', price: '≈ $12–15m (2003)' },
-    { year: 'today', who: 'Museum Berggruen', place: 'Berlin', note: 'Bought by the Berlin-born dealer-collector Heinz Berggruen; now described by his museum as one of its most significant works.', price: null, museum: true },
+    { year: '2003–today', who: 'Museum Berggruen', place: 'Berlin', note: 'The Berlin-born dealer-collector Heinz Berggruen buys it from the MoMA sale and adds it to his collection, by then the state-owned Museum Berggruen, which calls it one of its most significant works.', price: null, museum: true },
   ],
   figures: [
     { name: 'Picasso', role: 'The painter', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
@@ -935,7 +935,7 @@ export const VIOLIN_JUG: ArtWorkContent = {
   ],
   provenance: [
     { year: '1909–10', who: 'Georges Braque (the artist)', place: 'Paris', note: 'Painted in Montmartre over the winter, at the height of the daily Picasso–Braque exchange.', price: null },
-    { year: 'by the 1920s', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and collector — a friend of the architect Le Corbusier — buys Cubism early, when almost no one else will touch it.', price: null },
+    { year: 'from 1921', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and friend of Le Corbusier buys heavily at the 1921 Kahnweiler sequestration sale (Braque’s dealer stock, seized in the war), building one of the deepest private Cubist collections.', price: null },
     { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'La Roche gives his Cubist collection to his home city’s museum in stages, across three donations — making Basel a stronghold of the movement.', price: null, museum: true },
   ],
   figures: [
@@ -997,7 +997,7 @@ export const THREE_WOMEN: ArtWorkContent = {
   ],
   provenance: [
     { year: '1908', who: 'Pablo Picasso (the artist)', place: 'Paris', note: 'Painted in the year after the Demoiselles, in the Bateau-Lavoir studio on Montmartre.', price: null },
-    { year: 'c. 1913', who: 'Sergei Shchukin', place: 'Moscow', note: 'The Russian textile magnate — who over six years bought more than fifty Picassos — carries it back to Moscow.', price: null },
+    { year: 'c. 1913', who: 'Sergei Shchukin', place: 'Moscow', note: 'The Russian textile magnate — introduced to Picasso by Matisse, and among the first anywhere to collect him — acquires it through the Paris trade and carries it to Moscow. He would gather more than fifty Picassos.', price: null },
     { year: '1918', who: 'Nationalised by the Soviet state', place: 'Moscow', note: 'The Revolution seizes Shchukin’s collection; he flees to Paris. His Picassos become state property.', price: null },
     { year: '1948', who: 'Hermitage Museum', place: 'Leningrad', note: 'Stalin breaks up the old collection between Moscow and Leningrad; this canvas goes to the Hermitage, where for decades it is rarely shown.', price: null, museum: true },
   ],
@@ -1061,7 +1061,7 @@ export const THE_PORTUGUESE: ArtWorkContent = {
   ],
   provenance: [
     { year: '1911', who: 'Georges Braque (the artist)', place: 'Paris / Céret', note: 'Painted partly in the Pyrenean town of Céret, where Braque and Picasso spent the summer working side by side.', price: null },
-    { year: 'by the 1920s', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and Le Corbusier’s friend buys it as part of his deep early collection of Cubism.', price: null },
+    { year: 'from 1921', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and Le Corbusier’s friend buys it at the 1921 Kahnweiler sequestration sale (Braque’s dealer stock, seized as enemy property in the war), part of his deep Cubist collection.', price: null },
     { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'Donated with the rest of La Roche’s Cubist holdings, in stages — making Basel a stronghold of the movement.', price: null, museum: true },
   ],
   figures: [
@@ -1098,10 +1098,10 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
   movementId: 'cubism',
   era: 'Modern',
   eraId: 'mod',
-  medium: 'Gouache, oil and crayon with pasted paper on canvas',
-  dimensions: '2 ft 8 in × 1 ft 11½ in',
+  medium: 'Gouache, oil and crayon on cut-and-pasted printed paper on canvas',
+  dimensions: '2 ft 7⅞ in × 1 ft 11½ in',
   location: 'Museum of Modern Art, New York',
-  acquired: '',
+  acquired: 'Lillie P. Bliss Bequest (by exchange), 1948',
   accent: ART_ACCENTS.violet,
   chain: { name: 'Works of Cubism', index: 8, total: 9 },
   hook: 'The third Cubist, Juan Gris, glued down printed wood-grain paper and a torn newspaper, painted a café breakfast on top, and hid his own name in the headline.',
@@ -1112,7 +1112,7 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
   rights: 'pd-us',
   stats: [
     { v: '1914', k: 'Made' },
-    { v: '2′8″ × 1′11½″', k: 'Dimensions' },
+    { v: '2′7⅞″ × 1′11½″', k: 'Dimensions' },
     { v: 'MoMA', k: 'Now at' },
   ],
   sections: [
@@ -1123,9 +1123,9 @@ export const GRIS_BREAKFAST: ArtWorkContent = {
     { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1914–today', title: 'The short, bright career', blurb: 'Gris died at forty with his reputation still catching up; his Breakfast now hangs at MoMA as the textbook Synthetic-Cubist collage.', progress: 0.95 },
   ],
   provenance: [
-    { year: '1914', who: 'Juan Gris (the artist)', place: 'Paris / Collioure', note: 'Made in the spring, just before the war, during Gris’s great burst of papiers collés.', price: null },
+    { year: '1914', who: 'Juan Gris (the artist)', place: 'Paris', note: 'Made early in 1914 (the collaged newspaper is dated February), during Gris’s great burst of papiers collés.', price: null },
     { year: 'from 1914', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Gris was under contract to Kahnweiler — the same dealer who backed Picasso and Braque — until the war scattered them.', price: null },
-    { year: 'today', who: 'Museum of Modern Art', place: 'New York', note: 'Now among MoMA’s core Cubist holdings, shown as the model of how collage rebuilt the still life.', price: null, museum: true },
+    { year: '1948', who: 'Museum of Modern Art', place: 'New York', note: 'Bought from Galerie Louise Leiris (Kahnweiler’s reconstituted gallery) through the Lillie P. Bliss Bequest; now among MoMA’s core Cubist holdings, the model of how collage rebuilt the still life.', price: null, museum: true },
   ],
   figures: [
     { name: 'Juan Gris', role: 'The painter', palette: ['#3a6a7a', '#8a6b3a', '#1c2a2e'] },
@@ -1187,8 +1187,8 @@ export const THREE_MUSICIANS: ArtWorkContent = {
   ],
   provenance: [
     { year: '1921', who: 'Pablo Picasso (the artist)', place: 'Fontainebleau', note: 'Painted over the summer in the garage of a rented villa, in two large versions at once.', price: null },
-    { year: 'by the 1930s', who: 'A. E. Gallatin', place: 'New York', note: 'The American collector hangs it in his Museum of Living Art at New York University — one of the first places Americans could see modern art for free.', price: null },
-    { year: '1952', who: 'Philadelphia Museum of Art', place: 'Philadelphia', note: 'Enters the museum with the A. E. Gallatin Collection, where it remains a centrepiece of the Cubist rooms.', price: null, museum: true },
+    { year: 'by the 1930s', who: 'A. E. Gallatin', place: 'New York', note: 'The American collector hangs it in his Gallery of Living Art at New York University (renamed the Museum of Living Art in 1936) — one of the first places Americans could see modern art for free.', price: null },
+    { year: '1943–52', who: 'Philadelphia Museum of Art', place: 'Philadelphia', note: 'Gallatin gives his collection to the museum in 1943 (when NYU reclaimed the gallery space); the bequest is completed on his death in 1952. A centrepiece of the Cubist rooms.', price: null, museum: true },
   ],
   figures: [
     { name: 'Picasso', role: 'The painter (Harlequin)', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
@@ -1336,7 +1336,7 @@ export const BURIAL: ArtWorkContent = {
   heroFit: 'contain', // the work hero shows the WHOLE ~2.1:1 panorama, never cropped
   rights: 'pd-us',
   stats: [
-    { v: '1850', k: 'Painted' },
+    { v: '1849–50', k: 'Painted' },
     { v: '10′4″ × 21′11″', k: 'Dimensions' },
     { v: 'Orsay', k: 'Now at' },
   ],
@@ -1348,9 +1348,9 @@ export const BURIAL: ArtWorkContent = {
     { id: 'afterlife', eyebrow: 'After', dateLabel: '1881–today', title: 'Afterlife', blurb: 'Juliette Courbet gives it to the nation in 1881; the Louvre to the Musée d’Orsay in 1986; the canvas where modern art’s subject cracked open.', progress: 0.96 },
   ],
   provenance: [
-    { year: '1849–1877', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted 1849–50 in Ornans; shown at the Salon of 1850–51; stayed with the artist through his career and his 1873 exile.', price: null },
+    { year: '1849–1877', who: 'Gustave Courbet (the artist)', place: 'Ornans / Paris', note: 'Painted 1849–50 in Ornans; shown at the Salon of 1850–51; it stayed with the artist until his death in Swiss exile in 1877.', price: null },
     { year: '1877–1881', who: 'The Courbet family', place: 'Ornans', note: 'After Courbet died in exile in Switzerland in 1877, the enormous canvas remained with his family.', price: null },
-    { year: '1881', who: 'Juliette Courbet (his sister)', place: 'Paris', note: 'Donates the painting to the French State — the very canvas the State’s official Salon had recoiled from thirty years earlier. Accession RF 325.', price: 'gift to the nation', museum: true },
+    { year: '1881', who: 'Juliette Courbet (his sister)', place: 'Paris', note: 'Donates the painting to the French State — the very canvas the State’s official Salon had recoiled from thirty years earlier.', price: 'gift to the nation', museum: true },
     { year: '1881–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Enters the national collections; for decades hangs in the Louvre, among the history paintings it had once mocked.', price: null, museum: true },
     { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Orsay opens in a converted railway station, the Louvre’s 19th-century collection crosses the river to fill it. On permanent view.', price: 'never sold', museum: true },
   ],
