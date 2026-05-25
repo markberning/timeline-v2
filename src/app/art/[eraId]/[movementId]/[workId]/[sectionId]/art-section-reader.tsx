@@ -1161,6 +1161,484 @@ function VjAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// Three Women (1908) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function TwSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Winter 1907–08" title="After the bomb" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ate in 1907 Picasso rolled up{' '}<em>Les Demoiselles d&rsquo;Avignon</em>, the jagged, savage canvas his own friends had recoiled from, and stood it against the wall. He was 26. He did not spend the next year defending it. He spent it working out what the explosion had been{' '}<em>for</em>. The Demoiselles was a collision — half its faces calm and Iberian, half gouged like masks, two styles at war in one frame. What Picasso wanted next was to take that violence and make something{' '}<em>built</em>{' '}out of it: whole, solid, deliberate.{' '}<em>Three Women</em>{' '}is the year-long working-out.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
+        imageUrl={ART_IMG.demoiselles}
+        ratio="1/1"
+        alt="Picasso, Les Demoiselles d'Avignon, 1907"
+        caption={<>The picture he was digesting:{' '}<em>Les Demoiselles d&rsquo;Avignon</em>, 1907. Three Women takes its shock and tries to build something solid from it.</>}
+        rights={PD_RIGHTS}
+      />
+      <SectionHeader accent={accent} label="Two teachers" title="A dead painter and a room of masks" />
+      <p style={proseStyle}>
+        Two influences sat on his shoulders. One was{' '}<strong>Cézanne</strong>, the older painter whose memorial shows had stunned Paris in 1907, and whose advice — build a picture from solid blocks, the cylinder and the cone — pushed Picasso toward weighty, constructed form. The other was the{' '}<strong>carved African sculpture</strong>{' '}he had been hit by at the ethnographic museum in the Trocadéro: faces reduced to a few frontal planes, a mask instead of a likeness. Three Women fuses the two. Cézanne gives it the heft; the masks give it the faces. The result looks less painted than{' '}<em>hewn</em>. (Picasso was not alone on this road: Georges Braque, down south at L&rsquo;Estaque that same year, was reducing houses to the same kind of blunt blocks. The two men, newly acquainted, had begun circling one idea from opposite ends — figures and landscape — and would soon be inseparable.)
+      </p>
+    </article>
+  )
+}
+
+function TwMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1907–08" title="Three figures, one block" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icasso worked this canvas for the better part of a year, and examination of the surface shows he buried earlier versions under it — a more striped, savage first attempt scraped back and rebuilt. What emerged is a single rust-red mass in which three nude women are fused so tightly you can barely prise them apart. Shoulders, thighs and arms lock together into one faceted block. The palette is fired clay: terracotta, ochre, brick, the colours of baked earth and old wood, with only thin slivers of cool green pressing in at the edges.
+      </p>
+      <SectionHeader accent={accent} label="The change" title="From savage to carved" />
+      <p style={proseStyle}>
+        Set beside the Demoiselles, the difference is the whole point. The faces lose their snarl and settle into calm, heavy masks. The jagged shards harden into broad, blunt planes, each one shaded as if catching light on a chiselled surface. Where the Demoiselles felt like an attack, Three Women feels like a carving — something a sculptor might have cut from a single trunk of reddish wood and then, almost as an afterthought, painted. The savagery has been cooled into structure, and that cooling is exactly the road that leads, the next summer, to Cubism proper. What changed in that final step was mostly subtraction: the colour drained almost to grey, the planes shrank and multiplied, the heavy modelling thinned — until the solid bodies of Three Women broke up into the restless faceting of Analytic Cubism.
+      </p>
+    </article>
+  )
+}
+
+function TwReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Find the three" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#a8482a', '#5a2418', '#1a0c08']}
+        imageUrl={ART_IMG.threeWomen}
+        ratio="4/5"
+        alt="Picasso, Three Women, 1908"
+        caption={<>Picasso,{' '}<em>Three Women</em>, 1908 — Hermitage Museum, St Petersburg. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        t first it is a wall of red rock, and the three women take a moment to separate out. Start in the centre: the tallest figure, head tipped back, arms lifted overhead, her face a calm mask of heavy almond eyes and a blunt nose. To her right sits a second woman, her face the clearest mask of the three — frontal, gouged, lifted straight from African carving. To the left a third figure bows her head, half-swallowed by the others. Their bodies do not so much touch as{' '}<em>merge</em>: try to follow one thigh or shoulder and it hands off to the next.
+      </p>
+      <p style={proseStyle}>
+        Notice the light. It does not fall from any one direction; each plane is shaded on its own terms, which is why the whole group reads as solid and flat at once — carved and yet pressed up against the surface. And look to the edges for the single concession of colour: thin breaths of{' '}<strong>green</strong>{' '}against all that fired red, almost the only cool note in a picture packed as tight as brickwork. Find the three women and you have found the moment Picasso turned raw shock into something monumental and deliberate.
+      </p>
+    </article>
+  )
+}
+
+function TwPrimitivism({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The source" title="Borrowed from the carvers" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        hose mask-faces did not come from Picasso&rsquo;s imagination. They came from{' '}<strong>African sculpture</strong>{' '}— Fang and Kota and other carvings he had seen, crammed without labels, in the ethnographic museum at the Trocadéro, and a few of which he owned. What he took was a way of building a face: not a soft, naturalistic likeness but a hard arrangement of frontal planes, the face treated as a constructed{' '}<em>sign</em>{' '}rather than a portrait — exactly the gouged, frontal mask you found a moment ago on the right-hand woman and on the central tipped-back head. African carvers had solved &ldquo;a face made of geometry&rdquo; centuries before any Paris painter went looking for it.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#6b5034', '#3a2820', '#100c08']}
+        imageUrl={ART_IMG.fangMask}
+        ratio="3/4"
+        alt="Fang mask, Gabon"
+        caption={<>A Fang mask from Gabon, of the kind that hit Picasso at the Trocadéro: the face as a few carved planes, not a likeness.</>}
+        rights="Photograph CC BY-SA via Wikimedia Commons; the mask itself, maker and date unrecorded."
+      />
+      <SectionHeader accent={accent} label="The harder part" title="Taking without crediting" />
+      <p style={proseStyle}>
+        It is worth saying plainly, because the older textbooks usually don&rsquo;t. The carvers were unnamed to Picasso, their work torn from its meaning and its place by the colonial trade — the looting and forced commerce of Europe&rsquo;s African empires — that filled those museum cases, and he took the{' '}<em>form</em>{' '}without the context, the credit or the belief that gave it power. The borrowing produced extraordinary art; it also has a cost that art history is still working through, and the honest thing is to hold both facts at once. Three Women is a masterpiece, and it is built on a debt to people whose names no one wrote down.
+      </p>
+    </article>
+  )
+}
+
+function TwAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="1908–1918" title="A Russian buys the future" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he man who bought this brick-red slab of interlocked bodies was{' '}<strong>Sergei Shchukin</strong>, a Moscow textile magnate with one of the boldest eyes in Europe. Over six years he carried more than fifty Picassos back to Russia, along with rooms full of Matisse, and hung them in his Moscow mansion where young Russian painters came to gawp. Three Women went east. For a decade the most advanced art in Paris lived, improbably, on a wall in Moscow.
+        </p>
+        <p style={proseStyle}>
+          Then history reached in. The{' '}<strong>1917 Revolution</strong>{' '}swept Shchukin&rsquo;s world away; his collection was nationalised and he fled to Paris, leaving his Picassos to the new Soviet state. They passed into a Museum of New Western Art — and there they became an embarrassment.
+        </p>
+        <SectionHeader accent={accent} label="1948–today" title="Locked in the basement" />
+        <p style={proseStyle}>
+          Under Stalin, modern art was branded{' '}<em>bourgeois formalism</em>, decadent and dangerous, and in 1948 the old collection was broken up and largely shut away. Three Women went to the{' '}<strong>Hermitage</strong>{' '}in Leningrad, where for much of the Cold War it sat in storage, too radical to hang. So the canvas that helped invent Cubism spent its middle age hidden in a Soviet basement — a fitting, strange afterlife for a picture about three women carved out of red rock, waiting to be seen.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={BLUE}
+        region="Moscow"
+        when="1918 · ten years later"
+        title="The collection is seized by a revolution."
+        body="The same Russia that produced Picasso's boldest early buyer, Sergei Shchukin, also produced the revolution that took his pictures from him. Nationalised in 1918, the Shchukin Picassos became state property — and then, under Stalin, an embarrassment to be hidden away."
+        palette={['#bf2f25', '#1c1c1c', '#d6cf3f']}
+        ctaLabel="Read 'The Russian Revolution'"
+      />
+    </>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Portuguese (Braque, 1911) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function PtSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1911" title="Roped to Picasso, still" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        year after{' '}<em>Violin and Jug</em>, Georges Braque and Picasso were still &ldquo;roped together on a mountain,&rdquo; visiting each other&rsquo;s studios daily and pushing the same experiment one notch further each time. By 1911 that experiment —{' '}<em>Analytic Cubism</em>, the breaking of objects into small faceted planes seen from several sides at once — had reached its most extreme, sealed-off point — so abstract it was nearly a private code. The pictures were faceted so far that the subject all but evaporated into a shimmer of brown and grey.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#8a8478', '#4a463c', '#15110a']}
+        imageUrl={ART_IMG.braqueViolinJug}
+        ratio="3/4"
+        alt="Braque, Violin and Jug, 1909–10"
+        caption={<>Where Braque had just been:{' '}<em>Violin and Jug</em>, 1909–10. A year on, in The Portuguese, the faceting goes even further — and a printed word arrives.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        It was a thrilling place to be and a dangerous one. A few more facets and the picture would dissolve into pure abstract pattern, which neither painter wanted. They had been smuggling small clues back in — a curl, a string, a painted nail — to keep the work tethered to the real world. In{' '}<em>The Portuguese</em>, Braque smuggled in the most radical clue of all, and it changed what a painting could contain.
+      </p>
+    </article>
+  )
+}
+
+function PtMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Summer 1911" title="A musician, dissolved" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he subject is a man with a guitar — a Portuguese musician Braque said he remembered from a bar years before, which is why the picture is also called{' '}<em>The Emigrant</em>. Braque painted much of it that summer in{' '}<strong>Céret</strong>, a small town in the French Pyrenees where he and Picasso spent the season working side by side. He took the seated player and broke him into a fine brown mesh of facets — so fine, so evenly spread across the canvas, that the figure nearly disappears into his own background.
+      </p>
+      <p style={proseStyle}>
+        The palette is almost gone: ochres, tobacco browns, soft greys, drained on purpose so nothing distracts from the structure. Edges open and bleed from object into air — the Analytic trick called{' '}<em>passage</em>, one plane melting into the next — until you can no longer say where the man stops and the room begins. Only the guitar across his lap, a few taut strings on the diagonal, quite refuses to dissolve.
+      </p>
+      <SectionHeader accent={accent} label="The brink" title="Almost nothing left to hold" />
+      <p style={proseStyle}>
+        This is Analytic Cubism at the edge of the cliff. The picture is so close to pure abstraction that, without help, a viewer could stare for a long time and find no man at all. Braque knew it. And his solution — the thing that makes this canvas a turning point rather than just a very good shimmer of brown — was to hammer a few hard, flat, unmistakable letters across the top, where the haze could not swallow them.
+      </p>
+    </article>
+  )
+}
+
+function PtReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Start at the letters" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#9a8458', '#4a3f28', '#15110a']}
+        imageUrl={ART_IMG.portuguese}
+        ratio="2/3"
+        alt="Braque, The Portuguese, 1911"
+        caption={<>Braque,{' '}<em>The Portuguese</em>, 1911 — Kunstmuseum Basel. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he way into this brown fog is the one thing in it that is perfectly sharp. Look to the upper right: the stencilled capitals{' '}<strong>D BAL</strong> — the tail end of{' '}<em>GRAND BAL</em>, the wording of a dance-hall poster — and beside them a scatter of stencilled{' '}<strong>numbers</strong>. They are crisp, flat and mechanical, and they sit{' '}<em>on top</em>{' '}of the picture rather than inside its haze, like a label stuck to a misted window.
+      </p>
+      <p style={proseStyle}>
+        Now drop your eye and let the rest assemble. Below the letters, a paler rounded mass is the musician&rsquo;s{' '}<strong>head and shoulders</strong>, tipped a little, nearly lost. Lower still, on the diagonal, you can find the taut{' '}<strong>strings</strong>{' '}and the soft curve of a sound-hole — the{' '}<strong>guitar</strong>{' '}across his lap, the firmest object in the whole picture. Everything else opens and leaks, plane into plane, so the man and the air he sits in are woven from the same broken light. The letters are the nail you hang the rest on.
+      </p>
+    </article>
+  )
+}
+
+function PtLetters({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The point" title="The day type walked in" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tencilled letters in a painting sound like nothing. They were a revolution, for a stack of reasons at once. Braque had let letters in before, in 1910, but as things glimpsed{' '}<em>in</em>{' '}a scene — words on a real sign. Here they are different: purely flat, purely formal, belonging not to the imagined room but to the{' '}<em>surface</em>{' '}of the canvas itself. They announce, bluntly, that this is a painted board, not a window you look through. Braque himself explained the logic simply: letters are forms that cannot be distorted — they are flat, with no depth of their own — so their plain presence makes clear the rest of the picture is not pretending to have depth either.
+      </p>
+      <p style={proseStyle}>
+        And they are{' '}<em>mechanical</em>. A stencil is a sign-painter&rsquo;s and decorator&rsquo;s tool — and Braque, remember, was a decorator&rsquo;s son, trained in exactly these tradesman&rsquo;s tricks. So the letters drag the cheap, mass-produced world of posters and price tags straight into the most rarefied painting in Europe. In a picture nearly too abstract to read, they are the one thing anyone can read instantly — a fixed, public, printed fact pinned to a private blur.
+      </p>
+      <SectionHeader accent={accent} label="The door it opens" title="One year from real paper" />
+      <p style={proseStyle}>
+        Most of all, the letters point straight ahead, to the biggest break in modern art. If a flat, mass-produced printed mark can live in a painting, why paint it at all — why not glue the real thing down? That is exactly the step Picasso took the very next year, pasting a scrap of printed oilcloth onto a canvas and inventing{' '}<em>collage</em> — and Braque, that same autumn, ran his own parallel track to it, gluing strips of printed paper into his drawings to make the first{' '}<em>papiers collés</em>. Braque&rsquo;s stencilled{' '}<em>D BAL</em>{' '}is the hinge: the last move either man made with a brush before they both reached for the glue.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#b89055', '#5a4a2a', '#1a1208']}
+        imageUrl={ART_IMG.chairCaning}
+        ratio="4/3"
+        alt="Picasso, Still Life with Chair Caning, 1912"
+        caption={<>One year later: Picasso&rsquo;s{' '}<em>Still Life with Chair Caning</em>, 1912. Braque&rsquo;s painted letters become Picasso&rsquo;s glued-on oilcloth — the brush gives way to the paste pot.</>}
+        rights={PD_RIGHTS}
+      />
+    </article>
+  )
+}
+
+function PtAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="The afterlife" title="Basel, again" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>L</DropCap>
+          ike its near-twin{' '}<em>Violin and Jug</em>, The Portuguese hangs today in{' '}<strong>Basel</strong>, and for the same reason: the Swiss banker{' '}<strong>Raoul La Roche</strong>, who bought Cubism in bulk in the years after the First World War, when the market for it had collapsed and few others would touch it. He gave his great collection, in stages, to the public museum of his home city — which is how a small Swiss town on the Rhine became one of the world&rsquo;s capitals of Cubist painting.
+        </p>
+        <p style={proseStyle}>
+          Stand in front of it in Basel and the picture still barely gives up its guitarist — a brown storm of facets with four sharp letters riding on top, as legible now as the day they were stencilled. That is the real legacy: once type could live on a canvas as pure form, it never left. Within a year it became collage; within a decade the Russian Constructivists (designers who turned hard geometry into revolutionary posters) and the German Bauhaus (the school that made clean, modern design a creed) were building whole pictures and posters out of bold printed type. Half of twentieth-century graphic design traces back, in part, to a brown haze of a guitar player with the words{' '}<em>D BAL</em>{' '}floating at the top.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={AMBER}
+        region="Everywhere"
+        when="1911 · the same years"
+        title="The city fills up with printed words."
+        body="Braque let a poster's lettering into fine art at the exact moment the modern city was drowning in printed type — advertising hoardings, newspapers, packaging, price tags. Cubism was the first painting to notice that the visual world had become, increasingly, a world made of words."
+        palette={['#6b6b6b', '#3a3a3a', '#1c1c1c']}
+        ctaLabel="Read 'The age of advertising'"
+      />
+    </>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// Breakfast / Le Petit Déjeuner (Juan Gris, 1914) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function GrSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1912–14" title="The third man" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>E</DropCap>
+        very account of Cubism stars Picasso and Braque. There was a third man, quieter, who arrived late and may have understood it best.{' '}<strong>Juan Gris</strong>{' '}— born José Victoriano González-Pérez in Madrid — moved to Paris in 1906 and took a cheap studio in the{' '}<em>Bateau-Lavoir</em>, the same ramshackle Montmartre building where Picasso lived. He scraped by as a magazine illustrator, watched the two founders invent Cubism above his head, and only around 1911 began painting it himself.
+      </p>
+      <p style={proseStyle}>
+        Coming late turned out to be his advantage. Picasso and Braque had bulldozed the path by instinct, arguing and improvising. Gris arrived with a clear head and a draughtsman&rsquo;s discipline, and set about turning their wild experiment into something you could almost write down as a method. And when, in 1912, the founders started gluing real materials onto canvas — inventing{' '}<em>collage</em> — Gris took up the new tool and, within two years, made some of the most beautiful examples anyone would manage. Where Picasso&rsquo;s and Braque&rsquo;s surfaces shimmer and dissolve, Gris&rsquo;s would hold perfectly still — clean, bright, cool, built on a grid you can almost see.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#b89055', '#5a4a2a', '#1a1208']}
+        imageUrl={ART_IMG.chairCaning}
+        ratio="4/3"
+        alt="Picasso, Still Life with Chair Caning, 1912"
+        caption={<>The door Gris walked through: Picasso&rsquo;s{' '}<em>Still Life with Chair Caning</em>, 1912, the first collage. Two years later Gris would build a whole breakfast table the same way.</>}
+        rights={PD_RIGHTS}
+      />
+    </article>
+  )
+}
+
+function GrMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1914" title="Pasted, not painted" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ook closely at this breakfast table and a lot of it is not paint at all. Gris built the picture by{' '}<em>gluing</em>: two different kinds of cheap, factory-printed{' '}<strong>wood-grain paper</strong>{' '}filling the lower two-thirds as the table and its turned legs, and a strip of printed{' '}<strong>decorative wallpaper</strong>{' '}across the top for the wall behind. Onto and around those pasted papers he then drew and painted the rest — the coffee pot, the cup, the glasses. The technique has a name carried over from Braque:{' '}<em>papier collé</em>, &ldquo;pasted paper.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        It is the same joke Picasso had played with his oilcloth chair-caning, raised to a whole composition. The &ldquo;wood&rdquo; of the table is not painted to look like wood and is not wood — it is a printed{' '}<em>picture</em>{' '}of wood, mass-produced by the roll, glued down flat. A manufactured fake of timber stands in for a real café table, and Gris lets the seams and edges show, so you always know you are looking at pasted paper, not an illusion.
+      </p>
+      <SectionHeader accent={accent} label="The layering" title="Real things, then drawing on top" />
+      <p style={proseStyle}>
+        What makes it{' '}<em>Gris</em>{' '}rather than Picasso is the control. The pasted papers are cut to crisp, deliberate shapes and locked into a tight grid; the drawing laid over them is precise, almost engineered. Nothing is improvised or scrubbed. He has taken the most casual-seeming gesture in art — sticking down a scrap of paper — and made it as exact as a blueprint.
+      </p>
+    </article>
+  )
+}
+
+function GrReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="A table you can actually read" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#3a6a7a', '#8a6b3a', '#1c2a2e']}
+        imageUrl={ART_IMG.grisLunch}
+        ratio="3/4"
+        alt="Juan Gris, Breakfast (Le Petit Déjeuner), 1914"
+        caption={<>Juan Gris,{' '}<em>Breakfast (Le Petit Déjeuner)</em>, 1914 — MoMA, New York. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        fter the brown fog of Picasso and Braque, the first surprise here is that you can simply{' '}<em>read</em>{' '}it. This is a café tabletop, and the breakfast is all present. Centre: a white{' '}<strong>coffee cup and saucer</strong>, drawn with an almost old-fashioned, rounded solidity. Left: the tall pale shape of a{' '}<strong>coffee pot</strong>, split down a clean vertical seam — light on one side, shadow on the other, a single object shown as two views without ever falling apart. Right: faceted{' '}<strong>glasses</strong>{' '}and the pink Greek-key border of a napkin.
+      </p>
+      <p style={proseStyle}>
+        Below the cup, a torn strip of{' '}<strong>newspaper</strong>{' '}is glued in, and the legible scraps of type are a joke worth catching: it reads{' '}<em>…OURN…</em>{' '}for{' '}<em>journal</em>{' '}(the daily paper) and, just under it,{' '}<em>…ZA GRIS</em>. That last word is the painter signing his own work from inside the picture — and{' '}<em>gris</em>{' '}is simply French for &ldquo;grey,&rdquo; so the signature is a pun set in newsprint. Underneath it all runs the printed wood-grain of the table, down to its turned front legs.
+      </p>
+    </article>
+  )
+}
+
+function GrSystem({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The point" title="Cubism made rigorous" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is what sets Gris apart from the two men who invented the style. Picasso and Braque worked from the object{' '}<em>inward</em>: they took a real guitar or jug and analysed it into pieces, feeling their way, improvising. Gris worked the other direction — from the{' '}<em>structure</em>{' '}outward. He began with an abstract scaffold of clean verticals and locked proportions, an almost architectural plan, and only then hung the cup, the pot and the paper onto it. He once put it almost exactly that way: he started with a cylinder and made it a bottle, rather than starting with a bottle. You can see the method in the coffee pot: split down one clean vertical seam, light on the left, shadow on the right — not a loose impression of a pot but a measured proof that one is there.
+      </p>
+      <p style={proseStyle}>
+        If the founders&rsquo; Cubism is jazz — two players trading improvisations — Gris&rsquo;s is a fugue (a piece of music where every voice enters in strict, planned order). That is why his pictures feel so calm and so clear: nothing is searching, everything has been decided. It is, by most accounts, the most{' '}<em>rigorous</em>{' '}Cubism anyone made, and that rigour would feed straight into the clean machine-age design of the 1920s — the architect Le Corbusier&rsquo;s{' '}<em>Purism</em>{' '}(a stripped-bare, ornament-free style) and the streamlined geometry of{' '}<em>Art Deco</em>.
+      </p>
+    </article>
+  )
+}
+
+function GrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="The afterlife" title="The short, bright career" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>G</DropCap>
+          ris made this in the spring of 1914. Months later the First World War broke out, scattering the Cubist circle — Braque and many others to the front, the dealer Kahnweiler into exile as an enemy alien — and the great heroic phase of the movement was effectively over. Kahnweiler&rsquo;s entire stock, Gris&rsquo;s pictures among it, was seized by the French state as enemy property and later auctioned off cheaply, sending these works scattering through the market. Gris himself kept working, refining his clear, systematic style through the 1920s.
+        </p>
+        <p style={proseStyle}>
+          He did not get long. Juan Gris died in 1927, of kidney and heart disease, at just{' '}<strong>forty</strong>. For years his reputation sat in the shadow of the two founders — the careful one, the follower. That has steadily corrected itself: he is now seen as the third great Cubist and, to many eyes, the most lucid of the three. This{' '}<em>Breakfast</em>{' '}hangs at the Museum of Modern Art in New York as very nearly the textbook example of what collage, handled with total discipline, could build — that calm blue-grey table, its wood-grain pasted rather than painted, its white cup unmistakably a cup.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={BLUE}
+        region="Europe"
+        when="August 1914 · months later"
+        title="The war scatters the painters."
+        body="Gris finished his Breakfast in the spring of 1914. By August, Europe was at war. Braque and Léger were mobilised, the dealer Kahnweiler fled into exile, and the daily Montmartre conversation that had built Cubism simply stopped. The movement's heroic decade ended not with an argument but with a mobilisation order."
+        palette={['#3a4a6a', '#1c1c2a', '#0a0a14']}
+        ctaLabel="Read 'The First World War'"
+      />
+    </>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// Three Musicians (Picasso, 1921) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function TmSetting({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1921" title="Ten years on" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y 1921 Cubism was no longer a scandal; it was a style, fourteen years old, taught and collected and copied. The world that made it was gone. The First World War had come and emptied the cafés: Braque was wounded at the front, the dealer Kahnweiler had been exiled as an enemy alien, and the poet Guillaume Apollinaire — Cubism&rsquo;s loudest champion — was dead, carried off by the 1918 influenza while still weak from a war wound. Picasso himself was rich now, married, moving in fashionable circles and even painting calm, classical nudes on the side.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#c0a06c', '#3d3a2e', '#8a6b3a']}
+        imageUrl={ART_IMG.demoiselles}
+        ratio="1/1"
+        alt="Picasso, Les Demoiselles d'Avignon, 1907"
+        caption={<>The decade he was summing up began here, in 1907, with{' '}<em>Les Demoiselles d&rsquo;Avignon</em>. Three Musicians is its bright, ceremonial farewell.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        That summer he rented a villa at{' '}<strong>Fontainebleau</strong>, outside Paris, and worked in its garage. There he sat down and, in effect, wrote Cubism&rsquo;s grand farewell — a huge, bright, ceremonial picture that gathers up everything the movement had discovered and stages it like a final curtain call.
+      </p>
+    </article>
+  )
+}
+
+function TmMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Summer 1921" title="Painted like cut paper" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icasso painted{' '}<em>Three Musicians</em>{' '}twice that summer, in two enormous versions at once — this one, now in Philadelphia, and a near-twin now in New York. Each is over six feet tall. After a decade of small, brown, muttering Cubist canvases, these are loud: big, flat fields of orange, white, black and blue, snapped together along hard edges.
+      </p>
+      <p style={proseStyle}>
+        And here is the lovely circularity of it. The whole picture is built to look like{' '}<em>collage</em> — like sheets of brightly coloured paper cut into shapes and pasted down, the technique Picasso himself had invented nine years earlier with a scrap of oilcloth. Except not one piece of it is glued. It is all{' '}<strong>paint</strong>, brushed to imitate the look of pasting. Cubism had gone from gluing real paper to faking the look of glued paper — illusion, abstraction and collage chasing each other in a circle. This is what art historians mean by{' '}<em>Synthetic Cubism</em>: building a figure up from flat, simple, assembled shapes rather than breaking a real one down into facets.
+      </p>
+    </article>
+  )
+}
+
+function TmReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Three masked players" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#bf6a2a', '#3a2a4a', '#1a1208']}
+        imageUrl={ART_IMG.picassoThreeMusicians}
+        ratio="1/1"
+        alt="Picasso, Three Musicians, 1921"
+        caption={<>Picasso,{' '}<em>Three Musicians</em>, 1921 — Philadelphia Museum of Art. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        hree figures sit jammed together along a table in a shallow brown room, and they are made of the same flat shapes as a paper cut-out. Read them left to right. At the left, a player in a diamond-patterned costume — a{' '}<strong>Harlequin</strong>, the clown of old Italian comedy — holds a stringed instrument. In the centre, a figure in white — a{' '}<strong>Pierrot</strong>, the sad-clown foil to the scheming Harlequin — raises a{' '}<strong>clarinet</strong>{' '}to a black domino mask (a half-mask covering just the eyes). At the right, a tall dark{' '}<strong>monk</strong>{' '}in a hooded robe holds a sheet of music, or perhaps an accordion.
+      </p>
+      <p style={proseStyle}>
+        Three details reward a closer look: the three flat, frontal{' '}<strong>masks</strong>, staring straight out with no expression you can name; the actual{' '}<strong>sheet music</strong>{' '}laid on the table, drawn with real staves and notes, a small window of legibility in a wall of colour; and, if you hunt, the dim shape of a dog stretched beneath the table. It is a band, posed for a portrait — bright, festive, and somehow not quite alive.
+      </p>
+    </article>
+  )
+}
+
+function TmElegy({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The point" title="A portrait of ghosts" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hy does a picture this colourful feel haunted? Because of who the three players are widely thought to be. The reading most often given: the{' '}<strong>Harlequin</strong>{' '}is Picasso himself — Harlequin was his lifelong alter ego — and the other two are the friends he had made Cubism with in the poor, happy Bateau-Lavoir years. The{' '}<strong>clarinet-playing Pierrot</strong>{' '}is the poet Guillaume Apollinaire, and the{' '}<strong>monk</strong>{' '}is the poet Max Jacob.
+      </p>
+      <p style={proseStyle}>
+        Both references cut deep. Apollinaire was{' '}<em>dead</em> — three years gone when Picasso painted this. And Max Jacob had, in 1921, the very year of the picture, withdrawn from the world to live at a Benedictine monastery, lost to his old friends in a different way. So the three musicians are a band that no longer exists, reassembled for one last portrait — two of them present only as masks. Picasso never confirmed the reading, and a careful viewer should hold it as the likeliest interpretation rather than a proven fact. But it is hard to stand in front of the picture, once you know, and not see a wake dressed up as a carnival.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#3a4a6a', '#2a3048', '#0e1422']}
+        imageUrl={ART_IMG.apollinaire}
+        ratio="3/4"
+        alt="Guillaume Apollinaire, c. 1914"
+        caption={<>Guillaume Apollinaire, Cubism&rsquo;s great champion, around 1914 — dead of influenza by 1918, and, many believe, the masked clarinet-player at the heart of this picture.</>}
+        rights="Photograph, public domain · Wikimedia Commons."
+      />
+    </article>
+  )
+}
+
+function TmAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="The afterlife" title="Two versions, two cities" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>T</DropCap>
+          he two giants Picasso painted that summer went their separate ways. One hangs today at the Museum of Modern Art in New York; this one, the Philadelphia version, came to the{' '}<strong>Philadelphia Museum of Art</strong>{' '}with the collection of the American collector{' '}<strong>A. E. Gallatin</strong>, who had earlier shown it at his Museum of Living Art — a gallery at New York University where students could see modern painting, for free, before America had quite decided it counted. The two are not quite twins: in the New York version the Harlequin and Pierrot trade places and instruments, and the whole picture runs darker.
+        </p>
+        <p style={proseStyle}>
+          As a summing-up, it was also a goodbye. After 1921 Picasso largely moved on — into Surrealism (the art of dreams and the unconscious), into the monsters of the 1930s, into{' '}<em>Guernica</em> — and Cubism as a living movement was finished. But it had already won the argument. The flat planes, the multiple viewpoints, the glued and faked paper, the idea that a picture is an object you build rather than a window you look through: all of it had passed into the bloodstream of modern art, where it remains. Three Musicians is the curtain call of arguably the most consequential decade in twentieth-century painting — and the band, masked and silent, takes its bow.
+        </p>
+      </article>
+
+      <MeanwhileSheet
+        accent={AMBER}
+        region="Paris & New York"
+        when="The 1920s · just after"
+        title="Everyone wants order again."
+        body="After the slaughter of the war, much of European art swung back toward calm, classical order — Picasso included, painting serene nudes alongside this picture. The wild, fracturing experiments of 1907–14 had done their work; the 1920s wanted to put the pieces back together, even as jazz-age New York prepared to inherit the avant-garde."
+        palette={['#c8a72a', '#7a1422', '#1c0a08']}
+        ctaLabel="Read 'The Roaring Twenties'"
+      />
+    </>
+  )
+}
+
 type NarrativeFn = (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement
 
 // A chapter whose prose isn't written yet — graceful placeholder so a partly
@@ -1207,6 +1685,34 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
     reading: VjReading,
     nail: VjNail,
     afterlife: VjAfterlife,
+  },
+  'three-women': {
+    setting: TwSetting,
+    making: TwMaking,
+    reading: TwReading,
+    primitivism: TwPrimitivism,
+    afterlife: TwAfterlife,
+  },
+  'the-portuguese': {
+    setting: PtSetting,
+    making: PtMaking,
+    reading: PtReading,
+    letters: PtLetters,
+    afterlife: PtAfterlife,
+  },
+  'gris-breakfast': {
+    setting: GrSetting,
+    making: GrMaking,
+    reading: GrReading,
+    system: GrSystem,
+    afterlife: GrAfterlife,
+  },
+  'three-musicians': {
+    setting: TmSetting,
+    making: TmMaking,
+    reading: TmReading,
+    elegy: TmElegy,
+    afterlife: TmAfterlife,
   },
 }
 

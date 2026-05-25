@@ -66,6 +66,11 @@ export const ART_IMG = {
   // fair-use file exists). A faithful repro is served from public/art/ instead, the
   // one art figure not on Wikimedia. Subject + tier confirmed by eye (born-verified).
   chairCaning: '/art/chair-caning.jpg',
+  // More self-hosted works (US-PD pre-1931; Gris d.1927 = PD worldwide but the Commons
+  // copy is tiny, so a higher-res faithful repro is served locally). Verified by eye.
+  threeWomen: '/art/three-women.jpg',
+  portuguese: '/art/the-portuguese.jpg',
+  grisLunch: '/art/gris-breakfast.jpg',
   // Cubism influence-flow lineage nodes (Commons, load-verified 2026-05-24)
   fangMask: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg/960px-0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg',
   pissarroBoulevard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg/960px-Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg',
@@ -291,13 +296,13 @@ export const CUBISM: ArtMovementContent = {
   ],
   works: [
     { id: 'demoiselles', year: 1907, name: 'Les Demoiselles d’Avignon', artist: 'Picasso', place: 'Paris', size: 'xl', blurb: 'Five women, five sets of impossible angles, masks where the faces should be. Even his friends thought he had lost it.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
-    { id: 'three-women', year: 1908, name: 'Three Women', artist: 'Picasso', place: 'Paris', size: 's', blurb: 'The hangover from Demoiselles. The faces become less savage; the geometry hardens.', palette: ['#7a5a3a', '#3a2820', '#1a1208'] },
+    { id: 'three-women', year: 1908, name: 'Three Women', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'The morning after the Demoiselles. The faces calm into masks; the bodies harden into carved, rust-red blocks.', palette: ['#a8482a', '#5a2418', '#1a0c08'], imageUrl: ART_IMG.threeWomen, credit: 'Picasso, Three Women, 1908 · Hermitage Museum, St Petersburg' },
     { id: 'horta', year: 1909, name: 'Houses on the Hill, Horta', artist: 'Picasso', place: 'Catalonia', size: 'l', blurb: 'Picasso paints a Spanish village as nesting cubes. The summer everyone agrees this is now a movement.', palette: ['#a08a4a', '#5a4a1c', '#1a1a14'], imageUrl: ART_IMG.picassoHorta, credit: 'Picasso, Houses on the Hill, Horta de Ebro · Museum Berggruen, Berlin' },
     { id: 'kahnweiler', year: 1910, name: 'Portrait of Daniel-Henry Kahnweiler', artist: 'Picasso', place: 'Paris', size: 'm', blurb: 'Their dealer, in shards. Analytic Cubism arrives — monochrome, angular, almost unreadable.', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
     { id: 'violin-jug', year: 1910, name: 'Violin and Jug', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque takes the still life apart. A nail in the corner of the canvas points to what was supposed to be the trompe-l’œil.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.braqueViolinJug, credit: 'Braque, Violin and Jug · Kunstmuseum Basel' },
     { id: 'chair-caning', year: 1912, name: 'Still Life with Chair Caning', artist: 'Picasso', place: 'Paris', size: 'l', blurb: 'A piece of oilcloth printed with chair caning, glued to the canvas. Collage is born; painting will never be only paint again.', palette: ['#b89055', '#3a3020', '#1a1208'], imageUrl: ART_IMG.chairCaning, credit: 'Picasso, Still Life with Chair Caning · Musée Picasso, Paris' },
-    { id: 'cubist-years-end', year: 1914, name: 'The Cubist Years end', artist: 'Picasso & Braque', place: 'Paris', size: 'm', blurb: 'August 1914. Braque is mobilised; Picasso, a Spaniard, is not. They never paint together again.', palette: ['#3a3a4a', '#1c1c2a', '#0a0a14'] },
-    { id: 'gris-bottle', year: 1916, name: 'Bottle and Glass', artist: 'Juan Gris', place: 'Paris', size: 's', blurb: 'Gris turns Cubism into a system. Tight, almost classical. The argument continues without the founders.', palette: ['#8a6b3a', '#3a2820', '#0e0805'] },
+    { id: 'the-portuguese', year: 1911, name: 'The Portuguese', artist: 'Braque', place: 'Paris', size: 'm', blurb: 'Braque stencils letters straight onto the canvas — the first time type sits on the surface as pure form, and the hinge toward collage.', palette: ['#9a8458', '#4a3f28', '#15110a'], imageUrl: ART_IMG.portuguese, credit: 'Braque, The Portuguese, 1911 · Kunstmuseum Basel' },
+    { id: 'gris-breakfast', year: 1914, name: 'Breakfast', artist: 'Juan Gris', place: 'Paris', size: 'm', blurb: 'Gris turns Cubism into a system — pasted wood-grain paper, a torn newspaper, his own name hidden in the headline.', palette: ['#3a6a7a', '#8a6b3a', '#1c2a2e'], imageUrl: ART_IMG.grisLunch, credit: 'Gris, Breakfast (Le Petit Déjeuner), 1914 · MoMA, New York' },
     { id: 'three-musicians', year: 1921, name: 'Three Musicians', artist: 'Picasso', place: 'Fontainebleau', size: 'l', blurb: 'Picasso revisits Cubism as a synthetic, decorative language. Flat planes, bright colours, almost a poster.', palette: ['#c8a72a', '#7a1422', '#1c0a08'] },
   ],
   artists: [
@@ -346,6 +351,7 @@ export const CUBISM_RIBBON = {
   tracks: [
     { artist: 'Picasso', color: ART_ACCENTS.violet, dots: [
       { year: 1907, canonical: true, label: 'Demoiselles', workId: 'demoiselles' },
+      { year: 1908, canonical: true, label: 'Three Women', workId: 'three-women' },
       { year: 1909, canonical: true, label: 'Horta', workId: 'horta' },
       { year: 1910, canonical: true, label: 'Kahnweiler', workId: 'kahnweiler' },
       { year: 1912, canonical: true, label: 'Chair Caning', workId: 'chair-caning' },
@@ -354,11 +360,12 @@ export const CUBISM_RIBBON = {
     { artist: 'Braque', color: ART_ACCENTS.amber, dots: [
       { year: 1908, canonical: false, label: 'L’Estaque' },
       { year: 1910, canonical: true, label: 'Violin and Jug', workId: 'violin-jug' },
+      { year: 1911, canonical: true, label: 'The Portuguese', workId: 'the-portuguese' },
       { year: 1914, canonical: false, terminal: true, label: 'Mobilised' },
     ] },
     { artist: 'Gris', color: ART_ACCENTS.green, dots: [
       { year: 1912, canonical: false, label: 'Hommage à Picasso' },
-      { year: 1916, canonical: true, label: 'Bottle and Glass', workId: 'gris-bottle' },
+      { year: 1914, canonical: true, label: 'Breakfast', workId: 'gris-breakfast' },
     ] },
   ],
   // dashed influence threads between tracks (from → to, by year)
@@ -733,6 +740,259 @@ export const VIOLIN_JUG: ArtWorkContent = {
 }
 
 // ─────────────────────────────────────────────────────────────
+// Work — Three Women (1908): the year Picasso spent digesting the Demoiselles,
+// fusing three nudes into one carved, rust-red mass. Self-hosted (US-PD 1908).
+// Look-closer crops verified against the 961×1088 repro. Prose: NARRATIVES['three-women'].
+// ─────────────────────────────────────────────────────────────
+export const THREE_WOMEN: ArtWorkContent = {
+  id: 'three-women',
+  name: 'Three Women',
+  shortName: 'Three Women',
+  year: 1908,
+  artist: 'Pablo Picasso',
+  artistId: 'picasso',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 6¾ in × 5 ft 10 in',
+  location: 'Hermitage Museum, St Petersburg',
+  acquired: 'Acquired 1948',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 6, total: 9 },
+  hook: 'The year after the Demoiselles, Picasso fused three nudes into a single carved, rust-red mass — and quietly worked out what the explosion had been for.',
+  heroImage: ART_IMG.threeWomen,
+  heroCredit: 'Picasso, Three Women, 1908 · Hermitage Museum, St Petersburg',
+  heroAspect: 0.883,
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1908', k: 'Painted' },
+    { v: '6′6¾″ × 5′10″', k: 'Dimensions' },
+    { v: 'Hermitage', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: 'Winter 1907–08', title: 'After the bomb', blurb: 'With the Demoiselles rolled up in the corner, Picasso spends a year working out what the explosion was for — and keeps going back to a room of carved African masks.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The work', dateLabel: '1907–08', title: 'Three figures, one block', blurb: 'He paints, scrapes back and repaints, fusing three nudes into a single mass of rust-red planes — as if the picture were carved rather than brushed.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Bodies like hewn wood', blurb: 'Mask-faces, interlocking limbs, a palette of fired clay — and one sliver of green. How to find the three women in the geometry.', progress: 0.56 },
+    { id: 'primitivism', eyebrow: 'The source', dateLabel: '1907–08', title: 'Borrowed from the carvers', blurb: 'Where the mask-faces came from — and the harder question, still argued over, about a European taking them.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1908–today', title: 'A Russian buys the future', blurb: 'Bought by a Moscow textile baron, seized by the Revolution, and locked for decades behind the Iron Curtain in the Hermitage.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1908', who: 'Pablo Picasso (the artist)', place: 'Paris', note: 'Painted in the year after the Demoiselles, in the Bateau-Lavoir studio on Montmartre.', price: null },
+    { year: 'c. 1913', who: 'Sergei Shchukin', place: 'Moscow', note: 'The Russian textile magnate — who over six years bought more than fifty Picassos — carries it back to Moscow.', price: null },
+    { year: '1918', who: 'Nationalised by the Soviet state', place: 'Moscow', note: 'The Revolution seizes Shchukin’s collection; he flees to Paris. His Picassos become state property.', price: null },
+    { year: '1948', who: 'Hermitage Museum', place: 'Leningrad', note: 'Stalin breaks up the old collection between Moscow and Leningrad; this canvas goes to the Hermitage, where for decades it is rarely shown.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Picasso', role: 'The painter', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Sergei Shchukin', role: 'The Moscow buyer', palette: ['#8a3a2a', '#2a1c16', '#0a0606'] },
+    { name: 'Matisse', role: 'Rival, fellow collected', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { name: 'Kahnweiler', role: 'The dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+  ],
+  annotations: [
+    { x: '48%', y: '20%', w: 46, h: 22, label: 'A monumental head', detail: 'The central figure’s head, tipped back with raised arms: heavy almond eyes, a blunt nose, the whole face simplified into a few carved planes. There is no expression to read — Picasso wants a mask, not a person, a head you could imagine cut from wood.' },
+    { x: '75%', y: '34%', w: 40, h: 26, label: 'A mask for a face', detail: 'The right-hand figure’s face is the clearest mask of the three — gouged, frontal, deliberately “other,” lifted from the carved African sculpture Picasso had been staring at. A beautiful nude is given the face of a carved mask.' },
+    { x: '42%', y: '58%', w: 54, h: 32, label: 'Carved from one block', detail: 'Where the three bodies meet, you can barely tell whose limb is whose: thighs, shoulders and arms lock into a single faceted mass of rust and ochre. The picture reads less like three figures than one solid thing chiselled into shape.' },
+    { x: '14%', y: '20%', w: 26, h: 26, label: 'A breath of green', detail: 'At the edges, slivers of cool green press in against all that fired-clay red — nearly the only colour in the picture that isn’t earth. It is the one note of air around a group otherwise packed as tight as masonry.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Les Demoiselles', mode: 'art' }, { label: 'African sculpture', mode: 'art' }, { label: 'Cézanne', mode: 'art' } ],
+    children: [ { label: 'Analytic Cubism', mode: 'art' }, { label: 'Houses at Horta', mode: 'art' }, { label: 'Carved sculpture', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — The Portuguese (Braque, 1911): the first stencilled letters in Cubism.
+// Self-hosted (US-PD 1911). Crops verified against the 824×1206 repro.
+// Prose: NARRATIVES['the-portuguese'].
+// ─────────────────────────────────────────────────────────────
+export const THE_PORTUGUESE: ArtWorkContent = {
+  id: 'the-portuguese',
+  name: 'The Portuguese',
+  shortName: 'The Portuguese',
+  year: 1911,
+  artist: 'Georges Braque',
+  artistId: 'braque',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 10 in × 2 ft 8 in',
+  location: 'Kunstmuseum Basel',
+  acquired: 'Gift of Raoul La Roche',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 7, total: 9 },
+  hook: 'Braque dissolved a guitar player into a haze of brown facets — then stencilled the letters “D BAL” across the top, and printed type walked into painting for good.',
+  heroImage: ART_IMG.portuguese,
+  heroCredit: 'Braque, The Portuguese, 1911 · Kunstmuseum Basel',
+  heroAspect: 0.683,
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1911', k: 'Painted' },
+    { v: '3′10″ × 2′8″', k: 'Dimensions' },
+    { v: 'Basel', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1911', title: 'Roped to Picasso, still', blurb: 'A year on from Violin and Jug, Braque and Picasso have faceted the world almost to vapour — and Braque is about to let a printed word into the fog.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1911', title: 'A musician, dissolved', blurb: 'A Portuguese guitarist Braque remembered from a bar, broken into a shimmer of brown planes so fine the figure nearly vanishes.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Find “D BAL”, then the guitar', blurb: 'Start with the stencilled letters at the top, then hunt down the head and the guitar surfacing from the haze.', progress: 0.56 },
+    { id: 'letters', eyebrow: 'The point', dateLabel: '1911', title: 'The day type walked in', blurb: 'Why a few stencilled letters were a revolution — flat, real, mass-produced, sitting on the surface, and pointing straight at collage.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1911–today', title: 'Basel, again', blurb: 'Like Violin and Jug, it owes its home to one Swiss banker who bought Cubism before the world agreed it was art.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1911', who: 'Georges Braque (the artist)', place: 'Paris / Céret', note: 'Painted partly in the Pyrenean town of Céret, where Braque and Picasso spent the summer working side by side.', price: null },
+    { year: 'by the 1920s', who: 'Raoul La Roche', place: 'Paris / Basel', note: 'The Basel-born banker and Le Corbusier’s friend buys it as part of his deep early collection of Cubism.', price: null },
+    { year: '1952–63', who: 'Kunstmuseum Basel', place: 'Basel', note: 'Donated with the rest of La Roche’s Cubist holdings, in stages — making Basel a stronghold of the movement.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Braque', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Picasso', role: 'The other rope-end', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Kahnweiler', role: 'The dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { name: 'Raoul La Roche', role: 'The collector who saved it', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
+  ],
+  annotations: [
+    { x: '66%', y: '20%', w: 58, h: 34, label: 'Stencilled letters', detail: 'Across the top, in crisp block capitals, the letters “D BAL” (from GRAND BAL — a dance-hall poster) and below them a scatter of stencilled numbers. They are stencilled — sharp, flat, mechanical — and they sit dead on the surface, refusing to join the faceted haze behind them. This is the move the whole picture is famous for.' },
+    { x: '46%', y: '28%', w: 54, h: 24, label: 'The musician’s head', detail: 'Below the lettering, a rounded mass of paler planes is the player’s head and shoulders, tipped slightly, almost lost in the shimmer. Braque gives you just enough — a curve, a shadow — to feel a person is there before he dissolves again.' },
+    { x: '40%', y: '74%', w: 52, h: 28, label: 'The guitar', detail: 'Lower centre, the diagonal strings and the soft curve of a sound-hole give away the guitar across the musician’s lap. It is the firmest object in the picture, the thing that tells you this is a seated player and not pure abstraction.' },
+    { x: '55%', y: '50%', w: 44, h: 26, label: 'Planes that bleed', detail: 'Everywhere, edges that should belong to the figure open and leak into the background, so body and air are built from the same broken brown light — the Analytic-Cubism trick called passage, here pushed nearly to the point of vapour.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Violin and Jug', mode: 'art' }, { label: 'Cézanne', mode: 'art' }, { label: 'Café posters', mode: 'civ' } ],
+    children: [ { label: 'Collage', mode: 'art' }, { label: 'Chair Caning', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Breakfast / Le Petit Déjeuner (Juan Gris, 1914): the model Synthetic-
+// Cubism papier collé. Self-hosted higher-res (Gris PD worldwide, d.1927).
+// Crops verified against the 833×1128 repro. Prose: NARRATIVES['gris-breakfast'].
+// ─────────────────────────────────────────────────────────────
+export const GRIS_BREAKFAST: ArtWorkContent = {
+  id: 'gris-breakfast',
+  name: 'Breakfast',
+  shortName: 'Breakfast',
+  year: 1914,
+  artist: 'Juan Gris',
+  artistId: 'gris',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Gouache, oil and crayon with pasted paper on canvas',
+  dimensions: '2 ft 8 in × 1 ft 11½ in',
+  location: 'Museum of Modern Art, New York',
+  acquired: '',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 8, total: 9 },
+  hook: 'The third Cubist, Juan Gris, glued down printed wood-grain paper and a torn newspaper, painted a café breakfast on top, and hid his own name in the headline.',
+  heroImage: ART_IMG.grisLunch,
+  heroCredit: 'Gris, Breakfast (Le Petit Déjeuner), 1914 · MoMA, New York',
+  heroAspect: 0.738,
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1914', k: 'Made' },
+    { v: '2′8″ × 1′11½″', k: 'Dimensions' },
+    { v: 'MoMA', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1912–14', title: 'The third man', blurb: 'While the founders improvised, a quiet Spaniard named Juan Gris turned Cubism from an instinct into a system — and joined the collage revolution they had started.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The work', dateLabel: '1914', title: 'Pasted, not painted', blurb: 'Gris glues down two kinds of printed wood-grain paper and a strip of real wallpaper, then draws and paints the breakfast table on top of them.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'A table you can actually read', blurb: 'Coffee pot, cup, glasses, a newspaper — far more legible than the founders ever allowed, with a joke folded into the headline.', progress: 0.56 },
+    { id: 'system', eyebrow: 'The point', dateLabel: '1914', title: 'Cubism made rigorous', blurb: 'Where Picasso and Braque felt their way, Gris calculated — clean, locked, almost architectural. The most orderly Cubism anyone made.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1914–today', title: 'The short, bright career', blurb: 'Gris died at forty with his reputation still catching up; his Breakfast now hangs at MoMA as the textbook Synthetic-Cubist collage.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1914', who: 'Juan Gris (the artist)', place: 'Paris / Collioure', note: 'Made in the spring, just before the war, during Gris’s great burst of papiers collés.', price: null },
+    { year: 'from 1914', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Gris was under contract to Kahnweiler — the same dealer who backed Picasso and Braque — until the war scattered them.', price: null },
+    { year: 'today', who: 'Museum of Modern Art', place: 'New York', note: 'Now among MoMA’s core Cubist holdings, shown as the model of how collage rebuilt the still life.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Juan Gris', role: 'The painter', palette: ['#3a6a7a', '#8a6b3a', '#1c2a2e'] },
+    { name: 'Picasso', role: 'The senior Spaniard', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Kahnweiler', role: 'The dealer', palette: ['#5a4a3a', '#2a221c', '#0a0606'] },
+    { name: 'Braque', role: 'Co-inventor of papier collé', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+  ],
+  annotations: [
+    { x: '42%', y: '78%', w: 42, h: 16, label: 'JOURNAL — and his name', detail: 'A torn strip of newspaper reads “…OURN…” — journal, the French daily — and just below it, “…ZA GRIS.” That last word is the painter signing his work inside the picture: Gris means “grey” in French, and here it is set in newsprint, a pun and a signature in one.' },
+    { x: '56%', y: '55%', w: 40, h: 24, label: 'The cup and saucer', detail: 'Dead centre, a white coffee cup and saucer are drawn with almost old-fashioned, rounded clarity — solid, shaded, completely readable. Gris lets you have the real object, then surrounds it with flat pasted planes, so realism and abstraction share one table.' },
+    { x: '33%', y: '40%', w: 40, h: 26, label: 'The coffee pot', detail: 'To the left, the tall pale shape of a coffee pot or pitcher rises out of the composition. Notice how Gris splits it down a clean vertical seam — light on one side, shadow on the other — slicing a single object into two views without ever losing it.' },
+    { x: '30%', y: '86%', w: 46, h: 18, label: 'Imitation wood-grain', detail: 'The table and its turned legs are not painted wood — they are strips of cheap, factory-printed wood-grain paper, glued down. A mass-produced fake of timber, standing in for the real café table: collage doing the work paint used to do.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Chair Caning', mode: 'art' }, { label: 'Analytic Cubism', mode: 'art' }, { label: 'Mechanical printing', mode: 'civ' } ],
+    children: [ { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Purism', mode: 'art' }, { label: 'Art Deco', mode: 'civ' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Three Musicians (Picasso, 1921, the Philadelphia version): the grand
+// summation of Synthetic Cubism. Image en-tier (picassoThreeMusicians).
+// Crops verified against the 1280×1385 repro. Prose: NARRATIVES['three-musicians'].
+// ─────────────────────────────────────────────────────────────
+export const THREE_MUSICIANS: ArtWorkContent = {
+  id: 'three-musicians',
+  name: 'Three Musicians',
+  shortName: 'Three Musicians',
+  year: 1921,
+  artist: 'Pablo Picasso',
+  artistId: 'picasso',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 8½ in × 6 ft 2 in',
+  location: 'Philadelphia Museum of Art',
+  acquired: 'A. E. Gallatin Collection, 1952',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 9, total: 9 },
+  hook: 'Picasso’s farewell to Cubism’s heroic decade: three masked players built from flat, bright planes — collage remembered in pure paint, and a quiet elegy for lost friends.',
+  heroImage: ART_IMG.picassoThreeMusicians,
+  heroCredit: 'Picasso, Three Musicians, 1921 · Philadelphia Museum of Art',
+  heroAspect: 0.924,
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1921', k: 'Painted' },
+    { v: '6′8½″ × 6′2″', k: 'Dimensions' },
+    { v: 'Philadelphia', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'setting', eyebrow: 'Lay of the land', dateLabel: '1921', title: 'Ten years on', blurb: 'Cubism is no longer a scandal but a style; the war is over, the old circle scattered, and Picasso sits down to paint its summation in a rented garage.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The work', dateLabel: 'Summer 1921', title: 'Painted like cut paper', blurb: 'Two near-identical giants, built from flat interlocking planes of bright colour — the look of pasted paper, achieved in pure paint.', progress: 0.32 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Three masked players', blurb: 'A clarinet, a guitar and a sheet of music: Pierrot, Harlequin and a robed monk, staring out of a shallow brown room.', progress: 0.56 },
+    { id: 'elegy', eyebrow: 'The point', dateLabel: '1921', title: 'A portrait of ghosts', blurb: 'The three masks are widely read as Picasso and two poet friends — one dead, one turned monk — which makes this bright picture a quiet elegy.', progress: 0.78 },
+    { id: 'afterlife', eyebrow: 'What happened next', dateLabel: '1921–today', title: 'Two versions, two cities', blurb: 'He painted it twice in the same summer; one hangs in New York, this one in Philadelphia — the grand last word of Cubism’s great decade.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1921', who: 'Pablo Picasso (the artist)', place: 'Fontainebleau', note: 'Painted over the summer in the garage of a rented villa, in two large versions at once.', price: null },
+    { year: 'by the 1930s', who: 'A. E. Gallatin', place: 'New York', note: 'The American collector hangs it in his Museum of Living Art at New York University — one of the first places Americans could see modern art for free.', price: null },
+    { year: '1952', who: 'Philadelphia Museum of Art', place: 'Philadelphia', note: 'Enters the museum with the A. E. Gallatin Collection, where it remains a centrepiece of the Cubist rooms.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Picasso', role: 'The painter (Harlequin)', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'] },
+    { name: 'Apollinaire', role: 'The dead poet (Pierrot)', palette: ['#3a4a6a', '#2a3048', '#0e1422'] },
+    { name: 'Max Jacob', role: 'The friend turned monk', palette: ['#3a3026', '#1c160e', '#0a0606'] },
+    { name: 'A. E. Gallatin', role: 'The collector', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },
+  ],
+  annotations: [
+    { x: '50%', y: '22%', w: 82, h: 20, label: 'Three masks', detail: 'Across the top, three masked faces stare straight out: the white-and-bearded one at left, a black domino mask in the centre, a hooded face at right. They are flat, frontal and unreadable — carnival masks, not portraits, which is part of why the picture feels haunted.' },
+    { x: '38%', y: '31%', w: 52, h: 24, label: 'The instruments', detail: 'A clarinet held to the centre figure’s mouth, the neck of a guitar at the left — the “music” of three musicians, rendered as flat brown and black shapes. You read the instruments by their silhouettes, the way you’d read a paper cut-out.' },
+    { x: '47%', y: '52%', w: 40, h: 18, label: 'The sheet music', detail: 'On the table, a sheet of music with actual staves and notes — one of the few “realistic” passages in the picture, a small window of legibility in a wall of flat colour.' },
+    { x: '30%', y: '64%', w: 34, h: 28, label: 'Flat shapes, cut and laid down', detail: 'The Harlequin’s costume is a field of orange-and-cream diamonds, built as flat interlocking planes with hard edges — exactly the look of pasted coloured paper. Nine years after Chair Caning, Picasso paints collage instead of gluing it.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Chair Caning', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Commedia dell’arte', mode: 'civ' } ],
+    children: [ { label: 'Surrealism', mode: 'art' }, { label: 'Pop Art', mode: 'art' }, { label: 'Modern stage design', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
 // Artist — Picasso (1881–1973)
 // ─────────────────────────────────────────────────────────────
 export interface ArtistPeriod { id: string; label: string; range: string; color: string; summary: string; size: 's' | 'm' | 'l' }
@@ -832,5 +1092,5 @@ export const PICASSO: ArtArtistContent = {
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

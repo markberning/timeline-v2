@@ -4,9 +4,10 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: ACTIVE — run four times (2026-05-23 Modern era + Cubism; 2026-05-24
-Kahnweiler work; 2026-05-24 Chair Caning work; 2026-05-24 Horta + Violin and Jug,
-two works in one pass).** See the proof-run logs at the bottom. This is the
+**Status: ACTIVE — run five times (2026-05-23 Modern era + Cubism; 2026-05-24
+Kahnweiler; Chair Caning; Horta + Violin and Jug; and the final FOUR — Three Women,
+The Portuguese, Gris's Breakfast, Three Musicians — completing the 9-work Cubism
+chain).** See the proof-run logs at the bottom. This is the
 mandatory gate for every Art section — **do NOT author-and-ship; run all five critic
 gates every time** (the Kahnweiler run re-learned this the hard way; every run
 since has been gated from the start). **Still owed:** the Demoiselles WORK reader
@@ -322,3 +323,36 @@ rather than pixelating — verified by rendering the crops before locking x/y/w/
   canvas &ldquo;Violin and Pitcher&rdquo;). tsc + eslint clean; build green; all 12 new
   routes render. **Lesson: two works in one pass is efficient if the critics are batched
   by axis (5 agents, both works each), not by work (10 agents).**
+
+## Proof run 5 — DONE (2026-05-24) — the last FOUR, completing the Cubism chain (9/9)
+Three Women (Picasso, 1908), The Portuguese (Braque, 1911), Breakfast (Gris, 1914),
+Three Musicians (Picasso, 1921) — built in a single pass, taking &ldquo;Works of
+Cubism&rdquo; to 9 of 9. Scope notes:
+- **The chain had a non-work slot.** The works array listed &ldquo;The Cubist Years
+  end&rdquo; (1914) — a timeline milestone, not a paintable canvas. It was replaced
+  with a real 1911 work, Braque&rsquo;s **The Portuguese**, which also fills the
+  Analytic-peak gap; the Gris slot was aligned to the actual image on hand (**Breakfast
+  / Le Petit Déjeuner**, 1914, MoMA — aspect-matched to confirm it&rsquo;s the MoMA
+  papier collé, not the Pompidou/1915 version). `CUBISM.works` + `CUBISM_RIBBON` updated.
+- **Three self-hosted images** (Three Women, The Portuguese — US-PD; Gris — PD worldwide
+  but the Commons copy was 440px, so a 833px repro is served locally). Three Musicians
+  used the existing en-tier `picassoThreeMusicians`. All four crop-sets rendered and
+  eyeballed before locking.
+- **Dimensions IMPERIAL from the start** (the rule from the prior session held — no cm
+  regressions; the fact-checker&rsquo;s &ldquo;use W×H&rdquo; note was declined: this app
+  is consistently height×width).
+- **Five critics, each covering all four works** (batched by axis, ~5 concurrent). They
+  again earned their keep: removed an unverified &ldquo;0,40, a price&rdquo; reading of
+  The Portuguese&rsquo;s stencilled numbers (sources say roman numerals); softened Gris&rsquo;s
+  &ldquo;real floral wallpaper&rdquo; to &ldquo;printed decorative wallpaper&rdquo; (MoMA
+  medium); hedged &ldquo;most orderly Cubism&rdquo; and &ldquo;most important decade&rdquo;
+  overclaims; **credited Braque&rsquo;s parallel papier collé** so Picasso didn&rsquo;t
+  solo-collect collage; added the missing Braque/L&rsquo;Estaque parallel to Three Women
+  and the bridge-to-Analytic; glossed cold terms for newcomers (domino mask, Le Corbusier/
+  Purism, passage, fugue, Constructivists/Bauhaus); and fixed the recurring &ldquo;cool-down
+  chapters go dark on the canvas&rdquo; defect with visual callbacks in the ch4/ch5 of each.
+  The TwPrimitivism (African-source) chapter was singled out by the framing critic as the
+  house standard for handling non-European sources.
+- Coordinator gates 6–7 PASS; tsc + eslint clean; build green; all 20 new routes render.
+  **The Cubism movement is now a complete 9-work survey, 1907–1921, across Picasso, Braque
+  and Gris.**
