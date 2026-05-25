@@ -18,6 +18,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import { artAlpha, SANS, SERIF, INK, MUTED, FAINT, BORDER, CARD_BG } from '@/components/mode/art-chrome'
 import { Lightbox } from '@/components/lightbox'
@@ -195,13 +196,14 @@ export function ArtNarrativeReader({
 
   const [lb, setLb] = useState<{ src: string; cap: string } | null>(null)
   const onZoom = (src: string, cap: string) => setLb({ src, cap })
+  const scrollRef = useScrollMemory<HTMLDivElement>()
 
   const Narrative = narratives[section.id] || Object.values(narratives)[0]
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)', ['--accent' as string]: accent }}>
       <WarBreadcrumb crumbs={crumbs} accent={accent} />
-      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
+      <div ref={scrollRef} style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
         <ChapterHeader accent={accent} eyebrow={`${eyebrowPrefix} · ${section.eyebrow}`} title={section.title} progress={section.progress} />
         <Narrative accent={accent} onZoom={onZoom} />
 

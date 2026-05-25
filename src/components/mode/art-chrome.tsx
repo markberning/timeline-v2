@@ -9,6 +9,7 @@
 
 import { useState, Fragment } from 'react'
 import Link from 'next/link'
+import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
@@ -306,8 +307,11 @@ export function ArtistsStrip({ artists, label = 'Artists' }: { artists: { id?: s
 }
 
 // Wrapper that gives a drilldown page the standard full-height scroll column.
+// Remembers scroll position per path so swipe-back returns where you were (this is
+// an inner scroll container — native restoration only covers the window).
 export function ArtPageShell({ children }: { children: React.ReactNode }) {
-  return <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>{children}</div>
+  const ref = useScrollMemory<HTMLDivElement>()
+  return <div ref={ref} style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>{children}</div>
 }
 
 export type { Crumb, CrumbOption }

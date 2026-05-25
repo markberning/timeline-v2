@@ -10,6 +10,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 import { ART_ACCENT, ART_ERAS, ART_CHIPS, ART_CLIMB, artAlpha, type ClimbNode } from '@/lib/art-data'
 
@@ -249,8 +250,9 @@ function ArtClimb() {
 // ═════════════════════════════════════════════════════════════
 export function ArtFrontDoor({ showToggle = true }: { showToggle?: boolean } = {}) {
   const [view, setView] = useState<View>('eras')
+  const scrollRef = useScrollMemory<HTMLDivElement>()
   return (
-    <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
+    <div ref={scrollRef} style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
       <ArtHubIntro />
       {/* Eras/Tree toggle — sits at the top of the era list (compact) */}
       <div style={{ padding: '8px 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>

@@ -13,6 +13,7 @@
 // (e.g. Guernica) renders the DEGRADED reference card instead.
 
 import { useState } from 'react'
+import { useScrollMemory } from '@/lib/use-scroll-memory'
 import Link from 'next/link'
 import { WarBreadcrumb, type Crumb } from '@/components/mode/war-chrome'
 import {
@@ -1748,11 +1749,12 @@ export function ArtSectionReader({ workId, sectionId }: { eraId: string; movemen
   ]
 
   const Narrative = NARRATIVES[workId]?.[section.id] || ComingChapter
+  const scrollRef = useScrollMemory<HTMLDivElement>()
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)', ['--accent' as string]: accent }}>
       <WarBreadcrumb crumbs={crumbs} accent={accent} />
-      <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
+      <div ref={scrollRef} style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
         <ChapterHeader accent={accent} eyebrow={`${w.shortName} · ${section.eyebrow}`} title={section.title} progress={section.progress} />
         <Narrative accent={accent} onZoom={onZoom} />
 
