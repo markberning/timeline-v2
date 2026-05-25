@@ -4,10 +4,11 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: ACTIVE — run six times (2026-05-23 Modern era + Cubism; 2026-05-24
+**Status: ACTIVE — run seven times (2026-05-23 Modern era + Cubism; 2026-05-24
 Kahnweiler; Chair Caning; Horta + Violin and Jug; and the final FOUR — Three Women,
 The Portuguese, Gris's Breakfast, Three Musicians — completing the 9-work Cubism
-chain; 2026-05-25 the Modern era "Lay of the land" prologue chapter).** See the
+chain; 2026-05-25 the Modern era "Lay of the land" prologue chapter; 2026-05-25 the
+Realism movement, 6 ch — the first movement authored gates-first, no relapse).** See the
 proof-run logs at the bottom. This is the
 mandatory gate for every Art section — **do NOT author-and-ship; run all five critic
 gates every time** (the Kahnweiler run re-learned this the hard way, and the
@@ -408,3 +409,43 @@ earned their keep again:
 - Coordinator gates 6–7 PASS (both figures Commons PD-worldwide, load-checked,
   captions/credits/locations correct); tsc + eslint clean; route renders. Pipeline
   artifacts in `audits/art-pipeline/` (fact pack, draft, the five gate reports).
+
+## Proof run 7 — DONE (2026-05-25) — Realism movement (kind: MOVEMENT, 6 ch)
+The Modern era's **first** movement read (`/art/mod/real`, 1848–1870, six chapters:
+Why Realism · Courbet's gauntlet · The Pavilion + the Manifesto · Millet's peasants ·
+Daumier's city · Bonheur + the reach). **Authored gates-first this time** (no
+hand-author-and-ship relapse): fact pack → Opus draft (Fact ledger) → 5 Sonnet
+critic gates in parallel → web-verify new facts → Opus revise. The gates again
+earned their keep:
+- **Fact-checker** (web) — the draft's "only **black-and-white** reproductions
+  survive" of Courbet's *The Stone Breakers* was a real overclaim (color
+  reproductions exist; the original was lost in the 1945 bombing of Dresden, museum
+  status **"missing"** / presumed destroyed, the transit-to-Königstein story one
+  contested account). Reframed to "survives only in reproductions"; the figure is
+  shown **desaturated** as an honest record of the lost work. Verified Courbet's
+  downfall numbers (Vendôme Column; 6 months + 500-franc fine; 1873 reconstruction
+  bill ~**323,000 francs**; exile; died 1877), Gargantua dated **1831**, the Daumier
+  6-month jail term framed as the standard account not carved fact.
+- **Framing** — FAIR; Rosa Bonheur given real agency + her lifelong companion
+  **Nathalie Micas** (replacing a bare "without a husband" solitude); Millet's
+  politics named honestly; the academy kept a coherent system, not a cartoon villain;
+  "first modern movement" held Western-scoped.
+- **Comprehensiveness** — MUST-ADDs folded in: Millet's *The Sower* (1850, opened the
+  same Salon as Courbet's *Burial*), a photography/daguerreotype beat, and Courbet's
+  Commune-era ruin.
+- **Storytelling/looking** + **Clarity** — STRONG; one looking beat added on *The
+  Angelus* (the sky filling two-thirds, pressing on the two small bodies); glosses for
+  bourgeois, Fauves, Barbizon School, the Salon des Refusés.
+- **Image gate 6** — 9 figures, all born-verified by eye + load-checked: Burial,
+  Gleaners, Angelus, Sower (Commons GAP), Third-Class Carriage + Horse Fair (Commons
+  MET), the Painter's Studio (existing Commons). **Self-hosted two**: Gargantua
+  (trimmed off its cream paper margin + engraved title strip) and the Stone Breakers
+  (desaturated record of the destroyed original). All artists PD worldwide.
+- **Nesting gate 7** — defers to the era read tersely at every overlap (Stone
+  Breakers/Burial "the era overview introduces both", Cabanel "as the era overview
+  shows", the Pavilion tent, Impressionism "one chapter along") and spends the depth
+  on what the era only gestured at (full cast, more works, the politics, the
+  afterlife). No contradictions.
+- tsc clean; all routes render (movement page + 6 chapters, auto-generated from
+  `ART_MOVEMENT_CONTENT`); era card → `/art/mod/real` now live. Pipeline artifacts in
+  `audits/art-pipeline/realism-*`.

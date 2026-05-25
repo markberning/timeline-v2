@@ -142,7 +142,7 @@ function BandLabel({ children }: { children: React.ReactNode }) {
 // THE INFLUENCE FLOW — artwork-node lineage in a converge → hub → fan-out
 // composition with a light cubist (faceted + shattered) treatment.
 const HUB_FACET = 'polygon(10% 0, 100% 0, 100% 76%, 84% 100%, 0 100%, 0 24%)'
-function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette }: { accent: string; lineage: ArtLineage; title: string; range: string; hubImage?: string; hubPalette: Palette }) {
+function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette, summary }: { accent: string; lineage: ArtLineage; title: string; range: string; hubImage?: string; hubPalette: Palette; summary?: string }) {
   const grid: React.CSSProperties = { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
@@ -180,9 +180,11 @@ function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette }: 
         <div style={grid}>{lineage.children.map(c => <NodeCard key={c.label} chip={c} accent={accent} />)}</div>
       </div>
 
-      <div style={{ marginTop: 16, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>
-        Cubism took Cézanne&rsquo;s faceted space and the flat planes of African masks, broke the single-viewpoint window once and for all, and handed that break on to nearly every abstract movement that followed.
-      </div>
+      {summary && (
+        <div style={{ marginTop: 16, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>
+          {summary}
+        </div>
+      )}
     </div>
   )
 }
@@ -282,12 +284,12 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
           />
         )}
         {/* signature visual — always visible */}
-        <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} />
+        <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} summary={mv.influenceSummary} />
         {/* secondary detail — collapsed by default */}
         <ArtAccordion label="The details" accent={accent}>
           <StatsRow stats={mv.stats} />
           <ArtFaceoff items={mv.factions} />
-          <ArtistsStrip artists={mv.artists} label="Cubist artists" />
+          <ArtistsStrip artists={mv.artists} label={`${mv.name} artists`} />
           <ParallelsList parallels={mv.parallels} />
         </ArtAccordion>
         <WorksCord works={mv.works} accent={accent} eraId={mv.eraId} movementId={mv.id} />

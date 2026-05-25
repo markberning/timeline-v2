@@ -85,6 +85,21 @@ export const ART_IMG = {
   threeWomen: '/art/three-women.jpg',
   portuguese: '/art/the-portuguese.jpg',
   grisLunch: '/art/gris-breakfast.jpg',
+  // ── Realism movement figures (born-verified 2026-05-25; subjects eyeballed) ──
+  // COMMONS (free worldwide; every artist died well before 1931).
+  courbetBurial: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg/1280px-Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg',
+  milletGleaners: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg/1280px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project.jpg',
+  milletAngelus: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg/1280px-Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg',
+  milletSower: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Jean-Fran%C3%A7ois_Millet_-_The_Sower_-_Google_Art_Project.jpg/1280px-Jean-Fran%C3%A7ois_Millet_-_The_Sower_-_Google_Art_Project.jpg',
+  daumierCarriage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Third-Class_Carriage_MET_DT2142.jpg/1280px-The_Third-Class_Carriage_MET_DT2142.jpg',
+  bonheurHorseFair: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/The_Horse_Fair_MET_DT44.jpg/1280px-The_Horse_Fair_MET_DT44.jpg',
+  // SELF-HOSTED: Daumier's Gargantua lithograph (1831, PD worldwide), trimmed off
+  // its cream paper margin + the engraved title strip so the scene fills the frame.
+  daumierGargantua: '/art/gargantua.jpg',
+  // SELF-HOSTED: Courbet's The Stone Breakers (1849, PD worldwide — Courbet d.1877).
+  // The ORIGINAL was destroyed in the bombing of Dresden, Feb 1945; shown here as a
+  // desaturated record of the lost work (an archival stand-in, not the painting).
+  courbetStoneBreakers: '/art/stone-breakers.jpg',
   // Cubism influence-flow lineage nodes (Commons, load-verified 2026-05-24)
   fangMask: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg/960px-0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg',
   pissarroBoulevard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg/960px-Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg',
@@ -167,7 +182,7 @@ export const MODERN_ERA: ArtEraContent = {
     { side: 'rupture', label: 'The Avant-Gardes', color: ART_ACCENTS.violet, motto: 'Make it new. Then make it newer.', detail: 'A century of small magazines, group manifestos, gallerists, and a Paris café full of arguments.' },
   ],
   movements: [
-    { id: 'real', name: 'Realism', range: '1848–1870', accent: ART_ACCENTS.amber, size: 's', hook: 'Painting the world as the eye actually sees it. Mostly farmers and laundresses.', palette: ['#6b5034', '#3a2820', '#100c08'] },
+    { id: 'real', name: 'Realism', range: '1848–1870', accent: ART_ACCENTS.amber, size: 'm', hook: 'Paint your own century — laborers and peasants, given the wall the Salon kept for gods.', palette: ['#8a7a4a', '#4a3c22', '#14100a'], imageUrl: ART_IMG.milletGleaners, credit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris' },
     { id: 'imp', name: 'Impressionism', range: '1860s–1886', accent: ART_ACCENTS.blue, size: 'l', hook: 'Painting the LIGHT instead of the thing. Outdoors. Quick.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.impressionSunrise, credit: 'Monet, Impression, Sunrise · Musée Marmottan Monet, Paris' },
     { id: 'post', name: 'Post-Impressionism', range: '1886–1905', accent: ART_ACCENTS.green, size: 'm', hook: 'Putting the structure back. Cézanne in Aix, Van Gogh in Arles, Gauguin in Tahiti.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.vanGoghSelf, portrait: true, credit: 'Van Gogh, Self-Portrait, 1889 · Musée d’Orsay, Paris' },
     { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'], imageUrl: ART_IMG.matisseHat, portrait: true, credit: 'Matisse, Woman with a Hat, 1905 · SFMOMA, San Francisco' },
@@ -276,8 +291,11 @@ export interface ArtMovementContent {
   artists: MovementArtist[]
   parallels: MovementParallel[]
   lineage: ArtLineage
+  // One-line italic summary under the influence-flow diagram (what fed in → what
+  // it handed on). Falls back to nothing when omitted.
+  influenceSummary?: string
   // The movement's own long-form narrative (chaptered prose). Prose lives in the
-  // reader (cubism-narratives.tsx); this is the chapter metadata only.
+  // reader (movement-narratives.tsx); this is the chapter metadata only.
   sections: WorkSection[]
 }
 
@@ -304,7 +322,7 @@ export const CUBISM: ArtMovementContent = {
   stats: [
     { v: '15 yrs', k: 'Span' },
     { v: '~40', k: 'Canonical works' },
-    { v: 'Paris', k: 'Centred on' },
+    { v: 'Paris', k: 'Centered on' },
   ],
   factions: [
     { side: 'pioneers', label: 'The pioneers', color: ART_ACCENTS.violet, members: ['Picasso', 'Braque'], detail: 'Two studios in Montmartre. Daily visits. Joint shows. They invented it together and then drifted apart in the war.' },
@@ -349,6 +367,7 @@ export const CUBISM: ArtMovementContent = {
       { label: 'Bauhaus', mode: 'art', img: ART_IMG.bauhausDessau, palette: ['#1c1c1c', '#bf2f25', '#d6cf3f'], note: 'took: pure geometry, into design' },
     ],
   },
+  influenceSummary: 'Cubism took Cézanne’s faceted space and the flat planes of African masks, broke the single-viewpoint window once and for all, and handed that break on to nearly every abstract movement that followed.',
   sections: [
     { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks — the three things Picasso could not stop looking at.', progress: 1 / 6 },
     { id: 'analytic', eyebrow: 'The partnership', dateLabel: '1909–1911', title: 'Two men, one rope', blurb: 'Picasso and Braque climb the mountain roped together, faceting the world into brown and gray shards.', progress: 2 / 6 },
@@ -388,6 +407,86 @@ export const CUBISM_RIBBON = {
   threads: [
     { fromYear: 1907, fromTrack: 0, toYear: 1908, toTrack: 1 },
     { fromYear: 1910, fromTrack: 0, toYear: 1912, toTrack: 2 },
+  ],
+}
+
+// ─────────────────────────────────────────────────────────────
+// Movement — Realism (1848–1870). The Modern era's opening revolt.
+// Authored through the art content pipeline (fact pack → Opus draft → 5 critic
+// gates → revise); narrative in movement-narratives.tsx under 'real'.
+// ─────────────────────────────────────────────────────────────
+export const REALISM: ArtMovementContent = {
+  id: 'real',
+  name: 'Realism',
+  range: '1848–1870',
+  span: '22 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Movements of the Modern era', index: 1, total: 10 },
+  hook: 'Courbet hangs a stone-breaker where the Salon kept its gods.',
+  hookLong:
+    'Around 1848 a handful of painters made a deliberate movement out of an almost rude idea: paint the real, ordinary, contemporary world — laborers, peasants, the urban poor — at the size and seriousness the academy had always reserved for myth and kings. It was the first shot in the whole modern revolt, and everything restless that follows is still answering it.',
+  heroImage: ART_IMG.courbetBurial,
+  heroFit: 'cover',
+  heroFocus: '50% 52%',
+  heroCredit: 'Courbet, A Burial at Ornans (detail), 1849–50 · Musée d’Orsay, Paris',
+  stats: [
+    { v: '22 yrs', k: 'Span' },
+    { v: '~30', k: 'Canonical works' },
+    { v: 'Paris', k: 'Centered on' },
+  ],
+  factions: [
+    { side: 'realists', label: 'The Realists', color: ART_ACCENTS.amber, members: ['Courbet', 'Millet', 'Daumier', 'Bonheur'], detail: 'No manifesto-signing club — a loose front who agreed on one thing: paint the real, contemporary world, at full scale and dead serious.' },
+    { side: 'academy', label: 'The Academy', color: '#7c6f5a', members: ['The Salon jury', 'Cabanel', 'Bouguereau'], detail: 'The State-run ladder that ranked gods and kings at the top and modern life at the bottom — and policed the one show in France where a career was made.' },
+  ],
+  works: [
+    { id: 'gargantua', year: 1831, name: 'Gargantua', artist: 'Daumier', place: 'Paris', size: 'm', blurb: 'Daumier draws the king as a gluttonous giant gorging on his subjects’ taxes. It earned the cartoonist six months in jail.', palette: ['#8a8074', '#4a4038', '#16120e'], imageUrl: ART_IMG.daumierGargantua, credit: 'Daumier, Gargantua, 1831 · lithograph · Bibliothèque nationale de France' },
+    { id: 'stone-breakers', year: 1849, name: 'The Stone Breakers', artist: 'Courbet', place: 'Ornans', size: 'm', blurb: 'Two laborers breaking rock, life-size and dead serious. The original was destroyed in 1945; only reproductions survive.', palette: ['#7a7064', '#42382c', '#15110c'], imageUrl: ART_IMG.courbetStoneBreakers, credit: 'Courbet, The Stone Breakers, 1849 · destroyed 1945 (formerly Gemäldegalerie, Dresden)' },
+    { id: 'burial', year: 1850, name: 'A Burial at Ornans', artist: 'Courbet', place: 'Ornans', size: 'xl', blurb: 'A whole village funeral painted ten feet tall and twenty-two wide — the scale the Salon kept for the death of a Greek hero.', palette: ['#6b6354', '#39322a', '#120f0c'], imageUrl: ART_IMG.courbetBurial, credit: 'Courbet, A Burial at Ornans, 1849–50 · Musée d’Orsay, Paris' },
+    { id: 'sower', year: 1850, name: 'The Sower', artist: 'Millet', place: 'Barbizon', size: 'm', blurb: 'A lone peasant striding a dusk field, flinging seed. Monumental, almost menacing — two years after the poor toppled a throne.', palette: ['#5a5238', '#332c1e', '#100c08'], imageUrl: ART_IMG.milletSower, credit: 'Millet, The Sower, 1850 · Museum of Fine Arts, Boston' },
+    { id: 'studio', year: 1855, name: 'The Painter’s Studio', artist: 'Courbet', place: 'Paris', size: 'l', blurb: 'Courbet at his easel, all of contemporary society sorted into one room. The world’s fair refused it; he built his own tent.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.courbetStudio, credit: 'Courbet, The Painter’s Studio, 1855 · Musée d’Orsay, Paris' },
+    { id: 'horse-fair', year: 1855, name: 'The Horse Fair', artist: 'Bonheur', place: 'Paris', size: 'l', blurb: 'The Paris horse market at full gallop — draft horses rearing, handlers straining. You can nearly hear the hooves.', palette: ['#8a7a52', '#4a3c22', '#15110a'], imageUrl: ART_IMG.bonheurHorseFair, credit: 'Bonheur, The Horse Fair, 1852–55 · The Metropolitan Museum of Art, New York' },
+    { id: 'gleaners', year: 1857, name: 'The Gleaners', artist: 'Millet', place: 'Barbizon', size: 'l', blurb: 'Three of the poorest women bent over a stripped field, gathering the grain the reapers dropped — painted at the size of heroes.', palette: ['#a8915a', '#5a4a2a', '#1a1410'], imageUrl: ART_IMG.milletGleaners, credit: 'Millet, The Gleaners, 1857 · Musée d’Orsay, Paris' },
+    { id: 'angelus', year: 1859, name: 'The Angelus', artist: 'Millet', place: 'Barbizon', size: 'm', blurb: 'Two peasants pause to pray at the evening bell, tiny under an enormous sky. One of the most reproduced images of the century.', palette: ['#7a6a44', '#3e3320', '#12100a'], imageUrl: ART_IMG.milletAngelus, credit: 'Millet, The Angelus, 1857–59 · Musée d’Orsay, Paris' },
+    { id: 'carriage', year: 1864, name: 'The Third-Class Carriage', artist: 'Daumier', place: 'Paris', size: 'l', blurb: 'The cheapest class of a railway car, packed with the urban poor — tired, dignified, unsentimental. Modern life, no pity.', palette: ['#53412c', '#2a1f14', '#0c0805'], imageUrl: ART_IMG.daumierCarriage, credit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York' },
+  ],
+  artists: [
+    { id: 'courbet', name: 'Courbet', role: 'The firebrand', years: '1819–1877', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { id: 'millet', name: 'Millet', role: 'Peasant painter', years: '1814–1875', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { id: 'daumier', name: 'Daumier', role: 'The satirist', years: '1808–1879', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { id: 'bonheur', name: 'Bonheur', role: 'Animalier', years: '1822–1899', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { id: 'corot', name: 'Corot', role: 'Barbizon', years: '1796–1875', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+    { id: 'rousseau', name: 'Rousseau', role: 'Barbizon', years: '1812–1867', palette: ['#5a5236', '#332e1c', '#100e08'] },
+  ],
+  parallels: [
+    { year: 1848, movement: 'Pre-Raphaelites', place: 'London', blurb: 'Seven young British painters band together to revolt against academic polish and paint with sharp-eyed truth to nature.' },
+    { year: 1855, movement: 'Exposition Universelle', place: 'Paris', blurb: 'A world’s fair with a grand official art show — and Courbet’s rival one-man Pavilion of Realism pitched right beside it.' },
+    { year: 1857, movement: 'Realism on trial', place: 'Paris', blurb: 'Flaubert’s Madame Bovary and Baudelaire’s Les Fleurs du Mal are prosecuted for offending public morals. The unvarnished now unsettles in print, too.' },
+    { year: 1863, movement: 'Salon des Refusés', place: 'Paris', blurb: 'The jury’s rejects get their own overflow show; Manet’s Déjeuner sur l’herbe turns scandal into the next revolt.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The 1848 Revolution', mode: 'civ', palette: ['#8a1c1c', '#c79338', '#0d0606'], note: 'gave: the people step into history' },
+      { label: 'Dutch genre painting', mode: 'art', palette: ['#5a4a32', '#2e2418', '#0e0a06'], note: 'gave: dignity in everyday scenes' },
+      { label: 'Photography', mode: 'civ', palette: ['#3a3a44', '#1c1c24', '#0a0a10'], note: 'gave: a cheap, exact rival to the brush' },
+      { label: 'Barbizon landscape', mode: 'art', palette: ['#6a7250', '#3a3c28', '#14140e'], note: 'gave: working from real nature' },
+    ],
+    children: [
+      { label: 'Impressionism', mode: 'art', img: ART_IMG.impressionSunrise, palette: ['#3a6a8a', '#c8c050', '#1c2a30'], note: 'took: the contemporary world, lit by real light' },
+      { label: 'Naturalism', mode: 'art', palette: ['#5a5238', '#332c1e', '#100c08'], note: 'took: unflinching social observation' },
+      { label: 'Social Realism', mode: 'art', palette: ['#6b5034', '#3a2820', '#100c08'], note: 'took: art as a witness to labor' },
+      { label: 'Ashcan School', mode: 'art', palette: ['#53412c', '#2a1f14', '#0c0805'], note: 'took: the gritty modern city, in New York' },
+    ],
+  },
+  influenceSummary: 'Realism took the shock of 1848 and the new mirror of photography, granted the ordinary present the scale once kept for gods, and handed that permission straight to the Impressionists.',
+  sections: [
+    { id: 'why', eyebrow: 'The demand', dateLabel: '1848', title: 'Why Realism', blurb: 'A revolution puts ordinary people in the foreground of history — and a generation of painters asks why they’re only ever scenery.', progress: 1 / 6 },
+    { id: 'gauntlet', eyebrow: 'Courbet', dateLabel: '1849–1850', title: 'Courbet’s gauntlet', blurb: 'Two laborers breaking rock and a whole village funeral, painted at the scale the Salon kept for gods. The scandal of dignifying nobodies.', progress: 2 / 6 },
+    { id: 'pavilion', eyebrow: 'The manifesto', dateLabel: '1855', title: 'The Pavilion and the Manifesto', blurb: 'Refused by the world’s fair, Courbet builds his own tent across the street, charges admission, and gives the movement its name.', progress: 3 / 6 },
+    { id: 'peasants', eyebrow: 'Millet', dateLabel: '1850–1859', title: 'Millet’s peasants', blurb: 'Out at Barbizon, the quiet half of Realism paints the rural poor as fact and as sacrament — and frightens the critics doing it.', progress: 4 / 6 },
+    { id: 'city', eyebrow: 'Daumier', dateLabel: '1831–1864', title: 'Daumier’s city', blurb: 'A caricaturist jailed for mocking the king drags Realism into the modern town — its crowds, its politicians, its third-class poor.', progress: 5 / 6 },
+    { id: 'reach', eyebrow: 'Bonheur & after', dateLabel: '1853–1877', title: 'Bonheur, and the reach', blurb: 'The most celebrated woman painter of the century, the handoff to Impressionism, and the price Courbet paid for his politics.', progress: 1 },
   ],
 }
 
@@ -1107,6 +1206,6 @@ export const PICASSO: ArtArtistContent = {
 
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { cubism: CUBISM }
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
