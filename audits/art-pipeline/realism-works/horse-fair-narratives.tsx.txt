@@ -1,0 +1,186 @@
+// ─────────────────────────────────────────────────────────────
+// The Horse Fair (Rosa Bonheur, 1852–55) — the five chapters
+// Section ids: market · looking · salon · bonheur · afterlife
+// Drop into <work>-narratives.tsx and register under NARRATIVES['horse-fair'].
+// Signatures match BuTown… exactly. HTML entities for quotes/apostrophes.
+// ─────────────────────────────────────────────────────────────
+function HfMarket({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–52" title="The trousers were a work permit" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        wice a week, for about a year and a half, a small, short-haired figure in a man&rsquo;s smock and trousers stood at the edge of the Paris horse market with a sketchbook, drawing animals nobody else thought worth drawing. The figure was a woman named <strong>Rosa Bonheur</strong> (1822&ndash;1899), and she was not in disguise for the fun of it. She was at work. The market she had chosen &mdash; loud, filthy, crowded with stamping draft horses and the men who wrangled them &mdash; was no place a respectable Frenchwoman in a wide skirt could stand for hours without becoming the spectacle herself. So Bonheur did the practical thing: she got the clothes that let her do the job.
+      </p>
+      <p style={proseStyle}>
+        That meant a trip to the police. Under a French law on the books since 1800, a woman could not legally wear trousers in Paris without official permission &mdash; a literal government document called a <strong>permission de travestissement</strong> (a &ldquo;permit to cross-dress,&rdquo; which had to be renewed every six months). Bonheur applied for one and got it, on the entirely reasonable grounds that men&rsquo;s clothing let her move through the markets, the slaughterhouses, the stockyards and the riding schools where she studied animals &mdash; places a long skirt made impossible. This detail gets told, far too often, as a quirky costume anecdote. It is better understood as what it was: a working professional acquiring the right equipment. Painters need to see their subject up close. Hers happened to live in places the law dressed her out of.
+      </p>
+
+      <SectionHeader accent={accent} label="What an animalière is" title="The painter who only painted animals" />
+      <p style={proseStyle}>
+        Bonheur was an <strong>animalière</strong> &mdash; the feminine form of <em>animalier</em>, the name for a painter who specializes in animals as the main subject, not as scenery behind a person. It was a real specialty with a real ranking, and the ranking was low. European art ran on an official ladder of subject matter, the <strong>hierarchy of genres</strong> (the Realism overview one level up in this app lays it out in full): grand scenes from myth and scripture and ancient history at the top, plain modern life at the bottom, and animals down there near the floor with the still lifes. A painter of cows and horses was, by the academy&rsquo;s own arithmetic, doing humble work. Bonheur&rsquo;s whole career is the story of taking that humble category and making it pay, and matter, like the grand one.
+      </p>
+      <p style={proseStyle}>
+        She came to it honestly. Her father, Raymond Bonheur, was a drawing teacher and a believer in a utopian sect that preached the equality of women &mdash; an unusual household to grow up in, and one that took her ambition seriously when most families would have steered a daughter toward a husband. By the time she set up at the horse market she was already a name. Her <strong>Ploughing in the Nivernais</strong> (1849), a great frieze of oxen dragging a plough through heavy earth, had been commissioned by the French state and had won a First Medal at the Salon (the Salon&rsquo;s top prize) &mdash; the Salon being the official annual exhibition that made and broke careers (Chapter 3 gets into the Salon properly). So the woman in trousers at the horse market in 1850 was not an unknown trying to break in. She was a decorated professional going after a harder subject.
+      </p>
+
+      <SectionHeader accent={accent} label="The Boulevard de l'Hôpital" title="The rawest horse subject in Paris" />
+      <p style={proseStyle}>
+        And horses were a harder subject. Oxen plod; you can draw a plodding ox at leisure. The Paris <strong>horse market</strong>, held twice a week on the tree-lined <strong>Boulevard de l&rsquo;Hôpital</strong> on the Left Bank, was the opposite of leisure: heavy draft horses led, reared, wheeled and fought against their handlers while buyers haggled and the whole churning mass kicked up dust. To paint that, you cannot work from a calm model standing in a studio. You have to be <em>there</em>, in the noise, catching the motion of an animal that will not hold still for thirty seconds, and then doing it again, and again, for eighteen months, until you have hundreds of studies of how a panicking half-ton horse actually moves its legs.
+      </p>
+      <p style={proseStyle}>
+        Bonheur went further than sketching the living animals. To get the muscle right &mdash; the way a haunch bunches, the way a foreleg takes weight &mdash; she studied dead ones, dissecting carcasses and working in the abattoirs (the slaughterhouses), the same places her trousers permit let her enter. It is not a delicate way to learn to paint a horse. It is an anatomist&rsquo;s way, and it is exactly why her horses, when you finally see the finished canvas, have a weight and a correctness that a prettier painter&rsquo;s never would. She earned that ton of muscle the hard way, by the ounce, in the dust and the slaughterhouse, in clothes the law made her ask permission to wear.
+      </p>
+      <p style={proseStyle}>
+        The result of those eighteen months is the largest, most ambitious thing she ever made &mdash; a canvas eight feet tall and over sixteen feet wide, built to put the whole churning market on a single wall. The next chapter is what it actually looks like.
+      </p>
+    </article>
+  )
+}
+
+function HfLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Eight feet tall, sixteen feet wide" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because the size is the first argument the painting makes. <em>The Horse Fair</em> is about <strong>eight feet tall and over sixteen feet wide</strong> (244.5 by 506.7 centimeters, if you want the museum&rsquo;s number) &mdash; wider than two cars parked end to end, taller than the room you are probably in. That is not a picture you hang over a sofa. That is a picture you give a wall to. And it is the same acreage the academy reserved for its grandest subjects: the death of a king, a battle from antiquity, a saint ascending into heaven. Bonheur spent the whole enormous sum on horse-dealers and their animals at a market. Hold that mismatch &mdash; it is the engine of the whole work, and Chapter 3 is about what it did to Paris.
+      </p>
+      <p style={proseStyle}>
+        Now actually look at it. Stand back far enough to take in the whole sixteen feet and the first thing you feel is not a scene but a <em>force</em> &mdash; a wave of animals coming at you from the upper left and breaking toward the lower right, all motion, all muscle, all dust. Then your eye finds the parts.
+      </p>
+
+      <SectionHeader accent={accent} label="The center" title="The dark horse and the rolling greys" />
+      <p style={proseStyle}>
+        Go to the middle first, because everything points there. Just left of center, the most violent thing in the painting is happening: a <strong>dark, near-black horse</strong> rears straight up, hauled half off its front hooves, head flung back, forelegs clawing the air, a handler dragging at its head. That is the painting&rsquo;s sharpest spike of motion &mdash; the single animal that has truly gone vertical &mdash; cutting a black silhouette against the pale dust behind it. Your eye snags on it first because nothing else in the canvas is reared up that high.
+      </p>
+      <p style={proseStyle}>
+        Then, just to the right of it, comes the brightest mass on the whole canvas: two big, pale, <strong>dappled-grey horses</strong> &mdash; the heavy French farm breed called a <strong>Percheron</strong> (a powerful draft horse from the Perche region, bred to pull, not to race). These two aren&rsquo;t rearing; they are being led and wheeled at a hard trot, heads tossing, hides catching the strongest light in the painting and glowing grey-white against the darker animals and the dim trees. The dark horse gives you the rear; the greys give you the rolling, unstoppable bulk &mdash; a ton of pale muscle the handlers can steer but not really stop. Between them they own the center &mdash; the spot a history painter would have given a hero. Bonheur put panicking workhorses there, and lit them like gods.
+      </p>
+      <p style={proseStyle}>
+        It is worth dwelling on how <em>convincing</em> these animals are, because it is the payoff of all those slaughterhouse hours. The dark horse&rsquo;s neck arches under real tension; the greys&rsquo; chests are slabs of weight; every leg takes the strain of an animal fighting the men around it. These are not decorative rocking-horses but thousands of pounds of frightened muscle, rendered by someone who had taken a horse apart to learn how it was put together. You can almost hear the hooves &mdash; and that is not a figure of speech the painting hasn&rsquo;t earned.
+      </p>
+
+      <SectionHeader accent={accent} label="The diagonal" title="A river of muscle, left to right" />
+      <p style={proseStyle}>
+        Now pull back and watch how the whole thing <em>moves</em>. The horses and handlers don&rsquo;t stand in a tidy row; they pour across the canvas in one long churning <strong>diagonal</strong>, surging from the upper left toward the lower right: the dark horse rearing just left of center, the grey Percherons wheeling and rolling beside it, a chestnut straining into the mass, more animals crowding off into the haze at the right. Your eye doesn&rsquo;t rest on any one figure for long; it gets swept along the current, the way it would scanning a real crowd of spooked animals.
+      </p>
+      <p style={proseStyle}>
+        Look, too, for the people, because they are nearly drowned in the animals. Scattered through the center are the <strong>handlers</strong> &mdash; men in blue smocks and rolled shirtsleeves, gripping halters and leaning their whole bodyweight back against the horses. Down at the lower left a handler in a red cap throws his weight against a halter; he is the one warm spot of color low in the churn. But the figure that really arrests you sits right in the thick of it: a <strong>mounted handler in a blue smock, twisting around in his saddle</strong>, one arm reaching back, his whole torso wrenched against the pull of the animals he is trying to hold. He is the human pivot of the picture &mdash; the still axis the stampede turns around &mdash; and Bonheur paints his strain as carefully as she paints the horses&rsquo;. He is not posing for us; he has his back half-turned, lost in the work, and mostly losing. That is the quiet second subject of the painting under the spectacle of horseflesh: <em>labor</em> &mdash; the brute physical job of moving a ton of frightened animal down a public street, given the same dignity Courbet gave his stone-breakers one wall over.
+      </p>
+      <p style={proseStyle}>
+        There is a long-running tradition about that twisting rider, worth knowing even though it can&rsquo;t be proven. Bonheur is often said to have slipped a <strong>self-portrait</strong> into the crowd of handlers, and the figure on horseback near the center is the one most often pointed to &mdash; the National Gallery in London, which owns the half-size version you&rsquo;ll meet later, even invites visitors to play spot-the-painter. Treat it as the kind of inviting suggestion that gathers around a famous picture, not settled fact. But it is a tempting thought: the woman in trousers who spent eighteen months in this market, painting herself into it on horseback, in the thick of the work.
+      </p>
+      <p style={proseStyle}>
+        Put the parts back together &mdash; the vertical spike of the dark horse, the rolling greys, the twisting rider, the animals running off into the dust &mdash; and you realize the composition <em>is</em> the stampede. Bonheur didn&rsquo;t paint a picture of motion; she built motion into the way you are forced to look.
+      </p>
+
+      <SectionHeader accent={accent} label="The ground" title="Dust, and the proof of speed" />
+      <p style={proseStyle}>
+        Drop your eye to the bottom, to the horses&rsquo; legs, and watch the ground come apart. Around the churning hooves the dirt dissolves into <strong>clouds of pale, kicked-up dust</strong>, painted loose and smudged, so that the legs of some horses seem to vanish into it. This is the painting&rsquo;s cleverest trick: a still object has crisp edges, a fast one blurs the air around it. By letting the footing dissolve into grit, Bonheur tells you, below the level of conscious looking, that all of this is happening <em>now</em> and happening <em>fast</em>. The dust is the receipt for the motion &mdash; you don&rsquo;t just see the horses move, you see what their moving throws into the air.
+      </p>
+
+      <SectionHeader accent={accent} label="The back wall" title="Trees, sky, and a real Paris street" />
+      <p style={proseStyle}>
+        Finally, look at what closes the scene off behind: a long screen of <strong>plane trees</strong> &mdash; the kind that lined the boulevard &mdash; running across the whole background in a band of dusty green and brown, under a heavy, blown, grey-blue sky. Those trees do a job. They stop your eye from escaping into a deep, pretty distance and press the whole stampede forward, up against you, so the horses feel about to come off the canvas and into your lap. (Courbet did the same thing with a cliff in his <em>Burial</em>, one work along this chain.)
+      </p>
+      <p style={proseStyle}>
+        And then, far off at the upper left, almost lost in the haze behind the trees, there is a faint pale <strong>dome and turret</strong> &mdash; the chapel dome of the <strong>Salpêtrière</strong>, a huge old Paris hospital and asylum on the Left Bank. It nails the whole scene to a real address: the market really was held just outside it, on the Boulevard de l&rsquo;Hôpital. This is not an invented Roman arena with idealized steeds. It is a specific, dusty, ordinary Tuesday on a specific Paris street, painted at the size of an altarpiece. That, exactly, is the move the next chapter is about.
+      </p>
+    </article>
+  )
+}
+
+function HfSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The Salon · 1853" title="The one room that mattered" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>{' '}
+        painting this size is built for one place: the <strong>Salon</strong> &mdash; the official annual state art exhibition in Paris, run by the academy (the government&rsquo;s art authority), and the single show in France where a career was made or buried. Everyone who was anyone hung there; everyone who wanted to be someone fought to get in. To show at the Salon was to put your work in the one room where all of respectable French art stood together to be ranked against each other, in public, in the newspapers. Bonheur hauled her sixteen feet of horse market to the <strong>Salon of 1853</strong>, and it went up on the wall next to the gods and the senators and the saints.
+      </p>
+      <p style={proseStyle}>
+        Now, by the logic of the place, this should have been a disaster. The Salon&rsquo;s whole grammar was the <strong>hierarchy of genres</strong> &mdash; that official ranking of subjects, gods and heroes at the top, animals near the bottom &mdash; and the unbreakable rule underneath it was about <em>scale</em>. Size was reserved. A big canvas was a public promise that the thing on it mattered enormously, and the right to make a thing matter that much belonged to history painting&rsquo;s top rung. You were allowed to paint a horse. You were not allowed to paint a horse at the size of a dying emperor. To spend eight by sixteen feet on draft animals and the men who sell them was, in the academy&rsquo;s arithmetic, a category error loud enough to sound like a provocation.
+      </p>
+
+      <SectionHeader accent={accent} label="The twist" title="They cheered instead" />
+      <p style={proseStyle}>
+        And here is the twist that makes <em>The Horse Fair</em> a different kind of story from the <em>Burial</em> hanging a few works back along this chain. Courbet&rsquo;s village funeral, painted at the same heretical scale three years earlier, had detonated &mdash; critics called it ugly, dangerous, an assault on beauty itself. Bonheur&rsquo;s horse market, just as enormous and just as far down the ladder, got the opposite reception. <strong>The critics cheered.</strong> The picture was widely praised when it was unveiled in 1853, and rather than recoiling from the scale, the Salon was carried away by it. Where Courbet&rsquo;s monumental commoners read as a threat, Bonheur&rsquo;s monumental horses read as a triumph.
+      </p>
+      <p style={proseStyle}>
+        Why the difference? Partly subject. A funeral full of plain, unflattering peasants made a political argument the propertied classes found menacing two years after a revolution. Horses make no such argument; nobody fears a Percheron. You could thrill to the scale and the skill and the sheer animal power without feeling that your social order was being threatened. And partly it was the simple, undeniable virtuosity. The horses were <em>magnificently</em> done, alive and weighty and correct, and even a conservative critic could see that the woman could flat-out paint. The scale that looked like insolence on Courbet&rsquo;s funeral looked like grandeur on Bonheur&rsquo;s herd.
+      </p>
+
+      <SectionHeader accent={accent} label="The back-handed praise" title="'Masculine,' they called it" />
+      <p style={proseStyle}>
+        There was, though, a barb folded into the applause, and it is the barb that tells you what it cost to be a woman doing this in 1853. Again and again the critics reached for the same word of praise: the painting was <strong>masculine</strong>. They meant it as the highest compliment they had &mdash; vigorous, powerful, large, none of the daintiness they expected from a woman&rsquo;s brush. But sit with what that compliment assumes. To call the work &ldquo;masculine&rdquo; was to say it was good <em>despite</em> being made by a woman, that its strength was a kind of borrowed manliness, that the natural state of a woman&rsquo;s art was small and soft and that Bonheur had heroically escaped it. It was praise and cage at once: the highest thing they could say was that she painted like a man.
+      </p>
+      <p style={proseStyle}>
+        Bonheur, to her great credit, mostly ignored the frame and banked the fame. Because that is the other thing the Salon of 1853 did: it made her, overnight, internationally famous. The reputation she&rsquo;d built with the oxen of the <em>Nivernais</em> became, with the horses of the market, a household name &mdash; not just in France but, very soon, across the Channel and the Atlantic. The next chapter is who that household name actually was. The chapter after that is how the painting itself conquered two continents.
+      </p>
+    </article>
+  )
+}
+
+function HfBonheur({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Rosa Bonheur · 1822–1899" title="A working professional, not a curiosity" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is tempting, and wrong, to file Rosa Bonheur under &ldquo;the lady who painted animals and wore trousers.&rdquo; The trousers and the animals are real, but that filing makes her sound like a curiosity, a footnote, a charming exception. She was none of those things. She was, by wide agreement, <strong>the most internationally celebrated woman painter of the nineteenth century</strong> &mdash; and she got there not as a sheltered hobbyist but as a hard-nosed working professional who out-earned most of the men in her field, ran her own large household, and arranged her life, with remarkable nerve, exactly as she wanted it. The right frame for Bonheur is not &ldquo;impressive, for a woman.&rdquo; It is simply: one of the most successful painters, of either sex, then alive.
+      </p>
+
+      <SectionHeader accent={accent} label="The money" title="She out-earned the men" />
+      <p style={proseStyle}>
+        Start with the money, because money is where the agency is. Bonheur was a commercial juggernaut. Her animal paintings sold for sums that made her, by some distance, the best-paid woman artist of her century and the equal of the era&rsquo;s most successful men. <em>The Horse Fair</em> alone bankrolled a different life: with the proceeds of her painting she bought, in <strong>1859</strong>, the <strong>Château de By</strong>, a country estate at the edge of the Fontainebleau forest &mdash; reportedly the first woman in France to buy property in her own name on the strength of her own earnings. There she built a studio, kept a private menagerie of the animals she painted (sheep, horses, deer, even a pair of lions she let wander the grounds), and ran the whole operation herself. This is not a woman granted a comfortable life by a man. This is a woman who bought her own château with her own brush.
+      </p>
+
+      <SectionHeader accent={accent} label="The medal" title="Decorated by the Empress" />
+      <p style={proseStyle}>
+        Then there is the official honor, which she also took first. In <strong>1865</strong>, the <strong>Empress Eugénie</strong> &mdash; the wife of Napoleon III, then ruling France &mdash; personally brought Bonheur the cross of the <strong>Légion d&rsquo;honneur</strong> (the French state&rsquo;s highest order of merit, founded by the first Napoleon), making her the <strong>first woman artist ever to receive it</strong>. The story that has come down is that Eugénie chose Bonheur deliberately to make a point &mdash; that genius, in the line usually attributed to her, &ldquo;has no sex.&rdquo; (Take the exact wording as the kind of perfect quote that gets polished in the retelling; the decoration and the gesture are solid fact.) Decades later, in <strong>1894</strong>, France raised her again, to Officer of the same order &mdash; once more the first woman to be promoted to that rank. She did not merely succeed in a man&rsquo;s field. She collected the field&rsquo;s top trophies before any other woman was allowed near them.
+      </p>
+
+      <SectionHeader accent={accent} label="The household" title="Nathalie Micas, and a life on her own terms" />
+      <p style={proseStyle}>
+        The most important relationship of Bonheur&rsquo;s life belongs in the honest record, stated plainly and without drama. For more than forty years she shared her home and her life with <strong>Nathalie Micas</strong>, a fellow painter she had known since girlhood. They lived together at the Château de By until Micas died in 1889; Micas helped Bonheur with her work (including the smaller London version of <em>The Horse Fair</em> you&rsquo;ll meet in the next chapter); the two are buried together at <strong>Père-Lachaise</strong> (the famous Paris cemetery where many of France&rsquo;s great artists are buried). Micas, like Bonheur, held her own police permit to wear trousers. After Micas&rsquo;s death, Bonheur&rsquo;s companion in her final years was the American painter <strong>Anna Klumpke</strong>, whom she made her sole heir. None of this needs to be sensationalized or coyly hinted at; it is simply how Bonheur built her household &mdash; around the women she chose &mdash; and she built it openly, in a country estate she had paid for herself.
+      </p>
+      <p style={proseStyle}>
+        Put it all together and the &ldquo;curiosity&rdquo; framing collapses. A woman in trousers might sound like a stunt until you notice that the trousers were a work permit, the work made her rich, the riches bought a château, the château held a household she ran on her own terms, and the brush that paid for all of it had hung a horse where Europe kept its kings. Bonheur did not slip through a gap in a man&rsquo;s world. She walked into the middle of it, out-earned most of its men, took its top medal first, and dressed for the job she was doing. <em>The Horse Fair</em> is the canvas where all of that announced itself to the world.
+      </p>
+    </article>
+  )
+}
+
+function HfAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The dealer · 1854" title="Gambart turns one canvas into thousands" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Horse Fair</em> is, before it is anything else, a business story &mdash; and the businessman is <strong>Ernest Gambart</strong>, a Belgian-born art dealer based in London who became Bonheur&rsquo;s promoter and, in effect, her impresario. In <strong>1854</strong> Gambart bought the great canvas from her for <strong>40,000 French francs</strong>, a serious sum, and then did something cleverer than simply reselling it. He <em>toured</em> it. He took the painting around Britain as a paying attraction, charging the public to come and stand in front of it &mdash; and the public came, in numbers, because there was nothing else like it. (By the well-worn story, even Queen Victoria asked to see it privately; treat the royal detail as the kind of flourish that attaches itself to a famous picture, while the tour itself is solid.)
+      </p>
+      <p style={proseStyle}>
+        Gambart&rsquo;s real genius, though, was in the copy. He was a pioneer of what we would now call reproduction rights &mdash; the idea that the money in a painting isn&rsquo;t only in the one canvas but in the thousands of prints you can pull from it. He had <em>The Horse Fair</em> turned into an <strong>engraving</strong> (a print made from an image cut into a metal plate, the era&rsquo;s technology for mass-producing a picture), the work done by the engraver <strong>Thomas Landseer</strong> from a smaller half-size copy. The print sold and sold. Within a few years, the composition &mdash; the rearing greys, the diagonal, the dust &mdash; hung in parlors all over Britain and America, in the form of a print, in homes whose owners would never see the original. Bonheur became famous in two countries before most of her fans had stood in front of a single brushstroke she made.
+      </p>
+
+      <SectionHeader accent={accent} label="The London sister" title="A half-size twin in Trafalgar Square" />
+      <p style={proseStyle}>
+        That half-size copy has its own life. To make the engraving possible, Bonheur painted a <strong>reduced version</strong> of <em>The Horse Fair</em> &mdash; about four feet tall and eight feet wide, half the dimensions of the original &mdash; and she had help with it from <strong>Nathalie Micas</strong>. That smaller twin ended up in England, <strong>bequeathed by the collector Jacob Bell</strong> &mdash; who died in 1859 &mdash; and entered the <strong>National Gallery in London</strong>&rsquo;s collection in <strong>1865</strong> (where it still hangs). So there are, in effect, two authentic <em>Horse Fair</em>s on public view on opposite sides of an ocean: the colossal original in New York, and its half-size sister in Trafalgar Square &mdash; the very canvas that launched the print that made the image famous.
+      </p>
+
+      <SectionHeader accent={accent} label="To New York" title="Vanderbilt's gift" />
+      <p style={proseStyle}>
+        The original, meanwhile, kept climbing the ladder of rich owners. After Gambart it passed to the English collector <strong>William Parkinson Wright</strong> in 1857, and then, in 1866, it crossed the Atlantic into the collection of <strong>Alexander Turney Stewart</strong>, the New York department-store magnate and one of the wealthiest men in America. When Stewart&rsquo;s widow&rsquo;s estate was auctioned in <strong>1887</strong>, the painting fetched <strong>$53,000</strong> &mdash; an astonishing price &mdash; and the buyer was <strong>Cornelius Vanderbilt II</strong>, of the railroad dynasty. Vanderbilt did not keep it. He immediately gave it to the <strong>Metropolitan Museum of Art</strong>, the great public museum then taking shape on Fifth Avenue, just steps from his own mansion.
+      </p>
+      <p style={proseStyle}>
+        It has hung there ever since &mdash; &ldquo;Gift of Cornelius Vanderbilt, 1887&rdquo; &mdash; one of the most popular paintings in the building. There is a tidy irony in the whole journey. A woman who had to ask the police for permission to wear the clothes she sketched in painted a market full of farm horses at the scale of a coronation, and that canvas was cheered at the Salon, toured for profit through Britain, engraved into a print in a hundred thousand parlors, copied for London, and finally handed to the American public by a railroad heir &mdash; the humblest possible subject, raised to the grandest possible scale, and carried clear around the world by its own undeniable force.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The horse where the king should be" />
+      <p style={proseStyle}>
+        Step back from the business and the biography and the painting&rsquo;s argument is simple, and it is the Realism argument in a different key. Courbet, a few works back along this chain, took the most ordinary <em>death</em> there is and painted it at the scale of kings. Bonheur took the most ordinary <em>work</em> there is &mdash; men moving animals at a market &mdash; and did the same. No myth, no allegory, no hero: just draft horses and the dust they kick up, rendered with anatomist&rsquo;s precision and given the eight-by-sixteen-foot wall the academy kept for gods. That the Salon cheered it instead of recoiling only proves the argument worked. The present, ordinary and unglamorous, could carry the full weight of the grandest art &mdash; and a woman in a borrowed pair of trousers had proved it on the biggest canvas in the room.
+      </p>
+    </article>
+  )
+}

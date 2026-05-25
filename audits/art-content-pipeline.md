@@ -567,3 +567,48 @@ profile-vs-frontal, which-version-of-a-work) are exactly where errors hide. A se
 gap surfaced and is owed: **provenance/stats blocks were also authored ungated** (the
 fact-checker flagged Three Women's Shchukin entry — bought from the Steins, not direct
 from Picasso). Next retro pass: run gate-1 over every work's `provenance` + `stats`.
+
+## Proof run 9 — DONE (2026-05-25) — the remaining EIGHT Realism works (completes 9/9)
+The eight non-Burial works of the Realism movement, built in **two batches of four**
+(proof-run-5 model: one Opus author per work → 5 Sonnet critics batched by axis, each
+covering all four works → coordinator reconcile + integrate → image/look-closer verify
+→ build/deploy). **Works of Realism is now 9 of 9** (Gargantua · Stone Breakers · Burial
+· Sower · Studio · Horse Fair · Gleaners · Angelus · Third-Class Carriage). BURIAL's chain
+index corrected 1→3 to match the chronological works array.
+- **Batch A** (Stone Breakers, The Painter's Studio, The Sower, The Gleaners). Gate
+  yield: Studio Ch1 "the jury refused one" was WRONG — the 1855 Exposition rejected his
+  **two** largest canvases (the Studio AND the Burial), which then anchored the Pavilion;
+  Stone Breakers hammer **raised at the top of its swing**, not coming down (verified
+  against the image); Sower's leading-leg made **viewer-relative** (the L/R call is
+  genuinely ambiguous in the near-silhouette — coordinator re-checked both the gate's and
+  the draft's claim and chose the unimpeachable description); Gleaners had three raw
+  `[VERIFY]` author notes left in running prose (would have printed) → resolved to hedged
+  prose, and the provenance corrected to **Pommery's 1889 purchase / 1891 bequest** (the
+  author caught the brief's wrong "1890 gift"); Bruyas reframed collaborator-in-ideas not
+  "wallet"; the crucified-mannequin (death of academic art) added to the Studio; the
+  unrecorded identities of the sitters acknowledged.
+- **Batch B** (The Angelus, Gargantua, The Third-Class Carriage, The Horse Fair). Gate
+  yield: Angelus — Chauchard buyback price flipped to **800,000 fr** (EN-wiki's 750k is the
+  outlier), the church spire de-overclaimed ("slightly right of centre, behind the
+  figures"), and a FALSE "Appleton was of Irish descent" deleted (invented to justify the
+  famine motive); Gargantua — the **"published in La Caricature"** myth corrected (sold as
+  a separate sheet at Aubert's per Childs, with the persisting journal-attribution noted),
+  Philipon's own prosecution added, "proofs" glossed; Carriage — fact-CLEAN, the central
+  old woman's **pale head-wrap** added to the looking chapter (its brightest passage),
+  Cassatt/Havemeyer identified; Horse Fair — the dramatic rear is the **dark horse
+  centre-left** not the led greys (verified against the image), the blue-smock mounted
+  handler promoted to a real beat, the self-portrait-among-the-handlers tradition added as
+  unverified, and "most famous woman painter" scoped to "most internationally celebrated."
+  The framing critic called Horse Fair the best treatment of a woman artist across both
+  batches (full agency: out-earned the men, her own château, trousers as a work permit,
+  Micas/Klumpke stated plainly).
+- **Integration notes (reusable):** scratch drafts live as `.tsx.txt`/`.ts.txt` in
+  `audits/art-pipeline/realism-works/` so `next build`'s typecheck doesn't compile the
+  standalone files (they reference `ArtWorkContent`/helpers that only exist once spliced
+  in — a `.ts`/`.tsx` extension there FAILS the build; rename to `.txt`). New prose must
+  use **HTML entities** (`&ldquo;`/`&rdquo;`/`&rsquo;`) in JSX text, never raw `"`/`'`
+  (165 raw entities in Batch A were escaped positionally via eslint's own coordinates →
+  every flagged char is in JSX text by definition, so it's safe; Batch B authors were
+  told up front and shipped 0). All 8 hero images were already born-verified for the
+  movement page; the look-closer pointers were verified against the painting at gate-1 and
+  the two visual MUST-FIX flags re-confirmed by the coordinator against the image.

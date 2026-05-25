@@ -1,0 +1,75 @@
+// Gargantua (Honoré Daumier, 1831) — ArtWorkContent
+// Drop into src/lib/art-content.ts after BURIAL. Matches the BURIAL shape exactly.
+// NOTE: this is a LITHOGRAPH (a print), not an oil — medium/dimensions/provenance
+// adapted honestly to a print: seizure + suppression history rather than an
+// ownership chain. Facts: see gargantua-factpack.md (fact ledger).
+
+export const GARGANTUA: ArtWorkContent = {
+  id: 'gargantua',
+  name: 'Gargantua',
+  shortName: 'Gargantua',
+  year: 1831,
+  artist: 'Honoré Daumier',
+  artistId: 'daumier',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Lithograph',
+  dimensions: '8.5 in × 12 in', // image, landscape (~21.4 × 30.5 cm); figures vary by impression — see fact ledger
+  location: 'Bibliothèque nationale de France, Paris',
+  acquired: 'Few impressions survive the 1831 seizure; held by the BnF and other print rooms',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 1, total: 9 },
+  hook: 'A cartoon of the king as a giant eating the poor’s taxes and excreting medals — it cost the artist six months in jail.',
+  heroImage: ART_IMG.daumierGargantua,
+  heroCredit: 'Daumier, Gargantua, 1831 · lithograph · Bibliothèque nationale de France',
+  heroAspect: 1.44,
+  heroFit: 'contain', // the work hero shows the WHOLE landscape print, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1831', k: 'Made' },
+    { v: 'Lithograph', k: 'Medium' },
+    { v: 'BnF, Paris', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'king', eyebrow: 'Paris · 1830–31', dateLabel: '1830–31', title: 'The Citizen King and the war of the press', blurb: 'A revolution puts a bourgeois “King of the French” on the throne; a young caricaturist and his fearless publisher declare war on him in cheap printed pictures.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The print', dateLabel: '1831', title: 'The giant, the plank, and the excreted honors', blurb: 'Read the image inch by inch: the pear-headed king gorging, the ramp of tribute-bearers feeding his mouth, the destitute crowd, and the medals dropping out the other end.', progress: 0.34 },
+    { id: 'trial', eyebrow: 'The reckoning', dateLabel: '1831–33', title: 'Six months for a drawing', blurb: 'The print is seized on sight, the stone smashed, three men charged with insulting the king — and Daumier, after a suspended sentence, ends up in Sainte-Pélagie prison.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it invented', dateLabel: '1831', title: 'The birth of the modern political cartoon', blurb: 'Why this one banned sheet matters: a fine-art print medium turned into a cheap mass weapon for the poor’s grievance — the template every editorial cartoonist still works from.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1833–today', title: 'From caricaturist to the painter of the poor', blurb: 'The surviving impressions, the censorship that followed, and Daumier’s long road from jailed cartoonist to the Realist painter of The Third-Class Carriage.', progress: 0.96 },
+  ],
+  // A print has no ownership chain; this is its publication-and-suppression history.
+  provenance: [
+    { year: 'Dec 1831', who: 'Drawn by Honoré Daumier for Charles Philipon’s satirical world', place: 'Paris', note: 'Daumier draws the king as Gargantua on a lithographic stone; the sheet is put out through Gabriel Aubert’s caricature shop in the Galerie Véro-Dodat, the storefront of Philipon’s La Caricature press.', price: null },
+    { year: 'late Dec 1831', who: 'Seized by the police', place: 'Paris', note: 'On appearing in Aubert’s shop window the print is banned and confiscated almost at once. Police order the lithographic stone destroyed and the remaining proofs (printed copies pulled from the stone) seized — so the print barely circulates. By the careful scholarly account it was sold as a separate sheet and never ran inside La Caricature, though some museums (e.g. Yale) still catalogue their impression as “from the journal La Caricature.”', price: 'suppressed' },
+    { year: '22–23 Feb 1832', who: 'Daumier, Aubert (publisher) & Delaporte (printer) on trial', place: 'Paris', note: 'All three charged under the November 1830 press law with arousing hatred and contempt of the king’s government and offending the king’s person (lèse-majesté). Daumier is held chiefly responsible; sentenced to six months and a 500-franc fine — at first suspended. (Daumier was not the lone martyr: Philipon, who steered the whole campaign, was himself repeatedly prosecuted, convicted, and jailed for his anti-Louis-Philippe satire.)', price: null },
+    { year: '1832–33', who: 'Honoré Daumier (in prison)', place: 'Sainte-Pélagie, Paris', note: 'After he keeps needling the regime the suspended term is activated; Daumier is arrested and serves from 30 August 1832, released 14 February 1833. He goes on drawing inside.', price: null },
+    { year: 'today', who: 'Bibliothèque nationale de France & other print rooms', place: 'Paris / Yale / San Francisco / etc.', note: 'Because the police were largely successful, very few impressions survive. The ones that do are held by the BnF and a handful of museum print collections — a banned cartoon that became a treasured object.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Daumier', role: 'The cartoonist', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { name: 'Charles Philipon', role: 'Publisher; invented the pear', palette: ['#6b5a3a', '#3a2e1c', '#120d08'] },
+    { name: 'Louis-Philippe', role: 'The “Citizen King”', palette: ['#8a8074', '#4a4038', '#16120e'] },
+  ],
+  annotations: [
+    { label: 'The pear-headed giant', where: 'Upper left — the enormous seated king', detail: 'King Louis-Philippe drawn as Gargantua, Rabelais’s gluttonous giant: a vast bloated body splayed in a low chair, belly enormous, mouth gaping open to be fed. His head is the famous pear — round-cheeked, tapering to a tuft — Charles Philipon’s mocking “poire” (French slang for “fathead”) made monstrous. The biggest, fattest thing in the picture is the king, and all he does is eat.' },
+    { label: 'The plank running into his mouth', where: 'The long diagonal ramp, lower-right up to the king’s face', detail: 'A steep plank or gangway runs from the ground all the way up to the king’s open mouth — a conveyor belt of tribute. It is the spine of the whole image: everything the poor have travels up this ramp and disappears into the giant. The single line that turns a fat man into an economic machine.' },
+    { label: 'The tribute-bearers and the basket', where: 'On the plank and at its foot', detail: 'Tiny laborers trudge up the plank hauling baskets and sacks of coins; at the bottom one bends double over a great hamper, loading the king’s next mouthful. They are drawn small and bent — the scale gap between the giant and the people feeding him is the joke. Their money goes up; it does not come back.' },
+    { label: 'The destitute crowd', where: 'Massed at the right', detail: 'A ragged throng of common people crowds the right edge — the source of the squeezed wealth, thin and shabby where the king is gorged. This is where the taxes come from: the bottom of the country, emptied to fill the top.' },
+    { label: 'The excreted honors', where: 'Below / beneath the king’s seat, with the scrambling officials', detail: 'Out the other end of the giant come not waste but documents — patents, commissions, ribbons, decorations — and a knot of well-dressed officials and cronies scrambles to gather them up. The savage core of the cartoon: the people’s money goes in one end and jobs, medals and favours for the privileged drop out the other. Trickle-up, drawn literally.' },
+    { label: 'The government building', where: 'Lower left, behind the scrambling officials', detail: 'A government building closes the lower left — widely identified as the Palais Bourbon, the seat of the Chamber of Deputies (the lower house of France’s parliament) — toward which the favour-laden officials hurry off: the bureaucracy and legislature on the receiving end of the king’s bounty. The circuit is complete: from the poor, into the king, out to the state’s own insiders.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Rabelais’s Gargantua', mode: 'art' },
+      { label: 'The July Monarchy', mode: 'civ' },
+      { label: 'Philipon’s “poire”', mode: 'art' },
+    ],
+    children: [
+      { label: 'The modern political cartoon', mode: 'art' },
+      { label: 'The Third-Class Carriage', mode: 'art' },
+      { label: 'Realism', mode: 'art' },
+    ],
+  },
+}

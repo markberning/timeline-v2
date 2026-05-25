@@ -1,0 +1,169 @@
+// ─────────────────────────────────────────────────────────────
+// Gargantua (Daumier, 1831) — the five chapters
+// Drop these into art-section-reader.tsx alongside BuTown…BuAfterlife.
+// Section ids: king · looking · trial · meaning · afterlife
+// HTML entities used for all quotes/apostrophes in JSX text.
+// ─────────────────────────────────────────────────────────────
+
+function GaKing({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1830–31" title="The king who came in a top hat" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n July 1830, for three days, Paris belonged to the barricades. Crowds had thrown out the last hard-line Bourbon king, Charles X, who had been trying to wind the clock back to before the great Revolution of 1789 (the upheaval that toppled the absolute monarchy and beheaded Louis XVI). And then, with the old man gone and the throne empty, the men who actually ran France — the bankers, the deputies, the propertied middle class — did something clever. Instead of declaring a republic, they handed the crown to the dead king&rsquo;s liberal cousin, <strong>Louis-Philippe</strong> of the house of Orléans, and rebranded the whole institution. He would not be &ldquo;King of France&rdquo; — too lordly. He would be <strong>King of the French</strong>, the <strong>roi citoyen</strong>, the &ldquo;<strong>Citizen King</strong>&rdquo;: a modern, modest, businesslike monarch who walked the boulevards in a frock coat, carried an umbrella, and shook hands. The regime he headed (1830–1848) is called the <strong>July Monarchy</strong>, after the month it was born in. (The full politics of 1830 lives in the Realism overview one level up; here we need only the shape of it.)
+      </p>
+      <p style={proseStyle}>
+        The marketing was that France finally had a king for everybody. The reality was that France had a king for the people who owned things. The vote was tied to wealth, so a tiny sliver of rich men chose the parliament; the government governed for banks and investors; and the workers and the poor who had actually fought on the July barricades got the bill and none of the bargain. Within a year the hope had soured into a sour, specific feeling that the whole revolution had been pocketed by the comfortable. That feeling is the fuel this entire story runs on. Somebody just had to draw it.
+      </p>
+
+      <SectionHeader accent={accent} label="Philipon&rsquo;s war" title="A weekly paper that printed insults" />
+      <p style={proseStyle}>
+        Enter <strong>Charles Philipon</strong> (1800–1862), the most dangerous man in France with a pencil — not because he drew best, but because he saw, before almost anyone, that a <em>picture</em> could do political damage a thousand articles could not. In 1831 Philipon founded a satirical weekly called <strong>La Caricature</strong> — a journal whose entire purpose was to mock the powerful in print (the word &ldquo;caricature&rdquo; means a drawing that exaggerates someone&rsquo;s features or character to ridicule them). He ran it as open war on the July Monarchy. He gathered a stable of young artists, pointed them at the government, and dared the censors to do something about it.
+      </p>
+      <p style={proseStyle}>
+        Philipon&rsquo;s own masterstroke was a doodle. Hauled into court late in 1831 for insulting the king, he is famously said to have defended himself by sketching, right there for the jury, the king&rsquo;s round face <em>metamorphosing in four steps into a pear</em> — proving, he argued, that you could not ban a resemblance, because anything could be made to look like the king. The pear stuck. <strong>La poire</strong> — &ldquo;the pear,&rdquo; also French slang for &ldquo;fathead&rdquo; or &ldquo;simpleton&rdquo; — became the inescapable mocking shorthand for Louis-Philippe, scrawled on walls all over Paris. And Philipon was no mere bystander to the danger he aimed his artists at: he too was repeatedly prosecuted, convicted, and jailed for his attacks on the king — Daumier was not the only one who paid for this war in prison. (The courtroom pear-drawing is the famous traditional account of how the gag was born; treat the live-in-court details as received legend, not a verbatim transcript. That the pear became the regime&rsquo;s tormenting emblem is not in doubt.) Hold the pear in your mind — you are about to meet it on a giant&rsquo;s shoulders.
+      </p>
+
+      <SectionHeader accent={accent} label="A new kind of weapon" title="Why the stone mattered" />
+      <p style={proseStyle}>
+        What made Philipon&rsquo;s war possible was a fairly new printing trick called <strong>lithography</strong> (lith-OG-ruh-fee). Here is the whole thing in one breath: an artist draws directly onto a flat slab of limestone with a greasy crayon; the stone is then wetted and inked, and because grease and water repel each other, the ink sticks only where the crayon went; press paper to the stone and you have a print — and you can pull it again and again. The point that matters politically is the <em>directness</em> and the <em>cheapness</em>. A lithograph carries the artist&rsquo;s own hand, every line exactly as he drew it, and it can be churned out by the hundred for pennies. For the first time, a single furious image could be in shop windows across Paris by the weekend, affordable to people who could barely read. Philipon had a printing press for outrage. He needed a giant.
+      </p>
+      <p style={proseStyle}>
+        The young man who supplied it was <strong>Honoré Daumier</strong> (1808–1879), a stocky, good-humored Marseillais then in his early twenties and not yet famous for anything. Over his life Daumier would draw something like <strong>four thousand lithographs</strong> — he is the great visual satirist of the whole century, and decades later, with a brush instead of a crayon, he would become a serious painter of the city&rsquo;s poor (the Realism overview tells that long arc; you will meet the painter again in Chapter 5). But all of that is ahead of him. In December 1831 he was a hired hand at Philipon&rsquo;s shop, and he was about to draw the single most reckless picture of his life — a cartoon so direct it would put him in prison. The next chapter is the drawing itself.
+      </p>
+    </article>
+  )
+}
+
+function GaLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The print" title="One machine, drawn as a fat man" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>R</DropCap>
+        emember what you are looking at: not a painting but a <strong>lithograph</strong>, a black-and-white printed sheet, wider than it is tall — a <strong>landscape</strong> image about <strong>a foot wide and eight and a half inches high</strong> (roughly 30 centimeters across by 21 high) — small enough to hold, cheap enough to sell on the street, drawn entirely in greasy crayon on stone. Judge it as a print, not a picture: no color to seduce you, no oil to admire, just line and shadow doing argument. And the argument is brutally simple. Daumier has drawn the whole economy of the July Monarchy as a single picture of a giant being fed. Once you see how the parts connect, you cannot un-see it.
+      </p>
+
+      <SectionHeader accent={accent} label="The giant" title="The king as Gargantua" />
+      <p style={proseStyle}>
+        Up at the left sits the giant, and the giant is the king. Daumier has drawn <strong>Louis-Philippe as Gargantua</strong> — the enormous, insatiable glutton of <strong>François Rabelais&rsquo;s</strong> sixteenth-century comic satire (Rabelais&rsquo;s 1534 giant is the figure who gave English the word <em>gargantuan</em>; in 1831 every reader knew the name as a byword for monstrous, bottomless appetite). He is a mountain of a man slumped in a low armchair on a platform, legs splayed, his belly a vast pale dome, and he is doing the only thing this version of him ever does: <strong>eating</strong>. His mouth hangs open to receive. And crowning the whole bloated body — the detail that named names — is <strong>the pear</strong>: that round-cheeked, top-tufted head from Philipon&rsquo;s courtroom gag, so the dimmest viewer in Paris could not miss who the giant was. The biggest thing in the picture is the king, and he is pure mouth.
+      </p>
+
+      <SectionHeader accent={accent} label="The plank" title="The ramp into the mouth" />
+      <p style={proseStyle}>
+        Now follow the one bold diagonal that organizes everything: a long <strong>plank, a steep ramp or gangway</strong>, runs from the ground at the lower right all the way up to the king&rsquo;s open mouth. This is the spine of the cartoon. Cover it with your thumb and you have a fat man in a chair; uncover it and you have a feeding machine. The plank turns the giant from a person into a <em>system</em> — a thing with an intake. Everything the picture cares about travels up this board and vanishes into him. Daumier did the entire politics of the regime with a single drawn line propped against a chin.
+      </p>
+
+      <SectionHeader accent={accent} label="The bearers" title="Who carries the food" />
+      <p style={proseStyle}>
+        Look at who is on the plank. Tiny, bent figures — <strong>laborers hauling baskets and sacks of coins</strong> — trudge up the ramp toward the mouth, and at the bottom of it one of them doubles over a great hamper, loading the king&rsquo;s next mouthful. The size gap is the whole joke and the whole accusation: the king is a giant, the people feeding him are insects, and the food is the public&rsquo;s money. These are the taxpayers, drawn as ants carrying their own substance up a ramp into a creature that will never, ever be full. Their coins go up. Watch what does <em>not</em> come back down to them.
+      </p>
+
+      <SectionHeader accent={accent} label="The crowd" title="Where the money comes from" />
+      <p style={proseStyle}>
+        Off to the right, massed and shabby, stands the <strong>crowd of the poor</strong> — the source of all this squeezed wealth. Daumier draws them thin and ragged and many, a worn human reservoir being drained to fill one bottomless belly. The contrast does the moral work without a caption: gorged giant on one side, a whole emptied population on the other, and a plank carrying the difference from them to him. This is what the Citizen King&rsquo;s &ldquo;monarchy for everybody&rdquo; actually looked like, the cartoon says — the everybody pays, and the king eats.
+      </p>
+
+      <SectionHeader accent={accent} label="The other end" title="What the giant excretes" />
+      <p style={proseStyle}>
+        And here is the detail that turned a rude joke into a crime. Look <em>beneath</em> the king, at what comes out the other end of the giant. It is not waste. It is <strong>paper</strong> — a shower of <strong>patents, commissions, ribbons, decorations, official honors</strong> — and a scrum of <strong>well-dressed officials and cronies</strong> is scrambling on the ground to gather them up and carry them off, toward a <strong>government building</strong> at the lower left — widely identified as the <strong>Palais Bourbon</strong>, the seat of the Chamber of Deputies (the lower house of France&rsquo;s parliament). Hold the whole circuit in your head at once, because that is the masterpiece of it: the poor&rsquo;s taxes go <em>up</em> the plank into the king&rsquo;s mouth, and out his backside drop the jobs, medals, and favors — for the rich. Money in from the bottom; rewards out to the top. It is trickle-<em>up</em> economics, drawn with a literalness so crude and so clear that no one could pretend to misread it. Daumier did not write &ldquo;the king devours the nation and feeds his friends.&rdquo; He drew it, digestively, and made the viewer&rsquo;s own eye complete the insult.
+      </p>
+      <p style={proseStyle}>
+        That is the engine of the print: appetite at the top, exhaustion at the bottom, a single plank carrying wealth one way and a rain of honors falling the other. It is filthy, it is funny, and it is an argument about how a whole state distributes its money — all of it sketched in greasy crayon on a stone, in a sheet you could buy for pocket change. Down in the corner, the signature: <strong>h. Daumier</strong>. He had just signed a confession.
+      </p>
+    </article>
+  )
+}
+
+function GaTrial({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="December 1831" title="Banned before breakfast" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he print went up in the window of <strong>Gabriel Aubert&rsquo;s</strong> caricature shop — a fashionable little storefront in the <strong>Galerie Véro-Dodat</strong>, one of the glass-roofed shopping arcades of central Paris, and the public face of Philipon&rsquo;s satirical press. And it came down almost as fast. The authorities seized it on appearance. This is a detail worth getting right, because it is often blurred: <em>Gargantua</em> was made for Philipon&rsquo;s world and sold as a separate sheet through Aubert&rsquo;s shop, but it was suppressed so quickly that, by the careful scholarly account, it never actually ran in the pages of <strong>La Caricature</strong> at all. It was strangled in the window. (The journal attribution still persists in some museum catalogues — Yale&rsquo;s impression, for one, is filed as &ldquo;from the journal La Caricature&rdquo; — but the scholarship argues the print was a separately-sold sheet that the seizure kept out of the magazine.) The police did not merely ban the sheet; they ordered the <strong>lithographic stone destroyed</strong> and the remaining <strong>proofs</strong> (printed copies pulled from the stone) confiscated — they went after the means of making more. That is why, today, the cartoon that helped launch modern political art survives in only a handful of impressions. The state very nearly erased it on the spot.
+      </p>
+
+      <SectionHeader accent={accent} label="The charge" title="Insulting the king&rsquo;s body" />
+      <p style={proseStyle}>
+        Three men were dragged into court for the picture: <strong>Daumier</strong> for drawing it, the printer <strong>Hippolyte Delaporte</strong> for printing it, and the publisher <strong>Aubert</strong> for displaying and selling it. The charge, under the press law of November 1830, came in two parts — &ldquo;arousing hatred and contempt of the king&rsquo;s government,&rdquo; and the heavier one, <strong>offending the king&rsquo;s person</strong>. That second charge has an old, ominous name: <strong>lèse-majesté</strong> (lez-mazh-es-TAY), a treason-class crime meaning an injury to the dignity of the sovereign — the legal idea that the monarch&rsquo;s body is sacred and to mock it is to attack the state itself. Which is exactly why the cartoon&rsquo;s digestive humor was so explosive: Daumier had not merely criticized a policy. He had drawn the king&rsquo;s sacred royal body as a fat man eating money and excreting medals. The whole majesty of the throne, rendered as a bowel.
+      </p>
+
+      <SectionHeader accent={accent} label="The sentence" title="Six months — eventually" />
+      <p style={proseStyle}>
+        At the trial in <strong>February 1832</strong>, Daumier was held chiefly responsible and convicted. The sentence: <strong>six months in prison and a five-hundred-franc fine</strong>. But here the story has a twist that the shorthand &ldquo;jailed for a cartoon&rdquo; flattens, and it is worth telling straight, because the truth is sharper than the slogan. The sentence was at first <strong>suspended</strong> — held over his head rather than served. Daumier walked out of court a free man and did the most Daumier thing imaginable: he went straight back to his stone and kept right on savaging the regime. He did not learn the lesson. He doubled down.
+      </p>
+      <p style={proseStyle}>
+        It caught up with him. After a later lithograph needled the government once too often, the suspended term was activated. He was <strong>arrested at his parents&rsquo; apartment in August 1832</strong>, and on <strong>30 August 1832</strong> the doors of <strong>Sainte-Pélagie</strong> — a Paris prison that held debtors and political offenders — closed behind him. He served his six months there and was <strong>released on 14 February 1833</strong>. And here is the detail that tells you everything about the man: in prison, he kept drawing. You cannot censor a hand that refuses to stop. So &ldquo;Daumier went to jail for <em>Gargantua</em>&rdquo; is true — that one print is the crime that put the sentence on the books — but the full version is better: the cartoon earned the sentence, his own incorrigible nerve triggered it, and prison did not slow him down for a day.
+      </p>
+
+      <SectionHeader accent={accent} label="The bigger machine" title="Censorship&rsquo;s answer" />
+      <p style={proseStyle}>
+        Step back and see what the episode really demonstrates: how frightened power was of a cheap picture. A government does not smash a stone and jail an artist over a drawing it finds merely tasteless. It does so over a drawing it finds <em>effective</em> — a thing that puts a true, ugly idea into ten thousand heads faster than any pamphlet. The seizure was a backhanded review. It conceded that <em>Gargantua</em> worked. And the regime kept conceding it: as the satirical press kept up its war, the July Monarchy finally cut to the root and, with the <strong>September Laws of 1835</strong>, simply <em>banned political caricature outright</em>, requiring drawings to be approved before printing. (That blanket ban comes a few years after this case — read it as the war&rsquo;s endgame, not the punishment for this one sheet.) Daumier and Philipon had drawn so dangerously that the state eventually outlawed the entire art form. Few cartoonists in history can claim a clearer compliment.
+      </p>
+    </article>
+  )
+}
+
+function GaMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it invented" title="The cartoon as a political act" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hy give a whole deep-dive to a small banned print, when this app is otherwise full of ten-foot oil paintings? Because <em>Gargantua</em> is one of the founding documents of something we now take completely for granted: the <strong>modern political cartoon</strong>. Open any newspaper, anywhere, and somewhere on the opinion page a politician is drawn fat, or tiny, or as an animal, or as a machine — one savage exaggerated image that lands an argument faster than a column of print. That reflex, that whole genre, has an origin, and this is very near the source of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The weapon" title="A fine-art medium turned cheap" />
+      <p style={proseStyle}>
+        Here is the deeper move, and it is exactly why this print belongs in a story about <strong>Realism</strong> — the nineteenth-century revolt that insisted ordinary, contemporary, unglamorous life was a fit subject for serious art (the Realism overview tells the movement whole). Lithography was a respectable artists&rsquo; technique; serious painters used it for serious prints. Daumier and Philipon took that fine-art medium and aimed it straight at last week&rsquo;s news, on behalf of the people with no other voice. The taxes of the poor, the favors of the rich, the greed of a sitting king — the actual mechanics of who-pays-and-who-eats in <em>this</em> regime, <em>this</em> year — rendered with all the directness of an artist&rsquo;s own hand and sold for pennies in a shop window. That is the Realist instinct before Courbet ever lifted a brush: point real art at the real present, especially the ugly part of it, and especially on the side of the powerless. Courbet would later do it with a village funeral ten feet tall. Daumier did it first, on a stone, with a fat king.
+      </p>
+      <p style={proseStyle}>
+        And the <em>form</em> of the argument is the lasting invention. Daumier did not describe the July Monarchy&rsquo;s corruption; he <strong>diagrammed</strong> it. He found a single visual metaphor — a body that eats money and excretes honors — that compressed a whole political-economic complaint into one glance. That is the cartoonist&rsquo;s essential trick, the thing the genre is <em>made of</em>: take an abstract grievance (the rich rig the system; the powerful feed off the weak) and give it a body, a plank, a basket, a mouth, so the viewer&rsquo;s eye does the accusing. Two hundred years of editorial cartoons — the bloated banker, the puppet politician, the tax-vampire, the trickle-down/trickle-up gag redrawn a thousand ways — are working the exact territory Daumier mapped here.
+      </p>
+      <p style={proseStyle}>
+        It is worth being precise about what was genuinely new, because political mockery itself is ancient — Romans scrawled rude verses about emperors, and English print-shops had savaged kings for a century before Daumier. What lithography changed was the <em>reach</em> and the <em>hand</em>. The old satirical print was an expensive engraving, laboriously cut into a copper plate by a specialist craftsman, sold to people who could afford prints. Daumier&rsquo;s stone carried <em>his own</em> drawing, line for line, and could be sold for a coin to a clerk on his lunch break. So the modern cartoon fuses two older things — the satirist&rsquo;s venom and the daily newspaper&rsquo;s timeliness — into one disposable, reproducible, devastating sheet that is <em>cheap enough to reach the very people the politician governs</em>. That fusion is the thing on the opinion page today, and <em>Gargantua</em> is one of its loudest early proofs of concept.
+      </p>
+
+      <SectionHeader accent={accent} label="The other half" title="Why a banned drawing beats a free one" />
+      <p style={proseStyle}>
+        There is a paradox worth naming. <em>Gargantua</em> barely circulated — the police saw to that. By the brute measure of how many people saw it in 1831, it almost failed. And yet it is the most famous thing Daumier made before he was a painter, and one of the most reproduced cartoons in the world. Why? Because the <strong>act</strong> outlived the <strong>image</strong>. The seizure, the smashed stone, the trial, the prison cell — that whole drama is itself the message, and it is a message about what a drawing can be <em>worth</em>. The state treated a one-franc print as a threat to the throne. In doing so it certified the cartoonist&rsquo;s power forever. Every artist who has ever drawn a leader as a pig or a clown and dared the censor to respond is standing in the spot Daumier marked: the place where a cheap funny picture is taken seriously enough to be dangerous.
+      </p>
+      <p style={proseStyle}>
+        That is the real meaning of this sheet. It is not just a good joke about a greedy king. It is the moment the political cartoon announced itself as a genuine weapon — cheap, fast, true, reproducible, and frightening to power — and it is the moment one young artist proved he would go to prison rather than put the crayon down.
+      </p>
+    </article>
+  )
+}
+
+function GaAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The few that survived" title="A banned sheet becomes a treasure" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he police were good at their job. They smashed the stone, swept up the proofs, and very nearly turned <em>Gargantua</em> into a print that had never existed. They did not quite manage it. A small number of impressions slipped through, and those survivors made an unlikely journey: from a banned object the state wanted erased, to a treasured one museums now keep under archival glass. The <strong>Bibliothèque nationale de France</strong> in Paris holds the print, and scattered impressions live in museum print rooms around the world (Yale, San Francisco, and others). Exactly how many survive, nobody can say with confidence — the honest word is &ldquo;<em>very few</em>.&rdquo; A cartoon that almost vanished is now one of the most carefully preserved drawings of its century. The state tried to destroy it; the state&rsquo;s descendants put it in the national library.
+      </p>
+      <p style={proseStyle}>
+        There is a small irony folded into that rarity. A lithograph is, by its whole nature, the <em>opposite</em> of rare — the medium exists precisely to make thousands of identical cheap copies. Daumier chose it because it could flood the city. And censorship turned that flood into a trickle: the one print built to be mass-produced became, by force, nearly unique. So the surviving sheets carry a double meaning. Each is at once an example of the most democratic image-making of its day and a relic of the state&rsquo;s attempt to choke it off — the people&rsquo;s cheap weapon, kept as a precious thing because the powerful tried so hard to erase it. A fittingly Daumier kind of joke for the print to get the last laugh with.
+      </p>
+
+      <SectionHeader accent={accent} label="The cartoonist&rsquo;s long war" title="Thousands more stones" />
+      <p style={proseStyle}>
+        Prison did not reform Daumier; it seasoned him. Out in February 1833, he went back to the press and kept drawing — and when the <strong>September Laws of 1835</strong> finally banned political caricature outright (Chapter 3), he simply changed targets. Forbidden to mock the king, he turned his crayon on <em>everyone else</em>: pompous lawyers, quack doctors, grasping landlords, the whole comedy of the modern bourgeois city. Over a career he produced something on the order of <strong>four thousand lithographs</strong> — an immense, daily, decades-long portrait of nineteenth-century French society, drawn one stone at a time. He is, simply, the greatest caricaturist of the age, and <em>Gargantua</em> is where the legend starts.
+      </p>
+
+      <SectionHeader accent={accent} label="Crayon to brush" title="The Realist who became a painter" />
+      <p style={proseStyle}>
+        But the part of Daumier&rsquo;s story that lands him in <em>this</em> chain of Realist works is what he did away from the press, quietly, for himself: he painted. In his later years Daumier turned to oil, and pointed the same unsentimental eye that had skewered the king at the ordinary poor of the modern city — not to mock them now, but to <em>see</em> them. The masterpiece of that turn is <strong>The Third-Class Carriage</strong> (about 1862–64, now in the Metropolitan Museum in New York), a painting of the cheapest class of a railway car packed with the urban poor: an old woman, a nursing mother, a sleeping boy, tired and dignified and utterly without pity or sentiment. It is the same Realist instinct as <em>Gargantua</em>, grown up and gone gentle — point real art at real contemporary life, especially the part of it nobody else thinks worth painting. (That painting has its own deep-dive in this chain; the man you met here jailed for a cartoon is the man who painted it.)
+      </p>
+      <p style={proseStyle}>
+        So Daumier holds a strange and singular place in <strong>Realism</strong>. Where Courbet is the Realist of the province and Millet the Realist of the field, Daumier is the <strong>Realist of the modern city</strong> — its crowds, its swindlers, its politicians, its third-class poor. And he reached that subject by a road none of the others traveled: through the cheap printed cartoon and through a prison cell. The movement&rsquo;s grand statement is usually told as a ten-foot oil painting hung in the Salon. But part of it began smaller and dirtier and braver than that — as a one-franc lithograph of a king eating his people&rsquo;s money, in a shop window the police shut down by the weekend, drawn by a young man who would rather go to jail than stop.
+      </p>
+      <p style={proseStyle}>
+        That is the throughline, said flat one last time: Daumier took a fine-art print medium, aimed it at a living king on behalf of the powerless, compressed a whole corrupt economy into one image of a giant being fed, and paid for it with six months of his freedom. In doing so he helped invent the political cartoon — and proved, before Realism even had its name, that serious art could be cheap, current, furious, and on the side of the people carrying the baskets up the plank.
+      </p>
+    </article>
+  )
+}

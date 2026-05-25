@@ -1,0 +1,210 @@
+// ─────────────────────────────────────────────────────────────
+// The Angelus (Jean-François Millet, 1857–59) — the five chapters
+// Author draft for the art-content pipeline. Match the BURIAL JSX shape exactly:
+// helpers SectionHeader / DropCap, proseStyle / italicStyle, <strong>/<em>,
+// <article style={{ padding: '18px 18px 40px' }}>, `first` on the opener.
+// NO inline figures (follow Burial). HTML entities for all quotes/apostrophes.
+// Section ids: bell · looking · reception · meaning · afterlife.
+// ─────────────────────────────────────────────────────────────
+
+function AnBell({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The evening bell" title="The sound that stops the work" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        omewhere off in the distance, too far to see clearly, a church bell starts to ring. It is the end of the working day. Two people standing in a half-dug potato field hear it, stop what they are doing, drop their heads, and pray. That is the entire event. Nobody dies, nobody marries, no army marches. Two tired field-workers pause for the length of a short prayer in the failing light — and Jean-François Millet (1814–1875), the painter the Realism overview one level up in this app calls the quiet half of the movement, decided that this nothing of a moment was worth a painting that would end up one of the most famous images on Earth.
+      </p>
+      <p style={proseStyle}>
+        To feel why, you first have to know what that bell is for, because the prayer it calls is the whole hidden engine of the picture.
+      </p>
+
+      <SectionHeader accent={accent} label="What the Angelus is" title="A prayer rung from the steeple, three times a day" />
+      <p style={proseStyle}>
+        The painting is named after the prayer, and the prayer is called the <strong>Angelus</strong> (AN-juh-luss). It is an old Catholic devotion — a short, fixed prayer recalling the moment in the Christian story when the angel Gabriel told Mary she would bear Christ (the <strong>Annunciation</strong>). It takes its name from its opening Latin words, <em>Angelus Domini</em> (&ldquo;the angel of the Lord&rdquo;). The crucial thing for the painting is <em>when</em> it is said: traditionally three times a day — at dawn, at noon, and in the evening — each time announced across the countryside by the ringing of the church bell. When the <strong>Angelus bell</strong> sounded, the faithful were meant to stop whatever they were doing, wherever they were, and pray.
+      </p>
+      <p style={proseStyle}>
+        So the bell is a kind of public clock with a religious face. In a world before wristwatches and factory whistles, the steeple told a whole village what time it was and, three times a day, told it to pause. Picture a school bell that, instead of moving you to the next class, simply freezes everyone in place for a minute of quiet — that is roughly the social machine Millet is painting. The two figures are not in a church. They are in the middle of a field at the far edge of the parish, and the bell has reached out across the open ground and stopped them anyway. The painting is set at the <em>evening</em> Angelus, the last one of the day, which is why the light is going and the work is being packed up.
+      </p>
+
+      <SectionHeader accent={accent} label="The seed of the picture" title="A grandmother, a field, and a cap in hand" />
+      <p style={proseStyle}>
+        Where did the idea come from? Millet told us himself, in one of the rare cases where we have the artist&rsquo;s own account rather than a critic&rsquo;s guess. By his own recollection, the painting grew straight out of a childhood memory. &ldquo;<strong>The idea for The Angelus came to me because I remembered that my grandmother, hearing the church bell ringing while we were working in the fields, always made us stop work to say the Angelus prayer for the poor departed, very religiously and with cap in hand.</strong>&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Hold onto two details in that sentence, because they are both in the paint. The first is &ldquo;<em>with cap in hand</em>&rdquo; — and sure enough, the man in the painting has taken his hat off and is holding it at his waist, exactly as Millet&rsquo;s grandmother insisted. The second is &ldquo;<em>for the poor departed</em>&rdquo; — this was not, in Millet&rsquo;s memory, a sunny prayer of thanks but a prayer for the dead, said in the cooling evening. That is a darker, plainer thing than the gushing piety the picture would later be saddled with, and it matters for the meaning chapter. The Angelus, to the man who painted it, was a remembered family habit out in the dirt, not a stained-glass window.
+      </p>
+
+      <SectionHeader accent={accent} label="Millet's world" title="The peasant painter of Barbizon" />
+      <p style={proseStyle}>
+        This was the one subject Millet painted his whole life: peasants — the rural poor who worked the land — taken completely seriously. He came by it honestly. He was born in 1814 at <strong>Gruchy</strong>, a tiny farming hamlet in Normandy in the north of France, into a real working farm family. He trained as a painter and, in 1849, settled in <strong>Barbizon</strong> — a village on the edge of the Forest of Fontainebleau, about thirty miles southeast of Paris, that gave its name to a whole loose group of landscape painters (the <strong>Barbizon School</strong>) who left the studio to work close to real countryside. Out there Millet painted the people he had grown up among: sowers, gleaners, shepherds, reapers — labor, plain and unadorned.
+      </p>
+      <p style={proseStyle}>
+        If you have read the other Millet works in this chain, you already know the company The Angelus keeps. There is <strong>The Sower</strong> (1850) — a single peasant striding downhill flinging seed, painted so large and dark he reads almost as a threat. And there is <strong>The Gleaners</strong> (1857) — three of the poorest women bent double over a stripped field, gathering the few grains the harvest left behind. The Angelus is their evening counterpart: where the Sower is all violent forward motion and the Gleaners is all aching, bent-over labor, the Angelus is the moment the labor <em>stops</em>. Same world, same poor, same dignity insisted on — but here, stillness. The other two pictures are work; this one is the held breath in the middle of work.
+      </p>
+      <p style={proseStyle}>
+        That is the strange ambition of the thing. Millet took the least eventful instant in a hard day — a pause for a prayer no one would have thought to record — and built a picture around it. The next chapter is what that pause looks like when you actually stand in front of it and slow down.
+      </p>
+    </article>
+  )
+}
+
+function AnLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Smaller than you think, and mostly sky" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, a surprise about the size. For a painting this famous you might expect a wall-filler, the way Courbet&rsquo;s <em>Burial at Ornans</em> in this same chain is literally ten feet tall. The Angelus is the opposite. It is <strong>tiny</strong> — about <strong>1 foot 10 inches tall and 2 feet 2 inches wide</strong> (55.5 by 66 centimeters), no bigger than a serving tray you could carry under one arm. Almost every reproduction you have ever seen of it — and you have seen many, even if you did not know their name — is printed larger than the original. The whole monumental feeling of the picture is achieved on a surface the size of a place setting. Hold that against the Sower and the Gleaners, both of which use real scale to make their peasants loom; here Millet makes two small figures feel enormous on a small canvas, purely by composition.
+      </p>
+      <p style={proseStyle}>
+        Now look, and notice what most of the painting actually is: <strong>sky</strong>. A vast, pale, dusk-flushed expanse of evening sky fills roughly the top two-thirds of the canvas, with a faint warm flush of the set sun at the upper left and a few birds high up. The two human beings are crushed down into a thin band of dark, turned earth along the bottom. That ratio is the first decision Millet made and the most important one. He gave the people barely a third of the picture and handed the rest to empty air. The effect is exactly how small a person feels standing alone in an open field as the light goes — the sky just keeps going, indifferent, and you are a speck under it. Two-thirds sky pressing on one-third earth is not decoration. It is the whole mood, built into the proportions.
+      </p>
+
+      <SectionHeader accent={accent} label="The man" title="Hat in his hands, stopped mid-job" />
+      <p style={proseStyle}>
+        Come down to the figures. On the <strong>left</strong> stands the man. His head is dropped, his shoulders slightly rounded, and — the detail to find first — his <strong>hat is off, held in both hands down at his waist</strong>. This is the &ldquo;cap in hand&rdquo; from Millet&rsquo;s grandmother, and it is the painting&rsquo;s quietest, most eloquent gesture. He has not knelt, not folded into some grand devotional pose; he has simply stopped where he was, bared his head, and let his hands hang. His face is barely there in the dusk — a smudge of shadow under his hair — and that is deliberate. Millet does not want you to read a particular man&rsquo;s particular piety. He wants the <em>act of stopping</em> itself, which is why the man is almost a silhouette: anyone, every laborer, caught in the habit of the prayer.
+      </p>
+
+      <SectionHeader accent={accent} label="The woman" title="Hands clasped, head bowed lower" />
+      <p style={proseStyle}>
+        Across the field from him, on the <strong>right</strong>, stands the woman, facing him. Her head is bent even lower than his, and her <strong>hands are pressed together at her chest</strong> in the plainest gesture of prayer there is — the one a child draws when asked to draw someone praying. She wears a white cap, a dark dress, a worn apron over a reddish bodice. The two of them form a matched pair: both stilled, both bowed, both faceless, both poor. And look at the gap between them — a small stretch of empty, dug field separating the man on the left from the woman on the right. That little moat of silence is doing real work. They are together in the prayer but not touching, each sunk into a private quiet, and the gap between them is where the whole hush of the painting pools.
+      </p>
+
+      <SectionHeader accent={accent} label="The tools" title="The basket, the fork, the barrow — work, paused" />
+      <p style={proseStyle}>
+        Now look at the ground, because Millet has scattered the evidence of exactly what was happening one second before the bell. Between the two figures, set down on the turned earth at their feet, sits a low woven <strong>basket of potatoes</strong> — the day&rsquo;s dug crop. (Remember that basket; in the afterlife chapter it becomes the single most argued-over object in the painting.) Down at the lower left, jammed upright in the broken soil, stands a <strong>digging fork</strong>, left exactly where the man stopped using it. And off to the right, half in shadow behind the woman, sit a <strong>wheelbarrow and sacks</strong> already loaded with the harvest.
+      </p>
+      <p style={proseStyle}>
+        Take those three things together — fork, basket, barrow — and they tell you the whole story with no words: <em>work was happening here a heartbeat ago, and will start again the heartbeat the prayer ends.</em> The tools are dropped, not packed. The prayer is an interruption, not a conclusion. This is the same trick Millet plays in the Sower (the seed still in the air) and the Gleaners (the day&rsquo;s meagre handful in their fists): he freezes a moment of real labor so precisely that you can feel time about to start moving again.
+      </p>
+
+      <SectionHeader accent={accent} label="The church" title="The speck on the horizon that explains everything" />
+      <p style={proseStyle}>
+        Finally, do the one thing the painting rewards most: look hard at the far, flat horizon, slightly right of center, behind and between the two figures. Almost lost in the dusk haze, no taller than a pin, is a <strong>tiny church spire</strong>. It is easy to miss entirely, and missing it means missing the cause of the whole scene — because that distant steeple is where the bell is ringing from. The sound has crossed all that open ground to reach two people at the far edge of the parish and stop them where they stand. By most accounts Millet added that little tower when he reworked the canvas, and you can see why he bothered: without it, this is two tired people standing oddly still in a potato field. With it, the painting suddenly has a reason — a cause out on the edge of the world, pulling a thread of devotion all the way back to the foreground. One pin-sized detail turns a field into a prayer.
+      </p>
+      <p style={proseStyle}>
+        Step back and take it whole. Two small, dark, bowed figures; their dropped tools; a distant steeple; and above them an enormous evening sky that swallows two-thirds of the picture. Nothing is happening, and everything is. That is the looking. The next three chapters are about what people <em>made</em> of it — which turned out to be far stranger than anything in the paint.
+      </p>
+    </article>
+  )
+}
+
+function AnReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="A quiet start" title="A job for a Bostonian who never showed up" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most famous things often begin as the least promising, and The Angelus begins as a commission that fell apart. It started life not as a great statement but as a job. A wealthy Boston art collector named <strong>Thomas Gold Appleton</strong> commissioned Millet to paint a peasant scene, and the painting&rsquo;s first title had nothing of prayer in it at all. It was called <strong>&ldquo;Prayer for the Potato Crop&rdquo;</strong> (in French, a prayer for the potato harvest), and some accounts suggest Appleton, with the recent and catastrophic <strong>Irish potato famine</strong> fresh in mind, wanted exactly that — a scene of poor people and a failing root crop. The painting&rsquo;s whole origin, in other words, is potatoes and want, not piety.
+      </p>
+      <p style={proseStyle}>
+        And then Appleton simply never came for it. The deal fell through; the Bostonian declined to take the picture. Millet was left holding a finished-ish canvas with no buyer — a very ordinary problem for a chronically broke painter, which Millet, supporting a large family on the edge of poverty out at Barbizon, certainly was.
+      </p>
+
+      <SectionHeader accent={accent} label="The rework" title="Adding the steeple, changing the name" />
+      <p style={proseStyle}>
+        So Millet did what a working painter does with an unsold canvas: he reworked it for the open market. By most accounts this is the moment the small <strong>church tower</strong> went onto the horizon — the pin-sized steeple from the looking chapter — and the painting got its new, resonant name: <em>The Angelus</em>. The change is small in paint and enormous in meaning. &ldquo;Prayer for the Potato Crop&rdquo; is about hunger and a harvest; <em>The Angelus</em> is about the bell, the prayer, the devotion. The same two figures, the same dropped tools, but reframed — from a scene of rural want into a scene of rural faith. It is worth being honest that a commercial calculation (an unsellable picture made sellable) sits right at the center of this most beloved of religious images. The steeple that &ldquo;turns a field into a prayer&rdquo; also turned a dead commission into a saleable painting.
+      </p>
+      <p style={proseStyle}>
+        None of which makes the painting cynical. Millet had carried the grandmother memory for years; the prayer was real to him. But the romantic idea that great art descends fully formed from pure inspiration takes a useful dent here. The Angelus is what it is partly because a Boston customer flaked and a broke painter needed to eat — and that double origin, hunger renamed as faith, is stitched into the picture more deeply than its admirers ever wanted to admit. The potatoes never left; Millet just stopped putting them in the title.
+      </p>
+
+      <SectionHeader accent={accent} label="A slow fame" title="Not a Salon bomb — a long, quiet climb" />
+      <p style={proseStyle}>
+        Here is where The Angelus parts ways with its siblings in this chain. The big Realist pictures tend to have a single explosive public moment — Courbet&rsquo;s <em>Burial</em> detonating in the Salon (the official State exhibition that made or broke a French career, which the movement overview describes in full); Millet&rsquo;s own <em>Sower</em> and <em>Gleaners</em> frightening a Paris still raw from the revolution of 1848, when the poor briefly toppled a king. The Angelus had no such bomb. It did not arrive as a scandal. Its fame came the slow way, and then, decades later, all at once.
+      </p>
+      <p style={proseStyle}>
+        For a while it was simply a small Millet among other small Millets, changing hands among private collectors. But across the 1860s and especially after Millet&rsquo;s death in 1875, his reputation began a steep climb. A taste for his grave, dignified peasants spread — first in France, and powerfully in the United States and Britain, where Millet became something close to a cult. As demand rose, the price of The Angelus rose with it, passing from owner to owner at numbers that would have stunned the painter who first could not find anyone to buy it. The canvas was quietly becoming valuable.
+      </p>
+      <p style={proseStyle}>
+        It is worth pausing on how unusual that trajectory is. Most pictures are most valuable the day a famous artist signs them and drift slowly into obscurity afterward; The Angelus did the reverse, gaining value and fame for decades after its maker was dead and could profit from none of it. Part of that was a genuine swing of taste back toward Millet&rsquo;s grave peasants, and part was the new machinery of fame: cheap reproduction was beginning to put copies of popular pictures into ordinary homes, and a much-reproduced image becomes a famous image, and a famous image becomes an expensive one.
+      </p>
+      <p style={proseStyle}>
+        That slow climb is the runway for everything in the afterlife chapter. A painting that no Boston collector wanted, that a broke man renamed to sell, was turning into a national treasure — and the moment that fact became undeniable, in the summer of 1889, would be one of the loudest art-world spectacles of the century. But the painting also acquired, in those same years, a <em>meaning</em> the public attached to it: warm, pious, sentimental, a little gauzy. Whether that is what Millet painted is the next chapter&rsquo;s fight. And the deepest irony sits underneath the whole climb: The Angelus was being lifted by exactly the modern, industrial forces it seems, on its surface, to know nothing about.
+      </p>
+    </article>
+  )
+}
+
+function AnMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it means" title="The most sentimental painting in the world?" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a long stretch of its life, The Angelus had a reputation problem of an unusual kind: it was too loved. By the late nineteenth century it had become the very image of cozy, comforting, lump-in-the-throat religious feeling — humble folk, golden light, heads bowed, all is well with God and the soil. It hung, in cheap reproduction, in more parlors and schoolrooms and chapels than almost any picture in the world (the afterlife chapter gets to the staggering numbers). And when an image becomes that universally adored, sophisticated people start to find it embarrassing — the way a song everyone&rsquo;s grandmother loves gets dismissed as schmaltz. For decades The Angelus was treated by serious critics as a piece of beautiful, slightly cloying sentiment: the painting equivalent of a greeting card.
+      </p>
+      <p style={proseStyle}>
+        The question worth sitting with is whether that is fair — whether it is actually what Millet put on the canvas, or a warm coat the public draped over it later.
+      </p>
+
+      <SectionHeader accent={accent} label="What Millet said it was" title="A memory, and a prayer for the dead" />
+      <p style={proseStyle}>
+        Go back to Millet&rsquo;s own account, the one from the first chapter. He did not describe a glowing devotional uplift. He described a <em>memory</em>: his grandmother making the children stop work in the fields to say the Angelus — and crucially, to say it &ldquo;<em>for the poor departed</em>.&rdquo; That is a prayer <em>for the dead</em>, said in the cooling evening at the end of a working day. There is grief folded into it, and tiredness, and the long habit of the poor who pray because that is what their grandmothers made them do, not because the light is pretty. Read that way, the painting is far closer to its grim siblings than to a greeting card. It belongs with the bent backs of the Gleaners and the dark, looming Sower: the rural poor, taken seriously, in the actual texture of their hard days — and here, in the texture of their faith, which was as much a fact of that life as the potatoes.
+      </p>
+      <p style={proseStyle}>
+        Notice, too, what the painting refuses to do. There is no shaft of divine light breaking through to bless the couple, no glimpse of heaven, no angel. The religion is entirely <em>in the people</em> — in a bared head and two clasped hands — and not at all in the sky, which, for all its enormousness, stays empty. A sentimental religious painter would have opened that sky. Millet left it blank. The faith here is a human habit performed in the dirt, not a miracle delivered from above.
+      </p>
+      <p style={proseStyle}>
+        The sweetness, in other words, was largely added by the audience. Strip the warm associations off and look at the bare facts of the scene: two exhausted people, at the end of a day of digging roots out of cold ground, stopping for a prayer for the dead under a sky going dark. That is not a comforting picture; it is a sober one. The cult of cheap reproductions sanded it down — brightened it in the mind&rsquo;s eye, fitted it for the parlor wall, made it the painting your great-grandmother found <em>soothing</em>. The original is closer to the bone than that. It is a picture about endurance: the small fixed rituals that get the poor through, performed without complaint and without reward, in the same flat fields where they will be buried.
+      </p>
+
+      <SectionHeader accent={accent} label="Piety or poverty" title="The argument that never settles" />
+      <p style={proseStyle}>
+        So which is it — a painting about <em>God</em> or a painting about <em>the poor</em>? This is the fight that has trailed The Angelus its whole life, and it is the same fight that trailed the Sower and the Gleaners, where the propertied classes of a nervous Paris kept reading a political menace into pictures of field-workers. Some have always seen The Angelus as pure piety: faith sustaining the humble. Others see it the other way around — that the real subject is the crushing labor and the want, and the prayer is the small dignity these people are allowed at the end of a day of digging up roots to survive. The empty basket of potatoes, the dropped fork, the bent exhausted bodies: this is not a comfortable life being blessed. It is a hard one, briefly stilled.
+      </p>
+      <p style={proseStyle}>
+        Millet himself was cagey about politics — like in the Sower&rsquo;s story, he kept insisting he was no socialist, only a man painting the truth of the soil. And that is probably the most honest reading: the painting is not <em>either</em> a sermon <em>or</em> a protest. It is both faith and poverty at once, because in the world Millet grew up in they were not separable. The poor prayed; the prayer was part of being poor; the bell stopped the work and then the work resumed. The sentimental version that conquered the world&rsquo;s parlors took the faith and threw away the poverty. The painting Millet actually made kept both, which is exactly why it is better than its reputation as a tear-jerker — and exactly why, in the next chapter, one very strange Spaniard would come along and insist the whole thing was secretly about a dead child.
+      </p>
+    </article>
+  )
+}
+
+function AnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1 July 1889" title="The bidding war that gripped a nation" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he small painting nobody had wanted in 1857 became, on a single day in 1889, the object of one of the loudest art spectacles of the century. By then it belonged to a French copper magnate, <strong>Eugène Secrétan</strong>, whose collection went up for auction on <strong>1 July 1889</strong> at the Galerie Sedelmeyer in Paris. The timing was no accident: the sale was set to coincide with the <strong>Exposition Universelle of 1889</strong> — the great Paris world&rsquo;s fair that unveiled the Eiffel Tower — which had filled the city with rich foreigners, the Americans especially.
+      </p>
+      <p style={proseStyle}>
+        What followed was a national drama. On one side stood <strong>Antonin Proust</strong>, a former French arts minister, fighting to keep The Angelus in France and get it into the <strong>Louvre</strong> (the great Paris museum). On the other stood the <strong>American Art Association</strong> of New York, a powerful dealership, bidding through its man <strong>James F. Sutton</strong> to carry the picture off to America. The bidding climbed and climbed, past anything a Millet had ever fetched, all the way to a stunning <strong>553,000 francs</strong> — a fortune, for a painting the size of a tray. France appeared to win it. And then the most French thing imaginable happened: the government refused to actually pay. With no public money forthcoming and unable to cover the sum himself, Proust had to let it go. The painting passed to the under-bidding Americans, who packed it up and shipped it across the Atlantic.
+      </p>
+
+      <SectionHeader accent={accent} label="To America and back" title="A touring marvel, then a tycoon buys it home" />
+      <p style={proseStyle}>
+        In the United States the American Art Association did what you do with a half-million-franc trophy: they put it on show, and crowds paid to file past a single small canvas as if it were a visiting celebrity. For a brief season in 1889–1890, the most reproduced devotional image in the Western world was an American attraction.
+      </p>
+      <p style={proseStyle}>
+        It did not stay. In 1890 a French buyer brought it home — <strong>Alfred Chauchard</strong>, a Paris department-store magnate who had helped found the <strong>Grands Magasins du Louvre</strong> (a giant Paris department store, no relation to the museum despite the shared name). Chauchard bought The Angelus back for France for an even more eye-watering figure — about <strong>800,000 francs</strong> (some sources say 750,000) — roughly half again what the auction had reached the year before. The painting that France could not find the money to buy at auction was now home, in private hands, at an even higher price. There is a lasting footnote here: the gulf between these dizzying resale prices and the near-poverty of Millet&rsquo;s surviving family was one of the scandals that, years later, helped push France toward the <strong>droit de suite</strong> — the &ldquo;resale right,&rdquo; a law giving artists or their heirs a cut when their work is resold for a fortune they never saw.
+      </p>
+      <p style={proseStyle}>
+        Chauchard, who died in 1909, left his collection to the State, and on <strong>15 January 1910</strong> The Angelus was formally accepted into the <strong>Louvre</strong> — given, free, to the nation that had failed to buy it across the table twenty-one years before. In <strong>1986</strong>, when the <strong>Musée d&rsquo;Orsay</strong> (the Paris museum of nineteenth-century art, installed in a converted railway station) opened, the Louvre&rsquo;s nineteenth-century holdings crossed the river to fill it, and The Angelus went too. It hangs there now, a small, dark, quiet canvas in a busy gallery — joined, just down the wall, by the Gleaners, which had taken almost exactly the same road from despised to priceless to bequeathed.
+      </p>
+
+      <SectionHeader accent={accent} label="Dalí's obsession" title="The basket that might be a coffin" />
+      <p style={proseStyle}>
+        And then there is the strangest chapter of all, which belongs to <strong>Salvador Dalí</strong> (1904–1989, the Spanish Surrealist — the melting-clocks painter). Dalí was haunted by The Angelus his entire life. He claimed it had unsettled him since childhood, when a reproduction hung on the wall of his school; he said the bowed woman looked to him less like a praying wife than like a <strong>praying mantis</strong> — the insect that devours its mate after pairing — coiled and predatory over the stilled man. Where the world saw cozy piety, Dalí saw dread, sex, and death, and he could not let it go: he built an entire personal theory around it and made several paintings warping the image, among them <em>The Architectonic Angelus of Millet</em> and <em>Gala and the Angelus of Millet…</em>, both in 1933.
+      </p>
+      <p style={proseStyle}>
+        His central, sensational claim was about that basket of potatoes between the two figures. Dalí insisted it was no basket at all but a small <strong>child&rsquo;s coffin</strong> — that the couple are not pausing over a harvest but mourning a dead, perhaps stillborn, child, the whole picture a scene of buried grief disguised as rural calm.
+      </p>
+      <p style={proseStyle}>
+        Here the story takes a genuinely odd turn, and it has to be told carefully. At some point the <strong>Louvre</strong> examined the painting with imaging tools — an <strong>X-ray</strong> (which sees through the top layers of paint to what lies beneath, like a medical X-ray seeing through skin) and infrared. The examination reportedly revealed that beneath or in place of the present basket there was an earlier, painted-over shape — described as a small <em>&ldquo;oblong geometrical&rdquo;</em>, more <em>box-like</em> form. Dalí seized on this as proof: there it was, he said, the hidden coffin, painted over to disguise the grief.
+      </p>
+      <p style={proseStyle}>
+        But proof of <em>what</em>, exactly? That is where it has to stop. That an earlier, more box-like shape may lurk under the basket is one thing; that the shape <em>is</em> a coffin, and that the painting <em>is</em> about a dead child, is a leap that the art-history world has never accepted. An overpainted form could be a coffin — or it could be a basket Millet simply drew differently the first time, or a compositional element he changed his mind about, which painters do constantly. So take the whole episode as exactly what it is: <strong>Dalí&rsquo;s reading</strong>, vivid and unforgettable and possibly entirely wrong, attached to <strong>a real but contested technical finding</strong>. The romance of the secret coffin is a piece of legend, not a settled fact — but it is a measure of the painting&rsquo;s grip that the greatest Surrealist of the century spent decades unable to look away from two peasants praying in a field.
+      </p>
+
+      <SectionHeader accent={accent} label="The most reproduced image of its age" title="Why you already knew this painting" />
+      <p style={proseStyle}>
+        Strip away the auction drama and the coffin theory and you are left with the plainest fact about The Angelus, which is also the most extraordinary: more people have seen it than almost any painting ever made. It became <strong>one of the most widely reproduced images of the nineteenth century</strong>. Cheap prints — made affordable by the same Industrial Revolution that was emptying the countryside the picture mourns — hung in tens of thousands of French homes, schools, and churches. It spread onto postcards, devotional cards, plates, coffee cups. It was the kind of image that did not stay in museums; it went into ordinary life and lived on the wall above the kitchen table. The young Dutch painter <strong>Vincent van Gogh</strong>, who treated Millet as a personal hero, copied it like a devotee. There is a real chance you have seen The Angelus somewhere — a relative&rsquo;s hallway, an old print, a parody — without ever learning what it was called.
+      </p>
+      <p style={proseStyle}>
+        That is the final irony of this small, dark canvas. Millet took the least eventful moment in a poor person&rsquo;s day — a pause for a prayer, heads bowed, tools dropped, the bell fading from a steeple too far to see — and painted it so truly that the moment escaped the frame entirely. It outgrew its commission, its title, its painter, its country, and even its meaning, until two anonymous peasants stopped forever in a potato field became something the whole world recognized. Not bad for a job a Boston collector turned down.
+      </p>
+    </article>
+  )
+}

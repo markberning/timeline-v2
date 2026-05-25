@@ -1747,7 +1747,308 @@ export const GLEANERS: ArtWorkContent = {
   },
 }
 
+// The Angelus (Jean-François Millet, 1857–59) — ArtWorkContent
+// Author draft for the art-content pipeline. Matches the BURIAL shape in src/lib/art-content.ts.
+// Facts verified in angelus-factpack.md (fact ledger). Dimensions ft/in only (house rule).
+// Defers movement-level material to the REALISM movement object; goes deeper on THIS work.
+// Cross-references the Millet siblings SOWER (1850) and GLEANERS (1857); does not contradict them.
+
+export const ANGELUS: ArtWorkContent = {
+  id: 'angelus',
+  name: 'The Angelus',
+  shortName: 'The Angelus',
+  year: 1859,
+  artist: 'Jean-François Millet',
+  artistId: 'millet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 9⅞ in × 2 ft 2 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bequeathed by Alfred Chauchard, 1910',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 8, total: 9 },
+  hook: 'Two peasants stop digging potatoes to pray at the evening bell — tiny under an enormous sky — and the small canvas becomes one of the most reproduced images of the century.',
+  heroImage: ART_IMG.milletAngelus,
+  heroCredit: 'Millet, The Angelus, 1857–59 · Musée d’Orsay, Paris',
+  heroAspect: 1.19,
+  heroFit: 'contain', // a small ~1.19:1 canvas — show the whole field + sky, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1857–59', k: 'Painted' },
+    { v: '1′9⅞″ × 2′2″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'bell', eyebrow: 'The evening bell', dateLabel: '1857', title: 'The bell that stops the work', blurb: 'What the Angelus actually is — a prayer rung from the church three times a day — and why a memory of his grandmother stopping work at the sound of it is the seed of this whole small painting.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857–59', title: 'Two bowed heads under an enormous sky', blurb: 'Slow down and look: the man with his hat in his hands, the woman with her hands clasped, the potato basket, the fork in the dirt, the wheelbarrow, the speck of a church on the horizon — and the vast dusk sky pressing it all flat.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'A quiet start', dateLabel: '1857–1870s', title: 'The commission that fell through', blurb: 'It began as a job for a Boston collector who never collected it, under a different title about a potato harvest. The fame came slowly, and then all at once.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Piety, or poverty, or both', blurb: 'Millet said it came from remembering his grandmother praying in the fields. The world turned it into a sentimental devotional postcard. The gap between those two readings is the whole argument about this picture.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1889–today', title: 'Afterlife', blurb: 'A trans-Atlantic bidding war, a record price, a trip to America and back; Dalí’s lifelong conviction that the basket hid a child’s coffin; the most reproduced image of its century; and the long road to the Orsay.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1857–59', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon. Begun as a commission for the Boston collector Thomas Gold Appleton under the title “Prayer for the Potato Crop”; Appleton never collected it, so Millet reworked the canvas — by most accounts adding the small church tower on the horizon — retitled it The Angelus, and sold it on the open market.', price: null },
+    { year: '1860s–1880s', who: 'A chain of private collectors', place: 'France', note: 'As Millet’s reputation soared in the years after his death in 1875, the once-modest canvas passed through a series of private owners at steadily climbing prices, eventually entering the collection of the French copper magnate Eugène Secrétan.', price: null },
+    { year: '1 July 1889', who: 'Secrétan sale → American Art Association', place: 'Paris', note: 'At the auction of Secrétan’s collection (Galerie Sedelmeyer, timed to the 1889 Exposition Universelle), a bidding war broke out between Antonin Proust, fighting to keep it for the Louvre, and the American Art Association of New York. Bidding reached 553,000 francs. France nominally won — but the government refused to fund the purchase, so the painting passed to the under-bidding Americans and was shipped to the United States.', price: '553,000 francs' },
+    { year: '1889–1890', who: 'American Art Association', place: 'New York / United States', note: 'The Association exhibited the painting in America, where it drew large, paying crowds — a single small canvas treated as a touring marvel.', price: null },
+    { year: '1890', who: 'Alfred Chauchard', place: 'Paris', note: 'The Paris department-store magnate Alfred Chauchard (a founder of the Grands Magasins du Louvre) bought it back for France — for about 800,000 francs (some sources say 750,000) — returning the painting across the Atlantic.', price: '≈800,000 francs' },
+    { year: '1910', who: 'Musée du Louvre', place: 'Paris', note: 'Chauchard bequeathed his collection to the State; after his death in 1909 the gift was formally accepted into the Louvre on 15 January 1910 — the picture given, free, to the nation that had failed to buy it at auction.', price: 'bequest to the nation', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Musée d’Orsay opens in the converted Gare d’Orsay railway station, the Louvre’s 19th-century collection crosses the river to fill it. The Angelus goes with it, and is on permanent view.', price: 'never sold since', museum: true },
+  ],
+  figures: [
+    { name: 'Millet', role: 'The peasant painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { name: 'The two peasants', role: 'The subject; praying at dusk', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+    { name: 'Alfred Chauchard', role: 'Bought it back for France; left it to the nation', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Salvador Dalí', role: 'Obsessed; saw a hidden coffin', palette: ['#5a4a6a', '#322844', '#100c18'] },
+    { name: 'Van Gogh', role: 'Worshipped Millet; copied it', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+  ],
+  annotations: [
+    { label: 'The man, hat in his hands', where: 'Left of center, standing, head bowed', detail: 'The man stands stock-still with his head dropped and his hat taken off and held in both hands at his waist — the exact posture Millet remembered from his grandmother, who prayed “with cap in hand.” He has interrupted himself mid-job; the prayer simply stopped him where he stood. His face is barely legible in the dusk, which is the point: this is not a portrait of a particular pious man but the gesture of stopping itself.' },
+    { label: 'The woman, hands clasped', where: 'Right of center, standing, head bowed', detail: 'She faces him across the basket, head bent lower than his, her hands pressed together at her chest in the plainest gesture of prayer there is. A white cap, a dark dress, a worn apron. The two of them make a quiet matched pair — both stilled, both bowed, both anonymous — and the small gap of empty field between them is where the whole hush of the picture lives.' },
+    { label: 'The basket of potatoes', where: 'On the ground between them, at their feet', detail: 'A low woven basket of potatoes sits in the turned earth between the two figures — the day’s dug crop, set down the instant the bell rang. It is the most ordinary object imaginable, and it became the most argued-over: this is the basket Salvador Dalí would later insist was painted over a small child’s coffin (see the afterlife chapter). For now, it is potatoes.' },
+    { label: 'The fork, the barrow, the dropped tools', where: 'A digging fork upright at lower left; a wheelbarrow and sacks at the right edge', detail: 'Down at the lower left a digging fork stands jammed upright in the broken ground, exactly where the man left off; off to the right, half in shadow behind the woman, sit a wheelbarrow and sacks already loaded with the harvest. Together with the basket they finish the inventory of the labor — fork, basket, barrow, sacks, the unglamorous gear of a hard day digging potatoes — and every piece of it is dropped, not packed. That is how Millet tells you, without a word, that work was happening here a second ago and will resume the second the prayer is done.' },
+    { label: 'The church on the horizon', where: 'On the far horizon, slightly right of center, behind and between the two figures', detail: 'Look hard at the flat far horizon and you will find it: a tiny church spire, no taller than a pin, on the far horizon, slightly right of center, behind and between the two figures. That speck is the source of everything — the bell ringing from it is what stopped these two where they stand. By most accounts Millet added this little tower when he reworked the painting, and it is the single detail that turns a potato field into a prayer.' },
+    { label: 'The enormous sky', where: 'The top two-thirds of the canvas', detail: 'Most of the painting is sky — a vast, pale, dusk-flushed expanse that fills roughly the top two-thirds and presses the two small bodies down into a thin band of dark earth at the bottom. There are no mountains, no drama, no opening heaven; just the huge low evening pressing on two tiny figures, which is exactly how small a person feels alone in a field when the light is going.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The Angelus prayer', mode: 'civ' },
+      { label: 'Barbizon landscape', mode: 'art' },
+      { label: 'The Gleaners', mode: 'art' },
+      { label: 'The Sower', mode: 'art' },
+    ],
+    children: [
+      { label: 'Vincent van Gogh', mode: 'art' },
+      { label: 'Salvador Dalí', mode: 'art' },
+      { label: 'Mass-reproduced art', mode: 'civ' },
+    ],
+  },
+}
+
+// Gargantua (Honoré Daumier, 1831) — ArtWorkContent
+// Drop into src/lib/art-content.ts after BURIAL. Matches the BURIAL shape exactly.
+// NOTE: this is a LITHOGRAPH (a print), not an oil — medium/dimensions/provenance
+// adapted honestly to a print: seizure + suppression history rather than an
+// ownership chain. Facts: see gargantua-factpack.md (fact ledger).
+
+export const GARGANTUA: ArtWorkContent = {
+  id: 'gargantua',
+  name: 'Gargantua',
+  shortName: 'Gargantua',
+  year: 1831,
+  artist: 'Honoré Daumier',
+  artistId: 'daumier',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Lithograph',
+  dimensions: '8.5 in × 12 in', // image, landscape (~21.4 × 30.5 cm); figures vary by impression — see fact ledger
+  location: 'Bibliothèque nationale de France, Paris',
+  acquired: 'Few impressions survive the 1831 seizure; held by the BnF and other print rooms',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 1, total: 9 },
+  hook: 'A cartoon of the king as a giant eating the poor’s taxes and excreting medals — it cost the artist six months in jail.',
+  heroImage: ART_IMG.daumierGargantua,
+  heroCredit: 'Daumier, Gargantua, 1831 · lithograph · Bibliothèque nationale de France',
+  heroAspect: 1.44,
+  heroFit: 'contain', // the work hero shows the WHOLE landscape print, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1831', k: 'Made' },
+    { v: 'Lithograph', k: 'Medium' },
+    { v: 'BnF, Paris', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'king', eyebrow: 'Paris · 1830–31', dateLabel: '1830–31', title: 'The Citizen King and the war of the press', blurb: 'A revolution puts a bourgeois “King of the French” on the throne; a young caricaturist and his fearless publisher declare war on him in cheap printed pictures.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The print', dateLabel: '1831', title: 'The giant, the plank, and the excreted honors', blurb: 'Read the image inch by inch: the pear-headed king gorging, the ramp of tribute-bearers feeding his mouth, the destitute crowd, and the medals dropping out the other end.', progress: 0.34 },
+    { id: 'trial', eyebrow: 'The reckoning', dateLabel: '1831–33', title: 'Six months for a drawing', blurb: 'The print is seized on sight, the stone smashed, three men charged with insulting the king — and Daumier, after a suspended sentence, ends up in Sainte-Pélagie prison.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it invented', dateLabel: '1831', title: 'The birth of the modern political cartoon', blurb: 'Why this one banned sheet matters: a fine-art print medium turned into a cheap mass weapon for the poor’s grievance — the template every editorial cartoonist still works from.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1833–today', title: 'From caricaturist to the painter of the poor', blurb: 'The surviving impressions, the censorship that followed, and Daumier’s long road from jailed cartoonist to the Realist painter of The Third-Class Carriage.', progress: 0.96 },
+  ],
+  // A print has no ownership chain; this is its publication-and-suppression history.
+  provenance: [
+    { year: 'Dec 1831', who: 'Drawn by Honoré Daumier for Charles Philipon’s satirical world', place: 'Paris', note: 'Daumier draws the king as Gargantua on a lithographic stone; the sheet is put out through Gabriel Aubert’s caricature shop in the Galerie Véro-Dodat, the storefront of Philipon’s La Caricature press.', price: null },
+    { year: 'late Dec 1831', who: 'Seized by the police', place: 'Paris', note: 'On appearing in Aubert’s shop window the print is banned and confiscated almost at once. Police order the lithographic stone destroyed and the remaining proofs (printed copies pulled from the stone) seized — so the print barely circulates. By the careful scholarly account it was sold as a separate sheet and never ran inside La Caricature, though some museums (e.g. Yale) still catalogue their impression as “from the journal La Caricature.”', price: 'suppressed' },
+    { year: '22–23 Feb 1832', who: 'Daumier, Aubert (publisher) & Delaporte (printer) on trial', place: 'Paris', note: 'All three charged under the November 1830 press law with arousing hatred and contempt of the king’s government and offending the king’s person (lèse-majesté). Daumier is held chiefly responsible; sentenced to six months and a 500-franc fine — at first suspended. (Daumier was not the lone martyr: Philipon, who steered the whole campaign, was himself repeatedly prosecuted, convicted, and jailed for his anti-Louis-Philippe satire.)', price: null },
+    { year: '1832–33', who: 'Honoré Daumier (in prison)', place: 'Sainte-Pélagie, Paris', note: 'After he keeps needling the regime the suspended term is activated; Daumier is arrested and serves from 30 August 1832, released 14 February 1833. He goes on drawing inside.', price: null },
+    { year: 'today', who: 'Bibliothèque nationale de France & other print rooms', place: 'Paris / Yale / San Francisco / etc.', note: 'Because the police were largely successful, very few impressions survive. The ones that do are held by the BnF and a handful of museum print collections — a banned cartoon that became a treasured object.', price: 'never sold', museum: true },
+  ],
+  figures: [
+    { name: 'Daumier', role: 'The cartoonist', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { name: 'Charles Philipon', role: 'Publisher; invented the pear', palette: ['#6b5a3a', '#3a2e1c', '#120d08'] },
+    { name: 'Louis-Philippe', role: 'The “Citizen King”', palette: ['#8a8074', '#4a4038', '#16120e'] },
+  ],
+  annotations: [
+    { label: 'The pear-headed giant', where: 'Upper left — the enormous seated king', detail: 'King Louis-Philippe drawn as Gargantua, Rabelais’s gluttonous giant: a vast bloated body splayed in a low chair, belly enormous, mouth gaping open to be fed. His head is the famous pear — round-cheeked, tapering to a tuft — Charles Philipon’s mocking “poire” (French slang for “fathead”) made monstrous. The biggest, fattest thing in the picture is the king, and all he does is eat.' },
+    { label: 'The plank running into his mouth', where: 'The long diagonal ramp, lower-right up to the king’s face', detail: 'A steep plank or gangway runs from the ground all the way up to the king’s open mouth — a conveyor belt of tribute. It is the spine of the whole image: everything the poor have travels up this ramp and disappears into the giant. The single line that turns a fat man into an economic machine.' },
+    { label: 'The tribute-bearers and the basket', where: 'On the plank and at its foot', detail: 'Tiny laborers trudge up the plank hauling baskets and sacks of coins; at the bottom one bends double over a great hamper, loading the king’s next mouthful. They are drawn small and bent — the scale gap between the giant and the people feeding him is the joke. Their money goes up; it does not come back.' },
+    { label: 'The destitute crowd', where: 'Massed at the right', detail: 'A ragged throng of common people crowds the right edge — the source of the squeezed wealth, thin and shabby where the king is gorged. This is where the taxes come from: the bottom of the country, emptied to fill the top.' },
+    { label: 'The excreted honors', where: 'Below / beneath the king’s seat, with the scrambling officials', detail: 'Out the other end of the giant come not waste but documents — patents, commissions, ribbons, decorations — and a knot of well-dressed officials and cronies scrambles to gather them up. The savage core of the cartoon: the people’s money goes in one end and jobs, medals and favours for the privileged drop out the other. Trickle-up, drawn literally.' },
+    { label: 'The government building', where: 'Lower left, behind the scrambling officials', detail: 'A government building closes the lower left — widely identified as the Palais Bourbon, the seat of the Chamber of Deputies (the lower house of France’s parliament) — toward which the favour-laden officials hurry off: the bureaucracy and legislature on the receiving end of the king’s bounty. The circuit is complete: from the poor, into the king, out to the state’s own insiders.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Rabelais’s Gargantua', mode: 'art' },
+      { label: 'The July Monarchy', mode: 'civ' },
+      { label: 'Philipon’s “poire”', mode: 'art' },
+    ],
+    children: [
+      { label: 'The modern political cartoon', mode: 'art' },
+      { label: 'The Third-Class Carriage', mode: 'art' },
+      { label: 'Realism', mode: 'art' },
+    ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Third-Class Carriage (Daumier, c.1862–64) — ArtWorkContent
+// EXACT BURIAL shape. Drop into src/lib/art-content.ts as `CARRIAGE`
+// and register in ART_WORK_CONTENT. Authored gates-first; see
+// audits/art-pipeline/realism-works/carriage-factpack.md for the ledger.
+// ─────────────────────────────────────────────────────────────
+
+export const CARRIAGE: ArtWorkContent = {
+  id: 'carriage',
+  name: 'The Third-Class Carriage',
+  shortName: 'The Third-Class Carriage',
+  year: 1864,
+  artist: 'Honoré Daumier',
+  artistId: 'daumier',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas (unfinished)',
+  dimensions: '2 ft 1¾ in × 2 ft 11½ in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'The H.O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 9, total: 9 },
+  hook: 'The cheapest seats on the new railway, packed with the urban poor — tired, dignified, and painted by a man the world only knew as a cartoonist.',
+  heroImage: ART_IMG.daumierCarriage,
+  heroCredit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York',
+  heroAspect: 1.38,
+  heroFit: 'contain', // the work hero shows the WHOLE ~1.38:1 canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: 'c.1862–64', k: 'Painted' },
+    { v: '2′1¾″ × 2′11½″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'rail', eyebrow: 'Paris · the railway age', dateLabel: 'c.1862', title: 'The cheapest seats on a moving machine', blurb: 'A new machine — the railway — has thrown the poor of a whole city into one crowded box. France’s most famous cartoonist quietly picks up a brush to paint it.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: 'c.1862–64', title: 'Three people, and a hundred behind them', blurb: 'A nursing mother, an old woman with a basket, a sleeping boy — and rows of anonymous passengers dissolving into the dim car. Dignity, and no pity at all.', progress: 0.34 },
+    { id: 'unfinished', eyebrow: 'Behind the paint', dateLabel: 'c.1862–64', title: 'The grid he never painted over', blurb: 'This canvas was abandoned half-done — so the ruled grid and the drawing underneath show right through. A rare X-ray into exactly how a picture was built.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it’s doing', dateLabel: '1860s', title: 'Realism gets on the train', blurb: 'Courbet painted the village, Millet the fields. Daumier paints the modern city — its crowds, its anonymity, its tenderness — without a drop of sentimentality.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Famous as a cartoonist, blind, and broke', blurb: 'Barely sold in his lifetime, going blind in a borrowed house, Daumier dies poor in 1879. Then an American collector buys this canvas — and leaves it to New York.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: 'c.1862–64', who: 'Honoré Daumier (the artist)', place: 'Paris / Valmondois', note: 'Painted but left unfinished — the canvas still carries the ruled transfer grid. Daumier’s oils barely sold in his lifetime; he was known as a newspaper cartoonist, and this picture stayed an unsold studio canvas.', price: null },
+    { year: '1879–1913', who: 'The art market, after Daumier’s death', place: 'France / New York', note: 'Daumier died in poverty in 1879. The exact chain of hands the canvas passed through before reaching America is not securely documented; what is certain is where it landed.', price: null },
+    { year: '1913', who: 'Louisine Havemeyer (wife of sugar magnate H. O. Havemeyer)', place: 'New York', note: 'The great American collector — guided for years by her friend Mary Cassatt, the American painter who championed French Impressionism — buys the painting, reportedly for about $40,000, bringing it into the collection that did more than any other to put modern French painting in New York.', price: '~$40,000' },
+    { year: '1929', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'On Louisine Havemeyer’s death the canvas enters the Met by bequest, as part of the H. O. Havemeyer Collection (Bequest of Mrs. H. O. Havemeyer, 1929). In the collection ever since.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Daumier', role: 'The cartoonist who painted', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { name: 'The nursing mother', role: 'Front bench, left', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'The old woman', role: 'Front bench, center', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'The sleeping boy', role: 'Front bench, right', palette: ['#53412c', '#2a1f14', '#0c0805'] },
+    { name: 'Louisine Havemeyer', role: 'Brought it to New York', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'Camille Corot', role: 'The friend who kept him afloat', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The mother and the baby', where: 'Front bench, far left', detail: 'A young woman sits at the left end of the bench, head bowed, cradling an infant wrapped in her lap. Hers is one of the most tenderly worked passages in the whole picture — lit softly by the windows behind her — and it is doing the quiet emotional work of the painting: ordinary, unposed care, given the same weight as anything else in the frame.' },
+    { label: 'The old woman and her basket', where: 'Front bench, dead center', detail: 'The most finished face in the painting belongs to the old woman in the middle, framed by a pale cream head-wrap — a hood of light cloth that is the single brightest passage in this dark picture, so your eye lands on her first of all. Beneath it: a face deeply lined, eyes forward, exhausted, both hands folded over the handle of a woven wicker basket on her lap. She is not grieving or pleading or telling a story — she is just sitting, the way people sit on a long ride, and that flat ordinariness is exactly the point.' },
+    { label: 'The sleeping boy', where: 'Front bench, right end', detail: 'At the right end of the bench a boy has slumped over asleep, head dropped, the way children give out on a long journey. A dark box or chest — luggage — sits in the lower-right corner beside him. He completes the little family unit on the front bench: youth, motherhood, and age, three ages of the poor, lined up on one hard seat.' },
+    { label: 'The crowd, dissolving backward', where: 'The whole upper register, behind the bench', detail: 'Behind the front three, rows of anonymous passengers — men in tall hats and caps, women in bonnets — recede into the dim car, and the farther back they go the sketchier and more ghostly the faces become (the unfinished paint exaggerates it). Nobody back there is an individual; they are the crowd, the mass of the modern city packed into a moving box.' },
+    { label: 'The two windows', where: 'Upper left', detail: 'Two pale rectangles of window are the only real light in the carriage. Everything else is brown, low, and enclosed. The light falls forward onto the three figures on the front bench and leaves the back of the car in murk — which is why your eye lands on the mother, the old woman, and the boy before it even registers the crowd.' },
+    { label: 'The grid he never painted over', where: 'Across the unfinished passages — clearest in the upper-left window area', detail: 'Look closely and you can see straight ruled lines and the drawn contours of figures showing right through the thin paint. This is the squaring grid — the scaffolding an artist drew to copy and enlarge a composition accurately — which was supposed to vanish under the finished paint. The picture was abandoned before that happened, so the bones of the method are left bare on the surface.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Realism', mode: 'art' }, { label: 'Daumier’s railway lithographs', mode: 'art' }, { label: 'Dutch genre painting', mode: 'art' } ],
+    children: [ { label: 'Social Realism', mode: 'art' }, { label: 'Ashcan School', mode: 'art' }, { label: 'Impressionism', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Horse Fair (Rosa Bonheur, 1852–55) — ArtWorkContent
+// Drop into src/lib/art-content.ts (matches the BURIAL shape exactly)
+// and register in ART_WORK_CONTENT. Dimensions FT/IN only, never cm.
+// ─────────────────────────────────────────────────────────────
+export const HORSE_FAIR: ArtWorkContent = {
+  id: 'horse-fair',
+  name: 'The Horse Fair',
+  shortName: 'The Horse Fair',
+  year: 1855,
+  artist: 'Rosa Bonheur',
+  artistId: 'bonheur',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '8 ft × 16 ft 7½ in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'Gift of Cornelius Vanderbilt, 1887',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 6, total: 9 },
+  hook: 'Eight feet tall and over sixteen wide — the scale the Salon kept for the death of kings, spent on draft horses at a Paris market.',
+  heroImage: ART_IMG.bonheurHorseFair,
+  heroCredit: 'Bonheur, The Horse Fair, 1852–55 · The Metropolitan Museum of Art, New York',
+  heroAspect: 2.07,
+  heroFit: 'contain', // the hero shows the WHOLE ~2.07:1 panorama, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1852–55', k: 'Painted' },
+    { v: '8′ × 16′7″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'market', eyebrow: 'Paris · 1850–52', dateLabel: '1850–52', title: 'The market and the trousers', blurb: 'A working animal-painter wants the rawest horse subject in Paris — so she gets a police permit to dress as a man and spends eighteen months sketching the Boulevard de l’Hôpital horse market.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1852–55', title: 'Eight feet of muscle and dust', blurb: 'Read the painting itself: the dark horse rearing left of center, the rolling grey Percherons beside it, the twisting mounted handler, the left-to-right churn of horse and handler, the clouds of dust, the plane trees, the far dome of the Salpêtrière.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'The Salon · 1853', dateLabel: '1853', title: 'Horses at the scale of kings', blurb: 'The Salon of 1853 meets a market scene blown up to history-painting size — and instead of recoiling, the critics cheer. Instant, international fame.', progress: 0.58 },
+    { id: 'bonheur', eyebrow: 'Rosa Bonheur', dateLabel: '1822–1899', title: 'The most famous woman painter alive', blurb: 'The animalière who out-earned the men, ran her own château and menagerie, was decorated by the Empress, and lived four decades with Nathalie Micas. A working professional, not a curiosity.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1854–today', title: 'Afterlife', blurb: 'Gambart tours it through Britain and has it engraved for the masses; Vanderbilt buys it in 1887 and gives it to New York; a half-size sister hangs in London. The picture that conquered two continents.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1852–1854', who: 'Rosa Bonheur (the artist)', place: 'Paris', note: 'Painted 1852–55; first shown at the Salon of 1853, then finished and reworked. Bonheur sold it to her dealer in 1854.', price: null },
+    { year: '1854–1857', who: 'Ernest Gambart (art dealer)', place: 'London', note: 'The Belgian-born London dealer buys it from the artist for 40,000 French francs, tours it through Britain as a paying attraction, and has it engraved for mass sale — turning one canvas into a print empire.', price: '40,000 francs' },
+    { year: '1857–1866', who: 'William Parkinson Wright', place: 'England', note: 'Passes to the English collector Wright after Gambart’s tour and reproduction campaign.', price: null },
+    { year: '1866–1887', who: 'Alexander Turney Stewart', place: 'New York', note: 'Crosses the Atlantic into the collection of A. T. Stewart, the New York department-store magnate — one of the richest men in America.', price: null },
+    { year: '1887', who: 'Cornelius Vanderbilt II', place: 'New York', note: 'Buys it for $53,000 at the estate auction of Stewart’s widow — and immediately gives it to the Metropolitan Museum of Art, just steps from his own Fifth Avenue mansion.', price: '$53,000', museum: true },
+    { year: '1887–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Gift of Cornelius Vanderbilt, 1887 (accession 87.25). On permanent view ever since — one of the most-visited paintings in the building.', price: 'gift to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'Rosa Bonheur', role: 'The painter', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Nathalie Micas', role: 'Lifelong companion', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+    { name: 'Ernest Gambart', role: 'Dealer; toured + engraved it', palette: ['#6b6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'The dark horse rearing, and the rolling greys', where: 'Center: a near-black horse left of center, the pale greys to its right', detail: 'The sharpest spike of motion is the dark, near-black horse just left of center, reared straight up off its front hooves with its head flung back and forelegs clawing the air — the single animal that has truly gone vertical. Right beside it, the brightest mass on the whole canvas: two big, pale, dappled-grey draft horses — the heavy French farm breed called a Percheron — not rearing but wheeling and rolling at a hard trot, the most fully-lit thing in the picture. The dark horse gives the rear; the greys give the unstoppable bulk. Bonheur gave the center of a sixteen-foot painting — the spot a history painter saved for a hero or a saint — to panicking workhorses.' },
+    { label: 'The diagonal stampede', where: 'Running left-to-right across the whole canvas', detail: 'Nothing in this picture stands still. The horses and their handlers pour across the canvas in a single churning diagonal, surging from the upper left down toward the lower right — a dark horse rearing at left of center, a chestnut straining beside it, the greys wheeling in the middle, more animals crowding off to the right. There is no calm row of figures the way there is in a posed group portrait; there is a moving river of muscle, and you read it the way you’d read a real crowd of spooked animals: fast, and a little alarmed.' },
+    { label: 'The mounted handler, twisting in his saddle', where: 'Center, on horseback, in a blue smock', detail: 'The figure that really arrests you sits right in the thick of it: a mounted handler in a blue smock, wrenched around in his saddle, one arm reaching back, his whole torso fighting the pull of the animals he is trying to hold. He is the human pivot of the picture — the still axis the stampede turns around — and his strain is painted as carefully as the horses’. Down at the lower left a second handler in a red cap throws his weight against a halter, the one warm spot of color low in the churn; others on foot are dwarfed by the beasts. None of them are posing; they are working, and mostly losing. The painting is about labor as much as horseflesh — the sheer physical job of moving a ton of frightened animal down a public street. (By a long-repeated tradition, that figure on horseback is sometimes said to be Bonheur’s own self-portrait — a popular suggestion, not a proven fact.)' },
+    { label: 'The dust', where: 'Low, around the horses’ legs and hooves', detail: 'Down at the bottom, around the churning hooves, the ground dissolves into clouds of pale, kicked-up dust. It’s painted loosely, almost smudged, so the legs of the horses seem to vanish into it — which is exactly how a real stampeding crowd looks, the footing lost in its own grit. The dust is the painting’s proof of motion: you don’t just see the horses move, you see what their movement throws into the air.' },
+    { label: 'The far dome of the Salpêtrière', where: 'Far left, low on the horizon, a faint grey dome', detail: 'Off in the distance at the upper left, almost lost behind the haze and the trees, sits a pale grey dome and turret. That is the chapel dome of the Salpêtrière — a sprawling old Paris hospital and asylum on the Left Bank — and it fixes the scene to a real place: the horse market really was held just outside it, on the Boulevard de l’Hôpital. This is not an invented arena. It’s a specific Tuesday on a specific Paris street.' },
+    { label: 'The wall of plane trees', where: 'Across the whole background, behind the horses', detail: 'Behind the surging animals runs a long screen of trees — the plane trees that lined the boulevard — closing off the back of the picture in a band of dusty green and brown under a heavy, weather-blown sky. They do the job the cliff does in a Courbet: they stop the eye from escaping into deep distance and press the whole stampede forward, up against you, so the horses feel like they’re coming off the canvas and into your lap.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'George Stubbs', mode: 'art' },
+      { label: 'Géricault’s horses', mode: 'art' },
+      { label: 'The Parthenon frieze', mode: 'art' },
+    ],
+    children: [
+      { label: 'Animal painting’s rise', mode: 'art' },
+      { label: 'Women in the academy', mode: 'civ' },
+      { label: 'The reproduction print boom', mode: 'civ' },
+    ],
+  },
+}
+
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

@@ -1,0 +1,79 @@
+// The Angelus (Jean-François Millet, 1857–59) — ArtWorkContent
+// Author draft for the art-content pipeline. Matches the BURIAL shape in src/lib/art-content.ts.
+// Facts verified in angelus-factpack.md (fact ledger). Dimensions ft/in only (house rule).
+// Defers movement-level material to the REALISM movement object; goes deeper on THIS work.
+// Cross-references the Millet siblings SOWER (1850) and GLEANERS (1857); does not contradict them.
+
+export const ANGELUS: ArtWorkContent = {
+  id: 'angelus',
+  name: 'The Angelus',
+  shortName: 'The Angelus',
+  year: 1859,
+  artist: 'Jean-François Millet',
+  artistId: 'millet',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 9⅞ in × 2 ft 2 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bequeathed by Alfred Chauchard, 1910',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 8, total: 9 },
+  hook: 'Two peasants stop digging potatoes to pray at the evening bell — tiny under an enormous sky — and the small canvas becomes one of the most reproduced images of the century.',
+  heroImage: ART_IMG.milletAngelus,
+  heroCredit: 'Millet, The Angelus, 1857–59 · Musée d’Orsay, Paris',
+  heroAspect: 1.19,
+  heroFit: 'contain', // a small ~1.19:1 canvas — show the whole field + sky, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1857–59', k: 'Painted' },
+    { v: '1′9⅞″ × 2′2″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'bell', eyebrow: 'The evening bell', dateLabel: '1857', title: 'The bell that stops the work', blurb: 'What the Angelus actually is — a prayer rung from the church three times a day — and why a memory of his grandmother stopping work at the sound of it is the seed of this whole small painting.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1857–59', title: 'Two bowed heads under an enormous sky', blurb: 'Slow down and look: the man with his hat in his hands, the woman with her hands clasped, the potato basket, the fork in the dirt, the wheelbarrow, the speck of a church on the horizon — and the vast dusk sky pressing it all flat.', progress: 0.34 },
+    { id: 'reception', eyebrow: 'A quiet start', dateLabel: '1857–1870s', title: 'The commission that fell through', blurb: 'It began as a job for a Boston collector who never collected it, under a different title about a potato harvest. The fame came slowly, and then all at once.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it means', dateLabel: '1850s', title: 'Piety, or poverty, or both', blurb: 'Millet said it came from remembering his grandmother praying in the fields. The world turned it into a sentimental devotional postcard. The gap between those two readings is the whole argument about this picture.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1889–today', title: 'Afterlife', blurb: 'A trans-Atlantic bidding war, a record price, a trip to America and back; Dalí’s lifelong conviction that the basket hid a child’s coffin; the most reproduced image of its century; and the long road to the Orsay.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1857–59', who: 'Jean-François Millet (the artist)', place: 'Barbizon', note: 'Painted at Barbizon. Begun as a commission for the Boston collector Thomas Gold Appleton under the title “Prayer for the Potato Crop”; Appleton never collected it, so Millet reworked the canvas — by most accounts adding the small church tower on the horizon — retitled it The Angelus, and sold it on the open market.', price: null },
+    { year: '1860s–1880s', who: 'A chain of private collectors', place: 'France', note: 'As Millet’s reputation soared in the years after his death in 1875, the once-modest canvas passed through a series of private owners at steadily climbing prices, eventually entering the collection of the French copper magnate Eugène Secrétan.', price: null },
+    { year: '1 July 1889', who: 'Secrétan sale → American Art Association', place: 'Paris', note: 'At the auction of Secrétan’s collection (Galerie Sedelmeyer, timed to the 1889 Exposition Universelle), a bidding war broke out between Antonin Proust, fighting to keep it for the Louvre, and the American Art Association of New York. Bidding reached 553,000 francs. France nominally won — but the government refused to fund the purchase, so the painting passed to the under-bidding Americans and was shipped to the United States.', price: '553,000 francs' },
+    { year: '1889–1890', who: 'American Art Association', place: 'New York / United States', note: 'The Association exhibited the painting in America, where it drew large, paying crowds — a single small canvas treated as a touring marvel.', price: null },
+    { year: '1890', who: 'Alfred Chauchard', place: 'Paris', note: 'The Paris department-store magnate Alfred Chauchard (a founder of the Grands Magasins du Louvre) bought it back for France — for about 800,000 francs (some sources say 750,000) — returning the painting across the Atlantic.', price: '≈800,000 francs' },
+    { year: '1910', who: 'Musée du Louvre', place: 'Paris', note: 'Chauchard bequeathed his collection to the State; after his death in 1909 the gift was formally accepted into the Louvre on 15 January 1910 — the picture given, free, to the nation that had failed to buy it at auction.', price: 'bequest to the nation', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'When the Musée d’Orsay opens in the converted Gare d’Orsay railway station, the Louvre’s 19th-century collection crosses the river to fill it. The Angelus goes with it, and is on permanent view.', price: 'never sold since', museum: true },
+  ],
+  figures: [
+    { name: 'Millet', role: 'The peasant painter', palette: ['#a8915a', '#5a4a2a', '#1a1410'] },
+    { name: 'The two peasants', role: 'The subject; praying at dusk', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+    { name: 'Alfred Chauchard', role: 'Bought it back for France; left it to the nation', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Salvador Dalí', role: 'Obsessed; saw a hidden coffin', palette: ['#5a4a6a', '#322844', '#100c18'] },
+    { name: 'Van Gogh', role: 'Worshipped Millet; copied it', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+  ],
+  annotations: [
+    { label: 'The man, hat in his hands', where: 'Left of center, standing, head bowed', detail: 'The man stands stock-still with his head dropped and his hat taken off and held in both hands at his waist — the exact posture Millet remembered from his grandmother, who prayed “with cap in hand.” He has interrupted himself mid-job; the prayer simply stopped him where he stood. His face is barely legible in the dusk, which is the point: this is not a portrait of a particular pious man but the gesture of stopping itself.' },
+    { label: 'The woman, hands clasped', where: 'Right of center, standing, head bowed', detail: 'She faces him across the basket, head bent lower than his, her hands pressed together at her chest in the plainest gesture of prayer there is. A white cap, a dark dress, a worn apron. The two of them make a quiet matched pair — both stilled, both bowed, both anonymous — and the small gap of empty field between them is where the whole hush of the picture lives.' },
+    { label: 'The basket of potatoes', where: 'On the ground between them, at their feet', detail: 'A low woven basket of potatoes sits in the turned earth between the two figures — the day’s dug crop, set down the instant the bell rang. It is the most ordinary object imaginable, and it became the most argued-over: this is the basket Salvador Dalí would later insist was painted over a small child’s coffin (see the afterlife chapter). For now, it is potatoes.' },
+    { label: 'The fork, the barrow, the dropped tools', where: 'A digging fork upright at lower left; a wheelbarrow and sacks at the right edge', detail: 'Down at the lower left a digging fork stands jammed upright in the broken ground, exactly where the man left off; off to the right, half in shadow behind the woman, sit a wheelbarrow and sacks already loaded with the harvest. Together with the basket they finish the inventory of the labor — fork, basket, barrow, sacks, the unglamorous gear of a hard day digging potatoes — and every piece of it is dropped, not packed. That is how Millet tells you, without a word, that work was happening here a second ago and will resume the second the prayer is done.' },
+    { label: 'The church on the horizon', where: 'On the far horizon, slightly right of center, behind and between the two figures', detail: 'Look hard at the flat far horizon and you will find it: a tiny church spire, no taller than a pin, on the far horizon, slightly right of center, behind and between the two figures. That speck is the source of everything — the bell ringing from it is what stopped these two where they stand. By most accounts Millet added this little tower when he reworked the painting, and it is the single detail that turns a potato field into a prayer.' },
+    { label: 'The enormous sky', where: 'The top two-thirds of the canvas', detail: 'Most of the painting is sky — a vast, pale, dusk-flushed expanse that fills roughly the top two-thirds and presses the two small bodies down into a thin band of dark earth at the bottom. There are no mountains, no drama, no opening heaven; just the huge low evening pressing on two tiny figures, which is exactly how small a person feels alone in a field when the light is going.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'The Angelus prayer', mode: 'civ' },
+      { label: 'Barbizon landscape', mode: 'art' },
+      { label: 'The Gleaners', mode: 'art' },
+      { label: 'The Sower', mode: 'art' },
+    ],
+    children: [
+      { label: 'Vincent van Gogh', mode: 'art' },
+      { label: 'Salvador Dalí', mode: 'art' },
+      { label: 'Mass-reproduced art', mode: 'civ' },
+    ],
+  },
+}

@@ -1,0 +1,74 @@
+// ─────────────────────────────────────────────────────────────
+// The Horse Fair (Rosa Bonheur, 1852–55) — ArtWorkContent
+// Drop into src/lib/art-content.ts (matches the BURIAL shape exactly)
+// and register in ART_WORK_CONTENT. Dimensions FT/IN only, never cm.
+// ─────────────────────────────────────────────────────────────
+export const HORSE_FAIR: ArtWorkContent = {
+  id: 'horse-fair',
+  name: 'The Horse Fair',
+  shortName: 'The Horse Fair',
+  year: 1855,
+  artist: 'Rosa Bonheur',
+  artistId: 'bonheur',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '8 ft × 16 ft 7½ in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'Gift of Cornelius Vanderbilt, 1887',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 6, total: 9 },
+  hook: 'Eight feet tall and over sixteen wide — the scale the Salon kept for the death of kings, spent on draft horses at a Paris market.',
+  heroImage: ART_IMG.bonheurHorseFair,
+  heroCredit: 'Bonheur, The Horse Fair, 1852–55 · The Metropolitan Museum of Art, New York',
+  heroAspect: 2.07,
+  heroFit: 'contain', // the hero shows the WHOLE ~2.07:1 panorama, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: '1852–55', k: 'Painted' },
+    { v: '8′ × 16′7″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'market', eyebrow: 'Paris · 1850–52', dateLabel: '1850–52', title: 'The market and the trousers', blurb: 'A working animal-painter wants the rawest horse subject in Paris — so she gets a police permit to dress as a man and spends eighteen months sketching the Boulevard de l’Hôpital horse market.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '1852–55', title: 'Eight feet of muscle and dust', blurb: 'Read the painting itself: the dark horse rearing left of center, the rolling grey Percherons beside it, the twisting mounted handler, the left-to-right churn of horse and handler, the clouds of dust, the plane trees, the far dome of the Salpêtrière.', progress: 0.34 },
+    { id: 'salon', eyebrow: 'The Salon · 1853', dateLabel: '1853', title: 'Horses at the scale of kings', blurb: 'The Salon of 1853 meets a market scene blown up to history-painting size — and instead of recoiling, the critics cheer. Instant, international fame.', progress: 0.58 },
+    { id: 'bonheur', eyebrow: 'Rosa Bonheur', dateLabel: '1822–1899', title: 'The most famous woman painter alive', blurb: 'The animalière who out-earned the men, ran her own château and menagerie, was decorated by the Empress, and lived four decades with Nathalie Micas. A working professional, not a curiosity.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1854–today', title: 'Afterlife', blurb: 'Gambart tours it through Britain and has it engraved for the masses; Vanderbilt buys it in 1887 and gives it to New York; a half-size sister hangs in London. The picture that conquered two continents.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1852–1854', who: 'Rosa Bonheur (the artist)', place: 'Paris', note: 'Painted 1852–55; first shown at the Salon of 1853, then finished and reworked. Bonheur sold it to her dealer in 1854.', price: null },
+    { year: '1854–1857', who: 'Ernest Gambart (art dealer)', place: 'London', note: 'The Belgian-born London dealer buys it from the artist for 40,000 French francs, tours it through Britain as a paying attraction, and has it engraved for mass sale — turning one canvas into a print empire.', price: '40,000 francs' },
+    { year: '1857–1866', who: 'William Parkinson Wright', place: 'England', note: 'Passes to the English collector Wright after Gambart’s tour and reproduction campaign.', price: null },
+    { year: '1866–1887', who: 'Alexander Turney Stewart', place: 'New York', note: 'Crosses the Atlantic into the collection of A. T. Stewart, the New York department-store magnate — one of the richest men in America.', price: null },
+    { year: '1887', who: 'Cornelius Vanderbilt II', place: 'New York', note: 'Buys it for $53,000 at the estate auction of Stewart’s widow — and immediately gives it to the Metropolitan Museum of Art, just steps from his own Fifth Avenue mansion.', price: '$53,000', museum: true },
+    { year: '1887–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Gift of Cornelius Vanderbilt, 1887 (accession 87.25). On permanent view ever since — one of the most-visited paintings in the building.', price: 'gift to the museum', museum: true },
+  ],
+  figures: [
+    { name: 'Rosa Bonheur', role: 'The painter', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Nathalie Micas', role: 'Lifelong companion', palette: ['#7a6a44', '#3e3320', '#12100a'] },
+    { name: 'Ernest Gambart', role: 'Dealer; toured + engraved it', palette: ['#6b6354', '#39322a', '#120f0c'] },
+  ],
+  annotations: [
+    { label: 'The dark horse rearing, and the rolling greys', where: 'Center: a near-black horse left of center, the pale greys to its right', detail: 'The sharpest spike of motion is the dark, near-black horse just left of center, reared straight up off its front hooves with its head flung back and forelegs clawing the air — the single animal that has truly gone vertical. Right beside it, the brightest mass on the whole canvas: two big, pale, dappled-grey draft horses — the heavy French farm breed called a Percheron — not rearing but wheeling and rolling at a hard trot, the most fully-lit thing in the picture. The dark horse gives the rear; the greys give the unstoppable bulk. Bonheur gave the center of a sixteen-foot painting — the spot a history painter saved for a hero or a saint — to panicking workhorses.' },
+    { label: 'The diagonal stampede', where: 'Running left-to-right across the whole canvas', detail: 'Nothing in this picture stands still. The horses and their handlers pour across the canvas in a single churning diagonal, surging from the upper left down toward the lower right — a dark horse rearing at left of center, a chestnut straining beside it, the greys wheeling in the middle, more animals crowding off to the right. There is no calm row of figures the way there is in a posed group portrait; there is a moving river of muscle, and you read it the way you’d read a real crowd of spooked animals: fast, and a little alarmed.' },
+    { label: 'The mounted handler, twisting in his saddle', where: 'Center, on horseback, in a blue smock', detail: 'The figure that really arrests you sits right in the thick of it: a mounted handler in a blue smock, wrenched around in his saddle, one arm reaching back, his whole torso fighting the pull of the animals he is trying to hold. He is the human pivot of the picture — the still axis the stampede turns around — and his strain is painted as carefully as the horses’. Down at the lower left a second handler in a red cap throws his weight against a halter, the one warm spot of color low in the churn; others on foot are dwarfed by the beasts. None of them are posing; they are working, and mostly losing. The painting is about labor as much as horseflesh — the sheer physical job of moving a ton of frightened animal down a public street. (By a long-repeated tradition, that figure on horseback is sometimes said to be Bonheur’s own self-portrait — a popular suggestion, not a proven fact.)' },
+    { label: 'The dust', where: 'Low, around the horses’ legs and hooves', detail: 'Down at the bottom, around the churning hooves, the ground dissolves into clouds of pale, kicked-up dust. It’s painted loosely, almost smudged, so the legs of the horses seem to vanish into it — which is exactly how a real stampeding crowd looks, the footing lost in its own grit. The dust is the painting’s proof of motion: you don’t just see the horses move, you see what their movement throws into the air.' },
+    { label: 'The far dome of the Salpêtrière', where: 'Far left, low on the horizon, a faint grey dome', detail: 'Off in the distance at the upper left, almost lost behind the haze and the trees, sits a pale grey dome and turret. That is the chapel dome of the Salpêtrière — a sprawling old Paris hospital and asylum on the Left Bank — and it fixes the scene to a real place: the horse market really was held just outside it, on the Boulevard de l’Hôpital. This is not an invented arena. It’s a specific Tuesday on a specific Paris street.' },
+    { label: 'The wall of plane trees', where: 'Across the whole background, behind the horses', detail: 'Behind the surging animals runs a long screen of trees — the plane trees that lined the boulevard — closing off the back of the picture in a band of dusty green and brown under a heavy, weather-blown sky. They do the job the cliff does in a Courbet: they stop the eye from escaping into deep distance and press the whole stampede forward, up against you, so the horses feel like they’re coming off the canvas and into your lap.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'George Stubbs', mode: 'art' },
+      { label: 'Géricault’s horses', mode: 'art' },
+      { label: 'The Parthenon frieze', mode: 'art' },
+    ],
+    children: [
+      { label: 'Animal painting’s rise', mode: 'art' },
+      { label: 'Women in the academy', mode: 'civ' },
+      { label: 'The reproduction print boom', mode: 'civ' },
+    ],
+  },
+}

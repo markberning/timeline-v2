@@ -1,0 +1,184 @@
+// ─────────────────────────────────────────────────────────────
+// The Third-Class Carriage (Daumier, c.1862–64) — the five chapters
+// Drop into art-section-reader.tsx; register the five functions in
+// NARRATIVES.carriage. Matches the BURIAL JSX exactly (SectionHeader,
+// DropCap, proseStyle, <strong>/<em>, <article style={{ padding: ... }}>,
+// `first` on the opener). No inline figures. HTML entities for quotes.
+// Section ids: rail · looking · unfinished · meaning · afterlife.
+// ─────────────────────────────────────────────────────────────
+
+function TcRail({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · the railway age" title="A new machine for the poor to sit in" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or most of human history, a poor person travelled the way their grandparents had: on foot, or not at all. Then, in the space of about thirty years, France laced itself with iron. The <strong>railway</strong> — steam engines hauling long strings of carriages along metal tracks — went from a curiosity in the 1830s to the ordinary spine of the country by the 1860s, and suddenly a laborer, a market-woman, a tired mother with a baby could buy a ticket and sit in a moving box with a hundred strangers, going somewhere. It is hard, now, to feel how strange that was. A whole new kind of human experience had been invented: being crammed together with people you will never see again, in transit, going nowhere in particular together. That experience is the subject of this painting.
+      </p>
+      <p style={proseStyle}>
+        And it had a price tier. Railways sold tickets in three grades. <strong>First class</strong> meant an upholstered, enclosed compartment — padding, privacy, comfort. <strong>Second class</strong> was plainer. <strong>Third class</strong> — the title of this picture — was the cheapest seat there was: <strong>hard wooden benches</strong>, the most crowded car, sometimes barely sheltered, the carriage where the poor rode because it was all they could afford. To name a painting <em>The Third-Class Carriage</em> in 1860s France was to point, very specifically, at the bottom of the new system. Everyone knew exactly which seats those were, and who sat in them.
+      </p>
+
+      <SectionHeader accent={accent} label="The cartoonist" title="The man the public did NOT know as a painter" />
+      <p style={proseStyle}>
+        Now the strange part: the man who painted this was, to all of France, not a painter at all. He was a <em>cartoonist</em>. <strong>Honoré Daumier</strong> (1808–1879) earned his living for some forty years drawing for the satirical newspapers — <em>La Caricature</em> and <em>Le Charivari</em> — and he was magnificent at it, turning out more than <strong>four thousand lithographs</strong> over his career. A <strong>lithograph</strong> (the cheap mass-printing method of the day: you draw with a greasy crayon on a flat slab of limestone, then run off hundreds of identical copies) was the engine of the illustrated press, and Daumier was its great talent — the sharpest pen in Paris, skewering politicians, lawyers, landlords, the smug and the powerful, week after week, for decades. If you lived in nineteenth-century France and you knew the name Daumier, you knew it from the newspaper, the way you might know a great editorial cartoonist today.
+      </p>
+      <p style={proseStyle}>
+        That fame came at a cost. As a young man in <strong>1831</strong> he drew his most notorious cartoon, <strong>Gargantua</strong> — the king, Louis-Philippe, as a bloated giant on a throne, swallowing the people&rsquo;s taxes shoveled up a ramp into his mouth and excreting favors to his cronies — and the regime threw him in jail for it (six months, by the standard account). That drawing has its own deep read one shelf over in this app; it is the Daumier you are <em>supposed</em> to know, the fearless caricaturist. The man who quietly painted <em>The Third-Class Carriage</em> in oil is the same person, twenty years on, doing something almost nobody saw him do.
+      </p>
+
+      <SectionHeader accent={accent} label="The brush nobody watched" title="A private second life in oil" />
+      <p style={proseStyle}>
+        Because here is the thing that makes Daumier&rsquo;s paintings so strange and so moving: he made them almost in secret, and almost nobody bought them. From the 1840s onward he painted seriously — small, dark, hand-worked oils of the people he saw every day: laundresses hauling washing up the riverbank, lawyers preening in court, families on the move, crowds in the street. But these were not his job. His job was the newspaper. The paintings piled up in the studio, exhibited rarely, sold barely at all. The public that adored Daumier the cartoonist had no idea that Daumier the painter existed. He was, in effect, running a second, invisible career in oil paint — the one that, a century later, would turn out to matter most.
+      </p>
+      <p style={proseStyle}>
+        He did not arrive at the railway cold, either. Daumier had been drawing train travel for years in the newspaper — a whole lithograph series on <strong>the railways</strong> (<em>Les Chemins de fer</em>) ran in <em>Le Charivari</em> across the 1840s and 50s, the modern machine treated as the comic, crowded, slightly absurd new fact of life it was. The painting grew out of that long looking. By the early 1860s he had moved the third-class carriage from the funny pages onto a canvas, and stopped joking. What had been a gag about the crush and chaos of modern travel became, in oil, something quiet and grave — a picture of the people in those cheap seats, painted as if they mattered. The next chapter is what that looks like.
+      </p>
+    </article>
+  )
+}
+
+function TcLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A box of brown, and a fall of light" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the dark, because the painting does. <em>The Third-Class Carriage</em> is not large — about <strong>two feet tall and three feet wide</strong> (65 by 90 centimeters), a picture you could carry under one arm — and almost the whole of it is a low, brown, enclosed space, the inside of a railway car packed shoulder to shoulder. The only real light comes from <strong>two pale windows in the upper left</strong>, two bright rectangles cut into the murk. That light falls forward, onto the front bench, and it decides everything: your eye goes straight to the three people it lands on before you have even registered the crowd behind them. Daumier has lit his stage so that three of the poorest passengers in France are, for a moment, the most important people in the room.
+      </p>
+
+      <SectionHeader accent={accent} label="The front bench" title="Three ages of the poor, on one hard seat" />
+      <p style={proseStyle}>
+        Look at the front bench, left to right, because it is composed with great care. At the left sits a <strong>young mother</strong>, head bowed, <strong>cradling an infant</strong> wrapped against her lap. Hers is one of the most tenderly painted passages in the picture — the soft downturn of the head, the curve of the arm around the child — and it is doing the painting&rsquo;s quiet emotional work without raising its voice. This is not a Madonna, not a symbol of Motherhood with a capital M. It is a tired woman holding her baby on a long ride, painted as though that were as worth painting as any saint.
+      </p>
+      <p style={proseStyle}>
+        In the center — the most finished face in the whole canvas — sits an <strong>old woman</strong>. She is the one you remember, and the first thing your eye actually finds is the <strong>pale cream head-wrap</strong> framing her face — a hood or kerchief of light cloth that is the single brightest thing in this dark painting. In a box of browns and shadow, that soft patch of near-white pulls the eye straight to her before anything else, and Daumier knew it: he made the lightest passage in the picture the head of his most important figure. Beneath it he has worked her face hardest — deeply lined, jaw set, eyes forward and a thousand miles away, the face of someone who has done a great deal of waiting in her life and is doing some more now. Her hands are folded over the handle of a <strong>woven wicker basket</strong> on her lap — whatever she owns or is carrying, kept close. She is not grieving, not pleading, not telling a story. She is simply <em>sitting</em>, the way people actually sit on a long journey, and Daumier paints that flat, unremarkable endurance as if it were the most dignified thing in the world. Which, the painting quietly insists, it is.
+      </p>
+      <p style={proseStyle}>
+        At the right end of the bench, a <strong>boy has fallen asleep</strong>, slumped sideways, head dropped — the way children always give out somewhere in the middle of a trip. A dark box or chest, the family&rsquo;s luggage, sits in the lower-right corner beside him. Now stand back and read the bench as a whole: a baby at the breast, a mother, an old woman, a sleeping child. It is the <strong>three ages of a poor family</strong> — infancy, working adulthood, old age — lined up across a single hard wooden seat. Daumier did not have to spell out a moral; he just arranged the figures so that the whole arc of a hard life rides together on one bench.
+      </p>
+
+      <SectionHeader accent={accent} label="The crowd behind" title="A hundred faces dissolving into the dark" />
+      <p style={proseStyle}>
+        Then look up and back, into the rest of the car, and watch the painting do its most modern thing. Behind the front three sit <strong>rows and rows of other passengers</strong> — men in tall dark hats and workmen&rsquo;s caps, women in bonnets — and the farther back they go, the less they are. The faces near the front bench are still people; a little deeper in they become sketches; deeper still they are smudges and silhouettes, a few brushstrokes suggesting a head, a shoulder, the brim of a hat. By the back of the car they have dissolved almost entirely into the brown dark. (The painting is unfinished, which sharpens the effect — but the design is doing it on purpose.) The man directly behind the mother, in a tall dark hat at the left, is little more than a black shape.
+      </p>
+      <p style={proseStyle}>
+        This is the heart of the picture&rsquo;s subject, and it is a brand-new subject: <strong>anonymity</strong>. These people are strangers. They did not choose each other; the railway threw them together; they will get off and never meet again. Nobody in the back of that car is anybody in particular — they are simply <em>the crowd</em>, the mass of the modern city, packed into a moving box. Daumier paints the front three as individuals and the rest as an undifferentiated human tide, and the contrast is the whole point. Modern life means being a specific, sitting, breathing person <em>and</em> an interchangeable unit in a crowd, both at once. No painter had quite shown that before, because before the railway, that was not yet how life felt.
+      </p>
+
+      <SectionHeader accent={accent} label="Dignity without pity" title="What the painting refuses to do" />
+      <p style={proseStyle}>
+        Here is the hardest thing to see, and the best. A painting of the poor in 1862 had two easy, expected moves available, and Daumier refuses both. He could have made them <em>pitiable</em> — gaunt, weeping, ragged, a tug at the comfortable viewer&rsquo;s conscience, the poor as a charity appeal. Or he could have made them <em>charming</em> — picturesque rustics, lovable and quaint, poverty made cozy. The nineteenth century produced oceans of both. Daumier does neither. His passengers are not victims and they are not adorable. They are just <em>people on a train</em>, tired and self-contained and getting through it, given exactly the gravity and the solid, sculptural weight he would have given a senator.
+      </p>
+      <p style={proseStyle}>
+        That refusal is the painting&rsquo;s moral spine. There is real tenderness here — you feel it in the bowed mother, in the worn old face — but it never curdles into sentimentality, never asks you to weep, never strikes a pose. Daumier simply grants the people in the cheapest seats the one thing that art had always reserved for the important: he takes them <em>seriously</em>. He paints their ordinary endurance as a subject worthy of oil paint and careful light, and he trusts you to feel its weight without being told to. Look again at the old woman&rsquo;s face. Nobody is performing for you. That is the whole achievement.
+      </p>
+    </article>
+  )
+}
+
+function TcUnfinished({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Behind the paint" title="A picture caught half-built" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the secret hiding in plain sight, and it is the reason this particular version of <em>The Third-Class Carriage</em> is the famous one: <strong>it is unfinished</strong>. Daumier started it and stopped — left it abandoned, the paint thin in places, whole passages barely worked up, the dark only roughed in. Normally an unfinished painting is just a sad fragment, a thing the artist would not have wanted you to see. But this one is unfinished in a way that turns into a gift, because Daumier was caught mid-process, and the canvas froze with all of his scaffolding still showing. You are looking at a picture you can see <em>through</em> — down to the bones of how it was made.
+      </p>
+      <p style={proseStyle}>
+        Lean in on the unfinished areas, especially up near the two windows at the left, and you will see something most paintings hide forever: <strong>straight ruled lines</strong>, a faint grid of squares, and the bare drawn contours of the figures, showing right through the thin oil. That grid is not damage and it is not decoration. It is the machinery of the painting, left bare because the paint that was supposed to cover it never arrived.
+      </p>
+
+      <SectionHeader accent={accent} label="The grid explained" title="What 'squaring for transfer' means" />
+      <p style={proseStyle}>
+        To understand what you are seeing, you need one technique, and it is a beautifully simple one that artists have used for centuries. Suppose you have a small drawing or watercolor you love, and you want to copy it accurately onto a much bigger canvas — bigger than you can just eyeball. You draw a grid of squares over the small version, and then you draw a matching grid — same number of squares, scaled up — onto the big canvas. Now you copy the picture one square at a time: whatever is in the little square here goes into the big square there. The grid keeps everything in proportion as you enlarge it. This is called <strong>squaring up</strong>, or <strong>squaring for transfer</strong>, and the grid is supposed to be the first thing you draw and the last thing you think about — you paint right over it and it disappears.
+      </p>
+      <p style={proseStyle}>
+        On the Met&rsquo;s canvas, it never disappeared. The painting is, in the museum&rsquo;s own words, &ldquo;still squared for transfer&rdquo; — Daumier had ruled his grid, drawn his figures square by square, begun laying in the paint, and then put it down before the surface was finished. So the grid is still there, faint but unmistakable, a ghost of straight lines under the people. He was almost certainly enlarging from a smaller study — most likely a <strong>watercolor</strong> of the same scene (more on that in a moment) — and we have caught him with the enlargement only half-done.
+      </p>
+
+      <SectionHeader accent={accent} label="An X-ray of the method" title="Why a flaw became the prize" />
+      <p style={proseStyle}>
+        Think about how rare this is. A finished painting is a sealed object; it shows you the result and hides the labor. To see <em>how</em> an old master actually built a picture, museums normally have to shoot it with <strong>X-rays</strong> or infrared cameras to peer beneath the top layer at the drawing underneath. Here you need no machine. Daumier&rsquo;s abandoned canvas is, in effect, a free X-ray — the underdrawing and the grid sitting right on the surface where anyone can read them. You can watch a great picture in the act of being made: the ruled scaffolding, the drawn search for each figure, the paint beginning to climb over the drawing in the most worked passages (the old woman&rsquo;s face) and not yet arriving in the least (the dark back of the car).
+      </p>
+      <p style={proseStyle}>
+        And here is the irony that makes art historians smile: this is exactly the version everyone reproduces. A perfectly finished <em>Third-Class Carriage</em> exists — it would have buried its grid like every other painting — but it is the broken, half-built one that became iconic, precisely <em>because</em> it is broken. The unfinish is not a defect to apologize for; it is the most interesting thing in the room. The painting lets you see Daumier thinking.
+      </p>
+
+      <SectionHeader accent={accent} label="One subject, many tries" title="The family of versions" />
+      <p style={proseStyle}>
+        That smaller study the grid points back to is real, and it opens up an honest complication worth knowing: there is no single <em>The Third-Class Carriage</em>. Daumier worked the subject more than once. There is a finished <strong>oil painting</strong> in the <strong>National Gallery of Canada</strong>, in Ottawa, very close in composition to this one. There is a <strong>watercolor</strong> of 1864 in the <strong>Walters Art Museum</strong> in Baltimore — commissioned by the American collector <strong>William T. Walters</strong> (the Baltimore businessman whose private collection later became that museum) as part of a set showing first-, second-, and third-class carriages — and the squaring grid on the Met&rsquo;s canvas may well have been taken straight off it. There is an even earlier <strong>oil on a wooden panel</strong> in San Francisco, with the three main figures arranged differently. He kept returning to the cheap seats, in print and in paint, for the better part of two decades.
+      </p>
+      <p style={proseStyle}>
+        So the honest way to say it is this: the Met owns one member of a family — the unfinished one, the one whose machinery shows. It is not the &ldquo;original&rdquo; and the others &ldquo;copies&rdquo;; it is one pass at a subject Daumier could not leave alone. And it became the most beloved of them all by an accident of incompletion — because the version where the paint stops short is the version where you can see, with your own eye and no apparatus at all, exactly how a man builds a picture of the poor.
+      </p>
+    </article>
+  )
+}
+
+function TcMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it’s doing" title="Realism climbs aboard the train" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his painting belongs to a movement, and knowing which one tells you what it is up to. It is a work of <strong>Realism</strong> — the mid-century revolt, told in full in the Realism overview one level up in this app, that insisted the real, ordinary, contemporary world deserved to be painted at the same scale and seriousness art had always saved for gods, kings, and saints. The Realists threw out the rule that only the grand and the antique were worth a serious canvas. They painted the present, and they painted the poor, and they refused to prettify either. <em>The Third-Class Carriage</em> is that program applied to a railway bench.
+      </p>
+      <p style={proseStyle}>
+        But within Realism, Daumier is doing a particular job, and it helps to see him beside his two great siblings. <strong>Gustave Courbet</strong>, the movement&rsquo;s loud public face, painted the <em>village</em> — a country funeral, two laborers breaking rock — the rural community at heroic size. <strong>Jean-François Millet</strong> painted the <em>fields</em> — peasants sowing, gleaning, praying at dusk — the timeless rhythm of rural labor. Both looked to the countryside. Daumier looked the other way. He painted the <strong>city</strong>: its courtrooms, its street crowds, its laundresses on the riverbank, and here its third-class poor in motion. If Courbet and Millet are the rural half of Realism, Daumier is its urban half — the one who saw that the truly new subject was not the eternal peasant but the modern crowd.
+      </p>
+
+      <SectionHeader accent={accent} label="The new subject" title="Anonymity, painted for the first time" />
+      <p style={proseStyle}>
+        And the railway car gave him the perfect machine for that subject. Think about what a third-class carriage actually <em>is</em>: a small box that takes a random scoop of strangers — a nursing mother, an old woman, a sleeping boy, a hundred others — and presses them together for an hour, close as family, with no relation to one another at all. That is the defining experience of the modern city distilled into one room on wheels: <strong>intimacy without connection</strong>, crowding without community. Before the industrial age, that experience barely existed; you knew the people you were close to. The railway invented the everyday crowd of strangers, and Daumier was the painter who looked at it head-on and said: <em>this</em> is what life is now.
+      </p>
+      <p style={proseStyle}>
+        That is why the dissolving faces in the back of the car matter so much. Daumier is not being lazy or merely leaving the picture unfinished; he is painting <strong>anonymity itself</strong> — the way, in a modern crowd, most people are nobody to you, a blur of hats and shoulders, while the few right in front of you are heartbreakingly specific. He found a way to put both halves of city life into one image: the individual and the mass, the face you could love and the crowd you could never know, sharing the same brown air. The <strong>Impressionists</strong> — the generation just after, Monet, Renoir, Degas and the rest, who in the 1870s would paint modern life in quick, bright, broken strokes of color — would fill their canvases with exactly these anonymous urban crowds: boulevards, cafés, train stations. Daumier got there first, in the dark.
+      </p>
+
+      <SectionHeader accent={accent} label="Tenderness, held in check" title="The opposite of a sob story" />
+      <p style={proseStyle}>
+        The deepest thing this painting does, though, is hold a hard line between two feelings that are easy to confuse: <strong>tenderness</strong> and <strong>sentimentality</strong>. Tenderness is real care, honestly observed. Sentimentality is feeling worked up for effect, the manipulative tug — the starving orphan with the enormous wet eyes, painted to make you reach for your handkerchief and feel good about it. The nineteenth century was drowning in the second kind; pictures of the deserving poor, milked for tears, were a whole industry. Daumier had every tool to join that industry and pointedly declined.
+      </p>
+      <p style={proseStyle}>
+        His passengers are treated with obvious, deep tenderness — you cannot look at that bowed mother or that worn old face without feeling it — but he never <em>cashes it in</em>. Nobody weeps. Nobody is gaunt for your benefit. Nobody looks up at you, the comfortable viewer, asking for anything. The people in the cheap seats are simply allowed to exist, with dignity and weight, going about the dull business of getting somewhere. That restraint is the whole achievement, and it is harder than tears. Daumier the cartoonist had spent forty years making people feel things on command; Daumier the painter, here, does the much rarer thing — he makes you feel the worth of three strangers on a bench, and then trusts you enough to leave it at that.
+      </p>
+    </article>
+  )
+}
+
+function TcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The painter’s decline" title="Famous, going blind, and broke" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he story of what happened to this painting only lands if you know what happened to its painter, and it is a hard story. By the mid-1860s — right around when he was working this very canvas — Daumier was sinking. The newspaper work that had kept him afloat for decades was drying up; money ran short. He left Paris for a small house in the village of <strong>Valmondois</strong>, north of the city, and there he might well have been evicted but for a friend. The great landscape painter <strong>Camille Corot</strong> — a gentle, generous man and a fellow traveler of the Realists — stepped in to help; by the well-known account, Corot quietly arranged the house so that Daumier would have a roof for the rest of his life. One painter the public adored, kept off the street by another painter&rsquo;s charity.
+      </p>
+      <p style={proseStyle}>
+        Then the cruelest blow for a man who lived by his eyes: he went <strong>blind</strong>. Through the 1870s Daumier&rsquo;s sight failed, and by about 1873 he could barely see. The hand that had drawn four thousand of the sharpest images in France could no longer draw. He spent his last years in the country, nearly sightless and very poor, the oils he had painted in private still piled up, still unsold, still unseen.
+      </p>
+
+      <SectionHeader accent={accent} label="Recognition, almost too late" title="The 1878 show" />
+      <p style={proseStyle}>
+        In <strong>1878</strong>, one year before he died, the art world finally turned to look. A <strong>retrospective exhibition</strong> of his work — held at the Durand-Ruel gallery in Paris — gathered the paintings and drawings together and let people see, perhaps for the first time, that the famous cartoonist had been a major artist all along. It was the recognition he had earned and never received. It came decades late, and it came in a body going blind, and — the final indignity — the exhibition lost money. Daumier died the next year, in <strong>1879</strong>, poor to the end. He never knew that the quiet oils nobody would buy would one day be treasured above almost everything he had drawn.
+      </p>
+
+      <SectionHeader accent={accent} label="An ocean away" title="How New York got the cheapest seats in France" />
+      <p style={proseStyle}>
+        The rescue, when it finally came, came from across an ocean. In <strong>1913</strong>, more than thirty years after Daumier&rsquo;s death, the American collector <strong>Louisine Havemeyer</strong> bought <em>The Third-Class Carriage</em> — reportedly for around forty thousand dollars, an enormous sum for a picture its own painter could not sell. Havemeyer was no ordinary buyer. Her husband was <strong>H. O. Havemeyer</strong>, the American sugar magnate (the family fortune came from refining sugar), and his money paid for the art — but the eye was hers, sharpened by her friend the painter <strong>Mary Cassatt</strong> (an American painter who championed French Impressionism and steered great American collections toward it). Guided by Cassatt for years, the Havemeyers assembled one of the greatest collections of modern French art anywhere, and made it their mission to bring that art to the United States. A canvas painted for nobody, by a man the public knew only as a newspaper cartoonist, ended up a prize of one of America&rsquo;s grandest collections.
+      </p>
+      <p style={proseStyle}>
+        And then she gave it away. On her death, the painting came to the <strong>Metropolitan Museum of Art</strong> in New York as a <strong>bequest</strong> — that is, a gift left in her will — in <strong>1929</strong>, part of the celebrated H. O. Havemeyer Collection. (The provenance has one honest gap: the exact chain of owners between Daumier&rsquo;s studio and Havemeyer&rsquo;s purchase is not securely documented — but the two ends, the broke painter and the New York museum, are certain.) So the unfinished picture of the poorest seats on a French train now hangs, permanently, in one of the richest museums in the world. You can stand in front of it any day the Met is open.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The dignity of the people in the cheap seats" />
+      <p style={proseStyle}>
+        Sit with the whole arc for a second, because it is one of art history&rsquo;s great reversals. A man known to all of France as a cartoonist painted, in private, the people nobody painted — the urban poor on a third-class bench, a nursing mother, an old woman with her basket, a sleeping boy, a crowd of strangers dissolving into the dark. He never finished it; he never sold it; he died blind and broke; and the picture became famous precisely <em>because</em> it was broken, its working grid showing through. Then it crossed an ocean to become a treasure of New York.
+      </p>
+      <p style={proseStyle}>
+        What survives all of that is the thing Daumier actually put on the canvas: the radical, quiet idea that the people in the cheapest seats are worth the most careful looking. No pity, no charm, no sob story — just three strangers on a hard bench, granted the full weight and seriousness of serious art. That was Realism&rsquo;s whole wager, made by Courbet in a village graveyard and by Millet in a stubble field; Daumier made it on a train. Every later artist who has pointed a serious brush, or lens, at an anonymous crowd in a modern city — at the people history files under <em>and others</em> — is riding in the carriage Daumier painted first.
+      </p>
+    </article>
+  )
+}

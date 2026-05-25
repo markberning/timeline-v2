@@ -1,0 +1,69 @@
+// ─────────────────────────────────────────────────────────────
+// The Third-Class Carriage (Daumier, c.1862–64) — ArtWorkContent
+// EXACT BURIAL shape. Drop into src/lib/art-content.ts as `CARRIAGE`
+// and register in ART_WORK_CONTENT. Authored gates-first; see
+// audits/art-pipeline/realism-works/carriage-factpack.md for the ledger.
+// ─────────────────────────────────────────────────────────────
+
+export const CARRIAGE: ArtWorkContent = {
+  id: 'carriage',
+  name: 'The Third-Class Carriage',
+  shortName: 'The Third-Class Carriage',
+  year: 1864,
+  artist: 'Honoré Daumier',
+  artistId: 'daumier',
+  movement: 'Realism',
+  movementId: 'real',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas (unfinished)',
+  dimensions: '2 ft 1¾ in × 2 ft 11½ in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'The H.O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929',
+  accent: ART_ACCENTS.amber,
+  chain: { name: 'Works of Realism', index: 9, total: 9 },
+  hook: 'The cheapest seats on the new railway, packed with the urban poor — tired, dignified, and painted by a man the world only knew as a cartoonist.',
+  heroImage: ART_IMG.daumierCarriage,
+  heroCredit: 'Daumier, The Third-Class Carriage, c.1862–64 · The Metropolitan Museum of Art, New York',
+  heroAspect: 1.38,
+  heroFit: 'contain', // the work hero shows the WHOLE ~1.38:1 canvas, never cropped
+  rights: 'pd-us',
+  stats: [
+    { v: 'c.1862–64', k: 'Painted' },
+    { v: '2′1¾″ × 2′11½″', k: 'Dimensions' },
+    { v: 'The Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'rail', eyebrow: 'Paris · the railway age', dateLabel: 'c.1862', title: 'The cheapest seats on a moving machine', blurb: 'A new machine — the railway — has thrown the poor of a whole city into one crowded box. France’s most famous cartoonist quietly picks up a brush to paint it.', progress: 0.08 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: 'c.1862–64', title: 'Three people, and a hundred behind them', blurb: 'A nursing mother, an old woman with a basket, a sleeping boy — and rows of anonymous passengers dissolving into the dim car. Dignity, and no pity at all.', progress: 0.34 },
+    { id: 'unfinished', eyebrow: 'Behind the paint', dateLabel: 'c.1862–64', title: 'The grid he never painted over', blurb: 'This canvas was abandoned half-done — so the ruled grid and the drawing underneath show right through. A rare X-ray into exactly how a picture was built.', progress: 0.58 },
+    { id: 'meaning', eyebrow: 'What it’s doing', dateLabel: '1860s', title: 'Realism gets on the train', blurb: 'Courbet painted the village, Millet the fields. Daumier paints the modern city — its crowds, its anonymity, its tenderness — without a drop of sentimentality.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Famous as a cartoonist, blind, and broke', blurb: 'Barely sold in his lifetime, going blind in a borrowed house, Daumier dies poor in 1879. Then an American collector buys this canvas — and leaves it to New York.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: 'c.1862–64', who: 'Honoré Daumier (the artist)', place: 'Paris / Valmondois', note: 'Painted but left unfinished — the canvas still carries the ruled transfer grid. Daumier’s oils barely sold in his lifetime; he was known as a newspaper cartoonist, and this picture stayed an unsold studio canvas.', price: null },
+    { year: '1879–1913', who: 'The art market, after Daumier’s death', place: 'France / New York', note: 'Daumier died in poverty in 1879. The exact chain of hands the canvas passed through before reaching America is not securely documented; what is certain is where it landed.', price: null },
+    { year: '1913', who: 'Louisine Havemeyer (wife of sugar magnate H. O. Havemeyer)', place: 'New York', note: 'The great American collector — guided for years by her friend Mary Cassatt, the American painter who championed French Impressionism — buys the painting, reportedly for about $40,000, bringing it into the collection that did more than any other to put modern French painting in New York.', price: '~$40,000' },
+    { year: '1929', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'On Louisine Havemeyer’s death the canvas enters the Met by bequest, as part of the H. O. Havemeyer Collection (Bequest of Mrs. H. O. Havemeyer, 1929). In the collection ever since.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Daumier', role: 'The cartoonist who painted', palette: ['#7a7064', '#42382c', '#15110c'] },
+    { name: 'The nursing mother', role: 'Front bench, left', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'The old woman', role: 'Front bench, center', palette: ['#6b6354', '#39322a', '#120f0c'] },
+    { name: 'The sleeping boy', role: 'Front bench, right', palette: ['#53412c', '#2a1f14', '#0c0805'] },
+    { name: 'Louisine Havemeyer', role: 'Brought it to New York', palette: ['#5a4a32', '#2e2418', '#0e0a06'] },
+    { name: 'Camille Corot', role: 'The friend who kept him afloat', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The mother and the baby', where: 'Front bench, far left', detail: 'A young woman sits at the left end of the bench, head bowed, cradling an infant wrapped in her lap. Hers is one of the most tenderly worked passages in the whole picture — lit softly by the windows behind her — and it is doing the quiet emotional work of the painting: ordinary, unposed care, given the same weight as anything else in the frame.' },
+    { label: 'The old woman and her basket', where: 'Front bench, dead center', detail: 'The most finished face in the painting belongs to the old woman in the middle, framed by a pale cream head-wrap — a hood of light cloth that is the single brightest passage in this dark picture, so your eye lands on her first of all. Beneath it: a face deeply lined, eyes forward, exhausted, both hands folded over the handle of a woven wicker basket on her lap. She is not grieving or pleading or telling a story — she is just sitting, the way people sit on a long ride, and that flat ordinariness is exactly the point.' },
+    { label: 'The sleeping boy', where: 'Front bench, right end', detail: 'At the right end of the bench a boy has slumped over asleep, head dropped, the way children give out on a long journey. A dark box or chest — luggage — sits in the lower-right corner beside him. He completes the little family unit on the front bench: youth, motherhood, and age, three ages of the poor, lined up on one hard seat.' },
+    { label: 'The crowd, dissolving backward', where: 'The whole upper register, behind the bench', detail: 'Behind the front three, rows of anonymous passengers — men in tall hats and caps, women in bonnets — recede into the dim car, and the farther back they go the sketchier and more ghostly the faces become (the unfinished paint exaggerates it). Nobody back there is an individual; they are the crowd, the mass of the modern city packed into a moving box.' },
+    { label: 'The two windows', where: 'Upper left', detail: 'Two pale rectangles of window are the only real light in the carriage. Everything else is brown, low, and enclosed. The light falls forward onto the three figures on the front bench and leaves the back of the car in murk — which is why your eye lands on the mother, the old woman, and the boy before it even registers the crowd.' },
+    { label: 'The grid he never painted over', where: 'Across the unfinished passages — clearest in the upper-left window area', detail: 'Look closely and you can see straight ruled lines and the drawn contours of figures showing right through the thin paint. This is the squaring grid — the scaffolding an artist drew to copy and enlarge a composition accurately — which was supposed to vanish under the finished paint. The picture was abandoned before that happened, so the bones of the method are left bare on the surface.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Realism', mode: 'art' }, { label: 'Daumier’s railway lithographs', mode: 'art' }, { label: 'Dutch genre painting', mode: 'art' } ],
+    children: [ { label: 'Social Realism', mode: 'art' }, { label: 'Ashcan School', mode: 'art' }, { label: 'Impressionism', mode: 'art' } ],
+  },
+}

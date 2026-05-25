@@ -2628,6 +2628,759 @@ function GlAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ─────────────────────────────────────────────────────────────
+// The Angelus (Jean-François Millet, 1857–59) — the five chapters
+// Author draft for the art-content pipeline. Match the BURIAL JSX shape exactly:
+// helpers SectionHeader / DropCap, proseStyle / italicStyle, <strong>/<em>,
+// <article style={{ padding: '18px 18px 40px' }}>, `first` on the opener.
+// NO inline figures (follow Burial). HTML entities for all quotes/apostrophes.
+// Section ids: bell · looking · reception · meaning · afterlife.
+// ─────────────────────────────────────────────────────────────
+
+function AnBell({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The evening bell" title="The sound that stops the work" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        omewhere off in the distance, too far to see clearly, a church bell starts to ring. It is the end of the working day. Two people standing in a half-dug potato field hear it, stop what they are doing, drop their heads, and pray. That is the entire event. Nobody dies, nobody marries, no army marches. Two tired field-workers pause for the length of a short prayer in the failing light — and Jean-François Millet (1814–1875), the painter the Realism overview one level up in this app calls the quiet half of the movement, decided that this nothing of a moment was worth a painting that would end up one of the most famous images on Earth.
+      </p>
+      <p style={proseStyle}>
+        To feel why, you first have to know what that bell is for, because the prayer it calls is the whole hidden engine of the picture.
+      </p>
+
+      <SectionHeader accent={accent} label="What the Angelus is" title="A prayer rung from the steeple, three times a day" />
+      <p style={proseStyle}>
+        The painting is named after the prayer, and the prayer is called the <strong>Angelus</strong> (AN-juh-luss). It is an old Catholic devotion — a short, fixed prayer recalling the moment in the Christian story when the angel Gabriel told Mary she would bear Christ (the <strong>Annunciation</strong>). It takes its name from its opening Latin words, <em>Angelus Domini</em> (&ldquo;the angel of the Lord&rdquo;). The crucial thing for the painting is <em>when</em> it is said: traditionally three times a day — at dawn, at noon, and in the evening — each time announced across the countryside by the ringing of the church bell. When the <strong>Angelus bell</strong> sounded, the faithful were meant to stop whatever they were doing, wherever they were, and pray.
+      </p>
+      <p style={proseStyle}>
+        So the bell is a kind of public clock with a religious face. In a world before wristwatches and factory whistles, the steeple told a whole village what time it was and, three times a day, told it to pause. Picture a school bell that, instead of moving you to the next class, simply freezes everyone in place for a minute of quiet — that is roughly the social machine Millet is painting. The two figures are not in a church. They are in the middle of a field at the far edge of the parish, and the bell has reached out across the open ground and stopped them anyway. The painting is set at the <em>evening</em> Angelus, the last one of the day, which is why the light is going and the work is being packed up.
+      </p>
+
+      <SectionHeader accent={accent} label="The seed of the picture" title="A grandmother, a field, and a cap in hand" />
+      <p style={proseStyle}>
+        Where did the idea come from? Millet told us himself, in one of the rare cases where we have the artist&rsquo;s own account rather than a critic&rsquo;s guess. By his own recollection, the painting grew straight out of a childhood memory. &ldquo;<strong>The idea for The Angelus came to me because I remembered that my grandmother, hearing the church bell ringing while we were working in the fields, always made us stop work to say the Angelus prayer for the poor departed, very religiously and with cap in hand.</strong>&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Hold onto two details in that sentence, because they are both in the paint. The first is &ldquo;<em>with cap in hand</em>&rdquo; — and sure enough, the man in the painting has taken his hat off and is holding it at his waist, exactly as Millet&rsquo;s grandmother insisted. The second is &ldquo;<em>for the poor departed</em>&rdquo; — this was not, in Millet&rsquo;s memory, a sunny prayer of thanks but a prayer for the dead, said in the cooling evening. That is a darker, plainer thing than the gushing piety the picture would later be saddled with, and it matters for the meaning chapter. The Angelus, to the man who painted it, was a remembered family habit out in the dirt, not a stained-glass window.
+      </p>
+
+      <SectionHeader accent={accent} label="Millet's world" title="The peasant painter of Barbizon" />
+      <p style={proseStyle}>
+        This was the one subject Millet painted his whole life: peasants — the rural poor who worked the land — taken completely seriously. He came by it honestly. He was born in 1814 at <strong>Gruchy</strong>, a tiny farming hamlet in Normandy in the north of France, into a real working farm family. He trained as a painter and, in 1849, settled in <strong>Barbizon</strong> — a village on the edge of the Forest of Fontainebleau, about thirty miles southeast of Paris, that gave its name to a whole loose group of landscape painters (the <strong>Barbizon School</strong>) who left the studio to work close to real countryside. Out there Millet painted the people he had grown up among: sowers, gleaners, shepherds, reapers — labor, plain and unadorned.
+      </p>
+      <p style={proseStyle}>
+        If you have read the other Millet works in this chain, you already know the company The Angelus keeps. There is <strong>The Sower</strong> (1850) — a single peasant striding downhill flinging seed, painted so large and dark he reads almost as a threat. And there is <strong>The Gleaners</strong> (1857) — three of the poorest women bent double over a stripped field, gathering the few grains the harvest left behind. The Angelus is their evening counterpart: where the Sower is all violent forward motion and the Gleaners is all aching, bent-over labor, the Angelus is the moment the labor <em>stops</em>. Same world, same poor, same dignity insisted on — but here, stillness. The other two pictures are work; this one is the held breath in the middle of work.
+      </p>
+      <p style={proseStyle}>
+        That is the strange ambition of the thing. Millet took the least eventful instant in a hard day — a pause for a prayer no one would have thought to record — and built a picture around it. The next chapter is what that pause looks like when you actually stand in front of it and slow down.
+      </p>
+    </article>
+  )
+}
+
+function AnLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Smaller than you think, and mostly sky" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        irst, a surprise about the size. For a painting this famous you might expect a wall-filler, the way Courbet&rsquo;s <em>Burial at Ornans</em> in this same chain is literally ten feet tall. The Angelus is the opposite. It is <strong>tiny</strong> — about <strong>1 foot 10 inches tall and 2 feet 2 inches wide</strong> (55.5 by 66 centimeters), no bigger than a serving tray you could carry under one arm. Almost every reproduction you have ever seen of it — and you have seen many, even if you did not know their name — is printed larger than the original. The whole monumental feeling of the picture is achieved on a surface the size of a place setting. Hold that against the Sower and the Gleaners, both of which use real scale to make their peasants loom; here Millet makes two small figures feel enormous on a small canvas, purely by composition.
+      </p>
+      <p style={proseStyle}>
+        Now look, and notice what most of the painting actually is: <strong>sky</strong>. A vast, pale, dusk-flushed expanse of evening sky fills roughly the top two-thirds of the canvas, with a faint warm flush of the set sun at the upper left and a few birds high up. The two human beings are crushed down into a thin band of dark, turned earth along the bottom. That ratio is the first decision Millet made and the most important one. He gave the people barely a third of the picture and handed the rest to empty air. The effect is exactly how small a person feels standing alone in an open field as the light goes — the sky just keeps going, indifferent, and you are a speck under it. Two-thirds sky pressing on one-third earth is not decoration. It is the whole mood, built into the proportions.
+      </p>
+
+      <SectionHeader accent={accent} label="The man" title="Hat in his hands, stopped mid-job" />
+      <p style={proseStyle}>
+        Come down to the figures. On the <strong>left</strong> stands the man. His head is dropped, his shoulders slightly rounded, and — the detail to find first — his <strong>hat is off, held in both hands down at his waist</strong>. This is the &ldquo;cap in hand&rdquo; from Millet&rsquo;s grandmother, and it is the painting&rsquo;s quietest, most eloquent gesture. He has not knelt, not folded into some grand devotional pose; he has simply stopped where he was, bared his head, and let his hands hang. His face is barely there in the dusk — a smudge of shadow under his hair — and that is deliberate. Millet does not want you to read a particular man&rsquo;s particular piety. He wants the <em>act of stopping</em> itself, which is why the man is almost a silhouette: anyone, every laborer, caught in the habit of the prayer.
+      </p>
+
+      <SectionHeader accent={accent} label="The woman" title="Hands clasped, head bowed lower" />
+      <p style={proseStyle}>
+        Across the field from him, on the <strong>right</strong>, stands the woman, facing him. Her head is bent even lower than his, and her <strong>hands are pressed together at her chest</strong> in the plainest gesture of prayer there is — the one a child draws when asked to draw someone praying. She wears a white cap, a dark dress, a worn apron over a reddish bodice. The two of them form a matched pair: both stilled, both bowed, both faceless, both poor. And look at the gap between them — a small stretch of empty, dug field separating the man on the left from the woman on the right. That little moat of silence is doing real work. They are together in the prayer but not touching, each sunk into a private quiet, and the gap between them is where the whole hush of the painting pools.
+      </p>
+
+      <SectionHeader accent={accent} label="The tools" title="The basket, the fork, the barrow — work, paused" />
+      <p style={proseStyle}>
+        Now look at the ground, because Millet has scattered the evidence of exactly what was happening one second before the bell. Between the two figures, set down on the turned earth at their feet, sits a low woven <strong>basket of potatoes</strong> — the day&rsquo;s dug crop. (Remember that basket; in the afterlife chapter it becomes the single most argued-over object in the painting.) Down at the lower left, jammed upright in the broken soil, stands a <strong>digging fork</strong>, left exactly where the man stopped using it. And off to the right, half in shadow behind the woman, sit a <strong>wheelbarrow and sacks</strong> already loaded with the harvest.
+      </p>
+      <p style={proseStyle}>
+        Take those three things together — fork, basket, barrow — and they tell you the whole story with no words: <em>work was happening here a heartbeat ago, and will start again the heartbeat the prayer ends.</em> The tools are dropped, not packed. The prayer is an interruption, not a conclusion. This is the same trick Millet plays in the Sower (the seed still in the air) and the Gleaners (the day&rsquo;s meagre handful in their fists): he freezes a moment of real labor so precisely that you can feel time about to start moving again.
+      </p>
+
+      <SectionHeader accent={accent} label="The church" title="The speck on the horizon that explains everything" />
+      <p style={proseStyle}>
+        Finally, do the one thing the painting rewards most: look hard at the far, flat horizon, slightly right of center, behind and between the two figures. Almost lost in the dusk haze, no taller than a pin, is a <strong>tiny church spire</strong>. It is easy to miss entirely, and missing it means missing the cause of the whole scene — because that distant steeple is where the bell is ringing from. The sound has crossed all that open ground to reach two people at the far edge of the parish and stop them where they stand. By most accounts Millet added that little tower when he reworked the canvas, and you can see why he bothered: without it, this is two tired people standing oddly still in a potato field. With it, the painting suddenly has a reason — a cause out on the edge of the world, pulling a thread of devotion all the way back to the foreground. One pin-sized detail turns a field into a prayer.
+      </p>
+      <p style={proseStyle}>
+        Step back and take it whole. Two small, dark, bowed figures; their dropped tools; a distant steeple; and above them an enormous evening sky that swallows two-thirds of the picture. Nothing is happening, and everything is. That is the looking. The next three chapters are about what people <em>made</em> of it — which turned out to be far stranger than anything in the paint.
+      </p>
+    </article>
+  )
+}
+
+function AnReception({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="A quiet start" title="A job for a Bostonian who never showed up" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he most famous things often begin as the least promising, and The Angelus begins as a commission that fell apart. It started life not as a great statement but as a job. A wealthy Boston art collector named <strong>Thomas Gold Appleton</strong> commissioned Millet to paint a peasant scene, and the painting&rsquo;s first title had nothing of prayer in it at all. It was called <strong>&ldquo;Prayer for the Potato Crop&rdquo;</strong> (in French, a prayer for the potato harvest), and some accounts suggest Appleton, with the recent and catastrophic <strong>Irish potato famine</strong> fresh in mind, wanted exactly that — a scene of poor people and a failing root crop. The painting&rsquo;s whole origin, in other words, is potatoes and want, not piety.
+      </p>
+      <p style={proseStyle}>
+        And then Appleton simply never came for it. The deal fell through; the Bostonian declined to take the picture. Millet was left holding a finished-ish canvas with no buyer — a very ordinary problem for a chronically broke painter, which Millet, supporting a large family on the edge of poverty out at Barbizon, certainly was.
+      </p>
+
+      <SectionHeader accent={accent} label="The rework" title="Adding the steeple, changing the name" />
+      <p style={proseStyle}>
+        So Millet did what a working painter does with an unsold canvas: he reworked it for the open market. By most accounts this is the moment the small <strong>church tower</strong> went onto the horizon — the pin-sized steeple from the looking chapter — and the painting got its new, resonant name: <em>The Angelus</em>. The change is small in paint and enormous in meaning. &ldquo;Prayer for the Potato Crop&rdquo; is about hunger and a harvest; <em>The Angelus</em> is about the bell, the prayer, the devotion. The same two figures, the same dropped tools, but reframed — from a scene of rural want into a scene of rural faith. It is worth being honest that a commercial calculation (an unsellable picture made sellable) sits right at the center of this most beloved of religious images. The steeple that &ldquo;turns a field into a prayer&rdquo; also turned a dead commission into a saleable painting.
+      </p>
+      <p style={proseStyle}>
+        None of which makes the painting cynical. Millet had carried the grandmother memory for years; the prayer was real to him. But the romantic idea that great art descends fully formed from pure inspiration takes a useful dent here. The Angelus is what it is partly because a Boston customer flaked and a broke painter needed to eat — and that double origin, hunger renamed as faith, is stitched into the picture more deeply than its admirers ever wanted to admit. The potatoes never left; Millet just stopped putting them in the title.
+      </p>
+
+      <SectionHeader accent={accent} label="A slow fame" title="Not a Salon bomb — a long, quiet climb" />
+      <p style={proseStyle}>
+        Here is where The Angelus parts ways with its siblings in this chain. The big Realist pictures tend to have a single explosive public moment — Courbet&rsquo;s <em>Burial</em> detonating in the Salon (the official State exhibition that made or broke a French career, which the movement overview describes in full); Millet&rsquo;s own <em>Sower</em> and <em>Gleaners</em> frightening a Paris still raw from the revolution of 1848, when the poor briefly toppled a king. The Angelus had no such bomb. It did not arrive as a scandal. Its fame came the slow way, and then, decades later, all at once.
+      </p>
+      <p style={proseStyle}>
+        For a while it was simply a small Millet among other small Millets, changing hands among private collectors. But across the 1860s and especially after Millet&rsquo;s death in 1875, his reputation began a steep climb. A taste for his grave, dignified peasants spread — first in France, and powerfully in the United States and Britain, where Millet became something close to a cult. As demand rose, the price of The Angelus rose with it, passing from owner to owner at numbers that would have stunned the painter who first could not find anyone to buy it. The canvas was quietly becoming valuable.
+      </p>
+      <p style={proseStyle}>
+        It is worth pausing on how unusual that trajectory is. Most pictures are most valuable the day a famous artist signs them and drift slowly into obscurity afterward; The Angelus did the reverse, gaining value and fame for decades after its maker was dead and could profit from none of it. Part of that was a genuine swing of taste back toward Millet&rsquo;s grave peasants, and part was the new machinery of fame: cheap reproduction was beginning to put copies of popular pictures into ordinary homes, and a much-reproduced image becomes a famous image, and a famous image becomes an expensive one.
+      </p>
+      <p style={proseStyle}>
+        That slow climb is the runway for everything in the afterlife chapter. A painting that no Boston collector wanted, that a broke man renamed to sell, was turning into a national treasure — and the moment that fact became undeniable, in the summer of 1889, would be one of the loudest art-world spectacles of the century. But the painting also acquired, in those same years, a <em>meaning</em> the public attached to it: warm, pious, sentimental, a little gauzy. Whether that is what Millet painted is the next chapter&rsquo;s fight. And the deepest irony sits underneath the whole climb: The Angelus was being lifted by exactly the modern, industrial forces it seems, on its surface, to know nothing about.
+      </p>
+    </article>
+  )
+}
+
+function AnMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it means" title="The most sentimental painting in the world?" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a long stretch of its life, The Angelus had a reputation problem of an unusual kind: it was too loved. By the late nineteenth century it had become the very image of cozy, comforting, lump-in-the-throat religious feeling — humble folk, golden light, heads bowed, all is well with God and the soil. It hung, in cheap reproduction, in more parlors and schoolrooms and chapels than almost any picture in the world (the afterlife chapter gets to the staggering numbers). And when an image becomes that universally adored, sophisticated people start to find it embarrassing — the way a song everyone&rsquo;s grandmother loves gets dismissed as schmaltz. For decades The Angelus was treated by serious critics as a piece of beautiful, slightly cloying sentiment: the painting equivalent of a greeting card.
+      </p>
+      <p style={proseStyle}>
+        The question worth sitting with is whether that is fair — whether it is actually what Millet put on the canvas, or a warm coat the public draped over it later.
+      </p>
+
+      <SectionHeader accent={accent} label="What Millet said it was" title="A memory, and a prayer for the dead" />
+      <p style={proseStyle}>
+        Go back to Millet&rsquo;s own account, the one from the first chapter. He did not describe a glowing devotional uplift. He described a <em>memory</em>: his grandmother making the children stop work in the fields to say the Angelus — and crucially, to say it &ldquo;<em>for the poor departed</em>.&rdquo; That is a prayer <em>for the dead</em>, said in the cooling evening at the end of a working day. There is grief folded into it, and tiredness, and the long habit of the poor who pray because that is what their grandmothers made them do, not because the light is pretty. Read that way, the painting is far closer to its grim siblings than to a greeting card. It belongs with the bent backs of the Gleaners and the dark, looming Sower: the rural poor, taken seriously, in the actual texture of their hard days — and here, in the texture of their faith, which was as much a fact of that life as the potatoes.
+      </p>
+      <p style={proseStyle}>
+        Notice, too, what the painting refuses to do. There is no shaft of divine light breaking through to bless the couple, no glimpse of heaven, no angel. The religion is entirely <em>in the people</em> — in a bared head and two clasped hands — and not at all in the sky, which, for all its enormousness, stays empty. A sentimental religious painter would have opened that sky. Millet left it blank. The faith here is a human habit performed in the dirt, not a miracle delivered from above.
+      </p>
+      <p style={proseStyle}>
+        The sweetness, in other words, was largely added by the audience. Strip the warm associations off and look at the bare facts of the scene: two exhausted people, at the end of a day of digging roots out of cold ground, stopping for a prayer for the dead under a sky going dark. That is not a comforting picture; it is a sober one. The cult of cheap reproductions sanded it down — brightened it in the mind&rsquo;s eye, fitted it for the parlor wall, made it the painting your great-grandmother found <em>soothing</em>. The original is closer to the bone than that. It is a picture about endurance: the small fixed rituals that get the poor through, performed without complaint and without reward, in the same flat fields where they will be buried.
+      </p>
+
+      <SectionHeader accent={accent} label="Piety or poverty" title="The argument that never settles" />
+      <p style={proseStyle}>
+        So which is it — a painting about <em>God</em> or a painting about <em>the poor</em>? This is the fight that has trailed The Angelus its whole life, and it is the same fight that trailed the Sower and the Gleaners, where the propertied classes of a nervous Paris kept reading a political menace into pictures of field-workers. Some have always seen The Angelus as pure piety: faith sustaining the humble. Others see it the other way around — that the real subject is the crushing labor and the want, and the prayer is the small dignity these people are allowed at the end of a day of digging up roots to survive. The empty basket of potatoes, the dropped fork, the bent exhausted bodies: this is not a comfortable life being blessed. It is a hard one, briefly stilled.
+      </p>
+      <p style={proseStyle}>
+        Millet himself was cagey about politics — like in the Sower&rsquo;s story, he kept insisting he was no socialist, only a man painting the truth of the soil. And that is probably the most honest reading: the painting is not <em>either</em> a sermon <em>or</em> a protest. It is both faith and poverty at once, because in the world Millet grew up in they were not separable. The poor prayed; the prayer was part of being poor; the bell stopped the work and then the work resumed. The sentimental version that conquered the world&rsquo;s parlors took the faith and threw away the poverty. The painting Millet actually made kept both, which is exactly why it is better than its reputation as a tear-jerker — and exactly why, in the next chapter, one very strange Spaniard would come along and insist the whole thing was secretly about a dead child.
+      </p>
+    </article>
+  )
+}
+
+function AnAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1 July 1889" title="The bidding war that gripped a nation" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he small painting nobody had wanted in 1857 became, on a single day in 1889, the object of one of the loudest art spectacles of the century. By then it belonged to a French copper magnate, <strong>Eugène Secrétan</strong>, whose collection went up for auction on <strong>1 July 1889</strong> at the Galerie Sedelmeyer in Paris. The timing was no accident: the sale was set to coincide with the <strong>Exposition Universelle of 1889</strong> — the great Paris world&rsquo;s fair that unveiled the Eiffel Tower — which had filled the city with rich foreigners, the Americans especially.
+      </p>
+      <p style={proseStyle}>
+        What followed was a national drama. On one side stood <strong>Antonin Proust</strong>, a former French arts minister, fighting to keep The Angelus in France and get it into the <strong>Louvre</strong> (the great Paris museum). On the other stood the <strong>American Art Association</strong> of New York, a powerful dealership, bidding through its man <strong>James F. Sutton</strong> to carry the picture off to America. The bidding climbed and climbed, past anything a Millet had ever fetched, all the way to a stunning <strong>553,000 francs</strong> — a fortune, for a painting the size of a tray. France appeared to win it. And then the most French thing imaginable happened: the government refused to actually pay. With no public money forthcoming and unable to cover the sum himself, Proust had to let it go. The painting passed to the under-bidding Americans, who packed it up and shipped it across the Atlantic.
+      </p>
+
+      <SectionHeader accent={accent} label="To America and back" title="A touring marvel, then a tycoon buys it home" />
+      <p style={proseStyle}>
+        In the United States the American Art Association did what you do with a half-million-franc trophy: they put it on show, and crowds paid to file past a single small canvas as if it were a visiting celebrity. For a brief season in 1889–1890, the most reproduced devotional image in the Western world was an American attraction.
+      </p>
+      <p style={proseStyle}>
+        It did not stay. In 1890 a French buyer brought it home — <strong>Alfred Chauchard</strong>, a Paris department-store magnate who had helped found the <strong>Grands Magasins du Louvre</strong> (a giant Paris department store, no relation to the museum despite the shared name). Chauchard bought The Angelus back for France for an even more eye-watering figure — about <strong>800,000 francs</strong> (some sources say 750,000) — roughly half again what the auction had reached the year before. The painting that France could not find the money to buy at auction was now home, in private hands, at an even higher price. There is a lasting footnote here: the gulf between these dizzying resale prices and the near-poverty of Millet&rsquo;s surviving family was one of the scandals that, years later, helped push France toward the <strong>droit de suite</strong> — the &ldquo;resale right,&rdquo; a law giving artists or their heirs a cut when their work is resold for a fortune they never saw.
+      </p>
+      <p style={proseStyle}>
+        Chauchard, who died in 1909, left his collection to the State, and on <strong>15 January 1910</strong> The Angelus was formally accepted into the <strong>Louvre</strong> — given, free, to the nation that had failed to buy it across the table twenty-one years before. In <strong>1986</strong>, when the <strong>Musée d&rsquo;Orsay</strong> (the Paris museum of nineteenth-century art, installed in a converted railway station) opened, the Louvre&rsquo;s nineteenth-century holdings crossed the river to fill it, and The Angelus went too. It hangs there now, a small, dark, quiet canvas in a busy gallery — joined, just down the wall, by the Gleaners, which had taken almost exactly the same road from despised to priceless to bequeathed.
+      </p>
+
+      <SectionHeader accent={accent} label="Dalí's obsession" title="The basket that might be a coffin" />
+      <p style={proseStyle}>
+        And then there is the strangest chapter of all, which belongs to <strong>Salvador Dalí</strong> (1904–1989, the Spanish Surrealist — the melting-clocks painter). Dalí was haunted by The Angelus his entire life. He claimed it had unsettled him since childhood, when a reproduction hung on the wall of his school; he said the bowed woman looked to him less like a praying wife than like a <strong>praying mantis</strong> — the insect that devours its mate after pairing — coiled and predatory over the stilled man. Where the world saw cozy piety, Dalí saw dread, sex, and death, and he could not let it go: he built an entire personal theory around it and made several paintings warping the image, among them <em>The Architectonic Angelus of Millet</em> and <em>Gala and the Angelus of Millet…</em>, both in 1933.
+      </p>
+      <p style={proseStyle}>
+        His central, sensational claim was about that basket of potatoes between the two figures. Dalí insisted it was no basket at all but a small <strong>child&rsquo;s coffin</strong> — that the couple are not pausing over a harvest but mourning a dead, perhaps stillborn, child, the whole picture a scene of buried grief disguised as rural calm.
+      </p>
+      <p style={proseStyle}>
+        Here the story takes a genuinely odd turn, and it has to be told carefully. At some point the <strong>Louvre</strong> examined the painting with imaging tools — an <strong>X-ray</strong> (which sees through the top layers of paint to what lies beneath, like a medical X-ray seeing through skin) and infrared. The examination reportedly revealed that beneath or in place of the present basket there was an earlier, painted-over shape — described as a small <em>&ldquo;oblong geometrical&rdquo;</em>, more <em>box-like</em> form. Dalí seized on this as proof: there it was, he said, the hidden coffin, painted over to disguise the grief.
+      </p>
+      <p style={proseStyle}>
+        But proof of <em>what</em>, exactly? That is where it has to stop. That an earlier, more box-like shape may lurk under the basket is one thing; that the shape <em>is</em> a coffin, and that the painting <em>is</em> about a dead child, is a leap that the art-history world has never accepted. An overpainted form could be a coffin — or it could be a basket Millet simply drew differently the first time, or a compositional element he changed his mind about, which painters do constantly. So take the whole episode as exactly what it is: <strong>Dalí&rsquo;s reading</strong>, vivid and unforgettable and possibly entirely wrong, attached to <strong>a real but contested technical finding</strong>. The romance of the secret coffin is a piece of legend, not a settled fact — but it is a measure of the painting&rsquo;s grip that the greatest Surrealist of the century spent decades unable to look away from two peasants praying in a field.
+      </p>
+
+      <SectionHeader accent={accent} label="The most reproduced image of its age" title="Why you already knew this painting" />
+      <p style={proseStyle}>
+        Strip away the auction drama and the coffin theory and you are left with the plainest fact about The Angelus, which is also the most extraordinary: more people have seen it than almost any painting ever made. It became <strong>one of the most widely reproduced images of the nineteenth century</strong>. Cheap prints — made affordable by the same Industrial Revolution that was emptying the countryside the picture mourns — hung in tens of thousands of French homes, schools, and churches. It spread onto postcards, devotional cards, plates, coffee cups. It was the kind of image that did not stay in museums; it went into ordinary life and lived on the wall above the kitchen table. The young Dutch painter <strong>Vincent van Gogh</strong>, who treated Millet as a personal hero, copied it like a devotee. There is a real chance you have seen The Angelus somewhere — a relative&rsquo;s hallway, an old print, a parody — without ever learning what it was called.
+      </p>
+      <p style={proseStyle}>
+        That is the final irony of this small, dark canvas. Millet took the least eventful moment in a poor person&rsquo;s day — a pause for a prayer, heads bowed, tools dropped, the bell fading from a steeple too far to see — and painted it so truly that the moment escaped the frame entirely. It outgrew its commission, its title, its painter, its country, and even its meaning, until two anonymous peasants stopped forever in a potato field became something the whole world recognized. Not bad for a job a Boston collector turned down.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// Gargantua (Daumier, 1831) — the five chapters
+// Drop these into art-section-reader.tsx alongside BuTown…BuAfterlife.
+// Section ids: king · looking · trial · meaning · afterlife
+// HTML entities used for all quotes/apostrophes in JSX text.
+// ─────────────────────────────────────────────────────────────
+
+function GaKing({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1830–31" title="The king who came in a top hat" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n July 1830, for three days, Paris belonged to the barricades. Crowds had thrown out the last hard-line Bourbon king, Charles X, who had been trying to wind the clock back to before the great Revolution of 1789 (the upheaval that toppled the absolute monarchy and beheaded Louis XVI). And then, with the old man gone and the throne empty, the men who actually ran France — the bankers, the deputies, the propertied middle class — did something clever. Instead of declaring a republic, they handed the crown to the dead king&rsquo;s liberal cousin, <strong>Louis-Philippe</strong> of the house of Orléans, and rebranded the whole institution. He would not be &ldquo;King of France&rdquo; — too lordly. He would be <strong>King of the French</strong>, the <strong>roi citoyen</strong>, the &ldquo;<strong>Citizen King</strong>&rdquo;: a modern, modest, businesslike monarch who walked the boulevards in a frock coat, carried an umbrella, and shook hands. The regime he headed (1830–1848) is called the <strong>July Monarchy</strong>, after the month it was born in. (The full politics of 1830 lives in the Realism overview one level up; here we need only the shape of it.)
+      </p>
+      <p style={proseStyle}>
+        The marketing was that France finally had a king for everybody. The reality was that France had a king for the people who owned things. The vote was tied to wealth, so a tiny sliver of rich men chose the parliament; the government governed for banks and investors; and the workers and the poor who had actually fought on the July barricades got the bill and none of the bargain. Within a year the hope had soured into a sour, specific feeling that the whole revolution had been pocketed by the comfortable. That feeling is the fuel this entire story runs on. Somebody just had to draw it.
+      </p>
+
+      <SectionHeader accent={accent} label="Philipon&rsquo;s war" title="A weekly paper that printed insults" />
+      <p style={proseStyle}>
+        Enter <strong>Charles Philipon</strong> (1800–1862), the most dangerous man in France with a pencil — not because he drew best, but because he saw, before almost anyone, that a <em>picture</em> could do political damage a thousand articles could not. In 1831 Philipon founded a satirical weekly called <strong>La Caricature</strong> — a journal whose entire purpose was to mock the powerful in print (the word &ldquo;caricature&rdquo; means a drawing that exaggerates someone&rsquo;s features or character to ridicule them). He ran it as open war on the July Monarchy. He gathered a stable of young artists, pointed them at the government, and dared the censors to do something about it.
+      </p>
+      <p style={proseStyle}>
+        Philipon&rsquo;s own masterstroke was a doodle. Hauled into court late in 1831 for insulting the king, he is famously said to have defended himself by sketching, right there for the jury, the king&rsquo;s round face <em>metamorphosing in four steps into a pear</em> — proving, he argued, that you could not ban a resemblance, because anything could be made to look like the king. The pear stuck. <strong>La poire</strong> — &ldquo;the pear,&rdquo; also French slang for &ldquo;fathead&rdquo; or &ldquo;simpleton&rdquo; — became the inescapable mocking shorthand for Louis-Philippe, scrawled on walls all over Paris. And Philipon was no mere bystander to the danger he aimed his artists at: he too was repeatedly prosecuted, convicted, and jailed for his attacks on the king — Daumier was not the only one who paid for this war in prison. (The courtroom pear-drawing is the famous traditional account of how the gag was born; treat the live-in-court details as received legend, not a verbatim transcript. That the pear became the regime&rsquo;s tormenting emblem is not in doubt.) Hold the pear in your mind — you are about to meet it on a giant&rsquo;s shoulders.
+      </p>
+
+      <SectionHeader accent={accent} label="A new kind of weapon" title="Why the stone mattered" />
+      <p style={proseStyle}>
+        What made Philipon&rsquo;s war possible was a fairly new printing trick called <strong>lithography</strong> (lith-OG-ruh-fee). Here is the whole thing in one breath: an artist draws directly onto a flat slab of limestone with a greasy crayon; the stone is then wetted and inked, and because grease and water repel each other, the ink sticks only where the crayon went; press paper to the stone and you have a print — and you can pull it again and again. The point that matters politically is the <em>directness</em> and the <em>cheapness</em>. A lithograph carries the artist&rsquo;s own hand, every line exactly as he drew it, and it can be churned out by the hundred for pennies. For the first time, a single furious image could be in shop windows across Paris by the weekend, affordable to people who could barely read. Philipon had a printing press for outrage. He needed a giant.
+      </p>
+      <p style={proseStyle}>
+        The young man who supplied it was <strong>Honoré Daumier</strong> (1808–1879), a stocky, good-humored Marseillais then in his early twenties and not yet famous for anything. Over his life Daumier would draw something like <strong>four thousand lithographs</strong> — he is the great visual satirist of the whole century, and decades later, with a brush instead of a crayon, he would become a serious painter of the city&rsquo;s poor (the Realism overview tells that long arc; you will meet the painter again in Chapter 5). But all of that is ahead of him. In December 1831 he was a hired hand at Philipon&rsquo;s shop, and he was about to draw the single most reckless picture of his life — a cartoon so direct it would put him in prison. The next chapter is the drawing itself.
+      </p>
+    </article>
+  )
+}
+
+function GaLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The print" title="One machine, drawn as a fat man" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>R</DropCap>
+        emember what you are looking at: not a painting but a <strong>lithograph</strong>, a black-and-white printed sheet, wider than it is tall — a <strong>landscape</strong> image about <strong>a foot wide and eight and a half inches high</strong> (roughly 30 centimeters across by 21 high) — small enough to hold, cheap enough to sell on the street, drawn entirely in greasy crayon on stone. Judge it as a print, not a picture: no color to seduce you, no oil to admire, just line and shadow doing argument. And the argument is brutally simple. Daumier has drawn the whole economy of the July Monarchy as a single picture of a giant being fed. Once you see how the parts connect, you cannot un-see it.
+      </p>
+
+      <SectionHeader accent={accent} label="The giant" title="The king as Gargantua" />
+      <p style={proseStyle}>
+        Up at the left sits the giant, and the giant is the king. Daumier has drawn <strong>Louis-Philippe as Gargantua</strong> — the enormous, insatiable glutton of <strong>François Rabelais&rsquo;s</strong> sixteenth-century comic satire (Rabelais&rsquo;s 1534 giant is the figure who gave English the word <em>gargantuan</em>; in 1831 every reader knew the name as a byword for monstrous, bottomless appetite). He is a mountain of a man slumped in a low armchair on a platform, legs splayed, his belly a vast pale dome, and he is doing the only thing this version of him ever does: <strong>eating</strong>. His mouth hangs open to receive. And crowning the whole bloated body — the detail that named names — is <strong>the pear</strong>: that round-cheeked, top-tufted head from Philipon&rsquo;s courtroom gag, so the dimmest viewer in Paris could not miss who the giant was. The biggest thing in the picture is the king, and he is pure mouth.
+      </p>
+
+      <SectionHeader accent={accent} label="The plank" title="The ramp into the mouth" />
+      <p style={proseStyle}>
+        Now follow the one bold diagonal that organizes everything: a long <strong>plank, a steep ramp or gangway</strong>, runs from the ground at the lower right all the way up to the king&rsquo;s open mouth. This is the spine of the cartoon. Cover it with your thumb and you have a fat man in a chair; uncover it and you have a feeding machine. The plank turns the giant from a person into a <em>system</em> — a thing with an intake. Everything the picture cares about travels up this board and vanishes into him. Daumier did the entire politics of the regime with a single drawn line propped against a chin.
+      </p>
+
+      <SectionHeader accent={accent} label="The bearers" title="Who carries the food" />
+      <p style={proseStyle}>
+        Look at who is on the plank. Tiny, bent figures — <strong>laborers hauling baskets and sacks of coins</strong> — trudge up the ramp toward the mouth, and at the bottom of it one of them doubles over a great hamper, loading the king&rsquo;s next mouthful. The size gap is the whole joke and the whole accusation: the king is a giant, the people feeding him are insects, and the food is the public&rsquo;s money. These are the taxpayers, drawn as ants carrying their own substance up a ramp into a creature that will never, ever be full. Their coins go up. Watch what does <em>not</em> come back down to them.
+      </p>
+
+      <SectionHeader accent={accent} label="The crowd" title="Where the money comes from" />
+      <p style={proseStyle}>
+        Off to the right, massed and shabby, stands the <strong>crowd of the poor</strong> — the source of all this squeezed wealth. Daumier draws them thin and ragged and many, a worn human reservoir being drained to fill one bottomless belly. The contrast does the moral work without a caption: gorged giant on one side, a whole emptied population on the other, and a plank carrying the difference from them to him. This is what the Citizen King&rsquo;s &ldquo;monarchy for everybody&rdquo; actually looked like, the cartoon says — the everybody pays, and the king eats.
+      </p>
+
+      <SectionHeader accent={accent} label="The other end" title="What the giant excretes" />
+      <p style={proseStyle}>
+        And here is the detail that turned a rude joke into a crime. Look <em>beneath</em> the king, at what comes out the other end of the giant. It is not waste. It is <strong>paper</strong> — a shower of <strong>patents, commissions, ribbons, decorations, official honors</strong> — and a scrum of <strong>well-dressed officials and cronies</strong> is scrambling on the ground to gather them up and carry them off, toward a <strong>government building</strong> at the lower left — widely identified as the <strong>Palais Bourbon</strong>, the seat of the Chamber of Deputies (the lower house of France&rsquo;s parliament). Hold the whole circuit in your head at once, because that is the masterpiece of it: the poor&rsquo;s taxes go <em>up</em> the plank into the king&rsquo;s mouth, and out his backside drop the jobs, medals, and favors — for the rich. Money in from the bottom; rewards out to the top. It is trickle-<em>up</em> economics, drawn with a literalness so crude and so clear that no one could pretend to misread it. Daumier did not write &ldquo;the king devours the nation and feeds his friends.&rdquo; He drew it, digestively, and made the viewer&rsquo;s own eye complete the insult.
+      </p>
+      <p style={proseStyle}>
+        That is the engine of the print: appetite at the top, exhaustion at the bottom, a single plank carrying wealth one way and a rain of honors falling the other. It is filthy, it is funny, and it is an argument about how a whole state distributes its money — all of it sketched in greasy crayon on a stone, in a sheet you could buy for pocket change. Down in the corner, the signature: <strong>h. Daumier</strong>. He had just signed a confession.
+      </p>
+    </article>
+  )
+}
+
+function GaTrial({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="December 1831" title="Banned before breakfast" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he print went up in the window of <strong>Gabriel Aubert&rsquo;s</strong> caricature shop — a fashionable little storefront in the <strong>Galerie Véro-Dodat</strong>, one of the glass-roofed shopping arcades of central Paris, and the public face of Philipon&rsquo;s satirical press. And it came down almost as fast. The authorities seized it on appearance. This is a detail worth getting right, because it is often blurred: <em>Gargantua</em> was made for Philipon&rsquo;s world and sold as a separate sheet through Aubert&rsquo;s shop, but it was suppressed so quickly that, by the careful scholarly account, it never actually ran in the pages of <strong>La Caricature</strong> at all. It was strangled in the window. (The journal attribution still persists in some museum catalogues — Yale&rsquo;s impression, for one, is filed as &ldquo;from the journal La Caricature&rdquo; — but the scholarship argues the print was a separately-sold sheet that the seizure kept out of the magazine.) The police did not merely ban the sheet; they ordered the <strong>lithographic stone destroyed</strong> and the remaining <strong>proofs</strong> (printed copies pulled from the stone) confiscated — they went after the means of making more. That is why, today, the cartoon that helped launch modern political art survives in only a handful of impressions. The state very nearly erased it on the spot.
+      </p>
+
+      <SectionHeader accent={accent} label="The charge" title="Insulting the king&rsquo;s body" />
+      <p style={proseStyle}>
+        Three men were dragged into court for the picture: <strong>Daumier</strong> for drawing it, the printer <strong>Hippolyte Delaporte</strong> for printing it, and the publisher <strong>Aubert</strong> for displaying and selling it. The charge, under the press law of November 1830, came in two parts — &ldquo;arousing hatred and contempt of the king&rsquo;s government,&rdquo; and the heavier one, <strong>offending the king&rsquo;s person</strong>. That second charge has an old, ominous name: <strong>lèse-majesté</strong> (lez-mazh-es-TAY), a treason-class crime meaning an injury to the dignity of the sovereign — the legal idea that the monarch&rsquo;s body is sacred and to mock it is to attack the state itself. Which is exactly why the cartoon&rsquo;s digestive humor was so explosive: Daumier had not merely criticized a policy. He had drawn the king&rsquo;s sacred royal body as a fat man eating money and excreting medals. The whole majesty of the throne, rendered as a bowel.
+      </p>
+
+      <SectionHeader accent={accent} label="The sentence" title="Six months — eventually" />
+      <p style={proseStyle}>
+        At the trial in <strong>February 1832</strong>, Daumier was held chiefly responsible and convicted. The sentence: <strong>six months in prison and a five-hundred-franc fine</strong>. But here the story has a twist that the shorthand &ldquo;jailed for a cartoon&rdquo; flattens, and it is worth telling straight, because the truth is sharper than the slogan. The sentence was at first <strong>suspended</strong> — held over his head rather than served. Daumier walked out of court a free man and did the most Daumier thing imaginable: he went straight back to his stone and kept right on savaging the regime. He did not learn the lesson. He doubled down.
+      </p>
+      <p style={proseStyle}>
+        It caught up with him. After a later lithograph needled the government once too often, the suspended term was activated. He was <strong>arrested at his parents&rsquo; apartment in August 1832</strong>, and on <strong>30 August 1832</strong> the doors of <strong>Sainte-Pélagie</strong> — a Paris prison that held debtors and political offenders — closed behind him. He served his six months there and was <strong>released on 14 February 1833</strong>. And here is the detail that tells you everything about the man: in prison, he kept drawing. You cannot censor a hand that refuses to stop. So &ldquo;Daumier went to jail for <em>Gargantua</em>&rdquo; is true — that one print is the crime that put the sentence on the books — but the full version is better: the cartoon earned the sentence, his own incorrigible nerve triggered it, and prison did not slow him down for a day.
+      </p>
+
+      <SectionHeader accent={accent} label="The bigger machine" title="Censorship&rsquo;s answer" />
+      <p style={proseStyle}>
+        Step back and see what the episode really demonstrates: how frightened power was of a cheap picture. A government does not smash a stone and jail an artist over a drawing it finds merely tasteless. It does so over a drawing it finds <em>effective</em> — a thing that puts a true, ugly idea into ten thousand heads faster than any pamphlet. The seizure was a backhanded review. It conceded that <em>Gargantua</em> worked. And the regime kept conceding it: as the satirical press kept up its war, the July Monarchy finally cut to the root and, with the <strong>September Laws of 1835</strong>, simply <em>banned political caricature outright</em>, requiring drawings to be approved before printing. (That blanket ban comes a few years after this case — read it as the war&rsquo;s endgame, not the punishment for this one sheet.) Daumier and Philipon had drawn so dangerously that the state eventually outlawed the entire art form. Few cartoonists in history can claim a clearer compliment.
+      </p>
+    </article>
+  )
+}
+
+function GaMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it invented" title="The cartoon as a political act" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hy give a whole deep-dive to a small banned print, when this app is otherwise full of ten-foot oil paintings? Because <em>Gargantua</em> is one of the founding documents of something we now take completely for granted: the <strong>modern political cartoon</strong>. Open any newspaper, anywhere, and somewhere on the opinion page a politician is drawn fat, or tiny, or as an animal, or as a machine — one savage exaggerated image that lands an argument faster than a column of print. That reflex, that whole genre, has an origin, and this is very near the source of it.
+      </p>
+
+      <SectionHeader accent={accent} label="The weapon" title="A fine-art medium turned cheap" />
+      <p style={proseStyle}>
+        Here is the deeper move, and it is exactly why this print belongs in a story about <strong>Realism</strong> — the nineteenth-century revolt that insisted ordinary, contemporary, unglamorous life was a fit subject for serious art (the Realism overview tells the movement whole). Lithography was a respectable artists&rsquo; technique; serious painters used it for serious prints. Daumier and Philipon took that fine-art medium and aimed it straight at last week&rsquo;s news, on behalf of the people with no other voice. The taxes of the poor, the favors of the rich, the greed of a sitting king — the actual mechanics of who-pays-and-who-eats in <em>this</em> regime, <em>this</em> year — rendered with all the directness of an artist&rsquo;s own hand and sold for pennies in a shop window. That is the Realist instinct before Courbet ever lifted a brush: point real art at the real present, especially the ugly part of it, and especially on the side of the powerless. Courbet would later do it with a village funeral ten feet tall. Daumier did it first, on a stone, with a fat king.
+      </p>
+      <p style={proseStyle}>
+        And the <em>form</em> of the argument is the lasting invention. Daumier did not describe the July Monarchy&rsquo;s corruption; he <strong>diagrammed</strong> it. He found a single visual metaphor — a body that eats money and excretes honors — that compressed a whole political-economic complaint into one glance. That is the cartoonist&rsquo;s essential trick, the thing the genre is <em>made of</em>: take an abstract grievance (the rich rig the system; the powerful feed off the weak) and give it a body, a plank, a basket, a mouth, so the viewer&rsquo;s eye does the accusing. Two hundred years of editorial cartoons — the bloated banker, the puppet politician, the tax-vampire, the trickle-down/trickle-up gag redrawn a thousand ways — are working the exact territory Daumier mapped here.
+      </p>
+      <p style={proseStyle}>
+        It is worth being precise about what was genuinely new, because political mockery itself is ancient — Romans scrawled rude verses about emperors, and English print-shops had savaged kings for a century before Daumier. What lithography changed was the <em>reach</em> and the <em>hand</em>. The old satirical print was an expensive engraving, laboriously cut into a copper plate by a specialist craftsman, sold to people who could afford prints. Daumier&rsquo;s stone carried <em>his own</em> drawing, line for line, and could be sold for a coin to a clerk on his lunch break. So the modern cartoon fuses two older things — the satirist&rsquo;s venom and the daily newspaper&rsquo;s timeliness — into one disposable, reproducible, devastating sheet that is <em>cheap enough to reach the very people the politician governs</em>. That fusion is the thing on the opinion page today, and <em>Gargantua</em> is one of its loudest early proofs of concept.
+      </p>
+
+      <SectionHeader accent={accent} label="The other half" title="Why a banned drawing beats a free one" />
+      <p style={proseStyle}>
+        There is a paradox worth naming. <em>Gargantua</em> barely circulated — the police saw to that. By the brute measure of how many people saw it in 1831, it almost failed. And yet it is the most famous thing Daumier made before he was a painter, and one of the most reproduced cartoons in the world. Why? Because the <strong>act</strong> outlived the <strong>image</strong>. The seizure, the smashed stone, the trial, the prison cell — that whole drama is itself the message, and it is a message about what a drawing can be <em>worth</em>. The state treated a one-franc print as a threat to the throne. In doing so it certified the cartoonist&rsquo;s power forever. Every artist who has ever drawn a leader as a pig or a clown and dared the censor to respond is standing in the spot Daumier marked: the place where a cheap funny picture is taken seriously enough to be dangerous.
+      </p>
+      <p style={proseStyle}>
+        That is the real meaning of this sheet. It is not just a good joke about a greedy king. It is the moment the political cartoon announced itself as a genuine weapon — cheap, fast, true, reproducible, and frightening to power — and it is the moment one young artist proved he would go to prison rather than put the crayon down.
+      </p>
+    </article>
+  )
+}
+
+function GaAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The few that survived" title="A banned sheet becomes a treasure" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he police were good at their job. They smashed the stone, swept up the proofs, and very nearly turned <em>Gargantua</em> into a print that had never existed. They did not quite manage it. A small number of impressions slipped through, and those survivors made an unlikely journey: from a banned object the state wanted erased, to a treasured one museums now keep under archival glass. The <strong>Bibliothèque nationale de France</strong> in Paris holds the print, and scattered impressions live in museum print rooms around the world (Yale, San Francisco, and others). Exactly how many survive, nobody can say with confidence — the honest word is &ldquo;<em>very few</em>.&rdquo; A cartoon that almost vanished is now one of the most carefully preserved drawings of its century. The state tried to destroy it; the state&rsquo;s descendants put it in the national library.
+      </p>
+      <p style={proseStyle}>
+        There is a small irony folded into that rarity. A lithograph is, by its whole nature, the <em>opposite</em> of rare — the medium exists precisely to make thousands of identical cheap copies. Daumier chose it because it could flood the city. And censorship turned that flood into a trickle: the one print built to be mass-produced became, by force, nearly unique. So the surviving sheets carry a double meaning. Each is at once an example of the most democratic image-making of its day and a relic of the state&rsquo;s attempt to choke it off — the people&rsquo;s cheap weapon, kept as a precious thing because the powerful tried so hard to erase it. A fittingly Daumier kind of joke for the print to get the last laugh with.
+      </p>
+
+      <SectionHeader accent={accent} label="The cartoonist&rsquo;s long war" title="Thousands more stones" />
+      <p style={proseStyle}>
+        Prison did not reform Daumier; it seasoned him. Out in February 1833, he went back to the press and kept drawing — and when the <strong>September Laws of 1835</strong> finally banned political caricature outright (Chapter 3), he simply changed targets. Forbidden to mock the king, he turned his crayon on <em>everyone else</em>: pompous lawyers, quack doctors, grasping landlords, the whole comedy of the modern bourgeois city. Over a career he produced something on the order of <strong>four thousand lithographs</strong> — an immense, daily, decades-long portrait of nineteenth-century French society, drawn one stone at a time. He is, simply, the greatest caricaturist of the age, and <em>Gargantua</em> is where the legend starts.
+      </p>
+
+      <SectionHeader accent={accent} label="Crayon to brush" title="The Realist who became a painter" />
+      <p style={proseStyle}>
+        But the part of Daumier&rsquo;s story that lands him in <em>this</em> chain of Realist works is what he did away from the press, quietly, for himself: he painted. In his later years Daumier turned to oil, and pointed the same unsentimental eye that had skewered the king at the ordinary poor of the modern city — not to mock them now, but to <em>see</em> them. The masterpiece of that turn is <strong>The Third-Class Carriage</strong> (about 1862–64, now in the Metropolitan Museum in New York), a painting of the cheapest class of a railway car packed with the urban poor: an old woman, a nursing mother, a sleeping boy, tired and dignified and utterly without pity or sentiment. It is the same Realist instinct as <em>Gargantua</em>, grown up and gone gentle — point real art at real contemporary life, especially the part of it nobody else thinks worth painting. (That painting has its own deep-dive in this chain; the man you met here jailed for a cartoon is the man who painted it.)
+      </p>
+      <p style={proseStyle}>
+        So Daumier holds a strange and singular place in <strong>Realism</strong>. Where Courbet is the Realist of the province and Millet the Realist of the field, Daumier is the <strong>Realist of the modern city</strong> — its crowds, its swindlers, its politicians, its third-class poor. And he reached that subject by a road none of the others traveled: through the cheap printed cartoon and through a prison cell. The movement&rsquo;s grand statement is usually told as a ten-foot oil painting hung in the Salon. But part of it began smaller and dirtier and braver than that — as a one-franc lithograph of a king eating his people&rsquo;s money, in a shop window the police shut down by the weekend, drawn by a young man who would rather go to jail than stop.
+      </p>
+      <p style={proseStyle}>
+        That is the throughline, said flat one last time: Daumier took a fine-art print medium, aimed it at a living king on behalf of the powerless, compressed a whole corrupt economy into one image of a giant being fed, and paid for it with six months of his freedom. In doing so he helped invent the political cartoon — and proved, before Realism even had its name, that serious art could be cheap, current, furious, and on the side of the people carrying the baskets up the plank.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Third-Class Carriage (Daumier, c.1862–64) — the five chapters
+// Drop into art-section-reader.tsx; register the five functions in
+// NARRATIVES.carriage. Matches the BURIAL JSX exactly (SectionHeader,
+// DropCap, proseStyle, <strong>/<em>, <article style={{ padding: ... }}>,
+// `first` on the opener). No inline figures. HTML entities for quotes.
+// Section ids: rail · looking · unfinished · meaning · afterlife.
+// ─────────────────────────────────────────────────────────────
+
+function TcRail({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · the railway age" title="A new machine for the poor to sit in" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or most of human history, a poor person travelled the way their grandparents had: on foot, or not at all. Then, in the space of about thirty years, France laced itself with iron. The <strong>railway</strong> — steam engines hauling long strings of carriages along metal tracks — went from a curiosity in the 1830s to the ordinary spine of the country by the 1860s, and suddenly a laborer, a market-woman, a tired mother with a baby could buy a ticket and sit in a moving box with a hundred strangers, going somewhere. It is hard, now, to feel how strange that was. A whole new kind of human experience had been invented: being crammed together with people you will never see again, in transit, going nowhere in particular together. That experience is the subject of this painting.
+      </p>
+      <p style={proseStyle}>
+        And it had a price tier. Railways sold tickets in three grades. <strong>First class</strong> meant an upholstered, enclosed compartment — padding, privacy, comfort. <strong>Second class</strong> was plainer. <strong>Third class</strong> — the title of this picture — was the cheapest seat there was: <strong>hard wooden benches</strong>, the most crowded car, sometimes barely sheltered, the carriage where the poor rode because it was all they could afford. To name a painting <em>The Third-Class Carriage</em> in 1860s France was to point, very specifically, at the bottom of the new system. Everyone knew exactly which seats those were, and who sat in them.
+      </p>
+
+      <SectionHeader accent={accent} label="The cartoonist" title="The man the public did NOT know as a painter" />
+      <p style={proseStyle}>
+        Now the strange part: the man who painted this was, to all of France, not a painter at all. He was a <em>cartoonist</em>. <strong>Honoré Daumier</strong> (1808–1879) earned his living for some forty years drawing for the satirical newspapers — <em>La Caricature</em> and <em>Le Charivari</em> — and he was magnificent at it, turning out more than <strong>four thousand lithographs</strong> over his career. A <strong>lithograph</strong> (the cheap mass-printing method of the day: you draw with a greasy crayon on a flat slab of limestone, then run off hundreds of identical copies) was the engine of the illustrated press, and Daumier was its great talent — the sharpest pen in Paris, skewering politicians, lawyers, landlords, the smug and the powerful, week after week, for decades. If you lived in nineteenth-century France and you knew the name Daumier, you knew it from the newspaper, the way you might know a great editorial cartoonist today.
+      </p>
+      <p style={proseStyle}>
+        That fame came at a cost. As a young man in <strong>1831</strong> he drew his most notorious cartoon, <strong>Gargantua</strong> — the king, Louis-Philippe, as a bloated giant on a throne, swallowing the people&rsquo;s taxes shoveled up a ramp into his mouth and excreting favors to his cronies — and the regime threw him in jail for it (six months, by the standard account). That drawing has its own deep read one shelf over in this app; it is the Daumier you are <em>supposed</em> to know, the fearless caricaturist. The man who quietly painted <em>The Third-Class Carriage</em> in oil is the same person, twenty years on, doing something almost nobody saw him do.
+      </p>
+
+      <SectionHeader accent={accent} label="The brush nobody watched" title="A private second life in oil" />
+      <p style={proseStyle}>
+        Because here is the thing that makes Daumier&rsquo;s paintings so strange and so moving: he made them almost in secret, and almost nobody bought them. From the 1840s onward he painted seriously — small, dark, hand-worked oils of the people he saw every day: laundresses hauling washing up the riverbank, lawyers preening in court, families on the move, crowds in the street. But these were not his job. His job was the newspaper. The paintings piled up in the studio, exhibited rarely, sold barely at all. The public that adored Daumier the cartoonist had no idea that Daumier the painter existed. He was, in effect, running a second, invisible career in oil paint — the one that, a century later, would turn out to matter most.
+      </p>
+      <p style={proseStyle}>
+        He did not arrive at the railway cold, either. Daumier had been drawing train travel for years in the newspaper — a whole lithograph series on <strong>the railways</strong> (<em>Les Chemins de fer</em>) ran in <em>Le Charivari</em> across the 1840s and 50s, the modern machine treated as the comic, crowded, slightly absurd new fact of life it was. The painting grew out of that long looking. By the early 1860s he had moved the third-class carriage from the funny pages onto a canvas, and stopped joking. What had been a gag about the crush and chaos of modern travel became, in oil, something quiet and grave — a picture of the people in those cheap seats, painted as if they mattered. The next chapter is what that looks like.
+      </p>
+    </article>
+  )
+}
+
+function TcLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A box of brown, and a fall of light" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the dark, because the painting does. <em>The Third-Class Carriage</em> is not large — about <strong>two feet tall and three feet wide</strong> (65 by 90 centimeters), a picture you could carry under one arm — and almost the whole of it is a low, brown, enclosed space, the inside of a railway car packed shoulder to shoulder. The only real light comes from <strong>two pale windows in the upper left</strong>, two bright rectangles cut into the murk. That light falls forward, onto the front bench, and it decides everything: your eye goes straight to the three people it lands on before you have even registered the crowd behind them. Daumier has lit his stage so that three of the poorest passengers in France are, for a moment, the most important people in the room.
+      </p>
+
+      <SectionHeader accent={accent} label="The front bench" title="Three ages of the poor, on one hard seat" />
+      <p style={proseStyle}>
+        Look at the front bench, left to right, because it is composed with great care. At the left sits a <strong>young mother</strong>, head bowed, <strong>cradling an infant</strong> wrapped against her lap. Hers is one of the most tenderly painted passages in the picture — the soft downturn of the head, the curve of the arm around the child — and it is doing the painting&rsquo;s quiet emotional work without raising its voice. This is not a Madonna, not a symbol of Motherhood with a capital M. It is a tired woman holding her baby on a long ride, painted as though that were as worth painting as any saint.
+      </p>
+      <p style={proseStyle}>
+        In the center — the most finished face in the whole canvas — sits an <strong>old woman</strong>. She is the one you remember, and the first thing your eye actually finds is the <strong>pale cream head-wrap</strong> framing her face — a hood or kerchief of light cloth that is the single brightest thing in this dark painting. In a box of browns and shadow, that soft patch of near-white pulls the eye straight to her before anything else, and Daumier knew it: he made the lightest passage in the picture the head of his most important figure. Beneath it he has worked her face hardest — deeply lined, jaw set, eyes forward and a thousand miles away, the face of someone who has done a great deal of waiting in her life and is doing some more now. Her hands are folded over the handle of a <strong>woven wicker basket</strong> on her lap — whatever she owns or is carrying, kept close. She is not grieving, not pleading, not telling a story. She is simply <em>sitting</em>, the way people actually sit on a long journey, and Daumier paints that flat, unremarkable endurance as if it were the most dignified thing in the world. Which, the painting quietly insists, it is.
+      </p>
+      <p style={proseStyle}>
+        At the right end of the bench, a <strong>boy has fallen asleep</strong>, slumped sideways, head dropped — the way children always give out somewhere in the middle of a trip. A dark box or chest, the family&rsquo;s luggage, sits in the lower-right corner beside him. Now stand back and read the bench as a whole: a baby at the breast, a mother, an old woman, a sleeping child. It is the <strong>three ages of a poor family</strong> — infancy, working adulthood, old age — lined up across a single hard wooden seat. Daumier did not have to spell out a moral; he just arranged the figures so that the whole arc of a hard life rides together on one bench.
+      </p>
+
+      <SectionHeader accent={accent} label="The crowd behind" title="A hundred faces dissolving into the dark" />
+      <p style={proseStyle}>
+        Then look up and back, into the rest of the car, and watch the painting do its most modern thing. Behind the front three sit <strong>rows and rows of other passengers</strong> — men in tall dark hats and workmen&rsquo;s caps, women in bonnets — and the farther back they go, the less they are. The faces near the front bench are still people; a little deeper in they become sketches; deeper still they are smudges and silhouettes, a few brushstrokes suggesting a head, a shoulder, the brim of a hat. By the back of the car they have dissolved almost entirely into the brown dark. (The painting is unfinished, which sharpens the effect — but the design is doing it on purpose.) The man directly behind the mother, in a tall dark hat at the left, is little more than a black shape.
+      </p>
+      <p style={proseStyle}>
+        This is the heart of the picture&rsquo;s subject, and it is a brand-new subject: <strong>anonymity</strong>. These people are strangers. They did not choose each other; the railway threw them together; they will get off and never meet again. Nobody in the back of that car is anybody in particular — they are simply <em>the crowd</em>, the mass of the modern city, packed into a moving box. Daumier paints the front three as individuals and the rest as an undifferentiated human tide, and the contrast is the whole point. Modern life means being a specific, sitting, breathing person <em>and</em> an interchangeable unit in a crowd, both at once. No painter had quite shown that before, because before the railway, that was not yet how life felt.
+      </p>
+
+      <SectionHeader accent={accent} label="Dignity without pity" title="What the painting refuses to do" />
+      <p style={proseStyle}>
+        Here is the hardest thing to see, and the best. A painting of the poor in 1862 had two easy, expected moves available, and Daumier refuses both. He could have made them <em>pitiable</em> — gaunt, weeping, ragged, a tug at the comfortable viewer&rsquo;s conscience, the poor as a charity appeal. Or he could have made them <em>charming</em> — picturesque rustics, lovable and quaint, poverty made cozy. The nineteenth century produced oceans of both. Daumier does neither. His passengers are not victims and they are not adorable. They are just <em>people on a train</em>, tired and self-contained and getting through it, given exactly the gravity and the solid, sculptural weight he would have given a senator.
+      </p>
+      <p style={proseStyle}>
+        That refusal is the painting&rsquo;s moral spine. There is real tenderness here — you feel it in the bowed mother, in the worn old face — but it never curdles into sentimentality, never asks you to weep, never strikes a pose. Daumier simply grants the people in the cheapest seats the one thing that art had always reserved for the important: he takes them <em>seriously</em>. He paints their ordinary endurance as a subject worthy of oil paint and careful light, and he trusts you to feel its weight without being told to. Look again at the old woman&rsquo;s face. Nobody is performing for you. That is the whole achievement.
+      </p>
+    </article>
+  )
+}
+
+function TcUnfinished({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Behind the paint" title="A picture caught half-built" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the secret hiding in plain sight, and it is the reason this particular version of <em>The Third-Class Carriage</em> is the famous one: <strong>it is unfinished</strong>. Daumier started it and stopped — left it abandoned, the paint thin in places, whole passages barely worked up, the dark only roughed in. Normally an unfinished painting is just a sad fragment, a thing the artist would not have wanted you to see. But this one is unfinished in a way that turns into a gift, because Daumier was caught mid-process, and the canvas froze with all of his scaffolding still showing. You are looking at a picture you can see <em>through</em> — down to the bones of how it was made.
+      </p>
+      <p style={proseStyle}>
+        Lean in on the unfinished areas, especially up near the two windows at the left, and you will see something most paintings hide forever: <strong>straight ruled lines</strong>, a faint grid of squares, and the bare drawn contours of the figures, showing right through the thin oil. That grid is not damage and it is not decoration. It is the machinery of the painting, left bare because the paint that was supposed to cover it never arrived.
+      </p>
+
+      <SectionHeader accent={accent} label="The grid explained" title="What 'squaring for transfer' means" />
+      <p style={proseStyle}>
+        To understand what you are seeing, you need one technique, and it is a beautifully simple one that artists have used for centuries. Suppose you have a small drawing or watercolor you love, and you want to copy it accurately onto a much bigger canvas — bigger than you can just eyeball. You draw a grid of squares over the small version, and then you draw a matching grid — same number of squares, scaled up — onto the big canvas. Now you copy the picture one square at a time: whatever is in the little square here goes into the big square there. The grid keeps everything in proportion as you enlarge it. This is called <strong>squaring up</strong>, or <strong>squaring for transfer</strong>, and the grid is supposed to be the first thing you draw and the last thing you think about — you paint right over it and it disappears.
+      </p>
+      <p style={proseStyle}>
+        On the Met&rsquo;s canvas, it never disappeared. The painting is, in the museum&rsquo;s own words, &ldquo;still squared for transfer&rdquo; — Daumier had ruled his grid, drawn his figures square by square, begun laying in the paint, and then put it down before the surface was finished. So the grid is still there, faint but unmistakable, a ghost of straight lines under the people. He was almost certainly enlarging from a smaller study — most likely a <strong>watercolor</strong> of the same scene (more on that in a moment) — and we have caught him with the enlargement only half-done.
+      </p>
+
+      <SectionHeader accent={accent} label="An X-ray of the method" title="Why a flaw became the prize" />
+      <p style={proseStyle}>
+        Think about how rare this is. A finished painting is a sealed object; it shows you the result and hides the labor. To see <em>how</em> an old master actually built a picture, museums normally have to shoot it with <strong>X-rays</strong> or infrared cameras to peer beneath the top layer at the drawing underneath. Here you need no machine. Daumier&rsquo;s abandoned canvas is, in effect, a free X-ray — the underdrawing and the grid sitting right on the surface where anyone can read them. You can watch a great picture in the act of being made: the ruled scaffolding, the drawn search for each figure, the paint beginning to climb over the drawing in the most worked passages (the old woman&rsquo;s face) and not yet arriving in the least (the dark back of the car).
+      </p>
+      <p style={proseStyle}>
+        And here is the irony that makes art historians smile: this is exactly the version everyone reproduces. A perfectly finished <em>Third-Class Carriage</em> exists — it would have buried its grid like every other painting — but it is the broken, half-built one that became iconic, precisely <em>because</em> it is broken. The unfinish is not a defect to apologize for; it is the most interesting thing in the room. The painting lets you see Daumier thinking.
+      </p>
+
+      <SectionHeader accent={accent} label="One subject, many tries" title="The family of versions" />
+      <p style={proseStyle}>
+        That smaller study the grid points back to is real, and it opens up an honest complication worth knowing: there is no single <em>The Third-Class Carriage</em>. Daumier worked the subject more than once. There is a finished <strong>oil painting</strong> in the <strong>National Gallery of Canada</strong>, in Ottawa, very close in composition to this one. There is a <strong>watercolor</strong> of 1864 in the <strong>Walters Art Museum</strong> in Baltimore — commissioned by the American collector <strong>William T. Walters</strong> (the Baltimore businessman whose private collection later became that museum) as part of a set showing first-, second-, and third-class carriages — and the squaring grid on the Met&rsquo;s canvas may well have been taken straight off it. There is an even earlier <strong>oil on a wooden panel</strong> in San Francisco, with the three main figures arranged differently. He kept returning to the cheap seats, in print and in paint, for the better part of two decades.
+      </p>
+      <p style={proseStyle}>
+        So the honest way to say it is this: the Met owns one member of a family — the unfinished one, the one whose machinery shows. It is not the &ldquo;original&rdquo; and the others &ldquo;copies&rdquo;; it is one pass at a subject Daumier could not leave alone. And it became the most beloved of them all by an accident of incompletion — because the version where the paint stops short is the version where you can see, with your own eye and no apparatus at all, exactly how a man builds a picture of the poor.
+      </p>
+    </article>
+  )
+}
+
+function TcMeaning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="What it’s doing" title="Realism climbs aboard the train" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his painting belongs to a movement, and knowing which one tells you what it is up to. It is a work of <strong>Realism</strong> — the mid-century revolt, told in full in the Realism overview one level up in this app, that insisted the real, ordinary, contemporary world deserved to be painted at the same scale and seriousness art had always saved for gods, kings, and saints. The Realists threw out the rule that only the grand and the antique were worth a serious canvas. They painted the present, and they painted the poor, and they refused to prettify either. <em>The Third-Class Carriage</em> is that program applied to a railway bench.
+      </p>
+      <p style={proseStyle}>
+        But within Realism, Daumier is doing a particular job, and it helps to see him beside his two great siblings. <strong>Gustave Courbet</strong>, the movement&rsquo;s loud public face, painted the <em>village</em> — a country funeral, two laborers breaking rock — the rural community at heroic size. <strong>Jean-François Millet</strong> painted the <em>fields</em> — peasants sowing, gleaning, praying at dusk — the timeless rhythm of rural labor. Both looked to the countryside. Daumier looked the other way. He painted the <strong>city</strong>: its courtrooms, its street crowds, its laundresses on the riverbank, and here its third-class poor in motion. If Courbet and Millet are the rural half of Realism, Daumier is its urban half — the one who saw that the truly new subject was not the eternal peasant but the modern crowd.
+      </p>
+
+      <SectionHeader accent={accent} label="The new subject" title="Anonymity, painted for the first time" />
+      <p style={proseStyle}>
+        And the railway car gave him the perfect machine for that subject. Think about what a third-class carriage actually <em>is</em>: a small box that takes a random scoop of strangers — a nursing mother, an old woman, a sleeping boy, a hundred others — and presses them together for an hour, close as family, with no relation to one another at all. That is the defining experience of the modern city distilled into one room on wheels: <strong>intimacy without connection</strong>, crowding without community. Before the industrial age, that experience barely existed; you knew the people you were close to. The railway invented the everyday crowd of strangers, and Daumier was the painter who looked at it head-on and said: <em>this</em> is what life is now.
+      </p>
+      <p style={proseStyle}>
+        That is why the dissolving faces in the back of the car matter so much. Daumier is not being lazy or merely leaving the picture unfinished; he is painting <strong>anonymity itself</strong> — the way, in a modern crowd, most people are nobody to you, a blur of hats and shoulders, while the few right in front of you are heartbreakingly specific. He found a way to put both halves of city life into one image: the individual and the mass, the face you could love and the crowd you could never know, sharing the same brown air. The <strong>Impressionists</strong> — the generation just after, Monet, Renoir, Degas and the rest, who in the 1870s would paint modern life in quick, bright, broken strokes of color — would fill their canvases with exactly these anonymous urban crowds: boulevards, cafés, train stations. Daumier got there first, in the dark.
+      </p>
+
+      <SectionHeader accent={accent} label="Tenderness, held in check" title="The opposite of a sob story" />
+      <p style={proseStyle}>
+        The deepest thing this painting does, though, is hold a hard line between two feelings that are easy to confuse: <strong>tenderness</strong> and <strong>sentimentality</strong>. Tenderness is real care, honestly observed. Sentimentality is feeling worked up for effect, the manipulative tug — the starving orphan with the enormous wet eyes, painted to make you reach for your handkerchief and feel good about it. The nineteenth century was drowning in the second kind; pictures of the deserving poor, milked for tears, were a whole industry. Daumier had every tool to join that industry and pointedly declined.
+      </p>
+      <p style={proseStyle}>
+        His passengers are treated with obvious, deep tenderness — you cannot look at that bowed mother or that worn old face without feeling it — but he never <em>cashes it in</em>. Nobody weeps. Nobody is gaunt for your benefit. Nobody looks up at you, the comfortable viewer, asking for anything. The people in the cheap seats are simply allowed to exist, with dignity and weight, going about the dull business of getting somewhere. That restraint is the whole achievement, and it is harder than tears. Daumier the cartoonist had spent forty years making people feel things on command; Daumier the painter, here, does the much rarer thing — he makes you feel the worth of three strangers on a bench, and then trusts you enough to leave it at that.
+      </p>
+    </article>
+  )
+}
+
+function TcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The painter’s decline" title="Famous, going blind, and broke" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he story of what happened to this painting only lands if you know what happened to its painter, and it is a hard story. By the mid-1860s — right around when he was working this very canvas — Daumier was sinking. The newspaper work that had kept him afloat for decades was drying up; money ran short. He left Paris for a small house in the village of <strong>Valmondois</strong>, north of the city, and there he might well have been evicted but for a friend. The great landscape painter <strong>Camille Corot</strong> — a gentle, generous man and a fellow traveler of the Realists — stepped in to help; by the well-known account, Corot quietly arranged the house so that Daumier would have a roof for the rest of his life. One painter the public adored, kept off the street by another painter&rsquo;s charity.
+      </p>
+      <p style={proseStyle}>
+        Then the cruelest blow for a man who lived by his eyes: he went <strong>blind</strong>. Through the 1870s Daumier&rsquo;s sight failed, and by about 1873 he could barely see. The hand that had drawn four thousand of the sharpest images in France could no longer draw. He spent his last years in the country, nearly sightless and very poor, the oils he had painted in private still piled up, still unsold, still unseen.
+      </p>
+
+      <SectionHeader accent={accent} label="Recognition, almost too late" title="The 1878 show" />
+      <p style={proseStyle}>
+        In <strong>1878</strong>, one year before he died, the art world finally turned to look. A <strong>retrospective exhibition</strong> of his work — held at the Durand-Ruel gallery in Paris — gathered the paintings and drawings together and let people see, perhaps for the first time, that the famous cartoonist had been a major artist all along. It was the recognition he had earned and never received. It came decades late, and it came in a body going blind, and — the final indignity — the exhibition lost money. Daumier died the next year, in <strong>1879</strong>, poor to the end. He never knew that the quiet oils nobody would buy would one day be treasured above almost everything he had drawn.
+      </p>
+
+      <SectionHeader accent={accent} label="An ocean away" title="How New York got the cheapest seats in France" />
+      <p style={proseStyle}>
+        The rescue, when it finally came, came from across an ocean. In <strong>1913</strong>, more than thirty years after Daumier&rsquo;s death, the American collector <strong>Louisine Havemeyer</strong> bought <em>The Third-Class Carriage</em> — reportedly for around forty thousand dollars, an enormous sum for a picture its own painter could not sell. Havemeyer was no ordinary buyer. Her husband was <strong>H. O. Havemeyer</strong>, the American sugar magnate (the family fortune came from refining sugar), and his money paid for the art — but the eye was hers, sharpened by her friend the painter <strong>Mary Cassatt</strong> (an American painter who championed French Impressionism and steered great American collections toward it). Guided by Cassatt for years, the Havemeyers assembled one of the greatest collections of modern French art anywhere, and made it their mission to bring that art to the United States. A canvas painted for nobody, by a man the public knew only as a newspaper cartoonist, ended up a prize of one of America&rsquo;s grandest collections.
+      </p>
+      <p style={proseStyle}>
+        And then she gave it away. On her death, the painting came to the <strong>Metropolitan Museum of Art</strong> in New York as a <strong>bequest</strong> — that is, a gift left in her will — in <strong>1929</strong>, part of the celebrated H. O. Havemeyer Collection. (The provenance has one honest gap: the exact chain of owners between Daumier&rsquo;s studio and Havemeyer&rsquo;s purchase is not securely documented — but the two ends, the broke painter and the New York museum, are certain.) So the unfinished picture of the poorest seats on a French train now hangs, permanently, in one of the richest museums in the world. You can stand in front of it any day the Met is open.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The dignity of the people in the cheap seats" />
+      <p style={proseStyle}>
+        Sit with the whole arc for a second, because it is one of art history&rsquo;s great reversals. A man known to all of France as a cartoonist painted, in private, the people nobody painted — the urban poor on a third-class bench, a nursing mother, an old woman with her basket, a sleeping boy, a crowd of strangers dissolving into the dark. He never finished it; he never sold it; he died blind and broke; and the picture became famous precisely <em>because</em> it was broken, its working grid showing through. Then it crossed an ocean to become a treasure of New York.
+      </p>
+      <p style={proseStyle}>
+        What survives all of that is the thing Daumier actually put on the canvas: the radical, quiet idea that the people in the cheapest seats are worth the most careful looking. No pity, no charm, no sob story — just three strangers on a hard bench, granted the full weight and seriousness of serious art. That was Realism&rsquo;s whole wager, made by Courbet in a village graveyard and by Millet in a stubble field; Daumier made it on a train. Every later artist who has pointed a serious brush, or lens, at an anonymous crowd in a modern city — at the people history files under <em>and others</em> — is riding in the carriage Daumier painted first.
+      </p>
+    </article>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────
+// The Horse Fair (Rosa Bonheur, 1852–55) — the five chapters
+// Section ids: market · looking · salon · bonheur · afterlife
+// Drop into <work>-narratives.tsx and register under NARRATIVES['horse-fair'].
+// Signatures match BuTown… exactly. HTML entities for quotes/apostrophes.
+// ─────────────────────────────────────────────────────────────
+function HfMarket({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1850–52" title="The trousers were a work permit" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        wice a week, for about a year and a half, a small, short-haired figure in a man&rsquo;s smock and trousers stood at the edge of the Paris horse market with a sketchbook, drawing animals nobody else thought worth drawing. The figure was a woman named <strong>Rosa Bonheur</strong> (1822&ndash;1899), and she was not in disguise for the fun of it. She was at work. The market she had chosen &mdash; loud, filthy, crowded with stamping draft horses and the men who wrangled them &mdash; was no place a respectable Frenchwoman in a wide skirt could stand for hours without becoming the spectacle herself. So Bonheur did the practical thing: she got the clothes that let her do the job.
+      </p>
+      <p style={proseStyle}>
+        That meant a trip to the police. Under a French law on the books since 1800, a woman could not legally wear trousers in Paris without official permission &mdash; a literal government document called a <strong>permission de travestissement</strong> (a &ldquo;permit to cross-dress,&rdquo; which had to be renewed every six months). Bonheur applied for one and got it, on the entirely reasonable grounds that men&rsquo;s clothing let her move through the markets, the slaughterhouses, the stockyards and the riding schools where she studied animals &mdash; places a long skirt made impossible. This detail gets told, far too often, as a quirky costume anecdote. It is better understood as what it was: a working professional acquiring the right equipment. Painters need to see their subject up close. Hers happened to live in places the law dressed her out of.
+      </p>
+
+      <SectionHeader accent={accent} label="What an animalière is" title="The painter who only painted animals" />
+      <p style={proseStyle}>
+        Bonheur was an <strong>animalière</strong> &mdash; the feminine form of <em>animalier</em>, the name for a painter who specializes in animals as the main subject, not as scenery behind a person. It was a real specialty with a real ranking, and the ranking was low. European art ran on an official ladder of subject matter, the <strong>hierarchy of genres</strong> (the Realism overview one level up in this app lays it out in full): grand scenes from myth and scripture and ancient history at the top, plain modern life at the bottom, and animals down there near the floor with the still lifes. A painter of cows and horses was, by the academy&rsquo;s own arithmetic, doing humble work. Bonheur&rsquo;s whole career is the story of taking that humble category and making it pay, and matter, like the grand one.
+      </p>
+      <p style={proseStyle}>
+        She came to it honestly. Her father, Raymond Bonheur, was a drawing teacher and a believer in a utopian sect that preached the equality of women &mdash; an unusual household to grow up in, and one that took her ambition seriously when most families would have steered a daughter toward a husband. By the time she set up at the horse market she was already a name. Her <strong>Ploughing in the Nivernais</strong> (1849), a great frieze of oxen dragging a plough through heavy earth, had been commissioned by the French state and had won a First Medal at the Salon (the Salon&rsquo;s top prize) &mdash; the Salon being the official annual exhibition that made and broke careers (Chapter 3 gets into the Salon properly). So the woman in trousers at the horse market in 1850 was not an unknown trying to break in. She was a decorated professional going after a harder subject.
+      </p>
+
+      <SectionHeader accent={accent} label="The Boulevard de l'Hôpital" title="The rawest horse subject in Paris" />
+      <p style={proseStyle}>
+        And horses were a harder subject. Oxen plod; you can draw a plodding ox at leisure. The Paris <strong>horse market</strong>, held twice a week on the tree-lined <strong>Boulevard de l&rsquo;Hôpital</strong> on the Left Bank, was the opposite of leisure: heavy draft horses led, reared, wheeled and fought against their handlers while buyers haggled and the whole churning mass kicked up dust. To paint that, you cannot work from a calm model standing in a studio. You have to be <em>there</em>, in the noise, catching the motion of an animal that will not hold still for thirty seconds, and then doing it again, and again, for eighteen months, until you have hundreds of studies of how a panicking half-ton horse actually moves its legs.
+      </p>
+      <p style={proseStyle}>
+        Bonheur went further than sketching the living animals. To get the muscle right &mdash; the way a haunch bunches, the way a foreleg takes weight &mdash; she studied dead ones, dissecting carcasses and working in the abattoirs (the slaughterhouses), the same places her trousers permit let her enter. It is not a delicate way to learn to paint a horse. It is an anatomist&rsquo;s way, and it is exactly why her horses, when you finally see the finished canvas, have a weight and a correctness that a prettier painter&rsquo;s never would. She earned that ton of muscle the hard way, by the ounce, in the dust and the slaughterhouse, in clothes the law made her ask permission to wear.
+      </p>
+      <p style={proseStyle}>
+        The result of those eighteen months is the largest, most ambitious thing she ever made &mdash; a canvas eight feet tall and over sixteen feet wide, built to put the whole churning market on a single wall. The next chapter is what it actually looks like.
+      </p>
+    </article>
+  )
+}
+
+function HfLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Eight feet tall, sixteen feet wide" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because the size is the first argument the painting makes. <em>The Horse Fair</em> is about <strong>eight feet tall and over sixteen feet wide</strong> (244.5 by 506.7 centimeters, if you want the museum&rsquo;s number) &mdash; wider than two cars parked end to end, taller than the room you are probably in. That is not a picture you hang over a sofa. That is a picture you give a wall to. And it is the same acreage the academy reserved for its grandest subjects: the death of a king, a battle from antiquity, a saint ascending into heaven. Bonheur spent the whole enormous sum on horse-dealers and their animals at a market. Hold that mismatch &mdash; it is the engine of the whole work, and Chapter 3 is about what it did to Paris.
+      </p>
+      <p style={proseStyle}>
+        Now actually look at it. Stand back far enough to take in the whole sixteen feet and the first thing you feel is not a scene but a <em>force</em> &mdash; a wave of animals coming at you from the upper left and breaking toward the lower right, all motion, all muscle, all dust. Then your eye finds the parts.
+      </p>
+
+      <SectionHeader accent={accent} label="The center" title="The dark horse and the rolling greys" />
+      <p style={proseStyle}>
+        Go to the middle first, because everything points there. Just left of center, the most violent thing in the painting is happening: a <strong>dark, near-black horse</strong> rears straight up, hauled half off its front hooves, head flung back, forelegs clawing the air, a handler dragging at its head. That is the painting&rsquo;s sharpest spike of motion &mdash; the single animal that has truly gone vertical &mdash; cutting a black silhouette against the pale dust behind it. Your eye snags on it first because nothing else in the canvas is reared up that high.
+      </p>
+      <p style={proseStyle}>
+        Then, just to the right of it, comes the brightest mass on the whole canvas: two big, pale, <strong>dappled-grey horses</strong> &mdash; the heavy French farm breed called a <strong>Percheron</strong> (a powerful draft horse from the Perche region, bred to pull, not to race). These two aren&rsquo;t rearing; they are being led and wheeled at a hard trot, heads tossing, hides catching the strongest light in the painting and glowing grey-white against the darker animals and the dim trees. The dark horse gives you the rear; the greys give you the rolling, unstoppable bulk &mdash; a ton of pale muscle the handlers can steer but not really stop. Between them they own the center &mdash; the spot a history painter would have given a hero. Bonheur put panicking workhorses there, and lit them like gods.
+      </p>
+      <p style={proseStyle}>
+        It is worth dwelling on how <em>convincing</em> these animals are, because it is the payoff of all those slaughterhouse hours. The dark horse&rsquo;s neck arches under real tension; the greys&rsquo; chests are slabs of weight; every leg takes the strain of an animal fighting the men around it. These are not decorative rocking-horses but thousands of pounds of frightened muscle, rendered by someone who had taken a horse apart to learn how it was put together. You can almost hear the hooves &mdash; and that is not a figure of speech the painting hasn&rsquo;t earned.
+      </p>
+
+      <SectionHeader accent={accent} label="The diagonal" title="A river of muscle, left to right" />
+      <p style={proseStyle}>
+        Now pull back and watch how the whole thing <em>moves</em>. The horses and handlers don&rsquo;t stand in a tidy row; they pour across the canvas in one long churning <strong>diagonal</strong>, surging from the upper left toward the lower right: the dark horse rearing just left of center, the grey Percherons wheeling and rolling beside it, a chestnut straining into the mass, more animals crowding off into the haze at the right. Your eye doesn&rsquo;t rest on any one figure for long; it gets swept along the current, the way it would scanning a real crowd of spooked animals.
+      </p>
+      <p style={proseStyle}>
+        Look, too, for the people, because they are nearly drowned in the animals. Scattered through the center are the <strong>handlers</strong> &mdash; men in blue smocks and rolled shirtsleeves, gripping halters and leaning their whole bodyweight back against the horses. Down at the lower left a handler in a red cap throws his weight against a halter; he is the one warm spot of color low in the churn. But the figure that really arrests you sits right in the thick of it: a <strong>mounted handler in a blue smock, twisting around in his saddle</strong>, one arm reaching back, his whole torso wrenched against the pull of the animals he is trying to hold. He is the human pivot of the picture &mdash; the still axis the stampede turns around &mdash; and Bonheur paints his strain as carefully as she paints the horses&rsquo;. He is not posing for us; he has his back half-turned, lost in the work, and mostly losing. That is the quiet second subject of the painting under the spectacle of horseflesh: <em>labor</em> &mdash; the brute physical job of moving a ton of frightened animal down a public street, given the same dignity Courbet gave his stone-breakers one wall over.
+      </p>
+      <p style={proseStyle}>
+        There is a long-running tradition about that twisting rider, worth knowing even though it can&rsquo;t be proven. Bonheur is often said to have slipped a <strong>self-portrait</strong> into the crowd of handlers, and the figure on horseback near the center is the one most often pointed to &mdash; the National Gallery in London, which owns the half-size version you&rsquo;ll meet later, even invites visitors to play spot-the-painter. Treat it as the kind of inviting suggestion that gathers around a famous picture, not settled fact. But it is a tempting thought: the woman in trousers who spent eighteen months in this market, painting herself into it on horseback, in the thick of the work.
+      </p>
+      <p style={proseStyle}>
+        Put the parts back together &mdash; the vertical spike of the dark horse, the rolling greys, the twisting rider, the animals running off into the dust &mdash; and you realize the composition <em>is</em> the stampede. Bonheur didn&rsquo;t paint a picture of motion; she built motion into the way you are forced to look.
+      </p>
+
+      <SectionHeader accent={accent} label="The ground" title="Dust, and the proof of speed" />
+      <p style={proseStyle}>
+        Drop your eye to the bottom, to the horses&rsquo; legs, and watch the ground come apart. Around the churning hooves the dirt dissolves into <strong>clouds of pale, kicked-up dust</strong>, painted loose and smudged, so that the legs of some horses seem to vanish into it. This is the painting&rsquo;s cleverest trick: a still object has crisp edges, a fast one blurs the air around it. By letting the footing dissolve into grit, Bonheur tells you, below the level of conscious looking, that all of this is happening <em>now</em> and happening <em>fast</em>. The dust is the receipt for the motion &mdash; you don&rsquo;t just see the horses move, you see what their moving throws into the air.
+      </p>
+
+      <SectionHeader accent={accent} label="The back wall" title="Trees, sky, and a real Paris street" />
+      <p style={proseStyle}>
+        Finally, look at what closes the scene off behind: a long screen of <strong>plane trees</strong> &mdash; the kind that lined the boulevard &mdash; running across the whole background in a band of dusty green and brown, under a heavy, blown, grey-blue sky. Those trees do a job. They stop your eye from escaping into a deep, pretty distance and press the whole stampede forward, up against you, so the horses feel about to come off the canvas and into your lap. (Courbet did the same thing with a cliff in his <em>Burial</em>, one work along this chain.)
+      </p>
+      <p style={proseStyle}>
+        And then, far off at the upper left, almost lost in the haze behind the trees, there is a faint pale <strong>dome and turret</strong> &mdash; the chapel dome of the <strong>Salpêtrière</strong>, a huge old Paris hospital and asylum on the Left Bank. It nails the whole scene to a real address: the market really was held just outside it, on the Boulevard de l&rsquo;Hôpital. This is not an invented Roman arena with idealized steeds. It is a specific, dusty, ordinary Tuesday on a specific Paris street, painted at the size of an altarpiece. That, exactly, is the move the next chapter is about.
+      </p>
+    </article>
+  )
+}
+
+function HfSalon({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The Salon · 1853" title="The one room that mattered" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>{' '}
+        painting this size is built for one place: the <strong>Salon</strong> &mdash; the official annual state art exhibition in Paris, run by the academy (the government&rsquo;s art authority), and the single show in France where a career was made or buried. Everyone who was anyone hung there; everyone who wanted to be someone fought to get in. To show at the Salon was to put your work in the one room where all of respectable French art stood together to be ranked against each other, in public, in the newspapers. Bonheur hauled her sixteen feet of horse market to the <strong>Salon of 1853</strong>, and it went up on the wall next to the gods and the senators and the saints.
+      </p>
+      <p style={proseStyle}>
+        Now, by the logic of the place, this should have been a disaster. The Salon&rsquo;s whole grammar was the <strong>hierarchy of genres</strong> &mdash; that official ranking of subjects, gods and heroes at the top, animals near the bottom &mdash; and the unbreakable rule underneath it was about <em>scale</em>. Size was reserved. A big canvas was a public promise that the thing on it mattered enormously, and the right to make a thing matter that much belonged to history painting&rsquo;s top rung. You were allowed to paint a horse. You were not allowed to paint a horse at the size of a dying emperor. To spend eight by sixteen feet on draft animals and the men who sell them was, in the academy&rsquo;s arithmetic, a category error loud enough to sound like a provocation.
+      </p>
+
+      <SectionHeader accent={accent} label="The twist" title="They cheered instead" />
+      <p style={proseStyle}>
+        And here is the twist that makes <em>The Horse Fair</em> a different kind of story from the <em>Burial</em> hanging a few works back along this chain. Courbet&rsquo;s village funeral, painted at the same heretical scale three years earlier, had detonated &mdash; critics called it ugly, dangerous, an assault on beauty itself. Bonheur&rsquo;s horse market, just as enormous and just as far down the ladder, got the opposite reception. <strong>The critics cheered.</strong> The picture was widely praised when it was unveiled in 1853, and rather than recoiling from the scale, the Salon was carried away by it. Where Courbet&rsquo;s monumental commoners read as a threat, Bonheur&rsquo;s monumental horses read as a triumph.
+      </p>
+      <p style={proseStyle}>
+        Why the difference? Partly subject. A funeral full of plain, unflattering peasants made a political argument the propertied classes found menacing two years after a revolution. Horses make no such argument; nobody fears a Percheron. You could thrill to the scale and the skill and the sheer animal power without feeling that your social order was being threatened. And partly it was the simple, undeniable virtuosity. The horses were <em>magnificently</em> done, alive and weighty and correct, and even a conservative critic could see that the woman could flat-out paint. The scale that looked like insolence on Courbet&rsquo;s funeral looked like grandeur on Bonheur&rsquo;s herd.
+      </p>
+
+      <SectionHeader accent={accent} label="The back-handed praise" title="'Masculine,' they called it" />
+      <p style={proseStyle}>
+        There was, though, a barb folded into the applause, and it is the barb that tells you what it cost to be a woman doing this in 1853. Again and again the critics reached for the same word of praise: the painting was <strong>masculine</strong>. They meant it as the highest compliment they had &mdash; vigorous, powerful, large, none of the daintiness they expected from a woman&rsquo;s brush. But sit with what that compliment assumes. To call the work &ldquo;masculine&rdquo; was to say it was good <em>despite</em> being made by a woman, that its strength was a kind of borrowed manliness, that the natural state of a woman&rsquo;s art was small and soft and that Bonheur had heroically escaped it. It was praise and cage at once: the highest thing they could say was that she painted like a man.
+      </p>
+      <p style={proseStyle}>
+        Bonheur, to her great credit, mostly ignored the frame and banked the fame. Because that is the other thing the Salon of 1853 did: it made her, overnight, internationally famous. The reputation she&rsquo;d built with the oxen of the <em>Nivernais</em> became, with the horses of the market, a household name &mdash; not just in France but, very soon, across the Channel and the Atlantic. The next chapter is who that household name actually was. The chapter after that is how the painting itself conquered two continents.
+      </p>
+    </article>
+  )
+}
+
+function HfBonheur({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Rosa Bonheur · 1822–1899" title="A working professional, not a curiosity" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is tempting, and wrong, to file Rosa Bonheur under &ldquo;the lady who painted animals and wore trousers.&rdquo; The trousers and the animals are real, but that filing makes her sound like a curiosity, a footnote, a charming exception. She was none of those things. She was, by wide agreement, <strong>the most internationally celebrated woman painter of the nineteenth century</strong> &mdash; and she got there not as a sheltered hobbyist but as a hard-nosed working professional who out-earned most of the men in her field, ran her own large household, and arranged her life, with remarkable nerve, exactly as she wanted it. The right frame for Bonheur is not &ldquo;impressive, for a woman.&rdquo; It is simply: one of the most successful painters, of either sex, then alive.
+      </p>
+
+      <SectionHeader accent={accent} label="The money" title="She out-earned the men" />
+      <p style={proseStyle}>
+        Start with the money, because money is where the agency is. Bonheur was a commercial juggernaut. Her animal paintings sold for sums that made her, by some distance, the best-paid woman artist of her century and the equal of the era&rsquo;s most successful men. <em>The Horse Fair</em> alone bankrolled a different life: with the proceeds of her painting she bought, in <strong>1859</strong>, the <strong>Château de By</strong>, a country estate at the edge of the Fontainebleau forest &mdash; reportedly the first woman in France to buy property in her own name on the strength of her own earnings. There she built a studio, kept a private menagerie of the animals she painted (sheep, horses, deer, even a pair of lions she let wander the grounds), and ran the whole operation herself. This is not a woman granted a comfortable life by a man. This is a woman who bought her own château with her own brush.
+      </p>
+
+      <SectionHeader accent={accent} label="The medal" title="Decorated by the Empress" />
+      <p style={proseStyle}>
+        Then there is the official honor, which she also took first. In <strong>1865</strong>, the <strong>Empress Eugénie</strong> &mdash; the wife of Napoleon III, then ruling France &mdash; personally brought Bonheur the cross of the <strong>Légion d&rsquo;honneur</strong> (the French state&rsquo;s highest order of merit, founded by the first Napoleon), making her the <strong>first woman artist ever to receive it</strong>. The story that has come down is that Eugénie chose Bonheur deliberately to make a point &mdash; that genius, in the line usually attributed to her, &ldquo;has no sex.&rdquo; (Take the exact wording as the kind of perfect quote that gets polished in the retelling; the decoration and the gesture are solid fact.) Decades later, in <strong>1894</strong>, France raised her again, to Officer of the same order &mdash; once more the first woman to be promoted to that rank. She did not merely succeed in a man&rsquo;s field. She collected the field&rsquo;s top trophies before any other woman was allowed near them.
+      </p>
+
+      <SectionHeader accent={accent} label="The household" title="Nathalie Micas, and a life on her own terms" />
+      <p style={proseStyle}>
+        The most important relationship of Bonheur&rsquo;s life belongs in the honest record, stated plainly and without drama. For more than forty years she shared her home and her life with <strong>Nathalie Micas</strong>, a fellow painter she had known since girlhood. They lived together at the Château de By until Micas died in 1889; Micas helped Bonheur with her work (including the smaller London version of <em>The Horse Fair</em> you&rsquo;ll meet in the next chapter); the two are buried together at <strong>Père-Lachaise</strong> (the famous Paris cemetery where many of France&rsquo;s great artists are buried). Micas, like Bonheur, held her own police permit to wear trousers. After Micas&rsquo;s death, Bonheur&rsquo;s companion in her final years was the American painter <strong>Anna Klumpke</strong>, whom she made her sole heir. None of this needs to be sensationalized or coyly hinted at; it is simply how Bonheur built her household &mdash; around the women she chose &mdash; and she built it openly, in a country estate she had paid for herself.
+      </p>
+      <p style={proseStyle}>
+        Put it all together and the &ldquo;curiosity&rdquo; framing collapses. A woman in trousers might sound like a stunt until you notice that the trousers were a work permit, the work made her rich, the riches bought a château, the château held a household she ran on her own terms, and the brush that paid for all of it had hung a horse where Europe kept its kings. Bonheur did not slip through a gap in a man&rsquo;s world. She walked into the middle of it, out-earned most of its men, took its top medal first, and dressed for the job she was doing. <em>The Horse Fair</em> is the canvas where all of that announced itself to the world.
+      </p>
+    </article>
+  )
+}
+
+function HfAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The dealer · 1854" title="Gambart turns one canvas into thousands" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Horse Fair</em> is, before it is anything else, a business story &mdash; and the businessman is <strong>Ernest Gambart</strong>, a Belgian-born art dealer based in London who became Bonheur&rsquo;s promoter and, in effect, her impresario. In <strong>1854</strong> Gambart bought the great canvas from her for <strong>40,000 French francs</strong>, a serious sum, and then did something cleverer than simply reselling it. He <em>toured</em> it. He took the painting around Britain as a paying attraction, charging the public to come and stand in front of it &mdash; and the public came, in numbers, because there was nothing else like it. (By the well-worn story, even Queen Victoria asked to see it privately; treat the royal detail as the kind of flourish that attaches itself to a famous picture, while the tour itself is solid.)
+      </p>
+      <p style={proseStyle}>
+        Gambart&rsquo;s real genius, though, was in the copy. He was a pioneer of what we would now call reproduction rights &mdash; the idea that the money in a painting isn&rsquo;t only in the one canvas but in the thousands of prints you can pull from it. He had <em>The Horse Fair</em> turned into an <strong>engraving</strong> (a print made from an image cut into a metal plate, the era&rsquo;s technology for mass-producing a picture), the work done by the engraver <strong>Thomas Landseer</strong> from a smaller half-size copy. The print sold and sold. Within a few years, the composition &mdash; the rearing greys, the diagonal, the dust &mdash; hung in parlors all over Britain and America, in the form of a print, in homes whose owners would never see the original. Bonheur became famous in two countries before most of her fans had stood in front of a single brushstroke she made.
+      </p>
+
+      <SectionHeader accent={accent} label="The London sister" title="A half-size twin in Trafalgar Square" />
+      <p style={proseStyle}>
+        That half-size copy has its own life. To make the engraving possible, Bonheur painted a <strong>reduced version</strong> of <em>The Horse Fair</em> &mdash; about four feet tall and eight feet wide, half the dimensions of the original &mdash; and she had help with it from <strong>Nathalie Micas</strong>. That smaller twin ended up in England, <strong>bequeathed by the collector Jacob Bell</strong> &mdash; who died in 1859 &mdash; and entered the <strong>National Gallery in London</strong>&rsquo;s collection in <strong>1865</strong> (where it still hangs). So there are, in effect, two authentic <em>Horse Fair</em>s on public view on opposite sides of an ocean: the colossal original in New York, and its half-size sister in Trafalgar Square &mdash; the very canvas that launched the print that made the image famous.
+      </p>
+
+      <SectionHeader accent={accent} label="To New York" title="Vanderbilt's gift" />
+      <p style={proseStyle}>
+        The original, meanwhile, kept climbing the ladder of rich owners. After Gambart it passed to the English collector <strong>William Parkinson Wright</strong> in 1857, and then, in 1866, it crossed the Atlantic into the collection of <strong>Alexander Turney Stewart</strong>, the New York department-store magnate and one of the wealthiest men in America. When Stewart&rsquo;s widow&rsquo;s estate was auctioned in <strong>1887</strong>, the painting fetched <strong>$53,000</strong> &mdash; an astonishing price &mdash; and the buyer was <strong>Cornelius Vanderbilt II</strong>, of the railroad dynasty. Vanderbilt did not keep it. He immediately gave it to the <strong>Metropolitan Museum of Art</strong>, the great public museum then taking shape on Fifth Avenue, just steps from his own mansion.
+      </p>
+      <p style={proseStyle}>
+        It has hung there ever since &mdash; &ldquo;Gift of Cornelius Vanderbilt, 1887&rdquo; &mdash; one of the most popular paintings in the building. There is a tidy irony in the whole journey. A woman who had to ask the police for permission to wear the clothes she sketched in painted a market full of farm horses at the scale of a coronation, and that canvas was cheered at the Salon, toured for profit through Britain, engraved into a print in a hundred thousand parlors, copied for London, and finally handed to the American public by a railroad heir &mdash; the humblest possible subject, raised to the grandest possible scale, and carried clear around the world by its own undeniable force.
+      </p>
+
+      <SectionHeader accent={accent} label="Why it still matters" title="The horse where the king should be" />
+      <p style={proseStyle}>
+        Step back from the business and the biography and the painting&rsquo;s argument is simple, and it is the Realism argument in a different key. Courbet, a few works back along this chain, took the most ordinary <em>death</em> there is and painted it at the scale of kings. Bonheur took the most ordinary <em>work</em> there is &mdash; men moving animals at a market &mdash; and did the same. No myth, no allegory, no hero: just draft horses and the dust they kick up, rendered with anatomist&rsquo;s precision and given the eight-by-sixteen-foot wall the academy kept for gods. That the Salon cheered it instead of recoiling only proves the argument worked. The present, ordinary and unglamorous, could carry the full weight of the grandest art &mdash; and a woman in a borrowed pair of trousers had proved it on the biggest canvas in the room.
+      </p>
+    </article>
+  )
+}
+
 type NarrativeFn = (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement
 
 // A chapter whose prose isn't written yet — graceful placeholder so a partly
@@ -2714,6 +3467,10 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
   studio: { refusal: StRefusal, allegory: StAllegory, reading: StReading, cast: StCast, afterlife: StAfterlife },
   sower: { barbizon: SoBarbizon, looking: SoLooking, salon: SoSalon, meaning: SoMeaning, afterlife: SoAfterlife },
   gleaners: { gleaning: GlGleaning, looking: GlLooking, salon: GlSalon, meaning: GlMeaning, afterlife: GlAfterlife },
+  angelus: { bell: AnBell, looking: AnLooking, reception: AnReception, meaning: AnMeaning, afterlife: AnAfterlife },
+  gargantua: { king: GaKing, looking: GaLooking, trial: GaTrial, meaning: GaMeaning, afterlife: GaAfterlife },
+  carriage: { rail: TcRail, looking: TcLooking, unfinished: TcUnfinished, meaning: TcMeaning, afterlife: TcAfterlife },
+  'horse-fair': { market: HfMarket, looking: HfLooking, salon: HfSalon, bonheur: HfBonheur, afterlife: HfAfterlife },
 }
 
 // ─────────────────────────────────────────────────────────────
