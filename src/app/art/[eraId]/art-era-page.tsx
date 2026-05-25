@@ -45,6 +45,7 @@ import { ART_ERAS } from '@/lib/art-data'
 import {
   ART_ERA_CONTENT,
   ART_MOVEMENT_CONTENT,
+  ART_IMG,
   MODERN_MAP_HUBS,
   type EraMovement,
   type Palette,
@@ -209,14 +210,17 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
         {movements.length} movements
       </div>
       <div style={{ paddingTop: 14 }}>
-        <ArtCard accent={accent} b={{
+        <ArtCard accent={accent} href={`/art/${eraId}/s/land`} b={{
           mo: '1848', year: '–60',
           name: 'Lay of the land',
-          place: 'Paris, end of the salon',
-          blurb: 'The 1855 Universal Exposition exiles Courbet to a tent across the street. Photography is twenty years old. The argument over what a painting is for is about to begin in earnest.',
+          place: 'Paris · the world before the revolt',
+          blurb: 'One ladder, owned by the State: the Académie trained the painters, the Salon showed them, a medal made a career. Then photography, paint in tubes and a rebuilt Paris quietly load the gun.',
           size: 'm',
-          palette: ['#3a3a4a', '#1c1c2a', '#0a0a14'],
-          imgLabel: 'Mid-19th century Paris',
+          palette: ['#6b5a3a', '#3a2e1c', '#14100a'],
+          imageUrl: ART_IMG.salonHang,
+          focus: '50% 42%',
+          credit: 'Martini, The Salon of 1787 (engraving) · The Met',
+          imgLabel: 'The Salon hung floor-to-ceiling',
         }} />
         {movements.map(m => {
           const authored = !!ART_MOVEMENT_CONTENT[m.id]

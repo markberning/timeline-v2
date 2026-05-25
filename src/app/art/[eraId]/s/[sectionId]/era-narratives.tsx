@@ -1,10 +1,11 @@
 'use client'
 
-// Modern — the era's own seven-chapter narrative, 1850–1970: the whole
-// century-long argument over what a painting is for, from Courbet's tent outside
-// the 1855 Exposition to Warhol's soup cans. Each chapter is a movement-cluster
-// framed by that argument, so it reads as one story; the per-movement and
-// per-work reads (Cubism, the Demoiselles) go deeper one level down.
+// Modern — the era's own narrative, 1850–1970: the whole century-long argument
+// over what a painting is for, from Courbet's tent outside the 1855 Exposition to
+// Warhol's soup cans. It opens with a "Lay of the land" scene-setter (the world
+// the revolt walked into) and then runs seven movement-cluster chapters framed by
+// that argument, so it reads as one story; the per-movement and per-work reads
+// (Cubism, the Demoiselles) go deeper one level down.
 //
 // House voice (dry wit up, comparisons to land the points, made to make you
 // LOOK). Revised 2026-05-23 against the art content pipeline gates (facts,
@@ -20,6 +21,8 @@ import {
 } from '@/components/mode/art-reader'
 import { ART_IMG } from '@/lib/art-content'
 
+const SALON = ['#6b5a3a', '#3a2e1c', '#14100a'] as [string, string, string]
+const ACADEMY = ['#4a6a8a', '#c8b89a', '#1c2230'] as [string, string, string]
 const COURBET = ['#6b5034', '#3a2820', '#100c08'] as [string, string, string]
 const MONET = ['#3a6a8a', '#c8c050', '#1c2a30'] as [string, string, string]
 const SEURAT = ['#3a6a4a', '#c8b84a', '#1c2a18'] as [string, string, string]
@@ -27,6 +30,95 @@ const VAN_GOGH = ['#1c3a6a', '#c8a72a', '#0e1224'] as [string, string, string]
 const MATISSE = ['#bf2f25', '#d6cf3f', '#1c1c1c'] as [string, string, string]
 const PIC = ['#c0a06c', '#3d3a2e', '#8a6b3a'] as [string, string, string]
 const STEEL = ['#1c1c1c', '#a0a0a0', '#d6cf3f'] as [string, string, string]
+
+// ── 0. Lay of the land ──────────────────────────────────────
+const LandNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · around 1850" title="One way to be a painter" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        efore anybody breaks anything, look at what there was to break. In France around 1850 there was exactly
+        one ladder to a painting career, and the State owned it. The{' '}<strong>Académie des Beaux-Arts</strong>{' '}—
+        the art wing of the country&rsquo;s official academy of approved excellence — decided what good painting
+        was, trained the painters who made it, and showed the results once a year in one enormous room. Miss that
+        ladder and you did not have a career. You had a hobby.
+      </p>
+      <p style={proseStyle}>
+        The training was a long boot camp. At the{' '}<strong>École des Beaux-Arts</strong>, the state art school, a
+        student drew from plaster casts and then live models for years before he was trusted with serious colour;
+        the supreme prize, the{' '}<em>Prix de Rome</em>, shipped its winner off to Italy to copy the old masters at
+        the country&rsquo;s expense. The house style this produced prized{' '}<em>fini</em>{' '}— a surface blended so
+        smoothly you could not find a single brushstroke — and clean drawing over loose colour. Above all it
+        enforced a strict pecking order of subjects: grand scenes from myth, scripture and history at the top,
+        portraits below that, scenes of ordinary life lower still, and a landscape or a bowl of fruit scraping the
+        bottom. A young painter who wanted respect painted gods, not greengrocers.
+      </p>
+      <p style={proseStyle}>
+        All of it funnelled into a single event: the{' '}<strong>Salon</strong>, the Académie&rsquo;s official
+        exhibition, named for the Louvre room where it started and by the 1850s filling a cavernous iron-and-glass
+        hall. This was the only theatre in town — the one place where hundreds of thousands of Parisians came to
+        look at, fight over, and buy new art. Win a medal there and you had collectors, commissions, a future. And
+        where you hung mattered enormously, because pictures were stacked frame-to-frame from knee height to the
+        ceiling; a canvas &ldquo;skied&rdquo; up in the rafters was a canvas nobody would ever really see.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={SALON}
+        imageUrl={ART_IMG.salonHang}
+        ratio="3/2"
+        alt="The Salon hung floor-to-ceiling, paintings stacked frame to frame"
+        caption={<>The whole game in one room: paintings packed from knee height to the rafters, and a crowd come to judge. The hang barely changed for a century.</>}
+        credit={<>Pietro Antonio Martini,{' '}<em>The Salon of 1787</em>{' '}(engraving) · The Met, New York</>}
+        rights="Public domain worldwide. Wikimedia Commons."
+      />
+
+      <SectionHeader accent={accent} label="The official taste" title="What the jury loved" />
+      <p style={proseStyle}>
+        The taste at the top ran to the polished and the mythological. The emperor{' '}<strong>Napoleon III</strong>{' '}himself bought{' '}<strong>Alexandre Cabanel</strong>&rsquo;s{' '}<em>The Birth of Venus</em>{' '}straight off the
+        1863 Salon wall — a nude goddess afloat on the foam in flawless, soft-focus, almost edible finish. This was
+        exactly the kind of nakedness the Salon adored, for a reason worth keeping in your head: a{' '}<em>goddess</em>{' '}was Art and therefore decent, while a real modern woman in the same pose would be filth. Hold this
+        painting in your eye — within two years a man named Manet will paint its evil twin, and the same crowd that
+        swooned here will try to attack his canvas with their umbrellas.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={ACADEMY}
+        imageUrl={ART_IMG.cabanelVenus}
+        ratio="16/9"
+        alt="Cabanel, The Birth of Venus — a smooth academic nude"
+        caption={<>The Salon&rsquo;s ideal: a goddess, not a woman; a finish so seamless the paint disappears. The Emperor bought it on the spot.</>}
+        credit={<>Alexandre Cabanel,{' '}<em>The Birth of Venus</em>, 1863 · Musée d&rsquo;Orsay, Paris</>}
+        rights="Public domain worldwide. Wikimedia Commons."
+      />
+
+      <SectionHeader accent={accent} label="Meanwhile, the ground shifts" title="The modern world loads the gun" />
+      <p style={proseStyle}>
+        While the Académie polished its surfaces, the modern world was quietly arming the rebellion. In 1839{' '}<strong>photography</strong>{' '}arrived and did in a few seconds, perfectly, the one thing painters had been paid
+        to do for four hundred years — make an exact likeness — which left painting suddenly free, or forced, to
+        chase the things a camera could not. In 1841 someone started selling oil paint in squeezable{' '}<strong> metal tubes</strong>, and for the first time a painter could walk out the door with his colours and work in
+        front of an actual haystack instead of reconstructing it from memory indoors. New{' '}<strong>railways</strong>{' '}carried him out to that haystack for a few francs. And{' '}<strong>Paris itself</strong>{' '}was being torn down
+        and rebuilt into wide boulevards, gas-lit cafés and department-store windows — a glittering modern
+        spectacle begging to be painted, if only painting modern life had been allowed.
+      </p>
+      <p style={proseStyle}>
+        So the table was set for a fight, and underneath the costume changes it stayed the same fight for a
+        hundred years:{' '}<em>who gets to decide what a painting is for?</em>{' '}The Académie&rsquo;s answer was settled
+        and serene — beauty has rules, we know them, and the Salon is where you prove you have learned them. The
+        painters in the chapters ahead would answer, one after another,{' '}<em>make it new</em>. And the very first
+        of them would not bother arguing with the jury at all. When the world&rsquo;s fair turned his pictures
+        down, he simply built his own tent across the street.
+      </p>
+    </article>
+
+    <MeanwhileSheet
+      accent={AMBER}
+      region="the Paris art market"
+      title="A new buyer changes who needs the jury."
+      body="A rising middle class wanted smaller, cheaper pictures for ordinary walls, not ceiling-high mythologies — and a new kind of private art dealer was starting to sell directly to them. The Salon was still the only stage, but for the first time there was the faint outline of a way to live without it."
+    />
+  </>
+)
 
 // ── 1. The Salon and its enemies ────────────────────────────
 const SalonNarrative: Narrative = ({ accent, onZoom }) => (
@@ -474,6 +566,7 @@ const NewYorkNarrative: Narrative = ({ accent }) => (
 
 export const ERA_NARRATIVES: Record<string, Record<string, Narrative>> = {
   mod: {
+    land: LandNarrative,
     salon: SalonNarrative,
     light: LightNarrative,
     structure: StructureNarrative,
