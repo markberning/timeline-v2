@@ -144,25 +144,43 @@ Three agent passes per new TL:
 - Only exception = a deliberate **portrait diptych** (`heroImages` with 2+ entries) — two works side by side at equal height for a genre/movement. A genuine cropped banner *detail* is a separate, explicit choice, credited "(detail)". Full rule + sourcing in `audits/art-vertical.md` §5b.
 - **Artwork pages have NO hero.** The annotated Canvas viewer is the signature visual for every work; a compact text header (name · artist·year · one-line hook) replaces the banner. The viewer is per-work and every artwork requires `annotations` authored (`{x,y,label}` at % coords).
 
-## Cards (era / movement / work / artist / battle / front-door) — locked 2026-05-25
-The cord/timeline + grid cards across art and war share one ported pattern (an
-image tile + name + meta + blurb). Two rules, both recurring defects:
-- **A card NEVER truncates its body text.** No `-webkit-line-clamp`, no
-  `text-overflow: ellipsis`, no JS substring (`short()`-style) on a card's
-  title/blurb/hook. The card GROWS to fit the full text — `textWrap: 'pretty'`,
-  no `overflow: hidden` clamp. Authors keep blurbs tight (one or two sentences),
-  but the UI must never cut a word. (The single-line ellipsis on *breadcrumb /
-  nav chrome* is a separate, deliberate narrow-screen guard and is allowed.)
-  Known still-clamped spot to revisit if flagged: the dense home-feed tiles
-  (`app-home.tsx` `clampN` + `short()`), kept bounded for the multi-column grid.
-- **A card image FILLS the frame with the artwork.** The image tile is
-  `object-fit: cover` (fills, crops to the frame). The SOURCE must be the artwork
-  itself — trim any scan mount, plate border, paper margin, or engraved caption
-  strip before use, and **self-host the trimmed crop** in `public/art/` when the
-  only available scan carries that chrome (e.g. `salon-1787.jpg`, cropped from the
-  Met's mounted engraving). A documentary print shown as a full in-article figure
-  may keep its caption; a card/fill crop may not. Trim with `sharp` (`.trim()` or
-  an explicit `.extract()`), eyeball the result, then optimize to `public/art/`.
+## Cards — the locked design (locked 2026-05-25)
+The art cord/timeline cards (era + movement) all render through ONE shared
+component, **`src/components/mode/orientation-card.tsx` (`OrientationCard`)** —
+that's the single source of truth, so the design can't drift between timelines.
+The rules it bakes in (all of these are recurring defects it exists to prevent):
+
+- **The image is shown WHOLE — never cropped to a frame.** The only thing ever
+  removed is a true scan border (mount / plate edge / paper margin / engraved
+  caption). When a source scan carries that chrome, trim it with `sharp`
+  (`.trim()` or an explicit `.extract()`), eyeball it, and **self-host the trimmed
+  crop** in `public/art/` (e.g. `salon-1787.jpg` from the Met's mounted engraving;
+  `demoiselles.jpg` from the en scan's gray top border).
+- **The image fills 3 sides of the card; text is on the 4th**, by orientation:
+  - **landscape / square** → image on TOP, filling top/left/right; text below.
+  - **portrait** → image on the LEFT, filling top/left/bottom; text on the right.
+    The image height drives the card height, so it's flush with no gap.
+  Orientation is **auto-detected** from the loaded image (`naturalHeight >
+  naturalWidth`); an optional `portrait` hint avoids the load-time reflow. The
+  author just supplies an image — no per-card tagging or sizing.
+- **The card is capped per size and its HEIGHT grows to fit** — it never stretches
+  full-width across the screen. Landscape and portrait images are normalized so
+  they read at roughly the same size.
+- **A card NEVER truncates text.** No `-webkit-line-clamp`, no `text-overflow:
+  ellipsis`, no JS substring (`short()`-style) on a title/blurb. `textWrap:
+  'pretty'`; the card grows. Authors keep blurbs tight, but the UI never cuts a
+  word. (Single-line ellipsis on *breadcrumb / nav chrome* is a separate,
+  deliberate narrow-screen guard and is allowed.)
+- **Title** is a semibold serif headline; the sub line is a small uppercase label.
+
+**War cards** (`war-battle-card.tsx`, `war-front-door.tsx`) keep their own design —
+the "escalating spine" where card height encodes the war's size, plus gradient
+placeholder tiles, image-caption overlays, and Read/Soon badges — but they obey
+the same no-crop / **no-truncation** floor (cards use `minHeight`, not a fixed
+`height`, so un-clamped text can't clip). If war cards are ever unified onto
+`OrientationCard`, add gradient-placeholder + overlay + badge support to it first.
+**Known still-clamped spot to revisit if flagged:** the dense home-feed tiles
+(`app-home.tsx` `clampN` + `short()`), kept bounded for the multi-column grid.
 
 ## Chapter bottom navigation
 - Every expanded chapter: solid accent × close + "Read Next Chapter" button (next chapter title + number). Last chapter: × only.

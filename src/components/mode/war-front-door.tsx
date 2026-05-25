@@ -111,7 +111,7 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
       overflow: 'hidden',
       display: 'flex',
       flexDirection: isXL ? 'column' : 'row',
-      height: sz.content,
+      minHeight: sz.content,
     }}>
       <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : '100%', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
         <PaintingTile palette={w.palette} imageUrl={w.img} label={w.imgLabel} isXL={isXL} />

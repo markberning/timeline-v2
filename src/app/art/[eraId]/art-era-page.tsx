@@ -16,8 +16,8 @@
 // and BattleCard (war-detail.jsx → local ArtCard) into the app's CSS-var
 // theming, fonts, and accent palette. See audits/art-vertical.md.
 
-import { useState } from 'react'
 import Link from 'next/link'
+import { OrientationCard } from '@/components/mode/orientation-card'
 import {
   ArtChrome,
   ArtPageShell,
@@ -60,13 +60,6 @@ import {
 const CORD_X = 56
 const CARD_LEFT = CORD_X + 16
 
-const CARD_SIZES = {
-  s: { content: 96, body: 12.5, imgW: 96 },
-  m: { content: 124, body: 13, imgW: 116 },
-  l: { content: 168, body: 13.5, imgW: 140 },
-  xl: { content: 232, body: 14.5, imgW: 168 },
-} as const
-
 interface ArtCardData {
   mo: string
   year: string
@@ -79,93 +72,24 @@ interface ArtCardData {
   imageUrl?: string
   focus?: string // object-position for the cover crop (frame a deliberate detail)
   imageAspect?: string // w/h of the work, for the xl panel to fill edge-to-edge w/o crop
+  portrait?: boolean // tall work → image-left / text-right (else image-on-top)
   credit?: string // art credit (artist · current location) shown bold at the end of the card
 }
 
-// Art credit shown bold at the end of a cord card whose image is a real artwork
-// (every image gets attributed with its current location — pipeline rule).
-function CardCredit({ credit }: { credit?: string }) {
-  if (!credit) return null
-  return (
-    <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 400, lineHeight: 1.35, letterSpacing: 0.2, color: MUTED }}>{credit}</div>
-  )
-}
-
 function ArtCardInner({ b, accent }: { b: ArtCardData; accent: string }) {
-  const [imgFailed, setImgFailed] = useState(false)
-  const sz = CARD_SIZES[b.size]
-  const isXL = b.size === 'xl'
-  const isLG = b.size === 'l'
-
-  // xl (flagship) card: show the painting at its CORRECT aspect on the left —
-  // never cropped — with the text to the right (design freedom, user 2026-05-23).
-  if (isXL) {
-    return (
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', background: CARD_BG, borderRadius: 8, border: `1px solid ${BORDER}`, boxShadow: '0 6px 20px rgba(0,0,0,0.18)', overflow: 'hidden' }}>
-        <div style={{ width: 172, flexShrink: 0, alignSelf: 'stretch', background: b.palette[1], position: 'relative', overflow: 'hidden' }}>
-          {b.imageUrl && !imgFailed && (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={b.imageUrl} alt={b.imgLabel || b.name} loading="lazy" onError={() => setImgFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', transform: 'scale(1.08)', transformOrigin: 'center', filter: 'sepia(0.12) saturate(0.9) contrast(1.03)' }} />
-          )}
-        </div>
-        <div style={{ flex: 1, minWidth: 0, padding: '14px 16px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-          <div style={{ fontFamily: SERIF, fontSize: 22, lineHeight: 1.08, letterSpacing: -0.3, color: INK }}>{b.name}</div>
-          <div style={{ fontFamily: SANS, fontSize: 10.5, color: MUTED, marginTop: 4, letterSpacing: 0.1 }}>{b.place}</div>
-          <div style={{ marginTop: 9, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.45, color: INK, textWrap: 'pretty' }}>{b.blurb}</div>
-          <CardCredit credit={b.credit} />
-        </div>
-      </div>
-    )
-  }
-
+  // The locked card now lives in the shared OrientationCard (BEHAVIORS.md "Cards").
   return (
-    <div style={{
-      background: CARD_BG,
-      borderRadius: 8,
-      border: `1px solid ${isXL ? artAlpha(accent, 0.55) : BORDER}`,
-      boxShadow: isXL ? `0 0 0 4px ${artAlpha(accent, 0.1)}, 0 12px 28px rgba(0,0,0,0.32)` : 'none',
-      overflow: 'hidden',
-      display: 'flex',
-      flexDirection: isXL ? 'column' : 'row',
-      minHeight: sz.content,
-    }}>
-      <div style={{
-        width: isXL ? '100%' : sz.imgW,
-        height: isXL ? 124 : 'auto',
-        alignSelf: 'stretch',
-        flexShrink: 0,
-        position: 'relative',
-        background: `linear-gradient(135deg, ${b.palette[0]}, ${b.palette[1]} 55%, ${b.palette[2]})`,
-      }}>
-        {b.imageUrl && !imgFailed && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={b.imageUrl}
-            alt={b.imgLabel || b.name}
-            loading="lazy"
-            onError={() => setImgFailed(true)}
-            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: b.focus || 'center', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }}
-          />
-        )}
-        {/* No name overlaid on the artwork — it's redundant with the title text beside it
-            and obscures the painting (pipeline rule, audits/art-vertical.md §5b). */}
-      </div>
-      <div style={{
-        flex: 1, minWidth: 0,
-        padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'),
-        display: 'flex', flexDirection: 'column',
-      }}>
-        <div style={{ fontFamily: SERIF, fontSize: isXL ? 21 : (isLG ? 17 : 15), lineHeight: 1.1, letterSpacing: -0.2, color: INK }}>{b.name}</div>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: MUTED, marginTop: 3, letterSpacing: 0.1 }}>{b.place}</div>
-        <div style={{
-          marginTop: 'auto', paddingTop: 5,
-          fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4,
-          color: isXL ? INK : MUTED,
-          textWrap: 'pretty',
-        }}>{b.blurb}</div>
-        <CardCredit credit={b.credit} />
-      </div>
-    </div>
+    <OrientationCard
+      size={b.size}
+      accent={accent}
+      imageUrl={b.imageUrl}
+      portrait={b.portrait}
+      alt={b.imgLabel || b.name}
+      title={b.name}
+      sub={b.place}
+      body={b.blurb}
+      credit={b.credit}
+    />
   )
 }
 
@@ -237,6 +161,7 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
                 imageUrl: m.imageUrl,
                 focus: m.focus,
                 imageAspect: m.imageAspect,
+                portrait: m.portrait,
                 credit: m.credit,
                 imgLabel: m.name,
               }}

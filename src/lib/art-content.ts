@@ -28,7 +28,10 @@ export interface HeroImage { src: string; focus?: string }
 //    a restricted reference (degraded treatment) in the reader.
 export const ART_IMG = {
   // EN-tier (US public domain, pre-1931 — inline OK)
-  demoiselles: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/960px-Les_Demoiselles_d%27Avignon.jpg',
+  // SELF-HOSTED: the en scan carries a pale canvas/frame border (a gray band along
+  // the top, thin edges elsewhere); trimmed so the painting fills the frame. 1907,
+  // US-PD (pre-1931). Source: en Les_Demoiselles_d'Avignon, cropped to the canvas.
+  demoiselles: '/art/demoiselles.jpg',
   girlWithMandolin: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin_%28Fanny_Tellier%29%2C_oil_on_canvas%2C_100.3_x_73.6_cm%2C_Museum_of_Modern_Art_New_York..jpg/960px-Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin_%28Fanny_Tellier%29%2C_oil_on_canvas%2C_100.3_x_73.6_cm%2C_Museum_of_Modern_Art_New_York..jpg',
   picassoStudy1907: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Pablo_Picasso%2C_1907%2C_Head_of_a_Sleeping_Woman_%28Study_for_Nude_with_Drapery%29%2C_oil_on_canvas%2C_61.4_x_47.6_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg/960px-Pablo_Picasso%2C_1907%2C_Head_of_a_Sleeping_Woman_%28Study_for_Nude_with_Drapery%29%2C_oil_on_canvas%2C_61.4_x_47.6_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg',
   kahnweiler: 'https://upload.wikimedia.org/wikipedia/en/6/68/Picasso_Portrait_of_Daniel-Henry_Kahnweiler_1910.jpg',
@@ -52,6 +55,9 @@ export const ART_IMG = {
   // than showing border/caption. Source: commons MM43349, cropped to the scene.
   salonHang: '/art/salon-1787.jpg',
   cabanelVenus: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg/1280px-Alexandre_Cabanel_-_The_Birth_of_Venus_-_Google_Art_Project_2.jpg',
+  // Portrait-orientation works, for the orientation-aware card prototype (these
+  // sit image-LEFT / text-right; landscape/square works sit image-on-top).
+  matisseHat: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Matisse-Woman-with-a-Hat.jpg/960px-Matisse-Woman-with-a-Hat.jpg',
   seuratGrandeJatte: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/1280px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg',
   gauguinVision: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg/1280px-La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg',
   vanGoghSelf: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg',
@@ -106,6 +112,7 @@ export interface EraMovement {
   imageUrl?: string // representative work; cord card falls back to palette gradient
   focus?: string // object-position for the xl banner / column crop (frame a detail)
   imageAspect?: string // the work's true w/h, so the xl panel fills edge-to-edge with ~no crop
+  portrait?: boolean // tall work → card renders image-LEFT / text-right (else image-on-top)
   credit?: string // art credit shown bold at the end of the card when imageUrl is set (artist · current location)
 }
 export interface AnchorPainter { name: string; role: string; palette: Palette }
@@ -162,8 +169,8 @@ export const MODERN_ERA: ArtEraContent = {
   movements: [
     { id: 'real', name: 'Realism', range: '1848–1870', accent: ART_ACCENTS.amber, size: 's', hook: 'Painting the world as the eye actually sees it. Mostly farmers and laundresses.', palette: ['#6b5034', '#3a2820', '#100c08'] },
     { id: 'imp', name: 'Impressionism', range: '1860s–1886', accent: ART_ACCENTS.blue, size: 'l', hook: 'Painting the LIGHT instead of the thing. Outdoors. Quick.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.impressionSunrise, credit: 'Monet, Impression, Sunrise · Musée Marmottan Monet, Paris' },
-    { id: 'post', name: 'Post-Impressionism', range: '1886–1905', accent: ART_ACCENTS.green, size: 'm', hook: 'Putting the structure back. Cézanne in Aix, Van Gogh in Arles, Gauguin in Tahiti.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.cezanneBathers, credit: 'Cézanne, The Large Bathers · Philadelphia Museum of Art' },
-    { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'] },
+    { id: 'post', name: 'Post-Impressionism', range: '1886–1905', accent: ART_ACCENTS.green, size: 'm', hook: 'Putting the structure back. Cézanne in Aix, Van Gogh in Arles, Gauguin in Tahiti.', palette: ['#5a7042', '#8a7848', '#1c1a12'], imageUrl: ART_IMG.vanGoghSelf, portrait: true, credit: 'Van Gogh, Self-Portrait, 1889 · Musée d’Orsay, Paris' },
+    { id: 'fauv', name: 'Fauvism', range: '1905–1908', accent: ART_ACCENTS.rust, size: 's', hook: 'Color off the leash. Matisse, three years, four canvases, done.', palette: ['#bf2f25', '#d6cf3f', '#1c1c1c'], imageUrl: ART_IMG.matisseHat, portrait: true, credit: 'Matisse, Woman with a Hat, 1905 · SFMOMA, San Francisco' },
     { id: 'cubism', name: 'Cubism', range: '1907–1922', accent: ART_ACCENTS.violet, size: 'xl', hook: 'A face has six sides now. A guitar shows you its strings and its back.', palette: ['#c0a06c', '#3d3a2e', '#8a6b3a'], imageUrl: ART_IMG.demoiselles, imageAspect: '4500 / 4661', credit: 'Picasso, Les Demoiselles d’Avignon · MoMA, New York' },
     { id: 'fut', name: 'Futurism', range: '1909–1944', accent: ART_ACCENTS.rust, size: 's', hook: 'Italian painters in love with motorcars. It ended badly.', palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'] },
     { id: 'dada', name: 'Dada', range: '1916–1924', accent: ART_ACCENTS.amber, size: 'm', hook: 'A war in the background and a urinal in the foreground.', palette: ['#1c1c1c', '#a0a0a0', '#d6cf3f'] },

@@ -13,6 +13,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { OrientationCard } from '@/components/mode/orientation-card'
 import {
   ArtChrome, ArtPageShell, ArtHero, ArtAccordion, ReadStoryButton, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow,
   artMovementCrumbs,
@@ -27,81 +28,21 @@ import {
 // Cord/node geometry (mirrors the mockup's ITL constants).
 const CORD_X = 56
 const CARD_LEFT = CORD_X + 16
-const SIZES: Record<MovementWork['size'], { content: number; body: number; imgW: number; lines: number; title: number }> = {
-  s: { content: 96, body: 12.5, imgW: 96, lines: 2, title: 14 },
-  m: { content: 124, body: 13, imgW: 116, lines: 2, title: 15 },
-  l: { content: 168, body: 13.5, imgW: 140, lines: 3, title: 17 },
-  xl: { content: 232, body: 14.5, imgW: 168, lines: 3, title: 21 },
-}
-
-// ─────────────────────────────────────────────────────────────
-// Image tile that falls back to its 3-color palette gradient on error.
-// (A flat tile with optional label — the mockup's PaintingTile.)
-// ─────────────────────────────────────────────────────────────
-function CordTile({ palette, imageUrl, label, natural }: { palette: Palette; imageUrl?: string; label?: string; natural?: boolean }) {
-  const [failed, setFailed] = useState(false)
-  const hasImg = !!imageUrl && !failed
-  const grad = `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`
-  // `natural` (the xl flagship card): show the WHOLE work at its own aspect ratio
-  // — the frame matches the painting, never a fixed landscape crop (pipeline rule,
-  // audits/art-vertical.md §5b). Small side thumbnails still cover-crop (decorative).
-  if (natural) {
-    // Slight zoom + clip removes the thin white matte some source scans carry, so
-    // the painting fills the frame edge-to-edge (still its own aspect ratio).
-    return (
-      <div style={{ width: '100%', background: grad, overflow: 'hidden', ...(hasImg ? {} : { aspectRatio: '3 / 2' }) }}>
-        {hasImg && (
-          <img src={imageUrl} alt={label || ''} loading="lazy" onError={() => setFailed(true)} style={{ display: 'block', width: '100%', height: 'auto', transform: 'scale(1.04)', transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />
-        )}
-      </div>
-    )
-  }
-  return (
-    <div style={{ position: 'relative', width: '100%', height: '100%', background: grad }}>
-      {hasImg && (
-        <img src={imageUrl} alt={label || ''} loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />
-      )}
-      {/* No name overlaid on the artwork — redundant with the title beside it (pipeline
-          rule, audits/art-vertical.md §5b). */}
-    </div>
-  )
-}
-
-// One cord/node card. Links to the work page only when the work is authored.
+// One cord/node card → the shared OrientationCard (BEHAVIORS.md "Cards"). Links to
+// the work page only when the work is authored.
 function WorkCard({ work, accent, href }: { work: MovementWork; accent: string; href?: string }) {
-  const sz = SIZES[work.size]
-  const isXL = work.size === 'xl'
-  const isLG = work.size === 'l'
-  const tappable = !!href
-
-  const inner = (
-    <>
-      <div style={{ width: isXL ? '100%' : sz.imgW, height: 'auto', alignSelf: 'stretch', flexShrink: 0 }}>
-        <CordTile palette={work.palette} imageUrl={work.imageUrl} label={work.name} natural={isXL} />
-      </div>
-      <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
-        <div style={{ fontFamily: SERIF, fontSize: sz.title, lineHeight: 1.1, letterSpacing: -0.2, color: INK, textWrap: 'balance' }}>{work.name}</div>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: MUTED, marginTop: 3, letterSpacing: 0.1 }}>{work.artist} · {work.place}</div>
-        <div style={{ marginTop: 'auto', paddingTop: 5, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.4, color: isXL ? INK : MUTED, textWrap: 'pretty' }}>{work.blurb}</div>
-        {work.credit && <div style={{ marginTop: 8, fontFamily: SANS, fontSize: 9.5, fontWeight: 400, lineHeight: 1.35, letterSpacing: 0.2, color: MUTED }}>{work.credit}</div>}
-      </div>
-    </>
+  const card = (
+    <OrientationCard
+      size={work.size}
+      accent={accent}
+      imageUrl={work.imageUrl}
+      alt={work.name}
+      title={work.name}
+      sub={`${work.artist} · ${work.place}`}
+      body={work.blurb}
+      credit={work.credit}
+    />
   )
-
-  const cardStyle: React.CSSProperties = {
-    background: CARD_BG,
-    borderRadius: 8,
-    border: `1px solid ${isXL ? artAlpha(accent, 0.55) : BORDER}`,
-    boxShadow: isXL ? `0 0 0 4px ${artAlpha(accent, 0.10)}, 0 12px 28px rgba(0,0,0,0.45)` : 'none',
-    overflow: 'hidden',
-    display: 'flex',
-    flexDirection: isXL ? 'column' : 'row',
-    minHeight: sz.content,
-    textDecoration: 'none',
-    color: INK,
-    cursor: tappable ? 'pointer' : 'default',
-  }
-
   return (
     <div style={{ position: 'relative', paddingLeft: CARD_LEFT, paddingRight: 16, marginBottom: 14 }}>
       {/* year + artist tag on cord */}
@@ -112,9 +53,9 @@ function WorkCard({ work, accent, href }: { work: MovementWork; accent: string; 
       {/* node + connector */}
       <div style={{ position: 'absolute', left: CORD_X - 5, top: 12, width: 10, height: 10, borderRadius: 999, background: accent, boxShadow: `0 0 0 3px ${artAlpha(accent, 0.18)}`, border: `1px solid ${accent}`, zIndex: 1 }} />
       <div style={{ position: 'absolute', left: CORD_X + 5, top: 16, width: 11, height: 1, background: artAlpha(accent, 0.5) }} />
-      {tappable
-        ? <Link href={href!} style={cardStyle}>{inner}</Link>
-        : <div style={cardStyle}>{inner}</div>}
+      {href
+        ? <Link href={href} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>{card}</Link>
+        : card}
     </div>
   )
 }

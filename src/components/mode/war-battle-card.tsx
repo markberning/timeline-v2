@@ -70,7 +70,7 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
       background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', borderRadius: 8,
       border: `1px solid ${isXL ? alpha(accent, 0.55) : (ready ? alpha(accent, 0.4) : 'color-mix(in srgb, var(--foreground) 15%, transparent)')}`,
       boxShadow: isXL ? `0 0 0 4px ${alpha(accent, 0.1)}, 0 12px 28px rgba(0,0,0,0.28)` : 'none',
-      overflow: 'hidden', display: 'flex', flexDirection: isXL ? 'column' : 'row', height: sz.h,
+      overflow: 'hidden', display: 'flex', flexDirection: isXL ? 'column' : 'row', minHeight: sz.h,
       opacity: soon ? 0.74 : 1,
     }}>
       {badge}
