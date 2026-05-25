@@ -85,6 +85,16 @@ export const ART_IMG = {
   threeWomen: '/art/three-women.jpg',
   portuguese: '/art/the-portuguese.jpg',
   grisLunch: '/art/gris-breakfast.jpg',
+  // ── Realism lineage chips (born-verified 2026-05-25; subjects eyeballed) ──
+  // Representative PD works for the "grew out of / led to" nodes.
+  rev1848: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag.jpg/500px-Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag.jpg',
+  vermeerMilkmaid: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/500px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg',
+  daguerreBoulevard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Boulevard_du_Temple_by_Daguerre.jpg/500px-Boulevard_du_Temple_by_Daguerre.jpg',
+  rousseauOak: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Th%C3%A9odore_Rousseau_-_The_Large_Oak_Tree%2C_Forest_of_Fontainebleau.jpg/500px-Th%C3%A9odore_Rousseau_-_The_Large_Oak_Tree%2C_Forest_of_Fontainebleau.jpg',
+  bastienHaymaking: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Jules_Bastien-Lepage_-_Hay_making_-_Google_Art_Project.jpg/500px-Jules_Bastien-Lepage_-_Hay_making_-_Google_Art_Project.jpg',
+  fildesCasualWard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Applicants_for_Admission_to_a_Casual_Ward.jpg/500px-Applicants_for_Admission_to_a_Casual_Ward.jpg',
+  bellowsCliffDwellers: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/George_Bellows_-_Cliff_Dwellers_%281913%29.jpg/500px-George_Bellows_-_Cliff_Dwellers_%281913%29.jpg',
+
   // ── Realism movement figures (born-verified 2026-05-25; subjects eyeballed) ──
   // COMMONS (free worldwide; every artist died well before 1931).
   courbetBurial: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg/1280px-Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg',
@@ -520,16 +530,16 @@ export const REALISM: ArtMovementContent = {
   ],
   lineage: {
     parents: [
-      { label: 'The 1848 Revolution', mode: 'civ', palette: ['#8a1c1c', '#c79338', '#0d0606'], note: 'gave: the people step into history' },
-      { label: 'Dutch genre painting', mode: 'art', palette: ['#5a4a32', '#2e2418', '#0e0a06'], note: 'gave: dignity in everyday scenes' },
-      { label: 'Photography', mode: 'civ', palette: ['#3a3a44', '#1c1c24', '#0a0a10'], note: 'gave: a cheap, exact rival to the brush' },
-      { label: 'Barbizon landscape', mode: 'art', palette: ['#6a7250', '#3a3c28', '#14140e'], note: 'gave: working from real nature' },
+      { label: 'The 1848 Revolution', mode: 'civ', img: ART_IMG.rev1848, palette: ['#8a1c1c', '#c79338', '#0d0606'], note: 'gave: the people step into history' },
+      { label: 'Dutch genre painting', mode: 'art', img: ART_IMG.vermeerMilkmaid, palette: ['#5a4a32', '#2e2418', '#0e0a06'], note: 'gave: dignity in everyday scenes' },
+      { label: 'Photography', mode: 'civ', img: ART_IMG.daguerreBoulevard, palette: ['#3a3a44', '#1c1c24', '#0a0a10'], note: 'gave: a cheap, exact rival to the brush' },
+      { label: 'Barbizon landscape', mode: 'art', img: ART_IMG.rousseauOak, palette: ['#6a7250', '#3a3c28', '#14140e'], note: 'gave: working from real nature' },
     ],
     children: [
       { label: 'Impressionism', mode: 'art', img: ART_IMG.impressionSunrise, palette: ['#3a6a8a', '#c8c050', '#1c2a30'], note: 'took: the contemporary world, lit by real light' },
-      { label: 'Naturalism', mode: 'art', palette: ['#5a5238', '#332c1e', '#100c08'], note: 'took: unflinching social observation' },
-      { label: 'Social Realism', mode: 'art', palette: ['#6b5034', '#3a2820', '#100c08'], note: 'took: art as a witness to labor' },
-      { label: 'Ashcan School', mode: 'art', palette: ['#53412c', '#2a1f14', '#0c0805'], note: 'took: the gritty modern city, in New York' },
+      { label: 'Naturalism', mode: 'art', img: ART_IMG.bastienHaymaking, palette: ['#5a5238', '#332c1e', '#100c08'], note: 'took: unflinching social observation' },
+      { label: 'Social Realism', mode: 'art', img: ART_IMG.fildesCasualWard, palette: ['#6b5034', '#3a2820', '#100c08'], note: 'took: art as a witness to labor' },
+      { label: 'Ashcan School', mode: 'art', img: ART_IMG.bellowsCliffDwellers, palette: ['#53412c', '#2a1f14', '#0c0805'], note: 'took: the gritty modern city, in New York' },
     ],
   },
   influenceSummary: 'Realism took the shock of 1848 and the new mirror of photography, granted the ordinary present the scale once kept for gods, and handed that permission straight to the Impressionists.',
@@ -583,9 +593,13 @@ export const REALISM: ArtMovementContent = {
 export interface WorkSection { id: string; eyebrow: string; dateLabel: string; title: string; blurb: string; progress: number }
 export interface ProvenanceEntry { year: string; who: string; place: string; note: string; price: string | null; museum?: boolean }
 export interface WorkFigure { name: string; role: string; palette: Palette }
-// x/y = the region CENTRE (%); w/h = the crop region size (% of the image) for
-// the "Look closer" detail crops. Older point-only entries default to a box.
-export interface CanvasAnnotation { x: string; y: string; label: string; detail?: string; w?: number; h?: number }
+// "Look closer" = a prose pointer into the FULL painting (shown uncropped above
+// the list). `where` is a short, scannable location phrase ("Center foreground,
+// low"); `label` names the thing; `detail` is why it matters. We do NOT crop or
+// pin the image: any coordinate is authored blind (we can't see where it lands),
+// so it's unreliable by construction — words are the one thing we can place
+// accurately. The legacy x/y/w/h are kept optional + unused (locked 2026-05-25).
+export interface CanvasAnnotation { label: string; where?: string; detail?: string; x?: string; y?: string; w?: number; h?: number }
 
 export interface ArtWorkContent {
   id: string
@@ -678,10 +692,10 @@ export const DEMOISELLES: ArtWorkContent = {
     { name: 'Alfred Barr', role: 'MoMA, the believer', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
   ],
   annotations: [
-    { x: '22%', y: '20%', w: 40, h: 28, label: 'Iberian profile · the two left figures', detail: 'The two left-hand faces — calm, almond-eyed, seen in profile — are lifted from ancient Iberian stone heads Picasso had studied at the Louvre (he even owned two stolen fragments). He is reaching past the Renaissance to Spain’s own pre-Roman past.' },
-    { x: '76%', y: '22%', w: 36, h: 30, label: 'African mask · right-most figures', detail: 'The two figures on the right wear faces like carved African masks — gouged, striated, deliberately other. Picasso had just been hit hard by Fang and Kota masks at the Trocadéro ethnographic museum; here a “beautiful nude” is given a mask for a face.' },
-    { x: '50%', y: '90%', w: 46, h: 18, label: 'Still life, faceted form (Cézanne)', detail: 'The wedge of fruit at the bottom is built from blunt, faceted planes — pure Cézanne, whose late work taught Picasso to construct a picture out of solid geometric blocks instead of smooth illusion.' },
-    { x: '72%', y: '64%', w: 34, h: 30, label: 'Two views at once', detail: 'The crouching figure shows you her muscular back and — twisted impossibly round — her masked face at the same instant. There is no single spot you could stand to see this, which is exactly the point: Cubism abolishes the one fixed viewpoint a painting had assumed for 500 years.' },
+    { label: 'Iberian stone heads · the three left faces', where: 'The three figures at left', detail: 'The three faces on the left are calm and almond-eyed — lifted from the ancient Iberian stone heads Picasso had studied at the Louvre (he even owned two stolen fragments). Only the far-left woman is turned in true profile; the other two stare straight out. He is reaching past the Renaissance to Spain’s own pre-Roman past.' },
+    { label: 'African mask · right-most figures', where: 'The two figures at right', detail: 'The two figures on the right wear faces like carved African masks — gouged, striated, deliberately other. Picasso had just been hit hard by Fang and Kota masks at the Trocadéro ethnographic museum; here a “beautiful nude” is given a mask for a face.' },
+    { label: 'Still life, faceted form (Cézanne)', where: 'Bottom center, below the figures', detail: 'The wedge of fruit at the bottom is built from blunt, faceted planes — pure Cézanne, whose late work taught Picasso to construct a picture out of solid geometric blocks instead of smooth illusion.' },
+    { label: 'Two views at once', where: 'The crouching figure, lower right', detail: 'The crouching figure shows you her muscular back and — twisted impossibly round — her masked face at the same instant. There is no single spot you could stand to see this, which is exactly the point: Cubism abolishes the one fixed viewpoint a painting had assumed for 500 years.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne’s Bathers', mode: 'art' }, { label: 'Iberian sculpture', mode: 'art' }, { label: 'African masks', mode: 'art' }, { label: 'Belle Époque Paris', mode: 'civ' } ],
@@ -1348,12 +1362,12 @@ export const BURIAL: ArtWorkContent = {
     { name: 'The Ornans townsfolk', role: 'The sitters', palette: ['#6a7250', '#3a3c28', '#14140e'] },
   ],
   annotations: [
-    { x: '31%', y: '75%', w: 24, h: 34, label: 'The hole everyone is here for', detail: 'The whole crowd is gathered around this — not a coffin, not a cross, but an open grave painted as a flat black wedge with almost no depth, a void dropped into the dead center where a hero ought to be. The gravedigger kneels patiently beside it in his shirtsleeves, and on the turned earth lie a skull and a scatter of bones, dug up to make room: the bluntest reminder of death there is, with no allegory and no scythe.' },
-    { x: '15%', y: '15%', w: 16, h: 36, label: 'The one thing pointing up', detail: 'A bearer holds a crucifix aloft against the flat gray sky — the single strong vertical in a painting that is otherwise all horizontal line. In a Salon history painting the heavens would open behind it; here the sky just stays gray and gives nothing back.' },
-    { x: '17%', y: '62%', w: 18, h: 42, label: 'The loudest color in the room', detail: 'The figures in vivid red are beadles — minor parish officers who keep order at services. Courbet gave the grandest color in the whole painting (the red a history painter would save for a cardinal or a king) to two small-town church ushers with frankly ordinary faces.' },
-    { x: '46%', y: '47%', w: 18, h: 46, label: 'Two men wearing the wrong decade', detail: 'Among the men in 1840s mourning black stand two old fellows in the suits and knee breeches of 1793 — the dress of the First Republic, half a century out of fashion. They are real sitters (friends of Courbet’s grandfather): veterans of the Revolution planted in the crowd. In 1850, two years after the barricades, that detail did not feel safe.' },
-    { x: '80%', y: '68%', w: 30, h: 44, label: 'Grief on the right, a dog who doesn’t care', detail: 'The women are massed on the right, some pressing handkerchiefs to their faces — the only open grief in the picture (the artist’s own sisters Juliette, Zoé and Zélie are among them). And down in front, back turned to the whole solemn business, a small dog sniffs off toward the edge, completely indifferent. No history painter would have let that animal stay; Courbet gave it the front row.' },
-    { x: '52%', y: '11%', w: 72, h: 20, label: 'The real rock behind the real people', detail: 'That pale, chalky wall of limestone is not invented scenery — it is the actual escarpment of the Ornans valley, Courbet’s hometown geology placed behind his hometown neighbors. Almost the same value as the sky, it refuses to recede; it stands up as a near-featureless wall that presses the figures flat against the viewer.' },
+    { label: 'The hole everyone is here for', where: 'Center foreground, low — the bare turned earth', detail: 'The whole crowd is gathered around this — not a coffin, not a cross, but an open grave painted as a flat black wedge with almost no depth, a void dropped into the dead center where a hero ought to be. The gravedigger kneels patiently beside it in his shirtsleeves, and on the turned earth lie a skull and a scatter of bones, dug up to make room: the bluntest reminder of death there is, with no allegory and no scythe.' },
+    { label: 'The one thing pointing up', where: 'Upper left, held against the gray sky', detail: 'A bearer holds a crucifix aloft against the flat gray sky — the single strong vertical in a painting that is otherwise all horizontal line. In a Salon history painting the heavens would open behind it; here the sky just stays gray and gives nothing back.' },
+    { label: 'The loudest color in the room', where: 'Just left of center — the two figures in red', detail: 'The figures in vivid red are beadles — minor parish officers who keep order at services. Courbet gave the grandest color in the whole painting (the red a history painter would save for a cardinal or a king) to two small-town church ushers with frankly ordinary faces.' },
+    { label: 'Two men wearing the wrong decade', where: 'Center, in white stockings and knee breeches', detail: 'Among the men in 1840s mourning black stand two old fellows in the suits and knee breeches of 1793 — the dress of the First Republic, half a century out of fashion. They are real sitters (friends of Courbet’s grandfather): veterans of the Revolution planted in the crowd. In 1850, two years after the barricades, that detail did not feel safe.' },
+    { label: 'Grief on the right, a dog who doesn’t care', where: 'The right half (the women); the white dog at lower right', detail: 'The women are massed on the right, some pressing handkerchiefs to their faces — the only open grief in the picture (the artist’s own sisters Juliette, Zoé and Zélie are among them). And down in front, back turned to the whole solemn business, a small dog sniffs off toward the edge, completely indifferent. No history painter would have let that animal stay; Courbet gave it the front row.' },
+    { label: 'The real rock behind the real people', where: 'The pale band across the top, behind the crowd', detail: 'That pale, chalky wall of limestone is not invented scenery — it is the actual escarpment of the Ornans valley, Courbet’s hometown geology placed behind his hometown neighbors. Almost the same value as the sky, it refuses to recede; it stands up as a near-featureless wall that presses the figures flat against the viewer.' },
   ],
   lineage: {
     parents: [ { label: 'Dutch group portrait', mode: 'art' }, { label: 'The 1848 Revolution', mode: 'civ' }, { label: 'The Stone Breakers', mode: 'art' } ],

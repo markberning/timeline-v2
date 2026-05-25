@@ -16,7 +16,8 @@ import {
   artWorkCrumbs, artAlpha,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG,
 } from '@/components/mode/art-chrome'
-import { ART_WORK_CONTENT, type ArtWorkContent, type CanvasAnnotation } from '@/lib/art-content'
+import { Lightbox } from '@/components/lightbox'
+import { ART_WORK_CONTENT, type ArtWorkContent } from '@/lib/art-content'
 
 export function ArtWorkPage({ workId }: { eraId: string; movementId: string; workId: string }) {
   const w = ART_WORK_CONTENT[workId]
@@ -26,7 +27,7 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
   const secStyle: React.CSSProperties = { scrollMarginTop: 46 }
   // Sticky jump-bar — same pattern as the movement page. Sections are always
   // visible (no accordions); the stats fold into Provenance ("not much under
-  // details"). "Look closer" only when the work has annotation crops.
+  // details"). "Look closer" only when the work has prose pointers.
   const navItems = [
     { id: 'sec-canvas', label: 'Canvas' },
     ...(w.annotations.length ? [{ id: 'sec-look', label: 'Look closer' }] : []),
@@ -42,7 +43,7 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
       />
       <ArtPageShell>
         <SectionNav accent={accent} items={navItems} />
-        {/* No hero on artwork pages — the canvas + "Look closer" crops are the
+        {/* No hero on artwork pages — the canvas + "Look closer" pointers are the
             signature visual (audits/art-vertical.md §5b). A compact text header
             gives the work its name, artist·year and one-line lead. */}
         <div id="sec-canvas" style={secStyle}>
@@ -55,9 +56,9 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
           {/* signature visual — the whole canvas */}
           <CanvasViewer w={w} />
         </div>
-        {/* the Look-closer detail crops */}
+        {/* Look closer — full canvas + prose pointers (no crops) */}
         {w.annotations.length > 0 && (
-          <div id="sec-look" style={secStyle}><LookCloser w={w} /></div>
+          <div id="sec-look" style={secStyle}><LookCloser w={w} accent={accent} /></div>
         )}
         {/* the chapters — the primary read entry */}
         <div id="sec-story" style={secStyle}><WorkSectionsList w={w} base={base} accent={accent} /></div>
@@ -72,76 +73,69 @@ export function ArtWorkPage({ workId }: { eraId: string; movementId: string; wor
 }
 
 // ─────────────────────────────────────────────────────────────
-// Canvas viewer — the whole painting (matte cropped so it fills the frame) and
-// the museum caption. Close detail lives in the "Look closer" crops below.
+// Canvas viewer — the whole painting (matte cropped so it fills the frame), tap
+// to pinch-zoom in the lightbox, and the museum caption. This is the ONE copy of
+// the work; "Look closer" below points back to it in prose (no second image).
 // ─────────────────────────────────────────────────────────────
 function CanvasViewer({ w }: { w: ArtWorkContent }) {
   const [failed, setFailed] = useState(false)
+  const [zoom, setZoom] = useState(false)
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase', marginBottom: 12 }}>The canvas</div>
+      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12 }}>
+        <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>The canvas</div>
+        {!failed && <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3 }}>Tap to zoom</div>}
+      </div>
       {/* slight zoom crops the thin white matte some source scans carry, so the work fills the frame */}
-      <div style={{ background: '#8a6b3a', borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}` }}>
-        {!failed ? (
+      {!failed ? (
+        <button onClick={() => setZoom(true)} aria-label={`Zoom into ${w.name}`} style={{ display: 'block', width: '100%', padding: 0, margin: 0, background: '#8a6b3a', borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, cursor: 'zoom-in' }}>
           <div style={{ transform: 'scale(1.04)', transformOrigin: 'center' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={w.heroImage} alt={w.name} style={{ width: '100%', height: 'auto', display: 'block' }} onError={() => setFailed(true)} />
           </div>
-        ) : (
+        </button>
+      ) : (
+        <div style={{ background: '#8a6b3a', borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}` }}>
           <div style={{ aspectRatio: '243 / 234', background: 'linear-gradient(135deg, #c0a06c, #3d3a2e 55%, #8a6b3a)' }} />
-        )}
-      </div>
+        </div>
+      )}
       <div style={{ marginTop: 10, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: MUTED }}>
         {w.artist}, <em>{w.name}</em>, {w.year}. {w.medium}. {w.dimensions}.<br />
         {w.location}{w.acquired ? `. ${w.acquired}` : ''}
       </div>
+      {zoom && <Lightbox src={w.heroImage} alt={w.name} caption={w.name} onClose={() => setZoom(false)} />}
     </div>
   )
 }
 
 // ─────────────────────────────────────────────────────────────
-// Look closer — a grid of CSS-cropped close-ups, each captioned. The frame
-// takes the region's true aspect (region w/h × source W/H) and the same source
-// image is scaled + offset so the region fills it (no extra image files). The
-// region is x/y (center %) + w/h (size %), authored & verified per work.
+// Look closer — a numbered list of prose pointers (what to find, where it sits,
+// why it matters) that send the reader back up to the Canvas (zoom it there). NO
+// second copy of the painting, and no crop/pin: any coordinate would be authored
+// blind (we can't see where it lands), so words are the one reliable pointer.
+// Each pointer is {label, where, detail}.
 // ─────────────────────────────────────────────────────────────
-function CropRegion({ src, srcAspect, a }: { src: string; srcAspect: number; a: CanvasAnnotation }) {
-  const w = a.w ?? 34, h = a.h ?? 26
-  const cx = parseFloat(a.x), cy = parseFloat(a.y)
-  // background-size matches the container aspect (= region aspect), so the image
-  // isn't distorted; background-position frames the region centered on (cx,cy).
-  const posX = ((cx - w / 2) / (100 - w)) * 100
-  const posY = ((cy - h / 2) / (100 - h)) * 100
-  return (
-    <div role="img" aria-label={a.label} style={{
-      width: '100%', aspectRatio: `${(w / h) * srcAspect}`,
-      borderRadius: 6, border: `1px solid ${BORDER}`, backgroundColor: '#8a6b3a',
-      backgroundImage: `url("${src}")`, backgroundRepeat: 'no-repeat',
-      backgroundSize: `${(10000 / w).toFixed(2)}% ${(10000 / h).toFixed(2)}%`,
-      backgroundPosition: `${posX.toFixed(2)}% ${posY.toFixed(2)}%`,
-      filter: 'sepia(0.14) saturate(0.85) contrast(1.05)',
-    }} />
-  )
-}
-
-function LookCloser({ w }: { w: ArtWorkContent }) {
+function LookCloser({ w, accent }: { w: ArtWorkContent; accent: string }) {
   if (!w.annotations.length) return null
-  const src = w.heroImage, sa = w.heroAspect ?? 1
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12 }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 14 }}>
         <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: FAINT, textTransform: 'uppercase' }}>Look closer</div>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3 }}>Details worth finding</div>
+        <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3 }}>Find these on the canvas above</div>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
+      {/* numbered prose pointers — zoom the Canvas above to find each one */}
+      <ol style={{ listStyle: 'none', margin: 0, padding: 0, display: 'grid', gap: 15 }}>
         {w.annotations.map((a, i) => (
-          <div key={i}>
-            <CropRegion src={src} srcAspect={sa} a={a} />
-            <div style={{ marginTop: 7, fontFamily: SANS, fontSize: 12, fontWeight: 700, color: INK, lineHeight: 1.2 }}>{a.label}</div>
-            {a.detail && <div style={{ marginTop: 3, fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>{a.detail}</div>}
-          </div>
+          <li key={i} style={{ display: 'flex', gap: 11 }}>
+            <span aria-hidden style={{ flexShrink: 0, width: 22, height: 22, borderRadius: 999, background: artAlpha(accent, 0.16), border: `1px solid ${artAlpha(accent, 0.5)}`, color: INK, fontFamily: SANS, fontSize: 11.5, fontWeight: 700, display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>{i + 1}</span>
+            <div style={{ minWidth: 0 }}>
+              <div style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, color: INK, lineHeight: 1.25 }}>{a.label}</div>
+              {a.where && <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, fontWeight: 600, color: accent, lineHeight: 1.3 }}>{a.where}</div>}
+              {a.detail && <div style={{ marginTop: 4, fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{a.detail}</div>}
+            </div>
+          </li>
         ))}
-      </div>
+      </ol>
     </div>
   )
 }

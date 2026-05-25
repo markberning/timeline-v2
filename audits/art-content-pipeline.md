@@ -48,6 +48,15 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    Flag apocryphal anecdotes asserted as fact. ✅ CONFIRMED / ❌ WRONG (+correct
    fact +source) / ⚠️ UNSUPPORTED / 🟡 LEGEND-FRAME-IT. MUST-FIX (❌, and any 🟡
    asserted flatly) vs SHOULD-FIX. ("Is it true — or just a good story told as true?")
+   **SCOPE INCLUDES the WORK page's "Look closer" pointers (locked 2026-05-25).**
+   Every `{label, where, detail}` is a verifiable claim about what is *literally on
+   the canvas* — figure counts, poses, profile-vs-frontal, who/what each element is,
+   left/right placement — checked against the **painting image itself** + sources,
+   exactly like the prose; a wrong pointer is MUST-FIX. They are NOT exempt for being
+   short captions. (Why this clause exists: the *Demoiselles* pointer "two left-hand
+   faces … seen in profile" shipped wrong — there are *three* Iberian-style left faces
+   and only the far-left is in profile — because annotations were authored but never
+   run through this gate. The same critics that read the narrative read the pointers.)
 2. **Storytelling & "looking" critic** (Sonnet) — judge as a story AND as art
    writing. Grade per chapter STRONG / GOOD / NEEDS WORK / REWRITE. Hook & stakes,
    pacing, voice — PLUS the art-specific axis: **does it make the reader see the
@@ -168,7 +177,18 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    Sisley for a Daubigny). If a work has no free image, **swap the row to an equally
    canonical work that does** (don't ship a gap). **Explicit works** (e.g. Courbet's
    *Origin of the World*) get `nsfw:true` → listed + linked but **no inline
-   thumbnail** + an `explicit` tag (never dropped, never shown inline).
+   thumbnail** + an `explicit` tag (never dropped, never shown inline). (c) the
+   **Influence-flow lineage chips** — every "Grew out of / Led to" node gets a
+   born-verified `img` (a representative PD work for the concept), subject eyeballed;
+   gradient fallback is an unfinished node, not a final state.
+   **For a WORK, the "Look closer" pointers are PROSE, not crops (locked 2026-05-25):**
+   each `annotation` is `{label, where, detail}` — `where` is a written location
+   phrase ("Center foreground, low"). The page shows the **whole painting** (tap to
+   zoom) and the reader finds each point themselves. **Do NOT author x/y/w/h crop or
+   pin coordinates** — they are placed blind (we can't see where a box/dot lands), so
+   they were unreliable by construction. Author `where` by *looking at the painting*
+   and describing what's there; this is the one method that scales and can't be wrong
+   by a few percent.
 7. **Integrate** — author the prose as JSX `Narrative` components
    (`era-/movement-/<work>-narratives.tsx`), register in `ERA_NARRATIVES` /
    `MOVEMENT_NARRATIVES`, fill the `sections` chapter metadata, wire the

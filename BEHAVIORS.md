@@ -142,7 +142,7 @@ Three agent passes per new TL:
 - **The hero frame matches the IMAGE's own dimensions.** A single artwork hero (`ArtHero` in `mode/art-chrome.tsx`) renders at its natural aspect ratio (`width:100%; height:auto`) — the frame takes the painting's shape. A square or portrait work is **never** cropped or letterboxed into a fixed landscape band.
 - This retires the old fixed-240 `fit="cover"/"contain"` scheme, which caused the same defect repeatedly: squarish/portrait works (e.g. the *Demoiselles* work hero) read as "cut off." `fit`/`focus` stay on the prop type for compatibility but no longer crop a single hero — do not use them to patch framing.
 - Only exception = a deliberate **portrait diptych** (`heroImages` with 2+ entries) — two works side by side at equal height for a genre/movement. A genuine cropped banner *detail* is a separate, explicit choice, credited "(detail)". Full rule + sourcing in `audits/art-vertical.md` §5b.
-- **Artwork pages have NO hero.** The annotated Canvas viewer is the signature visual for every work; a compact text header (name · artist·year · one-line hook) replaces the banner. The viewer is per-work and every artwork requires `annotations` authored (`{x,y,label}` at % coords).
+- **Artwork pages have NO hero.** The Canvas viewer is the signature visual for every work; a compact text header (name · artist·year · one-line hook) replaces the banner. Every artwork authors `annotations` as prose pointers (`{label, where, detail}` — see "Art WORK page — anatomy"); NO image crops/pins (coordinates can't be placed blind).
 
 ## Cards — the locked design (locked 2026-05-25)
 The art cord/timeline cards (era + movement) all render through ONE shared
@@ -211,6 +211,13 @@ Each section is wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
   **re-scrolls at 250ms + 600ms**; (2) the spy would re-light passing sections mid-
   jump → a `lockRef` **freezes the spy until ~850ms** after a jump. Keep ≤5 chips
   (group small dossier blocks under "Details") so it never wraps on a phone.
+- **Influence flow lineage images** — every "Grew out of / Led to" node
+  (`ArtLineageChip`) carries a born-verified `img`: a representative PD work for the
+  concept (e.g. Daguerre's *Boulevard du Temple* for Photography, Vermeer's *Milkmaid*
+  for Dutch genre, Bellows' *Cliff Dwellers* for the Ashcan School). A chip with no
+  `img` falls back to its palette gradient — acceptable as a stopgap, but treat a
+  gradient chip as an unfinished node to source, not a final state. Eyeball every
+  subject (Commons search returns wrong files).
 - **Artist row headshots** — `ArtistsStrip` shows a born-verified PD portrait or
   self-portrait per artist (`MovementArtist.photo`), circular, face-biased
   (`objectPosition '50% 18%'`), sepia-toned, with a **gradient fallback** (the
@@ -241,10 +248,17 @@ jump-bar pattern as the movement page (NO accordions). Sticky `SectionNav` chips
 **Canvas · Look closer · Story · Provenance** (the "Look closer" chip only when the
 work has annotations). Sections, each `<div id="sec-…" scrollMarginTop:46>`:
 - **Canvas** — compact text header (name · artist·year · hook) + the whole painting
-  (`CanvasViewer`, shown un-cropped; NO hero banner) + the museum caption.
-- **Look closer** — the `LookCloser` grid of CSS-cropped "Look closer" details, each
-  region authored as a `CanvasAnnotation` (`x/y` centre %, `w/h` size %), placed +
-  eyeballed against the real image at gate 6.
+  (`CanvasViewer`, shown un-cropped; NO hero banner), **tap to pinch-zoom in the
+  lightbox** ("Tap to zoom" affordance), + the museum caption. This is the ONE copy
+  of the work on the page.
+- **Look closer** — the `LookCloser` block: a **numbered list of prose pointers**
+  only (NO second copy of the painting — it points back up to the Canvas, "Find these
+  on the canvas above"). Each pointer is a `CanvasAnnotation` of `{label, where,
+  detail}` — `where` is a short scannable location phrase ("Center foreground, low").
+  **We do NOT crop or pin the image** (retired 2026-05-25): any coordinate is authored
+  *blind* — we can't see where it lands, so a box/dot that's a few % off shows the
+  wrong content. Words are the one thing we can place reliably. The legacy `x/y/w/h`
+  fields remain on the type, optional + unused.
 - **Story** — the numbered chapter cord (links into the section reader).
 - **Provenance** — the at-a-glance `StatsRow` is **folded in here** (there was little
   under the old "Details" accordion), above the provenance ledger.
