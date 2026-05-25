@@ -179,7 +179,10 @@ server page breaks static export).
 **Reader chrome decisions (locked 2026-05-23):** NO ↑From/↓To lineage strip at the top of a
 narrative chapter (removed). The **"Meanwhile in…" sheet matches the War reader's** Meanwhile
 card exactly — a plain bordered card, gray eyebrow, italic serif title, serif body; no accent
-top-border, thumbnail, date pill or CTA button. Chapter figures open a **pinch/double-tap/pan
+top-border, thumbnail, date pill or CTA button. **Import the one shared `MeanwhileSheet` from
+`mode/art-reader` at EVERY level (era / movement / work) — never a per-file local copy.** (A
+local variant in the work-section reader drifted out of sync — accent border, swatch, dead CTA —
+and was removed 2026-05-24; the shared component is the single source of truth.) Chapter figures open a **pinch/double-tap/pan
 zoomable lightbox** (the shared civ `Lightbox`, with an optional caption), so paintings can be
 zoomed for detail.
 
@@ -234,20 +237,42 @@ frame and crop it.
   Viewer especially: its annotation pins are placed at % coordinates, so cropping
   also *misaligns the pins*. (Both are implemented this way now — don't regress
   them to `object-fit: cover`.)
-- **Heroes (240px landscape banner) → pick the fitting composition (`ArtHero`):**
-  1. a genuinely **landscape work** → `fit="cover"` (default). e.g. Modern era =
-     Van Gogh, *The Starry Night*.
-  2. a deliberate **landscape detail** of a tall work → `fit="cover"` + `focus`
-     (CSS object-position) to frame the region; **credit it "(detail)"** so the crop
-     reads as intentional.
-  3. a **whole portrait/square work** → `fit="contain"` (the component letterboxes
-     it on a blurred, dimmed copy of itself — never bars-on-blank). e.g. the
-     Demoiselles work hero.
-  4. a **portrait diptych** — two portrait works side by side to represent a
-     genre/movement → pass `heroImages: [{src,focus},{src,focus}]`. e.g. Cubism =
-     Girl with a Mandolin + Portrait of Kahnweiler.
+- **Heroes → the FRAME IS THE IMAGE's SHAPE (`ArtHero`), locked 2026-05-24.** A
+  single-artwork hero renders at its **natural aspect ratio** (`width:100%,
+  height:auto`); the frame takes the painting's own dimensions, so a square or
+  portrait work is **never** cropped or letterboxed into a landscape band.
+  - This replaces the old fixed-240 `fit="cover"/"contain"` scheme, which caused
+    the same defect over and over — squarish/portrait works (e.g. the *Demoiselles*
+    work hero) read as "cut off" or got a blurred letterbox. That scheme is retired.
+  - `fit` / `focus` remain on the prop type for caller compatibility but **no
+    longer crop a single hero.** Do not reach for them to "fix" framing.
+  - The ONLY fixed-height case is a deliberate **portrait diptych** — two works
+    side by side for a genre/movement → `heroImages: [{src,focus},{src,focus}]`
+    (e.g. Cubism = Girl with a Mandolin + Kahnweiler), which stays equal-height.
+  - A genuine cropped *banner detail* is a separate, explicit choice — credit it
+    "(detail)" — not the default.
 - **Cord/grid thumbnails (`ArtTile`)** may `cover`-crop (small, decorative) — but
   center the focal point; a recognizable work is better than an arbitrary corner.
+  **EXCEPTION — the `xl` flagship cord card** (e.g. the *Demoiselles* in the Cubism
+  works timeline) is large and prominent, so it shows the WHOLE work at its natural
+  aspect (`CordTile natural`), never the old fixed-124px landscape strip + `cover`.
+- **Artwork pages have NO hero (locked 2026-05-24).** The annotated **Canvas viewer
+  is the signature visual** for every work — a compact text header (eyebrow · name ·
+  artist·year · one-line hook) sits above it instead of a hero banner. The Canvas
+  viewer is per-work (takes the work as a prop; shows the whole painting at natural
+  aspect so the % annotation pins land correctly) and its caption is data-driven
+  (`artist · name · year · medium · dimensions · location · acquired`). **Dimensions
+  are written in feet & inches (US), not cm** — e.g. `8 ft × 7 ft 8 in` (stat: `8′ × 7′8″`).
+  **Every
+  artwork therefore REQUIRES `annotations` authored** (`{x,y,label}` at % coords) —
+  it's the page's main visual, not an optional extra. Detail is shown as a **"Look
+  closer" grid of CSS region-crops** (replaced the tap-pins, which were fiddly to
+  place point-precise and too small to read on a phone). Each annotation is a
+  region — `{x,y` (centre %)`, w,h` (size %)`, label, detail}` — and the work needs
+  `heroAspect` (source W/H) so the crop frame matches the region's true shape. No
+  extra image files: the same source image is scaled+offset in CSS. **Author the
+  regions by eyeballing the actual crops** (e.g. generate them with a quick PIL
+  script) before committing — a region is forgiving, but verify it frames the feature.
 - **When sourcing (step in §"image sourcing"), record each file's orientation**
   (w vs h) so the right composition is chosen up front, not patched later.
 

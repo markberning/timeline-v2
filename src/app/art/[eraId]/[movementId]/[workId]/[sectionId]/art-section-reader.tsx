@@ -20,6 +20,7 @@ import {
   SANS, SERIF, INK, MUTED, FAINT, BORDER, CARD_BG,
 } from '@/components/mode/art-chrome'
 import { ART_WORK_CONTENT, ART_IMG } from '@/lib/art-content'
+import { MeanwhileSheet } from '@/components/mode/art-reader'
 import { Lightbox } from '@/components/lightbox'
 
 // ─────────────────────────────────────────────────────────────
@@ -114,28 +115,9 @@ export function RestrictedFigure({ imageUrl, title, year, note, linkLabel, href 
 }
 
 const PD_RIGHTS = 'Public domain in the United States (first published before 1931).'
-
-// ─────────────────────────────────────────────────────────────
-// "Meanwhile in…" sheet — violet top border cross-link into the corpus
-// ─────────────────────────────────────────────────────────────
-function MeanwhileSheet({ accent, region, when, title, body, palette, ctaLabel }: { accent: string; region: string; when: string; title: string; body: string; palette: [string, string, string]; ctaLabel: string }) {
-  return (
-    <div style={{ margin: '20px 14px 0', border: `1px solid ${BORDER}`, borderTopWidth: 3, borderTopColor: accent, borderRadius: '16px 16px 0 0', background: CARD_BG, padding: '15px 16px 18px' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-        <span style={{ fontFamily: SANS, fontSize: 11, letterSpacing: 1, fontWeight: 700, color: accent, textTransform: 'uppercase' }}>Meanwhile in… {region}</span>
-        <span style={{ fontFamily: SANS, fontSize: 11, color: FAINT }}>{when}</span>
-      </div>
-      <div style={{ display: 'flex', gap: 12, marginTop: 11 }}>
-        <div style={{ flexShrink: 0, width: 62, height: 62, borderRadius: 9, background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }} />
-        <div>
-          <h4 style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 600, lineHeight: 1.3, color: INK }}>{title}</h4>
-          <p style={{ fontFamily: SANS, fontSize: 13, lineHeight: 1.5, color: MUTED, marginTop: 3 }}>{body}</p>
-        </div>
-      </div>
-      <button style={{ marginTop: 13, fontFamily: SANS, fontSize: 13, fontWeight: 600, color: accent, border: `1px solid ${BORDER}`, background: 'transparent', borderRadius: 20, padding: '9px 15px', cursor: 'pointer' }}>{ctaLabel} →</button>
-    </div>
-  )
-}
+// MeanwhileSheet is imported from art-reader (shared, single source of truth) —
+// the era + movement chapters use the same component. A local variant here drifted
+// out of sync (top accent border, colour swatch, dead CTA), so it was removed.
 
 // ─────────────────────────────────────────────────────────────
 // The five narratives — prose ported verbatim from art-section.jsx
@@ -567,12 +549,188 @@ function LegacyNarrative({ accent, onZoom }: { accent: string; onZoom: (src: str
   )
 }
 
-const NARRATIVES: Record<string, (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement> = {
-  setting: SettingNarrative,
-  making: MakingNarrative,
-  reception: ReceptionNarrative,
-  hidden: HiddenNarrative,
-  legacy: LegacyNarrative,
+// ─────────────────────────────────────────────────────────────
+// Kahnweiler — the five chapters (Analytic Cubism, 1910)
+// ─────────────────────────────────────────────────────────────
+function KahDealer({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · 1907" title="A shop the size of a bedroom" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        alk into 28 rue Vignon, a side street near the Madeleine church in Paris, in 1907, and you would find a room about four metres square — roughly a single bedroom — with almost nothing on the walls. The man behind the counter was{' '}<strong>Daniel-Henry Kahnweiler</strong>: 23 years old, German, born in Mannheim into a banking family that had shipped him off to Paris and London to learn the money trade. He had learned it well enough to know what he wanted to do instead. With a small loan of family money he had rented this closet of a shop, and he intended to sell the most unsellable pictures in Europe.
+      </p>
+      <p style={proseStyle}>
+        Within a couple of years he had quietly signed up the wildest young painters in Paris: Pablo Picasso; Georges Braque; and two of the{' '}<em>Fauves</em>{' '}— the &ldquo;wild beasts,&rdquo; a movement of painters who slapped down raw, unmixed colour — namely André Derain and Maurice de Vlaminck. Soon a young Spaniard named Juan Gris joined them. Kahnweiler bought their canvases when nobody else would, back when the only people who admired this work were the handful of people making it. On the side he also dealt in African and Oceanic carvings — the same kind of objects that had just rewired Picasso&rsquo;s eye.
+      </p>
+      <SectionHeader accent={accent} label="The strategy" title="Pay them, and hide them" />
+      <p style={proseStyle}>
+        Here is the part that sounds backwards. Kahnweiler did the opposite of what a dealer is supposed to do: he kept his painters{' '}<em>out</em>{' '}of sight. The normal way to launch a new artist was the{' '}<strong>Salons</strong>{' '}— the giant annual public exhibitions in Paris where critics, buyers and the press discovered who was next. Kahnweiler banned his painters from showing there. Instead he sold privately, one canvas at a time, to a tiny circle of true believers — collectors in Germany, Russia and the United States who would buy on his word alone.
+      </p>
+      <p style={proseStyle}>
+        It worked because scarcity is its own advertisement. If the only place to see a Picasso was in a German industrialist&rsquo;s drawing room, owning one meant you were in on a secret the world hadn&rsquo;t caught up to yet. To free the painters to take risks, Kahnweiler eventually put them on what amounted to a fixed monthly payment in exchange for first claim on everything they made — though the{' '}<em>formal</em>{' '}exclusive contracts came later, around 1912; in these early years it was a looser, trusting arrangement.
+      </p>
+      <p style={proseStyle}>
+        The work he was hiding had, by then, picked up a name — and not from the painters. In 1908 Kahnweiler hung some Braque landscapes in this shop. A critic named Louis Vauxcelles walked in, sneered that Braque had reduced everything to{' '}<em>&ldquo;petits cubes&rdquo;</em>{' '}— little cubes — and the insult stuck. That sneer is why we now say{' '}<strong>Cubism</strong>: the art of breaking the world into hard, angular blocks. So when Picasso painted Kahnweiler&rsquo;s portrait two years later, he was not just painting a friend. He was painting the system that paid for Cubism, in the style that system had bankrolled into being.
+      </p>
+    </article>
+  )
+}
+
+function KahAnalytic({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1909–1911" title="Roped together" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>&ldquo;</DropCap>
+        It was like being roped together on a mountain,&rdquo; Braque said later, looking back on these years. He meant it the way a climber means it: one slip and you both go off the cliff, so you watch each other&rsquo;s every move. He and Picasso both lived on the Montmartre hill in northern Paris — Picasso in the rickety studio block called the Bateau-Lavoir — and through 1909, 1910 and 1911 they went round to each other&rsquo;s studios nearly every day, eyeing what the other had done since yesterday and pushing the same problem one more inch.
+      </p>
+      <p style={proseStyle}>
+        They worked so much in lockstep that, for a stretch, they stopped signing the{' '}<em>fronts</em>{' '}of their canvases — you had to flip a picture over to learn whose it was. The result is that even now, more than a century on, scholars sometimes can&rsquo;t agree on which man painted which canvas. Two people had effectively merged into one painter.
+      </p>
+      <SectionHeader accent={accent} label="The method" title="A face from every side at once" />
+      <p style={proseStyle}>
+        What they invented in those rope-together years is called{' '}<em>Analytic Cubism</em>{' '}(roughly 1909–1911). The idea: take an object — a violin, a bottle, a head — and shatter it into small flat{' '}<em>facets</em>, the little angled planes you see on the cut surface of a gem, then lay those facets out on the canvas as if you were seeing the thing from several sides at the same moment. And do all this in a deliberately drab, near-colourless range of browns, greys and{' '}<em>ochres</em>{' '}(the dull yellow-brown of dried clay). The colour is drained out{' '}<em>on purpose</em>: with nothing pretty to look at, your eye is forced onto the only thing left — the structure.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#7a6a4a', '#3a3326', '#15110a']}
+        imageUrl={ART_IMG.braqueViolinJug}
+        ratio="3/4"
+        alt="Braque, Violin and Pitcher"
+        caption={<>Braque,{' '}<em>Violin and Pitcher</em>, 1909–10 — Kunstmuseum Basel. The same brown faceting Picasso was using on Kahnweiler, made the same year.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        And it really was the same year, the same problem, the same drab palette — two men, one experiment. Set Braque&rsquo;s pitcher beside what Picasso was doing with a human figure that summer and the kinship is almost embarrassing.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#7a6a4a', '#4a4030', '#15110a']}
+        imageUrl={ART_IMG.girlWithMandolin}
+        ratio="3/4"
+        alt="Picasso, Girl with a Mandolin (Fanny Tellier)"
+        caption={<>Picasso,{' '}<em>Girl with a Mandolin (Fanny Tellier)</em>, 1910 — Museum of Modern Art, New York. Painted the same year as the Kahnweiler portrait: a body breaking into facets, but the curve of an arm and the round of the instrument still hold.</>}
+        rights={PD_RIGHTS}
+      />
+      <SectionHeader accent={accent} label="Where it came from" title="Borrowed from a mask" />
+      <p style={proseStyle}>
+        The strangest move — showing a thing from several angles at once — was not invented in Montmartre. Picasso had met it in 1907, in the African masks crammed into the ethnographic museum at the Trocadéro in Paris. A carved Fang or Kota mask from Central Africa already did the impossible thing: it showed a face dead-on{' '}<em>and</em>{' '}in profile in the same object, nose and brow and cheek read at once. The African carvers had solved &ldquo;several views in one image&rdquo; long before any Frenchman thought of it. Cubism took that solution and ran. It is worth saying plainly, because the textbooks usually don&rsquo;t: the central trick of the most influential painting movement of the century was borrowed, uncredited, from anonymous African sculptors.
+      </p>
+      <SectionHeader accent={accent} label="The brink" title="To the edge of legibility" />
+      <p style={proseStyle}>
+        By 1910 the method had pushed so far that the pictures were nearly impossible to read — a few more facets and the subject would dissolve into pure pattern. That scared even Picasso and Braque, so over these years they began smuggling clues back in: the curl of a clarinet, a stencilled letter, a painted nail so real it fools the eye. The Kahnweiler portrait sits right on that edge — but turned, for once, on a living man instead of a jug. A human being taken to the brink of vanishing, then yanked back to earth by a handful of things you can still name.
+      </p>
+    </article>
+  )
+}
+
+function KahReading({ accent, onZoom }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The picture" title="Start at the top" first />
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={['#5a4a3a', '#2a221c', '#0a0606']}
+        imageUrl={ART_IMG.kahnweiler}
+        ratio="3/4"
+        alt="Picasso, Portrait of Daniel-Henry Kahnweiler"
+        caption={<>Picasso,{' '}<em>Portrait of Daniel-Henry Kahnweiler</em>, 1910 — Art Institute of Chicago. Tap to zoom, then follow along below.</>}
+        rights={PD_RIGHTS}
+      />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        t first glance it is a grey-brown avalanche of broken planes, and it is tempting to give up. Don&rsquo;t — there is a man in here, and finding him is the whole pleasure. Start at the very top. That patch of fine diagonal hatching, almost like wood grain, is{' '}<strong>hair</strong>: wavy, carefully combed, parted on one side. It is the easiest foothold, so plant your feet there first.
+      </p>
+      <p style={proseStyle}>
+        Drop down a little and a face assembles itself out of the rubble — two dark almond{' '}<strong>eyes</strong>, the ridge of a{' '}<strong>nose</strong>, the line of a brow. Below them, a thin dark{' '}<strong>moustache</strong>{' '}sits over the mouth. Keep going down the centre and you reach the throat, where Picasso has left two of the clearest clues in the whole painting: the neat triangle of a{' '}<strong>tie knot</strong>, and, swagging across the waistcoat, the little chain of a{' '}<strong>pocket watch</strong>. Those two ordinary gentleman&rsquo;s details are the painting telling you, quietly, that this scaffold is a person, dressed for business.
+      </p>
+      <p style={proseStyle}>
+        Now the bottom. A cluster of pale interlocking blocks resolves into a pair of{' '}<strong>clasped hands</strong>, folded in his lap. And off to the{' '}<em>lower left of the canvas</em>{' '}— which is the sitter&rsquo;s{' '}<em>right</em>{' '}side, since he faces you — sit the shards of a small{' '}<strong>still life</strong>: a bottle, and most likely a glass beside it. So Picasso pins the figure down top and bottom — hair up here, hands down there, watch chain anchoring the middle — and lets everything between explode into facets.
+      </p>
+      <SectionHeader accent={accent} label="The point" title="Why it stops short" />
+      <p style={proseStyle}>
+        Here is the thing people miss: this is{' '}<em>not</em>{' '}abstract art. Picasso could have dissolved Kahnweiler into pure pattern and walked away — and he chose not to. Analytic Cubism deliberately keeps a tether to the real world: just enough hair, eye, moustache, tie, watch chain and bottle that a patient viewer can climb back to a man. The painting&rsquo;s whole charge lives in that tension — a face on the knife-edge of vanishing, held back from the drop by five or six clues a stubborn eye can still find.
+      </p>
+    </article>
+  )
+}
+
+function KahSitting({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Autumn 1910" title="Thirty afternoons in a studio" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture the room. Autumn 1910, Picasso&rsquo;s cluttered Paris studio, paint and canvases stacked against every wall. Kahnweiler comes by after the gallery closes and settles into a chair — tie knotted, watch chain across the waistcoat, hands folded in his lap — and holds still while his painter stares at him and works. Then he comes back and does it again. By his own later count he sat something like{' '}<strong>thirty times</strong>{' '}for this one picture. That is a lot of afternoons to give a man who is steadily making you disappear.
+      </p>
+      <p style={proseStyle}>
+        Because that is the joke at the centre of the whole thing: the longer Kahnweiler sat, the{' '}<em>less</em>{' '}the canvas looked like him. Most portrait painters work toward likeness — each sitting sharpens the nose, fixes the mouth, narrows the gap between paint and person. Picasso ran the engine in reverse. Each sitting he took the face further apart, prying the man into the flat planes of Analytic Cubism, trading the resemblance for structure. More looking, less likeness.
+      </p>
+      <SectionHeader accent={accent} label="The paradox" title="Likeness by other means" />
+      <p style={proseStyle}>
+        And yet — this is the strange part — people who actually knew Kahnweiler swore the thing{' '}<em>caught</em>{' '}him. A Cubist portrait doesn&rsquo;t record a face the way a camera does. It builds a stand-in for a person out of his attributes and rhythms: the set of the shoulders, the clasped hands, the swag of the watch chain, the bottle on the shelf, the wave of carefully combed hair. Assemble enough of a man&rsquo;s particulars and the man is somehow there, even with the face dismantled. Kahnweiler himself kept faith with the painting for the rest of his life — which mattered, because a war and a government auction would shortly try very hard to part him from it.
+      </p>
+    </article>
+  )
+}
+
+function KahSeized({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <>
+      <article style={{ padding: '18px 18px 40px' }}>
+        <SectionHeader accent={accent} label="August 1914" title="An enemy alien overnight" first />
+        <p style={proseStyle}>
+          <DropCap accent={accent}>I</DropCap>
+          n August 1914 the First World War broke out, and France and Germany were suddenly enemies. Kahnweiler — still, after all these years in Paris, a German citizen — happened to be on holiday outside France when it started. That was a catastrophe. A German national could not simply cross back into a France now at war with Germany; he would have been arrested on sight. So the dealer who had built Cubism was locked out of his own gallery, and overnight he became, in French eyes, an{' '}<em>enemy alien</em>{' '}— a citizen of a country yours is now fighting. The French state reached into his shop and{' '}<em>sequestered</em>{' '}his entire stock — that is, legally seized it and held it — as &ldquo;enemy property.&rdquo; Hundreds of Cubist paintings, this portrait of him among them, now belonged, in effect, to the government he had fled.
+        </p>
+        <SectionHeader accent={accent} label="1921–1923" title="The fire-sale at the Drouot" />
+        <p style={proseStyle}>
+          When the war ended, the state did the single cruelest thing it could to a market built on scarcity: it dumped the lot, all at once, in public. Between 1921 and 1923 the confiscated Kahnweiler holdings — roughly{' '}<strong>three thousand works</strong>{' '}— were auctioned off in four forced sales at the{' '}<strong>Hôtel Drouot</strong>, Paris&rsquo;s big central auction house. Everything Kahnweiler had so carefully{' '}<em>hidden</em>{' '}to build value was now shoved onto the open block, fast and cheap. Cubist prices cratered. Years of patient market-making collapsed in a few hammering afternoons.
+        </p>
+        <p style={proseStyle}>
+          The painters were furious — these were their own canvases being sold out from under them for nothing. At the first sale, by several accounts, Braque squared off against Léonce Rosenberg, the dealer running the auction, and{' '}<em>punched</em>{' '}him; the story is reported rather than documented, but it captures the mood in the room exactly. Out of that wreckage Kahnweiler clawed his way back. He returned to Paris and reopened — but not under his own name. With anti-German feeling still raw, a gallery called &ldquo;Kahnweiler&rdquo; was a liability, so he reopened under the name of a French partner, as the{' '}<strong>Galerie Simon</strong>, and quietly started again. He went on dealing, and writing about his painters, into his nineties.
+        </p>
+        <p style={proseStyle}>
+          This very portrait went under the hammer as{' '}<strong>lot 84</strong>{' '}in the first of those sales, in June 1921, and was carried off by the Swedish painter Isaac Grünewald. From there it wandered: to the Philadelphia collector Earl Horter around 1929, on to Mrs. Goodspeed — later Chapman — in Chicago in 1934, and at last, in 1948, as her gift to the Art Institute of Chicago. The man Picasso dissolved into facets in 1910, scattered by a war and an auction, ended up one of the most secure objects in an American museum — the likeness taken apart, kept safe at last.
+        </p>
+      </article>
+      <MeanwhileSheet
+        accent={BLUE}
+        region="Vichy France"
+        title="The same man, hit by a second war."
+        body="It happened twice. Kahnweiler was Jewish, and when the Second World War came and Nazi-allied Vichy France began seizing Jewish-owned businesses, his gallery was in danger all over again. In 1941 his stepdaughter, Louise Leiris, bought it from him to shield it from confiscation — it became the Galerie Louise Leiris. The man who built Cubism was robbed by one wartime government and nearly robbed by another, twenty-five years apart."
+      />
+    </>
+  )
+}
+
+type NarrativeFn = (props: { accent: string; onZoom: (src: string, cap: string) => void }) => React.ReactElement
+
+// A chapter whose prose isn't written yet — graceful placeholder so a partly
+// authored work never falls back to another work's text.
+const ComingChapter: NarrativeFn = () => (
+  <article style={{ padding: '18px 18px 40px' }}>
+    <p style={italicStyle}>This chapter is being written.</p>
+  </article>
+)
+
+// Narratives nested by workId → sectionId, so each artwork has its own chapters.
+const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
+  demoiselles: {
+    setting: SettingNarrative,
+    making: MakingNarrative,
+    reception: ReceptionNarrative,
+    hidden: HiddenNarrative,
+    legacy: LegacyNarrative,
+  },
+  kahnweiler: {
+    dealer: KahDealer,
+    analytic: KahAnalytic,
+    reading: KahReading,
+    sitting: KahSitting,
+    seized: KahSeized,
+  },
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -606,13 +764,13 @@ export function ArtSectionReader({ workId, sectionId }: { eraId: string; movemen
     },
   ]
 
-  const Narrative = NARRATIVES[section.id] || SettingNarrative
+  const Narrative = NARRATIVES[workId]?.[section.id] || ComingChapter
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)', ['--accent' as string]: accent }}>
       <WarBreadcrumb crumbs={crumbs} accent={accent} />
       <div style={{ flex: 1, minHeight: 0, overflowY: 'auto', background: 'var(--background)', color: 'var(--foreground)' }}>
-        <ChapterHeader accent={accent} eyebrow={`Demoiselles · ${section.eyebrow}`} title={section.title} progress={section.progress} />
+        <ChapterHeader accent={accent} eyebrow={`${w.shortName} · ${section.eyebrow}`} title={section.title} progress={section.progress} />
         <Narrative accent={accent} onZoom={onZoom} />
 
         {/* prev / next chapter nav + back to the work */}

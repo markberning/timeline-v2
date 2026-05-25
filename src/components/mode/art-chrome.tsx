@@ -180,33 +180,37 @@ export function ArtTile({ palette, imageUrl, label, ratio = '1/1', round = false
   )
 }
 
-// Full-bleed hero. Composition adapts so a painting is NEVER awkwardly cut off
-// (audits/art-vertical.md "Image orientation"):
-//   • single landscape work / deliberate detail → fit="cover" (+ focus)  [default]
-//   • single portrait/square WHOLE work          → fit="contain" (blurred backdrop)
-//   • two+ portrait works as a genre diptych     → pass `images`
+// Full-bleed hero. PIPELINE RULE (locked 2026-05-24): the frame matches the
+// IMAGE's own dimensions — a single artwork is shown at its natural aspect ratio
+// (width:100%, height:auto), NEVER cropped or letterboxed into a fixed landscape
+// band (a squarish/portrait painting then reads as "cut off"). This recurred
+// repeatedly with the old fixed-240 + fit=cover/contain scheme. `fit`/`focus`
+// are retained on the type for callers but no longer crop a single hero. The
+// only fixed-height case is a deliberate side-by-side diptych (`images`, 2+).
+// See BEHAVIORS.md "Art hero (image-shaped frame)".
 /* eslint-disable @next/next/no-img-element */
-export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit, fit = 'cover', focus = 'center' }: { eyebrow: string; title: string; sub?: string; palette: Palette; imageUrl?: string; images?: HeroImage[]; credit?: string; accent?: string; fit?: 'cover' | 'contain'; focus?: string }) {
+export function ArtHero({ eyebrow, title, sub, palette, imageUrl, images, credit, focus = 'center' }: { eyebrow: string; title: string; sub?: string; palette: Palette; imageUrl?: string; images?: HeroImage[]; credit?: string; accent?: string; fit?: 'cover' | 'contain'; focus?: string }) {
   const [failed, setFailed] = useState(false)
   const list: HeroImage[] = images && images.length ? images : (imageUrl ? [{ src: imageUrl, focus }] : [])
   const multi = list.length > 1
   const show = list.length > 0 && !failed
+  const grad = `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`
   return (
     <>
-    <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
-      {/* blurred, dimmed backdrop fills the letterbox so a contained work never reads as "cut off" */}
-      {show && fit === 'contain' && !multi && (
-        <img src={list[0].src} alt="" aria-hidden style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(28px) brightness(0.45) saturate(1.1)', transform: 'scale(1.15)' }} />
-      )}
-      {show && (multi ? (
+    <div style={{ position: 'relative', overflow: 'hidden', background: grad, ...(multi ? { height: 240 } : {}) }}>
+      {show ? (multi ? (
         <div style={{ position: 'absolute', inset: 0, display: 'flex', gap: 2 }}>
           {list.map((im, i) => (
             <img key={i} src={im.src} alt="" onError={i === 0 ? () => setFailed(true) : undefined} style={{ flex: 1, minWidth: 0, height: '100%', objectFit: 'cover', objectPosition: im.focus || 'center' }} />
           ))}
         </div>
       ) : (
-        <img src={list[0].src} alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: fit, objectPosition: list[0].focus || focus }} />
-      ))}
+        // Single artwork: the frame is the painting's own shape — shown whole.
+        <img src={list[0].src} alt="" onError={() => setFailed(true)} style={{ display: 'block', width: '100%', height: 'auto' }} />
+      )) : (
+        // No image: a gradient block; reserve a sane landscape shape for singles.
+        <div style={{ background: grad, ...(multi ? { height: '100%' } : { aspectRatio: '3 / 2' }) }} />
+      )}
       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.05) 30%, rgba(0,0,0,0.72) 100%)' }} />
       <div style={{ position: 'absolute', left: 18, right: 18, bottom: 14 }}>
         {/* eyebrow stays white for contrast over any painting (accent purple was unreadable on dark images) */}

@@ -1,14 +1,16 @@
-// Art Section reader (server component). Five sibling narrative chapters for
-// Les Demoiselles d'Avignon; only those section ids are statically generated,
-// anything else 404s (dynamicParams false).
+// Art Section reader (server component). The narrative chapters of every
+// authored artwork are statically generated; anything else 404s (dynamicParams
+// false). Generic over ART_WORK_CONTENT, so adding a work needs no change here.
 
-import { DEMOISELLES } from '@/lib/art-content'
+import { ART_WORK_CONTENT } from '@/lib/art-content'
 import { ArtSectionReader } from './art-section-reader'
 
 export const dynamicParams = false
 
 export async function generateStaticParams() {
-  return DEMOISELLES.sections.map(s => ({ eraId: 'mod', movementId: 'cubism', workId: 'demoiselles', sectionId: s.id }))
+  return Object.values(ART_WORK_CONTENT).flatMap(w =>
+    w.sections.map(s => ({ eraId: w.eraId, movementId: w.movementId, workId: w.id, sectionId: s.id })),
+  )
 }
 
 interface PageProps {

@@ -138,6 +138,12 @@ Three agent passes per new TL:
 - Prefer actual artifact photos over reconstructions. Museum photography is gold.
 - For text-based events, use the actual cuneiform tablet. Skip abstract concepts.
 
+## Art hero (image-shaped frame) — locked 2026-05-24
+- **The hero frame matches the IMAGE's own dimensions.** A single artwork hero (`ArtHero` in `mode/art-chrome.tsx`) renders at its natural aspect ratio (`width:100%; height:auto`) — the frame takes the painting's shape. A square or portrait work is **never** cropped or letterboxed into a fixed landscape band.
+- This retires the old fixed-240 `fit="cover"/"contain"` scheme, which caused the same defect repeatedly: squarish/portrait works (e.g. the *Demoiselles* work hero) read as "cut off." `fit`/`focus` stay on the prop type for compatibility but no longer crop a single hero — do not use them to patch framing.
+- Only exception = a deliberate **portrait diptych** (`heroImages` with 2+ entries) — two works side by side at equal height for a genre/movement. A genuine cropped banner *detail* is a separate, explicit choice, credited "(detail)". Full rule + sourcing in `audits/art-vertical.md` §5b.
+- **Artwork pages have NO hero.** The annotated Canvas viewer is the signature visual for every work; a compact text header (name · artist·year · one-line hook) replaces the banner. The viewer is per-work and every artwork requires `annotations` authored (`{x,y,label}` at % coords).
+
 ## Chapter bottom navigation
 - Every expanded chapter: solid accent × close + "Read Next Chapter" button (next chapter title + number). Last chapter: × only.
 

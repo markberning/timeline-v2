@@ -25,10 +25,14 @@ const CHIP = 'color-mix(in srgb, var(--foreground) 6%, transparent)'
 
 // A gradient placeholder tile (the mockup's PaintingTile). Real imagery swaps
 // in here later; for now every era/node shows its three-colour palette.
-function PaintingTile({ palette, label, ratio = '1/1' }: { palette: [string, string, string]; label?: string; ratio?: string }) {
+function PaintingTile({ palette, label, ratio = '1/1', image, focus }: { palette: [string, string, string]; label?: string; ratio?: string; image?: string; focus?: string }) {
   return (
     <div style={{ position: 'relative', width: '100%', aspectRatio: ratio, borderRadius: 6, overflow: 'hidden', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
-      {label && (
+      {image && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={image} alt={label || ''} loading="lazy" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: focus || 'center', display: 'block', filter: 'sepia(0.12) saturate(0.92) contrast(1.03)' }} />
+      )}
+      {label && !image && (
         <div style={{ position: 'absolute', left: 6, right: 6, bottom: 5, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, color: 'rgba(255,255,255,0.78)', textTransform: 'uppercase', lineHeight: 1.2, textShadow: '0 1px 2px rgba(0,0,0,0.5)' }}>{label}</div>
       )}
     </div>
@@ -112,21 +116,34 @@ function ArtEraList() {
     <div>
       {/* Era cards */}
       <div style={{ padding: '4px 18px 24px', display: 'flex', flexDirection: 'column', gap: 10 }}>
-        {ART_ERAS.map((era, i) => (
+        {ART_ERAS.map((era) => (
           <Link key={era.id} href={`/art/${era.id}`} style={{
-            display: 'flex', alignItems: 'stretch', gap: 12, padding: 10, borderRadius: 10,
+            display: 'flex', alignItems: 'stretch', gap: 12, padding: 10, borderRadius: 10, overflow: 'hidden',
             border: `1px solid ${BORDER}`, background: CARD_BG, textAlign: 'left', color: 'var(--foreground)', textDecoration: 'none',
           }}>
-            <div style={{ width: 78, flexShrink: 0 }}>
-              <PaintingTile palette={era.palette} label={era.name} />
-            </div>
+            {era.image ? (
+              // Authored era: hero artwork bleeds to the top, bottom and left
+              // edges of the card; the text keeps its space on the right.
+              <div style={{ width: 92, flexShrink: 0, alignSelf: 'stretch', margin: '-10px 0 -10px -10px', position: 'relative', overflow: 'hidden', background: `linear-gradient(135deg, ${era.palette[0]}, ${era.palette[1]} 55%, ${era.palette[2]})` }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={era.image} alt={era.name} loading="lazy" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: era.focus || 'center', display: 'block', filter: 'sepia(0.12) saturate(0.92) contrast(1.03)' }} />
+              </div>
+            ) : (
+              <div style={{ width: 78, flexShrink: 0 }}>
+                <PaintingTile palette={era.palette} label={era.name} />
+              </div>
+            )}
             <div style={{ flex: 1, minWidth: 0, padding: '2px 0' }}>
-              <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: 8 }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
                 <div style={{ fontFamily: SERIF, fontSize: 17, lineHeight: 1.15, color: 'var(--foreground)', letterSpacing: -0.1 }}>{era.name}</div>
-                <div style={{ fontFamily: SANS, fontSize: 10.5, color: FAINT, letterSpacing: 0.3, flexShrink: 0 }}>{String(i + 1).padStart(2, '0')}</div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={`/art-icons/${era.id}.webp`} alt="" aria-hidden width={28} height={28} style={{ flexShrink: 0, width: 28, height: 28, objectFit: 'contain', display: 'block' }} />
               </div>
               <div style={{ marginTop: 2, fontFamily: SANS, fontSize: 11, color: MUTED, letterSpacing: 0.2 }}>{era.range}</div>
               <div style={{ marginTop: 6, fontFamily: SERIF, fontSize: 13, lineHeight: 1.45, color: MUTED }}>{era.hook}</div>
+              {era.artists && era.artists.length > 0 && (
+                <div style={{ marginTop: 6, fontFamily: SANS, fontSize: 10.5, lineHeight: 1.4, color: FAINT, letterSpacing: 0.1 }}>{era.artists.join(' · ')}</div>
+              )}
             </div>
           </Link>
         ))}

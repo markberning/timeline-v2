@@ -4,11 +4,12 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: NEW (2026-05-23). NOT YET RUN on anything.** The first content shipped
-behind the SOON wall — Modern era (7 ch), Cubism movement (6 ch), Demoiselles work
-(5 ch) — was authored *before* this pipeline existed and has **not** been through
-any gate except born-verified images. It is a FIRST DRAFT. Running this pipeline on
-those 13 chapters (fact-checker first) is the immediate next action.
+**Status: ACTIVE — run twice (2026-05-23 Modern era + Cubism; 2026-05-24
+Kahnweiler work).** See the two proof-run logs at the bottom. This is the mandatory
+gate for every Art section — **do NOT author-and-ship; run all five critic gates
+every time** (the Kahnweiler run re-learned this the hard way; see that log).
+**Still owed:** the Demoiselles WORK reader (5 ch) was authored before the pipeline
+existed and has not yet been through the gates.
 
 ## Governing principle
 Same spine as War: **storytelling is the #1 goal; accuracy / zero-hallucination is
@@ -167,7 +168,7 @@ above: fact-checker → add the documented-vs-legend axis; storytelling → add 
 women's-erasure / appropriation / Eurocentric-overclaim instead of Lost Cause;
 comprehensiveness → essential-works checklist.
 
-## First proof run — DONE (2026-05-23)
+## Proof run 1 — DONE (2026-05-23)
 Ran all five gates (each a Sonnet agent, in parallel) over the Modern era (7 ch)
 and Cubism movement (6 ch). The gates earned their keep on the first pass:
 - **Fact-checker** caught real errors a non-gated draft shipped: the
@@ -194,3 +195,35 @@ and Cubism movement (6 ch). The gates earned their keep on the first pass:
 
 All findings applied; both narratives revised + redeployed. This is the lesson the
 pipeline existed to prove: **gate-then-ship, don&rsquo;t ship-then-hope.**
+
+## Proof run 2 — DONE (2026-05-24) — Kahnweiler work (5 ch)
+The 2nd authored work (*Portrait of Daniel-Henry Kahnweiler*, the section reader's
+first multi-work build). **Lesson RE-LEARNED, not new:** the 5 chapters were first
+authored straight from an Opus draft with **NO gates** — the user caught it
+(&ldquo;did they use the agent critics?&rdquo;). The fix was to run the full
+five-gate pass, and the gates again earned their keep:
+- **Storytelling/looking** — chapters were ~44% the Demoiselles length and nearly
+  image-free; doubled them and added two inline figures (the portrait itself atop
+  the &ldquo;reading&rdquo; chapter; Picasso&rsquo;s *Girl with a Mandolin*, 1910, in
+  the Analytic chapter).
+- **Fact-checker** — contracts were Dec 1912, not 1907–10; &ldquo;Cubism&rdquo; was
+  coined 1908 by Vauxcelles from Braque&rsquo;s show *in Kahnweiler&rsquo;s own
+  gallery* (now an explicit irony in the prose).
+- **Comprehensiveness** — added the watch-chain / moustache / tie-knot as findable
+  clues, the ~3,000-work scale of the forced sales, Braque reportedly punching the
+  auctioneer (framed as reported), and the WWII double-jeopardy (Kahnweiler targeted
+  again as a Jew; Louise Leiris fronts the gallery 1941).
+- **Framing** — the African-mask source of &ldquo;several angles at once&rdquo; is now
+  credited plainly in the Analytic chapter.
+- **Newcomer/clarity** — Cubism, the Salons, facets, &ldquo;enemy alien,&rdquo;
+  &ldquo;sequestered,&rdquo; Hôtel Drouot, the gallery rename all glossed on first use.
+- **Fact conflict resolved by the COORDINATOR, not agent say-so** (`feedback_gate_pass_not_correct`):
+  the fact-checker claimed the portrait was NOT in the sequestered stock; the
+  comprehensiveness critic said it was lot 84 in the 1921 Drouot sale. Verified against
+  the **Art Institute API** (`api.artic.edu/api/v1/artworks/111060`): it WAS sequestered
+  &amp; sold 1921 → Grünewald → Horter → Chapman → AIC 1948. Fact-checker was wrong;
+  corrected the chapter + the `art-content.ts` provenance array, and dropped the hedge.
+
+All findings applied; chapters rewritten via an Opus author pass; tsc + eslint clean;
+all five section routes + the work page serve 200. **The standing rule this run nails
+down: never author-and-ship an Art work — run the five gates every single time.**

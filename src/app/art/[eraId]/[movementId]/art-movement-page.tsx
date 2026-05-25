@@ -2,11 +2,11 @@
 
 // Art Movement page — Cubism is the only authored movement. Dossier (right) is
 // the default view: hero → at-a-glance → cubist-artists strip → the INFLUENCE
-// RIBBON (the movement-page signature visual, the equivalent of War's theatre
+// FLOW (the movement-page signature visual, the equivalent of War's theatre
 // map) → the works cord/node timeline → "Meanwhile, elsewhere" parallels.
 // Timeline (left) view = hero + the long hook + the same works cord/node.
 //
-// Ported from the mockup's art-pages.jsx (InfluenceRibbon, WorksMicroList /
+// Ported from the mockup's art-pages.jsx (InfluenceFlow, WorksMicroList /
 // WorksTimeline, ParallelsList). Mockup `t.*` theme tokens are translated to the
 // app's CSS-var tokens from art-chrome (INK/MUTED/FAINT/BORDER/etc.), `shHexAlpha`
 // → artAlpha, fonts → SANS/SERIF/MONO. See audits/art-vertical.md §4.
@@ -18,10 +18,10 @@ import {
   artMovementCrumbs,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG, artAlpha,
 } from '@/components/mode/art-chrome'
-import { ART_ACCENT } from '@/lib/art-data'
+import { ART_ACCENT, ART_ACCENTS } from '@/lib/art-data'
 import {
-  ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, CUBISM_RIBBON,
-  type MovementWork, type Palette,
+  ART_MOVEMENT_CONTENT, ART_WORK_CONTENT,
+  type MovementWork, type Palette, type ArtLineage, type ArtLineageChip,
 } from '@/lib/art-content'
 
 // Cord/node geometry (mirrors the mockup's ITL constants).
@@ -34,22 +34,30 @@ const SIZES: Record<MovementWork['size'], { content: number; body: number; imgW:
   xl: { content: 232, body: 14.5, imgW: 168, lines: 3, title: 21 },
 }
 
-// Uniform shape for the ribbon (its source literal has heterogeneous dot
-// objects — only some carry `terminal`/`workId` — so widen them here).
-interface RibbonDot { year: number; canonical: boolean; label: string; workId?: string; terminal?: boolean }
-interface RibbonTrack { artist: string; color: string; dots: RibbonDot[] }
-interface RibbonThread { fromYear: number; fromTrack: number; toYear: number; toTrack: number }
-interface RibbonShape { startYear: number; endYear: number; tracks: RibbonTrack[]; threads: RibbonThread[] }
-
 // ─────────────────────────────────────────────────────────────
 // Image tile that falls back to its 3-colour palette gradient on error.
 // (A flat tile with optional label — the mockup's PaintingTile.)
 // ─────────────────────────────────────────────────────────────
-function CordTile({ palette, imageUrl, label }: { palette: Palette; imageUrl?: string; label?: string }) {
+function CordTile({ palette, imageUrl, label, natural }: { palette: Palette; imageUrl?: string; label?: string; natural?: boolean }) {
   const [failed, setFailed] = useState(false)
   const hasImg = !!imageUrl && !failed
+  const grad = `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`
+  // `natural` (the xl flagship card): show the WHOLE work at its own aspect ratio
+  // — the frame matches the painting, never a fixed landscape crop (pipeline rule,
+  // audits/art-vertical.md §5b). Small side thumbnails still cover-crop (decorative).
+  if (natural) {
+    // Slight zoom + clip removes the thin white matte some source scans carry, so
+    // the painting fills the frame edge-to-edge (still its own aspect ratio).
+    return (
+      <div style={{ width: '100%', background: grad, overflow: 'hidden', ...(hasImg ? {} : { aspectRatio: '3 / 2' }) }}>
+        {hasImg && (
+          <img src={imageUrl} alt={label || ''} loading="lazy" onError={() => setFailed(true)} style={{ display: 'block', width: '100%', height: 'auto', transform: 'scale(1.04)', transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />
+        )}
+      </div>
+    )
+  }
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%', background: `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` }}>
+    <div style={{ position: 'relative', width: '100%', height: '100%', background: grad }}>
       {hasImg && (
         <img src={imageUrl} alt={label || ''} loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />
       )}
@@ -68,8 +76,8 @@ function WorkCard({ work, accent, href }: { work: MovementWork; accent: string; 
 
   const inner = (
     <>
-      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 124 : 'auto', alignSelf: 'stretch', flexShrink: 0 }}>
-        <CordTile palette={work.palette} imageUrl={work.imageUrl} label={work.name} />
+      <div style={{ width: isXL ? '100%' : sz.imgW, height: 'auto', alignSelf: 'stretch', flexShrink: 0 }}>
+        <CordTile palette={work.palette} imageUrl={work.imageUrl} label={work.name} natural={isXL} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
         <div style={{ fontFamily: SERIF, fontSize: sz.title, lineHeight: 1.1, letterSpacing: -0.2, color: INK, textWrap: 'balance' }}>{work.name}</div>
@@ -135,88 +143,104 @@ function WorksCord({ works, accent, eraId, movementId }: { works: MovementWork[]
 }
 
 // ─────────────────────────────────────────────────────────────
-// THE INFLUENCE RIBBON — the movement-page signature visual.
-// Year grid + one horizontal track per artist + work dots positioned by year;
-// big dot = canonical, small = ancillary, square = terminal (Braque mobilised);
-// dashed accent threads show influence flowing between tracks. Built from
-// CUBISM_RIBBON. A dot whose workId is authored links to its work page.
+// THE INFLUENCE FLOW — the movement-page signature visual. A top-to-bottom
+// flow that reads literally: what fed INTO the movement → the movement → what
+// it LED TO. Chips are coloured by lineage mode (art / civ / war). Mirrors the
+// front-door climb tree's "grew out of / led to" framing. Built from mv.lineage.
 // ─────────────────────────────────────────────────────────────
-function InfluenceRibbon({ accent, eraId, movementId }: { accent: string; eraId: string; movementId: string }) {
-  const { startYear, endYear, tracks, threads } = CUBISM_RIBBON as RibbonShape
-  // Pad the axis a touch on the left so 1907 isn't flush to the edge.
-  const minY = startYear - 1
-  const maxY = endYear
-  const colFor = (y: number) => `${((y - minY) / (maxY - minY)) * 100}%`
-  // Three evenly-spaced track baselines.
-  const trackY = (i: number) => `${28 + i * 24}%`
-  const trackYNum = (i: number) => 28 + i * 24
+const MODE_COLOR = (mode: ArtLineageChip['mode'], accent: string) =>
+  mode === 'civ' ? ART_ACCENTS.blue : mode === 'war' ? '#8a8178' : accent
 
-  // Year gridlines: only the years that actually carry a dot, plus the bookends.
-  const dotYears = Array.from(new Set(tracks.flatMap(t => t.dots.map(d => d.year)))).sort((a, b) => a - b)
-  const labelYears = [startYear, 1910, 1914, endYear]
+// A lineage node: a faceted (corner-cut) artwork thumbnail beside its label and
+// the give/take note. Horizontal card so the text is readable; real painting
+// where we have one, the mode/movement palette gradient otherwise.
+const TILE_FACET = 'polygon(0 0, 100% 0, 100% 82%, 82% 100%, 0 100%)'
+function NodeCard({ chip, accent }: { chip: ArtLineageChip; accent: string }) {
+  const [failed, setFailed] = useState(false)
+  const pal = chip.palette ?? (['#3a3a4a', '#1c1c2a', '#0a0a14'] as Palette)
+  const mc = MODE_COLOR(chip.mode, accent)
+  return (
+    <div style={{ display: 'flex', gap: 9, alignItems: 'center', padding: '7px 9px', borderRadius: 9, background: CARD_BG, border: `1px solid ${BORDER}`, borderLeft: `2px solid ${artAlpha(mc, 0.6)}` }}>
+      <div style={{ width: 48, height: 48, flexShrink: 0, clipPath: TILE_FACET, position: 'relative', overflow: 'hidden', background: `linear-gradient(135deg, ${pal[0]}, ${pal[1]} 55%, ${pal[2]})` }}>
+        {chip.img && !failed && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={chip.img} alt="" aria-hidden loading="lazy" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'sepia(0.16) saturate(0.82) contrast(1.05)' }} />
+        )}
+      </div>
+      <div style={{ minWidth: 0, flex: 1 }}>
+        <div style={{ fontFamily: SANS, fontSize: 12, fontWeight: 600, lineHeight: 1.15, color: INK }}>{chip.label}</div>
+        {chip.note && <div style={{ fontFamily: SANS, fontSize: 9.5, lineHeight: 1.25, color: MUTED, fontStyle: 'italic', marginTop: 2 }}>{chip.note}</div>}
+      </div>
+    </div>
+  )
+}
 
+// Converging ('in') or fanning ('out') shard connectors — one per node, each
+// tinted by its lineage mode, with an angular kink for a light cubist facet.
+function Funnel({ chips, accent, dir }: { chips: ArtLineageChip[]; accent: string; dir: 'in' | 'out' }) {
+  const W = 340, H = 54, hubX = W / 2
+  const slotX = (i: number) => (W * (i + 0.5)) / chips.length
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} width="100%" height={H} preserveAspectRatio="none" style={{ display: 'block' }} aria-hidden>
+      {chips.map((c, i) => {
+        const ex = slotX(i)
+        const topX = dir === 'in' ? ex : hubX
+        const botX = dir === 'in' ? hubX : ex
+        const midX = topX + (botX - topX) * 0.5
+        const col = artAlpha(MODE_COLOR(c.mode, accent), 0.6)
+        return <path key={i} d={`M ${topX} 2 L ${midX} 27 L ${botX} 52`} fill="none" stroke={col} strokeWidth={1.4} strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" />
+      })}
+    </svg>
+  )
+}
+
+function BandLabel({ children }: { children: React.ReactNode }) {
+  return <div style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 600, letterSpacing: 1, textTransform: 'uppercase', color: FAINT, marginBottom: 10 }}>{children}</div>
+}
+
+// THE INFLUENCE FLOW — artwork-node lineage in a converge → hub → fan-out
+// composition with a light cubist (faceted + shattered) treatment.
+const HUB_FACET = 'polygon(10% 0, 100% 0, 100% 76%, 84% 100%, 0 100%, 0 24%)'
+function InfluenceFlow({ accent, lineage, title, range, hubImage, hubPalette }: { accent: string; lineage: ArtLineage; title: string; range: string; hubImage?: string; hubPalette: Palette }) {
+  const grid: React.CSSProperties = { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
       <Eyebrow>How the influence flowed</Eyebrow>
-      <div style={{ marginTop: 12, position: 'relative', height: 230, background: CARD_BG, border: `1px solid ${BORDER}`, borderRadius: 6, overflow: 'hidden' }}>
-        {/* year gridlines */}
-        {dotYears.map(y => (
-          <div key={`g-${y}`} style={{ position: 'absolute', left: colFor(y), top: 0, bottom: 0, width: 1, background: artAlpha('#ffffff', 0.05) }} />
-        ))}
-        {/* year labels along the top */}
-        {labelYears.map(y => (
-          <div key={`yt-${y}`} style={{ position: 'absolute', left: colFor(y), top: 6, transform: 'translateX(-50%)', fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.3, color: FAINT }}>{y}</div>
-        ))}
-        {/* tracks: baseline + artist label */}
-        {tracks.map((tk, i) => (
-          <div key={tk.artist}>
-            <div style={{ position: 'absolute', left: '4%', right: '4%', top: trackY(i), height: 1, background: artAlpha(tk.color, 0.35), transform: 'translateY(-50%)' }} />
-            <div style={{ position: 'absolute', left: 6, top: trackY(i), transform: 'translateY(-50%)', fontFamily: SANS, fontSize: 10.5, fontWeight: 600, color: tk.color, letterSpacing: 0.2, padding: '2px 4px', background: CARD_BG }}>{tk.artist}</div>
+
+      <div style={{ marginTop: 16 }}>
+        <BandLabel>Grew out of</BandLabel>
+        <div style={grid}>{lineage.parents.map(c => <NodeCard key={c.label} chip={c} accent={accent} />)}</div>
+
+        <Funnel chips={lineage.parents} accent={accent} dir="in" />
+
+        {/* the hub — the movement itself, faceted, with the work showing through */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: -2 }}>
+          <div style={{ position: 'relative', width: 132, aspectRatio: '1 / 1' }}>
+            <div style={{ position: 'absolute', inset: 0, clipPath: HUB_FACET, overflow: 'hidden', background: `linear-gradient(135deg, ${hubPalette[0]}, ${hubPalette[1]} 55%, ${hubPalette[2]})`, boxShadow: `0 0 0 3px ${artAlpha(accent, 0.5)}, 0 0 0 9px ${artAlpha(accent, 0.12)}` }}>
+              {hubImage && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={hubImage} alt="" aria-hidden loading="lazy" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', filter: 'sepia(0.14) saturate(0.85) contrast(1.05)' }} />
+              )}
+              {/* facet "cracks" — the shattered look */}
+              <svg viewBox="0 0 100 100" preserveAspectRatio="none" style={{ position: 'absolute', inset: 0 }} aria-hidden>
+                <path d="M0 40 L42 56 L30 100 M42 56 L100 44 M42 56 L62 0" fill="none" stroke="#ffffff" strokeOpacity="0.22" strokeWidth="1" vectorEffect="non-scaling-stroke" />
+              </svg>
+            </div>
           </div>
-        ))}
-        {/* dashed influence threads (drawn under the dots) */}
-        <svg style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }} viewBox="0 0 100 100" preserveAspectRatio="none">
-          {threads.map((th, i) => {
-            const fx = ((th.fromYear - minY) / (maxY - minY)) * 100
-            const tx = ((th.toYear - minY) / (maxY - minY)) * 100
-            const fy = trackYNum(th.fromTrack)
-            const ty = trackYNum(th.toTrack)
-            return (
-              <line key={`th-${i}`} x1={fx} y1={fy} x2={tx} y2={ty} stroke={accent} strokeWidth={0.5} strokeDasharray="1.2,1.2" opacity={0.55} vectorEffect="non-scaling-stroke" />
-            )
-          })}
-        </svg>
-        {/* work dots */}
-        {tracks.map((tk, ti) =>
-          tk.dots.map(d => {
-            const big = d.canonical
-            const terminal = d.terminal
-            const authored = d.workId ? !!ART_WORK_CONTENT[d.workId] : false
-            const dot = (
-              <div style={{ width: big ? 12 : 8, height: big ? 12 : 8, borderRadius: terminal ? 2 : 999, background: tk.color, boxShadow: big ? `0 0 0 3px ${artAlpha(tk.color, 0.20)}` : 'none' }} />
-            )
-            const label = (
-              <div style={{ position: 'absolute', left: 12, top: -3, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.3, color: INK, whiteSpace: 'nowrap', textShadow: '0 1px 2px rgba(0,0,0,0.4)', fontWeight: big ? 700 : 500 }}>{d.label}</div>
-            )
-            const node = (
-              <>
-                {dot}
-                {label}
-              </>
-            )
-            const wrap: React.CSSProperties = { position: 'absolute', left: colFor(d.year), top: trackY(ti), transform: 'translate(-50%, -50%)' }
-            return authored && d.workId ? (
-              <Link key={`${tk.artist}-${d.year}-${d.label}`} href={`/art/${eraId}/${movementId}/${d.workId}`} style={{ ...wrap, textDecoration: 'none' }} aria-label={d.label}>
-                {node}
-              </Link>
-            ) : (
-              <div key={`${tk.artist}-${d.year}-${d.label}`} style={wrap}>{node}</div>
-            )
-          }),
-        )}
+          <div style={{ marginTop: 9, display: 'inline-flex', alignItems: 'baseline', gap: 7, padding: '5px 13px', borderRadius: 999, background: artAlpha(accent, 0.16), border: `1px solid ${artAlpha(accent, 0.5)}` }}>
+            <span style={{ fontFamily: SANS, fontSize: 12.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: INK }}>{title}</span>
+            <span style={{ fontFamily: MONO, fontSize: 9, letterSpacing: 0.4, color: accent }}>{range}</span>
+          </div>
+        </div>
+
+        <Funnel chips={lineage.children} accent={accent} dir="out" />
+
+        <BandLabel>Led to</BandLabel>
+        <div style={grid}>{lineage.children.map(c => <NodeCard key={c.label} chip={c} accent={accent} />)}</div>
       </div>
-      <div style={{ marginTop: 10, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>
-        Picasso and Braque worked so closely between 1909 and 1914 that even their dealers struggled to tell which canvas was whose. The dashes are the influences they passed across.
+
+      <div style={{ marginTop: 16, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.45, color: MUTED, textWrap: 'pretty' }}>
+        Cubism took Cézanne&rsquo;s faceted space and the flat planes of African masks, broke the single-viewpoint window once and for all, and handed that break on to nearly every abstract movement that followed.
       </div>
     </div>
   )
@@ -317,7 +341,7 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
           />
         )}
         {/* signature visual — always visible */}
-        <InfluenceRibbon accent={accent} eraId={mv.eraId} movementId={mv.id} />
+        <InfluenceFlow accent={accent} lineage={mv.lineage} title={mv.name} range={mv.range} hubImage={mv.heroImage} hubPalette={mv.works[0].palette} />
         {/* secondary detail — collapsed by default */}
         <ArtAccordion label="The details" accent={accent}>
           <StatsRow stats={mv.stats} />

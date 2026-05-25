@@ -36,17 +36,24 @@ export interface ArtEra {
   hook: string
   palette: [string, string, string]
   region: ArtRegion
+  // Optional real hero artwork for the home-page era card; authored eras show it
+  // over the gradient placeholder. `focus` is the cover object-position.
+  image?: string
+  focus?: string
+  // The 5–6 names a reader is most likely to recognise from the era, shown as a
+  // muted line on the home-page era card. Prehistoric has none (anonymous).
+  artists?: string[]
 }
 
 export const ART_ERAS: ArtEra[] = [
   { id: 'pre', name: 'Prehistoric', range: '40,000–3,000 BCE', hook: 'Hands and horses on a cave wall, somewhere in France.', palette: ['#6b4423', '#a06a3b', '#1d1410'], region: 'western' },
-  { id: 'anc', name: 'Ancient', range: '3000 BCE–500 CE', hook: 'Egypt, Greece, Rome — and a remarkable number of urns.', palette: ['#c97a3b', '#7b3b1c', '#1a0e07'], region: 'western' },
-  { id: 'med', name: 'Medieval', range: '500–1400', hook: 'Mostly church business. Mostly gold.', palette: ['#c89b2a', '#7a1422', '#1c0a08'], region: 'western' },
-  { id: 'ren', name: 'Renaissance', range: '1400–1600', hook: 'Math meets paint. Faces start looking back.', palette: ['#3a4a8b', '#7a5a32', '#0e1224'], region: 'western' },
-  { id: 'bar', name: 'Baroque', range: '1600–1750', hook: 'Drama, candlelight, and Caravaggio in a bad mood.', palette: ['#8a1c1c', '#c79338', '#0d0606'], region: 'western' },
-  { id: 'nro', name: 'Neoclassical & Romantic', range: '1750–1850', hook: 'Reason vs. feelings. Feelings win the second half.', palette: ['#7e8b6c', '#d8c9a8', '#1a1d18'], region: 'western' },
-  { id: 'mod', name: 'Modern', range: '1850–1970', hook: 'Painters break the picture and put it back wrong on purpose.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], region: 'western' },
-  { id: 'con', name: 'Contemporary', range: '1970–today', hook: 'Anything goes. The wall label is half the work.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], region: 'western' },
+  { id: 'anc', name: 'Ancient', range: '3000 BCE–500 CE', hook: 'Egypt, Greece, Rome — and a remarkable number of urns.', palette: ['#c97a3b', '#7b3b1c', '#1a0e07'], region: 'western', artists: ['Phidias', 'Praxiteles', 'Polykleitos', 'Myron', 'Apelles', 'Exekias'] },
+  { id: 'med', name: 'Medieval', range: '500–1400', hook: 'Mostly church business. Mostly gold.', palette: ['#c89b2a', '#7a1422', '#1c0a08'], region: 'western', artists: ['Giotto', 'Cimabue', 'Duccio', 'Simone Martini', 'Andrei Rublev', 'Limbourg Brothers'] },
+  { id: 'ren', name: 'Renaissance', range: '1400–1600', hook: 'Math meets paint. Faces start looking back.', palette: ['#3a4a8b', '#7a5a32', '#0e1224'], region: 'western', artists: ['Leonardo da Vinci', 'Michelangelo', 'Raphael', 'Botticelli', 'Titian', 'Dürer'] },
+  { id: 'bar', name: 'Baroque', range: '1600–1750', hook: 'Drama, candlelight, and Caravaggio in a bad mood.', palette: ['#8a1c1c', '#c79338', '#0d0606'], region: 'western', artists: ['Caravaggio', 'Rembrandt', 'Vermeer', 'Rubens', 'Velázquez', 'Bernini'] },
+  { id: 'nro', name: 'Neoclassical & Romantic', range: '1750–1850', hook: 'Reason vs. feelings. Feelings win the second half.', palette: ['#7e8b6c', '#d8c9a8', '#1a1d18'], region: 'western', artists: ['David', 'Goya', 'Turner', 'Delacroix', 'Ingres', 'Friedrich'] },
+  { id: 'mod', name: 'Modern', range: '1850–1970', hook: 'Painters break the picture and put it back wrong on purpose.', palette: ['#1c1c1c', '#d6cf3f', '#bf2f25'], region: 'western', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg', focus: '50% 32%', artists: ['Monet', 'Cézanne', 'Van Gogh', 'Picasso', 'Matisse', 'Duchamp'] },
+  { id: 'con', name: 'Contemporary', range: '1970–today', hook: 'Anything goes. The wall label is half the work.', palette: ['#ff3e7f', '#1f1f1f', '#7adff0'], region: 'western', artists: ['Warhol', 'Basquiat', 'Richter', 'Hockney', 'Kusama', 'Ai Weiwei'] },
 ]
 
 // "Jump to the famous stuff" chips on the Era Hub — fast lanes to marquee

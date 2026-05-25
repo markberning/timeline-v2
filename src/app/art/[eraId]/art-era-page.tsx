@@ -248,62 +248,74 @@ function MovementsTimeline({ eraId, movements, accent }: { eraId: string; moveme
 }
 
 // ─────────────────────────────────────────────────────────────
-// "Where modern art happened" city-hub map (ported from EraDossierMap). A
-// bordered card with a faint grid, an Atlantic dashed divider, AMERICAS /
-// EUROPE mono labels, and the hub dots (Paris is bigger, accent-coloured, with
-// a glow ring).
+// "Where modern art happened" map (rebuilt 2026-05-24). A schematic North-
+// Atlantic diagram (not true geography): a dashed Atlantic divider splitting
+// AMERICAS / EUROPE, each city dot labelled with the movement(s) born there,
+// and — the point of the card — the c.1940 migration arc carrying the centre of
+// gravity from Paris across the ocean to New York. The two `hub` cities are the
+// era's successive capitals; everything else is a one-movement satellite.
 // ─────────────────────────────────────────────────────────────
+const FG = (a: number) => `color-mix(in srgb, var(--foreground) ${a}%, transparent)`
+
 function EraDossierMap({ accent }: { accent: string }) {
-  const grid = artAlpha('#ffffff', 0.04)
-  const divider = artAlpha('#ffffff', 0.08)
-  const dividerDash = artAlpha('#ffffff', 0.18)
+  const VB_W = 350, VB_H = 270, DIV_X = 120
+  const paris = MODERN_MAP_HUBS.find(h => h.city === 'Paris')!
+  const ny = MODERN_MAP_HUBS.find(h => h.city === 'New York')!
+  // migration arc: leaves Paris up-and-left, bows over the Atlantic, and drops
+  // straight down into New York from above (so it never crosses a city label).
+  const arcD = `M ${paris.x} ${paris.y - 6} C ${paris.x - 30} 50, ${ny.x} 54, ${ny.x} ${ny.y - 8}`
+  const arcLabelX = 108, arcLabelY = 42
+
   return (
     <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
-      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12 }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: 12, gap: 8 }}>
         <Eyebrow>Where modern art happened</Eyebrow>
-        <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3 }}>Paris, mostly</div>
+        <div style={{ fontFamily: SANS, fontSize: 10, color: FAINT, letterSpacing: 0.3, textAlign: 'right' }}>Paris for ninety years — then New York</div>
       </div>
-      <div style={{
-        position: 'relative',
-        height: 200,
-        background: CARD_BG,
-        border: `1px solid ${BORDER}`,
-        borderRadius: 6,
-        overflow: 'hidden',
-        backgroundImage: [
-          `repeating-linear-gradient(0deg, ${grid} 0 1px, transparent 1px 18px)`,
-          `repeating-linear-gradient(90deg, ${grid} 0 1px, transparent 1px 18px)`,
-        ].join(','),
-      }}>
-        {/* Atlantic divider */}
-        <div style={{
-          position: 'absolute', left: '32%', top: 0, bottom: 0,
-          width: 1, background: divider,
-          backgroundImage: `repeating-linear-gradient(180deg, ${dividerDash} 0 3px, transparent 3px 6px)`,
-        }} />
-        <div style={{ position: 'absolute', left: '4%', bottom: 8, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.4, color: FAINT }}>AMERICAS</div>
-        <div style={{ position: 'absolute', right: '6%', bottom: 8, fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.4, color: FAINT }}>EUROPE</div>
+      <div style={{ borderRadius: 6, overflow: 'hidden', border: `1px solid ${BORDER}`, background: CARD_BG }}>
+        <svg viewBox={`0 0 ${VB_W} ${VB_H}`} width="100%" style={{ display: 'block' }} role="img" aria-label="Schematic map: modern art's center of gravity moves from Paris to New York around 1940.">
+          <defs>
+            <marker id="arc-arrow" markerWidth="8" markerHeight="8" refX="5.5" refY="4" orient="auto">
+              <path d="M0 0 L7 4 L0 8 Z" fill={accent} />
+            </marker>
+          </defs>
 
-        {MODERN_MAP_HUBS.map(h => (
-          <div key={h.city} style={{ position: 'absolute', left: h.x, top: h.y, transform: 'translate(-50%, -50%)' }}>
-            <div style={{
-              width: h.hub ? 18 : 8,
-              height: h.hub ? 18 : 8,
-              borderRadius: 999,
-              background: h.hub ? accent : CARD_BG,
-              border: `1.5px solid ${h.hub ? accent : BORDER_STRONG}`,
-              boxShadow: h.hub ? `0 0 0 4px ${artAlpha(accent, 0.18)}` : 'none',
-            }} />
-            <div style={{
-              position: 'absolute',
-              left: h.hub ? 22 : 12, top: -3,
-              fontFamily: MONO, fontSize: 8.5, letterSpacing: 0.3,
-              color: h.hub ? INK : MUTED, whiteSpace: 'nowrap',
-              textShadow: '0 1px 2px rgba(0,0,0,0.4)',
-              fontWeight: h.hub ? 700 : 500,
-            }}>{h.city}{h.count > 1 ? ` · ${h.count}` : ''}</div>
-          </div>
-        ))}
+          {/* region tints + faint grid */}
+          <rect x="0" y="0" width={DIV_X} height={VB_H} fill={FG(3.5)} />
+          <rect x={DIV_X} y="0" width={VB_W - DIV_X} height={VB_H} fill={artAlpha(accent, 0.04)} />
+          {Array.from({ length: Math.floor(VB_W / 24) }, (_, i) => (
+            <line key={`v${i}`} x1={(i + 1) * 24} y1="0" x2={(i + 1) * 24} y2={VB_H} stroke={FG(3.5)} strokeWidth="1" />
+          ))}
+          {Array.from({ length: Math.floor(VB_H / 24) }, (_, i) => (
+            <line key={`h${i}`} x1="0" y1={(i + 1) * 24} x2={VB_W} y2={(i + 1) * 24} stroke={FG(3.5)} strokeWidth="1" />
+          ))}
+
+          {/* Atlantic divider */}
+          <line x1={DIV_X} y1="0" x2={DIV_X} y2={VB_H} stroke={FG(20)} strokeWidth="1" strokeDasharray="2 5" />
+          <text x="10" y="15" fontFamily={MONO} fontSize="9" letterSpacing="0.6" fill={FG(40)}>AMERICAS</text>
+          <text x={VB_W - 10} y="15" fontFamily={MONO} fontSize="9" letterSpacing="0.6" fill={FG(40)} textAnchor="end">EUROPE</text>
+
+          {/* the migration arc — the point of the whole card */}
+          <path d={arcD} fill="none" stroke={accent} strokeWidth="2" strokeLinecap="round" strokeDasharray="5 4" markerEnd="url(#arc-arrow)" opacity="0.92" />
+          <text x={arcLabelX} y={arcLabelY} fontFamily={SANS} fontSize="9" fontWeight={700} letterSpacing="0.3" fill={accent} textAnchor="middle">the center crosses · c. 1940</text>
+
+          {/* city dots + movement labels */}
+          {MODERN_MAP_HUBS.map(h => {
+            const anchor = h.nameAnchor ?? 'middle'
+            const movAnchor = h.movAnchor ?? anchor
+            const lines = h.movLines ?? [h.movements.join(' · ')]
+            return (
+              <g key={h.city}>
+                {h.hub && <circle cx={h.x} cy={h.y} r="9" fill={artAlpha(accent, 0.16)} />}
+                <circle cx={h.x} cy={h.y} r={h.hub ? 4.5 : 3} fill={h.hub ? accent : CARD_BG} stroke={h.hub ? accent : BORDER_STRONG} strokeWidth="1.5" />
+                <text x={h.x + (h.nameDx ?? 0)} y={h.y + (h.nameDy ?? -8)} fontFamily={MONO} fontSize={h.hub ? 9 : 8} fontWeight={h.hub ? 700 : 600} letterSpacing="0.4" fill={h.hub ? INK : MUTED} textAnchor={anchor} style={{ textTransform: 'uppercase' }}>{h.city}</text>
+                {lines.map((ln, i) => (
+                  <text key={i} x={h.x} y={h.y + (h.movDy ?? 11) + i * 11.5} fontFamily={SANS} fontSize="8.5" fontWeight={500} fontStyle="italic" fill={h.hub ? FG(80) : FG(62)} textAnchor={movAnchor}>{ln}</text>
+                ))}
+              </g>
+            )
+          })}
+        </svg>
       </div>
     </div>
   )

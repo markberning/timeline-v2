@@ -60,11 +60,17 @@ export const ART_IMG = {
   picassoThreeMusicians: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Pablo_Picasso%2C_1921%2C_Nous_autres_musiciens_%28Three_Musicians%29%2C_oil_on_canvas%2C_204.5_x_188.3_cm%2C_Philadelphia_Museum_of_Art.jpg/1280px-Pablo_Picasso%2C_1921%2C_Nous_autres_musiciens_%28Three_Musicians%29%2C_oil_on_canvas%2C_204.5_x_188.3_cm%2C_Philadelphia_Museum_of_Art.jpg',
   // RESTRICTED — Guernica (1937), NOT US public domain → degraded reference only
   guernica: 'https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg',
+  // Cubism influence-flow lineage nodes (Commons, load-verified 2026-05-24)
+  fangMask: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg/960px-0623b_Asymetrical_mask%2C_Fang%2C_Gabon_%285539335532%29.jpg',
+  pissarroBoulevard: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg/960px-Camille_Pissarro_-_Boulevard_Montmartre%2C_Spring_-_Google_Art_Project.jpg',
+  lissitzkyWedge: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Beat_the_Whites_with_the_Red_Wedge.jpg/960px-Beat_the_Whites_with_the_Red_Wedge.jpg',
+  kandinskyComp7: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg/960px-Vassily_Kandinsky%2C_1913_-_Composition_7.jpg',
+  bauhausDessau: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg/960px-Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg',
 } as const
 
 export interface ArtStat { v: string; k: string }
 export interface ArtSide { side?: string; label: string; color: string; motto?: string; detail?: string; members?: string[] }
-export interface ArtLineageChip { label: string; mode: 'art' | 'civ' | 'war' }
+export interface ArtLineageChip { label: string; mode: 'art' | 'civ' | 'war'; img?: string; palette?: Palette; note?: string }
 export interface ArtLineage { parents: ArtLineageChip[]; children: ArtLineageChip[] }
 
 // ─────────────────────────────────────────────────────────────
@@ -169,15 +175,35 @@ export const MODERN_ERA: ArtEraContent = {
   ],
 }
 
-// City hubs for the era "where it happened" map.
-export const MODERN_MAP_HUBS = [
-  { city: 'Paris', x: '46%', y: '38%', count: 7, hub: true },
-  { city: 'Munich', x: '60%', y: '34%', count: 1 },
-  { city: 'Milan', x: '54%', y: '50%', count: 1 },
-  { city: 'Zürich', x: '52%', y: '42%', count: 1 },
-  { city: 'St Petersburg', x: '78%', y: '22%', count: 1 },
-  { city: 'New York', x: '14%', y: '46%', count: 2 },
-  { city: 'Mexico City', x: '12%', y: '70%', count: 1 },
+// City hubs for the era "where it happened" map. Coordinates are SVG viewBox
+// units (0–340 wide, 0–224 tall — a schematic, not true geography), with the
+// Atlantic divider at x≈120. Each hub carries the movement(s) that happened
+// there; the two `hub` cities (Paris, then New York) are the era's centres of
+// gravity, joined on the map by the c.1940 migration arc.
+export interface ModernHub {
+  city: string
+  x: number
+  y: number
+  hub?: boolean
+  movements: string[]
+  movLines?: string[] // explicit label line-wrap for the multi-movement hubs
+  nameAnchor?: 'start' | 'middle' | 'end'
+  nameDx?: number // city-name horizontal nudge (to dodge the migration arc)
+  nameDy?: number // city-name offset above the dot
+  movAnchor?: 'start' | 'middle' | 'end' // movement labels can align differently to the name
+  movDy?: number // movement-label offset below the dot
+}
+// Every label reads "● City" — dot, then the city name on the same line (name to
+// the right). Movements sit one line below. Coordinates are tuned so the right-
+// hand names don't run off the 340-wide canvas or into a neighbour.
+export const MODERN_MAP_HUBS: ModernHub[] = [
+  { city: 'New York', x: 68, y: 120, hub: true, movements: ['Abstract Expressionism', 'Pop Art'], movLines: ['Abstract Expressionism', 'Pop Art'], nameAnchor: 'start', nameDx: 8, nameDy: 3, movAnchor: 'middle', movDy: 17 },
+  { city: 'Mexico City', x: 52, y: 216, movements: ['Muralism'], nameAnchor: 'start', nameDx: 7, nameDy: 3, movAnchor: 'middle', movDy: 14 },
+  { city: 'Paris', x: 170, y: 122, hub: true, movements: ['Impressionism', 'Cubism', 'Fauvism', 'Surrealism'], movLines: ['Impressionism · Cubism', 'Fauvism · Surrealism'], nameAnchor: 'start', nameDx: 8, nameDy: 3, movAnchor: 'middle', movDy: 16 },
+  { city: 'Zürich', x: 208, y: 162, movements: ['Dada'], nameAnchor: 'start', nameDx: 7, nameDy: 3, movAnchor: 'middle', movDy: 14 },
+  { city: 'Milan', x: 215, y: 210, movements: ['Futurism'], nameAnchor: 'start', nameDx: 7, nameDy: 3, movAnchor: 'middle', movDy: 14 },
+  { city: 'Munich', x: 250, y: 104, movements: ['Expressionism'], nameAnchor: 'start', nameDx: 7, nameDy: 3, movAnchor: 'middle', movDy: 14 },
+  { city: 'St Petersburg', x: 265, y: 52, movements: ['Suprematism'], nameAnchor: 'start', nameDx: 7, nameDy: 3, movAnchor: 'middle', movDy: 14 },
 ]
 
 // ─────────────────────────────────────────────────────────────
@@ -283,8 +309,18 @@ export const CUBISM: ArtMovementContent = {
     { year: 1916, movement: 'Dada', place: 'Zürich', blurb: 'At the Cabaret Voltaire, a war refugee scene mocks the very idea of meaning.' },
   ],
   lineage: {
-    parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'African masks', mode: 'art' }, { label: 'Post-Impressionism', mode: 'art' }, { label: 'Edwardian Paris', mode: 'civ' } ],
-    children: [ { label: 'Futurism', mode: 'art' }, { label: 'Constructivism', mode: 'art' }, { label: 'Abstract art', mode: 'art' }, { label: 'Bauhaus', mode: 'art' } ],
+    parents: [
+      { label: 'Cézanne', mode: 'art', img: ART_IMG.cezanneBathers, palette: ['#5a7042', '#8a7848', '#1c1a12'], note: 'gave: form built from faceted planes' },
+      { label: 'African masks', mode: 'art', img: ART_IMG.fangMask, palette: ['#6b5034', '#3a2820', '#100c08'], note: 'gave: flat, frontal geometry' },
+      { label: 'Post-Impressionism', mode: 'art', img: ART_IMG.seuratGrandeJatte, palette: ['#3a6a4a', '#c8b84a', '#1c2a18'], note: 'gave: structure over appearance' },
+      { label: 'Edwardian Paris', mode: 'civ', img: ART_IMG.pissarroBoulevard, palette: ['#3a4a6a', '#2a3048', '#0e1422'], note: 'gave: dealers, rivals, an audience' },
+    ],
+    children: [
+      { label: 'Futurism', mode: 'art', img: ART_IMG.boccioniCity, palette: ['#bf2f25', '#1c1c1c', '#d6cf3f'], note: 'took: fractured planes, set in motion' },
+      { label: 'Constructivism', mode: 'art', img: ART_IMG.lissitzkyWedge, palette: ['#a83232', '#1c1c1c', '#d6cf3f'], note: 'took: geometry as structure' },
+      { label: 'Abstract art', mode: 'art', img: ART_IMG.kandinskyComp7, palette: ['#1d4ed8', '#d6cf3f', '#bf2f25'], note: 'took: leaving the subject behind' },
+      { label: 'Bauhaus', mode: 'art', img: ART_IMG.bauhausDessau, palette: ['#1c1c1c', '#bf2f25', '#d6cf3f'], note: 'took: pure geometry, into design' },
+    ],
   },
   sections: [
     { id: 'before', eyebrow: 'Setting', dateLabel: '1906–1908', title: 'Before the cube', blurb: 'A dead painter, a stolen stone head, a room of looted masks — the three things Picasso could not stop looking at.', progress: 1 / 6 },
@@ -332,7 +368,9 @@ export const CUBISM_RIBBON = {
 export interface WorkSection { id: string; eyebrow: string; dateLabel: string; title: string; blurb: string; progress: number }
 export interface ProvenanceEntry { year: string; who: string; place: string; note: string; price: string | null; museum?: boolean }
 export interface WorkFigure { name: string; role: string; palette: Palette }
-export interface CanvasAnnotation { x: string; y: string; label: string }
+// x/y = the region CENTRE (%); w/h = the crop region size (% of the image) for
+// the "Look closer" detail crops. Older point-only entries default to a box.
+export interface CanvasAnnotation { x: string; y: string; label: string; detail?: string; w?: number; h?: number }
 
 export interface ArtWorkContent {
   id: string
@@ -360,6 +398,7 @@ export interface ArtWorkContent {
   heroFit?: 'cover' | 'contain'
   heroFocus?: string
   heroImages?: HeroImage[]
+  heroAspect?: number // source image W/H — used to frame the "Look closer" region crops
   // rights: drives the inline-figure treatment. PD-US for pre-1931 works.
   rights: 'pd-us' | 'in-copyright'
   stats: ArtStat[]
@@ -382,7 +421,7 @@ export const DEMOISELLES: ArtWorkContent = {
   era: 'Modern',
   eraId: 'mod',
   medium: 'Oil on canvas',
-  dimensions: '243.9 cm × 233.7 cm (96 in × 92 in)',
+  dimensions: '8 ft × 7 ft 8 in',
   location: 'Museum of Modern Art, New York',
   acquired: 'Acquired 1939',
   accent: ART_ACCENTS.violet,
@@ -390,12 +429,13 @@ export const DEMOISELLES: ArtWorkContent = {
   hook: 'Five women, five sets of impossible angles, masks where the faces should be.',
   heroImage: ART_IMG.demoiselles,
   heroCredit: 'Picasso, Les Demoiselles d’Avignon, 1907 · MoMA',
+  heroAspect: 0.966,
   // The work page hero shows the WHOLE painting (≈square) — contain, never cropped.
   heroFit: 'contain',
   rights: 'pd-us',
   stats: [
     { v: '1907', k: 'Painted' },
-    { v: '243 × 234 cm', k: 'Dimensions' },
+    { v: '8′ × 7′8″', k: 'Dimensions' },
     { v: 'MoMA', k: 'Now at' },
   ],
   sections: [
@@ -423,14 +463,74 @@ export const DEMOISELLES: ArtWorkContent = {
     { name: 'Alfred Barr', role: 'MoMA, the believer', palette: ['#3a4a8b', '#d6cf3f', '#1a1a1a'] },
   ],
   annotations: [
-    { x: '18%', y: '24%', label: 'Iberian profile · the two left figures' },
-    { x: '76%', y: '28%', label: 'African mask · right-most figure' },
-    { x: '52%', y: '64%', label: 'Still life, pyramid form (Cézanne)' },
-    { x: '38%', y: '88%', label: 'No vanishing point. Anywhere.' },
+    { x: '22%', y: '20%', w: 40, h: 28, label: 'Iberian profile · the two left figures', detail: 'The two left-hand faces — calm, almond-eyed, seen in profile — are lifted from ancient Iberian stone heads Picasso had studied at the Louvre (he even owned two stolen fragments). He is reaching past the Renaissance to Spain’s own pre-Roman past.' },
+    { x: '76%', y: '22%', w: 36, h: 30, label: 'African mask · right-most figures', detail: 'The two figures on the right wear faces like carved African masks — gouged, striated, deliberately other. Picasso had just been hit hard by Fang and Kota masks at the Trocadéro ethnographic museum; here a “beautiful nude” is given a mask for a face.' },
+    { x: '50%', y: '90%', w: 46, h: 18, label: 'Still life, faceted form (Cézanne)', detail: 'The wedge of fruit at the bottom is built from blunt, faceted planes — pure Cézanne, whose late work taught Picasso to construct a picture out of solid geometric blocks instead of smooth illusion.' },
+    { x: '72%', y: '64%', w: 34, h: 30, label: 'Two views at once', detail: 'The crouching figure shows you her muscular back and — twisted impossibly round — her masked face at the same instant. There is no single spot you could stand to see this, which is exactly the point: Cubism abolishes the one fixed viewpoint a painting had assumed for 500 years.' },
   ],
   lineage: {
     parents: [ { label: 'Cézanne’s Bathers', mode: 'art' }, { label: 'Iberian sculpture', mode: 'art' }, { label: 'African masks', mode: 'art' }, { label: 'Belle Époque Paris', mode: 'civ' } ],
     children: [ { label: 'Analytic Cubism', mode: 'art' }, { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Futurism', mode: 'art' }, { label: 'Abstract art', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Portrait of Daniel-Henry Kahnweiler (1910): the textbook Analytic
+// Cubism canvas, a foil to the Demoiselles. Annotation pins verified on the
+// painting 2026-05-24. Chapter prose lives in the section reader (NARRATIVES.kahnweiler).
+// ─────────────────────────────────────────────────────────────
+export const KAHNWEILER: ArtWorkContent = {
+  id: 'kahnweiler',
+  name: 'Portrait of Daniel-Henry Kahnweiler',
+  shortName: 'Kahnweiler',
+  year: 1910,
+  artist: 'Pablo Picasso',
+  artistId: 'picasso',
+  movement: 'Cubism',
+  movementId: 'cubism',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 3½ in × 2 ft 4½ in',
+  location: 'Art Institute of Chicago',
+  acquired: 'Acquired 1948',
+  accent: ART_ACCENTS.violet,
+  chain: { name: 'Works of Cubism', index: 2, total: 9 },
+  hook: 'A real man — Picasso’s own dealer — dissolved into a shimmer of brown-and-grey facets you have to decode.',
+  heroImage: ART_IMG.kahnweiler,
+  heroCredit: 'Picasso, Portrait of Daniel-Henry Kahnweiler, 1910 · Art Institute of Chicago',
+  heroAspect: 0.717,
+  rights: 'pd-us',
+  stats: [
+    { v: '1910', k: 'Painted' },
+    { v: '3′3½″ × 2′4½″', k: 'Dimensions' },
+    { v: 'Art Institute', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'dealer', eyebrow: 'The man', dateLabel: '1907–1910', title: 'The dealer who bankrolled Cubism', blurb: 'A young German walks into a Paris backwater, signs the painters nobody else will touch, and becomes the quiet engine behind Cubism.', progress: 0.1 },
+    { id: 'analytic', eyebrow: 'The style', dateLabel: '1909–1911', title: 'Cubism, three years on', blurb: 'By 1910 Picasso and Braque are roped together, faceting the whole visible world into a shimmer of brown and grey.', progress: 0.3 },
+    { id: 'reading', eyebrow: 'How to look', dateLabel: 'The picture', title: 'Finding the man in the facets', blurb: 'The wave of hair, two almond eyes, the clasped hands — the footholds that turn a grey scaffold back into a seated man.', progress: 0.55 },
+    { id: 'sitting', eyebrow: 'The edge of legible', dateLabel: 'Autumn 1910', title: 'Sitting for a near-abstraction', blurb: 'Many sittings push the portrait to the brink of unreadability — and then, deliberately, it stops just short.', progress: 0.78 },
+    { id: 'seized', eyebrow: 'Afterlife', dateLabel: '1914–1948', title: 'Seized, scattered, saved', blurb: 'War turns Kahnweiler into an enemy alien; his whole collection is confiscated and auctioned, and the portrait drifts toward Chicago.', progress: 0.95 },
+  ],
+  provenance: [
+    { year: '1910', who: 'Daniel-Henry Kahnweiler', place: 'Paris', note: 'Acquired straight from Picasso — the dealer owned his own portrait.', price: null },
+    { year: '1914', who: 'Sequestered by the French state', place: 'Paris', note: 'A German citizen caught abroad when war broke out, Kahnweiler could not return; his stock was seized as enemy property.', price: null },
+    { year: '1921', who: 'Isaac Grünewald', place: 'Hôtel Drouot, Paris', note: 'Lot 84 in the first forced sequestration auction — bought by the Swedish painter Isaac Grünewald.', price: null },
+    { year: 'c. 1929', who: 'Earl Horter', place: 'Philadelphia', note: 'The American artist and collector Earl Horter.', price: null },
+    { year: '1934', who: 'Mrs. Gilbert W. Chapman', place: 'Chicago', note: 'Bought by the Chicago collector then known as Mrs. Charles Goodspeed.', price: null },
+    { year: '1948', who: 'Art Institute of Chicago', place: 'Chicago', note: 'Her gift, in memory of Charles B. Goodspeed — now a landmark of the museum’s Cubism.', price: null, museum: true },
+  ],
+  figures: [],
+  annotations: [
+    { x: '61%', y: '12%', w: 30, h: 18, label: 'The wave of hair', detail: 'Start at the top: that patch of fine diagonal hatching is Kahnweiler’s neatly combed, wavy hair — one of the few passages Picasso leaves almost describable, a foothold before the rest dissolves.' },
+    { x: '50%', y: '22%', w: 32, h: 24, label: 'His eyes, looking out', detail: 'Below the hair, two dark almond eyes and the ridge of a nose surface out of the facets. Find the face looking back and the whole grey scaffold suddenly reads as a seated man.' },
+    { x: '52%', y: '89%', w: 42, h: 20, label: 'The clasped hands', detail: 'At the very bottom, a cluster of pale interlocking blocks resolves into his hands, folded in his lap. Picasso pins the figure down with hair and hands — top and bottom — and lets everything between them break apart.' },
+    { x: '18%', y: '70%', w: 32, h: 28, label: 'A still-life corner', detail: 'Down in the lower left (to the sitter’s right) sit the faceted shards of a small still life — a bottle, and probably a glass beside it. The everyday tabletop motif Picasso and Braque were faceting over and over in these years, tucked into the corner of a portrait.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Cézanne', mode: 'art' }, { label: 'African & Oceanic art', mode: 'art' }, { label: 'Les Demoiselles', mode: 'art' } ],
+    children: [ { label: 'Synthetic Cubism', mode: 'art' }, { label: 'Collage', mode: 'art' }, { label: 'Abstract art', mode: 'art' } ],
   },
 }
 
@@ -534,5 +634,5 @@ export const PICASSO: ArtArtistContent = {
 // Lookups for routing (only authored entities resolve; others ⇒ coming-soon).
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
