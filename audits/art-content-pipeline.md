@@ -510,3 +510,33 @@ Sonnet critics in parallel → Opus revise → integrate). Gate yield:
   Work routes auto-generate. tsc clean; build generates all chapter pages. Artifacts in
   `audits/art-pipeline/burial-*`. (Work pages also gained the SectionNav jump-bar +
   always-visible sections — see BEHAVIORS.md "Art WORK page".)
+
+## Retro fact-check — Look-closer pointers (2026-05-25)
+After the gate-1 scope was extended to cover the "Look closer" pointers, the 10 works
+authored before that (Demoiselles + 8 Cubism + Burial) were run back through the
+fact-check critic (Sonnet, web-enabled, **looking at the actual painting**), every flag
+re-confirmed against the image by the coordinator before any edit. Findings — the gate
+was worth running:
+- **Demoiselles** ❌ "two left-hand faces … in profile" → three Iberian-style left
+  faces, only the far-left in profile. (User-caught; the trigger for this whole pass.)
+- **Three Musicians** ❌×2 — pointers had the **MoMA** layout on the **Philadelphia**
+  canvas: "white-and-bearded at left" → Harlequin (diamonds) at left / Pierrot (white)
+  centre; "guitar at left" → the left Harlequin plays a **violin**.
+- **Violin and Jug** ❌ jug "up to the left" → it sits **above the violin** (upper-centre).
+- **Horta** ⚠️ green "the only curve … lets it stay soft" → it's faceted like everything
+  else, and the cool gray-blue sky isn't "baked earth" either → softened to "almost the
+  only green."
+- **Gris, Breakfast** ⚠️ faux-bois confined to "the table and its turned legs" → the
+  printed wood-grain paper also runs behind as paneling (two kinds); dropped "turned."
+- **Chair Caning** ⚠️ "a scallop shell" → contested (shell vs napkin's frilled edge) →
+  hedged.
+- **The Portuguese** ⚠️ guitar "the firmest object" (contradicted its own letters
+  pointer) → "firmest *representational* object."
+- **Burial** ⚠️×2 `where` precision — beadles "just left of centre" → "left of centre,
+  with the clergy"; dog "lower right" → "centre-right foreground."
+- **Kahnweiler, Three Women** ✅ clean.
+**Lesson:** short captions are NOT low-risk — visual claims (counts, left/right,
+profile-vs-frontal, which-version-of-a-work) are exactly where errors hide. A separate
+gap surfaced and is owed: **provenance/stats blocks were also authored ungated** (the
+fact-checker flagged Three Women's Shchukin entry — bought from the Steins, not direct
+from Picasso). Next retro pass: run gate-1 over every work's `provenance` + `stats`.
