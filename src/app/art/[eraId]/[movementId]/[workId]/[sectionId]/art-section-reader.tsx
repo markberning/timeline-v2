@@ -3392,6 +3392,226 @@ const ComingChapter: NarrativeFn = () => (
 )
 
 // Narratives nested by workId → sectionId, so each artwork has its own chapters.
+// ── Impression, Sunrise (Monet, 1872) — the first Impressionism WORK read.
+// Authored gates-first via the art content pipeline; see audits/art-pipeline/sunrise-*.
+// ── Impression, Sunrise · Home port at war's end ──
+function IsLeHavre({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Le Havre · dawn" title="The man at the window" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a man at a hotel window on the Normandy coast, before the town is fully awake, looking out at a gray harbor coming alive in the dawn. There is smoke already, and the dark shapes of ships at anchor, and a small orange sun pushing up through the mist over the water. The man has come home from running away from a war, and he is about to paint what he sees, fast, in one sitting, before the light changes. The picture he makes will be small, cheap, and so unfinished-looking that a critic will say wallpaper has more polish &mdash; and it will end up naming an entire movement in art, getting stolen at gunpoint, and becoming one of the most famous paintings on the planet. But all of that is later. Right now there is just the window, the harbor, and the painter.
+      </p>
+      <p style={proseStyle}>
+        The painter is <strong>Claude Monet</strong> (1840&ndash;1926), and this is no exotic scene he traveled to find. He grew up here. Not in Paris among the salons and the art schools, but in <strong>Le Havre</strong> (pronounced &ldquo;luh AHV-ruh&rdquo;), a busy port on the Normandy coast of northern France, where the river Seine meets the English Channel. His family moved there when he was about five, so the working harbor &mdash; the masts, the smoke, the gray Channel light, the sea fog rolling in off the water &mdash; was the view out the window of his childhood. When Monet paints Le Havre at dawn, he is painting home. (And he is not painting it alone, even if he is the one at the window: a loose band of like-minded young painters &mdash; Pissarro, Renoir, Sisley, and others we will meet properly in Paris &mdash; were already at work on the same problem of catching light fast and outdoors. Hold that thread; it matters for who gets the credit.)
+      </p>
+
+      <SectionHeader accent={accent} label="1870 · the war" title="A war, and a flight to London" />
+      <p style={proseStyle}>
+        But between the boy at the window and the man who made this picture, something happened, and it happened across the Channel. In 1870 the <strong>Franco-Prussian War</strong> broke out &mdash; France against the German states led by Prussia, a short, disastrous war that France lost badly, toppling its government in the process. Monet, who had no appetite for getting conscripted into a collapsing army, did what a lot of young men do when the world catches fire: he left. He went to <strong>London</strong>, and he sat out the war in exile in a foggy foreign city.
+      </p>
+      <p style={proseStyle}>
+        London turned out to be the most important thing that could have happened to his eye. Because in London he looked at English painting, and English painting had already done something French painting was still afraid to do: it had let solid things dissolve. He saw the work of <strong>J. M. W. Turner</strong> (1775&ndash;1851), who painted storms and sunsets and steam as if the whole world were melting into colored light, edges gone, forms barely hanging together. He saw <strong>James McNeill Whistler</strong> (1834&ndash;1903), an American painter living in London who made hushed, near-abstract studies of the Thames at night &mdash; the river, the bridges, the mist, all reduced to a few soft bands of tone. And he saw the actual thing those painters were painting: the <strong>Thames</strong> under coal smoke and river fog, a great modern city dissolved into haze, where you could not tell exactly where a building ended and the smoke began.
+      </p>
+      <p style={proseStyle}>
+        That is the lesson Monet brought home. Not a subject &mdash; he already had his subject, the harbor &mdash; but a permission. The permission to paint the haze instead of fighting through it. The permission to let a smokestack be a soft gray smear rather than a crisp drawn object, because a soft gray smear is, in fact, what a smokestack looks like at dawn through fog from across the water. (Years later a French critic, <strong>Ernest Chesneau</strong>, would look at <em>Impression, Sunrise</em> and see Turner and Whistler in it plainly. He was right.)
+      </p>
+
+      <SectionHeader accent={accent} label="1872 · home" title="A working port, not a postcard" />
+      <p style={proseStyle}>
+        So Monet came back. He traveled home through the Netherlands and was back painting his home harbor by <strong>1872</strong>. And here is the part that matters, the part it is easy to skate past: he did not come home and paint a pretty seaside. Le Havre in 1872 was not a postcard. It was one of the great working ports of France, a place of cranes and derricks (the tall arms that swing cargo on and off ships), of steamships and coal smoke, of factory chimneys going day and night. The traditional way to paint the sea &mdash; the <strong>marine</strong> (a seascape, a recognized respectable category of painting) &mdash; was clean, noble, timeless: tall ships, glittering water, maybe a heroic storm. Monet pointed his attention at the opposite of that. He pointed it at the smoke and the machinery, the modern, half-awake, industrial port at first light.
+      </p>
+      <p style={proseStyle}>
+        That choice is the whole quiet argument of the picture before it ever gets to Paris. A painter who learned in London that fog and smoke could <em>be</em> the subject, standing at a window over his own childhood harbor, deciding that the cranes and the chimneys and the gray morning haze were worth a serious canvas &mdash; not in spite of being unglamorous, but because they were the real, present-tense, working world. He just had to wait for the right morning.
+      </p>
+    </article>
+  )
+}
+
+// ── Impression, Sunrise · 7:35 a.m., a hotel window ──
+function IsMorning({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Gray water, gray sky, an orange sun" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the canvas, because it is gloriously little, and because the whole point of this painting is what your eye does when it lands on it.
+      </p>
+      <p style={proseStyle}>
+        The water and the sky take up almost the whole surface, and they are nearly the same thing &mdash; a soft, muted blue-gray, brushed in loose horizontal strokes, the kind of wet, slithery marks you make when you are working fast and not stopping to clean up. There is barely a horizon; sea and air blur into each other in the haze. Set into the upper part of the picture, a little above center and <strong>slightly to the right</strong>, is a small <strong>orange disk</strong>: the sun, sitting low over the water through the morning mist. Running straight down from it toward you, broken into choppy dabs of orange on the gray water, is <strong>the sun&rsquo;s reflection</strong> &mdash; not a smooth column of light but a flickering, interrupted streak, the way a real reflection breaks up on moving water. (The museum that owns the painting notes that the sun and its reflections were the very last things Monet added, the final warm notes dropped onto a cool gray field.)
+      </p>
+      <p style={proseStyle}>
+        Down in the foreground float <strong>two dark little boats</strong>, near silhouettes, each with a figure aboard &mdash; somebody rowing or standing. Don&rsquo;t try to count them too precisely; even the experts disagree on exactly what&rsquo;s there, and the picture is deliberately vague about it. The nearer boat is a touch sharper, the farther one fainter, dissolving into the morning. And then, behind everything, the working port: on the <strong>left</strong>, a ghost-fleet of <strong>masts</strong> rising against the misty sky (the tall poles of sailing ships, including the slim raked masts of the fast cargo clippers) and a <strong>drifting plume of smoke</strong> leaning across the picture on a faint wind; on the <strong>right</strong>, a cluster of <strong>dockside cranes and derricks</strong> and <strong>factory chimneys</strong> trailing more smoke into the sky. It is an industrial harbor on both sides &mdash; left and right &mdash; all blue-gray, all hazed, all barely-there, but unmistakably a working port, not a beach. The smoke and the cranes are not clutter behind the scene. They <em>are</em> the scene.
+      </p>
+      <p style={proseStyle}>
+        That is the entire painting: gray water, gray sky, an orange sun, a broken orange reflection, two dark boats, and a smoky port fading into fog on either side. And it is sketched &mdash; thin, rapid, unfinished by every rule of the time.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="Plein air, before the light changes" />
+      <p style={proseStyle}>
+        Now the context, because the looseness is not laziness; it is a method. Monet painted <em>Impression, Sunrise</em> in <strong>oil on canvas</strong>, from a hotel room in Le Havre, looking out over the <strong>avant-port</strong> &mdash; the &ldquo;outer harbor,&rdquo; the open stretch of sheltered water just outside the inner docks where big ships ride at anchor. His window faced roughly southeast, toward the rising sun. He painted what was in front of him, fast, in one sitting, before the light could change &mdash; which at dawn it does, minute by minute. This is <strong>plein air</strong> painting taken to its limit: <em>plein air</em> (French for &ldquo;open air&rdquo;) means painting outdoors, on the spot, in front of the real light, rather than back in a studio from sketches and memory. A studio painter can fuss a marine for months. A dawn lasts about twenty minutes. Oil paint worked wet-into-wet &mdash; fresh color dragged straight through color that is still wet, so the strokes smear and blend on the canvas itself &mdash; is exactly the tool for that speed. Monet did not run out of time to finish it. He decided this <em>was</em> finished, that the impression of the morning was the point and polish would only kill it. Hold that thought; in the next chapter it gets him in trouble.
+      </p>
+
+      <SectionHeader accent={accent} label="The science" title="The sun isn't the brightest thing on the canvas" />
+      <p style={proseStyle}>
+        Now, the strangest fact about this picture &mdash; and the most beautiful piece of science in any painting you&rsquo;ll meet. <strong>That orange sun is not actually the brightest thing on the canvas.</strong>
+      </p>
+      <p style={proseStyle}>
+        This sounds insane, because the sun absolutely <em>pops</em> &mdash; it&rsquo;s the one thing your eye goes to. But &ldquo;pop&rdquo; and &ldquo;bright&rdquo; are not the same thing. A scientist named <strong>Margaret Livingstone</strong>, who studies how the brain sees at Harvard University, put <em>Impression, Sunrise</em> under a light meter and measured it. The orange sun has almost exactly the same <strong>luminance</strong> as the gray sky right behind it &mdash; luminance being the plain physical brightness of a thing, the gray-value it would have if you drained all the color out. Measured as pure brightness, sun and sky are nearly identical. The sun stands out only because of its <em>color</em>: warm orange against cool gray-blue. Its punch is a color punch, not a brightness punch.
+      </p>
+      <p style={proseStyle}>
+        You can prove it with a photocopier. Make a black-and-white copy of <em>Impression, Sunrise</em> &mdash; strip out the color and leave only the brightness &mdash; and the sun <strong>nearly vanishes.</strong> It melts into the sky it was sitting in, because in brightness terms it was always the same as that sky. The famous blazing sun of the most famous sunrise in art disappears the instant you take the color away. (Livingstone&rsquo;s careful word is &ldquo;almost&rdquo; vanishes &mdash; equiluminant means <em>nearly equal in brightness</em>, not identical to the last unit, and we should be honest about that. But the effect is real and dramatic.)
+      </p>
+      <p style={proseStyle}>
+        Here&rsquo;s why this matters, why the sun seems to faintly <em>shimmer</em>. Your visual system runs on two crews that don&rsquo;t fully talk to each other. One &mdash; the old one, shared with most animals &mdash; handles brightness, position, depth, and motion; it&rsquo;s the crew that tells you <em>where</em> things are, but it&rsquo;s effectively color-blind, working only in grays. The other team handles color and recognizing objects. Because Monet&rsquo;s sun is the same brightness as the sky, the <em>where</em>-crew can&rsquo;t find it &mdash; to that crew, in its colorless world, there&rsquo;s nothing there to locate. Only the color side sees the sun. So one part of your brain is shouting &ldquo;bright orange sun, right there!&rdquo; and the other is shrugging &ldquo;I don&rsquo;t see anything.&rdquo; And here is the bridge to the shimmer: the where-crew is also the part that pins down <em>position</em>, and it can never quite lock onto a sun it can&rsquo;t even detect, so your eye keeps trying to re-aim at the disk and never settles. That endless, unsettled re-aiming reads as a faint flicker &mdash; the sun seems to quietly vibrate or pulse. Which is <em>exactly</em> what a low sun looks like through morning haze. Monet, who knew none of this neuroscience, painted the shimmer of a real dawn by pure observation &mdash; he painted what he saw, and what he saw happened to be a perfect trap for the human eye.
+      </p>
+
+      <SectionHeader accent={accent} label="The date" title="7:35 a.m., November 13, 1872" />
+      <p style={proseStyle}>
+        Last thing, the date. How does anyone claim &ldquo;7:35 a.m., November 13, 1872&rdquo; about a vague little sketch &mdash; and, while we&rsquo;re at it, how does anyone even know it&rsquo;s a sunrise and not a sunset? Both answers come from the same detective. An astronomer named <strong>Donald Olson</strong> treated the painting like a crime scene. The sun&rsquo;s height above the horizon told him roughly how long after sunrise it was (about 20 to 30 minutes). The southeast view fixed the direction &mdash; Monet&rsquo;s window looked east, toward where the sun <em>comes up</em>, so this is a sun on the way up, not down: a sunrise, settling a debate that had run for a century. Then he cross-checked tide tables (big ships could only enter Le Havre&rsquo;s shallow harbor at high tide, which narrowed the possible days to a handful), local weather reports (to throw out the stormy mornings), and even the direction the painted smoke is drifting (which told him the wind). That left him with <strong>two finalist mornings</strong> &mdash; November 13, 1872, and January 25, 1873. The tiebreaker came from an art historian, <strong>G&eacute;raldine Lefebvre</strong>, who weighed Monet&rsquo;s known movements and the telltale &ldquo;72&rdquo; the painter later added to the canvas &mdash; and that &ldquo;72&rdquo; is itself the seed of an old quarrel, because Monet inscribed it after the fact rather than at the easel, which let a minority of scholars (notably <strong>Daniel Wildenstein</strong>, who compiled the great catalogue of Monet&rsquo;s work) argue the picture was really painted in 1873, or even early 1874, and back-dated. Lefebvre&rsquo;s case lands with Olson&rsquo;s astronomy on the earlier date: <strong>November 13, 1872, around 7:35 a.m.</strong> It is detective work, not certainty &mdash; a best, beautifully reasoned estimate, narrowed from two candidates to one, not a timestamp on a photograph. But it is a very good guess.
+      </p>
+    </article>
+  )
+}
+
+// ── Impression, Sunrise · Wallpaper more finished than that seascape ──
+function IsName({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · April 1874" title="Going around the Salon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n April 1874, in Paris, a group of painters who were sick of being rejected decided to stop asking permission.
+      </p>
+      <p style={proseStyle}>
+        To understand why that was a revolt, you have to know what they were revolting against: the <strong>Salon</strong>. The Salon was the official annual art exhibition of France, run by the state&rsquo;s art establishment, and it was effectively the only door in town. Get accepted and hung at the Salon, and critics reviewed you, buyers found you, a career was possible. Get rejected &mdash; and a jury of conservative academic painters did the rejecting, year after year &mdash; and you were nobody. Monet and his friends had been getting rejected, or hung badly, for years. Their loose, bright, unfinished-looking work was exactly what the Salon jury despised.
+      </p>
+      <p style={proseStyle}>
+        So they went around it. Crucially, this was not Monet&rsquo;s solo gesture &mdash; it was a self-organized <strong>cooperative</strong>. About thirty painters banded together and formed their own society with a deliberately boring bureaucratic name, the <em>Soci&eacute;t&eacute; Anonyme des artistes peintres, sculpteurs, graveurs</em> (the &ldquo;Anonymous Society of Painters, Sculptors, and Engravers&rdquo;). It was structured like a business cooperative on purpose: no jury, no establishment, members pooling resources to hang their own work on their own terms. <strong>Camille Pissarro</strong> &mdash; older, steady, the group&rsquo;s organizational backbone &mdash; was central to making it run, alongside <strong>Edgar Degas, Pierre-Auguste Renoir, Alfred Sisley, Paul C&eacute;zanne, Berthe Morisot</strong>, Monet, and the rest. They rented a space and hung the work themselves: the <strong>former studio of the photographer Nadar</strong>, at 35 boulevard des Capucines, in the heart of Paris. The show ran from April 15 to May 15, 1874, and a few thousand people came through over its run. This was the <strong>First Impressionist Exhibition</strong> &mdash; except nobody called it that yet, because the word &ldquo;Impressionist&rdquo; did not exist as the name of anything. That&rsquo;s what this chapter is about: where the word came from.
+      </p>
+
+      <SectionHeader accent={accent} label="No. 98" title="A picture that needed a title" />
+      <p style={proseStyle}>
+        Monet hung <strong>several</strong> paintings in that show &mdash; not just the little Le Havre dawn scene but a clutch of canvases, including a <em>Boulevard des Capucines</em> and other coastal and everyday subjects. This matters, because the famous story tends to shrink the whole exhibition down to one tiny sketch, as if the entire revolt hung on a single picture. It didn&rsquo;t. But one of Monet&rsquo;s entries, listed in the catalogue as <strong>No. 98</strong>, was that Le Havre dawn scene. And it needed a title.
+      </p>
+      <p style={proseStyle}>
+        By Monet&rsquo;s own account, told years later, when they were filling in the catalogue he couldn&rsquo;t honestly call it a straight &ldquo;View of Le Havre,&rdquo; because it plainly wasn&rsquo;t a careful topographical view of anything &mdash; it was a sketch of a passing moment. So, he remembered saying, &ldquo;Put <em>Impression</em>.&rdquo; That&rsquo;s the famous story, and it&rsquo;s charming, but treat it gently: it is Monet&rsquo;s recollection from much later, not a record made at the time. The French record actually credits <strong>Edmond Renoir</strong> &mdash; the painter <strong>Pierre-Auguste Renoir&rsquo;s brother</strong>, who was helping compile the catalogue &mdash; with reaching for the word &ldquo;Impression&rdquo; in the rush of getting titles down. Who exactly said it first is genuinely unsettled. What&rsquo;s solid is that the title that went into the catalogue, next to No. 98, was <em>Impression, soleil levant</em> &mdash; <em>Impression, Sunrise</em>.
+      </p>
+
+      <SectionHeader accent={accent} label="Le Charivari · April 25" title="The wallpaper jibe" />
+      <p style={proseStyle}>
+        Enter the villain, who is really the accidental godfather. A satirical critic named <strong>Louis Leroy</strong> went to the show and wrote it up for a humor newspaper, <em>Le Charivari</em>, on April 25, 1874. He hated the work, and he wrote his review as a comic skit: he tours the exhibition alongside a stuffy, horrified old academic painter he calls Monsieur Joseph Vincent, who gets more and more outraged at each unfinished canvas. They arrive at No. 98. What, demands the old painter, is that supposed to be? <em>Impression, Sunrise</em>, comes the answer. And Leroy delivers the line that accidentally made history:
+      </p>
+      <p style={proseStyle}>
+        &ldquo;Impression &mdash; I was certain of it. I was just telling myself that, since I was impressed, there had to be some impression in it... and what freedom, what ease of workmanship! <strong>Wallpaper in its embryonic state is more finished than that seascape.</strong>&rdquo;
+      </p>
+      <p style={proseStyle}>
+        That wallpaper jibe &mdash; that an unprinted, half-made roll of wallpaper has more <em>finish</em> than Monet&rsquo;s painting &mdash; is the whole sneer in one line. (<strong>&ldquo;Finish,&rdquo;</strong> or <em>fini</em>, was the era&rsquo;s word for the high polish a proper painting was supposed to have: every brushstroke blended away, every detail rendered, the surface licked smooth like porcelain. By that standard a rapid gray sketch with a few dabs of orange wasn&rsquo;t a painting at all. It was a doodle that had wandered onto a wall.) Leroy titled his whole hostile review &ldquo;The Exhibition of the <strong>Impressionists</strong>&rdquo; &mdash; turning Monet&rsquo;s painting title into a mocking label for the entire group. <em>You want to paint impressions? Fine. You&rsquo;re the Impressionists, then.</em> He meant it as an insult. He was naming a punchline.
+      </p>
+
+      <SectionHeader accent={accent} label="The badge wins" title="An insult that became a name" />
+      <p style={proseStyle}>
+        Now here is the nuance that absolutely must survive, because the lazy version of this story is wrong. <strong>Leroy did not coin the word &ldquo;Impressionism.&rdquo;</strong> He didn&rsquo;t pull it from nowhere as a clever put-down. He lifted it straight off the catalogue &mdash; it was already there, in Monet&rsquo;s own title, and Monet had used &ldquo;impression&rdquo; in titles before. Leroy&rsquo;s contribution was to popularize it, to weaponize a word that already existed: to take one picture&rsquo;s title and fling it at a whole movement as a slur.
+      </p>
+      <p style={proseStyle}>
+        And it didn&rsquo;t even stay a slur for long. Just four days after Leroy&rsquo;s hatchet job, on April 29, a sympathetic critic named <strong>Jules-Antoine Castagnary</strong> used &ldquo;impressionists&rdquo; in print <em>approvingly</em>, in the newspaper <em>Le Si&egrave;cle</em>. He defined them, rather beautifully, as painters who render not the landscape but the <em>sensation produced by</em> the landscape &mdash; the feeling of seeing it, not a catalogue of its parts. So within a single week the same word was doing two opposite jobs: an insult in one paper, a badge of honor in another.
+      </p>
+      <p style={proseStyle}>
+        The badge won. The painters, with the contrarian good sense of people who have just been called a rude name, picked it up and wore it. By their 1877 exhibition they were calling <em>themselves</em> Impressionists, on purpose. A grumpy critic&rsquo;s joke about a foggy little harbor sketch had become the permanent name of one of the most beloved movements in the history of art. Leroy got his immortality &mdash; as the man who tried to bury Impressionism and accidentally christened it instead.
+      </p>
+    </article>
+  )
+}
+
+// ── Impression, Sunrise · Not the first, but the one that named it ──
+function IsBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The honest claim" title="It named Impressionism, it didn't found it" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is where we have to be careful, because this is exactly the kind of painting people tell flattering lies about. <em>Impression, Sunrise</em> did not invent Impressionism. It was not the first Impressionist painting. It is not the moment a new way of seeing was born. By the time this canvas hung in Nadar&rsquo;s old studio, Monet and Pissarro and Renoir and the rest had already been painting like this for years &mdash; outdoors, fast, in broken patches of bright color, chasing the look of light rather than the catalogue of facts. The style existed. The painting did not found it.
+      </p>
+      <p style={proseStyle}>
+        What it did was <em>name</em> it. And naming, it turns out, is its own kind of power &mdash; a movement without a name is just a bunch of people who paint a bit alike, but a movement with a name is a flag people can rally to and critics can argue about. This is the single most important thing to keep straight: <strong>this is the painting that named Impressionism, not the first Impressionist painting.</strong> Those are very different claims, and only the first one is true.
+      </p>
+      <p style={proseStyle}>
+        So if it didn&rsquo;t break the rules first, what rules was it breaking? Four, mainly, and they&rsquo;re worth taking one at a time, because together they&rsquo;re the whole argument of Impressionism, made visible in one small frame. And because this is a <em>painting</em>, each break is sitting right there on the canvas &mdash; so for each one, look at the thing.
+      </p>
+
+      <SectionHeader accent={accent} label="The first break" title="Impression over finish" />
+      <p style={proseStyle}>
+        The reigning rule said a serious painting must be <em>finished</em> &mdash; polished, blended, detailed, every mark smoothed away. <em>Impression, Sunrise</em> is openly, defiantly unfinished, and you can see it in the water: those quick, loose, slithery horizontal strokes that don&rsquo;t pretend to be individual waves, with the bare canvas-speed visible in every mark. Monet&rsquo;s claim, baked into the paint, is that the rapid sketch caught something true that the slow polish would have killed &mdash; the <em>liveness</em> of a real moment, which dies the instant you start fussing it. The roughness isn&rsquo;t failure. It&rsquo;s the message.
+      </p>
+
+      <SectionHeader accent={accent} label="The second break" title="Sensation over description" />
+      <p style={proseStyle}>
+        A traditional marine described the harbor &mdash; here are the ships, here are their rigging lines, here is the architecture of the docks, all legible. Monet didn&rsquo;t describe the harbor; he painted the <em>experience</em> of looking at it on a hazy morning. Look at the masts on the left and the cranes on the right: they aren&rsquo;t drawn, they&rsquo;re barely suggested, pale gray-blue ghosts with no rigging and no hard edges, exactly as a forest of masts looks across the water through fog when your eye genuinely cannot resolve them. He painted what the eye really receives in that light, not what the mind knows is there. That&rsquo;s Castagnary&rsquo;s &ldquo;the sensation, not the landscape.&rdquo; The painting is faithful to seeing, not to facts.
+      </p>
+
+      <SectionHeader accent={accent} label="The third break" title="The modern industrial subject" />
+      <p style={proseStyle}>
+        A respectable seascape was timeless and noble &mdash; tall ships, clean water, eternal sea. Monet painted smokestacks. The proof is the drifting smoke-plume on the left and the cranes and chimneys on the right: he put the machinery of a working port, at the unglamorous hour of dawn, where a noble ship or a heroic wave was supposed to go. He treated the messy modern present &mdash; industry, the actual economy of his hometown &mdash; as worthy of a serious painting. That was a quiet provocation, and a deliberate one: it sat squarely inside the new program that the poet Charles Baudelaire and the painter &Eacute;douard Manet had been pushing, the idea that the painter&rsquo;s true job was to paint <em>modern life</em> &mdash; the present-tense city, not the eternal past.
+      </p>
+
+      <SectionHeader accent={accent} label="The fourth break" title="Color contrast over brightness" />
+      <p style={proseStyle}>
+        This is the one that&rsquo;s pure Monet, and it ties straight back to the science. The old way to make something glow on canvas was to make it <em>bright</em> &mdash; pile on the lightest paint, the whitest highlight. Monet made his sun glow without making it bright at all: it&rsquo;s a small, saturated-orange disk, no whiter or lighter than the gray sky around it, and yet it burns. He matched its brightness to the sky and let pure <em>color contrast</em> &mdash; warm orange against cool gray &mdash; do all the work (Chapter 2). It&rsquo;s a fundamentally different idea of how a painting carries light: not by brightness, but by the relationships between colors. That idea is the engine room of everything Impressionism became, and here it is in its first famous demonstration.
+      </p>
+
+      <SectionHeader accent={accent} label="The verdict" title="The right painting in the right room" />
+      <p style={proseStyle}>
+        Put those four together and you have the case for why this small, cheap, mocked sketch became the icon of a movement. Not because it was first &mdash; it wasn&rsquo;t. Not because it was the best or biggest thing any of them ever painted &mdash; it wasn&rsquo;t that either. But because it happened to be the painting that was hanging on the wall, with the perfect honest title, when the critic reached for an insult. It became the example. The name landed on it, and stuck, and dragged the whole revolution along behind it. The honest version is the better story anyway: not the founding masterpiece, but the right painting in the right room at the right moment, christened by an enemy who didn&rsquo;t know what he was doing.
+      </p>
+    </article>
+  )
+}
+
+// ── Impression, Sunrise · Sold for a song, stolen at gunpoint, immortal ──
+function IsAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="A paper trail like a novel" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting that named Impressionism was, for most of its early life, worth almost nothing. Its journey from cheap sketch to priceless icon is a story of bargains, a bankruptcy, an inheritance, and &mdash; best of all &mdash; an armed robbery. To follow it you need one plain word: <strong>provenance</strong>, which just means the documented chain of who owned a work of art, from the artist&rsquo;s hand to wherever it sits now. Provenance is the painting&rsquo;s paper trail, and this one&rsquo;s reads like a novel.
+      </p>
+      <p style={proseStyle}>
+        First owner: <strong>Ernest Hosched&eacute;</strong>, a department-store magnate and one of the early collectors brave (or rich) enough to buy this strange new work. He bought <em>Impression, Sunrise</em> in 1874, around the time of that first exhibition, for <strong>800 francs.</strong> Not a fortune, but a real price &mdash; somebody believed in it.
+      </p>
+
+      <SectionHeader accent={accent} label="1878 · the fire sale" title="Sold for a song" />
+      <p style={proseStyle}>
+        Then the story takes its first turn. Hosched&eacute;&rsquo;s fortune collapsed; he went bankrupt, and in <strong>1878</strong> his collection was sold off at a forced auction at the H&ocirc;tel Drouot, the big Paris auction house. At that fire sale, <em>Impression, Sunrise</em> &mdash; the future emblem of a whole movement &mdash; went for <strong>210 francs.</strong> It had lost nearly three-quarters of its value in four years. The buyer was <strong>Dr. Georges de Bellio</strong>, a Romanian-born homeopathic doctor in Paris who was one of the earliest and most loyal collectors of the Impressionists, a man who quietly bought their work when almost no one else would. He got the most important painting of the movement for the price of, roughly, a nice piece of furniture. That 210-franc bargain is the &ldquo;sold for a song&rdquo; fact, and it&rsquo;s true, and it&rsquo;s a useful corrective every time someone tells you the great art of the past was always recognized as great. It wasn&rsquo;t. For 210 francs you could have owned the painting that named Impressionism.
+      </p>
+
+      <SectionHeader accent={accent} label="1940 · the Marmottan" title="Into the family, then a museum" />
+      <p style={proseStyle}>
+        From de Bellio it stayed in the family. When he died in 1894 it passed down to his daughter <strong>Victorine</strong> and her husband, <strong>Eug&egrave;ne Donop de Monchy</strong> (some sources call him Ernest; the museum&rsquo;s own record says Eug&egrave;ne). And in <strong>1940</strong>, the Donop de Monchys gave the painting away &mdash; they donated it to the <strong>Mus&eacute;e Marmottan</strong> in Paris, the museum that holds it to this day. (One persistent error worth nailing down, because you&rsquo;ll see it repeated even in respectable places: the painting is <strong>not</strong> in Le Havre. There&rsquo;s a fine museum in Le Havre, Monet&rsquo;s home city, that has <em>borrowed</em> it for shows &mdash; but its permanent home is the Mus&eacute;e Marmottan Monet in Paris. The painting of Le Havre lives in the capital.)
+      </p>
+
+      <SectionHeader accent={accent} label="October 27, 1985" title="Robbed at gunpoint" />
+      <p style={proseStyle}>
+        And it might have stayed a quiet, treasured fixture of that museum forever, except for what happened on a Sunday morning in 1985.
+      </p>
+      <p style={proseStyle}>
+        On <strong>October 27, 1985</strong>, in broad daylight, a group of armed men walked into the Mus&eacute;e Marmottan, pulled out guns, held the staff and visitors at gunpoint, and robbed the place like a bank. They walked out with <strong>nine paintings.</strong> Five of them were Monets &mdash; and the prize, the one the theft is remembered for, was <em>Impression, Sunrise</em> itself. The painting that named Impressionism was now a stolen object, gone, somewhere out in the criminal underworld, its whereabouts unknown. (The police would later tie the robbery to organized crime, with reported links to the Japanese underworld &mdash; though &ldquo;reported&rdquo; is the right word for that part; the museum-heist details are solid, the mob backstory was the kind of thing that circulates around a famous theft.)
+      </p>
+
+      <SectionHeader accent={accent} label="1990 · Corsica" title="Found, and nursed back to health" />
+      <p style={proseStyle}>
+        It was missing for five years. Then, in <strong>December 1990</strong>, French police recovered the whole haul &mdash; the nine Marmottan paintings &mdash; in a villa in <strong>Porto-Vecchio</strong>, in southern Corsica, the French island in the Mediterranean. But the painting did not come back clean. Hidden away for half a decade in a damp Mediterranean villa, <em>Impression, Sunrise</em> had suffered from the humidity; its varnish had discolored and the surface needed work. So before it could go back on the wall, conservators &mdash; the specialists who clean and repair paintings &mdash; treated it: they removed the dulled, discolored varnish and brought the colors back. Only then, in <strong>1991</strong>, repaired and restored, did it return to the Mus&eacute;e Marmottan and back onto public view, where it hangs now.
+      </p>
+
+      <SectionHeader accent={accent} label="The arc" title="The foggy little dawn, immortal" />
+      <p style={proseStyle}>
+        So sit with the arc of this object. It began as a rapid little sketch of a smoky home harbor, painted in one dawn from a hotel window, by a man fresh back from dodging a war. A critic said wallpaper was more finished than it. It sold for 800 francs, then crashed to 210 at a bankruptcy sale, a bargain even then. It accidentally lent its title to a movement that would become one of the best-loved in all of art. It was donated to a museum, stolen at gunpoint, lost for five years, found in a Corsican villa, and nursed back to health. And today it is one of the most famous paintings on the planet &mdash; the foggy little dawn that gave Impressionism its name, hanging safe in Paris, still doing the one trick no one taught it: making a sun glow without ever being bright.
+      </p>
+    </article>
+  )
+}
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
   demoiselles: {
     setting: SettingNarrative,
@@ -3471,6 +3691,13 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
   gargantua: { king: GaKing, looking: GaLooking, trial: GaTrial, meaning: GaMeaning, afterlife: GaAfterlife },
   carriage: { rail: TcRail, looking: TcLooking, unfinished: TcUnfinished, meaning: TcMeaning, afterlife: TcAfterlife },
   'horse-fair': { market: HfMarket, looking: HfLooking, salon: HfSalon, bonheur: HfBonheur, afterlife: HfAfterlife },
+  'impression-sunrise': {
+    'le-havre': IsLeHavre,
+    'the-morning': IsMorning,
+    'the-name': IsName,
+    'the-break': IsBreak,
+    'afterlife': IsAfterlife,
+  },
 }
 
 // ─────────────────────────────────────────────────────────────

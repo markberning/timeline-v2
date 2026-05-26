@@ -1684,6 +1684,77 @@ export const BURIAL: ArtWorkContent = {
   },
 }
 
+// ─────────────────────────────────────────────────────────────
+// Work — Impression, Sunrise (Monet, 1872) — the first IMPRESSIONISM work.
+// Authored through the art content pipeline (fact pack → Opus draft → 5 critic
+// gates → reconcile → revise); narrative in art-section-reader.tsx under
+// 'impression-sunrise' (Is… prefix).
+// ─────────────────────────────────────────────────────────────
+export const IMPRESSION_SUNRISE: ArtWorkContent = {
+  id: 'impression-sunrise',
+  name: 'Impression, Sunrise',
+  shortName: 'Impression, Sunrise',
+  year: 1872,
+  artist: 'Claude Monet',
+  artistId: 'monet',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 7 in × 2 ft 1 in',
+  location: 'Musée Marmottan Monet, Paris',
+  acquired: 'Gift of Eugène and Victorine Donop de Monchy, 1940',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 1, total: 9 },
+  hook: 'A foggy little dawn sketch a critic said wallpaper was more finished than — and the insult named the movement.',
+  heroImage: ART_IMG.impressionSunrise,
+  heroCredit: 'Monet, Impression, Sunrise, 1872 · Musée Marmottan Monet, Paris',
+  heroAspect: 1.31, // 48 × 63 cm → W/H ≈ 1.31
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1872', k: 'Painted' },
+    { v: '1′7″ × 2′1″', k: 'Dimensions' },
+    { v: 'Marmottan', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'le-havre', eyebrow: 'Le Havre', dateLabel: '1872', title: 'Home port at war’s end', blurb: 'Monet returns from London exile to his home harbour — where Turner and Whistler’s dissolved-form fog meets his own modern, smoking, working port at dawn.', progress: 0.08 },
+    { id: 'the-morning', eyebrow: 'A hotel window', dateLabel: '13 Nov 1872 · 7:35 a.m.', title: '7:35 a.m., a hotel window', blurb: 'One rapid dawn impression from a hotel window — the sun that vanishes in greyscale, the broken reflection, and the forensic-astronomy detective work that dated it to a specific morning.', progress: 0.32 },
+    { id: 'the-name', eyebrow: 'Paris', dateLabel: '25 April 1874', title: 'Wallpaper more finished than that seascape', blurb: 'Nadar’s old studio, catalogue No. 98, and Leroy’s mocking Charivari review — followed four days later by a friendly critic who used the same word approvingly.', progress: 0.56 },
+    { id: 'the-break', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'Not the first, but the one that named it', blurb: 'Impression over finish, sensation over description, the modern industrial subject, and colour-contrast over brightness — four breaks carried by one small canvas.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Sold for a song, stolen at gunpoint, immortal', blurb: 'A bankruptcy auction sells it for 210 francs; an armed gang walks it out of the Marmottan in 1985; it comes back damaged, gets conserved, and rehangs in 1991.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1874–1878', who: 'Ernest Hoschedé (department-store magnate, early Impressionist patron)', place: 'Paris', note: 'Bought from Monet not long after the first Impressionist exhibition for 800 francs — the painting’s first owner.', price: '800 francs' },
+    { year: '1878', who: 'Dr Georges de Bellio (Romanian-born homeopathic physician, an earliest Impressionist collector)', place: 'Paris (Hôtel Drouot)', note: 'Bought at the forced auction of the bankrupt Hoschedé’s collection — for 210 francs, about a quarter of what Hoschedé had paid four years earlier. The famous figure behind the "sold for a song" story.', price: '210 francs' },
+    { year: '1894–1940', who: 'Victorine de Bellio + Eugène Donop de Monchy', place: 'Paris', note: 'De Bellio’s daughter Victorine and her husband Eugène inherit the painting on the doctor’s death in 1894 and keep it through the next two generations.', price: null },
+    { year: '1940–today', who: 'Musée Marmottan Monet', place: 'Paris', note: 'The Donop de Monchys give the painting to the Académie des Beaux-Arts; it enters the Musée Marmottan in Paris’s 16th arrondissement (inv. 4014). Stolen at gunpoint in October 1985, recovered five years later in Corsica with damp damage, conserved, and back on view in 1991. On permanent view.', price: 'gift to the nation', museum: true },
+  ],
+  figures: [
+    { name: 'Claude Monet', role: 'The painter', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Louis Leroy', role: 'Critic who mocked it', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Jules-Antoine Castagnary', role: 'Critic who praised it', palette: ['#5a7a6a', '#2e3a30', '#0e1410'] },
+    { name: 'Ernest Hoschedé', role: 'First owner', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Georges de Bellio', role: 'Bought it for 210 francs', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Donald Olson', role: 'Astronomer-detective', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Margaret Livingstone', role: 'Neuroscientist · equiluminance', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The sun — and the trail it drops', where: 'Upper area, a little above centre and slightly right of centre', detail: 'That small orange disk is the sun, low over the water through morning mist. Follow it straight down and you’ll find its reflection — not a smooth column of light but a broken, flickering streak of orange dabs on the gray water, the way a real reflection shatters on a moving surface. Both the sun and this trail were the very last marks Monet added, dropped warm onto a cool gray field.' },
+    { label: 'The brightest thing that isn’t bright', where: 'That same orange sun, upper area, slightly right of centre', detail: 'The sun looks like it blazes, but it’s almost exactly as bright as the gray sky around it — it only pops because of its warm orange colour against the cool gray. The proof: imagine the whole picture as a black-and-white copy, colour drained away. The sun nearly disappears into the sky. Its punch is a colour punch, not a brightness one — and that mismatch is why it seems to faintly shimmer: the part of your vision that pins down position can’t lock onto a sun it can’t even detect in gray, so your eye keeps re-aiming and never quite settles.' },
+    { label: 'Two boats, fading into the morning', where: 'Lower portion, toward the centre', detail: 'Two dark little boats sit low on the water, each with a figure aboard — somebody rowing or standing. The nearer one is a touch sharper; the farther one is fainter, half-dissolved into the haze. Don’t count too hard: the boats and figures are deliberately vague, painted as silhouettes, not described in detail. That softness is the point — it’s what the eye actually catches at dawn.' },
+    { label: 'A ghost-fleet of masts', where: 'Background, toward the left', detail: 'Those faint vertical lines rising against the misty sky on the left are the masts of sailing ships at anchor in the outer harbour — including the tall, slim masts of the fast cargo clippers. Monet doesn’t draw the rigging; he barely suggests the poles. They’re a pale gray-blue ghost-fleet, there and not-there, exactly as a forest of masts looks across the water through morning fog.' },
+    { label: 'The working port is the whole point', where: 'A drifting smoke-plume on the left; cranes and derricks on the right', detail: 'This is an industrial harbour on both sides. To the left, beyond the masts, a plume of smoke drifts across the sky, leaning on a faint wind. To the right, look for the hazy shapes of dockside cranes and derricks (the tall arms that load cargo) and factory chimneys trailing more smoke. It’s not a pretty timeless seascape — it’s a modern working port at dawn, and the smoke and machinery are the subject, not background clutter.' },
+    { label: 'Paint that doesn’t pretend to be water', where: 'Across the lower half — the whole stretch of harbour surface', detail: 'The water is brushed in quick, loose horizontal strokes, wet and slithery, with no attempt to render individual waves or careful reflections. You can see the speed in it. This open, "unfinished" handling is exactly what critics attacked — one said wallpaper was more finished than this — but it’s deliberate: Monet wanted the liveness of a fleeting morning, which a slow polish would have killed.' },
+    { label: 'Where the sea and sky stop being two things', where: 'The middle band, where water meets sky', detail: 'Try to find the horizon line and you’ll struggle. Monet lets the gray water and the gray sky blur into each other in the haze, so there’s barely a seam between them. That dissolving of solid edges — the trick he absorbed from Turner and Whistler’s foggy Thames in London — is the whole atmosphere of the painting: a world softened into coloured air at first light.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Turner', mode: 'art' }, { label: 'Whistler', mode: 'art' }, { label: 'Manet', mode: 'art' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Post-Impressionism', mode: 'art' }, { label: 'Modern painting', mode: 'art' } ],
+  },
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // The Stone Breakers (Courbet, 1849) — ArtWorkContent
 // Drafted by the AUTHOR agent in the gated art pipeline. Same field shape as
@@ -2284,5 +2355,5 @@ export const HORSE_FAIR: ArtWorkContent = {
 
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
