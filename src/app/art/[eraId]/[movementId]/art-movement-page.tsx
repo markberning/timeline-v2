@@ -220,7 +220,7 @@ function ParallelsList({ parallels }: { parallels: { year: number; movement: str
 // The full canonical-works checklist (the count behind the "Canonical works"
 // stat). A plain, scannable list — year · work · artist, no descriptions.
 // ─────────────────────────────────────────────────────────────
-type CanonEntry = { year: number; name: string; artist: string; wiki?: string; img?: string; nsfw?: boolean }
+type CanonEntry = { year: number; name: string; artist: string; wiki?: string; img?: string; nsfw?: boolean; note?: string }
 function NsfwTag() {
   return <span style={{ marginLeft: 7, fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: FAINT, border: `1px solid ${BORDER_STRONG}`, borderRadius: 4, padding: '1px 4px', verticalAlign: 'middle', whiteSpace: 'nowrap' }}>explicit</span>
 }
@@ -241,22 +241,29 @@ function CanonThumb({ img, alt, accent, onZoom, cap }: { img?: string; alt: stri
 function CanonList({ canon, accent, onZoom }: { canon: CanonEntry[]; accent: string; onZoom: (src: string, cap: string) => void }) {
   const sorted = [...canon].sort((a, b) => a.year - b.year || a.name.localeCompare(b.name))
   const wikiHref = (w: string) => `https://en.wikipedia.org/wiki/${encodeURIComponent(w.replace(/ /g, '_'))}`
+  // "why it's canon" blurb — kept high-contrast (NOT the muted gray) so it reads cleanly.
+  const wWhy = 'color-mix(in srgb, var(--foreground) 86%, transparent)'
   return (
     <div style={{ padding: '4px 12px 18px' }}>
       {sorted.map((w, i) => {
         const cap = `${w.name} — ${w.artist}, ${w.year}`
         return (
-          <div key={`${w.year}-${w.name}`} style={{ display: 'flex', gap: 11, alignItems: 'center', padding: '7px 4px', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
+          <div key={`${w.year}-${w.name}`} style={{ display: 'flex', gap: 11, alignItems: 'flex-start', padding: '10px 4px', borderTop: i === 0 ? 'none' : `1px solid ${BORDER}` }}>
             {/* thumbnail — tap to see the work full-size in the lightbox */}
             <CanonThumb img={w.img} alt={w.name} accent={accent} onZoom={onZoom} cap={cap} />
-            <div style={{ flexShrink: 0, width: 34, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</div>
-            <div style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.25, textWrap: 'pretty' }}>
-              {w.wiki
-                ? <a href={wikiHref(w.wiki)} target="_blank" rel="noopener noreferrer" style={{ color: INK, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}` }}>{w.name}</a>
-                : <span style={{ color: INK }}>{w.name}</span>}
-              {w.nsfw && <NsfwTag />}
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ display: 'flex', gap: 8, alignItems: 'baseline' }}>
+                <span style={{ flexShrink: 0, fontFamily: MONO, fontSize: 11, fontWeight: 700, letterSpacing: 0.2, color: accent }}>{w.year}</span>
+                <span style={{ flex: 1, minWidth: 0, fontFamily: SERIF, fontSize: 14, lineHeight: 1.25, textWrap: 'pretty' }}>
+                  {w.wiki
+                    ? <a href={wikiHref(w.wiki)} target="_blank" rel="noopener noreferrer" style={{ color: INK, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}` }}>{w.name}</a>
+                    : <span style={{ color: INK }}>{w.name}</span>}
+                  {w.nsfw && <NsfwTag />}
+                </span>
+                <span style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</span>
+              </div>
+              {w.note && <div style={{ marginTop: 4, fontFamily: SERIF, fontSize: 12.5, lineHeight: 1.5, color: wWhy, textWrap: 'pretty' }}>{w.note}</div>}
             </div>
-            <div style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: FAINT }}>{w.artist}</div>
           </div>
         )
       })}

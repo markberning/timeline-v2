@@ -1247,7 +1247,7 @@ const EyeImpNarrative: Narrative = ({ accent, onZoom }) => (
         ratio="4/3"
         alt="Monet, La Grenouillère"
         caption={<>A floating café and bathing spot on the Seine, painted on the spot in quick separate dashes &mdash; water that is a chop of blue, green, white and black strokes reading as real moving light the instant you step back, bathers reduced to a few flicks. Monet and Renoir set up side by side here in 1869; this is the new way of seeing being invented in real time.</>}
-        credit={<>Claude Monet,{' '}<em>La Grenouillère</em>, 1869 · The Metropolitan Museum of Art, New York (Renoir painted the same scene the same day; his version is in the Nationalmuseum, Stockholm)</>}
+        credit={<>Claude Monet,{' '}<em>La Grenouillère</em>, 1869 · The Metropolitan Museum of Art, New York (Renoir painted the same scene that summer, easel to easel; his version is in the Nationalmuseum, Stockholm)</>}
         rights="Public domain worldwide (Claude Monet died 1926). Wikimedia Commons."
       />
     </article>
@@ -1499,10 +1499,10 @@ const WomenImpNarrative: Narrative = ({ accent, onZoom }) => (
         from the first show to the last.
       </p>
       <p style={proseStyle}>
-        Look at her best-known canvas,{' '}<em>The Cradle</em>{' '}(1872): a young mother seated beside a gauzy
-        bassinet, watching her sleeping infant through the veil of netting, her hand at her cheek. It is painted
-        with the lightest, most translucent touch in the whole movement &mdash; the white netting is a few breaths
-        of thinned paint you can almost see through &mdash; and it is doing something the men literally could not.
+        Look at her best-known canvas,{' '}<em>The Cradle</em>{' '}(1872): her own sister, Edma, seated beside a
+        gauzy bassinet, watching her sleeping daughter through the veil of netting, her hand at her cheek. It is
+        painted with the lightest, most translucent touch in the whole movement &mdash; the white netting is a few
+        breaths of thinned paint you can almost see through &mdash; and it is doing something the men literally could not.
         This is the female world observed{' '}<em>from inside</em>{' '}it, by someone who lived in those rooms and
         made them the subject. The tenderness is real. So is the boundary that produced it &mdash; and
         Morisot&rsquo;s answer to the boundary was not to apologize for the nursery but to paint it more finely
@@ -1543,7 +1543,7 @@ const WomenImpNarrative: Narrative = ({ accent, onZoom }) => (
         imageUrl={ART_IMG.morisotCradle}
         ratio="4/5"
         alt="Morisot, The Cradle"
-        caption={<>A young mother watches her sleeping infant through the gauze of a bassinet, her hand at her cheek &mdash; the netting rendered in a few breaths of thinned, translucent paint. The female world observed from inside it, by a founding member of the movement who made the one room left open to a respectable woman &mdash; the nursery &mdash; into the subject of a masterpiece.</>}
+        caption={<>Morisot&rsquo;s sister Edma watches her sleeping daughter through the gauze of a bassinet, her hand at her cheek &mdash; the netting rendered in a few breaths of thinned, translucent paint. The female world observed from inside it, by a founding member of the movement who made the one room left open to a respectable woman &mdash; the nursery &mdash; into the subject of a masterpiece.</>}
         credit={<>Berthe Morisot,{' '}<em>The Cradle</em>, 1872 · Musée d&rsquo;Orsay, Paris</>}
         rights="Public domain worldwide (Berthe Morisot died 1895). Wikimedia Commons."
       />

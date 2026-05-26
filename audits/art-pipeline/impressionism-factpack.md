@@ -256,8 +256,9 @@ The deep-read candidates; medium + dims (cm record → **ft/in**) + location, al
    11½ in × 9 ft 0¾ in** — **Art Institute of Chicago**. Haussmann's new Paris as the
    subject; cool, sharp, almost photographic. [W-Rainy]
 9. **Morisot, *The Cradle*, 1872** — oil, 56 × 46.5 cm = **~1 ft 10 in × 1 ft 6½ in** —
-   **Musée d'Orsay**. The female gaze on the world it was allowed: a mother watching her
-   sleeping child. The signature woman's work. [W-Cradle]
+   **Musée d'Orsay**. The female gaze on the world it was allowed: Morisot's **sister Edma**
+   watching her own sleeping daughter Blanche (NOT Morisot herself — she was unmarried and
+   childless in 1872). The signature woman's work. [W-Cradle]
 
 *(For the "father-figure" context block use **Manet, *Olympia*, 1863**, oil 130.5 ×
 191 cm = **~4 ft 3½ in × 6 ft 3¼ in**, Orsay [W-Olympia]; and **A Bar at the

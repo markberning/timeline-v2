@@ -162,8 +162,8 @@ export function RestrictedFigure({ imageUrl, title, year, note, linkLabel, href 
 // don't change, but intentionally not rendered — same as War.
 // ─────────────────────────────────────────────────────────────
 export function MeanwhileSheet({ region, title, body }: { accent?: string; region: string; when?: string; title: string; body: string; palette?: [string, string, string]; ctaLabel?: string }) {
-  const wEyebrow = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
-  const wBody = 'color-mix(in srgb, var(--foreground) 75%, transparent)'
+  const wEyebrow = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
+  const wBody = INK
   return (
     <div style={{ margin: '28px 18px 0', border: '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)', borderRadius: 12, padding: '14px 16px', background: 'color-mix(in srgb, var(--foreground) 4%, transparent)' }}>
       <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: wEyebrow }}>Meanwhile in {region}</div>
