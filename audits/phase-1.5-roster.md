@@ -115,3 +115,27 @@ CRITICAL first (#1 Mesopotamian bridge), then the HIGH chain-bridges
 (#2–6) and the Atlantic chain (#7–9), then Africa (#10–14), then #15–17.
 Per-civ pipeline = the gated **CLAUDE.md "Content Pipeline"** (steps 0–14);
 `HANDOFF.md` is the cold-start brief that points at it.
+
+---
+
+## Post-lock additions
+
+| # | Proposed `tlId` | Title | Range | Chain placement | Pri | Est. ch | Added |
+|---|-----------------|-------|-------|-----------------|-----|---------|-------|
+| 18 | `the-franks` | The Franks | 481→987 | Northern European, between `migration-period` & `anglo-saxon-england` | HIGH | ~12 | 2026-05-25 |
+
+**#18 the-franks — added 2026-05-25 (user observation, logged for later, not yet
+queued).** The Northern European chain has standalone civs for every other
+major Germanic tribe (Goths, Anglo-Saxons, Vendel-Scandinavians, Vikings, plus
+the catch-all `germanic-tribes`) but the Franks — arguably the most
+consequential of the lot — only appear as a thread inside `early-medieval-europe`
+(Clovis 496, Pippin 751, Charlemagne 800, Verdun 843). Scope: Salian Franks
+under Clovis → Merovingian centuries → 751 Carolingian coup with papal
+sanction → Charlemagne & the Carolingian Renaissance → Verdun → slow
+Carolingian decline → 987 Capetian replacement. Slots into the Northern
+European chain after Migration Period, parallel to (not replacing) Anglo-Saxon
+England. The existing `early-medieval-europe` civ stays put — that tells the
+European-*system* story (Vikings/Magyars/Saracens, Ottonian Germany, the early
+Church); the Franks civ tells the *Frankish state* story specifically. Heavy
+cross-linking, no overlap. **User direction: log the gap, don't queue the
+build yet.**

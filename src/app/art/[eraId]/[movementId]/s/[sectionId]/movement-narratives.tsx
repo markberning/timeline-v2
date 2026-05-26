@@ -1764,6 +1764,842 @@ const LastImpNarrative: Narrative = ({ accent, onZoom }) => (
   </>
 )
 
+// ── Post-Impressionism palettes ─────────────────────────────
+const PI_CEZ = ['#5a7042', '#8a7848', '#1c1a12'] as [string, string, string]
+const PI_VG = ['#2a3a6a', '#c8b84a', '#0e1428'] as [string, string, string]
+const PI_GAUG = ['#a82828', '#c8a430', '#1c1410'] as [string, string, string]
+const PI_SEURAT = ['#3a6a4a', '#c8b84a', '#1c2a18'] as [string, string, string]
+const PD_CEZANNE = 'Public domain worldwide (Paul C&eacute;zanne died 1906). Wikimedia Commons.'
+const PD_VANGOGH = 'Public domain worldwide (Vincent van Gogh died 1890). Wikimedia Commons.'
+const PD_GAUGUIN = 'Public domain worldwide (Paul Gauguin died 1903). Wikimedia Commons.'
+const PD_SEURAT = 'Public domain worldwide (Georges Seurat died 1891). Wikimedia Commons.'
+
+// ── 1. After the moment, the structure ──────────────────────
+const WhyPostImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="rue Laffitte &middot; spring 1886" title="The room where it tips over" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a long, hot, awkward upstairs room in Paris in late spring 1886, above a fashionable restaurant
+        called the Maison Dor&eacute;e on rue Laffitte. This is the{' '}<strong>8th Impressionist Exhibition</strong>{' '}&mdash; the eighth and last group show the Impressionists would ever mount; they had been doing them since
+        1874, the year a hostile critic gave them the name as a joke &mdash; running from{' '}<strong>15 May to 15 June 1886</strong>. Most of the founders are not even here. Monet, Renoir, Sisley and Caillebotte have all
+        defected back to the Salon (the official state-run annual exhibition, the only door to a career in French
+        art for two centuries). The cooperative is on its last legs.
+      </p>
+      <p style={proseStyle}>
+        And the picture stopping every visitor is by a 26-year-old none of them had quite figured out. It is
+        enormous &mdash; about six and a half feet tall, ten feet wide &mdash; a Sunday afternoon on a small island
+        in the Seine, stiff Parisians and their dogs and parasols across a striped lawn under flat dappled light.
+        And the entire surface is built out of millions of tiny separate dots of pure color, laid down like a
+        mosaic. Not strokes.{' '}<em>Dots.</em>{' '}Step back four feet and it shimmers; step back ten and it locks
+        into place.{' '}<strong>Georges Seurat</strong>&rsquo;s{' '}<em>A Sunday Afternoon on the Island of La Grande Jatte</em>{' '}(two years of work; now Art Institute of Chicago) is the painting that &mdash; politely, almost
+        academically &mdash; kills its parents.
+      </p>
+      <p style={proseStyle}>
+        Monet had refused to show alongside it. Pissarro, the oldest and steadiest of the Impressionists, had stood
+        up for Seurat and Signac and got called a deserter by his own friends for it. The younger painters stayed.
+        They had seen what the elders had done, and they thought they could see what it had missed.
+      </p>
+
+      <SectionHeader accent={accent} label="The trick the eye couldn&rsquo;t catch" title="Weight, meaning, feeling" />
+      <p style={proseStyle}>
+        What Impressionism had done was teach a generation to paint{' '}<em>light</em>{' '}&mdash; the flicker of
+        shadow on snow, the smear of an orange sun across a gray dawn harbor. The Impressionists put the{' '}<em>instant</em>{' '}on canvas. But the instant is weightless. It doesn&rsquo;t stay. By the late 1880s the
+        younger painters could see something was missing &mdash; the architecture that lasts, the{' '}<em>feeling</em>{' '}of a picture, the thing it was about.
+      </p>
+      <p style={proseStyle}>
+        The objection had four parts, one anchor against each.{' '}<strong>Weight.</strong>{' '}A mountain has weight.
+        Light passing over a mountain does not. (C&eacute;zanne, in Aix.){' '}<strong>Feeling.</strong>{' '}A wheatfield
+        is yellow at noon. So what does it{' '}<em>feel</em>{' '}like to a man standing in it? (Van Gogh, in Arles.){' '}<strong>Meaning.</strong>{' '}A Breton peasant in church doesn&rsquo;t{' '}<em>see</em>{' '}a Bible story; she{' '}<em>imagines</em>{' '}one. How do you paint imagination? (Gauguin, in Pont-Aven.){' '}<strong>Science.</strong>{' '}The Impressionists were eyeballing optical mixing by instinct. What if you did it properly, by formula?
+        (Seurat, in Paris.)
+      </p>
+      <p style={proseStyle}>
+        A fifth painter, Toulouse-Lautrec, was already in Montmartre painting the dance hall not the way Renoir had
+        painted it (a sunlit Sunday afternoon) but the way it really looked at midnight, lit by flat green gaslight.
+        None of these five would have called what they were doing &ldquo;Post-Impressionism,&rdquo; or anything
+        together at all. They worked in different cities, often barely knew each other, and would mostly have been
+        horrified to be hung in the same room. But each was picking up where Impressionism had run out of road.
+      </p>
+
+      <SectionHeader accent={accent} label="Aix-en-Provence" title="A mountain that refuses to dissolve" />
+      <p style={proseStyle}>
+        End the chapter in Provence. The rue Laffitte show is closing in Paris, and 500 miles south an angrier,
+        slower painter has set up his easel in front of a mountain.
+      </p>
+      <p style={proseStyle}>
+        The mountain is{' '}<strong>Mont Sainte-Victoire</strong>{' '}(a long limestone ridge east of the town of
+        Aix), where{' '}<strong>Paul C&eacute;zanne</strong>{' '}(1839&ndash;1906) has lived since he was a boy.
+        C&eacute;zanne is 47, doubt-ridden, ridiculed in Paris for twenty years, painting in near-isolation. He will
+        paint that mountain about thirty times in oil and many more in watercolor by the time he is done in 1906.
+        Every time, the mountain is built out of small blocky strokes of color set side by side like masonry &mdash;
+        not blended, not dissolved, but stacked into planes of weight.
+      </p>
+      <p style={proseStyle}>
+        What he is doing, in the year the Seurat hangs in Paris, is the exact opposite of Impressionism. The
+        Impressionists tried to catch the instant of light eating the world. C&eacute;zanne is trying to find the{' '}<em>thing the light is eating</em>{' '}&mdash; the structure that survives weather and time. The mountain
+        refuses to dissolve.
+      </p>
+      <p style={proseStyle}>
+        So here are the two ends of the same year. In Paris, a 26-year-old has finished a vast pointillist canvas
+        that quietly buries Impressionism in dots. In Provence, a 47-year-old is staring at a mountain and
+        rebuilding it out of bricks of paint. Neither knows the other has done it. Twenty-four years later, an
+        English critic will hang them in the same room and give them all a name.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={PI_CEZ}
+        imageUrl={ART_IMG.cezanneMontSainteVictoire}
+        ratio="4/3"
+        alt="C&eacute;zanne, Mont Sainte-Victoire"
+        caption={<>The mountain east of Aix that C&eacute;zanne painted around thirty times in oil and many more in watercolor &mdash; built up out of small blocky strokes of color set side by side like masonry, not blended, not dissolved, but stacked into planes of weight. The Impressionists chased the instant of light eating the world; C&eacute;zanne was after the thing the light was eating.</>}
+        credit={<>Paul C&eacute;zanne,{' '}<em>Mont Sainte-Victoire with Large Pine</em>{' '}&middot; one of about thirty oils of the same ridge, early 1880s&ndash;1906</>}
+        rights={PD_CEZANNE}
+      />
+    </article>
+  </>
+)
+
+// ── 2. The five who weren&rsquo;t a group ───────────────────
+const FivePostImpNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="A note before the five faces" title="What the label is, and isn&rsquo;t" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>N</DropCap>
+        one of these men called themselves Post-Impressionists. Four of them were dead before the word existed. The
+        shape of &ldquo;five anchors&rdquo; is Roger Fry&rsquo;s curatorial argument from 1910 (Chapter 8), not the
+        shape of the field in 1886.
+      </p>
+      <p style={proseStyle}>
+        Painting did not stop and reorganize itself when Seurat hung{' '}<em>La Grande Jatte</em>. Mary Cassatt
+        (1844&ndash;1926) kept working, increasingly under the influence of the Japanese prints that Lautrec and the
+        Nabis would also seize on. Berthe Morisot (1841&ndash;1895) painted through the early Post-Impressionist
+        decade and died in 1895. Paul Signac, &Eacute;mile Bernard, Bonnard, Vuillard &mdash; the field around the
+        five anchors is most of the next chapters&rsquo; true subject, and we&rsquo;ll meet them in Chapter 7. The
+        five are the figures Fry put on the wall; they are not the only figures who were painting.
+      </p>
+
+      <SectionHeader accent={accent} label="The five, one line each" title="A table of contents, in faces" />
+      <p style={proseStyle}>
+        Treat this chapter as the table of contents. Each anchor gets a longer chapter of his own; these are the
+        tags.
+      </p>
+      <p style={proseStyle}>
+        <strong>Paul C&eacute;zanne</strong>{' '}(1839&ndash;1906; Aix-en-Provence). The architect. He wanted to take
+        the Impressionist palette and use it to rebuild the picture out of solid planes &mdash; geometry that lasts.
+        (Chapter 3.)
+      </p>
+      <p style={proseStyle}>
+        <strong>Vincent van Gogh</strong>{' '}(1853&ndash;1890; Dutch, working in France). The colorist of feeling.
+        Color was not optics; color was what yellow{' '}<em>did</em>{' '}to the man standing in the wheatfield. A
+        ten-year career, about 900 canvases, one painting sold for real money. (Chapter 4.)
+      </p>
+      <p style={proseStyle}>
+        <strong>Paul Gauguin</strong>{' '}(1848&ndash;1903; ex-stockbroker, dies in the Marquesas). The synthesist.
+        Flat areas of saturated color, dark contour lines, the picture&rsquo;s{' '}<em>meaning</em>{' '}on the surface
+        &mdash; and a life whose colonial frame the 21st century cannot skim past. (Chapter 5.)
+      </p>
+      <p style={proseStyle}>
+        <strong>Georges Seurat</strong>{' '}(1859&ndash;1891; Paris). The scientist. He took Chevreul&rsquo;s and
+        Rood&rsquo;s color theory and built{' '}<strong>Divisionism</strong>{' '}&mdash; what outsiders called{' '}<strong>Pointillism</strong>{' '}&mdash; small separate dots of pure pigment, optically combining in the eye.
+        Dead at 31. (Chapter 6.)
+      </p>
+      <p style={proseStyle}>
+        <strong>Henri de Toulouse-Lautrec</strong>{' '}(1864&ndash;1901; Albi-born, Montmartre by adoption). The
+        chronicler. He painted the cabaret at midnight, made the modern poster a fine-art medium, and drank himself
+        to death at 36. (Chapter 6.)
+      </p>
+      <p style={proseStyle}>
+        These five lived in different rooms &mdash; Aix, Auvers, Pont-Aven and then Tahiti, Paris, Montmartre
+        &mdash; and sometimes hated each other (Gauguin and Van Gogh in Arles, December 1888, will turn out badly).
+        They got grouped because, in{' '}<strong>1910</strong>, an English critic named{' '}<strong>Roger Fry</strong>{' '}needed a name for a roomful of pictures he had borrowed for a London gallery. By 1910, C&eacute;zanne had
+        been dead four years, Van Gogh twenty, Gauguin seven, Seurat nineteen, Lautrec nine. Not one of the five
+        was alive to argue with him. He called them, in want of a better word,{' '}<em>Post-Impressionists</em>.
+        Chapter 8 is the story of how that room came together.
+      </p>
+    </article>
+  </>
+)
+
+// ── 3. C&eacute;zanne &mdash; the cylinder, the sphere, the cone ──
+const CezannePostImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Aix &middot; the inheritance" title="A bank, a son, a refusal" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the father.{' '}<strong>Louis-Auguste C&eacute;zanne</strong>{' '}was a hatter who got into banking
+        in Aix and by the 1860s was one of the richest men in town. He wanted his son to be a lawyer. Paul, born 19
+        January 1839, dutifully tried, then with his father&rsquo;s grudging permission decamped to Paris in 1861
+        to paint.
+      </p>
+      <p style={proseStyle}>
+        What it bought him was the rarest thing a French painter could have in the late 19th century: the freedom
+        not to sell. C&eacute;zanne never had to flatter the Salon or court a dealer; his father&rsquo;s money kept
+        the household running through C&eacute;zanne&rsquo;s own death in 1906. He told &Eacute;mile Zola (the two
+        had known each other since school) that he was trying to make of Impressionism{' '}<em>something solid and durable, like the art of the museums</em>. The Impressionists tried to catch the moment. C&eacute;zanne wanted
+        to build the thing the moment was passing over.
+      </p>
+
+      <SectionHeader accent={accent} label="The great series" title="Cards, bathers, the mountain" />
+      <p style={proseStyle}>
+        He worked in series. Once he found a subject he could believe in, he stayed with it for years.
+      </p>
+      <p style={proseStyle}>
+        The{' '}<strong>Card Players</strong>{' '}(about 1890&ndash;95, five versions painted at the Jas de Bouffan,
+        the family farmhouse outside Aix) &mdash; two or three local farm laborers at a small wooden table, a bottle
+        between them, looking down at their cards in silence. Peasant gravity rendered with the seriousness
+        Caravaggio would have given a saint. The fifth sold privately in 2011 for a figure between $250 and $320
+        million &mdash; at the time the highest price ever paid for a painting.
+      </p>
+      <p style={proseStyle}>
+        The{' '}<strong>Bathers</strong>{' '}(three large versions, 1890s&ndash;1905). The biggest, at the
+        Philadelphia Museum of Art, is about 7 ft &times; 8 ft 2 in, and C&eacute;zanne worked on it for seven
+        years. The figures are blocky, with mask-like faces; the trees lean inward to form a Gothic arch over the
+        scene. This is not eroticism; it is architecture made of bodies. (The Bathers will haunt Picasso when he
+        paints the{' '}<em>Demoiselles d&rsquo;Avignon</em>{' '}in 1907.)
+      </p>
+      <p style={proseStyle}>
+        And{' '}<strong>Mont Sainte-Victoire</strong>{' '}&mdash; about 30 oils and many more watercolors, early
+        1880s to 1906. The early versions are recognizable landscapes. The late ones, from the studio he built at{' '}<strong>Les Lauves</strong>{' '}in 1902, strip out almost everything; by 1906 the mountain is a slope of
+        overlapping blue and green and orange planes with the white of the canvas showing through. It has become
+        its own scaffolding.
+      </p>
+
+      <SectionHeader accent={accent} label="15 April 1904" title="One sentence" />
+      <p style={proseStyle}>
+        This is where C&eacute;zanne accidentally gives modernism its catechism.
+      </p>
+      <p style={proseStyle}>
+        A young painter named{' '}<strong>&Eacute;mile Bernard</strong>{' '}(1868&ndash;1941), formerly close to
+        Gauguin in Pont-Aven where the two had worked out{' '}<strong>Synthetism</strong>{' '}together in 1888, had
+        come down to Aix in early 1904 to visit C&eacute;zanne. They talked about painting. Bernard went home to
+        Paris; they began a correspondence. On{' '}<strong>15 April 1904</strong>{' '}C&eacute;zanne wrote him the
+        letter (original at the Courtauld Gallery, London) that contained the sentence the whole 20th century would
+        quote:{' '}<em>Allow me to repeat what I said when you were here: treat nature by means of the cylinder, the sphere, the cone, the whole put into perspective, so that each side of an object or a plane is directed towards a central point.</em>
+      </p>
+      <p style={proseStyle}>
+        Be careful what this is. Not a manifesto. One sentence in an informal letter to a younger painter who had
+        asked for technical advice. C&eacute;zanne meant something modest: when you look at a tree, see the
+        underlying cylindrical mass of the trunk; when you look at an apple, see the sphere; when you look at the
+        roof of a barn, see the cone. Build the picture out of those geometries first, then add the rest. A
+        sketcher&rsquo;s piece of advice. What Picasso and Braque and Bernard himself did with the sentence &mdash;
+        quote it back at the world as the founding theorem of modern art &mdash; was their decision, not
+        C&eacute;zanne&rsquo;s. He died two and a half years later.
+      </p>
+
+      <SectionHeader accent={accent} label="October 1906" title="The rainstorm" />
+      <p style={proseStyle}>
+        He died on{' '}<strong>22 October 1906</strong>, in Aix, at 67. He had been working outdoors, was caught in
+        a thunderstorm, kept painting, walked home soaked, collapsed in the street, was carried back to his bed,
+        developed pneumonia, and died days later. He had been at work on another Mont Sainte-Victoire. It was
+        unfinished.
+      </p>
+      <p style={proseStyle}>
+        Now watch what happens to him in death, because the speed of it is the point. Vollard&rsquo;s 1895 one-man
+        show had given him a Paris market, and the{' '}<strong>Salon d&rsquo;Automne</strong>{' '}(the modernist
+        annual founded in 1903) had been giving him memorial rooms while he was still alive: 1904, 1905, 1906. Then
+        in{' '}<strong>October 1907</strong>, one year after his death, the Salon d&rsquo;Automne mounted the full
+        retrospective &mdash; about 56 works, late ones included &mdash; and every young painter in Paris filed
+        through it. Picasso was 25, Braque 25, Matisse 37, Derain 27, Vlaminck 31. They all came out of it changed.
+      </p>
+      <p style={proseStyle}>
+        Picasso would say, later, that{' '}<em>&ldquo;C&eacute;zanne was my one and only master.&rdquo;</em>{' '}Within
+        months of the 1907 retrospective Picasso was painting{' '}<em>Les Demoiselles d&rsquo;Avignon</em>{' '}&mdash; the
+        picture with which Cubism begins. (The Cubism page is the next door over.) The cumulative effect of the late
+        C&eacute;zannes coming out of Aix into Paris is the single most concentrated transmission line in modern
+        art. The mountain refused to dissolve, and the young men in Paris saw it.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={PI_CEZ}
+        imageUrl={ART_IMG.cezanneBathers}
+        ratio="4/3"
+        alt="C&eacute;zanne, The Large Bathers"
+        caption={<>The biggest of the three late Bathers, at the Philadelphia Museum of Art, about 7 ft &times; 8 ft 2 in; C&eacute;zanne worked on it for seven years. The figures are blocky, with mask-like faces; the trees lean inward to form a Gothic arch over the scene. Not eroticism &mdash; architecture made of bodies, the painting that will haunt Picasso when he comes to the{' '}<em>Demoiselles d&rsquo;Avignon</em>{' '}in 1907.</>}
+        credit={<>Paul C&eacute;zanne,{' '}<em>The Large Bathers</em>, 1900&ndash;06 &middot; Philadelphia Museum of Art</>}
+        rights={PD_CEZANNE}
+      />
+    </article>
+  </>
+)
+
+// ── 4. Van Gogh &mdash; the yellow house, the wheat, the gun ──
+const VanGoghPostImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Zundert &middot; 1853" title="A late start, a brother" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he hardest fact about Van Gogh, the one the romance always blurs, is how{' '}<em>late</em>{' '}he started.{' '}<strong>Vincent van Gogh</strong>{' '}was born in{' '}<strong>Zundert</strong>{' '}(a village in the southern
+        Netherlands) on{' '}<strong>30 March 1853</strong>, the eldest son of a Dutch Reformed pastor. He did not
+        begin to paint seriously until{' '}<strong>1881</strong>, when he was 28. He died nine years and four months
+        later, at 37 &mdash; a career shorter than a college sports star&rsquo;s.
+      </p>
+      <p style={proseStyle}>
+        He had tried to be an art dealer at Goupil &amp; Cie (1869&ndash;1876), fired for temperament; and a lay
+        preacher in the{' '}<strong>Borinage</strong>{' '}coal-mining district of southern Belgium, dismissed for
+        &ldquo;excessive zeal.&rdquo; His younger brother{' '}<strong>Theo van Gogh</strong>{' '}(1857&ndash;1891), by
+        the 1880s a dealer in Paris at Boussod, Valadon &amp; Cie, sent him money every month from the late 1870s
+        until Vincent&rsquo;s death. Without Theo there is no painter Van Gogh.
+      </p>
+      <p style={proseStyle}>
+        Vincent spent his first five years painting peasants in muddy browns &mdash;{' '}<em>The Potato Eaters</em>{' '}(1885, Van Gogh Museum) the most famous. The colors are Rembrandt&rsquo;s. In{' '}<strong>March 1886</strong>{' '}he moved to Paris, into Theo&rsquo;s apartment on the rue Lepic in Montmartre, and met the Impressionists.
+      </p>
+
+      <SectionHeader accent={accent} label="Paris, then Arles" title="A color education and a yellow house" />
+      <p style={proseStyle}>
+        Paris was a two-year color crash course. He saw the Impressionists at the 8th show (Chapter 1), met{' '}<strong>Pissarro</strong>{' '}and{' '}<strong>Toulouse-Lautrec</strong>, papered Theo&rsquo;s apartment with
+        Japanese prints, and abandoned the muddy palette. He painted nearly 200 canvases in those Paris months and
+        wore his brother out.
+      </p>
+      <p style={proseStyle}>
+        By February{' '}<strong>1888</strong>{' '}he had had enough of Paris and got on a train south. He stepped off
+        in{' '}<strong>Arles</strong>, looking, he wrote, for &ldquo;the Japan of the south.&rdquo; In May he rented
+        half a small two-story building at{' '}<strong>2 place Lamartine</strong>: the{' '}<strong>Yellow House</strong>, painted yellow with green shutters. He painted his bedroom (first version of{' '}<em>Bedroom in Arles</em>, October 1888, Van Gogh Museum; about 2 ft 4&frac12; in &times; 3 ft 0 in) in lemon
+        yellow, cobalt blue and brick red. And he painted the sunflowers &mdash;{' '}<strong>fifteen</strong>{' '}giant
+        single-stalked sunflowers in a yellow vase against a yellow wall (National Gallery, London; F.454, August
+        1888) &mdash; as decoration for the spare bedroom he was preparing for{' '}<strong>Paul Gauguin</strong>{' '}(Chapter 5), who arrived broke on{' '}<strong>23 October 1888</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="October&ndash;December 1888" title="Nine weeks, two painters, one ear" />
+      <p style={proseStyle}>
+        What followed was nine weeks of co-habitation that destroyed the friendship and produced, partly out of
+        adrenal terror, some of the best work either painter ever made. They argued constantly &mdash; Gauguin
+        wanted Van Gogh to paint from memory, Van Gogh hated it; they drank absinthe. By mid-December they were
+        screaming at each other.
+      </p>
+      <p style={proseStyle}>
+        The night of{' '}<strong>23 December 1888</strong>{' '}is the famous one. The exact sequence is debated, but
+        the broad shape is documented: there was a quarrel; Gauguin walked out intending to spend the night at a
+        hotel; Vincent followed him into the street, possibly with a razor; Gauguin scared him off; Vincent went
+        home and, in the bathroom,{' '}<strong>cut off the lower lobe of his left ear</strong>{' '}(not the whole ear;
+        an inch or so of flesh from the lower auricle). He wrapped it in newspaper, walked it down to a brothel he
+        frequented, and gave it to one of the women working there (known in the records as{' '}<strong>Rachel</strong>), asking her to &ldquo;keep this object carefully.&rdquo; He passed out from blood
+        loss and was found the next morning. Gauguin telegraphed Theo and left town.
+      </p>
+      <p style={proseStyle}>
+        In May 1889 Vincent voluntarily admitted himself to the asylum at{' '}<strong>Saint-Paul-de-Mausole</strong>,
+        in Saint-R&eacute;my-de-Provence, and stayed a year. He was permitted to paint. He produced, during that
+        year, some of his most famous canvases &mdash; including{' '}<em>The Starry Night</em>, painted in{' '}<strong>June 1889</strong>{' '}from memory and the view out his barred east-facing window (MoMA, New York;
+        about 2 ft 5 in &times; 3 ft 0&frac14; in). It is the most reproduced picture in Western art after the{' '}<em>Mona Lisa</em>, and Van Gogh painted it locked up. The work was made{' '}<em>in spite of</em>{' '}the
+        suffering, not because of it; the madness-genius myth gets the arrow exactly backward.
+      </p>
+
+      <SectionHeader accent={accent} label="Auvers &middot; summer 1890" title="The wheatfield and the gun" />
+      <p style={proseStyle}>
+        In May 1890 he left Saint-R&eacute;my and travelled about twenty miles north of Paris to{' '}<strong>Auvers-sur-Oise</strong>, under the care of{' '}<strong>Dr Paul Gachet</strong>, a homeopathic
+        physician who painted on the side. (Van Gogh&rsquo;s{' '}<em>Portrait of Dr Gachet</em>{' '}sold at
+        Christie&rsquo;s New York in 1990 for $82.5 million &mdash; for years the auction record for an
+        Impressionist or Post-Impressionist work.) He painted Auvers in a frenzy &mdash; the town church, the
+        wheatfields,{' '}<em>Wheatfield with Crows</em>{' '}(Van Gogh Museum), a roiling blue-black sky with a flock
+        of crows lifting off.
+      </p>
+      <p style={proseStyle}>
+        On the afternoon of{' '}<strong>Sunday, 27 July 1890</strong>, Van Gogh walked out into a field near Auvers
+        and shot himself in the chest with a small revolver. The shot did not kill him. He staggered back to the{' '}<strong>Auberge Ravoux</strong>, the inn where he was lodging. Two doctors couldn&rsquo;t get at the bullet.
+        Theo arrived the next morning. Vincent died around 1:30 a.m. on{' '}<strong>29 July 1890</strong>, with Theo
+        at his side. He was 37. Theo reported his last words to their mother as{' '}<em>&ldquo;La tristesse durera toujours&rdquo;</em>{' '}&mdash;{' '}<em>&ldquo;the sadness will last forever.&rdquo;</em>{' '}(One hedge: in 2011 the
+        biographers Naifeh and Smith argued he was shot by a local boy, not by his own hand; the Van Gogh Museum
+        still treats it as suicide.)
+      </p>
+      <p style={proseStyle}>
+        <strong>Theo</strong>{' '}died six months later, on{' '}<strong>25 January 1891</strong>, age 33, of
+        complications from syphilis. His wife{' '}<strong>Jo</strong>{' '}was left with a one-year-old baby (also
+        named Vincent), hundreds of Vincent&rsquo;s letters, and most of the unsold paintings. She spent the rest
+        of her life building Vincent&rsquo;s posthumous reputation; she is the reason the Van Gogh Museum exists.
+        Vincent sold one painting in life at a real price &mdash;{' '}<em>The Red Vineyard</em>, bought by the
+        Belgian painter Anna Boch for 400 francs at Les XX in Brussels in early 1890. He painted around 900
+        canvases. Within twenty years his pictures would be the most fought-over canvases in Europe.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={PI_VG}
+        imageUrl={ART_IMG.starryNight}
+        ratio="4/3"
+        alt="Van Gogh, The Starry Night"
+        caption={<>Painted from memory and the view out the barred east-facing window of the asylum at Saint-Paul-de-Mausole in June 1889. The most reproduced picture in Western art after the{' '}<em>Mona Lisa</em>, made by a man who had voluntarily checked himself in to a psychiatric ward and was permitted to keep painting. The work was made{' '}<em>in spite of</em>{' '}the suffering, not because of it; the madness-genius myth gets the arrow exactly backward.</>}
+        credit={<>Vincent van Gogh,{' '}<em>The Starry Night</em>, June 1889 &middot; Museum of Modern Art, New York</>}
+        rights={PD_VANGOGH}
+      />
+    </article>
+  </>
+)
+
+// ── 5. Gauguin &mdash; Pont-Aven, Tahiti, the colonial question ──
+const GauguinPostImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; 1882" title="The crash, the wife, the leap" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        <strong>aul Gauguin</strong>{' '}was born in Paris on{' '}<strong>7 June 1848</strong>, son of a French
+        journalist father and a Peruvian-French mother. When he was 1, the family sailed for Peru; his father died
+        en route. The boy grew up in{' '}<strong>Lima</strong>{' '}until he was 7 &mdash; that early displacement
+        matters; he never quite settled back into being French.
+      </p>
+      <p style={proseStyle}>
+        By his 20s he was a Parisian stockbroker, good at it. In{' '}<strong>1873</strong>{' '}he married{' '}<strong>Mette-Sophie Gad</strong>, a Danish woman; they had{' '}<strong>five children</strong>{' '}between 1874
+        and 1883. Then in{' '}<strong>1882</strong>{' '}the Paris stock market crashed (the{' '}<em>krach de l&rsquo;Union g&eacute;n&eacute;rale</em>) and Gauguin lost his job. He took it as a sign. He moved the family
+        to Copenhagen in 1884; the Danish in-laws found him impossible. By{' '}<strong>1885</strong>{' '}he had walked
+        out of the marriage and returned to Paris alone. He never lived with his wife and children again.
+      </p>
+      <p style={proseStyle}>
+        There is no charitable way to tell this part. Gauguin was not poor in 1885 the way Van Gogh was poor. He
+        was a man with a wife and five small children whom he chose to leave so that he could be a painter. The art
+        does not exist without that decision. The decision is part of the art&rsquo;s price.
+      </p>
+
+      <SectionHeader accent={accent} label="Pont-Aven &middot; 1888" title="Brittany, Bernard, and a red field" />
+      <p style={proseStyle}>
+        In summer 1888 Gauguin came back to{' '}<strong>Pont-Aven</strong>, a small Brittany village that had become
+        a painters&rsquo; colony (low pension rates, local women still in picturesque starched bonnets), this time
+        with a clear program. He met a younger painter named{' '}<strong>&Eacute;mile Bernard</strong>{' '}(19,
+        theoretically minded), and they began working out{' '}<strong>Synthetism</strong>{' '}(sometimes{' '}<em>cloisonnisme</em>, after the cloisonn&eacute; enamels the technique visually resembled): paintings built
+        of large flat areas of saturated color, separated by hard dark contour lines, with depth and modeling cut
+        out. The picture was no longer a window onto a real scene; it was an arrangement of color{' '}<em>areas</em>,
+        designed for emotional or symbolic effect.
+      </p>
+      <p style={proseStyle}>
+        The picture that demonstrates the move is{' '}<em>Vision after the Sermon (Jacob Wrestling with the Angel)</em>, autumn 1888 (Scottish National Gallery, Edinburgh; about 2 ft 4&frac12; in &times; 3 ft 0 in). In the
+        lower half, Breton peasant women in starched bonnets are coming out of mass; they have just heard the
+        sermon about Jacob wrestling the angel. Their eyes are closed in something between prayer and exhaustion.
+        In the upper half, separated from the women by the diagonal tree (often read as an apple tree, after Eden)
+        slicing the canvas, Jacob and the angel are{' '}<em>actually visible</em>{' '}in the act of wrestling, against
+        a field of pure flat red &mdash; the kind of red a child reaches for first in a paint box.
+      </p>
+      <p style={proseStyle}>
+        Where is the wrestling really happening? Not in the field. It is in the{' '}<em>minds</em>{' '}of the Breton
+        women, who heard the sermon, closed their eyes, and{' '}<em>imagined</em>{' '}it. The painter has put the
+        inside of their imagination on the canvas as a separate zone. The whole machinery of &ldquo;a picture as a
+        window&rdquo; is dismantled. What you are looking at is{' '}<em>meaning</em>, painted directly. (Gauguin
+        tried to give the canvas to the parish church; the priest refused &mdash; he could see the picture was{' '}<em>about</em>{' '}the women, not{' '}<em>about</em>{' '}Jacob.)
+      </p>
+
+      <SectionHeader accent={accent} label="Arles &middot; October&ndash;December 1888" title="Forwarded to Chapter 4" />
+      <p style={proseStyle}>
+        The nine weeks at the Yellow House are Chapter 4&rsquo;s territory. Briefly: Gauguin came south because he
+        was broke; Theo van Gogh would stipend him for going; Vincent had been pleading. The visit went badly.
+        Vincent cut off the lower lobe of his left ear on 23 December and Gauguin left two days later. What Gauguin
+        took from Arles, beyond the trauma, was the confirmation that his future was not in France. He went back to
+        Paris with the idea, now hardening, that he would go somewhere very far away.
+      </p>
+
+      <SectionHeader accent={accent} label="1 April 1891" title="The boat to Tahiti" />
+      <p style={proseStyle}>
+        On{' '}<strong>1 April 1891</strong>{' '}Gauguin sailed from Marseille for{' '}<strong>Tahiti</strong>,
+        arriving in Papeete on 9 June. He had told the friends who saw him off &mdash; the Symbolist writers
+        Mallarm&eacute; and Charles Morice &mdash; that he was going to find a{' '}<em>primitive</em>, pre-Christian
+        paradise where he could paint untouched by European convention. He was exporting a French romance of the{' '}<em>primitif</em>{' '}about as far as it could go.
+      </p>
+      <p style={proseStyle}>
+        What he was actually doing was sailing into a French colony. Tahiti had been a French protectorate since
+        1842 and a formal colony since 1880. Papeete had cathedrals, gendarmes, French administrators, French
+        missionaries, French gunboats. The surviving Tahitians lived under colonial rule, paid colonial taxes, and
+        were mostly Catholic. Gauguin&rsquo;s{' '}<em>primitive</em>{' '}Tahiti was a fantasy he carried in his
+        luggage; the real Tahiti was a French outpost where colonial police came round when he made trouble.
+      </p>
+      <p style={proseStyle}>
+        He painted there anyway, and what he painted was extraordinary &mdash; the saturated, flat-color, dreamlike
+        Tahitian pictures we now know him by:{' '}<em>Mana&ograve; tupapa&uacute; (Spirit of the Dead Watching)</em>,
+        1892 (Buffalo AKG Art Museum), a young Tahitian girl lying face-down on a bed under a yellow blanket,
+        watched by a dark spirit-figure;{' '}<em>Where Do We Come From? What Are We? Where Are We Going?</em>,
+        1897&ndash;98 (Museum of Fine Arts, Boston; about 4 ft 6&frac12; in &times; 12 ft 3&frac12; in), a long
+        horizontal mural Gauguin painted as his testament before attempting suicide with arsenic in late 1897 (he
+        survived). It reads right-to-left: a baby on the right, an adult reaching for a fruit in the center, an old
+        woman on the left. Birth, life, death.
+      </p>
+
+      <SectionHeader accent={accent} label="The part of the story that doesn&rsquo;t sand down" title="The colonial question, in plain language" />
+      <p style={proseStyle}>
+        The part of Gauguin&rsquo;s story that 21st-century writing cannot skim past, and that earlier 20th-century
+        writing did.
+      </p>
+      <p style={proseStyle}>
+        In Tahiti and later in the Marquesas, Gauguin lived with three successive Polynesian girls, all{' '}<strong>adolescents</strong>:{' '}<strong>Teha&rsquo;amana</strong>{' '}(in Tahiti, from 1892, traditionally said
+        to have been 13 when he took her into his house; uncertain but certainly a child);{' '}<strong>Pau&rsquo;ura a Tai</strong>{' '}(in Tahiti, around 14 when their relationship began in 1896); and{' '}<strong>Vaeoho Marie-Rose</strong>{' '}(in the Marquesas, around 14 when she moved in with him in 1901). He
+        had children by at least two of them. He referred to all three as his &ldquo;wives&rdquo; in his journals.
+      </p>
+      <p style={proseStyle}>
+        It is important not to project 21st-century legal categories backward without thinking &mdash; adolescent
+        marriage was legal and common in late-19th-century France and across French colonial territory &mdash; and
+        it is also important not to use that context to disappear what these relationships actually were. Gauguin
+        was a European man in his 40s using colonial power and money to set up sexual partnerships with Polynesian
+        girls who could not, by any honest reading, have refused him on equal terms. Several of his greatest
+        paintings &mdash;{' '}<em>Mana&ograve; tupapa&uacute;</em>{' '}among them &mdash; depict these girls. The
+        pictures will not be undone; but a serious account of Gauguin cannot pretend the biography is just colorful.
+      </p>
+      <p style={proseStyle}>
+        He had advanced{' '}<strong>syphilis</strong>{' '}by his last years and spent his last decade in pain. In{' '}<strong>September 1901</strong>{' '}he moved to{' '}<strong>Hiva Oa</strong>{' '}in the{' '}<strong>Marquesas</strong>{' '}and built himself a wooden house he called the{' '}<em>Maison du Jouir</em>{' '}(&ldquo;House of
+        Pleasure&rdquo;), carved with sculpted nudes around the doorway. He wrote pamphlets attacking the colonial
+        authorities for their treatment of the Polynesians, which is to his credit, while continuing his
+        exploitation of Polynesian girls, which is not.
+      </p>
+      <p style={proseStyle}>
+        He died on{' '}<strong>8 May 1903</strong>{' '}on Hiva Oa, age 54, of a heart attack while taking morphine for
+        the syphilis pain. The French Catholic bishop, with whom he had been feuding bitterly, buried him in the
+        local cemetery. His pictures were auctioned cheap on Tahiti the following autumn. Within fifteen years they
+        would be unaffordable in any market on earth.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={PI_GAUG}
+        imageUrl={ART_IMG.gauguinVision}
+        ratio="4/3"
+        alt="Gauguin, Vision after the Sermon (Jacob Wrestling with the Angel)"
+        caption={<>Breton peasant women in starched bonnets come out of mass, eyes closed in something between prayer and exhaustion. In the upper half, separated by a diagonal tree slicing the canvas, Jacob and the angel are{' '}<em>actually visible</em>{' '}wrestling against a field of pure flat red. The wrestling isn&rsquo;t happening in the field; it&rsquo;s happening inside the women&rsquo;s minds, and Gauguin has painted the inside of their imagination on the canvas as a separate zone. The whole machinery of &ldquo;a picture as a window&rdquo; is dismantled.</>}
+        credit={<>Paul Gauguin,{' '}<em>Vision after the Sermon (Jacob Wrestling with the Angel)</em>, autumn 1888 &middot; Scottish National Gallery, Edinburgh</>}
+        rights={PD_GAUGUIN}
+      />
+    </article>
+  </>
+)
+
+// ── 6. Seurat&rsquo;s dots, Lautrec&rsquo;s posters ──────────
+const SeuratLautrecPostImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; 1884" title="A jury-free Salon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n{' '}<strong>1884</strong>, a group of younger Paris painters, exhausted by the official Salon&rsquo;s
+        rejections, founded the{' '}<strong>Soci&eacute;t&eacute; des Artistes Ind&eacute;pendants</strong>: no
+        jury, no prizes, no medals. Anyone who paid dues could hang. The first{' '}<strong>Salon des Ind&eacute;pendants</strong>{' '}ran from 15 May to 1 July 1884 in a temporary exhibition pavilion on the
+        Champs-&Eacute;lys&eacute;es. Among the founders were{' '}<strong>Paul Signac</strong>,{' '}<strong>Odilon Redon</strong>,{' '}<strong>Albert Dubois-Pillet</strong>,{' '}<strong>Henri Edmond Cross</strong>{' '}&mdash; and a
+        24-year-old painter whose first major canvas, a six-and-a-half-by-ten-foot picture of working-class
+        Parisians sunbathing on the Asni&egrave;res riverbank, had just been rejected by the official Salon. They
+        hung his rejected picture instead. The 24-year-old was{' '}<strong>Georges Seurat</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="Seurat" title="A short life, a long method" />
+      <p style={proseStyle}>
+        <strong>Georges-Pierre Seurat</strong>{' '}was born in Paris on{' '}<strong>2 December 1859</strong>. He
+        trained academically &mdash; first a free local drawing school, then in{' '}<strong>1878</strong>{' '}at the{' '}<strong>&Eacute;cole des Beaux-Arts</strong>{' '}under{' '}<strong>Henri Lehmann</strong>, a pupil of Ingres.
+        So Seurat, alone among the Post-Impressionist anchors, came up through the official system. He drew the way
+        they had drawn it at the &Eacute;cole for fifty years &mdash; patient, meticulous, the figure constructed
+        out of clearly modelled tonal values.
+      </p>
+
+      <SectionHeader accent={accent} label="Optical mixing" title="The trick that names the chapter" />
+      <p style={proseStyle}>
+        The pointillist trick (the term comes later &mdash; Seurat preferred{' '}<em>divisionism</em>,
+        &ldquo;dividing&rdquo; each tone into its components) is built on what the French chemist{' '}<strong>Michel Eug&egrave;ne Chevreul</strong>{' '}had worked out half a century earlier as the{' '}<em>law of simultaneous contrast</em>. Place a pure red dot beside a pure green dot on the canvas. At reading distance,
+        your eye doesn&rsquo;t see two dots; it averages them, and the resulting muddy brown looks brighter and
+        more alive than the same brown mixed on a palette. Physically the pigment is still pigment; optically, the
+        light bouncing off the canvas does the mixing in your eye. The canvas becomes, in effect, a primitive
+        projector.
+      </p>
+      <p style={proseStyle}>
+        Seurat read the rest of the theory &mdash; Chevreul&rsquo;s 1839 book, Charles Blanc&rsquo;s{' '}<em>Grammaire des arts du dessin</em>{' '}(1867), the American physicist Ogden Rood&rsquo;s{' '}<em>Modern Chromatics</em>{' '}(1879, translated into French in 1881). Out of these he built his method. The critic{' '}<strong>F&eacute;lix F&eacute;n&eacute;on</strong>{' '}named it{' '}<em>N&eacute;o-Impressionnisme</em>{' '}in 1886;
+        outsiders called it{' '}<strong>Pointillism</strong>. The principle: do scientifically, by formula, what the
+        Impressionists had been doing by gut instinct.{' '}<em>La Grande Jatte</em>{' '}is a 7-by-10-foot demonstration
+        of the idea.
+      </p>
+      <p style={proseStyle}>
+        The pictures came out slowly. Seurat would spend two summers and a winter on a single canvas, with dozens
+        of preparatory studies before the first dot. The big ones are{' '}<em>Bathers at Asni&egrave;res</em>{' '}(1884,
+        National Gallery, London; about 6 ft 7 in &times; 9 ft 10&frac12; in, the rejected canvas from the first
+        Salon des Ind&eacute;pendants);{' '}<em>La Grande Jatte</em>{' '}(1884&ndash;86, Art Institute of Chicago; about
+        6 ft 9&frac12; in &times; 10 ft 1 in, the picture from Chapter 1); and{' '}<em>The Circus</em>{' '}(1890&ndash;91, Mus&eacute;e d&rsquo;Orsay), unfinished at his death.
+      </p>
+      <p style={proseStyle}>
+        He died suddenly on{' '}<strong>29 March 1891</strong>, age 31, of an infection variously identified as
+        meningitis, pneumonia, infectious angina, or diphtheria &mdash; the record is unclear. His infant son by
+        his common-law partner Madeleine Knobloch died of the same illness days later. The career was seven years
+        long.
+      </p>
+
+      <SectionHeader accent={accent} label="Toulouse-Lautrec" title="Open at the canvas" />
+      <p style={proseStyle}>
+        Start with the picture.{' '}<em>At the Moulin Rouge</em>{' '}(1892&ndash;95, Art Institute of Chicago; about 4
+        ft 0&frac12; in &times; 4 ft 7&frac14; in). The famous Moulin Rouge at its tables. Five regulars sit around
+        a center table; in the background a small group walks toward us, with Lautrec himself painted in &mdash;
+        the short top-hatted man beside his tall cousin Gabriel. In the right foreground a face looms up close,
+        sliced by the canvas edge, lit a lurid pale{' '}<strong>green</strong>{' '}from below: the English dancer{' '}<strong>May Milton</strong>. The off-square cropping is straight out of a Japanese print. This is the
+        chapter&rsquo;s other half: the dance hall at midnight, lit by green gaslight, painted by an aristocrat 5
+        ft tall who lived in it.
+      </p>
+      <p style={proseStyle}>
+        <strong>Henri Marie Raymond de Toulouse-Lautrec-Monfa</strong>{' '}was born in{' '}<strong>Albi</strong>{' '}on{' '}<strong>24 November 1864</strong>, into one of the oldest families in Europe (descendants of the medieval
+        Counts of Toulouse). His parents were first cousins; consanguineous marriage repeated over generations is
+        the accepted cause of the inherited disorder that defined his life. At 13 he broke his left femur; at 14,
+        the right. The legs stopped growing. His adult height was around 5 ft 0 in on a normal adult torso. The
+        modern diagnostic guess (inferred, not proven) is{' '}<strong>pycnodysostosis</strong>, a rare recessive
+        bone-density disorder.
+      </p>
+      <p style={proseStyle}>
+        He went to Paris, studied briefly under{' '}<strong>Fernand Cormon</strong>{' '}(where he met Van Gogh and
+        &Eacute;mile Bernard in 1886), and by{' '}<strong>1884</strong>{' '}had moved to{' '}<strong>Montmartre</strong>{' '}for the rest of his short life. He painted the{' '}<em>working</em>{' '}Montmartre: the
+        cabaret at midnight, the dancers on stage, the bored prostitutes between customers. He borrowed from
+        Japanese prints the flat color, the hard contours, the off-center cropping.
+      </p>
+      <p style={proseStyle}>
+        The{' '}<strong>poster</strong>{' '}<em>Moulin Rouge: La Goulue</em>{' '}(1891, color lithograph; MoMA, the Met,
+        the V&amp;A, the BNF) made the medium. Three flat zones of color: yellow ground, La Goulue&rsquo;s white
+        frilled bloomers at the center, the silhouettes of the audience as a black frieze behind her. The entire
+        20th-century commercial graphic look descends from this single sheet of paper, glued to a Paris wall in
+        November 1891.
+      </p>
+      <p style={proseStyle}>
+        The{' '}<strong>brothel pictures</strong>: in the early 1890s Lautrec moved more or less into a series of
+        legal brothels and painted the women off-shift.{' '}<em>In the Salon at the Rue des Moulins</em>{' '}(1894,
+        Mus&eacute;e Toulouse-Lautrec, Albi) shows three women on red plush sofas, dressed in long camisoles,
+        bored, waiting. There is no leer. The women are people, off the clock.
+      </p>
+      <p style={proseStyle}>
+        He drank himself to death &mdash; absinthe mostly, with syphilis on top. He died at his mother&rsquo;s{' '}<strong>Ch&acirc;teau Malrom&eacute;</strong>, in Gironde, on{' '}<strong>9 September 1901</strong>, age 36.
+        The{' '}<strong>Mus&eacute;e Toulouse-Lautrec</strong>{' '}in{' '}<strong>Albi</strong>{' '}opened in 1922 and
+        holds the largest single collection of him on earth.
+      </p>
+      <p style={proseStyle}>
+        Seurat and Lautrec are linked here not because they were friends (they were barely acquainted) but because
+        they died young, in Paris, having between them shown two opposite ways out of Impressionism: science on the
+        one hand, the modern Parisian night on the other.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={PI_SEURAT}
+        imageUrl={ART_IMG.seuratGrandeJatte}
+        ratio="3/2"
+        alt="Seurat, A Sunday on La Grande Jatte"
+        caption={<>About 6 ft 9&frac12; in &times; 10 ft 1 in, painted 1884&ndash;86, hung at the 8th and last Impressionist Exhibition in spring 1886. The entire surface is built from millions of tiny separate dots of pure color, applied with deliberate, almost scientific precision. Step back four feet and it shimmers; step back ten and it locks. Seurat called his method{' '}<em>divisionism</em>; outsiders called it Pointillism. Two years of work; the canvas that politely, almost academically, buried Impressionism in dots.</>}
+        credit={<>Georges Seurat,{' '}<em>A Sunday on La Grande Jatte</em>, 1884&ndash;86 &middot; Art Institute of Chicago</>}
+        rights={PD_SEURAT}
+      />
+    </article>
+  </>
+)
+
+// ── 7. The Nabis and the wider field ─────────────────────────
+const NabisPostImpNarrative: Narrative = ({ accent }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="October 1888 &middot; Pont-Aven" title="A cigar-box panel" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he wider cast of Post-Impressionism begins in October 1888 in the Brittany village we left in Chapter 5.{' '}<strong>Paul S&eacute;rusier</strong>{' '}(1864&ndash;1927), a 24-year-old French painter and a student at the{' '}<strong>Acad&eacute;mie Julian</strong>{' '}(a private Paris art school founded in 1867 that took the students
+        the &Eacute;cole des Beaux-Arts wouldn&rsquo;t), was on holiday in Pont-Aven and asked Gauguin for a lesson.
+      </p>
+      <p style={proseStyle}>
+        Gauguin took him out to a small wood by the river called the{' '}<strong>Bois d&rsquo;Amour</strong>, set him
+        in front of trees reflected in the Aven, and gave him a small wooden panel &mdash; a cigar-box lid.
+        Gauguin&rsquo;s instruction (as S&eacute;rusier later told it to Maurice Denis) was something like:{' '}<em>What do you see, that tree? Is it really green? Then use green, the most beautiful green on your palette. And that shadow, rather blue? Don&rsquo;t be afraid to paint it as blue as possible.</em>{' '}Use pure
+        color. Don&rsquo;t blend.
+      </p>
+      <p style={proseStyle}>
+        The panel S&eacute;rusier brought back is tiny (about 10&frac12; &times; 8&frac12; inches, oil on wood) and
+        shows flat patches of orange, green, blue and red that{' '}<em>read</em>{' '}as a landscape only if you already
+        know it&rsquo;s a landscape. His fellow students at the Acad&eacute;mie Julian lost their minds over it.
+        They named the panel{' '}<strong>Le Talisman</strong>{' '}and treated it like a religious icon (now
+        Mus&eacute;e d&rsquo;Orsay, RF 1985-13). And they named themselves, in late 1888, the{' '}<strong>Nabis</strong>{' '}&mdash; the Hebrew word for &ldquo;prophets,&rdquo; picked by a Hebraist friend on
+        the self-mocking ground that they were now the prophets of a new art. The core members were S&eacute;rusier,{' '}<strong>Pierre Bonnard</strong>,{' '}<strong>&Eacute;douard Vuillard</strong>,{' '}<strong>Maurice Denis</strong>,
+        and a wider circle of about a dozen. They met weekly at Paul Ranson&rsquo;s studio (which they jokingly
+        called &ldquo;the Temple&rdquo;).
+      </p>
+
+      <SectionHeader accent={accent} label="Maurice Denis" title="A teenager writes the catechism" />
+      <p style={proseStyle}>
+        In{' '}<strong>August 1890</strong>, in a periodical called{' '}<em>Art et Critique</em>, an essay titled{' '}<em>D&eacute;finition du n&eacute;o-traditionnisme</em>{' '}appeared, signed{' '}<em>Pierre Louis</em>{' '}(a pen
+        name). It contained the line the 20th century would quote at every student who ever picked up a brush:{' '}<em>&ldquo;Remember that a picture &mdash; before being a battle horse, a nude woman, or any other anecdote &mdash; is essentially a flat surface covered with colors assembled in a certain order.&rdquo;</em>
+      </p>
+      <p style={proseStyle}>
+        Pierre Louis was{' '}<strong>Maurice Denis</strong>{' '}(1870&ndash;1943), the Nabis&rsquo; theorist. He was{' '}<strong>19 years old</strong>, had been a Nabi for about a year, and had taken Gauguin&rsquo;s instruction in
+        the Bois d&rsquo;Amour and condensed it into one sentence: the picture is{' '}<em>first</em>{' '}a surface with
+        colored shapes on it;{' '}<em>then</em>, perhaps, also a story. No single sentence pushed European painting
+        further toward abstraction.
+      </p>
+
+      <SectionHeader accent={accent} label="Bonnard and Vuillard" title="The intimate Nabis" />
+      <p style={proseStyle}>
+        The two Nabis with the longest lives took Gauguin&rsquo;s flat-color program inward, toward the bourgeois
+        interior, and stayed there for fifty years.
+      </p>
+      <p style={proseStyle}>
+        <strong>Pierre Bonnard</strong>{' '}(1867&ndash;1947) painted his lifelong companion{' '}<strong>Marthe</strong>{' '}(born Maria Boursin; they finally married in 1925 after thirty years together) over and over &mdash; in the
+        bath, in a yellow dress, at the breakfast table. The late{' '}<em>Nude in the Bath</em>{' '}series (Centre
+        Pompidou; 1925 onward) has Marthe submerged in a clawfoot tub under shifting violet and rose and orange
+        light. Bonnard outlived almost the whole movement and was still painting in Provence into the 1940s.
+      </p>
+      <p style={proseStyle}>
+        <strong>&Eacute;douard Vuillard</strong>{' '}(1868&ndash;1940) painted smaller, denser interiors, packed with
+        pattern. His mother was a corsetmaker; he grew up among fabric samples, and as a painter he refused to let
+        the wallpaper recede. In{' '}<em>Mother and Sister of the Artist</em>{' '}(c. 1893, MoMA; about 18 &times; 22
+        in), his sister is half-absorbed into the floral wallpaper. The Nabis&rsquo; dominant patrons were the{' '}<strong>Natanson</strong>{' '}brothers, founders of{' '}<em>La Revue blanche</em>{' '}(1889&ndash;1903), who
+        commissioned decorative panels from Vuillard for their apartments.
+      </p>
+
+      <SectionHeader accent={accent} label="Berthe Morisot" title="The Impressionist who painted into the next decade" />
+      <p style={proseStyle}>
+        One older painter belongs here even though she stood with the Impressionists at every show that mattered.{' '}<strong>Berthe Morisot</strong>{' '}(1841&ndash;1895) &mdash; Manet&rsquo;s sister-in-law and, more importantly,
+        his peer &mdash; kept painting through the early Post-Impressionist decade in a hand that loosened year
+        after year. By 1890 her brushwork was as dissolution-prone as anything Bonnard would do; the marks no
+        longer describe a wrist or a curtain, they suggest one. She died of pneumonia in 1895, three weeks after
+        sitting with her daughter Julie through a flu. The death certificate listed her occupation as &ldquo;no
+        profession.&rdquo; She had hung in every Impressionist exhibition but the one she missed for childbirth.
+      </p>
+
+      <SectionHeader accent={accent} label="The other tributaries" title="Signac, Redon, Cassatt" />
+      <p style={proseStyle}>
+        The wider Nabi circle ran to a dozen painters this short chapter will not catalog. Three painters outside
+        it belong in the room.
+      </p>
+      <p style={proseStyle}>
+        <strong>Paul Signac</strong>{' '}(1863&ndash;1935). Seurat&rsquo;s partner from 1884 onward, the second great
+        Divisionist. After Seurat&rsquo;s death in 1891, Signac became the propagandist &mdash; his 1899{' '}<em>D&rsquo;Eug&egrave;ne Delacroix au n&eacute;o-impressionnisme</em>{' '}codified Divisionism as a coherent
+        theory. He ran the Salon des Ind&eacute;pendants for almost three decades. His own great picture is{' '}<em>Portrait of F&eacute;lix F&eacute;n&eacute;on</em>{' '}(1890, MoMA): the critic who had named
+        N&eacute;o-Impressionnisme rendered as a dapper top-hatted profile against a swirling, dot-by-dot field of
+        colored arabesques.
+      </p>
+      <p style={proseStyle}>
+        <strong>Odilon Redon</strong>{' '}(1840&ndash;1916). The Symbolist tributary. Until about 1895 he painted{' '}<em>noirs</em>{' '}&mdash; disturbing dreamlike charcoals of floating eyes, spider-faced creatures, monsters.
+        Then around 1895 he switched to pastel and oil, and his late style is the photographic negative of his
+        early one: luminous, saturated bouquets of flowers on dark grounds.
+      </p>
+      <p style={proseStyle}>
+        <strong>Mary Cassatt</strong>{' '}(1844&ndash;1926). Pittsburgh-born, French-resident from 1874 onward, the
+        only American in the inner circle of the Impressionist exhibitions (recruited by Degas). Her late work is
+        overtly indebted to Japanese prints &mdash; flat color, hard outlines, off-center cropping.{' '}<em>The Child&rsquo;s Bath</em>{' '}(1893, Art Institute of Chicago) is the signature canvas: a mother in a striped dress
+        bending forward to wash her young child&rsquo;s feet in a white china basin, seen from a high vantage that
+        flattens the floor into a decorative pattern.
+      </p>
+      <p style={proseStyle}>
+        By 1900 there are not five Post-Impressionists; there are forty or fifty painters working in clusters
+        across France, each pulling away from Impressionism in their own direction. All they need is somebody to
+        walk into the room and put a name on the door.
+      </p>
+    </article>
+  </>
+)
+
+// ── 8. How a category got its name ───────────────────────────
+const FryPostImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="London &middot; autumn 1910" title="A critic, a gallery, a deadline" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>R</DropCap>
+        <strong>oger Fry</strong>{' '}was{' '}<strong>43</strong>{' '}in 1910 (he would turn 44 on 14 December, after
+        the show opened), an English critic and Bloomsbury-adjacent intellectual who had spent a few years
+        (1906&ndash;1910) as Curator of Paintings at the Met in New York and had recently been fired in a row with
+        its president, J. Pierpont Morgan. He had been spending his summers in France and had begun to think
+        England had no idea what had happened in those studios.
+      </p>
+      <p style={proseStyle}>
+        In summer 1910 he proposed an exhibition to the{' '}<strong>Grafton Galleries</strong>{' '}on Grafton Street,
+        Mayfair. He rounded up{' '}<strong>Desmond MacCarthy</strong>{' '}(the show&rsquo;s secretary, who helped draft
+        the catalogue introduction) and{' '}<strong>Clive Bell</strong>{' '}(the young art writer who would in 1914
+        publish{' '}<em>Art</em>{' '}and the concept of &ldquo;significant form&rdquo;), went to France, twisted arms
+        at dealers (Vollard among them), and came back with about 228 works.{' '}<strong>C&eacute;zanne</strong>{' '}had
+        the most; then{' '}<strong>Van Gogh</strong>,{' '}<strong>Gauguin</strong>, plus{' '}<strong>Manet</strong>{' '}as the borrowed elder, plus the living wave: Matisse, Picasso, Derain, Vlaminck, Maurice Denis, Redon,
+        Seurat, Signac, S&eacute;rusier, Vallotton. (Henri Rousseau,{' '}<em>Le Douanier</em>{' '}&mdash; the self-taught
+        customs officer who painted dreamlike jungles he had never seen &mdash; would be hung in the 1912 sequel.)
+      </p>
+      <p style={proseStyle}>
+        Fry, late at night against a printer&rsquo;s deadline, scribbled out the running title{' '}<strong>Manet and the Post-Impressionists</strong>. He later told{' '}<em>The Nation</em>{' '}(1911) that he had picked the name
+        almost on the fly &mdash; he had rejected alternatives like &ldquo;expressionists&rdquo; &mdash; and needed
+        an umbrella elastic enough to cover all of them without committing to any program. The show opened on{' '}<strong>8 November 1910</strong>{' '}and ran through{' '}<strong>15 January 1911</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="&ldquo;An extremely bad joke or a swindle&rdquo;" title="The London press loses its mind" />
+      <p style={proseStyle}>
+        The press response was one of the great public freak-outs in art history.{' '}<strong>Wilfrid Scawen Blunt</strong>{' '}recorded the show as &ldquo;either an extremely bad joke or a swindle&rdquo; &mdash; the paintings
+        &ldquo;the work of madmen.&rdquo;{' '}<strong>Robert Ross</strong>{' '}(Oscar Wilde&rsquo;s executor) wrote in
+        the{' '}<em>Morning Post</em>{' '}that the show was a widespread plot to destroy the whole fabric of European
+        painting.{' '}<em>The Times</em>{' '}called it &ldquo;the rejection of all that civilization has done.&rdquo;
+        The phrase &ldquo;the work of a lunatic&rdquo; appears across more than a dozen reviews.
+      </p>
+      <p style={proseStyle}>
+        In absolute terms it was a commercial success &mdash; about{' '}<strong>25,000 visitors</strong>{' '}over two
+        months, gate around{' '}<strong>&pound;4,600</strong>. Many had come to laugh. The{' '}<strong>Bloomsbury Group</strong>{' '}(Fry, Vanessa Bell, Clive Bell, Virginia Woolf, Lytton Strachey, John Maynard Keynes, Duncan
+        Grant) coalesced around the defense. Virginia Woolf&rsquo;s retrospective epitaph, in a 1924 lecture
+        published as{' '}<em>Mr Bennett and Mrs Brown</em>, has overgrown its own context:{' '}<strong>&ldquo;On or about December 1910 human character changed.&rdquo;</strong>{' '}Woolf meant a whole shift in modernist
+        sensibility, not just the Grafton &mdash; but the Grafton was what she had at the back of her mind.
+      </p>
+
+      <SectionHeader accent={accent} label="The question the outrage did not include" title="An empire&rsquo;s blind spot" />
+      <p style={proseStyle}>
+        One thing the outrage did not include. London in 1910 was the capital of an empire at maximum extent
+        &mdash; about a quarter of the world&rsquo;s land and a fifth of its people answered to it. Among the
+        pictures the Grafton crowd was shoving in to see were Gauguin&rsquo;s Tahitians: nude teenage girls painted
+        in a French colony in the South Pacific, on their way back across the Channel after a sale by his estate.
+        They were trophies of one empire on display in the capital of another, and the press storm &mdash; about
+        whether they were{' '}<em>art</em>{' '}&mdash; never quite reached the question of how they had got there. That
+        question was asked in 1910 in Tahiti and Britain (and the Congo, and Bengal, and many rooms a Roger Fry
+        never set foot in). It was not asked at the Grafton.
+      </p>
+      <p style={proseStyle}>
+        What Fry himself would later say about these pictures, in his 1920 book{' '}<em>Vision and Design</em>, was
+        that the art on the Grafton walls &ldquo;aimed not at illusion but at reality.&rdquo;
+      </p>
+
+      <SectionHeader accent={accent} label="The sequel &mdash; 1912 &mdash; and the Armory crossing &mdash; 1913" title="The category goes international" />
+      <p style={proseStyle}>
+        In{' '}<strong>1912</strong>{' '}Fry mounted a{' '}<strong>Second Post-Impressionist Exhibition</strong>{' '}at the
+        Grafton (5 October &ndash; 31 December 1912; poster by Vanessa Bell and Duncan Grant). The French section,
+        selected by Fry, included about 5 C&eacute;zannes, 19 Matisses, 13 Picassos, plus Derain, Vlaminck, Bonnard
+        &mdash; and Rousseau, hung among the moderns. By Christmas 1912{' '}<em>Post-Impressionism</em>{' '}was a known
+        category in the English-speaking world.
+      </p>
+      <p style={proseStyle}>
+        The Atlantic crossing happened the next year. The{' '}<strong>International Exhibition of Modern Art</strong>{' '}&mdash; the{' '}<strong>Armory Show</strong>{' '}&mdash; opened on{' '}<strong>17 February 1913</strong>{' '}at the
+        69th Regiment Armory in New York, ran through 15 March, then travelled to Chicago and Boston. Roughly 1,250
+        works by about 300 artists. Within the European third were about 13 C&eacute;zannes, 18 Van Goghs, 12
+        Gauguins, several Seurats, the largest Redon retrospective outside France, plus Matisse, Picasso and Marcel
+        Duchamp. Duchamp&rsquo;s{' '}<em>Nude Descending a Staircase No. 2</em>{' '}(painted January 1912, exhibited at
+        the Armory the year after) was the{' '}<em>succ&egrave;s de scandale</em>, mocked by the American press as
+        &ldquo;an explosion in a shingle factory.&rdquo; The Armory Show is to American modernism what the 1910
+        Grafton is to British. American collectors went home and started buying.
+      </p>
+
+      <SectionHeader accent={accent} label="One last fact" title="They were all dead" />
+      <p style={proseStyle}>
+        End on the strangeness of it. When Roger Fry opened his Grafton show on 8 November 1910, every one of the
+        five painters he had put at its center was already in the ground.
+      </p>
+      <p style={proseStyle}>
+        <strong>C&eacute;zanne</strong>{' '}had been dead{' '}<strong>four years</strong>{' '}&mdash; died Aix, 22
+        October 1906.{' '}<strong>Van Gogh</strong>{' '}had been dead{' '}<strong>twenty years</strong>{' '}&mdash; died
+        Auvers, 29 July 1890.{' '}<strong>Gauguin</strong>{' '}had been dead{' '}<strong>seven years</strong>{' '}&mdash;
+        died Hiva Oa, 8 May 1903.{' '}<strong>Seurat</strong>{' '}had been dead{' '}<strong>nineteen years</strong>{' '}&mdash; died Paris, 29 March 1891.{' '}<strong>Toulouse-Lautrec</strong>{' '}had been dead{' '}<strong>nine years</strong>{' '}&mdash; died Ch&acirc;teau Malrom&eacute;, 9 September 1901.
+      </p>
+      <p style={proseStyle}>
+        The name was retrospective. The room was retrospective. The category itself was a London critic&rsquo;s
+        late, improvised umbrella for five French painters who had never met as a group, never written a manifesto,
+        never agreed about anything, and were all in their graves before the umbrella opened. The name stuck,
+        anyway, because the public didn&rsquo;t have a better one.
+      </p>
+      <p style={proseStyle}>
+        What that umbrella covered was the bridge from Impressionism into 20th-century modernism. Without those
+        five painters &mdash; and the wider cast around them, the Nabis, the pointillists, the Symbolists &mdash;
+        there is no{' '}<strong>Fauvism</strong>{' '}(Matisse and Derain at the Salon d&rsquo;Automne in 1905), no{' '}<strong>Die Br&uuml;cke</strong>{' '}(Dresden, 1905, lit fuse Van Gogh and Gauguin), no{' '}<strong>Der Blaue Reiter</strong>{' '}(Munich, 1911, lit fuse Gauguin and C&eacute;zanne), no{' '}<strong>Cubism</strong>{' '}(Picasso and Braque, 1907&ndash;14, direct out of the late C&eacute;zanne), and no{' '}<strong>abstraction</strong>{' '}(Kandinsky in{' '}<em>Concerning the Spiritual in Art</em>, 1911, citing
+        C&eacute;zanne by name).
+      </p>
+      <p style={proseStyle}>
+        Five painters and a wider cast. Five answers to one question &mdash;{' '}<em>what comes after Impressionism?</em>{' '}&mdash; and one English critic, hanging a London show on a printer&rsquo;s deadline, who
+        needed a name and gave them the only one we now use. The mountain refused to dissolve. The wheatfield kept
+        burning. The Breton women kept seeing things their eyes couldn&rsquo;t see. The dots kept building the
+        Sunday lawn. The cabaret lights kept catching on the dancers&rsquo; faces. And then, around the turn of the
+        new century, the painters all died, one by one, and a generation of younger painters in Paris and Munich
+        and Dresden and London picked up the pieces and ran with them.
+      </p>
+      <p style={proseStyle}>
+        That generation&rsquo;s room is the next door over.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={PI_VG}
+        imageUrl={ART_IMG.vanGoghSelf}
+        ratio="4/5"
+        alt="Van Gogh, Self-Portrait"
+        caption={<>One of the faces on Roger Fry&rsquo;s Grafton walls in November 1910. By the time the London public was filing past it, Van Gogh had been dead twenty years. The name above the room &mdash;{' '}<em>Manet and the Post-Impressionists</em>{' '}&mdash; was scribbled out by Fry late at night against a printer&rsquo;s deadline. It stuck anyway.</>}
+        credit={<>Vincent van Gogh,{' '}<em>Self-Portrait</em>, 1889 &middot; Mus&eacute;e d&rsquo;Orsay, Paris</>}
+        rights={PD_VANGOGH}
+      />
+    </article>
+  </>
+)
+
 export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
   cubism: {
     before: BeforeNarrative,
@@ -1789,5 +2625,15 @@ export const MOVEMENT_NARRATIVES: Record<string, Record<string, Narrative>> = {
     women: WomenImpNarrative,
     degas: DegasImpNarrative,
     last: LastImpNarrative,
+  },
+  postimp: {
+    why: WhyPostImpNarrative,
+    five: FivePostImpNarrative,
+    cezanne: CezannePostImpNarrative,
+    'van-gogh': VanGoghPostImpNarrative,
+    gauguin: GauguinPostImpNarrative,
+    'seurat-lautrec': SeuratLautrecPostImpNarrative,
+    nabis: NabisPostImpNarrative,
+    fry: FryPostImpNarrative,
   },
 }
