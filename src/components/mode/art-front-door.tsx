@@ -101,7 +101,7 @@ function ArtHubIntro() {
         <div style={{ padding: '0 18px 8px', fontFamily: SANS, fontSize: 11, letterSpacing: 0.5, fontWeight: 600, color: FAINT, textTransform: 'uppercase' }}>Jump to the famous stuff</div>
         <div style={{ display: 'flex', gap: 8, padding: '0 18px 4px', overflowX: 'auto', scrollbarWidth: 'none' }}>
           {ART_CHIPS.map(c => (
-            <Link key={c.label} href={`/art/${c.eraId}`} style={{
+            <Link key={c.label} href={c.href ?? `/art/${c.eraId}`} style={{
               padding: '8px 12px', borderRadius: 999, border: `1px solid ${BORDER_STRONG}`, background: CHIP,
               color: 'var(--foreground)', textDecoration: 'none', fontFamily: SANS, fontSize: 12.5, fontWeight: 500, whiteSpace: 'nowrap', flexShrink: 0,
             }}>{c.label}</Link>

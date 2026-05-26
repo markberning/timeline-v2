@@ -57,16 +57,17 @@ export const ART_ERAS: ArtEra[] = [
 ]
 
 // "Jump to the famous stuff" chips on the Era Hub — fast lanes to marquee
-// material. `eraId` is where the chip lands until deeper pages exist.
+// material. A chip lands on its `href` if set, else on `/art/{eraId}`.
 export interface ArtChip {
   label: string
   eraId: string
+  href?: string
 }
 
 export const ART_CHIPS: ArtChip[] = [
-  { label: 'Impressionism', eraId: 'mod' },
+  { label: 'Impressionism', eraId: 'mod', href: '/art/mod/imp' },
   { label: 'The Renaissance', eraId: 'ren' },
-  { label: 'Picasso & Cubism', eraId: 'mod' },
+  { label: 'Picasso & Cubism', eraId: 'mod', href: '/art/mod/cubism' },
 ]
 
 // ─────────────────────────────────────────────────────────────
