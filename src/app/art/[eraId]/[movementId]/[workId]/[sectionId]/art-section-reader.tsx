@@ -3612,6 +3612,761 @@ function IsAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ── Impressionism Batch A (4 works × 5 chapters = 20 components).
+// Authored gates-first via the art content pipeline; see audits/art-pipeline/imp-batch-a-*.
+// La Grenouillère (Monet, 1869) — Gre… ───────────────────
+function GreSeine({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Croissy &middot; summer 1869" title="The frog pond on a Sunday" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a slack arm of the river on a hot afternoon &mdash; a stretch of the Seine just west of Paris, slow-moving and lazy where it widens around a small wooded island. The island sits a few yards offshore, roped to the bank by a wooden gangplank that runs out to a flat floating platform of planks and lattice. The platform is a caf&eacute; and dance hall and bathing spot all bolted together, half-on-the-water, and on any given Sunday in 1869 it is packed with Parisians who have come out for the day in their best dark clothes &mdash; clerks, shopgirls, students, soldiers on leave &mdash; drinking, splashing, gawking, and trying to get out of the city heat for a few francs. The place is called <strong>La Grenouill&egrave;re</strong>, which translates roughly as &ldquo;the frog pond.&rdquo; Now stand on the riverbank in front of it and put two easels there, side by side, and behind those easels put two men in their late twenties who are nearly broke. That&rsquo;s the whole setup of this picture. The rest of this read is what those two men figured out across that summer, while they were standing there.
+      </p>
+
+      <SectionHeader accent={accent} label="The railway" title="What put Parisians on the Seine" />
+      <p style={proseStyle}>
+        The two men are <strong>Claude Monet</strong> (1840&ndash;1926) and <strong>Pierre-Auguste Renoir</strong> (1841&ndash;1919), and the reason they&rsquo;re at the Seine and not in Paris is a story about a railway. Until about a generation before this, going from Paris out to a riverside village for an afternoon&rsquo;s bathing was a serious expedition &mdash; the kind of trip a working person could not afford the day off to make. Then the Saint-Lazare line, the western train line running out of one of Paris&rsquo;s big terminus stations, reached the Seine villages &mdash; <strong>Bougival</strong>, <strong>Chatou</strong>, <strong>Croissy-sur-Seine</strong>, a cluster of riverside towns about ten miles downstream from Paris where the river loops slowly through orchards and meadows. With the train, those villages became a same-day trip for ordinary Parisians: cheap fare, an hour out, an hour back, a whole afternoon on the water in between. That&rsquo;s the engine behind this picture. La Grenouill&egrave;re is one of the most-painted spots of the entire <strong>Seine resort</strong> boom &mdash; the cluster of pop-up caf&eacute;s and bathing pavilions that the new railway invented along the riverbanks of the western suburbs.
+      </p>
+      <p style={proseStyle}>
+        It&rsquo;s worth being honest about what kind of place it actually was, because the legend has scrubbed it up over the years into something it wasn&rsquo;t. La Grenouill&egrave;re was not a respectable bourgeois retreat where polite families took the air. It was rowdy. It was a little dubious. The same year Monet and Renoir were painting there, Napoleon III himself &mdash; the emperor of France &mdash; had paid a visit (the year before, in fact), which gives you the upper edge of its fame; the lower edge is that everyone knew the bathing girls and their company. It was a working-class pleasure-spot &mdash; caf&eacute;, dance pavilion, bathing dock, and pickup joint, all on planks above the river. The dark-suited day-trippers Monet paints on the platform aren&rsquo;t aristocrats; they&rsquo;re clerks on Sunday. The whole place hummed with the slightly louche energy of a beach resort with no parents around.
+      </p>
+
+      <SectionHeader accent={accent} label="Two broke friends" title="Monet and Renoir, walking distance away" />
+      <p style={proseStyle}>
+        The two painters were not visiting in style either. Monet was holed up in <strong>Saint-Michel</strong>, a tiny hamlet just upriver near Bougival, with his partner <strong>Camille Doncieux</strong> and their infant son <strong>Jean</strong> &mdash; the family was nearly out of money and Monet was writing begging letters to friends to send a few francs so they could eat. Renoir was a couple of villages over, in <strong>Voisins</strong>, staying with his parents because he too could not afford his own place. They had been friends for years, both stubborn, both ambitious, both more or less locked out of the official French art world. So when the weather got warm, the two broke friends did what broke friends in their twenties have always done: they walked. From wherever they were sleeping over to La Grenouill&egrave;re, where the entertainment was free if you stayed on the bank and the subject matter was endless.
+      </p>
+      <p style={proseStyle}>
+        And they did it not once but <strong>across the summer of 1869</strong> &mdash; over and over, week after week, several painting sessions strung out across the season. (This is the most-repeated misreading of the story, the one to nail down right now: people love to say Monet and Renoir set up their easels next to each other one sunny morning and made these canvases the same day, in a single golden burst. They did not. The side-by-side canvases are the product of <em>weeks</em> of company at the same spot &mdash; many afternoons, not one. That&rsquo;s the difference between a romantic flash of inspiration and a slow, deliberate, summer-long thinking-out-loud between two painters who knew each other&rsquo;s work as well as their own.)
+      </p>
+      <p style={proseStyle}>
+        So that&rsquo;s the setting. A working-class river resort an hour out of Paris, made possible by a railway. A floating caf&eacute;-bathing-deck called the frog pond. Two friends in their late twenties, broke and ambitious, stuck on the same problem &mdash; how to paint a moving, dappled, sun-struck riverside in a way that didn&rsquo;t kill it. And one slow afternoon after another, with their easels close enough to talk over, they began to figure something out together.
+      </p>
+    </article>
+  )
+}
+
+function GreMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Tableau vs pochade" title="The rule that ran the industry" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand what changed at La Grenouill&egrave;re, you need one word that ran the entire 19th-century art world: <strong>tableau</strong>. A <em>tableau</em> (pronounced &ldquo;tah-BLOH&rdquo;) was a <em>finished picture</em> &mdash; the kind of painting you spent six months on in a studio, blending every stroke smooth, polishing the surface to porcelain. A tableau was what you sent to the <strong>Salon</strong>, the official annual art exhibition in Paris where careers were made; it was the only thing that counted as a Real Painting. Set against it was a humbler creature called the <strong>pochade</strong> (pronounced &ldquo;po-SHAHD&rdquo;) &mdash; French painters&rsquo; word for a quick oil sketch, made fast, in front of the real motif, usually outdoors. Pochades were preparation, a tool. You made one to figure out a tableau. You did not show a pochade, you did not finish it, you did not sign it. A pochade was scratch paper that happened to be in oil. That distinction was the bedrock of the whole industry.
+      </p>
+      <p style={proseStyle}>
+        The whole point of what Monet and Renoir did at La Grenouill&egrave;re is that they treated the pochade as the finished picture.
+      </p>
+
+      <SectionHeader accent={accent} label="Plein air" title="Cutting out the studio" />
+      <p style={proseStyle}>
+        Start with the practical conditions. The two friends were painting <strong>en plein air</strong> &mdash; French for &ldquo;in the open air,&rdquo; meaning outdoors, on the spot, in front of the real light, rather than back in a studio from sketches and memory. Plein air wasn&rsquo;t new &mdash; an earlier generation, the <strong>Barbizon painters</strong>, had popularized going outside with portable paint boxes &mdash; but the Barbizon men still came home and worked their outdoor sketches up into finished tableaux in the studio. Monet and Renoir cut out the studio. Whatever they made on the riverbank was going to be the final object.
+      </p>
+      <p style={proseStyle}>
+        That changes how you paint, because the river won&rsquo;t sit still for six months. The light shifts every fifteen minutes; the water moves constantly; the breeze ripples the surface; the trees dapple and re-dapple. You cannot blend a painting smooth at that speed. So both painters worked <strong>wet-into-wet</strong> (fresh color dragged straight through color still wet on the canvas, so the strokes smear and blend on the surface itself), in fast, separate touches of pure pigment laid down side by side. They didn&rsquo;t premix a &ldquo;water color&rdquo; on the palette; they laid down a stroke of slate blue, then a stroke of olive green next to it, then a stroke of dirty white next to that, and trusted the viewer&rsquo;s eye to do the mixing. This technique has a name: <strong>broken color</strong> &mdash; small, separate strokes of unblended pure color, side by side, instead of smoothly mixed tones, so the picture surface stays alive with the individual marks. It is the technical headline of <em>La Grenouill&egrave;re</em>.
+      </p>
+      <p style={proseStyle}>
+        And it matters for <em>this</em> subject in particular, because moving water under bright sun is the one thing in nature broken color is built to paint. A flat smooth lake reflects like a mirror &mdash; you can blend that. But choppy water under direct light is a thousand tiny tilted surfaces flashing different colors at once: blue here, white-glare there, dark-shadow-green here, ochre-reflection there, all changing every second. The only honest way to put that on canvas is in tiny separate strokes of different colors next to each other, fast, and not blended. Sit Monet and Renoir on the bank and you get <em>paint that reads as moving sun-struck water</em> &mdash; because the marks behave the way the real water behaves. That is the discovery, and it was found at this exact spot.
+      </p>
+
+      <SectionHeader accent={accent} label="Two easels" title="A tiny research lab on the bank" />
+      <p style={proseStyle}>
+        The reason it took both of them is that working against the entire training of the era is harder alone than in pairs. Two easels next to each other, week after week &mdash; two painters who could see each other&rsquo;s canvases, talk between strokes, watch each other&rsquo;s solutions &mdash; was a tiny research lab. Monet would put down a stroke; Renoir would try one of his own; one would push the pure-color side, the other the soft-pearl side. They weren&rsquo;t copying each other. They were thinking together. (Renoir&rsquo;s twin canvas of nearly the same view, made on the same bank that summer, is now at the <strong>Nationalmuseum</strong> in Stockholm. The two pictures are best read as sibling experiments, not as a master and a follower &mdash; trading notes, not ranks.)
+      </p>
+
+      <SectionHeader accent={accent} label="The letter to Bazille" title="Monet calls his own picture a bad sketch" />
+      <p style={proseStyle}>
+        There is one piece of paper that proves Monet himself did not yet think any of this was finished work. In September 1869 he wrote to his friend the painter <strong>Fr&eacute;d&eacute;ric Bazille</strong>: <em>&ldquo;I do have a dream, a painting (</em>tableau<em>), the baths of La Grenouill&egrave;re, for which I have made some bad sketches (</em>pochades<em>), but it is only a dream.&rdquo;</em> That is the whole pivot of this picture&rsquo;s status. Monet, in 1869, is calling the canvases he is making at La Grenouill&egrave;re &ldquo;bad sketches&rdquo; &mdash; <em>pochades</em> &mdash; that he hopes to work up someday into a real tableau. He thinks the Met&rsquo;s picture is a scratch. He thinks the <em>real</em> painting is the larger, finished version he plans to make from these sketches and submit to the Salon.
+      </p>
+      <p style={proseStyle}>
+        And he tried. Monet started that larger version: a bigger, more worked-up canvas that he in fact submitted to the <strong>Salon of 1870</strong> &mdash; and the Salon jury <strong>rejected it</strong>. The picture later passed into the <strong>Arnhold collection</strong> in Berlin, a major German Jewish art collection assembled by the banker Eduard Arnhold in the early 20th century. When the Nazis dismantled that collection during the Second World War, the painting <strong>disappeared</strong> &mdash; presumed destroyed sometime between 1939 and 1945. So the tableau Monet had dreamed of in his letter to Bazille was made, rejected by the official system it was made for, sold off, and then lost in a war seventy years later. What survived, and what changed painting, was the so-called bad sketch he had been making on the bank.
+      </p>
+    </article>
+  )
+}
+
+function GreLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The water" title="Broken strokes that refuse to mirror" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ook at the river first. Nearly two-thirds of this canvas is water, and the water is the part that makes the picture famous: <strong>horizontal broken strokes</strong> in slate blue, emerald, white, ochre, and dark brown, slashed across in jabs and dashes &mdash; short, choppy, separate touches of unmixed pigment laid down side by side. No smooth blending. No glassy mirror. Where the trees on the far bank reflect into the water, Monet does not paint a mirrored shape &mdash; he paints continuous <em>horizontal bars</em> in the colors of those reflections. The reflections of the boats aren&rsquo;t boat-shaped either; they&rsquo;re bands of dark and pale running flat across the water. That refusal to mirror is the picture&rsquo;s quietest joke. A real choppy river surface doesn&rsquo;t reflect like a mirror &mdash; every little tilt of the surface re-aims the light somewhere else, so what you actually <em>see</em> is a horizontal smear of color, not a clean upside-down copy of the bank. Monet paints what the eye gets, not what the mind expects.
+      </p>
+      <p style={proseStyle}>
+        The painting itself is small for what it does &mdash; about two and a half feet tall and a little over three feet wide (the museum&rsquo;s catalogue number is 74.6 by 99.7 centimeters, the source-of-truth measurement; in plain feet and inches that&rsquo;s roughly <strong>2 ft 5&frac12; in &times; 3 ft 3&frac14; in</strong>). Oil on canvas, signed and dated lower right <em>Claude Monet 69</em>. The view looks across that wide, slack stretch of the Seine on a hot summer afternoon. Now work out from the water, piece by piece.
+      </p>
+
+      <SectionHeader accent={accent} label="Le Camembert" title="The island and the floating pavilion" />
+      <p style={proseStyle}>
+        Middle distance, dead center: a small round island, fat with summer trees, sitting in the river like a fat green hat. The locals called it <strong>the Camembert</strong>, after the round French cheese, because of its shape (some called it the Flowerpot Island for the same reason). A narrow wooden gangplank runs from the island out to a rectangular floating platform of planks and lattice &mdash; the bathing-and-dance pavilion of La Grenouill&egrave;re itself, the floating caf&eacute; where everyone is hanging out. Monet paints the platform and the island as broad slabs of olive green and warm gray, no fussy detail, the planking suggested by horizontal bands rather than drawn board-by-board. The whole pavilion is a stage; the people on it are the cast.
+      </p>
+
+      <SectionHeader accent={accent} label="The cast" title="Day-trippers as silhouettes" />
+      <p style={proseStyle}>
+        And the cast is not painted as people. On the platform and gangplank &mdash; where, in a proper Salon picture, you&rsquo;d expect to find individuals with hats and faces and stories &mdash; Monet gives you nothing of the kind. Small standing figures in dark dress clothes, day-trippers in their Sunday best, are sketched in as paint-strokes only a few inches high: wedges of dark and pale paint, leaning, clustering, gesturing, with <strong>no faces</strong> at all. You can read postures and body language, who&rsquo;s pausing for a drink and who&rsquo;s heading for the gangplank, the way you read a crowd at a distance. But not one of them has eyes you can find, not one has a hat brim drawn in. They are <em>silhouettes</em>, brilliantly placed and deliberately left that way &mdash; what a crowd actually looks like across a sunlit river from forty feet off, not what crowds look like in Salon paintings.
+      </p>
+
+      <SectionHeader accent={accent} label="Boats and bathers" title="Heavy dark wedges, and figures in the water on the left" />
+      <p style={proseStyle}>
+        Sweep to the lower left, in close. Along the riverbank in the foreground a knot of <strong>rowboats and skiffs</strong> are tied up, prow-out, painted as tilted dark wedges with pale ribs &mdash; long-bellied wooden river boats, the kind you&rsquo;d rent for the afternoon for a few sous. Monet renders them as solid dark masses with little pale highlights along the gunwale (the boat&rsquo;s upper edge) catching the light. They are the picture&rsquo;s heaviest, darkest paint &mdash; anchoring the corner.
+      </p>
+      <p style={proseStyle}>
+        Now look further out, into the water at the LEFT side of the canvas, in the middle distance just past the boats and over toward the pavilion. There &mdash; half-immersed in the river &mdash; are the <strong>bathers</strong>: a small cluster of men and women in white or dark shirts, each sketched as a few broken brushstrokes. They have no faces either. They aren&rsquo;t posed; they&rsquo;re standing waist-deep in the river on a hot day, painted with the same loose dabs Monet uses for the boats and the trees. (You will sometimes see captions place them in the right foreground; they&rsquo;re not there &mdash; they are small figures in the <em>water on the left</em>, set well back from the bank, and easy to miss if you&rsquo;re scanning for a tableau-style group portrait.) That&rsquo;s the giveaway: in this picture, <em>people are not a special category of paint</em>. A bather is just another thing the eye catches in the dazzle.
+      </p>
+
+      <SectionHeader accent={accent} label="The trees" title="No sky, only foliage and the bounce off the water" />
+      <p style={proseStyle}>
+        Above all that, filling the upper third, are the <strong>trees</strong> on the far bank &mdash; dense summer foliage in unblended greens and yellow-greens, with dapples of warm light and pockets of dark shadow stitched into them. There is essentially no sky visible. The picture&rsquo;s light isn&rsquo;t coming down out of a band of blue at the top; it&rsquo;s bouncing off the water at the bottom. The sun is high and slightly off to the upper left &mdash; you can tell by the way the pavilion casts its clear dark reflection beneath it. The whole palette is high-contrast: saturated olive greens, slate blue, white, warm ochre, dark brown &mdash; not the pastel haze the late Impressionist work would shade into. Full midsummer color, dropped onto the canvas in separate touches.
+      </p>
+    </article>
+  )
+}
+
+function GreBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The four breaks" title="What La Grenouill&egrave;re actually opened" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o what did <em>La Grenouill&egrave;re</em> break open? Four things, mainly, and they&rsquo;re worth taking one at a time, because together they&rsquo;re the whole quiet argument of what would later be named Impressionism &mdash; and each one is sitting right there on the Met&rsquo;s canvas, in paint.
+      </p>
+
+      <SectionHeader accent={accent} label="One" title="The sketch is the painting" />
+      <p style={proseStyle}>
+        <strong>One: the sketch is the painting.</strong> The biggest rule this picture breaks is the one that ran the entire industry &mdash; the rule that says a real painting (<em>tableau</em>) is something you finish smooth and slow back in the studio, and a sketch made outdoors (<em>pochade</em>) is the cheap practice piece you toss out afterward. Monet thought he was making pochades that summer; the letter to Bazille proves it. But what he and Renoir actually made, in front of the river, was a <em>finished</em> picture in pochade form &mdash; fast, loose, on-the-spot, signed <em>Claude Monet 69</em>, and held by its own painter as a complete object even as he kept calling it a sketch. The status flipped under their feet. The picture you can see in the Met today, with the choppy horizontal water-strokes left visibly as separate marks, is <em>being shown to you finished in exactly the state a previous generation would have called unfinished</em>. The roughness isn&rsquo;t an accident. It&rsquo;s the message. The slow polish would have killed the dazzle, so they skipped the slow polish. The &ldquo;bad sketch&rdquo; is the work.
+      </p>
+
+      <SectionHeader accent={accent} label="Two" title="Paint that reads as moving water" />
+      <p style={proseStyle}>
+        <strong>Two: paint that reads as moving water.</strong> The water is the technical headline, and the proof that broken color found its perfect subject here. Look at it: slate blue and emerald and white and ochre slashed across the surface in short, separate, mostly-horizontal jabs. Stand close and you see only the strokes &mdash; pure colors next to each other, not blended. Step back and your eye does the mixing on its own, and <em>the water moves</em>. That illusion of movement isn&rsquo;t a trick of fancy drawing; it&rsquo;s a physical property of unmixed paint laid down in separate marks, matching the way the painters worked (in separate touches) to the way the actual water surface was behaving (in separate tilted facets each reflecting differently). Painting could now <em>do</em> the riverbank in a way no smooth-blended tableau ever had. That is the seed of nearly everything Monet would spend the rest of his life on &mdash; the <em>Water Lilies</em>, the haystacks, the cathedrals, the long Thames series. The lily ponds at Giverny are a long way down this same road, and the road starts here.
+      </p>
+
+      <SectionHeader accent={accent} label="Three" title="Figures as marks" />
+      <p style={proseStyle}>
+        <strong>Three: figures as marks.</strong> A proper tableau gave you faces &mdash; even a crowd scene drew the foreground figures with enough detail to know who was who. Monet does the opposite: day-trippers as silhouettes and dabs, bathers as broken brushstrokes, faces nowhere to be found. The argument is the same as the one about water &mdash; he is painting what the eye actually gets across a river of glare on a hot day, not what the mind knows is there. You don&rsquo;t see your fellow Sunday-tripper&rsquo;s expression from forty feet across a sunlit pavilion; you see a wedge of dark suit and a posture. Monet paints the wedge. That decision will scale up later, in whole crowds of Impressionist boulevards, dance halls, racecourses, and caf&eacute;s, where the marks of the brush do the work of human bodies. It is first deployed at full strength right here.
+      </p>
+
+      <SectionHeader accent={accent} label="Four" title="A working-class subject worth a serious painting" />
+      <p style={proseStyle}>
+        <strong>Four: a working-class subject treated as worth a serious painting.</strong> A Salon-grade Seine picture in 1869 would have been a noble river scene &mdash; boatmen, mythological figures, maybe a tall poetic willow on a calm bank. Monet pointed his canvas at a rowdy floating caf&eacute;, full of clerks and bathing girls and Sunday-trippers in cheap dress clothes, and treated <em>that</em> as worth a real painting. The Frog Pond was almost a punchline of a subject for a serious artist &mdash; and he made it the subject. That choice belongs to a bigger conversation already running in Paris: the poet <strong>Charles Baudelaire</strong> and the painter <strong>&Eacute;douard Manet</strong> had been pushing for a decade the idea that the painter&rsquo;s true job was to paint <strong>modern life</strong> &mdash; the present-tense, here-and-now, city-and-suburb world, including the parts that were not noble or eternal. La Grenouill&egrave;re is the Seine-resort wing of that program, planted on a wooden gangplank above the river.
+      </p>
+
+      <SectionHeader accent={accent} label="A method, not a movement yet" title="The name came later. The picture came first." />
+      <p style={proseStyle}>
+        Put those four together and what you have is, in 1869, <em>a working method</em>. Not a fully-formed movement, not yet &mdash; the word &ldquo;Impressionism&rdquo; wouldn&rsquo;t exist for five more years, and that name would land on a different Monet picture (a dawn over the harbor at Le Havre, painted in 1872) at a critic&rsquo;s mocking review of an 1874 exhibition. But the <em>method</em> &mdash; broken color, plein air, sketch-as-finished-painting, modern subjects, figures and reflections as marks &mdash; is on the canvas at the Met. It is not the day Impressionism was born; you cannot point at any one day for that. But it is one of the moments where the future method first shows up, in paint, in front of you, as a working solution to a problem two friends were thinking out loud about together on the bank of a river one slow summer. The name came later. The picture came first.
+      </p>
+    </article>
+  )
+}
+
+function GreAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The quiet decades" title="A picture nobody much noticed at first" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a picture that ended up doing all that, <em>La Grenouill&egrave;re</em> spent most of its first three decades in nobody&rsquo;s spotlight. Monet did not show it at the 1874 First Impressionist Exhibition (a persistent legend says he did; the museum&rsquo;s catalogue does not confirm it and you should treat any &ldquo;Grenouill&egrave;re was at the 1874 show&rdquo; claim with skepticism). It did not appear at any other major Impressionist show in the years when it would have mattered most for Monet&rsquo;s career. It mostly sat. Where, exactly, gets a little hard to pin down, which is appropriate for a sketch its own painter once dismissed as a bad one.
+      </p>
+
+      <SectionHeader accent={accent} label="From Manet to Mme Manet" title="A friend buys it; his widow inherits it" />
+      <p style={proseStyle}>
+        The first owner the museum tentatively names is, of all people, <strong>&Eacute;douard Manet</strong> (1832&ndash;1883) &mdash; the older Paris painter whose <em>Olympia</em> and <em>Le D&eacute;jeuner sur l&rsquo;herbe</em> had scandalized the Salon in the 1860s and made him the unofficial elder of the modern-life painters. Manet was Monet&rsquo;s friend and informal patron and occasionally bought a friend&rsquo;s canvas off the easel to keep the rent paid. Manet&rsquo;s role here is uncertain &mdash; the Met&rsquo;s catalogue says &ldquo;possibly&rdquo; his &mdash; but it fits the story: Monet was broke that summer, broke the next year too, and Manet was the kind of friend who quietly helped. From Manet, the picture seems to have passed to his widow <strong>Suzanne Manet</strong> (1829&ndash;1906) &mdash; Suzanne Leenhoff, the Dutch piano teacher who had taught &Eacute;douard and his brothers as boys and quietly married &Eacute;douard in 1863. Mme Manet inherited her husband&rsquo;s stock of paintings after his death in 1883. From her, <em>La Grenouill&egrave;re</em> appears to have moved to <strong>Durand-Ruel</strong> &mdash; the great Paris dealer who became the Impressionists&rsquo; agent and lifeline &mdash; possibly bought from her in 1886, certainly in Durand-Ruel&rsquo;s stock by 1891.
+      </p>
+
+      <SectionHeader accent={accent} label="To Fifth Avenue" title="The Havemeyers buy it, the Met inherits it" />
+      <p style={proseStyle}>
+        Durand-Ruel is the hinge of this story, because Durand-Ruel had a new market in mind. By the 1890s American collectors had begun to discover the Impressionists in earnest, and Durand-Ruel was selling them work as fast as he could supply it. On <strong>27 September 1897</strong>, <em>La Grenouill&egrave;re</em> sold from Durand-Ruel&rsquo;s stock for <strong>12,500 francs</strong> to <strong>H. O. Havemeyer</strong> &mdash; Henry Osborne Havemeyer, the New York sugar-refining magnate, and his wife <strong>Louisine Havemeyer</strong>, who together were assembling one of the great American art collections of the era. (Louisine in particular was the eye and the engine of the collection; she had been buying Impressionists since the 1870s, when she was still in her twenties and the painters were nobodies.) The painting went to New York. It sat in the Havemeyers&rsquo; Fifth Avenue mansion for the next thirty-odd years, alongside Manets and Degases and Cassatts and El Grecos. When Louisine died in 1929, she left the entire collection to the Metropolitan Museum of Art &mdash; the <strong>Havemeyer Bequest</strong> of 1929, one of the most generous single gifts in the museum&rsquo;s history &mdash; and <em>La Grenouill&egrave;re</em> (accession number <strong>29.100.112</strong>) joined the Met&rsquo;s permanent collection. It has been there ever since.
+      </p>
+
+      <SectionHeader accent={accent} label="The lost tableau" title="What the Salon rejected, the war finished" />
+      <p style={proseStyle}>
+        Meanwhile, what Monet himself thought was the <em>real</em> picture &mdash; the larger, finished tableau he had told Bazille about in his September 1869 letter &mdash; went the other way. Monet did work it up, did submit it to the <strong>Salon of 1870</strong>, and the Salon <strong>turned it down</strong>. That rejected canvas passed eventually into the <strong>Arnhold collection</strong> in Berlin, the great pre-war collection assembled by the banker Eduard Arnhold; when the Nazis broke that collection apart during the Second World War, the painting <strong>vanished</strong>, almost certainly destroyed. The tableau Monet had dreamed of, that the official system had refused, that the next century&rsquo;s war had finally killed &mdash; is gone. The pochade is famous.
+      </p>
+
+      <SectionHeader accent={accent} label="Three transcripts" title="The other canvases from the same summer" />
+      <p style={proseStyle}>
+        That summer&rsquo;s work in fact survives in more than two canvases. Renoir&rsquo;s twin &mdash; his version of nearly the same view, painted the same summer from a slightly different vantage on the same bank, set up next to Monet&rsquo;s easel through that long warm season of work &mdash; went on its own journey and ended up at the <strong>Nationalmuseum</strong> in Stockholm. And a second small Monet from the same summer, <em>Bathers at La Grenouill&egrave;re</em> &mdash; focused tighter on the bathing pontoon and the figures in the water &mdash; is at the <strong>National Gallery in London</strong> today. Read in that company, the Met picture is not a one-off; it is one of at least three sibling pochades the two friends pulled off the same bank that summer, talking to each other across their easels. There is no master version and no copy. They were the joint product of two painters thinking through the same problem in real time, in the same place, day after day. Treat them like a conversation that happened to leave three transcripts.
+      </p>
+      <p style={proseStyle}>
+        So the painting you can stand in front of today at the Met, the small dazzling canvas of the Frog Pond, is a painting its own painter once thought was a scratch &mdash; a sketch toward a finished picture he actually made, submitted, lost the Salon over, and lost again to a war. It is a quiet joke at the expense of the tableau-pochade hierarchy that the 19th-century art world ran on. The big polished tableau is dust. The bad sketch named the future. Monet would spend the next sixty years painting Seine surfaces and lily pads and cathedrals and London fog with the method he and Renoir worked out on a wooden platform on the Frog Pond, across the summer of 1869. The pochade kept its strokes visible. It&rsquo;s still moving.
+      </p>
+    </article>
+  )
+}
+
+// Bal du moulin de la Galette (Renoir, 1876) — Mg… ───────
+function MgMontmartre({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Montmartre · 1876" title="Sunday at the windmill" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a hill on the north edge of Paris, the kind of hill you climb on a Sunday afternoon when you want to get out of the city without leaving it. At the top sits a working windmill &mdash; an actual mill, with sails &mdash; and tucked beside it, in an open-air garden ringed with trees, hundreds of young people are dancing. Round paper-globe lanterns hang in the branches overhead, strung on wires between the trees, not yet lit because it is still daylight. The band is playing. The wine is cheap. The house specialty &mdash; the <strong>galette</strong>, a flat round biscuit-cake baked from the mill&rsquo;s own flour and sold with a glass of milk for almost nothing &mdash; is laid out at the counter. The crowd is mostly working-class: laundresses, seamstresses, clerks, students, the sons and daughters of the carpenters and stonemasons who live on the hill. Mixed in among them is a thin scattering of broke young painters from the neighborhood, watching.
+      </p>
+      <p style={proseStyle}>
+        This is <strong>Montmartre</strong> in 1876. Not yet the clich&eacute; tourist Montmartre of Sacr&eacute;-C&oelig;ur and accordion players &mdash; the big white basilica at the top of the hill hasn&rsquo;t been built yet &mdash; but the real working Montmartre, still half a village, only recently absorbed into the city itself. Paris had eaten its surrounding villages in 1860, swallowing Montmartre and a clutch of other communes into its expanded city limits, and the hill was now technically the <strong>18th arrondissement</strong> (one of the twenty numbered districts the new Paris was divided into, spiraling out from the center like a snail shell). Technically inside Paris; in practice still its own place. Working windmills still ground flour up there. Small farms still grew cabbages. The rents were cheap. The light was good. Painters lived there because painters could afford to.
+      </p>
+
+      <SectionHeader accent={accent} label="The guinguette" title="The Debrays&rsquo; dance garden" />
+      <p style={proseStyle}>
+        The dance garden in question was called the <strong>Moulin de la Galette</strong> &mdash; literally &ldquo;the windmill of the galette&rdquo; &mdash; and it was a real, working family business that the <strong>Debray family</strong>, the local millers, had turned into something more profitable than flour alone. The Debrays in fact owned <strong>two</strong> windmills on this stretch of the Butte: the older <strong>Blute-Fin</strong> (built 1622, the tall sailed mill that you can see in the painting itself), and the <strong>Radet</strong> (built 1717, a few yards downhill). They kept milling, and they spun the site into a <em>guinguette</em> &mdash; French for &ldquo;open-air caf&eacute; and dance hall.&rdquo; (The word originally meant a cheap suburban tavern selling the bad local wine of the same name.) A <em>guinguette</em> was a Sunday-afternoon institution: not a nightclub, not a salon, but the cheap outdoor place ordinary Parisians went to drink wine, eat the galette the place had been named after, and dance to a small band, in daylight, in a garden, with their friends. The Debrays&rsquo; was the most famous of them.
+      </p>
+
+      <SectionHeader accent={accent} label="A new leisure" title="Why Sunday afternoons existed at all" />
+      <p style={proseStyle}>
+        Sunday afternoons mattered, and here is the part that&rsquo;s easy to skate past: this whole world of cheap mass leisure was new. Two changes had only just made it possible. First, the <strong>railways</strong> &mdash; the great new train lines fanning out from the central Paris stations across the 1850s and 1860s &mdash; had stitched the city together internally and pulled the suburbs in close, turning a Sunday trip from a logistical project into a casual outing. Second, and more quietly, the working day was shifting: by the 1870s the French half-day Saturday and the free Sunday were becoming a normal expectation for clerks and shop assistants in Paris, even if factory workers were still some way from it. A clerk in 1830 worked from dark to dark. A clerk in 1876 had a Sunday off, a few francs in his pocket, and a railway-and-omnibus network that would put him at the bottom of the Butte Montmartre by lunchtime. From there it was a walk uphill. Leisure, in the modern sense &mdash; the idea that ordinary people had whole days that were their own &mdash; was being invented in real time, on the ground, in places exactly like this one.
+      </p>
+
+      <SectionHeader accent={accent} label="Enter the painter" title="Renoir, 35 and broke" />
+      <p style={proseStyle}>
+        Now enter the painter. <strong>Pierre-Auguste Renoir</strong> (1841&ndash;1919) was 35 years old in 1876 and broke. Don&rsquo;t write him in your head as the celebrated Renoir of the late portraits and the warm-honey bathers; in 1876 he was a struggling thirtysomething painter whose work the official annual exhibition kept hanging badly or rejecting outright. His main patron was a young fellow painter named <strong>Gustave Caillebotte</strong> (1848&ndash;1894), independently wealthy and quietly buying his friends&rsquo; work to keep them in paint and rent. Renoir had been painting in and around Montmartre for years, but in 1875 he made a deliberate move. He rented a studio nearby on the <strong>rue Cortot</strong>, a small street just downhill from the Moulin de la Galette, and he rented it on purpose &mdash; to work on a single big picture about the dance garden up the hill.
+      </p>
+      <p style={proseStyle}>
+        That picture is the one we&rsquo;re about to look at. It is over five feet wide &mdash; almost six &mdash; and it has named friends of Renoir&rsquo;s in it, sitting at a table, dancing in the crowd. The 35-year-old broke painter is going to put the windmill, the lanterns, the pink-and-blue dresses, the dappled afternoon sun, and the whole new Sunday of the new city on a canvas the size that the establishment reserved for the deaths of kings. Hold that scale in mind. It&rsquo;s the quiet provocation of the entire picture.
+      </p>
+    </article>
+  )
+}
+
+function MgMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="History-painting scale for a dance" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the canvas, because the first fact about this picture is its size.
+      </p>
+      <p style={proseStyle}>
+        <em>Bal du moulin de la Galette</em> is <strong>about 4 ft 3&frac34; in tall by 5 ft 9 in wide</strong>. That doesn&rsquo;t sound enormous on the page; it is enormous in a room. Imagine a canvas wider than a tall person is tall, mounted on a stretcher, then imagine carrying that out of a small Paris studio and back. Now imagine what such a canvas was <em>for</em> by the rules of the time. A canvas this big was a <strong>history painting</strong> &mdash; the grandest category of subject in the academic hierarchy: ancient battles, the death of Caesar, mythology, biblical drama, the great noble themes. Sunday afternoons did not get six feet of canvas. Renoir&rsquo;s first decision, before he ever loaded a brush, was to take history-painting scale and aim it at a dance.
+      </p>
+      <p style={proseStyle}>
+        And not just any dance. Look again at who is on the floor. These are not aristocrats and not the haute-bourgeoisie of the new Paris boulevards; these are <strong>seamstresses, milliners, laundresses, shop clerks, and the journeymen of Montmartre&rsquo;s workshops</strong>, in their cheap Sunday best, holding each other under a working mill on their one day off. The provocation isn&rsquo;t only that Renoir scaled up a leisure subject. It&rsquo;s that he scaled up the leisure of a class that history painting had never depicted at six feet wide. Salon canvases of this size went to gods, generals, and kings. Renoir gave the size to a working girl in a striped dress and her partner in a straw hat. That substitution is the political content of the picture, and it&rsquo;s deliberate.
+      </p>
+
+      <SectionHeader accent={accent} label="Plein air" title="Painting in the garden, finishing in the studio" />
+      <p style={proseStyle}>
+        The second decision was where to work. He rented his small studio on <strong>rue Cortot</strong> in Montmartre in 1875 specifically so the dance garden would be a short walk away. Then he did something the <strong>plein air</strong> painters &mdash; <em>plein air</em> is French for &ldquo;open air,&rdquo; meaning painting outdoors in front of the real light rather than from sketches and memory in a studio &mdash; were starting to do as a method: he carried his canvas, his palette, and his easel up the hill on Sunday afternoons and painted at the <em>guinguette</em> itself, on the spot, with the dance going on around him. Across weeks of Sundays, sitting in the garden under the trees, he worked from life: real faces, real hats, the real fall of leaf-shadow on real shoulders. (Be careful with the legend here. The romantic story that he painted the whole thing <em>en plein air</em> in the garden, every brushstroke laid down outdoors, is partly true and partly tidied up. He painted <em>on site</em> over many sessions; he carried the canvas back to the rue Cortot studio and finished it indoors. &ldquo;Painted partly on site, finished in the studio&rdquo; is the honest phrasing. A big crowd scene with dozens of figures was never going to be wholly resolved in a noisy garden full of dancers.)
+      </p>
+
+      <SectionHeader accent={accent} label="The cast" title="Real friends, named in the corners" />
+      <p style={proseStyle}>
+        The third decision was the cast. Renoir didn&rsquo;t try to paint anonymous strangers; he painted the people he knew. The figures sitting at the small round caf&eacute; table in the front-right of the picture are his friends, named in his own and others&rsquo; accounts of the work. The man in the dark suit and straw boater (the stiff flat-brimmed summer hat), seen in profile facing right with his arm draped over the chair, is the painter <strong>Norbert Goeneutte</strong> (some sources read this seated figure instead as another painter, <strong>Pierre-Franc Lamy</strong> &mdash; they look similar in this group, and the identification isn&rsquo;t airtight). Opposite him, facing us and leaning forward toward the young woman, is the writer <strong>Georges Rivi&egrave;re</strong>, Renoir&rsquo;s friend and the chronicler who would later write up this whole circle. The young woman herself, leaning back against the bench in a striped pink-and-blue dress, is <strong>Estelle Samary</strong>, a young model from the neighborhood. And in the dancing crowd around them are more of the regulars &mdash; the painters <strong>Henri Gervex</strong>, <strong>Fr&eacute;d&eacute;ric Cordey</strong>, <strong>Pierre-Franc Lamy</strong>, the journalist <strong>Paul Lhote</strong>, and at lower left, a favorite Renoir model named <strong>Margot</strong> (Marguerite Legrand), in another striped pink-and-blue dress, dancing with a Cuban-painter friend called <strong>Pedro Vidal de Solares y C&aacute;rdenas</strong>. Most of the dancing crowd in the middle distance is <em>not</em> individually named &mdash; it&rsquo;s a soft crowd, faceless on purpose &mdash; but the front of the picture is a portrait of Renoir&rsquo;s actual Sunday afternoons.
+      </p>
+
+      <SectionHeader accent={accent} label="Dappled light" title="Painting the spots themselves" />
+      <p style={proseStyle}>
+        And now the trick. The hardest problem in this painting, the one Renoir solved on the spot in front of the dancers and that nobody had quite solved before him, is <strong>dappled light</strong>. Dappled light is what happens when sunlight comes down through leaves and branches: the leaves break the light up into discrete round patches, so that what falls on the people below isn&rsquo;t a smooth wash of sun but a scattered constellation of bright spots, with cool shadow in between. Stand under a tree on a sunny afternoon and look at your own arm and you&rsquo;ll see it &mdash; small round coins of warm light, edges soft, all over you. The traditional way to paint this in 1876 was to fudge it: a general golden glow over everything, the shadows toned down, the spots ironed out. Renoir refused. He painted the <strong>spots themselves</strong>, as discrete dabs of warm pink, lilac, pale violet, and straw-yellow, sitting visibly on top of the cool gray-blue of the shadow. He matched the bouncing color of the real garden &mdash; not the <em>idea</em> of sunlight, but the <em>actual</em> messy patchwork it makes on a jacket.
+      </p>
+      <p style={proseStyle}>
+        Look at the man in the dark suit in the lower foreground, the one with his back partly to us. There is a clear <strong>pink-violet patch on his back</strong> that is the same color as nothing else in the picture except other sunspots &mdash; it doesn&rsquo;t match his suit, it doesn&rsquo;t match the wall behind him, it doesn&rsquo;t match his neighbor&rsquo;s hat. It&rsquo;s a discrete dab of color, sitting on the dark cloth, that reads from across a room as a coin of afternoon sun on the man&rsquo;s shoulder. Up close it looks like a bizarre mauve smear. Across the room it looks like sunshine through a tree. That mismatch &mdash; paint that is doing one thing close up and a completely different thing at distance &mdash; is the engine of the whole picture.
+      </p>
+
+      <SectionHeader accent={accent} label="The palette" title="No pure white, no hard black" />
+      <p style={proseStyle}>
+        The <strong>palette</strong> is the other half of the answer. Look at what isn&rsquo;t there: there is almost no pure white anywhere on the canvas, and there are almost no hard black shadows. The dresses that read as white are actually pale pink, lilac, and pale blue. The &ldquo;black&rdquo; suits are warm grays and soft, slightly-purpled blacks. The shadows on the ground are warm, not cold. By keeping pure white and pure black out of the picture, Renoir lets every color <em>belong</em> to the warm afternoon air &mdash; there are no jarring extremes pulling the eye out of the garden. Everything is pitched in the warm middle, which is exactly the register of a real sunlit Sunday afternoon at four o&rsquo;clock. Polish has been refused on purpose; the soft, blurred edges of dancers and faces are the trick that says &ldquo;this is what a crowded garden in moving light actually looks like, not the catalogue of who is wearing what.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        He signed it lower right: <em>Renoir. 76.</em>
+      </p>
+    </article>
+  )
+}
+
+function MgLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="At the canvas" title="Five feet of Sunday afternoon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of the canvas. The first thing that hits you is not any single figure but the <strong>warm air</strong> of the whole thing &mdash; a wash of pinks, lilacs, and pale blues, pricked all over with bright round coins of sunlight, with the soft suggestion of a crowd dancing inside it. Then your eye starts finding things. Slow down and find them on purpose, because the picture is busy and a casual glance reads it as a happy blur.
+      </p>
+
+      <SectionHeader accent={accent} label="Middle ground" title="A couple dancing at the heart" />
+      <p style={proseStyle}>
+        Start where the painting wants you to start, which is the <strong>middle ground</strong>, just behind the seated friends &mdash; the area roughly at the center of the canvas, slightly to the left. A <strong>couple is dancing</strong>. The woman has her back partly turned to us, in a pale pink dress; her partner faces her. They are not the loudest figures in the picture (Renoir is too good for that obvious move), but they are the structural anchor: the painting is <em>about</em> dancing, and there, almost at dead center, is a couple dancing. (Don&rsquo;t try to name them &mdash; Renoir&rsquo;s named friends are at the table and at lower left; this central couple is part of the soft crowd, deliberately unspecified.) Around them, fanning out into the middle distance, is the <strong>sea of dancers</strong> &mdash; a crowd of couples, painted as soft blurs with no facial detail, a wash of bowler hats and pale dresses receding into the garden. A few of the women&rsquo;s dresses pick up pure pink and pure pale-blue strokes that read as the strongest, freshest colors in the whole picture &mdash; bright coins of saturated color floating in the warm haze.
+      </p>
+
+      <SectionHeader accent={accent} label="Front right" title="The table of friends, in sharp focus" />
+      <p style={proseStyle}>
+        Drop your eye now to the <strong>front right</strong>, the lower-right corner, where the picture pulls into sharp focus. Here is the table group: a small <strong>round caf&eacute; table</strong> with a <strong>green wine bottle</strong> and <strong>glasses</strong>, three of Renoir&rsquo;s friends sitting around it, and Estelle Samary leaning back against the bench in her striped pink-and-blue dress. The painter Norbert Goeneutte is in profile in his boater, his arm draped over the chair. The writer Georges Rivi&egrave;re faces us, leaning forward toward Estelle. These three are painted with markedly more definition than the dancing crowd behind them &mdash; sharper edges, more individual feature, more weight. They are the front-of-house, the picture&rsquo;s pinned-down corner, the figures Renoir wants you to recognize as specific people, before the rest of the world dissolves into atmosphere.
+      </p>
+
+      <SectionHeader accent={accent} label="Front left" title="Margot, Don Pedro, and the sunspot" />
+      <p style={proseStyle}>
+        Now drift to the <strong>front left</strong>. Lower-left corner: another figure group, more loosely painted. A young woman is dancing &mdash; this is <strong>Margot</strong>, Renoir&rsquo;s model &mdash; with her Cuban-painter friend Don Pedro. She&rsquo;s in a striped pink-and-blue dress (yes, two pink-and-blue striped dresses, one seated and one dancing &mdash; a rhyme across the front of the picture). Just to the right of them, a man in a dark suit and a straw boater leans into the picture with his back partly to us, a young woman beside him. This is the dark-jacketed man with the famous <strong>pink-violet sunspot</strong> on his back. Find it. It looks utterly wrong as a piece of cloth color and completely right as a coin of sunlight through leaves.
+      </p>
+
+      <SectionHeader accent={accent} label="Above" title="Lanterns waiting for nightfall" />
+      <p style={proseStyle}>
+        Lift your eye now to the <strong>upper third of the canvas</strong>, above the heads. This is the <strong>canopy of trees</strong> &mdash; acacias, by the look of them &mdash; closing over the garden. <strong>Round paper-globe lanterns</strong> are strung overhead between the trees on wires, the kind that get lit at night for dancing into the evening. They are <strong>unlit</strong>: it is still daylight, mid-afternoon. They sit in the leaves as cool pale spheres, decorative now, working later. (These lanterns are the <em>only</em> light fixtures on the canvas &mdash; no gas lamps on posts, no standing fixtures, just paper globes strung overhead. The painting is doing one specific lighting effect: sunlight through leaves, with the lanterns as a quiet reminder that this place is set up to keep going after the sun goes down.) Light falls <em>through</em> the leaves in scattered round patches all over the canvas, and this is the dappled light from the last chapter &mdash; once you start seeing it, you can&rsquo;t stop. It&rsquo;s on the man&rsquo;s back. It&rsquo;s on the women&rsquo;s hats. It&rsquo;s on the wood of the bench. It&rsquo;s on the ground between feet. It&rsquo;s everywhere, the warm pale-violet and pink dabs of it, sitting on top of cool gray-blue shadow.
+      </p>
+
+      <SectionHeader accent={accent} label="Edges" title="The deliberate blur" />
+      <p style={proseStyle}>
+        One more thing to find. Look at how Renoir paints <strong>edges</strong>. Almost nothing in the painting has a hard, drawn edge. Faces are soft. Dresses bleed into the air around them. The far crowd is dissolved into atmosphere. The whole canvas has a slight, beautiful, deliberate <strong>out-of-focus quality</strong>, the way your own vision works at a crowded garden in shifting light: you focus on one face at a time, and the rest blurs at the edges of your attention. Renoir painted the way the eye really sees a moving crowd, not the way the mind catalogues it.
+      </p>
+      <p style={proseStyle}>
+        Step back. The whole picture works as a wedge: sharply-drawn named friends at the front-right corner, softening through Margot&rsquo;s dancing group at the front-left, dissolving into the anonymous warm crowd in the middle distance, vanishing into the lantern-hung canopy of trees at the top. Your eye starts pinned to the named people, drifts inward into the dance, and is finally let go up into the soft canopy. The whole composition is a slow exhale from foreground reality into background atmosphere &mdash; a piece of crowd painting organized like a piece of music, six feet of Sunday afternoon arranged with the structural rigor of an oratorio and the surface of a casual snapshot.
+      </p>
+    </article>
+  )
+}
+
+function MgShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="April 1877" title="The third Impressionist exhibition" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>April 1877</strong>, the painting went on the wall.
+      </p>
+      <p style={proseStyle}>
+        The Impressionists were by this point already three years into running their own counter-shows to the <strong>Salon</strong> &mdash; the state-run annual exhibition that was effectively the only door into a French painting career, with a jury of conservative academics deciding who got in. (The 1874 founding story &mdash; the Nadar studio, the Monet sunrise, the critic Louis Leroy turning &ldquo;Impressionists&rdquo; into a sneering label that the painters then wore on purpose &mdash; belongs to the movement read; this picture sits inside its third year, not its first.) By 1877 they were calling themselves Impressionists on purpose, and they were holding their <strong>third</strong> exhibition.
+      </p>
+      <p style={proseStyle}>
+        That third exhibition opened in <strong>April 1877</strong> in a rented apartment at <strong>6 rue Le Peletier</strong> in Paris, and <em>Bal du moulin de la Galette</em> was one of its centerpieces. Renoir hung it as one of his major entries. (Mark this carefully, because the older story used to say the painting &ldquo;first showed at the 1877 Salon.&rdquo; That is wrong, and it gets repeated even in respectable books, so it&rsquo;s worth flagging. The picture was at the breakaway <strong>3rd Impressionist Exhibition</strong> of April 1877 &mdash; not the official Salon, the establishment show whose jury had been giving the Impressionists a hard time for years. Different show, different room, different politics.)
+      </p>
+
+      <SectionHeader accent={accent} label="The reception" title="Half scorn, half delight" />
+      <p style={proseStyle}>
+        The reception was, predictably, split. Some critics were scornful. The picture was too unfinished, too loose, the figures too blurred, the light too strange. The discrete pink-violet sunspots on dark suits, which we just spent a chapter admiring, struck a number of reviewers as plain wrong: paint dabs in colors no cloth ever was, smeared on cloth where no light could plausibly fall. (The complaint isn&rsquo;t completely silly. Up close, those spots <em>do</em> look like errors. You have to step back to see them resolve into sunshine. Some critics didn&rsquo;t step back.) Other reviewers were delighted. <strong>Georges Rivi&egrave;re</strong> &mdash; the writer leaning forward in the front-right corner of the picture itself, Renoir&rsquo;s friend and built-in PR department &mdash; wrote a glowing defense in his short-lived journal <em>L&rsquo;Impressionniste</em>, calling the painting a page out of real life and praising exactly the dappled light and atmospheric softness that the hostile critics were calling sloppy. The split &mdash; half scorn, half delight &mdash; was the standard temperature of any Impressionist work in the 1870s, and <em>Bal du moulin de la Galette</em> sat near the center of the year&rsquo;s argument.
+      </p>
+
+      <SectionHeader accent={accent} label="1879" title="Caillebotte writes a check" />
+      <p style={proseStyle}>
+        Now the part of the story that matters longest. The painting did not sell on the floor of the exhibition. Renoir was still broke after the show closed, still struggling for income, still leaning on the small group of patrons who kept buying his work. Two years later, in <strong>1879</strong>, <strong>Gustave Caillebotte</strong> &mdash; the wealthy young engineer-painter we met in Chapter 1, Renoir&rsquo;s friend and quiet patron &mdash; bought <em>Bal du moulin de la Galette</em> directly from him. The price isn&rsquo;t securely documented, but the meaning of the purchase is. Caillebotte was buying his struggling friend a year of breathing room, and he was assembling, deliberately, a private collection of his Impressionist friends&rsquo; work &mdash; Renoirs, Monets, Pissarros, Sisleys, C&eacute;zannes &mdash; that he intended to give to the French State on his death. He was building the future of the Luxembourg&rsquo;s modern-art collection one canvas at a time, using his own money to drag the Impressionists onto the museum walls that the Salon would never give them.
+      </p>
+      <p style={proseStyle}>
+        It&rsquo;s a key point, and easy to misunderstand. Caillebotte <strong>did not commission</strong> the picture. Renoir made it on his own initiative, hauled his canvas up the hill to the <em>guinguette</em> on his own Sundays, finished it in his own studio, and exhibited it in April 1877. Three years passed. Only <strong>in 1879</strong> did Caillebotte step in and buy the finished, exhibited, already-existing painting from his friend &mdash; a private sale, after the fact, to keep Renoir in rent. Anything that says Caillebotte ordered the picture or paid for it up front is wrong. He was a collector and patron, not a commissioner.
+      </p>
+      <p style={proseStyle}>
+        So at the end of the show&rsquo;s run, this is where the picture stood: hung in a rented apartment in Paris through April 1877, called sloppy by some critics and brilliant by others, then carried home unsold and quietly hung on Renoir&rsquo;s own wall until the day, two years later, when Caillebotte&rsquo;s offer arrived and the painting moved across town to a private collection that already had several of its neighbors. From there &mdash; but here we get ahead of ourselves. The 1879 purchase is the hinge. What it opens onto is the long afterlife in the museums.
+      </p>
+    </article>
+  )
+}
+
+function MgAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="February 1894" title="A friend dies in his garden" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hen Caillebotte died in February <strong>1894</strong>, at the age of 45, he had been quietly preparing for years. He had a will, and the will gave his Impressionist collection to <strong>France</strong>. The death itself was sudden and physical: <strong>pulmonary congestion</strong> &mdash; a sudden, severe fluid build-up in the lungs &mdash; caught him while he was working in his garden at <strong>Petit-Gennevilliers</strong>, the suburban riverside property where he had moved to paint and to grow flowers. He went down in the garden and didn&rsquo;t recover. He was 45.
+      </p>
+      <p style={proseStyle}>
+        That bequest sounds simple. In practice it nearly broke. The state was, at this point in the 1890s, still very much the state of the <strong>Salon</strong> &mdash; of the conservative academic taste that had been rejecting and bad-hanging the Impressionists for two decades. To be handed a free gift of sixty-seven major Impressionist canvases by a young dead collector who insisted, in the will, that they be hung in the national museums was, for the establishment, somewhere between an insult and a public-relations problem. The negotiation dragged for years. The state&rsquo;s representatives haggled over which works it would accept, eventually agreeing in 1894 to take a portion of the bequest (the full story of <em>that</em> fight belongs to the movement read &mdash; it&rsquo;s the big set-piece of the whole institutional history of Impressionism). The Caillebotte bequest, including <em>Bal du moulin de la Galette</em>, was finally accepted and entered the national collections by <strong>1896</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="Luxembourg, Louvre, Jeu de Paume, d&rsquo;Orsay" title="The slow walk across Paris" />
+      <p style={proseStyle}>
+        Where they put it was the <strong>Mus&eacute;e du Luxembourg</strong> in Paris. The Luxembourg, at the time, was the state&rsquo;s museum of <strong>contemporary art</strong> &mdash; the working museum for living and recently-dead artists, separate from the eternal masterworks at the Louvre across the river. The rule was a kind of waiting room: a work entered the Luxembourg, and then, a decade or so after the artist&rsquo;s death, if its reputation held, it might be &ldquo;consecrated&rdquo; &mdash; promoted across town to the Louvre. <em>Bal du moulin de la Galette</em> went into the Luxembourg in 1896, where it stayed for over thirty years. Renoir died in 1919; in <strong>1929</strong>, ten years after his death and right on the standard schedule, the painting was transferred to the <strong>Louvre</strong>. Consecrated.
+      </p>
+      <p style={proseStyle}>
+        It didn&rsquo;t stay at the Louvre forever. In <strong>1947</strong>, after the upheavals of the Second World War, the Impressionist collection at the Louvre was moved across the Tuileries Gardens into its own dedicated home, the <strong>Jeu de Paume</strong> (an old indoor real-tennis hall, on the corner of the Tuileries, converted into a museum). For nearly forty years the Jeu de Paume was where you went in Paris to see Impressionism. <em>Bal du moulin de la Galette</em> hung there. And then, in <strong>1986</strong>, the French state opened a new museum specifically for 19th-century art &mdash; the <strong>Mus&eacute;e d&rsquo;Orsay</strong>, built inside the magnificent old Beaux-Arts railway station on the left bank of the Seine &mdash; and the entire Impressionist collection moved with it. Renoir&rsquo;s dance has hung there ever since. Its accession number, if you ever want to find it in the d&rsquo;Orsay&rsquo;s catalogue, is <strong>RF 2739</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="The other one" title="A contested smaller version" />
+      <p style={proseStyle}>
+        Now, an important detail, because it&rsquo;s the one most people get wrong. The painting on the d&rsquo;Orsay wall is <strong>the primary version</strong>, the one we&rsquo;ve been describing through this whole read &mdash; about 4 ft 3&frac34; in by 5 ft 9 in, the one Renoir made in 1876, the one Caillebotte bought in 1879 and left to France in 1894. But there is also a <strong>smaller version</strong>, roughly <strong>2 ft 6&frac34; in by 3 ft 9 in</strong>, of the same composition. Its status is contested. It has been variously catalogued, by different scholars, as (a) Renoir&rsquo;s preparatory study for the big canvas, (b) a later replica painted by Renoir himself, or (c) a copy by another hand. Nobody agrees. Phrase it as the museum world does: &ldquo;a smaller version exists, attributed to Renoir but contested.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Wherever it came from, the smaller version had its own dramatic afterlife. It eventually entered the great American collection of <strong>John Hay Whitney</strong>, the publisher and ambassador, and on his estate&rsquo;s sale at <strong>Sotheby&rsquo;s New York in May 1990</strong> it sold for <strong>$78.1 million</strong> &mdash; a price that, at the time, was a world record for any painting at auction. The buyer was reported as a private Swiss collection, where the painting has stayed since. <strong>It is not in the Barnes Foundation</strong>, the famous Pennsylvania collection that holds an extraordinary number of Renoirs; the Barnes does not own any version of <em>Bal du moulin de la Galette</em>. That misattribution circulates, especially online, and should be refused on contact.
+      </p>
+
+      <SectionHeader accent={accent} label="The arc" title="A six-foot Sunday that never quite ends" />
+      <p style={proseStyle}>
+        So sit with the arc of this object. A 35-year-old broke painter rents a small studio in Montmartre. For weeks of Sundays in 1876 he carries a canvas the size that history paintings get up the hill to a working-class dance garden under a windmill. He puts his named friends in it, finishes it in the studio, signs it lower right <em>Renoir. 76</em>, and hangs it the next April in a rented apartment on the rue Le Peletier where some critics call it sloppy and one of his friends defends it in print. He carries it home unsold. Two years later another friend writes him a private check that keeps him in paint. That friend dies young, fifteen years after that, struck down in his own garden, and the painting passes to the French state against the state&rsquo;s own reluctance. Then it works its way slowly across the museums of Paris &mdash; Luxembourg, then Louvre, then Jeu de Paume, then the d&rsquo;Orsay, where it has hung since 1986: a six-foot Sunday afternoon at a working-class dance garden, with its pink-violet sunspots and its two pink-and-blue striped dresses and its lanterns waiting to be lit, that never quite ends.
+      </p>
+    </article>
+  )
+}
+
+// Paris Street; Rainy Day (Caillebotte, 1877) — Ps… ──────
+function PsHaussmann({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; 1877" title="A city less than a decade old" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand on a Paris street corner in 1877 and almost every direction you look, the city is brand new. The cream-stone apartment building on your right was finished maybe five years ago. The wide pavement under your feet was laid the year before that. The avenue running straight away from you for half a mile, ruler-straight, ending at the cast-iron sheds of a railway station &mdash; that didn&rsquo;t exist when your parents were children. Paris in 1877 is one of the youngest-looking old cities on Earth. The medieval city it replaced has been gone for less than a decade. And the man responsible is not a king, or an architect, or even a Parisian. He is a tall, blunt, much-loathed civil-service prefect named <strong>Georges-Eug&egrave;ne Haussmann</strong> (1809&ndash;1891), and what he did to Paris between 1853 and 1870 is the reason the city you can still walk through today looks the way it does.
+      </p>
+      <p style={proseStyle}>
+        Here is the short version. The emperor <strong>Napoleon III</strong> &mdash; nephew of the famous one, ruler of France 1852&ndash;1870 &mdash; looked at Paris in the early 1850s and saw a problem. The city was medieval. Narrow, twisting lanes. Open sewers. Cholera outbreaks. Tenements stacked five and six stories around courtyards the sun never reached. And, awkwardly, those same crooked little streets had a habit of filling up with revolutionary barricades every twenty years or so &mdash; 1830, 1848 &mdash; because they were impossible to clear with cavalry. Napoleon III had spent his exile years in <strong>London</strong>, which had been modernizing for a generation, and he wanted Paris to do the same. So in 1853 he put Haussmann, a career bureaucrat with a flair for ruthless project management, in charge of the largest urban-renewal program in European history. The brief was simple, and it was carried out for seventeen years straight: gut the medieval core, drive long straight <strong>boulevards</strong> (a <em>boulevard</em> is a wide, tree-lined, multi-laned avenue, the wider sibling of an ordinary street) through whatever was in the way, line them with new buildings to a uniform code, and put a new sewer and a new water system underneath.
+      </p>
+
+      <SectionHeader accent={accent} label="The look" title="The city as a single coordinated artwork" />
+      <p style={proseStyle}>
+        The result is what every tourist photo of Paris is secretly a picture of. You know the look without knowing the name. Long axial avenues that hit each other at big star-shaped intersections. Six-story cream limestone apartment blocks, all to roughly the same height (because the regulation said so), with <strong>mansard roofs</strong> &mdash; that distinctive double-pitched gray attic roof, named for an earlier architect, that sits like a square hat on top of every Haussmann block. <strong>Wrought-iron balconies</strong> on the second floor and the fifth, never the others (because the regulation said so). Identical chimneys. Identical window ratios. Block after block of it for miles, with the occasional church steeple or train-station roof poking up to remind you which neighborhood you&rsquo;re actually in. The effect, walking through it, is a city as a single coordinated artwork &mdash; beautiful in a faintly tyrannical way, because <em>one man</em> made all these decisions. Which is exactly what people hated about it at the time, and exactly why it still photographs so well.
+      </p>
+      <p style={proseStyle}>
+        The cost was enormous, in both senses. Roughly <strong>twenty thousand buildings</strong> were demolished. Whole neighborhoods of working-class Parisians were pushed out &mdash; they couldn&rsquo;t afford the new apartments going up in the streets where their old apartments used to be, and they ended up in the cheaper suburbs. The price tag bankrupted the city repeatedly, and in 1870 Haussmann was finally fired for the creative accounting that had kept the project going. A few months later Napoleon III lost a war to Prussia, lost his throne, and the empire that had hired Haussmann collapsed too. But the work was done. The medieval city was gone. The new Paris was &mdash; give or take a few unfinished stretches &mdash; standing.
+      </p>
+
+      <SectionHeader accent={accent} label="The intersection" title="Five streets, a wedge, a pale stone block" />
+      <p style={proseStyle}>
+        Now, the intersection in the picture. Walk west from the center of Paris, cross the river, climb the gentle slope of the right bank, and just east of one of Haussmann&rsquo;s brand-new railway terminals &mdash; the <strong>Gare Saint-Lazare</strong>, the great commuter station that swallowed the western suburbs &mdash; you arrive at a place called the <strong>Place de Dublin</strong>. In 1877 they called it the <strong>Carrefour de Moscou</strong> (<em>carrefour</em> is the French word for an intersection or crossroads). It sits in the <strong>Quartier de l&rsquo;Europe</strong> &mdash; the &ldquo;European Quarter,&rdquo; named because the streets that meet there are all named after European capitals: rue de Moscou (Moscow), rue de Saint-P&eacute;tersbourg (St. Petersburg), rue de Bucarest (Bucharest), and the others. Five streets converge on this one spot. The buildings around it are so new the stone is still pale. The pavement is so new the cobblestones are still nearly level. And rising from the wedge of land between two of those streets &mdash; where rue de Turin and rue de Moscou peel away from each other &mdash; is a single tall <strong>Haussmann apartment block</strong>, narrower at the front than the back, shaped like the prow of a ship, six floors and a mansard, balconies on the regulation floors. The wedge building is still there. You can stand on the Place de Dublin today and see it, more or less unchanged, with a caf&eacute; on the ground floor where Caillebotte painted a doorway.
+      </p>
+      <p style={proseStyle}>
+        This is the setting of the picture. Not &ldquo;a Paris street.&rdquo; A <em>specific</em> Paris street, in the freshest, newest, most aggressively rebuilt neighborhood in the freshest, newest, most aggressively rebuilt city in Europe. The morning after rain. Painted by a man who lived a few blocks away, and who looked at Haussmann&rsquo;s geometry &mdash; the long perspective lines, the uniform fa&ccedil;ades, the wedge &mdash; the way an engineer looks at a good piece of work. Approvingly.
+      </p>
+    </article>
+  )
+}
+
+function PsMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The painter" title="An engineer who could afford to paint" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        ost of the Impressionists were broke. That is a thing worth saying out loud, because it shapes how they painted, what they painted, and what they let themselves try. Monet famously begged loans from friends to keep eating. Renoir was thirty-five, unmarried, sleeping in studios. Pissarro had a family to feed and no buyers. A picture had to be a size you could carry up to a buyer&rsquo;s apartment. A canvas had to be a size you could afford to prime. Big canvases cost money the way big anything costs money &mdash; proportional to surface area &mdash; and a Salon-scale history painting on stretched linen could cost more than a month&rsquo;s rent before you&rsquo;d put a single mark on it.
+      </p>
+      <p style={proseStyle}>
+        <strong>Gustave Caillebotte</strong> (1848&ndash;1894) had none of these problems. His father owned a military-textile firm &mdash; he made beds, blankets, and uniforms for the French army, in industrial quantities &mdash; and when the father died in 1874, Gustave inherited at twenty-six. Independently, comfortably, <em>seriously</em> wealthy. The version of him you sometimes see floating around &mdash; &ldquo;Caillebotte, the wealthy amateur&rdquo; &mdash; is wrong on two counts at once. He was wealthy, yes. He was not an amateur. He had trained as a <strong>civil engineer</strong> (a profession devoted to designing roads, bridges, water systems, the unglamorous infrastructure that makes a modern city run), and he painted with the discipline of someone who&rsquo;d been taught to draft straight lines and calculate angles. He was also, increasingly, the financial backbone of the Impressionist movement: when the group&rsquo;s exhibitions needed rent for the hall, somebody to underwrite the catalogue, somebody to buy a Renoir or a Pissarro from the back wall so the painter could pay his butcher, Caillebotte was the somebody. Several of the Impressionist exhibitions happened because he wrote checks for them. Call him an <em>engineer-painter who could afford to paint without selling</em>, and you have the shape of him right.
+      </p>
+
+      <SectionHeader accent={accent} label="The canvas" title="History-painting scale on a street corner" />
+      <p style={proseStyle}>
+        What he did with that freedom, on this particular canvas, was paint very large. <em>Paris Street; Rainy Day</em> is <strong>about 6 ft 11&frac12; in tall by 9 ft 0&frac34; in wide</strong> (the Art Institute of Chicago, which owns it, gives the metric measurement as 212.2 &times; 276.2 cm). For scale: this picture is wider than two refrigerators set side by side, and taller than most doorways. It is <strong>history-painting scale</strong> &mdash; meaning the canvas size that the Paris art establishment reserved for ancient battles, the death of kings, classical myth, and similar serious matters. To paint a <em>contemporary Paris street corner</em> on a canvas this size was a quiet provocation. You could fit a real-life couple on this picture at almost half their actual height. Stand close to it in the gallery and the bourgeois man in his top hat is looking at you from very near his real size.
+      </p>
+      <p style={proseStyle}>
+        Then the question of <em>how</em> he painted it, because this is where the engineer steps to the front. Caillebotte did what almost no other Impressionist would have bothered to do for a street scene: he worked out the <strong>perspective</strong> in advance, on paper, with the kind of geometric precision you&rsquo;d use to design a railway viaduct. Perspective, briefly, is the trick painters use to make a flat canvas feel like it has depth. <strong>One-point perspective</strong> &mdash; the simplest version &mdash; works by picking a single point on the horizon (the <strong>vanishing point</strong>) and drawing every line that runs <em>away from you</em> toward that point. Train tracks running into the distance, the edges of a long hallway, the curbs of a straight boulevard: in real life they&rsquo;re parallel, but on a flat picture they appear to converge on one spot, and if you draw them as if they do, the picture pops into depth. Renaissance painters figured this out in fifteenth-century Florence. By Caillebotte&rsquo;s day every art student knew it. Almost nobody bothered to <em>flaunt</em> it.
+      </p>
+      <p style={proseStyle}>
+        Caillebotte flaunted it. Look at the picture and follow the curbs of the wet pavement, the rooflines of the apartment blocks on the right, the cornices, the upper-window courses &mdash; they all run, ruler-straight, toward a single point a little above and to the right of the central gas lamppost. You can almost see his preparatory grid. Surviving studies for the picture confirm he made detailed drawings of the architecture and the figures before he ever touched the big canvas. This is not a fast plein-air sketch caught in a moment of light. (<em><strong>Plein air</strong></em> means &ldquo;open air&rdquo; &mdash; painting outdoors, in front of the real scene, the way Monet worked. The opposite of studio work.) This is a designed picture, built indoors from studies, with the architecture worked out the way you&rsquo;d work out a bridge.
+      </p>
+
+      <SectionHeader accent={accent} label="The surface" title="Cool, smooth, almost photographic" />
+      <p style={proseStyle}>
+        And the paint surface itself is <em>cool</em>. This is the headline difference between Caillebotte and the painters hanging in the same rooms with him. A Monet from this year reads as a vibrating mosaic of broken brushstrokes, every patch of color a separate dab, the whole canvas alive with visible paint. A Renoir from this year is a haze of pink and blue dappling, surfaces dissolved into atmosphere. Caillebotte&rsquo;s <em>Paris Street</em>, by contrast, has a smooth, even, almost photographic finish &mdash; the brushwork is mostly invisible at viewing distance. The cobblestones are individual cobblestones, painted one by one. The top hats are sharp-edged. The wet shine on the pavement is rendered, not suggested. If Monet was painting how an eye genuinely <em>receives</em> a scene through hazy air, Caillebotte was painting how an engineer&rsquo;s mind <em>knows</em> a scene is constructed. The cool quiet of the surface &mdash; no warm tone anywhere, no visible bravura brushwork, no sketch-like passages &mdash; is the picture&rsquo;s whole emotional register. It is the most Impressionist subject (modern Paris, an unimportant moment, ordinary people) painted with the <em>least</em> Impressionist hand.
+      </p>
+      <p style={proseStyle}>
+        Which is going to be a problem in April. Hold that thought.
+      </p>
+    </article>
+  )
+}
+
+function PsLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Wet stone, one umbrella, a lamppost down the middle" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he bottom quarter of the canvas is wet stone. Above it, a couple walks toward you under one umbrella. Above them, a single dark-green lamppost rises straight up the middle of a nine-foot picture and splits it neatly in half. Above that, six floors of cream Haussmann apartment block fade away into a flat, even, overcast sky. There is no sun anywhere. There is no shouting, no story, no event. A few dozen bourgeois Parisians are crossing a wet intersection on a gray morning, and that is the whole picture.
+      </p>
+      <p style={proseStyle}>
+        Start at the <strong>center</strong> and go outward. Running straight up the middle of the canvas, splitting it into two near-equal halves, is a single tall dark-green <strong>cast-iron gas lamppost</strong> &mdash; the standard Haussmann street fixture, slim ribbed column, ornamental crown at the top, the kind of lamppost you still see all over Paris today. (Gas lampposts: the streetlights of nineteenth-century cities, lit at dusk by a man with a long pole, fueled by a gas main running under the pavement.) Caillebotte places the lamppost in the <em>exact</em> middle. He could have hidden it, softened it, painted around it. He chose to put it there like a plumb line, dividing his composition with engineering frankness. The lamppost is the vertical axis. Everything else is arranged around it.
+      </p>
+
+      <SectionHeader accent={accent} label="The figures" title="The couple, and the cropped man" />
+      <p style={proseStyle}>
+        Now the <strong>couple</strong>. Just right of center, walking toward you, the picture&rsquo;s two most-looked-at people: a bourgeois man and woman under a single <strong>lavender-grey umbrella</strong> &mdash; pale blue-grey when the light catches it, not the dead black it has sometimes been called. (The Art Institute&rsquo;s varnish-removal work on the picture confirmed the cool, light-toned umbrella; under a century of yellowed varnish it had looked nearly black, but the cleaned canvas reads pale.) &ldquo;Bourgeois&rdquo; &mdash; the wealthy, settled, professional middle class of a nineteenth-century European city, the lawyers and doctors and shop-owners and rentiers who lived in the Haussmann apartment buildings the picture shows. The man is on the woman&rsquo;s right, looking out into the rain past her shoulder. He wears a tall <strong>black top hat</strong>, a long dark overcoat over a buttoned waistcoat, a fresh white shirt, a small bow tie, and has a trim dark mustache. The woman wears a small dark hat with a <strong>soft veil pulled down over her face</strong> &mdash; fashionable in the 1870s, a thin black mesh that filters the face slightly, the way a sheer curtain filters a window. A single <strong>pearl or diamond earring</strong> catches a tiny dab of light at her ear. Her coat is dark blue-gray with <strong>fur trim</strong> at the collar and cuffs. Her <strong>right hand is hooked into the crook of his left arm</strong>; he is holding the umbrella in his left hand, angled so it shelters them both. They are not looking at each other. They are not looking at us. They are walking &mdash; past us, through us, toward the edge of the canvas &mdash; with the slightly bored, slightly far-away expression of two people who do this every morning. Their identities are unknown. They are not specific people. They are <em>a</em> bourgeois Parisian couple, the type, dressed for the type of day. Treat anyone who tells you otherwise with the polite skepticism reserved for storytellers who like a tidy fact better than a true one.
+      </p>
+      <p style={proseStyle}>
+        Now the <strong>cropped man</strong>. This one is the picture&rsquo;s nerviest move. At the <strong>right edge</strong>, walking past the central couple in the opposite direction (away from you, into the right margin), a third figure &mdash; a man in a top hat and dark overcoat &mdash; is sliced abruptly by the edge of the canvas. You see his left side, his umbrella, his right arm. The other half of him is simply <em>gone</em>, lopped off as if the painter had cut the canvas with scissors. Up until the 1860s no respectable European picture did this. A figure on the edge of a painting was always shown whole, or pushed inward, or framed by something. To crop a person in half on the canvas edge was the kind of accident that happened in <strong>photographs</strong> &mdash; those new cheap <strong>prints from a camera</strong> that were everywhere in Paris by the 1870s, where a passerby would wander into the lens and end up bisected at the edge of the frame because the photographer couldn&rsquo;t ask him to step back. Caillebotte, an engineer-painter looking hard at the new technology, lifted the trick. The cropped figure is a deliberate quotation from the photographic accident. It tells you, in one move, that this picture is paying attention to how a modern eye actually catches a busy street: you don&rsquo;t see neat compositions, you see fragments. (You will, occasionally, see this figure identified as Caillebotte himself. The Art Institute&rsquo;s own catalogue does not agree. Treat the cropped man as anonymous.)
+      </p>
+      <p style={proseStyle}>
+        The <strong>middle ground</strong>, behind the couple, has smaller figures: a lone walker, also under an umbrella, head down; two or three more umbrellas crossing the intersection from left to right; way back to the left a <strong>horse-drawn cart</strong> (some readings call it a green wagon) climbing the slope of one of the streets. Tiny against the buildings, half-dissolved in the wet air. The Quartier de l&rsquo;Europe was a respectable neighborhood, not a busy commercial one &mdash; what you&rsquo;re seeing is a normal weekday morning&rsquo;s foot traffic in a quiet bourgeois district, not a crowd.
+      </p>
+
+      <SectionHeader accent={accent} label="The setting" title="Buildings, ground, and the wedge" />
+      <p style={proseStyle}>
+        Then the <strong>buildings</strong>. The whole upper half of the canvas is Haussmann&rsquo;s Paris. On the right, a row of cream apartment blocks running into the distance &mdash; six floors, mansard roofs, regulation balconies, identical fa&ccedil;ades disappearing toward the vanishing point. On the left, more of the same on the far side of the intersection. And in the <strong>upper center</strong>, behind the lamppost, the headline piece of architecture: a single <strong>wedge-shaped Haussmann apartment block</strong>, narrower at its front (where two of the converging streets pinch together) than at its back. You can see two streets peeling away from each other around it &mdash; the apex of the wedge points straight at you. Six floors, balconies on the regulation floors, mansard roof on top. This is the building still standing on the Place de Dublin today, with a caf&eacute; on the ground floor where Caillebotte painted a stretch of stone. Find a photograph of the intersection now and the building is recognizable instantly. The picture is a piece of accurate Parisian topography.
+      </p>
+      <p style={proseStyle}>
+        Then the <strong>ground</strong>. Roughly the bottom fourth of the canvas is paving, painted as a careful field of individual gray-blue stones, slick with rain that has fallen and stopped, each stone catching a faint dab of light reflected off the overcast sky. There is no puddle, no streaming water &mdash; the storm has passed, the morning is over its weather, but the city hasn&rsquo;t dried yet. Look closely at the stones along the foreground edge and you&rsquo;ll see exactly how Caillebotte makes the wet shine read: he lightens the top edge of each stone by a single value, and that one-value lift is enough for your eye to register the whole foreground as reflective. No highlight blobs. No sparkle. Just a top-of-stone touch, stone by stone, across the lower fourth of a nine-foot canvas. It is the patient, methodical, slightly mad work of someone who would happily have painted a thousand cobblestones if the picture had needed a thousand.
+      </p>
+
+      <SectionHeader accent={accent} label="The light" title="Cool gray, no warm color, no shadows" />
+      <p style={proseStyle}>
+        And then the <strong>light</strong>. There is no sun. There are no <strong>cast shadows</strong> anywhere of any consequence &mdash; meaning the dark patches a person or a building would normally throw on the ground in direct sunlight are absent. The sky is a flat, even, overcast pale gray, and it lights everything from all directions at once, so the figures and the buildings sit in the air without dark anchors at their feet. The umbrellas, accordingly, are not protecting against rain in progress &mdash; they&rsquo;re protecting against the dampness of the sky and probably the threat of more rain shortly. This is a specific kind of Paris morning: stratus overcast, after a passed shower, the city under a single soft pearl-gray dome.
+      </p>
+      <p style={proseStyle}>
+        The <strong>palette</strong> confirms it. Cool grays, slate blue, oyster white, dull black, the dark green of the lamppost, the pale lavender-grey of the central umbrella, a single dab or two of muted green on the wagon. <strong>No warm color anywhere.</strong> No orange, no yellow, no pink, no red. After fifteen minutes in front of the Caillebotte your eye gets so used to the cool palette that the first warm picture you see afterward looks gaudy. The painting tells you, by elimination, what kind of light it is: the kind that drains color out of the city and leaves only its values, the way a wet Paris morning genuinely does.
+      </p>
+      <p style={proseStyle}>
+        That&rsquo;s the canvas. Quiet, geometric, photographic, cool. Nine feet of well-dressed strangers walking past each other under umbrellas.
+      </p>
+    </article>
+  )
+}
+
+function PsShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; April 1877" title="A wall the city had no category for" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n April 1877 Caillebotte hung this picture on a wall in Paris and a city that thought it had seen the Impressionists&rsquo; worst saw something it didn&rsquo;t have a category for.
+      </p>
+      <p style={proseStyle}>
+        The show the picture debuted at was the <strong>3rd Impressionist Exhibition</strong>, held in a rented apartment on rue Le Peletier &mdash; the third of what would eventually be eight breakaway exhibitions the group held between 1874 and 1886, organized by themselves outside the official <strong>Salon</strong> (the annual state-run exhibition that, by long custom, was the only door in town for a serious painting career). The third show was, by quiet consensus, the most coherent and the most ambitious of the eight. About eighteen painters showed. The catalogue listed over two hundred works. Monet hung canvases of the Gare Saint-Lazare &mdash; the same railway station whose neighborhood Caillebotte&rsquo;s picture sat in &mdash; done that same year. Renoir hung <em>Bal du moulin de la Galette</em>, the big Sunday-afternoon dance-garden picture, also from 1876. Pissarro, Sisley, Degas, Berthe Morisot, C&eacute;zanne &mdash; they were all in it. And <strong>Gustave Caillebotte</strong> hung a clutch of his own canvases, with <em>Paris Street; Rainy Day</em> as the centerpiece. He was not only an exhibitor: he was one of the show&rsquo;s organizers and one of its financial backers. The third Impressionist exhibition happened, in part, because Caillebotte&rsquo;s checkbook made it happen.
+      </p>
+
+      <SectionHeader accent={accent} label="The wall" title="The least Impressionist picture in the room" />
+      <p style={proseStyle}>
+        So the picture had a prominent spot. Imagine the wall: Monets to the left of it, Renoirs to the right, the boldest experimental color of the era hanging on the same plaster. And then this thing &mdash; nine feet wide, gray and white and slate-blue, cool as a stone slab, every cobblestone rendered, every top-hat brim sharp-edged, the whole canvas about the <em>quietness</em> of a wet morning rather than the <em>vibration</em> of a sunny one. Caillebotte was the youngest serious figure in the room. He was twenty-eight years old. He had hung <strong>one of the largest</strong> and most thoroughly designed pictures in the show &mdash; Renoir&rsquo;s <em>Galette</em>, a few rooms over, was nearly six feet wide and not far behind on scale, so this is not a tallest-canvas-in-the-room claim; it&rsquo;s a most-engineered-canvas-in-the-room claim.
+      </p>
+      <p style={proseStyle}>
+        Here is the punch of it: in the company of the most aggressively Impressionist painting being made in Paris, Caillebotte&rsquo;s <em>Paris Street; Rainy Day</em> was the <strong>least Impressionist picture in the room</strong>. No broken brushwork. No riot of pure color. No dissolved edges. No vibrating dappled light. By the standards the rest of the show was setting, this was almost a return to the old, polished, finished surface the Impressionists were supposed to be rebelling against. And yet the <em>subject</em> &mdash; a perfectly unimportant moment on an ordinary Paris street corner, with no story, no myth, no drama, no obvious meaning, just people walking past each other under umbrellas &mdash; was as Impressionist as a subject could get. The picture split itself down the middle. Modern subject; classical surface. New eye; old hand. (Some viewers, looking back, would call this a <em>photographic</em> sharpness &mdash; meaning that the cropped figures, the deep one-point perspective, and the flat diffuse light reminded them of the cheap photographic prints flooding Paris in the 1870s. The comparison stuck.)
+      </p>
+
+      <SectionHeader accent={accent} label="The reception" title="Mixed reviews, and one fact often confused" />
+      <p style={proseStyle}>
+        The reviews were mixed, in the way reviews of Caillebotte tended to be his whole career. Some critics were intrigued by the cool surface and the photographic geometry; others were baffled that a man who could clearly draw was bothering to do it for a wet intersection. What the fact pack does <em>not</em> preserve is named-critic, picture-specific quotes &mdash; a lot of 1877 review writing is paragraph-level commentary on the whole exhibition rather than verdicts on individual canvases, and <em>Paris Street; Rainy Day</em> mostly got commented on as part of Caillebotte&rsquo;s overall presence in the show. What is documented is that the picture was visibly there: a big cool wedge of a canvas in the middle of the most argued-about exhibition of the year, signed by a painter most of Paris had not yet decided how to take seriously.
+      </p>
+      <p style={proseStyle}>
+        There is one piece of post-1877 record-keeping that needs gentle correction. You will, occasionally, see this picture described as having been &ldquo;exhibited at the 1877 Paris Salon.&rdquo; That is wrong. The picture was at the <strong>3rd Impressionist Exhibition</strong> in April 1877, which is a completely different event from the Salon &mdash; in fact, the Impressionist exhibitions existed <em>because</em> the Salon kept rejecting work like this. The two shows happened in different rooms, organized by different people, judged by different juries (or in the Impressionists&rsquo; case, no jury at all), held on different streets, with very different stakes. Anyone who tells you Caillebotte showed <em>Paris Street; Rainy Day</em> at the Salon has mixed up two facts that should never have touched.
+      </p>
+      <p style={proseStyle}>
+        Caillebotte was twenty-eight. He had organized one of the most important exhibitions in nineteenth-century French painting, written checks to keep it solvent, and hung a nine-foot picture of a wet Paris intersection in the middle of it. He would keep painting, and keep collecting his friends&rsquo; work, for seventeen more years before dying suddenly of a stroke at forty-five in 1894. By then his collection was the most important private hoard of Impressionist painting on Earth, and his bequest of it to the French State would set off a fight that would shape what the Louvre and (eventually) the Mus&eacute;e d&rsquo;Orsay would look like for the next century. But that fight is a story about <em>other</em> paintings &mdash; about the Monets and Renoirs and Pissarros he had bought. <em>Paris Street; Rainy Day</em> itself, the picture in this chapter, was not part of that fight. It stayed home.
+      </p>
+    </article>
+  )
+}
+
+function PsAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1894" title="Not in the bequest" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the part most often gotten wrong, so we start by separating it cleanly. When Gustave Caillebotte died in 1894, he left a famous bequest of paintings to the French State &mdash; about <strong>sixty-seven canvases</strong> of work by his friends and the painters he&rsquo;d quietly been keeping afloat for two decades: Monet, Renoir, Pissarro, C&eacute;zanne, Sisley, Manet, Degas, and Morisot. The state, after months of haggling with Caillebotte&rsquo;s executors, eventually accepted about forty of the sixty-seven works and turned down the rest. (This is the <strong>Caillebotte bequest</strong>, and the fight over it is one of the great squabbles in the history of nineteenth-century French museum-keeping. The full story belongs in the movement read, not here.) Renoir&rsquo;s <em>Bal du moulin de la Galette</em> &mdash; the giant sunlit Sunday-dance picture &mdash; was one of the works the state accepted, and it has been on public view in Paris ever since.
+      </p>
+      <p style={proseStyle}>
+        <em>Paris Street; Rainy Day</em> was <strong>not</strong> in that bequest. This is the single most important factual point in this chapter, because the confusion is so common it deserves the chapter&rsquo;s opening line: <em>the picture in this chapter is not one of the Caillebotte-bequest pictures</em>. It stayed in the family. The bequest was the paintings Caillebotte had <em>bought from other people</em> &mdash; his collection. The pictures he had painted himself, including this one, stayed his own family&rsquo;s property. Don&rsquo;t mix the two.
+      </p>
+
+      <SectionHeader accent={accent} label="1894&ndash;1954" title="Half a century on private walls" />
+      <p style={proseStyle}>
+        So the picture&rsquo;s actual story after 1894 is quieter and more private than the bequest fight would suggest. It went, by inheritance, to Caillebotte&rsquo;s brother <strong>Martial Caillebotte</strong> and his wife Marie. In 1900 it was deposited at a country house called the Ch&acirc;teau de Montglat, in Provins, southeast of Paris, in the care of Martial&rsquo;s brother-in-law <strong>Georges Minoret</strong>. In 1950 it passed by inheritance to Martial&rsquo;s daughter <strong>Genevi&egrave;ve Chardeau</strong> and her husband Albert. Until that year &mdash; fifty-six years after the painter&rsquo;s death &mdash; the canvas had never left the family. It had been hung in Paris apartments, deposited in country houses, looked at by relatives and the rare invited guest. It had not been to a major exhibition in any meaningful sense since 1894. Almost nobody outside the family had seen it for two generations.
+      </p>
+      <p style={proseStyle}>
+        Which means that when, in <strong>1954 or 1955</strong>, the painting was finally sold out of the Caillebotte family for the first time &mdash; to the American industrialist <strong>Walter P. Chrysler Jr.</strong> (1909&ndash;1988), son of the automobile magnate Walter P. Chrysler, and a major and slightly ill-disciplined collector who at one point owned what he claimed was the largest private art collection in the United States &mdash; the picture&rsquo;s reentry into the wider world was almost like a rediscovery. <em>Paris Street; Rainy Day</em> had been famous in 1877, then privately remembered for half a century, then near-invisible. Now it was suddenly in New York, in a private collection, and people who knew about Caillebotte realized one of his masterpieces had just changed continents.
+      </p>
+
+      <SectionHeader accent={accent} label="1964&ndash;today" title="To Chicago, on the Grand Staircase" />
+      <p style={proseStyle}>
+        It moved one more time. In <strong>1964</strong> the painting passed from Chrysler to the New York art dealer <strong>Wildenstein &amp; Co.</strong>, and Wildenstein resold it the same year to the <strong>Art Institute of Chicago</strong> through the Charles H. and Mary F. S. Worcester Collection fund. The Art Institute logged it under accession number <strong>1964.336</strong>. There the painting has stayed. It hangs in Gallery 201, on the east side of the Grand Staircase of the Art Institute &mdash; one of the first paintings most Chicago museum-goers encounter, and the picture the Institute most often uses on its posters and tote bags. The painting that was almost invisible for sixty years is now one of the most-photographed Impressionist works in America.
+      </p>
+      <p style={proseStyle}>
+        Stand back from the arc of this. A wealthy young engineer in Paris paints a nine-foot picture of his own neighborhood on a wet morning. He hangs it at a breakaway exhibition where it is, paradoxically, the <em>least</em> Impressionist canvas in the show. The critics aren&rsquo;t sure what to make of it. The painter dies young, and the picture stays in the family for over half a century &mdash; kept by a brother, then a niece, then a great-niece, hanging on private walls in private houses. An American industrialist with a habit of swallowing collections buys it. A New York dealer flips it. And it ends up in Chicago, on permanent view, becoming one of the most recognized images of nineteenth-century Paris in the world. The picture&rsquo;s whole afterlife is the long swing from private to public &mdash; a private commission of a private morning, kept privately for two generations, finally sold across an ocean and turned into a public icon of a city it hadn&rsquo;t lived in for nearly a century. Caillebotte&rsquo;s bequest, the famous one, is in Paris. His own great picture of Paris is in Chicago. Sit with that for a second. The historical irony is the picture&rsquo;s last quiet joke.
+      </p>
+    </article>
+  )
+}
+
+// The Cradle (Morisot, 1872) — Cr… ──────────────────────
+function CrSister({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; mid-1800s" title="Two sisters, one painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with two girls at the same easel.
+      </p>
+      <p style={proseStyle}>
+        In a respectable bourgeois household in mid-1800s Paris &mdash; <strong>bourgeois</strong> meaning the solid, comfortable upper-middle class of professionals and civil servants, not aristocracy and not the working poor &mdash; there were two Morisot sisters who painted. Their names were <strong>Berthe Morisot</strong> (1841&ndash;1895) and her elder sister <strong>Edma Morisot</strong> (1839&ndash;1921). They trained together, side by side, under a series of working painters. The decisive teachers were <strong>Joseph Guichard</strong>, a competent academic instructor, and then &mdash; far more importantly &mdash; <strong>Camille Corot</strong> (1796&ndash;1875), one of the great French landscape painters of the century, a hinge figure between the old studio tradition and the open-air realism that was about to detonate into Impressionism. Corot taught the Morisot sisters to paint outdoors, fast, from observation. He treated them as serious students. They were.
+      </p>
+      <p style={proseStyle}>
+        Both sisters got into the <strong>Salon</strong> in the 1860s. The Salon &mdash; capital S &mdash; was the official annual art exhibition of the French state, juried by a panel of conservative academic painters, and it was effectively the only door in town: get hung at the Salon and you had a career, get rejected and you didn&rsquo;t. Berthe and Edma both got hung, repeatedly, in the 1860s. They were not amateurs decorating a parlour. They were two working professional painters at the start of what looked, on the evidence, like two real careers.
+      </p>
+
+      <SectionHeader accent={accent} label="1869" title="The career that stopped" />
+      <p style={proseStyle}>
+        Here is the part it would be sentimental to skate past: Edma was, in the eyes of several of the people who saw them at work, <strong>the more naturally talented of the two</strong>. That was the early read. It is not a tidy underdog-becomes-genius story; it&rsquo;s two equally serious sisters with comparable training and comparable Salon credentials, one of whom &mdash; Edma &mdash; seemed to several observers to have the slightly more obvious gift. Then, in <strong>1869</strong>, that career stopped.
+      </p>
+      <p style={proseStyle}>
+        It stopped because Edma got married. Her husband was <strong>Adolphe Pontillon</strong>, a naval officer &mdash; a steady, respectable match, exactly the sort of marriage a young bourgeois Frenchwoman of her class was expected to make. And in 1869 marriage, for a woman of that class, was effectively a career-ending event for any <em>other</em> career she happened to be running on the side. A naval wife in Cherbourg (the port town on the Channel coast where Pontillon was posted) was supposed to keep a house, receive callers, manage a household, and &mdash; when the time came &mdash; have children. She was not supposed to keep working professionally at an easel. So Edma, who by every indication loved painting and was good at it, put her brushes down. The family letters from this period are heartbreaking on this point: Edma writes to Berthe missing the work, missing the studio life, missing the way the two of them used to argue over the canvas. She doesn&rsquo;t go back to it. That door closes.
+      </p>
+
+      <SectionHeader accent={accent} label="The choice" title="The sister who didn&rsquo;t quit" />
+      <p style={proseStyle}>
+        Berthe &mdash; and this is the choice the picture is built on &mdash; did not close that door.
+      </p>
+      <p style={proseStyle}>
+        It would have been the path of least resistance. She was 28 in 1869, unmarried, living with her parents in Paris, in exactly the same class as her sister, under exactly the same expectations. Every social pressure was pointing her the same way Edma had just gone. She didn&rsquo;t go. She kept painting. She kept showing at the Salon. She started spending time with the loose group of young painters around <strong>&Eacute;douard Manet</strong> (1832&ndash;1883) &mdash; the most notorious modern painter in Paris, the one whose work the Salon kept either rejecting outright or hanging where nobody could see it &mdash; and she modelled for one of his most important pictures (<em>The Balcony</em>, 1868&ndash;69), which is how she ended up close to the circle that was about to become the Impressionists. She was working. She was a professional. She was, in the language of the time, <em>not behaving</em>.
+      </p>
+      <p style={proseStyle}>
+        And in 1871, Edma had a daughter. <strong>Blanche Pontillon</strong> was born that year in Cherbourg. The next year &mdash; 1872 &mdash; Berthe traveled to visit, set up an easel in Edma&rsquo;s house, and painted her sister sitting beside her sleeping infant niece in a white-draped cradle.
+      </p>
+
+      <SectionHeader accent={accent} label="Who is who" title="Not Berthe. Edma." />
+      <p style={proseStyle}>
+        Read that sentence again, because the standard cradle blurb gets it wrong almost every time. The seated woman in <em>The Cradle</em> is <strong>not Berthe Morisot.</strong> It is her sister <strong>Edma Pontillon</strong>. The baby is <strong>not Berthe&rsquo;s daughter.</strong> It is Edma&rsquo;s daughter <strong>Blanche</strong>. Berthe, in 1872, was unmarried and childless &mdash; she didn&rsquo;t marry until <strong>December 1874</strong> (and to <strong>Eug&egrave;ne Manet</strong>, &Eacute;douard&rsquo;s younger brother, never to &Eacute;douard himself; &Eacute;douard was already married). Her own daughter, <strong>Julie Manet</strong>, wouldn&rsquo;t be born until <strong>1878</strong>, six years after this canvas. There is no version of <em>The Cradle</em> in which Morisot is painting herself as the mother. She is painting her sister &mdash; the sister who quit &mdash; watching the child whose arrival ended the painting career.
+      </p>
+      <p style={proseStyle}>
+        That&rsquo;s the personal core of the picture before a single brushstroke is on the canvas. One sister, with brushes in her hand, painting the other sister, who put hers down. The Cradle is not a generic Madonna of Impressionism. It is a portrait of the life Berthe is, very deliberately, choosing not to have &mdash; painted with all the tenderness in the world for the sister who chose it.
+      </p>
+      <p style={proseStyle}>
+        Hold that. The next chapter is about <em>why</em> a respectable Frenchwoman in 1872 painted a nursery in the first place, and why that choice was not a preference.
+      </p>
+    </article>
+  )
+}
+
+function CrMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1872 &middot; Paris" title="The room she could observe" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand what <em>The Cradle</em> is actually a picture of, you have to understand what a woman of Morisot&rsquo;s class was allowed to look at in 1872 Paris. Because the answer is: not a lot.
+      </p>
+      <p style={proseStyle}>
+        A respectable bourgeois Frenchwoman in 1872 &mdash; Morisot&rsquo;s exact class &mdash; could not walk into a Paris caf&eacute; alone. (A woman alone in a caf&eacute; was assumed to be a prostitute; this was not a metaphor, it was the operating social rule.) She could not stand at the rail of a racetrack alone the way <strong>Edgar Degas</strong>&rsquo;s men did &mdash; Degas (1834&ndash;1917) was the Parisian painter of the modern city&rsquo;s working surfaces (the racetrack, the laundry, the backstage of the opera), and he is the cleanest comparison case, because he and Morisot were class peers and exact contemporaries: he could go to those places, and she could not. She could not loiter at the bar of the <strong>Folies-Berg&egrave;re</strong>, the great Paris music hall where Manet would, ten years later, paint his last masterpiece &mdash; the picture of a barmaid behind the counter that Manet got to spend hours in front of, sketching, because he was a man. Morisot could not have stood in that bar. She could not go alone to the working-river bathing-spot at La Grenouill&egrave;re &mdash; the Seine-side caf&eacute; on a barge just outside Paris &mdash; and paint in the open next to Renoir and Monet the way they painted each other there in 1869. She could not paint a brothel interior the way Degas did. She could not paint a backstage dressing room at the opera the way Degas did. She could not paint laundresses in a working laundry the way Degas did. The entire menu of subjects we now associate with the casual, modern, masculine Impressionist eye &mdash; the caf&eacute;, the racetrack, the music hall, the brothel, the working city after dark &mdash; was, simply, off the menu for her. Not &ldquo;discouraged.&rdquo; Off it. A woman of her class who walked alone into those spaces would not be a painter recording a scene; she would be a scandal.
+      </p>
+
+      <SectionHeader accent={accent} label="The wall" title="A wall of access" />
+      <p style={proseStyle}>
+        This is what people mean &mdash; when they mean it precisely &mdash; by a <strong>wall of access</strong>. It is not a gentle preference for the domestic. It is a hard outer ring of places a respectable woman of Morisot&rsquo;s class was not permitted to be, and therefore not permitted to see, and therefore not permitted to paint. The wall is the point.
+      </p>
+      <p style={proseStyle}>
+        What was inside the wall? The interior. The garden. The drawing room. The boudoir. The nursery. The respectable bourgeois interior with respectable bourgeois women in it, doing respectable bourgeois things &mdash; reading, sewing, mothering, receiving guests. That was the field she had. That was the entire field she had.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="Turning the wall into a technique" />
+      <p style={proseStyle}>
+        Here is where the picture gets quietly radical. Morisot did not treat that field as a consolation prize. She treated it as her <em>subject</em>. She painted the interior with the same modern eye Monet was bringing to the harbor &mdash; the same speed of brushwork, the same attention to how light actually moves through a real room at a real hour, the same refusal to over-finish, the same trust in observation over invention. And then she went one step further. She turned the access-wall itself into a <em>method</em>. Because the domestic interior is exactly the kind of subject where the light is filtered, gauzy, soft &mdash; sunlight through a sheer curtain, daylight through window glass, a candle through muslin &mdash; and the painter who could paint that filtered light fastest and lightest would own the room.
+      </p>
+      <p style={proseStyle}>
+        Morisot painted it lighter than anyone. By common agreement &mdash; including from the men who showed alongside her &mdash; her brushwork in this period was the most translucent, the most <em>barely-there</em>, in the entire Impressionist circle. The most rapid touch. The most willing to leave a passage of bare canvas peeking through. The most willing to let a swathe of white fabric be done in three or four breaths of paint and trust the viewer&rsquo;s eye to do the rest. Where Monet was building up a harbor in dense, choppy layers of gray and orange, Morisot was making a curtain by <em>not quite painting</em> one &mdash; a few sketched strokes of oyster white and you read <em>netting</em>, <em>light</em>, <em>air</em>. That handling is the picture&rsquo;s signature. It is the look-closer headline. We will see exactly how it works on the canvas in the next chapter.
+      </p>
+
+      <SectionHeader accent={accent} label="Against the wall" title="The wall is still a wall" />
+      <p style={proseStyle}>
+        So when Morisot, in 1872, set up an easel in her sister Edma&rsquo;s house in Cherbourg and chose to paint Edma beside the cradle of her infant daughter, she was making three choices at once, and they were all the same choice. She was painting <em>the field she was allowed to paint</em> (the nursery), with <em>the model she was allowed to observe at length</em> (her sister), and <em>the technique that field rewarded best</em> (the lightest, most translucent handling in the room). She was not retreating into the domestic. She was taking the only territory the wall left her and turning it into the most distinctive visual signature anyone in the group had.
+      </p>
+      <p style={proseStyle}>
+        None of which means the wall stopped being a wall. Morisot still couldn&rsquo;t paint a caf&eacute; or a racetrack in 1872 (and couldn&rsquo;t in 1882, and couldn&rsquo;t in 1892 either; the access rule didn&rsquo;t relax over her working life). She was a serious modern painter who would have painted those subjects if she could have, who knew exactly what her male colleagues were getting to look at, and who made the only material she was allowed to observe into a style sharper than any of theirs. That isn&rsquo;t the wall ennobling her work. That&rsquo;s her work being made <em>against</em> the wall, with the wall still operating, every day of her career.
+      </p>
+    </article>
+  )
+}
+
+function CrLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="At the canvas" title="A woman, a baby, a veil of paint" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of the canvas. It is small &mdash; about <strong>1 ft 10 in tall by 1 ft 6&frac14; in wide</strong>, vertical, the size of a generous laptop screen &mdash; and at first it looks like one hushed gray-white field. Give it ten seconds. The picture sorts itself out under your eye.
+      </p>
+      <p style={proseStyle}>
+        The <strong>right third</strong> of the canvas is taken up by a softly glowing, almost weightless white shape &mdash; the <strong>cradle</strong>, draped entirely in <strong>translucent white gauze netting</strong> (a thin sheer fabric, the period&rsquo;s standard cradle netting, hung over the cot to keep flies and dust off a sleeping infant). The gauze cascades from a peak on the <strong>right</strong> edge of the picture down across the cradle in folds, lit softly from above. Look at how it is <em>painted</em>. The gauze is not described. It is not drawn. It is sketched in with what looks, on close inspection, like a handful of rapid, translucent strokes &mdash; a few sweeping passes of pale oyster-white paint, dragged thin enough that in places the warmer ground color underneath shows through. Read at arm&rsquo;s length, those few thin strokes resolve into <strong>fabric</strong> &mdash; into the unmistakable softness of real gauze hanging in folds. Step closer and the strokes come back to being strokes. Step back and they&rsquo;re gauze again. That oscillation is the trick. (A note on what we can and can&rsquo;t claim: people sometimes say Morisot painted this drape <em>alla prima</em>, &ldquo;all at once&rdquo; in one wet sitting; the documentary record doesn&rsquo;t actually confirm her process for this canvas. What we can say honestly is what&rsquo;s on the surface &mdash; a few translucent passes that read as fabric.)
+      </p>
+      <p style={proseStyle}>
+        And then the move that makes the picture famous: the baby is visible <strong>through</strong> the gauze. Not behind it &mdash; <em>through</em> it. Look hard at the upper part of the draped cradle, on the right side of the picture. You can pick out a small softer area, a paler oval, that resolves under the veil into the sleeping infant&rsquo;s <strong>closed eyes</strong> and, lower, the suggestion of a tiny <strong>fisted hand</strong>. That is <strong>Blanche Pontillon</strong>, born 1871, asleep at perhaps a year old. Morisot has done a thing oil paint is not supposed to be able to do: she has painted a sheer fabric <em>and</em> the thing on the other side of it, in the same passage, with neither canceling the other. The gauze stays gauzy. The baby stays a baby. Both are there. The veil is real, and you still see through it. That single passage &mdash; that translucent glimpse &mdash; is what every serious painter who looked at this canvas in 1874 noticed first. It is the headline.
+      </p>
+
+      <SectionHeader accent={accent} label="The figure" title="Edma in the dark blue jacket" />
+      <p style={proseStyle}>
+        Now move your eye across to the <strong>left two-thirds</strong> of the canvas. Seated there in three-quarter profile, facing toward the viewer&rsquo;s right (toward the cradle), is a young dark-haired woman &mdash; <strong>Edma Pontillon</strong>, Morisot&rsquo;s elder sister, on her own chair, in her own house, looking across at her own sleeping infant. (Not Morisot. Edma. Hold the distinction; it is the whole picture.) She is wearing a <strong>dark blue jacket</strong> &mdash; a saturated navy-indigo, not black, the colour reading clearly against the pale surrounding field &mdash; with a <strong>white lace ruffle at the collar</strong> and a thin <strong>black ribbon tied at her throat</strong>. It is a plain, practical mid-day dress, the kind a young mother actually wore at home, not a posing-for-the-Salon costume. Against the soft pale field of the rest of the canvas, that dark blue mass reads as the single anchoring quiet note in the picture &mdash; the gravitational center, the dark colour that lets all the white air around it sing.
+      </p>
+      <p style={proseStyle}>
+        Now look at how she&rsquo;s posed, because Morisot has built the whole picture on it. <strong>Her near arm &mdash; the one closer to us &mdash; is bent up so that her hand rests against her cheek</strong>, fingers loosely curled, propping her chin. <strong>Her other arm reaches forward toward the cradle, the hand coming to rest on the cradle&rsquo;s lower rail.</strong> One hand at her face, one hand on the rail of her daughter&rsquo;s crib. It is a thinking posture and a tired posture and a watching posture, all at once. It is a pose you have seen, exactly, on every parent who has ever just gotten a baby to sleep and is now sitting beside the crib for one quiet minute before the next thing. It is not idealized maternity. There is no halo, no soft heroic glow, no glycerine of sentiment. Edma looks, very specifically, like <em>Edma</em> &mdash; like a real young woman, in a real chair, in a real afternoon, with a real baby asleep beside her.
+      </p>
+
+      <SectionHeader accent={accent} label="The geometry" title="One act of looking" />
+      <p style={proseStyle}>
+        Follow her <strong>gaze</strong> next, because the whole picture is built on it. Her eyes are aimed <strong>down and to the viewer&rsquo;s right, into the cradle</strong>. The diagonal of that gaze, and the matching diagonal of the cradle&rsquo;s draped gauze sloping up to its peak on the right, form an X &mdash; the picture&rsquo;s main compositional spine. Without the gaze, <em>The Cradle</em> is a still life of a piece of furniture and a person. With it, the whole picture is one act of looking. Everything in the painting is happening because Edma is watching her daughter sleep.
+      </p>
+      <p style={proseStyle}>
+        Look at the baby&rsquo;s arm again once you&rsquo;ve found Edma&rsquo;s pose, because Morisot has built a quiet visual rhyme into the picture and rewarded the viewer for catching it. <strong>Blanche&rsquo;s small bent arm under the gauze</strong> matches, almost exactly, <strong>the bent arm Edma raises to her cheek</strong> &mdash; both elbows tucked, both small hands lifted up toward the face. Mother and child make the same shape. The bond is not declared in a sentimental glow; it&rsquo;s encoded in geometry. Two matched bent arms, mirrored across the divide of the gauze. Once you see it you can&rsquo;t un-see it.
+      </p>
+
+      <SectionHeader accent={accent} label="The room" title="A nursery with the door shut" />
+      <p style={proseStyle}>
+        Now the rest of the room, which is deliberately almost nothing. <strong>Upper left:</strong> a pale <strong>vertical curtain</strong> falls into the picture from somewhere off-frame above, sheer and nearly weightless, painted in the same translucent handling as the gauze &mdash; so the curtain&rsquo;s drape and the cradle&rsquo;s drape echo each other, two veils of paint in the same breath, framing Edma between them. <strong>Background, behind Edma:</strong> a darker wall, almost monochromatic, no specific detail &mdash; no wallpaper pattern, no picture frame, no mantel, nothing to compete with the white of the cradle. Morisot has kept the background empty on purpose. She wants the gauze to read as <strong>pure light</strong>, and a background full of objects would steal it. <strong>Light direction:</strong> soft daylight comes from somewhere upper-left, falling on the cradle and on Edma&rsquo;s face. There is <strong>no hard shadow</strong> anywhere in the picture. The whole interior is in the same diffuse, filtered, indoor afternoon light a sleeping baby needs &mdash; the exact light a nursery actually has. <strong>Palette:</strong> dark blue, white, oyster, pale grey, and exactly one warm note &mdash; a single flesh tone on Edma&rsquo;s face and Blanche&rsquo;s small visible hand. That&rsquo;s the whole color list. A picture made of almost nothing but one navy mass, some greys and whites, and one breath of warmth, and somehow it doesn&rsquo;t read as empty. It reads as <em>enclosed</em> &mdash; a small intimate room, with the door shut, and the afternoon hush of a household where someone has finally fallen asleep.
+      </p>
+      <p style={proseStyle}>
+        That&rsquo;s what&rsquo;s on the canvas: a woman in a dark blue jacket watching a baby through a curtain of white paint, in a room with the noise turned off. The next chapter is what happened when Morisot took it to Paris and hung it on a wall.
+      </p>
+    </article>
+  )
+}
+
+function CrShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="April 1874" title="Nadar&rsquo;s studio" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n April 1874, a group of painters who had spent years getting rejected by the Salon rented the former Paris studio of the photographer <strong>Nadar</strong>, at <strong>35 boulevard des Capucines</strong>, and hung their own show &mdash; the <strong>First Impressionist Exhibition</strong>, organized as a cooperative society of about thirty artists so that no jury could throw anyone out. (The blow-by-blow of that founding &mdash; the cooperative&rsquo;s name, the Leroy review, the naming &mdash; lives in the movement-level read. The point here is what <em>Morisot</em> was doing in that room.)
+      </p>
+      <p style={proseStyle}>
+        What Morisot was doing in that room was <strong>being the only woman in it</strong>. Of those roughly thirty exhibiting artists, she was the only one. Not &ldquo;the only well-known woman&rdquo; &mdash; the only woman, period. She hung <strong>nine works</strong> of her own &mdash; a serious presentation, not a token entry &mdash; and the centerpiece, the picture most of the visitors and most of the critics stopped at, was <em>Le Berceau</em>. The catalogue listed it for sale at <strong>800 francs</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="800 francs" title="What the number meant" />
+      <p style={proseStyle}>
+        A note on what 800 francs meant, because the number is meaningless without it. Eight hundred francs in 1874 Paris was a real but not a triumphant price &mdash; somewhere in the range of an upper-middle-class clerk&rsquo;s annual salary, the kind of price a serious collector would pay for a serious mid-career picture, not a Salon trophy. It was the asking price of someone who knew her work, knew her market, and priced herself as the working professional she was. Monet, the same week, in the same show, sold <em>Impression, Sunrise</em> &mdash; the picture that was about to lend its title to the entire movement &mdash; for the same <strong>800 francs</strong>.
+      </p>
+      <p style={proseStyle}>
+        Here is the part the standard cradle story gets wrong, and gets wrong in a particular direction. <em>Le Berceau</em> <strong>did not sell.</strong> It was <em>listed</em> at 800 francs. The price was on the catalogue. The picture stayed on the wall, then came off the wall, then went home unsold with Morisot. You will see the claim, sometimes in respectable places, that <em>The Cradle</em> &ldquo;sold for 800 francs at the First Impressionist Exhibition.&rdquo; It didn&rsquo;t. It was <em>offered</em> at 800 francs. There is a difference, and that difference is the difference between a painting that found a buyer in 1874 and a painting that didn&rsquo;t. <em>The Cradle</em> didn&rsquo;t. Refuse the conflation; the gap between <em>listed</em> and <em>sold</em> is the whole texture of an artist&rsquo;s actual career.
+      </p>
+
+      <SectionHeader accent={accent} label="The reviews" title="Noticed, praised, not bought" />
+      <p style={proseStyle}>
+        The reviews were a mixed bag tipping toward warm. <em>The Cradle</em> was, almost universally, the picture by Morisot that critics in 1874 singled out &mdash; they noticed the gauze, they noticed the lightness, they registered (with varying degrees of comfort) that the only woman in the room had painted one of the most technically distinctive things on the wall. But &ldquo;noticed and praised&rdquo; is not &ldquo;bought,&rdquo; and the picture went home. Morisot, to her enormous credit, took none of this as a verdict on the work. She kept showing. She would show at every subsequent Impressionist exhibition for the rest of her life &mdash; all eight of them, more than any other Impressionist except Pissarro. <em>The Cradle</em> was not her career. It was her opening move.
+      </p>
+
+      <SectionHeader accent={accent} label="December 1874" title="Eug&egrave;ne, not &Eacute;douard" />
+      <p style={proseStyle}>
+        And then, eight months after the show came down, in <strong>December 1874</strong>, she got married. The man she married was <strong>Eug&egrave;ne Manet</strong> &mdash; &Eacute;douard Manet&rsquo;s <em>younger</em> brother. Hold that detail tight, because the most common wrong fact about Morisot in print is that she married &Eacute;douard. She did not. &Eacute;douard was already married &mdash; to <strong>Suzanne Leenhoff</strong>, a Dutch pianist who&rsquo;d been with him since the 1850s &mdash; and was therefore not available for Morisot to marry, even if she&rsquo;d wanted to (the evidence is mixed about whether she did). She married his brother Eug&egrave;ne, who is the often-overlooked Manet: not a painter himself, generally supportive of her career rather than competitive with it, and the man who was, three and a half years later in 1878, the father of Morisot&rsquo;s daughter <strong>Julie Manet</strong>. Julie is the daughter who genuinely existed in Berthe&rsquo;s life &mdash; but in <em>The Cradle</em>, six years before Julie was born, the baby is not Julie. The baby is still, forever, Blanche Pontillon &mdash; Edma&rsquo;s daughter &mdash; and the woman in the chair is still, forever, Edma. The standard error gets the picture exactly backwards: it tries to put Berthe and Julie into a painting that is, by date alone, impossible for either of them to be in.
+      </p>
+      <p style={proseStyle}>
+        So: April 1874, the only woman in a room of thirty male painters, nine pictures up, one centerpiece listed at 800 francs and not sold, the gauze noticed, the picture admired, the picture taken home unsold. December 1874, married. <em>The Cradle</em> &mdash; the picture of the sister who <em>did</em> quit, painted by the sister who <em>didn&rsquo;t</em> &mdash; goes home to Edma&rsquo;s parlour in Cherbourg, and falls quietly out of public view for fifty-six years.
+      </p>
+    </article>
+  )
+}
+
+function CrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After 1874" title="From Edma&rsquo;s parlour to the Louvre" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hat happened to <em>The Cradle</em> after the 1874 show is the thing nobody tells you about the picture, and it is the part of the story where the painting almost disappears.
+      </p>
+      <p style={proseStyle}>
+        Morisot, after the show, didn&rsquo;t keep it. She gave it to her sister. <em>Le Berceau</em> &mdash; the portrait of <strong>Edma</strong> and Blanche &mdash; went home, after 1874, to <strong>Edma Pontillon</strong>, the woman in the chair. There is something exactly right about that: the picture of the sister who quit, kept by the sister who quit. It hung in her house. It was a family picture. Not a &ldquo;family picture&rdquo; in the sense of &ldquo;a picture about a family,&rdquo; which it was, but in the sense the words actually mean in real life &mdash; a picture, on a wall, in a relative&rsquo;s house, that the relatives walk past. Edma kept it. When she died in <strong>1921</strong>, the picture passed down within the family to her daughter <strong>Blanche</strong> &mdash; by then <strong>Blanche Forget</strong> by marriage &mdash; who had been the sleeping infant under the gauze. The baby in the painting inherited the painting.
+      </p>
+
+      <SectionHeader accent={accent} label="Fifty-six years" title="Out of the public record" />
+      <p style={proseStyle}>
+        For <strong>fifty-six years</strong> &mdash; from 1874 to 1930 &mdash; <em>The Cradle</em> was, effectively, not in the public record. Not in a museum. Not on a wall anyone could buy a ticket to see. Not loaned out. Not catalogued by the new generation of Impressionist scholars who were, across that same half-century, building up the canon that would put Monet and Renoir into every major museum in the world. The picture that we now call one of the masterpieces of Impressionism was, in those fifty-six years, a private family heirloom hanging in a Pontillon-Forget drawing room, almost entirely unseen. The whole reception history of <em>The Cradle</em> begins not in 1874 but in 1930. The picture has effectively two lives: a brief month of public view in 1874, and then everything that happens after 1930.
+      </p>
+
+      <SectionHeader accent={accent} label="1930" title="The Louvre buys it" />
+      <p style={proseStyle}>
+        What happened in 1930 was that the <strong>Mus&eacute;e du Louvre</strong> &mdash; yes, <em>that</em> Louvre, the great state museum of France &mdash; bought it.
+      </p>
+      <p style={proseStyle}>
+        The Louvre bought <em>Le Berceau</em> from <strong>Blanche Forget</strong>, the now-grown daughter of Edma Pontillon, in <strong>1930</strong>, for <strong>300,000 francs</strong>. The price is worth sitting with for a second. Eight hundred francs offered in 1874, no buyer. Three hundred thousand francs paid in 1930, by the national museum of France, to acquire it for the nation. That is the arc of an Impressionist picture&rsquo;s value in fifty-six years: from an unsold asking-price on a cooperative show&rsquo;s catalogue to a six-figure state purchase. (Yes, inflation between 1874 and 1930 closes part of that gap &mdash; but only part; the rest is the movement winning, posthumously, the argument it lost on the wall in 1874.) Three hundred thousand francs is also, plainly, the price you pay when the picture has stopped being &ldquo;a Morisot the family kept&rdquo; and become <em>the Morisot</em> &mdash; the work that, in the museum&rsquo;s view, has to be in the national collection.
+      </p>
+      <p style={proseStyle}>
+        From 1930 on, the picture is institutional. It enters the Louvre&rsquo;s Impressionist holdings. In <strong>1947</strong>, after the Second World War, those Impressionist holdings get moved across the Seine into the <strong>Mus&eacute;e du Jeu de Paume</strong> &mdash; a smaller museum in the Tuileries gardens that, for several decades, was where Paris kept its Impressionists. <em>Le Berceau</em> hangs there from 1947 to 1986. Then in <strong>1986</strong> Paris opens the <strong>Mus&eacute;e d&rsquo;Orsay</strong>, the new flagship museum for nineteenth-century French art, housed in a converted railway station on the Left Bank. Every major Impressionist in the city moves across to the new house. <em>Le Berceau</em> moves with them. It has been on the walls of the <strong>Mus&eacute;e d&rsquo;Orsay</strong> since 1986, on permanent view, and that is where it lives now (accession number <strong>RF 2849</strong>). If you are in Paris and you walk through the d&rsquo;Orsay&rsquo;s Impressionist galleries, you will find it.
+      </p>
+
+      <SectionHeader accent={accent} label="Reintroduction" title="A 20th-century reputation" />
+      <p style={proseStyle}>
+        And here is where this picture&rsquo;s afterlife diverges from almost every other famous Impressionist canvas, and where the line between the painting and the movement gets interesting. <em>The Cradle</em> did not become famous because the public found it. It became famous because the Louvre bought it. Most of the iconic Impressionist works &mdash; <em>Sunrise</em>, the Renoirs, the Degas dancers &mdash; have a public reception trail that runs continuously from the 1870s onward: critics writing about them, dealers selling them, collectors fighting over them, museums chasing them. <em>The Cradle</em> doesn&rsquo;t have that trail. It went to <strong>Edma</strong> in 1874 and effectively vanished from criticism until the 1930 purchase, and then it had to be reintroduced to the public <em>as</em> a masterpiece, half a century after the fact. The picture&rsquo;s reputation is, in a real sense, <strong>a twentieth-century reputation built on a nineteenth-century painting that the nineteenth century barely got to look at.</strong> The 1930 purchase isn&rsquo;t just an acquisition. It&rsquo;s a reintroduction.
+      </p>
+      <p style={proseStyle}>
+        The reintroduction stuck. <em>Le Berceau</em> is now, by common consent, the picture by which Morisot is most often known to a general reader &mdash; the one on the postcards, the one in the textbooks, the one anyone who has been through the d&rsquo;Orsay can probably picture in their head. (Whether the picture <em>should</em> be the one she&rsquo;s most known for is another question; the case is at least as strong for any of several other Morisots. But <em>The Cradle</em> is the one that landed.) It hangs there, that small vertical canvas of <strong>Edma</strong> and her niece Blanche and a veil of white paint, in the same building as the <em>Sunrise</em> that named the movement and the Manets the movement was orbiting, and it does what it always did on the wall in Nadar&rsquo;s studio in 1874: it stops you, because nobody else in the room ever painted a piece of gauze that you could see through quite like that.
+      </p>
+      <p style={proseStyle}>
+        The sister who quit got her likeness into the Louvre. The sister who didn&rsquo;t quit put it there.
+      </p>
+    </article>
+  )
+}
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
   demoiselles: {
     setting: SettingNarrative,
@@ -3698,6 +4453,10 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
     'the-break': IsBreak,
     'afterlife': IsAfterlife,
   },
+  grenouillere: { seine: GreSeine, making: GreMaking, looking: GreLooking, break: GreBreak, afterlife: GreAfterlife },
+  cradle: { sister: CrSister, making: CrMaking, looking: CrLooking, show: CrShow, afterlife: CrAfterlife },
+  'moulin-galette': { montmartre: MgMontmartre, making: MgMaking, looking: MgLooking, show: MgShow, afterlife: MgAfterlife },
+  'paris-street': { haussmann: PsHaussmann, making: PsMaking, looking: PsLooking, show: PsShow, afterlife: PsAfterlife },
 }
 
 // ─────────────────────────────────────────────────────────────

@@ -1,0 +1,209 @@
+function CrSister({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; mid-1800s" title="Two sisters, one painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with two girls at the same easel.
+      </p>
+      <p style={proseStyle}>
+        In a respectable bourgeois household in mid-1800s Paris &mdash; <strong>bourgeois</strong> meaning the solid, comfortable upper-middle class of professionals and civil servants, not aristocracy and not the working poor &mdash; there were two Morisot sisters who painted. Their names were <strong>Berthe Morisot</strong> (1841&ndash;1895) and her elder sister <strong>Edma Morisot</strong> (1839&ndash;1921). They trained together, side by side, under a series of working painters. The decisive teachers were <strong>Joseph Guichard</strong>, a competent academic instructor, and then &mdash; far more importantly &mdash; <strong>Camille Corot</strong> (1796&ndash;1875), one of the great French landscape painters of the century, a hinge figure between the old studio tradition and the open-air realism that was about to detonate into Impressionism. Corot taught the Morisot sisters to paint outdoors, fast, from observation. He treated them as serious students. They were.
+      </p>
+      <p style={proseStyle}>
+        Both sisters got into the <strong>Salon</strong> in the 1860s. The Salon &mdash; capital S &mdash; was the official annual art exhibition of the French state, juried by a panel of conservative academic painters, and it was effectively the only door in town: get hung at the Salon and you had a career, get rejected and you didn&rsquo;t. Berthe and Edma both got hung, repeatedly, in the 1860s. They were not amateurs decorating a parlour. They were two working professional painters at the start of what looked, on the evidence, like two real careers.
+      </p>
+
+      <SectionHeader accent={accent} label="1869" title="The career that stopped" />
+      <p style={proseStyle}>
+        Here is the part it would be sentimental to skate past: Edma was, in the eyes of several of the people who saw them at work, <strong>the more naturally talented of the two</strong>. That was the early read. It is not a tidy underdog-becomes-genius story; it&rsquo;s two equally serious sisters with comparable training and comparable Salon credentials, one of whom &mdash; Edma &mdash; seemed to several observers to have the slightly more obvious gift. Then, in <strong>1869</strong>, that career stopped.
+      </p>
+      <p style={proseStyle}>
+        It stopped because Edma got married. Her husband was <strong>Adolphe Pontillon</strong>, a naval officer &mdash; a steady, respectable match, exactly the sort of marriage a young bourgeois Frenchwoman of her class was expected to make. And in 1869 marriage, for a woman of that class, was effectively a career-ending event for any <em>other</em> career she happened to be running on the side. A naval wife in Cherbourg (the port town on the Channel coast where Pontillon was posted) was supposed to keep a house, receive callers, manage a household, and &mdash; when the time came &mdash; have children. She was not supposed to keep working professionally at an easel. So Edma, who by every indication loved painting and was good at it, put her brushes down. The family letters from this period are heartbreaking on this point: Edma writes to Berthe missing the work, missing the studio life, missing the way the two of them used to argue over the canvas. She doesn&rsquo;t go back to it. That door closes.
+      </p>
+
+      <SectionHeader accent={accent} label="The choice" title="The sister who didn&rsquo;t quit" />
+      <p style={proseStyle}>
+        Berthe &mdash; and this is the choice the picture is built on &mdash; did not close that door.
+      </p>
+      <p style={proseStyle}>
+        It would have been the path of least resistance. She was 28 in 1869, unmarried, living with her parents in Paris, in exactly the same class as her sister, under exactly the same expectations. Every social pressure was pointing her the same way Edma had just gone. She didn&rsquo;t go. She kept painting. She kept showing at the Salon. She started spending time with the loose group of young painters around <strong>&Eacute;douard Manet</strong> (1832&ndash;1883) &mdash; the most notorious modern painter in Paris, the one whose work the Salon kept either rejecting outright or hanging where nobody could see it &mdash; and she modelled for one of his most important pictures (<em>The Balcony</em>, 1868&ndash;69), which is how she ended up close to the circle that was about to become the Impressionists. She was working. She was a professional. She was, in the language of the time, <em>not behaving</em>.
+      </p>
+      <p style={proseStyle}>
+        And in 1871, Edma had a daughter. <strong>Blanche Pontillon</strong> was born that year in Cherbourg. The next year &mdash; 1872 &mdash; Berthe traveled to visit, set up an easel in Edma&rsquo;s house, and painted her sister sitting beside her sleeping infant niece in a white-draped cradle.
+      </p>
+
+      <SectionHeader accent={accent} label="Who is who" title="Not Berthe. Edma." />
+      <p style={proseStyle}>
+        Read that sentence again, because the standard cradle blurb gets it wrong almost every time. The seated woman in <em>The Cradle</em> is <strong>not Berthe Morisot.</strong> It is her sister <strong>Edma Pontillon</strong>. The baby is <strong>not Berthe&rsquo;s daughter.</strong> It is Edma&rsquo;s daughter <strong>Blanche</strong>. Berthe, in 1872, was unmarried and childless &mdash; she didn&rsquo;t marry until <strong>December 1874</strong> (and to <strong>Eug&egrave;ne Manet</strong>, &Eacute;douard&rsquo;s younger brother, never to &Eacute;douard himself; &Eacute;douard was already married). Her own daughter, <strong>Julie Manet</strong>, wouldn&rsquo;t be born until <strong>1878</strong>, six years after this canvas. There is no version of <em>The Cradle</em> in which Morisot is painting herself as the mother. She is painting her sister &mdash; the sister who quit &mdash; watching the child whose arrival ended the painting career.
+      </p>
+      <p style={proseStyle}>
+        That&rsquo;s the personal core of the picture before a single brushstroke is on the canvas. One sister, with brushes in her hand, painting the other sister, who put hers down. The Cradle is not a generic Madonna of Impressionism. It is a portrait of the life Berthe is, very deliberately, choosing not to have &mdash; painted with all the tenderness in the world for the sister who chose it.
+      </p>
+      <p style={proseStyle}>
+        Hold that. The next chapter is about <em>why</em> a respectable Frenchwoman in 1872 painted a nursery in the first place, and why that choice was not a preference.
+      </p>
+    </article>
+  )
+}
+
+function CrMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1872 &middot; Paris" title="The room she could observe" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand what <em>The Cradle</em> is actually a picture of, you have to understand what a woman of Morisot&rsquo;s class was allowed to look at in 1872 Paris. Because the answer is: not a lot.
+      </p>
+      <p style={proseStyle}>
+        A respectable bourgeois Frenchwoman in 1872 &mdash; Morisot&rsquo;s exact class &mdash; could not walk into a Paris caf&eacute; alone. (A woman alone in a caf&eacute; was assumed to be a prostitute; this was not a metaphor, it was the operating social rule.) She could not stand at the rail of a racetrack alone the way <strong>Edgar Degas</strong>&rsquo;s men did &mdash; Degas (1834&ndash;1917) was the Parisian painter of the modern city&rsquo;s working surfaces (the racetrack, the laundry, the backstage of the opera), and he is the cleanest comparison case, because he and Morisot were class peers and exact contemporaries: he could go to those places, and she could not. She could not loiter at the bar of the <strong>Folies-Berg&egrave;re</strong>, the great Paris music hall where Manet would, ten years later, paint his last masterpiece &mdash; the picture of a barmaid behind the counter that Manet got to spend hours in front of, sketching, because he was a man. Morisot could not have stood in that bar. She could not go alone to the working-river bathing-spot at La Grenouill&egrave;re &mdash; the Seine-side caf&eacute; on a barge just outside Paris &mdash; and paint in the open next to Renoir and Monet the way they painted each other there in 1869. She could not paint a brothel interior the way Degas did. She could not paint a backstage dressing room at the opera the way Degas did. She could not paint laundresses in a working laundry the way Degas did. The entire menu of subjects we now associate with the casual, modern, masculine Impressionist eye &mdash; the caf&eacute;, the racetrack, the music hall, the brothel, the working city after dark &mdash; was, simply, off the menu for her. Not &ldquo;discouraged.&rdquo; Off it. A woman of her class who walked alone into those spaces would not be a painter recording a scene; she would be a scandal.
+      </p>
+
+      <SectionHeader accent={accent} label="The wall" title="A wall of access" />
+      <p style={proseStyle}>
+        This is what people mean &mdash; when they mean it precisely &mdash; by a <strong>wall of access</strong>. It is not a gentle preference for the domestic. It is a hard outer ring of places a respectable woman of Morisot&rsquo;s class was not permitted to be, and therefore not permitted to see, and therefore not permitted to paint. The wall is the point.
+      </p>
+      <p style={proseStyle}>
+        What was inside the wall? The interior. The garden. The drawing room. The boudoir. The nursery. The respectable bourgeois interior with respectable bourgeois women in it, doing respectable bourgeois things &mdash; reading, sewing, mothering, receiving guests. That was the field she had. That was the entire field she had.
+      </p>
+
+      <SectionHeader accent={accent} label="The method" title="Turning the wall into a technique" />
+      <p style={proseStyle}>
+        Here is where the picture gets quietly radical. Morisot did not treat that field as a consolation prize. She treated it as her <em>subject</em>. She painted the interior with the same modern eye Monet was bringing to the harbor &mdash; the same speed of brushwork, the same attention to how light actually moves through a real room at a real hour, the same refusal to over-finish, the same trust in observation over invention. And then she went one step further. She turned the access-wall itself into a <em>method</em>. Because the domestic interior is exactly the kind of subject where the light is filtered, gauzy, soft &mdash; sunlight through a sheer curtain, daylight through window glass, a candle through muslin &mdash; and the painter who could paint that filtered light fastest and lightest would own the room.
+      </p>
+      <p style={proseStyle}>
+        Morisot painted it lighter than anyone. By common agreement &mdash; including from the men who showed alongside her &mdash; her brushwork in this period was the most translucent, the most <em>barely-there</em>, in the entire Impressionist circle. The most rapid touch. The most willing to leave a passage of bare canvas peeking through. The most willing to let a swathe of white fabric be done in three or four breaths of paint and trust the viewer&rsquo;s eye to do the rest. Where Monet was building up a harbor in dense, choppy layers of gray and orange, Morisot was making a curtain by <em>not quite painting</em> one &mdash; a few sketched strokes of oyster white and you read <em>netting</em>, <em>light</em>, <em>air</em>. That handling is the picture&rsquo;s signature. It is the look-closer headline. We will see exactly how it works on the canvas in the next chapter.
+      </p>
+
+      <SectionHeader accent={accent} label="Against the wall" title="The wall is still a wall" />
+      <p style={proseStyle}>
+        So when Morisot, in 1872, set up an easel in her sister Edma&rsquo;s house in Cherbourg and chose to paint Edma beside the cradle of her infant daughter, she was making three choices at once, and they were all the same choice. She was painting <em>the field she was allowed to paint</em> (the nursery), with <em>the model she was allowed to observe at length</em> (her sister), and <em>the technique that field rewarded best</em> (the lightest, most translucent handling in the room). She was not retreating into the domestic. She was taking the only territory the wall left her and turning it into the most distinctive visual signature anyone in the group had.
+      </p>
+      <p style={proseStyle}>
+        None of which means the wall stopped being a wall. Morisot still couldn&rsquo;t paint a caf&eacute; or a racetrack in 1872 (and couldn&rsquo;t in 1882, and couldn&rsquo;t in 1892 either; the access rule didn&rsquo;t relax over her working life). She was a serious modern painter who would have painted those subjects if she could have, who knew exactly what her male colleagues were getting to look at, and who made the only material she was allowed to observe into a style sharper than any of theirs. That isn&rsquo;t the wall ennobling her work. That&rsquo;s her work being made <em>against</em> the wall, with the wall still operating, every day of her career.
+      </p>
+    </article>
+  )
+}
+
+function CrLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="At the canvas" title="A woman, a baby, a veil of paint" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of the canvas. It is small &mdash; about <strong>1 ft 10 in tall by 1 ft 6&frac14; in wide</strong>, vertical, the size of a generous laptop screen &mdash; and at first it looks like one hushed gray-white field. Give it ten seconds. The picture sorts itself out under your eye.
+      </p>
+      <p style={proseStyle}>
+        The <strong>right third</strong> of the canvas is taken up by a softly glowing, almost weightless white shape &mdash; the <strong>cradle</strong>, draped entirely in <strong>translucent white gauze netting</strong> (a thin sheer fabric, the period&rsquo;s standard cradle netting, hung over the cot to keep flies and dust off a sleeping infant). The gauze cascades from a peak on the <strong>right</strong> edge of the picture down across the cradle in folds, lit softly from above. Look at how it is <em>painted</em>. The gauze is not described. It is not drawn. It is sketched in with what looks, on close inspection, like a handful of rapid, translucent strokes &mdash; a few sweeping passes of pale oyster-white paint, dragged thin enough that in places the warmer ground color underneath shows through. Read at arm&rsquo;s length, those few thin strokes resolve into <strong>fabric</strong> &mdash; into the unmistakable softness of real gauze hanging in folds. Step closer and the strokes come back to being strokes. Step back and they&rsquo;re gauze again. That oscillation is the trick. (A note on what we can and can&rsquo;t claim: people sometimes say Morisot painted this drape <em>alla prima</em>, &ldquo;all at once&rdquo; in one wet sitting; the documentary record doesn&rsquo;t actually confirm her process for this canvas. What we can say honestly is what&rsquo;s on the surface &mdash; a few translucent passes that read as fabric.)
+      </p>
+      <p style={proseStyle}>
+        And then the move that makes the picture famous: the baby is visible <strong>through</strong> the gauze. Not behind it &mdash; <em>through</em> it. Look hard at the upper part of the draped cradle, on the right side of the picture. You can pick out a small softer area, a paler oval, that resolves under the veil into the sleeping infant&rsquo;s <strong>closed eyes</strong> and, lower, the suggestion of a tiny <strong>fisted hand</strong>. That is <strong>Blanche Pontillon</strong>, born 1871, asleep at perhaps a year old. Morisot has done a thing oil paint is not supposed to be able to do: she has painted a sheer fabric <em>and</em> the thing on the other side of it, in the same passage, with neither canceling the other. The gauze stays gauzy. The baby stays a baby. Both are there. The veil is real, and you still see through it. That single passage &mdash; that translucent glimpse &mdash; is what every serious painter who looked at this canvas in 1874 noticed first. It is the headline.
+      </p>
+
+      <SectionHeader accent={accent} label="The figure" title="Edma in the dark blue jacket" />
+      <p style={proseStyle}>
+        Now move your eye across to the <strong>left two-thirds</strong> of the canvas. Seated there in three-quarter profile, facing toward the viewer&rsquo;s right (toward the cradle), is a young dark-haired woman &mdash; <strong>Edma Pontillon</strong>, Morisot&rsquo;s elder sister, on her own chair, in her own house, looking across at her own sleeping infant. (Not Morisot. Edma. Hold the distinction; it is the whole picture.) She is wearing a <strong>dark blue jacket</strong> &mdash; a saturated navy-indigo, not black, the colour reading clearly against the pale surrounding field &mdash; with a <strong>white lace ruffle at the collar</strong> and a thin <strong>black ribbon tied at her throat</strong>. It is a plain, practical mid-day dress, the kind a young mother actually wore at home, not a posing-for-the-Salon costume. Against the soft pale field of the rest of the canvas, that dark blue mass reads as the single anchoring quiet note in the picture &mdash; the gravitational center, the dark colour that lets all the white air around it sing.
+      </p>
+      <p style={proseStyle}>
+        Now look at how she&rsquo;s posed, because Morisot has built the whole picture on it. <strong>Her near arm &mdash; the one closer to us &mdash; is bent up so that her hand rests against her cheek</strong>, fingers loosely curled, propping her chin. <strong>Her other arm reaches forward toward the cradle, the hand coming to rest on the cradle&rsquo;s lower rail.</strong> One hand at her face, one hand on the rail of her daughter&rsquo;s crib. It is a thinking posture and a tired posture and a watching posture, all at once. It is a pose you have seen, exactly, on every parent who has ever just gotten a baby to sleep and is now sitting beside the crib for one quiet minute before the next thing. It is not idealized maternity. There is no halo, no soft heroic glow, no glycerine of sentiment. Edma looks, very specifically, like <em>Edma</em> &mdash; like a real young woman, in a real chair, in a real afternoon, with a real baby asleep beside her.
+      </p>
+
+      <SectionHeader accent={accent} label="The geometry" title="One act of looking" />
+      <p style={proseStyle}>
+        Follow her <strong>gaze</strong> next, because the whole picture is built on it. Her eyes are aimed <strong>down and to the viewer&rsquo;s right, into the cradle</strong>. The diagonal of that gaze, and the matching diagonal of the cradle&rsquo;s draped gauze sloping up to its peak on the right, form an X &mdash; the picture&rsquo;s main compositional spine. Without the gaze, <em>The Cradle</em> is a still life of a piece of furniture and a person. With it, the whole picture is one act of looking. Everything in the painting is happening because Edma is watching her daughter sleep.
+      </p>
+      <p style={proseStyle}>
+        Look at the baby&rsquo;s arm again once you&rsquo;ve found Edma&rsquo;s pose, because Morisot has built a quiet visual rhyme into the picture and rewarded the viewer for catching it. <strong>Blanche&rsquo;s small bent arm under the gauze</strong> matches, almost exactly, <strong>the bent arm Edma raises to her cheek</strong> &mdash; both elbows tucked, both small hands lifted up toward the face. Mother and child make the same shape. The bond is not declared in a sentimental glow; it&rsquo;s encoded in geometry. Two matched bent arms, mirrored across the divide of the gauze. Once you see it you can&rsquo;t un-see it.
+      </p>
+
+      <SectionHeader accent={accent} label="The room" title="A nursery with the door shut" />
+      <p style={proseStyle}>
+        Now the rest of the room, which is deliberately almost nothing. <strong>Upper left:</strong> a pale <strong>vertical curtain</strong> falls into the picture from somewhere off-frame above, sheer and nearly weightless, painted in the same translucent handling as the gauze &mdash; so the curtain&rsquo;s drape and the cradle&rsquo;s drape echo each other, two veils of paint in the same breath, framing Edma between them. <strong>Background, behind Edma:</strong> a darker wall, almost monochromatic, no specific detail &mdash; no wallpaper pattern, no picture frame, no mantel, nothing to compete with the white of the cradle. Morisot has kept the background empty on purpose. She wants the gauze to read as <strong>pure light</strong>, and a background full of objects would steal it. <strong>Light direction:</strong> soft daylight comes from somewhere upper-left, falling on the cradle and on Edma&rsquo;s face. There is <strong>no hard shadow</strong> anywhere in the picture. The whole interior is in the same diffuse, filtered, indoor afternoon light a sleeping baby needs &mdash; the exact light a nursery actually has. <strong>Palette:</strong> dark blue, white, oyster, pale grey, and exactly one warm note &mdash; a single flesh tone on Edma&rsquo;s face and Blanche&rsquo;s small visible hand. That&rsquo;s the whole color list. A picture made of almost nothing but one navy mass, some greys and whites, and one breath of warmth, and somehow it doesn&rsquo;t read as empty. It reads as <em>enclosed</em> &mdash; a small intimate room, with the door shut, and the afternoon hush of a household where someone has finally fallen asleep.
+      </p>
+      <p style={proseStyle}>
+        That&rsquo;s what&rsquo;s on the canvas: a woman in a dark blue jacket watching a baby through a curtain of white paint, in a room with the noise turned off. The next chapter is what happened when Morisot took it to Paris and hung it on a wall.
+      </p>
+    </article>
+  )
+}
+
+function CrShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="April 1874" title="Nadar&rsquo;s studio" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n April 1874, a group of painters who had spent years getting rejected by the Salon rented the former Paris studio of the photographer <strong>Nadar</strong>, at <strong>35 boulevard des Capucines</strong>, and hung their own show &mdash; the <strong>First Impressionist Exhibition</strong>, organized as a cooperative society of about thirty artists so that no jury could throw anyone out. (The blow-by-blow of that founding &mdash; the cooperative&rsquo;s name, the Leroy review, the naming &mdash; lives in the movement-level read. The point here is what <em>Morisot</em> was doing in that room.)
+      </p>
+      <p style={proseStyle}>
+        What Morisot was doing in that room was <strong>being the only woman in it</strong>. Of those roughly thirty exhibiting artists, she was the only one. Not &ldquo;the only well-known woman&rdquo; &mdash; the only woman, period. She hung <strong>nine works</strong> of her own &mdash; a serious presentation, not a token entry &mdash; and the centerpiece, the picture most of the visitors and most of the critics stopped at, was <em>Le Berceau</em>. The catalogue listed it for sale at <strong>800 francs</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="800 francs" title="What the number meant" />
+      <p style={proseStyle}>
+        A note on what 800 francs meant, because the number is meaningless without it. Eight hundred francs in 1874 Paris was a real but not a triumphant price &mdash; somewhere in the range of an upper-middle-class clerk&rsquo;s annual salary, the kind of price a serious collector would pay for a serious mid-career picture, not a Salon trophy. It was the asking price of someone who knew her work, knew her market, and priced herself as the working professional she was. Monet, the same week, in the same show, sold <em>Impression, Sunrise</em> &mdash; the picture that was about to lend its title to the entire movement &mdash; for the same <strong>800 francs</strong>.
+      </p>
+      <p style={proseStyle}>
+        Here is the part the standard cradle story gets wrong, and gets wrong in a particular direction. <em>Le Berceau</em> <strong>did not sell.</strong> It was <em>listed</em> at 800 francs. The price was on the catalogue. The picture stayed on the wall, then came off the wall, then went home unsold with Morisot. You will see the claim, sometimes in respectable places, that <em>The Cradle</em> &ldquo;sold for 800 francs at the First Impressionist Exhibition.&rdquo; It didn&rsquo;t. It was <em>offered</em> at 800 francs. There is a difference, and that difference is the difference between a painting that found a buyer in 1874 and a painting that didn&rsquo;t. <em>The Cradle</em> didn&rsquo;t. Refuse the conflation; the gap between <em>listed</em> and <em>sold</em> is the whole texture of an artist&rsquo;s actual career.
+      </p>
+
+      <SectionHeader accent={accent} label="The reviews" title="Noticed, praised, not bought" />
+      <p style={proseStyle}>
+        The reviews were a mixed bag tipping toward warm. <em>The Cradle</em> was, almost universally, the picture by Morisot that critics in 1874 singled out &mdash; they noticed the gauze, they noticed the lightness, they registered (with varying degrees of comfort) that the only woman in the room had painted one of the most technically distinctive things on the wall. But &ldquo;noticed and praised&rdquo; is not &ldquo;bought,&rdquo; and the picture went home. Morisot, to her enormous credit, took none of this as a verdict on the work. She kept showing. She would show at every subsequent Impressionist exhibition for the rest of her life &mdash; all eight of them, more than any other Impressionist except Pissarro. <em>The Cradle</em> was not her career. It was her opening move.
+      </p>
+
+      <SectionHeader accent={accent} label="December 1874" title="Eug&egrave;ne, not &Eacute;douard" />
+      <p style={proseStyle}>
+        And then, eight months after the show came down, in <strong>December 1874</strong>, she got married. The man she married was <strong>Eug&egrave;ne Manet</strong> &mdash; &Eacute;douard Manet&rsquo;s <em>younger</em> brother. Hold that detail tight, because the most common wrong fact about Morisot in print is that she married &Eacute;douard. She did not. &Eacute;douard was already married &mdash; to <strong>Suzanne Leenhoff</strong>, a Dutch pianist who&rsquo;d been with him since the 1850s &mdash; and was therefore not available for Morisot to marry, even if she&rsquo;d wanted to (the evidence is mixed about whether she did). She married his brother Eug&egrave;ne, who is the often-overlooked Manet: not a painter himself, generally supportive of her career rather than competitive with it, and the man who was, three and a half years later in 1878, the father of Morisot&rsquo;s daughter <strong>Julie Manet</strong>. Julie is the daughter who genuinely existed in Berthe&rsquo;s life &mdash; but in <em>The Cradle</em>, six years before Julie was born, the baby is not Julie. The baby is still, forever, Blanche Pontillon &mdash; Edma&rsquo;s daughter &mdash; and the woman in the chair is still, forever, Edma. The standard error gets the picture exactly backwards: it tries to put Berthe and Julie into a painting that is, by date alone, impossible for either of them to be in.
+      </p>
+      <p style={proseStyle}>
+        So: April 1874, the only woman in a room of thirty male painters, nine pictures up, one centerpiece listed at 800 francs and not sold, the gauze noticed, the picture admired, the picture taken home unsold. December 1874, married. <em>The Cradle</em> &mdash; the picture of the sister who <em>did</em> quit, painted by the sister who <em>didn&rsquo;t</em> &mdash; goes home to Edma&rsquo;s parlour in Cherbourg, and falls quietly out of public view for fifty-six years.
+      </p>
+    </article>
+  )
+}
+
+function CrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="After 1874" title="From Edma&rsquo;s parlour to the Louvre" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hat happened to <em>The Cradle</em> after the 1874 show is the thing nobody tells you about the picture, and it is the part of the story where the painting almost disappears.
+      </p>
+      <p style={proseStyle}>
+        Morisot, after the show, didn&rsquo;t keep it. She gave it to her sister. <em>Le Berceau</em> &mdash; the portrait of <strong>Edma</strong> and Blanche &mdash; went home, after 1874, to <strong>Edma Pontillon</strong>, the woman in the chair. There is something exactly right about that: the picture of the sister who quit, kept by the sister who quit. It hung in her house. It was a family picture. Not a &ldquo;family picture&rdquo; in the sense of &ldquo;a picture about a family,&rdquo; which it was, but in the sense the words actually mean in real life &mdash; a picture, on a wall, in a relative&rsquo;s house, that the relatives walk past. Edma kept it. When she died in <strong>1921</strong>, the picture passed down within the family to her daughter <strong>Blanche</strong> &mdash; by then <strong>Blanche Forget</strong> by marriage &mdash; who had been the sleeping infant under the gauze. The baby in the painting inherited the painting.
+      </p>
+
+      <SectionHeader accent={accent} label="Fifty-six years" title="Out of the public record" />
+      <p style={proseStyle}>
+        For <strong>fifty-six years</strong> &mdash; from 1874 to 1930 &mdash; <em>The Cradle</em> was, effectively, not in the public record. Not in a museum. Not on a wall anyone could buy a ticket to see. Not loaned out. Not catalogued by the new generation of Impressionist scholars who were, across that same half-century, building up the canon that would put Monet and Renoir into every major museum in the world. The picture that we now call one of the masterpieces of Impressionism was, in those fifty-six years, a private family heirloom hanging in a Pontillon-Forget drawing room, almost entirely unseen. The whole reception history of <em>The Cradle</em> begins not in 1874 but in 1930. The picture has effectively two lives: a brief month of public view in 1874, and then everything that happens after 1930.
+      </p>
+
+      <SectionHeader accent={accent} label="1930" title="The Louvre buys it" />
+      <p style={proseStyle}>
+        What happened in 1930 was that the <strong>Mus&eacute;e du Louvre</strong> &mdash; yes, <em>that</em> Louvre, the great state museum of France &mdash; bought it.
+      </p>
+      <p style={proseStyle}>
+        The Louvre bought <em>Le Berceau</em> from <strong>Blanche Forget</strong>, the now-grown daughter of Edma Pontillon, in <strong>1930</strong>, for <strong>300,000 francs</strong>. The price is worth sitting with for a second. Eight hundred francs offered in 1874, no buyer. Three hundred thousand francs paid in 1930, by the national museum of France, to acquire it for the nation. That is the arc of an Impressionist picture&rsquo;s value in fifty-six years: from an unsold asking-price on a cooperative show&rsquo;s catalogue to a six-figure state purchase. (Yes, inflation between 1874 and 1930 closes part of that gap &mdash; but only part; the rest is the movement winning, posthumously, the argument it lost on the wall in 1874.) Three hundred thousand francs is also, plainly, the price you pay when the picture has stopped being &ldquo;a Morisot the family kept&rdquo; and become <em>the Morisot</em> &mdash; the work that, in the museum&rsquo;s view, has to be in the national collection.
+      </p>
+      <p style={proseStyle}>
+        From 1930 on, the picture is institutional. It enters the Louvre&rsquo;s Impressionist holdings. In <strong>1947</strong>, after the Second World War, those Impressionist holdings get moved across the Seine into the <strong>Mus&eacute;e du Jeu de Paume</strong> &mdash; a smaller museum in the Tuileries gardens that, for several decades, was where Paris kept its Impressionists. <em>Le Berceau</em> hangs there from 1947 to 1986. Then in <strong>1986</strong> Paris opens the <strong>Mus&eacute;e d&rsquo;Orsay</strong>, the new flagship museum for nineteenth-century French art, housed in a converted railway station on the Left Bank. Every major Impressionist in the city moves across to the new house. <em>Le Berceau</em> moves with them. It has been on the walls of the <strong>Mus&eacute;e d&rsquo;Orsay</strong> since 1986, on permanent view, and that is where it lives now (accession number <strong>RF 2849</strong>). If you are in Paris and you walk through the d&rsquo;Orsay&rsquo;s Impressionist galleries, you will find it.
+      </p>
+
+      <SectionHeader accent={accent} label="Reintroduction" title="A 20th-century reputation" />
+      <p style={proseStyle}>
+        And here is where this picture&rsquo;s afterlife diverges from almost every other famous Impressionist canvas, and where the line between the painting and the movement gets interesting. <em>The Cradle</em> did not become famous because the public found it. It became famous because the Louvre bought it. Most of the iconic Impressionist works &mdash; <em>Sunrise</em>, the Renoirs, the Degas dancers &mdash; have a public reception trail that runs continuously from the 1870s onward: critics writing about them, dealers selling them, collectors fighting over them, museums chasing them. <em>The Cradle</em> doesn&rsquo;t have that trail. It went to <strong>Edma</strong> in 1874 and effectively vanished from criticism until the 1930 purchase, and then it had to be reintroduced to the public <em>as</em> a masterpiece, half a century after the fact. The picture&rsquo;s reputation is, in a real sense, <strong>a twentieth-century reputation built on a nineteenth-century painting that the nineteenth century barely got to look at.</strong> The 1930 purchase isn&rsquo;t just an acquisition. It&rsquo;s a reintroduction.
+      </p>
+      <p style={proseStyle}>
+        The reintroduction stuck. <em>Le Berceau</em> is now, by common consent, the picture by which Morisot is most often known to a general reader &mdash; the one on the postcards, the one in the textbooks, the one anyone who has been through the d&rsquo;Orsay can probably picture in their head. (Whether the picture <em>should</em> be the one she&rsquo;s most known for is another question; the case is at least as strong for any of several other Morisots. But <em>The Cradle</em> is the one that landed.) It hangs there, that small vertical canvas of <strong>Edma</strong> and her niece Blanche and a veil of white paint, in the same building as the <em>Sunrise</em> that named the movement and the Manets the movement was orbiting, and it does what it always did on the wall in Nadar&rsquo;s studio in 1874: it stops you, because nobody else in the room ever painted a piece of gauze that you could see through quite like that.
+      </p>
+      <p style={proseStyle}>
+        The sister who quit got her likeness into the Louvre. The sister who didn&rsquo;t quit put it there.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  cradle: { sister: CrSister, making: CrMaking, looking: CrLooking, show: CrShow, afterlife: CrAfterlife },

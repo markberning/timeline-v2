@@ -1,0 +1,182 @@
+function GreSeine({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Croissy &middot; summer 1869" title="The frog pond on a Sunday" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a slack arm of the river on a hot afternoon &mdash; a stretch of the Seine just west of Paris, slow-moving and lazy where it widens around a small wooded island. The island sits a few yards offshore, roped to the bank by a wooden gangplank that runs out to a flat floating platform of planks and lattice. The platform is a caf&eacute; and dance hall and bathing spot all bolted together, half-on-the-water, and on any given Sunday in 1869 it is packed with Parisians who have come out for the day in their best dark clothes &mdash; clerks, shopgirls, students, soldiers on leave &mdash; drinking, splashing, gawking, and trying to get out of the city heat for a few francs. The place is called <strong>La Grenouill&egrave;re</strong>, which translates roughly as &ldquo;the frog pond.&rdquo; Now stand on the riverbank in front of it and put two easels there, side by side, and behind those easels put two men in their late twenties who are nearly broke. That&rsquo;s the whole setup of this picture. The rest of this read is what those two men figured out across that summer, while they were standing there.
+      </p>
+
+      <SectionHeader accent={accent} label="The railway" title="What put Parisians on the Seine" />
+      <p style={proseStyle}>
+        The two men are <strong>Claude Monet</strong> (1840&ndash;1926) and <strong>Pierre-Auguste Renoir</strong> (1841&ndash;1919), and the reason they&rsquo;re at the Seine and not in Paris is a story about a railway. Until about a generation before this, going from Paris out to a riverside village for an afternoon&rsquo;s bathing was a serious expedition &mdash; the kind of trip a working person could not afford the day off to make. Then the Saint-Lazare line, the western train line running out of one of Paris&rsquo;s big terminus stations, reached the Seine villages &mdash; <strong>Bougival</strong>, <strong>Chatou</strong>, <strong>Croissy-sur-Seine</strong>, a cluster of riverside towns about ten miles downstream from Paris where the river loops slowly through orchards and meadows. With the train, those villages became a same-day trip for ordinary Parisians: cheap fare, an hour out, an hour back, a whole afternoon on the water in between. That&rsquo;s the engine behind this picture. La Grenouill&egrave;re is one of the most-painted spots of the entire <strong>Seine resort</strong> boom &mdash; the cluster of pop-up caf&eacute;s and bathing pavilions that the new railway invented along the riverbanks of the western suburbs.
+      </p>
+      <p style={proseStyle}>
+        It&rsquo;s worth being honest about what kind of place it actually was, because the legend has scrubbed it up over the years into something it wasn&rsquo;t. La Grenouill&egrave;re was not a respectable bourgeois retreat where polite families took the air. It was rowdy. It was a little dubious. The same year Monet and Renoir were painting there, Napoleon III himself &mdash; the emperor of France &mdash; had paid a visit (the year before, in fact), which gives you the upper edge of its fame; the lower edge is that everyone knew the bathing girls and their company. It was a working-class pleasure-spot &mdash; caf&eacute;, dance pavilion, bathing dock, and pickup joint, all on planks above the river. The dark-suited day-trippers Monet paints on the platform aren&rsquo;t aristocrats; they&rsquo;re clerks on Sunday. The whole place hummed with the slightly louche energy of a beach resort with no parents around.
+      </p>
+
+      <SectionHeader accent={accent} label="Two broke friends" title="Monet and Renoir, walking distance away" />
+      <p style={proseStyle}>
+        The two painters were not visiting in style either. Monet was holed up in <strong>Saint-Michel</strong>, a tiny hamlet just upriver near Bougival, with his partner <strong>Camille Doncieux</strong> and their infant son <strong>Jean</strong> &mdash; the family was nearly out of money and Monet was writing begging letters to friends to send a few francs so they could eat. Renoir was a couple of villages over, in <strong>Voisins</strong>, staying with his parents because he too could not afford his own place. They had been friends for years, both stubborn, both ambitious, both more or less locked out of the official French art world. So when the weather got warm, the two broke friends did what broke friends in their twenties have always done: they walked. From wherever they were sleeping over to La Grenouill&egrave;re, where the entertainment was free if you stayed on the bank and the subject matter was endless.
+      </p>
+      <p style={proseStyle}>
+        And they did it not once but <strong>across the summer of 1869</strong> &mdash; over and over, week after week, several painting sessions strung out across the season. (This is the most-repeated misreading of the story, the one to nail down right now: people love to say Monet and Renoir set up their easels next to each other one sunny morning and made these canvases the same day, in a single golden burst. They did not. The side-by-side canvases are the product of <em>weeks</em> of company at the same spot &mdash; many afternoons, not one. That&rsquo;s the difference between a romantic flash of inspiration and a slow, deliberate, summer-long thinking-out-loud between two painters who knew each other&rsquo;s work as well as their own.)
+      </p>
+      <p style={proseStyle}>
+        So that&rsquo;s the setting. A working-class river resort an hour out of Paris, made possible by a railway. A floating caf&eacute;-bathing-deck called the frog pond. Two friends in their late twenties, broke and ambitious, stuck on the same problem &mdash; how to paint a moving, dappled, sun-struck riverside in a way that didn&rsquo;t kill it. And one slow afternoon after another, with their easels close enough to talk over, they began to figure something out together.
+      </p>
+    </article>
+  )
+}
+
+function GreMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Tableau vs pochade" title="The rule that ran the industry" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand what changed at La Grenouill&egrave;re, you need one word that ran the entire 19th-century art world: <strong>tableau</strong>. A <em>tableau</em> (pronounced &ldquo;tah-BLOH&rdquo;) was a <em>finished picture</em> &mdash; the kind of painting you spent six months on in a studio, blending every stroke smooth, polishing the surface to porcelain. A tableau was what you sent to the <strong>Salon</strong>, the official annual art exhibition in Paris where careers were made; it was the only thing that counted as a Real Painting. Set against it was a humbler creature called the <strong>pochade</strong> (pronounced &ldquo;po-SHAHD&rdquo;) &mdash; French painters&rsquo; word for a quick oil sketch, made fast, in front of the real motif, usually outdoors. Pochades were preparation, a tool. You made one to figure out a tableau. You did not show a pochade, you did not finish it, you did not sign it. A pochade was scratch paper that happened to be in oil. That distinction was the bedrock of the whole industry.
+      </p>
+      <p style={proseStyle}>
+        The whole point of what Monet and Renoir did at La Grenouill&egrave;re is that they treated the pochade as the finished picture.
+      </p>
+
+      <SectionHeader accent={accent} label="Plein air" title="Cutting out the studio" />
+      <p style={proseStyle}>
+        Start with the practical conditions. The two friends were painting <strong>en plein air</strong> &mdash; French for &ldquo;in the open air,&rdquo; meaning outdoors, on the spot, in front of the real light, rather than back in a studio from sketches and memory. Plein air wasn&rsquo;t new &mdash; an earlier generation, the <strong>Barbizon painters</strong>, had popularized going outside with portable paint boxes &mdash; but the Barbizon men still came home and worked their outdoor sketches up into finished tableaux in the studio. Monet and Renoir cut out the studio. Whatever they made on the riverbank was going to be the final object.
+      </p>
+      <p style={proseStyle}>
+        That changes how you paint, because the river won&rsquo;t sit still for six months. The light shifts every fifteen minutes; the water moves constantly; the breeze ripples the surface; the trees dapple and re-dapple. You cannot blend a painting smooth at that speed. So both painters worked <strong>wet-into-wet</strong> (fresh color dragged straight through color still wet on the canvas, so the strokes smear and blend on the surface itself), in fast, separate touches of pure pigment laid down side by side. They didn&rsquo;t premix a &ldquo;water color&rdquo; on the palette; they laid down a stroke of slate blue, then a stroke of olive green next to it, then a stroke of dirty white next to that, and trusted the viewer&rsquo;s eye to do the mixing. This technique has a name: <strong>broken color</strong> &mdash; small, separate strokes of unblended pure color, side by side, instead of smoothly mixed tones, so the picture surface stays alive with the individual marks. It is the technical headline of <em>La Grenouill&egrave;re</em>.
+      </p>
+      <p style={proseStyle}>
+        And it matters for <em>this</em> subject in particular, because moving water under bright sun is the one thing in nature broken color is built to paint. A flat smooth lake reflects like a mirror &mdash; you can blend that. But choppy water under direct light is a thousand tiny tilted surfaces flashing different colors at once: blue here, white-glare there, dark-shadow-green here, ochre-reflection there, all changing every second. The only honest way to put that on canvas is in tiny separate strokes of different colors next to each other, fast, and not blended. Sit Monet and Renoir on the bank and you get <em>paint that reads as moving sun-struck water</em> &mdash; because the marks behave the way the real water behaves. That is the discovery, and it was found at this exact spot.
+      </p>
+
+      <SectionHeader accent={accent} label="Two easels" title="A tiny research lab on the bank" />
+      <p style={proseStyle}>
+        The reason it took both of them is that working against the entire training of the era is harder alone than in pairs. Two easels next to each other, week after week &mdash; two painters who could see each other&rsquo;s canvases, talk between strokes, watch each other&rsquo;s solutions &mdash; was a tiny research lab. Monet would put down a stroke; Renoir would try one of his own; one would push the pure-color side, the other the soft-pearl side. They weren&rsquo;t copying each other. They were thinking together. (Renoir&rsquo;s twin canvas of nearly the same view, made on the same bank that summer, is now at the <strong>Nationalmuseum</strong> in Stockholm. The two pictures are best read as sibling experiments, not as a master and a follower &mdash; trading notes, not ranks.)
+      </p>
+
+      <SectionHeader accent={accent} label="The letter to Bazille" title="Monet calls his own picture a bad sketch" />
+      <p style={proseStyle}>
+        There is one piece of paper that proves Monet himself did not yet think any of this was finished work. In September 1869 he wrote to his friend the painter <strong>Fr&eacute;d&eacute;ric Bazille</strong>: <em>&ldquo;I do have a dream, a painting (</em>tableau<em>), the baths of La Grenouill&egrave;re, for which I have made some bad sketches (</em>pochades<em>), but it is only a dream.&rdquo;</em> That is the whole pivot of this picture&rsquo;s status. Monet, in 1869, is calling the canvases he is making at La Grenouill&egrave;re &ldquo;bad sketches&rdquo; &mdash; <em>pochades</em> &mdash; that he hopes to work up someday into a real tableau. He thinks the Met&rsquo;s picture is a scratch. He thinks the <em>real</em> painting is the larger, finished version he plans to make from these sketches and submit to the Salon.
+      </p>
+      <p style={proseStyle}>
+        And he tried. Monet started that larger version: a bigger, more worked-up canvas that he in fact submitted to the <strong>Salon of 1870</strong> &mdash; and the Salon jury <strong>rejected it</strong>. The picture later passed into the <strong>Arnhold collection</strong> in Berlin, a major German Jewish art collection assembled by the banker Eduard Arnhold in the early 20th century. When the Nazis dismantled that collection during the Second World War, the painting <strong>disappeared</strong> &mdash; presumed destroyed sometime between 1939 and 1945. So the tableau Monet had dreamed of in his letter to Bazille was made, rejected by the official system it was made for, sold off, and then lost in a war seventy years later. What survived, and what changed painting, was the so-called bad sketch he had been making on the bank.
+      </p>
+    </article>
+  )
+}
+
+function GreLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The water" title="Broken strokes that refuse to mirror" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>L</DropCap>
+        ook at the river first. Nearly two-thirds of this canvas is water, and the water is the part that makes the picture famous: <strong>horizontal broken strokes</strong> in slate blue, emerald, white, ochre, and dark brown, slashed across in jabs and dashes &mdash; short, choppy, separate touches of unmixed pigment laid down side by side. No smooth blending. No glassy mirror. Where the trees on the far bank reflect into the water, Monet does not paint a mirrored shape &mdash; he paints continuous <em>horizontal bars</em> in the colors of those reflections. The reflections of the boats aren&rsquo;t boat-shaped either; they&rsquo;re bands of dark and pale running flat across the water. That refusal to mirror is the picture&rsquo;s quietest joke. A real choppy river surface doesn&rsquo;t reflect like a mirror &mdash; every little tilt of the surface re-aims the light somewhere else, so what you actually <em>see</em> is a horizontal smear of color, not a clean upside-down copy of the bank. Monet paints what the eye gets, not what the mind expects.
+      </p>
+      <p style={proseStyle}>
+        The painting itself is small for what it does &mdash; about two and a half feet tall and a little over three feet wide (the museum&rsquo;s catalogue number is 74.6 by 99.7 centimeters, the source-of-truth measurement; in plain feet and inches that&rsquo;s roughly <strong>2 ft 5&frac12; in &times; 3 ft 3&frac14; in</strong>). Oil on canvas, signed and dated lower right <em>Claude Monet 69</em>. The view looks across that wide, slack stretch of the Seine on a hot summer afternoon. Now work out from the water, piece by piece.
+      </p>
+
+      <SectionHeader accent={accent} label="Le Camembert" title="The island and the floating pavilion" />
+      <p style={proseStyle}>
+        Middle distance, dead center: a small round island, fat with summer trees, sitting in the river like a fat green hat. The locals called it <strong>the Camembert</strong>, after the round French cheese, because of its shape (some called it the Flowerpot Island for the same reason). A narrow wooden gangplank runs from the island out to a rectangular floating platform of planks and lattice &mdash; the bathing-and-dance pavilion of La Grenouill&egrave;re itself, the floating caf&eacute; where everyone is hanging out. Monet paints the platform and the island as broad slabs of olive green and warm gray, no fussy detail, the planking suggested by horizontal bands rather than drawn board-by-board. The whole pavilion is a stage; the people on it are the cast.
+      </p>
+
+      <SectionHeader accent={accent} label="The cast" title="Day-trippers as silhouettes" />
+      <p style={proseStyle}>
+        And the cast is not painted as people. On the platform and gangplank &mdash; where, in a proper Salon picture, you&rsquo;d expect to find individuals with hats and faces and stories &mdash; Monet gives you nothing of the kind. Small standing figures in dark dress clothes, day-trippers in their Sunday best, are sketched in as paint-strokes only a few inches high: wedges of dark and pale paint, leaning, clustering, gesturing, with <strong>no faces</strong> at all. You can read postures and body language, who&rsquo;s pausing for a drink and who&rsquo;s heading for the gangplank, the way you read a crowd at a distance. But not one of them has eyes you can find, not one has a hat brim drawn in. They are <em>silhouettes</em>, brilliantly placed and deliberately left that way &mdash; what a crowd actually looks like across a sunlit river from forty feet off, not what crowds look like in Salon paintings.
+      </p>
+
+      <SectionHeader accent={accent} label="Boats and bathers" title="Heavy dark wedges, and figures in the water on the left" />
+      <p style={proseStyle}>
+        Sweep to the lower left, in close. Along the riverbank in the foreground a knot of <strong>rowboats and skiffs</strong> are tied up, prow-out, painted as tilted dark wedges with pale ribs &mdash; long-bellied wooden river boats, the kind you&rsquo;d rent for the afternoon for a few sous. Monet renders them as solid dark masses with little pale highlights along the gunwale (the boat&rsquo;s upper edge) catching the light. They are the picture&rsquo;s heaviest, darkest paint &mdash; anchoring the corner.
+      </p>
+      <p style={proseStyle}>
+        Now look further out, into the water at the LEFT side of the canvas, in the middle distance just past the boats and over toward the pavilion. There &mdash; half-immersed in the river &mdash; are the <strong>bathers</strong>: a small cluster of men and women in white or dark shirts, each sketched as a few broken brushstrokes. They have no faces either. They aren&rsquo;t posed; they&rsquo;re standing waist-deep in the river on a hot day, painted with the same loose dabs Monet uses for the boats and the trees. (You will sometimes see captions place them in the right foreground; they&rsquo;re not there &mdash; they are small figures in the <em>water on the left</em>, set well back from the bank, and easy to miss if you&rsquo;re scanning for a tableau-style group portrait.) That&rsquo;s the giveaway: in this picture, <em>people are not a special category of paint</em>. A bather is just another thing the eye catches in the dazzle.
+      </p>
+
+      <SectionHeader accent={accent} label="The trees" title="No sky, only foliage and the bounce off the water" />
+      <p style={proseStyle}>
+        Above all that, filling the upper third, are the <strong>trees</strong> on the far bank &mdash; dense summer foliage in unblended greens and yellow-greens, with dapples of warm light and pockets of dark shadow stitched into them. There is essentially no sky visible. The picture&rsquo;s light isn&rsquo;t coming down out of a band of blue at the top; it&rsquo;s bouncing off the water at the bottom. The sun is high and slightly off to the upper left &mdash; you can tell by the way the pavilion casts its clear dark reflection beneath it. The whole palette is high-contrast: saturated olive greens, slate blue, white, warm ochre, dark brown &mdash; not the pastel haze the late Impressionist work would shade into. Full midsummer color, dropped onto the canvas in separate touches.
+      </p>
+    </article>
+  )
+}
+
+function GreBreak({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The four breaks" title="What La Grenouill&egrave;re actually opened" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        o what did <em>La Grenouill&egrave;re</em> break open? Four things, mainly, and they&rsquo;re worth taking one at a time, because together they&rsquo;re the whole quiet argument of what would later be named Impressionism &mdash; and each one is sitting right there on the Met&rsquo;s canvas, in paint.
+      </p>
+
+      <SectionHeader accent={accent} label="One" title="The sketch is the painting" />
+      <p style={proseStyle}>
+        <strong>One: the sketch is the painting.</strong> The biggest rule this picture breaks is the one that ran the entire industry &mdash; the rule that says a real painting (<em>tableau</em>) is something you finish smooth and slow back in the studio, and a sketch made outdoors (<em>pochade</em>) is the cheap practice piece you toss out afterward. Monet thought he was making pochades that summer; the letter to Bazille proves it. But what he and Renoir actually made, in front of the river, was a <em>finished</em> picture in pochade form &mdash; fast, loose, on-the-spot, signed <em>Claude Monet 69</em>, and held by its own painter as a complete object even as he kept calling it a sketch. The status flipped under their feet. The picture you can see in the Met today, with the choppy horizontal water-strokes left visibly as separate marks, is <em>being shown to you finished in exactly the state a previous generation would have called unfinished</em>. The roughness isn&rsquo;t an accident. It&rsquo;s the message. The slow polish would have killed the dazzle, so they skipped the slow polish. The &ldquo;bad sketch&rdquo; is the work.
+      </p>
+
+      <SectionHeader accent={accent} label="Two" title="Paint that reads as moving water" />
+      <p style={proseStyle}>
+        <strong>Two: paint that reads as moving water.</strong> The water is the technical headline, and the proof that broken color found its perfect subject here. Look at it: slate blue and emerald and white and ochre slashed across the surface in short, separate, mostly-horizontal jabs. Stand close and you see only the strokes &mdash; pure colors next to each other, not blended. Step back and your eye does the mixing on its own, and <em>the water moves</em>. That illusion of movement isn&rsquo;t a trick of fancy drawing; it&rsquo;s a physical property of unmixed paint laid down in separate marks, matching the way the painters worked (in separate touches) to the way the actual water surface was behaving (in separate tilted facets each reflecting differently). Painting could now <em>do</em> the riverbank in a way no smooth-blended tableau ever had. That is the seed of nearly everything Monet would spend the rest of his life on &mdash; the <em>Water Lilies</em>, the haystacks, the cathedrals, the long Thames series. The lily ponds at Giverny are a long way down this same road, and the road starts here.
+      </p>
+
+      <SectionHeader accent={accent} label="Three" title="Figures as marks" />
+      <p style={proseStyle}>
+        <strong>Three: figures as marks.</strong> A proper tableau gave you faces &mdash; even a crowd scene drew the foreground figures with enough detail to know who was who. Monet does the opposite: day-trippers as silhouettes and dabs, bathers as broken brushstrokes, faces nowhere to be found. The argument is the same as the one about water &mdash; he is painting what the eye actually gets across a river of glare on a hot day, not what the mind knows is there. You don&rsquo;t see your fellow Sunday-tripper&rsquo;s expression from forty feet across a sunlit pavilion; you see a wedge of dark suit and a posture. Monet paints the wedge. That decision will scale up later, in whole crowds of Impressionist boulevards, dance halls, racecourses, and caf&eacute;s, where the marks of the brush do the work of human bodies. It is first deployed at full strength right here.
+      </p>
+
+      <SectionHeader accent={accent} label="Four" title="A working-class subject worth a serious painting" />
+      <p style={proseStyle}>
+        <strong>Four: a working-class subject treated as worth a serious painting.</strong> A Salon-grade Seine picture in 1869 would have been a noble river scene &mdash; boatmen, mythological figures, maybe a tall poetic willow on a calm bank. Monet pointed his canvas at a rowdy floating caf&eacute;, full of clerks and bathing girls and Sunday-trippers in cheap dress clothes, and treated <em>that</em> as worth a real painting. The Frog Pond was almost a punchline of a subject for a serious artist &mdash; and he made it the subject. That choice belongs to a bigger conversation already running in Paris: the poet <strong>Charles Baudelaire</strong> and the painter <strong>&Eacute;douard Manet</strong> had been pushing for a decade the idea that the painter&rsquo;s true job was to paint <strong>modern life</strong> &mdash; the present-tense, here-and-now, city-and-suburb world, including the parts that were not noble or eternal. La Grenouill&egrave;re is the Seine-resort wing of that program, planted on a wooden gangplank above the river.
+      </p>
+
+      <SectionHeader accent={accent} label="A method, not a movement yet" title="The name came later. The picture came first." />
+      <p style={proseStyle}>
+        Put those four together and what you have is, in 1869, <em>a working method</em>. Not a fully-formed movement, not yet &mdash; the word &ldquo;Impressionism&rdquo; wouldn&rsquo;t exist for five more years, and that name would land on a different Monet picture (a dawn over the harbor at Le Havre, painted in 1872) at a critic&rsquo;s mocking review of an 1874 exhibition. But the <em>method</em> &mdash; broken color, plein air, sketch-as-finished-painting, modern subjects, figures and reflections as marks &mdash; is on the canvas at the Met. It is not the day Impressionism was born; you cannot point at any one day for that. But it is one of the moments where the future method first shows up, in paint, in front of you, as a working solution to a problem two friends were thinking out loud about together on the bank of a river one slow summer. The name came later. The picture came first.
+      </p>
+    </article>
+  )
+}
+
+function GreAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The quiet decades" title="A picture nobody much noticed at first" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>F</DropCap>
+        or a picture that ended up doing all that, <em>La Grenouill&egrave;re</em> spent most of its first three decades in nobody&rsquo;s spotlight. Monet did not show it at the 1874 First Impressionist Exhibition (a persistent legend says he did; the museum&rsquo;s catalogue does not confirm it and you should treat any &ldquo;Grenouill&egrave;re was at the 1874 show&rdquo; claim with skepticism). It did not appear at any other major Impressionist show in the years when it would have mattered most for Monet&rsquo;s career. It mostly sat. Where, exactly, gets a little hard to pin down, which is appropriate for a sketch its own painter once dismissed as a bad one.
+      </p>
+
+      <SectionHeader accent={accent} label="From Manet to Mme Manet" title="A friend buys it; his widow inherits it" />
+      <p style={proseStyle}>
+        The first owner the museum tentatively names is, of all people, <strong>&Eacute;douard Manet</strong> (1832&ndash;1883) &mdash; the older Paris painter whose <em>Olympia</em> and <em>Le D&eacute;jeuner sur l&rsquo;herbe</em> had scandalized the Salon in the 1860s and made him the unofficial elder of the modern-life painters. Manet was Monet&rsquo;s friend and informal patron and occasionally bought a friend&rsquo;s canvas off the easel to keep the rent paid. Manet&rsquo;s role here is uncertain &mdash; the Met&rsquo;s catalogue says &ldquo;possibly&rdquo; his &mdash; but it fits the story: Monet was broke that summer, broke the next year too, and Manet was the kind of friend who quietly helped. From Manet, the picture seems to have passed to his widow <strong>Suzanne Manet</strong> (1829&ndash;1906) &mdash; Suzanne Leenhoff, the Dutch piano teacher who had taught &Eacute;douard and his brothers as boys and quietly married &Eacute;douard in 1863. Mme Manet inherited her husband&rsquo;s stock of paintings after his death in 1883. From her, <em>La Grenouill&egrave;re</em> appears to have moved to <strong>Durand-Ruel</strong> &mdash; the great Paris dealer who became the Impressionists&rsquo; agent and lifeline &mdash; possibly bought from her in 1886, certainly in Durand-Ruel&rsquo;s stock by 1891.
+      </p>
+
+      <SectionHeader accent={accent} label="To Fifth Avenue" title="The Havemeyers buy it, the Met inherits it" />
+      <p style={proseStyle}>
+        Durand-Ruel is the hinge of this story, because Durand-Ruel had a new market in mind. By the 1890s American collectors had begun to discover the Impressionists in earnest, and Durand-Ruel was selling them work as fast as he could supply it. On <strong>27 September 1897</strong>, <em>La Grenouill&egrave;re</em> sold from Durand-Ruel&rsquo;s stock for <strong>12,500 francs</strong> to <strong>H. O. Havemeyer</strong> &mdash; Henry Osborne Havemeyer, the New York sugar-refining magnate, and his wife <strong>Louisine Havemeyer</strong>, who together were assembling one of the great American art collections of the era. (Louisine in particular was the eye and the engine of the collection; she had been buying Impressionists since the 1870s, when she was still in her twenties and the painters were nobodies.) The painting went to New York. It sat in the Havemeyers&rsquo; Fifth Avenue mansion for the next thirty-odd years, alongside Manets and Degases and Cassatts and El Grecos. When Louisine died in 1929, she left the entire collection to the Metropolitan Museum of Art &mdash; the <strong>Havemeyer Bequest</strong> of 1929, one of the most generous single gifts in the museum&rsquo;s history &mdash; and <em>La Grenouill&egrave;re</em> (accession number <strong>29.100.112</strong>) joined the Met&rsquo;s permanent collection. It has been there ever since.
+      </p>
+
+      <SectionHeader accent={accent} label="The lost tableau" title="What the Salon rejected, the war finished" />
+      <p style={proseStyle}>
+        Meanwhile, what Monet himself thought was the <em>real</em> picture &mdash; the larger, finished tableau he had told Bazille about in his September 1869 letter &mdash; went the other way. Monet did work it up, did submit it to the <strong>Salon of 1870</strong>, and the Salon <strong>turned it down</strong>. That rejected canvas passed eventually into the <strong>Arnhold collection</strong> in Berlin, the great pre-war collection assembled by the banker Eduard Arnhold; when the Nazis broke that collection apart during the Second World War, the painting <strong>vanished</strong>, almost certainly destroyed. The tableau Monet had dreamed of, that the official system had refused, that the next century&rsquo;s war had finally killed &mdash; is gone. The pochade is famous.
+      </p>
+
+      <SectionHeader accent={accent} label="Three transcripts" title="The other canvases from the same summer" />
+      <p style={proseStyle}>
+        That summer&rsquo;s work in fact survives in more than two canvases. Renoir&rsquo;s twin &mdash; his version of nearly the same view, painted the same summer from a slightly different vantage on the same bank, set up next to Monet&rsquo;s easel through that long warm season of work &mdash; went on its own journey and ended up at the <strong>Nationalmuseum</strong> in Stockholm. And a second small Monet from the same summer, <em>Bathers at La Grenouill&egrave;re</em> &mdash; focused tighter on the bathing pontoon and the figures in the water &mdash; is at the <strong>National Gallery in London</strong> today. Read in that company, the Met picture is not a one-off; it is one of at least three sibling pochades the two friends pulled off the same bank that summer, talking to each other across their easels. There is no master version and no copy. They were the joint product of two painters thinking through the same problem in real time, in the same place, day after day. Treat them like a conversation that happened to leave three transcripts.
+      </p>
+      <p style={proseStyle}>
+        So the painting you can stand in front of today at the Met, the small dazzling canvas of the Frog Pond, is a painting its own painter once thought was a scratch &mdash; a sketch toward a finished picture he actually made, submitted, lost the Salon over, and lost again to a war. It is a quiet joke at the expense of the tableau-pochade hierarchy that the 19th-century art world ran on. The big polished tableau is dust. The bad sketch named the future. Monet would spend the next sixty years painting Seine surfaces and lily pads and cathedrals and London fog with the method he and Renoir worked out on a wooden platform on the Frog Pond, across the summer of 1869. The pochade kept its strokes visible. It&rsquo;s still moving.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  grenouillere: { seine: GreSeine, making: GreMaking, looking: GreLooking, break: GreBreak, afterlife: GreAfterlife },

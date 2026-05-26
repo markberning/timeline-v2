@@ -1,0 +1,189 @@
+function MgMontmartre({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Montmartre · 1876" title="Sunday at the windmill" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a hill on the north edge of Paris, the kind of hill you climb on a Sunday afternoon when you want to get out of the city without leaving it. At the top sits a working windmill &mdash; an actual mill, with sails &mdash; and tucked beside it, in an open-air garden ringed with trees, hundreds of young people are dancing. Round paper-globe lanterns hang in the branches overhead, strung on wires between the trees, not yet lit because it is still daylight. The band is playing. The wine is cheap. The house specialty &mdash; the <strong>galette</strong>, a flat round biscuit-cake baked from the mill&rsquo;s own flour and sold with a glass of milk for almost nothing &mdash; is laid out at the counter. The crowd is mostly working-class: laundresses, seamstresses, clerks, students, the sons and daughters of the carpenters and stonemasons who live on the hill. Mixed in among them is a thin scattering of broke young painters from the neighborhood, watching.
+      </p>
+      <p style={proseStyle}>
+        This is <strong>Montmartre</strong> in 1876. Not yet the clich&eacute; tourist Montmartre of Sacr&eacute;-C&oelig;ur and accordion players &mdash; the big white basilica at the top of the hill hasn&rsquo;t been built yet &mdash; but the real working Montmartre, still half a village, only recently absorbed into the city itself. Paris had eaten its surrounding villages in 1860, swallowing Montmartre and a clutch of other communes into its expanded city limits, and the hill was now technically the <strong>18th arrondissement</strong> (one of the twenty numbered districts the new Paris was divided into, spiraling out from the center like a snail shell). Technically inside Paris; in practice still its own place. Working windmills still ground flour up there. Small farms still grew cabbages. The rents were cheap. The light was good. Painters lived there because painters could afford to.
+      </p>
+
+      <SectionHeader accent={accent} label="The guinguette" title="The Debrays&rsquo; dance garden" />
+      <p style={proseStyle}>
+        The dance garden in question was called the <strong>Moulin de la Galette</strong> &mdash; literally &ldquo;the windmill of the galette&rdquo; &mdash; and it was a real, working family business that the <strong>Debray family</strong>, the local millers, had turned into something more profitable than flour alone. The Debrays in fact owned <strong>two</strong> windmills on this stretch of the Butte: the older <strong>Blute-Fin</strong> (built 1622, the tall sailed mill that you can see in the painting itself), and the <strong>Radet</strong> (built 1717, a few yards downhill). They kept milling, and they spun the site into a <em>guinguette</em> &mdash; French for &ldquo;open-air caf&eacute; and dance hall.&rdquo; (The word originally meant a cheap suburban tavern selling the bad local wine of the same name.) A <em>guinguette</em> was a Sunday-afternoon institution: not a nightclub, not a salon, but the cheap outdoor place ordinary Parisians went to drink wine, eat the galette the place had been named after, and dance to a small band, in daylight, in a garden, with their friends. The Debrays&rsquo; was the most famous of them.
+      </p>
+
+      <SectionHeader accent={accent} label="A new leisure" title="Why Sunday afternoons existed at all" />
+      <p style={proseStyle}>
+        Sunday afternoons mattered, and here is the part that&rsquo;s easy to skate past: this whole world of cheap mass leisure was new. Two changes had only just made it possible. First, the <strong>railways</strong> &mdash; the great new train lines fanning out from the central Paris stations across the 1850s and 1860s &mdash; had stitched the city together internally and pulled the suburbs in close, turning a Sunday trip from a logistical project into a casual outing. Second, and more quietly, the working day was shifting: by the 1870s the French half-day Saturday and the free Sunday were becoming a normal expectation for clerks and shop assistants in Paris, even if factory workers were still some way from it. A clerk in 1830 worked from dark to dark. A clerk in 1876 had a Sunday off, a few francs in his pocket, and a railway-and-omnibus network that would put him at the bottom of the Butte Montmartre by lunchtime. From there it was a walk uphill. Leisure, in the modern sense &mdash; the idea that ordinary people had whole days that were their own &mdash; was being invented in real time, on the ground, in places exactly like this one.
+      </p>
+
+      <SectionHeader accent={accent} label="Enter the painter" title="Renoir, 35 and broke" />
+      <p style={proseStyle}>
+        Now enter the painter. <strong>Pierre-Auguste Renoir</strong> (1841&ndash;1919) was 35 years old in 1876 and broke. Don&rsquo;t write him in your head as the celebrated Renoir of the late portraits and the warm-honey bathers; in 1876 he was a struggling thirtysomething painter whose work the official annual exhibition kept hanging badly or rejecting outright. His main patron was a young fellow painter named <strong>Gustave Caillebotte</strong> (1848&ndash;1894), independently wealthy and quietly buying his friends&rsquo; work to keep them in paint and rent. Renoir had been painting in and around Montmartre for years, but in 1875 he made a deliberate move. He rented a studio nearby on the <strong>rue Cortot</strong>, a small street just downhill from the Moulin de la Galette, and he rented it on purpose &mdash; to work on a single big picture about the dance garden up the hill.
+      </p>
+      <p style={proseStyle}>
+        That picture is the one we&rsquo;re about to look at. It is over five feet wide &mdash; almost six &mdash; and it has named friends of Renoir&rsquo;s in it, sitting at a table, dancing in the crowd. The 35-year-old broke painter is going to put the windmill, the lanterns, the pink-and-blue dresses, the dappled afternoon sun, and the whole new Sunday of the new city on a canvas the size that the establishment reserved for the deaths of kings. Hold that scale in mind. It&rsquo;s the quiet provocation of the entire picture.
+      </p>
+    </article>
+  )
+}
+
+function MgMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="History-painting scale for a dance" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the canvas, because the first fact about this picture is its size.
+      </p>
+      <p style={proseStyle}>
+        <em>Bal du moulin de la Galette</em> is <strong>about 4 ft 3&frac34; in tall by 5 ft 9 in wide</strong>. That doesn&rsquo;t sound enormous on the page; it is enormous in a room. Imagine a canvas wider than a tall person is tall, mounted on a stretcher, then imagine carrying that out of a small Paris studio and back. Now imagine what such a canvas was <em>for</em> by the rules of the time. A canvas this big was a <strong>history painting</strong> &mdash; the grandest category of subject in the academic hierarchy: ancient battles, the death of Caesar, mythology, biblical drama, the great noble themes. Sunday afternoons did not get six feet of canvas. Renoir&rsquo;s first decision, before he ever loaded a brush, was to take history-painting scale and aim it at a dance.
+      </p>
+      <p style={proseStyle}>
+        And not just any dance. Look again at who is on the floor. These are not aristocrats and not the haute-bourgeoisie of the new Paris boulevards; these are <strong>seamstresses, milliners, laundresses, shop clerks, and the journeymen of Montmartre&rsquo;s workshops</strong>, in their cheap Sunday best, holding each other under a working mill on their one day off. The provocation isn&rsquo;t only that Renoir scaled up a leisure subject. It&rsquo;s that he scaled up the leisure of a class that history painting had never depicted at six feet wide. Salon canvases of this size went to gods, generals, and kings. Renoir gave the size to a working girl in a striped dress and her partner in a straw hat. That substitution is the political content of the picture, and it&rsquo;s deliberate.
+      </p>
+
+      <SectionHeader accent={accent} label="Plein air" title="Painting in the garden, finishing in the studio" />
+      <p style={proseStyle}>
+        The second decision was where to work. He rented his small studio on <strong>rue Cortot</strong> in Montmartre in 1875 specifically so the dance garden would be a short walk away. Then he did something the <strong>plein air</strong> painters &mdash; <em>plein air</em> is French for &ldquo;open air,&rdquo; meaning painting outdoors in front of the real light rather than from sketches and memory in a studio &mdash; were starting to do as a method: he carried his canvas, his palette, and his easel up the hill on Sunday afternoons and painted at the <em>guinguette</em> itself, on the spot, with the dance going on around him. Across weeks of Sundays, sitting in the garden under the trees, he worked from life: real faces, real hats, the real fall of leaf-shadow on real shoulders. (Be careful with the legend here. The romantic story that he painted the whole thing <em>en plein air</em> in the garden, every brushstroke laid down outdoors, is partly true and partly tidied up. He painted <em>on site</em> over many sessions; he carried the canvas back to the rue Cortot studio and finished it indoors. &ldquo;Painted partly on site, finished in the studio&rdquo; is the honest phrasing. A big crowd scene with dozens of figures was never going to be wholly resolved in a noisy garden full of dancers.)
+      </p>
+
+      <SectionHeader accent={accent} label="The cast" title="Real friends, named in the corners" />
+      <p style={proseStyle}>
+        The third decision was the cast. Renoir didn&rsquo;t try to paint anonymous strangers; he painted the people he knew. The figures sitting at the small round caf&eacute; table in the front-right of the picture are his friends, named in his own and others&rsquo; accounts of the work. The man in the dark suit and straw boater (the stiff flat-brimmed summer hat), seen in profile facing right with his arm draped over the chair, is the painter <strong>Norbert Goeneutte</strong> (some sources read this seated figure instead as another painter, <strong>Pierre-Franc Lamy</strong> &mdash; they look similar in this group, and the identification isn&rsquo;t airtight). Opposite him, facing us and leaning forward toward the young woman, is the writer <strong>Georges Rivi&egrave;re</strong>, Renoir&rsquo;s friend and the chronicler who would later write up this whole circle. The young woman herself, leaning back against the bench in a striped pink-and-blue dress, is <strong>Estelle Samary</strong>, a young model from the neighborhood. And in the dancing crowd around them are more of the regulars &mdash; the painters <strong>Henri Gervex</strong>, <strong>Fr&eacute;d&eacute;ric Cordey</strong>, <strong>Pierre-Franc Lamy</strong>, the journalist <strong>Paul Lhote</strong>, and at lower left, a favorite Renoir model named <strong>Margot</strong> (Marguerite Legrand), in another striped pink-and-blue dress, dancing with a Cuban-painter friend called <strong>Pedro Vidal de Solares y C&aacute;rdenas</strong>. Most of the dancing crowd in the middle distance is <em>not</em> individually named &mdash; it&rsquo;s a soft crowd, faceless on purpose &mdash; but the front of the picture is a portrait of Renoir&rsquo;s actual Sunday afternoons.
+      </p>
+
+      <SectionHeader accent={accent} label="Dappled light" title="Painting the spots themselves" />
+      <p style={proseStyle}>
+        And now the trick. The hardest problem in this painting, the one Renoir solved on the spot in front of the dancers and that nobody had quite solved before him, is <strong>dappled light</strong>. Dappled light is what happens when sunlight comes down through leaves and branches: the leaves break the light up into discrete round patches, so that what falls on the people below isn&rsquo;t a smooth wash of sun but a scattered constellation of bright spots, with cool shadow in between. Stand under a tree on a sunny afternoon and look at your own arm and you&rsquo;ll see it &mdash; small round coins of warm light, edges soft, all over you. The traditional way to paint this in 1876 was to fudge it: a general golden glow over everything, the shadows toned down, the spots ironed out. Renoir refused. He painted the <strong>spots themselves</strong>, as discrete dabs of warm pink, lilac, pale violet, and straw-yellow, sitting visibly on top of the cool gray-blue of the shadow. He matched the bouncing color of the real garden &mdash; not the <em>idea</em> of sunlight, but the <em>actual</em> messy patchwork it makes on a jacket.
+      </p>
+      <p style={proseStyle}>
+        Look at the man in the dark suit in the lower foreground, the one with his back partly to us. There is a clear <strong>pink-violet patch on his back</strong> that is the same color as nothing else in the picture except other sunspots &mdash; it doesn&rsquo;t match his suit, it doesn&rsquo;t match the wall behind him, it doesn&rsquo;t match his neighbor&rsquo;s hat. It&rsquo;s a discrete dab of color, sitting on the dark cloth, that reads from across a room as a coin of afternoon sun on the man&rsquo;s shoulder. Up close it looks like a bizarre mauve smear. Across the room it looks like sunshine through a tree. That mismatch &mdash; paint that is doing one thing close up and a completely different thing at distance &mdash; is the engine of the whole picture.
+      </p>
+
+      <SectionHeader accent={accent} label="The palette" title="No pure white, no hard black" />
+      <p style={proseStyle}>
+        The <strong>palette</strong> is the other half of the answer. Look at what isn&rsquo;t there: there is almost no pure white anywhere on the canvas, and there are almost no hard black shadows. The dresses that read as white are actually pale pink, lilac, and pale blue. The &ldquo;black&rdquo; suits are warm grays and soft, slightly-purpled blacks. The shadows on the ground are warm, not cold. By keeping pure white and pure black out of the picture, Renoir lets every color <em>belong</em> to the warm afternoon air &mdash; there are no jarring extremes pulling the eye out of the garden. Everything is pitched in the warm middle, which is exactly the register of a real sunlit Sunday afternoon at four o&rsquo;clock. Polish has been refused on purpose; the soft, blurred edges of dancers and faces are the trick that says &ldquo;this is what a crowded garden in moving light actually looks like, not the catalogue of who is wearing what.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        He signed it lower right: <em>Renoir. 76.</em>
+      </p>
+    </article>
+  )
+}
+
+function MgLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="At the canvas" title="Five feet of Sunday afternoon" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of the canvas. The first thing that hits you is not any single figure but the <strong>warm air</strong> of the whole thing &mdash; a wash of pinks, lilacs, and pale blues, pricked all over with bright round coins of sunlight, with the soft suggestion of a crowd dancing inside it. Then your eye starts finding things. Slow down and find them on purpose, because the picture is busy and a casual glance reads it as a happy blur.
+      </p>
+
+      <SectionHeader accent={accent} label="Middle ground" title="A couple dancing at the heart" />
+      <p style={proseStyle}>
+        Start where the painting wants you to start, which is the <strong>middle ground</strong>, just behind the seated friends &mdash; the area roughly at the center of the canvas, slightly to the left. A <strong>couple is dancing</strong>. The woman has her back partly turned to us, in a pale pink dress; her partner faces her. They are not the loudest figures in the picture (Renoir is too good for that obvious move), but they are the structural anchor: the painting is <em>about</em> dancing, and there, almost at dead center, is a couple dancing. (Don&rsquo;t try to name them &mdash; Renoir&rsquo;s named friends are at the table and at lower left; this central couple is part of the soft crowd, deliberately unspecified.) Around them, fanning out into the middle distance, is the <strong>sea of dancers</strong> &mdash; a crowd of couples, painted as soft blurs with no facial detail, a wash of bowler hats and pale dresses receding into the garden. A few of the women&rsquo;s dresses pick up pure pink and pure pale-blue strokes that read as the strongest, freshest colors in the whole picture &mdash; bright coins of saturated color floating in the warm haze.
+      </p>
+
+      <SectionHeader accent={accent} label="Front right" title="The table of friends, in sharp focus" />
+      <p style={proseStyle}>
+        Drop your eye now to the <strong>front right</strong>, the lower-right corner, where the picture pulls into sharp focus. Here is the table group: a small <strong>round caf&eacute; table</strong> with a <strong>green wine bottle</strong> and <strong>glasses</strong>, three of Renoir&rsquo;s friends sitting around it, and Estelle Samary leaning back against the bench in her striped pink-and-blue dress. The painter Norbert Goeneutte is in profile in his boater, his arm draped over the chair. The writer Georges Rivi&egrave;re faces us, leaning forward toward Estelle. These three are painted with markedly more definition than the dancing crowd behind them &mdash; sharper edges, more individual feature, more weight. They are the front-of-house, the picture&rsquo;s pinned-down corner, the figures Renoir wants you to recognize as specific people, before the rest of the world dissolves into atmosphere.
+      </p>
+
+      <SectionHeader accent={accent} label="Front left" title="Margot, Don Pedro, and the sunspot" />
+      <p style={proseStyle}>
+        Now drift to the <strong>front left</strong>. Lower-left corner: another figure group, more loosely painted. A young woman is dancing &mdash; this is <strong>Margot</strong>, Renoir&rsquo;s model &mdash; with her Cuban-painter friend Don Pedro. She&rsquo;s in a striped pink-and-blue dress (yes, two pink-and-blue striped dresses, one seated and one dancing &mdash; a rhyme across the front of the picture). Just to the right of them, a man in a dark suit and a straw boater leans into the picture with his back partly to us, a young woman beside him. This is the dark-jacketed man with the famous <strong>pink-violet sunspot</strong> on his back. Find it. It looks utterly wrong as a piece of cloth color and completely right as a coin of sunlight through leaves.
+      </p>
+
+      <SectionHeader accent={accent} label="Above" title="Lanterns waiting for nightfall" />
+      <p style={proseStyle}>
+        Lift your eye now to the <strong>upper third of the canvas</strong>, above the heads. This is the <strong>canopy of trees</strong> &mdash; acacias, by the look of them &mdash; closing over the garden. <strong>Round paper-globe lanterns</strong> are strung overhead between the trees on wires, the kind that get lit at night for dancing into the evening. They are <strong>unlit</strong>: it is still daylight, mid-afternoon. They sit in the leaves as cool pale spheres, decorative now, working later. (These lanterns are the <em>only</em> light fixtures on the canvas &mdash; no gas lamps on posts, no standing fixtures, just paper globes strung overhead. The painting is doing one specific lighting effect: sunlight through leaves, with the lanterns as a quiet reminder that this place is set up to keep going after the sun goes down.) Light falls <em>through</em> the leaves in scattered round patches all over the canvas, and this is the dappled light from the last chapter &mdash; once you start seeing it, you can&rsquo;t stop. It&rsquo;s on the man&rsquo;s back. It&rsquo;s on the women&rsquo;s hats. It&rsquo;s on the wood of the bench. It&rsquo;s on the ground between feet. It&rsquo;s everywhere, the warm pale-violet and pink dabs of it, sitting on top of cool gray-blue shadow.
+      </p>
+
+      <SectionHeader accent={accent} label="Edges" title="The deliberate blur" />
+      <p style={proseStyle}>
+        One more thing to find. Look at how Renoir paints <strong>edges</strong>. Almost nothing in the painting has a hard, drawn edge. Faces are soft. Dresses bleed into the air around them. The far crowd is dissolved into atmosphere. The whole canvas has a slight, beautiful, deliberate <strong>out-of-focus quality</strong>, the way your own vision works at a crowded garden in shifting light: you focus on one face at a time, and the rest blurs at the edges of your attention. Renoir painted the way the eye really sees a moving crowd, not the way the mind catalogues it.
+      </p>
+      <p style={proseStyle}>
+        Step back. The whole picture works as a wedge: sharply-drawn named friends at the front-right corner, softening through Margot&rsquo;s dancing group at the front-left, dissolving into the anonymous warm crowd in the middle distance, vanishing into the lantern-hung canopy of trees at the top. Your eye starts pinned to the named people, drifts inward into the dance, and is finally let go up into the soft canopy. The whole composition is a slow exhale from foreground reality into background atmosphere &mdash; a piece of crowd painting organized like a piece of music, six feet of Sunday afternoon arranged with the structural rigor of an oratorio and the surface of a casual snapshot.
+      </p>
+    </article>
+  )
+}
+
+function MgShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="April 1877" title="The third Impressionist exhibition" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>April 1877</strong>, the painting went on the wall.
+      </p>
+      <p style={proseStyle}>
+        The Impressionists were by this point already three years into running their own counter-shows to the <strong>Salon</strong> &mdash; the state-run annual exhibition that was effectively the only door into a French painting career, with a jury of conservative academics deciding who got in. (The 1874 founding story &mdash; the Nadar studio, the Monet sunrise, the critic Louis Leroy turning &ldquo;Impressionists&rdquo; into a sneering label that the painters then wore on purpose &mdash; belongs to the movement read; this picture sits inside its third year, not its first.) By 1877 they were calling themselves Impressionists on purpose, and they were holding their <strong>third</strong> exhibition.
+      </p>
+      <p style={proseStyle}>
+        That third exhibition opened in <strong>April 1877</strong> in a rented apartment at <strong>6 rue Le Peletier</strong> in Paris, and <em>Bal du moulin de la Galette</em> was one of its centerpieces. Renoir hung it as one of his major entries. (Mark this carefully, because the older story used to say the painting &ldquo;first showed at the 1877 Salon.&rdquo; That is wrong, and it gets repeated even in respectable books, so it&rsquo;s worth flagging. The picture was at the breakaway <strong>3rd Impressionist Exhibition</strong> of April 1877 &mdash; not the official Salon, the establishment show whose jury had been giving the Impressionists a hard time for years. Different show, different room, different politics.)
+      </p>
+
+      <SectionHeader accent={accent} label="The reception" title="Half scorn, half delight" />
+      <p style={proseStyle}>
+        The reception was, predictably, split. Some critics were scornful. The picture was too unfinished, too loose, the figures too blurred, the light too strange. The discrete pink-violet sunspots on dark suits, which we just spent a chapter admiring, struck a number of reviewers as plain wrong: paint dabs in colors no cloth ever was, smeared on cloth where no light could plausibly fall. (The complaint isn&rsquo;t completely silly. Up close, those spots <em>do</em> look like errors. You have to step back to see them resolve into sunshine. Some critics didn&rsquo;t step back.) Other reviewers were delighted. <strong>Georges Rivi&egrave;re</strong> &mdash; the writer leaning forward in the front-right corner of the picture itself, Renoir&rsquo;s friend and built-in PR department &mdash; wrote a glowing defense in his short-lived journal <em>L&rsquo;Impressionniste</em>, calling the painting a page out of real life and praising exactly the dappled light and atmospheric softness that the hostile critics were calling sloppy. The split &mdash; half scorn, half delight &mdash; was the standard temperature of any Impressionist work in the 1870s, and <em>Bal du moulin de la Galette</em> sat near the center of the year&rsquo;s argument.
+      </p>
+
+      <SectionHeader accent={accent} label="1879" title="Caillebotte writes a check" />
+      <p style={proseStyle}>
+        Now the part of the story that matters longest. The painting did not sell on the floor of the exhibition. Renoir was still broke after the show closed, still struggling for income, still leaning on the small group of patrons who kept buying his work. Two years later, in <strong>1879</strong>, <strong>Gustave Caillebotte</strong> &mdash; the wealthy young engineer-painter we met in Chapter 1, Renoir&rsquo;s friend and quiet patron &mdash; bought <em>Bal du moulin de la Galette</em> directly from him. The price isn&rsquo;t securely documented, but the meaning of the purchase is. Caillebotte was buying his struggling friend a year of breathing room, and he was assembling, deliberately, a private collection of his Impressionist friends&rsquo; work &mdash; Renoirs, Monets, Pissarros, Sisleys, C&eacute;zannes &mdash; that he intended to give to the French State on his death. He was building the future of the Luxembourg&rsquo;s modern-art collection one canvas at a time, using his own money to drag the Impressionists onto the museum walls that the Salon would never give them.
+      </p>
+      <p style={proseStyle}>
+        It&rsquo;s a key point, and easy to misunderstand. Caillebotte <strong>did not commission</strong> the picture. Renoir made it on his own initiative, hauled his canvas up the hill to the <em>guinguette</em> on his own Sundays, finished it in his own studio, and exhibited it in April 1877. Three years passed. Only <strong>in 1879</strong> did Caillebotte step in and buy the finished, exhibited, already-existing painting from his friend &mdash; a private sale, after the fact, to keep Renoir in rent. Anything that says Caillebotte ordered the picture or paid for it up front is wrong. He was a collector and patron, not a commissioner.
+      </p>
+      <p style={proseStyle}>
+        So at the end of the show&rsquo;s run, this is where the picture stood: hung in a rented apartment in Paris through April 1877, called sloppy by some critics and brilliant by others, then carried home unsold and quietly hung on Renoir&rsquo;s own wall until the day, two years later, when Caillebotte&rsquo;s offer arrived and the painting moved across town to a private collection that already had several of its neighbors. From there &mdash; but here we get ahead of ourselves. The 1879 purchase is the hinge. What it opens onto is the long afterlife in the museums.
+      </p>
+    </article>
+  )
+}
+
+function MgAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="February 1894" title="A friend dies in his garden" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        hen Caillebotte died in February <strong>1894</strong>, at the age of 45, he had been quietly preparing for years. He had a will, and the will gave his Impressionist collection to <strong>France</strong>. The death itself was sudden and physical: <strong>pulmonary congestion</strong> &mdash; a sudden, severe fluid build-up in the lungs &mdash; caught him while he was working in his garden at <strong>Petit-Gennevilliers</strong>, the suburban riverside property where he had moved to paint and to grow flowers. He went down in the garden and didn&rsquo;t recover. He was 45.
+      </p>
+      <p style={proseStyle}>
+        That bequest sounds simple. In practice it nearly broke. The state was, at this point in the 1890s, still very much the state of the <strong>Salon</strong> &mdash; of the conservative academic taste that had been rejecting and bad-hanging the Impressionists for two decades. To be handed a free gift of sixty-seven major Impressionist canvases by a young dead collector who insisted, in the will, that they be hung in the national museums was, for the establishment, somewhere between an insult and a public-relations problem. The negotiation dragged for years. The state&rsquo;s representatives haggled over which works it would accept, eventually agreeing in 1894 to take a portion of the bequest (the full story of <em>that</em> fight belongs to the movement read &mdash; it&rsquo;s the big set-piece of the whole institutional history of Impressionism). The Caillebotte bequest, including <em>Bal du moulin de la Galette</em>, was finally accepted and entered the national collections by <strong>1896</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="Luxembourg, Louvre, Jeu de Paume, d&rsquo;Orsay" title="The slow walk across Paris" />
+      <p style={proseStyle}>
+        Where they put it was the <strong>Mus&eacute;e du Luxembourg</strong> in Paris. The Luxembourg, at the time, was the state&rsquo;s museum of <strong>contemporary art</strong> &mdash; the working museum for living and recently-dead artists, separate from the eternal masterworks at the Louvre across the river. The rule was a kind of waiting room: a work entered the Luxembourg, and then, a decade or so after the artist&rsquo;s death, if its reputation held, it might be &ldquo;consecrated&rdquo; &mdash; promoted across town to the Louvre. <em>Bal du moulin de la Galette</em> went into the Luxembourg in 1896, where it stayed for over thirty years. Renoir died in 1919; in <strong>1929</strong>, ten years after his death and right on the standard schedule, the painting was transferred to the <strong>Louvre</strong>. Consecrated.
+      </p>
+      <p style={proseStyle}>
+        It didn&rsquo;t stay at the Louvre forever. In <strong>1947</strong>, after the upheavals of the Second World War, the Impressionist collection at the Louvre was moved across the Tuileries Gardens into its own dedicated home, the <strong>Jeu de Paume</strong> (an old indoor real-tennis hall, on the corner of the Tuileries, converted into a museum). For nearly forty years the Jeu de Paume was where you went in Paris to see Impressionism. <em>Bal du moulin de la Galette</em> hung there. And then, in <strong>1986</strong>, the French state opened a new museum specifically for 19th-century art &mdash; the <strong>Mus&eacute;e d&rsquo;Orsay</strong>, built inside the magnificent old Beaux-Arts railway station on the left bank of the Seine &mdash; and the entire Impressionist collection moved with it. Renoir&rsquo;s dance has hung there ever since. Its accession number, if you ever want to find it in the d&rsquo;Orsay&rsquo;s catalogue, is <strong>RF 2739</strong>.
+      </p>
+
+      <SectionHeader accent={accent} label="The other one" title="A contested smaller version" />
+      <p style={proseStyle}>
+        Now, an important detail, because it&rsquo;s the one most people get wrong. The painting on the d&rsquo;Orsay wall is <strong>the primary version</strong>, the one we&rsquo;ve been describing through this whole read &mdash; about 4 ft 3&frac34; in by 5 ft 9 in, the one Renoir made in 1876, the one Caillebotte bought in 1879 and left to France in 1894. But there is also a <strong>smaller version</strong>, roughly <strong>2 ft 6&frac34; in by 3 ft 9 in</strong>, of the same composition. Its status is contested. It has been variously catalogued, by different scholars, as (a) Renoir&rsquo;s preparatory study for the big canvas, (b) a later replica painted by Renoir himself, or (c) a copy by another hand. Nobody agrees. Phrase it as the museum world does: &ldquo;a smaller version exists, attributed to Renoir but contested.&rdquo;
+      </p>
+      <p style={proseStyle}>
+        Wherever it came from, the smaller version had its own dramatic afterlife. It eventually entered the great American collection of <strong>John Hay Whitney</strong>, the publisher and ambassador, and on his estate&rsquo;s sale at <strong>Sotheby&rsquo;s New York in May 1990</strong> it sold for <strong>$78.1 million</strong> &mdash; a price that, at the time, was a world record for any painting at auction. The buyer was reported as a private Swiss collection, where the painting has stayed since. <strong>It is not in the Barnes Foundation</strong>, the famous Pennsylvania collection that holds an extraordinary number of Renoirs; the Barnes does not own any version of <em>Bal du moulin de la Galette</em>. That misattribution circulates, especially online, and should be refused on contact.
+      </p>
+
+      <SectionHeader accent={accent} label="The arc" title="A six-foot Sunday that never quite ends" />
+      <p style={proseStyle}>
+        So sit with the arc of this object. A 35-year-old broke painter rents a small studio in Montmartre. For weeks of Sundays in 1876 he carries a canvas the size that history paintings get up the hill to a working-class dance garden under a windmill. He puts his named friends in it, finishes it in the studio, signs it lower right <em>Renoir. 76</em>, and hangs it the next April in a rented apartment on the rue Le Peletier where some critics call it sloppy and one of his friends defends it in print. He carries it home unsold. Two years later another friend writes him a private check that keeps him in paint. That friend dies young, fifteen years after that, struck down in his own garden, and the painting passes to the French state against the state&rsquo;s own reluctance. Then it works its way slowly across the museums of Paris &mdash; Luxembourg, then Louvre, then Jeu de Paume, then the d&rsquo;Orsay, where it has hung since 1986: a six-foot Sunday afternoon at a working-class dance garden, with its pink-violet sunspots and its two pink-and-blue striped dresses and its lanterns waiting to be lit, that never quite ends.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  'moulin-galette': { montmartre: MgMontmartre, making: MgMaking, looking: MgLooking, show: MgShow, afterlife: MgAfterlife },

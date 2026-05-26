@@ -1706,7 +1706,7 @@ export const IMPRESSION_SUNRISE: ArtWorkContent = {
   location: 'Musée Marmottan Monet, Paris',
   acquired: 'Gift of Eugène and Victorine Donop de Monchy, 1940',
   accent: ART_ACCENTS.blue,
-  chain: { name: 'Works of Impressionism', index: 1, total: 9 },
+  chain: { name: 'Works of Impressionism', index: 2, total: 9 },
   hook: 'A foggy little dawn sketch a critic said wallpaper was more finished than — and the insult named the movement.',
   heroImage: ART_IMG.impressionSunrise,
   heroCredit: 'Monet, Impression, Sunrise, 1872 · Musée Marmottan Monet, Paris',
@@ -1752,6 +1752,271 @@ export const IMPRESSION_SUNRISE: ArtWorkContent = {
   lineage: {
     parents: [ { label: 'Turner', mode: 'art' }, { label: 'Whistler', mode: 'art' }, { label: 'Manet', mode: 'art' } ],
     children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Post-Impressionism', mode: 'art' }, { label: 'Modern painting', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — La Grenouillère (Monet, 1869). The Impressionist method invented
+// side by side with Renoir on the Seine, across the summer of 1869.
+// Authored through the art content pipeline; narrative under 'grenouillere'.
+// ─────────────────────────────────────────────────────────────
+export const GRENOUILLERE: ArtWorkContent = {
+  id: 'grenouillere',
+  name: 'La Grenouillère',
+  shortName: 'La Grenouillère',
+  year: 1869,
+  artist: 'Claude Monet',
+  artistId: 'monet',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 5½ in × 3 ft 3 in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'H. O. Havemeyer Collection, bequest of Mrs. H. O. Havemeyer, 1929',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 1, total: 9 },
+  hook: 'Two broke friends spent a summer on the Seine, easels next to each other — and worked out how to paint moving sun-struck water as paint.',
+  heroImage: ART_IMG.monetGrenouillere,
+  heroCredit: 'Monet, La Grenouillère, 1869 · The Metropolitan Museum of Art, New York',
+  heroAspect: 1.34, // 74.6 × 99.7 cm → W/H ≈ 1.336
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1869', k: 'Painted' },
+    { v: '2′5½″ × 3′3″', k: 'Dimensions' },
+    { v: 'Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'seine', eyebrow: 'Croissy · summer 1869', dateLabel: '1869', title: 'Croissy, summer 1869', blurb: 'Monet at Saint-Michel, Renoir at Voisins, both broke; the new Saint-Lazare railway puts Paris’s working class on the river for the afternoon, and the floating café "La Grenouillère" is where they all go.', progress: 0.08 },
+    { id: 'making', eyebrow: 'Two easels', dateLabel: 'July–Sept 1869', title: 'Two friends, one method', blurb: 'Monet & Renoir set up easels next to each other across the summer — not on a single day. The pochades they paint there invent a working method that will later be named Impressionism.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '74.6 × 99.7 cm', title: 'What’s in the picture', blurb: 'The floating café, the round wooden "Camembert" island, day-trippers without faces, dark rowboats, small bathers in the water on the left, a band of dappled trees overhead — and water in jabs of separate color.', progress: 0.56 },
+    { id: 'break', eyebrow: 'Why it broke the rules', dateLabel: 'Then & now', title: 'A method, not a movement (yet)', blurb: 'Four breaks: sketch-as-finished-picture, paint that reads as moving water, figures-as-marks, modern leisure as a fit subject — the working method of Impressionism, found before the name.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1870–today', title: 'A lost tableau, three transcripts', blurb: 'The big Salon version, rejected in 1870, ends up in the Berlin Arnhold collection and is lost in WWII. The three surviving on-the-spot pochades sit in the Met, the Nationalmuseum (Stockholm) and the National Gallery (London).', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1869–c.1880s', who: 'Claude Monet (the artist)', place: 'France', note: 'Painted on the spot at La Grenouillère, Croissy-sur-Seine, summer 1869 — one of several pochades Monet wrote to Bazille about that season.', price: null },
+    { year: 'c.1880s–1897', who: 'Édouard / Suzanne Manet, then Durand-Ruel circle', place: 'Paris', note: 'Tentatively passed to Manet’s widow Suzanne Leenhoff after his death (1883); circulated through Paul Durand-Ruel’s gallery in the 1880s–90s — the chain has some hedge in the documentation.', price: null },
+    { year: '1897–1929', who: 'H. O. and Louisine Havemeyer', place: 'New York', note: 'The great American Impressionist collectors bought it 27 September 1897 (~12,500 francs), guided by their friend Mary Cassatt. Held in their Fifth Avenue collection for three decades.', price: '~12,500 fr' },
+    { year: '1929–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Louisine Havemeyer’s 1929 bequest brings hundreds of Impressionist canvases into the Met, this one among them (acc. 29.100.112). On permanent view.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Claude Monet', role: 'The painter', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Pierre-Auguste Renoir', role: 'Painted the same spot beside him', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'] },
+    { name: 'Frédéric Bazille', role: 'Their friend who got the letter (killed 1870)', palette: ['#5a6a5a', '#2e3a2e', '#0e120e'] },
+    { name: 'H. O. & Louisine Havemeyer', role: 'American collectors who bought it', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'The floating café and its little round island', where: 'Middle distance, dead center — the round wooded island and the wooden gangplank running out to the flat platform', detail: 'That fat round green island in the middle is the one locals nicknamed "Le Camembert," after the round French cheese. The narrow wooden gangplank running out from it leads to the rectangular floating platform — the bathing-and-dance pavilion of La Grenouillère itself, where everyone is hanging out. Monet paints the planking as broad horizontal slabs of olive green and warm gray, no fussy plank-by-plank detail; the whole pavilion reads as a flat stage, the people on it as a cast.' },
+    { label: 'Clerks and shopgirls with no faces', where: 'On the platform and along the gangplank, just above center', detail: 'Look for the dark-suited figures clustered on the platform and walking the gangplank. They’re Parisian day-trippers in their Sunday best — clerks, shopgirls, students — out from the city by train for the afternoon. They’re painted only a few inches high, as wedges of dark paint with pale highlights, with no faces at all. From across the river in glare, this is exactly what a small crowd looks like — silhouettes, not portraits.' },
+    { label: 'Tilted hulls in the foreground', where: 'Lower left foreground, along the bank — the prows of several boats jutting out', detail: 'Those tilted dark wedges with pale ribs along the bottom-left are the bows of rowboats and skiffs tied along the riverbank — long-bellied wooden boats you’d rent for the afternoon. Monet paints them as solid dark masses with little pale highlights along the gunwale (the boat’s upper edge) catching the sun. They are the heaviest, darkest paint in the picture, anchoring the corner.' },
+    { label: 'A few brushstrokes that happen to be people in the river', where: 'Middle distance on the LEFT side of the canvas — small figures in the water, just past the rowboats and over toward the floating pavilion', detail: 'Half-immersed in the water on the LEFT side of the picture, well back from the bank and just shy of the floating pavilion, is a small cluster of bathers — men and women in white or dark shirts, standing waist-deep on a hot afternoon. They are easy to miss because they’re small and set back. Each one is only a few broken brushstrokes. They have no faces.' },
+    { label: 'Choppy water in separate dashes of color', where: 'The whole lower two-thirds of the canvas — the entire stretch of river surface', detail: 'This is the technical headline of the picture. Look closely and the water is not painted as a smooth pane or a mirror — it’s slate blue, emerald, white, ochre, and dark brown, slashed across in short, separate, mostly-horizontal jabs of unmixed paint. Where the trees on the far bank reflect, Monet doesn’t paint a mirrored shape — he paints continuous horizontal bars in the colors of the reflection. Step back and your eye does the mixing on its own.' },
+    { label: 'Summer foliage in unblended greens', where: 'The upper third — the dense band of trees on the far bank', detail: 'The whole top third of the canvas is trees — dense summer foliage on the far bank, painted in unblended greens and yellow-greens with dapples of warm light and pockets of dark shadow stitched into them. There is essentially no sky visible above; the picture’s light isn’t coming down from a blue band overhead, it is bouncing up off the water.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Manet · Déjeuner', mode: 'art' }, { label: 'Barbizon plein air', mode: 'art' }, { label: 'Saint-Lazare railway', mode: 'civ' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Broken color', mode: 'art' }, { label: 'Post-Impressionism', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — The Cradle (Morisot, 1872). Morisot's sister Edma watching her own
+// sleeping daughter Blanche; debuted at the FIRST Impressionist Exhibition 1874.
+// ─────────────────────────────────────────────────────────────
+export const CRADLE: ArtWorkContent = {
+  id: 'cradle',
+  name: 'The Cradle',
+  shortName: 'The Cradle',
+  year: 1872,
+  artist: 'Berthe Morisot',
+  artistId: 'morisot',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '1 ft 10 in × 1 ft 6¼ in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Bought by the Louvre from Blanche Pontillon Forget in 1930, 300,000 francs; transferred to the Musée d’Orsay 1986',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 3, total: 9 },
+  hook: 'Berthe Morisot’s sister Edma watching her own sleeping daughter through a veil of paint — by the only woman to show at the first Impressionist exhibition.',
+  heroImage: ART_IMG.morisotCradle,
+  heroCredit: 'Morisot, The Cradle, 1872 · Musée d’Orsay, Paris',
+  heroAspect: 0.83, // 56 × 46.5 cm portrait → W/H ≈ 0.83
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1872', k: 'Painted' },
+    { v: '1′10″ × 1′6¼″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'sister', eyebrow: 'Two sisters', dateLabel: '1869–1872', title: 'The sister who quit, and the one who didn’t', blurb: 'Berthe and Edma both trained as painters; Edma — the more praised early on — quit on her marriage in 1869. Berthe, who didn’t, painted her sister into one of the most famous paintings of motherhood ever made.', progress: 0.08 },
+    { id: 'making', eyebrow: 'The wall of access', dateLabel: '1872', title: 'The room she could observe', blurb: 'A respectable bourgeois woman in 1872 Paris could not sit alone in a café, go backstage at the ballet, or stand at the Folies-Bergère bar. Morisot painted what she could see — the nursery — and turned the access-wall into a method.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '56 × 46.5 cm', title: 'Edma, the gauze, and the baby through it', blurb: 'Edma seated on the left in a dark blue jacket, the cradle hung with translucent white gauze on the right, the sleeping Blanche just visible through the veil. The lightest, most translucent touch in the whole movement.', progress: 0.56 },
+    { id: 'show', eyebrow: 'First Impressionist Exhibition', dateLabel: 'April 1874', title: 'The only woman in the show', blurb: 'Listed in the catalogue at 800 francs and did NOT sell. Morisot — the only woman among the 30 artists — exhibited nine works in the show that gave the movement its name; she married Eugène Manet (Édouard’s brother) eight months later.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1875–today', title: 'The sister who didn’t quit put it there', blurb: 'Descended within the family to Blanche herself; the Louvre bought it from Blanche Forget in 1930 for 300,000 francs; transferred to the Musée d’Orsay 1986. On permanent view.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1872–1874', who: 'Berthe Morisot (the artist)', place: 'Paris', note: 'Painted in 1872; kept by the artist. She married Eugène Manet (Édouard’s brother) on 22 December 1874, after the spring 1874 exhibition.', price: null },
+    { year: '1874', who: 'Société Anonyme · 1st Impressionist Exhibition', place: 'Paris (35 bd des Capucines)', note: 'Listed in the catalogue at 800 francs. Did not sell. Morisot was the only woman among the thirty exhibitors.', price: '800 fr (listed; unsold)' },
+    { year: '1874–1930', who: 'Berthe Morisot → Eugène Manet → Julie Manet → Edma Pontillon → Blanche Pontillon Forget', place: 'Paris', note: 'Stayed in the family through the next two generations and ultimately came to Blanche Pontillon Forget — the very baby asleep in the cradle in the picture.', price: null },
+    { year: '1930–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Bought from Blanche Pontillon Forget in 1930 for 300,000 francs — the State finally paying for what it had been offered for 800 fifty-six years earlier.', price: '300,000 fr', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'Transferred from the Louvre when the Orsay opened in 1986. On permanent view.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Berthe Morisot', role: 'The painter', palette: ['#9aa0a4', '#5a6066', '#1a1e22'] },
+    { name: 'Edma Pontillon (née Morisot)', role: 'Her sister, the figure in the painting', palette: ['#6a5a7a', '#332a3e', '#0e0a16'] },
+    { name: 'Blanche Pontillon', role: 'Edma’s daughter, the baby in the cradle', palette: ['#e4d6c0', '#a08858', '#3a2a14'] },
+    { name: 'Eugène Manet', role: 'Édouard’s brother — Morisot married him Dec 1874', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Édouard Manet', role: 'The reluctant patriarch (NOT her husband)', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+  ],
+  annotations: [
+    { label: 'The whole picture is one act of looking', where: 'Left two-thirds — the seated woman in the dark blue jacket', detail: 'Find her eyes first; they’re aimed down and to the viewer’s right, into the cradle. Her near arm (the one closer to you) is bent up so that her hand rests against her cheek, fingers curled under her chin; her other arm reaches forward to lay its hand on the cradle’s lower rail. One hand at her face, one hand on the rail. It’s the posture of a person who has stopped doing anything and is simply watching. The diagonal of her gaze, meeting the diagonal of the cradle’s gauze sloping up to its peak on the right, is the picture’s main compositional X.' },
+    { label: 'A curtain made by not quite painting one', where: 'Right third — the white drape that covers the entire cradle, peaking at the right edge', detail: 'That whole pale veil over the cot is translucent white gauze, the period’s standard cradle netting against flies and dust. Look at how it’s painted: a handful of rapid, thin, oyster-white passes, dragged loose enough that in places the warmer ground underneath glimmers through. At arm’s length the strokes resolve into fabric — into the unmistakable softness of real gauze in folds. Step closer and they come apart into individual brushstrokes again. That oscillation is the picture’s signature technical move.' },
+    { label: 'Blanche, just visible', where: 'Inside the upper portion of the draped cradle, under the gauze, on the right side of the canvas', detail: 'Look hard at the upper portion of the drape — the part nearer the peak on the right — and you’ll start to make out, under the gauze, the soft paler oval of the sleeping infant’s closed eyes, and lower, the suggestion of a tiny fisted hand. That is Blanche Pontillon, born 1871, asleep here at perhaps a year old. Morisot has painted the sheer fabric AND the thing on the other side of it in the same passage, with neither cancelling the other.' },
+    { label: 'Mother and child make the same shape', where: 'Edma’s bent near arm (left side of canvas, hand at her cheek) and Blanche’s bent little arm (inside the cradle, on the right)', detail: 'Look at Edma’s near arm — elbow tucked, hand up to her cheek — then look at the baby’s bent little arm under the gauze, tucked up near her face. They are, very nearly, the same shape. Two bent elbows, two raised hands, mirrored across the divide of the veil. That match is hidden in the geometry, not declared in words — Morisot trusts you to find it.' },
+    { label: 'One dark mass that lets everything else sing', where: 'Edma’s dark blue jacket (left two-thirds) and the white-veiled cradle (right third)', detail: 'Almost the entire picture is made of whites, oysters, pale greys and one quiet flesh tone. The single anchoring dark note is Edma’s jacket — and it isn’t black. Look longer at it: it’s a deep saturated navy-indigo, with a small white lace ruffle at the collar and a thin black ribbon at her throat. That dark blue mass is the gravitational center of the canvas: it lets all the white air around it read as pure light.' },
+    { label: 'A nursery with the door shut and the noise turned off', where: 'The sheer pale curtain falling in from the upper-left corner; the plain darker wall behind Edma', detail: 'The room is deliberately almost empty, and Morisot has emptied it with intent. The sheer vertical curtain falling in from the upper-left is painted in exactly the same translucent handling as the cradle’s gauze on the right — both veils of paint bracket Edma between them. Behind her: no wallpaper pattern, no frame, no mantel — just a quiet darker field. Soft daylight from the upper-left; no hard shadow anywhere.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Manet · scandals', mode: 'art' }, { label: 'Dutch interiors', mode: 'art' }, { label: 'The wall of access', mode: 'civ' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Mary Cassatt', mode: 'art' }, { label: 'Modern motherhood', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Bal du moulin de la Galette (Renoir, 1876). Sunday at a Montmartre
+// dance garden, modern leisure painted at history-painting scale.
+// ─────────────────────────────────────────────────────────────
+export const MOULIN_GALETTE: ArtWorkContent = {
+  id: 'moulin-galette',
+  name: 'Bal du moulin de la Galette',
+  shortName: 'Bal du moulin de la Galette',
+  year: 1876,
+  artist: 'Pierre-Auguste Renoir',
+  artistId: 'renoir',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '4 ft 3¾ in × 5 ft 9 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Caillebotte bequest, 1896 (Luxembourg → Louvre 1929 → Jeu de Paume 1947 → Musée d’Orsay 1986)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 5, total: 9 },
+  hook: 'A Sunday at a Montmartre dance garden, painted at the size the Salon kept for history — and given to a crowd of working-class Parisians at four o’clock.',
+  heroImage: ART_IMG.renoirMoulinGalette,
+  heroCredit: 'Renoir, Bal du moulin de la Galette, 1876 · Musée d’Orsay, Paris',
+  heroAspect: 1.34, // 131 × 175 cm → W/H ≈ 1.336
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1876', k: 'Painted' },
+    { v: '4′3¾″ × 5′9″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'montmartre', eyebrow: 'Montmartre', dateLabel: '1876', title: 'Sunday at the windmill', blurb: 'The Moulin de la Galette was an open-air dance garden at the foot of two surviving Debray windmills (Blute-Fin and Radet) — a Sunday spot for the working-class Montmartre crowd of seamstresses, milliners, clerks and journeymen.', progress: 0.08 },
+    { id: 'making', eyebrow: 'A class provocation at history-painting scale', dateLabel: '1876', title: 'Paint the Sunday at the size of a king', blurb: 'Nearly six feet wide — the canvas Europe kept for the death of generals — spent on shopgirls dancing. The provocation was the scale, the dappled sun was the method.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '131 × 175 cm', title: 'What you find in the crowd', blurb: 'The dancing couple at the centre, the seated friends in the right foreground (Goeneutte, Rivière, Estelle Samary), the pink-violet sunspots on a dark jacket, the unlit paper-globe lanterns strung overhead.', progress: 0.56 },
+    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'The third show, not the Salon', blurb: 'Hung at the 3rd Impressionist Exhibition, rue Le Peletier, April 1877 — NOT the Salon. Some critics scornful, Georges Rivière (in his journal L’Impressionniste) wrote the great defense.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1879–today', title: 'The bequest that finally took it inside', blurb: 'Caillebotte bought it from Renoir in 1879 and left it to France in his will. Accepted in 1896, hung at the Luxembourg — the first Impressionist room in a French public museum. To the Louvre 1929, Jeu de Paume 1947, Orsay 1986.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1876–1879', who: 'Pierre-Auguste Renoir', place: 'Paris', note: 'Painted in Renoir’s rue Cortot studio, around the corner from the Moulin de la Galette itself; shown at the 3rd Impressionist Exhibition, April 1877.', price: null },
+    { year: '1879–1894', who: 'Gustave Caillebotte', place: 'Paris', note: 'Caillebotte — engineer-painter, patron, and the group’s banker — bought the canvas from Renoir in 1879 (NOT a commission). He held it in his collection until his death.', price: 'sale' },
+    { year: '1894–1896', who: 'The French State (in negotiation)', place: 'Paris', note: 'Caillebotte left his Impressionist collection to France in his will; the Académie des Beaux-Arts resisted, with Gérôme reportedly leading the objection. After negotiation only 38 of the bequeathed works were accepted in 1896; this canvas was among them.', price: null },
+    { year: '1896–today', who: 'Musée du Luxembourg → Musée du Louvre → Musée du Jeu de Paume → Musée d’Orsay', place: 'Paris', note: 'Unveiled in the Caillebotte room at the Musée du Luxembourg, February 1897 — the first time the Impressionists hung in a French public museum, twenty-three years after the first show. Louvre 1929; Jeu de Paume 1947; Orsay 1986. On permanent view.', price: 'gift to the nation', museum: true },
+  ],
+  figures: [
+    { name: 'Pierre-Auguste Renoir', role: 'The painter', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'] },
+    { name: 'Gustave Caillebotte', role: 'Bought it 1879; bequeathed it to France', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Georges Rivière', role: 'Friend; wrote its great defense', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Norbert Goeneutte', role: 'Painter friend, in the right-foreground table group', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Estelle Samary', role: 'Neighborhood model, the woman in the striped dress', palette: ['#a87880', '#5a3a4a', '#1a0e10'] },
+  ],
+  annotations: [
+    { label: 'The dancing couple, dead center', where: 'Middle ground, roughly the center of the canvas, slightly left', detail: 'Find them just behind the seated table group: a couple dancing, the woman in a pale pink dress with her back partly to us, her partner facing her. They are not the loudest figures in the picture — Renoir is subtler than that — but they’re the structural anchor. The painting is about dancing, and here, almost at dead center, is a couple dancing. Don’t try to name them; they’re part of the soft middle-ground crowd, deliberately unspecified, the type rather than the individual. Once you find them, the whole composition snaps into place around them.' },
+    { label: 'The seated friends, front right', where: 'Lower-right corner of the canvas', detail: 'A small round café table with a green wine bottle and glasses, three of Renoir’s friends around it, painted with noticeably more definition than the dancing crowd behind. The man in profile in the straw boater is the painter Norbert Goeneutte. The man facing us, leaning forward, is the writer Georges Rivière. The young woman leaning back against the bench in the striped pink-and-blue dress is Estelle Samary, a neighborhood model. These are Renoir’s actual Sunday afternoon, pinned down in the corner of the picture.' },
+    { label: 'A coin of sunlight on a dark suit', where: 'Lower foreground, on the back of the man in the dark jacket leaning into the picture', detail: 'Look for a clear pink-violet patch on the back of the dark suit — the same color as nothing else in the picture except other sunspots. Up close it looks like a bizarre mauve smear sitting on the cloth; from across a room it reads instantly as a coin of afternoon sunlight falling through leaves. This is the painting’s signature trick: dappled sun painted as discrete dabs of warm color, not as a general golden wash.' },
+    { label: 'Lanterns waiting for nightfall', where: 'Upper third of the canvas, strung between the trees on wires', detail: 'Round paper-globe lanterns are strung overhead between the acacia trees that close over the garden. They are unlit — it’s still daylight, mid-afternoon — but they’re set up to light the place when the sun goes down and the dancing carries into the evening. They are the only lighting fixtures on the canvas (no gas lamps on posts, no standing fixtures — just these paper globes on wires).' },
+    { label: 'A pink-and-blue rhyme across the front', where: 'Lower-right (seated) and lower-left (dancing)', detail: 'Two young women are wearing striped pink-and-blue dresses, mirrored across the bottom of the canvas. In the front right, Estelle Samary leans back against the bench in one. In the front left, Renoir’s model Margot dances in another. Renoir liked to compose with rhymes — colors and shapes echoed across a picture — and this is the most visible one in the painting.' },
+    { label: 'No pure white, no hard black', where: 'Everywhere across the canvas', detail: 'Scan the picture for pure white. You won’t find any. The "white" dresses are pale pink, lilac, and soft blue. Now scan for hard black shadows. Also gone — the "black" suits are warm grays and slightly-purpled blacks, and the shadows on the ground are warm, not cold. By keeping the extremes off the canvas, Renoir lets every color belong to the warm afternoon air.' },
+    { label: 'Edges that blur on purpose', where: 'The whole middle-ground crowd, especially the dancers receding into the trees', detail: 'Try to find a sharp drawn edge anywhere in the dancing crowd. There almost isn’t one. Faces are soft, dresses bleed into the air around them, the far crowd dissolves into atmosphere. This is deliberate — Renoir is painting the way the eye really sees a moving crowd in shifting light: you focus on one face at a time and the rest blurs at the edges of your attention.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Manet · modern life', mode: 'art' }, { label: 'Rococo crowd scenes', mode: 'art' }, { label: 'Haussmann Sunday', mode: 'civ' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Late Renoir', mode: 'art' }, { label: 'Modern leisure painting', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Paris Street; Rainy Day (Caillebotte, 1877). The cool, almost-photographic
+// vast canvas of Parisians under umbrellas at a Haussmann boulevard intersection.
+// ─────────────────────────────────────────────────────────────
+export const PARIS_STREET: ArtWorkContent = {
+  id: 'paris-street',
+  name: 'Paris Street; Rainy Day',
+  shortName: 'Paris Street; Rainy Day',
+  year: 1877,
+  artist: 'Gustave Caillebotte',
+  artistId: 'caillebotte',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '6 ft 11½ in × 9 ft ¾ in',
+  location: 'Art Institute of Chicago',
+  acquired: 'Charles H. and Mary F. S. Worcester Collection, 1964 (acc. 1964.336)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 8, total: 9 },
+  hook: 'A nine-foot canvas of bourgeois Parisians under umbrellas at a wet Haussmann intersection — painted so cool and so sharp it was the LEAST Impressionist picture in the third Impressionist show.',
+  heroImage: ART_IMG.caillebotteParisStreet,
+  heroCredit: 'Caillebotte, Paris Street; Rainy Day, 1877 · Art Institute of Chicago',
+  heroAspect: 1.3, // 212.2 × 276.2 cm → W/H ≈ 1.302
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1877', k: 'Painted' },
+    { v: '6′11½″ × 9′¾″', k: 'Dimensions' },
+    { v: 'AIC', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'haussmann', eyebrow: 'Haussmann’s Paris', dateLabel: '1853–1877', title: 'The rebuilt city as subject', blurb: 'Baron Haussmann’s twenty-year gut-and-rebuild of Paris created the long cream boulevards and the wedge intersections that Caillebotte painted. The specific intersection: Place de Dublin (then Carrefour de Moscou), east of Gare Saint-Lazare.', progress: 0.08 },
+    { id: 'making', eyebrow: 'An engineer-painter', dateLabel: '1876–77', title: 'Built like a building', blurb: 'Caillebotte the wealthy engineer-painter (no Salon battles needed; he financed several Impressionist shows). Nine feet wide, built on one-point perspective with a vanishing point above the central lamppost — almost architectural precision.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '212.2 × 276.2 cm', title: 'What’s on a nine-foot rainy boulevard', blurb: 'The bourgeois couple under one pale lavender-grey umbrella; the cropped man at the right edge; the wedge-shaped Haussmann apartment block; the wet cobblestones; the umbrellas against a flat overcast; the cool gray-tan palette without a warm color anywhere.', progress: 0.56 },
+    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'The least Impressionist picture in the show', blurb: 'One of the largest and most thoroughly designed pictures in the 3rd Impressionist Exhibition (Renoir’s Galette was nearly six feet wide alongside). Its cool sharp-edged style was the show’s outlier — modern Paris rendered with the discipline of an engineer.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1894–today', title: 'Family, Chrysler, the AIC', blurb: 'NOT in the Caillebotte bequest (which went to France) — stayed in the Caillebotte family (Martial → Geneviève Chardeau) to 1950, then Walter P. Chrysler Jr. 1954/55, Wildenstein 1964, Art Institute of Chicago 1964 (acc. 1964.336). On permanent view.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1877–1894', who: 'Gustave Caillebotte (the artist)', place: 'Paris', note: 'Painted in his studio in 1876–77; hung at the 3rd Impressionist Exhibition, April 1877. Held by the artist for the rest of his life.', price: null },
+    { year: '1894–1950', who: 'Martial & Marie Caillebotte → Geneviève Chardeau (née Caillebotte)', place: 'Paris', note: 'Inherited by Gustave’s brother Martial on his death (1894), then by descent through the Caillebotte family — including a long deposit at the Château de Montglat — into the next generation.', price: null },
+    { year: '1954/55', who: 'Walter P. Chrysler Jr.', place: 'New York', note: 'Bought from the Caillebotte family by the great American collector Walter Chrysler in 1954 or 1955 — one of the canvases that left France in the postwar resale wave.', price: 'sale' },
+    { year: '1964', who: 'Wildenstein & Co. → Art Institute of Chicago', place: 'New York / Chicago', note: 'Sold via Wildenstein in 1964 to the Art Institute of Chicago (Charles H. and Mary F. S. Worcester Collection fund); accessioned 1964.336. On permanent view, Gallery 201.', price: 'sale', museum: true },
+  ],
+  figures: [
+    { name: 'Gustave Caillebotte', role: 'The painter, engineer & patron', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Baron Haussmann', role: 'Built the boulevard Caillebotte painted', palette: ['#7a6a52', '#3a3020', '#100c08'] },
+    { name: 'Walter P. Chrysler Jr.', role: 'Bought it from the Caillebotte family', palette: ['#6a6a5a', '#3a3a2e', '#0e0e08'] },
+  ],
+  annotations: [
+    { label: 'The couple — well-dressed, half-bored, walking past you', where: 'Just right of center foreground, walking toward you under a single pale lavender-grey umbrella', detail: 'The two best-dressed strangers in the picture. The umbrella sheltering them is lavender-grey / pale blue-grey, NOT black — the Art Institute’s varnish cleaning confirmed the cool light tone; under a century of yellowed varnish it had read nearly black, but the cleaned canvas reads pale. The man on the woman’s right in a tall black top hat and dark overcoat; the woman on his left in a small dark hat with a soft veil, a single earring catching a dab of light, a fur-trimmed coat. They are not looking at each other or at you. They are walking past, with the slightly-faraway expression of two people who do this every morning. Their identities are unknown.' },
+    { label: 'Half a man, photograph-style', where: 'Right edge of the canvas, walking past the couple in the opposite direction', detail: 'A third figure — top hat, dark overcoat, umbrella — sliced abruptly by the right edge of the picture. You see his left side, his arm, his umbrella; the other half is simply gone. Up until the 1860s no respectable European painting did this. To crop a person in half on the canvas edge was something that happened in photographs, where a passerby would wander into the lens and end up bisected at the frame’s edge. Caillebotte lifted the trick on purpose.' },
+    { label: 'The wedge — still standing in Paris today', where: 'Upper center of the canvas, behind the gas lamppost, where two streets peel away', detail: 'The narrow apex of a six-floor cream-stone apartment block points straight at you, like the prow of a ship. Two streets — rue de Turin to one side, rue de Moscou to the other — open out around it. Six floors. Wrought-iron balconies on the regulation second and fifth floors. Mansard roof on top. Go to the Place de Dublin in the 8th arrondissement today and you can still find it.' },
+    { label: 'The morning after rain — pavement still shining', where: 'The lower quarter of the canvas — the whole foreground ground', detail: 'Roughly the bottom fourth of the painting is wet cobblestones — gray-blue, individually rendered, each stone catching a faint dab of light reflected off the overcast sky. No puddles, no streaming water; the storm is over. But the city hasn’t dried yet. Caillebotte lightens the top edge of each stone by exactly one value, and that single-value lift is what reads as reflective surface. Stone by stone, across the lower fourth of a nine-foot canvas.' },
+    { label: 'Umbrellas against a sky, not against rain', where: 'Spread across the picture — at least five or six open, in the foreground and middle ground', detail: 'Almost every figure is under a plain dark umbrella — EXCEPT the central couple’s, which is the picture’s one cool note of pale lavender-grey. They’re protecting against the threat of more rain, not against rain in progress. And look at the figures — nobody has a cast shadow of any consequence. The sky is a flat, even overcast that lights everything from all directions at once. The umbrellas are pointed at a damp ceiling of cloud.' },
+    { label: 'A single point pulls every line into depth', where: 'Just above and to the right of the central gas lamppost, on the horizon line', detail: 'Follow the curbs of the wet pavement. Follow the rooflines on the right. Follow the cornices and the upper window courses. They all run, ruler-straight, toward a single point a little above and right of the central lamppost. This is one-point perspective at its plainest — every line that runs away from you converging on one vanishing point on the horizon. Renaissance painters worked this out in fifteenth-century Florence; almost nobody flaunts it. Caillebotte, an engineer, flaunts it.' },
+    { label: 'A picture in cool colors only', where: 'The whole canvas — sky, stones, walls, clothes', detail: 'Look for a warm color anywhere in the picture. Not a soft pink, not a yellow, not an orange, not a red. There isn’t one. Cool grays, slate blue, oyster white, dull black, the dark green of the cast-iron lamppost, the pale lavender-grey of the central umbrella, a single muted-green note on the wagon. The entire human range of warm color has been refused — on purpose. Caillebotte is telling you, by elimination, what kind of light a wet Paris morning has: the kind that drains color out of the city and leaves only its values.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Haussmann’s Paris', mode: 'civ' }, { label: 'The photograph', mode: 'civ' }, { label: 'One-point perspective', mode: 'art' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Modern urban realism', mode: 'art' }, { label: 'Photographic painting', mode: 'art' } ],
   },
 }
 
@@ -2355,5 +2620,5 @@ export const HORSE_FAIR: ArtWorkContent = {
 
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }
