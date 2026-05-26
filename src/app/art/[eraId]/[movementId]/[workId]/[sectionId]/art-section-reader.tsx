@@ -4367,6 +4367,824 @@ function CrAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: st
   )
 }
 
+// ── Impressionism Batch B (4 works × 5 chapters = 20 components).
+// Authored gates-first via the art content pipeline; see audits/art-pipeline/imp-batch-b-*.
+// The Dance Class (Degas, 1874) — Dc… ───────────────────
+function DcRehearsal({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The subject" title="The work, not the gala" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        here is a particular kind of trick a painting can pull where, the longer you look at it, the more you realize what isn&rsquo;t there. <em>The Dance Class</em> is one of those. There is no dance in it. There is no stage. There is no audience, no orchestra pit, no costumes more elaborate than a plain white practice tutu, no glow of footlights, no curtain. About twenty-four young women in pale tutus are scattered across a high, drafty rehearsal room. One is scratching her back. One is twisting around to look at a friend. One is fixing a sash. Most are just standing, waiting for something. An elderly man in a brown jacket leans heavily on a long walking stick and seems to be saying something nobody is listening very hard to. And that &mdash; the wait, the slouch, the scratch &mdash; is the whole subject of the painting.
+      </p>
+      <p style={proseStyle}>
+        For a French audience in the 1870s this was a small shock. Ballet, in their world, was glamour. The <strong>Paris Op&eacute;ra</strong> (the city&rsquo;s grand state opera house, which also ran the ballet) put on the most famous dance performances in Europe; tickets were expensive, the gas-lit theater dripped with chandeliers, and the dancers on stage were the city&rsquo;s manufactured stars. You were supposed to paint the <em>show</em>: the leap, the swirl, the spotlight catching gauze. <strong>Edgar Degas</strong> (1834&ndash;1917), a Paris-born painter who would become one of the central figures of Impressionism, pointed his attention at the exact opposite. He painted the <strong>rehearsal</strong> &mdash; the daily room where the dance got <em>made</em>, hours before the public ever saw it.
+      </p>
+
+      <SectionHeader accent={accent} label="The factory floor" title="What a rehearsal room actually was" />
+      <p style={proseStyle}>
+        To understand why that was a real provocation, you have to know what a Paris Op&eacute;ra rehearsal room actually was, because it was nothing like the romantic image the word &ldquo;ballet&rdquo; puts in your head. It was a factory floor. The Op&eacute;ra ballet was a working corps of around 150 dancers, most of them teenage girls and young women from working-class Paris families. They started training as small children &mdash; Parisians called the youngest ones <em>petits rats</em> (literally &ldquo;little rats,&rdquo; because they scampered through the back corridors of the opera house). They drilled six days a week in long rehearsal sessions, did multiple shows a week in the season, were paid wages a Parisian seamstress would have recognized, and were, for most of them, the family breadwinner. The famous ones at the very top earned real money. Everyone else earned a living, and only just.
+      </p>
+      <p style={proseStyle}>
+        And the room itself was an unromantic working space. Bare wood floors, doused with water from a watering can so the dancers wouldn&rsquo;t slip (the can sits in the painting; Chapter 3 will point you at it). High windows for daylight. Wooden bars fixed to the walls to stretch and warm up against. Wooden benches along the walls for the people who weren&rsquo;t dancing at that moment to sit on. Cluttered, crowded, hot in summer, freezing in winter, smelling of sweat and rosin.
+      </p>
+
+      <SectionHeader accent={accent} label="The doorway" title="Stage mothers and abonn&eacute;s" />
+      <p style={proseStyle}>
+        It also had a feature Degas painted as plainly as he painted the floor: the <strong>stage mothers</strong>. Sitting on benches in dark dresses, hats on, are women who came with their daughters to every rehearsal &mdash; chaperones, in theory. Degas places them not where you might expect them (across the room as a row of guardians along a wall) but at the <strong>upper right</strong> of the canvas, just by the doorway opening into the secondary room behind the dancers &mdash; the threshold the rest of the world used to come into the rehearsal. That position matters. It is the door through which the second, uglier feature of the Op&eacute;ra economy walked in: the <strong><em>abonn&eacute;s</em></strong> (pronounced &ldquo;ah-buh-NAY&rdquo;), the wealthy male season-ticket holders whose subscription bought them, along with their seats, the right to walk <em>backstage</em> and into the rehearsal rooms. They came to scout, to flirt, to &ldquo;sponsor,&rdquo; to pick out a dancer to take to dinner and what came after dinner.
+      </p>
+      <p style={proseStyle}>
+        It is tempting to read the chaperones as a defense against the <em>abonn&eacute;s</em>, and the painting half-invites that reading. But look at the structure honestly. A mother sitting by the door cannot actually keep a season-ticket holder out &mdash; his ticket is what <em>grants</em> the access, and her presence does not revoke it. What the chaperone could do was witness, and a witness in that economy was less a barrier than a chaperone in the older sense: a respectability-prop a working-class family could put between their daughter and the men her labor had to be sold to. The arrangements that came out of that room ran the gamut, from long-term liaisons to legal marriages to what we would now plainly call exploitation, but the coercion was in the <em>structure</em>, not in the form of the outcome. A marriage to an <em>abonn&eacute;</em> was not better than a liaison with one; both were the asymmetry &mdash; his wealth, her wages, his backstage pass, her wage-earning body &mdash; wearing different costumes. The mother by the doorway is the visible edge of that economy: a working-class parent posted at the entrance, watching the men who paid for the right to walk through it.
+      </p>
+
+      <SectionHeader accent={accent} label="The under-side of glamour" title="The day shift that made the show" />
+      <p style={proseStyle}>
+        This is the world Degas had been quietly studying for years. He had friends inside the Op&eacute;ra (the painting&rsquo;s commission, in Chapter 2, comes through one of them). He was allowed backstage. He sat in on classes. He sketched the same gestures &mdash; the bored stretch, the adjusted shoulder strap, the foot rubbing the back of a calf &mdash; over and over, until they were as available to him as a portrait painter&rsquo;s catalog of expressions. He did not, by the way, want to be called an Impressionist; he disliked the label, hated painting outdoors, and worked entirely in the studio from drawings and memory. But when his friends Monet and Pissarro and Renoir went to invent a new way of painting <em>modern life</em> &mdash; the present-tense city, the actual world they lived in, not the mythological past &mdash; Degas&rsquo;s contribution was the indoor side of that argument. They painted train stations, gardens, harbors, caf&eacute;s. He painted the laundress, the milliner, the singer, the jockey, the bather, and above all the dancer. Not the dancer onstage. The dancer at <em>work</em> &mdash; under the supervision of a <strong>ballet master</strong> (the senior man in charge of training the corps and running rehearsals; the head of the dance school inside the opera house), the man leaning on the long stick at the right of the canvas.
+      </p>
+      <p style={proseStyle}>
+        So when you stand in front of <em>The Dance Class</em> you are looking at the under-side of glamour. The audience that came to the Op&eacute;ra never saw this room. They saw the show. Degas painted the day shift that made the show possible &mdash; the wages, the chaperones at the door, the watering can, the bored teenager scratching her back &mdash; and asked you to see it as serious art. That was a quiet provocation in 1874, and the picture is still doing it now.
+      </p>
+    </article>
+  )
+}
+
+function DcMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The customer" title="Commissioned by Faure" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>M</DropCap>
+        ost paintings that look this casual were not casual to make. <em>The Dance Class</em> took Degas about a year &mdash; not because it is large (it is small, about two feet nine inches by two feet six, which is closer to the size of a window than a wall) but because there was a paying customer waiting, and because the painter changed his mind in the middle and rewrote a key figure.
+      </p>
+      <p style={proseStyle}>
+        Start with the customer, because nothing about this picture makes sense without him. His name was <strong>Jean-Baptiste Faure</strong> (1830&ndash;1914), and in 1870s Paris he was famous &mdash; not as a collector but as a singer. Faure was the Paris Op&eacute;ra&rsquo;s leading baritone, the man whose voice carried the heavy male roles, especially the title role in <strong>Rossini&rsquo;s <em>Guillaume Tell</em></strong> (the four-hour Italian-French opera about the legendary Swiss crossbow archer; &ldquo;Rossini&rdquo; being Gioachino Rossini, the Italian composer who basically invented the modern operatic crowd-pleaser). Faure was a star inside the same Op&eacute;ra building whose rehearsal rooms Degas had been sketching. He was also, quietly, one of the most important early patrons of the Impressionists &mdash; he bought Manet, Monet, Sisley, and Degas at a time when most respectable buyers wouldn&rsquo;t touch them. In <strong>1873</strong> he commissioned this painting directly from Degas, with one specific demand: he wanted dancers. Degas was already known for them; Faure wanted a Degas Degas.
+      </p>
+      <p style={proseStyle}>
+        The commission was a contract, not a courtesy. Faure agreed to pay <strong>5,000 francs</strong> (a real sum for a small canvas &mdash; roughly what a Paris doctor might earn in a year), and Degas agreed to deliver. Then Degas did what Degas always did, which was take his time. The painting is dated 1874, but it didn&rsquo;t actually arrive at Faure&rsquo;s house until <strong>November 1874</strong>, almost two years after the commission. Faure had to write more than one polite letter to ask where his picture was.
+      </p>
+
+      <SectionHeader accent={accent} label="The X-ray" title="A second draft, painted over a first" />
+      <p style={proseStyle}>
+        What was Degas doing for two years? Partly he was reworking the picture. We know this because of one of the small miracles of modern museum technology: the <strong>X-radiograph</strong>, an X-ray taken of a painting, which shows you the dense paint layers underneath the surface like an architectural plan of the artist&rsquo;s changes. When the Met X-rayed <em>The Dance Class</em>, the right foreground gave up a secret. The figure standing there now &mdash; the elderly ballet master leaning on a long stick &mdash; is a second draft, painted on top of a first one. Underneath, the X-ray reveals <strong>an earlier, unidentified dance master figure</strong>, seen from the back: a different man in the same spot, doing the same compositional job, scrubbed away and replaced. Who was the first man? The honest answer is that we don&rsquo;t know, and the responsible scholarship doesn&rsquo;t claim to. (The Met&rsquo;s <em>related</em> Orsay-version canvas has its own pentimento with a different identification; the Met X-ray is its own, separate change, and the figure it hides has not been pinned to a specific name.) What we do know is that Degas painted <em>some</em> working dance master in there first, and then thought better of it.
+      </p>
+      <p style={proseStyle}>
+        Why? Because, after thinking about it, he had a better idea about what the figure in that spot was <em>for</em>. The man at the right of the painting was going to be the gravitational center of the whole scene &mdash; the one finished, fully-described face, the still point everything else swirled around. A working ballet master was the right answer if you wanted a documentary record of who taught at the Op&eacute;ra in 1873. But Degas didn&rsquo;t want documentary. He wanted history. So he replaced the first man with <strong>Jules Perrot</strong> (1810&ndash;1892).
+      </p>
+      <p style={proseStyle}>
+        Perrot was a name. He had been, decades earlier, one of the great male stars of European ballet &mdash; a partner of <strong>Marie Taglioni</strong> (the most famous ballerina of the Romantic era), the <strong>choreographer</strong> (the person who invents and arranges the steps) of much of <em>Giselle</em>, including its haunted second act. By 1874 he was sixty-four, retired, and back in Paris in his last working decade, taking some teaching to keep busy. Putting him at the right edge of this canvas was not a portrait of who actually taught the Op&eacute;ra corps that morning. It was a portrait of the long history of ballet itself standing in the corner of the room, leaning on a stick, watching the next generation. Degas chose the legend over the bureaucrat. The X-ray catches him making exactly that choice, in paint.
+      </p>
+
+      <SectionHeader accent={accent} label="The fire" title="A memorial as much as a snapshot" />
+      <p style={proseStyle}>
+        There is one more piece of the making that is easy to skate past. The room Degas painted &mdash; the rehearsal room he had been sketching for years &mdash; did not exist anymore when he delivered the picture. On <strong>October 28 and 29, 1873</strong>, the old Paris Op&eacute;ra building on the <strong>rue Le Peletier</strong> (the <strong>Salle Le Peletier</strong>) had burned to the ground in a catastrophic overnight fire. By the time Faure took delivery of <em>The Dance Class</em> in November 1874, the room in the painting was a memory; the dancers were already drilling in temporary halls while the new Op&eacute;ra (the famous <strong>Palais Garnier</strong>, the wedding-cake building tourists still queue for) was being finished a few blocks away. Degas painted the lost room from his old sketches and his memory, in the studio, after the fact. Which means anyone who tells you he painted <em>The Dance Class</em> &ldquo;from life in a real class&rdquo; is wrong twice: he composed it in the studio, and the class itself, in that room, had already been canceled by a fire. It is a memorial as much as a snapshot &mdash; a working room reconstructed from sketches because the actual one had become smoke and ash. Faure&rsquo;s commission gave him the deadline. The fire gave him the elegy.
+      </p>
+    </article>
+  )
+}
+
+function DcLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The room" title="The floor that tips up at you" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tand in front of the picture and the first thing your eye does is fall over. The floor is tipped &mdash; wildly tipped, as if the room is on a hinge. Instead of looking <em>into</em> a rehearsal room from a respectful seat in the corner, you feel like you are leaning out over the floorboards from a balcony, half-falling in. That is the first move, and everything else in the painting is built on it. So let&rsquo;s actually walk the canvas, top to bottom, side to side, and see what&rsquo;s there.
+      </p>
+      <p style={proseStyle}>
+        It is a small picture (a little under three feet on the long side; the size of a tall reading-room chair). It is <strong>oil on canvas</strong>, signed <em>Degas</em> at the lower left. The room is taller than it is wide, with a high ceiling and a tall window in the far back wall throwing in the cool overhead daylight that lights the whole scene; there are no candles, no gas lamps, no electric bulbs (electric light won&rsquo;t come to the Op&eacute;ra for a few more years). The wall behind the dancers carries the <em>dance bars</em> &mdash; the polished wooden rails fixed at waist height that dancers grip to stretch and warm up against, held to the wall by small brass studs. On the back wall, partly visible, is a <strong>poster</strong> for an opera; you can just read the printed title &mdash; <em>Guillaume Tell</em>. Hold that detail; it&rsquo;s a private joke, and Chapter 4 cashes it in.
+      </p>
+
+      <SectionHeader accent={accent} label="The people" title="Scattered, not arranged" />
+      <p style={proseStyle}>
+        Now the people. Spread across the room &mdash; and &ldquo;spread&rdquo; is exactly the word, because they are scattered, not arranged &mdash; are about twenty-four dancers, all in pale practice tutus with a colored ribbon sash at the waist (red, blue, green, yellow; little dabs of pure color that ping across an otherwise tan-and-cream picture). They are not in a line. They are not facing the same way. They are doing about a dozen different things at once. One girl is twisted around to talk to a neighbor. Another is bent slightly forward, adjusting a slipper. Another has reached one arm up to scratch the back of her neck &mdash; a small, unposed, instantly familiar human gesture that almost never appears in nineteenth-century painting because almost no nineteenth-century painter thought it was worthy of paint. Two more are leaning against the wall, waiting. A girl at the left front edge of the floor is stretching her back. Behind a heavy pale column in the middle of the room, half-hidden, more dancers blur into the further room &mdash; Degas has actually sliced one of them in half with the column, so you only see a tutu and an elbow and have to mentally finish the figure. (That column-as-slicer is a Japanese print move; we&rsquo;ll come back to it.)
+      </p>
+      <p style={proseStyle}>
+        In the <strong>right foreground</strong>, dressed in a brown jacket and dark trousers, leaning his weight forward onto a long walking stick that touches the floor in front of his shoes, stands the painting&rsquo;s still point: an elderly white-haired man, fully and carefully described, his face the only one in the picture given full portrait treatment. This is <strong>Jules Perrot</strong>, the retired star, the legend put in as a teacher (Chapter 2). He is the one figure who feels finished by the standards of nineteenth-century painting &mdash; every other person is sketched in with the practical haste of working paint. Perrot is <em>posed</em>. Everyone else is <em>caught</em>. That contrast is doing real work: the legend stands, formally portrayed; the working corps swirls around him, in motion, half-formed, mid-gesture.
+      </p>
+
+      <SectionHeader accent={accent} label="The props" title="Dog, mothers, watering can" />
+      <p style={proseStyle}>
+        Now look down to the <strong>left foreground</strong>, low, almost on the floor. There is a <strong>small dog</strong>, ears alert, sitting or sniffing near the bottom edge of the canvas. A dog. In a rehearsal room. It is a deliberately silly note &mdash; the kind of unromantic detail a serious history painter would have edited out. Degas kept it because it makes the room a room, not a stage.
+      </p>
+      <p style={proseStyle}>
+        Now look up to the <strong>upper right</strong> of the picture. Above the dancers&rsquo; heads, near where the back wall opens into a secondary room visible through a doorway, you can pick out a small clutch of figures in dark dresses, hats on, in shadow. These are the <strong>stage mothers</strong> introduced in Chapter 1 &mdash; chaperones for the working dancers, posted near the doorway the <em>abonn&eacute;s</em> used to come backstage. They are not described in detail. They are sketched as dark masses with pale faces; you can read them as a row of guardians by the threshold rather than as individuals. Degas refuses to identify any single one of them, and so should we; any caption that names a specific mother in this painting is making it up.
+      </p>
+      <p style={proseStyle}>
+        Now find, on the <strong>floor</strong>, just to the left of the central group, a small dull-metal cylindrical object that an inattentive eye reads as a stray prop. It is a <strong>watering can</strong>. It is there for a reason: the wood floor of a rehearsal room had to be sprinkled with water from a can before class, so the dancers wouldn&rsquo;t skid. The watering can on the floorboards is one of the picture&rsquo;s small loud claims that this is a workplace, not a fantasy. Factory floors had buckets. Rehearsal floors had watering cans. Degas painted the can the way a Dutch still life painter would have painted a tankard &mdash; as documentary evidence.
+      </p>
+
+      <SectionHeader accent={accent} label="The Japanese print" title="A record of attention, not arrangement" />
+      <p style={proseStyle}>
+        Now look at the <strong>right edge</strong> of the painting. The canvas slices a dancer in half: half a torso, a shoulder, the side of a face, a sliver of tutu, then nothing &mdash; the picture stops in the middle of a person, as if a camera shutter clipped her on the way out of frame. Cropping like that, in 1874, was new. Degas had learned it from <strong>Japanese woodblock prints</strong> &mdash; the cheap mass-produced color prints called <strong><em>ukiyo-e</em></strong> (pronounced &ldquo;oo-kee-yo-eh,&rdquo; &ldquo;pictures of the floating world&rdquo;) that had flooded into Paris when Japan reopened to Western trade in the 1860s. He owned a stack. The French taste for them had a name &mdash; <strong><em>Japonisme</em></strong> (pronounced &ldquo;jah-poh-NEEZM&rdquo;) &mdash; and <em>The Dance Class</em> is one of its first masterpieces. Three moves to spot, all from the prints: <strong>the floor tipped up</strong> so it tilts toward you instead of receding politely; <strong>a figure clipped by the frame</strong> as if seen out of the corner of an eye; <strong>a column slicing the picture in half</strong>, blocking part of what you wanted to see. Western seriousness, Western daylight, Western working room &mdash; composed like a Japanese print.
+      </p>
+      <p style={proseStyle}>
+        That is, finally, the trick. The polite version of this painting would have been twelve dancers in a row, facing forward, the teacher in profile, the floor receding into Albertian space. Degas tipped the floor, hid half the figures behind a column, sliced one in half at the frame, gave one a back-scratch and one a sash to fix, put a small dog in the corner, and pushed the chaperones up into the shadow by the doorway. The room is a record of attention, not arrangement. That is what &ldquo;modern&rdquo; means here. It is the look of the <em>unrehearsed second</em> inside the rehearsal.
+      </p>
+    </article>
+  )
+}
+
+function DcShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The mistake" title="Not in 1874" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        his is the chapter to pause and clear away one stubborn mistake, because almost everybody who tells the story of this painting gets it wrong: <strong><em>The Dance Class</em> was not in the famous first Impressionist exhibition of 1874.</strong> Degas painted it in 1874, yes. Faure took delivery in November 1874, yes. But the <strong>First Impressionist Exhibition</strong> had already opened in April of that year and closed by May, and <em>The Dance Class</em> &mdash; still being finished, still in Degas&rsquo;s studio with the first dance master under the paint &mdash; was not in it. The painting that hung in Nadar&rsquo;s old photo studio that famous spring was a different Degas. <em>The Dance Class</em> missed it.
+      </p>
+      <p style={proseStyle}>
+        What it caught instead was the <em>second</em> one, two years later. In <strong>April 1876</strong>, the Impressionists held their <strong>Second Exhibition</strong> in Paris (at the galleries of the dealer Durand-Ruel, 11 rue Le Peletier &mdash; by coincidence the same street as the burned opera house from Chapter 2). And there, lent by <strong>Faure</strong> from his private collection, <em>The Dance Class</em> hung publicly for the first time. The catalogue listed it among Degas&rsquo;s entries. By 1876 Faure was already in the habit of lending his Degas pictures to shows; he was a generous loaner, and the practice meant his collection helped underwrite Impressionism&rsquo;s visibility in its earliest, scrappiest years.
+      </p>
+
+      <SectionHeader accent={accent} label="The movement" title="The rejected organize themselves" />
+      <p style={proseStyle}>
+        A word about what &ldquo;the Impressionist Exhibitions&rdquo; were, because the word &ldquo;exhibition&rdquo; badly undersells them. The Impressionists were people who had been <strong>rejected from the Salon</strong> &mdash; the official annual state-run art exhibition in Paris, which was effectively the only door into a career. The Salon&rsquo;s jury hated the loose brushwork, the bright color, the modern-life subjects, the unfinished look. So Monet, Pissarro, Renoir, Degas, Berthe Morisot, Sisley, C&eacute;zanne and the others did the thing the rejected always eventually do: they organized themselves and put on their own show. The first one, in 1874, was the manifesto. The second, in 1876, was the proof that it wasn&rsquo;t a one-off. Eight exhibitions in total would run from 1874 to 1886. They were the engine that built Impressionism&rsquo;s audience.
+      </p>
+      <p style={proseStyle}>
+        Degas was an awkward fit inside his own movement, and <em>The Dance Class</em> is a useful place to feel why. The painters most associated with Impressionism &mdash; Monet, Pissarro, Renoir, Sisley &mdash; were <em>plein-air</em> painters: they worked outdoors, in front of the actual light, chasing the sun across grain fields and harbors and gardens. Degas worked in his studio, from drawings and memory, in steady artificial-feeling light, on indoor subjects. He didn&rsquo;t paint sunlight. He painted gaslight, daylight through a high window, the warm light of a caf&eacute;, the cool light of a rehearsal room. He didn&rsquo;t think of himself as an &ldquo;Impressionist&rdquo; at all &mdash; he called his work <strong>Realism</strong>, in the sense the writer &Eacute;mile Zola meant: unsentimental, modern, present-tense observation of ordinary life. And yet there he was, in every Impressionist Exhibition from the first to the eighth, hanging his pictures next to Monet&rsquo;s harbors and Pissarro&rsquo;s villages. Whatever you call him, he was in the room.
+      </p>
+
+      <SectionHeader accent={accent} label="The argument" title="Indoor Impressionism" />
+      <p style={proseStyle}>
+        What <em>The Dance Class</em> did, hanging at the 1876 show, was put a flag down for what we might fairly call <strong>indoor Impressionism</strong>. While Monet&rsquo;s outdoor pictures were dissolving cathedrals and harbors into colored light, Degas was insisting that modern life happened indoors too &mdash; in caf&eacute;s, on rehearsal floors, in milliners&rsquo; shops, in laundries. The light was different, the brushwork could be a little tighter, the surface a little more drawn. But the project was the same: paint the actual world, the <em>present-tense</em> world, not a costume-drama version of it. The rehearsal room was, for Degas, what the harbor at dawn was for Monet &mdash; the real, working, modern subject that polite painting had been refusing to look at.
+      </p>
+      <p style={proseStyle}>
+        The 1876 reception of the painting was warm by the period&rsquo;s standards, which mostly means it wasn&rsquo;t loudly attacked. Several critics singled Degas out as the most interesting figure in the Second Exhibition. The novelist <strong>Edmond Duranty</strong> (1833&ndash;1880), a friend of Degas and the group&rsquo;s most thoughtful in-house critic, that same year published a pamphlet &mdash; <strong><em>La Nouvelle Peinture</em></strong> (&ldquo;The New Painting&rdquo;) &mdash; arguing that the future of art lay in exactly the kind of unposed, modern, behind-the-scenes subject Degas was making his specialty. The pamphlet is, in effect, <em>The Dance Class</em>&rsquo;s manifesto, written by the painter&rsquo;s friend the same season the picture went on the wall. Other critics complained about the looseness, the cropping, the apparent casualness &mdash; the same complaints leveled at the whole movement. But the painting was visibly admired. It was, very quickly, recognized as one of the things Degas was about.
+      </p>
+
+      <SectionHeader accent={accent} label="The private joke" title="The Guillaume Tell poster" />
+      <p style={proseStyle}>
+        A small dryness worth pointing out, before we leave the room: that <strong>poster of <em>Guillaume Tell</em></strong> on the back wall (Chapter 3) &mdash; the small printed sheet behind the dancers &mdash; was a private courtesy from Degas to his patron. Faure&rsquo;s most famous stage role was the title part in <em>Guillaume Tell</em>. Degas slipped it into the back wall of the painting so that the man who paid for the picture would see, half-hidden in the d&eacute;cor of the rehearsal room, a tiny tribute to his own celebrity. Faure hung the painting in his apartment and was reportedly delighted with it. The first audience for <em>The Dance Class</em>, in other words, was an Op&eacute;ra baritone admiring a private love note from his painter, with a watering can on the floor and a small dog by his foot.
+      </p>
+    </article>
+  )
+}
+
+function DcAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The paper trail" title="Provenance, in five hands" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he afterlife of <em>The Dance Class</em> is a story about how one painting can pass through five sets of hands across more than a century, and almost &mdash; but never quite &mdash; become a different picture every step of the way. To follow it you need one plain word: <strong>provenance</strong>, which means the documented chain of who owned a work of art, from the artist&rsquo;s hand to wherever it sits now. Provenance is a painting&rsquo;s paper trail. This one&rsquo;s reads like a real-estate deed.
+      </p>
+      <p style={proseStyle}>
+        The first owner was Faure himself. He took delivery in November 1874, paid his 5,000 francs, hung the picture, lent it to the 1876 show (Chapter 4), and held onto it for almost a quarter of a century. Then, on <strong>19 February 1898</strong>, Faure sold it &mdash; but not directly to its next collector. He sold it to a dealer. <strong>Paul Durand-Ruel</strong> (1831&ndash;1922) was the Paris dealer who had basically built the Impressionist market, the man who underwrote Monet through his hungry years and ran the gallery where the Second Exhibition had hung. Faure handed Durand-Ruel <em>The Dance Class</em> on the 19th of February for <strong>10,000 francs</strong> &mdash; about double what he had paid Degas for it in 1874, a respectable but not yet thunderous return after twenty-four years.
+      </p>
+
+      <SectionHeader accent={accent} label="The Atlantic crossing" title="Durand-Ruel to Payne, 1898" />
+      <p style={proseStyle}>
+        Durand-Ruel did not keep it. Six weeks later, on <strong>4 April 1898</strong>, he sold it on to an American: <strong>Colonel Oliver H. Payne</strong> (1839&ndash;1917), a New York industrialist, one of the founding executives of Standard Oil, very rich, and at that moment one of a wave of American millionaires busy hoovering up European art and shipping it home. Payne paid <strong>roughly $25,000</strong> &mdash; a startling jump from the 10,000 francs Durand-Ruel had handed Faure in February, and the dealer&rsquo;s margin is the story of the sale. Durand-Ruel had spent the 1880s and 1890s patiently building an American clientele for the Impressionists, traveling to New York, putting on shows, courting the new industrial money; by 1898 he could turn a French collector&rsquo;s painting into an American collector&rsquo;s painting at a sharp markup because he was the only person on either side of the Atlantic who knew both rooms. So the provenance is two steps, not one: Faure &rarr; Durand-Ruel, 19 February 1898, 10,000 francs; Durand-Ruel &rarr; Payne, 4 April 1898, ~$25,000. The painting sailed for New York that spring. It is a sign that, by the end of the century, the market had finally caught up to Degas &mdash; and that the engine of that catch-up was a dealer, not a museum.
+      </p>
+      <p style={proseStyle}>
+        From Payne the painting passed by inheritance, in 1917, to his nephew <strong>Harry Payne Bingham</strong> (d. 1955), and then to <strong>Mrs. Harry Payne Bingham</strong> at her husband&rsquo;s death. The Binghams kept it quietly through the middle of the twentieth century. In <strong>1986</strong>, when Mrs. Bingham died, she bequeathed the picture to the Metropolitan Museum of Art in New York. The Met accessioned it the following year under the catalog number <strong>1987.47.1</strong>. It has been on view, on and off, ever since, currently in Gallery 815.
+      </p>
+
+      <SectionHeader accent={accent} label="The two confusions" title="Not the Havemeyer panel, not the Orsay canvas" />
+      <p style={proseStyle}>
+        Now the most important correction in this whole essay, because it is the mistake that gets written most often. <em>The Dance Class</em> in the Met is sometimes carelessly described as &ldquo;given to the Met by the Havemeyers in 1929.&rdquo; That is wrong. It confuses <em>this</em> painting with a <strong>different, smaller, separate Degas picture</strong> also in the Met &mdash; a small panel called <em>The Dancing Class</em> (note the different title), about eight by ten inches, painted around the same period, which <em>was</em> bequeathed by <strong>Louisine Havemeyer</strong> (the great American collector of Impressionists, wife of the sugar magnate Henry Osborne Havemeyer) in <strong>1929</strong> under accession number <strong>29.100.184</strong>. Two different Degas paintings of dancers, both at the Met, with confusingly similar titles, by routes that are easy to mix up. The 83-by-77-centimeter <em>The Dance Class</em> (the one this essay is about) came to the Met by the <strong>Bingham bequest</strong> in 1986&ndash;87. The little panel <em>The Dancing Class</em> came by the <strong>Havemeyer bequest</strong> in 1929. They are not the same painting and they did not come in the same way.
+      </p>
+      <p style={proseStyle}>
+        There is one more painting we have to deal with, because the confusion compounds. In the Mus&eacute;e d&rsquo;Orsay in Paris hangs a painting almost the same size as the Met&rsquo;s <em>Dance Class</em> (about 33 by 30 inches), also showing a rehearsal room, also with Jules Perrot at the right leaning on his stick, also with a watering can on the floor. It is called <em>La Classe de danse</em> and is dated roughly 1873&ndash;76. People sometimes describe these as <strong>&ldquo;two versions of the same painting,&rdquo;</strong> as if Degas painted it twice. They are not. They are two separate, related canvases &mdash; different compositions sharing a vocabulary, the way a writer might write two essays on the same subject. The Orsay picture rearranges the dancers differently, frames the room differently, treats the light differently. Both are autograph (meaning Degas painted both with his own hand). Both feature Perrot because Degas painted Perrot &mdash; as the legendary teacher-in-the-corner &mdash; into a whole family of rehearsal pictures in the 1870s. Scholars still debate which canvas was started first; the Pickvance camp argues the Orsay version was begun earlier, the Lemoisne camp argued for the Met&rsquo;s. What no responsible art historian does is call them &ldquo;the same painting.&rdquo; They are two separate works in the same dance-class neighborhood.
+      </p>
+
+      <SectionHeader accent={accent} label="The watering can" title="The picture&rsquo;s last word" />
+      <p style={proseStyle}>
+        So sit, finally, with the arc of this picture. Faure ordered it from a friend in 1873, took delivery in late 1874, lent it for the second Impressionist show in 1876, kept it nearly a quarter-century, then in a single Paris spring handed it off to Durand-Ruel, who quietly sent it across the Atlantic to a Standard Oil man for the price of a small mansion. It sat in an industrialist&rsquo;s apartment, then a nephew&rsquo;s, then a widow&rsquo;s, for almost ninety years. It came to the Met in 1986 as a bequest, was given a number in 1987, and has been hanging in Gallery 815 since.
+      </p>
+      <p style={proseStyle}>
+        And on the floor of that small dim gallery, inside a frame the size of a window, the picture&rsquo;s argument keeps quietly making itself. A teenage girl scratches her back. An old man with a stick leans on it. A small dog sits in the corner. And &mdash; set down on the boards just to the left of the central group, where the rest of the picture has been organizing itself around it the whole time &mdash; sits a small dull-metal watering can. It is the picture&rsquo;s last word and its first one. Sprinkle the boards. Wet the floor. The dancers won&rsquo;t slip. The show goes on, in a few hours, in a different building, in front of the men in the seats. The labor is here, in this room, on these boards, with this can. <em>The Dance Class</em> keeps painting the watering can the way a court painter would paint a crown. It is what the picture is about. Stand in the gallery long enough and you stop seeing the tutus and start seeing the can.
+      </p>
+    </article>
+  )
+}
+
+// L'Absinthe (Degas, 1875–76) — Ab… ──────────────────────
+// ─────────────────────────────────────────────────────────────
+// L'Absinthe (Degas, 1875–76) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function AbCafe({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Place Pigalle · 1875" title="The most important room in modern painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        alk up to the <strong>Place Pigalle</strong> in Paris in <strong>1875</strong>. The square sits at the foot of <strong>Montmartre</strong> (pronounced &ldquo;mon-MART-ruh&rdquo;), the steep hill on the city&rsquo;s northern edge that was, then as now, where painters and poets and people who didn&rsquo;t have proper jobs tended to live because the rents were cheap and the wine was cheaper. On the corner of the square, with windows onto the street, sits a café. Its name is the <strong>Café de la Nouvelle-Athènes</strong> &mdash; French for &ldquo;the New Athens,&rdquo; a grand classical name slapped onto a smoky room with marble tables and gas lamps and a back wall lined with mirrors. By 1875 this is the most important room in modern painting in France, and almost nobody outside it knows that yet.
+      </p>
+      <p style={proseStyle}>
+        To understand why, you need to know what it replaced. For years the loose group of young painters now called the Impressionists &mdash; <strong>Édouard Manet, Edgar Degas, Pierre-Auguste Renoir, Camille Pissarro</strong>, the rest &mdash; had drunk and argued at a different café, the <strong>Café Guerbois</strong>, over on the <strong>rue des Batignolles</strong> in another quarter. (Reader, file this fact away, because the next time you see a popular history place <em>L&rsquo;Absinthe</em> in the Guerbois, you&rsquo;ll know it&rsquo;s wrong. The Guerbois was the old hangout. The Nouvelle-Athènes is the new one.) Around 1875 they migrated, more or less en masse, to the Nouvelle-Athènes, and the painters brought the writers with them &mdash; the critic <strong>Edmond Duranty</strong>, who in 1876 would publish a little pamphlet, <em>La Nouvelle Peinture</em> (&ldquo;The New Painting&rdquo;), arguing that art&rsquo;s job was to look at the unsentimental modern present; the young novelist <strong>Émile Zola</strong>, sharpening the same argument in fiction. The painters, on the same migration, were doing it in oil paint.
+      </p>
+      <p style={proseStyle}>
+        So a café, in this period and this city, is not just a café. It is an office, a salon, and a public living room rolled into one. A working painter who can&rsquo;t afford studio heat (and most of them couldn&rsquo;t) can sit at a marble-top table for hours over a single drink, arguing with other painters about what art ought to be. Degas, who was forty-one and prickly and rich enough that he didn&rsquo;t have to be there for the cheap rent, was nonetheless there constantly. He was the café&rsquo;s most acid wit and one of its most committed observers. The picture we&rsquo;re about to look at is essentially him taking notes on his own bar.
+      </p>
+
+      <SectionHeader accent={accent} label="The drink in the title" title="A green Tuesday-night drink, not yet the green poison" />
+      <p style={proseStyle}>
+        Now to the drink in the title. <strong>Absinthe</strong> (pronounced &ldquo;AB-sinth&rdquo;) was, in 1875, the cheapest and strongest of the popular Paris liquors. It was a clear, high-proof spirit &mdash; roughly <strong>seventy percent alcohol</strong>, about twice as strong as a modern vodka &mdash; distilled from anise, fennel, and the bitter herb wormwood, which gave it a faint green color and a faintly medicinal taste. You drank it the way you didn&rsquo;t drink most spirits: you set the glass down, balanced a perforated slotted spoon across the rim, laid a sugar cube on the spoon, and slowly dripped ice water through the sugar into the absinthe. The water hit the spirit and the drink suddenly went cloudy and milky-pale &mdash; an effect called the <strong>louche</strong> (pronounced &ldquo;loosh&rdquo;; French for &ldquo;shady&rdquo; or &ldquo;murky,&rdquo; and yes, the word has the double meaning on purpose). That ritual of preparation, the green going milky, took a few minutes. By the end of it you had a tall, pale, slightly cloudy drink in front of you, and you were committed to the next hour of your life.
+      </p>
+      <p style={proseStyle}>
+        In <strong>1875</strong>, this was an absolutely ordinary drink. Working men drank it on the way home from the factory; office clerks drank it at five; respectable middle-class Parisians drank it in nice cafés like the Nouvelle-Athènes. It was sometimes called the <em>fée verte</em> &mdash; &ldquo;the green fairy&rdquo; &mdash; but cheerfully, the way you&rsquo;d nickname a favorite drink, not ominously. The full anti-absinthe panic &mdash; the medical scare-stories about &ldquo;absinthism,&rdquo; the temperance crusades, the eventual outright bans across France in 1915 and most of Europe in the same era &mdash; was still ten or twenty years off. <strong>In 1875 absinthe was not yet the green poison.</strong> It was the green Tuesday-night drink.
+      </p>
+
+      <SectionHeader accent={accent} label="The picture he was going to make" title="The room with the life drained out" />
+      <p style={proseStyle}>
+        That timing matters, because the picture we&rsquo;re about to look at is one of the things that <em>helped</em> turn the drink into the panic. Not in 1876, when Degas painted it. Seventeen years later, in London, when Victorians who had never set foot in the Nouvelle-Athènes looked at it and decided what they were seeing was the road to ruin. We&rsquo;ll get to that. But hold the date: 1875&ndash;76, in a real café, with a real drink that wasn&rsquo;t yet a moral problem. That&rsquo;s the room Degas walked into with his sketchbook.
+      </p>
+      <p style={proseStyle}>
+        He wasn&rsquo;t going to paint the room as it actually was, full of arguing painters and clinking glasses. He was going to paint its opposite. He was going to paint a Nouvelle-Athènes drained of conversation, with two strangers (who weren&rsquo;t strangers) shoved off into one corner, and the rest of the picture given over to empty tables. He was going to use his own friends &mdash; and his own bar &mdash; to make a portrait of being alone in a crowd. That was the picture.
+      </p>
+    </article>
+  )
+}
+
+function AbMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Studio · not café" title="The candid is a construction" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>D</DropCap>
+        egas did not paint <em>L&rsquo;Absinthe</em> in the café. This is the first thing to get straight, because the whole power of the picture is its illusion of a snatched accidental glance &mdash; as if you, the viewer, had wandered into the Nouvelle-Athènes, sat down at an empty table, and caught these two strangers in the corner without their noticing. That feeling is built. Degas built it in his studio, with two friends, over months. The &ldquo;candid&rdquo; is a construction.
+      </p>
+
+      <SectionHeader accent={accent} label="The sitters" title="Ellen Andrée and Marcellin Desboutin" />
+      <p style={proseStyle}>
+        Here is who he used. The seated figure in the painting, the woman with the lowered eyes and the glass of milky-green liquid, is the actress <strong>Ellen Andrée</strong> (1857&ndash;1925; pronounced &ldquo;El-LEN ahn-DRAY&rdquo;). In 1876 she was about nineteen, at the start of a career that would carry her through Paris theater into the 1900s. Andrée was a regular face in the Nouvelle-Athènes circle and a favorite model &mdash; she sat for <strong>Manet</strong> twice (for <em>La Prune</em>, around 1877, and <em>Chez le père Lathuille</em>, 1879) and a few years later <strong>Renoir</strong> would put her at the center of <em>Luncheon of the Boating Party</em> (1880&ndash;81), the giant Chatou river-party picture. (If you&rsquo;re working through these sections in order, you&rsquo;ll meet her again there. Same woman. Different mood entirely.) She was a working actress with a career ahead of her, not a streetwalker, not a derelict, not a fallen woman of any kind. Hold that thought; in two chapters Victorian critics will get it spectacularly wrong, and Andrée herself will have to come back, in 1921, to correct the record.
+      </p>
+      <p style={proseStyle}>
+        The bearded man beside her &mdash; in the <strong>dark, almost black jacket</strong> and the battered tall hat, with a clay pipe and a glass of pale liquid &mdash; is the printmaker <strong>Marcellin Desboutin</strong> (1823&ndash;1902; pronounced &ldquo;DAY-boo-TANN&rdquo;). Desboutin was Degas&rsquo;s older friend, an artist himself, and a familiar Nouvelle-Athènes regular. He was a serious working <strong>engraver</strong> &mdash; meaning he made prints by cutting designs into copper or metal plates and pulling impressions on paper, a respectable artistic profession in its own right. He looked the way he looked in the painting because that was actually his face: a thick beard, a worn jacket, a quietly observant air. Manet was painting him at almost exactly the same moment (<em>The Artist</em>, 1875). Desboutin was the kind of man other painters painted because he sat still and looked like himself.
+      </p>
+
+      <SectionHeader accent={accent} label="Two glasses, two drinks" title="Neither of them was drinking absinthe" />
+      <p style={proseStyle}>
+        So Degas brought his two friends into the studio. He posed Andrée first &mdash; seated, in a pale dress with a pinkish-cream jacket, and on her head <strong>a large, light-colored hat &mdash; a soft lavender-gray, broad enough to throw a shadow across her brow</strong> &mdash; hands slack in her lap, eyes lowered. He set a tall stemmed glass on the table in front of her and, for the picture&rsquo;s sake, he filled it with absinthe &mdash; the real drink, milky-pale after the louche. <strong>This is the only glass of absinthe in the painting.</strong> Beside Andrée he posed Desboutin: leaning slightly, looking off into nothing, his clay pipe in hand, and in front of him a small glass of pale liquid that is <strong>not</strong> absinthe. By long tradition and by Andrée&rsquo;s own later word, that glass holds <strong>mazagran</strong> (pronounced &ldquo;MAZZ-a-grahn&rdquo;) &mdash; a cold, sweetened black coffee, served in a tall glass, that was a standard café drink in 1870s Paris and is roughly the ancestor of an iced coffee. (The name comes from a small Algerian town, Mazagran, where French soldiers in 1840 reportedly improvised the drink because they were out of milk and out of brandy. Whether that origin is exact or a soldier-story, by Degas&rsquo;s day mazagran was just a thing you ordered when you wanted coffee but didn&rsquo;t want it hot.)
+      </p>
+      <p style={proseStyle}>
+        So here is the picture&rsquo;s first and most-violated fact: <strong>the two sitters posed for a painting about absinthe drinkers; neither of them was drinking absinthe.</strong> One is an actress with a glass of the real spirit set down for the picture; one is a serious printmaker with a cold coffee. They were portraitists. They were doing Degas a favor.
+      </p>
+
+      <SectionHeader accent={accent} label="Building the room" title="The Nouvelle-Athènes with the life drained out" />
+      <p style={proseStyle}>
+        Around them Degas built the room. He almost certainly worked from sketches done on the spot at the Nouvelle-Athènes, then assembled the setting in the studio &mdash; the marble tables, the <strong>mirrored back wall</strong> (mirrors were the standard back wall in a fashionable Paris café in this period; they doubled the room and the gaslight, and they doubled the people, an effect Degas would push later in his café-concert pictures), the warm gas-lit reflections. The folded newspaper on the empty foreground table is a real period detail &mdash; the cafés stocked papers on wooden racks for customers to read, and a folded one left on a table is the sign of someone who has come and gone. The Nouvelle-Athènes as the picture shows it is recognizable, but it has been pruned. There are no other patrons. There are no waiters. There is no conversation. It is the room with the life drained out.
+      </p>
+
+      <SectionHeader accent={accent} label="The composition" title="Two people shoved to the corner" />
+      <p style={proseStyle}>
+        And then comes the decision that makes the picture modern. Most painters, given two figures, two glasses, and a café interior, would have centered the figures. Sat them comfortably in the middle of the canvas. Treated the room as a backdrop and the people as the subject. Degas did the opposite. He <strong>shoved his two figures into the upper-right corner of the canvas</strong> and gave more than half of the picture to a <strong>zig-zag of empty marble café tables</strong> marching in from the lower left at a steep diagonal tilt. That foreground is the painting&rsquo;s largest visual fact, and it is empty. No people, no things &mdash; just tabletops, the bare canvas of a room that, in any other painter&rsquo;s hands, would have been the painter&rsquo;s job to fill.
+      </p>
+      <p style={proseStyle}>
+        This is the picture&rsquo;s argument, made not in paint but in composition. Two human beings, pushed to the corner, taking up barely a third of the picture they&rsquo;re supposed to be in. The whole rest of the canvas &mdash; empty tables, empty chairs, empty space &mdash; is what surrounds them. They are not the center of anything. They are an afterthought in their own room.
+      </p>
+      <p style={proseStyle}>
+        That is the picture Degas built. Two friends, sober, posed in the studio, surrounded by a manufactured emptiness, to make a portrait of being alone among other people. The fact that they weren&rsquo;t drinking and weren&rsquo;t strangers and weren&rsquo;t even in the café is the joke under the picture &mdash; except it isn&rsquo;t a joke. It&rsquo;s the kind of careful staging that, paradoxically, makes the picture more truthful, not less. A real snapshot of two friends in a café would show them laughing. The truth Degas wanted &mdash; modern Paris, two souls in one room not connecting &mdash; required actors. So he used actors.
+      </p>
+    </article>
+  )
+}
+
+function AbLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A still life of absence" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is small &mdash; about <strong>three feet tall by two feet three inches wide</strong>, roughly the size of a kitchen tray stood on end. It is <strong>portrait orientation</strong>, taller than it is wide, which is already a strange choice for a café scene. A wider format would have given Degas more room across the picture; the portrait orientation crowds everything vertically. That cramp is part of the feeling.
+      </p>
+      <p style={proseStyle}>
+        Now let your eye land on it. The first thing that should hit you is what is <strong>not</strong> in the picture. Almost the entire <strong>lower-left half</strong> of the canvas is given over to a pale, drained, gray-brown expanse of <strong>empty café tables</strong>. They are seen slightly from above, the way you see your own table when you&rsquo;re sitting at it, and they are arranged in a steep, irregular <strong>zig-zag</strong> that runs from the lower-left corner of the picture inward and upward &mdash; three or four marble tabletops at jagged angles, like a small staircase made of stone slabs. They are absolutely bare. On one of them &mdash; closer to the figures, partway up the zig-zag &mdash; a folded newspaper has been left behind. That&rsquo;s the only object on those tables. No drinks, no plates, no people. It is a still life of absence.
+      </p>
+      <p style={proseStyle}>
+        The diagonal does work that is hard to overstate. It pulls your eye in from the corner nearest you and shoves it, against its will, into the upper right of the picture, where it finally hits the two figures. By the time your attention arrives at them, you have already crossed a desert of empty tables to get there. You have <em>traveled</em> through emptiness to reach two people. That is the picture telling you, before you&rsquo;ve even read its title, that this is going to be a painting about isolation.
+      </p>
+
+      <SectionHeader accent={accent} label="The palette" title="A room with the color wiped off" />
+      <p style={proseStyle}>
+        Before we walk into the figures, take in the <strong>palette</strong> &mdash; because the palette is the lens you&rsquo;re going to read those figures through. The whole picture is drained: cool grays in the wall and tables, warm browns in the floor and the man&rsquo;s jacket, a dusty pink in the woman&rsquo;s jacket, a soft lavender-gray in her hat. No reds. No bright blues. No daylight &mdash; this is a gaslit interior, painted in the yellowish, low, slightly sickly light of nineteenth-century gas lamps, nothing like the daylit interiors Renoir would paint a few years later. Degas has wiped the color off the room. Stand back six feet and the whole picture looks like a wash of dust and smoke. Now, with that drained field in mind, walk into the figures &mdash; because they&rsquo;re going to be drained too, and they&rsquo;re going to be lit by that same sickly gaslight, and there&rsquo;s going to be one small note of color that pulls the eye, and you need the drained field set in your eye first or the note won&rsquo;t pull.
+      </p>
+
+      <SectionHeader accent={accent} label="Andrée" title="The stare into the middle distance" />
+      <p style={proseStyle}>
+        The two figures are pushed into the <strong>upper-right corner</strong> of the canvas &mdash; well above center, well right of center, taking up maybe a third of the picture between them. <strong>Andrée</strong> sits at the table closer to us, slightly the lower of the two. She wears a pale, almost cream-white dress with a pinkish-cream jacket over it; on her head is a <strong>large, light-colored hat &mdash; soft lavender-gray, broad enough to throw a shadow across the upper part of her face</strong> &mdash; worn slightly off-balance in the way Parisian women wore hats in this period. Her hands rest slack in her lap, not folded &mdash; slack, as if she has forgotten what to do with them. Her shoulders slump. Her eyes are <strong>lowered and slightly off to one side</strong>, looking down and away at nothing in particular. She is not looking at her drink. She is not looking at Desboutin. She is not looking at us. She is looking, as far as anyone can tell, <strong>at nothing</strong>. That blank, internal middle-distance stare is the most-discussed part of her face, and it is the part Victorians will read later as evidence of wreckage. Look at it carefully and you&rsquo;ll see that it could just as easily be exhaustion, boredom, or the small private exhaustion of being looked at by a painter for the eighteenth pose.
+      </p>
+      <p style={proseStyle}>
+        In front of her, on the table, stands a <strong>tall stemmed glass of milky-pale, slightly greenish liquid</strong>. This is the painting&rsquo;s <strong>one note of charged color</strong> &mdash; and you have to look at the canvas to feel how that works. Set against the drained gray-brown room you&rsquo;ve already taken in, that small dose of green reads loud. It is not a bright glass. It does not glow. It is muted, slightly off-white. But because everything around it is also muted and slightly off-white, the eye finds it. Then the eye reads the title. Then the eye understands what the green is. The whole picture, in a sense, is built to make you find that one glass and name it. (Compare it, if it helps, to Monet&rsquo;s <em>Impression, Sunrise</em> &mdash; same trick of restraint, where a single small note of warm color works against a drained field of gray. Degas does it cooler and sadder; Monet does it for dawn light. Same idea, different temperature.)
+      </p>
+
+      <SectionHeader accent={accent} label="Desboutin" title="The man looking off in the other direction" />
+      <p style={proseStyle}>
+        Beside Andrée, slightly behind her and to the right, sits <strong>Desboutin</strong> at the next table over. He is a denser, more solid figure than she is. He wears a <strong>dark, almost black jacket</strong> that takes up a lot of the picture&rsquo;s right side &mdash; a heavy, lived-in near-black, painted in dense strokes &mdash; and a <strong>battered tall hat</strong> pushed back on his head. His beard is thick. In his hand he holds a <strong>clay pipe</strong> (the long-stemmed white pipes of the period, cheap, smoked everywhere). His eyes are turned <strong>off to the right</strong>, out of the picture entirely &mdash; looking at something we can never see, somewhere we are not. In front of him sits a small glass of pale liquid, plainer than Andrée&rsquo;s, smaller, without the milky-green cast. This is the mazagran &mdash; the cold coffee. From the painting alone you couldn&rsquo;t prove that. You have to know the story to know which glass holds what. But the visual fact is that <strong>his glass is not her glass</strong>, and once you see that the painting stops being a uniform picture of two absinthe drinkers and becomes a picture of two people who happen to be sitting near each other with two different drinks.
+      </p>
+
+      <SectionHeader accent={accent} label="The room behind them" title="Two figures of the empty room, not in it" />
+      <p style={proseStyle}>
+        Behind them, the room. The back wall is mostly <strong>mirror</strong> &mdash; you can sense the reflected light of the gas lamps in it, blurry shapes that are the reverse of the room we&rsquo;re standing in. The wall above the figures is a warmish gray. The whole back of the picture is brushed loosely, the way you&rsquo;d lay in a background that isn&rsquo;t the subject. The figures are also brushed loosely; nothing in the picture is finished to a polish. Degas &mdash; who in his ballet pictures could draw a tutu&rsquo;s pleats with the precision of an engineer &mdash; has deliberately let the surface stay rough. The whole picture is a sketch held to the size of a finished painting.
+      </p>
+      <p style={proseStyle}>
+        Pull back one more time. The figures are isolated by composition (shoved to the corner). They are isolated by attention (both staring off into nothing, neither looking at the other). And they are isolated by the palette we started with &mdash; surrounded by, and bathed in, a flat gray-brown that doesn&rsquo;t lift them, doesn&rsquo;t celebrate them, doesn&rsquo;t even quite distinguish them from the room. They are nearly the same color as the wall they sit against. They are <em>of</em> the empty room, not in it.
+      </p>
+      <p style={proseStyle}>
+        This is the picture&rsquo;s whole quiet thesis, made visible in oil paint: that modern Paris puts two people at the same table in the same gaslight and they are still alone. The argument is not in any caption. It is in the composition, the palette, the eye-lines, and the empty tables. You read it without being told.
+      </p>
+    </article>
+  )
+}
+
+function AbShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · April 1876" title="Dans un café goes on the wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>April 1876</strong>, in Paris, <em>Dans un café</em> &mdash; that was its title then, &ldquo;In a Café,&rdquo; not yet <em>L&rsquo;Absinthe</em> &mdash; went on the wall at the <strong>Second Impressionist Exhibition</strong>. The show was at <strong>rue Le Peletier</strong>, in a rented gallery space, the second of the eight exhibitions the Impressionist group would mount between 1874 and 1886. Degas hung roughly two dozen works in that show; <em>Dans un café</em> was one of them.
+      </p>
+      <p style={proseStyle}>
+        The Paris reception was unkind, but it was not a scandal. Some critics called the two figures &ldquo;ugly and disgusting.&rdquo; A few liked the picture. Most simply moved on to the next painting on the wall. This was, after all, an exhibition of dozens of Impressionist works whose looseness and rough finish were the larger story; one more rough Degas with two slumped figures was not the day&rsquo;s headline. The painting was noticed, was criticized, was sold, and went off into private hands &mdash; specifically into the hands of a retired English military tailor named <strong>Captain Henry Hill</strong>, who hung it in his house in Brighton, where it would sit for the next sixteen years. (We&rsquo;ll come back to Hill at length in the next chapter; for now just hold the name, because he&rsquo;s the entire reason the picture survived its first decade in obscurity instead of being lost in some London resale.)
+      </p>
+      <p style={proseStyle}>
+        There, in Brighton, the picture sat. Now skip seventeen years.
+      </p>
+
+      <SectionHeader accent={accent} label="London · 1893" title="The Grafton Gallery and the renaming" />
+      <p style={proseStyle}>
+        <strong>1893.</strong> Paris is a different city. The Impressionists, who in 1876 were a band of insurgents being mocked in print, are now successful, middle-aged painters with international reputations and rising prices. Andrée is still working. Desboutin is still printmaking. The painting &mdash; sold out of Hill&rsquo;s estate at Christie&rsquo;s in February 1892, picked up by a Glasgow dealer, then sold on to another Glasgow collector &mdash; has been bouncing around the British art trade and is about to surface in London. And in London in 1893, the painting will detonate.
+      </p>
+      <p style={proseStyle}>
+        The venue is the <strong>Grafton Gallery</strong>, also written <em>Grafton Galleries</em>, on Grafton Street in central London. It was a commercial gallery &mdash; not a public museum, but a high-toned rental room where dealers mounted paying exhibitions &mdash; that ran from 1893 into the 1920s and would shortly become a major venue for showing French modernism to British audiences. (It is the same room that, in 1910, would host the show that introduced post-Impressionism to England.) In <strong>early 1893</strong>, the Glasgow dealer <strong>Arthur Kay</strong>, who had bought the Degas, lent it to a Grafton mixed exhibition of works for sale.
+      </p>
+      <p style={proseStyle}>
+        And the picture was hung &mdash; and <strong>titled, in English, <em>L&rsquo;Absinthe</em>.</strong> This is the moment the title fixes. Not in Degas&rsquo;s studio, not in 1876, not in French. In London, in 1893, in English, on the wall of the Grafton Gallery. The French title <em>Dans un café</em> &mdash; neutral, descriptive, just &ldquo;In a Café&rdquo; &mdash; was set aside, and the picture was renamed for the drink in the woman&rsquo;s hand. From that moment on, in every language and every catalogue, the painting is <em>L&rsquo;Absinthe</em>. The title that we use is a London title, and an 1893 title, and not the painter&rsquo;s.
+      </p>
+      <p style={proseStyle}>
+        The renaming was not innocent. By 1893 the temperance movement &mdash; the campaign to ban or restrict alcohol that was already running hard across Britain and the United States &mdash; had <strong>absinthe</strong> in its sights. Medical journals were reporting cases of &ldquo;absinthism,&rdquo; a supposed condition of madness and hallucination caused specifically by the wormwood. Newspapers ran scare stories. (Whether absinthe was actually more dangerous than any other 70%-alcohol spirit is a question modern chemistry has answered with a fairly firm &ldquo;no&rdquo;; in 1893 nobody had answered it yet.) By calling the picture <em>L&rsquo;Absinthe</em>, the gallery &mdash; wittingly or not &mdash; handed Victorian critics a temperance subject, fully framed. And Victorian critics took it.
+      </p>
+
+      <SectionHeader accent={accent} label="The savaging" title="A study in degradation" />
+      <p style={proseStyle}>
+        The reviews were savage. The artist and critic <strong>Walter Crane</strong> &mdash; a prominent Arts-and-Crafts figure, illustrator, and socialist, not some anonymous newsroom hack &mdash; wrote that the painting was a <strong>&ldquo;study in degradation.&rdquo;</strong> That single phrase, from a named and visible cultural figure, was the line that stuck and traveled. Others called the figures &ldquo;loathsome,&rdquo; the picture &ldquo;uncouth,&rdquo; the scene &ldquo;a warning.&rdquo; The novelist <strong>George Moore</strong>, an Anglo-Irish writer who had actually lived in Paris and known the Nouvelle-Athènes circle, weighed in on both sides &mdash; first echoing the moralizing language, then publicly recanting in print and writing that &ldquo;the picture is merely a work of art, and has nothing to do with drink or sociology.&rdquo; But the recantation came later. The first wave was the savaging.
+      </p>
+      <p style={proseStyle}>
+        What was a <strong>scandal</strong> here, exactly? Use the word plainly. A scandal in this period meant a public uproar over a moral offense &mdash; typically about sex, drink, or class &mdash; that gets fought out in newspapers and lecture halls and at dinner parties. The 1893 <em>L&rsquo;Absinthe</em> scandal was that kind of uproar: a painting that the gallery had hung as an attractive French Impressionist work was being read by London press as a piece of dirty French propaganda for vice, and the debate ran for weeks across the newspapers.
+      </p>
+      <p style={proseStyle}>
+        The two sitters had now spent seventeen years being completely ordinary people leading their own lives. They were not asked. They were not consulted. And suddenly, in London, journalists who had never met them were arguing whether they were degenerates. Andrée, who was thirty-six and a working Paris actress, was being described, in the British press, as a drunk and worse. Desboutin, who was seventy and a distinguished printmaker, was being described as a wreck.
+      </p>
+
+      <SectionHeader accent={accent} label="Andrée corrects the record" title="Same picture, different title, different scandal" />
+      <p style={proseStyle}>
+        It is at this point &mdash; though the full record of her response is <strong>Andrée&rsquo;s later interview</strong> with the critic <strong>Félix Fénéon</strong>, given in <strong>1921</strong>, forty-five years after she sat &mdash; that <strong>Andrée publicly set the record straight</strong>. The story she told is the careful one, not the dramatic one. She did not deny that she had posed. She had posed, willingly, for her friend Degas. She corrected the <strong>interpretation</strong>. Yes, the glass in front of her in the picture held absinthe &mdash; Degas put it there for the painting. No, in real life she was not an absinthe drinker. And the man beside her, Desboutin &mdash; by her telling, <strong>he was the one who actually drank</strong>, and what was in his glass in the picture wasn&rsquo;t absinthe at all but mazagran. (That last detail &mdash; Desboutin as the real drinker &mdash; is Andrée&rsquo;s own recollection in 1921, not independent corroboration; it&rsquo;s her account, kept attributed to her, not promoted to documentary fact.) The painting, in other words, had been a careful artistic construction, posed by two sober friends. The reading of it as a documentary record of two alcoholics had got every fact wrong.
+      </p>
+      <p style={proseStyle}>
+        Desboutin&rsquo;s defenders made the same case for him in 1893, while he was still alive (he would die in 1902, nine years after the London scandal): he was not a drunk, he was a respected printmaker, he had posed for his friend.
+      </p>
+      <p style={proseStyle}>
+        The whole episode is a study in what a title can do. The painting in 1876 had been called <em>Dans un café</em> and was read, mostly correctly, as a downbeat picture of two figures in a Paris bar. The painting in 1893 was called <em>L&rsquo;Absinthe</em> and was read as a temperance tract. <strong>Same picture. Same paint. Different title. Different country. Different decade. Different scandal.</strong> The picture had not moralized about anything; the moralizing arrived from outside it, attached to a noun in the title.
+      </p>
+      <p style={proseStyle}>
+        And the title stuck. It stuck because scandals are sticky, and because the renamed picture was now famous, and because once a great painting acquires a famous name in a famous fight, you can&rsquo;t really take it back. By the time the painting moved on to its next owner, two months later, it was <em>L&rsquo;Absinthe</em> everywhere, and no one was calling it <em>Dans un café</em> anymore. The London Victorians did what the Paris show in 1876 had failed to do: they made the painting unforgettable. They just had to malign it first.
+      </p>
+    </article>
+  )
+}
+
+function AbAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="From the exhibition wall to Brighton" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the painting&rsquo;s whole life as an object, the <strong>provenance</strong> &mdash; meaning the documented chain of who owned a work of art, from the painter&rsquo;s hand to wherever it sits now. <em>L&rsquo;Absinthe</em> has one of the cleaner provenances of any major Impressionist work, mostly because Degas&rsquo;s friend <strong>Marcellin Desboutin</strong> wrote letters about who was buying what.
+      </p>
+      <p style={proseStyle}>
+        <strong>1876</strong>, straight off the Impressionist exhibition wall. The painting went to <strong>Charles W. Deschamps</strong>, a young London-based French dealer who had a gallery on New Bond Street. Deschamps was one of the very first dealers anywhere to specialize in the Impressionists for an English market &mdash; a brave commercial bet in a country whose taste in 1876 ran to slick academic figure paintings and well-finished landscapes. Deschamps acquired the picture for resale.
+      </p>
+
+      <SectionHeader accent={accent} label="Captain Henry Hill" title="Not a club. A man." />
+      <p style={proseStyle}>
+        <strong>1876, almost immediately</strong>, to <strong>Captain Henry Hill</strong> of <strong>Brighton</strong> &mdash; and this is the fact the popular books most reliably get wrong, so we&rsquo;ll spell it out. Hill (1812&ndash;1882) was a private English collector. He was not a club, not a society, not a charity, not a temperance organization. He was a man. By profession he had been a military tailor in London &mdash; he made uniforms &mdash; and he had retired wealthy to Brighton, the seaside resort town on the south coast of England, where he lived in a large house and bought paintings. He was, surprisingly for an Englishman of his generation and class, an early and committed collector of Degas: by the late 1870s he had <strong>seven</strong> Degas paintings, more than any other English collector of his moment. He bought <em>L&rsquo;Absinthe</em> from Deschamps in 1876 and held it for <strong>sixteen years</strong>. (You will see <em>L&rsquo;Absinthe</em> referred to in older books as having been bought by &ldquo;a Sussex club&rdquo; or &ldquo;a Brighton club.&rdquo; Brighton is in Sussex, but it was never a club. It was Captain Hill. The &ldquo;club&rdquo; story is what happens when historians don&rsquo;t bother to look up the actual name of the actual man.) Hill even lent the picture out in 1876 to the <strong>Royal Pavilion Gallery</strong> in Brighton &mdash; its very first English showing, a quiet provincial exhibition that did not produce any scandal whatsoever, seventeen years before the London one.
+      </p>
+
+      <SectionHeader accent={accent} label="Christie's · 1892" title="Through the British trade" />
+      <p style={proseStyle}>
+        <strong>1882.</strong> Hill died. His collection went to his estate. <strong>1892.</strong> The estate sold off the Degas pictures at <strong>Christie&rsquo;s</strong> in London, on <strong>February 19, 1892</strong>, lot 209, where <em>L&rsquo;Absinthe</em> was listed under one of its early generic titles, <em>Figures at a Café</em>. (The temperance title had not landed yet &mdash; that&rsquo;s still a year away.) It went for £180, a perfectly modest sum.
+      </p>
+      <p style={proseStyle}>
+        The buyer was <strong>Alexander Reid</strong>, a Glasgow dealer who was one of the most adventurous British buyers of French modern art in that decade. (Reid had actually shared a flat in Paris a few years earlier with <strong>Vincent van Gogh</strong>, whose portrait of him survives. He&rsquo;s a more interesting figure than most provenance entries make him out to be.) Reid sold it on, in <strong>1893</strong>, to a fellow Glaswegian collector named <strong>Arthur Kay</strong>. Kay was the dealer who, almost as soon as he owned it, lent it to the <strong>Grafton Gallery</strong> in London &mdash; the lend that became the 1893 scandal. (See the previous chapter for the noise.)
+      </p>
+      <p style={proseStyle}>
+        After the scandal, the painting moved fast. Kay sold it back through the trade &mdash; first to <strong>Martin et Camentron</strong> in Paris, then back through <strong>Reid</strong> in London &mdash; and by the end of <strong>1893</strong> the painting had landed where it would stay for the next eighteen years.
+      </p>
+
+      <SectionHeader accent={accent} label="Comte Isaac de Camondo" title="A Paris banker, a bequest, a family ended" />
+      <p style={proseStyle}>
+        The buyer was <strong>Comte Isaac de Camondo</strong> (1851&ndash;1911; pronounced &ldquo;ee-ZAHK duh kah-mahn-DOH&rdquo;). Camondo was an extraordinary man &mdash; a Paris banker of Sephardic Jewish heritage whose family had originally been bankers to the Ottoman sultans in Istanbul before moving to Paris in the 1860s. He was rich, cultivated, multilingual, and one of the most discerning collectors of his generation. By the 1890s he had built one of the great private collections of Japanese art in Europe alongside a serious holding of French Impressionism (Manet, Degas, Monet, Cézanne, Renoir, Sisley) &mdash; at a moment when most of his French banking peers were buying Salon kitsch. He bought <em>L&rsquo;Absinthe</em> in 1893, while the London scandal&rsquo;s ink was still wet, and put it on the wall of his Paris townhouse.
+      </p>
+      <p style={proseStyle}>
+        The Camondo story is also, eventually, a tragedy &mdash; though <em>L&rsquo;Absinthe</em> itself is fine. Camondo died in <strong>1911</strong>, and in his will he left almost his entire art collection &mdash; including <em>L&rsquo;Absinthe</em> &mdash; to the French state, to go to the <strong>Musée du Louvre</strong>. He attached one condition: the bequest had to be displayed together, as a unit, named after him. The Louvre accepted. <strong>In 1911, <em>L&rsquo;Absinthe</em> entered the national collection of France</strong>, where it has remained ever since. (Camondo&rsquo;s son Nissim, who would have inherited the rest of the family fortune, was killed flying for France in <strong>1917</strong>; his daughter Béatrice and her family were killed at Auschwitz in <strong>1944</strong>. The family ended. The Camondo collection &mdash; and <em>L&rsquo;Absinthe</em> with it &mdash; is the family&rsquo;s surviving monument. The Musée Nissim de Camondo, in Paris, named for the son, holds the rest.)
+      </p>
+
+      <SectionHeader accent={accent} label="Louvre · Jeu de Paume · Orsay" title="The picture, finally, allowed to be itself" />
+      <p style={proseStyle}>
+        The painting&rsquo;s post-1911 movements are routine. It hung in the Louvre from 1911 until <strong>1947</strong>, when the French national Impressionist collection was moved to the <strong>Jeu de Paume</strong>, a smaller museum in the Tuileries Gardens that became, for almost forty years, the main Paris home of late-nineteenth-century French painting. <em>L&rsquo;Absinthe</em> hung there from 1947 to <strong>1986</strong>, when the Impressionist collections were moved again &mdash; this time to the newly opened <strong>Musée d&rsquo;Orsay</strong>, the great converted-railway-station museum on the Left Bank that opened in December 1986 specifically to house French nineteenth-century art. It hangs there now, on permanent view, in the Degas rooms.
+      </p>
+      <p style={proseStyle}>
+        A small grace note. The painting that Victorian London called a &ldquo;study in degradation&rdquo; in 1893 hangs today in a room in Paris where, on any given afternoon, several hundred people pass through and stand in front of it and look quietly at two figures in the corner of an empty café and feel, accurately, what Degas wanted them to feel &mdash; which is the very small, ordinary sadness of being two people at the same table not talking. The temperance frame is gone. The scandal is forgotten. The picture, finally, has been allowed to be itself again: a painting about loneliness in a modern city, posed by two friends who weren&rsquo;t drinking, in a café full of empty tables that were never really empty.
+      </p>
+    </article>
+  )
+}
+
+// Luncheon of the Boating Party (Renoir, 1880–81) — Bp… ──
+function BpChatou({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Île de Chatou · 1880" title="The Maison Fournaise" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture a long, thin island in the Seine, ten miles west of central Paris, a half-hour out by train. On its bank stands a wooden balcony, painted cheerfully, with a striped red-and-white awning running overhead. Below the balcony, the river. Tied along the bank, rowing boats &mdash; slim, varnished, the kind two friends take out on a Sunday for the afternoon. Behind the balcony, a restaurant. And on a hot Sunday in the summer of 1880, the restaurant is full of painters, models, journalists, civil servants, an Italian reporter, a banker who collects art, an actress, a baron in a bowler hat, and at one table, a girl from the country with a small dog on her lap. The painter has been a regular here for years. He is about to ask all of them to sit still for him, one at a time, on this same balcony, across the rest of this summer and into the next, until he has put every single one of them into one picture.
+      </p>
+      <p style={proseStyle}>
+        The painter is <strong>Pierre-Auguste Renoir</strong> (1841&ndash;1919), and the place is the <strong>Maison Fournaise</strong> &mdash; the &ldquo;Fournaise House,&rdquo; named for the family that ran it. The Maison Fournaise wasn&rsquo;t a caf&eacute; (somewhere to drink coffee at a small table) and it wasn&rsquo;t a tavern (somewhere to drink wine and not much else). It was something more specific and more useful: a restaurant <em>with a boat-rental business attached</em>. The owner, Alphonse Fournaise Sr., fed lunch to his customers upstairs and rented them rowing skiffs from the bank below. You came out from Paris, you had a long lunch, you rowed for an hour or two, you came back and had another drink, you got the train home before dark. That was the whole point of the place.
+      </p>
+
+      <SectionHeader accent={accent} label="The island" title="A weekend escape, newly invented" />
+      <p style={proseStyle}>
+        The island it sat on was &mdash; and still is &mdash; called the <strong>&Icirc;le de Chatou</strong> (pronounced &ldquo;EEL duh shah-TOO&rdquo;; <em>&icirc;le</em> is just French for &ldquo;island&rdquo;). Today it has a nicer marketing name, the <strong>&Icirc;le des Impressionnistes</strong> &mdash; &ldquo;Island of the Impressionists&rdquo; &mdash; for reasons that will become obvious. It sits in the Seine downstream of Paris, between the suburbs of Chatou and Rueil-Malmaison, near Bougival. In 1837 the French had laid the Paris&ndash;Saint-Germain railway through Chatou, with a station a short walk from the river. By the 1860s and 70s this had transformed the place: from a quiet riverside village into something brand-new, something cities had never really had before. A weekend escape. A day-trip suburb. The train from Paris&rsquo;s busiest western station, the <strong>Gare Saint-Lazare</strong>, dropped you on the platform inside half an hour, and you walked to the river, and the river was full of small boats and people who looked like you, dressed in their slightly-better Sunday clothes, here to spend a day not being at work.
+      </p>
+      <p style={proseStyle}>
+        This was a genuinely new thing. The middle classes of Paris, swelling through the 1870s on the back of railways and factories and the great rebuilding of the city by Baron Haussmann (the prefect who tore the medieval city down and rebuilt it with the wide boulevards we still walk today), suddenly had money, free time, and a way to get out of town. They invented the weekend as we know it &mdash; or close enough &mdash; and they spent it on the river. <em>Canotage</em>, the French called it (roughly &ldquo;boating&rdquo;; <em>canot</em> is a small rowing boat, and <em>canotage</em> is the whole subculture of rowing, picnics, and river-loafing built around it). The clothes were specific: men in <strong>straw boaters</strong> (a hard, flat-brimmed straw hat with a black ribbon, originally worn by boat crews &mdash; hence the name), sleeveless white singlets so you could row without overheating, dark trousers. Women in light summer dresses and straw hats. The whole <em>canotage</em> set had its own slang, its own pubs, its own scandalous reputation &mdash; these were not duels-and-balls aristocrats, this was a new mongrel class of artists, clerks, model-girlfriends, journalists, and minor officials, mixing across lines their parents would never have crossed.
+      </p>
+
+      <SectionHeader accent={accent} label="The ambition" title="Veronese, recast on the Seine" />
+      <p style={proseStyle}>
+        Renoir, by the summer of 1880, had been part of this world for years. He was thirty-nine. He had already painted the dance hall in Montmartre (<em>Bal du moulin de la Galette</em>, 1876, an enormous outdoor party scene with friends as sitters) and a brilliant earlier riverside picture, <em>La Grenouill&egrave;re</em> (&ldquo;the Frog Pond,&rdquo; 1869), painted on this same stretch of the Seine alongside Monet. He had been showing with the Impressionists since their first exhibition in 1874. He was friends with the Fournaise family personally &mdash; not paying them as models, but eating their food, drinking their wine, and asking favors of them as he went. And he had an ambition.
+      </p>
+      <p style={proseStyle}>
+        The ambition was a big one. Renoir had been at the Louvre staring at sixteenth-century Italian banquet pictures &mdash; particularly <strong>Paolo Veronese</strong>&rsquo;s vast, packed, color-drenched <em>Wedding at Cana</em> (1563) and <em>Feast in the House of Levi</em> (1573). Veronese (the 16th-century Venetian painter of vast crowded banquet scenes, full of dozens of figures around a long table under a parted curtain or canopy, painted at refectory scale for the dining halls of Venetian monasteries) was Renoir&rsquo;s model. Renoir wanted to do what Veronese did &mdash; a friezelike crowd of figures around a table, the full chromatic register, the whole canvas thick with life &mdash; but for <em>his</em> world. Not a biblical feast in sixteenth-century Venice. A modern lunch on a balcony over the Seine, in the present tense, with his actual friends. The striped awning would stand in for Veronese&rsquo;s curtain. The remains of the meal on the table would stand in for Veronese&rsquo;s roast birds. The boating club would stand in for the Venetian household. The wedding at Cana, recast on the &Icirc;le de Chatou, in 1880.
+      </p>
+      <p style={proseStyle}>
+        He just needed his cast. And the cast, conveniently, was already in the room.
+      </p>
+    </article>
+  )
+}
+
+function BpMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1880&ndash;1881" title="A canvas of friends, painted across a summer" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he picture Renoir set out to paint was, by his standards, enormous. The canvas measures <strong>roughly 4 ft 3 in by 5 ft 9 in</strong> (a little under four and a half feet tall, a little under six feet wide) &mdash; among the largest things he ever painted. That matters, because a canvas that size is not something you carry up to the balcony, set on an easel, and paint while your friends nibble grapes and the light slides across the table. Not really. The romantic version of this picture &mdash; fourteen friends sitting still on a balcony while Renoir captured them in one glorious summer afternoon &mdash; is, mostly, a romantic version. The real story is more interesting and a lot more work.
+      </p>
+      <p style={proseStyle}>
+        What happened was closer to this. Renoir installed himself at the Maison Fournaise across the summer and autumn of <strong>1880 and into 1881</strong> &mdash; months, not an afternoon. He set up his big canvas, probably indoors, on the balcony when the weather allowed. He blocked out the composition: where the awning would go, where the table would go, where the railings and the river behind would go, and roughly where each cluster of figures would sit. Then he started asking his friends to come out and pose for him. One at a time, or in small groups. Aline Charigot &mdash; his then-girlfriend, twenty-one, a seamstress, from the country town of Essoyes &mdash; came out and sat at the lower-left corner with a small dog she brought along. Caillebotte, the wealthy painter-sailor whose boat club this island actually <em>was</em>, came out and posed at the lower right, sitting backwards on a chair to chat with the table. Ellen Andr&eacute;e, the actress &mdash; yes, the same Ellen Andr&eacute;e who had sat for Degas&rsquo;s <em>L&rsquo;Absinthe</em> a few years earlier &mdash; came out to the center with a glass in her hand. The Fournaise children, Alphonse Jr. and Alphonsine, leaned on their own family&rsquo;s railing for him. Charles Ephrussi &mdash; a banker, a critic, and editor of the <em>Gazette des beaux-arts</em> (the leading French art magazine of the day; one of the better-informed art writers in Paris and a serious patron) &mdash; came out in a top hat for the back of the picture. Each one sat for Renoir, sometimes more than once. He painted each of them in their place. He worked the table, the awning, the railings, the wine bottles, the still life of grapes and glasses, across many sessions. Then, by spring 1881, he had it.
+      </p>
+      <p style={proseStyle}>
+        So: not a single posed lunch, but an <em>assembled</em> lunch. Fourteen people who certainly all knew this balcony, certainly all knew each other, certainly had all eaten meals exactly like this one together &mdash; but who, on the canvas you can stand in front of in Washington today, were never <em>all there at the same moment in this configuration</em>. The picture is a composite of real, lived afternoons. Which is honest about how big group paintings actually get made, and which takes nothing away from the picture &mdash; what it does is shift it from &ldquo;documentary&rdquo; to &ldquo;monument.&rdquo; Renoir was not catching a single luncheon. He was building a monument <em>to</em> the kind of luncheon he and his friends had been having on this balcony every Sunday for years.
+      </p>
+
+      <SectionHeader accent={accent} label="The palette" title="What the new tube paints made possible" />
+      <p style={proseStyle}>
+        A few things on the practical question of how. The colors he was working in were, by 1880, brand-new in painters&rsquo; hands. The chemical industry through the nineteenth century had been busy inventing &mdash; and then squeezing into portable metal tubes &mdash; pigments that simply had not existed for earlier painters: bright <strong>cobalt blue</strong>, intense <strong>vermilion</strong> (a hot scarlet-orange-red), <strong>chrome yellow</strong>, the cool synthetic ultramarines. The collapsible tin tube of pre-mixed oil paint, invented in the 1840s, meant painters could carry a full palette outdoors and work on the spot without grinding pigments in the studio first. Renoir&rsquo;s <em>Luncheon of the Boating Party</em> is one of the great showcases of what those tubes made possible: a Sunday balcony lit by high-summer sun through a striped awning, painted in the full chromatic register &mdash; cobalts in the river behind, vermilions in the awning stripes and Aline&rsquo;s hat, pale pinks in the women&rsquo;s dresses, deep saturated reds in the wine bottles on the table, warm flesh-tones that for Renoir always tipped toward peach. The picture is <em>Renoir-warm</em> &mdash; that signature peach-and-pink-and-cream palette that lights up his portraits &mdash; pushed to the scale of a salon piece.
+      </p>
+      <p style={proseStyle}>
+        He paid serious attention to the still life on the table, too &mdash; wine bottles, drained glasses, half-eaten fruit, white napkins, a pile of grapes. Renoir could paint a glass of wine the way other painters paint cathedrals: he made every transparent, half-empty bottle on that table a small jewel, the light passing through dark red into the white tablecloth below. The food and wine on the table are the painting&rsquo;s quiet announcement that <em>this is what these people have just been doing</em>. The lunch is over. They are at the lingering, post-meal, talking-and-laughing stage. The dishes haven&rsquo;t been cleared because nobody wants to leave. That whole social moment &mdash; the long, slow, end-of-meal hour on a Sunday in summer &mdash; is what the picture is fundamentally about. The fourteen people are just the cast for it.
+      </p>
+
+      <SectionHeader accent={accent} label="What it is" title="A Sunday lunch at history-painting scale" />
+      <p style={proseStyle}>
+        By the time he was finished in early 1881, he had something nobody had quite painted before: not a battle, not a feast of antiquity, not a portrait, but a modern, middle-class Sunday lunch, on the scale of a history painting, with the full chromatic intensity of new tube paints, populated by his actual friends. The man at the easel and the people at the table were the same circle. The picture and the world it depicted were continuous. The painting was, in a sense, the boating party &mdash; only slowed down and made permanent.
+      </p>
+    </article>
+  )
+}
+
+function BpLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Fourteen friends, twelve named for certain" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tep up to the canvas in Washington and the first thing the picture does is hit you with its <em>warmth</em>. Four feet three inches tall, five feet nine wide &mdash; it fills your vision at close range, the size of a small wall, and what comes off it is the heat and laughter of a Sunday afternoon in late summer. Red-and-white awning glowing over your head, sun coming through. Wine bottles on a white tablecloth. Pink dresses, pale singlets, dappled light. Someone is kissing a small dog. Someone is leaning across the railing to flirt. Someone is raising a glass. The whole canvas has the loose, charged buzz of a long lunch that has tipped past its formal end and into the laughing-and-not-leaving stage. That is the picture&rsquo;s first effect, before any name attaches to any face: it is a record of a particular kind of happiness &mdash; middle-class, riverside, late summer, friends, full chromatic blaze &mdash; at the scale of a history painting. <em>Then</em> you start to see the structure underneath.
+      </p>
+      <p style={proseStyle}>
+        The structure is clean. The painting is arranged in three loose clusters of figures &mdash; left, center, right &mdash; under that striped awning, with a long table running across the foreground and the railings and the river visible behind. The eye can move group by group. So go group by group.
+      </p>
+
+      <SectionHeader accent={accent} label="Left cluster" title="The Fournaise family, Aline, and her dog" />
+      <p style={proseStyle}>
+        In the lower-left corner sits a young woman in a dark hat, leaning down toward a small fluffy dog she is holding up and kissing on the nose. This is <strong>Aline Charigot</strong> (1859&ndash;1915) &mdash; twenty-one years old here, a seamstress from Essoyes in Champagne, Renoir&rsquo;s then-girlfriend. She would eventually become his wife, but not for <strong>nine more years</strong> &mdash; they didn&rsquo;t marry until <strong>1890</strong>, and the casual story you&rsquo;ll sometimes read that they &ldquo;married right after the painting&rdquo; is not true. They were a couple, not engaged-and-counting-down. The dog on her lap, by the way, has been variously identified as a Brussels griffon or affenpinscher type &mdash; small, scruffy, with a flat face and a serious expression. It is the only animal in the picture and it gets exactly the affection the picture has for Aline herself.
+      </p>
+      <p style={proseStyle}>
+        Standing just behind and above Aline, leaning on the balcony railing in a sleeveless white singlet and a straw boater hat, his muscular arms folded on the rail, is <strong>Alphonse Fournaise Jr.</strong> &mdash; the restaurant owner&rsquo;s son, who ran the boat-hire side of the family business. Across the rail from him, leaning forward on her hands and smiling, is <strong>Louise-Alphonsine Fournaise</strong>, his sister. They are at home here in the most literal sense; this is their family&rsquo;s restaurant. The center back of the left cluster, with his back largely to us, in a bowler hat (the round, hard-felt hat that became urban office-uniform in the late nineteenth century), is <strong>Baron Raoul Barbier</strong> &mdash; a former cavalry officer, sometimes described in the older literature as an ex-mayor of colonial Saigon. He is talking to Alphonsine across the railing. That whole left side, then, is the family-and-girlfriend cluster: Aline and her dog at the table, the Fournaise siblings at the rail, and the baron leaning into the conversation.
+      </p>
+
+      <SectionHeader accent={accent} label="Center cluster" title="Andr&eacute;e, Lestringuez, Lhote" />
+      <p style={proseStyle}>
+        Roughly in the middle of the picture, holding a glass to her face &mdash; sometimes read as raised to her ear, sometimes as raised in a toast &mdash; is <strong>Ellen Andr&eacute;e</strong> (1857&ndash;1925), an actress, friend of the Impressionists, and one of the most-painted faces in 1870s Paris. If you&rsquo;ve met her before, it&rsquo;s as the seated woman with the absinthe glass in Degas&rsquo;s <em>L&rsquo;Absinthe</em> (1875&ndash;76); she sat for half the Impressionist circle through the 1870s and 80s, and here she is again on the other side of the same group of friends, at a wine glass instead of an absinthe glass. Leaning in beside her in a dark suit is <strong>Eug&egrave;ne-Pierre Lestringuez</strong>, a friend of Renoir&rsquo;s who worked at the French Ministry of the Interior &mdash; a civil servant, not a painter, and one of those people who anchored a bohemian social circle by also having a steady salary. Leaning over her from the other side, in a bowler hat, is <strong>Paul Lhote</strong>, a writer and journalist friend of Renoir&rsquo;s. The three of them form the picture&rsquo;s chatty middle: the actress, the bureaucrat, and the journalist, leaning toward each other over the table, in the kind of conversation everybody has been having on the balcony for the last hour.
+      </p>
+
+      <SectionHeader accent={accent} label="Right cluster" title="Caillebotte, and the people behind him" />
+      <p style={proseStyle}>
+        In the lower-right corner, seated backwards on a chair &mdash; straddling it, his arms folded over the back &mdash; in a white sleeveless singlet and a straw boater, gazing across the picture toward Aline and her dog, is <strong>Gustave Caillebotte</strong> (1848&ndash;1894). Caillebotte deserves a moment. He was a serious painter himself (his <em>Floor Scrapers</em> of 1875 is one of the great paintings of Parisian labor), a serious competitive sailor (the &Icirc;le de Chatou was effectively his boat club), and the wealthiest member of the Impressionist circle &mdash; the man who bailed his friends out repeatedly by buying their canvases at decent prices when nobody else would. He paid Renoir&rsquo;s bills more than once. The fact that he sits at the corner of this picture, turned backwards in his chair, dressed as a boater rather than as a society gentleman, is Renoir&rsquo;s quiet thank-you note. (He shows up in two of these batch-B paintings, by the way &mdash; sitting here on the right of <em>Luncheon</em>, and as the buyer behind Monet&rsquo;s <em>Gare Saint-Lazare</em> &mdash; and is roughly the patron saint of this whole circle.)
+      </p>
+      <p style={proseStyle}>
+        Seated next to Caillebotte, in a black dress and dark hat, is <strong>Ang&egrave;le Legault</strong>. The honest line on Ang&egrave;le is that she is the cluster&rsquo;s documentation gap. The men around her in this corner each come down to us with a profession and a social role &mdash; Caillebotte the painter-patron-sailor, Maggiolo the Italian satirist for <em>Le Triboulet</em>, Ephrussi the banker-editor of the <em>Gazette des beaux-arts</em>. Ang&egrave;le survives mostly as a name and a face. She was one of the Parisian models who sat for the Impressionists in the late 1870s and early 1880s &mdash; Renoir painted her elsewhere too, in single-figure pictures from the same years &mdash; and the working life that bracketed those sittings (where she lived, what she did between jobs, who her people were) has not made it down through the same documentary channels that preserved the men&rsquo;s biographies. Hold that as the truth of her, not as a label: the picture preserves her as carefully as anyone else in this corner; the record around her is what is thin.
+      </p>
+      <p style={proseStyle}>
+        Leaning down to Ang&egrave;le from above is <strong>Adrien Maggiolo</strong> (sometimes given as Antonio in older sources &mdash; both forms turn up), an Italian journalist who wrote for the satirical paper <em>Le Triboulet</em>. Further back, in the rear of the cluster, in a tall <strong>top hat</strong> (the formal black silk cylinder that was still the gentleman&rsquo;s hat for a man dressing up in 1880), is <strong>Charles Ephrussi</strong> &mdash; banker, art critic, editor of the <em>Gazette des beaux-arts</em>. (Ephrussi, incidentally, is the great-great-uncle Edmund de Waal writes about in <em>The Hare with Amber Eyes</em>; the Ephrussi banking family ran in these circles.) The man in front of Ephrussi, in a soft hat, looking up at him, is traditionally identified as the poet-critic <strong>Jules Laforgue</strong>, who was Ephrussi&rsquo;s secretary &mdash; but this identification is contested by some scholars, who read the figure as another of Ephrussi&rsquo;s circle. And the woman at the right with her hands raised by her ears, as if blocking out the noise, is traditionally identified as the Com&eacute;die-Fran&ccedil;aise actress <strong>Jeanne Samary</strong> &mdash; but the placement and even the identification have been debated.
+      </p>
+      <p style={proseStyle}>
+        So the honest count is: <strong>twelve sitters firmly identified, two contested.</strong> That&rsquo;s an unusual and important thing to say out loud. For a picture this famous, you would think every face had been nailed down for a century. They haven&rsquo;t quite. Aline, the Fournaises, Barbier, Andr&eacute;e, Lestringuez, Lhote, Caillebotte, Legault, Maggiolo, and Ephrussi are documented. Laforgue and Samary are likely but not certain &mdash; flag them, don&rsquo;t fix them.
+      </p>
+
+      <SectionHeader accent={accent} label="The structure" title="Awning, railings, table, boats" />
+      <p style={proseStyle}>
+        The whole arrangement is held together by a few quiet visual decisions. The <strong>striped awning overhead</strong> runs across the entire top of the picture, red-and-white, casting the whole scene in dappled, slightly tinted light &mdash; this is the Veronese curtain. The <strong>railings</strong> at the back of the balcony, painted thinly in pale tones, give the picture its horizon line: above the rail, the Seine and a sliver of opposite bank; below it, the lunch. The <strong>table</strong> runs along the foreground, draped in a white cloth, loaded with the still life of bottles, glasses, fruit, and napkins &mdash; the painting&rsquo;s quiet evidence that this is real food and real wine and a real Sunday, not a tableau set up in a studio. And through the railings, faintly, <strong>boats on the river</strong> &mdash; two or three slim rowing skiffs, just suggested. The boats are the reason all these people are here in the first place; Renoir lets you find them in the background as if they were almost a footnote, but they are the whole reason for the balcony, the restaurant, and the picture.
+      </p>
+    </article>
+  )
+}
+
+function BpShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; March 1882" title="7th Impressionist Exhibition" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he picture was finished in early 1881, and the obvious next question was where it would be seen. The answer turned out to be the <strong>7th Impressionist Exhibition</strong>, in Paris, in <strong>March 1882</strong> &mdash; the seventh of the eight group shows the Impressionists organized between 1874 and 1886, the cooperative shows they put on themselves after years of being rejected from the official <strong>Salon</strong> (the state-sponsored annual exhibition that had been the only respectable way for a painter to be seen in Paris before this whole crowd decided to go around it).
+      </p>
+      <p style={proseStyle}>
+        By 1882 the Impressionists were not new news anymore. They had been showing together for eight years. The mockery of the early shows &mdash; the wallpaper-is-more-finished sneer that had landed on Monet&rsquo;s <em>Impression, Sunrise</em> at the 1874 debut, and given the movement its name &mdash; had largely faded. Critics were taking the group seriously, some warmly, some grudgingly. But internally the cooperative was a mess: the painters were quarreling about who could show with them, what counted as Impressionism, whether realists like Degas should be allowed to drag in their friends, whether you could show at the official Salon <em>and</em> the group show, and so on. The 7th show was put on largely under the practical direction of <strong>Paul Durand-Ruel</strong> (1831&ndash;1922) &mdash; the great Parisian dealer who had been buying the Impressionists&rsquo; work, often the only person buying it, for over a decade. He was the one who hung the show, paid for the venue, and managed the catalogue. Without Durand-Ruel there would not really have been a 7th exhibition; without Durand-Ruel there is a fair case the Impressionists would not have survived as a group at all.
+      </p>
+
+      <SectionHeader accent={accent} label="The reception" title="Three critics named it best in show" />
+      <p style={proseStyle}>
+        Renoir hung <em>Luncheon of the Boating Party</em> as the centerpiece of his contribution. And the reception, by the standards of a movement that had been a punching bag for years, was something close to a triumph. Three of the show&rsquo;s critics named it the best work in the exhibition. The picture&rsquo;s particular trick was that it was unmistakably Impressionist &mdash; loose handling, full color, modern subject, painted in front of the world &mdash; but it also had the <em>scale and the ambition</em> of a Salon machine, the kind of multi-figure group composition the official jury rewarded. It looked like a Renoir, and it also looked like a serious public statement. That combination disarmed a lot of the standard objections. It was hard to say &ldquo;these people only do sketches&rdquo; in front of a 4-by-6-foot picture with fourteen carefully observed sitters and a full still life in the foreground.
+      </p>
+      <p style={proseStyle}>
+        There was also a quieter shift inside the picture that critics noticed and that historians later argued about: the figures in <em>Luncheon</em> are more solidly modeled, more carefully drawn, more <em>constructed</em> than in Renoir&rsquo;s pure plein-air work of the 1870s. The faces have weight; the bodies have anatomy; the composition is built like a Veronese, not improvised like a sketch. By 1882 Renoir was already, quietly, drifting away from the looser end of Impressionism &mdash; he would soon make a trip to Italy and come back even more committed to drawing, to the figure, to the Renaissance tradition. <em>Luncheon of the Boating Party</em> is a picture of an Impressionist on the verge of leaving Impressionism behind, painting the kind of figure-and-banquet picture his Louvre heroes would have recognized, in his own present-tense world. Some critics in 1882 saw that already and praised it as evidence Renoir was <em>maturing</em>; others, more Impressionist-loyal, saw it as a partial retreat. Both reads have something to them. The picture sits exactly on the hinge.
+      </p>
+
+      <SectionHeader accent={accent} label="The sale" title="6,000 francs, a year before the show" />
+      <p style={proseStyle}>
+        But what mattered commercially, in March 1882, had already happened a year earlier &mdash; and quietly. <strong>Durand-Ruel had bought the picture from Renoir directly in February 1881</strong>, before it even went on display, for <strong>6,000 francs</strong>. The dealer paid the painter, took the picture into his stock, and then put it in the show. So the buzz around <em>Luncheon</em> at the 7th exhibition was buzz around a picture that was already off the market, sitting in Durand-Ruel&rsquo;s inventory. 6,000 francs in 1881 was a serious sum &mdash; about a year&rsquo;s salary for a comfortable Paris professional &mdash; and it was the price at which the picture entered the world as a commodity. Durand-Ruel would keep it in his stock from that moment, through ups and downs, near-sales, financial panics, exhibitions in Paris and New York &mdash; for the next <strong>forty-two years</strong>.
+      </p>
+      <p style={proseStyle}>
+        That&rsquo;s worth pausing on. Durand-Ruel held <em>Luncheon of the Boating Party</em> longer than most museum directors have careers. He loved the picture personally. He hung it in his own gallery, in his own home for periods, took it to America when he was trying to sell the Impressionists to New York collectors, brought it back when they didn&rsquo;t buy. Several times he came close to selling it and didn&rsquo;t, either because the offer wasn&rsquo;t enough or because he couldn&rsquo;t bear to part with it. The painter went home with his 6,000 francs in 1881; the picture itself stayed on Durand-Ruel&rsquo;s walls for four decades. Until a determined American came knocking.
+      </p>
+    </article>
+  )
+}
+
+function BpAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Washington &middot; 1923" title="Duncan Phillips&rsquo;s twelve-year pursuit" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he American was <strong>Duncan Phillips</strong> (1886&ndash;1966), and he is the reason <em>Luncheon of the Boating Party</em> is now in Washington, D.C., rather than Paris.
+      </p>
+      <p style={proseStyle}>
+        Phillips was the heir to a steel-and-glass-industry fortune in Pittsburgh, born into serious old American money. He could have done what rich Americans of his generation usually did, which was buy old-master European pictures certified by the same dealers their parents had used and hang them in a marble house. He did something different. He became, in the 1910s, one of the very first American collectors to take seriously the modern French painting his peers were still mostly suspicious of &mdash; the Impressionists, the post-Impressionists, the early modernists. And after his father and his brother both died in 1917 and 1918 within a year of each other, he and his mother decided to convert their grief into a memorial: a private art museum, in their Washington family home, dedicated to modern painting. They opened it in <strong>1921</strong> as the <strong>Phillips Memorial Gallery</strong> (today <strong>The Phillips Collection</strong> &mdash; a private collection-museum, founded by Duncan Phillips, not a city museum and not run by the federal government; it is one of the very first museums of modern art in the United States, predating MoMA in New York by eight years).
+      </p>
+      <p style={proseStyle}>
+        Phillips had a particular eye for <em>centerpieces</em>. He believed every great collection needed an anchor &mdash; one painting at the heart of it that the rest of the collection could be read against. He wanted a Renoir for his anchor. He wanted, specifically, <em>Luncheon of the Boating Party</em>. He had probably seen it in Durand-Ruel&rsquo;s New York gallery &mdash; Durand-Ruel had been quietly trying to interest Americans in his Renoirs since the 1880s &mdash; and <strong>from 1911 onward, by his own later account, he chased it</strong>. He pursued the picture for <strong>twelve years</strong>. Durand-Ruel would not let it go cheaply, partly because by the 1920s its value was finally what he had always thought it was, and partly because he didn&rsquo;t really want to sell it at all.
+      </p>
+
+      <SectionHeader accent={accent} label="The deal" title="$125,000 and a transatlantic crossing" />
+      <p style={proseStyle}>
+        The deal closed in <strong>1923</strong>. Phillips paid Durand-Ruel <strong>$125,000</strong> for <em>Luncheon of the Boating Party</em> &mdash; a vast sum at the time, far more than he had paid for any other picture in his collection, and one of the largest sums anyone had yet paid for a modern French painting. (For comparison, you could buy a substantial American house in 1923 for a few thousand dollars; $125,000 was the price of a country estate.) The arc, end to end, is worth looking at as numbers: 6,000 francs from Durand-Ruel to Renoir in 1881; $125,000 from Phillips to Durand-Ruel forty-two years later. Whatever the exchange rate did over those four decades (the franc weakened, the dollar strengthened, the First World War scrambled both), the painting&rsquo;s price had multiplied many times over &mdash; and Durand-Ruel was, finally, vindicated. The painting traveled across the Atlantic and into the Phillips&rsquo;s Washington gallery, where it has been ever since. Durand-Ruel let it go after forty-two years. Phillips, who had been chasing it for twelve, had his anchor.
+      </p>
+      <p style={proseStyle}>
+        And here is the thing &mdash; Phillips was right about the centerpiece. <em>Luncheon of the Boating Party</em> is what the Phillips Collection is now built around. The museum has acquired a great many other things in the century since, has expanded its galleries, has built a serious modern and contemporary program &mdash; but the painting at the center of the place, the one most visitors walk in to see, is still Renoir&rsquo;s Sunday lunch on the balcony. Phillips&rsquo;s gamble that one picture could anchor an entire institution turned out to be exactly correct.
+      </p>
+
+      <SectionHeader accent={accent} label="Footnotes" title="What became of the people, the place, the picture" />
+      <p style={proseStyle}>
+        A few footnotes from the afterlife.
+      </p>
+      <p style={proseStyle}>
+        <strong>Aline Charigot, the girl with the dog in the lower-left corner</strong>, did eventually marry Pierre-Auguste Renoir &mdash; but not in 1881, and not in 1882. They married in <strong>1890</strong>, nine years after the painting was finished. They had three sons. The middle son, <strong>Jean Renoir</strong>, born 1894, would grow up to become one of the great filmmakers of the twentieth century (<em>La Grande Illusion</em>, <em>The Rules of the Game</em>) and would write a tender memoir of his father in old age. The &ldquo;Aline and Renoir married right after the painting&rdquo; version of the story is one of those compressions that art-history captions love and that simply isn&rsquo;t true. Nine years is nine years.
+      </p>
+      <p style={proseStyle}>
+        <strong>The Maison Fournaise</strong>, the restaurant on the &Icirc;le de Chatou where all of this happened, still exists. Through the twentieth century the building fell into serious disrepair; by the 1970s it was in poor condition. It was restored in the <strong>1980s</strong>, and <strong>the museum on the site reopened in 1990</strong>. Today it operates as both a working restaurant and a small museum dedicated to the painters who came there. You can have lunch on the same balcony Renoir painted from. The awning is gone, the river is cleaner, the boats are different, but the structure is there. The island is now officially the &Icirc;le des Impressionnistes, and the city of Chatou has, sensibly, made the painters its tourist brand.
+      </p>
+      <p style={proseStyle}>
+        <strong>Charles Ephrussi</strong>, the banker-critic in the top hat at the back of the picture, would die in 1905. His family&rsquo;s banking dynasty would be destroyed during the Second World War, when the Nazis seized their Paris and Vienna collections; one branch of the family would survive and produce the writer who, a century later, would tell that story in <em>The Hare with Amber Eyes</em>. <strong>Caillebotte</strong> would die in 1894 at forty-five, bequeathing his vast collection of Impressionist paintings (the one he&rsquo;d been quietly building by bailing his friends out of debt for two decades) to the French state &mdash; the core of what is now the Impressionist holdings of the Mus&eacute;e d&rsquo;Orsay. <strong>Ellen Andr&eacute;e</strong> would keep acting into the early twentieth century. <strong>Aline</strong> would die in 1915, four years before Renoir. <strong>Renoir</strong> would paint, increasingly crippled by arthritis, with brushes strapped to his hands, until he died in 1919.
+      </p>
+      <p style={proseStyle}>
+        The picture outlived them all. Sit with the arc of it. A painter who had been eating lunch on a balcony over the Seine for years decided to put fourteen of his friends into one canvas &mdash; assembled across a summer and an autumn, pose by pose, in front of a striped awning that was meant to be Veronese&rsquo;s curtain. He sold it to his dealer for 6,000 francs in 1881. The dealer kept it for forty-two years. A grieving American heir chased it across the Atlantic for twelve. The painting that was, in its day, a manifesto for a brand-new kind of modern-life painting now hangs as the most-loved object in a small private museum in Washington &mdash; the same balcony, the same dog, the same wine bottles, the same actress with her glass, frozen at the long, slow, end-of-meal hour that nobody on that balcony ever wanted to leave.
+      </p>
+    </article>
+  )
+}
+
+// The Gare Saint-Lazare (Monet, 1877) — Gsl… ────────────
+function GslStation({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris &middot; 1877" title="The iron-and-glass cathedral of modern Paris" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o understand why <strong>Claude Monet (1840&ndash;1926)</strong> pointed his easel at a train station in 1877, you have to know what the <strong>Gare Saint-Lazare</strong> was &mdash; what a <em>gare</em> even is &mdash; and you have to know that for Monet, of all the painters in Paris, this particular building was personal.
+      </p>
+      <p style={proseStyle}>
+        <em>Gare</em> is just the French word for <strong>railway station</strong>. Saint-Lazare was the saint the neighborhood was named after; the station took his name from the street outside. And in 1877 it was the busiest railway station in Paris &mdash; the <strong>terminus</strong>, meaning the end-of-the-line stop, for trains running west out of the capital toward the Channel coast. The trains that pulled in and out of it every day went to <strong>Argenteuil, V&eacute;theuil, Chatou, Bougival</strong> &mdash; sleepy Seine-side suburbs an hour from Paris &mdash; and on to <strong>Le Havre</strong>, the big port on the Normandy coast where Monet grew up. Those names matter, because those were Monet&rsquo;s places. He had lived in Argenteuil. He had painted the river at Chatou. He had walked the docks at Le Havre as a boy. For a decade he had taken the train through this station, constantly, in and out, week after week. So when he picked the Gare Saint-Lazare as a subject, he wasn&rsquo;t being a tourist of modern Paris from the outside. He was painting the doorway in and out of his own life.
+      </p>
+
+      <SectionHeader accent={accent} label="The new architecture" title="Iron ribs, glass sky" />
+      <p style={proseStyle}>
+        Then there was what the building actually looked like. To get this you have to know about something that didn&rsquo;t exist a generation earlier: the <strong>iron-and-glass train shed</strong>. A <em>train shed</em> is the giant roofed hall a station throws over the tracks where the engines pull up &mdash; the room you walk into when you step off the platform and look up. Until about 1850, big roofs were built the way they&rsquo;d been built since the Romans: thick stone walls and heavy beams, with smallish windows. Then engineers figured out you could cast iron in long, thin, immensely strong shapes &mdash; beams and ribs and trusses &mdash; and slot huge sheets of plate glass between them, and suddenly you could make a roof that was mostly <em>air</em> and <em>light</em>. You could span an enormous space with what looked like a delicate metal skeleton holding up a glass sky.
+      </p>
+      <p style={proseStyle}>
+        This was the new architecture of the age. London had <strong>the Crystal Palace</strong> (1851), the giant glass exhibition hall everyone had marveled at. Paris had <strong>Les Halles</strong>, the great central food market, built in cast iron and glass through the 1850s and 60s. The <strong>Gare du Nord</strong>, the city&rsquo;s other big station, got an iron-and-glass shed in 1864. And Saint-Lazare had been rebuilt with one too, by an engineer named <strong>Eug&egrave;ne Flachat</strong>, in the early 1850s, then expanded a decade later. To stand inside the shed in 1877 was to stand inside the most contemporary building shape on the planet &mdash; a triangular hall of dark iron girders and pale dirty glass, with locomotives breathing steam underneath it. (A <em>locomotive</em> is the engine car of a train, the part that does the pulling. In 1877 they ran on coal and water; they made steam, and the steam shot up through the smokestack on top in white plumes whenever the engine was working.)
+      </p>
+
+      <SectionHeader accent={accent} label="The forbidden subject" title="Why no respectable painter would touch it" />
+      <p style={proseStyle}>
+        A respectable painter of 1877 would not have thought any of this was a serious subject. The traditional categories of painting &mdash; what the official art schools called proper subjects &mdash; were noble landscapes, religious scenes, history pictures, and elegant portraits. A coal-fired industrial machine inside a metal warehouse was a <em>picture of modern Paris</em>, which to most critics meant a picture of something embarrassing, the sort of thing you walked past on the way to something prettier. The Salon &mdash; the state&rsquo;s annual art exhibition, the official gatekeeper of careers &mdash; did not hang train stations.
+      </p>
+      <p style={proseStyle}>
+        But a small camp had been arguing for years that this was exactly the failure of official art: that it kept painting an imaginary past while the present was being built around it. The poet <strong>Charles Baudelaire</strong>, in an 1863 essay called <em>The Painter of Modern Life</em>, had laid down the program in plain words &mdash; the real job of the painter, he said, was to catch the heroism and beauty of the <em>present</em>, the actual street and traffic and weather of one&rsquo;s own time, not to keep re-staging antiquity. The painter <strong>&Eacute;douard Manet</strong> had taken him at his word and started painting the contemporary city &mdash; bars, racetracks, sidewalks. In 1873 Manet had even painted <strong>a railway scene</strong> (called, simply, <em>The Railway</em>) &mdash; a young woman seated on a Paris bench beside a railing, behind which a great white cloud of locomotive steam billowed up from a hidden train. Manet had hidden the train and shown the steam. He had handed Monet a permission slip.
+      </p>
+      <p style={proseStyle}>
+        (And the truly old precedent was older still: across the Channel, the English painter <strong>J. M. W. Turner</strong> had painted <em>Rain, Steam and Speed</em> in 1844 &mdash; a train hurtling out of misty rain over a viaduct, the locomotive itself almost dissolved into colored weather. Monet was not the first painter of railways. He never claimed to be. What he was about to do was different &mdash; and you have to know the lineage to see what was new.)
+      </p>
+      <p style={proseStyle}>
+        So here was the situation Monet was looking at in early 1877: the busiest station in Paris, the gateway in and out of his own working life, was a building made out of the newest architecture, full of the newest machinery, breathing exactly the kind of soft moving atmosphere &mdash; steam, smoke, weak light through dirty glass &mdash; that he had spent ten years learning to paint on the Seine. The match was almost too perfect. The only question was whether they&rsquo;d let him inside.
+      </p>
+    </article>
+  )
+}
+
+function GslMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="January 1877" title="Rented studio, permission to paint inside the shed" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n January 1877 Monet did two practical things, and one slightly cheeky thing, and out of those three moves came the most ambitious single project of his life so far.
+      </p>
+      <p style={proseStyle}>
+        He was thirty-six years old. He had a wife and a small child. He was broke &mdash; he was almost always broke in this period &mdash; and he had spent the previous decade painting the Seine and its suburbs from rented houses up and down the river. He had been to <strong>London</strong> during the Franco-Prussian War a few years earlier, sat out the fighting in exile, and seen Turner&rsquo;s storms and Whistler&rsquo;s foggy Thames; the lesson of London &mdash; that haze and smoke could <em>be</em> the subject &mdash; was now baked into his eye. He had been one of the painters who hung work at the first <strong>Impressionist Exhibition</strong> in 1874, where the critic Louis Leroy had reached for one of Monet&rsquo;s titles (<em>Impression, soleil levant</em>) and used it to christen the whole group as a sneer. By 1877 they were calling themselves Impressionists on purpose. They were planning a third group show for April.
+      </p>
+      <p style={proseStyle}>
+        Monet wanted a Paris subject to bring to it. Something urban, something modern, something nobody else in the group was doing. He picked the station.
+      </p>
+
+      <SectionHeader accent={accent} label="The room" title="A studio ten minutes from the platform" />
+      <p style={proseStyle}>
+        The first practical move was a room. He rented a small studio in the <strong>rue Moncey</strong>, a quiet street about ten minutes&rsquo; walk from the Gare Saint-Lazare, in a neighborhood Paris artists were starting to call the <strong>Nouvelle-Ath&egrave;nes</strong> (&ldquo;New Athens&rdquo;) &mdash; a half-joking name for the streets behind the station where the painters, writers, and musicians were colonizing the cheap apartments. The rented studio mattered for a reason that will turn out to be important: this was not a <em>plein-air</em> picture in the pure sense. <strong>Plein air</strong> (French for &ldquo;open air&rdquo;) is the practice of painting outdoors, on the spot, in front of the real light, which was the Impressionists&rsquo; signature method and Monet&rsquo;s specialty. The Gare Saint-Lazare campaign was a hybrid. Monet made his studies and started his canvases inside the station, in front of the real light and the real steam &mdash; but he carried them back to the rue Moncey to finish them. Studio finish on plein-air starts. The picture is born outside and raised indoors. (Get this straight, because there is a romantic legend that Monet painted every one of the Gare Saint-Lazare canvases from beginning to end inside the moving station for months. He didn&rsquo;t. He had a rented room ten minutes away, and he used it.)
+      </p>
+
+      <SectionHeader accent={accent} label="The permission" title="Talking his way past the front desk" />
+      <p style={proseStyle}>
+        The second practical move was permission. You cannot just walk into a working railway terminus and set up an easel in the middle of the platform &mdash; then or now. So Monet went to the management of the <strong>Compagnie des chemins de fer de l&rsquo;Ouest</strong>, the private railway company that ran Saint-Lazare, and asked. By his own account, told years later in old age and recorded by acquaintances, the director said yes. The director, in Monet&rsquo;s later telling, is sometimes named <strong>Marquet</strong> &mdash; though the name comes from Monet&rsquo;s own reminiscences rather than from railway records, where it doesn&rsquo;t always check out tidily, so treat it as Monet&rsquo;s recollection rather than a documented historical figure. What <em>is</em> solidly documented is the bare fact: Monet had formal permission to work inside the station.
+      </p>
+      <p style={proseStyle}>
+        The cheeky thing is the rest of the anecdote &mdash; and this is the part where you have to listen carefully to who is telling the story. Monet, in old age, liked to tell a colorful version: the director, charmed, supposedly cleared the platforms for him, had locomotives stoked up specifically to produce steam, and held trains so Monet could get the light he wanted. It is a delightful story. It is also, by the time we hear it, Monet at seventy-something telling friends about his glory days, and stories tend to gain bright trim across forty years. Modern scholarship treats the colorful add-ons &mdash; engines stoked on cue, trains held for the painter &mdash; as likely embellishment accreted through retelling, not as documented railway operations. The permission is real. The choreography is Monet&rsquo;s own later flourish, and the section is honest if it says so. (A useful comparison: Monet around 1900 also told stories about strapping himself to cliffs to paint in storms. The cliffs were real. The straps were probably the same kind of trim.)
+      </p>
+
+      <SectionHeader accent={accent} label="Twelve canvases" title="The campaign, and the method it invented" />
+      <p style={proseStyle}>
+        Now the work itself, which is the part that does check out. From roughly January through April 1877 &mdash; a campaign of about four months &mdash; Monet painted <strong>twelve canvases</strong> of the Gare Saint-Lazare. Twelve. From slightly different angles, at slightly different times of day, on slightly different scales. Some were tight interior views down the rails inside the shed; some looked out the open end of the shed toward the <strong>Pont de l&rsquo;Europe</strong> (the big iron bridge that crossed the rail yards just outside); some showed a train arriving head-on; some looked across the open yards from outside. The Orsay version &mdash; the one this section is about &mdash; is one of the inside-the-shed views, the most architectural of them.
+      </p>
+      <p style={proseStyle}>
+        That cluster of twelve canvases of one subject, made in one short campaign, is the second thing to keep straight, because it is structurally new in Monet&rsquo;s career. He had never done this before. He had painted many views of the Seine, but not as a deliberate <strong>series</strong> &mdash; a coordinated group of paintings of <em>the same motif</em> under varying conditions, planned and shown together as a single artistic argument. The Gare Saint-Lazare campaign of 1877 is the first time he sets out, on purpose, to do that. What he learns inside this iron-and-glass shed &mdash; the discipline of holding a single subject still in his mind while varying everything else around it &mdash; is the engine of the rest of his career. The <strong>Haystacks</strong> (1890&ndash;91), <strong>Rouen Cathedral</strong> (1892&ndash;94), <strong>Houses of Parliament</strong> (1900&ndash;01), and the great <strong>Water Lilies</strong> (from 1899 onward) are all enormous expansions of the experiment he ran here, first, in a railway shed.
+      </p>
+      <p style={proseStyle}>
+        So when Monet walked into the Gare Saint-Lazare in January 1877, he was doing several things at once: he was inventing the <em>series</em> as a working method, he was claiming the modern industrial city as serious subject matter, and he was bringing the diffused-atmosphere technique he had learned on misty water into the loudest interior in Paris. Then he carried the canvases home to the rue Moncey and worked them up to a finish that was &mdash; by the standards of the day &mdash; still half-cooked. The Salon would have hated them. The Impressionists had stopped showing at the Salon. The third Impressionist Exhibition was three months away.
+      </p>
+    </article>
+  )
+}
+
+function GslLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="Iron above, steam in the middle, two black engines below" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>S</DropCap>
+        tart with the size, because it is smaller than you think. The Orsay version of <em>La Gare Saint-Lazare</em> is <strong>roughly 2 ft 6 in by 3 ft 5 in</strong> &mdash; a medium-small canvas, the size of a generous serving tray, not a wall. Stand in front of it at the Mus&eacute;e d&rsquo;Orsay and it occupies about the spread of your arms. Everything that follows is happening inside that modest frame, in <strong>oil on canvas</strong> (paint mixed with linseed oil, the workhorse medium of European painting since the 1400s), signed by Monet at lower right, <em>Claude Monet 77</em>.
+      </p>
+      <p style={proseStyle}>
+        The picture is built in three layers, top to bottom, and the easiest way to read it is to take them in that order.
+      </p>
+
+      <SectionHeader accent={accent} label="The roof" title="A cathedral ceiling made of iron" />
+      <p style={proseStyle}>
+        <strong>Up at the top is the roof.</strong> The whole upper third of the canvas is the great <strong>iron-and-glass train-shed roof</strong> &mdash; those structural ribs and girders that gave Chapter 1 its title. Monet has painted the roof from underneath, from inside the shed looking up, so the iron beams cut diagonally across the top of the picture in a darkened V, like the inside of a tent made of metal. Through the gaps between the girders you can see the pale dirty glass of the shed ceiling, brushed in cool blue-grays &mdash; the daylight outside leaking weakly through panes that are streaked with months of coal smoke. The roof is not a small architectural label up there in the corner. It dominates the upper half of the picture, dark and structural, the way a cathedral&rsquo;s vaulted ceiling dominates the upper half of an altarpiece. The cathedral comparison is not an accident; it is the whole quiet argument of the chapter. This is Monet placing the iron-and-glass vault of modern Paris where the painters of his grandfather&rsquo;s generation would have put a Gothic stone vault &mdash; top of the frame, dignifying the space below.
+      </p>
+
+      <SectionHeader accent={accent} label="The steam" title="The painting&rsquo;s real subject" />
+      <p style={proseStyle}>
+        <strong>In the middle, filling the heart of the picture, is the steam.</strong> And the steam &mdash; let this land plainly &mdash; is the painting&rsquo;s real subject. A great soft cloud of it rises straight up the center of the canvas, billowing under the dark roof. Get close to the canvas and you can see Monet has built the cloud out of dabs of nearly white paint, pale yellow paint, washes of soft blue, and feathered edges of pale gray. The steam isn&rsquo;t a sharp shape; it is shape <em>dissolving</em>. Its top edges feather up into the iron roof and almost merge with the darkness above. Its lower edges bleed into the locomotives below. Now back up two paces from the canvas and watch what happens. At arm&rsquo;s length the separate dabs disappear &mdash; your eye stops reading &ldquo;white stroke next to blue stroke next to gray stroke&rdquo; and starts reading <em>steam</em>, a single moving body of vapor. This is the same broken-color trick Monet had been running on the Seine: lay the colors down side by side on the canvas without blending them on the palette, and let the <em>viewer&rsquo;s eye</em> do the blending at viewing distance. It is why the steam looks alive instead of like a flat painted cloud &mdash; the optical mixture at arm&rsquo;s length keeps shimmering in a way mixed-on-the-palette paint never does. Monet has done with locomotive steam exactly what he had been doing with Channel fog and Seine mist for a decade &mdash; let it be the soft moving body of the picture, the atmosphere everything else is suspended in. That central plume is what makes a painting of a train station, in his hands, look like a painting of weather.
+      </p>
+
+      <SectionHeader accent={accent} label="The engines" title="Two black silhouettes at the floor" />
+      <p style={proseStyle}>
+        <strong>Down at the bottom, on the platform floor, sit the engines.</strong> Two <strong>locomotives</strong> &mdash; two black, blocky, near-silhouette train engines &mdash; sit on parallel tracks pointing toward you. The closer engine is at the <strong>left</strong>, a darker, sharper black mass with the faint suggestion of its smokestack and boiler picked out. The farther engine is at <strong>center</strong>, slightly back from the first, fainter through the haze, its body half-erased by the rising steam it is producing. The two engines together anchor the bottom of the picture the way a heavy ground anchors the bottom of any landscape &mdash; they are the dark mass that lets the steam float. The rails run forward out of the engines toward the viewer in quick streaks of paint, drawing the eye in. And along the platform edge &mdash; quick dabs, no faces, no details &mdash; are a handful of small <strong>figures</strong>: porters and passengers and railway crew, brushstroke-sized people, the kind of marks that say &ldquo;human scale here&rdquo; without telling you anything else.
+      </p>
+
+      <SectionHeader accent={accent} label="Reading the picture whole" title="The city, the palette, and the cousins" />
+      <p style={proseStyle}>
+        A few more things to look for. <strong>Through the steam, on the right back of the picture, the city peeks through.</strong> The shed at Saint-Lazare opened out toward the Pont de l&rsquo;Europe and the Haussmann-era apartment blocks of the <strong>rue de Rome</strong>; in the upper right, beyond the cloud, you can see those buildings as pale rectangular ghosts &mdash; the tall, pale, regular facades of bourgeois Paris, hazed almost to nothing through the steam. They tell you the shed is open at the far end and the city is right there, just outside, a few hundred feet of rail away. <strong>The palette is severely limited.</strong> Almost the entire picture is grays, blacks, blue-grays, and dirty whites, with a few warmer tan strokes for the platform surface and a few warm yellow notes in the steam where it catches whatever light is reaching it. There is no red, no green, no obvious warm color. This is a deliberately restricted palette &mdash; a working port at midday-but-overcast, in a roofed building, lit through grimy glass &mdash; and Monet has trusted the palette. He hasn&rsquo;t smuggled in pretty color the scene didn&rsquo;t have.
+      </p>
+      <p style={proseStyle}>
+        (One genuinely useful comparison, before we leave the canvas. There are eleven other paintings in this series, and a few of them are easy to confuse with the Orsay one. The version at the <strong>Art Institute of Chicago</strong> is called <em>Arrival of the Normandy Train, Gare Saint-Lazare</em> &mdash; it looks down the tracks at an engine arriving <em>head-on</em> from outside, a wholly different angle. The version at the <strong>National Gallery in London</strong> shows a different view of the yards. The <strong>Marmottan</strong> in Paris has another. Of the twelve, the Orsay version is the most interior &mdash; the most a portrait of the <em>room</em>, the iron-and-glass shed itself, with the engines secondary to the architecture and the steam.)
+      </p>
+      <p style={proseStyle}>
+        Take the three layers together and the picture becomes legible as an argument. Iron-and-glass above; steam dissolving in the middle; black machinery at the base; the bourgeois city showing softly through the haze on the right. It is a vertical section through what 1877 actually was &mdash; engineering at the top, the messy working middle, industry at the floor, the modern city behind the smoke. Painted at the size of a serving tray. In about four months. With permission.
+      </p>
+    </article>
+  )
+}
+
+function GslShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="April 1877" title="Hung seven at the third Impressionist Exhibition" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>A</DropCap>
+        pril 1877, in Paris. The Impressionists were doing their third group show. By now they had a label &mdash; <em>Impressionist</em> &mdash; and they had a kind of routine: rent a space, hang the work themselves, no jury, no Salon. The third show ran from <strong>April 4 to 30, 1877</strong>, in a rented apartment at <strong>6 rue Le Peletier</strong>, near the Op&eacute;ra. It was the first of their group shows the painters were calling <em>Impressionist</em> on purpose, on the catalogue, owning the label that had started as a sneer three years earlier.
+      </p>
+      <p style={proseStyle}>
+        Eighteen artists hung work that month. The names are familiar: <strong>Monet, Renoir, Pissarro, Sisley, C&eacute;zanne, Degas, Berthe Morisot</strong>, <strong>Gustave Caillebotte</strong> (who was both painter and patron, and who is about to matter enormously to this picture), and others. Monet, just back from his four-month campaign in the railway shed, hung something nobody in the group &mdash; and almost nobody in modern French painting &mdash; had tried before. He didn&rsquo;t hang one Gare Saint-Lazare canvas. He didn&rsquo;t hang two. He hung <strong>seven of them</strong>, the largest single block of related work in the show, the first time he had ever presented his work as a deliberate series.
+      </p>
+      <p style={proseStyle}>
+        (There is a small wrinkle worth flagging plainly, because you will see it differently in different books: some popular sources say Monet hung <em>eight</em> of the Gare Saint-Lazare paintings, not seven. The catalogue of the 1877 exhibition is the authority, and the catalogue lists <strong>seven</strong>. Treat seven as the number; the eight you sometimes see is an inherited slip. This Orsay version &mdash; RF 2775 &mdash; was almost certainly one of the seven. The catalogue numbering of the series at that distance is fuzzy enough that you cannot pin every single one of the twelve to a specific 1877 wall placement with full certainty, but the inside-the-shed views are exactly the canvases Monet chose to feature, and this is one of them.)
+      </p>
+
+      <SectionHeader accent={accent} label="Seven on one wall" title="The series logic, made visible" />
+      <p style={proseStyle}>
+        Now &mdash; picture what it would have looked like, because nobody had ever hung paintings this way before. <strong>Seven canvases of the same subject, side by side, on one wall.</strong> Not seven different scenes from different trips. Seven views of <em>one</em> building, made in <em>one</em> short stretch of weeks, lit slightly differently in each &mdash; a steam plume here, a different engine there, the same iron-and-glass roof in every one, the same hazy palette throughout. The 1877 viewer was used to a wall of paintings where every picture told you to forget the one next to it and start over: a portrait, a landscape, a still life, a history piece. Monet&rsquo;s seven did the opposite. They asked you to read them as one extended argument, the way you read seven verses of a poem or seven movements of a piece of music. The subject was held still; the observation varied. This is the <strong>series logic</strong> &mdash; the working method &mdash; that would carry him through the Haystacks and the Cathedrals and the Water Lilies for the next four decades. He invented it in 1877. The third Impressionist Exhibition is where he showed it off.
+      </p>
+
+      <SectionHeader accent={accent} label="The press fight" title="Sneers, defenders, and a novelist taking notes" />
+      <p style={proseStyle}>
+        The reception was, as usual for an Impressionist show, mixed and loud. The hostile critics &mdash; and there were plenty &mdash; did what hostile critics tend to do with a new subject: they sneered at the <em>kind</em> of thing it was. A train station? Steam? Smoke? A row of identical-looking smudgy canvases of an industrial shed? One critic dismissed the whole batch as the work of a painter chasing a railway timetable instead of a serious subject. The familiar charge of <em>non-fini</em> &mdash; &ldquo;unfinished,&rdquo; the academy&rsquo;s polite way of saying &ldquo;you didn&rsquo;t bother to actually paint it&rdquo; &mdash; came down again. (The 1874 critic <strong>Louis Leroy</strong> had launched that particular knife at <em>Impression, Sunrise</em> three years earlier, and a satirical press in Paris had been wielding it against the Impressionists ever since.) The conservative line, in essence: pretty subjects exist in the world; please go find one.
+      </p>
+      <p style={proseStyle}>
+        But not every critic sneered. A growing minority saw what Monet was doing &mdash; saw the Gare Saint-Lazare canvases for what they were, which was a careful, deliberately atmospheric celebration of the new Paris. The young critic <strong>Georges Rivi&egrave;re</strong>, writing for a short-lived Impressionist-friendly paper called <em>L&rsquo;Impressionniste</em>, founded specifically to defend the third exhibition, wrote about the railway canvases with real care: Monet, he argued, had given the modern station the same dignity the old painters had given to the landscape, and had caught the actual <em>experience</em> of being inside the shed &mdash; the noise, the bustle, the great vault of iron above, the soft choking atmosphere of steam &mdash; with a precision the academic painters could not have matched even if they had tried. Rivi&egrave;re got it. So did <strong>&Eacute;mile Zola</strong>, the novelist, who had been writing about the Impressionists with patient sympathy for years and who saw, in Monet&rsquo;s choice of subject, exactly what he was about to do himself in fiction: take the working modern world &mdash; the markets, the department stores, the railways &mdash; and treat it as serious. (Zola would publish a novel set in a Saint-Lazare-style railway world, <em>La B&ecirc;te humaine</em>, twelve years later in 1890. He had seen Monet&rsquo;s railway pictures. The seeds are in there.)
+      </p>
+
+      <SectionHeader accent={accent} label="What he had, and didn&rsquo;t" title="A method, a wall, and no buyers" />
+      <p style={proseStyle}>
+        So the exhibition was a critical brawl, which is exactly what an Impressionist exhibition was <em>supposed</em> to be by 1877. The painters didn&rsquo;t care. They had what they wanted: a wall full of new work hung on their own terms, a catalogue with their own chosen titles, an audience that came through in real numbers, and a press fight that kept their name in the papers. Monet, in particular, had something nobody else in the group quite had &mdash; a single deliberately serial body of work, an argument made out of seven canvases instead of one, hung as a block. He had moved his method one important step forward.
+      </p>
+      <p style={proseStyle}>
+        What he did <em>not</em> yet have was money. Monet was, in April 1877, still broke. The railway canvases were not finding buyers at the show. The seven hung in the rue Le Peletier rooms were unsold. He had a wife and a young child, a rented studio, debts. The picture that would be in the Mus&eacute;e d&rsquo;Orsay a century and a half later was, that month, an unsold painting on a rented wall. The afterlife &mdash; the part where this canvas becomes the canonical Saint-Lazare and Monet stops being broke &mdash; starts about eleven months later, with a check from a friend.
+      </p>
+    </article>
+  )
+}
+
+function GslAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="March 1878" title="Caillebotte&rsquo;s 685 francs, then a hundred and ten years of museums" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        o follow the rest of this picture&rsquo;s story you need one plain word: <strong>provenance</strong>, which simply means the documented chain of who owned a painting from the artist&rsquo;s hand to wherever it sits now. Provenance is the paper trail. This canvas has a famously good one, and the most important name on it appears almost immediately.
+      </p>
+      <p style={proseStyle}>
+        On <strong>March 10, 1878</strong> &mdash; about eleven months after the third Impressionist Exhibition closed &mdash; Monet sold <em>La Gare Saint-Lazare</em> (this Orsay version) directly to a man named <strong>Gustave Caillebotte</strong>. The price was <strong>685 francs</strong>. To get a sense of what that meant: 685 francs in 1878 Paris was real money &mdash; roughly a few months of a working clerk&rsquo;s wages &mdash; but it was not a vast sum, and it was not what the painting was worth even at the time. Monet needed cash. Caillebotte had cash, and an eye, and a plan.
+      </p>
+      <p style={proseStyle}>
+        And the timing matters, because Monet wasn&rsquo;t the only Impressionist patron in trouble that spring. <strong>Ernest Hosched&eacute;</strong> &mdash; the department-store-magnate collector who had been one of the Impressionists&rsquo; biggest early buyers and who owned an enormous trove of their work &mdash; had gone bankrupt, and his collection was being liquidated through several forced sales across 1877 and 1878. The largest of those, the famous <strong>Hosched&eacute; bankruptcy sale at the H&ocirc;tel Drouot</strong> in Paris, came on <strong>June 5&ndash;6, 1878</strong>, three months <em>after</em> Caillebotte bought the Orsay Saint-Lazare directly from Monet. So Caillebotte&rsquo;s 685 francs in March wasn&rsquo;t a payment into the Hosched&eacute; sale itself &mdash; that came later in June &mdash; but it was an act in the same distressed market. Hosched&eacute;&rsquo;s collection was being dismantled in public, prices on Impressionist work were sinking, and Caillebotte was buying through the wreckage to keep his friends solvent. Reading the 685 francs as a sentimental favor between friends gets the picture wrong. It was a fair price in a market that had just collapsed.
+      </p>
+
+      <SectionHeader accent={accent} label="The patron" title="The man who quietly bought the canon" />
+      <p style={proseStyle}>
+        Caillebotte is one of those figures who is almost too useful to be true. He was a wealthy young Parisian, trained as a lawyer, an engineer by interest, and &mdash; crucially &mdash; a serious painter in his own right. His own pictures (<em>Paris Street; Rainy Day</em> of the same year, 1877, is the most famous) sit inside the Impressionist project, but his historical importance is bigger than his own canvases. From the early 1870s onward, Caillebotte used his inherited fortune to systematically buy his friends&rsquo; work &mdash; at moments his friends needed money &mdash; at prices that were fair to them and that nobody else in Paris was paying. He bought from Monet. He bought from Renoir. He bought from Pissarro, Sisley, Degas, C&eacute;zanne, Manet. Without him, several of the painters who are now household names would not have eaten. The Gare Saint-Lazare buy in March 1878 is one of dozens of these transactions, and one of the most consequential, because Caillebotte was not just rescuing Monet&rsquo;s rent that month. He was assembling, on purpose, what would later become the foundational collection of Impressionist painting.
+      </p>
+      <p style={proseStyle}>
+        He held <em>La Gare Saint-Lazare</em> for the next sixteen years.
+      </p>
+
+      <SectionHeader accent={accent} label="The bequest fight" title="What the French State accepted, and refused" />
+      <p style={proseStyle}>
+        Then comes the second turning point, which is a sad one. Caillebotte died young &mdash; he was forty-five &mdash; on <strong>February 21, 1894</strong>, of a sudden illness. He had written a <strong>will</strong> several years earlier with one striking provision: when he died, his entire Impressionist collection &mdash; <strong>sixty-seven paintings</strong>, including the Monet &mdash; was to go to the French State, on the condition that the State actually <em>hang it</em>, in the <strong>Mus&eacute;e du Luxembourg</strong> (the museum the French State used for contemporary art) first, and then, after a respectable interval, in the <strong>Mus&eacute;e du Louvre</strong> (which at that point was where the State kept the work of artists who had been dead long enough to be safely canonized).
+      </p>
+      <p style={proseStyle}>
+        That bequest &mdash; what specialists now call the <strong>Caillebotte bequest</strong> &mdash; triggered one of the loudest art fights in nineteenth-century France. The conservative wing of the French art establishment was horrified at the idea of the State officially recognizing the Impressionists by hanging them in a national museum; the academic faction at the <strong>Institut de France</strong> (the official body of approved artists and intellectuals) protested loudly that this would corrupt French taste. The negotiations dragged on for two and a half years. In the end, in <strong>1896</strong>, the French State accepted <strong>thirty-eight</strong> of the sixty-seven paintings &mdash; Monet&rsquo;s Saint-Lazare among them &mdash; and refused the other <strong>twenty-nine</strong>. Caillebotte&rsquo;s family offered the refused twenty-nine back to the State a decade later, in <strong>1904</strong>, and again in <strong>1908</strong>, and the State refused them both times. (Those refused canvases &mdash; including the C&eacute;zannes the French State turned down twice &mdash; drifted into private collections; some ended up in the Barnes Foundation outside Philadelphia, where they hang today. The man who tried to reject C&eacute;zanne in 1894 was on the wrong side of history; everyone today understands that.) The thirty-eight that <em>were</em> accepted in 1896 are the founding stones of what is now the Mus&eacute;e d&rsquo;Orsay&rsquo;s Impressionist collection &mdash; when you walk those galleries today, you are walking, in large part, through Caillebotte&rsquo;s friends&rsquo; work, given to the country by a man who paid for it out of his own pocket while they were alive.
+      </p>
+
+      <SectionHeader accent={accent} label="Four museums" title="Luxembourg, Louvre, Jeu de Paume, Orsay" />
+      <p style={proseStyle}>
+        So in 1896 the Orsay canvas finally entered a French public collection. Its first museum home was the <strong>Mus&eacute;e du Luxembourg</strong>, in the gardens of the same name, where it hung as part of the controversial Caillebotte room. In <strong>1929</strong>, after the traditional waiting period, it was promoted to the <strong>Mus&eacute;e du Louvre</strong>, the great central museum of the State, and hung in the Louvre&rsquo;s nineteenth-century galleries. After the Second World War, in <strong>1947</strong>, the Louvre&rsquo;s Impressionist holdings were moved out across the river to the <strong>Jeu de Paume</strong> &mdash; a small specialized museum, originally a royal tennis court, that was reconfigured to hold the Impressionist collection. <em>La Gare Saint-Lazare</em> hung at the Jeu de Paume for almost forty years, where generations of postwar visitors (and most of the great art-history books) first saw it. Then in <strong>1986</strong>, the French State opened a huge new museum on the Left Bank of the Seine &mdash; built inside a disused Beaux-Arts railway station, the <strong>Gare d&rsquo;Orsay</strong> &mdash; and consolidated all of nineteenth-century French art there. The collection of the Jeu de Paume, including this picture, moved across again. The painting was now in the <strong>Mus&eacute;e d&rsquo;Orsay</strong>, where it carries the inventory number <strong>RF 2775</strong> and where it still hangs today, on permanent display in the great Impressionist galleries.
+      </p>
+      <p style={proseStyle}>
+        There is a perfect quiet joke in that last move that you should not skate past. The Mus&eacute;e d&rsquo;Orsay is itself a converted <strong>railway station</strong>. <em>La Gare Saint-Lazare</em> hangs inside a <em>gare</em>. Monet&rsquo;s painting of an iron-and-glass train shed lives, today, inside what used to be an iron-and-glass train shed &mdash; the great vaulted hall of the Gare d&rsquo;Orsay, repurposed for art. The architect who reworked the building deliberately preserved the vaulted ceiling so that visitors could feel the shape of the old shed. So when you walk in to look at this picture, you are looking up at the same kind of architecture that is painted into the top of the canvas. The painting of the station is in the station. Nobody planned that. It just happened, because the building was the building and the museum needed the space.
+      </p>
+      <p style={proseStyle}>
+        Step back, and the arc is clear. A painter who&rsquo;d spent a decade catching mist on the Seine walked into the dirtiest, loudest building in Paris in January 1877, talked his way past the front desk, set up an easel in the shed, painted twelve canvases of the place across four months, hung seven of them as a block at his group&rsquo;s third exhibition that April, sold this one a year later for 685 francs to the friend who happened to be quietly assembling what would become the founding collection of Impressionist painting, and a hundred and ten years later watched (or would have watched) that canvas move into a museum that was itself an old railway station. The picture went from rented studio to <em>gare</em> to bequest fight to Luxembourg to Louvre to Jeu de Paume to Orsay. It never stopped being a painting of steam under iron. The world around it caught up.
+      </p>
+    </article>
+  )
+}
+
 const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
   demoiselles: {
     setting: SettingNarrative,
@@ -4457,6 +5275,10 @@ const NARRATIVES: Record<string, Record<string, NarrativeFn>> = {
   cradle: { sister: CrSister, making: CrMaking, looking: CrLooking, show: CrShow, afterlife: CrAfterlife },
   'moulin-galette': { montmartre: MgMontmartre, making: MgMaking, looking: MgLooking, show: MgShow, afterlife: MgAfterlife },
   'paris-street': { haussmann: PsHaussmann, making: PsMaking, looking: PsLooking, show: PsShow, afterlife: PsAfterlife },
+  'dance-class': { rehearsal: DcRehearsal, making: DcMaking, looking: DcLooking, show: DcShow, afterlife: DcAfterlife },
+  absinthe: { cafe: AbCafe, making: AbMaking, looking: AbLooking, show: AbShow, afterlife: AbAfterlife },
+  'boating-party': { chatou: BpChatou, making: BpMaking, looking: BpLooking, show: BpShow, afterlife: BpAfterlife },
+  'gare-saint-lazare': { station: GslStation, making: GslMaking, looking: GslLooking, show: GslShow, afterlife: GslAfterlife },
 }
 
 // ─────────────────────────────────────────────────────────────

@@ -2020,6 +2020,276 @@ export const PARIS_STREET: ArtWorkContent = {
   },
 }
 
+// ─────────────────────────────────────────────────────────────
+// Work — The Dance Class (Degas, 1874, Met). Indoor Impressionism;
+// Japonisme cropping, the caught off-balance moment.
+// ─────────────────────────────────────────────────────────────
+export const DANCE_CLASS: ArtWorkContent = {
+  id: 'dance-class',
+  name: 'The Dance Class',
+  shortName: 'The Dance Class',
+  year: 1874,
+  artist: 'Edgar Degas',
+  artistId: 'degas',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 8¾ in × 2 ft 6¼ in',
+  location: 'The Metropolitan Museum of Art, New York',
+  acquired: 'Bequest of Mrs. Harry Payne Bingham, 1986 (acc. 1987.47.1)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 4, total: 9 },
+  hook: 'A ballet class with no ballet in it — scratching, twisting, waiting, an old man with a stick — Impressionism’s most honest argument about work.',
+  heroImage: ART_IMG.degasDanceClass,
+  heroCredit: 'Degas, The Dance Class, 1874 · The Metropolitan Museum of Art, New York',
+  heroAspect: 0.92, // 76.8 × 83.2 cm → W/H ≈ 0.923 (near-square, slight portrait)
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1874', k: 'Painted' },
+    { v: '2′8¾″ × 2′6¼″', k: 'Dimensions' },
+    { v: 'Met', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'rehearsal', eyebrow: 'Paris Opéra', dateLabel: '1870s', title: 'The work, not the gala', blurb: 'A 1870s Paris Opéra rehearsal room: the ballet workforce of *petits rats* (the young dancers) and their stage mothers, the coercive economy of the wealthy *abonnés* (subscribers) — Degas painted the labour, not the show.', progress: 0.08 },
+    { id: 'making', eyebrow: 'A commission', dateLabel: '1873–74', title: 'Commissioned by Faure, painted over an earlier figure', blurb: 'The baritone Jean-Baptiste Faure commissioned it in 1873; Degas delivered it in November 1874 for 5,000 francs. X-ray shows the ballet master at right was painted OVER an earlier, unidentified dance master figure.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '83.2 × 76.8 cm', title: 'A rehearsal room caught mid-yawn', blurb: 'The tipped-up floor, the dancers scattered off-centre in unposed moments (scratching, twisting, waiting), Jules Perrot at the right leaning on his stick, the watering can on the floor, the stage mothers at the upper right by the doorway.', progress: 0.56 },
+    { id: 'show', eyebrow: '2nd Impressionist Exhibition', dateLabel: 'April 1876', title: 'Lent by Faure to the 2nd show, not the 1st', blurb: 'Faure loaned it to the 2nd Impressionist Exhibition (April 1876) — NOT the 1st (1874). Degas was the show’s organiser as well as its most uncomfortable member. His indoor Impressionism on the wall.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1898–today', title: 'Faure → Durand-Ruel → Payne → the Met', blurb: 'Faure sold it to Durand-Ruel in February 1898 (10,000 fr); Durand-Ruel resold it to the American collector Harry Payne in April 1898 (~$25,000); descended in the Payne/Bingham family until Mrs Bingham’s bequest to the Met in 1986. The Met and Orsay canvases are SEPARATE related paintings, not versions of the same picture.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1874–1898', who: 'Jean-Baptiste Faure (commissioned)', place: 'Paris', note: 'The baritone Faure — the leading French opera singer of his day — commissioned the picture from Degas in 1873 and took delivery in November 1874 for 5,000 francs; loaned to the 2nd Impressionist Exhibition (1876).', price: '5,000 fr (commission)' },
+    { year: '1898', who: 'Paul Durand-Ruel (dealer)', place: 'Paris', note: 'Faure sold it to Durand-Ruel on 19 February 1898 for 10,000 francs — a two-step sale, NOT direct artist-to-collector.', price: '10,000 fr' },
+    { year: '1898–1916', who: 'Harry Payne (American industrialist-collector)', place: 'New York', note: 'Durand-Ruel resold it to Harry Payne on 4 April 1898 for approximately $25,000 — a fast dealer’s margin and a watershed moment in the American Impressionist market.', price: '~$25,000' },
+    { year: '1916–1986', who: 'The Payne / Bingham family', place: 'New York', note: 'Descended in the family through Harry Payne to his daughter Mrs Harry Payne Bingham; held in the family collection for seven decades.', price: null },
+    { year: '1986–today', who: 'The Metropolitan Museum of Art', place: 'New York', note: 'Bequeathed by Mrs Bingham in 1986; accessioned 1987.47.1. On permanent view. The SEPARATE Musée d’Orsay version of the same subject is a related but distinct canvas, not a copy or version of this one.', price: 'bequest', museum: true },
+  ],
+  figures: [
+    { name: 'Edgar Degas', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Jules Perrot', role: 'Ballet master · in the painting', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Jean-Baptiste Faure', role: 'Baritone · commissioned the work', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Paul Durand-Ruel', role: 'Dealer · the two-step 1898 sale', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+    { name: 'Harry Payne / Mrs Bingham', role: 'American buyer · then family bequest', palette: ['#6a7250', '#3a3c28', '#14140e'] },
+  ],
+  annotations: [
+    { label: 'The legend in the corner', where: 'Right foreground, the elderly man in a brown jacket', detail: 'The white-haired man at the right, leaning his weight forward onto a long walking stick, is Jules Perrot — once one of the great male stars of European ballet, partner of Marie Taglioni, choreographer of Giselle’s ghost-act. By 1874 he was sixty-four, retired, and teaching to keep busy. He is the one figure painted with full portrait care: every other face is sketched, his is finished. (He is also a second draft: X-ray shows Degas first painted an earlier, unidentified dance master in this spot, then painted Perrot over him.)' },
+    { label: 'The unposed second', where: 'Across the middle group of dancers in pale tutus', detail: 'Don’t look for a graceful pose. Look for the opposite — the small unguarded gestures painters before Degas would have edited out. One girl has reached an arm up to scratch the back of her neck. Another is twisted around to talk to a neighbour. Another is bent forward, adjusting a slipper. Several are leaning on the dance bar, just waiting. The picture’s whole argument is sitting in those little human gestures.' },
+    { label: 'Standing on a hinge', where: 'The whole floor of the rehearsal room', detail: 'Notice how the wooden floor seems to rear up toward you, as if you were leaning over a balcony rather than seated quietly in a corner. The floor doesn’t recede politely into the back of the room; it tilts, throwing the dancers out across its surface like a tray. This off-axis, tipped-up floor is a compositional trick Degas learned from Japanese woodblock prints (ukiyo-e) flooding Paris in his decade — the deliberate cut-off and the high tilted viewpoint, borrowed on purpose.' },
+    { label: 'Sliced by the frame', where: 'Far right edge of the canvas', detail: 'Look at the very right edge. The picture slices a dancer in half: you see a sliver of tutu, a shoulder, the side of a face — and then nothing. The canvas stops in the middle of a person, as if a camera shutter caught her on her way out of frame. Painters in 1874 didn’t do this; figures were supposed to be complete inside the picture. The trick is again from Japanese prints.' },
+    { label: 'Factory-floor evidence', where: 'On the floorboards, just to the left of the central group', detail: 'That small dull-metal cylindrical object near the dancers’ feet is a watering can. It is there because the rehearsal-room floor had to be sprinkled with water before class so the dancers wouldn’t slip on the bare boards. Degas paints it with the seriousness of a Dutch still life — documentary evidence that this is a workplace. Factory floors had buckets. Rehearsal floors had watering cans.' },
+    { label: 'Posted at the threshold', where: 'Upper right of the canvas, near the doorway opening into the secondary room', detail: 'Look up to the upper right, near where the back wall opens through a doorway into a further room. In dark dresses and hats, in shadow on benches, sit several women — the stage mothers, working-class Paris parents who came with their dancing daughters to every rehearsal. They are posted by the door not because their presence kept anyone out — it didn’t; the wealthy male abonnés (subscribers) had backstage access bought into their subscription, and a mother on a bench couldn’t revoke a ticket — but because their presence let a working-class family keep up the appearance of supervision.' },
+    { label: 'A private love note to the patron', where: 'Back wall, behind the dancers, partly visible', detail: 'On the back wall, half-screened by the central column and the cluster of dancers, you can just read the printed title of an opera poster: Guillaume Tell — Rossini’s opera about the Swiss crossbow archer. This is Degas’s private courtesy to his patron Jean-Baptiste Faure, who commissioned the painting and was famous in Paris as the leading baritone in the title role.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Japanese ukiyo-e', mode: 'art' }, { label: 'Paris Opéra workforce', mode: 'civ' }, { label: 'Dutch genre interior', mode: 'art' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Toulouse-Lautrec', mode: 'art' }, { label: 'Modern photography', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — L'Absinthe (Degas, 1875–76, Orsay). Two real sitters at a café,
+// the empty foreground as the picture's argument.
+// ─────────────────────────────────────────────────────────────
+export const ABSINTHE: ArtWorkContent = {
+  id: 'absinthe',
+  name: 'L’Absinthe',
+  shortName: 'L’Absinthe',
+  year: 1876,
+  artist: 'Edgar Degas',
+  artistId: 'degas',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '3 ft 0¼ in × 2 ft 3 in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Camondo bequest, 1911 (Louvre 1911 → Musée d’Orsay 1986)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 6, total: 9 },
+  hook: 'Two real sitters who weren’t drinking, posed in a Pigalle café — and then mocked seventeen years later in London as a study in degradation.',
+  heroImage: ART_IMG.degasAbsinthe,
+  heroCredit: 'Degas, L’Absinthe (Dans un café), 1875–76 · Musée d’Orsay, Paris',
+  heroAspect: 0.74, // 92 × 68.5 cm (H × W) → W/H ≈ 0.745 portrait
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1875–76', k: 'Painted' },
+    { v: '3′0¼″ × 2′3″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'cafe', eyebrow: 'Place Pigalle', dateLabel: '1875–76', title: 'The Nouvelle-Athènes', blurb: 'The Café de la Nouvelle-Athènes on the Place Pigalle, the late-1870s Impressionist hangout (NOT the older Café Guerbois); the demi-monde; absinthe as a cheap, potent, faintly disreputable green spirit and its cultural charge.', progress: 0.08 },
+    { id: 'making', eyebrow: 'Two sitters', dateLabel: '1875–76', title: 'Two real friends who weren’t drinking', blurb: 'Degas got two friends to pose: the actress Ellen Andrée at the table (she was NOT an absinthe drinker in real life — clarified in her 1921 interview with Félix Fénéon); and the artist Marcellin Desboutin beside her (his glass holds mazagran — a cold coffee, not absinthe).', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '92 × 68.5 cm', title: 'The empty foreground is the argument', blurb: 'Two figures shoved off into the upper right; a zig-zag of empty marble café tables marching in from the lower-left foreground; the drained gray-brown palette pierced by one charged note of milky-green absinthe; Andrée’s lowered off-into-nothing stare under a broad pale lavender-grey hat; Desboutin’s dark jacket and clay pipe.', progress: 0.56 },
+    { id: 'show', eyebrow: 'Paris 1876 → London 1893', dateLabel: '1876 / 1893', title: '1876 in Paris, 1893 in London', blurb: 'Shown at the 2nd Impressionist Exhibition Paris April 1876 with little fuss. 17 YEARS later, exhibited at the Grafton Gallery, London — and Victorian critics (including Walter Crane) savaged it as a study in degradation. The London showing FIXED its English title; Andrée had to publicly clarify she wasn’t a drinker.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1876–today', title: 'From Captain Henry Hill of Brighton to the Orsay', blurb: 'Deschamps → Captain Henry Hill of Brighton (private collector, NOT a "Sussex club"; held 1876–92) → Reid → Kay → Comte Isaac de Camondo → Louvre 1911 (Camondo bequest) → Orsay 1986. On permanent view.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1876', who: 'Charles W. Deschamps (dealer)', place: 'London', note: 'Acquired soon after the painting’s Paris debut at the 2nd Impressionist Exhibition.', price: null },
+    { year: '1876–1892', who: 'Captain Henry Hill', place: 'Brighton, England', note: 'A retired English military tailor and private collector — NOT a "Sussex club" — hung the picture in his Brighton house, where it sat for sixteen years.', price: 'private sale' },
+    { year: '1892–1911', who: 'Alex Reid → Arthur Kay → Comte Isaac de Camondo', place: 'Glasgow → Edinburgh → Paris', note: 'Sold via the Glasgow dealer Alex Reid; bought by the Scottish collector Arthur Kay (who fielded the worst of the 1893 Grafton Gallery scandal); on to the Paris-based Comte Isaac de Camondo.', price: null },
+    { year: '1911–1986', who: 'Musée du Louvre', place: 'Paris', note: 'Bequeathed by Camondo on his death in 1911 — the Louvre formally inherited the picture that Victorian London had refused. On permanent view.', price: 'bequest', museum: true },
+    { year: '1986–today', who: 'Musée d’Orsay', place: 'Paris', note: 'Transferred from the Louvre to the newly opened Musée d’Orsay in 1986 (RF 1984). On permanent view.', price: null, museum: true },
+  ],
+  figures: [
+    { name: 'Edgar Degas', role: 'The painter', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Ellen Andrée', role: 'The actress; the woman in the painting', palette: ['#a87880', '#5a3a4a', '#1a0e10'] },
+    { name: 'Marcellin Desboutin', role: 'The artist; the man in the painting', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Captain Henry Hill', role: 'Brighton collector · sixteen-year owner', palette: ['#6a7280', '#3a3a48', '#10101a'] },
+    { name: 'Walter Crane', role: 'The 1893 London critic who called it degradation', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Comte Isaac de Camondo', role: 'Paris collector · bequeathed it to the Louvre', palette: ['#8a7a52', '#4a3c22', '#15110a'] },
+  ],
+  annotations: [
+    { label: 'Two people, pushed off into one corner', where: 'Upper-right portion of the canvas — well above centre, well right of centre', detail: 'Find the two figures and notice how little of the picture they take up. Together they fill maybe a third of the canvas, jammed into the upper-right corner. Most paintings of two people put them in the middle. Degas refused. By shoving them off into one corner and giving the rest of the canvas to empty tables, he made the composition itself the argument — these two are not the centre of anything.' },
+    { label: 'The one charged note of colour', where: 'On the table directly in front of the seated woman, upper right', detail: 'Look at the tall stemmed glass in front of Andrée. Its liquid is pale, slightly cloudy, faintly green — milky rather than vivid. This is absinthe after the louche, the moment when ice water has been dripped through sugar into the spirit and turned it cloudy. This small glass is the only piece of charged colour in the whole picture — everything else is drained gray and dusty brown.' },
+    { label: 'A staircase of nothing', where: 'Across the lower-left half of the canvas, marching in from the corner', detail: 'Look at the foreground tables. Notice how they zig-zag: three or four marble tabletops at jagged angles, like a small staircase of stone slabs climbing from the lower-left corner up and into the figures’ table. They are nearly bare — one of them has a folded newspaper, and that’s it. No drinks, no plates, no people. This whole big empty foreground is the picture’s largest visual fact.' },
+    { label: 'A stare into the middle distance', where: 'Andrée’s face — the seated woman in the pale dress, upper right — under the broad light hat', detail: 'Look at her eyes. They’re lowered, turned slightly to one side, fixed on nothing in particular. The broad brim of her pale lavender-gray hat throws a soft shadow across the upper part of her face, dimming the eyes further. She isn’t looking at her drink. She isn’t looking at the man beside her. She isn’t looking at us. That blank, internal middle-distance stare is the painting’s emotional centre.' },
+    { label: 'The man looking off in the other direction', where: 'Right edge of the canvas, beside and slightly behind Andrée', detail: 'Find the bearded man. He’s a denser, more solid figure than she is — a thick, dark, almost black jacket painted in heavy strokes, a battered tall hat pushed back on his head, a beard that takes over the lower half of his face. In his hand is a long-stemmed clay pipe. His eyes are turned off to the right, out of the picture entirely. He and Andrée are looking in opposite directions — two people at the same table, twice as alone.' },
+    { label: 'A room with the colour wiped off', where: 'Across the whole picture — wall, tables, floor, figures', detail: 'Stand back and look at the whole canvas as a field of colour. Cool grays in the wall and the tabletops, warm browns in the floor, a near-black in Desboutin’s jacket, a dusty pink in Andrée’s jacket, a soft lavender-gray in her hat, and that one faint milky off-green in her glass. No reds. No bright blues. No sunlight — this is gas-lit interior, painted in the yellowish low light of nineteenth-century cafés. The figures are nearly the same colour as the wall behind them.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Manet · café scene', mode: 'art' }, { label: 'Zola · L’Assommoir', mode: 'civ' }, { label: 'Demi-monde Paris', mode: 'civ' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Toulouse-Lautrec', mode: 'art' }, { label: 'Modern alienation painting', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — Luncheon of the Boating Party (Renoir, 1880–81, Phillips).
+// Friends at the Maison Fournaise on the Île de Chatou.
+// ─────────────────────────────────────────────────────────────
+export const BOATING_PARTY: ArtWorkContent = {
+  id: 'boating-party',
+  name: 'Luncheon of the Boating Party',
+  shortName: 'Luncheon of the Boating Party',
+  year: 1881,
+  artist: 'Pierre-Auguste Renoir',
+  artistId: 'renoir',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '4 ft 3¼ in × 5 ft 9¼ in',
+  location: 'The Phillips Collection, Washington DC',
+  acquired: 'Bought from Durand-Ruel by Duncan Phillips, 1923, $125,000',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 9, total: 9 },
+  hook: 'Fourteen friends at the end of a summer lunch on a Seine balcony — the warmest large picture Impressionism ever painted, assembled across a whole season.',
+  heroImage: ART_IMG.renoirBoatingParty,
+  heroCredit: 'Renoir, Luncheon of the Boating Party, 1880–81 · The Phillips Collection, Washington DC',
+  heroAspect: 1.35, // 130.2 × 175.6 cm → W/H ≈ 1.349
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1880–81', k: 'Painted' },
+    { v: '4′3¼″ × 5′9¼″', k: 'Dimensions' },
+    { v: 'Phillips', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'chatou', eyebrow: 'Île de Chatou', dateLabel: '1880', title: 'The Maison Fournaise on the Seine', blurb: 'The Île de Chatou — Île des Impressionnistes today — and the Maison Fournaise restaurant on the river, a 30-minute train ride from Paris’s Gare Saint-Lazare; the *canotage* (boating) subculture; modern middle-class leisure as subject.', progress: 0.08 },
+    { id: 'making', eyebrow: 'A canvas of friends', dateLabel: '1880–81', title: 'Assembled across a summer, sitting by sitting', blurb: 'Renoir asked his friends to pose, working at the Maison Fournaise across the summer and autumn of 1880–81. NOT one balcony lunch — pose by pose, friend by friend, built into a single warm scene at history-painting scale.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '130.2 × 175.6 cm', title: 'Fourteen friends, twelve firmly named', blurb: 'Aline Charigot kissing a little dog (lower left); Caillebotte sitting backwards in his chair (lower right); Ellen Andrée raising a glass at the centre; Charles Ephrussi the banker-critic in his top hat at the rear; the striped awning overhead; the wine-and-fruit still life across the table; boats on the Seine glimpsed through the railings.', progress: 0.56 },
+    { id: 'show', eyebrow: '7th Impressionist Exhibition', dateLabel: 'March 1882', title: 'The hit of the seventh show', blurb: 'Shown at the 7th Impressionist Exhibition, March 1882 — three critics named it best in show. Durand-Ruel had already bought it from Renoir in February 1881 for 6,000 francs and would hold it for 42 years.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1881–today', title: 'Duncan Phillips’s twelve-year pursuit', blurb: 'Held by Durand-Ruel for 42 years; Duncan Phillips chased it from 1911 onward; bought it from Durand-Ruel in 1923 for $125,000. The Phillips Collection — a private collection-museum opened in 1921 — has held it on permanent view ever since. Renoir + Aline married in 1890, NINE years later (not "right after").', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1881–1923', who: 'Galerie Paul Durand-Ruel', place: 'Paris / New York', note: 'Bought from Renoir by Durand-Ruel in February 1881 for 6,000 francs — the baseline for the picture’s eventual price climb. Held in the gallery for 42 years.', price: '6,000 fr' },
+    { year: '1911–1923', who: 'Duncan Phillips (pursuing)', place: 'Washington DC', note: 'The American collector Duncan Phillips chased the picture from 1911 onward — a twelve-year pursuit before he finally pried it loose.', price: null },
+    { year: '1923–today', who: 'The Phillips Collection', place: 'Washington DC', note: 'Bought from Durand-Ruel in 1923 for $125,000 (then a famous price). Hung in the Phillips — a private collection-museum opened in 1921 — on permanent view ever since. Aline Charigot, the woman with the dog, eventually married Renoir in 1890 (NINE years after this picture, not "right after"); they had three sons, including the filmmaker Jean Renoir.', price: '$125,000', museum: true },
+  ],
+  figures: [
+    { name: 'Pierre-Auguste Renoir', role: 'The painter', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'] },
+    { name: 'Aline Charigot', role: 'Renoir’s then-girlfriend; future wife (m. 1890)', palette: ['#a87880', '#5a3a4a', '#1a0e10'] },
+    { name: 'Gustave Caillebotte', role: 'Painter / patron · seated backwards', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Ellen Andrée', role: 'Actress · raised glass at centre (same model as L’Absinthe)', palette: ['#9a8090', '#4a3a44', '#160e12'] },
+    { name: 'Charles Ephrussi', role: 'Banker-critic · in top hat, rear', palette: ['#6a6a5a', '#3a3a2e', '#0e0e08'] },
+    { name: 'Alphonse Fournaise Jr', role: 'Restaurant owner’s son · leaning on the rail', palette: ['#7a6a4a', '#3a3020', '#100c08'] },
+    { name: 'Duncan Phillips', role: 'The American collector who pursued it 12 years', palette: ['#6a7280', '#3a3a48', '#10101a'] },
+  ],
+  annotations: [
+    { label: 'The girl with the dog', where: 'Lower-left, at the table', detail: 'A young woman in a dark hat — Aline Charigot, twenty-one years old, Renoir’s then-girlfriend — leans down toward a small fluffy dog she is holding up at her chin and kissing on the nose. The dog (a Brussels griffon / affenpinscher type) is the only animal in the picture, and it is getting the picture’s most undivided affection. She wouldn’t marry Renoir for another nine years; she’s a girlfriend here, not a fiancée.' },
+    { label: 'The patron in the corner', where: 'Lower-right, seated at the table', detail: 'A muscular man in a white sleeveless singlet and a straw boater hat, straddling a chair backwards with his arms folded over the back, gazes across the picture toward Aline. This is Gustave Caillebotte — a serious painter himself, a competitive sailor, and the wealthy friend who bailed out his fellow Impressionists by buying their work when nobody else would. Renoir putting him in the foreground in boating dress, posed informally on a turned-around chair, is a quiet thank-you.' },
+    { label: 'The actress in the centre', where: 'Centre of the picture, at the table', detail: 'A woman in a pale dress holds a tall glass up to her face — sometimes read as raised to her ear, sometimes as raised in a toast. This is Ellen Andrée, an actress who sat for half the Impressionist circle through the 1870s and 80s. If she looks familiar, that’s because she’s the same model who appears in Degas’s L’Absinthe (1875–76); the picture’s Ellen Andrée and this one’s are the same woman on either side of the same circle of friends.' },
+    { label: 'The banker-critic at the back', where: 'Right side, rear of the picture', detail: 'Look for the one top hat in the painting — the formal black silk cylinder a man wore when dressing up — at the right rear. That’s Charles Ephrussi, a banker, an art critic, and the editor of the leading French art magazine of the day, the Gazette des beaux-arts. He’s overdressed for a lunch on a balcony, and that’s the point: he’s a city gentleman who has come out to slum it on the river with the painters.' },
+    { label: 'Veronese’s curtain', where: 'Across the top of the picture', detail: 'The whole top of the canvas is filled by a red-and-white striped awning — the cloth canopy stretched over the balcony to shade the table from the high summer sun. It does a lot of work. It casts dappled, slightly tinted light over everybody underneath. It locks the group into a single shared space. And it is Renoir’s deliberate nod to the parted curtains overhead in Paolo Veronese’s huge sixteenth-century banquet paintings — the Renaissance machinery dragged into a modern Sunday lunch on the Seine.' },
+    { label: 'The lunch is over, nobody’s leaving', where: 'Foreground, along the table', detail: 'Look along the white tablecloth at the bottom: half-empty wine bottles, drained glasses, grapes spilled across a napkin, the remains of fruit. Renoir paints every transparent bottle as a small jewel — the light passing through the dark red into the white cloth below. The whole still life is the picture’s quiet announcement that lunch is already finished; the cast is in the lingering, end-of-meal, talking-and-laughing stage. The dishes haven’t been cleared because nobody wants to leave.' },
+    { label: 'The actual reason everyone is here', where: 'Background, between the figures, just above the railings', detail: 'Look through the gaps between the people at the back, just above the painted railings: faint shapes of slim rowing skiffs on the river. Two or three are suggested, no more. They’re easy to miss, and that’s almost the joke — those boats are the reason for the Maison Fournaise, for the balcony, for the train out from Paris, for the canotage subculture, and for all fourteen of these people being on this balcony at all.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Veronese · banquets', mode: 'art' }, { label: 'Île de Chatou', mode: 'civ' }, { label: 'Modern leisure', mode: 'civ' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Late Renoir', mode: 'art' }, { label: 'Modern crowd painting', mode: 'art' } ],
+  },
+}
+
+// ─────────────────────────────────────────────────────────────
+// Work — The Gare Saint-Lazare (Monet, 1877, Orsay). The iron-and-glass
+// cathedral of modern Paris; steam, smoke, the industrial subject.
+// ─────────────────────────────────────────────────────────────
+export const GARE_SAINT_LAZARE: ArtWorkContent = {
+  id: 'gare-saint-lazare',
+  name: 'The Gare Saint-Lazare',
+  shortName: 'The Gare Saint-Lazare',
+  year: 1877,
+  artist: 'Claude Monet',
+  artistId: 'monet',
+  movement: 'Impressionism',
+  movementId: 'imp',
+  era: 'Modern',
+  eraId: 'mod',
+  medium: 'Oil on canvas',
+  dimensions: '2 ft 5½ in × 3 ft 5⅜ in',
+  location: 'Musée d’Orsay, Paris',
+  acquired: 'Caillebotte bequest, 1894/1896 (Luxembourg → Louvre 1929 → Jeu de Paume 1947 → Musée d’Orsay 1986)',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Works of Impressionism', index: 7, total: 9 },
+  hook: 'Monet pointed his easel at a train station and decided the steam — the soft moving body of weather under the iron — was the painting.',
+  heroImage: ART_IMG.monetGareSaintLazare,
+  heroCredit: 'Monet, La Gare Saint-Lazare, 1877 · Musée d’Orsay, Paris',
+  heroAspect: 1.4, // 75 × 105 cm (H × W) → W/H = 1.4
+  heroFit: 'contain',
+  rights: 'pd-us',
+  stats: [
+    { v: '1877', k: 'Painted' },
+    { v: '2′5½″ × 3′5⅜″', k: 'Dimensions' },
+    { v: 'Orsay', k: 'Now at' },
+  ],
+  sections: [
+    { id: 'station', eyebrow: 'Paris · 1877', dateLabel: '1877', title: 'The iron-and-glass cathedral of modern Paris', blurb: 'Claude Monet (1840–1926) pointed his easel at the Gare Saint-Lazare — by then Paris’s busiest station, the gateway to the Seine resorts Monet had painted for a decade. The iron-and-glass train shed roof, the steam, the coal — the new industrial architecture as fit subject.', progress: 0.08 },
+    { id: 'making', eyebrow: 'Rented studio, formal permission', dateLabel: 'Jan–April 1877', title: 'Permission to paint inside the shed', blurb: 'Early 1877 Monet rented a Paris studio nearby and got formal permission to set up his easel inside the train shed itself. The 1877 series ran to about 12 canvases (Fogg, NGL, Orsay, Art Institute Chicago, Pola Museum…). The colourful "trains stoked / platforms cleared" anecdotes are Monet’s later reminiscences, not flat fact.', progress: 0.32 },
+    { id: 'looking', eyebrow: 'The canvas', dateLabel: '75 × 105 cm', title: 'Steam as the subject, the rest as setting', blurb: 'The dark iron-girder roof overhead, two black locomotives on the tracks (left and centre), a great soft central plume of steam fusing into the dark vault, Haussmannian apartment buildings hazed at the upper right, small porter/passenger figures along the platform — and a broken-color steam plume that dissolves only at arm’s length.', progress: 0.56 },
+    { id: 'show', eyebrow: '3rd Impressionist Exhibition', dateLabel: 'April 1877', title: 'Seven of the series on one wall', blurb: 'Monet hung seven canvases from the Gare series at the 3rd Impressionist Exhibition (NOT all twelve). This Orsay version was almost certainly among them. Reception split — some critics saw a hopeful celebration of modernity, others sneered.', progress: 0.8 },
+    { id: 'afterlife', eyebrow: 'After', dateLabel: '1878–today', title: 'Caillebotte buys it for 685 francs', blurb: 'Caillebotte bought it from Monet on 10 March 1878 for 685 francs — an act in a distressed market (Hoschedé’s collection was being liquidated through several sales that spring, with the main bankruptcy auction at Hôtel Drouot 5–6 June 1878). Then via Caillebotte’s 1894 will and the 1896 bequest negotiation: France accepted 38 of 67 works (the rejected 29 offered back in 1904 and 1908 and refused both times). To the Luxembourg 1896, Louvre 1929, Jeu de Paume 1947, Musée d’Orsay 1986. RF 2775. On permanent view.', progress: 0.96 },
+  ],
+  provenance: [
+    { year: '1877–1878', who: 'Claude Monet (the artist)', place: 'Paris', note: 'Painted in early 1877 from inside the shed, with formal permission, then finished in his nearby rented studio. Shown at the 3rd Impressionist Exhibition, April 1877, as one of seven Gare Saint-Lazare canvases on the wall.', price: null },
+    { year: '1878–1894', who: 'Gustave Caillebotte', place: 'Paris', note: 'Bought from Monet on 10 March 1878 for 685 francs, a few months before Ernest Hoschedé’s catastrophic bankruptcy auction on 5–6 June 1878 sent Impressionist prices into freefall. Held by Caillebotte for the rest of his life.', price: '685 fr' },
+    { year: '1894–1896', who: 'The French State (in negotiation)', place: 'Paris', note: 'Caillebotte’s will left 67 Impressionist paintings to France; after a two-year wrangle the Académie des Beaux-Arts accepted only 38 of them in 1896 (the rejected 29 were offered back to the family in 1904 and 1908 and refused both times). This canvas was among the 38 accepted.', price: null },
+    { year: '1896–today', who: 'Musée du Luxembourg → Musée du Louvre → Musée du Jeu de Paume → Musée d’Orsay', place: 'Paris', note: 'Unveiled in the Caillebotte room at the Musée du Luxembourg, February 1897 — the first time the Impressionists hung in a French public museum. Louvre 1929; Jeu de Paume 1947; Musée d’Orsay 1986 (RF 2775). On permanent view.', price: 'gift to the nation', museum: true },
+  ],
+  figures: [
+    { name: 'Claude Monet', role: 'The painter', palette: ['#3a6a8a', '#c8c050', '#1c2a30'] },
+    { name: 'Gustave Caillebotte', role: 'Bought it for 685 fr; bequeathed it to France', palette: ['#5a6a72', '#2e3a42', '#0e1014'] },
+    { name: 'Ernest Hoschedé', role: 'Bankrupt 1878; Monet later moved in with his widow', palette: ['#6a5a4a', '#332820', '#0e0a06'] },
+    { name: 'Baron Haussmann', role: 'Built the boulevards beyond the shed', palette: ['#7a6a52', '#3a3020', '#100c08'] },
+    { name: 'Jean-Léon Gérôme', role: 'Academic painter; led the 1894 bequest objection', palette: ['#6a6a5a', '#3a3a2e', '#0e0e08'] },
+  ],
+  annotations: [
+    { label: 'The dark vault of girders', where: 'The entire upper third of the canvas, top edge inward', detail: 'Look up. The dark beams cutting diagonally across the top of the picture are the iron girders of the train shed’s roof — the structural ribs of a great cast-iron skeleton holding up panes of dirty glass. The blue-grays you see between the girders are weak daylight leaking through the smoke-streaked glass. Monet painted the roof from underneath, from inside the shed, so this whole upper band is a kind of metal cathedral ceiling — the cathedral of modern Paris is iron, not stone.' },
+    { label: 'Two engines, left and centre', where: 'The lower middle of the picture, on the platform floor', detail: 'Two locomotives — the engine cars of the trains — sit on parallel tracks pointing roughly toward you. The closer one is on the left, a darker, sharper black mass with the faint suggestion of a smokestack and boiler. The farther one is just to the right of it, set back, fainter through the haze, its body half-erased by the steam it’s producing. They aren’t drawn in detail — no rivets, no nameplates — they’re solid silhouettes, more like dark blocks than rendered machines.' },
+    { label: 'The painting’s real subject', where: 'The centre of the canvas, rising from the engines up toward the roof', detail: 'A great soft cloud of steam fills the heart of the picture, rising from the locomotives below and billowing up under the iron roof. Get close and you can see Monet has built it out of dabs of nearly white paint, pale yellow, soft blue, and feathered gray edges. Now back up two paces. The separate dabs vanish; the dabs of white and blue and gray fuse in your eye into a single moving body of vapor. That arm’s-length blending is the broken-color trick — colors laid down side by side on the canvas, mixed by the viewer’s eye at viewing distance, not by Monet on the palette.' },
+    { label: 'The city beyond the shed', where: 'Upper right, beyond the steam', detail: 'Look to the right side of the cloud, toward the upper right of the canvas, and you can just make out pale rectangular shapes — the Haussmannian apartment buildings of the rue de Rome, the bourgeois Paris streets right outside the open end of the shed. They are hazed almost to ghosts here, half-erased by the steam, but they’re there. They tell you the shed is open at the far end and the city is right outside — the painting is not a sealed interior, it’s a room facing out.' },
+    { label: 'Porters and passengers in dabs', where: 'Low in the picture, at the platform edge near the engines', detail: 'Along the platform near the engines you can find a handful of small figures — porters, passengers, railway crew — picked out in quick brushstroke-sized dabs. They have no faces; they barely have shoulders. Monet has given them just enough mark to register as human scale, so you can tell how big the engines and the shed are.' },
+    { label: 'Where the shed ends and the daylight begins', where: 'The contrast between the dark upper interior and the pale far-right back', detail: 'Trace your eye from the dark iron roof at the upper left across to the pale, hazed apartments at the upper right, and you can feel where the shed ends. Under the roof on the left it is dark — the vault of iron and dirty glass keeps the light low. Out at the far end, where the shed opens onto the rail yard and the city, the light brightens. That contrast — dim interior against bright opening — is the architectural logic of any cathedral-scaled hall: dark vault, light beyond the doors.' },
+  ],
+  lineage: {
+    parents: [ { label: 'Turner · Rain Steam Speed', mode: 'art' }, { label: 'Manet · railway', mode: 'art' }, { label: 'Haussmann’s Paris', mode: 'civ' } ],
+    children: [ { label: 'Impressionism', mode: 'art' }, { label: 'Monet’s serial light', mode: 'art' }, { label: 'Modern industrial painting', mode: 'art' } ],
+  },
+}
+
 // ─────────────────────────────────────────────────────────────────────────
 // The Stone Breakers (Courbet, 1849) — ArtWorkContent
 // Drafted by the AUTHOR agent in the gated art pipeline. Same field shape as
@@ -2620,5 +2890,5 @@ export const HORSE_FAIR: ArtWorkContent = {
 
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
 export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, cubism: CUBISM }
-export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET }
+export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR, 'impression-sunrise': IMPRESSION_SUNRISE, grenouillere: GRENOUILLERE, cradle: CRADLE, 'moulin-galette': MOULIN_GALETTE, 'paris-street': PARIS_STREET, 'dance-class': DANCE_CLASS, absinthe: ABSINTHE, 'boating-party': BOATING_PARTY, 'gare-saint-lazare': GARE_SAINT_LAZARE }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

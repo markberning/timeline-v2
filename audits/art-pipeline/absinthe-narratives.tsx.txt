@@ -1,0 +1,234 @@
+// ─────────────────────────────────────────────────────────────
+// L'Absinthe (Degas, 1875–76) — the five chapters
+// ─────────────────────────────────────────────────────────────
+function AbCafe({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Place Pigalle · 1875" title="The most important room in modern painting" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>W</DropCap>
+        alk up to the <strong>Place Pigalle</strong> in Paris in <strong>1875</strong>. The square sits at the foot of <strong>Montmartre</strong> (pronounced &ldquo;mon-MART-ruh&rdquo;), the steep hill on the city&rsquo;s northern edge that was, then as now, where painters and poets and people who didn&rsquo;t have proper jobs tended to live because the rents were cheap and the wine was cheaper. On the corner of the square, with windows onto the street, sits a café. Its name is the <strong>Café de la Nouvelle-Athènes</strong> &mdash; French for &ldquo;the New Athens,&rdquo; a grand classical name slapped onto a smoky room with marble tables and gas lamps and a back wall lined with mirrors. By 1875 this is the most important room in modern painting in France, and almost nobody outside it knows that yet.
+      </p>
+      <p style={proseStyle}>
+        To understand why, you need to know what it replaced. For years the loose group of young painters now called the Impressionists &mdash; <strong>Édouard Manet, Edgar Degas, Pierre-Auguste Renoir, Camille Pissarro</strong>, the rest &mdash; had drunk and argued at a different café, the <strong>Café Guerbois</strong>, over on the <strong>rue des Batignolles</strong> in another quarter. (Reader, file this fact away, because the next time you see a popular history place <em>L&rsquo;Absinthe</em> in the Guerbois, you&rsquo;ll know it&rsquo;s wrong. The Guerbois was the old hangout. The Nouvelle-Athènes is the new one.) Around 1875 they migrated, more or less en masse, to the Nouvelle-Athènes, and the painters brought the writers with them &mdash; the critic <strong>Edmond Duranty</strong>, who in 1876 would publish a little pamphlet, <em>La Nouvelle Peinture</em> (&ldquo;The New Painting&rdquo;), arguing that art&rsquo;s job was to look at the unsentimental modern present; the young novelist <strong>Émile Zola</strong>, sharpening the same argument in fiction. The painters, on the same migration, were doing it in oil paint.
+      </p>
+      <p style={proseStyle}>
+        So a café, in this period and this city, is not just a café. It is an office, a salon, and a public living room rolled into one. A working painter who can&rsquo;t afford studio heat (and most of them couldn&rsquo;t) can sit at a marble-top table for hours over a single drink, arguing with other painters about what art ought to be. Degas, who was forty-one and prickly and rich enough that he didn&rsquo;t have to be there for the cheap rent, was nonetheless there constantly. He was the café&rsquo;s most acid wit and one of its most committed observers. The picture we&rsquo;re about to look at is essentially him taking notes on his own bar.
+      </p>
+
+      <SectionHeader accent={accent} label="The drink in the title" title="A green Tuesday-night drink, not yet the green poison" />
+      <p style={proseStyle}>
+        Now to the drink in the title. <strong>Absinthe</strong> (pronounced &ldquo;AB-sinth&rdquo;) was, in 1875, the cheapest and strongest of the popular Paris liquors. It was a clear, high-proof spirit &mdash; roughly <strong>seventy percent alcohol</strong>, about twice as strong as a modern vodka &mdash; distilled from anise, fennel, and the bitter herb wormwood, which gave it a faint green color and a faintly medicinal taste. You drank it the way you didn&rsquo;t drink most spirits: you set the glass down, balanced a perforated slotted spoon across the rim, laid a sugar cube on the spoon, and slowly dripped ice water through the sugar into the absinthe. The water hit the spirit and the drink suddenly went cloudy and milky-pale &mdash; an effect called the <strong>louche</strong> (pronounced &ldquo;loosh&rdquo;; French for &ldquo;shady&rdquo; or &ldquo;murky,&rdquo; and yes, the word has the double meaning on purpose). That ritual of preparation, the green going milky, took a few minutes. By the end of it you had a tall, pale, slightly cloudy drink in front of you, and you were committed to the next hour of your life.
+      </p>
+      <p style={proseStyle}>
+        In <strong>1875</strong>, this was an absolutely ordinary drink. Working men drank it on the way home from the factory; office clerks drank it at five; respectable middle-class Parisians drank it in nice cafés like the Nouvelle-Athènes. It was sometimes called the <em>fée verte</em> &mdash; &ldquo;the green fairy&rdquo; &mdash; but cheerfully, the way you&rsquo;d nickname a favorite drink, not ominously. The full anti-absinthe panic &mdash; the medical scare-stories about &ldquo;absinthism,&rdquo; the temperance crusades, the eventual outright bans across France in 1915 and most of Europe in the same era &mdash; was still ten or twenty years off. <strong>In 1875 absinthe was not yet the green poison.</strong> It was the green Tuesday-night drink.
+      </p>
+
+      <SectionHeader accent={accent} label="The picture he was going to make" title="The room with the life drained out" />
+      <p style={proseStyle}>
+        That timing matters, because the picture we&rsquo;re about to look at is one of the things that <em>helped</em> turn the drink into the panic. Not in 1876, when Degas painted it. Seventeen years later, in London, when Victorians who had never set foot in the Nouvelle-Athènes looked at it and decided what they were seeing was the road to ruin. We&rsquo;ll get to that. But hold the date: 1875&ndash;76, in a real café, with a real drink that wasn&rsquo;t yet a moral problem. That&rsquo;s the room Degas walked into with his sketchbook.
+      </p>
+      <p style={proseStyle}>
+        He wasn&rsquo;t going to paint the room as it actually was, full of arguing painters and clinking glasses. He was going to paint its opposite. He was going to paint a Nouvelle-Athènes drained of conversation, with two strangers (who weren&rsquo;t strangers) shoved off into one corner, and the rest of the picture given over to empty tables. He was going to use his own friends &mdash; and his own bar &mdash; to make a portrait of being alone in a crowd. That was the picture.
+      </p>
+    </article>
+  )
+}
+
+function AbMaking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Studio · not café" title="The candid is a construction" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>D</DropCap>
+        egas did not paint <em>L&rsquo;Absinthe</em> in the café. This is the first thing to get straight, because the whole power of the picture is its illusion of a snatched accidental glance &mdash; as if you, the viewer, had wandered into the Nouvelle-Athènes, sat down at an empty table, and caught these two strangers in the corner without their noticing. That feeling is built. Degas built it in his studio, with two friends, over months. The &ldquo;candid&rdquo; is a construction.
+      </p>
+
+      <SectionHeader accent={accent} label="The sitters" title="Ellen Andrée and Marcellin Desboutin" />
+      <p style={proseStyle}>
+        Here is who he used. The seated figure in the painting, the woman with the lowered eyes and the glass of milky-green liquid, is the actress <strong>Ellen Andrée</strong> (1857&ndash;1925; pronounced &ldquo;El-LEN ahn-DRAY&rdquo;). In 1876 she was about nineteen, at the start of a career that would carry her through Paris theater into the 1900s. Andrée was a regular face in the Nouvelle-Athènes circle and a favorite model &mdash; she sat for <strong>Manet</strong> twice (for <em>La Prune</em>, around 1877, and <em>Chez le père Lathuille</em>, 1879) and a few years later <strong>Renoir</strong> would put her at the center of <em>Luncheon of the Boating Party</em> (1880&ndash;81), the giant Chatou river-party picture. (If you&rsquo;re working through these sections in order, you&rsquo;ll meet her again there. Same woman. Different mood entirely.) She was a working actress with a career ahead of her, not a streetwalker, not a derelict, not a fallen woman of any kind. Hold that thought; in two chapters Victorian critics will get it spectacularly wrong, and Andrée herself will have to come back, in 1921, to correct the record.
+      </p>
+      <p style={proseStyle}>
+        The bearded man beside her &mdash; in the <strong>dark, almost black jacket</strong> and the battered tall hat, with a clay pipe and a glass of pale liquid &mdash; is the printmaker <strong>Marcellin Desboutin</strong> (1823&ndash;1902; pronounced &ldquo;DAY-boo-TANN&rdquo;). Desboutin was Degas&rsquo;s older friend, an artist himself, and a familiar Nouvelle-Athènes regular. He was a serious working <strong>engraver</strong> &mdash; meaning he made prints by cutting designs into copper or metal plates and pulling impressions on paper, a respectable artistic profession in its own right. He looked the way he looked in the painting because that was actually his face: a thick beard, a worn jacket, a quietly observant air. Manet was painting him at almost exactly the same moment (<em>The Artist</em>, 1875). Desboutin was the kind of man other painters painted because he sat still and looked like himself.
+      </p>
+
+      <SectionHeader accent={accent} label="Two glasses, two drinks" title="Neither of them was drinking absinthe" />
+      <p style={proseStyle}>
+        So Degas brought his two friends into the studio. He posed Andrée first &mdash; seated, in a pale dress with a pinkish-cream jacket, and on her head <strong>a large, light-colored hat &mdash; a soft lavender-gray, broad enough to throw a shadow across her brow</strong> &mdash; hands slack in her lap, eyes lowered. He set a tall stemmed glass on the table in front of her and, for the picture&rsquo;s sake, he filled it with absinthe &mdash; the real drink, milky-pale after the louche. <strong>This is the only glass of absinthe in the painting.</strong> Beside Andrée he posed Desboutin: leaning slightly, looking off into nothing, his clay pipe in hand, and in front of him a small glass of pale liquid that is <strong>not</strong> absinthe. By long tradition and by Andrée&rsquo;s own later word, that glass holds <strong>mazagran</strong> (pronounced &ldquo;MAZZ-a-grahn&rdquo;) &mdash; a cold, sweetened black coffee, served in a tall glass, that was a standard café drink in 1870s Paris and is roughly the ancestor of an iced coffee. (The name comes from a small Algerian town, Mazagran, where French soldiers in 1840 reportedly improvised the drink because they were out of milk and out of brandy. Whether that origin is exact or a soldier-story, by Degas&rsquo;s day mazagran was just a thing you ordered when you wanted coffee but didn&rsquo;t want it hot.)
+      </p>
+      <p style={proseStyle}>
+        So here is the picture&rsquo;s first and most-violated fact: <strong>the two sitters posed for a painting about absinthe drinkers; neither of them was drinking absinthe.</strong> One is an actress with a glass of the real spirit set down for the picture; one is a serious printmaker with a cold coffee. They were portraitists. They were doing Degas a favor.
+      </p>
+
+      <SectionHeader accent={accent} label="Building the room" title="The Nouvelle-Athènes with the life drained out" />
+      <p style={proseStyle}>
+        Around them Degas built the room. He almost certainly worked from sketches done on the spot at the Nouvelle-Athènes, then assembled the setting in the studio &mdash; the marble tables, the <strong>mirrored back wall</strong> (mirrors were the standard back wall in a fashionable Paris café in this period; they doubled the room and the gaslight, and they doubled the people, an effect Degas would push later in his café-concert pictures), the warm gas-lit reflections. The folded newspaper on the empty foreground table is a real period detail &mdash; the cafés stocked papers on wooden racks for customers to read, and a folded one left on a table is the sign of someone who has come and gone. The Nouvelle-Athènes as the picture shows it is recognizable, but it has been pruned. There are no other patrons. There are no waiters. There is no conversation. It is the room with the life drained out.
+      </p>
+
+      <SectionHeader accent={accent} label="The composition" title="Two people shoved to the corner" />
+      <p style={proseStyle}>
+        And then comes the decision that makes the picture modern. Most painters, given two figures, two glasses, and a café interior, would have centered the figures. Sat them comfortably in the middle of the canvas. Treated the room as a backdrop and the people as the subject. Degas did the opposite. He <strong>shoved his two figures into the upper-right corner of the canvas</strong> and gave more than half of the picture to a <strong>zig-zag of empty marble café tables</strong> marching in from the lower left at a steep diagonal tilt. That foreground is the painting&rsquo;s largest visual fact, and it is empty. No people, no things &mdash; just tabletops, the bare canvas of a room that, in any other painter&rsquo;s hands, would have been the painter&rsquo;s job to fill.
+      </p>
+      <p style={proseStyle}>
+        This is the picture&rsquo;s argument, made not in paint but in composition. Two human beings, pushed to the corner, taking up barely a third of the picture they&rsquo;re supposed to be in. The whole rest of the canvas &mdash; empty tables, empty chairs, empty space &mdash; is what surrounds them. They are not the center of anything. They are an afterthought in their own room.
+      </p>
+      <p style={proseStyle}>
+        That is the picture Degas built. Two friends, sober, posed in the studio, surrounded by a manufactured emptiness, to make a portrait of being alone among other people. The fact that they weren&rsquo;t drinking and weren&rsquo;t strangers and weren&rsquo;t even in the café is the joke under the picture &mdash; except it isn&rsquo;t a joke. It&rsquo;s the kind of careful staging that, paradoxically, makes the picture more truthful, not less. A real snapshot of two friends in a café would show them laughing. The truth Degas wanted &mdash; modern Paris, two souls in one room not connecting &mdash; required actors. So he used actors.
+      </p>
+    </article>
+  )
+}
+
+function AbLooking({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The canvas" title="A still life of absence" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>T</DropCap>
+        he painting is small &mdash; about <strong>three feet tall by two feet three inches wide</strong>, roughly the size of a kitchen tray stood on end. It is <strong>portrait orientation</strong>, taller than it is wide, which is already a strange choice for a café scene. A wider format would have given Degas more room across the picture; the portrait orientation crowds everything vertically. That cramp is part of the feeling.
+      </p>
+      <p style={proseStyle}>
+        Now let your eye land on it. The first thing that should hit you is what is <strong>not</strong> in the picture. Almost the entire <strong>lower-left half</strong> of the canvas is given over to a pale, drained, gray-brown expanse of <strong>empty café tables</strong>. They are seen slightly from above, the way you see your own table when you&rsquo;re sitting at it, and they are arranged in a steep, irregular <strong>zig-zag</strong> that runs from the lower-left corner of the picture inward and upward &mdash; three or four marble tabletops at jagged angles, like a small staircase made of stone slabs. They are absolutely bare. On one of them &mdash; closer to the figures, partway up the zig-zag &mdash; a folded newspaper has been left behind. That&rsquo;s the only object on those tables. No drinks, no plates, no people. It is a still life of absence.
+      </p>
+      <p style={proseStyle}>
+        The diagonal does work that is hard to overstate. It pulls your eye in from the corner nearest you and shoves it, against its will, into the upper right of the picture, where it finally hits the two figures. By the time your attention arrives at them, you have already crossed a desert of empty tables to get there. You have <em>traveled</em> through emptiness to reach two people. That is the picture telling you, before you&rsquo;ve even read its title, that this is going to be a painting about isolation.
+      </p>
+
+      <SectionHeader accent={accent} label="The palette" title="A room with the color wiped off" />
+      <p style={proseStyle}>
+        Before we walk into the figures, take in the <strong>palette</strong> &mdash; because the palette is the lens you&rsquo;re going to read those figures through. The whole picture is drained: cool grays in the wall and tables, warm browns in the floor and the man&rsquo;s jacket, a dusty pink in the woman&rsquo;s jacket, a soft lavender-gray in her hat. No reds. No bright blues. No daylight &mdash; this is a gaslit interior, painted in the yellowish, low, slightly sickly light of nineteenth-century gas lamps, nothing like the daylit interiors Renoir would paint a few years later. Degas has wiped the color off the room. Stand back six feet and the whole picture looks like a wash of dust and smoke. Now, with that drained field in mind, walk into the figures &mdash; because they&rsquo;re going to be drained too, and they&rsquo;re going to be lit by that same sickly gaslight, and there&rsquo;s going to be one small note of color that pulls the eye, and you need the drained field set in your eye first or the note won&rsquo;t pull.
+      </p>
+
+      <SectionHeader accent={accent} label="Andrée" title="The stare into the middle distance" />
+      <p style={proseStyle}>
+        The two figures are pushed into the <strong>upper-right corner</strong> of the canvas &mdash; well above center, well right of center, taking up maybe a third of the picture between them. <strong>Andrée</strong> sits at the table closer to us, slightly the lower of the two. She wears a pale, almost cream-white dress with a pinkish-cream jacket over it; on her head is a <strong>large, light-colored hat &mdash; soft lavender-gray, broad enough to throw a shadow across the upper part of her face</strong> &mdash; worn slightly off-balance in the way Parisian women wore hats in this period. Her hands rest slack in her lap, not folded &mdash; slack, as if she has forgotten what to do with them. Her shoulders slump. Her eyes are <strong>lowered and slightly off to one side</strong>, looking down and away at nothing in particular. She is not looking at her drink. She is not looking at Desboutin. She is not looking at us. She is looking, as far as anyone can tell, <strong>at nothing</strong>. That blank, internal middle-distance stare is the most-discussed part of her face, and it is the part Victorians will read later as evidence of wreckage. Look at it carefully and you&rsquo;ll see that it could just as easily be exhaustion, boredom, or the small private exhaustion of being looked at by a painter for the eighteenth pose.
+      </p>
+      <p style={proseStyle}>
+        In front of her, on the table, stands a <strong>tall stemmed glass of milky-pale, slightly greenish liquid</strong>. This is the painting&rsquo;s <strong>one note of charged color</strong> &mdash; and you have to look at the canvas to feel how that works. Set against the drained gray-brown room you&rsquo;ve already taken in, that small dose of green reads loud. It is not a bright glass. It does not glow. It is muted, slightly off-white. But because everything around it is also muted and slightly off-white, the eye finds it. Then the eye reads the title. Then the eye understands what the green is. The whole picture, in a sense, is built to make you find that one glass and name it. (Compare it, if it helps, to Monet&rsquo;s <em>Impression, Sunrise</em> &mdash; same trick of restraint, where a single small note of warm color works against a drained field of gray. Degas does it cooler and sadder; Monet does it for dawn light. Same idea, different temperature.)
+      </p>
+
+      <SectionHeader accent={accent} label="Desboutin" title="The man looking off in the other direction" />
+      <p style={proseStyle}>
+        Beside Andrée, slightly behind her and to the right, sits <strong>Desboutin</strong> at the next table over. He is a denser, more solid figure than she is. He wears a <strong>dark, almost black jacket</strong> that takes up a lot of the picture&rsquo;s right side &mdash; a heavy, lived-in near-black, painted in dense strokes &mdash; and a <strong>battered tall hat</strong> pushed back on his head. His beard is thick. In his hand he holds a <strong>clay pipe</strong> (the long-stemmed white pipes of the period, cheap, smoked everywhere). His eyes are turned <strong>off to the right</strong>, out of the picture entirely &mdash; looking at something we can never see, somewhere we are not. In front of him sits a small glass of pale liquid, plainer than Andrée&rsquo;s, smaller, without the milky-green cast. This is the mazagran &mdash; the cold coffee. From the painting alone you couldn&rsquo;t prove that. You have to know the story to know which glass holds what. But the visual fact is that <strong>his glass is not her glass</strong>, and once you see that the painting stops being a uniform picture of two absinthe drinkers and becomes a picture of two people who happen to be sitting near each other with two different drinks.
+      </p>
+
+      <SectionHeader accent={accent} label="The room behind them" title="Two figures of the empty room, not in it" />
+      <p style={proseStyle}>
+        Behind them, the room. The back wall is mostly <strong>mirror</strong> &mdash; you can sense the reflected light of the gas lamps in it, blurry shapes that are the reverse of the room we&rsquo;re standing in. The wall above the figures is a warmish gray. The whole back of the picture is brushed loosely, the way you&rsquo;d lay in a background that isn&rsquo;t the subject. The figures are also brushed loosely; nothing in the picture is finished to a polish. Degas &mdash; who in his ballet pictures could draw a tutu&rsquo;s pleats with the precision of an engineer &mdash; has deliberately let the surface stay rough. The whole picture is a sketch held to the size of a finished painting.
+      </p>
+      <p style={proseStyle}>
+        Pull back one more time. The figures are isolated by composition (shoved to the corner). They are isolated by attention (both staring off into nothing, neither looking at the other). And they are isolated by the palette we started with &mdash; surrounded by, and bathed in, a flat gray-brown that doesn&rsquo;t lift them, doesn&rsquo;t celebrate them, doesn&rsquo;t even quite distinguish them from the room. They are nearly the same color as the wall they sit against. They are <em>of</em> the empty room, not in it.
+      </p>
+      <p style={proseStyle}>
+        This is the picture&rsquo;s whole quiet thesis, made visible in oil paint: that modern Paris puts two people at the same table in the same gaslight and they are still alone. The argument is not in any caption. It is in the composition, the palette, the eye-lines, and the empty tables. You read it without being told.
+      </p>
+    </article>
+  )
+}
+
+function AbShow({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · April 1876" title="Dans un café goes on the wall" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        n <strong>April 1876</strong>, in Paris, <em>Dans un café</em> &mdash; that was its title then, &ldquo;In a Café,&rdquo; not yet <em>L&rsquo;Absinthe</em> &mdash; went on the wall at the <strong>Second Impressionist Exhibition</strong>. The show was at <strong>rue Le Peletier</strong>, in a rented gallery space, the second of the eight exhibitions the Impressionist group would mount between 1874 and 1886. Degas hung roughly two dozen works in that show; <em>Dans un café</em> was one of them.
+      </p>
+      <p style={proseStyle}>
+        The Paris reception was unkind, but it was not a scandal. Some critics called the two figures &ldquo;ugly and disgusting.&rdquo; A few liked the picture. Most simply moved on to the next painting on the wall. This was, after all, an exhibition of dozens of Impressionist works whose looseness and rough finish were the larger story; one more rough Degas with two slumped figures was not the day&rsquo;s headline. The painting was noticed, was criticized, was sold, and went off into private hands &mdash; specifically into the hands of a retired English military tailor named <strong>Captain Henry Hill</strong>, who hung it in his house in Brighton, where it would sit for the next sixteen years. (We&rsquo;ll come back to Hill at length in the next chapter; for now just hold the name, because he&rsquo;s the entire reason the picture survived its first decade in obscurity instead of being lost in some London resale.)
+      </p>
+      <p style={proseStyle}>
+        There, in Brighton, the picture sat. Now skip seventeen years.
+      </p>
+
+      <SectionHeader accent={accent} label="London · 1893" title="The Grafton Gallery and the renaming" />
+      <p style={proseStyle}>
+        <strong>1893.</strong> Paris is a different city. The Impressionists, who in 1876 were a band of insurgents being mocked in print, are now successful, middle-aged painters with international reputations and rising prices. Andrée is still working. Desboutin is still printmaking. The painting &mdash; sold out of Hill&rsquo;s estate at Christie&rsquo;s in February 1892, picked up by a Glasgow dealer, then sold on to another Glasgow collector &mdash; has been bouncing around the British art trade and is about to surface in London. And in London in 1893, the painting will detonate.
+      </p>
+      <p style={proseStyle}>
+        The venue is the <strong>Grafton Gallery</strong>, also written <em>Grafton Galleries</em>, on Grafton Street in central London. It was a commercial gallery &mdash; not a public museum, but a high-toned rental room where dealers mounted paying exhibitions &mdash; that ran from 1893 into the 1920s and would shortly become a major venue for showing French modernism to British audiences. (It is the same room that, in 1910, would host the show that introduced post-Impressionism to England.) In <strong>early 1893</strong>, the Glasgow dealer <strong>Arthur Kay</strong>, who had bought the Degas, lent it to a Grafton mixed exhibition of works for sale.
+      </p>
+      <p style={proseStyle}>
+        And the picture was hung &mdash; and <strong>titled, in English, <em>L&rsquo;Absinthe</em>.</strong> This is the moment the title fixes. Not in Degas&rsquo;s studio, not in 1876, not in French. In London, in 1893, in English, on the wall of the Grafton Gallery. The French title <em>Dans un café</em> &mdash; neutral, descriptive, just &ldquo;In a Café&rdquo; &mdash; was set aside, and the picture was renamed for the drink in the woman&rsquo;s hand. From that moment on, in every language and every catalogue, the painting is <em>L&rsquo;Absinthe</em>. The title that we use is a London title, and an 1893 title, and not the painter&rsquo;s.
+      </p>
+      <p style={proseStyle}>
+        The renaming was not innocent. By 1893 the temperance movement &mdash; the campaign to ban or restrict alcohol that was already running hard across Britain and the United States &mdash; had <strong>absinthe</strong> in its sights. Medical journals were reporting cases of &ldquo;absinthism,&rdquo; a supposed condition of madness and hallucination caused specifically by the wormwood. Newspapers ran scare stories. (Whether absinthe was actually more dangerous than any other 70%-alcohol spirit is a question modern chemistry has answered with a fairly firm &ldquo;no&rdquo;; in 1893 nobody had answered it yet.) By calling the picture <em>L&rsquo;Absinthe</em>, the gallery &mdash; wittingly or not &mdash; handed Victorian critics a temperance subject, fully framed. And Victorian critics took it.
+      </p>
+
+      <SectionHeader accent={accent} label="The savaging" title="A study in degradation" />
+      <p style={proseStyle}>
+        The reviews were savage. The artist and critic <strong>Walter Crane</strong> &mdash; a prominent Arts-and-Crafts figure, illustrator, and socialist, not some anonymous newsroom hack &mdash; wrote that the painting was a <strong>&ldquo;study in degradation.&rdquo;</strong> That single phrase, from a named and visible cultural figure, was the line that stuck and traveled. Others called the figures &ldquo;loathsome,&rdquo; the picture &ldquo;uncouth,&rdquo; the scene &ldquo;a warning.&rdquo; The novelist <strong>George Moore</strong>, an Anglo-Irish writer who had actually lived in Paris and known the Nouvelle-Athènes circle, weighed in on both sides &mdash; first echoing the moralizing language, then publicly recanting in print and writing that &ldquo;the picture is merely a work of art, and has nothing to do with drink or sociology.&rdquo; But the recantation came later. The first wave was the savaging.
+      </p>
+      <p style={proseStyle}>
+        What was a <strong>scandal</strong> here, exactly? Use the word plainly. A scandal in this period meant a public uproar over a moral offense &mdash; typically about sex, drink, or class &mdash; that gets fought out in newspapers and lecture halls and at dinner parties. The 1893 <em>L&rsquo;Absinthe</em> scandal was that kind of uproar: a painting that the gallery had hung as an attractive French Impressionist work was being read by London press as a piece of dirty French propaganda for vice, and the debate ran for weeks across the newspapers.
+      </p>
+      <p style={proseStyle}>
+        The two sitters had now spent seventeen years being completely ordinary people leading their own lives. They were not asked. They were not consulted. And suddenly, in London, journalists who had never met them were arguing whether they were degenerates. Andrée, who was thirty-six and a working Paris actress, was being described, in the British press, as a drunk and worse. Desboutin, who was seventy and a distinguished printmaker, was being described as a wreck.
+      </p>
+
+      <SectionHeader accent={accent} label="Andrée corrects the record" title="Same picture, different title, different scandal" />
+      <p style={proseStyle}>
+        It is at this point &mdash; though the full record of her response is <strong>Andrée&rsquo;s later interview</strong> with the critic <strong>Félix Fénéon</strong>, given in <strong>1921</strong>, forty-five years after she sat &mdash; that <strong>Andrée publicly set the record straight</strong>. The story she told is the careful one, not the dramatic one. She did not deny that she had posed. She had posed, willingly, for her friend Degas. She corrected the <strong>interpretation</strong>. Yes, the glass in front of her in the picture held absinthe &mdash; Degas put it there for the painting. No, in real life she was not an absinthe drinker. And the man beside her, Desboutin &mdash; by her telling, <strong>he was the one who actually drank</strong>, and what was in his glass in the picture wasn&rsquo;t absinthe at all but mazagran. (That last detail &mdash; Desboutin as the real drinker &mdash; is Andrée&rsquo;s own recollection in 1921, not independent corroboration; it&rsquo;s her account, kept attributed to her, not promoted to documentary fact.) The painting, in other words, had been a careful artistic construction, posed by two sober friends. The reading of it as a documentary record of two alcoholics had got every fact wrong.
+      </p>
+      <p style={proseStyle}>
+        Desboutin&rsquo;s defenders made the same case for him in 1893, while he was still alive (he would die in 1902, nine years after the London scandal): he was not a drunk, he was a respected printmaker, he had posed for his friend.
+      </p>
+      <p style={proseStyle}>
+        The whole episode is a study in what a title can do. The painting in 1876 had been called <em>Dans un café</em> and was read, mostly correctly, as a downbeat picture of two figures in a Paris bar. The painting in 1893 was called <em>L&rsquo;Absinthe</em> and was read as a temperance tract. <strong>Same picture. Same paint. Different title. Different country. Different decade. Different scandal.</strong> The picture had not moralized about anything; the moralizing arrived from outside it, attached to a noun in the title.
+      </p>
+      <p style={proseStyle}>
+        And the title stuck. It stuck because scandals are sticky, and because the renamed picture was now famous, and because once a great painting acquires a famous name in a famous fight, you can&rsquo;t really take it back. By the time the painting moved on to its next owner, two months later, it was <em>L&rsquo;Absinthe</em> everywhere, and no one was calling it <em>Dans un café</em> anymore. The London Victorians did what the Paris show in 1876 had failed to do: they made the painting unforgettable. They just had to malign it first.
+      </p>
+    </article>
+  )
+}
+
+function AbAfterlife({ accent }: { accent: string; onZoom: (src: string, cap: string) => void }) {
+  return (
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Provenance" title="From the exhibition wall to Brighton" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is the painting&rsquo;s whole life as an object, the <strong>provenance</strong> &mdash; meaning the documented chain of who owned a work of art, from the painter&rsquo;s hand to wherever it sits now. <em>L&rsquo;Absinthe</em> has one of the cleaner provenances of any major Impressionist work, mostly because Degas&rsquo;s friend <strong>Marcellin Desboutin</strong> wrote letters about who was buying what.
+      </p>
+      <p style={proseStyle}>
+        <strong>1876</strong>, straight off the Impressionist exhibition wall. The painting went to <strong>Charles W. Deschamps</strong>, a young London-based French dealer who had a gallery on New Bond Street. Deschamps was one of the very first dealers anywhere to specialize in the Impressionists for an English market &mdash; a brave commercial bet in a country whose taste in 1876 ran to slick academic figure paintings and well-finished landscapes. Deschamps acquired the picture for resale.
+      </p>
+
+      <SectionHeader accent={accent} label="Captain Henry Hill" title="Not a club. A man." />
+      <p style={proseStyle}>
+        <strong>1876, almost immediately</strong>, to <strong>Captain Henry Hill</strong> of <strong>Brighton</strong> &mdash; and this is the fact the popular books most reliably get wrong, so we&rsquo;ll spell it out. Hill (1812&ndash;1882) was a private English collector. He was not a club, not a society, not a charity, not a temperance organization. He was a man. By profession he had been a military tailor in London &mdash; he made uniforms &mdash; and he had retired wealthy to Brighton, the seaside resort town on the south coast of England, where he lived in a large house and bought paintings. He was, surprisingly for an Englishman of his generation and class, an early and committed collector of Degas: by the late 1870s he had <strong>seven</strong> Degas paintings, more than any other English collector of his moment. He bought <em>L&rsquo;Absinthe</em> from Deschamps in 1876 and held it for <strong>sixteen years</strong>. (You will see <em>L&rsquo;Absinthe</em> referred to in older books as having been bought by &ldquo;a Sussex club&rdquo; or &ldquo;a Brighton club.&rdquo; Brighton is in Sussex, but it was never a club. It was Captain Hill. The &ldquo;club&rdquo; story is what happens when historians don&rsquo;t bother to look up the actual name of the actual man.) Hill even lent the picture out in 1876 to the <strong>Royal Pavilion Gallery</strong> in Brighton &mdash; its very first English showing, a quiet provincial exhibition that did not produce any scandal whatsoever, seventeen years before the London one.
+      </p>
+
+      <SectionHeader accent={accent} label="Christie's · 1892" title="Through the British trade" />
+      <p style={proseStyle}>
+        <strong>1882.</strong> Hill died. His collection went to his estate. <strong>1892.</strong> The estate sold off the Degas pictures at <strong>Christie&rsquo;s</strong> in London, on <strong>February 19, 1892</strong>, lot 209, where <em>L&rsquo;Absinthe</em> was listed under one of its early generic titles, <em>Figures at a Café</em>. (The temperance title had not landed yet &mdash; that&rsquo;s still a year away.) It went for £180, a perfectly modest sum.
+      </p>
+      <p style={proseStyle}>
+        The buyer was <strong>Alexander Reid</strong>, a Glasgow dealer who was one of the most adventurous British buyers of French modern art in that decade. (Reid had actually shared a flat in Paris a few years earlier with <strong>Vincent van Gogh</strong>, whose portrait of him survives. He&rsquo;s a more interesting figure than most provenance entries make him out to be.) Reid sold it on, in <strong>1893</strong>, to a fellow Glaswegian collector named <strong>Arthur Kay</strong>. Kay was the dealer who, almost as soon as he owned it, lent it to the <strong>Grafton Gallery</strong> in London &mdash; the lend that became the 1893 scandal. (See the previous chapter for the noise.)
+      </p>
+      <p style={proseStyle}>
+        After the scandal, the painting moved fast. Kay sold it back through the trade &mdash; first to <strong>Martin et Camentron</strong> in Paris, then back through <strong>Reid</strong> in London &mdash; and by the end of <strong>1893</strong> the painting had landed where it would stay for the next eighteen years.
+      </p>
+
+      <SectionHeader accent={accent} label="Comte Isaac de Camondo" title="A Paris banker, a bequest, a family ended" />
+      <p style={proseStyle}>
+        The buyer was <strong>Comte Isaac de Camondo</strong> (1851&ndash;1911; pronounced &ldquo;ee-ZAHK duh kah-mahn-DOH&rdquo;). Camondo was an extraordinary man &mdash; a Paris banker of Sephardic Jewish heritage whose family had originally been bankers to the Ottoman sultans in Istanbul before moving to Paris in the 1860s. He was rich, cultivated, multilingual, and one of the most discerning collectors of his generation. By the 1890s he had built one of the great private collections of Japanese art in Europe alongside a serious holding of French Impressionism (Manet, Degas, Monet, Cézanne, Renoir, Sisley) &mdash; at a moment when most of his French banking peers were buying Salon kitsch. He bought <em>L&rsquo;Absinthe</em> in 1893, while the London scandal&rsquo;s ink was still wet, and put it on the wall of his Paris townhouse.
+      </p>
+      <p style={proseStyle}>
+        The Camondo story is also, eventually, a tragedy &mdash; though <em>L&rsquo;Absinthe</em> itself is fine. Camondo died in <strong>1911</strong>, and in his will he left almost his entire art collection &mdash; including <em>L&rsquo;Absinthe</em> &mdash; to the French state, to go to the <strong>Musée du Louvre</strong>. He attached one condition: the bequest had to be displayed together, as a unit, named after him. The Louvre accepted. <strong>In 1911, <em>L&rsquo;Absinthe</em> entered the national collection of France</strong>, where it has remained ever since. (Camondo&rsquo;s son Nissim, who would have inherited the rest of the family fortune, was killed flying for France in <strong>1917</strong>; his daughter Béatrice and her family were killed at Auschwitz in <strong>1944</strong>. The family ended. The Camondo collection &mdash; and <em>L&rsquo;Absinthe</em> with it &mdash; is the family&rsquo;s surviving monument. The Musée Nissim de Camondo, in Paris, named for the son, holds the rest.)
+      </p>
+
+      <SectionHeader accent={accent} label="Louvre · Jeu de Paume · Orsay" title="The picture, finally, allowed to be itself" />
+      <p style={proseStyle}>
+        The painting&rsquo;s post-1911 movements are routine. It hung in the Louvre from 1911 until <strong>1947</strong>, when the French national Impressionist collection was moved to the <strong>Jeu de Paume</strong>, a smaller museum in the Tuileries Gardens that became, for almost forty years, the main Paris home of late-nineteenth-century French painting. <em>L&rsquo;Absinthe</em> hung there from 1947 to <strong>1986</strong>, when the Impressionist collections were moved again &mdash; this time to the newly opened <strong>Musée d&rsquo;Orsay</strong>, the great converted-railway-station museum on the Left Bank that opened in December 1986 specifically to house French nineteenth-century art. It hangs there now, on permanent view, in the Degas rooms.
+      </p>
+      <p style={proseStyle}>
+        A small grace note. The painting that Victorian London called a &ldquo;study in degradation&rdquo; in 1893 hangs today in a room in Paris where, on any given afternoon, several hundred people pass through and stand in front of it and look quietly at two figures in the corner of an empty café and feel, accurately, what Degas wanted them to feel &mdash; which is the very small, ordinary sadness of being two people at the same table not talking. The temperance frame is gone. The scandal is forgotten. The picture, finally, has been allowed to be itself again: a painting about loneliness in a modern city, posed by two friends who weren&rsquo;t drinking, in a café full of empty tables that were never really empty.
+      </p>
+    </article>
+  )
+}
+
+// REGISTRY (coordinator splices into NARRATIVES):
+//  absinthe: { cafe: AbCafe, making: AbMaking, looking: AbLooking, show: AbShow, afterlife: AbAfterlife },
