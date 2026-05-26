@@ -131,6 +131,51 @@ export const ART_IMG = {
   lissitzkyWedge: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Beat_the_Whites_with_the_Red_Wedge.jpg/960px-Beat_the_Whites_with_the_Red_Wedge.jpg',
   kandinskyComp7: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Vassily_Kandinsky%2C_1913_-_Composition_7.jpg/960px-Vassily_Kandinsky%2C_1913_-_Composition_7.jpg',
   bauhausDessau: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg/960px-Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg',
+
+  // ── Impressionism movement figures (born-verified 2026-05-25; every file page
+  // checked for the right subject/artist/museum; all artists died well before 1931
+  // → US-PD, most PD worldwide). COMMONS (free worldwide) unless noted. ──
+  // Signature works rail + inline narrative figures (larger size)
+  monetGrenouillere: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Claude_Monet_La_Grenouill%C3%A9re.jpg/1280px-Claude_Monet_La_Grenouill%C3%A9re.jpg',
+  monetGareSaintLazare: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/La_Gare_Saint-Lazare_-_Claude_Monet.jpg/1280px-La_Gare_Saint-Lazare_-_Claude_Monet.jpg',
+  renoirMoulinGalette: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/1280px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg',
+  renoirBoatingParty: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg/1280px-Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg',
+  degasDanceClass: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Edgar_Degas_The_Dance_Class.jpg/1280px-Edgar_Degas_The_Dance_Class.jpg',
+  degasAbsinthe: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg/1280px-Edgar_Degas_-_In_a_Caf%C3%A9_-_Google_Art_Project_2.jpg',
+  caillebotteParisStreet: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg/1280px-Gustave_Caillebotte_-_Paris_Street%3B_Rainy_Day_-_Google_Art_Project.jpg',
+  morisotCradle: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Berthe_Morisot_008.jpg/1280px-Berthe_Morisot_008.jpg',
+  // Break "before" — the academy's porcelain ideal (Bouguereau, NOT Cabanel; Realism uses Cabanel)
+  bouguereauVenus: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/William-Adolphe_Bouguereau_%281825-1905%29_-_The_Birth_of_Venus_%281879%29.jpg/1280px-William-Adolphe_Bouguereau_%281825-1905%29_-_The_Birth_of_Venus_%281879%29.jpg',
+  // Canon thumbnails (500px)
+  renoirGrenouillere: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Auguste_Renoir_-_La_Grenouill%C3%A8re_-_Google_Art_Project.jpg/500px-Auguste_Renoir_-_La_Grenouill%C3%A8re_-_Google_Art_Project.jpg',
+  pissarroHoarfrost: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Camille_Pissarro%2C_Gelee_blanche_%28Hoarfrost%29%2C_1873.jpg/500px-Camille_Pissarro%2C_Gelee_blanche_%28Hoarfrost%29%2C_1873.jpg',
+  monetBoulevardCapucines: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Claude_Monet%2C_1873-74%2C_Boulevard_des_Capucines%2C_oil_on_canvas%2C_80.3_x_60.3_cm%2C_Nelson-Atkins_Museum_of_Art%2C_Kansas_City.jpg/500px-Claude_Monet%2C_1873-74%2C_Boulevard_des_Capucines%2C_oil_on_canvas%2C_80.3_x_60.3_cm%2C_Nelson-Atkins_Museum_of_Art%2C_Kansas_City.jpg',
+  caillebotteFloorPlaners: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gustave_Caillebotte_-_The_Floor_Planers_-_Google_Art_Project.jpg/500px-Gustave_Caillebotte_-_The_Floor_Planers_-_Google_Art_Project.jpg',
+  manetBar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg/500px-%22Un_Bar_aux_Folies-Berg%C3%A8re%22_by_%C3%89douard_Manet_%281882%29.jpg',
+  degasLittleDancer: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Edgar_Degas%2C_Little_Dancer_Aged_Fourteen%2C_1878-1881%2C_NGA_110292.jpg/500px-Edgar_Degas%2C_Little_Dancer_Aged_Fourteen%2C_1878-1881%2C_NGA_110292.jpg',
+  cassattBlueArmchair: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cassat_-_Blue_Armchair_NGA.jpg/500px-Cassat_-_Blue_Armchair_NGA.jpg',
+  cassattChildBath: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg/500px-Mary_Cassatt_-_The_Child%27s_Bath_-_Google_Art_Project.jpg',
+  morisotIsleWight: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Berthe_Morisot_-_Eug%C3%A8ne_Manet_%C3%A0_l%27%C3%AEle_de_Wight.jpg/500px-Berthe_Morisot_-_Eug%C3%A8ne_Manet_%C3%A0_l%27%C3%AEle_de_Wight.jpg',
+  sisleyBridge: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_Bridge_at_Villeneuve-la-Garenne_MET_DT1040.jpg/500px-The_Bridge_at_Villeneuve-la-Garenne_MET_DT1040.jpg',
+  sisleyFloods: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Sisley%2C_Alfred_-_L%27Inondation_%C3%A0_Port-Marly_RF_2020.jpg/500px-Sisley%2C_Alfred_-_L%27Inondation_%C3%A0_Port-Marly_RF_2020.jpg',
+  monetHaystacks: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg/500px-Claude_Monet_-_Stacks_of_Wheat_%28End_of_Summer%29_-_1985.1103_-_Art_Institute_of_Chicago.jpg',
+  gonzalesLoge: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Eva_Gonzal%C3%A8s_-_Une_loge_aux_Italiens.jpg/500px-Eva_Gonzal%C3%A8s_-_Une_loge_aux_Italiens.jpg',
+  monetParasol: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg/500px-Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg',
+  // Lineage + parallels chips (500px representative PD works)
+  hokusaiWave: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Great_Wave_off_Kanagawa2.jpg/500px-Great_Wave_off_Kanagawa2.jpg',
+  cezanneMontSainteVictoire: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mont_Sainte-Victoire_with_Large_Pine%2C_by_Paul_C%C3%A9zanne.jpg/500px-Mont_Sainte-Victoire_with_Large_Pine%2C_by_Paul_C%C3%A9zanne.jpg',
+  whistlerNocturne: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/James_Abbot_McNeill_Whistler_006.jpg/500px-James_Abbot_McNeill_Whistler_006.jpg',
+  // Artist headshots (PD portraits/self-portraits; subjects eyeballed)
+  monetPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/500px-Claude_Monet_1899_Nadar_crop.jpg',
+  renoirPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Pierre_Auguste_Renoir%2C_uncropped_image.jpg/500px-Pierre_Auguste_Renoir%2C_uncropped_image.jpg',
+  pissarroPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pissarro-portrait.jpg/500px-Pissarro-portrait.jpg',
+  sisleyPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Alfred_Sisley_photo_full.jpg/500px-Alfred_Sisley_photo_full.jpg',
+  degasPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Self-portrait_by_Edgar_Degas.jpg/500px-Self-portrait_by_Edgar_Degas.jpg',
+  morisotPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Morisot_berthe_photo.jpg/500px-Morisot_berthe_photo.jpg',
+  cassattPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mary_Cassatt_photograph_1913.jpg/500px-Mary_Cassatt_photograph_1913.jpg',
+  manetPhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/500px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg',
+  caillebottePhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Caillebotteautoportrait.jpg/500px-Caillebotteautoportrait.jpg',
+  bazillePhoto: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Fr%C3%A9d%C3%A9ric_Bazille_004.jpg/500px-Fr%C3%A9d%C3%A9ric_Bazille_004.jpg',
 } as const
 
 export interface ArtStat { v: string; k: string }
@@ -706,6 +751,148 @@ export const REALISM: ArtMovementContent = {
     { id: 'peasants', eyebrow: 'Millet', dateLabel: '1850–1859', title: 'Millet’s peasants', blurb: 'Out at Barbizon, the quiet half of Realism paints the rural poor as fact and as sacrament — and frightens the critics doing it.', progress: 4 / 6 },
     { id: 'city', eyebrow: 'Daumier', dateLabel: '1831–1864', title: 'Daumier’s city', blurb: 'A caricaturist jailed for mocking the king drags Realism into the modern town — its crowds, its politicians, its third-class poor.', progress: 5 / 6 },
     { id: 'reach', eyebrow: 'Bonheur & after', dateLabel: '1853–1877', title: 'Bonheur, and the reach', blurb: 'The most celebrated woman painter of the century, the handoff to Impressionism, and the price Courbet paid for his politics.', progress: 1 },
+  ],
+}
+
+// ─────────────────────────────────────────────────────────────
+// Movement — Impressionism (1860s–1886). The Modern era's second movement.
+// Authored through the art content pipeline (fact pack → Opus draft → 5 critic
+// gates → reconcile → revise); narrative in movement-narratives.tsx under 'imp'.
+// ─────────────────────────────────────────────────────────────
+export const IMPRESSIONISM: ArtMovementContent = {
+  id: 'imp',
+  name: 'Impressionism',
+  range: '1860s–1886',
+  span: '~25 years',
+  era: 'Modern',
+  eraId: 'mod',
+  accent: ART_ACCENTS.blue,
+  chain: { name: 'Movements of the Modern era', index: 2, total: 10 },
+  hook: 'A critic sneered that wallpaper was more finished. They wore the insult as a name.',
+  hookLong:
+    'In the Paris of the 1870s these were the canvases the jury rejected and the public came to laugh at — pictures that looked unfinished, smeared, dashed-off, wrong. Their makers were a quarrelsome cooperative who never agreed on a creed, never signed a manifesto, and got their very name from a man making fun of them. This is how a generation that could see the brand-new modern city — its boulevards, railway stations and Sunday boating parties — fought a decade-long war with the official machine that refused to let them paint it, invented a way of putting light itself on canvas, and then, having finally won, woke to find a younger painter had hung the picture that made them, suddenly, look like the past.',
+  heroImage: ART_IMG.impressionSunrise,
+  heroFit: 'cover',
+  heroFocus: '50% 50%',
+  heroCredit: 'Monet, Impression, Sunrise, 1872 · Musée Marmottan Monet, Paris',
+  stats: [
+    { v: '8 shows', k: '1874–1886' },
+    { v: '27', k: 'Canonical works' },
+    { v: 'Paris', k: 'Centered on' },
+  ],
+  factions: [
+    { side: 'independents', label: 'The Independents', color: ART_ACCENTS.blue, members: ['Monet', 'Renoir', 'Pissarro', 'Degas', 'Morisot', 'Cassatt'], detail: 'No creed, no manifesto — a quarrelsome cooperative (the Société Anonyme) bound by one thing: a wall of their own, outside the Salon, where the modern world could hang unjudged.' },
+    { side: 'academy', label: 'The Salon', color: '#7c6f5a', members: ['The Salon jury', 'Bouguereau', 'Gérôme', 'Cabanel'], detail: 'The one State-run show that made or broke a French career — guarded by a jury that prized noble subjects and a porcelain, invisible finish, and read the visible brushstroke as proof a picture wasn’t done.' },
+  ],
+  works: [
+    { id: 'grenouillere', year: 1869, name: 'La Grenouillère', artist: 'Monet', place: 'Bougival', size: 'm', blurb: 'Monet and Renoir set up side by side at a floating river café and each came back with a chop of quick blue-and-white strokes that reads as real moving water — the new way of seeing, invented on the spot.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.monetGrenouillere, credit: 'Monet, La Grenouillère, 1869 · The Metropolitan Museum of Art, New York' },
+    { id: 'impression-sunrise', year: 1872, name: 'Impression, Sunrise', artist: 'Monet', place: 'Le Havre', size: 'm', blurb: 'A hazy harbor at dawn, sky and water melting into one soft murk, the sun a single fierce dab of orange. A critic mocked the title; the movement took the joke for its name.', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], imageUrl: ART_IMG.impressionSunrise, credit: 'Monet, Impression, Sunrise, 1872 · Musée Marmottan Monet, Paris' },
+    { id: 'cradle', year: 1872, name: 'The Cradle', artist: 'Morisot', place: 'Paris', size: 'm', blurb: 'A young mother watches her sleeping infant through gauze netting painted in a few translucent breaths — the female world observed from inside it, by a founding member of the movement.', palette: ['#9aa0a4', '#5a6066', '#1a1e22'], imageUrl: ART_IMG.morisotCradle, credit: 'Morisot, The Cradle, 1872 · Musée d’Orsay, Paris' },
+    { id: 'dance-class', year: 1874, name: 'The Dance Class', artist: 'Degas', place: 'Paris', size: 'm', blurb: 'A rehearsal room seen at a tilt, the floor tipping toward you, dancers scattered off-center like a snapshot — Japanese cropping, the caught instant, and not a square inch of open air.', palette: ['#7a6a4a', '#3a3020', '#100c08'], imageUrl: ART_IMG.degasDanceClass, credit: 'Degas, The Dance Class, 1874 · The Metropolitan Museum of Art, New York' },
+    { id: 'absinthe', year: 1876, name: 'L’Absinthe', artist: 'Degas', place: 'Paris', size: 'm', blurb: 'Two hollow figures shoved into the corner of a café, the foreground a zig-zag of empty tables, the one note of color the milky-green glass. The loneliness of the modern city, told without comfort.', palette: ['#6a6a58', '#34342a', '#0e0e0a'], imageUrl: ART_IMG.degasAbsinthe, credit: 'Degas, L’Absinthe, 1875–76 · Musée d’Orsay, Paris' },
+    { id: 'moulin-galette', year: 1876, name: 'Bal du moulin de la Galette', artist: 'Renoir', place: 'Paris', size: 'l', blurb: 'A Montmartre dance garden dappled with sun through the trees, crowded with a happy Sunday throng — modern leisure painted at the scale the Salon kept for history.', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'], imageUrl: ART_IMG.renoirMoulinGalette, credit: 'Renoir, Bal du moulin de la Galette, 1876 · Musée d’Orsay, Paris' },
+    { id: 'gare-saint-lazare', year: 1877, name: 'The Gare Saint-Lazare', artist: 'Monet', place: 'Paris', size: 'l', blurb: 'Steam, glass and iron under a station roof — Monet makes the dirtiest, newest machinery of the modern city into a study of light dissolving in vapor.', palette: ['#5a6a72', '#2e3a42', '#0e1014'], imageUrl: ART_IMG.monetGareSaintLazare, credit: 'Monet, La Gare Saint-Lazare, 1877 · Musée d’Orsay, Paris' },
+    { id: 'paris-street', year: 1877, name: 'Paris Street; Rainy Day', artist: 'Caillebotte', place: 'Paris', size: 'xl', blurb: 'Well-dressed Parisians under umbrellas crossing a wet, gleaming boulevard, the cobbles and a wedge of new apartment block rendered with almost architectural precision. Haussmann’s city as the subject.', palette: ['#5a6a72', '#2e3a42', '#0e1014'], imageUrl: ART_IMG.caillebotteParisStreet, credit: 'Caillebotte, Paris Street; Rainy Day, 1877 · Art Institute of Chicago' },
+    { id: 'boating-party', year: 1881, name: 'Luncheon of the Boating Party', artist: 'Renoir', place: 'Chatou', size: 'l', blurb: 'A riverside lunch on a balcony, friends and a little dog, light sieving through a striped awning onto wine and skin. The warmth and ease of the new Sunday leisure, at full scale.', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'], imageUrl: ART_IMG.renoirBoatingParty, credit: 'Renoir, Luncheon of the Boating Party, 1880–81 · The Phillips Collection, Washington' },
+  ],
+  artists: [
+    { id: 'monet', name: 'Monet', role: 'The light-chaser', years: '1840–1926', palette: ['#3a6a8a', '#c8c050', '#1c2a30'], photo: ART_IMG.monetPhoto },
+    { id: 'renoir', name: 'Renoir', role: 'Warmth & crowds', years: '1841–1919', palette: ['#b07a62', '#5a3a2a', '#1a0e0a'], photo: ART_IMG.renoirPhoto },
+    { id: 'pissarro', name: 'Pissarro', role: 'The conscience', years: '1830–1903', palette: ['#6a7250', '#3a3c28', '#14140e'], photo: ART_IMG.pissarroPhoto },
+    { id: 'degas', name: 'Degas', role: 'The indoor eye', years: '1834–1917', palette: ['#7a6a4a', '#3a3020', '#100c08'], photo: ART_IMG.degasPhoto },
+    { id: 'morisot', name: 'Morisot', role: 'Founder, not footnote', years: '1841–1895', palette: ['#9aa0a4', '#5a6066', '#1a1e22'], photo: ART_IMG.morisotPhoto },
+    { id: 'cassatt', name: 'Cassatt', role: 'The American', years: '1844–1926', palette: ['#8a6a6a', '#4a2e2e', '#160e0e'], photo: ART_IMG.cassattPhoto },
+    { id: 'sisley', name: 'Sisley', role: 'Pure landscapist', years: '1839–1899', palette: ['#6a7a82', '#3a4248', '#12161a'], photo: ART_IMG.sisleyPhoto },
+    { id: 'caillebotte', name: 'Caillebotte', role: 'Painter & patron', years: '1848–1894', palette: ['#5a6a72', '#2e3a42', '#0e1014'], photo: ART_IMG.caillebottePhoto },
+    { id: 'manet', name: 'Manet', role: 'The patriarch', years: '1832–1883', palette: ['#6a5a4a', '#332820', '#0e0a06'], photo: ART_IMG.manetPhoto },
+    { id: 'bazille', name: 'Bazille', role: 'The lost one', years: '1841–1870', palette: ['#5a6a5a', '#2e3a2e', '#0e120e'], photo: ART_IMG.bazillePhoto },
+  ],
+  parallels: [
+    { year: 1863, movement: 'Salon des Refusés', place: 'Paris', blurb: 'The jury’s rejects get their own overflow show; Manet’s Déjeuner sur l’herbe turns scandal into a rallying point for the young.' },
+    { year: 1872, movement: 'Japonisme', place: 'Paris', blurb: 'The critic Philippe Burty names the craze for Japanese woodblock prints, whose flat color and radical cropping are quietly rewiring French composition.' },
+    { year: 1886, movement: 'La Grande Jatte', place: 'Paris', blurb: 'Seurat hangs his pointillist epic at the eighth and final Impressionist show — the loose instant answered by the slow, systematic dot.' },
+    { year: 1886, movement: 'Durand-Ruel in New York', place: 'New York', blurb: 'The dealer ships the unsold movement across the Atlantic; America buys what Paris still mocks, and the U.S. market opens.' },
+  ],
+  lineage: {
+    parents: [
+      { label: 'Realism', mode: 'art', img: ART_IMG.courbetBurial, palette: ['#6b6354', '#39322a', '#120f0c'], note: 'gave: the ordinary present, worth the big canvas' },
+      { label: 'Manet', mode: 'art', img: ART_IMG.manetDejeuner, palette: ['#6a5a4a', '#332820', '#0e0a06'], note: 'gave: modern life, blunt paint, the Salon scandal' },
+      { label: 'Barbizon landscape', mode: 'art', img: ART_IMG.rousseauOak, palette: ['#6a7250', '#3a3c28', '#14140e'], note: 'gave: the habit of painting outdoors' },
+      { label: 'Japanese prints', mode: 'art', img: ART_IMG.hokusaiWave, palette: ['#2a5a6a', '#1c3a42', '#0a1418'], note: 'gave: flat color, daring crops, odd viewpoints' },
+    ],
+    children: [
+      { label: 'Post-Impressionism', mode: 'art', img: ART_IMG.seuratGrandeJatte, palette: ['#3a6a4a', '#c8b84a', '#1c2a18'], note: 'took: the broken stroke, made it a system' },
+      { label: 'Cézanne', mode: 'art', img: ART_IMG.cezanneMontSainteVictoire, palette: ['#5a7042', '#8a7848', '#1c1a12'], note: 'took: painting from nature, sought its structure' },
+      { label: 'Van Gogh', mode: 'art', img: ART_IMG.starryNight, palette: ['#2a3a6a', '#c8b84a', '#0e1428'], note: 'took: pure color, charged it with feeling' },
+      { label: 'Fauvism', mode: 'art', img: ART_IMG.matisseHat, palette: ['#b03a3a', '#5a1c1c', '#1a0808'], note: 'took: bright unmixed color, set it on fire' },
+    ],
+  },
+  influenceSummary: 'Impressionism took Realism’s permission to paint the present, Manet’s blunt modern eye, the Barbizon habit of working outdoors, and the flat daring of the Japanese print — and used them to put fleeting light itself on canvas, handing the loosened brushstroke straight to Post-Impressionism.',
+  manifesto: {
+    absent: true,
+    prose: [
+      'Most of the movements in this era arrive with a manifesto in hand — a printed declaration in which the artists state, in plain language, what they are for and what they are against. The Realists had one (Courbet’s catalogue statement, run up like a flag). The Futurists, the Surrealists, nearly everyone who follows, would publish a creed before they published a second painting. Impressionism is the great exception. There is no Impressionist manifesto: no founding document, no signed program, no agreed list of beliefs — because there was never a single agreed belief to write down. They were a cooperative bound together by what they were against (the Salon’s locked door) far more than by any shared doctrine, and they couldn’t even hold that coalition together for eight shows running.',
+      'And so the one thing they all share — their name — was not chosen by them at all. It was thrown at them by a hostile critic as a joke, and they shrugged and kept it. A movement with no creed, named by an enemy, held together by exclusion rather than by faith. The thing that should have been a weakness — no party line, no orthodoxy — turns out to be why the work is so various: a Monet harbor, a Degas rehearsal room, a Morisot nursery and a Cassatt mother and child barely look like members of the same school, because there was no school, only a shared front in a long argument with a jury.',
+      'The closest anyone came to writing the creed they never wrote was a sympathetic outsider. In 1876, to coincide with the second exhibition, the critic Edmond Duranty — a Realist novelist, a Café Guerbois regular and a close friend of Degas — published a slim pamphlet called La Nouvelle Peinture (“The New Painting”): the first serious attempt to explain these painters to a baffled public. Duranty argued that the new art should abandon the studio-isolated, decorative figure posed like an ornament, and instead show people inseparable from their real surroundings — that, set among the things of a real life, even a person’s back ought to betray a temperament, an age, a social class. But the painters never signed it, never commissioned it, never adopted it; it was Duranty’s own essay, in his own voice, and tellingly he never once used the word “Impressionism.” The nearest thing Impressionism has to a manifesto is a pamphlet the Impressionists didn’t write, didn’t sign, and which pointedly declined to call them what the world would.',
+    ],
+    sourceUrl: 'https://arthistorians.info/durantyl/',
+    sourceLabel: 'Read about Duranty’s “The New Painting” (1876)',
+  },
+  whatChanged: {
+    heading: 'Why it was a break',
+    before: {
+      img: ART_IMG.bouguereauVenus,
+      title: 'Before · Bouguereau, The Birth of Venus (1879)',
+      caption: 'A porcelain Salon goddess, every brushstroke sanded away, lit by a light that comes from nowhere real — the academy’s ideal of finish and idealized light, never alive in any real minute of any real day.',
+    },
+    after: {
+      img: ART_IMG.impressionSunrise,
+      title: 'After · Monet, Impression, Sunrise (1872)',
+      caption: 'A real harbor at a real dawn caught in a few quick visible strokes, the sun a single fierce dab of orange, finished on the spot in one fleeting moment — “unfinished” by every rule the academy lived by.',
+    },
+    prose: [
+      'Realism had already won the subject fight a generation earlier — it dragged ordinary modern life up onto the big canvas and made it a fit thing to paint. Impressionism’s break is a different one, and a subtler one: a break over three things the academy held sacred — finish, light, and time. Set the Salon’s poreless goddess beside Monet’s harbor and you can watch all three quarrels happen at once.',
+      'Start with finish and the stroke. The academic surface is licked — worked and reworked until the paint is seamless and the hand that made it has vanished, so you see a window onto a world, never a layer of pigment. Monet does the opposite on purpose: he leaves the stroke showing, so you can read the speed of his hand in every dab and the sun is plainly a few licks of loaded paint. Then light and color. The academic flesh glows under a soft, even, invented studio light, and its shadows are darker tones of the same skin color; Monet paints the light that was genuinely landing on the water at that one dawn, and builds his shadows from color — blues and violets — not from black. Local color, the label color, gives way to the color that light actually makes.',
+      'And finally time, the deepest break of all. The academic picture is outside of time: a posed, eternal, idealized tableau no clock ever ticked through. Monet paints a single passing instant — this dawn, this minute, the mist about to lift — and paints it fast enough to catch it before it goes. The honest caveat is that one limb of this break is not universal: most of the Impressionists abandoned the studio for the riverbank to catch that light in the open air, but Degas never did — he kept the studio and broke the academy on subject, cropping and the caught modern instant instead. So the break is light, finish, and the fleeting moment; open-air painting is its strongest single limb, not the whole of it. What was universal was the verdict the academy handed down on all of them in one word — unfinished — which the Impressionists decided was the truest thing they could be.',
+    ],
+  },
+  canon: [
+    { year: 1863, name: 'Le Déjeuner sur l’herbe', artist: 'Manet', img: ART_IMG.manetDejeuner },
+    { year: 1863, name: 'Olympia', artist: 'Manet', img: ART_IMG.manetOlympia },
+    { year: 1869, name: 'La Grenouillère', artist: 'Monet', img: ART_IMG.monetGrenouillere },
+    { year: 1869, name: 'La Grenouillère', artist: 'Renoir', img: ART_IMG.renoirGrenouillere },
+    { year: 1872, name: 'Impression, Sunrise', artist: 'Monet', img: ART_IMG.impressionSunrise },
+    { year: 1872, name: 'The Cradle', artist: 'Morisot', img: ART_IMG.morisotCradle },
+    { year: 1873, name: 'Hoarfrost', artist: 'Pissarro', img: ART_IMG.pissarroHoarfrost },
+    { year: 1874, name: 'Boulevard des Capucines', artist: 'Monet', img: ART_IMG.monetBoulevardCapucines },
+    { year: 1874, name: 'The Dance Class', artist: 'Degas', img: ART_IMG.degasDanceClass },
+    { year: 1875, name: 'The Floor Planers', artist: 'Caillebotte', img: ART_IMG.caillebotteFloorPlaners },
+    { year: 1875, name: 'Woman with a Parasol', artist: 'Monet', img: ART_IMG.monetParasol },
+    { year: 1875, name: 'Eugène Manet on the Isle of Wight', artist: 'Morisot', img: ART_IMG.morisotIsleWight },
+    { year: 1872, name: 'The Bridge at Villeneuve-la-Garenne', artist: 'Sisley', img: ART_IMG.sisleyBridge },
+    { year: 1876, name: 'Bal du moulin de la Galette', artist: 'Renoir', img: ART_IMG.renoirMoulinGalette },
+    { year: 1876, name: 'L’Absinthe', artist: 'Degas', img: ART_IMG.degasAbsinthe },
+    { year: 1876, name: 'Floods at Port-Marly', artist: 'Sisley', img: ART_IMG.sisleyFloods },
+    { year: 1877, name: 'The Gare Saint-Lazare', artist: 'Monet', img: ART_IMG.monetGareSaintLazare },
+    { year: 1877, name: 'Paris Street; Rainy Day', artist: 'Caillebotte', img: ART_IMG.caillebotteParisStreet },
+    { year: 1878, name: 'Little Girl in a Blue Armchair', artist: 'Cassatt', img: ART_IMG.cassattBlueArmchair },
+    { year: 1874, name: 'A Box at the Théâtre des Italiens', artist: 'Gonzalès', img: ART_IMG.gonzalesLoge },
+    { year: 1881, name: 'The Little Dancer Aged Fourteen', artist: 'Degas', img: ART_IMG.degasLittleDancer },
+    { year: 1881, name: 'Luncheon of the Boating Party', artist: 'Renoir', img: ART_IMG.renoirBoatingParty },
+    { year: 1882, name: 'A Bar at the Folies-Bergère', artist: 'Manet', img: ART_IMG.manetBar },
+    { year: 1891, name: 'Haystacks (End of Summer)', artist: 'Monet', img: ART_IMG.monetHaystacks },
+    { year: 1893, name: 'The Child’s Bath', artist: 'Cassatt', img: ART_IMG.cassattChildBath },
+    { year: 1893, name: 'Rouen Cathedral', artist: 'Monet', img: ART_IMG.monetCathedral },
+    { year: 1897, name: 'Boulevard Montmartre', artist: 'Pissarro', img: ART_IMG.pissarroBoulevard },
+  ],
+  sections: [
+    { id: 'why', eyebrow: 'The wall', dateLabel: '1860s', title: 'The world that said no', blurb: 'A generation can see the modern city — boulevards, stations, Sunday crowds — but the one official show that makes a career won’t let them paint it.', progress: 1 / 7 },
+    { id: 'eye', eyebrow: 'The technique', dateLabel: '1869', title: 'Paint what you actually see', blurb: 'Plein air, broken color, the death of black, the visible stroke — and two friends inventing the new way side by side at a river café.', progress: 2 / 7 },
+    { id: 'name', eyebrow: 'The name', dateLabel: 'April 1874', title: 'The seascape they laughed at', blurb: 'Their own show in a borrowed studio, a hazy harbor called Impression, and a critic who turned the title into a joke they decided to wear.', progress: 3 / 7 },
+    { id: 'group', eyebrow: 'The group', dateLabel: '1874–1886', title: 'A cooperative at war with itself', blurb: 'Eight shows, Degas the engine and the earthquake, and the dealer who bet everything on them twice — and was saved by America.', progress: 4 / 7 },
+    { id: 'women', eyebrow: 'The women', dateLabel: '1870s–1886', title: 'The women, in the rooms they were allowed', blurb: 'Morisot, Cassatt and Gonzalès — founders and operators who did brilliant work against a wall of access the men never had to feel.', progress: 5 / 7 },
+    { id: 'degas', eyebrow: 'The indoor eye', dateLabel: '1874–1886', title: 'Degas and the indoor eye', blurb: 'The man who never went outdoors: dancers, laundresses, the café, the bath — Japanese cropping and the caught, off-balance modern instant.', progress: 6 / 7 },
+    { id: 'last', eyebrow: 'The end', dateLabel: '1886–1926', title: 'The last show', blurb: 'Late triumphs, Monet’s serial light, the final 1886 show where Seurat’s dots ended it — and France hanging them at last, twenty-three years late.', progress: 1 },
   ],
 }
 
@@ -2096,6 +2283,6 @@ export const HORSE_FAIR: ArtWorkContent = {
 }
 
 export const ART_ERA_CONTENT: Record<string, ArtEraContent> = { mod: MODERN_ERA }
-export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, cubism: CUBISM }
+export const ART_MOVEMENT_CONTENT: Record<string, ArtMovementContent> = { real: REALISM, imp: IMPRESSIONISM, cubism: CUBISM }
 export const ART_WORK_CONTENT: Record<string, ArtWorkContent> = { burial: BURIAL, demoiselles: DEMOISELLES, kahnweiler: KAHNWEILER, 'chair-caning': CHAIR_CANING, horta: HORTA, 'violin-jug': VIOLIN_JUG, 'three-women': THREE_WOMEN, 'the-portuguese': THE_PORTUGUESE, 'gris-breakfast': GRIS_BREAKFAST, 'three-musicians': THREE_MUSICIANS, 'stone-breakers': STONE_BREAKERS, studio: STUDIO, sower: SOWER, gleaners: GLEANERS, angelus: ANGELUS, gargantua: GARGANTUA, carriage: CARRIAGE, 'horse-fair': HORSE_FAIR }
 export const ART_ARTIST_CONTENT: Record<string, ArtArtistContent> = { picasso: PICASSO }

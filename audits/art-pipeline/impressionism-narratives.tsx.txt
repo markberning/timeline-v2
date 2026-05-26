@@ -1,0 +1,746 @@
+// ── Impressionism palettes ──────────────────────────────────
+const MANET_PAL = ['#6a5a4a', '#332820', '#0e0a06'] as [string, string, string]
+const MONET_PAL = ['#3a6a8a', '#c8c050', '#1c2a30'] as [string, string, string]
+const CAILLE_PAL = ['#5a6a72', '#2e3a42', '#0e1014'] as [string, string, string]
+const MORISOT_PAL = ['#9aa0a4', '#5a6066', '#1a1e22'] as [string, string, string]
+const DEGAS_PAL = ['#7a6a4a', '#3a3020', '#100c08'] as [string, string, string]
+
+// ── 1. The world that said no ───────────────────────────────
+const WhyImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · the 1860s" title="The world that said no" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        magine a city tearing itself down and rebuilding while you watch.
+      </p>
+      <p style={proseStyle}>
+        That is the Paris these painters grew up into. Starting in 1853, an emperor&rsquo;s chief planner,{' '}<strong>Baron Haussmann</strong>, spent nearly two decades gutting the old medieval city and replacing it with
+        something that had never existed before: long straight boulevards cut clean through the slums, mile after
+        mile of matching cream-colored façades, parks, fountains, a gleaming new opera house, gaslit cafés
+        spilling onto wide sidewalks. This is{' '}<strong>Haussmannization</strong>{' '}&mdash; the wholesale
+        demolition-and-rebuild that gave Paris the look it still has today. It was brutal (whole neighborhoods
+        erased, the poor pushed to the edges) and it was, visually, electric. Overnight the city had a new face:
+        modern, bright, in motion, crowded with strangers and traffic and weather and light.
+      </p>
+      <p style={proseStyle}>
+        And here was the strange thing. A young painter could walk out the door, look straight down one of those
+        new boulevards &mdash; the crowd, the carriages, the smear of a rainy afternoon &mdash; and see, plainly,
+        the most exciting subject any artist had ever been handed. The actual present tense, the brand-new world,
+        right there. The problem was that there was nowhere to{' '}<em>show</em>{' '}it.
+      </p>
+
+      <SectionHeader accent={accent} label="The machine" title="One jury, one door, one approved kind of beauty" />
+      <p style={proseStyle}>
+        To understand why, you need the machine that ran French art, which the Realism chapter covers in full;
+        here it is in one breath. There was essentially one door to a career, the{' '}<strong>Salon</strong>{' '}&mdash; the gigantic official exhibition the State ran each year, the single show where a French painter was
+        made or buried. A jury decided what hung. And the jury was not running on arbitrary snobbery: the academy
+        had a coherent program, a whole theory of what art was{' '}<em>for</em>. Art should morally uplift; it
+        should treat the noblest, most legible subjects in a fixed hierarchy &mdash;{' '}<strong>history painting</strong>{' '}(gods, saints, kings, ancient heroes, the human body at heroic size) ranked at the very top, mere
+        landscape and still life down at the bottom; and it should prove its maker had mastered the craft. The
+        visible proof of that mastery was{' '}<em>fini</em>, &ldquo;finish&rdquo;: a surface so smoothly,
+        invisibly worked that the brushstrokes vanished and the paint looked like polished porcelain. By Salon
+        logic a proper picture showed no trace of the hand that made it, because the hand still showing meant the
+        work wasn&rsquo;t{' '}<em>done</em>. It was, on its own terms, a system that made perfect sense.
+      </p>
+      <p style={proseStyle}>
+        Now lay the modern city against that standard and watch them refuse to fit. The new Paris was fast,
+        fleeting, weather-soaked, full of ordinary people doing ordinary modern things. None of that was a god or
+        a king. And the only honest way to{' '}<em>catch</em>{' '}a passing moment &mdash; a glance, a flicker of
+        light, steam dispersing &mdash; is fast, loose, with the strokes still showing. Which is to say: the exact
+        opposite of{' '}<em>fini</em>. The subject the city was offering and the finish the jury demanded were
+        chemically incompatible. You could paint the modern world, or you could pass the jury. Not both.
+      </p>
+
+      <SectionHeader accent={accent} label="The patriarch" title="Manet lights the fuse and refuses to leave the building" />
+      <p style={proseStyle}>
+        One man had already detonated this contradiction, loudly, and he was older than the rest.{' '}<strong>Édouard Manet</strong>{' '}(1832&ndash;1883) is the figure you have to get exactly right, because almost
+        everyone gets him wrong. In 1863 he showed{' '}<em>Le Déjeuner sur l&rsquo;herbe</em>{' '}&mdash; a naked
+        woman picnicking, perfectly at ease, beside two fully clothed modern gentlemen, staring straight out at
+        the viewer with no mythological excuse whatsoever. Two years later came{' '}<em>Olympia</em>. Stand in
+        front of it and what jumps you is how{' '}<em>blunt</em>{' '}it is: a nude propped on her pillows, but
+        plainly a contemporary woman &mdash; a working courtesan, not a goddess &mdash; looking the viewer dead in
+        the eye, cool and unembarrassed, level as a transaction. A black ribbon is tied at her throat. A maid
+        leans in from the shadows holding a fat bunch of wrapped flowers, a gift just arrived; a black cat
+        bristles at the foot of the bed, tail up. And the paint itself is the affront: flat, hard-edged, laid on
+        in blunt slabs of light and dark where the Salon wanted soft, modeled, licked-smooth flesh. The public
+        was scandalized &mdash; partly by the nudity, mostly by the refusal to dress it up as myth, and by paint
+        that looked rude where it was supposed to be porcelain. (The Realism chapter tells these scandals in full;
+        the point here is what they{' '}<em>did</em>{' '}to the next generation.)
+      </p>
+      <p style={proseStyle}>
+        What they did was act like a starting gun. A circle of younger painters &mdash; Monet, Renoir, the others
+        &mdash; saw in Manet a man putting the unvarnished modern world on a Salon-scale canvas and getting away
+        with it (or at least surviving the attempt), and they gathered around him. They met to argue at the{' '}<strong>Café Guerbois</strong>, a place in the Batignolles district where, on Thursday and Sunday evenings
+        through the late 1860s, the talk ran on color and light and the stupidity of the jury, with Manet at the
+        center, the novelist Émile Zola defending him, and the rest leaning in.
+      </p>
+      <p style={proseStyle}>
+        But here is the nuance you must never blur:{' '}<strong>Manet was not an Impressionist, and he never became one.</strong>{' '}He never once exhibited in any of the eight shows the group would later stage. For all that
+        he lit their fuse and traded influence with them, his deepest wish was the one thing they were rebelling
+        against &mdash; official approval, a medal at the Salon, recognition from the very machine they were
+        walking away from. He submitted to that jury his whole life. Call him the reluctant patriarch who stayed
+        at the Salon: the father of the family who never moved into the house. The younger painters loved him,
+        learned from him, and left him behind at the front door.
+      </p>
+      <p style={proseStyle}>
+        So that is the wall. A generation that could see the modern city perfectly, a jury that would never let it
+        through, and an admired older man who showed them it could be done but refused to do it{' '}<em>with</em>{' '}them. The only way out was to stop knocking on the official door &mdash; and build their own. But first they
+        had to figure out how to paint what they were actually seeing.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={MANET_PAL}
+        imageUrl={ART_IMG.manetOlympia}
+        ratio="3/2"
+        alt="Manet, Olympia"
+        caption={<>A reclining nude who is plainly a contemporary woman, not a goddess &mdash; cool, head-on, a black ribbon at her throat, a maid bringing a bunch of flowers, a cat bristling at her feet &mdash; painted in flat, blunt, deliberately un-licked slabs of paint. Manet&rsquo;s Salon bombshell lit the fuse for the younger painters &mdash; but he himself never joined them, chasing official approval at the Salon to the end.</>}
+        credit={<>Édouard Manet,{' '}<em>Olympia</em>, 1863 · Musée d&rsquo;Orsay, Paris (NOT an Impressionist-exhibition work &mdash; Manet never showed in any of the eight)</>}
+        rights="Public domain worldwide (Édouard Manet died 1883). Wikimedia Commons."
+      />
+    </article>
+
+    <MeanwhileSheet
+      region="Paris, the building site"
+      title="The subject was being built in the street."
+      body="Haussmann's boulevards were not just a backdrop — they were the new motif itself. Within a few years the grand boulevard, the café terrace, the railway station and the rainy street would become the recurring subjects of the movement: Monet would paint the Boulevard des Capucines from an upstairs window, Caillebotte the rain-slick intersections, Pissarro the boulevards seen from above. The emperor's planner had, without meaning to, painted the city's portrait first — in stone — and handed the painters their material."
+    />
+  </>
+)
+
+// ── 2. Paint what you actually see ──────────────────────────
+const EyeImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The riverbank" title="Paint what you actually see" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is a small experiment you can run right now. Look at a shadow on a sunny day &mdash; a shadow on snow
+        is best, but pale pavement will do. You have always been told shadows are gray, or black. Look harder. On
+        a bright day that shadow is faintly{' '}<em>blue</em>. Your brain, which knows perfectly well that snow is
+        &ldquo;white&rdquo; and shadow is &ldquo;dark,&rdquo; has been quietly lying to you your whole life,
+        editing the colors into the labels it expects. The Impressionists&rsquo; entire technical revolution can
+        be summed up as: stop letting your brain edit, and paint what your eye is genuinely receiving.
+      </p>
+      <p style={proseStyle}>
+        That sounds like nothing. It was everything, because what the eye genuinely receives is{' '}<em>colored light</em>, not objects with fixed colors. A haystack is not &ldquo;yellow.&rdquo; It is whatever the six
+        a.m. light makes it, then whatever the noon light makes it, then something else entirely at five p.m.
+        &mdash; pink, lavender, orange, smoke-blue. The academy painted the{' '}<em>idea</em>{' '}of a haystack
+        (local color, the label color, mixed once and laid down smooth). The Impressionists set out to paint the{' '}<em>light landing on</em>{' '}a haystack, in one particular minute, before it changed.
+      </p>
+
+      <SectionHeader accent={accent} label="The toolkit" title="Broken color, the death of black, the visible stroke" />
+      <p style={proseStyle}>
+        To do that they rebuilt how paint goes on the canvas, and four moves matter.
+      </p>
+      <p style={proseStyle}>
+        First,{' '}<strong>plein air</strong>{' '}&mdash; French for &ldquo;open air,&rdquo; meaning you take the
+        canvas{' '}<em>outdoors</em>{' '}and finish it there, in front of the real thing, in the real changing
+        light, rather than working it up later from sketches in a dim studio. You cannot fake the actual color of
+        a cloud at four o&rsquo;clock; you have to be standing under it. (Two pieces of kit made this practical
+        &mdash; ready-made oil paint in collapsible metal tubes, an American invention of the 1840s, and the
+        folding{' '}<em>box easel</em>{' '}you could sling on your back. Useful, both of them; but neither one{' '}<em>invented</em>{' '}outdoor painting, as we&rsquo;ll see in a moment.)
+      </p>
+      <p style={proseStyle}>
+        Second,{' '}<strong>broken color</strong>{' '}and{' '}<strong>optical mixing</strong>. Instead of carefully
+        blending green paint on the palette and laying down a flat tone for grass, you stab down little separate
+        strokes of pure-ish color side by side &mdash; a dab of yellow, a dab of blue, a dab of green &mdash; and
+        let the{' '}<em>viewer&rsquo;s eye</em>{' '}do the blending at a distance. Stand close and it&rsquo;s a
+        mess of jabs. Step back and it fuses into a shimmering, living green that a single flat tone could never
+        match. (It is roughly how a screen works: tiny separate dots of color your eye combines into a picture.
+        The Impressionists got there a century early, by hand, and by instinct &mdash; this was eyeballing, not a
+        theory out of a book, a distinction that matters when the{' '}<em>next</em>{' '}generation turns it into
+        actual science.)
+      </p>
+      <p style={proseStyle}>
+        Third, the{' '}<strong>death of black</strong>. The academy built its shadows out of black and muddy
+        browns. The Impressionists largely threw black off the palette and built shadows out of{' '}<em>color</em>{' '}&mdash; that blue shadow on the snow, a violet shadow under a tree &mdash; because that is what shadows
+        actually contain when you stop editing.{' '}<strong>Colored shadows</strong>{' '}are one of the instant
+        tells of an Impressionist canvas: nothing is ever simply dark.
+      </p>
+      <p style={proseStyle}>
+        Fourth, the{' '}<strong>visible stroke</strong>. They let the brushwork{' '}<em>show</em>{' '}&mdash; the
+        jab, the smear, the drag of loaded paint &mdash; instead of sanding it down to invisible{' '}<em>fini</em>. The picture wears its own making on its face. To a Salon eye trained on porcelain finish,
+        this didn&rsquo;t look like daring. It looked unfinished, like a rough sketch someone had the gall to
+        frame. (Hold that thought; it becomes the joke that names the whole movement.)
+      </p>
+
+      <SectionHeader accent={accent} label="London" title="Turner, Constable, and a dealer in exile" />
+      <p style={proseStyle}>
+        Where did the new eye get its license? Partly from across the Channel. When the{' '}<strong>Franco-Prussian War</strong>{' '}broke out in 1870&ndash;71, Monet and Pissarro fled the fighting to
+        London &mdash; and there they spent their exile studying the English landscape painters{' '}<strong>J. M. W. Turner</strong>{' '}and{' '}<strong>John Constable</strong>, whose canvases were already
+        doing reckless things with atmosphere, weather, and dissolved light that no Frenchman had dared. It was a
+        private masterclass in painting air rather than objects. And London handed them something even more
+        practical than a lesson: the dealer{' '}<strong>Paul Durand-Ruel</strong>, who had moved his own stock to
+        London to keep it safe from the war, was there too. The man who would spend the next forty years keeping
+        the movement financially alive met two of its founders as refugees in a foreign city. (More on him in
+        Chapter 4 &mdash; he is the hinge the whole market turns on.)
+      </p>
+
+      <SectionHeader accent={accent} label="The tube" title="A useful myth, gently disarmed" />
+      <p style={proseStyle}>
+        It is worth pausing on a famous line that the collapsible metal{' '}<strong>paint tube</strong>{' '}&ldquo;made Impressionism possible.&rdquo; The tube was real &mdash; an American painter, John Goffe Rand,
+        patented it in 1841, and ready-made tube paint in bright new synthetic pigments (chrome yellow, cobalt
+        blue, viridian green) genuinely did let these painters work brighter, lighter, and faster than any
+        generation before. But it didn&rsquo;t{' '}<em>cause</em>{' '}the movement. Painters had worked outdoors
+        for decades before &mdash; the Barbizon landscapists (the Realism chapter covers them) were out in the
+        fields with the previous generation&rsquo;s kit. The catchiest version of the legend, &ldquo;without paint
+        in tubes there would have been no Impressionism,&rdquo; comes from Renoir&rsquo;s son writing a memoir in
+        1962, decades after the fact, putting a quip in his father&rsquo;s mouth. Treat it as a charming
+        exaggeration, not a cause. The tube was an enabler, like a good pair of boots is an enabler for a long
+        walk. It did not decide where anyone walked.
+      </p>
+
+      <SectionHeader accent={accent} label="La Grenouillère" title="Two friends, one spot, the new way found" />
+      <p style={proseStyle}>
+        You can watch the new way of seeing get invented at a single muddy spot on the river. In the summer of
+        1869{' '}<strong>Claude Monet</strong>{' '}(1840&ndash;1926) and{' '}<strong>Pierre-Auguste Renoir</strong>{' '}(1841&ndash;1919) &mdash; broke, hungry, sharing what little they had &mdash; set up their easels side by
+        side at{' '}<strong>La Grenouillère</strong>{' '}(&ldquo;the frog pond&rdquo;), a rowdy floating
+        café-and-bathing resort on the Seine just outside Paris, the kind of cheap day-trip pleasure spot the new
+        railways had put within reach of every Parisian clerk.
+      </p>
+      <p style={proseStyle}>
+        Look at what they painted. Not a grand composition &mdash; just the dazzle of a Sunday: dark little
+        rowboats clustered on water that is a churning chop of horizontal strokes, blue and green and white and
+        black laid down in quick separate dashes that{' '}<em>read</em>{' '}as moving, sun-struck water the instant
+        you stop staring at the individual marks. Bathers are a few flicks of paint. The dappled light coming
+        through the trees is dabs. Nobody&rsquo;s face is finished; nobody needs to be. The whole thing has the
+        speed of the thing it depicts. Two friends stood at the same view and each came back with a canvas that
+        looked less like a &ldquo;picture&rdquo; than like a held breath of an actual afternoon.
+      </p>
+      <p style={proseStyle}>
+        That is the year the eye changed. They didn&rsquo;t have the name yet &mdash; that was five years and one
+        furious critic away &mdash; and they certainly didn&rsquo;t have a buyer. But the{' '}<em>method</em>{' '}was now real: the loose, bright, broken-color sketch, finished on the spot, treated not as a study for some
+        later proper painting but as the proper painting itself. All they needed now was a wall to hang it on. The
+        Salon was never going to give them one.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={MONET_PAL}
+        imageUrl={ART_IMG.monetGrenouillere}
+        ratio="4/3"
+        alt="Monet, La Grenouillère"
+        caption={<>A floating café and bathing spot on the Seine, painted on the spot in quick separate dashes &mdash; water that is a chop of blue, green, white and black strokes reading as real moving light the instant you step back, bathers reduced to a few flicks. Monet and Renoir set up side by side here in 1869; this is the new way of seeing being invented in real time.</>}
+        credit={<>Claude Monet,{' '}<em>La Grenouillère</em>, 1869 · The Metropolitan Museum of Art, New York (Renoir painted the same scene the same day; his version is in the Nationalmuseum, Stockholm)</>}
+        rights="Public domain worldwide (Claude Monet died 1926). Wikimedia Commons."
+      />
+    </article>
+  </>
+)
+
+// ── 3. The seascape they laughed at ─────────────────────────
+const NameImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris · April 1874" title="The seascape they laughed at" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>B</DropCap>
+        y the early 1870s the younger painters had run out of patience with knocking on a door that would not
+        open. The Franco-Prussian War of 1870&ndash;71 had just scattered them violently &mdash; their gifted
+        friend{' '}<strong>Frédéric Bazille</strong>{' '}was killed in action, age 28, before any of this had a
+        name &mdash; and the survivors came back to a Paris where the jury was no friendlier than before. So{' '}<strong>Camille Pissarro</strong>{' '}(1830&ndash;1903), the eldest of them and the closest thing the group
+        had to a steady conscience, proposed the obvious heresy: stop begging the official machine for a wall.
+        Build your own show.
+      </p>
+      <p style={proseStyle}>
+        In December 1873 they did the paperwork. They formed a{' '}<strong>cooperative</strong>{' '}&mdash; a
+        business that the members own and run jointly, sharing the costs and the takings &mdash; and gave it a
+        name so dull it was almost a joke: the{' '}<strong>Société Anonyme des Artistes Peintres, Sculpteurs, Graveurs</strong>{' '}(&ldquo;Anonymous Society of Painters, Sculptors, Engravers&rdquo;).
+        &ldquo;Anonymous&rdquo; here is just the French legal term for a joint-stock company; there was nothing
+        mysterious about it. The point was independence: their own jury (which is to say, no jury), their own
+        walls, their own door.
+      </p>
+
+      <SectionHeader accent={accent} label="Nadar's studio" title="Thirty painters, one franc, three thousand laughs" />
+      <p style={proseStyle}>
+        The first show opened on{' '}<strong>15 April 1874</strong>{' '}and ran a month. The venue tells you
+        everything about their world: they borrowed the empty upstairs rooms of a famous{' '}<em>photographer</em>,{' '}<strong>Nadar</strong>, at 35 boulevard des Capucines &mdash; the photographer lending his old studio to
+        the painters whose whole problem was that a camera could now do &ldquo;finish&rdquo; better than any human
+        hand. Admission was one franc. Thirty-odd artists hung something like 165 to 175 works. Monet, Renoir,
+        Pissarro, Sisley, Degas, Berthe Morisot &mdash; the founding core was there. Manet, characteristically,
+        was not; he was still angling for the Salon and feared the company would ruin his chances.
+      </p>
+      <p style={proseStyle}>
+        Around three and a half thousand people came. Many of them came to laugh.
+      </p>
+
+      <SectionHeader accent={accent} label="No. 98" title="A title given in a shrug, an insult given in print" />
+      <p style={proseStyle}>
+        Hanging in those rooms was a small canvas by Monet, barely a foot and a half tall: a hazy harbor at dawn,
+        the water and sky melting into one soft gray-pink-blue murk, a few dark boats sketched in shorthand, and
+        &mdash; the one hot note in the whole picture &mdash; a small, fierce dab of orange sun, its reflection
+        broken across the water in a few quick licks. It was catalogue{' '}<strong>No. 98</strong>.
+      </p>
+      <p style={proseStyle}>
+        It needed a title for that catalogue, and here the story is best told as Monet himself later told it (so
+        take it as his own recollection, not court testimony): asked what to call it, and knowing it
+        &ldquo;couldn&rsquo;t really pass as a view of Le Havre&rdquo; &mdash; too loose, too vague, too obviously{' '}<em>not</em>{' '}a finished topographical view of the port &mdash; he shrugged and said, in effect, just put{' '}<em>Impression</em>. And so it hung as{' '}<em>Impression, Sunrise</em>.
+      </p>
+      <p style={proseStyle}>
+        That word was already drifting around the painters&rsquo; own vocabulary; one friendly critic, Jules
+        Castagnary, even used &ldquo;impressionists&rdquo; approvingly that very month. But it took an enemy to
+        make it stick. On 25 April 1874 a satirist named{' '}<strong>Louis Leroy</strong>{' '}published a review in
+        the comic paper{' '}<em>Le Charivari</em>{' '}&mdash; and he titled it, with a sneer, &ldquo;The Exhibition
+        of the Impressionists.&rdquo; He wrote it as a comic skit: he walks the show arm in arm with an invented
+        stuffy academic painter who grows steadily more apoplectic at the unfinished-looking pictures. Stopping in
+        front of No. 98, the punchline lands (this is the widely reproduced translation):{' '}<em>Impression &mdash; I was certain of it. I was just telling myself that, since I was impressed, there had to be some impression in it... and what freedom, what ease of workmanship! Wallpaper in its embryonic state is more finished than that seascape.</em>
+      </p>
+      <p style={proseStyle}>
+        Wallpaper is more finished than that. There, in one line, is the whole quarrel: a critic raised on{' '}<em>fini</em>{' '}looking at the visible stroke and seeing not a method but a failure &mdash; an unfinished
+        smear that someone had the nerve to frame and charge a franc for.
+      </p>
+
+      <SectionHeader accent={accent} label="The banner" title="Wearing the joke" />
+      <p style={proseStyle}>
+        So, to be precise about a thing the romantic version always fudges: Leroy did not invent the word from
+        thin air. Monet had titled the painting; a friendly critic had already used the term kindly. What Leroy
+        did was{' '}<em>weaponize</em>{' '}it &mdash; turn the painters&rsquo; own quiet word into a public joke at
+        their expense, and make it stick to all of them at once.
+      </p>
+      <p style={proseStyle}>
+        And then the painters did the thing that makes them permanently likable: they picked the insult up off the
+        floor and ran it up a flagpole. Within three years &mdash; by their third exhibition in 1877 &mdash; they
+        had stopped fighting the name and openly called themselves{' '}<em>les Impressionnistes</em>. It is the same
+        trick the Realists had pulled with &ldquo;Realism&rdquo; before them and the{' '}<strong>Fauves</strong>{' '}(&ldquo;wild beasts&rdquo;) would pull after them: take the word the enemy threw at you and wear it like a
+        medal. A movement that had no manifesto, no agreed program, and no founding creed got, instead, a name
+        &mdash; handed to it by a man who meant it as a punchline. They said thank you and put it on the door.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={MONET_PAL}
+        imageUrl={ART_IMG.impressionSunrise}
+        ratio="4/3"
+        alt="Monet, Impression, Sunrise"
+        caption={<>A hazy harbor at dawn, water and sky melting into one soft murk, a few boats sketched in shorthand, and one fierce dab of orange sun broken in licks across the water. Barely a foot and a half tall. Monet shrugged out the title &ldquo;Impression&rdquo; for the catalogue; a hostile critic turned it into a joke; the painters wore the joke as their name.</>}
+        credit={<>Claude Monet,{' '}<em>Impression, Sunrise</em>, 1872 · Musée Marmottan Monet, Paris (catalogue No. 98 at the 1874 exhibition)</>}
+        rights="Public domain worldwide (Claude Monet died 1926). Wikimedia Commons."
+      />
+    </article>
+  </>
+)
+
+// ── 4. A cooperative at war with itself ─────────────────────
+const GroupImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="1874–1886" title="A cooperative at war with itself" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>I</DropCap>
+        t is tempting to picture the Impressionists as a band of brothers &mdash; comrades against the jury, loyal
+        to the end. The truth is messier and more human: they were a fractious cooperative that spent twelve years
+        and eight exhibitions fighting{' '}<em>each other</em>{' '}nearly as hard as they fought the Salon. The
+        wonder is not that the group fell apart in 1886. The wonder is that it held together long enough to win.
+      </p>
+      <p style={proseStyle}>
+        They mounted{' '}<strong>eight exhibitions</strong>{' '}between 1874 and 1886, and almost nobody showed up
+        to all of them. In fact, of the entire shifting cast, exactly{' '}<strong>one</strong>{' '}painter exhibited
+        in all eight: the patient eldest, Pissarro, the conscience of the thing, who simply kept turning up.
+        Everyone else came and went depending on the quarrel of the year.
+      </p>
+
+      <SectionHeader accent={accent} label="The fracture line" title="Degas, the engine and the earthquake" />
+      <p style={proseStyle}>
+        The chief quarrel had a name:{' '}<strong>Edgar Degas</strong>{' '}(1834&ndash;1917). Degas was the
+        group&rsquo;s organizing engine &mdash; tireless about staging the shows, recruiting, arguing &mdash; and
+        simultaneously its great internal earthquake. He had two convictions that kept blowing the cooperative
+        apart. First, a hard rule: if you showed with the independents, you were{' '}<em>forbidden</em>{' '}to also
+        submit to the Salon &mdash; no hedging, no double-dipping. Second, he kept insisting on inviting his own
+        allies, Realist illustrators and figure painters who weren&rsquo;t really doing the bright plein-air thing
+        at all, which the landscape men resented.
+      </p>
+      <p style={proseStyle}>
+        Picture how that played in the room. Monet, Renoir, and Sisley still needed Salon sales to eat, and
+        Degas&rsquo;s no-Salon rule was, to them, a luxury demanded by men with private incomes. So when Degas
+        pressed it &mdash;{' '}<em>show with us and you may not show there</em>{' '}&mdash; the landscape men simply
+        walked. They sat out the show of 1879 and stayed out; by the sixth exhibition in 1881, Monet, Renoir,
+        Sisley, Caillebotte, and Cézanne were{' '}<em>all</em>{' '}absent, leaving the room a largely Degas-faction
+        affair stuffed with his Realist friends. The thing had nearly become two rival shows wearing one name.
+      </p>
+      <p style={proseStyle}>
+        Then in 1882 it swung the other way, and the swing had an author: the dealer{' '}<strong>Paul Durand-Ruel</strong>{' '}&mdash; who had a great deal of his money tied up in Monet, Renoir, and
+        Sisley canvases and needed those names exhibiting together &mdash; pushed to get the landscape men back in
+        for what became the most purely Impressionist of the late shows. Degas, contrary to the end, abstained
+        from that one in a huff rather than show beside the plein-air crowd on someone else&rsquo;s terms. The
+        &ldquo;Impressionist exhibitions&rdquo; were, much of the time, an argument with the lights on.
+      </p>
+      <p style={proseStyle}>
+        Two more painters drift through this story and matter.{' '}<strong>Paul Cézanne</strong>{' '}(1839&ndash;1906) showed in the first and third exhibitions, got savaged by the critics, and quietly
+        withdrew to work alone in Provence &mdash; he{' '}<em>passed through and left</em>, and what he did next
+        would help found the movement that buried Impressionism. He did not arrive untutored: around 1872, the
+        patient Pissarro took the younger Cézanne under his wing out at Pontoise, painting beside him in the
+        fields and coaxing him away from his early murky studio manner toward working directly from nature &mdash;
+        Pissarro the conscience again, this time as a teacher. And{' '}<strong>Gustave Caillebotte</strong>{' '}(1848&ndash;1894) &mdash; a wealthy engineer-painter &mdash; was the group&rsquo;s banker, financing
+        several of the shows out of his own pocket and buying his friends&rsquo; work when no one else would.
+      </p>
+      <p style={proseStyle}>
+        But to leave Caillebotte as the money man would be to miss a real painter. His own canvases are
+        unmistakable: cool, sharp-edged, almost photographic pictures of Haussmann&rsquo;s new Paris, painted with
+        a hard precision the looser Impressionists never aimed for.{' '}<em>The Floor Planers</em>{' '}(1875) &mdash;
+        three shirtless workmen scraping a parquet floor, muscled and anonymous &mdash; was rejected by the Salon
+        as vulgar before he hung it at the 1876 exhibition.{' '}<em>Paris Street; Rainy Day</em>{' '}(1877) is the
+        masterpiece: a vast canvas of well-dressed Parisians under umbrellas crossing a wet, gleaming boulevard
+        intersection, the cobbles and the great wedge of a new apartment block rendered with an almost
+        architectural exactness. He didn&rsquo;t just pay for the modern city to be painted. He painted it
+        himself, harder-edged than anyone. (He also left so much of his collection to the French state in his will
+        that the bequest set off a fight &mdash; a story this reading saves for its last chapter.)
+      </p>
+
+      <SectionHeader accent={accent} label="The dealer" title="Durand-Ruel bets everything, twice" />
+      <p style={proseStyle}>
+        A cooperative can hang its own pictures. It cannot, by itself, create{' '}<em>buyers</em>. For that the
+        movement needed a{' '}<strong>dealer</strong>{' '}&mdash; a merchant who buys paintings from artists and
+        resells them at a profit, and who, crucially, can keep an artist alive by paying for work the public
+        hasn&rsquo;t learned to want yet. The Impressionists&rsquo; dealer, and one of the genuine heroes of the
+        story, was{' '}<strong>Paul Durand-Ruel</strong>{' '}(1831&ndash;1922).
+      </p>
+      <p style={proseStyle}>
+        Durand-Ruel did something nearly unheard of: he bet on these painters{' '}<em>in bulk</em>. He had met
+        Monet and Pissarro in London during the war (where all three had fled), and from 1872 he began buying
+        their work by the armful &mdash; not a canvas here and there, but cornering an artist&rsquo;s entire
+        output, paying a steady stream so the painter could keep painting. He once bought some two dozen canvases
+        out of Manet&rsquo;s studio in a single swoop. It was a radical, all-in business model: stockpile an
+        unfashionable artist and wait for the world to catch up.
+      </p>
+      <p style={proseStyle}>
+        The world took its time, and the wait nearly destroyed him. By the mid-1880s Durand-Ruel was sitting on a
+        mountain of unsold Impressionist paintings and was close to bankruptcy &mdash; he had bought faster than
+        France would buy from him. What saved him was a continent away. In 1886 an American association invited him
+        to bring the pictures to{' '}<strong>New York</strong>, and the New York exhibitions were a hit: Americans,
+        with no Salon prejudice to overcome and new money to spend, bought what Paris still mocked. It opened the
+        entire American market; he opened a New York branch the next year. His own verdict was blunt and grateful:
+        without America, he said, he would have been ruined after buying so many Monets and Renoirs &mdash; the
+        two 1886 shows over there saved him.
+      </p>
+      <p style={proseStyle}>
+        So follow the irony all the way down. The movement that began with a mocked seascape in a borrowed
+        photographer&rsquo;s studio was, in the end, kept alive less by the country that produced it than by the
+        country that imported it. The Salon never did come around in time. The buyers came from across an ocean
+        &mdash; which is one reason so many of the greatest Impressionist canvases hang today not in Paris but in
+        Chicago, Washington, and New York.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={CAILLE_PAL}
+        imageUrl={ART_IMG.caillebotteParisStreet}
+        ratio="4/3"
+        alt="Caillebotte, Paris Street; Rainy Day"
+        caption={<>Well-dressed Parisians under umbrellas crossing a wet, gleaming boulevard intersection, the cobbles and a great wedge of new apartment block rendered with almost architectural precision. Caillebotte &mdash; the group&rsquo;s wealthy financier &mdash; was also a sharp, cool, almost photographic painter of Haussmann&rsquo;s new Paris in his own right, not merely the man who paid the bills.</>}
+        credit={<>Gustave Caillebotte,{' '}<em>Paris Street; Rainy Day</em>, 1877 · Art Institute of Chicago</>}
+        rights="Public domain worldwide (Gustave Caillebotte died 1894). Wikimedia Commons."
+      />
+    </article>
+
+    <MeanwhileSheet
+      region="New York"
+      title="The country that didn't say no."
+      body="While Paris was still treating Impressionism as a joke or a scandal, the American market, reached through Durand-Ruel's 1886 New York shows, simply bought it. No Salon, no jury, no century of academic taste to defend — just collectors with money and no reason to be offended. It saved the dealer, opened the U.S. to the movement, and is the direct reason an American visitor today can see world-class Monets, Renoirs and Degas without crossing the Atlantic at all."
+    />
+  </>
+)
+
+// ── 5. The women, in the rooms they were allowed ────────────
+const WomenImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Paris" title="The women, in the rooms they were allowed" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>H</DropCap>
+        ere is a fact the tote-bag version of Impressionism quietly drops: some of the movement&rsquo;s founders,
+        its most loyal members, and its sharpest operators were women &mdash; and the reason their paintings look
+        the way they look is not a gentle preference for domestic things. It is a{' '}<em>wall</em>. We need to name
+        the wall plainly, because softening it is exactly how their achievement gets misread.
+      </p>
+      <p style={proseStyle}>
+        A respectable bourgeois woman in 1870s Paris could not go where the male Impressionists went. She could
+        not sit alone in a café sketching strangers. She could not loiter at the racetrack, go backstage at the
+        ballet, drink at the bar of the Folies-Bergère, or stand in a working-class dance hall taking notes. Those
+        modern, public, often slightly disreputable spaces &mdash; the exact spaces that were the male
+        painters&rsquo; richest subject matter &mdash; were closed to her by the iron etiquette of her class. So
+        the women painted what they{' '}<em>were allowed to see</em>: the drawing room, the garden, the nursery,
+        women and children in private interiors. Not because their ambition was small. Because the door to
+        everywhere else was bolted. The constraint is the story. Read these canvases as brilliant work done inside
+        a cage, and they snap into focus.
+      </p>
+
+      <SectionHeader accent={accent} label="Berthe Morisot" title="Founder, not footnote" />
+      <p style={proseStyle}>
+        Start with{' '}<strong>Berthe Morisot</strong>{' '}(1841&ndash;1895), and start by deleting the word
+        &ldquo;muse.&rdquo; Morisot was a{' '}<em>founding member</em>{' '}of the Société Anonyme &mdash; there at
+        the start, a signer, an organizer &mdash; and she was its most faithful exhibitor after Pissarro, showing
+        in all but one of the eight exhibitions (she missed only 1879, the year she had her daughter). She married
+        into the circle &mdash; to Eugène Manet, brother of Édouard &mdash; but &ldquo;married into&rdquo;
+        undersells her: at the very end, in 1886, she and Eugène{' '}<strong>organized and financed the eighth and final exhibition</strong>{' '}themselves. She didn&rsquo;t drift through the movement. She helped run it,
+        from the first show to the last.
+      </p>
+      <p style={proseStyle}>
+        Look at her best-known canvas,{' '}<em>The Cradle</em>{' '}(1872): a young mother seated beside a gauzy
+        bassinet, watching her sleeping infant through the veil of netting, her hand at her cheek. It is painted
+        with the lightest, most translucent touch in the whole movement &mdash; the white netting is a few breaths
+        of thinned paint you can almost see through &mdash; and it is doing something the men literally could not.
+        This is the female world observed{' '}<em>from inside</em>{' '}it, by someone who lived in those rooms and
+        made them the subject. The tenderness is real. So is the boundary that produced it &mdash; and
+        Morisot&rsquo;s answer to the boundary was not to apologize for the nursery but to paint it more finely
+        than anyone alive.
+      </p>
+
+      <SectionHeader accent={accent} label="Mary Cassatt" title="The American who ran the market" />
+      <p style={proseStyle}>
+        <strong>Mary Cassatt</strong>{' '}(1844&ndash;1926) was the outsider&rsquo;s outsider: an American, from
+        Pittsburgh, who came to Paris to be a serious painter and refused to go home. When Degas &mdash; who
+        admired her work &mdash; invited her to exhibit with the independents, she weighed it and{' '}<em>accepted</em>, glad to be free of the Salon jury she had come to despise; she debuted with the group in
+        1879. Her great subject was mothers and children and the interior lives of women &mdash; again, the
+        territory open to her &mdash; rendered with a hard, modern, unsentimental edge and a deep debt to Japanese
+        woodblock prints, whose flat planes and bold outlines she studied and openly echoed in her own color
+        prints.
+      </p>
+      <p style={proseStyle}>
+        But Cassatt&rsquo;s most consequential agency was not on the canvas at all &mdash; it was over the{' '}<em>market</em>, the very lever the women were supposedly shut out of. She had a wealthy American friend, the
+        collector Louisine Havemeyer, and Cassatt became her advisor, steering first-rate Impressionist (and Old
+        Master) pictures into the Havemeyer collection. That collection is a huge part of why the Metropolitan
+        Museum in New York is now stuffed with masterpieces. Sit with that: a woman the Paris establishment
+        regarded as a curiosity quietly redirected the flow of great paintings across an ocean and helped build
+        one of the world&rsquo;s major museums by proxy. She did not just make the art. She moved it.
+      </p>
+
+      <SectionHeader accent={accent} label="Eva Gonzalès" title="Named, so she isn't a token" />
+      <p style={proseStyle}>
+        And there was a third, who gets dropped from the story so routinely that naming her is itself a small
+        correction.{' '}<strong>Eva Gonzalès</strong>{' '}(1849&ndash;1883) was Manet&rsquo;s only formal pupil, a
+        real talent working inside the same circle &mdash; and she died at thirty-four, of an embolism following
+        childbirth, six days after Manet himself. Include her, and the women stop being a tidy duo and become what
+        they were: a cohort, working at the top of the movement, against a wall the men never had to feel. The
+        wall is not a sad footnote to their story. It is the thing they painted around, and beat.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={MORISOT_PAL}
+        imageUrl={ART_IMG.morisotCradle}
+        ratio="4/5"
+        alt="Morisot, The Cradle"
+        caption={<>A young mother watches her sleeping infant through the gauze of a bassinet, her hand at her cheek &mdash; the netting rendered in a few breaths of thinned, translucent paint. The female world observed from inside it, by a founding member of the movement who made the one room left open to a respectable woman &mdash; the nursery &mdash; into the subject of a masterpiece.</>}
+        credit={<>Berthe Morisot,{' '}<em>The Cradle</em>, 1872 · Musée d&rsquo;Orsay, Paris</>}
+        rights="Public domain worldwide (Berthe Morisot died 1895). Wikimedia Commons."
+      />
+    </article>
+  </>
+)
+
+// ── 6. Degas and the indoor eye ─────────────────────────────
+const DegasImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="The studio" title="Degas and the indoor eye" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>N</DropCap>
+        ow for the man who breaks every rule you have just learned, including the ones his own movement was built
+        on.
+      </p>
+      <p style={proseStyle}>
+        If &ldquo;Impressionism&rdquo; means going outdoors to paint the changing light, then{' '}<strong>Edgar Degas</strong>{' '}was not an Impressionist &mdash; and he would have agreed with you, loudly. Degas{' '}<em>never painted outdoors.</em>{' '}He scorned the whole plein-air religion; he worked in his studio, from
+        drawings and memory, building his pictures with the deliberation of an old-master draftsman who simply
+        happened to have chosen the most modern subjects in Paris. He preferred to call himself a Realist, or an
+        Independent, and he openly{' '}<em>hated</em>{' '}being lumped in as an Impressionist. (The movement&rsquo;s
+        most relentless organizer despised its name &mdash; one more reason the name was never anyone&rsquo;s
+        manifesto.) And yet his pictures are unmistakably part of the same revolution. Hold both facts at once;
+        the contradiction is the point of the man.
+      </p>
+
+      <SectionHeader accent={accent} label="The subjects" title="Dancers, laundresses, the café, the bath" />
+      <p style={proseStyle}>
+        What Degas brought was the indoor modern eye, pointed at the parts of the new city the others mostly
+        missed. His great recurring subject was the{' '}<strong>ballet</strong>{' '}&mdash; but not the ballet of
+        the gala performance. He painted the{' '}<em>work</em>: dancers rehearsing, scratching, yawning, adjusting
+        a shoe, exhausted, caught in the ungraceful in-between moments, a teacher with a stick, sunlight from a
+        high studio window. He painted laundresses straining over an iron, jockeys and horses fidgeting before a
+        race, women washing themselves in shallow tubs (he called it seeing them &ldquo;as if through a
+        keyhole&rdquo; &mdash; the unposed body doing an ordinary private thing). It was modern life, like the
+        others &mdash; but the{' '}<em>labor</em>{' '}and the awkward private instant rather than the sunny Sunday.
+      </p>
+
+      <SectionHeader accent={accent} label="The eye" title="Japonisme and the caught, off-balance moment" />
+      <p style={proseStyle}>
+        The look of a Degas is built from two tools. The first is the{' '}<strong>off-balance, caught moment</strong>{' '}&mdash; figures sliced by the edge of the canvas, a dancer cropped in half by the
+        frame, a great swathe of empty floor where a Salon painter would have centered everything tidily. It looks
+        like a snapshot grabbed before the subject could compose herself, which is exactly the modern, accidental
+        feeling he was after.
+      </p>
+      <p style={proseStyle}>
+        The second tool has a name:{' '}<em>Japonisme</em>. When Japan reopened to trade in the 1850s&ndash;60s,
+        Japanese woodblock prints &mdash;{' '}<em>ukiyo-e</em>, the cheap, brilliant &ldquo;pictures of the
+        floating world&rdquo; by masters like Hokusai, Hiroshige, and Utamaro &mdash; flooded into Paris and
+        detonated French ideas about composition. These prints did everything the academy forbade: flat planes of
+        unshaded color, daring asymmetry, high or odd viewpoints, and radical{' '}<em>cropping</em>{' '}(a figure
+        casually cut off by the frame as if the world simply continued past the edge of the paper). Degas and
+        Cassatt didn&rsquo;t passively absorb this; they raided it &mdash; studying the prints, owning them, and
+        deliberately importing their devices into French pictures (Cassatt&rsquo;s color prints openly rework
+        Utamaro&rsquo;s compositions of women at their domestic tasks). That cropped, tilted, off-center Degas
+        dancer is, in part, a Paris ballet studio built on the compositional logic of a Tokyo print, borrowed on
+        purpose.
+      </p>
+      <p style={proseStyle}>
+        Look at{' '}<em>The Dance Class</em>{' '}(1874): a rehearsal room seen at a slightly high, tilted angle, the
+        floor tipping up toward you, a knot of young dancers scattered unevenly across it &mdash; one scratching
+        her back, one twisting to look, several merely{' '}<em>waiting</em>{' '}&mdash; an old ballet master in the
+        middle leaning on his stick. No center, no symmetry, no posed climax. Just a real working room caught
+        mid-yawn. There is not a square inch of open air in it, and it is one of the purest pictures the movement
+        produced.
+      </p>
+
+      <SectionHeader accent={accent} label="The scandals" title="L'Absinthe and a wax girl in a real skirt" />
+      <p style={proseStyle}>
+        Degas&rsquo;s modern eye had an edge that could draw blood.{' '}<em>L&rsquo;Absinthe</em>{' '}(1875&ndash;76)
+        takes its name from{' '}<strong>absinthe</strong>{' '}&mdash; the cheap, potent, faintly disreputable green
+        spirit that was the drink of the Paris demi-monde, with a whiff of addiction and ruin about it; naming the
+        picture after it was half the scandal before anyone even looked. And then you look. The two figures are
+        shoved off into the upper right of the canvas &mdash; a hollow-eyed woman with a glass of the cloudy green
+        liquor in front of her, a disheveled man slumped beside her &mdash; while the entire lower-left foreground
+        is given over to a zig-zag of empty marble café tables marching in at a steep, vertiginous tilt. The
+        palette is drained to greys and browns; the one charged note of color in the whole picture is the
+        milky-green absinthe in her glass. The figures don&rsquo;t look at each other or at us; they stare past
+        everything into nothing. Compositionally they are nearly crowded out of their own portrait &mdash; and
+        that off-to-the-side emptiness is the picture&rsquo;s whole argument: the loneliness of the modern city,
+        two people alone{' '}<em>together</em>{' '}in a crowded café, rendered without a shred of comfort. When it
+        was later shown in London, critics recoiled at it as ugly and degrading &mdash; which rather missed that
+        the chill was the entire point.
+      </p>
+      <p style={proseStyle}>
+        His strangest provocation wasn&rsquo;t a painting at all. At the sixth exhibition in 1881 he unveiled{' '}<em>The Little Dancer Aged Fourteen</em>: a two-thirds-life-size{' '}<strong>wax</strong>{' '}sculpture of a
+        young ballet student &mdash; and he dressed her in a{' '}<em>real</em>{' '}fabric tutu, a real bodice, a
+        real ribbon in her hair, and real hair. The realism was uncanny, almost taxidermic; viewers found it
+        disturbing, even monstrous, a little too much like a real specimen in a{' '}<em>vitrine</em>{' '}(a glass
+        display case). It scandalized the show. It is now, of course, one of the most beloved objects in
+        nineteenth-century art &mdash; cast in bronze after his death and standing in museums on three continents
+        &mdash; which is the usual fate of these scandals: the thing that horrified one generation becomes the
+        postcard the next one lines up to buy.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={DEGAS_PAL}
+        imageUrl={ART_IMG.degasDanceClass}
+        ratio="1/1"
+        alt="Degas, The Dance Class"
+        caption={<>A ballet rehearsal seen from a high, tilted angle, the floor tipping toward you, young dancers scattered unevenly &mdash; one scratching, one twisting, several just waiting &mdash; an old master leaning on his stick at the center of nothing in particular. Cropped and off-balance like a Japanese print, caught like a snapshot, and not a square inch of open air: Degas&rsquo;s indoor Impressionism.</>}
+        credit={<>Edgar Degas,{' '}<em>The Dance Class</em>, 1874 · The Metropolitan Museum of Art, New York</>}
+        rights="Public domain worldwide (Edgar Degas died 1917). Wikimedia Commons."
+      />
+    </article>
+  </>
+)
+
+// ── 7. Winning, slowly, separately ──────────────────────────
+const LastImpNarrative: Narrative = ({ accent, onZoom }) => (
+  <>
+    <article style={{ padding: '18px 18px 40px' }}>
+      <SectionHeader accent={accent} label="Giverny" title="Winning, slowly, separately" first />
+      <p style={proseStyle}>
+        <DropCap accent={accent}>P</DropCap>
+        icture Claude Monet in his seventies, rich and famous, standing at the edge of a pond he had dug himself.
+        At Giverny, the village house he bought and then expanded, he built a water-garden &mdash; a lily pond, a
+        green Japanese footbridge, banks of iris and wisteria &mdash; and spent his last decades painting it, over
+        and over, on canvases so large he had a special studio raised to hold them. The man the public had once
+        come to{' '}<em>laugh at</em>{' '}now had gardeners, a chauffeur, dealers competing for his work, and a
+        private paradise built solely to be painted. This is where the story of &ldquo;the poor, doomed
+        Impressionists&rdquo; goes to die.
+      </p>
+      <p style={proseStyle}>
+        Because the legend is wrong, and it is worth correcting precisely. Not all of them won, and one of them
+        genuinely didn&rsquo;t:{' '}<strong>Alfred Sisley</strong>{' '}(1839&ndash;1899) &mdash; British-born but
+        Paris-based, the most single-mindedly devoted pure landscapist of the whole group, the one who never
+        wandered off into figures or fashion the way Renoir did &mdash; stayed poor his entire life and died poor,
+        in 1899, just as the prices of the others were beginning to climb; the surge in{' '}<em>his</em>{' '}prices
+        came only after he was in the ground, which is the cruelest possible version of recognition. Pissarro
+        struggled for years before things eased. But for most of them the honest arc is &ldquo;struggled early,
+        then mostly won.&rdquo; Manet and Degas had always been comfortable; Caillebotte was wealthy; and by the
+        1880s Monet and Renoir were selling, traveling, prospering. Monet would die in 1926 a famous and wealthy
+        man in that very water-garden. The mockery had not stopped them. It had merely been early.
+      </p>
+      <p style={proseStyle}>
+        And as they won, they scattered &mdash; each pushing his own discovery further on his own. Monet&rsquo;s
+        late move is the clearest. Having spent his life chasing the light of a single moment, he started painting
+        the{' '}<em>same subject over and over</em>{' '}&mdash; a row of haystacks, the front of Rouen Cathedral
+        &mdash; at different hours and seasons, hanging the variations together so you could see the light itself
+        change across a wall. The{' '}<strong>Haystacks</strong>{' '}series (1890&ndash;91, around twenty-five
+        canvases) and the{' '}<strong>Rouen Cathedral</strong>{' '}series (the 1890s, thirty-odd canvases) are the
+        original Impressionist idea taken to its logical extreme: the subject barely matters; the light is the
+        whole picture. It is, in a sense, the movement completing itself &mdash; and quietly pointing past itself,
+        since when the object stops mattering you are already most of the way to abstraction.
+      </p>
+
+      <SectionHeader accent={accent} label="1886" title="The last show, and the picture that ended it" />
+      <p style={proseStyle}>
+        The eighth exhibition opened in May 1886, organized and paid for, fittingly, by Berthe Morisot and Eugène
+        Manet &mdash; a movement that began in a borrowed studio ending in a show its founding woman put on
+        herself. Most of the old core stayed away: no Monet, no Renoir, no Sisley, no Caillebotte. The band was
+        effectively done. And then, on the wall, hung the picture that announced what was coming next.
+      </p>
+      <p style={proseStyle}>
+        It was by a young painter named Georges Seurat, and it was enormous:{' '}<em>A Sunday on La Grande Jatte</em>, a sunny riverside park full of stiff, frozen, oddly toy-like Parisians at leisure. But look
+        closely &mdash; closer than the Impressionists ever asked you to &mdash; and the entire surface is built
+        from millions of tiny, separate, mechanical{' '}<em>dots</em>{' '}of pure color, applied with a deliberate,
+        almost scientific precision. This is{' '}<strong>Pointillism</strong>: optical mixing turned from the
+        Impressionists&rsquo; loose, intuitive eyeballing into a rigorous{' '}<em>system</em>, the dot as method,
+        color theory followed like a manual. Where Monet had dashed the light down in a hurried instant, Seurat
+        had spent two years assembling his light dot by dot, in the studio, on purpose.
+      </p>
+      <p style={proseStyle}>
+        And there it was &mdash; the trap that every winning movement eventually walks into. The Impressionists
+        had spent twelve years getting the world to accept the loose, the fleeting, the spontaneous, the
+        dashed-off-in-a-moment. Now a younger man had hung, in their own show, a picture that took their core idea
+        and made it the{' '}<em>opposite</em>{' '}&mdash; slow, frozen, systematic, premeditated. To the next
+        generation, the spontaneous Impressionist instant was no longer the rebellion. It was the new
+        establishment, the thing to push against. Impressionism, having finally won, had become a wall of its own.
+      </p>
+
+      <SectionHeader accent={accent} label="The bequest" title="France comes around, twenty-three years late" />
+      <p style={proseStyle}>
+        There is one last twist, and it is the most fitting ending the movement could have asked for &mdash;
+        though most of them did not live to see it. When{' '}<strong>Gustave Caillebotte died on 21 February 1894</strong>, his will left his personal collection of{' '}<strong>68 Impressionist paintings</strong>{' '}&mdash; Monets, Renoirs, Degas, Pissarros, Cézannes, the work he had bought from friends when no one else
+        would touch it &mdash; to the French state, on one condition: that the pictures hang not in some storeroom
+        but in a national museum, as art the nation officially owned. He named{' '}<strong>Renoir as the executor</strong>{' '}to see it done.
+      </p>
+      <p style={proseStyle}>
+        The state&rsquo;s reaction tells you the war was not yet over. The academic establishment recoiled, and by
+        the standard account it was the grand academic painter{' '}<strong>Jean-Léon Gérôme</strong>{' '}who led the
+        objection &mdash; reportedly aghast that the government would dignify such work by hanging it in a public
+        collection at all. After a wrangle, the state agreed in an{' '}<strong>1896</strong>{' '}negotiation to
+        accept only{' '}<strong>38</strong>{' '}of the 68 works. Those 38 were finally{' '}<strong>unveiled in a room of their own &mdash; the Caillebotte room &mdash; at the Musée du Luxembourg in February 1897.</strong>{' '}It does not sound like much. It was, in fact,{' '}<strong>the first time the Impressionists were shown in a public museum in France</strong>{' '}&mdash; twenty-three years after the mocked little
+        seascape hung in Nadar&rsquo;s borrowed studio. The country that had laughed them out of the Salon finally
+        hung them on a state wall, grudgingly, having shed a third of the gift to do it, almost a quarter of a
+        century too late for the joke to sting anyone but itself.
+      </p>
+      <p style={proseStyle}>
+        So that is how it ends. The cooperative dissolved; there was no ninth exhibition. What came after &mdash;
+        Seurat&rsquo;s dots, Cézanne&rsquo;s slow architecture out in Provence, and the wilder painters still to
+        come &mdash; belongs to the next chapter, the one usually filed under{' '}<strong>Post-Impressionism</strong>: the generation that grew up{' '}<em>on</em>{' '}Impressionism and then spent
+        its life arguing with it. That is a story for another reading. This one ends where it should &mdash; with
+        a movement that started life as a joke about an unfinished seascape, won its long argument not by
+        outlasting a jury but by building a market the jury couldn&rsquo;t control (Durand-Ruel, the Americans,
+        the whole network of dealers and collectors), changed the way Western art saw and painted light, and then
+        graciously, on its last night, held the door for the painter who would make it look old.
+      </p>
+      <PaintingFigure
+        onZoom={onZoom}
+        palette={MONET_PAL}
+        imageUrl={ART_IMG.monetCathedral}
+        ratio="3/4"
+        alt="Monet, Rouen Cathedral series"
+        caption={<>The same cathedral front, painted again and again at different hours &mdash; morning, full sun, dusk, fog &mdash; and hung together so the changing light, not the building, becomes the subject. Monet took the original Impressionist idea (paint one fleeting moment of light) to its logical end, and in doing so pointed quietly past the movement toward what came next.</>}
+        credit={<>Claude Monet,{' '}<em>Rouen Cathedral series</em>, 1892&ndash;94 · Musée d&rsquo;Orsay, the National Gallery of Art, the Metropolitan Museum and others</>}
+        rights="Public domain worldwide (Claude Monet died 1926). Wikimedia Commons."
+      />
+    </article>
+
+    <MeanwhileSheet
+      region="The same room, 1886"
+      title="The future was hanging on the wall."
+      body="Seurat's Grande Jatte debuted at the eighth and final Impressionist exhibition — inside the very show the movement had built. The painters who taught the world to love the loose, fleeting, spontaneous stroke watched a younger man hang a vast picture built from millions of slow, deliberate, systematic dots: their idea, inverted. It is the cleanest moment in this whole era of one movement handing the torch to the thing that would replace it, in its own house, on its own last night."
+    />
+  </>
+)
+
+// REGISTRY ENTRY (coordinator splices into MOVEMENT_NARRATIVES):
+//  imp: {
+//    why: WhyImpNarrative, eye: EyeImpNarrative, name: NameImpNarrative,
+//    group: GroupImpNarrative, women: WomenImpNarrative, degas: DegasImpNarrative,
+//    last: LastImpNarrative,
+//  },
