@@ -4,12 +4,13 @@ The repeatable, gated process for producing an Art narrative — the analog of t
 civ 5-persona audit (`.claude/skills/audit-narrative.md`) and the
 `audits/war-content-pipeline.md` gate model, adapted to art's failure modes.
 
-**Status: ACTIVE — run seven times (2026-05-23 Modern era + Cubism; 2026-05-24
-Kahnweiler; Chair Caning; Horta + Violin and Jug; and the final FOUR — Three Women,
-The Portuguese, Gris's Breakfast, Three Musicians — completing the 9-work Cubism
-chain; 2026-05-25 the Modern era "Lay of the land" prologue chapter; 2026-05-25 the
-Realism movement, 6 ch — the first movement authored gates-first, no relapse).** See the
-proof-run logs at the bottom. This is the
+**Status: ACTIVE — run ten times (2026-05-23 Modern era + Cubism; 2026-05-24
+Kahnweiler; Chair Caning; Horta + Violin and Jug; the final FOUR Cubism works —
+Three Women, The Portuguese, Gris's Breakfast, Three Musicians — completing the
+9-work Cubism chain; 2026-05-25 the Modern era "Lay of the land" prologue; the
+Realism movement (6 ch); the Burial flagship WORK; the remaining EIGHT Realism works
+(9/9); and the Impressionism movement (7 ch) — runs 7–10 all authored gates-first,
+no relapse).** See the proof-run logs at the bottom. This is the
 mandatory gate for every Art section — **do NOT author-and-ship; run all five critic
 gates every time** (the Kahnweiler run re-learned this the hard way, and the
 "Lay of the land" run re-learned it AGAIN — it was first hand-authored-and-shipped
