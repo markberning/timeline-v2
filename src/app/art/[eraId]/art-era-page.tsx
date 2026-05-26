@@ -24,8 +24,8 @@ import {
   ArtChrome,
   ArtPageShell,
   ArtHero,
-  ArtAccordion,
   ReadStoryButton,
+  SectionNav,
   StatsRow,
   ArtFaceoff,
   ArtistsStrip,
@@ -294,51 +294,78 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
   const accent = era.accent
   const palette: Palette = eraMeta?.palette ?? ['#3a3a4a', '#1c1c2a', '#0a0a14']
 
+  const hasBreak = !!era.whatChanged
+  const hasManifesto = !!era.manifesto
+  // Sticky in-page jump-bar — the era page's table of contents. Labels stay
+  // short (≤8 chars) so the whole row fits 360 px without horizontal scroll,
+  // same rule as the movement page.
+  const navItems = [
+    { id: 'sec-overview', label: 'Overview' },
+    ...(hasBreak ? [{ id: 'sec-break', label: 'Break' }] : []),
+    ...(hasManifesto ? [{ id: 'sec-manifesto', label: 'Voice' }] : []),
+    { id: 'sec-map', label: 'Map' },
+    { id: 'sec-details', label: 'Details' },
+    { id: 'sec-movements', label: 'Movements' },
+  ]
+  const secStyle: React.CSSProperties = { scrollMarginTop: 46 }
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <ArtChrome crumbs={artEraCrumbs('mod', era.name)} accent={accent} />
       <ArtPageShell>
-        <ArtHero
-          eyebrow={`ART · ERAS OF WESTERN ART · ${era.chain.index} OF ${era.chain.total}`}
-          title={era.name}
-          sub={`${era.range} · ${era.span}`}
-          palette={palette}
-          imageUrl={era.heroImage}
-          images={era.heroImages}
-          fit={era.heroFit}
-          focus={era.heroFocus}
-          credit={era.heroCredit}
-          accent={accent}
-        />
-        <div style={{ padding: '16px 18px 4px' }}>
-          <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
-        </div>
-        {/* primary doorway into the era's chaptered narrative */}
-        {era.sections.length > 0 && (
-          <ReadStoryButton
-            href={`/art/${era.id}/s/${era.sections[0].id}`}
+        <SectionNav accent={accent} items={navItems} />
+        <div id="sec-overview" style={secStyle}>
+          <ArtHero
+            eyebrow={`ART · ERAS OF WESTERN ART · ${era.chain.index} OF ${era.chain.total}`}
+            title={era.name}
+            sub={`${era.range} · ${era.span}`}
+            palette={palette}
+            imageUrl={era.heroImage}
+            images={era.heroImages}
+            fit={era.heroFit}
+            focus={era.heroFocus}
+            credit={era.heroCredit}
             accent={accent}
-            label={`Read the ${era.name} era`}
-            sub={`${era.sections.length} chapters · ${era.range}`}
           />
-        )}
+          <div style={{ padding: '16px 18px 4px' }}>
+            <p style={{ margin: 0, fontFamily: SERIF, fontSize: 15, lineHeight: 1.5, color: MUTED, textWrap: 'pretty' }}>{era.hookLong}</p>
+          </div>
+          {/* primary doorway into the era's chaptered narrative */}
+          {era.sections.length > 0 && (
+            <ReadStoryButton
+              href={`/art/${era.id}/s/${era.sections[0].id}`}
+              accent={accent}
+              label={`Read the ${era.name} era`}
+              sub={`${era.sections.length} chapters · ${era.range}`}
+            />
+          )}
+        </div>
         {/* why this is genuinely a new era — the before/after contrast */}
         {era.whatChanged && (
-          <WhatChangedBlock wc={era.whatChanged} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
+          <div id="sec-break" style={secStyle}>
+            <WhatChangedBlock wc={era.whatChanged} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
+          </div>
         )}
         {/* the era in its own words, if it had a founding document */}
         {era.manifesto && (
-          <ManifestoBlock m={era.manifesto} accent={accent} />
+          <div id="sec-manifesto" style={secStyle}>
+            <ManifestoBlock m={era.manifesto} accent={accent} />
+          </div>
         )}
         {/* signature visual — always visible */}
-        <EraDossierMap accent={accent} />
-        {/* secondary detail — collapsed by default */}
-        <ArtAccordion label="The details" accent={accent}>
+        <div id="sec-map" style={secStyle}>
+          <EraDossierMap accent={accent} />
+        </div>
+        {/* secondary detail — now inline, no accordion (matches movement page) */}
+        <div id="sec-details" style={secStyle}>
+          <div style={{ padding: '16px 16px 2px' }}><Eyebrow color={accent}>The details</Eyebrow></div>
           <StatsRow stats={era.stats} />
           <ArtFaceoff items={era.tensions} />
           <ArtistsStrip artists={era.anchorPainters} label="Painters who anchor the era" />
-        </ArtAccordion>
-        <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
+        </div>
+        <div id="sec-movements" style={secStyle}>
+          <MovementsTimeline eraId={era.id} movements={era.movements} accent={accent} />
+        </div>
       </ArtPageShell>
       {lb && <Lightbox src={lb.src} alt={lb.cap} caption={lb.cap} onClose={() => setLb(null)} />}
     </div>
