@@ -84,6 +84,21 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    *Realism* break passage's "loaded palette knife" overclaim was caught + softened at
    this gate). Renders as the side-by-side contrast (BEHAVIORS "The break"). Same
    requirement carried into the music pipeline.
+
+   **CONSIDER for every movement: the "The manifesto" block (`manifesto`, locked
+   2026-05-25).** Manifestos are central to modern movements — often more famous than the
+   paintings (Futurism, Dada, Surrealism, the Bauhaus). Where a movement has a founding
+   document, give it its own block: the document title/author/date/venue, **2–3
+   born-verified excerpt lines quoted in its own words** (the actual text, verified
+   against a reputable translation — a quote asserted from memory is MUST-FIX), and a
+   gated house-voice read of what it claimed and why it mattered. Where a movement
+   *deliberately had none*, set `absent: true` and tell that story — **the silence is
+   itself content** (Cubism: Picasso/Braque published nothing; the theory came from
+   Gleizes & Metzinger's *Du Cubisme* (1912), Apollinaire, and the Section d'Or). Renders
+   on the movement page after "The break" (BEHAVIORS "The manifesto"); same conditional
+   pattern. Shipped first on Realism (Courbet's 1855 catalogue statement) + Cubism
+   (absent). Carries into the music pipeline (the movement's founding statement, e.g.
+   Russolo's *The Art of Noises*).
 2. **Storytelling & "looking" critic** (Sonnet) — judge as a story AND as art
    writing. Grade per chapter STRONG / GOOD / NEEDS WORK / REWRITE. Hook & stakes,
    pacing, voice — PLUS the art-specific axis: **does it make the reader see the

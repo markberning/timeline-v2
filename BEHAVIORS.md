@@ -198,9 +198,10 @@ the same no-crop / **no-truncation** floor (cards use `minHeight`, not a fixed
 The movement dossier (`mode/.../art-movement-page.tsx`) is a single scroll column
 of **always-visible** sections (NO accordions — the jump-bar replaced them):
 **Overview** (hero + hook + "Read the story") → **The break** (why it's genuinely a
-new movement) → **Influence** (the influence-flow diagram) → **Details** (stats ·
-faceoff · artists · parallels) → **Works** (the featured-works cord) → **Canon** (the
-full checklist). Each section is wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
+new movement) → **The manifesto** (the movement in its own words) → **Influence** (the
+influence-flow diagram) → **Details** (stats · faceoff · artists · parallels) →
+**Works** (the featured-works cord) → **Canon** (the full checklist). Each section is
+wrapped in `<div id="sec-…" style={{scrollMarginTop:46}}>`.
 
 - **The break** (`WhatChangedBlock`, `ArtMovementContent.whatChanged` / `ArtEraContent.
   whatChanged`; locked 2026-05-25) — makes the rupture explicit, in pictures AND words:
@@ -213,6 +214,22 @@ full checklist). Each section is wrapped in `<div id="sec-…" style={{scrollMar
   same block. (User directive: "each era and movement must explain why it is in fact a
   new era/movement — what changed — with works contrasting the difference"; applies to
   music too.)
+
+- **The manifesto** (`ManifestoBlock`, `ArtMovementContent.manifesto` / `ArtEraContent.
+  manifesto`; locked 2026-05-25) — the movement's founding document in its own words. A
+  **pull-quote plate** (serif italic, an accent left-rule) of 2–3 born-verified excerpt
+  lines, an attribution line (title · author · date · venue), then a short gated passage
+  on what it claimed and why it mattered, and an optional **`sourceUrl`/`sourceLabel`**
+  external link to the actual full text ("Read … ↗", new tab — the URL is born-verified
+  to resolve AND to be the right document: Realism → the Getty/Nochlin 1855 text PDF;
+  Cubism → Columbia's *Du Cubisme* primary-source PDF). When a movement deliberately had **no**
+  manifesto, set `absent: true` → the block titles itself "No manifesto" and the prose
+  tells the story of the silence (Cubism: Picasso/Braque published nothing; the theory
+  came from others). Sits right after "The break". No images, so no lightbox. Omitted →
+  the section just doesn't render. **It gets NO jump-bar chip** — the bar already fills a
+  360px screen at 6 chips and must not scroll (see below), so the manifesto is reached by
+  scrolling past The break, not by a 7th chip. Shipped first on Realism (Courbet 1855) +
+  Cubism (absent). (User: "manifestos are a big part of art/music movements — include them.")
 
 - **Sticky section jump-bar** — `SectionNav` (in `art-chrome.tsx`) renders as the
   FIRST child of `ArtPageShell` (so its parent IS the inner scroll container).

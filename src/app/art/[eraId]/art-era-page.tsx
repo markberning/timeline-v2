@@ -31,6 +31,7 @@ import {
   ArtistsStrip,
   Eyebrow,
   WhatChangedBlock,
+  ManifestoBlock,
   artEraCrumbs,
   SANS,
   SERIF,
@@ -324,6 +325,10 @@ export function ArtEraPage({ eraId }: { eraId: string }) {
         {/* why this is genuinely a new era — the before/after contrast */}
         {era.whatChanged && (
           <WhatChangedBlock wc={era.whatChanged} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
+        )}
+        {/* the era in its own words, if it had a founding document */}
+        {era.manifesto && (
+          <ManifestoBlock m={era.manifesto} accent={accent} />
         )}
         {/* signature visual — always visible */}
         <EraDossierMap accent={accent} />

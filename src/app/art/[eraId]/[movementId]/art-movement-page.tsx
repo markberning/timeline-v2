@@ -16,7 +16,7 @@ import Link from 'next/link'
 import { Lightbox } from '@/components/lightbox'
 import { OrientationCard } from '@/components/mode/orientation-card'
 import {
-  ArtChrome, ArtPageShell, ArtHero, ReadStoryButton, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow, SectionNav, WhatChangedBlock,
+  ArtChrome, ArtPageShell, ArtHero, ReadStoryButton, StatsRow, ArtFaceoff, ArtistsStrip, Eyebrow, SectionNav, WhatChangedBlock, ManifestoBlock,
   artMovementCrumbs,
   SANS, SERIF, MONO, INK, MUTED, FAINT, BORDER, BORDER_STRONG, CARD_BG, artAlpha,
 } from '@/components/mode/art-chrome'
@@ -311,6 +311,9 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
   const navItems = [
     { id: 'sec-overview', label: 'Overview' },
     ...(hasBreak ? [{ id: 'sec-break', label: 'Break' }] : []),
+    // NOTE: no 'Manifesto' chip — the jump bar must fit one 360px screen with no
+    // horizontal scroll (user, locked 2026-05-25), and 6 chips already fill it. The
+    // manifesto SECTION still renders right after The break; it's reached by scrolling.
     { id: 'sec-influence', label: 'Influence' },
     { id: 'sec-details', label: 'Details' },
     { id: 'sec-works', label: 'Works' },
@@ -356,6 +359,12 @@ export function ArtMovementPage({ eraId, movementId }: { eraId: string; movement
         {mv.whatChanged && (
           <div id="sec-break" style={secStyle}>
             <WhatChangedBlock wc={mv.whatChanged} accent={accent} onZoom={(src, cap) => setLb({ src, cap })} />
+          </div>
+        )}
+        {/* the movement in its own words (or the story of its silence) */}
+        {mv.manifesto && (
+          <div id="sec-manifesto" style={secStyle}>
+            <ManifestoBlock m={mv.manifesto} accent={accent} />
           </div>
         )}
         {/* signature visual — always visible */}

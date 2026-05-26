@@ -181,6 +181,8 @@ export interface ArtEraContent {
   lineage: ArtLineage
   // "Why this is a break" — explicit contrast with the predecessor era (see WhatChanged).
   whatChanged?: WhatChanged
+  // "The manifesto" — the era's founding document, if it had one (rare at era altitude).
+  manifesto?: Manifesto
   // The era's own long-form narrative: chaptered prose entered via the "Read the
   // full story" button under the hook. The prose itself lives in the reader
   // (modern-narratives.tsx); this is only the chapter metadata.
@@ -331,6 +333,22 @@ export interface WhatChanged {
   prose: string[]
 }
 
+// "The manifesto" — the movement's founding document in its own words (or, when a
+// movement deliberately had none, the story of that silence: `absent: true`).
+// Quotes are born-verified against the real text and fact-checked like any prose.
+export interface Manifesto {
+  heading?: string   // defaults to "The manifesto" (or "No manifesto" when absent)
+  absent?: boolean   // the movement issued no manifesto (e.g. Cubism) — prose tells why
+  title?: string     // the document's name
+  author?: string    // who wrote it
+  dateLabel?: string // year(s)
+  venue?: string     // where it first appeared
+  quotes?: string[]  // verified excerpt lines — the actual manifesto words
+  prose: string[]    // house voice: what it claimed and why it mattered
+  sourceUrl?: string   // link to the actual full text (born-verified to resolve + be the right doc)
+  sourceLabel?: string // link label (defaults to "Read the full manifesto")
+}
+
 export interface ArtMovementContent {
   id: string
   name: string
@@ -361,6 +379,8 @@ export interface ArtMovementContent {
   influenceSummary?: string
   // "Why this is a break" — explicit contrast with the predecessor (see WhatChanged).
   whatChanged?: WhatChanged
+  // "The manifesto" — the movement's founding document in its own words (see Manifesto).
+  manifesto?: Manifesto
   // The full canonical-works checklist (the count behind the "Canonical works"
   // stat). Browsable as a plain list on the movement page; no descriptions.
   canon?: CanonWork[]
@@ -438,6 +458,16 @@ export const CUBISM: ArtMovementContent = {
     ],
   },
   influenceSummary: 'Cubism took Cézanne’s faceted space and the flat planes of African masks, broke the single-viewpoint window once and for all, and handed that break on to nearly every abstract movement that followed.',
+  manifesto: {
+    absent: true,
+    prose: [
+      'Cubism is the great exception — the movement with no manifesto at all. The two men who invented it, Picasso and Braque, published almost nothing: no program, no slogans, barely an interview. They worked in deliberate near-silence, roped together like mountaineers, and let the paintings do the arguing.',
+      'The theory came from other hands entirely. The first real book on the movement, Du Cubisme (1912), was written by two second-wave painters, Albert Gleizes and Jean Metzinger — not by Picasso or Braque. The poet and critic Guillaume Apollinaire, Cubism’s loudest champion, followed with Les Peintres cubistes (1913). And a whole public-facing group, the Salon Cubists of the Section d’Or, exhibited and explained themselves in the open while the two inventors stayed cagey.',
+      'So Cubism’s “manifesto” is really a book by its followers and an essay by a friendly critic — the movement explained from the outside in. The silence is the point: Cubism made its case in pictures, not paragraphs.',
+    ],
+    sourceUrl: 'https://projects.mcah.columbia.edu/arthumanities/websites/picmon/pdf/art_hum_reading_46.pdf',
+    sourceLabel: 'Read Du Cubisme (Gleizes & Metzinger, 1912)',
+  },
   whatChanged: {
     heading: 'Why it was a break',
     before: {
@@ -600,6 +630,23 @@ export const REALISM: ArtMovementContent = {
     ],
   },
   influenceSummary: 'Realism took the shock of 1848 and the new mirror of photography, granted the ordinary present the scale once kept for gods, and handed that permission straight to the Impressionists.',
+  manifesto: {
+    title: 'The “Realist Manifesto”',
+    author: 'Gustave Courbet',
+    dateLabel: '1855',
+    venue: 'preface to the catalogue of his Pavilion of Realism, Paris',
+    quotes: [
+      'The title of Realist was thrust upon me just as the title of Romantic was imposed upon the men of 1830.',
+      'To be in a position to translate the customs, the ideas, the appearance of my epoch, according to my own estimation; to be not only a painter, but a man as well; in short, to create living art — this is my goal.',
+    ],
+    prose: [
+      'Realism’s manifesto is not a sheet with a dozen signatures. It is a single page Courbet wrote to hand out at the door of his own tent — the Pavilion of Realism he threw up beside the 1855 world’s fair after its jury rejected his two biggest canvases (the Painter’s Studio and the Burial). A manifesto smuggled in as an exhibition catalogue.',
+      'What it claims is the whole movement in miniature: he did not pick the label, he accepted it; and his one aim is to paint his own century exactly as he finds it — its people, its manners, its look — with no gods borrowed from myth and nothing prettied up. Art made of the present tense. Living art.',
+      'A Burial at Ornans had already made that argument in paint five years earlier (its own read in this app); this page just says out loud what the ten-foot canvas had said in oil. The picture declared it first. The catalogue gave it words — and a name.',
+    ],
+    sourceUrl: 'https://www.gettydocents.org/wp-content/uploads/Gustave-Courbet-Realist-Manifesto.pdf',
+    sourceLabel: 'Read Courbet’s Realist Manifesto (1855)',
+  },
   whatChanged: {
     heading: 'Why it was a break',
     before: {

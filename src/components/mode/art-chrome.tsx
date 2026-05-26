@@ -13,7 +13,7 @@ import { useScrollMemory } from '@/lib/use-scroll-memory'
 import { WarBreadcrumb, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { ART_ACCENT, artAlpha } from '@/lib/art-data'
 import { ART_ERAS } from '@/lib/art-data'
-import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage, type WhatChanged } from '@/lib/art-content'
+import { ART_MOVEMENT_CONTENT, ART_WORK_CONTENT, ART_ARTIST_CONTENT, type ArtStat, type ArtSide, type Palette, type HeroImage, type WhatChanged, type Manifesto } from '@/lib/art-content'
 
 export const SANS = 'var(--font-geist-sans)'
 export const SERIF = 'var(--font-lora)'
@@ -427,6 +427,42 @@ export function WhatChangedBlock({ wc, accent, onZoom }: { wc: WhatChanged; acce
           <p key={i} style={{ margin: i === 0 ? 0 : '10px 0 0', fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
         ))}
       </div>
+    </div>
+  )
+}
+
+// "The manifesto" — the movement's founding document, quoted in its own words; or,
+// when `absent`, the story of why a movement (e.g. Cubism) deliberately had none.
+export function ManifestoBlock({ m, accent }: { m: Manifesto; accent: string }) {
+  const hasQuotes = !m.absent && !!m.quotes && m.quotes.length > 0
+  const attribution = [m.title, m.author].filter(Boolean).join(', ')
+  const meta = [m.dateLabel, m.venue].filter(Boolean).join(' · ')
+  return (
+    <div style={{ padding: '20px 16px 22px', borderBottom: `1px solid ${BORDER}` }}>
+      <Eyebrow color={accent}>{m.heading ?? (m.absent ? 'No manifesto' : 'The manifesto')}</Eyebrow>
+      {hasQuotes && (
+        <figure style={{ margin: '14px 0 0', padding: '2px 0 2px 16px', borderLeft: `3px solid ${artAlpha(accent, 0.6)}` }}>
+          {m.quotes!.map((q, i) => (
+            <p key={i} style={{ margin: i === 0 ? 0 : '8px 0 0', fontFamily: SERIF, fontStyle: 'italic', fontSize: 16, lineHeight: 1.5, color: INK, textWrap: 'pretty' }}>{`“${q}”`}</p>
+          ))}
+          {attribution && (
+            <figcaption style={{ marginTop: 11, fontFamily: SANS, fontSize: 11, letterSpacing: 0.2, color: MUTED }}>
+              {`— ${attribution}`}{meta ? <span style={{ color: FAINT }}>{` · ${meta}`}</span> : null}
+            </figcaption>
+          )}
+        </figure>
+      )}
+      <div style={{ marginTop: m.absent ? 12 : 16 }}>
+        {m.prose.map((p, i) => (
+          <p key={i} style={{ margin: i === 0 ? 0 : '10px 0 0', fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'var(--foreground)', textWrap: 'pretty' }}>{p}</p>
+        ))}
+      </div>
+      {m.sourceUrl && (
+        <a href={m.sourceUrl} target="_blank" rel="noopener noreferrer"
+          style={{ display: 'inline-flex', alignItems: 'center', gap: 5, marginTop: 14, fontFamily: SANS, fontSize: 12.5, fontWeight: 600, color: accent, textDecoration: 'none', borderBottom: `1px solid ${artAlpha(accent, 0.45)}`, paddingBottom: 1 }}>
+          {m.sourceLabel ?? 'Read the full manifesto'} <span aria-hidden style={{ fontSize: 14 }}>↗</span>
+        </a>
+      )}
     </div>
   )
 }
