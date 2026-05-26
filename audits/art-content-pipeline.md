@@ -641,3 +641,59 @@ index corrected 1→3 to match the chronological works array.
   told up front and shipped 0). All 8 hero images were already born-verified for the
   movement page; the look-closer pointers were verified against the painting at gate-1 and
   the two visual MUST-FIX flags re-confirmed by the coordinator against the image.
+
+## Proof run 10 — DONE (2026-05-25) — Impressionism movement (kind: MOVEMENT, 7 ch)
+The Modern era's **second** movement read (`/art/mod/imp`, 1860s–1886, seven chapters:
+the Salon wall + Manet · the technique · 1874 + the name · the eight shows + Durand-Ruel ·
+the women · Degas the indoor eye · the last show + the Caillebotte bequest). Authored
+gates-first end-to-end via subagents (fact pack → Opus author → 5 Sonnet critics batched
+by axis → coordinator reconcile → Opus revise → integrate). Both required movement blocks
+shipped: the **break** (`whatChanged`) and the **manifesto** (`absent`).
+- **Fact-check** — clean on every legend trap (Leroy *popularized* the name, didn't coin
+  it; the paint-tube "made Impressionism" line disarmed + sourced to Jean Renoir's 1962
+  memoir; Chevreul = Neo-Impressionists not the Impressionists; Manet NEVER exhibited with
+  them; Degas never painted outdoors; "poor failures" corrected). MUST-FIX yield: Eva
+  Gonzalès **died at 34 not 33**; and **both Duranty quotes converted to paraphrase** — the
+  wording could not be confirmed letter-for-letter against the Moffett 1986 translation, so
+  per born-verified doctrine an unverifiable quote ships as paraphrase, never as quotation.
+- **Storytelling/looking** — no chapter below GOOD; MUST-FIX looking beats added: *Olympia*
+  (the cat, the ribbon, the maid's flowers), *L'Absinthe* (figures shoved to the upper
+  right, the zig-zag of empty tables, the one milky-green glass), and Ch7 led with Monet at
+  Giverny instead of a poverty roll-call; the Degas faction-fight dramatized instead of a
+  year-list; the tube myth-bust demoted so it stops interrupting the La Grenouillère climax.
+- **Comprehensiveness** — MUST-ADDs folded in (web-verified before writing, the cross-gate
+  rule): the **Caillebotte bequest** epilogue (d. 21 Feb 1894; 68 works; Renoir executor;
+  state refused; 38 accepted; Musée du Luxembourg, Feb 1897 — the first Impressionists in a
+  public French museum, 23 yrs late) and **Caillebotte as a painter** (Floor Planers, Paris
+  Street); plus Turner/Constable + Durand-Ruel in London, Pissarro mentoring Cézanne at
+  Pontoise, and Sisley individuated as the one who genuinely didn't win.
+- **Framing** — FAIR; fixes applied: the women's constraint kept a **wall of access** (no
+  "privilege" reframe; Cassatt *chose to accept* Degas's invitation, not "pulled in"); the
+  Salon made a coherent system, not a cartoon villain; **Utamaro** named in the Japonisme
+  beat and the borrowing called borrowing; the closing "taught the entire Western world"
+  scoped to Western art, and the victory reframed as commercial (Durand-Ruel + American
+  buyers + the network), not lone heroes outlasting a jury.
+- **Clarity** — newcomer gaps closed: Sisley given a who-they-are on first mention,
+  Durand-Ruel named at the 1882 mention, *vitrine* + *L'Absinthe* glossed, the dev-speak
+  "one level up" replaced with "the Realism chapter", and the stray `[VERIFY-WORDING]` tag
+  stripped (it would have printed).
+- **The break** — chose **Bouguereau's *The Birth of Venus* (1879)** as the academic
+  "before" deliberately NOT Cabanel's (the Realism read owns Cabanel's) — Impressionism's
+  break is finish + light + the fleeting moment, distinct from Realism's subject/scale
+  break; coordinator born-verified the Bouguereau image (md5 hash path computed + load-
+  checked) since the image agent had defaulted back to Cabanel.
+- **The manifesto** — `absent: true`: named by a hostile critic, bound by exclusion not a
+  creed; Duranty's *La Nouvelle Peinture* (1876) the nearest substitute the painters never
+  signed; born-verified `sourceUrl` to the Dictionary of Art Historians Duranty page (the
+  Met essay + Gallica original both failed the fetch test → not linked).
+- **Images** — 36 new born-verified Wikimedia URLs (works rail, 10 headshots, 27-work
+  canon, break-before, lineage, parallels); all load-checked 200, subjects confirmed; the
+  resolver returned **3 wrong hash dirs** (manetBar, monetBoulevardCapucines, degasPhoto)
+  which the coordinator recomputed from the real filenames (a reminder that an agent's
+  "confirmed 200" still needs the coordinator's own load-check). Degas's *The Tub* had no
+  free image → dropped from canon rather than shipped blind.
+- **Integration** — `IMPRESSIONISM` ArtMovementContent + 7 JSX chapters (scratch `.tsx.txt`,
+  HTML entities throughout, spliced via a Node `replaceOnce` script) registered in
+  `ART_MOVEMENT_CONTENT` + `MOVEMENT_NARRATIVES` under `imp`. tsc + eslint clean; static
+  build green (shipped-page guard: all 103 civs); deployed; movement page + 7 sections live
+  and verified on prod. Artifacts in `audits/art-pipeline/impressionism-*`.
