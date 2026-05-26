@@ -68,7 +68,14 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    "direct from the artist" when it went through a dealer/collector — prices, "gift/
    never sold", accession), ⑥ figures/cast nameplates. For a MOVEMENT: the hook, the
    chapters, the **lineage chips** (parents/children), **parallels**, **canon** rows,
-   artist nameplates. Provenance/stats were the second ungated surface caught (2026-05-25
+   artist nameplates, the **"Why this is a break" block** (required — clause below), and
+   the **"The manifesto" block** (required where the movement has a founding document, or
+   `absent` where the silence is itself the story — clause below). For an ERA: the
+   throughline, the chapters, and the **"Why this is a break" block** (a manifesto block
+   only where one genuinely belongs at era altitude — rare). **This enumerated list IS the
+   ship-gate surface checklist — a section ships only when every surface on it has been
+   through the gates; none is exempt for being short, structural, or "just furniture."**
+   Provenance/stats were the second ungated surface caught (2026-05-25
    retro pass): wrong price + Degas title on *Demoiselles*, wrong gallery city, a
    missing-then-misframed Shchukin/La Roche chain, ⅛-inch dimension slips. None of these
    are "metadata" — they are claims, and claims get fact-checked.
@@ -85,19 +92,26 @@ Mirrors War's five, re-pointed at art, plus two art-specific structural gates:
    this gate). Renders as the side-by-side contrast (BEHAVIORS "The break"). Same
    requirement carried into the music pipeline.
 
-   **CONSIDER for every movement: the "The manifesto" block (`manifesto`, locked
-   2026-05-25).** Manifestos are central to modern movements — often more famous than the
-   paintings (Futurism, Dada, Surrealism, the Bauhaus). Where a movement has a founding
-   document, give it its own block: the document title/author/date/venue, **2–3
-   born-verified excerpt lines quoted in its own words** (the actual text, verified
-   against a reputable translation — a quote asserted from memory is MUST-FIX), and a
-   gated house-voice read of what it claimed and why it mattered. Where a movement
-   *deliberately had none*, set `absent: true` and tell that story — **the silence is
-   itself content** (Cubism: Picasso/Braque published nothing; the theory came from
-   Gleizes & Metzinger's *Du Cubisme* (1912), Apollinaire, and the Section d'Or). Renders
-   on the movement page after "The break" (BEHAVIORS "The manifesto"); same conditional
-   pattern. Shipped first on Realism (Courbet's 1855 catalogue statement) + Cubism
-   (absent). Carries into the music pipeline (the movement's founding statement, e.g.
+   **REQUIRED for every movement: the "The manifesto" block (`manifesto`, locked
+   2026-05-25; required-where-applicable, NOT optional — every movement gets the block
+   OR an explicit `absent`, never silence-by-omission).** Manifestos are central to modern
+   movements — often more famous than the paintings (Futurism, Dada, Surrealism, the
+   Bauhaus). Where a movement has a founding document, give it its own block: the document
+   title/author/date/venue, **2–3 born-verified excerpt lines quoted in its own words**
+   (the actual text, verified against a reputable translation — a quote asserted from
+   memory is MUST-FIX), a gated house-voice read of what it claimed and why it mattered,
+   AND a **born-verified `sourceUrl`** to the actual text ("Read … ↗") — the link is a
+   surface, checked like an event link: it must resolve AND be the right document (the
+   arthistoryproject "Courbet manifesto" page was rejected — it is his *1861* open letter,
+   not the 1855 manifesto). Where a movement *deliberately had none*, set `absent: true`
+   and tell that story — **the silence is itself content** (Cubism: Picasso/Braque
+   published nothing; the theory came from Gleizes & Metzinger's *Du Cubisme* (1912),
+   Apollinaire, and the Section d'Or; the block still links *Du Cubisme* as the
+   substitute). Renders on the movement page after "The break" (BEHAVIORS "The
+   manifesto"); same conditional pattern; **NO jump-bar chip** (the SectionNav already
+   fills a 360px phone at 6 chips and must not scroll — reached by scrolling, not a chip).
+   Shipped first on Realism (Courbet's 1855 catalogue statement) + Cubism (absent).
+   Carries into the music pipeline (the genre/movement's founding statement, e.g.
    Russolo's *The Art of Noises*).
 2. **Storytelling & "looking" critic** (Sonnet) — judge as a story AND as art
    writing. Grade per chapter STRONG / GOOD / NEEDS WORK / REWRITE. Hook & stakes,

@@ -29,7 +29,10 @@ born-verified media) with per-vertical re-points:
 2026-05-25 — "make sure critical agents run for all sections in war, art, music").**
 A "section" is every reader-facing factual surface it ships: captions,
 look-closer / annotation pointers, provenance, stats, dimensions, medium, cards,
-cast/side tags, intros, summary bullets, lineage/parallels. All of it is content and
+cast/side tags, intros, summary bullets, lineage/parallels, **the "Why this is a break"
+block and the "The manifesto" block (art + music — required-where-applicable; the
+manifesto's quotes AND its born-verified source link are both gated surfaces, never
+asserted from memory or linked unverified)**. All of it is content and
 runs through the SAME fact-checker + critics. **A short caption is not exempt for
 being short** — that exemption is exactly how wrong facts shipped (the *Demoiselles*
 "two left-hand faces in profile" annotation; the *Three Women* / Shchukin provenance;
@@ -42,9 +45,12 @@ surface checklist its ship-gate enforces. See
 - **war** — `audits/war-content-pipeline.md` (fact pack → author(Opus) →
   fact-check + storytelling critic(Sonnet) → revise → integrate; 2 hard gates).
 - **art** — `audits/art-content-pipeline.md` (5 critic gates — fact / storytelling
-  +looking / comprehensiveness / clarity / framing — + image-rights + nesting).
+  +looking / comprehensiveness / clarity / framing — + image-rights + nesting; every
+  era/movement carries the "break" block, every movement the "manifesto" block or an
+  explicit `absent`).
 - **music** — `audits/music-content-pipeline.md` (the art/war analog; music content
-  not yet started, so the doc is ready before the first article, never after).
+  not yet started, so the doc is ready before the first article, never after — already
+  carries the "hear the break" + manifesto/founding-statement requirements).
 **Recurring failure mode to refuse:** hand-authoring a section and shipping it,
 then gating later (the Kahnweiler work and the art "Lay of the land" prologue both
 hit this; the user caught both). A passing draft is not a gated draft. If you catch

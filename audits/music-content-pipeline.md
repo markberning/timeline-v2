@@ -41,6 +41,19 @@ production). Born-verified media on both sides (the audio analog of art's before
 images); the passage is fact-checked like all prose. Sits up front so the break lands
 before the reader dives in.
 
+**REQUIRED for every genre/movement: the "The manifesto" block (the music analog of
+art's `manifesto`, born into this doc before the first music article).** Music movements
+declare themselves in words as often as art does — the founding statement is frequently
+as famous as the records (Russolo's *The Art of Noises* for Futurist music, Cage's
+*Silence*, the punk fanzine credo, a hip-hop origin manifesto). Every genre/movement gets
+the block OR an explicit `absent` (never silence-by-omission): the document
+title/author/date/venue, **2–3 born-verified excerpt lines in its own words** (verified
+against the real text — a quote from memory is MUST-FIX), a gated house-voice read of what
+it claimed, AND a **born-verified `sourceUrl`** to the actual text (resolves AND is the
+right document — the same link-as-surface rule art uses). Where a movement deliberately
+had none, set `absent: true` and tell that story — the silence is content. Same conditional
+render + NO jump-bar chip as art's block (see `audits/art-content-pipeline.md`).
+
 Two music-specific additions (the analogs of art's "make them SEE
 it" + born-verified images):
 
