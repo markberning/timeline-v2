@@ -23,6 +23,20 @@
       "targetTl": "mongol-empire",
       "targetChapter": 4,
       "blurb": "Muscovy was forged under the 'Tatar yoke' — the Mongol domination that shaped Russian autocracy as much as Byzantium shaped its faith."
+    },
+    {
+      "matchText": "Byzantium's imperial legitimacy",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Byzantium's afterlife is exactly this claim — once Constantinople fell, Moscow grabbed the imperial brand. Ivan III's 1472 marriage to Sophia Palaiologina (niece of the last Byzantine emperor) and the double-headed eagle were the dynastic prop; the 'Third Rome' doctrine supplied the theology. The Byzantine narrative tracks how that inheritance got divided up among the heirs."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "into the Ottoman world",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "The Crimean slave raids fed an Ottoman economy that ran on Black Sea captive labor. From Istanbul's side this was a routine vassal-empire pipeline — Crimea was an Ottoman client khanate, and the markets at Caffa and Kefe sent tens of thousands of Slavs south every year into household, agricultural, and galley slavery across the empire."
     }
   ],
   "3": [
@@ -37,6 +51,20 @@
       "targetTl": "enlightenment",
       "targetChapter": 1,
       "blurb": "Peter's 'Window on the West' is the Enlightenment imported by decree — a tsar forcibly dragging a state into the European scientific-administrative world."
+    },
+    {
+      "matchText": "Ottoman Turks",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "From the Ottoman side, 1683–1730 is 'The Long Defeat' — the empire that had laid siege to Vienna in 1683 is now the empire Peter's Grand Embassy is shopping a coalition against. The Ottomans were still capable, but the relative balance with Christian Europe was tilting; Peter's reign is one of the powers doing the tilting."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Frederick II",
+      "targetTl": "enlightenment",
+      "targetChapter": 12,
+      "blurb": "From the Enlightenment's side, Frederick II of Prussia is the prototype 'philosopher-king' — corresponded for decades with Voltaire, wrote books in French, called himself 'the first servant of the state,' and presented Prussia as a rationally-administered model state. But he left serfdom intact because his army depended on it. Russia and Prussia were running the same experiment: enlightened reform from above, with no reform of the bondage underneath."
     }
   ],
   "6": [
@@ -57,6 +85,12 @@
       "targetTl": "enlightenment",
       "targetChapter": 12,
       "blurb": "Catherine corresponded with Voltaire and Diderot — the model 'enlightened despot,' applying the philosophes' ideas atop serf Russia."
+    },
+    {
+      "matchText": "war with the Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "The Russo-Turkish War of 1768–74 is the Ottoman side of Catherine's Black Sea push. Ottoman chapter 8 — ‘The Long Defeat’ — reads this war as one of the hinges of imperial decline: Russia gets a Black Sea coast and a foothold to meddle on behalf of Orthodox subjects of the Sultan, and the empire's structural problems become unhideable."
     }
   ],
   "7": [
@@ -65,6 +99,24 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 16,
       "blurb": "The industrial story makes the mechanism explicit. The American Civil War that ended slavery in 1865 was in large part a victory of railways, ironworks, and mass-produced weapons over an agrarian society, and Britain's earlier abolition followed the shift to industrial wage labor. Russia, the least industrial of the three, freed its serfs first and without a war, for political reasons, not economic ones."
+    },
+    {
+      "matchText": "The United States abolished",
+      "targetTl": "antebellum-america",
+      "targetChapter": 18,
+      "blurb": "The American story finishes the same job at a different cost. The United States abolished slavery in 1865 only after a civil war that killed roughly 750,000 people; Russia did it without a war in 1861, four years earlier. The contrast is what makes Catherine's choice in this chapter so consequential — see Chapter 14."
+    },
+    {
+      "matchText": "fighting the Ottomans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 8,
+      "blurb": "From the Ottoman side, the 1768–1774 war with Russia is the headline event of the 'Long Defeat' — the century when Istanbul stopped advancing and started losing wars. It is the same war that Catherine's regime was distracted by while Pugachev burned across the southeast."
+    },
+    {
+      "matchText": "the Enlightenment was welcome",
+      "targetTl": "enlightenment",
+      "targetChapter": 12,
+      "blurb": "Catherine is one of the three case studies the Enlightenment itself ran on its 'enlightened despotism' hypothesis — the experiment of remaking society by capturing the absolute ruler. The verdict by Chapter 12 there is the same one this chapter delivers from the Russian side: the despot adopted the prestige of reason and refused its substance."
     }
   ],
   "8": [
@@ -73,6 +125,32 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 8,
       "blurb": "From Istanbul these same two wars are the opening of the Long Defeat. The Treaty of Kucuk-Kaynarca is read as one of the most consequential and humiliating treaties in Ottoman history, and the loss of Crimea, a Tatar horse-warrior society that had raided north for centuries, turned the Ottoman Black Sea into an open sea Russia could sail at will. Ascent from one capital, the beginning of the end from the other."
+    },
+    {
+      "matchText": "Mongol successor states",
+      "targetTl": "mongol-empire",
+      "targetChapter": 7,
+      "blurb": "The Crimean Khanate descended from the Golden Horde, the western khanate of the divided Mongol Empire. When the four khanates broke apart after 1264, the Golden Horde ruled the steppe north of the Black Sea for centuries; the Crimean Khanate that Catherine annexed in 1783 was its last surviving fragment, a Tatar successor state on the Mongol family tree."
+    },
+    {
+      "matchText": "American Revolution",
+      "targetTl": "early-american-republic",
+      "targetChapter": 2,
+      "blurb": "The American Revolution drew foreign volunteers, and the most consequential Pole among them was the military engineer Tadeusz Kościuszko, who designed the fortifications that helped trap a British army at Saratoga in 1777 and later built the works at West Point on the Hudson. After American independence he came home to lead the doomed 1794 uprising against the partitioning powers."
+    },
+    {
+      "matchText": "United States history",
+      "targetTl": "early-american-republic",
+      "targetChapter": 1,
+      "blurb": "The new American republic on the other side of the Atlantic — born 1776, constitutionally founded 1789 — was the buyer Russia would eventually sell Alaska to in 1867. Tadeusz Kościuszko, the Polish engineer of this chapter's uprising, served in its revolutionary war; Catherine herself corresponded approvingly with the American founders from St Petersburg."
+    }
+  ],
+  "9": [
+    {
+      "matchText": "Enlightenment ideals",
+      "targetTl": "enlightenment",
+      "targetChapter": 12,
+      "blurb": "Alexander's tutor La Harpe was teaching him the doctrine the Enlightenment narrative covers in 'The Philosopher Kings' — the enlightened-despot program of natural rights, rule of law, and reform from above that Catherine, Frederick, and Joseph II had each tested in their own way. Alexander came to the throne as the project's last great hope and ran exactly its central experiment: an autocrat who half-believed in limiting his own autocracy, and who in the end did not."
     }
   ],
   "11": [
@@ -89,6 +167,18 @@
       "targetTl": "enlightenment",
       "targetChapter": 17,
       "blurb": "The Enlightenment narrative shows the same paradox running through the French Terror. Hunted by the revolution he had served, Condorcet wrote his Sketch for a Historical Picture of the Progress of the Human Mind, the era's most optimistic statement of human progress, while in hiding from the guillotine that soon killed him. Repression displaces thought rather than ending it; Russia ran that experiment at the scale of a national literature."
+    },
+    {
+      "matchText": "the Soviet security organs",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "The Soviet state inherited and vastly enlarged the apparatus Nicholas had built. The Cheka (founded December 1917), its successors the GPU, OGPU, NKVD, MGB, and KGB, are the direct institutional descendants of the Third Section: a centralized political police charged with surveillance, censorship, and the management of dissent, traceable in one unbroken line from Peter's fiskaly through Nicholas I to Lenin's Bolsheviks and beyond. The form survives every change of regime."
+    },
+    {
+      "matchText": "in the Enlightenment narrative",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "The Enlightenment is the European intellectual movement of roughly 1685–1815 that put reason, evidence, and human progress at the center of political and moral life. Its core claim, that legitimate government rests on consent and natural rights, is exactly what Official Nationality was constructed to refute: Nicholas's triad is the autocracy's own argument that Russia's strength came precisely from not having what Enlightenment Europe had."
     }
   ],
   "13": [
@@ -109,14 +199,52 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 18,
       "blurb": "The Crimean War 'told the truth': a serf, pre-industrial empire could not stand against the industrialized West — the shock that forced the Great Reforms."
+    },
+    {
+      "matchText": "in the Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 10,
+      "blurb": "The Ottoman side of the Crimean War sits inside the 'Sick Man of Europe' chapter — the long mid-19th-century stretch where Istanbul's survival increasingly depended on European patronage rather than its own strength, the Tanzimat reforms tried to modernize from the top down, and the empire's diplomats learned to play the great powers against each other. The 1774 Kuchuk-Kainarji clause that gave Russia a foothold to protect Orthodox Christians in the Sultan's lands is exactly the lever Nicholas I tried to pull in 1853."
     }
   ],
   "14": [
+    {
+      "matchText": "The United States abolished slavery",
+      "targetTl": "antebellum-america",
+      "targetChapter": 18,
+      "blurb": "The American story finishes the same job at a different cost. The United States abolished slavery in 1865 only after a civil war that killed roughly 750,000 people; Russia did it without a war in 1861, two years earlier, by autocratic decree, freeing a bound population several times larger. The contrast — peaceful imperial decree versus war-driven constitutional amendment — is the comparison this chapter has been setting up since Chapter 7."
+    },
     {
       "matchText": "it was not the result of economic change but a political pre-emption of revolt",
       "targetTl": "industrial-revolution",
       "targetChapter": 18,
       "blurb": "The industrial story gives the economic engine the Russian one lacked. Across the industrializing world, wage labor and the Long Depression were reshaping who needed whom, and emancipation in the West rode that change. Russia's 1861 emancipation came before industrialization and, far from following an economic logic, supplied the unbound, mobile labor that Witte's factories would later run on."
+    }
+  ],
+  "17": [
+    {
+      "matchText": "Ottoman Empire",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 10,
+      "blurb": "Russia's southward expansion ran through the 'Eastern Question' — the slow Ottoman collapse Russia spent a century trying to inherit."
+    },
+    {
+      "matchText": "Kiev",
+      "targetTl": "kievan-rus",
+      "targetChapter": 9,
+      "blurb": "Kyiv, the mother-city of medieval Rus' and the senior throne whose dominance was broken in 1169 — the tsar's title still claims it as a foundational seat."
+    },
+    {
+      "matchText": "Vladimir",
+      "targetTl": "kievan-rus",
+      "targetChapter": 9,
+      "blurb": "Vladimir–Suzdal, the autocratic northeastern principality that supplanted Kyiv after the 1169 sack and seeded the line that produced Moscow — the older Rus' core the empire's title still inventories."
+    },
+    {
+      "matchText": "Novgorod",
+      "targetTl": "kievan-rus",
+      "targetChapter": 9,
+      "blurb": "Novgorod, the merchant-republic of the medieval Rus' northwest — the third great Rus' center whose name lingers in the imperial title centuries after Moscow swallowed it."
     }
   ],
   "18": [
@@ -131,6 +259,24 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 15,
       "blurb": "Witte was running a known playbook. The industrial narrative traces how the German economist Friedrich List set out the protective-tariff, infant-industry doctrine for exactly the latecomer's problem, and how Germany, Belgium, and the United States ran it before him. Witte's tariffs, state orders, foreign capital, and railway spine were that doctrine applied, not an improvisation."
+    },
+    {
+      "matchText": "the Soviet security state",
+      "targetTl": "soviet-union",
+      "targetChapter": 1,
+      "blurb": "The Okhrana was the direct institutional ancestor of the Bolshevik secret-police lineage that ran the Soviet state — Cheka, GPU, NKVD, KGB. The Soviet Union narrative opens on the regime the Okhrana's heirs would build, the world's first state systematically organized around political-police surveillance."
+    },
+    {
+      "matchText": "Germany and the United States",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 16,
+      "blurb": "The United States is the industrial narrative's other great latecomer-runs-the-playbook example. 'It Crosses the Atlantic' tracks how American industrialization compressed a generation of British work into decades, behind protective tariffs and railway-led heavy industry — the same template Witte was now applying in Russia, but anchored in a republic with a broad political class, not an autocracy."
+    },
+    {
+      "matchText": "which the Industrial Revolution narrative",
+      "targetTl": "industrial-revolution",
+      "targetChapter": 1,
+      "blurb": "The Industrial Revolution narrative is the partner story for this chapter. It opens with the big question — why this transformation, why Britain, why then — and follows the spread across Belgium, Germany, France, the United States, Japan, and finally Russia, where Witte's program is the latecomer's chapter."
     }
   ],
   "19": [
@@ -139,6 +285,18 @@
       "targetTl": "industrial-revolution",
       "targetChapter": 18,
       "blurb": "The industrial narrative draws the lesson Tsushima taught the world. Japan's victory demolished, permanently, the assumption that industrialization was a uniquely Western or racial achievement; it was a method that could be learned. The deeper point that narrative makes is the one Russia refused: Japan institutionally rebuilt the state to run its industrialization, which is why its new economy produced a parliament and Russia's produced a revolution."
+    },
+    {
+      "matchText": "Meiji transformation",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Meiji narrative is the story Russia in this chapter is being measured against. After 1868 Japan tore down its feudal order from the top in a decade — abolished the samurai class, built a modern army, navy, banking system, railway network, telegraph, conscription, and universal schools — and by the 1890s could field a modernized state Russia could not match. Same forty-year window, opposite institutional choice; chapter 1 sets up the restoration that made the rest possible."
+    },
+    {
+      "matchText": "Crimean War",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 10,
+      "blurb": "The Crimean War is the hinge of the Ottoman chapter 'The Sick Man of Europe' — the mid-century moment Istanbul's survival depended on Britain and France propping it up against Russia. The Russo-Japanese War of 1904–1905 is, for the Russian regime, that same lesson delivered a second time and ignored a second time."
     }
   ],
   "20": [
@@ -159,14 +317,12 @@
       "targetTl": "soviet-union",
       "targetChapter": 1,
       "blurb": "The fuse reaching the powder is the direct prologue to 1917 — the Russian Empire's contradictions detonating into the Soviet century."
-    }
-  ],
-  "17": [
+    },
     {
-      "matchText": "Ottoman Empire",
+      "matchText": "Crimean War",
       "targetTl": "ottoman-empire",
       "targetChapter": 10,
-      "blurb": "Russia's southward expansion ran through the 'Eastern Question' — the slow Ottoman collapse Russia spent a century trying to inherit."
+      "blurb": "From the Ottoman side the Crimean War (1853–1856) was a survival fought on European patronage. Allied with Britain and France against Russia, the Ottomans retained their territory but came out structurally dependent on the great powers, and the Hatt-ı Hümayun edict of 1856 was extracted at war's end as the price of that protection. The two sick empires fought the same war on opposite sides; both came away with the same diagnosis."
     }
   ]
 }

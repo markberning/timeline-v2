@@ -149,6 +149,42 @@
       "matchText": "split from the Catholic",
       "wikiSlug": "East–West_Schism",
       "type": "concept"
+    },
+    {
+      "term": "Poland",
+      "matchText": "in Poland",
+      "wikiSlug": "Poland",
+      "type": "place"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "late Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Parliament of England",
+      "matchText": "Parliament in England",
+      "wikiSlug": "Parliament_of_England",
+      "type": "institution"
+    },
+    {
+      "term": "Sweden",
+      "matchText": "or even Sweden",
+      "wikiSlug": "Swedish_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Anastasia",
+      "matchText": "Anastasia's escape",
+      "wikiSlug": "Grand_Duchess_Anastasia_Nikolaevna_of_Russia",
+      "type": "person"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon's men who froze",
+      "wikiSlug": "Napoleon",
+      "type": "person"
     }
   ],
   "2": [
@@ -289,6 +325,60 @@
       "matchText": "the Qing",
       "wikiSlug": "Qing_dynasty",
       "type": "institution"
+    },
+    {
+      "term": "Moscow",
+      "matchText": "in Moscow",
+      "wikiSlug": "Moscow",
+      "type": "place"
+    },
+    {
+      "term": "Natalya Naryshkina",
+      "matchText": "Natalya Naryshkina",
+      "wikiSlug": "Natalya_Naryshkina",
+      "type": "person"
+    },
+    {
+      "term": "Miloslavsky family",
+      "matchText": "Miloslavskys",
+      "wikiSlug": "Miloslavsky_family",
+      "type": "people"
+    },
+    {
+      "term": "Naryshkin family",
+      "matchText": "Naryshkins had murdered",
+      "wikiSlug": "Naryshkin_family",
+      "type": "people"
+    },
+    {
+      "term": "Muscovy",
+      "matchText": "Muscovy",
+      "wikiSlug": "Tsardom_of_Russia",
+      "type": "place"
+    },
+    {
+      "term": "Poland",
+      "matchText": "with Poland",
+      "wikiSlug": "Polish%E2%80%93Lithuanian_Commonwealth",
+      "type": "place"
+    },
+    {
+      "term": "Ukraine",
+      "matchText": "Ukrainian farmland",
+      "wikiSlug": "Ukraine",
+      "type": "place"
+    },
+    {
+      "term": "Crimea",
+      "matchText": "slave markets of Crimea",
+      "wikiSlug": "Crimea",
+      "type": "place"
+    },
+    {
+      "term": "Dutch Republic",
+      "matchText": "Moscow's Dutch",
+      "wikiSlug": "Dutch_Republic",
+      "type": "place"
     }
   ],
   "3": [
@@ -435,9 +525,98 @@
       "matchText": "the eastern Baltic coast",
       "wikiSlug": "Treaty_of_Nystad",
       "type": "object"
+    },
+    {
+      "term": "Peter the Great",
+      "matchText": "So Peter went along",
+      "wikiSlug": "Peter_the_Great",
+      "type": "person"
+    },
+    {
+      "term": "Moscow",
+      "matchText": "around Moscow",
+      "wikiSlug": "Moscow",
+      "type": "place"
+    },
+    {
+      "term": "Finland",
+      "matchText": "Finland",
+      "wikiSlug": "Finland",
+      "type": "place"
+    },
+    {
+      "term": "Estonia",
+      "matchText": "modern Estonia",
+      "wikiSlug": "Estonia",
+      "type": "place"
+    },
+    {
+      "term": "Denmark",
+      "matchText": "Denmark",
+      "wikiSlug": "Denmark",
+      "type": "place"
+    },
+    {
+      "term": "Kremlin",
+      "matchText": "the Kremlin",
+      "wikiSlug": "Moscow_Kremlin",
+      "type": "place"
+    },
+    {
+      "term": "Adolf Hitler",
+      "matchText": "Hitler",
+      "wikiSlug": "Adolf_Hitler",
+      "type": "person"
+    },
+    {
+      "term": "Norway",
+      "matchText": "Norwegian fortress",
+      "wikiSlug": "Norway",
+      "type": "place"
+    },
+    {
+      "term": "Moldova",
+      "matchText": "Moldova",
+      "wikiSlug": "Moldova",
+      "type": "place"
     }
   ],
   "4": [
+    {
+      "term": "Sweden",
+      "matchText": "Sweden",
+      "wikiSlug": "Swedish_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Hungarian",
+      "matchText": "Hungarian",
+      "definition": "Of Hungary, the Central European kingdom whose distinctive military and court dress (frogged tunics, fur-lined coats) was widely imitated across late-17th-century Europe."
+    },
+    {
+      "term": "Russian Orthodox Church",
+      "matchText": "Russian Orthodox Church",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "type": "institution"
+    },
+    {
+      "term": "Jews",
+      "matchText": "the empire's Jews",
+      "wikiSlug": "History_of_the_Jews_in_Russia",
+      "type": "people"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Neva",
+      "matchText": "the icy Neva",
+      "wikiSlug": "Neva",
+      "type": "place"
+    },
     {
       "term": "prikazy",
       "matchText": "prikazy",
@@ -533,6 +712,12 @@
       "matchText": "the Guards regiments",
       "wikiSlug": "Imperial_Guard_(Russia)",
       "type": "institution"
+    },
+    {
+      "term": "Petrine",
+      "matchText": "Petrine",
+      "definition": "Adjectival form of Peter the Great — meaning \"of Peter\" or \"established by Peter the Great.\" Used here for the bargain he struck with the nobility (compulsory state service in exchange for serf-owning rights), the institutions he founded, and the era's signature mix of forced Westernization, top-down modernization, and tightened serfdom.",
+      "type": "concept"
     }
   ],
   "5": [
@@ -643,6 +828,48 @@
       "matchText": "the duchy of Holstein",
       "wikiSlug": "Duchy_of_Holstein",
       "type": "place"
+    },
+    {
+      "term": "Semyonovsky Regiment",
+      "matchText": "Semyonovsky",
+      "wikiSlug": "Semyonovsky_Regiment",
+      "type": "institution"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Baltic",
+      "matchText": "Baltic",
+      "wikiSlug": "Baltic_region",
+      "type": "place"
+    },
+    {
+      "term": "Siberia",
+      "matchText": "Siberia",
+      "wikiSlug": "Siberia",
+      "type": "place"
+    },
+    {
+      "term": "House of Romanov",
+      "matchText": "Romanovs",
+      "wikiSlug": "House_of_Romanov",
+      "type": "people"
+    },
+    {
+      "term": "Duma",
+      "matchText": "Duma",
+      "wikiSlug": "State_Duma_(Russian_Empire)",
+      "type": "institution"
+    },
+    {
+      "term": "Petrine",
+      "matchText": "Petrine",
+      "definition": "Adjectival form of Peter the Great — meaning \"of Peter\" or \"established by Peter the Great.\" Used here for the bargain he struck with the nobility (compulsory state service in exchange for serf-owning rights), the institutions he founded, and his daughter Elizabeth as his political heir in spirit.",
+      "type": "concept"
     }
   ],
   "6": [
@@ -753,6 +980,36 @@
       "matchText": "prorogued the Commission",
       "wikiSlug": "Legislative_session",
       "type": "concept"
+    },
+    {
+      "term": "Eastern Orthodox Church",
+      "matchText": "Orthodoxy",
+      "wikiSlug": "Eastern_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Imperial Russian Guard",
+      "matchText": "the Guards",
+      "wikiSlug": "Leib_Guard",
+      "type": "concept"
+    },
+    {
+      "term": "House of Romanov",
+      "matchText": "Romanov heir",
+      "wikiSlug": "House_of_Romanov",
+      "type": "concept"
+    },
+    {
+      "term": "Saint Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Cossacks",
+      "matchText": "a Cossack",
+      "wikiSlug": "Cossacks",
+      "type": "people"
     }
   ],
   "7": [
@@ -893,6 +1150,36 @@
       "matchText": "Pugachev",
       "wikiSlug": "Pugachev%27s_Rebellion",
       "type": "concept"
+    },
+    {
+      "term": "Romanovs",
+      "matchText": "before the Romanovs",
+      "wikiSlug": "House_of_Romanov",
+      "type": "institution"
+    },
+    {
+      "term": "Tatars",
+      "matchText": "Tatars",
+      "wikiSlug": "Volga_Tatars",
+      "type": "people"
+    },
+    {
+      "term": "Voltaire",
+      "matchText": "correspondent of Voltaire",
+      "wikiSlug": "Voltaire",
+      "type": "person"
+    },
+    {
+      "term": "Ukraine",
+      "matchText": "into Ukraine",
+      "wikiSlug": "Cossack_Hetmanate",
+      "type": "place"
+    },
+    {
+      "term": "Petrine",
+      "matchText": "Petrine",
+      "definition": "Adjectival form of Peter the Great — meaning \"of Peter\" or \"established by Peter the Great.\" Used here for the bargain he struck with the nobility (compulsory state service in exchange for serf-owning rights), the institutions he founded, and the era's signature mix of forced Westernization, top-down modernization, and tightened serfdom.",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1009,6 +1296,84 @@
       "matchText": "the Russian-American Company",
       "wikiSlug": "Russian-American_Company",
       "type": "institution"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "the Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "the Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "the Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
+    },
+    {
+      "term": "Baltic",
+      "matchText": "out of the Baltic",
+      "wikiSlug": "Baltic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Turks",
+      "matchText": "the Turks",
+      "wikiSlug": "Ottoman_Turks",
+      "type": "people"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "From St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Ukrainian",
+      "matchText": "Ukrainian",
+      "wikiSlug": "Ukrainians",
+      "type": "people"
+    },
+    {
+      "term": "Lithuania",
+      "matchText": "most of Lithuania",
+      "wikiSlug": "Grand_Duchy_of_Lithuania",
+      "type": "place"
+    },
+    {
+      "term": "Belarus",
+      "matchText": "Belarus",
+      "wikiSlug": "Belarus",
+      "type": "place"
+    },
+    {
+      "term": "Right-bank Ukraine",
+      "matchText": "right-bank Ukraine",
+      "wikiSlug": "Right-bank_Ukraine",
+      "type": "place"
+    },
+    {
+      "term": "West Point",
+      "matchText": "West Point",
+      "wikiSlug": "West_Point,_New_York",
+      "type": "place"
+    },
+    {
+      "term": "Siberia",
+      "matchText": "all of Siberia",
+      "wikiSlug": "Siberia",
+      "type": "place"
+    },
+    {
+      "term": "Voltaire",
+      "matchText": "Voltaire",
+      "wikiSlug": "Voltaire",
+      "type": "person"
     }
   ],
   "9": [
@@ -1106,6 +1471,48 @@
       "term": "Caucasus",
       "matchText": "the Caucasus",
       "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "House of Romanov",
+      "matchText": "Romanov",
+      "wikiSlug": "House_of_Romanov",
+      "type": "institution"
+    },
+    {
+      "term": "Cossacks",
+      "matchText": "Cossack army",
+      "wikiSlug": "Cossacks",
+      "type": "person"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Austrian Empire",
+      "matchText": "alliance with Austria",
+      "wikiSlug": "Austrian_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Lutheran",
+      "matchText": "Lutheran church",
+      "wikiSlug": "Lutheranism",
+      "type": "concept"
+    },
+    {
+      "term": "Poland",
+      "matchText": "rebellious Poland",
+      "wikiSlug": "Partitions_of_Poland",
+      "type": "place"
+    },
+    {
+      "term": "Persia",
+      "matchText": "war with Persia",
+      "wikiSlug": "Qajar_Iran",
       "type": "place"
     }
   ],
@@ -1211,6 +1618,18 @@
       "matchText": "Grande Armée",
       "wikiSlug": "Grande_Armée",
       "type": "concept"
+    },
+    {
+      "term": "Charles XII",
+      "matchText": "Charles XII",
+      "wikiSlug": "Charles_XII",
+      "type": "person"
+    },
+    {
+      "term": "Austria",
+      "matchText": "Austria",
+      "wikiSlug": "Austrian_Empire",
+      "type": "place"
     }
   ],
   "11": [
@@ -1327,6 +1746,60 @@
       "matchText": "Decembrist",
       "wikiSlug": "Decembrist_revolt",
       "type": "concept"
+    },
+    {
+      "term": "Alexander I",
+      "matchText": "Alexander I of Russia",
+      "wikiSlug": "Alexander_I_of_Russia",
+      "type": "person"
+    },
+    {
+      "term": "Kingdom of Poland",
+      "matchText": "Kingdom of Poland",
+      "wikiSlug": "Congress_Poland",
+      "type": "place"
+    },
+    {
+      "term": "Polish",
+      "matchText": "Polish province",
+      "wikiSlug": "Polish_people",
+      "type": "people"
+    },
+    {
+      "term": "Austria",
+      "matchText": "Austria",
+      "wikiSlug": "Austrian_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Prussia",
+      "matchText": "Prussia",
+      "wikiSlug": "Kingdom_of_Prussia",
+      "type": "place"
+    },
+    {
+      "term": "Pugachev",
+      "matchText": "Pugachev's",
+      "wikiSlug": "Yemelyan_Pugachev",
+      "type": "person"
+    },
+    {
+      "term": "Paris",
+      "matchText": "marched to Paris",
+      "wikiSlug": "Paris",
+      "type": "place"
+    },
+    {
+      "term": "Piedmont",
+      "matchText": "Piedmont",
+      "wikiSlug": "Piedmont",
+      "type": "place"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
     }
   ],
   "12": [
@@ -1419,6 +1892,42 @@
       "matchText": "The mock execution",
       "wikiSlug": "Mock_execution",
       "type": "concept"
+    },
+    {
+      "term": "Orthodoxy",
+      "matchText": "rooted in Orthodoxy",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Autocracy",
+      "matchText": "autocracy was a sacred trust",
+      "wikiSlug": "Tsarist_autocracy",
+      "type": "concept"
+    },
+    {
+      "term": "Polish question",
+      "matchText": "Polish question",
+      "wikiSlug": "Polish_question",
+      "type": "concept"
+    },
+    {
+      "term": "Poland",
+      "matchText": "ruled Poland thereafter",
+      "wikiSlug": "Poland",
+      "type": "place"
+    },
+    {
+      "term": "Decembrists",
+      "matchText": "the Decembrists in Senate Square",
+      "wikiSlug": "Decembrist_revolt",
+      "type": "people"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "the Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
     }
   ],
   "13": [
@@ -1524,6 +2033,36 @@
       "matchText": "The war was the audit",
       "wikiSlug": "Crimean_War",
       "type": "concept"
+    },
+    {
+      "term": "Christians",
+      "matchText": "which Christians",
+      "wikiSlug": "Christians",
+      "type": "people"
+    },
+    {
+      "term": "Austria",
+      "matchText": "Austria",
+      "wikiSlug": "Austrian_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Turks",
+      "matchText": "the Turks",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Crimea",
+      "matchText": "moved to Crimea",
+      "wikiSlug": "Crimea",
+      "type": "place"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
     }
   ],
   "14": [
@@ -1532,6 +2071,18 @@
       "matchText": "the Tsar Liberator",
       "wikiSlug": "Alexander_II_of_Russia",
       "type": "concept"
+    },
+    {
+      "term": "Parliament",
+      "matchText": "act of Parliament",
+      "wikiSlug": "Parliament_of_the_United_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Caribbean",
+      "matchText": "Caribbean slave-worked sugar",
+      "wikiSlug": "Caribbean",
+      "type": "place"
     },
     {
       "term": "Emancipation Manifesto",
@@ -1697,6 +2248,42 @@
       "matchText": "the Church of the Savior on Spilled Blood",
       "wikiSlug": "Church_of_the_Savior_on_Blood",
       "type": "place"
+    },
+    {
+      "term": "Westernizers",
+      "matchText": "Westernizers",
+      "wikiSlug": "Westernizer",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "nihil",
+      "matchText": "nihil",
+      "type": "concept",
+      "definition": "Latin for 'nothing.' Turgenev's coinage *nihilist* (Russian *nigilist*) is a Russian-formed word built on this Latin root — applied to the 1860s generation that accepted no inherited authority on faith."
+    },
+    {
+      "term": "narod",
+      "matchText": "narod",
+      "type": "concept",
+      "definition": "Russian for 'the people,' especially the peasantry. The root of *narodnik* (a 'goer-to-the-people') and of *Narodnaya Volya* (The People's Will) — the keyword of the 1860s–80s Russian agrarian-socialist revolutionaries who staked everything on rousing the village."
     }
   ],
   "16": [
@@ -1771,6 +2358,36 @@
       "matchText": "Ivan Pavlov",
       "wikiSlug": "Ivan_Pavlov",
       "type": "person"
+    },
+    {
+      "term": "Sevastopol",
+      "matchText": "Sevastopol",
+      "wikiSlug": "Sevastopol",
+      "type": "place"
+    },
+    {
+      "term": "Napoleonic Wars",
+      "matchText": "Napoleonic Wars",
+      "wikiSlug": "Napoleonic_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon",
+      "wikiSlug": "Napoleon",
+      "type": "person"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Potemkin villages",
+      "matchText": "Potemkin villages",
+      "wikiSlug": "Potemkin_village",
+      "type": "concept"
     }
   ],
   "17": [
@@ -1869,6 +2486,66 @@
       "matchText": "the new Zionist movement",
       "wikiSlug": "Zionism",
       "type": "concept"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Habsburg",
+      "matchText": "Habsburg",
+      "wikiSlug": "Habsburg_monarchy",
+      "type": "place"
+    },
+    {
+      "term": "Caspian",
+      "matchText": "Caspian",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Avar",
+      "matchText": "Avar",
+      "wikiSlug": "Avars_(Caucasus)",
+      "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Manchuria",
+      "matchText": "Manchuria",
+      "wikiSlug": "Manchuria",
+      "type": "place"
+    },
+    {
+      "term": "Georgians",
+      "matchText": "Georgians",
+      "wikiSlug": "Georgians",
+      "type": "people"
+    },
+    {
+      "term": "Orthodoxy",
+      "matchText": "Orthodoxy",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "type": "institution"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "people"
+    },
+    {
+      "term": "Poland",
+      "matchText": "Poland",
+      "wikiSlug": "Poland",
+      "type": "place"
     }
   ],
   "18": [
@@ -1962,6 +2639,60 @@
       "matchText": "Mensheviks",
       "wikiSlug": "Mensheviks",
       "type": "people"
+    },
+    {
+      "term": "Russian Orthodoxy",
+      "matchText": "militant Orthodoxy",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Jews in Russia",
+      "matchText": "disabilities on Jews",
+      "wikiSlug": "History_of_the_Jews_in_Russia",
+      "type": "people"
+    },
+    {
+      "term": "Moscow",
+      "matchText": "Moscow",
+      "wikiSlug": "Moscow",
+      "type": "place"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Ukrainians",
+      "matchText": "Ukrainian",
+      "wikiSlug": "Ukrainians",
+      "type": "people"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "in the Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Volga",
+      "matchText": "the Volga town",
+      "wikiSlug": "Volga",
+      "type": "place"
+    },
+    {
+      "term": "Yemelyan Pugachev",
+      "matchText": "the peasant Pugachev",
+      "wikiSlug": "Yemelyan_Pugachev",
+      "type": "person"
+    },
+    {
+      "term": "London",
+      "matchText": "Brussels and London",
+      "wikiSlug": "London",
+      "type": "place"
     }
   ],
   "19": [
@@ -2048,6 +2779,36 @@
       "matchText": "the empress Alexandra",
       "wikiSlug": "Alexandra_Feodorovna_(Alix_of_Hesse)",
       "type": "person"
+    },
+    {
+      "term": "Moscow",
+      "matchText": "Moscow",
+      "wikiSlug": "Moscow",
+      "type": "place"
+    },
+    {
+      "term": "Pearl Harbor",
+      "matchText": "Pearl Harbor",
+      "wikiSlug": "Attack_on_Pearl_Harbor",
+      "type": "event"
+    },
+    {
+      "term": "Nobel Peace Prize",
+      "matchText": "Nobel Peace Prize",
+      "wikiSlug": "Nobel_Peace_Prize",
+      "type": "institution"
+    },
+    {
+      "term": "Romania",
+      "matchText": "Romania",
+      "wikiSlug": "Kingdom_of_Romania",
+      "type": "place"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persians",
+      "wikiSlug": "Iranian_Constitutional_Revolution",
+      "type": "people"
     }
   ],
   "20": [
@@ -2176,6 +2937,36 @@
       "matchText": "the Bolsheviks",
       "wikiSlug": "Bolsheviks",
       "type": "people"
+    },
+    {
+      "term": "St Petersburg",
+      "matchText": "St Petersburg",
+      "wikiSlug": "Saint_Petersburg",
+      "type": "place"
+    },
+    {
+      "term": "Allies of World War I",
+      "matchText": "Allied",
+      "wikiSlug": "Allies_of_World_War_I",
+      "type": "concept"
+    },
+    {
+      "term": "State Duma",
+      "matchText": "Duma politicians",
+      "wikiSlug": "State_Duma_(Russian_Empire)",
+      "type": "institution"
+    },
+    {
+      "term": "House of Romanov",
+      "matchText": "Romanov dynasty",
+      "wikiSlug": "House_of_Romanov",
+      "type": "concept"
+    },
+    {
+      "term": "Siberia",
+      "matchText": "move to Siberia",
+      "wikiSlug": "Siberia",
+      "type": "place"
     }
   ]
 }

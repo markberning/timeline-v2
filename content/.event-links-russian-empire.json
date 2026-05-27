@@ -73,6 +73,18 @@
       "matchText": "the streltsy had revolted again"
     },
     {
+      "eventId": "evt-azov-campaigns",
+      "matchText": "handed Azov"
+    },
+    {
+      "eventId": "evt-napoleon-invasion",
+      "matchText": "beat Napoleon"
+    },
+    {
+      "eventId": "evt-governing-senate",
+      "matchText": "the Senate"
+    },
+    {
       "eventId": "evt-great-northern-war",
       "matchText": "Great Northern War"
     },
@@ -110,6 +122,18 @@
     }
   ],
   "4": [
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
+    },
+    {
+      "eventId": "evt-grand-embassy",
+      "matchText": "Grand Embassy"
+    },
+    {
+      "eventId": "evt-okhrana-secret-police",
+      "matchText": "the Okhrana"
+    },
     {
       "eventId": "evt-governing-senate",
       "matchText": "Governing Senate"
@@ -223,6 +247,22 @@
     {
       "eventId": "evt-manifesto-nobility-freedom",
       "matchText": "Manifesto on the Freedom of the Nobility"
+    },
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
+    },
+    {
+      "eventId": "evt-catherine-great",
+      "matchText": "Catherine the Great"
+    },
+    {
+      "eventId": "evt-great-northern-war",
+      "matchText": "Great Northern War"
+    },
+    {
+      "eventId": "evt-russian-academy-sciences",
+      "matchText": "Academy of Sciences"
     }
   ],
   "6": [
@@ -253,6 +293,22 @@
     {
       "eventId": "evt-legislative-commission",
       "matchText": "Legislative Commission"
+    },
+    {
+      "eventId": "evt-peter-iii",
+      "matchText": "the future Peter III"
+    },
+    {
+      "eventId": "evt-winter-palace",
+      "matchText": "the Winter Palace"
+    },
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
+    },
+    {
+      "eventId": "evt-russian-academy-sciences",
+      "matchText": "Academy of Sciences"
     }
   ],
   "7": [
@@ -283,6 +339,18 @@
     {
       "eventId": "evt-novikov-publishing",
       "matchText": "Nikolai Novikov"
+    },
+    {
+      "matchText": "Catherine the philosopher-empress",
+      "eventId": "evt-catherine-great"
+    },
+    {
+      "matchText": "enlightened Legislative Commission",
+      "eventId": "evt-legislative-commission"
+    },
+    {
+      "matchText": "Peter III freed them",
+      "eventId": "evt-peter-iii"
     }
   ],
   "8": [
@@ -333,6 +401,18 @@
     {
       "eventId": "evt-russian-america",
       "matchText": "Russian America"
+    },
+    {
+      "eventId": "evt-catherine-great",
+      "matchText": "Catherine the Great"
+    },
+    {
+      "eventId": "evt-hermitage-founded",
+      "matchText": "the Hermitage"
+    },
+    {
+      "eventId": "evt-crimean-war",
+      "matchText": "the Crimean War"
     }
   ],
   "9": [
@@ -387,6 +467,26 @@
     {
       "eventId": "evt-bessarabia-1812",
       "matchText": "a war with the Ottomans took"
+    },
+    {
+      "eventId": "evt-catherine-great",
+      "matchText": "Catherine the Great"
+    },
+    {
+      "eventId": "evt-peter-iii",
+      "matchText": "Peter III"
+    },
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
+    },
+    {
+      "eventId": "evt-nicholas-ii",
+      "matchText": "Nicholas II"
+    },
+    {
+      "eventId": "evt-napoleon-invasion",
+      "matchText": "Napoleon Bonaparte"
     }
   ],
   "10": [
@@ -421,6 +521,18 @@
     {
       "eventId": "evt-battle-leipzig",
       "matchText": "Battle of Leipzig"
+    },
+    {
+      "eventId": "evt-alexander-i",
+      "matchText": "Alexander I"
+    },
+    {
+      "eventId": "evt-battle-poltava",
+      "matchText": "Poltava"
+    },
+    {
+      "eventId": "evt-cossack-hosts",
+      "matchText": "Cossacks"
     }
   ],
   "11": [
@@ -459,6 +571,18 @@
     {
       "eventId": "evt-decembrist-exile-siberia",
       "matchText": "exiled to hard labor and settlement in Siberia"
+    },
+    {
+      "eventId": "evt-napoleon-invasion",
+      "matchText": "Napoleon"
+    },
+    {
+      "eventId": "evt-peter-iii",
+      "matchText": "Peter III"
+    },
+    {
+      "eventId": "evt-nicholas-i",
+      "matchText": "Nicholas I"
     }
   ],
   "12": [
@@ -509,6 +633,18 @@
     {
       "eventId": "evt-petrashevsky-circle",
       "matchText": "Petrashevsky Circle"
+    },
+    {
+      "eventId": "evt-crimean-war",
+      "matchText": "the Crimean War"
+    },
+    {
+      "eventId": "evt-congress-poland",
+      "matchText": "Congress Poland"
+    },
+    {
+      "eventId": "evt-peter-great",
+      "matchText": "Peter the Great"
     }
   ],
   "13": [
@@ -539,12 +675,32 @@
     {
       "eventId": "evt-treaty-paris-1856",
       "matchText": "Treaty of Paris"
+    },
+    {
+      "eventId": "evt-official-nationality",
+      "matchText": "Official Nationality"
+    },
+    {
+      "eventId": "evt-treaty-kuchuk-kainarji",
+      "matchText": "1774 Treaty of Kuchuk-Kainarji"
+    },
+    {
+      "eventId": "evt-napoleon-invasion",
+      "matchText": "the victor over Napoleon"
     }
   ],
   "14": [
     {
       "eventId": "evt-alexander-ii",
       "matchText": "Alexander II"
+    },
+    {
+      "eventId": "evt-crimean-war",
+      "matchText": "Crimean War"
+    },
+    {
+      "eventId": "evt-pugachev-rebellion",
+      "matchText": "Pugachev"
     },
     {
       "eventId": "evt-emancipation-serfs",
@@ -631,6 +787,14 @@
     {
       "eventId": "evt-church-spilled-blood",
       "matchText": "Church of the Savior on Spilled Blood"
+    },
+    {
+      "eventId": "evt-nicholas-i",
+      "matchText": "Nicholas I"
+    },
+    {
+      "eventId": "evt-dostoevsky-demons",
+      "matchText": "Demons"
     }
   ],
   "16": [
@@ -713,6 +877,10 @@
     {
       "eventId": "evt-tsiolkovsky",
       "matchText": "Konstantin Tsiolkovsky"
+    },
+    {
+      "eventId": "evt-pale-of-settlement",
+      "matchText": "Pale of Settlement"
     }
   ],
   "17": [
@@ -775,6 +943,14 @@
     {
       "eventId": "evt-pogroms-1881",
       "matchText": "pogroms"
+    },
+    {
+      "eventId": "evt-alexander-ii",
+      "matchText": "Alexander II"
+    },
+    {
+      "eventId": "evt-siege-port-arthur",
+      "matchText": "Port Arthur"
     }
   ],
   "18": [
@@ -829,6 +1005,22 @@
     {
       "eventId": "evt-socialist-revolutionaries",
       "matchText": "Socialist Revolutionary Party"
+    },
+    {
+      "eventId": "evt-alexander-ii",
+      "matchText": "killed Alexander II"
+    },
+    {
+      "eventId": "evt-crimean-war",
+      "matchText": "The Crimean War"
+    },
+    {
+      "eventId": "evt-trans-siberian",
+      "matchText": "Trans-Siberian Railway"
+    },
+    {
+      "eventId": "evt-narodnik-movement",
+      "matchText": "Narodism"
     }
   ],
   "19": [
@@ -915,6 +1107,34 @@
     {
       "eventId": "evt-tercentenary-1913",
       "matchText": "Romanov Tercentenary"
+    },
+    {
+      "eventId": "evt-alexander-iii",
+      "matchText": "Alexander III"
+    },
+    {
+      "eventId": "evt-napoleon-invasion",
+      "matchText": "Napoleon"
+    },
+    {
+      "eventId": "evt-winter-palace",
+      "matchText": "Winter Palace"
+    },
+    {
+      "eventId": "evt-official-nationality",
+      "matchText": "Official Nationality"
+    },
+    {
+      "eventId": "evt-alexander-ii",
+      "matchText": "Alexander II"
+    },
+    {
+      "eventId": "evt-okhrana-secret-police",
+      "matchText": "Okhrana"
+    },
+    {
+      "eventId": "evt-pugachev-rebellion",
+      "matchText": "Pugachev"
     }
   ],
   "20": [
@@ -961,6 +1181,22 @@
     {
       "eventId": "evt-abdication-nicholas-ii",
       "matchText": "abdication"
+    },
+    {
+      "eventId": "evt-nicholas-ii",
+      "matchText": "Nicholas II"
+    },
+    {
+      "eventId": "evt-winter-palace",
+      "matchText": "Winter Palace"
+    },
+    {
+      "eventId": "evt-bloody-sunday",
+      "matchText": "Bloody Sunday"
+    },
+    {
+      "eventId": "evt-okhrana-secret-police",
+      "matchText": "the Okhrana"
     }
   ]
 }
