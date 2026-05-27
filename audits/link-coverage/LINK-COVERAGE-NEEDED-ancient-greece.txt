@@ -1,0 +1,1012 @@
+# LINK-COVERAGE-NEEDED — ancient-greece
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Mycenae   ⟨dict⟩  → glossary
+    Pylos   ⟨dict⟩  → glossary
+    Troy   ⟨dict⟩  → glossary
+    Bronze Age   ⟨dict⟩  → glossary
+  * Semitic-speaking   ⟨dict⟩  → glossary
+  * Levantine   ⟨dict⟩  → glossary
+    Lebanon   ⟨dict⟩  → glossary
+    Semitic   ⟨dict⟩  → glossary
+    Homer   ⟨dict,recur×8⟩  → glossary
+    Miletus   ⟨dict⟩  → event
+    Black Sea   ⟨dict,recur×5⟩  → glossary
+  * Greek-speaking   ⟨dict⟩  → glossary
+    Phocaea   ⟨dict⟩  → glossary
+  * Ionia   ⟨dict⟩  → glossary
+    Naples   ⟨dict⟩  → glossary
+    Libya   ⟨dict⟩  → glossary
+    Constantinople   ⟨dict⟩  → cross-link
+    Istanbul   ⟨dict⟩  → glossary
+    Megara   ⟨dict⟩  → glossary
+    Aegean   ⟨dict⟩  → glossary
+    Crimea   ⟨dict⟩  → glossary
+    Georgia   ⟨dict⟩  → glossary
+    Scythian   ⟨dict⟩  → cross-link
+    Etruscans   ⟨dict⟩  → glossary
+  * Egyptians   ⟨dict⟩  → glossary
+    Libyans   ⟨dict⟩  → glossary
+    Scythians   ⟨dict⟩  → cross-link
+    Pythian Games   ⟨bold⟩  → event/glossary
+    Corinth   ⟨dict⟩  → event
+    Persia   ⟨dict⟩  → cross-link
+  * Babylonian   ⟨dict⟩  → glossary
+    Neapolis   ⟨pron,bold⟩  → event/glossary
+  ~ Greece   ⟨dict,recur×6⟩  (advisory)
+  ~ Bronze Age Greece   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict,recur×6⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Greek-speaker   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Russia   ⟨dict⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ With   ⟨⟩  (advisory)
+  ~ Chaos   ⟨⟩  (advisory)
+  ~ Titans   ⟨⟩  (advisory)
+  ~ Mount Olympus   ⟨⟩  (advisory)
+  ~ Perses   ⟨⟩  (advisory)
+  ~ LAYS   ⟨⟩  (advisory)
+  ~ English   ⟨recur×3⟩  (advisory)
+  ~ Marseilles   ⟨⟩  (advisory)
+  ~ Euboean   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Sicily   ⟨dict⟩  (advisory)
+  ~ Corinthians   ⟨⟩  (advisory)
+  ~ North Africa   ⟨dict⟩  (advisory)
+  ~ Italy   ⟨⟩  (advisory)
+  ~ Italic   ⟨⟩  (advisory)
+  ~ Thracians   ⟨⟩  (advisory)
+  ~ Ionian   ⟨⟩  (advisory)
+  ~ Hellenic   ⟨⟩  (advisory)
+  ~ Mount Parnassus   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ meh-TROP-oh-lis   ⟨def⟩  (advisory)
+  ~ modern Naples   ⟨def⟩  (advisory)
+  ~ not the only pan-Hellenic   ⟨def⟩  (advisory)
+  ~ chariot   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ pottery   ⟨dict-lc⟩  (advisory)
+  ~ oral poets   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean.   ⟨dict-lc⟩  (advisory)
+  ~ vacuum.   ⟨dict-lc⟩  (advisory)
+  ~ alpha   ⟨dict-lc,bold⟩  (advisory)
+  ~ roots   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ hospitality   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ patron deity   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ citadel   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ the Black Sea.   ⟨dict-lc⟩  (advisory)
+  ~ the Crimea   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ underworld   ⟨dict-lc⟩  (advisory)
+  ~ oral tradition   ⟨dict-lc⟩  (advisory)
+  ~ beta   ⟨bold⟩  (advisory)
+  ~ aleph   ⟨bold⟩  (advisory)
+  ~ beth   ⟨bold⟩  (advisory)
+  ~ asty   ⟨bold⟩  (advisory)
+  ~ chora   ⟨bold⟩  (advisory)
+  ~ metropolis   ⟨bold⟩  (advisory)
+  ~ glorified   ⟨rare⟩  (advisory)
+  ~ crawled   ⟨rare⟩  (advisory)
+  ~ consonants   ⟨rare⟩  (advisory)
+  ~ grammatically   ⟨rare⟩  (advisory)
+  ~ inflected   ⟨rare⟩  (advisory)
+  ~ uselessness   ⟨rare⟩  (advisory)
+  ~ latecomers   ⟨rare⟩  (advisory)
+  ~ versatile   ⟨rare⟩  (advisory)
+  ~ mortals   ⟨rare⟩  (advisory)
+  ~ integral   ⟨rare⟩  (advisory)
+  ~ coalesce   ⟨rare⟩  (advisory)
+  ~ jealously   ⟨rare⟩  (advisory)
+  ~ colonnaded   ⟨rare⟩  (advisory)
+  ~ walkways   ⟨rare⟩  (advisory)
+  ~ acropoleis   ⟨rare⟩  (advisory)
+  ~ oligarchies   ⟨rare⟩  (advisory)
+  ~ autocracies   ⟨rare⟩  (advisory)
+  ~ unfold   ⟨rare⟩  (advisory)
+  ~ arable   ⟨rare⟩  (advisory)
+  ~ athletes   ⟨rare⟩  (advisory)
+  ~ spectators   ⟨rare⟩  (advisory)
+  ~ footrace   ⟨rare⟩  (advisory)
+  ~ stadium   ⟨rare⟩  (advisory)
+  ~ footraces   ⟨rare⟩  (advisory)
+  ~ wrestling   ⟨rare⟩  (advisory)
+  ~ boxing   ⟨rare⟩  (advisory)
+  ~ discus   ⟨rare⟩  (advisory)
+  ~ javelin   ⟨rare⟩  (advisory)
+  ~ wreaths   ⟨rare⟩  (advisory)
+  ~ medals   ⟨rare⟩  (advisory)
+  ~ celebrities   ⟨rare⟩  (advisory)
+  ~ showered   ⟨rare⟩  (advisory)
+  ~ prophecies   ⟨rare⟩  (advisory)
+  ~ tripod   ⟨rare⟩  (advisory)
+  ~ fissure   ⟨rare⟩  (advisory)
+  ~ geologists   ⟨rare⟩  (advisory)
+  ~ ethylene   ⟨rare⟩  (advisory)
+  ~ uttered   ⟨rare⟩  (advisory)
+  ~ pronouncements   ⟨rare⟩  (advisory)
+  ~ inquirer   ⟨rare⟩  (advisory)
+  ~ initiates   ⟨rare⟩  (advisory)
+  ~ initiation   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Athens   ⟨dict,recur×13⟩  → cross-link
+    Sparta   ⟨dict,bold,recur×3⟩  → glossary
+    Lydian   ⟨dict⟩  → glossary
+    Athena   ⟨dict,recur×3⟩  → glossary
+    Athenians   ⟨recur×4⟩  → ?
+    Herodotus   ⟨dict⟩  → cross-link
+    Acropolis   ⟨dict⟩  → glossary
+    Agora   ⟨dict⟩  → event
+    Odyssey   ⟨dict⟩  → glossary
+    Athenian   ⟨dict,recur×8⟩  → cross-link
+    Aegean   ⟨dict⟩  → glossary
+    Mahajanapadas   ⟨dict⟩  → event
+    Peloponnese   ⟨dict⟩  → glossary
+    Apella   ⟨pron,bold⟩  → event/glossary
+    Greeks   ⟨dict⟩  → glossary
+    Ionian   ⟨recur×3⟩  → ?
+    Anatolia   ⟨dict⟩  → glossary
+  * Anatolian   ⟨dict⟩  → glossary
+  * Mesopotamian   ⟨dict⟩  → cross-link
+    Samos   ⟨dict⟩  → glossary
+    Babylon   ⟨dict⟩  → glossary
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Plato   ⟨dict⟩  → cross-link
+    Homer   ⟨dict⟩  → glossary
+    Hesiod   ⟨dict⟩  → event
+    Zeus   ⟨dict⟩  → glossary
+    Hera   ⟨dict⟩  → glossary
+    Poseidon   ⟨dict⟩  → glossary
+    Apollo   ⟨dict⟩  → glossary
+    Artemis   ⟨dict⟩  → glossary
+    Ares   ⟨dict⟩  → glossary
+    Aphrodite   ⟨dict⟩  → glossary
+    Hermes   ⟨dict⟩  → glossary
+    Demeter   ⟨dict⟩  → glossary
+    Hestia   ⟨dict⟩  → glossary
+    Delphi   ⟨dict⟩  → glossary
+    thespian   ⟨def,bold,rare⟩  → glossary
+  ~ Greek   ⟨dict,recur×14⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Homer's Iliad   ⟨⟩  (advisory)
+  ~ Tyrannicides   ⟨⟩  (advisory)
+  ~ PAYS   ⟨⟩  (advisory)
+  ~ Eurotas River   ⟨⟩  (advisory)
+  ~ Greece   ⟨dict⟩  (advisory)
+  ~ Spartan-assigned   ⟨⟩  (advisory)
+  ~ Outside Athens   ⟨⟩  (advisory)
+  ~ Thracians   ⟨⟩  (advisory)
+  ~ Ethiopians   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Italy   ⟨⟩  (advisory)
+  ~ Tenth Muse   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Hephaestus   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Olympics   ⟨⟩  (advisory)
+  ~ laws themselves were unwritten   ⟨def⟩  (advisory)
+  ~ were excluded   ⟨def⟩  (advisory)
+  ~ fih-LOSS-uh-fee   ⟨def⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ poleis   ⟨dict-lc,rare⟩  (advisory)
+  ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ chariot   ⟨dict-lc⟩  (advisory)
+  ~ patron deity   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ harsher   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ factions   ⟨dict-lc⟩  (advisory)
+  ~ kinship   ⟨dict-lc⟩  (advisory)
+  ~ tribe   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ pottery   ⟨dict-lc⟩  (advisory)
+  ~ kratos   ⟨dict-lc,bold,rare⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ warring states   ⟨dict-lc⟩  (advisory)
+  ~ it was the first   ⟨dict-lc⟩  (advisory)
+  ~ slaves   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ supreme court.   ⟨dict-lc⟩  (advisory)
+  ~ polis   ⟨dict-lc⟩  (advisory)
+  ~ a solar eclipse   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ commune   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ bible   ⟨dict-lc⟩  (advisory)
+  ~ prohibition   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ blasphemy   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ aristoi   ⟨bold,rare⟩  (advisory)
+  ~ draconian   ⟨bold,rare⟩  (advisory)
+  ~ pentakosiomedimnoi   ⟨bold,rare⟩  (advisory)
+  ~ zeugitai   ⟨bold,rare⟩  (advisory)
+  ~ tribes   ⟨bold⟩  (advisory)
+  ~ demes   ⟨bold⟩  (advisory)
+  ~ demos   ⟨bold⟩  (advisory)
+  ~ philosophy   ⟨bold⟩  (advisory)
+  ~ natural science   ⟨bold⟩  (advisory)
+  ~ mystery cults   ⟨bold⟩  (advisory)
+  ~ unsurprisingly   ⟨rare⟩  (advisory)
+  ~ pleased   ⟨rare⟩  (advisory)
+  ~ breastplates   ⟨rare⟩  (advisory)
+  ~ acclaim   ⟨rare⟩  (advisory)
+  ~ connotation   ⟨rare⟩  (advisory)
+  ~ tyrants   ⟨rare⟩  (advisory)
+  ~ exploits   ⟨rare⟩  (advisory)
+  ~ seizes   ⟨rare⟩  (advisory)
+  ~ redistributes   ⟨rare⟩  (advisory)
+  ~ patronizes   ⟨rare⟩  (advisory)
+  ~ escorting   ⟨rare⟩  (advisory)
+  ~ undisguised   ⟨rare⟩  (advisory)
+  ~ amazement   ⟨rare⟩  (advisory)
+  ~ benign   ⟨rare⟩  (advisory)
+  ~ cohesive   ⟨rare⟩  (advisory)
+  ~ lawgivers   ⟨rare⟩  (advisory)
+  ~ harshness   ⟨rare⟩  (advisory)
+  ~ excessively   ⟨rare⟩  (advisory)
+  ~ stealing   ⟨rare⟩  (advisory)
+  ~ cabbage   ⟨rare⟩  (advisory)
+  ~ mediator   ⟨rare⟩  (advisory)
+  ~ imminent   ⟨rare⟩  (advisory)
+  ~ shaking   ⟨rare⟩  (advisory)
+  ~ burdens   ⟨rare⟩  (advisory)
+  ~ collateral   ⟨rare⟩  (advisory)
+  ~ juries   ⟨rare⟩  (advisory)
+  ~ intentions   ⟨rare⟩  (advisory)
+  ~ pressuring   ⟨rare⟩  (advisory)
+  ~ phylai   ⟨rare⟩  (advisory)
+  ~ banished   ⟨rare⟩  (advisory)
+  ~ safeguard   ⟨rare⟩  (advisory)
+  ~ appreciate   ⟨rare⟩  (advisory)
+  ~ limitations   ⟨rare⟩  (advisory)
+  ~ citizenry   ⟨rare⟩  (advisory)
+  ~ exclusions   ⟨rare⟩  (advisory)
+  ~ troubling   ⟨rare⟩  (advisory)
+  ~ experimenting   ⟨rare⟩  (advisory)
+  ~ fascinated   ⟨rare⟩  (advisory)
+  ~ lawgiver   ⟨rare⟩  (advisory)
+  ~ readiness   ⟨rare⟩  (advisory)
+  ~ acclamation   ⟨rare⟩  (advisory)
+  ~ shouting   ⟨rare⟩  (advisory)
+  ~ mountainside   ⟨rare⟩  (advisory)
+  ~ upbringing   ⟨rare⟩  (advisory)
+  ~ hardship   ⟨rare⟩  (advisory)
+  ~ clothed   ⟨rare⟩  (advisory)
+  ~ wrestling   ⟨rare⟩  (advisory)
+  ~ freedoms   ⟨rare⟩  (advisory)
+  ~ testable   ⟨rare⟩  (advisory)
+  ~ indefinite   ⟨rare⟩  (advisory)
+  ~ boundless   ⟨rare⟩  (advisory)
+  ~ apeiron   ⟨rare⟩  (advisory)
+  ~ mortals   ⟨rare⟩  (advisory)
+  ~ fossils   ⟨rare⟩  (advisory)
+  ~ deduced   ⟨rare⟩  (advisory)
+  ~ advances   ⟨rare⟩  (advisory)
+  ~ computing   ⟨rare⟩  (advisory)
+  ~ hypotenuse   ⟨rare⟩  (advisory)
+  ~ deductively   ⟨rare⟩  (advisory)
+  ~ hallmark   ⟨rare⟩  (advisory)
+  ~ oddest   ⟨rare⟩  (advisory)
+  ~ performer   ⟨rare⟩  (advisory)
+  ~ chorus   ⟨rare⟩  (advisory)
+  ~ choral   ⟨rare⟩  (advisory)
+  ~ moonlight   ⟨rare⟩  (advisory)
+  ~ libation   ⟨rare⟩  (advisory)
+  ~ initiates   ⟨rare⟩  (advisory)
+  ~ initiation   ⟨rare⟩  (advisory)
+  ~ questioning   ⟨rare⟩  (advisory)
+  ~ poised   ⟨rare⟩  (advisory)
+  ~ fractious   ⟨rare⟩  (advisory)
+
+## Chapter 3
+  * Anatolian   ⟨dict⟩  → glossary
+    Anatolia   ⟨dict⟩  → glossary
+    Lydian   ⟨dict⟩  → glossary
+    Persia   ⟨dict,recur×4⟩  → cross-link
+    Miletus   ⟨dict,recur×3⟩  → event
+    Euboea   ⟨dict⟩  → glossary
+    Royal Road   ⟨dict⟩  → event
+    Persepolis   ⟨dict⟩  → glossary
+    Athenians   ⟨recur×8⟩  → ?
+    Aegean   ⟨dict⟩  → glossary
+    Athens   ⟨dict,recur×15⟩  → cross-link
+    Sparta   ⟨dict,recur×3⟩  → glossary
+    Athenian   ⟨dict,recur×4⟩  → cross-link
+    Plutarch   ⟨dict⟩  → glossary
+    Olympic Games   ⟨dict⟩  → glossary
+    Dardanelles   ⟨dict⟩  → glossary
+    Attica   ⟨dict⟩  → glossary
+    Acropolis   ⟨dict⟩  → glossary
+    Athena   ⟨dict⟩  → glossary
+    Boeotia   ⟨dict⟩  → glossary
+  * Victorian   ⟨dict⟩  → glossary
+    Parthenon   ⟨dict⟩  → cross-link
+    Sophocles   ⟨dict⟩  → glossary
+    Socrates   ⟨dict⟩  → event
+    Plato   ⟨dict⟩  → cross-link
+    Aristotle   ⟨dict⟩  → cross-link
+    Histories   ⟨dict,bold⟩  → glossary
+    Babylon   ⟨dict⟩  → glossary
+    historiai   ⟨gloss,rare⟩  → glossary
+  ~ Persian-backed   ⟨⟩  (advisory)
+  ~ Greece   ⟨dict,recur×5⟩  (advisory)
+  ~ Master   ⟨⟩  (advisory)
+  ~ Plataean   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Asia   ⟨recur×4⟩  (advisory)
+  ~ Hot Gates   ⟨⟩  (advisory)
+  ~ Western   ⟨recur×6⟩  (advisory)
+  ~ Thespians   ⟨⟩  (advisory)
+  ~ Thespiae   ⟨⟩  (advisory)
+  ~ Thebans   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Leotychidas   ⟨⟩  (advisory)
+  ~ Eastern   ⟨dict⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Scythia   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Father of History   ⟨⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ capital.   ⟨dict-lc⟩  (advisory)
+  ~ satrap   ⟨dict-lc,rare⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ hoplites   ⟨dict-lc,rare⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ double envelopment.   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ hoplite phalanx   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ bridge of boats   ⟨dict-lc⟩  (advisory)
+  ~ congress   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ agoge   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ poleis   ⟨dict-lc,rare⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ the Father   ⟨dict-lc⟩  (advisory)
+  ~ tyrants   ⟨bold,rare⟩  (advisory)
+  ~ remind   ⟨rare⟩  (advisory)
+  ~ ringleaders   ⟨rare⟩  (advisory)
+  ~ enslaving   ⟨rare⟩  (advisory)
+  ~ runner   ⟨rare⟩  (advisory)
+  ~ enveloping   ⟨rare⟩  (advisory)
+  ~ envelopment   ⟨rare⟩  (advisory)
+  ~ hoplite   ⟨rare⟩  (advisory)
+  ~ phalanx   ⟨rare⟩  (advisory)
+  ~ qualitatively   ⟨rare⟩  (advisory)
+  ~ entirety   ⟨rare⟩  (advisory)
+  ~ negated   ⟨rare⟩  (advisory)
+  ~ leaped   ⟨rare⟩  (advisory)
+  ~ epitaph   ⟨rare⟩  (advisory)
+  ~ obedient   ⟨rare⟩  (advisory)
+  ~ peithomenoi   ⟨rare⟩  (advisory)
+  ~ incalculable   ⟨rare⟩  (advisory)
+  ~ foreseen   ⟨rare⟩  (advisory)
+  ~ windfall   ⟨rare⟩  (advisory)
+  ~ dividend   ⟨rare⟩  (advisory)
+  ~ manned   ⟨rare⟩  (advisory)
+  ~ jammed   ⟨rare⟩  (advisory)
+  ~ skirmishing   ⟨rare⟩  (advisory)
+  ~ simultaneity   ⟨rare⟩  (advisory)
+  ~ caricatured   ⟨rare⟩  (advisory)
+  ~ despotism   ⟨rare⟩  (advisory)
+  ~ multicultural   ⟨rare⟩  (advisory)
+  ~ slaveholders   ⟨rare⟩  (advisory)
+  ~ counterfactual   ⟨rare⟩  (advisory)
+  ~ interviewing   ⟨rare⟩  (advisory)
+  ~ digressive   ⟨rare⟩  (advisory)
+  ~ entertaining   ⟨rare⟩  (advisory)
+  ~ inquiries   ⟨rare⟩  (advisory)
+  ~ magnificently   ⟨rare⟩  (advisory)
+  ~ citizenry   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Persia   ⟨dict,recur×3⟩  → cross-link
+    Aegean   ⟨dict⟩  → glossary
+  * Persian   ⟨dict⟩  → cross-link
+    Athens   ⟨dict,recur×29⟩  → cross-link
+    Xerxes   ⟨dict⟩  → glossary
+    Persians   ⟨dict⟩  → cross-link
+    Seven Wonders of the Ancient World   ⟨dict⟩  → glossary
+    Attica   ⟨dict⟩  → glossary
+    Marathon   ⟨dict⟩  → event
+    Agamemnon   ⟨dict⟩  → event
+    Troy   ⟨dict⟩  → glossary
+    Poetics   ⟨dict⟩  → glossary
+    Sparta   ⟨dict⟩  → glossary
+    Peloponnesian War   ⟨dict,recur×3⟩  → event
+    Plato   ⟨dict,bold⟩  → cross-link
+  * Ionia   ⟨dict⟩  → glossary
+    Peloponnese   ⟨dict⟩  → glossary
+    Thrace   ⟨dict⟩  → glossary
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Herodotus   ⟨dict,bold⟩  → cross-link
+    Greeks   ⟨dict⟩  → glossary
+    Greek tragedy   ⟨bold⟩  → event/glossary
+    Greek comedy   ⟨bold⟩  → event/glossary
+  ~ Greek   ⟨dict,recur×9⟩  (advisory)
+  ~ Just   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Greece   ⟨dict⟩  (advisory)
+  ~ Athena the Virgin   ⟨⟩  (advisory)
+  ~ Temple of Athena Nike   ⟨bold⟩  (advisory)
+  ~ Nike   ⟨⟩  (advisory)
+  ~ Victory   ⟨⟩  (advisory)
+  ~ Clytemnestra   ⟨⟩  (advisory)
+  ~ Orestes   ⟨⟩  (advisory)
+  ~ Oedipus the King   ⟨⟩  (advisory)
+  ~ Abdera   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Love   ⟨⟩  (advisory)
+  ~ Strife   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Melian Dialogue   ⟨⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ combined fleet   ⟨dict-lc⟩  (advisory)
+  ~ tribute.   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ classical period.   ⟨dict-lc⟩  (advisory)
+  ~ ivory   ⟨dict-lc⟩  (advisory)
+  ~ talents   ⟨dict-lc⟩  (advisory)
+  ~ siege.   ⟨dict-lc⟩  (advisory)
+  ~ slaves   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ blood feud   ⟨dict-lc⟩  (advisory)
+  ~ reason.   ⟨dict-lc⟩  (advisory)
+  ~ satire   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ dialogues   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ plague   ⟨dict-lc⟩  (advisory)
+  ~ epidemic.   ⟨dict-lc⟩  (advisory)
+  ~ golden age   ⟨dict-lc⟩  (advisory)
+  ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ The Clouds   ⟨bold⟩  (advisory)
+  ~ The Birds   ⟨bold⟩  (advisory)
+  ~ liberate   ⟨rare⟩  (advisory)
+  ~ symbolizing   ⟨rare⟩  (advisory)
+  ~ rejoin   ⟨rare⟩  (advisory)
+  ~ safekeeping   ⟨rare⟩  (advisory)
+  ~ setback   ⟨rare⟩  (advisory)
+  ~ tighten   ⟨rare⟩  (advisory)
+  ~ democrat   ⟨rare⟩  (advisory)
+  ~ persuade   ⟨rare⟩  (advisory)
+  ~ beautify   ⟨rare⟩  (advisory)
+  ~ stealing   ⟨rare⟩  (advisory)
+  ~ infuriating   ⟨rare⟩  (advisory)
+  ~ fluted   ⟨rare⟩  (advisory)
+  ~ expenditure   ⟨rare⟩  (advisory)
+  ~ refinements   ⟨rare⟩  (advisory)
+  ~ distortions   ⟨rare⟩  (advisory)
+  ~ thicker   ⟨rare⟩  (advisory)
+  ~ subtly   ⟨rare⟩  (advisory)
+  ~ corrections   ⟨rare⟩  (advisory)
+  ~ concert   ⟨rare⟩  (advisory)
+  ~ competitions   ⟨rare⟩  (advisory)
+  ~ lifeline   ⟨rare⟩  (advisory)
+  ~ juries   ⟨rare⟩  (advisory)
+  ~ tragedians   ⟨rare⟩  (advisory)
+  ~ premiered   ⟨rare⟩  (advisory)
+  ~ trilogy   ⟨rare⟩  (advisory)
+  ~ vendetta   ⟨rare⟩  (advisory)
+  ~ explores   ⟨rare⟩  (advisory)
+  ~ defies   ⟨rare⟩  (advisory)
+  ~ unfolds   ⟨rare⟩  (advisory)
+  ~ refuses   ⟨rare⟩  (advisory)
+  ~ flawed   ⟨rare⟩  (advisory)
+  ~ indifferent   ⟨rare⟩  (advisory)
+  ~ prizes   ⟨rare⟩  (advisory)
+  ~ comedies   ⟨rare⟩  (advisory)
+  ~ mercilessly   ⟨rare⟩  (advisory)
+  ~ lampooned   ⟨rare⟩  (advisory)
+  ~ charlatan   ⟨rare⟩  (advisory)
+  ~ tragedies   ⟨rare⟩  (advisory)
+  ~ afterpiece   ⟨rare⟩  (advisory)
+  ~ comedians   ⟨rare⟩  (advisory)
+  ~ spectators   ⟨rare⟩  (advisory)
+  ~ subsidized   ⟨rare⟩  (advisory)
+  ~ grappling   ⟨rare⟩  (advisory)
+  ~ pedagogical   ⟨rare⟩  (advisory)
+  ~ impiety   ⟨rare⟩  (advisory)
+  ~ indivisible   ⟨rare⟩  (advisory)
+  ~ uncuttable   ⟨rare⟩  (advisory)
+  ~ prescient   ⟨rare⟩  (advisory)
+  ~ guesses   ⟨rare⟩  (advisory)
+  ~ confidentiality   ⟨rare⟩  (advisory)
+  ~ amenable   ⟨rare⟩  (advisory)
+  ~ dissected   ⟨rare⟩  (advisory)
+  ~ colonnades   ⟨rare⟩  (advisory)
+  ~ stalls   ⟨rare⟩  (advisory)
+  ~ cornering   ⟨rare⟩  (advisory)
+  ~ justifying   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Sparta   ⟨dict,recur×10⟩  → glossary
+    Athenian   ⟨dict,recur×13⟩  → cross-link
+    Delian League   ⟨dict⟩  → event
+    Spartan   ⟨dict,recur×8⟩  → glossary
+    Peloponnese   ⟨dict⟩  → glossary
+    Attica   ⟨dict,recur×3⟩  → glossary
+    Spartans   ⟨dict,recur×4⟩  → glossary
+    Black Sea   ⟨dict⟩  → glossary
+    Parthenon   ⟨dict⟩  → cross-link
+    Aristophanes   ⟨dict⟩  → event
+    Syracuse   ⟨dict,bold,recur×4⟩  → glossary
+    Athenians   ⟨recur×3⟩  → ?
+  * Persian   ⟨dict⟩  → cross-link
+    Cyrus the Younger   ⟨dict⟩  → glossary
+    Hellespont   ⟨dict⟩  → glossary
+    Socrates   ⟨dict⟩  → event
+  ~ Greek   ⟨dict,recur×5⟩  (advisory)
+  ~ Spartan-led   ⟨⟩  (advisory)
+  ~ Corfu   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Athens the resources   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Goat Rivers   ⟨⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ sphere of influence.   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ ships from   ⟨dict-lc⟩  (advisory)
+  ~ the Black Sea   ⟨dict-lc⟩  (advisory)
+  ~ protected by   ⟨dict-lc⟩  (advisory)
+  ~ plague   ⟨dict-lc⟩  (advisory)
+  ~ typhus   ⟨dict-lc,rare⟩  (advisory)
+  ~ smallpox   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ women and children.   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ talent   ⟨dict-lc⟩  (advisory)
+  ~ triremes   ⟨dict-lc,rare⟩  (advisory)
+  ~ hoplites   ⟨dict-lc,rare⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ council   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ poleis   ⟨dict-lc,rare⟩  (advisory)
+  ~ interfering   ⟨rare⟩  (advisory)
+  ~ triggers   ⟨rare⟩  (advisory)
+  ~ embargo   ⟨rare⟩  (advisory)
+  ~ ultimatum   ⟨rare⟩  (advisory)
+  ~ counterintuitive   ⟨rare⟩  (advisory)
+  ~ orchards   ⟨rare⟩  (advisory)
+  ~ typhoid   ⟨rare⟩  (advisory)
+  ~ overcrowded   ⟨rare⟩  (advisory)
+  ~ crammed   ⟨rare⟩  (advisory)
+  ~ sanitation   ⟨rare⟩  (advisory)
+  ~ inflammation   ⟨rare⟩  (advisory)
+  ~ coughing   ⟨rare⟩  (advisory)
+  ~ intestinal   ⟨rare⟩  (advisory)
+  ~ blisters   ⟨rare⟩  (advisory)
+  ~ ulcers   ⟨rare⟩  (advisory)
+  ~ extremities   ⟨rare⟩  (advisory)
+  ~ ravaging   ⟨rare⟩  (advisory)
+  ~ demagogue   ⟨rare⟩  (advisory)
+  ~ advocated   ⟨rare⟩  (advisory)
+  ~ overtake   ⟨rare⟩  (advisory)
+  ~ democracies   ⟨rare⟩  (advisory)
+  ~ unscrupulous   ⟨rare⟩  (advisory)
+  ~ sacrilege   ⟨rare⟩  (advisory)
+  ~ advise   ⟨rare⟩  (advisory)
+  ~ invincibility   ⟨rare⟩  (advisory)
+  ~ beached   ⟨rare⟩  (advisory)
+  ~ unguarded   ⟨rare⟩  (advisory)
+  ~ confiscating   ⟨rare⟩  (advisory)
+  ~ hegemonies   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Sparta   ⟨dict,recur×8⟩  → glossary
+    Peloponnesian War   ⟨dict⟩  → event
+    Persian   ⟨dict,recur×10⟩  → cross-link
+    Spartan   ⟨dict,recur×14⟩  → glossary
+    Athenian   ⟨dict,recur×4⟩  → cross-link
+    Athens   ⟨dict,recur×10⟩  → cross-link
+    Aegean   ⟨dict⟩  → glossary
+    Asia Minor   ⟨dict⟩  → glossary
+    Marathon   ⟨dict⟩  → event
+    Thermopylae   ⟨dict⟩  → event
+    Salamis   ⟨dict⟩  → glossary
+    Persia   ⟨dict,recur×3⟩  → cross-link
+    Persian Wars   ⟨dict⟩  → event
+    Xerxes   ⟨dict⟩  → glossary
+    Theban   ⟨dict,recur×4⟩  → glossary
+    Peloponnese   ⟨dict,recur×3⟩  → glossary
+  * Spartans   ⟨dict⟩  → glossary
+    Arcadia   ⟨dict⟩  → glossary
+    Thirty Tyrants   ⟨dict⟩  → glossary
+    Critias   ⟨dict⟩  → glossary
+    Alcibiades   ⟨dict⟩  → glossary
+    Justinian   ⟨dict⟩  → cross-link
+    Alexander the Great   ⟨dict⟩  → cross-link
+    Alexander   ⟨dict,recur×7⟩  → glossary
+    Persian Empire   ⟨dict,recur×3⟩  → cross-link
+    Armenia   ⟨dict⟩  → glossary
+    Black Sea   ⟨dict⟩  → glossary
+    Olympic Games   ⟨dict⟩  → glossary
+    Greeks   ⟨dict,recur×3⟩  → glossary
+    Macedonian   ⟨recur×3⟩  → ?
+    Olympias   ⟨dict⟩  → glossary
+    Apollo   ⟨dict⟩  → glossary
+    Seven Wonders of the Ancient World   ⟨dict⟩  → glossary
+    kynikos   ⟨gloss,rare⟩  → glossary
+    Macedonian phalanx   ⟨bold⟩  → event/glossary
+  ~ Greek   ⟨dict,recur×21⟩  (advisory)
+  ~ Argos   ⟨⟩  (advisory)
+  ~ Greece   ⟨dict,recur×7⟩  (advisory)
+  ~ THEEBZ   ⟨⟩  (advisory)
+  ~ Thebans   ⟨⟩  (advisory)
+  ~ Great City   ⟨⟩  (advisory)
+  ~ Western   ⟨recur×4⟩  (advisory)
+  ~ Academus   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Kurdistan   ⟨⟩  (advisory)
+  ~ Thessaly   ⟨⟩  (advisory)
+  ~ Macedonians   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Athens of the Macedonian   ⟨⟩  (advisory)
+  ~ Athenians   ⟨⟩  (advisory)
+  ~ Macedonian-dominated   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Politics   ⟨⟩  (advisory)
+  ~ Turkey   ⟨dict⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ reinvented   ⟨dict-lc⟩  (advisory)
+  ~ invasions of   ⟨dict-lc⟩  (advisory)
+  ~ helots   ⟨dict-lc,rare⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ he founded the   ⟨dict-lc⟩  (advisory)
+  ~ prince's   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the Black Sea   ⟨dict-lc⟩  (advisory)
+  ~ poleis   ⟨dict-lc,rare⟩  (advisory)
+  ~ hoplite   ⟨dict-lc,rare⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ stabbed   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ concrete   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ philosopher-kings   ⟨bold⟩  (advisory)
+  ~ tyrants   ⟨rare⟩  (advisory)
+  ~ pitted   ⟨rare⟩  (advisory)
+  ~ dictation   ⟨rare⟩  (advisory)
+  ~ arbitration   ⟨rare⟩  (advisory)
+  ~ fumbled   ⟨rare⟩  (advisory)
+  ~ misfortune   ⟨rare⟩  (advisory)
+  ~ compulsion   ⟨rare⟩  (advisory)
+  ~ innovators   ⟨rare⟩  (advisory)
+  ~ reverberated   ⟨rare⟩  (advisory)
+  ~ demolitions   ⟨rare⟩  (advisory)
+  ~ undefeated   ⟨rare⟩  (advisory)
+  ~ hemmed   ⟨rare⟩  (advisory)
+  ~ impiety   ⟨rare⟩  (advisory)
+  ~ corrupting   ⟨rare⟩  (advisory)
+  ~ protege   ⟨rare⟩  (advisory)
+  ~ apologize   ⟨rare⟩  (advisory)
+  ~ unexamined   ⟨rare⟩  (advisory)
+  ~ questioning   ⟨rare⟩  (advisory)
+  ~ exploring   ⟨rare⟩  (advisory)
+  ~ shadows   ⟨rare⟩  (advisory)
+  ~ escapes   ⟨rare⟩  (advisory)
+  ~ proposes   ⟨rare⟩  (advisory)
+  ~ wisest   ⟨rare⟩  (advisory)
+  ~ employer   ⟨rare⟩  (advisory)
+  ~ invincible   ⟨rare⟩  (advisory)
+  ~ conquerable   ⟨rare⟩  (advisory)
+  ~ outreaching   ⟨rare⟩  (advisory)
+  ~ slingers   ⟨rare⟩  (advisory)
+  ~ versatile   ⟨rare⟩  (advisory)
+  ~ cunning   ⟨rare⟩  (advisory)
+  ~ cajoled   ⟨rare⟩  (advisory)
+  ~ mediator   ⟨rare⟩  (advisory)
+  ~ verbal   ⟨rare⟩  (advisory)
+  ~ endgame   ⟨rare⟩  (advisory)
+  ~ vendetta   ⟨rare⟩  (advisory)
+  ~ estranged   ⟨rare⟩  (advisory)
+  ~ ideals   ⟨rare⟩  (advisory)
+  ~ biology   ⟨rare⟩  (advisory)
+  ~ deductive   ⟨rare⟩  (advisory)
+  ~ acoustic   ⟨rare⟩  (advisory)
+  ~ auditorium   ⟨rare⟩  (advisory)
+  ~ acoustics   ⟨rare⟩  (advisory)
+  ~ entanglement   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Aristotle   ⟨dict⟩  → cross-link
+    Ptolemy   ⟨dict⟩  → glossary
+    Anatolia   ⟨dict⟩  → glossary
+    Companion   ⟨recur×3⟩  → ?
+    Persia   ⟨dict⟩  → cross-link
+    Persian Wars   ⟨dict⟩  → event
+    Greeks   ⟨dict⟩  → glossary
+    Phoenician   ⟨dict⟩  → cross-link
+    Phoenicians   ⟨dict⟩  → cross-link
+    Xerxes'   ⟨dict⟩  → glossary
+    Athens   ⟨dict⟩  → cross-link
+    Afghanistan   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Pakistan   ⟨dict⟩  → glossary
+    Balochistan   ⟨dict⟩  → glossary
+  * Arabia   ⟨dict⟩  → glossary
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Homer's Iliad   ⟨⟩  (advisory)
+  ~ III of Macedon   ⟨⟩  (advisory)
+  ~ CE Greek   ⟨⟩  (advisory)
+  ~ Aristobulus   ⟨⟩  (advisory)
+  ~ Macedonian   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×6⟩  (advisory)
+  ~ Ionian   ⟨⟩  (advisory)
+  ~ Turkey   ⟨dict⟩  (advisory)
+  ~ Great King   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×3⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Iraq   ⟨⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ Queen Semiramis   ⟨⟩  (advisory)
+  ~ Cyrus   ⟨⟩  (advisory)
+  ~ Greece   ⟨dict⟩  (advisory)
+  ~ Alexander IV   ⟨⟩  (advisory)
+  ~ thirteen years   ⟨dict-lc⟩  (advisory)
+  ~ companions.   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ satraps   ⟨dict-lc,rare⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ siege of   ⟨dict-lc⟩  (advisory)
+  ~ causeway   ⟨dict-lc⟩  (advisory)
+  ~ oracle   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ chariots   ⟨dict-lc⟩  (advisory)
+  ~ phalanx   ⟨dict-lc,rare⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ magnificent   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ war elephants   ⟨dict-lc⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ Alexander III of Macedon   ⟨bold⟩  (advisory)
+  ~ annotated   ⟨rare⟩  (advisory)
+  ~ biographer   ⟨rare⟩  (advisory)
+  ~ moralist   ⟨rare⟩  (advisory)
+  ~ punched   ⟨rare⟩  (advisory)
+  ~ bonanza   ⟨rare⟩  (advisory)
+  ~ chivalry   ⟨rare⟩  (advisory)
+  ~ scythed   ⟨rare⟩  (advisory)
+  ~ masterclass   ⟨rare⟩  (advisory)
+  ~ neutralize   ⟨rare⟩  (advisory)
+  ~ marches   ⟨rare⟩  (advisory)
+  ~ multicultural   ⟨rare⟩  (advisory)
+  ~ megalomaniac   ⟨rare⟩  (advisory)
+  ~ murderer   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Alexander   ⟨dict,recur×10⟩  → glossary
+    Libya   ⟨dict⟩  → glossary
+    Cyprus   ⟨dict⟩  → glossary
+    Levant   ⟨dict⟩  → glossary
+    Anatolia   ⟨dict⟩  → glossary
+    Ptolemies   ⟨dict,recur×3⟩  → glossary
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Persia   ⟨dict,recur×3⟩  → cross-link
+    Central Asia   ⟨dict⟩  → glossary
+  * Iranian   ⟨dict⟩  → glossary
+    Afghanistan   ⟨dict⟩  → glossary
+    Demetrius   ⟨pron,bold⟩  → event/glossary
+    Macedon   ⟨dict,recur×4⟩  → glossary
+    Athena   ⟨dict⟩  → glossary
+    Apollo   ⟨dict⟩  → glossary
+    Apis   ⟨dict⟩  → glossary
+    Zeus   ⟨dict⟩  → glossary
+    Pakistan   ⟨dict⟩  → glossary
+    Buddha   ⟨dict⟩  → cross-link
+    Hebrew Bible   ⟨dict⟩  → glossary
+  * Greek-speaking   ⟨dict⟩  → glossary
+    Ptolemy II   ⟨dict⟩  → glossary
+    Seven Wonders of the Ancient World   ⟨dict⟩  → glossary
+    Syracuse   ⟨dict,bold⟩  → glossary
+    Earth   ⟨recur×3⟩  → ?
+    Syene   ⟨dict⟩  → glossary
+    Aswan   ⟨dict⟩  → glossary
+    Renaissance   ⟨dict,recur×3⟩  → cross-link
+    Olympic Games   ⟨dict⟩  → glossary
+    Athenian Agora   ⟨dict⟩  → glossary
+    Marcus Aurelius   ⟨dict⟩  → event
+    Athens   ⟨dict⟩  → cross-link
+    Democritus'   ⟨dict⟩  → event
+    Macedonian Wars   ⟨bold⟩  → event/glossary
+    Greeks   ⟨dict⟩  → glossary
+    Isthmian Games   ⟨dict⟩  → glossary
+    Peloponnese   ⟨dict⟩  → glossary
+    Phoenician   ⟨dict⟩  → cross-link
+  * Jupiter   ⟨dict⟩  → glossary
+    Aphrodite   ⟨dict⟩  → glossary
+    Venus   ⟨dict⟩  → glossary
+    Ancient Greece   ⟨dict⟩  → cross-link
+    Byzantines   ⟨dict⟩  → cross-link
+  * Arabs   ⟨dict⟩  → glossary
+    Hippocratic Oath   ⟨dict⟩  → glossary
+    Byzantine   ⟨dict⟩  → cross-link
+    Constantinople   ⟨dict⟩  → cross-link
+    Ottoman   ⟨dict⟩  → cross-link
+    hellenizein   ⟨gloss,rare⟩  → glossary
+  ~ Alexander IV   ⟨⟩  (advisory)
+  ~ Philip III Arrhidaeus   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×7⟩  (advisory)
+  ~ Cyrenaica   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict,recur×6⟩  (advisory)
+  ~ Egyptian   ⟨recur×4⟩  (advisory)
+  ~ Greco-Egyptian   ⟨⟩  (advisory)
+  ~ Syrian   ⟨⟩  (advisory)
+  ~ Greco-Persian   ⟨⟩  (advisory)
+  ~ Persian Empire Ch   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×38⟩  (advisory)
+  ~ Celtic   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Syria   ⟨dict⟩  (advisory)
+  ~ Hades   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict⟩  (advisory)
+  ~ East Asia   ⟨⟩  (advisory)
+  ~ Jewish   ⟨⟩  (advisory)
+  ~ Muses   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ Bible   ⟨dict⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Sicily   ⟨dict⟩  (advisory)
+  ~ Eureka   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict,recur×8⟩  (advisory)
+  ~ Chalcedon   ⟨⟩  (advisory)
+  ~ Father of Anatomy   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Alongside the sciences   ⟨⟩  (advisory)
+  ~ Painted Porch   ⟨⟩  (advisory)
+  ~ Stoics   ⟨⟩  (advisory)
+  ~ Seneca   ⟨⟩  (advisory)
+  ~ Epictetus   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Epicureans   ⟨⟩  (advisory)
+  ~ Italy   ⟨recur×4⟩  (advisory)
+  ~ Greece   ⟨dict,recur×5⟩  (advisory)
+  ~ Romans   ⟨recur×7⟩  (advisory)
+  ~ Macedonian   ⟨⟩  (advisory)
+  ~ North Africa   ⟨dict⟩  (advisory)
+  ~ Phoenicia Ch   ⟨⟩  (advisory)
+  ~ Minerva   ⟨⟩  (advisory)
+  ~ Captive Greece   ⟨⟩  (advisory)
+  ~ Byzantine Empire Ch   ⟨⟩  (advisory)
+  ~ Greco-Roman   ⟨⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ companions   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ the Levant   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ city-states.   ⟨dict-lc⟩  (advisory)
+  ~ spread of   ⟨dict-lc⟩  (advisory)
+  ~ anthropomorphic   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ compiled the   ⟨dict-lc⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ stadion   ⟨dict-lc,rare⟩  (advisory)
+  ~ summer solstice   ⟨dict-lc⟩  (advisory)
+  ~ vertical   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ eclipses   ⟨dict-lc⟩  (advisory)
+  ~ the wise   ⟨dict-lc⟩  (advisory)
+  ~ slaves   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ annexed   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ citizen   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ parliament   ⟨dict-lc⟩  (advisory)
+  ~ analog computer   ⟨bold⟩  (advisory)
+  ~ dizzying   ⟨rare⟩  (advisory)
+  ~ battlefields   ⟨rare⟩  (advisory)
+  ~ shrewdest   ⟨rare⟩  (advisory)
+  ~ comers   ⟨rare⟩  (advisory)
+  ~ encompassing   ⟨rare⟩  (advisory)
+  ~ envisioned   ⟨rare⟩  (advisory)
+  ~ fluctuating   ⟨rare⟩  (advisory)
+  ~ agoras   ⟨rare⟩  (advisory)
+  ~ gymnasiums   ⟨rare⟩  (advisory)
+  ~ competitions   ⟨rare⟩  (advisory)
+  ~ imperialism   ⟨rare⟩  (advisory)
+  ~ axioms   ⟨rare⟩  (advisory)
+  ~ postulates   ⟨rare⟩  (advisory)
+  ~ proofs   ⟨rare⟩  (advisory)
+  ~ immersed   ⟨rare⟩  (advisory)
+  ~ buoyed   ⟨rare⟩  (advisory)
+  ~ shouting   ⟨rare⟩  (advisory)
+  ~ shadows   ⟨rare⟩  (advisory)
+  ~ revolves   ⟨rare⟩  (advisory)
+  ~ heliocentric   ⟨rare⟩  (advisory)
+  ~ impiety   ⟨rare⟩  (advisory)
+  ~ dissections   ⟨rare⟩  (advisory)
+  ~ cadavers   ⟨rare⟩  (advisory)
+  ~ vivisections   ⟨rare⟩  (advisory)
+  ~ earning   ⟨rare⟩  (advisory)
+  ~ corroded   ⟨rare⟩  (advisory)
+  ~ shoebox   ⟨rare⟩  (advisory)
+  ~ analog   ⟨rare⟩  (advisory)
+  ~ gearing   ⟨rare⟩  (advisory)
+  ~ colonnaded   ⟨rare⟩  (advisory)
+  ~ walkway   ⟨rare⟩  (advisory)
+  ~ indifferent   ⟨rare⟩  (advisory)
+  ~ achieves   ⟨rare⟩  (advisory)
+  ~ tranquility   ⟨rare⟩  (advisory)
+  ~ influencing   ⟨rare⟩  (advisory)
+  ~ statesmen   ⟨rare⟩  (advisory)
+  ~ incalculable   ⟨rare⟩  (advisory)
+  ~ avoidance   ⟨rare⟩  (advisory)
+  ~ atomic   ⟨rare⟩  (advisory)
+  ~ misrepresented   ⟨rare⟩  (advisory)
+  ~ hedonistic   ⟨rare⟩  (advisory)
+  ~ indulgence   ⟨rare⟩  (advisory)
+  ~ advocated   ⟨rare⟩  (advisory)
+  ~ pleasures   ⟨rare⟩  (advisory)
+  ~ friendships   ⟨rare⟩  (advisory)
+  ~ feuded   ⟨rare⟩  (advisory)
+  ~ arbiter   ⟨rare⟩  (advisory)
+  ~ renaming   ⟨rare⟩  (advisory)
+  ~ discoverable   ⟨rare⟩  (advisory)
+  ~ constructs   ⟨rare⟩  (advisory)
+  ~ quarrelsome   ⟨rare⟩  (advisory)
+  ~ scriptoriums   ⟨rare⟩  (advisory)

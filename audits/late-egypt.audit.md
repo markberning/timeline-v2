@@ -342,3 +342,11 @@ The biggest single improvement would be reducing the overlap between Chapters 7 
 *Correction: No findings were tagged STRONG. Revised count:*
 
 **Total findings: 0 STRONG, 15 CHECK, 10 SOFT**
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era addendum, 2026-05-27).** The 2026-05-27 link-coverage sweep on late-egypt added new cross-links from this civ outward: assyrian-empire (Assyrian conquest narrative), persian-empire (Cambyses through Alexander), ancient-nubia + kingdom-of-kush (the Twenty-fifth Dynasty + Napata refuge), ancient-israel (Judah/Jerusalem), ancient-greece (Naucratis + the philosophical orbit), mesopotamia (Bronze Age Collapse context), elamite-civilization (Persian neighbor), and indus-valley (Alexander's eastern terminus).
+
+**Backward findings (forward-only delta).** Targets dispositioned: the reciprocal pointers from those eight civs back to late-egypt are LEDGERED as forward-only for this sweep — the legacy 102 corpus carries a standing remediation backlog (project_corpus_remediation_backlog) for backward sweeps; the new cross-links here are not in that backlog because they were forward-only adds.
+
+**Reason for forward-only disposition:** ledgered, not deferred-without-reason — the backward pointers will be added in a future cross-civ remediation pass. This civ shipped pre-Persona-E; the sweep work surfaced ~15 forward cross-link additions, none of which materially change the target civs' narratives.

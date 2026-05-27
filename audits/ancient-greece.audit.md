@@ -412,3 +412,11 @@ All eight chapters grade STRONG. This is one of the most consistently strong nar
 - A-24: Give the Achaean League at least one concrete detail about its federal structure
 - B-13: Fix "grim silence" at Salamis — Herodotus says Xerxes leapt up, not sat in silence
 - B-30: Acknowledge the stadion-length uncertainty in Eratosthenes' calculation
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era addendum, 2026-05-27).** The 2026-05-27 link-coverage sweep on ancient-greece added forward cross-links to: persian-empire (the Greek Wars + Long Afternoon + Alexander), late-egypt (Naucratis + Hellenistic Egypt), mesopotamia (Babylonian astronomy + math inheritance), maurya-empire (the Buddha and the Indo-Greek frontier), renaissance-italy (the classical revival), phoenicia (alphabet + Tyre), byzantine-empire (the Greek-language afterlife), ottoman-empire (the Greek-world successor), vedic-period (sixteen-kingdoms parallel for assembly politics), and scientific-revolution (the classical inheritance).
+
+**Backward findings (forward-only delta).** Targets dispositioned: reciprocal pointers from those ten civs back to ancient-greece are LEDGERED as forward-only for this sweep — backward sweeps remain in the standing corpus-remediation backlog (project_corpus_remediation_backlog).
+
+**Reason for forward-only disposition:** ledgered, not deferred-without-reason — the backward pointers will be added in a future cross-civ remediation pass. The narrative is one of the strongest in the catalog; this civ shipped pre-Persona-E. The sweep work surfaced ~10 forward cross-link additions, none of which materially change the target civs' narratives.

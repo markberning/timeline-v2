@@ -209,6 +209,120 @@
       "matchText": "Twenty-sixth Dynasty",
       "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
       "type": "concept"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Valley of the Kings",
+      "matchText": "Valley of the Kings",
+      "wikiSlug": "Valley_of_the_Kings",
+      "type": "place"
+    },
+    {
+      "term": "Egyptologists",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Twentieth Dynasty",
+      "matchText": "Twentieth Dynasty",
+      "wikiSlug": "Twentieth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Hyksos",
+      "matchText": "Hyksos",
+      "wikiSlug": "Hyksos",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Twenty-third Dynasty",
+      "matchText": "Twenty-third Dynasty",
+      "wikiSlug": "Twenty-third_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Twenty-fourth Dynasty",
+      "matchText": "Twenty-fourth Dynasty",
+      "wikiSlug": "Twenty-fourth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "British Museum",
+      "matchText": "British Museum",
+      "wikiSlug": "British_Museum",
+      "type": "place"
+    },
+    {
+      "term": "Ethiopia",
+      "matchText": "Ethiopia",
+      "definition": "In the Hebrew Bible's Greek-translated rendering of place names, 'Ethiopia' (Aithiopia, 'land of the burnt-faced people') refers to Kush — the Nubian kingdom south of Egypt, not the modern country of Ethiopia, which lay further southeast and was never a player in this story.",
+      "type": "place"
+    },
+    {
+      "term": "Palestine",
+      "matchText": "Palestine",
+      "wikiSlug": "Palestine_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine kingdoms",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Nahum",
+      "matchText": "Nahum",
+      "wikiSlug": "Book_of_Nahum",
+      "type": "concept"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Confucius",
+      "matchText": "Confucius",
+      "wikiSlug": "Confucius",
+      "type": "people"
+    },
+    {
+      "term": "Late Period",
+      "matchText": "Late Period",
+      "wikiSlug": "Late_Period_of_ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Ionian",
+      "matchText": "Ionian",
+      "wikiSlug": "Ionia",
+      "type": "place"
     }
   ],
   "2": [
@@ -367,6 +481,138 @@
       "matchText": "Sinai",
       "wikiSlug": "Sinai_Peninsula",
       "type": "place"
+    },
+    {
+      "term": "Chaldean",
+      "matchText": "Chaldean",
+      "wikiSlug": "Chaldea",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "concept"
+    },
+    {
+      "term": "Zagros",
+      "matchText": "Zagros",
+      "wikiSlug": "Zagros_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Fertile Crescent",
+      "matchText": "Fertile Crescent",
+      "wikiSlug": "Fertile_Crescent",
+      "type": "place"
+    },
+    {
+      "term": "Judah",
+      "matchText": "Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Jezreel Valley",
+      "matchText": "Jezreel Valley",
+      "wikiSlug": "Jezreel_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Thutmose III",
+      "matchText": "Thutmose III",
+      "wikiSlug": "Thutmose_III",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Solomon's Temple",
+      "matchText": "Solomon's Temple",
+      "wikiSlug": "Solomon%27s_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Delta",
+      "matchText": "Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Cape of Good Hope",
+      "matchText": "Cape of Good Hope",
+      "wikiSlug": "Cape_of_Good_Hope",
+      "type": "place"
+    },
+    {
+      "term": "Saite Dynasty",
+      "matchText": "Saite Dynasty",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Napata",
+      "matchText": "Napata",
+      "wikiSlug": "Napata",
+      "type": "place"
+    },
+    {
+      "term": "Ramesses II",
+      "matchText": "Ramesses II",
+      "wikiSlug": "Ramesses_II",
+      "type": "people"
+    },
+    {
+      "term": "Anatolian languages",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Judah",
+      "matchText": "Kingdom of Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Elephantine",
+      "matchText": "Elephantine",
+      "wikiSlug": "Elephantine",
+      "type": "place"
+    },
+    {
+      "term": "Libya",
+      "matchText": "Libya",
+      "wikiSlug": "Ancient_Libya",
+      "type": "place"
     }
   ],
   "3": [
@@ -519,6 +765,108 @@
       "matchText": "Indus River",
       "wikiSlug": "Indus_River",
       "type": "place"
+    },
+    {
+      "term": "Saite",
+      "matchText": "Saite",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Herodotus",
+      "matchText": "Herodotus",
+      "wikiSlug": "Herodotus",
+      "type": "people"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "concept"
+    },
+    {
+      "term": "Asia Minor",
+      "matchText": "Asia Minor",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Delta",
+      "matchText": "Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Macau",
+      "matchText": "Macau",
+      "wikiSlug": "Macau",
+      "type": "place"
+    },
+    {
+      "term": "Cyrene",
+      "matchText": "Cyrene",
+      "wikiSlug": "Cyrene,_Libya",
+      "type": "place"
+    },
+    {
+      "term": "Hera",
+      "matchText": "Hera",
+      "wikiSlug": "Hera",
+      "type": "people"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Ptolemaic period",
+      "matchText": "Ptolemaic period",
+      "wikiSlug": "Ptolemaic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Anaximander",
+      "matchText": "Anaximander",
+      "wikiSlug": "Anaximander",
+      "type": "people"
+    },
+    {
+      "term": "Anaximenes",
+      "matchText": "Anaximenes",
+      "wikiSlug": "Anaximenes_of_Miletus",
+      "type": "people"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean Sea",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Libya",
+      "matchText": "Libya",
+      "wikiSlug": "Ancient_Libya",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "concept"
     }
   ],
   "4": [
@@ -684,6 +1032,135 @@
       "matchText": "Canal of the Pharaohs",
       "wikiSlug": "Canal_of_the_Pharaohs",
       "type": "concept"
+    },
+    {
+      "term": "Palestine",
+      "matchText": "Palestine",
+      "wikiSlug": "Palestine_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Sinai Desert",
+      "matchText": "Sinai Desert",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Ptah",
+      "matchText": "Ptah",
+      "wikiSlug": "Ptah",
+      "type": "concept"
+    },
+    {
+      "term": "Neith",
+      "matchText": "Neith",
+      "wikiSlug": "Neith",
+      "type": "concept"
+    },
+    {
+      "term": "Sais",
+      "matchText": "Sais",
+      "wikiSlug": "Sais,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Amun",
+      "matchText": "Amun",
+      "wikiSlug": "Amun",
+      "type": "concept"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Sahara",
+      "wikiSlug": "Sahara",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Lydia",
+      "matchText": "Lydia",
+      "wikiSlug": "Lydia",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age Collapse",
+      "matchText": "Bronze Age Collapse",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "type": "concept"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Nile Delta",
+      "matchText": "Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Saite",
+      "matchText": "Saite",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Histories",
+      "matchText": "Histories",
+      "wikiSlug": "Histories_(Herodotus)",
+      "type": "concept"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Of or relating to Babylon, the great Mesopotamian city on the Euphrates whose Neo-Babylonian Empire briefly dominated the Near East in the sixth century BCE before falling to the Persians."
+    },
+    {
+      "term": "Libyan",
+      "matchText": "Libyan",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "From the western desert peoples the Egyptians called Libu, who lived west of the Nile Delta. Libyan dynasties had ruled Egypt during the Third Intermediate Period before the Saite Renaissance."
+    },
+    {
+      "term": "Arab",
+      "matchText": "Arab tribes",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Semitic-speaking peoples of the Arabian Peninsula and the Syrian-Sinai desert fringe. In 525 BCE they controlled the water sources across the Sinai that the Persian army needed to reach Egypt."
+    },
+    {
+      "term": "Indian Ocean",
+      "matchText": "Indian Ocean",
+      "wikiSlug": "Indian_Ocean",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Athenians",
+      "matchText": "Athenians",
+      "wikiSlug": "Classical_Athens",
+      "type": "people"
     }
   ],
   "5": [
@@ -836,6 +1313,78 @@
       "matchText": "Narmer",
       "wikiSlug": "Narmer",
       "type": "people"
+    },
+    {
+      "term": "Sais",
+      "matchText": "Sais",
+      "wikiSlug": "Sais,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Nile Delta",
+      "matchText": "Nile Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Pelusium",
+      "matchText": "Pelusium",
+      "wikiSlug": "Pelusium",
+      "type": "place"
+    },
+    {
+      "term": "Palestine (region)",
+      "matchText": "Palestine",
+      "wikiSlug": "Palestine_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Ptolemaic Kingdom",
+      "matchText": "Ptolemaic",
+      "wikiSlug": "Ptolemaic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Libyan dynasty",
+      "matchText": "Libyan",
+      "definition": "A loose label for the dynasties of Egypt (mainly the 22nd through 24th, c. 943–720 BCE) founded by descendants of Libyan-origin mercenary chiefs who had settled in the Delta during the New Kingdom and gradually taken over local kingships. Their pharaohs adopted full Egyptian titulary, sponsored temple-building, and ruled as Egyptians, but contemporaries still remembered the foreign origin.",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Apis",
+      "matchText": "Apis",
+      "wikiSlug": "Apis_(deity)",
+      "type": "concept"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Macedonia",
+      "matchText": "Macedonia",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
     }
   ],
   "6": [
@@ -988,6 +1537,150 @@
       "matchText": "Roman Empire",
       "wikiSlug": "Roman_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Apis",
+      "matchText": "Apis bull at Memphis",
+      "wikiSlug": "Apis_(deity)",
+      "type": "concept"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Cambyses",
+      "matchText": "accounts of Cambyses",
+      "wikiSlug": "Cambyses_II",
+      "type": "people"
+    },
+    {
+      "term": "Delta",
+      "matchText": "rebellions flared in the Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian army",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Hellespont",
+      "matchText": "Hellespont",
+      "wikiSlug": "Dardanelles",
+      "type": "place"
+    },
+    {
+      "term": "Achaemenid",
+      "matchText": "last Achaemenid king",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Alexander III",
+      "matchText": "Alexander III",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine coast",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Sahara",
+      "wikiSlug": "Sahara",
+      "type": "place"
+    },
+    {
+      "term": "Delphi",
+      "matchText": "Delphi",
+      "wikiSlug": "Delphi",
+      "type": "place"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Ancient_Greece",
+      "type": "concept"
+    },
+    {
+      "term": "Spartans",
+      "matchText": "Spartans",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Mediterranean Sea",
+      "matchText": "Mediterranean Sea",
+      "wikiSlug": "Mediterranean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "west of the Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "die in Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Ptolemies",
+      "matchText": "Ptolemies built",
+      "wikiSlug": "Ptolemaic_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Philae",
+      "matchText": "at Philae",
+      "wikiSlug": "Philae",
+      "type": "place"
+    },
+    {
+      "term": "Osiris",
+      "matchText": "Osiris",
+      "wikiSlug": "Osiris",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptologists",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Aswan",
+      "matchText": "modern Aswan",
+      "wikiSlug": "Aswan",
+      "type": "place"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon's soldiers",
+      "wikiSlug": "Napoleon",
+      "type": "people"
+    },
+    {
+      "term": "Julius Caesar",
+      "matchText": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar",
+      "type": "people"
+    },
+    {
+      "term": "Libyans",
+      "matchText": "Libyans",
+      "wikiSlug": "Ancient_Libya",
+      "type": "place"
     }
   ],
   "7": [
@@ -1122,6 +1815,96 @@
       "matchText": "Eratosthenes",
       "wikiSlug": "Eratosthenes",
       "type": "people"
+    },
+    {
+      "term": "Alexander the Great",
+      "matchText": "Alexander",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Ptolemies",
+      "matchText": "Ptolemies",
+      "wikiSlug": "Ptolemaic_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Amun",
+      "matchText": "Amun",
+      "wikiSlug": "Amun",
+      "type": "concept"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Horus",
+      "matchText": "Horus",
+      "wikiSlug": "Horus",
+      "type": "concept"
+    },
+    {
+      "term": "Bubastis",
+      "matchText": "Bubastis",
+      "wikiSlug": "Bubastis",
+      "type": "place"
+    },
+    {
+      "term": "Ptah",
+      "matchText": "Ptah",
+      "wikiSlug": "Ptah",
+      "type": "concept"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "concept"
+    },
+    {
+      "term": "Philae",
+      "matchText": "Philae",
+      "wikiSlug": "Philae",
+      "type": "place"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "concept"
+    },
+    {
+      "term": "Saite Dynasty",
+      "matchText": "Saite",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Thirtieth Dynasty",
+      "matchText": "Thirtieth Dynasty",
+      "wikiSlug": "Thirtieth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Ptolemaic Kingdom",
+      "matchText": "Ptolemaic",
+      "wikiSlug": "Ptolemaic_Kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Middle Kingdom",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1190,6 +1973,114 @@
       "matchText": "Champollion",
       "wikiSlug": "Jean-Fran%C3%A7ois_Champollion",
       "type": "people"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Libyan",
+      "matchText": "Libyans",
+      "wikiSlug": "Ancient_Libya",
+      "type": "concept"
+    },
+    {
+      "term": "Delta",
+      "matchText": "Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Saite Dynasty",
+      "matchText": "Saite Dynasty",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Thirtieth Dynasty",
+      "matchText": "Thirtieth Dynasty",
+      "wikiSlug": "Thirtieth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Teos",
+      "matchText": "Teos",
+      "wikiSlug": "Teos_of_Egypt",
+      "type": "people"
+    },
+    {
+      "term": "Apis bull",
+      "matchText": "Apis bull",
+      "wikiSlug": "Apis_(deity)",
+      "type": "concept"
+    },
+    {
+      "term": "Ptolemies",
+      "matchText": "Ptolemies",
+      "wikiSlug": "Ptolemaic_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Philae",
+      "matchText": "Philae",
+      "wikiSlug": "Philae",
+      "type": "place"
+    },
+    {
+      "term": "Horus",
+      "matchText": "Horus",
+      "wikiSlug": "Horus",
+      "type": "concept"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Ptolemy V",
+      "matchText": "Ptolemy V",
+      "wikiSlug": "Ptolemy_V_Epiphanes",
+      "type": "people"
+    },
+    {
+      "term": "Egyptian language",
+      "matchText": "Egyptian language",
+      "wikiSlug": "Egyptian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Saite",
+      "matchText": "Saite",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "hieroglyphic writing system",
+      "matchText": "hieroglyphic writing system",
+      "wikiSlug": "Egyptian_hieroglyphs",
+      "type": "concept"
+    },
+    {
+      "term": "pharaonic political system",
+      "matchText": "pharaonic political system",
+      "wikiSlug": "Pharaoh",
+      "type": "concept"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
     }
   ]
 }

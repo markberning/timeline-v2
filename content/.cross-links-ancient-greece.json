@@ -4,7 +4,7 @@
       "matchText": "Phoenicians",
       "targetTl": "phoenicia",
       "targetChapter": 3,
-      "blurb": "The Phoenicians developed their consonant-only writing system around 1050 BCE and spread it across the Mediterranean through their trading network. The Greeks borrowed the letter forms and added vowels, creating the first true alphabet — a transformation that made Greek literature, philosophy, and science possible."
+      "blurb": "The Phoenicians developed their consonant-only writing system around 1050 BCE and spread it across the Mediterranean through their trading network. The Greeks borrowed the letter forms and added vowels, creating the first true alphabet \u2014 a transformation that made Greek literature, philosophy, and science possible."
     },
     {
       "matchText": "Mycenaean palaces had burned",
@@ -22,7 +22,7 @@
       "matchText": "Mycenaean",
       "targetTl": "mycenaean-civilization",
       "targetChapter": 7,
-      "blurb": "Greek history opens in the rubble of the Mycenaean collapse — the Dark Age after the citadels fell, from which the polis world would slowly emerge."
+      "blurb": "Greek history opens in the rubble of the Mycenaean collapse \u2014 the Dark Age after the citadels fell, from which the polis world would slowly emerge."
     },
     {
       "matchText": "Mesopotamia",
@@ -34,13 +34,37 @@
       "matchText": "Phoenicia",
       "targetTl": "phoenicia",
       "targetChapter": 3,
-      "blurb": "The single most consequential Greek borrowing was the alphabet — adapted from the Phoenician script, vowels added, and turned into the writing system of European literacy."
+      "blurb": "The single most consequential Greek borrowing was the alphabet \u2014 adapted from the Phoenician script, vowels added, and turned into the writing system of European literacy."
     },
     {
       "matchText": "Shang Dynasty",
       "targetTl": "shang-dynasty",
       "targetChapter": 3,
-      "blurb": "At the other end of Eurasia, Bronze Age China under the Shang had its own script and ritual-bronze elite — civilization arising independently while Greece was in its dark age."
+      "blurb": "At the other end of Eurasia, Bronze Age China under the Shang had its own script and ritual-bronze elite \u2014 civilization arising independently while Greece was in its dark age."
+    },
+    {
+      "matchText": "later Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Megarian colony of Byzantion would become Constantinople in 330 CE \u2014 Constantine's eastern capital and the imperial city that carried the Roman empire forward for another thousand years after the Latin west collapsed."
+    },
+    {
+      "matchText": "Scythian nomads",
+      "targetTl": "scythians",
+      "targetChapter": 1,
+      "blurb": "The horse-riding nomads of the Pontic steppe controlled the grasslands north of the Black Sea. Greek colonists on the Crimean coast became their permanent trading partners \u2014 grain and gold flowed south, Greek wine and pottery north \u2014 making the steppe and the polis world economic siblings."
+    },
+    {
+      "matchText": "attack Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "When Croesus consulted Delphi, the empire he was thinking of attacking was Cyrus the Great's freshly assembled Achaemenid superstate \u2014 the largest the world had yet seen. The oracle's famous ambiguity ('you will destroy a great empire') hid the answer: the great empire was his own. Cyrus rolled over Lydia in 547 BCE."
+    },
+    {
+      "matchText": "traded with Egyptians",
+      "targetTl": "late-egypt",
+      "targetChapter": 2,
+      "blurb": "By the 7th century BCE, Saite-dynasty Egypt was actively recruiting Greek mercenaries and granting Greek traders a permanent settlement at Naucratis on the Nile delta. The contact ran both ways: Greek colonists brought Egyptian mathematics, monumental stone sculpture, and (later) the Egyptian gods' iconography back into the Aegean."
     }
   ],
   "2": [
@@ -48,19 +72,37 @@
       "matchText": "Persian Empire under Darius",
       "targetTl": "persian-empire",
       "targetChapter": 2,
-      "blurb": "Darius I built the most sophisticated imperial administration the world had seen: twenty satrapies, the Royal Road courier system, standardized coinage, and codified law. Athens' democratic experiment and Persia's bureaucratic monarchy represented two radically different answers to the same question — how do you govern a diverse population?"
+      "blurb": "Darius I built the most sophisticated imperial administration the world had seen: twenty satrapies, the Royal Road courier system, standardized coinage, and codified law. Athens' democratic experiment and Persia's bureaucratic monarchy represented two radically different answers to the same question \u2014 how do you govern a diverse population?"
     },
     {
       "matchText": "Zhou Dynasty",
       "targetTl": "zhou-dynasty",
       "targetChapter": 7,
-      "blurb": "The Zhou Dynasty's Warring States period was producing its own political fragmentation and intellectual ferment at the same time Athens was inventing democracy. Confucius, like Solon, sought institutional solutions to social crisis — but Confucius looked to restored ritual hierarchy while Solon expanded political participation."
+      "blurb": "The Zhou Dynasty's Warring States period was producing its own political fragmentation and intellectual ferment at the same time Athens was inventing democracy. Confucius, like Solon, sought institutional solutions to social crisis \u2014 but Confucius looked to restored ritual hierarchy while Solon expanded political participation."
     },
     {
       "matchText": "Persian Empire",
       "targetTl": "persian-empire",
       "targetChapter": 2,
-      "blurb": "As Athens experimented with citizen government, the Persian Empire was perfecting the opposite model — a vast multi-ethnic bureaucratic monarchy run by satraps and the King's roads."
+      "blurb": "As Athens experimented with citizen government, the Persian Empire was perfecting the opposite model \u2014 a vast multi-ethnic bureaucratic monarchy run by satraps and the King's roads."
+    },
+    {
+      "matchText": "Mahajanapadas",
+      "targetTl": "vedic-period",
+      "targetChapter": 6,
+      "blurb": "India's 'sixteen great realms' of the 7th-5th centuries BCE included monarchies and gana-sanghas \u2014 oligarchic republics governed by clan-elder councils that debated and voted, the closest non-Greek parallel to Athenian assembly politics in the same era."
+    },
+    {
+      "matchText": "Mesopotamian",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "By the 6th century BCE Babylonian scribes had been doing sophisticated algebra, square-root approximation, and Pythagorean-theorem geometry on clay tablets for over a thousand years. The Ionians inherited a mathematical inheritance, but reframed it as 'what is reality made of?' rather than 'how do I solve this practical problem?'"
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Old Babylonian mathematics (c. 1800 BCE) understood the geometric relationship between the legs and hypotenuse of a right triangle more than a thousand years before Pythagoras was born \u2014 though Babylonians used it as a calculation recipe, not a deductively proved theorem."
     }
   ],
   "3": [
@@ -74,23 +116,73 @@
       "matchText": "Darius I",
       "targetTl": "persian-empire",
       "targetChapter": 3,
-      "blurb": "Darius I responded to the Ionian Revolt by sending the punitive expedition that was defeated at Marathon. From the Persian perspective, Greece was a minor frontier problem — a handful of small cities on the western fringe of an empire stretching from Egypt to the Indus."
+      "blurb": "Darius I responded to the Ionian Revolt by sending the punitive expedition that was defeated at Marathon. From the Persian perspective, Greece was a minor frontier problem \u2014 a handful of small cities on the western fringe of an empire stretching from Egypt to the Indus."
     },
     {
       "matchText": "Persian Empire",
       "targetTl": "persian-empire",
       "targetChapter": 1,
-      "blurb": "The Persian Wars pit the young Greek poleis against the superpower Cyrus and Darius had built — the largest empire the world had yet seen, stopped at Marathon and Salamis."
+      "blurb": "The Persian Wars pit the young Greek poleis against the superpower Cyrus and Darius had built \u2014 the largest empire the world had yet seen, stopped at Marathon and Salamis."
     }
   ],
-  "4": [],
-  "5": [],
+  "4": [
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 3,
+      "blurb": "After Xerxes' failed invasion, Persia turned to managing its still-vast empire \u2014 Egypt to the Indus \u2014 and to using gold rather than armies to keep the Greek world divided. The Delian League formed against a Persia that remained the great power across the Aegean, even as Athens stopped seeing it as the immediate threat."
+    },
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 1,
+      "blurb": "Empedocles' four-elements theory (earth, water, air, fire) became the orthodoxy of Western natural philosophy for two thousand years, surviving through Aristotle and the medieval universities until Robert Boyle and the 17th-century chemists finally dismantled it during the Scientific Revolution."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "Persia, sensing opportunity after the Sicilian disaster, started funneling gold to Sparta to build a fleet that could beat Athens. Cyrus the Younger \u2014 the Persian prince running the western satrapies \u2014 was the one cutting the checks. A few years later he would try (and fail) to take the Persian throne for himself, in the campaign Xenophon turned into the Anabasis."
+    }
+  ],
   "6": [
     {
       "matchText": "Xenophon",
       "targetTl": "persian-empire",
       "targetChapter": 4,
       "blurb": "Xenophon's march of the Ten Thousand in 401 BCE proved that a small Greek army could penetrate deep into the Persian Empire and survive. Philip of Macedon and his son Alexander both studied the lesson: Persia's vast territory was not as impregnable as it appeared."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "The Persian Empire (the Achaemenid dynasty founded by Cyrus the Great) was still the largest state in the world in the 4th century BCE. Its long afternoon was an empire that had stopped expanding, plagued by satrap revolts and Egyptian secessions but still rich, vast, and capable of raising enormous armies \u2014 the prize Philip and Alexander were already eyeing."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "By the 4th century BCE Persia had become the arbiter of Greek affairs \u2014 funding whichever side served its interest, dictating the King's Peace of 387 BCE, and watching the city-states exhaust themselves. The Achaemenid machinery was running but the bolts were loose: rich and vast, but no longer cohesive."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 4,
+      "blurb": "Persian gold and Persian diplomacy shaped the 4th-century Greek world. Lysander cultivated Persian connections; Xenophon's Ten Thousand marched into a Persian civil war; Philip's invasion plan targeted Persian territory. The Long Afternoon empire was wealthy enough to bankroll every faction."
+    },
+    {
+      "matchText": "Justinian",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 2,
+      "blurb": "Justinian, the 6th-century Eastern Roman emperor who tried to reconquer the lost western half of the empire, also closed Plato's Academy in 529 CE \u2014 ending its nearly 900-year run as the first institution of higher learning in the Western world."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "persian-empire",
+      "targetChapter": 5,
+      "blurb": "Alexander the Great, Philip's son and Aristotle's pupil, would carry out his father's planned invasion of Persia and topple the Achaemenid Empire in just over a decade \u2014 a campaign whose Persian-side story is told in persian-empire chapter 5."
     }
   ],
   "7": [
@@ -98,7 +190,7 @@
       "matchText": "Maurya Empire in India",
       "targetTl": "maurya-empire",
       "targetChapter": 1,
-      "blurb": "Chandragupta Maurya founded the Maurya Empire around 322 BCE, roughly contemporary with Alexander's conquests. While Alexander imposed Greek culture by military force, Chandragupta built an Indian imperial system from the Arthashastra's playbook — ruthless pragmatism applied to subcontinental unification."
+      "blurb": "Chandragupta Maurya founded the Maurya Empire around 322 BCE, roughly contemporary with Alexander's conquests. While Alexander imposed Greek culture by military force, Chandragupta built an Indian imperial system from the Arthashastra's playbook \u2014 ruthless pragmatism applied to subcontinental unification."
     },
     {
       "matchText": "Phoenicia",
@@ -116,13 +208,25 @@
       "matchText": "Indus Valley",
       "targetTl": "indus-valley",
       "targetChapter": 1,
-      "blurb": "Alexander reached the Indus region in 326 BCE, fighting King Porus at the Hydaspes. The Indus Valley had been the site of one of humanity's earliest urban civilizations over two thousand years earlier — Alexander was marching through lands with a history as deep as Egypt's."
+      "blurb": "Alexander reached the Indus region in 326 BCE, fighting King Porus at the Hydaspes. The Indus Valley had been the site of one of humanity's earliest urban civilizations over two thousand years earlier \u2014 Alexander was marching through lands with a history as deep as Egypt's."
     },
     {
       "matchText": "Maurya Empire",
       "targetTl": "maurya-empire",
       "targetChapter": 1,
       "blurb": "Alexander's invasion of the Indus directly triggered the Maurya Empire: Chandragupta rose in the vacuum the Macedonians left, building India's first great empire on the Greek frontier."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "By Alexander's day, Persia was the Achaemenid super-state Darius I had organized two centuries earlier \u2014 satraps governing 20 provinces, royal roads carrying messengers from Sardis to Susa, tribute flowing in from Egypt to the Indus. Alexander didn't have to invent imperial machinery. He inherited it."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 8,
+      "blurb": "The Phoenician city-states had been the Mediterranean's traders and shipbuilders for a thousand years, supplying Persia's fleet under contract. Alexander's siege of Tyre in 332 BCE shattered the largest of them; Phoenicia as an independent civilization ended here."
     }
   ],
   "8": [
@@ -130,7 +234,7 @@
       "matchText": "Ptolemaic Kingdom",
       "targetTl": "late-egypt",
       "targetChapter": 6,
-      "blurb": "Ptolemy I seized Egypt after Alexander's death and founded a dynasty that would rule for nearly three centuries. The Ptolemies built Alexandria into the Mediterranean's greatest city, constructed the Library and the Lighthouse, and ruled as pharaohs — Greek kings performing Egyptian rituals in Egyptian temples."
+      "blurb": "Ptolemy I seized Egypt after Alexander's death and founded a dynasty that would rule for nearly three centuries. The Ptolemies built Alexandria into the Mediterranean's greatest city, constructed the Library and the Lighthouse, and ruled as pharaohs \u2014 Greek kings performing Egyptian rituals in Egyptian temples."
     },
     {
       "matchText": "Seleucid Empire",
@@ -142,13 +246,13 @@
       "matchText": "Cleopatra VII",
       "targetTl": "late-egypt",
       "targetChapter": 6,
-      "blurb": "Cleopatra VII, the last Ptolemaic ruler, was the final chapter of the Hellenistic age Alexander had inaugurated. Her defeat at Actium in 31 BCE ended Greek rule in Egypt and made the entire Mediterranean a Roman lake — closing the era of independent Greek and Hellenistic kingdoms."
+      "blurb": "Cleopatra VII, the last Ptolemaic ruler, was the final chapter of the Hellenistic age Alexander had inaugurated. Her defeat at Actium in 31 BCE ended Greek rule in Egypt and made the entire Mediterranean a Roman lake \u2014 closing the era of independent Greek and Hellenistic kingdoms."
     },
     {
       "matchText": "Carthage",
       "targetTl": "phoenicia",
       "targetChapter": 8,
-      "blurb": "Rome destroyed Carthage in the same year (146 BCE) it destroyed Corinth, ending both Phoenician and Greek political independence in a single devastating season. The coincidence was not lost on ancient observers — the Mediterranean's two oldest trading civilizations were crushed simultaneously by the rising Roman superpower."
+      "blurb": "Rome destroyed Carthage in the same year (146 BCE) it destroyed Corinth, ending both Phoenician and Greek political independence in a single devastating season. The coincidence was not lost on ancient observers \u2014 the Mediterranean's two oldest trading civilizations were crushed simultaneously by the rising Roman superpower."
     },
     {
       "matchText": "anticipating Copernicus by 1,800 years",
@@ -160,13 +264,67 @@
       "matchText": "world's first state-funded research university",
       "targetTl": "scientific-revolution",
       "targetChapter": 11,
-      "blurb": "The Mouseion is the deepest precedent for the scientific society — and the thing the Royal Society pointedly differs from: Alexandria died with its dynasty, the Society was built to outlive any patron (Scientific Revolution Ch 11)."
+      "blurb": "The Mouseion is the deepest precedent for the scientific society \u2014 and the thing the Royal Society pointedly differs from: Alexandria died with its dynasty, the Society was built to outlive any patron (Scientific Revolution Ch 11)."
     },
     {
       "matchText": "Ancient Rome",
       "targetTl": "ancient-rome",
       "targetChapter": 3,
-      "blurb": "The Hellenistic kingdoms were swallowed one by one by Rome — Greek culture conquered its conqueror, but Greek political independence ended on Roman terms."
+      "blurb": "The Hellenistic kingdoms were swallowed one by one by Rome \u2014 Greek culture conquered its conqueror, but Greek political independence ended on Roman terms."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 13,
+      "blurb": "Mesopotamia had been the Persian heartland's western half; after Alexander it passed to the Seleucids, then the Parthians \u2014 the long handoff from native rule to a sequence of foreign empires that this chapter closes."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 5,
+      "blurb": "Persia, the empire Alexander had broken, became Seleucid territory and then slipped away to the Parthians \u2014 the unwinding of Achaemenid Persia and the eastern half of Alexander's legacy."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "maurya-empire",
+      "targetChapter": 6,
+      "blurb": "The Buddha's teachings had spread across India under the Mauryan emperor Ashoka, whose missions reached as far as the Hellenistic courts \u2014 the cultural traffic that ran both ways and produced the Greco-Buddhist sculpture of Gandhara."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "The Italian Renaissance is, among other things, the rediscovery of the Hellenistic inheritance \u2014 geometry, anatomy, philosophy, sculpture \u2014 that Greek scholars carried west when Constantinople fell."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 8,
+      "blurb": "Carthage was a Phoenician foundation \u2014 the western outpost of a trading civilization that had stretched from Lebanon to the Atlantic. Rome destroyed it in the same year, 146 BCE, that it destroyed Corinth."
+    },
+    {
+      "matchText": "Byzantines",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Byzantines \u2014 the Greek-speaking Roman Empire that outlasted the West by a thousand years \u2014 preserved Greek learning through the medieval centuries when most of Western Europe could not read it."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Byzantine scriptoriums copied and protected most of the classical Greek texts that survive today; when Constantinople fell in 1453, Greek scholars carried those manuscripts to Italy and helped seed the Renaissance."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 12,
+      "blurb": "Medieval Constantinople was the great library of the Greek inheritance \u2014 its scriptoriums copied the classical texts the West had lost, and its scholars carried them to Italy after 1453."
+    },
+    {
+      "matchText": "Ottoman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "The Ottoman conquest of Constantinople in 1453 ended the Byzantine state \u2014 and triggered the westward flight of Greek scholars whose manuscripts helped ignite the Italian Renaissance."
     }
   ]
 }

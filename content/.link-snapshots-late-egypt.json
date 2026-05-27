@@ -197,12 +197,12 @@
     },
     "Plato": {
       "title": "Plato",
-      "lead": "Plato ( PLAY-toe; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
+      "lead": "Plato ( PLAY-toh; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
       "image": "Plato_Silanion_Musei_Capitolini_MC1377.png"
     },
     "Nectanebo_I": {
       "title": "Nectanebo I",
-      "lead": "Nectanebo I (Egyptian: Nḫt-nb.f; Ancient Greek: Νεκτάνεβις Nectanebis; died 361/60 BC) was an ancient Egyptian pharaoh, founder of the last native dynasty of Egypt, the 30th.",
+      "lead": "Nectanebo I (Egyptian: Nḫt-nb.f; Ancient Greek: Νεκτάνεβις Nectanebis; died 361/360 BC) was an ancient Egyptian pharaoh, founder of the last native dynasty of Egypt, the 30th.",
       "image": "Nectanebo_I_with_khepresh_crown.jpg"
     },
     "Philae": {
@@ -372,6 +372,11 @@
       "lead": "The Philae temple complex (; Ancient Greek: Φιλαί or Φιλή and Πιλάχ, Arabic: فيلة Egyptian Arabic: [fiːlæ], Egyptian: p3-jw-rķ' or 'pA-jw-rq; Coptic: ⲡⲓⲗⲁⲕ, ⲡⲓⲗⲁⲕϩ, Coptic pronunciation: [ˈpilɑk, ˈpilɑkh]) is an island-based temple complex ",
       "image": ""
     },
+    "Alexander_the_Great": {
+      "title": "Alexander the Great",
+      "lead": "Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323 BC), most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip",
+      "image": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg"
+    },
     "Siwa_Oasis": {
       "title": "Siwa Oasis",
       "lead": "The Siwa Oasis (Arabic: واحة سيوة Wāḥat Sīwah [ˈwæːħet ˈsiːwæ]) is an urban oasis in Egypt. It is situated between the Qattara Depression and the Great Sand Sea in the Western Desert, 50 kilometres (31 mi) east of the Egypt–Libya border and",
@@ -499,7 +504,7 @@
     },
     "Sais,_Egypt": {
       "title": "Sais, Egypt",
-      "lead": "Sais (Ancient Greek: Σάϊς; Coptic: Ⲥⲁⲓ) was an ancient Egyptian city in the Western Nile Delta on the Canopic branch of the Nile, known by the ancient Egyptians as Sꜣw. It was the provincial capital of Sap-Meh, the fifth nome of Lower Egypt",
+      "lead": "Sais (Ancient Egyptian: 𓊃𓐰𓅭𓄿𓅱𓊖, romanized: Zꜣw; Ancient Greek: Σάϊς, romanized: Sáïs; Coptic: Ⲥⲁⲓ, romanized: Sai) was an ancient Egyptian city in the Western Nile Delta on the Canopic branch of the Nile, It was the provincial capital",
       "image": "Jean-Francois_Champollion_-_Plan_Des_Ruines_De_Sais.cropped.png"
     },
     "Necho_I": {
@@ -532,6 +537,91 @@
       "lead": "Caria (; from Greek: Καρία, Karia; Turkish: Karya) was a region of western Anatolia extending along the coast from mid-Ionia (Mycale) south to Lycia and east to Phrygia. The Carians were described by Herodotus as being Anatolian mainlanders",
       "image": "DALYAN-KAUNOS_-_panoramio.jpg"
     },
+    "Upper_Egypt": {
+      "title": "Upper Egypt",
+      "lead": "Upper Egypt (Arabic: صعيد مصر Ṣaʿīd Miṣr, shortened to الصعيد, Egyptian Arabic pronunciation: [es.sˤe.ˈʕiːd], locally: [es.sˤɑ.ˈʕiːd]) is the southern portion of Egypt and is composed of the Nile River valley south of the delta and the 30th",
+      "image": "Upper_Egypt_Nomes.png"
+    },
+    "Valley_of_the_Kings": {
+      "title": "Valley of the Kings",
+      "lead": "The Valley of the Kings, also known as the Valley of the Gates of the Kings, is an area in Egypt where, for a period of nearly 500 years from the Eighteenth Dynasty to the Twentieth Dynasty, rock-cut tombs were excavated for pharaohs and po",
+      "image": "Luxor,_Tal_der_Könige_(1995,_860x605).jpg"
+    },
+    "Egyptology": {
+      "title": "Egyptology",
+      "lead": "Egyptology (from Egypt and Greek -λογία, -logia; Arabic: علم المصريات) is the scientific study of ancient Egypt, including historic artifacts and ancient writing. The topics studied include ancient Egyptian history, language, literature, re",
+      "image": "Tuts_Tomb_Opened.JPG"
+    },
+    "Twentieth_Dynasty_of_Egypt": {
+      "title": "Twentieth Dynasty of Egypt",
+      "lead": "The Twentieth Dynasty of Egypt (notated Dynasty XX, alternatively 20th Dynasty or Dynasty 20) is the third and last dynasty of the Ancient Egyptian New Kingdom period, lasting from 1189 BC to 1077 BC. The 19th and 20th Dynasties together co",
+      "image": "Ramesses9.jpg"
+    },
+    "Hyksos": {
+      "title": "Hyksos",
+      "lead": "The Hyksos (; Egyptian ḥqꜣ(w)-ḫꜣswt, Egyptological pronunciation: heqau khasut, \"ruler(s) of foreign lands\"), in modern Egyptology, are the kings of the Fifteenth Dynasty of Egypt (fl. c. 1650–1550 BC). Their seat of power was the city of A",
+      "image": "Painting_of_foreign_delegation_in_the_tomb_of_Khnumhotep_II_circa_1900_BCE_(Detail_mentioning_\"Abisha_the_Hyksos\"_in_hieroglyphs).jpg"
+    },
+    "Hebrew_Bible": {
+      "title": "Hebrew Bible",
+      "lead": "The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ; or תְּנַ״ךְ, tənaḵ), also known in Hebrew as Miqra (; מִקְרָא, miqrāʾ), is the canonical collection of Hebrew scriptures, comprisi",
+      "image": "Tanach.jpg"
+    },
+    "Twenty-third_Dynasty_of_Egypt": {
+      "title": "Twenty-third Dynasty of Egypt",
+      "lead": "The Twenty-third Dynasty was an Ancient Egyptian dynasty of ancient Libyan origin which is usually classified as the third dynasty of the ancient Egyptian Third Intermediate Period in modern periodization. This dynasty consisted of a number",
+      "image": "Egypte_louvre_054.jpg"
+    },
+    "Twenty-fourth_Dynasty_of_Egypt": {
+      "title": "Twenty-fourth Dynasty of Egypt",
+      "lead": "The Twenty-fourth Dynasty of Egypt (notated Dynasty XXIV, alternatively 24th Dynasty or Dynasty 24) is usually classified as the fourth Dynasty of the Ancient Egyptian Third Intermediate Period.",
+      "image": "Tefnakht_Athens_stela_(T._Efthimiadis).jpg"
+    },
+    "Nile": {
+      "title": "Nile",
+      "lead": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than ot",
+      "image": "Nile_3rd_Cataract_Left.jpg"
+    },
+    "British_Museum": {
+      "title": "British Museum",
+      "lead": "The British Museum is a public museum dedicated to human history, art and culture located in the Bloomsbury area of London. Its permanent collection of eight million works is the largest in the world. It documents the story of human culture",
+      "image": "British_Museum_(aerial).jpg"
+    },
+    "Palestine_(region)": {
+      "title": "Palestine (region)",
+      "lead": "The region of Palestine, also known as historic Palestine or land of Palestine, is a geographical area in West Asia. It generally encompasses the area inhabited by the modern states of Israel and Palestine, though over history it has also b",
+      "image": "Historical_boundaries_of_Palestine_(plain).svg"
+    },
+    "Levant": {
+      "title": "Levant",
+      "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
+      "image": "Levant_(orthographic_projection).png"
+    },
+    "Book_of_Nahum": {
+      "title": "Book of Nahum",
+      "lead": "The Book of Nahum is the seventh book of the 12 minor prophets of the Hebrew Bible. The book has three chapters. It is attributed to the prophet Nahum. The most general historical setting of Nahum as a prophet was 663 BC to 612 BC, while th",
+      "image": ""
+    },
+    "Babylon": {
+      "title": "Babylon",
+      "lead": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and p",
+      "image": "Ishtar_Gate.jpg"
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Confucius": {
+      "title": "Confucius",
+      "lead": "Confucius (c. 551 – c. 479 BCE), born Kong Qiu, was a Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. Much of the shared cultural heritage of the Sinosphere originates in the",
+      "image": "Confucius_Tang_Dynasty.jpg"
+    },
+    "Late_Period_of_ancient_Egypt": {
+      "title": "Late Period of Egypt",
+      "lead": "The Late Period of Egypt refers to the last flowering of native Egyptian rulers after the Third Intermediate Period in the 26th Saite Dynasty founded by Psamtik I, but includes the time of Achaemenid rule over Egypt after the conquest by Ca",
+      "image": "Ancient_near_east_540_bc.svg"
+    },
     "Neo-Assyrian_Empire": {
       "title": "Neo-Assyrian Empire",
       "lead": "The Neo-Assyrian Empire was the fourth and penultimate stage of ancient Assyrian history. Beginning with the accession of Adad-nirari II in 911 BCE, the Neo-Assyrian Empire grew to dominate the ancient Near East and parts of the South Cauca",
@@ -540,7 +630,7 @@
     "Neo-Babylonian_Empire": {
       "title": "Neo-Babylonian Empire",
       "lead": "The Neo-Babylonian Empire or Second Babylonian Empire, historically known as the Chaldean Empire, was the last polity ruled by monarchs native to ancient Mesopotamia. Beginning with the coronation of Nabopolassar as the King of Babylon in 6",
-      "image": "Neo-Babylonian_Empire_under_Nabonidus_map.png"
+      "image": "Neo-Babylonian_Empire_(greatest_extent).svg"
     },
     "Nabopolassar": {
       "title": "Nabopolassar",
@@ -632,11 +722,6 @@
       "lead": "Cyrene, also sometimes anglicized as Kyrene, was an ancient Greek colony and Roman city near present-day Shahhat in northeastern Libya in North Africa. It was part of the Pentapolis, an important group of five cities in the region, and gave",
       "image": "Cyrene8.jpg"
     },
-    "Levant": {
-      "title": "Levant",
-      "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
-      "image": "Levant_(orthographic_projection).png"
-    },
     "Ashur-uballit_II": {
       "title": "Aššur-uballiṭ II",
       "lead": "Aššur-uballiṭ II, also spelled Assur-uballit II and Ashuruballit II (Neo-Assyrian Akkadian: 𒀸𒋩𒌑𒋾𒆷, romanized: Aššur-uballiṭ, meaning \"Ashur has kept alive\"), was the final ruler of Assyria, ruling from his predecessor Sîn-šar-iškun's d",
@@ -651,6 +736,76 @@
       "title": "Sinai Peninsula",
       "lead": "The Sinai Peninsula, or simply Sinai ( SY-ny; Arabic: سيناء, romanized: Seynāʾ or Sīnāʾ; Egyptian Arabic: سينا, romanized: Sīna), is a peninsula in Egypt, and the only part of the country located in West Asia. It is between the Mediterranea",
       "image": "Sinai-peninsula-map.jpg"
+    },
+    "Chaldea": {
+      "title": "Chaldea",
+      "lead": "Chaldea () refers to a region probably located in the marshy land of southern Mesopotamia. It is mentioned, with varying meaning, in Neo-Assyrian cuneiform, the Hebrew Bible, and in classical Greek texts. The Hebrew Bible uses the term כשדי",
+      "image": "Babylonie_chaldeens.svg"
+    },
+    "Iranian_peoples": {
+      "title": "Iranian peoples",
+      "lead": "Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their native usage of any of the Iranian languages, which are a branch of the Indo-Iranian languages within the Indo-European language fam",
+      "image": "Iranian_languages_distribution.png"
+    },
+    "Zagros_Mountains": {
+      "title": "Zagros Mountains",
+      "lead": "The Zagros Mountains are a mountain range in West Asia spanning Iran, northern Iraq, and southeastern Turkey. The mountain range has a total length of 1,600 km (990 miles). The Zagros range begins in northwestern Iran and roughly follows Ir",
+      "image": "Ecoregion_PA0446.svg"
+    },
+    "Fertile_Crescent": {
+      "title": "Fertile Crescent",
+      "lead": "The Fertile Crescent (Arabic: الهلال الخصيب al-hilāl al-ḵaṣīb) is a crescent-shaped region in the Middle East, spanning modern-day Iraq, Israel, Jordan, Lebanon, Palestine, and Syria, together with northern Kuwait, south-eastern Turkey, and",
+      "image": "Fertile_Crescent.png"
+    },
+    "Kingdom_of_Judah": {
+      "title": "Kingdom of Judah",
+      "lead": "The Kingdom of Judah was an Israelite kingdom of the Southern Levant during the Iron Age. Centered in the highlands to the west of the Dead Sea, the kingdom's capital was Jerusalem. It was ruled by the House of David for four centuries. Jew",
+      "image": "Kingdoms_of_Israel_and_Judah_(8th_century_BCE).svg"
+    },
+    "Jezreel_Valley": {
+      "title": "Jezreel Valley",
+      "lead": "The Jezreel Valley (Biblical Hebrew: עמק יזרעאל, romanized: ʿĒmeq Yizrəʿēl, LXX Koine Ιεζραελ), or Marj ibn Amir (Arabic: مرج ابن عامر, romanized: Marj ibn ʿĀmir, lit. 'Meadow of ibn Amir') is a large fertile plain and inland valley in the ",
+      "image": "PikiWiki_Israel_14301_Gilboa_Mountain.JPG"
+    },
+    "Thutmose_III": {
+      "title": "Thutmose III",
+      "lead": "Thutmose III (variously also spelled Tuthmosis or Thothmes, Ancient Egyptian: 𓅝𓄟𓄤𓆣), sometimes called Thutmose the Great, was the fifth pharaoh of the 18th Dynasty of Egypt. He is regarded as one of the greatest warriors, military comma",
+      "image": "Thutmosis_III-2_(cropped).jpg"
+    },
+    "Solomon%27s_Temple": {
+      "title": "Solomon's Temple",
+      "lead": "Solomon's Temple, also known as the First Temple (Hebrew: בַּיִת רִאשׁוֹן, romanized: Bayyit Rīšōn, lit. 'First Temple'), was a biblical Temple in Jerusalem believed to have existed between the 10th and 6th centuries BCE. Its description is",
+      "image": "Francois_Vatable,_reconstructie_van_de_tempel_van_Salomo_(detail).jpg"
+    },
+    "Red_Sea": {
+      "title": "Red Sea",
+      "lead": "The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is in the south, through the Bab-el-Mandeb Strait and the Gulf of Aden. To the north of the Red Sea lies the Sinai Peninsula, the Gul",
+      "image": "Red_Sea_topographic_map-en.jpg"
+    },
+    "Cape_of_Good_Hope": {
+      "title": "Cape of Good Hope",
+      "lead": "The Cape of Good Hope (Afrikaans: Kaap de Goede Hoop [ˌkaːb də ˌɣudə ˈɦoːp] ; Portuguese: Cabo da Boa Esperança [ˈkaβu ðɐ ˈβoɐ (ɨ)ʃpɨˈɾɐ̃sɐ]) is a rocky headland on the Atlantic coast of the Cape Peninsula in South Africa. A common misconce",
+      "image": "Playa_Dias,_Cape_Point,_Sudáfrica,_2018-07-23,_DD_103.jpg"
+    },
+    "Ramesses_II": {
+      "title": "Ramesses II",
+      "lead": "Ramesses II (; Ancient Egyptian: rꜥ-ms-sw, Rīꜥa-masē-sə, Ancient Egyptian pronunciation: [ɾiːʕamaˈseːsə]; c. 1303 BC – 1213 BC), commonly known as Ramesses the Great, was the third pharaoh of the Nineteenth Dynasty of Egypt. Ramesses II is ",
+      "image": "Ramses_II_British_Museum.jpg"
+    },
+    "Anatolian_languages": {
+      "title": "Anatolian languages",
+      "lead": "The Anatolian languages are an extinct branch of Indo-European languages that were spoken in Anatolia. The best known Anatolian language is Hittite, which is considered the earliest-attested Indo-European language. Undiscovered until the la",
+      "image": ""
+    },
+    "Jerusalem": {
+      "title": "Jerusalem",
+      "lead": "Jerusalem is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world and is considered holy to the three major Abrahamic religions: Judaism",
+      "image": "המצודה_בלילה.jpg"
+    },
+    "Elephantine": {
+      "title": "Elephantine",
+      "lead": "Elephantine ( EL-if-an-TY-nee, -⁠TEE-; Ancient Egyptian: 𓍋𓃀𓅱𓃰, romanized: ꜣbw; Egyptian Arabic: جزيرة الفنتين; Greek: Ἐλεφαντίνη Elephantíne; Coptic: (Ⲉ)ⲓⲏⲃ transl. cop – transl. (e)iēb, Coptic pronunciation: [jæb]) is an island on the ",
+      "image": "Aswan,_Elephantine,_west_bank,_Egypt,_Oct_2004.jpg"
     },
     "Polycrates": {
       "title": "Polycrates",
@@ -707,20 +862,10 @@
       "lead": "Lydia (Ancient Greek: Λυδία, romanized: Ludía; Latin: Lȳdia) was an Iron Age kingdom situated in western Anatolia, in modern-day Turkey. Later, it became an important province of the Achaemenid Empire and then the Roman Empire. Its capital ",
       "image": "Kingdom_of_Lydia.png"
     },
-    "Babylon": {
-      "title": "Babylon",
-      "lead": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and p",
-      "image": "Ishtar_Gate.jpg"
-    },
     "Spring_and_Autumn_period": {
       "title": "Spring and Autumn period",
       "lead": "The Spring and Autumn period (c. 770 – c. 481 BCE) was a period in Chinese history corresponding roughly to the first half of the Eastern Zhou (c. 771 – 256 BCE), characterized by the gradual erosion of royal power as local lords nominally ",
       "image": "Chinese_plain_5c._BC-en.svg"
-    },
-    "Confucius": {
-      "title": "Confucius",
-      "lead": "Confucius (c. 551 – c. 479 BCE), born Kong Qiu, was a Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. Much of the shared cultural heritage of the Sinosphere originates in the",
-      "image": "Confucius_Tang_Dynasty.jpg"
     },
     "Vedic_period": {
       "title": "Vedic period",
@@ -766,6 +911,51 @@
       "title": "Indus River",
       "lead": "The Indus ( IN-dəs) is a transboundary river of Asia and a trans-Himalayan river of South and Central Asia. The 3,180 km (1,980 mi) river rises in the Tibet Autonomous Region of China where it is known as Sengge Zangbo, flows northwest thro",
       "image": "Nanga_Parbat_Indus_Gorge.jpg"
+    },
+    "Greeks": {
+      "title": "Greeks",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, Southern Italy (Greeks in Italy), parts of Egypt, and to a lesser extent, other countries surrou",
+      "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "Macau": {
+      "title": "Macau",
+      "lead": "Macau or Macao is a special administrative region of China. It consists of the Macau Peninsula, the islands of Taipa and Coloane, the Cotai reclamation zone between Taipa and Coloane, and several smaller islets. It borders Zhuhai to the nor",
+      "image": "Flag_of_Macau.svg"
+    },
+    "Hera": {
+      "title": "Hera",
+      "lead": "In ancient Greek religion, Hera (; Ancient Greek: Ἥρα, romanized: Hḗrā; Ἥρη, Hḗrē in Ionic and Homeric Greek) is the goddess of marriage, women, and family, and the protector of women during childbirth. In Greek mythology, she is queen of t",
+      "image": "Hera_Campana_Louvre_Ma2283.jpg"
+    },
+    "Ptolemaic_Kingdom": {
+      "title": "Ptolemaic Kingdom",
+      "lead": "The Ptolemaic Kingdom (; Koine Greek: Πτολεμαϊκὴ βασιλεία, Ptolemaïkḕ basileía) or Ptolemaic Empire was an ancient Greek polity based in Egypt during the Hellenistic period. It was founded in 305 BC by the Macedonian Greek general Ptolemy I",
+      "image": "Ptolemaic_Kingdom_III-II_century_BC_-_en.svg"
+    },
+    "Anaximander": {
+      "title": "Anaximander",
+      "lead": "Anaximander ( an-AK-sih-MAN-dər; Ancient Greek: Ἀναξίμανδρος Anaximandros; c. 610 – c. 546 BC) was a pre-Socratic Greek philosopher who lived in Miletus, a city of Ionia (in modern-day Turkey). He belonged to the Milesian school and learned",
+      "image": "Pietro_Bellotti_(attr)_Anaximander.jpg"
+    },
+    "Anaximenes_of_Miletus": {
+      "title": "Anaximenes of Miletus",
+      "lead": "Anaximenes of Miletus (; Ancient Greek: Ἀναξιμένης ὁ Μιλήσιος, romanized: Anaximenēs ho Milēsios; c. 586/585 – c. 526/525 BC) was an Ancient Greek, pre-Socratic philosopher from Miletus in Anatolia (modern-day Turkey). He was the last of th",
+      "image": "Anaximenes_Milesius_-_Illustrium_philosophorum_et_sapientum_effigies_ab_eorum_numistatibus_extractae.png"
+    },
+    "Aegean_Sea": {
+      "title": "Aegean Sea",
+      "lead": "The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located between the Balkans and Anatolia, and covers an area of some 215,000 km2 (83,000 sq mi). In the north, the Aegean is connected to the M",
+      "image": "Location_of_the_Aegean_Sea.png"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Babylonia": {
+      "title": "Babylonia",
+      "lead": "Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the city of Babylon in central-southern Mesopotamia (present-day Iraq and parts of Syria). It emerged as an Akkadian-populated ",
+      "image": "Hammurabi's_Babylonia_1.svg"
     },
     "Pelusium": {
       "title": "Pelusium",
@@ -837,11 +1027,6 @@
       "lead": "Megabyzus (Ancient Greek: Μεγάβυζος, a folk-etymological alteration of Old Persian Bagabuxša, meaning \"God saved\") was an Achaemenid Persian general, son of Zopyrus, satrap of Babylonia, and grandson of Megabyzus I, one of the seven conspir",
       "image": ""
     },
-    "Elephantine": {
-      "title": "Elephantine",
-      "lead": "Elephantine ( EL-if-an-TY-nee, -⁠TEE-; Ancient Egyptian: 𓍋𓃀𓅱𓃰, romanized: ꜣbw; Egyptian Arabic: جزيرة الفنتين; Greek: Ἐλεφαντίνη Elephantíne; Coptic: (Ⲉ)ⲓⲏⲃ transl. cop – transl. (e)iēb, Coptic pronunciation: [jæb]) is an island on the ",
-      "image": "Aswan,_Elephantine,_west_bank,_Egypt,_Oct_2004.jpg"
-    },
     "Cataracts_of_the_Nile": {
       "title": "Cataracts of the Nile",
       "lead": "The Cataracts of the Nile are shallow lengths (or whitewater rapids) of the Nile river, between Khartoum and Aswan, where the surface of the water is broken by many small boulders and stones jutting out of the river bed, as well as many roc",
@@ -876,6 +1061,31 @@
       "title": "Susa",
       "lead": "Susa ( SOO-sə) was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, between the Karkheh and Dez Rivers in Iran. It represents the current city of Shush, located on the site of ancient Susa. One of the ",
       "image": "History_of_Egypt,_Chaldea,_Syria,_Babylonia_and_Assyria_(1903)_(14584070300).jpg"
+    },
+    "Neith": {
+      "title": "Neith",
+      "lead": "Neith (Koine Greek: Νηΐθ), also spelled Nit, Net, or Neit, was an ancient Egyptian goddess, possibly of Libyan origin. She was associated with warfare, symbolized by her emblem of crossed bows, and with motherhood, as texts refer to her as ",
+      "image": "Neith.svg"
+    },
+    "Sahara": {
+      "title": "Sahara",
+      "lead": "The Sahara (, ) is a desert spanning North Africa. With an area of 9,200,000 square kilometres (3,600,000 sq mi), it is the largest hot desert in the world and the third-largest desert overall, smaller only than the deserts of Antarctica an",
+      "image": "Sahara_real_color.jpg"
+    },
+    "Late_Bronze_Age_collapse": {
+      "title": "Late Bronze Age collapse",
+      "lead": "The Late Bronze Age collapse was a period of societal collapse in the Mediterranean basin during the late 13th to early 12th century BC. It is thought to have affected much of the Eastern Mediterranean and Near East, in particular Egypt, An",
+      "image": "Bronze_Age_End.svg"
+    },
+    "Histories_(Herodotus)": {
+      "title": "Histories (Herodotus)",
+      "lead": "The Histories (Greek: Ἱστορίαι, Historíai; also known as The History) of Herodotus is considered the founding work of history in Western literature. Although not a fully impartial record, it remains one of the West's most important sources ",
+      "image": "POxy_v0017_n2099_a_01_hires.jpg"
+    },
+    "Indian_Ocean": {
+      "title": "Indian Ocean",
+      "lead": "The Indian Ocean is the third-largest of the world's five oceanic divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water area of Earth's surface. It is bounded by Asia to the north, Africa to the west and Au",
+      "image": "Indian_Ocean-CIA_WFB_Map.png"
     },
     "Darius_II": {
       "title": "Darius II",
@@ -979,7 +1189,7 @@
     },
     "Sparta": {
       "title": "Sparta",
-      "lead": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity (pre-800 BCE), the state was known as Lacedaemon (Λακεδαίμων, Lakedaímōn), while \"Sparta\" referred to its capital, a group of villages in the valley of the Evrotas",
+      "lead": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity (pre-800 BC), the state was known as Lacedaemon (Λακεδαίμων, Lakedaímōn), while \"Sparta\" referred to its capital, a group of villages in the valley of the Evrotas ",
       "image": "Spartan_Territory_Before_371_BC.png"
     },
     "Thirty-first_Dynasty_of_Egypt": {
@@ -996,6 +1206,11 @@
       "title": "Narmer",
       "lead": "Narmer (Ancient Egyptian: nꜥr-mr, may mean \"painful catfish\", \"stinging catfish\", \"harsh catfish\", or \"fierce catfish\"; fl. c. 3100 BC) was an ancient Egyptian king of the Early Dynastic Period, whose reign began at the end of the 4th mille",
       "image": "Narmer_palette_(obverse)_(cropped).jpg"
+    },
+    "Macedonia_(ancient_kingdom)": {
+      "title": "Macedonia (ancient kingdom)",
+      "lead": "Macedonia ( MASS-ih-DOH-nee-ə; Greek: Μακεδονία, Makedonía), also called Macedon ( MASS-ih-don), was an ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece. The kingd",
+      "image": "Map_Macedonia_336_BC-en.svg"
     },
     "Khababash": {
       "title": "Khabash",
@@ -1016,11 +1231,6 @@
       "title": "Philip II of Macedon",
       "lead": "Philip II of Macedon (Ancient Greek: Φίλιππος, romanized: Phílippos; 382 BC – October 336 BC) was the king (basileus) of Macedon from 359 BC until his death in 336 BC. The rise of Macedon, from a kingdom initially at the periphery of classi",
       "image": "Phillip_II,_king_of_Macedonia,_Roman_copy_of_Greek_original,_Ny_Carlsberg_Glyptotek,_Copenhagen_(36420294055).jpg"
-    },
-    "Macedonia_(ancient_kingdom)": {
-      "title": "Macedonia (ancient kingdom)",
-      "lead": "Macedonia ( MASS-ih-DOH-nee-ə; Greek: Μακεδονία, Makedonía), also called Macedon ( MASS-ih-don), was an ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece. The kingd",
-      "image": "Map_Macedonia_336_BC-en.svg"
     },
     "Battle_of_Issus": {
       "title": "Battle of Issus",
@@ -1117,6 +1327,21 @@
       "lead": "The Roman Empire was a state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period. The Roman Republic had previously conquered most of these territories, which later came under perm",
       "image": "Roman_Empire_Trajan_117AD.png"
     },
+    "Dardanelles": {
+      "title": "Dardanelles",
+      "lead": "The Dardanelles ( DAR-də-NELZ), also known as the Strait of Gallipoli (after the Gallipoli peninsula), is a narrow, natural strait and internationally significant waterway in northwestern Turkey that forms part of the continental boundary b",
+      "image": "Dardanelles_map2.png"
+    },
+    "Mediterranean_Sea": {
+      "title": "Mediterranean Sea",
+      "lead": "The Mediterranean Sea ( MED-ih-tə-RAY-nee-ən) is an intercontinental sea situated between Europe, Asia, and Africa. It is surrounded by the Mediterranean basin and almost completely enclosed by land: on the east by the Levant in West Asia, ",
+      "image": "Mediterranean_Sea_16.61811E_38.99124N.jpg"
+    },
+    "Napoleon": {
+      "title": "Napoleon",
+      "lead": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hu",
+      "image": "Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+    },
     "Bastet": {
       "title": "Bastet",
       "lead": "Bastet or Bast (Ancient Egyptian: bꜣstt), also known as Ubasti or Bubastis, is a goddess of ancient Egyptian religion, possibly of Nubian origin, worshipped as early as the Second Dynasty (2890 BCE). In ancient Greek religion, she was known",
@@ -1192,6 +1417,11 @@
       "lead": "A votive offering or votive deposit is one or more objects displayed or deposited, without the intention of recovery or use, in a sacred place for religious purposes. Such items are a feature of modern and ancient societies and are generall",
       "image": "Altoetting-1-WJP.jpg"
     },
+    "Middle_Kingdom_of_Egypt": {
+      "title": "Middle Kingdom of Egypt",
+      "lead": "The Middle Kingdom of Egypt (also known as The Period of Reunification) is the period in the history of ancient Egypt following a period of political division known as the First Intermediate Period. The Middle Kingdom lasted from approximat",
+      "image": "Ancient_Egyptian_old_and_middle_kingdom.svg"
+    },
     "Coptic_language": {
       "title": "Coptic language",
       "lead": "Coptic (Bohairic Coptic: ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ, romanized: Timetremənkʰēmi) is a dormant Afroasiatic language. It is a group of closely related Egyptian dialects, representing the most recent developments of the Egyptian language, and historically ",
@@ -1241,6 +1471,16 @@
       "title": "Jean-François Champollion",
       "lead": "Jean-François Champollion (French: [ʒɑ̃ fʁɑ̃swa ʃɑ̃pɔljɔ̃]), also known as Champollion le jeune ('the Younger'; 23 December 1790 – 4 March 1832), was a French philologist and orientalist, known primarily as the decipherer of Egyptian hierog",
       "image": "Jean-François_Champollion,_by_Léon_Cogniet.jpg"
+    },
+    "Egyptian_language": {
+      "title": "Egyptian language",
+      "lead": "The Egyptian language, or ancient Egyptian (r n kmt; 'speech of Egypt'), is an extinct branch of the Afro-Asiatic language family that was spoken in Egypt. It is one of the earliest known written languages, first recorded in the hieroglyphi",
+      "image": "G._Ebers_(ed.),_Papyros_Ebers,_1875_Wellcome_L0016592.jpg"
+    },
+    "Pharaoh": {
+      "title": "Pharaoh",
+      "lead": "The Pharaoh was the monarch of ancient Egypt. The title came into use from the Eighteenth Dynasty onwards and was subsequently attributed to all the previous kings of Egypt. Before this Pharaoh was a term that meant more of the kings' admin",
+      "image": "Double_crown.svg"
     }
   }
 }

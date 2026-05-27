@@ -1,0 +1,799 @@
+# LINK-COVERAGE-NEEDED — late-egypt
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Upper Egypt   ⟨dict⟩  → glossary
+    Valley of the Kings   ⟨dict⟩  → event
+  * Egyptologists   ⟨dict⟩  → glossary
+    Twentieth Dynasty   ⟨dict⟩  → glossary
+    Poland   ⟨dict⟩  → glossary
+    Hyksos   ⟨dict⟩  → event
+    Judah   ⟨dict⟩  → glossary
+    Hebrew Bible   ⟨dict,recur×3⟩  → glossary
+    Jerusalem   ⟨dict⟩  → event
+    Twenty-third Dynasty   ⟨bold⟩  → event/glossary
+    Twenty-fourth Dynasty   ⟨bold⟩  → event/glossary
+  * Theban   ⟨dict⟩  → glossary
+    Bronze Age Collapse   ⟨dict⟩  → cross-link
+    Nile   ⟨dict,recur×3⟩  → glossary
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Sudan   ⟨dict⟩  → glossary
+  * Kushites   ⟨dict⟩  → glossary
+    Nubian   ⟨dict⟩  → cross-link
+    Kushite   ⟨dict,recur×5⟩  → glossary
+    British Museum   ⟨dict⟩  → glossary
+  * Ethiopia   ⟨dict⟩  → glossary
+    Sennacherib   ⟨dict⟩  → cross-link
+    Palestine   ⟨dict⟩  → glossary
+  * Levantine   ⟨dict⟩  → glossary
+    Nahum   ⟨dict⟩  → glossary
+    Nineveh   ⟨dict⟩  → cross-link
+    Babylon   ⟨dict⟩  → glossary
+    Elam   ⟨dict⟩  → cross-link
+    Assyria   ⟨dict⟩  → cross-link
+    Anatolia   ⟨dict⟩  → glossary
+    Egypt's Old Kingdom   ⟨dict⟩  → glossary
+    Confucius   ⟨dict⟩  → cross-link
+  * Egyptians   ⟨dict⟩  → glossary
+    Late Period   ⟨bold⟩  → event/glossary
+  ~ Egypt   ⟨dict,recur×28⟩  (advisory)
+  ~ Hellenistic-era Egyptian   ⟨⟩  (advisory)
+  ~ Greek-language   ⟨⟩  (advisory)
+  ~ Tanite   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ SHENK   ⟨⟩  (advisory)
+  ~ Israel   ⟨dict⟩  (advisory)
+  ~ Shishak   ⟨⟩  (advisory)
+  ~ Temple of Solomon   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨recur×8⟩  (advisory)
+  ~ Piankhi   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Kawa   ⟨⟩  (advisory)
+  ~ Kings   ⟨⟩  (advisory)
+  ~ Tirhakah   ⟨⟩  (advisory)
+  ~ King Hezekiah of Judah   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Psammetichus   ⟨⟩  (advisory)
+  ~ Ionian   ⟨⟩  (advisory)
+  ~ Late Period of ancient Egypt   ⟨⟩  (advisory)
+  ~ Nubians   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Spring   ⟨⟩  (advisory)
+  ~ Autumn   ⟨⟩  (advisory)
+  ~ new capital   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ capital.   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ lapis lazuli   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ military colonies   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ warlords   ⟨dict-lc⟩  (advisory)
+  ~ metalwork   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ petty kingdoms   ⟨dict-lc⟩  (advisory)
+  ~ the Nile.   ⟨dict-lc⟩  (advisory)
+  ~ ritual purity   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ cemetery   ⟨dict-lc⟩  (advisory)
+  ~ papyrus   ⟨dict-lc⟩  (advisory)
+  ~ colonnade   ⟨dict-lc,rare⟩  (advisory)
+  ~ 2 Kings   ⟨dict-lc⟩  (advisory)
+  ~ vassal   ⟨dict-lc⟩  (advisory)
+  ~ sacked it.   ⟨dict-lc⟩  (advisory)
+  ~ prophet   ⟨dict-lc⟩  (advisory)
+  ~ puppet.   ⟨dict-lc⟩  (advisory)
+  ~ restoration.   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ polish   ⟨dict-lc⟩  (advisory)
+  ~ backstory   ⟨rare⟩  (advisory)
+  ~ neater   ⟨rare⟩  (advisory)
+  ~ canopic   ⟨rare⟩  (advisory)
+  ~ reunifier   ⟨rare⟩  (advisory)
+  ~ stitch   ⟨rare⟩  (advisory)
+  ~ intriguingly   ⟨rare⟩  (advisory)
+  ~ anymore   ⟨rare⟩  (advisory)
+  ~ wasteland   ⟨rare⟩  (advisory)
+  ~ adoratrices   ⟨rare⟩  (advisory)
+  ~ trajectories   ⟨rare⟩  (advisory)
+  ~ collide   ⟨rare⟩  (advisory)
+  ~ dynasts   ⟨rare⟩  (advisory)
+  ~ impious   ⟨rare⟩  (advisory)
+  ~ pretenders   ⟨rare⟩  (advisory)
+  ~ defiling   ⟨rare⟩  (advisory)
+  ~ unclean   ⟨rare⟩  (advisory)
+  ~ correctness   ⟨rare⟩  (advisory)
+  ~ decaying   ⟨rare⟩  (advisory)
+  ~ recopied   ⟨rare⟩  (advisory)
+  ~ restorers   ⟨rare⟩  (advisory)
+  ~ conflates   ⟨rare⟩  (advisory)
+  ~ repository   ⟨rare⟩  (advisory)
+  ~ recapturing   ⟨rare⟩  (advisory)
+  ~ shrewdest   ⟨rare⟩  (advisory)
+  ~ dynast   ⟨rare⟩  (advisory)
+  ~ reconnect   ⟨rare⟩  (advisory)
+  ~ glories   ⟨rare⟩  (advisory)
+  ~ painstaking   ⟨rare⟩  (advisory)
+  ~ nostalgia   ⟨rare⟩  (advisory)
+  ~ anchoring   ⟨rare⟩  (advisory)
+  ~ archaism   ⟨rare⟩  (advisory)
+  ~ reshuffled   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Chaldean   ⟨dict⟩  → glossary
+  * Iranian   ⟨dict⟩  → glossary
+    Zagros   ⟨dict⟩  → glossary
+    Psamtik I   ⟨dict⟩  → event
+    Thebes   ⟨dict⟩  → event
+    Assyria   ⟨dict,recur×3⟩  → cross-link
+    Babylon   ⟨dict,recur×3⟩  → glossary
+    Fertile Crescent   ⟨dict⟩  → glossary
+    Judah   ⟨dict,recur×4⟩  → glossary
+    Jezreel Valley   ⟨dict⟩  → glossary
+    Thutmose III   ⟨dict⟩  → event
+  * Judean   ⟨dict⟩  → glossary
+    Hebrew Bible   ⟨dict⟩  → glossary
+  * Egyptians   ⟨dict⟩  → glossary
+  * Levantine   ⟨dict⟩  → glossary
+    Solomon's Temple   ⟨dict⟩  → glossary
+    Nile   ⟨dict⟩  → glossary
+    Red Sea   ⟨dict,recur×4⟩  → glossary
+    Delta   ⟨dict,recur×3⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+    Cape of Good Hope   ⟨dict⟩  → glossary
+    Saite Dynasty   ⟨dict,recur×3⟩  → glossary
+    Nubia   ⟨dict⟩  → cross-link
+    Kingdom of Kush   ⟨dict,bold⟩  → cross-link
+  * Kushite   ⟨dict⟩  → glossary
+    Napata   ⟨dict⟩  → glossary
+  * Kushites   ⟨dict⟩  → glossary
+    Nubian   ⟨dict⟩  → cross-link
+    Ramesses II   ⟨dict⟩  → event
+  * Anatolian   ⟨dict⟩  → glossary
+    Jerusalem   ⟨dict⟩  → event
+    Kingdom of Judah   ⟨dict⟩  → glossary
+    Elephantine   ⟨dict⟩  → glossary
+    Libya   ⟨dict⟩  → glossary
+    Libyan   ⟨dict⟩  → glossary
+    Darius I   ⟨bold⟩  → event/glossary
+  ~ Egypt   ⟨dict,recur×18⟩  (advisory)
+  ~ RAHN   ⟨⟩  (advisory)
+  ~ Syria   ⟨dict,recur×3⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Kings   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨recur×17⟩  (advisory)
+  ~ Hamath   ⟨⟩  (advisory)
+  ~ Jewish   ⟨⟩  (advisory)
+  ~ Suez Canal   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Bitter Lakes   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×6⟩  (advisory)
+  ~ Ferdinand de Lesseps   ⟨⟩  (advisory)
+  ~ Tropic of Capricorn   ⟨⟩  (advisory)
+  ~ Cape   ⟨⟩  (advisory)
+  ~ Twenty-fifth Dynasty Kushite   ⟨⟩  (advisory)
+  ~ Carian   ⟨⟩  (advisory)
+  ~ Wahibre   ⟨⟩  (advisory)
+  ~ Judeans   ⟨⟩  (advisory)
+  ~ Temple of Solomon   ⟨⟩  (advisory)
+  ~ Late Period   ⟨⟩  (advisory)
+  ~ Ahmose II   ⟨⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ sacked Thebes   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ chariot   ⟨dict-lc⟩  (advisory)
+  ~ 2 Kings   ⟨dict-lc⟩  (advisory)
+  ~ puppet   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ oracle   ⟨dict-lc⟩  (advisory)
+  ~ circumnavigation   ⟨dict-lc,rare⟩  (advisory)
+  ~ the territory of   ⟨dict-lc⟩  (advisory)
+  ~ restoration.   ⟨dict-lc⟩  (advisory)
+  ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ siege of Jerusalem   ⟨dict-lc⟩  (advisory)
+  ~ siege.   ⟨dict-lc⟩  (advisory)
+  ~ prophet   ⟨dict-lc⟩  (advisory)
+  ~ trust   ⟨dict-lc⟩  (advisory)
+  ~ a general named   ⟨dict-lc⟩  (advisory)
+  ~ erased the names   ⟨bold⟩  (advisory)
+  ~ irresistible   ⟨rare⟩  (advisory)
+  ~ surprises   ⟨rare⟩  (advisory)
+  ~ doorstep   ⟨rare⟩  (advisory)
+  ~ superpowers   ⟨rare⟩  (advisory)
+  ~ rearranged   ⟨rare⟩  (advisory)
+  ~ forerunner   ⟨rare⟩  (advisory)
+  ~ unbelievable   ⟨rare⟩  (advisory)
+  ~ storytellers   ⟨rare⟩  (advisory)
+  ~ explorers   ⟨rare⟩  (advisory)
+  ~ mariners   ⟨rare⟩  (advisory)
+  ~ interventionist   ⟨rare⟩  (advisory)
+  ~ dearly   ⟨rare⟩  (advisory)
+  ~ prolong   ⟨rare⟩  (advisory)
+  ~ hopeful   ⟨rare⟩  (advisory)
+  ~ fallback   ⟨rare⟩  (advisory)
+  ~ grinder   ⟨rare⟩  (advisory)
+  ~ mutineers   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Saite   ⟨dict,recur×3⟩  → glossary
+    Herodotus   ⟨dict⟩  → cross-link
+    Greeks   ⟨dict,recur×5⟩  → glossary
+    Asia Minor   ⟨dict⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+    Delta   ⟨dict⟩  → glossary
+    Psamtik I   ⟨dict⟩  → event
+    Macau   ⟨dict⟩  → glossary
+    Cyrene   ⟨dict⟩  → glossary
+    Hera   ⟨dict⟩  → glossary
+    Nile   ⟨dict⟩  → glossary
+    Ptolemaic   ⟨dict⟩  → glossary
+    Rosetta Stone   ⟨dict⟩  → event
+    Anaximander   ⟨dict⟩  → glossary
+    Anaximenes   ⟨dict⟩  → glossary
+    Aegean Sea   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Libya   ⟨dict⟩  → glossary
+    Anatolia   ⟨dict⟩  → glossary
+  * Babylonian   ⟨dict⟩  → glossary
+  ~ Greek   ⟨dict,recur×33⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×16⟩  (advisory)
+  ~ Whether the anecdote   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Sicily   ⟨dict⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Portuguese   ⟨dict⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Saite Egypt   ⟨⟩  (advisory)
+  ~ Late Period Egypt   ⟨⟩  (advisory)
+  ~ Italy   ⟨⟩  (advisory)
+  ~ Zhou Dynasty Ch   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Greece   ⟨dict⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ civil war.   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean.   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ emporium   ⟨dict-lc,rare⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ olive oil   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ pottery   ⟨dict-lc⟩  (advisory)
+  ~ linen   ⟨dict-lc⟩  (advisory)
+  ~ markets.   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ basalt   ⟨dict-lc⟩  (advisory)
+  ~ archaic   ⟨dict-lc⟩  (advisory)
+  ~ channel   ⟨dict-lc⟩  (advisory)
+  ~ the Nile.   ⟨dict-lc⟩  (advisory)
+  ~ a cursive   ⟨dict-lc⟩  (advisory)
+  ~ the doctrine of   ⟨dict-lc⟩  (advisory)
+  ~ transmigration of souls   ⟨dict-lc⟩  (advisory)
+  ~ the Indus   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ Egyptian art influenced Greek art   ⟨bold⟩  (advisory)
+  ~ mutinous   ⟨rare⟩  (advisory)
+  ~ screamed   ⟨rare⟩  (advisory)
+  ~ lavished   ⟨rare⟩  (advisory)
+  ~ hearsay   ⟨rare⟩  (advisory)
+  ~ portrays   ⟨rare⟩  (advisory)
+  ~ socializing   ⟨rare⟩  (advisory)
+  ~ persona   ⟨rare⟩  (advisory)
+  ~ uncontrolled   ⟨rare⟩  (advisory)
+  ~ contamination   ⟨rare⟩  (advisory)
+  ~ designating   ⟨rare⟩  (advisory)
+  ~ interchange   ⟨rare⟩  (advisory)
+  ~ achieves   ⟨rare⟩  (advisory)
+  ~ archaizing   ⟨rare⟩  (advisory)
+  ~ statuary   ⟨rare⟩  (advisory)
+  ~ demotikos   ⟨rare⟩  (advisory)
+  ~ transmigration   ⟨rare⟩  (advisory)
+  ~ mythologizing   ⟨rare⟩  (advisory)
+  ~ prescribing   ⟨rare⟩  (advisory)
+  ~ pharmaceutical   ⟨rare⟩  (advisory)
+  ~ pharmacology   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Palestine   ⟨dict⟩  → glossary
+  * Arab   ⟨dict⟩  → glossary
+    Sinai Desert   ⟨dict⟩  → glossary
+    Egyptians   ⟨dict,recur×5⟩  → glossary
+    Persian   ⟨dict,recur×20⟩  → cross-link
+    Psamtik III   ⟨dict⟩  → event
+    Memphis   ⟨dict,recur×4⟩  → event
+    Persian Empire   ⟨dict,recur×3⟩  → cross-link
+    Babylon   ⟨dict⟩  → glossary
+    Lydia   ⟨dict⟩  → glossary
+    Persians   ⟨dict⟩  → cross-link
+    Bronze Age Collapse   ⟨dict⟩  → cross-link
+    Ptah   ⟨dict⟩  → glossary
+    Neith   ⟨dict⟩  → glossary
+    Sais   ⟨dict⟩  → glossary
+    Hyksos   ⟨dict⟩  → event
+    Western Desert   ⟨recur×3⟩  → ?
+    Alexander   ⟨dict⟩  → glossary
+    Sahara   ⟨dict⟩  → glossary
+    Persia   ⟨dict,recur×4⟩  → cross-link
+    Necho II   ⟨dict⟩  → event
+    Nile   ⟨dict,recur×7⟩  → glossary
+    Red Sea   ⟨dict⟩  → glossary
+    Indian Ocean   ⟨dict⟩  → cross-link
+    Elamite   ⟨dict⟩  → cross-link
+  * Babylonian   ⟨dict⟩  → glossary
+    Amun   ⟨dict⟩  → glossary
+    Delta   ⟨dict,recur×6⟩  → glossary
+    Nile Valley   ⟨dict⟩  → cross-link
+    Libyan   ⟨dict⟩  → glossary
+  * Saite   ⟨dict⟩  → glossary
+    Greeks   ⟨dict⟩  → glossary
+    Athenian   ⟨dict,recur×4⟩  → cross-link
+    Judah   ⟨dict⟩  → glossary
+    Achaemenid Empire   ⟨dict⟩  → cross-link
+    Histories   ⟨dict,bold⟩  → glossary
+  ~ Saite Egypt   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×14⟩  (advisory)
+  ~ Egyptian   ⟨recur×30⟩  (advisory)
+  ~ Roman-era   ⟨⟩  (advisory)
+  ~ Great King   ⟨⟩  (advisory)
+  ~ Cyrus   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×4⟩  (advisory)
+  ~ Oracle of Amun   ⟨⟩  (advisory)
+  ~ Persian Empire Ch   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Late Period Egypt   ⟨⟩  (advisory)
+  ~ Persian-period   ⟨⟩  (advisory)
+  ~ Africa   ⟨⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Psamtik   ⟨⟩  (advisory)
+  ~ Greco-Persian Wars   ⟨⟩  (advisory)
+  ~ Athenians   ⟨⟩  (advisory)
+  ~ Egyptian-Athenian   ⟨⟩  (advisory)
+  ~ Persian-period Egypt   ⟨⟩  (advisory)
+  ~ Jewish   ⟨⟩  (advisory)
+  ~ God of Israel   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ siege.   ⟨dict-lc⟩  (advisory)
+  ~ conquest of Egypt   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ granite   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ oracle   ⟨dict-lc⟩  (advisory)
+  ~ the Sahara.   ⟨dict-lc⟩  (advisory)
+  ~ succession crisis   ⟨dict-lc⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ stelae   ⟨dict-lc⟩  (advisory)
+  ~ decorated   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphs   ⟨dict-lc⟩  (advisory)
+  ~ demotic   ⟨dict-lc,rare⟩  (advisory)
+  ~ talents   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ papyrus   ⟨dict-lc⟩  (advisory)
+  ~ linen   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ triremes   ⟨dict-lc,rare⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ madman   ⟨rare⟩  (advisory)
+  ~ stabbing   ⟨rare⟩  (advisory)
+  ~ mummies   ⟨rare⟩  (advisory)
+  ~ sacrilege   ⟨rare⟩  (advisory)
+  ~ sarcophagi   ⟨rare⟩  (advisory)
+  ~ squatters   ⟨rare⟩  (advisory)
+  ~ collaborator   ⟨rare⟩  (advisory)
+  ~ raving   ⟨rare⟩  (advisory)
+  ~ madness   ⟨rare⟩  (advisory)
+  ~ demonizing   ⟨rare⟩  (advisory)
+  ~ sensitivity   ⟨rare⟩  (advisory)
+  ~ lunatic   ⟨rare⟩  (advisory)
+  ~ sandstorm   ⟨rare⟩  (advisory)
+  ~ titulary   ⟨rare⟩  (advisory)
+  ~ cartouche   ⟨rare⟩  (advisory)
+  ~ epithets   ⟨rare⟩  (advisory)
+  ~ fisheries   ⟨rare⟩  (advisory)
+  ~ sensed   ⟨rare⟩  (advisory)
+  ~ requesting   ⟨rare⟩  (advisory)
+  ~ undercurrent   ⟨rare⟩  (advisory)
+  ~ requests   ⟨rare⟩  (advisory)
+  ~ multilayered   ⟨rare⟩  (advisory)
+  ~ multicultural   ⟨rare⟩  (advisory)
+  ~ credulous   ⟨rare⟩  (advisory)
+  ~ mummification   ⟨rare⟩  (advisory)
+  ~ predictability   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Sais   ⟨dict⟩  → glossary
+    Inaros Revolt   ⟨dict⟩  → event
+    Delta   ⟨dict,recur×5⟩  → glossary
+    Nile Delta   ⟨dict⟩  → glossary
+    Aegean   ⟨dict⟩  → glossary
+    Athenian   ⟨dict,recur×3⟩  → cross-link
+    Pelusium   ⟨dict⟩  → glossary
+    Palestine   ⟨dict⟩  → glossary
+    Nile   ⟨dict⟩  → glossary
+  * Egyptians   ⟨dict⟩  → glossary
+    Karnak   ⟨dict⟩  → event
+    Ptolemaic   ⟨dict⟩  → glossary
+    Byzantine   ⟨dict⟩  → cross-link
+    Libyan   ⟨dict⟩  → glossary
+    Nubian   ⟨dict⟩  → cross-link
+    Persia   ⟨dict⟩  → cross-link
+  * Kushite   ⟨dict⟩  → glossary
+  * Saite   ⟨dict⟩  → glossary
+    Greeks   ⟨dict⟩  → glossary
+    Saite Renaissance   ⟨dict⟩  → event
+    Serapeum   ⟨dict⟩  → glossary
+    Saqqara   ⟨dict⟩  → glossary
+    Apis   ⟨dict⟩  → glossary
+    Upper Egypt   ⟨dict⟩  → glossary
+    Nubia   ⟨dict⟩  → cross-link
+    Macedonia   ⟨dict⟩  → glossary
+    Alexander the Great   ⟨dict⟩  → cross-link
+  ~ Egypt   ⟨dict,recur×20⟩  (advisory)
+  ~ Greek   ⟨dict,recur×10⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨recur×12⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Coptic-derived   ⟨⟩  (advisory)
+  ~ Greek-speaking Ptolemies   ⟨⟩  (advisory)
+  ~ Early Dynastic Egypt Ch   ⟨⟩  (advisory)
+  ~ Thutmosids   ⟨⟩  (advisory)
+  ~ Ramessids   ⟨⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Great Sphinx   ⟨⟩  (advisory)
+  ~ Late Period   ⟨⟩  (advisory)
+  ~ Rhodian   ⟨⟩  (advisory)
+  ~ Mentor   ⟨⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ who founded   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ dialogues   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ new temple   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphic   ⟨dict-lc⟩  (advisory)
+  ~ divine kingship   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ restoration   ⟨dict-lc⟩  (advisory)
+  ~ crown   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ stelae   ⟨dict-lc⟩  (advisory)
+  ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ divine birth narratives   ⟨bold⟩  (advisory)
+  ~ reeled   ⟨rare⟩  (advisory)
+  ~ freight   ⟨rare⟩  (advisory)
+  ~ existences   ⟨rare⟩  (advisory)
+  ~ crediting   ⟨rare⟩  (advisory)
+  ~ impassable   ⟨rare⟩  (advisory)
+  ~ quarreled   ⟨rare⟩  (advisory)
+  ~ prodigiously   ⟨rare⟩  (advisory)
+  ~ ancients   ⟨rare⟩  (advisory)
+  ~ elastic   ⟨rare⟩  (advisory)
+  ~ abstracted   ⟨rare⟩  (advisory)
+  ~ preemptively   ⟨rare⟩  (advisory)
+  ~ vigorously   ⟨rare⟩  (advisory)
+  ~ attentive   ⟨rare⟩  (advisory)
+  ~ instructing   ⟨rare⟩  (advisory)
+  ~ bickering   ⟨rare⟩  (advisory)
+  ~ outmatched   ⟨rare⟩  (advisory)
+  ~ surrenders   ⟨rare⟩  (advisory)
+  ~ magically   ⟨rare⟩  (advisory)
+  ~ delicious   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Egyptians   ⟨dict,recur×5⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+    Apis   ⟨dict,recur×3⟩  → glossary
+    Memphis   ⟨dict⟩  → event
+    Cambyses   ⟨dict⟩  → glossary
+    Delta   ⟨dict,recur×3⟩  → glossary
+    Persian Empire   ⟨dict⟩  → cross-link
+    Macedonian   ⟨recur×3⟩  → ?
+    Hellespont   ⟨dict⟩  → glossary
+    Achaemenid   ⟨dict⟩  → glossary
+    Alexander III   ⟨dict⟩  → event
+  * Levantine   ⟨dict⟩  → glossary
+    Nile Delta   ⟨dict⟩  → glossary
+    Sahara   ⟨dict⟩  → glossary
+    Delphi   ⟨dict⟩  → glossary
+    Greeks   ⟨dict,recur×4⟩  → glossary
+  * Spartans   ⟨dict⟩  → glossary
+    Mediterranean Sea   ⟨dict⟩  → glossary
+    Nile   ⟨dict⟩  → glossary
+    Nile Valley   ⟨dict⟩  → cross-link
+    Indus River   ⟨dict⟩  → event
+    Babylon   ⟨dict⟩  → glossary
+    Ptolemies   ⟨dict⟩  → glossary
+    Philae   ⟨dict⟩  → glossary
+    Nectanebo I   ⟨dict⟩  → event
+    Osiris   ⟨dict⟩  → glossary
+  * Egyptologists   ⟨dict⟩  → glossary
+    Aswan   ⟨dict⟩  → glossary
+    Napoleon   ⟨dict⟩  → event
+    Julius Caesar   ⟨dict⟩  → glossary
+    Libyans   ⟨dict⟩  → glossary
+    Saite Renaissance   ⟨dict⟩  → event
+  ~ Egyptian   ⟨recur×28⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×16⟩  (advisory)
+  ~ Twenty-eighth   ⟨⟩  (advisory)
+  ~ Thirtieth Dynasties   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×19⟩  (advisory)
+  ~ Greece   ⟨dict,recur×3⟩  (advisory)
+  ~ Libyan Desert   ⟨⟩  (advisory)
+  ~ Canopic   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict,recur×5⟩  (advisory)
+  ~ Saite-era Greek   ⟨⟩  (advisory)
+  ~ Hippodamus   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Late Period   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ Temple of Horus   ⟨⟩  (advisory)
+  ~ Hades   ⟨⟩  (advisory)
+  ~ Greek-flavored   ⟨⟩  (advisory)
+  ~ History of Egypt   ⟨⟩  (advisory)
+  ~ Greek-language   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Ptolemaic Egypt   ⟨⟩  (advisory)
+  ~ Egyptian-in-translation   ⟨⟩  (advisory)
+  ~ Nubians   ⟨⟩  (advisory)
+  ~ harsher   ⟨dict-lc⟩  (advisory)
+  ~ seized the throne   ⟨dict-lc⟩  (advisory)
+  ~ satrapy   ⟨dict-lc⟩  (advisory)
+  ~ eunuch   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ king named   ⟨dict-lc⟩  (advisory)
+  ~ conquest of Egypt   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ siege of   ⟨dict-lc⟩  (advisory)
+  ~ satrap   ⟨dict-lc,rare⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ divine kingship   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ party   ⟨dict-lc⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ the Sahara.   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ companions   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ protected by   ⟨dict-lc⟩  (advisory)
+  ~ urban plan   ⟨dict-lc⟩  (advisory)
+  ~ barley   ⟨dict-lc⟩  (advisory)
+  ~ the Indus   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ papyrus   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ focus   ⟨dict-lc⟩  (advisory)
+  ~ chronicle   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphs   ⟨dict-lc⟩  (advisory)
+  ~ demotic   ⟨dict-lc,rare⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ greeted   ⟨rare⟩  (advisory)
+  ~ admittedly   ⟨rare⟩  (advisory)
+  ~ biased   ⟨rare⟩  (advisory)
+  ~ tasted   ⟨rare⟩  (advisory)
+  ~ normalcy   ⟨rare⟩  (advisory)
+  ~ flared   ⟨rare⟩  (advisory)
+  ~ pretender   ⟨rare⟩  (advisory)
+  ~ intrigues   ⟨rare⟩  (advisory)
+  ~ deliverer   ⟨rare⟩  (advisory)
+  ~ sandstorms   ⟨rare⟩  (advisory)
+  ~ modesty   ⟨rare⟩  (advisory)
+  ~ tucked   ⟨rare⟩  (advisory)
+  ~ henceforth   ⟨rare⟩  (advisory)
+  ~ planner   ⟨rare⟩  (advisory)
+  ~ multitudes   ⟨rare⟩  (advisory)
+  ~ appropriately   ⟨rare⟩  (advisory)
+  ~ tumultuous   ⟨rare⟩  (advisory)
+  ~ deciphering   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Assyrians   ⟨dict⟩  → cross-link
+    Persians   ⟨dict⟩  → cross-link
+    Alexander   ⟨dict⟩  → glossary
+    Ptolemies   ⟨dict,recur×4⟩  → glossary
+    Edfu   ⟨dict⟩  → event
+    Late Period   ⟨recur×14⟩  → ?
+    Memphis   ⟨dict,recur×4⟩  → event
+    Amun   ⟨dict⟩  → glossary
+    Thebes   ⟨dict⟩  → event
+    Horus   ⟨dict⟩  → glossary
+    Bubastis   ⟨dict⟩  → glossary
+    Egyptians   ⟨dict,recur×6⟩  → glossary
+    Ptah   ⟨dict⟩  → glossary
+  * Persian   ⟨dict⟩  → cross-link
+    Nile   ⟨dict⟩  → glossary
+    Philae   ⟨dict⟩  → glossary
+    Greeks   ⟨dict⟩  → glossary
+  * Saite   ⟨dict⟩  → glossary
+    Thirtieth Dynasty   ⟨dict⟩  → glossary
+    Ptolemaic   ⟨dict,recur×3⟩  → glossary
+    Middle Kingdom   ⟨dict⟩  → glossary
+    Rosetta Stone   ⟨dict⟩  → event
+  ~ Late Egypt   ⟨⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨recur×18⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×5⟩  (advisory)
+  ~ Start   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×8⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Late Period Egyptian   ⟨⟩  (advisory)
+  ~ Library   ⟨⟩  (advisory)
+  ~ Museum of Alexandria   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Alexandrian   ⟨⟩  (advisory)
+  ~ Religion   ⟨⟩  (advisory)
+  ~ Late   ⟨⟩  (advisory)
+  ~ Late Period Egypt   ⟨⟩  (advisory)
+  ~ hieroglyphs   ⟨dict-lc⟩  (advisory)
+  ~ cartouches.   ⟨dict-lc,rare⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ linen   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ who followed   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ satrap   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ inundation   ⟨dict-lc,rare⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ syncretic   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ histories   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ greywacke   ⟨dict-lc,rare⟩  (advisory)
+  ~ archaic   ⟨dict-lc⟩  (advisory)
+  ~ hieratic   ⟨dict-lc,rare⟩  (advisory)
+  ~ deified   ⟨bold⟩  (advisory)
+  ~ schedules   ⟨rare⟩  (advisory)
+  ~ reformat   ⟨rare⟩  (advisory)
+  ~ crashing   ⟨rare⟩  (advisory)
+  ~ examines   ⟨rare⟩  (advisory)
+  ~ uproot   ⟨rare⟩  (advisory)
+  ~ falcons   ⟨rare⟩  (advisory)
+  ~ catacombs   ⟨rare⟩  (advisory)
+  ~ mummies   ⟨rare⟩  (advisory)
+  ~ baboon   ⟨rare⟩  (advisory)
+  ~ beetles   ⟨rare⟩  (advisory)
+  ~ boggle   ⟨rare⟩  (advisory)
+  ~ fraudulent   ⟨rare⟩  (advisory)
+  ~ democratized   ⟨rare⟩  (advisory)
+  ~ sarcophagi   ⟨rare⟩  (advisory)
+  ~ fashioned   ⟨rare⟩  (advisory)
+  ~ searched   ⟨rare⟩  (advisory)
+  ~ markings   ⟨rare⟩  (advisory)
+  ~ marvels   ⟨rare⟩  (advisory)
+  ~ calculate   ⟨rare⟩  (advisory)
+  ~ deification   ⟨rare⟩  (advisory)
+  ~ sequential   ⟨rare⟩  (advisory)
+  ~ correlated   ⟨rare⟩  (advisory)
+  ~ institutionalizing   ⟨rare⟩  (advisory)
+  ~ misconception   ⟨rare⟩  (advisory)
+  ~ seemingly   ⟨rare⟩  (advisory)
+  ~ impulses   ⟨rare⟩  (advisory)
+  ~ eyelids   ⟨rare⟩  (advisory)
+  ~ asymmetries   ⟨rare⟩  (advisory)
+  ~ exemplar   ⟨rare⟩  (advisory)
+  ~ wrinkled   ⟨rare⟩  (advisory)
+  ~ cheeks   ⟨rare⟩  (advisory)
+  ~ redundant   ⟨rare⟩  (advisory)
+  ~ specialize   ⟨rare⟩  (advisory)
+  ~ unravel   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Alexander the Great   ⟨dict⟩  → cross-link
+    Memphis   ⟨dict⟩  → event
+    Egyptians   ⟨dict,recur×3⟩  → glossary
+    Libyans   ⟨dict⟩  → glossary
+    Persians   ⟨dict,recur×3⟩  → cross-link
+    Late Egypt   ⟨recur×8⟩  → ?
+    Delta   ⟨dict⟩  → glossary
+    Saite Dynasty   ⟨dict⟩  → glossary
+    Levant   ⟨dict⟩  → glossary
+    Carchemish   ⟨dict⟩  → event
+    Thirtieth Dynasty   ⟨dict⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+    Teos   ⟨dict⟩  → glossary
+    Assyrians   ⟨dict⟩  → cross-link
+    Alexander   ⟨dict⟩  → glossary
+    Temple of Hibis   ⟨dict⟩  → event
+    Apis   ⟨dict⟩  → glossary
+    Ptolemies   ⟨dict⟩  → glossary
+    Edfu   ⟨dict⟩  → event
+    Philae   ⟨dict,recur×3⟩  → glossary
+    Cleopatra   ⟨dict⟩  → glossary
+  * Saite   ⟨dict⟩  → glossary
+    Cult of Imhotep   ⟨dict⟩  → event
+    Rosetta Stone   ⟨dict⟩  → event
+    Saite Renaissance   ⟨dict⟩  → event
+    Persian Empire   ⟨dict⟩  → cross-link
+    Bronze Age Collapse   ⟨dict⟩  → cross-link
+    Horus   ⟨dict⟩  → glossary
+    Ptolemy   ⟨dict⟩  → glossary
+    Karnak   ⟨dict⟩  → event
+    Egyptian calendar   ⟨bold⟩  → event/glossary
+    Egyptian language   ⟨bold⟩  → event/glossary
+  ~ Nubians   ⟨⟩  (advisory)
+  ~ Macedonian   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×14⟩  (advisory)
+  ~ Late Period   ⟨⟩  (advisory)
+  ~ Africa   ⟨⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Rome   ⟨dict,recur×3⟩  (advisory)
+  ~ Roman   ⟨dict,recur×6⟩  (advisory)
+  ~ Egyptian   ⟨recur×18⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Darius   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Egyptian Christianity   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Christian Madonna   ⟨⟩  (advisory)
+  ~ the crowns   ⟨def⟩  (advisory)
+  ~ gods had been worshipped   ⟨def⟩  (advisory)
+  ~ the Levant   ⟨dict-lc⟩  (advisory)
+  ~ capital.   ⟨dict-lc⟩  (advisory)
+  ~ divine kingship   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphic   ⟨dict-lc⟩  (advisory)
+  ~ demotic   ⟨dict-lc,rare⟩  (advisory)
+  ~ hieroglyphs   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ cartouches   ⟨dict-lc,rare⟩  (advisory)
+  ~ pagan   ⟨dict-lc⟩  (advisory)
+  ~ liturgy   ⟨dict-lc⟩  (advisory)
+  ~ golden age.   ⟨dict-lc⟩  (advisory)
+  ~ histories   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ monasteries   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ obelisks   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphic writing system   ⟨bold⟩  (advisory)
+  ~ pharaonic political system   ⟨bold⟩  (advisory)
+  ~ preemptive   ⟨rare⟩  (advisory)
+  ~ ungovernable   ⟨rare⟩  (advisory)
+  ~ vitality   ⟨rare⟩  (advisory)
+  ~ democratized   ⟨rare⟩  (advisory)
+  ~ undecipherable   ⟨rare⟩  (advisory)
+  ~ irrelevance   ⟨rare⟩  (advisory)
+  ~ decadent   ⟨rare⟩  (advisory)
+  ~ throwback   ⟨rare⟩  (advisory)
+  ~ decipher   ⟨rare⟩  (advisory)
+  ~ nursing   ⟨rare⟩  (advisory)
+  ~ hieroglyph   ⟨rare⟩  (advisory)
+  ~ foresight   ⟨rare⟩  (advisory)
+  ~ unlock   ⟨rare⟩  (advisory)
+  ~ colossi   ⟨rare⟩  (advisory)
+  ~ nostalgic   ⟨rare⟩  (advisory)
+  ~ archivists   ⟨rare⟩  (advisory)

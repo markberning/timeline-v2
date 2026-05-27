@@ -437,7 +437,7 @@
     },
     "Greco-Persian_Wars": {
       "title": "Greco-Persian Wars",
-      "lead": "The Greco-Persian Wars (also often called the Persian Wars) were a series of conflicts between the Achaemenid Empire and Greek city-states that started in 499 BC and lasted until 449 BC. The collision between the fractious political world o",
+      "lead": "The Greco-Persian Wars, also called the Persian Wars, were a series of armed conflicts involving various Greek city-states and the Achaemenid Empire from 499 BC to 449 BC. The precipitating collision between the fractious political world of",
       "image": "Greek-Persian_duel_1.jpg"
     },
     "Second_Persian_invasion_of_Greece": {
@@ -482,6 +482,11 @@
     }
   },
   "glossary": {
+    "Homer": {
+      "title": "Homer",
+      "lead": "Homer (; Ancient Greek: Ὅμηρος [hómɛːros], Hómēros; possibly born c. the 8th century BC) was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey, two epic poems that are foundational works of ancient Gree",
+      "image": "Homer_British_Museum.jpg"
+    },
     "Battle_of_Thermopylae": {
       "title": "Battle of Thermopylae",
       "lead": "The Battle of Thermopylae () was fought in 480 BC at Thermopylae between the Achaemenid Persian Empire under Xerxes and an alliance of Greek city-states led by Sparta under Leonidas I. Lasting over the course of three days, it was one of th",
@@ -491,6 +496,16 @@
       "title": "Battle of Aegospotami",
       "lead": "The Battle of Aegospotami (Greek: Μάχη στους Αιγός Ποταμούς) was a naval confrontation that took place in 405 BC and was the last major battle of the Peloponnesian War. In the battle, a Spartan fleet under Lysander destroyed the Athenian na",
       "image": ""
+    },
+    "Aristotle": {
+      "title": "Aristotle",
+      "lead": "Aristotle (Ancient Greek: Ἀριστοτέλης, romanized: Aristotélēs; 384–322 BC) was an ancient Greek philosopher and polymath. His writings span the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the",
+      "image": "Aristotle_Altemps_Inv8575.jpg"
+    },
+    "Alexander_the_Great": {
+      "title": "Alexander the Great",
+      "lead": "Alexander III of Macedon (Ancient Greek: Ἀλέξανδρος, romanized: Aléxandros; 20/21 July 356 BC – 10/11 June 323 BC), most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip",
+      "image": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg"
     },
     "Battle_of_the_Granicus": {
       "title": "Battle of the Granicus",
@@ -512,6 +527,11 @@
       "lead": "The Lighthouse of Alexandria, sometimes called the Pharos of Alexandria, was a lighthouse built by the Ptolemaic Kingdom of Ancient Egypt, during the reign of Ptolemy II Philadelphus (280–247 BC). It has been estimated to have been at least",
       "image": "Lighthouse_-_Thiersch.png"
     },
+    "Thespis": {
+      "title": "Thespis",
+      "lead": "Thespis (; Ancient Greek: Θέσπις; fl. 6th century BC) was a stage actor in Ancient Greece. He was born in the ancient city of Icarius (present-day Dionysos, Greece). According to certain Ancient Greek sources and especially Aristotle, he wa",
+      "image": "Formella_15,_il_carro_di_Tespi_(Theatrica),_nino_pisano,_1334-1336.JPG"
+    },
     "Eleusinian_Mysteries": {
       "title": "Eleusinian Mysteries",
       "lead": "The Eleusinian Mysteries (Greek: Ἐλευσίνια Μυστήρια, romanized: Eleusínia Mystḗria) were initiations held every year for the cult of Demeter and Persephone based at the Panhellenic Sanctuary of Eleusis in ancient Greece. They are considered",
@@ -521,6 +541,11 @@
       "title": "Pythia",
       "lead": "Pythia (; Ancient Greek: Πυθία [pyːˈtʰíaː]) was the title of the high priestess of the Temple of Apollo at Delphi in central Greece. She served as its oracle and was known as the Oracle of Delphi. Her title was sometimes historically glosse",
       "image": "Eugène_Delacroix_-_Lycurgus_Consulting_the_Pythia_-_Google_Art_Project.jpg"
+    },
+    "Ptolemy_I_Soter": {
+      "title": "Ptolemy I Soter",
+      "lead": "Ptolemy I Soter (; Greek: Πτολεμαῖος Σωτήρ, Ptolemaîos Sōtḗr, \"Ptolemy the Savior\"; c. 369/68 BC – January 282 BC) was a Macedonian Greek general, historian, and successor of Alexander the Great who went on to found the Ptolemaic Kingdom ce",
+      "image": "Ptolemy_I_Soter_Louvre_Ma849_A.jpg"
     },
     "Ancient_Agora_of_Athens": {
       "title": "Ancient Agora of Athens",
@@ -604,7 +629,7 @@
     },
     "Sparta": {
       "title": "Sparta",
-      "lead": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity (pre-800 BCE), the state was known as Lacedaemon (Λακεδαίμων, Lakedaímōn), while \"Sparta\" referred to its capital, a group of villages in the valley of the Evrotas",
+      "lead": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity (pre-800 BC), the state was known as Lacedaemon (Λακεδαίμων, Lakedaímōn), while \"Sparta\" referred to its capital, a group of villages in the valley of the Evrotas ",
       "image": "Spartan_Territory_Before_371_BC.png"
     },
     "Massalia": {
@@ -614,7 +639,7 @@
     },
     "Syracuse,_Sicily": {
       "title": "Syracuse, Sicily",
-      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Sarausa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern It",
+      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Saragusa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern I",
       "image": "Veduta_aerea_di_Siracusa_e_con_l'Etna_sullo_sfondo_(Foto_di_Angelo_Bonomo).jpg"
     },
     "Byzantium": {
@@ -629,7 +654,7 @@
     },
     "Zeus": {
       "title": "Zeus",
-      "lead": "Zeus (, Ancient Greek: Ζεύς), also known as Dias ( Greek: Δίας), is the supreme Deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the ch",
+      "lead": "Zeus (, Ancient Greek: Ζεύς) is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the child of Cronus and Rhea. In most trad",
       "image": "Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
     },
     "Stadion_(unit)": {
@@ -684,7 +709,7 @@
     },
     "Croesus": {
       "title": "Croesus",
-      "lead": "Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 or 561 BC to 547 BC. He ruled Lydia until his defeat at the siege of Sardis by the Persian king Cyrus the Great. According to Herodotus, he ",
+      "lead": "Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 or 561 BC to 547 BC. He was renowned for his great wealth, as well as his ultimate defeat by the Persian king Cyrus the Great following the ",
       "image": "Croesus_portrait.jpg"
     },
     "Stoa": {
@@ -706,6 +731,101 @@
       "title": "Barbarian",
       "lead": "A barbarian is, etymologically, a foreigner, specifically someone whose language and customs differ from those of the speaker. In ancient Greece, the term designated non-Greeks, while in the Roman world it referred more generally to peoples",
       "image": "De_Neuville_-_The_Huns_at_the_Battle_of_Chalons.jpg"
+    },
+    "Mycenae": {
+      "title": "Mycenae",
+      "lead": "Mycenae ( my-SEE-nee; Ancient Greek: Μυκῆναι or Μυκήνη, Mykē̂nai or Mykḗnē) is an archaeological site near Mykines in Argolis, north-eastern Peloponnese, Greece. It is located about 120 kilometres (75 miles) south-west of Athens; 11 kilomet",
+      "image": "Path_upto_the_Lion_Gate,_Mycenae_(28693130016).jpg"
+    },
+    "Pylos": {
+      "title": "Pylos",
+      "lead": "Pylos (UK: , US: ; Greek: Πύλος), historically also known as Navarino, is a town and a former municipality in Messenia, Peloponnese, Greece. Since the 2011 local government reform, it has been part of the municipality Pylos-Nestoras, of whi",
+      "image": "Pylos-sfaktiria.JPG"
+    },
+    "Troy": {
+      "title": "Troy",
+      "lead": "Troy (Greek: Τροία, romanised: Troíā; Hittite: 𒆳𒌷𒋫𒊒𒄿𒊭, romanised: Truwiša/Taruiša; Latin: Troia) or Ilion (Greek: Ἴλιον, romanised: Ī́lion; Hittite: 𒌷𒃾𒇻𒊭, romanised: Wiluša) was an ancient city located in present-day Çanakkale, Tu",
+      "image": "Walls_of_Troy_(2).jpg"
+    },
+    "Bronze_Age": {
+      "title": "Bronze Age",
+      "lead": "The Bronze Age is an archaeological and anthropological term defining a phase in the development of material culture among ancient societies in Asia, the Near East and Europe. An ancient civilisation or culture is deemed to be part of the B",
+      "image": "AlacaStandarte.jpg"
+    },
+    "Semitic_languages": {
+      "title": "Semitic languages",
+      "lead": "The Semitic languages are a branch of the Afroasiatic language family. They include Arabic, Amharic, Tigrinya, Aramaic, Hebrew, Maltese, Modern South Arabian languages and numerous other ancient and modern languages. They are spoken by more",
+      "image": "Semitic_map.svg"
+    },
+    "Levant": {
+      "title": "Levant",
+      "lead": "The Levant is a subregion of West Asia along the Eastern Mediterranean that forms part of the Middle East. The term is often used in conjunction with historical or cultural references. In its narrowest sense, used in archaeology and other c",
+      "image": "Levant_(orthographic_projection).png"
+    },
+    "Miletus": {
+      "title": "Miletus",
+      "lead": "Miletus (Ancient Greek: Μίλητος, romanised: Mílētos) was an influential ancient Greek city on the western coast of Anatolia, near the mouth of the Maeander River in present day Turkey. Renowned in antiquity for its wealth, maritime power, a",
+      "image": "Miletus_-_Ancient_Greek_theatre_02.jpg"
+    },
+    "Black_Sea": {
+      "title": "Black Sea",
+      "lead": "The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia. It is bounded by Bulgaria, Georgia, Romania, Russia, Turkey, and Ukraine. The",
+      "image": "Black_Sea_map.png"
+    },
+    "Greek_language": {
+      "title": "Greek language",
+      "lead": "Greek (Modern Greek: ελληνικά, romanized: elliniká [eliniˈka] ; Ancient Greek: ἑλληνική, romanized: hellēnikḗ [helːɛːnikɛ́ː]) is an Indo-European language, constituting an independent Hellenic branch within the Indo-European language family",
+      "image": "Idioma_Griego.PNG"
+    },
+    "Phocaea": {
+      "title": "Phocaea",
+      "lead": "Phocaea or Phokaia (Ancient Greek: Φώκαια, Phókaia; modern-day Foça in Turkey) was an ancient Ionian Greek city on the western coast of Anatolia. Greek colonists from Phocaea founded the colony of Massalia (modern-day Marseille, in France) ",
+      "image": "Ancient_theatre_Foça525.jpg"
+    },
+    "Ionia": {
+      "title": "Ionia",
+      "lead": "Ionia ( eye-OH-nee-ə; Greek: Ιωνία) was an ancient region encompassing the central part of the western coast of Anatolia. It consisted of the northernmost territories of the Ionian League of Greek settlements. Never a unified state, it was ",
+      "image": "Mount_Mycale_and_Mycale_Strait.jpg"
+    },
+    "Megara": {
+      "title": "Megara",
+      "lead": "Megara (; Greek: Μέγαρα, pronounced [ˈmeɣaɾa]) is a historic town and a municipality in West Attica, Greece. It lies in the northern section of the Isthmus of Corinth opposite the island of Salamis, which belonged to Megara in archaic times",
+      "image": "2011_Dimos_Megareon.png"
+    },
+    "Aegean_Sea": {
+      "title": "Aegean Sea",
+      "lead": "The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located between the Balkans and Anatolia, and covers an area of some 215,000 km2 (83,000 sq mi). In the north, the Aegean is connected to the M",
+      "image": "Location_of_the_Aegean_Sea.png"
+    },
+    "Crimea": {
+      "title": "Crimea",
+      "lead": "Crimea ( kry-MEE-ə) is a peninsula in Eastern Europe, on the northern coast of the Black Sea, almost entirely surrounded by the Black Sea and the smaller Sea of Azov. The Isthmus of Perekop connects the peninsula to Kherson Oblast in mainla",
+      "image": "Crimea_(orthographic_projection).svg"
+    },
+    "Etruscan_civilization": {
+      "title": "Etruscan civilization",
+      "lead": "The Etruscans ( ih-TRUS-kən) created a civilization in Etruria in ancient Italy, with a common language and culture, and formed a federation of city-states. After adjacent lands had been conquered, its territory covered, at its greatest ext",
+      "image": "Etruscan_civilization_map.png"
+    },
+    "Ancient_Libya": {
+      "title": "Ancient Libya",
+      "lead": "During the Iron Age and Classical antiquity, Libya (from Greek Λιβύη: Libyē, which came from Berber: Libu) referred to the area of North Africa directly west of the Nile River (modern-day Libya, Tunisia, Algeria, and Morocco). Ancient Libya",
+      "image": "Herodotus_world_map-en.svg"
+    },
+    "Pythian_Games": {
+      "title": "Pythian Games",
+      "lead": "The Pythian Games (Ancient Greek: Τὰ Πύθια, romanized: Ta Pythia) were one of the four Panhellenic Games of Ancient Greece. Founded circa the 6th century BCE, the festival was held in honor of the god Apollo and took place at his sanctuary ",
+      "image": "Sanctuary_of_Apollo_at_Delphi_from_the_Phaedriades_01.jpg"
+    },
+    "Ancient_Corinth": {
+      "title": "Ancient Corinth",
+      "lead": "Corinth ( KORR-inth; Ancient Greek: Κόρινθος Kórinthos; Doric Greek: Ϙόρινθος Qórinthos; Latin: Corinthus) was a city-state (polis) on the Isthmus of Corinth, the narrow stretch of land that joins the Peloponnese peninsula to mainland Greec",
+      "image": "Ravel_1008.2.jpg"
+    },
+    "Babylonian_astronomy": {
+      "title": "Babylonian astronomy",
+      "lead": "Babylonian astronomy was the study or recording of celestial objects during the early history of Mesopotamia. The numeral system used, sexagesimal, was based on 60, as opposed to ten in the modern decimal system. This system simplified the ",
+      "image": "Babylonian_tablet_recording_Halley's_comet.jpg"
     },
     "Hoplite": {
       "title": "Hoplite",
@@ -817,11 +937,6 @@
       "lead": "The syssitia (Ancient Greek: συσσίτια syssítia, plural of συσσίτιον syssítion) were, in ancient Greece, common meals for men and youths in social or religious groups, especially in Crete and Sparta, but also in Megara in the time of Theogni",
       "image": ""
     },
-    "Miletus": {
-      "title": "Miletus",
-      "lead": "Miletus (Ancient Greek: Μίλητος, romanised: Mílētos) was an influential ancient Greek city on the western coast of Anatolia, near the mouth of the Maeander River in present day Turkey. Renowned in antiquity for its wealth, maritime power, a",
-      "image": "Miletus_-_Ancient_Greek_theatre_02.jpg"
-    },
     "Anaximander": {
       "title": "Anaximander",
       "lead": "Anaximander ( an-AK-sih-MAN-dər; Ancient Greek: Ἀναξίμανδρος Anaximandros; c. 610 – c. 546 BC) was a pre-Socratic Greek philosopher who lived in Miletus, a city of Ionia (in modern-day Turkey). He belonged to the Milesian school and learned",
@@ -861,6 +976,76 @@
       "title": "Solonian constitution",
       "lead": "The Solonian constitution was created by Solon in the early 6th century BC. At the time of Solon, the Athenian State was almost falling to pieces in consequence of dissensions between the parties into which the population was divided. Solon",
       "image": "Solon_in_Vatican_Museums.JPG"
+    },
+    "Lydia": {
+      "title": "Lydia",
+      "lead": "Lydia (Ancient Greek: Λυδία, romanized: Ludía; Latin: Lȳdia) was an Iron Age kingdom situated in western Anatolia, in modern-day Turkey. Later, it became an important province of the Achaemenid Empire and then the Roman Empire. Its capital ",
+      "image": "Kingdom_of_Lydia.png"
+    },
+    "Athena": {
+      "title": "Athena",
+      "lead": "Athena or Athene, often given the epithet Pallas, is an ancient Greek goddess associated with wisdom, warfare, and handicraft who was later syncretised with the Roman goddess Minerva. Athena was regarded as the patron and protectress of var",
+      "image": "Mattei_Athena_Louvre_Ma530_n2.jpg"
+    },
+    "Apella": {
+      "title": "Spartan Assembly",
+      "lead": "The Spartan Assembly, was the assembly of full citizens in the ancient Greek city-state of Sparta. Its principal role was to ratify the proposals brought to it by the gerousia and the ephors. Unlike its more famous counterpart the Assembly ",
+      "image": ""
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Samos": {
+      "title": "Samos",
+      "lead": "Samos (, also US: ; Greek: Σάμος, romanized: Sámos, Greek pronunciation: [ˈsa.mos]) is a Greek island in the eastern Aegean Sea, south of Chios, north of Patmos and the Dodecanese archipelago, and off the coast of western Turkey, from which",
+      "image": "Samos_049_2009.JPG"
+    },
+    "Babylon": {
+      "title": "Babylon",
+      "lead": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and p",
+      "image": "Ishtar_Gate.jpg"
+    },
+    "Plato": {
+      "title": "Plato",
+      "lead": "Plato ( PLAY-toh; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
+      "image": "Plato_Silanion_Musei_Capitolini_MC1377.png"
+    },
+    "Hera": {
+      "title": "Hera",
+      "lead": "In ancient Greek religion, Hera (; Ancient Greek: Ἥρα, romanized: Hḗrā; Ἥρη, Hḗrē in Ionic and Homeric Greek) is the goddess of marriage, women, and family, and the protector of women during childbirth. In Greek mythology, she is queen of t",
+      "image": "Hera_Campana_Louvre_Ma2283.jpg"
+    },
+    "Poseidon": {
+      "title": "Poseidon",
+      "lead": "Poseidon (; Ancient Greek: Ποσειδῶν, romanised: Poseidôn) is one of the twelve Olympians in ancient Greek religion and mythology, presiding over the sea, storms, earthquakes and horses. He was the protector of seafarers and the guardian of ",
+      "image": "Statue_of_Poseidon_NAMA_235_(DerHexer),_part_2.JPG"
+    },
+    "Artemis": {
+      "title": "Artemis",
+      "lead": "In ancient Greek religion and mythology, Artemis (; Ancient Greek: Ἄρτεμις) is the goddess of hunting, the wilderness, wild animals, transitions, nature, vegetation, childbirth, care of children, and chastity. She was often said to roam the",
+      "image": "Diane_de_Versailles_-_Musée_du_Louvre_AGER_Ma_589.jpg"
+    },
+    "Ares": {
+      "title": "Ares",
+      "lead": "Ares (; Ancient Greek: Ἄρης, Árēs [árɛːs]) is the Greek god of war and courage. He is one of the Twelve Olympians, and the son of Zeus and Hera. Many Greeks were ambivalent towards him. He embodies the physical valor necessary for success i",
+      "image": "Ares_Canope_Villa_Adriana_b.jpg"
+    },
+    "Aphrodite": {
+      "title": "Aphrodite",
+      "lead": "Aphrodite ( , AF-rə-DY-tee) is an ancient Greek goddess associated with love, lust, beauty, pleasure, passion, procreation, and as her syncretised Roman counterpart Venus, desire, sex, fertility, prosperity, and victory. Aphrodite's major s",
+      "image": "Cnidus_Aphrodite_Altemps_Inv8619.jpg"
+    },
+    "Hermes": {
+      "title": "Hermes",
+      "lead": "Hermes (; Ancient Greek: Ἑρμῆς) is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods. He is also widely considered the protector of human heralds, travelers, thieves, merchants, and orators. He is a",
+      "image": "Hermes_Ingenui_Pio-Clementino_Inv544.jpg"
+    },
+    "Hestia": {
+      "title": "Hestia",
+      "lead": "In ancient Greek religion and mythology, Hestia (; Ancient Greek: Ἑστία, lit. 'hearth, fireplace, altar') is the virgin goddess of the hearth and the home. In myth, she is the firstborn child of the Titans Cronus and Rhea, and one of the Tw",
+      "image": "Hestia_Giustiniani.jpg"
     },
     "Ionians": {
       "title": "Ionians",
@@ -982,6 +1167,56 @@
       "lead": "The Battle of Artemisium or Artemision was a series of naval engagements over three days during the second Persian invasion of Greece. The battle took place simultaneously with the land battle at Thermopylae, in August or September 480 BC, ",
       "image": "Battle_of_Thermopylae_and_movements_to_Salamis,_480_BC.gif"
     },
+    "Euboea": {
+      "title": "Euboea",
+      "lead": "Euboea, also known as Evia, is the second-largest Greek island in area and population, after Crete, and the sixth largest island in the Mediterranean Sea. It is separated from Boeotia in mainland Greece by the narrow Euripus Strait (only 40",
+      "image": "Euboea_from_space.jpg"
+    },
+    "Royal_Road": {
+      "title": "Royal Road",
+      "lead": "The Royal Road was an ancient highway reorganized and rebuilt for trade in the 5th century BCE by Achaemenid Empire. The road was built to facilitate rapid communication on the western part of the large empire from Susa to Sardis and was pr",
+      "image": "Achaemenid_Empire_at_its_greatest_extent_according_to_Oxford_Atlas_of_World_History_2002.jpg"
+    },
+    "Persepolis": {
+      "title": "Persepolis",
+      "lead": "Persepolis was the ceremonial capital of the Achaemenid Empire (c. 550–330 BC). It is situated in the plains of Marvdasht, encircled by the southern Zagros Mountains, Fars province of Iran. It is one of the key Iranian cultural heritage sit",
+      "image": "Gate_of_All_Nations,_Persepolis.jpg"
+    },
+    "Attica": {
+      "title": "Attica",
+      "lead": "Attica ( AT-ik-ə; Greek: Αττική [atiˈci]; Ancient Greek: Ἀττική [atːikɛ̌ː]), or the Attic Peninsula, is a historical region that encompasses the entire Athens metropolitan area, which consists of the city of Athens, the capital of Greece an",
+      "image": "Attica_06-13_Hills_of_Hymettus_10_view.jpg"
+    },
+    "Boeotia": {
+      "title": "Boeotia",
+      "lead": "Boeotia ( bee-OH-sh(ee-)ə; Greek: Βοιωτία, pronounced [vi.oˈti.a]; Ancient Greek: Βοιωτῐ́ᾱ, romanized: Boiōtĭ́ā) is one of the regional units of Greece. It is part of the region of Central Greece. Its capital is Livadeia, and its largest ci",
+      "image": "2010_Dimi_Viotias_numbered.svg"
+    },
+    "Plutarch": {
+      "title": "Plutarch",
+      "lead": "Plutarch (; Ancient Greek: Πλούταρχος, Ploútarchos, Koine Greek: [ˈplúːtarkʰos]; before AD 50 – after 120) was a Greek and later Roman Middle Platonist philosopher, historian, biographer, essayist, and priest at the Temple of Apollo in Delp",
+      "image": "Portrait_of_a_philosopher,_maybe_Plutarch,_2nd_century_BC,_AM_Delphi,_0135.jpg"
+    },
+    "1896_Summer_Olympics": {
+      "title": "1896 Summer Olympics",
+      "lead": "The 1896 Summer Olympics, officially known as the Games of the I Olympiad, and commonly known as Athens 1896 (Greek: Αθήνα 1896), were the first international Olympic Games held in modern history. Organised by the International Olympic Comm",
+      "image": "Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilliéron.jpg"
+    },
+    "Victorian_era": {
+      "title": "Victorian era",
+      "lead": "In the history of the United Kingdom and the British Empire, the Victorian era was the reign of Queen Victoria, from 20 June 1837 until her death on 22 January 1901, although slightly different definitions are sometimes used. The era follow",
+      "image": "Queen_Victoria_-_Winterhalter_1859.jpg"
+    },
+    "Sophocles": {
+      "title": "Sophocles",
+      "lead": "Sophocles (; Ancient Greek: Σοφοκλῆς, pronounced [so.pʰo.klɛ̂ːs], Sophoklễs; c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian, one of three from whom at least two plays have survived in full. His first plays were written later",
+      "image": "Sophocles_pushkin.jpg"
+    },
+    "Histories_(Herodotus)": {
+      "title": "Histories (Herodotus)",
+      "lead": "The Histories (Greek: Ἱστορίαι, Historíai; also known as The History) of Herodotus is considered the founding work of history in Western literature. Although not a fully impartial record, it remains one of the West's most important sources ",
+      "image": "POxy_v0017_n2099_a_01_hires.jpg"
+    },
     "Delos": {
       "title": "Delos",
       "lead": "Delos or Dilos (; Greek: Δήλος [ˈðilos]; Attic Greek: Δῆλος Dêlos, Doric Greek: Δᾶλος Dâlos), is a small Greek island near Mykonos, close to the centre of the Cyclades archipelago. Though only 3.43 km2 (1.32 sq mi) in area, it is one of the",
@@ -1034,7 +1269,7 @@
     },
     "Erechtheion": {
       "title": "Erechtheion",
-      "lead": "The Erechtheion (, latinized as Erechtheum ; Ancient Greek: Ἐρέχθειον, Greek: Ερέχθειο) or Temple of Athena Polias is an ancient Greek Ionic temple, on the north side of the Acropolis, Athens, that was primarily dedicated to the goddess Ath",
+      "lead": "The Erechtheion (, latinized as Erechtheum ; Ancient Greek: Ἐρέχθειον, Modern Greek: Ερέχθειο) or Temple of Athena Polias is an ancient Greek Ionic temple, on the north side of the Acropolis, Athens, that was primarily dedicated to the godd",
       "image": "Erechtheum_Acropolis_Athens.jpg"
     },
     "Caryatid": {
@@ -1056,11 +1291,6 @@
       "title": "Aeschylus",
       "lead": "Aeschylus (UK: , US: ; Ancient Greek: Αἰσχύλος Aischýlos; c. 525/524 – c. 456/455 BC) was an ancient Greek tragedian often described as the father of tragedy. Academic knowledge of the genre begins with his work, and understanding of earlie",
       "image": "Herma_of_Aeschylus,_Klas08.jpg"
-    },
-    "Sophocles": {
-      "title": "Sophocles",
-      "lead": "Sophocles (; Ancient Greek: Σοφοκλῆς, pronounced [so.pʰo.klɛ̂ːs], Sophoklễs; c. 497/496 – winter 406/405 BC) was an ancient Greek tragedian, one of three from whom at least two plays have survived in full. His first plays were written later",
-      "image": "Sophocles_pushkin.jpg"
     },
     "Oedipus_Rex": {
       "title": "Oedipus Rex",
@@ -1117,6 +1347,41 @@
       "lead": "Old Comedy is the first period of the ancient Greek comedy, according to the canonical division by the Alexandrian grammarians. The most important Old Comic playwright is Aristophanes – whose works, with their daring political commentary an",
       "image": "Thalia_sarcophagus_Louvre_Ma475.jpg"
     },
+    "Xerxes_I": {
+      "title": "Xerxes I",
+      "lead": "Xerxes I ( ZURK-seez; from Old Iranian Khshayarsha, commonly known as Xerxes the Great; c. 518 BC – 465 BC) was a Persian ruler who reigned as the fourth King of Kings of the Achaemenid Empire, reigning from 486 BC until his assassination i",
+      "image": "National_Museum_of_Iran_Darafsh_(785).JPG"
+    },
+    "Seven_Wonders_of_the_Ancient_World": {
+      "title": "Seven Wonders of the Ancient World",
+      "lead": "The Seven Wonders of the Ancient World, also known as the Seven Wonders of the World or simply the Seven Wonders, is a list of seven notable structures present during classical antiquity, first established in the 1572 publication Octo Mundi",
+      "image": "SevenWondersOfTheWorld.png"
+    },
+    "Agamemnon": {
+      "title": "Agamemnon",
+      "lead": "In Greek mythology, Agamemnon ( ; Ancient Greek: Ἀγαμέμνων Agamémnōn) was a king of Mycenae who commanded the Achaeans during the Trojan War. He was the son (or grandson) of King Atreus and Queen Aerope, the brother of Menelaus, the husband",
+      "image": "Lekanis_Agamemnon_MNA_Taranto.jpg"
+    },
+    "Poetics_(Aristotle)": {
+      "title": "Poetics (Aristotle)",
+      "lead": "Aristotle's Poetics (Ancient Greek: Περὶ ποιητικῆς Peri poietikês; Latin: De Poetica; c. 335 BCE) is the earliest surviving work of Greek dramatic theory and the first extant philosophical treatise to solely focus on literary theory. In thi",
+      "image": ""
+    },
+    "Thrace": {
+      "title": "Thrace",
+      "lead": "Thrace (, thrayss) is a geographical and historical region in Southeast Europe roughly corresponding to the province of Thrace in the Roman Empire. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea",
+      "image": "Thrace_region.jpg"
+    },
+    "Greek_tragedy": {
+      "title": "Greek tragedy",
+      "lead": "Greek tragedy (Ancient Greek: τραγῳδία, romanized: tragōidía) is one of the three principal theatrical genres from Ancient Greece and Greek-inhabited Anatolia, along with comedy and the satyr play. It reached its most significant form in At",
+      "image": "Dionysos_mask_Louvre_Myr347.jpg"
+    },
+    "Ancient_Greek_comedy": {
+      "title": "Ancient Greek comedy",
+      "lead": "Ancient Greek comedy (Ancient Greek: κωμῳδία, romanized: kōmōidía) was one of the final three principal dramatic forms in the theatre of classical Greece; the others being tragedy and the satyr play. Greek comedy was distinguished from trag",
+      "image": "Phlyax_scene_Louvre_CA7249.jpg"
+    },
     "Peloponnesian_League": {
       "title": "Peloponnesian League",
       "lead": "The Peloponnesian League () was an alliance of ancient Greek city-states, dominated by Sparta and centred on the Peloponnese, which lasted from c. 550 to 366 BC. It is known mainly for being one of the two rivals in the Peloponnesian War (4",
@@ -1126,16 +1391,6 @@
       "title": "Corfu",
       "lead": "Corfu ( kor-FOO, -⁠FEW, US also KOR-foo, -⁠few) or Kerkyra (Greek: Κέρκυρα, romanized: Kérkyra, pronounced [ˈcercira] ) is one of the Ionian Islands in western Greece, and the northernmost island on Greece's west coast except for its satell",
       "image": "Pontikonisi.jpg"
-    },
-    "Megara": {
-      "title": "Megara",
-      "lead": "Megara (; Greek: Μέγαρα, pronounced [ˈmeɣaɾa]) is a historic town and a municipality in West Attica, Greece. It lies in the northern section of the Isthmus of Corinth opposite the island of Salamis, which belonged to Megara in archaic times",
-      "image": "2011_Dimos_Megareon.png"
-    },
-    "Ancient_Corinth": {
-      "title": "Ancient Corinth",
-      "lead": "Corinth ( KORR-inth; Ancient Greek: Κόρινθος Kórinthos; Doric Greek: Ϙόρινθος Qórinthos; Latin: Corinthus) was a city-state (polis) on the Isthmus of Corinth, the narrow stretch of land that joins the Peloponnese peninsula to mainland Greec",
-      "image": "Ravel_1008.2.jpg"
     },
     "Cleon": {
       "title": "Cleon",
@@ -1182,20 +1437,15 @@
       "lead": "Critias (; Ancient Greek: Κριτίας, Kritias; c. 460 – 403 BC) was an ancient Athenian poet, philosopher and political leader. He is known today for being a student of Socrates, a writer of some regard, and for becoming the leader of the Thir",
       "image": ""
     },
-    "Hermes": {
-      "title": "Hermes",
-      "lead": "Hermes (; Ancient Greek: Ἑρμῆς) is an Olympian deity in ancient Greek religion and mythology considered the herald of the gods. He is also widely considered the protector of human heralds, travelers, thieves, merchants, and orators. He is a",
-      "image": "Hermes_Ingenui_Pio-Clementino_Inv544.jpg"
-    },
     "Sicily": {
       "title": "Sicily",
       "lead": "Sicily (Italian and Sicilian: Sicilia), officially the Sicilian Region, is an island in the central Mediterranean Sea and one of the twenty regions of Italy, situated south of the Italian Peninsula in continental Europe. With over 4.7 milli",
       "image": "Sicily_in_Italy.svg"
     },
-    "Boeotia": {
-      "title": "Boeotia",
-      "lead": "Boeotia ( bee-OH-sh(ee-)ə; Greek: Βοιωτία, pronounced [vi.oˈti.a]; Ancient Greek: Βοιωτῐ́ᾱ, romanized: Boiōtĭ́ā) is one of the regional units of Greece. It is part of the region of Central Greece. Its capital is Livadeia, and its largest ci",
-      "image": "2010_Dimi_Viotias_numbered.svg"
+    "Cyrus_the_Younger": {
+      "title": "Cyrus the Younger",
+      "lead": "Cyrus the Younger (Old Persian: 𐎤𐎢𐎽𐎢𐏁 Kūruš; Ancient Greek: Κῦρος Kyros; died 401 BC) rarely called Cyrus III was an Achaemenid prince and general. He ruled as satrap of Lydia and Ionia from 408 to 401 BC. Son of Darius II and Parysati",
+      "image": "Portrait_of_an_anonymous_Satrap_IONIA,_Phokaia._Circa_478-387_BC.jpg"
     },
     "Peace_of_Antalcidas": {
       "title": "Peace of Antalcidas",
@@ -1241,11 +1491,6 @@
       "title": "Battle of Mantinea (362 BC)",
       "lead": "The Battle of Mantinea was fought on 4 July 362 BC between the Thebans, led by Epaminondas and supported by the Arcadians, Argives, Messenians, Thessalians, Euboeans and the Boeotian league against the Spartans, Eleans, Athenians, and Manti",
       "image": "Bartolomeo_Pinelli_-_La_Morte_di_Epaminonda_1812.jpg"
-    },
-    "Plato": {
-      "title": "Plato",
-      "lead": "Plato ( PLAY-toe; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
-      "image": "Plato_Silanion_Musei_Capitolini_MC1377.png"
     },
     "Allegory_of_the_cave": {
       "title": "Allegory of the cave",
@@ -1297,11 +1542,6 @@
       "lead": "The Nicomachean Ethics (; Ancient Greek: Ἠθικὰ Νικομάχεια, Ēthika Nikomacheia) is Aristotle's best-known work on ethics: the science of the good for human life, that which is the goal or end at which all our actions aim. It consists of ten ",
       "image": "Aristotelis_De_Moribus_ad_Nicomachum.jpg"
     },
-    "Poetics_(Aristotle)": {
-      "title": "Poetics (Aristotle)",
-      "lead": "Aristotle's Poetics (Ancient Greek: Περὶ ποιητικῆς Peri poietikês; Latin: De Poetica; c. 335 BCE) is the earliest surviving work of Greek dramatic theory and the first extant philosophical treatise to solely focus on literary theory. In thi",
-      "image": ""
-    },
     "Syllogism": {
       "title": "Syllogism",
       "lead": "A syllogism (Ancient Greek: συλλογισμός, syllogismos, 'conclusion, inference') is a kind of logical argument that applies deductive reasoning to arrive at a conclusion based on two propositions that are asserted or assumed to be true. In it",
@@ -1332,15 +1572,50 @@
       "lead": "The Apology of Socrates (Ancient Greek: Ἀπολογία Σωκράτους, Apología Sokrátous; Latin: Apologia Socratis), written by Plato, is a Socratic dialogue of the speech of legal self-defence which Socrates (469–399 BC) spoke at his trial for impie",
       "image": ""
     },
+    "Spartiate": {
+      "title": "Spartiate",
+      "lead": "A Spartiate (Greek: Σπαρτιάτης, Spartiátēs) or Homoios (pl. Homoioi, Greek: Ὅμοιος, \"alike\") was an elite full-citizen man of the ancient Greek city-state of Sparta. They served as one of the city-state's ruling bodies, as well as heavy inf",
+      "image": ""
+    },
+    "Theban_hegemony": {
+      "title": "Theban hegemony",
+      "lead": "The Theban hegemony lasted from the Theban victory over the Spartans at Leuctra in 371 BC to another victory over the Spartans at Mantinea in 362 BC, which was, however, indecisive and greatly weakened both sides. Still, Thebes sought to ma",
+      "image": "362BCThebanHegemony.png"
+    },
+    "Arcadia_(region)": {
+      "title": "Arcadia (region)",
+      "lead": "Arcadia (; Greek: Ἀρκαδία, romanized: Arkadía) is a region in the central Peloponnese, Greece. It takes its name from the mythological character Arcas, and in Greek mythology it was the home of the gods Hermes and Pan. In European Renaissan",
+      "image": "Arkadia_idyll_Peloponnese.jpg"
+    },
+    "Armenia": {
+      "title": "Armenia",
+      "lead": "Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia. It is a part of the Caucasus region and is bordered by Turkey to the west, Georgia to the north, Azerbaijan to the east, and Iran a",
+      "image": "Flag_of_Armenia.svg"
+    },
+    "Greeks": {
+      "title": "Greeks",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, Southern Italy (Greeks in Italy), parts of Egypt, and to a lesser extent, other countries surrou",
+      "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "Ancient_Macedonians": {
+      "title": "Ancient Macedonians",
+      "lead": "The Macedonians (Ancient Greek: Μακεδόνες, Makedónes) were an ancient tribe that lived on the alluvial plain around the rivers Haliacmon and lower Axios in the northeastern part of mainland Greece. Essentially an ancient Greek people, they ",
+      "image": "Deer_hunt_mosaic_from_Pella.jpg"
+    },
+    "Olympias": {
+      "title": "Olympias",
+      "lead": "Olympias (Ancient Greek: Ὀλυμπιάς; c. 375–316 BC) was an ancient Greek princess of the Molossians, the eldest daughter of King Neoptolemus I of Epirus, and the sister of Alexander I of Epirus. She was the mother of Alexander the Great by Ph",
+      "image": "Coin_olympias_mus_theski.JPG"
+    },
+    "Macedonian_phalanx": {
+      "title": "Macedonian phalanx",
+      "lead": "The Macedonian phalanx (Greek: Μακεδονική φάλαγξ) was an infantry formation developed by Philip II from the classical Greek hoplite phalanx, of which the main innovation was the use of the sarissa, a 6-metre pike. It was famously commanded ",
+      "image": "Makedonische_phalanx.png"
+    },
     "Arrian": {
       "title": "Arrian",
       "lead": "Arrian of Nicomedia (; Greek: Ἀρριανός Arrianós; Latin: Lucius Flavius Arrianus; c. 86/89 – c. after 146/160 AD) was a Greek historian, public servant, military commander, and philosopher of the Roman period. The Anabasis of Alexander by Ar",
       "image": "Arrian7.jpg"
-    },
-    "Plutarch": {
-      "title": "Plutarch",
-      "lead": "Plutarch (; Ancient Greek: Πλούταρχος, Ploútarchos, Koine Greek: [ˈplúːtarkʰos]; before AD 50 – after 120) was a Greek and later Roman Middle Platonist philosopher, historian, biographer, essayist, and priest at the Temple of Apollo in Delp",
-      "image": "Portrait_of_a_philosopher,_maybe_Plutarch,_2nd_century_BC,_AM_Delphi,_0135.jpg"
     },
     "Diodorus_Siculus": {
       "title": "Diodorus Siculus",
@@ -1377,20 +1652,10 @@
       "lead": "The Nile Delta (Arabic: دلتا النيل, Delta an-Nīl or simply الدلتا, ad-Delta) is the delta formed in Lower Egypt where the Nile River spreads out and drains into the Mediterranean Sea. It is one of the world's largest deltas. From Alexandria",
       "image": "Nile_delta_landsat_false_color.jpg"
     },
-    "Babylon": {
-      "title": "Babylon",
-      "lead": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and p",
-      "image": "Ishtar_Gate.jpg"
-    },
     "Susa": {
       "title": "Susa",
       "lead": "Susa ( SOO-sə) was an ancient city in the lower Zagros Mountains about 250 km (160 mi) east of the Tigris, between the Karkheh and Dez Rivers in Iran. It represents the current city of Shush, located on the site of ancient Susa. One of the ",
       "image": "History_of_Egypt,_Chaldea,_Syria,_Babylonia_and_Assyria_(1903)_(14584070300).jpg"
-    },
-    "Persepolis": {
-      "title": "Persepolis",
-      "lead": "Persepolis was the ceremonial capital of the Achaemenid Empire (c. 550–330 BC). It is situated in the plains of Marvdasht, encircled by the southern Zagros Mountains, Fars province of Iran. It is one of the key Iranian cultural heritage sit",
-      "image": "Gate_of_All_Nations,_Persepolis.jpg"
     },
     "Bessus": {
       "title": "Bessus",
@@ -1421,6 +1686,21 @@
       "title": "Indus River",
       "lead": "The Indus ( IN-dəs) is a transboundary river of Asia and a trans-Himalayan river of South and Central Asia. The 3,180 km (1,980 mi) river rises in the Tibet Autonomous Region of China where it is known as Sengge Zangbo, flows northwest thro",
       "image": "Nanga_Parbat_Indus_Gorge.jpg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Balochistan": {
+      "title": "Balochistan",
+      "lead": "Balochistan is a historical region in West and South Asia, located in the Iranian plateau's far southeast and bordering the Indian plate and the Arabian Sea coastline. This arid region of desert and mountains is primarily populated by ethni",
+      "image": "Balochistan_(orthographic_projection).svg"
+    },
+    "Arabian_Peninsula": {
+      "title": "Arabian Peninsula",
+      "lead": "The Arabian Peninsula, or simply Arabia, is a peninsula in West Asia. It accounts for the majority of the land situated on the Arabian plate. With an area of 3,237,500 km2 (1.25 million mi2), it is the world's largest peninsula—roughly comp",
+      "image": "Arabian_Peninsula_dust_SeaWiFS.jpg"
     },
     "Diadochi": {
       "title": "Diadochi",
@@ -1564,7 +1844,7 @@
     },
     "Antigonus_I_Monophthalmus": {
       "title": "Antigonus I Monophthalmus",
-      "lead": "Antigonus I Monophthalmus (Ancient Greek: Ἀντίγονος Μονόφθαλμος Antigonos Monophthalmos, \"Antigonus the One-Eyed\"; 382 – 301 BC) was a Macedonian Greek general and successor of Alexander the Great. A prominent military leader in Alexander's",
+      "lead": "Antigonus I Monophthalmus (Ancient Greek: Ἀντίγονος Μονόφθαλμος Antigonos Monophthalmos, \"Antigonus the One-Eyed\"; 382–301 BC) was a Macedonian Greek general and successor of Alexander the Great who founded the Antigonid dynasty, which rule",
       "image": "Antigone_le_Borgne_(pièce).jpg"
     },
     "Euclid": {
@@ -1576,6 +1856,61 @@
       "title": "Epicureanism",
       "lead": "Epicureanism, less commonly Epicurism, is a school of philosophy founded in 307 BCE and based upon the teachings of Epicurus, an ancient Greek philosopher. Epicurus was an atomist and materialist, following in the steps of Democritus. His m",
       "image": "Epikouros_BM_1843.jpg"
+    },
+    "Cyprus": {
+      "title": "Cyprus",
+      "lead": "Cyprus, officially the Republic of Cyprus, is an island country in the eastern Mediterranean Sea, located off the coast of the Levant mainland in West Asia. The island of Cyprus, which is the third largest and third most populous island in ",
+      "image": "Flag_of_Cyprus.svg"
+    },
+    "Ptolemaic_dynasty": {
+      "title": "Ptolemaic dynasty",
+      "lead": "The Ptolemaic dynasty (; Ancient Greek: Πτολεμαῖοι, Ptolemaioi), also known as the Lagid dynasty (Λαγίδαι, Lagidai; after Ptolemy I's father, Lagus), was a Macedonian Greek royal house which ruled the Ptolemaic Kingdom in Ancient Egypt duri",
+      "image": "Ptolemaic_eagle.png"
+    },
+    "Demetrius_I_Poliorcetes": {
+      "title": "Demetrius I Poliorcetes",
+      "lead": "Demetrius I Poliorcetes (; Greek: Δημήτριος Πολιορκητής, Dēmḗtrios Poliorkētḗs, lit. 'the Besieger of Cities'; 337–283 BC) was a Macedonian Greek nobleman and military leader who became king of Asia between 306 and 301 BC, and king of Maced",
+      "image": "Demetrios_Poliorketes_MAN_Napoli_Inv6149.jpg"
+    },
+    "Apis_(deity)": {
+      "title": "Apis (deity)",
+      "lead": "In ancient Egyptian religion, Apis or Hapis, alternatively spelled Hapi-ankh, was a sacred bull or multiple sacred bulls worshiped in the Memphis region, identified as the son of Hathor, a primary deity in the pantheon of ancient Egypt. Ini",
+      "image": "Apis_god.svg"
+    },
+    "Hebrew_Bible": {
+      "title": "Hebrew Bible",
+      "lead": "The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ; or תְּנַ״ךְ, tənaḵ), also known in Hebrew as Miqra (; מִקְרָא, miqrāʾ), is the canonical collection of Hebrew scriptures, comprisi",
+      "image": "Tanach.jpg"
+    },
+    "Ptolemy_II_Philadelphus": {
+      "title": "Ptolemy II Philadelphus",
+      "lead": "Ptolemy II Philadelphus (Ancient Greek: Πτολεμαῖος Φιλάδελφος, Ptolemaîos Philádelphos, \"Ptolemy, sibling-lover\"; 309 – 28 January 246 BC) was the pharaoh and basileus of the Ptolemaic Kingdom from 284 to 246 BC. He was the son of Ptolemy I",
+      "image": "Ptolemy_II_MAN_Napoli_Inv5600.jpg"
+    },
+    "Aswan": {
+      "title": "Aswan",
+      "lead": "Aswan is a city in Upper Egypt and the capital of the Aswan Governorate. The city of Aswan is among the oldest continuously inhabited cities, with its recorded history spanning over 2,600 years. Aswan is a busy market and tourist centre loc",
+      "image": "Panoramic_view_of_Aswan,_Egypt.jpg"
+    },
+    "Jupiter_(god)": {
+      "title": "Jupiter (god)",
+      "lead": "In ancient Roman religion and mythology, Jupiter (Latin: Iūpiter or Iuppiter, from Proto-Italic *djous \"day, sky\" + *patēr \"father\", thus \"sky father\" Greek: Δίας or Ζεύς), also known as Jove (nom. and gen. Iovis [ˈjɔwɪs]), is the god of th",
+      "image": "0_Jupiter_-_Louvre_MR_254_-_Louvre-Lens_(2).JPG"
+    },
+    "Venus_(mythology)": {
+      "title": "Venus (mythology)",
+      "lead": "Venus (; Classical Latin: [ˈwɛnʊs]) is a Roman goddess whose functions encompass love, beauty, desire, sex, fertility, prosperity, and victory. In Roman mythology, she was the ancestor of the Roman people through her son, Aeneas, who surviv",
+      "image": "Statue_of_nude_Venus_of_the_Capitoline_type,_Roman,_2nd_century_AD,_from_Campo_Iemini,_housed_in_the_British_Museum.jpg"
+    },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
+    },
+    "Macedonian_Wars": {
+      "title": "Macedonian Wars",
+      "lead": "The Macedonian Wars (214–148 BC) were a series of conflicts fought by the Roman Republic and its Greek allies in the eastern Mediterranean against several different major Greek kingdoms. They resulted in Roman control or influence over Gree",
+      "image": "Macedonia_and_the_Aegean_World_c.200.png"
     }
   }
 }

@@ -227,6 +227,132 @@
       "matchText": "barbaroi",
       "wikiSlug": "Barbarian",
       "type": "concept"
+    },
+    {
+      "term": "Mycenae",
+      "matchText": "Mycenae",
+      "wikiSlug": "Mycenae",
+      "type": "place"
+    },
+    {
+      "term": "Pylos",
+      "matchText": "Pylos",
+      "wikiSlug": "Pylos",
+      "type": "place"
+    },
+    {
+      "term": "Troy",
+      "matchText": "Troy",
+      "wikiSlug": "Troy",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Miletus",
+      "matchText": "Miletus",
+      "wikiSlug": "Miletus",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Greek language",
+      "matchText": "Greek-speaker",
+      "wikiSlug": "Greek_language",
+      "type": "concept"
+    },
+    {
+      "term": "Phocaea",
+      "matchText": "Phocaea",
+      "wikiSlug": "Phocaea",
+      "type": "place"
+    },
+    {
+      "term": "Ionia",
+      "matchText": "Ionia",
+      "wikiSlug": "Ionia",
+      "type": "place"
+    },
+    {
+      "term": "Megara",
+      "matchText": "Megara",
+      "wikiSlug": "Megara",
+      "type": "place"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Crimea",
+      "matchText": "Crimea",
+      "wikiSlug": "Crimea",
+      "type": "place"
+    },
+    {
+      "term": "Etruscan civilization",
+      "matchText": "Etruscans",
+      "wikiSlug": "Etruscan_civilization",
+      "type": "people"
+    },
+    {
+      "term": "Ancient Libya",
+      "matchText": "Libyans",
+      "wikiSlug": "Ancient_Libya",
+      "type": "people"
+    },
+    {
+      "term": "Pythian Games",
+      "matchText": "Pythian Games",
+      "wikiSlug": "Pythian_Games",
+      "type": "concept"
+    },
+    {
+      "term": "Corinth",
+      "matchText": "Corinth",
+      "wikiSlug": "Ancient_Corinth",
+      "type": "place"
+    },
+    {
+      "term": "Babylonian astronomy",
+      "matchText": "Babylonian astronomy",
+      "wikiSlug": "Babylonian_astronomy",
+      "type": "concept"
+    },
+    {
+      "term": "Neapolis",
+      "matchText": "Neapolis",
+      "definition": "The Greek colonial city on the Italian coast, founded by Euboean settlers around 600 BCE. The name means 'new city' in Greek; the colony survives today as modern Naples.",
+      "type": "place"
+    },
+    {
+      "term": "Ionian",
+      "matchText": "Ionian",
+      "wikiSlug": "Ionia",
+      "type": "place"
     }
   ],
   "2": [
@@ -439,6 +565,162 @@
       "matchText": "Eleusinian Mysteries",
       "wikiSlug": "Eleusinian_Mysteries",
       "type": "concept"
+    },
+    {
+      "term": "Athens",
+      "matchText": "Athens",
+      "wikiSlug": "History_of_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Sparta",
+      "matchText": "Sparta",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Lydia",
+      "matchText": "Lydian",
+      "wikiSlug": "Lydia",
+      "type": "place"
+    },
+    {
+      "term": "Athena",
+      "matchText": "Athena",
+      "wikiSlug": "Athena",
+      "type": "concept"
+    },
+    {
+      "term": "Acropolis",
+      "matchText": "Acropolis",
+      "wikiSlug": "Acropolis_of_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Odyssey",
+      "matchText": "Odyssey",
+      "wikiSlug": "Odyssey",
+      "type": "concept"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Peloponnese",
+      "matchText": "Peloponnese",
+      "wikiSlug": "Peloponnese",
+      "type": "place"
+    },
+    {
+      "term": "Apella",
+      "matchText": "Apella",
+      "wikiSlug": "Apella",
+      "type": "concept"
+    },
+    {
+      "term": "Ionia",
+      "matchText": "Ionian",
+      "wikiSlug": "Ionia",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Samos",
+      "matchText": "Samos",
+      "wikiSlug": "Samos",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Plato",
+      "matchText": "Plato",
+      "wikiSlug": "Plato",
+      "type": "people"
+    },
+    {
+      "term": "Homer",
+      "matchText": "Homer",
+      "wikiSlug": "Homer",
+      "type": "people"
+    },
+    {
+      "term": "Zeus",
+      "matchText": "Zeus",
+      "wikiSlug": "Zeus",
+      "type": "concept"
+    },
+    {
+      "term": "Hera",
+      "matchText": "Hera",
+      "wikiSlug": "Hera",
+      "type": "concept"
+    },
+    {
+      "term": "Poseidon",
+      "matchText": "Poseidon",
+      "wikiSlug": "Poseidon",
+      "type": "concept"
+    },
+    {
+      "term": "Apollo",
+      "matchText": "Apollo",
+      "wikiSlug": "Apollo",
+      "type": "concept"
+    },
+    {
+      "term": "Artemis",
+      "matchText": "Artemis",
+      "wikiSlug": "Artemis",
+      "type": "concept"
+    },
+    {
+      "term": "Ares",
+      "matchText": "Ares",
+      "wikiSlug": "Ares",
+      "type": "concept"
+    },
+    {
+      "term": "Aphrodite",
+      "matchText": "Aphrodite",
+      "wikiSlug": "Aphrodite",
+      "type": "concept"
+    },
+    {
+      "term": "Hermes",
+      "matchText": "Hermes",
+      "wikiSlug": "Hermes",
+      "type": "concept"
+    },
+    {
+      "term": "Demeter",
+      "matchText": "Demeter",
+      "wikiSlug": "Demeter",
+      "type": "concept"
+    },
+    {
+      "term": "Hestia",
+      "matchText": "Hestia",
+      "wikiSlug": "Hestia",
+      "type": "concept"
+    },
+    {
+      "term": "thespian",
+      "matchText": "thespian",
+      "wikiSlug": "Thespis",
+      "type": "concept"
     }
   ],
   "3": [
@@ -590,6 +872,144 @@
       "term": "Battle of Artemisium",
       "matchText": "Artemisium",
       "wikiSlug": "Battle_of_Artemisium",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Lydia",
+      "matchText": "Lydian kingdom",
+      "wikiSlug": "Lydia",
+      "type": "place"
+    },
+    {
+      "term": "Euboea",
+      "matchText": "Euboea",
+      "wikiSlug": "Euboea",
+      "type": "place"
+    },
+    {
+      "term": "Royal Road",
+      "matchText": "Royal Road",
+      "wikiSlug": "Royal_Road",
+      "type": "concept"
+    },
+    {
+      "term": "Persepolis",
+      "matchText": "Persepolis",
+      "wikiSlug": "Persepolis",
+      "type": "place"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Athens",
+      "matchText": "Athens",
+      "wikiSlug": "Classical_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Athenian",
+      "matchText": "Athenian",
+      "wikiSlug": "Classical_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Athenians",
+      "matchText": "Athenians",
+      "wikiSlug": "Classical_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Sparta",
+      "matchText": "Sparta",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Miletus",
+      "matchText": "Miletus",
+      "wikiSlug": "Miletus",
+      "type": "place"
+    },
+    {
+      "term": "Dardanelles",
+      "matchText": "Dardanelles",
+      "wikiSlug": "Dardanelles",
+      "type": "place"
+    },
+    {
+      "term": "Attica",
+      "matchText": "Attica",
+      "wikiSlug": "Attica",
+      "type": "place"
+    },
+    {
+      "term": "Acropolis of Athens",
+      "matchText": "Acropolis",
+      "wikiSlug": "Acropolis_of_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Athena",
+      "matchText": "Athena",
+      "wikiSlug": "Athena",
+      "type": "concept"
+    },
+    {
+      "term": "Boeotia",
+      "matchText": "Boeotia",
+      "wikiSlug": "Boeotia",
+      "type": "place"
+    },
+    {
+      "term": "Plutarch",
+      "matchText": "Plutarch",
+      "wikiSlug": "Plutarch",
+      "type": "people"
+    },
+    {
+      "term": "Olympic Games",
+      "matchText": "first modern Olympic Games",
+      "wikiSlug": "1896_Summer_Olympics",
+      "type": "concept"
+    },
+    {
+      "term": "Victorian era",
+      "matchText": "Victorian historians",
+      "wikiSlug": "Victorian_era",
+      "type": "concept"
+    },
+    {
+      "term": "Sophocles",
+      "matchText": "Sophocles",
+      "wikiSlug": "Sophocles",
+      "type": "people"
+    },
+    {
+      "term": "Histories (Herodotus)",
+      "matchText": "Histories",
+      "wikiSlug": "Histories_(Herodotus)",
+      "type": "concept"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "historiai",
+      "matchText": "historiai",
+      "definition": "Greek for 'inquiries' or 'investigations' — the title Herodotus gave his work, from which the English word 'history' descends. In his usage it meant a systematic gathering of evidence, traveling, interviewing, and weighing accounts rather than a literary genre.",
       "type": "concept"
     }
   ],
@@ -773,6 +1193,84 @@
       "matchText": "Old Comedy",
       "wikiSlug": "Old_Comedy",
       "type": "concept"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Xerxes",
+      "matchText": "Xerxes",
+      "wikiSlug": "Xerxes_I",
+      "type": "people"
+    },
+    {
+      "term": "Seven Wonders of the Ancient World",
+      "matchText": "Seven Wonders of the Ancient World",
+      "wikiSlug": "Seven_Wonders_of_the_Ancient_World",
+      "type": "concept"
+    },
+    {
+      "term": "Attica",
+      "matchText": "Attica",
+      "wikiSlug": "Attica",
+      "type": "place"
+    },
+    {
+      "term": "Agamemnon",
+      "matchText": "Agamemnon",
+      "wikiSlug": "Agamemnon",
+      "type": "people"
+    },
+    {
+      "term": "Troy",
+      "matchText": "Troy",
+      "wikiSlug": "Troy",
+      "type": "place"
+    },
+    {
+      "term": "Poetics",
+      "matchText": "Poetics",
+      "wikiSlug": "Poetics_(Aristotle)",
+      "type": "concept"
+    },
+    {
+      "term": "Sparta",
+      "matchText": "Sparta",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Ionia",
+      "matchText": "Ionia",
+      "wikiSlug": "Ionia",
+      "type": "place"
+    },
+    {
+      "term": "Peloponnese",
+      "matchText": "Peloponnese",
+      "wikiSlug": "Peloponnese",
+      "type": "place"
+    },
+    {
+      "term": "Thrace",
+      "matchText": "Thrace",
+      "wikiSlug": "Thrace",
+      "type": "place"
+    },
+    {
+      "term": "Greek tragedy",
+      "matchText": "Greek tragedy",
+      "wikiSlug": "Greek_tragedy",
+      "type": "concept"
+    },
+    {
+      "term": "Greek comedy",
+      "matchText": "Greek comedy",
+      "wikiSlug": "Ancient_Greek_comedy",
+      "type": "concept"
     }
   ],
   "5": [
@@ -870,6 +1368,72 @@
       "term": "Sicily",
       "matchText": "Sicily",
       "wikiSlug": "Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Sparta",
+      "matchText": "Sparta",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Spartan",
+      "matchText": "Spartan",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Spartans",
+      "matchText": "Spartans",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Athenian",
+      "matchText": "Athenian",
+      "wikiSlug": "Classical_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Athenians",
+      "matchText": "Athenians",
+      "wikiSlug": "Classical_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Peloponnese",
+      "matchText": "Peloponnese",
+      "wikiSlug": "Peloponnese",
+      "type": "place"
+    },
+    {
+      "term": "Attica",
+      "matchText": "Attica",
+      "wikiSlug": "Attica",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Syracuse",
+      "matchText": "Syracuse",
+      "wikiSlug": "Syracuse,_Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Cyrus the Younger",
+      "matchText": "Cyrus the Younger",
+      "wikiSlug": "Cyrus_the_Younger",
+      "type": "people"
+    },
+    {
+      "term": "Hellespont",
+      "matchText": "Hellespont",
+      "wikiSlug": "Hellespont",
       "type": "place"
     }
   ],
@@ -1059,6 +1623,150 @@
       "matchText": "Messenia",
       "wikiSlug": "Messenia",
       "type": "place"
+    },
+    {
+      "term": "Sparta",
+      "matchText": "Sparta",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Spartan",
+      "matchText": "Spartan",
+      "wikiSlug": "Sparta",
+      "type": "place"
+    },
+    {
+      "term": "Spartans",
+      "matchText": "Spartans",
+      "wikiSlug": "Spartiate",
+      "type": "people"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Asia Minor",
+      "matchText": "Asia Minor",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Salamis",
+      "matchText": "Salamis",
+      "wikiSlug": "Salamis_Island",
+      "type": "place"
+    },
+    {
+      "term": "Xerxes",
+      "matchText": "Xerxes",
+      "wikiSlug": "Xerxes_I",
+      "type": "people"
+    },
+    {
+      "term": "Theban",
+      "matchText": "Theban",
+      "wikiSlug": "Theban_hegemony",
+      "type": "concept"
+    },
+    {
+      "term": "Peloponnese",
+      "matchText": "Peloponnese",
+      "wikiSlug": "Peloponnese",
+      "type": "place"
+    },
+    {
+      "term": "Arcadia",
+      "matchText": "Arcadia",
+      "wikiSlug": "Arcadia_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Thirty Tyrants",
+      "matchText": "Thirty Tyrants",
+      "wikiSlug": "Thirty_Tyrants",
+      "type": "concept"
+    },
+    {
+      "term": "Critias",
+      "matchText": "Critias",
+      "wikiSlug": "Critias",
+      "type": "people"
+    },
+    {
+      "term": "Alcibiades",
+      "matchText": "Alcibiades",
+      "wikiSlug": "Alcibiades",
+      "type": "people"
+    },
+    {
+      "term": "Alexander",
+      "matchText": "Alexander",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Armenia",
+      "matchText": "Armenia",
+      "wikiSlug": "Armenia",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Olympic Games",
+      "matchText": "Olympic Games",
+      "wikiSlug": "Ancient_Olympic_Games",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Ancient_Macedonians",
+      "type": "people"
+    },
+    {
+      "term": "Olympias",
+      "matchText": "Olympias",
+      "wikiSlug": "Olympias",
+      "type": "people"
+    },
+    {
+      "term": "Apollo",
+      "matchText": "Apollo",
+      "wikiSlug": "Apollo",
+      "type": "concept"
+    },
+    {
+      "term": "Seven Wonders of the Ancient World",
+      "matchText": "Seven Wonders of the Ancient World",
+      "wikiSlug": "Seven_Wonders_of_the_Ancient_World",
+      "type": "concept"
+    },
+    {
+      "term": "kynikos",
+      "matchText": "kynikos",
+      "definition": "Greek for \"dog-like\" — the nickname the Cynics embraced, mocking their rejection of social niceties and the shamelessness with which they lived in public.",
+      "type": "concept"
+    },
+    {
+      "term": "Macedonian phalanx",
+      "matchText": "Macedonian phalanx",
+      "wikiSlug": "Macedonian_phalanx",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1187,6 +1895,66 @@
       "matchText": "Achaemenid",
       "wikiSlug": "Achaemenid_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Aristotle",
+      "matchText": "Aristotle",
+      "wikiSlug": "Aristotle",
+      "type": "people"
+    },
+    {
+      "term": "Ptolemy",
+      "matchText": "Ptolemy",
+      "wikiSlug": "Ptolemy_I_Soter",
+      "type": "people"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Companion cavalry",
+      "matchText": "Companion cavalry",
+      "wikiSlug": "Companion_cavalry",
+      "type": "concept"
+    },
+    {
+      "term": "Xerxes",
+      "matchText": "Xerxes",
+      "wikiSlug": "Xerxes_I",
+      "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Balochistan",
+      "matchText": "Balochistan",
+      "wikiSlug": "Balochistan",
+      "type": "place"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Ancient_Macedonians",
+      "type": "people"
+    },
+    {
+      "term": "Ionian",
+      "matchText": "Ionian",
+      "wikiSlug": "Ionia",
+      "type": "place"
     }
   ],
   "8": [
@@ -1386,6 +2154,168 @@
       "term": "Epicureanism",
       "matchText": "Epicureanism",
       "wikiSlug": "Epicureanism",
+      "type": "concept"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Ptolemies",
+      "matchText": "Ptolemies",
+      "wikiSlug": "Ptolemaic_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Demetrius I Poliorcetes",
+      "matchText": "Demetrius",
+      "wikiSlug": "Demetrius_I_Poliorcetes",
+      "type": "people"
+    },
+    {
+      "term": "Macedon",
+      "matchText": "Macedon",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Athena",
+      "matchText": "Athena",
+      "wikiSlug": "Athena",
+      "type": "concept"
+    },
+    {
+      "term": "Apollo",
+      "matchText": "Apollo",
+      "wikiSlug": "Apollo",
+      "type": "concept"
+    },
+    {
+      "term": "Apis",
+      "matchText": "Apis",
+      "wikiSlug": "Apis_(deity)",
+      "type": "concept"
+    },
+    {
+      "term": "Zeus",
+      "matchText": "Zeus",
+      "wikiSlug": "Zeus",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Ptolemy II Philadelphus",
+      "matchText": "Ptolemy II",
+      "wikiSlug": "Ptolemy_II_Philadelphus",
+      "type": "people"
+    },
+    {
+      "term": "Seven Wonders of the Ancient World",
+      "matchText": "Seven Wonders of the Ancient World",
+      "wikiSlug": "Seven_Wonders_of_the_Ancient_World",
+      "type": "concept"
+    },
+    {
+      "term": "Syracuse",
+      "matchText": "Syracuse",
+      "wikiSlug": "Syracuse,_Sicily",
+      "type": "place"
+    },
+    {
+      "term": "Syene",
+      "matchText": "Syene",
+      "wikiSlug": "Aswan",
+      "type": "place"
+    },
+    {
+      "term": "Olympic Games",
+      "matchText": "Olympic Games",
+      "wikiSlug": "Ancient_Olympic_Games",
+      "type": "concept"
+    },
+    {
+      "term": "Isthmian Games",
+      "matchText": "Isthmian Games",
+      "wikiSlug": "Isthmian_Games",
+      "type": "concept"
+    },
+    {
+      "term": "Peloponnese",
+      "matchText": "Peloponnese",
+      "wikiSlug": "Peloponnese",
+      "type": "place"
+    },
+    {
+      "term": "Jupiter",
+      "matchText": "Jupiter",
+      "wikiSlug": "Jupiter_(god)",
+      "type": "concept"
+    },
+    {
+      "term": "Aphrodite",
+      "matchText": "Aphrodite",
+      "wikiSlug": "Aphrodite",
+      "type": "concept"
+    },
+    {
+      "term": "Venus",
+      "matchText": "Venus",
+      "wikiSlug": "Venus_(mythology)",
+      "type": "concept"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arabs",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Hippocratic Oath",
+      "matchText": "Hippocratic Oath",
+      "wikiSlug": "Hippocratic_Oath",
+      "type": "concept"
+    },
+    {
+      "term": "Macedonian Wars",
+      "matchText": "Macedonian Wars",
+      "wikiSlug": "Macedonian_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "hellenizein",
+      "matchText": "hellenizein",
+      "definition": "The Greek verb meaning \"to make Greek\" or \"to act like a Greek\" — the root of \"Hellenism\" and \"Hellenistic.\" It captured a cultural process, not an ethnic one: non-Greeks across Egypt, Persia, and Central Asia adopting Greek language, dress, and civic forms.",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "definition": "A family of related Indo-European peoples (Persians, Medes, Parthians, Scythians, Sogdians, and others) speaking Iranian languages and originating on the Eurasian steppe and Iranian plateau. \"Iranian\" here is a linguistic and cultural label, not a modern national one.",
       "type": "concept"
     }
   ]
