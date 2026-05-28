@@ -168,6 +168,18 @@
       "matchText": "Kaminaljuyú",
       "wikiSlug": "Kaminaljuyu",
       "type": "place"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -321,6 +333,18 @@
       "matchText": "Siyaj K'ahk'",
       "wikiSlug": "Siyaj_K%27ak%27",
       "type": "people"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "glossary"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -638,6 +662,12 @@
       "matchText": "Stela E",
       "wikiSlug": "Quiriguá",
       "type": "concept"
+    },
+    {
+      "term": "Golden Age",
+      "matchText": "Golden Age",
+      "definition": "A period regarded as the peak of a civilization's cultural and artistic achievement, when its output, population, and ambition all crested at once. For the Maya, the 7th and 8th centuries CE.",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -969,6 +999,18 @@
       "matchText": "cotton cloth",
       "wikiSlug": "Cotton",
       "type": "concept"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "glossary"
+    },
+    {
+      "term": "Moon",
+      "matchText": "Moon",
+      "wikiSlug": "Moon",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1176,6 +1218,42 @@
       "wikiSlug": "",
       "type": "concept",
       "definition": "The \"morning star\" is the planet Venus when it appears low in the eastern sky just before sunrise as the brightest point of light there. The Maya tracked its 584-day cycle with great precision and tied its appearances to war, ritual, and their calendar."
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
+    },
+    {
+      "term": "Moon",
+      "matchText": "Moon",
+      "wikiSlug": "Moon",
+      "type": "glossary"
+    },
+    {
+      "term": "Jupiter",
+      "matchText": "Jupiter",
+      "wikiSlug": "Jupiter",
+      "type": "glossary"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "glossary"
+    },
+    {
+      "term": "Indian mathematics",
+      "matchText": "the Indians",
+      "wikiSlug": "Indian_mathematics",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1364,6 +1442,12 @@
       "matchText": "Grolier Codex",
       "wikiSlug": "Maya_Codex_of_Mexico",
       "type": "concept"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "glossary"
     }
   ]
 }

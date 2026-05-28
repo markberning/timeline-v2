@@ -399,3 +399,12 @@ All eight chapters grade STRONG. The narrative is consistently excellent.
 - **B-25 [SOFT]:** "Widely considered the single finest piece of architecture" — hedge or attribute.
 - **A-4:** Long Count calendar adoption mechanism missing.
 - **A-24:** "Probably" used three times in quick succession in Chapter 7.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — added born-verified
+glossary links (Earth, Moon, Jupiter, Tenochtitlan, Mesoamerica, Indian
+mathematics) and one house-voice blurb (Golden Age). No new cross-cultural
+narrative claim was introduced, so there are **no new backward findings** to push
+into other civs' cross-link files; existing forward cross-links re-verified by the
+deterministic gate (0 FAIL).

@@ -354,6 +354,24 @@
       "matchText": "Laura",
       "term": "Laura",
       "wikiSlug": "Laura_de_Noves"
+    },
+    {
+      "term": "Polish",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "glossary"
+    },
+    {
+      "term": "Crusader",
+      "matchText": "Crusader",
+      "wikiSlug": "Crusades",
+      "type": "glossary"
+    },
+    {
+      "term": "Saharan",
+      "matchText": "Saharan",
+      "wikiSlug": "Trans-Saharan_trade",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -723,6 +741,24 @@
       "matchText": "Rhineland",
       "term": "Rhineland",
       "wikiSlug": "Rhineland"
+    },
+    {
+      "term": "Polish",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "glossary"
+    },
+    {
+      "term": "Saharan",
+      "matchText": "Saharan",
+      "wikiSlug": "Trans-Saharan_trade",
+      "type": "glossary"
+    },
+    {
+      "term": "Andean",
+      "matchText": "Andean",
+      "wikiSlug": "Andean_civilizations",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -1094,6 +1130,18 @@
       "matchText": "Ismail",
       "term": "Ismail",
       "wikiSlug": "Ismail_I"
+    },
+    {
+      "term": "Channel",
+      "matchText": "Channel",
+      "wikiSlug": "English_Channel",
+      "type": "glossary"
+    },
+    {
+      "term": "Bordeaux",
+      "matchText": "Bordeaux",
+      "wikiSlug": "Bordeaux",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -1339,6 +1387,24 @@
       "matchText": "Catholicism",
       "term": "Catholicism",
       "wikiSlug": "Catholic_Church"
+    },
+    {
+      "term": "Gregorian",
+      "matchText": "Gregorian",
+      "wikiSlug": "Gregorian_Reform",
+      "type": "glossary"
+    },
+    {
+      "term": "Bordeaux",
+      "matchText": "Bordeaux",
+      "wikiSlug": "Bordeaux",
+      "type": "glossary"
+    },
+    {
+      "term": "Castilian",
+      "matchText": "Castilian",
+      "wikiSlug": "Crown_of_Castile",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -1678,6 +1744,12 @@
       "matchText": "Sikh",
       "term": "Sikh",
       "wikiSlug": "Sikhism"
+    },
+    {
+      "term": "Latin Christendom",
+      "matchText": "Latin Christendom",
+      "wikiSlug": "Christendom",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -2904,6 +2976,12 @@
       "matchText": "Iranian",
       "term": "Iranian",
       "wikiSlug": "Iran"
+    },
+    {
+      "term": "Castilian",
+      "matchText": "Castilian",
+      "wikiSlug": "Crown_of_Castile",
+      "type": "glossary"
     }
   ]
 }

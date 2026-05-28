@@ -85,6 +85,14 @@
       "blurb": "Egyptian Blue, developed around 2500 BCE, was one of the first synthetic pigments — a calcium copper silicate created by heating sand, copper, and limestone together. Like Maya Blue, it was a triumph of ancient chemistry that produced a color so stable it survives on artifacts thousands of years old. Both pigments were independently developed, hemispheres apart, using completely different chemistry."
     }
   ],
+  "5": [
+    {
+      "matchText": "Mississippian Culture",
+      "targetTl": "mississippian-culture",
+      "targetChapter": 1,
+      "blurb": "The Classic Maya collapse — drought, overpopulation, political failure — prefigures the later unravelling of the Mississippian mound world."
+    }
+  ],
   "6": [
     {
       "matchText": "feathered serpent imagery goes back to the Olmec period",
@@ -131,12 +139,5 @@
       "blurb": "Maya astronomy and zero put them alongside Babylon as one of antiquity's great independent mathematical-astronomical traditions."
     }
   ],
-  "5": [
-    {
-      "matchText": "Mississippian Culture",
-      "targetTl": "mississippian-culture",
-      "targetChapter": 1,
-      "blurb": "The Classic Maya collapse — drought, overpopulation, political failure — prefigures the later unravelling of the Mississippian mound world."
-    }
-  ]
+  "8": []
 }
