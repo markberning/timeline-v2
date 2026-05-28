@@ -293,6 +293,24 @@
       "matchText": "Lebanese",
       "term": "Lebanese clerics",
       "definition": "Shia religious scholars imported from Jabal Amil in present-day Lebanon, brought in to staff and teach the new Shia state religion of Safavid Iran, which had previously been majority Sunni."
+    },
+    {
+      "term": "Toyotomi Hideyoshi",
+      "matchText": "Hideyoshi",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "type": "glossary"
+    },
+    {
+      "term": "Tokugawa shogunate",
+      "matchText": "Tokugawa shogunate",
+      "wikiSlug": "Tokugawa_shogunate",
+      "type": "glossary"
+    },
+    {
+      "term": "Andean civilizations",
+      "matchText": "Andean",
+      "wikiSlug": "Andean_civilizations",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -1403,6 +1421,12 @@
       "matchText": "Chinese-style",
       "term": "Chinese-style",
       "definition": "Modeled on Ming and Qing China — the continental template of Confucian governance, the civil-service examination, script, and court ritual that Joseon Korea adopted and adapted."
+    },
+    {
+      "term": "Copernican heliocentrism",
+      "matchText": "Copernican",
+      "wikiSlug": "Copernican_heliocentrism",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1603,6 +1627,12 @@
       "matchText": "Yulgok",
       "term": "Yulgok",
       "wikiSlug": "Yi_I"
+    },
+    {
+      "term": "Mexican-American War",
+      "matchText": "Mexican-American War",
+      "wikiSlug": "Mexican–American_War",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1985,6 +2015,12 @@
       "matchText": "Jeongjo",
       "term": "Jeongjo",
       "wikiSlug": "Jeongjo_of_Joseon"
+    },
+    {
+      "term": "Westernization",
+      "matchText": "Western-style",
+      "wikiSlug": "Westernization",
+      "type": "glossary"
     }
   ]
 }

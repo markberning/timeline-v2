@@ -82,3 +82,10 @@
 ## Summary
 
 This is a strong, well-structured narrative with excellent prose, thorough scene-setting, and rigorous handling of contested claims. The cumulative "firsts" caveat in Ch 1 is exemplary and the writing-origins discussion in Ch 3 is the best handling of a contested scholarly debate in any shipped TL. The Ch 6 opening is outstanding prose. The six must-fix items are primarily factual precision issues (dates, measurements, attribution of astronomical claims) and one newcomer-accessibility gap (Aztecs undefined). None require structural changes. The narrative fully complies with writing rules on em-dashes, parenthetical definitions, pronunciations, miles-first, and uncertainty language variety. Cross-cultural connections are solid but could be deepened in a few spots, particularly with the shipped Nubian and Assyrian TLs.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — born-verified
+glossary links added (Middle East, Pope, Andean civilizations, Mesoamerica, High
+Middle Ages). No new cross-cultural narrative claim, so **no new backward
+findings**; forward cross-links re-verified (0 FAIL).
