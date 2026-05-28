@@ -277,6 +277,18 @@
       "matchText": "Classic Period",
       "term": "Classic Period",
       "wikiSlug": "Mesoamerican_chronology"
+    },
+    {
+      "term": "Islamic Caliphate",
+      "matchText": "Islamic Caliphate",
+      "wikiSlug": "Caliphate",
+      "type": "concept"
+    },
+    {
+      "term": "Vietnamese",
+      "matchText": "Vietnamese",
+      "definition": "Of Vietnam, the East Asian society whose imperial-era law and government were modeled on the Tang Code and the Chinese bureaucratic system — one of the four classical 'Sinosphere' legal traditions alongside the Chinese, Korean, and Japanese.",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -542,6 +554,12 @@
       "matchText": "Inner Asian",
       "term": "Inner Asian",
       "wikiSlug": "Inner_Asia"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "concept"
     }
   ],
   "3": [
@@ -901,6 +919,12 @@
       "matchText": "Painting",
       "term": "Painting",
       "wikiSlug": "Painting"
+    },
+    {
+      "term": "Chinese-style",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Imperial_examination",
+      "type": "concept"
     }
   ],
   "4": [
@@ -1248,6 +1272,24 @@
       "matchText": "Wang Jie",
       "term": "Wang Jie",
       "definition": "The otherwise-obscure private patron who in 868 commissioned the printing of the Diamond Sutra \"for universal free distribution\" — making him the named sponsor of the world's oldest dated complete printed book."
+    },
+    {
+      "term": "Ming-Qing",
+      "matchText": "Ming-Qing",
+      "wikiSlug": "Transition_from_Ming_to_Qing",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "High Tang",
+      "matchText": "High Tang",
+      "definition": "The cultural and political high-water mark of the Tang dynasty, peaking in Emperor Xuanzong's Kaiyuan era (713–741) — the era of a million-strong cosmopolitan Chang'an and the golden age of Tang poetry, just before the An Lushan Rebellion broke the dynasty.",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -1459,6 +1501,12 @@
       "matchText": "Eurasian",
       "term": "Eurasia",
       "wikiSlug": "Eurasia"
+    },
+    {
+      "term": "Ming-Qing",
+      "matchText": "Ming-Qing",
+      "wikiSlug": "Transition_from_Ming_to_Qing",
+      "type": "concept"
     }
   ],
   "6": [
@@ -1809,6 +1857,12 @@
       "matchText": "Genyue",
       "term": "Genyue",
       "definition": "Emperor Huizong's vast artificial imperial garden in Kaifeng (\"Heightened Mountain\"), an extravagant landscape of piled rockeries, rare plants, and exotic animals whose construction drained the Song treasury in the dynasty's final years."
+    },
+    {
+      "term": "Five Dynasties'",
+      "matchText": "Five Dynasties",
+      "wikiSlug": "Five_Dynasties_and_Ten_Kingdoms_period",
+      "type": "concept"
     }
   ],
   "7": [
@@ -2449,6 +2503,18 @@
       "matchText": "Five Great Kilns",
       "term": "Five Great Kilns",
       "definition": "The five most celebrated Song ceramic traditions — Ru, Guan, Ge, Ding, and Jun ware — each prized for a signature glaze or decorative effect and treated as the pinnacle of Chinese porcelain."
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "concept"
+    },
+    {
+      "term": "Southeast Asian",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "concept"
     }
   ],
   "9": [

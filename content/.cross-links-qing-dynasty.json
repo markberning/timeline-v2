@@ -45,6 +45,8 @@
       "blurb": "Qing, Mughal, Ottoman: the three great early-modern Islamic-and-Confucian gunpowder empires, all peaking in the 17th–18th centuries."
     }
   ],
+  "3": [],
+  "4": [],
   "5": [
     {
       "matchText": "forced labor",
@@ -73,6 +75,15 @@
       "blurb": "The cracks in the Qing mandate opened just as the British were consolidating India — the two great Asian civilizations entering the colonial century together."
     }
   ],
+  "7": [
+    {
+      "matchText": "Modern India",
+      "targetTl": "modern-india",
+      "targetChapter": 1,
+      "blurb": "The Opium Wars forced China into the unequal-treaty system India was already living under — the same European commercial imperialism, a generation apart."
+    }
+  ],
+  "8": [],
   "10": [
     {
       "matchText": "Japan, after 1868",
@@ -95,28 +106,20 @@
       "blurb": "Japan's victory over China in 1895 ended the centuries-old Sino-Korean tributary relationship and pulled Korea into the Japanese sphere, the first step on the road to the 1905 protectorate and the 1910 annexation that began Korea's colonial period."
     }
   ],
-  "13": [
-    {
-      "matchText": "running back over two thousand years to the first emperor",
-      "targetTl": "qin-dynasty",
-      "targetChapter": 2,
-      "blurb": "Qin Shi Huang unified the warring states in 221 BCE and created the office of 'emperor' (huangdi) and the centralized bureaucratic imperial system; the institution Puyi's 1912 abdication ended ran, with dynastic interruptions, in an unbroken line of descent from that founding."
-    }
-  ],
-  "7": [
-    {
-      "matchText": "Modern India",
-      "targetTl": "modern-india",
-      "targetChapter": 1,
-      "blurb": "The Opium Wars forced China into the unequal-treaty system India was already living under — the same European commercial imperialism, a generation apart."
-    }
-  ],
   "12": [
     {
       "matchText": "came back revolutionaries",
       "targetTl": "chinese-revolution",
       "targetChapter": 1,
       "blurb": "The Boxer disaster and the last failed reforms are the direct prologue to 1911 — the Qing collapse the revolutionary story begins from."
+    }
+  ],
+  "13": [
+    {
+      "matchText": "running back over two thousand years to the first emperor",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 2,
+      "blurb": "Qin Shi Huang unified the warring states in 221 BCE and created the office of 'emperor' (huangdi) and the centralized bureaucratic imperial system; the institution Puyi's 1912 abdication ended ran, with dynastic interruptions, in an unbroken line of descent from that founding."
     }
   ]
 }

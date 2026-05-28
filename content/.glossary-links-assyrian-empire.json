@@ -173,6 +173,18 @@
       "matchText": "Gutians",
       "wikiSlug": "Gutian_people",
       "type": "concept"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "glossary"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "wikiSlug": "Muslims",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -266,6 +278,12 @@
       "matchText": "Kültepe",
       "wikiSlug": "Kültepe",
       "type": "place"
+    },
+    {
+      "term": "Semitic-speaking",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -376,6 +394,12 @@
       "matchText": "Egypt",
       "wikiSlug": "Ancient_Egypt",
       "type": "place"
+    },
+    {
+      "term": "Anatolian",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -523,6 +547,18 @@
       "matchText": "Kalhu",
       "wikiSlug": "Nimrud",
       "type": "place"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "glossary"
+    },
+    {
+      "term": "Armenian",
+      "matchText": "Armenian",
+      "wikiSlug": "Armenians",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -645,6 +681,12 @@
       "matchText": "Jesus",
       "wikiSlug": "Jesus",
       "type": "people"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -779,6 +821,12 @@
       "matchText": "Boulder, Colorado",
       "wikiSlug": "Boulder,_Colorado",
       "type": "place"
+    },
+    {
+      "term": "Semitic-speaking",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -955,6 +1003,12 @@
       "matchText": "Alexander",
       "wikiSlug": "Alexander_the_Great",
       "type": "people"
+    },
+    {
+      "term": "Arab",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1113,6 +1167,54 @@
       "matchText": "satrapy system",
       "wikiSlug": "Satrap",
       "type": "concept"
+    },
+    {
+      "term": "Semitic-speaking",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "glossary"
+    },
+    {
+      "term": "Judean",
+      "matchText": "Judean",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
+    },
+    {
+      "term": "Saite",
+      "matchText": "Saite",
+      "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
+      "type": "glossary"
+    },
+    {
+      "term": "Jerusalem Temple",
+      "matchText": "Jerusalem Temple",
+      "wikiSlug": "Solomon%27s_Temple",
+      "type": "glossary"
+    },
+    {
+      "term": "Armenian",
+      "matchText": "Armenian",
+      "wikiSlug": "Armenians",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "glossary"
     }
   ]
 }

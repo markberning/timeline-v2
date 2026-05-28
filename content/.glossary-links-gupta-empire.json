@@ -250,6 +250,18 @@
       "matchText": "Shakya",
       "term": "Shakya",
       "wikiSlug": "Shakya"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Saketa",
+      "matchText": "Saketa",
+      "wikiSlug": "Ayodhya",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -397,6 +409,18 @@
       "matchText": "Murundas",
       "term": "Murundas",
       "definition": "A poorly attested people of the northwestern Indian frontier in the early centuries CE, tied to the Kushan-era political world. The Allahabad pillar lists them among the peoples who acknowledged Samudragupta's overlordship without being conquered, but almost nothing else about them survives."
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -872,6 +896,12 @@
       "matchText": "Shaivite",
       "term": "Shaivite",
       "wikiSlug": "Shaivism"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -1099,6 +1129,18 @@
       "matchText": "jaib",
       "term": "jaib",
       "definition": "Arabic for \"pocket\" or \"bay.\" It arose as a misreading of jiba, the Arabic transliteration of Aryabhata's jya (\"bowstring\") for the sine; rendered into Latin as sinus, it gave the modern word \"sine.\""
+    },
+    {
+      "term": "Andes",
+      "matchText": "Andean",
+      "wikiSlug": "Andes",
+      "type": "glossary"
+    },
+    {
+      "term": "Vedas",
+      "matchText": "Veda",
+      "wikiSlug": "Vedas",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -1515,6 +1557,18 @@
       "matchText": "Saka",
       "term": "Saka",
       "wikiSlug": "Saka"
+    },
+    {
+      "term": "Bhumi",
+      "matchText": "Earth-goddess Bhumi",
+      "wikiSlug": "Bhumi_(goddess)",
+      "type": "glossary"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1776,6 +1830,12 @@
       "matchText": "Kanauj",
       "term": "Kanauj",
       "wikiSlug": "Kannauj"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -2128,6 +2188,42 @@
       "matchText": "Sudraka",
       "term": "Sudraka",
       "wikiSlug": "Shudraka"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Ravana",
+      "matchText": "Ravana",
+      "wikiSlug": "Ravana",
+      "type": "glossary"
+    },
+    {
+      "term": "Vietnam",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Vietnam",
+      "type": "glossary"
+    },
+    {
+      "term": "Thailand",
+      "matchText": "Thai",
+      "wikiSlug": "Thailand",
+      "type": "glossary"
+    },
+    {
+      "term": "Indonesia",
+      "matchText": "Indonesian",
+      "wikiSlug": "Indonesia",
+      "type": "glossary"
+    },
+    {
+      "term": "Roman Republic",
+      "matchText": "Republic",
+      "wikiSlug": "Roman_Republic",
+      "type": "glossary"
     }
   ]
 }

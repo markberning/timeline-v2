@@ -53,6 +53,18 @@
       "matchText": "Manchu",
       "wikiSlug": "Manchu",
       "type": "people"
+    },
+    {
+      "term": "Burma",
+      "matchText": "Burma",
+      "wikiSlug": "Myanmar",
+      "type": "place"
+    },
+    {
+      "term": "Chinese-style",
+      "matchText": "Chinese-style",
+      "definition": "Governed in the manner of the long Chinese imperial tradition — a centralized civil bureaucracy of ranked, examination-trained officials organized into ministries, the apparatus the Manchus adopted (and doubled, Manchu over Han) to rule China proper.",
+      "type": "concept"
     }
   ],
   "2": [
@@ -85,6 +97,18 @@
       "matchText": "Kangxi",
       "wikiSlug": "Kangxi_Emperor",
       "type": "people"
+    },
+    {
+      "term": "Mongol",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
+    },
+    {
+      "term": "Mongolian",
+      "matchText": "Mongolian steppe",
+      "wikiSlug": "Mongolian_Plateau",
+      "type": "place"
     }
   ],
   "3": [
@@ -104,6 +128,18 @@
       "term": "New Qing History",
       "matchText": "New Qing History",
       "wikiSlug": "New_Qing_History",
+      "type": "concept"
+    },
+    {
+      "term": "High Qing",
+      "matchText": "High Qing",
+      "wikiSlug": "High_Qing_era",
+      "type": "concept"
+    },
+    {
+      "term": "Catholicism",
+      "matchText": "Catholicism",
+      "wikiSlug": "Catholic_Church_in_China",
       "type": "concept"
     }
   ],
@@ -137,6 +173,12 @@
       "matchText": "George III",
       "wikiSlug": "George_III",
       "type": "people"
+    },
+    {
+      "term": "Turkic-speaking",
+      "matchText": "Turkic-speaking",
+      "wikiSlug": "Turkic_peoples",
+      "type": "people"
     }
   ],
   "5": [
@@ -162,6 +204,12 @@
       "term": "Malthusian",
       "matchText": "Malthusian",
       "wikiSlug": "Malthusianism",
+      "type": "concept"
+    },
+    {
+      "term": "High Qing",
+      "matchText": "High Qing",
+      "wikiSlug": "High_Qing_era",
       "type": "concept"
     }
   ],
@@ -226,6 +274,12 @@
       "term": "unequal treaties",
       "matchText": "unequal treaties",
       "wikiSlug": "Unequal_treaty",
+      "type": "concept"
+    },
+    {
+      "term": "Crown",
+      "matchText": "Crown",
+      "wikiSlug": "The_Crown",
       "type": "concept"
     }
   ],
@@ -293,6 +347,12 @@
       "matchText": "geomantic",
       "wikiSlug": "Feng_shui",
       "type": "concept"
+    },
+    {
+      "term": "Vietnamese",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Vietnam",
+      "type": "place"
     }
   ],
   "11": [
@@ -389,6 +449,12 @@
       "matchText": "Double Ten",
       "wikiSlug": "Double_Ten_Day",
       "type": "concept"
+    },
+    {
+      "term": "People's Republic",
+      "matchText": "People's Republic",
+      "wikiSlug": "China",
+      "type": "place"
     }
   ]
 }
