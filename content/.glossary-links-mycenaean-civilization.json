@@ -221,6 +221,12 @@
       "matchText": "ostrich egg",
       "wikiSlug": "Ostrich",
       "type": "concept"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -598,6 +604,18 @@
       "matchText": "hieroglyphs",
       "wikiSlug": "Egyptian_hieroglyphs",
       "type": "concept"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "glossary"
+    },
+    {
+      "term": "Anglo-Saxon",
+      "matchText": "Anglo-Saxon",
+      "wikiSlug": "Anglo-Saxons",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -804,6 +822,30 @@
       "matchText": "cuneiform",
       "wikiSlug": "Cuneiform",
       "type": "concept"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "glossary"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "glossary"
+    },
+    {
+      "term": "Cypriot",
+      "matchText": "Cypriot",
+      "wikiSlug": "Cyprus",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -932,6 +974,12 @@
       "matchText": "Wilusa",
       "wikiSlug": "Wilusa",
       "type": "place"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -1273,6 +1321,24 @@
       "matchText": "Tjeker",
       "wikiSlug": "Sea_Peoples",
       "type": "people"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "glossary"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
+    },
+    {
+      "term": "Greek-speaking",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greek_language",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1515,6 +1581,24 @@
       "matchText": "Dorian Migration",
       "wikiSlug": "Dorian_invasion",
       "type": "concept"
+    },
+    {
+      "term": "Anatolian",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "glossary"
+    },
+    {
+      "term": "Ionia",
+      "matchText": "Ionia",
+      "wikiSlug": "Ionia",
+      "type": "glossary"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
     }
   ]
 }

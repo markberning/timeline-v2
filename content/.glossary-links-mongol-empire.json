@@ -1021,6 +1021,18 @@
       "matchText": "Abbasid Caliphate",
       "wikiSlug": "Abbasid_Caliphate",
       "type": "place"
+    },
+    {
+      "term": "Chinese-style",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "glossary"
+    },
+    {
+      "term": "Polish",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -1673,6 +1685,12 @@
       "matchText": "Zhongdu",
       "wikiSlug": "Zhongdu",
       "type": "place"
+    },
+    {
+      "term": "Javanese",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -2197,6 +2215,42 @@
       "matchText": "Tusi couple",
       "wikiSlug": "Tusi_couple",
       "type": "concept"
+    },
+    {
+      "term": "Moroccan",
+      "matchText": "Moroccan",
+      "wikiSlug": "Morocco",
+      "type": "glossary"
+    },
+    {
+      "term": "Chinese-style",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "glossary"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "glossary"
+    },
+    {
+      "term": "Copernican",
+      "matchText": "Copernican",
+      "wikiSlug": "Copernican_Revolution",
+      "type": "glossary"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Southeast Asian",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -2499,6 +2553,18 @@
       "matchText": "Ilkhanate",
       "wikiSlug": "Ilkhanate",
       "type": "concept"
+    },
+    {
+      "term": "Sassanid",
+      "matchText": "Sassanid",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "glossary"
+    },
+    {
+      "term": "Low Countries",
+      "matchText": "Low Countries",
+      "wikiSlug": "Low_Countries",
+      "type": "glossary"
     }
   ],
   "9": [
@@ -2951,6 +3017,12 @@
       "matchText": "Islamic world",
       "wikiSlug": "Muslim_world",
       "type": "concept"
+    },
+    {
+      "term": "Cambodia",
+      "matchText": "Cambodia",
+      "wikiSlug": "Cambodia",
+      "type": "glossary"
     }
   ]
 }

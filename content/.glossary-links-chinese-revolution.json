@@ -79,6 +79,12 @@
       "matchText": "Warlord Era",
       "wikiSlug": "Warlord_Era",
       "type": "concept"
+    },
+    {
+      "term": "Allies of World War I",
+      "matchText": "Allied",
+      "wikiSlug": "Allies_of_World_War_I",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -153,6 +159,12 @@
       "matchText": "May Fourth",
       "wikiSlug": "May_Fourth_Movement",
       "type": "concept"
+    },
+    {
+      "term": "Allies of World War I",
+      "matchText": "Allied",
+      "wikiSlug": "Allies_of_World_War_I",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -231,6 +243,12 @@
       "matchText": "Long March",
       "wikiSlug": "Long_March",
       "type": "concept"
+    },
+    {
+      "term": "People's Republic of China",
+      "matchText": "People's Republic",
+      "wikiSlug": "People%27s_Republic_of_China",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -257,6 +275,18 @@
       "matchText": "Yellow River",
       "wikiSlug": "Yellow_River",
       "type": "place"
+    },
+    {
+      "term": "Republic of Venice",
+      "matchText": "Venetian",
+      "wikiSlug": "Republic_of_Venice",
+      "type": "glossary"
+    },
+    {
+      "term": "Allies of World War II",
+      "matchText": "Allied",
+      "wikiSlug": "Allies_of_World_War_II",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -303,6 +333,12 @@
       "matchText": "Taiwan",
       "wikiSlug": "Taiwan",
       "type": "place"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
     }
   ],
   "10": [
@@ -335,6 +371,24 @@
       "matchText": "Korean War",
       "wikiSlug": "Korean_War",
       "type": "concept"
+    },
+    {
+      "term": "People's Republic of China",
+      "matchText": "People's Republic",
+      "wikiSlug": "People%27s_Republic_of_China",
+      "type": "glossary"
+    },
+    {
+      "term": "Tibetan people",
+      "matchText": "Tibetan",
+      "wikiSlug": "Tibetan_people",
+      "type": "glossary"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
     }
   ],
   "11": [
@@ -355,6 +409,12 @@
       "matchText": "Khrushchev",
       "wikiSlug": "Nikita_Khrushchev",
       "type": "people"
+    },
+    {
+      "term": "People's Republic of China",
+      "matchText": "People's Republic",
+      "wikiSlug": "People%27s_Republic_of_China",
+      "type": "glossary"
     }
   ],
   "12": [
@@ -407,6 +467,12 @@
       "matchText": "Khrushchev",
       "wikiSlug": "Nikita_Khrushchev",
       "type": "people"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "glossary"
     }
   ],
   "14": [
@@ -439,6 +505,12 @@
       "matchText": "Tiananmen",
       "wikiSlug": "Tiananmen_Square",
       "type": "place"
+    },
+    {
+      "term": "People's Republic of China",
+      "matchText": "People's Republic",
+      "wikiSlug": "People%27s_Republic_of_China",
+      "type": "glossary"
     }
   ],
   "15": [
@@ -471,6 +543,18 @@
       "matchText": "Hua Guofeng",
       "wikiSlug": "Hua_Guofeng",
       "type": "people"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "People's Republic of China",
+      "matchText": "People's Republic",
+      "wikiSlug": "People%27s_Republic_of_China",
+      "type": "glossary"
     }
   ]
 }

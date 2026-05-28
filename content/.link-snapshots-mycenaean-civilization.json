@@ -182,7 +182,7 @@
     },
     "Sea_Peoples": {
       "title": "Sea Peoples",
-      "lead": "The Sea Peoples were a group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-century Egyptologists Emmanuel de Rougé an",
+      "lead": "The Sea Peoples were an unidentified seafaring confederation or group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-c",
       "image": "Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg"
     },
     "Trojan_War": {
@@ -354,7 +354,7 @@
     },
     "Sea_Peoples": {
       "title": "Sea Peoples",
-      "lead": "The Sea Peoples were a group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-century Egyptologists Emmanuel de Rougé an",
+      "lead": "The Sea Peoples were an unidentified seafaring confederation or group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-c",
       "image": "Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg"
     },
     "Dorian_invasion": {
@@ -540,12 +540,17 @@
     "North_Africa": {
       "title": "North Africa",
       "lead": "North Africa, also known as Northern Africa, is a region encompassing the northern portion of the African continent. There is no singularly accepted scope for the region. However, it is sometimes defined as stretching from the Atlantic shor",
-      "image": "North_Africa_(orthographic_projection).svg"
+      "image": "North_Africa_(orthographic_projection)_v2.svg"
     },
     "Ostrich": {
       "title": "Ostrich",
       "lead": "Ostriches are large flightless birds. Two living species are recognised: the common ostrich, native to large parts of Sub-Saharan Africa, and the Somali ostrich, native to the Horn of Africa. They are the heaviest and largest living birds, ",
       "image": "Struthio_Diversity.jpg"
+    },
+    "Persian_language": {
+      "title": "Persian language",
+      "lead": "Persian, also known by its endonym Farsi, is a Western Iranian language belonging to the Iranian branch of the Indo-Iranian subdivision of the Indo-European languages. Persian is a pluricentric language predominantly spoken and used officia",
+      "image": "Farsi.svg"
     },
     "Dromos_(architecture)": {
       "title": "Glossary of architecture",
@@ -625,7 +630,7 @@
     "Knossos": {
       "title": "Knossos",
       "lead": "Knossos (; Ancient Greek: Κνωσσός, romanized: Knōssós; Greek: Κνωσός, romanized: Knōsós; Linear B: 𐀒𐀜𐀰 Ko-no-so) is an archaeological site and ancient urban centre in Crete, Greece. It is located within the southern periphery of Heraklio",
-      "image": "Knossos_-_North_Portico_02.jpg"
+      "image": "Crete_integrated_map-en.svg"
     },
     "Phaistos": {
       "title": "Phaistos",
@@ -674,7 +679,7 @@
     },
     "Zeus": {
       "title": "Zeus",
-      "lead": "Zeus (, Ancient Greek: Ζεύς), also known as Dias ( Greek: Δίας), is the supreme Deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the ch",
+      "lead": "Zeus (, Ancient Greek: Ζεύς) is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the child of Cronus and Rhea. In most trad",
       "image": "Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
     },
     "Artemis": {
@@ -716,6 +721,16 @@
       "title": "Egyptian hieroglyphs",
       "lead": "Ancient Egyptian hieroglyphs (, HY-roh-glifs) were the formal writing system used in Ancient Egypt for writing the Egyptian language. Hieroglyphs combined ideographic, logographic, syllabic, and alphabetic elements, with more than 1,000 dis",
       "image": "Hieroglyphs_from_the_tomb_of_Seti_I.jpg"
+    },
+    "Babylonia": {
+      "title": "Babylonia",
+      "lead": "Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the city of Babylon in central-southern Mesopotamia (present-day Iraq and parts of Syria). It emerged as an Akkadian-populated ",
+      "image": "Hammurabi's_Babylonia_1.svg"
+    },
+    "Anglo-Saxons": {
+      "title": "Anglo-Saxons",
+      "lead": "The Anglo-Saxons, in some contexts simply called Saxons or the English, were a cultural group who spoke Old English and inhabited much of what is now England and south-eastern Scotland in the Early Middle Ages. They traced their origins to ",
+      "image": "LindisfarneChiRiho.jpg"
     },
     "Krater": {
       "title": "Krater",
@@ -852,6 +867,11 @@
       "lead": "Cuneiform is a logo-syllabic writing system that was used to write several languages of the ancient Near East. The script was in active use from the early Bronze Age until the 1st century BC. Cuneiform scripts are marked by and named for th",
       "image": "Xerxes_Cuneiform_Van.JPG"
     },
+    "Mesopotamia": {
+      "title": "Mesopotamia",
+      "lead": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, ",
+      "image": "N-Mesopotamia_and_Syria_english.svg"
+    },
     "Helen_of_Troy": {
       "title": "Helen of Troy",
       "lead": "Helen (Ancient Greek: Ἑλένη, romanized: Helénē), also known as Helen of Troy, or Helen of Sparta, and in Latin as Helena, was a figure in Greek mythology said to have been the most beautiful woman in the world. She was believed to have been",
@@ -859,7 +879,7 @@
     },
     "Menelaus": {
       "title": "Menelaus",
-      "lead": "In Greek mythology, Menelaus (; Ancient Greek: Μενέλαος, Menélaos) was a Greek king of Mycenaean (pre-Dorian) Sparta. According to the Iliad, the Trojan War began as a result of Menelaus's wife, Helen, fleeing to Troy with the Trojan prince",
+      "lead": "In Greek mythology, Menelaus (; Ancient Greek: Μενέλαος, Menélaos) was a king of Sparta. According to the Iliad, the Trojan War began as a result of Menelaus's wife, Helen, fleeing to Troy with the Trojan prince Paris. Menelaus was a centra",
       "image": "Brogi,_Giacomo_(1822-1881)_-_n._4140_-_Roma_-_Vaticano_-_Menelao_-_Busto_in_marmo.jpg"
     },
     "Paris_(mythology)": {
@@ -919,7 +939,7 @@
     },
     "Sparta": {
       "title": "Sparta",
-      "lead": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity (pre-800 BCE), the state was known as Lacedaemon (Λακεδαίμων, Lakedaímōn), while \"Sparta\" referred to its capital, a group of villages in the valley of the Evrotas",
+      "lead": "Sparta was a prominent city-state in Laconia in ancient Greece. In antiquity (pre-800 BC), the state was known as Lacedaemon (Λακεδαίμων, Lakedaímōn), while \"Sparta\" referred to its capital, a group of villages in the valley of the Evrotas ",
       "image": "Spartan_Territory_Before_371_BC.png"
     },
     "Basileus": {
@@ -1047,6 +1067,11 @@
       "lead": "A speleothem (; from Ancient Greek σπήλαιον (spḗlaion) 'cave' and θέμα (théma) 'deposit') is a geological formation made by mineral deposits that accumulate over time in natural caves. They can take a variety of forms, depending on their de",
       "image": "Labeled_speleothems.jpg"
     },
+    "Greek_language": {
+      "title": "Greek language",
+      "lead": "Greek (Modern Greek: ελληνικά, romanized: elliniká [eliniˈka] ; Ancient Greek: ἑλληνική, romanized: hellēnikḗ [helːɛːnikɛ́ː]) is an Indo-European language, constituting an independent Hellenic branch within the Indo-European language family",
+      "image": "Idioma_Griego.PNG"
+    },
     "Iron": {
       "title": "Iron",
       "lead": "Iron is a chemical element; it has symbol Fe (from Latin ferrum 'iron') and atomic number 26. It is a metal that belongs to the first transition series and group 8 of the periodic table. It is, by mass, the most common element on Earth, for",
@@ -1151,6 +1176,11 @@
       "title": "Messara Plain",
       "lead": "The Messara Plain or simply Messara (Greek: Μεσσαρά) is an alluvial plain in southern Crete, stretching about 50 km west-to-east and 7 km north-to-south, making it the largest plain in Crete. On a hill at its west end are the ruins of Phais",
       "image": "Festos_-_Valley_of_Messara_2.jpg"
+    },
+    "Ionia": {
+      "title": "Ionia",
+      "lead": "Ionia ( eye-OH-nee-ə; Greek: Ιωνία) was an ancient region encompassing the central part of the western coast of Anatolia. It consisted of the northernmost territories of the Ionian League of Greek settlements. Never a unified state, it was ",
+      "image": "Mount_Mycale_and_Mycale_Strait.jpg"
     }
   }
 }

@@ -73,7 +73,7 @@
     "Knossos": {
       "title": "Knossos",
       "lead": "Knossos (; Ancient Greek: Κνωσσός, romanized: Knōssós; Greek: Κνωσός, romanized: Knōsós; Linear B: 𐀒𐀜𐀰 Ko-no-so) is an archaeological site and ancient urban centre in Crete, Greece. It is located within the southern periphery of Heraklio",
-      "image": "Knossos_-_North_Portico_02.jpg"
+      "image": "Crete_integrated_map-en.svg"
     },
     "Anemospilia": {
       "title": "Anemospilia",
@@ -290,7 +290,7 @@
     "Knossos": {
       "title": "Knossos",
       "lead": "Knossos (; Ancient Greek: Κνωσσός, romanized: Knōssós; Greek: Κνωσός, romanized: Knōsós; Linear B: 𐀒𐀜𐀰 Ko-no-so) is an archaeological site and ancient urban centre in Crete, Greece. It is located within the southern periphery of Heraklio",
-      "image": "Knossos_-_North_Portico_02.jpg"
+      "image": "Crete_integrated_map-en.svg"
     },
     "Anemospilia": {
       "title": "Anemospilia",
@@ -449,7 +449,7 @@
     },
     "Neolithic": {
       "title": "Neolithic",
-      "lead": "The Neolithic (from Greek νέος néos 'new' and λίθος líthos 'stone'), or New Stone Age, is an archaeological period, the final division of the Stone Age in Asia, Europe, and Africa (c. 10,000 BC to c. 2,000 BC). It saw the Neolithic Revoluti",
+      "lead": "The Neolithic (from Greek νέος néos 'new' and λίθος líthos 'stone'), or New Stone Age, is an archaeological period, the final division of the Stone Age in Asia, Europe and Africa (c. 10,000 BC to c. 2,000 BC). It saw the Neolithic Revolutio",
       "image": "Asikli_Hoyuk_sarah_c_murray_6176.jpg"
     },
     "Obsidian": {
@@ -772,6 +772,21 @@
       "lead": "The Roman Empire was a state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period. The Roman Republic had previously conquered most of these territories, which later came under perm",
       "image": "Roman_Empire_Trajan_117AD.png"
     },
+    "Eurasian_Plate": {
+      "title": "Eurasian plate",
+      "lead": "The Eurasian plate is a tectonic plate that includes most of Eurasia (a landmass consisting of the traditional continents of Asia and Europe), with the notable exceptions of the Arabian Peninsula, the Indian subcontinent, and the area east ",
+      "image": "EurasianPlate.png"
+    },
+    "Earth": {
+      "title": "Earth",
+      "lead": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water",
+      "image": "Meteosat-12-fci-march-equinox-2025-noon_(cropped).jpg"
+    },
+    "Indus_Valley_Civilisation": {
+      "title": "Indus Valley Civilisation",
+      "lead": "The Indus Valley Civilisation (IVC), also known as the Indus Civilisation, was a Bronze Age civilisation in the northwestern regions of South Asia, lasting from 3300 BCE to 1300 BCE, and in its mature form from 2600 BCE to 1900 BCE. Togethe",
+      "image": "Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).png"
+    },
     "Thucydides": {
       "title": "Thucydides",
       "lead": "Thucydides ( thew-SID-ih-deez; Ancient Greek: Θουκυδίδης, romanised: Thoukudídēs [tʰuːkydǐdɛːs]; c. 460 – c. 400 BC) was an Athenian historian and general. His History of the Peloponnesian War recounts the fifth-century BC war between Spart",
@@ -914,7 +929,7 @@
     },
     "Plato": {
       "title": "Plato",
-      "lead": "Plato ( PLAY-toe; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
+      "lead": "Plato ( PLAY-toh; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
       "image": "Plato_Silanion_Musei_Capitolini_MC1377.png"
     },
     "Solon": {
@@ -934,7 +949,7 @@
     },
     "Sais,_Egypt": {
       "title": "Sais, Egypt",
-      "lead": "Sais (Ancient Greek: Σάϊς; Coptic: Ⲥⲁⲓ) was an ancient Egyptian city in the Western Nile Delta on the Canopic branch of the Nile, known by the ancient Egyptians as Sꜣw. It was the provincial capital of Sap-Meh, the fifth nome of Lower Egypt",
+      "lead": "Sais (Ancient Egyptian: 𓊃𓐰𓅭𓄿𓅱𓊖, romanized: Zꜣw; Ancient Greek: Σάϊς, romanized: Sáïs; Latin: Sais; Coptic: Ⲥⲁⲓ, romanized: Sai) was an ancient Egyptian city in the Western Nile Delta on the Canopic branch of the Nile, It was the provi",
       "image": "Jean-Francois_Champollion_-_Plan_Des_Ruines_De_Sais.cropped.png"
     },
     "Timaeus_(dialogue)": {
@@ -951,6 +966,11 @@
       "title": "Sulfate",
       "lead": "The sulfate or sulphate ion is a polyatomic anion with the empirical formula SO2−4. Salts, acid derivatives, and peroxides of sulfate are widely used in industry. Sulfates occur widely in everyday life. Sulfates are salts of sulfuric acid a",
       "image": "Sulfate-ion-2D-dimensions.svg"
+    },
+    "Athens": {
+      "title": "Athens",
+      "lead": "Athens is the capital and largest city of Greece. A significant coastal urban area in the Mediterranean, Athens is also the capital of the Attica region and is the southernmost capital on the European mainland. With its urban area's populat",
+      "image": "Monastiraki_Square_and_Acropolis_in_Athens_(44149181684).jpg"
     },
     "Mycenaean_Greece": {
       "title": "Mycenaean Greece",
@@ -989,7 +1009,7 @@
     },
     "Zeus": {
       "title": "Zeus",
-      "lead": "Zeus (, Ancient Greek: Ζεύς), also known as Dias ( Greek: Δίας), is the supreme Deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the ch",
+      "lead": "Zeus (, Ancient Greek: Ζεύς) is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the child of Cronus and Rhea. In most trad",
       "image": "Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
     },
     "Dionysus": {
@@ -1004,7 +1024,7 @@
     },
     "Sea_Peoples": {
       "title": "Sea Peoples",
-      "lead": "The Sea Peoples were a group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-century Egyptologists Emmanuel de Rougé an",
+      "lead": "The Sea Peoples were an unidentified seafaring confederation or group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-c",
       "image": "Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg"
     },
     "Ramesses_III": {
@@ -1066,6 +1086,11 @@
       "title": "Minoan chronology",
       "lead": "Minoan chronology is a framework of dates used to divide the history of the Minoan civilization. Two systems of relative chronology are used for the Minoans. One is based on sequences of pottery styles, while the other is based on the archi",
       "image": "LM_IB_marine_style_tall_alabastron_from_Knossos_-_Herakleion_AM_2690.jpg"
+    },
+    "Greek_language": {
+      "title": "Greek language",
+      "lead": "Greek (Modern Greek: ελληνικά, romanized: elliniká [eliniˈka] ; Ancient Greek: ἑλληνική, romanized: hellēnikḗ [helːɛːnikɛ́ː]) is an Indo-European language, constituting an independent Hellenic branch within the Indo-European language family",
+      "image": "Idioma_Griego.PNG"
     },
     "Heraklion": {
       "title": "Heraklion",
