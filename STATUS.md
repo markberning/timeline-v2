@@ -8,19 +8,39 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
-## ▶ COLD-START HANDOFF — 2026-05-22 (read this FIRST)
+## ▶ COLD-START HANDOFF — 2026-05-27 (read this FIRST)
 
-**Git:** `main` == `origin/main`, **clean tree, no agents running.** (Only
-uncommitted noise: `next-env.d.ts` regen + untracked `.wiki-verify-cache.json` /
-`.claude/scheduled_tasks.lock` / `samples/Historica.zip` / `scripts/promote.mjs`
-— all pre-existing throwaways, ignore.) User paused the #7 link sweep at **41/103**.
+**Git:** `main` == `origin/main`, **clean tree, no agents running.** Session
+shipped 5 worst-first civs in 3 atomic deploys: **russian-empire** (252/46 → 0),
+**late-egypt** (239/26 → 0), **ancient-greece** (237/19 → 0), **scientific-revolution**
+(237/49 → 0), **ancient-nubia** (236/30 → 0). ~700 new links across 64 chapters,
+0 prod regressions. User paused for the day at 46/103.
 
-**Resume: run the per-civ pipeline below, worst-first. FIRST DO russian-empire**
-(237 gaps, 20 chapters → 4 waves of 5; it was deferred this session because it's a
-big lift to start a session on). Then zhou-dynasty and on down
-`audits/link-coverage-ledger.md`. Refresh worklists with
-`npx tsx scripts/link-coverage.ts --corpus` at the start of the batch (note: it's
-`npx tsx`, not bare `tsx`, on this machine).
+**Resume: refresh ledger with `npx tsx scripts/link-coverage.ts --corpus`, then
+worst-first from the top.** Next: **elamite-civilization** (229/25, 8 ch),
+**new-kingdom-egypt** (228/26, 9 ch), **korean-modern** (223/17, 8 ch),
+**edo-japan** (219/20, 8 ch), **middle-horizon-empires** (207/16, 8 ch).
+
+**Three traps learned this session (2026-05-27):**
+1. **Waiver file is FLAT STRING ARRAY.** `{"1":["Term"]}`, NEVER `[{term,reason}]`.
+   Dict-shaped entries crash `scripts/link-coverage.ts` at `norm()`. Russian-empire
+   pass had 22 dict waivers from parallel agents — flattened with python. Brief
+   agents explicitly: "waiver file is flat string array, never `{term,reason}` objects".
+2. **Concurrent-edit waiver loss.** Wave-1 with 5+ agents editing the same waiver
+   file races: ch1 agent's 4 waivers got lost in russian-empire when later waves
+   overwrote. Coordinator residual MUST re-check coverage --strict and add any
+   missing waivers/links surfaced. Plan ≥1 round of coverage-gap fix-up before ship.
+3. **Re-parse before re-snapshot.** verify-links checks the parsed content json,
+   not the link JSONs directly. If you change a slug, `npm run parse` first or the
+   stale parsed json keeps the old slug and snapshot writes around your fix.
+
+**Two operational notes from prior sessions (still applicable):**
+1. **wiki-verify cache poisons on 429.** Transient API 429 gets cached as a
+   permanent failure in `audits/.wiki-verify-cache.json`. Clear entries where
+   `reason` contains "lookup failed" before each snapshot.
+2. **Cloudflare deploy can throw transient API errors** (`entitlements.not_available`
+   10007, unknown 10013) for ~20 min — NOT auth, NOT the build. Wait ~2 min and
+   re-run `npx wrangler deploy`; it clears.
 
 **Two operational notes locked this session (2026-05-22):**
 1. **wiki-verify cache poisons on 429.** A transient API 429 gets cached as a
