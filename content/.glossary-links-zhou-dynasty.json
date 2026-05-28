@@ -261,6 +261,12 @@
       "matchText": "loess soils",
       "wikiSlug": "Loess",
       "type": "concept"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Houtu",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -616,6 +622,12 @@
       "matchText": "Mo Di",
       "wikiSlug": "Mozi",
       "type": "people"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -1014,6 +1026,12 @@
       "matchText": "Athens",
       "wikiSlug": "Athens",
       "type": "place"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ],
   "9": [
@@ -1101,6 +1119,12 @@
       "matchText": "Book of Songs",
       "wikiSlug": "Classic_of_Poetry",
       "type": "concept"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ]
 }

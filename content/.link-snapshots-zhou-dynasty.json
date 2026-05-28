@@ -7,7 +7,7 @@
     },
     "King_Wu_of_Zhou": {
       "title": "King Wu of Zhou",
-      "lead": "King Wu of Zhou (died c. 1043 BC), personal name Ji Fa, was the founding king of the Chinese Zhou dynasty. His defeat of Di Xin at the Battle of Muye cemented him as one of the great heroes of China, and one of the \"Three Kings\" (三王) alongs",
+      "lead": "King Wu of Zhou (died c. 1043 BC), personal name Ji Fa, was the founding king of the Zhou dynasty of China. He is considered one of the inaugurators of the Chinese dynastic cycle and a model ruler in the Confucian tradition. King Wu's rule ",
       "image": "King_Wu_of_Zhou.jpg"
     },
     "Mandate_of_Heaven": {
@@ -627,9 +627,14 @@
       "lead": "Loess (US: , UK: ; from German: Löss [lœs]) is a clastic, predominantly silt-sized sediment that is formed by the accumulation of wind-blown dust. Ten percent of Earth's land area is covered by loesses or similar deposits. Loess is a perigl",
       "image": "LoessVicksburg.jpg"
     },
+    "Houtu": {
+      "title": "Houtu",
+      "lead": "Hòutǔ (Chinese: 后土; lit. 'Queen of the Earth') or Hòutǔshén (后土神; 'Goddess Queen of the Earth'), also known as Hòutǔ Niángniáng (in Chinese either 厚土娘娘; 'Deep Earth Lady', Aoshen 媪神; 媼神; 'Old Goddess' or 后土娘娘; 'Earth Queen Lady'), otherwise",
+      "image": "后土皇地祗.jpg"
+    },
     "Shanxi": {
       "title": "Shanxi",
-      "lead": "Shanxi is a province in North China. Its capital and largest city is Taiyuan, while its next most populated prefecture-level cities are Changzhi and Datong. Its one-character abbreviation is 晋 (Jìn), after the state of Jin that existed ther",
+      "lead": "Shanxi is a province in North China. Its capital and largest city is Taiyuan, and its next most populated prefecture-level cities are Changzhi and Datong. The province's one-character abbreviation is 晋 (Jìn), after the state of Jin that exi",
       "image": "Yanmenguan3.JPG"
     },
     "King_Xuan_of_Zhou": {
@@ -664,7 +669,7 @@
     },
     "Assyria": {
       "title": "Assyria",
-      "lead": "Assyria was a major ancient Mesopotamian civilization that existed as a city-state from the 21st century BC to the 14th century BC and eventually expanded into an empire from the 14th century BC to the 7th century BC. Spanning from the earl",
+      "lead": "Assyria was a major ancient Mesopotamian civilization that existed as a city-state from the 21st century BC to the 14th century BC and eventually expanded into an empire from the 14th century BC to the 7th century BC. Assyrian history spans",
       "image": "Ashur_symbol_Nimrud.png"
     },
     "Shalmaneser_III": {
@@ -734,7 +739,7 @@
     },
     "Wang_(surname)": {
       "title": "Wang (surname)",
-      "lead": "Wang () is the pinyin romanization of the common Chinese surname 王 (Wáng). It has a mixture of various origin with uncertain lineage of family history, however it is currently the most common surname in Mainland China, one of the most commo",
+      "lead": "Wang () is the pinyin romanization of the common Chinese surname 王 (Wáng). It has a mixture of various origin with uncertain lineage of family history. It is currently the most common surname in Mainland China and one of the most common sur",
       "image": "王-order.gif"
     },
     "Qin_(state)": {
@@ -819,7 +824,7 @@
     },
     "Plato": {
       "title": "Plato",
-      "lead": "Plato ( PLAY-toe; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
+      "lead": "Plato ( PLAY-toh; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
       "image": "Plato_Silanion_Musei_Capitolini_MC1377.png"
     },
     "Hanguguan": {
@@ -834,8 +839,13 @@
     },
     "Bible": {
       "title": "Bible",
-      "lead": "The Bible is a collection of religious texts that are central to Christianity and Judaism, and esteemed in other Abrahamic religions such as Islam. The Bible is an anthology (a compilation of texts of a variety of forms) originally written ",
+      "lead": "A Bible is a collection of religious texts that is central to Christianity or Judaism, and esteemed in other Abrahamic religions such as Islam. Bibles are anthologies (compilations of texts of a variety of forms) with varying canonical text",
       "image": "Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
+    },
+    "Israelites": {
+      "title": "Israelites",
+      "lead": "The Israelites, also known as the Children of Israel, were an ancient Semitic-speaking people who lived in Canaan during the Iron Age. They are associated with Hebrews and spoke Biblical Hebrew, an archaic Hebrew language. In the biblical m",
+      "image": "12_Tribes_of_Israel_Map.svg"
     },
     "Wei_(state)": {
       "title": "Wei (state)",
@@ -1044,7 +1054,7 @@
     },
     "Changsha": {
       "title": "Changsha",
-      "lead": "Changsha is the capital of Hunan, China. Located in the lower reaches of the Xiang River in northeastern Hunan, it is the 15th most populous city in China with a population of 10,513,100, the third-most populous city in Central China, and t",
+      "lead": "Changsha is the capital of Hunan, China. Located in the lower reaches of the Xiang River in northeastern Hunan, it is the 15th most populous city in China with a population of 10,513,100, and the third-most populous city in Central China. T",
       "image": "爱晚亭（秋-侧面）.jpg"
     },
     "Hunan": {
@@ -1066,6 +1076,11 @@
       "title": "Athens",
       "lead": "Athens is the capital and largest city of Greece. A significant coastal urban area in the Mediterranean, Athens is also the capital of the Attica region and is the southernmost capital on the European mainland. With its urban area's populat",
       "image": "Monastiraki_Square_and_Acropolis_in_Athens_(44149181684).jpg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
     },
     "Qin_Shi_Huang": {
       "title": "Qin Shi Huang",

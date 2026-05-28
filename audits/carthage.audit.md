@@ -393,3 +393,11 @@
 | | SOFT (minor concern) | 6 |
 
 **Overall assessment:** This is a strong narrative. The Story Editor found no chapters requiring rewrite; only Ch 7 dips to GOOD (civilization-survey structure lacks narrative arc). The Newcomer's findings cluster around undefined terms on first use (Berber, Celtiberian, votive, triple walls), process-described-by-result (Mago's professionalization, government reform, Scipio's campaigns), and repetitive Numidian cavalry definitions. The Skeptic's concerns are predominantly about ancient source numbers (fleet sizes, casualties, wall dimensions) being presented with more precision than the sources support, and about anachronistically dating Appian's wall description to 600 BCE. No findings suggest fabricated content; the narrative is well-sourced but occasionally over-precise in translating ancient claims into modern measurements.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — born-verified
+glossary links added (Morocco, Ancient Egypt, Trans-Saharan trade); one off-topic
+event image rejected (Nike of Samothrace on the quinquereme event). No new
+cross-cultural narrative claim, so **no new backward findings**; forward
+cross-links re-verified (0 FAIL).
