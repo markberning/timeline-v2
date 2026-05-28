@@ -539,6 +539,30 @@
       "matchText": "Moghul",
       "wikiSlug": "Moghulistan",
       "type": "place"
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "concept"
+    },
+    {
+      "term": "Khagan (Great Khan)",
+      "matchText": "Great Khan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Ilkhans",
+      "matchText": "Ilkhans",
+      "wikiSlug": "Ilkhanate",
+      "type": "concept"
+    },
+    {
+      "term": "Islamic Golden Age",
+      "matchText": "Islamic Golden Age",
+      "wikiSlug": "Islamic_Golden_Age",
+      "type": "concept"
     }
   ],
   "2": [
@@ -931,6 +955,24 @@
       "matchText": "Khorasan",
       "wikiSlug": "Greater_Khorasan",
       "type": "place"
+    },
+    {
+      "term": "Iraq",
+      "matchText": "Iraqi",
+      "wikiSlug": "Iraq",
+      "type": "place"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Islamic Golden Age",
+      "matchText": "Islamic Golden Age",
+      "wikiSlug": "Islamic_Golden_Age",
+      "type": "concept"
     }
   ],
   "3": [
@@ -1262,6 +1304,18 @@
       "term": "Anatolia (ch3)",
       "matchText": "Anatolia",
       "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Iraq",
+      "matchText": "Iraqi",
+      "wikiSlug": "Iraq",
+      "type": "place"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
       "type": "place"
     }
   ],
@@ -1721,6 +1775,24 @@
       "matchText": "Mughal",
       "wikiSlug": "Mughal_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Muhammad (the Prophet)",
+      "matchText": "Prophet",
+      "wikiSlug": "Muhammad",
+      "type": "people"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusader",
+      "wikiSlug": "Crusades",
+      "type": "concept"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "wikiSlug": "Muslims",
+      "type": "people"
     }
   ],
   "5": [
@@ -2095,6 +2167,18 @@
       "matchText": "Genghis Khan",
       "wikiSlug": "Genghis_Khan",
       "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Seoul",
+      "matchText": "Seoul",
+      "wikiSlug": "Seoul",
+      "type": "place"
     }
   ],
   "6": [
@@ -2643,6 +2727,12 @@
       "matchText": "Theology and scholarship",
       "wikiSlug": "Islamic_theology",
       "type": "concept"
+    },
+    {
+      "term": "Iraq",
+      "matchText": "Iraqi",
+      "wikiSlug": "Iraq",
+      "type": "place"
     }
   ],
   "7": [
@@ -3018,6 +3108,24 @@
       "matchText": "Calendar adjustments",
       "wikiSlug": "Tropical_year",
       "type": "concept"
+    },
+    {
+      "term": "Islamic Golden Age",
+      "matchText": "Islamic Golden Age",
+      "wikiSlug": "Islamic_Golden_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Poland",
+      "matchText": "Polish",
+      "wikiSlug": "Poland",
+      "type": "place"
+    },
+    {
+      "term": "Johannes Kepler",
+      "matchText": "Kepler",
+      "wikiSlug": "Johannes_Kepler",
+      "type": "people"
     }
   ],
   "8": [
@@ -3602,6 +3710,36 @@
       "matchText": "Moghul",
       "wikiSlug": "Moghulistan",
       "type": "place"
+    },
+    {
+      "term": "Tiger",
+      "matchText": "Tiger",
+      "wikiSlug": "Tiger",
+      "type": "concept"
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jain",
+      "wikiSlug": "Jainism",
+      "type": "concept"
+    },
+    {
+      "term": "Martin Luther",
+      "matchText": "Luther",
+      "wikiSlug": "Martin_Luther",
+      "type": "people"
+    },
+    {
+      "term": "Henry VII of England",
+      "matchText": "Henry VII",
+      "wikiSlug": "Henry_VII_of_England",
+      "type": "people"
+    },
+    {
+      "term": "Selim I",
+      "matchText": "Selim I",
+      "wikiSlug": "Selim_I",
+      "type": "people"
     }
   ]
 }

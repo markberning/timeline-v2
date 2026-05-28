@@ -215,6 +215,30 @@
       "matchText": "Nebuchadnezzars",
       "wikiSlug": "Nebuchadnezzar_II",
       "type": "people"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
+    },
+    {
+      "term": "Tibetan",
+      "matchText": "Tibetan plateau",
+      "wikiSlug": "Tibetan_Plateau",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "glossary"
+    },
+    {
+      "term": "Delhi",
+      "matchText": "Delhi",
+      "wikiSlug": "Delhi",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -325,6 +349,12 @@
       "matchText": "Ghaggar-Hakra",
       "wikiSlug": "Ghaggar-Hakra_River",
       "type": "place"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -527,6 +557,30 @@
       "matchText": "bronze",
       "wikiSlug": "Bronze",
       "type": "concept"
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "glossary"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian",
+      "wikiSlug": "Iran",
+      "type": "glossary"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -954,6 +1008,24 @@
       "matchText": "entrepôt",
       "wikiSlug": "Entrepôt",
       "type": "concept"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "glossary"
+    },
+    {
+      "term": "Arab",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "glossary"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1205,6 +1277,12 @@
       "matchText": "Bactrian camel",
       "wikiSlug": "Bactrian_camel",
       "type": "concept"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
     }
   ],
   "10": [
@@ -1393,6 +1471,30 @@
       "matchText": "British Raj",
       "wikiSlug": "British_Raj",
       "type": "concept"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Old_Persian",
+      "type": "glossary"
+    },
+    {
+      "term": "Hindi",
+      "matchText": "Hindi",
+      "wikiSlug": "Hindi",
+      "type": "glossary"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ]
 }

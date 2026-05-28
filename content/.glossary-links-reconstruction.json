@@ -132,6 +132,12 @@
       "matchText": "the postwar South",
       "wikiSlug": "Southern_United_States",
       "type": "place"
+    },
+    {
+      "term": "Supreme Court of the United States",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -272,6 +278,18 @@
       "matchText": "pass laws designed to push the freedpeople as close back to slavery",
       "wikiSlug": "Black_Codes_(United_States)",
       "type": "writing"
+    },
+    {
+      "term": "the United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Northerners",
+      "matchText": "Northerners",
+      "wikiSlug": "Northern_United_States",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -797,6 +815,18 @@
       "matchText": "a high crime, not a policy disagreement",
       "wikiSlug": "High_crimes_and_misdemeanors",
       "type": "concept"
+    },
+    {
+      "term": "the United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "the Supreme Court",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -961,6 +991,12 @@
       "matchText": "they performed for Queen Victoria",
       "wikiSlug": "Queen_Victoria",
       "type": "person"
+    },
+    {
+      "term": "Supreme Court of the United States",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1077,6 +1113,18 @@
       "matchText": "Panic of 1873",
       "wikiSlug": "Panic_of_1873",
       "type": "event"
+    },
+    {
+      "term": "Southerners",
+      "matchText": "Southerners",
+      "wikiSlug": "Southern_United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Northerners",
+      "matchText": "Northerners",
+      "wikiSlug": "Northern_United_States",
+      "type": "glossary"
     }
   ],
   "9": [
@@ -1212,6 +1260,30 @@
       "matchText": "gold-corner scheme, in which speculators tried to manipulate the gold market",
       "wikiSlug": "Black_Friday_(1869)",
       "type": "event"
+    },
+    {
+      "term": "the United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "the Supreme Court",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christians",
+      "type": "glossary"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "glossary"
     }
   ],
   "10": [
@@ -1329,6 +1401,18 @@
       "matchText": "Ku Klux Klan",
       "wikiSlug": "Ku_Klux_Klan",
       "type": "concept"
+    },
+    {
+      "term": "the United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "11": [
@@ -1597,6 +1681,12 @@
       "matchText": "constitutionalizing Jim Crow outright",
       "wikiSlug": "Jim_Crow_laws",
       "type": "concept"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "13": [
@@ -1807,6 +1897,12 @@
       "matchText": "South Carolina's Redeemers studied it for 1876",
       "wikiSlug": "South_Carolina",
       "type": "place"
+    },
+    {
+      "term": "Supreme Court of the United States",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
     }
   ],
   "15": [
@@ -1947,6 +2043,12 @@
       "matchText": "Compromise of 1877",
       "wikiSlug": "Compromise_of_1877",
       "type": "concept"
+    },
+    {
+      "term": "Supreme Court of the United States",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
     }
   ],
   "16": [
@@ -2111,6 +2213,24 @@
       "matchText": "the NAACP's long, deliberate litigation strategy",
       "wikiSlug": "NAACP",
       "type": "concept"
+    },
+    {
+      "term": "Supreme Court of the United States",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Soviet Russia",
+      "matchText": "Soviet Russia",
+      "type": "glossary",
+      "definition": "The Bolshevik state that emerged from the 1917 Russian Revolution — shorthand here for the Soviet Union, invoked as a later regime that also wrestled with reordering society after upheaval."
     }
   ]
 }

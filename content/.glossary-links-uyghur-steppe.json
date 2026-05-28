@@ -149,6 +149,18 @@
       "matchText": "Tariat",
       "type": "concept",
       "definition": "A monumental Old Turkic inscription raised by the Uyghur qaghan Bayanchur (also called the Terkhin inscription), companion to the Shine Usu stele. Together they are the Uyghur Khaganate's own runiform account of its founding and wars — the thin counter-voice to the Chinese histories that otherwise narrate the steppe."
+    },
+    {
+      "term": "Mongol",
+      "matchText": "Mongol name",
+      "wikiSlug": "Mongols",
+      "type": "glossary"
+    },
+    {
+      "term": "Abbasid Baghdad",
+      "matchText": "Abbasid Baghdad",
+      "wikiSlug": "Abbasid_Caliphate",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -411,6 +423,30 @@
       "matchText": "Ordu-Baliq",
       "wikiSlug": "Ordu-Baliq",
       "type": "concept"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian history",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "across Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Türks",
+      "matchText": "Türks",
+      "wikiSlug": "Göktürks",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian church",
+      "wikiSlug": "Persians",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -491,6 +527,12 @@
       "matchText": "Bayanchur",
       "wikiSlug": "Bayanchur_Khan",
       "type": "person"
+    },
+    {
+      "term": "Türks",
+      "matchText": "Türks",
+      "wikiSlug": "Göktürks",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -613,6 +655,30 @@
       "matchText": "Buddhism",
       "wikiSlug": "Buddhism",
       "type": "concept"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian styles",
+      "wikiSlug": "Iranian_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Allied",
+      "matchText": "Allied bombing",
+      "wikiSlug": "Allies_of_World_War_II",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -783,6 +849,36 @@
       "matchText": "Bukhara",
       "wikiSlug": "Bukhara",
       "type": "concept"
+    },
+    {
+      "term": "Turkic-speaking",
+      "matchText": "Turkic-speaking",
+      "wikiSlug": "Turkic_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian Islamic dynasty",
+      "wikiSlug": "Persians",
+      "type": "glossary"
+    },
+    {
+      "term": "Persianate",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian history",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Crusaders",
+      "matchText": "Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -959,6 +1055,36 @@
       "matchText": "Silk Road",
       "wikiSlug": "Silk_Road",
       "type": "concept"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian administrator-historian",
+      "wikiSlug": "Persians",
+      "type": "glossary"
+    },
+    {
+      "term": "Crusaders",
+      "matchText": "Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian information system",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "glossary"
+    },
+    {
+      "term": "Chinese-style",
+      "matchText": "Chinese-style centralized state",
+      "definition": "The Chinese imperial model of government — a salaried, examination-credentialed bureaucracy administering a centralized state through written records, reign-titles, and a codified law, rather than a nomadic confederation parceled among kinsmen. Yelü Dashi carried this template west out of the fallen Liao empire and ran the Qara-Khitai on it, which is why a steppe dynasty taxed and governed Central Asia with a Chinese-style chancery instead of dividing it into tribal appanages.",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1099,6 +1225,24 @@
       "matchText": "Turkic",
       "wikiSlug": "Turkic_peoples",
       "type": "people"
+    },
+    {
+      "term": "Mongolian",
+      "matchText": "Mongolian steppe",
+      "wikiSlug": "Mongolian_Plateau",
+      "type": "glossary"
+    },
+    {
+      "term": "Kyrgyz",
+      "matchText": "Kyrgyz",
+      "wikiSlug": "Yenisei_Kyrgyz",
+      "type": "glossary"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian church",
+      "wikiSlug": "Persians",
+      "type": "glossary"
     }
   ]
 }

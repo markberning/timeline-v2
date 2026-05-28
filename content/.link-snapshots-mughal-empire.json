@@ -52,7 +52,7 @@
     },
     "Battle_of_Kannauj": {
       "title": "Battle of Kannauj",
-      "lead": "The Battle of Kannauj also known as Battle of Bilgram took place at Kannauj, Uttar Pradesh, India between Sher Shah Suri and Humayun on 17 May 1540. This conflict occurred near Bilgram, where Humayun was defeated.",
+      "lead": "The Battle of Kannauj or Battle of Bilgram also known as The Battle of Ganges took place at Kannauj, Uttar Pradesh, India between Sher Shah Suri and Humayun on 17 May 1540. This conflict occurred near Bilgram, where Humayun was defeated.",
       "image": ""
     },
     "Humayun%27s_Tomb": {
@@ -87,7 +87,7 @@
     },
     "Jizya": {
       "title": "Jizya",
-      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, lit. 'poll tax', [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and",
+      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and the application ",
       "image": ""
     },
     "Fatehpur_Sikri": {
@@ -152,7 +152,7 @@
     },
     "East_India_Company": {
       "title": "East India Company",
-      "lead": "The East India Company (EIC), more commonly known as the British East India Company (BEIC), was an English, and later British, joint-stock company that was founded in 1600 and dissolved in 1874. It was formed to trade in the Indian Ocean re",
+      "lead": "The East India Company (EIC) was an English, and later British, joint-stock company that was founded in 1600 and dissolved in 1874. It was formed to trade in the Indian Ocean region, initially with the East Indies (which included the Indian",
       "image": "Flag_of_the_British_East_India_Company_(1801).svg"
     },
     "Ahmad_Sirhindi": {
@@ -167,7 +167,7 @@
     },
     "Mumtaz_Mahal": {
       "title": "Mumtaz Mahal",
-      "lead": "Mumtaz Mahal (Persian pronunciation: [mum.ˈtɑːz ma.ˈhal]; lit. 'The Exalted One of the Palace'; born Arjumand Banu Begum; 27 April 1593 – 17 June 1631) was the empress consort of Mughal Empire from 1628 to 1631 as the chief consort of the f",
+      "lead": "Mumtaz Mahal (Persian pronunciation: [mum.ˈtɑːz ma.ˈhal]; lit. 'The Exalted One of the Palace'; born Arjumand Banu Begum; 27 April 1593 – 17 June 1631) was the empress of the Mughal Empire from 1628 to 1631 as the chief consort of the fifth",
       "image": "Portrait_of_Mumtaz_Mahal_on_Ivory_(cropped).jpg"
     },
     "Taj_Mahal": {
@@ -267,7 +267,7 @@
     },
     "Wootz_steel": {
       "title": "Wootz steel",
-      "lead": "Wootz steel is a type of very high-carbon crucible steel historically produced in South India and Sri Lanka, known for its strength, sharpness, and characteristic banded microstructure. It originated by at least the mid-1st millennium BCE a",
+      "lead": "Wootz steel is a type of very high-carbon crucible steel historically produced in India and Sri Lanka, known for its strength, sharpness, and characteristic banded microstructure. It originated by at least the mid-1st millennium BCE and was",
       "image": "Watered_pattern_on_sword_blade1.Iran.JPG"
     },
     "Bahadur_Shah_I": {
@@ -392,20 +392,60 @@
     }
   },
   "glossary": {
+    "Babur": {
+      "title": "Babur",
+      "lead": "Babur (Persian: ببر, Persian: [bɑː.βuɾ]; 14 February 1483 – 26 December 1530; born Zahīr ud-Dīn Muhammad) was the founder of the Mughal Empire in the Indian subcontinent. He was a descendant of Timur and Genghis Khan through his father and ",
+      "image": "Humayun_and_Babur_(Late_Shah_Jahan_Album)_Babur_detail.jpg"
+    },
     "Kabul": {
       "title": "Kabul",
       "lead": "Kabul is the capital and largest city of Afghanistan. It is within the jurisdiction of Kabul District and has an estimated population of 5,333,284 people. Located in the eastern half of the country, forming part of the Kabul Province, the c",
       "image": "Kabul,_Afghanistan_view.jpg"
+    },
+    "Ibrahim_Lodi": {
+      "title": "Ibrahim Khan Lodi",
+      "lead": "Ibrahim Khan Lodi (Persian: ابراهیم خان لودی; 1480 – 21 April 1526) was the last Sultan of the Delhi Sultanate, who became Sultan in 1517 after the death of his father Sikandar Khan. He was the last ruler of the Lodi dynasty, reigning for n",
+      "image": "Ibrahim_Lodi_at_the_Battle_of_Panipat_(1526).jpg"
+    },
+    "Battle_of_Khanwa": {
+      "title": "Battle of Khanwa",
+      "lead": "The Battle of Khanwa was fought at Khanwa in modern-day Rajasthan on 16 March 1527, between the Mughal Empire, led by Babur, and the Kingdom of Mewar, led by Rana Sanga for supremacy of Northern India. The battle ended in a Mughal victory a",
+      "image": "Babur’s_army_in_battle_against_the_army_of_Rana_Sanga_at.jpg"
+    },
+    "Rana_Sanga": {
+      "title": "Rana Sanga",
+      "lead": "Sangram Singh I (Mewari pronunciation: [səŋɡɾaːm sɪ̃ɳ]; 12 April 1482 – 30 January 1528), most commonly known as Rana Sanga, was the Maharana of Mewar from 24 May 1509 until his death in 1528. A member of the Sisodia dynasty, he controlled ",
+      "image": "Photo_of_Rana_Sanga_from_Udaipur_Museum_(From_my_Camera).jpg"
+    },
+    "Humayun": {
+      "title": "Humayun",
+      "lead": "Nasir al-Din Muhammad (Persian: نصیرالدین محمد, 6 March 1508 – 27 January 1556), commonly known by his regnal name Humayun (Persian: همایون, Persian pronunciation: [hu.mɑː.juːn]), was the second Mughal emperor, who ruled over territory in w",
+      "image": "Contemporary_portrait_of_Humayun_seated_(made_in_Kabul_in_1550-1555).jpg"
     },
     "Sher_Shah_Suri": {
       "title": "Sher Shah Suri",
       "lead": "Sher Shah Suri (born Farid al-Din Khan; 1472 or 1486 – 22 May 1545), also known by his title Sultan Adil (lit. 'the Just King'), was the Sultan of Hindustan, as the first Sur Emperor, from 1540 until his death in 1545. Prior to his ascensio",
       "image": "Painting_of_Sher_Shah_Suri_(colored)_from_a_manuscript_of_Tarikh-i-Khandan-i-Timuriya,_prepared_by_the_court_painters_of_Mughal_emperor_Akbar,_circa_16th_century_(Detailed).jpg"
     },
+    "Battle_of_Kannauj": {
+      "title": "Battle of Kannauj",
+      "lead": "The Battle of Kannauj or Battle of Bilgram also known as The Battle of Ganges took place at Kannauj, Uttar Pradesh, India between Sher Shah Suri and Humayun on 17 May 1540. This conflict occurred near Bilgram, where Humayun was defeated.",
+      "image": ""
+    },
     "Humayun%27s_Tomb": {
       "title": "Humayun's tomb",
       "lead": "Humayun's tomb (Persian: Maqbara-i Humayun) is the tomb of Mughal Emperor Humayun situated in Delhi, India. The tomb was commissioned by Humayun's first wife and chief consort, Empress Bega Begum under her patronage in 1558, and designed by",
       "image": "Tomb_of_Humayun,_Delhi.jpg"
+    },
+    "Hemu": {
+      "title": "Hemu",
+      "lead": "Hemu (; also known as Hemu Vikramaditya and Hemchandra Vikramaditya; died 5 November 1556) was an Indian emperor who previously served as a general and Wazir of Adil Shah Suri of Sur Empire during a period in Indian history when Mughals and",
+      "image": "Hemu_captured_by_Akbar's_forces_in_1556.jpg"
+    },
+    "Akbar": {
+      "title": "Akbar",
+      "lead": "Akbar (Jalal-ud-Din Muhammad Akbar, (1542-10-15)15 October 1542 – (1605-10-27)27 October 1605), also known as Akbar the Great, was the third Mughal emperor, who reigned from 1556 to 1605. Akbar succeeded his father, Humayun, under a regent,",
+      "image": "Govardhan._Akbar_With_Lion_and_Calf_ca._1630,_Metmuseum_(cropped).jpg"
     },
     "Rajput": {
       "title": "Rajput",
@@ -414,58 +454,178 @@
     },
     "Jizya": {
       "title": "Jizya",
-      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, lit. 'poll tax', [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and",
+      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and the application ",
       "image": ""
+    },
+    "Fatehpur_Sikri": {
+      "title": "Fatehpur Sikri",
+      "lead": "Fatehpur Sikri (Hindi: [ˈfətɛɦpʊɾ ˈsiːkɾiː]) is a town in the Agra District of Uttar Pradesh, India. Situated 35.7 kilometres (22.2 mi) from the district headquarters of Agra, Fatehpur Sikri itself was founded as the capital of the Mughal E",
+      "image": "Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg"
     },
     "Mansabdar": {
       "title": "Mansabdar",
       "lead": "The Mansabdar was a military unit within the administrative system of the Mughal Empire introduced by Akbar later used in all over in early modern India. The word mansab is of Arabic origin meaning rank or position. The system determined th",
       "image": "Sheikh_Farid_Murtaza_Khan.jpg"
     },
+    "Din-i-Ilahi": {
+      "title": "Din-i Ilahi",
+      "lead": "Dīn-i Ilāhī (Persian: دین الهی, lit. 'Divine Religion'), contemporarily called Tawḥīd-i-Ilāhī (توحید الهی, lit. 'Oneness of the Divine'), was a short-lived syncretic theology that was propounded by emperor Akbar of the Mughal Empire in 1582",
+      "image": "Emperor_Akbar.png"
+    },
     "Akbarnama": {
       "title": "Akbarnama",
       "lead": "The Akbarnama (Persian: اکبرنامه, romanized: Akbarnāma, lit. 'Book of Akbar') is the official chronicle of the reign of Akbar, the third Mughal Emperor (r. 1556–1605), commissioned by Akbar himself and written by his court historian and bio",
       "image": "Binding_from_\"Akbarnama\"_(CBL_In_03).jpg"
+    },
+    "Tansen": {
+      "title": "Tansen",
+      "lead": "Rāmtanu Gaud Panday (c. 1493 – 26 April 1589), popularly referred to as Mian Tānsen (lit. 'the Learned One'), or Sangeet Samrāt (lit. 'Monarch of Hindustani Music'), was a Hindustani classical musician. Born into a Hindu Gaur Brahmin family",
+      "image": "Tansen_of_Gwalior._(11.8x6.7cm)_Mughal._1585-90._National_Museum,_New_Delhi..jpg"
+    },
+    "Todar_Mal": {
+      "title": "Todar Mal",
+      "lead": "Raja Todar Mal (10 February 1503 – 8 November 1589) was an Indian minister, economist, and military commander who served as the Finance Minister (Diwan-i-Ashraff) of the Mughal Empire during the reign of Akbar I. He was also the Vakil-us-Su",
+      "image": "Raja_Todar_Mall,_Finance_Minister_of_Akbar.jpg"
+    },
+    "Jahangir": {
+      "title": "Jahangir",
+      "lead": "Nur ud-din Muhammad Salim (Persian: نورالدین محمد سلیم [ˈnuːrʊˌdɪn/ [mʊ.ɦɑmˈmad̪̚] /sə.liːm]; 31 August 1569 – 28 October 1627), known by his royal name Jahangir (Persian: جهانگیر, Persian pronunciation: [d͡ʒa.hɑːn.ˈɡiːɾ]), was the fourth e",
+      "image": "Jahangircrop.jpeg"
     },
     "Nur_Jahan": {
       "title": "Nur Jahan",
       "lead": "Nur Jahan (lit. ' Light of the world '; 31 May 1577 – 18 December 1645), born Mehr-un-Nissa, was the twentieth wife and chief consort of the Mughal emperor Jahangir. More decisive and proactive than her husband, Nur Jahan is considered by c",
       "image": "Nurjahan.jpg"
     },
+    "East_India_Company": {
+      "title": "East India Company",
+      "lead": "The East India Company (EIC) was an English, and later British, joint-stock company that was founded in 1600 and dissolved in 1874. It was formed to trade in the Indian Ocean region, initially with the East Indies (which included the Indian",
+      "image": "Flag_of_the_British_East_India_Company_(1801).svg"
+    },
     "Shah_Jahan": {
       "title": "Shah Jahan",
       "lead": "Shah Jahan I (Shahab-ud-Din Muhammad Khurram; 5 January 1592 – 22 January 1666), also called Shah Jahan the Magnificent, was the fifth Mughal Emperor from 1628 until his deposition in 1658. His reign marked the zenith of Mughal architectura",
       "image": "'Jujhar_Singh_Bundela_Kneels_in_Submission_to_Shah_Jahan',_painted_by_Bichitr,_c._1630,_Chester_Beatty_Library_(cropped2).jpg"
+    },
+    "Mumtaz_Mahal": {
+      "title": "Mumtaz Mahal",
+      "lead": "Mumtaz Mahal (Persian pronunciation: [mum.ˈtɑːz ma.ˈhal]; lit. 'The Exalted One of the Palace'; born Arjumand Banu Begum; 27 April 1593 – 17 June 1631) was the empress of the Mughal Empire from 1628 to 1631 as the chief consort of the fifth",
+      "image": "Portrait_of_Mumtaz_Mahal_on_Ivory_(cropped).jpg"
+    },
+    "Taj_Mahal": {
+      "title": "Taj Mahal",
+      "lead": "The Taj Mahal ( TAHJ mə-HAHL, TAHZH -⁠; Hindustani: [t̪ɑːd͡ʒ ˈmɛɦ(ɛ)l]; lit. 'Crown of the Palace') is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the f",
+      "image": "Taj_Mahal_(Edited).jpeg"
+    },
+    "Red_Fort": {
+      "title": "Red Fort",
+      "lead": "The Red Fort (Lal Qila in Hindi; Hindi pronunciation: [laːl 'qɪlaː]) is a historic Mughal fort located in the Old Delhi area of Delhi, India. Serving as the main residence of the Mughal emperors, it was commissioned by Emperor Shah Jahan on",
+      "image": "Delhi_fort.jpg"
     },
     "Old_Delhi": {
       "title": "Shahjahanabad",
       "lead": "Shahjahanabad, colloquially known as Old Delhi (Hindustani: Purāni Dillī), is a place in the Central Delhi district of Delhi, India. It was founded as a Walled City and officially named Shahjahanabad in 1648, when Shah Jahan decided to shif",
       "image": "Red_and_Blue.jpg"
     },
+    "Jama_Masjid,_Delhi": {
+      "title": "Jama Masjid, Delhi",
+      "lead": "The Masjid-i-Jehan-Numa, commonly known as the Jama Masjid, in Old Delhi area of Delhi, is one of the largest mosques in India. Its builder was the Mughal emperor Shah Jahan, between 1644 and 1656, and it was inaugurated by its first Imam, ",
+      "image": "Jama_Masjid_-_In_the_Noon.jpg"
+    },
+    "Peacock_Throne": {
+      "title": "Peacock Throne",
+      "lead": "The Peacock Throne (Hindustani: Mayūrāsana, Sanskrit: मयूरासन, Urdu: تخت طاؤس, Persian: تخت طاووس, Takht-i Tāvūs) was the imperial throne of the Indian Mughal emperors, the Sunni Muslim rulers of the Mughal Empire from the Timurid dynasty, ",
+      "image": "The_Mughal_Emperor_and_His_Court,_c._1774_-_V&A.jpg"
+    },
+    "Koh-i-Noor": {
+      "title": "Koh-i-Noor",
+      "lead": "The Koh-i-Noor ( KOH-in-OOR) is one of the largest cut diamonds in the world, weighing 105.6 carats (21.12 g). It is currently set in the Crown of Queen Elizabeth the Queen Mother. There are multiple conflicting legends on the origin of the",
+      "image": "Replica_of_the_Koh-i-Noor_(cropped).jpg"
+    },
+    "Aurangzeb": {
+      "title": "Aurangzeb",
+      "lead": "Alamgir I (Muhi al-Din Muhammad; 3 November 1618 – 3 March 1707), commonly known by the title Aurangzeb, was the sixth Mughal emperor, reigning from 1658 until his death in 1707. Under his reign, the Mughal Empire reached its greatest exten",
+      "image": "Aurangzeb-portrait.jpg"
+    },
+    "Shivaji": {
+      "title": "Shivaji",
+      "lead": "Shivaji I (Shivaji Shahaji Bhonsale, Marathi pronunciation: [ʃiˈʋaːdʑiː ˈbʱos(ə)le]; c. 19 February 1630 – 3 April 1680) was an Indian ruler and a member of the Bhonsle dynasty. Shivaji inherited a fiefdom (Marathi: jagir) from his father w",
+      "image": "Shivaji_British_Museum.jpg"
+    },
     "Adil_Shahi_dynasty": {
       "title": "Sultanate of Bijapur",
       "lead": "The Sultanate of Bijapur was an early modern kingdom in the western Deccan and South India, ruled by the Muslim Adil Shahi (or Adilshahi) dynasty. Bijapur had been a taraf (province) of the Bahmani Kingdom prior to its independence in 1490 ",
       "image": "Adil_Shahis.png"
+    },
+    "Sambhaji": {
+      "title": "Sambhaji",
+      "lead": "Sambhaji (Sambhajiraje Shivajiraje Bhonsle, Marathi pronunciation: [saːmˈbʱaːdʑiː ˈbʱos(ə)le]; 14 May 1657 – 11 March 1689), also known as Shambhuraje, ruled from 1681 to 1689 as the second king (Chhatrapati) of the Maratha Empire, a promin",
+      "image": "Sambhaji_painting_late_17th_century.png"
     },
     "Khalsa": {
       "title": "Khalsa",
       "lead": "The term Khālsā (Punjabi: ਖਾਲਸਾ, pronounced [kʰaːl(ə̆)saː]) refers to both a community that follows Sikhism as its religion, as well as a special group of initiated Sikhs. The Khalsa tradition was initiated in 1699 by the Tenth Guru of Sikh",
       "image": "Khanda_(Sikh_Symbol).svg"
     },
+    "Badshahi_Mosque": {
+      "title": "Badshahi Mosque",
+      "lead": "The Badshahi Mosque is a Mughal-era imperial mosque located in Lahore, Punjab, Pakistan. It was constructed between 1671 and 1673 by the Mughal emperor Aurangzeb, opposite to the Lahore Fort in the northern outskirts of the historic Walled ",
+      "image": "Badshahi_Mosque_front_picture.jpg"
+    },
+    "Bahadur_Shah_I": {
+      "title": "Bahadur Shah I",
+      "lead": "Bahadur Shah I (Muhammad Mu'azzam; 14 October 1643 – 27 February 1712) or Shah Alam I, was the eighth Mughal emperor from 1707 to 1712. He was the second son of the sixth Mughal emperor Aurangzeb, who he conspired to overthrow in his youth.",
+      "image": "Shah_Alam_Bahadur.jpg"
+    },
+    "Muhammad_Shah": {
+      "title": "Muhammad Shah",
+      "lead": "Mirza Nasir-ud-Din Muḥammad Shah (born Roshan Akhtar; 7 August 1702 – 26 April 1748) was the thirteenth Mughal emperor from 1719 to 1748. He was son of Khujista Akhtar, the fourth son of Bahadur Shah I. After being chosen by the Sayyid Brot",
+      "image": "Nidha_Mal_Jharokha_portrait_of_Muhammad_Shah_holding_an_emerald_and_the_mouthpiece_of_a_huqqa_ca._1730_The_San_Diego_Museum_of_Art.jpg"
+    },
     "Asaf_Jah_I": {
       "title": "Nizam-ul-Mulk, Asaf Jah I",
       "lead": "Mir Qamar-ud-din Khan Siddiqi (11 August 1671 – 1 June 1748) also known as Chin Qilich Qamaruddin Khan, Nizam-ul-Mulk, Asaf Jah and Nizam I, was the first Nizam of Hyderabad. He began his career during the reign of the Mughal emperor Aurang",
       "image": "Asaf_Jah_I.jpg"
+    },
+    "Maratha_Confederacy": {
+      "title": "Maratha Empire",
+      "lead": "The Maratha Empire, also referred to as the Maratha Confederacy, was an early modern polity in the Indian subcontinent. For most of its existence, it comprised the realms of the Peshwa and four major independent Maratha states under the nom",
+      "image": "India1760_1905.jpg"
     },
     "Battle_of_Plassey": {
       "title": "Battle of Plassey",
       "lead": "The Battle of Plassey was a decisive victory of the British East India Company, under the leadership of Robert Clive, over the Nawab of Bengal and his French allies on 23 June 1757. The victory was made possible by the betrayal of Mir Jafar",
       "image": "Lord_Clive_meeting_with_Mir_Jafar_after_the_Battle_of_Plassey.jpg"
     },
-    "Treaty_of_Allahabad": {
-      "title": "Treaty of Allahabad",
-      "lead": "The Treaty of Allahabad was signed on 16 August 1765, between the Mughal Emperor Shah Alam II, son of the late Emperor Alamgir II, and Robert Clive, of the East India Company, in the aftermath of the Battle of Buxar of 22 October 1764. The ",
-      "image": "The_Treaty_of_Allahabad,_August_16,_1765.jpg"
+    "Mir_Jafar": {
+      "title": "Mir Jafar",
+      "lead": "Mir Jafar (Full Name: Syed Mir Muhammad Jafar Ali Khan Bahadaur) (c. 1691 – 5 February 1765) was a commander-in-chief or general, who became the first dependent nawab of Bengal within the support of the East India Company. His reign has bee",
+      "image": "Mir_Jafar_(left)_and_Mir_Miran_(right).jpg"
+    },
+    "Shah_Alam_II": {
+      "title": "Shah Alam II",
+      "lead": "Shah Alam II (Persian: شاه عالم دوم, Persian pronunciation: [ʃɑːh ʔɑː.ˈlam]; 25 June 1728 – 19 November 1806), also known by his birth name Ali Gohar, or Ali Gauhar, was the seventeenth Mughal emperor and the son of Alamgir II. The reign of",
+      "image": "Shahalam2.png"
+    },
+    "Anglo-Maratha_Wars": {
+      "title": "Anglo-Maratha Wars",
+      "lead": "Anglo-Maratha Wars may refer to: First Anglo-Maratha War (1775–1782) Second Anglo-Maratha War (1803–1805) Third Anglo-Maratha War (1817–1819) Gwalior campaign (1843)",
+      "image": ""
+    },
+    "Bahadur_Shah_II": {
+      "title": "Bahadur Shah Zafar",
+      "lead": "Bahadur Shah II (Abu Zafar Siraj-ud-din Muhammad; 24 October 1775 – 7 November 1862), also known by his poetic title Bahadur Shah Zafar (Persian: بهادر شاه ظفر; Zafar lit. 'Victory'), was the twentieth and last Mughal Emperor and an Urdu po",
+      "image": "Bahadur_Shah_II_of_India.jpg"
+    },
+    "Indian_Rebellion_of_1857": {
+      "title": "Indian Rebellion of 1857",
+      "lead": "The Indian Rebellion of 1857 was a major uprising in India in 1857–58 against the rule of the British East India Company, which functioned as a sovereign power, including military forces, on behalf of the British Crown. The rebellion began ",
+      "image": "Indian_Rebellion_of_1857.jpg"
+    },
+    "Urdu": {
+      "title": "Urdu",
+      "lead": "Urdu (اُرْدُو, urdū, [ˈʊɾduː] ) is an Indo-Aryan language spoken primarily in South Asia. It is the national language and lingua franca of Pakistan. It is also an official Eighth Schedule language in India, the status and cultural heritage ",
+      "image": "Urdu_example.svg"
     },
     "Timur": {
       "title": "Timur",
@@ -504,13 +664,8 @@
     },
     "Naqshbandi": {
       "title": "Naqshbandi Order",
-      "lead": "Naqshbandi (Persian: نقشبندیه) is a major Sufi order within Sunni Islam, named after its 14th-century founder, Baha' al-Din Naqshband. Practitioners, known as Naqshbandis, trace their spiritual lineage (silsila) directly to the Islamic prop",
+      "lead": "The Naqshbandi order (Persian: نقشبندیه) is a major Sufi order within Sunni Islam, named after its 14th-century founder, Baha' al-Din Naqshband. Practitioners, known as Naqshbandis, trace their spiritual lineage (silsila) directly to the Is",
       "image": "Bahauddin_Naqshband_Memorial_Complex._Bukhara.jpg"
-    },
-    "Janissaries": {
-      "title": "Janissary",
-      "lead": "A janissary (UK: JAN-iss-ər-ee, US: -⁠err-ee; Ottoman Turkish: یڭیچری, romanized: yeñiçeri, IPA: [jeˈɲit͡ʃeɾ̞i], lit. 'new soldier') was a member of the elite infantry units that formed the Ottoman sultan's household troops. They were one o",
-      "image": "Lambert_Wyts_-_Agha_of_the_Janissaries_and_a_Bölük_of_the_Janissaries.jpg"
     },
     "Lodi_dynasty": {
       "title": "Lodi dynasty",
@@ -557,6 +712,276 @@
       "lead": "Hernán Cortés, 1st Marquis of the Valley of Oaxaca (c. 1485 – 2 December 1547) was a Spanish conquistador, military commander, explorer, captain general, and writer who led an expedition that caused the fall of the Aztec Empire and brought ",
       "image": "Retrato_de_Hernán_Cortés.jpg"
     },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Uzbekistan": {
+      "title": "Uzbekistan",
+      "lead": "Uzbekistan, officially the Republic of Uzbekistan, is a doubly landlocked country located in Central Asia. It is bordered by five countries Kazakhstan to the north, Kyrgyzstan to the northeast, Tajikistan to the southeast, Afghanistan to th",
+      "image": "Flag_of_Uzbekistan.svg"
+    },
+    "Umar_Shaikh_Mirza_II": {
+      "title": "Umar Shaikh Mirza II",
+      "lead": "Umar Shaikh Mirza II (Persian: عمر شیخ میرزا دوم; 1456–1494) was the Timurid ruler of the Fergana Valley. He was the fourth son of Abu Sa'id Mirza, the ruler of the Timurid Empire in what is now Kazakhstan, Uzbekistan, Afghanistan, Tajikist",
+      "image": "Umar_Shayk_Mirza_II,_in_The_Princes_of_the_House_of_Timur,_1550-1555_(British_Museum,_1913,0208,0.1).jpg"
+    },
+    "Qutlugh_Nigar_Khanum": {
+      "title": "Qutlugh Nigar Khanum",
+      "lead": "Qutlugh Nigar Khanum (Chagatai and Persian: قتلغ نگار خانم, also spelled Kutlak Nigar Khanum; d. 1505) was the first wife and chief consort of Umar Shaikh Mirza II, the ruler of Ferghana Valley. She was a princess of Moghulistan by birth an",
+      "image": "Zahir_al-Din_Muhammad_Babur_-_Baqi_Chaghanyani_Paying_Homage_to_Babur_-_Walters_W59623B_-_Full_Page.jpg"
+    },
+    "Borjigin": {
+      "title": "Borjigin",
+      "lead": "The Borjigin or Borjigids are a Mongol tribal clan founded in the early 10th century or, around 900 AD. by Bodonchar Munkhag. The senior line of Borjigids provided ruling princes for Mongolia and Inner Mongolia until the 20th century. The c",
+      "image": "Imperial_Seal_of_the_Mongols_1246.svg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Uzbeks": {
+      "title": "Uzbeks",
+      "lead": "Uzbeks (Uzbek: Oʻzbeklar; Ўзбеклар; اۉزبېکلر‎) are a Turkic ethnic group native to Central Asia, being the largest Turkic ethnic group in the area. They comprise the majority population of Uzbekistan, next to Tajiks and Karakalpak minoritie",
+      "image": ""
+    },
+    "Transoxiana": {
+      "title": "Transoxiana",
+      "lead": "Transoxiana or Transoxania (lit. 'Land beyond the Oxus', now called the Amu Darya) is the Latin name for the region and civilization located in lower Central Asia roughly corresponding to eastern Uzbekistan, western Tajikistan, southern Kyr",
+      "image": "Transoxiana_8th_century.svg"
+    },
+    "Afghanistan": {
+      "title": "Afghanistan",
+      "lead": "Afghanistan, officially the Islamic Emirate of Afghanistan, is a landlocked country located at the crossroads of Central and South Asia. It is bordered by Pakistan to the east and south, Iran to the west, Turkmenistan to the northwest, Uzbe",
+      "image": "Flag_of_the_Taliban.svg"
+    },
+    "Punjab_region": {
+      "title": "Punjab",
+      "lead": "Punjab ( pun-JAHB; Punjabi: Panjāb, pronounced [pəɲˈd͡ʒaːb] ) is a geographical, ethnolinguistic, and historical region in South Asia, located in its northwestern part, comprising areas of modern-day Pakistan and northwestern India. Lahore ",
+      "image": "Punjab_map_(topographic)_with_cities.png"
+    },
+    "Sufism": {
+      "title": "Sufism",
+      "lead": "Sufism (Arabic: التصوف‎, romanized: al-Taṣawwuf) is a mystic body of religious practice found within Islam that is characterized by a focus on Islamic purification, spirituality, ritualism, and asceticism. Practitioners of Sufism are referr",
+      "image": ""
+    },
+    "Sunni_Islam": {
+      "title": "Sunni Islam",
+      "lead": "Sunni Islam is the largest branch of Islam and the largest religious denomination in the world. It holds that Muhammad did not appoint any successor and that his closest companion Abu Bakr (r. 632–634) rightfully succeeded him as the caliph",
+      "image": ""
+    },
+    "Italian_Wars": {
+      "title": "Italian Wars",
+      "lead": "The Italian Wars were a series of conflicts fought between 1494 and 1559 in the Italian Peninsula, with subsidiary theatres in Flanders, the Rhineland and Mediterranean Sea. A product of the long-running French–Habsburg rivalry, its primary",
+      "image": "Italian_War_Battle.jpg"
+    },
+    "Ottoman_Empire": {
+      "title": "Ottoman Empire",
+      "lead": "The Ottoman Empire, historically also known as the Turkish Empire, was a state that spanned much of Southeast Europe, West Asia, and North Africa from the 14th century to the early 20th century, centred in modern-day Turkey. It also control",
+      "image": "Flag_of_the_Ottoman_Empire_(1844–1922).svg"
+    },
+    "Mamluk_Sultanate_(Cairo)": {
+      "title": "Mamluk Sultanate",
+      "lead": "The Mamluk Sultanate (Arabic: سلطنة المماليك, romanized: Salṭanat al-Mamālīk), also known as Mamluk Egypt or the Mamluk Empire, was a state that ruled Egypt, the Levant and the Hejaz from the mid-13th to early 16th centuries, with Cairo as ",
+      "image": "Mamluk_Sultanate_of_Cairo_1317_AD.jpg"
+    },
+    "Gupta_Empire": {
+      "title": "Gupta Empire",
+      "lead": "The Gupta Empire was an Indian empire during the classical period of the Indian subcontinent which existed from the mid 3rd century to mid 6th century CE. At its peak, the dynasty ruled over an empire that spanned much of the northern India",
+      "image": "South_Asia_historical_AD375_EN.svg"
+    },
+    "Lahore": {
+      "title": "Lahore",
+      "lead": "Lahore is the capital and largest city of the Pakistani province of Punjab. It is the second-largest city in Pakistan, after Karachi, and 27th largest in the world, with a population of over 14 million. Lahore is one of Pakistan's major ind",
+      "image": "Lahore_Fort_view_from_Baradari.jpg"
+    },
+    "Daulat_Khan_Lodi": {
+      "title": "Daulat Khan Lodi",
+      "lead": "Daulat Khan Lodi (Persian: دولت خان لودی) was the governor of Lahore during the reign of Sikandar Khan and Ibrahim Lodi, the last rulers of the Lodi dynasty. Due to disaffection with Ibrahim, Daulat invited Babur to invade the empire. He wa",
+      "image": "Daulat_Khan_Lodhi_Searching_for_Baba_Nanak_in_the_River_Bein.jpg"
+    },
+    "Rajasthan": {
+      "title": "Rajasthan",
+      "lead": "Rajasthan (Hindi: Rājasthāna, pronounced [ɾaːd͡ʒəsˈtʰaːn] ; lit. 'Land of Kings') is a state in northwestern India. It is the largest Indian state by area and the seventh largest by population. It covers 342,239 square kilometres (132,139 m",
+      "image": "Thar_Khuri.jpg"
+    },
+    "Indus_River": {
+      "title": "Indus River",
+      "lead": "The Indus ( IN-dəs) is a transboundary river of Asia and a trans-Himalayan river of South and Central Asia. The 3,180 km (1,980 mi) river rises in the Tibet Autonomous Region of China where it is known as Sengge Zangbo, flows northwest thro",
+      "image": "Nanga_Parbat_Indus_Gorge.jpg"
+    },
+    "Bengal": {
+      "title": "Bengal",
+      "lead": "Bengal ( ben-GAWL) is a geographical, ethnolinguistic, historically geopolitical region in South Asia, located north of the Bay of Bengal. Today, it is politically divided between the sovereign state of Bangladesh, the Indian state of West ",
+      "image": "Bengal_in_Asia.jpg"
+    },
+    "Agra": {
+      "title": "Agra",
+      "lead": "Agra (; Hindi: Āgarā, pronounced [ˈaːɡɾaː] ) is a city on the banks of the Yamuna river in the Indian state of Uttar Pradesh, about 230 kilometres (140 mi) south-east of the national capital Delhi and 330 km west of the state capital Luckno",
+      "image": "Taj_Mahal,_Agra,_India.jpg"
+    },
+    "Augustine_of_Hippo": {
+      "title": "Augustine of Hippo",
+      "lead": "Augustine of Hippo ( aw-GUST-in, US also AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430) was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is",
+      "image": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    },
+    "Benvenuto_Cellini": {
+      "title": "Benvenuto Cellini",
+      "lead": "Benvenuto Cellini (, Italian: [beɱveˈnuːto tʃelˈliːni]; 3 November 1500 – 13 February 1571) was an Italian goldsmith, sculptor, and author. His best-known extant works include the Cellini Salt Cellar, the sculpture of Perseus with the Head ",
+      "image": "CelliniBust.jpg"
+    },
+    "Marcus_Aurelius": {
+      "title": "Marcus Aurelius",
+      "lead": "Marcus Aurelius Antoninus ( or-EE-lee-əs; Latin: [ˈmaːrkʊs au̯ˈreːli.us antoːˈniːnʊs]; 26 April 121 – 17 March 180) was Roman emperor from 161 to 180 and a Stoic philosopher. He was a member of the Nerva–Antonine dynasty, the last of the ru",
+      "image": "MSR-ra-61-b-1-DM.jpg"
+    },
+    "Annette_Beveridge": {
+      "title": "Annette Beveridge",
+      "lead": "Annette Susannah Beveridge (née Akroyd) (13 December 1842 – 29 March 1929) was a British Orientalist known for her translation of the Humayun-nama and the Babur-nama.",
+      "image": "Annette_Akroyd_(cropped).jpg"
+    },
+    "Bihar": {
+      "title": "Bihar",
+      "lead": "Bihar (pronounced [bɪˈɦaːr] ) is a state in eastern India. It borders Uttar Pradesh to its west, Nepal to the north, the northern part of West Bengal to the east, and Jharkhand to the south. Bihar is split by the river Ganges, which flows f",
+      "image": "Mahabodhi_temple_complex,_Bodhgaya_27.jpg"
+    },
+    "Malwa": {
+      "title": "Malwa",
+      "lead": "Malwa (IPA: [maːlʋaː]) is a historical region of west-central India occupying a plateau of volcanic origin. Geologically, the Malwa Plateau generally refers to the volcanic upland north of the Vindhya Range. Politically and administratively",
+      "image": "Malwa_India_closeup_1823.png"
+    },
+    "Deccan_plateau": {
+      "title": "Deccan Plateau",
+      "lead": "The Deccan Plateau ( DEK-ən ) or Peninsular Plateau, is a plateau that extends over an area of 422,000 km2 (163,000 sq mi) on the southern part of the Indian subcontinent. The plateau forms the bulk of the Deccan Peninsula, and stretches fr",
+      "image": "Deccan,_India.png"
+    },
+    "Hungary": {
+      "title": "Hungary",
+      "lead": "Hungary is a landlocked country in Central Europe. Spanning much of the Carpathian Basin, it is bordered by Slovakia to the north, Ukraine to the northeast, Romania to the east and southeast, Serbia to the south, both Croatia and Slovenia t",
+      "image": "Flag_of_Hungary.svg"
+    },
+    "Battle_of_Moh%C3%A1cs_(1526)": {
+      "title": "Battle of Mohács",
+      "lead": "The Battle of Mohács (Hungarian: [ˈmohaːt͡ʃ]; Hungarian: mohácsi csata, Turkish: Mohaç Muharebesi) took place on 29 August 1526 near Mohács, in the Kingdom of Hungary. It was fought between the forces of Hungary, led by King Louis II, and t",
+      "image": "Battle_of_Mohacs_1526.png"
+    },
+    "Battle_of_Pavia_(1525)": {
+      "title": "Battle of Pavia",
+      "lead": "The Battle of Pavia, fought on the morning of 24 February 1525, was the decisive engagement of the Italian War of 1521–1526 between the Kingdom of France and the Habsburg Empire of Charles V, Holy Roman Emperor as well as ruler of Spain, Au",
+      "image": "The_Battle_of_Pavia,_1525_(by_Rupert_Heller)_-_Nationalmuseum,_Stockholm.jpg"
+    },
+    "Sack_of_Rome_(1527)": {
+      "title": "Sack of Rome (1527)",
+      "lead": "The Sack of Rome, then part of the Papal States, followed the capture of Rome on 6 May 1527 by the mutinous troops of Charles V, Holy Roman Emperor, during the War of the League of Cognac. Charles V only intended to threaten military action",
+      "image": "Sack_of_Rome_of_1527_by_Johannes_Lingelbach_17th_century.jpg"
+    },
+    "Protestant_Reformation": {
+      "title": "Reformation",
+      "lead": "The Reformation, also known as the Protestant Reformation or the European Reformation, was a major theological movement in Western Christianity in 16th-century Europe that posed a religious and political challenge to the papacy and the auth",
+      "image": ""
+    },
+    "Francisco_Pizarro": {
+      "title": "Francisco Pizarro",
+      "lead": "Francisco Pizarro (; Spanish: [fɾanˈθisko piˈθaro]; c. 1478 – 26 June 1541) was a Spanish conquistador, best known for his expeditions that led to the Spanish conquest of the Inca Empire. Born in Trujillo, Spain, to a poor family of pig far",
+      "image": "Portrait_of_Francisco_Pizarro.jpg"
+    },
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "image": "Byzantine_Constantinople-en.png"
+    },
+    "Charles_V,_Holy_Roman_Emperor": {
+      "title": "Charles V, Holy Roman Emperor",
+      "lead": "Charles V (24 February 1500 – 21 September 1558) was Holy Roman Emperor and Archduke of Austria from 1519 to 1556, King of Spain (as Charles I) from 1516 to 1556, King of Sicily and Naples from 1516 to 1554, and also Lord of the Netherlands",
+      "image": "Portrait_of_Charles_V,_Holy_Roman_Emperor,_seated_(1500–1558),_formerly_attributed_to_Titian_(Alte_Pinakothek,_Munich).jpg"
+    },
+    "Martin_Luther": {
+      "title": "Martin Luther",
+      "lead": "Martin Luther ( LOO-thər; German: [ˈmaʁtiːn ˈlʊtɐ] ; 10 November 1483 – 18 February 1546) was a German priest, theologian, author, hymnwriter, professor, and former Augustinian friar. Luther was the seminal figure of the Protestant Reformat",
+      "image": "Lucas_Cranach_d.Ä._-_Martin_Luther,_1528_(Veste_Coburg).jpg"
+    },
+    "Battle_of_Chaldiran": {
+      "title": "Battle of Chaldiran",
+      "lead": "The Battle of Chaldiran (Persian: جنگ چالدران; Turkish: Çaldıran Savaşı) took place on 23 August 1514 and ended with a decisive victory for the Ottoman Empire over the Safavid Empire. As a result, the Ottomans annexed Eastern Anatolia and U",
+      "image": "A_painting_in_Chehel_Sotoun1.jpg"
+    },
+    "Qutb_ud-Din_Aibak": {
+      "title": "Qutb ud-Din Aibak",
+      "lead": "Qutb ud-Din Aibak (Persian: قطب‌الدین ایبک; 1150 – 4 November 1210) was a Turkic general of the Ghurid emperor Muhammad Ghori. He was in charge of the Ghurid territories in northern India, and after Muhammad Ghori's assassination in 1206, h",
+      "image": "Grave_of_Sultan_Qutb_al-Din_Aibak.jpg"
+    },
+    "Persian_language": {
+      "title": "Persian language",
+      "lead": "Persian, also known by its endonym Farsi, is a Western Iranian language belonging to the Iranian branch of the Indo-Iranian subdivision of the Indo-European languages. Persian is a pluricentric language predominantly spoken and used officia",
+      "image": "Farsi.svg"
+    },
+    "Amer,_India": {
+      "title": "Amber, India",
+      "lead": "Amber or Amer, is a city near Jaipur city in Jaipur district in the Indian state of Rajasthan. It is now a part of the Jaipur Municipal Corporation. The picturesque situation of Amber at the mouth of a rocky mountain gorge, in which nestles",
+      "image": "Amer_City.jpg"
+    },
+    "Kandahar": {
+      "title": "Kandahar",
+      "lead": "Kandahar is a city in southern Afghanistan, serving as the capital and largest city of Kandahar Province. It is within the jurisdiction of Kandahar District and has an estimated population of 732,629 settled residents. Mullah Hekmatullah is",
+      "image": "Aerial_view_of_a_section_of_Kandahar_in_2013.jpg"
+    },
+    "Afghan_people": {
+      "title": "Afghans",
+      "lead": "Though an ethnonym for most of its existence, Afghans are now known as the citizens and nationals of Afghanistan. They are composed of various ethnic groups, of which Pashtuns, Tajiks, Hazaras, and Uzbeks are the largest. The two main langu",
+      "image": "Map_of_the_Afghan_Diaspora_in_the_World.svg"
+    },
+    "Holy_Roman_Empire": {
+      "title": "Holy Roman Empire",
+      "lead": "The Holy Roman Empire, also known as the Holy Roman Empire of the German Nation after 1512, was a polity comprising and controlling much of Central Europe and Western Europe, headed by the Holy Roman Emperor and characterized by a decentral",
+      "image": "Banner_of_the_Holy_Roman_Emperor_with_haloes_(1430-1806).svg"
+    },
+    "Janissary": {
+      "title": "Janissary",
+      "lead": "A janissary (UK: JAN-iss-ər-ee, US: -⁠err-ee; Ottoman Turkish: یڭیچری, romanized: yeñiçeri, IPA: [jeˈɲit͡ʃeɾ̞i], lit. 'new soldier') was a member of the elite infantry units that formed the Ottoman sultan's household troops. They were one o",
+      "image": "Lambert_Wyts_-_Agha_of_the_Janissaries_and_a_Bölük_of_the_Janissaries.jpg"
+    },
+    "Persianate": {
+      "title": "Persianate society",
+      "lead": "A Persianate society is a society that is based on or strongly influenced by the Persian language, culture, literature, art or identity. The term Persianate is a neologism credited to Marshall Hodgson. In his 1974 book, The Venture of Islam",
+      "image": "Sleeping_Rustam.jpg"
+    },
+    "Herat": {
+      "title": "Herat",
+      "lead": "Herat, also written as Harat or Hirat, and historically known as Haraiva, Horeiva and Hires, is a city in western Afghanistan, serving as the capital and largest city of Herat Province. It has long been the third-largest city of Afghanistan",
+      "image": "Herat_7452a.jpg"
+    },
+    "Iranian_peoples": {
+      "title": "Iranian peoples",
+      "lead": "Iranian peoples, or Iranic peoples, are a diverse ethnolinguistic group who are identified chiefly by their native usage of any of the Iranian languages, which are a branch of the Indo-Iranian languages within the Indo-European language fam",
+      "image": "Iranian_languages_distribution.png"
+    },
+    "Middle_East": {
+      "title": "Middle East",
+      "lead": "The Middle East is a geopolitical region that is generally defined as encompassing most of West Asia except for the Caucasus region. It roughly corresponds with what was historically referred to in Western Europe as the Near East, which was",
+      "image": "Middle_East_(orthographic_projection).svg"
+    },
+    "Tiger": {
+      "title": "Tiger",
+      "lead": "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally c",
+      "image": "Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg"
+    },
+    "Song_dynasty": {
+      "title": "Song dynasty",
+      "lead": "The Song dynasty ( SUUNG) was an imperial dynasty of China that ruled from 960 to 1279. The dynasty was founded by Emperor Taizu of Song, who usurped the throne of the Later Zhou dynasty and went on to conquer the rest of the Ten Kingdoms, ",
+      "image": "China_-_Song_Dynasty-en.svg"
+    },
+    "Pope": {
+      "title": "Pope",
+      "lead": "The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, Roman pontiff, or sovereign pontiff. From the 8th century until 1870, the pope was the sovereign or head of state of the ",
+      "image": "Pope_Leo_XIV_3_(3x4_cropped).png"
+    },
+    "Selim_I": {
+      "title": "Selim I",
+      "lead": "Selim I (Ottoman Turkish: سليم اول; Turkish: I. Selim; 10 October 1470 – 22 September 1520), also known as Selim the Grim or Selim the Resolute (Turkish: Yavuz Sultan Selim), was the sultan of the Ottoman Empire from 1512 to 1520. Despite l",
+      "image": "Nakkaş_Selim.jpg"
+    },
     "Kamran_Mirza": {
       "title": "Kamran Mirza",
       "lead": "Kamran Mirza (Persian: کامران میرزا; c. 1509 – 16/18 October 1557) was the second son of Babur, the founder of the Mughal Empire and the first Mughal Emperor. Kamran Mirza was born in Kabul to Babur's wife Gulrukh Begum. He was half-brother",
@@ -592,20 +1017,10 @@
       "lead": "Umerkot (Urdu: عمرکوٹ; Dhatki : عمرڪوٽ; Sindhi: عمرڪوٽ; IPA: [ʊmərkoːʈ], formerly known as Amarkot) is a city in the Sindh province of Pakistan. The Mughal emperor Akbar was born in Amarkot in 1542. The Hindu folk deities Pabuji and Ramdev ",
       "image": "Umarkot_Fort_view3.JPG"
     },
-    "Kandahar": {
-      "title": "Kandahar",
-      "lead": "Kandahar is a city in southern Afghanistan, serving as the capital and largest city of Kandahar Province. It is within the jurisdiction of Kandahar District and has an estimated population of 732,629 settled residents. Mullah Hekmatullah is",
-      "image": "Aerial_view_of_a_section_of_Kandahar_in_2013.jpg"
-    },
     "Hamida_Banu_Begum": {
       "title": "Hamida Banu Begum",
       "lead": "Hamida Banu Begum (Persian: حمیده بانو بیگم; c. 1527 – 29 August 1604) was the empress consort of the second Mughal emperor Humayun and the mother of his successor, the third Mughal emperor Akbar. She was bestowed the title of Mariam Makani",
       "image": "Young_Akbar_Recognizes_His_Mother_(detail),_from_an_Akbarnama_(1596-1600).jpg"
-    },
-    "Behzad": {
-      "title": "Behzad",
-      "lead": "Behzad, or Behzaad (from Classical Persian: بهزاد Bihzād, lit. 'well-born', from به bih 'good' + زاد zād 'born'; Iranian Persian: بهزاد Behzâd; Hindi: बेहज़ाद, romanized: Bēhzād; Urdu: بہزاد, romanized: Bihzād; Tajik: Беҳзод; Turkish: Behza",
-      "image": ""
     },
     "Gulbadan_Begum": {
       "title": "Gulbadan Begum",
@@ -622,9 +1037,144 @@
       "lead": "Sher Mandal (Sher Shah's Pavilion) is a 16th-century historic Library within the Purana Qila fort located in Delhi, India. Designed in a blend of Indo-islamic, Timurid and Persian architecture, it is the only surviving palace structure with",
       "image": "Sher_Mandal_-_Old_Fort_-_New_Delhi_2014-05-13_2911.JPG"
     },
+    "Timurid_dynasty": {
+      "title": "Timurid dynasty",
+      "lead": "The Timurid dynasty, self-designated as Gurkani, was the ruling dynasty of the Timurid Empire (1370–1507). It was a Sunni Muslim dynasty or Barlās clan of Turco-Mongol origin descended from the warlord Timur (also known as Tamerlane). The w",
+      "image": "Timur_reconstruction03.jpg"
+    },
+    "Gujarat": {
+      "title": "Gujarat",
+      "lead": "Gujarat (Gujarati: Gujarāt, pronounced [ˈɡudʒəɾaːt] ) is a state along the western coast of India. Its coastline of about 2,340 km (1,450 mi) is the longest in the country, most of which lies on the Kathiawar peninsula. Gujarat is the fifth",
+      "image": "Rani_ki_vav_02.jpg"
+    },
+    "Gujarat_Sultanate": {
+      "title": "Gujarat Sultanate",
+      "lead": "The Gujarat Sultanate or Sultanate of Gujarat was a late medieval Indian sultanate in Western India, primarily based in the present-day state of Gujarat. The kingdom was established in 1394 when Muzaffar Shah I, the governor of Gujarat, dec",
+      "image": "India_in_1525_Joppen.jpg"
+    },
+    "Turkic_peoples": {
+      "title": "Turkic peoples",
+      "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
+      "image": "Turkic_Languages_distribution_map.png"
+    },
+    "Ganges": {
+      "title": "Ganges",
+      "lead": "The Ganges ( GAN-jeez; in India: Ganga, GUNG-gah; in Bangladesh: Padma, PUD-mə) is a trans-boundary river of Asia which flows through India and Bangladesh. The 2,525-kilometre-long (1,569 mi) river rises in the western Himalayas in the Indi",
+      "image": "Varanasiganga.jpg"
+    },
+    "Pakistan": {
+      "title": "Pakistan",
+      "lead": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country, with a population of over 241.5 million, having the second-largest Muslim population as of 2023. Islamabad is the nati",
+      "image": "Flag_of_Pakistan.svg"
+    },
+    "Thar_Desert": {
+      "title": "Thar Desert",
+      "lead": "The Thar Desert (Rajasthani pronunciation: [t̪ʰaːɾ]), also known as the Great Indian Desert, is an arid region in the north-western part of the Indian subcontinent stretching across India and Pakistan. Covering an area of 264,091 km2 (101,9",
+      "image": "Thar_desert_Rajasthan_India.jpg"
+    },
+    "Twelver": {
+      "title": "Twelver Shi'ism",
+      "lead": "Twelver Shi'ism (Arabic: اِثْنَا عَشَرِيَّة, romanized: Ithnā ʿAshariyya; Persian: دوازده‌ امامی, romanized: Davāzdah-emāmī) is the largest branch of Shia Islam. Twelver Shi'as believe that the Twelve Imams are divinely appointed as both sp",
+      "image": "Fonds_Christian_Bromberger_-_Affiches_de_la_période_de_la_Révolution_islamique_(Iran,_1978-1979)_-_Ali_ibn_Abi_Talib_entouré_des_onze_imams_chiites_(MédiHAL_1791970).jpg"
+    },
+    "Shia_Islam": {
+      "title": "Shia Islam",
+      "lead": "Shia Islam is the second-largest branch of Islam. It is rooted in the belief that the Islamic prophet Muhammad explicitly designated his cousin and son-in-law Ali ibn Abi Talib (r. 656–661) as his rightful political successor (caliph) and t",
+      "image": ""
+    },
+    "Mecca": {
+      "title": "Mecca",
+      "lead": "Mecca, officially Makkah al-Mukarramah, is a city in the Hejazi region of western Saudi Arabia and is the capital of Mecca Province. Mecca is considered the birthplace of Islam and the Islamic prophet Muhammad, as well as being the holiest ",
+      "image": "Great_Mosque_of_Mecca1.jpg"
+    },
+    "Tabriz": {
+      "title": "Tabriz",
+      "lead": "Tabriz (Persian: تبریز, romanized: tabriz, pronounced [tæbˈɾiːz] ) is a city in the Central District of Tabriz County, in East Azerbaijan province of northwestern Iran. It serves as capital of the province, the county, and the district. It ",
+      "image": "Tabriz_Municipality_Sa'at_Tower.jpg"
+    },
+    "Akbar%27s_tomb": {
+      "title": "Akbar's tomb",
+      "lead": "Akbar's tomb is the mausoleum of the third and greatest Mughal emperor Akbar. The tomb was built in 1605–1613 by his son, Jahangir and is situated on 119 acres of grounds in Sikandra, a suburb of Agra, Uttar Pradesh, India. The buildings ar",
+      "image": "Akbar's_Tomb_in_Sikandra_15.jpg"
+    },
+    "Philip_II_of_Spain": {
+      "title": "Philip II of Spain",
+      "lead": "Philip II (21 May 1527 – 13 September 1598), sometimes known in Spain as Philip the Prudent (Spanish: Felipe el Prudente), was King of Spain from 1556, King of Portugal from 1580, and King of Naples and Sicily from 1554 until his death in 1",
+      "image": "Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+    },
+    "Austria": {
+      "title": "Austria",
+      "lead": "Austria, formally the Republic of Austria, is a landlocked country in Central Europe, lying in the Eastern Alps. It is a federation of nine states, of which the capital Vienna is the most populous city and state. Austria is bordered by Germ",
+      "image": "Flag_of_Austria.svg"
+    },
+    "Caspian_Sea": {
+      "title": "Caspian Sea",
+      "lead": "The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually referred to as a full-fledged sea. An endorheic basin, it is situated in both Europe and Asia: east of the Caucasus, west of the ",
+      "image": "Caspian_Sea_from_orbit.jpg"
+    },
+    "Ming_dynasty": {
+      "title": "Ming dynasty",
+      "lead": "The Ming dynasty, officially the Great Ming, was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty. The Ming was the last imperial dynasty of China ruled by the Han people, the ",
+      "image": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
+    },
+    "Shaanxi": {
+      "title": "Shaanxi",
+      "lead": "Shaanxi is a province in Northwestern China. It borders the province-level divisions of Inner Mongolia to the north; Shanxi and Henan to the east; Hubei, Chongqing, and Sichuan to the south; and Gansu and Ningxia to the west. Shaanxi covers",
+      "image": "Qianling_Mausoleum_25_2013-08.JPG"
+    },
+    "Abd_al-Samad": {
+      "title": "Abd al-Samad",
+      "lead": "'Abd al-Ṣamad or Khwaja 'Abd-us-Ṣamad Shirazi (Persian: خواجه عبدالصمد شیرازی), was a 16th century painter of Persian miniatures who moved to India and became one of the founding masters of the Mughal miniature tradition, and later the hold",
+      "image": "Хосров_слушает_музыку_Барбада.Хамсе,_Низами._1539-43._Брит.библ..jpg"
+    },
+    "Suleiman_the_Magnificent": {
+      "title": "Suleiman the Magnificent",
+      "lead": "Suleiman I (6 November 1494 – 6 September 1566), commonly known as Suleiman the Magnificent, was the Ottoman sultan from 1520 to 1566. The longest reign among the Ottoman sultans, his rule brought about a notable peak in the Ottoman Empire'",
+      "image": "EmperorSuleiman.jpg"
+    },
+    "Mary_I_of_England": {
+      "title": "Mary I",
+      "lead": "Mary I (18 February 1516 – 17 November 1558) was Queen of England and Ireland from July 1553 and Queen of Spain as the wife of King Philip II from January 1556 until her death in 1558. She made vigorous attempts to reverse the English Refor",
+      "image": "Maria_Tudor1.jpg"
+    },
+    "Islam_Shah_Suri": {
+      "title": "Islam Shah Suri",
+      "lead": "Islam Shah Suri (born Jalal Khan; 1507 – 22 November 1554) also known as Salim Shah Suri, was Sultan of Hindustan from 27 May 1545 until his death in 1554. He was the second ruler of the Sur Empire which ruled parts of India in the mid-16th",
+      "image": "Islam_Shah_Suri.jpg"
+    },
+    "Suri_Empire": {
+      "title": "Sur Empire",
+      "lead": "The Sur Empire was an empire ruled by the Afghan-origin Sur dynasty in northern India for nearly 16 or 18 years, between 1538/1540 and 1556, with Sasaram (in modern-day Bihar) serving as its capital. It was founded by Sher Shah Suri. The Su",
+      "image": "The_Sur_Empire_at_its_height.png"
+    },
+    "Askari_Mirza": {
+      "title": "Askari Mirza",
+      "lead": "Muhammad Askari Mirza (Persian: محمد عسکری میرزا), sometimes known simply as Askari Mirza (5 February 1516 – 1558) was a son of Babur, the founder of the Mughal dynasty and Gulrukh Begum. Askari was also a general of the Mughal Army known f",
+      "image": ""
+    },
+    "Hindal_Mirza": {
+      "title": "Hindal Mirza",
+      "lead": "Abu'l-Nasir Muhammad (Persian: ابوالنصیر محمد; 4 March 1519 – 20 November 1551), better known by the sobriquet Hindal (Chagatai for 'Taker of India'), was a Mughal prince and the youngest son of Emperor Babur, the founder of the Mughal Empi",
+      "image": "Contemporary_portrait_of_Hindal_Mirza_(painted_in_1546).jpg"
+    },
+    "Afghans": {
+      "title": "Afghans",
+      "lead": "Though an ethnonym for most of its existence, Afghans are now known as the citizens and nationals of Afghanistan. They are composed of various ethnic groups, of which Pashtuns, Tajiks, Hazaras, and Uzbeks are the largest. The two main langu",
+      "image": "Map_of_the_Afghan_Diaspora_in_the_World.svg"
+    },
+    "Pakistanis": {
+      "title": "Pakistanis",
+      "lead": "Pakistanis (Urdu: پاكِستانى قوم, romanized: Pākistānī Qaum, lit. 'Pakistani Nation') are the citizens and nationals of the Islamic Republic of Pakistan. Pakistan is the fifth-most populous country, with a population of over 241.5 million, h",
+      "image": "Flag_of_Pakistan.svg"
+    },
+    "Ferdinand_I,_Holy_Roman_Emperor": {
+      "title": "Ferdinand I, Holy Roman Emperor",
+      "lead": "Ferdinand I (10 March 1503 – 25 July 1564) was Holy Roman Emperor from 1556, King of Bohemia, Hungary, and Croatia from 1526, and Archduke of Austria from 1521 until his death in 1564. Before his accession as emperor, he ruled the Austrian ",
+      "image": "Hans_Bocksberger_der_Aeltere_001(cropped).jpg"
+    },
     "Vikramaditya": {
       "title": "Vikramaditya",
-      "lead": "Vikramaditya (IAST: Vikramāditya) was a mythical king as mentioned in ancient Indian literature, featuring in traditional stories including those in Vetala Panchavimshati and Singhasan Battisi. Many describe him as ruler with his capital at",
+      "lead": "Vikramaditya (IAST: Vikramāditya) was a king as mentioned in ancient Indian literature, featuring in traditional stories including those in Vetala Panchavimshati and Singhasan Battisi. Many describe him as ruler with his capital at Ujjain (",
       "image": "Vetal.jpg"
     },
     "Abdul_Rahim_Khan-i-Khanan": {
@@ -637,14 +1187,9 @@
       "lead": "The Kachhwaha is a Rajput clan found primarily in India. They claim to be descendants of Kusha, hence from the Suryavanshi (Solar) dynasty. The Kachhwahas ruled the Kingdom of Amber in present-day Rajasthan, India.",
       "image": "Raja_Man_Singh_of_Amber.jpg"
     },
-    "Amer,_India": {
-      "title": "Amber, India",
-      "lead": "Amber or Amer, is a city near Jaipur city in Jaipur district in the Indian state of Rajasthan. It is now a part of the Jaipur Municipal Corporation. The picturesque situation of Amber at the mouth of a rocky mountain gorge, in which nestles",
-      "image": "Amer_City.jpg"
-    },
     "Man_Singh_I": {
       "title": "Man Singh I",
-      "lead": "Mirza Raja Man Singh I (21 December 1550 – 6 July 1614) was the 24th Kachawaha Rajput ruler of the Kingdom of Amber from 1589 to 1614. For the Mughals, he also served as the foremost imperial Subahdar of Bihar Subah from 1587 to 1594, then ",
+      "lead": "Mirza Raja Man Singh I (21 December 1550 – 6 July 1614) was the 24th Kachawaha ruler of the Kingdom of Amber from 1589 to 1614. For the Mughals, he also served as the foremost imperial Subahdar of Bihar Subah from 1587 to 1594, then for Ben",
       "image": "Man_Singh,_c._1590.jpg"
     },
     "Tulsidas": {
@@ -692,11 +1237,6 @@
       "lead": "The Ain-i-Akbari (Persian: آئینِ اکبری), or the \"Administration of Akbar\", is a detailed document regarding the administration of the Mughal Empire under Emperor Akbar, written by his court historian, Abu'l Fazl, in the Persian language bet",
       "image": "Basawan_-_The_Young_Emperor_Akbar_Arrests_the_Insolent_Shah_Abu’l-Maali,_page_from_a_manuscript_of_the_Akbarnama_-_1919.898_-_Art_Institute_of_Chicago.jpg"
     },
-    "Akbar%27s_tomb": {
-      "title": "Akbar's tomb",
-      "lead": "Akbar's tomb is the mausoleum of the third and greatest Mughal emperor Akbar. The tomb was built in 1605–1613 by his son, Jahangir and is situated on 119 acres of grounds in Sikandra, a suburb of Agra, Uttar Pradesh, India. The buildings ar",
-      "image": "Akbar's_Tomb_in_Sikandra_15.jpg"
-    },
     "Elizabeth_I": {
       "title": "Elizabeth I",
       "lead": "Elizabeth I (7 September 1533 – 24 March 1603) was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on histor",
@@ -706,6 +1246,131 @@
       "title": "Abbas the Great",
       "lead": "Abbas I (Persian: عباس یکم, romanized: Abbâs-e Yekom; 27 January 1571 – 19 January 1629), commonly known as Abbas the Great (Persian: عباس بزرگ, romanized: Abbâs-e Bozorg), was the fifth Safavid shah of Iran from 1588 to 1629. The third son",
       "image": "12_Abu'l_Hasan_Jahangir_Welcoming_Shah_'Abbas,_ca._1618,_Freer_Gallery_of_Art,_Washington_DC_(portrait).jpg"
+    },
+    "Hindi": {
+      "title": "Hindi",
+      "lead": "Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an Indo-Aryan language written in the Devanagari script. It is an official language of the government of India, and is the ",
+      "image": "Hindi.svg"
+    },
+    "Ashoka": {
+      "title": "Ashoka",
+      "lead": "Ashoka, also known as Asoka or Aśoka ( ə-SHOH-kə; Sanskrit: [ɐˈɕoːkɐ], IAST: Aśoka; c. 304 – 232 BCE), most commonly known as Ashoka the Great, was Emperor of Magadha from c. 268 BCE until his death, and the third ruler from the Mauryan dyn",
+      "image": "Ashoka's_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg"
+    },
+    "Turkmen_people": {
+      "title": "Turkmens",
+      "lead": "Turkmens (Turkmen: Türkmenler, Түркменлер, توركمنلر‎, [tʏɾkmønˈløɾ]) are a Turkic ethnic group native to Central Asia, living mainly in Turkmenistan, northern and northeastern regions of Iran and north-western Afghanistan. Sizeable groups o",
+      "image": "Independence_Day_Parade_-_Flickr_-_Kerri-Jo_(215).jpg"
+    },
+    "Hajj": {
+      "title": "Hajj",
+      "lead": "Hajj (Arabic: حَجّ, romanized: Ḥajj [ħaddʒ]; also spelled Hadj or Haj) is an annual Islamic pilgrimage to Mecca, Saudi Arabia, the holiest city in Islam. Hajj is a one-time-required religious duty for all Muslims who are physically and fina",
+      "image": "The_Kaaba_during_Hajj.jpg"
+    },
+    "Ramayana": {
+      "title": "Ramayana",
+      "lead": "The Ramayana (; Sanskrit: रामायणम्, romanized: Rāmāyaṇam), also known as the Valmiki Ramayana, as traditionally attributed to Valmiki, is a Hindu smriti epic poem (also described as a Sanskrit epic) from ancient India, one of the two import",
+      "image": "Rāma_slays_Rāvaṇa.png"
+    },
+    "Sharia": {
+      "title": "Sharia",
+      "lead": "Sharia (; Arabic: ‏شَرِيعَة‎, romanized: šarīʿa, lit. 'path [to water]', IPA: [ʃaˈriːʕa]), also transliterated as Sharī'ah, Shari'a, or Shariah, is a body of religious law that form the Islamic tradition based on scriptures of Islam, partic",
+      "image": ""
+    },
+    "Arabic_language": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Zoroastrianism": {
+      "title": "Zoroastrianism",
+      "lead": "Zoroastrianism, also called Mazdayasna and Behdin, is an Iranian religion centred on the Avesta and the teachings of Zarathushtra Spitama, who is more commonly referred to by the Greek translation, Zoroaster (Ancient Greek: Ζωροάστρις, roma",
+      "image": "Faravahar_on_Fire_Temple,_Yazd.jpg"
+    },
+    "Society_of_Jesus": {
+      "title": "Jesuits",
+      "lead": "The Society of Jesus (Latin: Societas Iesu; abbreviation: S.J. or SJ), also known as the Jesuit Order or the Jesuits ( JEZH-oo-its, JEZ-ew-; Latin: Iesuitae), is a religious order of clerics regular of pontifical right for men in the Cathol",
+      "image": "Ihs-logo.svg"
+    },
+    "Brahman": {
+      "title": "Brahman",
+      "lead": "In the Vedic and Hindu religions, Brahman (Sanskrit: ब्रह्मन्; IAST: Brahman) has a \"variety of meanings\", but in the Upanishads and later Indian philosophies it connotes 'That' from which all existence proceeds, and to which everything ret",
+      "image": "Aum_Om_black.svg"
+    },
+    "Ahura_Mazda": {
+      "title": "Ahura Mazda",
+      "lead": "Ahura Mazda ( ə-HOOR-ə MAZ-də), also known as Ormazd and Horomazes, is the principal God and sky deity in Zoroastrianism. He is the first and most frequently invoked spirit in the Yasna. The literal meanings of the words Ahura and Mazda are",
+      "image": "Naqshe_Rostam_Darafsh_Ordibehesht_93_(35).JPG"
+    },
+    "Sanskrit": {
+      "title": "Sanskrit",
+      "lead": "Sanskrit (; stem form संस्कृत; nominal singular संस्कृतम्, saṃskṛtam,) is a classical language belonging to the Indo-Aryan branch of the Indo-European languages. It arose in South Asia after its predecessor languages had diffused there from",
+      "image": "BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg"
+    },
+    "Indo-Islamic_architecture": {
+      "title": "Indo-Islamic architecture",
+      "lead": "Indo-Islamic architecture is the architecture of the Indian subcontinent produced by and for Islamic patrons and purposes. Despite an initial Arab presence in Sindh, the development of Indo-Islamic architecture began in earnest with the est",
+      "image": "Tomb_of_Shah_Rukn-e-Alam_2014-07-31.jpg"
+    },
+    "Bangladesh": {
+      "title": "Bangladesh",
+      "lead": "Bangladesh, officially the People's Republic of Bangladesh, is a country in South Asia. It is the eighth-most populous country in the world and among the most densely populated with a population of almost 176 million within an area of 148,4",
+      "image": "Flag_of_Bangladesh.svg"
+    },
+    "Isfahan": {
+      "title": "Isfahan",
+      "lead": "Isfahan (Persian: اصفهان [esfæˈhɒːn] ) is a city in the Central District of Isfahan County, Isfahan Province, Iran. It is the capital of the province, the county, and the district. It is located 440 kilometres (270 miles) south of Tehran. T",
+      "image": "Naghshe_jahan_01.jpg"
+    },
+    "Bharmal": {
+      "title": "Bharmal",
+      "lead": "Raja Bharmal, also known as Bihari Mal, and Bihar Mal (1498 – 27 January 1574), was the 23rd ruler of Amber, which was later known as Jaipur. He was a ruler of the Kachhwaha clan. His daughter, Mariam-uz-Zamani was the chief consort of the ",
+      "image": "Raja_bharmal_painting.jpg"
+    },
+    "Fatawa_'Alamgiri": {
+      "title": "Fatawa 'Alamgiri",
+      "lead": "Fatawa 'Alamgiri, also called Al-Fatawa al-Hindiyyah (Arabic: الفتاوى الهندية; lit. 'Fatwa of India'), Fatawa Hindiyyah, Fatawa-e-Alamgiri or Al-Fatawa al-'Alamkiriyyah (Arabic: الفتاوى العالمكيرية; lit. 'Fatwa of the Alamgir'), is a 17th-c",
+      "image": "Manuscript_copy_of_al-Fatawa_al-'Alamgiriyyah.jpg"
+    },
+    "Panch_Mahal,_Fatehpur_Sikri": {
+      "title": "Panch Mahal, Fatehpur Sikri",
+      "lead": "Panch Mahal is a palace in Fatehpur Sikri, Uttar Pradesh, India. The Panch Mahal meaning 'Five level Palace' was commissioned by Akbar. This structure stands close to the Zenana quarters (Harem) which supports the supposition that it was us",
+      "image": "Panch_Mahal_and_its_gardens.jpg"
+    },
+    "Anup_Talao": {
+      "title": "Anup Talao",
+      "lead": "The Anup Talao is a pavilion completed in 1576. It is set in the centre of a pool in the courtyard of the Fatehpur Sikri Fort in Fatehpur Sikri, Uttar Pradesh, India. The pavilion is also known as \"Char-Chamad\", referring to the four bridge",
+      "image": "Anup_Talao_at_Sikri_(29889368615).jpg"
+    },
+    "Faizi": {
+      "title": "Faizi",
+      "lead": "Abu al-Faiz ibn Mubarak, popularly known by his pen-name, Faizi (20 September 1547 – 15 October 1595) was a poet and scholar of late medieval India whose ancestors were the Malik-ush-Shu'ara (poet laureate) of Akbar's Court. He was the elde",
+      "image": ""
+    },
+    "Vir_Singh_Deo": {
+      "title": "Vir Singh Deo",
+      "lead": "Raja Vir Singh Ju Deo, also known as Bir Singh Dev, was a Bundela Rajput chief and the ruler of the kingdom of Orchha in the historic Bundelkhand region of modern Madhya Pradesh. He was a vassal of the imperial Mughal Empire and ruled from ",
+      "image": "Brooklyn_Museum_-_Portrait_of_Rao_Vir_Singh.jpg"
+    },
+    "Allah": {
+      "title": "Allah",
+      "lead": "Allah ( A(H)L-ə, ə-LAH; Arabic: الله, IPA: [ɑɫˈɫɑː] ) is the Arabic language term for God, mainly the monotheistic God of Abraham. Outside of Arabic languages, it is principally associated with Islam (in which it is also considered the prop",
+      "image": "Allah-green.svg"
+    },
+    "Hindus": {
+      "title": "Hindus",
+      "lead": "Hindus (Hindustani: [ˈɦɪndu] ; ), also known as Sanatanis, are people who religiously adhere to Hinduism, also known by its endonym Sanatana Dharma. Historically, the term has also been used as a geographical, cultural, and later religious ",
+      "image": "Puran_Reading_in_a_Temple.jpg"
+    },
+    "Jainism": {
+      "title": "Jainism",
+      "lead": "Jainism ( JAY-niz-əm, JYE-niz-əm), also known as Jain Dharma, is an Indian religion that teaches a path toward spiritual purity and enlightenment through disciplined nonviolence (ahimsa) to all living creatures. The tradition is spiritually",
+      "image": ""
+    },
+    "Elizabethan_era": {
+      "title": "Elizabethan era",
+      "lead": "The Elizabethan era is the epoch in the Tudor period of the history of England during the reign of Queen Elizabeth I (1558–1603). Historians often depict it as the golden age in English history, with an effective government, resulting from ",
+      "image": "Queen_Elizabeth_I_by_George_Gower.jpg"
     },
     "Jahangirnama": {
       "title": "Tuzk-e-Jahangiri",
@@ -787,15 +1452,135 @@
       "lead": "The Siddi (pronounced [sɪdːiː]), also known as the Sheedi, Sidi, or Siddhi, are an ethnic group living in Pakistan and India. They are primarily descended from the Bantu peoples of the Zanj coast in Southeast Africa, most of whom came to th",
       "image": "Siddi_community_(16527139018).jpg"
     },
-    "Tokugawa_Ieyasu": {
-      "title": "Tokugawa Ieyasu",
-      "lead": "Tokugawa Ieyasu (born Matsudaira Takechiyo; January 31, 1543 – June 1, 1616) was a Japanese samurai, daimyo and the founder and first shogun of the Tokugawa shogunate of Japan, which ruled from 1603 until the Meiji Restoration in 1868. He w",
-      "image": "Tokugawa_Ieyasu2.JPG"
-    },
     "Hamzanama": {
       "title": "Hamzanama",
       "lead": "The Hamzanama (Persian/Urdu: حمزه‌نامه Hamzenâme, lit. 'Epic of Hamza') or Dastan-e-Amir Hamza (Persian/Urdu: داستان امیر حمزه, Dâstân-e Amir Hamze, lit. 'Adventures of Amir Hamza') narrates the legendary exploits of Hamza ibn Abdul-Muttali",
       "image": "The_Spy_Zanbur_Bringing_Mahiyya_to_the_City_of_Tawariq,_Folio_from_a_Hamzanama_ca._1570_(74x57.2_cm)_Metmuseum_N-Y.jpg"
+    },
+    "Murad_Mirza_(son_of_Akbar)": {
+      "title": "Murad Mirza (son of Akbar)",
+      "lead": "Murad Mirza (Persian: مراد میرزا; 15 June 1570 – 12 May 1599) was a Mughal prince and the second surviving son of Mughal Emperor Akbar. He was raised by Salima Sultan Begum until the age of 5. He was the maternal grandfather of Nadira Banu ",
+      "image": "Portrait_of_Mughal_prince_Sultan_Murad_(cropped).jpg"
+    },
+    "Shahryar_Mirza": {
+      "title": "Shahryar Mirza",
+      "lead": "Shahryar Mirza (Persian: شهریار میرزا, born Salaf-ud-Din Muhammad Shahryar; 6 January 1605 – 23 January 1628) was the fifth and youngest son of the Mughal emperor Jahangir. Toward the end of Jahangir’s life, and after his death, Shahryar at",
+      "image": "Mirzashahryr.png"
+    },
+    "Mir_Sayyid_Ali": {
+      "title": "Mir Sayyid Ali",
+      "lead": "Mir Sayyid Ali (Persian: میرسید علی, Tabriz, 1510 – 1572) was a Persian miniature painter who was a leading artist of Persian miniatures before working under the Mughal dynasty in India, where he became one of the artists responsible for de",
+      "image": "Mir_Sayyid_Ali,_self-portrait_in_Indian_dress,_1555-1556.jpg"
+    },
+    "Kashmir": {
+      "title": "Kashmir",
+      "lead": "Kashmir ( KASH-meer or kash-MEER) is the northernmost geographical region of the Indian subcontinent. Until the mid-19th century, the term Kashmir denoted only the Kashmir Valley between the Great Himalayas and the Pir Panjal Range. The ter",
+      "image": "Kashmir_region._LOC_2003626427_-_showing_sub-regions_administered_by_different_countries.jpg"
+    },
+    "King_James_Version": {
+      "title": "King James Version",
+      "lead": "The King James Version (KJV), also known as the King James Bible (KJB) and the Authorized Version, is an Early Modern English translation of the Christian Bible for the Church of England, which was commissioned in 1604 and published in 1611",
+      "image": "KJV-King-James-Version-Bible-first-edition-title-page-1611.jpg"
+    },
+    "Ajmer": {
+      "title": "Ajmer",
+      "lead": "Ajmer (pronounced [əd͡ʑ.meːɾ] ) is a city in the north-western Indian state of Rajasthan. It serves as the administrative headquarters of the Ajmer district and Ajmer division. It lies at the centre of Rajasthan, earning it the nickname the",
+      "image": "ADHAI_DIN_KA_JHONPRA.jpg"
+    },
+    "Mandu,_Madhya_Pradesh": {
+      "title": "Mandu, Madhya Pradesh",
+      "lead": "Mandu or Mandavgad is an ancient city in the present-day Mandav area of the Dhar district. It is located in the Malwa and Nimar region of western Madhya Pradesh, India, at 35 km from Dhar city. In the 11th century, Mandu was the sub divisio",
+      "image": "JahazMahal.jpg"
+    },
+    "Charles_II_of_England": {
+      "title": "Charles II of England",
+      "lead": "Charles II (29 May 1630 – 6 February 1685) was King of Scotland from 1649 until 1651 and King of England, Scotland, and Ireland from the 1660 Restoration of the monarchy until his death in 1685. Charles II was the eldest surviving child of ",
+      "image": "King_Charles_II_by_John_Michael_Wright_or_studio.jpg"
+    },
+    "Kolkata": {
+      "title": "Kolkata",
+      "lead": "Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian state of West Bengal. It lies on the eastern bank of the Hooghly River, 80 km (50 mi) west of the border with Bangladesh. It is th",
+      "image": "Kolkata_maidan.jpg"
+    },
+    "Thirty_Years%27_War": {
+      "title": "Thirty Years' War",
+      "lead": "The Thirty Years' War, fought primarily in Central Europe between 1618 and 1648, was one of the most destructive conflicts in European history. An estimated 4.5 to 8 million soldiers and civilians died from the effects of battle, famine, or",
+      "image": "Carl_Friedrich_Lessing_-_The_Siege_(Defense_of_a_Church_Courtyard_During_the_Thirty_Years’_War)_-_Google_Art_Project.jpg"
+    },
+    "Battle_of_Sekigahara": {
+      "title": "Battle of Sekigahara",
+      "lead": "The Battle of Sekigahara (Shinjitai: 関ヶ原の戦い; Kyūjitai: 關ヶ原の戰い, Hepburn romanization: Sekigahara no Tatakai) was an important battle in Japan which occurred on October 21, 1600 (Keichō 5, 15th day of the 9th month) in what is now Gifu Prefec",
+      "image": "Sekigaharascreen.jpg"
+    },
+    "Tokugawa_shogunate": {
+      "title": "Tokugawa shogunate",
+      "lead": "The Tokugawa shogunate, also known as the Edo shogunate, was the military government of Japan during the Edo period from 1603 to 1868. The Tokugawa shogunate was established by Tokugawa Ieyasu after victory at the Battle of Sekigahara, endi",
+      "image": "Flag_of_the_Tokugawa_Shogunate.svg"
+    },
+    "Wanli_Emperor": {
+      "title": "Wanli Emperor",
+      "lead": "The Wanli Emperor (4 September 1563 – 18 August 1620), personal name Zhu Yijun, was the 14th emperor of the Ming dynasty, reigning from 1572 to 1620. He succeeded his father, the Longqing Emperor. The Wanli Emperor ascended the throne at th",
+      "image": "MingShenzong1.jpg"
+    },
+    "Manchu_people": {
+      "title": "Manchu people",
+      "lead": "The Manchus (Manchu: ᠮᠠᠨᠵᡠ, romanized: manju; Chinese: 满洲、满族; pinyin: Mǎnzhōu, Mǎnzú; Wade–Giles: Man3-chou1, Man3-tsu2) are a Tungusic East Asian ethnic group native to Manchuria in Northeast Asia. They are an officially recognized ethnic ",
+      "image": "Empress_Wan_Rong.jpg"
+    },
+    "Murad_IV": {
+      "title": "Murad IV",
+      "lead": "Murad IV (Ottoman Turkish: مراد رابع, Murād-ı Rābiʿ; Turkish: IV. Murad, 27 July 1612 – 8 February 1640) was the sultan of the Ottoman Empire from 1623 to 1640, known both for restoring the authority of the state and for the brutality of hi",
+      "image": "IV_Murat.jpg"
+    },
+    "Iran": {
+      "title": "Iran",
+      "lead": "Iran, officially the Islamic Republic of Iran, historically known as Persia, is a country in West Asia. It borders Iraq to the west, Turkey, Azerbaijan, and Armenia to the northwest, the Caspian Sea to the north, Turkmenistan to the northea",
+      "image": "Flag_of_Iran_(official).svg"
+    },
+    "Galileo_Galilei": {
+      "title": "Galileo Galilei",
+      "lead": "Galileo di Vincenzo Bonaiuti de' Galilei (15 February 1564 – 8 January 1642), commonly referred to as Galileo Galilei, was an Italian astronomer, physicist, and engineer, sometimes described as a polymath. He was born in the city of Pisa, t",
+      "image": "Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff"
+    },
+    "William_Shakespeare": {
+      "title": "William Shakespeare",
+      "lead": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's natio",
+      "image": "William_Shakespeare_by_John_Taylor,_edited.jpg"
+    },
+    "Miguel_de_Cervantes": {
+      "title": "Miguel de Cervantes",
+      "lead": "Miguel de Cervantes Saavedra ( sur-VAN-teez, -⁠tiz; Spanish: [miˈɣel de θeɾˈβantes saːˈβeðɾa]; 29 September 1547 (assumed) – 22 April 1616) was a Spanish writer widely regarded as the greatest writer in the Spanish language and one of the w",
+      "image": "Cervantes_Jáuregui.jpg"
+    },
+    "Dutch_Republic": {
+      "title": "Dutch Republic",
+      "lead": "The Republic of the Seven United Netherlands, also known as the United Provinces (of the Netherlands), and referred to in historiography as the Dutch Republic, was a confederation and great power that existed from 1588 until the Batavian Re",
+      "image": "Prinsenvlag.svg"
+    },
+    "Mirza_Ghias_Beg": {
+      "title": "Mirza Ghiyas Beg",
+      "lead": "Mirza Ghiyas Beg (Persian: مرزا غياث بيگ; c. 1544 – January 1621), also known by his title I'timad-ud-Daulah (Persian: اعتماد الدوله), was an important official in the Mughal Empire, whose children included the generals, wives and mothers o",
+      "image": "A_portrait_of_Mirza_Ghiyas_Beg_aka_'I'timād-ud-Daulah',_18th_century.jpg"
+    },
+    "Manohar_Das": {
+      "title": "Manohar Das",
+      "lead": "Manohar Das, also Manohar or Manuhar, (fl. 1582–1624) was an Indian Hindu painter in the Mughal style. Manohar's father Basawan was a master painter in the Mughal emperor's court, where Manohar grew up. His father most likely instructed him",
+      "image": "Detail_of_the_artist_Manohar,_from_an_illustrated_folio_containing_a_self-portrait_of_the_artist_Daulat_and_portraits_of_the_artists_Govardhan,_Bishandas,_Manohar,_Abu'l-Hasan,_by_Daulat,_ca.1610.jpg"
+    },
+    "Govardhan_(painter)": {
+      "title": "Govardhan (artist)",
+      "lead": "Govardhan (fl. 1595–1640) was a Mughal era Indian painter of the Mughal school of painting. His father Bhavani Das, had been a minor painter in the imperial workshop. Like many other Mughal painters, they were Hindus. He joined the imperial",
+      "image": "Detail_of_the_artist_Govardhan,_from_an_illustrated_folio_containing_a_self-portrait_of_the_artist_Daulat_and_portraits_of_the_artists_Govardhan,_Bishandas,_Manohar,_Abu'l-Hasan,_by_Daulat,_ca.1610.jpg"
+    },
+    "Bhimbar": {
+      "title": "Bhimber",
+      "lead": "Bhimber (Urdu: بھمبر) is a town and the headquarters of the eponymous district in Pakistan-administered Azad Kashmir. The town and district are between the Jammu region of Indian-administered Kashmir and Pakistan proper, about 47 km (29 mi)",
+      "image": "Bhimber.city.jpg"
+    },
+    "Dialogue_Concerning_the_Two_Chief_World_Systems": {
+      "title": "Dialogue Concerning the Two Chief World Systems",
+      "lead": "Dialogue Concerning the Two Chief World Systems (Dialogo sopra i due massimi sistemi del mondo) is a 1632 book by Galileo Galilei comparing Nicolaus Copernicus's heliocentric system model with Ptolemy's geocentric model. Written in Italian,",
+      "image": "Galileos_Dialogue_Title_Page.png"
     },
     "Ahmadnagar_Sultanate": {
       "title": "Ahmadnagar Sultanate",
@@ -814,7 +1599,7 @@
     },
     "Ustad_Ahmad_Lahauri": {
       "title": "Ustad Ahmad Lahori",
-      "lead": "Ustad Ahmad Lahori (lit. 'Master Ahmad of Lahore'; c.1580–1649), also known as Ahmad Ma'mar Lahori (lit. 'Ahmad the Architect'), was an architect and engineer of the Mughal Empire who served as the chief architect during the reign of Shah J",
+      "lead": "Ustad Ahmad Lahori (lit. 'Master Ahmad of Lahore'; c.1580–1649), also known as Ahmad Mi'mar (lit. 'Ahmad the Architect'), was an architect and engineer of the Mughal Empire who served as the chief architect during the reign of Shah Jahan. H",
       "image": "Miniature_painting_of_Ustad_Ahmad_Mimar_Lahori.jpg"
     },
     "Makrana": {
@@ -857,6 +1642,136 @@
       "lead": "Dara Shikoh (20 March 1615 – 30 August 1659), also transliterated as Dara Shukoh, was the eldest son and heir-apparent of the Mughal emperor Shah Jahan. Dara was designated with the title Padshahzada-i-Buzurg Martaba (lit. 'Prince of High R",
       "image": "Dara-S.png"
     },
+    "Sikhism": {
+      "title": "Sikhism",
+      "lead": "Sikhism, also known as Sikhi, is an Indian religion and philosophy that originated in the Punjab region of the Indian subcontinent around the end of the 15th century CE. It is one of the most recently founded major religions and is followed",
+      "image": "Hamandir_Sahib_(Golden_Temple).jpg"
+    },
+    "Agra_Fort": {
+      "title": "Agra Fort",
+      "lead": "The Agra Fort (Qila Agra) is a historical Mughal fort in the city of Agra, also known as Agra's Red Fort. Mughal emperor Humayun was crowned at this fort in 1530. It was later renovated by the Mughal emperor Akbar from 1565 and the present-",
+      "image": "Agra_03-2016_10_Agra_Fort.jpg"
+    },
+    "Maratha_people": {
+      "title": "Marathi people",
+      "lead": "The Marathi people (; Marathi: मराठी लोक, Marāṭhī lōk) or Marathis (Marathi: मराठी, Marāṭhī) are an Indo-Aryan ethnolinguistic group who are native to Maharashtra in western India. They natively speak Marathi, an Indo-Aryan language. Mahara",
+      "image": "Marathi_wedding_rituals.jpg"
+    },
+    "Tahmasp_I": {
+      "title": "Tahmasp I",
+      "lead": "Tahmasp I (Persian: طهماسب یکم, romanized: Ṭahmāsb or تهماسب یکم Tahmâsb; 22 February 1514 – 14 May 1576) was the second shah of Safavid Iran from 1524 until his death in 1576. He was the eldest son of Shah Ismail I and his principal consor",
+      "image": "Shah_Tahmasp_I_(1514-1576)_in_a_landscape_(painted_circa_1575).jpg"
+    },
+    "Abbas_II_of_Persia": {
+      "title": "Abbas II of Persia",
+      "lead": "Abbas II (Persian: عباس دوم, romanized: ʿAbbās II; born Soltan Mohammad Mirza; 30 August 1632 – 26 October 1666) was the seventh Shah of Safavid Iran, ruling from 1642 to 1666. As the eldest son of Safi and his Circassian wife, Anna Khanum,",
+      "image": "Abbas_II_of_Persia,_Palace_of_Chehel_Sotoun._Painted_circa_1647.jpg"
+    },
+    "Yamuna": {
+      "title": "Yamuna",
+      "lead": "The Yamuna (pronounced [jəmʊnɑː]; IAST: Yamunā) is the second-largest tributary river of the Ganges by discharge and the longest tributary in India. Originating from the Yamunotri Glacier at a height of about 4,500 m (14,800 ft) on the sout",
+      "image": "Vishram_Ghat.jpg"
+    },
+    "Sri_Lanka": {
+      "title": "Sri Lanka",
+      "lead": "Sri Lanka, officially the Democratic Socialist Republic of Sri Lanka, formerly known as Ceylon, is an island country in South Asia. It is located in the Indian Ocean, southwest of the Bay of Bengal, and is separated from India by the Gulf o",
+      "image": "Flag_of_Sri_Lanka.svg"
+    },
+    "Tibet": {
+      "title": "Tibet",
+      "lead": "Tibet ( ) is a region in the southwestern part of China, covering much of the Tibetan Plateau. It is the homeland of the Tibetans. Other ethnic groups also reside on the plateau, including Mongols, the Lhoba, Monpa, Qiang, Sherpa, and since",
+      "image": "Tibet-claims.jpg"
+    },
+    "Red_Sea": {
+      "title": "Red Sea",
+      "lead": "The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is in the south, through the Bab-el-Mandeb Strait and the Gulf of Aden. To the north of the Red Sea lies the Sinai Peninsula, the Gul",
+      "image": "Red_Sea_topographic_map-en.jpg"
+    },
+    "Tomb_of_I%27timad-ud-Daulah": {
+      "title": "Tomb of I'timād-ud-Daulah",
+      "lead": "Tomb of I'timād-ud-Daulah (I'timād-ud-Daulah Maqbara) is a Mughal mausoleum in the city of Agra in the Indian state of Uttar Pradesh. Often described as a \"jewel box\", sometimes called the Bachcha Taj or the Baby Taj, the tomb of I'timād-ud",
+      "image": "I'timād-ud-Daulah,_Agra.jpg"
+    },
+    "Mehrauli": {
+      "title": "Mehrauli",
+      "lead": "Mehrauli is a neighbourhood in South Delhi, Delhi, India. It represents a constituency in the Delhi Legislative Assembly. The area is close to Gurugram and next to Vasant Kunj.",
+      "image": "Qutub_Minar_(1).jpg"
+    },
+    "Tughlaqabad_Fort": {
+      "title": "Tughlaqabad Fort",
+      "lead": "Tughluqabad Fort is a ruined fort in Delhi, India. Ghiyasuddin Tughluq, the founder of the Tughlaq dynasty and ruler of the Delhi Sultanate, constructed it in 1321 when he established the third historic city of Delhi. However, it was later ",
+      "image": ""
+    },
+    "Firuz_Shah_Tughlaq": {
+      "title": "Firuz Shah Tughlaq",
+      "lead": "Firuz Shah Tughlaq (1309 – 20 September 1388), also known as Firuz III, was the Sultan of Delhi from 1351 until his death in 1388. He succeeded his cousin Muhammad bin Tughlaq following the latter's death at Thatta, Sindh. His father was Si",
+      "image": "Firoz_Shah_Taghlak_(cropped).jpg"
+    },
+    "Battle_of_Panipat_(1526)": {
+      "title": "First Battle of Panipat",
+      "lead": "The First Battle of Panipat, on 21 April 1526 was fought between the invading forces of Babur against Ibrahim Khan Lodi, the Sultan of Delhi, in North India. Babur's forces, employing gunpowder firearms and cannons, defeated Ibrahim. This w",
+      "image": "The_battle_of_Panipat_and_the_death_of_Sultan_Ibrāhīm,_the_last_of_the_Lōdī_Sultans_of_Delhi.jpg"
+    },
+    "Nader_Shah": {
+      "title": "Nader Shah",
+      "lead": "Nader Shah Afshar (born Nadr Qoli; Persian: نادرشاه افشار; 6 August 1698 or 22 October 1688 – 20 June 1747) was the founder of the Afsharid dynasty of Iran and one of the most powerful rulers in Iranian history, ruling as the emperor of Ira",
+      "image": "Contemporary_portrait_of_Nader_Shah._Artist_unknown,_created_in_ca._1740_in_Iran_(cropped).jpg"
+    },
+    "Maratha_Empire": {
+      "title": "Maratha Empire",
+      "lead": "The Maratha Empire, also referred to as the Maratha Confederacy, was an early modern polity in the Indian subcontinent. For most of its existence, it comprised the realms of the Peshwa and four major independent Maratha states under the nom",
+      "image": "India1760_1905.jpg"
+    },
+    "Peace_of_Westphalia": {
+      "title": "Peace of Westphalia",
+      "lead": "The Peace of Westphalia (German: Westfälischer Friede, pronounced [vɛstˈfɛːlɪʃɐ ˈfʁiːdə] ) is the collective name for two peace treaties signed in October 1648 in the Westphalian cities of Osnabrück and Münster. They ended the Thirty Years'",
+      "image": "Münster,_Historisches_Rathaus_--_2014_--_6855.jpg"
+    },
+    "London": {
+      "title": "London",
+      "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
+      "image": "London_Skyline_(125508655).jpeg"
+    },
+    "Louis_XIV": {
+      "title": "Louis XIV",
+      "lead": "Louis XIV (Louis-Dieudonné; 5 September 1638 – 1 September 1715) was King of France from 14 May 1643 until his death in 1715. He is a symbol of the Age of Absolutism in Europe for styling himself as \"The Sun King\" (Le Roi Soleil), which por",
+      "image": "Portrait_of_Louis_XIV_of_France_in_Coronation_Robes_(by_Hyacinthe_Rigaud)_-_Louvre_Museum.jpg"
+    },
+    "Shah_Shuja_(Mughal_prince)": {
+      "title": "Shah Shuja (Mughal prince)",
+      "lead": "Mirza Shah Shuja (Bengali: মির্জা শাহ সুজা, Persian: مرزا شاه شجاع; 23 June 1616 – 7 February 1661) was the second son of the Mughal Emperor Shah Jahan and Empress Mumtaz Mahal. He was the governor of Bengal and Odisha and had his capital a",
+      "image": "Shah_Shuja_Bahadur.jpg"
+    },
+    "Murad_Bakhsh": {
+      "title": "Murad Bakhsh",
+      "lead": "Mirza Muhammad Murad Bakhsh (9 October 1624 – 14 December 1661) was a Mughal prince and the youngest surviving son of Mughal Emperor Shah Jahan and Empress Mumtaz Mahal. He was the Subahdar of Balkh, until he was replaced by his elder broth",
+      "image": "Anonymous_-_Portrait_of_Prince_Murad_Baksh_-_1917.1066_-_Cleveland_Museum_of_Art.tiff"
+    },
+    "Abdul_Hamid_Lahori": {
+      "title": "Abdul Hamid Lahori",
+      "lead": "ʿAbd-al-Ḥamīd Lāhūrī (Persian: عبدالحمید لاہوری; died 14 May 1654) was a 17th-century traveller and historian during the reign of Mughal Emperor Shah Jahān who later became a court historian for the emperor. He wrote the Pādshāh-nāma, the o",
+      "image": "Padshahnama_Manuscript.jpg"
+    },
+    "Rang_Mahal_(Red_Fort)": {
+      "title": "Rang Mahal (Red Fort)",
+      "lead": "The Rang Mahal or Palace of Colour is located in the Red Fort, Old Delhi. It originally served as a part of the imperial harem. It was the part of the palace in which female members of the royal family could rest at. It was known as the Pal",
+      "image": "Red_Fort_04b.jpg"
+    },
+    "Hammam": {
+      "title": "Hammam",
+      "lead": "A hammam (Arabic: حمّام, romanized: ḥammām), also often called a Turkish bath by Westerners, is a type of steam bath or a place of public bathing associated with the Islamic world. It is a prominent feature in the culture of the Muslim worl",
+      "image": "Ali_Gholi_Agha_hammam,_Isfahan,_Iran.jpg"
+    },
+    "Commonwealth_of_England": {
+      "title": "Commonwealth of England",
+      "lead": "The Commonwealth of England, enlarged in 1653 as the Commonwealth of England, Scotland and Ireland, was the political structure during the period from 1649 to 1660 when the Kingdom of England was dissolved into a republic after the end of t",
+      "image": "Flag_of_the_Commonwealth_(1658–1660).svg"
+    },
+    "Charles_I_of_England": {
+      "title": "Charles I of England",
+      "lead": "Charles I (19 November 1600 – 30 January 1649) was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649. Charles was born into the House of Stuart as the second son of King James VI of Scotland. After his fa",
+      "image": "King_Charles_I_after_original_by_van_Dyck.jpg"
+    },
     "Audrey_Truschke": {
       "title": "Audrey Truschke",
       "lead": "Audrey Truschke ( TRUSH-kee) is a historian of South Asia and a professor at Rutgers University. Her work focuses on inter-community relations in medieval South Asia, especially during the Mughal Empire. In 2017, she was conferred with the ",
@@ -897,11 +1812,6 @@
       "lead": "Arthur Schopenhauer (22 February 1788 – 21 September 1860) was a German philosopher and writer. He is known for his 1818 work The World as Will and Representation (expanded in 1844), which characterizes the phenomenal world as the manifesta",
       "image": "Arthur_Schopenhauer_by_J_Schäfer,_1859b.jpg"
     },
-    "Maratha_people": {
-      "title": "Marathi people",
-      "lead": "The Marathi people (; Marathi: मराठी लोक, Marāṭhī lōk) or Marathis (Marathi: मराठी, Marāṭhī) are an Indo-Aryan ethnolinguistic group who are native to Maharashtra in western India. They natively speak Marathi, an Indo-Aryan language. Mahara",
-      "image": "Marathi_wedding_rituals.jpg"
-    },
     "Western_Ghats": {
       "title": "Western Ghats",
       "lead": "The Western Ghats, also known as the Sahyadri, is a mountain range that stretches 1,600 km (1,000 mi) along the west coast of India. Covering an area of 160,000 km2 (62,000 mi2), it traverses the Indian states of Gujarat, Maharashtra, Goa, ",
@@ -932,20 +1842,150 @@
       "lead": "Khuldabad, also called Rauza, meaning Garden of paradise, is a city (municipal council) and a Taluka of Aurangabad district in the Indian state of Maharashtra. It is known as the Valley of Saints, or the Abode of Eternity, because in the 14",
       "image": "Tomb_of_Aurangzeb_at_Khuldabad,_Aurangabad,_1850s.jpg"
     },
-    "Louis_XIV": {
-      "title": "Louis XIV",
-      "lead": "Louis XIV (Louis-Dieudonné; 5 September 1638 – 1 September 1715) was King of France from 14 May 1643 until his death in 1715. He is a symbol of the Age of Absolutism in Europe for styling himself as \"The Sun King\" (Le Roi Soleil), which por",
-      "image": "Portrait_of_Louis_XIV_of_France_in_Coronation_Robes_(by_Hyacinthe_Rigaud)_-_Louvre_Museum.jpg"
+    "Delhi": {
+      "title": "Delhi",
+      "lead": "Delhi, officially the National Capital Territory (NCT) of Delhi, is a megacity and a union territory of India containing New Delhi, the capital of India. Straddling the Yamuna river, but spread chiefly to the west, or beyond its right bank,",
+      "image": "Jama_Masjid_2011.jpg"
     },
-    "Charles_V,_Holy_Roman_Emperor": {
-      "title": "Charles V, Holy Roman Emperor",
-      "lead": "Charles V (24 February 1500 – 21 September 1558) was Holy Roman Emperor and Archduke of Austria from 1519 to 1556, King of Spain (as Charles I) from 1516 to 1556, King of Sicily and Naples from 1516 to 1554, and also Lord of the Netherlands",
-      "image": "Portrait_of_Charles_V,_Holy_Roman_Emperor,_seated_(1500–1558),_formerly_attributed_to_Titian_(Alte_Pinakothek,_Munich).jpg"
+    "Mathura": {
+      "title": "Mathura",
+      "lead": "Mathura (Braj pronunciation: [mɐ.t̪ʰʊ.ɾäː] ) is a city and the administrative headquarters of Mathura district in the Indian state of Uttar Pradesh. It is located 162 kilometres (101 mi) south-east of Delhi; and about 15 kilometres (9.3 mi)",
+      "image": "Vishram_Ghat.jpg"
     },
-    "Fatawa_'Alamgiri": {
-      "title": "Fatawa 'Alamgiri",
-      "lead": "Fatawa 'Alamgiri, also called Al-Fatawa al-Hindiyyah (Arabic: الفتاوى الهندية; lit. 'Fatwa of India'), Fatawa Hindiyyah, Fatawa-e-Alamgiri or Al-Fatawa al-'Alamkiriyyah (Arabic: الفتاوى العالمكيرية; lit. 'Fatwa of the Alamgir'), is a 17th-c",
-      "image": "Manuscript_copy_of_al-Fatawa_al-'Alamgiriyyah.jpg"
+    "Bhakti_movement": {
+      "title": "Bhakti movement",
+      "lead": "The Bhakti movement was a significant religious movement in medieval Hinduism that sought to bring religious reforms to all strata of society by adopting the method of devotion to achieve salvation. Originating in Tamilakam during the 6th c",
+      "image": "Meerabai_(crop).jpg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Maharashtra": {
+      "title": "Maharashtra",
+      "lead": "Maharashtra is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau. It is bordered by the Arabian Sea to the west, the Indian states of Karnataka and Goa to the south, Telangana to the sou",
+      "image": "Cave_26,_Ajanta.jpg"
+    },
+    "Bahmani_Sultanate": {
+      "title": "Bahmani Kingdom",
+      "lead": "The Bahmani Kingdom, or the Bahmani Sultanate, was a late medieval Persianate kingdom that ruled the Deccan region. The first independent Muslim sultanate of the Deccan, the Bahmani Kingdom came to power in 1347 during the rebellion of Isma",
+      "image": "Map_of_the_Bahmani_Sultanate.png"
+    },
+    "Brahmin": {
+      "title": "Brahmin",
+      "lead": "Brahmin (; Sanskrit: ब्राह्मण, romanized: brāhmaṇa) is a varna (theoretical social classes) within Hindu society. The other three varnas are the Kshatriya (rulers and warriors), Vaishya (traders, merchants, and farmers), and Shudra (laboure",
+      "image": "Image_taken_from_page_40_of_'The_Land_of_Temples_(India)'_(11151912296).jpg"
+    },
+    "Varanasi": {
+      "title": "Varanasi",
+      "lead": "Varanasi (Hindi pronunciation: [ʋaːˈɾaːɳəsi], also Benares, Banaras Hindustani pronunciation: [bəˈnaːɾəs]), or Kashi, is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourn",
+      "image": "Varanasi,_India,_Ghats,_Cremation_ceremony_in_progress.jpg"
+    },
+    "Rajaram_I": {
+      "title": "Rajaram I",
+      "lead": "Chhatrapati Rajaram Maharaj I (Rajaram Bhonsale, Marathi pronunciation: [[ɾaːd͡ʒaɾaːm ˈbʱos(ə)le]; 24 February 1670 – 3 March 1700), also known as Ram Raaje, was the third king (Chhatrapati) of the Maratha Kingdom, who ruled from 1689 to hi",
+      "image": "Chhatrapati_Rajaram_Maharaja.jpg"
+    },
+    "Golconda_Fort": {
+      "title": "Golconda",
+      "lead": "Golconda is a fortified citadel and ruined city located on the western outskirts of Hyderabad, Telangana, India. The fort was originally built by Kakatiya ruler Pratāparudra in the 11th century out of mud walls. It was ceded to the Bahmani ",
+      "image": "Golconda_Fort_005.jpg"
+    },
+    "Palace_of_Versailles": {
+      "title": "Palace of Versailles",
+      "lead": "The Palace of Versailles ( vair-SY, vur-SY; French: château de Versailles [ʃɑto d(ə) vɛʁsɑj] ) is a former royal residence commissioned by King Louis XIV located in Versailles, about 18 kilometres (11 mi) west of the city centre of Paris, i",
+      "image": "Versailles-Chateau-Jardins02.jpg"
+    },
+    "Holy_Roman_Emperor": {
+      "title": "Holy Roman Emperor",
+      "lead": "The Holy Roman Emperor, originally and officially the Emperor of the Romans (Latin: Imperator Romanorum; German: Kaiser der Römer) during the Middle Ages, and also known as the Roman-German Emperor since the early modern period (Latin: Impe",
+      "image": "Hans_Burgkmair_d._Ä._005.jpg"
+    },
+    "Mughal_Empire": {
+      "title": "Mughal Empire",
+      "lead": "The Mughal Empire was an early modern empire in South Asia. At its peak, the empire stretched from the outer fringes of the Indus River Basin in the west, northern Afghanistan in the northwest, and Kashmir in the north, to the highlands of ",
+      "image": "Joppen1907India1700a.jpg"
+    },
+    "Irfan_Habib": {
+      "title": "Irfan Habib",
+      "lead": "Irfan Habib (born 12 August 1931) is an Indian historian of ancient and medieval India. His work includes historical geography, the history of Indian technology, and the economic history of medieval India, especially the Mughal Empire. His ",
+      "image": "Irfan_Habib.jpg"
+    },
+    "Sulaiman_Shikoh": {
+      "title": "Sulaiman Shikoh",
+      "lead": "Mirza Sulaiman Shikoh was a Mughal prince and the eldest son of Crown prince Dara Shikoh. He was exiled in May 1662 at Gwalior Fort on the orders of his paternal uncle, Emperor Aurangzeb. Sulaiman Shikoh had 3 sons and 2 daughters His desce",
+      "image": "Sulaiman-S.png"
+    },
+    "Dipalpur": {
+      "title": "Dipalpur",
+      "lead": "Dipalpur (Urdu: دِيپالپُور), also spelt Depalpur, is a city in the Okara District of Pakistani province of Punjab that served as headquarters of Depalpur Tehsil. It is situated 150 kilometres from the province capital Lahore on a bank of th",
+      "image": "Hujra_shah.jpg"
+    },
+    "Majma-ul-Bahrain": {
+      "title": "Majma-ul-Bahrain",
+      "lead": "Majma-ul-Bahrain (Persian: مجمع البحرین, \"The Confluence of the Two Seas\" or \"The Mingling of the Two Oceans\") is a Sufi text on comparative religion authored by Mughal Shahzada Dara Shukoh as a short treatise in Persian, c. 1655. It was de",
+      "image": "Majma-ul-Bahrain_page_Victoria_Memorial_view001.jpg"
+    },
+    "Sadarang": {
+      "title": "Sadarang",
+      "lead": "Sadarang (1670–1748) was the pen name of the Hindustani musical composer and artist Naimat Khan, who was active in the eighteenth century. He and his nephew Adarang changed the Khayal style of Hindustani music into the form performed today.",
+      "image": "Visual_genealogy_of_the_Tansen_and_Sadarang_lineage.jpg"
+    },
+    "Rathore_rebellion": {
+      "title": "Rathore rebellion (1679–1707)",
+      "lead": "The Rathore rebellion, described variously as the Rajput War and Rathore War of Independence, was the conflict between Rajputs of Marwar and the Mughals that started after the death of Jaswant Singh of Marwar, due to Aurangzeb's attempt to ",
+      "image": "Durgadas_Rathore_painting.jpg"
+    },
+    "Jijabai": {
+      "title": "Jijabai",
+      "lead": "Jijabai (née Jadhavrao; 12 January 1598 – 17 June 1674), was the mother of Chhatrapati Shivaji Maharaj, founder of the Maratha Kingdom. She was a daughter of Lakhujirao Jadhav of Sindkhed Raja. He belonged to the lineage of Devagiri Yadavas",
+      "image": "Jijabai_1999_stamp_of_India.jpg"
+    },
+    "Shahu_I": {
+      "title": "Shahu I",
+      "lead": "Shahu I (Shahu Sambhaji Raje Bhonsle; 18 May 1682 – 15 December 1749), popularly referred to as Shahu The Great, was the fifth Chhatrapati of Maratha Empire. The longest reign among the Maratha rulers, his rule had brought the Maratha Empir",
+      "image": "Shahu_I_cropped.png"
+    },
+    "Ahmednagar_Sultanate": {
+      "title": "Ahmadnagar Sultanate",
+      "lead": "The Ahmadnagar Sultanate was a medieval Deccani Muslim kingdom located in the northwestern Deccan, between the sultanates of Gujarat and Bijapur, ruled by the Nizam Shahi dynasty. It was established by Malik Ahmad Nizam Shah I in 1490. He w",
+      "image": "Ahmednagar_Sultanate.png"
+    },
+    "Zainuddin_Shirazi": {
+      "title": "Zainuddin Shirazi",
+      "lead": "Hazrat Khwaja Syed Shah Maqdoom Zain-ud-din Davud ibn Hussain Shirazi is a Sufi saint of the Deccan, belonging to the Chishti Order.",
+      "image": ""
+    },
+    "Muhammad_Azam_Shah": {
+      "title": "Muhammad Azam Shah",
+      "lead": "Mirza Abu al-Fayaz Qutb al-Din Muhammad Aazam (Persian: ابوالفیاض قطب الدین محمد اعظم; 28 June 1653 – 20 June 1707), commonly known as Azam Shah (Persian: اعظم شاه), was briefly the seventh Mughal emperor from 14 March to 20 June 1707. He w",
+      "image": "Azam-Shah3.png"
+    },
+    "Kam_Bakhsh": {
+      "title": "Muhammad Kam Bakhsh",
+      "lead": "Mirza Muhammad Kam Bakhsh (Persian: محمد کامبخش; 7 March 1667 – 14 January 1709) was the youngest son of Mughal emperor Aurangzeb, born to his wife Udaipuri Mahal.",
+      "image": "Kam_Bakhsh1.png"
+    },
+    "Battle_of_Khajwa": {
+      "title": "Battle of Khajwa",
+      "lead": "The Battle of Khajuha was fought on January 5, 1659, between the newly crowned Mughal Emperor Aurangzeb and Shah Shuja who also declared himself Mughal Emperor in Bengal. Shuja's army rested by the tank of Khajwa, about 30 miles to the west",
+      "image": "The_princes_of_the_Mogul_Emperor_against_their_father_and_Combat.jpg"
+    },
+    "Bhonsle": {
+      "title": "Bhonsle (clan)",
+      "lead": "The Bhonsle (or Bhonsale, Bhosale, Bhosle) are a prominent group within the Maratha clan system of India.",
+      "image": ""
+    },
+    "Myanmar": {
+      "title": "Myanmar",
+      "lead": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma (the official English name until 1989), is a country in northwest Southeast Asia. It is the largest country by area in Mainland Southeast Asia and has a ",
+      "image": "Flag_of_Myanmar.svg"
+    },
+    "Himalayas": {
+      "title": "Himalayas",
+      "lead": "The Himalayas, or Himalaya, is a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau. The range has some of the Earth's highest peaks, including the highest, Mount Everest. More than 100 peaks ex",
+      "image": "Himalayas_and_allied_ranges_NASA_Landsat_showing_the_eight_thousanders,_annotated_with_major_rivers.jpg"
     },
     "Peshwa": {
       "title": "Peshwa",
@@ -994,13 +2034,8 @@
     },
     "Durrani_Empire": {
       "title": "Durrani Empire",
-      "lead": "The Durrani Empire, colloquially known as the Kingdom of Afghanistan, and as the Afghan Empire or the Sadozai Kingdom, was an Afghan empire founded by the Durrani tribe of Pashtuns under Ahmad Shah Durrani in 1747, which spanned parts of Ce",
+      "lead": "The Durrani Empire, colloquially known as the Kingdom of Afghanistan, the Afghan Empire, or the Sadozai Kingdom, was an Afghan empire founded in 1747 by Ahmad Shah Durrani of the Pashtun Durrani tribe. The empire spanned parts of Central As",
       "image": "Flag_of_the_Durrani_Kingdom.svg"
-    },
-    "Kolkata": {
-      "title": "Kolkata",
-      "lead": "Kolkata, also known as Calcutta (its official name until 2001), is the capital and largest city of the Indian state of West Bengal. It lies on the eastern bank of the Hooghly River, 80 km (50 mi) west of the border with Bangladesh. It is th",
-      "image": "Kolkata_maidan.jpg"
     },
     "Siraj_ud-Daulah": {
       "title": "Siraj-ud-Daulah",
@@ -1022,6 +2057,116 @@
       "lead": "Guru Gobind Singh (Punjabi pronunciation: [gʊɾuː goːbɪn̪d̪ᵊ sɪ́ŋgᵊ]; born Gobind Das; 22 December 1666 – 7 October 1708) was the tenth and last human Sikh Guru. He was a warrior, poet, and philosopher. In 1675, at the age of nine, he was fo",
       "image": "Painting_of_Guru_Gobind_Singh,_found_within_the_Anandpuri_Hazuri_Bir_codex_of_the_Dasam_Granth,_ca.1690's–1700's_(detail).jpg"
     },
+    "Nawab": {
+      "title": "Nawab",
+      "lead": "Nawab is a royal title indicating a ruler, often of a South Asian state, in many ways comparable to the Western title of Prince. The relationship of a Nawab to the Emperor of India has been compared to that of the Kings of Saxony to the Ger",
+      "image": ""
+    },
+    "Shahjahanabad": {
+      "title": "Shahjahanabad",
+      "lead": "Shahjahanabad, colloquially known as Old Delhi (Hindustani: Purāni Dillī), is a place in the Central Delhi district of Delhi, India. It was founded as a Walled City and officially named Shahjahanabad in 1648, when Shah Jahan decided to shif",
+      "image": "Red_and_Blue.jpg"
+    },
+    "Jahandar_Shah": {
+      "title": "Jahandar Shah",
+      "lead": "Jahandar Shah (Mirza Mu'izz-ud-Din Beg Muhammad Khan; 10 May 1661 – 11 February 1713) was the ninth Mughal emperor briefly from 1712 to 1713. He was the son of Emperor Bahadur Shah I, and the grandson of Emperor Aurangzeb. Jahandar Shah was",
+      "image": "Jahandar_Shah,_Mughal_Emperor..jpg"
+    },
+    "Farrukhsiyar": {
+      "title": "Farrukhsiyar",
+      "lead": "Farrukhsiyar (Persian: فرخ‌سیار, Persian pronunciation: [faɾ.ˈɾux saj.ˈjɑːɾ]; 20 August 1683 – 9 April 1719), also spelled as Farrukh Siyar, was the tenth Mughal Emperor from 1713 to 1719. He rose to the throne after deposing his uncle Jaha",
+      "image": "Muhhamad_Farukhsiyar.jpg"
+    },
+    "Uttar_Pradesh": {
+      "title": "Uttar Pradesh",
+      "lead": "Uttar Pradesh (UTT-ər prə-DESH, abbr. UP; Hindi: Uttar Pradēś, pronounced [ˈʊt̪ːəɾ pɾə.ˈdeːɕ] , lit. 'Northern Province') is a state in northern India. With over 241 million inhabitants, it is India's most populated state. The state is bord",
+      "image": "Taj_Mahal_(Edited).jpeg"
+    },
+    "Nizam_of_Hyderabad": {
+      "title": "Nizam of Hyderabad",
+      "lead": "Nizam of Hyderabad was the title of the ruler of Hyderabad State (now part of the Indian state of Telangana, the Marathwada region of Maharashtra, and the Kalyana-Karnataka region of Karnataka). Nizam is a shortened form of Niẓām ul-Mulk (l",
+      "image": "Hyderabad_Coat_of_Arms.jpg"
+    },
+    "Awadh": {
+      "title": "Awadh",
+      "lead": "Awadh (Hindi: [əˈʋədʱ] ), known in British Raj historical texts as Avadh or Oudh, is a historical region in northern India, now constituting the central portion of Uttar Pradesh. It is roughly synonymous with the ancient Kosala region of Hi",
+      "image": "Sarayu_River_night_view,_Ayodhya_001.jpg"
+    },
+    "British_people": {
+      "title": "British people",
+      "lead": "British people or Britons, also known colloquially as Brits, are the citizens and diaspora of the United Kingdom, the British Overseas Territories, and the Crown dependencies. British nationality law governs modern British citizenship and n",
+      "image": "Flag_of_the_United_Kingdom_(1-2).svg"
+    },
+    "Qianlong_Emperor": {
+      "title": "Qianlong Emperor",
+      "lead": "The Qianlong Emperor (25 September 1711 – 7 February 1799), also known by his temple name Emperor Gaozong of Qing, personal name Hongli, was the fifth emperor of the Qing dynasty and the fourth Qing emperor to rule over China proper. He rei",
+      "image": "乾隆皇帝朝服像轴.png"
+    },
+    "Qing_dynasty": {
+      "title": "Qing dynasty",
+      "lead": "The Qing dynasty ( CHING), officially the Great Qing, also known as the Qing Empire or Qing China, was a Manchu-led imperial dynasty of China and an early modern empire in East Asia which existed from 1636/1644 to 1912. The last imperial dy",
+      "image": "Flag_of_China_(1889–1912).svg"
+    },
+    "Dutch_East_India_Company": {
+      "title": "Dutch East India Company",
+      "lead": "The United East India Company (Dutch: Vereenigde Oostindische Compagnie [vərˈeːnɪɣdə oːstˈɪndisə kɔmpɑˈɲi]; abbr. VOC [veː(j)oːˈseː]), commonly known as the Dutch East India Company, was a chartered trading company and one of the first join",
+      "image": "Flag_of_the_Dutch_East_India_Company.svg"
+    },
+    "Murshidabad": {
+      "title": "Murshidabad",
+      "lead": "Murshidabad (Bengali pronunciation: [murʃidabad]) is a town in the Indian state of West Bengal. This town is the headquarters of Lalbag subdivision of Murshidabad district. It is located on the eastern bank of the Bhagirathi River. During t",
+      "image": "Nizamat_Imambara_2,_Murshidabad.jpg"
+    },
+    "Lucknow": {
+      "title": "Lucknow",
+      "lead": "Lucknow (Hindi: Lakhanaū, pronounced [ˈləkʰnə.uː] ) is the capital and the largest city of the Indian state of Uttar Pradesh and it is the administrative headquarters of the eponymous district and division. The city had a population of 2.8 ",
+      "image": "Gomti_Nagar.jpg"
+    },
+    "Hyder_Ali": {
+      "title": "Hyder Ali",
+      "lead": "Hyder Ali (Haidar'alī; حيدرعلى; Kannada: [hɐi̯d̪ɐr ɐliː] c. 1720 – 7 December 1782) was the Sultan and de facto ruler of the Kingdom of Mysore in southern India. He distinguished himself as a soldier, eventually drawing the attention of Mys",
+      "image": "\"Hyder_Ali,\"_a_steel_engraving_from_the_1790's_(with_modern_hand_coloring).jpg"
+    },
+    "Abdullah_Khan_Barha": {
+      "title": "Abdullah Khan Barha",
+      "lead": "Nawab Sayyid Abdullah Khan I also known as Sayyid Mian I, was the father of Hassan Ali Khan Barha and Hussain Ali Khan Barha, the two famous Sayyid Brothers. His full name was Sayyid Abdullah Khan Tihanpuri, Tihanpur was the ancestral villa",
+      "image": "A_portrait_of_abdullah_khan_from_padshahnama_folio.jpg"
+    },
+    "Hussain_Ali_Khan_Barha": {
+      "title": "Hussain Ali Khan Barha",
+      "lead": "Nawab Sayyid Hussain Ali Khan Barha (1666 – 8 October 1720), officially Itisham-ul-Mulk, was a kingmaker of the later Mughal Period. He is best known for ordering the death of Emperor Farrukhsiyar, largely in an attempt to halt the numerous",
+      "image": "Nawab_Hussain_Ali_Khan_Barha.jpg"
+    },
+    "Battle_of_Jajau": {
+      "title": "Battle of Jajau",
+      "lead": "The Battle of Jajau was fought between the two Mughal princes and half-brothers Bahadur Shah I and Muhammad Azam Shah on 20 June 1707. In 1707, their father Aurangzeb died without having declared a successor; instead leaving a will in which",
+      "image": ""
+    },
+    "Rafi_ud-Darajat": {
+      "title": "Rafi ud-Darajat",
+      "lead": "Mirza Rafi ud-Darajat (Persian: رفیع الدرجات, Persian pronunciation: [ɾa.fiːʔ.ud.da.ɾa.ˈd͡ʒɑːt]); 1 December 1699 – 6 June 1719) was briefly the Eleventh Mughal emperor. He was the youngest son of Rafi-ush-Shan, the nephew of Azim-ush-Shan ",
+      "image": "Rafi-ud-darjat.jpg"
+    },
+    "Shah_Jahan_II": {
+      "title": "Shah Jahan II",
+      "lead": "Shah Jahan II (Persian: شاه جهان دوم, Persian pronunciation: [ʃɑːh d͡ʒa.ˈhɑːn]; June 1696 – 17 September 1719), born Mirza Rafi-ud-Daulah (Persian: رفیع الدوله), was briefly the twelfth Mughal emperor in 1719. After being chosen by the Sayy",
+      "image": "Rafi-ud-daulah.png"
+    },
+    "Ahmad_Shah_Bahadur": {
+      "title": "Ahmad Shah Bahadur",
+      "lead": "Ahmad Shah Bahadur (Persian: احمد شاه بهادر, 23 December 1725 – 1 January 1775), also known as Mirza Ahmad Shah or Mujahid-ud-Din Ahmad Shah Ghazi, was the fourteenth Mughal emperor from 1748 to 1754. Born to Emperor Muhammad Shah, he succe",
+      "image": "AhmadShah.png"
+    },
+    "Alamgir_II": {
+      "title": "Alamgir II",
+      "lead": "Mirza Aziz-ud-Din Muhammad (Persian: عزیزالدین محمد; 6 June 1699 – 29 November 1759), better known by his regnal name Alamgir II (Persian: عالمگیر دوم), was the fifteenth Mughal emperor from 1754 to 1759. He was the son of Jahandar Shah. Bo",
+      "image": "Alamgir_II_of_India.jpg"
+    },
+    "Bengalis": {
+      "title": "Bengalis",
+      "lead": "Bengalis (Bengali: বাঙ্গালী, বাঙালি [baŋgali, baŋali] ), also rendered as endonym Bangalee, are an Indo-Aryan ethnolinguistic group originating from and culturally affiliated with the Bengal region of South Asia. The current population is d",
+      "image": "Boishakhi_celebrations.png"
+    },
     "Sepoy": {
       "title": "Sepoy",
       "lead": "A sepoy () is a term used to refer to South Asian soldiers. Originating from the Persian word sepāhī (سپاهی), the term was anglicised to \"sepoy\" by the British. In the army of the Mughal Empire sepāhī referred to a type of infantryman, whil",
@@ -1031,11 +2176,6 @@
       "title": "Mir Madan",
       "lead": "Mir Madan (died 23 June 1757) was one of the most trusted officers and chief of the artillery of Nawab Siraj Ud Dowla of the Bengal Subah. He died in the Battle of Plassey.",
       "image": "Mirmadan's_Tomb.jpg"
-    },
-    "Murshidabad": {
-      "title": "Murshidabad",
-      "lead": "Murshidabad (Bengali pronunciation: [murʃidabad]) is a town in the Indian state of West Bengal. This town is the headquarters of Lalbag subdivision of Murshidabad district. It is located on the eastern bank of the Bhagirathi River. During t",
-      "image": "Nizamat_Imambara_2,_Murshidabad.jpg"
     },
     "Mir_Qasim": {
       "title": "Mir Qasim",
@@ -1056,11 +2196,6 @@
       "title": "Great Bengal famine of 1770",
       "lead": "The Great Bengal famine of 1770 struck Bengal and Bihar between 1769 and 1770 and affected some 30 million people, which was about ⅓ of the current population of the area. It occurred during a period of dual governance in Bengal. This exist",
       "image": "IGI1908India1765a.jpg"
-    },
-    "Hyder_Ali": {
-      "title": "Hyder Ali",
-      "lead": "Hyder Ali (Haidar'alī; حيدرعلى; Kannada: [hɐi̯d̪ɐr ɐliː] c. 1720 – 7 December 1782) was the Sultan and de facto ruler of the Kingdom of Mysore in southern India. He distinguished himself as a soldier, eventually drawing the attention of Mys",
-      "image": "\"Hyder_Ali,\"_a_steel_engraving_from_the_1790's_(with_modern_hand_coloring).jpg"
     },
     "Wadiyar_dynasty": {
       "title": "Wadiyar dynasty",
@@ -1089,7 +2224,7 @@
     },
     "Ranjit_Singh": {
       "title": "Ranjit Singh",
-      "lead": "Ranjit Singh (Punjabi: ਰਣਜੀਤ ਸਿੰਘ; Persian: رنجیت سنگھ; c. 13 November 1780 – 27 June 1839), born as Buddh Singh (Punjabi: ਬੁੱਧ ਸਿੰਘ), was the founder and first maharaja of the Sikh Empire, ruling from 1801 until his death in 1839. Born to ",
+      "lead": "Ranjit Singh (c. 13 November 1780 – 27 June 1839) was the founder and the first maharaja of the Sikh Empire, ruling from 1801 until his death in 1839. Born to Maha Singh, the leader of the Sukerchakia Misl, Ranjit Singh survived smallpox in",
       "image": "Company_School_Oval_painting_of_Ranjit_(Detailed).png"
     },
     "Sikh_Empire": {
@@ -1107,6 +2242,111 @@
       "lead": "A zamindar in the Indian subcontinent was an autonomous or semi-autonomous feudal lord of a zamindari (feudal estate). The term itself came into use during the Mughal Empire, when Persian was the official language; zamindar is the Persian f",
       "image": "Salimullah.jpg"
     },
+    "Anglo-Mysore_Wars": {
+      "title": "Anglo-Mysore wars",
+      "lead": "The Anglo-Mysore wars were a series of four wars fought during the last three decades of the 18th century between the Kingdom of Mysore on the one hand, and the British East India Company (represented chiefly by the neighbouring Madras Pres",
+      "image": "Flag_of_Great_Britain_(1707–1800).svg"
+    },
+    "Shuja-ud-Daula": {
+      "title": "Shuja-ud-Daula",
+      "lead": "Shuja-ud-Daula (19 January 1732 – 26 January 1775) was the third Nawab of Oudh and the Vizier of Delhi from 5 October 1754 until his death 26 January 1775. He was a key 18th-century Mughal ally who despised the Maratha-backed grand vizier o",
+      "image": "Shuja-ud-daula,_Nawab_of_Oudh.tif"
+    },
+    "Governor-General_of_India": {
+      "title": "Governor-General of India",
+      "lead": "The governor-general of India (1833 to 1950, from 1858 to 1947 the Viceroy and Governor-General of India, commonly shortened to Viceroy of India) was the representative of the monarch of the United Kingdom in their capacity as the emperor o",
+      "image": "Flag_of_the_Governor-General_of_India_(1885–1947).svg"
+    },
+    "Southeast_Asia": {
+      "title": "Southeast Asia",
+      "lead": "Southeast Asia is the geographical southeastern region of Asia, consisting of the regions that are situated south of China, east of the Indian subcontinent, and northwest of mainland Australia, which is part of Oceania. Southeast Asia is bo",
+      "image": "Southeast_Asia_(orthographic_projection).svg"
+    },
+    "Guangzhou": {
+      "title": "Guangzhou",
+      "lead": "Guangzhou, also known as Canton, is the capital and largest city of Guangdong in southern China. Located on the Pearl River, about 120 kilometres (75 mi) northwest of Hong Kong and 145 kilometres (90 mi) north of Macau, Guangzhou has a hist",
+      "image": "Canton_Tower_20241027.jpg"
+    },
+    "Manchester": {
+      "title": "Manchester",
+      "lead": "Manchester is a city in Greater Manchester, England. It had a population of over 589,000 in 2024. It borders the Cheshire Plain to the south, the Pennines to the north and east, and the city of Salford to the west. The two cities and the su",
+      "image": "Tower_Blocks_over_Knott_Mill,_geograph_6866152_by_David_Dixon.jpg"
+    },
+    "Kingdom_of_Mysore": {
+      "title": "Kingdom of Mysore",
+      "lead": "The Kingdom of Mysore was a geopolitical realm in southern India founded in around 1399 in the vicinity of the modern-day city of Mysuru and prevailed until 1950. The territorial boundaries and the form of government transmuted substantiall",
+      "image": "Flag_of_Kingdom_of_Mysore.svg"
+    },
+    "Napoleonic_Wars": {
+      "title": "Napoleonic Wars",
+      "lead": "The Napoleonic Wars (1803–1815) were a global series of conflicts fought by a fluctuating array of European coalitions against the French First Republic (1803–1804) under the First Consul followed by the First French Empire (1804–1815) unde",
+      "image": "Napoleonic_Wars_(revision).jpg"
+    },
+    "Kaveri": {
+      "title": "Kaveri",
+      "lead": "The Kaveri (anglicized as Cauvery), also known as Ponni (IPA: [ponːi]), is a major river flowing across Southern India. It is the third largest river in the region after Godavari and Krishna. The catchment area of the Kaveri basin is estima",
+      "image": "Thalakkaveri_Temple,_Karnataka.jpg"
+    },
+    "Pune": {
+      "title": "Pune",
+      "lead": "Pune (Marathi: Puṇē, pronounced [ˈpuɳe] ), previously spelled in English as Poona (the official name until 1978), is a city in the state of Maharashtra in the Deccan Plateau in Western India. It is the administrative headquarters of the Pun",
+      "image": "Pune_West_skyline_-_March_2017.jpg"
+    },
+    "Napoleon": {
+      "title": "Napoleon",
+      "lead": "Napoleon Bonaparte (born Napoleone di Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hu",
+      "image": "Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+    },
+    "Battle_of_Waterloo": {
+      "title": "Battle of Waterloo",
+      "lead": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), being the last engagement with Napoleon I. The French Imperial Army under the command of Napoleon I was",
+      "image": "Battle_of_Waterloo_1815.PNG"
+    },
+    "Multan": {
+      "title": "Multan",
+      "lead": "Multan is a city in the Punjab province of Pakistan. Located along the eastern bank of the Chenab River, it is the sixth-largest city in the country; and serves as the administrative headquarters of its eponymous division and district. A ma",
+      "image": "Shrine_Shah_Rukn-e-Alam.jpg"
+    },
+    "Queen_Victoria": {
+      "title": "Queen Victoria",
+      "lead": "Victoria (Alexandrina Victoria; 24 May 1819 – 22 January 1901) was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of",
+      "image": "Queen_Victoria_by_Bassano.jpg"
+    },
+    "Industrial_Revolution": {
+      "title": "Industrial Revolution",
+      "lead": "The Industrial Revolution, sometimes called the First Industrial Revolution in contrast to the subsequent Second Industrial Revolution, was a transitional period of the global economy toward more widespread, efficient and stable manufacturi",
+      "image": "Powerloom_weaving_in_1835.jpg"
+    },
+    "Scindia": {
+      "title": "House of Scindia",
+      "lead": "House of Shinde(later known as Scindia) or earlier known as the Sendrak was a Maratha royal house that ruled the erstwhile Gwalior State in central India. The Scindia dynasty rose to prominence in the 18th century and went on to dominate ce",
+      "image": "Gwalior_Coat_of_arms.png"
+    },
+    "Holkar": {
+      "title": "House of Holkar",
+      "lead": "The Holkars (pronunciation: [ɦo(ː)ɭkəɾ]) were the ruling house of the Indore State of the Maratha Confederacy, and earlier held the rank of Subahdar under Peshwa Baji Rao I of the Maratha Empire. When the Maratha Confederacy began to weaken",
+      "image": "Arms_of_the_Indore_State,_1908.jpg"
+    },
+    "Gaekwad": {
+      "title": "Gaekwad",
+      "lead": "Gaikwad (also spelt Gaikwar and Gaikwad; Marathi: Gāyǎkǎvāḍǎ) is a clan of Marathas. It has also been adopted by other communities such as the Kunbi, Koli, Mali & Mahar castes.",
+      "image": ""
+    },
+    "Duke_of_Wellington": {
+      "title": "Arthur Wellesley, 1st Duke of Wellington",
+      "lead": "Field Marshal Arthur Wellesley, 1st Duke of Wellington (né Wesley; 1 May 1769 – 14 September 1852) was a British Army officer and statesman who was one of the leading military and political figures in Britain during the early 19th century, ",
+      "image": "Sir_Arthur_Wellesley,_1st_Duke_of_Wellington.jpg"
+    },
+    "Akbar_Shah_II": {
+      "title": "Akbar II",
+      "lead": "Akbar II (Persian: اکبر دوم, Persian pronunciation: [ak.baɾ]; 22 April 1760 – 28 September 1837), also known as Akbar Shah II (Persian: اکبر شاه دوم), was the nineteenth Mughal emperor from 1806 to 1837. He was the second son of Shah Alam I",
+      "image": "Akbar_Shah_II_of_India.jpg"
+    },
+    "Hyderabad": {
+      "title": "Hyderabad",
+      "lead": "Hyderabad is the capital and largest city of the Indian state of Telangana. It occupies 650 km2 (250 sq mi) on the Deccan Plateau along the banks of the Musi River, in the northern part of South India. With an average altitude of 536 m (1,7",
+      "image": "Downtown_hyderabad_drone.png"
+    },
     "Pattern_1853_Enfield": {
       "title": "Pattern 1853 Enfield",
       "lead": "The Enfield Pattern 1853 rifle-musket (also known as the Pattern 1853 Enfield, P53 Enfield, and Enfield rifle-musket) was a .577 calibre Minié-type muzzle-loading rifled musket, used by the British Empire from 1853 to 1867; after which many",
@@ -1114,13 +2354,8 @@
     },
     "Meerut": {
       "title": "Meerut",
-      "lead": "Meerut is a city that serves as the administrative headquarters of the Meerut district in the Indian state of Uttar Pradesh. The city lies in western Uttar Pradesh and is part of the Indian National Capital Region (NCR). Meerut is located 8",
+      "lead": "Meerut (; ISO: Mēraṭh)is a city that serves as the administrative headquarters of the Meerut district in the Indian state of Uttar Pradesh. The city lies in western Uttar Pradesh and is part of the Indian National Capital Region (NCR). Meer",
       "image": "Mustafa_Castle_--_night_shot.jpg"
-    },
-    "Awadh": {
-      "title": "Awadh",
-      "lead": "Awadh (Hindi: [əˈʋədʱ] ), known in British Raj historical texts as Avadh or Oudh, is a historical region in northern India, now constituting the central portion of Uttar Pradesh. It is roughly synonymous with the ancient Kosala region of Hi",
-      "image": "Sarayu_River_night_view,_Ayodhya_001.jpg"
     },
     "Begum_Hazrat_Mahal": {
       "title": "Begum Hazrat Mahal",
@@ -1186,6 +2421,86 @@
       "title": "Permanent Settlement",
       "lead": "The Permanent Settlement, also known as the Permanent Settlement of Bengal, was an agreement between the East India Company and landlords of Bengal to fix revenues to be raised from land. It had far-reaching consequences for both agricultur",
       "image": "Pope1880BengalPres2.jpg"
+    },
+    "Chishti_Order": {
+      "title": "Chishti Order",
+      "lead": "The Chishti order (Persian: چشتیه, romanized: Čištiya) is a Sufi order of Sunni Islam named after the town of Chisht, Afghanistan where it was initiated by Abu Ishaq Shami. The order was brought to Herat and later spread across South Asia b",
+      "image": "Talisman_Louvre_MAO905.jpg"
+    },
+    "Jhansi": {
+      "title": "Jhansi",
+      "lead": "Jhansi (pronounced [d͡ʑʱãː.siː] ) is a historic city in the Indian state of Uttar Pradesh. (Toshan) Balwant Nagar was the old name of Jhansi. It lies in the region of Bundelkhand, on the banks of the Pahuj River, in the extreme south of Utt",
+      "image": "Inside_the_Rani_Laxmibai's_Jhansi_Fort_in_Jhansi,_Uttar_Pradesh_04.jpg"
+    },
+    "Yangon": {
+      "title": "Yangon",
+      "lead": "Yangon, sometimes romanised in English as Rangoon, is the capital city of the Yangon Region and the largest city of Myanmar. Yangon was the capital of Myanmar until 2005 and served as such until 2006, when the military government relocated ",
+      "image": "ShwedagonPagoda.jpg"
+    },
+    "Empress_of_India": {
+      "title": "Emperor of India",
+      "lead": "Emperor (or Empress) of India was a title used by British monarchs from 1 May 1876 (with the Royal Titles Act 1876) to 22 June 1948 to signify their sovereignty over the British Indian Empire as its imperial head of state. The image of the ",
+      "image": "Star_of_the_Order_of_the_Star_of_India_(gold).svg"
+    },
+    "Delhi_Sultanate": {
+      "title": "Delhi Sultanate",
+      "lead": "The Delhi Sultanate or the Sultanate of Delhi was a late medieval empire primarily based in Delhi that stretched over large parts of the Indian subcontinent for more than three centuries. The sultanate was established in 1206 in the former ",
+      "image": "Map_of_the_Mamluk_Dynasty.png"
+    },
+    "British_Raj": {
+      "title": "British Raj",
+      "lead": "The British Raj ( RAHJ; from Hindustani rāj, 'reign', 'rule' or 'government') was the period of rule by the British Crown over present day India, Pakistan, Bangladesh, and Myanmar, lasting from 1858 to 1947. It is also called Crown rule in ",
+      "image": "British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg"
+    },
+    "Ayodhya": {
+      "title": "Ayodhya",
+      "lead": "Ayodhya (Hindi: Ayodhyā, pronounced [ɐˈjoːd̪ʱjɐː] ) is a city situated on the banks of the Sarayu river in the Indian state of Uttar Pradesh. It is the administrative headquarters of the Ayodhya district as well as the Ayodhya division of U",
+      "image": "Shri_Ram_Janambhoomi_Mandir,_Ayodhya_Dham.jpg"
+    },
+    "Bangladesh_Liberation_War": {
+      "title": "Bangladesh Liberation War",
+      "lead": "The Bangladesh Liberation War (Bengali: মুক্তিযুদ্ধ, pronounced [mukt̪iɟud̪d̪ʱo]), also known as the Bangladesh War of Independence, was an armed conflict sparked by the rise of the Bengali nationalist and self-determination movement in Eas",
+      "image": "BangladeshLiberationWarMontage.jpg"
+    },
+    "Bengal_famine_of_1943": {
+      "title": "Bengal famine of 1943",
+      "lead": "The Bengal famine of 1943 was a famine during World War II in the Bengal Province and Orissa Province of British India. An estimated 800,000–3.8 million people died, in the Bengal region (present-day Bangladesh and West Bengal), from starva",
+      "image": "Dead_or_dying_children_on_a_Calcutta_street_(the_Statesman_22_August_1943).jpg"
+    },
+    "Sanskritisation": {
+      "title": "Sanskritisation",
+      "lead": "Sanskritisation (or Sanskritization) is a process through which individuals or communities belonging to certain castes and tribal groups adopt the culture, values, lifestyles, and ritual practices of the dominant upper castes, with the aim ",
+      "image": ""
+    },
+    "Dred_Scott": {
+      "title": "Dred Scott",
+      "lead": "Dred Scott (c. 1799 – September 17, 1858) was an enslaved African-American man who, along with his wife, Harriet Robinson Scott, unsuccessfully sued for the freedom of themselves and their two daughters, Eliza and Lizzie, in the Dred Scott ",
+      "image": "Dred_Scott_photograph_(circa_1857).jpg"
+    },
+    "Risorgimento": {
+      "title": "Unification of Italy",
+      "lead": "The unification of Italy (Italian: Unità d'Italia [uniˈta ddiˈtaːlja]), also known as the Risorgimento (Italian: [risordʒiˈmento]; lit. 'Resurgence'), was the 19th century political and social movement that in 1861 ended in the annexation o",
+      "image": "Episodio_delle_cinque_giornate_(Baldassare_Verazzi).jpg"
+    },
+    "Alexander_II_of_Russia": {
+      "title": "Alexander II of Russia",
+      "lead": "Alexander II (29 April 1818 – 13 March 1881) was Emperor of Russia, King of Poland, and Grand Duke of Finland from 2 March 1855 until his assassination on 13 March 1881. He is also known as Alexander the Liberator because of his historic Ed",
+      "image": "Zar_Alexander_II_(cropped)_(cropped).jpg"
+    },
+    "Siege_of_Delhi_(1857)": {
+      "title": "Siege of Delhi (1857)",
+      "lead": "The siege of Delhi was a decisive conflict of the Indian Rebellion of 1857. The rebellion against the authority of the East India Company was widespread through much of Northern India, but was essentially sparked by the mass uprising by the",
+      "image": "1857_cashmeri_gate_delhi.jpg"
+    },
+    "Muslims": {
+      "title": "Muslims",
+      "lead": "Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monotheistic religion belonging to the Abrahamic tradition. They consider the Quran, the foundational religious text of Islam, ",
+      "image": "Prayer_in_Cairo_1865.jpg"
+    },
+    "United_States": {
+      "title": "United States",
+      "lead": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C. The 48",
+      "image": "Flag_of_the_United_States_(DDD-F-416E_specifications).svg"
     }
   }
 }
