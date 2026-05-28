@@ -10,7 +10,33 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-28 (read this FIRST)
 
-**LATEST (2026-05-28 cont. — 2 batches of never-touched civs, 10 total):**
+**🎉 LATEST (2026-05-28 — backlog #7 link-coverage sweep is COMPLETE corpus-wide):**
+The whole corpus is now at **0 NEW** link-coverage gaps. Final `--corpus` scan:
+**5195 GATE · 0 new · 79057 advisory.** Every civilization passes
+`link-coverage --strict` with zero non-grandfathered gaps. Backlog item #7
+(22,877-gap debt at rebuild) is closed for the NEW-gap tier; the remaining ~5,195
+GATE gaps are all grandfathered (legacy baseline) and ~79k are advisory.
+- This session swept the remaining **72 civs** with NEW gaps in ~14 waves of 5,
+  ~1,100 born-verified glossary links + a handful of blurbs/waivers/event-reuse.
+  Commits `efb6536`..`ff396d9` (10 batches). First 10 civs deployed mid-session;
+  full corpus rebuilt + deployed at the end (Version `c4025043`, 1543 assets) and
+  pushed to origin (`ff396d9`). Verified live (glossary spans served).
+- **Incidental fixes made during the sweep:** retargeted a rotted event slug
+  (kievan-rus `Battle_of_Dorostolon` → `Siege_of_Dorostolon`, now-disambiguation);
+  normalized 6 space-form slugs → underscore (persian-empire); ~12 event-photo
+  heuristic flags resolved (captions for genuinely on-topic images; rejections for
+  off-topic/duplicate ones); trimmed 2 over-800-char cross-link blurbs (JEM);
+  wrote honest link-only audit stubs + backward-pass sections for the many
+  pre-5-persona civs that lacked an `audits/{tl}.audit.md`.
+- **3 civs are link-complete (0 NEW, all link gates pass) but ship-check-BLOCKED
+  by PRE-EXISTING, out-of-scope issues** (their new links DID deploy — the build
+  doesn't run ship-check; the block only prevents a `hasContent` *flip*, and all 3
+  are already live): **modern-india** + **viking-age** (pre-existing Persona-D
+  WEAK chapter grade — narrative-quality debt, needs a rewrite not a link pass);
+  **qin-dynasty** (missing chapter-8 map — maps-infra gap). These are flagged for
+  a future targeted pass, NOT link-coverage work.
+
+**PREVIOUS (2026-05-28 cont. — 2 batches of never-touched civs, 10 total):**
 - **Batch 5** (`f01a8de`): byzantine-empire, delhi-sultanate, renaissance-italy,
   ottoman-empire, islamic-golden-age.
 - **Batch 6** (`2c1dc2f`): medieval-india, swahili-coast, umayyad-caliphate,
