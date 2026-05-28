@@ -47,6 +47,42 @@
       "targetTl": "indus-valley",
       "targetChapter": 3,
       "blurb": "Proto-Elamite Susa sat on the trade road between Sumer and the Indus — a hinge in the Bronze Age long-distance network."
+    },
+    {
+      "matchText": "an Assyrian scribe",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "Assyria, the northern Mesopotamian power that became the Near East's first military superpower, generated much of the surviving written record about Elam — including the boasts of the campaign that finally sacked Susa in 646 BCE. The Assyrian Empire timeline tells that side of the rivalry."
+    },
+    {
+      "matchText": "the Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The Persian (Achaemenid) Empire is Elam's true afterlife — Susa became one of its capitals and Elamite became a language of its administration. The Persian Empire timeline follows the empire that absorbed and outlived its Elamite foundation."
+    },
+    {
+      "matchText": "Hammurabi",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Hammurabi of Babylon spent his early reign as an Elamite client before unifying Mesopotamia under his famous law code. Mesopotamia Chapter 7 tells his story — and his code is the very stele a later Elamite king would haul to Susa as plunder."
+    },
+    {
+      "matchText": "Sanskrit",
+      "targetTl": "vedic-period",
+      "targetChapter": 1,
+      "blurb": "Sanskrit is the eastern Indo-European sister of Old Persian — the sacred language of the Vedic hymns composed in northern India by the same broad Indo-European migration that produced the Persians. The Vedic Period timeline covers that world."
+    },
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Latin, the language of Rome, is one of the western branches of the same Indo-European family that includes Persian — a distant cousin of the tongue Cyrus the Great spoke. Ancient Rome's timeline follows the Latin-speaking world."
+    },
+    {
+      "matchText": "the Germanic languages",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "The Germanic languages — ancestors of English — are another western Indo-European branch, as distant from Persian as London is from Delhi yet descended from the same steppe proto-language. The Germanic Tribes timeline follows those peoples on Rome's frontier."
     }
   ],
   "2": [
@@ -55,6 +91,24 @@
       "targetTl": "mesopotamia",
       "targetChapter": 6,
       "blurb": "Naram-Sin's self-deification was the first Mesopotamian claim of living divinity, but his successor-once-removed Shulgi of Ur III pushed the move even further: temples to himself as a living god, hymns composed in his divine honor, and a propaganda boast that he could run from Ur to Nippur and back in a single day. Mesopotamia Chapter 6 covers Shulgi's god-king experiment."
+    },
+    {
+      "matchText": "later Mesopotamian empire",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "Sargon's Akkadian Empire created the template — appointed governors, a multi-ethnic centrally administered territory, Akkadian as the administrative language — that every later Mesopotamian empire inherited. Mesopotamia Chapter 5 tells the Akkadian story in full, from Sargon's conquest of Sumer to the imperial machinery the Elamites first met across the Zagros."
+    },
+    {
+      "matchText": "fragmented Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 6,
+      "blurb": "When the Akkadian Empire collapsed under drought, revolt, and the Gutian invasions, Mesopotamia fractured into competing dynasties before the Third Dynasty of Ur reunified the south. Mesopotamia Chapter 6 covers the post-Akkadian power vacuum that Puzur-Inshushinak campaigned into from the Elamite side."
+    },
+    {
+      "matchText": "Hammurabi",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Hammurabi's law code — the diorite stele topped by Shamash handing him the rod and ring — was carved at Babylon and later dragged to Susa as Elamite war loot, which is why it sits in the Louvre today beside the Stele of Naram-Sin. Mesopotamia Chapter 7 covers Hammurabi's reign and his famous code."
     }
   ],
   "3": [
@@ -87,6 +141,12 @@
       "targetTl": "ancient-china",
       "targetChapter": 3,
       "blurb": "Elam's distinctive script and pantheon mark it as a pristine highland civilization — independent the way early China's was, not a Sumerian colony."
+    },
+    {
+      "matchText": "Assyrian king",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 7,
+      "blurb": "The Assyrian king who fought a war to recover the statue of Nanaya was Ashurbanipal, the last great ruler of Assyria. Assyrian Empire Chapter 7 covers his 646 BCE annihilation of Elam — the sack of Susa, the desecration of the royal tombs, and the recovery of the goddess the Elamites had carried off from Uruk more than sixteen centuries earlier."
     }
   ],
   "4": [
@@ -101,6 +161,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "The Mari letters are the richest diplomatic archive of the early second millennium BCE and cover Hammurabi's rise to power from the Mesopotamian side — along with the fact Babylon's later chroniclers deliberately suppressed, that Hammurabi was an Elamite client king for the first fifteen years of his reign. Mesopotamia Chapter 7 walks through his patient rise and the eventual break with Siwe-palar-hupak."
+    },
+    {
+      "matchText": "Assyrians",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "The Assyrians built their power on a single all-powerful sharru (king), the opposite of Elam's rotating three-office collective. Their empire is the subject of its own story — and centuries later a Neo-Assyrian army under Ashurbanipal would sack Susa itself."
+    },
+    {
+      "matchText": "Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The Persians who later ruled this same Iranian world centered their monarchy on a single 'king of kings,' a far cry from Elam's shared sukkalmah offices. Persia rose directly out of the Elamite heartland — Anshan, an old Elamite city, was the first Persian royal seat."
     }
   ],
   "5": [
@@ -179,6 +251,24 @@
       "targetTl": "mesopotamia",
       "targetChapter": 11,
       "blurb": "Ashurbanipal's library at Nineveh held over 30,000 cuneiform tablets of Mesopotamian literature, religion, medicine, and history — most of what we know about Sumerian and Akkadian civilization has come down to us through it. Mesopotamia Chapter 11 covers the scholar-king side of the same man who hung Te-Umman's head in his garden."
+    },
+    {
+      "matchText": "Judah",
+      "targetTl": "ancient-israel",
+      "targetChapter": 7,
+      "blurb": "Judah was the southern Hebrew kingdom, centered on Jerusalem and the First Temple, which survived as an Assyrian tributary after its northern sister-kingdom of Israel fell. Ancient Israel Chapter 7 tells the story of Judah alone under the same Neo-Assyrian pressure that was bearing down on Elam, including Hezekiah's reforms and Sennacherib's siege of Jerusalem."
+    },
+    {
+      "matchText": "Persians",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The Persians were the Indo-European cousins of the Medes who settled the Iranian highlands around Anshan — the same old Elamite highland heartland. Within a century of Elam's destruction they would absorb its territory, its scribes, and its administrative traditions and build the largest empire the world had yet seen. The Persian Empire is where the Elamite story flows next."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Persia — the empire that rose in the Iranian highlands around Anshan, the old Elamite heartland — inherited Elam's territory and scribal traditions and became the first true world empire. The Persian Empire narrative picks up where Elam's independent history ends."
     }
   ],
   "8": [

@@ -73,6 +73,12 @@
       "targetTl": "ancient-nubia",
       "targetChapter": 4,
       "blurb": "Egypt's expulsion of the Hyksos came with renewed conquest of Nubia — liberation in the north, subjugation in the south."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "The horse-drawn chariot reached Egypt late, via the Hyksos — but it had already spread through Mesopotamia and the wider Near East, where chariot armies were reshaping warfare across the Bronze Age world Egypt had stayed insulated from."
     }
   ],
   "3": [
@@ -93,6 +99,18 @@
       "targetTl": "hittite-empire",
       "targetChapter": 3,
       "blurb": "Liberated, imperial Egypt now collided with the other Bronze Age great powers — above all the rising Hittite Empire in Anatolia."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "To Egyptian eyes the Euphrates was \"that inverted water\" — a river running the wrong way. It drained the world of Sumer, Akkad, and Babylon, the rival cradle of civilization in the land between the Tigris and Euphrates."
+    },
+    {
+      "matchText": "Babylon",
+      "targetTl": "mesopotamia",
+      "targetChapter": 8,
+      "blurb": "By Thutmose I's day Babylon was ruled by the Kassites, a dynasty of non-Mesopotamian origin that held the city for roughly four centuries — the long, stable \"Kassite peace\" that made Babylon one of the great powers Egypt now dealt with as a brother-king."
     }
   ],
   "4": [],
@@ -108,6 +126,12 @@
       "targetTl": "kingdom-of-kush",
       "targetChapter": 2,
       "blurb": "Thutmose III built a temple at Jebel Barkal, a sacred mountain near the Fourth Cataract. Centuries later, the Kushite kings would make Jebel Barkal the spiritual heart of their own kingdom, adopting the Egyptian religious traditions that the New Kingdom pharaohs had planted there."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 7,
+      "blurb": "Egypt's New Kingdom assimilated Nubia so thoroughly — schooling local elites, giving them Egyptian names, embedding them in the administration — that no later state matched the depth of its cultural colonialism until imperial Rome. At its height under the Five Good Emperors, Rome would Romanize its provinces on a scale that finally rivaled what Thutmose III had done in Nubia a millennium and a half earlier."
     }
   ],
   "6": [

@@ -1,0 +1,828 @@
+# LINK-COVERAGE-NEEDED — elamite-civilization
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Assyrian   ⟨dict,recur×4⟩  → cross-link
+  * Babylonian   ⟨dict⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+    Fayum   ⟨dict⟩  → glossary
+    Nile   ⟨dict⟩  → glossary
+    Neolithic   ⟨dict⟩  → glossary
+    Tomb U-j   ⟨dict⟩  → event
+    Abydos   ⟨dict⟩  → glossary
+    Achaemenid   ⟨dict⟩  → glossary
+  * Andean   ⟨dict⟩  → cross-link
+    Central Asia   ⟨dict⟩  → glossary
+  * Anatolian   ⟨dict⟩  → glossary
+    Chogha Zanbil   ⟨dict⟩  → glossary
+    Sargon   ⟨dict⟩  → glossary
+    Hammurabi   ⟨dict⟩  → cross-link
+    Hebrew   ⟨dict⟩  → glossary
+    Arabic   ⟨dict⟩  → glossary
+    Persian Empire   ⟨dict⟩  → cross-link
+  * Eurasia   ⟨dict⟩  → glossary
+    Sanskrit   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict⟩  → cross-link
+  * Slavic   ⟨dict⟩  → glossary
+    London   ⟨dict⟩  → glossary
+  * Delhi   ⟨dict⟩  → cross-link
+    Black Sea   ⟨dict⟩  → glossary
+    Mitanni   ⟨dict⟩  → cross-link
+    Kassite   ⟨dict,bold⟩  → glossary
+    Babylon   ⟨dict⟩  → glossary
+    Tamil   ⟨dict⟩  → glossary
+    Cyrus the Great   ⟨dict⟩  → cross-link
+  ~ Iran   ⟨recur×8⟩  (advisory)
+  ~ Southwestern Iran   ⟨⟩  (advisory)
+  ~ Fārs   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Mound of Malyan   ⟨⟩  (advisory)
+  ~ Merimde   ⟨⟩  (advisory)
+  ~ Early Dynastic Egypt Ch   ⟨⟩  (advisory)
+  ~ Copper Age   ⟨⟩  (advisory)
+  ~ Babylonian-era   ⟨⟩  (advisory)
+  ~ Early Andean Ch   ⟨⟩  (advisory)
+  ~ Tepe Sialk   ⟨⟩  (advisory)
+  ~ Badakhshani   ⟨⟩  (advisory)
+  ~ Iraq   ⟨⟩  (advisory)
+  ~ Syrian   ⟨⟩  (advisory)
+  ~ Jesus   ⟨dict⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Celtic   ⟨⟩  (advisory)
+  ~ Syria   ⟨dict⟩  (advisory)
+  ~ Elamo-Dravidian   ⟨⟩  (advisory)
+  ~ Malayalam   ⟨⟩  (advisory)
+  ~ Kannada   ⟨⟩  (advisory)
+  ~ Turkish   ⟨⟩  (advisory)
+  ~ Finnish   ⟨⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ start with   ⟨dict-lc⟩  (advisory)
+  ~ vertical   ⟨dict-lc⟩  (advisory)
+  ~ barley   ⟨dict-lc⟩  (advisory)
+  ~ garden   ⟨dict-lc⟩  (advisory)
+  ~ high plateau   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ painted pottery   ⟨dict-lc⟩  (advisory)
+  ~ copper   ⟨dict-lc,bold⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ patron deity   ⟨dict-lc⟩  (advisory)
+  ~ oaths.   ⟨dict-lc⟩  (advisory)
+  ~ underworld   ⟨dict-lc⟩  (advisory)
+  ~ 646 BCE   ⟨dict-lc⟩  (advisory)
+  ~ vertical archipelago   ⟨dict-lc⟩  (advisory)
+  ~ cotton   ⟨dict-lc⟩  (advisory)
+  ~ potatoes   ⟨dict-lc⟩  (advisory)
+  ~ llamas   ⟨dict-lc,rare⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ ziggurats   ⟨dict-lc⟩  (advisory)
+  ~ pressed into wet clay   ⟨dict-lc⟩  (advisory)
+  ~ the Black Sea   ⟨dict-lc⟩  (advisory)
+  ~ reminisced   ⟨rare⟩  (advisory)
+  ~ contrasts   ⟨rare⟩  (advisory)
+  ~ rearing   ⟨rare⟩  (advisory)
+  ~ vegetables   ⟨rare⟩  (advisory)
+  ~ blindfolded   ⟨rare⟩  (advisory)
+  ~ interestingly   ⟨rare⟩  (advisory)
+  ~ convincingly   ⟨rare⟩  (advisory)
+  ~ linguistics   ⟨rare⟩  (advisory)
+  ~ homegrown   ⟨rare⟩  (advisory)
+  ~ milestones   ⟨rare⟩  (advisory)
+  ~ purporting   ⟨rare⟩  (advisory)
+  ~ departing   ⟨rare⟩  (advisory)
+  ~ complementarity   ⟨rare⟩  (advisory)
+  ~ pathways   ⟨rare⟩  (advisory)
+  ~ hardwoods   ⟨rare⟩  (advisory)
+  ~ donkeys   ⟨rare⟩  (advisory)
+  ~ flakes   ⟨rare⟩  (advisory)
+  ~ urgently   ⟨rare⟩  (advisory)
+  ~ glossaries   ⟨rare⟩  (advisory)
+  ~ lifeline   ⟨rare⟩  (advisory)
+  ~ waging   ⟨rare⟩  (advisory)
+  ~ disengage   ⟨rare⟩  (advisory)
+  ~ intimacy   ⟨rare⟩  (advisory)
+  ~ oddities   ⟨rare⟩  (advisory)
+  ~ loners   ⟨rare⟩  (advisory)
+  ~ conveyed   ⟨rare⟩  (advisory)
+  ~ suffixes   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Mesopotamia   ⟨dict,recur×5⟩  → cross-link
+    Sumer   ⟨dict⟩  → glossary
+    Semitic   ⟨dict⟩  → glossary
+    Mesopotamian   ⟨dict,recur×7⟩  → cross-link
+  * Babylonian   ⟨dict⟩  → glossary
+  * Assyrian   ⟨dict⟩  → cross-link
+    Zagros   ⟨dict,recur×3⟩  → glossary
+    Awan   ⟨recur×3⟩  → ?
+    Susa   ⟨dict,recur×8⟩  → glossary
+    Venus   ⟨dict⟩  → glossary
+    Paris   ⟨dict⟩  → glossary
+    Hammurabi   ⟨dict⟩  → cross-link
+    Anshan   ⟨dict⟩  → glossary
+    Shimashki   ⟨dict⟩  → event
+    Elamite-Akkadian Treaty   ⟨bold⟩  → event/glossary
+  ~ Neo-Babylonian   ⟨⟩  (advisory)
+  ~ Khita   ⟨⟩  (advisory)
+  ~ Either the Elamites   ⟨⟩  (advisory)
+  ~ King of the Elamite   ⟨⟩  (advisory)
+  ~ SEEN   ⟨⟩  (advisory)
+  ~ Naram-Suen   ⟨⟩  (advisory)
+  ~ Somewhere   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Refuge   ⟨⟩  (advisory)
+  ~ Elamite-specific   ⟨⟩  (advisory)
+  ~ seized the throne   ⟨dict-lc⟩  (advisory)
+  ~ cuneiform   ⟨dict-lc⟩  (advisory)
+  ~ slaves.   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ king named   ⟨dict-lc⟩  (advisory)
+  ~ party   ⟨dict-lc⟩  (advisory)
+  ~ pantheon   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ divine determinative   ⟨dict-lc⟩  (advisory)
+  ~ crown   ⟨dict-lc⟩  (advisory)
+  ~ sack of Susa   ⟨dict-lc⟩  (advisory)
+  ~ sandstone   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ 1158 BCE   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ drought   ⟨dict-lc⟩  (advisory)
+  ~ invasions of   ⟨dict-lc⟩  (advisory)
+  ~ vacuum   ⟨dict-lc⟩  (advisory)
+  ~ patches   ⟨rare⟩  (advisory)
+  ~ transcriptions   ⟨rare⟩  (advisory)
+  ~ invokes   ⟨rare⟩  (advisory)
+  ~ invades   ⟨rare⟩  (advisory)
+  ~ unattested   ⟨rare⟩  (advisory)
+  ~ evidently   ⟨rare⟩  (advisory)
+  ~ specifies   ⟨rare⟩  (advisory)
+  ~ swears   ⟨rare⟩  (advisory)
+  ~ subjugated   ⟨rare⟩  (advisory)
+  ~ invocation   ⟨rare⟩  (advisory)
+  ~ validate   ⟨rare⟩  (advisory)
+  ~ transliterations   ⟨rare⟩  (advisory)
+  ~ determinative   ⟨rare⟩  (advisory)
+  ~ prefix   ⟨rare⟩  (advisory)
+  ~ cedars   ⟨rare⟩  (advisory)
+  ~ commemoration   ⟨rare⟩  (advisory)
+  ~ accountancy   ⟨rare⟩  (advisory)
+  ~ tallies   ⟨rare⟩  (advisory)
+  ~ linguistics   ⟨rare⟩  (advisory)
+  ~ evaluated   ⟨rare⟩  (advisory)
+  ~ phonetically   ⟨rare⟩  (advisory)
+  ~ proclaiming   ⟨rare⟩  (advisory)
+  ~ byword   ⟨rare⟩  (advisory)
+  ~ uncivilized   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Ur III   ⟨dict,recur×9⟩  → glossary
+    Akkadian Empire   ⟨dict⟩  → cross-link
+    Sumer   ⟨dict,recur×5⟩  → glossary
+    Sumerian   ⟨dict,recur×14⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Elam   ⟨dict,recur×11⟩  → cross-link
+  * Iranian   ⟨dict⟩  → glossary
+    Zagros   ⟨dict⟩  → glossary
+    Sukkalmah   ⟨dict⟩  → event
+    Babylon   ⟨dict,recur×3⟩  → glossary
+    Hittites   ⟨dict⟩  → cross-link
+    Persia   ⟨dict⟩  → cross-link
+    Ramesses II   ⟨dict⟩  → event
+  * Semitic-speaking   ⟨dict⟩  → glossary
+    Anshan   ⟨dict⟩  → glossary
+    Mesopotamian   ⟨dict,recur×12⟩  → cross-link
+    Akkadian   ⟨dict,recur×5⟩  → glossary
+  * Babylonian   ⟨dict⟩  → glossary
+    Uruk   ⟨dict⟩  → glossary
+    Ishtar   ⟨dict⟩  → glossary
+  * Assyrian   ⟨dict⟩  → cross-link
+    Ashurbanipal   ⟨dict⟩  → event
+    Linear Elamite   ⟨dict⟩  → event
+    Persian Gulf   ⟨dict⟩  → cross-link
+    Der   ⟨bold⟩  → event/glossary
+    Elamite pantheon   ⟨bold⟩  → event/glossary
+  ~ Ur the Third   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Iraq   ⟨⟩  (advisory)
+  ~ Iran   ⟨⟩  (advisory)
+  ~ Awan   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Cyrus   ⟨⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Akkadian-speaking   ⟨⟩  (advisory)
+  ~ Elamite-language   ⟨⟩  (advisory)
+  ~ Mesopotamian Enlil   ⟨⟩  (advisory)
+  ~ Achaemenid-era   ⟨⟩  (advisory)
+  ~ Great Lady   ⟨⟩  (advisory)
+  ~ Mesopotamian Shamash   ⟨⟩  (advisory)
+  ~ Elamite-Akkadian   ⟨⟩  (advisory)
+  ~ Mesopotamian Ishtar   ⟨⟩  (advisory)
+  ~ Mesopotamian Elamite   ⟨⟩  (advisory)
+  ~ Epartids   ⟨⟩  (advisory)
+  ~ kee-ree-REE-shah   ⟨def⟩  (advisory)
+  ~ NAH-hoon-tay   ⟨def⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ barley   ⟨dict-lc⟩  (advisory)
+  ~ great ziggurat of Ur   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ viceroy   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ early Shang   ⟨dict-lc⟩  (advisory)
+  ~ oracle bones   ⟨dict-lc⟩  (advisory)
+  ~ royal clan   ⟨dict-lc⟩  (advisory)
+  ~ tributary   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ tribe   ⟨dict-lc⟩  (advisory)
+  ~ chronicle   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ pantheon   ⟨dict-lc⟩  (advisory)
+  ~ cult center   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ oaths   ⟨dict-lc⟩  (advisory)
+  ~ abbreviated   ⟨rare⟩  (advisory)
+  ~ ziggurat   ⟨rare⟩  (advisory)
+  ~ battling   ⟨rare⟩  (advisory)
+  ~ geniuses   ⟨rare⟩  (advisory)
+  ~ disadvantage   ⟨rare⟩  (advisory)
+  ~ blaming   ⟨rare⟩  (advisory)
+  ~ blames   ⟨rare⟩  (advisory)
+  ~ tutelary   ⟨rare⟩  (advisory)
+  ~ ensures   ⟨rare⟩  (advisory)
+  ~ vacated   ⟨rare⟩  (advisory)
+  ~ familiarity   ⟨rare⟩  (advisory)
+  ~ phonetically   ⟨rare⟩  (advisory)
+  ~ replies   ⟨rare⟩  (advisory)
+  ~ destinations   ⟨rare⟩  (advisory)
+  ~ legitimizes   ⟨rare⟩  (advisory)
+  ~ priesthoods   ⟨rare⟩  (advisory)
+  ~ protectors   ⟨rare⟩  (advisory)
+  ~ interchangeably   ⟨rare⟩  (advisory)
+  ~ pantheons   ⟨rare⟩  (advisory)
+  ~ scraps   ⟨rare⟩  (advisory)
+  ~ crystallizing   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Elamite   ⟨dict,recur×26⟩  → cross-link
+    Mesopotamian   ⟨dict,recur×8⟩  → cross-link
+    Naram-Sin   ⟨dict⟩  → event
+    Humban   ⟨dict⟩  → glossary
+    Kiririsha   ⟨dict⟩  → event
+    Inshushinak   ⟨dict⟩  → glossary
+    Susa   ⟨dict,recur×13⟩  → glossary
+    Anshan   ⟨dict⟩  → glossary
+    Khuzestan   ⟨dict⟩  → glossary
+    Anatolia   ⟨dict⟩  → glossary
+    Assyrians   ⟨dict⟩  → cross-link
+    Persians   ⟨dict⟩  → cross-link
+    Mesopotamia   ⟨dict,recur×5⟩  → cross-link
+    Amorite   ⟨dict⟩  → glossary
+    Euphrates   ⟨dict⟩  → glossary
+  * Assyrian   ⟨dict⟩  → cross-link
+    Zagros   ⟨dict⟩  → glossary
+    Kidinuid   ⟨dict⟩  → event
+    Sukkal of Susa   ⟨bold⟩  → event/glossary
+  ~ Indo-European-speaking   ⟨⟩  (advisory)
+  ~ Great King   ⟨⟩  (advisory)
+  ~ Mesopotamia Chapters   ⟨⟩  (advisory)
+  ~ BCE Near Eastern   ⟨⟩  (advisory)
+  ~ Syria   ⟨dict⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Lim of Mari   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Servant of Hupak   ⟨⟩  (advisory)
+  ~ Syrian   ⟨⟩  (advisory)
+  ~ Mesopotamia Chapter   ⟨⟩  (advisory)
+  ~ Igihalkid   ⟨⟩  (advisory)
+  ~ Elam of the Middle Elamite   ⟨⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ vizier.   ⟨dict-lc⟩  (advisory)
+  ~ lugal   ⟨dict-lc⟩  (advisory)
+  ~ representative   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ vertical.   ⟨dict-lc⟩  (advisory)
+  ~ king of kings.   ⟨dict-lc⟩  (advisory)
+  ~ solidarity   ⟨dict-lc⟩  (advisory)
+  ~ pantheon   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ last king   ⟨dict-lc⟩  (advisory)
+  ~ great powers   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ kinship   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ an aggressive   ⟨dict-lc⟩  (advisory)
+  ~ into Mesopotamia   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ cuneiform   ⟨dict-lc⟩  (advisory)
+  ~ slaves   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ ziggurat   ⟨dict-lc,rare⟩  (advisory)
+  ~ three-office ruling structure   ⟨bold⟩  (advisory)
+  ~ legal contracts   ⟨bold⟩  (advisory)
+  ~ sharrum   ⟨rare⟩  (advisory)
+  ~ mortals   ⟨rare⟩  (advisory)
+  ~ rotate   ⟨rare⟩  (advisory)
+  ~ coordinator   ⟨rare⟩  (advisory)
+  ~ sharru   ⟨rare⟩  (advisory)
+  ~ nuisance   ⟨rare⟩  (advisory)
+  ~ waging   ⟨rare⟩  (advisory)
+  ~ boastful   ⟨rare⟩  (advisory)
+  ~ biased   ⟨rare⟩  (advisory)
+  ~ initiating   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Mesopotamian   ⟨dict,recur×7⟩  → cross-link
+    Elam   ⟨dict,recur×8⟩  → cross-link
+  * Persian   ⟨dict⟩  → cross-link
+    Garagay   ⟨dict⟩  → event
+    Cardal   ⟨dict⟩  → event
+    Huaca de los Reyes   ⟨dict⟩  → glossary
+    Middle Elamite   ⟨recur×4⟩  → ?
+    Sukkalmah   ⟨dict⟩  → event
+    Ige-halki   ⟨bold⟩  → event/glossary
+    Babylon   ⟨dict,recur×3⟩  → glossary
+    Anatolia   ⟨dict⟩  → glossary
+    Mursili I   ⟨dict⟩  → event
+    Semitic   ⟨dict⟩  → glossary
+    Sumer   ⟨dict⟩  → glossary
+    Ur-Nammu   ⟨dict⟩  → event
+    Hebrew Bible   ⟨dict⟩  → glossary
+    Eridu   ⟨dict⟩  → cross-link
+    Inshushinak   ⟨dict,recur×4⟩  → glossary
+    Humban   ⟨dict⟩  → glossary
+  * Iranian   ⟨dict⟩  → glossary
+    Ashurbanipal   ⟨dict⟩  → event
+    Achaemenid   ⟨dict⟩  → glossary
+    Parthian   ⟨dict⟩  → glossary
+    Sasanian   ⟨dict⟩  → cross-link
+  * Arab   ⟨dict⟩  → glossary
+    Louvre   ⟨dict⟩  → glossary
+    Anshan   ⟨dict⟩  → glossary
+  ~ Iran   ⟨⟩  (advisory)
+  ~ Fortress of Untash   ⟨⟩  (advisory)
+  ~ Middle Elamite Elam   ⟨⟩  (advisory)
+  ~ Peruvian   ⟨⟩  (advisory)
+  ~ U-shaped   ⟨⟩  (advisory)
+  ~ Pacific   ⟨dict⟩  (advisory)
+  ~ TAHSH   ⟨⟩  (advisory)
+  ~ Kidin-Khutran   ⟨⟩  (advisory)
+  ~ Egypt's New Kingdom   ⟨⟩  (advisory)
+  ~ Indo-European-speaking   ⟨⟩  (advisory)
+  ~ Turkey   ⟨dict⟩  (advisory)
+  ~ Neo-Assyrian   ⟨⟩  (advisory)
+  ~ Great God   ⟨⟩  (advisory)
+  ~ Karkheh River   ⟨⟩  (advisory)
+  ~ Browne   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Roman Ghirshman   ⟨⟩  (advisory)
+  ~ Iran-Iraq War   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Classical   ⟨⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Ancient China Ch   ⟨⟩  (advisory)
+  ~ Alexandrine   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ name for the site   ⟨def⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ pantheon   ⟨dict-lc⟩  (advisory)
+  ~ cuneiform   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ central Anatolia   ⟨dict-lc⟩  (advisory)
+  ~ language isolate   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ came to the throne   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ cult center   ⟨dict-lc⟩  (advisory)
+  ~ enclosure   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ bronze vessels   ⟨dict-lc⟩  (advisory)
+  ~ sack of Susa   ⟨dict-lc⟩  (advisory)
+  ~ 646 BCE   ⟨dict-lc⟩  (advisory)
+  ~ green   ⟨dict-lc⟩  (advisory)
+  ~ restoration   ⟨dict-lc⟩  (advisory)
+  ~ focus   ⟨dict-lc⟩  (advisory)
+  ~ competitions   ⟨rare⟩  (advisory)
+  ~ culminate   ⟨rare⟩  (advisory)
+  ~ affinities   ⟨rare⟩  (advisory)
+  ~ dominator   ⟨rare⟩  (advisory)
+  ~ architectures   ⟨rare⟩  (advisory)
+  ~ overestimate   ⟨rare⟩  (advisory)
+  ~ stamps   ⟨rare⟩  (advisory)
+  ~ brickwork   ⟨rare⟩  (advisory)
+  ~ surveyor   ⟨rare⟩  (advisory)
+  ~ petroleum   ⟨rare⟩  (advisory)
+  ~ prospects   ⟨rare⟩  (advisory)
+  ~ unnatural   ⟨rare⟩  (advisory)
+  ~ vagaries   ⟨rare⟩  (advisory)
+  ~ imitating   ⟨rare⟩  (advisory)
+  ~ headless   ⟨rare⟩  (advisory)
+  ~ neckline   ⟨rare⟩  (advisory)
+  ~ appreciate   ⟨rare⟩  (advisory)
+  ~ impress   ⟨rare⟩  (advisory)
+  ~ cauldron   ⟨rare⟩  (advisory)
+  ~ solidity   ⟨rare⟩  (advisory)
+  ~ desecration   ⟨rare⟩  (advisory)
+  ~ misfortune   ⟨rare⟩  (advisory)
+  ~ recycle   ⟨rare⟩  (advisory)
+  ~ looter   ⟨rare⟩  (advisory)
+  ~ patina   ⟨rare⟩  (advisory)
+  ~ viewer   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Zagros   ⟨dict,recur×3⟩  → glossary
+    Tigris River   ⟨dict⟩  → glossary
+    Babylonia   ⟨dict⟩  → glossary
+    Susa   ⟨dict,recur×24⟩  → glossary
+    Mesopotamian   ⟨dict,recur×7⟩  → cross-link
+    Victory Stele of Naram-Sin   ⟨dict,bold,recur×3⟩  → cross-link
+    Sargon   ⟨dict⟩  → glossary
+    Akkadian   ⟨dict,recur×3⟩  → glossary
+    Elam   ⟨dict,recur×12⟩  → cross-link
+    Late Bronze Age   ⟨dict⟩  → glossary
+    Paris   ⟨dict⟩  → glossary
+    Louvre   ⟨dict,recur×4⟩  → glossary
+    Manishtushu   ⟨dict,bold,recur×3⟩  → glossary
+    Sargon of Akkad   ⟨dict⟩  → cross-link
+    Naram-Sin   ⟨dict⟩  → event
+    Obelisk of Manishtushu   ⟨dict,bold⟩  → glossary
+    Shulgi   ⟨dict⟩  → glossary
+    Ur III   ⟨dict⟩  → glossary
+    Euphrates   ⟨dict⟩  → glossary
+    Proto-Elamite   ⟨dict⟩  → event
+    Anshan   ⟨dict,recur×3⟩  → glossary
+    Elamite Dark Age   ⟨bold⟩  → event/glossary
+    Neo-Assyrian Empire   ⟨dict⟩  → cross-link
+  ~ Igihalkid   ⟨⟩  (advisory)
+  ~ BCE the army   ⟨⟩  (advisory)
+  ~ Middle Elamite   ⟨⟩  (advisory)
+  ~ French   ⟨recur×4⟩  (advisory)
+  ~ Statue of Manishtushu   ⟨⟩  (advisory)
+  ~ Dozens of smaller   ⟨⟩  (advisory)
+  ~ Worth   ⟨⟩  (advisory)
+  ~ Neo-Assyrian   ⟨⟩  (advisory)
+  ~ Sunrise   ⟨⟩  (advisory)
+  ~ Statue of Shulgi   ⟨bold⟩  (advisory)
+  ~ Iran   ⟨⟩  (advisory)
+  ~ stelae   ⟨dict-lc⟩  (advisory)
+  ~ votive offerings   ⟨dict-lc⟩  (advisory)
+  ~ stele   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ he took.   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ came to the throne   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ the father   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ journey   ⟨dict-lc⟩  (advisory)
+  ~ cuneiform   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ statue of Marduk   ⟨dict-lc⟩  (advisory)
+  ~ pantheon.   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ his brother   ⟨dict-lc⟩  (advisory)
+  ~ theophoric element   ⟨dict-lc⟩  (advisory)
+  ~ ziggurat   ⟨dict-lc,rare⟩  (advisory)
+  ~ sacred grove   ⟨dict-lc⟩  (advisory)
+  ~ restoration   ⟨dict-lc⟩  (advisory)
+  ~ obelisk   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ sukkalmah.   ⟨dict-lc,rare⟩  (advisory)
+  ~ cedar-wood processional barge of Marduk   ⟨bold⟩  (advisory)
+  ~ statue of Marduk himself   ⟨bold⟩  (advisory)
+  ~ restoration inscriptions   ⟨bold⟩  (advisory)
+  ~ convoy   ⟨rare⟩  (advisory)
+  ~ sacker   ⟨rare⟩  (advisory)
+  ~ restorer   ⟨rare⟩  (advisory)
+  ~ cynically   ⟨rare⟩  (advisory)
+  ~ manipulating   ⟨rare⟩  (advisory)
+  ~ usurping   ⟨rare⟩  (advisory)
+  ~ reconstructible   ⟨rare⟩  (advisory)
+  ~ lamenting   ⟨rare⟩  (advisory)
+  ~ artwork   ⟨rare⟩  (advisory)
+  ~ solemn   ⟨rare⟩  (advisory)
+  ~ kidnap   ⟨rare⟩  (advisory)
+  ~ captivities   ⟨rare⟩  (advisory)
+  ~ kidnapping   ⟨rare⟩  (advisory)
+  ~ multiplies   ⟨rare⟩  (advisory)
+  ~ appended   ⟨rare⟩  (advisory)
+  ~ theophoric   ⟨rare⟩  (advisory)
+  ~ miniatures   ⟨rare⟩  (advisory)
+  ~ dedicator   ⟨rare⟩  (advisory)
+  ~ tableau   ⟨rare⟩  (advisory)
+  ~ bronzes   ⟨rare⟩  (advisory)
+  ~ historiographically   ⟨rare⟩  (advisory)
+  ~ overextended   ⟨rare⟩  (advisory)
+  ~ reversing   ⟨rare⟩  (advisory)
+  ~ briefer   ⟨rare⟩  (advisory)
+  ~ strata   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Shutruk-Nahhunte   ⟨dict⟩  → event
+    Elam   ⟨dict,recur×16⟩  → cross-link
+    Assyria   ⟨dict,bold,recur×13⟩  → cross-link
+    Adad-nirari III   ⟨dict⟩  → glossary
+    Mesopotamian   ⟨dict,recur×6⟩  → cross-link
+  * Semitic-speaking   ⟨dict⟩  → glossary
+    Aramaic   ⟨dict⟩  → glossary
+    Levant   ⟨dict⟩  → glossary
+    Judah   ⟨dict⟩  → cross-link
+    Lebanon   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+  * Armenian   ⟨dict⟩  → glossary
+    Indo-European   ⟨dict⟩  → glossary
+    Persians   ⟨dict⟩  → cross-link
+  * Persian   ⟨dict⟩  → cross-link
+    Louvre   ⟨dict⟩  → glossary
+    Sumerian   ⟨dict⟩  → glossary
+    Akkadian   ⟨dict⟩  → glossary
+    Inshushinak   ⟨dict⟩  → glossary
+    Tigris   ⟨dict⟩  → glossary
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Garden Party Relief   ⟨dict⟩  → event
+    Babylonia   ⟨dict⟩  → glossary
+    Babylon   ⟨dict,recur×4⟩  → glossary
+  * Babylonian   ⟨dict⟩  → glossary
+    Modern   ⟨dict,dict-lc⟩  → event
+    Uruk   ⟨dict,recur×3⟩  → glossary
+    Code of Hammurabi   ⟨dict⟩  → cross-link
+    Dur-Untash   ⟨dict⟩  → glossary
+    Chogha Zanbil   ⟨dict⟩  → glossary
+    Sukkalmah   ⟨dict⟩  → event
+    Babylonians   ⟨dict⟩  → glossary
+    Neo-Babylonian Empire   ⟨dict⟩  → glossary
+    Anshan   ⟨dict⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+  ~ Elam of Chogha Zanbil   ⟨⟩  (advisory)
+  ~ Sukkalmah-style   ⟨⟩  (advisory)
+  ~ Iraq   ⟨⟩  (advisory)
+  ~ Neo-Assyria   ⟨⟩  (advisory)
+  ~ Syrian   ⟨⟩  (advisory)
+  ~ Israel   ⟨dict⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Iran   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Tempti-Humban-Inshushinak   ⟨⟩  (advisory)
+  ~ Lord of Humban   ⟨⟩  (advisory)
+  ~ Sukkalmah Elamite   ⟨⟩  (advisory)
+  ~ Assyrian-controlled   ⟨⟩  (advisory)
+  ~ Mesopotamia Chapter   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Either   ⟨⟩  (advisory)
+  ~ Shimashki-era   ⟨⟩  (advisory)
+  ~ Garden Party   ⟨⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ pantheon   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ professional standing army   ⟨dict-lc⟩  (advisory)
+  ~ the Levant   ⟨dict-lc⟩  (advisory)
+  ~ tribute.   ⟨dict-lc⟩  (advisory)
+  ~ invasions of   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ cuneiform   ⟨dict-lc⟩  (advisory)
+  ~ king named   ⟨dict-lc⟩  (advisory)
+  ~ an aggressive   ⟨dict-lc⟩  (advisory)
+  ~ ridge   ⟨dict-lc⟩  (advisory)
+  ~ chariot   ⟨dict-lc⟩  (advisory)
+  ~ composite bows   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ garden   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ his brother.   ⟨dict-lc⟩  (advisory)
+  ~ destruction of Elam   ⟨dict-lc,bold⟩  (advisory)
+  ~ 646 BCE   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ annals   ⟨dict-lc⟩  (advisory)
+  ~ ziggurat   ⟨dict-lc,rare⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ old kingdom.   ⟨dict-lc⟩  (advisory)
+  ~ king of Anshan   ⟨dict-lc⟩  (advisory)
+  ~ carrying off of the Elamite royal dead   ⟨bold⟩  (advisory)
+  ~ salting of the fields around Susa   ⟨bold⟩  (advisory)
+  ~ manages   ⟨rare⟩  (advisory)
+  ~ endgame   ⟨rare⟩  (advisory)
+  ~ torturing   ⟨rare⟩  (advisory)
+  ~ flaying   ⟨rare⟩  (advisory)
+  ~ impaling   ⟨rare⟩  (advisory)
+  ~ resisters   ⟨rare⟩  (advisory)
+  ~ tempti   ⟨rare⟩  (advisory)
+  ~ graphic   ⟨rare⟩  (advisory)
+  ~ headbands   ⟨rare⟩  (advisory)
+  ~ crushes   ⟨rare⟩  (advisory)
+  ~ grisly   ⟨rare⟩  (advisory)
+  ~ speared   ⟨rare⟩  (advisory)
+  ~ mercilessness   ⟨rare⟩  (advisory)
+  ~ protruding   ⟨rare⟩  (advisory)
+  ~ deterioration   ⟨rare⟩  (advisory)
+  ~ couches   ⟨rare⟩  (advisory)
+  ~ dangles   ⟨rare⟩  (advisory)
+  ~ fanning   ⟨rare⟩  (advisory)
+  ~ rotates   ⟨rare⟩  (advisory)
+  ~ breeze   ⟨rare⟩  (advisory)
+  ~ loyally   ⟨rare⟩  (advisory)
+  ~ deferring   ⟨rare⟩  (advisory)
+  ~ deflect   ⟨rare⟩  (advisory)
+  ~ distraction   ⟨rare⟩  (advisory)
+  ~ unshakable   ⟨rare⟩  (advisory)
+  ~ exulting   ⟨rare⟩  (advisory)
+  ~ highlights   ⟨rare⟩  (advisory)
+  ~ triumphalism   ⟨rare⟩  (advisory)
+  ~ disinterred   ⟨rare⟩  (advisory)
+  ~ ghosts   ⟨rare⟩  (advisory)
+  ~ consigning   ⟨rare⟩  (advisory)
+  ~ salting   ⟨rare⟩  (advisory)
+  ~ sterile   ⟨rare⟩  (advisory)
+  ~ salted   ⟨rare⟩  (advisory)
+  ~ originate   ⟨rare⟩  (advisory)
+  ~ propagandists   ⟨rare⟩  (advisory)
+  ~ uninhabitable   ⟨rare⟩  (advisory)
+  ~ reinstalled   ⟨rare⟩  (advisory)
+  ~ invincible   ⟨rare⟩  (advisory)
+  ~ excavate   ⟨rare⟩  (advisory)
+  ~ saddest   ⟨rare⟩  (advisory)
+  ~ footnotes   ⟨rare⟩  (advisory)
+  ~ regained   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Fars   ⟨dict,recur×4⟩  → glossary
+    Iranian   ⟨dict,recur×7⟩  → glossary
+    Tall-i Malyan   ⟨dict⟩  → glossary
+    Neo-Elamite   ⟨recur×3⟩  → ?
+    Ashurbanipal   ⟨dict,recur×10⟩  → event
+    Indo-European   ⟨dict⟩  → glossary
+    Proto-Indo-European   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict⟩  → cross-link
+  * Slavic   ⟨dict⟩  → glossary
+    Greeks   ⟨dict⟩  → glossary
+    Iranian-speaking   ⟨dict⟩  → glossary
+    Media   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Indo-Iranian   ⟨dict⟩  → event
+    Bronze Age   ⟨dict⟩  → glossary
+    Cyrus II   ⟨dict⟩  → glossary
+  * Westerners   ⟨dict⟩  → glossary
+    Jerusalem   ⟨dict⟩  → cross-link
+    Isaiah   ⟨dict⟩  → event
+    Messiah   ⟨dict⟩  → glossary
+    Babylon   ⟨dict,recur×6⟩  → glossary
+    Romulus   ⟨dict⟩  → event
+    Sumer   ⟨dict⟩  → glossary
+    Akkad   ⟨dict⟩  → glossary
+  * Mesopotamian   ⟨dict⟩  → cross-link
+    Elam   ⟨dict,recur×3⟩  → cross-link
+    Persia   ⟨dict,recur×3⟩  → cross-link
+    Babylonia   ⟨dict⟩  → glossary
+    Lydia   ⟨dict⟩  → glossary
+    Phoenicia   ⟨dict⟩  → cross-link
+    Shimashki   ⟨dict⟩  → event
+    Shiraz   ⟨dict⟩  → glossary
+    Athens   ⟨dict⟩  → cross-link
+    Aramaic   ⟨dict,bold,recur×5⟩  → glossary
+    Semitic   ⟨dict⟩  → glossary
+    Elamite-cuneiform   ⟨recur×3⟩  → ?
+  * Semitic-speaking   ⟨dict⟩  → glossary
+    Proto-Elamite   ⟨dict⟩  → event
+    Akkadian   ⟨dict⟩  → glossary
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Sumerian   ⟨dict⟩  → glossary
+    Shutruk-Nahhunte   ⟨dict⟩  → event
+    Humban   ⟨dict⟩  → glossary
+    Kiririsha   ⟨dict⟩  → event
+    Nahhunte   ⟨dict⟩  → event
+    Inshushinak   ⟨dict⟩  → glossary
+    Pinikir   ⟨dict⟩  → event
+    Herodotus   ⟨dict⟩  → cross-link
+  * Macedonian   ⟨dict⟩  → glossary
+    Assyria   ⟨dict⟩  → cross-link
+    Nineveh   ⟨dict⟩  → cross-link
+  * Sassanid   ⟨dict⟩  → glossary
+    Achaemenid Empire   ⟨dict⟩  → cross-link
+  ~ Pontic-Caspian   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×5⟩  (advisory)
+  ~ Celtic   ⟨⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Gangetic   ⟨⟩  (advisory)
+  ~ Persian-Elamite   ⟨⟩  (advisory)
+  ~ Jewish   ⟨⟩  (advisory)
+  ~ Temple   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Shi Huangdi   ⟨⟩  (advisory)
+  ~ Irving Finkel   ⟨⟩  (advisory)
+  ~ Elamite Anshan   ⟨⟩  (advisory)
+  ~ Semitic Mesopotamian   ⟨⟩  (advisory)
+  ~ Indo-European Iranian   ⟨⟩  (advisory)
+  ~ Anshan-royal   ⟨⟩  (advisory)
+  ~ Greece Chs   ⟨⟩  (advisory)
+  ~ City of the Persians   ⟨⟩  (advisory)
+  ~ Parsa   ⟨⟩  (advisory)
+  ~ Erich Schmidt of the University of Chicago's Oriental Institute   ⟨⟩  (advisory)
+  ~ Alexandrine   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Syria   ⟨dict⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ Bisotun   ⟨⟩  (advisory)
+  ~ TOON   ⟨⟩  (advisory)
+  ~ Iran   ⟨recur×4⟩  (advisory)
+  ~ Kermanshah   ⟨⟩  (advisory)
+  ~ British   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Babylonian Akkadian   ⟨⟩  (advisory)
+  ~ Muslim   ⟨dict⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ Destroyed   ⟨⟩  (advisory)
+  ~ Semitic Mesopotamians   ⟨⟩  (advisory)
+  ~ a legal framework   ⟨def⟩  (advisory)
+  ~ per-SEH-po-lis   ⟨def⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ histories   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ cuneiform   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ book of Isaiah   ⟨dict-lc⟩  (advisory)
+  ~ charter.   ⟨dict-lc⟩  (advisory)
+  ~ genealogy.   ⟨dict-lc⟩  (advisory)
+  ~ restoration.   ⟨dict-lc⟩  (advisory)
+  ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ royal roads   ⟨dict-lc⟩  (advisory)
+  ~ coinage   ⟨dict-lc⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ cabinet   ⟨dict-lc⟩  (advisory)
+  ~ barley   ⟨dict-lc⟩  (advisory)
+  ~ scribal schools   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphics   ⟨dict-lc,rare⟩  (advisory)
+  ~ royal road   ⟨dict-lc⟩  (advisory)
+  ~ it was the first   ⟨dict-lc⟩  (advisory)
+  ~ logographic   ⟨dict-lc,rare⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ 646 BCE   ⟨dict-lc⟩  (advisory)
+  ~ pantheon   ⟨dict-lc⟩  (advisory)
+  ~ theophoric element   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ language isolate   ⟨dict-lc⟩  (advisory)
+  ~ instruction.   ⟨dict-lc⟩  (advisory)
+  ~ satrapies   ⟨dict-lc,rare⟩  (advisory)
+  ~ the tablets are in Elamite   ⟨bold⟩  (advisory)
+  ~ Elam never actually died.   ⟨bold⟩  (advisory)
+  ~ mashiach   ⟨rare⟩  (advisory)
+  ~ titulature   ⟨rare⟩  (advisory)
+  ~ foremost   ⟨rare⟩  (advisory)
+  ~ inheritor   ⟨rare⟩  (advisory)
+  ~ impress   ⟨rare⟩  (advisory)
+  ~ grandeur   ⟨rare⟩  (advisory)
+  ~ carbonizing   ⟨rare⟩  (advisory)
+  ~ expenses   ⟨rare⟩  (advisory)
+  ~ payroll   ⟨rare⟩  (advisory)
+  ~ chancellery   ⟨rare⟩  (advisory)
+  ~ continuations   ⟨rare⟩  (advisory)
+  ~ ration   ⟨rare⟩  (advisory)
+  ~ receipt   ⟨rare⟩  (advisory)
+  ~ liters   ⟨rare⟩  (advisory)
+  ~ pipelines   ⟨rare⟩  (advisory)
+  ~ deciphering   ⟨rare⟩  (advisory)
+  ~ decipher   ⟨rare⟩  (advisory)
+  ~ unknowns   ⟨rare⟩  (advisory)
+  ~ impressions   ⟨rare⟩  (advisory)
+  ~ pretended   ⟨rare⟩  (advisory)
+  ~ theophoric   ⟨rare⟩  (advisory)
+  ~ continuities   ⟨rare⟩  (advisory)
+  ~ unknowingly   ⟨rare⟩  (advisory)
+  ~ inflict   ⟨rare⟩  (advisory)
+  ~ ghosts   ⟨rare⟩  (advisory)

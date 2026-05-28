@@ -179,6 +179,103 @@
       "matchText": "Code of Hammurabi",
       "wikiSlug": "Code_of_Hammurabi",
       "type": "concept"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Cicero",
+      "matchText": "Cicero",
+      "wikiSlug": "Cicero",
+      "type": "people"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Arab",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "concept"
+    },
+    {
+      "term": "Bedouin",
+      "matchText": "Bedouin",
+      "wikiSlug": "Bedouin",
+      "type": "concept"
+    },
+    {
+      "term": "Iliad",
+      "matchText": "Iliad",
+      "wikiSlug": "Iliad",
+      "type": "concept"
+    },
+    {
+      "term": "Odyssey",
+      "matchText": "Odyssey",
+      "wikiSlug": "Odyssey",
+      "type": "concept"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Lower Egypt",
+      "matchText": "Lower Egypt",
+      "wikiSlug": "Lower_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Middle Egypt",
+      "matchText": "Middle Egypt",
+      "wikiSlug": "Middle_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Lebanon",
+      "matchText": "Lebanon",
+      "wikiSlug": "Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Palestine",
+      "matchText": "Palestine",
+      "wikiSlug": "Palestine_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Delta",
+      "matchText": "Delta",
+      "wikiSlug": "Nile_delta",
+      "type": "place"
+    },
+    {
+      "term": "Merneith",
+      "matchText": "Merneith",
+      "wikiSlug": "Merneith",
+      "type": "people"
+    },
+    {
+      "term": "Uronarti",
+      "matchText": "Uronarti",
+      "wikiSlug": "Uronarti",
+      "type": "place"
+    },
+    {
+      "term": "Kumma",
+      "matchText": "Kumma",
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A Middle Kingdom Egyptian fortress on the Nile near the Second Cataract in Nubia, paired with Semna across the river. Part of Senusret III's chain of mudbrick strongholds that policed the southern frontier and controlled trade with Kerma."
     }
   ],
   "2": [
@@ -295,6 +392,120 @@
       "matchText": "Bronze Age",
       "wikiSlug": "Bronze_Age",
       "type": "concept"
+    },
+    {
+      "term": "Middle Kingdom",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew",
+      "matchText": "Hebrew",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic",
+      "wikiSlug": "Aramaic",
+      "type": "concept"
+    },
+    {
+      "term": "Phoenician",
+      "matchText": "Phoenician",
+      "wikiSlug": "Phoenician_language",
+      "type": "concept"
+    },
+    {
+      "term": "Avaris",
+      "matchText": "Avaris",
+      "wikiSlug": "Avaris",
+      "type": "place"
+    },
+    {
+      "term": "Twelfth Dynasty",
+      "matchText": "Twelfth Dynasty",
+      "wikiSlug": "Twelfth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Thirteenth Dynasty",
+      "matchText": "Thirteenth Dynasty",
+      "wikiSlug": "Thirteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaan",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptologists",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasian",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Middle Egypt",
+      "matchText": "Middle Egypt",
+      "wikiSlug": "Middle_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Eighteenth Dynasty",
+      "matchText": "Eighteenth Dynasty",
+      "wikiSlug": "Eighteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Set",
+      "matchText": "Set",
+      "wikiSlug": "Set_(deity)",
+      "type": "concept"
     }
   ],
   "3": [
@@ -406,6 +617,84 @@
       "wikiSlug": "",
       "type": "concept",
       "definition": "Egypt's military decoration for valor in battle — fly-shaped pendants worn in gold. Finding them in a tomb signaled that the person had been honored for real wartime service, not just ceremony."
+    },
+    {
+      "term": "Avaris",
+      "matchText": "Avaris",
+      "wikiSlug": "Avaris",
+      "type": "place"
+    },
+    {
+      "term": "Tell el-Dab'a",
+      "matchText": "Tell el-Dab'a",
+      "wikiSlug": "Tell_el-Dab%27a",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Kerma",
+      "matchText": "Kerma kingdom",
+      "wikiSlug": "Kerma_culture",
+      "type": "place"
+    },
+    {
+      "term": "Libyans",
+      "matchText": "Libyans",
+      "wikiSlug": "Ancient_Libya",
+      "type": "people"
+    },
+    {
+      "term": "Bedouin",
+      "matchText": "Bedouin",
+      "wikiSlug": "Bedouin",
+      "type": "people"
+    },
+    {
+      "term": "Nile Valley",
+      "matchText": "Nile Valley",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Eastern Desert",
+      "matchText": "Eastern Desert",
+      "wikiSlug": "Eastern_Desert",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Mitanni",
+      "matchText": "Mitanni",
+      "wikiSlug": "Mitanni",
+      "type": "place"
+    },
+    {
+      "term": "Theban necropolis",
+      "matchText": "Theban necropolis",
+      "wikiSlug": "Theban_Necropolis",
+      "type": "place"
     }
   ],
   "4": [
@@ -534,6 +823,42 @@
       "matchText": "ebony",
       "wikiSlug": "Ebony",
       "type": "concept"
+    },
+    {
+      "term": "Horus",
+      "matchText": "Horus",
+      "wikiSlug": "Horus",
+      "type": "concept"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "God's Land",
+      "matchText": "God's Land",
+      "definition": "An Egyptian name for distant eastern lands toward the sunrise — especially the incense-bearing coasts of Punt across the Red Sea — regarded as the source of myrrh, frankincense, and other sacred luxury goods. The phrase framed long-distance trade as a quasi-divine errand to a holy frontier rather than a mere commercial voyage.",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptology",
+      "matchText": "Egyptology",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
     }
   ],
   "5": [
@@ -649,6 +974,102 @@
       "term": "Karnak",
       "matchText": "Karnak",
       "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates River",
+      "matchText": "Euphrates River",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Napoleon",
+      "matchText": "Napoleon",
+      "wikiSlug": "Napoleon",
+      "type": "person"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaan",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Mitanni",
+      "matchText": "Mitanni",
+      "wikiSlug": "Mitanni",
+      "type": "concept"
+    },
+    {
+      "term": "Late Bronze Age",
+      "matchText": "Late Bronze Age",
+      "wikiSlug": "Late_Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Middle Kingdom",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Nubia",
+      "matchText": "Nubia",
+      "wikiSlug": "Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Kushite",
+      "matchText": "Kushite",
+      "wikiSlug": "Kingdom_of_Kush",
+      "type": "concept"
+    },
+    {
+      "term": "Joppa",
+      "matchText": "Joppa",
+      "wikiSlug": "Jaffa",
+      "type": "place"
+    },
+    {
+      "term": "Sumur",
+      "matchText": "Sumur",
+      "wikiSlug": "Sumur_(Levant)",
       "type": "place"
     }
   ],
@@ -772,6 +1193,144 @@
       "matchText": "Yinxu",
       "wikiSlug": "Yinxu",
       "type": "place"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Middle Egypt",
+      "matchText": "Middle Egypt",
+      "wikiSlug": "Middle_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Nubia",
+      "matchText": "Nubia",
+      "wikiSlug": "Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Nubian",
+      "matchText": "Nubian",
+      "wikiSlug": "Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Mitanni",
+      "matchText": "Mitanni",
+      "wikiSlug": "Mitanni",
+      "type": "place"
+    },
+    {
+      "term": "Assyria",
+      "matchText": "Assyria",
+      "wikiSlug": "Assyria",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Late Bronze Age",
+      "matchText": "Late Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Eighteenth Dynasty",
+      "matchText": "Eighteenth Dynasty",
+      "wikiSlug": "Eighteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Amun",
+      "matchText": "Amun",
+      "wikiSlug": "Amun",
+      "type": "people"
+    },
+    {
+      "term": "Andes",
+      "matchText": "Andes",
+      "wikiSlug": "Andes",
+      "type": "place"
+    },
+    {
+      "term": "Initial Period",
+      "matchText": "Initial Period",
+      "wikiSlug": "Initial_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Lurín",
+      "matchText": "Lurín",
+      "wikiSlug": "Lurin_River",
+      "type": "place"
+    },
+    {
+      "term": "Rímac",
+      "matchText": "Rímac",
+      "wikiSlug": "Rimac_River",
+      "type": "place"
+    },
+    {
+      "term": "Mycenae",
+      "matchText": "Mycenae",
+      "wikiSlug": "Mycenae",
+      "type": "place"
+    },
+    {
+      "term": "Pylos",
+      "matchText": "Pylos",
+      "wikiSlug": "Pylos",
+      "type": "place"
+    },
+    {
+      "term": "Tiryns",
+      "matchText": "Tiryns",
+      "wikiSlug": "Tiryns",
+      "type": "place"
+    },
+    {
+      "term": "Thuya",
+      "matchText": "Thuya",
+      "wikiSlug": "Thuya",
+      "type": "people"
     }
   ],
   "7": [
@@ -924,6 +1483,78 @@
       "matchText": "Paramessu",
       "wikiSlug": "Ramesses_I",
       "type": "people"
+    },
+    {
+      "term": "Moses",
+      "matchText": "Moses",
+      "wikiSlug": "Moses",
+      "type": "people"
+    },
+    {
+      "term": "Middle Kingdom",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Amun",
+      "matchText": "Amun",
+      "wikiSlug": "Amun",
+      "type": "concept"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "concept"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Akhetaten",
+      "matchText": "Akhetaten",
+      "wikiSlug": "Amarna",
+      "type": "place"
+    },
+    {
+      "term": "Egyptologists",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Byblos",
+      "matchText": "Byblos",
+      "wikiSlug": "Byblos",
+      "type": "place"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Middle Egypt",
+      "matchText": "Middle Egypt",
+      "wikiSlug": "Middle_Egypt",
+      "type": "place"
     }
   ],
   "8": [
@@ -1076,6 +1707,150 @@
       "matchText": "Aswan High Dam",
       "wikiSlug": "Aswan_High_Dam",
       "type": "place"
+    },
+    {
+      "term": "Egyptologists",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Nineteenth Dynasty",
+      "matchText": "Nineteenth Dynasty",
+      "wikiSlug": "Nineteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Eighteenth Dynasty",
+      "matchText": "Eighteenth Dynasty",
+      "wikiSlug": "Eighteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Amarna",
+      "matchText": "Amarna period",
+      "wikiSlug": "Amarna_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Bedouin",
+      "matchText": "Bedouin",
+      "wikiSlug": "Bedouin",
+      "type": "concept"
+    },
+    {
+      "term": "Sinai",
+      "matchText": "Sinai",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Thutmose III",
+      "matchText": "Thutmose III",
+      "wikiSlug": "Thutmose_III",
+      "type": "people"
+    },
+    {
+      "term": "Menes",
+      "matchText": "Menes",
+      "wikiSlug": "Menes",
+      "type": "people"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Orontes River",
+      "matchText": "Orontes River",
+      "wikiSlug": "Orontes_River",
+      "type": "place"
+    },
+    {
+      "term": "Hattusha",
+      "matchText": "Hattusha",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "United Nations",
+      "matchText": "United Nations",
+      "wikiSlug": "United_Nations",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age Collapse",
+      "matchText": "Bronze Age Collapse",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "type": "concept"
+    },
+    {
+      "term": "Nubia",
+      "matchText": "Nubia",
+      "wikiSlug": "Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Ptah",
+      "matchText": "Ptah",
+      "wikiSlug": "Ptah",
+      "type": "concept"
+    },
+    {
+      "term": "Valley of the Queens",
+      "matchText": "Valley of the Queens",
+      "wikiSlug": "Valley_of_the_Queens",
+      "type": "place"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age world",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Deir el-Medina",
+      "matchText": "Deir el-Medina",
+      "wikiSlug": "Deir_el-Medina",
+      "type": "place"
     }
   ],
   "9": [
@@ -1216,6 +1991,180 @@
       "matchText": "Amurru",
       "wikiSlug": "Amurru_kingdom",
       "type": "concept"
+    },
+    {
+      "term": "Hattusha",
+      "matchText": "Hattusha",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Ugarit",
+      "matchText": "Ugarit",
+      "wikiSlug": "Ugarit",
+      "type": "place"
+    },
+    {
+      "term": "Kassites",
+      "matchText": "Kassite",
+      "wikiSlug": "Kassites",
+      "type": "people"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Amarna Letters",
+      "matchText": "Amarna Letters",
+      "wikiSlug": "Amarna_letters",
+      "type": "concept"
+    },
+    {
+      "term": "Amarna Period",
+      "matchText": "Amarna crisis",
+      "wikiSlug": "Amarna_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Tjeker",
+      "matchText": "Tjeker",
+      "wikiSlug": "Tjeker",
+      "type": "people"
+    },
+    {
+      "term": "Shekelesh",
+      "matchText": "Shekelesh",
+      "wikiSlug": "Shekelesh",
+      "type": "people"
+    },
+    {
+      "term": "Denyen",
+      "matchText": "Denyen",
+      "wikiSlug": "Denyen",
+      "type": "people"
+    },
+    {
+      "term": "Weshesh",
+      "matchText": "Weshesh",
+      "wikiSlug": "Weshesh",
+      "type": "people"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Twentieth Dynasty",
+      "matchText": "Twentieth Dynasty",
+      "wikiSlug": "Twentieth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Afghanistan",
+      "matchText": "Afghanistan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
+    },
+    {
+      "term": "Nubia",
+      "matchText": "Nubia",
+      "wikiSlug": "Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Lower Egypt",
+      "matchText": "Lower Egypt",
+      "wikiSlug": "Lower_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Nile Delta",
+      "matchText": "Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Viceroy of Kush",
+      "matchText": "Viceroy of Kush",
+      "wikiSlug": "Viceroy_of_Kush",
+      "type": "concept"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Horus",
+      "matchText": "Horus",
+      "wikiSlug": "Horus",
+      "type": "people"
     }
   ]
 }

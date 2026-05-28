@@ -57,6 +57,10 @@
     {
       "eventId": "evt-kamose",
       "matchText": "Kamose"
+    },
+    {
+      "eventId": "evt-rhind-papyrus",
+      "matchText": "Rhind Mathematical Papyrus"
     }
   ],
   "3": [
@@ -91,6 +95,22 @@
     {
       "eventId": "evt-amenhotep-i",
       "matchText": "Amenhotep I"
+    },
+    {
+      "eventId": "evt-hatshepsut",
+      "matchText": "Hatshepsut"
+    },
+    {
+      "eventId": "evt-thutmose-iii",
+      "matchText": "Thutmose III"
+    },
+    {
+      "eventId": "evt-akhenaten",
+      "matchText": "Akhenaten"
+    },
+    {
+      "eventId": "evt-tutankhamun",
+      "matchText": "Tutankhamun"
     }
   ],
   "4": [
@@ -117,6 +137,14 @@
     {
       "eventId": "evt-amenhotep-ii",
       "matchText": "Amenhotep II"
+    },
+    {
+      "eventId": "evt-mentuhotep-ii",
+      "matchText": "Mentuhotep II"
+    },
+    {
+      "eventId": "evt-valley-of-kings",
+      "matchText": "Valley of the Kings"
     }
   ],
   "5": [
@@ -139,6 +167,26 @@
     {
       "eventId": "evt-levantine-vassal-system",
       "matchText": "vassal"
+    },
+    {
+      "eventId": "evt-akhenaten",
+      "matchText": "Akhenaten"
+    },
+    {
+      "eventId": "evt-amenhotep-iii",
+      "matchText": "Amenhotep III"
+    },
+    {
+      "eventId": "evt-valley-of-kings",
+      "matchText": "Valley of the Kings"
+    },
+    {
+      "eventId": "evt-amenhotep-ii",
+      "matchText": "Amenhotep II"
+    },
+    {
+      "eventId": "evt-hatshepsut",
+      "matchText": "Hatshepsut"
     }
   ],
   "6": [
@@ -169,6 +217,22 @@
     {
       "eventId": "evt-glass-production",
       "matchText": "glass industry"
+    },
+    {
+      "eventId": "evt-thutmose-iii",
+      "matchText": "Thutmose III"
+    },
+    {
+      "eventId": "evt-ramesses-ii",
+      "matchText": "Ramesses II"
+    },
+    {
+      "eventId": "evt-akhenaten",
+      "matchText": "Akhenaten"
+    },
+    {
+      "eventId": "evt-karnak-begun",
+      "matchText": "Karnak"
     }
   ],
   "7": [
@@ -203,6 +267,22 @@
     {
       "eventId": "evt-horemheb",
       "matchText": "Horemheb"
+    },
+    {
+      "eventId": "evt-akhenaten",
+      "matchText": "Amenhotep IV"
+    },
+    {
+      "eventId": "evt-amenhotep-iii",
+      "matchText": "Amenhotep III"
+    },
+    {
+      "eventId": "evt-karnak-begun",
+      "matchText": "Karnak"
+    },
+    {
+      "eventId": "evt-valley-of-kings",
+      "matchText": "Valley of the Kings"
     }
   ],
   "8": [
@@ -249,6 +329,26 @@
     {
       "eventId": "evt-egyptian-love-poetry",
       "matchText": "love poetry"
+    },
+    {
+      "eventId": "evt-hyksos-invasion",
+      "matchText": "Hyksos"
+    },
+    {
+      "eventId": "evt-hatshepsut",
+      "matchText": "Hatshepsut"
+    },
+    {
+      "eventId": "evt-nefertiti",
+      "matchText": "Nefertiti"
+    },
+    {
+      "eventId": "evt-akhenaten",
+      "matchText": "Akhenaten"
+    },
+    {
+      "eventId": "evt-ramesses-iii",
+      "matchText": "Ramesses III"
     }
   ],
   "9": [
@@ -287,6 +387,54 @@
     {
       "eventId": "evt-herihor",
       "matchText": "Herihor"
+    },
+    {
+      "eventId": "evt-valley-of-kings",
+      "matchText": "Valley of the Kings"
+    },
+    {
+      "eventId": "evt-karnak-begun",
+      "matchText": "Karnak"
+    },
+    {
+      "eventId": "evt-luxor-temple",
+      "matchText": "Luxor"
+    },
+    {
+      "eventId": "evt-abu-simbel",
+      "matchText": "Abu Simbel"
+    },
+    {
+      "eventId": "evt-ramesseum",
+      "matchText": "Ramesseum"
+    },
+    {
+      "eventId": "evt-sinuhe",
+      "matchText": "Story of Sinuhe"
+    },
+    {
+      "eventId": "evt-hatshepsut",
+      "matchText": "Hatshepsut"
+    },
+    {
+      "eventId": "evt-thutmose-iii",
+      "matchText": "Thutmose III"
+    },
+    {
+      "eventId": "evt-akhenaten",
+      "matchText": "Akhenaten"
+    },
+    {
+      "eventId": "evt-nefertiti",
+      "matchText": "Nefertiti"
+    },
+    {
+      "eventId": "evt-tutankhamun",
+      "matchText": "Tutankhamun"
+    },
+    {
+      "eventId": "evt-hyksos-invasion",
+      "matchText": "Hyksos"
     }
   ]
 }

@@ -287,6 +287,132 @@
       "matchText": "Pontic-Caspian steppes",
       "wikiSlug": "Pontic%E2%80%93Caspian_steppe",
       "type": "place"
+    },
+    {
+      "term": "Fayum A culture",
+      "matchText": "Fayum A",
+      "type": "concept",
+      "definition": "An early Neolithic farming culture on the shores of Lake Faiyum in Egypt, roughly 5500–4000 BCE — one of the oldest agricultural communities in the Nile valley, known for grain-storage pits, sickle blades, and simple pottery."
+    },
+    {
+      "term": "Nile",
+      "matchText": "on the Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Neolithic",
+      "matchText": "Neolithic",
+      "wikiSlug": "Neolithic",
+      "type": "concept"
+    },
+    {
+      "term": "Tomb U-j",
+      "matchText": "Tomb U-j",
+      "type": "concept",
+      "definition": "A late-Predynastic Egyptian royal tomb at Abydos (ca. 3250 BCE) containing some of the earliest known Egyptian writing — small bone and ivory labels with proto-hieroglyphic signs, among the oldest writing anywhere in the world."
+    },
+    {
+      "term": "Abydos",
+      "matchText": "labels at Abydos",
+      "wikiSlug": "Abydos,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid period",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Chogha Zanbil",
+      "matchText": "at Chogha Zanbil",
+      "wikiSlug": "Chogha_Zanbil",
+      "type": "place"
+    },
+    {
+      "term": "Sargon of Akkad",
+      "matchText": "Sargon",
+      "wikiSlug": "Sargon_of_Akkad",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew language",
+      "matchText": "Hebrew",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Mitanni",
+      "matchText": "Mitanni",
+      "wikiSlug": "Mitanni",
+      "type": "place"
+    },
+    {
+      "term": "Kassite language",
+      "matchText": "Kassite",
+      "wikiSlug": "Kassite_language",
+      "type": "concept"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "rule Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Tamil",
+      "matchText": "Tamil",
+      "wikiSlug": "Tamil_language",
+      "type": "concept"
+    },
+    {
+      "term": "Cyrus the Great",
+      "matchText": "Cyrus the Great",
+      "wikiSlug": "Cyrus_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "a Babylonian priest",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "across Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Slavic languages",
+      "matchText": "Slavic",
+      "wikiSlug": "Slavic_languages",
+      "type": "concept"
     }
   ],
   "2": [
@@ -428,6 +554,54 @@
       "matchText": "Proto-Elamite script",
       "wikiSlug": "Proto-Elamite_script",
       "type": "concept"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "plain of Sumer",
+      "wikiSlug": "Sumer",
+      "type": "place"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic tongue",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Zagros Mountains",
+      "matchText": "Zagros",
+      "wikiSlug": "Zagros_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Susa",
+      "matchText": "sacking Susa",
+      "wikiSlug": "Susa",
+      "type": "place"
+    },
+    {
+      "term": "Venus",
+      "matchText": "Venus",
+      "wikiSlug": "Venus",
+      "type": "concept"
+    },
+    {
+      "term": "Anshan",
+      "matchText": "Anshan",
+      "wikiSlug": "Anshan_(Persia)",
+      "type": "place"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Assyria",
+      "matchText": "Assyrian",
+      "wikiSlug": "Assyria",
+      "type": "place"
     }
   ],
   "3": [
@@ -586,6 +760,18 @@
       "matchText": "primogeniture",
       "wikiSlug": "Primogeniture",
       "type": "concept"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "place"
     }
   ],
   "4": [
@@ -671,6 +857,90 @@
       "term": "Sukkalmah dynasty",
       "matchText": "Sukkal of Elam and Simashki",
       "wikiSlug": "Sukkalmah_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Susa",
+      "matchText": "Susa",
+      "wikiSlug": "Susa",
+      "type": "place"
+    },
+    {
+      "term": "Anshan",
+      "matchText": "Anshan",
+      "wikiSlug": "Anshan_(Persia)",
+      "type": "place"
+    },
+    {
+      "term": "Khuzestan",
+      "matchText": "Khuzestan",
+      "wikiSlug": "Khuzestan_province",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Amorites",
+      "matchText": "Amorite",
+      "wikiSlug": "Amorites",
+      "type": "people"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Zagros Mountains",
+      "matchText": "Zagros",
+      "wikiSlug": "Zagros_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Humban",
+      "matchText": "Humban",
+      "wikiSlug": "Humban",
+      "type": "concept"
+    },
+    {
+      "term": "Kiririsha",
+      "matchText": "Kiririsha",
+      "wikiSlug": "Kiririsha",
+      "type": "concept"
+    },
+    {
+      "term": "Inshushinak",
+      "matchText": "Inshushinak",
+      "wikiSlug": "Inshushinak",
+      "type": "concept"
+    },
+    {
+      "term": "Naram-Sin",
+      "matchText": "Naram-Sin",
+      "wikiSlug": "Naram-Sin_of_Akkad",
+      "type": "people"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Assyria",
+      "matchText": "Assyrian",
+      "wikiSlug": "Assyria",
+      "type": "place"
+    },
+    {
+      "term": "Kidinuid",
+      "matchText": "Kidinuid",
+      "wikiSlug": "List_of_Elamite_kings",
       "type": "concept"
     }
   ],
@@ -831,6 +1101,149 @@
       "matchText": "Nubia",
       "wikiSlug": "Nubia",
       "type": "place"
+    },
+    {
+      "term": "Sukkalmah dynasty",
+      "matchText": "Sukkalmah period",
+      "wikiSlug": "Sukkalmah",
+      "type": "concept"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "at Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "central Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic language",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "Sumer",
+      "wikiSlug": "Sumer",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Eridu",
+      "matchText": "Eridu",
+      "wikiSlug": "Eridu",
+      "type": "place"
+    },
+    {
+      "term": "Inshushinak",
+      "matchText": "Inshushinak",
+      "wikiSlug": "Inshushinak",
+      "type": "people"
+    },
+    {
+      "term": "Humban",
+      "matchText": "Humban",
+      "wikiSlug": "Humban",
+      "type": "people"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Parthian Empire",
+      "matchText": "Parthian",
+      "wikiSlug": "Parthian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Sasanian Empire",
+      "matchText": "Sasanian",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Muslim conquest of Persia",
+      "matchText": "Arab conquest",
+      "wikiSlug": "Muslim_conquest_of_Persia",
+      "type": "concept"
+    },
+    {
+      "term": "Louvre",
+      "matchText": "Louvre",
+      "wikiSlug": "Louvre",
+      "type": "place"
+    },
+    {
+      "term": "Anshan",
+      "matchText": "Anshan",
+      "wikiSlug": "Anshan_(Persia)",
+      "type": "place"
+    },
+    {
+      "term": "Mursili I",
+      "matchText": "Mursili I",
+      "wikiSlug": "Mursili_I",
+      "type": "people"
+    },
+    {
+      "term": "Ur-Nammu",
+      "matchText": "Ur-Nammu",
+      "wikiSlug": "Ur-Nammu",
+      "type": "people"
+    },
+    {
+      "term": "Garagay",
+      "matchText": "Garagay",
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A monumental U-shaped temple complex on the central Peruvian coast near modern Lima, built and used roughly 1500–800 BCE — part of the independent Andean tradition of large ceremonial architecture that rose at the same time as Elam's ziggurat-building peak."
+    },
+    {
+      "term": "Cardal",
+      "matchText": "Cardal",
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A U-shaped ceremonial center in the Lurín valley south of modern Lima, Peru, dating to roughly 1500–1000 BCE — one of several monumental coastal temple sites the Andean peoples raised independently during Elam's Middle Elamite era."
+    },
+    {
+      "term": "Huaca de los Reyes",
+      "matchText": "Huaca de los Reyes",
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "A large adobe ceremonial complex in the Moche valley of north-coastal Peru, built in the second millennium BCE and famous for its monumental clay friezes — a flagship of the Andean monument-building tradition that paralleled Elam's at the opposite end of the world."
+    },
+    {
+      "term": "Ige-halki",
+      "matchText": "Ige-halki",
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "The highland Elamite king (reigned c. 1400 BCE) who founded the Igihalkid dynasty and began rebuilding Elam's external power after a century of diminished visibility; his line produced Untash-Napirisha, the builder of Chogha Zanbil."
+    },
+    {
+      "term": "Middle Elamite period",
+      "matchText": "Middle Elamite period",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The era of Elamite history running roughly 1500–1100 BCE, after the Sukkalmah and before the long Neo-Elamite decline — the kingdom's aggressive building-boom peak, when it joined the great powers of the Late Bronze Age Near East and raised monuments like Chogha Zanbil."
+    },
+    {
+      "term": "Ashurbanipal",
+      "matchText": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal",
+      "type": "people"
     }
   ],
   "6": [
@@ -955,6 +1368,110 @@
       "matchText": "Neo-Babylonian Empire",
       "wikiSlug": "Neo-Babylonian_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Zagros Mountains",
+      "matchText": "Zagros",
+      "wikiSlug": "Zagros_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Tigris",
+      "matchText": "Tigris River",
+      "wikiSlug": "Tigris",
+      "type": "place"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonia",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Susa",
+      "matchText": "Susa",
+      "wikiSlug": "Susa",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Anshan",
+      "matchText": "Anshan",
+      "wikiSlug": "Anshan_(Persia)",
+      "type": "place"
+    },
+    {
+      "term": "Sargon of Akkad",
+      "matchText": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad",
+      "type": "people"
+    },
+    {
+      "term": "Manishtushu",
+      "matchText": "Manishtushu",
+      "wikiSlug": "Manishtushu",
+      "type": "people"
+    },
+    {
+      "term": "Shulgi",
+      "matchText": "Shulgi",
+      "wikiSlug": "Shulgi",
+      "type": "people"
+    },
+    {
+      "term": "Akkadian Empire",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Third Dynasty of Ur",
+      "matchText": "Ur III",
+      "wikiSlug": "Third_Dynasty_of_Ur",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Late Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Louvre",
+      "matchText": "Louvre",
+      "wikiSlug": "Louvre",
+      "type": "place"
+    },
+    {
+      "term": "Victory Stele of Naram-Sin",
+      "matchText": "Victory Stele of Naram-Sin",
+      "wikiSlug": "Victory_Stele_of_Naram-Sin",
+      "type": "concept"
+    },
+    {
+      "term": "Neo-Assyrian Empire",
+      "matchText": "Neo-Assyrian Empire",
+      "wikiSlug": "Neo-Assyrian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Obelisk of Manishtushu",
+      "matchText": "Obelisk of Manishtushu",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "A four-sided diorite pillar carved in the 23rd century BCE recording land purchases made during the reign of the Akkadian king Manishtushu. Looted from Mesopotamia to Susa by Shutruk-Nahhunte and excavated there by French archaeologists, it is now in the Louvre."
+    },
+    {
+      "term": "Elamite Dark Age",
+      "matchText": "Elamite Dark Age",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The roughly 350-year stretch (about 1100 to 750 BCE) after the fall of Middle Elamite power, during which Elam nearly vanishes from the written record — occupation continued at Susa and Anshan, but the monumental building and trophy-collecting of the imperial age stopped, and outside chronicles mention Elam only in passing."
     }
   ],
   "7": [
@@ -1095,6 +1612,156 @@
       "matchText": "Til-Tuba",
       "wikiSlug": "Battle_of_Ulai",
       "type": "concept"
+    },
+    {
+      "term": "Adad-nirari III",
+      "matchText": "Adad-nirari III",
+      "wikiSlug": "Adad-nirari_III",
+      "type": "people"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic",
+      "wikiSlug": "Aramaic",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Lebanon",
+      "matchText": "Lebanon",
+      "wikiSlug": "Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian highlands",
+      "matchText": "Armenian highlands",
+      "wikiSlug": "Armenian_Highlands",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European languages",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Louvre",
+      "matchText": "Louvre",
+      "wikiSlug": "Louvre",
+      "type": "place"
+    },
+    {
+      "term": "Sumerian language",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumerian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian language",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Inshushinak",
+      "matchText": "Inshushinak",
+      "wikiSlug": "Inshushinak",
+      "type": "people"
+    },
+    {
+      "term": "Tigris",
+      "matchText": "Tigris",
+      "wikiSlug": "Tigris",
+      "type": "place"
+    },
+    {
+      "term": "Garden Party Relief",
+      "matchText": "Garden Party Relief",
+      "type": "concept",
+      "definition": "A set of carved alabaster panels from Ashurbanipal's palace at Nineveh, also called the Banquet Scene, showing the Assyrian king and his queen reclining on couches in a garden, drinking wine and being fanned by servants, while the severed head of the defeated Elamite king Te-Umman hangs from a nearby tree. Carved around 645 BCE and now in the British Museum, it is one of the most famous and chilling images to survive from the ancient Near East."
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonia",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "concept"
+    },
+    {
+      "term": "Uruk",
+      "matchText": "Uruk",
+      "wikiSlug": "Uruk",
+      "type": "place"
+    },
+    {
+      "term": "Dur-Untash",
+      "matchText": "Dur-Untash",
+      "wikiSlug": "Chogha_Zanbil",
+      "type": "place"
+    },
+    {
+      "term": "Chogha Zanbil",
+      "matchText": "Chogha Zanbil",
+      "wikiSlug": "Chogha_Zanbil",
+      "type": "place"
+    },
+    {
+      "term": "Sukkalmah dynasty",
+      "matchText": "Sukkalmah",
+      "wikiSlug": "Sukkalmah_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonians",
+      "wikiSlug": "Babylonia",
+      "type": "people"
+    },
+    {
+      "term": "Anshan",
+      "matchText": "Anshan",
+      "wikiSlug": "Anshan_(Persia)",
+      "type": "place"
+    },
+    {
+      "term": "Code of Hammurabi",
+      "matchText": "Code of Hammurabi",
+      "wikiSlug": "Code_of_Hammurabi",
+      "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
     }
   ],
   "8": [
@@ -1265,6 +1932,264 @@
       "matchText": "Hebrew Bible",
       "wikiSlug": "Hebrew_Bible",
       "type": "concept"
+    },
+    {
+      "term": "Fars",
+      "matchText": "Fars",
+      "wikiSlug": "Fars_province",
+      "type": "place"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian-speaking",
+      "wikiSlug": "Iranian_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Tall-i Malyan",
+      "matchText": "Tall-i Malyan",
+      "wikiSlug": "Tall-i_Malyan",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European languages",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Proto-Indo-European",
+      "matchText": "Proto-Indo-European",
+      "wikiSlug": "Proto-Indo-European_language",
+      "type": "concept"
+    },
+    {
+      "term": "Slavic languages",
+      "matchText": "Slavic",
+      "wikiSlug": "Slavic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "later Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Media",
+      "matchText": "Media",
+      "wikiSlug": "Media_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Messiah",
+      "matchText": "Messiah",
+      "wikiSlug": "Messiah",
+      "type": "concept"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "Sumer",
+      "wikiSlug": "Sumer",
+      "type": "place"
+    },
+    {
+      "term": "Akkadian Empire",
+      "matchText": "Akkad",
+      "wikiSlug": "Akkadian_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonia",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Lydia",
+      "matchText": "Lydia",
+      "wikiSlug": "Lydia",
+      "type": "place"
+    },
+    {
+      "term": "Shiraz",
+      "matchText": "Shiraz",
+      "wikiSlug": "Shiraz",
+      "type": "place"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic lingua",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian language",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Sumerian language",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumerian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Macedon",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedon",
+      "type": "place"
+    },
+    {
+      "term": "Shimashki dynasty",
+      "matchText": "Shimashki",
+      "wikiSlug": "Shimashki_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Proto-Elamite",
+      "matchText": "Proto-Elamite",
+      "wikiSlug": "Proto-Elamite_(period)",
+      "type": "concept"
+    },
+    {
+      "term": "Indo-Iranian languages",
+      "matchText": "Indo-Iranian",
+      "wikiSlug": "Indo-Iranian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Book of Isaiah",
+      "matchText": "book of Isaiah",
+      "wikiSlug": "Book_of_Isaiah",
+      "type": "concept"
+    },
+    {
+      "term": "Romulus",
+      "matchText": "Romulus",
+      "wikiSlug": "Romulus",
+      "type": "people"
+    },
+    {
+      "term": "Humban",
+      "matchText": "Humban",
+      "wikiSlug": "Humban",
+      "type": "people"
+    },
+    {
+      "term": "Inshushinak",
+      "matchText": "Inshushinak",
+      "wikiSlug": "Inshushinak",
+      "type": "people"
+    },
+    {
+      "term": "Kiririsha",
+      "matchText": "Kiririsha",
+      "wikiSlug": "Kiririsha",
+      "type": "people"
+    },
+    {
+      "term": "Nahhunte",
+      "matchText": "Nahhunte",
+      "wikiSlug": "Nahhunte",
+      "type": "people"
+    },
+    {
+      "term": "Pinikir",
+      "matchText": "Pinikir",
+      "wikiSlug": "Pinikir",
+      "type": "people"
+    },
+    {
+      "term": "Herodotus",
+      "matchText": "Herodotus",
+      "wikiSlug": "Herodotus",
+      "type": "people"
+    },
+    {
+      "term": "Ashurbanipal",
+      "matchText": "Ashurbanipal",
+      "wikiSlug": "Ashurbanipal",
+      "type": "people"
+    },
+    {
+      "term": "Shutruk-Nahhunte",
+      "matchText": "Shutruk-Nahhunte",
+      "wikiSlug": "Shutruk-Nahhunte",
+      "type": "people"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Germanic languages",
+      "matchText": "Germanic languages",
+      "wikiSlug": "Germanic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Phoenicia",
+      "matchText": "Phoenicia",
+      "wikiSlug": "Phoenicia",
+      "type": "place"
+    },
+    {
+      "term": "Assyria",
+      "matchText": "Assyria",
+      "wikiSlug": "Assyria",
+      "type": "place"
+    },
+    {
+      "term": "Nineveh",
+      "matchText": "Nineveh",
+      "wikiSlug": "Nineveh",
+      "type": "place"
+    },
+    {
+      "term": "Athens",
+      "matchText": "Athens",
+      "wikiSlug": "Athens",
+      "type": "place"
+    },
+    {
+      "term": "Elamite cuneiform",
+      "matchText": "Elamite cuneiform",
+      "wikiSlug": "Elamite_cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Neo-Elamite period",
+      "matchText": "Neo-Elamite",
+      "definition": "The final phase of independent Elam (roughly 1100–540 BCE): after the collapse of the great Middle Elamite empire, Elam fragmented into smaller highland kingdoms and city-states that revived briefly, clashed repeatedly with Assyria, and were finally crushed when Ashurbanipal sacked Susa in the 640s BCE.",
+      "type": "concept"
+    },
+    {
+      "term": "Sasanian Empire",
+      "matchText": "Sassanid",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "people"
     }
   ]
 }
