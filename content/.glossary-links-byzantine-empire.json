@@ -527,6 +527,24 @@
       "matchText": "Constantinopolitan",
       "wikiSlug": "Constantinople",
       "type": "place"
+    },
+    {
+      "term": "Crusaders",
+      "matchText": "European Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "event"
+    },
+    {
+      "term": "Babylonian captivity",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonian_captivity",
+      "type": "event"
+    },
+    {
+      "term": "Jerusalem Temple",
+      "matchText": "Jerusalem Temple",
+      "definition": "The great Jewish temple in Jerusalem — Solomon's original, rebuilt as the Second Temple — and the spiritual center of ancient Judaism. The Romans destroyed it in 70 CE, which is why Julian's attempt to rebuild it would have undercut a Christian prophecy.",
+      "type": "place"
     }
   ],
   "2": [
@@ -1009,6 +1027,24 @@
       "matchText": "Arabs",
       "wikiSlug": "Arabs",
       "type": "people"
+    },
+    {
+      "term": "Senate House",
+      "matchText": "Senate House",
+      "wikiSlug": "Byzantine_Senate",
+      "type": "group"
+    },
+    {
+      "term": "Jerusalem Temple",
+      "matchText": "Jerusalem Temple",
+      "wikiSlug": "Temple_in_Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Arian Christians",
+      "matchText": "Arian Christians",
+      "wikiSlug": "Arianism",
+      "type": "group"
     }
   ],
   "3": [
@@ -1757,6 +1793,24 @@
       "matchText": "Bulgarian",
       "wikiSlug": "First_Bulgarian_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Sulayman ibn Abd al-Malik",
+      "matchText": "Sulayman",
+      "wikiSlug": "Sulayman_ibn_Abd_al-Malik",
+      "type": "person"
+    },
+    {
+      "term": "Maslama ibn Abd al-Malik",
+      "matchText": "Maslama",
+      "wikiSlug": "Maslama_ibn_Abd_al-Malik",
+      "type": "person"
+    },
+    {
+      "term": "Pope",
+      "matchText": "the Pope",
+      "definition": "The bishop of Rome and head of the western (Latin) church — and, after Pepin's donation, a territorial ruler in central Italy as well. The papacy's drift away from the Byzantine emperor toward the Franks is a running thread in this chapter.",
+      "type": "person"
     }
   ],
   "5": [
@@ -2472,6 +2526,12 @@
       "matchText": "Constantinopolitan",
       "wikiSlug": "Constantinople",
       "type": "place"
+    },
+    {
+      "term": "Crusaders",
+      "matchText": "the Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "event"
     }
   ],
   "7": [
@@ -3528,6 +3588,12 @@
       "matchText": "Constantinopolitan",
       "wikiSlug": "Constantinople",
       "type": "place"
+    },
+    {
+      "term": "Pope",
+      "matchText": "Pope",
+      "definition": "The bishop of Rome and head of the Latin church. Innocent III had called the Fourth Crusade and explicitly forbade attacking Christian cities — which is exactly what the crusaders did, first at Zara, then at Constantinople.",
+      "type": "person"
     }
   ],
   "10": [
@@ -4372,6 +4438,18 @@
       "matchText": "Middle Ages",
       "wikiSlug": "Middle_Ages",
       "type": "concept"
+    },
+    {
+      "term": "Bayezid I",
+      "matchText": "Bayezid I",
+      "wikiSlug": "Bayezid_I",
+      "type": "person"
+    },
+    {
+      "term": "Pope",
+      "matchText": "Pope",
+      "definition": "The bishop of Rome, who had brokered the Union of Florence and organized the failed crusade of Varna. By 1453 the western powers, the papacy included, were too preoccupied to send Constantinople any real aid.",
+      "type": "person"
     }
   ],
   "12": [

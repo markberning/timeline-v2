@@ -437,6 +437,36 @@
       "matchText": "Badaun",
       "type": "place",
       "definition": "The town in modern Uttar Pradesh of which Iltutmish was governor before the Delhi mamluks invited him to take the throne after Aibak’s death in 1210."
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jain",
+      "wikiSlug": "Jainism",
+      "type": "concept"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "event"
+    },
+    {
+      "term": "Kurds",
+      "matchText": "Kurdish",
+      "wikiSlug": "Kurds",
+      "type": "group"
+    },
+    {
+      "term": "Crusader states",
+      "matchText": "Crusader states",
+      "wikiSlug": "Crusader_states",
+      "type": "group"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian",
+      "definition": "Of greater Iran — the Persian-speaking cultural sphere whose architecture, court ceremony and bureaucratic vocabulary the Sultanate inherited through its Ghaznavid and Ghurid predecessors.",
+      "type": "concept"
     }
   ],
   "2": [
@@ -733,6 +763,12 @@
       "matchText": "Sultan Muhammad",
       "type": "people",
       "definition": "Ala ad-Din Muhammad II, the Khwarazmian shah whose empire Genghis Khan destroyed in 1219–21. His son Jalaluddin Mingburnu fled to the Indus, drawing the Mongols to the Sultanate’s frontier."
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "definition": "Of the Himalayas, the high mountain range walling off the northern edge of the Indian subcontinent — here the foothills where the fugitive Khwarazmian prince Jalaluddin disappeared after escaping Genghis Khan at the Indus.",
+      "type": "place"
     }
   ],
   "3": [
@@ -1185,6 +1221,18 @@
       "matchText": "Kublai Khan",
       "type": "people",
       "wikiSlug": "Kublai_Khan"
+    },
+    {
+      "term": "Pakistani",
+      "matchText": "Pakistani",
+      "definition": "Of Pakistan, the modern state carved from northwestern British India in 1947, which today claims the Koh-i-Noor alongside India and Afghanistan as a contested colonial-loot trophy.",
+      "type": "place"
+    },
+    {
+      "term": "Afghan",
+      "matchText": "Afghan governments",
+      "definition": "Of Afghanistan, the mountainous Central Asian country immediately northwest of the Khyber Pass — one of the modern claimants to the Koh-i-Noor, which passed through Afghan hands under the Durranis.",
+      "type": "place"
     }
   ],
   "4": [
@@ -1560,6 +1608,24 @@
       "matchText": "Khusrau Khan",
       "type": "people",
       "definition": "The converted Hindu official who murdered Mubarak Shah Khalji in 1320 and briefly seized the throne before Ghazi Malik deposed him and founded the Tughlaq dynasty."
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "eastern Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Moroccan",
+      "matchText": "Moroccan",
+      "definition": "Of Morocco, the far-western Islamic land on the Atlantic edge of North Africa — homeland of the great traveler Ibn Battuta, who served Muhammad bin Tughlaq as a judge for eight years.",
+      "type": "place"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "definition": "Followers of Islam — here the Turkic-Persian ruling minority governing a Hindu-majority population, a defining tension of Sultanate rule.",
+      "type": "group"
     }
   ],
   "5": [
@@ -1994,6 +2060,36 @@
       "matchText": "Muhammad Shah",
       "type": "people",
       "wikiSlug": "Muhammad_Shah_(Sayyid_dynasty)"
+    },
+    {
+      "term": "Ilkhanate",
+      "matchText": "Ilkhanid",
+      "wikiSlug": "Ilkhanate",
+      "type": "place"
+    },
+    {
+      "term": "Persianate society",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Bengali",
+      "matchText": "Bengali-language",
+      "definition": "Of Bengal, the rich rice-growing delta region of eastern India and modern Bangladesh — whose own sultanate patronized a flourishing Bengali-language literature in the fifteenth century.",
+      "type": "place"
+    },
+    {
+      "term": "Iranian Shia",
+      "matchText": "Iranian Shia",
+      "definition": "Shia Muslims from Iran — immigrants who flocked to the Deccan sultanate courts and competed for influence with the local Sunni Turkic and Indian Muslim factions.",
+      "type": "group"
+    },
+    {
+      "term": "Afghan",
+      "matchText": "Afghan",
+      "definition": "Of the Pashtun highlands straddling modern Afghanistan and Pakistan — the warrior background of the Lodi dynasty that would soon take the Delhi throne.",
+      "type": "group"
     }
   ],
   "6": [
@@ -2566,6 +2662,30 @@
       "matchText": "Awadh",
       "type": "place",
       "wikiSlug": "Awadh"
+    },
+    {
+      "term": "Vaishnavism",
+      "matchText": "Vaishnava",
+      "wikiSlug": "Vaishnavism",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian context",
+      "definition": "Of greater Iran — the Persian-speaking heartland where Sufism took its classical institutional form before spreading east into Sultanate India.",
+      "type": "place"
+    },
+    {
+      "term": "Arab",
+      "matchText": "Arab",
+      "definition": "Of the Arabic-speaking Islamic heartland (Arabia, the Levant, Egypt) — the older centers of Sufi practice against which the more Hindu-open Indian Chishti tradition defined itself.",
+      "type": "group"
+    },
+    {
+      "term": "Bengali",
+      "matchText": "Bengali",
+      "definition": "Of Bengal in eastern India — one of the regional vernaculars into which the originally Tamil Bhakti devotional movement spread during the Sultanate period.",
+      "type": "place"
     }
   ],
   "7": [
@@ -2946,6 +3066,18 @@
       "matchText": "Holy Roman Emperor",
       "type": "concept",
       "wikiSlug": "Holy_Roman_Empire"
+    },
+    {
+      "term": "Persianate society",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Charles V, Holy Roman Emperor",
+      "matchText": "Charles V",
+      "wikiSlug": "Charles_V,_Holy_Roman_Emperor",
+      "type": "person"
     }
   ],
   "8": [
@@ -3326,6 +3458,54 @@
       "matchText": "Veer Savarkar",
       "type": "people",
       "wikiSlug": "Vinayak_Damodar_Savarkar"
+    },
+    {
+      "term": "Persianate society",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Crusader states",
+      "matchText": "the Crusader states",
+      "wikiSlug": "Crusader_states",
+      "type": "group"
+    },
+    {
+      "term": "Hungarian",
+      "matchText": "Hungary",
+      "definition": "Of Hungary, the central-European kingdom whose army Suleiman the Magnificent shattered at Mohacs in 1526 — the European twin of Babur's gunpowder victory at Panipat the same year.",
+      "type": "place"
+    },
+    {
+      "term": "Afghan",
+      "matchText": "Afghan",
+      "definition": "Of the Pashtun highlands of modern Afghanistan and Pakistan — the homeland of the Lodi dynasty, the last rulers of the Sultanate before Babur.",
+      "type": "group"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "definition": "Followers of Islam — whose geographic distribution across the subcontinent, set during three centuries of Sultanate rule, foreshadowed the religious map of the 1947 Partition.",
+      "type": "group"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "definition": "The Arabian Peninsula — source of the war-horses the Sultanate's perpetually cavalry-short armies imported by sea, and a hub of the Indian Ocean trade network.",
+      "type": "place"
+    },
+    {
+      "term": "Indonesian",
+      "matchText": "Indonesian",
+      "definition": "Of the Indonesian archipelago (the Spice Islands and Java) — origin of the cloves, nutmeg and pepper that moved through the same Indian Ocean routes the Sultanate's ports tapped.",
+      "type": "place"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "definition": "Of the steppe-and-oasis belt north of Iran (Transoxiana, the Ferghana valley) — the homeland from which both the Sultanate's Turkic founders and its Mughal destroyers under Babur originated.",
+      "type": "place"
     }
   ]
 }

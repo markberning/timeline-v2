@@ -1,14 +1,99 @@
 {
-  "1": ["Byzantine", "Byzantines", "Byzantine Empire", "Byzantium"],
-  "2": ["Byzantine", "Byzantines", "Byzantium"],
-  "3": ["Byzantine", "Byzantium", "Byzantine Empire", "Eastern Roman Empire", "Roman Empire"],
-  "4": ["Byzantine", "Byzantines", "Byzantine Empire"],
-  "5": ["Byzantine Empire", "Bulgaria", "Ukraine", "Belarus"],
-  "6": ["Byzantine", "Byzantines", "Byzantium"],
-  "7": ["Byzantine", "Byzantium"],
-  "8": ["Byzantine", "Byzantines", "Byzantium"],
-  "9": ["Byzantine", "Byzantium"],
-  "10": ["Byzantine Empire", "Byzantium"],
-  "11": ["Byzantium", "Roman Empire"],
-  "12": ["Byzantine Empire", "Byzantine", "Byzantium", "Byzantines"]
+  "1": [
+    "Byzantine",
+    "Byzantines",
+    "Byzantine Empire",
+    "Byzantium",
+    "Serbia",
+    "Temple",
+    "Eurasian",
+    "Hungarian",
+    "Christians",
+    "Scandinavian"
+  ],
+  "2": [
+    "Byzantine",
+    "Byzantines",
+    "Byzantium"
+  ],
+  "3": [
+    "Byzantine",
+    "Byzantium",
+    "Byzantine Empire",
+    "Eastern Roman Empire",
+    "Roman Empire",
+    "Mesopotamian",
+    "Arabia",
+    "Armenian",
+    "Muslims",
+    "Christians",
+    "Jews"
+  ],
+  "4": [
+    "Byzantine",
+    "Byzantines",
+    "Byzantine Empire",
+    "Isaurian",
+    "Islamic Golden Age Ch",
+    "Armenian"
+  ],
+  "5": [
+    "Byzantine Empire",
+    "Bulgaria",
+    "Ukraine",
+    "Belarus",
+    "Armenian",
+    "Serbian",
+    "Ukrainian",
+    "Polish",
+    "Serbia",
+    "Norwegian"
+  ],
+  "6": [
+    "Byzantine",
+    "Byzantines",
+    "Byzantium",
+    "Eurasia",
+    "Eurasian"
+  ],
+  "7": [
+    "Byzantine",
+    "Byzantium",
+    "Iranian",
+    "Armenian",
+    "Balkan"
+  ],
+  "8": [
+    "Byzantine",
+    "Byzantines",
+    "Byzantium"
+  ],
+  "9": [
+    "Byzantine",
+    "Byzantium",
+    "Christians",
+    "Bulgarians"
+  ],
+  "10": [
+    "Byzantine Empire",
+    "Byzantium"
+  ],
+  "11": [
+    "Byzantium",
+    "Roman Empire",
+    "Hungarian",
+    "Catholicism"
+  ],
+  "12": [
+    "Byzantine Empire",
+    "Byzantine",
+    "Byzantium",
+    "Byzantines",
+    "Greek Orthodox",
+    "Catholicism",
+    "Serbian",
+    "Ukrainian",
+    "Christians",
+    "Jews"
+  ]
 }

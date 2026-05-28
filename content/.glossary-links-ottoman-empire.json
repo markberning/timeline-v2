@@ -281,6 +281,18 @@
       "matchText": "Bulgarian",
       "wikiSlug": "Bulgarians",
       "type": "people"
+    },
+    {
+      "term": "Sultanate of Rum",
+      "matchText": "Seljuks of Rum",
+      "wikiSlug": "Sultanate_of_Rum",
+      "type": "group"
+    },
+    {
+      "term": "al-Andalus",
+      "matchText": "al-Andalus",
+      "wikiSlug": "Al-Andalus",
+      "type": "place"
     }
   ],
   "2": [
@@ -547,6 +559,12 @@
       "matchText": "Hungarian",
       "type": "people",
       "wikiSlug": "Hungarians"
+    },
+    {
+      "term": "Kingdom of Bohemia",
+      "matchText": "Bohemian",
+      "wikiSlug": "Kingdom_of_Bohemia",
+      "type": "place"
     }
   ],
   "3": [
@@ -843,6 +861,24 @@
       "matchText": "Bulgarian",
       "wikiSlug": "Bulgarians",
       "type": "people"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Poles",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "group"
     }
   ],
   "4": [
@@ -1193,6 +1229,24 @@
       "matchText": "Middle Ages",
       "wikiSlug": "Middle_Ages",
       "type": "concept"
+    },
+    {
+      "term": "Caesar (title)",
+      "matchText": "Caesars",
+      "wikiSlug": "Caesar_(title)",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Mainz",
+      "matchText": "Mainz",
+      "wikiSlug": "Mainz",
+      "type": "place"
     }
   ],
   "5": [
@@ -1795,6 +1849,24 @@
       "matchText": "Holy Land",
       "wikiSlug": "Holy_Land",
       "type": "place"
+    },
+    {
+      "term": "Twelver Shia",
+      "matchText": "Twelver Shi'ism",
+      "wikiSlug": "Twelver_Shia",
+      "type": "concept"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "event"
     }
   ],
   "6": [
@@ -2067,6 +2139,12 @@
       "matchText": "Turks",
       "wikiSlug": "Turkish_people",
       "type": "people"
+    },
+    {
+      "term": "Twelver Shia",
+      "matchText": "Twelver Shi'ism",
+      "wikiSlug": "Twelver_Shia",
+      "type": "concept"
     }
   ],
   "7": [
@@ -2291,6 +2369,12 @@
       "matchText": "Greek Orthodox",
       "type": "concept",
       "wikiSlug": "Greek_Orthodox_Church"
+    },
+    {
+      "term": "Poles",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "group"
     }
   ],
   "8": [
@@ -2575,6 +2659,18 @@
       "matchText": "Venetians",
       "wikiSlug": "Republic_of_Venice",
       "type": "place"
+    },
+    {
+      "term": "Poles",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "group"
+    },
+    {
+      "term": "Pope",
+      "matchText": "Pope",
+      "wikiSlug": "Pope",
+      "type": "concept"
     }
   ],
   "9": [
@@ -2769,6 +2865,18 @@
       "matchText": "Aleppo",
       "type": "place",
       "wikiSlug": "Aleppo"
+    },
+    {
+      "term": "Baltic Sea",
+      "matchText": "Baltic",
+      "wikiSlug": "Baltic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Tokugawa shogunate",
+      "matchText": "Tokugawa",
+      "wikiSlug": "Tokugawa_shogunate",
+      "type": "group"
     }
   ],
   "10": [
@@ -3083,6 +3191,12 @@
       "matchText": "Istanbul",
       "type": "place",
       "wikiSlug": "Istanbul"
+    },
+    {
+      "term": "Muslims",
+      "matchText": "Muslims",
+      "wikiSlug": "Muslims",
+      "type": "group"
     }
   ],
   "11": [
@@ -3487,6 +3601,30 @@
       "matchText": "Bulgarians",
       "wikiSlug": "Bulgarians",
       "type": "people"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "American Revolution",
+      "matchText": "American Revolution",
+      "wikiSlug": "American_Revolution",
+      "type": "event"
     }
   ],
   "12": [
@@ -3795,6 +3933,24 @@
       "matchText": "Turks",
       "wikiSlug": "Turkish_people",
       "type": "people"
+    },
+    {
+      "term": "Gregorian calendar",
+      "matchText": "Gregorian",
+      "wikiSlug": "Gregorian_calendar",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Safavid dynasty",
+      "matchText": "Safavid",
+      "wikiSlug": "Safavid_dynasty",
+      "type": "group"
     }
   ]
 }

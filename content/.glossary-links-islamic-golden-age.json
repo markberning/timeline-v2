@@ -413,6 +413,12 @@
       "matchText": "al-Andalus",
       "wikiSlug": "Al-Andalus",
       "type": "place"
+    },
+    {
+      "term": "Al-Amin",
+      "matchText": "Al-Amin",
+      "wikiSlug": "Al-Amin",
+      "type": "person"
     }
   ],
   "2": [
@@ -1058,6 +1064,24 @@
       "term": "Liber Abaci",
       "matchText": "Liber Abaci",
       "wikiSlug": "Liber_Abaci",
+      "type": "concept"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christians",
+      "type": "group"
+    },
+    {
+      "term": "Restoration",
+      "matchText": "Restoration",
+      "definition": "The English rendering of al-jabr, the Arabic word that gives us 'algebra.' It names a specific move: when an equation has a negative term, you 'restore' it by adding the same positive quantity to both sides until the negative is gone.",
       "type": "concept"
     }
   ],
@@ -1819,6 +1843,12 @@
       "matchText": "al-Munqidh min al-Dalal",
       "definition": "Al-Ghazali's partial spiritual autobiography (c. 1108), whose title means \"Deliverance from Error.\" In it he describes the crisis of doubt that drove him from his Baghdad professorship into a decade of Sufi wandering, and lays out his search for certain knowledge through theology, philosophy, Ismaili authority, and finally mysticism.",
       "type": "concept"
+    },
+    {
+      "term": "Crusader",
+      "matchText": "Crusader",
+      "definition": "Western European Christian warriors of the holy wars launched from 1095 to seize and hold the Holy Land. Their armies and the small states they planted on the eastern Mediterranean coast were a chronic military pressure on the Islamic world for nearly two centuries (told in full in Chapter 9).",
+      "type": "group"
     }
   ],
   "6": [
@@ -2205,6 +2235,18 @@
       "matchText": "Ismaili Shi'ism",
       "wikiSlug": "Isma'ilism",
       "type": "concept"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christians",
+      "type": "group"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
     }
   ],
   "7": [
@@ -2651,6 +2693,36 @@
       "matchText": "al-Khwarizmi",
       "wikiSlug": "Al-Khwarizmi",
       "type": "people"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christians",
+      "type": "group"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "León",
+      "matchText": "León",
+      "wikiSlug": "Kingdom_of_León",
+      "type": "place"
+    },
+    {
+      "term": "Isabella I of Castile",
+      "matchText": "Isabella",
+      "wikiSlug": "Isabella_I_of_Castile",
+      "type": "person"
+    },
+    {
+      "term": "Crown of Castile",
+      "matchText": "Castilian",
+      "wikiSlug": "Crown_of_Castile",
+      "type": "place"
     }
   ],
   "8": [
@@ -3103,6 +3175,12 @@
       "matchText": "Andalusian",
       "wikiSlug": "Al-Andalus",
       "type": "place"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
     }
   ],
   "9": [
@@ -3681,6 +3759,18 @@
       "matchText": "Caliph",
       "wikiSlug": "Caliph",
       "type": "concept"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christians",
+      "type": "group"
+    },
+    {
+      "term": "Treaty of Jaffa",
+      "matchText": "Treaty of Jaffa",
+      "wikiSlug": "Treaty_of_Jaffa_(1192)",
+      "type": "event"
     }
   ],
   "10": [
@@ -4067,6 +4157,18 @@
       "matchText": "Ilkhanid",
       "wikiSlug": "Ilkhanate",
       "type": "place"
+    },
+    {
+      "term": "Copernican heliocentrism",
+      "matchText": "Copernican",
+      "wikiSlug": "Copernican_heliocentrism",
+      "type": "concept"
+    },
+    {
+      "term": "Crusader",
+      "matchText": "Crusader",
+      "definition": "Western European Christian holy-warriors of the Levant campaigns (1095 onward). Their leaders and coastal states were a recurring adversary on Islam's Mediterranean frontier — and several of them were among the high-profile targets of the Assassins.",
+      "type": "group"
     }
   ]
 }

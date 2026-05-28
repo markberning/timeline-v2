@@ -485,6 +485,36 @@
       "matchText": "Eurasian",
       "type": "concept",
       "definition": "Of the connected landmass of Europe and Asia treated as a single zone of exchange — the framing this narrative uses for its cross-civilization checks, in which fourteenth-to-seventeenth-century Italy is one node in a wider system of plague, trade, and imperial expansion."
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Reims Cathedral",
+      "matchText": "Reims",
+      "wikiSlug": "Reims_Cathedral",
+      "type": "place"
+    },
+    {
+      "term": "Tughlaq dynasty",
+      "matchText": "Tughlaq",
+      "wikiSlug": "Tughlaq_dynasty",
+      "type": "group"
+    },
+    {
+      "term": "trans-Saharan trade",
+      "matchText": "trans-Saharan",
+      "definition": "The caravan trade across the Sahara desert that moved West African gold and salt north to the Mediterranean. In the fourteenth century it was the pipeline feeding Mali's gold into the Egyptian markets that Italian banking houses tracked.",
+      "type": "concept"
+    },
+    {
+      "term": "Christianized",
+      "matchText": "Christianized",
+      "definition": "The medieval habit of reworking pagan classical texts to fit Christian meaning — reading Virgil or Ovid as veiled Christian allegory rather than as literature in their own right. The humanists' break was to stop doing this and read the ancients on their own terms.",
+      "type": "concept"
     }
   ],
   "2": [
@@ -817,6 +847,24 @@
       "matchText": "Quattrocento",
       "type": "concept",
       "wikiSlug": "Quattrocento"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Sulayman of Mali",
+      "matchText": "Mansa Sulayman",
+      "wikiSlug": "Sulayman_of_Mali",
+      "type": "person"
+    },
+    {
+      "term": "trans-Saharan trade",
+      "matchText": "trans-Saharan",
+      "definition": "The caravan trade across the Sahara that carried West African gold north. Its desert routes seem to have been poor plague vectors, which may be why Mali was spared the Black Death that gutted Eurasia.",
+      "type": "concept"
     }
   ],
   "3": [
@@ -1389,6 +1437,18 @@
       "matchText": "Five Powers",
       "type": "concept",
       "definition": "The five major Italian powers formalized by the 1454 Peace of Lodi — Florence, Venice, Milan, the Papal States, and Naples — whose competitive balance, with their five rival courts and patronage systems, was the political precondition for the artistic explosion of the next century and a half."
+    },
+    {
+      "term": "Platonic Academy (Florence)",
+      "matchText": "Platonic Academy",
+      "wikiSlug": "Platonic_Academy_(Florence)",
+      "type": "group"
+    },
+    {
+      "term": "Martin Luther",
+      "matchText": "Luther",
+      "wikiSlug": "Martin_Luther",
+      "type": "person"
     }
   ],
   "4": [
@@ -1979,6 +2039,12 @@
       "matchText": "Lutheran",
       "type": "concept",
       "wikiSlug": "Lutheranism"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
     }
   ],
   "5": [
@@ -2683,6 +2749,36 @@
       "matchText": "San Marco",
       "type": "place",
       "wikiSlug": "San_Marco,_Florence"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Lisbon",
+      "matchText": "Lisbon",
+      "wikiSlug": "Lisbon",
+      "type": "place"
+    },
+    {
+      "term": "Iranian Shia state",
+      "matchText": "Iranian Shia",
+      "definition": "The Safavid dynasty's forced conversion of Persia to Twelver Shia Islam after 1501, which turned Iran into the great Shia state of the early-modern world — the religious counterweight to the Sunni Ottomans next door.",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian merchants",
+      "matchText": "Armenian",
+      "definition": "The Armenian trading diaspora, centered on the Safavid silk hub of New Julfa, that carried Persian silk westward to European markets including Venice — middlemen of one of the period's most lucrative long-distance trades.",
+      "type": "group"
     }
   ],
   "6": [
@@ -3255,6 +3351,30 @@
       "matchText": "Eurasian",
       "type": "concept",
       "definition": "Of the connected landmass of Europe and Asia treated as a single zone of exchange — the framing this narrative uses for its cross-civilization checks, in which fourteenth-to-seventeenth-century Italy is one node in a wider system of plague, trade, and imperial expansion."
+    },
+    {
+      "term": "French Wars of Religion",
+      "matchText": "Wars of Religion",
+      "wikiSlug": "French_Wars_of_Religion",
+      "type": "event"
+    },
+    {
+      "term": "Copernican heliocentrism",
+      "matchText": "Copernican heliocentrism",
+      "wikiSlug": "Copernican_heliocentrism",
+      "type": "concept"
+    },
+    {
+      "term": "Elizabethan era",
+      "matchText": "Elizabethan",
+      "wikiSlug": "Elizabethan_era",
+      "type": "concept"
+    },
+    {
+      "term": "Shia Islam",
+      "matchText": "Shia Islam",
+      "wikiSlug": "Shia_Islam",
+      "type": "concept"
     }
   ],
   "7": [
@@ -3707,6 +3827,42 @@
       "matchText": "Tuscan",
       "type": "place",
       "wikiSlug": "Tuscany"
+    },
+    {
+      "term": "Thirty Years' War",
+      "matchText": "Thirty Years War",
+      "wikiSlug": "Thirty_Years'_War",
+      "type": "event"
+    },
+    {
+      "term": "Martin Luther",
+      "matchText": "Luther",
+      "wikiSlug": "Martin_Luther",
+      "type": "person"
+    },
+    {
+      "term": "Jupiter",
+      "matchText": "Jupiter",
+      "wikiSlug": "Jupiter",
+      "type": "place"
+    },
+    {
+      "term": "Wanli Emperor",
+      "matchText": "Wanli",
+      "wikiSlug": "Wanli_Emperor",
+      "type": "person"
+    },
+    {
+      "term": "Simplicio",
+      "matchText": "Simplicio",
+      "definition": "The slow-witted defender of the old Earth-centered cosmos in Galileo's Dialogue. The name puns on 'simpleton' — and Pope Urban VIII, recognizing his own arguments in Simplicio's mouth, took it as a deliberate insult.",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian merchants",
+      "matchText": "Armenian",
+      "definition": "The Armenian trading diaspora out of the Safavid silk hub of New Julfa, who carried Persian silk to European markets including Venice in the late sixteenth and seventeenth centuries.",
+      "type": "group"
     }
   ],
   "8": [
@@ -4213,6 +4369,24 @@
       "matchText": "Modena",
       "type": "place",
       "wikiSlug": "Modena"
+    },
+    {
+      "term": "Lisbon",
+      "matchText": "Lisbon",
+      "wikiSlug": "Lisbon",
+      "type": "place"
+    },
+    {
+      "term": "Elizabethan era",
+      "matchText": "Elizabethan",
+      "wikiSlug": "Elizabethan_era",
+      "type": "concept"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
     }
   ]
 }
