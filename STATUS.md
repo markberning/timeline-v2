@@ -10,21 +10,34 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-28 (read this FIRST)
 
-**LATEST (2026-05-28 cont.):** swept the **top 5 never-touched civs** —
-byzantine-empire, delhi-sultanate, renaissance-italy, ottoman-empire,
-islamic-golden-age — in one suggest-then-apply pass (1 agent/civ → single-writer
-merge → gate chain), all **0 NEW**, ONE atomic deploy (`f01a8de`), verified live
-at `/civ/{tl}` (200; new glossary links present in served HTML). Corpus NEW gaps
-**1146 → 943**; **clean civs (0 NEW) 21 → 26**. Proposals stashed in
-`audits/link-coverage/PROPOSALS-batch5.json`, merge tool `scripts/apply-batch5.mjs`.
-**Two gotchas this pass:** (1) `Poles` is a Wikipedia **disambiguation** page —
-retarget to `Polish_people`. (2) **Reader URL is `/civ/{tl}`, NOT `/{tl}`** — a
-top-level `/{tl}` curl 404s and looks like a dead deploy; always verify `/civ/{tl}`.
-**Next never-swept (worst-first):** swahili-coast (28), high-medieval-europe (26),
-yuan-dynasty (26), uyghur-steppe (24), timurid-empire (23), mughal-empire (22),
-medieval-india (~33 recheck). early-american-republic proposals already
-researched + stashed (`PROPOSALS-early-american-republic.json`, NOT applied —
-it's reopened-not-never-swept, lower priority).
+**LATEST (2026-05-28 cont. — 2 batches of never-touched civs, 10 total):**
+- **Batch 5** (`f01a8de`): byzantine-empire, delhi-sultanate, renaissance-italy,
+  ottoman-empire, islamic-golden-age.
+- **Batch 6** (`2c1dc2f`): medieval-india, swahili-coast, umayyad-caliphate,
+  high-medieval-europe, yuan-dynasty.
+All **0 NEW**, all ship-check CLEAR, both deployed + verified live at `/civ/{tl}`
+(200, new links in served HTML). Corpus NEW gaps **1146 → 803**; **clean civs
+(0 NEW) 21 → 31**. Reusable pipeline this session: 1 research agent/civ
+(suggest-only JSON) → single-writer merge `scripts/apply-proposals.mjs <proposals>`
+→ parse → fix-links --strict (+--apply photo tidies) → verify-links --write-snapshot
+→ audit-events/glossary/crosslinks → coverage --strict (close residual per-chapter
+recurrences) → write link-only audit stub for pre-5-persona civs → ship-check →
+commit (force-add explicit content/+audits/ files) → clean atomic deploy. Proposals
+stashed: `PROPOSALS-batch5.json`, `PROPOSALS-batch6.json`,
+`PROPOSALS-early-american-republic.json` (eamr NOT applied — reopened, lower priority).
+**Gotchas logged this session:** (1) `Poles` → disambig, use `Polish_people`;
+(2) `Vietnamese_people` redirects to a stats page, use `Viet_people`; (3) the
+`Pope`/`Alexander Pope` homonym (yuan ch2 vs ch5); (4) **reader URL is `/civ/{tl}`,
+NOT `/{tl}`** — top-level `/{tl}` 404s and looks like a dead deploy; always verify
+`/civ/{tl}`; (5) per-chapter coverage means a term recurring in another chapter
+re-opens as NEW — re-run coverage --strict and close residuals before ship.
+**NOTE (2026-05-28): user is upgrading the CLI to a newer Opus (4.8) after this —
+session paused here intentionally, tree is clean + all deployed.**
+**Next never-touched (worst-first, no grandfathered cushion):** vendel-scandinavia
+(29 — but reopened, has cushion), antebellum-america/xiongnu-huns (reopened),
+uyghur-steppe (24), timurid-empire (23), mughal-empire (22), then the reopened
+bucket (early-american-republic 24 has stashed proposals ready to apply). Re-run
+`npx tsx scripts/link-coverage.ts --corpus` at session start for fresh ranking.
 
 **Git:** `main` == `origin/main`, **clean tree, no agents running.** Two-day #7
 sweep push shipped **24 worst-first civs** (5 on 05-27, 19 on 05-28) in 8 atomic
