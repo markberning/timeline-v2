@@ -4,38 +4,18 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Egyptians   ⟨dict,recur×4⟩  → glossary
-    Greeks   ⟨dict⟩  → glossary
-  * Arab   ⟨dict⟩  → glossary
-  * Ethiopia   ⟨dict⟩  → glossary
-    Kerma   ⟨dict,recur×3⟩  → glossary
-    Middle Kingdom   ⟨dict⟩  → glossary
-  * Egyptologists   ⟨dict⟩  → glossary
-    Sumerian   ⟨dict⟩  → glossary
-    Tigris   ⟨dict⟩  → glossary
-    Bronze Age   ⟨dict⟩  → glossary
-    B-Group   ⟨recur×4⟩  → ?
-    C-Group   ⟨dict⟩  → glossary
-  * Mesopotamian   ⟨dict⟩  → cross-link
-    Bruce Williams   ⟨bold⟩  → event/glossary
-    Iry-Hor   ⟨dict⟩  → glossary
-    Scorpion II   ⟨dict⟩  → event
-    Yam   ⟨bold⟩  → event/glossary
   ~ Land of the Bow   ⟨⟩  (advisory)
   ~ Romans   ⟨⟩  (advisory)
-  ~ Egyptian   ⟨recur×28⟩  (advisory)
   ~ WAHN   ⟨⟩  (advisory)
   ~ Africa   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
   ~ Iraq   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Syria   ⟨dict⟩  (advisory)
   ~ Pan-Grave   ⟨⟩  (advisory)
   ~ British-led   ⟨⟩  (advisory)
   ~ African   ⟨⟩  (advisory)
   ~ Thinite   ⟨⟩  (advisory)
-  ~ Williams   ⟨⟩  (advisory)
   ~ Archaeology   ⟨⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
@@ -59,6 +39,7 @@
   ~ chariot   ⟨dict-lc⟩  (advisory)
   ~ copper   ⟨dict-lc⟩  (advisory)
   ~ elite burials   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ social hierarchy.   ⟨dict-lc⟩  (advisory)
   ~ paper   ⟨dict-lc⟩  (advisory)
@@ -129,36 +110,12 @@
   ~ scoured   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-    Lower Nubia   ⟨dict,recur×11⟩  → glossary
-    Nile   ⟨dict,recur×5⟩  → glossary
-    Qustul   ⟨dict⟩  → glossary
-    Uruk   ⟨dict⟩  → glossary
-    Indus River   ⟨dict⟩  → event
-  * Harappan   ⟨dict⟩  → glossary
-    Mohenjo-daro   ⟨dict⟩  → event
-    Nubian   ⟨dict,recur×7⟩  → cross-link
-    Khafre   ⟨dict⟩  → event
-    Cairo   ⟨dict⟩  → glossary
-    Akhenaten   ⟨dict⟩  → event
-    Nubia   ⟨dict,recur×3⟩  → cross-link
-    Abu Simbel   ⟨dict⟩  → event
-  * Egyptians   ⟨dict⟩  → glossary
-    Kerma   ⟨dict⟩  → glossary
-    Giza   ⟨dict⟩  → glossary
-    Libya   ⟨dict⟩  → glossary
-    Sinai   ⟨dict⟩  → glossary
-    Upper Nubia   ⟨dict⟩  → glossary
-    Wawat   ⟨dict⟩  → event
-    Sudan   ⟨dict⟩  → glossary
-    Yam   ⟨bold⟩  → event/glossary
   ~ Egypt   ⟨dict,recur×8⟩  (advisory)
   ~ Iraq   ⟨⟩  (advisory)
-  ~ Egyptian   ⟨recur×15⟩  (advisory)
   ~ THEEBZ   ⟨⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
   ~ Syria   ⟨dict⟩  (advisory)
   ~ Twelfth   ⟨⟩  (advisory)
-  ~ Eighteenth   ⟨⟩  (advisory)
   ~ Twenty-fifth   ⟨⟩  (advisory)
   ~ Nineteenth   ⟨⟩  (advisory)
   ~ Sicily   ⟨dict⟩  (advisory)
@@ -168,9 +125,9 @@
   ~ Round   ⟨⟩  (advisory)
   ~ Africanist   ⟨⟩  (advisory)
   ~ African   ⟨⟩  (advisory)
-  ~ an Egyptian king list   ⟨def⟩  (advisory)
-  ~ the Nile   ⟨dict-lc⟩  (advisory)
   ~ delta.   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ the Indus   ⟨dict-lc⟩  (advisory)
   ~ dark age   ⟨dict-lc,bold⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
@@ -227,47 +184,14 @@
   ~ pastoralist   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Nubian   ⟨dict,recur×7⟩  → cross-link
-    Uruk   ⟨dict,bold,recur×3⟩  → glossary
-    Memphis   ⟨dict,bold,recur×4⟩  → event
-  * Middle East   ⟨dict⟩  → glossary
-    Nile   ⟨dict,recur×7⟩  → glossary
-    Bronze Age   ⟨dict,recur×3⟩  → glossary
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Sumerian   ⟨dict⟩  → glossary
-    Hierakonpolis   ⟨dict⟩  → cross-link
-    Upper Egypt   ⟨dict,recur×3⟩  → glossary
-    Early Dynastic   ⟨dict⟩  → cross-link
-    Pakistan   ⟨dict⟩  → glossary
-    Longshan   ⟨dict⟩  → glossary
-    Giza   ⟨dict⟩  → glossary
-    Longshan China   ⟨dict⟩  → glossary
-    Caral   ⟨dict⟩  → cross-link
-    Peru   ⟨dict⟩  → glossary
-    Sahara   ⟨dict⟩  → glossary
-    Nubia   ⟨dict,recur×5⟩  → cross-link
-    Aswan   ⟨dict,recur×3⟩  → glossary
-    Upper Nubia   ⟨dict,recur×4⟩  → glossary
-    Ta-Seti   ⟨dict⟩  → event
-    Afghanistan   ⟨dict⟩  → glossary
-    Cairo   ⟨dict⟩  → glossary
-  * Egyptologists   ⟨dict⟩  → glossary
-  * Egyptians   ⟨dict⟩  → glossary
-    Thebes   ⟨dict,bold⟩  → event
-    Luxor   ⟨dict⟩  → glossary
-    Middle Kingdom   ⟨dict⟩  → glossary
   ~ Sudanese   ⟨⟩  (advisory)
   ~ African   ⟨recur×5⟩  (advisory)
-  ~ Egypt   ⟨dict,recur×15⟩  (advisory)
   ~ Africa   ⟨recur×5⟩  (advisory)
   ~ Egyptian   ⟨recur×21⟩  (advisory)
   ~ Nubians   ⟨⟩  (advisory)
   ~ Sudanese Arabic   ⟨⟩  (advisory)
   ~ Iraq   ⟨⟩  (advisory)
   ~ Early Dynastic Egypt Ch   ⟨⟩  (advisory)
-  ~ BCE Mesopotamia   ⟨⟩  (advisory)
-  ~ Mesopotamia Chs   ⟨⟩  (advisory)
-  ~ Mesopotamia Ch   ⟨⟩  (advisory)
   ~ China   ⟨dict⟩  (advisory)
   ~ Ancient China Ch   ⟨⟩  (advisory)
   ~ Americas   ⟨dict⟩  (advisory)
@@ -281,10 +205,8 @@
   ~ Yam the way   ⟨⟩  (advisory)
   ~ Pygmy   ⟨⟩  (advisory)
   ~ Baka   ⟨⟩  (advisory)
-  ~ Sumerian Ur   ⟨⟩  (advisory)
   ~ Africa the Egyptians   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
-  ~ Middle Kingdom Egypt   ⟨⟩  (advisory)
   ~ in almost complete form   ⟨def⟩  (advisory)
   ~ floodplain   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
@@ -292,12 +214,12 @@
   ~ pharaonic Egypt   ⟨dict-lc⟩  (advisory)
   ~ thousand years.   ⟨dict-lc⟩  (advisory)
   ~ delta.   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
-  ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ the Middle East   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ city-states   ⟨dict-lc⟩  (advisory)
   ~ the Indus   ⟨dict-lc⟩  (advisory)
-  ~ great pyramids at Giza.   ⟨dict-lc⟩  (advisory)
-  ~ the Sahara   ⟨dict-lc⟩  (advisory)
   ~ the word.   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ trade goods.   ⟨dict-lc⟩  (advisory)
@@ -342,43 +264,12 @@
   ~ vacation   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Kerma   ⟨dict,recur×18⟩  → glossary
-    C-Group   ⟨dict⟩  → glossary
-    Lower Nubia   ⟨dict,recur×4⟩  → glossary
-    Nile   ⟨dict⟩  → glossary
-    Aswan   ⟨dict⟩  → glossary
-    Middle Kingdom   ⟨dict,recur×15⟩  → glossary
-  * Egyptologists   ⟨dict⟩  → glossary
-    Bronze Age   ⟨dict⟩  → glossary
-    Yellow River   ⟨dict⟩  → cross-link
-    Longshan-era   ⟨dict⟩  → glossary
-    Great Wall   ⟨dict⟩  → event
-    Shimao   ⟨dict⟩  → event
-    Libyans   ⟨dict⟩  → glossary
-    Nubian   ⟨dict,recur×12⟩  → cross-link
-    Cairo   ⟨dict⟩  → glossary
-    Nubia   ⟨dict,recur×7⟩  → cross-link
-    Lake Nasser   ⟨dict⟩  → glossary
-  * Egyptians   ⟨dict⟩  → glossary
-    Eastern Desert   ⟨dict,dict-lc⟩  → glossary
-    Nile Delta   ⟨dict⟩  → glossary
-    Thebes   ⟨dict⟩  → event
-    Classic Kerma   ⟨dict,bold⟩  → glossary
-    Lebanon   ⟨dict⟩  → glossary
-    Hebrew   ⟨dict⟩  → glossary
-    Aramaic   ⟨dict⟩  → glossary
-  * Theban   ⟨dict⟩  → glossary
   ~ Egypt   ⟨dict,recur×17⟩  (advisory)
-  ~ Egyptian   ⟨recur×20⟩  (advisory)
   ~ Chinese   ⟨⟩  (advisory)
-  ~ Middle Kingdom Egypt   ⟨⟩  (advisory)
-  ~ Middle Kingdom Nubian   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
-  ~ Ancient Egyptian Literature Vol   ⟨⟩  (advisory)
   ~ Egyptological   ⟨⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Nubians   ⟨⟩  (advisory)
-  ~ Middle Kingdom Egyptian   ⟨⟩  (advisory)
   ~ Nubian-origin   ⟨⟩  (advisory)
   ~ Nubian-named   ⟨⟩  (advisory)
   ~ Through   ⟨⟩  (advisory)
@@ -386,11 +277,11 @@
   ~ Mediterranean   ⟨dict⟩  (advisory)
   ~ Israel   ⟨dict⟩  (advisory)
   ~ Syria   ⟨dict⟩  (advisory)
-  ~ half of Egyptian disorder   ⟨def⟩  (advisory)
   ~ for the garrison's families   ⟨def⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
   ~ interregnum   ⟨dict-lc⟩  (advisory)
   ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ rammed-earth   ⟨dict-lc⟩  (advisory)
   ~ masonry   ⟨dict-lc⟩  (advisory)
   ~ portraits   ⟨dict-lc⟩  (advisory)
@@ -400,9 +291,11 @@
   ~ protected by   ⟨dict-lc⟩  (advisory)
   ~ granaries   ⟨dict-lc⟩  (advisory)
   ~ wells   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ it is a   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ party.   ⟨dict-lc⟩  (advisory)
@@ -410,10 +303,10 @@
   ~ mercenaries   ⟨dict-lc⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
   ~ golden age.   ⟨dict-lc⟩  (advisory)
   ~ cemetery   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
-  ~ delta   ⟨dict-lc⟩  (advisory)
   ~ deffufas   ⟨rare⟩  (advisory)
   ~ sporadically   ⟨rare⟩  (advisory)
   ~ fortify   ⟨rare⟩  (advisory)
@@ -458,36 +351,6 @@
   ~ migrant   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Western Deffufa   ⟨dict,recur×3⟩  → event
-    Uruk   ⟨dict⟩  → glossary
-    Memphis   ⟨dict⟩  → event
-    Mohenjo-Daro   ⟨dict⟩  → event
-    Abydos   ⟨dict⟩  → glossary
-  * Egyptians   ⟨dict⟩  → glossary
-  * Mesopotamian   ⟨dict⟩  → cross-link
-    Longshan   ⟨dict⟩  → glossary
-    Andes   ⟨dict⟩  → cross-link
-    Caral   ⟨dict⟩  → cross-link
-  * Andean   ⟨dict⟩  → cross-link
-    Moche   ⟨dict⟩  → cross-link
-    Nubian   ⟨dict⟩  → cross-link
-    Sumerian   ⟨dict⟩  → glossary
-    Kerman   ⟨dict,recur×4⟩  → glossary
-    Thebes   ⟨dict⟩  → event
-    Nubia   ⟨dict⟩  → cross-link
-    Middle Kingdom   ⟨dict⟩  → glossary
-    Meroitic   ⟨dict,pron,bold⟩  → glossary
-    Kingdom of Kush   ⟨dict⟩  → cross-link
-    Harappa   ⟨dict⟩  → event
-  * Ethiopia   ⟨dict⟩  → glossary
-    Red Sea   ⟨dict⟩  → glossary
-    Hyksos   ⟨dict⟩  → event
-    Lower Egypt   ⟨dict⟩  → glossary
-    Horn of Africa   ⟨dict⟩  → glossary
-    Levant   ⟨dict⟩  → glossary
-    Theban   ⟨dict,recur×3⟩  → glossary
-  ~ Africa   ⟨⟩  (advisory)
-  ~ Egypt   ⟨dict,bold,recur×11⟩  (advisory)
   ~ Latin-derived   ⟨⟩  (advisory)
   ~ Neolithic Europe   ⟨⟩  (advisory)
   ~ Iron Age Scythia   ⟨⟩  (advisory)
@@ -499,28 +362,24 @@
   ~ Early Andean Ch   ⟨⟩  (advisory)
   ~ Chinese   ⟨⟩  (advisory)
   ~ Egypt's First Dynasty   ⟨⟩  (advisory)
-  ~ Andeans   ⟨⟩  (advisory)
-  ~ Egyptian   ⟨recur×18⟩  (advisory)
   ~ African   ⟨⟩  (advisory)
   ~ Nubians   ⟨⟩  (advisory)
-  ~ Egyptian-trained   ⟨⟩  (advisory)
   ~ Nubianists   ⟨⟩  (advisory)
   ~ CE Andean   ⟨⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Kerma-style   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
-  ~ Hyksos-controlled   ⟨⟩  (advisory)
   ~ Latin-derived plural of tumulus   ⟨def⟩  (advisory)
-  ~ far north as Thebes   ⟨def⟩  (advisory)
   ~ cemetery.   ⟨dict-lc⟩  (advisory)
   ~ it is a   ⟨dict-lc⟩  (advisory)
   ~ floodplain   ⟨dict-lc⟩  (advisory)
   ~ mound A   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ decorated   ⟨dict-lc⟩  (advisory)
   ~ women and children   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
-  ~ the Andes   ⟨dict-lc,bold⟩  (advisory)
+  ~ women's   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ chiefdom.   ⟨dict-lc⟩  (advisory)
   ~ they were the   ⟨dict-lc⟩  (advisory)
@@ -528,6 +387,7 @@
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ mortuary temple   ⟨dict-lc⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ pharaonic Egypt   ⟨dict-lc⟩  (advisory)
   ~ wheel-thrown pottery   ⟨dict-lc⟩  (advisory)
   ~ trade goods   ⟨dict-lc⟩  (advisory)
@@ -571,36 +431,7 @@
   ~ upriver   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-    Nile   ⟨dict,recur×4⟩  → glossary
-    Middle Kingdom   ⟨dict,recur×4⟩  → glossary
-    Hyksos   ⟨dict,recur×19⟩  → event
-    Semitic   ⟨dict⟩  → glossary
-    Horn of Africa   ⟨dict⟩  → glossary
-  * Assyrian   ⟨dict⟩  → cross-link
-    Levant   ⟨dict⟩  → glossary
-    Lebanon   ⟨dict⟩  → glossary
-    Lower Egypt   ⟨dict⟩  → glossary
-  * Levantine   ⟨dict⟩  → glossary
-    Theban   ⟨dict,recur×5⟩  → glossary
-    Upper Egypt   ⟨dict⟩  → glossary
-    Thebes   ⟨dict,recur×3⟩  → event
-    Luxor   ⟨dict⟩  → glossary
-    Aswan   ⟨dict⟩  → glossary
-    Kush   ⟨dict,bold,recur×6⟩  → glossary
-    Nubian   ⟨dict,recur×8⟩  → cross-link
-    Wawat   ⟨dict⟩  → event
-  * Egyptians   ⟨dict⟩  → glossary
-    Kushite   ⟨dict,recur×3⟩  → glossary
-    Lower Nubia   ⟨dict⟩  → glossary
-    Sinai   ⟨dict⟩  → glossary
-    Classic Kerma   ⟨dict⟩  → glossary
-    Mirgissa   ⟨dict⟩  → glossary
-    Western Deffufa   ⟨dict⟩  → event
-    Nubia   ⟨dict⟩  → cross-link
-    Eastern Deffufa   ⟨dict⟩  → event
     Egyptian New Kingdom   ⟨dict⟩  → glossary
-    Kushite pharaohs   ⟨bold⟩  → event/glossary
-  ~ Egypt   ⟨dict,recur×9⟩  (advisory)
   ~ Egyptian   ⟨recur×17⟩  (advisory)
   ~ North African   ⟨⟩  (advisory)
   ~ Mesopotamia Ch   ⟨⟩  (advisory)
@@ -613,30 +444,23 @@
   ~ Pharaoh   ⟨⟩  (advisory)
   ~ Egyptianized   ⟨⟩  (advisory)
   ~ Theban Egyptians   ⟨⟩  (advisory)
-  ~ Upper   ⟨⟩  (advisory)
-  ~ Ruler of Kush   ⟨⟩  (advisory)
   ~ Egyptians of the   ⟨⟩  (advisory)
   ~ Bronze Age African   ⟨⟩  (advisory)
-  ~ Nubians   ⟨⟩  (advisory)
-  ~ Egyptian Twenty-fifth Dynasty   ⟨⟩  (advisory)
-  ~ Kingdom of Kush Ch   ⟨⟩  (advisory)
   ~ Egyptian Nubia   ⟨⟩  (advisory)
-  ~ the Nile   ⟨dict-lc⟩  (advisory)
   ~ interregnum   ⟨dict-lc⟩  (advisory)
   ~ delta   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
-  ~ the Levant   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ mercenaries   ⟨dict-lc⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ last king   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ southern campaign   ⟨dict-lc⟩  (advisory)
-  ~ kingdom of Kush   ⟨dict-lc⟩  (advisory)
   ~ king named   ⟨dict-lc⟩  (advisory)
   ~ cemetery   ⟨dict-lc⟩  (advisory)
   ~ tumuli.   ⟨dict-lc,rare⟩  (advisory)
@@ -645,7 +469,6 @@
   ~ head start   ⟨dict-lc⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
   ~ Second Intermediate Period   ⟨bold⟩  (advisory)
-  ~ New Kingdom   ⟨bold⟩  (advisory)
   ~ overdue   ⟨rare⟩  (advisory)
   ~ unpacking   ⟨rare⟩  (advisory)
   ~ anymore   ⟨rare⟩  (advisory)
@@ -654,7 +477,6 @@
   ~ hemmed   ⟨rare⟩  (advisory)
   ~ cleaned   ⟨rare⟩  (advisory)
   ~ anybody   ⟨rare⟩  (advisory)
-  ~ deffufas   ⟨rare⟩  (advisory)
   ~ bottled   ⟨rare⟩  (advisory)
   ~ whitewater   ⟨rare⟩  (advisory)
   ~ slipway   ⟨rare⟩  (advisory)
@@ -668,49 +490,6 @@
   ~ incredibly   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Nubia   ⟨dict,recur×22⟩  → cross-link
-    Middle Kingdom   ⟨dict,recur×3⟩  → glossary
-    Kerma   ⟨dict,recur×5⟩  → glossary
-    Nile   ⟨dict,recur×9⟩  → glossary
-    Thebes   ⟨dict,recur×9⟩  → event
-    Nubian   ⟨dict,recur×15⟩  → cross-link
-    Lower Nubia   ⟨dict,recur×3⟩  → glossary
-    Upper Nubia   ⟨dict⟩  → glossary
-    Eighteenth   ⟨bold⟩  → event/glossary
-    Nineteenth Dynasties   ⟨bold⟩  → event/glossary
-    Tutankhamun   ⟨dict⟩  → cross-link
-    Ramesses II   ⟨dict,bold,recur×4⟩  → event
-    Levant   ⟨dict⟩  → glossary
-    Late Bronze Age   ⟨dict,recur×3⟩  → glossary
-    Akkadian   ⟨dict,recur×4⟩  → glossary
-  * Babylonian   ⟨dict⟩  → glossary
-    Canaanite   ⟨dict⟩  → glossary
-  * Mesopotamian   ⟨dict⟩  → cross-link
-    Latin   ⟨dict⟩  → cross-link
-    Anatolia   ⟨dict⟩  → glossary
-    Kadesh   ⟨dict,bold⟩  → glossary
-    Semitic   ⟨dict⟩  → glossary
-    Apophis   ⟨dict⟩  → glossary
-    Bronze Age   ⟨dict⟩  → glossary
-    Thutmose I   ⟨dict⟩  → event
-  * Egyptians   ⟨dict⟩  → glossary
-    Aniba   ⟨pron,bold,recur×5⟩  → event/glossary
-    C-Group   ⟨dict⟩  → glossary
-    Buhen   ⟨dict⟩  → event
-    Mirgissa   ⟨dict⟩  → glossary
-    Sesebi   ⟨bold⟩  → event/glossary
-  * Arabs   ⟨dict⟩  → glossary
-  * Ottomans   ⟨dict⟩  → cross-link
-    Arabic   ⟨dict⟩  → glossary
-    Thutmose III   ⟨dict,recur×3⟩  → event
-  * Kushite   ⟨dict⟩  → glossary
-    Twenty-fifth Dynasty   ⟨dict⟩  → glossary
-  * Theban   ⟨dict⟩  → glossary
-    Aswan   ⟨dict⟩  → glossary
-    Ramesses   ⟨recur×9⟩  → ?
-    Memphis   ⟨dict⟩  → event
-    Aswan High Dam   ⟨dict⟩  → glossary
-    Lake Nasser   ⟨dict⟩  → glossary
   ~ Egypt   ⟨dict,recur×21⟩  (advisory)
   ~ Egyptian   ⟨recur×34⟩  (advisory)
   ~ King's Son of Kush   ⟨⟩  (advisory)
@@ -720,12 +499,8 @@
   ~ Nubians   ⟨⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
   ~ Death   ⟨⟩  (advisory)
-  ~ Thutmose   ⟨⟩  (advisory)
   ~ Ahmose   ⟨⟩  (advisory)
-  ~ Nineteenth   ⟨⟩  (advisory)
-  ~ Mediterranean   ⟨dict⟩  (advisory)
   ~ Kingdom Nubia   ⟨⟩  (advisory)
-  ~ Bronze Age Mediterranean   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Great Kings   ⟨⟩  (advisory)
   ~ Syrian   ⟨recur×3⟩  (advisory)
@@ -761,21 +536,23 @@
   ~ conditions   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
-  ~ the Levant   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ pantheon   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ marriage alliances   ⟨dict-lc⟩  (advisory)
-  ~ the C-Group   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ sandstone   ⟨dict-lc⟩  (advisory)
   ~ angles   ⟨dict-lc⟩  (advisory)
   ~ crown   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ ram-headed sphinxes   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ rock-cut temples   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ stone faces   ⟨dict-lc⟩  (advisory)
   ~ overclaim   ⟨rare⟩  (advisory)
   ~ handpicked   ⟨rare⟩  (advisory)
@@ -828,48 +605,6 @@
   ~ slipping   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Viceroy of Kush   ⟨dict,recur×6⟩  → event
-    Aniba   ⟨recur×4⟩  → ?
-    C-Group   ⟨dict⟩  → glossary
-    Nubian   ⟨dict,recur×37⟩  → cross-link
-    Kerma   ⟨dict,recur×5⟩  → glossary
-    Thebes   ⟨dict,recur×5⟩  → event
-    Libyan   ⟨dict⟩  → glossary
-  * Mesopotamian   ⟨dict⟩  → cross-link
-    Sargon of Akkad   ⟨dict⟩  → cross-link
-    Sumerian   ⟨dict⟩  → glossary
-    Sargon   ⟨dict⟩  → glossary
-    Amun   ⟨dict,recur×9⟩  → glossary
-    Nubians   ⟨recur×3⟩  → ?
-    Egyptianized Nubian   ⟨recur×4⟩  → ?
-    Prince of Miam   ⟨bold,recur×3⟩  → event/glossary
-    Lower Nubia   ⟨dict,recur×4⟩  → glossary
-    Tutankhamun   ⟨dict,bold⟩  → cross-link
-    Howard Carter   ⟨dict⟩  → glossary
-    Egyptianized   ⟨recur×3⟩  → ?
-    Abu Simbel   ⟨dict⟩  → event
-    Theban   ⟨dict,recur×3⟩  → glossary
-    Nile Delta   ⟨dict⟩  → glossary
-    Mirgissa   ⟨dict⟩  → glossary
-  * Egyptologists   ⟨dict⟩  → glossary
-    Amarna Letters   ⟨dict⟩  → cross-link
-    Anatolia   ⟨dict⟩  → glossary
-    Ramesses II   ⟨dict⟩  → event
-    Karnak   ⟨dict⟩  → event
-    Memphis   ⟨dict⟩  → event
-    Jebel Barkal   ⟨dict,recur×6⟩  → cross-link
-    Soleb   ⟨dict⟩  → glossary
-  * Viceroy   ⟨dict⟩  → glossary
-    Qustul   ⟨dict⟩  → glossary
-    Harkhuf   ⟨dict⟩  → event
-    Upper Nubia   ⟨dict⟩  → glossary
-    Classic Kerma   ⟨dict⟩  → glossary
-    Red Sea   ⟨dict⟩  → glossary
-    Hyksos   ⟨dict⟩  → event
-    Kamose   ⟨dict⟩  → event
-    Thutmose III   ⟨dict⟩  → event
-  * Egyptians   ⟨dict⟩  → glossary
-    Ancient Nubia   ⟨dict⟩  → cross-link
   ~ Egyptian   ⟨recur×62⟩  (advisory)
   ~ Lower Nubian   ⟨⟩  (advisory)
   ~ Syrian   ⟨⟩  (advisory)
@@ -889,18 +624,16 @@
   ~ Amada   ⟨⟩  (advisory)
   ~ Egypt's Nubian   ⟨⟩  (advisory)
   ~ Egyptian-style   ⟨⟩  (advisory)
-  ~ Tutankhamun's Viceroy   ⟨⟩  (advisory)
   ~ Africa   ⟨⟩  (advisory)
   ~ Middle Kingdom Egypt   ⟨⟩  (advisory)
-  ~ Hyksos-controlled Egypt   ⟨⟩  (advisory)
   ~ Theban Egypt   ⟨⟩  (advisory)
   ~ Ahmose   ⟨⟩  (advisory)
-  ~ Thutmose   ⟨⟩  (advisory)
   ~ Egyptianized Nubians   ⟨⟩  (advisory)
   ~ heavier than the feather   ⟨def⟩  (advisory)
   ~ The priesthood of Amun   ⟨def⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ moon god   ⟨dict-lc⟩  (advisory)
   ~ hieroglyphic   ⟨dict-lc⟩  (advisory)
   ~ linen   ⟨dict-lc⟩  (advisory)
@@ -917,21 +650,21 @@
   ~ journey   ⟨dict-lc⟩  (advisory)
   ~ underworld   ⟨dict-lc⟩  (advisory)
   ~ the Nile   ⟨dict-lc⟩  (advisory)
-  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
   ~ drought   ⟨dict-lc⟩  (advisory)
-  ~ delta   ⟨dict-lc⟩  (advisory)
   ~ new kingdom   ⟨dict-lc⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
   ~ predynastic Egypt   ⟨dict-lc⟩  (advisory)
   ~ early dynastic   ⟨dict-lc⟩  (advisory)
-  ~ the C-Group   ⟨dict-lc⟩  (advisory)
   ~ donkey caravans   ⟨dict-lc⟩  (advisory)
   ~ floodplain   ⟨dict-lc⟩  (advisory)
   ~ capital.   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ pantheon   ⟨dict-lc⟩  (advisory)
   ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ uraeus   ⟨dict-lc,rare⟩  (advisory)
   ~ divine kingship   ⟨dict-lc⟩  (advisory)
   ~ magnificent   ⟨dict-lc⟩  (advisory)

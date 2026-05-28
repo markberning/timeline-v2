@@ -414,3 +414,17 @@ The one structural weakness is Chapter 5 (The Golden Age), which tries to cover 
 | | CHECK | 18 |
 | | SOFT | 5 |
 | | **Total** | **29** |
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-coverage sweep only** — no narrative prose changed; added
+born-verified glossary links (Eurasia, Turkic peoples, Iranian languages,
+Mesopotamia, Levant, Anatolia, Central Asia, Crusades, Greek/Kurdish language)
+plus **two new forward cross-links**: "Mongol victory at Mohi" → mongol-empire
+ch4 and "Persian force" → persian-empire ch1. Backward consideration for those
+two: both target civs already carry steppe-nomad framing in their own narratives
+(the Mongols as the Scythians' tactical heirs; Cyrus's death against the
+Massagetae), so no reciprocal cross-link edit is required — the connection is
+already legible from each side. Reason for no backward edits: the existing target
+narratives already contextualize the steppe relationship; adding back-links would
+be redundant, not corrective. Deterministic cross-link gate: 32/32 PASS.

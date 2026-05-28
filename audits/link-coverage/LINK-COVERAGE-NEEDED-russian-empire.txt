@@ -4,17 +4,6 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Russian Empire   ⟨dict,recur×3⟩  → cross-link
-  * United States   ⟨dict⟩  → cross-link
-    Poland   ⟨dict⟩  → glossary
-    London   ⟨dict⟩  → glossary
-  * Middle Ages   ⟨dict⟩  → glossary
-    Parliament   ⟨dict,dict-lc⟩  → glossary
-    Ottoman Empire   ⟨dict⟩  → cross-link
-    Byzantium   ⟨dict⟩  → cross-link
-    Anastasia   ⟨dict⟩  → glossary
-    Napoleon   ⟨dict⟩  → event
-    Sweden   ⟨dict⟩  → glossary
   ~ Start   ⟨⟩  (advisory)
   ~ Alaska   ⟨⟩  (advisory)
   ~ Pacific   ⟨dict⟩  (advisory)
@@ -24,7 +13,6 @@
   ~ European   ⟨⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
-  ~ England   ⟨⟩  (advisory)
   ~ Estates   ⟨⟩  (advisory)
   ~ France   ⟨⟩  (advisory)
   ~ Russia   ⟨dict⟩  (advisory)
@@ -43,17 +31,22 @@
   ~ Grand Duchy of Moscow   ⟨⟩  (advisory)
   ~ Tatar   ⟨⟩  (advisory)
   ~ Muscovite   ⟨⟩  (advisory)
+  ~ planet.   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
+  ~ from St Petersburg   ⟨dict-lc⟩  (advisory)
   ~ blasphemy.   ⟨dict-lc⟩  (advisory)
   ~ prince   ⟨dict-lc⟩  (advisory)
   ~ capital.   ⟨dict-lc⟩  (advisory)
   ~ crown   ⟨dict-lc⟩  (advisory)
   ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ counts   ⟨dict-lc⟩  (advisory)
   ~ censuses   ⟨dict-lc,rare⟩  (advisory)
   ~ novels   ⟨dict-lc⟩  (advisory)
   ~ glorious revolution   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ in Moscow   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ kholopy   ⟨dict-lc,rare⟩  (advisory)
   ~ slaves   ⟨dict-lc⟩  (advisory)
@@ -93,24 +86,10 @@
   ~ watches   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-    Moscow   ⟨dict,recur×6⟩  → event
-    Natalya Naryshkina   ⟨pron⟩  → event/glossary
-    Miloslavskys   ⟨pron,bold⟩  → event/glossary
-    Naryshkins   ⟨bold,recur×3⟩  → event/glossary
-    Muscovy   ⟨dict⟩  → glossary
-    Poland   ⟨dict⟩  → glossary
-  * Ukrainian   ⟨dict⟩  → glossary
-    Crimea   ⟨dict⟩  → glossary
-    Ottoman   ⟨dict⟩  → cross-link
-    Dutch   ⟨dict⟩  → glossary
-  * Ottomans   ⟨dict⟩  → cross-link
-    Peter I   ⟨bold⟩  → event/glossary
   ~ Pyotr   ⟨⟩  (advisory)
   ~ Mikhailovich   ⟨⟩  (advisory)
   ~ Russian   ⟨recur×8⟩  (advisory)
-  ~ Miloslavsky   ⟨⟩  (advisory)
   ~ Red Staircase of the   ⟨⟩  (advisory)
-  ~ Naryshkin   ⟨⟩  (advisory)
   ~ Kremlin Armory   ⟨⟩  (advisory)
   ~ Russia   ⟨dict,recur×6⟩  (advisory)
   ~ Muscovite   ⟨⟩  (advisory)
@@ -119,7 +98,6 @@
   ~ European-style   ⟨⟩  (advisory)
   ~ Guards   ⟨⟩  (advisory)
   ~ Nemetskaya Sloboda   ⟨⟩  (advisory)
-  ~ Moscow's Dutch   ⟨⟩  (advisory)
   ~ Scottish   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Swiss   ⟨⟩  (advisory)
@@ -131,14 +109,13 @@
   ~ capital's   ⟨dict-lc⟩  (advisory)
   ~ the streltsy.   ⟨dict-lc⟩  (advisory)
   ~ council   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ citadel   ⟨dict-lc⟩  (advisory)
   ~ new capital   ⟨dict-lc⟩  (advisory)
-  ~ markets   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ trust   ⟨dict-lc⟩  (advisory)
-  ~ the Ottomans   ⟨dict-lc⟩  (advisory)
   ~ flattens   ⟨rare⟩  (advisory)
   ~ sickly   ⟨rare⟩  (advisory)
   ~ childless   ⟨rare⟩  (advisory)
@@ -176,23 +153,6 @@
   ~ prefigures   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Ottoman Turks   ⟨dict⟩  → cross-link
-    Peter   ⟨recur×17⟩  → ?
-    Moscow   ⟨dict,recur×5⟩  → event
-    Finland   ⟨dict⟩  → glossary
-    Estonia   ⟨dict⟩  → glossary
-  * Denmark   ⟨dict⟩  → glossary
-    Swedish   ⟨recur×4⟩  → ?
-  * Russians'   ⟨dict⟩  → cross-link
-    Kremlin   ⟨dict⟩  → glossary
-    Russian Empire   ⟨dict,bold,recur×3⟩  → cross-link
-    Napoleon   ⟨dict⟩  → event
-    Hitler   ⟨dict⟩  → glossary
-  * Norwegian   ⟨dict⟩  → glossary
-    Moldova   ⟨dict⟩  → glossary
-  * Azov   ⟨dict⟩  → glossary
-  * Turks   ⟨dict⟩  → glossary
-    Senate   ⟨dict⟩  → glossary
   ~ Russian   ⟨recur×10⟩  (advisory)
   ~ Western Europe   ⟨⟩  (advisory)
   ~ Russia   ⟨dict,recur×12⟩  (advisory)
@@ -222,17 +182,18 @@
   ~ the Dutch   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ terror.   ⟨dict-lc⟩  (advisory)
+  ~ in Moscow   ⟨dict-lc⟩  (advisory)
   ~ boyars   ⟨dict-lc,rare⟩  (advisory)
-  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ maritime trade   ⟨dict-lc⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ conscripts   ⟨dict-lc⟩  (advisory)
   ~ bronze   ⟨dict-lc⟩  (advisory)
   ~ delta   ⟨dict-lc⟩  (advisory)
-  ~ the Kremlin   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ forced labor   ⟨dict-lc⟩  (advisory)
-  ~ the Senate   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
+  ~ the Turks   ⟨dict-lc⟩  (advisory)
   ~ incognito   ⟨rare⟩  (advisory)
   ~ fooled   ⟨rare⟩  (advisory)
   ~ carpenter   ⟨rare⟩  (advisory)
@@ -274,16 +235,6 @@
   ~ unarguably   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Peter the Great   ⟨dict⟩  → cross-link
-    Peter   ⟨recur×14⟩  → ?
-    Sweden   ⟨dict⟩  → glossary
-    Okhrana   ⟨dict⟩  → event
-    Grand Embassy   ⟨dict⟩  → event
-  * Hungarian   ⟨dict⟩  → glossary
-    Russian Orthodox Church   ⟨dict⟩  → event
-  * Jews   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict⟩  → glossary
-    Neva   ⟨dict⟩  → glossary
   ~ Russia   ⟨dict,recur×7⟩  (advisory)
   ~ European-style   ⟨⟩  (advisory)
   ~ Muscovite   ⟨⟩  (advisory)
@@ -293,7 +244,6 @@
   ~ Admiralty   ⟨⟩  (advisory)
   ~ Foreign Affairs   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
-  ~ Orthodox   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
   ~ Westernized   ⟨rare⟩  (advisory)
@@ -305,7 +255,6 @@
   ~ Revolution   ⟨⟩  (advisory)
   ~ Swiss   ⟨⟩  (advisory)
   ~ Lomonosov   ⟨⟩  (advisory)
-  ~ Petrine   ⟨⟩  (advisory)
   ~ He was   ⟨def⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ the seed of   ⟨dict-lc⟩  (advisory)
@@ -315,10 +264,12 @@
   ~ serfdom   ⟨dict-lc,rare⟩  (advisory)
   ~ boyars   ⟨dict-lc,rare⟩  (advisory)
   ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ led by   ⟨dict-lc⟩  (advisory)
   ~ abolished it   ⟨dict-lc⟩  (advisory)
   ~ printing   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
   ~ gubernii   ⟨rare⟩  (advisory)
@@ -358,27 +309,12 @@
   ~ redemptive   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Peter the Great   ⟨dict,recur×5⟩  → cross-link
-    Catherine the Great   ⟨dict⟩  → event
-    Semyonovsky   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict⟩  → glossary
-  * Baltic   ⟨dict⟩  → glossary
-    Great Northern War   ⟨dict⟩  → event
-    Siberia   ⟨dict⟩  → glossary
-    Petrine   ⟨recur×3⟩  → ?
-  * Romanovs   ⟨dict⟩  → glossary
-    Duma   ⟨dict⟩  → glossary
-    Academy   ⟨dict⟩  → event
-    Frederick II   ⟨dict⟩  → cross-link
   ~ European   ⟨recur×3⟩  (advisory)
   ~ Alexei   ⟨⟩  (advisory)
   ~ Germans   ⟨⟩  (advisory)
-  ~ Duchess of the Baltic   ⟨⟩  (advisory)
   ~ Russia   ⟨dict,recur×5⟩  (advisory)
   ~ German   ⟨recur×5⟩  (advisory)
-  ~ Baltic German   ⟨⟩  (advisory)
   ~ Arctic   ⟨⟩  (advisory)
-  ~ German-dominated Academy of Sciences   ⟨⟩  (advisory)
   ~ Italian   ⟨⟩  (advisory)
   ~ Smolny Convent   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
@@ -390,12 +326,13 @@
   ~ Russian Orthodoxy   ⟨⟩  (advisory)
   ~ vacuum   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ the Guards   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ field marshal   ⟨dict-lc⟩  (advisory)
   ~ prince   ⟨dict-lc⟩  (advisory)
   ~ party   ⟨dict-lc⟩  (advisory)
-  ~ the Baltic   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
   ~ terror   ⟨dict-lc⟩  (advisory)
   ~ crown   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
@@ -439,24 +376,12 @@
   ~ fronted   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-    Peter III   ⟨dict,recur×3⟩  → event
-    Orthodoxy   ⟨dict⟩  → glossary
-    Guards   ⟨recur×4⟩  → ?
-    Romanov   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict⟩  → glossary
-    Winter Palace   ⟨dict⟩  → event
-    Instruction   ⟨dict⟩  → event
-  * Ottomans   ⟨dict⟩  → cross-link
-    Cossack   ⟨dict⟩  → glossary
-    Peter the Great   ⟨dict⟩  → cross-link
   ~ German   ⟨⟩  (advisory)
   ~ King of Prussia   ⟨⟩  (advisory)
   ~ Russian   ⟨recur×7⟩  (advisory)
   ~ Russia   ⟨dict,recur×5⟩  (advisory)
-  ~ Peter   ⟨⟩  (advisory)
   ~ Frederick of Prussia   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
-  ~ Academy of Sciences   ⟨⟩  (advisory)
   ~ KAHZ   ⟨⟩  (advisory)
   ~ Milanese   ⟨⟩  (advisory)
   ~ Guards-and-gentry   ⟨⟩  (advisory)
@@ -464,21 +389,20 @@
   ~ Frederick   ⟨⟩  (advisory)
   ~ Chapters   ⟨⟩  (advisory)
   ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ philosophes   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Guards regiments   ⟨dict-lc⟩  (advisory)
   ~ abdication.   ⟨dict-lc⟩  (advisory)
   ~ magnificent   ⟨dict-lc⟩  (advisory)
   ~ parliament.   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
-  ~ academy   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ a serf   ⟨dict-lc⟩  (advisory)
   ~ provincial administration   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ state peasants   ⟨dict-lc⟩  (advisory)
   ~ the nobility   ⟨dict-lc⟩  (advisory)
-  ~ the Ottomans   ⟨dict-lc⟩  (advisory)
   ~ sincerely   ⟨rare⟩  (advisory)
   ~ filthy   ⟨rare⟩  (advisory)
   ~ unhappy   ⟨rare⟩  (advisory)
@@ -515,17 +439,6 @@
   ~ privacy   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Catherine   ⟨recur×4⟩  → ?
-    Legislative Commission   ⟨dict⟩  → event
-  * United States   ⟨dict⟩  → cross-link
-    Peter III   ⟨dict,bold⟩  → event
-  * Romanovs   ⟨dict⟩  → glossary
-    Tatars   ⟨dict⟩  → glossary
-  * Ottomans   ⟨dict⟩  → cross-link
-    Enlightenment   ⟨dict,recur×3⟩  → cross-link
-    Ukraine   ⟨dict⟩  → glossary
-    Voltaire   ⟨dict⟩  → glossary
-  * Russians   ⟨dict⟩  → cross-link
   ~ Russian   ⟨recur×10⟩  (advisory)
   ~ Catherine's Legislative Commission   ⟨⟩  (advisory)
   ~ Catherine's Russia   ⟨⟩  (advisory)
@@ -536,18 +449,17 @@
   ~ Zaporozhian   ⟨⟩  (advisory)
   ~ CHOFF   ⟨⟩  (advisory)
   ~ Dmitry   ⟨⟩  (advisory)
-  ~ Peters   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Turkish   ⟨⟩  (advisory)
-  ~ Catherine the philosopher-empress   ⟨⟩  (advisory)
   ~ Towns the same   ⟨⟩  (advisory)
-  ~ Petrine   ⟨⟩  (advisory)
   ~ Siberian   ⟨⟩  (advisory)
   ~ over for army recruitment   ⟨def⟩  (advisory)
   ~ concrete   ⟨dict-lc⟩  (advisory)
   ~ hides   ⟨dict-lc⟩  (advisory)
   ~ a serf   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ plantations   ⟨dict-lc⟩  (advisory)
   ~ capital.   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
@@ -557,10 +469,8 @@
   ~ factory   ⟨dict-lc⟩  (advisory)
   ~ soul tax   ⟨dict-lc⟩  (advisory)
   ~ a vast   ⟨dict-lc⟩  (advisory)
-  ~ the Ottomans   ⟨dict-lc⟩  (advisory)
   ~ terror   ⟨dict-lc⟩  (advisory)
   ~ crown   ⟨dict-lc⟩  (advisory)
-  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
   ~ autocracy.   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ printing   ⟨dict-lc⟩  (advisory)
@@ -593,7 +503,6 @@
   ~ soberly   ⟨rare⟩  (advisory)
   ~ melodrama   ⟨rare⟩  (advisory)
   ~ intelligentsia   ⟨rare⟩  (advisory)
-  ~ correspondent   ⟨rare⟩  (advisory)
   ~ annotated   ⟨rare⟩  (advisory)
   ~ commuted   ⟨rare⟩  (advisory)
   ~ publisher   ⟨rare⟩  (advisory)
@@ -602,27 +511,6 @@
   ~ journals   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Hermitage   ⟨dict⟩  → event
-    Catherine   ⟨recur×7⟩  → ?
-    Black Sea   ⟨dict,recur×5⟩  → glossary
-    Balkans   ⟨dict⟩  → cross-link
-  * Middle East   ⟨dict⟩  → glossary
-  * Baltic   ⟨dict⟩  → glossary
-    Crimean War   ⟨dict⟩  → cross-link
-  * Turks   ⟨dict⟩  → glossary
-  * Mongol   ⟨dict⟩  → cross-link
-    St Petersburg   ⟨dict⟩  → glossary
-  * Ukrainian   ⟨dict⟩  → glossary
-    Lithuania   ⟨dict⟩  → glossary
-    Belarus   ⟨dict⟩  → glossary
-    Ukraine   ⟨dict⟩  → glossary
-    Tadeusz Kościuszko   ⟨dict,pron,bold⟩  → glossary
-  * American Revolution   ⟨dict⟩  → cross-link
-    West Point   ⟨dict⟩  → glossary
-    Russian Empire   ⟨dict⟩  → cross-link
-    Siberia   ⟨dict⟩  → glossary
-  * United States   ⟨dict⟩  → cross-link
-    Voltaire   ⟨dict⟩  → glossary
   ~ Peter   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Turkish-ruled Muslim   ⟨⟩  (advisory)
@@ -654,10 +542,7 @@
   ~ German-born   ⟨⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ wars against the   ⟨dict-lc⟩  (advisory)
-  ~ the Black Sea   ⟨dict-lc⟩  (advisory)
-  ~ the Baltic   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
-  ~ the Crimean War   ⟨dict-lc⟩  (advisory)
   ~ slaves   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ the cross-references   ⟨dict-lc⟩  (advisory)
@@ -666,9 +551,13 @@
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ parliament   ⟨dict-lc⟩  (advisory)
   ~ the nobility   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ grandeur   ⟨rare⟩  (advisory)
   ~ rearrange   ⟨rare⟩  (advisory)
   ~ uneasily   ⟨rare⟩  (advisory)
@@ -701,21 +590,6 @@
   ~ destroys   ⟨rare⟩  (advisory)
 
 ## Chapter 9
-    Catherine the Great   ⟨dict⟩  → event
-    Catherine   ⟨recur×3⟩  → ?
-    Peter III   ⟨dict⟩  → event
-    Romanov   ⟨dict⟩  → glossary
-    Peter the Great   ⟨dict⟩  → cross-link
-    Nicholas II   ⟨dict⟩  → event
-    Cossack   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict⟩  → glossary
-    Enlightenment   ⟨dict⟩  → cross-link
-    Napoleon Bonaparte   ⟨dict⟩  → event
-    Austria   ⟨dict⟩  → glossary
-  * Lutheran   ⟨dict⟩  → glossary
-    Poland   ⟨dict⟩  → glossary
-    Moldova   ⟨dict⟩  → glossary
-    Persia   ⟨dict⟩  → cross-link
   ~ PAWL   ⟨⟩  (advisory)
   ~ German   ⟨⟩  (advisory)
   ~ Guards-made   ⟨⟩  (advisory)
@@ -727,7 +601,6 @@
   ~ Russia   ⟨dict,recur×4⟩  (advisory)
   ~ Swiss   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
-  ~ Peter   ⟨⟩  (advisory)
   ~ Catherine's Legislative Commission   ⟨⟩  (advisory)
   ~ Austrians   ⟨⟩  (advisory)
   ~ Napoleon the master of Europe   ⟨⟩  (advisory)
@@ -736,8 +609,12 @@
   ~ crown   ⟨dict-lc⟩  (advisory)
   ~ forced labor   ⟨dict-lc⟩  (advisory)
   ~ the nobility   ⟨dict-lc⟩  (advisory)
+  ~ a Cossack   ⟨dict-lc⟩  (advisory)
   ~ it was abandoned   ⟨dict-lc⟩  (advisory)
+  ~ the Guards   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
   ~ killed him   ⟨dict-lc⟩  (advisory)
+  ~ beat Napoleon.   ⟨dict-lc⟩  (advisory)
   ~ first emperor   ⟨dict-lc⟩  (advisory)
   ~ came to the throne   ⟨dict-lc⟩  (advisory)
   ~ rule of law   ⟨dict-lc⟩  (advisory)
@@ -748,6 +625,7 @@
   ~ autocracy.   ⟨dict-lc⟩  (advisory)
   ~ talent   ⟨dict-lc⟩  (advisory)
   ~ party   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ sidelined   ⟨rare⟩  (advisory)
   ~ embittered   ⟨rare⟩  (advisory)
   ~ lunatic   ⟨rare⟩  (advisory)
@@ -772,7 +650,6 @@
   ~ unintending   ⟨rare⟩  (advisory)
   ~ accomplice   ⟨rare⟩  (advisory)
   ~ despaired   ⟨rare⟩  (advisory)
-  ~ ideals   ⟨rare⟩  (advisory)
   ~ fashionably   ⟨rare⟩  (advisory)
   ~ guessing   ⟨rare⟩  (advisory)
   ~ instructing   ⟨rare⟩  (advisory)
@@ -793,13 +670,6 @@
   ~ freest   ⟨rare⟩  (advisory)
 
 ## Chapter 10
-    Russian Empire   ⟨dict⟩  → cross-link
-    Alexander   ⟨dict,recur×4⟩  → glossary
-    Poltava   ⟨dict⟩  → event
-  * Russians   ⟨dict⟩  → cross-link
-    Cossacks   ⟨dict⟩  → glossary
-    Charles XII   ⟨dict⟩  → glossary
-    Austria   ⟨dict⟩  → glossary
   ~ Niemen   ⟨⟩  (advisory)
   ~ Europe   ⟨recur×6⟩  (advisory)
   ~ France   ⟨⟩  (advisory)
@@ -808,7 +678,6 @@
   ~ Russian   ⟨recur×11⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Scottish   ⟨⟩  (advisory)
-  ~ Charles XII of Sweden   ⟨⟩  (advisory)
   ~ Suvorov   ⟨⟩  (advisory)
   ~ French   ⟨recur×4⟩  (advisory)
   ~ General Winter   ⟨⟩  (advisory)
@@ -823,6 +692,9 @@
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ the First World War   ⟨dict-lc⟩  (advisory)
+  ~ beat Napoleon   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ marched to Paris   ⟨dict-lc⟩  (advisory)
   ~ serfdom   ⟨dict-lc,rare⟩  (advisory)
   ~ thirds   ⟨rare⟩  (advisory)
   ~ recrossed   ⟨rare⟩  (advisory)
@@ -849,19 +721,6 @@
   ~ arbiter   ⟨rare⟩  (advisory)
 
 ## Chapter 11
-    Napoleon   ⟨dict⟩  → event
-    Alexander   ⟨dict,recur×5⟩  → glossary
-    Kingdom of Poland   ⟨bold⟩  → event/glossary
-  * Polish   ⟨dict⟩  → glossary
-    Austria   ⟨dict⟩  → glossary
-    Prussia   ⟨dict⟩  → glossary
-    Nicholas   ⟨bold,recur×5⟩  → event/glossary
-    Pugachev   ⟨dict⟩  → glossary
-    Peter III   ⟨dict⟩  → event
-    Paris   ⟨dict⟩  → glossary
-    Piedmont   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict⟩  → glossary
-  ~ Russia   ⟨dict,recur×11⟩  (advisory)
   ~ Russian   ⟨recur×9⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ European   ⟨recur×5⟩  (advisory)
@@ -886,6 +745,7 @@
   ~ crown.   ⟨dict-lc⟩  (advisory)
   ~ parliament   ⟨dict-lc⟩  (advisory)
   ~ great powers   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
   ~ his brother   ⟨dict-lc⟩  (advisory)
   ~ standing army   ⟨dict-lc⟩  (advisory)
@@ -941,21 +801,7 @@
   ~ martyrdom   ⟨rare⟩  (advisory)
 
 ## Chapter 12
-    Orthodoxy   ⟨dict⟩  → glossary
-    Autocracy   ⟨dict,dict-lc⟩  → glossary
-    Crimean War   ⟨dict⟩  → cross-link
-    Soviet   ⟨dict⟩  → cross-link
-    Congress Poland   ⟨dict⟩  → event
-    Polish   ⟨dict,recur×4⟩  → glossary
-    Poland   ⟨dict⟩  → glossary
-    Enlightenment   ⟨dict⟩  → cross-link
-    Decembrist   ⟨dict⟩  → glossary
-  * Russians   ⟨dict⟩  → cross-link
-    Caucasus   ⟨dict⟩  → glossary
-    Peter the Great   ⟨dict⟩  → cross-link
   ~ Paul   ⟨⟩  (advisory)
-  ~ Decembrists   ⟨⟩  (advisory)
-  ~ Senate Square   ⟨⟩  (advisory)
   ~ Russian   ⟨recur×15⟩  (advisory)
   ~ Pravoslavie   ⟨⟩  (advisory)
   ~ Samoderzhavie   ⟨⟩  (advisory)
@@ -964,7 +810,6 @@
   ~ Western   ⟨⟩  (advisory)
   ~ West   ⟨⟩  (advisory)
   ~ Europe   ⟨recur×4⟩  (advisory)
-  ~ Peter   ⟨⟩  (advisory)
   ~ Speransky   ⟨⟩  (advisory)
   ~ France   ⟨⟩  (advisory)
   ~ Belgium   ⟨⟩  (advisory)
@@ -981,24 +826,19 @@
   ~ Siberian   ⟨⟩  (advisory)
   ~ first emperor   ⟨dict-lc⟩  (advisory)
   ~ grapeshot   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Decembrists   ⟨dict-lc⟩  (advisory)
   ~ thirty years   ⟨dict-lc⟩  (advisory)
   ~ came to the throne   ⟨dict-lc⟩  (advisory)
-  ~ trust   ⟨dict-lc⟩  (advisory)
   ~ it was the first   ⟨dict-lc⟩  (advisory)
   ~ the doctrine of   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
-  ~ the Crimean War   ⟨dict-lc⟩  (advisory)
   ~ terror   ⟨dict-lc⟩  (advisory)
   ~ abolished the   ⟨dict-lc⟩  (advisory)
   ~ his brother   ⟨dict-lc⟩  (advisory)
   ~ novels   ⟨dict-lc⟩  (advisory)
   ~ parliament   ⟨dict-lc⟩  (advisory)
   ~ the guillotine   ⟨dict-lc⟩  (advisory)
-  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
   ~ coinage   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
-  ~ the Caucasus   ⟨dict-lc⟩  (advisory)
   ~ satire   ⟨dict-lc⟩  (advisory)
   ~ counts   ⟨dict-lc⟩  (advisory)
   ~ commune   ⟨dict-lc⟩  (advisory)
@@ -1036,17 +876,6 @@
   ~ frighten   ⟨rare⟩  (advisory)
 
 ## Chapter 13
-    Official Nationality   ⟨dict⟩  → event
-  * Christians   ⟨dict⟩  → glossary
-    Ottoman Empire   ⟨dict,recur×4⟩  → cross-link
-    Treaty of Kuchuk-Kainarji   ⟨dict⟩  → event
-    Austria   ⟨dict⟩  → glossary
-  * Turks   ⟨dict⟩  → glossary
-    Ottoman   ⟨dict⟩  → cross-link
-  * Ottomans   ⟨dict⟩  → cross-link
-    Crimea   ⟨dict⟩  → glossary
-    Napoleon   ⟨dict⟩  → event
-    St Petersburg   ⟨dict⟩  → glossary
   ~ Emancipation   ⟨⟩  (advisory)
   ~ Great Reforms   ⟨⟩  (advisory)
   ~ Russia the truth   ⟨⟩  (advisory)
@@ -1061,14 +890,12 @@
   ~ British   ⟨recur×4⟩  (advisory)
   ~ French   ⟨recur×4⟩  (advisory)
   ~ Belgium   ⟨⟩  (advisory)
-  ~ Nationality   ⟨⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
   ~ gendarme of Europe   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ the Great Reforms   ⟨dict-lc⟩  (advisory)
-  ~ the Ottoman Empire   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
-  ~ the Ottomans   ⟨dict-lc⟩  (advisory)
   ~ the Crimean Peninsula   ⟨dict-lc⟩  (advisory)
   ~ annexed   ⟨dict-lc⟩  (advisory)
   ~ magnificent   ⟨dict-lc⟩  (advisory)
@@ -1102,17 +929,6 @@
   ~ courageous   ⟨rare⟩  (advisory)
 
 ## Chapter 14
-    Russian Empire   ⟨dict⟩  → cross-link
-    Crimean War   ⟨dict⟩  → cross-link
-    Moscow   ⟨dict⟩  → event
-    Pugachev   ⟨dict⟩  → glossary
-    Parliament   ⟨dict,dict-lc⟩  → glossary
-  * United States   ⟨dict⟩  → cross-link
-  * Americans   ⟨dict⟩  → glossary
-  * Russians   ⟨dict⟩  → cross-link
-    Caribbean   ⟨dict⟩  → glossary
-  * Western-style   ⟨dict⟩  → glossary
-    Crimea   ⟨dict⟩  → glossary
   ~ Nicholas   ⟨⟩  (advisory)
   ~ Catherine   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
@@ -1120,7 +936,6 @@
   ~ Europe   ⟨⟩  (advisory)
   ~ North   ⟨⟩  (advisory)
   ~ Witte   ⟨⟩  (advisory)
-  ~ Pugachev-era   ⟨⟩  (advisory)
   ~ Russian   ⟨⟩  (advisory)
   ~ Nakaz   ⟨⟩  (advisory)
   ~ Speransky   ⟨⟩  (advisory)
@@ -1132,15 +947,14 @@
   ~ paper   ⟨dict-lc⟩  (advisory)
   ~ state peasants   ⟨dict-lc⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
-  ~ slavery   ⟨dict-lc⟩  (advisory)
   ~ the slave   ⟨dict-lc⟩  (advisory)
   ~ civil war   ⟨dict-lc⟩  (advisory)
   ~ railways   ⟨dict-lc⟩  (advisory)
-  ~ slaves   ⟨dict-lc⟩  (advisory)
   ~ the nobility.   ⟨dict-lc⟩  (advisory)
   ~ charter   ⟨dict-lc⟩  (advisory)
   ~ they were the   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ judges   ⟨dict-lc⟩  (advisory)
   ~ the Third Section   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
@@ -1173,16 +987,6 @@
   ~ cheated   ⟨rare⟩  (advisory)
 
 ## Chapter 15
-  * Russians   ⟨dict⟩  → cross-link
-    Westernizers   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Nicholas I   ⟨dict⟩  → event
-    London   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict,recur×3⟩  → glossary
-    Demons   ⟨dict⟩  → event
-    Caucasus   ⟨dict⟩  → glossary
-    nihil   ⟨gloss⟩  → glossary
-    narod   ⟨gloss⟩  → glossary
   ~ Decembrists   ⟨⟩  (advisory)
   ~ Russia   ⟨dict,recur×6⟩  (advisory)
   ~ Emancipation   ⟨⟩  (advisory)
@@ -1198,25 +1002,26 @@
   ~ Armenian-born   ⟨⟩  (advisory)
   ~ Turkish   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
-  ~ Nicholas   ⟨⟩  (advisory)
   ~ the Decembrists   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ the Tsar Liberator   ⟨dict-lc⟩  (advisory)
+  ~ trade.   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ bible   ⟨dict-lc⟩  (advisory)
   ~ novels   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ the Slavophiles   ⟨dict-lc⟩  (advisory)
   ~ commune   ⟨dict-lc,bold⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ terror   ⟨dict-lc⟩  (advisory)
   ~ central committee   ⟨dict-lc⟩  (advisory)
   ~ thirteen years.   ⟨dict-lc⟩  (advisory)
+  ~ the Winter Palace   ⟨dict-lc⟩  (advisory)
   ~ the terror   ⟨dict-lc⟩  (advisory)
   ~ emergency   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
-  ~ the Caucasus   ⟨dict-lc⟩  (advisory)
   ~ killed him.   ⟨dict-lc⟩  (advisory)
   ~ representative   ⟨dict-lc⟩  (advisory)
   ~ assassins   ⟨dict-lc⟩  (advisory)
@@ -1277,13 +1082,6 @@
   ~ outpouring   ⟨rare⟩  (advisory)
 
 ## Chapter 16
-    Russian Empire   ⟨dict⟩  → cross-link
-    Sevastopol   ⟨dict⟩  → glossary
-    Napoleonic Wars   ⟨dict⟩  → event
-    Napoleon   ⟨dict⟩  → event
-    St Petersburg   ⟨dict⟩  → glossary
-    Pale of Settlement   ⟨dict⟩  → event
-    Potemkin   ⟨dict⟩  → glossary
   ~ Russia   ⟨dict,recur×6⟩  (advisory)
   ~ Russian   ⟨recur×8⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
@@ -1383,31 +1181,11 @@
   ~ redeem   ⟨rare⟩  (advisory)
 
 ## Chapter 17
-    St Petersburg   ⟨dict⟩  → glossary
-    Russian Empire   ⟨dict⟩  → cross-link
-    Moscow   ⟨dict⟩  → event
-    Kiev   ⟨dict⟩  → event
-    Vladimir   ⟨dict⟩  → cross-link
-    Novgorod   ⟨dict⟩  → event
-    Habsburg   ⟨dict⟩  → cross-link
-    Caspian   ⟨dict⟩  → event
-    Avar   ⟨dict⟩  → glossary
-    Central Asia   ⟨dict,recur×3⟩  → glossary
-  * Afghan   ⟨dict⟩  → glossary
-    Manchuria   ⟨dict⟩  → glossary
-    Port Arthur   ⟨dict⟩  → event
-  * Baltic   ⟨dict⟩  → glossary
-    Georgians   ⟨dict⟩  → glossary
-    Alexander II   ⟨dict⟩  → event
-  * Polish   ⟨dict⟩  → glossary
-    Orthodoxy   ⟨dict⟩  → glossary
-    Jews   ⟨dict,recur×4⟩  → glossary
-    Poland   ⟨dict⟩  → glossary
+  * British Empire   ⟨dict⟩  → glossary
   ~ Emperor   ⟨⟩  (advisory)
   ~ Autocrat of All the Russias   ⟨⟩  (advisory)
   ~ Tsar of Kazan   ⟨⟩  (advisory)
   ~ Tsar of Astrakhan   ⟨⟩  (advisory)
-  ~ Tsar of Poland   ⟨⟩  (advisory)
   ~ Belarusians   ⟨⟩  (advisory)
   ~ Black   ⟨⟩  (advisory)
   ~ MEEL   ⟨⟩  (advisory)
@@ -1416,7 +1194,6 @@
   ~ East   ⟨⟩  (advisory)
   ~ British India   ⟨dict⟩  (advisory)
   ~ Russia   ⟨dict,recur×5⟩  (advisory)
-  ~ British Empire   ⟨⟩  (advisory)
   ~ British   ⟨⟩  (advisory)
   ~ Britain   ⟨dict⟩  (advisory)
   ~ Indian   ⟨⟩  (advisory)
@@ -1430,7 +1207,6 @@
   ~ Los Angeles   ⟨⟩  (advisory)
   ~ Emancipation   ⟨⟩  (advisory)
   ~ Japan   ⟨dict⟩  (advisory)
-  ~ Asia   ⟨⟩  (advisory)
   ~ Poles   ⟨⟩  (advisory)
   ~ Finns   ⟨⟩  (advisory)
   ~ Armenians   ⟨⟩  (advisory)
@@ -1443,11 +1219,15 @@
   ~ American Jewish   ⟨⟩  (advisory)
   ~ Russias   ⟨⟩  (advisory)
   ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ genocide.   ⟨dict-lc⟩  (advisory)
   ~ annexed   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ the port of   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ the secretary of state   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ journey   ⟨dict-lc⟩  (advisory)
   ~ the seed of   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
@@ -1455,7 +1235,6 @@
   ~ a serf   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ concrete   ⟨dict-lc⟩  (advisory)
-  ~ assassination of Alexander II   ⟨dict-lc⟩  (advisory)
   ~ tolerated   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ Russian America   ⟨bold⟩  (advisory)
@@ -1494,22 +1273,6 @@
   ~ unfreedom   ⟨rare⟩  (advisory)
 
 ## Chapter 18
-    Alexander II   ⟨dict⟩  → event
-    Orthodoxy   ⟨dict⟩  → glossary
-  * Jews   ⟨dict⟩  → glossary
-    Soviet   ⟨dict⟩  → cross-link
-  * United States   ⟨dict⟩  → cross-link
-    Industrial Revolution   ⟨dict,dict-lc,recur×3⟩  → cross-link
-    Crimean War   ⟨dict⟩  → cross-link
-    Trans-Siberian Railway   ⟨dict,bold⟩  → event
-    Caucasus   ⟨dict⟩  → glossary
-    St Petersburg   ⟨dict⟩  → glossary
-    Moscow   ⟨dict⟩  → event
-  * Ukrainian   ⟨dict⟩  → glossary
-    Pugachev   ⟨dict⟩  → glossary
-    Volga   ⟨dict⟩  → event
-    Narodism   ⟨dict,bold⟩  → event
-    London   ⟨dict⟩  → glossary
   ~ Tsar Liberator   ⟨⟩  (advisory)
   ~ Nicholas   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
@@ -1519,7 +1282,6 @@
   ~ Loris-Melikov   ⟨⟩  (advisory)
   ~ Pale   ⟨⟩  (advisory)
   ~ Britain   ⟨dict⟩  (advisory)
-  ~ Germany   ⟨dict,recur×3⟩  (advisory)
   ~ British-anchored   ⟨⟩  (advisory)
   ~ France   ⟨⟩  (advisory)
   ~ Belgium   ⟨⟩  (advisory)
@@ -1531,7 +1293,6 @@
   ~ Russian Marxist   ⟨⟩  (advisory)
   ~ RSDLP   ⟨⟩  (advisory)
   ~ Marxist   ⟨⟩  (advisory)
-  ~ Brussels   ⟨⟩  (advisory)
   ~ Marxists   ⟨⟩  (advisory)
   ~ Narodnik   ⟨⟩  (advisory)
   ~ thirteen years   ⟨dict-lc⟩  (advisory)
@@ -1547,15 +1308,12 @@
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
-  ~ the Trans-Siberian Railway   ⟨dict-lc⟩  (advisory)
-  ~ railways   ⟨dict-lc⟩  (advisory)
   ~ iron and steel   ⟨dict-lc⟩  (advisory)
-  ~ the Caucasus   ⟨dict-lc⟩  (advisory)
   ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ collapse   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ the intelligentsia   ⟨dict-lc⟩  (advisory)
-  ~ the Volga   ⟨dict-lc⟩  (advisory)
   ~ his brother's   ⟨dict-lc⟩  (advisory)
   ~ commune.   ⟨dict-lc⟩  (advisory)
   ~ radicals   ⟨dict-lc⟩  (advisory)
@@ -1583,7 +1341,6 @@
   ~ undoing   ⟨rare⟩  (advisory)
   ~ tuition   ⟨rare⟩  (advisory)
   ~ throttled   ⟨rare⟩  (advisory)
-  ~ disabilities   ⟨rare⟩  (advisory)
   ~ unpunished   ⟨rare⟩  (advisory)
   ~ lineal   ⟨rare⟩  (advisory)
   ~ penetrating   ⟨rare⟩  (advisory)
@@ -1615,22 +1372,6 @@
   ~ unequipped   ⟨rare⟩  (advisory)
 
 ## Chapter 19
-    Alexander III   ⟨dict,recur×3⟩  → event
-    Moscow   ⟨dict⟩  → event
-    Meiji   ⟨dict⟩  → cross-link
-    Crimean War   ⟨dict⟩  → cross-link
-    Pearl Harbor   ⟨dict⟩  → glossary
-    Napoleon   ⟨dict⟩  → event
-  * United States   ⟨dict⟩  → cross-link
-    Nobel Peace Prize   ⟨dict⟩  → event
-  * Ottomans   ⟨dict⟩  → cross-link
-    Persians   ⟨dict⟩  → cross-link
-    Winter Palace   ⟨dict⟩  → event
-    Official Nationality   ⟨dict⟩  → event
-    Romania   ⟨dict⟩  → glossary
-    Pugachev   ⟨dict⟩  → glossary
-    Alexander II   ⟨dict⟩  → event
-    Okhrana   ⟨dict⟩  → event
   ~ Orthodox   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
   ~ Witte   ⟨⟩  (advisory)
@@ -1650,7 +1391,6 @@
   ~ Chinese   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
   ~ Sire   ⟨⟩  (advisory)
-  ~ Pugachev-and-   ⟨⟩  (advisory)
   ~ Chapters   ⟨⟩  (advisory)
   ~ Peter   ⟨⟩  (advisory)
   ~ St Petersburg the striking   ⟨⟩  (advisory)
@@ -1664,7 +1404,6 @@
   ~ the famine   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
-  ~ the Crimean War's   ⟨dict-lc⟩  (advisory)
   ~ gendarme of Europe   ⟨dict-lc⟩  (advisory)
   ~ feudal   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
@@ -1681,6 +1420,7 @@
   ~ citizen.   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
   ~ magnificent   ⟨dict-lc⟩  (advisory)
   ~ stupidity   ⟨rare⟩  (advisory)
   ~ dutiful   ⟨rare⟩  (advisory)
@@ -1735,17 +1475,6 @@
   ~ grandeur   ⟨rare⟩  (advisory)
 
 ## Chapter 20
-    St Petersburg   ⟨dict⟩  → glossary
-    Crimean War   ⟨dict⟩  → cross-link
-  * Allied   ⟨dict⟩  → glossary
-    Nicholas II   ⟨dict⟩  → event
-    Winter Palace   ⟨dict⟩  → event
-    Bloody Sunday   ⟨dict⟩  → event
-    Russian Empire   ⟨dict⟩  → cross-link
-    Duma   ⟨dict⟩  → glossary
-    Romanov   ⟨dict⟩  → glossary
-    Siberia   ⟨dict⟩  → glossary
-    Okhrana   ⟨dict⟩  → event
   ~ Decembrists   ⟨⟩  (advisory)
   ~ France   ⟨⟩  (advisory)
   ~ Britain   ⟨dict⟩  (advisory)
@@ -1764,7 +1493,6 @@
   ~ Brussels   ⟨⟩  (advisory)
   ~ the Decembrists   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
-  ~ the Crimean War   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ total war   ⟨dict-lc⟩  (advisory)
   ~ trust   ⟨dict-lc⟩  (advisory)

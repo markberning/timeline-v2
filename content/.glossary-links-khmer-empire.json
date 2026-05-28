@@ -119,6 +119,30 @@
       "matchText": "Sailendra",
       "wikiSlug": "Shailendra_dynasty",
       "type": "dynasty"
+    },
+    {
+      "term": "Tibetan Plateau",
+      "matchText": "Tibetan plateau",
+      "wikiSlug": "Tibetan_Plateau",
+      "type": "glossary"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "glossary"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -286,6 +310,12 @@
       "matchText": "primogeniture",
       "wikiSlug": "Primogeniture",
       "type": "concept"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -342,6 +372,12 @@
       "matchText": "Dangrek",
       "wikiSlug": "Dângrêk_Mountains",
       "type": "place"
+    },
+    {
+      "term": "Thai people",
+      "matchText": "Thai",
+      "wikiSlug": "Thai_people",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -428,6 +464,12 @@
       "matchText": "Angkor Wat",
       "wikiSlug": "Angkor_Wat",
       "type": "place"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -478,6 +520,12 @@
       "matchText": "Yasodharapura",
       "wikiSlug": "Yasodharapura",
       "type": "place"
+    },
+    {
+      "term": "Javanese people",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -564,6 +612,12 @@
       "matchText": "Jayavarman VII",
       "wikiSlug": "Jayavarman_VII",
       "type": "people"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -688,6 +742,18 @@
       "matchText": "Ang Chan",
       "wikiSlug": "Ang_Chan_I",
       "type": "person"
+    },
+    {
+      "term": "Thai people",
+      "matchText": "Thai",
+      "wikiSlug": "Thai_people",
+      "type": "glossary"
+    },
+    {
+      "term": "Vietnamese language",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Vietnamese_language",
+      "type": "glossary"
     }
   ],
   "10": [
@@ -769,6 +835,18 @@
       "matchText": "Preah Vihear",
       "wikiSlug": "Preah_Vihear_Temple",
       "type": "place"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "glossary"
+    },
+    {
+      "term": "History of Baghdad",
+      "matchText": "Abbasid Baghdad",
+      "wikiSlug": "History_of_Baghdad",
+      "type": "glossary"
     }
   ]
 }

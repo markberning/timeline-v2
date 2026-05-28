@@ -142,7 +142,7 @@
     },
     "Abraham_Lincoln": {
       "title": "Abraham Lincoln",
-      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederate States a",
+      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and play",
       "image": "Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg"
     },
     "First_transcontinental_telegraph": {
@@ -386,9 +386,9 @@
       "image": "The_Drunkard's_Progress_-_Color.jpg"
     },
     "Maine_law": {
-      "title": "Maine law",
-      "lead": "The Maine Law (or \"Maine Liquor Law\"), passed on June 2, 1851 in Maine, was the first statutory implementation of the developing temperance movement in the United States.",
-      "image": "NSDow2.jpg"
+      "title": "Maine",
+      "lead": "Maine ( MAYN) is a state in the New England region of the United States, and the northeasternmost state in the contiguous United States. It borders New Hampshire to the west, the Gulf of Maine to the southeast, and the Canadian provinces of",
+      "image": "Flag_of_the_State_of_Maine.svg"
     },
     "Dorothea_Dix": {
       "title": "Dorothea Dix",
@@ -452,7 +452,7 @@
     },
     "Underground_Railroad": {
       "title": "Underground Railroad",
-      "lead": "The Underground Railroad was an organized network of secret routes under ground and safe houses for fugitive slaves to escape to the abolitionist Northern United States and Eastern Canada during the era of slavery in the United States. Slav",
+      "lead": "The Underground Railroad was an organized network of secret routes underground and safe houses for fugitive slaves to escape to the abolitionist Northern United States and Eastern Canada during the era of slavery in the United States. Slave",
       "image": "Undergroundrailroadsmall2.jpg"
     },
     "Gag_rule": {
@@ -472,7 +472,7 @@
     },
     "Texas_Revolution": {
       "title": "Texas Revolution",
-      "lead": "The Texas Revolution (October 2, 1835 – April 21, 1836) was a rebellion in the Mexican state of Coahuila y Tejas in which Anglo-American settlers (Texians) and Hispanic Texans (Tejanos) opposed the Mexican government. It formed part of the ",
+      "lead": "The Texas Revolution (October 2, 1835 – April 21, 1836) was a rebellion by Anglo-American immigrants as well as Hispanic Texans (known as Texians and Tejanos respectively) against the centralist government of Mexico in the Mexican state of ",
       "image": "Campaigns_of_the_Texas_Revolution.jpg"
     },
     "Battle_of_the_Alamo": {
@@ -722,7 +722,7 @@
     },
     "Ulysses_S._Grant": {
       "title": "Ulysses S. Grant",
-      "lead": "Ulysses S. Grant (born Hiram Ulysses Grant; April 27, 1822 – July 23, 1885) was the 18th president of the United States, serving from 1869 to 1877. He previously led the Union Army to victory in the American Civil War in 1865 as commanding ",
+      "lead": "Ulysses S. Grant (born Hiram Ulysses Grant; April 27, 1822 – July 23, 1885) was the 18th president of the United States, serving from 1869 to 1877, and General-in-Chief of the Union Army, leading them to victory in the American Civil War in",
       "image": "Ulysses_S._Grant_1870-1880_(cropped).jpg"
     },
     "Robert_E._Lee": {
@@ -884,7 +884,7 @@
     },
     "Abraham_Lincoln": {
       "title": "Abraham Lincoln",
-      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederate States a",
+      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and play",
       "image": "Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg"
     },
     "Kentucky_and_Virginia_Resolutions": {
@@ -1109,7 +1109,7 @@
     },
     "Atlantic_slave_trade": {
       "title": "Atlantic slave trade",
-      "lead": "The Atlantic slave trade or transatlantic slave trade involved the transportation by slave traders of enslaved African people to the Americas. European slave ships regularly used the triangular trade route and its Middle Passage. Europeans ",
+      "lead": "The Atlantic slave trade or transatlantic slave trade involved the transportation by slave traders of enslaved African people to the Americas. This trade was operated by slave ships from both Europe and the New World. Some of these voyages ",
       "image": "Slave_Auction_Ad.jpg"
     },
     "United_States_Electoral_College": {
@@ -1184,7 +1184,7 @@
     },
     "Jim_Crow_laws": {
       "title": "Jim Crow laws",
-      "lead": "The Jim Crow laws were state and local laws introduced in the Southern United States in the late 19th and early-to-mid-20th centuries that enforced racial segregation. The origin of the term Jim Crow is obscure, but probably refers to a min",
+      "lead": "The Jim Crow laws were state and local laws introduced in the Southern United States from the late 19th century to the mid-20th century that enforced racial segregation. The origin of the term Jim Crow is obscure, but probably refers to a m",
       "image": ""
     },
     "Reconstruction_era": {
@@ -1196,6 +1196,16 @@
       "title": "Missouri",
       "lead": "Missouri (see pronunciation) is a landlocked state in the Midwestern region of the United States. Ranking 21st in land area, it borders Iowa to the north, Illinois, Kentucky and Tennessee to the east, Arkansas to the south and Oklahoma, Kan",
       "image": "Flag_of_Missouri.svg"
+    },
+    "Americans": {
+      "title": "Americans",
+      "lead": "Americans are the citizens and nationals of the United States. U.S. federal law does not equate nationality with race or ethnicity, but rather with citizenship. The U.S. has 37 ancestry groups with more than one million individuals. White A",
+      "image": "Map_of_the_American_Diaspora_in_the_World.svg"
+    },
+    "Southern_United_States": {
+      "title": "Southern United States",
+      "lead": "The Southern United States (sometimes Dixie, also referred to as the Southern States, the American South, the Southland, Dixieland, or simply the South) is one of the four census regions of the United States as defined by the U.S. Census Bu",
+      "image": "Andrew_Jackson_monument,_New_Orleans,_USA.jpg"
     },
     "Tennessee": {
       "title": "Tennessee",
@@ -1215,7 +1225,7 @@
     "Veto": {
       "title": "Veto",
       "lead": "A veto is a legal power to unilaterally stop an official action. In the most typical case, a president or monarch vetoes a bill to stop it from becoming law. In many countries, veto powers are established in the country's constitution. Veto",
-      "image": "President_Ronald_Reagan_signing_veto_of_defense_authorization_bill.jpg"
+      "image": "President_Ronald_Reagan_Signing_Veto_of_Defense_Authorization_Bill_with_George_Bush_Ken_Duberstein_Colin_Powell_in_The_Oval_Office_-_DPLA_-_9b8dbe0254eefd3899fe180c33c09b4d.jpg"
     },
     "Nicholas_Biddle_(banker)": {
       "title": "Nicholas Biddle",
@@ -1234,7 +1244,7 @@
     },
     "Philadelphia": {
       "title": "Philadelphia",
-      "lead": "Philadelphia ( FIL-ə-DEL-fee-ə), colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania, and the sixth-most populous city in the United States, with a Census-estimated population of 1,574,281 in July",
+      "lead": "Philadelphia ( FIL-ə-DEL-fee-ə), colloquially referred to as Philly, is the most populous city in the U.S. state of Pennsylvania and the sixth-most populous city in the United States. Its population was 1.60 million at the 2020 census and e",
       "image": "Philadelphia_skyline_20240528_(cropped_2-1).jpg"
     },
     "Central_bank": {
@@ -1419,7 +1429,7 @@
     },
     "Oklahoma": {
       "title": "Oklahoma",
-      "lead": "Oklahoma ( OH-klə-HOH-mə; Choctaw: Oklahumma, pronounced [oklahómma]) is a landlocked state in the South Central and Southwestern regions of the United States. It borders Texas to the southwest, Kansas to the north, Missouri to the northeas",
+      "lead": "Oklahoma ( OH-klə-HOH-mə; Choctaw: Oklahumma, pronounced [oklahómma]),is a landlocked state in the South Central, and Southwestern regions of the United States. It borders Texas to the southwest, Kansas to the north, Missouri to the northea",
       "image": "Flag_of_Oklahoma.svg"
     },
     "John_Marshall": {
@@ -1565,12 +1575,22 @@
     "Buffalo,_New_York": {
       "title": "Buffalo, New York",
       "lead": "Buffalo is a city in the U.S. state of New York. It lies in Western New York on the eastern shore of Lake Erie and at the head of the Niagara River on the Canada–United States border. It is the second-most populous city in New York, with a ",
-      "image": "KeyBank_Center_side_view_from_Main_Street_at_Prime_Street,_Buffalo,_New_York_-_20210725.jpg"
+      "image": "Buffalo,_NY_skyline.jpg"
     },
     "Liverpool": {
       "title": "Liverpool",
       "lead": "Liverpool is a port city and metropolitan borough in Merseyside, England. It is situated on the eastern side of the Mersey Estuary, near the Irish Sea, 178 miles (286 km) north-west of London. It had a population of 508,961 in 2024 and is t",
       "image": "Pier_Head,_Liverpool_-_geograph.org.uk_-_3059094.jpg"
+    },
+    "Catholic_Church": {
+      "title": "Catholic Church",
+      "lead": "The Catholic Church (Latin: Ecclesia Catholica), commonly called the Roman Catholic Church, is the largest Christian church, with an estimated 1.28 to 1.41 billion baptized members worldwide as of 2026. It consists of 24 autonomous (sui iur",
+      "image": "Saint_Peter's_Basilica_facade,_Rome,_Italy.jpg"
+    },
+    "Anti-Catholicism": {
+      "title": "Anti-Catholicism",
+      "lead": "Anti-Catholicism is prejudice or discrimination against Catholics, including opposition to the Catholic Church, its clergy, the authority of the pope, and its adherents. Four categories of anti-Catholicism exist: political, involving concer",
+      "image": "The_American_River_Ganges_(Thomas_Nast_cartoon).jpg"
     },
     "Atlantic_World": {
       "title": "Atlantic World",
@@ -1652,6 +1672,11 @@
       "lead": "Louisiana (French: Louisiane; Spanish: Luisiana [lwiˈsjana]; Louisiana Creole: Lwizyàn) is a state in the Deep South and South Central regions of the United States. It is bordered by Texas to the west, Arkansas to the north, and Mississippi",
       "image": "Flag_of_Louisiana.svg"
     },
+    "Bengalis": {
+      "title": "Bengalis",
+      "lead": "Bengalis (Bengali: বাঙ্গালী, বাঙালি [baŋgali, baŋali] ), also rendered as endonym Bangalee, are an Indo-Aryan ethnolinguistic group originating from and culturally affiliated with the Bengal region of South Asia. The current population is d",
+      "image": "Boishakhi_celebrations.png"
+    },
     "Burned-over_district": {
       "title": "Burned-over district",
       "lead": "The \"burned-over district\" comprises Western and parts of Central New York State. In the early 19th century, religious revivals and the formation of new religious movements of the Second Great Awakening took place to such a great extent tha",
@@ -1664,7 +1689,7 @@
     },
     "Calvinism": {
       "title": "Reformed Christianity",
-      "lead": "Reformed Christianity, also called Calvinism, is a major branch of Protestantism that began during the 16th-century Protestant Reformation. In the modern day, it is largely represented by the Continental Reformed, Presbyterian, and Congrega",
+      "lead": "Reformed Christianity, also called Calvinism, is a major branch of Protestantism that began during the 16th-century Reformation. In the modern day, it is largely represented by the Continental Reformed, Presbyterian, and Congregational trad",
       "image": "ReformationsdenkmalGenf1.jpg"
     },
     "Puritans": {
@@ -1767,6 +1792,11 @@
       "lead": "Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence fro",
       "image": "Mahatma-Gandhi,_studio,_1931.jpg"
     },
+    "British_Empire": {
+      "title": "British Empire",
+      "lead": "The British Empire comprised the dominions, colonies, protectorates, mandates, and other territories ruled or administered by the United Kingdom and its predecessor states. It began with the overseas possessions and trading posts establishe",
+      "image": "Flag_of_Great_Britain_(1707–1800).svg"
+    },
     "Reform_movement": {
       "title": "Reformism (historical)",
       "lead": "Reformism is a type of social movement that aims to bring a social or also a political system closer to the community's ideal. A reform movement is distinguished from more radical social movements such as revolutionary movements which rejec",
@@ -1854,7 +1884,7 @@
     },
     "Abolitionism_in_the_United_States": {
       "title": "Abolitionism in the United States",
-      "lead": "In the United States, abolitionism, the movement that sought to end slavery in the country, was active from the colonial era until the American Civil War, the end of which brought about the abolition of American slavery, except as punishmen",
+      "lead": "In the United States, abolitionism, the movement that sought to end Chattel slavery in the country, was active from the colonial era until the American Civil War, the end of which brought about the abolition of American Chattel Slavery, exc",
       "image": "Remember_Your_Weekly_Pledge_Massachusetts_Anti-Slavey_Society_collection_box.jpg"
     },
     "Slave_trade_in_the_United_States": {
@@ -1924,7 +1954,7 @@
     },
     "Slave_auction": {
       "title": "Slave market",
-      "lead": "A slave market is a place where slaves are bought and sold. These markets are a key phenomenon in the history of slavery.",
+      "lead": "A slave market was a place where slaves were bought and sold. These markets were a key phenomenon in the history of slavery.",
       "image": "The_Slave_Market_(Le_Marché_d'esclaves)_Met_DP890399.jpg"
     },
     "Boston": {
@@ -1969,7 +1999,7 @@
     },
     "Back-to-Africa_movement": {
       "title": "Back-to-Africa movement",
-      "lead": "The back-to-Africa movement was a political movement in the 19th and 20th centuries advocating for a return of the descendants of African American slaves to most regions of the African continent. The small number of former slaves who settle",
+      "lead": "The back-to-Africa movement was a political movement in the 19th and 20th centuries advocating for a return of the descendants of African American enslaved people to most regions of the African continent. The small number of formerly enslav",
       "image": "(1896)_Departure_of_colored_emigrants_for_Liberia_-_The_Illustrated_American,_March_21,_1896.jpg"
     },
     "Liberia": {
@@ -1996,6 +2026,11 @@
       "title": "Slave Power",
       "lead": "The Slave Power, or Slavocracy, referred to the perceived political power held by American slaveholders in the federal government of the United States during the Antebellum period. Antislavery campaigners charged that this small group of we",
       "image": ""
+    },
+    "Moses": {
+      "title": "Moses",
+      "lead": "In Abrahamic religions, Moses was the Hebrew prophet who led the Israelites out of slavery in the Exodus from Egypt. He is considered the most important prophet in Judaism and Samaritanism, and one of the most important prophets in Christia",
+      "image": "Rembrandt_Harmensz._van_Rijn_079.jpg"
     },
     "John_L._O%27Sullivan": {
       "title": "John L. O'Sullivan",
@@ -2064,7 +2099,7 @@
     },
     "Pacific_Northwest": {
       "title": "Pacific Northwest",
-      "lead": "The Pacific Northwest (PNW; French: Nord-Ouest Pacifique), also referred to as Cascadia, is a geographic region in Western North America bounded by its coastal waters of the Pacific Ocean to the west and, loosely, by the Rocky Mountains to ",
+      "lead": "The Pacific Northwest (PNW; French: Nord-Ouest Pacifique), also referred to as Cascadia, is a bi-national geographic and cultural region in Western North America defined by its coastal waters of the Pacific Ocean to the west and, loosely, b",
       "image": "Space_Needle002.jpg"
     },
     "United_Kingdom": {
@@ -2081,6 +2116,11 @@
       "title": "British Columbia",
       "lead": "British Columbia is the westernmost province of Canada. Situated in the Pacific Northwest between the Pacific Ocean and the Rocky Mountains, the province has a diverse geography, with rugged landscapes that include rocky coastlines, sandy b",
       "image": "Flag_of_British_Columbia.svg"
+    },
+    "Northern_United_States": {
+      "title": "Northern United States",
+      "lead": "The Northern United States, commonly referred to as the American North, the Northern States, or simply the North, is a geographical and historical region of the United States. The North and South were separated by states who approved of own",
+      "image": "Northern_States_in_general.png"
     },
     "California": {
       "title": "California",
@@ -2189,7 +2229,7 @@
     },
     "Harriet_Beecher_Stowe": {
       "title": "Harriet Beecher Stowe",
-      "lead": "Harriet Elisabeth Beecher Stowe (; June 14, 1811 – July 1, 1896) was an American author and abolitionist. She came from the religious Beecher family and wrote the popular novel Uncle Tom's Cabin (1852), which depicts the harsh conditions ex",
+      "lead": "Harriet Elisabeth Beecher Stowe (; June 14, 1811 – July 1, 1896) was an American author and abolitionist. She came from the religious Beecher family and wrote a popular novel called Uncle Tom's Cabin (1852), which depicts the harsh conditio",
       "image": "Beecher-Stowe.jpg"
     },
     "Charles_Dickens": {
@@ -2274,7 +2314,7 @@
     },
     "Dred_Scott": {
       "title": "Dred Scott",
-      "lead": "Dred Scott (c. 1799 – September 17, 1858) was an enslaved African-American man who, along with his wife, Harriet, unsuccessfully sued for the freedom of themselves and their two daughters, Eliza and Lizzie, in the Dred Scott v. Sandford cas",
+      "lead": "Dred Scott (c. 1799 – September 17, 1858) was an enslaved African-American man who, along with his wife, Harriet Robinson Scott, unsuccessfully sued for the freedom of themselves and their two daughters, Eliza and Lizzie, in the Dred Scott ",
       "image": "Dred_Scott_photograph_(circa_1857).jpg"
     },
     "Wisconsin_Territory": {
@@ -2309,7 +2349,7 @@
     },
     "United_States_Marine_Corps": {
       "title": "United States Marine Corps",
-      "lead": "The United States Marine Corps (USMC), also referred to as the United States Marines or simply the Marines, is the naval infantry service branch of the United States Armed Forces. It is responsible for conducting expeditionary and amphibiou",
+      "lead": "The United States Marine Corps (USMC), also referred to as the United States Marines or simply the Marines, is the naval infantry service branch of the United States Armed Forces. The service is responsible for conducting expeditionary and ",
       "image": "Emblem_of_the_United_States_Marine_Corps.svg"
     },
     "Direct_election": {
@@ -2419,7 +2459,7 @@
     },
     "Total_war": {
       "title": "Total war",
-      "lead": "Total war is a type of warfare that mobilizes the totality of national resources to sustain the war effort (particularly through war production), blurring the line between military and civilian segments of a society, and legitimating attack",
+      "lead": "Total war is a type of warfare that where a society's entire economy, population, and infrastructure are considered part of the war effort. It mobilizes the totality of national resources to sustain the war effort (particularly through war ",
       "image": "Cyprian_War.jpg"
     },
     "Attrition_warfare": {
@@ -2434,12 +2474,12 @@
     },
     "Atlanta": {
       "title": "Atlanta",
-      "lead": "Atlanta is the capital and most populous city of the U.S. state of Georgia. It is the county seat of Fulton County and extends into neighboring DeKalb County. With a population of 498,715 at the 2020 census and an estimated 520,070 in 2024,",
+      "lead": "Atlanta is the capital and most populous city of the U.S. state of Georgia. It is the county seat of Fulton County and extends into neighboring DeKalb County. With a population of 498,715 at the 2020 census and an estimated 529,110 in 2025,",
       "image": "A2ATL20250614-0721_(cropped).jpg"
     },
     "Savannah,_Georgia": {
       "title": "Savannah, Georgia",
-      "lead": "Savannah ( sə-VAN-ə) is a city in, and county seat of, Chatham County, Georgia, United States. Established in 1733 on the Savannah River, it is the oldest city in the state, and was the capital of the colonial Province of Georgia and later ",
+      "lead": "Savannah (, sə-VAN-ə) is a city in, and county seat of, Chatham County, Georgia, United States. Established in 1733 on the Savannah River, it is the oldest city in the state, and was the capital of the colonial Province of Georgia and later",
       "image": "Savannah.tif"
     },
     "George_B._McClellan": {

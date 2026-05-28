@@ -13,6 +13,7 @@
       "blurb": "The Enlightenment is the Scientific Revolution's heir: take the method that cracked the heavens and turn it on God, government, and society itself."
     }
   ],
+  "2": [],
   "3": [
     {
       "matchText": "Song China had built the first true mass-print culture seven centuries earlier",
@@ -39,6 +40,14 @@
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "The philosophes idealized Confucian China as a society governed by merit and reason rather than priests and birth — a useful mirror, half-understood, for European self-criticism."
+    }
+  ],
+  "5": [
+    {
+      "matchText": "Scientific Revolution",
+      "targetTl": "scientific-revolution",
+      "targetChapter": 17,
+      "blurb": "Voltaire's great popular cause was Newtonianism — he and Émilie du Châtelet brought the new physics to a French public that had been clinging to Cartesian vortices."
     }
   ],
   "6": [
@@ -117,6 +126,7 @@
       "blurb": "Joseph II made the choice Catherine refused. The Russian Empire narrative shows the same decision point from inside the Russian court: Catherine weighing precisely the options Joseph would take, and choosing the press of Paris over the freeing of a serf. Read alongside this chapter, it gives the inside view of why the two enlightened absolutists, facing the same question, diverged so completely."
     }
   ],
+  "13": [],
   "15": [
     {
       "matchText": "every authority since antiquity had said was impossible",
@@ -133,14 +143,6 @@
       "blurb": "The same global war that bankrupted the French monarchy and triggered 1789 was, on the other side of the world, the war in which Britain lost thirteen American colonies and consolidated its Indian empire through the East India Company. The rights-of-man decade was also the decade of the largest European imperial acquisition; the two halves of the contradiction Chapter 18 detonates were running at once."
     }
   ],
-  "5": [
-    {
-      "matchText": "Scientific Revolution",
-      "targetTl": "scientific-revolution",
-      "targetChapter": 17,
-      "blurb": "Voltaire's great popular cause was Newtonianism — he and Émilie du Châtelet brought the new physics to a French public that had been clinging to Cartesian vortices."
-    }
-  ],
   "17": [
     {
       "matchText": "Scientific Revolution",
@@ -148,5 +150,7 @@
       "targetChapter": 20,
       "blurb": "The Jacobin attempt to rebuild society on pure reason — the revolutionary calendar, the Cult of the Supreme Being — is the Scientific Revolution's rationalism pushed to, and past, its breaking point."
     }
-  ]
+  ],
+  "18": [],
+  "19": []
 }

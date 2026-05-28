@@ -4,29 +4,11 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Bronze Age   ⟨dict,recur×5⟩  → glossary
-  * Lebanese   ⟨dict⟩  → glossary
-    Phoenicia   ⟨dict,recur×3⟩  → cross-link
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Euphrates   ⟨dict⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Greeks   ⟨dict,recur×5⟩  → glossary
-    Akkadian   ⟨dict⟩  → glossary
-  * Semitic-speaking   ⟨dict⟩  → glossary
-    Palestine   ⟨dict⟩  → glossary
-  * Egyptians   ⟨dict⟩  → glossary
-    Assyrians   ⟨dict⟩  → cross-link
-    Amorite   ⟨dict⟩  → glossary
-    Carthage   ⟨dict⟩  → cross-link
-    Cyprus   ⟨dict⟩  → glossary
-    Mot   ⟨def,bold⟩  → glossary
-    Yam   ⟨def,bold⟩  → glossary
   ~ Syria   ⟨dict,recur×3⟩  (advisory)
   ~ Israel   ⟨dict⟩  (advisory)
   ~ Rhode Island   ⟨⟩  (advisory)
   ~ Cedrus   ⟨⟩  (advisory)
   ~ Syrian Desert   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict⟩  (advisory)
   ~ Tyrian   ⟨⟩  (advisory)
   ~ Sidonian   ⟨⟩  (advisory)
   ~ Byblian   ⟨⟩  (advisory)
@@ -41,7 +23,6 @@
   ~ Archaeological   ⟨⟩  (advisory)
   ~ Romans   ⟨⟩  (advisory)
   ~ North Africa   ⟨dict⟩  (advisory)
-  ~ Egyptian   ⟨recur×11⟩  (advisory)
   ~ Bible   ⟨dict⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
   ~ Just   ⟨⟩  (advisory)
@@ -50,13 +31,14 @@
   ~ NAHT   ⟨⟩  (advisory)
   ~ for thousands of years   ⟨def⟩  (advisory)
   ~ of Western civilization is   ⟨def⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ political fragmentation   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
   ~ thousand years.   ⟨dict-lc⟩  (advisory)
   ~ trade goods   ⟨dict-lc⟩  (advisory)
+  ~ phoinikes   ⟨dict-lc,bold,rare⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
-  ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ histories.   ⟨dict-lc⟩  (advisory)
   ~ tribute   ⟨dict-lc⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
@@ -65,7 +47,6 @@
   ~ hieroglyphics   ⟨dict-lc,rare⟩  (advisory)
   ~ storm god   ⟨dict-lc⟩  (advisory)
   ~ underworld   ⟨dict-lc⟩  (advisory)
-  ~ phoinikes   ⟨bold,rare⟩  (advisory)
   ~ sliver   ⟨rare⟩  (advisory)
   ~ headlands   ⟨rare⟩  (advisory)
   ~ anchorages   ⟨rare⟩  (advisory)
@@ -87,44 +68,23 @@
   ~ unbaked   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-  * Anatolian   ⟨dict⟩  → glossary
-    Homer   ⟨dict⟩  → event
-    Ugarit   ⟨dict,recur×3⟩  → cross-link
-  * Mesopotamian   ⟨dict⟩  → cross-link
-  * Afghan   ⟨dict⟩  → glossary
-    Thebes   ⟨dict⟩  → event
-    Nineveh   ⟨dict⟩  → cross-link
-    Sidon   ⟨dict⟩  → glossary
-    Phoenicia   ⟨dict⟩  → cross-link
-    Assyria   ⟨dict⟩  → cross-link
-    Babylon   ⟨dict⟩  → glossary
-    Nile Valley   ⟨dict⟩  → cross-link
-    Levant   ⟨dict⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Mycenaean Greeks   ⟨dict⟩  → glossary
-    Sardinia   ⟨dict⟩  → glossary
-    Atlantic Ocean   ⟨dict⟩  → event
-    Byblos   ⟨dict⟩  → event
-    Tunisia   ⟨dict⟩  → glossary
+  * Cypriot   ⟨dict⟩  → glossary
   ~ Mediterranean   ⟨dict,recur×18⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
   ~ Mycenaean Civilization Ch   ⟨⟩  (advisory)
   ~ Asian   ⟨⟩  (advisory)
   ~ Egyptian   ⟨recur×3⟩  (advisory)
-  ~ Cypriot   ⟨⟩  (advisory)
   ~ Syria   ⟨dict⟩  (advisory)
   ~ Sicily   ⟨dict⟩  (advisory)
   ~ North Africa   ⟨dict⟩  (advisory)
   ~ Spain   ⟨recur×5⟩  (advisory)
   ~ Cádiz   ⟨⟩  (advisory)
   ~ Egyptian-dominated Bronze Age   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict⟩  (advisory)
   ~ Jewish   ⟨⟩  (advisory)
   ~ Tyrian   ⟨⟩  (advisory)
   ~ Phoenician Alexander   ⟨⟩  (advisory)
   ~ North African   ⟨⟩  (advisory)
   ~ Larnaca   ⟨⟩  (advisory)
-  ~ Atlantic   ⟨dict⟩  (advisory)
   ~ Guadalquivir River   ⟨⟩  (advisory)
   ~ Vedic Period Ch   ⟨⟩  (advisory)
   ~ the same hull length   ⟨def⟩  (advisory)
@@ -133,20 +93,22 @@
   ~ dark age   ⟨dict-lc⟩  (advisory)
   ~ drought   ⟨dict-lc⟩  (advisory)
   ~ the Nile   ⟨dict-lc⟩  (advisory)
+  ~ trade routes   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ systems collapse   ⟨dict-lc⟩  (advisory)
   ~ copper   ⟨dict-lc⟩  (advisory)
   ~ alloyed   ⟨dict-lc,rare⟩  (advisory)
   ~ cedar   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ city-states   ⟨dict-lc⟩  (advisory)
   ~ vacuum   ⟨dict-lc⟩  (advisory)
   ~ great powers   ⟨dict-lc⟩  (advisory)
   ~ tributary   ⟨dict-lc⟩  (advisory)
-  ~ the Levant.   ⟨dict-lc⟩  (advisory)
   ~ tribute   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
   ~ an aggressive   ⟨dict-lc⟩  (advisory)
+  ~ maritime trade   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ silver   ⟨dict-lc⟩  (advisory)
   ~ colonization   ⟨dict-lc⟩  (advisory)
@@ -179,23 +141,6 @@
   ~ hazards   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Mesopotamia   ⟨dict⟩  → cross-link
-  * Semitic-speaking   ⟨dict⟩  → glossary
-    Semitic   ⟨dict,recur×6⟩  → glossary
-    Levant   ⟨dict⟩  → glossary
-    Tyre   ⟨dict⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Cyprus   ⟨dict⟩  → glossary
-    Indo-European   ⟨dict⟩  → glossary
-    Thebes   ⟨dict⟩  → event
-    Sidon   ⟨dict⟩  → glossary
-    Torah   ⟨dict⟩  → glossary
-    Quran   ⟨dict⟩  → glossary
-  * Southeast Asian   ⟨dict⟩  → glossary
-    Beirut   ⟨dict⟩  → glossary
-  * Greek-speaking   ⟨dict⟩  → glossary
-  * Mesopotamian   ⟨dict⟩  → cross-link
-    phoinikeia grammata   ⟨gloss⟩  → glossary
   ~ Sometime   ⟨⟩  (advisory)
   ~ Mesopotamia Ch   ⟨⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
@@ -223,7 +168,8 @@
   ~ hieroglyphs   ⟨dict-lc⟩  (advisory)
   ~ the word.   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
-  ~ the Levant   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ roots   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ the Greeks.   ⟨dict-lc⟩  (advisory)
@@ -256,8 +202,6 @@
   ~ possibilities   ⟨rare⟩  (advisory)
   ~ pharyngeal   ⟨rare⟩  (advisory)
   ~ aspirate   ⟨rare⟩  (advisory)
-  ~ phoinikeia   ⟨rare⟩  (advisory)
-  ~ grammata   ⟨rare⟩  (advisory)
   ~ pictograph   ⟨rare⟩  (advisory)
   ~ daleth   ⟨rare⟩  (advisory)
   ~ intentionally   ⟨rare⟩  (advisory)
@@ -267,39 +211,6 @@
   ~ educators   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Tyre   ⟨dict,recur×12⟩  → glossary
-    Levant   ⟨dict,recur×3⟩  → glossary
-    Aramean   ⟨dict⟩  → glossary
-    Hittites   ⟨dict⟩  → cross-link
-    Hebrew Bible   ⟨dict⟩  → glossary
-    Phoenicia   ⟨dict⟩  → cross-link
-    Israelite   ⟨dict,recur×4⟩  → glossary
-  * Arabia   ⟨dict⟩  → glossary
-    Ezion-Geber   ⟨dict,bold⟩  → event
-    Canaanite   ⟨dict⟩  → glossary
-    Carthage   ⟨dict⟩  → cross-link
-    Dumuzi   ⟨dict⟩  → glossary
-    Byblos   ⟨dict⟩  → event
-    Sidon   ⟨dict,recur×7⟩  → glossary
-    Semitic   ⟨dict⟩  → glossary
-    Kition   ⟨dict⟩  → event
-    Cyprus   ⟨dict⟩  → glossary
-    Sardinia   ⟨dict⟩  → glossary
-    Roman Senate   ⟨dict⟩  → cross-link
-    Constantinople   ⟨dict⟩  → cross-link
-    Mesopotamian   ⟨dict,recur×4⟩  → cross-link
-  * Levantine   ⟨dict⟩  → glossary
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Assyria   ⟨dict⟩  → cross-link
-    Judah   ⟨dict⟩  → cross-link
-    Baal   ⟨dict⟩  → glossary
-    Yahweh   ⟨dict⟩  → glossary
-    Book of Kings   ⟨dict⟩  → glossary
-    Ursa Major   ⟨bold⟩  → event/glossary
-  * Earth   ⟨dict⟩  → glossary
-    Greeks   ⟨dict⟩  → glossary
-    Phoenician sailors   ⟨bold⟩  → event/glossary
-  ~ Hiram's Tyre   ⟨⟩  (advisory)
   ~ Kings David   ⟨⟩  (advisory)
   ~ East Africa   ⟨⟩  (advisory)
   ~ India   ⟨⟩  (advisory)
@@ -307,14 +218,10 @@
   ~ Mediterranean   ⟨dict,recur×10⟩  (advisory)
   ~ Hercules   ⟨⟩  (advisory)
   ~ Cádiz   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict,recur×6⟩  (advisory)
-  ~ Tyre's Melqart   ⟨⟩  (advisory)
   ~ Sicily   ⟨dict⟩  (advisory)
   ~ Spain   ⟨⟩  (advisory)
-  ~ Roman   ⟨dict⟩  (advisory)
   ~ Bolinus   ⟨⟩  (advisory)
   ~ Hexaplex   ⟨⟩  (advisory)
-  ~ Sidon-Tyre   ⟨⟩  (advisory)
   ~ African   ⟨⟩  (advisory)
   ~ Syrian   ⟨⟩  (advisory)
   ~ Egyptian   ⟨recur×4⟩  (advisory)
@@ -322,7 +229,6 @@
   ~ Egypt   ⟨dict⟩  (advisory)
   ~ Greece   ⟨dict⟩  (advisory)
   ~ Ethbaal   ⟨⟩  (advisory)
-  ~ Tyre-Sidon   ⟨⟩  (advisory)
   ~ Little Bear   ⟨⟩  (advisory)
   ~ Little Dipper   ⟨⟩  (advisory)
   ~ Great Bear   ⟨⟩  (advisory)
@@ -332,12 +238,12 @@
   ~ king named   ⟨dict-lc⟩  (advisory)
   ~ came to the throne   ⟨dict-lc⟩  (advisory)
   ~ great powers   ⟨dict-lc⟩  (advisory)
-  ~ the Levant.   ⟨dict-lc⟩  (advisory)
   ~ vacuum   ⟨dict-lc⟩  (advisory)
   ~ cedar   ⟨dict-lc⟩  (advisory)
   ~ olive oil   ⟨dict-lc⟩  (advisory)
+  ~ trade routes   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
-  ~ patron god of Tyre   ⟨dict-lc⟩  (advisory)
   ~ pilgrims   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
@@ -355,7 +261,6 @@
   ~ seized the throne   ⟨dict-lc⟩  (advisory)
   ~ an aggressive   ⟨dict-lc⟩  (advisory)
   ~ marriage alliances   ⟨dict-lc⟩  (advisory)
-  ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ golden age   ⟨dict-lc⟩  (advisory)
   ~ encroachments   ⟨rare⟩  (advisory)
   ~ referenced   ⟨rare⟩  (advisory)
@@ -410,40 +315,7 @@
   ~ subjugation   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Cyprus   ⟨dict,recur×4⟩  → glossary
-    Morocco   ⟨dict⟩  → glossary
-    Assyrian Empire   ⟨dict⟩  → cross-link
-    Tyre   ⟨dict,recur×8⟩  → glossary
-    Sidon   ⟨dict⟩  → glossary
-    Astarte   ⟨dict,bold⟩  → glossary
-    Levant   ⟨dict,recur×4⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Utica   ⟨dict,bold⟩  → event
-    Medjerda River   ⟨dict⟩  → glossary
-    Tyrian   ⟨recur×3⟩  → ?
-    Acerbas   ⟨pron,bold⟩  → event/glossary
-    Latin   ⟨dict⟩  → cross-link
-  * Levantine   ⟨dict⟩  → glossary
-  * Assyrian   ⟨dict⟩  → cross-link
-  * Babylonian   ⟨dict⟩  → glossary
-    Dublin   ⟨dict⟩  → event
-    Panormus   ⟨pron,bold⟩  → event/glossary
-    Gadir   ⟨dict⟩  → event
-    Tartessos   ⟨dict,bold⟩  → event
-    Brittany   ⟨dict⟩  → glossary
-    Cornish   ⟨dict⟩  → glossary
-    Bronze Age   ⟨dict⟩  → glossary
-    Iron Age   ⟨dict⟩  → event
-    Herodotus   ⟨dict,bold⟩  → cross-link
-    Red Sea   ⟨dict⟩  → glossary
-    Strait of Gibraltar   ⟨dict⟩  → event
-    Cape of Good Hope   ⟨dict⟩  → glossary
-  * Moroccan   ⟨dict⟩  → glossary
-    Mount Cameroon   ⟨dict⟩  → glossary
     Gorillae   ⟨dict⟩  → glossary
-    London   ⟨dict⟩  → glossary
-    Greeks   ⟨dict⟩  → glossary
-    Kition   ⟨bold⟩  → event/glossary
   ~ Atlantic   ⟨dict,recur×6⟩  (advisory)
   ~ Spain   ⟨recur×3⟩  (advisory)
   ~ Mediterranean   ⟨dict,recur×13⟩  (advisory)
@@ -451,7 +323,6 @@
   ~ North African   ⟨recur×3⟩  (advisory)
   ~ Tunisian   ⟨⟩  (advisory)
   ~ Phoenician Qart Hadasht   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict,recur×6⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Sychaeus   ⟨⟩  (advisory)
   ~ North Africa   ⟨dict⟩  (advisory)
@@ -470,7 +341,6 @@
   ~ Gama   ⟨⟩  (advisory)
   ~ Southern Hemisphere   ⟨⟩  (advisory)
   ~ Carthaginian   ⟨⟩  (advisory)
-  ~ Cameroon   ⟨⟩  (advisory)
   ~ Gabon   ⟨⟩  (advisory)
   ~ West Africa   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
@@ -479,28 +349,26 @@
   ~ Qart Hadasht   ⟨def⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ colonies   ⟨dict-lc⟩  (advisory)
   ~ kinship   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ temple.   ⟨dict-lc⟩  (advisory)
   ~ sacred precinct   ⟨dict-lc⟩  (advisory)
-  ~ patron god of Tyre   ⟨dict-lc⟩  (advisory)
   ~ oaths   ⟨dict-lc⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
   ~ metalwork   ⟨dict-lc⟩  (advisory)
   ~ colonization.   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ copper   ⟨dict-lc⟩  (advisory)
-  ~ the Levant   ⟨dict-lc⟩  (advisory)
   ~ oxhide.   ⟨dict-lc,rare⟩  (advisory)
   ~ citadel.   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ trading hub   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ silver.   ⟨dict-lc⟩  (advisory)
-  ~ bronze   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ journey   ⟨dict-lc⟩  (advisory)
-  ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ city-states   ⟨dict-lc⟩  (advisory)
   ~ tribute   ⟨dict-lc⟩  (advisory)
   ~ captains   ⟨rare⟩  (advisory)
@@ -531,42 +399,9 @@
   ~ resembled   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-    Phoenician   ⟨dict,recur×33⟩  → cross-link
-    Tyre   ⟨dict,recur×13⟩  → glossary
-    Sidon   ⟨dict,recur×10⟩  → glossary
-    Byblos   ⟨dict⟩  → event
-    Nimrud   ⟨dict⟩  → event
-    Levantine   ⟨dict,recur×3⟩  → glossary
-    Levant   ⟨dict,recur×4⟩  → glossary
-    Phoenicians   ⟨dict,recur×8⟩  → cross-link
-    Assyria   ⟨dict⟩  → cross-link
-    Cyprus   ⟨dict⟩  → glossary
-    Bronze Age   ⟨dict⟩  → glossary
-    Babylon   ⟨dict⟩  → glossary
-    Josephus   ⟨dict⟩  → glossary
-    Alexander the Great   ⟨dict⟩  → cross-link
-  * Babylonian   ⟨dict⟩  → glossary
-    Tartessos   ⟨dict⟩  → event
-    Anatolia   ⟨dict⟩  → glossary
-    Judah   ⟨dict⟩  → cross-link
-  * Arabia   ⟨dict⟩  → glossary
-    Babylonians   ⟨dict⟩  → glossary
-  * Iranian   ⟨dict⟩  → glossary
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Central Asia   ⟨dict⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Greeks   ⟨dict,recur×3⟩  → glossary
-    Herodotus   ⟨dict⟩  → cross-link
-    Amoashtart   ⟨pron,bold⟩  → event/glossary
-    Astarte   ⟨dict⟩  → glossary
-  * MOON   ⟨dict⟩  → glossary
-    Carthage   ⟨dict⟩  → cross-link
-  * Macedonian   ⟨dict⟩  → glossary
-    Alexander   ⟨dict⟩  → event
   ~ Ashurnasirpal   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
   ~ Tyrian   ⟨⟩  (advisory)
-  ~ Babylonian-approved   ⟨⟩  (advisory)
   ~ Tarshish   ⟨⟩  (advisory)
   ~ Spain   ⟨⟩  (advisory)
   ~ Javan   ⟨⟩  (advisory)
@@ -577,9 +412,6 @@
   ~ Israel   ⟨dict⟩  (advisory)
   ~ Dedan   ⟨⟩  (advisory)
   ~ Kedar   ⟨⟩  (advisory)
-  ~ Babylonian Empire   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict,recur×4⟩  (advisory)
-  ~ Asia   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
   ~ Egyptian   ⟨recur×3⟩  (advisory)
   ~ Whoever   ⟨⟩  (advisory)
@@ -589,7 +421,7 @@
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ silver   ⟨dict-lc⟩  (advisory)
   ~ ivory   ⟨dict-lc⟩  (advisory)
-  ~ the Levant   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ vassal states   ⟨dict-lc⟩  (advisory)
   ~ talents   ⟨dict-lc⟩  (advisory)
   ~ ebony   ⟨dict-lc⟩  (advisory)
@@ -607,9 +439,7 @@
   ~ linen   ⟨dict-lc⟩  (advisory)
   ~ wrought iron   ⟨dict-lc⟩  (advisory)
   ~ provincial administration   ⟨dict-lc⟩  (advisory)
-  ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ ships from   ⟨dict-lc⟩  (advisory)
-  ~ bronze   ⟨dict-lc⟩  (advisory)
   ~ allied   ⟨dict-lc⟩  (advisory)
   ~ basalt   ⟨dict-lc⟩  (advisory)
   ~ violence.   ⟨dict-lc⟩  (advisory)
@@ -641,35 +471,9 @@
   ~ garrisoning   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Tunisia   ⟨dict⟩  → glossary
-    Carthaginian   ⟨recur×21⟩  → ?
-    Phoenicians   ⟨dict⟩  → cross-link
-    Etruscans   ⟨dict⟩  → glossary
-    Phocaea   ⟨dict⟩  → glossary
-    Sardinia   ⟨dict,recur×3⟩  → glossary
-    Etruscan   ⟨dict⟩  → glossary
-    Salamis   ⟨dict⟩  → glossary
-  * Saharan   ⟨dict⟩  → glossary
-    Phoenician   ⟨dict⟩  → cross-link
-    Cap Bon   ⟨dict⟩  → glossary
-    Medjerda River   ⟨dict⟩  → glossary
-    Roman Senate   ⟨dict⟩  → cross-link
-    Latin   ⟨dict⟩  → cross-link
-    Melqart   ⟨dict,bold⟩  → glossary
-    Temple of Melqart   ⟨dict⟩  → event
-    Tyre   ⟨dict⟩  → glossary
-    Messina   ⟨dict⟩  → glossary
-    Phoinikes   ⟨gloss⟩  → glossary
-    Cartagena   ⟨dict⟩  → glossary
-    Ebro River   ⟨dict⟩  → glossary
-    Roman Republic   ⟨dict⟩  → cross-link
-    Saguntum   ⟨dict,pron,bold⟩  → event
-    Libyan   ⟨dict⟩  → glossary
-    Publius Cornelius Scipio   ⟨dict,bold⟩  → event
   ~ Tyrian   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict,recur×10⟩  (advisory)
   ~ Italy   ⟨recur×9⟩  (advisory)
-  ~ Carthaginian-Etruscan   ⟨⟩  (advisory)
   ~ Phocaean Greeks   ⟨⟩  (advisory)
   ~ Ionian Greek   ⟨⟩  (advisory)
   ~ Carthaginians   ⟨⟩  (advisory)
@@ -679,11 +483,9 @@
   ~ North African   ⟨recur×3⟩  (advisory)
   ~ West Africa   ⟨⟩  (advisory)
   ~ Spain   ⟨recur×8⟩  (advisory)
-  ~ Roman   ⟨dict,recur×19⟩  (advisory)
   ~ Italian   ⟨recur×4⟩  (advisory)
   ~ Sicilian   ⟨⟩  (advisory)
   ~ Mediterranean-wide   ⟨⟩  (advisory)
-  ~ Romans   ⟨recur×6⟩  (advisory)
   ~ Carthaginians Poeni   ⟨⟩  (advisory)
   ~ Wars   ⟨⟩  (advisory)
   ~ Celtic   ⟨⟩  (advisory)
@@ -695,6 +497,7 @@
   ~ Carthaginian Spain   ⟨⟩  (advisory)
   ~ North Africa   ⟨dict⟩  (advisory)
   ~ city-states   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ citizen   ⟨dict-lc⟩  (advisory)
@@ -705,7 +508,6 @@
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ channel   ⟨dict-lc⟩  (advisory)
-  ~ trans-Saharan trade   ⟨dict-lc⟩  (advisory)
   ~ silver   ⟨dict-lc⟩  (advisory)
   ~ hides   ⟨dict-lc⟩  (advisory)
   ~ metalwork   ⟨dict-lc⟩  (advisory)
@@ -722,7 +524,6 @@
   ~ talents   ⟨dict-lc⟩  (advisory)
   ~ 37 war elephants   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
-  ~ senate   ⟨dict-lc⟩  (advisory)
   ~ molk   ⟨bold⟩  (advisory)
   ~ hinterlands   ⟨rare⟩  (advisory)
   ~ professionalized   ⟨rare⟩  (advisory)
@@ -766,33 +567,8 @@
   ~ embittered   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Tyre   ⟨dict,recur×11⟩  → glossary
-    Phoenician   ⟨dict,recur×20⟩  → cross-link
-    Tyrians   ⟨recur×5⟩  → ?
-    Temple of Melqart   ⟨dict⟩  → event
-    Melqart   ⟨dict⟩  → glossary
-    Heracles   ⟨dict⟩  → glossary
-  * Macedonian   ⟨dict⟩  → glossary
-    Nebuchadnezzar   ⟨dict⟩  → cross-link
-    Arrian   ⟨dict⟩  → glossary
-    Phoenicians   ⟨dict,recur×5⟩  → cross-link
-    Aramaic   ⟨dict⟩  → glossary
-    Senate   ⟨dict⟩  → glossary
-    Scipio Africanus   ⟨dict⟩  → event
-    Cothon   ⟨dict,bold⟩  → event
-    Dido   ⟨dict⟩  → event
-    Baal   ⟨dict⟩  → glossary
-  * Jupiter   ⟨dict⟩  → glossary
-    Venus   ⟨dict⟩  → glossary
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Palermo   ⟨dict⟩  → glossary
-  * Málaga   ⟨dict⟩  → glossary
-    Polaris   ⟨dict⟩  → glossary
-    Alps   ⟨dict⟩  → glossary
-    Cannae   ⟨dict⟩  → event
-    Hannibal   ⟨dict⟩  → glossary
+  * Cypriot   ⟨dict⟩  → glossary
   ~ Shalmaneser   ⟨⟩  (advisory)
-  ~ Cypriot   ⟨⟩  (advisory)
   ~ Diodorus   ⟨⟩  (advisory)
   ~ Curtius Rufus   ⟨⟩  (advisory)
   ~ Hellenistic   ⟨⟩  (advisory)
@@ -806,7 +582,6 @@
   ~ Mediterranean   ⟨dict,recur×4⟩  (advisory)
   ~ City of the Sun   ⟨⟩  (advisory)
   ~ Bacchus   ⟨⟩  (advisory)
-  ~ Temple of Jupiter   ⟨⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
   ~ Iceland   ⟨dict⟩  (advisory)
   ~ Indonesia   ⟨⟩  (advisory)
@@ -822,7 +597,6 @@
   ~ colonies   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ senator   ⟨dict-lc⟩  (advisory)
-  ~ the Senate   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ sacred precinct   ⟨dict-lc⟩  (advisory)
@@ -834,6 +608,7 @@
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ ziggurats.   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ trade routes   ⟨dict-lc⟩  (advisory)
   ~ they developed   ⟨dict-lc⟩  (advisory)
   ~ keeled hull   ⟨dict-lc⟩  (advisory)
   ~ mortise-and-tenon joinery   ⟨dict-lc⟩  (advisory)

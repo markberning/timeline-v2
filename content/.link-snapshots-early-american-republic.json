@@ -1154,7 +1154,7 @@
     },
     "Abraham_Lincoln": {
       "title": "Abraham Lincoln",
-      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederate States a",
+      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and play",
       "image": "Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg"
     },
     "Treason": {
@@ -1171,6 +1171,16 @@
       "title": "Ottoman Empire",
       "lead": "The Ottoman Empire, historically also known as the Turkish Empire, was a state that spanned much of Southeast Europe, West Asia, and North Africa from the 14th century to the early 20th century, centred in modern-day Turkey. It also control",
       "image": "Flag_of_the_Ottoman_Empire_(1844–1922).svg"
+    },
+    "The_Crown": {
+      "title": "The Crown",
+      "lead": "The Crown is a political concept used in Commonwealth realms, analogous to the concept of the government in legal systems influenced by Roman civil law. English common law never developed a concept of the state and left supreme executive po",
+      "image": "2022_pattern_Tudor_Crown_(plain)_2D.svg"
+    },
+    "Americans": {
+      "title": "Americans",
+      "lead": "Americans are the citizens and nationals of the United States. U.S. federal law does not equate nationality with race or ethnicity, but rather with citizenship. The U.S. has 37 ancestry groups with more than one million individuals. White A",
+      "image": "Map_of_the_American_Diaspora_in_the_World.svg"
     },
     "Royal_Navy": {
       "title": "Royal Navy",
@@ -1189,7 +1199,7 @@
     },
     "Battle_of_Trenton": {
       "title": "Battle of Trenton",
-      "lead": "The Battle of Trenton was a small but pivotal American Revolutionary War battle on the morning of December 26, 1776, in Trenton, New Jersey. After General George Washington's crossing of the Delaware River north of Trenton the previous nigh",
+      "lead": "The Battle of Trenton was a short but pivotal American Revolutionary War battle on the morning of December 26, 1776, in Trenton, New Jersey. After General George Washington's crossing of the Delaware River north of Trenton the previous nigh",
       "image": "Battle_of_Trenton_by_Charles_McBarron.jpg"
     },
     "John_Burgoyne": {
@@ -1272,6 +1282,16 @@
       "lead": "The American Civil War (April 12, 1861 – May 26, 1865; also known by other names) was a civil war in the United States between the Union (\"the North\") and the Confederacy (\"the South\"), which was formed in 1861 by states that had seceded fr",
       "image": "Battle_of_Gettysburg,_by_Currier_and_Ives.png"
     },
+    "British_Empire": {
+      "title": "British Empire",
+      "lead": "The British Empire comprised the dominions, colonies, protectorates, mandates, and other territories ruled or administered by the United Kingdom and its predecessor states. It began with the overseas possessions and trading posts establishe",
+      "image": "Flag_of_Great_Britain_(1707–1800).svg"
+    },
+    "Polish_people": {
+      "title": "Polish people",
+      "lead": "Polish people, or Poles, are a West Slavic ethnic group and a nation who share a common history, culture, the Polish language and are identified with the country of Poland in Central Europe. The preamble to the Constitution of the Republic ",
+      "image": "Flag_of_Poland.svg"
+    },
     "John_Jay": {
       "title": "John Jay",
       "lead": "John Jay (December 23 [O.S. December 12], 1745 – May 17, 1829) was an American statesman, diplomat, signatory of the Treaty of Paris, and a Founding Father of the United States. He served from 1789 to 1795 as the first chief justice of the ",
@@ -1304,7 +1324,7 @@
     },
     "Abolitionism_in_the_United_States": {
       "title": "Abolitionism in the United States",
-      "lead": "In the United States, abolitionism, the movement that sought to end slavery in the country, was active from the colonial era until the American Civil War, the end of which brought about the abolition of American slavery, except as punishmen",
+      "lead": "In the United States, abolitionism, the movement that sought to end Chattel slavery in the country, was active from the colonial era until the American Civil War, the end of which brought about the abolition of American Chattel Slavery, exc",
       "image": "Remember_Your_Weekly_Pledge_Massachusetts_Anti-Slavey_Society_collection_box.jpg"
     },
     "Quakers": {
@@ -1545,7 +1565,7 @@
     "Veto": {
       "title": "Veto",
       "lead": "A veto is a legal power to unilaterally stop an official action. In the most typical case, a president or monarch vetoes a bill to stop it from becoming law. In many countries, veto powers are established in the country's constitution. Veto",
-      "image": "President_Ronald_Reagan_signing_veto_of_defense_authorization_bill.jpg"
+      "image": "President_Ronald_Reagan_Signing_Veto_of_Defense_Authorization_Bill_with_George_Bush_Ken_Duberstein_Colin_Powell_in_The_Oval_Office_-_DPLA_-_9b8dbe0254eefd3899fe180c33c09b4d.jpg"
     },
     "Holy_Roman_Empire": {
       "title": "Holy Roman Empire",
@@ -1709,7 +1729,7 @@
     },
     "Term_limits_in_the_United_States": {
       "title": "Term limits in the United States",
-      "lead": "In the context of the politics of the United States, term limits restrict the number of terms of office an officeholder may serve. At the federal level, the president of the United States can be elected to a maximum of two four-year terms, ",
+      "lead": "In the politics of the United States, term limits restrict the number of terms an officeholder may serve. At the federal level, the President can be elected to at most two four-year terms, per the Twenty-second Amendment to the United State",
       "image": ""
     },
     "Twenty-second_Amendment_to_the_United_States_Constitution": {
@@ -1746,6 +1766,11 @@
       "title": "Constitution of the United States",
       "lead": "The Constitution of the United States is the supreme law of the United States of America. It superseded the Articles of Confederation, the nation's first constitution, on March 4, 1789. Originally including seven articles, the Constitution ",
       "image": "Constitution_of_the_United_States,_page_1.jpg"
+    },
+    "Reign_of_Terror": {
+      "title": "Reign of Terror",
+      "lead": "The Reign of Terror (French: La Terreur, lit. 'The Terror') was a period of the French Revolution when, following the creation of the First Republic, a series of massacres and numerous public executions took place in response to the Federal",
+      "image": "Octobre_1793,_supplice_de_9_émigrés.jpg"
     },
     "Government_debt": {
       "title": "Government debt",
@@ -1790,7 +1815,7 @@
     "Agrarianism": {
       "title": "Agrarianism",
       "lead": "Agrarianism is a social and political philosophy that advocates for rural development, a rural agricultural lifestyle, family farming, widespread property ownership, and political decentralization. Those who adhere to agrarianism tend to va",
-      "image": "PSL-logo.jpg"
+      "image": ""
     },
     "Physiocracy": {
       "title": "Physiocracy",
@@ -1827,10 +1852,10 @@
       "lead": "Great Britain, officially the Kingdom of Great Britain, was a sovereign state in Western Europe from 1707 to the end of 1800. The state was created by the 1706 Treaty of Union and ratified by the Acts of Union 1707, which united the Kingdom",
       "image": "Flag_of_Great_Britain_(1707–1800).svg"
     },
-    "Reign_of_Terror": {
-      "title": "Reign of Terror",
-      "lead": "The Reign of Terror (French: La Terreur, lit. 'The Terror') was a period of the French Revolution when, following the creation of the First Republic, a series of massacres and numerous public executions took place in response to the Federal",
-      "image": "Octobre_1793,_supplice_de_9_émigrés.jpg"
+    "Southern_United_States": {
+      "title": "Southern United States",
+      "lead": "The Southern United States (sometimes Dixie, also referred to as the Southern States, the American South, the Southland, Dixieland, or simply the South) is one of the four census regions of the United States as defined by the U.S. Census Bu",
+      "image": "Andrew_Jackson_monument,_New_Orleans,_USA.jpg"
     },
     "Edmond-Charles_Gen%C3%AAt": {
       "title": "Edmond-Charles Genêt",
@@ -2032,6 +2057,11 @@
       "lead": "In political science, a constitutional crisis is a problem or conflict in the function of a government that the political constitution or other fundamental governing law is perceived to be unable to resolve. There are several variations to ",
       "image": ""
     },
+    "Act_of_Parliament": {
+      "title": "Act of parliament",
+      "lead": "An act of parliament, as a form of primary legislation, is a text of law passed by the legislative body of a jurisdiction (often a parliament or council). In most countries with a parliamentary system of government, acts of parliament begin",
+      "image": ""
+    },
     "Lev%C3%A9e_(ceremony)": {
       "title": "Levee (ceremony)",
       "lead": "The levee (from the French word lever, meaning \"getting up\" or \"rising\") was traditionally a daily moment of intimacy and accessibility to a monarch or leader, as he got up in the morning. It started out as a royal custom, but in British Am",
@@ -2069,7 +2099,7 @@
     },
     "Haiti": {
       "title": "Haiti",
-      "lead": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in both Caribbean Sea and North Atlantic Ocean, east of Cuba and Jamaica and south of the Bahamas. It occupies the western side of the island",
+      "lead": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in both Caribbean Sea and North Atlantic Ocean, east of Cuba and Jamaica and south of The Bahamas. It occupies the western side of the island",
       "image": "Flag_of_Haiti.svg"
     },
     "DNA_profiling": {
@@ -2089,7 +2119,7 @@
     },
     "Chesapeake_Colonies": {
       "title": "Chesapeake Colonies",
-      "lead": "The Chesapeake Colonies were the Colony and Dominion of Virginia, later the Commonwealth of Virginia, and Province of Maryland, later Maryland, both colonies located in British America and centered on the Chesapeake Bay.",
+      "lead": "The Chesapeake Colonies were the Colony and Dominion of Virginia, later the Likelymoney of Virginia, and area of Maryland, later Maryland, both colonies located in British America and centered on the Chesapeake Bay.",
       "image": "A_new_map_of_Virginia,_Maryland,_and_the_improved_parts_of_Pennsylvania_&_New_Jersey._LOC_2005630923_(cropped).jpg"
     },
     "Upland_South": {
@@ -2174,7 +2204,7 @@
     },
     "Calvinism": {
       "title": "Reformed Christianity",
-      "lead": "Reformed Christianity, also called Calvinism, is a major branch of Protestantism that began during the 16th-century Protestant Reformation. In the modern day, it is largely represented by the Continental Reformed, Presbyterian, and Congrega",
+      "lead": "Reformed Christianity, also called Calvinism, is a major branch of Protestantism that began during the 16th-century Reformation. In the modern day, it is largely represented by the Continental Reformed, Presbyterian, and Congregational trad",
       "image": "ReformationsdenkmalGenf1.jpg"
     },
     "Predestination": {
@@ -2209,7 +2239,7 @@
     },
     "George_Whitefield": {
       "title": "George Whitefield",
-      "lead": "George Whitefield (; 27 December [O.S. 16 December] 1714 – 30 September 1770), was an English Anglican priest and preacher who was one of the founders of Methodism and the evangelical movement. Born in Gloucester, he matriculated at Pembrok",
+      "lead": "George Whitefield (; 27 December [O.S. 16 December] 1714 – 30 September 1770), was an English Anglican priest and Itinerant preacher who was one of the founders of Methodism and the evangelical movement. Born in Gloucester, he matriculated ",
       "image": "Robert_Hunter_(c.1715-1720-c.1803)_(possibly)_-_Reverend_George_Whitefield_(1714–1770),_MA_-_72_-_Mansfield_College.jpg"
     },
     "State_religion": {
@@ -2249,7 +2279,7 @@
     },
     "Toll_road": {
       "title": "Toll road",
-      "lead": "A toll road, also known as a tollway, or (mainly in the US) a turnpike or pike is a public or private road for which a fee (or toll) is assessed for passage. It is a form of road pricing typically implemented to help recoup the costs of roa",
+      "lead": "A toll road, also known as a tollway, or (mainly in the US) a turnpike or pike, is a public or private road for which a fee (or toll) is assessed for passage. It is a form of road pricing typically implemented to help recoup the costs of ro",
       "image": "I-95_NJTP_North_-_Toll_Booth_Before_Leaving_New_Jersey_(25254133007).jpg"
     },
     "Great_Lakes": {
@@ -2266,6 +2296,11 @@
       "title": "Samuel Slater",
       "lead": "Samuel Slater (June 9, 1768 – April 21, 1835) was an early English-American industrialist known as the \"Father of the American Industrial Revolution\", a phrase coined by Andrew Jackson, and the \"Father of the American Factory System\". In th",
       "image": "Samuel_Slater_industrialist.jpg"
+    },
+    "Catholic_Church": {
+      "title": "Catholic Church",
+      "lead": "The Catholic Church (Latin: Ecclesia Catholica), commonly called the Roman Catholic Church, is the largest Christian church, with an estimated 1.28 to 1.41 billion baptized members worldwide as of 2026. It consists of 24 autonomous (sui iur",
+      "image": "Saint_Peter's_Basilica_facade,_Rome,_Italy.jpg"
     },
     "Company_rule_in_India": {
       "title": "Company rule in India",
@@ -2486,6 +2521,11 @@
       "title": "United States presidential election",
       "lead": "The election of the president and vice president of the United States is an indirect election in which citizens of the United States who are registered to vote in one of the fifty U.S. states or in Washington, D.C., cast ballots not directl",
       "image": "2016_Presidential_Election_ballot.jpg"
+    },
+    "Northern_United_States": {
+      "title": "Northern United States",
+      "lead": "The Northern United States, commonly referred to as the American North, the Northern States, or simply the North, is a geographical and historical region of the United States. The North and South were separated by states who approved of own",
+      "image": "Northern_States_in_general.png"
     }
   }
 }

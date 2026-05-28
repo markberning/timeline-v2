@@ -203,6 +203,24 @@
       "matchText": "Napata",
       "wikiSlug": "Napata",
       "type": "place"
+    },
+    {
+      "term": "Kurdish language",
+      "matchText": "Kurdish",
+      "wikiSlug": "Kurdish_language",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turks",
+      "wikiSlug": "Turkic_peoples",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -379,6 +397,24 @@
       "matchText": "26th Dynasty",
       "wikiSlug": "Twenty-sixth_Dynasty_of_Egypt",
       "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
+    },
+    {
+      "term": "Iranian languages",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_languages",
+      "type": "glossary"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -514,6 +550,12 @@
       "matchText": "Mediterranean",
       "wikiSlug": "Mediterranean_Sea",
       "type": "place"
+    },
+    {
+      "term": "Greek language",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greek_language",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -642,6 +684,12 @@
       "matchText": "Persian Empire",
       "wikiSlug": "Achaemenid_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Crusades",
+      "matchText": "Crusaders",
+      "wikiSlug": "Crusades",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -824,6 +872,30 @@
       "matchText": "Ephorus",
       "wikiSlug": "Ephorus",
       "type": "people"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "glossary"
+    },
+    {
+      "term": "Greek language",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greek_language",
+      "type": "glossary"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Iranian languages",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_languages",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -959,6 +1031,18 @@
       "matchText": "Tomyris",
       "wikiSlug": "Tomyris",
       "type": "people"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1087,6 +1171,12 @@
       "matchText": "Chinese silk",
       "wikiSlug": "Silk",
       "type": "concept"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1233,6 +1323,18 @@
       "matchText": "silver amphora",
       "wikiSlug": "Amphora",
       "type": "concept"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turks",
+      "wikiSlug": "Turkic_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
     }
   ]
 }

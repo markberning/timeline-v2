@@ -209,6 +209,24 @@
       "matchText": "Narmer",
       "wikiSlug": "Narmer",
       "type": "people"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "glossary"
+    },
+    {
+      "term": "Ancient Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
+    },
+    {
+      "term": "Harappan civilization",
+      "matchText": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -331,6 +349,12 @@
       "matchText": "Sumerian city-states",
       "wikiSlug": "Sumer",
       "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -489,6 +513,18 @@
       "matchText": "relieving chambers",
       "wikiSlug": "Great_Pyramid_of_Giza",
       "type": "concept"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "glossary"
+    },
+    {
+      "term": "Lebanon",
+      "matchText": "Lebanese",
+      "wikiSlug": "Lebanon",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -806,6 +842,12 @@
       "matchText": "nomarchs",
       "wikiSlug": "Nomarch",
       "type": "concept"
+    },
+    {
+      "term": "Ancient Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -1104,6 +1146,18 @@
       "matchText": "Exodus",
       "wikiSlug": "The_Exodus",
       "type": "concept"
+    },
+    {
+      "term": "Ancient Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "glossary"
+    },
+    {
+      "term": "Middle Egypt",
+      "matchText": "Middle Egypt",
+      "wikiSlug": "Middle_Egypt",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1238,6 +1292,36 @@
       "matchText": "mortuary temple",
       "wikiSlug": "Mortuary_temple",
       "type": "concept"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Theban",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "glossary"
+    },
+    {
+      "term": "Assyria",
+      "matchText": "Assyrian",
+      "wikiSlug": "Assyria",
+      "type": "glossary"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Persian",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
+    },
+    {
+      "term": "Gregorian calendar",
+      "matchText": "Gregorian",
+      "wikiSlug": "Gregorian_calendar",
+      "type": "glossary"
     }
   ]
 }

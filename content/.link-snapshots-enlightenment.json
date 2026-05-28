@@ -17,7 +17,7 @@
     },
     "Huguenots": {
       "title": "Huguenots",
-      "lead": "The Huguenots ( HEW-gə-nots, UK also -⁠nohz; French: [yɡ(ə)no]) are a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism. The term, which may be derived from the name of a Swiss political l",
+      "lead": "The Huguenots ( HEW-gə-nots, UK also -⁠nohz; French: [yɡ(ə)no]) are a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism. The term, which may be derived from the name of burgomaster Besanço",
       "image": "ReformationsdenkmalGenf1.jpg"
     },
     "Tractatus_Theologico-Politicus": {
@@ -97,7 +97,7 @@
     },
     "Atlantic_slave_trade": {
       "title": "Atlantic slave trade",
-      "lead": "The Atlantic slave trade or transatlantic slave trade involved the transportation by slave traders of enslaved African people to the Americas. European slave ships regularly used the triangular trade route and its Middle Passage. Europeans ",
+      "lead": "The Atlantic slave trade or transatlantic slave trade involved the transportation by slave traders of enslaved African people to the Americas. This trade was operated by slave ships from both Europe and the New World. Some of these voyages ",
       "image": "Slave_Auction_Ad.jpg"
     },
     "Elements_of_the_Philosophy_of_Newton": {
@@ -203,7 +203,7 @@
     "Preliminary_Discourse_to_the_Encyclopedia_of_Diderot": {
       "title": "Preliminary Discourse to the Encyclopedia of Diderot",
       "lead": "The Preliminary Discourse to the Encyclopedia of Diderot (Discours Préliminaire des Éditeurs) is the primer to Denis Diderot's Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers, par une Société de Gens de lettres, ",
-      "image": ""
+      "image": "Jean_d'Alembert.jpeg"
     },
     "Chrétien_Guillaume_de_Lamoignon_de_Malesherbes": {
       "title": "Guillaume-Chrétien de Lamoignon de Malesherbes",
@@ -692,7 +692,7 @@
     },
     "Haiti": {
       "title": "Haiti",
-      "lead": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in both Caribbean Sea and North Atlantic Ocean, east of Cuba and Jamaica and south of the Bahamas. It occupies the western side of the island",
+      "lead": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in both Caribbean Sea and North Atlantic Ocean, east of Cuba and Jamaica and south of The Bahamas. It occupies the western side of the island",
       "image": "Flag_of_Haiti.svg"
     },
     "Haiti_indemnity_controversy": {
@@ -772,7 +772,7 @@
     },
     "Battle_of_Waterloo": {
       "title": "Battle of Waterloo",
-      "lead": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), marking the end of the Napoleonic Wars. The French Imperial Army under the command of Napoleon I was de",
+      "lead": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), being the last engagement with Napoleon I. The French Imperial Army under the command of Napoleon I was",
       "image": "Battle_of_Waterloo_1815.PNG"
     },
     "Congress_of_Vienna": {
@@ -788,7 +788,7 @@
     "Rights_of_Man": {
       "title": "Rights of Man",
       "lead": "Rights of Man is a book by Thomas Paine first published in 1791, including 31 articles, positing that popular political revolution is permissible when a government does not safeguard the natural rights of its people. Using these points as a",
-      "image": "England_and_Yellow_flags.png"
+      "image": "PaineRightsOfMan.png"
     },
     "Counter-Enlightenment": {
       "title": "Counter-Enlightenment",
@@ -802,7 +802,7 @@
     },
     "Cesare_Beccaria": {
       "title": "Cesare Beccaria",
-      "lead": "Cesare Bonesana di Beccaria, Marquis of Gualdrasco and Villareggio (Italian: [ˈtʃeːzare bekkaˈriːa, ˈtʃɛː-]; 15 March 1738 – 28 November 1794) was an Italian criminologist, jurist, philosopher, economist, and politician. He is well remember",
+      "lead": "Cesare Beccaria Bonesana, Marquis of Gualdrasco and Villareggio (Italian: [ˈtʃeːzare bekkaˈriːa, ˈtʃɛː-]; 15 March 1738 – 28 November 1794) was an Italian criminologist, jurist, philosopher, economist, and politician. He is well remembered ",
       "image": "Cesare_Beccaria.jpg"
     },
     "On_Crimes_and_Punishments": {
@@ -997,6 +997,11 @@
     }
   },
   "glossary": {
+    "John_Locke": {
+      "title": "John Locke",
+      "lead": "John Locke (; 29 August 1632 (O.S.) – 28 October 1704 (O.S.)) was an English philosopher and physician, widely regarded as one of the most influential of the Enlightenment thinkers and commonly known as the \"father of liberalism\". His impor",
+      "image": "Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg"
+    },
     "Bastille": {
       "title": "Bastille",
       "lead": "The Bastille (, French: [bastij] ) was a medieval fortress in Paris, known as the Bastille Saint-Antoine. It played an important role in the internal conflicts of France and for most of its history was used as a state prison by the kings of",
@@ -1112,6 +1117,16 @@
       "lead": "Censorship is the suppression of speech, public communication, or other information. This may be done on the basis that such material is considered objectionable, harmful, sensitive, or \"inconvenient\". Censorship can be conducted by governm",
       "image": "Nikolai_Yezhov_with_Stalin_and_Molotov_along_the_Volga–Don_Canal,_orignal.jpg"
     },
+    "Moon": {
+      "title": "Moon",
+      "lead": "The Moon is the only natural satellite of Earth. It orbits around Earth at an average distance of 384,399 kilometers (238,854 mi), a distance roughly 30 times the width of Earth. It completes an orbit (lunar month) in relation to Earth and ",
+      "image": "FullMoon2010.jpg"
+    },
+    "Earth": {
+      "title": "Earth",
+      "lead": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water",
+      "image": "Meteosat-12-fci-march-equinox-2025-noon_(cropped).jpg"
+    },
     "Lettre_de_cachet": {
       "title": "Lettres de cachet",
       "lead": "Lettres de cachet (French: [lɛtʁ də kaʃɛ]; lit. 'letters of the sign/signet') were letters signed by the king of France, countersigned by one of his ministers, and closed with the royal seal. They contained orders directly from the king, of",
@@ -1171,6 +1186,11 @@
       "title": "Progress",
       "lead": "Progress is movement towards a perceived refined, improved, or otherwise desired state. It is central to the philosophy of progressivism, which interprets progress as the set of advancements in technology, science, and social organization –",
       "image": "Woman's_Progress_May_1895.jpg"
+    },
+    "English_Channel": {
+      "title": "English Channel",
+      "lead": "The English Channel, also known as the Channel, is an arm of the Atlantic Ocean that separates Southern England from northern France. It links to the southern part of the North Sea by the Strait of Dover at its northeastern end. It is the b",
+      "image": "English_Channel_Satellite.jpg"
     },
     "Marie_Thérèse_Rodet_Geoffrin": {
       "title": "Marie Thérèse Geoffrin",
@@ -1247,6 +1267,11 @@
       "lead": "Gottfried Wilhelm Leibniz (or Leibnitz; 1 July 1646 [O.S. 21 June] – 14 November 1716) was a German polymath active as a mathematician, philosopher, scientist, and diplomat who is credited, alongside Isaac Newton, with the creation of calcu",
       "image": "Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
     },
+    "Islamic_Golden_Age": {
+      "title": "Islamic Golden Age",
+      "lead": "The Islamic Golden Age was a period of scientific, economic, and cultural flourishing in the history of Islam, traditionally dated from the 8th century to the 13th century. This period is traditionally understood to have begun during the re",
+      "image": "Al-Idrisi's_world_map.JPG"
+    },
     "Chevalier_de_Rohan": {
       "title": "Guy Auguste de Rohan-Chabot",
       "lead": "Guy Auguste de Rohan-Chabot known as the comte de Chabot (18 August 1683 – 13 September 1760), often referred to as Chevalier de Rohan, was a French nobleman most notable for an altercation with Voltaire.",
@@ -1276,6 +1301,11 @@
       "title": "Toulouse",
       "lead": "Toulouse (, too-LOOZ, French: [tuluz] ; Occitan: Tolosa [tuˈluzɔ] ) is a city in Southern France, the prefecture of the Haute-Garonne department and of the Occitania region. The city is on the banks of the River Garonne, 150 kilometres (93 ",
       "image": "Toulouse_-_vue_du_Vieux_Toulouse_depuis_St_Sernin_06.jpg"
+    },
+    "Catholic_Church": {
+      "title": "Catholic Church",
+      "lead": "The Catholic Church (Latin: Ecclesia Catholica), commonly called the Roman Catholic Church, is the largest Christian church, with an estimated 1.28 to 1.41 billion baptized members worldwide as of 2026. It consists of 24 autonomous (sui iur",
+      "image": "Saint_Peter's_Basilica_facade,_Rome,_Italy.jpg"
     },
     "Parlement": {
       "title": "Parlement",
@@ -1349,7 +1379,7 @@
     },
     "Republic_of_Geneva": {
       "title": "Republic of Geneva",
-      "lead": "This article is about the historical city state, for the modern Swiss canton, see Canton of Geneva The Republic of Geneva (French: République de Genève) was an independent city-state in present-day Switzerland that emerged in the early 16th",
+      "lead": "The Republic of Geneva (French: République de Genève) was an independent city-state in present-day Switzerland that emerged in the early 16th century following its break with both the Catholic Church, the political authority of the Bishop o",
       "image": "Karte-Kanton-Genf-1792.png"
     },
     "Noble_savage": {
@@ -1474,8 +1504,18 @@
     },
     "Jizya": {
       "title": "Jizya",
-      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, lit. 'poll tax', [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and",
+      "lead": "Jizya (Arabic: جِزْيَة, romanized: jizyah, [ˈd͡ʒɪz.jæ]), is a type of taxation levied on non-Muslim subjects of a state governed by Islamic law. The Quran and hadiths mention jizya without specifying its rate or amount, and the application ",
       "image": ""
+    },
+    "Muslims": {
+      "title": "Muslims",
+      "lead": "Muslims (Arabic: المسلمون, romanized: al-Muslimūn, lit. 'submitters [to God]') are people who adhere to Islam, a monotheistic religion belonging to the Abrahamic tradition. They consider the Quran, the foundational religious text of Islam, ",
+      "image": "Prayer_in_Cairo_1865.jpg"
+    },
+    "Al-Andalus": {
+      "title": "Al-Andalus",
+      "lead": "Al-Andalus (Arabic: الأَنْدَلُس, romanised: al-ʾAndalus) was the Muslim-ruled area of the Iberian Peninsula. The name refers to the different Muslim states that controlled these territories at various times between 711 and 1492. At its grea",
+      "image": "Al-Andalus732.svg"
     },
     "Serfdom": {
       "title": "Serfdom",
@@ -1507,6 +1547,21 @@
       "lead": "Nakaz, or Instruction, of Catherine the Great (Russian: Наказ Екатерины II Комиссии о составлении проекта нового Уложения, transliteration: Nakaz Jekateriny II Komissiji o sostavleniji projekta novogo Uloženija), was a statement of legal pr",
       "image": "Nakaz.jpg"
     },
+    "Kingdom_of_Prussia": {
+      "title": "Kingdom of Prussia",
+      "lead": "The Kingdom of Prussia (German: Königreich Preußen, pronounced [ˈkøːnɪkʁaɪç ˈpʁɔʏsn̩] ) was a German state that existed from 1701 to 1918. It played a significant role in the unification of Germany in 1871 and was a major constituent of the",
+      "image": "Flag_of_the_Kingdom_of_Prussia_(1803-1892).svg"
+    },
+    "Ukraine": {
+      "title": "Ukraine",
+      "lead": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast. Ukraine also borders Belarus to the north; Poland and Slovakia to the west; Hungary, Romania and Mo",
+      "image": "Flag_of_Ukraine.svg"
+    },
+    "Jews": {
+      "title": "Jews",
+      "lead": "Jews (Hebrew: יְהוּדִים‎, ISO 259-2: Yehudim, Israeli pronunciation: [jehuˈdim]), or the Jewish people, are an ethnoreligious group and nation, originating from the Israelites of ancient Israel and Judah. They traditionally adhere to Judais",
+      "image": "Map_of_the_Jewish_Diaspora_in_the_World.svg"
+    },
     "Jewish_ghettos_in_Europe": {
       "title": "Jewish ghettos in Europe",
       "lead": "In the early modern era, many European Jews were confined to ghettos and placed under strict regulations as well as restrictions in many European cities. The character of ghettos fluctuated over the centuries. In some cases, they comprised ",
@@ -1514,7 +1569,7 @@
     },
     "Königsberg": {
       "title": "Königsberg",
-      "lead": "Königsberg (, German: [ˈkøːnɪçsbɛʁk] or [ˈkøːnɪksbɛʁk] ) was the historic German name of the city that is modern-day Kaliningrad, Russia. The city was founded in 1255 on the site of the Old Prussian settlement Twangste by the Teutonic Knigh",
+      "lead": "Königsberg (, German: [ˈkøːnɪçsbɛʁk] or [ˈkøːnɪksbɛʁk] ) was a German city established in the 13th century, which as a consequence of the redrawing of European maps in the wake of the defeat of Nazi Germany became part of the Soviet Union a",
       "image": "Königsberg_Castle.jpg"
     },
     "Rationalism": {
@@ -1641,6 +1696,11 @@
       "title": "Abolitionism",
       "lead": "Abolitionism, or the abolitionist movement, is the political movement to end slavery and liberate enslaved individuals around the world. It gained momentum in the western world in the late 18th and 19th centuries. The first country to fully",
       "image": "Slavezanzibar2.JPG"
+    },
+    "United_States": {
+      "title": "United States",
+      "lead": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C. The 48",
+      "image": "Flag_of_the_United_States_(DDD-F-416E_specifications).svg"
     },
     "Corsica": {
       "title": "Corsica",

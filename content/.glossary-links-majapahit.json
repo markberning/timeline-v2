@@ -71,6 +71,12 @@
       "matchText": "Pararaton",
       "wikiSlug": "Pararaton",
       "type": "concept"
+    },
+    {
+      "term": "Vietnamese people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Vietnamese_people",
+      "type": "people"
     }
   ],
   "2": [
@@ -97,6 +103,12 @@
       "matchText": "official History of the Yuan",
       "wikiSlug": "History_of_Yuan",
       "type": "concept"
+    },
+    {
+      "term": "Khagan (Great Khan)",
+      "matchText": "Great Khan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
     }
   ],
   "3": [
@@ -111,6 +123,20 @@
       "matchText": "regnal name",
       "wikiSlug": "Regnal_name",
       "type": "concept"
+    }
+  ],
+  "4": [
+    {
+      "term": "Indonesians",
+      "matchText": "Indonesian",
+      "wikiSlug": "Indonesians",
+      "type": "people"
+    },
+    {
+      "term": "Javanese people",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "people"
     }
   ],
   "5": [
@@ -137,6 +163,24 @@
       "matchText": "Palapa Oath",
       "wikiSlug": "Palapa_oath",
       "type": "people"
+    },
+    {
+      "term": "Javanese people",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "people"
+    },
+    {
+      "term": "Indonesians",
+      "matchText": "Indonesian",
+      "wikiSlug": "Indonesians",
+      "type": "people"
+    },
+    {
+      "term": "Malay Peninsula",
+      "matchText": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula",
+      "type": "place"
     }
   ],
   "6": [
@@ -195,6 +239,30 @@
       "matchText": "Surabaya",
       "wikiSlug": "Surabaya",
       "type": "place"
+    },
+    {
+      "term": "Malay Peninsula",
+      "matchText": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Indonesians",
+      "matchText": "Indonesian",
+      "wikiSlug": "Indonesians",
+      "type": "people"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Javanese people",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "people"
     }
   ],
   "8": [
@@ -235,6 +303,18 @@
       "matchText": "Demak",
       "wikiSlug": "Demak_Sultanate",
       "type": "concept"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
     }
   ],
   "10": [
@@ -255,6 +335,24 @@
       "matchText": "Lombok",
       "wikiSlug": "Lombok",
       "type": "place"
+    },
+    {
+      "term": "Javanese people",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "people"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Mongols",
+      "matchText": "Mongol",
+      "wikiSlug": "Mongols",
+      "type": "people"
     }
   ]
 }

@@ -4,28 +4,6 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Roman Empire   ⟨dict⟩  → cross-link
-    Vandals   ⟨dict,recur×3⟩  → event
-    Franks   ⟨dict,recur×3⟩  → event
-    Greeks   ⟨dict⟩  → glossary
-    Latin   ⟨dict,recur×3⟩  → cross-link
-    Germani   ⟨dict,recur×3⟩  → glossary
-    Saxons   ⟨dict⟩  → glossary
-    Indo-European   ⟨dict,bold⟩  → glossary
-  * Persian   ⟨dict⟩  → cross-link
-    Sanskrit   ⟨dict⟩  → cross-link
-  * Eurasian   ⟨dict⟩  → glossary
-    Hungary   ⟨dict⟩  → glossary
-    Ukraine   ⟨dict⟩  → glossary
-    Central Asia   ⟨dict⟩  → glossary
-    Mongolia   ⟨dict⟩  → glossary
-    Turkic   ⟨dict⟩  → glossary
-    Mongolic   ⟨dict⟩  → glossary
-  * Iranian   ⟨dict⟩  → glossary
-  * Hunnic   ⟨dict⟩  → glossary
-    Adrianople   ⟨dict,bold⟩  → cross-link
-    Carthage   ⟨dict⟩  → cross-link
-    foedus   ⟨gloss,dict-lc,rare⟩  → glossary
   ~ Roman   ⟨dict,recur×9⟩  (advisory)
   ~ Romans   ⟨recur×3⟩  (advisory)
   ~ Rome   ⟨dict,recur×10⟩  (advisory)
@@ -37,7 +15,6 @@
   ~ Western   ⟨⟩  (advisory)
   ~ Eastern Empire   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Russian   ⟨⟩  (advisory)
   ~ Chinese   ⟨⟩  (advisory)
@@ -47,7 +24,6 @@
   ~ Italy   ⟨⟩  (advisory)
   ~ journey   ⟨dict-lc⟩  (advisory)
   ~ they were the   ⟨dict-lc⟩  (advisory)
-  ~ the Franks   ⟨dict-lc⟩  (advisory)
   ~ collapse   ⟨dict-lc⟩  (advisory)
   ~ the Eastern Empire's   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
@@ -81,32 +57,11 @@
   ~ dominoes   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-    Germanic   ⟨dict,recur×9⟩  → cross-link
-    Roman Empire   ⟨dict⟩  → cross-link
-    Radagaisus   ⟨pron,bold,recur×4⟩  → event/glossary
-    Julius Caesar   ⟨dict⟩  → glossary
-    Hunnic   ⟨dict,recur×3⟩  → glossary
-    Goths   ⟨dict⟩  → cross-link
-    Franks   ⟨dict⟩  → event
-    Caesar   ⟨dict⟩  → glossary
-    Iranian-speaking   ⟨dict,bold⟩  → glossary
-    Caucasus   ⟨dict⟩  → glossary
-  * Iranian   ⟨dict⟩  → glossary
-    Indo-European   ⟨dict⟩  → glossary
-  * Persian   ⟨dict⟩  → cross-link
-    Persians   ⟨dict⟩  → cross-link
-  * Hindi   ⟨dict⟩  → glossary
-    Völkerwanderung   ⟨dict⟩  → glossary
-    Angles   ⟨dict⟩  → glossary
-    Saxons   ⟨dict⟩  → glossary
-    Jutes   ⟨dict⟩  → glossary
-    North Sea   ⟨dict⟩  → cross-link
   ~ West   ⟨recur×6⟩  (advisory)
   ~ Gothic-led   ⟨⟩  (advisory)
   ~ Italy   ⟨recur×4⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
-  ~ Indo-European-speaking   ⟨⟩  (advisory)
   ~ Hasding   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
   ~ Suebic   ⟨⟩  (advisory)
@@ -127,15 +82,11 @@
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ eighteenth   ⟨dict-lc⟩  (advisory)
-  ~ the Goths   ⟨dict-lc⟩  (advisory)
-  ~ the Franks.   ⟨dict-lc⟩  (advisory)
-  ~ the Caucasus   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ diocese   ⟨dict-lc,rare⟩  (advisory)
   ~ loyalists   ⟨dict-lc⟩  (advisory)
   ~ legions   ⟨dict-lc⟩  (advisory)
   ~ civil war   ⟨dict-lc⟩  (advisory)
-  ~ the North Sea   ⟨dict-lc⟩  (advisory)
   ~ killed him   ⟨dict-lc⟩  (advisory)
   ~ churning   ⟨rare⟩  (advisory)
   ~ rereading   ⟨rare⟩  (advisory)
@@ -145,24 +96,8 @@
   ~ bitterest   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Western Roman Empire   ⟨dict⟩  → cross-link
-    Germanic   ⟨dict⟩  → cross-link
-    Indo-European   ⟨dict⟩  → glossary
-    Vandals   ⟨dict,recur×3⟩  → event
-    Franks   ⟨dict⟩  → event
-    Ring   ⟨dict⟩  → glossary
-  * Hunnic   ⟨dict⟩  → glossary
-    Huns   ⟨dict⟩  → cross-link
-    Gothic   ⟨dict⟩  → glossary
-    Balkans   ⟨dict⟩  → cross-link
-    Gaul   ⟨dict,recur×4⟩  → glossary
-    Goths   ⟨dict⟩  → cross-link
     Visigoths   ⟨dict,recur×3⟩  → event
-    Western Empire   ⟨dict⟩  → glossary
     Suebi   ⟨dict,bold⟩  → event
-    Alans   ⟨dict,recur×4⟩  → glossary
-    Vandal   ⟨dict⟩  → glossary
-    Iranian-speaking   ⟨dict⟩  → glossary
   ~ Germany   ⟨dict⟩  (advisory)
   ~ German   ⟨⟩  (advisory)
   ~ Richard Wagner   ⟨⟩  (advisory)
@@ -173,12 +108,8 @@
   ~ Rhine-crossers   ⟨⟩  (advisory)
   ~ Portugal   ⟨dict⟩  (advisory)
   ~ Spain the four   ⟨⟩  (advisory)
-  ~ Siling Vandals   ⟨⟩  (advisory)
-  ~ Hasding Vandals   ⟨⟩  (advisory)
-  ~ King of the Vandals   ⟨⟩  (advisory)
   ~ Galicia   ⟨⟩  (advisory)
   ~ Suebic   ⟨⟩  (advisory)
-  ~ European   ⟨⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ paper   ⟨dict-lc⟩  (advisory)
   ~ foederati   ⟨dict-lc,rare⟩  (advisory)
@@ -191,11 +122,9 @@
   ~ the seed of   ⟨dict-lc⟩  (advisory)
   ~ true bone   ⟨dict-lc⟩  (advisory)
   ~ mercenaries   ⟨dict-lc⟩  (advisory)
-  ~ the Huns   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
-  ~ the Balkans   ⟨dict-lc⟩  (advisory)
   ~ sack of Rome   ⟨dict-lc⟩  (advisory)
-  ~ the Goths   ⟨dict-lc⟩  (advisory)
+  ~ the Visigoths   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ emergency   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
@@ -210,27 +139,12 @@
   ~ outliving   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Gaiseric   ⟨dict⟩  → glossary
-    Tunisia   ⟨dict⟩  → glossary
-    Libya   ⟨dict⟩  → glossary
-    Western Empire   ⟨dict,recur×5⟩  → glossary
-    Confessions   ⟨dict⟩  → event
-    Gothic   ⟨dict⟩  → glossary
-    Punic Wars   ⟨dict⟩  → cross-link
-    Germanic   ⟨dict,recur×3⟩  → cross-link
-    Black Sea   ⟨dict⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Norse   ⟨dict⟩  → glossary
-    Vendel Age   ⟨dict⟩  → cross-link
-    Sack of Rome   ⟨dict,dict-lc⟩  → event
-    Rhine   ⟨dict⟩  → glossary
   ~ Mediterranean   ⟨dict,recur×7⟩  (advisory)
   ~ Genseric   ⟨⟩  (advisory)
   ~ Spain   ⟨⟩  (advisory)
   ~ North African Catholic   ⟨⟩  (advisory)
   ~ Catholics   ⟨⟩  (advisory)
   ~ Algeria   ⟨⟩  (advisory)
-  ~ Western   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ Western Christianity   ⟨⟩  (advisory)
   ~ Roman African   ⟨⟩  (advisory)
@@ -251,11 +165,11 @@
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ no Germanic people   ⟨dict-lc⟩  (advisory)
   ~ longships   ⟨dict-lc,rare⟩  (advisory)
   ~ murder of the   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ coinage   ⟨dict-lc⟩  (advisory)
-  ~ the Rhine   ⟨dict-lc⟩  (advisory)
   ~ emperor he   ⟨dict-lc⟩  (advisory)
   ~ Sack of Rome in 455   ⟨bold⟩  (advisory)
   ~ grudging   ⟨rare⟩  (advisory)
@@ -275,50 +189,25 @@
 
 ## Chapter 5
     Hunnic   ⟨dict,recur×11⟩  → glossary
-    Goths   ⟨dict⟩  → cross-link
-    Gepids   ⟨dict,pron,bold⟩  → glossary
-    East Germanic   ⟨dict⟩  → glossary
-    Danube   ⟨dict⟩  → glossary
-    Germanic   ⟨dict,recur×6⟩  → cross-link
-    Eastern Roman Empire   ⟨dict⟩  → glossary
-    Constantinople   ⟨dict⟩  → cross-link
-    Vandals   ⟨dict⟩  → event
-    Germani   ⟨dict⟩  → glossary
-    Gaul   ⟨dict⟩  → glossary
-    Aquitaine   ⟨dict⟩  → glossary
-    Theodoric the Great   ⟨dict⟩  → cross-link
-    Gothic   ⟨dict⟩  → glossary
-    Franks   ⟨dict⟩  → event
-    Visigoths   ⟨dict⟩  → event
     Pope Leo   ⟨dict⟩  → glossary
-    Pannonia   ⟨dict⟩  → glossary
     Hungary   ⟨dict⟩  → glossary
-    Ostrogoths   ⟨dict⟩  → cross-link
-    Roman Empire   ⟨dict⟩  → cross-link
-    Leo   ⟨pron⟩  → event/glossary
-    Leo I   ⟨bold⟩  → event/glossary
   ~ Africa   ⟨⟩  (advisory)
-  ~ Romans   ⟨recur×3⟩  (advisory)
   ~ West   ⟨recur×3⟩  (advisory)
   ~ Greece   ⟨dict⟩  (advisory)
   ~ Eastern Empire   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
   ~ Greek-speaking Eastern Roman   ⟨⟩  (advisory)
-  ~ Roman   ⟨dict,recur×13⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
   ~ Hunnic-period   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
-  ~ Rome   ⟨dict,recur×6⟩  (advisory)
-  ~ Ostrogoth   ⟨⟩  (advisory)
   ~ Chapters   ⟨⟩  (advisory)
   ~ France   ⟨⟩  (advisory)
   ~ Roman-versus-barbarian   ⟨⟩  (advisory)
   ~ Leo the Great   ⟨⟩  (advisory)
   ~ Peter   ⟨⟩  (advisory)
   ~ Christian Church   ⟨⟩  (advisory)
-  ~ Eastern Roman   ⟨⟩  (advisory)
   ~ Church   ⟨⟩  (advisory)
-  ~ East   ⟨⟩  (advisory)
+  ~ the Vandals   ⟨dict-lc⟩  (advisory)
   ~ tribute   ⟨dict-lc⟩  (advisory)
   ~ mercenaries   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
@@ -359,7 +248,6 @@
   ~ deformed   ⟨rare⟩  (advisory)
   ~ monstrousness   ⟨rare⟩  (advisory)
   ~ generalissimo   ⟨rare⟩  (advisory)
-  ~ federates   ⟨rare⟩  (advisory)
   ~ lagoon   ⟨rare⟩  (advisory)
   ~ scourge   ⟨rare⟩  (advisory)
   ~ coldly   ⟨rare⟩  (advisory)
@@ -372,58 +260,29 @@
   ~ creaking   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-  * Hunnic   ⟨dict⟩  → glossary
-    Western Empire   ⟨dict,recur×4⟩  → glossary
-    Vandals   ⟨dict⟩  → event
-    Huns   ⟨dict⟩  → cross-link
-    Burgundians   ⟨dict⟩  → glossary
-    Gaul   ⟨dict,recur×5⟩  → glossary
-    Catalaunian Plains   ⟨dict⟩  → glossary
-    Valentinian III   ⟨dict,bold⟩  → glossary
-    Geiseric   ⟨dict⟩  → glossary
-  * Visigothic   ⟨dict⟩  → cross-link
-    Germanic   ⟨dict,recur×7⟩  → cross-link
-    Arianism   ⟨dict⟩  → event
-    Fall of the Roman Empire   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Franks   ⟨dict⟩  → event
-    Western Roman Empire   ⟨dict⟩  → cross-link
-    East Germanic   ⟨dict⟩  → glossary
-    Danube   ⟨dict⟩  → glossary
-    Augustus   ⟨dict⟩  → glossary
-    Adriatic   ⟨dict⟩  → glossary
-    Roman Empire   ⟨dict⟩  → cross-link
-    Rhine   ⟨dict⟩  → glossary
-    Euphrates   ⟨dict⟩  → glossary
   ~ West   ⟨recur×11⟩  (advisory)
   ~ Chapters   ⟨⟩  (advisory)
-  ~ Romans   ⟨⟩  (advisory)
   ~ Italy   ⟨recur×12⟩  (advisory)
   ~ Britain   ⟨dict⟩  (advisory)
   ~ Spain   ⟨recur×3⟩  (advisory)
   ~ African   ⟨⟩  (advisory)
   ~ From   ⟨⟩  (advisory)
-  ~ Roman   ⟨dict,recur×19⟩  (advisory)
   ~ Suebic   ⟨⟩  (advisory)
   ~ Christianity   ⟨dict⟩  (advisory)
   ~ Christ   ⟨⟩  (advisory)
   ~ God the Father   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
-  ~ Vandal Africa   ⟨⟩  (advisory)
   ~ Spanish   ⟨dict⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ History of the Decline   ⟨⟩  (advisory)
   ~ Aegidius   ⟨⟩  (advisory)
-  ~ Roman Gaul   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
-  ~ Western Roman   ⟨⟩  (advisory)
   ~ Croatia   ⟨⟩  (advisory)
   ~ East   ⟨⟩  (advisory)
   ~ Something   ⟨⟩  (advisory)
   ~ Africa   ⟨⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
-  ~ the Huns   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ emperor he   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
@@ -431,7 +290,6 @@
   ~ the Father   ⟨dict-lc⟩  (advisory)
   ~ concrete   ⟨dict-lc⟩  (advisory)
   ~ inertia   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Franks   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ first emperor   ⟨dict-lc⟩  (advisory)
   ~ imperial regalia   ⟨dict-lc⟩  (advisory)
@@ -439,7 +297,6 @@
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ it is a   ⟨dict-lc⟩  (advisory)
-  ~ the Rhine   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ professional standing army   ⟨dict-lc⟩  (advisory)
   ~ swallow   ⟨rare⟩  (advisory)
@@ -470,34 +327,6 @@
   ~ anticlimax   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Western Empire   ⟨dict,recur×3⟩  → glossary
-    Vandals   ⟨dict,recur×4⟩  → event
-    Visigoths   ⟨dict,recur×6⟩  → event
-    Burgundians   ⟨dict,recur×4⟩  → glossary
-    Suebi   ⟨dict⟩  → event
-    Ostrogoths   ⟨dict⟩  → cross-link
-    Germanic   ⟨dict,recur×4⟩  → cross-link
-    Rhine   ⟨dict⟩  → glossary
-    Arians   ⟨dict,bold⟩  → glossary
-    Arius   ⟨dict⟩  → glossary
-    Arianism   ⟨dict,recur×3⟩  → event
-    Gothic   ⟨dict,recur×7⟩  → glossary
-    Arian   ⟨dict,recur×7⟩  → glossary
-    Ulfilas   ⟨dict⟩  → event
-    Vandal   ⟨dict⟩  → glossary
-    Burgundian   ⟨dict,recur×3⟩  → event
-    Ostrogothic   ⟨recur×3⟩  → ?
-    Constantine the Great   ⟨dict⟩  → glossary
-    Constantine   ⟨dict⟩  → event
-  * Francia   ⟨dict⟩  → glossary
-    Poitiers   ⟨dict⟩  → event
-    Toledo   ⟨dict⟩  → glossary
-  * Catholicism   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Salian   ⟨dict⟩  → glossary
-    Catalaunian Plains   ⟨dict⟩  → glossary
-    Senate   ⟨dict⟩  → glossary
-  * Middle Ages   ⟨dict⟩  → glossary
   ~ Africa   ⟨⟩  (advisory)
   ~ Spain   ⟨recur×3⟩  (advisory)
   ~ Rhône   ⟨⟩  (advisory)
@@ -508,7 +337,6 @@
   ~ Indo-European-speaking   ⟨⟩  (advisory)
   ~ West   ⟨recur×4⟩  (advisory)
   ~ Germany   ⟨dict⟩  (advisory)
-  ~ Rhine-crossers of Chapter   ⟨⟩  (advisory)
   ~ Christian   ⟨recur×3⟩  (advisory)
   ~ Christ the Son   ⟨⟩  (advisory)
   ~ God the Father   ⟨⟩  (advisory)
@@ -517,14 +345,12 @@
   ~ Christianity   ⟨dict⟩  (advisory)
   ~ Bible   ⟨dict⟩  (advisory)
   ~ Nicene Catholic   ⟨⟩  (advisory)
-  ~ Vandal Huneric   ⟨⟩  (advisory)
   ~ Catholic Christianity   ⟨⟩  (advisory)
   ~ Gallo-Roman   ⟨⟩  (advisory)
   ~ Rome   ⟨dict,recur×6⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Arian Gothic   ⟨⟩  (advisory)
-  ~ Visigoth   ⟨⟩  (advisory)
   ~ Eastern   ⟨dict⟩  (advisory)
   ~ Roman-looking   ⟨⟩  (advisory)
   ~ East   ⟨⟩  (advisory)
@@ -545,7 +371,6 @@
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ digest   ⟨dict-lc⟩  (advisory)
-  ~ the Senate   ⟨dict-lc⟩  (advisory)
   ~ baptism   ⟨rare⟩  (advisory)
   ~ softens   ⟨rare⟩  (advisory)
   ~ federates   ⟨rare⟩  (advisory)
@@ -576,26 +401,6 @@
   ~ executors   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Western Empire   ⟨dict⟩  → glossary
-    Eastern Roman Empire   ⟨dict⟩  → glossary
-    Roman Empire   ⟨dict,recur×3⟩  → cross-link
-    Persia   ⟨dict⟩  → cross-link
-    Vandal   ⟨dict,recur×5⟩  → glossary
-    Vandals   ⟨dict,recur×3⟩  → event
-    Geiseric   ⟨dict⟩  → glossary
-    Carthage   ⟨dict⟩  → cross-link
-    Sardinia   ⟨dict⟩  → glossary
-    Constantinople   ⟨dict⟩  → cross-link
-    Odoacer   ⟨dict⟩  → event
-    Romulus Augustulus   ⟨dict⟩  → event
-    Alans   ⟨dict⟩  → glossary
-    Huns   ⟨dict⟩  → cross-link
-    Gothic War   ⟨dict,bold,recur×3⟩  → event
-    Gothic   ⟨dict,recur×4⟩  → glossary
-    Senate   ⟨dict⟩  → glossary
-  * Greek-speaking   ⟨dict⟩  → glossary
-    Goths   ⟨dict⟩  → cross-link
-    Vandal kingdom   ⟨bold⟩  → event/glossary
   ~ Europe   ⟨⟩  (advisory)
   ~ West   ⟨recur×6⟩  (advisory)
   ~ Italy   ⟨recur×8⟩  (advisory)
@@ -612,12 +417,12 @@
   ~ came to the throne   ⟨dict-lc⟩  (advisory)
   ~ restoration   ⟨dict-lc⟩  (advisory)
   ~ concrete   ⟨dict-lc⟩  (advisory)
-  ~ war with Persia   ⟨dict-lc⟩  (advisory)
+  ~ the Vandals   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ the Huns   ⟨dict-lc⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
-  ~ the Senate   ⟨dict-lc⟩  (advisory)
   ~ total war   ⟨dict-lc⟩  (advisory)
   ~ phases   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
@@ -645,37 +450,6 @@
   ~ dearly   ⟨rare⟩  (advisory)
 
 ## Chapter 9
-    Procopius   ⟨dict⟩  → glossary
-    Scandinavia   ⟨dict⟩  → cross-link
-    Germanic   ⟨dict,recur×4⟩  → cross-link
-    Gaul   ⟨dict⟩  → glossary
-    British Isles   ⟨dict⟩  → event
-    Plague of Justinian   ⟨dict,bold⟩  → event
-    Eastern Empire   ⟨recur×3⟩  → ?
-    Narses   ⟨dict⟩  → event
-    Indo-European   ⟨dict⟩  → glossary
-    Goths   ⟨dict,recur×4⟩  → cross-link
-    Elbe   ⟨dict⟩  → glossary
-  * Baltic   ⟨dict⟩  → glossary
-    Danube   ⟨dict⟩  → glossary
-    Hungary   ⟨dict⟩  → glossary
-    Adriatic   ⟨dict⟩  → glossary
-    Gothic War   ⟨dict⟩  → event
-    Byzantine   ⟨dict⟩  → cross-link
-    Völkerwanderung   ⟨dict⟩  → glossary
-    Huns   ⟨dict⟩  → cross-link
-    Rhine   ⟨dict⟩  → glossary
-    Vandals   ⟨dict⟩  → event
-    Suebi   ⟨dict⟩  → event
-    Alans   ⟨dict⟩  → glossary
-    Burgundians   ⟨dict⟩  → glossary
-    Franks   ⟨dict⟩  → event
-    Attila   ⟨dict⟩  → cross-link
-    Western Empire   ⟨dict⟩  → glossary
-    Merovingian   ⟨dict⟩  → glossary
-    Clovis   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Gothic   ⟨dict⟩  → glossary
   ~ Rome   ⟨dict,recur×7⟩  (advisory)
   ~ West   ⟨recur×5⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
@@ -686,15 +460,11 @@
   ~ Italy   ⟨recur×12⟩  (advisory)
   ~ Spain   ⟨⟩  (advisory)
   ~ Africa   ⟨⟩  (advisory)
-  ~ Latin Langobardi   ⟨⟩  (advisory)
   ~ Eastern Roman   ⟨⟩  (advisory)
   ~ Eastern   ⟨dict⟩  (advisory)
   ~ Governing   ⟨⟩  (advisory)
   ~ Church   ⟨recur×3⟩  (advisory)
-  ~ Catholic Franks   ⟨⟩  (advisory)
   ~ Roman Church   ⟨⟩  (advisory)
-  ~ Roman Gaul   ⟨⟩  (advisory)
-  ~ Latin Church   ⟨⟩  (advisory)
   ~ Britain   ⟨dict⟩  (advisory)
   ~ migration period   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
@@ -704,19 +474,16 @@
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ volcanic winter   ⟨dict-lc⟩  (advisory)
   ~ the famine   ⟨dict-lc⟩  (advisory)
+  ~ trade routes   ⟨dict-lc⟩  (advisory)
   ~ great migration   ⟨dict-lc⟩  (advisory)
-  ~ the Goths   ⟨dict-lc⟩  (advisory)
-  ~ the Baltic   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ the Eastern Empire   ⟨dict-lc⟩  (advisory)
   ~ the pope   ⟨dict-lc⟩  (advisory)
-  ~ the Huns   ⟨dict-lc⟩  (advisory)
-  ~ the Rhine   ⟨dict-lc⟩  (advisory)
   ~ demographic   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ bishops   ⟨dict-lc⟩  (advisory)
-  ~ the Franks   ⟨dict-lc⟩  (advisory)
   ~ dust veil of 536   ⟨bold⟩  (advisory)
   ~ dimmed   ⟨rare⟩  (advisory)
   ~ feeble   ⟨rare⟩  (advisory)

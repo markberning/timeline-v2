@@ -4,36 +4,14 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Earth   ⟨recur×8⟩  → ?
-    Greeks   ⟨dict⟩  → glossary
-    Athenian   ⟨dict⟩  → cross-link
-    Latin   ⟨dict⟩  → cross-link
-    Arabic   ⟨dict⟩  → glossary
-    Islamic Golden Age Ch   ⟨dict,recur×3⟩  → cross-link
-    Mars   ⟨dict⟩  → glossary
-  * Mainz   ⟨dict⟩  → glossary
-  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
-    Copernicus   ⟨dict⟩  → event
-    Syracuse   ⟨dict⟩  → glossary
-    Baghdad   ⟨dict⟩  → cross-link
-    Tycho Brahe   ⟨dict⟩  → cross-link
-    Persia   ⟨dict⟩  → cross-link
-    Kerala   ⟨dict⟩  → glossary
-    Newton   ⟨dict⟩  → event
-  * Polish   ⟨dict⟩  → glossary
-    Planet   ⟨bold⟩  → event/glossary
   ~ Church   ⟨⟩  (advisory)
-  ~ Europe   ⟨recur×6⟩  (advisory)
   ~ Educated Europeans   ⟨⟩  (advisory)
   ~ European   ⟨recur×3⟩  (advisory)
-  ~ Moon   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ Heaven   ⟨⟩  (advisory)
-  ~ Greek   ⟨dict,recur×5⟩  (advisory)
   ~ Roman-ruled Alexandria   ⟨⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
-  ~ Arabic-derived   ⟨⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Bible   ⟨dict⟩  (advisory)
   ~ Sun-centered   ⟨⟩  (advisory)
@@ -97,36 +75,19 @@
   ~ mathematized   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-    Prussia   ⟨dict⟩  → glossary
-  * Polish   ⟨dict⟩  → glossary
-    Greeks   ⟨dict⟩  → glossary
-    Ptolemy   ⟨dict,recur×6⟩  → glossary
-    Earth   ⟨recur×11⟩  → ?
-    Mercury   ⟨dict⟩  → glossary
-    Saturn   ⟨dict⟩  → glossary
-  * Lutheran   ⟨dict⟩  → glossary
-  * Flemish   ⟨dict⟩  → glossary
-    Venetian Republic   ⟨dict⟩  → glossary
-    Venice   ⟨dict⟩  → cross-link
-    Galen   ⟨dict,recur×6⟩  → event
-  * Venetian Renaissance   ⟨dict⟩  → glossary
-    Retrograde motion   ⟨bold⟩  → event/glossary
   ~ Toruń   ⟨⟩  (advisory)
   ~ Frombork Cathedral   ⟨⟩  (advisory)
   ~ Church   ⟨⟩  (advisory)
   ~ Catholic   ⟨recur×3⟩  (advisory)
   ~ Sun-centered   ⟨⟩  (advisory)
-  ~ Copernican   ⟨⟩  (advisory)
   ~ German   ⟨⟩  (advisory)
   ~ Catholic Church   ⟨dict⟩  (advisory)
   ~ Western Christianity   ⟨⟩  (advisory)
-  ~ Renaissance Italy Ch   ⟨⟩  (advisory)
   ~ Catholic Frombork   ⟨⟩  (advisory)
   ~ Nuremberg   ⟨⟩  (advisory)
   ~ De Revolutionibus Orbium Coelestium   ⟨⟩  (advisory)
   ~ Arthur Koestler   ⟨⟩  (advisory)
   ~ Revolutionibus   ⟨⟩  (advisory)
-  ~ Italy   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
   ~ Inquisition   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
@@ -134,7 +95,7 @@
   ~ Galenic   ⟨⟩  (advisory)
   ~ Harvey   ⟨⟩  (advisory)
   ~ in 1473   ⟨dict-lc⟩  (advisory)
-  ~ crown   ⟨dict-lc⟩  (advisory)
+  ~ planet's   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ a vast   ⟨dict-lc⟩  (advisory)
   ~ spinning   ⟨dict-lc⟩  (advisory)
@@ -193,34 +154,12 @@
   ~ believes   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Danish   ⟨dict,recur×3⟩  → glossary
-    Modern   ⟨dict,dict-lc⟩  → event
-    Aristotle   ⟨dict,recur×3⟩  → cross-link
-    Moon   ⟨recur×6⟩  → ?
-    Earth   ⟨recur×4⟩  → ?
-    Copernicus   ⟨dict,recur×3⟩  → event
-    Frederick II   ⟨dict⟩  → cross-link
-    Hven   ⟨recur×3⟩  → ?
-  * Denmark   ⟨dict⟩  → glossary
-    Sweden   ⟨dict⟩  → glossary
-    Royal Society   ⟨dict⟩  → cross-link
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Ulugh Beg   ⟨dict⟩  → event
-    Samarkand   ⟨dict⟩  → cross-link
-    Ming China   ⟨dict⟩  → cross-link
-  * Aristotelian   ⟨dict⟩  → glossary
-    Ptolemy   ⟨dict⟩  → glossary
-    Baghdad   ⟨dict⟩  → cross-link
-    Mars   ⟨dict⟩  → glossary
-    Johannes Kepler   ⟨dict⟩  → glossary
-    On Hven   ⟨pron⟩  → event/glossary
   ~ De Nova Stella   ⟨⟩  (advisory)
   ~ King of Denmark   ⟨⟩  (advisory)
   ~ Urania   ⟨⟩  (advisory)
   ~ Christian Europe   ⟨⟩  (advisory)
   ~ Mongol Persia   ⟨⟩  (advisory)
   ~ European Jesuits   ⟨⟩  (advisory)
-  ~ Copernican   ⟨⟩  (advisory)
   ~ Bible   ⟨dict⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
@@ -234,7 +173,6 @@
   ~ paper   ⟨dict-lc⟩  (advisory)
   ~ printing   ⟨dict-lc⟩  (advisory)
   ~ themes   ⟨dict-lc⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ trust   ⟨dict-lc⟩  (advisory)
   ~ nova   ⟨bold⟩  (advisory)
@@ -269,41 +207,30 @@
   ~ bladder   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Stuttgart   ⟨dict⟩  → glossary
-  * Lutheran   ⟨dict⟩  → glossary
-    Copernican   ⟨recur×3⟩  → ?
-    Greeks   ⟨dict⟩  → glossary
-    Copernicus   ⟨dict⟩  → event
-    Tycho Brahe   ⟨dict⟩  → cross-link
-    Mars   ⟨dict,recur×4⟩  → glossary
-    Tycho   ⟨recur×7⟩  → ?
-    Newton   ⟨dict⟩  → event
-    Harmonices Mundi   ⟨pron⟩  → event/glossary
   ~ Germany   ⟨dict⟩  (advisory)
   ~ University of Tübingen   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ Russian   ⟨⟩  (advisory)
-  ~ Earth   ⟨⟩  (advisory)
   ~ Prague   ⟨⟩  (advisory)
   ~ Earth-centered   ⟨⟩  (advisory)
   ~ Kepler the problem of the   ⟨⟩  (advisory)
   ~ Imperial Mathematician   ⟨⟩  (advisory)
   ~ Tychonic   ⟨⟩  (advisory)
-  ~ Moon   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Katharina   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
   ~ heliocentrism   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ it was the first   ⟨dict-lc⟩  (advisory)
   ~ temper   ⟨dict-lc,rare⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ reformation   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ it is a   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ first law   ⟨bold⟩  (advisory)
   ~ second law   ⟨bold⟩  (advisory)
   ~ third law   ⟨bold⟩  (advisory)
@@ -338,44 +265,21 @@
   ~ progression   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Pisa   ⟨dict⟩  → glossary
-    Michelangelo   ⟨dict⟩  → event
-    Shakespeare   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Earth   ⟨recur×4⟩  → ?
-    University of Padua   ⟨dict⟩  → glossary
-    Venetian Republic   ⟨dict⟩  → glossary
-    Aristotle   ⟨dict⟩  → cross-link
-  * Flemish   ⟨dict⟩  → glossary
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Cairo   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-  * Aristotelian   ⟨dict⟩  → glossary
-    Moon   ⟨recur×3⟩  → ?
-  * Jupiter   ⟨dict⟩  → glossary
-    Copernicus   ⟨dict⟩  → event
-    Florence   ⟨dict⟩  → glossary
-    Venus   ⟨dict,recur×4⟩  → glossary
-    Ptolemaic   ⟨dict⟩  → glossary
-    Ptolemy   ⟨dict⟩  → glossary
   ~ Prague   ⟨⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
   ~ Italian   ⟨⟩  (advisory)
-  ~ Leaning Tower of Pisa   ⟨⟩  (advisory)
   ~ Venice of a Dutch   ⟨⟩  (advisory)
   ~ Milky Way   ⟨⟩  (advisory)
-  ~ Copernican   ⟨⟩  (advisory)
   ~ Medicean Stars   ⟨⟩  (advisory)
-  ~ Ptolemy's Earth-centered   ⟨⟩  (advisory)
-  ~ Tycho   ⟨⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
   ~ the father   ⟨dict-lc⟩  (advisory)
+  ~ scholarly Latin   ⟨dict-lc⟩  (advisory)
   ~ bronze   ⟨dict-lc⟩  (advisory)
   ~ weights   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ prince   ⟨dict-lc⟩  (advisory)
   ~ epicycle   ⟨dict-lc,rare⟩  (advisory)
-  ~ moons orbiting Jupiter   ⟨bold⟩  (advisory)
   ~ sunspots   ⟨bold,rare⟩  (advisory)
   ~ deriving   ⟨rare⟩  (advisory)
   ~ playwright   ⟨rare⟩  (advisory)
@@ -405,25 +309,11 @@
   ~ relish   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-    Scripture   ⟨recur×4⟩  → ?
-    Protestant Reformation   ⟨dict⟩  → glossary
-  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
-    Copernicus   ⟨dict⟩  → event
-  * Aristotelian   ⟨dict⟩  → glossary
-    Simplicio   ⟨gloss,bold⟩  → glossary
-    Florence   ⟨dict⟩  → glossary
-    Padua   ⟨dict⟩  → cross-link
-    Dutch Republic   ⟨dict⟩  → cross-link
-    Newton   ⟨dict⟩  → event
-    Descartes   ⟨dict⟩  → glossary
-    or teach in any way   ⟨gloss⟩  → glossary
-    "Eppur si muove,"   ⟨gloss⟩  → glossary
   ~ Church   ⟨recur×9⟩  (advisory)
   ~ Catholic Church   ⟨dict⟩  (advisory)
   ~ Renaissance Italy Ch   ⟨⟩  (advisory)
   ~ Catholic   ⟨recur×3⟩  (advisory)
   ~ Protestantism   ⟨⟩  (advisory)
-  ~ Protestant   ⟨recur×3⟩  (advisory)
   ~ Brahe   ⟨⟩  (advisory)
   ~ Letter   ⟨⟩  (advisory)
   ~ Grand Duchess Christina   ⟨⟩  (advisory)
@@ -437,9 +327,7 @@
   ~ Catholic Europe   ⟨⟩  (advisory)
   ~ Germany   ⟨dict⟩  (advisory)
   ~ Rome   ⟨dict⟩  (advisory)
-  ~ Eppur   ⟨⟩  (advisory)
   ~ Netherlands   ⟨⟩  (advisory)
-  ~ Protestant Dutch Republic   ⟨⟩  (advisory)
   ~ England   ⟨⟩  (advisory)
   ~ counts   ⟨dict-lc⟩  (advisory)
   ~ heliocentrism   ⟨dict-lc,rare⟩  (advisory)
@@ -450,7 +338,6 @@
   ~ prohibition   ⟨dict-lc⟩  (advisory)
   ~ injunction   ⟨dict-lc,rare⟩  (advisory)
   ~ the Inquisition   ⟨dict-lc⟩  (advisory)
-  ~ the Dutch Republic   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ strewn   ⟨rare⟩  (advisory)
@@ -479,27 +366,17 @@
   ~ printer   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Scholastic   ⟨dict⟩  → event
-    Idols   ⟨bold⟩  → event/glossary
-    Royal Society   ⟨dict⟩  → cross-link
-    Cairo   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Latin   ⟨dict⟩  → cross-link
-  * Persian   ⟨dict⟩  → cross-link
-    Newton   ⟨dict⟩  → event
   ~ Englishman   ⟨⟩  (advisory)
   ~ Lord Chancellor   ⟨⟩  (advisory)
   ~ England   ⟨⟩  (advisory)
   ~ King James   ⟨⟩  (advisory)
   ~ Scottish   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
-  ~ Idols of the Tribe   ⟨⟩  (advisory)
   ~ Cave   ⟨⟩  (advisory)
   ~ Marketplace   ⟨⟩  (advisory)
   ~ Theatre   ⟨⟩  (advisory)
   ~ Salomon's House   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
-  ~ Haytham   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
   ~ Catholic   ⟨⟩  (advisory)
   ~ CART   ⟨⟩  (advisory)
@@ -512,7 +389,6 @@
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ prophet   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
   ~ reconstruction   ⟨dict-lc⟩  (advisory)
   ~ he took   ⟨dict-lc⟩  (advisory)
@@ -568,20 +444,6 @@
   ~ usefulness   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Galen   ⟨dict,recur×3⟩  → event
-    Vesalius   ⟨dict⟩  → event
-    Padua   ⟨dict⟩  → cross-link
-  * Galileo   ⟨dict⟩  → event
-  * Charles   ⟨dict⟩  → glossary
-    Parliament   ⟨dict⟩  → glossary
-    Cairo   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Arabic   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-  * Kepler   ⟨dict⟩  → glossary
-    Mars   ⟨dict⟩  → glossary
-    Descartes   ⟨dict⟩  → glossary
   ~ English   ⟨⟩  (advisory)
   ~ Englishman   ⟨⟩  (advisory)
   ~ England   ⟨⟩  (advisory)
@@ -594,6 +456,7 @@
   ~ assumption   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ air-pump.   ⟨dict-lc⟩  (advisory)
@@ -638,13 +501,6 @@
   ~ optimism   ⟨rare⟩  (advisory)
 
 ## Chapter 9
-  * Aristotelian   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-  * Galileo   ⟨dict⟩  → event
-    Medici   ⟨dict⟩  → event
-    Florence   ⟨dict⟩  → glossary
-    Puy de Dôme   ⟨bold⟩  → event/glossary
-    Holy Roman Emperor   ⟨dict⟩  → glossary
   ~ Frenchman   ⟨⟩  (advisory)
   ~ Islamic   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
@@ -688,21 +544,16 @@
   ~ experimenter   ⟨rare⟩  (advisory)
 
 ## Chapter 10
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Aristotle   ⟨dict⟩  → cross-link
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Royal Society   ⟨dict⟩  → cross-link
-    Oxford   ⟨dict⟩  → event
   ~ Europeans   ⟨⟩  (advisory)
   ~ Guericke   ⟨⟩  (advisory)
   ~ Earl of Cork   ⟨⟩  (advisory)
   ~ Britain   ⟨dict⟩  (advisory)
-  ~ Islamic   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Cartesian   ⟨⟩  (advisory)
   ~ counts   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ notebooks   ⟨dict-lc,rare⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ elements   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ superstition   ⟨dict-lc⟩  (advisory)
@@ -741,18 +592,6 @@
   ~ revisable   ⟨rare⟩  (advisory)
 
 ## Chapter 11
-    Descartes   ⟨dict⟩  → glossary
-    Pierre de Fermat   ⟨dict⟩  → glossary
-  * Galileo   ⟨dict⟩  → event
-  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
-    Oxford   ⟨dict⟩  → event
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Latin   ⟨dict⟩  → cross-link
-    Scholastic   ⟨dict⟩  → event
-    Parliament   ⟨dict⟩  → glossary
-    Thirty Years' War   ⟨dict⟩  → cross-link
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-  ~ Europe   ⟨⟩  (advisory)
   ~ Pascal   ⟨⟩  (advisory)
   ~ Boyle   ⟨⟩  (advisory)
   ~ Stuart   ⟨⟩  (advisory)
@@ -805,40 +644,22 @@
   ~ outliving   ⟨rare⟩  (advisory)
 
 ## Chapter 12
-    Dutch Republic   ⟨dict⟩  → cross-link
-    Hans Lippershey   ⟨dict⟩  → event
-    Amsterdam   ⟨dict⟩  → glossary
-    Renaissance Italy   ⟨dict⟩  → cross-link
-  * Galileo   ⟨dict⟩  → event
-    Newton   ⟨dict⟩  → event
-    Saturn   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Louis XIV   ⟨dict⟩  → event
-    Mars   ⟨dict,recur×3⟩  → glossary
-    Paris   ⟨dict⟩  → glossary
-    Copernicus   ⟨dict⟩  → event
-  * Danish   ⟨dict⟩  → glossary
-    Descartes   ⟨dict⟩  → glossary
-    Giordano Bruno   ⟨dict⟩  → event
   ~ With the institutions   ⟨⟩  (advisory)
   ~ Italian   ⟨⟩  (advisory)
-  ~ Paris Observatory   ⟨⟩  (advisory)
   ~ Académie   ⟨⟩  (advisory)
   ~ French Guiana   ⟨⟩  (advisory)
   ~ South America   ⟨⟩  (advisory)
-  ~ Earth   ⟨⟩  (advisory)
   ~ Heaven   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
   ~ Conversations   ⟨⟩  (advisory)
   ~ Plurality of Worlds   ⟨⟩  (advisory)
   ~ telescope   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Dutch Republic   ⟨dict-lc⟩  (advisory)
   ~ pendulum clock   ⟨dict-lc⟩  (advisory)
   ~ barometer   ⟨dict-lc,rare⟩  (advisory)
   ~ air-pump   ⟨dict-lc⟩  (advisory)
   ~ the Dutch   ⟨dict-lc⟩  (advisory)
-  ~ republic   ⟨dict-lc⟩  (advisory)
   ~ his brother   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ parallax   ⟨dict-lc,rare⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ the salon   ⟨dict-lc⟩  (advisory)
@@ -873,20 +694,11 @@
   ~ fashionable   ⟨rare⟩  (advisory)
 
 ## Chapter 13
-    Dutch   ⟨dict,recur×3⟩  → glossary
-    Saturn   ⟨dict⟩  → glossary
-    Royal Society   ⟨dict⟩  → cross-link
-    Delft   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-  ~ Society   ⟨⟩  (advisory)
-  ~ Earth   ⟨⟩  (advisory)
   ~ Italian   ⟨⟩  (advisory)
   ~ Pasteur   ⟨⟩  (advisory)
   ~ telescope   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
-  ~ the Dutch   ⟨dict-lc⟩  (advisory)
   ~ glass beads   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ blockbuster   ⟨rare⟩  (advisory)
@@ -928,32 +740,17 @@
   ~ askable   ⟨rare⟩  (advisory)
 
 ## Chapter 14
-  * Kepler   ⟨dict⟩  → glossary
-  * Galileo   ⟨dict⟩  → event
-    Principia   ⟨dict⟩  → glossary
-    Descartes   ⟨dict⟩  → glossary
-    John Locke   ⟨dict⟩  → event
-    Arabic   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Newton   ⟨dict⟩  → event
-    Cambridge   ⟨dict⟩  → glossary
-    Blaise Pascal   ⟨dict⟩  → glossary
-    Christiaan Huygens   ⟨dict⟩  → event
   ~ Running   ⟨⟩  (advisory)
   ~ Boyle   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Indian   ⟨⟩  (advisory)
-  ~ Islamic   ⟨⟩  (advisory)
   ~ Scottish   ⟨⟩  (advisory)
   ~ Tycho-grade   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
-  ~ Tycho   ⟨⟩  (advisory)
-  ~ Pascal   ⟨⟩  (advisory)
   ~ Isaac Barrow   ⟨⟩  (advisory)
   ~ Leibniz   ⟨⟩  (advisory)
   ~ Chapters   ⟨⟩  (advisory)
   ~ Frenchmen   ⟨⟩  (advisory)
-  ~ Huygens   ⟨⟩  (advisory)
   ~ Rømer   ⟨⟩  (advisory)
   ~ Bacon   ⟨⟩  (advisory)
   ~ ellipses   ⟨dict-lc,rare⟩  (advisory)
@@ -988,19 +785,10 @@
   ~ mathematization   ⟨rare⟩  (advisory)
 
 ## Chapter 15
-  * Galileo   ⟨dict⟩  → event
-  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
-    London   ⟨dict⟩  → glossary
-    Descartes'   ⟨dict⟩  → glossary
-    Royal Society   ⟨dict⟩  → cross-link
-    Robert Hooke   ⟨dict,bold⟩  → glossary
-    Hooke   ⟨recur×4⟩  → ?
-    Edmond Halley   ⟨dict⟩  → glossary
   ~ Everything   ⟨⟩  (advisory)
   ~ Lincolnshire   ⟨⟩  (advisory)
   ~ Newtonians   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
-  ~ Moon   ⟨⟩  (advisory)
   ~ Lucasian Professor of Mathematics   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ Father   ⟨⟩  (advisory)
@@ -1009,13 +797,11 @@
   ~ Newton's England   ⟨⟩  (advisory)
   ~ Society's Curator of Experiments   ⟨⟩  (advisory)
   ~ Chapters   ⟨⟩  (advisory)
-  ~ Society   ⟨⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ alchemy   ⟨dict-lc,bold,rare⟩  (advisory)
   ~ plague   ⟨dict-lc,bold⟩  (advisory)
   ~ bubonic plague   ⟨dict-lc⟩  (advisory)
   ~ the doctrine of   ⟨dict-lc⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ thirty years   ⟨dict-lc⟩  (advisory)
   ~ theology   ⟨bold⟩  (advisory)
   ~ prematurely   ⟨rare⟩  (advisory)
@@ -1051,36 +837,22 @@
   ~ coffeehouse   ⟨rare⟩  (advisory)
 
 ## Chapter 16
-    London   ⟨dict⟩  → glossary
-    Royal Society   ⟨dict⟩  → cross-link
-    Robert Hooke   ⟨dict⟩  → glossary
-  * Kepler   ⟨dict⟩  → glossary
-    Newton   ⟨dict,recur×9⟩  → event
-    Cambridge   ⟨dict⟩  → glossary
-    Earth   ⟨recur×3⟩  → ?
-  * Aristotelian   ⟨dict⟩  → glossary
-  * Galileo   ⟨dict⟩  → event
-    Moon   ⟨recur×3⟩  → ?
-    Hipparchus   ⟨dict⟩  → glossary
-    Aristotle   ⟨dict⟩  → cross-link
-    Descartes'   ⟨dict⟩  → glossary
   ~ England   ⟨⟩  (advisory)
   ~ St Paul   ⟨⟩  (advisory)
   ~ Abraham de Moivre   ⟨⟩  (advisory)
   ~ European   ⟨⟩  (advisory)
   ~ Mathematical Principles of Natural Philosophy   ⟨⟩  (advisory)
-  ~ Hooke   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
-  ~ Tycho   ⟨⟩  (advisory)
   ~ Rome   ⟨dict⟩  (advisory)
   ~ Continental   ⟨⟩  (advisory)
   ~ Newtonian   ⟨⟩  (advisory)
   ~ pestered by mathematical dabblers   ⟨def⟩  (advisory)
   ~ nemesis   ⟨dict-lc,rare⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ inverse-square law.   ⟨dict-lc⟩  (advisory)
+  ~ planet   ⟨dict-lc⟩  (advisory)
   ~ paper   ⟨dict-lc⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ assumption   ⟨dict-lc⟩  (advisory)
   ~ quintessence   ⟨dict-lc,rare⟩  (advisory)
   ~ elements   ⟨dict-lc⟩  (advisory)
@@ -1125,31 +897,20 @@
   ~ ugliest   ⟨rare⟩  (advisory)
 
 ## Chapter 17
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Paris   ⟨dict⟩  → glossary
-    Newton   ⟨dict,recur×7⟩  → event
-    Principia   ⟨dict⟩  → glossary
-    London   ⟨dict⟩  → glossary
-    Royal Society   ⟨dict⟩  → cross-link
-    Pierre-Simon Laplace   ⟨dict⟩  → glossary
-    Enlightenment   ⟨dict⟩  → cross-link
   ~ British   ⟨⟩  (advisory)
   ~ German   ⟨⟩  (advisory)
   ~ Leibniz of plagiarism   ⟨⟩  (advisory)
-  ~ Newton of inventing   ⟨⟩  (advisory)
   ~ Fellow   ⟨⟩  (advisory)
-  ~ Society   ⟨⟩  (advisory)
   ~ Commercium Epistolicum   ⟨⟩  (advisory)
   ~ Continental   ⟨⟩  (advisory)
   ~ Bernoulli   ⟨⟩  (advisory)
   ~ Joseph-Louis Lagrange   ⟨⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ thirty years   ⟨dict-lc⟩  (advisory)
   ~ two nations   ⟨dict-lc⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ magnificent   ⟨dict-lc⟩  (advisory)
-  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
   ~ notation   ⟨bold⟩  (advisory)
   ~ infinitely   ⟨rare⟩  (advisory)
   ~ journals   ⟨rare⟩  (advisory)
@@ -1176,14 +937,6 @@
   ~ retard   ⟨rare⟩  (advisory)
 
 ## Chapter 18
-    Latin   ⟨dict⟩  → cross-link
-    Newton   ⟨dict,recur×8⟩  → event
-    Principia   ⟨dict,recur×4⟩  → glossary
-    Cambridge   ⟨dict⟩  → glossary
-    Parliament   ⟨dict⟩  → glossary
-    Mary   ⟨dict⟩  → glossary
-    Enlightenment   ⟨dict⟩  → cross-link
-    Scientific Revolution   ⟨dict⟩  → cross-link
   ~ Western   ⟨⟩  (advisory)
   ~ Great Recoinage   ⟨⟩  (advisory)
   ~ President of the Royal Society   ⟨⟩  (advisory)
@@ -1200,7 +953,6 @@
   ~ James II   ⟨⟩  (advisory)
   ~ Protestant William   ⟨⟩  (advisory)
   ~ Lockean   ⟨⟩  (advisory)
-  ~ Enlightenment Ch   ⟨⟩  (advisory)
   ~ Richard Bentley   ⟨⟩  (advisory)
   ~ Samuel Clarke   ⟨⟩  (advisory)
   ~ Boyle   ⟨⟩  (advisory)
@@ -1219,7 +971,6 @@
   ~ natural rights   ⟨dict-lc⟩  (advisory)
   ~ conditions   ⟨dict-lc⟩  (advisory)
   ~ reconstruction   ⟨dict-lc⟩  (advisory)
-  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ philosophes   ⟨dict-lc,rare⟩  (advisory)
   ~ clockwork universe   ⟨bold⟩  (advisory)
@@ -1250,21 +1001,8 @@
   ~ convictions   ⟨rare⟩  (advisory)
 
 ## Chapter 19
-    Scientific Revolution   ⟨dict,recur×4⟩  → cross-link
-    Principia   ⟨dict,recur×3⟩  → glossary
-  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
-    Newton   ⟨dict⟩  → event
-  * Kepler   ⟨dict⟩  → glossary
-    Republic of Letters   ⟨dict⟩  → glossary
-    Royal Society   ⟨dict⟩  → cross-link
-    Dutch   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Jesuit   ⟨dict⟩  → event
-    Ming   ⟨dict⟩  → cross-link
-    Women   ⟨bold⟩  → event/glossary
   ~ Europeans   ⟨⟩  (advisory)
   ~ European   ⟨recur×3⟩  (advisory)
-  ~ Europe   ⟨recur×3⟩  (advisory)
   ~ Massachusetts   ⟨⟩  (advisory)
   ~ Fellows   ⟨⟩  (advisory)
   ~ Boyle   ⟨⟩  (advisory)
@@ -1274,25 +1012,20 @@
   ~ Christian European   ⟨⟩  (advisory)
   ~ Fellow   ⟨⟩  (advisory)
   ~ German   ⟨⟩  (advisory)
-  ~ Maria Winkelmann   ⟨⟩  (advisory)
   ~ French   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Atlantic   ⟨dict⟩  (advisory)
   ~ India   ⟨⟩  (advisory)
-  ~ Islamic   ⟨⟩  (advisory)
   ~ Battani   ⟨⟩  (advisory)
   ~ Maragha   ⟨⟩  (advisory)
   ~ China   ⟨dict⟩  (advisory)
   ~ Tang-Song China Ch   ⟨⟩  (advisory)
-  ~ Ming Dynasty Ch   ⟨⟩  (advisory)
   ~ apology   ⟨dict-lc⟩  (advisory)
   ~ witchcraft   ⟨dict-lc,rare⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ reason's   ⟨dict-lc⟩  (advisory)
   ~ alchemy   ⟨dict-lc,rare⟩  (advisory)
   ~ superstition   ⟨dict-lc⟩  (advisory)
-  ~ republic   ⟨dict-lc⟩  (advisory)
-  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
   ~ vacuum   ⟨dict-lc⟩  (advisory)
   ~ longitude   ⟨dict-lc,rare⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
@@ -1324,38 +1057,6 @@
   ~ attitude   ⟨rare⟩  (advisory)
 
 ## Chapter 20
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Paris   ⟨dict⟩  → glossary
-  * Galileo   ⟨dict⟩  → event
-  * Aristotelian   ⟨dict⟩  → glossary
-    Cambridge   ⟨dict⟩  → glossary
-  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
-    Islamic Golden Age   ⟨dict⟩  → cross-link
-    Renaissance Italy   ⟨dict⟩  → cross-link
-  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
-  * Kepler   ⟨dict⟩  → glossary
-    Newton   ⟨dict,recur×4⟩  → event
-    Principia   ⟨dict⟩  → glossary
-    Voltaire   ⟨dict⟩  → glossary
-  * Locke   ⟨dict⟩  → glossary
-    Enlightenment   ⟨dict⟩  → cross-link
-    Political fragmentation   ⟨bold⟩  → event/glossary
-  ~ Europe   ⟨recur×6⟩  (advisory)
-  ~ Oxford Calculators   ⟨⟩  (advisory)
-  ~ Merton College   ⟨⟩  (advisory)
-  ~ Nicole Oresme   ⟨⟩  (advisory)
-  ~ From the other   ⟨⟩  (advisory)
-  ~ Newtonian   ⟨⟩  (advisory)
-  ~ Chapters   ⟨⟩  (advisory)
-  ~ Earth   ⟨⟩  (advisory)
-  ~ Ming Dynasty Ch   ⟨⟩  (advisory)
-  ~ Islamic   ⟨⟩  (advisory)
-  ~ Renaissance Italy Ch   ⟨⟩  (advisory)
-  ~ European   ⟨⟩  (advisory)
-  ~ Tycho   ⟨⟩  (advisory)
-  ~ Halley   ⟨⟩  (advisory)
-  ~ Europeans   ⟨⟩  (advisory)
-  ~ Enlightenment Ch   ⟨⟩  (advisory)
   ~ a vast   ⟨dict-lc⟩  (advisory)
   ~ paper   ⟨dict-lc⟩  (advisory)
   ~ printing   ⟨dict-lc⟩  (advisory)

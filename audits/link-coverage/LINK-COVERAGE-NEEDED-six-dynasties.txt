@@ -4,24 +4,6 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Daoist   ⟨dict,recur×4⟩  → glossary
-    Yellow River   ⟨dict⟩  → cross-link
-    Huang Gai   ⟨bold⟩  → event/glossary
-    Roman Empire   ⟨dict⟩  → cross-link
-    Crisis of the Third Century   ⟨dict⟩  → cross-link
-    Silk Road   ⟨dict⟩  → cross-link
-    Memorial   ⟨dict,dict-lc⟩  → glossary
-    Tang   ⟨dict⟩  → cross-link
-    Zhong Rong   ⟨dict,bold⟩  → event
-    Shipin   ⟨dict⟩  → glossary
-    Henan   ⟨dict⟩  → glossary
-    Confucian   ⟨dict⟩  → cross-link
-    Six Dynasties   ⟨dict⟩  → cross-link
-    Zhuang Zhou   ⟨dict⟩  → glossary
-    Daoism   ⟨dict⟩  → glossary
-    Chen Shou   ⟨bold⟩  → event/glossary
-  * Vietnamese   ⟨dict⟩  → glossary
-    Jin   ⟨bold⟩  → event/glossary
   ~ Chinese   ⟨recur×12⟩  (advisory)
   ~ TSOW TSOW   ⟨⟩  (advisory)
   ~ LYOH BAY   ⟨⟩  (advisory)
@@ -53,11 +35,9 @@
   ~ RWAHN JEE   ⟨⟩  (advisory)
   ~ SHEE KAHNG   ⟨⟩  (advisory)
   ~ Guangling Recollection   ⟨⟩  (advisory)
-  ~ Neo-Daoism   ⟨⟩  (advisory)
   ~ GWOH   ⟨⟩  (advisory)
   ~ Sanguozhi   ⟨⟩  (advisory)
   ~ CHEN SHOW   ⟨⟩  (advisory)
-  ~ Shou   ⟨⟩  (advisory)
   ~ Sanguozhi Yanyi   ⟨⟩  (advisory)
   ~ East Asian   ⟨⟩  (advisory)
   ~ Japanese   ⟨⟩  (advisory)
@@ -70,11 +50,13 @@
   ~ warlords   ⟨dict-lc⟩  (advisory)
   ~ delta   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ abdication   ⟨dict-lc⟩  (advisory)
   ~ first emperor   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ the wise   ⟨dict-lc⟩  (advisory)
   ~ talent   ⟨dict-lc⟩  (advisory)
   ~ northern expedition   ⟨dict-lc⟩  (advisory)
@@ -140,16 +122,8 @@
   ~ reunifying   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-    Emperor Wu   ⟨dict⟩  → glossary
-    Central Asia   ⟨dict⟩  → glossary
     Arabic   ⟨dict⟩  → glossary
-  * Chinese-style   ⟨dict⟩  → glossary
-    Western Jin   ⟨dict⟩  → glossary
-    Emperor Min   ⟨bold⟩  → event/glossary
-    Visigoths   ⟨dict⟩  → event
-  ~ Emperor Wu of Jin   ⟨bold⟩  (advisory)
   ~ Chinese   ⟨recur×16⟩  (advisory)
-  ~ Wu of Jin   ⟨⟩  (advisory)
   ~ HWAY   ⟨⟩  (advisory)
   ~ China   ⟨dict,recur×4⟩  (advisory)
   ~ Wu Hu   ⟨⟩  (advisory)
@@ -183,25 +157,7 @@
   ~ kaleidoscope   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Sixteen Kingdoms   ⟨dict,recur×3⟩  → cross-link
-    Liu Yuan   ⟨dict⟩  → event
-    Yellow River   ⟨dict⟩  → cross-link
-    Qiang   ⟨dict⟩  → glossary
-    Chang'an   ⟨dict⟩  → cross-link
-    Silk Road   ⟨dict⟩  → cross-link
-  * Central Asian   ⟨dict⟩  → glossary
-    Han Chinese   ⟨dict⟩  → cross-link
-    Eastern Jin   ⟨dict,recur×3⟩  → event
-    Yangtze   ⟨dict⟩  → glossary
-    Xie Lingyun   ⟨dict,bold⟩  → event
-  * Chinese-style   ⟨dict⟩  → glossary
-    Western Jin   ⟨dict⟩  → glossary
-    Confucian   ⟨dict⟩  → cross-link
-    Six Dynasties   ⟨dict⟩  → cross-link
-    Han-Zhao   ⟨bold⟩  → event/glossary
   ~ Northern China   ⟨⟩  (advisory)
-  ~ Chinese   ⟨recur×15⟩  (advisory)
-  ~ Yuan's Han-Zhao   ⟨⟩  (advisory)
   ~ SHUH LUH   ⟨⟩  (advisory)
   ~ JOWL   ⟨⟩  (advisory)
   ~ China   ⟨dict,recur×6⟩  (advisory)
@@ -216,11 +172,11 @@
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ slavery   ⟨dict-lc⟩  (advisory)
   ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
   ~ vanguard   ⟨dict-lc⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
-  ~ eastern   ⟨dict-lc⟩  (advisory)
   ~ cavalry   ⟨dict-lc⟩  (advisory)
   ~ collapse.   ⟨dict-lc⟩  (advisory)
   ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
@@ -239,28 +195,6 @@
   ~ attitudes   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Luoyang   ⟨dict⟩  → event
-    Chang'an   ⟨dict⟩  → cross-link
-    Xies   ⟨bold⟩  → event/glossary
-    Huans   ⟨bold⟩  → event/glossary
-    Eastern Jin   ⟨dict,bold,recur×8⟩  → event
-    Jiankang   ⟨dict,pron,bold⟩  → glossary
-    Nanjing   ⟨dict⟩  → glossary
-    Yangtze River   ⟨dict⟩  → glossary
-    Yangtze   ⟨dict,recur×3⟩  → glossary
-    Yellow River   ⟨dict⟩  → cross-link
-    Southeast Asia   ⟨dict⟩  → glossary
-    Persian Gulf   ⟨dict⟩  → cross-link
-    Tang   ⟨dict⟩  → cross-link
-    Xie Xuan   ⟨dict⟩  → glossary
-    Battle of Fei River   ⟨dict⟩  → event
-    Du Fu   ⟨dict⟩  → event
-    Li Bai   ⟨dict⟩  → event
-    Zang Shu   ⟨gloss⟩  → glossary
-    Liu Bang   ⟨dict⟩  → event
-    Yue   ⟨pron,bold⟩  → event/glossary
-    Yus   ⟨bold⟩  → event/glossary
-    Wang family   ⟨bold⟩  → event/glossary
   ~ Chinese   ⟨recur×16⟩  (advisory)
   ~ WAHNG DOW   ⟨⟩  (advisory)
   ~ WAHNG DWIN   ⟨⟩  (advisory)
@@ -285,10 +219,12 @@
   ~ prince   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
+  ~ irrigation   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ demographic   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ maritime trade   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ oracle bone inscriptions   ⟨dict-lc⟩  (advisory)
@@ -298,6 +234,7 @@
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ landscape poetry   ⟨dict-lc,bold⟩  (advisory)
   ~ last Jin emperor   ⟨dict-lc⟩  (advisory)
+  ~ southern dynasties   ⟨dict-lc⟩  (advisory)
   ~ destabilize   ⟨rare⟩  (advisory)
   ~ glazing   ⟨rare⟩  (advisory)
   ~ stoneware   ⟨rare⟩  (advisory)
@@ -334,45 +271,6 @@
   ~ siting   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Luoyang   ⟨dict⟩  → event
-    Central Asia   ⟨dict,recur×3⟩  → glossary
-  * Central Asian   ⟨dict⟩  → glossary
-    Confucian   ⟨dict,recur×4⟩  → cross-link
-    Yellow Turban Rebellion   ⟨dict⟩  → glossary
-    Confucianism   ⟨dict⟩  → glossary
-    Daoism   ⟨dict⟩  → glossary
-    Indo-European   ⟨dict⟩  → glossary
-    Latin   ⟨dict⟩  → cross-link
-    Daoist   ⟨dict,recur×5⟩  → glossary
-    Silk Road   ⟨dict⟩  → cross-link
-    Chang'an   ⟨dict⟩  → cross-link
-    Tiantai   ⟨dict⟩  → glossary
-    Huayan   ⟨dict⟩  → glossary
-    Ganges   ⟨dict⟩  → glossary
-    Sri Lanka   ⟨dict⟩  → glossary
-    Lumbini   ⟨dict⟩  → event
-    Bodh Gaya   ⟨dict⟩  → glossary
-    Sarnath   ⟨dict⟩  → event
-    Kushinagar   ⟨dict⟩  → glossary
-    Southeast Asia   ⟨dict⟩  → glossary
-    Xuanzang   ⟨dict,pron,bold⟩  → cross-link
-  * Journey   ⟨dict,dict-lc⟩  → glossary
-    Gupta Empire   ⟨dict,bold⟩  → cross-link
-    Gupta   ⟨dict⟩  → cross-link
-    Six Dynasties   ⟨dict,recur×3⟩  → cross-link
-    Shaolin Monastery   ⟨dict,bold⟩  → event
-    Paramartha   ⟨dict,bold⟩  → event
-    Jiankang   ⟨dict⟩  → glossary
-    Lushan   ⟨dict⟩  → event
-    Seon   ⟨dict⟩  → glossary
-  * Vietnamese   ⟨dict⟩  → glossary
-    Emperor Wu of Liang   ⟨dict,bold⟩  → event
-    Yangtze   ⟨dict⟩  → glossary
-    Mount Song   ⟨dict⟩  → glossary
-    Zhouhou Beiji Fang   ⟨gloss⟩  → glossary
-    Tao Yuanming   ⟨dict⟩  → event
-    dhyana   ⟨gloss,dict-lc,rare⟩  → glossary
-    Buddhabhadra   ⟨bold⟩  → event/glossary
   ~ China   ⟨dict,recur×12⟩  (advisory)
   ~ Buddhist   ⟨dict,recur×18⟩  (advisory)
   ~ Chinese   ⟨recur×26⟩  (advisory)
@@ -380,7 +278,6 @@
   ~ English   ⟨⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
   ~ Sino-Tibetan   ⟨⟩  (advisory)
-  ~ European   ⟨⟩  (advisory)
   ~ Chinese Buddhist   ⟨recur×4⟩  (advisory)
   ~ Indian   ⟨recur×8⟩  (advisory)
   ~ Kuchan   ⟨⟩  (advisory)
@@ -392,7 +289,6 @@
   ~ Chinese Buddhism   ⟨⟩  (advisory)
   ~ Record of Buddhist Kingdoms   ⟨⟩  (advisory)
   ~ Tang-dynasty   ⟨⟩  (advisory)
-  ~ West   ⟨⟩  (advisory)
   ~ Emperor Xiaowen of Northern Wei   ⟨⟩  (advisory)
   ~ Mind-Only   ⟨⟩  (advisory)
   ~ South Asian   ⟨⟩  (advisory)
@@ -417,7 +313,6 @@
   ~ Nobel Prize   ⟨⟩  (advisory)
   ~ Medicine   ⟨⟩  (advisory)
   ~ Highest Clarity   ⟨⟩  (advisory)
-  ~ Wu of Liang   ⟨⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ the Buddha   ⟨dict-lc⟩  (advisory)
   ~ collapse   ⟨dict-lc⟩  (advisory)
@@ -432,7 +327,6 @@
   ~ thirty years.   ⟨dict-lc⟩  (advisory)
   ~ enlightenment   ⟨dict-lc⟩  (advisory)
   ~ women   ⟨dict-lc⟩  (advisory)
-  ~ crossed the Yangtze   ⟨dict-lc⟩  (advisory)
   ~ alchemy   ⟨dict-lc,rare⟩  (advisory)
   ~ arsenic   ⟨dict-lc,rare⟩  (advisory)
   ~ charcoal   ⟨dict-lc⟩  (advisory)
@@ -477,28 +371,8 @@
 
 ## Chapter 6
     Northern Wei   ⟨dict,bold,recur×11⟩  → cross-link
-    Sinicization   ⟨dict,recur×4⟩  → glossary
-    Tuoba   ⟨dict,recur×3⟩  → glossary
-    Great Wall   ⟨dict⟩  → event
-    Xianbei   ⟨dict,recur×6⟩  → glossary
-    Buddhism   ⟨dict⟩  → cross-link
-  * Central Asian   ⟨dict⟩  → glossary
     Gandhara   ⟨dict⟩  → glossary
-    Pakistan   ⟨dict⟩  → glossary
-    Taklamakan Desert   ⟨dict⟩  → glossary
-    Daoist   ⟨dict⟩  → glossary
-    Han Chinese   ⟨dict,recur×3⟩  → cross-link
-    Central Asia   ⟨dict⟩  → glossary
-    Confucian   ⟨dict⟩  → cross-link
-    Bodhidharma   ⟨dict⟩  → cross-link
-    Chan Buddhism   ⟨dict⟩  → event
-    Tang   ⟨dict⟩  → cross-link
-    Taiwu   ⟨bold⟩  → event/glossary
-  ~ Chinese   ⟨recur×17⟩  (advisory)
-  ~ Confucian-educated   ⟨⟩  (advisory)
   ~ Pingcheng   ⟨⟩  (advisory)
-  ~ Emperor Taiwu   ⟨⟩  (advisory)
-  ~ Chinese Buddhism   ⟨⟩  (advisory)
   ~ Greek   ⟨dict⟩  (advisory)
   ~ Indian   ⟨⟩  (advisory)
   ~ Chinese Buddhist   ⟨⟩  (advisory)
@@ -518,6 +392,7 @@
   ~ the Buddha   ⟨dict-lc⟩  (advisory)
   ~ elements   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ pilgrims   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ classical Chinese   ⟨dict-lc⟩  (advisory)
@@ -526,6 +401,7 @@
   ~ markets   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ roots.   ⟨dict-lc⟩  (advisory)
+  ~ southern dynasties.   ⟨dict-lc⟩  (advisory)
   ~ the famous   ⟨dict-lc⟩  (advisory)
   ~ thousand years.   ⟨dict-lc⟩  (advisory)
   ~ karmic   ⟨rare⟩  (advisory)
@@ -547,44 +423,13 @@
   ~ splendor   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Southern Dynasties   ⟨bold,recur×5⟩  → event/glossary
-    Jiankang   ⟨dict,recur×6⟩  → glossary
-    Confucian   ⟨dict⟩  → cross-link
-    Liu Yu   ⟨dict⟩  → glossary
-    Eastern Jin   ⟨dict⟩  → event
-    Xiao Yan   ⟨bold⟩  → event/glossary
-    Buddhism   ⟨dict⟩  → cross-link
-  * Central Asian   ⟨dict⟩  → glossary
-  * Tibetan Buddhist   ⟨dict⟩  → glossary
-    Buddha   ⟨dict⟩  → cross-link
-    Mahayana Buddhism   ⟨dict⟩  → glossary
-    Kumarajiva   ⟨dict⟩  → event
-    Wang Xizhi   ⟨dict⟩  → cross-link
-    Tao Yuanming   ⟨dict⟩  → event
-    Cao Zhi   ⟨dict⟩  → event
-    Six Dynasties   ⟨dict⟩  → cross-link
-    Zhou   ⟨dict⟩  → glossary
-    Tang   ⟨dict,recur×3⟩  → cross-link
-  * Southeast Asian   ⟨dict⟩  → glossary
-  * Persian   ⟨dict⟩  → cross-link
-    Southeast Asia   ⟨dict⟩  → glossary
-    Silk Road   ⟨dict⟩  → cross-link
-    Great Southward Migration   ⟨dict⟩  → event
-    Persian Gulf   ⟨dict⟩  → cross-link
-    Zhejiang   ⟨dict⟩  → glossary
-    Yangtze   ⟨dict⟩  → glossary
-    Maritime trade   ⟨bold⟩  → event/glossary
   ~ China   ⟨dict,recur×4⟩  (advisory)
   ~ Chinese   ⟨recur×11⟩  (advisory)
   ~ LYOH SOONG   ⟨⟩  (advisory)
   ~ CHEE   ⟨⟩  (advisory)
   ~ AHNG   ⟨⟩  (advisory)
-  ~ Buddhist   ⟨dict,recur×9⟩  (advisory)
   ~ Chinese Buddhist   ⟨⟩  (advisory)
-  ~ Thai   ⟨⟩  (advisory)
-  ~ Buddha-nature   ⟨⟩  (advisory)
   ~ Indian   ⟨⟩  (advisory)
-  ~ Tang-dynasty Xuanzang   ⟨⟩  (advisory)
   ~ Mind-Only   ⟨⟩  (advisory)
   ~ Shelun   ⟨⟩  (advisory)
   ~ HOH JING   ⟨⟩  (advisory)
@@ -594,7 +439,6 @@
   ~ Music Bureau   ⟨⟩  (advisory)
   ~ Romeo   ⟨⟩  (advisory)
   ~ Juliet   ⟨⟩  (advisory)
-  ~ Maritime   ⟨⟩  (advisory)
   ~ India   ⟨⟩  (advisory)
   ~ LYOH HWAY   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
@@ -606,10 +450,10 @@
   ~ terror   ⟨dict-lc⟩  (advisory)
   ~ monastery   ⟨dict-lc⟩  (advisory)
   ~ ransom   ⟨dict-lc⟩  (advisory)
-  ~ the Buddha   ⟨dict-lc⟩  (advisory)
   ~ enlightenment   ⟨dict-lc⟩  (advisory)
   ~ earth.   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ siege.   ⟨dict-lc⟩  (advisory)
   ~ memorial   ⟨dict-lc⟩  (advisory)
   ~ compiled the   ⟨dict-lc⟩  (advisory)
@@ -672,52 +516,18 @@
   ~ proverbial   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Northern Zhou   ⟨dict,bold,recur×5⟩  → cross-link
-    Northern Wei   ⟨dict,recur×3⟩  → cross-link
-    Northern Qi   ⟨dict,bold⟩  → event
-    Xianbei   ⟨dict,recur×4⟩  → glossary
-    Han Chinese   ⟨dict,recur×3⟩  → cross-link
-    Six Dynasties   ⟨dict,recur×6⟩  → cross-link
-    Central Asia   ⟨dict⟩  → glossary
-    Tuoba   ⟨dict⟩  → glossary
-  * Central Asian   ⟨dict⟩  → glossary
-    Buddhism   ⟨dict⟩  → cross-link
-    Daoism   ⟨dict⟩  → glossary
-    Zhou   ⟨dict⟩  → glossary
-    Jiankang   ⟨dict⟩  → glossary
-    Yangtze   ⟨dict,recur×4⟩  → glossary
     Emperor Wen   ⟨dict⟩  → event
-    Yellow River   ⟨dict,recur×3⟩  → cross-link
-    Chang'an   ⟨dict⟩  → cross-link
-    Beijing   ⟨dict⟩  → glossary
     Great Southward Migration   ⟨dict⟩  → event
-    Song   ⟨dict⟩  → cross-link
-    Western Roman Empire   ⟨dict⟩  → cross-link
-    Sinicization   ⟨dict⟩  → glossary
-    Germanic   ⟨dict⟩  → cross-link
-    Pure Land Buddhism   ⟨dict⟩  → event
-    Chan   ⟨dict⟩  → glossary
-    Yungang   ⟨dict⟩  → glossary
-    Longmen   ⟨dict⟩  → glossary
-    Dunhuang   ⟨dict⟩  → glossary
-    Eastern Jin   ⟨dict⟩  → event
     Rong   ⟨dict⟩  → glossary
-    Silk Road   ⟨dict⟩  → cross-link
-    Persia   ⟨dict⟩  → cross-link
-    Tang China   ⟨dict⟩  → cross-link
     Chen dynasty   ⟨bold⟩  → event/glossary
-  ~ China   ⟨dict,recur×9⟩  (advisory)
   ~ Pass Region   ⟨⟩  (advisory)
-  ~ Northern Zhou Emperor Wu   ⟨⟩  (advisory)
   ~ WEN YONG   ⟨⟩  (advisory)
   ~ YAHNG   ⟨⟩  (advisory)
   ~ SWAY   ⟨⟩  (advisory)
   ~ Southern Dynasty   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
-  ~ Roman   ⟨dict⟩  (advisory)
   ~ Chinese Buddhist   ⟨⟩  (advisory)
   ~ Buddhist   ⟨dict⟩  (advisory)
-  ~ Southern Dynasties   ⟨⟩  (advisory)
   ~ Xizhi   ⟨⟩  (advisory)
   ~ Yuanming   ⟨⟩  (advisory)
   ~ Lingyun   ⟨⟩  (advisory)
@@ -730,7 +540,6 @@
   ~ Japan   ⟨dict⟩  (advisory)
   ~ Japanese   ⟨⟩  (advisory)
   ~ Asian   ⟨⟩  (advisory)
-  ~ Sinicization of northern   ⟨⟩  (advisory)
   ~ eastern rival   ⟨dict-lc⟩  (advisory)
   ~ cavalry   ⟨dict-lc⟩  (advisory)
   ~ collapse   ⟨dict-lc⟩  (advisory)
@@ -738,7 +547,6 @@
   ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
-  ~ crossed the Yangtze   ⟨dict-lc⟩  (advisory)
   ~ concubines.   ⟨dict-lc⟩  (advisory)
   ~ granaries   ⟨dict-lc⟩  (advisory)
   ~ they were the   ⟨dict-lc⟩  (advisory)

@@ -4,45 +4,6 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-  * Western-style   ⟨dict⟩  → glossary
-    Seoul   ⟨dict,recur×7⟩  → glossary
-    Vladivostok   ⟨dict⟩  → event
-    Shanghai   ⟨dict,bold⟩  → glossary
-    Harbin   ⟨dict⟩  → glossary
-  * Christians   ⟨dict⟩  → glossary
-    Donghak   ⟨dict⟩  → event
-    Declaration of Independence   ⟨dict,bold⟩  → event
-    Choe Nam-seon   ⟨bold⟩  → event/glossary
-    Paris Peace Conference   ⟨dict⟩  → event
-    Jeam-ri   ⟨bold⟩  → event/glossary
-    Suwon   ⟨dict⟩  → glossary
-    Hangzhou   ⟨dict⟩  → cross-link
-    Nanjing   ⟨dict⟩  → glossary
-    Changsha   ⟨dict⟩  → glossary
-    Chongqing   ⟨dict⟩  → glossary
-    Korean Liberation Army   ⟨bold⟩  → event/glossary
-    Chosun Ilbo   ⟨bold⟩  → event/glossary
-    Yi Sang   ⟨bold⟩  → event/glossary
-    Kim Yu-jeong   ⟨bold⟩  → event/glossary
-    Won Buddhism   ⟨bold⟩  → event/glossary
-    Gyeongbu   ⟨bold⟩  → event/glossary
-    Gyeongui   ⟨bold⟩  → event/glossary
-    Yalu River   ⟨dict⟩  → glossary
-    Gyeongwon   ⟨bold⟩  → event/glossary
-    Mughal Empire   ⟨dict⟩  → cross-link
-    Ottoman   ⟨dict⟩  → cross-link
-    Namsan   ⟨dict,bold⟩  → glossary
-    Nagasaki   ⟨dict⟩  → glossary
-    Kono Statement   ⟨bold⟩  → event/glossary
-    Park Geun-hye   ⟨dict⟩  → event
-    Tokyo   ⟨dict⟩  → glossary
-    Hiroshima   ⟨dict⟩  → glossary
-    Hibakusha   ⟨bold⟩  → event/glossary
-    Soviet   ⟨dict⟩  → cross-link
-    Saito Makoto   ⟨pron,bold⟩  → event/glossary
-    naisen ittai   ⟨gloss⟩  → glossary
-    Korean shamanism   ⟨bold⟩  → event/glossary
-    British colonial India   ⟨bold⟩  → event/glossary
   ~ Japanese-controlled   ⟨⟩  (advisory)
   ~ Joseon-era   ⟨⟩  (advisory)
   ~ British East India Company   ⟨⟩  (advisory)
@@ -53,11 +14,8 @@
   ~ US President Woodrow Wilson   ⟨⟩  (advisory)
   ~ Daehan Dongnip Manse   ⟨bold⟩  (advisory)
   ~ Long Live Korean Independence   ⟨⟩  (advisory)
-  ~ Christian   ⟨⟩  (advisory)
-  ~ Admiral Saito Makoto   ⟨⟩  (advisory)
   ~ Korean-language   ⟨⟩  (advisory)
   ~ Daehan Minguk Imsi Jeongbu   ⟨⟩  (advisory)
-  ~ French Concession of Shanghai   ⟨⟩  (advisory)
   ~ President   ⟨⟩  (advisory)
   ~ Chinese Nationalist   ⟨⟩  (advisory)
   ~ South Korea   ⟨dict⟩  (advisory)
@@ -74,9 +32,6 @@
   ~ Sinuiju   ⟨⟩  (advisory)
   ~ Wonsan   ⟨⟩  (advisory)
   ~ Asia   ⟨recur×3⟩  (advisory)
-  ~ British   ⟨⟩  (advisory)
-  ~ India   ⟨recur×3⟩  (advisory)
-  ~ Ottoman Empire Ch   ⟨⟩  (advisory)
   ~ Western-educated   ⟨⟩  (advisory)
   ~ Asian   ⟨⟩  (advisory)
   ~ China   ⟨dict⟩  (advisory)
@@ -110,6 +65,7 @@
   ~ cells   ⟨dict-lc⟩  (advisory)
   ~ the Provisional Government   ⟨dict-lc⟩  (advisory)
   ~ railways   ⟨dict-lc⟩  (advisory)
+  ~ irrigation   ⟨dict-lc⟩  (advisory)
   ~ kinship   ⟨dict-lc⟩  (advisory)
   ~ instruction.   ⟨dict-lc⟩  (advisory)
   ~ forced labor   ⟨dict-lc⟩  (advisory)
@@ -143,7 +99,6 @@
   ~ modernist   ⟨rare⟩  (advisory)
   ~ introspective   ⟨rare⟩  (advisory)
   ~ grassroots   ⟨rare⟩  (advisory)
-  ~ shamanism   ⟨rare⟩  (advisory)
   ~ electrical   ⟨rare⟩  (advisory)
   ~ managerial   ⟨rare⟩  (advisory)
   ~ stagnated   ⟨rare⟩  (advisory)
@@ -151,7 +106,6 @@
   ~ misstates   ⟨rare⟩  (advisory)
   ~ industrially   ⟨rare⟩  (advisory)
   ~ galling   ⟨rare⟩  (advisory)
-  ~ naisen   ⟨rare⟩  (advisory)
   ~ politic   ⟨rare⟩  (advisory)
   ~ enroll   ⟨rare⟩  (advisory)
   ~ beatings   ⟨rare⟩  (advisory)
@@ -181,47 +135,28 @@
     Soviet Union   ⟨dict,recur×3⟩  → cross-link
     Soviet   ⟨dict,recur×6⟩  → cross-link
     Washington   ⟨dict⟩  → event
-    Charles Bonesteel III   ⟨bold⟩  → event/glossary
-    Seoul   ⟨dict,bold,recur×6⟩  → glossary
     Soviets   ⟨recur×4⟩  → ?
-  * Americans   ⟨dict⟩  → glossary
-    Joint Commission   ⟨bold⟩  → event/glossary
     Republic of Korea   ⟨bold⟩  → event/glossary
-    Syngman Rhee   ⟨dict,bold,recur×3⟩  → glossary
-    Provisional Government   ⟨dict⟩  → event
     Shanghai   ⟨dict⟩  → glossary
-    Kim Song-ju   ⟨bold⟩  → event/glossary
-    Jeju Island   ⟨dict⟩  → glossary
-    Kim Dae-jung   ⟨dict,bold⟩  → event
     Moscow   ⟨dict⟩  → event
     Beijing   ⟨dict⟩  → glossary
-    Republic of China   ⟨dict⟩  → event
-  * People's Republic   ⟨dict⟩  → cross-link
     Australia   ⟨dict⟩  → glossary
     Philippines   ⟨dict⟩  → glossary
-  * Ethiopia   ⟨dict⟩  → glossary
     United Nations   ⟨dict⟩  → glossary
-  * Allied   ⟨dict⟩  → glossary
-  * Earth   ⟨dict⟩  → glossary
-    Qing   ⟨dict⟩  → cross-link
     Taiwan   ⟨dict⟩  → event
-    Kaesong   ⟨dict,bold⟩  → glossary
     Brazil   ⟨dict⟩  → glossary
     nom de guerre   ⟨gloss⟩  → glossary
     Truce talks   ⟨bold⟩  → event/glossary
-  ~ China   ⟨dict,recur×5⟩  (advisory)
   ~ Japanese   ⟨⟩  (advisory)
   ~ US Secretary of State   ⟨⟩  (advisory)
   ~ Kennedy   ⟨⟩  (advisory)
   ~ Johnson   ⟨⟩  (advisory)
   ~ American   ⟨recur×23⟩  (advisory)
-  ~ Bonesteel   ⟨⟩  (advisory)
   ~ National Geographic   ⟨⟩  (advisory)
   ~ Soviet-American   ⟨⟩  (advisory)
   ~ United Nations General Assembly   ⟨⟩  (advisory)
   ~ Princeton-educated   ⟨⟩  (advisory)
   ~ English-fluent   ⟨⟩  (advisory)
-  ~ Democratic People's Republic of Korea   ⟨bold⟩  (advisory)
   ~ Manchurian-guerrilla   ⟨⟩  (advisory)
   ~ Soviet-Manchurian   ⟨⟩  (advisory)
   ~ South Korean   ⟨recur×12⟩  (advisory)
@@ -252,7 +187,6 @@
   ~ Korean POWs   ⟨⟩  (advisory)
   ~ POWs   ⟨⟩  (advisory)
   ~ United Nations Command   ⟨⟩  (advisory)
-  ~ President Syngman Rhee   ⟨⟩  (advisory)
   ~ United States Air Force   ⟨⟩  (advisory)
   ~ General Curtis LeMay   ⟨⟩  (advisory)
   ~ Koreas of the   ⟨⟩  (advisory)
@@ -264,13 +198,11 @@
   ~ Vietnam   ⟨dict⟩  (advisory)
   ~ Korean Americans   ⟨⟩  (advisory)
   ~ South Korean GDP   ⟨⟩  (advisory)
-  ~ Rhee   ⟨⟩  (advisory)
   ~ Masan Harbor   ⟨⟩  (advisory)
   ~ Hawaii   ⟨⟩  (advisory)
   ~ civil war   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ was proclaimed   ⟨dict-lc⟩  (advisory)
-  ~ the Provisional Government   ⟨dict-lc⟩  (advisory)
   ~ thirty years   ⟨dict-lc⟩  (advisory)
   ~ the name   ⟨dict-lc⟩  (advisory)
   ~ violence   ⟨dict-lc⟩  (advisory)
@@ -337,38 +269,6 @@
   ~ demonstrators   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-    Seoul   ⟨dict,recur×4⟩  → glossary
-    Communist Party   ⟨dict⟩  → glossary
-    Ghana   ⟨dict⟩  → cross-link
-    North Gyeongsang Province   ⟨bold⟩  → event/glossary
-    Manchuria   ⟨dict⟩  → glossary
-    Takagi Masao   ⟨bold⟩  → event/glossary
-    Yeosu-Suncheon Rebellion   ⟨dict⟩  → glossary
-    Korean War   ⟨dict⟩  → glossary
-    Hoshino Naoki   ⟨bold⟩  → event/glossary
-    Tokyo   ⟨dict⟩  → glossary
-    United States   ⟨dict,recur×5⟩  → cross-link
-    Lucky Goldstar   ⟨bold⟩  → event/glossary
-    Daewoo   ⟨dict,bold⟩  → glossary
-    Lotte   ⟨bold⟩  → event/glossary
-    Sunkyong   ⟨bold⟩  → event/glossary
-    KCIA   ⟨recur×3⟩  → ?
-    Park Tae-jun   ⟨bold⟩  → event/glossary
-  * Americans   ⟨dict⟩  → glossary
-    White Horse   ⟨bold⟩  → event/glossary
-  * Vietnamese   ⟨dict⟩  → glossary
-    Vietnam War   ⟨dict⟩  → glossary
-    Kim Dae-jung   ⟨dict,bold⟩  → event
-  * Jeolla   ⟨dict⟩  → glossary
-    National Assembly   ⟨dict⟩  → glossary
-    Kim Young-sam   ⟨dict⟩  → glossary
-    YH Trading Company   ⟨bold⟩  → event/glossary
-    Kim Kyung-suk   ⟨bold⟩  → event/glossary
-    Busan   ⟨dict,bold⟩  → glossary
-    Masan   ⟨bold⟩  → event/glossary
-    Cha Ji-cheol   ⟨bold⟩  → event/glossary
-    Tiger   ⟨bold⟩  → event/glossary
-    Meiji Restoration   ⟨bold⟩  → event/glossary
   ~ South Korean Marines   ⟨⟩  (advisory)
   ~ South Korea   ⟨dict,recur×3⟩  (advisory)
   ~ Korea   ⟨dict,recur×7⟩  (advisory)
@@ -394,7 +294,6 @@
   ~ Pohang Iron   ⟨⟩  (advisory)
   ~ Steel Company   ⟨⟩  (advisory)
   ~ Gyeongbu Expressway   ⟨⟩  (advisory)
-  ~ Korean Tiger   ⟨⟩  (advisory)
   ~ South Korean GDP   ⟨⟩  (advisory)
   ~ Korea's Protestant Christian   ⟨⟩  (advisory)
   ~ Pentecostal   ⟨⟩  (advisory)
@@ -404,14 +303,11 @@
   ~ Muslim-majority   ⟨⟩  (advisory)
   ~ Pentecostal Protestantism   ⟨⟩  (advisory)
   ~ Nobel   ⟨⟩  (advisory)
-  ~ Dae-jung   ⟨⟩  (advisory)
   ~ Catholic   ⟨⟩  (advisory)
   ~ North Korea   ⟨dict⟩  (advisory)
-  ~ Japanese Meiji Restoration   ⟨⟩  (advisory)
   ~ Ishin   ⟨def⟩  (advisory)
   ~ People's Revolutionary Party Incident   ⟨bold⟩  (advisory)
   ~ North Korean   ⟨⟩  (advisory)
-  ~ Jeolla-region   ⟨⟩  (advisory)
   ~ Carter   ⟨⟩  (advisory)
   ~ led by   ⟨dict-lc⟩  (advisory)
   ~ reconstruction   ⟨dict-lc⟩  (advisory)
@@ -429,6 +325,7 @@
   ~ conditions   ⟨dict-lc⟩  (advisory)
   ~ steel   ⟨dict-lc⟩  (advisory)
   ~ markets   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ factory   ⟨dict-lc⟩  (advisory)
   ~ forced labor   ⟨dict-lc⟩  (advisory)
@@ -510,28 +407,6 @@
   ~ timeframe   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Cold War   ⟨dict,recur×4⟩  → cross-link
-    Soviet Union   ⟨dict⟩  → cross-link
-    Korean War   ⟨dict⟩  → glossary
-    Stalin   ⟨dict⟩  → glossary
-    Kim Jong-il   ⟨dict,recur×3⟩  → glossary
-    Non-Aligned Movement   ⟨dict,bold⟩  → event
-    George Orwell   ⟨dict⟩  → glossary
-    State Security Department   ⟨bold⟩  → event/glossary
-    Kim Jong-un   ⟨dict⟩  → cross-link
-  * Tokugawa   ⟨dict⟩  → cross-link
-    Soviet   ⟨dict⟩  → cross-link
-    Beijing   ⟨dict⟩  → glossary
-  * Park South Korea   ⟨dict⟩  → cross-link
-    Park Chung-hee   ⟨dict⟩  → glossary
-    Choi Kyu-hah   ⟨bold⟩  → event/glossary
-    Park   ⟨recur×5⟩  → ?
-    Yushin Constitution   ⟨dict⟩  → event
-    Kim Dae-jung   ⟨dict⟩  → event
-    Kim Young-sam   ⟨dict,bold⟩  → glossary
-  * Burma   ⟨dict⟩  → glossary
-    Sea of Japan   ⟨dict⟩  → glossary
-    Seoul Spring   ⟨bold⟩  → event/glossary
   ~ South Korean   ⟨recur×6⟩  (advisory)
   ~ North   ⟨recur×7⟩  (advisory)
   ~ South   ⟨recur×9⟩  (advisory)
@@ -559,28 +434,25 @@
   ~ WAHN   ⟨⟩  (advisory)
   ~ Coup of December   ⟨⟩  (advisory)
   ~ Major General Chun   ⟨⟩  (advisory)
-  ~ Seoul Spring of early   ⟨⟩  (advisory)
   ~ Jeolla Province   ⟨⟩  (advisory)
   ~ Communist   ⟨⟩  (advisory)
-  ~ Dae-jung   ⟨⟩  (advisory)
   ~ American   ⟨⟩  (advisory)
   ~ South Koreans   ⟨⟩  (advisory)
-  ~ Movement   ⟨⟩  (advisory)
   ~ Japanese   ⟨⟩  (advisory)
   ~ North Pacific   ⟨⟩  (advisory)
-  ~ Chung-hee   ⟨⟩  (advisory)
   ~ Christianity   ⟨dict⟩  (advisory)
-  ~ Yushin   ⟨⟩  (advisory)
   ~ Christian   ⟨⟩  (advisory)
   ~ related to political offenders   ⟨def⟩  (advisory)
   ~ command economy   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ start with   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
   ~ autocracy   ⟨dict-lc⟩  (advisory)
   ~ elements   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ cult of personality   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ veneration   ⟨dict-lc⟩  (advisory)
   ~ conditions   ⟨dict-lc⟩  (advisory)
   ~ the doctrine of   ⟨dict-lc⟩  (advisory)
@@ -652,33 +524,6 @@
   ~ totally   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Gwangju   ⟨recur×3⟩  → ?
-    Chun   ⟨recur×7⟩  → ?
-    Namyeong-dong   ⟨bold⟩  → event/glossary
-    Roh Tae-woo   ⟨dict,bold,recur×4⟩  → glossary
-    Seoul   ⟨dict,recur×3⟩  → glossary
-    Lee Jong-chang   ⟨bold⟩  → event/glossary
-  * United States   ⟨dict⟩  → cross-link
-    National Assembly   ⟨dict⟩  → glossary
-    Kim Jong-pil   ⟨bold⟩  → event/glossary
-    Soviet Union   ⟨dict⟩  → cross-link
-    Civilian Government   ⟨bold⟩  → event/glossary
-    Hanahoe   ⟨dict,bold⟩  → glossary
-    Chun Doo-hwan   ⟨dict⟩  → event
-    Southeast Asia   ⟨dict⟩  → glossary
-    Hanbo   ⟨bold⟩  → event/glossary
-    Sammi   ⟨bold⟩  → event/glossary
-    Kia Motors   ⟨bold⟩  → event/glossary
-    Korean War   ⟨dict⟩  → glossary
-    Aesop   ⟨dict⟩  → glossary
-    Pyongyang   ⟨dict,recur×5⟩  → glossary
-    Koreas   ⟨recur×3⟩  → ?
-    Nobel Peace Prize   ⟨dict,bold⟩  → event
-    Democratic Party   ⟨dict⟩  → event
-    Lee Myung-bak   ⟨dict⟩  → glossary
-    Soviet   ⟨dict⟩  → cross-link
-    Arduous March   ⟨dict,bold⟩  → event
-    Northern Diplomacy   ⟨bold⟩  → event/glossary
   ~ South Korea   ⟨dict,recur×5⟩  (advisory)
   ~ Catholic Church   ⟨dict⟩  (advisory)
   ~ WAHN   ⟨⟩  (advisory)
@@ -686,7 +531,6 @@
   ~ Seoul National University   ⟨⟩  (advisory)
   ~ South Korean   ⟨recur×8⟩  (advisory)
   ~ Catholic   ⟨⟩  (advisory)
-  ~ General Roh Tae-woo   ⟨⟩  (advisory)
   ~ Korean Military Academy   ⟨⟩  (advisory)
   ~ Chun-controlled   ⟨⟩  (advisory)
   ~ Pusan   ⟨⟩  (advisory)
@@ -701,11 +545,8 @@
   ~ Chun-Roh   ⟨⟩  (advisory)
   ~ Korea   ⟨dict⟩  (advisory)
   ~ Park-Chun   ⟨⟩  (advisory)
-  ~ Korean   ⟨dict,recur×16⟩  (advisory)
   ~ Park-era   ⟨⟩  (advisory)
-  ~ Tae-woo   ⟨⟩  (advisory)
   ~ South   ⟨⟩  (advisory)
-  ~ Roh's Northern Diplomacy   ⟨⟩  (advisory)
   ~ Bukbang Jeongchaek   ⟨⟩  (advisory)
   ~ China   ⟨dict⟩  (advisory)
   ~ North Korea   ⟨dict,recur×6⟩  (advisory)
@@ -713,7 +554,6 @@
   ~ East   ⟨⟩  (advisory)
   ~ International Monetary Fund   ⟨⟩  (advisory)
   ~ Miracle   ⟨⟩  (advisory)
-  ~ Koreans   ⟨⟩  (advisory)
   ~ Jeolla Province   ⟨⟩  (advisory)
   ~ KCIA   ⟨⟩  (advisory)
   ~ Latin American   ⟨⟩  (advisory)
@@ -724,7 +564,6 @@
   ~ Gonan-ui Haenggun   ⟨⟩  (advisory)
   ~ Military First   ⟨⟩  (advisory)
   ~ World Cup   ⟨⟩  (advisory)
-  ~ Nobel Peace   ⟨⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
   ~ electoral college   ⟨dict-lc⟩  (advisory)
   ~ he died on   ⟨dict-lc⟩  (advisory)
@@ -819,34 +658,6 @@
   ~ divergences   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-  * Seoul   ⟨dict⟩  → glossary
-    White House   ⟨dict⟩  → glossary
-    Korean Wave   ⟨recur×7⟩  → ?
-    Taiwan   ⟨dict⟩  → event
-    Hong Kong   ⟨dict⟩  → event
-    Philippines   ⟨dict⟩  → glossary
-    YG Entertainment   ⟨bold⟩  → event/glossary
-    JYP Entertainment   ⟨bold⟩  → event/glossary
-    Mandarin   ⟨dict⟩  → glossary
-    Wonder Girls   ⟨bold⟩  → event/glossary
-    Girls' Generation   ⟨bold⟩  → event/glossary
-    Super Junior   ⟨bold⟩  → event/glossary
-    TVXQ   ⟨bold⟩  → event/glossary
-    Big Bang   ⟨dict,bold⟩  → event
-    Twice   ⟨bold⟩  → event/glossary
-  * Earth   ⟨dict⟩  → glossary
-    Kim Dae-jung   ⟨dict,bold⟩  → event
-    King Sejong Institute   ⟨bold⟩  → event/glossary
-  * United States   ⟨dict⟩  → cross-link
-    Southeast Asia   ⟨dict⟩  → glossary
-    Beijing   ⟨dict⟩  → glossary
-    Joseon   ⟨dict⟩  → cross-link
-    Hyundai   ⟨dict⟩  → event
-    Samsung   ⟨dict⟩  → event
-    thriller   ⟨gloss,rare⟩  → glossary
-    Gangnam district   ⟨bold⟩  → event/glossary
-    Johnny's Entertainment   ⟨bold⟩  → event/glossary
-    EXO   ⟨bold⟩  → event/glossary
   ~ Korean   ⟨dict,recur×40⟩  (advisory)
   ~ YouTube   ⟨⟩  (advisory)
   ~ South Korea   ⟨dict,recur×3⟩  (advisory)
@@ -865,7 +676,6 @@
   ~ Yon-sama   ⟨bold⟩  (advisory)
   ~ Japanese   ⟨recur×5⟩  (advisory)
   ~ Korea's Nami Island   ⟨⟩  (advisory)
-  ~ Japanese Johnny's Entertainment   ⟨⟩  (advisory)
   ~ American   ⟨recur×4⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Billboard Music Award   ⟨⟩  (advisory)
@@ -908,6 +718,7 @@
   ~ music   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ platform economy   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ media   ⟨dict-lc⟩  (advisory)
   ~ markets   ⟨dict-lc⟩  (advisory)
   ~ thirty years   ⟨dict-lc⟩  (advisory)
@@ -985,27 +796,6 @@
   ~ fashionable   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Cold War   ⟨dict⟩  → cross-link
-    Kim Il-sung   ⟨dict,recur×3⟩  → glossary
-    Soviet   ⟨dict⟩  → cross-link
-    Beijing   ⟨dict⟩  → glossary
-    Pyongyang   ⟨dict⟩  → glossary
-    Hiroshima   ⟨dict⟩  → glossary
-    United States   ⟨dict,recur×4⟩  → cross-link
-    Soviet Union   ⟨dict⟩  → cross-link
-    Libyan   ⟨dict⟩  → glossary
-    Korean Peninsula   ⟨dict⟩  → cross-link
-    Hanoi   ⟨dict⟩  → glossary
-    Nuclear Suppliers Group   ⟨bold⟩  → event/glossary
-    Sunshine Policy   ⟨dict⟩  → cross-link
-    Macau   ⟨dict⟩  → glossary
-  * Chinese-style   ⟨dict⟩  → glossary
-    Kim Ju-ae   ⟨bold⟩  → event/glossary
-    Maximum Pressure   ⟨bold⟩  → event/glossary
-    Hwasong-17   ⟨bold⟩  → event/glossary
-    Libyan precedent   ⟨bold⟩  → event/glossary
-    Trump era   ⟨bold⟩  → event/glossary
-    Biden era   ⟨bold⟩  → event/glossary
   ~ North Korea   ⟨dict,recur×14⟩  (advisory)
   ~ North Korean   ⟨recur×14⟩  (advisory)
   ~ Korean   ⟨dict⟩  (advisory)
@@ -1023,10 +813,7 @@
   ~ Russia   ⟨dict⟩  (advisory)
   ~ Japan   ⟨dict,recur×3⟩  (advisory)
   ~ Obama   ⟨⟩  (advisory)
-  ~ Pyongyang the international   ⟨⟩  (advisory)
-  ~ Biden   ⟨⟩  (advisory)
   ~ Kuala Lumpur   ⟨⟩  (advisory)
-  ~ Chinese   ⟨⟩  (advisory)
   ~ Northeast China   ⟨⟩  (advisory)
   ~ American-allied Korea   ⟨⟩  (advisory)
   ~ conditions   ⟨dict-lc⟩  (advisory)
@@ -1040,6 +827,7 @@
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ it is a   ⟨dict-lc⟩  (advisory)
   ~ kwanliso   ⟨dict-lc,rare⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ concrete   ⟨dict-lc⟩  (advisory)
   ~ assumption   ⟨dict-lc⟩  (advisory)
   ~ special economic zones   ⟨dict-lc⟩  (advisory)
@@ -1106,38 +894,12 @@
   ~ demise   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    K-pop   ⟨dict⟩  → cross-link
-    DRAM   ⟨dict⟩  → glossary
-    Hyundai Heavy Industries   ⟨bold⟩  → event/glossary
-    Samsung Heavy Industries   ⟨bold⟩  → event/glossary
-    DSME   ⟨bold⟩  → event/glossary
-    Seoul   ⟨dict,recur×4⟩  → glossary
-    Koreans   ⟨recur×3⟩  → ?
-    Kim Dae-jung   ⟨dict⟩  → event
-    Park Chung-hee   ⟨dict⟩  → glossary
-    Saenuri Party   ⟨bold⟩  → event/glossary
-    Choi Tae-min   ⟨bold⟩  → event/glossary
-    National Assembly   ⟨dict,recur×6⟩  → glossary
-    Constitutional Court   ⟨dict,recur×3⟩  → glossary
-    Pyongyang   ⟨dict⟩  → glossary
-    Chun Doo-hwan   ⟨dict⟩  → event
-    Assembly   ⟨recur×3⟩  → ?
-    Halloween   ⟨dict⟩  → glossary
-  * United States   ⟨dict⟩  → cross-link
-    Hangul   ⟨dict⟩  → event
-    Sejong   ⟨dict⟩  → cross-link
-    Confucian   ⟨dict⟩  → cross-link
-    Korean War   ⟨dict⟩  → glossary
-    LG Electronics   ⟨bold⟩  → event/glossary
-    POSCO   ⟨bold⟩  → event/glossary
   ~ South Korea   ⟨dict,recur×5⟩  (advisory)
   ~ Netflix   ⟨⟩  (advisory)
   ~ Start   ⟨⟩  (advisory)
   ~ NAND   ⟨⟩  (advisory)
-  ~ HD Hyundai Heavy Industries   ⟨bold⟩  (advisory)
   ~ South Korean   ⟨recur×6⟩  (advisory)
   ~ Japan   ⟨dict⟩  (advisory)
-  ~ Korean   ⟨dict,recur×19⟩  (advisory)
   ~ Miracle   ⟨⟩  (advisory)
   ~ Park-era   ⟨⟩  (advisory)
   ~ Park-Chun   ⟨⟩  (advisory)
@@ -1146,7 +908,6 @@
   ~ Ewha Women's University   ⟨⟩  (advisory)
   ~ Blue House   ⟨⟩  (advisory)
   ~ South Koreans   ⟨⟩  (advisory)
-  ~ National Assembly of obstruction   ⟨⟩  (advisory)
   ~ Asia   ⟨⟩  (advisory)
   ~ China   ⟨dict⟩  (advisory)
   ~ Republic of Korea   ⟨⟩  (advisory)

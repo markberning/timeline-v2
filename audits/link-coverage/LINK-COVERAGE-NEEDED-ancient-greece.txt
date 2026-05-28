@@ -4,47 +4,12 @@
 # Detect-only: this file never auto-applies links (born-verified doctrine).
 
 ## Chapter 1
-    Mycenae   ⟨dict⟩  → glossary
-    Pylos   ⟨dict⟩  → glossary
-    Troy   ⟨dict⟩  → glossary
-    Bronze Age   ⟨dict⟩  → glossary
-  * Semitic-speaking   ⟨dict⟩  → glossary
-  * Levantine   ⟨dict⟩  → glossary
-    Lebanon   ⟨dict⟩  → glossary
-    Semitic   ⟨dict⟩  → glossary
-    Homer   ⟨dict,recur×8⟩  → glossary
-    Miletus   ⟨dict⟩  → event
-    Black Sea   ⟨dict,recur×5⟩  → glossary
-  * Greek-speaking   ⟨dict⟩  → glossary
-    Phocaea   ⟨dict⟩  → glossary
-  * Ionia   ⟨dict⟩  → glossary
-    Naples   ⟨dict⟩  → glossary
-    Libya   ⟨dict⟩  → glossary
-    Constantinople   ⟨dict⟩  → cross-link
-    Istanbul   ⟨dict⟩  → glossary
-    Megara   ⟨dict⟩  → glossary
-    Aegean   ⟨dict⟩  → glossary
-    Crimea   ⟨dict⟩  → glossary
-    Georgia   ⟨dict⟩  → glossary
-    Scythian   ⟨dict⟩  → cross-link
-    Etruscans   ⟨dict⟩  → glossary
-  * Egyptians   ⟨dict⟩  → glossary
-    Libyans   ⟨dict⟩  → glossary
-    Scythians   ⟨dict⟩  → cross-link
-    Pythian Games   ⟨bold⟩  → event/glossary
-    Corinth   ⟨dict⟩  → event
-    Persia   ⟨dict⟩  → cross-link
-  * Babylonian   ⟨dict⟩  → glossary
-    Neapolis   ⟨pron,bold⟩  → event/glossary
   ~ Greece   ⟨dict,recur×6⟩  (advisory)
-  ~ Bronze Age Greece   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict,recur×6⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
-  ~ Greek-speaker   ⟨⟩  (advisory)
   ~ Europe   ⟨⟩  (advisory)
   ~ Russia   ⟨dict⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
-  ~ With   ⟨⟩  (advisory)
   ~ Chaos   ⟨⟩  (advisory)
   ~ Titans   ⟨⟩  (advisory)
   ~ Mount Olympus   ⟨⟩  (advisory)
@@ -60,13 +25,12 @@
   ~ Italy   ⟨⟩  (advisory)
   ~ Italic   ⟨⟩  (advisory)
   ~ Thracians   ⟨⟩  (advisory)
-  ~ Ionian   ⟨⟩  (advisory)
   ~ Hellenic   ⟨⟩  (advisory)
   ~ Mount Parnassus   ⟨⟩  (advisory)
-  ~ Egyptian   ⟨⟩  (advisory)
   ~ meh-TROP-oh-lis   ⟨def⟩  (advisory)
   ~ modern Naples   ⟨def⟩  (advisory)
   ~ not the only pan-Hellenic   ⟨def⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ chariot   ⟨dict-lc⟩  (advisory)
   ~ collapse   ⟨dict-lc⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
@@ -86,10 +50,9 @@
   ~ patron deity   ⟨dict-lc⟩  (advisory)
   ~ citizen   ⟨dict-lc⟩  (advisory)
   ~ citadel   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ colonies   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
-  ~ the Black Sea.   ⟨dict-lc⟩  (advisory)
-  ~ the Crimea   ⟨dict-lc⟩  (advisory)
   ~ music   ⟨dict-lc⟩  (advisory)
   ~ underworld   ⟨dict-lc⟩  (advisory)
   ~ oral tradition   ⟨dict-lc⟩  (advisory)
@@ -143,52 +106,13 @@
   ~ initiation   ⟨rare⟩  (advisory)
 
 ## Chapter 2
-    Athens   ⟨dict,recur×13⟩  → cross-link
-    Sparta   ⟨dict,bold,recur×3⟩  → glossary
-    Lydian   ⟨dict⟩  → glossary
-    Athena   ⟨dict,recur×3⟩  → glossary
-    Athenians   ⟨recur×4⟩  → ?
-    Herodotus   ⟨dict⟩  → cross-link
-    Acropolis   ⟨dict⟩  → glossary
-    Agora   ⟨dict⟩  → event
-    Odyssey   ⟨dict⟩  → glossary
-    Athenian   ⟨dict,recur×8⟩  → cross-link
-    Aegean   ⟨dict⟩  → glossary
-    Mahajanapadas   ⟨dict⟩  → event
-    Peloponnese   ⟨dict⟩  → glossary
-    Apella   ⟨pron,bold⟩  → event/glossary
-    Greeks   ⟨dict⟩  → glossary
-    Ionian   ⟨recur×3⟩  → ?
-    Anatolia   ⟨dict⟩  → glossary
-  * Anatolian   ⟨dict⟩  → glossary
-  * Mesopotamian   ⟨dict⟩  → cross-link
-    Samos   ⟨dict⟩  → glossary
-    Babylon   ⟨dict⟩  → glossary
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Plato   ⟨dict⟩  → cross-link
-    Homer   ⟨dict⟩  → glossary
-    Hesiod   ⟨dict⟩  → event
-    Zeus   ⟨dict⟩  → glossary
-    Hera   ⟨dict⟩  → glossary
-    Poseidon   ⟨dict⟩  → glossary
-    Apollo   ⟨dict⟩  → glossary
-    Artemis   ⟨dict⟩  → glossary
-    Ares   ⟨dict⟩  → glossary
-    Aphrodite   ⟨dict⟩  → glossary
-    Hermes   ⟨dict⟩  → glossary
-    Demeter   ⟨dict⟩  → glossary
-    Hestia   ⟨dict⟩  → glossary
-    Delphi   ⟨dict⟩  → glossary
-    thespian   ⟨def,bold,rare⟩  → glossary
   ~ Greek   ⟨dict,recur×14⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
-  ~ Homer's Iliad   ⟨⟩  (advisory)
   ~ Tyrannicides   ⟨⟩  (advisory)
   ~ PAYS   ⟨⟩  (advisory)
   ~ Eurotas River   ⟨⟩  (advisory)
   ~ Greece   ⟨dict⟩  (advisory)
   ~ Spartan-assigned   ⟨⟩  (advisory)
-  ~ Outside Athens   ⟨⟩  (advisory)
   ~ Thracians   ⟨⟩  (advisory)
   ~ Ethiopians   ⟨⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
@@ -204,10 +128,14 @@
   ~ city-states   ⟨dict-lc⟩  (advisory)
   ~ poleis   ⟨dict-lc,rare⟩  (advisory)
   ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ judges   ⟨dict-lc⟩  (advisory)
+  ~ trade   ⟨dict-lc⟩  (advisory)
   ~ bronze   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ twice   ⟨dict-lc⟩  (advisory)
   ~ chariot   ⟨dict-lc⟩  (advisory)
   ~ patron deity   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ harsher   ⟨dict-lc⟩  (advisory)
   ~ civil war   ⟨dict-lc⟩  (advisory)
@@ -218,11 +146,13 @@
   ~ citizen   ⟨dict-lc⟩  (advisory)
   ~ pottery   ⟨dict-lc⟩  (advisory)
   ~ kratos   ⟨dict-lc,bold,rare⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
   ~ thousand years.   ⟨dict-lc⟩  (advisory)
   ~ warring states   ⟨dict-lc⟩  (advisory)
   ~ it was the first   ⟨dict-lc⟩  (advisory)
   ~ slaves   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ supreme court.   ⟨dict-lc⟩  (advisory)
   ~ polis   ⟨dict-lc⟩  (advisory)
@@ -319,35 +249,7 @@
   ~ fractious   ⟨rare⟩  (advisory)
 
 ## Chapter 3
-  * Anatolian   ⟨dict⟩  → glossary
     Anatolia   ⟨dict⟩  → glossary
-    Lydian   ⟨dict⟩  → glossary
-    Persia   ⟨dict,recur×4⟩  → cross-link
-    Miletus   ⟨dict,recur×3⟩  → event
-    Euboea   ⟨dict⟩  → glossary
-    Royal Road   ⟨dict⟩  → event
-    Persepolis   ⟨dict⟩  → glossary
-    Athenians   ⟨recur×8⟩  → ?
-    Aegean   ⟨dict⟩  → glossary
-    Athens   ⟨dict,recur×15⟩  → cross-link
-    Sparta   ⟨dict,recur×3⟩  → glossary
-    Athenian   ⟨dict,recur×4⟩  → cross-link
-    Plutarch   ⟨dict⟩  → glossary
-    Olympic Games   ⟨dict⟩  → glossary
-    Dardanelles   ⟨dict⟩  → glossary
-    Attica   ⟨dict⟩  → glossary
-    Acropolis   ⟨dict⟩  → glossary
-    Athena   ⟨dict⟩  → glossary
-    Boeotia   ⟨dict⟩  → glossary
-  * Victorian   ⟨dict⟩  → glossary
-    Parthenon   ⟨dict⟩  → cross-link
-    Sophocles   ⟨dict⟩  → glossary
-    Socrates   ⟨dict⟩  → event
-    Plato   ⟨dict⟩  → cross-link
-    Aristotle   ⟨dict⟩  → cross-link
-    Histories   ⟨dict,bold⟩  → glossary
-    Babylon   ⟨dict⟩  → glossary
-    historiai   ⟨gloss,rare⟩  → glossary
   ~ Persian-backed   ⟨⟩  (advisory)
   ~ Greece   ⟨dict,recur×5⟩  (advisory)
   ~ Master   ⟨⟩  (advisory)
@@ -366,6 +268,7 @@
   ~ Scythia   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
   ~ Father of History   ⟨⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
   ~ tribute   ⟨dict-lc⟩  (advisory)
   ~ led by   ⟨dict-lc⟩  (advisory)
   ~ capital.   ⟨dict-lc⟩  (advisory)
@@ -374,7 +277,6 @@
   ~ hoplites   ⟨dict-lc,rare⟩  (advisory)
   ~ general   ⟨dict-lc⟩  (advisory)
   ~ double envelopment.   ⟨dict-lc⟩  (advisory)
-  ~ modern   ⟨dict-lc⟩  (advisory)
   ~ hoplite phalanx   ⟨dict-lc⟩  (advisory)
   ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ city-states   ⟨dict-lc⟩  (advisory)
@@ -386,6 +288,7 @@
   ~ agoge   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ poleis   ⟨dict-lc,rare⟩  (advisory)
   ~ reason   ⟨dict-lc⟩  (advisory)
   ~ the Father   ⟨dict-lc⟩  (advisory)
@@ -426,30 +329,6 @@
   ~ citizenry   ⟨rare⟩  (advisory)
 
 ## Chapter 4
-    Persia   ⟨dict,recur×3⟩  → cross-link
-    Aegean   ⟨dict⟩  → glossary
-  * Persian   ⟨dict⟩  → cross-link
-    Athens   ⟨dict,recur×29⟩  → cross-link
-    Xerxes   ⟨dict⟩  → glossary
-    Persians   ⟨dict⟩  → cross-link
-    Seven Wonders of the Ancient World   ⟨dict⟩  → glossary
-    Attica   ⟨dict⟩  → glossary
-    Marathon   ⟨dict⟩  → event
-    Agamemnon   ⟨dict⟩  → event
-    Troy   ⟨dict⟩  → glossary
-    Poetics   ⟨dict⟩  → glossary
-    Sparta   ⟨dict⟩  → glossary
-    Peloponnesian War   ⟨dict,recur×3⟩  → event
-    Plato   ⟨dict,bold⟩  → cross-link
-  * Ionia   ⟨dict⟩  → glossary
-    Peloponnese   ⟨dict⟩  → glossary
-    Thrace   ⟨dict⟩  → glossary
-    Scientific Revolution   ⟨dict⟩  → cross-link
-    Herodotus   ⟨dict,bold⟩  → cross-link
-    Greeks   ⟨dict⟩  → glossary
-    Greek tragedy   ⟨bold⟩  → event/glossary
-    Greek comedy   ⟨bold⟩  → event/glossary
-  ~ Greek   ⟨dict,recur×9⟩  (advisory)
   ~ Just   ⟨⟩  (advisory)
   ~ Egypt   ⟨dict⟩  (advisory)
   ~ Greece   ⟨dict⟩  (advisory)
@@ -473,10 +352,12 @@
   ~ thirty years   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ temple   ⟨dict-lc⟩  (advisory)
   ~ classical period.   ⟨dict-lc⟩  (advisory)
   ~ ivory   ⟨dict-lc⟩  (advisory)
   ~ talents   ⟨dict-lc⟩  (advisory)
   ~ siege.   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
   ~ slaves   ⟨dict-lc⟩  (advisory)
   ~ citizen   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
@@ -487,6 +368,7 @@
   ~ dialogues   ⟨dict-lc⟩  (advisory)
   ~ thousand years   ⟨dict-lc⟩  (advisory)
   ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ plague   ⟨dict-lc⟩  (advisory)
   ~ epidemic.   ⟨dict-lc⟩  (advisory)
@@ -552,24 +434,7 @@
   ~ justifying   ⟨rare⟩  (advisory)
 
 ## Chapter 5
-    Sparta   ⟨dict,recur×10⟩  → glossary
-    Athenian   ⟨dict,recur×13⟩  → cross-link
-    Delian League   ⟨dict⟩  → event
-    Spartan   ⟨dict,recur×8⟩  → glossary
-    Peloponnese   ⟨dict⟩  → glossary
-    Attica   ⟨dict,recur×3⟩  → glossary
-    Spartans   ⟨dict,recur×4⟩  → glossary
-    Black Sea   ⟨dict⟩  → glossary
-    Parthenon   ⟨dict⟩  → cross-link
-    Aristophanes   ⟨dict⟩  → event
-    Syracuse   ⟨dict,bold,recur×4⟩  → glossary
-    Athenians   ⟨recur×3⟩  → ?
-  * Persian   ⟨dict⟩  → cross-link
-    Cyrus the Younger   ⟨dict⟩  → glossary
-    Hellespont   ⟨dict⟩  → glossary
-    Socrates   ⟨dict⟩  → event
   ~ Greek   ⟨dict,recur×5⟩  (advisory)
-  ~ Spartan-led   ⟨⟩  (advisory)
   ~ Corfu   ⟨⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
   ~ Athens the resources   ⟨⟩  (advisory)
@@ -580,7 +445,6 @@
   ~ modern   ⟨dict-lc⟩  (advisory)
   ~ allied   ⟨dict-lc⟩  (advisory)
   ~ ships from   ⟨dict-lc⟩  (advisory)
-  ~ the Black Sea   ⟨dict-lc⟩  (advisory)
   ~ protected by   ⟨dict-lc⟩  (advisory)
   ~ plague   ⟨dict-lc⟩  (advisory)
   ~ typhus   ⟨dict-lc,rare⟩  (advisory)
@@ -630,57 +494,16 @@
   ~ hegemonies   ⟨rare⟩  (advisory)
 
 ## Chapter 6
-    Sparta   ⟨dict,recur×8⟩  → glossary
-    Peloponnesian War   ⟨dict⟩  → event
-    Persian   ⟨dict,recur×10⟩  → cross-link
-    Spartan   ⟨dict,recur×14⟩  → glossary
-    Athenian   ⟨dict,recur×4⟩  → cross-link
-    Athens   ⟨dict,recur×10⟩  → cross-link
-    Aegean   ⟨dict⟩  → glossary
-    Asia Minor   ⟨dict⟩  → glossary
-    Marathon   ⟨dict⟩  → event
-    Thermopylae   ⟨dict⟩  → event
-    Salamis   ⟨dict⟩  → glossary
-    Persia   ⟨dict,recur×3⟩  → cross-link
-    Persian Wars   ⟨dict⟩  → event
-    Xerxes   ⟨dict⟩  → glossary
-    Theban   ⟨dict,recur×4⟩  → glossary
-    Peloponnese   ⟨dict,recur×3⟩  → glossary
-  * Spartans   ⟨dict⟩  → glossary
-    Arcadia   ⟨dict⟩  → glossary
-    Thirty Tyrants   ⟨dict⟩  → glossary
-    Critias   ⟨dict⟩  → glossary
-    Alcibiades   ⟨dict⟩  → glossary
-    Justinian   ⟨dict⟩  → cross-link
-    Alexander the Great   ⟨dict⟩  → cross-link
-    Alexander   ⟨dict,recur×7⟩  → glossary
-    Persian Empire   ⟨dict,recur×3⟩  → cross-link
-    Armenia   ⟨dict⟩  → glossary
-    Black Sea   ⟨dict⟩  → glossary
-    Olympic Games   ⟨dict⟩  → glossary
-    Greeks   ⟨dict,recur×3⟩  → glossary
-    Macedonian   ⟨recur×3⟩  → ?
-    Olympias   ⟨dict⟩  → glossary
-    Apollo   ⟨dict⟩  → glossary
-    Seven Wonders of the Ancient World   ⟨dict⟩  → glossary
-    kynikos   ⟨gloss,rare⟩  → glossary
-    Macedonian phalanx   ⟨bold⟩  → event/glossary
-  ~ Greek   ⟨dict,recur×21⟩  (advisory)
   ~ Argos   ⟨⟩  (advisory)
   ~ Greece   ⟨dict,recur×7⟩  (advisory)
   ~ THEEBZ   ⟨⟩  (advisory)
-  ~ Thebans   ⟨⟩  (advisory)
   ~ Great City   ⟨⟩  (advisory)
   ~ Western   ⟨recur×4⟩  (advisory)
   ~ Academus   ⟨⟩  (advisory)
   ~ Roman   ⟨dict⟩  (advisory)
   ~ Kurdistan   ⟨⟩  (advisory)
   ~ Thessaly   ⟨⟩  (advisory)
-  ~ Macedonians   ⟨⟩  (advisory)
   ~ English   ⟨⟩  (advisory)
-  ~ Athens of the Macedonian   ⟨⟩  (advisory)
-  ~ Athenians   ⟨⟩  (advisory)
-  ~ Macedonian-dominated   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
   ~ Politics   ⟨⟩  (advisory)
   ~ Turkey   ⟨dict⟩  (advisory)
@@ -698,7 +521,6 @@
   ~ prince's   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ modern   ⟨dict-lc⟩  (advisory)
-  ~ the Black Sea   ⟨dict-lc⟩  (advisory)
   ~ poleis   ⟨dict-lc,rare⟩  (advisory)
   ~ hoplite   ⟨dict-lc,rare⟩  (advisory)
   ~ siege   ⟨dict-lc⟩  (advisory)
@@ -707,10 +529,8 @@
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
   ~ concrete   ⟨dict-lc⟩  (advisory)
   ~ moral   ⟨dict-lc⟩  (advisory)
-  ~ the Greeks   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
   ~ philosopher-kings   ⟨bold⟩  (advisory)
-  ~ tyrants   ⟨rare⟩  (advisory)
   ~ pitted   ⟨rare⟩  (advisory)
   ~ dictation   ⟨rare⟩  (advisory)
   ~ arbitration   ⟨rare⟩  (advisory)
@@ -755,30 +575,11 @@
   ~ entanglement   ⟨rare⟩  (advisory)
 
 ## Chapter 7
-    Aristotle   ⟨dict⟩  → cross-link
-    Ptolemy   ⟨dict⟩  → glossary
-    Anatolia   ⟨dict⟩  → glossary
-    Companion   ⟨recur×3⟩  → ?
-    Persia   ⟨dict⟩  → cross-link
-    Persian Wars   ⟨dict⟩  → event
-    Greeks   ⟨dict⟩  → glossary
-    Phoenician   ⟨dict⟩  → cross-link
-    Phoenicians   ⟨dict⟩  → cross-link
-    Xerxes'   ⟨dict⟩  → glossary
-    Athens   ⟨dict⟩  → cross-link
-    Afghanistan   ⟨dict⟩  → glossary
-    Central Asia   ⟨dict⟩  → glossary
-    Pakistan   ⟨dict⟩  → glossary
-    Balochistan   ⟨dict⟩  → glossary
-  * Arabia   ⟨dict⟩  → glossary
-  ~ Asia   ⟨⟩  (advisory)
   ~ Homer's Iliad   ⟨⟩  (advisory)
   ~ III of Macedon   ⟨⟩  (advisory)
   ~ CE Greek   ⟨⟩  (advisory)
   ~ Aristobulus   ⟨⟩  (advisory)
-  ~ Macedonian   ⟨⟩  (advisory)
   ~ Greek   ⟨dict,recur×6⟩  (advisory)
-  ~ Ionian   ⟨⟩  (advisory)
   ~ Turkey   ⟨dict⟩  (advisory)
   ~ Great King   ⟨⟩  (advisory)
   ~ Mediterranean   ⟨dict⟩  (advisory)
@@ -792,10 +593,8 @@
   ~ Greece   ⟨dict⟩  (advisory)
   ~ Alexander IV   ⟨⟩  (advisory)
   ~ thirteen years   ⟨dict-lc⟩  (advisory)
-  ~ companions.   ⟨dict-lc⟩  (advisory)
   ~ led by   ⟨dict-lc⟩  (advisory)
   ~ satraps   ⟨dict-lc,rare⟩  (advisory)
-  ~ cavalry   ⟨dict-lc⟩  (advisory)
   ~ city-states   ⟨dict-lc⟩  (advisory)
   ~ through the   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
@@ -827,56 +626,7 @@
   ~ murderer   ⟨rare⟩  (advisory)
 
 ## Chapter 8
-    Alexander   ⟨dict,recur×10⟩  → glossary
-    Libya   ⟨dict⟩  → glossary
-    Cyprus   ⟨dict⟩  → glossary
-    Levant   ⟨dict⟩  → glossary
-    Anatolia   ⟨dict⟩  → glossary
-    Ptolemies   ⟨dict,recur×3⟩  → glossary
-    Mesopotamia   ⟨dict⟩  → cross-link
-    Persia   ⟨dict,recur×3⟩  → cross-link
-    Central Asia   ⟨dict⟩  → glossary
-  * Iranian   ⟨dict⟩  → glossary
-    Afghanistan   ⟨dict⟩  → glossary
-    Demetrius   ⟨pron,bold⟩  → event/glossary
-    Macedon   ⟨dict,recur×4⟩  → glossary
-    Athena   ⟨dict⟩  → glossary
-    Apollo   ⟨dict⟩  → glossary
-    Apis   ⟨dict⟩  → glossary
-    Zeus   ⟨dict⟩  → glossary
-    Pakistan   ⟨dict⟩  → glossary
-    Buddha   ⟨dict⟩  → cross-link
-    Hebrew Bible   ⟨dict⟩  → glossary
-  * Greek-speaking   ⟨dict⟩  → glossary
-    Ptolemy II   ⟨dict⟩  → glossary
-    Seven Wonders of the Ancient World   ⟨dict⟩  → glossary
-    Syracuse   ⟨dict,bold⟩  → glossary
-    Earth   ⟨recur×3⟩  → ?
-    Syene   ⟨dict⟩  → glossary
-    Aswan   ⟨dict⟩  → glossary
-    Renaissance   ⟨dict,recur×3⟩  → cross-link
-    Olympic Games   ⟨dict⟩  → glossary
-    Athenian Agora   ⟨dict⟩  → glossary
     Marcus Aurelius   ⟨dict⟩  → event
-    Athens   ⟨dict⟩  → cross-link
-    Democritus'   ⟨dict⟩  → event
-    Macedonian Wars   ⟨bold⟩  → event/glossary
-    Greeks   ⟨dict⟩  → glossary
-    Isthmian Games   ⟨dict⟩  → glossary
-    Peloponnese   ⟨dict⟩  → glossary
-    Phoenician   ⟨dict⟩  → cross-link
-  * Jupiter   ⟨dict⟩  → glossary
-    Aphrodite   ⟨dict⟩  → glossary
-    Venus   ⟨dict⟩  → glossary
-    Ancient Greece   ⟨dict⟩  → cross-link
-    Byzantines   ⟨dict⟩  → cross-link
-  * Arabs   ⟨dict⟩  → glossary
-    Hippocratic Oath   ⟨dict⟩  → glossary
-    Byzantine   ⟨dict⟩  → cross-link
-    Constantinople   ⟨dict⟩  → cross-link
-    Ottoman   ⟨dict⟩  → cross-link
-    hellenizein   ⟨gloss,rare⟩  → glossary
-  ~ Alexander IV   ⟨⟩  (advisory)
   ~ Philip III Arrhidaeus   ⟨⟩  (advisory)
   ~ Egypt   ⟨dict,recur×7⟩  (advisory)
   ~ Cyrenaica   ⟨⟩  (advisory)
@@ -899,7 +649,6 @@
   ~ French   ⟨⟩  (advisory)
   ~ Italian   ⟨⟩  (advisory)
   ~ Spanish   ⟨dict⟩  (advisory)
-  ~ Bible   ⟨dict⟩  (advisory)
   ~ Western   ⟨⟩  (advisory)
   ~ Sicily   ⟨dict⟩  (advisory)
   ~ Eureka   ⟨⟩  (advisory)
@@ -917,18 +666,15 @@
   ~ Italy   ⟨recur×4⟩  (advisory)
   ~ Greece   ⟨dict,recur×5⟩  (advisory)
   ~ Romans   ⟨recur×7⟩  (advisory)
-  ~ Macedonian   ⟨⟩  (advisory)
   ~ North Africa   ⟨dict⟩  (advisory)
   ~ Phoenicia Ch   ⟨⟩  (advisory)
   ~ Minerva   ⟨⟩  (advisory)
   ~ Captive Greece   ⟨⟩  (advisory)
-  ~ Byzantine Empire Ch   ⟨⟩  (advisory)
   ~ Greco-Roman   ⟨⟩  (advisory)
   ~ forty   ⟨dict-lc⟩  (advisory)
   ~ companions   ⟨dict-lc⟩  (advisory)
   ~ founded   ⟨dict-lc⟩  (advisory)
   ~ eastern   ⟨dict-lc⟩  (advisory)
-  ~ the Levant   ⟨dict-lc⟩  (advisory)
   ~ capital   ⟨dict-lc⟩  (advisory)
   ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
   ~ pharaohs   ⟨dict-lc⟩  (advisory)
@@ -936,7 +682,7 @@
   ~ city-states.   ⟨dict-lc⟩  (advisory)
   ~ spread of   ⟨dict-lc⟩  (advisory)
   ~ anthropomorphic   ⟨dict-lc,rare⟩  (advisory)
-  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ scripture   ⟨dict-lc⟩  (advisory)
   ~ conditions   ⟨dict-lc⟩  (advisory)
   ~ thousand years.   ⟨dict-lc⟩  (advisory)
   ~ the word   ⟨dict-lc⟩  (advisory)
@@ -944,6 +690,7 @@
   ~ siege   ⟨dict-lc⟩  (advisory)
   ~ stadion   ⟨dict-lc,rare⟩  (advisory)
   ~ summer solstice   ⟨dict-lc⟩  (advisory)
+  ~ modern Aswan   ⟨dict-lc⟩  (advisory)
   ~ vertical   ⟨dict-lc⟩  (advisory)
   ~ bronze   ⟨dict-lc⟩  (advisory)
   ~ eclipses   ⟨dict-lc⟩  (advisory)
@@ -965,7 +712,6 @@
   ~ encompassing   ⟨rare⟩  (advisory)
   ~ envisioned   ⟨rare⟩  (advisory)
   ~ fluctuating   ⟨rare⟩  (advisory)
-  ~ agoras   ⟨rare⟩  (advisory)
   ~ gymnasiums   ⟨rare⟩  (advisory)
   ~ competitions   ⟨rare⟩  (advisory)
   ~ imperialism   ⟨rare⟩  (advisory)

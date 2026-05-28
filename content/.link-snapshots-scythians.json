@@ -344,7 +344,7 @@
     },
     "Ural_Mountains": {
       "title": "Ural Mountains",
-      "lead": "The Ural Mountains ( YOOR-əl), or simply the Urals, are a mountain range in Eurasia that runs north–south mostly through Russia, from the coast of the Arctic Ocean to the river Ural and northwestern Kazakhstan. The mountain range forms part",
+      "lead": "The Ural Mountains ( YOOR-əl), or simply the Urals, are a mountain range in Eurasia that runs north–south mostly through Russia, from the coast of the Arctic Ocean to the river Ural and northwestern Kazakhstan near the Caspian Sea. The moun",
       "image": "Landscape_view_in_Circumpolar_Urals.jpg"
     },
     "Danube": {
@@ -492,6 +492,21 @@
       "lead": "Napata (Ancient Egyptian: 𓈖𓐰𓊪𓐱𓏏𓌙𓐰𓈉, romanized: npt, 𓈖𓐰𓊪𓇌𓈗𓊖, npy; Meroitic: 𐦩𐦧𐦵‎, romanized: Napate; Ancient Greek: Νάπατα and Ναπάται) was a city of ancient Kush at the fourth cataract of the Nile founded by the Egyptian Am",
       "image": ""
     },
+    "Kurdish_language": {
+      "title": "Kurdish language",
+      "lead": "Kurdish (Kurdî, کوردی, pronounced [kʊrdiː] ) is a Northwestern Iranian language or group of languages spoken by Kurds in the region of Kurdistan, namely in southeast Turkey, northern Iraq, northwest Iran, and northern Syria. It is also spok",
+      "image": "Kurdish_Language.svg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
+    "Turkic_peoples": {
+      "title": "Turkic peoples",
+      "lead": "Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as well as parts of Europe, who speak Turkic languages. According to historians and linguists, the Proto-Turkic language originated in Central-E",
+      "image": "Turkic_Languages_distribution_map.png"
+    },
     "Medes": {
       "title": "Medes",
       "lead": "The Medes were an Iron Age Iranian people who spoke the Median language and who inhabited an area known as Media between western and northern Iran. Around the 11th century BC, they occupied the mountainous region of northwestern Iran and th",
@@ -599,7 +614,7 @@
     },
     "Croesus": {
       "title": "Croesus",
-      "lead": "Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 or 561 BC to 547 BC. He ruled Lydia until his defeat at the siege of Sardis by the Persian king Cyrus the Great. According to Herodotus, he ",
+      "lead": "Croesus ( KREE-səs; Ancient Greek: Κροῖσος, romanized: Kroîsos) was the last king of Lydia from 585 or 561 BC to 547 BC. He was renowned for his great wealth, as well as his ultimate defeat by the Persian king Cyrus the Great following the ",
       "image": "Croesus_portrait.jpg"
     },
     "Filigree": {
@@ -727,10 +742,15 @@
       "lead": "The Mediterranean Sea ( MED-ih-tə-RAY-nee-ən) is an intercontinental sea situated between Europe, Asia, and Africa. It is surrounded by the Mediterranean basin and almost completely enclosed by land: on the east by the Levant in West Asia, ",
       "image": "Mediterranean_Sea_16.61811E_38.99124N.jpg"
     },
+    "Greek_language": {
+      "title": "Greek language",
+      "lead": "Greek (Modern Greek: ελληνικά, romanized: elliniká [eliniˈka] ; Ancient Greek: ἑλληνική, romanized: hellēnikḗ [helːɛːnikɛ́ː]) is an Indo-European language, constituting an independent Hellenic branch within the Indo-European language family",
+      "image": "Idioma_Griego.PNG"
+    },
     "Persepolis": {
       "title": "Persepolis",
       "lead": "Persepolis was the ceremonial capital of the Achaemenid Empire (c. 550–330 BC). It is situated in the plains of Marvdasht, encircled by the southern Zagros Mountains, Fars province of Iran. It is one of the key Iranian cultural heritage sit",
-      "image": "Gate_of_All_Nations,_Persepolis.jpg"
+      "image": ""
     },
     "Behistun_inscription": {
       "title": "Behistun Inscription",
@@ -750,7 +770,7 @@
     "Thrace": {
       "title": "Thrace",
       "lead": "Thrace (, thrayss) is a geographical and historical region in Southeast Europe roughly corresponding to the province of Thrace in the Roman Empire. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea",
-      "image": "Thrace_and_present-day_state_borderlines.png"
+      "image": "Thrace_region.jpg"
     },
     "Ionians": {
       "title": "Ionians",
@@ -804,7 +824,7 @@
     },
     "Seljuk_Empire": {
       "title": "Seljuk Empire",
-      "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval Turkic, culturally Persianate empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 mil",
+      "lead": "The Seljuk Empire ( SEL-jook in BrE, sel-JOOK in AmE), or the Great Seljuk Empire, was a high medieval, Turko-Persian empire established and ruled by the Qïnïq branch of Oghuz Turks. The empire spanned a total area of 3.9 million square kil",
       "image": ""
     },
     "Parthian_Empire": {
@@ -819,7 +839,7 @@
     },
     "Istanbul": {
       "title": "Istanbul",
-      "lead": "Istanbul, is the largest city in Turkey, constituting the country's economic, cultural, and historical center. With a population of over 15 million, it is home to 18% of the population of Turkey. Istanbul is among the largest cities in Euro",
+      "lead": "Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical center. With a population of over 15 million, it is home to 18% of the population of Turkey. Istanbul is among the largest cities in Europ",
       "image": "Historical_peninsula_and_modern_skyline_of_Istanbul.jpg"
     },
     "Bulgaria": {
@@ -831,6 +851,11 @@
       "title": "Achaemenid Empire",
       "lead": "The Achaemenid Empire (, ə-KEE-mə-nid; Old Persian: 𐎧𐏁𐏂, Xšāça, lit. 'The Empire' or 'The Kingdom') was an ancient Iranian empire founded by Cyrus the Great of the Achaemenid dynasty in 550 BC. At peak, its territorial extent was roughly",
       "image": "Achaemenid_Empire_500_BCE.jpg"
+    },
+    "Crusades": {
+      "title": "Crusades",
+      "lead": "The Crusades were a series of military campaigns launched by the papacy between 1095 and 1291 against Muslim rulers for the recovery and defence of the Holy Land, as part of a wider crusading movement. The First Crusade was proclaimed by Po",
+      "image": "Combat_deuxième_croisade.jpg"
     },
     "Halicarnassus": {
       "title": "Halicarnassus",
@@ -929,7 +954,7 @@
     },
     "Plato": {
       "title": "Plato",
-      "lead": "Plato ( PLAY-toe; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
+      "lead": "Plato ( PLAY-toh; Ancient Greek: Πλάτων, Plátōn; born c. 428–423 BC, died 348/347 BC) was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An i",
       "image": "Plato_Silanion_Musei_Capitolini_MC1377.png"
     },
     "Aristotle": {
@@ -979,7 +1004,7 @@
     },
     "Zeus": {
       "title": "Zeus",
-      "lead": "Zeus (, Ancient Greek: Ζεύς), also known as Dias ( Greek: Δίας), is the supreme Deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the ch",
+      "lead": "Zeus (, Ancient Greek: Ζεύς) is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the child of Cronus and Rhea. In most trad",
       "image": "Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
     },
     "Artimpasa": {
@@ -1015,7 +1040,7 @@
     "Fu_Hao": {
       "title": "Fu Hao",
       "lead": "Fu Hao (traditional Chinese: 婦好; simplified Chinese: 妇好; pinyin: Fù Hǎo) died c. 1200 BC, posthumous temple name Mu Xin (母辛), was one of the many wives of King Wu Ding of the Shang dynasty and also served as a military general and high prie",
-      "image": ""
+      "image": "Fu_Hao_Tomb_and_Statue,_c._1200_BC,_Reign_of_King_Wu_Ding,_Shang_Dynasty_(10197821303).jpg"
     },
     "Shang_dynasty": {
       "title": "Shang dynasty",
@@ -1184,7 +1209,7 @@
     },
     "Mithridates_VI_of_Pontus": {
       "title": "Mithridates VI Eupator",
-      "lead": "Mithridates or Mithradates VI Eupator (Ancient Greek: Μιθριδάτης; 135–63 BC) was the ruler of the Kingdom of Pontus in northern Anatolia from 120 to 63 BC, and one of the Roman Republic's most formidable and determined opponents. He sought ",
+      "lead": "Mithridates or Mithradates VI Eupator (Ancient Greek: Μιθριδάτης; 135–63 BC) sometimes known as Mithridates the Great was the ruler of the Kingdom of Pontus in northern Anatolia from 120 to 63 BC, and one of the Roman Republic's most formid",
       "image": "Mithridates_VI_Louvre.jpg"
     },
     "Constanța": {

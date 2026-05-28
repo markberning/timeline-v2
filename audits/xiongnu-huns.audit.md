@@ -118,3 +118,16 @@ Line 95: "Tengri (the eternal sky god of the steppe peoples)" — good definitio
 This is an excellent narrative — one of the strongest in the collection. The 8-chapter structure handles the Xiongnu-to-Hun transition gracefully, with Ch 6 as the honest pivot point. The scholarly debate about the Xiongnu-Hun connection is handled with exemplary balance (presenting both sides, naming the evidence types, refusing to pretend the question is settled). The Modu-Attila structural parallel gives the whole narrative cohesion across its 700-year timespan.
 
 The must-fix items are minor: two factual precision issues (Flagellum Dei attribution, Venice founding), one editorial overreach (Huo Qubing death), one missing cross-reference (Qin Dynasty), and one uncertain number (five claimants). The should-fix items are mostly about adding cross-references to shipped TLs (Scythians, Ancient Rome, Persian Empire, Maurya Empire) and tightening definitions for minor peoples/places. Writing-rule compliance is strong: no em-dash definitions, no "we met" phrasing, no repeated uncertainty language, pronunciations consistently provided, parenthetical style correct throughout.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: this pass was a **link-coverage sweep only** — no narrative prose
+was changed; the work added born-verified glossary links (demonyms, region and
+people names: Eurasia, Turkic peoples, Anglo-Saxons, Slavs, Iranian peoples,
+Mongolia, Huns, etc.) to close NEW under-linking gaps. No new cross-cultural
+*narrative claim* was introduced, so there are **no new backward findings** to
+push into other civs' cross-link files. Existing forward cross-links (to
+mongol-empire, gokturk-khaganate, the-goths, migration-period, etc.) are
+unchanged and were re-verified by the deterministic cross-link gate (37/37 PASS).
+Reason for no backward edits: nothing in this sweep alters how another civ should
+describe its link to the Xiongnu/Huns.

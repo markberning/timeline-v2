@@ -143,6 +143,18 @@
       "matchText": "a sultan over the Ottoman lands",
       "wikiSlug": "Ottoman_Empire",
       "type": "institution"
+    },
+    {
+      "term": "The Crown",
+      "matchText": "Crown",
+      "wikiSlug": "The_Crown",
+      "type": "glossary"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -271,6 +283,18 @@
       "matchText": "the largest emancipation in North America before the Civil War",
       "wikiSlug": "American_Civil_War",
       "type": "event"
+    },
+    {
+      "term": "British Empire",
+      "matchText": "British Empire",
+      "wikiSlug": "British_Empire",
+      "type": "glossary"
+    },
+    {
+      "term": "Polish people",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_people",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -411,6 +435,18 @@
       "matchText": "going to Canada, to Britain, or to the Caribbean",
       "wikiSlug": "The_Canadas",
       "type": "place"
+    },
+    {
+      "term": "American Revolution",
+      "matchText": "American Revolution",
+      "wikiSlug": "American_Revolution",
+      "type": "glossary"
+    },
+    {
+      "term": "The Crown",
+      "matchText": "Crown",
+      "wikiSlug": "The_Crown",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -545,6 +581,12 @@
       "matchText": "Articles of Confederation",
       "wikiSlug": "Articles_of_Confederation",
       "type": "concept"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -679,6 +721,12 @@
       "matchText": "caste discrimination",
       "wikiSlug": "Caste_system_in_India",
       "type": "concept"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -941,6 +989,18 @@
       "matchText": "the dictatorship of General Napoleon",
       "wikiSlug": "Napoleon",
       "type": "person"
+    },
+    {
+      "term": "Reign of Terror",
+      "matchText": "Terror",
+      "wikiSlug": "Reign_of_Terror",
+      "type": "glossary"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1076,6 +1136,18 @@
       "matchText": "Hamilton",
       "wikiSlug": "Alexander_Hamilton",
       "type": "people"
+    },
+    {
+      "term": "Southern United States",
+      "matchText": "Southerners",
+      "wikiSlug": "Southern_United_States",
+      "type": "glossary"
+    },
+    {
+      "term": "Supreme Court of the United States",
+      "matchText": "Supreme Court",
+      "wikiSlug": "Supreme_Court_of_the_United_States",
+      "type": "glossary"
     }
   ],
   "9": [
@@ -1327,6 +1399,12 @@
       "matchText": "Jefferson and Madison, unable to fight the laws",
       "wikiSlug": "James_Madison",
       "type": "person"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
     }
   ],
   "11": [
@@ -1449,6 +1527,24 @@
       "matchText": "The Roman Republic could not survive its own factional transfers",
       "wikiSlug": "Roman_Republic",
       "type": "institution"
+    },
+    {
+      "term": "Charles I of England",
+      "matchText": "Charles I",
+      "wikiSlug": "Charles_I_of_England",
+      "type": "glossary"
+    },
+    {
+      "term": "Americans",
+      "matchText": "Americans",
+      "wikiSlug": "Americans",
+      "type": "glossary"
+    },
+    {
+      "term": "Act of Parliament",
+      "matchText": "Act of Parliament",
+      "wikiSlug": "Act_of_Parliament",
+      "type": "glossary"
     }
   ],
   "12": [
@@ -1858,6 +1954,12 @@
       "matchText": "rebuilt them from memory",
       "wikiSlug": "Samuel_Slater",
       "type": "person"
+    },
+    {
+      "term": "Catholic Church",
+      "matchText": "Catholicism",
+      "wikiSlug": "Catholic_Church",
+      "type": "glossary"
     }
   ],
   "15": [
@@ -1986,6 +2088,12 @@
       "matchText": "the great mound-building and trade networks of the Mississippian world",
       "wikiSlug": "Mississippian_culture",
       "type": "concept"
+    },
+    {
+      "term": "Tenskwatawa",
+      "matchText": "Prophet",
+      "wikiSlug": "Tenskwatawa",
+      "type": "glossary"
     }
   ],
   "16": [
@@ -2370,6 +2478,12 @@
       "matchText": "Jefferson at Monticello in Virginia",
       "wikiSlug": "Monticello",
       "type": "place"
+    },
+    {
+      "term": "Northern United States",
+      "matchText": "Northerners",
+      "wikiSlug": "Northern_United_States",
+      "type": "glossary"
     }
   ]
 }
