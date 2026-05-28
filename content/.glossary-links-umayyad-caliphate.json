@@ -1275,6 +1275,24 @@
       "matchText": "Persia",
       "type": "place",
       "wikiSlug": "History_of_Iran"
+    },
+    {
+      "term": "Iranian Plateau",
+      "matchText": "Iranian plateau",
+      "wikiSlug": "Iranian_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "Gregorian calendar",
+      "matchText": "Gregorian",
+      "wikiSlug": "Gregorian_calendar",
+      "type": "concept"
     }
   ],
   "4": [
@@ -1691,6 +1709,18 @@
       "matchText": "Iraqi",
       "type": "place",
       "wikiSlug": "Iraq"
+    },
+    {
+      "term": "Hanbali school",
+      "matchText": "Hanbali",
+      "wikiSlug": "Hanbali_school",
+      "type": "concept"
+    },
+    {
+      "term": "Al-Kazimiyya Mosque",
+      "matchText": "Kazimiyah",
+      "wikiSlug": "Al-Kazimiyya_Mosque",
+      "type": "place"
     }
   ],
   "5": [
@@ -2547,6 +2577,12 @@
       "matchText": "Pala",
       "type": "people",
       "wikiSlug": "Pala_Empire"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
     }
   ],
   "7": [
@@ -2993,6 +3029,24 @@
       "matchText": "Iraqi",
       "type": "place",
       "wikiSlug": "Iraq"
+    },
+    {
+      "term": "Hanbali school",
+      "matchText": "Hanbali",
+      "wikiSlug": "Hanbali_school",
+      "type": "concept"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "Crusaders",
+      "matchText": "Crusader",
+      "definition": "The Christian European armies who seized Jerusalem in 1099 and held it on and off until the late 1200s, briefly turning the Dome of the Rock into a church before Saladin's forces retook the city.",
+      "type": "group"
     }
   ],
   "8": [
@@ -3403,6 +3457,24 @@
       "matchText": "Pala dynasty",
       "type": "people",
       "wikiSlug": "Pala_Empire"
+    },
+    {
+      "term": "Copts",
+      "matchText": "Egyptians",
+      "wikiSlug": "Copts",
+      "type": "group"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Alids",
+      "matchText": "Alid",
+      "wikiSlug": "Alids",
+      "type": "group"
     }
   ]
 }

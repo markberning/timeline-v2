@@ -461,6 +461,18 @@
       "matchText": "Eurasia",
       "wikiSlug": "Eurasia",
       "type": "place"
+    },
+    {
+      "term": "Khagan",
+      "matchText": "Great Khan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Tibetan Buddhism",
+      "matchText": "Tibetan Buddhist",
+      "wikiSlug": "Tibetan_Buddhism",
+      "type": "concept"
     }
   ],
   "2": [
@@ -913,6 +925,42 @@
       "matchText": "Hangzhou",
       "wikiSlug": "Hangzhou",
       "type": "place"
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Pope",
+      "matchText": "Pope",
+      "wikiSlug": "Pope",
+      "type": "person"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "group"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "Khagan",
+      "matchText": "Great Khan",
+      "wikiSlug": "Khagan",
+      "type": "concept"
+    },
+    {
+      "term": "Ismail",
+      "matchText": "Ismail",
+      "definition": "One of two Muslim siege engineers (with Ala al-Din) sent from the Ilkhanate in Persia to Kublai's China, where they built the heavy counterweight trebuchets that cracked the Song fortress of Xiangyang in 1273. The Chinese called the weapon the 'Muslim trebuchet' after them.",
+      "type": "person"
     }
   ],
   "3": [
@@ -1184,6 +1232,24 @@
       "term": "Eurasia",
       "matchText": "Eurasia",
       "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "group"
+    },
+    {
+      "term": "Javanese people",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_people",
+      "type": "group"
+    },
+    {
+      "term": "Indonesian",
+      "matchText": "Indonesian",
+      "definition": "Here meaning the great island world of maritime Southeast Asia — the Java, Sumatra, and surrounding archipelago that is the modern nation of Indonesia. In the 1290s it was a patchwork of Hindu-Buddhist kingdoms, the target of Kublai's failed 1293 Java expedition.",
       "type": "place"
     }
   ],
@@ -1703,6 +1769,18 @@
       "matchText": "Burma",
       "wikiSlug": "Pagan_Kingdom",
       "type": "place"
+    },
+    {
+      "term": "Bordeaux",
+      "matchText": "Bordeaux",
+      "wikiSlug": "Bordeaux",
+      "type": "place"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
     }
   ],
   "5": [
@@ -2137,6 +2215,12 @@
       "matchText": "Mongolian",
       "wikiSlug": "Mongolian_language",
       "type": "concept"
+    },
+    {
+      "term": "Alexander Pope",
+      "matchText": "Pope",
+      "wikiSlug": "Alexander_Pope",
+      "type": "person"
     }
   ],
   "6": [
@@ -2636,6 +2720,24 @@
       "term": "Zaiton",
       "matchText": "Zaiton",
       "wikiSlug": "Quanzhou",
+      "type": "place"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "group"
+    },
+    {
+      "term": "Moroccans",
+      "matchText": "Moroccan",
+      "wikiSlug": "Moroccans",
+      "type": "group"
+    },
+    {
+      "term": "Inner Asia",
+      "matchText": "Inner Asian",
+      "wikiSlug": "Inner_Asia",
       "type": "place"
     }
   ],
@@ -3462,6 +3564,18 @@
       "term": "Eurasia",
       "matchText": "Eurasia",
       "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Tibetan Buddhism",
+      "matchText": "Tibetan Buddhist",
+      "wikiSlug": "Tibetan_Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Inner Asia",
+      "matchText": "Inner Asian",
+      "wikiSlug": "Inner_Asia",
       "type": "place"
     }
   ]

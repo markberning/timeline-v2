@@ -82,7 +82,7 @@
     },
     "People%27s_Crusade": {
       "title": "People's Crusade",
-      "lead": "The People's Crusade was the beginning phase of the First Crusade whose objective was to retake the Holy Land, and Jerusalem in particular, from Islamic rule. In 1095, after the head of the Roman Catholic Church Pope Urban II started to urg",
+      "lead": "The People's Crusade was the beginning phase of the First Crusade whose objective was to retake the Holy Land, and Jerusalem in particular, from Islamic rule. In 1095, after the head of the Catholic Church Pope Urban II started to urge fait",
       "image": "PeoplesCrusadeMassacre.jpg"
     },
     "First_Crusade": {
@@ -594,7 +594,7 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
     },
     "Western_Roman_Empire": {
@@ -609,7 +609,7 @@
     },
     "Duchy_of_Normandy": {
       "title": "Duchy of Normandy",
-      "lead": "The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 until 1204, as a result of the No",
+      "lead": "The Duchy of Normandy was a French Vassal state that grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 un",
       "image": "Flag_of_Normandie.svg"
     },
     "Yorkshire": {
@@ -644,7 +644,7 @@
     },
     "Florence": {
       "title": "Florence",
-      "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 362,353 inhabitants as of 2025. It is also the capital of the eponymous metropolitan province, which counts 989,460 inhabitants. Floren",
+      "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 361,625 inhabitants as of 2026. It is also the capital of the eponymous metropolitan province, which counts 988,494 inhabitants. Floren",
       "image": "FirenzeDec092023_01.jpg"
     },
     "Genoa": {
@@ -732,6 +732,11 @@
       "lead": "Flemish people or Flemings (Dutch: Vlamingen [ˈvlaːmɪŋə(n)] ; French: Flamands) are one of three Belgian main ethnic groups native to Flanders, Belgium, who speak Flemish Dutch. Flemish people make up the majority of Belgians, at about 60%.",
       "image": "Flag_of_Flanders.svg"
     },
+    "Low_Countries": {
+      "title": "Low Countries",
+      "lead": "The Low Countries is a historical and geographically coastal lowland region in Northwestern Europe forming the lower basin of the Rhine–Meuse–Scheldt delta and consisting today of the three modern \"Benelux\" countries: Belgium, the Netherlan",
+      "image": "NasaBenelux.jpg"
+    },
     "Henry_IV,_Holy_Roman_Emperor": {
       "title": "Henry IV, Holy Roman Emperor",
       "lead": "Henry IV (German: Heinrich IV; 11 November 1050 – 7 August 1106) was Holy Roman Emperor (1084–1105), King of Germany (1054–1105), and King of Italy and Burgundy (1056–1105). A Salian ruler, he was the son of Henry III and Agnes of Poitou. A",
@@ -754,7 +759,7 @@
     },
     "College_of_Cardinals": {
       "title": "College of Cardinals",
-      "lead": "The College of Cardinals (Latin: Collegium Cardinalium), also called the Sacred College of Cardinals, is the body of all cardinals of the Catholic Church. As of 12 May 2026, there are 242 cardinals, of whom 118 are eligible to vote in a con",
+      "lead": "The College of Cardinals (Latin: Collegium Cardinalium), also called the Sacred College of Cardinals, is the body of all cardinals of the Catholic Church. As of 22 May 2026, there are 242 cardinals, of whom 117 are eligible to vote in a con",
       "image": "John_Paul_II_funeral_long_shot.jpg"
     },
     "Pope_Leo_IX": {
@@ -824,7 +829,7 @@
     },
     "Rule_of_Saint_Benedict": {
       "title": "Rule of Saint Benedict",
-      "lead": "The Rule of Saint Benedict (Latin: Regula Sancti Benedicti) is a book of precepts written in Latin c. 530 by St. Benedict of Nursia (c. AD 480–550) for monks living communally under the authority of an abbot. The spirit of Saint Benedict's ",
+      "lead": "The Rule of Saint Benedict (Latin: Regula Sancti Benedicti) is a book of precepts written in Latin c. 530 by St. Benedict of Nursia (c. 480 – c. 550) for monks living communally under the authority of an abbot. The spirit of Saint Benedict'",
       "image": "MS._Hatton_48_fol._6v-7r.jpg"
     },
     "Alps": {
@@ -834,7 +839,7 @@
     },
     "Salerno": {
       "title": "Salerno",
-      "lead": "Salerno (UK: , US: ; Italian: [saˈlɛrno] ; Neapolitan: Salierno [saˈljernə]) is an ancient city and comune (municipality) in Campania, southwestern Italy, and is the capital of the province of the same name. It is the second largest city in",
+      "lead": "Salerno (UK: , US: ; Italian: [saˈlɛrno] ; Neapolitan: Salierno [saˈljernə]) is a city and comune in Campania, southern Italy, and the capital of the province of the same name. With 125,958 inhabitants as of 2025, it is the second most popu",
       "image": "Panorama_of_salerno_from_arechi.jpg"
     },
     "Humbert_of_Silva_Candida": {
@@ -884,8 +889,13 @@
     },
     "Greeks": {
       "title": "Greeks",
-      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, Southern Italy (Greeks in Italy), parts of Egypt, and to a lesser extent, other countries surrou",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, southern Italy, parts of Egypt, and to a lesser extent, other countries surrounding the Eastern ",
       "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "Reims": {
+      "title": "Reims",
+      "lead": "Reims ( REEMZ; French: [ʁɛ̃s] ; also spelled Rheims in English) is the most populous city in the French department of Marne, and the 12th most populous city in France. The city lies 129 km (80 mi) northeast of Paris on the Vesle river, a tr",
+      "image": "Subé_Fountain,_Reims,_France.jpg"
     },
     "Pope_Urban_II": {
       "title": "Pope Urban II",
@@ -969,7 +979,7 @@
     },
     "Latin_Empire": {
       "title": "Latin Empire",
-      "lead": "The Latin Empire, also referred to as the Latin Empire of Constantinople or the Constantinopolitan Empire, was a feudal Crusader state founded by the leaders of the Fourth Crusade on lands captured from the Byzantine Empire. The Latin Empir",
+      "lead": "The Latin Empire, also referred to as the Latin Empire of Constantinople or the Constantinopolitan Empire, was a feudal Crusader state founded by the leaders of the Fourth Crusade on lands captured from the Byzantine Empire. It existed from",
       "image": "LatinEmpire2.png"
     },
     "Catharism": {
@@ -1069,7 +1079,7 @@
     },
     "Eastern_Orthodox_Church": {
       "title": "Eastern Orthodox Church",
-      "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches that adh",
+      "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches. It is o",
       "image": "St._George's_Cathedral_2022_(6).jpg"
     },
     "Hippodrome_of_Constantinople": {
@@ -1144,7 +1154,7 @@
     },
     "Robert_Curthose": {
       "title": "Robert Curthose",
-      "lead": "Robert Curthose ( French: Robert Courteheuse; c. 1051 – c. 3 February 1134) was the eldest son of William the Conqueror and Duke of Normandy as Robert II from 1087 to 1106. Robert was twice an unsuccessful pretender to the throne of the Kin",
+      "lead": "Robert Curthose (French: Robert Courteheuse; c. 1051 – c. 3 February 1134) was the eldest son of William the Conqueror and Duke of Normandy as Robert II from 1087 to 1106. Robert was twice an unsuccessful pretender to the throne of the King",
       "image": "Robert_Curthose_-_MS_Royal_14_B_VI.png"
     },
     "County_of_Tripoli": {
@@ -1161,6 +1171,16 @@
       "title": "Peace and Truce of God",
       "lead": "The Peace and Truce of God (Latin: Pax et treuga Dei) was a movement in the Middle Ages led by the Catholic Church and was one of the most influential mass peace movements in history. The goal of both the Pax Dei and the Treuga Dei was to l",
       "image": "Revilla_de_Collazos_Church_of_San_Andrés_002_Capitel_del_arco_triunfal_con_la_Tregua_Domini.jpg"
+    },
+    "Mainz": {
+      "title": "Mainz",
+      "lead": "Mainz (German: [maɪnts] ; see below) is the capital and largest city of the German state of Rhineland-Palatinate, and with around 223,000 inhabitants, it is Germany's 35th-largest city. It lies in the Rhine-Main Metropolitan Region — German",
+      "image": "Mainzer_Dom_Blaue_Stunde_(37539430014).jpg"
+    },
+    "Jews": {
+      "title": "Jews",
+      "lead": "Jews (Hebrew: יְהוּדִים‎, ISO 259-2: Yehudim, Israeli pronunciation: [jehuˈdim]), or the Jewish people, are an ethnoreligious group and nation, originating from the Israelites of ancient Israel and Judah. They traditionally adhere to Judais",
+      "image": "Map_of_the_Jewish_Diaspora_in_the_World.svg"
     },
     "Veliky_Novgorod": {
       "title": "Veliky Novgorod",
@@ -1219,7 +1239,7 @@
     },
     "Hawala": {
       "title": "Hawala",
-      "lead": "Hawala or hewala (Arabic: حِوالة, romanized: Ḥawāla, lit. 'transfer, trust'), originating in India as havala (Hindi: हवाला) or huṇḍī (Hindi: हुण्डी, romanized: Huṇḍī, Sanskrit: हुण्डिका, romanized: Huṇḍikā, lit. 'bill of exchange, draft, or",
+      "lead": "Hawala or hewala (Arabic: حِوالة, romanized: Ḥawāla, lit. 'transfer, trust'), originating in India as havālā (Hindi: हवाला) or huṇḍī (Hindi: हुण्डी, romanized: Huṇḍī, Sanskrit: हुण्डिका, romanized: Huṇḍikā, lit. 'bill of exchange, draft, or",
       "image": "Assorted_United_States_coins.jpg"
     },
     "Hugues_de_Payens": {
@@ -1319,7 +1339,7 @@
     },
     "Berbers": {
       "title": "Berbers",
-      "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. They are indigenous to the Maghre",
+      "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. The Berbers are indigenous to the",
       "image": "Berber_flag.svg"
     },
     "Sundiata_Keita": {
@@ -1405,7 +1425,7 @@
     "Averroes": {
       "title": "Averroes",
       "lead": "Ibn Rushd (14 April 1126 – 11 December 1198), Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mat",
-      "image": "Andrea_di_bonaiuto,_apotesosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
+      "image": "Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
     },
     "Maimonides": {
       "title": "Maimonides",
@@ -1642,6 +1662,11 @@
       "lead": "Cîteaux Abbey (French: Abbaye de Cîteaux [abe.i d(ə) sito]) is a Catholic abbey located in Saint-Nicolas-lès-Cîteaux, south of Dijon, France. It is notable for being the original house of the Order of Cistercians. Today, it belongs to the T",
       "image": "Abbaye_de_Cîteaux_La_Bibliothèque.JPG"
     },
+    "Old_Spanish": {
+      "title": "Old Spanish",
+      "lead": "Old Spanish (roman, romançe, romaz; Spanish: español antiguo), also known as Old Castilian or Medieval Spanish, refers to the varieties of Ibero-Romance spoken predominantly in Castile and environs during the Middle Ages. The earliest, long",
+      "image": ""
+    },
     "Suger": {
       "title": "Suger",
       "lead": "Suger (; French: [syʒɛʁ]; Latin: Sugerius; c. 1081 – 13 January 1151) was a French abbot and statesman. He was a key advisor to King Louis VI and his son Louis VII, acting as the latter's regent during the Second Crusade. His writings are s",
@@ -1842,6 +1867,11 @@
       "lead": "Tenochtitlan, also known as Mexico-Tenochtitlan, was a large Mexican altepetl in what is now the historic center of Mexico City. The exact date of the founding of the city is unclear, but the date 13 March 1325 was chosen in 1925 to celebra",
       "image": "Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_(9755215791).jpg"
     },
+    "Charles_X_of_France": {
+      "title": "Charles X of France",
+      "lead": "Charles X (Charles Philippe; 9 October 1757 – 6 November 1836) was King of France from 16 September 1824 until 2 August 1830. An uncle of the uncrowned Louis XVII and younger brother of reigning kings Louis XVI and Louis XVIII, he supported",
+      "image": "Carlos_X_de_Francia_(François_Gérard).jpg"
+    },
     "University_of_Cambridge": {
       "title": "University of Cambridge",
       "lead": "The University of Cambridge is a collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the second-oldest university in the English-speaking world and the world's third-oldest university in con",
@@ -1890,7 +1920,7 @@
     "Averroism": {
       "title": "Averroism",
       "lead": "Averroism, also known as Rushdism, was a school of medieval philosophy based on the application of the works of 12th-century Andalusian philosopher Averroes, (Ibn Rushd in Arabic; 1126–1198) a commentator on Aristotle, in 13th-century Latin",
-      "image": "Andrea_di_bonaiuto,_apotesosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
+      "image": "Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d'aquino,_11_averroè.jpg"
     },
     "Siger_of_Brabant": {
       "title": "Siger of Brabant",
@@ -2074,7 +2104,7 @@
     },
     "Model_Parliament": {
       "title": "Model Parliament",
-      "lead": "The Model Parliament was the 1295 Parliament of England of King Edward I. Its composition became the model for later parliaments.",
+      "lead": "The Model Parliament was the 1295 Parliament of England of King Edward I. Its composition became the model for later parliaments, and has been studied in history lessons for years.",
       "image": "Coat_of_Arms_of_England_(-1340).svg"
     },
     "Avignon_Papacy": {
@@ -2241,6 +2271,11 @@
       "title": "Khagan",
       "lead": "Khagan or Qaghan (Kazakh: Қаған/Qağan, Middle Mongol:ᠬᠠᠭᠠᠨ; Khaan or Khagan; Old Turkic: 𐰴𐰍𐰣 Qaɣan) is a title of imperial rank in Turkic, Mongolic, and some other languages, equal to the status of emperor and someone who rules a khagana",
       "image": ""
+    },
+    "Late_Middle_Ages": {
+      "title": "Late Middle Ages",
+      "lead": "The Late Middle Ages or late medieval period was the period of European history lasting from 1300 to 1500 AD. The late Middle Ages followed the High Middle Ages and preceded Early modern Europe (and in much of Europe, the Renaissance). Arou",
+      "image": "Europe_in_the_14th_Century.jpg"
     }
   }
 }

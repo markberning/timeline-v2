@@ -1,0 +1,51 @@
+{
+  "medieval-india": {
+    "1": {"glossary":[{"term":"Central Asian","matchText":"Central Asian","wikiSlug":"Central_Asia","type":"place"},{"term":"Bengali","matchText":"Bengali","wikiSlug":"Bengalis","type":"group"},{"term":"Himalayan","matchText":"Himalayan","wikiSlug":"Himalayas","type":"place"},{"term":"Pala Empire","matchText":"Pala","wikiSlug":"Pala_Empire","type":"group"}],"waivers":["Islamic Golden Age Ch"]},
+    "2": {"glossary":[{"term":"Arabian Peninsula","matchText":"Arabia","wikiSlug":"Arabian_Peninsula","type":"place"}]},
+    "3": {"glossary":[{"term":"Shaivism","matchText":"Shaivite","wikiSlug":"Shaivism","type":"concept"},{"term":"Himalayan","matchText":"Himalayan","wikiSlug":"Himalayas","type":"place"}],"waivers":["Ethiopia","Ethiopian","Delhi"]},
+    "4": {"glossary":[{"term":"Central Asian","matchText":"Central Asian","wikiSlug":"Central_Asia","type":"place"},{"term":"Himalayan","matchText":"Himalayan","wikiSlug":"Himalayas","type":"place"}]},
+    "5": {"glossary":[{"term":"Pala Empire","matchText":"Pala","wikiSlug":"Pala_Empire","type":"group"},{"term":"Malay Peninsula","matchText":"Malay Peninsula","wikiSlug":"Malay_Peninsula","type":"place"},{"term":"Sumatra","matchText":"Sumatran","wikiSlug":"Sumatra","type":"place"}],"waivers":["Islamic Golden Age Ch","Cambodia"]},
+    "6": {"glossary":[{"term":"Pala Empire","matchText":"Pala","wikiSlug":"Pala_Empire","type":"group"},{"term":"Himalayan","matchText":"Himalayan","wikiSlug":"Himalayas","type":"place"},{"term":"Jainism","matchText":"Jain","wikiSlug":"Jainism","type":"concept"}],"waivers":["Victorian"]},
+    "7": {"glossary":[{"term":"Arjuna","matchText":"Arjuna","wikiSlug":"Arjuna","type":"person"},{"term":"Pala Empire","matchText":"Pala","wikiSlug":"Pala_Empire","type":"group"},{"term":"Indonesia","matchText":"Indonesian","wikiSlug":"Indonesia","type":"place"}],"glossary_blurbs":[{"term":"Latin Europe","matchText":"Latin Europe","definition":"The Latin-Christian, Catholic half of medieval Europe — the Western kingdoms that used Latin for learning and worship, as opposed to the Greek-speaking Byzantine East. It's the world that received Indian numerals via Arabic translation.","type":"place"}],"waivers":["Earth","Cambodia"]},
+    "8": {"glossary":[{"term":"Afghanistan","matchText":"Afghan","wikiSlug":"Afghanistan","type":"place"}],"waivers":["Central Asian","Eurasia","Khwarizmi"]}
+  },
+  "swahili-coast": {
+    "1": {"glossary":[{"term":"Arabs","matchText":"Arabs","wikiSlug":"Arabs","type":"group"}],"waivers":["Egyptians","Greek-speaking","Persian","Saharan"]},
+    "2": {"waivers":["Iraqi"]},
+    "3": {"glossary":[{"term":"Arabian Peninsula","matchText":"Arabia","wikiSlug":"Arabian_Peninsula","type":"place"}],"waivers":["Saharan"]},
+    "4": {"glossary":[{"term":"Muhammad","matchText":"Prophet Muhammad","wikiSlug":"Muhammad","type":"person"}],"waivers":["Baltic","Arabia","Persian","Moroccan","Ethiopian"]},
+    "5": {"waivers":["Moroccan","Arabia","Delhi","Hasan","Prophet","Arab","Persian","Southeast Asian"]},
+    "6": {"waivers":["Lisbon","Christians","Saharan"]},
+    "7": {"glossary":[{"term":"Low Countries","matchText":"Low Countries","wikiSlug":"Low_Countries","type":"place"}]},
+    "8": {"waivers":["Ethiopian","Persian"]}
+  },
+  "umayyad-caliphate": {
+    "1": {"waivers":["United States","Earth","Muslims","Arabia","Ethiopia","Ethiopian"]},
+    "2": {"waivers":["Arabia","Andalus"]},
+    "3": {"glossary":[{"term":"Iranian Plateau","matchText":"Iranian plateau","wikiSlug":"Iranian_Plateau","type":"place"},{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"},{"term":"Gregorian calendar","matchText":"Gregorian","wikiSlug":"Gregorian_calendar","type":"concept"}]},
+    "4": {"glossary":[{"term":"Hanbali school","matchText":"Hanbali","wikiSlug":"Hanbali_school","type":"concept"},{"term":"Al-Kazimiyya Mosque","matchText":"Kazimiyah","wikiSlug":"Al-Kazimiyya_Mosque","type":"place"}],"waivers":["Shah"]},
+    "5": {"waivers":["Arabia","Mesopotamian","Muslims"]},
+    "6": {"glossary":[{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"}],"waivers":["Mongol"]},
+    "7": {"glossary":[{"term":"Hanbali school","matchText":"Hanbali","wikiSlug":"Hanbali_school","type":"concept"},{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"}],"glossary_blurbs":[{"term":"Crusaders","matchText":"Crusader","definition":"The Christian European armies who seized Jerusalem in 1099 and held it on and off until the late 1200s, briefly turning the Dome of the Rock into a church before Saladin's forces retook the city.","type":"group"}]},
+    "8": {"glossary":[{"term":"Copts","matchText":"Egyptians","wikiSlug":"Copts","type":"group"},{"term":"Iranian peoples","matchText":"Iranian","wikiSlug":"Iranian_peoples","type":"group"},{"term":"Alids","matchText":"Alid","wikiSlug":"Alids","type":"group"}],"waivers":["Andalus","Safavid"]}
+  },
+  "high-medieval-europe": {
+    "1": {"glossary":[{"term":"Low Countries","matchText":"Low Countries","wikiSlug":"Low_Countries","type":"place"}],"waivers":["Medieval Climate Anomaly","Norway","Andean"]},
+    "2": {"glossary":[{"term":"Reims","matchText":"Reims","wikiSlug":"Reims","type":"place"},{"term":"Low Countries","matchText":"Low Countries","wikiSlug":"Low_Countries","type":"place"}],"glossary_blurbs":[{"term":"Latin Europe","matchText":"Latin Europe","definition":"The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.","type":"place"}],"waivers":["Crusader"]},
+    "3": {"glossary":[{"term":"Mainz","matchText":"Mainz","wikiSlug":"Mainz","type":"place"},{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"}],"glossary_blurbs":[{"term":"Latin Europe","matchText":"Latin Europe","definition":"The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.","type":"place"}]},
+    "4": {"waivers":["Crusader","Polish","Norwegian","Denmark"]},
+    "5": {"glossary":[{"term":"Old Spanish","matchText":"Castilian","wikiSlug":"Old_Spanish","type":"concept"}],"glossary_blurbs":[{"term":"Latin Europe","matchText":"Latin Europe","definition":"The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.","type":"place"}],"waivers":["Crusader"]},
+    "6": {"glossary":[{"term":"Charles X of France","matchText":"Charles X","wikiSlug":"Charles_X_of_France","type":"person"}],"glossary_blurbs":[{"term":"Latin Europe","matchText":"Latin Europe","definition":"The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.","type":"place"}]},
+    "7": {"glossary_blurbs":[{"term":"Latin Europe","matchText":"Latin Europe","definition":"The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.","type":"place"}],"waivers":["Commentator"]},
+    "8": {"glossary":[{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"},{"term":"Late Middle Ages","matchText":"Late Middle Ages","wikiSlug":"Late_Middle_Ages","type":"concept"}],"waivers":["Ethiopian","Andean"]}
+  },
+  "yuan-dynasty": {
+    "1": {"glossary":[{"term":"Khagan","matchText":"Great Khan","wikiSlug":"Khagan","type":"concept"},{"term":"Tibetan Buddhism","matchText":"Tibetan Buddhist","wikiSlug":"Tibetan_Buddhism","type":"concept"}],"waivers":["Chinese-style","Islamic Golden Age Ch"]},
+    "2": {"glossary":[{"term":"Himalayan","matchText":"Himalayan","wikiSlug":"Himalayas","type":"place"},{"term":"Pope","matchText":"Pope","wikiSlug":"Pope","type":"person"},{"term":"Viet people","matchText":"Vietnamese","wikiSlug":"Viet_people","type":"group"},{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"},{"term":"Khagan","matchText":"Great Khan","wikiSlug":"Khagan","type":"concept"}],"glossary_blurbs":[{"term":"Ismail","matchText":"Ismail","definition":"One of two Muslim siege engineers (with Ala al-Din) sent from the Ilkhanate in Persia to Kublai's China, where they built the heavy counterweight trebuchets that cracked the Song fortress of Xiangyang in 1273. The Chinese called the weapon the 'Muslim trebuchet' after them.","type":"person"}],"waivers":["Islamic Golden Age Ch"]},
+    "3": {"glossary":[{"term":"Viet people","matchText":"Vietnamese","wikiSlug":"Viet_people","type":"group"},{"term":"Javanese people","matchText":"Javanese","wikiSlug":"Javanese_people","type":"group"}],"glossary_blurbs":[{"term":"Indonesian","matchText":"Indonesian","definition":"Here meaning the great island world of maritime Southeast Asia — the Java, Sumatra, and surrounding archipelago that is the modern nation of Indonesia. In the 1290s it was a patchwork of Hindu-Buddhist kingdoms, the target of Kublai's failed 1293 Java expedition.","type":"place"}],"waivers":["Crusader"]},
+    "4": {"glossary":[{"term":"Bordeaux","matchText":"Bordeaux","wikiSlug":"Bordeaux","type":"place"},{"term":"Jews","matchText":"Jews","wikiSlug":"Jews","type":"group"}],"waivers":["Earth"]},
+    "5": {"glossary":[{"term":"Alexander Pope","matchText":"Pope","wikiSlug":"Alexander_Pope","type":"person"}],"waivers":["Chinese-style"]},
+    "6": {"glossary":[{"term":"Viet people","matchText":"Vietnamese","wikiSlug":"Viet_people","type":"group"},{"term":"Moroccans","matchText":"Moroccan","wikiSlug":"Moroccans","type":"group"},{"term":"Inner Asia","matchText":"Inner Asian","wikiSlug":"Inner_Asia","type":"place"}]},
+    "8": {"glossary":[{"term":"Tibetan Buddhism","matchText":"Tibetan Buddhist","wikiSlug":"Tibetan_Buddhism","type":"concept"},{"term":"Inner Asia","matchText":"Inner Asian","wikiSlug":"Inner_Asia","type":"place"}],"waivers":["Chinese-style"]}
+  }
+}

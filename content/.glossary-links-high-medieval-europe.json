@@ -287,6 +287,12 @@
       "matchText": "Flemish",
       "wikiSlug": "Flemish_people",
       "type": "people"
+    },
+    {
+      "term": "Low Countries",
+      "matchText": "Low Countries",
+      "wikiSlug": "Low_Countries",
+      "type": "place"
     }
   ],
   "2": [
@@ -552,6 +558,24 @@
       "term": "Eurasia",
       "matchText": "Eurasia",
       "wikiSlug": "Eurasia",
+      "type": "place"
+    },
+    {
+      "term": "Reims",
+      "matchText": "Reims",
+      "wikiSlug": "Reims",
+      "type": "place"
+    },
+    {
+      "term": "Low Countries",
+      "matchText": "Low Countries",
+      "wikiSlug": "Low_Countries",
+      "type": "place"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.",
       "type": "place"
     }
   ],
@@ -993,6 +1017,24 @@
       "matchText": "Truce of God",
       "term": "Truce of God",
       "wikiSlug": "Peace_and_Truce_of_God"
+    },
+    {
+      "term": "Mainz",
+      "matchText": "Mainz",
+      "wikiSlug": "Mainz",
+      "type": "place"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.",
+      "type": "place"
     }
   ],
   "4": [
@@ -1929,6 +1971,18 @@
       "matchText": "Arthurian romances",
       "term": "Arthurian romances",
       "wikiSlug": "Matter_of_Britain"
+    },
+    {
+      "term": "Old Spanish",
+      "matchText": "Castilian",
+      "wikiSlug": "Old_Spanish",
+      "type": "concept"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.",
+      "type": "place"
     }
   ],
   "6": [
@@ -2273,6 +2327,18 @@
       "matchText": "Tenochtitlán",
       "wikiSlug": "Tenochtitlan",
       "type": "place"
+    },
+    {
+      "term": "Charles X of France",
+      "matchText": "Charles X",
+      "wikiSlug": "Charles_X_of_France",
+      "type": "person"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.",
+      "type": "place"
     }
   ],
   "7": [
@@ -2584,6 +2650,12 @@
       "matchText": "disputatio",
       "term": "disputatio",
       "wikiSlug": "Disputation"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "The Western, Catholic, Latin-using half of Christian Europe — the world that looked to Rome and the pope, as opposed to the Greek-speaking Orthodox East centered on Constantinople. It's the 'West' this whole volume is about.",
+      "type": "place"
     }
   ],
   "8": [
@@ -3214,6 +3286,18 @@
       "matchText": "Great Khan",
       "term": "Great Khan",
       "wikiSlug": "Great_Khan"
+    },
+    {
+      "term": "Jews",
+      "matchText": "Jews",
+      "wikiSlug": "Jews",
+      "type": "group"
+    },
+    {
+      "term": "Late Middle Ages",
+      "matchText": "Late Middle Ages",
+      "wikiSlug": "Late_Middle_Ages",
+      "type": "concept"
     }
   ]
 }

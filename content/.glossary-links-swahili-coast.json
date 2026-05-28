@@ -167,6 +167,12 @@
       "matchText": "stratigraphy",
       "type": "concept",
       "wikiSlug": "Stratigraphy_(archaeology)"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arabs",
+      "wikiSlug": "Arabs",
+      "type": "group"
     }
   ],
   "2": [
@@ -423,6 +429,12 @@
       "matchText": "Mogadishu",
       "type": "place",
       "wikiSlug": "Mogadishu"
+    },
+    {
+      "term": "Arabian Peninsula",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
     }
   ],
   "4": [
@@ -539,6 +551,12 @@
       "matchText": "Neville Chittick",
       "type": "person",
       "definition": "British archaeologist whose large excavations at Kilwa in the 1960s set the city's chronology on a modern footing. Where his archaeology agrees with the partisan Kilwa Chronicle the historical ground is firmer; where the chronicle stands alone it is a story a dynasty told about itself."
+    },
+    {
+      "term": "Muhammad",
+      "matchText": "Prophet Muhammad",
+      "wikiSlug": "Muhammad",
+      "type": "person"
     }
   ],
   "5": [
@@ -911,6 +929,12 @@
       "matchText": "Pate Chronicle",
       "type": "concept",
       "definition": "The dynastic history of Pate, a powerful town in the Lamu archipelago that Portugal never fully tamed. It survives in several disagreeing versions set down long after the events, used by historians more for narrative shape than reliable chronology, and is the northern coast's rare inside voice for the resistance century."
+    },
+    {
+      "term": "Low Countries",
+      "matchText": "Low Countries",
+      "wikiSlug": "Low_Countries",
+      "type": "place"
     }
   ],
   "8": [

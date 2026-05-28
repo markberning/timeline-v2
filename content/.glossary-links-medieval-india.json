@@ -497,6 +497,30 @@
       "matchText": "Sasanian Empire",
       "wikiSlug": "Sasanian_Empire",
       "type": "place"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Bengali",
+      "matchText": "Bengali",
+      "wikiSlug": "Bengalis",
+      "type": "group"
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Pala Empire",
+      "matchText": "Pala",
+      "wikiSlug": "Pala_Empire",
+      "type": "group"
     }
   ],
   "2": [
@@ -968,6 +992,12 @@
       "matchText": "Hsüan-tsang",
       "wikiSlug": "Xuanzang",
       "type": "person"
+    },
+    {
+      "term": "Arabian Peninsula",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
     }
   ],
   "3": [
@@ -1504,6 +1534,18 @@
       "matchText": "Arjuna's Penance",
       "wikiSlug": "Descent_of_the_Ganges_(Mahabalipuram)",
       "type": "place"
+    },
+    {
+      "term": "Shaivism",
+      "matchText": "Shaivite",
+      "wikiSlug": "Shaivism",
+      "type": "concept"
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
     }
   ],
   "4": [
@@ -1920,6 +1962,18 @@
       "matchText": "Jain establishments",
       "wikiSlug": "Jainism",
       "type": "concept"
+    },
+    {
+      "term": "Central Asian",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
     }
   ],
   "5": [
@@ -2233,6 +2287,30 @@
       "term": "Gupta Empire",
       "matchText": "Gupta",
       "wikiSlug": "Gupta_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Pala Empire",
+      "matchText": "Pala",
+      "wikiSlug": "Pala_Empire",
+      "type": "group"
+    },
+    {
+      "term": "Malay Peninsula",
+      "matchText": "Malay Peninsula",
+      "wikiSlug": "Malay_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Sumatra",
+      "matchText": "Sumatran",
+      "wikiSlug": "Sumatra",
+      "type": "place"
+    },
+    {
+      "term": "Shaivism",
+      "matchText": "Shaivite",
+      "wikiSlug": "Shaivism",
       "type": "concept"
     }
   ],
@@ -2680,6 +2758,24 @@
       "matchText": "Meenakshi Temple",
       "wikiSlug": "Meenakshi_Temple",
       "type": "place"
+    },
+    {
+      "term": "Pala Empire",
+      "matchText": "Pala",
+      "wikiSlug": "Pala_Empire",
+      "type": "group"
+    },
+    {
+      "term": "Himalayan",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jain",
+      "wikiSlug": "Jainism",
+      "type": "concept"
     }
   ],
   "7": [
@@ -3288,6 +3384,30 @@
       "matchText": "Scholastic",
       "wikiSlug": "Scholasticism",
       "type": "concept"
+    },
+    {
+      "term": "Arjuna",
+      "matchText": "Arjuna",
+      "wikiSlug": "Arjuna",
+      "type": "person"
+    },
+    {
+      "term": "Pala Empire",
+      "matchText": "Pala",
+      "wikiSlug": "Pala_Empire",
+      "type": "group"
+    },
+    {
+      "term": "Indonesia",
+      "matchText": "Indonesian",
+      "wikiSlug": "Indonesia",
+      "type": "place"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "The Latin-Christian, Catholic half of medieval Europe — the Western kingdoms that used Latin for learning and worship, as opposed to the Greek-speaking Byzantine East. It's the world that received Indian numerals via Arabic translation.",
+      "type": "place"
     }
   ],
   "8": [
@@ -3945,6 +4065,12 @@
       "matchText": "Turkic slave-soldiers",
       "wikiSlug": "Ghilman",
       "type": "concept"
+    },
+    {
+      "term": "Afghanistan",
+      "matchText": "Afghan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
     }
   ]
 }
