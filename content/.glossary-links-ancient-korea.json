@@ -143,6 +143,12 @@
       "matchText": "Siberia",
       "wikiSlug": "Siberia",
       "type": "place"
+    },
+    {
+      "term": "Mongol Empire",
+      "matchText": "Mongol invasions",
+      "wikiSlug": "Mongol_Empire",
+      "type": "concept"
     }
   ],
   "2": [
@@ -337,6 +343,12 @@
       "matchText": "Dangun",
       "wikiSlug": "Dangun",
       "type": "people"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "place"
     }
   ],
   "3": [
@@ -476,6 +488,12 @@
       "term": "Silk",
       "matchText": "silk",
       "wikiSlug": "Silk",
+      "type": "concept"
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
       "type": "concept"
     }
   ],
@@ -625,6 +643,24 @@
       "wikiSlug": "",
       "type": "place",
       "definition": "The third and final capital of the Korean kingdom of Baekje, on the site of modern Buyeo. Baekje moved its capital here in 538 CE after losing earlier capitals to military pressure from Goguryeo."
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "concept"
+    },
+    {
+      "term": "Seoul",
+      "matchText": "modern Seoul",
+      "wikiSlug": "Seoul",
+      "type": "place"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
     }
   ],
   "5": [
@@ -796,6 +832,18 @@
       "matchText": "Goguryeo",
       "wikiSlug": "Goguryeo",
       "type": "concept"
+    },
+    {
+      "term": "Seoul",
+      "matchText": "modern Seoul",
+      "wikiSlug": "Seoul",
+      "type": "place"
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "concept"
     }
   ],
   "6": [
@@ -941,6 +989,12 @@
       "term": "Baekje",
       "matchText": "kingdom of Baekje",
       "wikiSlug": "Baekje",
+      "type": "concept"
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
       "type": "concept"
     }
   ],
@@ -1280,6 +1334,12 @@
       "matchText": "Divine Bell of King Seongdeok",
       "wikiSlug": "Bell_of_King_Seongdeok",
       "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
     }
   ]
 }

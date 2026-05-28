@@ -215,6 +215,18 @@
       "matchText": "Lapita People",
       "wikiSlug": "Lapita_culture",
       "type": "concept"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "place"
+    },
+    {
+      "term": "Hindi",
+      "matchText": "Hindi",
+      "wikiSlug": "Hindi",
+      "type": "concept"
     }
   ],
   "2": [
@@ -483,6 +495,12 @@
       "matchText": "coconut-fiber cordage",
       "wikiSlug": "Coir",
       "type": "concept"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "place"
     }
   ],
   "4": [
@@ -593,6 +611,18 @@
       "matchText": "Havai'i",
       "wikiSlug": "Hawaiki",
       "type": "concept"
+    },
+    {
+      "term": "Norway",
+      "matchText": "Norwegian",
+      "wikiSlug": "Norway",
+      "type": "place"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "place"
     }
   ],
   "5": [
@@ -759,6 +789,18 @@
       "matchText": "Tongan-Samoan wars",
       "wikiSlug": "Tu%CA%BBi_Tonga_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian ziggurats",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
     }
   ],
   "6": [
@@ -1118,6 +1160,18 @@
       "matchText": "kapu",
       "wikiSlug": "Kapu_(Hawaiian_culture)",
       "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian ziggurats",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "8": [
@@ -1282,6 +1336,12 @@
       "matchText": "hula",
       "wikiSlug": "Hula",
       "type": "concept"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "place"
     }
   ]
 }

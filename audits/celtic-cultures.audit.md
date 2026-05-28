@@ -90,3 +90,11 @@
 ## Summary
 
 This is a well-constructed 8-chapter narrative with strong voice, good pacing, and consistently applied source skepticism. The "civilization reconstructed from the outside" framing in Ch 1 is an effective structural device that pays off throughout. The main weaknesses are a cluster of unqualified "first/invented/pioneered" claims in Ch 2 (the ironworking and enamelwork chapter) and a few factual precision issues (Hochdorf height conversion, Lindow Man dating, Caesar's military experience). The cross-civ comparisons with Scythians, Greeks, and Romans are well-integrated and among the strongest in any TL so far. No em-dash violations, no "we met" phrasing, no repeated uncertainty language. All 8 must-fix items are correctable without structural rewriting.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — born-verified
+glossary links added (Eurasian Steppe, Marseille, Assyria, Serbia, Anatolia,
+Macedonia, Jupiter the god, Baltic Sea) plus modern-country waivers (United States,
+Denmark/Danish as Gundestrup Cauldron findspot). No new cross-cultural narrative
+claim, so **no new backward findings**; forward cross-links re-verified (0 FAIL).
