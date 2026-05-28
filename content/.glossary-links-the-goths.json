@@ -83,6 +83,102 @@
       "matchText": "Berig",
       "wikiSlug": "Getica",
       "type": "people"
+    },
+    {
+      "term": "Scandza",
+      "matchText": "Scandza",
+      "wikiSlug": "Scandza",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Iron Age",
+      "matchText": "Iron Age",
+      "wikiSlug": "Iron_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Celts",
+      "matchText": "Celts",
+      "wikiSlug": "Celts",
+      "type": "group"
+    },
+    {
+      "term": "Gothic language",
+      "matchText": "but Gothic",
+      "wikiSlug": "Gothic_language",
+      "type": "concept"
+    },
+    {
+      "term": "Old Norse",
+      "matchText": "Norse",
+      "wikiSlug": "Old_Norse",
+      "type": "concept"
+    },
+    {
+      "term": "Vikings",
+      "matchText": "Vikings",
+      "wikiSlug": "Vikings",
+      "type": "group"
+    },
+    {
+      "term": "Ulfilas",
+      "matchText": "Ulfilas",
+      "wikiSlug": "Ulfilas",
+      "type": "people"
+    },
+    {
+      "term": "Cimbri",
+      "matchText": "Cimbri",
+      "wikiSlug": "Cimbri",
+      "type": "group"
+    },
+    {
+      "term": "Christianity",
+      "matchText": "heretic Christians",
+      "wikiSlug": "Christianity",
+      "type": "concept"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
     }
   ],
   "2": [
@@ -138,6 +234,78 @@
       "term": "Eurasian steppe",
       "matchText": "great Eurasian grassland highway",
       "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Romania",
+      "matchText": "Romania",
+      "wikiSlug": "Romania",
+      "type": "place"
+    },
+    {
+      "term": "Mongolia",
+      "matchText": "Mongolia",
+      "wikiSlug": "Mongolia",
+      "type": "place"
+    },
+    {
+      "term": "Iranian languages",
+      "matchText": "Iranian-speaking horsemen",
+      "wikiSlug": "Iranian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Indo-European languages",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian nomads",
+      "wikiSlug": "Iranian_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic newcomers",
+      "wikiSlug": "Germanic_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Adrianople",
+      "matchText": "Adrianople",
+      "wikiSlug": "Edirne",
+      "type": "place"
+    },
+    {
+      "term": "Huns",
+      "matchText": "Huns",
+      "wikiSlug": "Huns",
+      "type": "group"
+    },
+    {
+      "term": "Bulgaria",
+      "matchText": "Bulgaria",
+      "wikiSlug": "Bulgaria",
+      "type": "place"
+    },
+    {
+      "term": "Serbia",
+      "matchText": "Serbia",
+      "wikiSlug": "Serbia",
       "type": "place"
     }
   ],
@@ -237,6 +405,78 @@
       "matchText": "coloni",
       "wikiSlug": "Colonus_(person)",
       "type": "concept"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Asia Minor",
+      "matchText": "Asia Minor",
+      "wikiSlug": "Asia_Minor",
+      "type": "place"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Temple of Artemis",
+      "matchText": "Temple of Artemis",
+      "wikiSlug": "Temple_of_Artemis",
+      "type": "place"
+    },
+    {
+      "term": "Plato",
+      "matchText": "Plato",
+      "wikiSlug": "Plato",
+      "type": "people"
+    },
+    {
+      "term": "Parthenon",
+      "matchText": "Parthenon",
+      "wikiSlug": "Parthenon",
+      "type": "place"
+    },
+    {
+      "term": "Acropolis",
+      "matchText": "Acropolis",
+      "wikiSlug": "Acropolis_of_Athens",
+      "type": "place"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Ancient_Greece",
+      "type": "people"
+    },
+    {
+      "term": "Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Marcus Aurelius",
+      "matchText": "Marcus Aurelius",
+      "wikiSlug": "Marcus_Aurelius",
+      "type": "people"
     }
   ],
   "4": [
@@ -299,6 +539,48 @@
       "matchText": "Black Sea",
       "wikiSlug": "Black_Sea",
       "type": "place"
+    },
+    {
+      "term": "Jordanes",
+      "matchText": "Jordanes",
+      "wikiSlug": "Jordanes",
+      "type": "people"
+    },
+    {
+      "term": "Cassiodorus",
+      "matchText": "Cassiodorus",
+      "wikiSlug": "Cassiodorus",
+      "type": "people"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Hunnic",
+      "matchText": "Hunnic",
+      "wikiSlug": "Huns",
+      "type": "group"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Theodoric the Great",
+      "matchText": "Theodoric the Great",
+      "wikiSlug": "Theodoric_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Slavic peoples",
+      "matchText": "Slavic peoples",
+      "wikiSlug": "Slavs",
+      "type": "group"
     }
   ],
   "5": [
@@ -379,6 +661,60 @@
       "matchText": "Beowulf",
       "wikiSlug": "Beowulf",
       "type": "other"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "Constantine",
+      "matchText": "Constantine",
+      "wikiSlug": "Constantine_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Younger Futhark",
+      "matchText": "Younger Futhark",
+      "wikiSlug": "Younger_Futhark",
+      "type": "concept"
+    },
+    {
+      "term": "Tervingi",
+      "matchText": "Tervingi",
+      "wikiSlug": "Thervingi",
+      "type": "group"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Visigothic kingdom",
+      "matchText": "Visigothic kingdom",
+      "wikiSlug": "Visigothic_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Catholicism",
+      "matchText": "Catholicism",
+      "wikiSlug": "Catholic_Church",
+      "type": "concept"
     }
   ],
   "6": [
@@ -430,6 +766,60 @@
       "matchText": "foederati",
       "wikiSlug": "Foederati",
       "type": "concept"
+    },
+    {
+      "term": "Greuthungi",
+      "matchText": "Greuthungi",
+      "wikiSlug": "Greuthungi",
+      "type": "group"
+    },
+    {
+      "term": "Tervingi",
+      "matchText": "Tervingi",
+      "wikiSlug": "Thervingi",
+      "type": "group"
+    },
+    {
+      "term": "Sarmatians",
+      "matchText": "Sarmatians",
+      "wikiSlug": "Sarmatians",
+      "type": "group"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Arian Christians",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Greek-speaking",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greek_language",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "in Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Thrace",
+      "matchText": "province of Thrace",
+      "wikiSlug": "Thrace",
+      "type": "place"
+    },
+    {
+      "term": "Thracian",
+      "matchText": "Thracian mines",
+      "wikiSlug": "Thrace",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
     }
   ],
   "7": [
@@ -486,6 +876,78 @@
       "matchText": "Theodosius I",
       "wikiSlug": "Theodosius_I",
       "type": "people"
+    },
+    {
+      "term": "Valens",
+      "matchText": "Valens",
+      "wikiSlug": "Valens",
+      "type": "people"
+    },
+    {
+      "term": "Fritigern",
+      "matchText": "Fritigern",
+      "wikiSlug": "Fritigern",
+      "type": "people"
+    },
+    {
+      "term": "Thervingi",
+      "matchText": "Tervingi",
+      "wikiSlug": "Thervingi",
+      "type": "people"
+    },
+    {
+      "term": "Cniva",
+      "matchText": "Cniva",
+      "wikiSlug": "Cniva",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Abritus",
+      "matchText": "Abritus",
+      "wikiSlug": "Battle_of_Abritus",
+      "type": "event"
+    },
+    {
+      "term": "Decius",
+      "matchText": "Decius",
+      "wikiSlug": "Decius",
+      "type": "people"
+    },
+    {
+      "term": "Marcus Aurelius",
+      "matchText": "Marcus Aurelius",
+      "wikiSlug": "Marcus_Aurelius",
+      "type": "people"
+    },
+    {
+      "term": "Claudius Gothicus",
+      "matchText": "Claudius Gothicus",
+      "wikiSlug": "Claudius_Gothicus",
+      "type": "people"
+    },
+    {
+      "term": "Roman Republic",
+      "matchText": "Republic",
+      "wikiSlug": "Roman_Republic",
+      "type": "concept"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "the Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "the Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Alps",
+      "matchText": "eastern Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
     }
   ],
   "8": [
@@ -566,6 +1028,96 @@
       "matchText": "Honorius",
       "wikiSlug": "Honorius_(emperor)",
       "type": "people"
+    },
+    {
+      "term": "Hannibal",
+      "matchText": "Hannibal",
+      "wikiSlug": "Hannibal",
+      "type": "people"
+    },
+    {
+      "term": "Battle of Cannae",
+      "matchText": "Cannae",
+      "wikiSlug": "Battle_of_Cannae",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Jerome",
+      "matchText": "Jerome",
+      "wikiSlug": "Jerome",
+      "type": "people"
+    },
+    {
+      "term": "Bethlehem",
+      "matchText": "Bethlehem",
+      "wikiSlug": "Bethlehem",
+      "type": "place"
+    },
+    {
+      "term": "Battle of the Frigidus",
+      "matchText": "Frigidus",
+      "wikiSlug": "Battle_of_the_Frigidus",
+      "type": "place"
+    },
+    {
+      "term": "Adriatic Sea",
+      "matchText": "Adriatic",
+      "wikiSlug": "Adriatic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Ravenna",
+      "type": "place"
+    },
+    {
+      "term": "Jordanes",
+      "matchText": "Jordanes",
+      "wikiSlug": "Jordanes",
+      "type": "people"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Romania",
+      "matchText": "Romania",
+      "type": "concept",
+      "definition": "Not the modern country. In late-Roman usage 'Romania' was the contemporary name for the Roman world itself — the whole territory and order of the empire. When Athaulf spoke of putting 'Gothia' where 'Romania' had been, he meant replacing the Roman realm with a Gothic one, then thought better of it and resolved to use Gothic arms to restore Romania instead."
+    },
+    {
+      "term": "Christianity",
+      "matchText": "Christians",
+      "wikiSlug": "Christianity",
+      "type": "concept"
+    },
+    {
+      "term": "Saint Peter",
+      "matchText": "Saint Peter",
+      "wikiSlug": "Saint_Peter",
+      "type": "people"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
     }
   ],
   "9": [
@@ -665,6 +1217,90 @@
       "matchText": "Vouillé",
       "wikiSlug": "Battle_of_Vouill%C3%A9",
       "type": "place"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic",
+      "wikiSlug": "Germanic_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Huns",
+      "matchText": "Huns",
+      "wikiSlug": "Huns",
+      "type": "group"
+    },
+    {
+      "term": "Iberian Peninsula",
+      "matchText": "Iberian Peninsula",
+      "wikiSlug": "Iberian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Adrianople",
+      "matchText": "Adrianople",
+      "wikiSlug": "Edirne",
+      "type": "place"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arianism",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Poitiers",
+      "matchText": "Poitiers",
+      "wikiSlug": "Poitiers",
+      "type": "place"
+    },
+    {
+      "term": "Gregory of Tours",
+      "matchText": "Gregory of Tours",
+      "wikiSlug": "Gregory_of_Tours",
+      "type": "people"
+    },
+    {
+      "term": "Narbonne",
+      "matchText": "Narbonne",
+      "wikiSlug": "Narbonne",
+      "type": "place"
+    },
+    {
+      "term": "Pyrenees",
+      "matchText": "Pyrenees",
+      "wikiSlug": "Pyrenees",
+      "type": "place"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arian Christians",
+      "wikiSlug": "Arianism",
+      "type": "concept"
     }
   ],
   "10": [
@@ -769,6 +1405,96 @@
       "matchText": "Theodoric",
       "wikiSlug": "Theodoric_the_Great",
       "type": "people"
+    },
+    {
+      "term": "Goths",
+      "matchText": "Gothic",
+      "wikiSlug": "Goths",
+      "type": "group"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Greuthungi",
+      "matchText": "Greuthungi",
+      "wikiSlug": "Greuthungi",
+      "type": "group"
+    },
+    {
+      "term": "Alaric I",
+      "matchText": "Alaric",
+      "wikiSlug": "Alaric_I",
+      "type": "people"
+    },
+    {
+      "term": "Stilicho",
+      "matchText": "Stilicho",
+      "wikiSlug": "Stilicho",
+      "type": "people"
+    },
+    {
+      "term": "Jordanes",
+      "matchText": "Jordanes",
+      "wikiSlug": "Jordanes",
+      "type": "people"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arian",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Verona",
+      "matchText": "Verona",
+      "wikiSlug": "Verona",
+      "type": "place"
+    },
+    {
+      "term": "Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Ravenna",
+      "type": "place"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Ostrogoths",
+      "matchText": "Ostrogoths",
+      "wikiSlug": "Ostrogoths",
+      "type": "group"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "western Roman Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic",
+      "wikiSlug": "Germanic_peoples",
+      "type": "group"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
     }
   ],
   "11": [
@@ -875,6 +1601,145 @@
       "wikiSlug": "",
       "type": "event",
       "definition": "Emperor Justinian's 554 CE decree that reimposed Roman law across Italy after the Gothic War, handed pre-war estates back to their old owners, and wiped out the Ostrogothic legal system as if the Gothic kingdom had never existed."
+    },
+    {
+      "term": "Greek-speaking",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greek_language",
+      "type": "concept"
+    },
+    {
+      "term": "Theodahad",
+      "matchText": "Theodahad",
+      "wikiSlug": "Theodahad",
+      "type": "people"
+    },
+    {
+      "term": "Ravenna",
+      "matchText": "Ravenna",
+      "wikiSlug": "Ravenna",
+      "type": "place"
+    },
+    {
+      "term": "Theodoric the Great",
+      "matchText": "Theodoric",
+      "wikiSlug": "Theodoric_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Roman Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Adriatic Sea",
+      "matchText": "Adriatic",
+      "wikiSlug": "Adriatic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Apennine Mountains",
+      "matchText": "Apennines",
+      "wikiSlug": "Apennine_Mountains",
+      "type": "place"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
+    },
+    {
+      "term": "Amal dynasty",
+      "matchText": "Amali",
+      "wikiSlug": "Amal_dynasty",
+      "type": "group"
+    },
+    {
+      "term": "Jordanes",
+      "matchText": "Jordanes",
+      "wikiSlug": "Jordanes",
+      "type": "people"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin_language",
+      "type": "concept"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arian heretics",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Vandal Kingdom",
+      "matchText": "Vandal kingdom",
+      "wikiSlug": "Vandal_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "group"
+    },
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "group"
+    },
+    {
+      "term": "Hispania",
+      "matchText": "Hispania",
+      "wikiSlug": "Hispania",
+      "type": "place"
+    },
+    {
+      "term": "Visigothic Kingdom of Toledo",
+      "matchText": "Visigothic Kingdom of Toledo",
+      "wikiSlug": "Visigothic_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Reccared I",
+      "matchText": "Reccared",
+      "wikiSlug": "Reccared_I",
+      "type": "people"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arianism",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Catholic Church",
+      "matchText": "Catholicism",
+      "wikiSlug": "Catholic_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Ulfilas",
+      "matchText": "Ulfilas",
+      "wikiSlug": "Ulfilas",
+      "type": "people"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Hispano-Roman",
+      "matchText": "Hispano-Roman",
+      "wikiSlug": "",
+      "type": "group",
+      "definition": "The Romanized inhabitants of Hispania (Roman Spain) — Latin-speaking, Catholic Christian, descended from the provincial population Rome had ruled for centuries. Under the Visigothic kings they were the conquered majority; King Reccared's conversion to Catholicism in 589 merged Goth and Hispano-Roman into a single people."
     }
   ]
 }

@@ -1,0 +1,843 @@
+# LINK-COVERAGE-NEEDED — maurya-empire
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Afghanistan   ⟨dict,recur×3⟩  → glossary
+  * Macedonian   ⟨dict⟩  → glossary
+    Persian Empire   ⟨dict⟩  → cross-link
+    Jain   ⟨dict,recur×7⟩  → glossary
+    Arthashastra   ⟨dict,bold,recur×3⟩  → cross-link
+    Aristotle   ⟨dict⟩  → cross-link
+    Bihar   ⟨dict⟩  → glossary
+    Marco Polo   ⟨dict⟩  → cross-link
+    Central Asia   ⟨dict⟩  → glossary
+    Balochistan   ⟨dict⟩  → glossary
+    Antigonus   ⟨dict⟩  → glossary
+    Ptolemaic   ⟨dict⟩  → glossary
+    Roman Republic   ⟨dict⟩  → cross-link
+    Persian Royal Road   ⟨dict⟩  → cross-link
+    Sardis   ⟨dict⟩  → glossary
+  * Mahajanapada   ⟨dict⟩  → glossary
+    Arabian Sea   ⟨dict⟩  → glossary
+  * Middle East   ⟨dict⟩  → glossary
+    Damascus   ⟨dict⟩  → cross-link
+    Jainism   ⟨dict⟩  → event
+    Ashoka   ⟨dict⟩  → cross-link
+    Buddhism   ⟨dict⟩  → cross-link
+    seric iron   ⟨gloss⟩  → glossary
+    Royal Road   ⟨bold⟩  → event/glossary
+  ~ India   ⟨recur×7⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Rome   ⟨dict⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Moriya   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×6⟩  (advisory)
+  ~ Greek-held   ⟨⟩  (advisory)
+  ~ Patna   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict,recur×3⟩  (advisory)
+  ~ CE Greek   ⟨⟩  (advisory)
+  ~ BCE Greek   ⟨⟩  (advisory)
+  ~ Persian Empire Ch   ⟨⟩  (advisory)
+  ~ Kublai Khan's China   ⟨⟩  (advisory)
+  ~ Syria   ⟨dict⟩  (advisory)
+  ~ Conqueror   ⟨⟩  (advisory)
+  ~ Iran   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Maurya-Seleucid   ⟨⟩  (advisory)
+  ~ South Asia   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict,recur×3⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Italy   ⟨⟩  (advisory)
+  ~ Northern Road   ⟨⟩  (advisory)
+  ~ ROOCH   ⟨⟩  (advisory)
+  ~ Bharukaccha   ⟨⟩  (advisory)
+  ~ Maurya-controlled   ⟨⟩  (advisory)
+  ~ Maurya-era   ⟨⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Asian   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ caste   ⟨dict-lc⟩  (advisory)
+  ~ social hierarchy   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ successors were   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ chariots   ⟨dict-lc⟩  (advisory)
+  ~ war elephants   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ timber palisade   ⟨dict-lc⟩  (advisory)
+  ~ protected by   ⟨dict-lc⟩  (advisory)
+  ~ the Indus   ⟨dict-lc⟩  (advisory)
+  ~ satrapy   ⟨dict-lc⟩  (advisory)
+  ~ palisade   ⟨dict-lc⟩  (advisory)
+  ~ varna system   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ satrapies   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
+  ~ great powers   ⟨dict-lc⟩  (advisory)
+  ~ wells.   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ ivory   ⟨dict-lc⟩  (advisory)
+  ~ markets   ⟨dict-lc⟩  (advisory)
+  ~ metalwork   ⟨dict-lc,bold⟩  (advisory)
+  ~ the Middle East   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ violence   ⟨dict-lc⟩  (advisory)
+  ~ conflicting   ⟨rare⟩  (advisory)
+  ~ varnas   ⟨rare⟩  (advisory)
+  ~ humbler   ⟨rare⟩  (advisory)
+  ~ mentor   ⟨rare⟩  (advisory)
+  ~ untied   ⟨rare⟩  (advisory)
+  ~ topknot   ⟨rare⟩  (advisory)
+  ~ pairings   ⟨rare⟩  (advisory)
+  ~ tutoring   ⟨rare⟩  (advisory)
+  ~ liberating   ⟨rare⟩  (advisory)
+  ~ diaries   ⟨rare⟩  (advisory)
+  ~ bribing   ⟨rare⟩  (advisory)
+  ~ provocations   ⟨rare⟩  (advisory)
+  ~ retroactive   ⟨rare⟩  (advisory)
+  ~ mythmaking   ⟨rare⟩  (advisory)
+  ~ portrays   ⟨rare⟩  (advisory)
+  ~ subversion   ⟨rare⟩  (advisory)
+  ~ manicured   ⟨rare⟩  (advisory)
+  ~ peacocks   ⟨rare⟩  (advisory)
+  ~ pheasants   ⟨rare⟩  (advisory)
+  ~ respectful   ⟨rare⟩  (advisory)
+  ~ monitored   ⟨rare⟩  (advisory)
+  ~ arterial   ⟨rare⟩  (advisory)
+  ~ milestones   ⟨rare⟩  (advisory)
+  ~ passable   ⟨rare⟩  (advisory)
+  ~ irresistible   ⟨rare⟩  (advisory)
+  ~ punches   ⟨rare⟩  (advisory)
+  ~ lifelike   ⟨rare⟩  (advisory)
+  ~ punched   ⟨rare⟩  (advisory)
+  ~ blanks   ⟨rare⟩  (advisory)
+  ~ facilitate   ⟨rare⟩  (advisory)
+  ~ cinnamon   ⟨rare⟩  (advisory)
+  ~ cardamom   ⟨rare⟩  (advisory)
+  ~ hardness   ⟨rare⟩  (advisory)
+  ~ misnomer   ⟨rare⟩  (advisory)
+  ~ renounces   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Chanakya   ⟨dict,recur×3⟩  → event
+    Chandragupta   ⟨dict,recur×3⟩  → glossary
+    Maurya Empire   ⟨dict,recur×3⟩  → cross-link
+    Italian Renaissance   ⟨dict⟩  → cross-link
+    Confucian   ⟨dict⟩  → cross-link
+  * Eurasia   ⟨dict⟩  → glossary
+    Gujarat   ⟨dict⟩  → glossary
+    Superintendent of Commerce   ⟨bold⟩  → event/glossary
+    Superintendent of Mines   ⟨bold⟩  → event/glossary
+    Irrigation   ⟨bold⟩  → event/glossary
+  ~ Imagine   ⟨⟩  (advisory)
+  ~ Maurya-era   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ HAHN   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Kathiawar   ⟨⟩  (advisory)
+  ~ Superintendent of the Treasury   ⟨bold⟩  (advisory)
+  ~ the people will   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ deception   ⟨dict-lc⟩  (advisory)
+  ~ violence   ⟨dict-lc⟩  (advisory)
+  ~ weights and measures   ⟨dict-lc⟩  (advisory)
+  ~ siege warfare   ⟨dict-lc⟩  (advisory)
+  ~ war elephants.   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ assassins   ⟨dict-lc⟩  (advisory)
+  ~ by any means necessary.   ⟨dict-lc⟩  (advisory)
+  ~ viceroy.   ⟨dict-lc⟩  (advisory)
+  ~ conditions.   ⟨dict-lc⟩  (advisory)
+  ~ trade goods   ⟨dict-lc⟩  (advisory)
+  ~ markets   ⟨dict-lc⟩  (advisory)
+  ~ wells   ⟨dict-lc⟩  (advisory)
+  ~ qanat   ⟨dict-lc⟩  (advisory)
+  ~ irrigation system   ⟨dict-lc⟩  (advisory)
+  ~ confessions   ⟨dict-lc⟩  (advisory)
+  ~ coinage.   ⟨dict-lc⟩  (advisory)
+  ~ slaves   ⟨dict-lc⟩  (advisory)
+  ~ apology.   ⟨dict-lc⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
+  ~ samstha   ⟨bold,rare⟩  (advisory)
+  ~ sancara   ⟨bold,rare⟩  (advisory)
+  ~ inspiring   ⟨rare⟩  (advisory)
+  ~ mentor   ⟨rare⟩  (advisory)
+  ~ unread   ⟨rare⟩  (advisory)
+  ~ realities   ⟨rare⟩  (advisory)
+  ~ prostitution   ⟨rare⟩  (advisory)
+  ~ licensing   ⟨rare⟩  (advisory)
+  ~ prevention   ⟨rare⟩  (advisory)
+  ~ adultery   ⟨rare⟩  (advisory)
+  ~ specifies   ⟨rare⟩  (advisory)
+  ~ employees   ⟨rare⟩  (advisory)
+  ~ similarity   ⟨rare⟩  (advisory)
+  ~ monitor   ⟨rare⟩  (advisory)
+  ~ taxable   ⟨rare⟩  (advisory)
+  ~ creepy   ⟨rare⟩  (advisory)
+  ~ categorizes   ⟨rare⟩  (advisory)
+  ~ roving   ⟨rare⟩  (advisory)
+  ~ ascetics   ⟨rare⟩  (advisory)
+  ~ poisoners   ⟨rare⟩  (advisory)
+  ~ seductresses   ⟨rare⟩  (advisory)
+  ~ provocateurs   ⟨rare⟩  (advisory)
+  ~ populace   ⟨rare⟩  (advisory)
+  ~ sinister   ⟨rare⟩  (advisory)
+  ~ exemplar   ⟨rare⟩  (advisory)
+  ~ manager   ⟨rare⟩  (advisory)
+  ~ disloyal   ⟨rare⟩  (advisory)
+  ~ assassinating   ⟨rare⟩  (advisory)
+  ~ availability   ⟨rare⟩  (advisory)
+  ~ ubiquitous   ⟨rare⟩  (advisory)
+  ~ dharmashalas   ⟨rare⟩  (advisory)
+  ~ milestones   ⟨rare⟩  (advisory)
+  ~ signage   ⟨rare⟩  (advisory)
+  ~ devotes   ⟨rare⟩  (advisory)
+  ~ repairs   ⟨rare⟩  (advisory)
+  ~ offender   ⟨rare⟩  (advisory)
+  ~ pervades   ⟨rare⟩  (advisory)
+  ~ sectors   ⟨rare⟩  (advisory)
+  ~ discusses   ⟨rare⟩  (advisory)
+  ~ hoarding   ⟨rare⟩  (advisory)
+  ~ issuance   ⟨rare⟩  (advisory)
+  ~ analyzes   ⟨rare⟩  (advisory)
+  ~ recommends   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Maurya   ⟨dict,recur×7⟩  → cross-link
+    Chanakya   ⟨dict⟩  → event
+    Ganges   ⟨dict⟩  → glossary
+    Alexander   ⟨dict⟩  → event
+    Maurya Empire   ⟨dict,recur×3⟩  → cross-link
+    Afghanistan   ⟨dict⟩  → glossary
+    Bay of Bengal   ⟨dict⟩  → glossary
+    Himalayas   ⟨dict⟩  → glossary
+    Achaemenid Persians   ⟨dict⟩  → glossary
+    Roman Republic   ⟨dict⟩  → cross-link
+    Megasthenes   ⟨dict⟩  → event
+    Arthashastra   ⟨dict⟩  → cross-link
+    Jain   ⟨dict,recur×3⟩  → glossary
+    Seleucid   ⟨dict⟩  → glossary
+    Chandragupta   ⟨dict⟩  → glossary
+    Buddhism   ⟨dict,recur×3⟩  → cross-link
+    Jainism   ⟨dict⟩  → event
+  * Mahajanapada   ⟨dict⟩  → glossary
+    Buddha   ⟨dict⟩  → cross-link
+    Mahavira   ⟨dict⟩  → glossary
+    Brahmins   ⟨dict⟩  → glossary
+    Taxila   ⟨dict⟩  → event
+    Dharma   ⟨dict,bold⟩  → glossary
+    Subhadrangi   ⟨bold⟩  → event/glossary
+    Brahmin   ⟨dict⟩  → glossary
+    Ottoman   ⟨dict⟩  → cross-link
+  ~ Greek   ⟨dict,recur×5⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Chandragupta the empire-builder   ⟨⟩  (advisory)
+  ~ Slayer of Foes   ⟨⟩  (advisory)
+  ~ India   ⟨recur×3⟩  (advisory)
+  ~ Tamil-speaking   ⟨⟩  (advisory)
+  ~ Darius   ⟨⟩  (advisory)
+  ~ Persian Empire Ch   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×8⟩  (advisory)
+  ~ Mauryas   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Indian   ⟨recur×3⟩  (advisory)
+  ~ Vedic Period Ch   ⟨⟩  (advisory)
+  ~ North Indian   ⟨⟩  (advisory)
+  ~ Asian   ⟨⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ basalt   ⟨dict-lc⟩  (advisory)
+  ~ monsoon   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ the Himalayas   ⟨dict-lc⟩  (advisory)
+  ~ general.   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ chronicle   ⟨dict-lc⟩  (advisory)
+  ~ city-states.   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ ascetic   ⟨dict-lc⟩  (advisory)
+  ~ karma   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ start with   ⟨dict-lc⟩  (advisory)
+  ~ concubines   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ crown prince   ⟨dict-lc⟩  (advisory)
+  ~ first emperor   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ violence   ⟨dict-lc⟩  (advisory)
+  ~ determinists   ⟨bold,rare⟩  (advisory)
+  ~ forgets   ⟨rare⟩  (advisory)
+  ~ intermission   ⟨rare⟩  (advisory)
+  ~ indication   ⟨rare⟩  (advisory)
+  ~ misfortune   ⟨rare⟩  (advisory)
+  ~ sandwiched   ⟨rare⟩  (advisory)
+  ~ tableland   ⟨rare⟩  (advisory)
+  ~ searing   ⟨rare⟩  (advisory)
+  ~ deluge   ⟨rare⟩  (advisory)
+  ~ wonderful   ⟨rare⟩  (advisory)
+  ~ requesting   ⟨rare⟩  (advisory)
+  ~ unfortunately   ⟨rare⟩  (advisory)
+  ~ predestined   ⟨rare⟩  (advisory)
+  ~ purify   ⟨rare⟩  (advisory)
+  ~ nudity   ⟨rare⟩  (advisory)
+  ~ efficacy   ⟨rare⟩  (advisory)
+  ~ polygamous   ⟨rare⟩  (advisory)
+  ~ groomed   ⟨rare⟩  (advisory)
+  ~ assignment   ⟨rare⟩  (advisory)
+  ~ readiness   ⟨rare⟩  (advisory)
+  ~ backfired   ⟨rare⟩  (advisory)
+  ~ hyperbole   ⟨rare⟩  (advisory)
+  ~ intrigues   ⟨rare⟩  (advisory)
+  ~ institutionalize   ⟨rare⟩  (advisory)
+  ~ heighten   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Ashoka   ⟨dict,recur×13⟩  → cross-link
+    Maurya   ⟨dict,recur×4⟩  → cross-link
+    Sri Lanka   ⟨dict⟩  → glossary
+    Deccan   ⟨dict,recur×3⟩  → glossary
+    Afghanistan   ⟨dict⟩  → glossary
+    Himalayas   ⟨dict⟩  → glossary
+    Ganges   ⟨dict⟩  → glossary
+    Hinduism   ⟨dict⟩  → glossary
+  * Burma   ⟨dict⟩  → glossary
+  * Cambodia   ⟨dict⟩  → cross-link
+    Java   ⟨dict⟩  → glossary
+    Maurya Empire   ⟨dict⟩  → cross-link
+    Beloved of the Gods   ⟨recur×3⟩  → ?
+  * Romila Thapar   ⟨dict⟩  → glossary
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Chandragupta   ⟨dict⟩  → glossary
+    Sanskrit   ⟨dict⟩  → cross-link
+  ~ Indian   ⟨recur×3⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×4⟩  (advisory)
+  ~ Legend of Ashoka   ⟨⟩  (advisory)
+  ~ Pali-language   ⟨⟩  (advisory)
+  ~ Ashoka the Fierce   ⟨⟩  (advisory)
+  ~ South Asia   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Thailand   ⟨⟩  (advisory)
+  ~ Nandas   ⟨⟩  (advisory)
+  ~ Mauryas   ⟨⟩  (advisory)
+  ~ Translation   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ Maurya Empire's Changping   ⟨⟩  (advisory)
+  ~ spy network   ⟨dict-lc⟩  (advisory)
+  ~ harem   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ the Himalayas   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ delta.   ⟨dict-lc⟩  (advisory)
+  ~ annexed   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ apology.   ⟨dict-lc⟩  (advisory)
+  ~ terror   ⟨dict-lc⟩  (advisory)
+  ~ surveillance state   ⟨dict-lc⟩  (advisory)
+  ~ violence   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ paints   ⟨rare⟩  (advisory)
+  ~ cruelties   ⟨rare⟩  (advisory)
+  ~ gratuitous   ⟨rare⟩  (advisory)
+  ~ heighten   ⟨rare⟩  (advisory)
+  ~ remorse   ⟨rare⟩  (advisory)
+  ~ grievous   ⟨rare⟩  (advisory)
+  ~ fortunate   ⟨rare⟩  (advisory)
+  ~ undiminished   ⟨rare⟩  (advisory)
+  ~ misfortunes   ⟨rare⟩  (advisory)
+  ~ acquaintances   ⟨rare⟩  (advisory)
+  ~ hundredth   ⟨rare⟩  (advisory)
+  ~ thousandth   ⟨rare⟩  (advisory)
+  ~ staggeringly   ⟨rare⟩  (advisory)
+  ~ layperson   ⟨rare⟩  (advisory)
+  ~ carnage   ⟨rare⟩  (advisory)
+  ~ tasked   ⟨rare⟩  (advisory)
+  ~ redirect   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Afghanistan   ⟨dict⟩  → glossary
+    Bay of Bengal   ⟨dict⟩  → glossary
+    Arabian Sea   ⟨dict⟩  → glossary
+    Indus   ⟨dict⟩  → cross-link
+  * Harappan   ⟨dict⟩  → glossary
+    Maurya Empire   ⟨dict⟩  → cross-link
+    Sanskrit   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+    Southeast Asia   ⟨dict⟩  → glossary
+  * Bengali   ⟨dict⟩  → glossary
+  * Tibetan   ⟨dict⟩  → glossary
+  * Javanese   ⟨dict⟩  → glossary
+    Maurya   ⟨dict⟩  → cross-link
+    Achaemenid Empire   ⟨dict⟩  → cross-link
+    Gandhara   ⟨dict⟩  → glossary
+    Minor Rock Edicts   ⟨bold⟩  → event/glossary
+    Buddhism   ⟨dict,recur×4⟩  → cross-link
+    Brahmins   ⟨dict⟩  → glossary
+    Babylon   ⟨dict⟩  → glossary
+    Pataliputra   ⟨dict⟩  → event
+    Arthashastra   ⟨dict⟩  → cross-link
+    Roman Republic   ⟨dict⟩  → cross-link
+    Chola   ⟨dict⟩  → cross-link
+    Pandya   ⟨dict⟩  → glossary
+    Kalinga   ⟨dict,recur×3⟩  → glossary
+    Buddha   ⟨dict⟩  → cross-link
+    Samudragupta   ⟨dict⟩  → event
+    Ajivikas   ⟨dict⟩  → event
+    Roman Empire   ⟨dict⟩  → cross-link
+    Public welfare   ⟨bold⟩  → event/glossary
+    Moral officials   ⟨bold⟩  → event/glossary
+    Reduced punishment   ⟨bold⟩  → event/glossary
+    Frontier diplomacy   ⟨bold⟩  → event/glossary
+  ~ India   ⟨recur×3⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Alexandrian   ⟨⟩  (advisory)
+  ~ South   ⟨⟩  (advisory)
+  ~ Burmese   ⟨⟩  (advisory)
+  ~ Thai   ⟨⟩  (advisory)
+  ~ Khmer   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×4⟩  (advisory)
+  ~ Edict XII   ⟨⟩  (advisory)
+  ~ Persian Empire Ch   ⟨⟩  (advisory)
+  ~ Edicts II   ⟨⟩  (advisory)
+  ~ Officers of Moral Conduct   ⟨⟩  (advisory)
+  ~ Arthashastra-style   ⟨⟩  (advisory)
+  ~ Arthashastra-defying   ⟨⟩  (advisory)
+  ~ Edict IV   ⟨⟩  (advisory)
+  ~ XIII   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Edict XIII   ⟨⟩  (advisory)
+  ~ Already   ⟨⟩  (advisory)
+  ~ Vedic Period Ch   ⟨⟩  (advisory)
+  ~ Allahabad   ⟨⟩  (advisory)
+  ~ Brahmanical-Hindu   ⟨⟩  (advisory)
+  ~ Edict VII   ⟨⟩  (advisory)
+  ~ Buddhist-inflected   ⟨⟩  (advisory)
+  ~ Buddhists   ⟨⟩  (advisory)
+  ~ Jains   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Things Accomplished   ⟨⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ the Indus   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ slaves.   ⟨dict-lc⟩  (advisory)
+  ~ de facto   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ wells   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ judicial torture   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean.   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ the Buddha's   ⟨dict-lc⟩  (advisory)
+  ~ modern India   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ around 350 CE   ⟨dict-lc⟩  (advisory)
+  ~ themes   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ scripture.   ⟨dict-lc⟩  (advisory)
+  ~ pharaohs   ⟨dict-lc⟩  (advisory)
+  ~ The Kalinga edict   ⟨bold⟩  (advisory)
+  ~ sincere conversion   ⟨bold⟩  (advisory)
+  ~ political calculation   ⟨bold⟩  (advisory)
+  ~ reflections   ⟨rare⟩  (advisory)
+  ~ multiscript   ⟨rare⟩  (advisory)
+  ~ articulation   ⟨rare⟩  (advisory)
+  ~ applicable   ⟨rare⟩  (advisory)
+  ~ ascetics   ⟨rare⟩  (advisory)
+  ~ condemn   ⟨rare⟩  (advisory)
+  ~ veterinary   ⟨rare⟩  (advisory)
+  ~ healthcare   ⟨rare⟩  (advisory)
+  ~ peacocks   ⟨rare⟩  (advisory)
+  ~ orchards   ⟨rare⟩  (advisory)
+  ~ assertions   ⟨rare⟩  (advisory)
+  ~ tasked   ⟨rare⟩  (advisory)
+  ~ mediating   ⟨rare⟩  (advisory)
+  ~ inspecting   ⟨rare⟩  (advisory)
+  ~ inmates   ⟨rare⟩  (advisory)
+  ~ monitoring   ⟨rare⟩  (advisory)
+  ~ donate   ⟨rare⟩  (advisory)
+  ~ observances   ⟨rare⟩  (advisory)
+  ~ expresses   ⟨rare⟩  (advisory)
+  ~ fairness   ⟨rare⟩  (advisory)
+  ~ instructs   ⟨rare⟩  (advisory)
+  ~ investigative   ⟨rare⟩  (advisory)
+  ~ discomfort   ⟨rare⟩  (advisory)
+  ~ decimation   ⟨rare⟩  (advisory)
+  ~ medicines   ⟨rare⟩  (advisory)
+  ~ remorse   ⟨rare⟩  (advisory)
+  ~ desirable   ⟨rare⟩  (advisory)
+  ~ transporting   ⟨rare⟩  (advisory)
+  ~ polishing   ⟨rare⟩  (advisory)
+  ~ impresses   ⟨rare⟩  (advisory)
+  ~ juxtaposition   ⟨rare⟩  (advisory)
+  ~ worries   ⟨rare⟩  (advisory)
+  ~ conform   ⟨rare⟩  (advisory)
+  ~ amongst   ⟨rare⟩  (advisory)
+  ~ peeking   ⟨rare⟩  (advisory)
+  ~ sincerity   ⟨rare⟩  (advisory)
+  ~ compassionate   ⟨rare⟩  (advisory)
+  ~ transcend   ⟨rare⟩  (advisory)
+  ~ instrumental   ⟨rare⟩  (advisory)
+  ~ likelihood   ⟨rare⟩  (advisory)
+  ~ impulses   ⟨rare⟩  (advisory)
+  ~ encompass   ⟨rare⟩  (advisory)
+  ~ afterthought   ⟨rare⟩  (advisory)
+  ~ humanist   ⟨rare⟩  (advisory)
+  ~ experimenter   ⟨rare⟩  (advisory)
+  ~ underscores   ⟨rare⟩  (advisory)
+  ~ benevolent   ⟨rare⟩  (advisory)
+  ~ examines   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Ashoka   ⟨dict,recur×20⟩  → cross-link
+    Buddhism   ⟨dict,recur×15⟩  → cross-link
+    Shramana   ⟨dict⟩  → event
+    Ganges   ⟨dict,recur×4⟩  → glossary
+    Buddha   ⟨dict,recur×18⟩  → cross-link
+    Maurya   ⟨dict,recur×3⟩  → cross-link
+    Deccan   ⟨dict⟩  → glossary
+    Pataliputra   ⟨dict⟩  → event
+    Prakrit   ⟨dict⟩  → glossary
+    Maurya Empire   ⟨dict⟩  → cross-link
+    Sri Lankan   ⟨recur×6⟩  → ?
+    Himalayan   ⟨bold⟩  → event/glossary
+    Afghanistan   ⟨dict⟩  → glossary
+    Rock Edict XIII   ⟨dict⟩  → event
+    Antiochus   ⟨bold⟩  → event/glossary
+    Seleucid Empire   ⟨dict⟩  → cross-link
+    Ptolemy   ⟨dict,bold⟩  → glossary
+    Antigonus   ⟨dict,bold⟩  → glossary
+    Macedonia   ⟨dict⟩  → glossary
+    Magas   ⟨bold⟩  → event/glossary
+    Cyrene   ⟨dict⟩  → glossary
+    Libya   ⟨dict⟩  → glossary
+    Alexander   ⟨dict,bold⟩  → event
+    Epirus   ⟨dict⟩  → glossary
+    Roman Empire   ⟨dict⟩  → cross-link
+    Gandharan   ⟨dict⟩  → glossary
+    Apollo   ⟨dict⟩  → glossary
+    Vedas   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+  * Persian   ⟨dict⟩  → cross-link
+    Arthashastra   ⟨dict⟩  → cross-link
+    Jainism   ⟨dict⟩  → event
+    Siddhartha Gautama   ⟨dict⟩  → event
+    Dasharatha   ⟨dict⟩  → event
+    Southeast Asia   ⟨dict⟩  → glossary
+  ~ Indian   ⟨recur×11⟩  (advisory)
+  ~ Ashoka's Buddhist   ⟨⟩  (advisory)
+  ~ Bible   ⟨dict⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Teaching of the Elders   ⟨⟩  (advisory)
+  ~ Great Vehicle   ⟨⟩  (advisory)
+  ~ East Asia   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Korea   ⟨dict⟩  (advisory)
+  ~ Japan   ⟨dict⟩  (advisory)
+  ~ Vietnam   ⟨dict⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ North Indian   ⟨⟩  (advisory)
+  ~ Chronicle of the Island   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×7⟩  (advisory)
+  ~ Mediterranean   ⟨dict,recur×4⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Greece   ⟨dict⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ BCE Indian   ⟨⟩  (advisory)
+  ~ Hellenistic Greek   ⟨⟩  (advisory)
+  ~ Greco-Roman   ⟨⟩  (advisory)
+  ~ Buddha the serene   ⟨⟩  (advisory)
+  ~ Siddhartha   ⟨⟩  (advisory)
+  ~ King Bimbisara   ⟨⟩  (advisory)
+  ~ Mauryas   ⟨⟩  (advisory)
+  ~ Nepal   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Asian   ⟨⟩  (advisory)
+  ~ Hindu   ⟨dict⟩  (advisory)
+  ~ dhamma   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ mound a   ⟨dict-lc⟩  (advisory)
+  ~ monasteries   ⟨dict-lc⟩  (advisory)
+  ~ orthodoxy   ⟨dict-lc⟩  (advisory)
+  ~ his brother   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ pipal tree   ⟨dict-lc⟩  (advisory)
+  ~ enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ missionaries   ⟨dict-lc⟩  (advisory)
+  ~ trade goods   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ scripture   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
+  ~ public health   ⟨bold⟩  (advisory)
+  ~ devotee   ⟨rare⟩  (advisory)
+  ~ hemispherical   ⟨rare⟩  (advisory)
+  ~ encased   ⟨rare⟩  (advisory)
+  ~ reliquary   ⟨rare⟩  (advisory)
+  ~ clockwise   ⟨rare⟩  (advisory)
+  ~ circumambulation   ⟨rare⟩  (advisory)
+  ~ contemplates   ⟨rare⟩  (advisory)
+  ~ donating   ⟨rare⟩  (advisory)
+  ~ schisms   ⟨rare⟩  (advisory)
+  ~ layperson   ⟨rare⟩  (advisory)
+  ~ proliferated   ⟨rare⟩  (advisory)
+  ~ afflicts   ⟨rare⟩  (advisory)
+  ~ purify   ⟨rare⟩  (advisory)
+  ~ custodian   ⟨rare⟩  (advisory)
+  ~ hugely   ⟨rare⟩  (advisory)
+  ~ sacrilegious   ⟨rare⟩  (advisory)
+  ~ spirituality   ⟨rare⟩  (advisory)
+  ~ campus   ⟨rare⟩  (advisory)
+  ~ renowned   ⟨rare⟩  (advisory)
+  ~ healthcare   ⟨rare⟩  (advisory)
+  ~ dispensaries   ⟨rare⟩  (advisory)
+  ~ valetudinaria   ⟨rare⟩  (advisory)
+  ~ acoustic   ⟨rare⟩  (advisory)
+  ~ resonant   ⟨rare⟩  (advisory)
+  ~ meditative   ⟨rare⟩  (advisory)
+  ~ adjudicated   ⟨rare⟩  (advisory)
+  ~ homeless   ⟨rare⟩  (advisory)
+  ~ compromises   ⟨rare⟩  (advisory)
+  ~ entails   ⟨rare⟩  (advisory)
+  ~ universalist   ⟨rare⟩  (advisory)
+  ~ reabsorbed   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Sanskrit   ⟨dict⟩  → cross-link
+    Bihar   ⟨dict⟩  → glossary
+    Ganges   ⟨dict⟩  → glossary
+    Maurya Empire   ⟨dict⟩  → cross-link
+    Persian Empire   ⟨dict⟩  → cross-link
+    Barabar Caves   ⟨dict⟩  → event
+    Buddha   ⟨dict⟩  → cross-link
+    Achaemenid   ⟨dict⟩  → glossary
+  * Persian   ⟨dict⟩  → cross-link
+  * Persianate   ⟨dict⟩  → glossary
+    Arthashastra   ⟨dict⟩  → cross-link
+    Sri Lanka   ⟨dict⟩  → glossary
+    Southeast Asia   ⟨dict⟩  → glossary
+    Buddhism   ⟨dict⟩  → cross-link
+  * Mesopotamian   ⟨dict⟩  → cross-link
+  ~ Drive   ⟨⟩  (advisory)
+  ~ Wheel of Ashoka   ⟨⟩  (advisory)
+  ~ Indian   ⟨recur×18⟩  (advisory)
+  ~ Truth Alone Triumphs   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×3⟩  (advisory)
+  ~ Republic of India   ⟨⟩  (advisory)
+  ~ Himalayan   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨recur×4⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Achaemenid-trained   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Wheel of the Law   ⟨⟩  (advisory)
+  ~ Wheel of Dharma   ⟨⟩  (advisory)
+  ~ Achaemenid Persian   ⟨⟩  (advisory)
+  ~ Persian Empire Ch   ⟨⟩  (advisory)
+  ~ British   ⟨recur×3⟩  (advisory)
+  ~ Enlightenment-influenced   ⟨⟩  (advisory)
+  ~ Hindu   ⟨dict⟩  (advisory)
+  ~ Pandavas   ⟨⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Rawlinson   ⟨⟩  (advisory)
+  ~ Hincks   ⟨⟩  (advisory)
+  ~ Mesopotamia Ch   ⟨⟩  (advisory)
+  ~ South   ⟨⟩  (advisory)
+  ~ not assembled from sections   ⟨def⟩  (advisory)
+  ~ saffron   ⟨dict-lc,rare⟩  (advisory)
+  ~ green.   ⟨dict-lc⟩  (advisory)
+  ~ rupee   ⟨dict-lc⟩  (advisory)
+  ~ sandstone   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ obelisks   ⟨dict-lc⟩  (advisory)
+  ~ decorated   ⟨dict-lc⟩  (advisory)
+  ~ cardinal directions   ⟨dict-lc⟩  (advisory)
+  ~ dhamma   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ dharma wheel   ⟨dict-lc⟩  (advisory)
+  ~ prime minister   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ terror   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ religious tolerance   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ republic   ⟨dict-lc⟩  (advisory)
+  ~ collapse.   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ hieroglyphics   ⟨dict-lc,rare⟩  (advisory)
+  ~ focus   ⟨dict-lc⟩  (advisory)
+  ~ spokes   ⟨rare⟩  (advisory)
+  ~ installation   ⟨rare⟩  (advisory)
+  ~ passport   ⟨rare⟩  (advisory)
+  ~ caption   ⟨rare⟩  (advisory)
+  ~ artwork   ⟨rare⟩  (advisory)
+  ~ decoded   ⟨rare⟩  (advisory)
+  ~ monoliths   ⟨rare⟩  (advisory)
+  ~ erection   ⟨rare⟩  (advisory)
+  ~ reflective   ⟨rare⟩  (advisory)
+  ~ abrasion   ⟨rare⟩  (advisory)
+  ~ abrasives   ⟨rare⟩  (advisory)
+  ~ burnishing   ⟨rare⟩  (advisory)
+  ~ weathering   ⟨rare⟩  (advisory)
+  ~ polishing   ⟨rare⟩  (advisory)
+  ~ abacus   ⟨rare⟩  (advisory)
+  ~ perils   ⟨rare⟩  (advisory)
+  ~ puzzled   ⟨rare⟩  (advisory)
+  ~ heraldic   ⟨rare⟩  (advisory)
+  ~ resemble   ⟨rare⟩  (advisory)
+  ~ resemblances   ⟨rare⟩  (advisory)
+  ~ superficial   ⟨rare⟩  (advisory)
+  ~ eclectically   ⟨rare⟩  (advisory)
+  ~ exclusivism   ⟨rare⟩  (advisory)
+  ~ encompass   ⟨rare⟩  (advisory)
+  ~ anticipating   ⟨rare⟩  (advisory)
+  ~ impossibly   ⟨rare⟩  (advisory)
+  ~ resurgent   ⟨rare⟩  (advisory)
+  ~ orientalist   ⟨rare⟩  (advisory)
+  ~ painstaking   ⟨rare⟩  (advisory)
+  ~ frequencies   ⟨rare⟩  (advisory)
+  ~ snapped   ⟨rare⟩  (advisory)
+  ~ propagated   ⟨rare⟩  (advisory)
+  ~ endures   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Ajivikas   ⟨dict⟩  → event
+    Maurya   ⟨dict,recur×13⟩  → cross-link
+    Roman Empire   ⟨dict⟩  → cross-link
+    Kautilya   ⟨dict⟩  → glossary
+  * Greek-ruled   ⟨dict⟩  → glossary
+    Afghanistan   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Seleucid Empire   ⟨dict⟩  → cross-link
+    Punjab   ⟨dict⟩  → glossary
+    Indus   ⟨dict⟩  → cross-link
+    Mauryas   ⟨recur×3⟩  → ?
+    Ganges   ⟨dict⟩  → glossary
+    Chandragupta   ⟨dict,recur×3⟩  → glossary
+    Bindusara   ⟨dict⟩  → event
+    Deccan   ⟨dict⟩  → glossary
+    Buddhism   ⟨dict,recur×3⟩  → cross-link
+    Maurya Empire   ⟨dict,recur×4⟩  → cross-link
+    Taxila   ⟨dict⟩  → event
+    Mughals   ⟨dict⟩  → cross-link
+    British Raj   ⟨dict⟩  → glossary
+    Sri Lanka   ⟨dict⟩  → glossary
+    Buddha   ⟨dict⟩  → cross-link
+    Tamil   ⟨dict⟩  → glossary
+  * Bengali   ⟨dict⟩  → glossary
+  * Tibetan   ⟨dict⟩  → glossary
+    Phoenician   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+    Arabic   ⟨dict⟩  → glossary
+    Hebrew   ⟨dict⟩  → glossary
+  * Assyrian   ⟨dict⟩  → cross-link
+    Provincial autonomy.   ⟨bold⟩  → event/glossary
+    Economic strain.   ⟨bold⟩  → event/glossary
+    External pressure.   ⟨bold⟩  → event/glossary
+    Brahmanical revival   ⟨bold⟩  → event/glossary
+    Buddhism's spread.   ⟨bold⟩  → event/glossary
+  ~ Buddhist   ⟨dict,recur×8⟩  (advisory)
+  ~ Hindu   ⟨dict⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Hellenistic   ⟨⟩  (advisory)
+  ~ Greek-Indian   ⟨⟩  (advisory)
+  ~ Brahmanical   ⟨⟩  (advisory)
+  ~ Vedic-Hindu   ⟨⟩  (advisory)
+  ~ Ashoka's Buddhist-influenced   ⟨⟩  (advisory)
+  ~ Great Stupa   ⟨⟩  (advisory)
+  ~ Vedic   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Rome   ⟨dict⟩  (advisory)
+  ~ Indian   ⟨recur×8⟩  (advisory)
+  ~ British   ⟨⟩  (advisory)
+  ~ Thailand   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict⟩  (advisory)
+  ~ South Asia   ⟨⟩  (advisory)
+  ~ Burmese   ⟨⟩  (advisory)
+  ~ Thai   ⟨⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ spy network   ⟨dict-lc⟩  (advisory)
+  ~ stupas   ⟨dict-lc,rare⟩  (advisory)
+  ~ missionary expeditions   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the Indus valley.   ⟨dict-lc⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ orthodoxy   ⟨dict-lc⟩  (advisory)
+  ~ persecution   ⟨dict-lc⟩  (advisory)
+  ~ timber palisade   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ garden   ⟨dict-lc⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ violence   ⟨dict-lc⟩  (advisory)
+  ~ by any means necessary   ⟨dict-lc⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
+  ~ The dhamma problem.   ⟨bold⟩  (advisory)
+  ~ The road system.   ⟨bold⟩  (advisory)
+  ~ The administrative framework.   ⟨bold⟩  (advisory)
+  ~ The idea that power can include regret.   ⟨bold⟩  (advisory)
+  ~ conflicting   ⟨rare⟩  (advisory)
+  ~ bureaucratically   ⟨rare⟩  (advisory)
+  ~ murkier   ⟨rare⟩  (advisory)
+  ~ maintains   ⟨rare⟩  (advisory)
+  ~ viceroys   ⟨rare⟩  (advisory)
+  ~ dutifully   ⟨rare⟩  (advisory)
+  ~ disbanded   ⟨rare⟩  (advisory)
+  ~ preparedness   ⟨rare⟩  (advisory)
+  ~ emboldened   ⟨rare⟩  (advisory)
+  ~ centrifugal   ⟨rare⟩  (advisory)
+  ~ discounting   ⟨rare⟩  (advisory)
+  ~ donating   ⟨rare⟩  (advisory)
+  ~ subcontinental   ⟨rare⟩  (advisory)
+  ~ reassertion   ⟨rare⟩  (advisory)
+  ~ persecutor   ⟨rare⟩  (advisory)
+  ~ jurisdictions   ⟨rare⟩  (advisory)
+  ~ sparked   ⟨rare⟩  (advisory)
+  ~ tangible   ⟨rare⟩  (advisory)
+  ~ imitators   ⟨rare⟩  (advisory)
+  ~ tolerable   ⟨rare⟩  (advisory)
+  ~ corrosive   ⟨rare⟩  (advisory)
+  ~ idealism   ⟨rare⟩  (advisory)
+  ~ philosophies   ⟨rare⟩  (advisory)
+  ~ pragmatist   ⟨rare⟩  (advisory)
+  ~ idealist   ⟨rare⟩  (advisory)
+  ~ remembering   ⟨rare⟩  (advisory)

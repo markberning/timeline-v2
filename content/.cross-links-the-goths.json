@@ -1,198 +1,288 @@
 {
-  "1": [
-    {
-      "matchText": "Celtic languages",
-      "targetTl": "celtic-cultures",
-      "targetChapter": 1,
-      "blurb": "Meanwhile, the Celtic-speaking peoples to the west of the early Gothic zone had been building their own distinct world since at least 800 BCE — salt-mining wealth in the Alps, La Tene metalwork, and an oral intellectual tradition of remarkable sophistication. Celtic and Germanic were both branches of Indo-European, but by the time the Goths were on the Vistula the two families had been diverging for over a thousand years. They looked similar to Mediterranean observers and were completely foreign to each other."
-    },
-    {
-      "matchText": "Germanic-speaking people",
-      "targetTl": "germanic-tribes",
-      "targetChapter": 1,
-      "blurb": "The Goths were the easternmost outliers of the broad Germanic world that had been forming along the Rhine and Elbe for centuries. The same prestige-goods pump, the same confederation politics, the same weaponless-burial customs that marked the Wielbark Goths — these were variations on patterns common to all the Germanic peoples, from the Rhine forest to the Baltic shore to the Vistula basin where the Gothic story begins."
-    }
-  ],
-  "2": [
-    {
-      "matchText": "Scythians",
-      "targetTl": "scythians",
-      "targetChapter": 1,
-      "blurb": "The Scythians had ruled the Pontic steppe for centuries before the Sarmatians displaced them, and before either the Goths arrived. By the time Gothic settlers were building Chernyakhov villages in Ukraine, the great Scythian era was already several centuries past — but the deep steppe tradition of elite horse-warrior culture, spectacular burial mounds, and gold animal-style art that the Scythians had perfected was the background against which every subsequent steppe people defined itself, the Goths included."
-    }
-  ],
-  "3": [
-    {
-      "matchText": "Hannibal at Cannae",
-      "targetTl": "ancient-rome",
-      "targetChapter": 7,
-      "blurb": "The Gothic raids of the 250s and 260s arrived during the Roman Empire's worst self-inflicted crisis — emperors murdered after months in power, silver coinage debased to near-worthlessness, plague sweeping the cities. The same empire that had absorbed Hannibal after Cannae now found itself unable to protect its own Balkan heartland. The Goths did not break a healthy system; they hammered a structure that was already fracturing from the inside."
-    },
-    {
-      "matchText": "the Roman tradition",
-      "targetTl": "ancient-rome",
-      "targetChapter": 5,
-      "blurb": "The Roman writers who reported the death of Decius at Abritus reached instinctively for Cannae — Hannibal's destruction of the largest Roman army ever fielded in 216 BCE — as the only available frame for a defeat of that magnitude. The comparison was doing precise work: not a bad defeat but the worst kind, the kind Rome named its catastrophes after. That both catastrophes were ultimately survived says something true about how Rome worked, and that Adrianople broke the pattern says something true about how Rome had changed."
-    }
-  ],
-  "4": [
-    {
-      "matchText": "the whole Germanic world",
-      "targetTl": "germanic-tribes",
-      "targetChapter": 4,
-      "blurb": "The split between the Tervingi and the Greuthungi — judge-led coalition versus centralized hereditary kingship — recapitulates in Gothic form the central political question of the whole Germanic world. Every confederacy in the Rhine-Elbe zone faced the same tension: strong leadership worked in war, but the warrior nobles who created a war-king would not be ruled by one afterward. The Tervingi chose the coalition model; the Greuthungi chose kingship; and both choices shaped exactly how each people lived and died in the chapters that follow."
-    },
-    {
-      "matchText": "Viking age",
-      "targetTl": "viking-age",
-      "targetChapter": 1,
-      "blurb": "The heroic stories the Goths generated around figures like Ermanaric and later Theodoric did not stay in Gothic memory alone. Old Norse poetry preserved recognizable versions of the Ermanaric legend and named Gothic kings in the same breath as Norse heroes, because the shared Germanic oral tradition treated heroic figures as pan-Germanic property. The Norse skalds singing in Iceland in the tenth century were working with material that had been circulating since the Pontic steppe."
-    }
-  ],
-  "5": [
-    {
-      "matchText": "the first Germanic people with a written literature",
-      "targetTl": "germanic-tribes",
-      "targetChapter": 3,
-      "blurb": "The runes Ulfilas drew on for a few of his Gothic alphabet letters were the Elder Futhark, the angular script carved on weapons, brooches, and memorial stones across the whole Germanic world from the Rhine to the Black Sea. They were never used for books or administration — that was the point. Ulfilas was deliberately engineering something different: a literary script for a sacred text, designed from scratch for a specific job, which is why the Gothic alphabet and the Elder Futhark look related but are functionally completely different instruments."
-    },
-    {
-      "matchText": "the Norse Eddas",
-      "targetTl": "viking-age",
-      "targetChapter": 3,
-      "blurb": "The Gothic Bible is the oldest substantial text in any Germanic language by roughly three centuries — the Beowulf manuscript and the Norse Eddas are both far younger. For linguists reconstructing early Germanic, Ulfilas's translation is the single best fossil of what the common ancestor of English, German, Dutch, and all the Scandinavian languages actually sounded like. A heretic bishop's fourth-century Gothic Gospels became the cornerstone of the field that explains how the Viking languages got to be what they are."
-    },
-    {
-      "matchText": "all the way to Spain",
-      "targetTl": "al-andalus",
-      "targetChapter": 1,
-      "blurb": "The Arian Christianity that Ulfilas planted among the Goths in the 340s was still alive in Visigothic Spain two and a half centuries later when it finally ended — not by internal reform but by the Third Council of Toledo in 589, when King Reccared converted the whole people to Catholicism. And even then the Visigothic Catholic kingdom lasted only until 711, when an army from North Africa crossed the strait and ended it. The Gothic religious journey that began with one bishop's mission outlasted every Gothic kingdom on earth."
-    },
-    {
-      "matchText": "Germanic Tribes",
-      "targetTl": "germanic-tribes",
-      "targetChapter": 10,
-      "blurb": "The Goths are the great case study of 'what the Germani became' — a frontier people who ended up ruling Italy and Spain."
-    }
-  ],
-  "6": [
-    {
-      "matchText": "the north bank of the Danube",
-      "targetTl": "migration-period",
-      "targetChapter": 3,
-      "blurb": "The Hunnic arrival of 375 that shattered the Greuthungi and drove the Tervingi to the Danube was not an isolated Gothic catastrophe. It was the opening shock of the whole Migration Period — the decades-long cascade of displacement, invasion, and kingdom-founding that unmade the western Roman Empire. The Goths crossing the Danube in 376 were the first domino; the Vandals crossing the Rhine in 406, the Burgundians, the Alans, the Suebi all followed the same basic logic: the Huns were pushing, and the only safe direction was west and into Rome."
-    },
-    {
-      "matchText": "came out of the eastern steppe",
-      "targetTl": "xiongnu-huns",
-      "targetChapter": 6,
-      "blurb": "'The year the world ended' is the Hunnic arrival — the same Attila-era cataclysm seen from the Gothic side."
-    }
-  ],
-  "7": [
-    {
-      "matchText": "After Cannae, Rome refused to negotiate",
-      "targetTl": "ancient-rome",
-      "targetChapter": 10,
-      "blurb": "Adrianople was the moment Roman historians themselves reached for Cannae — and the comparison illuminates the deeper change. After Cannae, Rome refused to negotiate, raised new armies, and won total victory over Hannibal fourteen years later. After Adrianople, Rome could not do that. The manpower was gone, the will to fight to the last was gone, and the answer was accommodation rather than reconquest. Cannae was a wound Rome survived by being Rome. Adrianople was a wound Rome survived by ceasing to be the Rome that had survived Cannae."
-    },
-    {
-      "matchText": "Hannibal of Carthage encircled",
-      "targetTl": "carthage",
-      "targetChapter": 7,
-      "blurb": "Roman writers who described Adrianople reached for Cannae as the only frame large enough for the disaster, and Cannae was Hannibal of Carthage's masterpiece — the encirclement and annihilation of the largest Roman army ever fielded in a single afternoon in 216 BCE. The comparison was precise: not merely a bad defeat but a battle where the tactical execution was perfect and the Roman dead were uncountable. At Adrianople as at Cannae, a barbarian commander had turned Roman discipline into a weapon against itself."
-    },
-    {
-      "matchText": "what the Roman Empire was",
-      "targetTl": "ancient-rome",
-      "targetChapter": 8,
-      "blurb": "Adrianople (378) — an emperor and his army destroyed by Goths — is the wound the Roman crisis never recovered from."
-    }
-  ],
-  "8": [
-    {
-      "matchText": "in eight hundred years",
-      "targetTl": "ancient-rome",
-      "targetChapter": 1,
-      "blurb": "The sack of Rome in 410 ended an eight-hundred-year run. The last time a foreign enemy had entered the city was around 390 BCE, when a Gaulish war-band under Brennus burned much of it and sat in the ruins for seven months. That event had been the foundational trauma of Roman history — the thing that justified the walls, the legions, the military obsession. To sack Rome again was to do what the Romans had spent eight centuries proving could not be done. Alaric did not destroy the city. He ended a story the Romans had been telling about it."
-    },
-    {
-      "matchText": "a Gaulish war-band had taken the city",
-      "targetTl": "celtic-cultures",
-      "targetChapter": 4,
-      "blurb": "The Gaul who sacked Rome in 390 BCE was Brennus of the Senones, the event that became Rome's foundational trauma and the model against which every later sack was measured. When Augustine wrote The City of God in direct response to the Gothic sack of 410, he was engaging an eight-hundred-year-old Roman wound that the Gauls had opened. The Celts who terrified Rome in 390 BCE and the Goths who finally repeated the feat in 410 CE bracket the entire history of the Roman world."
-    },
-    {
-      "matchText": "robbed and humiliated",
-      "targetTl": "ancient-rome",
-      "targetChapter": 10,
-      "blurb": "'The unthinkable' is Alaric's sack of Rome (410) — the first time the city had fallen in 800 years, the psychological end of the empire."
-    }
-  ],
-  "9": [
-    {
-      "matchText": "The Kingdom of Toulouse",
-      "targetTl": "migration-period",
-      "targetChapter": 5,
-      "blurb": "The Visigothic Kingdom of Toulouse was the first and in some ways the template successor kingdom of the Migration Age. The hospitalitas land distribution, the dual Gothic-Roman administration, the Arian-Catholic religious tension — all of these patterns repeated across the barbarian kingdoms that divided the western empire. The Burgundians in the Rhone valley, the Vandals in North Africa, the Franks in northern Gaul were all working variations on the same basic problem the Visigoths had pioneered: how to run a Roman province as a barbarian king."
-    },
-    {
-      "matchText": "the Code of Euric",
-      "targetTl": "germanic-tribes",
-      "targetChapter": 6,
-      "blurb": "Euric's Code of Euric and Alaric II's Breviary were Gothic versions of the same transformation the wider Germanic world was undergoing. The Rhine-Elbe Germanic peoples had never used writing for law; the Goths, after two generations inside the empire, were publishing systematic Latin law codes for mixed populations. What the previous book described as a world that ran on spoken oath and assembly was, in its Gothic branch, becoming a world that ran on written Latin jurisprudence. The transformation was the measure of how deeply the Goths had absorbed Rome."
-    },
-    {
-      "matchText": "the Visigothic Kingdom of Toledo",
-      "targetTl": "al-andalus",
-      "targetChapter": 1,
-      "blurb": "The Visigothic Kingdom of Toledo that survived Vouille and retreated into Spain outlasted every other Gothic state by a century and a half. It eventually converted to Catholicism, built a sophisticated ecclesiastical and legal culture, and dominated the Iberian Peninsula until 711 — when an Umayyad-led army from North Africa crossed the strait and ended it in a campaign of startling speed. The Gothic story in Spain is the opening chapter of the story that Iberian book covers."
-    },
-    {
-      "matchText": "Arab and Berber army in 711",
-      "targetTl": "al-andalus",
-      "targetChapter": 1,
-      "blurb": "The Visigothic kingdom in the west endured until 711 — when the Umayyad conquest that opens al-Andalus erased it in a single campaign."
-    },
-    {
-      "matchText": "first enduring barbarian successor",
-      "targetTl": "early-medieval-europe",
-      "targetChapter": 1,
-      "blurb": "The Gothic kingdoms are the founding generation of post-Roman Europe — the Germanic successor states the medieval west grew from."
-    }
-  ],
-  "10": [
-    {
-      "matchText": "sent to Constantinople as a hostage",
-      "targetTl": "byzantine-empire",
-      "targetChapter": 2,
-      "blurb": "Theodoric the Great had been raised as a child hostage in Constantinople, the greatest Roman city still standing, and the eastern empire he had absorbed in his youth shaped his entire vision of Gothic-Roman governance. The dual state he built in Italy — Roman civil administration, Gothic military command, a king who restored aqueducts and sponsored philosophers — was a conscious echo of the eastern model. The irony is that the very empire that educated him eventually sent an army to destroy everything he built."
-    },
-    {
-      "matchText": "a Constantinople plot",
-      "targetTl": "byzantine-empire",
-      "targetChapter": 2,
-      "blurb": "Theodoric's brilliant Ostrogothic Italy was destroyed by Justinian's reconquest — Byzantium devouring the most Roman of the Germanic kingdoms."
-    }
-  ],
-  "11": [
-    {
-      "matchText": "Justinian",
-      "targetTl": "byzantine-empire",
-      "targetChapter": 4,
-      "blurb": "The Gothic War was Justinian's most ambitious and most destructive reconquest, the centerpiece of the renovatio imperii that defined his reign. From Constantinople's perspective it was the restoration of Roman rule in the West's heartland; from Italy's perspective it was a twenty-year catastrophe that killed more people and destroyed more wealth than any previous Gothic act. The eastern empire that Justinian ruled survived the Gothic War; the Italy he reconquered never fully recovered."
-    },
-    {
-      "matchText": "retaken Carthage",
-      "targetTl": "carthage",
-      "targetChapter": 8,
-      "blurb": "Before turning to Italy, Justinian's general Belisarius had reconquered North Africa from the Vandals and retaken Carthage in 533, the city that had once been Rome's greatest rival. That campaign was swift and decisive, finished in two years, and it gave Justinian confidence that Italy could be retaken as quickly. It could not. The Vandal kingdom fell in a single campaign season; the Ostrogothic kingdom fought for twenty years and came close to winning."
-    },
-    {
-      "matchText": "Lombards",
-      "targetTl": "migration-period",
-      "targetChapter": 7,
-      "blurb": "The Lombard invasion of Italy in 568 was the final chapter in the long cascade the Huns had set off in 375. From the Gothic crossing of the Danube to the Vandal crossing of the Rhine to the Lombard crossing of the Alps, each wave of migration was partly caused by the pressure of the one before it. The Ostrogoths, destroyed by Justinian, left a vacuum that the Lombards — many of whom had fought in Narses's army against the Goths — simply walked into. The Migration Period ended not with order restored but with a new set of barbarians in a depopulated Italy."
-    }
-  ]
+ "1": [
+  {
+   "matchText": "Celtic languages",
+   "targetTl": "celtic-cultures",
+   "targetChapter": 1,
+   "blurb": "Meanwhile, the Celtic-speaking peoples to the west of the early Gothic zone had been building their own distinct world since at least 800 BCE — salt-mining wealth in the Alps, La Tene metalwork, and an oral intellectual tradition of remarkable sophistication. Celtic and Germanic were both branches of Indo-European, but by the time the Goths were on the Vistula the two families had been diverging for over a thousand years. They looked similar to Mediterranean observers and were completely foreign to each other."
+  },
+  {
+   "matchText": "Germanic-speaking people",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 1,
+   "blurb": "The Goths were the easternmost outliers of the broad Germanic world that had been forming along the Rhine and Elbe for centuries. The same prestige-goods pump, the same confederation politics, the same weaponless-burial customs that marked the Wielbark Goths — these were variations on patterns common to all the Germanic peoples, from the Rhine forest to the Baltic shore to the Vistula basin where the Gothic story begins."
+  }
+ ],
+ "2": [
+  {
+   "matchText": "Scythians",
+   "targetTl": "scythians",
+   "targetChapter": 1,
+   "blurb": "The Scythians had ruled the Pontic steppe for centuries before the Sarmatians displaced them, and before either the Goths arrived. By the time Gothic settlers were building Chernyakhov villages in Ukraine, the great Scythian era was already several centuries past — but the deep steppe tradition of elite horse-warrior culture, spectacular burial mounds, and gold animal-style art that the Scythians had perfected was the background against which every subsequent steppe people defined itself, the Goths included."
+  },
+  {
+   "matchText": "Persia",
+   "targetTl": "persian-empire",
+   "targetChapter": 1,
+   "blurb": "When the narrative says the Sarmatians' distant relatives ruled Persia, it means the Iranian-speaking peoples of the Achaemenid world — the same broad Indo-Iranian language family stretched from the kings of kings in Persepolis to the horse nomads on the Black Sea grass. The Persians built a centralized, road-and-tribute empire; their steppe cousins kept the mobile, kin-based, cavalry world the Goths now married into. Same linguistic stock, two utterly different civilizations, and the Goths met the northern branch."
+  }
+ ],
+ "3": [
+  {
+   "matchText": "Hannibal at Cannae",
+   "targetTl": "ancient-rome",
+   "targetChapter": 7,
+   "blurb": "The Gothic raids of the 250s and 260s arrived during the Roman Empire's worst self-inflicted crisis — emperors murdered after months in power, silver coinage debased to near-worthlessness, plague sweeping the cities. The same empire that had absorbed Hannibal after Cannae now found itself unable to protect its own Balkan heartland. The Goths did not break a healthy system; they hammered a structure that was already fracturing from the inside."
+  },
+  {
+   "matchText": "the Roman tradition",
+   "targetTl": "ancient-rome",
+   "targetChapter": 5,
+   "blurb": "The Roman writers who reported the death of Decius at Abritus reached instinctively for Cannae — Hannibal's destruction of the largest Roman army ever fielded in 216 BCE — as the only available frame for a defeat of that magnitude. The comparison was doing precise work: not a bad defeat but the worst kind, the kind Rome named its catastrophes after. That both catastrophes were ultimately survived says something true about how Rome worked, and that Adrianople broke the pattern says something true about how Rome had changed."
+  },
+  {
+   "matchText": "Constantinople",
+   "targetTl": "byzantine-empire",
+   "targetChapter": 1,
+   "blurb": "When the Gothic fleets squeezed through the Bosphorus and Dardanelles in the 250s and 260s, no great city yet guarded the straits. Decades later Constantine refounded the old Greek town of Byzantium on that exact chokepoint as a new Christian capital, and the city that rose there would dominate the passage between the Black Sea and the Aegean for a thousand years — the seam the Goths had once slipped through unopposed."
+  },
+  {
+   "matchText": "Germanic",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 10,
+   "blurb": "The political habit the Goths carried into the third century — a war-band that follows a winning leader but refuses to be owned by one — was the deep Germanic pattern, four centuries in the making against Rome's frontier. The previous book traced that confederation-of-equals across the whole Germanic world; the Goths are its sharpest surviving expression, militarized and enriched by the same long friction with the empire."
+  }
+ ],
+ "4": [
+  {
+   "matchText": "the whole Germanic world",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 4,
+   "blurb": "The split between the Tervingi and the Greuthungi — judge-led coalition versus centralized hereditary kingship — recapitulates in Gothic form the central political question of the whole Germanic world. Every confederacy in the Rhine-Elbe zone faced the same tension: strong leadership worked in war, but the warrior nobles who created a war-king would not be ruled by one afterward. The Tervingi chose the coalition model; the Greuthungi chose kingship; and both choices shaped exactly how each people lived and died in the chapters that follow."
+  },
+  {
+   "matchText": "Viking age",
+   "targetTl": "viking-age",
+   "targetChapter": 1,
+   "blurb": "The heroic stories the Goths generated around figures like Ermanaric and later Theodoric did not stay in Gothic memory alone. Old Norse poetry preserved recognizable versions of the Ermanaric legend and named Gothic kings in the same breath as Norse heroes, because the shared Germanic oral tradition treated heroic figures as pan-Germanic property. The Norse skalds singing in Iceland in the tenth century were working with material that had been circulating since the Pontic steppe."
+  },
+  {
+   "matchText": "Huns",
+   "targetTl": "xiongnu-huns",
+   "targetChapter": 6,
+   "blurb": "The unstoppable enemy out of the eastern steppe that overwhelmed Ermanaric's domain was the western edge of a far older story. The Huns who appeared on the Pontic steppe in the 370s were the heirs of a nomadic power that had dominated the eastern steppe for centuries; their westward migration carried them out of the Central Asian world and into Europe, where they shattered the Greuthungi and set the whole Gothic catastrophe in motion. To the Goths they came from nowhere, but they had a history of their own."
+  },
+  {
+   "matchText": "Alexander the Great",
+   "targetTl": "ancient-greece",
+   "targetChapter": 7,
+   "blurb": "When Jordanes reached for the grandest possible comparison for Ermanaric, he chose Alexander — the Macedonian king who in a single decade conquered the Persian Empire and carried Greek arms to the edge of India, becoming the ancient world's benchmark for world-conquering greatness. Measuring a Gothic steppe-king against Alexander is exactly the kind of inflation a court historian flattering a founding dynasty would reach for, which is why modern scholars read the size of 'Ermanaric's empire' with such skepticism."
+  }
+ ],
+ "5": [
+  {
+   "matchText": "the first Germanic people with a written literature",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 3,
+   "blurb": "The runes Ulfilas drew on for a few of his Gothic alphabet letters were the Elder Futhark, the angular script carved on weapons, brooches, and memorial stones across the whole Germanic world from the Rhine to the Black Sea. They were never used for books or administration — that was the point. Ulfilas was deliberately engineering something different: a literary script for a sacred text, designed from scratch for a specific job, which is why the Gothic alphabet and the Elder Futhark look related but are functionally completely different instruments."
+  },
+  {
+   "matchText": "the Norse Eddas",
+   "targetTl": "viking-age",
+   "targetChapter": 3,
+   "blurb": "The Gothic Bible is the oldest substantial text in any Germanic language by roughly three centuries — the Beowulf manuscript and the Norse Eddas are both far younger. For linguists reconstructing early Germanic, Ulfilas's translation is the single best fossil of what the common ancestor of English, German, Dutch, and all the Scandinavian languages actually sounded like. A heretic bishop's fourth-century Gothic Gospels became the cornerstone of the field that explains how the Viking languages got to be what they are."
+  },
+  {
+   "matchText": "all the way to Spain",
+   "targetTl": "al-andalus",
+   "targetChapter": 1,
+   "blurb": "The Arian Christianity that Ulfilas planted among the Goths in the 340s was still alive in Visigothic Spain two and a half centuries later when it finally ended — not by internal reform but by the Third Council of Toledo in 589, when King Reccared converted the whole people to Catholicism. And even then the Visigothic Catholic kingdom lasted only until 711, when an army from North Africa crossed the strait and ended it. The Gothic religious journey that began with one bishop's mission outlasted every Gothic kingdom on earth."
+  },
+  {
+   "matchText": "Germanic Tribes",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 10,
+   "blurb": "The Goths are the great case study of 'what the Germani became' — a frontier people who ended up ruling Italy and Spain."
+  },
+  {
+   "matchText": "Scandinavians",
+   "targetTl": "viking-age",
+   "targetChapter": 1,
+   "blurb": "While Ulfilas was retiring the runes for a designed Christian script in the fourth century, the Scandinavians kept theirs. The Norse world went on carving the Elder Futhark — and later the pared-down sixteen-character Younger Futhark — on stones, weapons, and memorials for centuries, right up to and through the Viking Age. Runes never became a book script in the north; they stayed exactly the thing Ulfilas was trying to get away from, which is part of why the Goths, not the Norse, left the oldest long Germanic text."
+  }
+ ],
+ "6": [
+  {
+   "matchText": "the north bank of the Danube",
+   "targetTl": "migration-period",
+   "targetChapter": 3,
+   "blurb": "The Hunnic arrival of 375 that shattered the Greuthungi and drove the Tervingi to the Danube was not an isolated Gothic catastrophe. It was the opening shock of the whole Migration Period — the decades-long cascade of displacement, invasion, and kingdom-founding that unmade the western Roman Empire. The Goths crossing the Danube in 376 were the first domino; the Vandals crossing the Rhine in 406, the Burgundians, the Alans, the Suebi all followed the same basic logic: the Huns were pushing, and the only safe direction was west and into Rome."
+  },
+  {
+   "matchText": "came out of the eastern steppe",
+   "targetTl": "xiongnu-huns",
+   "targetChapter": 6,
+   "blurb": "'The year the world ended' is the Hunnic arrival — the same Attila-era cataclysm seen from the Gothic side."
+  },
+  {
+   "matchText": "begged the Roman Empire",
+   "targetTl": "ancient-rome",
+   "targetChapter": 10,
+   "blurb": "The empire the Goths begged to enter in 376 was already a different thing from the republic that beat Hannibal. By the late fourth century Rome was a sprawling, militarized, increasingly Christian state stretched thin along its frontiers, hungry for soldiers and taxpayers — which is exactly why letting a whole nation across the Danube looked, for a moment, like a bargain rather than a catastrophe."
+  },
+  {
+   "matchText": "no Germanic people",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 1,
+   "blurb": "The Goths were one branch of a much larger family. 'Germanic' is the umbrella the Romans (and later scholars) put over the dozens of peoples beyond the Rhine and Danube who spoke related languages — Cimbri, Marcomanni, Franks, Vandals, Goths, and more. The Goths' decision to flee inside the empire as a whole nation broke a pattern that this older Germanic world had followed for centuries."
+  },
+  {
+   "matchText": "from Constantinople",
+   "targetTl": "byzantine-empire",
+   "targetChapter": 1,
+   "blurb": "Valens ruled the eastern half from Constantinople — the New Rome on the Bosphorus that Constantine had founded a generation earlier. While the western empire would dissolve over the next century, the eastern half governed from this city endured for another thousand years as what we now call the Byzantine Empire."
+  },
+  {
+   "matchText": "a Thracian city called Adrianople",
+   "targetTl": "the-goths",
+   "targetChapter": 7,
+   "blurb": "The next chapter is the battle itself. Outside the walls of Adrianople on 9 August 378, Valens and the eastern field army marched out to crush the Gothic revolt — and were annihilated, the emperor's body never found. It is the disaster this entire book is built around."
+  }
+ ],
+ "7": [
+  {
+   "matchText": "After Cannae, Rome refused to negotiate",
+   "targetTl": "ancient-rome",
+   "targetChapter": 10,
+   "blurb": "Adrianople was the moment Roman historians themselves reached for Cannae — and the comparison illuminates the deeper change. After Cannae, Rome refused to negotiate, raised new armies, and won total victory over Hannibal fourteen years later. After Adrianople, Rome could not do that. The manpower was gone, the will to fight to the last was gone, and the answer was accommodation rather than reconquest. Cannae was a wound Rome survived by being Rome. Adrianople was a wound Rome survived by ceasing to be the Rome that had survived Cannae."
+  },
+  {
+   "matchText": "Hannibal of Carthage encircled",
+   "targetTl": "carthage",
+   "targetChapter": 7,
+   "blurb": "Roman writers who described Adrianople reached for Cannae as the only frame large enough for the disaster, and Cannae was Hannibal of Carthage's masterpiece — the encirclement and annihilation of the largest Roman army ever fielded in a single afternoon in 216 BCE. The comparison was precise: not merely a bad defeat but a battle where the tactical execution was perfect and the Roman dead were uncountable. At Adrianople as at Cannae, a barbarian commander had turned Roman discipline into a weapon against itself."
+  },
+  {
+   "matchText": "what the Roman Empire was",
+   "targetTl": "ancient-rome",
+   "targetChapter": 8,
+   "blurb": "Adrianople (378) — an emperor and his army destroyed by Goths — is the wound the Roman crisis never recovered from."
+  }
+ ],
+ "8": [
+  {
+   "matchText": "in eight hundred years",
+   "targetTl": "ancient-rome",
+   "targetChapter": 1,
+   "blurb": "The sack of Rome in 410 ended an eight-hundred-year run. The last time a foreign enemy had entered the city was around 390 BCE, when a Gaulish war-band under Brennus burned much of it and sat in the ruins for seven months. That event had been the foundational trauma of Roman history — the thing that justified the walls, the legions, the military obsession. To sack Rome again was to do what the Romans had spent eight centuries proving could not be done. Alaric did not destroy the city. He ended a story the Romans had been telling about it."
+  },
+  {
+   "matchText": "a Gaulish war-band had taken the city",
+   "targetTl": "celtic-cultures",
+   "targetChapter": 4,
+   "blurb": "The Gaul who sacked Rome in 390 BCE was Brennus of the Senones, the event that became Rome's foundational trauma and the model against which every later sack was measured. When Augustine wrote The City of God in direct response to the Gothic sack of 410, he was engaging an eight-hundred-year-old Roman wound that the Gauls had opened. The Celts who terrified Rome in 390 BCE and the Goths who finally repeated the feat in 410 CE bracket the entire history of the Roman world."
+  },
+  {
+   "matchText": "robbed and humiliated",
+   "targetTl": "ancient-rome",
+   "targetChapter": 10,
+   "blurb": "'The unthinkable' is Alaric's sack of Rome (410) — the first time the city had fallen in 800 years, the psychological end of the empire."
+  }
+ ],
+ "9": [
+  {
+   "matchText": "The Kingdom of Toulouse",
+   "targetTl": "migration-period",
+   "targetChapter": 5,
+   "blurb": "The Visigothic Kingdom of Toulouse was the first and in some ways the template successor kingdom of the Migration Age. The hospitalitas land distribution, the dual Gothic-Roman administration, the Arian-Catholic religious tension — all of these patterns repeated across the barbarian kingdoms that divided the western empire. The Burgundians in the Rhone valley, the Vandals in North Africa, the Franks in northern Gaul were all working variations on the same basic problem the Visigoths had pioneered: how to run a Roman province as a barbarian king."
+  },
+  {
+   "matchText": "the Code of Euric",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 6,
+   "blurb": "Euric's Code of Euric and Alaric II's Breviary were Gothic versions of the same transformation the wider Germanic world was undergoing. The Rhine-Elbe Germanic peoples had never used writing for law; the Goths, after two generations inside the empire, were publishing systematic Latin law codes for mixed populations. What the previous book described as a world that ran on spoken oath and assembly was, in its Gothic branch, becoming a world that ran on written Latin jurisprudence. The transformation was the measure of how deeply the Goths had absorbed Rome."
+  },
+  {
+   "matchText": "the Visigothic Kingdom of Toledo",
+   "targetTl": "al-andalus",
+   "targetChapter": 1,
+   "blurb": "The Visigothic Kingdom of Toledo that survived Vouille and retreated into Spain outlasted every other Gothic state by a century and a half. It eventually converted to Catholicism, built a sophisticated ecclesiastical and legal culture, and dominated the Iberian Peninsula until 711 — when an Umayyad-led army from North Africa crossed the strait and ended it in a campaign of startling speed. The Gothic story in Spain is the opening chapter of the story that Iberian book covers."
+  },
+  {
+   "matchText": "Arab and Berber army in 711",
+   "targetTl": "al-andalus",
+   "targetChapter": 1,
+   "blurb": "The Visigothic kingdom in the west endured until 711 — when the Umayyad conquest that opens al-Andalus erased it in a single campaign."
+  },
+  {
+   "matchText": "first enduring barbarian successor",
+   "targetTl": "early-medieval-europe",
+   "targetChapter": 1,
+   "blurb": "The Gothic kingdoms are the founding generation of post-Roman Europe — the Germanic successor states the medieval west grew from."
+  }
+ ],
+ "10": [
+  {
+   "matchText": "sent to Constantinople as a hostage",
+   "targetTl": "byzantine-empire",
+   "targetChapter": 2,
+   "blurb": "Theodoric the Great had been raised as a child hostage in Constantinople, the greatest Roman city still standing, and the eastern empire he had absorbed in his youth shaped his entire vision of Gothic-Roman governance. The dual state he built in Italy — Roman civil administration, Gothic military command, a king who restored aqueducts and sponsored philosophers — was a conscious echo of the eastern model. The irony is that the very empire that educated him eventually sent an army to destroy everything he built."
+  },
+  {
+   "matchText": "a Constantinople plot",
+   "targetTl": "byzantine-empire",
+   "targetChapter": 2,
+   "blurb": "Theodoric's brilliant Ostrogothic Italy was destroyed by Justinian's reconquest — Byzantium devouring the most Roman of the Germanic kingdoms."
+  }
+ ],
+ "11": [
+  {
+   "matchText": "Justinian",
+   "targetTl": "byzantine-empire",
+   "targetChapter": 4,
+   "blurb": "The Gothic War was Justinian's most ambitious and most destructive reconquest, the centerpiece of the renovatio imperii that defined his reign. From Constantinople's perspective it was the restoration of Roman rule in the West's heartland; from Italy's perspective it was a twenty-year catastrophe that killed more people and destroyed more wealth than any previous Gothic act. The eastern empire that Justinian ruled survived the Gothic War; the Italy he reconquered never fully recovered."
+  },
+  {
+   "matchText": "retaken Carthage",
+   "targetTl": "carthage",
+   "targetChapter": 8,
+   "blurb": "Before turning to Italy, Justinian's general Belisarius had reconquered North Africa from the Vandals and retaken Carthage in 533, the city that had once been Rome's greatest rival. That campaign was swift and decisive, finished in two years, and it gave Justinian confidence that Italy could be retaken as quickly. It could not. The Vandal kingdom fell in a single campaign season; the Ostrogothic kingdom fought for twenty years and came close to winning."
+  },
+  {
+   "matchText": "Lombards",
+   "targetTl": "migration-period",
+   "targetChapter": 7,
+   "blurb": "The Lombard invasion of Italy in 568 was the final chapter in the long cascade the Huns had set off in 375. From the Gothic crossing of the Danube to the Vandal crossing of the Rhine to the Lombard crossing of the Alps, each wave of migration was partly caused by the pressure of the one before it. The Ostrogoths, destroyed by Justinian, left a vacuum that the Lombards — many of whom had fought in Narses's army against the Goths — simply walked into. The Migration Period ended not with order restored but with a new set of barbarians in a depopulated Italy."
+  },
+  {
+   "matchText": "Roman Empire",
+   "targetTl": "ancient-rome",
+   "targetChapter": 10,
+   "blurb": "The empire Justinian dreamed of restoring was the one whose western half had already fallen — the Roman state that, after centuries as the Mediterranean's superpower, dissolved in the West in 476 when the last emperor was deposed. Justinian's reconquest of Italy was an attempt to reverse that fall and stitch the empire back together; it succeeded on paper and failed in fact."
+  },
+  {
+   "matchText": "Constantinople",
+   "targetTl": "byzantine-empire",
+   "targetChapter": 1,
+   "blurb": "Justinian ruled from Constantinople, the eastern capital that had outlived Rome itself. While the Roman West fell apart in the fifth century, the eastern empire run from this city survived intact, and it was from here that Justinian launched the wars to take the West back. The city would remain the seat of Roman power for another nine hundred years."
+  },
+  {
+   "matchText": "Persians",
+   "targetTl": "persian-empire",
+   "targetChapter": 9,
+   "blurb": "The reason Justinian could never pour enough men and money into Italy was that he was simultaneously fighting the Sassanid Persians on his eastern frontier — Rome's great rival empire, then in its golden age under kings like Khosrow I. A two-front war against both the Goths in the West and Persia in the East was beyond even Justinian's resources, and Italy paid the price in a war dragged out over twenty years."
+  },
+  {
+   "matchText": "Germanic",
+   "targetTl": "germanic-tribes",
+   "targetChapter": 10,
+   "blurb": "The Goths, Vandals, Franks, and Lombards were all Germanic peoples — the loose family of war-bands and confederations from beyond the Rhine and Danube that pressed on the Roman frontier for centuries and ultimately carved up the Roman West among themselves. The Gothic War was one act in that much larger story of Germanic peoples remaking the map of Europe."
+  },
+  {
+   "matchText": "Huns",
+   "targetTl": "xiongnu-huns",
+   "targetChapter": 6,
+   "blurb": "The whole cascade of barbarian migrations that ended the Roman West was set in motion by the Huns, the steppe horsemen whose westward drive in the late fourth century shoved the Goths across the Danube and into the empire. The Ostrogoths' destruction by Justinian was a distant late consequence of that first Hunnic shock."
+  }
+ ]
 }

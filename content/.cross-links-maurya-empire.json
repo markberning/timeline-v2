@@ -1,6 +1,18 @@
 {
   "1": [
     {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The Achaemenid Persian Empire that Alexander destroyed — the largest empire the world had yet seen, stretching from the Aegean to the Indus. It had ruled the Indus region as a satrapy for two centuries, and its administrative and architectural models directly shaped Maurya state-building."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "While Chandragupta was building the largest empire India had ever seen, Rome was still a republic confined to Italy, fighting the Samnite Wars and only beginning its expansion. India got its first great empire well before Rome became a Mediterranean power."
+    },
+    {
       "matchText": "Persian palaces",
       "targetTl": "persian-empire",
       "targetChapter": 2,
@@ -39,6 +51,12 @@
   ],
   "2": [
     {
+      "matchText": "Italian Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 4,
+      "blurb": "Machiavelli's The Prince (1513) is the work everyone reaches for when comparing the Arthashastra — the Florentine treatise that scandalized Europe by describing how rulers actually keep power rather than how moralists wished they would. Kautilya got there roughly 1,800 years earlier, and wrote an encyclopedia where Machiavelli wrote an essay."
+    },
+    {
       "matchText": "Persian Royal Road",
       "targetTl": "persian-empire",
       "targetChapter": 2,
@@ -63,6 +81,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "The Achaemenid Persians left detailed royal inscriptions like the Behistun text — a paragraph-by-paragraph account of Darius's conquests. The Maurya Empire before Ashoka left almost no textual record of its own activities, making it one of the least documented great empires of the ancient world."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Rome's Republic generated a vast historical literature — annalists, speeches, inscriptions, and later historians who mined them. The contrast with the near-silent Maurya record is stark: two contemporary great states, one obsessively self-documenting, the other leaving its conquests almost entirely to foreign and much-later accounts."
+    },
+    {
+      "matchText": "Ottoman sultans",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 4,
+      "blurb": "Where Ashoka's bloody accession was an improvised palace struggle, the Ottomans turned the same problem into policy: Mehmed II's law code of 1477 formally authorized a new sultan to execute his brothers to forestall succession wars — institutionalized fratricide as a tool of dynastic stability."
     }
   ],
   "4": [
@@ -95,6 +125,12 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "Megasthenes' Mauryan India and Achaemenid Persia were the two great administered empires the Greek world knew from the east."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "In Sargon's Akkad and the Mesopotamian city-states, royal inscriptions overwhelmingly boasted of conquest, plunder, and crushed rebellions — the standard grammar of ancient kingship that Ashoka's Rock Edict XIII deliberately inverts."
     }
   ],
   "5": [
@@ -115,6 +151,24 @@
       "targetTl": "gupta-empire",
       "targetChapter": 2,
       "blurb": "Ashoka's pillar-and-edict statecraft set the template later Indian empire-builders, above all the Guptas, would consciously invoke."
+    },
+    {
+      "matchText": "Indus script",
+      "targetTl": "indus-valley",
+      "targetChapter": 6,
+      "blurb": "The roughly 400 signs of the Indus script — carved on steatite seals across the Harappan world a thousand years before Ashoka — remain undeciphered to this day. That silence is why Ashoka's edicts count as the earliest readable corpus of Indian royal inscriptions: everything between Harappa and Ashoka is either lost or unreadable."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Rome's early Republic, roughly contemporary with Ashoka, ran crucifixion, public execution, and the decimation of mutinous units as routine instruments of state — and no Roman official publicly questioned the cruelty for centuries. Ashoka's Edict IV, voicing discomfort with the severity of his own penal system, has no Roman counterpart."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "The nearest Western analog to Ashoka's edicts is Augustus's Res Gestae, inscribed across the Roman Empire two centuries later — but where Ashoka publicly mourns the dead of Kalinga, Augustus's monument is pure self-celebration, a list of victories and honors with no hint of regret."
     }
   ],
   "6": [
@@ -129,6 +183,18 @@
       "targetTl": "vedic-period",
       "targetChapter": 6,
       "blurb": "Ashoka's dhamma was a deliberate move past the Vedic sacrificial order — ethics and welfare replacing ritual as the language of kingship."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "When Ashoka's missions reached for the Mediterranean in the 3rd century BCE, Rome was still a regional Italian republic. Only two centuries later, as the Roman Empire took shape, would Indian goods and ideas begin arriving in the Mediterranean in any quantity — Ashoka's ambition ran well ahead of the trade routes that would later carry it."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Taxila sat at the crossroads where Greek, Persian, and Indian ideas mixed. Persia here means the old Achaemenid world that had ruled the Indus as a satrapy for two centuries — its administrative and cultural models still shaped the northwest long after Alexander destroyed the empire itself."
     }
   ],
   "7": [
@@ -149,6 +215,24 @@
       "targetTl": "vedic-period",
       "targetChapter": 7,
       "blurb": "The Ashokan pillars stand against the older Vedic world the way the heterodox rebels (Buddha, Mahavira) had — a new moral order literally carved over the old."
+    },
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "The Achaemenid Persian Empire ruled a centuries-old tradition of monumental stone architecture at Persepolis — the formal, heraldic aesthetic that Maurya craftsmen seem to have borrowed for Ashoka's lion capitals and polished pillars."
+    },
+    {
+      "matchText": "Buddha",
+      "targetTl": "vedic-period",
+      "targetChapter": 7,
+      "blurb": "The wandering ascetic Siddhartha Gautama, who set the Wheel of Dharma in motion with his first sermon at Sarnath — the same site where Ashoka later raised the lion-capital pillar that became India's national emblem."
+    },
+    {
+      "matchText": "Mesopotamian",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Rawlinson and Hincks's decipherment of cuneiform in the 1840s-50s unlocked Mesopotamian history the way Prinsep's cracking of Brahmi unlocked the Maurya period — a lost script reopening a forgotten civilization's records."
     }
   ],
   "8": [
@@ -169,6 +253,36 @@
       "targetTl": "persian-empire",
       "targetChapter": 4,
       "blurb": "The Maurya collapse, like the long Achaemenid afternoon, was overreach and succession failure — the biggest empire the region had seen dissolving from the center out."
+    },
+    {
+      "matchText": "Han dynasty",
+      "targetTl": "han-dynasty",
+      "targetChapter": 8,
+      "blurb": "The Han dynasty in China followed the same arc: a vigorous founder, capable early emperors, then a long fade as court factions and regional power-holders hollowed out the center. Like the Maurya collapse, the end came not from a single foreign blow but from authority draining out of the capital."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 6,
+      "blurb": "Rome ran the same course on a longer clock: a sprawling empire held by a strong center that, once succession and provincial loyalty frayed, broke apart from the edges inward. The Maurya decline simply compressed the cycle into about fifty years."
+    },
+    {
+      "matchText": "Assyrian kings",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 4,
+      "blurb": "The Assyrian kings carved boastful reliefs of themselves flaying enemies and razing cities — royal inscription as a catalogue of conquest. Ashokas edicts broke with exactly this tradition: instead of celebrating slaughter, he recorded remorse for it."
+    },
+    {
+      "matchText": "Qin emperor",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 1,
+      "blurb": "Qin Shi Huang, Chinas first emperor, enforced power through Legalist terror — standardized law, harsh punishment, and monumental display, with no language of restraint. He is the polar opposite of the regret Ashoka chose to carve into stone."
+    },
+    {
+      "matchText": "Indus valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 6,
+      "blurb": "The lower Indus had been the seat of the subcontinents first great urban civilization two thousand years earlier. By the late Maurya period this same northwest corridor was the first territory to slip away, taken by the Indo-Greeks pressing down from Bactria."
     }
   ]
 }

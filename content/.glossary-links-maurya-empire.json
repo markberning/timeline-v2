@@ -1,6 +1,108 @@
 {
   "1": [
     {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Jain",
+      "matchText": "Jain",
+      "wikiSlug": "Jainism",
+      "type": "concept"
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jainism",
+      "wikiSlug": "Jainism",
+      "type": "concept"
+    },
+    {
+      "term": "Aristotle",
+      "matchText": "Aristotle",
+      "wikiSlug": "Aristotle",
+      "type": "people"
+    },
+    {
+      "term": "Marco Polo",
+      "matchText": "Marco Polo",
+      "wikiSlug": "Marco_Polo",
+      "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Balochistan",
+      "matchText": "Balochistan",
+      "wikiSlug": "Balochistan",
+      "type": "place"
+    },
+    {
+      "term": "Antigonus",
+      "matchText": "Antigonus",
+      "wikiSlug": "Antigonus_I_Monophthalmus",
+      "type": "people"
+    },
+    {
+      "term": "Ptolemaic kingdom",
+      "matchText": "Ptolemaic",
+      "wikiSlug": "Ptolemaic_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Royal Road",
+      "matchText": "Royal Road",
+      "wikiSlug": "Royal_Road",
+      "type": "place"
+    },
+    {
+      "term": "Sardis",
+      "matchText": "Sardis",
+      "wikiSlug": "Sardis",
+      "type": "place"
+    },
+    {
+      "term": "Mahajanapada",
+      "matchText": "Mahajanapada",
+      "wikiSlug": "Mahajanapadas",
+      "type": "concept"
+    },
+    {
+      "term": "Arabian Sea",
+      "matchText": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Damascus steel",
+      "matchText": "Damascus steel",
+      "wikiSlug": "Damascus_steel",
+      "type": "concept"
+    },
+    {
+      "term": "Ashoka",
+      "matchText": "Ashoka",
+      "wikiSlug": "Ashoka",
+      "type": "people"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "seric iron",
+      "matchText": "seric iron",
+      "definition": "The Roman name for high-grade steel imported from the East — literally \"iron of the Seres,\" the Seres being the Greco-Roman term for the silk-trading peoples of Asia, vaguely associated with China. The label was a misnomer: the steel actually came from India (Maurya-era and later wootz/crucible steel), but Roman writers were hazy about Asian geography and assumed anything exotic from the East was \"Chinese.\"",
+      "type": "concept"
+    },
+    {
       "term": "Magadha",
       "matchText": "Magadha",
       "wikiSlug": "Magadha",
@@ -216,6 +318,36 @@
       "term": "Arthashastra",
       "matchText": "Arthashastra",
       "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "Chanakya",
+      "matchText": "Chanakya",
+      "wikiSlug": "Chanakya",
+      "type": "people"
+    },
+    {
+      "term": "Chandragupta",
+      "matchText": "Chandragupta",
+      "wikiSlug": "Chandragupta_Maurya",
+      "type": "people"
+    },
+    {
+      "term": "Confucian",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Superintendent of Commerce",
+      "matchText": "Superintendent of Commerce",
+      "definition": "In the Arthashastra, the senior official (Sanskrit *panyadhyaksha*) responsible for regulating trade — setting fair prices, supervising markets and weights and measures, managing state-controlled goods, and collecting tolls and duties on merchandise moving through the empire.",
+      "type": "concept"
+    },
+    {
+      "term": "Superintendent of Mines",
+      "matchText": "Superintendent of Mines",
+      "definition": "In the Arthashastra, the official (Sanskrit *akaradhyaksha*) in charge of the state's mining monopoly — prospecting for ore, supervising extraction of metals and minerals, and overseeing the metallurgy that supplied the treasury and the state weapons workshops.",
       "type": "concept"
     },
     {
@@ -477,6 +609,120 @@
       "matchText": "Amitrochates",
       "wikiSlug": "Bindusara",
       "type": "people"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Alexander the Great",
+      "matchText": "Alexander",
+      "wikiSlug": "Alexander_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Afghanistan",
+      "matchText": "Afghanistan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayas",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Achaemenid Persians",
+      "matchText": "Achaemenid Persians",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Megasthenes",
+      "matchText": "Megasthenes",
+      "wikiSlug": "Megasthenes",
+      "type": "people"
+    },
+    {
+      "term": "Chanakya",
+      "matchText": "Chanakya",
+      "wikiSlug": "Chanakya",
+      "type": "people"
+    },
+    {
+      "term": "Chandragupta",
+      "matchText": "Chandragupta",
+      "wikiSlug": "Chandragupta_Maurya",
+      "type": "people"
+    },
+    {
+      "term": "Mahajanapada",
+      "matchText": "Mahajanapada",
+      "wikiSlug": "Mahajanapada",
+      "type": "concept"
+    },
+    {
+      "term": "Mahavira",
+      "matchText": "Mahavira",
+      "wikiSlug": "Mahavira",
+      "type": "people"
+    },
+    {
+      "term": "Brahmins",
+      "matchText": "Brahmins",
+      "wikiSlug": "Brahmin",
+      "type": "concept"
+    },
+    {
+      "term": "Taxila",
+      "matchText": "Taxila",
+      "wikiSlug": "Taxila",
+      "type": "place"
+    },
+    {
+      "term": "Seleucid Empire",
+      "matchText": "Seleucid court",
+      "wikiSlug": "Seleucid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Subhadrangi",
+      "matchText": "Subhadrangi",
+      "wikiSlug": "Subhadrangi",
+      "type": "people"
+    },
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "Gautama_Buddha",
+      "type": "people"
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jainism",
+      "wikiSlug": "Jainism",
+      "type": "concept"
     }
   ],
   "4": [
@@ -581,6 +827,72 @@
       "matchText": "Battle of Changping",
       "wikiSlug": "Battle_of_Changping",
       "type": "concept"
+    },
+    {
+      "term": "Deccan",
+      "matchText": "Deccan",
+      "wikiSlug": "Deccan_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayas",
+      "wikiSlug": "Himalayas",
+      "type": "place"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Hinduism",
+      "matchText": "Hinduism",
+      "wikiSlug": "Hinduism",
+      "type": "concept"
+    },
+    {
+      "term": "Burma",
+      "matchText": "Burma",
+      "wikiSlug": "Myanmar",
+      "type": "place"
+    },
+    {
+      "term": "Cambodia",
+      "matchText": "Cambodia",
+      "wikiSlug": "Cambodia",
+      "type": "place"
+    },
+    {
+      "term": "Java",
+      "matchText": "Java",
+      "wikiSlug": "Java",
+      "type": "place"
+    },
+    {
+      "term": "Romila Thapar",
+      "matchText": "Romila Thapar",
+      "wikiSlug": "Romila_Thapar",
+      "type": "people"
+    },
+    {
+      "term": "Chandragupta",
+      "matchText": "Chandragupta",
+      "wikiSlug": "Chandragupta_Maurya",
+      "type": "people"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Beloved of the Gods",
+      "matchText": "Beloved of the Gods",
+      "type": "concept",
+      "definition": "Ashoka's standard self-title in his inscriptions — Devanampriya in the original, literally \"Beloved of the Gods.\" It is the third-person voice in which the edicts speak of the emperor, a formal royal epithet rather than a personal name."
     }
   ],
   "5": [
@@ -702,6 +1014,180 @@
       "term": "Cyrus Cylinder",
       "matchText": "Cyrus Cylinder",
       "wikiSlug": "Cyrus_Cylinder",
+      "type": "concept"
+    },
+    {
+      "term": "Bay of Bengal",
+      "matchText": "Bay of Bengal",
+      "wikiSlug": "Bay_of_Bengal",
+      "type": "place"
+    },
+    {
+      "term": "Arabian Sea",
+      "matchText": "Arabian Sea",
+      "wikiSlug": "Arabian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Harappan",
+      "matchText": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Bengali",
+      "matchText": "Bengali",
+      "wikiSlug": "Bengali_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Tibetan",
+      "matchText": "Tibetan",
+      "wikiSlug": "Tibetan_script",
+      "type": "concept"
+    },
+    {
+      "term": "Javanese",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_script",
+      "type": "concept"
+    },
+    {
+      "term": "Achaemenid Empire",
+      "matchText": "Achaemenid Empire",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Gandhara",
+      "matchText": "Gandhara",
+      "wikiSlug": "Gandhara",
+      "type": "place"
+    },
+    {
+      "term": "Minor Rock Edicts",
+      "matchText": "Minor Rock Edicts",
+      "wikiSlug": "Edicts_of_Ashoka",
+      "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmins",
+      "matchText": "Brahmins",
+      "wikiSlug": "Brahmin",
+      "type": "concept"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "Chola",
+      "matchText": "Chola",
+      "wikiSlug": "Chola_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Pandya",
+      "matchText": "Pandya",
+      "wikiSlug": "Pandya_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Kalinga",
+      "matchText": "Kalinga",
+      "wikiSlug": "Kalinga_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "The_Buddha",
+      "type": "people"
+    },
+    {
+      "term": "Samudragupta",
+      "matchText": "Samudragupta",
+      "wikiSlug": "Samudragupta",
+      "type": "people"
+    },
+    {
+      "term": "Ajivikas",
+      "matchText": "Ajivikas",
+      "wikiSlug": "Ājīvika",
+      "type": "concept"
+    },
+    {
+      "term": "Public welfare",
+      "matchText": "Public welfare",
+      "definition": "Ashoka's edicts (II and VII) cataloging the state-funded amenities he ordered along the empire's roads: dug wells, planted shade trees and mango orchards, and rest houses for travelers — framed not as displays of imperial power but as acts of compassion.",
+      "type": "concept"
+    },
+    {
+      "term": "Moral officials",
+      "matchText": "Moral officials",
+      "definition": "The policy of Edict V, which created the Dhamma Mahamatras (\"Officers of Moral Conduct\") — a new class of officials charged not with taxes or troops but with promoting ethical behavior, mediating disputes, inspecting prisons, and looking after the welfare of women, the elderly, and the poor.",
+      "type": "concept"
+    },
+    {
+      "term": "Reduced punishment",
+      "matchText": "Reduced punishment",
+      "definition": "Edict IV, in which Ashoka grants condemned prisoners a three-day reprieve to prepare for death, voices concern about the fairness of trials, and orders his officials to apply punishments with moderation — a pointed softening of the harsh penal regime the Arthashastra had prescribed.",
+      "type": "concept"
+    },
+    {
+      "term": "Frontier diplomacy",
+      "matchText": "Frontier diplomacy",
+      "definition": "The claim in Edicts II and XIII that Ashoka provided medical aid — herbal medicines and hospital access — not only inside his empire but to neighboring kingdoms, from the Tamil south to the Hellenistic Mediterranean: a ruler asserting responsibility for the welfare of people beyond his own borders.",
+      "type": "concept"
+    },
+    {
+      "term": "Burmese alphabet",
+      "matchText": "Burmese",
+      "wikiSlug": "Burmese_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Thai script",
+      "matchText": "Thai",
+      "wikiSlug": "Thai_script",
       "type": "concept"
     }
   ],
@@ -933,6 +1419,132 @@
       "matchText": "Yona",
       "wikiSlug": "Yona",
       "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "Buddha",
+      "wikiSlug": "The_Buddha",
+      "type": "people"
+    },
+    {
+      "term": "Shramana",
+      "matchText": "Shramana",
+      "wikiSlug": "Śramaṇa",
+      "type": "concept"
+    },
+    {
+      "term": "Jainism",
+      "matchText": "Jainism",
+      "wikiSlug": "Jainism",
+      "type": "concept"
+    },
+    {
+      "term": "Pataliputra",
+      "matchText": "Pataliputra",
+      "wikiSlug": "Pataliputra",
+      "type": "place"
+    },
+    {
+      "term": "Ganges plain",
+      "matchText": "Ganges plain",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Deccan",
+      "matchText": "Deccan",
+      "wikiSlug": "Deccan_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Prakrit",
+      "matchText": "Prakrit",
+      "wikiSlug": "Prakrit",
+      "type": "concept"
+    },
+    {
+      "term": "Vedas",
+      "matchText": "Vedas",
+      "wikiSlug": "Vedas",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Seleucid Empire",
+      "matchText": "Seleucid Empire",
+      "wikiSlug": "Seleucid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Antiochus II Theos",
+      "matchText": "Antiochus",
+      "wikiSlug": "Antiochus_II_Theos",
+      "type": "people"
+    },
+    {
+      "term": "Ptolemy II Philadelphus",
+      "matchText": "Ptolemy",
+      "wikiSlug": "Ptolemy_II_Philadelphus",
+      "type": "people"
+    },
+    {
+      "term": "Antigonus II Gonatas",
+      "matchText": "Antigonus",
+      "wikiSlug": "Antigonus_II_Gonatas",
+      "type": "people"
+    },
+    {
+      "term": "Macedonia",
+      "matchText": "Macedonia",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Magas of Cyrene",
+      "matchText": "Magas",
+      "wikiSlug": "Magas_of_Cyrene",
+      "type": "people"
+    },
+    {
+      "term": "Cyrene",
+      "matchText": "Cyrene",
+      "wikiSlug": "Cyrene,_Libya",
+      "type": "place"
+    },
+    {
+      "term": "Alexander II of Epirus",
+      "matchText": "Alexander",
+      "wikiSlug": "Alexander_II_of_Epirus",
+      "type": "people"
+    },
+    {
+      "term": "Epirus",
+      "matchText": "Epirus",
+      "wikiSlug": "Epirus_(ancient_state)",
+      "type": "place"
+    },
+    {
+      "term": "Apollo",
+      "matchText": "Apollo",
+      "wikiSlug": "Apollo",
+      "type": "concept"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
     }
   ],
   "7": [
@@ -1091,6 +1703,48 @@
       "matchText": "New Delhi",
       "wikiSlug": "New_Delhi",
       "type": "place"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Achaemenid",
+      "matchText": "Achaemenid",
+      "wikiSlug": "Achaemenid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Persianate",
+      "matchText": "Persianate",
+      "wikiSlug": "Persianate_society",
+      "type": "concept"
+    },
+    {
+      "term": "Ganges",
+      "matchText": "Ganges",
+      "wikiSlug": "Ganges",
+      "type": "place"
+    },
+    {
+      "term": "Arthashastra",
+      "matchText": "Arthashastra",
+      "wikiSlug": "Arthashastra",
+      "type": "concept"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Himalayas",
+      "matchText": "Himalayan",
+      "wikiSlug": "Himalayas",
+      "type": "place"
     }
   ],
   "8": [
@@ -1207,6 +1861,126 @@
       "matchText": "Brahmi",
       "wikiSlug": "Brahmi_script",
       "type": "concept"
+    },
+    {
+      "term": "Seleucid Empire",
+      "matchText": "Seleucid Empire",
+      "wikiSlug": "Seleucid_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Punjab",
+      "matchText": "Punjab",
+      "wikiSlug": "Punjab",
+      "type": "place"
+    },
+    {
+      "term": "Deccan",
+      "matchText": "Deccan",
+      "wikiSlug": "Deccan_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Kautilya",
+      "matchText": "Kautilya",
+      "wikiSlug": "Chanakya",
+      "type": "people"
+    },
+    {
+      "term": "Mughals",
+      "matchText": "Mughals",
+      "wikiSlug": "Mughal_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "British Raj",
+      "matchText": "British Raj",
+      "wikiSlug": "British_Raj",
+      "type": "concept"
+    },
+    {
+      "term": "Sri Lanka",
+      "matchText": "Sri Lanka",
+      "wikiSlug": "Sri_Lanka",
+      "type": "place"
+    },
+    {
+      "term": "Buddhism",
+      "matchText": "Buddhism",
+      "wikiSlug": "Buddhism",
+      "type": "concept"
+    },
+    {
+      "term": "Buddha",
+      "matchText": "the Buddha",
+      "wikiSlug": "The_Buddha",
+      "type": "people"
+    },
+    {
+      "term": "Tamil",
+      "matchText": "Tamil",
+      "wikiSlug": "Tamil_script",
+      "type": "concept"
+    },
+    {
+      "term": "Bengali",
+      "matchText": "Bengali",
+      "wikiSlug": "Bengali_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Burmese",
+      "matchText": "Burmese",
+      "wikiSlug": "Burmese_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Thai",
+      "matchText": "Thai",
+      "wikiSlug": "Thai_script",
+      "type": "concept"
+    },
+    {
+      "term": "Tibetan",
+      "matchText": "Tibetan",
+      "wikiSlug": "Tibetan_script",
+      "type": "concept"
+    },
+    {
+      "term": "Phoenician alphabet",
+      "matchText": "Phoenician alphabet",
+      "wikiSlug": "Phoenician_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew",
+      "matchText": "Hebrew",
+      "wikiSlug": "Hebrew_alphabet",
+      "type": "concept"
+    },
+    {
+      "term": "Ajivikas",
+      "matchText": "Ajivikas",
+      "wikiSlug": "Ājīvika",
+      "type": "concept"
+    },
+    {
+      "term": "Brahmanical revival",
+      "matchText": "Brahmanical revival",
+      "type": "concept",
+      "definition": "A resurgence of Vedic-Brahmin religious authority — temple ritual, animal sacrifice, and the varna (caste) order administered by the priestly Brahmin class — after the Maurya period. Under the Shungas the state shifted patronage back toward this orthodoxy and away from Ashoka’s non-sectarian dhamma, though Buddhist institutions kept flourishing alongside it."
     }
   ]
 }

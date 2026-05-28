@@ -419,3 +419,7 @@ The book's main structural vice is a recurring opening pattern — three or four
 ---
 
 **Total findings: 4 STRONG, 8 CHECK, 3 SOFT**
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from the-goths outward. Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.
