@@ -155,6 +155,120 @@
       "matchText": "Remus",
       "wikiSlug": "Remus",
       "type": "people"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Ancient_Greece",
+      "type": "people"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Greek Dark Ages",
+      "matchText": "Dark Ages",
+      "wikiSlug": "Greek_Dark_Ages",
+      "type": "concept"
+    },
+    {
+      "term": "Archaic Greece",
+      "matchText": "Archaic",
+      "wikiSlug": "Archaic_Greece",
+      "type": "concept"
+    },
+    {
+      "term": "Sumerians",
+      "matchText": "Sumerians",
+      "wikiSlug": "Sumer",
+      "type": "people"
+    },
+    {
+      "term": "Ancient Egypt",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "people"
+    },
+    {
+      "term": "Homer",
+      "matchText": "Homer",
+      "wikiSlug": "Homer",
+      "type": "people"
+    },
+    {
+      "term": "Trojan War",
+      "matchText": "Trojan War",
+      "wikiSlug": "Trojan_War",
+      "type": "concept"
+    },
+    {
+      "term": "Mars",
+      "matchText": "the god Mars",
+      "wikiSlug": "Mars_(mythology)",
+      "type": "people"
+    },
+    {
+      "term": "Troy",
+      "matchText": "city of Troy",
+      "wikiSlug": "Troy",
+      "type": "place"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Roman Republic",
+      "matchText": "Republic",
+      "wikiSlug": "Roman_Republic",
+      "type": "concept"
+    },
+    {
+      "term": "Pope",
+      "matchText": "Pope",
+      "wikiSlug": "Pope",
+      "type": "concept"
+    },
+    {
+      "term": "Basque language",
+      "matchText": "Basque",
+      "wikiSlug": "Basque_language",
+      "type": "concept"
+    },
+    {
+      "term": "Lydia",
+      "matchText": "Lydia",
+      "wikiSlug": "Lydia",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Juno",
+      "matchText": "Juno",
+      "wikiSlug": "Juno_(mythology)",
+      "type": "people"
+    },
+    {
+      "term": "Hippias",
+      "matchText": "Hippias",
+      "wikiSlug": "Hippias_(son_of_Peisistratus)",
+      "type": "people"
+    },
+    {
+      "term": "Julius Caesar",
+      "matchText": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar",
+      "type": "people"
     }
   ],
   "2": [
@@ -276,6 +390,42 @@
       "term": "Latin cities",
       "matchText": "Latin",
       "wikiSlug": "Latins_(Italic_tribe)",
+      "type": "people"
+    },
+    {
+      "term": "Etruscans",
+      "matchText": "Etruscans",
+      "wikiSlug": "Etruscan_civilization",
+      "type": "people"
+    },
+    {
+      "term": "Forum",
+      "matchText": "Forum",
+      "wikiSlug": "Roman_Forum",
+      "type": "place"
+    },
+    {
+      "term": "Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Po Valley",
+      "matchText": "Po Valley",
+      "wikiSlug": "Po_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
+    },
+    {
+      "term": "Julius Caesar",
+      "matchText": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar",
       "type": "people"
     }
   ],
@@ -399,6 +549,60 @@
       "matchText": "Publius Cornelius Scipio",
       "wikiSlug": "Scipio_Africanus",
       "type": "people"
+    },
+    {
+      "term": "Punic Wars",
+      "matchText": "Punic Wars",
+      "wikiSlug": "Punic_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Semitic",
+      "matchText": "Semitic",
+      "definition": "Relating to a family of related Near Eastern languages and the peoples who spoke them, including the Phoenicians (and their Carthaginian descendants), Hebrews, Assyrians, Babylonians, and Arabs. The Phoenician language, and so Carthaginian, was Semitic; Latin was not, which is why the Punic Wars are framed here as a contest between a Semitic-Phoenician and a Latin-Roman Mediterranean.",
+      "type": "concept"
+    },
+    {
+      "term": "Strait of Messina",
+      "matchText": "Strait of Messina",
+      "wikiSlug": "Strait_of_Messina",
+      "type": "place"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Macedon",
+      "matchText": "Macedon",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Macedonia (ancient kingdom)",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
     }
   ],
   "4": [
@@ -527,6 +731,24 @@
       "matchText": "Capua",
       "wikiSlug": "Capua",
       "type": "place"
+    },
+    {
+      "term": "Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Cimbri",
+      "matchText": "Cimbri",
+      "wikiSlug": "Cimbri",
+      "type": "people"
+    },
+    {
+      "term": "Teutones",
+      "matchText": "Teutones",
+      "wikiSlug": "Teutons",
+      "type": "people"
     }
   ],
   "5": [
@@ -655,6 +877,36 @@
       "matchText": "English Channel",
       "wikiSlug": "English_Channel",
       "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Rostra",
+      "matchText": "Rostra",
+      "wikiSlug": "Rostra",
+      "type": "place"
+    },
+    {
+      "term": "Alps",
+      "matchText": "the Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "the Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Shakespeare",
+      "matchText": "Shakespeare",
+      "wikiSlug": "William_Shakespeare",
+      "type": "people"
     }
   ],
   "6": [
@@ -795,6 +1047,90 @@
       "matchText": "Pantheon",
       "wikiSlug": "Pantheon,_Rome",
       "type": "place"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Roman Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Aeneid",
+      "matchText": "Aeneid",
+      "wikiSlug": "Aeneid",
+      "type": "concept"
+    },
+    {
+      "term": "Troy",
+      "matchText": "Troy",
+      "wikiSlug": "Troy",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Portland cement",
+      "matchText": "Portland cement",
+      "wikiSlug": "Portland_cement",
+      "type": "concept"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Tiber",
+      "matchText": "Tiber",
+      "wikiSlug": "Tiber",
+      "type": "place"
+    },
+    {
+      "term": "Nile Valley",
+      "matchText": "Nile Valley",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Suetonius",
+      "matchText": "Suetonius",
+      "wikiSlug": "Suetonius",
+      "type": "people"
+    },
+    {
+      "term": "Agrippa",
+      "matchText": "Agrippa",
+      "wikiSlug": "Marcus_Vipsanius_Agrippa",
+      "type": "people"
+    },
+    {
+      "term": "Christians",
+      "matchText": "Christians",
+      "wikiSlug": "Christianity",
+      "type": "concept"
+    },
+    {
+      "term": "Acta est fabula, plaudite",
+      "matchText": "Acta est fabula",
+      "definition": "Augustus's reported last words, recorded by the biographer Suetonius: \"The play is over; applaud.\" It was a stock line actors spoke at the close of a Roman comedy, and Augustus used it to cast his own forty-one-year reign as a performance — the role of princeps he had played so convincingly that no one alive could remember the real Republic it had replaced.",
+      "type": "concept"
     }
   ],
   "7": [
@@ -983,6 +1319,90 @@
       "matchText": "Commodus",
       "wikiSlug": "Commodus",
       "type": "people"
+    },
+    {
+      "term": "Praetorian Guard",
+      "matchText": "Praetorian Guard",
+      "wikiSlug": "Praetorian_Guard",
+      "type": "concept"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Judaea",
+      "matchText": "Judaea",
+      "wikiSlug": "Judaea_(Roman_province)",
+      "type": "place"
+    },
+    {
+      "term": "Domus Aurea",
+      "matchText": "Domus Aurea",
+      "wikiSlug": "Domus_Aurea",
+      "type": "place"
+    },
+    {
+      "term": "Judaism",
+      "matchText": "Judaism",
+      "wikiSlug": "Judaism",
+      "type": "concept"
+    },
+    {
+      "term": "Torah",
+      "matchText": "Torah",
+      "wikiSlug": "Torah",
+      "type": "concept"
+    },
+    {
+      "term": "Forum",
+      "matchText": "Forum",
+      "wikiSlug": "Roman_Forum",
+      "type": "place"
+    },
+    {
+      "term": "Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Basilica",
+      "matchText": "Basilica",
+      "wikiSlug": "Basilica",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Ancient_Greece",
+      "type": "concept"
+    },
+    {
+      "term": "Annals",
+      "matchText": "Annals",
+      "wikiSlug": "Annals_(Tacitus)",
+      "type": "concept"
+    },
+    {
+      "term": "Histories",
+      "matchText": "Histories",
+      "wikiSlug": "Histories_(Tacitus)",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1117,6 +1537,66 @@
       "matchText": "Severus Alexander",
       "wikiSlug": "Severus_Alexander",
       "type": "people"
+    },
+    {
+      "term": "Five Good Emperors",
+      "matchText": "Five Good Emperors",
+      "wikiSlug": "Nerva%E2%80%93Antonine_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Parthia",
+      "matchText": "Parthian",
+      "wikiSlug": "Parthian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Caesar (title)",
+      "matchText": "Caesars",
+      "wikiSlug": "Caesar_(title)",
+      "type": "concept"
+    },
+    {
+      "term": "Forum",
+      "matchText": "Forum",
+      "wikiSlug": "Roman_Forum",
+      "type": "place"
+    },
+    {
+      "term": "Historia Augusta",
+      "matchText": "Historia Augusta",
+      "wikiSlug": "Historia_Augusta",
+      "type": "concept"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
     }
   ],
   "9": [
@@ -1257,6 +1737,90 @@
       "matchText": "Thessalonica",
       "wikiSlug": "Thessaloniki",
       "type": "place"
+    },
+    {
+      "term": "Diocletian",
+      "matchText": "Diocletian",
+      "wikiSlug": "Diocletian",
+      "type": "people"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Christianity",
+      "matchText": "Christians",
+      "wikiSlug": "Christianity",
+      "type": "concept"
+    },
+    {
+      "term": "Alexandria",
+      "matchText": "Alexandria",
+      "wikiSlug": "Alexandria",
+      "type": "place"
+    },
+    {
+      "term": "Antioch",
+      "matchText": "Antioch",
+      "wikiSlug": "Antioch",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Tiber",
+      "matchText": "Tiber",
+      "wikiSlug": "Tiber",
+      "type": "place"
+    },
+    {
+      "term": "Pontifex Maximus",
+      "matchText": "Pontifex Maximus",
+      "wikiSlug": "Pontifex_maximus",
+      "type": "concept"
+    },
+    {
+      "term": "Sea of Marmara",
+      "matchText": "Sea of Marmara",
+      "wikiSlug": "Sea_of_Marmara",
+      "type": "place"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Senate house",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Nicomedia",
+      "matchText": "Nicomedia",
+      "wikiSlug": "Nicomedia",
+      "type": "place"
+    },
+    {
+      "term": "Maximian",
+      "matchText": "Maximian",
+      "wikiSlug": "Maximian",
+      "type": "people"
     }
   ],
   "10": [
@@ -1378,6 +1942,132 @@
       "term": "European Union",
       "matchText": "European Union",
       "wikiSlug": "European_Union",
+      "type": "concept"
+    },
+    {
+      "term": "Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Bethlehem",
+      "matchText": "Bethlehem",
+      "wikiSlug": "Bethlehem",
+      "type": "place"
+    },
+    {
+      "term": "Augustine",
+      "matchText": "Augustine",
+      "wikiSlug": "Augustine_of_Hippo",
+      "type": "people"
+    },
+    {
+      "term": "City of God",
+      "matchText": "City of God",
+      "wikiSlug": "The_City_of_God",
+      "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Gothic",
+      "matchText": "Gothic",
+      "wikiSlug": "Goths",
+      "type": "people"
+    },
+    {
+      "term": "Tervingi",
+      "matchText": "Tervingi",
+      "wikiSlug": "Thervingi",
+      "type": "people"
+    },
+    {
+      "term": "Hunnic Empire",
+      "matchText": "Hunnic Empire",
+      "wikiSlug": "Huns",
+      "type": "concept"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Titus",
+      "matchText": "Titus",
+      "wikiSlug": "Titus",
+      "type": "people"
+    },
+    {
+      "term": "Decline and Fall",
+      "matchText": "Decline and Fall",
+      "wikiSlug": "The_History_of_the_Decline_and_Fall_of_the_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Caesar",
+      "matchText": "Caesar",
+      "wikiSlug": "Julius_Caesar",
+      "type": "people"
+    },
+    {
+      "term": "Pontifex Maximus",
+      "matchText": "Pontifex Maximus",
+      "wikiSlug": "Pontifex_maximus",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Sassanid Persians",
+      "matchText": "Sassanid Persians",
+      "wikiSlug": "Sasanian_Empire",
+      "type": "people"
+    },
+    {
+      "term": "Arian Christians",
+      "matchText": "Arian Christians",
+      "wikiSlug": "Arianism",
       "type": "concept"
     }
   ]

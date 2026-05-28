@@ -69,6 +69,18 @@
       "targetTl": "germanic-tribes",
       "targetChapter": 4,
       "blurb": "The federate system that turned barbarian war-bands into kingdoms had its roots in the centuries of Roman management of Germanic peoples along the Rhine and Danube — small defeated groups planted as farmer-soldiers in emptied frontier land. The 420s and 430s were the moment that long-running experiment escaped Roman control entirely."
+    },
+    {
+      "matchText": "the Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 3,
+      "blurb": "The Goths' own timeline tells the full story this chapter only gestures at: the years in the Balkans after Adrianople, the sack of Rome in 410, and the long migration through southern Gaul into Spain and back, ending in the 418 treaty that planted the Visigoths in Aquitaine as the West's first great barbarian kingdom-by-treaty."
+    },
+    {
+      "matchText": "the Huns",
+      "targetTl": "xiongnu-huns",
+      "targetChapter": 6,
+      "blurb": "The Huns who churned the eastern frontier and hired out as Aetius's cavalry trace back to the steppe world of the Xiongnu and their successors — the nomadic confederations of Central Asia whose pressure, transmitted westward across generations, set the whole migration in motion."
     }
   ],
   "4": [
@@ -89,6 +101,18 @@
       "targetTl": "the-goths",
       "targetChapter": 8,
       "blurb": "The Vandals' sack of Rome (455) is the companion catastrophe to the Gothic sack of 410 — the western empire bleeding out in installments."
+    },
+    {
+      "matchText": "Germanic land people",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "The Germanic peoples were warriors on land, not sailors — which is exactly what makes Geiseric's fleet so startling. The four centuries of Germanic life along Rome's frontier, the world of war-bands and cattle and infantry that the Vandals came out of, is the backdrop against which a Germanic Mediterranean sea power was a genuine first."
+    },
+    {
+      "matchText": "Vendel Age",
+      "targetTl": "vendel-scandinavia",
+      "targetChapter": 1,
+      "blurb": "Not until the Norse took to longships centuries later would a northern Germanic people again become a sea power — and that seafaring world was not built overnight. The Vendel Age is the long Scandinavian run-up that produced the ships, the warrior culture, and the maritime reach the Vikings would unleash."
     }
   ],
   "5": [
@@ -109,6 +133,36 @@
       "targetTl": "xiongnu-huns",
       "targetChapter": 7,
       "blurb": "Attila is the hinge of the whole period — the same campaigns the Hunnic narrative tells, here from the Roman-collapse side."
+    },
+    {
+      "matchText": "a large body of Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "The Goths were the largest body of subjects the Huns rolled into their confederation — the same people the Huns had shattered on the Pontic steppe two generations earlier, now fighting on both sides of Attila's wars. The Gothic story from the steppe through Adrianople and the sack of Rome runs parallel to everything in this chapter."
+    },
+    {
+      "matchText": "subject Germanic peoples",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 4,
+      "blurb": "Attila's army was mostly Germanic — the Gepids, Goths, and other peoples the Huns had absorbed over three generations. The long Germanic experience along Rome's frontier, the world of war-bands and federate service these peoples came out of, is what made them the bulk of a steppe empire's fighting strength."
+    },
+    {
+      "matchText": "Theodoric the Great",
+      "targetTl": "the-goths",
+      "targetChapter": 7,
+      "blurb": "Not to be confused with Theodoric I who died at the Catalaunian Plains: Theodoric the Great was the Ostrogothic king who, two generations later, ruled Italy from Ravenna as Rome's most Roman-looking successor. His reign is the high point of the Ostrogothic chapter of the Gothic story."
+    },
+    {
+      "matchText": "Ostrogoths and others",
+      "targetTl": "the-goths",
+      "targetChapter": 7,
+      "blurb": "The Ostrogoths who helped destroy the Hunnic army at Nedao in 454 were the eastern branch of the Goths, freed by Attila's death to build their own kingdom — first in Pannonia, then in Italy under Theodoric the Great. Their road from Hunnic subjects to rulers of Italy is the Ostrogothic arc of the Gothic narrative."
+    },
+    {
+      "matchText": "Roman Empire it had terrorized",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "The empire Attila extorted and invaded was already a thousand-year-old structure whose western half was hollowing out from within. The long Roman arc — from Republic to the federate system that gave the West away — is what makes the survival of the eastern half, and the disappearance of Attila's empire in a single year, so revealing a contrast."
     }
   ],
   "6": [
@@ -167,6 +221,24 @@
       "targetTl": "the-goths",
       "targetChapter": 9,
       "blurb": "The Visigothic and Ostrogothic kingdoms are the largest of these successors — the Gothic narrative's western chapters."
+    },
+    {
+      "matchText": "Ostrogoths",
+      "targetTl": "the-goths",
+      "targetChapter": 4,
+      "blurb": "The Ostrogoths and Visigoths are the two halves a single Gothic people split into — the eastern and western branches whose divergence the Gothic narrative traces. The Ostrogoths are the branch that would later seize Italy under Theodoric."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 1,
+      "blurb": "The Franks, Goths, Vandals, and Burgundians all belong to the wider world of Germanic-speaking peoples who lived along Rome's northern frontier for centuries before any of them ruled a kingdom — the subject the Germanic narrative opens with."
+    },
+    {
+      "matchText": "Ulfilas",
+      "targetTl": "the-goths",
+      "targetChapter": 5,
+      "blurb": "Ulfilas, the fourth-century Gothic missionary-bishop, converted the Goths to Arian Christianity and invented a Gothic alphabet to translate the Bible — the act that seeded the religious fault line dividing every later barbarian kingdom from its Roman subjects. The Gothic narrative gives him his own chapter."
     }
   ],
   "8": [
@@ -187,6 +259,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 2,
       "blurb": "The eastern reconquest is Justinian's bid to undo the migrations — Byzantium briefly clawing back Africa and Italy."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "The reason Justinian's western reconquest was such a gamble: the Eastern Empire was already locked into an expensive, grinding frontier war with Sasanian Persia on its eastern border. Persia was the East's permanent great-power rival, and fighting it and reconquering the West at the same time is exactly the overstretch that the climate disaster and plague of the 540s turned fatal."
     }
   ],
   "9": [
@@ -213,6 +291,12 @@
       "targetTl": "early-medieval-europe",
       "targetChapter": 2,
       "blurb": "The end of antiquity in the West — plague, contraction, the Lombards — is where the medieval world properly begins."
+    },
+    {
+      "matchText": "broke the Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "The Goths were the first crack in the wall: the steppe-driven people who fell into the empire in 376, built kingdoms in Italy and Spain, and gave the whole migration period its opening move. Their own long arc — from the Gothic homeland to the Ostrogothic and Visigothic kingdoms and their eventual disappearance — is its own telling."
     }
   ]
 }

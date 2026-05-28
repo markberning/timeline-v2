@@ -495,3 +495,7 @@ Persona A: A first-time reader with no specialized history knowledge.
 ---
 
 **Total findings: 7 STRONG, 15 CHECK, 5 SOFT**
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from migration-period outward. Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.

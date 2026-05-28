@@ -151,6 +151,144 @@
       "matchText": "Popocatépetl",
       "wikiSlug": "Popocat%C3%A9petl",
       "type": "place"
+    },
+    {
+      "term": "Western Hemisphere",
+      "matchText": "Western Hemisphere",
+      "wikiSlug": "Western_Hemisphere",
+      "type": "concept"
+    },
+    {
+      "term": "Iztaccíhuatl",
+      "matchText": "Iztaccíhuatl",
+      "wikiSlug": "Iztacc%C3%ADhuatl",
+      "type": "place"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
+    },
+    {
+      "term": "Franciscans",
+      "matchText": "Franciscan",
+      "wikiSlug": "Franciscans",
+      "type": "concept"
+    },
+    {
+      "term": "Hopi",
+      "matchText": "Hopi",
+      "wikiSlug": "Hopi",
+      "type": "people"
+    },
+    {
+      "term": "Comanche",
+      "matchText": "Comanche",
+      "wikiSlug": "Comanche",
+      "type": "people"
+    },
+    {
+      "term": "Shoshone",
+      "matchText": "Shoshone",
+      "wikiSlug": "Shoshone",
+      "type": "people"
+    },
+    {
+      "term": "Mayan languages",
+      "matchText": "Mayan",
+      "wikiSlug": "Mayan_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Oto-Manguean languages",
+      "matchText": "Oto-Manguean",
+      "wikiSlug": "Oto-Manguean_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Mixtec",
+      "matchText": "Mixtec",
+      "wikiSlug": "Mixtec",
+      "type": "people"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "concept"
+    },
+    {
+      "term": "Xochimilco",
+      "matchText": "Xochimilco",
+      "wikiSlug": "Xochimilco",
+      "type": "place"
+    },
+    {
+      "term": "Coyoacan",
+      "matchText": "Coyoacan",
+      "wikiSlug": "Coyoac%C3%A1n",
+      "type": "place"
+    },
+    {
+      "term": "Tlacopan",
+      "matchText": "Tlacopan",
+      "wikiSlug": "Tlacopan",
+      "type": "place"
+    },
+    {
+      "term": "Tepanec",
+      "matchText": "Tepanec",
+      "wikiSlug": "Tepanec",
+      "type": "people"
+    },
+    {
+      "term": "Yucatán Peninsula",
+      "matchText": "Yucatán",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Hundred Years' War",
+      "matchText": "Hundred Years' War",
+      "wikiSlug": "Hundred_Years%27_War",
+      "type": "event"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Mali Empire",
+      "matchText": "Mali Empire",
+      "wikiSlug": "Mali_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Mansa Musa",
+      "matchText": "Mansa Musa",
+      "wikiSlug": "Mansa_Musa",
+      "type": "people"
+    },
+    {
+      "term": "Mecca",
+      "matchText": "Mecca",
+      "wikiSlug": "Mecca",
+      "type": "place"
+    },
+    {
+      "term": "Andes",
+      "matchText": "Andes",
+      "wikiSlug": "Andes",
+      "type": "place"
     }
   ],
   "2": [
@@ -274,6 +412,54 @@
       "matchText": "Aztec Empire",
       "wikiSlug": "Aztec_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
+    },
+    {
+      "term": "Mexica",
+      "matchText": "Mexica",
+      "wikiSlug": "Mexica",
+      "type": "people"
+    },
+    {
+      "term": "Tlatelolco",
+      "matchText": "Tlatelolco",
+      "wikiSlug": "Tlatelolco_(altepetl)",
+      "type": "place"
+    },
+    {
+      "term": "Culhua",
+      "matchText": "Culhua",
+      "wikiSlug": "Culhuacan_(altepetl)",
+      "type": "people"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltec",
+      "wikiSlug": "Toltec",
+      "type": "people"
+    },
+    {
+      "term": "Templo Mayor",
+      "matchText": "Templo Mayor",
+      "wikiSlug": "Templo_Mayor",
+      "type": "place"
+    },
+    {
+      "term": "Huitzilopochtli",
+      "matchText": "Huitzilopochtli",
+      "wikiSlug": "Huitzilopochtli",
+      "type": "religion"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
     }
   ],
   "3": [
@@ -397,6 +583,60 @@
       "wikiSlug": "",
       "type": "place",
       "definition": "A 10-mile stone dike thrown across Lake Texcoco after the 1449 flood, designed by the Texcocan king Nezahualcoyotl. It walled off the salty eastern water from the freshwater farming zone — the biggest engineering project in the pre-Columbian Americas."
+    },
+    {
+      "term": "Mexica",
+      "matchText": "Mexica",
+      "wikiSlug": "Mexica",
+      "type": "people"
+    },
+    {
+      "term": "Nahuatl",
+      "matchText": "Nahuatl",
+      "wikiSlug": "Nahuatl",
+      "type": "concept"
+    },
+    {
+      "term": "Aztlan",
+      "matchText": "Aztlan",
+      "wikiSlug": "Aztlan",
+      "type": "place"
+    },
+    {
+      "term": "Teotihuacan",
+      "matchText": "Teotihuacan",
+      "wikiSlug": "Teotihuacan",
+      "type": "place"
+    },
+    {
+      "term": "Popocatépetl",
+      "matchText": "Popocatépetl",
+      "wikiSlug": "Popocat%C3%A9petl",
+      "type": "place"
+    },
+    {
+      "term": "Basin of Mexico",
+      "matchText": "Basin of Mexico",
+      "wikiSlug": "Valley_of_Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Texcoco",
+      "matchText": "Texcoco",
+      "wikiSlug": "Texcoco_(altepetl)",
+      "type": "place"
+    },
+    {
+      "term": "Motecuzoma II",
+      "matchText": "Motecuzoma II",
+      "wikiSlug": "Moctezuma_II",
+      "type": "people"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
     }
   ],
   "4": [
@@ -531,9 +771,189 @@
       "matchText": "calmecac",
       "wikiSlug": "Calmecac",
       "type": "concept"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "place"
+    },
+    {
+      "term": "Texcoco",
+      "matchText": "Texcoco",
+      "wikiSlug": "Texcoco_(altepetl)",
+      "type": "place"
+    },
+    {
+      "term": "Cholula",
+      "matchText": "Cholula",
+      "wikiSlug": "Cholula_(Mesoamerican_site)",
+      "type": "place"
+    },
+    {
+      "term": "Tlaxcala",
+      "matchText": "Tlaxcala",
+      "wikiSlug": "Tlaxcala_(Nahua_state)",
+      "type": "place"
+    },
+    {
+      "term": "Xochimilco",
+      "matchText": "Xochimilco",
+      "wikiSlug": "Xochimilco",
+      "type": "place"
+    },
+    {
+      "term": "Petén",
+      "matchText": "Petén",
+      "wikiSlug": "Petén_Basin",
+      "type": "place"
+    },
+    {
+      "term": "Lake Texcoco",
+      "matchText": "Lake Texcoco",
+      "wikiSlug": "Lake_Texcoco",
+      "type": "place"
+    },
+    {
+      "term": "Venice",
+      "matchText": "Venice",
+      "wikiSlug": "Venice",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Tlacopan",
+      "matchText": "Tlacopan",
+      "wikiSlug": "Tlacopan",
+      "type": "place"
+    },
+    {
+      "term": "Quetzalcoatl",
+      "matchText": "Quetzalcoatl",
+      "wikiSlug": "Quetzalcoatl",
+      "type": "religion"
+    },
+    {
+      "term": "Tezcatlipoca",
+      "matchText": "Tezcatlipoca",
+      "wikiSlug": "Tezcatlipoca",
+      "type": "religion"
+    },
+    {
+      "term": "Coatlicue",
+      "matchText": "Coatlicue",
+      "wikiSlug": "Coatlicue",
+      "type": "religion"
+    },
+    {
+      "term": "Huitzilopochtli",
+      "matchText": "Huitzilopochtli",
+      "wikiSlug": "Huitzilopochtli",
+      "type": "religion"
+    },
+    {
+      "term": "Tlaloc",
+      "matchText": "Tlaloc",
+      "wikiSlug": "Tlaloc",
+      "type": "religion"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Soconusco",
+      "matchText": "Soconusco",
+      "wikiSlug": "Xoconochco",
+      "type": "place"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hernán_Cortés",
+      "type": "people"
+    },
+    {
+      "term": "Nezahualcoyotl",
+      "matchText": "Nezahualcoyotl",
+      "wikiSlug": "Nezahualcoyotl_(tlatoani)",
+      "type": "people"
     }
   ],
   "5": [
+    {
+      "term": "Templo Mayor",
+      "matchText": "Templo Mayor",
+      "wikiSlug": "Templo_Mayor",
+      "type": "structures"
+    },
+    {
+      "term": "Mexica",
+      "matchText": "Mexica",
+      "wikiSlug": "Mexica",
+      "type": "cultures"
+    },
+    {
+      "term": "Florentine Codex",
+      "matchText": "Florentine Codex",
+      "wikiSlug": "Florentine_Codex",
+      "type": "artifacts"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "places"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "places"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltecs",
+      "wikiSlug": "Toltec",
+      "type": "cultures"
+    },
+    {
+      "term": "Tula",
+      "matchText": "Tula",
+      "wikiSlug": "Tula_(Mesoamerican_site)",
+      "type": "places"
+    },
+    {
+      "term": "National Museum of Anthropology",
+      "matchText": "National Museum of Anthropology",
+      "wikiSlug": "National_Museum_of_Anthropology_(Mexico)",
+      "type": "structures"
+    },
+    {
+      "term": "Mexico City",
+      "matchText": "Mexico City",
+      "wikiSlug": "Mexico_City",
+      "type": "places"
+    },
+    {
+      "term": "Moctezuma II",
+      "matchText": "Motecuzoma II",
+      "wikiSlug": "Moctezuma_II",
+      "type": "rulers"
+    },
+    {
+      "term": "Tenochtitlan",
+      "matchText": "Tenochtitlan",
+      "wikiSlug": "Tenochtitlan",
+      "type": "places"
+    },
     {
       "term": "Five Suns mythology",
       "matchText": "fifth age",
@@ -813,6 +1233,36 @@
       "matchText": "tlatoani",
       "wikiSlug": "Tlatoani",
       "type": "concept"
+    },
+    {
+      "term": "Mexica",
+      "matchText": "Mexica",
+      "wikiSlug": "Mexica",
+      "type": "people"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Yucatán",
+      "matchText": "Yucatán",
+      "wikiSlug": "Yucat%C3%A1n_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerican",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
     }
   ],
   "7": [
@@ -930,6 +1380,60 @@
       "matchText": "Michoacán",
       "wikiSlug": "Michoac%C3%A1n",
       "type": "place"
+    },
+    {
+      "term": "Tlatelolco",
+      "matchText": "Tlatelolco never recovered",
+      "wikiSlug": "Tlatelolco_(altepetl)",
+      "type": "place"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Zócalo",
+      "matchText": "Zócalo",
+      "wikiSlug": "Z%C3%B3calo",
+      "type": "place"
+    },
+    {
+      "term": "Oaxaca",
+      "matchText": "Oaxaca",
+      "wikiSlug": "Oaxaca_(state)",
+      "type": "place"
+    },
+    {
+      "term": "Flower War",
+      "matchText": "Flower War",
+      "wikiSlug": "Flower_war",
+      "type": "concept"
+    },
+    {
+      "term": "Tlaxcala",
+      "matchText": "Tlaxcala",
+      "wikiSlug": "Tlaxcala_(Nahua_state)",
+      "type": "place"
+    },
+    {
+      "term": "Florentine Codex",
+      "matchText": "Florentine Codex",
+      "wikiSlug": "Florentine_Codex",
+      "type": "concept"
+    },
+    {
+      "term": "Toltec",
+      "matchText": "Toltec",
+      "wikiSlug": "Toltec",
+      "type": "concept"
+    },
+    {
+      "term": "Hernán Cortés",
+      "matchText": "Cortés",
+      "wikiSlug": "Hern%C3%A1n_Cort%C3%A9s",
+      "type": "people"
     }
   ],
   "8": [
@@ -1064,6 +1568,174 @@
       "matchText": "Zócalo",
       "wikiSlug": "Z%C3%B3calo",
       "type": "place"
+    },
+    {
+      "term": "Cuba",
+      "matchText": "Cuba",
+      "wikiSlug": "Cuba",
+      "type": "place"
+    },
+    {
+      "term": "Diego Velázquez de Cuéllar",
+      "matchText": "Diego Velázquez",
+      "wikiSlug": "Diego_Vel%C3%A1zquez_(conquistador)",
+      "type": "people"
+    },
+    {
+      "term": "Popocatépetl",
+      "matchText": "Popocatépetl",
+      "wikiSlug": "Popocat%C3%A9petl",
+      "type": "place"
+    },
+    {
+      "term": "Tlaxcala",
+      "matchText": "Without Tlaxcala",
+      "wikiSlug": "Tlaxcala_(Nahua_state)",
+      "type": "place"
+    },
+    {
+      "term": "Mesoamerica",
+      "matchText": "deep as any in Mesoamerica",
+      "wikiSlug": "Mesoamerica",
+      "type": "place"
+    },
+    {
+      "term": "Coatzacoalcos",
+      "matchText": "Coatzacoalcos",
+      "wikiSlug": "Coatzacoalcos",
+      "type": "place"
+    },
+    {
+      "term": "Nahuatl",
+      "matchText": "native Nahuatl",
+      "wikiSlug": "Nahuatl",
+      "type": "concept"
+    },
+    {
+      "term": "Yucatán",
+      "matchText": "in the Yucatán years earlier",
+      "wikiSlug": "Yucat%C3%A1n",
+      "type": "place"
+    },
+    {
+      "term": "Iztapalapa",
+      "matchText": "king of Iztapalapa",
+      "wikiSlug": "Iztapalapa",
+      "type": "place"
+    },
+    {
+      "term": "Mexico",
+      "matchText": "central Mexico",
+      "wikiSlug": "Mexico",
+      "type": "place"
+    },
+    {
+      "term": "Tonatiuh",
+      "matchText": "Tonatiuh",
+      "wikiSlug": "T%C5%8Dnatiuh",
+      "type": "concept"
+    },
+    {
+      "term": "Tezcatlipoca",
+      "matchText": "festival of Tezcatlipoca",
+      "wikiSlug": "Tezcatlipoca",
+      "type": "concept"
+    },
+    {
+      "term": "Cuitláhuac",
+      "matchText": "Aztec forces under Cuitláhuac",
+      "wikiSlug": "Cuitl%C3%A1huac",
+      "type": "people"
+    },
+    {
+      "term": "Tlacopan",
+      "matchText": "the Tlacopan causeway",
+      "wikiSlug": "Tlacopan",
+      "type": "place"
+    },
+    {
+      "term": "Lake Texcoco",
+      "matchText": "control Lake Texcoco",
+      "wikiSlug": "Lake_Texcoco",
+      "type": "place"
+    },
+    {
+      "term": "Chapultepec",
+      "matchText": "the Chapultepec aqueduct",
+      "wikiSlug": "Chapultepec",
+      "type": "place"
+    },
+    {
+      "term": "Honduras",
+      "matchText": "expedition to Honduras",
+      "wikiSlug": "Honduras",
+      "type": "place"
+    },
+    {
+      "term": "Mexico City",
+      "matchText": "of Mexico City's",
+      "wikiSlug": "Mexico_City",
+      "type": "place"
+    },
+    {
+      "term": "Xochimilco",
+      "matchText": "form at Xochimilco",
+      "wikiSlug": "Xochimilco",
+      "type": "place"
+    },
+    {
+      "term": "Nezahualcoyotl",
+      "matchText": "Nezahualcoyotl's poems",
+      "wikiSlug": "Nezahualcoyotl_(tlatoani)",
+      "type": "people"
+    },
+    {
+      "term": "Black Death",
+      "matchText": "the Black Death in any",
+      "wikiSlug": "Black_Death",
+      "type": "event"
+    },
+    {
+      "term": "Babur",
+      "matchText": "Babur",
+      "wikiSlug": "Babur",
+      "type": "people"
+    },
+    {
+      "term": "First Battle of Panipat",
+      "matchText": "victory at Panipat",
+      "wikiSlug": "First_Battle_of_Panipat",
+      "type": "event"
+    },
+    {
+      "term": "Tlatelolco",
+      "matchText": "Santa Cruz de Tlatelolco",
+      "wikiSlug": "Tlatelolco_(altepetl)",
+      "type": "place"
+    },
+    {
+      "term": "Codex Mendoza",
+      "matchText": "the Codex Mendoza",
+      "wikiSlug": "Codex_Mendoza",
+      "type": "concept"
+    },
+    {
+      "term": "Pyramid of the Sun",
+      "matchText": "the Pyramid of the Sun",
+      "wikiSlug": "Pyramid_of_the_Sun",
+      "type": "place"
+    },
+    {
+      "term": "Hernando de Soto",
+      "matchText": "Hernando de Soto",
+      "wikiSlug": "Hernando_de_Soto",
+      "type": "people"
+    },
+    {
+      "term": "World Heritage Site",
+      "matchText": "UNESCO World Heritage Site",
+      "wikiSlug": "World_Heritage_Site",
+      "type": "concept"
     }
   ]
 }

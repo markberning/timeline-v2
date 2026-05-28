@@ -1,101 +1,372 @@
 {
   "1": [
-    {"eventId":"evt-mp-huns-europe","matchText":"Huns"},
-    {"eventId":"evt-mp-hunnic-society","matchText":"horse and the bow"},
-    {"eventId":"evt-mp-gothic-refugees","matchText":"ran for the Danube"},
-    {"eventId":"evt-mp-pontic-steppe-goths","matchText":"hit the easternmost Gothic"},
-    {"eventId":"evt-mp-adrianople","matchText":"entire Eastern field army"},
-    {"eventId":"evt-mp-theodosius-foedus","matchText":"inside the Balkans in 382"}
+    {
+      "eventId": "evt-mp-huns-europe",
+      "matchText": "Huns"
+    },
+    {
+      "eventId": "evt-mp-hunnic-society",
+      "matchText": "horse and the bow"
+    },
+    {
+      "eventId": "evt-mp-gothic-refugees",
+      "matchText": "ran for the Danube"
+    },
+    {
+      "eventId": "evt-mp-pontic-steppe-goths",
+      "matchText": "hit the easternmost Gothic"
+    },
+    {
+      "eventId": "evt-mp-adrianople",
+      "matchText": "entire Eastern field army"
+    },
+    {
+      "eventId": "evt-mp-theodosius-foedus",
+      "matchText": "inside the Balkans in 382"
+    },
+    {
+      "eventId": "evt-mp-carthage-taken",
+      "matchText": "the Vandals"
+    },
+    {
+      "eventId": "evt-mp-clovis-rises",
+      "matchText": "the Franks"
+    }
   ],
   "2": [
-    {"eventId":"evt-mp-radagaisus","matchText":"drove deep toward Florence"},
-    {"eventId":"evt-mp-vandals-gaul","matchText":"poured across the frozen river"},
-    {"eventId":"evt-mp-constantine-iii","matchText":"Constantine III"},
-    {"eventId":"evt-mp-britain-abandoned","matchText":"Roman government in Britain stopped"},
-    {"eventId":"evt-mp-stilicho","matchText":"Stilicho"},
-    {"eventId":"evt-mp-rhine-crossing","matchText":"Crossing of the Rhine"}
+    {
+      "eventId": "evt-mp-radagaisus",
+      "matchText": "drove deep toward Florence"
+    },
+    {
+      "eventId": "evt-mp-vandals-gaul",
+      "matchText": "poured across the frozen river"
+    },
+    {
+      "eventId": "evt-mp-constantine-iii",
+      "matchText": "Constantine III"
+    },
+    {
+      "eventId": "evt-mp-britain-abandoned",
+      "matchText": "Roman government in Britain stopped"
+    },
+    {
+      "eventId": "evt-mp-stilicho",
+      "matchText": "Stilicho"
+    },
+    {
+      "eventId": "evt-mp-rhine-crossing",
+      "matchText": "Crossing of the Rhine"
+    }
   ],
   "3": [
-    {"eventId":"evt-mp-federate-system","matchText":"mechanism of Western politics"},
-    {"eventId":"evt-mp-burgundians","matchText":"Burgundian kingdom on the Rhine"},
-    {"eventId":"evt-mp-visigoths-aquitaine","matchText":"by formal Roman treaty"},
-    {"eventId":"evt-mp-alans-dispersed","matchText":"gave up independent existence"},
-    {"eventId":"evt-mp-suebi-gallaecia","matchText":"settled the far northwest corner"},
-    {"eventId":"evt-mp-vandals-hispania","matchText":"were still loose in Spain"}
+    {
+      "eventId": "evt-mp-federate-system",
+      "matchText": "mechanism of Western politics"
+    },
+    {
+      "eventId": "evt-mp-burgundians",
+      "matchText": "Burgundian kingdom on the Rhine"
+    },
+    {
+      "eventId": "evt-mp-visigoths-aquitaine",
+      "matchText": "by formal Roman treaty"
+    },
+    {
+      "eventId": "evt-mp-alans-dispersed",
+      "matchText": "gave up independent existence"
+    },
+    {
+      "eventId": "evt-mp-suebi-gallaecia",
+      "matchText": "settled the far northwest corner"
+    },
+    {
+      "eventId": "evt-mp-vandals-hispania",
+      "matchText": "were still loose in Spain"
+    }
   ],
   "4": [
-    {"eventId":"evt-mp-geiseric-africa","matchText":"Vandal-Alan people"},
-    {"eventId":"evt-mp-vandal-hippo","matchText":"besieged the great port city"},
-    {"eventId":"evt-mp-carthage-taken","matchText":"took the city in 439"},
-    {"eventId":"evt-mp-vandal-fleet","matchText":"supreme naval power"},
-    {"eventId":"evt-mp-vandal-grain-trade","matchText":"switch on Rome's food supply"},
-    {"eventId":"evt-mp-sack-455","matchText":"mouth of the Tiber"},
-    {"eventId":"evt-mp-annona-collapse","matchText":"African grain artery"}
+    {
+      "eventId": "evt-mp-geiseric-africa",
+      "matchText": "Vandal-Alan people"
+    },
+    {
+      "eventId": "evt-mp-vandal-hippo",
+      "matchText": "besieged the great port city"
+    },
+    {
+      "eventId": "evt-mp-carthage-taken",
+      "matchText": "took the city in 439"
+    },
+    {
+      "eventId": "evt-mp-vandal-fleet",
+      "matchText": "supreme naval power"
+    },
+    {
+      "eventId": "evt-mp-vandal-grain-trade",
+      "matchText": "switch on Rome's food supply"
+    },
+    {
+      "eventId": "evt-mp-sack-455",
+      "matchText": "mouth of the Tiber"
+    },
+    {
+      "eventId": "evt-mp-annona-collapse",
+      "matchText": "African grain artery"
+    }
   ],
   "5": [
-    {"eventId":"evt-mp-attila-rises","matchText":"joint kings of the Huns"},
-    {"eventId":"evt-mp-bleda-killed","matchText":"murdered Bleda and ruled alone"},
-    {"eventId":"evt-mp-eastern-tribute","matchText":"forcing the wealthy Eastern capital"},
-    {"eventId":"evt-mp-hunnic-court","matchText":"timber-built complex of halls"},
-    {"eventId":"evt-mp-priscus-embassy","matchText":"Priscus"},
-    {"eventId":"evt-mp-attila-gaul","matchText":"cities of the Rhine"},
-    {"eventId":"evt-mp-catalaunian","matchText":"Battle of the Catalaunian Plains"},
-    {"eventId":"evt-mp-theodoric-i-dies","matchText":"trampled or struck down"},
-    {"eventId":"evt-mp-attila-italy","matchText":"this time straight into Italy"},
-    {"eventId":"evt-mp-pope-leo-attila","matchText":"did withdraw shortly after"},
-    {"eventId":"evt-mp-attila-death","matchText":"the night after a feast"},
-    {"eventId":"evt-mp-nedao","matchText":"Battle of Nedao"}
+    {
+      "eventId": "evt-mp-attila-rises",
+      "matchText": "joint kings of the Huns"
+    },
+    {
+      "eventId": "evt-mp-bleda-killed",
+      "matchText": "murdered Bleda and ruled alone"
+    },
+    {
+      "eventId": "evt-mp-eastern-tribute",
+      "matchText": "forcing the wealthy Eastern capital"
+    },
+    {
+      "eventId": "evt-mp-hunnic-court",
+      "matchText": "timber-built complex of halls"
+    },
+    {
+      "eventId": "evt-mp-priscus-embassy",
+      "matchText": "Priscus"
+    },
+    {
+      "eventId": "evt-mp-attila-gaul",
+      "matchText": "cities of the Rhine"
+    },
+    {
+      "eventId": "evt-mp-catalaunian",
+      "matchText": "Battle of the Catalaunian Plains"
+    },
+    {
+      "eventId": "evt-mp-theodoric-i-dies",
+      "matchText": "trampled or struck down"
+    },
+    {
+      "eventId": "evt-mp-attila-italy",
+      "matchText": "this time straight into Italy"
+    },
+    {
+      "eventId": "evt-mp-pope-leo-attila",
+      "matchText": "did withdraw shortly after"
+    },
+    {
+      "eventId": "evt-mp-attila-death",
+      "matchText": "the night after a feast"
+    },
+    {
+      "eventId": "evt-mp-nedao",
+      "matchText": "Battle of Nedao"
+    },
+    {
+      "eventId": "evt-mp-vandal-fleet",
+      "matchText": "Vandals loose"
+    },
+    {
+      "eventId": "evt-mp-goths-split",
+      "matchText": "the Visigoths"
+    },
+    {
+      "eventId": "evt-mp-clovis-rises",
+      "matchText": "Franks"
+    }
   ],
   "6": [
-    {"eventId":"evt-mp-aetius","matchText":"Aetius"},
-    {"eventId":"evt-mp-valentinian-murdered","matchText":"Valentinian was himself assassinated"},
-    {"eventId":"evt-mp-shadow-emperors","matchText":"nine emperors in twenty-one years"},
-    {"eventId":"evt-mp-ricimer","matchText":"installing pliable emperors"},
-    {"eventId":"evt-mp-majorian","matchText":"Majorian"},
-    {"eventId":"evt-mp-soissons","matchText":"Domain of Soissons"},
-    {"eventId":"evt-mp-romulus-augustulus","matchText":"removed the last Western emperor"},
-    {"eventId":"evt-mp-odoacer","matchText":"Eastern emperor's man"},
-    {"eventId":"evt-mp-nepos-exile","matchText":"Julius Nepos"}
+    {
+      "eventId": "evt-mp-aetius",
+      "matchText": "Aetius"
+    },
+    {
+      "eventId": "evt-mp-valentinian-murdered",
+      "matchText": "Valentinian was himself assassinated"
+    },
+    {
+      "eventId": "evt-mp-shadow-emperors",
+      "matchText": "nine emperors in twenty-one years"
+    },
+    {
+      "eventId": "evt-mp-ricimer",
+      "matchText": "installing pliable emperors"
+    },
+    {
+      "eventId": "evt-mp-majorian",
+      "matchText": "Majorian"
+    },
+    {
+      "eventId": "evt-mp-soissons",
+      "matchText": "Domain of Soissons"
+    },
+    {
+      "eventId": "evt-mp-romulus-augustulus",
+      "matchText": "removed the last Western emperor"
+    },
+    {
+      "eventId": "evt-mp-odoacer",
+      "matchText": "Eastern emperor's man"
+    },
+    {
+      "eventId": "evt-mp-nepos-exile",
+      "matchText": "Julius Nepos"
+    }
   ],
   "7": [
-    {"eventId":"evt-mp-clovis-rises","matchText":"welded a durable nation"},
-    {"eventId":"evt-mp-soissons-battle","matchText":"last Roman holdout in Gaul"},
-    {"eventId":"evt-mp-clovis-baptism","matchText":"same religion as the Roman"},
-    {"eventId":"evt-mp-clovis-church-alliance","matchText":"Frankish crown's strongest ally"},
-    {"eventId":"evt-mp-vouille","matchText":"Clovis destroyed the Visigothic army"},
-    {"eventId":"evt-mp-lex-salica","matchText":"had Frankish customary law codified"},
-    {"eventId":"evt-mp-breviary-alaric","matchText":"preserving Roman jurisprudence"},
-    {"eventId":"evt-mp-gundobad-law","matchText":"issued separate codes for"},
-    {"eventId":"evt-mp-theodoric-ostrogoths","matchText":"to deal with Odoacer"},
-    {"eventId":"evt-mp-theodoric-overlord","matchText":"Theodoric then ruled Italy"},
-    {"eventId":"evt-mp-boethius","matchText":"imprisoned and executed on suspicion"},
-    {"eventId":"evt-mp-arian-controversy","matchText":"fault line running under its foundations"},
-    {"eventId":"evt-mp-visigothic-conversion","matchText":"vindicating Clovis's logic"}
+    {
+      "eventId": "evt-mp-clovis-rises",
+      "matchText": "welded a durable nation"
+    },
+    {
+      "eventId": "evt-mp-soissons-battle",
+      "matchText": "last Roman holdout in Gaul"
+    },
+    {
+      "eventId": "evt-mp-clovis-baptism",
+      "matchText": "same religion as the Roman"
+    },
+    {
+      "eventId": "evt-mp-clovis-church-alliance",
+      "matchText": "Frankish crown's strongest ally"
+    },
+    {
+      "eventId": "evt-mp-vouille",
+      "matchText": "Clovis destroyed the Visigothic army"
+    },
+    {
+      "eventId": "evt-mp-lex-salica",
+      "matchText": "had Frankish customary law codified"
+    },
+    {
+      "eventId": "evt-mp-breviary-alaric",
+      "matchText": "preserving Roman jurisprudence"
+    },
+    {
+      "eventId": "evt-mp-gundobad-law",
+      "matchText": "issued separate codes for"
+    },
+    {
+      "eventId": "evt-mp-theodoric-ostrogoths",
+      "matchText": "to deal with Odoacer"
+    },
+    {
+      "eventId": "evt-mp-theodoric-overlord",
+      "matchText": "Theodoric then ruled Italy"
+    },
+    {
+      "eventId": "evt-mp-boethius",
+      "matchText": "imprisoned and executed on suspicion"
+    },
+    {
+      "eventId": "evt-mp-arian-controversy",
+      "matchText": "fault line running under its foundations"
+    },
+    {
+      "eventId": "evt-mp-visigothic-conversion",
+      "matchText": "vindicating Clovis's logic"
+    }
   ],
   "8": [
-    {"eventId":"evt-mp-justinian-ambition","matchText":"old western boundaries"},
-    {"eventId":"evt-mp-vandal-war-533","matchText":"collapsed in a matter of months"},
-    {"eventId":"evt-mp-belisarius-north-africa","matchText":"landed in North Africa"},
-    {"eventId":"evt-mp-vandal-kingdom-end","matchText":"walk in a Roman triumph"},
-    {"eventId":"evt-mp-gothic-war-italy","matchText":"the wheels came off"},
-    {"eventId":"evt-mp-belisarius-rome","matchText":"cut the aqueducts"},
-    {"eventId":"evt-mp-narses-gothic-war","matchText":"elderly court eunuch turned general"},
-    {"eventId":"evt-mp-pragmatic-sanction","matchText":"re-established Roman law"},
-    {"eventId":"evt-mp-nika-riots","matchText":"The Nika Riots"},
-    {"eventId":"evt-mp-theodora","matchText":"Theodora"},
-    {"eventId":"evt-mp-hagia-sophia","matchText":"the great domed church"},
-    {"eventId":"evt-mp-cost-of-italy","matchText":"populations starved to death"}
+    {
+      "eventId": "evt-mp-justinian-ambition",
+      "matchText": "old western boundaries"
+    },
+    {
+      "eventId": "evt-mp-vandal-war-533",
+      "matchText": "collapsed in a matter of months"
+    },
+    {
+      "eventId": "evt-mp-belisarius-north-africa",
+      "matchText": "landed in North Africa"
+    },
+    {
+      "eventId": "evt-mp-vandal-kingdom-end",
+      "matchText": "walk in a Roman triumph"
+    },
+    {
+      "eventId": "evt-mp-gothic-war-italy",
+      "matchText": "the wheels came off"
+    },
+    {
+      "eventId": "evt-mp-belisarius-rome",
+      "matchText": "cut the aqueducts"
+    },
+    {
+      "eventId": "evt-mp-narses-gothic-war",
+      "matchText": "elderly court eunuch turned general"
+    },
+    {
+      "eventId": "evt-mp-pragmatic-sanction",
+      "matchText": "re-established Roman law"
+    },
+    {
+      "eventId": "evt-mp-nika-riots",
+      "matchText": "The Nika Riots"
+    },
+    {
+      "eventId": "evt-mp-theodora",
+      "matchText": "Theodora"
+    },
+    {
+      "eventId": "evt-mp-hagia-sophia",
+      "matchText": "the great domed church"
+    },
+    {
+      "eventId": "evt-mp-cost-of-italy",
+      "matchText": "populations starved to death"
+    }
   ],
   "9": [
-    {"eventId":"evt-mp-dust-veil-536","matchText":"frosts came in summer"},
-    {"eventId":"evt-mp-536-dendro","matchText":"massive spikes of volcanic sulfate"},
-    {"eventId":"evt-mp-plague-justinian","matchText":"plague broke out in Egypt"},
-    {"eventId":"evt-mp-plague-spread","matchText":"reached Constantinople in 542"},
-    {"eventId":"evt-mp-lombards-italy","matchText":"walked into it almost unopposed"},
-    {"eventId":"evt-mp-alboin","matchText":"Alboin led the entire Lombard"},
-    {"eventId":"evt-mp-lombard-pavia","matchText":"made Pavia their capital"},
-    {"eventId":"evt-mp-lombard-pannonia","matchText":"settled in Pannonia"},
-    {"eventId":"evt-mp-post-roman-west","matchText":"permanent patchwork of Lombard duchies"},
-    {"eventId":"evt-mp-church-as-continuity","matchText":"organized the grain supply"}
+    {
+      "eventId": "evt-mp-dust-veil-536",
+      "matchText": "frosts came in summer"
+    },
+    {
+      "eventId": "evt-mp-536-dendro",
+      "matchText": "massive spikes of volcanic sulfate"
+    },
+    {
+      "eventId": "evt-mp-plague-justinian",
+      "matchText": "plague broke out in Egypt"
+    },
+    {
+      "eventId": "evt-mp-plague-spread",
+      "matchText": "reached Constantinople in 542"
+    },
+    {
+      "eventId": "evt-mp-lombards-italy",
+      "matchText": "walked into it almost unopposed"
+    },
+    {
+      "eventId": "evt-mp-alboin",
+      "matchText": "Alboin led the entire Lombard"
+    },
+    {
+      "eventId": "evt-mp-lombard-pavia",
+      "matchText": "made Pavia their capital"
+    },
+    {
+      "eventId": "evt-mp-lombard-pannonia",
+      "matchText": "settled in Pannonia"
+    },
+    {
+      "eventId": "evt-mp-post-roman-west",
+      "matchText": "permanent patchwork of Lombard duchies"
+    },
+    {
+      "eventId": "evt-mp-church-as-continuity",
+      "matchText": "organized the grain supply"
+    },
+    {
+      "eventId": "evt-mp-narses-gothic-war",
+      "matchText": "Narses"
+    },
+    {
+      "eventId": "evt-mp-gothic-war-italy",
+      "matchText": "Gothic War"
+    }
   ]
 }

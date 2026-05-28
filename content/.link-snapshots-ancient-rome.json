@@ -172,7 +172,7 @@
     },
     "Tiberius": {
       "title": "Tiberius",
-      "lead": "Tiberius Julius Caesar Augustus ( ty-BEER-ee-əs; 16 November 42 BC – 16 March AD 37) was Roman emperor from AD 14 until 37. He succeeded his stepfather Augustus, the first Roman emperor. Tiberius was born in Rome in 42 BC to politician Tibe",
+      "lead": "Tiberius Julius Caesar Augustus ( ty-BEER-ee-əs; 16 November 42 BC – 16 March AD 37) was Roman emperor from AD 14 until his death, reigning as the second ruler of the Julio-Claudian dynasty. He succeeded his stepfather Augustus, the first R",
       "image": "8095_-_Roma_-_Ara_Pacis_-_Tiberio_-_Foto_Giovanni_Dall'Orto_-_28-Mar-2008.jpg"
     },
     "Caligula": {
@@ -182,7 +182,7 @@
     },
     "Roman_conquest_of_Britain": {
       "title": "Roman conquest of Britain",
-      "lead": "The Roman conquest of Britain was the Roman Empire's conquest of most of the island of Britain, which was inhabited by the Celtic Britons. It began in earnest in AD 43 under Emperor Claudius, and was largely completed in the southern half o",
+      "lead": "The Roman Empire conquered most of the island of Britain, which was inhabited by the Celtic Britons. It began in earnest in AD 43 under Emperor Claudius, and was largely completed in the southern half of Britain (most of what is now called ",
       "image": "Roman.Britain.campaigns.43.to.84.jpg"
     },
     "Nero": {
@@ -332,7 +332,7 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was a historical city located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopolis in Bithynia, Anatolia (Asia Minor) to th",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
     },
     "Julian_(emperor)": {
@@ -507,6 +507,11 @@
     }
   },
   "glossary": {
+    "Roman_Republic": {
+      "title": "Roman Republic",
+      "lead": "The Roman Republic (Latin: Res publica Romana, pronounced [ˈreːs ˈpuːblɪka roːˈmaːna]) was the era of classical Roman civilisation beginning with the overthrow of the Roman Kingdom (traditionally dated to 509 BC) and ending in 27 BC with th",
+      "image": "Roman_republic,_territory_44_BC.svg"
+    },
     "Scipio_Africanus": {
       "title": "Scipio Africanus",
       "lead": "Publius Cornelius Scipio Africanus (, Latin: [ˈskiːpioː]; 236/235–c. 183 BC) was a Roman general and statesman who was one of the main architects of Rome's victory against Carthage in the Second Punic War. Often regarded as one of the great",
@@ -516,6 +521,11 @@
       "title": "Sulla",
       "lead": "Lucius Cornelius Sulla Felix (, Latin pronunciation: [ˈɫuːkius kɔrˈneːlius ˈsulːa ˈfeːliːks]; 138–78 BC), commonly known as Sulla, was a Roman general and statesman of the late Roman Republic. He came to prominence for his military exploits",
       "image": "Q._Pompeius_Rufus,_denarius,_54_BC,_RRC_434-1_(Sulla_only).jpg"
+    },
+    "Julius_Caesar": {
+      "title": "Julius Caesar",
+      "lead": "Gaius Julius Caesar (12 or 13 July 100 BC – 15 March 44 BC) was a Roman general, statesman, and author who was the dictator of the Roman Republic almost continuously from 49 BC until his assassination in 44 BC. A member of the First Triumvi",
+      "image": "Retrato_de_Julio_César_(26724093101)_(cropped).jpg"
     },
     "Assassination_of_Julius_Caesar": {
       "title": "Assassination of Julius Caesar",
@@ -561,6 +571,16 @@
       "title": "Baths of Caracalla",
       "lead": "The Baths of Caracalla (Italian: Terme di Caracalla) in Rome, Italy, were the city's second largest Roman public bath complex, or thermae, after the Baths of Diocletian. The baths were likely built between AD 212 (or 211) and 216/217, durin",
       "image": "Baths_of_Caracalla,_facing_Caldarium.jpg"
+    },
+    "Diocletian": {
+      "title": "Diocletian",
+      "lead": "Diocletian ( DY-ə-KLEE-shən; Latin: Gaius Aurelius Valerius Diocletianus; Ancient Greek: Διοκλητιανός, romanized: Diokletianós; 242/245 – 311/312), nicknamed Jovius, was Roman emperor from 284 until his abdication in 305. He was born Diocle",
+      "image": "Istanbul_-_Museo_archeol._-_Diocleziano_(284-305_d.C.)_-_Foto_G._Dall'Orto_28-5-2006_(cropped).jpg"
+    },
+    "Augustine_of_Hippo": {
+      "title": "Augustine of Hippo",
+      "lead": "Augustine of Hippo ( aw-GUST-in, US also AW-gə-steen; Latin: Aurelius Augustinus Hipponensis; 13 November 354 – 28 August 430) was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius. He is",
+      "image": "Saint_Augustine_by_Philippe_de_Champaigne.jpg"
     },
     "Roman_Forum": {
       "title": "Roman Forum",
@@ -707,6 +727,86 @@
       "lead": "In Roman mythology, Romulus and Remus (Latin: [ˈroːmʊlʊs], [ˈrɛmʊs]) are twin brothers whose story tells of the events that led to the founding of the city of Rome and the Roman Kingdom by Romulus, following his fratricide of Remus. The ima",
       "image": "Lupa_Capitolina,_Rome.jpg"
     },
+    "Ancient_Greece": {
+      "title": "Ancient Greece",
+      "lead": "Ancient Greece (Ancient Greek: Ἑλλάς, romanized: Hellás) was a northeastern Mediterranean civilization, existing from the Greek Dark Ages of the 12th–9th centuries BC to the end of classical antiquity (c. 600 AD), comprising a loose collect",
+      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Greek_Dark_Ages": {
+      "title": "Greek Dark Ages",
+      "lead": "The Greek Dark Ages (c. 1180–800 BC) was a period in Ancient Greece characterized by societal collapse of civilization, where the palaces and cities of the Mycenaeans were either destroyed, abandoned, or both. At around the same time, the H",
+      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
+    },
+    "Archaic_Greece": {
+      "title": "Archaic Greece",
+      "lead": "Archaic Greece was the period in Greek history lasting from c. 800 BC to the second Persian invasion of Greece in 480 BC, following the Greek Dark Ages and succeeded by the Classical period. In the archaic period, the Greeks settled across ",
+      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
+    },
+    "Sumer": {
+      "title": "Sumer",
+      "lead": "Sumer ( SOO-mər) is the earliest known civilization, located in the historical region of southern Mesopotamia (now south-central Iraq), emerging during the Chalcolithic and early Bronze Ages between the 5th and 4th millennium BC. Like nearb",
+      "image": "Sumer_satellite_map.jpg"
+    },
+    "Ancient_Egypt": {
+      "title": "Ancient Egypt",
+      "lead": "Ancient Egypt was a cradle of civilization concentrated along the lower reaches of the Nile River in the eastern corner of North Africa. It emerged from prehistoric Egypt around 3150 BC (according to conventional Egyptian chronology), when ",
+      "image": "Ancient_Egypt_map-en.svg"
+    },
+    "Homer": {
+      "title": "Homer",
+      "lead": "Homer (; Ancient Greek: Ὅμηρος [hómɛːros], Hómēros; possibly born c. the 8th century BC) was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey, two epic poems that are foundational works of ancient Gree",
+      "image": "Homer_British_Museum.jpg"
+    },
+    "Trojan_War": {
+      "title": "Trojan War",
+      "lead": "The Trojan War was a legendary conflict in Greek mythology that took place around the twelfth or thirteenth century BC. The war was waged by the Achaeans (Greeks) against the city of Troy after Paris of Troy took Helen from her husband Mene",
+      "image": "Akhilleus_Patroklos_Antikensammlung_Berlin_F2278.jpg"
+    },
+    "Mars_(mythology)": {
+      "title": "Mars (mythology)",
+      "lead": "In ancient Roman religion and mythology, Mars (Latin: Mārs, pronounced [maːrs]) is the god of war and also an agricultural guardian, a combination characteristic of early Rome. He is the son of Jupiter and Juno, and was pre-eminent among th",
+      "image": "0_Statue_de_Mars_(Pyrrhus)_-_Musei_Capitolini_-_MC0058_(2).JPG"
+    },
+    "Troy": {
+      "title": "Troy",
+      "lead": "Troy (Greek: Τροία, romanised: Troíā; Hittite: 𒆳𒌷𒋫𒊒𒄿𒊭, romanised: Truwiša/Taruiša; Latin: Troia) or Ilion (Greek: Ἴλιον, romanised: Ī́lion; Hittite: 𒌷𒃾𒇻𒊭, romanised: Wiluša) was an ancient city located in present-day Çanakkale, Tu",
+      "image": "Walls_of_Troy_(2).jpg"
+    },
+    "Pope": {
+      "title": "Pope",
+      "lead": "The pope is the bishop of Rome and the head of the worldwide Catholic Church. He is also known as the supreme pontiff, Roman pontiff, or sovereign pontiff. From the 8th century until 1870, the pope was the sovereign or head of state of the ",
+      "image": "Pope_Leo_XIV_3_(3x4_cropped).png"
+    },
+    "Basque_language": {
+      "title": "Basque language",
+      "lead": "Basque ( BASK, BAHSK; endonym euskara [eus̺ˈkaɾa]) is a language spoken by Basques and other residents of the Basque Country, a region that straddles the westernmost Pyrenees in adjacent parts of southwestern France and northern Spain. Basq",
+      "image": "Euskalkiak.svg"
+    },
+    "Lydia": {
+      "title": "Lydia",
+      "lead": "Lydia (Ancient Greek: Λυδία, romanized: Ludía; Latin: Lȳdia) was an Iron Age kingdom situated in western Anatolia, in modern-day Turkey. Later, it became an important province of the Achaemenid Empire and then the Roman Empire. Its capital ",
+      "image": "Kingdom_of_Lydia.png"
+    },
+    "Anatolia": {
+      "title": "Anatolia",
+      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
+      "image": "Map_of_the_geographic_region_of_Anatolia.png"
+    },
+    "Juno_(mythology)": {
+      "title": "Juno (mythology)",
+      "lead": "Juno (English: JOO-noh; Latin: Iūnō [ˈjuːnoː]) is a goddess in the ancient Roman religion, the protector and special counsellor of the state. She equates to Hera, queen of the gods in Greek mythology and a goddess of marriage. A daughter of",
+      "image": "Juno_Sospita_Statue.jpg"
+    },
+    "Hippias_(son_of_Peisistratus)": {
+      "title": "Hippias (tyrant)",
+      "lead": "Hippias (Ancient Greek: Ἱππίας, romanized: Hippías; c. 570 BC – 490 BC) was the last tyrant of Athens, ruling from 527 to 510 BC. He was one of the Peisistratids, a group of tyrants from the same family in ancient Greece. His father was Pis",
+      "image": "Number_Stories_of_Long_Ago_-_Plate_3.jpg"
+    },
     "Patrician_(ancient_Rome)": {
       "title": "Patrician (ancient Rome)",
       "lead": "The patricians (from Latin: patricius) were originally a group of ruling class families in ancient Rome. The distinction was highly significant in the Roman Kingdom and the early Republic, but its relevance waned after the Conflict of the O",
@@ -714,7 +814,7 @@
     },
     "Plebeians": {
       "title": "Plebeians",
-      "lead": "In ancient Rome, the plebeians or plebs were the general body of free Roman citizens who were not patricians, as determined by the census, or in other words \"commoners\". Both classes were hereditary.",
+      "lead": "In ancient Rome, the plebeians or plebs were the general body of free Roman citizens who were not patricians, as determined by the census, or were in other words \"commoners\". Both classes were hereditary.",
       "image": "Roman_SPQR_banner.svg"
     },
     "Tribune_of_the_plebs": {
@@ -807,6 +907,16 @@
       "lead": "The Latins (Latin: Latīnī), sometimes known as the Latials or Latians, were an Italic tribe that included the early inhabitants of the city of Rome (see Roman people). From about 1000 BC, the Latins inhabited the small region known to the R",
       "image": "Volsci.jpg"
     },
+    "Po_Valley": {
+      "title": "Po Valley",
+      "lead": "The Po Valley, Po Plain, Plain of the Po, or Padan Plain (Italian: Pianura Padana, pronounced [pjaˈnuːra paˈdaːna], or Val Padana) is a major geographical feature of northern Italy. It extends approximately 650 km (400 mi) in an east-west d",
+      "image": "Pia_padana.jpg"
+    },
+    "Alps": {
+      "title": "Alps",
+      "lead": "The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,200 km (750 mi) across several Alpine countries (from west to east): Monaco, France, Switzerland, Italy, Liechtenstein, Germany, Au",
+      "image": "Alps_2007-03-13_10.10UTC_1px-250m.jpg"
+    },
     "Carthage": {
       "title": "Carthage",
       "lead": "Carthage (Arabic: قرطاج, ) was an ancient city in Northern Africa founded by the legendary queen Dido on the eastern side of the Lake of Tunis in what is now Tunisia. Carthage was one of the most important trading hubs of the Ancient Medite",
@@ -836,11 +946,6 @@
       "title": "Hamilcar Barca",
       "lead": "Hamilcar Barca or Barcas (Punic: 𐤇𐤌𐤋𐤒𐤓𐤕𐤟𐤁𐤓𐤒, romanized: Ḥamilqart Barqā; c. 275 – 228 BC) was a Carthaginian general and statesman, leader of the Barcid family, and father of Hannibal, Hasdrubal and Mago. He was also father-in-law",
       "image": "Amilcare_Barca_(Ritratto).jpg"
-    },
-    "Alps": {
-      "title": "Alps",
-      "lead": "The Alps () are some of the highest and most extensive mountain ranges in Europe, stretching approximately 1,200 km (750 mi) across several Alpine countries (from west to east): Monaco, France, Switzerland, Italy, Liechtenstein, Germany, Au",
-      "image": "Alps_2007-03-13_10.10UTC_1px-250m.jpg"
     },
     "Battle_of_the_Trebia": {
       "title": "Battle of the Trebia",
@@ -902,6 +1007,26 @@
       "lead": "Quintus Horatius Flaccus (Classical Latin: [ˈkʷiːntʊs (h)ɔˈraːtiʊs ˈfɫakːʊs]; 8 December 65 BC – 27 November 8 BC), commonly known in the English-speaking world as Horace ( HORR-iss), was the leading Roman lyric poet during the time of Augu",
       "image": "(contorniate_Médaillon_Horace_Rome_(...)Horace_(0065-0008_btv1b11343890r_1_(cropped).jpg"
     },
+    "Punic_Wars": {
+      "title": "Punic Wars",
+      "lead": "The Punic Wars were a series of wars fought between the Roman Republic and the Carthaginian Empire during the period 264 to 146 BC. Three such wars took place, involving a total of forty-three years of warfare on both land and sea across th",
+      "image": "Domain_changes_during_the_Punic_Wars_BC.gif"
+    },
+    "Strait_of_Messina": {
+      "title": "Strait of Messina",
+      "lead": "The Strait of Messina is a narrow strait between the eastern tip of Sicily (Punta del Faro) and the western tip of Calabria (Punta Pezzo) in Southern Italy. It connects the Tyrrhenian Sea to the north with the Ionian Sea to the south, withi",
+      "image": "MessinaStrait.jpg"
+    },
+    "Gaul": {
+      "title": "Gaul",
+      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
+      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    },
+    "Macedonia_(ancient_kingdom)": {
+      "title": "Macedonia (ancient kingdom)",
+      "lead": "Macedonia ( MASS-ih-DOH-nee-ə; Greek: Μακεδονία, Makedonía), also called Macedon ( MASS-ih-don), was an ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece. The kingd",
+      "image": "Map_Macedonia_336_BC-en.svg"
+    },
     "Tribune": {
       "title": "Tribune",
       "lead": "Tribune (Latin: Tribunus) was the title of various elected officials in ancient Rome. The two most important were the tribunes of the plebs and the military tribunes. For most of Roman history, a college of ten tribunes of the plebs acted a",
@@ -919,7 +1044,7 @@
     },
     "Mithridates_VI": {
       "title": "Mithridates VI Eupator",
-      "lead": "Mithridates or Mithradates VI Eupator (Ancient Greek: Μιθριδάτης; 135–63 BC) was the ruler of the Kingdom of Pontus in northern Anatolia from 120 to 63 BC, and one of the Roman Republic's most formidable and determined opponents. He sought ",
+      "lead": "Mithridates or Mithradates VI Eupator (Ancient Greek: Μιθριδάτης; 135–63 BC) sometimes known as Mithridates the Great was the ruler of the Kingdom of Pontus in northern Anatolia from 120 to 63 BC, and one of the Roman Republic's most formid",
       "image": "Mithridates_VI_Louvre.jpg"
     },
     "Kingdom_of_Pontus": {
@@ -977,20 +1102,20 @@
       "lead": "The Lex Sempronia agraria was a Roman agricultural law (lex agraria) proposed by the plebeian tribune Tiberius Gracchus. Passed in 133 BC, it created a three-man commission to allot state-owned land across Italy to poor citizens. The lands ",
       "image": ""
     },
-    "Anatolia": {
-      "title": "Anatolia",
-      "lead": "Anatolia (Turkish: Anadolu), also known as Asia Minor, is a peninsula in West Asia that makes up the majority of the land area of Turkey. It is the westernmost protrusion of Asia and is geographically bounded by the Mediterranean Sea to the",
-      "image": "Map_of_the_geographic_region_of_Anatolia.png"
-    },
     "Socii": {
       "title": "Socii",
       "lead": "The socii (English: SOH-shee-eye) or foederati (English: FED-ə-RAY-ty) were confederates of Rome and formed one of the three legal denominations in Roman Italy (Italia) along with the core Roman citizens (Cives Romani) and the extended Lati",
       "image": "The_Growth_of_Roman_Power_in_Italy.jpg"
     },
-    "Gaul": {
-      "title": "Gaul",
-      "lead": "Gaul (Latin: Gallia) was a region of Western Europe first clearly described by the Romans, encompassing present-day France, Belgium, Luxembourg, and parts of Switzerland, the Netherlands, Germany, and Northern Italy. It covered an area of 4",
-      "image": "Map_Gallia_Tribes_Towns-la.svg"
+    "Cimbri": {
+      "title": "Cimbri",
+      "lead": "The Cimbri (Greek: Κίμβροι, Kímbroi; Latin: Cimbri) were an ancient tribe in Europe. Ancient authors described them variously as a Celtic-Gaulish, Germanic, or even Cimmerian people. Several ancient sources indicate that they lived in Jutla",
+      "image": "Germanic_Tribes_in_the_Roman_Imperial_Period.png"
+    },
+    "Teutons": {
+      "title": "Teutons",
+      "lead": "The Teutons (Latin: Teutones, Teutoni; Ancient Greek: Τεύτονες) were an ancient northern European tribe mentioned by Roman authors. The Teutons are best known for their participation, together with the Cimbri and other groups, in the Cimbri",
+      "image": "Die_Frauen_der_Teutonen_verteidigen_die_Wagenburg_by_Heinrich_Leutemann.jpg"
     },
     "Rhine": {
       "title": "Rhine",
@@ -1087,6 +1212,11 @@
       "lead": "The English Channel, also known as the Channel, is an arm of the Atlantic Ocean that separates Southern England from northern France. It links to the southern part of the North Sea by the Strait of Dover at its northeastern end. It is the b",
       "image": "English_Channel_Satellite.jpg"
     },
+    "William_Shakespeare": {
+      "title": "William Shakespeare",
+      "lead": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's natio",
+      "image": "William_Shakespeare_by_John_Taylor,_edited.jpg"
+    },
     "Princeps": {
       "title": "Princeps",
       "lead": "Princeps (plural: Principes) is a Latin word meaning \"first in time or order; the first, foremost, chief, the most eminent, distinguished, or noble; the first person\". As a title, Princeps originated in the Roman Republic wherein the leadin",
@@ -1144,7 +1274,7 @@
     },
     "De_architectura": {
       "title": "De architectura",
-      "lead": "De architectura (On architecture, published as Ten Books on Architecture) is a treatise on architecture written by the Roman architect and military engineer Marcus Vitruvius Pollio and dedicated to his patron, the emperor Caesar Augustus, a",
+      "lead": "De architectura (On architecture, published as Ten Books on Architecture) is a treatise on architecture written by the Roman architect and military engineer Vitruvius and dedicated to his patron, the emperor Caesar Augustus, as a guide for ",
       "image": "De_architectura.jpg"
     },
     "Roman_Britain": {
@@ -1166,6 +1296,36 @@
       "title": "Gaius Maecenas",
       "lead": "Gaius Cilnius Maecenas ([ˈɡaːiʊs̠ ˈkɪɫ̪niʊs̠ mae̯ˈkeːnaːs̠] 13 April 68 BC – 8 BC) was a friend and political advisor to Octavian (who later reigned as emperor Augustus). He was also an important patron for the new generation of Augustan po",
       "image": "Gaius_Cilnius_Maecenas_Roman_Statesman_(cropped).jpg"
+    },
+    "Roman_Empire": {
+      "title": "Roman Empire",
+      "lead": "The Roman Empire was a state that dominated the Mediterranean and much of Europe, Western Asia, and North Africa during the classical period. The Roman Republic had previously conquered most of these territories, which later came under perm",
+      "image": "Roman_Empire_Trajan_117AD.png"
+    },
+    "Black_Sea": {
+      "title": "Black Sea",
+      "lead": "The Black Sea is a marginal sea lying between Europe and Asia, east of the Balkans, south of the East European Plain, west of the Caucasus, and north of Anatolia. It is bounded by Bulgaria, Georgia, Romania, Russia, Turkey, and Ukraine. The",
+      "image": "Black_Sea_map.png"
+    },
+    "Portland_cement": {
+      "title": "Portland cement",
+      "lead": "Portland cement is the most common type of cement in general use around the world as a basic ingredient of concrete, mortar, stucco, and non-specialty grout. It was developed from other types of hydraulic lime in England in the early 19th c",
+      "image": "Portland_Cement_Bags.jpg"
+    },
+    "Nile": {
+      "title": "Nile",
+      "lead": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than ot",
+      "image": "Nile_3rd_Cataract_Left.jpg"
+    },
+    "Suetonius": {
+      "title": "Suetonius",
+      "lead": "Gaius Suetonius Tranquillus (Latin: [ˈɡaːiʊs sweːˈtoːniʊs traŋˈkᶣɪlːʊs]), commonly referred to as Suetonius ( swih-TOH-nee-əs; c. AD 69 – after AD 122), was a Roman historian who wrote during the early Imperial era of the Roman Empire. His ",
+      "image": "Suetonius_etching_(cropped).jpg"
+    },
+    "Christianity": {
+      "title": "Christianity",
+      "lead": "Christianity is an Abrahamic monotheistic religion based on the Bible and the teachings of Jesus. The Gospels state that Jesus is the Son of God and rose from the dead after his crucifixion, whose coming as the messiah (Christ) was prophesi",
+      "image": "Church_of_the_Holy_Sepulchre_by_Gerd_Eichmann_(cropped).jpg"
     },
     "Galba": {
       "title": "Galba",
@@ -1249,7 +1409,7 @@
     },
     "Philhellenism": {
       "title": "Philhellenism",
-      "lead": "Philhellenism (\"the love of Greek culture and art\") was an intellectual movement prominent which promoted Greek culture. It contributed to the sentiments that led Europeans such as Lord Byron, Charles Nicolas Fabvier and Richard Church to a",
+      "lead": "Philhellenism (\"the love of Greek culture and art\") was a prominent intellectual movement which promoted Greek culture. It contributed to the sentiments that led Europeans such as Lord Byron, Charles Nicolas Fabvier and Richard Church to ad",
       "image": "Scène_des_massacres_de_Scio.jpg"
     },
     "Stoicism": {
@@ -1297,9 +1457,44 @@
       "lead": "Hagia Sophia, officially the Hagia Sophia Grand Mosque, is a mosque and a major cultural and historical site in Istanbul, Turkey. It was formerly a church (360–1453) and a museum (1935–2020). The last of three church buildings to be success",
       "image": "Hagia_Sophia_(228968325).jpeg"
     },
+    "Judaea_(Roman_province)": {
+      "title": "Judaea (Roman province)",
+      "lead": "Judaea was a Roman province from 6 to 135 AD, which at its height encompassed the regions of Judea, Idumea, Peraea, Samaria, and Galilee, as well as parts of the coastal plain of the southern Levant. At its height, it encompassed much of th",
+      "image": "Roman_Empire_-_Iudaea_(125_AD).svg"
+    },
+    "Judaism": {
+      "title": "Judaism",
+      "lead": "Judaism (Hebrew: יַהֲדוּת, romanized: Yahăḏūṯ) is an Abrahamic, monotheistic, ethnic religion that comprises the collective spiritual, cultural, and legal traditions of the Jewish people. Religious Jews regard Judaism as their means of obse",
+      "image": "Judaica.jpg"
+    },
+    "Torah": {
+      "title": "Torah",
+      "lead": "The Torah (; Biblical Hebrew: תּוֹרָה, romanized: tōrā, lit. \"instruction\", \"teaching\", or \"law\") is the compilation of the first five books of the Hebrew Bible, namely the books of Genesis, Exodus, Leviticus, Numbers and Deuteronomy. The T",
+      "image": "Тора._Нацыянальная_бібліятэка_Беларусі.jpg"
+    },
+    "Danube": {
+      "title": "Danube",
+      "lead": "The Danube ( DAN-yoob; see also other names) is a river in Europe, the second-longest after the Volga in Russia. It flows through Central and Southeastern Europe, from the Black Forest of Germany south through the Danube Delta in Romania in",
+      "image": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg"
+    },
+    "Basilica": {
+      "title": "Basilica",
+      "lead": "In Ancient Roman architecture, a basilica (Greek basilike) was a large public building with multiple functions that was typically built alongside the town's forum. The basilica was in the Latin West equivalent to a stoa in the Greek East. T",
+      "image": "BasilicaSemproniaReconstruction.jpg"
+    },
+    "Annals_(Tacitus)": {
+      "title": "Annals (Tacitus)",
+      "lead": "The Annals (Latin: Annales) by Roman historian and senator Tacitus is a history of the Roman Empire from the reign of Tiberius to that of Nero, the years AD 14–68. The Annals are an important source for modern understanding of the history o",
+      "image": "Tacitus,_Annales_XI-XVI,_editio_princeps,_ca._1471-72,_incipit.jpg"
+    },
+    "Histories_(Tacitus)": {
+      "title": "Histories (Tacitus)",
+      "lead": "Histories (Latin: Historiae) is a Roman historical chronicle by Tacitus. Written c. 100–110, its complete form covered c. 69–96, a period which includes the Year of Four Emperors following the downfall of Nero, as well as the period between",
+      "image": "Tacitus_Historiae_Liber_I._(Editio_princeps,_Venedig_1472).jpg"
+    },
     "Septimius_Severus": {
       "title": "Septimius Severus",
-      "lead": "Lucius Septimius Severus (; Latin: [ˈluːkius sepˈtimius seˈweːrus]; 11 April 145 – 4 February 211) was Roman emperor from 193 to 211. He was born in Leptis Magna, Libya in the Roman province of Africa. As a young man he advanced through the",
+      "lead": "Lucius Septimius Severus (; Latin: [ˈluːkius sepˈtimius seˈweːrus]; 11 April 145 – 4 February 211) was Roman emperor from 193 to 211. He was born in Leptis Magna, Libya, in the Roman province of Africa. As a young man, he advanced through t",
       "image": "Septimius_Severus_busto-Musei_Capitolini.jpg"
     },
     "Leptis_Magna": {
@@ -1319,7 +1514,7 @@
     },
     "Sasanian_Empire": {
       "title": "Sasanian Empire",
-      "lead": "The Sasanian Empire (), officially Eranshahr (Middle Persian: 𐭠𐭩𐭥𐭠𐭭𐭱𐭲𐭥𐭩 Ērānšahr, 'Empire of the Iranians'), was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for over four centuries",
+      "lead": "The Sasanian Empire (), officially Eranshahr (Middle Persian: 𐭠𐭩𐭥𐭠𐭭𐭱𐭲𐭥𐭩, romanized: Ērānšahr, lit. 'Empire of the Iranians'), was an Iranian empire that was founded and ruled by the House of Sasan from 224 to 651 AD. Lasting for ov",
       "image": "The_Sasanian_Empire_at_its_apex_under_Khosrow_II.svg"
     },
     "Valerian_(emperor)": {
@@ -1407,6 +1602,21 @@
       "lead": "Marcus Aurelius Severus Alexander (1 October 208 – March 235), also known as Alexander Severus, was Roman emperor from 222 until 235. He was the last emperor from the Severan dynasty and, at the age of 13, became the youngest sole emperor o",
       "image": "Alexander_Severus_Musei_Capitolini_MC471.jpg"
     },
+    "Caesar_(title)": {
+      "title": "Caesar (title)",
+      "lead": "Caesar is a title of imperial character. It derives from the cognomen of Julius Caesar. The change from being a surname to a title used by the Roman emperors can be traced to AD 68, following the fall of the Julio-Claudian dynasty. When use",
+      "image": "Seal_of_the_Caesar_John_Doukas.jpg"
+    },
+    "Historia_Augusta": {
+      "title": "Historia Augusta",
+      "lead": "The Historia Augusta (lit. 'Augustan History') is a late Roman collection of biographies, written in Latin, of the Roman emperors, their junior colleagues, designated heirs and usurpers from 117 to 284. Supposedly modeled on the similar wor",
+      "image": "Historia_Augusta,_Vaticanus_Palatinus_lat._899.jpg"
+    },
+    "Mesopotamia": {
+      "title": "Mesopotamia",
+      "lead": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, ",
+      "image": "N-Mesopotamia_and_Syria_english.svg"
+    },
     "Maxentius": {
       "title": "Maxentius",
       "lead": "Marcus Aurelius Valerius Maxentius (c. 283 – 28 October 312) was a Roman emperor from 306 until his death in 312. Despite ruling in Italy and North Africa, and having the recognition of the Senate in Rome, he was not recognized as a legitim",
@@ -1457,20 +1667,10 @@
       "lead": "Pontius Pilate (Latin: Pontius Pilatus; Greek: Πόντιος Πιλᾶτος, romanized: Póntios Pilátos) was the fifth governor of the Roman province of Judaea, serving under Emperor Tiberius from 26/27 to 36/37 AD. He is best known for being the offici",
       "image": "Ecce_homo_by_Antonio_Ciseri_(1).jpg"
     },
-    "Judea_(Roman_province)": {
-      "title": "Judaea (Roman province)",
-      "lead": "Judaea was a Roman province from 6 to 135 AD, which at its height encompassed the regions of Judea, Idumea, Peraea, Samaria, and Galilee, as well as parts of the coastal plain of the southern Levant. At its height, it encompassed much of th",
-      "image": "Roman_Empire_-_Iudaea_(125_AD).svg"
-    },
     "New_Testament": {
       "title": "New Testament",
       "lead": "The New Testament (NT) is the second division of the Christian biblical canon. It discusses the teachings and person of Jesus, as well as events relating to first-century Christianity. The New Testament's background, the first division of t",
       "image": ""
-    },
-    "Basilica": {
-      "title": "Basilica",
-      "lead": "In Ancient Roman architecture, a basilica (Greek basilike) was a large public building with multiple functions that was typically built alongside the town's forum. The basilica was in the Latin West equivalent to a stoa in the Greek East. T",
-      "image": "BasilicaSemproniaReconstruction.jpg"
     },
     "Theodosius_I": {
       "title": "Theodosius I",
@@ -1514,8 +1714,28 @@
     },
     "Thessaloniki": {
       "title": "Thessaloniki",
-      "lead": "Thessaloniki (; Greek: Θεσσαλονίκη [θesaloˈnici] ; also known by various spellings and names) is a city in northern Greece. The nation's second-largest, with slightly over one million inhabitants in its metropolitan area, it is the capital ",
+      "lead": "Thessaloniki (; Greek: Θεσσαλονίκη [θesaloˈnici] ; also known by various spellings and names) is Greece's second-largest city. It is the largest city of Northern Greece, with slightly over one million inhabitants in its metropolitan area, t",
       "image": "Thessaloniki_Heptapyrgion_northeastern_wall_from_the_inner_yard.jpg"
+    },
+    "Alexandria": {
+      "title": "Alexandria",
+      "lead": "Alexandria is a major city in Egypt. Lying at the western edge of the Nile River Delta, it extends about 40 km (25 mi) along the country's northern coast. It is Egypt's principal seaport, the second largest city after Cairo, and the largest",
+      "image": "San_Stefano_Grand_Plaza.JPG"
+    },
+    "Antioch": {
+      "title": "Antioch",
+      "lead": "Antioch was a city located in northern Syria at the site of modern Antakya, Turkey. Founded in 300 BC, Antioch became one of the most important cities of the ancient eastern Mediterranean. The capital of the Hellenistic Seleucid Empire, it ",
+      "image": "Antioch_on_the_Orontes_en.svg"
+    },
+    "Sea_of_Marmara": {
+      "title": "Sea of Marmara",
+      "lead": "The Sea of Marmara, also known as the Sea of Marmora, the Marmara Sea or Propontis /prəˈpɒntɪs/ (ancient Greek: Προποντίς /pro.ponˈdis/), is a small inland sea entirely within the borders of Turkey. It links the Black Sea and the Aegean Sea",
+      "image": "Turkish_Strait_disambig.svg"
+    },
+    "Nicomedia": {
+      "title": "Nicomedia",
+      "lead": "Nicomedia (; Greek: Νικομήδεια, Nikomedeia; modern İzmit) was an ancient Greek city located in what is now Turkey. In 286 AD, Nicomedia became the eastern and most senior capital city of the Roman Empire (chosen by the emperor Diocletian wh",
+      "image": "Grande_rue_de_Nicomédie_-_Texier_Charles_Félix_Marie_-_1882.jpg"
     },
     "Odoacer": {
       "title": "Odoacer",
@@ -1605,7 +1825,7 @@
     "Thrace": {
       "title": "Thrace",
       "lead": "Thrace (, thrayss) is a geographical and historical region in Southeast Europe roughly corresponding to the province of Thrace in the Roman Empire. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea",
-      "image": "Thrace_and_present-day_state_borderlines.png"
+      "image": "Thrace_region.jpg"
     },
     "Burgundians": {
       "title": "Burgundians",
@@ -1616,6 +1836,36 @@
       "title": "European Union",
       "lead": "The European Union (EU) is a political and economic union of 27 member states that are located primarily in Europe. A supranational union with a total area of 4,233,255 km2 (1,634,469 sq mi) and an estimated population of over 450 million a",
       "image": "Flag_of_Europe.svg"
+    },
+    "Bethlehem": {
+      "title": "Bethlehem",
+      "lead": "Bethlehem is a city in the West Bank, Palestine, located about ten kilometres (six miles) south of Jerusalem, and the capital of the Bethlehem Governorate. It had a population of 28,591 people, as of 2017. The city's economy is strongly lin",
+      "image": "Church_of_the_Nativity_(7703592746).jpg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Thervingi": {
+      "title": "Thervingi",
+      "lead": "The Thervingi, Tervingi, or Teruingi (sometimes pluralised Tervings or Thervings) were a Gothic people of the plains north of the Lower Danube and west of the Dniester River in the 3rd and the 4th centuries. They had close contacts with the",
+      "image": ""
+    },
+    "The_History_of_the_Decline_and_Fall_of_the_Roman_Empire": {
+      "title": "The History of the Decline and Fall of the Roman Empire",
+      "lead": "The History of the Decline and Fall of the Roman Empire, sometimes shortened to Decline and Fall of the Roman Empire, is a six-volume work by the English historian Edward Gibbon. The six volumes cover, from 98 to 1590, the peak of the Roman",
+      "image": "Decline_and_Fall_of_the_Roman_Empire_vol_1_(1777).djvu"
+    },
+    "Aegean_Sea": {
+      "title": "Aegean Sea",
+      "lead": "The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located between the Balkans and Anatolia, and covers an area of some 215,000 km2 (83,000 sq mi). In the north, the Aegean is connected to the M",
+      "image": "Location_of_the_Aegean_Sea.png"
+    },
+    "Euphrates": {
+      "title": "Euphrates",
+      "lead": "The Euphrates ( yoo-FRAY-teez; see below) is the longest and one of the most historically important rivers of West Asia. Together with the Tigris, it is one of the two defining rivers of Mesopotamia (lit. 'the land between the rivers'). Ori",
+      "image": "The_Euphrates_River_in_Turkey,_Rumkale_(52031477798).jpg"
     }
   }
 }

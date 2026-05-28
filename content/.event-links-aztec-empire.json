@@ -7,7 +7,8 @@
     {"eventId":"evt-eagle-cactus-vision","matchText":"devouring a snake"},
     {"eventId":"evt-tenochtitlan-founded","matchText":"named their new home Tenochtitlan"},
     {"eventId":"evt-tlatelolco-founded","matchText":"faction split off and founded a sister city"},
-    {"eventId":"evt-templo-mayor-site","matchText":"shrine to Huitzilopochtli"}
+    {"eventId":"evt-templo-mayor-site","matchText":"shrine to Huitzilopochtli"},
+    {"eventId":"evt-tezozomoc","matchText":"Tezozomoc"}
   ],
   "2": [
     {"eventId":"evt-acamapichtli","matchText":"Acamapichtli"},
@@ -26,6 +27,8 @@
   ],
   "3": [
     {"eventId":"evt-tlacaelel","matchText":"Tlacaelel"},
+    {"eventId":"evt-itzcoatl","matchText":"Itzcoatl"},
+    {"eventId":"evt-acamapichtli","matchText":"Acamapichtli"},
     {"eventId":"evt-tlacaelel-religious-reform","matchText":"Huitzilopochtli was the sun"},
     {"eventId":"evt-flower-wars","matchText":"Flower Wars"},
     {"eventId":"evt-motecuzoma-i","matchText":"Motecuzoma I"},
@@ -49,6 +52,7 @@
     {"eventId":"evt-pochteca-trade","matchText":"pochteca"}
   ],
   "5": [
+    {"eventId":"evt-tlacaelel","matchText":"Tlacaelel"},
     {"eventId":"evt-nanahuatzin","matchText":"Nanahuatzin"},
     {"eventId":"evt-huitzilopochtli-cult","matchText":"Huitzilopochtli"},
     {"eventId":"evt-tlacaxipehualiztli","matchText":"Tlacaxipehualiztli"},
@@ -70,7 +74,13 @@
     {"eventId":"evt-nezahualcoyotl-poetry","matchText":"thirty of his Nahuatl poems"},
     {"eventId":"evt-macuilxochitzin","matchText":"Macuilxochitzin"},
     {"eventId":"evt-pochteca-courts","matchText":"own legal courts"},
-    {"eventId":"evt-pochteca-soconusco","matchText":"Soconusco"}
+    {"eventId":"evt-pochteca-soconusco","matchText":"Soconusco"},
+    {"eventId":"evt-tenochtitlan-founded","matchText":"of Tenochtitlan"},
+    {"eventId":"evt-acamapichtli","matchText":"Acamapichtli"},
+    {"eventId":"evt-tizoc","matchText":"Tizoc"},
+    {"eventId":"evt-cuauhtemoc","matchText":"Cuauhtémoc"},
+    {"eventId":"evt-tlacaelel","matchText":"cihuacoatl Tlacaelel"},
+    {"eventId":"evt-motecuzoma-ii","matchText":"Motecuzoma II"}
   ],
   "7": [
     {"eventId":"evt-axayacatl","matchText":"Axayacatl"},
@@ -85,7 +95,12 @@
     {"eventId":"evt-tribute-codices","matchText":"Codex Mendoza"},
     {"eventId":"evt-motecuzoma-ii","matchText":"Motecuzoma II Xocoyotzin"},
     {"eventId":"evt-motecuzoma-omens","matchText":"eight omens"},
-    {"eventId":"evt-quetzalcoatl-legend","matchText":"Quetzalcoatl"}
+    {"eventId":"evt-quetzalcoatl-legend","matchText":"Quetzalcoatl"},
+    {"eventId":"evt-sacred-precinct","matchText":"Sacred Precinct"},
+    {"eventId":"evt-tlacaelel","matchText":"Tlacaelel"},
+    {"eventId":"evt-templo-mayor-dedication","matchText":"four-day ceremony"},
+    {"eventId":"evt-pochteca-soconusco","matchText":"Soconusco"},
+    {"eventId":"evt-ahuitzotl-aqueduct","matchText":"Acuecuexatl"}
   ],
   "8": [
     {"eventId":"evt-cortes-veracruz-landing","matchText":"landed near modern Veracruz"},
@@ -102,6 +117,8 @@
     {"eventId":"evt-cuauhtemoc","matchText":"Cuauhtémoc"},
     {"eventId":"evt-cuauhtemoc-captured","matchText":"attempted to escape the"},
     {"eventId":"evt-fall-tenochtitlan","matchText":"city formally surrendered"},
-    {"eventId":"evt-cantares-mexicanos","matchText":"Cantares Mexicanos"}
+    {"eventId":"evt-cantares-mexicanos","matchText":"Cantares Mexicanos"},
+    {"eventId":"evt-coyolxauhqui-stone","matchText":"onto the Coyolxauhqui Stone"},
+    {"eventId":"evt-codex-borbonicus","matchText":"the Codex Borbonicus"}
   ]
 }

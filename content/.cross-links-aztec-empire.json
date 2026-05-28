@@ -117,6 +117,24 @@
   ],
   "5": [
     {
+      "matchText": "Shang",
+      "targetTl": "shang-dynasty",
+      "targetChapter": 5,
+      "blurb": "The Shang of Bronze Age China practiced human sacrifice on a scale that shocked even later Chinese dynasties — oracle bones record captives, mostly Qiang prisoners of war, killed by the hundreds to feed the royal ancestors and the high god Shangdi. As in Tenochtitlan, the sacrificial demand and the war machine that supplied it were the same engine: kings fought to capture victims, then offered them to guarantee divine favor."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 4,
+      "blurb": "The Classic Maya kings of the Golden Age made ritual bloodletting and human sacrifice central to kingship — rulers pierced their own tongues and genitals to draw blood for the gods, and high-status war captives were sacrificed in public spectacle. The Maya version leaned more on royal auto-sacrifice and the killing of captured rival lords than on the industrial-scale captive supply that drove the Aztec system, but the underlying logic (blood as the currency that keeps the cosmos running) was shared across Mesoamerica."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 6,
+      "blurb": "The Moche of Peru's north coast staged a 'Sacrifice Ceremony' that their painted pottery depicts in detail and that archaeology has since confirmed: captured warriors had their throats cut and their blood ritually drunk by elaborately costumed priests and priestesses. Like the Aztecs a thousand years later and a continent apart, the Moche built sacrifice into the heart of elite religion — evidence of how independently the practice arose across the pre-Columbian Americas."
+    },
+    {
       "matchText": "the Aztecs literally walked among the ruins of Teotihuacan when they made these arguments",
       "targetTl": "teotihuacan",
       "targetChapter": 8,
@@ -229,6 +247,24 @@
       "targetTl": "mississippian-culture",
       "targetChapter": 9,
       "blurb": "The fall of Tenochtitlan and the Columbian-exchange pandemics gutted the Mississippian world too — one conquest era ending the independent Americas."
+    },
+    {
+      "matchText": "the Ottoman Empire under Suleiman",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 5,
+      "blurb": "While Tenochtitlan fell in 1521, the Ottoman Empire was entering its golden age under Suleiman the Magnificent — the gunpowder empire expanding into the Balkans and the Mediterranean at the very moment the Aztec state was being destroyed by a few hundred men from a rival gunpowder world. Two empires at opposite ends of the same century, one cresting and one ending."
+    },
+    {
+      "matchText": "Mughal conquest of India",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "Five years after Tenochtitlan fell, Babur won at Panipat and founded the Mughal Empire in India — another conquest dynasty built on cavalry, gunpowder, and exploited local rivalries. Unlike the Aztec state, India's conquerors became its rulers and stayed for three centuries, rather than erasing the civilization they took over."
+    },
+    {
+      "matchText": "the Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "As the Aztec Empire ended, Ming China was the largest and richest state on earth, midway through a century in which New World silver — much of it mined in the lands the Spanish were now conquering — flowed across the Pacific into the Chinese economy. The destruction of Tenochtitlan and the silver boom in Ming China were two ends of the same emerging global system."
     }
   ]
 }

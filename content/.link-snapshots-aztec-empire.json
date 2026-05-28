@@ -542,6 +542,11 @@
       "lead": "Tlaxcala (Classical Nahuatl: Tlaxcallān [t͡ɬaʃˈkalːaːn̥] , 'place of maize tortillas'; Otomian languages: Mãhmê, \"place of tortillas\") was a pre-Columbian city and state in central Mexico. Tlaxcala was completely surrounded by Aztec lands, ",
       "image": "Aztec_Empire_1519_map-fr.svg"
     },
+    "Cuitl%C3%A1huac": {
+      "title": "Cuitláhuac",
+      "lead": "Cuitláhuac (Spanish pronunciation: [kwiˈtlawak] , ) (c. 1476 – 1520) (in Spanish orthography; Nahuatl languages: Cuitlāhuac, Nahuatl pronunciation: [kʷiˈt͡ɬaːwak], honorific form: Cuitlahuatzin) was the 10th Huey Tlatoani (emperor) of the A",
+      "image": "Cuitlahuac2.jpg"
+    },
     "Tlacaelel": {
       "title": "Tlacaelel",
       "lead": "Tlacaelel I (1397 – 1487) (Classical Nahuatl: Tlācaēllel Nahuatl pronunciation: [t͡ɬaːkaˈeːlːel], \"Man of Strong Emotions,\" from \"tlācatl,\" person and \"ēllelli,\" strong emotion) was the principal architect of the Aztec Triple Alliance and h",
@@ -737,25 +742,60 @@
       "lead": "Popocatépetl (UK: POP-ə-KAT-ə-pet-əl, -⁠kat-ə-PET-əl, US: POHP-, Spanish: [popokaˈtepetl] ; Nahuatl languages: Popōcatepētl [popoːkaˈtepeːt͡ɬ] ) is an active stratovolcano located in the states of Puebla, Morelos, and Mexico in central Mexi",
       "image": "Mexico-Popocatepetl.jpg"
     },
-    "Tepanec": {
-      "title": "Tepanec",
-      "lead": "The Tepanecs or Tepaneca are a Mesoamerican people who arrived in the Valley of Mexico in the late 12th or early 13th centuries. The Tepanec were a sister culture of the Aztecs (or Mexica) as well as the Acolhua and others—these tribes spok",
-      "image": "Tepanecapan_II.JPG"
+    "Western_Hemisphere": {
+      "title": "Western Hemisphere",
+      "lead": "The Western Hemisphere is the half of the planet Earth that lies west of the Prime Meridian and east of the 180th meridian. The other half is called the Eastern Hemisphere. In the United States, the term \"Western Hemisphere\" is often used a",
+      "image": "Western_Hemisphere_LamAz.png"
     },
-    "Tlatoani": {
-      "title": "Tlatoani",
-      "lead": "Tlahtoāni (Classical Nahuatl: tlahtoāni pronounced [t͡ɬaʔtoˈaːniˀ] , \"ruler, sovereign\"; plural tlahtohqueh [t͡ɬaʔˈtoʔkeʔ]) is a historical title used by the dynastic rulers of āltepēmeh (singular āltepētl, often translated into English as ",
-      "image": "Nezahualpiltzintli.jpg"
+    "Iztacc%C3%ADhuatl": {
+      "title": "Iztaccihuatl",
+      "lead": "Iztaccíhuatl or Ixtaccíhuatl (both forms also spelled without the accent) (Nahuatl pronunciation: [istakˈsiwat͡ɬ] or, as spelled with the x, [iʃtakˈsiwat͡ɬ]) is a 5,230 m (17,160 ft) dormant volcanic mountain in Mexico located on the border",
+      "image": "IztaccihualtSacromonte1.JPG"
     },
-    "Texcoco_(altepetl)": {
-      "title": "Tetzcoco (altepetl)",
-      "lead": "Tetzcoco (Classical Nahuatl: Tetzco(h)co pronounced [tetsˈkoʔko], Otomi: Antamäwädehe) was a major Acolhua altepetl (city-state) in the central Mexican plateau region of Mesoamerica during the Late Postclassic period of pre-Columbian Mesoam",
-      "image": "Lake_Texcoco_c_1519.png"
+    "Franciscans": {
+      "title": "Franciscans",
+      "lead": "The Franciscans are a group of related organizations in the Catholic Church, founded by the Italian saint Francis of Assisi. They include three independent religious orders for men (the Order of Friars Minor being the largest contemporary m",
+      "image": "FrancescoCoA_PioM.svg"
     },
-    "Tlacopan": {
-      "title": "Tlacopan",
-      "lead": "Tlacopan, also called Tacuba, (Classical Nahuatl: Tlacōpan, [t͡ɬaˈkóːpan̥], Otomian languages: Abotto, 'in the forest of trees') was a Tepanec / Mexica altepetl on the western shore of Lake Texcoco. The site is today the neighborhood of Tac",
-      "image": "Lake_Texcoco_c_1519.png"
+    "Hopi": {
+      "title": "Hopi",
+      "lead": "The Hopi are Native Americans who primarily live in northeastern Arizona. The majority are enrolled in the Hopi Tribe of Arizona and live on the Hopi Reservation in northeastern Arizona; however, some Hopi people are enrolled in the Colorad",
+      "image": "Hopi_woman_with_a_traditional_pot_and_traditional_clothing.png"
+    },
+    "Comanche": {
+      "title": "Comanche",
+      "lead": "The Comanche (), or Nʉmʉnʉʉ (Comanche: Nʉmʉnʉʉ, 'the people'), are a Native American tribe from the Southern Plains of the present-day United States. Comanche people today belong to the federally recognized Comanche Nation, headquartered in",
+      "image": ""
+    },
+    "Shoshone": {
+      "title": "Shoshone",
+      "lead": "The Shoshone or Shoshoni ( shoh-SHOH-nee or shə-SHOH-nee), also known by the endonym Newe, are an Indigenous people of the United States with four large cultural/linguistic divisions: Eastern Shoshone: Wyoming Northern Shoshone: Southern Id",
+      "image": ""
+    },
+    "Mayan_languages": {
+      "title": "Mayan languages",
+      "lead": "The Mayan languages are a language family spoken in Mesoamerica, both in the south of Mexico and northern Central America. Mayan languages are spoken by at least six million Maya people, primarily in Guatemala, Mexico, Belize, El Salvador a",
+      "image": "Distribution-myn2.png"
+    },
+    "Oto-Manguean_languages": {
+      "title": "Oto-Manguean languages",
+      "lead": "The Oto-Manguean or Otomanguean ( OH-to-MANG-ghee-ən) languages are a large family comprising several subfamilies of indigenous languages of the Americas. All of the Oto-Manguean languages that are now spoken are indigenous to Mexico, but t",
+      "image": "Precontact_Otomanguean.svg"
+    },
+    "Mixtec": {
+      "title": "Mixtec",
+      "lead": "The Mixtecs ( MIS-teks, MISH-) or Mixtecos (Spanish pronunciation: [misˈtekos] – from Nahuatl mixtēcatl [miʃteːkatɬ]; Mixtec: ñuudzahui 'people of Dzahui') are Indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixt",
+      "image": "Jarabe_Mixteco.jpg"
+    },
+    "Persian_language": {
+      "title": "Persian language",
+      "lead": "Persian, also known by its endonym Farsi, is a Western Iranian language belonging to the Iranian branch of the Indo-Iranian subdivision of the Indo-European languages. Persian is a pluricentric language predominantly spoken and used officia",
+      "image": "Farsi.svg"
+    },
+    "Mesoamerica": {
+      "title": "Mesoamerica",
+      "lead": "Mesoamerica is a historical region and cultural area comprising the present day lands of central and southern Mexico, all of Belize, Guatemala, El Salvador, western Honduras, and the Greater Nicoya region of Nicaragua and Costa Rica. As a c",
+      "image": "Mesoamerica_english.PNG"
     },
     "Xochimilco": {
       "title": "Xochimilco",
@@ -766,6 +806,61 @@
       "title": "Coyoacán",
       "lead": "Coyoacán (US: KOY-oh-ə-KAHN; Spanish: [koʝoaˈkan] , Otomi: Ndemiñ'yo) is a borough (demarcación territorial) in Mexico City. The former village became the borough's \"historic center\". The name comes from Nahuatl \"Coyōhuahcān,\" composed of \"",
       "image": "Puerta_a_Coyoacán.JPG"
+    },
+    "Tlacopan": {
+      "title": "Tlacopan",
+      "lead": "Tlacopan, also called Tacuba, (Classical Nahuatl: Tlacōpan, [t͡ɬaˈkóːpan̥], Otomian languages: Abotto, 'in the forest of trees') was a Tepanec / Mexica altepetl on the western shore of Lake Texcoco. The site is today the neighborhood of Tac",
+      "image": "Lake_Texcoco_c_1519.png"
+    },
+    "Tepanec": {
+      "title": "Tepanec",
+      "lead": "The Tepanecs or Tepaneca are a Mesoamerican people who arrived in the Valley of Mexico in the late 12th or early 13th centuries. The Tepanec were a sister culture of the Aztecs (or Mexica) as well as the Acolhua and others—these tribes spok",
+      "image": "Tepanecapan_II.JPG"
+    },
+    "Yucat%C3%A1n_Peninsula": {
+      "title": "Yucatán Peninsula",
+      "lead": "The Yucatán Peninsula ( YOO-kə-TA(H)N, UK also YUU-; Spanish: Península de Yucatán [peˈninsula ðe ʝukaˈtan]) is a large peninsula in southeast Mexico and adjacent portions of Belize and Guatemala. The peninsula extends towards the northeast",
+      "image": "Yucatan_peninsula_250m.jpg"
+    },
+    "Hundred_Years%27_War": {
+      "title": "Hundred Years' War",
+      "lead": "The Hundred Years' War (French: Guerre de Cent Ans; 1337–1453 [116 years]) was a conflict between the kingdoms of England and France and a civil war in France during the late Middle Ages. It emerged from feudal disputes over the Duchy of Aq",
+      "image": "Schlacht_von_Azincourt.jpg"
+    },
+    "Ming_dynasty": {
+      "title": "Ming dynasty",
+      "lead": "The Ming dynasty, officially the Great Ming, was an imperial dynasty of China that ruled from 1368 to 1644, following the collapse of the Mongol-led Yuan dynasty. The Ming was the last imperial dynasty of China ruled by the Han people, the ",
+      "image": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
+    },
+    "Mali_Empire": {
+      "title": "Mali Empire",
+      "lead": "The Mali Empire was an empire in West Africa from c. 1235 to 1610. The empire was founded by Sundiata Keita (c. 1214 – c. 1255) and became renowned for the wealth of its monarchs, especially Mansa Musa (Musa Keita). At its peak, Mali was th",
+      "image": "Map_of_the_Mali_Empire.png"
+    },
+    "Mansa_Musa": {
+      "title": "Mansa Musa",
+      "lead": "Mansa Musa (c. 1280 – c. 1337) was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign. Musa's reign is often regarded as the zenith of Mali's power and prestige, although he features less in Mandinka ora",
+      "image": "Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg"
+    },
+    "Mecca": {
+      "title": "Mecca",
+      "lead": "Mecca, officially Makkah al-Mukarramah, is a city in the Hejazi region of western Saudi Arabia and is the capital of Mecca Province. Mecca is considered the birthplace of Islam and the Islamic prophet Muhammad, as well as being the holiest ",
+      "image": "Great_Mosque_of_Mecca1.jpg"
+    },
+    "Andes": {
+      "title": "Andes",
+      "lead": "The Andes ( AN-deez), Andes Mountains or Andean Mountain Range (Spanish: Cordillera de los Andes; Quechua: Anti) are the longest continental mountain range in the world, forming a continuous highland along the western edge of South America.",
+      "image": "Panoramic_view_Andes-Chile.jpg"
+    },
+    "Tlatoani": {
+      "title": "Tlatoani",
+      "lead": "Tlahtoāni (Classical Nahuatl: tlahtoāni pronounced [t͡ɬaʔtoˈaːniˀ] , \"ruler, sovereign\"; plural tlahtohqueh [t͡ɬaʔˈtoʔkeʔ]) is a historical title used by the dynastic rulers of āltepēmeh (singular āltepētl, often translated into English as ",
+      "image": "Nezahualpiltzintli.jpg"
+    },
+    "Texcoco_(altepetl)": {
+      "title": "Tetzcoco (altepetl)",
+      "lead": "Tetzcoco (Classical Nahuatl: Tetzco(h)co pronounced [tetsˈkoʔko], Otomi: Antamäwädehe) was a major Acolhua altepetl (city-state) in the central Mexican plateau region of Mesoamerica during the Late Postclassic period of pre-Columbian Mesoam",
+      "image": "Lake_Texcoco_c_1519.png"
     },
     "Obsidian": {
       "title": "Obsidian",
@@ -796,11 +891,6 @@
       "title": "Oaxaca",
       "lead": "Oaxaca, officially the Free and Sovereign State of Oaxaca, is one of the 32 states that compose the Federative Entities of the United Mexican States. It is divided into 570 municipalities, of which 418 (almost three quarters) are governed b",
       "image": "Oaxaqa_(41).jpg"
-    },
-    "Mixtec": {
-      "title": "Mixtec",
-      "lead": "The Mixtecs ( MIS-teks, MISH-) or Mixtecos (Spanish pronunciation: [misˈtekos] – from Nahuatl mixtēcatl [miʃteːkatɬ]; Mixtec: ñuudzahui 'people of Dzahui') are Indigenous Mesoamerican peoples of Mexico inhabiting the region known as La Mixt",
-      "image": "Jarabe_Mixteco.jpg"
     },
     "Zapotec_civilization": {
       "title": "Zapotec civilization",
@@ -912,20 +1002,20 @@
       "lead": "Amaranthus is a genus of plants commonly known as amaranths. Some species are known by variants of the common name \"pigweed\". Some members are annual and others are perennial. The plant can grow from 1 to 2.5 metres (3 to 8 feet) tall with ",
       "image": "Amaranthus_tricolor0.jpg"
     },
-    "Five_Suns": {
-      "title": "Five Suns",
-      "lead": "In creation myths, the term \"Five Suns\" refers to the belief of certain Nahua cultures and Aztec peoples that the world has gone through five distinct cycles of creation and destruction, with the current era being the fifth. It is primarily",
-      "image": "File-Monolito_de_la_Piedra_del_Sol_(centro).jpg"
+    "Petén_Basin": {
+      "title": "Petén Basin",
+      "lead": "The Petén Basin is a geographical subregion of the Maya Lowlands, primarily located in northern Guatemala within the Department of El Petén, and into the state of Campeche in southeastern Mexico. During the Late Preclassic and Classic perio",
+      "image": ""
     },
-    "Tecuciztecatl": {
-      "title": "Tēcciztēcatl",
-      "lead": "In Aztec mythology, Tecciztecatl (Classical Nahuatl: Tēcciztēcatl [teːk.sis.ˈteː.kat͡ɬ], \"person from Tēcciztlān,\" a place name meaning \"Place of the Conch,\" from tēcciztli or \"conch\"; also Tecuciztecatl, Teucciztecatl, from the variant for",
-      "image": "Tecciztecatl.jpg"
+    "Venice": {
+      "title": "Venice",
+      "lead": "Venice is a city in northeastern Italy and the capital of the region of Veneto. It is built on a group of 126 islands that are separated by expanses of open water and by canals; portions of the city are linked by 472 bridges. The islands ar",
+      "image": "Venezia_aerial_view.jpg"
     },
-    "Tlaloc": {
-      "title": "Tláloc",
-      "lead": "Tláloc (Classical Nahuatl: Tláloc [ˈtɬaːlok]) is the god of rain in Aztec religion. He was also a deity of earthly fertility and water, and worshipped as a giver of life and sustenance; many rituals and sacrifices predicated upon these aspe",
-      "image": "Tlaloc_glyph.svg"
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "image": "Byzantine_Constantinople-en.png"
     },
     "Tezcatlipoca": {
       "title": "Tezcatlipoca",
@@ -936,6 +1026,31 @@
       "title": "Cōātlīcue",
       "lead": "Coatlicue (; Classical Nahuatl: cōātl īcue, Nahuatl pronunciation: [koː(w)aːˈt͡ɬiːkʷeː] , \"skirt of snakes\"), wife of Mixcōhuātl, also known as Tēteoh īnnān (pronounced [teːˈtéoʔˈíːnːaːn̥], \"mother of the gods\") is the Aztec goddess who gav",
       "image": "Coatlicue.png"
+    },
+    "Tlaloc": {
+      "title": "Tláloc",
+      "lead": "Tláloc (Classical Nahuatl: Tláloc [ˈtɬaːlok]) is the god of rain in Aztec religion. He was also a deity of earthly fertility and water, and worshipped as a giver of life and sustenance; many rituals and sacrifices predicated upon these aspe",
+      "image": "Tlaloc_glyph.svg"
+    },
+    "National_Museum_of_Anthropology_(Mexico)": {
+      "title": "National Museum of Anthropology (Mexico)",
+      "lead": "The National Museum of Anthropology (Spanish: Museo Nacional de Antropología, MNA) is a national museum of Mexico. It is the largest and most visited museum in Mexico. Located in the area between Paseo de la Reforma and Mahatma Gandhi Stree",
+      "image": "Musee_National_Anthropologie-Entree.jpg"
+    },
+    "Mexico_City": {
+      "title": "Mexico City",
+      "lead": "Mexico City is the capital and most populous city of Mexico, as well as the most populous city in North America. It is one of the most important cultural and financial centers in the world, and is classified as an Alpha world city according",
+      "image": "Sobrevuelos_CDMX_HJ2A4913_(25514321687)_(cropped).jpg"
+    },
+    "Five_Suns": {
+      "title": "Five Suns",
+      "lead": "In creation myths, the term \"Five Suns\" refers to the belief of certain Nahua cultures and Aztec peoples that the world has gone through five distinct cycles of creation and destruction, with the current era being the fifth. It is primarily",
+      "image": "File-Monolito_de_la_Piedra_del_Sol_(centro).jpg"
+    },
+    "Tecuciztecatl": {
+      "title": "Tēcciztēcatl",
+      "lead": "In Aztec mythology, Tecciztecatl (Classical Nahuatl: Tēcciztēcatl [teːk.sis.ˈteː.kat͡ɬ], \"person from Tēcciztlān,\" a place name meaning \"Place of the Conch,\" from tēcciztli or \"conch\"; also Tecuciztecatl, Teucciztecatl, from the variant for",
+      "image": "Tecciztecatl.jpg"
     },
     "Xipe_Totec": {
       "title": "Xipe Totec",
@@ -1049,7 +1164,7 @@
     },
     "Petrarch": {
       "title": "Petrarch",
-      "lead": "Francis Petrarch (born Francesco di Petracco; 20 July 1304 – 19 July 1374) was an Italian scholar and poet of the early Italian Renaissance, as well as one of the earliest humanists. Petrarch's rediscovery of Cicero's letters is often credi",
+      "lead": "Francis Petrarch (born Francesco di Petracco; 20 July 1304 – 19 July 1374) was an Italian scholar and poet of the early Italian Renaissance, as well as one of the earliest Renaissance humanists. Petrarch's rediscovery of Cicero's letters is",
       "image": "Portrait_of_Francesco_Petrarca_(called_Petrarch)_-_French_school,_17th_century.jpg"
     },
     "Tarascan": {
@@ -1077,11 +1192,6 @@
       "lead": "Mit'acode: que promoted to code: qu (Quechua pronunciation: [ˈmɪˌtʼa]) was a system of mandatory labor service in the Inca Empire, as well as in Spain's empire in America. Mit'a (federal work) was effectively a form of tribute to the Inca g",
       "image": ""
     },
-    "National_Museum_of_Anthropology_(Mexico)": {
-      "title": "National Museum of Anthropology (Mexico)",
-      "lead": "The National Museum of Anthropology (Spanish: Museo Nacional de Antropología, MNA) is a national museum of Mexico. It is the largest and most visited museum in Mexico. Located in the area between Paseo de la Reforma and Mahatma Gandhi Stree",
-      "image": "Musee_National_Anthropologie-Entree.jpg"
-    },
     "Veracruz": {
       "title": "Veracruz",
       "lead": "Veracruz, officially the Free and Sovereign State of Veracruz de Ignacio de la Llave, is one of the 31 states which, along with Mexico City, comprise the 32 Federal Entities of Mexico. Located in eastern Mexico, Veracruz is bordered by seve",
@@ -1106,6 +1216,11 @@
       "title": "Michoacán",
       "lead": "Michoacán, formally Michoacán de Ocampo, officially the Free and Sovereign State of Michoacán de Ocampo, is one of the 31 states which, together with Mexico City, compose the Federal Entities of Mexico. The state is divided into 113 municip",
       "image": "Cerro_Patamban.jpg"
+    },
+    "Z%C3%B3calo": {
+      "title": "Zócalo",
+      "lead": "Zócalo (Latin American Spanish pronunciation: [ˈsokalo]) is the common name of the main square in central Mexico City. Prior to the conquest by Spain, it was the main ceremonial center in the Aztec city of Tenochtitlan. The plaza used to be",
+      "image": "Zócalo,_Ciudad_de_México_(32846556446)_(cropped).jpg"
     },
     "Totonac": {
       "title": "Totonac",
@@ -1162,15 +1277,65 @@
       "lead": "Pánfilo de Narváez (Spanish pronunciation: [ˈpaɱfilo ðe naɾˈβaeθ]; born 1478, died 1528) was a Spanish conquistador and soldier in the Americas. Born in Spain, he first sailed to the island of Jamaica (then Santiago) in 1510 as a soldier. P",
       "image": "Panfilo_de_Narvaez.jpg"
     },
-    "Iztacc%C3%ADhuatl": {
-      "title": "Iztaccihuatl",
-      "lead": "Iztaccíhuatl or Ixtaccíhuatl (both forms also spelled without the accent) (Nahuatl pronunciation: [istakˈsiwat͡ɬ] or, as spelled with the x, [iʃtakˈsiwat͡ɬ]) is a 5,230 m (17,160 ft) dormant volcanic mountain in Mexico located on the border",
-      "image": "IztaccihualtSacromonte1.JPG"
+    "Cuba": {
+      "title": "Cuba",
+      "lead": "Cuba, officially the Republic of Cuba, is an island country in the Caribbean. It comprises the eponymous main island as well as 4,195 islands, islets, and cays. Situated at the convergence of the Caribbean Sea, Gulf of Mexico, and Atlantic ",
+      "image": "Flag_of_Cuba.svg"
     },
-    "Z%C3%B3calo": {
-      "title": "Zócalo",
-      "lead": "Zócalo (Latin American Spanish pronunciation: [ˈsokalo]) is the common name of the main square in central Mexico City. Prior to the conquest by Spain, it was the main ceremonial center in the Aztec city of Tenochtitlan. The plaza used to be",
-      "image": "Zócalo,_Ciudad_de_México_(32846556446)_(cropped).jpg"
+    "Diego_Vel%C3%A1zquez_(conquistador)": {
+      "title": "Diego Velázquez de Cuéllar",
+      "lead": "Diego Velázquez de Cuéllar (1465 – c. June 12, 1524) was a Spanish conquistador and adelantado who was first governor of Cuba. In 1511 he led the successful conquest and colonization of Cuba. As the first governor of the island, he establis",
+      "image": "DiegoVelazquezCuellar.jpg"
+    },
+    "Coatzacoalcos": {
+      "title": "Coatzacoalcos",
+      "lead": "Coatzacoalcos (Spanish: [koatsakoˈalkos]; formerly known as Puerto México; Nahuatl languages: Koatzakwalko; Zapotec: Niniashi; Popoluca: Puertu) is a major port city in the southern part of the Mexican state of Veracruz, mostly on the weste",
+      "image": "Coatz_cropped.png"
+    },
+    "Yucat%C3%A1n": {
+      "title": "Yucatán",
+      "lead": "Yucatán, officially the Free and Sovereign State of Yucatán, is one of the 31 states which, along with Mexico City, constitute the 32 federal entities of Mexico. It comprises 106 separate municipalities, and its capital city is Mérida. Loca",
+      "image": "Templo_de_los_Guerreros.jpg"
+    },
+    "Mexico": {
+      "title": "Mexico",
+      "lead": "Mexico, officially the United Mexican States, is a country in North America. It is the northernmost country in Latin America and borders the United States of America to the north, and Guatemala and Belize to the southeast; while having mari",
+      "image": "Flag_of_Mexico.svg"
+    },
+    "Honduras": {
+      "title": "Honduras",
+      "lead": "Honduras, officially the Republic of Honduras, is a country in Central America. It is bordered to the west by Guatemala, to the southwest by El Salvador, to the southeast by Nicaragua, to the south by the Pacific Ocean at the Gulf of Fonsec",
+      "image": "Flag_of_Honduras_(1949–2022,_2026–present).svg"
+    },
+    "Black_Death": {
+      "title": "Black Death",
+      "lead": "The Black Death was a plague pandemic that occurred in Europe from 1346 to 1353. It was one of the most fatal pandemics in human history; as many as 50 million people died, perhaps 50% of Europe's 14th-century population. The disease is cau",
+      "image": "1346-1353_spread_of_the_Black_Death_in_Europe_map.svg"
+    },
+    "Babur": {
+      "title": "Babur",
+      "lead": "Babur (Persian: ببر, Persian: [bɑː.βuɾ]; 14 February 1483 – 26 December 1530; born Zahīr ud-Dīn Muhammad) was the founder of the Mughal Empire in the Indian subcontinent. He was a descendant of Timur and Genghis Khan through his father and ",
+      "image": "Humayun_and_Babur_(Late_Shah_Jahan_Album)_Babur_detail.jpg"
+    },
+    "First_Battle_of_Panipat": {
+      "title": "First Battle of Panipat",
+      "lead": "The First Battle of Panipat, on 21 April 1526 was fought between the invading forces of Babur against Ibrahim Khan Lodi, the Sultan of Delhi, in North India. Babur's forces, employing gunpowder firearms and cannons, defeated Ibrahim. This w",
+      "image": "The_battle_of_Panipat_and_the_death_of_Sultan_Ibrāhīm,_the_last_of_the_Lōdī_Sultans_of_Delhi.jpg"
+    },
+    "Pyramid_of_the_Sun": {
+      "title": "Pyramid of the Sun",
+      "lead": "The Pyramid of the Sun is the largest building in Teotihuacan, and one of the largest in Mesoamerica. It is believed to have been constructed about 200 AD. Found along the Avenue of the Dead, in between the Pyramid of the Moon and the Ciuda",
+      "image": "2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pirámide_del_Sol.jpg"
+    },
+    "Hernando_de_Soto": {
+      "title": "Hernando de Soto",
+      "lead": "Hernando de Soto (; Spanish: [eɾˈnando ðe ˈsoto]; c. 1497 – 21 May 1542) was a Spanish explorer and conquistador, who was involved in expeditions in Nicaragua and the Yucatan Peninsula. He played an important role in Francisco Pizarro's con",
+      "image": "De_Soto_by_Telfer_&_Sartain.jpg"
+    },
+    "World_Heritage_Site": {
+      "title": "World Heritage Site",
+      "lead": "World Heritage Sites are landmarks and areas with legal protection under an international treaty administered by UNESCO for having cultural, historical, or scientific significance. The sites are judged to contain \"cultural and natural herit",
+      "image": "World_Heritage_Logo_global.svg"
     }
   }
 }

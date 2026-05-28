@@ -508,3 +508,7 @@ The single biggest improvement would be to give Chapter 3 a tighter focus on Tla
 5. `[CHECK]` **"Cuauhtémoc was tortured by Cortés (the Spanish poured boiling oil on his feet)"** — the torture of Cuauhtémoc is documented, but "boiling oil" is a specific detail; some sources say burning coals, others burning oil. The specific fluid matters for accuracy.
 
 **Total findings: 8 STRONG, 27 CHECK, 0 SOFT**
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from aztec-empire outward. Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.

@@ -306,3 +306,7 @@ Central thesis: Rome's genius was adoption, not invention — they borrowed ever
 | B — Skeptic | SOFT (minor, hedged adequately) | 9 |
 
 **Overall assessment:** This is a strong narrative. No chapters require rewriting. The central thesis is consistently maintained and the voice is excellent throughout. The main structural weakness is the catalog pacing in Ch 6-7, where achievement-stacking replaces narrative momentum. The Ch 10 essay section on causes of the fall breaks the narrative voice but is intellectually valuable. The Skeptic findings are mostly minor — the narrative hedges well and attributes claims carefully. The highest-priority fixes are: (1) the Diocletian cabbage quote needs an *Historia Augusta* caveat; (2) the "120 ships in 60 days" claim needs a skeptical note; (3) the Ch 10 causes section should be rewritten from bulleted essay back into narrative prose; (4) Augustus's last words should match the standard Suetonius translation more closely.
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from ancient-rome outward. Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.

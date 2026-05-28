@@ -1,0 +1,739 @@
+# LINK-COVERAGE-NEEDED — migration-period
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Roman Empire   ⟨dict⟩  → cross-link
+    Vandals   ⟨dict,recur×3⟩  → event
+    Franks   ⟨dict,recur×3⟩  → event
+    Greeks   ⟨dict⟩  → glossary
+    Latin   ⟨dict,recur×3⟩  → cross-link
+    Germani   ⟨dict,recur×3⟩  → glossary
+    Saxons   ⟨dict⟩  → glossary
+    Indo-European   ⟨dict,bold⟩  → glossary
+  * Persian   ⟨dict⟩  → cross-link
+    Sanskrit   ⟨dict⟩  → cross-link
+  * Eurasian   ⟨dict⟩  → glossary
+    Hungary   ⟨dict⟩  → glossary
+    Ukraine   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Mongolia   ⟨dict⟩  → glossary
+    Turkic   ⟨dict⟩  → glossary
+    Mongolic   ⟨dict⟩  → glossary
+  * Iranian   ⟨dict⟩  → glossary
+  * Hunnic   ⟨dict⟩  → glossary
+    Adrianople   ⟨dict,bold⟩  → cross-link
+    Carthage   ⟨dict⟩  → cross-link
+    foedus   ⟨gloss,dict-lc,rare⟩  → glossary
+  ~ Roman   ⟨dict,recur×9⟩  (advisory)
+  ~ Romans   ⟨recur×3⟩  (advisory)
+  ~ Rome   ⟨dict,recur×10⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Spain   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Eastern Empire   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Russian   ⟨⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ Han-dynasty China   ⟨⟩  (advisory)
+  ~ Gaulish   ⟨⟩  (advisory)
+  ~ Germanic Suebi   ⟨⟩  (advisory)
+  ~ Italy   ⟨⟩  (advisory)
+  ~ journey   ⟨dict-lc⟩  (advisory)
+  ~ they were the   ⟨dict-lc⟩  (advisory)
+  ~ the Franks   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ the Eastern Empire's   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ the open steppe   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ factions   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ began to come apart   ⟨dict-lc⟩  (advisory)
+  ~ steppe nomads   ⟨bold⟩  (advisory)
+  ~ harassing   ⟨rare⟩  (advisory)
+  ~ asylum   ⟨rare⟩  (advisory)
+  ~ frightening   ⟨rare⟩  (advisory)
+  ~ foreground   ⟨rare⟩  (advisory)
+  ~ apologizing   ⟨rare⟩  (advisory)
+  ~ churchmen   ⟨rare⟩  (advisory)
+  ~ domino   ⟨rare⟩  (advisory)
+  ~ lumped   ⟨rare⟩  (advisory)
+  ~ classify   ⟨rare⟩  (advisory)
+  ~ distantly   ⟨rare⟩  (advisory)
+  ~ galloping   ⟨rare⟩  (advisory)
+  ~ snowball   ⟨rare⟩  (advisory)
+  ~ knocking   ⟨rare⟩  (advisory)
+  ~ unheard   ⟨rare⟩  (advisory)
+  ~ persuade   ⟨rare⟩  (advisory)
+  ~ containable   ⟨rare⟩  (advisory)
+  ~ dominoes   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Germanic   ⟨dict,recur×9⟩  → cross-link
+    Roman Empire   ⟨dict⟩  → cross-link
+    Radagaisus   ⟨pron,bold,recur×4⟩  → event/glossary
+    Julius Caesar   ⟨dict⟩  → glossary
+    Hunnic   ⟨dict,recur×3⟩  → glossary
+    Goths   ⟨dict⟩  → cross-link
+    Franks   ⟨dict⟩  → event
+    Caesar   ⟨dict⟩  → glossary
+    Iranian-speaking   ⟨dict,bold⟩  → glossary
+    Caucasus   ⟨dict⟩  → glossary
+  * Iranian   ⟨dict⟩  → glossary
+    Indo-European   ⟨dict⟩  → glossary
+  * Persian   ⟨dict⟩  → cross-link
+    Persians   ⟨dict⟩  → cross-link
+  * Hindi   ⟨dict⟩  → glossary
+    Völkerwanderung   ⟨dict⟩  → glossary
+    Angles   ⟨dict⟩  → glossary
+    Saxons   ⟨dict⟩  → glossary
+    Jutes   ⟨dict⟩  → glossary
+    North Sea   ⟨dict⟩  → cross-link
+  ~ West   ⟨recur×6⟩  (advisory)
+  ~ Gothic-led   ⟨⟩  (advisory)
+  ~ Italy   ⟨recur×4⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Indo-European-speaking   ⟨⟩  (advisory)
+  ~ Hasding   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Suebic   ⟨⟩  (advisory)
+  ~ Black   ⟨⟩  (advisory)
+  ~ Caspian Seas   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ British   ⟨⟩  (advisory)
+  ~ Roman Britain   ⟨dict⟩  (advisory)
+  ~ Eastern   ⟨dict⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ source for the moment   ⟨def⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ diplomat and   ⟨dict-lc⟩  (advisory)
+  ~ western empire's   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ the Goths   ⟨dict-lc⟩  (advisory)
+  ~ the Franks.   ⟨dict-lc⟩  (advisory)
+  ~ the Caucasus   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ diocese   ⟨dict-lc,rare⟩  (advisory)
+  ~ loyalists   ⟨dict-lc⟩  (advisory)
+  ~ legions   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ the North Sea   ⟨dict-lc⟩  (advisory)
+  ~ killed him   ⟨dict-lc⟩  (advisory)
+  ~ churning   ⟨rare⟩  (advisory)
+  ~ rereading   ⟨rare⟩  (advisory)
+  ~ logged   ⟨rare⟩  (advisory)
+  ~ clumping   ⟨rare⟩  (advisory)
+  ~ generalissimo   ⟨rare⟩  (advisory)
+  ~ bitterest   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Western Roman Empire   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict⟩  → cross-link
+    Indo-European   ⟨dict⟩  → glossary
+    Vandals   ⟨dict,recur×3⟩  → event
+    Franks   ⟨dict⟩  → event
+    Ring   ⟨dict⟩  → glossary
+  * Hunnic   ⟨dict⟩  → glossary
+    Huns   ⟨dict⟩  → cross-link
+    Gothic   ⟨dict⟩  → glossary
+    Balkans   ⟨dict⟩  → cross-link
+    Gaul   ⟨dict,recur×4⟩  → glossary
+    Goths   ⟨dict⟩  → cross-link
+    Visigoths   ⟨dict,recur×3⟩  → event
+    Western Empire   ⟨dict⟩  → glossary
+    Suebi   ⟨dict,bold⟩  → event
+    Alans   ⟨dict,recur×4⟩  → glossary
+    Vandal   ⟨dict⟩  → glossary
+    Iranian-speaking   ⟨dict⟩  → glossary
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Richard Wagner   ⟨⟩  (advisory)
+  ~ Lake Geneva   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Switzerland   ⟨dict⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Rhine-crossers   ⟨⟩  (advisory)
+  ~ Portugal   ⟨dict⟩  (advisory)
+  ~ Spain the four   ⟨⟩  (advisory)
+  ~ Siling Vandals   ⟨⟩  (advisory)
+  ~ Hasding Vandals   ⟨⟩  (advisory)
+  ~ King of the Vandals   ⟨⟩  (advisory)
+  ~ Galicia   ⟨⟩  (advisory)
+  ~ Suebic   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ foederati   ⟨dict-lc,rare⟩  (advisory)
+  ~ bishops   ⟨dict-lc⟩  (advisory)
+  ~ quartered   ⟨dict-lc,rare⟩  (advisory)
+  ~ parchment   ⟨dict-lc⟩  (advisory)
+  ~ allied   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ the seed of   ⟨dict-lc⟩  (advisory)
+  ~ true bone   ⟨dict-lc⟩  (advisory)
+  ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ the Huns   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ the Balkans   ⟨dict-lc⟩  (advisory)
+  ~ sack of Rome   ⟨dict-lc⟩  (advisory)
+  ~ the Goths   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ emergency   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ federate settlement   ⟨bold⟩  (advisory)
+  ~ federate   ⟨rare⟩  (advisory)
+  ~ federates   ⟨rare⟩  (advisory)
+  ~ obliged   ⟨rare⟩  (advisory)
+  ~ composer   ⟨rare⟩  (advisory)
+  ~ churning   ⟨rare⟩  (advisory)
+  ~ wrecking   ⟨rare⟩  (advisory)
+  ~ quietest   ⟨rare⟩  (advisory)
+  ~ outliving   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Gaiseric   ⟨dict⟩  → glossary
+    Tunisia   ⟨dict⟩  → glossary
+    Libya   ⟨dict⟩  → glossary
+    Western Empire   ⟨dict,recur×5⟩  → glossary
+    Confessions   ⟨dict⟩  → event
+    Gothic   ⟨dict⟩  → glossary
+    Punic Wars   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict,recur×3⟩  → cross-link
+    Black Sea   ⟨dict⟩  → glossary
+    Aegean   ⟨dict⟩  → glossary
+    Norse   ⟨dict⟩  → glossary
+    Vendel Age   ⟨dict⟩  → cross-link
+    Sack of Rome   ⟨dict,dict-lc⟩  → event
+    Rhine   ⟨dict⟩  → glossary
+  ~ Mediterranean   ⟨dict,recur×7⟩  (advisory)
+  ~ Genseric   ⟨⟩  (advisory)
+  ~ Spain   ⟨⟩  (advisory)
+  ~ North African Catholic   ⟨⟩  (advisory)
+  ~ Catholics   ⟨⟩  (advisory)
+  ~ Algeria   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Western Christianity   ⟨⟩  (advisory)
+  ~ Roman African   ⟨⟩  (advisory)
+  ~ West   ⟨⟩  (advisory)
+  ~ Phoenician-descended   ⟨⟩  (advisory)
+  ~ Carthaginian   ⟨⟩  (advisory)
+  ~ Western Roman   ⟨⟩  (advisory)
+  ~ Balearic Islands   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ East Roman   ⟨⟩  (advisory)
+  ~ Greek-crewed   ⟨⟩  (advisory)
+  ~ Gothic-led   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ persecution   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ longships   ⟨dict-lc,rare⟩  (advisory)
+  ~ murder of the   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ coinage   ⟨dict-lc⟩  (advisory)
+  ~ the Rhine   ⟨dict-lc⟩  (advisory)
+  ~ emperor he   ⟨dict-lc⟩  (advisory)
+  ~ Sack of Rome in 455   ⟨bold⟩  (advisory)
+  ~ grudging   ⟨rare⟩  (advisory)
+  ~ ferried   ⟨rare⟩  (advisory)
+  ~ headcount   ⟨rare⟩  (advisory)
+  ~ intellect   ⟨rare⟩  (advisory)
+  ~ throttle   ⟨rare⟩  (advisory)
+  ~ fiscally   ⟨rare⟩  (advisory)
+  ~ grasped   ⟨rare⟩  (advisory)
+  ~ dislodge   ⟨rare⟩  (advisory)
+  ~ looters   ⟨rare⟩  (advisory)
+  ~ indiscriminate   ⟨rare⟩  (advisory)
+  ~ burners   ⟨rare⟩  (advisory)
+  ~ mindless   ⟨rare⟩  (advisory)
+  ~ retaliate   ⟨rare⟩  (advisory)
+  ~ undefeated   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Hunnic   ⟨dict,recur×11⟩  → glossary
+    Goths   ⟨dict⟩  → cross-link
+    Gepids   ⟨dict,pron,bold⟩  → glossary
+    East Germanic   ⟨dict⟩  → glossary
+    Danube   ⟨dict⟩  → glossary
+    Germanic   ⟨dict,recur×6⟩  → cross-link
+    Eastern Roman Empire   ⟨dict⟩  → glossary
+    Constantinople   ⟨dict⟩  → cross-link
+    Vandals   ⟨dict⟩  → event
+    Germani   ⟨dict⟩  → glossary
+    Gaul   ⟨dict⟩  → glossary
+    Aquitaine   ⟨dict⟩  → glossary
+    Theodoric the Great   ⟨dict⟩  → cross-link
+    Gothic   ⟨dict⟩  → glossary
+    Franks   ⟨dict⟩  → event
+    Visigoths   ⟨dict⟩  → event
+    Pope Leo   ⟨dict⟩  → glossary
+    Pannonia   ⟨dict⟩  → glossary
+    Hungary   ⟨dict⟩  → glossary
+    Ostrogoths   ⟨dict⟩  → cross-link
+    Roman Empire   ⟨dict⟩  → cross-link
+    Leo   ⟨pron⟩  → event/glossary
+    Leo I   ⟨bold⟩  → event/glossary
+  ~ Africa   ⟨⟩  (advisory)
+  ~ Romans   ⟨recur×3⟩  (advisory)
+  ~ West   ⟨recur×3⟩  (advisory)
+  ~ Greece   ⟨dict⟩  (advisory)
+  ~ Eastern Empire   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Greek-speaking Eastern Roman   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict,recur×13⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Hunnic-period   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Rome   ⟨dict,recur×6⟩  (advisory)
+  ~ Ostrogoth   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Roman-versus-barbarian   ⟨⟩  (advisory)
+  ~ Leo the Great   ⟨⟩  (advisory)
+  ~ Peter   ⟨⟩  (advisory)
+  ~ Christian Church   ⟨⟩  (advisory)
+  ~ Eastern Roman   ⟨⟩  (advisory)
+  ~ Church   ⟨⟩  (advisory)
+  ~ East   ⟨⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ mercenaries   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ the Goths   ⟨dict-lc⟩  (advisory)
+  ~ his brother   ⟨dict-lc⟩  (advisory)
+  ~ terror.   ⟨dict-lc⟩  (advisory)
+  ~ the Danube   ⟨dict-lc⟩  (advisory)
+  ~ roughly tripled   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ migration period   ⟨dict-lc⟩  (advisory)
+  ~ concrete   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ noble savage   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ the terror   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ reconstruction   ⟨dict-lc⟩  (advisory)
+  ~ rhetorician   ⟨rare⟩  (advisory)
+  ~ compiler   ⟨rare⟩  (advisory)
+  ~ relaying   ⟨rare⟩  (advisory)
+  ~ savages   ⟨rare⟩  (advisory)
+  ~ stockades   ⟨rare⟩  (advisory)
+  ~ renegades   ⟨rare⟩  (advisory)
+  ~ fairer   ⟨rare⟩  (advisory)
+  ~ platter   ⟨rare⟩  (advisory)
+  ~ plainness   ⟨rare⟩  (advisory)
+  ~ grovel   ⟨rare⟩  (advisory)
+  ~ hoards   ⟨rare⟩  (advisory)
+  ~ firmer   ⟨rare⟩  (advisory)
+  ~ screaming   ⟨rare⟩  (advisory)
+  ~ elongation   ⟨rare⟩  (advisory)
+  ~ deformed   ⟨rare⟩  (advisory)
+  ~ monstrousness   ⟨rare⟩  (advisory)
+  ~ generalissimo   ⟨rare⟩  (advisory)
+  ~ federates   ⟨rare⟩  (advisory)
+  ~ lagoon   ⟨rare⟩  (advisory)
+  ~ scourge   ⟨rare⟩  (advisory)
+  ~ coldly   ⟨rare⟩  (advisory)
+  ~ weighting   ⟨rare⟩  (advisory)
+  ~ haemorrhage   ⟨rare⟩  (advisory)
+  ~ choking   ⟨rare⟩  (advisory)
+  ~ compilers   ⟨rare⟩  (advisory)
+  ~ removes   ⟨rare⟩  (advisory)
+  ~ bedchamber   ⟨rare⟩  (advisory)
+  ~ creaking   ⟨rare⟩  (advisory)
+
+## Chapter 6
+  * Hunnic   ⟨dict⟩  → glossary
+    Western Empire   ⟨dict,recur×4⟩  → glossary
+    Vandals   ⟨dict⟩  → event
+    Huns   ⟨dict⟩  → cross-link
+    Burgundians   ⟨dict⟩  → glossary
+    Gaul   ⟨dict,recur×5⟩  → glossary
+    Catalaunian Plains   ⟨dict⟩  → glossary
+    Valentinian III   ⟨dict,bold⟩  → glossary
+    Geiseric   ⟨dict⟩  → glossary
+  * Visigothic   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict,recur×7⟩  → cross-link
+    Arianism   ⟨dict⟩  → event
+    Fall of the Roman Empire   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Franks   ⟨dict⟩  → event
+    Western Roman Empire   ⟨dict⟩  → cross-link
+    East Germanic   ⟨dict⟩  → glossary
+    Danube   ⟨dict⟩  → glossary
+    Augustus   ⟨dict⟩  → glossary
+    Adriatic   ⟨dict⟩  → glossary
+    Roman Empire   ⟨dict⟩  → cross-link
+    Rhine   ⟨dict⟩  → glossary
+    Euphrates   ⟨dict⟩  → glossary
+  ~ West   ⟨recur×11⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Italy   ⟨recur×12⟩  (advisory)
+  ~ Britain   ⟨dict⟩  (advisory)
+  ~ Spain   ⟨recur×3⟩  (advisory)
+  ~ African   ⟨⟩  (advisory)
+  ~ From   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict,recur×19⟩  (advisory)
+  ~ Suebic   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Christ   ⟨⟩  (advisory)
+  ~ God the Father   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Vandal Africa   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ History of the Decline   ⟨⟩  (advisory)
+  ~ Aegidius   ⟨⟩  (advisory)
+  ~ Roman Gaul   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Western Roman   ⟨⟩  (advisory)
+  ~ Croatia   ⟨⟩  (advisory)
+  ~ East   ⟨⟩  (advisory)
+  ~ Something   ⟨⟩  (advisory)
+  ~ Africa   ⟨⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ the Huns   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ emperor he   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ vacuum   ⟨dict-lc⟩  (advisory)
+  ~ the Father   ⟨dict-lc⟩  (advisory)
+  ~ concrete   ⟨dict-lc⟩  (advisory)
+  ~ inertia   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Franks   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ first emperor   ⟨dict-lc⟩  (advisory)
+  ~ imperial regalia   ⟨dict-lc⟩  (advisory)
+  ~ puppet   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ the Rhine   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ professional standing army   ⟨dict-lc⟩  (advisory)
+  ~ swallow   ⟨rare⟩  (advisory)
+  ~ dwindling   ⟨rare⟩  (advisory)
+  ~ bystander   ⟨rare⟩  (advisory)
+  ~ epigram   ⟨rare⟩  (advisory)
+  ~ kingmaker   ⟨rare⟩  (advisory)
+  ~ puppets   ⟨rare⟩  (advisory)
+  ~ shielding   ⟨rare⟩  (advisory)
+  ~ provincials   ⟨rare⟩  (advisory)
+  ~ embark   ⟨rare⟩  (advisory)
+  ~ singled   ⟨rare⟩  (advisory)
+  ~ punctures   ⟨rare⟩  (advisory)
+  ~ federate   ⟨rare⟩  (advisory)
+  ~ warbands   ⟨rare⟩  (advisory)
+  ~ footnotes   ⟨rare⟩  (advisory)
+  ~ diminutive   ⟨rare⟩  (advisory)
+  ~ mockery   ⟨rare⟩  (advisory)
+  ~ pensioned   ⟨rare⟩  (advisory)
+  ~ diadem   ⟨rare⟩  (advisory)
+  ~ accompanying   ⟨rare⟩  (advisory)
+  ~ bothering   ⟨rare⟩  (advisory)
+  ~ chased   ⟨rare⟩  (advisory)
+  ~ periodization   ⟨rare⟩  (advisory)
+  ~ truthful   ⟨rare⟩  (advisory)
+  ~ headstone   ⟨rare⟩  (advisory)
+  ~ undramatic   ⟨rare⟩  (advisory)
+  ~ anticlimax   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Western Empire   ⟨dict,recur×3⟩  → glossary
+    Vandals   ⟨dict,recur×4⟩  → event
+    Visigoths   ⟨dict,recur×6⟩  → event
+    Burgundians   ⟨dict,recur×4⟩  → glossary
+    Suebi   ⟨dict⟩  → event
+    Ostrogoths   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict,recur×4⟩  → cross-link
+    Rhine   ⟨dict⟩  → glossary
+    Arians   ⟨dict,bold⟩  → glossary
+    Arius   ⟨dict⟩  → glossary
+    Arianism   ⟨dict,recur×3⟩  → event
+    Gothic   ⟨dict,recur×7⟩  → glossary
+    Arian   ⟨dict,recur×7⟩  → glossary
+    Ulfilas   ⟨dict⟩  → event
+    Vandal   ⟨dict⟩  → glossary
+    Burgundian   ⟨dict,recur×3⟩  → event
+    Ostrogothic   ⟨recur×3⟩  → ?
+    Constantine the Great   ⟨dict⟩  → glossary
+    Constantine   ⟨dict⟩  → event
+  * Francia   ⟨dict⟩  → glossary
+    Poitiers   ⟨dict⟩  → event
+    Toledo   ⟨dict⟩  → glossary
+  * Catholicism   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Salian   ⟨dict⟩  → glossary
+    Catalaunian Plains   ⟨dict⟩  → glossary
+    Senate   ⟨dict⟩  → glossary
+  * Middle Ages   ⟨dict⟩  → glossary
+  ~ Africa   ⟨⟩  (advisory)
+  ~ Spain   ⟨recur×3⟩  (advisory)
+  ~ Rhône   ⟨⟩  (advisory)
+  ~ Galicia   ⟨⟩  (advisory)
+  ~ French   ⟨recur×3⟩  (advisory)
+  ~ Louis   ⟨⟩  (advisory)
+  ~ France   ⟨recur×4⟩  (advisory)
+  ~ Indo-European-speaking   ⟨⟩  (advisory)
+  ~ West   ⟨recur×4⟩  (advisory)
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ Rhine-crossers of Chapter   ⟨⟩  (advisory)
+  ~ Christian   ⟨recur×3⟩  (advisory)
+  ~ Christ the Son   ⟨⟩  (advisory)
+  ~ God the Father   ⟨⟩  (advisory)
+  ~ Christ   ⟨⟩  (advisory)
+  ~ Father   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Bible   ⟨dict⟩  (advisory)
+  ~ Nicene Catholic   ⟨⟩  (advisory)
+  ~ Vandal Huneric   ⟨⟩  (advisory)
+  ~ Catholic Christianity   ⟨⟩  (advisory)
+  ~ Gallo-Roman   ⟨⟩  (advisory)
+  ~ Rome   ⟨dict,recur×6⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Arian Gothic   ⟨⟩  (advisory)
+  ~ Visigoth   ⟨⟩  (advisory)
+  ~ Eastern   ⟨dict⟩  (advisory)
+  ~ Roman-looking   ⟨⟩  (advisory)
+  ~ East   ⟨⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ first emperor   ⟨dict-lc⟩  (advisory)
+  ~ the seed of   ⟨dict-lc⟩  (advisory)
+  ~ they were the   ⟨dict-lc⟩  (advisory)
+  ~ the Father   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ bishops   ⟨dict-lc⟩  (advisory)
+  ~ de facto   ⟨dict-lc⟩  (advisory)
+  ~ persecution   ⟨dict-lc⟩  (advisory)
+  ~ migration period.   ⟨dict-lc⟩  (advisory)
+  ~ pagan   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ digest   ⟨dict-lc⟩  (advisory)
+  ~ the Senate   ⟨dict-lc⟩  (advisory)
+  ~ baptism   ⟨rare⟩  (advisory)
+  ~ softens   ⟨rare⟩  (advisory)
+  ~ federates   ⟨rare⟩  (advisory)
+  ~ manages   ⟨rare⟩  (advisory)
+  ~ consubstantial   ⟨rare⟩  (advisory)
+  ~ intermarry   ⟨rare⟩  (advisory)
+  ~ heretics   ⟨rare⟩  (advisory)
+  ~ unreconcilable   ⟨rare⟩  (advisory)
+  ~ gloriously   ⟨rare⟩  (advisory)
+  ~ edifying   ⟨rare⟩  (advisory)
+  ~ stenography   ⟨rare⟩  (advisory)
+  ~ occupier   ⟨rare⟩  (advisory)
+  ~ propagandists   ⟨rare⟩  (advisory)
+  ~ seedbed   ⟨rare⟩  (advisory)
+  ~ federate   ⟨rare⟩  (advisory)
+  ~ homestead   ⟨rare⟩  (advisory)
+  ~ absurdity   ⟨rare⟩  (advisory)
+  ~ abolishers   ⟨rare⟩  (advisory)
+  ~ managers   ⟨rare⟩  (advisory)
+  ~ sharpen   ⟨rare⟩  (advisory)
+  ~ heightening   ⟨rare⟩  (advisory)
+  ~ consulship   ⟨rare⟩  (advisory)
+  ~ personified   ⟨rare⟩  (advisory)
+  ~ fickle   ⟨rare⟩  (advisory)
+  ~ awaiting   ⟨rare⟩  (advisory)
+  ~ convincing   ⟨rare⟩  (advisory)
+  ~ unravelled   ⟨rare⟩  (advisory)
+  ~ executors   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Western Empire   ⟨dict⟩  → glossary
+    Eastern Roman Empire   ⟨dict⟩  → glossary
+    Roman Empire   ⟨dict,recur×3⟩  → cross-link
+    Persia   ⟨dict⟩  → cross-link
+    Vandal   ⟨dict,recur×5⟩  → glossary
+    Vandals   ⟨dict,recur×3⟩  → event
+    Geiseric   ⟨dict⟩  → glossary
+    Carthage   ⟨dict⟩  → cross-link
+    Sardinia   ⟨dict⟩  → glossary
+    Constantinople   ⟨dict⟩  → cross-link
+    Odoacer   ⟨dict⟩  → event
+    Romulus Augustulus   ⟨dict⟩  → event
+    Alans   ⟨dict⟩  → glossary
+    Huns   ⟨dict⟩  → cross-link
+    Gothic War   ⟨dict,bold,recur×3⟩  → event
+    Gothic   ⟨dict,recur×4⟩  → glossary
+    Senate   ⟨dict⟩  → glossary
+  * Greek-speaking   ⟨dict⟩  → glossary
+    Goths   ⟨dict⟩  → cross-link
+    Vandal kingdom   ⟨bold⟩  → event/glossary
+  ~ Europe   ⟨⟩  (advisory)
+  ~ West   ⟨recur×6⟩  (advisory)
+  ~ Italy   ⟨recur×8⟩  (advisory)
+  ~ East   ⟨recur×3⟩  (advisory)
+  ~ Ostrogothic   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Vandal Africa   ⟨⟩  (advisory)
+  ~ African   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Rome   ⟨dict⟩  (advisory)
+  ~ Castrated   ⟨⟩  (advisory)
+  ~ Ostrogothic Italy   ⟨⟩  (advisory)
+  ~ Roman Italy   ⟨⟩  (advisory)
+  ~ came to the throne   ⟨dict-lc⟩  (advisory)
+  ~ restoration   ⟨dict-lc⟩  (advisory)
+  ~ concrete   ⟨dict-lc⟩  (advisory)
+  ~ war with Persia   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ the Huns   ⟨dict-lc⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ the Senate   ⟨dict-lc⟩  (advisory)
+  ~ total war   ⟨dict-lc⟩  (advisory)
+  ~ phases   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ the Goths   ⟨dict-lc⟩  (advisory)
+  ~ clears   ⟨rare⟩  (advisory)
+  ~ mislaid   ⟨rare⟩  (advisory)
+  ~ cruelest   ⟨rare⟩  (advisory)
+  ~ stadium   ⟨rare⟩  (advisory)
+  ~ deranged   ⟨rare⟩  (advisory)
+  ~ solvent   ⟨rare⟩  (advisory)
+  ~ advisers   ⟨rare⟩  (advisory)
+  ~ unaffordable   ⟨rare⟩  (advisory)
+  ~ stunningly   ⟨rare⟩  (advisory)
+  ~ undone   ⟨rare⟩  (advisory)
+  ~ pensioned   ⟨rare⟩  (advisory)
+  ~ watered   ⟨rare⟩  (advisory)
+  ~ metaphorically   ⟨rare⟩  (advisory)
+  ~ calibration   ⟨rare⟩  (advisory)
+  ~ correspondent   ⟨rare⟩  (advisory)
+  ~ reverting   ⟨rare⟩  (advisory)
+  ~ wrecking   ⟨rare⟩  (advisory)
+  ~ liberate   ⟨rare⟩  (advisory)
+  ~ liberating   ⟨rare⟩  (advisory)
+  ~ dearly   ⟨rare⟩  (advisory)
+
+## Chapter 9
+    Procopius   ⟨dict⟩  → glossary
+    Scandinavia   ⟨dict⟩  → cross-link
+    Germanic   ⟨dict,recur×4⟩  → cross-link
+    Gaul   ⟨dict⟩  → glossary
+    British Isles   ⟨dict⟩  → event
+    Plague of Justinian   ⟨dict,bold⟩  → event
+    Eastern Empire   ⟨recur×3⟩  → ?
+    Narses   ⟨dict⟩  → event
+    Indo-European   ⟨dict⟩  → glossary
+    Goths   ⟨dict,recur×4⟩  → cross-link
+    Elbe   ⟨dict⟩  → glossary
+  * Baltic   ⟨dict⟩  → glossary
+    Danube   ⟨dict⟩  → glossary
+    Hungary   ⟨dict⟩  → glossary
+    Adriatic   ⟨dict⟩  → glossary
+    Gothic War   ⟨dict⟩  → event
+    Byzantine   ⟨dict⟩  → cross-link
+    Völkerwanderung   ⟨dict⟩  → glossary
+    Huns   ⟨dict⟩  → cross-link
+    Rhine   ⟨dict⟩  → glossary
+    Vandals   ⟨dict⟩  → event
+    Suebi   ⟨dict⟩  → event
+    Alans   ⟨dict⟩  → glossary
+    Burgundians   ⟨dict⟩  → glossary
+    Franks   ⟨dict⟩  → event
+    Attila   ⟨dict⟩  → cross-link
+    Western Empire   ⟨dict⟩  → glossary
+    Merovingian   ⟨dict⟩  → glossary
+    Clovis   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Gothic   ⟨dict⟩  → glossary
+  ~ Rome   ⟨dict,recur×7⟩  (advisory)
+  ~ West   ⟨recur×5⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ East   ⟨⟩  (advisory)
+  ~ Northern Hemisphere   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict,recur×8⟩  (advisory)
+  ~ North Africa   ⟨dict⟩  (advisory)
+  ~ Italy   ⟨recur×12⟩  (advisory)
+  ~ Spain   ⟨⟩  (advisory)
+  ~ Africa   ⟨⟩  (advisory)
+  ~ Latin Langobardi   ⟨⟩  (advisory)
+  ~ Eastern Roman   ⟨⟩  (advisory)
+  ~ Eastern   ⟨dict⟩  (advisory)
+  ~ Governing   ⟨⟩  (advisory)
+  ~ Church   ⟨recur×3⟩  (advisory)
+  ~ Catholic Franks   ⟨⟩  (advisory)
+  ~ Roman Church   ⟨⟩  (advisory)
+  ~ Roman Gaul   ⟨⟩  (advisory)
+  ~ Latin Church   ⟨⟩  (advisory)
+  ~ Britain   ⟨dict⟩  (advisory)
+  ~ migration period   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ eclipse   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ planet.   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ volcanic winter   ⟨dict-lc⟩  (advisory)
+  ~ the famine   ⟨dict-lc⟩  (advisory)
+  ~ great migration   ⟨dict-lc⟩  (advisory)
+  ~ the Goths   ⟨dict-lc⟩  (advisory)
+  ~ the Baltic   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ the Eastern Empire   ⟨dict-lc⟩  (advisory)
+  ~ the pope   ⟨dict-lc⟩  (advisory)
+  ~ the Huns   ⟨dict-lc⟩  (advisory)
+  ~ the Rhine   ⟨dict-lc⟩  (advisory)
+  ~ demographic   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ bishops   ⟨dict-lc⟩  (advisory)
+  ~ the Franks   ⟨dict-lc⟩  (advisory)
+  ~ dust veil of 536   ⟨bold⟩  (advisory)
+  ~ dimmed   ⟨rare⟩  (advisory)
+  ~ feeble   ⟨rare⟩  (advisory)
+  ~ bluish   ⟨rare⟩  (advisory)
+  ~ coldest   ⟨rare⟩  (advisory)
+  ~ darkened   ⟨rare⟩  (advisory)
+  ~ sharpens   ⟨rare⟩  (advisory)
+  ~ bacterium   ⟨rare⟩  (advisory)
+  ~ pathogen   ⟨rare⟩  (advisory)
+  ~ swellings   ⟨rare⟩  (advisory)
+  ~ genetics   ⟨rare⟩  (advisory)
+  ~ settles   ⟨rare⟩  (advisory)
+  ~ ruining   ⟨rare⟩  (advisory)
+  ~ snowball   ⟨rare⟩  (advisory)
+  ~ assorted   ⟨rare⟩  (advisory)
+  ~ ransomed   ⟨rare⟩  (advisory)
+  ~ dominoes   ⟨rare⟩  (advisory)
+  ~ headstone   ⟨rare⟩  (advisory)
+  ~ federate   ⟨rare⟩  (advisory)
+  ~ afterthought   ⟨rare⟩  (advisory)

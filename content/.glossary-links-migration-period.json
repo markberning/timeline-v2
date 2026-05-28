@@ -77,6 +77,72 @@
       "matchText": "Visigoths",
       "wikiSlug": "Visigoths",
       "type": "people"
+    },
+    {
+      "term": "Indo-European",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Sanskrit",
+      "matchText": "Sanskrit",
+      "wikiSlug": "Sanskrit",
+      "type": "concept"
+    },
+    {
+      "term": "Germani",
+      "matchText": "Germani",
+      "wikiSlug": "Germani",
+      "type": "people"
+    },
+    {
+      "term": "Saxons",
+      "matchText": "Saxons",
+      "wikiSlug": "Saxons",
+      "type": "people"
+    },
+    {
+      "term": "Eurasian steppe",
+      "matchText": "Eurasian steppe",
+      "wikiSlug": "Eurasian_Steppe",
+      "type": "place"
+    },
+    {
+      "term": "Turkic",
+      "matchText": "Turkic",
+      "wikiSlug": "Turkic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Mongolic",
+      "matchText": "Mongolic",
+      "wikiSlug": "Mongolic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Iranian",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_languages",
+      "type": "concept"
     }
   ],
   "2": [
@@ -133,9 +199,183 @@
       "matchText": "civitates",
       "wikiSlug": "Civitas",
       "type": "concept"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic peoples",
+      "wikiSlug": "Germanic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Roman Empire",
+      "matchText": "Roman Empire",
+      "wikiSlug": "Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Julius Caesar",
+      "matchText": "Julius Caesar",
+      "wikiSlug": "Julius_Caesar",
+      "type": "people"
+    },
+    {
+      "term": "Hunnic",
+      "matchText": "Hunnic",
+      "wikiSlug": "Huns",
+      "type": "people"
+    },
+    {
+      "term": "Goths",
+      "matchText": "Goths",
+      "wikiSlug": "Goths",
+      "type": "people"
+    },
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "people"
+    },
+    {
+      "term": "Iranian-speaking",
+      "matchText": "Iranian-speaking",
+      "wikiSlug": "Iranian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Caucasus",
+      "matchText": "Caucasus",
+      "wikiSlug": "Caucasus",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Persian",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Hindi",
+      "matchText": "Hindi",
+      "wikiSlug": "Hindi",
+      "type": "concept"
+    },
+    {
+      "term": "Völkerwanderung",
+      "matchText": "Völkerwanderung",
+      "wikiSlug": "Migration_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Angles",
+      "matchText": "Angles",
+      "wikiSlug": "Angles_(tribe)",
+      "type": "people"
+    },
+    {
+      "term": "Saxons",
+      "matchText": "Saxons",
+      "wikiSlug": "Saxons",
+      "type": "people"
+    },
+    {
+      "term": "Jutes",
+      "matchText": "Jutes",
+      "wikiSlug": "Jutes",
+      "type": "people"
+    },
+    {
+      "term": "North Sea",
+      "matchText": "North Sea",
+      "wikiSlug": "North_Sea",
+      "type": "place"
     }
   ],
   "3": [
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Western Roman Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic people",
+      "wikiSlug": "Germanic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Indo-European",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "people"
+    },
+    {
+      "term": "Ring",
+      "matchText": "Ring",
+      "wikiSlug": "Der_Ring_des_Nibelungen",
+      "type": "concept"
+    },
+    {
+      "term": "Hunnic",
+      "matchText": "Hunnic",
+      "wikiSlug": "Huns",
+      "type": "people"
+    },
+    {
+      "term": "Gothic",
+      "matchText": "Gothic",
+      "wikiSlug": "Goths",
+      "type": "people"
+    },
+    {
+      "term": "Balkans",
+      "matchText": "Balkans",
+      "wikiSlug": "Balkans",
+      "type": "place"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Alans",
+      "matchText": "Alans",
+      "wikiSlug": "Alans",
+      "type": "people"
+    },
+    {
+      "term": "Western Empire",
+      "matchText": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Iranian-speaking",
+      "matchText": "Iranian-speaking",
+      "wikiSlug": "Iranian_languages",
+      "type": "concept"
+    },
     {
       "term": "Burgundians",
       "matchText": "Burgundians",
@@ -287,6 +527,48 @@
       "matchText": "Vandals",
       "wikiSlug": "Vandals",
       "type": "people"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Confessions",
+      "matchText": "Confessions",
+      "wikiSlug": "Confessions_(Augustine)",
+      "type": "concept"
+    },
+    {
+      "term": "Punic Wars",
+      "matchText": "Punic Wars",
+      "wikiSlug": "Punic_Wars",
+      "type": "concept"
+    },
+    {
+      "term": "Black Sea",
+      "matchText": "Black Sea",
+      "wikiSlug": "Black_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Norsemen",
+      "matchText": "Norse",
+      "wikiSlug": "Norsemen",
+      "type": "people"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "the Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
     }
   ],
   "5": [
@@ -373,6 +655,78 @@
       "matchText": "Aetius",
       "wikiSlug": "Flavius_Aetius",
       "type": "people"
+    },
+    {
+      "term": "Huns",
+      "matchText": "the Huns stopped",
+      "wikiSlug": "Huns",
+      "type": "people"
+    },
+    {
+      "term": "Gepids",
+      "matchText": "Gepids",
+      "wikiSlug": "Gepids",
+      "type": "people"
+    },
+    {
+      "term": "East Germanic",
+      "matchText": "East Germanic",
+      "wikiSlug": "East_Germanic_languages",
+      "type": "people"
+    },
+    {
+      "term": "Danube",
+      "matchText": "middle Danube region",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Eastern Roman Empire",
+      "matchText": "Eastern Roman Empire",
+      "wikiSlug": "Eastern_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Germani",
+      "matchText": "the Germani into Rome",
+      "wikiSlug": "Germani",
+      "type": "people"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "into central Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Aquitaine",
+      "matchText": "Aquitaine federates",
+      "wikiSlug": "Aquitaine",
+      "type": "place"
+    },
+    {
+      "term": "Goths",
+      "matchText": "Gothic kings",
+      "wikiSlug": "Goths",
+      "type": "people"
+    },
+    {
+      "term": "Pannonia",
+      "matchText": "province of Pannonia",
+      "wikiSlug": "Pannonia",
+      "type": "place"
+    },
+    {
+      "term": "Pope Leo I",
+      "matchText": "Leo I",
+      "wikiSlug": "Pope_Leo_I",
+      "type": "people"
     }
   ],
   "6": [
@@ -447,6 +801,120 @@
       "matchText": "Constantinople",
       "wikiSlug": "Constantinople",
       "type": "place"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Western Roman Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Western Empire",
+      "matchText": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Burgundians",
+      "matchText": "Burgundians",
+      "wikiSlug": "Burgundians",
+      "type": "people"
+    },
+    {
+      "term": "Battle of the Catalaunian Plains",
+      "matchText": "Catalaunian Plains",
+      "wikiSlug": "Battle_of_the_Catalaunian_Plains",
+      "type": "event"
+    },
+    {
+      "term": "Valentinian III",
+      "matchText": "Valentinian III",
+      "wikiSlug": "Valentinian_III",
+      "type": "people"
+    },
+    {
+      "term": "Gaiseric",
+      "matchText": "Geiseric",
+      "wikiSlug": "Gaiseric",
+      "type": "people"
+    },
+    {
+      "term": "Visigoths",
+      "matchText": "Visigothic",
+      "wikiSlug": "Visigoths",
+      "type": "people"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic",
+      "wikiSlug": "Germanic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arianism",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Huns",
+      "matchText": "Huns",
+      "wikiSlug": "Huns",
+      "type": "people"
+    },
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "people"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Augustus",
+      "matchText": "Augustus",
+      "wikiSlug": "Augustus",
+      "type": "people"
+    },
+    {
+      "term": "Adriatic Sea",
+      "matchText": "Adriatic",
+      "wikiSlug": "Adriatic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
     }
   ],
   "7": [
@@ -563,6 +1031,114 @@
       "matchText": "Battle of Vouillé",
       "wikiSlug": "Battle_of_Vouille",
       "type": "concept"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Visigoths",
+      "matchText": "Visigoths",
+      "wikiSlug": "Visigoths",
+      "type": "people"
+    },
+    {
+      "term": "Burgundians",
+      "matchText": "Burgundians",
+      "wikiSlug": "Burgundians",
+      "type": "people"
+    },
+    {
+      "term": "Suebi",
+      "matchText": "Suebi",
+      "wikiSlug": "Suebi",
+      "type": "people"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Arianism",
+      "matchText": "Arianism",
+      "wikiSlug": "Arianism",
+      "type": "concept"
+    },
+    {
+      "term": "Arius",
+      "matchText": "Arius",
+      "wikiSlug": "Arius",
+      "type": "people"
+    },
+    {
+      "term": "Constantine the Great",
+      "matchText": "Constantine the Great",
+      "wikiSlug": "Constantine_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Francia",
+      "matchText": "Francia",
+      "wikiSlug": "Francia",
+      "type": "concept"
+    },
+    {
+      "term": "Poitiers",
+      "matchText": "Poitiers",
+      "wikiSlug": "Poitiers",
+      "type": "place"
+    },
+    {
+      "term": "Toledo",
+      "matchText": "Toledo",
+      "wikiSlug": "Toledo,_Spain",
+      "type": "place"
+    },
+    {
+      "term": "Catholic Church",
+      "matchText": "Catholic Church",
+      "wikiSlug": "Catholic_Church",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Salian Franks",
+      "matchText": "Salian",
+      "wikiSlug": "Salian_Franks",
+      "type": "people"
+    },
+    {
+      "term": "Battle of the Catalaunian Plains",
+      "matchText": "Catalaunian Plains",
+      "wikiSlug": "Battle_of_the_Catalaunian_Plains",
+      "type": "concept"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Middle Ages",
+      "matchText": "Middle Ages",
+      "wikiSlug": "Middle_Ages",
+      "type": "concept"
     }
   ],
   "8": [
@@ -638,6 +1214,73 @@
       "matchText": "Caesarea",
       "wikiSlug": "Caesarea_Maritima",
       "type": "place"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Gaiseric",
+      "matchText": "Geiseric",
+      "wikiSlug": "Gaiseric",
+      "type": "people"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Alans",
+      "matchText": "Alans",
+      "wikiSlug": "Alans",
+      "type": "people"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Odoacer",
+      "matchText": "Odoacer",
+      "wikiSlug": "Odoacer",
+      "type": "people"
+    },
+    {
+      "term": "Romulus Augustulus",
+      "matchText": "Romulus Augustulus",
+      "wikiSlug": "Romulus_Augustulus",
+      "type": "people"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Vandal Kingdom",
+      "matchText": "Vandal kingdom",
+      "wikiSlug": "Vandal_Kingdom",
+      "type": "place"
+    },
+    {
+      "term": "Gothic War",
+      "matchText": "Gothic War",
+      "wikiSlug": "Gothic_War_(535–554)",
+      "type": "concept"
+    },
+    {
+      "term": "Greek-speaking",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "Greek was the everyday language of the Eastern Roman Empire and its educated class, even though the state still called itself Roman and its law was in Latin. A Greek-speaking official like Procopius was a normal product of that eastern, Hellenized half of the Roman world."
     }
   ],
   "9": [
@@ -705,6 +1348,150 @@
       "term": "Exarch of Ravenna",
       "matchText": "Exarch",
       "wikiSlug": "Exarchate_of_Ravenna",
+      "type": "concept"
+    },
+    {
+      "term": "Procopius",
+      "matchText": "Procopius",
+      "wikiSlug": "Procopius",
+      "type": "people"
+    },
+    {
+      "term": "Scandinavia",
+      "matchText": "Scandinavia",
+      "wikiSlug": "Scandinavia",
+      "type": "place"
+    },
+    {
+      "term": "Germanic peoples",
+      "matchText": "Germanic",
+      "wikiSlug": "Germanic_peoples",
+      "type": "people"
+    },
+    {
+      "term": "Gaul",
+      "matchText": "Gaul",
+      "wikiSlug": "Gaul",
+      "type": "place"
+    },
+    {
+      "term": "British Isles",
+      "matchText": "British Isles",
+      "wikiSlug": "British_Isles",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European languages",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Elbe",
+      "matchText": "Elbe",
+      "wikiSlug": "Elbe",
+      "type": "place"
+    },
+    {
+      "term": "Baltic Sea",
+      "matchText": "Baltic",
+      "wikiSlug": "Baltic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Danube",
+      "matchText": "Danube",
+      "wikiSlug": "Danube",
+      "type": "place"
+    },
+    {
+      "term": "Adriatic Sea",
+      "matchText": "Adriatic",
+      "wikiSlug": "Adriatic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Rhine",
+      "matchText": "Rhine",
+      "wikiSlug": "Rhine",
+      "type": "place"
+    },
+    {
+      "term": "Vandals",
+      "matchText": "Vandals",
+      "wikiSlug": "Vandals",
+      "type": "people"
+    },
+    {
+      "term": "Suebi",
+      "matchText": "Suebi",
+      "wikiSlug": "Suebi",
+      "type": "people"
+    },
+    {
+      "term": "Alans",
+      "matchText": "Alans",
+      "wikiSlug": "Alans",
+      "type": "people"
+    },
+    {
+      "term": "Burgundians",
+      "matchText": "Burgundians",
+      "wikiSlug": "Burgundians",
+      "type": "people"
+    },
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "people"
+    },
+    {
+      "term": "Attila",
+      "matchText": "Attila",
+      "wikiSlug": "Attila",
+      "type": "people"
+    },
+    {
+      "term": "Western Roman Empire",
+      "matchText": "Western Empire",
+      "wikiSlug": "Western_Roman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Merovingian dynasty",
+      "matchText": "Merovingian",
+      "wikiSlug": "Merovingian_dynasty",
+      "type": "people"
+    },
+    {
+      "term": "Clovis I",
+      "matchText": "Clovis",
+      "wikiSlug": "Clovis_I",
+      "type": "people"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Völkerwanderung",
+      "matchText": "Völkerwanderung",
+      "wikiSlug": "Migration_Period",
+      "type": "concept"
+    },
+    {
+      "term": "Huns",
+      "matchText": "Huns",
+      "wikiSlug": "Huns",
+      "type": "people"
+    },
+    {
+      "term": "Byzantine Empire",
+      "matchText": "Byzantine",
+      "wikiSlug": "Byzantine_Empire",
       "type": "concept"
     }
   ]

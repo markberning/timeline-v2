@@ -29,6 +29,12 @@
       "targetTl": "phoenicia",
       "targetChapter": 3,
       "blurb": "The Phoenicians were already sailing the Mediterranean and seeding colonies — including the Carthage that would nearly destroy Rome — while Rome was a village."
+    },
+    {
+      "matchText": "Athens",
+      "targetTl": "ancient-greece",
+      "targetChapter": 2,
+      "blurb": "Athens overthrew its last tyrant, Hippias, in 510 BCE — one year before Rome's traditional date for throwing out its own last king — and within two years Cleisthenes had turned it into the world's first democracy. The Greek world's revulsion at one-man rule was the same political current Rome was riding when it founded the Republic."
     }
   ],
   "2": [
@@ -43,6 +49,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "The Persian Royal Road stretched 1,600 miles from Sardis to Susa with a seven-day courier service. Rome's road network eventually dwarfed it — over 250,000 miles spanning three continents — but the Persian system was the template that proved long-distance road infrastructure could hold an empire together."
+    },
+    {
+      "matchText": "Assyrians had built",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Assyria's engineers were the great hydraulic innovators of the early Near East, cutting long stone-lined channels and aqueducts to feed their capitals — the same idea Rome would borrow and then build at unmatched scale. Rome's pattern throughout: take a Near Eastern invention, perfect the engineering, and replicate it everywhere."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "Carthage began around 814 BCE as a Phoenician colony on the North African coast — Qart Hadasht, the \"New City\" — and grew into the dominant naval and commercial power of the western Mediterranean. Its collision with Rome would become the defining rivalry of the ancient world."
     }
   ],
   "3": [
@@ -57,6 +75,32 @@
       "targetTl": "ancient-greece",
       "targetChapter": 8,
       "blurb": "The Hellenistic kingdoms created by Alexander's generals had dominated the eastern Mediterranean for over a century. Rome's systematic dismantling of these kingdoms between 200 and 30 BCE brought Greek culture, science, and philosophy flooding into Rome — the conqueror was conquered by the culture it absorbed."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "The Phoenicians were a Semitic seafaring people from the Levantine coast (modern Lebanon) who, instead of conquering territory, knit the Mediterranean together with trade routes and colonies. Carthage was their greatest foundation, and it is that Phoenician inheritance — Semitic language, maritime skill, a merchant empire — that Rome confronted and destroyed in the Punic Wars."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Alexander of Macedon conquered the Persian Empire and carved out an empire stretching from Greece to India before dying at 32 in 323 BCE. The successor kingdoms his generals fought over became the Hellenistic world that Rome, fresh from beating Carthage, would dismantle piece by piece in the decades after 200 BCE."
+    }
+  ],
+  "4": [
+    {
+      "matchText": "destruction of Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 8,
+      "blurb": "When Rome finally razed Carthage in 146 BCE — buildings torn down, the population killed or enslaved — it ended a seven-hundred-year-old Phoenician city and flooded Italy with enslaved war captives. That glut of slave labor on the great estates is what broke Rome's small farmers and set the Gracchi's land crisis in motion."
+    },
+    {
+      "matchText": "Germanic tribes",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 2,
+      "blurb": "Around 113 BCE the Cimbri and Teutones — migrating peoples from the far north — smashed army after Roman army and spread panic the Romans called the terror cimbricus. The emergency is what handed Gaius Marius his repeated consulships and let him remake the legions into a professional army loyal to its general rather than the state."
     }
   ],
   "5": [
@@ -77,6 +121,12 @@
       "targetTl": "late-egypt",
       "targetChapter": 6,
       "blurb": "Ptolemy XIII was the teenage pharaoh who had Pompey murdered on the beach, hoping to win Caesar's favor. Instead, Caesar installed Cleopatra VII on the throne, beginning the Roman entanglement with Egypt that would end only when Octavian annexed the country after Actium."
+    },
+    {
+      "matchText": "Alexander the Great",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Alexander the Great of Macedon conquered the Persian Empire and carried Greek culture from Egypt to India before dying at 32. His empire fragmented among his generals into the Hellenistic kingdoms — one of which, the Ptolemaic dynasty in Egypt, produced Cleopatra. Caesar's world was still living in Alexander's shadow three centuries later."
     }
   ],
   "6": [
@@ -91,6 +141,18 @@
       "targetTl": "ancient-china",
       "targetChapter": 8,
       "blurb": "Roman gold flowed east along the Silk Road in exchange for Chinese silk, connecting the two greatest empires of the ancient world. Roman coins have been found in India, Vietnam, and even China — the Pax Romana created the first truly global trade network."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "The land between the Tigris and Euphrates marked the eastern limit of the silver denarius's reach — Rome's coins circulated all the way from Britain to Mesopotamia. By the time those coins arrived, Mesopotamia had already been the cradle of cities, writing, and empire for three thousand years, a depth of antiquity that made even Rome look young."
+    },
+    {
+      "matchText": "Renaissance",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Vitruvius's De Architectura, the only surviving ancient treatise on building, was rediscovered and devoured by Renaissance architects over a thousand years later — Alberti and Palladio built their whole vocabulary of columns and proportion on it. Rome's engineering became the textbook for Italy's rebirth."
     }
   ],
   "7": [
@@ -117,6 +179,30 @@
       "targetTl": "ancient-israel",
       "targetChapter": 8,
       "blurb": "Roman Judaea's revolts and the destruction of the Second Temple (70 CE) are the violent hinge between the ancient Israelite world and the Jewish diaspora."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Trajan briefly pushed Rome's eastern frontier across Mesopotamia (roughly modern Iraq) to the Persian Gulf around 116 CE, the empire's furthest eastern reach. The land between the Tigris and Euphrates had been the cradle of cities, writing, and empire three thousand years before Rome arrived, and its conquests were abandoned by Hadrian almost at once."
+    },
+    {
+      "matchText": "Persian Gulf",
+      "targetTl": "persian-empire",
+      "targetChapter": 7,
+      "blurb": "Trajan's drive to the Persian Gulf carried Rome into a head-on clash with Parthia, the Iranian power that had blocked Rome's eastern ambitions for over a century. The frontier here was never stable; Parthia and its Sassanid successor would remain Rome's great rival in the east."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The city on the Bosphorus that Constantine would refound as his New Rome became Constantinople, capital of the eastern Roman (Byzantine) Empire that outlived the western half by a thousand years. Its great church, Hagia Sophia, would crown a dome inspired by the Roman engineering on display in the Pantheon."
+    },
+    {
+      "matchText": "Germanic",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 7,
+      "blurb": "The Germanic peoples pressing on the Danube under Marcus Aurelius were the same frontier world Rome had fought since Caesar. His Marcomannic Wars were a grinding stalemate against confederations that kept growing larger and more organized until, centuries later, they overran the western empire."
     }
   ],
   "8": [
@@ -151,6 +237,12 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
       "blurb": "Constantine's new capital on the Bosphorus would outlive the western empire by a thousand years — the Roman state continued, Greek-speaking, as Byzantium."
+    },
+    {
+      "matchText": "Visigothic sack of Rome",
+      "targetTl": "the-goths",
+      "targetChapter": 8,
+      "blurb": "In August 410 CE Alaric's Visigoths breached the walls and plundered Rome for three days — the first time a foreign enemy had taken the city in eight hundred years. The sack was restrained by ancient standards (the Goths were Arian Christians who spared the great basilicas), but the psychological shock convulsed the entire Roman world and drove Augustine to write the City of God."
     }
   ],
   "10": [
@@ -165,6 +257,54 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 1,
       "blurb": "476 ended the western empire, not Rome: the eastern half went on as the Byzantine Empire, still calling itself Roman, for another millennium."
+    },
+    {
+      "matchText": "Germanic chieftain",
+      "targetTl": "germanic-tribes",
+      "targetChapter": 10,
+      "blurb": "The man who deposed the last Western emperor was a Germanic warlord, not a Roman — the end product of four centuries in which the peoples beyond the Rhine and Danube moved from raiders to the empire's own soldiers to its successors. What the Germani became is the Germanic tribes narrative."
+    },
+    {
+      "matchText": "Goths",
+      "targetTl": "the-goths",
+      "targetChapter": 1,
+      "blurb": "The Goths — a Germanic people whose long road runs from a Baltic homeland through the Black Sea steppe to the sack of Rome and a kingdom in Italy — get the full telling, including the Ostrogothic state that replaced Odoacer, in the Goths narrative."
+    },
+    {
+      "matchText": "Ostrogoths",
+      "targetTl": "the-goths",
+      "targetChapter": 10,
+      "blurb": "The Ostrogoths (eastern Goths) built the kingdom that took over Italy after Odoacer; Theodoric's Ostrogothic Italy, which tried to govern Romans and Goths as one realm, is told in the Goths narrative."
+    },
+    {
+      "matchText": "Migration Period",
+      "targetTl": "migration-period",
+      "targetChapter": 1,
+      "blurb": "The dissolution of the Western Empire into Vandal, Visigothic, Ostrogothic, and Frankish kingdoms is the subject of the Migration Period narrative, which follows the barbarian peoples as they crossed the frontier and carved up the west."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "When Odoacer sent the imperial regalia east, he acknowledged Constantinople as the sole Roman capital. The eastern empire ran on from there, still calling itself Roman, for nearly another thousand years — the Byzantine Empire."
+    },
+    {
+      "matchText": "Ottoman conquest",
+      "targetTl": "ottoman-empire",
+      "targetChapter": 1,
+      "blurb": "The eastern Roman empire finally ended in 1453, when the Ottoman Turks took Constantinople — the conquest that founded the Ottoman imperial capital and closed the Roman story begun fifteen centuries earlier."
+    },
+    {
+      "matchText": "Punic Wars",
+      "targetTl": "carthage",
+      "targetChapter": 6,
+      "blurb": "The Punic Wars — Rome's century-long death-struggle with Carthage — were the kind of existential crisis the Republic had survived before. Carthage's side of that war, and how it lost, is the Carthage narrative."
+    },
+    {
+      "matchText": "Franks",
+      "targetTl": "migration-period",
+      "targetChapter": 7,
+      "blurb": "The Franks, who carved a kingdom out of northern Gaul as the Western Empire dissolved, became the most durable of the Roman successor states — the seed of medieval France and the Carolingian empire. The successor kingdoms are told in the Migration Period narrative."
     }
   ]
 }
