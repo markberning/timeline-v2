@@ -1,0 +1,864 @@
+# LINK-COVERAGE-NEEDED — middle-horizon-empires
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Peru   ⟨dict,recur×3⟩  → glossary
+    Sipán   ⟨dict⟩  → glossary
+    Early Horizon   ⟨bold⟩  → event/glossary
+    Early Andean Civilizations   ⟨dict⟩  → cross-link
+    Late Horizon   ⟨dict,bold⟩  → glossary
+    Bolivia   ⟨dict⟩  → glossary
+    Amazon   ⟨dict⟩  → glossary
+    Moquegua Valley   ⟨dict⟩  → event
+    Cochabamba Valley   ⟨dict⟩  → glossary
+    Atacama   ⟨dict⟩  → glossary
+    Han Chinese   ⟨dict⟩  → cross-link
+  * Persian   ⟨dict⟩  → cross-link
+    Gateway of the Sun   ⟨dict⟩  → event
+    Pikillaqta   ⟨dict⟩  → cross-link
+    Lake Titicaca   ⟨dict⟩  → cross-link
+    Mesoamerica   ⟨dict,bold⟩  → glossary
+    Indus Valley   ⟨dict⟩  → cross-link
+    Mycenaeans   ⟨dict⟩  → cross-link
+    Hittites   ⟨dict⟩  → cross-link
+    Mesopotamia   ⟨dict⟩  → cross-link
+    Sargon of Akkad   ⟨dict⟩  → cross-link
+    Enheduanna   ⟨dict⟩  → event
+    Code of Hammurabi   ⟨dict⟩  → cross-link
+  * Babylonian   ⟨dict⟩  → glossary
+    Pharaohs   ⟨dict⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Mandate of Heaven   ⟨dict⟩  → event
+    Western Roman Empire   ⟨dict⟩  → cross-link
+    Byzantine   ⟨dict⟩  → cross-link
+    Frankish   ⟨dict⟩  → cross-link
+  * Visigothic   ⟨dict⟩  → cross-link
+    Sui Dynasty   ⟨dict⟩  → cross-link
+  * Middle East   ⟨dict⟩  → glossary
+    Prophet Muhammad   ⟨dict⟩  → glossary
+  * Arab   ⟨dict⟩  → glossary
+  * Arabia   ⟨dict⟩  → glossary
+    Persia   ⟨dict⟩  → cross-link
+    Maya Civilization   ⟨dict⟩  → cross-link
+    Tikal   ⟨dict⟩  → event
+    Calakmul   ⟨dict⟩  → event
+    Mexico   ⟨dict⟩  → glossary
+    Li Bai   ⟨dict⟩  → event
+    Bennett Monolith   ⟨dict⟩  → event
+  ~ Americas   ⟨dict⟩  (advisory)
+  ~ Pacific   ⟨dict⟩  (advisory)
+  ~ Huarmey   ⟨⟩  (advisory)
+  ~ Quelccaya   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict,recur×3⟩  (advisory)
+  ~ China   ⟨dict,bold,recur×3⟩  (advisory)
+  ~ Andes the way   ⟨⟩  (advisory)
+  ~ Europe   ⟨bold⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Islam   ⟨dict⟩  (advisory)
+  ~ Byzantine Syria   ⟨⟩  (advisory)
+  ~ the extended kinship group   ⟨def⟩  (advisory)
+  ~ adobe   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ irrigation canals   ⟨dict-lc⟩  (advisory)
+  ~ drought   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ geoglyphs   ⟨dict-lc,rare⟩  (advisory)
+  ~ puquios   ⟨dict-lc,rare⟩  (advisory)
+  ~ deforestation   ⟨dict-lc⟩  (advisory)
+  ~ huarango   ⟨dict-lc,rare⟩  (advisory)
+  ~ wells   ⟨dict-lc⟩  (advisory)
+  ~ the Inca   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ pottery   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ chili peppers   ⟨dict-lc⟩  (advisory)
+  ~ cotton.   ⟨dict-lc⟩  (advisory)
+  ~ maize   ⟨dict-lc⟩  (advisory)
+  ~ beans   ⟨dict-lc⟩  (advisory)
+  ~ squash.   ⟨dict-lc⟩  (advisory)
+  ~ potatoes   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ kinship   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ ice cores   ⟨dict-lc⟩  (advisory)
+  ~ radiocarbon   ⟨dict-lc⟩  (advisory)
+  ~ stelae   ⟨dict-lc⟩  (advisory)
+  ~ the Indus Valley   ⟨dict-lc⟩  (advisory)
+  ~ coat of arms   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ the Middle East   ⟨dict-lc,bold⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ the Maya   ⟨dict-lc⟩  (advisory)
+  ~ histories   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ huarango trees   ⟨bold⟩  (advisory)
+  ~ yunga   ⟨bold⟩  (advisory)
+  ~ suni   ⟨bold⟩  (advisory)
+  ~ subsurface   ⟨rare⟩  (advisory)
+  ~ climatic   ⟨rare⟩  (advisory)
+  ~ sandwiched   ⟨rare⟩  (advisory)
+  ~ distributions   ⟨rare⟩  (advisory)
+  ~ gradient   ⟨rare⟩  (advisory)
+  ~ horizontally   ⟨rare⟩  (advisory)
+  ~ tubers   ⟨rare⟩  (advisory)
+  ~ fruits   ⟨rare⟩  (advisory)
+  ~ storehouse   ⟨rare⟩  (advisory)
+  ~ decoded   ⟨rare⟩  (advisory)
+  ~ isotope   ⟨rare⟩  (advisory)
+  ~ strata   ⟨rare⟩  (advisory)
+  ~ charred   ⟨rare⟩  (advisory)
+  ~ glacier   ⟨rare⟩  (advisory)
+  ~ fineness   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Alps   ⟨dict⟩  → glossary
+    Andes   ⟨dict,recur×4⟩  → cross-link
+    Aymara   ⟨dict,recur×4⟩  → event
+    Andean   ⟨dict,recur×5⟩  → cross-link
+    Ponce Monolith   ⟨dict,bold⟩  → event
+    Early Andean Civilizations   ⟨dict⟩  → cross-link
+    Wari   ⟨dict,recur×6⟩  → cross-link
+    Inca   ⟨dict⟩  → cross-link
+    Indo-European   ⟨dict⟩  → glossary
+    Homer   ⟨dict⟩  → event
+  * Egyptians   ⟨dict⟩  → glossary
+    Gothic   ⟨dict⟩  → glossary
+    Bennett Monolith   ⟨dict⟩  → event
+  * Mesopotamian   ⟨dict⟩  → cross-link
+    Chile   ⟨dict⟩  → glossary
+    Ayacucho   ⟨dict⟩  → glossary
+    Peru   ⟨dict⟩  → glossary
+  ~ North America   ⟨dict⟩  (advisory)
+  ~ Denver   ⟨⟩  (advisory)
+  ~ Trepalle   ⟨⟩  (advisory)
+  ~ Alpine   ⟨⟩  (advisory)
+  ~ Columbian Americas   ⟨⟩  (advisory)
+  ~ Huatta   ⟨⟩  (advisory)
+  ~ Columbian   ⟨⟩  (advisory)
+  ~ South America   ⟨⟩  (advisory)
+  ~ Wari-era   ⟨⟩  (advisory)
+  ~ Inca Cusco   ⟨⟩  (advisory)
+  ~ Hittite Tarhunna   ⟨⟩  (advisory)
+  ~ Greek Zeus   ⟨⟩  (advisory)
+  ~ Norse Thor   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Door of the Puma   ⟨⟩  (advisory)
+  ~ Plataforma Lítica   ⟨⟩  (advisory)
+  ~ H-shaped   ⟨⟩  (advisory)
+  ~ T-shaped   ⟨⟩  (advisory)
+  ~ Atlantean   ⟨⟩  (advisory)
+  ~ Copacabana   ⟨⟩  (advisory)
+  ~ Yunguyu   ⟨⟩  (advisory)
+  ~ Americas   ⟨dict⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ NYOH   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Moquegua   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ African   ⟨⟩  (advisory)
+  ~ Asian   ⟨⟩  (advisory)
+  ~ Fraile Monolith   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ Pacific   ⟨dict⟩  (advisory)
+  ~ Bolivian   ⟨⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the Alps   ⟨dict-lc⟩  (advisory)
+  ~ counts   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ pre-Columbian Americas.   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ altiplano   ⟨dict-lc,bold,rare⟩  (advisory)
+  ~ high plateau   ⟨dict-lc⟩  (advisory)
+  ~ potatoes   ⟨dict-lc⟩  (advisory)
+  ~ quinoa   ⟨dict-lc,rare⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ pre-Columbian   ⟨dict-lc⟩  (advisory)
+  ~ drainage system   ⟨dict-lc⟩  (advisory)
+  ~ enclosure   ⟨dict-lc⟩  (advisory)
+  ~ sandstone   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ equinoxes   ⟨dict-lc⟩  (advisory)
+  ~ solstices   ⟨dict-lc⟩  (advisory)
+  ~ the Inca   ⟨dict-lc⟩  (advisory)
+  ~ the Andes   ⟨dict-lc⟩  (advisory)
+  ~ plaza   ⟨dict-lc⟩  (advisory)
+  ~ masonry.   ⟨dict-lc⟩  (advisory)
+  ~ copper   ⟨dict-lc⟩  (advisory)
+  ~ vertical   ⟨dict-lc⟩  (advisory)
+  ~ freeze-dried potatoes   ⟨dict-lc⟩  (advisory)
+  ~ maize   ⟨dict-lc⟩  (advisory)
+  ~ coca leaves   ⟨dict-lc⟩  (advisory)
+  ~ transportation.   ⟨dict-lc⟩  (advisory)
+  ~ vertical archipelago   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ ayllu   ⟨dict-lc⟩  (advisory)
+  ~ water   ⟨bold⟩  (advisory)
+  ~ headaches   ⟨rare⟩  (advisory)
+  ~ nausea   ⟨rare⟩  (advisory)
+  ~ sleeplessness   ⟨rare⟩  (advisory)
+  ~ shortness   ⟨rare⟩  (advisory)
+  ~ metabolism   ⟨rare⟩  (advisory)
+  ~ surrounds   ⟨rare⟩  (advisory)
+  ~ treeless   ⟨rare⟩  (advisory)
+  ~ windswept   ⟨rare⟩  (advisory)
+  ~ ulluco   ⟨rare⟩  (advisory)
+  ~ mashua   ⟨rare⟩  (advisory)
+  ~ tubers   ⟨rare⟩  (advisory)
+  ~ grains   ⟨rare⟩  (advisory)
+  ~ frosts   ⟨rare⟩  (advisory)
+  ~ nighttime   ⟨rare⟩  (advisory)
+  ~ thermal   ⟨rare⟩  (advisory)
+  ~ plunges   ⟨rare⟩  (advisory)
+  ~ radiates   ⟨rare⟩  (advisory)
+  ~ unharmed   ⟨rare⟩  (advisory)
+  ~ irrigates   ⟨rare⟩  (advisory)
+  ~ capillary   ⟨rare⟩  (advisory)
+  ~ edible   ⟨rare⟩  (advisory)
+  ~ dryland   ⟨rare⟩  (advisory)
+  ~ sprawl   ⟨rare⟩  (advisory)
+  ~ zigzag   ⟨rare⟩  (advisory)
+  ~ reenactment   ⟨rare⟩  (advisory)
+  ~ shines   ⟨rare⟩  (advisory)
+  ~ lintel   ⟨rare⟩  (advisory)
+  ~ frontally   ⟨rare⟩  (advisory)
+  ~ viewer   ⟨rare⟩  (advisory)
+  ~ downturned   ⟨rare⟩  (advisory)
+  ~ sunburst   ⟨rare⟩  (advisory)
+  ~ feline   ⟨rare⟩  (advisory)
+  ~ meander   ⟨rare⟩  (advisory)
+  ~ reappears   ⟨rare⟩  (advisory)
+  ~ propagates   ⟨rare⟩  (advisory)
+  ~ analogue   ⟨rare⟩  (advisory)
+  ~ unimpressive   ⟨rare⟩  (advisory)
+  ~ tolerances   ⟨rare⟩  (advisory)
+  ~ millimeters   ⟨rare⟩  (advisory)
+  ~ notches   ⟨rare⟩  (advisory)
+  ~ tenons   ⟨rare⟩  (advisory)
+  ~ interlock   ⟨rare⟩  (advisory)
+  ~ jigsaw   ⟨rare⟩  (advisory)
+  ~ stoneworkers   ⟨rare⟩  (advisory)
+  ~ chisels   ⟨rare⟩  (advisory)
+  ~ igneous   ⟨rare⟩  (advisory)
+  ~ achievable   ⟨rare⟩  (advisory)
+  ~ vaulting   ⟨rare⟩  (advisory)
+  ~ magnet   ⟨rare⟩  (advisory)
+  ~ pseudoarchaeology   ⟨rare⟩  (advisory)
+  ~ astronauts   ⟨rare⟩  (advisory)
+  ~ transportable   ⟨rare⟩  (advisory)
+  ~ sledge   ⟨rare⟩  (advisory)
+  ~ interlocked   ⟨rare⟩  (advisory)
+  ~ lintels   ⟨rare⟩  (advisory)
+  ~ daytime   ⟨rare⟩  (advisory)
+  ~ circulatory   ⟨rare⟩  (advisory)
+  ~ journeys   ⟨rare⟩  (advisory)
+  ~ altitudes   ⟨rare⟩  (advisory)
+  ~ monoliths   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Lake Titicaca   ⟨dict⟩  → cross-link
+    Andes   ⟨dict⟩  → cross-link
+    Middle Horizon   ⟨dict⟩  → cross-link
+    Mughals   ⟨dict⟩  → cross-link
+  * Persian   ⟨dict⟩  → cross-link
+    Rímac Valley   ⟨dict⟩  → glossary
+    Lima   ⟨dict⟩  → glossary
+    Callejón de Huaylas   ⟨dict⟩  → glossary
+    Huánuco Pampa   ⟨dict⟩  → glossary
+    Quechua   ⟨dict⟩  → cross-link
+    Andean   ⟨dict,recur×3⟩  → cross-link
+  * Polish   ⟨dict⟩  → glossary
+    Peru   ⟨dict⟩  → glossary
+    Cerro Baúl   ⟨dict⟩  → cross-link
+  * Mesoamerican   ⟨dict⟩  → glossary
+  * Eurasian   ⟨dict⟩  → glossary
+    Tang Dynasty   ⟨dict,bold⟩  → cross-link
+    Xi'an   ⟨dict⟩  → glossary
+  ~ Peruvian   ⟨⟩  (advisory)
+  ~ Huari   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ English-language   ⟨⟩  (advisory)
+  ~ Tiwanaku-derived   ⟨⟩  (advisory)
+  ~ Romans   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Japanese   ⟨⟩  (advisory)
+  ~ Chinese Buddhism   ⟨⟩  (advisory)
+  ~ Columbian Americas   ⟨⟩  (advisory)
+  ~ Huamachuco   ⟨⟩  (advisory)
+  ~ Pacific   ⟨dict⟩  (advisory)
+  ~ Huanta   ⟨⟩  (advisory)
+  ~ Vilcashuaman   ⟨⟩  (advisory)
+  ~ Tambo Colorado   ⟨⟩  (advisory)
+  ~ Miłosz Giersz   ⟨⟩  (advisory)
+  ~ Patrycja Prządka-Giersz   ⟨⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ astronomical alignment   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ altiplano   ⟨dict-lc,rare⟩  (advisory)
+  ~ maize   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ polychrome   ⟨dict-lc⟩  (advisory)
+  ~ pilgrims   ⟨dict-lc⟩  (advisory)
+  ~ enclosure   ⟨dict-lc⟩  (advisory)
+  ~ patio   ⟨dict-lc⟩  (advisory)
+  ~ pre-Columbian Americas   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ modern Lima.   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ hectares   ⟨dict-lc⟩  (advisory)
+  ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ ayllu   ⟨dict-lc⟩  (advisory)
+  ~ person-days   ⟨dict-lc⟩  (advisory)
+  ~ mausoleum   ⟨dict-lc⟩  (advisory)
+  ~ matrilineal   ⟨dict-lc,rare⟩  (advisory)
+  ~ chicha   ⟨dict-lc,rare⟩  (advisory)
+  ~ brewery   ⟨dict-lc,rare⟩  (advisory)
+  ~ adobe   ⟨dict-lc⟩  (advisory)
+  ~ giant ceramic urns   ⟨bold⟩  (advisory)
+  ~ provincial administrative centers   ⟨bold⟩  (advisory)
+  ~ tubers   ⟨rare⟩  (advisory)
+  ~ agglomeration   ⟨rare⟩  (advisory)
+  ~ gallons   ⟨rare⟩  (advisory)
+  ~ sunburst   ⟨rare⟩  (advisory)
+  ~ prompt   ⟨rare⟩  (advisory)
+  ~ lakeside   ⟨rare⟩  (advisory)
+  ~ adopts   ⟨rare⟩  (advisory)
+  ~ upgrading   ⟨rare⟩  (advisory)
+  ~ enclosing   ⟨rare⟩  (advisory)
+  ~ patios   ⟨rare⟩  (advisory)
+  ~ screams   ⟨rare⟩  (advisory)
+  ~ surveyed   ⟨rare⟩  (advisory)
+  ~ identically   ⟨rare⟩  (advisory)
+  ~ storehouses   ⟨rare⟩  (advisory)
+  ~ dignitaries   ⟨rare⟩  (advisory)
+  ~ sectors   ⟨rare⟩  (advisory)
+  ~ removable   ⟨rare⟩  (advisory)
+  ~ ladders   ⟨rare⟩  (advisory)
+  ~ stairs   ⟨rare⟩  (advisory)
+  ~ templated   ⟨rare⟩  (advisory)
+  ~ rigorously   ⟨rare⟩  (advisory)
+  ~ storehouse   ⟨rare⟩  (advisory)
+  ~ assemblage   ⟨rare⟩  (advisory)
+  ~ downtown   ⟨rare⟩  (advisory)
+  ~ topography   ⟨rare⟩  (advisory)
+  ~ fieldstone   ⟨rare⟩  (advisory)
+  ~ antecedent   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Wari   ⟨dict,bold,recur×18⟩  → cross-link
+    Andes   ⟨dict,recur×8⟩  → cross-link
+    Middle Horizon   ⟨dict,recur×6⟩  → cross-link
+    Ayacucho   ⟨dict⟩  → glossary
+    Lake Titicaca   ⟨dict⟩  → cross-link
+    Atacama   ⟨dict,bold⟩  → glossary
+    Staff God   ⟨dict⟩  → cross-link
+    Early Andean Civilizations   ⟨dict⟩  → cross-link
+  * Andean   ⟨dict⟩  → cross-link
+    Andean Kingdoms   ⟨dict⟩  → cross-link
+    Inca   ⟨dict⟩  → cross-link
+    Viracochapampa   ⟨dict⟩  → event
+    Cajamarquilla   ⟨dict⟩  → event
+    Pachacamac   ⟨dict⟩  → event
+    Pikillaqta   ⟨dict⟩  → cross-link
+    Cusco   ⟨dict⟩  → glossary
+    Cajamarca   ⟨dict⟩  → glossary
+    Peru   ⟨dict⟩  → glossary
+    Bolivia   ⟨dict,recur×3⟩  → glossary
+    Chile   ⟨dict,recur×3⟩  → glossary
+    Cochabamba Valley   ⟨dict⟩  → glossary
+    Abbasid   ⟨dict⟩  → cross-link
+    Geographically   ⟨bold⟩  → event/glossary
+    Administratively   ⟨bold⟩  → event/glossary
+    Religiously   ⟨bold⟩  → event/glossary
+    Economically   ⟨bold⟩  → event/glossary
+    Linguistically   ⟨bold⟩  → event/glossary
+    Position one   ⟨bold⟩  → event/glossary
+    Position two   ⟨bold⟩  → event/glossary
+    Position three   ⟨bold⟩  → event/glossary
+    Position four   ⟨bold⟩  → event/glossary
+  ~ Anadenanthera   ⟨⟩  (advisory)
+  ~ Echinopsis   ⟨⟩  (advisory)
+  ~ Chavín-derived   ⟨⟩  (advisory)
+  ~ Tiahuanaco   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Marañón   ⟨⟩  (advisory)
+  ~ Tarapacá   ⟨⟩  (advisory)
+  ~ Tiwanaku-affiliated   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ great powers   ⟨dict-lc⟩  (advisory)
+  ~ brewery   ⟨dict-lc,rare⟩  (advisory)
+  ~ altiplano   ⟨dict-lc,rare⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ llama caravan   ⟨dict-lc⟩  (advisory)
+  ~ wamani   ⟨dict-lc,rare⟩  (advisory)
+  ~ vertical archipelago   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ mit'a   ⟨dict-lc⟩  (advisory)
+  ~ polychrome ceramics   ⟨dict-lc⟩  (advisory)
+  ~ llama caravans   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ the Inca   ⟨dict-lc⟩  (advisory)
+  ~ khipus   ⟨dict-lc,rare⟩  (advisory)
+  ~ oral tradition   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ wamani system.   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ demographic   ⟨dict-lc⟩  (advisory)
+  ~ the Andes   ⟨dict-lc⟩  (advisory)
+  ~ caliphate   ⟨dict-lc⟩  (advisory)
+  ~ marriage alliances   ⟨dict-lc⟩  (advisory)
+  ~ caliph's   ⟨dict-lc⟩  (advisory)
+  ~ swaths   ⟨rare⟩  (advisory)
+  ~ interact   ⟨rare⟩  (advisory)
+  ~ shutdown   ⟨rare⟩  (advisory)
+  ~ interacting   ⟨rare⟩  (advisory)
+  ~ drainages   ⟨rare⟩  (advisory)
+  ~ psychoactive   ⟨rare⟩  (advisory)
+  ~ colubrina   ⟨rare⟩  (advisory)
+  ~ cactus   ⟨rare⟩  (advisory)
+  ~ pachanoi   ⟨rare⟩  (advisory)
+  ~ indiscriminately   ⟨rare⟩  (advisory)
+  ~ pioneer   ⟨rare⟩  (advisory)
+  ~ storehouses   ⟨rare⟩  (advisory)
+  ~ departures   ⟨rare⟩  (advisory)
+  ~ hypotheses   ⟨rare⟩  (advisory)
+  ~ verification   ⟨rare⟩  (advisory)
+  ~ deterrence   ⟨rare⟩  (advisory)
+  ~ protocols   ⟨rare⟩  (advisory)
+  ~ indifference   ⟨rare⟩  (advisory)
+  ~ complementarity   ⟨rare⟩  (advisory)
+  ~ umbrella   ⟨rare⟩  (advisory)
+  ~ interacted   ⟨rare⟩  (advisory)
+  ~ limitation   ⟨rare⟩  (advisory)
+  ~ similarity   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Andes   ⟨dict⟩  → cross-link
+    Wari   ⟨dict,recur×23⟩  → cross-link
+    Ayacucho   ⟨dict⟩  → glossary
+    Moquegua Valley   ⟨dict,recur×6⟩  → event
+    Chen Chen   ⟨bold⟩  → event/glossary
+    Cerro Echenique   ⟨bold⟩  → event/glossary
+    Tiwanaku-style   ⟨recur×4⟩  → ?
+  * United States   ⟨dict⟩  → cross-link
+    Middle Horizon   ⟨dict⟩  → cross-link
+    Inca   ⟨dict⟩  → cross-link
+  ~ Trunk Hill   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ Moquegua Valley of southern Peru   ⟨⟩  (advisory)
+  ~ Pacific   ⟨dict⟩  (advisory)
+  ~ Tiwanaku-affiliated   ⟨⟩  (advisory)
+  ~ Excavation of the   ⟨⟩  (advisory)
+  ~ Moquegua   ⟨⟩  (advisory)
+  ~ Wari-Tiwanaku   ⟨⟩  (advisory)
+  ~ three centuries of co-occupation   ⟨def⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ quechua   ⟨dict-lc,rare⟩  (advisory)
+  ~ vertical archipelago   ⟨dict-lc⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ patio   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ the Andes   ⟨dict-lc⟩  (advisory)
+  ~ party   ⟨dict-lc⟩  (advisory)
+  ~ hospitality   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ accommodation   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ polychrome   ⟨dict-lc⟩  (advisory)
+  ~ silhouette   ⟨rare⟩  (advisory)
+  ~ switchback   ⟨rare⟩  (advisory)
+  ~ impractical   ⟨rare⟩  (advisory)
+  ~ installation   ⟨rare⟩  (advisory)
+  ~ loomed   ⟨rare⟩  (advisory)
+  ~ watchtower   ⟨rare⟩  (advisory)
+  ~ intermarry   ⟨rare⟩  (advisory)
+  ~ hybridize   ⟨rare⟩  (advisory)
+  ~ beverage   ⟨rare⟩  (advisory)
+  ~ installations   ⟨rare⟩  (advisory)
+  ~ fermenting   ⟨rare⟩  (advisory)
+  ~ gallons   ⟨rare⟩  (advisory)
+  ~ lubricant   ⟨rare⟩  (advisory)
+  ~ dignitaries   ⟨rare⟩  (advisory)
+  ~ evocative   ⟨rare⟩  (advisory)
+  ~ brewing   ⟨rare⟩  (advisory)
+  ~ decommissioning   ⟨rare⟩  (advisory)
+  ~ occupant   ⟨rare⟩  (advisory)
+  ~ somber   ⟨rare⟩  (advisory)
+  ~ deterrence   ⟨rare⟩  (advisory)
+  ~ expresses   ⟨rare⟩  (advisory)
+  ~ ambiguously   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Andean   ⟨dict,recur×7⟩  → cross-link
+    Inca   ⟨dict,recur×21⟩  → cross-link
+    Andes   ⟨dict,recur×13⟩  → cross-link
+    Moche   ⟨dict⟩  → cross-link
+    Andean Kingdoms   ⟨dict⟩  → cross-link
+    Peru   ⟨dict,recur×6⟩  → glossary
+  * Middle East   ⟨dict⟩  → glossary
+    Peruvian   ⟨recur×3⟩  → ?
+    Cerro Baúl   ⟨dict⟩  → cross-link
+    Cotapachi   ⟨bold⟩  → event/glossary
+    Cochabamba   ⟨dict⟩  → glossary
+    Bolivia   ⟨dict,recur×4⟩  → glossary
+    Harvard   ⟨dict⟩  → glossary
+    Staff God   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+    Ecuador   ⟨dict⟩  → glossary
+    Argentina   ⟨dict⟩  → glossary
+    Colombia   ⟨dict⟩  → glossary
+    Chile   ⟨dict⟩  → glossary
+    Ayacucho   ⟨dict⟩  → glossary
+    Tiwanaku   ⟨dict,recur×4⟩  → cross-link
+    Lake Titicaca   ⟨dict⟩  → cross-link
+    Middle Horizon   ⟨dict⟩  → cross-link
+  ~ Huari   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ North Africa   ⟨dict⟩  (advisory)
+  ~ Spanish   ⟨dict,recur×8⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ South America   ⟨⟩  (advisory)
+  ~ Inca-era   ⟨⟩  (advisory)
+  ~ three pieces   ⟨dict-lc⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ the Inca   ⟨dict-lc⟩  (advisory)
+  ~ pottery   ⟨dict-lc⟩  (advisory)
+  ~ llama caravan   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ llama caravans   ⟨dict-lc,bold⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ the Middle East   ⟨dict-lc⟩  (advisory)
+  ~ legions   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ the Andes   ⟨dict-lc⟩  (advisory)
+  ~ draft animals   ⟨dict-lc⟩  (advisory)
+  ~ llama   ⟨dict-lc⟩  (advisory)
+  ~ llamas   ⟨dict-lc,rare⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ chuño   ⟨dict-lc⟩  (advisory)
+  ~ charqui   ⟨dict-lc,rare⟩  (advisory)
+  ~ copper   ⟨dict-lc⟩  (advisory)
+  ~ wamani   ⟨dict-lc,rare⟩  (advisory)
+  ~ knots   ⟨dict-lc⟩  (advisory)
+  ~ papyrus   ⟨dict-lc⟩  (advisory)
+  ~ paper.   ⟨dict-lc⟩  (advisory)
+  ~ proto-writing   ⟨dict-lc⟩  (advisory)
+  ~ kero drinking cups   ⟨dict-lc⟩  (advisory)
+  ~ polychrome   ⟨dict-lc⟩  (advisory)
+  ~ de facto   ⟨dict-lc⟩  (advisory)
+  ~ altiplano   ⟨dict-lc,rare⟩  (advisory)
+  ~ colonies   ⟨dict-lc⟩  (advisory)
+  ~ storehouses   ⟨bold,rare⟩  (advisory)
+  ~ runners   ⟨bold,rare⟩  (advisory)
+  ~ storehouse system   ⟨bold⟩  (advisory)
+  ~ language   ⟨bold⟩  (advisory)
+  ~ staircases   ⟨rare⟩  (advisory)
+  ~ steepest   ⟨rare⟩  (advisory)
+  ~ installation   ⟨rare⟩  (advisory)
+  ~ pedestrian   ⟨rare⟩  (advisory)
+  ~ underfoot   ⟨rare⟩  (advisory)
+  ~ marveled   ⟨rare⟩  (advisory)
+  ~ refurbishment   ⟨rare⟩  (advisory)
+  ~ roadbeds   ⟨rare⟩  (advisory)
+  ~ storehouse   ⟨rare⟩  (advisory)
+  ~ charred   ⟨rare⟩  (advisory)
+  ~ residues   ⟨rare⟩  (advisory)
+  ~ bundled   ⟨rare⟩  (advisory)
+  ~ stockpiled   ⟨rare⟩  (advisory)
+  ~ relieving   ⟨rare⟩  (advisory)
+  ~ duplicated   ⟨rare⟩  (advisory)
+  ~ realize   ⟨rare⟩  (advisory)
+  ~ database   ⟨rare⟩  (advisory)
+  ~ persistently   ⟨rare⟩  (advisory)
+  ~ tunics   ⟨rare⟩  (advisory)
+  ~ mantles   ⟨rare⟩  (advisory)
+  ~ emergent   ⟨rare⟩  (advisory)
+  ~ patterning   ⟨rare⟩  (advisory)
+  ~ decoding   ⟨rare⟩  (advisory)
+  ~ staffs   ⟨rare⟩  (advisory)
+  ~ bearer   ⟨rare⟩  (advisory)
+  ~ fluency   ⟨rare⟩  (advisory)
+  ~ imprint   ⟨rare⟩  (advisory)
+  ~ foremen   ⟨rare⟩  (advisory)
+  ~ managers   ⟨rare⟩  (advisory)
+  ~ corresponds   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Middle Horizon   ⟨dict,recur×10⟩  → cross-link
+    Gateway of the Sun   ⟨dict,recur×4⟩  → event
+    Conchopata   ⟨dict⟩  → event
+    Chavín   ⟨dict⟩  → glossary
+    Early Andean Civilizations   ⟨dict⟩  → cross-link
+    Tiwanaku   ⟨dict,recur×13⟩  → cross-link
+    Andean   ⟨dict,recur×8⟩  → cross-link
+    Chavín de Huántar   ⟨dict⟩  → cross-link
+    Inca   ⟨dict,recur×8⟩  → cross-link
+    Cusco   ⟨dict⟩  → glossary
+    Horus   ⟨dict⟩  → glossary
+    Isis   ⟨dict⟩  → glossary
+    Andes   ⟨dict,recur×3⟩  → cross-link
+    San Pedro   ⟨dict⟩  → glossary
+    Vedic Sanskrit   ⟨dict⟩  → event
+    Vedic Period   ⟨dict⟩  → cross-link
+    Brahmin   ⟨dict⟩  → glossary
+    Mexico   ⟨dict⟩  → glossary
+    Western Hemisphere   ⟨dict⟩  → glossary
+    Akapana   ⟨dict⟩  → event
+    Kalasasaya   ⟨dict⟩  → event
+    Hallucinogens   ⟨bold⟩  → event/glossary
+    San Pedro cactus   ⟨bold⟩  → event/glossary
+    Coca leaves   ⟨bold⟩  → event/glossary
+  ~ Earlier   ⟨⟩  (advisory)
+  ~ Tiwanaku-derived   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ Peruvian   ⟨⟩  (advisory)
+  ~ Egyptian   ⟨⟩  (advisory)
+  ~ Anubis   ⟨⟩  (advisory)
+  ~ Pharaonic   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Late Period Horus   ⟨⟩  (advisory)
+  ~ Pedro   ⟨⟩  (advisory)
+  ~ Erythroxylum   ⟨⟩  (advisory)
+  ~ Banisteriopsis   ⟨⟩  (advisory)
+  ~ Psychotria   ⟨⟩  (advisory)
+  ~ Amazonian   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Huichol   ⟨⟩  (advisory)
+  ~ contact with the divine   ⟨def⟩  (advisory)
+  ~ tablet in the other   ⟨def⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ granite   ⟨dict-lc⟩  (advisory)
+  ~ polychrome   ⟨dict-lc⟩  (advisory)
+  ~ painting   ⟨dict-lc⟩  (advisory)
+  ~ the Inca   ⟨dict-lc⟩  (advisory)
+  ~ altiplano   ⟨dict-lc,rare⟩  (advisory)
+  ~ mescaline   ⟨dict-lc,rare⟩  (advisory)
+  ~ elite burials.   ⟨dict-lc⟩  (advisory)
+  ~ decorated   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ chicha   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Andes.   ⟨dict-lc⟩  (advisory)
+  ~ ancient Greece   ⟨dict-lc⟩  (advisory)
+  ~ barley   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ underworld   ⟨dict-lc,bold⟩  (advisory)
+  ~ vertical   ⟨dict-lc⟩  (advisory)
+  ~ kero drinking cups   ⟨dict-lc⟩  (advisory)
+  ~ plaza   ⟨dict-lc⟩  (advisory)
+  ~ royal road   ⟨dict-lc⟩  (advisory)
+  ~ drainage system   ⟨dict-lc⟩  (advisory)
+  ~ wamani.   ⟨dict-lc,rare⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ animal triad   ⟨bold⟩  (advisory)
+  ~ hallucinogenic plants   ⟨bold⟩  (advisory)
+  ~ peyote   ⟨bold,rare⟩  (advisory)
+  ~ earth zone   ⟨bold⟩  (advisory)
+  ~ upper world   ⟨bold⟩  (advisory)
+  ~ emphasis   ⟨bold⟩  (advisory)
+  ~ content   ⟨bold⟩  (advisory)
+  ~ antecedents   ⟨rare⟩  (advisory)
+  ~ monumentalize   ⟨rare⟩  (advisory)
+  ~ propagate   ⟨rare⟩  (advisory)
+  ~ feline   ⟨rare⟩  (advisory)
+  ~ kenning   ⟨rare⟩  (advisory)
+  ~ fanged   ⟨rare⟩  (advisory)
+  ~ reappears   ⟨rare⟩  (advisory)
+  ~ lintel   ⟨rare⟩  (advisory)
+  ~ sunburst   ⟨rare⟩  (advisory)
+  ~ plaque   ⟨rare⟩  (advisory)
+  ~ hallucinogenic   ⟨rare⟩  (advisory)
+  ~ pharmacopeia   ⟨rare⟩  (advisory)
+  ~ psychoactive   ⟨rare⟩  (advisory)
+  ~ bufotenin   ⟨rare⟩  (advisory)
+  ~ tryptamine   ⟨rare⟩  (advisory)
+  ~ inhaled   ⟨rare⟩  (advisory)
+  ~ nostril   ⟨rare⟩  (advisory)
+  ~ cactus   ⟨rare⟩  (advisory)
+  ~ columnar   ⟨rare⟩  (advisory)
+  ~ sliced   ⟨rare⟩  (advisory)
+  ~ boiled   ⟨rare⟩  (advisory)
+  ~ cocaine   ⟨rare⟩  (advisory)
+  ~ alkaloids   ⟨rare⟩  (advisory)
+  ~ stimulant   ⟨rare⟩  (advisory)
+  ~ viridis   ⟨rare⟩  (advisory)
+  ~ cylinders   ⟨rare⟩  (advisory)
+  ~ insert   ⟨rare⟩  (advisory)
+  ~ hallucinations   ⟨rare⟩  (advisory)
+  ~ emotion   ⟨rare⟩  (advisory)
+  ~ substances   ⟨rare⟩  (advisory)
+  ~ inhalation   ⟨rare⟩  (advisory)
+  ~ authorizes   ⟨rare⟩  (advisory)
+  ~ fungus   ⟨rare⟩  (advisory)
+  ~ beverage   ⟨rare⟩  (advisory)
+  ~ initiates   ⟨rare⟩  (advisory)
+  ~ embedding   ⟨rare⟩  (advisory)
+  ~ assemblages   ⟨rare⟩  (advisory)
+  ~ vulture   ⟨rare⟩  (advisory)
+  ~ wingspan   ⟨rare⟩  (advisory)
+  ~ altitudes   ⟨rare⟩  (advisory)
+  ~ constrictor   ⟨rare⟩  (advisory)
+  ~ venomous   ⟨rare⟩  (advisory)
+  ~ chthonic   ⟨rare⟩  (advisory)
+  ~ triadic   ⟨rare⟩  (advisory)
+  ~ kuntur   ⟨rare⟩  (advisory)
+  ~ fundamentals   ⟨rare⟩  (advisory)
+  ~ iconographically   ⟨rare⟩  (advisory)
+  ~ propagated   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Andes   ⟨dict,recur×6⟩  → cross-link
+    Peruvian   ⟨recur×3⟩  → ?
+    Lake Titicaca   ⟨dict,recur×3⟩  → cross-link
+    Akapana   ⟨dict⟩  → event
+    Kalasasaya   ⟨dict⟩  → event
+    Gateway of the Sun   ⟨dict⟩  → event
+    Pumapunku   ⟨dict⟩  → event
+    Cerro Baúl   ⟨dict⟩  → cross-link
+    Cusco   ⟨dict,recur×5⟩  → glossary
+    Viracochapampa   ⟨dict⟩  → event
+    Middle Horizon   ⟨dict,recur×10⟩  → cross-link
+    Andean   ⟨dict,recur×7⟩  → cross-link
+    Pikillaqta   ⟨dict⟩  → cross-link
+    Killke   ⟨dict⟩  → event
+    Staff God   ⟨dict⟩  → cross-link
+    Huánuco Pampa   ⟨dict⟩  → glossary
+    Qhapaq Ñan   ⟨dict⟩  → cross-link
+    Quechua   ⟨dict⟩  → cross-link
+    Wiracocha   ⟨dict⟩  → glossary
+    Colombia   ⟨dict⟩  → glossary
+    Chile   ⟨dict⟩  → glossary
+    Cajamarca   ⟨dict⟩  → glossary
+    Peru   ⟨dict⟩  → glossary
+    Moche   ⟨dict⟩  → cross-link
+    Andean Kingdoms   ⟨dict⟩  → cross-link
+    Gordon McEwan   ⟨bold⟩  → event/glossary
+    Anita Cook   ⟨bold⟩  → event/glossary
+    Castillo de Huarmey   ⟨dict,bold⟩  → cross-link
+  * Polish   ⟨dict⟩  → glossary
+    Patrick Williams   ⟨bold⟩  → event/glossary
+    Donna Nash   ⟨bold⟩  → event/glossary
+    Tang Chinese   ⟨dict⟩  → cross-link
+    Yucatán   ⟨dict⟩  → glossary
+    Petén   ⟨dict⟩  → glossary
+    Norse   ⟨dict⟩  → glossary
+    Greenland   ⟨dict⟩  → cross-link
+    Newfoundland   ⟨dict⟩  → event
+    Viking Age   ⟨dict⟩  → cross-link
+    Postclassic Maya   ⟨dict⟩  → cross-link
+    Chavín   ⟨dict⟩  → glossary
+    Julio C. Tello   ⟨bold⟩  → event/glossary
+  ~ Sometime   ⟨⟩  (advisory)
+  ~ CE the climate   ⟨⟩  (advisory)
+  ~ Baúl   ⟨⟩  (advisory)
+  ~ Huari   ⟨⟩  (advisory)
+  ~ Columbian   ⟨⟩  (advisory)
+  ~ South America   ⟨⟩  (advisory)
+  ~ Cuchimilco   ⟨⟩  (advisory)
+  ~ Lupaqa   ⟨⟩  (advisory)
+  ~ Colla   ⟨⟩  (advisory)
+  ~ Pacajes   ⟨⟩  (advisory)
+  ~ Killke-period   ⟨⟩  (advisory)
+  ~ Vilcashuaman   ⟨⟩  (advisory)
+  ~ Tambo Colorado   ⟨⟩  (advisory)
+  ~ Columbian Americas   ⟨⟩  (advisory)
+  ~ Cusco-based   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict,recur×7⟩  (advisory)
+  ~ Miłosz   ⟨⟩  (advisory)
+  ~ Patrycja Giersz   ⟨⟩  (advisory)
+  ~ Wari-Tiwanaku   ⟨⟩  (advisory)
+  ~ Byzantine Greeks   ⟨⟩  (advisory)
+  ~ Carolingian Franks   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Five Dynasties   ⟨⟩  (advisory)
+  ~ Ten Kingdoms   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Iceland   ⟨dict⟩  (advisory)
+  ~ Andean Middle Horizon   ⟨⟩  (advisory)
+  ~ Tiwanaku-Wari   ⟨⟩  (advisory)
+  ~ Common Era   ⟨⟩  (advisory)
+  ~ ice cores   ⟨dict-lc⟩  (advisory)
+  ~ tropical   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ suka kollu   ⟨dict-lc⟩  (advisory)
+  ~ water table   ⟨dict-lc⟩  (advisory)
+  ~ channel   ⟨dict-lc⟩  (advisory)
+  ~ altiplano   ⟨dict-lc,rare⟩  (advisory)
+  ~ pilgrims   ⟨dict-lc⟩  (advisory)
+  ~ wamani   ⟨dict-lc,rare⟩  (advisory)
+  ~ tribute   ⟨dict-lc⟩  (advisory)
+  ~ capital.   ⟨dict-lc⟩  (advisory)
+  ~ brewery   ⟨dict-lc,rare⟩  (advisory)
+  ~ ayllu   ⟨dict-lc⟩  (advisory)
+  ~ adobe   ⟨dict-lc⟩  (advisory)
+  ~ pre-Columbian   ⟨dict-lc⟩  (advisory)
+  ~ raised-field agriculture   ⟨dict-lc⟩  (advisory)
+  ~ vertical archipelago   ⟨dict-lc⟩  (advisory)
+  ~ mit'a   ⟨dict-lc⟩  (advisory)
+  ~ patio   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ qollqa   ⟨dict-lc,rare⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ khipu   ⟨dict-lc⟩  (advisory)
+  ~ chicha   ⟨dict-lc,rare⟩  (advisory)
+  ~ vilca   ⟨dict-lc⟩  (advisory)
+  ~ pre-Columbian Americas   ⟨dict-lc⟩  (advisory)
+  ~ the Spanish conquistador   ⟨dict-lc⟩  (advisory)
+  ~ royal road   ⟨dict-lc⟩  (advisory)
+  ~ emperor he   ⟨dict-lc⟩  (advisory)
+  ~ planet.   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ oral tradition   ⟨dict-lc⟩  (advisory)
+  ~ the Maya   ⟨dict-lc⟩  (advisory)
+  ~ the Five Dynasties   ⟨dict-lc⟩  (advisory)
+  ~ the Andes   ⟨dict-lc⟩  (advisory)
+  ~ the Song   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ paleoclimate   ⟨rare⟩  (advisory)
+  ~ precipitation   ⟨rare⟩  (advisory)
+  ~ distributions   ⟨rare⟩  (advisory)
+  ~ downturn   ⟨rare⟩  (advisory)
+  ~ persisting   ⟨rare⟩  (advisory)
+  ~ variability   ⟨rare⟩  (advisory)
+  ~ wetter   ⟨rare⟩  (advisory)
+  ~ shrinks   ⟨rare⟩  (advisory)
+  ~ shoreline   ⟨rare⟩  (advisory)
+  ~ capillary   ⟨rare⟩  (advisory)
+  ~ irrigate   ⟨rare⟩  (advisory)
+  ~ dryland   ⟨rare⟩  (advisory)
+  ~ storehouses   ⟨rare⟩  (advisory)
+  ~ decommissioned   ⟨rare⟩  (advisory)
+  ~ poignant   ⟨rare⟩  (advisory)
+  ~ indications   ⟨rare⟩  (advisory)
+  ~ climatic   ⟨rare⟩  (advisory)
+  ~ deliberation   ⟨rare⟩  (advisory)
+  ~ grazing   ⟨rare⟩  (advisory)
+  ~ chieftaincies   ⟨rare⟩  (advisory)
+  ~ storehouse   ⟨rare⟩  (advisory)
+  ~ reassembly   ⟨rare⟩  (advisory)
+  ~ refurbishing   ⟨rare⟩  (advisory)
+  ~ huacas   ⟨rare⟩  (advisory)
+  ~ refurbished   ⟨rare⟩  (advisory)
+  ~ bequeathed   ⟨rare⟩  (advisory)
+  ~ conquistador   ⟨rare⟩  (advisory)
+  ~ roadbed   ⟨rare⟩  (advisory)
+  ~ iteration   ⟨rare⟩  (advisory)
+  ~ lodged   ⟨rare⟩  (advisory)
+  ~ posters   ⟨rare⟩  (advisory)
+  ~ fixture   ⟨rare⟩  (advisory)
+  ~ pseudoarchaeology   ⟨rare⟩  (advisory)
+  ~ invisibility   ⟨rare⟩  (advisory)
+  ~ qualitatively   ⟨rare⟩  (advisory)
+  ~ abandonments   ⟨rare⟩  (advisory)
+  ~ demolitions   ⟨rare⟩  (advisory)

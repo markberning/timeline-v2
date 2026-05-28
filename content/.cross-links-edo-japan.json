@@ -41,6 +41,36 @@
       "targetTl": "aztec-empire",
       "targetChapter": 8,
       "blurb": "Edo Japan's deliberate closure is the mirror image of the Aztec world's forced opening — two responses to the European maritime age."
+    },
+    {
+      "matchText": "Chaldiran",
+      "targetTl": "safavid-persia",
+      "targetChapter": 3,
+      "blurb": "At Chaldiran in 1514 the Ottomans' massed gunpowder firepower shattered the Safavid cavalry — the same gunpowder-versus-horsemen mismatch Nobunaga inflicted on the Takeda at Nagashino. The Safavid Persia TL covers how that defeat forced Shah Ismail's heirs to rebuild the dynasty around firearms and a centralized state."
+    },
+    {
+      "matchText": "Imjin War",
+      "targetTl": "joseon-korea",
+      "targetChapter": 4,
+      "blurb": "Hideyoshi's 1592–98 invasions are remembered in Korea as the Imjin War — the central catastrophe of mid-Joseon history. The Joseon Korea TL tells it from the Korean side: the admiral Yi Sun-sin's turtle ships, the Ming intervention, and the devastation that scarred the peninsula for generations."
+    },
+    {
+      "matchText": "Ming Dynasty",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Ming was the native Chinese dynasty that ruled from 1368 and that, by 1600, was sliding toward its terminal crisis. The Ming Dynasty TL follows it from Hongwu's peasant-emperor founding through the wealth, factional paralysis, and fiscal collapse that left it open to the Manchu conquest a generation after Sekigahara."
+    },
+    {
+      "matchText": "Manchu",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Manchu were a Tungusic people from beyond China's northeastern frontier who, in the 1640s, swept in and replaced the collapsing Ming with their own Qing dynasty. The Qing Dynasty TL opens with that conquest — the empire that would rule China for the rest of the Edo period and beyond."
+    },
+    {
+      "matchText": "Qing",
+      "targetTl": "qing-dynasty",
+      "targetChapter": 1,
+      "blurb": "The Qing was the Manchu-led dynasty that conquered China in the 1640s and ruled it until 1912 — the contemporary giant on Japan's mainland horizon for almost the entire Edo period. The Qing Dynasty TL begins with the conquest that ended the Ming."
     }
   ],
   "2": [
@@ -67,6 +97,12 @@
       "targetTl": "prehistoric-japan",
       "targetChapter": 7,
       "blurb": "The sun goddess Amaterasu, central deity of the Ise Grand Shrine that Tokugawa Japan continued to rebuild every twenty years, was the divine ancestor of the imperial line according to the eighth-century Kojiki and Nihon Shoki — the foundational mythologies covered in the Ancient Japan TL. The Tokugawa shogunate's careful ceremonial deference to the imperial court at Kyoto, even while holding all real power, depended on the Amaterasu-descent claim that Edo-period Shinto and Kokugaku scholars would intermittently emphasize and that the Meiji Restoration would mobilize against the shogunate."
+    },
+    {
+      "matchText": "Meiji government",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Meiji government that abolished the four-class system and dismantled the Tokugawa order grew out of the 1868 Meiji Restoration, when the Satsuma and Chōshū domains overthrew the shogunate and restored direct imperial rule. The new state would scrap the han domains, the samurai stipends, and the sankin-kōtai world described here within a decade — the subject of the Meiji Japan TL."
     }
   ],
   "3": [
@@ -123,7 +159,20 @@
       "blurb": "The Neo-Confucian framework that Tokugawa-era thinkers used to interpret the Akō incident — debating whether the rōnin had honored or violated the proper hierarchy of obligations — had been imported from China through Korea over the preceding centuries. The Joseon Korean state was, in the same period, a much more thoroughgoing Neo-Confucian society than Tokugawa Japan, with civil service examinations, scholar-official governance, and Confucian ritual integrated into nearly every aspect of public life. The Tokugawa adoption of Neo-Confucianism was a much more selective and instrumental project than the parallel Korean version."
     }
   ],
-  "6": [],
+  "6": [
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 3,
+      "blurb": "The lunisolar calendar the Tokugawa shogunate was still running on in the eighteenth century was inherited from Tang-dynasty China, whose cosmopolitan high-Tang capital had been the cultural template East Asia borrowed from for centuries — including the calendar that rangaku astronomers now had to correct against Dutch books."
+    },
+    {
+      "matchText": "Boshin War",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The European-style rifles and infantry tactics that Satsuma, Chōshū, and Saga acquired through rangaku-trained scholars proved decisive in the Boshin War of 1868–69 — the civil war that toppled the shogunate and opened the Meiji Restoration."
+    }
+  ],
   "7": [
     {
       "matchText": "Ottoman",
@@ -142,6 +191,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 11,
       "blurb": "Edo's long decline — fiscal strain, a frozen order, foreign pressure mounting — runs parallel to the Ottoman 'sick man' century."
+    },
+    {
+      "matchText": "United States",
+      "targetTl": "early-american-republic",
+      "targetChapter": 1,
+      "blurb": "While Edo Japan sealed itself off, a brand-new republic was taking shape across the Pacific. The United States, founded in 1776, spent its early decades pushing west — and that westward drive would reach the Pacific coast by the 1840s, producing the strategic appetite for Japanese ports that sent Perry's squadron east."
+    },
+    {
+      "matchText": "Russians",
+      "targetTl": "russian-empire",
+      "targetChapter": 1,
+      "blurb": "The 'Russians' pressing on Hokkaido and Sakhalin were the eastern edge of the Romanov empire, which had spread clear across Siberia to the Pacific. Laxman in 1792 and Rezanov in 1804 were probes from that expanding colossus, the first sustained foreign knocking on Japan's northern door."
     }
   ],
   "8": [
@@ -162,6 +223,12 @@
       "targetTl": "meiji-japan",
       "targetChapter": 1,
       "blurb": "The Black Ships shattered sakoku and triggered the collapse of the Tokugawa order — the direct prologue to the Meiji Restoration."
+    },
+    {
+      "matchText": "American Civil War",
+      "targetTl": "antebellum-america",
+      "targetChapter": 18,
+      "blurb": "While Japan's southwestern domains were toppling the shogunate, the United States was finishing its own bloodiest internal reckoning. The American Civil War (1861–65) ended slavery and forged the constitutional amendments that underwrote American industrial expansion — the same expansion that had sent Perry's squadron across the Pacific a decade earlier. The two transformations were near-exact contemporaries, each clearing the ground for a centralized modern state."
     }
   ]
 }

@@ -161,12 +161,32 @@
     {
       "eventId": "evt-km-gwangju-uprising",
       "matchText": "Gwangju Uprising"
+    },
+    {
+      "eventId": "evt-km-yushin",
+      "matchText": "Yushin Constitution"
+    },
+    {
+      "eventId": "evt-km-kim-dae-jung",
+      "matchText": "Kim Dae-jung"
     }
   ],
   "5": [
     {
       "eventId": "evt-km-june-democracy",
       "matchText": "June Democracy Movement"
+    },
+    {
+      "eventId": "evt-km-gwangju-uprising",
+      "matchText": "Gwangju massacre"
+    },
+    {
+      "eventId": "evt-km-chun-coup",
+      "matchText": "Chun Doo-hwan"
+    },
+    {
+      "eventId": "evt-km-arduous-march",
+      "matchText": "Arduous March"
     },
     {
       "eventId": "evt-km-democratization",

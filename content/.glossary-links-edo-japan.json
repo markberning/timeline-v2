@@ -119,6 +119,132 @@
       "matchText": "Sekigahara",
       "wikiSlug": "Battle_of_Sekigahara",
       "type": "concept"
+    },
+    {
+      "term": "Sengoku Unification",
+      "matchText": "Sengoku Unification",
+      "definition": "The fifty-year process (roughly 1560–1615) by which three successive warlords — Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu — reassembled the warring states of Sengoku Japan into a single state. As much a gunpowder revolution as a political one, it ended with the Tokugawa shogunate and the long Edo peace.",
+      "type": "concept"
+    },
+    {
+      "term": "Honshu",
+      "matchText": "Honshu",
+      "wikiSlug": "Honshu",
+      "type": "place"
+    },
+    {
+      "term": "Matsumoto Castle",
+      "matchText": "Matsumoto",
+      "wikiSlug": "Matsumoto_Castle",
+      "type": "place"
+    },
+    {
+      "term": "Takeda clan",
+      "matchText": "Takeda cavalry",
+      "wikiSlug": "Takeda_clan",
+      "type": "people"
+    },
+    {
+      "term": "Council of Five Elders",
+      "matchText": "Go-Tairō",
+      "wikiSlug": "Council_of_Five_Elders",
+      "type": "concept"
+    },
+    {
+      "term": "Eastern Army",
+      "matchText": "Eastern Army",
+      "definition": "The coalition Tokugawa Ieyasu led at Sekigahara in 1600 — mostly daimyo from the Kantō and northeastern Honshu, joined by western lords with grudges against Ishida Mitsunari. Its victory made the Tokugawa masters of Japan.",
+      "type": "concept"
+    },
+    {
+      "term": "Western Army",
+      "matchText": "Western Army",
+      "definition": "The coalition Ishida Mitsunari assembled at Sekigahara — daimyo from western Honshu, Shikoku, and Kyushu, nominally fighting for Hideyoshi's young heir. Defections during the battle, above all Kobayakawa Hideaki's, broke it within hours.",
+      "type": "concept"
+    },
+    {
+      "term": "Shikoku",
+      "matchText": "Shikoku",
+      "wikiSlug": "Shikoku",
+      "type": "place"
+    },
+    {
+      "term": "Kyushu",
+      "matchText": "Kyushu",
+      "wikiSlug": "Kyushu",
+      "type": "place"
+    },
+    {
+      "term": "Kobayakawa Hideaki",
+      "matchText": "Kobayakawa Hideaki",
+      "wikiSlug": "Kobayakawa_Hideaki",
+      "type": "people"
+    },
+    {
+      "term": "Wakisaka Yasuharu",
+      "matchText": "Wakizaka Yasuharu",
+      "wikiSlug": "Wakisaka_Yasuharu",
+      "type": "people"
+    },
+    {
+      "term": "Ōtani Yoshitsugu",
+      "matchText": "Ōtani Yoshitsugu",
+      "wikiSlug": "%C5%8Ctani_Yoshitsugu",
+      "type": "people"
+    },
+    {
+      "term": "Tōshō Daigongen",
+      "matchText": "Tōshō Daigongen",
+      "definition": "\"Great Avatar Illuminating the East\" — the deity into which Tokugawa Ieyasu was posthumously enshrined at Nikkō, and the patron god of the dynasty. Deifying the founder gave the Tokugawa a sacred sanction for their rule.",
+      "type": "concept"
+    },
+    {
+      "term": "Tokyo",
+      "matchText": "Tokyo",
+      "wikiSlug": "Tokyo",
+      "type": "place"
+    },
+    {
+      "term": "Dutch East India Company",
+      "matchText": "Dutch",
+      "wikiSlug": "Dutch_East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Nagasaki",
+      "matchText": "Nagasaki",
+      "wikiSlug": "Nagasaki",
+      "type": "place"
+    },
+    {
+      "term": "Isfahan",
+      "matchText": "Isfahan",
+      "wikiSlug": "Isfahan",
+      "type": "place"
+    },
+    {
+      "term": "British Empire",
+      "matchText": "British Empire",
+      "wikiSlug": "British_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "East India Company",
+      "matchText": "English East India Company",
+      "wikiSlug": "East_India_Company",
+      "type": "concept"
+    },
+    {
+      "term": "Ottoman Empire",
+      "matchText": "Ottomans",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "place"
     }
   ],
   "2": [
@@ -253,6 +379,144 @@
       "matchText": "Buke Shohatto",
       "wikiSlug": "Sankin-kōtai",
       "type": "concept"
+    },
+    {
+      "term": "Tokugawa Ieyasu",
+      "matchText": "Tokugawa Ieyasu",
+      "wikiSlug": "Tokugawa_Ieyasu",
+      "type": "people"
+    },
+    {
+      "term": "Magna Carta",
+      "matchText": "Magna Carta",
+      "wikiSlug": "Magna_Carta",
+      "type": "concept"
+    },
+    {
+      "term": "Daimyo",
+      "matchText": "daimyo",
+      "wikiSlug": "Daimyo",
+      "type": "concept"
+    },
+    {
+      "term": "Battle of Sekigahara",
+      "matchText": "Sekigahara",
+      "wikiSlug": "Battle_of_Sekigahara",
+      "type": "event"
+    },
+    {
+      "term": "Maeda clan",
+      "matchText": "Maeda",
+      "wikiSlug": "Maeda_clan",
+      "type": "people"
+    },
+    {
+      "term": "Shimazu clan",
+      "matchText": "Shimazu",
+      "wikiSlug": "Shimazu_clan",
+      "type": "people"
+    },
+    {
+      "term": "Mōri clan",
+      "matchText": "Mōri",
+      "wikiSlug": "M%C5%8Dri_clan",
+      "type": "people"
+    },
+    {
+      "term": "Date clan",
+      "matchText": "Date",
+      "wikiSlug": "Date_clan",
+      "type": "people"
+    },
+    {
+      "term": "Owari Domain",
+      "matchText": "Owari",
+      "wikiSlug": "Owari_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Kishū Domain",
+      "matchText": "Kii",
+      "wikiSlug": "Kish%C5%AB_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Mito Domain",
+      "matchText": "Mito",
+      "wikiSlug": "Mito_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Shinpan (daimyo)",
+      "matchText": "Shinpan",
+      "wikiSlug": "Shinpan_(daimyo)",
+      "type": "concept"
+    },
+    {
+      "term": "Kyushu",
+      "matchText": "Kyushu",
+      "wikiSlug": "Kyushu",
+      "type": "place"
+    },
+    {
+      "term": "Honshu",
+      "matchText": "Honshu",
+      "wikiSlug": "Honshu",
+      "type": "place"
+    },
+    {
+      "term": "Kantō region",
+      "matchText": "Kantō",
+      "wikiSlug": "Kant%C5%8D_region",
+      "type": "place"
+    },
+    {
+      "term": "Sengoku period",
+      "matchText": "Sengoku",
+      "wikiSlug": "Sengoku_period",
+      "type": "concept"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Christianity",
+      "matchText": "Christianity",
+      "wikiSlug": "Christianity",
+      "type": "concept"
+    },
+    {
+      "term": "Kōshū Kaidō",
+      "matchText": "Kōshū Kaidō",
+      "wikiSlug": "K%C5%8Dsh%C5%AB_Kaid%C5%8D",
+      "type": "place"
+    },
+    {
+      "term": "Ōshū Kaidō",
+      "matchText": "Ōshū Kaidō",
+      "wikiSlug": "%C5%8Csh%C5%AB_Kaid%C5%8D",
+      "type": "place"
+    },
+    {
+      "term": "Nikkō Kaidō",
+      "matchText": "Nikkō Kaidō",
+      "wikiSlug": "Nikk%C5%8D_Kaid%C5%8D",
+      "type": "place"
+    },
+    {
+      "term": "Christianity in Japan",
+      "matchText": "Christians",
+      "wikiSlug": "Christianity_in_Japan",
+      "type": "concept"
     }
   ],
   "3": [
@@ -357,6 +621,192 @@
       "matchText": "William Adams",
       "wikiSlug": "William_Adams_(pilot)",
       "type": "people"
+    },
+    {
+      "term": "Kagoshima",
+      "matchText": "Kagoshima",
+      "wikiSlug": "Kagoshima",
+      "type": "place"
+    },
+    {
+      "term": "Ignatius of Loyola",
+      "matchText": "Ignatius of Loyola",
+      "wikiSlug": "Ignatius_of_Loyola",
+      "type": "people"
+    },
+    {
+      "term": "Reformation",
+      "matchText": "Reformation",
+      "wikiSlug": "Reformation",
+      "type": "concept"
+    },
+    {
+      "term": "Shinto",
+      "matchText": "Shinto",
+      "wikiSlug": "Shinto",
+      "type": "concept"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Philippines",
+      "matchText": "Philippines",
+      "wikiSlug": "Philippines",
+      "type": "place"
+    },
+    {
+      "term": "Mount Unzen",
+      "matchText": "Unzen",
+      "wikiSlug": "Mount_Unzen",
+      "type": "place"
+    },
+    {
+      "term": "Shimabara Peninsula",
+      "matchText": "Shimabara Peninsula",
+      "wikiSlug": "Shimabara_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Amakusa",
+      "matchText": "Amakusa Islands",
+      "wikiSlug": "Amakusa",
+      "type": "place"
+    },
+    {
+      "term": "Korea Strait",
+      "matchText": "Korea Strait",
+      "wikiSlug": "Korea_Strait",
+      "type": "place"
+    },
+    {
+      "term": "Busan",
+      "matchText": "Busan",
+      "wikiSlug": "Busan",
+      "type": "place"
+    },
+    {
+      "term": "Tōkaidō",
+      "matchText": "Tōkaidō",
+      "wikiSlug": "Tōkaidō_(road)",
+      "type": "place"
+    },
+    {
+      "term": "Satsuma Domain",
+      "matchText": "Satsuma",
+      "wikiSlug": "Satsuma_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Okinawa",
+      "matchText": "Okinawa",
+      "wikiSlug": "Okinawa_Prefecture",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Qing dynasty",
+      "matchText": "Qing Dynasty",
+      "wikiSlug": "Qing_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Ōmura Sumitada",
+      "matchText": "Ōmura Sumitada",
+      "wikiSlug": "Ōmura_Sumitada",
+      "type": "people"
+    },
+    {
+      "term": "Ōtomo Sōrin",
+      "matchText": "Ōtomo Sōrin",
+      "wikiSlug": "Ōtomo_Sōrin",
+      "type": "people"
+    },
+    {
+      "term": "Nanban trade",
+      "matchText": "Black Ship",
+      "wikiSlug": "Nanban_trade",
+      "type": "concept"
+    },
+    {
+      "term": "Ezo",
+      "matchText": "Ezo",
+      "wikiSlug": "Ezo",
+      "type": "place"
+    },
+    {
+      "term": "Toyotomi Hideyoshi",
+      "matchText": "Hideyoshi",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "type": "people"
+    },
+    {
+      "term": "Tokugawa Ieyasu",
+      "matchText": "Ieyasu",
+      "wikiSlug": "Tokugawa_Ieyasu",
+      "type": "people"
+    },
+    {
+      "term": "Tokugawa shogunate",
+      "matchText": "the Tokugawa",
+      "wikiSlug": "Tokugawa_shogunate",
+      "type": "concept"
+    },
+    {
+      "term": "Ryukyuans",
+      "matchText": "Ryukyuan",
+      "wikiSlug": "Ryukyuan_people",
+      "type": "people"
+    },
+    {
+      "term": "Hermit kingdom",
+      "matchText": "Hermit Kingdom",
+      "wikiSlug": "Hermit_kingdom",
+      "type": "concept"
+    },
+    {
+      "term": "Crypto-Judaism",
+      "matchText": "crypto-Jews",
+      "wikiSlug": "Crypto-Judaism",
+      "type": "concept"
+    },
+    {
+      "term": "Crypto-Islam",
+      "matchText": "crypto-Muslims",
+      "wikiSlug": "Crypto-Islam",
+      "type": "concept"
+    },
+    {
+      "term": "Ming dynasty",
+      "matchText": "Ming China",
+      "wikiSlug": "Ming_dynasty",
+      "type": "concept"
+    },
+    {
+      "term": "Matsumae Domain",
+      "matchText": "Matsumae domain",
+      "wikiSlug": "Matsumae_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Russian Empire",
+      "matchText": "Russians",
+      "wikiSlug": "Russian_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Liefde",
+      "matchText": "Liefde",
+      "definition": "The Dutch trading vessel that wrecked on the Kyushu coast in 1600 — the first Dutch ship to reach Japan. Its survivors, including the English navigator William Adams, opened the door to the Protestant Dutch trade arrangement that eventually replaced the Catholic Portuguese one.",
+      "type": "concept"
     }
   ],
   "4": [
@@ -503,6 +953,138 @@
       "matchText": "Utamaro",
       "wikiSlug": "Kitagawa_Utamaro",
       "type": "people"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Osaka (Shinmachi quarter)",
+      "matchText": "Shinmachi",
+      "wikiSlug": "Shinmachi",
+      "type": "place"
+    },
+    {
+      "term": "Shimabara (Kyoto pleasure quarter)",
+      "matchText": "Shimabara",
+      "wikiSlug": "Shimabara,_Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Asai Ryōi",
+      "matchText": "Asai Ryōi",
+      "wikiSlug": "Asai_Ry%C5%8Di",
+      "type": "people"
+    },
+    {
+      "term": "Honshu",
+      "matchText": "Honshu",
+      "wikiSlug": "Honshu",
+      "type": "place"
+    },
+    {
+      "term": "Amsterdam",
+      "matchText": "Amsterdam",
+      "wikiSlug": "Amsterdam",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Shōheikō (Yushima Seidō)",
+      "matchText": "Shōheikō",
+      "wikiSlug": "Yushima_Seid%C5%8D",
+      "type": "place"
+    },
+    {
+      "term": "Nakano Dog Kennels",
+      "matchText": "Nakano Dog Kennels",
+      "type": "place",
+      "definition": "The vast public dog shelter built northwest of Edo under Tokugawa Tsunayoshi to house the city's strays after his Edicts of Compassion for Living Beings made killing or abandoning dogs a crime. At its height it held an estimated 50,000 dogs, fed rice, fish, and miso paid for out of the shogunate treasury — the most expensive symbol of the policies that earned Tsunayoshi the nickname Dog Shogun."
+    },
+    {
+      "term": "Isaac Newton",
+      "matchText": "Newton",
+      "wikiSlug": "Isaac_Newton",
+      "type": "people"
+    },
+    {
+      "term": "John Locke",
+      "matchText": "Locke",
+      "wikiSlug": "John_Locke",
+      "type": "people"
+    },
+    {
+      "term": "Antonio Vivaldi",
+      "matchText": "Vivaldi",
+      "wikiSlug": "Antonio_Vivaldi",
+      "type": "people"
+    },
+    {
+      "term": "Royal Society",
+      "matchText": "Royal Society",
+      "wikiSlug": "Royal_Society",
+      "type": "concept"
+    },
+    {
+      "term": "Dutch Golden Age",
+      "matchText": "Dutch Golden Age",
+      "wikiSlug": "Dutch_Golden_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Palace of Versailles",
+      "matchText": "Versailles",
+      "wikiSlug": "Palace_of_Versailles",
+      "type": "place"
+    },
+    {
+      "term": "Louis XIV",
+      "matchText": "Louis XIV",
+      "wikiSlug": "Louis_XIV",
+      "type": "people"
+    },
+    {
+      "term": "Peter the Great",
+      "matchText": "Peter the Great",
+      "wikiSlug": "Peter_the_Great",
+      "type": "people"
+    },
+    {
+      "term": "Kangxi Emperor",
+      "matchText": "Kangxi Emperor",
+      "wikiSlug": "Kangxi_Emperor",
+      "type": "people"
+    },
+    {
+      "term": "High Qing era",
+      "matchText": "High Qing",
+      "wikiSlug": "High_Qing_era",
+      "type": "concept"
+    },
+    {
+      "term": "Christopher Wren",
+      "matchText": "Christopher Wren",
+      "wikiSlug": "Christopher_Wren",
+      "type": "people"
+    },
+    {
+      "term": "Baroque",
+      "matchText": "Baroque",
+      "wikiSlug": "Baroque",
+      "type": "concept"
     }
   ],
   "5": [
@@ -577,6 +1159,66 @@
       "matchText": "Edo Castle",
       "wikiSlug": "Forty-seven_rōnin",
       "type": "concept"
+    },
+    {
+      "term": "Kōke",
+      "matchText": "kōke",
+      "wikiSlug": "K%C5%8Dke",
+      "type": "concept"
+    },
+    {
+      "term": "Genroku",
+      "matchText": "Genroku",
+      "wikiSlug": "Genroku",
+      "type": "concept"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Osaka",
+      "matchText": "Osaka",
+      "wikiSlug": "Osaka",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Sekigahara",
+      "matchText": "Sekigahara",
+      "wikiSlug": "Battle_of_Sekigahara",
+      "type": "concept"
+    },
+    {
+      "term": "Tokyo",
+      "matchText": "Tokyo",
+      "wikiSlug": "Tokyo",
+      "type": "place"
+    },
+    {
+      "term": "Takeda Izumo II",
+      "matchText": "Takeda Izumo II",
+      "wikiSlug": "Takeda_Izumo_II",
+      "type": "people"
+    },
+    {
+      "term": "Yamamoto Tsunetomo",
+      "matchText": "Yamamoto Tsunetomo",
+      "wikiSlug": "Yamamoto_Tsunetomo",
+      "type": "people"
+    },
+    {
+      "term": "Miguel de Cervantes",
+      "matchText": "Cervantes",
+      "wikiSlug": "Miguel_de_Cervantes",
+      "type": "people"
+    },
+    {
+      "term": "El Cid",
+      "matchText": "El Cid",
+      "wikiSlug": "El_Cid",
+      "type": "people"
     }
   ],
   "6": [
@@ -651,6 +1293,96 @@
       "matchText": "European Enlightenment",
       "wikiSlug": "Age_of_Enlightenment",
       "type": "concept"
+    },
+    {
+      "term": "Nakagawa Jun'an",
+      "matchText": "Nakagawa Jun'an",
+      "wikiSlug": "Nakagawa_Jun%27an",
+      "type": "people"
+    },
+    {
+      "term": "Dejima",
+      "matchText": "Dejima",
+      "wikiSlug": "Dejima",
+      "type": "place"
+    },
+    {
+      "term": "Satsuma Domain",
+      "matchText": "Satsuma",
+      "wikiSlug": "Satsuma_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Chōshū Domain",
+      "matchText": "Chōshū",
+      "wikiSlug": "Ch%C5%8Dsh%C5%AB_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Saga Domain",
+      "matchText": "Saga",
+      "wikiSlug": "Saga_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Beijing",
+      "matchText": "Beijing",
+      "wikiSlug": "Beijing",
+      "type": "place"
+    },
+    {
+      "term": "Osaka",
+      "matchText": "Osaka",
+      "wikiSlug": "Osaka",
+      "type": "place"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Jesuits",
+      "matchText": "Jesuit",
+      "wikiSlug": "Society_of_Jesus",
+      "type": "concept"
+    },
+    {
+      "term": "Isaac Newton",
+      "matchText": "Newton",
+      "wikiSlug": "Isaac_Newton",
+      "type": "people"
+    },
+    {
+      "term": "Shōhei Maru",
+      "matchText": "Shōhei Maru",
+      "wikiSlug": "Japanese_warship_Sh%C5%8Dhei_Maru",
+      "type": "concept"
+    },
+    {
+      "term": "Tafel Anatomia",
+      "matchText": "Tafel Anatomia",
+      "definition": "The Dutch-language anatomical atlas the three physicians brought to the 1771 autopsy. It was the 1734 Dutch translation of Johann Adam Kulmus's German anatomy textbook Anatomische Tabellen (1722); its accurate organ diagrams, confirmed against the dissected body, became the basis for the Kaitai Shinsho.",
+      "type": "concept"
+    },
+    {
+      "term": "Shirandō",
+      "matchText": "Shirandō",
+      "definition": "The first formal school of Dutch learning (rangaku) in Japan, founded in Edo in 1786 by Ōtsuki Gentaku, a pupil of Sugita Genpaku. It trained the physicians and scholars who carried Western anatomical medicine into the early nineteenth century.",
+      "type": "concept"
+    },
+    {
+      "term": "Ōtsuki Gentaku",
+      "matchText": "Ōtsuki Gentaku",
+      "definition": "Japanese rangaku scholar and physician (1757–1827), a pupil of Sugita Genpaku. He founded the Shirandō academy in Edo in 1786 — the first formal Dutch-learning school — and trained a generation of Western-style physicians and translators.",
+      "type": "people"
+    },
+    {
+      "term": "Tokugawa Ieyasu",
+      "matchText": "Ieyasu",
+      "wikiSlug": "Tokugawa_Ieyasu",
+      "type": "people"
     }
   ],
   "7": [
@@ -726,6 +1458,108 @@
       "matchText": "First Opium War",
       "wikiSlug": "First_Opium_War",
       "type": "concept"
+    },
+    {
+      "term": "Adam Laxman",
+      "matchText": "Adam Laxman",
+      "wikiSlug": "Adam_Laxman",
+      "type": "people"
+    },
+    {
+      "term": "Nikolai Rezanov",
+      "matchText": "Nikolai Rezanov",
+      "wikiSlug": "Nikolai_Rezanov",
+      "type": "people"
+    },
+    {
+      "term": "HMS Phaeton",
+      "matchText": "HMS Phaeton",
+      "wikiSlug": "HMS_Phaeton_(1782)",
+      "type": "concept"
+    },
+    {
+      "term": "Bansha no Goku",
+      "matchText": "Bansha no Goku",
+      "wikiSlug": "Bansha_no_goku",
+      "type": "concept"
+    },
+    {
+      "term": "Hokkaido",
+      "matchText": "Hokkaido",
+      "wikiSlug": "Hokkaido",
+      "type": "place"
+    },
+    {
+      "term": "Osaka",
+      "matchText": "Osaka",
+      "wikiSlug": "Osaka",
+      "type": "place"
+    },
+    {
+      "term": "Honshu",
+      "matchText": "Honshu",
+      "wikiSlug": "Honshu",
+      "type": "place"
+    },
+    {
+      "term": "Nagasaki",
+      "matchText": "Nagasaki",
+      "wikiSlug": "Nagasaki",
+      "type": "place"
+    },
+    {
+      "term": "Sakhalin",
+      "matchText": "Sakhalin",
+      "wikiSlug": "Sakhalin",
+      "type": "place"
+    },
+    {
+      "term": "Satsuma",
+      "matchText": "Satsuma",
+      "wikiSlug": "Satsuma_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Chōshū",
+      "matchText": "Chōshū",
+      "wikiSlug": "Chōshū_Domain",
+      "type": "place"
+    },
+    {
+      "term": "War of 1812",
+      "matchText": "War of 1812",
+      "wikiSlug": "War_of_1812",
+      "type": "concept"
+    },
+    {
+      "term": "Vienna Settlement",
+      "matchText": "Vienna Settlement",
+      "wikiSlug": "Congress_of_Vienna",
+      "type": "concept"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "American Revolution",
+      "matchText": "American Revolution",
+      "wikiSlug": "American_Revolution",
+      "type": "concept"
+    },
+    {
+      "term": "Hong Kong",
+      "matchText": "Hong Kong",
+      "wikiSlug": "Hong_Kong",
+      "type": "place"
     }
   ],
   "8": [
@@ -878,6 +1712,240 @@
       "matchText": "Meiji Constitution",
       "wikiSlug": "Meiji_Constitution",
       "type": "concept"
+    },
+    {
+      "term": "USS Susquehanna (1850)",
+      "matchText": "USS Susquehanna",
+      "wikiSlug": "USS_Susquehanna_(1850)",
+      "type": "concept"
+    },
+    {
+      "term": "USS Mississippi (1841)",
+      "matchText": "USS Mississippi",
+      "wikiSlug": "USS_Mississippi_(1841)",
+      "type": "concept"
+    },
+    {
+      "term": "USS Powhatan (1850)",
+      "matchText": "USS Powhatan",
+      "wikiSlug": "USS_Powhatan_(1850)",
+      "type": "concept"
+    },
+    {
+      "term": "Tōkaidō road",
+      "matchText": "Tōkaidō",
+      "wikiSlug": "T%C5%8Dkaid%C5%8D_(road)",
+      "type": "place"
+    },
+    {
+      "term": "Mexican–American War",
+      "matchText": "Mexican-American War",
+      "wikiSlug": "Mexican%E2%80%93American_War",
+      "type": "concept"
+    },
+    {
+      "term": "War of 1812",
+      "matchText": "War of 1812",
+      "wikiSlug": "War_of_1812",
+      "type": "concept"
+    },
+    {
+      "term": "Tokugawa Ieyoshi",
+      "matchText": "Tokugawa Ieyoshi",
+      "wikiSlug": "Tokugawa_Ieyoshi",
+      "type": "people"
+    },
+    {
+      "term": "Shimoda, Shizuoka",
+      "matchText": "Shimoda",
+      "wikiSlug": "Shimoda,_Shizuoka",
+      "type": "place"
+    },
+    {
+      "term": "Izu Peninsula",
+      "matchText": "Izu Peninsula",
+      "wikiSlug": "Izu_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Hakodate",
+      "matchText": "Hakodate",
+      "wikiSlug": "Hakodate",
+      "type": "place"
+    },
+    {
+      "term": "Hokkaido",
+      "matchText": "Hokkaido",
+      "wikiSlug": "Hokkaido",
+      "type": "place"
+    },
+    {
+      "term": "Treaty of Nanking",
+      "matchText": "Treaty of Nanking",
+      "wikiSlug": "Treaty_of_Nanking",
+      "type": "concept"
+    },
+    {
+      "term": "Hotta Masayoshi",
+      "matchText": "Hotta Masayoshi",
+      "wikiSlug": "Hotta_Masayoshi",
+      "type": "people"
+    },
+    {
+      "term": "Yokohama",
+      "matchText": "Yokohama",
+      "wikiSlug": "Yokohama",
+      "type": "place"
+    },
+    {
+      "term": "Niigata",
+      "matchText": "Niigata",
+      "wikiSlug": "Niigata_(city)",
+      "type": "place"
+    },
+    {
+      "term": "Osaka",
+      "matchText": "Osaka",
+      "wikiSlug": "Osaka",
+      "type": "place"
+    },
+    {
+      "term": "Kyoto",
+      "matchText": "Kyoto",
+      "wikiSlug": "Kyoto",
+      "type": "place"
+    },
+    {
+      "term": "Kyushu",
+      "matchText": "Kyushu",
+      "wikiSlug": "Kyushu",
+      "type": "place"
+    },
+    {
+      "term": "Honshu",
+      "matchText": "Honshu",
+      "wikiSlug": "Honshu",
+      "type": "place"
+    },
+    {
+      "term": "Shikoku",
+      "matchText": "Shikoku",
+      "wikiSlug": "Shikoku",
+      "type": "place"
+    },
+    {
+      "term": "Tosa Province",
+      "matchText": "Tosa",
+      "wikiSlug": "Tosa_Province",
+      "type": "place"
+    },
+    {
+      "term": "Hizen Province",
+      "matchText": "Hizen",
+      "wikiSlug": "Hizen_Province",
+      "type": "place"
+    },
+    {
+      "term": "Tōhoku region",
+      "matchText": "Tōhoku",
+      "wikiSlug": "T%C5%8Dhoku_region",
+      "type": "place"
+    },
+    {
+      "term": "Tokugawa Iemochi",
+      "matchText": "Tokugawa Iemochi",
+      "wikiSlug": "Tokugawa_Iemochi",
+      "type": "people"
+    },
+    {
+      "term": "Sengoku period",
+      "matchText": "Sengoku",
+      "wikiSlug": "Sengoku_period",
+      "type": "concept"
+    },
+    {
+      "term": "Confucianism",
+      "matchText": "Confucian",
+      "wikiSlug": "Confucianism",
+      "type": "concept"
+    },
+    {
+      "term": "Dutch people",
+      "matchText": "Dutch",
+      "wikiSlug": "Dutch_people",
+      "type": "concept"
+    },
+    {
+      "term": "Kingdom of Prussia",
+      "matchText": "Prussian",
+      "wikiSlug": "Kingdom_of_Prussia",
+      "type": "place"
+    },
+    {
+      "term": "Austro-Prussian War",
+      "matchText": "Austro-Prussian War",
+      "wikiSlug": "Austro-Prussian_War",
+      "type": "concept"
+    },
+    {
+      "term": "Franco-Prussian War",
+      "matchText": "Franco-Prussian War",
+      "wikiSlug": "Franco-Prussian_War",
+      "type": "concept"
+    },
+    {
+      "term": "Unification of Italy",
+      "matchText": "Risorgimento",
+      "wikiSlug": "Unification_of_Italy",
+      "type": "concept"
+    },
+    {
+      "term": "Mitsubishi",
+      "matchText": "Mitsubishi",
+      "wikiSlug": "Mitsubishi",
+      "type": "concept"
+    },
+    {
+      "term": "Mitsui",
+      "matchText": "Mitsui",
+      "wikiSlug": "Mitsui",
+      "type": "concept"
+    },
+    {
+      "term": "Sumitomo Group",
+      "matchText": "Sumitomo",
+      "wikiSlug": "Sumitomo_Group",
+      "type": "concept"
+    },
+    {
+      "term": "Taisei Hōkan",
+      "matchText": "Taisei Hōkan",
+      "wikiSlug": "Taisei_H%C5%8Dkan",
+      "type": "concept"
+    },
+    {
+      "term": "Mito Domain",
+      "matchText": "Mito",
+      "wikiSlug": "Mito_Domain",
+      "type": "place"
+    },
+    {
+      "term": "Shimazu clan",
+      "matchText": "Shimazu",
+      "wikiSlug": "Shimazu_clan",
+      "type": "people"
+    },
+    {
+      "term": "Mōri clan",
+      "matchText": "Mōri",
+      "wikiSlug": "Mōri_clan",
+      "type": "people"
+    },
+    {
+      "term": "Tokugawa Yoshimune",
+      "matchText": "Yoshimune",
+      "wikiSlug": "Tokugawa_Yoshimune",
+      "type": "people"
     }
   ]
 }

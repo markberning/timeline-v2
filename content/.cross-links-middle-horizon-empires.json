@@ -35,6 +35,54 @@
       "targetTl": "inca-empire",
       "targetChapter": 1,
       "blurb": "The Middle Horizon collapse left the template the Inca would later reuse — roads, khipus, vertical control — to build the largest empire the Americas ever saw."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Mesopotamia, between the Tigris and Euphrates, is where the world's first cities and its first writing appeared. It is the standard comparison case for the Andes' great absence: every other primary-civilization heartland produced a script, and Mesopotamia produced the earliest one we know of."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "The Indus Valley cities of Harappa and Mohenjo-daro ran a sophisticated urban civilization with its own undeciphered script. They are one of the handful of independent 'pristine' civilizations — and unlike the Andes, they did develop a writing system, even if we still can't read it."
+    },
+    {
+      "matchText": "Mycenaeans",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 1,
+      "blurb": "The Mycenaeans of Bronze Age Greece kept palace accounts in the Linear B script — an administrative writing system not unlike what an Andean state might have needed. Their literacy is part of the contrast the chapter draws: even a relatively small palace economy in the Aegean wrote things down, while the far larger Andean empires did not."
+    },
+    {
+      "matchText": "Hittites",
+      "targetTl": "hittite-empire",
+      "targetChapter": 1,
+      "blurb": "The Hittites of Anatolia ran a major Bronze Age empire and recorded treaties, laws, and royal annals in cuneiform on clay tablets. They are cited here as another ancient empire whose history we can read directly — the documentary luxury the Tiwanaku and Wari record denies us."
+    },
+    {
+      "matchText": "Han Chinese",
+      "targetTl": "han-dynasty",
+      "targetChapter": 1,
+      "blurb": "Han China ran a vast bureaucratic empire across a broadly flat geography of provinces and commanderies — the 'march an army across territory' model the chapter contrasts with the Andean vertical-archipelago empire, where the meaningful units were altitude bands, not territories."
+    },
+    {
+      "matchText": "Persia",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Persia — here the Sasanian empire overrun by the first Arab armies in the 630s — was the great power of the Iranian plateau and Mesopotamia, and the longer Persian imperial tradition is the third comparison the chapter draws for a flat, territory-defined administration unlike the Andean stack."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "The Western Roman Empire collapsed in 476 CE, fragmenting the Mediterranean into the successor states the chapter lists. Its fall is the European backdrop to the same centuries in which the Andean Middle Horizon was taking shape on the other side of the world."
+    },
+    {
+      "matchText": "Byzantine",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "The Byzantine Empire — the surviving eastern half of the Roman world, ruled from Constantinople — was one of the fragments into which the post-Roman Mediterranean reorganized while the Andean Middle Horizon was forming."
     }
   ],
   "2": [
@@ -55,6 +103,36 @@
       "targetTl": "early-andean-civilizations",
       "targetChapter": 7,
       "blurb": "Chavín de Huántar in the northern Peruvian highlands was the great religious pilgrimage center of the Early Horizon, between roughly 900 and 200 BCE. Its underground galleries, the Lanzón monolith, and the Raimondi Stele established the religious vocabulary — the Staff God, the kenning art style, the use of psychoactive plants in ritual — that the Middle Horizon empires would inherit a thousand years later."
+    },
+    {
+      "matchText": "central Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The Andes are the longest continental mountain range on Earth, running the western length of South America. The Early Andean Civilizations TL covers how the first highland and coastal peoples adapted to this extreme vertical landscape — the high cold altiplano, the dry coast, and the eastern slopes — over the millennia before the Middle Horizon empires."
+    },
+    {
+      "matchText": "Early Andean Civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "The deep prehistory of the central Andes — from the first highland herders and coastal fishers to the great Chavín religious center that first carved the Staff God around 500 BCE. This is the iconographic and agricultural foundation that Tiwanaku inherited and transformed a thousand years later."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "The Inca, who rose to power in the central highlands around Cusco roughly a thousand years after Tiwanaku, preserved the same frontal Staff God image in the figure of their creator god Wiracocha — the final inheritor of an iconographic tradition that ran unbroken from Chavín through Tiwanaku and Wari. The Inca Empire TL tells that later story."
+    },
+    {
+      "matchText": "Egyptians built the pyramids",
+      "targetTl": "old-kingdom-egypt",
+      "targetChapter": 1,
+      "blurb": "The Egyptian pyramids were raised by the same kind of patient, large-scale hand labor that built Pumapunku — skilled craftsmen with simple tools, organized over decades, with no need for the lost technology that pseudoarchaeology likes to invent. The Old Kingdom Egypt TL covers the age of pyramid-building along the Nile."
+    },
+    {
+      "matchText": "Mesopotamian",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "In the Mesopotamian model of kingship, a named ruler sat at the top of a documented royal hierarchy — king-lists, royal tombs, inscriptions naming individuals. Tiwanaku left none of that, which is exactly why scholars hesitate to call its rulers kings in the Mesopotamian or Egyptian sense."
     }
   ],
   "3": [
@@ -81,6 +159,24 @@
       "targetTl": "tang-song-china",
       "targetChapter": 4,
       "blurb": "Wari's road-and-storehouse empire was being built in the same centuries as Tang China's — two unconnected continents independently inventing the administered state."
+    },
+    {
+      "matchText": "Andean",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "Wari's labor-tribute economy was a specifically Andean institution, rooted in the vertical, reciprocity-based world that the Early Andean Civilizations TL traces back thousands of years: communities exchanging rotating labor for access to scattered ecological zones and shared ceremony, long before any state existed to formalize it."
+    },
+    {
+      "matchText": "Mughals",
+      "targetTl": "mughal-empire",
+      "targetChapter": 1,
+      "blurb": "The Mughals, who built an early-modern empire across South Asia, adopted Persian high culture as a badge of legitimacy — the same move Wari made in borrowing Tiwanaku's Staff God religion. A rising power dressing itself in an older neighbor's prestige tradition is one of the most repeated patterns in world history."
+    },
+    {
+      "matchText": "Persian",
+      "targetTl": "persian-empire",
+      "targetChapter": 1,
+      "blurb": "Persian high culture — the courtly, literary, administrative tradition descended from the empires covered in the Persian Empire TL — became the prestige idiom that later powers from the Mughals to the Ottomans adopted to legitimize their rule, exactly as Wari adopted Tiwanaku's religious vocabulary."
     }
   ],
   "4": [
@@ -107,6 +203,24 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 4,
       "blurb": "Two empires side by side, sharing a frontier without conquering each other, is a configuration the Old World rarely managed — compare Byzantium's tense coexistences."
+    },
+    {
+      "matchText": "Early Andean Civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "Both Wari and Tiwanaku worshipped versions of the Staff God and shared a religious vocabulary that most likely descends from the earlier Chavín cult. The Early Andean Civilizations TL covers Chavín de Huántar and the fanged-deity tradition that radiated from it — the deep theological inheritance the two Middle Horizon empires drew on."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 2,
+      "blurb": "Julio C. Tello, the founding figure of indigenous Andean archaeology, did his foundational work in the era covered by the Andean Kingdoms TL. It was Tello and his successors who finally distinguished Wari from Tiwanaku as two separate empires rather than one 'Tiahuanaco' tradition."
+    },
+    {
+      "matchText": "Abbasid",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 1,
+      "blurb": "The Abbasid Caliphate, ruling from Baghdad while the Andean Middle Horizon was at its height, kept exactly the kind of diplomatic record Wari and Tiwanaku did not — letters, treaties, and embassy logs exchanged with Byzantium, the Tang, and others. The contrast is the chapter's point: comparable interstate relations, but one world wrote them down and the other left only architecture and pottery."
     }
   ],
   "5": [
@@ -127,6 +241,18 @@
       "targetTl": "andean-kingdoms",
       "targetChapter": 8,
       "blurb": "The systematic excavation of Cerro Baúl by Patrick Williams and Donna Nash since the late 1980s has done for the Wari-Tiwanaku interaction what the earlier Sipán and El Brujo excavations did for Moche elite burials — providing a single richly preserved site that anchors a much larger interpretive framework for the surrounding period. The Cerro Baúl find is the southern-frontier counterpart to the great north-coast Moche tombs covered in the Andean Kingdoms TL."
+    },
+    {
+      "matchText": "central Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The central Andes — the steep vertical landscape running from the Pacific coast up over the cordillera to the Amazon slopes — is the deep stage on which the whole Middle Horizon played out. The Early Andean Civilizations TL lays out how this terrain, with its stacked climate zones a single day's walk apart, shaped every Andean society from Caral onward and made the vertical-archipelago colony system that Tiwanaku and Wari built in Moquegua possible in the first place."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "The Inca, who built the largest empire in the pre-Columbian Americas four centuries later, inherited the reciprocal-feasting protocol on display at Cerro Baúl — the Spanish chroniclers' detailed accounts of Inca state banquets are exactly what let archaeologists read the smashed-cup ceremony in the Wari brewery. The Inca Empire TL covers how this chicha-and-hospitality politics scaled up into the administrative engine of Tawantinsuyu."
     }
   ],
   "6": [
@@ -147,6 +273,30 @@
       "targetTl": "ancient-rome",
       "targetChapter": 6,
       "blurb": "The Roman road network at its peak covered roughly 50,000 miles across Europe, North Africa, and the Middle East — the gold standard of pre-modern imperial infrastructure that all later road comparisons measure against. The Wari road network was an order of magnitude smaller, but operating on the same principle: paved engineered routes built and maintained by the central state to project administrative reach across imperial geography."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "Half a millennium after Wari, the Inca built the largest empire in the pre-Columbian Americas on exactly these three Wari inventions — the paved road network (Qhapaq Ñan), the standardized storehouse (qollqa), and the knotted-string khipu record. The Inca scaled each up by an order of magnitude but kept the basic architecture intact, and the Spanish who encountered the result in the 1530s mistook the whole inherited apparatus for an Inca original."
+    },
+    {
+      "matchText": "Staff God",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "The frontal, staff-bearing deity stamped on Wari tunics and ceramics was no Wari invention — it descends from the Staff God carved on the Raimondi Stele at Chavín de Huántar around 500 BCE, the image that defined the Early Horizon religious style. It was the most durable visual sign in Andean history, recognized across the central Andes for two thousand years."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 4,
+      "blurb": "Before Wari coordinated the first integrated imperial road network, individual coastal states built and maintained good local roads in their own valleys — the Moche among them. The Andean Kingdoms TL covers these regional predecessor cultures whose engineering Wari then synthesized at imperial scale."
+    },
+    {
+      "matchText": "Lake Titicaca",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The high-altitude lake on the modern Peru–Bolivia border was the heartland of Tiwanaku, the southern Middle Horizon empire whose Aymara language still dominates its shores today — the southern counterpart to the Quechua zone Wari left across central Peru. The Early Andean Civilizations TL covers the deep prehistory of the lakeside cultures that preceded both."
     }
   ],
   "7": [
@@ -167,6 +317,30 @@
       "targetTl": "vedic-period",
       "targetChapter": 4,
       "blurb": "Soma, the mysterious psychoactive plant or fungus consumed by Brahmin priests in early Vedic ritual, is mentioned obsessively in the Sanskrit hymns of the Rig Veda. The Vedic and Andean cases together suggest that systematic ritual use of psychoactive plants by religious specialists was a recurring solution to the problem of how to authorize religious authority — the priest who has met the god in vision is the priest qualified to mediate with the god on the community's behalf."
+    },
+    {
+      "matchText": "Chavín de Huántar",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "Chavín de Huántar, the highland temple complex in the northern Peruvian Andes, was the ceremonial heart of the Chavín culture around 900–200 BCE. Its Raimondi Stele carved the Staff God in classic kenning style, establishing the frontal-pose, paired-staffs, fanged-face template that Tiwanaku revived a thousand years later and the Inca preserved a thousand years after that."
+    },
+    {
+      "matchText": "Early Andean Civilizations",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 7,
+      "blurb": "The Early Andean Civilizations — Chavín above all — supplied the religious raw material the Middle Horizon systematized: the Staff God image, the hallucinogen-fueled visionary ritual, and the puma-condor-snake cosmology all have antecedents going back at least a thousand years before Tiwanaku and Wari built imperial institutions around them."
+    },
+    {
+      "matchText": "Inca",
+      "targetTl": "inca-empire",
+      "targetChapter": 1,
+      "blurb": "The Inca, six centuries after the Middle Horizon collapse, inherited almost the entire religious and institutional template Tiwanaku and Wari had built — the Staff God (as their creator god Wiracocha), the puma-condor-snake triad, chicha-and-coca ritual, the planned city, the road network, and mit'a labor tribute. The dynasty was new; the system was not."
+    },
+    {
+      "matchText": "Vedic Period",
+      "targetTl": "vedic-period",
+      "targetChapter": 4,
+      "blurb": "Soma, the psychoactive plant or fungus consumed by Brahmin priests in early Vedic ritual, is mentioned obsessively in the Sanskrit hymns of the Rig Veda. The Vedic and Andean cases both show religious authority anchored in visionary plant use — the specialist who has met the god in vision is the one qualified to mediate with the god."
     }
   ],
   "8": [
@@ -205,6 +379,24 @@
       "targetTl": "maya-civilization",
       "targetChapter": 5,
       "blurb": "Wari and Tiwanaku unravelled around 1000 CE, in the same window as the Classic Maya collapse — drought and political failure across the hemisphere."
+    },
+    {
+      "matchText": "Postclassic Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 8,
+      "blurb": "After the Classic Maya collapse, the Maya did not vanish — they reorganized into the Postclassic states of the northern Yucatán (Chichén Itzá, Mayapán) and the highlands. Like the Inca rebuilding on the Wari template, the Postclassic Maya built on the institutional inheritance of the collapsed Classic centers. The empires that come back after a collapse run on the bones of the ones that fell."
+    },
+    {
+      "matchText": "Andean Kingdoms",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 2,
+      "blurb": "Julio C. Tello's 1920s–1930s fieldwork — covered in the Andean Kingdoms narrative — was what first distinguished Wari from Tiwanaku as separate empires rather than a single artistic horizon, and traced the Staff God iconography back to its Chavín roots. The modern understanding of the Middle Horizon as two distinct imperial states begins with him."
+    },
+    {
+      "matchText": "Tang Chinese",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The Tang dynasty ran the contemporary Chinese empire while Wari and Tiwanaku ran the central Andes — two of the great imperial states of the same centuries, on opposite sides of the planet, neither aware the other existed. Both would collapse within roughly a century of each other around 900 CE."
     }
   ]
 }

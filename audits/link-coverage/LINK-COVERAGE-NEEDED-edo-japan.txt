@@ -1,0 +1,1128 @@
+# LINK-COVERAGE-NEEDED — edo-japan
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Tokyo   ⟨dict,recur×3⟩  → glossary
+    Matsumoto   ⟨pron,bold⟩  → event/glossary
+    Sengoku Unification   ⟨bold⟩  → event/glossary
+    Honshu   ⟨dict,recur×3⟩  → glossary
+  * Ottomans   ⟨dict⟩  → cross-link
+    Chaldiran   ⟨dict⟩  → cross-link
+    Tenochtitlan   ⟨dict⟩  → cross-link
+    Imjin War   ⟨dict⟩  → cross-link
+    Go-Tairō   ⟨bold⟩  → event/glossary
+    Eastern Army   ⟨bold⟩  → event/glossary
+    Western Army   ⟨bold,recur×5⟩  → event/glossary
+    Shikoku   ⟨dict⟩  → glossary
+    Kyushu   ⟨dict⟩  → glossary
+    Kobayakawa Hideaki   ⟨pron,bold⟩  → event/glossary
+    Wakizaka Yasuharu   ⟨dict,bold⟩  → glossary
+    Tōshō Daigongen   ⟨gloss,bold⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Dutch   ⟨dict⟩  → glossary
+    Nagasaki   ⟨dict⟩  → glossary
+    English East India Company   ⟨dict,bold⟩  → event
+    British Empire   ⟨bold⟩  → event/glossary
+    Isfahan   ⟨dict⟩  → event
+    Ming Dynasty   ⟨dict,bold⟩  → cross-link
+    Manchu   ⟨dict⟩  → cross-link
+    Qing   ⟨dict⟩  → cross-link
+  * Eurasia   ⟨dict⟩  → glossary
+    Takeda cavalry   ⟨bold⟩  → event/glossary
+    Ōtani Yoshitsugu   ⟨bold⟩  → event/glossary
+  ~ Japanese   ⟨recur×11⟩  (advisory)
+  ~ Age of Warring States   ⟨⟩  (advisory)
+  ~ European-imported   ⟨⟩  (advisory)
+  ~ Portuguese   ⟨dict⟩  (advisory)
+  ~ Takeda   ⟨⟩  (advisory)
+  ~ Spanish   ⟨dict⟩  (advisory)
+  ~ Korea   ⟨dict,bold,recur×3⟩  (advisory)
+  ~ Hideyoshi's Korean   ⟨⟩  (advisory)
+  ~ Ancient Korea Ch   ⟨⟩  (advisory)
+  ~ Joseon Korea TL   ⟨⟩  (advisory)
+  ~ Chinese Ming   ⟨⟩  (advisory)
+  ~ Gifu Prefecture   ⟨⟩  (advisory)
+  ~ Kobayakawa   ⟨⟩  (advisory)
+  ~ Yoshitsugu   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Laws   ⟨⟩  (advisory)
+  ~ Military Houses   ⟨⟩  (advisory)
+  ~ Great Avatar Illuminating the East   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Mughal Ch   ⟨⟩  (advisory)
+  ~ Europeans   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ factions   ⟨dict-lc⟩  (advisory)
+  ~ dictator   ⟨dict-lc⟩  (advisory)
+  ~ civil war.   ⟨dict-lc⟩  (advisory)
+  ~ matchlock   ⟨dict-lc⟩  (advisory)
+  ~ palisades   ⟨dict-lc,rare⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ the Ottomans   ⟨dict-lc⟩  (advisory)
+  ~ gunpowder   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ he took   ⟨dict-lc⟩  (advisory)
+  ~ kampaku   ⟨dict-lc,bold,rare⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ council   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ domains   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ arquebus   ⟨dict-lc,rare⟩  (advisory)
+  ~ chronicle   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ decorated   ⟨dict-lc⟩  (advisory)
+  ~ cult center   ⟨dict-lc⟩  (advisory)
+  ~ feudal   ⟨dict-lc⟩  (advisory)
+  ~ samurai   ⟨dict-lc⟩  (advisory)
+  ~ social hierarchy   ⟨dict-lc⟩  (advisory)
+  ~ the Qing   ⟨dict-lc⟩  (advisory)
+  ~ arquebusiers   ⟨rare⟩  (advisory)
+  ~ volley   ⟨rare⟩  (advisory)
+  ~ ascents   ⟨rare⟩  (advisory)
+  ~ scruples   ⟨rare⟩  (advisory)
+  ~ pretexts   ⟨rare⟩  (advisory)
+  ~ arranging   ⟨rare⟩  (advisory)
+  ~ bureaucrat   ⟨rare⟩  (advisory)
+  ~ favoritism   ⟨rare⟩  (advisory)
+  ~ volleys   ⟨rare⟩  (advisory)
+  ~ stationary   ⟨rare⟩  (advisory)
+  ~ prearranged   ⟨rare⟩  (advisory)
+  ~ reviving   ⟨rare⟩  (advisory)
+  ~ resided   ⟨rare⟩  (advisory)
+  ~ authorization   ⟨rare⟩  (advisory)
+  ~ legalistic   ⟨rare⟩  (advisory)
+  ~ precaution   ⟨rare⟩  (advisory)
+  ~ regulating   ⟨rare⟩  (advisory)
+  ~ ornately   ⟨rare⟩  (advisory)
+  ~ nostalgic   ⟨rare⟩  (advisory)
+  ~ rigidity   ⟨rare⟩  (advisory)
+  ~ pleased   ⟨rare⟩  (advisory)
+  ~ reopening   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Tokugawa Ieyasu   ⟨dict⟩  → cross-link
+    Magna Carta   ⟨dict⟩  → cross-link
+    Wakadoshiyori   ⟨bold⟩  → event/glossary
+    Maeda   ⟨bold⟩  → event/glossary
+    Ieyasu   ⟨recur×3⟩  → ?
+    Daimyo   ⟨dict,dict-lc,rare⟩  → glossary
+    Owari   ⟨bold⟩  → event/glossary
+    Mito   ⟨bold⟩  → event/glossary
+    Sekigahara   ⟨dict⟩  → event
+    Shimazu   ⟨bold⟩  → event/glossary
+    Kyushu   ⟨dict⟩  → glossary
+    Mōri   ⟨bold⟩  → event/glossary
+    Honshu   ⟨dict,recur×3⟩  → glossary
+    Date   ⟨bold⟩  → event/glossary
+    Kantō   ⟨dict⟩  → glossary
+    Sengoku   ⟨dict⟩  → glossary
+    Kyoto   ⟨dict⟩  → cross-link
+    Kōshū Kaidō   ⟨bold⟩  → event/glossary
+    Nikkō Kaidō   ⟨bold⟩  → event/glossary
+  * Tokugawa Japan   ⟨dict⟩  → cross-link
+    London   ⟨dict⟩  → glossary
+    Paris   ⟨dict⟩  → glossary
+    Beijing   ⟨dict⟩  → glossary
+    Confucian   ⟨dict,recur×5⟩  → cross-link
+    Meiji   ⟨dict⟩  → cross-link
+    Edo Japan   ⟨dict⟩  → cross-link
+  * Christians   ⟨dict⟩  → glossary
+  * Neo-Confucian   ⟨dict⟩  → glossary
+    Shinpan   ⟨bold⟩  → event/glossary
+    Kii   ⟨bold⟩  → event/glossary
+    Ōshū Kaidō   ⟨bold⟩  → event/glossary
+  ~ Japanese   ⟨recur×6⟩  (advisory)
+  ~ Perry   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict,recur×5⟩  (advisory)
+  ~ HAHN   ⟨⟩  (advisory)
+  ~ Kaga   ⟨⟩  (advisory)
+  ~ Laws   ⟨⟩  (advisory)
+  ~ Military Houses   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Pacific   ⟨dict⟩  (advisory)
+  ~ Kaidō   ⟨⟩  (advisory)
+  ~ Tōshō-gū   ⟨⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Genroku-era Japan   ⟨⟩  (advisory)
+  ~ SHOH   ⟨⟩  (advisory)
+  ~ Tokugawa-era   ⟨⟩  (advisory)
+  ~ Whether   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict⟩  (advisory)
+  ~ Meiji-era   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Ancient Japan Ch   ⟨⟩  (advisory)
+  ~ Mie Prefecture   ⟨⟩  (advisory)
+  ~ Song Dynasty Chinese   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ shogun   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ council   ⟨dict-lc⟩  (advisory)
+  ~ domains   ⟨dict-lc⟩  (advisory)
+  ~ castles   ⟨dict-lc⟩  (advisory)
+  ~ cells   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ chōnin   ⟨dict-lc⟩  (advisory)
+  ~ they were the   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ abolished the   ⟨dict-lc⟩  (advisory)
+  ~ crypto-Christians   ⟨dict-lc⟩  (advisory)
+  ~ capital crime   ⟨dict-lc⟩  (advisory)
+  ~ the Song   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ academy   ⟨dict-lc⟩  (advisory)
+  ~ orthodoxy   ⟨dict-lc⟩  (advisory)
+  ~ filial piety   ⟨dict-lc⟩  (advisory)
+  ~ tributary   ⟨dict-lc⟩  (advisory)
+  ~ factions   ⟨dict-lc⟩  (advisory)
+  ~ religious heterodoxy.   ⟨dict-lc⟩  (advisory)
+  ~ erosion   ⟨dict-lc⟩  (advisory)
+  ~ hostage function   ⟨bold⟩  (advisory)
+  ~ fiscal function   ⟨bold⟩  (advisory)
+  ~ integrative function   ⟨bold⟩  (advisory)
+  ~ cultural-economic function   ⟨bold⟩  (advisory)
+  ~ peasants   ⟨bold⟩  (advisory)
+  ~ artisans   ⟨bold⟩  (advisory)
+  ~ merchants   ⟨bold⟩  (advisory)
+  ~ okage-mairi   ⟨bold⟩  (advisory)
+  ~ councillors   ⟨rare⟩  (advisory)
+  ~ magistracies   ⟨rare⟩  (advisory)
+  ~ qualify   ⟨rare⟩  (advisory)
+  ~ bushels   ⟨rare⟩  (advisory)
+  ~ liters   ⟨rare⟩  (advisory)
+  ~ stipend   ⟨rare⟩  (advisory)
+  ~ totaling   ⟨rare⟩  (advisory)
+  ~ confiscate   ⟨rare⟩  (advisory)
+  ~ preventing   ⟨rare⟩  (advisory)
+  ~ dictating   ⟨rare⟩  (advisory)
+  ~ ineligible   ⟨rare⟩  (advisory)
+  ~ ministerial   ⟨rare⟩  (advisory)
+  ~ dilution   ⟨rare⟩  (advisory)
+  ~ inspectorates   ⟨rare⟩  (advisory)
+  ~ covert   ⟨rare⟩  (advisory)
+  ~ alternate   ⟨rare⟩  (advisory)
+  ~ schedules   ⟨rare⟩  (advisory)
+  ~ mansions   ⟨rare⟩  (advisory)
+  ~ ruinously   ⟨rare⟩  (advisory)
+  ~ buildup   ⟨rare⟩  (advisory)
+  ~ integrative   ⟨rare⟩  (advisory)
+  ~ biennial   ⟨rare⟩  (advisory)
+  ~ carrier   ⟨rare⟩  (advisory)
+  ~ specialties   ⟨rare⟩  (advisory)
+  ~ souvenir   ⟨rare⟩  (advisory)
+  ~ retinues   ⟨rare⟩  (advisory)
+  ~ circulatory   ⟨rare⟩  (advisory)
+  ~ bookstores   ⟨rare⟩  (advisory)
+  ~ brothels   ⟨rare⟩  (advisory)
+  ~ teahouses   ⟨rare⟩  (advisory)
+  ~ impoverishment   ⟨rare⟩  (advisory)
+  ~ surnames   ⟨rare⟩  (advisory)
+  ~ adjust   ⟨rare⟩  (advisory)
+  ~ indebtedness   ⟨rare⟩  (advisory)
+  ~ occupations   ⟨rare⟩  (advisory)
+  ~ quotation   ⟨rare⟩  (advisory)
+  ~ affluent   ⟨rare⟩  (advisory)
+  ~ shokunin   ⟨rare⟩  (advisory)
+  ~ blacksmiths   ⟨rare⟩  (advisory)
+  ~ lacquerers   ⟨rare⟩  (advisory)
+  ~ papermakers   ⟨rare⟩  (advisory)
+  ~ swordsmiths   ⟨rare⟩  (advisory)
+  ~ carpenters   ⟨rare⟩  (advisory)
+  ~ skimmed   ⟨rare⟩  (advisory)
+  ~ butchering   ⟨rare⟩  (advisory)
+  ~ executioner   ⟨rare⟩  (advisory)
+  ~ impure   ⟨rare⟩  (advisory)
+  ~ segregated   ⟨rare⟩  (advisory)
+  ~ immutable   ⟨rare⟩  (advisory)
+  ~ obtain   ⟨rare⟩  (advisory)
+  ~ certificates   ⟨rare⟩  (advisory)
+  ~ identically   ⟨rare⟩  (advisory)
+  ~ alternation   ⟨rare⟩  (advisory)
+  ~ subsidized   ⟨rare⟩  (advisory)
+  ~ rectification   ⟨rare⟩  (advisory)
+  ~ restricting   ⟨rare⟩  (advisory)
+  ~ heterodoxy   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Kagoshima   ⟨dict⟩  → glossary
+    Society of Jesus   ⟨dict,bold⟩  → glossary
+    Ignatius of Loyola   ⟨dict⟩  → glossary
+    Reformation   ⟨dict⟩  → cross-link
+    Ming   ⟨dict⟩  → cross-link
+    Hideyoshi   ⟨recur×3⟩  → ?
+    Tokugawa   ⟨dict,recur×5⟩  → cross-link
+    Ieyasu   ⟨recur×3⟩  → ?
+    Shinto   ⟨dict⟩  → cross-link
+    Confucian   ⟨dict⟩  → cross-link
+    Philippines   ⟨dict,bold⟩  → glossary
+    Liefde   ⟨bold⟩  → event/glossary
+    Unzen   ⟨bold⟩  → event/glossary
+    Shimabara Peninsula   ⟨pron,bold⟩  → event/glossary
+    Amakusa Islands   ⟨pron,bold⟩  → event/glossary
+    Korea Strait   ⟨dict⟩  → glossary
+    Busan   ⟨dict,bold⟩  → glossary
+    Tōkaidō   ⟨dict⟩  → glossary
+    Satsuma   ⟨dict,recur×3⟩  → glossary
+    Okinawa   ⟨dict⟩  → glossary
+    Ryukyuan   ⟨recur×3⟩  → ?
+    Beijing   ⟨dict⟩  → glossary
+  * Russians   ⟨dict⟩  → cross-link
+    Qing Dynasty   ⟨dict⟩  → cross-link
+  * Hermit Kingdom   ⟨dict⟩  → glossary
+  * Jews   ⟨dict⟩  → glossary
+  * Muslims   ⟨dict⟩  → glossary
+    Ōmura Sumitada   ⟨bold⟩  → event/glossary
+    Ōtomo Sōrin   ⟨bold⟩  → event/glossary
+    Black Ship   ⟨bold⟩  → event/glossary
+    Satsuma mouth   ⟨bold⟩  → event/glossary
+    Matsumae mouth   ⟨bold⟩  → event/glossary
+    Ezo   ⟨bold⟩  → event/glossary
+    Ming China   ⟨bold⟩  → event/glossary
+  ~ Japanese   ⟨recur×15⟩  (advisory)
+  ~ Edo-era Japanese   ⟨⟩  (advisory)
+  ~ Catholic Christianity   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict,recur×10⟩  (advisory)
+  ~ Catholic   ⟨⟩  (advisory)
+  ~ Sumitada   ⟨⟩  (advisory)
+  ~ Sōrin   ⟨⟩  (advisory)
+  ~ Portuguese Black Ship   ⟨⟩  (advisory)
+  ~ Perry   ⟨⟩  (advisory)
+  ~ Chinese   ⟨recur×5⟩  (advisory)
+  ~ European   ⟨recur×6⟩  (advisory)
+  ~ Edict of Expulsion of Padres   ⟨⟩  (advisory)
+  ~ Korean   ⟨dict,recur×7⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×3⟩  (advisory)
+  ~ Asia   ⟨⟩  (advisory)
+  ~ Bernardino de Avila Girón   ⟨bold⟩  (advisory)
+  ~ Japanese-language   ⟨⟩  (advisory)
+  ~ Spain   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Protestants   ⟨⟩  (advisory)
+  ~ Iemitsu   ⟨⟩  (advisory)
+  ~ Japanese Christians   ⟨⟩  (advisory)
+  ~ Catholic Church   ⟨dict⟩  (advisory)
+  ~ Christ   ⟨⟩  (advisory)
+  ~ Virgin Mary   ⟨⟩  (advisory)
+  ~ Hirado   ⟨⟩  (advisory)
+  ~ Catholic-Protestant   ⟨⟩  (advisory)
+  ~ Effectively   ⟨⟩  (advisory)
+  ~ Japanese-Korean   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Qing China   ⟨⟩  (advisory)
+  ~ Matsumae   ⟨⟩  (advisory)
+  ~ Jōmon-descended   ⟨⟩  (advisory)
+  ~ Ancient Japan Ch   ⟨⟩  (advisory)
+  ~ Russian   ⟨⟩  (advisory)
+  ~ East Asian   ⟨⟩  (advisory)
+  ~ Korea the European   ⟨⟩  (advisory)
+  ~ DEH-jee-mah   ⟨def⟩  (advisory)
+  ~ missionaries   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ daimyo   ⟨dict-lc,rare⟩  (advisory)
+  ~ samurai.   ⟨dict-lc⟩  (advisory)
+  ~ domains   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ tolerated   ⟨dict-lc⟩  (advisory)
+  ~ shogun.   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ persecution   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ rōnin   ⟨dict-lc⟩  (advisory)
+  ~ led by   ⟨dict-lc⟩  (advisory)
+  ~ siege of   ⟨dict-lc⟩  (advisory)
+  ~ copper.   ⟨dict-lc⟩  (advisory)
+  ~ lacquerware   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ channel   ⟨dict-lc⟩  (advisory)
+  ~ tributary   ⟨dict-lc⟩  (advisory)
+  ~ vassal   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ tributary system.   ⟨dict-lc⟩  (advisory)
+  ~ the Qing   ⟨dict-lc⟩  (advisory)
+  ~ ritual humiliation   ⟨dict-lc⟩  (advisory)
+  ~ theological   ⟨bold⟩  (advisory)
+  ~ political   ⟨bold⟩  (advisory)
+  ~ geopolitical   ⟨bold⟩  (advisory)
+  ~ commercial   ⟨bold⟩  (advisory)
+  ~ four mouths   ⟨bold⟩  (advisory)
+  ~ seminary   ⟨rare⟩  (advisory)
+  ~ kurofune   ⟨rare⟩  (advisory)
+  ~ clocks   ⟨rare⟩  (advisory)
+  ~ curiosities   ⟨rare⟩  (advisory)
+  ~ intolerance   ⟨rare⟩  (advisory)
+  ~ conflicted   ⟨rare⟩  (advisory)
+  ~ underpinning   ⟨rare⟩  (advisory)
+  ~ subgroup   ⟨rare⟩  (advisory)
+  ~ backers   ⟨rare⟩  (advisory)
+  ~ tolerating   ⟨rare⟩  (advisory)
+  ~ candidly   ⟨rare⟩  (advisory)
+  ~ boasted   ⟨rare⟩  (advisory)
+  ~ expelling   ⟨rare⟩  (advisory)
+  ~ confiscating   ⟨rare⟩  (advisory)
+  ~ intensifications   ⟨rare⟩  (advisory)
+  ~ renounce   ⟨rare⟩  (advisory)
+  ~ excrement   ⟨rare⟩  (advisory)
+  ~ scalding   ⟨rare⟩  (advisory)
+  ~ consideration   ⟨rare⟩  (advisory)
+  ~ trampling   ⟨rare⟩  (advisory)
+  ~ plaques   ⟨rare⟩  (advisory)
+  ~ apostasy   ⟨rare⟩  (advisory)
+  ~ masterless   ⟨rare⟩  (advisory)
+  ~ bombarded   ⟨rare⟩  (advisory)
+  ~ distinctions   ⟨rare⟩  (advisory)
+  ~ vector   ⟨rare⟩  (advisory)
+  ~ reopening   ⟨rare⟩  (advisory)
+  ~ formalizing   ⟨rare⟩  (advisory)
+  ~ employees   ⟨rare⟩  (advisory)
+  ~ ginseng   ⟨rare⟩  (advisory)
+  ~ eccentricity   ⟨rare⟩  (advisory)
+  ~ earning   ⟨rare⟩  (advisory)
+  ~ fixation   ⟨rare⟩  (advisory)
+  ~ heresies   ⟨rare⟩  (advisory)
+  ~ patrols   ⟨rare⟩  (advisory)
+  ~ screened   ⟨rare⟩  (advisory)
+  ~ interrogations   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Edo Japan   ⟨dict,recur×3⟩  → cross-link
+  * United States   ⟨dict⟩  → cross-link
+    Kyoto   ⟨dict,bold,recur×5⟩  → cross-link
+    Asai Ryōi   ⟨bold⟩  → event/glossary
+    Shinmachi   ⟨bold⟩  → event/glossary
+    Shimabara   ⟨bold⟩  → event/glossary
+    Honshu   ⟨dict⟩  → glossary
+    Amsterdam   ⟨dict⟩  → glossary
+    London   ⟨dict⟩  → glossary
+    Confucian   ⟨dict,recur×3⟩  → cross-link
+    Shōheikō   ⟨dict⟩  → event
+    Nakano Dog Kennels   ⟨bold⟩  → event/glossary
+  * Vivaldi   ⟨dict⟩  → glossary
+    Newton   ⟨dict⟩  → event
+  * Locke   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Dutch Golden Age   ⟨dict⟩  → cross-link
+    Versailles   ⟨dict⟩  → glossary
+    Kangxi Emperor   ⟨bold⟩  → event/glossary
+    High Qing   ⟨bold⟩  → event/glossary
+    Christopher Wren   ⟨dict⟩  → glossary
+  * Eurasia   ⟨dict⟩  → glossary
+    Shōrui Awaremi no Rei   ⟨gloss,bold⟩  → glossary
+    Inu Kubō   ⟨bold⟩  → event/glossary
+    Baroque   ⟨bold⟩  → event/glossary
+    Louis XIV   ⟨bold⟩  → event/glossary
+    Peter the Great   ⟨bold⟩  → event/glossary
+    Sir Christopher Wren   ⟨bold⟩  → event/glossary
+  ~ Japanese   ⟨recur×8⟩  (advisory)
+  ~ Chicago Board of Trade   ⟨bold⟩  (advisory)
+  ~ Dog Shogun   ⟨⟩  (advisory)
+  ~ Perry   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict,recur×3⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×5⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Chinese   ⟨⟩  (advisory)
+  ~ Deep North   ⟨⟩  (advisory)
+  ~ Life of an Amorous Man   ⟨⟩  (advisory)
+  ~ Five Women Who Loved Love   ⟨⟩  (advisory)
+  ~ Dōjima Exchange   ⟨⟩  (advisory)
+  ~ Meiji-era Japan   ⟨⟩  (advisory)
+  ~ Shōrui Awaremi   ⟨⟩  (advisory)
+  ~ Tsunayoshi the Inu Kubō   ⟨⟩  (advisory)
+  ~ European Baroque   ⟨⟩  (advisory)
+  ~ Bach   ⟨⟩  (advisory)
+  ~ XIV of France   ⟨⟩  (advisory)
+  ~ Mughal Ch   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Russia   ⟨dict⟩  (advisory)
+  ~ Cathedral   ⟨⟩  (advisory)
+  ~ Great Fire   ⟨⟩  (advisory)
+  ~ novels   ⟨dict-lc⟩  (advisory)
+  ~ puppet   ⟨dict-lc⟩  (advisory)
+  ~ the Chicago   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ de facto   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ sankin-kōtai   ⟨dict-lc⟩  (advisory)
+  ~ daimyo   ⟨dict-lc,rare⟩  (advisory)
+  ~ romance   ⟨dict-lc⟩  (advisory)
+  ~ satire   ⟨dict-lc⟩  (advisory)
+  ~ samurai   ⟨dict-lc⟩  (advisory)
+  ~ bushido   ⟨dict-lc,rare⟩  (advisory)
+  ~ calligraphy   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ ceremonial calendar   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ focus   ⟨dict-lc⟩  (advisory)
+  ~ flamboyant   ⟨dict-lc,rare⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ eclipses   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ epidemic   ⟨dict-lc⟩  (advisory)
+  ~ sutras   ⟨dict-lc⟩  (advisory)
+  ~ journey   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ copper   ⟨dict-lc⟩  (advisory)
+  ~ markets   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ shogun   ⟨dict-lc⟩  (advisory)
+  ~ the Confucian classics   ⟨dict-lc⟩  (advisory)
+  ~ academy   ⟨dict-lc⟩  (advisory)
+  ~ capital crime.   ⟨dict-lc⟩  (advisory)
+  ~ bakufu   ⟨dict-lc,rare⟩  (advisory)
+  ~ cultural florescence   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ the Dutch   ⟨dict-lc⟩  (advisory)
+  ~ golden age.   ⟨dict-lc⟩  (advisory)
+  ~ michiyuki   ⟨bold,rare⟩  (advisory)
+  ~ koku   ⟨bold⟩  (advisory)
+  ~ ryōgaeshō   ⟨bold⟩  (advisory)
+  ~ prints   ⟨rare⟩  (advisory)
+  ~ futures   ⟨rare⟩  (advisory)
+  ~ fluctuated   ⟨rare⟩  (advisory)
+  ~ revisionists   ⟨rare⟩  (advisory)
+  ~ townspeople   ⟨rare⟩  (advisory)
+  ~ satisfy   ⟨rare⟩  (advisory)
+  ~ entrepreneurs   ⟨rare⟩  (advisory)
+  ~ seeker   ⟨rare⟩  (advisory)
+  ~ transcend   ⟨rare⟩  (advisory)
+  ~ homophone   ⟨rare⟩  (advisory)
+  ~ transient   ⟨rare⟩  (advisory)
+  ~ sensual   ⟨rare⟩  (advisory)
+  ~ delight   ⟨rare⟩  (advisory)
+  ~ ourselves   ⟨rare⟩  (advisory)
+  ~ gazing   ⟨rare⟩  (advisory)
+  ~ cherry   ⟨rare⟩  (advisory)
+  ~ blossoms   ⟨rare⟩  (advisory)
+  ~ antithesis   ⟨rare⟩  (advisory)
+  ~ moated   ⟨rare⟩  (advisory)
+  ~ prostitutes   ⟨rare⟩  (advisory)
+  ~ teahouses   ⟨rare⟩  (advisory)
+  ~ restaurants   ⟨rare⟩  (advisory)
+  ~ courtesans   ⟨rare⟩  (advisory)
+  ~ entertainers   ⟨rare⟩  (advisory)
+  ~ etiquette   ⟨rare⟩  (advisory)
+  ~ fashions   ⟨rare⟩  (advisory)
+  ~ troupes   ⟨rare⟩  (advisory)
+  ~ offstage   ⟨rare⟩  (advisory)
+  ~ prostitution   ⟨rare⟩  (advisory)
+  ~ complications   ⟨rare⟩  (advisory)
+  ~ makeup   ⟨rare⟩  (advisory)
+  ~ distilled   ⟨rare⟩  (advisory)
+  ~ femininity   ⟨rare⟩  (advisory)
+  ~ impersonation   ⟨rare⟩  (advisory)
+  ~ repertoire   ⟨rare⟩  (advisory)
+  ~ sensational   ⟨rare⟩  (advisory)
+  ~ premiered   ⟨rare⟩  (advisory)
+  ~ quintessential   ⟨rare⟩  (advisory)
+  ~ featuring   ⟨rare⟩  (advisory)
+  ~ puppets   ⟨rare⟩  (advisory)
+  ~ puppeteers   ⟨rare⟩  (advisory)
+  ~ chanter   ⟨rare⟩  (advisory)
+  ~ accompaniment   ⟨rare⟩  (advisory)
+  ~ puppeteer   ⟨rare⟩  (advisory)
+  ~ manipulate   ⟨rare⟩  (advisory)
+  ~ playwright   ⟨rare⟩  (advisory)
+  ~ courtesan   ⟨rare⟩  (advisory)
+  ~ prompting   ⟨rare⟩  (advisory)
+  ~ dramatizations   ⟨rare⟩  (advisory)
+  ~ circumvented   ⟨rare⟩  (advisory)
+  ~ wrestlers   ⟨rare⟩  (advisory)
+  ~ noodles   ⟨rare⟩  (advisory)
+  ~ affordable   ⟨rare⟩  (advisory)
+  ~ throwaway   ⟨rare⟩  (advisory)
+  ~ juxtaposition   ⟨rare⟩  (advisory)
+  ~ contrasting   ⟨rare⟩  (advisory)
+  ~ recounted   ⟨rare⟩  (advisory)
+  ~ interspersing   ⟨rare⟩  (advisory)
+  ~ allusion   ⟨rare⟩  (advisory)
+  ~ realist   ⟨rare⟩  (advisory)
+  ~ sexually   ⟨rare⟩  (advisory)
+  ~ moralistic   ⟨rare⟩  (advisory)
+  ~ disapproval   ⟨rare⟩  (advisory)
+  ~ monetized   ⟨rare⟩  (advisory)
+  ~ arbitraging   ⟨rare⟩  (advisory)
+  ~ expenses   ⟨rare⟩  (advisory)
+  ~ resold   ⟨rare⟩  (advisory)
+  ~ bargaining   ⟨rare⟩  (advisory)
+  ~ conglomerate   ⟨rare⟩  (advisory)
+  ~ printers   ⟨rare⟩  (advisory)
+  ~ bookstores   ⟨rare⟩  (advisory)
+  ~ ridiculed   ⟨rare⟩  (advisory)
+  ~ precepts   ⟨rare⟩  (advisory)
+  ~ fiscally   ⟨rare⟩  (advisory)
+  ~ debasement   ⟨rare⟩  (advisory)
+  ~ corresponds   ⟨rare⟩  (advisory)
+  ~ dynamism   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Tokyo   ⟨dict⟩  → glossary
+    El Cid   ⟨dict⟩  → event
+    Genroku   ⟨dict⟩  → event
+    Kyoto   ⟨dict⟩  → cross-link
+    Osaka   ⟨dict⟩  → glossary
+    Takeda Izumo II   ⟨bold⟩  → event/glossary
+    Yamamoto Tsunetomo   ⟨bold⟩  → event/glossary
+    Cervantes   ⟨dict,bold⟩  → glossary
+    Sekigahara   ⟨dict⟩  → event
+    kōke   ⟨gloss,bold⟩  → glossary
+  ~ Japan   ⟨dict,recur×4⟩  (advisory)
+  ~ Robin Hood   ⟨⟩  (advisory)
+  ~ Hyōgo Prefecture   ⟨⟩  (advisory)
+  ~ Tamura Tateaki   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ Japanese   ⟨recur×3⟩  (advisory)
+  ~ Kira's Edo   ⟨⟩  (advisory)
+  ~ Kira the chance   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ novels   ⟨dict-lc⟩  (advisory)
+  ~ ukiyo-e   ⟨dict-lc⟩  (advisory)
+  ~ samurai   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ hereditary warrior aristocracy   ⟨dict-lc⟩  (advisory)
+  ~ daimyo   ⟨dict-lc,rare⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ ritual suicide   ⟨dict-lc⟩  (advisory)
+  ~ garden   ⟨dict-lc⟩  (advisory)
+  ~ chamberlain   ⟨dict-lc,rare⟩  (advisory)
+  ~ chronicle   ⟨dict-lc⟩  (advisory)
+  ~ charcoal   ⟨dict-lc⟩  (advisory)
+  ~ legal system   ⟨dict-lc⟩  (advisory)
+  ~ kabuki   ⟨dict-lc,rare⟩  (advisory)
+  ~ bunraku   ⟨dict-lc,rare⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ temper   ⟨dict-lc,rare⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ gunpowder   ⟨dict-lc⟩  (advisory)
+  ~ canonized   ⟨dict-lc⟩  (advisory)
+  ~ kenka ryōseibai   ⟨bold⟩  (advisory)
+  ~ departs   ⟨rare⟩  (advisory)
+  ~ prints   ⟨rare⟩  (advisory)
+  ~ commemoration   ⟨rare⟩  (advisory)
+  ~ debasements   ⟨rare⟩  (advisory)
+  ~ considerations   ⟨rare⟩  (advisory)
+  ~ readiness   ⟨rare⟩  (advisory)
+  ~ nostalgia   ⟨rare⟩  (advisory)
+  ~ schoolteachers   ⟨rare⟩  (advisory)
+  ~ chafed   ⟨rare⟩  (advisory)
+  ~ shogunal   ⟨rare⟩  (advisory)
+  ~ etiquette   ⟨rare⟩  (advisory)
+  ~ coaching   ⟨rare⟩  (advisory)
+  ~ colleague   ⟨rare⟩  (advisory)
+  ~ slashing   ⟨rare⟩  (advisory)
+  ~ detained   ⟨rare⟩  (advisory)
+  ~ masterless   ⟨rare⟩  (advisory)
+  ~ dispossession   ⟨rare⟩  (advisory)
+  ~ vendettas   ⟨rare⟩  (advisory)
+  ~ vendetta   ⟨rare⟩  (advisory)
+  ~ dishonor   ⟨rare⟩  (advisory)
+  ~ mansion   ⟨rare⟩  (advisory)
+  ~ slacken   ⟨rare⟩  (advisory)
+  ~ brothel   ⟨rare⟩  (advisory)
+  ~ dissipation   ⟨rare⟩  (advisory)
+  ~ divorced   ⟨rare⟩  (advisory)
+  ~ degenerate   ⟨rare⟩  (advisory)
+  ~ reassembling   ⟨rare⟩  (advisory)
+  ~ lanterns   ⟨rare⟩  (advisory)
+  ~ ladders   ⟨rare⟩  (advisory)
+  ~ interim   ⟨rare⟩  (advisory)
+  ~ snowfall   ⟨rare⟩  (advisory)
+  ~ searched   ⟨rare⟩  (advisory)
+  ~ nightclothes   ⟨rare⟩  (advisory)
+  ~ behave   ⟨rare⟩  (advisory)
+  ~ flinching   ⟨rare⟩  (advisory)
+  ~ deliberation   ⟨rare⟩  (advisory)
+  ~ reestablish   ⟨rare⟩  (advisory)
+  ~ transposed   ⟨rare⟩  (advisory)
+  ~ dramatizing   ⟨rare⟩  (advisory)
+  ~ playwright   ⟨rare⟩  (advisory)
+  ~ cinema   ⟨rare⟩  (advisory)
+  ~ fulfill   ⟨rare⟩  (advisory)
+  ~ vigilante   ⟨rare⟩  (advisory)
+  ~ idealizes   ⟨rare⟩  (advisory)
+  ~ obscures   ⟨rare⟩  (advisory)
+  ~ nightshirt   ⟨rare⟩  (advisory)
+  ~ unconsciously   ⟨rare⟩  (advisory)
+  ~ operative   ⟨rare⟩  (advisory)
+  ~ extremis   ⟨rare⟩  (advisory)
+  ~ intensifying   ⟨rare⟩  (advisory)
+  ~ reassurance   ⟨rare⟩  (advisory)
+  ~ retrospectively   ⟨rare⟩  (advisory)
+  ~ intensification   ⟨rare⟩  (advisory)
+  ~ analogues   ⟨rare⟩  (advisory)
+  ~ chivalric   ⟨rare⟩  (advisory)
+  ~ knight   ⟨rare⟩  (advisory)
+  ~ commits   ⟨rare⟩  (advisory)
+  ~ laughs   ⟨rare⟩  (advisory)
+  ~ divergent   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Nakagawa Jun'an   ⟨bold⟩  → event/glossary
+    Tafel Anatomia   ⟨bold,recur×3⟩  → event/glossary
+  * Tokugawa Japan   ⟨dict⟩  → cross-link
+    Jesuit   ⟨dict⟩  → event
+    Beijing   ⟨dict⟩  → glossary
+    Dejima   ⟨dict,recur×3⟩  → event
+    Osaka   ⟨dict⟩  → glossary
+    Kyoto   ⟨dict⟩  → cross-link
+    Shirandō   ⟨bold⟩  → event/glossary
+    Tang China   ⟨dict⟩  → cross-link
+    Dai Nihon Enkai Yochi Zenzu   ⟨gloss,bold⟩  → glossary
+    Satsuma   ⟨dict,bold⟩  → glossary
+    Chōshū   ⟨dict,bold⟩  → glossary
+    Saga   ⟨dict,bold⟩  → glossary
+    Boshin War   ⟨dict⟩  → cross-link
+    Western-style   ⟨dict,recur×3⟩  → glossary
+    Shōhei Maru   ⟨bold⟩  → event/glossary
+    Newton   ⟨dict⟩  → event
+    Ōtsuki Gentaku   ⟨bold⟩  → event/glossary
+  ~ Japanese   ⟨recur×17⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Johann Adam Kulmus   ⟨⟩  (advisory)
+  ~ Chinese   ⟨recur×9⟩  (advisory)
+  ~ Western   ⟨recur×19⟩  (advisory)
+  ~ Japanese-Dutch   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict,recur×19⟩  (advisory)
+  ~ Ieyasu   ⟨⟩  (advisory)
+  ~ Christian   ⟨recur×3⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Dutch-language   ⟨⟩  (advisory)
+  ~ Dutch-learning   ⟨⟩  (advisory)
+  ~ West   ⟨⟩  (advisory)
+  ~ Gentaku   ⟨⟩  (advisory)
+  ~ Bakumatsu-era   ⟨⟩  (advisory)
+  ~ Comprehensive Maps of the Coastal Regions of Greater Japan   ⟨⟩  (advisory)
+  ~ British Royal Navy   ⟨⟩  (advisory)
+  ~ Western-influenced   ⟨⟩  (advisory)
+  ~ Europe   ⟨recur×3⟩  (advisory)
+  ~ European-style   ⟨⟩  (advisory)
+  ~ Meiji-era   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Edo Bay   ⟨⟩  (advisory)
+  ~ Netherlands   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ Britain   ⟨dict⟩  (advisory)
+  ~ Linnaeus   ⟨⟩  (advisory)
+  ~ Lavoisier   ⟨⟩  (advisory)
+  ~ Boerhaave   ⟨⟩  (advisory)
+  ~ Cuvier   ⟨⟩  (advisory)
+  ~ Volta   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ the lag was consistent   ⟨def⟩  (advisory)
+  ~ traditional Chinese medicine   ⟨dict-lc⟩  (advisory)
+  ~ orthodoxy   ⟨dict-lc⟩  (advisory)
+  ~ the Dutch   ⟨dict-lc⟩  (advisory)
+  ~ classical Chinese   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ sakoku.   ⟨dict-lc,rare⟩  (advisory)
+  ~ shogun   ⟨dict-lc⟩  (advisory)
+  ~ bakufu   ⟨dict-lc,rare⟩  (advisory)
+  ~ rice cultivation   ⟨dict-lc⟩  (advisory)
+  ~ sweet potato   ⟨dict-lc⟩  (advisory)
+  ~ channel.   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ academy   ⟨dict-lc⟩  (advisory)
+  ~ novels   ⟨dict-lc⟩  (advisory)
+  ~ kabuki   ⟨dict-lc,rare⟩  (advisory)
+  ~ domains   ⟨dict-lc⟩  (advisory)
+  ~ samurai   ⟨dict-lc⟩  (advisory)
+  ~ first railway   ⟨dict-lc⟩  (advisory)
+  ~ telegraph   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ railways   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ elekiteru   ⟨bold,rare⟩  (advisory)
+  ~ autopsy   ⟨rare⟩  (advisory)
+  ~ dissections   ⟨rare⟩  (advisory)
+  ~ refutation   ⟨rare⟩  (advisory)
+  ~ diagrams   ⟨rare⟩  (advisory)
+  ~ intestines   ⟨rare⟩  (advisory)
+  ~ cadaver   ⟨rare⟩  (advisory)
+  ~ dissection   ⟨rare⟩  (advisory)
+  ~ stomach   ⟨rare⟩  (advisory)
+  ~ anatomical   ⟨rare⟩  (advisory)
+  ~ factually   ⟨rare⟩  (advisory)
+  ~ incorrect   ⟨rare⟩  (advisory)
+  ~ obtain   ⟨rare⟩  (advisory)
+  ~ fluently   ⟨rare⟩  (advisory)
+  ~ fluency   ⟨rare⟩  (advisory)
+  ~ afternoons   ⟨rare⟩  (advisory)
+  ~ decipher   ⟨rare⟩  (advisory)
+  ~ encouragement   ⟨rare⟩  (advisory)
+  ~ holdover   ⟨rare⟩  (advisory)
+  ~ breeds   ⟨rare⟩  (advisory)
+  ~ outweighed   ⟨rare⟩  (advisory)
+  ~ lifting   ⟨rare⟩  (advisory)
+  ~ cargoes   ⟨rare⟩  (advisory)
+  ~ oranda   ⟨rare⟩  (advisory)
+  ~ segment   ⟨rare⟩  (advisory)
+  ~ calendrics   ⟨rare⟩  (advisory)
+  ~ inaccurate   ⟨rare⟩  (advisory)
+  ~ cartography   ⟨rare⟩  (advisory)
+  ~ brewer   ⟨rare⟩  (advisory)
+  ~ latitudes   ⟨rare⟩  (advisory)
+  ~ triangulating   ⟨rare⟩  (advisory)
+  ~ landmarks   ⟨rare⟩  (advisory)
+  ~ hydrographic   ⟨rare⟩  (advisory)
+  ~ charts   ⟨rare⟩  (advisory)
+  ~ surveyors   ⟨rare⟩  (advisory)
+  ~ mineralogical   ⟨rare⟩  (advisory)
+  ~ electrostatic   ⟨rare⟩  (advisory)
+  ~ generator   ⟨rare⟩  (advisory)
+  ~ sparks   ⟨rare⟩  (advisory)
+  ~ colleague   ⟨rare⟩  (advisory)
+  ~ breadth   ⟨rare⟩  (advisory)
+  ~ foresight   ⟨rare⟩  (advisory)
+  ~ rifles   ⟨rare⟩  (advisory)
+  ~ updated   ⟨rare⟩  (advisory)
+  ~ violators   ⟨rare⟩  (advisory)
+  ~ shogunal   ⟨rare⟩  (advisory)
+  ~ disturb   ⟨rare⟩  (advisory)
+  ~ ironclad   ⟨rare⟩  (advisory)
+  ~ industrializing   ⟨rare⟩  (advisory)
+  ~ steamed   ⟨rare⟩  (advisory)
+  ~ biology   ⟨rare⟩  (advisory)
+  ~ latency   ⟨rare⟩  (advisory)
+
+## Chapter 7
+  * Tokugawa   ⟨dict⟩  → cross-link
+    Genroku   ⟨dict⟩  → event
+    Kyoto   ⟨dict⟩  → cross-link
+    Tsunayoshi   ⟨bold⟩  → event/glossary
+    Kyōhō Reforms   ⟨dict,bold⟩  → event
+    Yoshimune   ⟨bold⟩  → event/glossary
+    Confucian   ⟨dict,recur×4⟩  → cross-link
+    Hokkaido   ⟨dict⟩  → glossary
+  * Russians   ⟨dict⟩  → cross-link
+    Osaka   ⟨dict⟩  → glossary
+    Honshu   ⟨dict⟩  → glossary
+    Adam Laxman   ⟨bold⟩  → event/glossary
+    Nagasaki   ⟨dict,recur×3⟩  → glossary
+    Sakhalin   ⟨dict⟩  → glossary
+    HMS Phaeton   ⟨bold⟩  → event/glossary
+    Matthew Calbraith Perry   ⟨dict,bold⟩  → event
+    Vienna Settlement   ⟨bold⟩  → event/glossary
+    American Revolution   ⟨dict,bold⟩  → cross-link
+  * United States   ⟨dict⟩  → cross-link
+    Hong Kong   ⟨dict⟩  → event
+    Edo Japan   ⟨dict⟩  → cross-link
+    Satsuma   ⟨dict⟩  → glossary
+    Chōshū   ⟨dict⟩  → glossary
+    Nikolai Rezanov   ⟨bold⟩  → event/glossary
+    Bansha no Goku   ⟨bold⟩  → event/glossary
+    War of 1812   ⟨bold⟩  → event/glossary
+  ~ Perry   ⟨⟩  (advisory)
+  ~ Genroku-era   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict,recur×7⟩  (advisory)
+  ~ Iceland   ⟨dict⟩  (advisory)
+  ~ Northern Hemisphere   ⟨⟩  (advisory)
+  ~ Japanese   ⟨recur×9⟩  (advisory)
+  ~ American   ⟨recur×4⟩  (advisory)
+  ~ Pacific   ⟨dict,recur×3⟩  (advisory)
+  ~ Russian   ⟨⟩  (advisory)
+  ~ Rezanov   ⟨⟩  (advisory)
+  ~ Kurile Islands   ⟨⟩  (advisory)
+  ~ British   ⟨recur×3⟩  (advisory)
+  ~ Edo Bay   ⟨⟩  (advisory)
+  ~ Edict   ⟨⟩  (advisory)
+  ~ Repel Foreign Ships   ⟨⟩  (advisory)
+  ~ Bansha   ⟨⟩  (advisory)
+  ~ Goku   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Provide Firewood   ⟨⟩  (advisory)
+  ~ Water   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ East Asian   ⟨⟩  (advisory)
+  ~ Britain   ⟨dict⟩  (advisory)
+  ~ European   ⟨recur×7⟩  (advisory)
+  ~ Asian   ⟨⟩  (advisory)
+  ~ North American   ⟨⟩  (advisory)
+  ~ Japan's Meiji Restoration   ⟨⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ collapse.   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ bakufu's   ⟨dict-lc,rare⟩  (advisory)
+  ~ reconstruction   ⟨dict-lc⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ samurai   ⟨dict-lc⟩  (advisory)
+  ~ shogun   ⟨dict-lc⟩  (advisory)
+  ~ sweet potato   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ daimyo   ⟨dict-lc,rare⟩  (advisory)
+  ~ social hierarchy   ⟨dict-lc⟩  (advisory)
+  ~ eighteenth   ⟨dict-lc⟩  (advisory)
+  ~ corvée labor   ⟨dict-lc⟩  (advisory)
+  ~ sankin-kōtai   ⟨dict-lc⟩  (advisory)
+  ~ domains.   ⟨dict-lc⟩  (advisory)
+  ~ counts   ⟨dict-lc⟩  (advisory)
+  ~ chronicle   ⟨dict-lc⟩  (advisory)
+  ~ sakoku   ⟨dict-lc,rare⟩  (advisory)
+  ~ phases.   ⟨dict-lc⟩  (advisory)
+  ~ rangaku   ⟨dict-lc,rare⟩  (advisory)
+  ~ textile production   ⟨dict-lc⟩  (advisory)
+  ~ steel   ⟨dict-lc⟩  (advisory)
+  ~ factory system   ⟨dict-lc⟩  (advisory)
+  ~ extraterritoriality   ⟨dict-lc,rare⟩  (advisory)
+  ~ unequal treaties   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ Edict to Repel Foreign Ships   ⟨bold⟩  (advisory)
+  ~ Edict to Provide Firewood and Water   ⟨bold⟩  (advisory)
+  ~ Second Opium War   ⟨bold⟩  (advisory)
+  ~ flowered   ⟨rare⟩  (advisory)
+  ~ strains   ⟨rare⟩  (advisory)
+  ~ expenses   ⟨rare⟩  (advisory)
+  ~ expensively   ⟨rare⟩  (advisory)
+  ~ denominated   ⟨rare⟩  (advisory)
+  ~ debasement   ⟨rare⟩  (advisory)
+  ~ windfall   ⟨rare⟩  (advisory)
+  ~ sumptuary   ⟨rare⟩  (advisory)
+  ~ exhortations   ⟨rare⟩  (advisory)
+  ~ industriousness   ⟨rare⟩  (advisory)
+  ~ frivolous   ⟨rare⟩  (advisory)
+  ~ unbearable   ⟨rare⟩  (advisory)
+  ~ pathologies   ⟨rare⟩  (advisory)
+  ~ licensing   ⟨rare⟩  (advisory)
+  ~ cartels   ⟨rare⟩  (advisory)
+  ~ considering   ⟨rare⟩  (advisory)
+  ~ puritanical   ⟨rare⟩  (advisory)
+  ~ whiplash   ⟨rare⟩  (advisory)
+  ~ retrenchment   ⟨rare⟩  (advisory)
+  ~ substituted   ⟨rare⟩  (advisory)
+  ~ deficit   ⟨rare⟩  (advisory)
+  ~ debtor   ⟨rare⟩  (advisory)
+  ~ uncompensated   ⟨rare⟩  (advisory)
+  ~ grading   ⟨rare⟩  (advisory)
+  ~ squeezing   ⟨rare⟩  (advisory)
+  ~ redress   ⟨rare⟩  (advisory)
+  ~ petitioners   ⟨rare⟩  (advisory)
+  ~ escalate   ⟨rare⟩  (advisory)
+  ~ rioting   ⟨rare⟩  (advisory)
+  ~ storehouses   ⟨rare⟩  (advisory)
+  ~ hoarders   ⟨rare⟩  (advisory)
+  ~ atmospheric   ⟨rare⟩  (advisory)
+  ~ depressed   ⟨rare⟩  (advisory)
+  ~ locust   ⟨rare⟩  (advisory)
+  ~ plagues   ⟨rare⟩  (advisory)
+  ~ resorted   ⟨rare⟩  (advisory)
+  ~ ominous   ⟨rare⟩  (advisory)
+  ~ requesting   ⟨rare⟩  (advisory)
+  ~ whalers   ⟨rare⟩  (advisory)
+  ~ frigate   ⟨rare⟩  (advisory)
+  ~ bombard   ⟨rare⟩  (advisory)
+  ~ batteries   ⟨rare⟩  (advisory)
+  ~ hardline   ⟨rare⟩  (advisory)
+  ~ implementation   ⟨rare⟩  (advisory)
+  ~ shipwrecked   ⟨rare⟩  (advisory)
+  ~ castaways   ⟨rare⟩  (advisory)
+  ~ inhumane   ⟨rare⟩  (advisory)
+  ~ irrational   ⟨rare⟩  (advisory)
+  ~ accommodating   ⟨rare⟩  (advisory)
+  ~ preventing   ⟨rare⟩  (advisory)
+  ~ commodore   ⟨rare⟩  (advisory)
+  ~ unaware   ⟨rare⟩  (advisory)
+  ~ disrupt   ⟨rare⟩  (advisory)
+  ~ motivate   ⟨rare⟩  (advisory)
+  ~ orthodoxies   ⟨rare⟩  (advisory)
+  ~ humiliations   ⟨rare⟩  (advisory)
+  ~ preconditions   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    USS Susquehanna   ⟨bold⟩  → event/glossary
+    USS Mississippi   ⟨bold⟩  → event/glossary
+    Tōkaidō   ⟨dict⟩  → glossary
+    Mexican-American War   ⟨bold⟩  → event/glossary
+    Americans   ⟨dict,recur×3⟩  → glossary
+    Kyoto   ⟨dict,recur×5⟩  → cross-link
+    Nagasaki   ⟨dict,recur×3⟩  → glossary
+    Tokugawa Ieyoshi   ⟨bold⟩  → event/glossary
+    United States   ⟨dict,recur×3⟩  → cross-link
+    Shimoda   ⟨dict,bold,recur×3⟩  → glossary
+    Izu Peninsula   ⟨dict⟩  → glossary
+    Hakodate   ⟨dict,bold⟩  → glossary
+    Hokkaido   ⟨dict⟩  → glossary
+    Treaty of Nanking   ⟨dict,bold⟩  → event
+    Hotta Masayoshi   ⟨bold⟩  → event/glossary
+    Yokohama   ⟨dict⟩  → glossary
+    Niigata   ⟨dict⟩  → glossary
+    Osaka   ⟨dict,recur×3⟩  → glossary
+    Kyushu   ⟨dict⟩  → glossary
+    Honshu   ⟨dict⟩  → glossary
+    Tosa   ⟨dict,bold,recur×3⟩  → glossary
+    Shikoku   ⟨dict⟩  → glossary
+    Tokugawa Iemochi   ⟨bold⟩  → event/glossary
+    Taisei Hōkan   ⟨dict,gloss,bold⟩  → event
+  * Tōhoku   ⟨dict⟩  → glossary
+    Sengoku   ⟨dict⟩  → glossary
+  * Hizen   ⟨dict⟩  → glossary
+    Prussian   ⟨dict,recur×3⟩  → glossary
+  * Western-style   ⟨dict⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Mitsubishi   ⟨dict⟩  → glossary
+    Mitsui   ⟨dict⟩  → glossary
+    Sumitomo   ⟨dict⟩  → glossary
+    USS Powhatan   ⟨bold⟩  → event/glossary
+    Dutch   ⟨dict,recur×3⟩  → glossary
+    American Civil War   ⟨dict,bold⟩  → cross-link
+    Risorgimento   ⟨dict⟩  → glossary
+    Austro-Prussian War   ⟨bold⟩  → event/glossary
+    Franco-Prussian War   ⟨bold⟩  → event/glossary
+    Russo-Japanese War   ⟨dict⟩  → cross-link
+    War of 1812   ⟨bold⟩  → event/glossary
+    Sakurada Gate   ⟨bold⟩  → event/glossary
+    Italian unification   ⟨bold⟩  → event/glossary
+  ~ Edo Bay   ⟨⟩  (advisory)
+  ~ United States Navy   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict,recur×14⟩  (advisory)
+  ~ American   ⟨recur×10⟩  (advisory)
+  ~ Japanese   ⟨recur×11⟩  (advisory)
+  ~ Pacific   ⟨dict,recur×4⟩  (advisory)
+  ~ Emperor of Japan   ⟨⟩  (advisory)
+  ~ Western   ⟨recur×9⟩  (advisory)
+  ~ British   ⟨recur×5⟩  (advisory)
+  ~ China   ⟨dict,recur×4⟩  (advisory)
+  ~ Treaty of Amity   ⟨⟩  (advisory)
+  ~ Commerce   ⟨⟩  (advisory)
+  ~ Hyōgo   ⟨⟩  (advisory)
+  ~ Britain   ⟨dict⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ Netherlands   ⟨⟩  (advisory)
+  ~ Revere the Emperor   ⟨⟩  (advisory)
+  ~ Expel the Barbarians   ⟨⟩  (advisory)
+  ~ Mito-school   ⟨⟩  (advisory)
+  ~ West   ⟨⟩  (advisory)
+  ~ Sakurada Gate of Edo Castle   ⟨⟩  (advisory)
+  ~ Mito   ⟨⟩  (advisory)
+  ~ Shimazu   ⟨⟩  (advisory)
+  ~ Mōri   ⟨⟩  (advisory)
+  ~ Yamauchi   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Satchō Dōmei   ⟨⟩  (advisory)
+  ~ Yoshimune   ⟨⟩  (advisory)
+  ~ Restoration of Imperial Rule   ⟨⟩  (advisory)
+  ~ Korean   ⟨dict⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Bashō   ⟨⟩  (advisory)
+  ~ Saikaku   ⟨⟩  (advisory)
+  ~ Tokugawa-era   ⟨⟩  (advisory)
+  ~ Japanese-built   ⟨⟩  (advisory)
+  ~ Nakatsu   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Ogata Kōan's Tekijuku   ⟨⟩  (advisory)
+  ~ America   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ Japan's Meiji   ⟨⟩  (advisory)
+  ~ East Asia   ⟨⟩  (advisory)
+  ~ Sino-Japanese War   ⟨⟩  (advisory)
+  ~ Pacific War   ⟨⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ amidships.   ⟨dict-lc,rare⟩  (advisory)
+  ~ shogun   ⟨dict-lc⟩  (advisory)
+  ~ council   ⟨dict-lc⟩  (advisory)
+  ~ bakufu   ⟨dict-lc,rare⟩  (advisory)
+  ~ daimyo   ⟨dict-lc,rare⟩  (advisory)
+  ~ accommodation   ⟨dict-lc⟩  (advisory)
+  ~ consul   ⟨dict-lc⟩  (advisory)
+  ~ most-favored-nation   ⟨dict-lc⟩  (advisory)
+  ~ sakoku   ⟨dict-lc,rare⟩  (advisory)
+  ~ extraterritoriality   ⟨dict-lc,rare⟩  (advisory)
+  ~ ratify   ⟨dict-lc⟩  (advisory)
+  ~ loyalists   ⟨dict-lc⟩  (advisory)
+  ~ violence.   ⟨dict-lc⟩  (advisory)
+  ~ coalesced   ⟨dict-lc⟩  (advisory)
+  ~ domains   ⟨dict-lc⟩  (advisory)
+  ~ tozama   ⟨dict-lc,rare⟩  (advisory)
+  ~ samurai   ⟨dict-lc⟩  (advisory)
+  ~ rōnin   ⟨dict-lc⟩  (advisory)
+  ~ imperial sovereignty.   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ siege.   ⟨dict-lc⟩  (advisory)
+  ~ smallpox   ⟨dict-lc⟩  (advisory)
+  ~ parliament   ⟨dict-lc⟩  (advisory)
+  ~ cabinet   ⟨dict-lc⟩  (advisory)
+  ~ annexed   ⟨dict-lc⟩  (advisory)
+  ~ feudal   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ rangaku   ⟨dict-lc,rare⟩  (advisory)
+  ~ sankin-kōtai   ⟨dict-lc⟩  (advisory)
+  ~ academy   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ channel   ⟨dict-lc⟩  (advisory)
+  ~ tolerated.   ⟨dict-lc⟩  (advisory)
+  ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ reconstruction   ⟨dict-lc⟩  (advisory)
+  ~ abdication   ⟨dict-lc⟩  (advisory)
+  ~ rōjū   ⟨bold⟩  (advisory)
+  ~ Second Opium War   ⟨bold⟩  (advisory)
+  ~ lookout   ⟨rare⟩  (advisory)
+  ~ sighted   ⟨rare⟩  (advisory)
+  ~ funnels   ⟨rare⟩  (advisory)
+  ~ sloops   ⟨rare⟩  (advisory)
+  ~ runner   ⟨rare⟩  (advisory)
+  ~ commodore   ⟨rare⟩  (advisory)
+  ~ obtain   ⟨rare⟩  (advisory)
+  ~ coaling   ⟨rare⟩  (advisory)
+  ~ steamship   ⟨rare⟩  (advisory)
+  ~ briefed   ⟨rare⟩  (advisory)
+  ~ realize   ⟨rare⟩  (advisory)
+  ~ salutes   ⟨rare⟩  (advisory)
+  ~ steamships   ⟨rare⟩  (advisory)
+  ~ undergunned   ⟨rare⟩  (advisory)
+  ~ shogunal   ⟨rare⟩  (advisory)
+  ~ inconsistency   ⟨rare⟩  (advisory)
+  ~ advocating   ⟨rare⟩  (advisory)
+  ~ nationals   ⟨rare⟩  (advisory)
+  ~ pressuring   ⟨rare⟩  (advisory)
+  ~ negotiator   ⟨rare⟩  (advisory)
+  ~ concluding   ⟨rare⟩  (advisory)
+  ~ consular   ⟨rare⟩  (advisory)
+  ~ triggering   ⟨rare⟩  (advisory)
+  ~ arbitrage   ⟨rare⟩  (advisory)
+  ~ stocks   ⟨rare⟩  (advisory)
+  ~ reactionary   ⟨rare⟩  (advisory)
+  ~ suicides   ⟨rare⟩  (advisory)
+  ~ activist   ⟨rare⟩  (advisory)
+  ~ illegally   ⟨rare⟩  (advisory)
+  ~ confinement   ⟨rare⟩  (advisory)
+  ~ suffice   ⟨rare⟩  (advisory)
+  ~ reparations   ⟨rare⟩  (advisory)
+  ~ bombarded   ⟨rare⟩  (advisory)
+  ~ xenophobia   ⟨rare⟩  (advisory)
+  ~ riflemen   ⟨rare⟩  (advisory)
+  ~ outclassed   ⟨rare⟩  (advisory)
+  ~ beriberi   ⟨rare⟩  (advisory)
+  ~ brokers   ⟨rare⟩  (advisory)
+  ~ graceful   ⟨rare⟩  (advisory)
+  ~ retain   ⟨rare⟩  (advisory)
+  ~ mediator   ⟨rare⟩  (advisory)
+  ~ diehards   ⟨rare⟩  (advisory)
+  ~ stipend   ⟨rare⟩  (advisory)
+  ~ diametric   ⟨rare⟩  (advisory)
+  ~ underpin   ⟨rare⟩  (advisory)
+  ~ entrepreneurs   ⟨rare⟩  (advisory)
+  ~ conglomerates   ⟨rare⟩  (advisory)
+  ~ leaked   ⟨rare⟩  (advisory)
+  ~ underwrite   ⟨rare⟩  (advisory)
+  ~ imitator   ⟨rare⟩  (advisory)

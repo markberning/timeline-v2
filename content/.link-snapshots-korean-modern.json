@@ -92,7 +92,7 @@
     },
     "Korean_Demilitarized_Zone": {
       "title": "Korean Demilitarized Zone",
-      "lead": "The Korean Demilitarized Zone (Korean: 한반도/조선반도 비무장 지대), also known as the Korean DMZ or simply the DMZ, is a strip of land running across the Korean Peninsula which intersects the 38th parallel north. The DMZ is a border barrier that divid",
+      "lead": "The Korean Demilitarized Zone (Korean: 한반도/조선반도 비무장 지대), also known as the Korean DMZ or the KDMZ or simply the DMZ, is a strip of land running across the Korean Peninsula which intersects the 38th parallel north. The DMZ is a border barrie",
       "image": "070401_Panmunjeom3.jpg"
     },
     "April_Revolution": {
@@ -172,7 +172,7 @@
     },
     "Gwangju_Uprising": {
       "title": "Gwangju Uprising",
-      "lead": "The Gwangju Democratization Movement (Korean: 오일팔 민주화 운동), was a series of student-led demonstrations that took place in Gwangju, South Korea, in May 1980, against the coup of Chun Doo-hwan. The uprising was violently suppressed by the Sout",
+      "lead": "The Gwangju Uprising, also known in South Korea as May 18 Democratization Movement (Korean: 오일팔 민주화 운동), was a series of student-led demonstrations that took place in Gwangju, South Korea, in May 1980, against the coup d'état of May Sevente",
       "image": "Gwangju5.18FriedhofFotos.JPG"
     },
     "Rangoon_bombing": {
@@ -238,7 +238,7 @@
     "Kim_Jong-il": {
       "title": "Kim Jong Il",
       "lead": "Kim Jong Il (16 February 1941 or 1942 – 17 December 2011) was a North Korean politician and dictator who was the second supreme leader of North Korea from the death of his father Kim Il Sung in 1994 until his own death in 2011. Posthumously",
-      "image": "Vladimir_Putin_with_Kim_Jong-Il-2_(cropped).jpg"
+      "image": "Vladimir_Putin_with_Kim_Jong-Il-2_(cropped)_(3).jpg"
     },
     "Kim_Jong-un": {
       "title": "Kim Jong Un",
@@ -317,7 +317,7 @@
     },
     "2024_South_Korean_martial_law_crisis": {
       "title": "2024 South Korean martial law crisis",
-      "lead": "In 2024, a political crisis took place in South Korea, triggered by a declaration of martial law by President Yoon Suk Yeol. On 3 December 2024, at 22:27 Korea Standard Time (KST), Yoon, the then-president of South Korea, announced the impo",
+      "lead": "On 3 December 2024, at 22:27 Korea Standard Time (KST), Yoon Suk Yeol, the then-president of South Korea, attempted a self-coup by declaring martial law during a televised address. In the address, he accused the Democratic Party (DPK), whic",
       "image": "2024년_대한민국_계엄_반대_시위대_깃발.jpg"
     },
     "Kaesong_Industrial_Region": {
@@ -332,6 +332,11 @@
     }
   },
   "glossary": {
+    "Provisional_Government_of_the_Republic_of_Korea": {
+      "title": "Provisional Government of the Republic of Korea",
+      "lead": "The Korean Provisional Government (KPG), formally the Provisional Government of the Republic of Korea (Korean: 대한민국 임시정부), was a Korean government-in-exile based in China during Japanese rule over Korea. The KPG was founded in the Shanghai ",
+      "image": "Flag_of_the_Provisional_Government_of_the_Republic_of_Korea.svg"
+    },
     "Korea_under_Japanese_rule": {
       "title": "Korea under Japanese rule",
       "lead": "From 1910 to 1945, Korea was ruled by the Empire of Japan as a colony under the name Chōsen (朝鮮), the Japanese reading of \"Joseon\". Japan first took Korea into its sphere of influence during the late 1800s. Both Korea (Joseon) and Japan had",
@@ -347,20 +352,55 @@
       "lead": "Kim Il Sung (born Kim Song Ju; 15 April 1912 – 8 July 1994) was a North Korean revolutionary, military officer, politician, and dictator who founded the Democratic People's Republic of Korea (DPRK), also known as North Korea, in 1948, and l",
       "image": "Kim_Il-sung_in_1950.jpg"
     },
+    "Korean_War": {
+      "title": "Korean War",
+      "lead": "The Korean War (25 June 1950 – 27 July 1953) was an armed conflict fought on the Korean Peninsula between North Korea (Democratic People's Republic of Korea; DPRK) and South Korea (Republic of Korea; ROK) and their allies. North Korea was s",
+      "image": "Chosin.jpg"
+    },
     "April_Revolution": {
       "title": "April Revolution",
       "lead": "The April Revolution (Korean: 4.19 혁명), also called the April 19 Revolution or April 19 Movement, were mass protests in South Korea against President Syngman Rhee and the First Republic from April 11 to 26, 1960, which led to Rhee's resigna",
       "image": "4.19_혁명.jpg"
     },
+    "POSCO": {
+      "title": "POSCO",
+      "lead": "POSCO (formerly Pohang Iron and Steel Company) is a South Korean steel manufacturer headquartered in Pohang, South Korea. It had an output of 42,000,000 metric tons (41,000,000 long tons; 46,000,000 short tons) of crude steel in 2015, makin",
+      "image": "Poscotower07.jpg"
+    },
+    "Hyundai_Heavy_Industries": {
+      "title": "HD Hyundai Heavy Industries",
+      "lead": "HD Hyundai Heavy Industries Co., Ltd. (HHI; Korean: 에이치디현대중공업 주식회사; RR: Eichidi Hyeondae Junggongeop Jusik Hoesa) is the world's largest shipbuilding company and a major heavy equipment manufacturer. Its headquarters are in Ulsan, South Kor",
+      "image": "Hyundai_heavy_industries.jpg"
+    },
+    "Chun_Doo-hwan": {
+      "title": "Chun Doo-hwan",
+      "lead": "Chun Doo-hwan (Korean: 전두환; pronounced [tɕʌn du.βwɐn]; 18 January 1931 – 23 November 2021) was a South Korean army general who served as the fifth president of South Korea from 1980 to 1988. A member of the Democratic Justice Party, he rule",
+      "image": "Chun_Doo-hwan_(전두환)_Presidential_Portrait.jpg"
+    },
     "Gwangju_Uprising": {
       "title": "Gwangju Uprising",
-      "lead": "The Gwangju Democratization Movement (Korean: 오일팔 민주화 운동), was a series of student-led demonstrations that took place in Gwangju, South Korea, in May 1980, against the coup of Chun Doo-hwan. The uprising was violently suppressed by the Sout",
+      "lead": "The Gwangju Uprising, also known in South Korea as May 18 Democratization Movement (Korean: 오일팔 민주화 운동), was a series of student-led demonstrations that took place in Gwangju, South Korea, in May 1980, against the coup d'état of May Sevente",
       "image": "Gwangju5.18FriedhofFotos.JPG"
+    },
+    "Kim_Dae-jung": {
+      "title": "Kim Dae-jung",
+      "lead": "Kim Dae-jung (Korean: 김대중; pronounced [kim.dɛ.dʑuŋ]; 8 January 1924 – 18 August 2009) was a South Korean politician, activist, and statesman who served as the eighth president of South Korea from 1998 to 2003. Originally an entrepreneur, Ki",
+      "image": "Kim_Dae-jung_presidential_portrait.jpg"
+    },
+    "Sunshine_Policy": {
+      "title": "Sunshine Policy",
+      "lead": "The Reconciliation and Cooperation Policy Towards the North (Korean: 대북화해협력정책; Hanja: 對北和解協力政策), colloquially referred to as Sunshine Policy (햇볕정책; 햇볕政策), is one of the approaches for South Korea's foreign policy towards North Korea, lastin",
+      "image": "South_Korean_Liberalism_Flags_Symbol.svg"
     },
     "Kim_Jong-il": {
       "title": "Kim Jong Il",
       "lead": "Kim Jong Il (16 February 1941 or 1942 – 17 December 2011) was a North Korean politician and dictator who was the second supreme leader of North Korea from the death of his father Kim Il Sung in 1994 until his own death in 2011. Posthumously",
-      "image": "Vladimir_Putin_with_Kim_Jong-Il-2_(cropped).jpg"
+      "image": "Vladimir_Putin_with_Kim_Jong-Il-2_(cropped)_(3).jpg"
+    },
+    "Kim_Jong-un": {
+      "title": "Kim Jong Un",
+      "lead": "Kim Jong Un (born 8 January c. 1982–1984) is a North Korean politician and dictator who has served as the supreme leader of North Korea since 2011, following the death of his father, Kim Jong Il. He is the third ruler from the Kim family to",
+      "image": "Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped).jpg"
     },
     "Roh_Moo-hyun": {
       "title": "Roh Moo-hyun",
@@ -399,7 +439,7 @@
     },
     "Cheondoism": {
       "title": "Cheondoism",
-      "lead": "Cheondoism (spelled Chondoism in North Korea; Korean: 천도교) is a 20th-century Korean pantheistic religion, based on the 19th-century Donghak religious movement founded by Choe Je-u and codified under Son Byong-hi. Cheondoism has its origins ",
+      "lead": "Cheondoism (spelled Chondoism in North Korea; Korean: 천도교) is a 20th-century Korean panentheistic religion, based on the 19th-century Donghak religious movement founded by Choe Je-u and codified under Son Byong-hi. Cheondoism has its origin",
       "image": "Cheondoism_flag.svg"
     },
     "Tapgol_Park": {
@@ -409,7 +449,7 @@
     },
     "Syngman_Rhee": {
       "title": "Syngman Rhee",
-      "lead": "Syngman Rhee (Korean: 이승만; Hanja: 李承晚; pronounced [iː.sɯŋ.man]; 26 March 1875 – 19 July 1965), also known by his art name Unam (우남; 雩南), was a South Korean politician who served as the first president of South Korea from 1948 until his resi",
+      "lead": "Syngman Rhee (Korean: 이승만; Hanja: 李承晚; pronounced [iː.sɯŋ.man]; 26 March 1875 – 19 July 1965), also known by his art name Unam (우남; 雩南), was a Korean politician who served as the first president of South Korea from 1948 until his resignatio",
       "image": "Rhee_Syng-Man_in_1948.jpg"
     },
     "The_Dong-A_Ilbo": {
@@ -434,7 +474,7 @@
     },
     "Shinto": {
       "title": "Shinto",
-      "lead": "Shinto (神道, Shintō; Japanese pronunciation: [ɕiꜜn.toː]), also called Shintoism, is a religion originating in Japan. Classified as an East Asian religion by scholars of religion, it is often regarded by its practitioners as Japan's indigenou",
+      "lead": "{{Use British English|date=Novemugh Shinto (神道, Shintō; Japanese pronunciation: [ɕiꜜn.toː]), also called Shintoism, is a religion originating in Japan. Classified as an East Asian religion by scholars of religion, it is often regarded by it",
       "image": "Itsukushima_Gate.jpg"
     },
     "Manchuria": {
@@ -452,6 +492,181 @@
       "lead": "Koreans constitute the second largest ethnic minority group in Japan after Chinese immigrants. The majority of Koreans in Japan are Zainichi Koreans, often known simply as Zainichi: ethnic Koreans who immigrated to Japan during the Japanese",
       "image": "Koreans_in_osaka.jpg"
     },
+    "Christianity_in_Korea": {
+      "title": "Christianity in Korea",
+      "lead": "The practice of Christianity is marginal in North Korea, but significant in South Korea, which has a population of 8.6 million Protestants, mostly Presbyterians, and 5.8 million Catholics. Christianity in the form of Catholicism was first i",
+      "image": "Percent_of_Christians_by_Country–Pew_Research_2011.svg"
+    },
+    "Donghak": {
+      "title": "Tonghak",
+      "lead": "Tonghak (Korean: 동학; Hanja: 東學; RR: Donghak; lit. 'Eastern learning') was an academic movement in Korean Neo-Confucianism founded in 1860 by Ch'oe Cheu. The Tonghak movement arose as a reaction to seohak (lit. '\"Western learning\"'), and cal",
+      "image": "Flag_of_Donghak_Peasant_Revolution_(small).svg"
+    },
+    "Korean_Declaration_of_Independence": {
+      "title": "Korean Declaration of Independence",
+      "lead": "The Korean Declaration of Independence (Korean: 3·1독립선언서; lit. 'March 1st Declaration of Independence') is the statement adopted by the 33 Korean representatives meeting at Taehwagwan, the restaurant located in what is now Insa-dong, Jongno",
+      "image": "The_Proclamation_of_Korean_Independence_(English_text)_in_Tapgol_Park.jpg"
+    },
+    "Ch'oe_Namsŏn": {
+      "title": "Ch'oe Namsŏn",
+      "lead": "Ch'oe Namsŏn (Korean: 최남선; April 26, 1890 – October 10, 1957), also known by the Japanese pronunciation of his name Sai Nanzen, was a Korean historian, political activist, poet, and publisher who was best remembered as a leading member of t",
+      "image": "최남선.jpg"
+    },
+    "Paris_Peace_Conference_(1919–1920)": {
+      "title": "Paris Peace Conference (1919–1920)",
+      "lead": "The Paris Peace Conference was a set of formal and informal diplomatic meetings in 1919 and 1920 after the end of World War I, in which the victorious Allies set the peace terms for the defeated Central Powers. Dominated by the leaders of B",
+      "image": "Paris_Peace_Conference.jpg"
+    },
+    "Jeamni_massacre": {
+      "title": "Jeamni massacre",
+      "lead": "The Jeamni Massacre (Korean: 제암리 학살 사건; lit. 'Jeamni Massacre Incident') was a mass murder of 20 to 30 unarmed Korean civilians by the Imperial Japanese Army on April 15, 1919, in Jeamni, Suwon, Japanese Korea.",
+      "image": "JeamniMassacre.png"
+    },
+    "Suwon": {
+      "title": "Suwon",
+      "lead": "Suwon (Korean: 수원; Korean pronunciation: [sʰu.wʌn]) is the largest city and capital of Gyeonggi Province, South Korea's most populous province. The city lies approximately 30 km (19 mi) south of the national capital, Seoul. With a populatio",
+      "image": "20121003_Suwon_vs_Seoul.jpg"
+    },
+    "Seoul": {
+      "title": "Seoul",
+      "lead": "Seoul, officially Seoul Special Metropolitan City, is the capital and largest city of South Korea, and the largest city in the whole of Korea. The broader Seoul Metropolitan Area, encompassing Seoul, Gyeonggi Province and Incheon, emerged a",
+      "image": "중화전의_낮.jpg"
+    },
+    "Vladivostok": {
+      "title": "Vladivostok",
+      "lead": "Vladivostok is the largest city and the administrative center of Primorsky Krai and the capital of the Far Eastern Federal District of Russia. It is located around the Golden Horn Bay on the Sea of Japan, covering an area of 331.16 square k",
+      "image": "Vladivostok._GUM_Department_Store_P8070703_2200.jpg"
+    },
+    "Harbin": {
+      "title": "Harbin",
+      "lead": "Harbin is the capital of Heilongjiang, China, and the largest city of the province—as well as the second largest urban population (after Shenyang, Liaoning province) and the largest metropolitan population (urban and rural regions together)",
+      "image": "26935-Harbin_(29661238117).jpg"
+    },
+    "Shanghai": {
+      "title": "Shanghai",
+      "lead": "Shanghai is a provincial-level direct-administered municipality in China. It has a population of 29,558,908 in the urban area as of 2025, thus making it China’s most populous city and, more broadly, the fifth-largest city in the world by po",
+      "image": "Huangpu_Park_20124-Shanghai_(32208802494).jpg"
+    },
+    "Hangzhou": {
+      "title": "Hangzhou",
+      "lead": "Hangzhou is the capital and most populous city of Zhejiang province, China, situated at the intersection of the southern terminus of the Grand Canal and the head of Hangzhou Bay. Renowned as one of the Eight Ancient Capitals of China, Hangz",
+      "image": "杭州钱江新城_4_(cropped).jpg"
+    },
+    "Nanjing": {
+      "title": "Nanjing",
+      "lead": "Nanjing is the capital of Jiangsu, East China. The city, which is located in the southwestern corner of the province, has 11 districts, an administrative area of 6,600 square kilometres (2,500 sq mi), and as of 2021 a population of 9,423,40",
+      "image": "Nanjing_CBD_from_City_Wall.jpg"
+    },
+    "Changsha": {
+      "title": "Changsha",
+      "lead": "Changsha is the capital of Hunan, China. Located in the lower reaches of the Xiang River in northeastern Hunan, it is the 15th most populous city in China with a population of 10,513,100, and the third-most populous city in Central China. T",
+      "image": "爱晚亭（秋-侧面）.jpg"
+    },
+    "Chongqing": {
+      "title": "Chongqing",
+      "lead": "Chongqing is a provincial-level direct-administered municipality in Southwestern China. It is one of the four direct-administered municipalities of China and the only one located inland. The municipality covers a large geographical area rou",
+      "image": "Chongqing_Nightscape.jpg"
+    },
+    "Korean_Liberation_Army": {
+      "title": "Korean Liberation Army",
+      "lead": "The Korean Liberation Army (KLA; Korean: 한국광복군; Hanja: 韓國光復軍), also known as the Korean Restoration Army, was the armed forces of the Provisional Government of the Republic of Korea. It was established on September 17, 1940, in Chongqing, R",
+      "image": "Coat_of_arms_of_the_Korean_Liberation_Army.svg"
+    },
+    "Saito_Makoto": {
+      "title": "Saitō Makoto",
+      "lead": "Viscount Saitō Makoto (斎藤 実; 27 October 1858 – 26 February 1936) was a Japanese admiral and politician who was prime minister of Japan from 1932 to 1934. Upon distinguishing himself during his command of two cruisers in the First Sino-Japan",
+      "image": "Makoto_Saitō_(cropped)(b).jpg"
+    },
+    "The_Chosun_Ilbo": {
+      "title": "The Chosun Ilbo",
+      "lead": "The Chosun Ilbo (Korean: 조선일보, lit. 'Korea Daily Newspaper'), also known as The Chosun Daily, is a Korean-language newspaper of record for South Korea and among the oldest active newspapers in the country. With a daily circulation of more t",
+      "image": "Chosun_Ilbo_Building.jpg"
+    },
+    "Yi_Sang": {
+      "title": "Yi Sang",
+      "lead": "Kim Haegyŏng (Korean: 김해경; Hanja: 金海卿; September 23, 1910 – April 17, 1937), also known by his art name Yi Sang (이상; 李箱), was a writer and poet who lived in Korea under Japanese rule. Although he was a poet, he did not receive specialized e",
+      "image": "Leesang.jpg"
+    },
+    "Gim_Yujeong": {
+      "title": "Gim Yujeong",
+      "lead": "Gim Yujeong or Kim Yu-jŏng (Korean: 김유정, 11 January 1908 – 29 March 1937) was a Korean novelist. He is one of the famous novelists of Korea, also recognised as the icon of Chuncheon, where he was born. Gim You-jeong Literature Village and G",
+      "image": "YuJeong_Kim.jpg"
+    },
+    "Won_Buddhism": {
+      "title": "Won Buddhism",
+      "lead": "Won Buddhism (Korean: 원불교) is a modern Buddhist religion originating in Korea. The name \"Won Buddhism\" comes from the Korean words 원/圓 won (\"circle\") and 불교/佛敎 bulgyo (\"Buddhism\"), literally meaning \"Circle Buddhism\" or interpreted as \"Cons",
+      "image": ""
+    },
+    "Korean_shamanism": {
+      "title": "Korean shamanism",
+      "lead": "Korean shamanism, also known as Musok (Korean: 무속; Hanja: 巫俗), is a religion from Korea. Scholars of religion classify it as a folk religion and sometimes regard it as one facet of a broader Korean vernacular religion distinct from Buddhism",
+      "image": "Sam-Taeguk.svg"
+    },
+    "Gyeongbu_Line": {
+      "title": "Gyeongbu Line",
+      "lead": "The Gyeongbu line (Gyeongbuseon) is a railway line in South Korea and is considered to be the most important and one of the oldest in the country. It was constructed in 1905, connecting Seoul with Busan via Suwon, Daejeon, and Daegu. It is ",
+      "image": "Korail_Gyeongbu_Line.png"
+    },
+    "Gyeongui_Line": {
+      "title": "Gyeongui Line",
+      "lead": "The Gyeongui Line is a railway line between Seoul Station and Dorasan Station in Paju. Korail operates the Seoul Metropolitan Subway service between Seoul Station and Dorasan Station.",
+      "image": "ImjingangRailRoad.jpg"
+    },
+    "Gyeongwon_Line": {
+      "title": "Gyeongwon Line",
+      "lead": "The Gyeongwon Line is a railway line serving northeastern Gyeonggi Province in South Korea. The line is operated by Korail. The name of the line came from Gyeongseong (Seoul) and Wonsan, the original terminus of the line, in what is now Nor",
+      "image": "Korail_Gyeongwon_Line.png"
+    },
+    "Yalu_River": {
+      "title": "Yalu River",
+      "lead": "The Yalu River (Chinese: 鸭绿江; pinyin: Yālù Jiāng) or Amnok River (Korean: 압록강; MR: Amnokkang) is a river on the border between China and North Korea. Together with the Tumen River to its east, and a small portion of Paektu Mountain, the Yal",
+      "image": "巡道工出品_photo_by_Xundaogong_-_panoramio_(66).jpg"
+    },
+    "Namsan_(Seoul)": {
+      "title": "Namsan",
+      "lead": "Namsan (Korean: 남산; lit. 'South Mountain') is a 270-metre-high (890 ft) peak in Jung District, Seoul, South Korea. It was also known as Mongmyeoksan (목멱산; 木覓山) in the past. It offers some hiking, picnic areas and views of downtown Seoul's s",
+      "image": "Namsan_and_Namsan_Tour_at_Dusk.jpg"
+    },
+    "Nagasaki": {
+      "title": "Nagasaki",
+      "lead": "Nagasaki (長崎, Nagasaki; Japanese pronunciation: [na.ɡaꜜ.sa.kʲi, na.ŋa-], lit. 'Long Cape'), officially Nagasaki City (長崎市, Nagasaki-shi; [na.ɡa.sa.kʲi̥ꜜ.ɕi, na.ɡa.saꜜ.kʲi̥.ɕi, na.ŋa-]), is the capital and the largest city of Nagasaki Prefec",
+      "image": "Nagasaki_City_View_from_Glover_Garden,_Nagasaki_2014.jpg"
+    },
+    "Kono_Statement": {
+      "title": "Kono Statement",
+      "lead": "The Kono Statement refers to a statement released by Chief Cabinet Secretary Yōhei Kōno on August 4, 1993, after the conclusion of the government study that found that the Japanese Imperial Army had forced women, known as comfort women, to ",
+      "image": "Kono_Yohei_1-2.jpg"
+    },
+    "Park_Geun-hye": {
+      "title": "Park Geun-hye",
+      "lead": "Park Geun-hye (; Korean: 박근혜 [pak‿k͈ɯn.hje] ; born 2 February 1952) is a South Korean politician who served as the 11th president of South Korea from 2013 until her removal from office in 2017. A member of then Saenuri Party and the eldest ",
+      "image": "Park_Geun-hye_presidential_portrait_2.png"
+    },
+    "Tokyo": {
+      "title": "Tokyo",
+      "lead": "Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. The population of the city proper was over 14 million as of 2023. The Greater Tokyo Area, which includes Tokyo and parts of six neighboring prefectures,",
+      "image": "Skyscrapers_of_Shinjuku_2009_January.jpg"
+    },
+    "Hiroshima": {
+      "title": "Hiroshima",
+      "lead": "Hiroshima (広島市, Hiroshima-shi; English: , also UK: , US: , Japanese: [çiɾoɕima] ) is the capital of Hiroshima Prefecture in Japan. As of June 1, 2019, the city had an estimated population of 1,199,391. The gross domestic product (GDP) in Gr",
+      "image": "Atomic_Bomb_Dome_and_Motoyaso_River,_Hiroshima,_Northwest_view_20190417_1.jpg"
+    },
+    "Hibakusha": {
+      "title": "Hibakusha",
+      "lead": "Hibakusha (pronounced [çibaꜜkɯ̥ɕa] or [çibakɯ̥ꜜɕa]; Japanese: 被爆者 or 被曝者; lit. 'bombing survivor' or 'person affected by exposure [to radioactivity]') is a word of Japanese origin generally designating the people affected by the atomic bomb",
+      "image": "The_patient's_skin_is_burned_in_a_pattern_corresponding_to_the_dark_portions_of_a_kimono_-_NARA_-_519686.jpg"
+    },
+    "Soviet_Union": {
+      "title": "Soviet Union",
+      "lead": "The Soviet Union, officially the Union of Soviet Socialist Republics (USSR), was a transcontinental country that spanned much of Eurasia from 1922 until its dissolution in 1991. It was the world's third-most populous country, the largest by",
+      "image": "Flag_of_the_Soviet_Union.svg"
+    },
+    "British_Raj": {
+      "title": "British Raj",
+      "lead": "The British Raj ( RAHJ; from Hindustani rāj, 'reign', 'rule' or 'government') was the period of rule by the British Crown over present day India, Pakistan, Bangladesh, and Myanmar, lasting from 1858 to 1947. It is also called Crown rule in ",
+      "image": "British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg"
+    },
     "Dean_Rusk": {
       "title": "Dean Rusk",
       "lead": "David Dean Rusk (February 9, 1909 – December 20, 1994) was the United States secretary of state from 1961 to 1969 under presidents John F. Kennedy and Lyndon B. Johnson, the second-longest serving secretary of state after Cordell Hull from ",
@@ -459,7 +674,7 @@
     },
     "Joseph_Stalin": {
       "title": "Joseph Stalin",
-      "lead": "Joseph Vissarionovich Stalin (né Dzhugashvili; 18 December [O.S. 6 December] 1878 – 5 March 1953) was a Soviet revolutionary and politician who led the Soviet Union from 1924 until his death in 1953. He held office as general secretary of t",
+      "lead": "Joseph Vissarionovich Stalin (né Dzhugashvili; 18 December [O.S. 6 December] 1878 – 5 March 1953) was a Soviet revolutionary and politician who led the Soviet Union from 1924 until his death in 1953. He held office as the General Secretary ",
       "image": "StalinCropped1943.jpg"
     },
     "Mao_Zedong": {
@@ -471,11 +686,6 @@
       "title": "Douglas MacArthur",
       "lead": "Douglas MacArthur (26 January 1880 – 5 April 1964) was an American general who served as a top commander during World War II and the Korean War, achieving the rank of General of the Army. He served with distinction in World War I; as chief ",
       "image": "MacArthur_Manila_(cropped2).jpg"
-    },
-    "Yalu_River": {
-      "title": "Yalu River",
-      "lead": "The Yalu River (Chinese: 鸭绿江; pinyin: Yālù Jiāng) or Amnok River (Korean: 압록강; MR: Amnokkang) is a river on the border between China and North Korea. Together with the Tumen River to its east, and a small portion of Paektu Mountain, the Yal",
-      "image": "巡道工出品_photo_by_Xundaogong_-_panoramio_(66).jpg"
     },
     "Pyongyang": {
       "title": "Pyongyang",
@@ -507,6 +717,36 @@
       "lead": "The Yeosu-Suncheon rebellion, also known as the Yeo-Sun incident (Yeo-Sun an abbreviation of Yeosu and Suncheon), was a rebellion that began in October 1948 and mostly ended by November of the same year. However, pockets of resistance laste",
       "image": "South_Jeolla_map.png"
     },
+    "Charles_H._Bonesteel_III": {
+      "title": "Charles H. Bonesteel III",
+      "lead": "Charles Hartwell Bonesteel III (26 September 1909 – 13 October 1977) was an American military commander, the son of Major General Charles Hartwell Bonesteel Jr. and grandson of Major Charles H. Bonesteel Sr. (1851–1902). He served in the Un",
+      "image": "GEN_Bonesteel,_Charles_H_III.jpg"
+    },
+    "Jeju_Island": {
+      "title": "Jeju Island",
+      "lead": "Jeju Island (Jeju and Korean: 제주도; Hanja: 濟州島; RR: Jejudo; pronounced [tɕeːdʑudo]) is South Korea's largest island, covering an area of 1,833.2 km2 (707.8 sq mi), which is 1.83% of the total area of the country. Alongside outlying islands, ",
+      "image": "Jeju_Island.jpg"
+    },
+    "Republic_of_China_(1912%E2%80%931949)": {
+      "title": "Republic of China (1912–1949)",
+      "lead": "The Republic of China (simplified Chinese: 中华民国; traditional Chinese: 中華民國; pinyin: Zhōnghuá Mínguó) established its rule over Mainland China on 1 January 1912 following the Xinhai Revolution, which overthrew the Manchu-led Qing dynasty and",
+      "image": "Flag_of_the_Republic_of_China.svg"
+    },
+    "Kaesong": {
+      "title": "Kaesong",
+      "lead": "Kaesong (UK: , US: ; Korean: [kɛ.sɔŋ]) is a special city in the southern part of North Korea (formerly in North Hwanghae Province), and the capital of Korea during the Taebong kingdom and subsequent Goryeo dynasty. The city is near the Kaes",
+      "image": "Koryo_Songgyungwan_University.jpg"
+    },
+    "Qing_dynasty": {
+      "title": "Qing dynasty",
+      "lead": "The Qing dynasty ( CHING), officially the Great Qing, also known as the Qing Empire or Qing China, was a Manchu-led imperial dynasty of China and an early modern empire in East Asia which existed from 1636/1644 to 1912. The last imperial dy",
+      "image": "Flag_of_China_(1889–1912).svg"
+    },
+    "People%27s_Republic_of_China": {
+      "title": "China",
+      "lead": "China, officially the People's Republic of China (PRC), is a country in East Asia. It is the second-most populous country after India, with a population exceeding 1.4 billion, representing 17% of the world's population. China borders fourte",
+      "image": "Flag_of_the_People's_Republic_of_China.svg"
+    },
     "Park_Chung_Hee": {
       "title": "Park Chung Hee",
       "lead": "Park Chung Hee (Korean: 박정희; [pa̠k̚.t͡ɕ͈ʌ̹ŋ.ʝi] ; November 14, 1917 – October 26, 1979) was a South Korean politician and army officer who served as the third president of South Korea from 1962 after he seized power in the May 16 coup of 19",
@@ -514,7 +754,7 @@
     },
     "Manchukuo": {
       "title": "Manchukuo",
-      "lead": "Manchukuo or Manchoukuo, was a puppet state of the Empire of Japan in Manchuria that existed from 1932 until its dissolution in 1945. It was ostensibly founded as a republic, its territory consisting of the lands seized in the Japanese inva",
+      "lead": "Manchukuo or Manchoukuo was a puppet state of the Empire of Japan in Manchuria that existed from 1932 until its dissolution in 1945. It was ostensibly founded as a republic, its territory consisting of the lands seized in the Japanese invas",
       "image": "Flag_of_Manchukuo.svg"
     },
     "Nobusuke_Kishi": {
@@ -529,7 +769,7 @@
     },
     "OECD": {
       "title": "OECD",
-      "lead": "The Organisation for Economic Co-operation and Development (OECD; French: Organisation de coopération et de développement économiques, OCDE) is an intergovernmental organisation with 38 member countries, founded in 1961 to stimulate economi",
+      "lead": "The Organisation for Economic Co-operation and Development (OECD; French: Organisation de coopération et de développement économiques, OCDE) is an intergovernmental organisation with 38 member countries. It was founded in 1961 to stimulate ",
       "image": "Château_de_la_Muette,_Paris_20_March_2019_004.jpg"
     },
     "Jeon_Tae-il": {
@@ -546,6 +786,91 @@
       "title": "Han River (Korea)",
       "lead": "The Han River (Korean: 한강) is a major river in South Korea. It flows through the central region of the Korean peninsula, with some of its tributaries and drainage basin in North Korea. The Han River currently has eight river islands: Nanjid",
       "image": "Seoul_satellite_map.jpg"
+    },
+    "North_Gyeongsang_Province": {
+      "title": "North Gyeongsang Province",
+      "lead": "North Gyeongsang Province (Korean: 경상북도, Korean pronunciation: [kjʌŋ.saŋ.buk̚.t͈o]) is a province in eastern South Korea, and with an area of 18,420 km2 (7,110 sq mi), it is the largest province in the Korean peninsula. The province was for",
+      "image": "주산지-1.jpg"
+    },
+    "Naoki_Hoshino": {
+      "title": "Naoki Hoshino",
+      "lead": "Naoki Hoshino (星野 直樹, Hoshino Naoki; 10 April 1892 – 26 January 1978) was a Japanese politician who served as Chief Cabinet Secretary under Prime Minister Hideki Tojo from 1941 to 1944. He served in the Ministry of Finance during the Taishō",
+      "image": "Hoshino_Naoki.jpg"
+    },
+    "LG_Corporation": {
+      "title": "LG",
+      "lead": "LG Corporation (or LG Group), formerly known as Lucky Goldstar, is a South Korean multinational conglomerate founded by Koo In-hwoi in 1947 and managed by successive generations of his family. Headquartered in the LG Twin Towers building in",
+      "image": "LG_Twin_Tower_(2015).jpg"
+    },
+    "Daewoo": {
+      "title": "Daewoo",
+      "lead": "Daewoo (UK: DAY-oo; US: day-WOO; Korean: 대우; Hanja: 大宇; IPA: [tɛ.u]; lit. \"great universe\" and a portmanteau of \"dae\" meaning great, and the given name of founder and chairman Kim Woo-choong) also known as the Daewoo Group, was a major Sout",
+      "image": "Daewoo_Building_(1995).jpg"
+    },
+    "Lotte_Corporation": {
+      "title": "Lotte Corporation",
+      "lead": "Lotte Corporation (Korean: 롯데지주) is a South Korean multinational conglomerate corporation, and the fifth-largest chaebol in South Korea. Lotte was founded on 28 June 1948 by Korean businessman Shin Kyuk-ho in Tokyo. Shin expanded Lotte to h",
+      "image": ""
+    },
+    "SK_Group": {
+      "title": "SK Group",
+      "lead": "SK Group (Korean: SK그룹; 에스케이그룹) is a South Korean multinational manufacturing and services conglomerate headquartered in Seoul. A chaebol (Korean family-owned conglomerate), SK Group is the second largest such conglomerate by revenue in Sou",
+      "image": "SK_logo.svg"
+    },
+    "Park_Tae-joon": {
+      "title": "Park Tae-joon",
+      "lead": "Park Tae-joon (Korean: 박태준; 24 October 1927 – 13 December 2011) was a South Korean business tycoon and politician who briefly served as the prime minister of South Korea in 2000. His most renowned accomplishment includes founding of POSCO a",
+      "image": ""
+    },
+    "9th_Infantry_Division_(South_Korea)": {
+      "title": "9th Infantry Division (South Korea)",
+      "lead": "The 9th Infantry Division (Korean: 제9보병사단, Hanja: 第九步兵師團), also known as White Horse Division (Korean: 백마부대; hanja:白馬師團) after the victory of Battle of White Horse Hill, is an infantry division of the Republic of Korea Army. The unit is com",
+      "image": "ROKA_9th_Infantry_Division_Insignia.svg"
+    },
+    "Capital_Mechanized_Infantry_Division": {
+      "title": "Capital Mechanized Infantry Division",
+      "lead": "The Capital Mechanized Infantry Division (Korean: 수도기계화보병사단), also known as Fierce Tiger Division (Korean: 맹호부대; Hanja: 猛虎部隊), is currently one of the six mechanized infantry divisions in the Republic of Korea Army. It is part of the VII Ma",
+      "image": "ROKA_Capital_Mechanized_Infantry_Division_Insignia.svg"
+    },
+    "Vietnam_War": {
+      "title": "Vietnam War",
+      "lead": "The Vietnam War (1 November 1955 – 30 April 1975) was an armed conflict in Vietnam, Laos, and Cambodia fought between North Vietnam (Democratic Republic of Vietnam) and South Vietnam (Republic of Vietnam) and their allies. North Vietnam was",
+      "image": "U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Khâm_Đức,_Vietnam,_12_July_1970_(79431435).jpg"
+    },
+    "Jeolla_Province": {
+      "title": "Jeolla Province",
+      "lead": "Jeolla Province (Korean: 전라도; Hanja: 全羅道, [tɕʌ̹ɭɭa̠.do̞]) was one of the historical Eight Provinces of Korea during the Kingdom of Joseon in southwestern Korea. It consisted of the modern South Korean provinces of North Jeolla, South Jeolla",
+      "image": "Jeolla_Province_of_Late_Joseon.png"
+    },
+    "National_Assembly_(South_Korea)": {
+      "title": "National Assembly (South Korea)",
+      "lead": "The National Assembly of the Republic of Korea (Korean: 대한민국 국회) is the unicameral national legislature of South Korea. Elections to the National Assembly are held every four years. The latest legislative elections were held on 10 April 202",
+      "image": "Emblem_of_the_National_Assembly_of_Korea.svg"
+    },
+    "Kim_Young-sam": {
+      "title": "Kim Young-sam",
+      "lead": "Kim Young-sam (Korean: 김영삼; Hanja: 金泳三, pronounced [kim.jʌŋ.sam]; 14 January 1929 – 22 November 2015), also known by his initials YS, was a South Korean politician who served as the seventh president of South Korea from 1993 to 1998. From 1",
+      "image": "Kim_Young-sam_presidential_portrait_(cropped).jpg"
+    },
+    "Busan": {
+      "title": "Busan",
+      "lead": "Busan (Korean: 부산; Hanja: 釜山; pronounced [pusʰa̠n]), officially Busan Metropolitan City, is the second most populous city in South Korea, after Seoul; it has a population of over 3.3 million as of 2024. Alternatively romanized as Pusan, it ",
+      "image": "Gwangandaegyo_Bridge_in_Busan,_South_Korea_(iau2207b).tiff"
+    },
+    "Masan": {
+      "title": "Masan",
+      "lead": "Masan (Korean: 마산) is an administrative region of Changwon, a city of South Gyeongsang Province, South Korea. It was formerly an independent city from 1949 until 30 June 2010, when it was absorbed to Changwon along with Jinhae. Masan was re",
+      "image": "Korea_Masan_Samhoro_road_1.jpg"
+    },
+    "Assassination_of_Park_Chung_Hee": {
+      "title": "Assassination of Park Chung Hee",
+      "lead": "On 26 October 1979, Park Chung Hee, the third president of South Korea, was assassinated during a dinner at the Korean Central Intelligence Agency (KCIA) safe house near the Blue House presidential compound in Jongno District, Seoul, South ",
+      "image": "Park_Chung-hee.jpg"
+    },
+    "Meiji_Restoration": {
+      "title": "Meiji Restoration",
+      "lead": "The Meiji Restoration (明治維新, Meiji Ishin; Japanese pronunciation: [mei.(d)ʑi iꜜ.ɕiɴ, meː-]), referred to at the time as the Honorable Restoration (御維新／御一新, Goi(s)shin), also known as the Meiji Renovation, Revolution, Regeneration, Reform, o",
+      "image": "Emperor_Meiji_by_Takahashi_Yuichi.jpg"
     },
     "Workers%27_Party_of_Korea": {
       "title": "Workers' Party of Korea",
@@ -577,6 +902,51 @@
       "lead": "The Republic of Korea Army Special Warfare Command (ROK-SWC; Korean: 대한민국 육군 특수전사령부; 특전사; Hanja: 大韓民國陸軍 特殊戰司令部), also known as the Republic of Korea Army Special Forces \"Black Berets\" (ROK Special Forces), is a strategic-level military comm",
       "image": "ROKA_Special_Warfare_Command_Insignia.svg"
     },
+    "Cold_War": {
+      "title": "Cold War",
+      "lead": "The Cold War was a period of international geopolitical rivalry between the United States (US) and the Soviet Union (USSR) and their respective allies, the capitalist Western Bloc and communist Eastern Bloc. It began in the aftermath of the",
+      "image": "NATO_vs._Warsaw_Pact_(1949-1990).svg"
+    },
+    "Non-Aligned_Movement": {
+      "title": "Non-Aligned Movement",
+      "lead": "The Non-Aligned Movement (NAM) is a forum of 121 countries that are not formally aligned with or against any major power bloc. It was founded with the view to advancing interests of developing countries in the context of Cold War confrontat",
+      "image": "NAM_Members.svg"
+    },
+    "George_Orwell": {
+      "title": "George Orwell",
+      "lead": "Eric Arthur Blair (25 June 1903 – 21 January 1950) was an English novelist, poet, essayist, journalist, and critic who wrote under the pen name of George Orwell. His work is characterised by lucid prose, social criticism, opposition to all ",
+      "image": "George_Orwell_press_photo.jpg"
+    },
+    "State_Security_Department": {
+      "title": "Ministry of State Security (North Korea)",
+      "lead": "The Ministry of State Security (Korean: 국가보위성) is the secret police agency of North Korea. It is an autonomous agency of the North Korean government reporting directly to the Supreme Leader. The agency is reputed to be one of the most bruta",
+      "image": "State_Security_Department.svg"
+    },
+    "Beijing": {
+      "title": "Beijing",
+      "lead": "Beijing, previously romanized as Peking, is the capital city of China. With more than 22 million residents, it is the world's most populous national capital city, as well as China's second-largest city by urban area, after Shanghai. It is l",
+      "image": "Skyline_of_Beijing_CBD_with_B-5906_approaching_(20211016171955)_(1).jpg"
+    },
+    "Choi_Kyu-hah": {
+      "title": "Choi Kyu-hah",
+      "lead": "Choi Kyu-hah (Korean: 최규하, pronounced [tɕʰø ɡjuha, - kjuha]; 16 July 1919 – 22 October 2006) was a South Korean politician who served as the fourth President of South Korea from 1979 to 1980. An independent politician, he served as the Prim",
+      "image": "Presidents_of_the_Republic_Of_Korea_(4261836786)_Choi.jpg"
+    },
+    "Myanmar": {
+      "title": "Myanmar",
+      "lead": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma (the official English name until 1989), is a country in northwest Southeast Asia. It is the largest country by area in Mainland Southeast Asia and has a ",
+      "image": "Flag_of_Myanmar.svg"
+    },
+    "Sea_of_Japan": {
+      "title": "Sea of Japan",
+      "lead": "The Sea of Japan (see § Names for other names) is the marginal sea between the Japanese archipelago, Sakhalin, the Korean Peninsula, and the mainland of the Russian Far East. The Japanese archipelago separates the sea from the Pacific Ocean",
+      "image": "Sea_of_Japan_Map_en.png"
+    },
+    "Seoul_Spring": {
+      "title": "Seoul Spring",
+      "lead": "The Seoul Spring (Korean: 서울의 봄) was a period of democratization in South Korea from 26 October 1979 to 17 May 1980. This expression was derived from the Prague Spring of Czechoslovakia in 1968. On the night of 26 October 1979, President Pa",
+      "image": ""
+    },
     "Park_Jong-chul": {
       "title": "Park Jong-chul",
       "lead": "Park Jong-chul (Korean: 박종철; April 1, 1965 – January 14, 1987) was a South Korean democracy movement activist. His death by torture was a key factor in sparking the June Democratic Struggle, which led to the democratization of South Korea.",
@@ -591,11 +961,6 @@
       "title": "Lee Han-yeol",
       "lead": "Lee Han-yeol (Korean: 이한열; August 29, 1966 – July 5, 1987) was a South Korean student activist who became a central symbol of the June Democratic Struggle. He was twenty years old and finishing his second year at Yonsei University when riot",
       "image": ""
-    },
-    "Kim_Young-sam": {
-      "title": "Kim Young-sam",
-      "lead": "Kim Young-sam (Korean: 김영삼; Hanja: 金泳三, pronounced [kim.jʌŋ.sam]; 14 January 1929 – 22 November 2015), also known by his initials YS, was a South Korean politician who served as the seventh president of South Korea from 1993 to 1998. From 1",
-      "image": "Kim_Young-sam_presidential_portrait_(cropped).jpg"
     },
     "Constitutional_Court_of_Korea": {
       "title": "Constitutional Court of Korea",
@@ -612,15 +977,45 @@
       "lead": "The Mount Kumgang Tourist Region was a special administrative region of North Korea. It was established in 2002 to handle South Korean tourist traffic to Mount Kumgang (Diamond Mountain). It was one of the symbols of the South Korean Sunshi",
       "image": "Lake_samilpo_at_Kumgangsan_20020720.jpg"
     },
-    "Daewoo": {
-      "title": "Daewoo",
-      "lead": "Daewoo (UK: DAY-oo; US: day-WOO; Korean: 대우; Hanja: 大宇; IPA: [tɛ.u]; lit. \"great universe\" and a portmanteau of \"dae\" meaning great, and the given name of founder and chairman Kim Woo-choong) also known as the Daewoo Group, was a major Sout",
-      "image": "Daewoo_Building_(1995).jpg"
-    },
     "Songun": {
       "title": "Songun",
       "lead": "Songun (Korean: 선군) is the \"military-first\" ideology and policy of North Korea, prioritizing the Korean People's Army in the affairs of state and allocation of resources. \"Military-first\" as a principle guides political and economic life in",
       "image": "Fahey_DSCF2839_(6074653969)_1_1.jpg"
+    },
+    "Kim_Jong-pil": {
+      "title": "Kim Jong-pil",
+      "lead": "Kim Jong-pil (Korean: 김종필; pronounced [kimdʑoŋpʰil]; January 7, 1926 – June 23, 2018), also known colloquially as JP, was a South Korean politician who was the founder and first director of the Korean Central Intelligence Agency. He served ",
+      "image": "Kim_Jong-pil_1999.png"
+    },
+    "Aesop": {
+      "title": "Aesop",
+      "lead": "Aesop ( EE-sop; Ancient Greek: Αἴσωπος, Aísōpos; c. 620 – 564 BCE; formerly rendered as Æsop) was a Greek fabulist and storyteller credited with a number of fables now collectively known as Aesop's Fables. Although his existence remains unc",
+      "image": "Aesop_pushkin01.jpg"
+    },
+    "Nobel_Peace_Prize": {
+      "title": "Nobel Peace Prize",
+      "lead": "The Nobel Peace Prize is one of the five Nobel Prizes established by the will of Swedish industrialist, inventor, and armaments manufacturer Alfred Nobel, along with the prizes in Chemistry, Physics, Physiology or Medicine, and Literature. ",
+      "image": "President_Jimmy_Carter's_2002_Nobel_Peace_Prize_-_Bronze_Medal_-_At_Visitor's_Center_-_Plains_-_Georgia_-_USA_(34208881752).jpg"
+    },
+    "Lee_Myung-bak": {
+      "title": "Lee Myung-bak",
+      "lead": "Lee Myung-bak (pronounced /ˌmjʌŋ ˈbɑːk/; Korean: 이명박; pronounced [i.mjʌŋ.bak̚]; born 19 December 1941), often referred to by his initials MB, is a South Korean politician and business executive who served as the tenth president of South Kor",
+      "image": "Lee_Myung-bak_presidential_portrait.jpg"
+    },
+    "Democratic_Party_(South_Korea,_2015)": {
+      "title": "Democratic Party (South Korea, 2015)",
+      "lead": "The Democratic Party of Korea (DPK or DP; Korean: 더불어민주당, lit. 'Together Democratic Party') is a liberal political party in South Korea. The DPK and its rival, the People Power Party (PPP), form the two major political parties of South Kore",
+      "image": "2024_Logo_of_the_Democratic_Party_of_Korea.svg"
+    },
+    "Nordpolitik": {
+      "title": "Nordpolitik",
+      "lead": "Nordpolitik (German for 'Northern Policy') was the signature foreign policy of South Korean president Roh Tae-woo. The policy guided South Korean efforts to reach out to the traditional allies of North Korea, with the goal of normalized rel",
+      "image": "South_Korea_Nordpolitik.svg"
+    },
+    "Kia": {
+      "title": "Kia",
+      "lead": "Kia Corporation (Korean: 기아; pronounced [ki.a]) is a South Korean multinational automobile manufacturer headquartered in Seoul, South Korea. It is South Korea's second largest automobile manufacturer, after its parent company, Hyundai Motor",
+      "image": "Kia_buildings_New_Logo.png"
     },
     "Psy": {
       "title": "Psy",
@@ -670,7 +1065,87 @@
     "HYBE_Corporation": {
       "title": "Hybe",
       "lead": "Hybe Co., Ltd. (Korean: 하이브), commonly known as simply Hybe (stylized in all caps), is a South Korean multinational conglomerate. Founded as Big Hit Entertainment, Hybe has grown from a traditional music entertainment company into a tech-dr",
-      "image": "Hybe_logo.svg"
+      "image": ""
+    },
+    "YG_Entertainment": {
+      "title": "YG Entertainment",
+      "lead": "YG Entertainment Inc. (Korean: YG 엔터테인먼트) is a South Korean multinational entertainment agency established in 24 February 1998 by Yang Hyun-suk. The company operates as a record label, talent agency, music production company, event manageme",
+      "image": "YG_Entertainment_Logo.svg"
+    },
+    "JYP_Entertainment": {
+      "title": "JYP Entertainment",
+      "lead": "JYP Entertainment (Korean: JYP 엔터테인먼트) is a South Korean multinational entertainment and record label conglomerate founded in 1997 by J.Y. Park. Operating as a record label, talent agency, music production company, event management company,",
+      "image": "JYP_Entertainment_building_in_the_Gangdong_District.jpg"
+    },
+    "Johnny_%26_Associates": {
+      "title": "Johnny & Associates",
+      "lead": "Johnny & Associates, Inc. was a Japanese talent agency formed by Johnny Kitagawa in 1962, which managed groups of male idols known as Johnny's. The company had a significant impact on pop culture with male idols and boy bands in Japan since",
+      "image": "Johnny_&_Associates2.jpg"
+    },
+    "Wonder_Girls": {
+      "title": "Wonder Girls",
+      "lead": "Wonder Girls (Korean: 원더걸스) were a South Korean girl group formed by JYP Entertainment. The group debuted in February 2007 with the single \"Irony\" and 5 members: Yeeun, Sunye, Sunmi, Hyuna, and Sohee. After Hyuna's departure in July, Yubin ",
+      "image": "WonderGirls2016Crop.jpg"
+    },
+    "Girls%27_Generation": {
+      "title": "Girls' Generation",
+      "lead": "Girls' Generation (Korean: 소녀시대; RR: Sonyeo Sidae), also known as SNSD, is a South Korean girl group formed by SM Entertainment. The group is composed of eight members: Taeyeon, Sunny, Tiffany, Hyoyeon, Yuri, Sooyoung, Yoona, and Seohyun. O",
+      "image": "220728_GG_poleposition_266_(53595169645).jpg"
+    },
+    "Super_Junior": {
+      "title": "Super Junior",
+      "lead": "Super Junior (Korean: 슈퍼주니어; stylized in all caps), also known as SJ or SuJu, is a South Korean boy band. The group is composed of Leeteuk, Heechul, Yesung, Shindong, Sungmin, Eunhyuk, Siwon, Donghae, Ryeowook, and Kyuhyun. Han Geng, Kibum,",
+      "image": "KCON_2015_Super_Junior_DSC02998_(20357930851).jpg"
+    },
+    "TVXQ": {
+      "title": "TVXQ",
+      "lead": "TVXQ (stylized as TVXQ!; Korean: 동방신기; lit. 'Rising Gods of the East'), also known as Tohoshinki (東方神起) in Japan, is a South Korean duo formed by SM Entertainment, composed of U-Know Yunho and Max Changmin. Originally formed in 2003 as a fi",
+      "image": "TVXQ_December_2023.jpg"
+    },
+    "Big_Bang_(South_Korean_band)": {
+      "title": "BigBang (South Korean band)",
+      "lead": "BigBang (Korean: 빅뱅; stylized in all caps) is a South Korean boy band formed by YG Entertainment. The group consists of three members: G-Dragon, Taeyang, and Daesung. Originally a five-piece band, Seungri retired from the entertainment indu",
+      "image": "BIGBANG_2011_(current_members_since_2023).jpg"
+    },
+    "Twice_(group)": {
+      "title": "Twice",
+      "lead": "Twice (Korean: 트와이스; commonly stylized in all caps) is a South Korean girl group formed by JYP Entertainment. The group is composed of nine members: Nayeon, Jeongyeon, Momo, Sana, Jihyo, Mina, Dahyun, Chaeyoung, and Tzuyu. They are recogniz",
+      "image": "Twice_-_Dickies_Arena,_2022_(cropped).jpg"
+    },
+    "Exo_(group)": {
+      "title": "Exo",
+      "lead": "Exo (Korean: 엑소; RR: Ekso; stylized in all caps) is a South Korean-Chinese boy band based in Seoul formed by SM Entertainment in 2011 and debuted in 2012. The group consists of nine members: Xiumin, Suho, Lay, Baekhyun, Chen, Chanyeol, D.O.",
+      "image": "Exo_monster_160618_suwon.png"
+    },
+    "Mandarin_Chinese": {
+      "title": "Mandarin Chinese",
+      "lead": "Mandarin ( MAN-dər-in) is the largest branch of the Sinitic languages. Mandarin varieties are natively spoken by 70 percent of all Chinese speakers, spread over a large geographical area that stretches from Yunnan in the southwest to Xinjia",
+      "image": "Guanhua_swapped.svg"
+    },
+    "King_Sejong_Institute": {
+      "title": "King Sejong Institute",
+      "lead": "The King Sejong Institute Foundation (Korean: 세종학당재단; Hanja: 世宗學堂財團; RR: Sejong Hakdang Jaedan) is a foundation established by the South Korean government that encourages learning of the Korean language around the world. It was founded in 2",
+      "image": ""
+    },
+    "Gangnam_District": {
+      "title": "Gangnam District",
+      "lead": "Gangnam District (Korean: 강남구; RR: Gangnam-gu; IPA: [ka̠ŋna̠m.ɡu]) is one of the 25 districts of Seoul, South Korea. The term Gangnam translates to \"South of the Han River\". Gangnam District is the third-largest district in Seoul, with an a",
+      "image": "Teheran-ro_Yeongdong-daero_crossing_7.jpg"
+    },
+    "Hyundai": {
+      "title": "Hyundai",
+      "lead": "Hyundai is a former South Korean industrial conglomerate (\"chaebol\"), which was restructured into the following groups: Hyundai Group, parts of the former conglomerate which have not been divested Hyundai Asan, a real estate construction an",
+      "image": "Hyundai_Headquarter_Building,_Jongno-gu,_Seoul.jpg"
+    },
+    "Samsung": {
+      "title": "Samsung",
+      "lead": "Samsung Group (Korean: 삼성; pronounced [sʰamsɔŋ]; stylised as SΛMSUNG) is a South Korean multinational manufacturing conglomerate headquartered in the Samsung Town office complex in Seoul. The group consists of numerous affiliated businesses",
+      "image": "Samsung_headquarters.jpg"
+    },
+    "Thriller_film": {
+      "title": "Thriller film",
+      "lead": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that evokes excitement and suspense in the audience. The suspense element found in most films' plots is particularly exploited by the filmmaker in this g",
+      "image": "RebeccaTrailer.jpg"
     },
     "Jangmadang": {
       "title": "Jangmadang",
@@ -717,6 +1192,56 @@
       "lead": "Kim Jong-nam (Korean: 김정남, Korean: [kim.dzɔŋ.nam]; 10 May 1971 – 13 February 2017) was the eldest son of North Korean leader Kim Jong Il. From roughly 1994 to 2001, he was considered the heir apparent to his father. He was thought to have f",
       "image": ""
     },
+    "Atomic_bombings_of_Hiroshima_and_Nagasaki": {
+      "title": "Atomic bombings of Hiroshima and Nagasaki",
+      "lead": "On 6 and 9 August 1945, the United States detonated two atomic bombs over the Japanese cities of Hiroshima and Nagasaki, respectively, during the final days of World War II. The aerial bombings killed 150,000 to 246,000 people, most of whom",
+      "image": "Atomic_bombing_of_Japan.jpg"
+    },
+    "Hanoi": {
+      "title": "Hanoi",
+      "lead": "Hanoi ( han-OY; Vietnamese: Hà Nội, pronounced [haː˨˩ noj˧˨ʔ]) is the capital and second-most populous municipality of Vietnam. It encompasses an area of 3,358.6 km2 (1,296.8 mi2), and as of 2025 has a population of 8,807,523. Hanoi had the",
+      "image": "Hanoi_skyline_with_Ba_Vi_Mountain.jpg"
+    },
+    "Nuclear_Suppliers_Group": {
+      "title": "Nuclear Suppliers Group",
+      "lead": "The Nuclear Suppliers Group (NSG) is a multilateral export control regime and a group of nuclear supplier countries that seek to contribute to the non-proliferation of nuclear weapons through the implementation of two sets of guidelines for",
+      "image": "NSG_Members.svg"
+    },
+    "Macau": {
+      "title": "Macau",
+      "lead": "Macau or Macao is a special administrative region of China. It consists of the Macau Peninsula, the islands of Taipa and Coloane, the Cotai reclamation zone between Taipa and Coloane, and several smaller islets. It borders Zhuhai to the nor",
+      "image": "Flag_of_Macau.svg"
+    },
+    "Chinese_economic_reform": {
+      "title": "Reform and opening up",
+      "lead": "Reform and opening-up, also known as the Chinese economic reform or Chinese economic miracle, refers to a variety of economic reforms in the People's Republic of China (PRC) that began in the late 20th century, after Mao Zedong's death in 1",
+      "image": "2011_深圳_莲花山顶－邓小平头像_-_panoramio.jpg"
+    },
+    "Kim_Ju-ae": {
+      "title": "Kim Ju Ae",
+      "lead": "Kim Ju Ae (Korean: 김주애; born c. 2012 or 2013) is the daughter of the North Korean leader Kim Jong Un and his wife Ri Sol Ju. The North Korean government has disclosed little information about her, and much remains unknown, including her bir",
+      "image": ""
+    },
+    "Hwasong-17": {
+      "title": "Hwasong-17",
+      "lead": "The Hwasong-17 (Korean: 《화성포-17》형; lit. 'Mars Artillery Type 17') is a North Korean two-stage, liquid-fueled intercontinental ballistic missile. First unveiled on 10 October 2020 at a military parade, the Japanese Ministry of Defence estima",
+      "image": ""
+    },
+    "Libya_and_weapons_of_mass_destruction": {
+      "title": "Libya and weapons of mass destruction",
+      "lead": "Libya pursued programs to develop or acquire weapons of mass destruction from when Colonel Muammar Gaddafi of Libyan Army seized control of Libya in 1969 until he announced on 19 December 2003 that Libya would voluntarily terminate its prog",
+      "image": "Gas-ultra_centrifuges_from_Libya.jpg"
+    },
+    "Presidency_of_Donald_Trump": {
+      "title": "Presidency of Donald Trump",
+      "lead": "Presidency of Donald Trump may refer to: First presidency of Donald Trump, the United States presidential administration from 2017 to 2021 Second presidency of Donald Trump, the United States presidential administration since 2025",
+      "image": ""
+    },
+    "Presidency_of_Joe_Biden": {
+      "title": "Presidency of Joe Biden",
+      "lead": "Joe Biden's tenure as the 46th president of the United States began with his inauguration on January 20, 2021, and ended on January 20, 2025. Biden, member of the Democratic Party, had previously served as the 47th vice president from 2009 ",
+      "image": "Joe_Biden_presidential_portrait.jpg"
+    },
     "SK_Hynix": {
       "title": "SK Hynix",
       "lead": "SK Hynix Inc. (Korean: 에스케이하이닉스 주식회사), stylized SK hynix, is a South Korean semiconductor company that manufactures dynamic random-access memory (DRAM) chips and flash memory chips. SK Hynix is one of the world's largest semiconductor vendo",
@@ -742,25 +1267,55 @@
       "lead": "The People Power Party (PPP; Korean: 국민의힘; lit. 'Power of Nationals') is a conservative and right-wing to far-right political party in South Korea. It is the second-largest party in the National Assembly. The PPP, along with its historic ri",
       "image": "Flag_of_People_Power_Party_of_Korea.svg"
     },
-    "Democratic_Party_(South_Korea,_2015)": {
-      "title": "Democratic Party (South Korea, 2015)",
-      "lead": "The Democratic Party of Korea (DPK or DP; Korean: 더불어민주당, lit. 'Together Democratic Party') is a liberal political party in South Korea. The DPK and its rival, the People Power Party (PPP), form the two major political parties of South Kore",
-      "image": "2024_Logo_of_the_Democratic_Party_of_Korea.svg"
-    },
-    "Lee_Myung-bak": {
-      "title": "Lee Myung-bak",
-      "lead": "Lee Myung-bak (pronounced /ˌmjʌŋ ˈbɑːk/; Korean: 이명박; pronounced [i.mjʌŋ.bak̚]; born 19 December 1941), often referred to by his initials MB, is a South Korean politician and business executive who served as the tenth president of South Kor",
-      "image": "Lee_Myung-bak_presidential_portrait.jpg"
-    },
     "Sampo_generation": {
       "title": "N-po generation",
       "lead": "N-po generation (Korean: N포세대; Hanja: N抛世代; RR: N-posedae; lit. 'generation that has given up on N things') is a 2010s neologism for the generation of people who have given up on numerous things in South Korea. It was first attested as the ",
       "image": ""
     },
-    "Gangnam_District": {
-      "title": "Gangnam District",
-      "lead": "Gangnam District (Korean: 강남구; RR: Gangnam-gu; IPA: [ka̠ŋna̠m.ɡu]) is one of the 25 districts of Seoul, South Korea. The term Gangnam translates to \"South of the Han River\". Gangnam District is the third-largest district in Seoul, with an a",
-      "image": "Teheran-ro_Yeongdong-daero_crossing_7.jpg"
+    "Dynamic_random-access_memory": {
+      "title": "Dynamic random-access memory",
+      "lead": "Dynamic random-access memory (dynamic RAM or DRAM) is a type of random-access semiconductor memory that stores each bit of data in a memory cell. A DRAM memory cell usually consists of a microscopic capacitor and a transistor, both typicall",
+      "image": "MT4C1024-HD.jpg"
+    },
+    "Samsung_Heavy_Industries": {
+      "title": "Samsung Heavy Industries",
+      "lead": "Samsung Heavy Industries Co., Ltd. (SHI; Korean: 삼성중공업) is a South Korean shipbuilding company and part of the Samsung Group. It is one of the \"Big Three\" shipbuilders of South Korea, along with Hanwha and Hyundai. The company's primary act",
+      "image": ""
+    },
+    "Hanwha_Ocean": {
+      "title": "Hanwha Ocean",
+      "lead": "Hanwha Ocean Co., Ltd. (Korean: 한화오션), formerly known as Daewoo Shipbuilding & Marine Engineering (Korean: 대우조선해양), is one of the \"Big Three\" shipbuilders of South Korea, along with Hyundai and Samsung.",
+      "image": "Hanwha_Ocean_Logo.svg"
+    },
+    "LG_Electronics": {
+      "title": "LG Electronics",
+      "lead": "LG Electronics Inc. (Korean: 엘지 전자; RR: Elji Jeonja) is a South Korean multinational major appliance and consumer electronics corporation headquartered in Yeouido-dong, Seoul, South Korea. LG Electronics is a part of LG Corporation, the fou",
+      "image": "LG_Twin_Tower_(2015).jpg"
+    },
+    "Choi_Tae-min": {
+      "title": "Choi Tae-min",
+      "lead": "Choi Tae-min (Korean: 최태민; 5 May 1912 – 1 May 1994) was the leader of the Church of Eternal Life, a South Korean cult combining elements of Buddhism, Christianity, and traditional Korean Shamanism. Choi, originally a Buddhist monk, then a c",
+      "image": ""
+    },
+    "Sejong_the_Great": {
+      "title": "Sejong the Great",
+      "lead": "Sejong (Korean: 세종; Hanja: 世宗; May 15, 1397 – April 8, 1450), commonly known as Sejong the Great (세종대왕; 世宗大王), was the fourth monarch of the Koreanic state Joseon. He ruled from 1418 to his death in 1450. He is widely regarded as the greate",
+      "image": ""
+    },
+    "Liberty_Korea_Party": {
+      "title": "Liberty Korea Party",
+      "lead": "The Liberty Korea Party (Korean: 자유한국당) was a conservative political party in South Korea that was described in multiple various ways as right-wing, right-wing populist, or far-right. The Grand National Party party was founded in 1997, when",
+      "image": ""
+    },
+    "Hangul": {
+      "title": "Hangul",
+      "lead": "The Korean alphabet is the modern writing system for the Korean language. It has gone by a variety of names, such as Chosŏn'gŭl in North Korea, Hangul internationally, and Hangeul in South Korea. The script's original name was Hunminjeongeu",
+      "image": "Hangul_chosongul_fontembed.svg"
+    },
+    "Confucianism": {
+      "title": "Confucianism",
+      "lead": "Confucianism, also known as Ruism or Ru classicism, is a system of thought and behavior originating in ancient China, and is variously described as a tradition, philosophy, religion, theory of government, or way of life. Founded by Confuciu",
+      "image": "木鐸_---_Confucian_wooden-clapper_bell.svg"
     }
   }
 }
