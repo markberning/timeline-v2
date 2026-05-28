@@ -8,20 +8,45 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ---
 
-## ▶ COLD-START HANDOFF — 2026-05-27 (read this FIRST)
+## ▶ COLD-START HANDOFF — 2026-05-28 (read this FIRST)
 
-**Git:** `main` == `origin/main`, **clean tree, no agents running.** Session
-shipped 5 worst-first civs in 3 atomic deploys: **russian-empire** (252/46 → 0),
-**late-egypt** (239/26 → 0), **ancient-greece** (237/19 → 0), **scientific-revolution**
-(237/49 → 0), **ancient-nubia** (236/30 → 0). ~700 new links across 64 chapters,
-0 prod regressions. User paused for the day at 46/103.
+**Git:** `main` == `origin/main`, **clean tree, no agents running.** Two-day #7
+sweep push shipped **24 worst-first civs** (5 on 05-27, 19 on 05-28) in 8 atomic
+deploys, 0 prod regressions. Today's 19: elamite-civilization, new-kingdom-egypt,
+korean-modern, edo-japan, middle-horizon-empires, prehistoric-japan, ancient-israel,
+phoenicia, migration-period, ancient-rome, aztec-empire, maurya-empire, the-goths,
+anglo-saxon-england, hittite-empire, six-dynasties (+ the 5 from 05-27). Run was
+capped at 25; stopped at 24 to clear context. ~4,000 new links across ~230 chapters.
 
-**Resume: refresh ledger with `npx tsx scripts/link-coverage.ts --corpus`, then
-worst-first from the top.** Next: **elamite-civilization** (229/25, 8 ch),
-**new-kingdom-egypt** (228/26, 9 ch), **korean-modern** (223/17, 8 ch),
-**edo-japan** (219/20, 8 ch), **middle-horizon-empires** (207/16, 8 ch).
+**Resume: refresh ledger `npx tsx scripts/link-coverage.ts --corpus`, then
+worst-first.** Top remaining after this push: **antebellum-america** (179/25, 18 ch)
+is the 25th/next; then civil-rights-era (167/19), xiongnu-huns (166/26),
+indus-valley (162/15), mycenaean-civilization (154/13), old-kingdom-egypt (153/15),
+scythians (150/21). ~78 civs still carry grandfathered #7 debt.
 
-**Three traps learned this session (2026-05-27):**
+**Per-civ pipeline (proven this push):** parallel per-chapter agents in waves of
+~5–9 (cap ~10 concurrent) → coordinator runs parse → fix-links --apply + --strict
+→ verify-links --write-snapshot → audit-events/glossary/crosslinks → link-coverage
+--strict → resolve NEW (★) gaps → ship-check → batch-commit (force-add the
+gitignored content/ + audits/ files) → clean atomic `rm -rf out && npm run build
+&& npx wrangler deploy`. Batch 2–3 civs per deploy.
+
+**Five traps learned across this push (2026-05-27/28):**
+0. **NEW (2026-05-28) — `def:` belongs in a `definition` FIELD, not wikiSlug.**
+   Agents sometimes write `wikiSlug:"def:..."`; lint --strict ERRORs ("needs a
+   wikiSlug or a definition"). Convert to a `definition` key, no wikiSlug. Brief
+   agents explicitly. (korean-modern had 7.)
+0b. **NEW — some shipped civs have NO audit file** (pre-5-persona-gate). ship-check
+   hard-fails "missing audits/{tl}.audit.md". Write an honest stub: provenance note
+   + "no narrative changed, link-only" + Persona-E backward section. Do NOT
+   fabricate Persona-D grades. (prehistoric-japan, korean/edo/middle-horizon.)
+0c. **NEW — concurrent agents full-file-overwrite the shared waiver JSON**, dropping
+   chapter keys mid-run (six-dynasties lost 3 keys). coverage --strict catches the
+   reopened gaps; coordinator must diff waiver chapter-key coverage and re-merge.
+0d. **NEW — .enrichment-cache.json read-during-write throws "unterminated string"**
+   in parse if a fix-links --apply is still flushing it. It's regenerable+gitignored;
+   just re-parse once writers are idle.
+**Three traps learned 2026-05-27:**
 1. **Waiver file is FLAT STRING ARRAY.** `{"1":["Term"]}`, NEVER `[{term,reason}]`.
    Dict-shaped entries crash `scripts/link-coverage.ts` at `norm()`. Russian-empire
    pass had 22 dict waivers from parallel agents — flattened with python. Brief
