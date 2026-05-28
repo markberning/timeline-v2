@@ -314,7 +314,7 @@
     },
     "Shanxi": {
       "title": "Shanxi",
-      "lead": "Shanxi is a province in North China. Its capital and largest city is Taiyuan, while its next most populated prefecture-level cities are Changzhi and Datong. Its one-character abbreviation is 晋 (Jìn), after the state of Jin that existed ther",
+      "lead": "Shanxi is a province in North China. Its capital and largest city is Taiyuan, and its next most populated prefecture-level cities are Changzhi and Datong. The province's one-character abbreviation is 晋 (Jìn), after the state of Jin that exi",
       "image": "Yanmenguan3.JPG"
     },
     "Shaanxi": {
@@ -329,7 +329,7 @@
     },
     "Sichuan": {
       "title": "Sichuan",
-      "lead": "Sichuan is a province in Southwestern China. It is located in the Sichuan Basin and Tibetan Plateau—between the Jinsha River to the west, the Daba Mountains to the north, and the Yunnan–Guizhou Plateau to the south. Its capital city is Chen",
+      "lead": "Sichuan is an inland province in Southwestern China. It is located in the Sichuan Basin and Tibetan Plateau—between the Jinsha River to the west, the Daba Mountains to the north, and the Yunnan–Guizhou Plateau to the south. Its capital city",
       "image": "1_huanglong_2.jpg"
     },
     "Henan": {
@@ -372,9 +372,24 @@
       "lead": "The red-crowned crane (Grus japonensis), also called the Japanese crane and the Manchurian crane, is a large Northeast Asian crane among the rarest cranes in the world. In some parts of its range, it is known as a symbol of luck, longevity,",
       "image": "Grus_japonensis_-Hokkaido,_Japan_-several-8_(1).jpg"
     },
+    "Earth": {
+      "title": "Earth",
+      "lead": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water",
+      "image": "Meteosat-12-fci-march-equinox-2025-noon_(cropped).jpg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Ryukyu_Islands": {
+      "title": "Ryukyu Islands",
+      "lead": "The Ryukyu Islands (Japanese: 琉球列島, Hepburn: Ryūkyū Rettō), also known as the Nansei Islands (南西諸島, Nansei Shotō; lit. 'Southwest Islands') or the Ryukyu Arc (琉球弧, Ryūkyū-ko), are a chain of Japanese islands that stretch southwest from Kyus",
+      "image": "Location_of_the_Ryukyu_Islands.JPG"
+    },
     "Neolithic": {
       "title": "Neolithic",
-      "lead": "The Neolithic (from Greek νέος néos 'new' and λίθος líthos 'stone'), or New Stone Age, is an archaeological period, the final division of the Stone Age in Asia, Europe, and Africa (c. 10,000 BC to c. 2,000 BC). It saw the Neolithic Revoluti",
+      "lead": "The Neolithic (from Greek νέος néos 'new' and λίθος líthos 'stone'), or New Stone Age, is an archaeological period, the final division of the Stone Age in Asia, Europe and Africa (c. 10,000 BC to c. 2,000 BC). It saw the Neolithic Revolutio",
       "image": "Asikli_Hoyuk_sarah_c_murray_6176.jpg"
     },
     "Hebei": {
@@ -404,7 +419,7 @@
     },
     "Tang_dynasty": {
       "title": "Tang dynasty",
-      "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
+      "lead": "The Tang dynasty, or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui dynasty and followed by the Five Dynasties and Ten Kingdoms period. Histo",
       "image": "Tang_outline_map,_661.svg"
     },
     "Kiln": {
@@ -419,7 +434,7 @@
     },
     "Rice": {
       "title": "Rice",
-      "lead": "Rice is a cereal grain and, in its domesticated form, is the staple food of over half of the world's population, particularly in Asia and Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)—or, much less commonly, Oryza ",
+      "lead": "Rice is a cereal grain and, in its domesticated form, is the staple food of over half of the world's population, particularly in Africa and Asia. Rice is the seed of the grass species Oryza sativa (Asian rice)—or, less commonly, Oryza glabe",
       "image": "20201102.Hengnan.Hybrid_rice_Sanyou-1.6.jpg"
     },
     "Oryza_rufipogon": {
@@ -617,6 +632,11 @@
       "lead": "The Qingming Festival or Ching Ming Festival, also known as Tomb-Sweeping Day in English (sometimes also called Chinese Memorial Day, Ancestors' Day, the Clear Brightness Festival, or the Pure Brightness Festival), is a traditional Chinese ",
       "image": "Ching_Ming_comforts_to_heaven.png"
     },
+    "Myanmar": {
+      "title": "Myanmar",
+      "lead": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma (the official English name until 1989), is a country in northwest Southeast Asia. It is the largest country by area in Mainland Southeast Asia and has a ",
+      "image": "Flag_of_Myanmar.svg"
+    },
     "Hangzhou": {
       "title": "Hangzhou",
       "lead": "Hangzhou is the capital and most populous city of Zhejiang province, China, situated at the intersection of the southern terminus of the Grand Canal and the head of Hangzhou Bay. Renowned as one of the Eight Ancient Capitals of China, Hangz",
@@ -699,7 +719,7 @@
     },
     "Uruk": {
       "title": "Uruk",
-      "lead": "Uruk, the archeological site known today as Warka, was an ancient city in the Near-East or West-Asia, located east of the current bed of the Euphrates River, on an ancient, now-dried channel of the river in Muthanna Governorate, Iraq. The s",
+      "lead": "Uruk, the archeological site known today as Warka, was an ancient city in the Near East or West Asia, located east of the current bed of the Euphrates River, on an ancient, now-dried channel of the river in Muthanna Governorate, Iraq. The s",
       "image": ""
     },
     "Kot_Diji": {
@@ -782,14 +802,19 @@
       "lead": "Son of Heaven, or Tianzi (Chinese: 天子; pinyin: Tiānzǐ), was the sacred monarchial and imperial title of the Chinese sovereign. It originated with the Zhou dynasty and was founded on the political and spiritual doctrine of the Mandate of Hea",
       "image": "玉輅.新定三礼图.20卷.宋聂崇义集注.清康熙12年通志堂刊.1673年.png"
     },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
+    },
     "Gun_(Chinese_mythology)": {
       "title": "Gun (Chinese mythology)",
-      "lead": "Gun (Chinese: 鯀; pinyin: Gǔn; Wade–Giles: Kun3, lit. \"big fish\"), also known as Count of Chong (Chinese: 崇伯鯀; pinyin: Chóngbó Gǔn; Wade–Giles: Ch'ung2-po2 Kun3), is a figure in Chinese mythology, sometimes noted as the father of Yu the Grea",
-      "image": "鯀-oracle.svg"
+      "lead": "Gun, Earl of Chong (Chinese: 崇伯鯀; pinyin: Chóngbó Gǔn; Wade–Giles: Ch'ung2-po2 Kun3, lit. \"big fish\") is a figure in traditional Chinese historiography, said to be the father of Yu the Great, the founder of the Xia dynasty. A ruler of the S",
+      "image": "鯀-seal.svg"
     },
     "Emperor_Shun": {
       "title": "Emperor Shun",
-      "lead": "Emperor Shun (Chinese: 帝舜; pinyin: Dì Shùn) was a leader of ancient China, regarded by some sources as the last of the Five Emperors among the Three Sovereigns and Five Emperors. According to tradition, people with the surname Hu (胡) are de",
+      "lead": "Emperor Shun (Chinese: 帝舜; pinyin: Dì Shùn) was a leader of the Youyu-shi of ancient China, regarded by some sources as the last of the Five Emperors among the Three Sovereigns and Five Emperors. According to tradition, people with the surn",
       "image": "EmperorShun.jpg"
     },
     "Danzhu": {
@@ -951,6 +976,11 @@
       "title": "Battle of Muye",
       "lead": "The Battle of Muye, Mu, or Muh (c. 1046 BC) was fought between forces of the ancient Chinese Shang dynasty led by Di Xin and the rebel state of Zhou led by King Wu. The Zhou defeated the Shang at Muye and captured the Shang capital Yin, mar",
       "image": "Battle_of_Muye.jpg"
+    },
+    "Arabs": {
+      "title": "Arabs",
+      "lead": "Arabs (Arabic: عَرَب) are an ethnic group mainly inhabiting the Arab world in West Asia and North Africa. A significant Arab diaspora is present in various parts of the world. Before the spread of Arabic language in the wake of the Arab con",
+      "image": "Map_of_the_Arab_Diaspora_in_the_World.svg"
     }
   }
 }

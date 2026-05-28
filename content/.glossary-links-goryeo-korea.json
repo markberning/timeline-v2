@@ -215,6 +215,12 @@
       "matchText": "Buddhism",
       "type": "concept",
       "wikiSlug": "Buddhism"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "people"
     }
   ],
   "2": [
@@ -519,6 +525,18 @@
       "matchText": "Great Wall of China",
       "type": "place",
       "wikiSlug": "Great_Wall_of_China"
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "concept"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
     }
   ],
   "4": [
@@ -713,6 +731,18 @@
       "matchText": "Silla-rooted",
       "type": "people",
       "wikiSlug": "Silla"
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arab",
+      "wikiSlug": "Arabs",
+      "type": "people"
     }
   ],
   "5": [
@@ -1235,6 +1265,12 @@
       "matchText": "reign at Kaesong",
       "type": "place",
       "wikiSlug": "Kaesong"
+    },
+    {
+      "term": "Neo-Confucianism",
+      "matchText": "Neo-Confucian",
+      "wikiSlug": "Neo-Confucianism",
+      "type": "concept"
     }
   ],
   "8": [
@@ -1483,6 +1519,12 @@
       "matchText": "to Goguryeo",
       "type": "people",
       "wikiSlug": "Goguryeo"
+    },
+    {
+      "term": "Yi Bang-won (Taejong of Joseon)",
+      "matchText": "Yi Bang-won",
+      "wikiSlug": "Taejong_of_Joseon",
+      "type": "person"
     }
   ]
 }

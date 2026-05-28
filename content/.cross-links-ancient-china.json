@@ -19,6 +19,14 @@
       "blurb": "There is a second close parallel, less famous than the Indus: the Kerma kingdom of Upper Nubia (~2500–1500 BCE). Kerma was a full-fledged African urban state with monumental architecture, royal burials, and a thousand-year political history, and it left no writing of its own that we can read. Its story, like early China's, has to be reconstructed from archaeology against the biased outside observation of a literate neighbor — in Kerma's case, Egypt."
     }
   ],
+  "2": [
+    {
+      "matchText": "Andean communities in South America",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "China's twin millet/rice cradles parallel the Andes' own multi-zone agricultural origin — complex society bootstrapping from domesticated staples on opposite sides of the planet."
+    }
+  ],
   "3": [
     {
       "matchText": "Mesopotamia",
@@ -33,6 +41,7 @@
       "blurb": "At almost the exact moment China was domesticating the silkworm, the villages of the Indus foothills were domesticating cotton — the other great Asian fiber. Both would eventually travel the world, but in 3500 BCE they were still local secrets, made in two civilizations that didn't yet know the other existed."
     }
   ],
+  "4": [],
   "5": [
     {
       "matchText": "Akkadian Empire",
@@ -177,14 +186,6 @@
       "targetTl": "mesopotamia",
       "targetChapter": 1,
       "blurb": "Erlitou turns legend into stratigraphy the way Uruk did for Mesopotamia: the first city you can stand in, not just read about."
-    }
-  ],
-  "2": [
-    {
-      "matchText": "Andean communities in South America",
-      "targetTl": "early-andean-civilizations",
-      "targetChapter": 1,
-      "blurb": "China's twin millet/rice cradles parallel the Andes' own multi-zone agricultural origin — complex society bootstrapping from domesticated staples on opposite sides of the planet."
     }
   ]
 }

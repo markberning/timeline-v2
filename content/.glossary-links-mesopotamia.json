@@ -1166,6 +1166,12 @@
       "matchText": "Inanna and Ebih",
       "term": "Inanna and Ebih",
       "definition": "A narrative poem by Enheduanna in which the goddess Inanna does battle with the defiant mountain Ebih and levels it — one of the earliest works of literature attributed to a named author."
+    },
+    {
+      "term": "Harappan",
+      "matchText": "Harappan",
+      "wikiSlug": "Indus_Valley_Civilisation",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -2331,6 +2337,12 @@
       "matchText": "Assyrian",
       "term": "Assyrian",
       "wikiSlug": "Assyria"
+    },
+    {
+      "term": "Shekelesh",
+      "matchText": "Shekelesh",
+      "wikiSlug": "Shekelesh",
+      "type": "glossary"
     }
   ],
   "10": [
@@ -3261,6 +3273,12 @@
       "matchText": "Babylonian",
       "term": "Babylonian",
       "wikiSlug": "Babylonia"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "glossary"
     }
   ],
   "13": [
@@ -3509,6 +3527,18 @@
       "matchText": "Assyrian",
       "term": "Assyrian",
       "wikiSlug": "Assyria"
+    },
+    {
+      "term": "Temple",
+      "matchText": "Temple",
+      "wikiSlug": "Second_Temple",
+      "type": "glossary"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "glossary"
     }
   ]
 }

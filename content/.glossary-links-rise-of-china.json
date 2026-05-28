@@ -275,6 +275,12 @@
       "matchText": "Chongqing",
       "wikiSlug": "Chongqing",
       "type": "place"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
     }
   ],
   "11": [
@@ -327,6 +333,18 @@
       "matchText": "Belt and Road",
       "wikiSlug": "Belt_and_Road_Initiative",
       "type": "concept"
+    },
+    {
+      "term": "Turkic peoples",
+      "matchText": "Turkic-speaking",
+      "wikiSlug": "Turkic_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
     }
   ],
   "13": [
@@ -405,6 +423,12 @@
       "matchText": "Wuhan",
       "wikiSlug": "Wuhan",
       "type": "place"
+    },
+    {
+      "term": "United States",
+      "matchText": "United States",
+      "wikiSlug": "United_States",
+      "type": "glossary"
     }
   ]
 }

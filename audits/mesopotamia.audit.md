@@ -297,3 +297,10 @@ Ch 1: Slow build (scene-setting) → Ch 2: Steady (religion, irrigation, trade) 
 - **53 total flags:** 14 STRONG (verified accurate), 30 CHECK (needs verification or qualification), 9 SOFT (style/rhetoric, not factual)
 - Most common CHECK pattern: **suspiciously specific numbers** presented without adequate caveating (Eridu temple count, Uruk population, brick counts, guest counts, deportee figures, Etemenanki height)
 - Most common STRONG pattern: **contested claims properly hedged** (sacred prostitution, Hanging Gardens, Cyrus Cylinder rights claims, Plimpton 322 trigonometry debate)
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — born-verified
+glossary links added (Indus Valley Civilisation, Shekelesh, Macedonia, Second
+Temple) plus two universal-basic Earth waivers. No new cross-cultural narrative
+claim, so **no new backward findings**; forward cross-links re-verified (0 FAIL).

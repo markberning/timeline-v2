@@ -203,6 +203,24 @@
       "matchText": "Chang Jiang",
       "wikiSlug": "Yangtze",
       "type": "place"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "glossary"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Ryukyu Islands",
+      "matchText": "Ryukyus",
+      "wikiSlug": "Ryukyu_Islands",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -332,6 +350,18 @@
       "matchText": "Egyptian pyramids",
       "wikiSlug": "Egyptian_pyramids",
       "type": "place"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "wikiSlug": "Earth",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -600,6 +630,12 @@
       "matchText": "pig-dragon",
       "wikiSlug": "Pig_dragon",
       "type": "concept"
+    },
+    {
+      "term": "Myanmar",
+      "matchText": "Burmese",
+      "wikiSlug": "Myanmar",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -929,6 +965,12 @@
       "matchText": "Yellow Emperor",
       "wikiSlug": "Yellow_Emperor",
       "type": "people"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1293,6 +1335,12 @@
       "matchText": "dynastic cycle",
       "wikiSlug": "Dynastic_cycle",
       "type": "concept"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arabs",
+      "wikiSlug": "Arabs",
+      "type": "glossary"
     }
   ]
 }

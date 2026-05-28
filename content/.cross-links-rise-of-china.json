@@ -59,6 +59,14 @@
       "blurb": "Deng's reforms were a deliberate repudiation of the Great Leap logic — growth by incentive, not by mass mobilization."
     }
   ],
+  "4": [
+    {
+      "matchText": "Chinese Revolution",
+      "targetTl": "chinese-revolution",
+      "targetChapter": 3,
+      "blurb": "The urban reforms reopened debates the May Fourth generation had started — modernization versus authority, a century-old Chinese argument."
+    }
+  ],
   "5": [
     {
       "matchText": "proclaimed the People's Republic in 1949",
@@ -121,6 +129,7 @@
       "blurb": "The 2008 Olympics staged China's return to centrality — the explicit undoing of the 'century of humiliation' the Qing collapse began."
     }
   ],
+  "10": [],
   "11": [
     {
       "matchText": "the same emotional engine Mao had used in 1949",
@@ -141,6 +150,7 @@
       "blurb": "Xi's centralizing, nationalist project invokes the long arc from Qing collapse to national rejuvenation — history as state ideology."
     }
   ],
+  "12": [],
   "13": [
     {
       "matchText": "the losing side of the Chinese Revolution fled in 1949",
@@ -175,14 +185,6 @@
       "targetTl": "chinese-revolution",
       "targetChapter": 1,
       "blurb": "The Chinese Revolution opened on the February 1912 abdication of the six-year-old Puyi, ending two thousand years of imperial rule; this book closes the chain that began in that vacuum."
-    }
-  ],
-  "4": [
-    {
-      "matchText": "Chinese Revolution",
-      "targetTl": "chinese-revolution",
-      "targetChapter": 3,
-      "blurb": "The urban reforms reopened debates the May Fourth generation had started — modernization versus authority, a century-old Chinese argument."
     }
   ]
 }
