@@ -572,6 +572,46 @@
       "lead": "The Third Punic War (149–146 BC) was the third and last of the Punic Wars fought between Carthage and Rome. The war was fought entirely within Carthaginian territory, in what is now northern Tunisia. When the Second Punic War ended in 201 B",
       "image": "City_of_Carthage_circa_149_BC.png"
     },
+    "Bronze_Age": {
+      "title": "Bronze Age",
+      "lead": "The Bronze Age is an archaeological and anthropological term defining a phase in the development of material culture among ancient societies in Asia, the Near East and Europe. An ancient civilisation or culture is deemed to be part of the B",
+      "image": "AlacaStandarte.jpg"
+    },
+    "Euphrates": {
+      "title": "Euphrates",
+      "lead": "The Euphrates ( yoo-FRAY-teez; see below) is the longest and one of the most historically important rivers of West Asia. Together with the Tigris, it is one of the two defining rivers of Mesopotamia (lit. 'the land between the rivers'). Ori",
+      "image": "The_Euphrates_River_in_Turkey,_Rumkale_(52031477798).jpg"
+    },
+    "Aegean_Sea": {
+      "title": "Aegean Sea",
+      "lead": "The Aegean Sea is an elongated embayment of the Mediterranean Sea between Europe and Asia. It is located between the Balkans and Anatolia, and covers an area of some 215,000 km2 (83,000 sq mi). In the north, the Aegean is connected to the M",
+      "image": "Location_of_the_Aegean_Sea.png"
+    },
+    "Akkadian_language": {
+      "title": "Akkadian language",
+      "lead": "Akkadian ( ə-KAY-dee-ən; Akkadian: 𒀝𒅗𒁺𒌑(𒌝), romanized: Akkadû(m)) is an extinct East Semitic language that is attested in ancient Mesopotamia (Akkad, Assyria, Isin, Larsa, Babylonia) from the mid-third millennium BC until its gradual r",
+      "image": "P1050578_Louvre_Obélisque_de_Manishtusu_détail_rwk.JPG"
+    },
+    "Greeks": {
+      "title": "Greeks",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, southern Italy, parts of Egypt, and to a lesser extent, other countries surrounding the Eastern ",
+      "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "Ancient_Egypt": {
+      "title": "Ancient Egypt",
+      "lead": "Ancient Egypt was a cradle of civilization concentrated along the lower reaches of the Nile River in the eastern corner of North Africa. It emerged from prehistoric Egypt around 3150 BC (according to conventional Egyptian chronology), when ",
+      "image": "Ancient_Egypt_map-en.svg"
+    },
+    "Amorites": {
+      "title": "Amorites",
+      "lead": "The Amorites () were an ancient Northwest Semitic-speaking Bronze Age people who emerged from western Mesopotamia. Initially appearing in Sumerian records c. 2500 BC, they expanded and ruled most of the Levant and Mesopotamia, and parts of ",
+      "image": "Cuneiform_Clay_Tablets_from_Amorite_Kingdom_of_Mari,_1st_Half_of_2nd_Mill._BC.jpg"
+    },
+    "Cyprus": {
+      "title": "Cyprus",
+      "lead": "Cyprus, officially the Republic of Cyprus, is an island country in the eastern Mediterranean Sea, located off the coast of the Levant mainland in West Asia. The island of Cyprus, which is the third largest and third most populous island in ",
+      "image": "Flag_of_Cyprus.svg"
+    },
     "Lebanon": {
       "title": "Lebanon",
       "lead": "Lebanon, officially the Lebanese Republic, is a country in the Levant region of West Asia. Situated at the crossroads of the Mediterranean Basin and the Arabian Peninsula, it is bordered by Syria to the north and east, Israel to the south, ",
@@ -589,7 +629,7 @@
     },
     "Beirut": {
       "title": "Beirut",
-      "lead": "Beirut ( bay-ROOT; Arabic: بيروت, romanised: ; Phoenician: 𐤁𐤀𐤓𐤕, romanized: Beʾerūt) is the capital and largest city of Lebanon. As of 2025, Greater Beirut has a population of 2.4 million, just under half of Lebanon's population, which ",
+      "lead": "Beirut ( bay-ROOT; Arabic: بيروت, romanised: ) is the capital and largest city of Lebanon. As of 2025, Greater Beirut has a population of 2.4 million, just under half of Lebanon's population, which makes it the twelfth-largest city in the L",
       "image": "Beirut_close_to_plane_descent.jpg"
     },
     "Tyre,_Lebanon": {
@@ -665,7 +705,7 @@
     "Amurru_kingdom": {
       "title": "Amurru kingdom",
       "lead": "Amurru (Sumerian: 𒈥𒌅𒆠 MAR.TUKI; Akkadian: 𒀀𒈬𒌨𒊏 Amûrra, 𒀀𒈬𒊑 Amuri, 𒀀𒄯𒊑 Amurri) was an ancient Bronze Age kingdom in the Levant, known for its role in early Bronze Age trade and cultural development. The geographical area of Amur",
-      "image": "Moyen_Orient_Amarna_1.png"
+      "image": "Moyen_Orient_Amarna_1.svg"
     },
     "Ugarit": {
       "title": "Ugarit",
@@ -699,7 +739,7 @@
     },
     "Sea_Peoples": {
       "title": "Sea Peoples",
-      "lead": "The Sea Peoples were a group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-century Egyptologists Emmanuel de Rougé an",
+      "lead": "The Sea Peoples were an unidentified seafaring confederation or group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-c",
       "image": "Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg"
     },
     "Anatolia": {
@@ -711,11 +751,6 @@
       "title": "Nile Delta",
       "lead": "The Nile Delta (Arabic: دلتا النيل, Delta an-Nīl or simply الدلتا, ad-Delta) is the delta formed in Lower Egypt where the Nile River spreads out and drains into the Mediterranean Sea. It is one of the world's largest deltas. From Alexandria",
       "image": "Nile_delta_landsat_false_color.jpg"
-    },
-    "Cyprus": {
-      "title": "Cyprus",
-      "lead": "Cyprus, officially the Republic of Cyprus, is an island country in the eastern Mediterranean Sea, located off the coast of the Levant mainland in West Asia. The island of Cyprus, which is the third largest and third most populous island in ",
-      "image": "Flag_of_Cyprus.svg"
     },
     "Sinai_Peninsula": {
       "title": "Sinai Peninsula",
@@ -781,6 +816,46 @@
       "title": "Vedic period",
       "lead": "The Vedic period, or the Vedic age (c. 1500 – c. 500 BCE), is the period in the late Bronze Age and early Iron Age of the history of India when the Vedic literature, including the Vedas (c. 1500–900 BCE), was composed in the northern Indian",
       "image": "Early_Vedic_Culture_(1700-1100_BCE).png"
+    },
+    "Homer": {
+      "title": "Homer",
+      "lead": "Homer (; Ancient Greek: Ὅμηρος [hómɛːros], Hómēros; possibly born c. the 8th century BC) was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey, two epic poems that are foundational works of ancient Gree",
+      "image": "Homer_British_Museum.jpg"
+    },
+    "Mesopotamia": {
+      "title": "Mesopotamia",
+      "lead": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, ",
+      "image": "N-Mesopotamia_and_Syria_english.svg"
+    },
+    "Thebes,_Egypt": {
+      "title": "Thebes, Egypt",
+      "lead": "Thebes (Egyptian Arabic: طيبه), known to the ancient Egyptians as Waset, was an ancient Egyptian city located along the Nile about 800 kilometers (500 mi) south of the Mediterranean. Its ruins lie within the modern Egyptian city of Luxor. T",
+      "image": "Decorated_pillars_of_the_temple_at_Karnac,_Thebes,_Egypt._Co_Wellcome_V0049316.jpg"
+    },
+    "Nineveh": {
+      "title": "Nineveh",
+      "lead": "Nineveh was an ancient Near Eastern city of Upper Mesopotamia, located in the modern-day city of Mosul in northern Iraq. It is located on the eastern bank of the Tigris River and was the capital and largest city of the Neo-Assyrian Empire, ",
+      "image": "Nineveh_-_Mashki_Gate.jpg"
+    },
+    "Babylon": {
+      "title": "Babylon",
+      "lead": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and p",
+      "image": "Ishtar_Gate.jpg"
+    },
+    "Nile": {
+      "title": "Nile",
+      "lead": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than ot",
+      "image": "Nile_3rd_Cataract_Left.jpg"
+    },
+    "Sardinia": {
+      "title": "Sardinia",
+      "lead": "Sardinia ( sar-DIN-ee-ə; Sardinian: Sardigna [saɾˈdiɲːa]; Italian: Sardegna [sarˈdeɲɲa] ), officially the Autonomous Region of Sardinia, is the second largest island in the Mediterranean Sea after Sicily, and one of the twenty regions of It",
+      "image": "Sardinia_in_Italy.svg"
+    },
+    "Atlantic_Ocean": {
+      "title": "Atlantic Ocean",
+      "lead": "The Atlantic Ocean is the second largest of the world's five oceanic divisions, with an area of about 85,133,000 square kilometers (32,870,000 sq mi). It covers approximately 17% of Earth's surface and about 24% of its water surface area. D",
+      "image": "Atlantic_Ocean_-_en.png"
     },
     "Sumer": {
       "title": "Sumer",
@@ -867,6 +942,31 @@
       "lead": "Hedjkheperre Setepenre Shoshenq I (Egyptian ššnq; reigned c. 943–922 BC)—also known as Shashank or Sheshonk or Sheshonq I—was a pharaoh of ancient Egypt and the founder of the Twenty-second Dynasty of Egypt. He is generally presumed to be t",
       "image": "Shoshenq_I_by_Rosellini.jpg"
     },
+    "Indo-European_languages": {
+      "title": "Indo-European languages",
+      "lead": "The Indo-European languages are a language family native to the northern Indian subcontinent, most of Europe, and the Iranian plateau, with additional native branches found in regions such as parts of Central Asia (e.g., Tajikistan and Afgh",
+      "image": "Indo-European_Language_Family_Branches_in_Eurasia.png"
+    },
+    "Torah": {
+      "title": "Torah",
+      "lead": "The Torah (; Biblical Hebrew: תּוֹרָה, romanized: tōrā, lit. \"instruction\", \"teaching\", or \"law\") is the compilation of the first five books of the Hebrew Bible, namely the books of Genesis, Exodus, Leviticus, Numbers and Deuteronomy. The T",
+      "image": "Тора._Нацыянальная_бібліятэка_Беларусі.jpg"
+    },
+    "Quran": {
+      "title": "Quran",
+      "lead": "The Quran (Arabic: الْقُرْآن, lit. 'the recitation' or 'the lecture'), also romanized Qur'an or Koran, is the central religious text of Islam, believed by Muslims to be a revelation directly from God (Allāh). It is organized in 114 chapters",
+      "image": "Birmingham_Quran_manuscript_full.jpg"
+    },
+    "Southeast_Asia": {
+      "title": "Southeast Asia",
+      "lead": "Southeast Asia is the geographical southeastern region of Asia, consisting of the regions that are situated south of China, east of the Indian subcontinent, and northwest of mainland Australia, which is part of Oceania. Southeast Asia is bo",
+      "image": "Southeast_Asia_(orthographic_projection).svg"
+    },
+    "Greek_language": {
+      "title": "Greek language",
+      "lead": "Greek (Modern Greek: ελληνικά, romanized: elliniká [eliniˈka] ; Ancient Greek: ἑλληνική, romanized: hellēnikḗ [helːɛːnikɛ́ː]) is an Indo-European language, constituting an independent Hellenic branch within the Indo-European language family",
+      "image": "Idioma_Griego.PNG"
+    },
     "Kingdom_of_Israel_(united_monarchy)": {
       "title": "Kingdom of Israel (united monarchy)",
       "lead": "The Kingdom of Israel (Hebrew: מַמְלֶכֶת יִשְׂרָאֵל‎, Mamleḵeṯ Yīśrāʾēl) was an Israelite kingdom that may have existed in the Southern Levant. The first extra-biblical mention of Israel dates from the Merneptah Stele created by Pharaoh Mer",
@@ -952,6 +1052,51 @@
       "lead": "Polaris is a yellow supergiant star in the northern circumpolar constellation of Ursa Minor. It is designated α Ursae Minoris (Latinized to Alpha Ursae Minoris) and is commonly called the North Star. With an apparent magnitude that fluctuat",
       "image": "Ursa_Minor_constellation_map.svg"
     },
+    "Hebrew_Bible": {
+      "title": "Hebrew Bible",
+      "lead": "The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ; or תְּנַ״ךְ, tənaḵ), also known in Hebrew as Miqra (; מִקְרָא, miqrāʾ), is the canonical collection of Hebrew scriptures, comprisi",
+      "image": "Tanach.jpg"
+    },
+    "Israelites": {
+      "title": "Israelites",
+      "lead": "The Israelites, also known as the Children of Israel, were an ancient Semitic-speaking people who lived in Canaan during the Iron Age. They are associated with Hebrews and spoke Biblical Hebrew, an archaic Hebrew language. In the biblical m",
+      "image": "12_Tribes_of_Israel_Map.svg"
+    },
+    "Arabian_Peninsula": {
+      "title": "Arabian Peninsula",
+      "lead": "The Arabian Peninsula, or simply Arabia, is a peninsula in West Asia. It accounts for the majority of the land situated on the Arabian plate. With an area of 3,237,500 km2 (1.25 million mi2), it is the world's largest peninsula—roughly comp",
+      "image": "Arabian_Peninsula_dust_SeaWiFS.jpg"
+    },
+    "Ezion-Geber": {
+      "title": "Ezion-Geber",
+      "lead": "Ezion-Geber (Hebrew: עֶצְיֹן גֶּבֶר‎, Modern: ʻEṣyōn Gevér, Tiberian: ʿEṣyōn Geḇer, Biblical: Ġeṣyōn Geḇer; also Asiongaber) is a city only known from the Hebrew Bible, in Idumea, a seaport on the northern extremity of the Gulf of Eilat/Aqa",
+      "image": "Graia,_On_the_Red_Sea,_Near_Ezion-Geber,_Port_of_King_Solomon_MET_DP71226.jpg"
+    },
+    "Dumuzid": {
+      "title": "Dumuzid",
+      "lead": "Dumuzid, Dumuzi, or Tammuz (Sumerian: 𒌉𒍣, romanized: Dumuzid; Akkadian: Duʾūzu, Dûzu; Arabic: تمّوز, romanized: Tammuz, Tammūz; Hebrew: תַּמּוּז, romanized: Tammūz), known to the Sumerians as Dumuzid the Shepherd (Sumerian: 𒌉𒍣𒉺𒇻, roma",
+      "image": "Françoise_Foliot_-_époux.jpg"
+    },
+    "Constantinople": {
+      "title": "Constantinople",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "image": "Byzantine_Constantinople-en.png"
+    },
+    "Yahweh": {
+      "title": "Yahweh",
+      "lead": "Yahweh was an ancient Semitic deity in the southeastern ancient Levant that became the national god of the Iron Age kingdoms of Israel-Samaria and Judah. Although there is no clear consensus regarding the geographic origins of the deity, mo",
+      "image": "Zeus_Yahweh.jpg"
+    },
+    "Books_of_Kings": {
+      "title": "Books of Kings",
+      "lead": "The Book of Kings (Hebrew: סֵפֶר מְלָכִים, Sēfer Məlāḵīm) is a book in the Hebrew Bible, found as two books (1–2 Kings, sometimes called the books of 1 and 2 Kings or First Kings and Second Kings) in the Old Testament of the Christian Bible",
+      "image": ""
+    },
+    "Ursa_Major": {
+      "title": "Ursa Major",
+      "lead": "Ursa Major, also known as the Great Bear, is a constellation in the Northern Sky, whose associated mythology likely dates back into prehistory. Its Latin name means \"greater (or larger) bear\", referring to and contrasting it with nearby Urs",
+      "image": "Ursa_Major_IAU.svg"
+    },
     "Virgil": {
       "title": "Virgil",
       "lead": "Publius Vergilius Maro (Classical Latin: [ˈpuːbliʊs wɛrˈɡɪliʊs ˈmaroː]; 15 October 70 BC – 21 September 19 BC), usually called Virgil or Vergil ( VUR-jil) in English, was an ancient Roman poet of the Augustan period. He composed three of th",
@@ -971,11 +1116,6 @@
       "title": "Gulf of Tunis",
       "lead": "The Gulf of Tunis (Tunisian Arabic: خليج تونس) is a large Mediterranean bay in north-eastern Tunisia, extending for 39 miles (63 km) from Cape Farina in the west to Cape Bon in the east. Tunis, the capital city of Tunisia, lies at the south",
       "image": "Gulf_of_Tunis_NASA.jpg"
-    },
-    "Sardinia": {
-      "title": "Sardinia",
-      "lead": "Sardinia ( sar-DIN-ee-ə; Sardinian: Sardigna [saɾˈdiɲːa]; Italian: Sardegna [sarˈdeɲɲa] ), officially the Autonomous Region of Sardinia, is the second largest island in the Mediterranean Sea after Sicily, and one of the twenty regions of It",
-      "image": "Sardinia_in_Italy.svg"
     },
     "Sicily": {
       "title": "Sicily",
@@ -1009,13 +1149,68 @@
     },
     "Berbers": {
       "title": "Berbers",
-      "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. They are indigenous to the Maghre",
+      "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. The Berbers are indigenous to the",
       "image": "Berber_flag.svg"
     },
     "Tunisia": {
       "title": "Tunisia",
       "lead": "Tunisia, officially the Republic of Tunisia, is a country in the Maghreb region of North Africa. It is bordered by Algeria to the west and southwest, Libya to the southeast, and the Mediterranean Sea to the north and east. Tunisia also shar",
       "image": "Flag_of_Tunisia.svg"
+    },
+    "Medjerda_River": {
+      "title": "Medjerda River",
+      "lead": "The Medjerda River (Arabic: وادي مجردة), the classical Bagradas, is a river in North Africa flowing from northeast Algeria through Tunisia before emptying into the Gulf of Tunis and Lake of Tunis. With a length of 450 km (280 mi), it is the",
+      "image": "Medjerda_(RN_5).jpg"
+    },
+    "Morocco": {
+      "title": "Morocco",
+      "lead": "Morocco, officially the Kingdom of Morocco, is a country in the Maghreb region of North Africa. It has coastlines on the Mediterranean Sea to the north and the Atlantic Ocean to the west, and has land borders with Algeria to the east; the S",
+      "image": "Flag_of_Morocco.svg"
+    },
+    "Brittany": {
+      "title": "Brittany",
+      "lead": "Brittany ( BRIT-ən-ee) is a peninsula, historical region and cultural area in the north-west of modern France, covering the western part of what was known as Armorica in Roman Gaul. It became an independent kingdom and then a duchy before b",
+      "image": "Satellite_picture_of_Brittany_-_NASA,_2002.jpg"
+    },
+    "Iron_Age": {
+      "title": "Iron Age",
+      "lead": "The Iron Age (c. 1200 – c. 550 BC) is the final epoch of the three historical Metal Ages, after the Copper Age and Bronze Age. It has also been considered as the final age of the three-age division starting with prehistory (before recorded ",
+      "image": ""
+    },
+    "Acerbas": {
+      "title": "Acerbas",
+      "lead": "Acerbas, also named as Sychaeus, was a Tyrian priest of Hercules (that is, Melqart, the Tyrian Hercules), who married Elissa, the daughter of king Mattan I, and sister of Pygmalion. He was possessed of considerable wealth, which, knowing th",
+      "image": "Sichaeus-Acerbas.jpg"
+    },
+    "Cape_of_Good_Hope": {
+      "title": "Cape of Good Hope",
+      "lead": "The Cape of Good Hope (Afrikaans: Kaap de Goede Hoop [ˌkaːb də ˌɣudə ˈɦoːp] ; Portuguese: Cabo da Boa Esperança [ˈkaβu ðɐ ˈβoɐ (ɨ)ʃpɨˈɾɐ̃sɐ]) is a rocky headland on the Atlantic coast of the Cape Peninsula in South Africa. A common misconce",
+      "image": "Playa_Dias,_Cape_Point,_Sudáfrica,_2018-07-23,_DD_103.jpg"
+    },
+    "Mount_Cameroon": {
+      "title": "Mount Cameroon",
+      "lead": "Mount Cameroon is an active stratovolcano in the Southwest Region of Cameroon next to the city of Buea near the Gulf of Guinea. Mount Cameroon is also known as Cameroon Mountain or Fako (the name of the higher of its two peaks) or by its in",
+      "image": "Mount_Cameroon_view_from_Buea_(Soppo).jpg"
+    },
+    "London": {
+      "title": "London",
+      "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
+      "image": "London_Skyline_(125508655).jpeg"
+    },
+    "Babylonia": {
+      "title": "Babylonia",
+      "lead": "Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the city of Babylon in central-southern Mesopotamia (present-day Iraq and parts of Syria). It emerged as an Akkadian-populated ",
+      "image": "Hammurabi's_Babylonia_1.svg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Dublin": {
+      "title": "Dublin",
+      "lead": "Dublin is the capital and largest city of Ireland. Situated on Dublin Bay at the mouth of the River Liffey, it is in the province of Leinster, and is bordered on the south by the Dublin Mountains, part of the Wicklow Mountains range. Dublin",
+      "image": "Dublin_-_aerial_-_2025-07-07_01.jpg"
     },
     "Black_Obelisk_of_Shalmaneser_III": {
       "title": "Black Obelisk of Shalmaneser III",
@@ -1102,9 +1297,34 @@
       "lead": "Athens is the capital and largest city of Greece. A significant coastal urban area in the Mediterranean, Athens is also the capital of the Attica region and is the southernmost capital on the European mainland. With its urban area's populat",
       "image": "Monastiraki_Square_and_Acropolis_in_Athens_(44149181684).jpg"
     },
+    "Kingdom_of_Judah": {
+      "title": "Kingdom of Judah",
+      "lead": "The Kingdom of Judah was an Israelite kingdom of the Southern Levant during the Iron Age. Centered in the highlands to the west of the Dead Sea, the kingdom's capital was Jerusalem. It was ruled by the House of David for four centuries. Jew",
+      "image": "Kingdoms_of_Israel_and_Judah_(8th_century_BCE).svg"
+    },
+    "Iranian_Plateau": {
+      "title": "Iranian plateau",
+      "lead": "The Iranian plateau or Persian plateau is a geological feature spanning parts of Central Asia, South Asia, West Asia, and the South Caucasus. It makes up part of the Eurasian plate, and is wedged between the Arabian plate and the Indian pla",
+      "image": "D389-_Carte_des_chaînes_du_plateau_d’Iran._-L2-Ch_1.png"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
+    },
+    "Macedonia_(ancient_kingdom)": {
+      "title": "Macedonia (ancient kingdom)",
+      "lead": "Macedonia ( MASS-ih-DOH-nee-ə; Greek: Μακεδονία, Makedonía), also called Macedon ( MASS-ih-don), was an ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece. The kingd",
+      "image": "Map_Macedonia_336_BC-en.svg"
+    },
+    "Amoashtart": {
+      "title": "Amoashtart",
+      "lead": "Amoashtart (Phoenician: 𐤀𐤌𐤏𐤔𐤕𐤓𐤕 *ʾAmīʿaštārt, \"my mother is Astarte\") was a Phoenician queen of Sidon during the Persian period. She was the daughter of Eshmunazar I, and the wife of her brother, Tabnit. When Tabnit died, Amoashtart ",
+      "image": "Amoashtart_name_on_Eshmunazar_II_sarcophagus.jpg"
+    },
     "Syracuse,_Sicily": {
       "title": "Syracuse, Sicily",
-      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Sarausa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern It",
+      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Saragusa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern I",
       "image": "Veduta_aerea_di_Siracusa_e_con_l'Etna_sullo_sfondo_(Foto_di_Angelo_Bonomo).jpg"
     },
     "Magonids": {
@@ -1164,13 +1384,33 @@
     },
     "Numidia": {
       "title": "Numidia",
-      "lead": "Numidia (Punic: 𐤌𐤌𐤋𐤊𐤕 𐤌𐤔𐤋𐤉𐤉𐤌, romanized: MMLKT MŠLYYM) was the first unified state of the Numidians in northwest Africa, initially comprising the northern part of what is now Algeria before expanding into western Tunisia and west",
+      "lead": "Numidia (Punic: 𐤌𐤌𐤋𐤊𐤕 𐤌𐤔𐤋𐤉𐤉𐤌, romanized: MMLKT MŠLYYM) was the ancient Libyan kingdom of the indigenous Numidian Berbers in Northwest Africa during the Hellenistic period. Initially comprising the northern part of what is now Alg",
       "image": "Monnaie_-_Bronze,_Incertain,_Numidie,_Massinissa_-_btv1b84804368_(2_of_2).jpg"
     },
     "Iberian_Peninsula": {
       "title": "Iberian Peninsula",
       "lead": "The Iberian Peninsula (IPA: eye-BEER-ee-ən), also known as Iberia, is a peninsula in southwestern Europe. Mostly separated from the rest of continental Europe by the Pyrenees, the Iberian Peninsula includes Peninsular Spain and Continental ",
       "image": "España_y_Portugal.jpg"
+    },
+    "Phocaea": {
+      "title": "Phocaea",
+      "lead": "Phocaea or Phokaia (Ancient Greek: Φώκαια, Phókaia; modern-day Foça in Turkey) was an ancient Ionian Greek city on the western coast of Anatolia. Greek colonists from Phocaea founded the colony of Massalia (modern-day Marseille, in France) ",
+      "image": "Ancient_theatre_Foça525.jpg"
+    },
+    "Cap_Bon": {
+      "title": "Cape Bon",
+      "lead": "Cape Bon (\"Good Cape\"), also known as Res et-Teib or Ra's at Tib (Arabic: الرأس الطيب), Shrīk Peninsula, or Watan el Kibli, is a peninsula in far northeastern Tunisia. Cape Bon is also the name of the northernmost point on the peninsula, al",
+      "image": "Cap_Bon_NASA.jpg"
+    },
+    "Ebro": {
+      "title": "Ebro",
+      "lead": "The Ebro (Spanish and Basque [ˈeβɾo] ; Catalan: Ebre, Western: [ˈeβɾe], Eastern: [ˈeβɾə]) is a river of the north and northeast of the Iberian Peninsula, in Spain. It rises in Cantabria and flows 930 kilometres (580 mi), almost entirely in ",
+      "image": "Zaragoza_shel.JPG"
+    },
+    "Saguntum": {
+      "title": "Sagunto",
+      "lead": "Sagunto or Sagunt (officially: Sagunt / Sagunto, historically: Morvedre) is a city and municipality of Spain, located in the province of Valencia, Valencian Community. It belongs to the modern fertile comarca of Camp de Morvedre. It is loca",
+      "image": "Castillo04_Sagunto.JPG"
     },
     "Alexander_the_Great": {
       "title": "Alexander the Great",
@@ -1232,10 +1472,30 @@
       "lead": "The Roman Republic (Latin: Res publica Romana, pronounced [ˈreːs ˈpuːblɪka roːˈmaːna]) was the era of classical Roman civilisation beginning with the overthrow of the Roman Kingdom (traditionally dated to 509 BC) and ending in 27 BC with th",
       "image": "Roman_republic,_territory_44_BC.svg"
     },
-    "Macedonia_(ancient_kingdom)": {
-      "title": "Macedonia (ancient kingdom)",
-      "lead": "Macedonia ( MASS-ih-DOH-nee-ə; Greek: Μακεδονία, Makedonía), also called Macedon ( MASS-ih-don), was an ancient kingdom on the periphery of Archaic and Classical Greece, which later became the dominant state of Hellenistic Greece. The kingd",
-      "image": "Map_Macedonia_336_BC-en.svg"
+    "Arrian": {
+      "title": "Arrian",
+      "lead": "Arrian of Nicomedia (; Greek: Ἀρριανός Arrianós; Latin: Lucius Flavius Arrianus; c. 86/89 – c. after 146/160 AD) was a Greek historian, public servant, military commander, and philosopher of the Roman period. The Anabasis of Alexander by Ar",
+      "image": "Arrian7.jpg"
+    },
+    "Roman_Senate": {
+      "title": "Roman Senate",
+      "lead": "The Roman Senate (Latin: Senātus Rōmānus) was the highest and constituting assembly of ancient Rome and its aristocracy. With different powers throughout its existence, it lasted from the first days of the city of Rome (traditionally founde",
+      "image": "Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png"
+    },
+    "Jupiter_(god)": {
+      "title": "Jupiter (god)",
+      "lead": "In ancient Roman religion and mythology, Jupiter (Latin: Iūpiter or Iuppiter, from Proto-Italic *djous \"day, sky\" + *patēr \"father\", thus \"sky father\" Greek: Δίας or Ζεύς), also known as Jove (nom. and gen. Iovis [ˈjɔwɪs]), is the god of th",
+      "image": "0_Jupiter_-_Louvre_MR_254_-_Louvre-Lens_(2).JPG"
+    },
+    "Venus_(mythology)": {
+      "title": "Venus (mythology)",
+      "lead": "Venus (; Classical Latin: [ˈwɛnʊs]) is a Roman goddess whose functions encompass love, beauty, desire, sex, fertility, prosperity, and victory. In Roman mythology, she was the ancestor of the Roman people through her son, Aeneas, who surviv",
+      "image": "Statue_of_nude_Venus_of_the_Capitoline_type,_Roman,_2nd_century_AD,_from_Campo_Iemini,_housed_in_the_British_Museum.jpg"
+    },
+    "Málaga": {
+      "title": "Málaga",
+      "lead": "Málaga ( ; Spanish: [ˈmalaɣa] ) is a municipality of Spain and the capital of the province of Málaga, in the autonomous community of Andalusia. With a population of 592,346 in 2024, it is the 2nd-largest city in Andalusia and the 6th-larges",
+      "image": "Da_Gibralfaro_(cropped)2.jpg"
     }
   }
 }

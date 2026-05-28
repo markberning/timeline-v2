@@ -161,6 +161,114 @@
       "matchText": "Northwest Semitic language",
       "wikiSlug": "Northwest_Semitic_languages",
       "type": "concept"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Jordan Rift Valley",
+      "matchText": "Jordan Rift Valley",
+      "wikiSlug": "Jordan_Rift_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Transjordanian plateau",
+      "matchText": "Transjordanian plateau",
+      "wikiSlug": "Transjordan_(region)",
+      "type": "place"
+    },
+    {
+      "term": "Exodus",
+      "matchText": "Exodus",
+      "wikiSlug": "The_Exodus",
+      "type": "concept"
+    },
+    {
+      "term": "Moses",
+      "matchText": "Moses",
+      "wikiSlug": "Moses",
+      "type": "people"
+    },
+    {
+      "term": "Sinai Desert",
+      "matchText": "Sinai Desert",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Mount Sinai",
+      "matchText": "Mount Sinai",
+      "wikiSlug": "Mount_Sinai",
+      "type": "place"
+    },
+    {
+      "term": "Genesis",
+      "matchText": "Genesis",
+      "wikiSlug": "Book_of_Genesis",
+      "type": "concept"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaan",
+      "type": "people"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Judges",
+      "matchText": "Judges",
+      "wikiSlug": "Book_of_Judges",
+      "type": "concept"
+    },
+    {
+      "term": "Semitic-speaking",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "concept"
+    },
+    {
+      "term": "Tel Dan Stele",
+      "matchText": "Tel Dan Stele",
+      "wikiSlug": "Tel_Dan_Stele",
+      "type": "concept"
     }
   ],
   "2": [
@@ -313,6 +421,90 @@
       "matchText": "Gezer",
       "wikiSlug": "Gezer",
       "type": "place"
+    },
+    {
+      "term": "Philistines",
+      "matchText": "Philistines",
+      "wikiSlug": "Philistines",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew language",
+      "matchText": "Hebrew text",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Michal",
+      "matchText": "Michal",
+      "wikiSlug": "Michal",
+      "type": "people"
+    },
+    {
+      "term": "Jezreel Valley",
+      "matchText": "Jezreel Valley",
+      "wikiSlug": "Jezreel_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Judah",
+      "matchText": "king of Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Baal",
+      "matchText": "Baal",
+      "wikiSlug": "Baal",
+      "type": "concept"
+    },
+    {
+      "term": "Akkad",
+      "matchText": "Akkad",
+      "wikiSlug": "Akkad_(city)",
+      "type": "place"
+    },
+    {
+      "term": "Hittites",
+      "matchText": "Hittite",
+      "wikiSlug": "Hittites",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Arameans",
+      "matchText": "Aramean",
+      "wikiSlug": "Arameans",
+      "type": "people"
+    },
+    {
+      "term": "Solomon",
+      "matchText": "Solomon",
+      "wikiSlug": "Solomon",
+      "type": "people"
+    },
+    {
+      "term": "Omrides",
+      "matchText": "Omride",
+      "wikiSlug": "Omrides",
+      "type": "people"
     }
   ],
   "3": [
@@ -477,6 +669,144 @@
       "matchText": "Megiddo",
       "wikiSlug": "Tel_Megiddo",
       "type": "place"
+    },
+    {
+      "term": "Nathan",
+      "matchText": "Nathan",
+      "wikiSlug": "Nathan_(prophet)",
+      "type": "people"
+    },
+    {
+      "term": "Gihon Spring",
+      "matchText": "Gihon Spring",
+      "wikiSlug": "Gihon_Spring",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "people"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaan",
+      "type": "concept"
+    },
+    {
+      "term": "Al-Aqsa Mosque",
+      "matchText": "Al-Aqsa Mosque",
+      "wikiSlug": "Al-Aqsa_Mosque",
+      "type": "place"
+    },
+    {
+      "term": "Tel Hazor",
+      "matchText": "Hazor",
+      "wikiSlug": "Tel_Hazor",
+      "type": "place"
+    },
+    {
+      "term": "Gezer",
+      "matchText": "Gezer",
+      "wikiSlug": "Gezer",
+      "type": "place"
+    },
+    {
+      "term": "Galilee",
+      "matchText": "Galilee",
+      "wikiSlug": "Galilee",
+      "type": "place"
+    },
+    {
+      "term": "Moab",
+      "matchText": "Moab",
+      "wikiSlug": "Moab",
+      "type": "place"
+    },
+    {
+      "term": "Molek",
+      "matchText": "Molek",
+      "wikiSlug": "Molech",
+      "type": "people"
+    },
+    {
+      "term": "Ammon",
+      "matchText": "Ammon",
+      "wikiSlug": "Ammon",
+      "type": "place"
+    },
+    {
+      "term": "Abraham",
+      "matchText": "Abraham",
+      "wikiSlug": "Abraham",
+      "type": "people"
+    },
+    {
+      "term": "Sumerian",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumerian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Gilgamesh",
+      "matchText": "Gilgamesh",
+      "wikiSlug": "Epic_of_Gilgamesh",
+      "type": "concept"
+    },
+    {
+      "term": "Ulam",
+      "matchText": "Ulam",
+      "definition": "The entrance porch of Solomon's Temple — the shallow vestibule a worshipper passed through first, before the main hall. The name is the Hebrew word for this front portico.",
+      "type": "concept"
+    },
+    {
+      "term": "Hekhal",
+      "matchText": "Hekhal",
+      "definition": "The main hall of Solomon's Temple, the large central room between the entrance porch and the inner sanctuary. It held the golden lampstand, the table of showbread, and the incense altar.",
+      "type": "concept"
+    },
+    {
+      "term": "Devir",
+      "matchText": "Devir",
+      "definition": "The innermost chamber of Solomon's Temple, also called the Holy of Holies — a windowless cube where the Ark of the Covenant rested beneath two gold-covered cherubim. Only the high priest could enter it, once a year.",
+      "type": "concept"
+    },
+    {
+      "term": "Omrides",
+      "matchText": "Omride",
+      "wikiSlug": "Omrides",
+      "type": "people"
     }
   ],
   "4": [
@@ -485,6 +815,60 @@
       "matchText": "Rehoboam",
       "wikiSlug": "Rehoboam",
       "type": "people"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Davidic line",
+      "matchText": "Davidic",
+      "wikiSlug": "Davidic_line",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Jezreel Valley",
+      "matchText": "Jezreel Valley",
+      "wikiSlug": "Jezreel_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew language",
+      "matchText": "Hebrew writing",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Hazor",
+      "matchText": "Hazor",
+      "wikiSlug": "Tel_Hazor",
+      "type": "place"
+    },
+    {
+      "term": "Megiddo",
+      "matchText": "Megiddo",
+      "wikiSlug": "Tel_Megiddo",
+      "type": "place"
     },
     {
       "term": "Shechem",
@@ -769,6 +1153,138 @@
       "matchText": "Tel Dan Stele",
       "wikiSlug": "Tel_Dan_Stele",
       "type": "concept"
+    },
+    {
+      "term": "Kingdom of Israel",
+      "matchText": "Kingdom of Israel",
+      "wikiSlug": "Kingdom_of_Israel_(Samaria)",
+      "type": "place"
+    },
+    {
+      "term": "Omri",
+      "matchText": "Omri",
+      "wikiSlug": "Omri",
+      "type": "people"
+    },
+    {
+      "term": "Hazor",
+      "matchText": "Hazor",
+      "wikiSlug": "Tel_Hazor",
+      "type": "place"
+    },
+    {
+      "term": "Gezer",
+      "matchText": "Gezer",
+      "wikiSlug": "Gezer",
+      "type": "place"
+    },
+    {
+      "term": "Jezreel Valley",
+      "matchText": "Jezreel Valley",
+      "wikiSlug": "Jezreel_Valley",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Baal",
+      "matchText": "Baal",
+      "wikiSlug": "Baal",
+      "type": "concept"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaan",
+      "type": "people"
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Gilead",
+      "matchText": "Gilead",
+      "wikiSlug": "Gilead",
+      "type": "place"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "people"
+    },
+    {
+      "term": "Sinai",
+      "matchText": "Sinai",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Negev",
+      "matchText": "Negev",
+      "wikiSlug": "Negev",
+      "type": "place"
+    },
+    {
+      "term": "Aramean",
+      "matchText": "Aramean",
+      "wikiSlug": "Arameans",
+      "type": "people"
+    },
+    {
+      "term": "Omride dynasty",
+      "matchText": "Omride",
+      "wikiSlug": "Omrides",
+      "type": "people"
+    },
+    {
+      "term": "Kingdom of Judah",
+      "matchText": "Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "David",
+      "matchText": "David",
+      "wikiSlug": "David",
+      "type": "people"
+    },
+    {
+      "term": "Davidic line",
+      "matchText": "Davidic",
+      "wikiSlug": "Davidic_line",
+      "type": "concept"
+    },
+    {
+      "term": "Philistines",
+      "matchText": "Philistines",
+      "wikiSlug": "Philistines",
+      "type": "people"
+    },
+    {
+      "term": "Mari",
+      "matchText": "Mari",
+      "wikiSlug": "Mari,_Syria",
+      "type": "place"
     }
   ],
   "6": [
@@ -897,6 +1413,156 @@
       "term": "Gilead",
       "matchText": "Gilead",
       "wikiSlug": "Gilead",
+      "type": "place"
+    },
+    {
+      "term": "Jeroboam II",
+      "matchText": "Jeroboam II",
+      "wikiSlug": "Jeroboam_II",
+      "type": "people"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Israel",
+      "matchText": "Kingdom of Israel",
+      "wikiSlug": "Kingdom_of_Israel_(Samaria)",
+      "type": "place"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "people"
+    },
+    {
+      "term": "Assyria",
+      "matchText": "Assyria",
+      "wikiSlug": "Neo-Assyrian_Empire",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Judah",
+      "matchText": "Kingdom of Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem Temple",
+      "matchText": "Temple",
+      "wikiSlug": "Solomon%27s_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew",
+      "matchText": "Hebrew",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Judaism",
+      "matchText": "Judaism",
+      "wikiSlug": "Judaism",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Hosea",
+      "matchText": "Hosea",
+      "wikiSlug": "Hosea",
+      "type": "people"
+    },
+    {
+      "term": "Elamites",
+      "matchText": "Elamites",
+      "wikiSlug": "Elam",
+      "type": "people"
+    },
+    {
+      "term": "Babylonians",
+      "matchText": "Babylonians",
+      "wikiSlug": "Babylonia",
+      "type": "people"
+    },
+    {
+      "term": "Arameans",
+      "matchText": "Arameans",
+      "wikiSlug": "Arameans",
+      "type": "people"
+    },
+    {
+      "term": "British Isles",
+      "matchText": "British Isles",
+      "wikiSlug": "British_Isles",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "concept"
+    },
+    {
+      "term": "Shechem",
+      "matchText": "Shechem",
+      "wikiSlug": "Shechem",
+      "type": "place"
+    },
+    {
+      "term": "Pentateuch",
+      "matchText": "Pentateuch",
+      "wikiSlug": "Pentateuch",
+      "type": "concept"
+    },
+    {
+      "term": "Genesis",
+      "matchText": "Genesis",
+      "wikiSlug": "Book_of_Genesis",
+      "type": "concept"
+    },
+    {
+      "term": "Deuteronomy",
+      "matchText": "Deuteronomy",
+      "wikiSlug": "Book_of_Deuteronomy",
+      "type": "concept"
+    },
+    {
+      "term": "American Civil War",
+      "matchText": "Civil War",
+      "wikiSlug": "American_Civil_War",
+      "type": "concept"
+    },
+    {
+      "term": "Ahab",
+      "matchText": "Ahab",
+      "wikiSlug": "Ahab",
+      "type": "people"
+    },
+    {
+      "term": "Mesopotamia",
+      "matchText": "Mesopotamia",
+      "wikiSlug": "Mesopotamia",
       "type": "place"
     }
   ],
@@ -1062,6 +1728,102 @@
       "matchText": "Gihon Spring",
       "wikiSlug": "Gihon_Spring",
       "type": "place"
+    },
+    {
+      "term": "Moses",
+      "matchText": "Moses",
+      "wikiSlug": "Moses",
+      "type": "people"
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "concept"
+    },
+    {
+      "term": "Jerusalem Temple",
+      "matchText": "Jerusalem Temple",
+      "wikiSlug": "Solomon%27s_Temple",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Baal",
+      "matchText": "Baal",
+      "wikiSlug": "Baal",
+      "type": "concept"
+    },
+    {
+      "term": "Amon",
+      "matchText": "Amon",
+      "wikiSlug": "Amon_of_Judah",
+      "type": "people"
+    },
+    {
+      "term": "Bethel",
+      "matchText": "Bethel",
+      "wikiSlug": "Bethel",
+      "type": "place"
+    },
+    {
+      "term": "Exodus",
+      "matchText": "Exodus",
+      "wikiSlug": "The_Exodus",
+      "type": "concept"
+    },
+    {
+      "term": "Pentateuch",
+      "matchText": "Pentateuch",
+      "wikiSlug": "Torah",
+      "type": "concept"
+    },
+    {
+      "term": "Kingdom of Israel",
+      "matchText": "Kingdom of Israel",
+      "wikiSlug": "Kingdom_of_Israel_(Samaria)",
+      "type": "place"
+    },
+    {
+      "term": "Babylonians",
+      "matchText": "Babylonians",
+      "wikiSlug": "Babylonia",
+      "type": "people"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "rising power of Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "British Museum",
+      "matchText": "British Museum",
+      "wikiSlug": "British_Museum",
+      "type": "place"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "his royal city Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "south through the Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Hittites",
+      "matchText": "Hittite and Assyrian empires",
+      "wikiSlug": "Hittites",
+      "type": "people"
     }
   ],
   "8": [
@@ -1233,6 +1995,128 @@
       "matchText": "Code of Hammurabi",
       "wikiSlug": "Code_of_Hammurabi",
       "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Judah",
+      "matchText": "Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Josiah",
+      "matchText": "Josiah",
+      "wikiSlug": "Josiah",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Jerusalem",
+      "matchText": "Jerusalem",
+      "wikiSlug": "Jerusalem",
+      "type": "place"
+    },
+    {
+      "term": "Ebed-Melech",
+      "matchText": "Ebed-Melech",
+      "wikiSlug": "",
+      "type": "people",
+      "definition": "Ebed-Melech was an Ethiopian (Cushite) official in the court of King Zedekiah who rescued the prophet Jeremiah from the muddy cistern where he had been left to die. In the book of Jeremiah, God promises to spare him when Jerusalem falls, as a reward for his courage."
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "concept"
+    },
+    {
+      "term": "Azekah",
+      "matchText": "Azekah",
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "Azekah was a fortified town in the lowlands of Judah, guarding the approaches to Jerusalem. One of the Lachish Letters records the moment its fire-signals went dark during the Babylonian siege of 588–586 BCE — a real-time glimpse of the kingdom's last strongholds falling one by one."
+    },
+    {
+      "term": "Passover",
+      "matchText": "Passover",
+      "wikiSlug": "Passover",
+      "type": "concept"
+    },
+    {
+      "term": "Deuteronomistic History",
+      "matchText": "Deuteronomistic History",
+      "wikiSlug": "Deuteronomist",
+      "type": "concept"
+    },
+    {
+      "term": "Judaism",
+      "matchText": "Judaism",
+      "wikiSlug": "Judaism",
+      "type": "concept"
+    },
+    {
+      "term": "Sinai",
+      "matchText": "Sinai",
+      "wikiSlug": "Mount_Sinai",
+      "type": "place"
+    },
+    {
+      "term": "Exodus",
+      "matchText": "Exodus",
+      "wikiSlug": "Book_of_Exodus",
+      "type": "concept"
+    },
+    {
+      "term": "Deuteronomy",
+      "matchText": "Deuteronomy",
+      "wikiSlug": "Book_of_Deuteronomy",
+      "type": "concept"
+    },
+    {
+      "term": "Solomon's Temple",
+      "matchText": "Solomon's Temple",
+      "wikiSlug": "Solomon%27s_Temple",
+      "type": "concept"
+    },
+    {
+      "term": "David",
+      "matchText": "David",
+      "wikiSlug": "David",
+      "type": "people"
+    },
+    {
+      "term": "Goliath",
+      "matchText": "Goliath",
+      "wikiSlug": "Goliath",
+      "type": "people"
+    },
+    {
+      "term": "Saul",
+      "matchText": "Saul",
+      "wikiSlug": "Saul",
+      "type": "people"
+    },
+    {
+      "term": "Moses",
+      "matchText": "Moses",
+      "wikiSlug": "Moses",
+      "type": "people"
     }
   ]
 }

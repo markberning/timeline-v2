@@ -17,6 +17,12 @@
       "targetTl": "hittite-empire",
       "targetChapter": 7,
       "blurb": "Israel emerged in the Bronze Age Collapse's aftermath — a highland people coalescing in the power vacuum the Hittite fall left in the Levant."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "The Phoenicians were the Israelites' northern neighbors on the same Levantine coast, and their language sat right beside Hebrew on the family tree — both Northwest Semitic, close enough to be mutually intelligible cousins. While Israel turned inland to the hills and its God, Phoenicia turned to the sea, building the trade empire and the alphabet that would outlast them both."
     }
   ],
   "2": [
@@ -51,9 +57,33 @@
       "targetTl": "zhou-dynasty",
       "targetChapter": 2,
       "blurb": "The united monarchy's sacral kingship is contemporary with the Zhou ritual state — two unconnected experiments in god-sanctioned rule."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 12,
+      "blurb": "Solomon's kingdom sat on the trade arteries running between Egypt and Mesopotamia, the floodplain of the Tigris and Euphrates where the world's first cities, writing, and law codes had taken shape millennia earlier. By Solomon's day Mesopotamia was the older, richer civilizational pole that Levantine traders measured wealth against."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "In Solomon's tenth-century window the Assyrians of northern Iraq had not yet begun the great expansion that would later swallow the northern Kingdom of Israel. When it came, Assyria's professional siege army and policy of mass deportation made it the superpower every small Levantine kingdom feared."
     }
   ],
   "4": [
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "Israel's northern trade routes ran toward Mesopotamia, the land between the Tigris and Euphrates where the world's first cities and empires had risen centuries earlier. By the time the kingdoms of Israel and Judah were squabbling over a strip of highland, Mesopotamia was the older, richer neighbor whose Assyrian heirs would soon come collecting."
+    },
+    {
+      "matchText": "Assyrians",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "The Assyrians built the ancient Near East's first true military superpower out of northern Iraq. They kept meticulous royal records, and those records called the northern kingdom 'the House of Omri' for over a century — an outsider's confirmation of a dynasty the Bible barely tolerates. Within two centuries Assyria would erase that kingdom entirely."
+    },
     {
       "matchText": "Pharaoh Sheshonq I",
       "targetTl": "late-egypt",
@@ -79,6 +109,24 @@
       "targetTl": "phoenicia",
       "targetChapter": 4,
       "blurb": "The prophets' war on Baal worship is a war against Phoenician religion — Jezebel's Tyrian cult the great internal enemy."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 4,
+      "blurb": "Jezebel was a Phoenician princess from Tyre, and the cult she brought to Israel — Baal and Asherah, with hundreds of court prophets — was the religion of the great Levantine trading cities to the north. The marriage was a textbook diplomatic alliance between two coastal powers; the prophets of Yahweh treated it as a foreign invasion of the soul."
+    },
+    {
+      "matchText": "Assyrian",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Assyria was the rising superpower of the Iron Age Near East, built out of northern Iraq into the ancient world's first true military machine. Ahab and his neighbors fought it to a standstill at Qarqar in 853 BCE, but that was only a delay — within a century and a half the Assyrians would swallow the northern kingdom whole."
+    },
+    {
+      "matchText": "Assyrians",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "The Assyrians kept meticulous royal records, and those records are why we can check the Bible against an outside witness — the Black Obelisk shows 'Jehu, son of Omri' bowing with tribute, and Assyrian scribes kept calling Israel 'the House of Omri' for a century after the dynasty itself was gone."
     }
   ],
   "6": [
@@ -119,6 +167,18 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 8,
       "blurb": "Judah survived Assyria's collapse — Hezekiah's gamble paying off as Nineveh fell, buying the southern kingdom another century."
+    },
+    {
+      "matchText": "king of Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 6,
+      "blurb": "Sennacherib's Assyria was the superpower Judah spent the century learning to live beside — submit and survive, or rebel and be crushed. Its professional siege army and policy of mass deportation made it the terror of every small Levantine kingdom, the machine that had already swallowed Israel to the north."
+    },
+    {
+      "matchText": "rising in Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 13,
+      "blurb": "The new power rising in Mesopotamia was Neo-Babylonia — Nebuchadnezzar's empire, heir to the floodplain where the world's first cities and law codes had taken shape. Within two decades it would do to Judah what Assyria had done to Israel, ending the kingdom and burning Solomon's Temple."
     }
   ],
   "8": [
@@ -151,6 +211,24 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "Cyrus's Persia ended the exile — the empire whose tolerance policy let the Judeans return and rebuild, reshaping the religion permanently."
+    },
+    {
+      "matchText": "Hittites",
+      "targetTl": "hittite-empire",
+      "targetChapter": 7,
+      "blurb": "The Hittites were a Bronze Age Anatolian power whose kings bound their vassals with suzerainty treaties — a great king promises protection, the lesser party promises loyalty, with blessings for keeping faith and curses for breaking it. Israelite scribes borrowed exactly this form to describe Yahweh's covenant with Israel, which is why the exile could be read as a treaty-breach punishment rather than God's defeat."
+    },
+    {
+      "matchText": "Assyrians",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Assyria was the Near East's most fearsome war machine, and its kings used the same vassal-treaty template the Hittites had — oaths sworn before the gods, with explicit curses for rebellion. The Israelite covenant absorbed this political language: break the contract, and the listed penalties follow. The exile, in this reading, was the curse clause coming due."
+    },
+    {
+      "matchText": "Sennacherib",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 6,
+      "blurb": "Sennacherib was the Assyrian king who besieged Jerusalem in 701 BCE and then, famously, failed to take it. That escape hardened a dangerous belief in Judah — that God would always protect his Temple. A century later, facing Nebuchadnezzar, that confidence proved catastrophically wrong."
     }
   ]
 }

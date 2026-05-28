@@ -11,6 +11,24 @@
       "targetTl": "mesopotamia",
       "targetChapter": 3,
       "blurb": "Mesopotamian cuneiform was the first writing system in history, invented by the Sumerians around 3400 BCE. Its 600-1,000 signs made literacy the exclusive property of a trained scribal elite — exactly the problem the Phoenician alphabet would solve by reducing the entire system to 22 letters."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Mesopotamia — the land between the Tigris and Euphrates — was the other great Bronze Age civilizational zone the Phoenicians brokered for. Treeless on its alluvial plains, it paid enormous sums for the Lebanese cedar that Phoenician merchants shipped inland."
+    },
+    {
+      "matchText": "Assyrians",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "The Assyrians were one of the foreign peoples who wrote about the Phoenicians, leaving records of tribute and trade. Centuries later this northern Mesopotamian war-state would dominate the Phoenician cities outright (Chapter 6)."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "Carthage was the greatest of all Phoenician colonies, founded from Tyre on the North African coast. The cult of Tanit carried there grew from the same Canaanite religious root described here — the colony that would one day eclipse the homeland (Chapter 5)."
     }
   ],
   "2": [
@@ -89,6 +107,48 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 2,
       "blurb": "Tyrian purple — the murex dye — would still be the color of emperors more than a thousand years later in Byzantium."
+    },
+    {
+      "matchText": "Hittites",
+      "targetTl": "hittite-empire",
+      "targetChapter": 7,
+      "blurb": "The Hittite Empire dominated Anatolia and northern Syria for centuries, clashing with Egypt at Kadesh. Its sudden collapse around 1180 BCE — part of the Bronze Age Collapse — removed one of the great powers whose absence let small Levantine states like Tyre rise."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "Founded from Tyre around 814 BCE, Carthage began as one colony in the Phoenician network and grew into the dominant power of the western Mediterranean — eventually outlasting and surpassing its mother city."
+    },
+    {
+      "matchText": "Roman Senate",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "Rome's governing council of elders steered the Republic for centuries. Its later sumptuary rules — restricting purple cloth to the highest ranks and ultimately the emperor — inherited and codified the prestige that Phoenician Tyrian purple had created."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "The civilization of the Tigris-Euphrates floodplain — Sumer, Akkad, Babylon, Assyria — was the cultural wellspring whose gods, motifs, and trade goods the Phoenicians absorbed and resold. Phoenician art reached 'from Spain to Mesopotamia.'"
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "In Hiram's day Assyria was still confined to its heartland, too weak to project power into the Levant. That window of Assyrian weakness was exactly what let Tyre's commercial golden age flourish — until Assyria revived and closed in."
+    },
+    {
+      "matchText": "Greeks",
+      "targetTl": "ancient-greece",
+      "targetChapter": 1,
+      "blurb": "Emerging from their Dark Age, the Greeks were the Phoenicians' great trading partners and rivals across the Mediterranean. They borrowed the Phoenician alphabet, named the constellation Ursa Minor 'the Phoenician,' and identified Phoenician gods with their own."
+    },
+    {
+      "matchText": "Judah",
+      "targetTl": "ancient-israel",
+      "targetChapter": 4,
+      "blurb": "After Solomon's death around 930 BCE the Israelite kingdom split: Israel in the north, Judah in the south around Jerusalem. Phoenician alliances and religion entangled with both — most explosively through Jezebel's marriage into the northern court."
     }
   ],
   "5": [
@@ -97,6 +157,12 @@
       "targetTl": "viking-age",
       "targetChapter": 7,
       "blurb": "The Phoenicians were antiquity's Vikings of trade — a maritime diaspora of emporia and colonies, from Cyprus to Cadiz, run by ship not army."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 5,
+      "blurb": "Northern Iraq's siege specialists, the largest empire the world had yet seen at its 7th-century-BCE peak — yet the Phoenician colony network spanned even farther coastline, held by trade rather than armies."
     }
   ],
   "6": [
@@ -135,6 +201,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 2,
       "blurb": "Phoenician fleets were the naval backbone of the Achaemenid Empire — the sea power of a land empire."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 1,
+      "blurb": "Mesopotamia — the land between the Tigris and Euphrates — was the engine room of every empire that subjugated Phoenicia. Assyria, Babylonia, and the wider Near Eastern world of cities, scribes, and god-kings all grew out of this river valley, and its rulers were the hinterland powers the coastal Phoenicians had to pay off."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "While the Phoenician homeland was being squeezed by Assyrian, Babylonian, and Persian overlords, its greatest colony was rising in North Africa. Carthage inherited the Phoenician genius for trade and shipbuilding and turned it into an independent commercial empire that would one day rival Rome itself."
     }
   ],
   "7": [
@@ -161,6 +239,18 @@
       "targetTl": "carthage",
       "targetChapter": 1,
       "blurb": "The Carthaginian century is Phoenicia's western afterlife — the colony that outgrew and outlived the homeland."
+    },
+    {
+      "matchText": "Roman Senate",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "The Senate was the deliberative council of aristocratic elders that steered the Roman Republic — declaring wars, managing finances, and directing foreign policy. It was the body that prosecuted the long struggle with Carthage, and the one that, after the city fell, decided which scraps of Carthaginian knowledge were worth saving."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 2,
+      "blurb": "By Hannibal’s day Rome was a republic governed by elected magistrates and the Senate rather than a king. Its deep reserves of citizen and allied manpower, and a political culture that refused to surrender after catastrophic defeats, were exactly what let it absorb Cannae and outlast the greatest general of the age."
     }
   ],
   "8": [

@@ -425,3 +425,7 @@
 - Newcomer A #22: "Berber" needs a brief inline definition
 - Story Editor D: Chapter 5 catalog structure — consider adding one concrete colonization story/scene
 - Skeptic B #26: Cannae casualties should note modern estimates trend lower than ancient sources
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from phoenicia outward (ancient-israel, carthage, ancient-rome, ancient-greece, assyrian-empire, persian-empire, mesopotamia, hittite-empire). Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.

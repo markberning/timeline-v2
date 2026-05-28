@@ -70,12 +70,36 @@
     {
       "eventId": "evt-j-source",
       "matchText": "Yahwist source"
+    },
+    {
+      "eventId": "evt-david-king",
+      "matchText": "David"
+    },
+    {
+      "eventId": "evt-bathsheba",
+      "matchText": "Bathsheba"
+    },
+    {
+      "eventId": "evt-ark-jerusalem",
+      "matchText": "Ark of the Covenant"
     }
   ],
   "4": [
     {
+      "eventId": "evt-solomon-king",
+      "matchText": "Solomon"
+    },
+    {
       "eventId": "evt-rehoboam",
       "matchText": "Rehoboam"
+    },
+    {
+      "eventId": "evt-ark-jerusalem",
+      "matchText": "Ark of the Covenant"
+    },
+    {
+      "eventId": "evt-ahab-king",
+      "matchText": "Ahab"
     },
     {
       "eventId": "evt-kingdom-split",
@@ -258,6 +282,10 @@
     {
       "eventId": "evt-battle-megiddo-josiah",
       "matchText": "Battle of Megiddo"
+    },
+    {
+      "eventId": "evt-jeroboam",
+      "matchText": "Jeroboam"
     }
   ],
   "8": [

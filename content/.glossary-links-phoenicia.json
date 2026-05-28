@@ -1,6 +1,68 @@
 {
   "1": [
     {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "people"
+    },
+    {
+      "term": "Amorite",
+      "matchText": "Amorite",
+      "wikiSlug": "Amorites",
+      "type": "people"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Mot",
+      "matchText": "Mot",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Canaanite-Phoenician god of death and the underworld. In the Baal Cycle he is Baal's enemy, killing and devouring the storm god each year before Baal returns to life — a death-and-rebirth myth that mirrored the agricultural seasons."
+    },
+    {
+      "term": "Yam",
+      "matchText": "Yam",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Canaanite-Phoenician god of the sea, embodying the chaotic ocean. In the Baal Cycle the storm god Baal must defeat Yam to take his place among the gods — a combat myth echoed across the ancient Near East."
+    },
+    {
       "term": "Lebanon",
       "matchText": "Lebanon",
       "wikiSlug": "Lebanon",
@@ -319,6 +381,96 @@
       "matchText": "Tyre",
       "wikiSlug": "Tyre,_Lebanon",
       "type": "place"
+    },
+    {
+      "term": "Anatolian",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "concept"
+    },
+    {
+      "term": "Homer",
+      "matchText": "Homer",
+      "wikiSlug": "Homer",
+      "type": "people"
+    },
+    {
+      "term": "Ugarit",
+      "matchText": "Ugarit",
+      "wikiSlug": "Ugarit",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Nineveh",
+      "matchText": "Nineveh",
+      "wikiSlug": "Nineveh",
+      "type": "place"
+    },
+    {
+      "term": "Sidon",
+      "matchText": "Sidon",
+      "wikiSlug": "Sidon",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Nile Valley",
+      "matchText": "Nile Valley",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Mycenaean Greeks",
+      "matchText": "Mycenaean Greeks",
+      "wikiSlug": "Mycenaean_Greece",
+      "type": "people"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Atlantic Ocean",
+      "matchText": "Atlantic Ocean",
+      "wikiSlug": "Atlantic_Ocean",
+      "type": "place"
+    },
+    {
+      "term": "Byblos",
+      "matchText": "Byblos",
+      "wikiSlug": "Byblos",
+      "type": "place"
     }
   ],
   "3": [
@@ -459,6 +611,90 @@
       "matchText": "Shoshenq I",
       "wikiSlug": "Shoshenq_I",
       "type": "people"
+    },
+    {
+      "term": "Semitic-speaking",
+      "matchText": "Semitic-speaking",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Thebes",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Greece",
+      "type": "place"
+    },
+    {
+      "term": "Sidon",
+      "matchText": "Sidon",
+      "wikiSlug": "Sidon",
+      "type": "place"
+    },
+    {
+      "term": "Torah",
+      "matchText": "Torah",
+      "wikiSlug": "Torah",
+      "type": "concept"
+    },
+    {
+      "term": "Quran",
+      "matchText": "Quran",
+      "wikiSlug": "Quran",
+      "type": "concept"
+    },
+    {
+      "term": "Southeast Asian",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Beirut",
+      "matchText": "Beirut",
+      "wikiSlug": "Beirut",
+      "type": "place"
+    },
+    {
+      "term": "Greek-speaking",
+      "matchText": "Greek-speaking",
+      "wikiSlug": "Greek_language",
+      "type": "concept"
+    },
+    {
+      "term": "phoinikeia grammata",
+      "matchText": "phoinikeia grammata",
+      "type": "concept",
+      "definition": "Greek for \"Phoenician letters\" — the name the Greeks themselves gave to their alphabet, an open acknowledgment that they had borrowed it from the Phoenicians rather than invented it."
     }
   ],
   "4": [
@@ -623,6 +859,126 @@
       "matchText": "Ursa Minor",
       "wikiSlug": "Ursa_Minor",
       "type": "concept"
+    },
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Aramean",
+      "matchText": "Aramean",
+      "wikiSlug": "Arameans",
+      "type": "people"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Israelite",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "people"
+    },
+    {
+      "term": "Arabia",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Ezion-Geber",
+      "matchText": "Ezion-Geber",
+      "wikiSlug": "Ezion-Geber",
+      "type": "place"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaan",
+      "type": "people"
+    },
+    {
+      "term": "Dumuzi",
+      "matchText": "Dumuzi",
+      "wikiSlug": "Dumuzid",
+      "type": "people"
+    },
+    {
+      "term": "Byblos",
+      "matchText": "Byblos",
+      "wikiSlug": "Byblos",
+      "type": "place"
+    },
+    {
+      "term": "Sidon",
+      "matchText": "Sidon",
+      "wikiSlug": "Sidon",
+      "type": "place"
+    },
+    {
+      "term": "Semitic",
+      "matchText": "Semitic",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Kition",
+      "matchText": "Kition",
+      "wikiSlug": "Kition",
+      "type": "place"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Constantinople",
+      "matchText": "Constantinople",
+      "wikiSlug": "Constantinople",
+      "type": "place"
+    },
+    {
+      "term": "Baal",
+      "matchText": "Baal",
+      "wikiSlug": "Baal",
+      "type": "people"
+    },
+    {
+      "term": "Yahweh",
+      "matchText": "Yahweh",
+      "wikiSlug": "Yahweh",
+      "type": "people"
+    },
+    {
+      "term": "Book of Kings",
+      "matchText": "Book of Kings",
+      "wikiSlug": "Books_of_Kings",
+      "type": "concept"
+    },
+    {
+      "term": "Ursa Major",
+      "matchText": "Ursa Major",
+      "wikiSlug": "Ursa_Major",
+      "type": "concept"
     }
   ],
   "5": [
@@ -764,6 +1120,162 @@
       "matchText": "Melqart",
       "wikiSlug": "Melqart",
       "type": "people"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Sidon",
+      "matchText": "Sidon",
+      "wikiSlug": "Sidon",
+      "type": "place"
+    },
+    {
+      "term": "Astarte",
+      "matchText": "Astarte",
+      "wikiSlug": "Astarte",
+      "type": "people"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Medjerda River",
+      "matchText": "Medjerda River",
+      "wikiSlug": "Medjerda_River",
+      "type": "place"
+    },
+    {
+      "term": "Morocco",
+      "matchText": "Morocco",
+      "wikiSlug": "Morocco",
+      "type": "place"
+    },
+    {
+      "term": "Moroccan",
+      "matchText": "Moroccan",
+      "wikiSlug": "Morocco",
+      "type": "place"
+    },
+    {
+      "term": "Brittany",
+      "matchText": "Brittany",
+      "wikiSlug": "Brittany",
+      "type": "place"
+    },
+    {
+      "term": "Cornish",
+      "matchText": "Cornish",
+      "wikiSlug": "Cornwall",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Iron Age",
+      "matchText": "Iron Age",
+      "wikiSlug": "Iron_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Herodotus",
+      "matchText": "Herodotus",
+      "wikiSlug": "Herodotus",
+      "type": "people"
+    },
+    {
+      "term": "Acerbas",
+      "matchText": "Acerbas",
+      "wikiSlug": "Acerbas",
+      "type": "people"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Strait of Gibraltar",
+      "matchText": "Strait of Gibraltar",
+      "wikiSlug": "Strait_of_Gibraltar",
+      "type": "place"
+    },
+    {
+      "term": "Cape of Good Hope",
+      "matchText": "Cape of Good Hope",
+      "wikiSlug": "Cape_of_Good_Hope",
+      "type": "place"
+    },
+    {
+      "term": "Mount Cameroon",
+      "matchText": "Mount Cameroon",
+      "wikiSlug": "Mount_Cameroon",
+      "type": "place"
+    },
+    {
+      "term": "London",
+      "matchText": "London",
+      "wikiSlug": "London",
+      "type": "place"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Panormus",
+      "matchText": "Panormus",
+      "wikiSlug": "Palermo",
+      "type": "place"
+    },
+    {
+      "term": "Dublin",
+      "matchText": "Dublin",
+      "wikiSlug": "Dublin",
+      "type": "place"
     }
   ],
   "6": [
@@ -886,6 +1398,120 @@
       "matchText": "Athens",
       "wikiSlug": "Athens",
       "type": "place"
+    },
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Sidon",
+      "matchText": "Sidon",
+      "wikiSlug": "Sidon",
+      "type": "place"
+    },
+    {
+      "term": "Byblos",
+      "matchText": "Byblos",
+      "wikiSlug": "Byblos",
+      "type": "place"
+    },
+    {
+      "term": "Nimrud",
+      "matchText": "Nimrud",
+      "wikiSlug": "Nimrud",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "concept"
+    },
+    {
+      "term": "Josephus",
+      "matchText": "Josephus",
+      "wikiSlug": "Josephus",
+      "type": "people"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Judah",
+      "matchText": "Judah",
+      "wikiSlug": "Kingdom_of_Judah",
+      "type": "place"
+    },
+    {
+      "term": "Arabian Peninsula",
+      "matchText": "Arabia",
+      "wikiSlug": "Arabian_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Iranian plateau",
+      "matchText": "Iranian plateau",
+      "wikiSlug": "Iranian_Plateau",
+      "type": "place"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asia",
+      "wikiSlug": "Central_Asia",
+      "type": "place"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Ancient_Greece",
+      "type": "concept"
+    },
+    {
+      "term": "Herodotus",
+      "matchText": "Herodotus",
+      "wikiSlug": "Herodotus",
+      "type": "people"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Macedonia",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "place"
+    },
+    {
+      "term": "Amoashtart",
+      "matchText": "Amoashtart",
+      "wikiSlug": "Amoashtart",
+      "type": "people"
     }
   ],
   "7": [
@@ -1056,6 +1682,83 @@
       "matchText": "Iberian Peninsula",
       "wikiSlug": "Iberian_Peninsula",
       "type": "place"
+    },
+    {
+      "term": "Etruscans",
+      "matchText": "Etruscans",
+      "wikiSlug": "Etruscan_civilization",
+      "type": "people"
+    },
+    {
+      "term": "Phocaea",
+      "matchText": "Phocaea",
+      "wikiSlug": "Phocaea",
+      "type": "place"
+    },
+    {
+      "term": "Sardinia",
+      "matchText": "Sardinia",
+      "wikiSlug": "Sardinia",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Salamis",
+      "matchText": "Salamis",
+      "wikiSlug": "Battle_of_Salamis",
+      "type": "concept"
+    },
+    {
+      "term": "Cap Bon",
+      "matchText": "Cap Bon",
+      "wikiSlug": "Cap_Bon",
+      "type": "place"
+    },
+    {
+      "term": "Medjerda River",
+      "matchText": "Medjerda River",
+      "wikiSlug": "Medjerda_River",
+      "type": "place"
+    },
+    {
+      "term": "Melqart",
+      "matchText": "Melqart",
+      "wikiSlug": "Melqart",
+      "type": "concept"
+    },
+    {
+      "term": "Tyre",
+      "matchText": "Tyre",
+      "wikiSlug": "Tyre,_Lebanon",
+      "type": "place"
+    },
+    {
+      "term": "Phoinikes",
+      "matchText": "Phoinikes",
+      "definition": "The ancient Greek word for the Phoenicians (Phoinikes), probably meaning \"purple people\" after the prized murex-dyed cloth they traded. The Romans took their own name for Carthage and its people, Poeni, from it — which is why the Rome–Carthage conflicts are called the Punic Wars."
+    },
+    {
+      "term": "Latin",
+      "matchText": "into Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Ebro River",
+      "matchText": "Ebro River",
+      "wikiSlug": "Ebro",
+      "type": "place"
+    },
+    {
+      "term": "Saguntum",
+      "matchText": "Saguntum",
+      "wikiSlug": "Saguntum",
+      "type": "place"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Saharan",
+      "wikiSlug": "Sahara",
+      "type": "place"
     }
   ],
   "8": [
@@ -1184,6 +1887,120 @@
       "matchText": "Byrsa",
       "wikiSlug": "Byrsa",
       "type": "place"
+    },
+    {
+      "term": "Melqart",
+      "matchText": "Melqart",
+      "wikiSlug": "Melqart",
+      "type": "concept"
+    },
+    {
+      "term": "Temple of Melqart",
+      "matchText": "Temple of Melqart",
+      "type": "place",
+      "definition": "The chief temple of Tyre, dedicated to the city's patron god Melqart. It was the religious heart of the Tyrian world and the spiritual center of a network of daughter-temples in Phoenician colonies (Carthage's Tophet and the temple at Gades among them). Alexander's stated reason for entering Tyre was to sacrifice here; the Tyrians' refusal to admit him triggered the siege."
+    },
+    {
+      "term": "Heracles",
+      "matchText": "Heracles",
+      "wikiSlug": "Heracles",
+      "type": "people"
+    },
+    {
+      "term": "Arrian",
+      "matchText": "Arrian",
+      "wikiSlug": "Arrian",
+      "type": "people"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic",
+      "wikiSlug": "Aramaic_language",
+      "type": "concept"
+    },
+    {
+      "term": "Nebuchadnezzar II",
+      "matchText": "Nebuchadnezzar",
+      "wikiSlug": "Nebuchadnezzar_II",
+      "type": "people"
+    },
+    {
+      "term": "Roman Senate",
+      "matchText": "Senate",
+      "wikiSlug": "Roman_Senate",
+      "type": "concept"
+    },
+    {
+      "term": "Scipio Africanus",
+      "matchText": "Scipio Africanus",
+      "wikiSlug": "Scipio_Africanus",
+      "type": "people"
+    },
+    {
+      "term": "Cothon",
+      "matchText": "Cothon",
+      "wikiSlug": "Cothon",
+      "type": "concept"
+    },
+    {
+      "term": "Dido",
+      "matchText": "Dido",
+      "wikiSlug": "Dido_(Queen_of_Carthage)",
+      "type": "people"
+    },
+    {
+      "term": "Baal",
+      "matchText": "Baal",
+      "wikiSlug": "Baal",
+      "type": "concept"
+    },
+    {
+      "term": "Jupiter",
+      "matchText": "Jupiter",
+      "wikiSlug": "Jupiter_(god)",
+      "type": "concept"
+    },
+    {
+      "term": "Venus",
+      "matchText": "Venus",
+      "wikiSlug": "Venus_(mythology)",
+      "type": "concept"
+    },
+    {
+      "term": "Palermo",
+      "matchText": "Palermo",
+      "wikiSlug": "Palermo",
+      "type": "place"
+    },
+    {
+      "term": "Málaga",
+      "matchText": "Málaga",
+      "wikiSlug": "Málaga",
+      "type": "place"
+    },
+    {
+      "term": "Polaris",
+      "matchText": "Polaris",
+      "wikiSlug": "Polaris",
+      "type": "concept"
+    },
+    {
+      "term": "Alps",
+      "matchText": "Alps",
+      "wikiSlug": "Alps",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Cannae",
+      "matchText": "Cannae",
+      "wikiSlug": "Battle_of_Cannae",
+      "type": "concept"
+    },
+    {
+      "term": "Hannibal",
+      "matchText": "Hannibal",
+      "wikiSlug": "Hannibal",
+      "type": "people"
     }
   ]
 }

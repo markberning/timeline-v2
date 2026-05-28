@@ -17,6 +17,24 @@
       "targetTl": "maya-civilization",
       "targetChapter": 1,
       "blurb": "Like the earliest Mesoamericans, the Jomon show that monumental, settled, ritual life can precede farming."
+    },
+    {
+      "matchText": "Korean Peninsula",
+      "targetTl": "ancient-korea",
+      "targetChapter": 1,
+      "blurb": "The Korean Peninsula is the doorway through which almost everything later reached Japan — rice, bronze, iron, writing, and eventually Buddhism. During the last Ice Age a land bridge across the shallow southern Korea Strait joined the two; when it drowned, the islands were left close enough to receive Korean influence but far enough to resist Korean conquest. That semi-permeable channel shaped the next fourteen thousand years."
+    },
+    {
+      "matchText": "Indus Valley",
+      "targetTl": "indus-valley",
+      "targetChapter": 1,
+      "blurb": "The Indus Valley civilization would not exist for another eleven thousand years after the first Jomon potters fired their vessels. When the Harappans were eventually building paved cities with a written script, the Jomon were still hunter-gatherers in pit houses with no farming and no writing — two cultures at opposite ends of Asia on completely different schedules."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "When the first Jomon pottery was being fired, the Andes had not yet been settled by the Paleo-Indian foragers who would become the Andean farming peoples. The South American highlands were still empty of the populations that would later raise some of the New World's most spectacular pre-pottery monuments — thousands of years behind the Japanese islands in this respect."
     }
   ],
   "2": [
@@ -43,6 +61,30 @@
       "targetTl": "polynesian-voyagers",
       "targetChapter": 1,
       "blurb": "Jomon maritime foraging is an Austronesian-adjacent island adaptation — the same sea-centered way of life the Pacific voyagers later carried east."
+    },
+    {
+      "matchText": "Akkadian Empire",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "While the Jomon were quietly building Sannai-Maruyama and breaking dogu in healing rituals, Mesopotamia produced the world's first empire: Sargon of Akkad welded the Sumerian city-states into a single conquering realm around 2300 BCE — the same century Sannai-Maruyama was abandoned. The contrast is the whole point of this chapter. One culture invented imperial conquest, standing armies, and tribute; the other invented flame pots and managed chestnut groves, and never felt the need for a king."
+    },
+    {
+      "matchText": "Hammurabi",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "By the time Hammurabi of Babylon issued his famous law code around 1750 BCE, Mesopotamia had been running kings, cities, writing, and codified law for over a thousand years. The Jomon, in the same centuries, had no writing, no code of law, no kings, and no cities — and were about to enter the long Late Jomon contraction. Two ends of Asia keeping completely different kinds of time."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "For most of the long Jomon middle period the Andes were still pre-pottery and pre-agricultural, only slowly developing the early village cultures that would eventually raise the monumental temple complexes of the central Peruvian coast. Like the Jomon, the earliest Andean builders show that settled, monument-building ritual life can begin before farming — but the Andes reached that threshold thousands of years after the Japanese islands did."
+    },
+    {
+      "matchText": "Olmec",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 1,
+      "blurb": "The Olmec — Mesoamerica's 'mother culture,' famous for colossal carved stone heads — would not emerge until around 1500 BCE, just as this chapter's long Jomon middle period was ending. While the Jomon had been making pottery and settling villages for the better part of ten thousand years by then, Mesoamerica was only beginning the village-and-monument trajectory that would lead to the Olmec. Two independent New World and Old World cases of complexity, on wildly different clocks."
     }
   ],
   "3": [
@@ -63,6 +105,48 @@
       "targetTl": "mesopotamia",
       "targetChapter": 4,
       "blurb": "The Oyu and Komakino stone circles of the Late Jomon date to roughly the same period (2000 BCE) as the great monumental construction phases in Mesopotamia (the Third Dynasty of Ur and its ziggurats) and Egypt (the Middle Kingdom and the renewed pyramid-building of the Twelfth Dynasty). All three were investments of community labor in monumental ceremony — but only the Jomon version was being built by hunter-gatherer-fishers without a state, without a king, and without writing."
+    },
+    {
+      "matchText": "Zhou Dynasty",
+      "targetTl": "zhou-dynasty",
+      "targetChapter": 1,
+      "blurb": "While the Late Jomon contracted, the Zhou Dynasty was taking shape in China — the long-lived dynasty that overthrew the Shang around 1046 BCE and presided over the age of Confucius and the Hundred Schools of philosophy. Bronze-casting, walled cities, written script, and a hereditary aristocracy: the continental mainstream the island Jomon were entirely outside of."
+    },
+    {
+      "matchText": "Mycenaean",
+      "targetTl": "mycenaean-civilization",
+      "targetChapter": 1,
+      "blurb": "At the same time as the Late Jomon, Mycenaean Greece was at its palatial height — fortified citadels at Mycenae and Pylos, Linear B accounting tablets, warrior-kings buried in shaft graves with gold masks. It collapsed around 1200 BCE into the Greek Dark Age, a true civilizational crash, while the Jomon merely thinned and persisted."
+    },
+    {
+      "matchText": "Phoenician",
+      "targetTl": "phoenicia",
+      "targetChapter": 1,
+      "blurb": "As the Final Jomon ran down, the Phoenician city-states of the Levantine coast were building the first great maritime trading network of the Mediterranean — spreading the alphabet, purple dye, and colonies as far as Spain. A seafaring people knitting together a whole sea, contemporary with a seafaring Jomon culture that had quietly turned inward."
+    },
+    {
+      "matchText": "Assyrian Empire",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "The Assyrian Empire was rising in northern Mesopotamia during the Final Jomon — the first true military superstate of the ancient Near East, ruling through siege warfare, mass deportation, and a standing army. The contrast with the kingless, egalitarian Jomon breaking figurines in healing rituals could hardly be sharper."
+    },
+    {
+      "matchText": "Olmec",
+      "targetTl": "olmec-civilization",
+      "targetChapter": 1,
+      "blurb": "On the other side of the Pacific, the Olmec civilization was emerging on the Gulf coast of Mexico around 1200 BCE — colossal basalt heads, the first Mesoamerican cities, and the cultural template later inherited by the Maya and Aztec. A founding civilization taking shape exactly as the Jomon way of life was winding down."
+    },
+    {
+      "matchText": "Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 4,
+      "blurb": "In South America, the first complex societies of the Andes were forming during the Late Jomon — monumental ceremonial centers like Chavín de Huántar, built by societies that, like the Jomon stone-circle builders, were investing communal labor in religious architecture before they had states or writing."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "The entire span of the Roman Empire — from the legendary founding by Romulus to the fall of Constantinople in 1453 — fits inside the Jomon period roughly four times over. Rome rose, ruled the Mediterranean world, and fell in less time than the Jomon spent making variations of the same pots."
     }
   ],
   "4": [
@@ -95,6 +179,24 @@
       "targetTl": "han-dynasty",
       "targetChapter": 1,
       "blurb": "Yayoi Japan entered history as a Han tributary periphery — the 'land of Wa' in Chinese records, on the far edge of the Han world."
+    },
+    {
+      "matchText": "Qin Dynasty",
+      "targetTl": "qin-dynasty",
+      "targetChapter": 1,
+      "blurb": "While the Yayoi villages of western Japan were consolidating into petty chiefdoms, China was being violently unified for the first time. The Qin Dynasty conquered the Warring States and forged the first centralized Chinese empire in 221 BCE — standardizing script, weights, and roads, and building the first version of the Great Wall. Japan was a thousand miles downstream of this transformation, receiving its metal and its rice through Korean intermediaries while the Chinese mainland built the machinery of empire."
+    },
+    {
+      "matchText": "Roman Republic",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "At the same moment the Yayoi transformation was compressing Japan's foraging-to-farming-to-warfare transition into a few centuries, the early Roman Republic was expanding across the Italian peninsula and into the wider Mediterranean. The chapter draws the comparison directly: Roman grain agriculture would later reorganize Iron Age Gaul and Britain the same way Korean wet-rice reorganized Jomon Japan — a more productive farming system imported from a more developed neighbor, restructuring everything beneath it."
+    },
+    {
+      "matchText": "Carthage",
+      "targetTl": "carthage",
+      "targetChapter": 1,
+      "blurb": "The Yayoi centuries overlap with the rise of Carthage as the dominant Mediterranean trading power — the Phoenician-founded city whose commercial empire would soon collide with Rome in the Punic Wars. Two opposite ends of Eurasia, mutually invisible: a North African merchant republic running the western seas while a chain of rice-farming chiefdoms took shape on the far Pacific rim of Asia."
     }
   ],
   "5": [
@@ -147,6 +249,30 @@
       "targetTl": "six-dynasties",
       "targetChapter": 1,
       "blurb": "Himiko sent embassies to the Wei court — Yamatai plugged into the Chinese Three Kingdoms diplomatic world."
+    },
+    {
+      "matchText": "Goguryeo",
+      "targetTl": "ancient-korea",
+      "targetChapter": 4,
+      "blurb": "Goguryeo, Baekje, and Silla were the three Korean kingdoms consolidating into territorial states in exactly the period Himiko's envoys were traveling through the peninsula to reach the Wei court. The same third-century wave of political consolidation that produced Yamatai in Japan was building the Three Kingdoms next door in Korea."
+    },
+    {
+      "matchText": "Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 4,
+      "blurb": "Silla was the slow-rising southeastern member of Korea's Three Kingdoms, forming alongside Goguryeo and Baekje in the centuries around Himiko's reign. Korea and Japan were undergoing parallel state formation, with the Korean peninsula serving as the conduit through which Yamatai's envoys reached China."
+    },
+    {
+      "matchText": "Sasanian",
+      "targetTl": "persian-empire",
+      "targetChapter": 9,
+      "blurb": "While Himiko ruled Yamatai in third-century Japan, Iran was transitioning from the late Parthian period to the new Sasanian Empire, which seized power in 224 CE and would become Rome's great eastern rival. Both edges of Eurasia were watching old powers give way to consolidating successor states in the same generation."
+    },
+    {
+      "matchText": "Moche",
+      "targetTl": "andean-kingdoms",
+      "targetChapter": 4,
+      "blurb": "On the north coast of Peru, the Moche state was forming at the same time Himiko was sending tribute to the Wei court — a divine-authority polity building monumental adobe pyramids, an independent parallel to the sacralized rulership emerging in third-century Japan. Neither civilization knew the other existed."
     }
   ],
   "7": [
@@ -179,6 +305,54 @@
       "targetTl": "ancient-korea",
       "targetChapter": 5,
       "blurb": "Kofun elite culture was saturated with peninsular imports — horse gear, ironwork, and craftsmen from the Korean kingdoms."
+    },
+    {
+      "matchText": "Maya",
+      "targetTl": "maya-civilization",
+      "targetChapter": 3,
+      "blurb": "While the Yamato chiefs raised the great keyhole tombs, the Maya of southern Mexico and Guatemala were building towering pyramid-temples at cities like Tikal and Calakmul during their Classic period. Both societies used monumental architecture to broadcast the power and divine status of a ruling family — but the Maya carved their kings' names and dates onto stone stelae, while the Yamato, who had no writing, left their rulers anonymous."
+    },
+    {
+      "matchText": "Western Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "As Yamato Japan was consolidating, the Western Roman Empire was collapsing at the other end of Eurasia, its traditional 'fall' dated to 476 CE — near the end of the Kofun period. Japan was building toward statehood at the same moment Rome's western half was dissolving into successor kingdoms."
+    },
+    {
+      "matchText": "Sasanian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 10,
+      "blurb": "In Iran, the Sasanian Empire was at its height during the Kofun period — a centralized, literate, coin-minting imperial state of exactly the kind the clan-federal Yamato court was not. The contrast measures how far from the Eurasian mainstream Japan's stateless, writing-free political system still was in 500 CE."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 1,
+      "blurb": "Northern India was enjoying the Gupta golden age during the Kofun period — a flourishing of mathematics, literature, and art under a classical imperial dynasty. Across the same centuries, Japan was producing monumental tombs but no written literature at all, a reminder of how unevenly the technologies of statehood were distributed across the ancient world."
+    },
+    {
+      "matchText": "Kingdom of Kush",
+      "targetTl": "kingdom-of-kush",
+      "targetChapter": 5,
+      "blurb": "On the upper Nile, the Kingdom of Kush was in its later Meroitic phase during the Kofun period, an African monarchy with its own script and pyramids that would soon be eclipsed by the rising power of Aksum. Like Yamato Japan, it was a monumental-building state on the periphery of a larger literate world."
+    },
+    {
+      "matchText": "Aksum",
+      "targetTl": "kingdom-of-aksum",
+      "targetChapter": 1,
+      "blurb": "The Kingdom of Aksum, in the Ethiopian highlands, was rising to dominate the Red Sea trade during the Kofun period and would shortly absorb the declining Kingdom of Kush. It was one of several consolidating territorial states that, like Yamato Japan, were taking shape across Eurasia and Africa in these centuries."
+    },
+    {
+      "matchText": "Silla",
+      "targetTl": "ancient-korea",
+      "targetChapter": 6,
+      "blurb": "Silla was one of Korea's Three Kingdoms during the Kofun period and Baekje's rival — and therefore Yamato Japan's enemy, since Yamato's alliance ran through Baekje. Korean dynastic politics reached directly into Japanese affairs, including backing for rebellions on the Japanese islands."
+    },
+    {
+      "matchText": "Goguryeo",
+      "targetTl": "ancient-korea",
+      "targetChapter": 5,
+      "blurb": "Goguryeo was the largest and most militarily powerful of Korea's Three Kingdoms during the Kofun period, pressing down on Baekje from the north. Its pressure on Yamato's ally Baekje helped drive the technology and refugees that flowed across the strait into Japan."
     }
   ],
   "8": [
@@ -205,6 +379,42 @@
       "targetTl": "ancient-korea",
       "targetChapter": 6,
       "blurb": "On the threshold of history, Buddhism arrives (traditionally 538) via Baekje — Korea handing Japan the religion that would define its classical age."
+    },
+    {
+      "matchText": "Nara state",
+      "targetTl": "asuka-nara-japan",
+      "targetChapter": 1,
+      "blurb": "The capital city of Nara, founded in 710, gives its name to the era when the new Chinese-style Japanese state matured — a permanent capital, a written legal code, a state-sponsored Buddhist clergy, and the great temples whose timber halls still stand. It is the destination of the institutional transformation that the 538 Buddha statue set in motion."
+    },
+    {
+      "matchText": "Heian court",
+      "targetTl": "heian-japan",
+      "targetChapter": 1,
+      "blurb": "The Heian period (794–1185), centered on the new capital at Heian-kyo (modern Kyoto), is the classical golden age of Japanese court culture — Fujiwara regents, The Tale of Genji, and a refined aristocratic world that grew directly out of the Buddhist, Chinese-style state founded in the centuries after 538."
+    },
+    {
+      "matchText": "Tokugawa peace",
+      "targetTl": "edo-japan",
+      "targetChapter": 1,
+      "blurb": "The Tokugawa shogunate (1603–1868) ruled a closed, peaceful Japan from Edo (modern Tokyo) for over 250 years — the long late-feudal stability that, like every later transformation, was built on the prehistoric substrate of pots, rice, and tombs this book has described."
+    },
+    {
+      "matchText": "Meiji Restoration",
+      "targetTl": "meiji-japan",
+      "targetChapter": 1,
+      "blurb": "The Meiji Restoration of 1868 ended the shogunate and launched Japan's headlong drive to industrialize and modernize on Western lines — the most recent of the great transformations layered over the deep Jomon-Yayoi-Kofun foundation that this book describes."
+    },
+    {
+      "matchText": "Belisarius",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 4,
+      "blurb": "While Buddhism was arriving in Japan, the Byzantine emperor Justinian's general Belisarius was reconquering the western Mediterranean — including the campaign that destroyed the Vandal kingdom in North Africa. The cross-civ snapshot for 538 CE places Japan's threshold moment alongside the high tide of Justinian's attempt to restore the Roman world."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "gupta-empire",
+      "targetChapter": 4,
+      "blurb": "In 538 CE, India's classical Gupta Empire was in its late phase, its golden age of art, mathematics, and Sanskrit literature winding down under pressure from Hunnic invasions. It is one of the contemporary great civilizations the book sets beside Japan's entry into the literate, Buddhist medieval world."
     }
   ]
 }
