@@ -422,3 +422,7 @@ This is an exceptionally well-written narrative. Six of eight chapters grade STR
 27. `[SOFT]` **"it cost more to move rice 310 miles or 500 km by cart than to grow it"** — This ratio is commonly cited in Chinese economic history but the specific "310 miles" figure may be a modern back-calculation rather than a figure from a historical source. The general principle (overland transport was ruinously expensive) is well-established.
 
 **Total findings: 2 STRONG, 21 CHECK, 4 SOFT**
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from six-dynasties outward. Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.

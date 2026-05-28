@@ -1,0 +1,773 @@
+# LINK-COVERAGE-NEEDED — six-dynasties
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Daoist   ⟨dict,recur×4⟩  → glossary
+    Yellow River   ⟨dict⟩  → cross-link
+    Huang Gai   ⟨bold⟩  → event/glossary
+    Roman Empire   ⟨dict⟩  → cross-link
+    Crisis of the Third Century   ⟨dict⟩  → cross-link
+    Silk Road   ⟨dict⟩  → cross-link
+    Memorial   ⟨dict,dict-lc⟩  → glossary
+    Tang   ⟨dict⟩  → cross-link
+    Zhong Rong   ⟨dict,bold⟩  → event
+    Shipin   ⟨dict⟩  → glossary
+    Henan   ⟨dict⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Six Dynasties   ⟨dict⟩  → cross-link
+    Zhuang Zhou   ⟨dict⟩  → glossary
+    Daoism   ⟨dict⟩  → glossary
+    Chen Shou   ⟨bold⟩  → event/glossary
+  * Vietnamese   ⟨dict⟩  → glossary
+    Jin   ⟨bold⟩  → event/glossary
+  ~ Chinese   ⟨recur×12⟩  (advisory)
+  ~ TSOW TSOW   ⟨⟩  (advisory)
+  ~ LYOH BAY   ⟨⟩  (advisory)
+  ~ SOON   ⟨⟩  (advisory)
+  ~ China   ⟨dict,recur×7⟩  (advisory)
+  ~ YWAHN SHOW   ⟨⟩  (advisory)
+  ~ Chancellor of the Han   ⟨⟩  (advisory)
+  ~ Short Song   ⟨⟩  (advisory)
+  ~ Life   ⟨⟩  (advisory)
+  ~ Days   ⟨⟩  (advisory)
+  ~ Chibi   ⟨⟩  (advisory)
+  ~ JOH YOO   ⟨⟩  (advisory)
+  ~ HWAHNG GUY   ⟨⟩  (advisory)
+  ~ TSOW PEE   ⟨⟩  (advisory)
+  ~ SHOO HAHN   ⟨⟩  (advisory)
+  ~ AHNG   ⟨⟩  (advisory)
+  ~ Thatched Cottage   ⟨⟩  (advisory)
+  ~ GWAHN YOO   ⟨⟩  (advisory)
+  ~ Departing   ⟨⟩  (advisory)
+  ~ Campaign   ⟨⟩  (advisory)
+  ~ TSOW JUH   ⟨⟩  (advisory)
+  ~ Seven-Step Poem   ⟨⟩  (advisory)
+  ~ JONG RONG   ⟨⟩  (advisory)
+  ~ Gradations of Poets   ⟨⟩  (advisory)
+  ~ Zhulin Qixian   ⟨⟩  (advisory)
+  ~ Shanyang   ⟨⟩  (advisory)
+  ~ Liu Yiqing   ⟨⟩  (advisory)
+  ~ LYOH LING   ⟨⟩  (advisory)
+  ~ RWAHN JEE   ⟨⟩  (advisory)
+  ~ SHEE KAHNG   ⟨⟩  (advisory)
+  ~ Guangling Recollection   ⟨⟩  (advisory)
+  ~ Neo-Daoism   ⟨⟩  (advisory)
+  ~ GWOH   ⟨⟩  (advisory)
+  ~ Sanguozhi   ⟨⟩  (advisory)
+  ~ CHEN SHOW   ⟨⟩  (advisory)
+  ~ Shou   ⟨⟩  (advisory)
+  ~ Sanguozhi Yanyi   ⟨⟩  (advisory)
+  ~ East Asian   ⟨⟩  (advisory)
+  ~ Japanese   ⟨⟩  (advisory)
+  ~ Korean   ⟨dict⟩  (advisory)
+  ~ JIHN   ⟨⟩  (advisory)
+  ~ eunuch   ⟨dict-lc⟩  (advisory)
+  ~ factions   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ puppet   ⟨dict-lc⟩  (advisory)
+  ~ warlords   ⟨dict-lc⟩  (advisory)
+  ~ delta   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ abdication   ⟨dict-lc⟩  (advisory)
+  ~ first emperor   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ earth   ⟨dict-lc⟩  (advisory)
+  ~ the wise   ⟨dict-lc⟩  (advisory)
+  ~ talent   ⟨dict-lc⟩  (advisory)
+  ~ northern expedition   ⟨dict-lc⟩  (advisory)
+  ~ emergency   ⟨dict-lc⟩  (advisory)
+  ~ his brother   ⟨dict-lc⟩  (advisory)
+  ~ beans   ⟨dict-lc⟩  (advisory)
+  ~ focus   ⟨dict-lc⟩  (advisory)
+  ~ siege   ⟨dict-lc⟩  (advisory)
+  ~ "Memorial on Departing for Campaign"   ⟨bold⟩  (advisory)
+  ~ termites   ⟨rare⟩  (advisory)
+  ~ devour   ⟨rare⟩  (advisory)
+  ~ heartwood   ⟨rare⟩  (advisory)
+  ~ parasites   ⟨rare⟩  (advisory)
+  ~ headbands   ⟨rare⟩  (advisory)
+  ~ magnates   ⟨rare⟩  (advisory)
+  ~ contemplates   ⟨rare⟩  (advisory)
+  ~ sensitivity   ⟨rare⟩  (advisory)
+  ~ cunning   ⟨rare⟩  (advisory)
+  ~ categorize   ⟨rare⟩  (advisory)
+  ~ storytellers   ⟨rare⟩  (advisory)
+  ~ chaining   ⟨rare⟩  (advisory)
+  ~ seasickness   ⟨rare⟩  (advisory)
+  ~ igniting   ⟨rare⟩  (advisory)
+  ~ determining   ⟨rare⟩  (advisory)
+  ~ transferring   ⟨rare⟩  (advisory)
+  ~ proclamations   ⟨rare⟩  (advisory)
+  ~ tripartite   ⟨rare⟩  (advisory)
+  ~ unaware   ⟨rare⟩  (advisory)
+  ~ cottage   ⟨rare⟩  (advisory)
+  ~ humbles   ⟨rare⟩  (advisory)
+  ~ seclusion   ⟨rare⟩  (advisory)
+  ~ outlined   ⟨rare⟩  (advisory)
+  ~ faithfully   ⟨rare⟩  (advisory)
+  ~ nightmares   ⟨rare⟩  (advisory)
+  ~ wheelbarrow   ⟨rare⟩  (advisory)
+  ~ cowardly   ⟨rare⟩  (advisory)
+  ~ perish   ⟨rare⟩  (advisory)
+  ~ beanstalks   ⟨rare⟩  (advisory)
+  ~ fraternal   ⟨rare⟩  (advisory)
+  ~ eccentricity   ⟨rare⟩  (advisory)
+  ~ complicit   ⟨rare⟩  (advisory)
+  ~ interpretable   ⟨rare⟩  (advisory)
+  ~ spontaneity   ⟨rare⟩  (advisory)
+  ~ eccentricities   ⟨rare⟩  (advisory)
+  ~ shovel   ⟨rare⟩  (advisory)
+  ~ greeted   ⟨rare⟩  (advisory)
+  ~ calmly   ⟨rare⟩  (advisory)
+  ~ trousers   ⟨rare⟩  (advisory)
+  ~ stupor   ⟨rare⟩  (advisory)
+  ~ unconscious   ⟨rare⟩  (advisory)
+  ~ metalworker   ⟨rare⟩  (advisory)
+  ~ petitioned   ⟨rare⟩  (advisory)
+  ~ archetype   ⟨rare⟩  (advisory)
+  ~ martyred   ⟨rare⟩  (advisory)
+  ~ parables   ⟨rare⟩  (advisory)
+  ~ natures   ⟨rare⟩  (advisory)
+  ~ guiding   ⟨rare⟩  (advisory)
+  ~ scheming   ⟨rare⟩  (advisory)
+  ~ paragon   ⟨rare⟩  (advisory)
+  ~ underdog   ⟨rare⟩  (advisory)
+  ~ invents   ⟨rare⟩  (advisory)
+  ~ overwrite   ⟨rare⟩  (advisory)
+  ~ reunifying   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Emperor Wu   ⟨dict⟩  → glossary
+    Central Asia   ⟨dict⟩  → glossary
+    Arabic   ⟨dict⟩  → glossary
+  * Chinese-style   ⟨dict⟩  → glossary
+    Western Jin   ⟨dict⟩  → glossary
+    Emperor Min   ⟨bold⟩  → event/glossary
+    Visigoths   ⟨dict⟩  → event
+  ~ Emperor Wu of Jin   ⟨bold⟩  (advisory)
+  ~ Chinese   ⟨recur×16⟩  (advisory)
+  ~ Wu of Jin   ⟨⟩  (advisory)
+  ~ HWAY   ⟨⟩  (advisory)
+  ~ China   ⟨dict,recur×4⟩  (advisory)
+  ~ Wu Hu   ⟨⟩  (advisory)
+  ~ WOO HOO   ⟨⟩  (advisory)
+  ~ Mongolian-speaking   ⟨⟩  (advisory)
+  ~ Tibeto-Burman   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ AHNG   ⟨⟩  (advisory)
+  ~ LYOH   ⟨⟩  (advisory)
+  ~ LYOH TSONG   ⟨⟩  (advisory)
+  ~ HWHY   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ feudal   ⟨dict-lc⟩  (advisory)
+  ~ civil war.   ⟨dict-lc⟩  (advisory)
+  ~ phases   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ chieftain   ⟨dict-lc⟩  (advisory)
+  ~ sack of Rome   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ fiefdoms   ⟨rare⟩  (advisory)
+  ~ reversing   ⟨rare⟩  (advisory)
+  ~ ruthlessly   ⟨rare⟩  (advisory)
+  ~ indulged   ⟨rare⟩  (advisory)
+  ~ entertainments   ⟨rare⟩  (advisory)
+  ~ candles   ⟨rare⟩  (advisory)
+  ~ porridge   ⟨rare⟩  (advisory)
+  ~ incompetence   ⟨rare⟩  (advisory)
+  ~ supplement   ⟨rare⟩  (advisory)
+  ~ kaleidoscope   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Sixteen Kingdoms   ⟨dict,recur×3⟩  → cross-link
+    Liu Yuan   ⟨dict⟩  → event
+    Yellow River   ⟨dict⟩  → cross-link
+    Qiang   ⟨dict⟩  → glossary
+    Chang'an   ⟨dict⟩  → cross-link
+    Silk Road   ⟨dict⟩  → cross-link
+  * Central Asian   ⟨dict⟩  → glossary
+    Han Chinese   ⟨dict⟩  → cross-link
+    Eastern Jin   ⟨dict,recur×3⟩  → event
+    Yangtze   ⟨dict⟩  → glossary
+    Xie Lingyun   ⟨dict,bold⟩  → event
+  * Chinese-style   ⟨dict⟩  → glossary
+    Western Jin   ⟨dict⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Six Dynasties   ⟨dict⟩  → cross-link
+    Han-Zhao   ⟨bold⟩  → event/glossary
+  ~ Northern China   ⟨⟩  (advisory)
+  ~ Chinese   ⟨recur×15⟩  (advisory)
+  ~ Yuan's Han-Zhao   ⟨⟩  (advisory)
+  ~ SHUH LUH   ⟨⟩  (advisory)
+  ~ JOWL   ⟨⟩  (advisory)
+  ~ China   ⟨dict,recur×6⟩  (advisory)
+  ~ SHUH HOO   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict⟩  (advisory)
+  ~ CHIN   ⟨⟩  (advisory)
+  ~ Di-ethnic   ⟨⟩  (advisory)
+  ~ WAHNG MUNG   ⟨⟩  (advisory)
+  ~ Mongolian-speaking   ⟨⟩  (advisory)
+  ~ East Asia   ⟨⟩  (advisory)
+  ~ dharma   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ slavery   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ vanguard   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ eastern   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ collapse.   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ turnover   ⟨rare⟩  (advisory)
+  ~ adaptive   ⟨rare⟩  (advisory)
+  ~ risked   ⟨rare⟩  (advisory)
+  ~ miscommunication   ⟨rare⟩  (advisory)
+  ~ overwhelm   ⟨rare⟩  (advisory)
+  ~ shouted   ⟨rare⟩  (advisory)
+  ~ pullback   ⟨rare⟩  (advisory)
+  ~ multinational   ⟨rare⟩  (advisory)
+  ~ cranes   ⟨rare⟩  (advisory)
+  ~ calmly   ⟨rare⟩  (advisory)
+  ~ emotion   ⟨rare⟩  (advisory)
+  ~ composure   ⟨rare⟩  (advisory)
+  ~ attitudes   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Luoyang   ⟨dict⟩  → event
+    Chang'an   ⟨dict⟩  → cross-link
+    Xies   ⟨bold⟩  → event/glossary
+    Huans   ⟨bold⟩  → event/glossary
+    Eastern Jin   ⟨dict,bold,recur×8⟩  → event
+    Jiankang   ⟨dict,pron,bold⟩  → glossary
+    Nanjing   ⟨dict⟩  → glossary
+    Yangtze River   ⟨dict⟩  → glossary
+    Yangtze   ⟨dict,recur×3⟩  → glossary
+    Yellow River   ⟨dict⟩  → cross-link
+    Southeast Asia   ⟨dict⟩  → glossary
+    Persian Gulf   ⟨dict⟩  → cross-link
+    Tang   ⟨dict⟩  → cross-link
+    Xie Xuan   ⟨dict⟩  → glossary
+    Battle of Fei River   ⟨dict⟩  → event
+    Du Fu   ⟨dict⟩  → event
+    Li Bai   ⟨dict⟩  → event
+    Zang Shu   ⟨gloss⟩  → glossary
+    Liu Bang   ⟨dict⟩  → event
+    Yue   ⟨pron,bold⟩  → event/glossary
+    Yus   ⟨bold⟩  → event/glossary
+    Wang family   ⟨bold⟩  → event/glossary
+  ~ Chinese   ⟨recur×16⟩  (advisory)
+  ~ WAHNG DOW   ⟨⟩  (advisory)
+  ~ WAHNG DWIN   ⟨⟩  (advisory)
+  ~ Emperor Yuan of Jin   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Celsius   ⟨⟩  (advisory)
+  ~ Western   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Tang-era   ⟨⟩  (advisory)
+  ~ Han-era   ⟨⟩  (advisory)
+  ~ Lanting   ⟨⟩  (advisory)
+  ~ Lantingji Xu   ⟨⟩  (advisory)
+  ~ Nymph of the Luo River   ⟨bold⟩  (advisory)
+  ~ Five   ⟨⟩  (advisory)
+  ~ GWOH POO   ⟨⟩  (advisory)
+  ~ Book of Burial   ⟨⟩  (advisory)
+  ~ Korea   ⟨dict⟩  (advisory)
+  ~ Japan   ⟨dict⟩  (advisory)
+  ~ Vietnam   ⟨dict⟩  (advisory)
+  ~ LYOH YOO   ⟨⟩  (advisory)
+  ~ largest voluntary   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ demographic   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ oracle bone inscriptions   ⟨dict-lc⟩  (advisory)
+  ~ portraits   ⟨dict-lc⟩  (advisory)
+  ~ rhapsodies   ⟨dict-lc,rare⟩  (advisory)
+  ~ baroque   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ landscape poetry   ⟨dict-lc,bold⟩  (advisory)
+  ~ last Jin emperor   ⟨dict-lc⟩  (advisory)
+  ~ destabilize   ⟨rare⟩  (advisory)
+  ~ glazing   ⟨rare⟩  (advisory)
+  ~ stoneware   ⟨rare⟩  (advisory)
+  ~ glazes   ⟨rare⟩  (advisory)
+  ~ synonymous   ⟨rare⟩  (advisory)
+  ~ educations   ⟨rare⟩  (advisory)
+  ~ careerism   ⟨rare⟩  (advisory)
+  ~ pursuits   ⟨rare⟩  (advisory)
+  ~ calligrapher   ⟨rare⟩  (advisory)
+  ~ handwriting   ⟨rare⟩  (advisory)
+  ~ xingshu   ⟨rare⟩  (advisory)
+  ~ impossibility   ⟨rare⟩  (advisory)
+  ~ recopy   ⟨rare⟩  (advisory)
+  ~ unselfconscious   ⟨rare⟩  (advisory)
+  ~ recreated   ⟨rare⟩  (advisory)
+  ~ persimmons   ⟨rare⟩  (advisory)
+  ~ resonance   ⟨rare⟩  (advisory)
+  ~ vitality   ⟨rare⟩  (advisory)
+  ~ inspector   ⟨rare⟩  (advisory)
+  ~ bushels   ⟨rare⟩  (advisory)
+  ~ allusions   ⟨rare⟩  (advisory)
+  ~ cottage   ⟨rare⟩  (advisory)
+  ~ haunts   ⟨rare⟩  (advisory)
+  ~ clatter   ⟨rare⟩  (advisory)
+  ~ coaches   ⟨rare⟩  (advisory)
+  ~ conversational   ⟨rare⟩  (advisory)
+  ~ chrysanthemum   ⟨rare⟩  (advisory)
+  ~ blooming   ⟨rare⟩  (advisory)
+  ~ fisherman   ⟨rare⟩  (advisory)
+  ~ discovers   ⟨rare⟩  (advisory)
+  ~ unaware   ⟨rare⟩  (advisory)
+  ~ glimpsed   ⟨rare⟩  (advisory)
+  ~ shanshui   ⟨rare⟩  (advisory)
+  ~ siting   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Luoyang   ⟨dict⟩  → event
+    Central Asia   ⟨dict,recur×3⟩  → glossary
+  * Central Asian   ⟨dict⟩  → glossary
+    Confucian   ⟨dict,recur×4⟩  → cross-link
+    Yellow Turban Rebellion   ⟨dict⟩  → glossary
+    Confucianism   ⟨dict⟩  → glossary
+    Daoism   ⟨dict⟩  → glossary
+    Indo-European   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Daoist   ⟨dict,recur×5⟩  → glossary
+    Silk Road   ⟨dict⟩  → cross-link
+    Chang'an   ⟨dict⟩  → cross-link
+    Tiantai   ⟨dict⟩  → glossary
+    Huayan   ⟨dict⟩  → glossary
+    Ganges   ⟨dict⟩  → glossary
+    Sri Lanka   ⟨dict⟩  → glossary
+    Lumbini   ⟨dict⟩  → event
+    Bodh Gaya   ⟨dict⟩  → glossary
+    Sarnath   ⟨dict⟩  → event
+    Kushinagar   ⟨dict⟩  → glossary
+    Southeast Asia   ⟨dict⟩  → glossary
+    Xuanzang   ⟨dict,pron,bold⟩  → cross-link
+  * Journey   ⟨dict,dict-lc⟩  → glossary
+    Gupta Empire   ⟨dict,bold⟩  → cross-link
+    Gupta   ⟨dict⟩  → cross-link
+    Six Dynasties   ⟨dict,recur×3⟩  → cross-link
+    Shaolin Monastery   ⟨dict,bold⟩  → event
+    Paramartha   ⟨dict,bold⟩  → event
+    Jiankang   ⟨dict⟩  → glossary
+    Lushan   ⟨dict⟩  → event
+    Seon   ⟨dict⟩  → glossary
+  * Vietnamese   ⟨dict⟩  → glossary
+    Emperor Wu of Liang   ⟨dict,bold⟩  → event
+    Yangtze   ⟨dict⟩  → glossary
+    Mount Song   ⟨dict⟩  → glossary
+    Zhouhou Beiji Fang   ⟨gloss⟩  → glossary
+    Tao Yuanming   ⟨dict⟩  → event
+    dhyana   ⟨gloss,dict-lc,rare⟩  → glossary
+    Buddhabhadra   ⟨bold⟩  → event/glossary
+  ~ China   ⟨dict,recur×12⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×18⟩  (advisory)
+  ~ Chinese   ⟨recur×26⟩  (advisory)
+  ~ India   ⟨recur×7⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Sino-Tibetan   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Chinese Buddhist   ⟨recur×4⟩  (advisory)
+  ~ Indian   ⟨recur×8⟩  (advisory)
+  ~ Kuchan   ⟨⟩  (advisory)
+  ~ East Asian Buddhism   ⟨⟩  (advisory)
+  ~ Japanese   ⟨⟩  (advisory)
+  ~ Korean   ⟨dict⟩  (advisory)
+  ~ Vietnamese Buddhist   ⟨⟩  (advisory)
+  ~ Nichiren Buddhist   ⟨⟩  (advisory)
+  ~ Chinese Buddhism   ⟨⟩  (advisory)
+  ~ Record of Buddhist Kingdoms   ⟨⟩  (advisory)
+  ~ Tang-dynasty   ⟨⟩  (advisory)
+  ~ West   ⟨⟩  (advisory)
+  ~ Emperor Xiaowen of Northern Wei   ⟨⟩  (advisory)
+  ~ Mind-Only   ⟨⟩  (advisory)
+  ~ South Asian   ⟨⟩  (advisory)
+  ~ Donglin Temple   ⟨⟩  (advisory)
+  ~ Buddha of Infinite Light   ⟨⟩  (advisory)
+  ~ Western Paradise   ⟨⟩  (advisory)
+  ~ Namo Amituofo   ⟨⟩  (advisory)
+  ~ Homage   ⟨⟩  (advisory)
+  ~ Japan   ⟨dict⟩  (advisory)
+  ~ Korea   ⟨dict⟩  (advisory)
+  ~ Vietnam   ⟨dict⟩  (advisory)
+  ~ Kings   ⟨⟩  (advisory)
+  ~ CHAHN   ⟨⟩  (advisory)
+  ~ Thien   ⟨⟩  (advisory)
+  ~ None   ⟨⟩  (advisory)
+  ~ Empty   ⟨⟩  (advisory)
+  ~ China's Five Sacred Mountains   ⟨⟩  (advisory)
+  ~ GUH HONG   ⟨⟩  (advisory)
+  ~ Tang-era   ⟨⟩  (advisory)
+  ~ Emergency Prescriptions   ⟨⟩  (advisory)
+  ~ Artemisia   ⟨⟩  (advisory)
+  ~ Nobel Prize   ⟨⟩  (advisory)
+  ~ Medicine   ⟨⟩  (advisory)
+  ~ Highest Clarity   ⟨⟩  (advisory)
+  ~ Wu of Liang   ⟨⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ monasteries   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ shunyata   ⟨dict-lc,rare⟩  (advisory)
+  ~ the enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ killed him   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ golden age   ⟨dict-lc⟩  (advisory)
+  ~ positional notation   ⟨dict-lc⟩  (advisory)
+  ~ thirty years.   ⟨dict-lc⟩  (advisory)
+  ~ enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ crossed the Yangtze   ⟨dict-lc⟩  (advisory)
+  ~ alchemy   ⟨dict-lc,rare⟩  (advisory)
+  ~ arsenic   ⟨dict-lc,rare⟩  (advisory)
+  ~ charcoal   ⟨dict-lc⟩  (advisory)
+  ~ smallpox   ⟨dict-lc⟩  (advisory)
+  ~ scripture   ⟨dict-lc⟩  (advisory)
+  ~ painting   ⟨dict-lc⟩  (advisory)
+  ~ Later Qin   ⟨bold⟩  (advisory)
+  ~ "Why Buddhist Monks Do Not Bow to Kings"   ⟨bold⟩  (advisory)
+  ~ commemorates   ⟨rare⟩  (advisory)
+  ~ grammars   ⟨rare⟩  (advisory)
+  ~ vocabularies   ⟨rare⟩  (advisory)
+  ~ equated   ⟨rare⟩  (advisory)
+  ~ layman   ⟨rare⟩  (advisory)
+  ~ unappealing   ⟨rare⟩  (advisory)
+  ~ clumsy   ⟨rare⟩  (advisory)
+  ~ coining   ⟨rare⟩  (advisory)
+  ~ ordination   ⟨rare⟩  (advisory)
+  ~ canonically   ⟨rare⟩  (advisory)
+  ~ immortalized   ⟨rare⟩  (advisory)
+  ~ presides   ⟨rare⟩  (advisory)
+  ~ degenerate   ⟨rare⟩  (advisory)
+  ~ renouncing   ⟨rare⟩  (advisory)
+  ~ accessibility   ⟨rare⟩  (advisory)
+  ~ prostration   ⟨rare⟩  (advisory)
+  ~ meditating   ⟨rare⟩  (advisory)
+  ~ alchemical   ⟨rare⟩  (advisory)
+  ~ minerals   ⟨rare⟩  (advisory)
+  ~ elixirs   ⟨rare⟩  (advisory)
+  ~ mixtures   ⟨rare⟩  (advisory)
+  ~ realgar   ⟨rare⟩  (advisory)
+  ~ sulfide   ⟨rare⟩  (advisory)
+  ~ saltpeter   ⟨rare⟩  (advisory)
+  ~ substances   ⟨rare⟩  (advisory)
+  ~ experimenters   ⟨rare⟩  (advisory)
+  ~ wormwood   ⟨rare⟩  (advisory)
+  ~ antimalarial   ⟨rare⟩  (advisory)
+  ~ pharmacological   ⟨rare⟩  (advisory)
+  ~ revelations   ⟨rare⟩  (advisory)
+  ~ pharmacopeia   ⟨rare⟩  (advisory)
+  ~ grazing   ⟨rare⟩  (advisory)
+  ~ meadow   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Northern Wei   ⟨dict,bold,recur×11⟩  → cross-link
+    Sinicization   ⟨dict,recur×4⟩  → glossary
+    Tuoba   ⟨dict,recur×3⟩  → glossary
+    Great Wall   ⟨dict⟩  → event
+    Xianbei   ⟨dict,recur×6⟩  → glossary
+    Buddhism   ⟨dict⟩  → cross-link
+  * Central Asian   ⟨dict⟩  → glossary
+    Gandhara   ⟨dict⟩  → glossary
+    Pakistan   ⟨dict⟩  → glossary
+    Taklamakan Desert   ⟨dict⟩  → glossary
+    Daoist   ⟨dict⟩  → glossary
+    Han Chinese   ⟨dict,recur×3⟩  → cross-link
+    Central Asia   ⟨dict⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Bodhidharma   ⟨dict⟩  → cross-link
+    Chan Buddhism   ⟨dict⟩  → event
+    Tang   ⟨dict⟩  → cross-link
+    Taiwu   ⟨bold⟩  → event/glossary
+  ~ Chinese   ⟨recur×17⟩  (advisory)
+  ~ Confucian-educated   ⟨⟩  (advisory)
+  ~ Pingcheng   ⟨⟩  (advisory)
+  ~ Emperor Taiwu   ⟨⟩  (advisory)
+  ~ Chinese Buddhism   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ Chinese Buddhist   ⟨⟩  (advisory)
+  ~ Sinicized   ⟨⟩  (advisory)
+  ~ Batuo   ⟨⟩  (advisory)
+  ~ Six Dynasties Buddhist   ⟨⟩  (advisory)
+  ~ GOW HWAHN   ⟨⟩  (advisory)
+  ~ CHEE   ⟨⟩  (advisory)
+  ~ China   ⟨dict,recur×3⟩  (advisory)
+  ~ YAHNG   ⟨⟩  (advisory)
+  ~ Xiaowen's Luoyang   ⟨⟩  (advisory)
+  ~ grasslands   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ tolerated   ⟨dict-lc⟩  (advisory)
+  ~ persecution   ⟨dict-lc⟩  (advisory)
+  ~ dharma   ⟨dict-lc⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ pilgrims   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ classical Chinese   ⟨dict-lc⟩  (advisory)
+  ~ women.   ⟨dict-lc⟩  (advisory)
+  ~ magnificent   ⟨dict-lc⟩  (advisory)
+  ~ markets   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ roots.   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ karmic   ⟨rare⟩  (advisory)
+  ~ equating   ⟨rare⟩  (advisory)
+  ~ drapery   ⟨rare⟩  (advisory)
+  ~ rounder   ⟨rare⟩  (advisory)
+  ~ kilometer   ⟨rare⟩  (advisory)
+  ~ repository   ⟨rare⟩  (advisory)
+  ~ grandmother   ⟨rare⟩  (advisory)
+  ~ instilled   ⟨rare⟩  (advisory)
+  ~ surnames   ⟨rare⟩  (advisory)
+  ~ stratagem   ⟨rare⟩  (advisory)
+  ~ gracefully   ⟨rare⟩  (advisory)
+  ~ grafted   ⟨rare⟩  (advisory)
+  ~ deprecated   ⟨rare⟩  (advisory)
+  ~ cascaded   ⟨rare⟩  (advisory)
+  ~ triggering   ⟨rare⟩  (advisory)
+  ~ loving   ⟨rare⟩  (advisory)
+  ~ splendor   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Southern Dynasties   ⟨bold,recur×5⟩  → event/glossary
+    Jiankang   ⟨dict,recur×6⟩  → glossary
+    Confucian   ⟨dict⟩  → cross-link
+    Liu Yu   ⟨dict⟩  → glossary
+    Eastern Jin   ⟨dict⟩  → event
+    Xiao Yan   ⟨bold⟩  → event/glossary
+    Buddhism   ⟨dict⟩  → cross-link
+  * Central Asian   ⟨dict⟩  → glossary
+  * Tibetan Buddhist   ⟨dict⟩  → glossary
+    Buddha   ⟨dict⟩  → cross-link
+    Mahayana Buddhism   ⟨dict⟩  → glossary
+    Kumarajiva   ⟨dict⟩  → event
+    Wang Xizhi   ⟨dict⟩  → cross-link
+    Tao Yuanming   ⟨dict⟩  → event
+    Cao Zhi   ⟨dict⟩  → event
+    Six Dynasties   ⟨dict⟩  → cross-link
+    Zhou   ⟨dict⟩  → glossary
+    Tang   ⟨dict,recur×3⟩  → cross-link
+  * Southeast Asian   ⟨dict⟩  → glossary
+  * Persian   ⟨dict⟩  → cross-link
+    Southeast Asia   ⟨dict⟩  → glossary
+    Silk Road   ⟨dict⟩  → cross-link
+    Great Southward Migration   ⟨dict⟩  → event
+    Persian Gulf   ⟨dict⟩  → cross-link
+    Zhejiang   ⟨dict⟩  → glossary
+    Yangtze   ⟨dict⟩  → glossary
+    Maritime trade   ⟨bold⟩  → event/glossary
+  ~ China   ⟨dict,recur×4⟩  (advisory)
+  ~ Chinese   ⟨recur×11⟩  (advisory)
+  ~ LYOH SOONG   ⟨⟩  (advisory)
+  ~ CHEE   ⟨⟩  (advisory)
+  ~ AHNG   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict,recur×9⟩  (advisory)
+  ~ Chinese Buddhist   ⟨⟩  (advisory)
+  ~ Thai   ⟨⟩  (advisory)
+  ~ Buddha-nature   ⟨⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ Tang-dynasty Xuanzang   ⟨⟩  (advisory)
+  ~ Mind-Only   ⟨⟩  (advisory)
+  ~ Shelun   ⟨⟩  (advisory)
+  ~ HOH JING   ⟨⟩  (advisory)
+  ~ Carving of Dragons   ⟨⟩  (advisory)
+  ~ Gradations of Poets   ⟨⟩  (advisory)
+  ~ Selections of Refined Literature   ⟨⟩  (advisory)
+  ~ Music Bureau   ⟨⟩  (advisory)
+  ~ Romeo   ⟨⟩  (advisory)
+  ~ Juliet   ⟨⟩  (advisory)
+  ~ Maritime   ⟨⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ LYOH HWAY   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Bonaventura Cavalieri   ⟨⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ magnificent   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ terror   ⟨dict-lc⟩  (advisory)
+  ~ monastery   ⟨dict-lc⟩  (advisory)
+  ~ ransom   ⟨dict-lc⟩  (advisory)
+  ~ the Buddha   ⟨dict-lc⟩  (advisory)
+  ~ enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ earth.   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ siege.   ⟨dict-lc⟩  (advisory)
+  ~ memorial   ⟨dict-lc⟩  (advisory)
+  ~ compiled the   ⟨dict-lc⟩  (advisory)
+  ~ the first systematic   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ instruction.   ⟨dict-lc⟩  (advisory)
+  ~ women   ⟨dict-lc⟩  (advisory)
+  ~ delta   ⟨dict-lc⟩  (advisory)
+  ~ spices   ⟨dict-lc⟩  (advisory)
+  ~ ivory   ⟨dict-lc⟩  (advisory)
+  ~ channel   ⟨dict-lc⟩  (advisory)
+  ~ celadon   ⟨dict-lc,rare⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ eclipses   ⟨dict-lc⟩  (advisory)
+  ~ calculus   ⟨dict-lc⟩  (advisory)
+  ~ political fragmentation   ⟨dict-lc⟩  (advisory)
+  ~ palace well   ⟨dict-lc⟩  (advisory)
+  ~ concubines   ⟨dict-lc⟩  (advisory)
+  ~ oscillated   ⟨rare⟩  (advisory)
+  ~ overthrows   ⟨rare⟩  (advisory)
+  ~ seizes   ⟨rare⟩  (advisory)
+  ~ repeats   ⟨rare⟩  (advisory)
+  ~ depressingly   ⟨rare⟩  (advisory)
+  ~ turnover   ⟨rare⟩  (advisory)
+  ~ dysfunctional   ⟨rare⟩  (advisory)
+  ~ rarity   ⟨rare⟩  (advisory)
+  ~ viciously   ⟨rare⟩  (advisory)
+  ~ briefer   ⟨rare⟩  (advisory)
+  ~ bloodier   ⟨rare⟩  (advisory)
+  ~ donation   ⟨rare⟩  (advisory)
+  ~ fundraising   ⟨rare⟩  (advisory)
+  ~ mandating   ⟨rare⟩  (advisory)
+  ~ vegetarian   ⟨rare⟩  (advisory)
+  ~ sentient   ⟨rare⟩  (advisory)
+  ~ unwisely   ⟨rare⟩  (advisory)
+  ~ defector   ⟨rare⟩  (advisory)
+  ~ ransomed   ⟨rare⟩  (advisory)
+  ~ rhapsody   ⟨rare⟩  (advisory)
+  ~ attunement   ⟨rare⟩  (advisory)
+  ~ diseased   ⟨rare⟩  (advisory)
+  ~ excessive   ⟨rare⟩  (advisory)
+  ~ obscuring   ⟨rare⟩  (advisory)
+  ~ dismissals   ⟨rare⟩  (advisory)
+  ~ allusions   ⟨rare⟩  (advisory)
+  ~ resonance   ⟨rare⟩  (advisory)
+  ~ groomed   ⟨rare⟩  (advisory)
+  ~ focusing   ⟨rare⟩  (advisory)
+  ~ repository   ⟨rare⟩  (advisory)
+  ~ superintendent   ⟨rare⟩  (advisory)
+  ~ regulators   ⟨rare⟩  (advisory)
+  ~ upriver   ⟨rare⟩  (advisory)
+  ~ complemented   ⟨rare⟩  (advisory)
+  ~ polygon   ⟨rare⟩  (advisory)
+  ~ inscribing   ⟨rare⟩  (advisory)
+  ~ polygons   ⟨rare⟩  (advisory)
+  ~ solids   ⟨rare⟩  (advisory)
+  ~ mediocre   ⟨rare⟩  (advisory)
+  ~ proverbial   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Northern Zhou   ⟨dict,bold,recur×5⟩  → cross-link
+    Northern Wei   ⟨dict,recur×3⟩  → cross-link
+    Northern Qi   ⟨dict,bold⟩  → event
+    Xianbei   ⟨dict,recur×4⟩  → glossary
+    Han Chinese   ⟨dict,recur×3⟩  → cross-link
+    Six Dynasties   ⟨dict,recur×6⟩  → cross-link
+    Central Asia   ⟨dict⟩  → glossary
+    Tuoba   ⟨dict⟩  → glossary
+  * Central Asian   ⟨dict⟩  → glossary
+    Buddhism   ⟨dict⟩  → cross-link
+    Daoism   ⟨dict⟩  → glossary
+    Zhou   ⟨dict⟩  → glossary
+    Jiankang   ⟨dict⟩  → glossary
+    Yangtze   ⟨dict,recur×4⟩  → glossary
+    Emperor Wen   ⟨dict⟩  → event
+    Yellow River   ⟨dict,recur×3⟩  → cross-link
+    Chang'an   ⟨dict⟩  → cross-link
+    Beijing   ⟨dict⟩  → glossary
+    Great Southward Migration   ⟨dict⟩  → event
+    Song   ⟨dict⟩  → cross-link
+    Western Roman Empire   ⟨dict⟩  → cross-link
+    Sinicization   ⟨dict⟩  → glossary
+    Germanic   ⟨dict⟩  → cross-link
+    Pure Land Buddhism   ⟨dict⟩  → event
+    Chan   ⟨dict⟩  → glossary
+    Yungang   ⟨dict⟩  → glossary
+    Longmen   ⟨dict⟩  → glossary
+    Dunhuang   ⟨dict⟩  → glossary
+    Eastern Jin   ⟨dict⟩  → event
+    Rong   ⟨dict⟩  → glossary
+    Silk Road   ⟨dict⟩  → cross-link
+    Persia   ⟨dict⟩  → cross-link
+    Tang China   ⟨dict⟩  → cross-link
+    Chen dynasty   ⟨bold⟩  → event/glossary
+  ~ China   ⟨dict,recur×9⟩  (advisory)
+  ~ Pass Region   ⟨⟩  (advisory)
+  ~ Northern Zhou Emperor Wu   ⟨⟩  (advisory)
+  ~ WEN YONG   ⟨⟩  (advisory)
+  ~ YAHNG   ⟨⟩  (advisory)
+  ~ SWAY   ⟨⟩  (advisory)
+  ~ Southern Dynasty   ⟨⟩  (advisory)
+  ~ Mediterranean   ⟨dict⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Chinese Buddhist   ⟨⟩  (advisory)
+  ~ Buddhist   ⟨dict⟩  (advisory)
+  ~ Southern Dynasties   ⟨⟩  (advisory)
+  ~ Xizhi   ⟨⟩  (advisory)
+  ~ Yuanming   ⟨⟩  (advisory)
+  ~ Lingyun   ⟨⟩  (advisory)
+  ~ Kaizhi   ⟨⟩  (advisory)
+  ~ Tong   ⟨⟩  (advisory)
+  ~ Hong   ⟨⟩  (advisory)
+  ~ Nobel Prize-winning   ⟨⟩  (advisory)
+  ~ Chongzhi   ⟨⟩  (advisory)
+  ~ Korea   ⟨dict⟩  (advisory)
+  ~ Japan   ⟨dict⟩  (advisory)
+  ~ Japanese   ⟨⟩  (advisory)
+  ~ Asian   ⟨⟩  (advisory)
+  ~ Sinicization of northern   ⟨⟩  (advisory)
+  ~ eastern rival   ⟨dict-lc⟩  (advisory)
+  ~ cavalry   ⟨dict-lc⟩  (advisory)
+  ~ collapse   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ cosmopolitan   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ crossed the Yangtze   ⟨dict-lc⟩  (advisory)
+  ~ concubines.   ⟨dict-lc⟩  (advisory)
+  ~ granaries   ⟨dict-lc⟩  (advisory)
+  ~ they were the   ⟨dict-lc⟩  (advisory)
+  ~ demographic   ⟨dict-lc⟩  (advisory)
+  ~ civil war   ⟨dict-lc⟩  (advisory)
+  ~ the Mediterranean   ⟨dict-lc⟩  (advisory)
+  ~ dark age.   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ southern rice economy   ⟨dict-lc,bold⟩  (advisory)
+  ~ calligraphy   ⟨dict-lc⟩  (advisory)
+  ~ landscape poetry.   ⟨dict-lc⟩  (advisory)
+  ~ painting.   ⟨dict-lc⟩  (advisory)
+  ~ gunpowder   ⟨dict-lc⟩  (advisory)
+  ~ thousand years.   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ mediocre   ⟨rare⟩  (advisory)
+  ~ factionalism   ⟨rare⟩  (advisory)
+  ~ undignified   ⟨rare⟩  (advisory)
+  ~ flashy   ⟨rare⟩  (advisory)
+  ~ ruinously   ⟨rare⟩  (advisory)
+  ~ overextension   ⟨rare⟩  (advisory)
+  ~ devolution   ⟨rare⟩  (advisory)
+  ~ reunifier   ⟨rare⟩  (advisory)
+  ~ grottoes   ⟨rare⟩  (advisory)
+  ~ rebalancing   ⟨rare⟩  (advisory)
+  ~ calligrapher   ⟨rare⟩  (advisory)
+  ~ searching   ⟨rare⟩  (advisory)
+  ~ elixirs   ⟨rare⟩  (advisory)
+  ~ antimalarial   ⟨rare⟩  (advisory)
+  ~ receptivity   ⟨rare⟩  (advisory)
+  ~ circumstance   ⟨rare⟩  (advisory)
+  ~ rebalanced   ⟨rare⟩  (advisory)

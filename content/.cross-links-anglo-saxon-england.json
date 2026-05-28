@@ -17,6 +17,18 @@
       "targetTl": "celtic-cultures",
       "targetChapter": 8,
       "blurb": "The Britons facing the Saxon advance were the inheritors of a Celtic civilization that had stretched from Ireland to Galatia in its Iron Age prime. Their hillforts, their druids, their Brittonic tongue, and their fierce resistance to Rome had defined the island before the empire arrived — and it was that pre-Roman Celtic substrate that the Anglo-Saxons were now, slowly and violently, overwriting."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "For nearly four centuries Britain was a province of this empire — and the silence that opens this book begins with the empire's own unraveling. By around 410 the western Roman state was pulling its armies home to fight civil wars and barbarian invasions on the Continent, and a province at the far northern edge was the easiest thing to let go. Britain's collapse was the local edge of Rome's fall."
+    },
+    {
+      "matchText": "Constantinople",
+      "targetTl": "byzantine-empire",
+      "targetChapter": 1,
+      "blurb": "Zosimus wrote his history in Constantinople, the eastern capital that would outlast the western empire by a thousand years. While Roman Britain went dark, the Roman state did not end — it simply moved east and became the empire we now call Byzantine, Greek-speaking, Christian, and continuous, the surviving half of the world Britain had just been cut loose from."
     }
   ],
   "2": [
@@ -31,6 +43,12 @@
       "targetTl": "germanic-tribes",
       "targetChapter": 10,
       "blurb": "The Angles and Saxons are 'what the Germani became' in Britain — the deep north-European world finally crossing the Channel."
+    },
+    {
+      "matchText": "Roman Empire",
+      "targetTl": "ancient-rome",
+      "targetChapter": 10,
+      "blurb": "Rome ran the same gamble Vortigern did, at imperial scale and for longer: its late army was increasingly Germanic foederati — barbarian allies serving under their own chiefs for land and pay. The dependency that was supposed to defend the empire is what dissolved it. Britain was a small island repeating the continent's mistake."
     }
   ],
   "3": [
@@ -185,6 +203,18 @@
       "targetTl": "viking-age",
       "targetChapter": 2,
       "blurb": "'The eve of the storm' is 793 — Lindisfarne, where the Viking narrative's western raids begin and Anglo-Saxon England's old world ends."
+    },
+    {
+      "matchText": "great Scandinavian armies",
+      "targetTl": "viking-age",
+      "targetChapter": 3,
+      "blurb": "The Scandinavian raids that opened at Lindisfarne did not stay raids. Within two generations the 'great heathen army' crossed the North Sea not to plunder and leave but to conquer and settle, overrunning Northumbria, East Anglia, and Mercia. That campaign of conquest and the Norse settlement of half of England is the story the Viking narrative tells from here."
+    },
+    {
+      "matchText": "king named Alfred",
+      "targetTl": "viking-age",
+      "targetChapter": 3,
+      "blurb": "Wessex was the one English kingdom the great Scandinavian army could not break. Its king, Alfred the Great, was driven into the Somerset marshes, fought back, and won the decisive Battle of Edington in 878, forcing the Danish leader Guthrum to terms and a baptism. Alfred's survival is why an English kingdom outlasted the conquest at all, and the Viking narrative follows that war in full."
     }
   ]
 }

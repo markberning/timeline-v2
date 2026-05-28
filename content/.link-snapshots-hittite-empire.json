@@ -252,7 +252,7 @@
     },
     "Sea_Peoples": {
       "title": "Sea Peoples",
-      "lead": "The Sea Peoples were a group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-century Egyptologists Emmanuel de Rougé an",
+      "lead": "The Sea Peoples were an unidentified seafaring confederation or group of tribes hypothesized to have attacked Egypt and other Eastern Mediterranean regions around 1200 BC during the Late Bronze Age. The hypothesis was proposed by the 19th-c",
       "image": "Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg"
     },
     "Late_Bronze_Age_collapse": {
@@ -341,6 +341,11 @@
       "title": "Battle of Kadesh",
       "lead": "The Battle of Kadesh was a major military conflict in the early 13th century BC, between the attacking Ramesses II of the Egyptian Empire and defending Muwatalli II of the Hittite Empire. In the previous year, Ramesses II had invaded the ne",
       "image": "Egypt_Abou_Simbel6.jpg"
+    },
+    "Hattusili_III": {
+      "title": "Ḫattušili III",
+      "lead": "Ḫattušili III (Hittite: \"from Hattusa\") was the labarna (king) of the Hittite empire (New Kingdom) c. 1275–1245 BC (middle chronology) or 1267–1237 BC (short chronology timeline).",
+      "image": "Felsrelief_von_Firaktin_Hattusili_III_(cropped).jpg"
     },
     "Puduhepa": {
       "title": "Puduḫepa",
@@ -514,13 +519,93 @@
     },
     "Greece": {
       "title": "Greece",
-      "lead": "Greece, officially the Hellenic Republic, is a country of over 10 million people on the southern tip of the Balkan peninsula in Southeast Europe. With nine regions and thousands of islands it has the longest coastline on the Mediterranean. ",
+      "lead": "Greece, officially the Hellenic Republic, is a country of 10 million people on the southern tip of the Balkan peninsula in Southeast Europe. With nine regions and thousands of islands, it has the longest coastline on the Mediterranean. The ",
       "image": "Flag_of_Greece.svg"
     },
     "Alaca_Höyük": {
       "title": "Alaca Höyük",
       "lead": "Alacahöyük or Alaca Höyük (sometimes also spelled as Alacahüyük, Euyuk, or Evuk) is the site of a Neolithic and Hittite settlement and is an important archaeological site. It is situated near the village of Alacahüyük in the Alaca District ",
       "image": "Alaca_Höyük_01.jpg"
+    },
+    "Franks": {
+      "title": "Franks",
+      "lead": "The Franks (Latin: Franci or gens Francorum) were a northern European group of peoples who first appeared in the third century AD as a new name for the Germanic tribes living near the lower stretches of the Rhine River military border of th",
+      "image": "Germania_inferior_roads_towns.png"
+    },
+    "Greeks": {
+      "title": "Greeks",
+      "lead": "The Greeks or Hellenes (; Greek: Έλληνες, Éllines [ˈelines]) are an ethnic group and nation native to Greece, Cyprus, southern Albania, Turkey, southern Italy, parts of Egypt, and to a lesser extent, other countries surrounding the Eastern ",
+      "image": "Map_of_the_Greek_Diaspora_in_the_World.svg"
+    },
+    "Armenian_Highlands": {
+      "title": "Armenian highlands",
+      "lead": "The Armenian highlands (Armenian: Հայկական լեռնաշխարհ, romanized: Haykakan leṙnašxarh; also known as the Eastern Anatolian highlands, Armenian upland, Armenian plateau, or Armenian tableland) comprise the most central and the highest of the",
+      "image": "The_Armenian_plateau_near_Mount_Masis.jpg"
+    },
+    "Anatolian_peoples": {
+      "title": "Anatolian peoples",
+      "lead": "The Anatolians were a group of Indo-European peoples who inhabited Anatolia as early as the 3rd millennium BC. Identified by their use of the now-extinct Anatolian languages, they were one of the oldest collective Indo-European ethno-lingui",
+      "image": ""
+    },
+    "Semitic_languages": {
+      "title": "Semitic languages",
+      "lead": "The Semitic languages are a branch of the Afroasiatic language family. They include Arabic, Amharic, Tigrinya, Aramaic, Hebrew, Maltese, Modern South Arabian languages and numerous other ancient and modern languages. They are spoken by more",
+      "image": "Semitic_map.svg"
+    },
+    "Hurrian_language": {
+      "title": "Hurrian language",
+      "lead": "Hurrian is an extinct Hurro-Urartian language spoken by the Hurrians (Khurrites), a people who entered northern Mesopotamia around 2300 BC and had mostly vanished by 1000 BC. Hurrian was the language of the Mitanni kingdom in northern Mesop",
+      "image": "Hurrian_foundation_document-AO_19937-IMG_3470-gradient.jpg"
+    },
+    "Afghanistan": {
+      "title": "Afghanistan",
+      "lead": "Afghanistan, officially the Islamic Emirate of Afghanistan, is a landlocked country located at the crossroads of Central and South Asia. It is bordered by Pakistan to the east and south, Iran to the west, Turkmenistan to the northwest, Uzbe",
+      "image": "Flag_of_the_Taliban.svg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Persian_language": {
+      "title": "Persian language",
+      "lead": "Persian, also known by its endonym Farsi, is a Western Iranian language belonging to the Iranian branch of the Indo-Iranian subdivision of the Indo-European languages. Persian is a pluricentric language predominantly spoken and used officia",
+      "image": "Farsi.svg"
+    },
+    "Hindi": {
+      "title": "Hindi",
+      "lead": "Modern Standard Hindi (Hindi: आधुनिक मानक हिन्दी, romanized: Ādhunik Mānak Hindī), commonly referred to as Hindi, is an Indo-Aryan language written in the Devanagari script. It is an official language of the government of India, and is the ",
+      "image": "Hindi.svg"
+    },
+    "Caspian_Sea": {
+      "title": "Caspian Sea",
+      "lead": "The Caspian Sea is the world's largest inland body of water, described as the world's largest lake and usually referred to as a full-fledged sea. An endorheic basin, it is situated in both Europe and Asia: east of the Caucasus, west of the ",
+      "image": "Caspian_Sea_from_orbit.jpg"
+    },
+    "Czechs": {
+      "title": "Czechs",
+      "lead": "The Czechs (Czech: Češi, pronounced [ˈtʃɛʃɪ]; singular Czech, masculine: Čech [ˈtʃɛx], singular feminine: Češka [ˈtʃɛʃka]), or the Czech people (Český lid), are a West Slavic ethnic group and a nation native to the Czech Republic in Central",
+      "image": "Map_of_the_Czech_Diaspora_in_the_World.svg"
+    },
+    "Bed%C5%99ich_Hrozn%C3%BD": {
+      "title": "Bedřich Hrozný",
+      "lead": "Bedřich Hrozný (Czech pronunciation: [ˈbɛdr̝ɪx ˈɦrozniː] ; 6 May 1879 – 12 December 1952), also known as Friedrich Hrozny, was a Czech orientalist and linguist. He contributed to the decipherment of the ancient Hittite language, identified ",
+      "image": "Bedřich_Hrozný_v_20._letech.jpg"
+    },
+    "Babylonia": {
+      "title": "Babylonia",
+      "lead": "Babylonia (; Akkadian: 𒆳𒆍𒀭𒊏𒆠, māt Akkadī) was an ancient Akkadian-speaking state and cultural area based on the city of Babylon in central-southern Mesopotamia (present-day Iraq and parts of Syria). It emerged as an Akkadian-populated ",
+      "image": "Hammurabi's_Babylonia_1.svg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Anatolian_languages": {
+      "title": "Anatolian languages",
+      "lead": "The Anatolian languages are an extinct branch of Indo-European languages that were spoken in Anatolia. The best known Anatolian language is Hittite, which is considered the earliest-attested Indo-European language. Undiscovered until the la",
+      "image": ""
     },
     "Kussara": {
       "title": "Kussara",
@@ -682,11 +767,6 @@
       "lead": "The Bronze Age is an archaeological and anthropological term defining a phase in the development of material culture among ancient societies in Asia, the Near East and Europe. An ancient civilisation or culture is deemed to be part of the B",
       "image": "AlacaStandarte.jpg"
     },
-    "Hurrian_language": {
-      "title": "Hurrian language",
-      "lead": "Hurrian is an extinct Hurro-Urartian language spoken by the Hurrians (Khurrites), a people who entered northern Mesopotamia around 2300 BC and had mostly vanished by 1000 BC. Hurrian was the language of the Mitanni kingdom in northern Mesop",
-      "image": "Hurrian_foundation_document-AO_19937-IMG_3470-gradient.jpg"
-    },
     "Bubonic_plague": {
       "title": "Bubonic plague",
       "lead": "Bubonic plague is one of three types of plague caused by the bacterium Yersinia pestis. One to seven days after exposure to the bacteria, flu-like symptoms develop. These symptoms include fever, headaches, and vomiting, as well as swollen a",
@@ -699,7 +779,7 @@
     },
     "Assyria": {
       "title": "Assyria",
-      "lead": "Assyria was a major ancient Mesopotamian civilization that existed as a city-state from the 21st century BC to the 14th century BC and eventually expanded into an empire from the 14th century BC to the 7th century BC. Spanning from the earl",
+      "lead": "Assyria was a major ancient Mesopotamian civilization that existed as a city-state from the 21st century BC to the 14th century BC and eventually expanded into an empire from the 14th century BC to the 7th century BC. Assyrian history spans",
       "image": "Ashur_symbol_Nimrud.png"
     },
     "Great_power": {
@@ -711,6 +791,31 @@
       "title": "Book of Job",
       "lead": "The Book of Job (Biblical Hebrew: אִיּוֹב, romanized: ʾĪyyōḇ), or simply Job, is a book found in the Ketuvim ('Writings') section of the Hebrew Bible and the first of the Poetic Books in the Old Testament of the Christian Bible. The languag",
       "image": "POxy_n3522.jpg"
+    },
+    "Hebrew_Bible": {
+      "title": "Hebrew Bible",
+      "lead": "The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ; or תְּנַ״ךְ, tənaḵ), also known in Hebrew as Miqra (; מִקְרָא, miqrāʾ), is the canonical collection of Hebrew scriptures, comprisi",
+      "image": "Tanach.jpg"
+    },
+    "Ludlul_bel_nemeqi": {
+      "title": "Ludlul bēl nēmeqi",
+      "lead": "Ludlul bēl nēmeqi (\"I Will Praise the Lord of Wisdom\"), also sometimes known in English as The Poem of the Righteous Sufferer, is a Mesopotamian poem (ANET, pp. 434–437) written in Akkadian that concerns itself with the problem of the unjus",
+      "image": "Ludlul_bel_nemeqi_Ninive.jpg"
+    },
+    "Egyptians": {
+      "title": "Egyptians",
+      "lead": "Egyptians (Egyptian Arabic: مصريين, romanized: Maṣriyyīn, IPA: [mɑsˤɾɪjˈjiːn]; Arabic: مِصرِيُّون, romanized: Miṣriyyūn, IPA: [mɪsˤrɪjˈjuːn]; Coptic: ⲣⲉⲙⲛ̀ⲭⲏⲙⲓ, romanized: remenkhēmi) are an ethnic group native to the Nile Valley in Egypt. ",
+      "image": ""
+    },
+    "Canaanites": {
+      "title": "Canaan",
+      "lead": "Canaan was an ancient Semitic-speaking civilization and region of the Southern Levant during the late 2nd millennium BC. Canaan had significant geopolitical importance in the Late Bronze Age Amarna Period (14th century BC) as the area where",
+      "image": "A_dictionary_of_the_Bible.._(1887)_(14781539332).jpg"
+    },
+    "Ramesses_II": {
+      "title": "Ramesses II",
+      "lead": "Ramesses II (; Ancient Egyptian: rꜥ-ms-sw, Rīꜥa-masē-sə, Ancient Egyptian pronunciation: [ɾiːʕamaˈseːsə]; c. 1303 BC – 1213 BC), commonly known as Ramesses the Great, was the third pharaoh of the Nineteenth Dynasty of Egypt. Ramesses II is ",
+      "image": "Ramses_II_British_Museum.jpg"
     },
     "Tarhunna": {
       "title": "Tarḫunna",
@@ -744,7 +849,7 @@
     },
     "Zeus": {
       "title": "Zeus",
-      "lead": "Zeus (, Ancient Greek: Ζεύς), also known as Dias ( Greek: Δίας), is the supreme Deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the ch",
+      "lead": "Zeus (, Ancient Greek: Ζεύς) is the supreme deity of the Greek pantheon. He is a sky and thunder god in ancient Greek religion and mythology, who rules as king of the gods on Mount Olympus. Zeus is the child of Cronus and Rhea. In most trad",
       "image": "Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
     },
     "Cronus": {
@@ -774,7 +879,7 @@
     },
     "Set_(deity)": {
       "title": "Set (deity)",
-      "lead": "Set (; Egyptological: Sutekh - swtẖ ~ stẖ or: Seth ) Ⲥⲏⲧ (Coptic) is a god of deserts, storms, disorder, violence, and foreigners in ancient Egyptian religion. In Ancient Greek, the god's name is given as Sēth (Σήθ). Set had a positive role",
+      "lead": "Set (; Egyptological: Sutekh - swtẖ ~ stẖ or: Seth ) is a god of deserts, storms, disorder, violence, and foreigners in ancient Egyptian religion. In Ancient Greek, the god's name is given as Sēth (Σήθ). Set had a positive role where he acc",
       "image": "Set.svg"
     },
     "Luwian_language": {
@@ -786,11 +891,6 @@
       "title": "Palaic language",
       "lead": "Palaic is an extinct Indo-European language, attested in cuneiform tablets in Bronze Age Hattusa, the capital of the Hittites. Palaic, which was apparently spoken mainly in northern Anatolia, is generally considered to be one of four primar",
       "image": ""
-    },
-    "Latin": {
-      "title": "Latin",
-      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
-      "image": "Rome_Colosseum_inscription_2.jpg"
     },
     "Catholic_Church": {
       "title": "Catholic Church",
@@ -832,11 +932,6 @@
       "lead": "The Orontes (; from Ancient Greek Ὀρόντης, Oróntēs) or Nahr al-ʿĀṣī, or simply Asi (Arabic: العاصي, romanized: al-ʿĀṣī, IPA: [alˈʕaːsˤiː]; Turkish: Asi) is a 571 kilometres (355 mi) long river in West Asia that begins in Lebanon, flowing no",
       "image": "Noria_in_Hama_01.jpg"
     },
-    "Ramesses_II": {
-      "title": "Ramesses II",
-      "lead": "Ramesses II (; Ancient Egyptian: rꜥ-ms-sw, Rīꜥa-masē-sə, Ancient Egyptian pronunciation: [ɾiːʕamaˈseːsə]; c. 1303 BC – 1213 BC), commonly known as Ramesses the Great, was the third pharaoh of the Nineteenth Dynasty of Egypt. Ramesses II is ",
-      "image": "Ramses_II_British_Museum.jpg"
-    },
     "Mursili_III": {
       "title": "Muršili III",
       "lead": "Muršili III, also known as Urhi-Teshub, was a king of the Hittites who assumed the throne of the Hittite empire (New Kingdom) at Tarhuntassa upon his father's death. He was a cousin of Tudhaliya IV and Queen Maathorneferure. He ruled ca. 12",
@@ -875,7 +970,7 @@
     "Amurru_kingdom": {
       "title": "Amurru kingdom",
       "lead": "Amurru (Sumerian: 𒈥𒌅𒆠 MAR.TUKI; Akkadian: 𒀀𒈬𒌨𒊏 Amûrra, 𒀀𒈬𒊑 Amuri, 𒀀𒄯𒊑 Amurri) was an ancient Bronze Age kingdom in the Levant, known for its role in early Bronze Age trade and cultural development. The geographical area of Amur",
-      "image": "Moyen_Orient_Amarna_1.png"
+      "image": "Moyen_Orient_Amarna_1.svg"
     },
     "United_Nations": {
       "title": "United Nations",
@@ -912,6 +1007,11 @@
       "lead": "International law, also known as public international law and the law of nations, is the set of rules, norms, legal customs and standards that states and other actors feel an obligation to, and generally do, obey in their mutual relations. ",
       "image": "Muenster_Juridicum_ZRB_American_Journal_of_International_Law_01.jpg"
     },
+    "Ptah": {
+      "title": "Ptah",
+      "lead": "Ptah ( TAH; Ancient Egyptian: ptḥ, reconstructed [piˈtaħ]; Ancient Greek: Φθά, romanized: Phthá; Coptic: ⲡⲧⲁϩ, romanized: Ptah; Phoenician: 𐤐𐤕𐤇, romanized: ptḥ) is an ancient Egyptian deity, a creator god, and a patron deity of craftsmen",
+      "image": "Ptah_standing.svg"
+    },
     "Nefertiti": {
       "title": "Nefertiti",
       "lead": "Nefertiti (; c. 1370 – c. 1330 BC) was a queen of the 18th Dynasty of Ancient Egypt, the great royal wife of Pharaoh Akhenaten. Nefertiti and her husband were known for their radical overhaul of state religious policy, in which they promote",
@@ -932,11 +1032,6 @@
       "lead": "Cyprus, officially the Republic of Cyprus, is an island country in the eastern Mediterranean Sea, located off the coast of the Levant mainland in West Asia. The island of Cyprus, which is the third largest and third most populous island in ",
       "image": "Flag_of_Cyprus.svg"
     },
-    "Canaanites": {
-      "title": "Canaan",
-      "lead": "Canaan was an ancient Semitic-speaking civilization and region of the Southern Levant during the late 2nd millennium BC. Canaan had significant geopolitical importance in the Late Bronze Age Amarna Period (14th century BC) as the area where",
-      "image": "A_dictionary_of_the_Bible.._(1887)_(14781539332).jpg"
-    },
     "Oxhide_ingot": {
       "title": "Oxhide ingot",
       "lead": "Oxhide ingots are heavy (20–30 kg) metal slabs, usually of copper but sometimes of tin, produced and widely distributed during the Mediterranean Late Bronze Age (LBA). Their shape resembles the hide of an ox with a protruding handle in each",
@@ -956,11 +1051,6 @@
       "title": "Ivory",
       "lead": "Ivory is a hard, white material from the tusks (traditionally from elephants) and teeth of animals, that consists mainly of dentin, one of the physical structures of teeth and tusks. The chemical structure of the teeth and tusks of mammals ",
       "image": "Horn_Louvre_OA4069.jpg"
-    },
-    "Afghanistan": {
-      "title": "Afghanistan",
-      "lead": "Afghanistan, officially the Islamic Emirate of Afghanistan, is a landlocked country located at the crossroads of Central and South Asia. It is bordered by Pakistan to the east and south, Iran to the west, Turkmenistan to the northwest, Uzbe",
-      "image": "Flag_of_the_Taliban.svg"
     },
     "Cornwall": {
       "title": "Cornwall",
@@ -1026,6 +1116,36 @@
       "title": "Olive oil",
       "lead": "Olive oil is a vegetable oil obtained by pressing whole olives (the fruit of Olea europaea, a traditional tree crop of the Mediterranean Basin) and extracting the oil. It is commonly used in cooking for frying foods, as a condiment, or as a",
       "image": "Oliven_V1.jpg"
+    },
+    "Baltic_Sea": {
+      "title": "Baltic Sea",
+      "lead": "The Baltic Sea is an arm of the Atlantic Ocean that is enclosed by the countries of Denmark, Estonia, Finland, Germany, Latvia, Lithuania, Poland, Russia, Sweden, and the North and Central European Plain regions. It is the world's largest b",
+      "image": "The_Baltic_Sea.png"
+    },
+    "Trade": {
+      "title": "Trade",
+      "lead": "Trade involves the transfer of goods and services from one person or entity to another, often in exchange for money. Economists refer to a system or network that allows trade as a market. Traders generally negotiate through a medium of cred",
+      "image": "Kaufmann-1568.png"
+    },
+    "Peleset": {
+      "title": "Peleset",
+      "lead": "The Peleset (Ancient Egyptian: pwrꜣsꜣtj) or Pulasati (in older literature) are a people appearing in fragmentary historical and iconographic records in ancient Egyptian from the Eastern Mediterranean in the late 2nd millennium BCE. They are",
+      "image": "Sea_people02_upscayl_1x_remacri-4x.png"
+    },
+    "Tjeker": {
+      "title": "Tjeker",
+      "lead": "The Tjeker or Tjekker (Egyptian: ṯꜣkꜣr or ṯꜣkkꜣr) were one of the Sea Peoples during the end of the Late Bronze Age and early Iron Age.",
+      "image": "Pulasti_(Philistine)_and_Tsakkaras_(painting).png"
+    },
+    "Trade_route": {
+      "title": "Trade route",
+      "lead": "A trade route is a logistical network identified as a series of pathways and stoppages used for the commercial transport of cargo. Ancient trade routes were long-distance networks used in the ancient world to exchange goods, ideas, cultures",
+      "image": "Map_of_Central_Asia_with_trade_routes_and_movements,_von_Richthofen.png"
+    },
+    "Civil_war": {
+      "title": "Civil war",
+      "lead": "A civil war is a war between organized groups within the same state (or country). The aim of one side may be to take control of the country or a region, to achieve independence for a region, or to change government policies. The term is a c",
+      "image": "The_destruction_wrought_on_Granollers_after_raid.jpg"
     },
     "Ramesses_III": {
       "title": "Ramesses III",
@@ -1102,15 +1222,25 @@
       "lead": "The Nile is a major north-flowing river in northeast Africa which empties into the Mediterranean Sea. At 7,088 kilometers (4,404 mi) long, it is the longest river in the world, although the volume of water it carries is much smaller than ot",
       "image": "Nile_3rd_Cataract_Left.jpg"
     },
-    "Ancient_Greece": {
-      "title": "Ancient Greece",
-      "lead": "Ancient Greece (Ancient Greek: Ἑλλάς, romanized: Hellás) was a northeastern Mediterranean civilization, existing from the Greek Dark Ages of the 12th–9th centuries BC to the end of classical antiquity (c. 600 AD), comprising a loose collect",
-      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
-    },
     "Earthquake": {
       "title": "Earthquake",
       "lead": "An earthquake, also called a quake, tremor, or temblor, is the shaking of the Earth's surface resulting from a sudden release of energy in the lithosphere that creates seismic waves. Earthquakes can range in intensity, from those so weak th",
       "image": "Quake_epicenters_1963-98.png"
+    },
+    "Shekelesh": {
+      "title": "Shekelesh",
+      "lead": "The Shekelesh (Egyptian language: šꜣkrwšꜣꜣ or šꜣꜣkrwšꜣꜣ) were one of the several ethnic groups the Sea Peoples were said to be composed of, appearing in fragmentary historical and iconographic records in ancient Egyptian from the Eastern Me",
+      "image": ""
+    },
+    "Denyen": {
+      "title": "Denyen",
+      "lead": "The Denyen (Egyptian: dꜣjnjnjw) is purported to be one of the groups constituting the Sea Peoples. They were raiders associated with the Eastern Mediterranean Dark Ages who attacked Egypt in 1207 BC in alliance with the Libyans and other Se",
+      "image": "Denyen_Medinet_Habu.jpg"
+    },
+    "Weshesh": {
+      "title": "Weshesh",
+      "lead": "The Weshesh (Ancient Egyptian: wꜣšꜣšꜣ, wꜣšš) were one of the several ethnic groups the Sea Peoples were said to be composed of, appearing in fragmentary historical and iconographic records in ancient Egyptian from the Eastern Mediterranean ",
+      "image": ""
     },
     "Aramaeans": {
       "title": "Arameans",
@@ -1136,11 +1266,6 @@
       "title": "Neo-Assyrian Empire",
       "lead": "The Neo-Assyrian Empire was the fourth and penultimate stage of ancient Assyrian history. Beginning with the accession of Adad-nirari II in 911 BCE, the Neo-Assyrian Empire grew to dominate the ancient Near East and parts of the South Cauca",
       "image": "Map_of_Assyria.png"
-    },
-    "Hebrew_Bible": {
-      "title": "Hebrew Bible",
-      "lead": "The Hebrew Bible, Jewish Bible or Tanakh (US: , UK: or ; Hebrew: תַּנַ״ךְ, romanized: tanaḵ; תָּנָ״ךְ, tānāḵ; or תְּנַ״ךְ, tənaḵ), also known in Hebrew as Miqra (; מִקְרָא, miqrāʾ), is the canonical collection of Hebrew scriptures, comprisi",
-      "image": "Tanach.jpg"
     },
     "Canaan": {
       "title": "Canaan",
@@ -1177,11 +1302,6 @@
       "lead": "Hugo Winckler (4 July 1863 – 19 April 1913) was a German orientalist, archaeologist, and historian who uncovered the capital of the Hittite Empire (Hattusa) at Boğazkale, Turkey. A student of the languages of the ancient Middle East, he wro",
       "image": "Hugo_Winckler_01.jpg"
     },
-    "Bed%C5%99ich_Hrozn%C3%BD": {
-      "title": "Bedřich Hrozný",
-      "lead": "Bedřich Hrozný (Czech pronunciation: [ˈbɛdr̝ɪx ˈɦrozniː] ; 6 May 1879 – 12 December 1952), also known as Friedrich Hrozny, was a Czech orientalist and linguist. He contributed to the decipherment of the ancient Hittite language, identified ",
-      "image": "Bedřich_Hrozný_v_20._letech.jpg"
-    },
     "Arthur_Evans": {
       "title": "Arthur Evans",
       "lead": "Sir Arthur John Evans (8 July 1851 – 11 July 1941) was a British archaeologist and pioneer in the study of Aegean civilization in the Bronze Age. The first excavations at the Minoan palace of Knossos on the Greek island of Crete began in 18",
@@ -1190,7 +1310,7 @@
     "Knossos": {
       "title": "Knossos",
       "lead": "Knossos (; Ancient Greek: Κνωσσός, romanized: Knōssós; Greek: Κνωσός, romanized: Knōsós; Linear B: 𐀒𐀜𐀰 Ko-no-so) is an archaeological site and ancient urban centre in Crete, Greece. It is located within the southern periphery of Heraklio",
-      "image": "Knossos_-_North_Portico_02.jpg"
+      "image": "Crete_integrated_map-en.svg"
     },
     "Heinrich_Schliemann": {
       "title": "Heinrich Schliemann",
@@ -1219,7 +1339,7 @@
     },
     "Istanbul": {
       "title": "Istanbul",
-      "lead": "Istanbul, is the largest city in Turkey, constituting the country's economic, cultural, and historical center. With a population of over 15 million, it is home to 18% of the population of Turkey. Istanbul is among the largest cities in Euro",
+      "lead": "Istanbul is the largest city in Turkey, constituting the country's economic, cultural, and historical center. With a population of over 15 million, it is home to 18% of the population of Turkey. Istanbul is among the largest cities in Europ",
       "image": "Historical_peninsula_and_modern_skyline_of_Istanbul.jpg"
     },
     "William_Wright_(orientalist)": {
@@ -1259,8 +1379,18 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was a historical city located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopolis in Bithynia, Anatolia (Asia Minor) to th",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
+    },
+    "Israelites": {
+      "title": "Israelites",
+      "lead": "The Israelites, also known as the Children of Israel, were an ancient Semitic-speaking people who lived in Canaan during the Iron Age. They are associated with Hebrews and spoke Biblical Hebrew, an archaic Hebrew language. In the biblical m",
+      "image": "12_Tribes_of_Israel_Map.svg"
+    },
+    "Bo%C4%9Fazkale": {
+      "title": "Boğazkale",
+      "lead": "Boğazkale (\"Gorge Fortress\") is a town of Çorum Province in the Black Sea region of Turkey, located 87 kilometres (54 mi) from the city of Çorum. It is the seat of Boğazkale District. Its population is 1,203 (2022). Formerly known as Boğazk",
+      "image": "Ḫattuša_Kesikkaya_09.jpg"
     }
   }
 }

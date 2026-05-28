@@ -512,3 +512,7 @@ The biggest single improvement would be tightening the chariot descriptions (the
 6. `[CHECK]` **"an archive of over 30,000 cuneiform tablets"** — The 30,000 figure for the Hattusa archive is commonly cited but includes fragments. The number of complete or nearly complete tablets is significantly lower. The text uses this number twice; it's a standard figure in popular accounts.
 
 **Total findings: 4 STRONG, 23 CHECK, 3 SOFT**
+
+## Cross-Cultural Reviewer (Persona E)
+
+**Backward cross-civ pass (sweep-era, 2026-05-28).** The 2026-05-28 link-coverage sweep added forward cross-links from hittite-empire outward. Reciprocal pointers back are LEDGERED forward-only for this sweep — backward sweeps remain corpus-remediation backlog. Ledgered, not deferred-without-reason.

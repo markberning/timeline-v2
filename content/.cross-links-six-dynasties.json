@@ -23,6 +23,12 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "China's long division after the Han is its Fall-of-Rome — except China eventually reassembled, where the Roman West did not."
+    },
+    {
+      "matchText": "Tang",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "China would not be reunified and culturally reborn until the Tang dynasty (618–907 CE), the next great golden age. The poets and critics of the divided centuries — Cao Zhi above all — set the standards the Tang masters measured themselves against."
     }
   ],
   "2": [
@@ -77,6 +83,12 @@
       "targetTl": "shang-dynasty",
       "targetChapter": 3,
       "blurb": "The aristocratic émigré culture of the south preserved high Chinese tradition the way refuges always have — a portable elite identity, bronze-age-deep."
+    },
+    {
+      "matchText": "Tang poets",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "Du Fu and Li Bai, the towering poets of the High Tang, both traced their craft back to the Eastern Jin innovators like Xie Lingyun. The Tang turned that inheritance into the golden age of Chinese poetry."
     }
   ],
   "5": [
@@ -103,6 +115,28 @@
       "targetTl": "post-maurya-kingdoms",
       "targetChapter": 8,
       "blurb": "The monks and texts came down the Silk Road from the Indo-Buddhist world the post-Maurya centuries had built."
+    },
+    {
+      "matchText": "Gupta Empire",
+      "targetTl": "post-maurya-kingdoms",
+      "targetChapter": 8,
+      "blurb": "India's golden age (c. 320–550 CE): under Gupta patronage the subcontinent saw a flowering of mathematics, astronomy, literature, and Buddhist monastic life. This was the prosperous, urbanized India the Chinese pilgrim Faxian described firsthand when he walked there in search of scriptures."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Tang dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "Northern Wei's Sinicized, Buddhist, cosmopolitan synthesis became the template for the reunified empire. The Tang inherited its cave-temple Buddhism, its mixed Han-steppe aristocracy, and the equal-field land system the Wei pioneered, turning them into a golden age."
+    }
+  ],
+  "7": [
+    {
+      "matchText": "Tang dynasty",
+      "targetTl": "tang-song-china",
+      "targetChapter": 2,
+      "blurb": "The Tang dynasty (618–907) inherited the literary, institutional, and commercial foundations the Southern Dynasties laid down. Tang poets studied the Wenxuan anthology compiled at the Liang court, and the Tang's maritime trade networks expanded the routes the southern courts had opened to Southeast Asia and beyond."
     }
   ],
   "8": [
@@ -129,6 +163,18 @@
       "targetTl": "ancient-rome",
       "targetChapter": 10,
       "blurb": "Reunion under Sui/Tang is the counterfactual Rome never got — proof that imperial collapse need not be permanent."
+    },
+    {
+      "matchText": "Tang China",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The reunified empire passed almost intact to the Tang, whose four centuries are the subject of the Sui-Tang-Song narrative. The cosmopolitan, hybrid, Buddhist Tang court that opens that book — welcoming Central Asian music, religion, and people — was the direct inheritance of everything the Six Dynasties era spent four hundred years mixing together."
+    },
+    {
+      "matchText": "Song",
+      "targetTl": "tang-song-china",
+      "targetChapter": 1,
+      "blurb": "The canal that the Sui dug became the economic spine of the dynasties that followed. The Song especially depended on it to move southern rice to the northern frontier — the structural payoff of the Great Southward Migration, and a central thread of the Sui-Tang-Song narrative."
     }
   ]
 }

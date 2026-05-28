@@ -63,6 +63,18 @@
       "targetTl": "assyrian-empire",
       "targetChapter": 3,
       "blurb": "The Mitanni kingdom that Suppiluliuma destroyed had also dominated Assyria for over a century. When the Hittites broke Mitanni, they inadvertently freed Assyria to begin its own rise to power -- Ashur-uballit I exploited the vacuum to establish Assyrian independence."
+    },
+    {
+      "matchText": "trade routes linking Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "The caravan routes the Hittites fought Mitanni to control ran down to the great cities of southern Mesopotamia, where Hammurabi's Babylon and its successors anchored the older Bronze Age world. Hittite kingship, law, and writing were all imported and adapted from this southern civilization."
+    },
+    {
+      "matchText": "rising Assyrian power",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "As Suppiluliuma broke Mitanni, Assyria was shaking off Mitanni domination on the eastern frontier. Ashur-uballit I seized the moment to declare Assyrian independence and open correspondence with Egypt as a Great King in his own right -- the first stirring of the power that would one day swallow Hatti's successor states whole."
     }
   ],
   "4": [
@@ -85,6 +97,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "The diplomatic tradition of vassal treaties, originating in Mesopotamia, was perfected by the Hittites into a sophisticated system of mutual obligations enforced by divine witnesses. The Egyptian-Hittite Peace Treaty was the culmination of this tradition -- a bilateral pact between equals that anticipated modern international law by three millennia."
+    },
+    {
+      "matchText": "Mesopotamian",
+      "targetTl": "mesopotamia",
+      "targetChapter": 2,
+      "blurb": "Ishtar -- the goddess of love and war whom Hattusili III credited with sanctioning his usurpation -- began as the Sumerian goddess Inanna, worshipped at Uruk from before 3000 BCE. The Hittites adopted her, along with much of the Mesopotamian pantheon, into their own 'Thousand Gods.'"
     }
   ],
   "6": [
@@ -99,9 +117,33 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "The Bronze Age 'club of great kings' — Hatti, Egypt, Babylon, Mitanni — ran on Mesopotamian-style diplomacy, the Amarna correspondence its archive."
+    },
+    {
+      "matchText": "Assyria",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "Assyria was one of the Bronze Age 'great powers' the Hittites dealt with — a rising military state in northern Mesopotamia that fielded its own chariot armies and would, after Mitanni's fall, become the Hittites' dangerous eastern neighbor."
+    },
+    {
+      "matchText": "Mitanni",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 3,
+      "blurb": "Kikkuli, the Hittites' horse-training expert, came from Mitanni — a Hurrian kingdom in northern Syria that Assyria absorbed as it rose. Its conquered specialists scattered into the courts of its rivals, the Hittites among them."
+    },
+    {
+      "matchText": "Hammurabi",
+      "targetTl": "mesopotamia",
+      "targetChapter": 7,
+      "blurb": "Hammurabi's Babylonian law code, with its 'eye for an eye' retributive justice, is the legal tradition the Hittite laws deliberately departed from, favoring restitution and fines over mutilation and death."
     }
   ],
   "7": [
+    {
+      "matchText": "Persian Empire",
+      "targetTl": "persian-empire",
+      "targetChapter": 2,
+      "blurb": "The Achaemenid Persian Empire built the deep administrative machinery -- satrapies, royal roads, standardized taxation and record-keeping -- that the Hittite system never had. Darius I systematized this bureaucratic spine, inheriting and extending the older Elamite administrative tradition based at Susa."
+    },
     {
       "matchText": "Elamite administration",
       "targetTl": "elamite-civilization",

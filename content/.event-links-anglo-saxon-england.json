@@ -37,7 +37,11 @@
     {"eventId":"evt-ase-raedwald","matchText":"Rædwald"},
     {"eventId":"evt-ase-sutton-hoo","matchText":"Sutton Hoo Ship Burial"},
     {"eventId":"evt-ase-sutton-hoo-helmet","matchText":"Sutton Hoo helmet"},
-    {"eventId":"evt-ase-pagan-burial","matchText":"heathen ship-grave"}
+    {"eventId":"evt-ase-pagan-burial","matchText":"heathen ship-grave"},
+    {"eventId":"evt-ase-east-anglia","matchText":"East Anglia"},
+    {"eventId":"evt-ase-mercia-emerges","matchText":"Mercia"},
+    {"eventId":"evt-ase-tribal-hidage","matchText":"Tribal Hidage"},
+    {"eventId":"evt-ase-beowulf-composition","matchText":"Beowulf"}
   ],
   "5": [
     {"eventId":"evt-ase-augustine","matchText":"organized and dispatched the mission"},
@@ -47,7 +51,9 @@
     {"eventId":"evt-ase-aidan","matchText":"Aidan"},
     {"eventId":"evt-ase-lindisfarne-founded","matchText":"Lindisfarne"},
     {"eventId":"evt-ase-paulinus-york","matchText":"Paulinus"},
-    {"eventId":"evt-ase-edwin","matchText":"King Edwin"}
+    {"eventId":"evt-ase-edwin","matchText":"King Edwin"},
+    {"eventId":"evt-ase-bertha-kent","matchText":"Bertha"},
+    {"eventId":"evt-ase-penda","matchText":"Penda"}
   ],
   "6": [
     {"eventId":"evt-ase-penda","matchText":"Penda"},
@@ -76,7 +82,10 @@
     {"eventId":"evt-ase-codex-amiatinus","matchText":"Codex Amiatinus"},
     {"eventId":"evt-ase-willibrord","matchText":"Willibrord"},
     {"eventId":"evt-ase-boniface","matchText":"Boniface"},
-    {"eventId":"evt-ase-irish-illumination","matchText":"Insular art"}
+    {"eventId":"evt-ase-irish-illumination","matchText":"Insular art"},
+    {"eventId":"evt-ase-wilfrid","matchText":"Wilfrid"},
+    {"eventId":"evt-ase-sutton-hoo","matchText":"Sutton Hoo"},
+    {"eventId":"evt-ase-aidan","matchText":"Aidan"}
   ],
   "8": [
     {"eventId":"evt-ase-aethelbald","matchText":"ruled Mercia from 716"},
@@ -112,6 +121,10 @@
     {"eventId":"evt-ase-alcuin","matchText":"Alcuin"},
     {"eventId":"evt-ase-york-school","matchText":"trained at the cathedral school"},
     {"eventId":"evt-ase-alcuin-letter","matchText":"wrote letters back to England"},
-    {"eventId":"evt-ase-jarrow-raid","matchText":"seaborne attackers struck"}
+    {"eventId":"evt-ase-jarrow-raid","matchText":"seaborne attackers struck"},
+    {"eventId":"evt-ase-offa","matchText":"Mercia under Offa"},
+    {"eventId":"evt-ase-beowulf-composition","matchText":"Beowulf"},
+    {"eventId":"evt-ase-aidan","matchText":"Aidan's island"},
+    {"eventId":"evt-ase-jarrow","matchText":"Wearmouth-Jarrow"}
   ]
 }

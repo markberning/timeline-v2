@@ -179,6 +179,114 @@
       "matchText": "Alaca Höyük",
       "wikiSlug": "Alaca_Höyük",
       "type": "place"
+    },
+    {
+      "term": "Franks",
+      "matchText": "Franks",
+      "wikiSlug": "Franks",
+      "type": "concept"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "concept"
+    },
+    {
+      "term": "Armenian Highlands",
+      "matchText": "Armenia",
+      "wikiSlug": "Armenian_Highlands",
+      "type": "place"
+    },
+    {
+      "term": "Anatolian peoples",
+      "matchText": "Anatolian kingdoms",
+      "wikiSlug": "Anatolian_peoples",
+      "type": "concept"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic languages",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Hurrian language",
+      "matchText": "Hurrian",
+      "wikiSlug": "Hurrian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Kültepe",
+      "matchText": "Kültepe",
+      "wikiSlug": "K%C3%BCltepe",
+      "type": "place"
+    },
+    {
+      "term": "Hattusa",
+      "matchText": "Hattusa",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Afghanistan",
+      "matchText": "Afghanistan",
+      "wikiSlug": "Afghanistan",
+      "type": "place"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Hindi",
+      "matchText": "Hindi",
+      "wikiSlug": "Hindi",
+      "type": "concept"
+    },
+    {
+      "term": "Caspian Sea",
+      "matchText": "Caspian Sea",
+      "wikiSlug": "Caspian_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Czechs",
+      "matchText": "Czech",
+      "wikiSlug": "Czechs",
+      "type": "concept"
+    },
+    {
+      "term": "Bedřich Hrozný",
+      "matchText": "Bedřich Hrozný",
+      "wikiSlug": "Bed%C5%99ich_Hrozn%C3%BD",
+      "type": "people"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonians",
+      "wikiSlug": "Babylonia",
+      "type": "concept"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolian languages",
+      "matchText": "Anatolian branch",
+      "wikiSlug": "Anatolian_languages",
+      "type": "concept"
     }
   ],
   "2": [
@@ -355,6 +463,18 @@
       "matchText": "cuneiform diplomacy",
       "wikiSlug": "Amarna_letters",
       "type": "concept"
+    },
+    {
+      "term": "Anatolian",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "place"
     }
   ],
   "3": [
@@ -484,9 +604,141 @@
       "matchText": "Book of Job",
       "wikiSlug": "Book_of_Job",
       "type": "concept"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Anatolian",
+      "matchText": "Anatolian",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Upper Mesopotamia",
+      "matchText": "Upper Mesopotamia",
+      "wikiSlug": "Upper_Mesopotamia",
+      "type": "place"
+    },
+    {
+      "term": "Hattusa",
+      "matchText": "Hattusa",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Aleppo",
+      "matchText": "Aleppo",
+      "wikiSlug": "Aleppo",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Hebrew Bible",
+      "matchText": "Hebrew Bible",
+      "wikiSlug": "Hebrew_Bible",
+      "type": "concept"
+    },
+    {
+      "term": "Ludlul bel nemeqi",
+      "matchText": "Ludlul bel nemeqi",
+      "wikiSlug": "Ludlul_bel_nemeqi",
+      "type": "concept"
     }
   ],
   "4": [
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Egyptians",
+      "type": "concept"
+    },
+    {
+      "term": "Canaanite",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaanites",
+      "type": "concept"
+    },
+    {
+      "term": "Hattusa",
+      "matchText": "Hattusa",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Hattic language",
+      "matchText": "Hattic",
+      "wikiSlug": "Hattic_language",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Sumerian",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumerian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Anatolian language",
+      "matchText": "Anatolian language",
+      "wikiSlug": "Anatolian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Alaca Höyük",
+      "matchText": "Alaca Höyük",
+      "wikiSlug": "Alaca_Höyük",
+      "type": "place"
+    },
+    {
+      "term": "Ramesses II",
+      "matchText": "Ramesses II",
+      "wikiSlug": "Ramesses_II",
+      "type": "people"
+    },
+    {
+      "term": "Mitanni",
+      "matchText": "Mitanni",
+      "wikiSlug": "Mitanni",
+      "type": "concept"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
     {
       "term": "Tarhunna",
       "matchText": "Tarhunna",
@@ -771,6 +1023,54 @@
       "matchText": "chariot",
       "wikiSlug": "Chariot",
       "type": "concept"
+    },
+    {
+      "term": "Euphrates",
+      "matchText": "Euphrates",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Ptah",
+      "matchText": "Ptah",
+      "wikiSlug": "Ptah",
+      "type": "people"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Hattusa",
+      "matchText": "Hattusa",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Hatti",
+      "matchText": "Hatti",
+      "definition": "The Hittites' own name for their kingdom and its Anatolian heartland, centered on the capital Hattusa. \"Land of Hatti\" was how the Hittite kings referred to their realm in their own records and in international correspondence.",
+      "type": "place"
     }
   ],
   "6": [
@@ -923,9 +1223,177 @@
       "matchText": "olive oil",
       "wikiSlug": "Olive_oil",
       "type": "concept"
+    },
+    {
+      "term": "Cypriot",
+      "matchText": "Cypriot",
+      "wikiSlug": "Cyprus",
+      "type": "concept"
+    },
+    {
+      "term": "Baltic Sea",
+      "matchText": "Baltic Sea",
+      "wikiSlug": "Baltic_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Aegean",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Babylonian",
+      "matchText": "Babylonian",
+      "wikiSlug": "Babylonia",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Semitic",
+      "matchText": "Semitic",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Kadesh",
+      "matchText": "Kadesh",
+      "wikiSlug": "Battle_of_Kadesh",
+      "type": "event"
+    },
+    {
+      "term": "Hurrian",
+      "matchText": "Hurrian",
+      "wikiSlug": "Hurrian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Amarna Letters",
+      "matchText": "Amarna Letters",
+      "wikiSlug": "Amarna_letters",
+      "type": "concept"
+    },
+    {
+      "term": "Cuneiform",
+      "matchText": "cuneiform",
+      "wikiSlug": "Cuneiform",
+      "type": "concept"
+    },
+    {
+      "term": "Trade",
+      "matchText": "Trade",
+      "wikiSlug": "Trade",
+      "type": "concept"
+    },
+    {
+      "term": "Tudhaliya IV",
+      "matchText": "Tudhaliya IV",
+      "wikiSlug": "Tudhaliya_IV",
+      "type": "people"
+    },
+    {
+      "term": "Hattusili III",
+      "matchText": "Hattusili III",
+      "wikiSlug": "Hattusili_III",
+      "type": "people"
+    },
+    {
+      "term": "Hattusa",
+      "matchText": "Hattusa",
+      "wikiSlug": "Hattusa",
+      "type": "place"
     }
   ],
   "7": [
+    {
+      "term": "Babylon",
+      "matchText": "Babylon survived",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Babylonia",
+      "matchText": "Babylonian bureaucracy",
+      "wikiSlug": "Babylonia",
+      "type": "place"
+    },
+    {
+      "term": "Peleset",
+      "matchText": "Peleset",
+      "wikiSlug": "Peleset",
+      "type": "concept"
+    },
+    {
+      "term": "Tjeker",
+      "matchText": "Tjeker",
+      "wikiSlug": "Tjeker",
+      "type": "concept"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Cyprus",
+      "matchText": "Cyprus",
+      "wikiSlug": "Cyprus",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolian plateau",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Trade route",
+      "matchText": "trade routes",
+      "wikiSlug": "Trade_route",
+      "type": "concept"
+    },
+    {
+      "term": "Civil war",
+      "matchText": "civil war",
+      "wikiSlug": "Civil_war",
+      "type": "concept"
+    },
     {
       "term": "Bronze Age Collapse",
       "matchText": "Bronze Age Collapse",
@@ -1056,6 +1524,24 @@
       "term": "Tudhaliya IV",
       "matchText": "Tudhaliya IV",
       "wikiSlug": "Tudhaliya_IV",
+      "type": "people"
+    },
+    {
+      "term": "Shekelesh",
+      "matchText": "Shekelesh",
+      "wikiSlug": "Shekelesh",
+      "type": "people"
+    },
+    {
+      "term": "Denyen",
+      "matchText": "Denyen",
+      "wikiSlug": "Denyen",
+      "type": "people"
+    },
+    {
+      "term": "Weshesh",
+      "matchText": "Weshesh",
+      "wikiSlug": "Weshesh",
       "type": "people"
     }
   ],
@@ -1257,6 +1743,175 @@
       "matchText": "Persians",
       "wikiSlug": "Achaemenid_Empire",
       "type": "concept"
+    },
+    {
+      "term": "Hattusa",
+      "matchText": "Hattusa",
+      "wikiSlug": "Hattusa",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Euphrates River",
+      "matchText": "Euphrates River",
+      "wikiSlug": "Euphrates",
+      "type": "place"
+    },
+    {
+      "term": "Indo-European",
+      "matchText": "Indo-European",
+      "wikiSlug": "Indo-European_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Anatolian languages",
+      "matchText": "Anatolian branch",
+      "wikiSlug": "Anatolian_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age Collapse",
+      "matchText": "Bronze Age Collapse",
+      "wikiSlug": "Late_Bronze_Age_collapse",
+      "type": "concept"
+    },
+    {
+      "term": "Late Bronze Age",
+      "matchText": "Late Bronze Age",
+      "wikiSlug": "Late_Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Alaca Höyük",
+      "matchText": "Alaca Höyük",
+      "wikiSlug": "Alaca_Höyük",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Canaanites",
+      "matchText": "Canaanite",
+      "wikiSlug": "Canaanites",
+      "type": "concept"
+    },
+    {
+      "term": "Israelites",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "concept"
+    },
+    {
+      "term": "Boğazkale",
+      "matchText": "Boğazköy",
+      "wikiSlug": "Bo%C4%9Fazkale",
+      "type": "place"
+    },
+    {
+      "term": "Akkadian",
+      "matchText": "Akkadian",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Temple of Karnak",
+      "matchText": "Temple of Karnak",
+      "wikiSlug": "Karnak",
+      "type": "place"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Egyptians",
+      "type": "concept"
+    },
+    {
+      "term": "Czechs",
+      "matchText": "Czech",
+      "wikiSlug": "Czechs",
+      "type": "concept"
+    },
+    {
+      "term": "Sumerian",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumerian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Latin",
+      "matchText": "Latin",
+      "wikiSlug": "Latin",
+      "type": "concept"
+    },
+    {
+      "term": "Troy",
+      "matchText": "Troy",
+      "wikiSlug": "Troy",
+      "type": "place"
+    },
+    {
+      "term": "Mycenae",
+      "matchText": "Mycenae",
+      "wikiSlug": "Mycenae",
+      "type": "place"
+    },
+    {
+      "term": "Babylon",
+      "matchText": "Babylon",
+      "wikiSlug": "Babylon",
+      "type": "place"
+    },
+    {
+      "term": "Aegean Sea",
+      "matchText": "Aegean",
+      "wikiSlug": "Aegean_Sea",
+      "type": "place"
+    },
+    {
+      "term": "Hesiod",
+      "matchText": "Hesiod",
+      "wikiSlug": "Hesiod",
+      "type": "people"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "concept"
+    },
+    {
+      "term": "Akhenaten",
+      "matchText": "Akhenaten",
+      "wikiSlug": "Akhenaten",
+      "type": "people"
+    },
+    {
+      "term": "United Nations",
+      "matchText": "United Nations",
+      "wikiSlug": "United_Nations",
+      "type": "concept"
+    },
+    {
+      "term": "edere",
+      "matchText": "edere",
+      "wikiSlug": "",
+      "type": "concept",
+      "definition": "The Latin verb meaning \"to eat.\" Hrozný's breakthrough was noticing that the undeciphered Hittite verb ezzatteni resembled edere (and the Old English etan, ancestor of the modern \"eat\") — a family resemblance that revealed Hittite to be an Indo-European language."
     }
   ]
 }
