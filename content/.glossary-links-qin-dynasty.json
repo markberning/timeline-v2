@@ -299,6 +299,12 @@
       "matchText": "Yangtze",
       "wikiSlug": "Yangtze",
       "type": "place"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "concept"
     }
   ],
   "3": [
@@ -432,6 +438,12 @@
       "term": "Romance languages",
       "matchText": "Romance languages",
       "wikiSlug": "Romance_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "definition": "In early Chinese cosmology the heavens were imagined as a round dome and the earth below as a square — 'round Heaven, square Earth.' The ban-liang coin echoed that picture, its round rim standing for Heaven and its square central hole for Earth, making each coin a tiny model of the cosmic order.",
       "type": "concept"
     }
   ],

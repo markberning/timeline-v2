@@ -233,6 +233,12 @@
       "matchText": "Vân Đồn",
       "wikiSlug": "V%C3%A2n_%C4%90%E1%BB%93n_District",
       "type": "place"
+    },
+    {
+      "term": "Javanese language",
+      "matchText": "Javanese",
+      "wikiSlug": "Javanese_language",
+      "type": "language"
     }
   ],
   "5": [
@@ -449,6 +455,18 @@
       "matchText": "Huế",
       "wikiSlug": "Hu%E1%BA%BF",
       "type": "place"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "people"
+    },
+    {
+      "term": "Revival Lê dynasty",
+      "matchText": "Restoration",
+      "wikiSlug": "Revival_L%C3%AA_dynasty",
+      "type": "dynasty"
     }
   ],
   "10": [
@@ -644,6 +662,18 @@
       "matchText": "French gunboats",
       "wikiSlug": "French_conquest_of_Vietnam",
       "type": "event"
+    },
+    {
+      "term": "Sinicization",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Sinicization",
+      "type": "concept"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Viet_people",
+      "type": "people"
     }
   ]
 }

@@ -336,3 +336,10 @@ This is one of the strongest narratives in the series. The central puzzle — ho
 **Total findings: 4 STRONG, 14 CHECK, 8 SOFT**
 
 Note: The single STRONG finding (Caral quipu) reflects genuine scholarly debate about whether the knotted-string fragments are actually a recording device. The remaining findings are CHECK-level verification items, mostly around specific numbers and superlative claims. This narrative is notably clean — most claims are well-hedged and the writing rarely ventures into the suspiciously specific territory that triggers hallucination flags.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — born-verified
+glossary links added (Mesopotamia, Mesoamerica, Eurasia) + two universal-basic
+Earth waivers. No new cross-cultural narrative claim, so **no new backward
+findings**; forward cross-links re-verified (0 FAIL).

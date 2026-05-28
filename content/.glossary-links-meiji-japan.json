@@ -395,6 +395,24 @@
       "matchText": "German unification",
       "term": "German unification",
       "wikiSlug": "Unification_of_Germany"
+    },
+    {
+      "term": "Mexican-American War",
+      "matchText": "Mexican-American War",
+      "wikiSlug": "Mexican%E2%80%93American_War",
+      "type": "glossary"
+    },
+    {
+      "term": "Mōri clan",
+      "matchText": "Mōri",
+      "wikiSlug": "M%C5%8Dri_clan",
+      "type": "glossary"
+    },
+    {
+      "term": "Franco-Prussian War",
+      "matchText": "Franco-Prussian War",
+      "wikiSlug": "Franco-Prussian_War",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -2234,6 +2252,12 @@
       "matchText": "Vietnamese",
       "term": "Vietnamese",
       "definition": "Of Vietnam — here the early Vietnamese nationalists who looked to Meiji Japan as the model of an Asian nation that modernized and resisted Western domination."
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia",
+      "type": "glossary"
     }
   ]
 }
