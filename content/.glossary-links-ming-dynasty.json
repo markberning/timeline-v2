@@ -184,6 +184,12 @@
       "matchText": "Directorate of Ceremonial",
       "term": "Directorate of Ceremonial",
       "definition": "The Si Li Jian, the inner-palace eunuch office that came to control the flow of memorials between the outer government and the Ming emperor — meaning the eunuchs decided which documents the throne ever saw."
+    },
+    {
+      "term": "Vietnamese",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Vietnam",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -655,6 +661,24 @@
       "matchText": "Arabia",
       "term": "Arabia",
       "wikiSlug": "Arabian_Peninsula"
+    },
+    {
+      "term": "Southeast Asian",
+      "matchText": "Southeast Asian",
+      "wikiSlug": "Southeast_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Crown",
+      "matchText": "Crown",
+      "wikiSlug": "The_Crown",
+      "type": "glossary"
+    },
+    {
+      "term": "Indonesian",
+      "matchText": "Indonesian",
+      "wikiSlug": "Indonesia",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -1383,6 +1407,18 @@
       "matchText": "Shen Weijing",
       "term": "Shen Weijing",
       "definition": "The Ming negotiator who handled the failed 1593–1597 truce talks with Japan during the Imjin War. He told the Beijing court that Hideyoshi had agreed to accept Ming suzerainty as a tributary king — a fiction that collapsed when the real terms surfaced and the war resumed in 1597."
+    },
+    {
+      "term": "Seoul",
+      "matchText": "Seoul",
+      "wikiSlug": "Seoul",
+      "type": "glossary"
+    },
+    {
+      "term": "Uiju",
+      "matchText": "Uiju",
+      "wikiSlug": "Uiju",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1701,6 +1737,12 @@
       "matchText": "Elizabethan and Jacobean",
       "term": "Elizabethan and Jacobean",
       "definition": "The back-to-back golden ages of English drama and poetry under Queen Elizabeth I (reigned 1558–1603) and her successor James I (the Jacobean era, 1603–1625) — the decades that produced Shakespeare and ran almost exactly parallel to the late-Ming literary peak."
+    },
+    {
+      "term": "Southeast Asia",
+      "matchText": "Southeast Asia",
+      "wikiSlug": "Southeast_Asia",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -2074,6 +2116,12 @@
       "matchText": "Wanli",
       "term": "Wanli",
       "wikiSlug": "Wanli_Emperor"
+    },
+    {
+      "term": "Chinese-style",
+      "matchText": "Chinese-style",
+      "wikiSlug": "Chinese_culture",
+      "type": "glossary"
     }
   ]
 }

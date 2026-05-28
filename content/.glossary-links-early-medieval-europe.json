@@ -366,6 +366,12 @@
       "matchText": "Denmark",
       "term": "Denmark",
       "wikiSlug": "Denmark"
+    },
+    {
+      "term": "Northumbria",
+      "matchText": "Northumbrian",
+      "wikiSlug": "Northumbria",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -657,6 +663,12 @@
       "matchText": "Hunnic",
       "term": "Huns",
       "definition": "Relating to the Huns, the nomadic confederation whose westward push helped shatter the late-antique order; here, the steppe pressure that helped topple the Gupta Empire in India around 550."
+    },
+    {
+      "term": "Andean civilizations",
+      "matchText": "Andean",
+      "wikiSlug": "Andean_civilizations",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -1326,6 +1338,24 @@
       "matchText": "Christianized",
       "term": "Christianized",
       "wikiSlug": "Christianization"
+    },
+    {
+      "term": "English Channel",
+      "matchText": "Channel",
+      "wikiSlug": "English_Channel",
+      "type": "glossary"
+    },
+    {
+      "term": "Ethiopia",
+      "matchText": "Ethiopia",
+      "wikiSlug": "Ethiopia",
+      "type": "glossary"
+    },
+    {
+      "term": "Latin Europe",
+      "matchText": "Latin Europe",
+      "definition": "Shorthand for the western, Latin-speaking, Roman-Catholic half of the Christian world — the lands that looked to the pope in Rome and used Latin as the language of church, law, and learning, as distinct from the Greek-speaking Orthodox Christian East centered on Constantinople.",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -1983,6 +2013,18 @@
       "matchText": "Danish",
       "term": "Danish",
       "wikiSlug": "Danes"
+    },
+    {
+      "term": "Polish language",
+      "matchText": "Polish",
+      "wikiSlug": "Polish_language",
+      "type": "glossary"
+    },
+    {
+      "term": "Northumbria",
+      "matchText": "Northumbrian",
+      "wikiSlug": "Northumbria",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -2276,6 +2318,12 @@
       "matchText": "lingua romana rustica",
       "term": "lingua romana rustica",
       "definition": "Latin for \"rustic Roman language\" — the everyday spoken descendant of Latin in the western Frankish lands by the ninth century. Charles the Bald's Strasbourg oath, recorded in it, is the earliest substantial text that reads as French rather than Latin."
+    },
+    {
+      "term": "Franco-Prussian War",
+      "matchText": "Franco-Prussian War",
+      "wikiSlug": "Franco-Prussian_War",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -2727,6 +2775,18 @@
       "matchText": "West Francia",
       "term": "West Francia",
       "wikiSlug": "West_Francia"
+    },
+    {
+      "term": "Northumbria",
+      "matchText": "Northumbrian",
+      "wikiSlug": "Northumbria",
+      "type": "glossary"
+    },
+    {
+      "term": "Somerset",
+      "matchText": "Somerset",
+      "wikiSlug": "Somerset",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -3157,6 +3217,24 @@
       "matchText": "Reims",
       "term": "Reims",
       "wikiSlug": "Reims"
+    },
+    {
+      "term": "Poland",
+      "matchText": "Polish",
+      "wikiSlug": "Poland",
+      "type": "glossary"
+    },
+    {
+      "term": "Christendom",
+      "matchText": "Latin Christendom",
+      "wikiSlug": "Christendom",
+      "type": "glossary"
+    },
+    {
+      "term": "Trans-Saharan trade",
+      "matchText": "Saharan",
+      "definition": "The caravan trade across the Sahara Desert linking North Africa with the gold-rich kingdoms of West Africa. At its medieval peak it pumped Sudanese gold north into the Mediterranean economy — part of what was quietly funding Europe's recovery around the year 1000.",
+      "type": "glossary"
     }
   ]
 }

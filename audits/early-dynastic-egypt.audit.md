@@ -429,3 +429,12 @@ The 2,300-year assembly of a civilization from scratch: Saharan refugees bring c
 | B — Skeptic | [SOFT] (minor concern) | 5 |
 
 **Overall assessment:** This is a strong narrative. The 6/8 STRONG chapters and the complete absence of WEAK or REWRITE grades put it in the top tier of the series. The main structural weakness is the Naqada I-II-III middle section (Ch 3-4), which risks catalogue-fatigue, and the Second Dynasty chapter (Ch 7), which spends too long in evidentiary fog before reaching its dramatic payload. The Newcomer findings are mostly style-level (em-dash definitions, long parentheticals, minor undefined terms) rather than structural. The Skeptic found no fabrications — all [CHECK] items are matters of hedging and precision rather than factual error. The strongest chapters are Ch 1 (the Green Sahara origin story), Ch 5 (the Narmer Palette close-reading), and Ch 8 (Khasekhemwy's resolution), which together form the narrative's spine.
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — added born-verified
+glossary links (Ethiopian Highlands, Middle East, Eurasia, Levant, Egyptology,
+Mesopotamia, Lebanon, Catholic Church, Sahara) and one universal-basic waiver
+(United States as a size yardstick). No new cross-cultural narrative claim, so
+**no new backward findings**; existing forward cross-links re-verified by the
+deterministic gate (0 FAIL).

@@ -42,7 +42,7 @@
     },
     "Atlantic_slave_trade": {
       "title": "Atlantic slave trade",
-      "lead": "The Atlantic slave trade or transatlantic slave trade involved the transportation by slave traders of enslaved African people to the Americas. European slave ships regularly used the triangular trade route and its Middle Passage. Europeans ",
+      "lead": "The Atlantic slave trade or transatlantic slave trade involved the transportation by slave traders of enslaved African people to the Americas. This trade was operated by slave ships from both Europe and the New World. Some of these voyages ",
       "image": "Slave_Auction_Ad.jpg"
     },
     "Flying_shuttle": {
@@ -178,7 +178,7 @@
     "Rights_of_Man": {
       "title": "Rights of Man",
       "lead": "Rights of Man is a book by Thomas Paine first published in 1791, including 31 articles, positing that popular political revolution is permissible when a government does not safeguard the natural rights of its people. Using these points as a",
-      "image": "England_and_Yellow_flags.png"
+      "image": "PaineRightsOfMan.png"
     },
     "A_Vindication_of_the_Rights_of_Woman": {
       "title": "A Vindication of the Rights of Woman",
@@ -237,7 +237,7 @@
     },
     "Luddite": {
       "title": "Luddite",
-      "lead": "The Luddites were members of a 19th-century movement of English textile workers who opposed the use of certain types of automated machinery due to concerns relating to worker pay and output quality. They often destroyed the machines in orga",
+      "lead": "The Luddites were members of a 19th-century movement of English textile workers who protested the use of certain types of automated machinery due to concerns relating to worker pay, child labor, working conditions and output quality. They o",
       "image": "Luddite.jpg"
     },
     "Destruction_of_Stocking_Frames,_etc._Act_1812": {
@@ -747,7 +747,7 @@
     },
     "Rerum_novarum": {
       "title": "Rerum novarum",
-      "lead": "Rerum novarum, or Rights and Duties of Capital and Labor, is an encyclical issued by Pope Leo XIII on 15 May 1891. It is an open letter, passed to all Catholic patriarchs, primates, archbishops, and bishops, which addresses the condition of",
+      "lead": "Rerum novarum is an encyclical issued by Pope Leo XIII on 15 May 1891. It is an open letter passed to all Catholic bishops addressing the condition of the working class. It discusses the relationships and mutual duties between labor and cap",
       "image": "Papa_Leone_XIII_(1898).jpg"
     },
     "The_Salvation_Army": {
@@ -842,8 +842,8 @@
     },
     "Urbanization": {
       "title": "Urbanization",
-      "lead": "Urbanization (or urbanisation in British English) is the population shift from rural to urban areas, the corresponding decrease in the proportion of people living in rural areas, and the ways in which societies adapt to this change. It can ",
-      "image": "Guangzhou_dusk_panorama.jpg"
+      "lead": "Urbanization (or urbanisation in British English) is the process by which human settlements are formed and become larger as more people live, recreate and work in cities and towns. It describes the population shift from rural to urban areas",
+      "image": "Canton_Tower_20220626.jpg"
     },
     "George_III": {
       "title": "George III",
@@ -987,7 +987,7 @@
     },
     "Bourgeoisie": {
       "title": "Bourgeoisie",
-      "lead": "The bourgeoisie are a class of business owners, merchants and wealthy people, in general, which emerged in the Late Middle Ages, originally as a \"middle class\" between the peasantry and aristocracy. They are traditionally contrasted with th",
+      "lead": "The bourgeoisie are a social class of business owners, merchants and wealthy people, in general, which emerged in the Late Middle Ages, originally as a \"middle class\" between the peasantry and aristocracy. They are traditionally contrasted ",
       "image": "Jean_Béraud_-_La_Sortie_du_Bourgeois.jpg"
     },
     "Domestic_worker": {
@@ -1389,7 +1389,7 @@
     },
     "Luddite": {
       "title": "Luddite",
-      "lead": "The Luddites were members of a 19th-century movement of English textile workers who opposed the use of certain types of automated machinery due to concerns relating to worker pay and output quality. They often destroyed the machines in orga",
+      "lead": "The Luddites were members of a 19th-century movement of English textile workers who protested the use of certain types of automated machinery due to concerns relating to worker pay, child labor, working conditions and output quality. They o",
       "image": "Luddite.jpg"
     },
     "Davy_lamp": {
@@ -1757,6 +1757,21 @@
       "lead": "A factory, manufacturing plant or production plant is an industrial facility, often a complex consisting of several buildings filled with machinery, where workers manufacture items or operate machines which process each item into another. T",
       "image": "Wolfsburg_VW-Werk.jpg"
     },
+    "Song_dynasty": {
+      "title": "Song dynasty",
+      "lead": "The Song dynasty ( SUUNG) was an imperial dynasty of China that ruled from 960 to 1279. The dynasty was founded by Emperor Taizu of Song, who usurped the throne of the Later Zhou dynasty and went on to conquer the rest of the Ten Kingdoms, ",
+      "image": "China_-_Song_Dynasty-en.svg"
+    },
+    "Earth": {
+      "title": "Earth",
+      "lead": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water",
+      "image": "Meteosat-12-fci-march-equinox-2025-noon_(cropped).jpg"
+    },
+    "Islamic_Golden_Age": {
+      "title": "Islamic Golden Age",
+      "lead": "The Islamic Golden Age was a period of scientific, economic, and cultural flourishing in the history of Islam, traditionally dated from the 8th century to the 13th century. This period is traditionally understood to have begun during the re",
+      "image": "Al-Idrisi's_world_map.JPG"
+    },
     "Enclosure": {
       "title": "Enclosure",
       "lead": "Enclosure or inclosure is a term, used in English landownership, that refers to the appropriation of \"waste\" or \"common land\", enclosing it, and by doing so depriving commoners of their traditional rights of access and usage. Agreements to ",
@@ -1824,7 +1839,7 @@
     },
     "Rotary_motion": {
       "title": "Rotation",
-      "lead": "Rotation, rotational or rotary motion is the movement of an object that leaves at least one point unchanged. In 2 dimensions, a plane figure can rotate in either a clockwise or counterclockwise sense around a point called the center of rota",
+      "lead": "Rotation, also known as rotational motion or rotary motion, is the movement of an object that leaves at least one point unchanged. In 2 dimensions, a plane figure can rotate in either a clockwise or counterclockwise sense around a point cal",
       "image": "Rotating_Sphere.gif"
     },
     "University_of_Glasgow": {
@@ -1997,6 +2012,11 @@
       "lead": "The Great Western Railway (GWR) was a British railway company that linked London with the southwest, west and West Midlands of England and most of Wales. It was founded in 1833, received its enabling act of Parliament on 31 August 1835 and ",
       "image": "Coat_of_arms_of_the_Great_Western_Railway.svg"
     },
+    "Northumbrian_(locomotive)": {
+      "title": "Northumbrian (locomotive)",
+      "lead": "Northumbrian was an early steam locomotive built by Robert Stephenson in 1830 and used at the opening of the Liverpool and Manchester Railway (L&M). It was the eighth of Stephenson's nine 0-2-2 locomotives in the style of Rocket, but it int",
+      "image": "Stephenson_0-2-2_locomotive_Northumbrian_-_Mechanics_Magazine_1830_(rotate,_grayscale,_contrast_stretch).jpg"
+    },
     "Division_of_labour": {
       "title": "Division of labour",
       "lead": "The division of labour is the separation of the tasks in any economic system or organisation so that participants may specialise (specialisation). Individuals, organisations, and nations are endowed with, or acquire, specialised capabilitie",
@@ -2074,7 +2094,7 @@
     },
     "Battle_of_Waterloo": {
       "title": "Battle of Waterloo",
-      "lead": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), marking the end of the Napoleonic Wars. The French Imperial Army under the command of Napoleon I was de",
+      "lead": "The Battle of Waterloo was fought on Sunday 18 June 1815, near Waterloo (then in the United Kingdom of the Netherlands, now in Belgium), being the last engagement with Napoleon I. The French Imperial Army under the command of Napoleon I was",
       "image": "Battle_of_Waterloo_1815.PNG"
     },
     "Rotten_and_pocket_boroughs": {
@@ -2114,7 +2134,7 @@
     },
     "Evangelicalism": {
       "title": "Evangelicalism",
-      "lead": "Evangelicalism (), also called evangelical Christianity or evangelical Protestantism, is a worldwide, interdenominational movement within Protestant Christianity that emphasizes evangelism, or the preaching and spreading of the Christian go",
+      "lead": "Evangelicalism (), also called evangelical Christianity, is a worldwide, interdenominational movement within Protestant Christianity that emphasizes evangelism, or the preaching and spreading of the Christian gospel. The term evangelical is",
       "image": ""
     },
     "Charles_Dickens": {
@@ -2131,6 +2151,11 @@
       "title": "Benjamin Disraeli",
       "lead": "Benjamin Disraeli, 1st Earl of Beaconsfield (born Benjamin D'Israeli; 21 December 1804 – 19 April 1881), was a British statesman, Conservative politician and writer who twice served as Prime Minister of the United Kingdom. He played a centr",
       "image": "Benjamin_Disraeli,_Earl_of_Beaconsfield_(3x4_cropped).jpg"
+    },
+    "Christianity": {
+      "title": "Christianity",
+      "lead": "Christianity is an Abrahamic monotheistic religion based on the Bible and the teachings of Jesus. The Gospels state that Jesus is the Son of God and rose from the dead after his crucifixion, whose coming as the messiah (Christ) was prophesi",
+      "image": "Church_of_the_Holy_Sepulchre_by_Gerd_Eichmann_(cropped).jpg"
     },
     "Thomas_Robert_Malthus": {
       "title": "Thomas Robert Malthus",
@@ -2197,6 +2222,16 @@
       "lead": "Liège ( lee-EZH, lee-AYZH; French: [ljɛʒ] ; Walloon: Lîdje [liːtʃ]; Dutch: Luik [lœyk] ; German: Lüttich [ˈlʏtɪç] ) is a city and municipality in the Belgian region of Wallonia, and the capital of the eponymous province. The city is situate",
       "image": "Liege_View_03.jpg"
     },
+    "United_States": {
+      "title": "United States",
+      "lead": "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C. The 48",
+      "image": "Flag_of_the_United_States_(DDD-F-416E_specifications).svg"
+    },
+    "Prussia": {
+      "title": "Prussia",
+      "lead": "Prussia (; German: Preußen [ˈpʁɔʏsn̩] ; Old Prussian: Prūsija) was a German state centred on the North European Plain. It originated from the 1525 secularization act of the Prussian part of the State of the Teutonic Order. For centuries, th",
+      "image": "Flag_of_the_Kingdom_of_Prussia_(1803-1892).svg"
+    },
     "Samuel_Slater": {
       "title": "Samuel Slater",
       "lead": "Samuel Slater (June 9, 1768 – April 21, 1835) was an early English-American industrialist known as the \"Father of the American Industrial Revolution\", a phrase coined by Andrew Jackson, and the \"Father of the American Factory System\". In th",
@@ -2224,7 +2259,7 @@
     },
     "Abraham_Lincoln": {
       "title": "Abraham Lincoln",
-      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederate States a",
+      "lead": "Abraham Lincoln (February 12, 1809 – April 15, 1865) was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederacy and play",
       "image": "Abraham_Lincoln_1863_Portrait_(3x4_cropped).jpg"
     },
     "Henry_Bessemer": {

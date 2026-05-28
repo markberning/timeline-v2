@@ -92,7 +92,7 @@
     },
     "Rule_of_Saint_Benedict": {
       "title": "Rule of Saint Benedict",
-      "lead": "The Rule of Saint Benedict (Latin: Regula Sancti Benedicti) is a book of precepts written in Latin c. 530 by St. Benedict of Nursia (c. AD 480–550) for monks living communally under the authority of an abbot. The spirit of Saint Benedict's ",
+      "lead": "The Rule of Saint Benedict (Latin: Regula Sancti Benedicti) is a book of precepts written in Latin c. 530 by St. Benedict of Nursia (c. 480 – c. 550) for monks living communally under the authority of an abbot. The spirit of Saint Benedict'",
       "image": "MS._Hatton_48_fol._6v-7r.jpg"
     },
     "Monte_Cassino": {
@@ -117,7 +117,7 @@
     },
     "Augustine_of_Canterbury": {
       "title": "Augustine of Canterbury",
-      "lead": "Augustine of Canterbury (early 6th century – c. 26 May 604 (or 605)) was a Christian monk who became the first archbishop of Canterbury in the year 597. Augustine was the prior of a monastery in Rome when Pope Gregory the Great chose him in",
+      "lead": "Augustine of Canterbury (early 6th century – c. 26 May 604, or 605) was a Christian monk who became the first Archbishop of Canterbury in the year 597. He was the prior of a Benedictine monastery in Rome when Pope Gregory I chose him in 595",
       "image": "LeningradBedeHiRes.jpg"
     },
     "Iona_Abbey": {
@@ -854,7 +854,7 @@
     },
     "Petrarch": {
       "title": "Petrarch",
-      "lead": "Francis Petrarch (born Francesco di Petracco; 20 July 1304 – 19 July 1374) was an Italian scholar and poet of the early Italian Renaissance, as well as one of the earliest humanists. Petrarch's rediscovery of Cicero's letters is often credi",
+      "lead": "Francis Petrarch (born Francesco di Petracco; 20 July 1304 – 19 July 1374) was an Italian scholar and poet of the early Italian Renaissance, as well as one of the earliest Renaissance humanists. Petrarch's rediscovery of Cicero's letters is",
       "image": "Portrait_of_Francesco_Petrarca_(called_Petrarch)_-_French_school,_17th_century.jpg"
     },
     "Mesoamerica": {
@@ -887,9 +887,14 @@
       "lead": "Denmark is a Nordic country in Northern Europe. It is the metropole and most populous constituent of the Kingdom of Denmark, also known as the Danish Realm, a constitutionally unitary state that includes the autonomous territories of the Fa",
       "image": "Flag_of_Denmark.svg"
     },
+    "Northumbria": {
+      "title": "Northumbria",
+      "lead": "Northumbria was an early medieval English kingdom, existing between 654 and 1066 AD, spanning modern-day Northern England and Southern Scotland. The name derives from the Old English Norþhymbre meaning \"the people or province north of the H",
+      "image": "Map_of_the_Kingdom_of_Northumbria_around_700_AD.svg"
+    },
     "Theodora_(wife_of_Justinian_I)": {
       "title": "Theodora (wife of Justinian I)",
-      "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was Eastern Roman empress and wife of emperor Justinian I. She was of humble origins and became empress when her husband became emperor in 527. Theodora was one of his chief political ad",
+      "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was the wife of emperor Justinian I and Eastern Roman empress from 527 until her death. Theodora was one of Justinian's chief political advisers. She is recognized as a saint in the East",
       "image": "Theodora_mosaic_-_Basilica_San_Vitale_(Ravenna)_v2.jpg"
     },
     "Belisarius": {
@@ -939,7 +944,7 @@
     },
     "Battle_of_Taginae": {
       "title": "Battle of Taginae",
-      "lead": "The Battle of Taginae or Battle of Busta Gallorum took place in July of 552 AD, where Byzantines led by Chamberlain Narses defeated the Ostrogoths (Goths) under King Totila. The Byzantine victory paved the way for the Byzantine reconquest o",
+      "lead": "The Battle of Taginae or Battle of Busta Gallorum took place in July of 552 AD, where Byzantines led by Narses defeated the Ostrogoths (Goths) under King Totila. The Byzantine victory paved the way for the Byzantine reconquest of the Italia",
       "image": "Gothic_War_army_movements_second_phase.svg"
     },
     "Procopius": {
@@ -1039,8 +1044,8 @@
     },
     "Battle_of_Mons_Lactarius": {
       "title": "Battle of Mons Lactarius",
-      "lead": "The Battle of Mons Lactarius (also known as Battle of the Vesuvius) took place in 552 or 553 AD during the Gothic War (535–554) between Byzantine forces and the Ostrogoths (Goths) near Mount Vesuvius in Italy. Byzantine forces, led by Gener",
-      "image": "Gothic_Battle_of_Mons_Lactarius_on_Vesuvius.jpg"
+      "lead": "The Battle of Mons Lactarius (also known as Battle of the Vesuvius) took place in October 552 AD during the Gothic War (535–554) between Byzantine forces and the Ostrogoths (Goths) near Mount Vesuvius in Italy. After the defeat and death of",
+      "image": "Gothic_War_army_movements_second_phase.svg"
     },
     "Latin": {
       "title": "Latin",
@@ -1049,7 +1054,7 @@
     },
     "Gothic_War_(535%E2%80%93554)": {
       "title": "Gothic War (535–554)",
-      "lead": "The Gothic War between the Eastern Roman Empire (Byzantine Empire) during the reign of Emperor Justinian I and the Ostrogothic Kingdom of Italy took place from 535 to 554 in the Italian peninsula, Dalmatia, Sardinia, Sicily, and Corsica. It",
+      "lead": "The Gothic War between the Eastern Roman Empire (Byzantine Empire) during the reign of Emperor Justinian I and the Ostrogothic Kingdom of Italy took place from 535 to 554 in the Italian Peninsula, Dalmatia, Sardinia, Sicily, and Corsica. It",
       "image": "Erster_und_Zweiter_Gotenkrieg.png"
     },
     "Eurasia": {
@@ -1071,6 +1076,11 @@
       "title": "Thebes, Greece",
       "lead": "Thebes ( THEEBZ; Greek: Θήβα, Thíva [ˈθiva]; Ancient Greek: Θῆβαι, Thêbai [tʰɛ̂ːbai̯]) is a city in Boeotia, Central Greece, and one of the oldest continuously inhabited cities in the world. It is the largest city in Boeotia and a major cen",
       "image": "Vue_Nord_Ville_-_Thèbes_(GR03)_-_2022-03-21_-_3.jpg"
+    },
+    "Andean_civilizations": {
+      "title": "Andean civilizations",
+      "lead": "The Andean civilizations were South American complex societies of many indigenous people. They stretched down the spine of the Andes for 4,000 km (2,500 miles) from southern Colombia, to Ecuador and Peru, including the deserts of coastal Pe",
+      "image": "CHAPITRE_VII_Perou_(cropped).jpg"
     },
     "Monasticism": {
       "title": "Monasticism",
@@ -1232,11 +1242,6 @@
       "lead": "Titus Livius (Latin: [ˈtɪtʊs ˈliːwiʊs]; 59 BC – AD 17), known in English as Livy ( LIV-ee), was a Roman historian. He wrote a monumental history of Rome and the Roman people, titled Ab Urbe Condita, ''From the Founding of the City'', coveri",
       "image": "Titus-Livius-Austrian-Parliament-Building.jpg"
     },
-    "Northumbria": {
-      "title": "Northumbria",
-      "lead": "Northumbria was an early medieval English kingdom, existing between 654 and 1066 AD, spanning modern-day Northern England and Southern Scotland. The name derives from the Old English Norþhymbre meaning \"the people or province north of the H",
-      "image": "Map_of_the_Kingdom_of_Northumbria_around_700_AD.svg"
-    },
     "Oswald_of_Northumbria": {
       "title": "Oswald of Northumbria",
       "lead": "Oswald (Old English pronunciation: [ˈoːzwɑɫd]; c. 604 – 5 August 641/642) was King of Northumbria from 634 until his death, and is venerated as a saint, of whom there was a particular cult in the Middle Ages. Oswald was the son of Æthelfrit",
@@ -1269,7 +1274,7 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was the historical name for the City of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
     },
     "Alexandria": {
@@ -1484,7 +1489,7 @@
     },
     "Paganism": {
       "title": "Paganism",
-      "lead": "In early Christianity, paganism (from Latin: paganus, lit. 'rustic') collectively referred to the diverse religious practices of all people who were polytheists. More specifically, it denoted anyone who did not adhere to an Abrahamic religi",
+      "lead": "In early Christianity, paganism (from Latin: paganus, lit. 'rustic') collectively referred to the diverse religious practices of all people who were pantheists. More specifically, it denoted anyone who did not adhere to an Abrahamic religio",
       "image": "Die_Gartenlaube_(1887)_b_016.jpg"
     },
     "Illuminated_manuscript": {
@@ -1532,6 +1537,16 @@
       "lead": "Canonization is the declaration of a deceased person as an officially recognized saint, specifically, the official act of a Christian communion declaring a person worthy of public veneration and entering their name in the canon catalogue of",
       "image": "Canonization_of_the_Martyrs_of_Katyn_by_the_Polish_Orthodox_Church_(25).jpg"
     },
+    "English_Channel": {
+      "title": "English Channel",
+      "lead": "The English Channel, also known as the Channel, is an arm of the Atlantic Ocean that separates Southern England from northern France. It links to the southern part of the North Sea by the Strait of Dover at its northeastern end. It is the b",
+      "image": "English_Channel_Satellite.jpg"
+    },
+    "Ethiopia": {
+      "title": "Ethiopia",
+      "lead": "Ethiopia, officially the Federal Democratic Republic of Ethiopia, is a landlocked country located in the Horn of Africa region of East Africa. It shares borders with Eritrea to the north, Djibouti to the northeast, Somalia to the east, Keny",
+      "image": "Flag_of_Ethiopia.svg"
+    },
     "Caliph": {
       "title": "Caliphate",
       "lead": "A caliphate is an institution or public office under the leadership of an Islamic steward with the title of caliph (), a person considered a political–religious successor to the Islamic prophet Muhammad and a leader of the entire Muslim wor",
@@ -1554,7 +1569,7 @@
     },
     "Berbers": {
       "title": "Berbers",
-      "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. They are indigenous to the Maghre",
+      "lead": "Berbers, also known as Amazigh or Imazighen, are an ethnic group indigenous to North Africa. They are primarily connected by their use of Berber languages, which are part of the Afroasiatic language family. The Berbers are indigenous to the",
       "image": "Berber_flag.svg"
     },
     "Roderic": {
@@ -1902,6 +1917,11 @@
       "lead": "Danes (Danish: danskere, pronounced [ˈtænskɐɐ]), or Danish people, are an ethnic group and nationality native to Denmark and a modern nation identified with the country of Denmark. This connection may be ancestral, legal, historical, or cul",
       "image": "Map_of_the_Danish_Diaspora_in_the_World.svg"
     },
+    "Polish_language": {
+      "title": "Polish language",
+      "lead": "Polish (endonym: język polski, [ˈjɛ̃zɘ̟k ˈpɔlskʲi] , polszczyzna [pɔlˈʂt͡ʂɘ̟zna] or simply polski, [ˈpɔlskʲi] ) is a West Slavic language of the Lechitic subgroup, within the Indo-European language family, and is written in the Latin script",
+      "image": "Map_of_Polish_language.svg"
+    },
     "Benedict_of_Aniane": {
       "title": "Benedict of Aniane",
       "lead": "Benedict of Aniane (Latin: Benedictus Anianensis; German: Benedikt von Aniane; c. 747 – 12 February 821 AD), born Witiza and called the Second Benedict, was a Benedictine monk and monastic reformer who had a substantial impact on the religi",
@@ -2019,7 +2039,7 @@
     },
     "Duchy_of_Saxony": {
       "title": "Duchy of Saxony",
-      "lead": "The Duchy of Saxony (Low German: Hartogdom Sassen) was a medieval duchy that was encompassing the Old Saxony, a historical region settled by the Saxons since the Migration Period. Initially independent, it came under the sphere of influence",
+      "lead": "The Duchy of Saxony (Low German: Hartogdom Sassen) was a medieval duchy that encompassed Old Saxony, a historical region settled by the Saxons since the Migration Period. Initially independent, it came under the sphere of influence of the n",
       "image": "Saxony_locator_map_(1000).svg"
     },
     "Middle_Francia": {
@@ -2071,6 +2091,11 @@
       "title": "Partible inheritance",
       "lead": "Partible inheritance, sometimes also called partitive, is a system of inheritance in which property is apportioned among heirs. It contrasts in particular with primogeniture, which was common in feudal society and requires that the whole or",
       "image": ""
+    },
+    "Franco-Prussian_War": {
+      "title": "Franco-Prussian War",
+      "lead": "The Franco-Prussian War or Franco-German War, often referred to in France as the War of 1870, was a conflict between the Second French Empire and the North German Confederation led by the Kingdom of Prussia. Lasting from 19 July 1870 to 28 ",
+      "image": "A_v_Werner_-_Kaiserproklamation_am_18_Januar_1871_(3._Fassung_1885).jpg"
     },
     "Symeon_of_Durham": {
       "title": "Symeon of Durham",
@@ -2139,7 +2164,7 @@
     },
     "Carpathian_Mountains": {
       "title": "Carpathian Mountains",
-      "lead": "The Carpathian Mountains or Carpathians () are a range of mountains forming an arc across Central Europe and Southeast Europe. Roughly 1,500 km (930 mi) long, it is the third-longest European mountain range after the Urals at 2,500 km (1,60",
+      "lead": "The Carpathian Mountains, Carpathians or Carpathian Alps () are a range of mountains forming an arc across Central Europe and Southeast Europe. Roughly 1,500 km (930 mi) long, it is the third-longest European mountain range after the Urals ",
       "image": "Morskie_Oko_in_2020.jpg"
     },
     "Pannonian_Basin": {
@@ -2224,7 +2249,7 @@
     },
     "Duchy_of_Normandy": {
       "title": "Duchy of Normandy",
-      "lead": "The Duchy of Normandy grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 until 1204, as a result of the No",
+      "lead": "The Duchy of Normandy was a French Vassal state that grew out of the 911 Treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the Viking leader Rollo. The duchy was named for its inhabitants, the Normans. From 1066 un",
       "image": "Flag_of_Normandie.svg"
     },
     "Norman_dynasty": {
@@ -2269,7 +2294,7 @@
     },
     "Eastern_Orthodox_Church": {
       "title": "Eastern Orthodox Church",
-      "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches that adh",
+      "lead": "The Eastern Orthodox Church, officially the Orthodox Catholic Church, also known as the Greek Orthodox Church or simply the Orthodox Church, is a Christian communion of autocephalous national and regional Eastern Christian churches. It is o",
       "image": "St._George's_Cathedral_2022_(6).jpg"
     },
     "Indo-European_languages": {
@@ -2294,7 +2319,7 @@
     },
     "Syracuse,_Sicily": {
       "title": "Syracuse, Sicily",
-      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Sarausa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern It",
+      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Saragusa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern I",
       "image": "Veduta_aerea_di_Siracusa_e_con_l'Etna_sullo_sfondo_(Foto_di_Angelo_Bonomo).jpg"
     },
     "Tiber": {
@@ -2316,6 +2341,11 @@
       "title": "Árpád",
       "lead": "Árpád (Hungarian pronunciation: [ˈaːrpaːd]; c. 845 – c. 907) was the head of the confederation of the Magyar tribes at the turn of the 9th and 10th centuries. He might have been either the sacred ruler or kende of the Hungarians, or their m",
       "image": "Árpád_Ráckeve.JPG"
+    },
+    "Somerset": {
+      "title": "Somerset",
+      "lead": "Somerset ( SUM-ər-set, -⁠sit), archaically Somersetshire ( SUM-ər-set-sheer, -⁠sit-, -⁠shər), is a ceremonial county in South West England. It is bordered by the Bristol Channel, Bristol, and Gloucestershire to the north, Wiltshire to the e",
+      "image": "Puente_Pulteney,_Bath,_Inglaterra,_2014-08-12,_DD_51.JPG"
     },
     "Battle_of_Riade": {
       "title": "Battle of Riade",
@@ -2561,6 +2591,16 @@
       "title": "Amalfi",
       "lead": "Amalfi (UK: , US: , Italian: [aˈmalfi]) is a town and comune in the province of Salerno, in the region of Campania, Italy, on the Gulf of Salerno. It lies at the mouth of a deep ravine, at the foot of Monte Cerreto (1,315 metres, 4,314 feet",
       "image": "Amalfi_sea_view_Italy.JPG"
+    },
+    "Poland": {
+      "title": "Poland",
+      "lead": "Poland, officially the Republic of Poland, is a country in Central Europe. It extends from the Baltic Sea in the north to the Sudetes and Carpathian Mountains in the south, and borders Lithuania and Russia to the northeast; Belarus and Ukra",
+      "image": "Flag_of_Poland.svg"
+    },
+    "Christendom": {
+      "title": "Christendom",
+      "lead": "Christendom or the Christian world are terms commonly used to refer to the global Christian community, Christian states, Christian-majority countries or countries in which Christianity is dominant or prevails. Following the spread of Christ",
+      "image": "Percent_of_Christians_by_Country–Pew_Research_2011.svg"
     }
   }
 }

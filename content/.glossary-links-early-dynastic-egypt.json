@@ -203,6 +203,24 @@
       "matchText": "Mediterranean",
       "wikiSlug": "Mediterranean_Sea",
       "type": "place"
+    },
+    {
+      "term": "Ethiopian Highlands",
+      "matchText": "Ethiopian highlands",
+      "wikiSlug": "Ethiopian_Highlands",
+      "type": "glossary"
+    },
+    {
+      "term": "Middle East",
+      "matchText": "Middle East",
+      "wikiSlug": "Middle_East",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -404,6 +422,24 @@
       "matchText": "cylinder-seal",
       "wikiSlug": "Cylinder_seal",
       "type": "concept"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "glossary"
+    },
+    {
+      "term": "Egyptologists",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -697,6 +733,12 @@
       "matchText": "Hierakonpolis",
       "wikiSlug": "Hierakonpolis",
       "type": "place"
+    },
+    {
+      "term": "Levantine",
+      "matchText": "Levantine",
+      "wikiSlug": "Levant",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -1019,6 +1061,12 @@
       "matchText": "Nippur",
       "wikiSlug": "Nippur",
       "type": "place"
+    },
+    {
+      "term": "Lebanese",
+      "matchText": "Lebanese",
+      "wikiSlug": "Lebanon",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1117,6 +1165,18 @@
       "matchText": "rammed-earth",
       "wikiSlug": "Rammed_earth",
       "type": "concept"
+    },
+    {
+      "term": "Catholicism",
+      "matchText": "Catholicism",
+      "wikiSlug": "Catholic_Church",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1263,6 +1323,18 @@
       "matchText": "solar bark",
       "wikiSlug": "Solar_barque",
       "type": "concept"
+    },
+    {
+      "term": "Saharan",
+      "matchText": "Saharan",
+      "wikiSlug": "Sahara",
+      "type": "glossary"
+    },
+    {
+      "term": "Mesopotamian",
+      "matchText": "Mesopotamian",
+      "wikiSlug": "Mesopotamia",
+      "type": "glossary"
     }
   ]
 }

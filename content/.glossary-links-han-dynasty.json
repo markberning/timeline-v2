@@ -273,6 +273,18 @@
       "matchText": "Junchen",
       "wikiSlug": "Junchen_Chanyu",
       "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Persians",
+      "matchText": "Persian",
+      "wikiSlug": "Persians",
+      "type": "glossary"
     }
   ],
   "3": [
@@ -521,6 +533,24 @@
       "matchText": "Yuezhi",
       "wikiSlug": "Yuezhi",
       "type": "people"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasia",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
+    },
+    {
+      "term": "Viet people",
+      "matchText": "Vietnamese",
+      "wikiSlug": "Kinh_people",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -644,6 +674,12 @@
       "matchText": "Fan Li",
       "wikiSlug": "Fan_Li",
       "type": "people"
+    },
+    {
+      "term": "Israelites",
+      "matchText": "Israelite",
+      "wikiSlug": "Israelites",
+      "type": "glossary"
     }
   ],
   "5": [
@@ -737,6 +773,12 @@
       "matchText": "Chimei",
       "wikiSlug": "Red_Eyebrow_Rebellion",
       "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -949,6 +991,30 @@
       "matchText": "Nanyue",
       "wikiSlug": "Nanyue",
       "type": "concept"
+    },
+    {
+      "term": "Central Asia",
+      "matchText": "Central Asian",
+      "wikiSlug": "Central_Asia",
+      "type": "glossary"
+    },
+    {
+      "term": "Iranian peoples",
+      "matchText": "Iranian",
+      "wikiSlug": "Iranian_peoples",
+      "type": "glossary"
+    },
+    {
+      "term": "Women in imperial China",
+      "matchText": "women should defer",
+      "wikiSlug": "Women_in_ancient_and_imperial_China",
+      "type": "glossary"
+    },
+    {
+      "term": "Islamic Golden Age",
+      "matchText": "Islamic Golden Age",
+      "wikiSlug": "Islamic_Golden_Age",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -1071,6 +1137,12 @@
       "matchText": "Sichuan",
       "wikiSlug": "Sichuan",
       "type": "place"
+    },
+    {
+      "term": "Earth",
+      "matchText": "Earth",
+      "definition": "In Chinese cosmology, Earth (Di) is the lower complement to Heaven (Tian), with humanity occupying the middle realm between them. Han Confucian thought treated Heaven, Earth, and Humanity as one interconnected system, so a just social order on Earth was supposed to mirror cosmic harmony above.",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -1218,6 +1290,12 @@
       "matchText": "Five Elements",
       "wikiSlug": "Wuxing_(Chinese_philosophy)",
       "type": "concept"
+    },
+    {
+      "term": "Eurasia",
+      "matchText": "Eurasian",
+      "wikiSlug": "Eurasia",
+      "type": "glossary"
     }
   ]
 }
