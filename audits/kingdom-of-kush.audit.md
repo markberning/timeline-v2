@@ -442,3 +442,11 @@
 6. Ch 4: 1,800-mile empire extent — specify endpoints
 7. Ch 6: "At least seven Kandakes" — note the counting ambiguity
 8. Ch 8: Edict of Milan shorthand — "legalized Christianity" is slightly imprecise
+
+## Backward cross-cultural pass (Persona-E) — 2026-05-28 link-coverage sweep
+
+Disposition: **link-only sweep**, no narrative prose changed — born-verified
+glossary links added (Elam, Ethiopian Highlands, Macedonia, Thai script, Ethiopia,
+Ancient South Arabian script) plus one universal-basic Earth waiver. No new
+cross-cultural narrative claim, so **no new backward findings**; forward
+cross-links re-verified (0 FAIL).

@@ -744,6 +744,12 @@
       "matchText": "Susa",
       "term": "Susa",
       "wikiSlug": "Susa"
+    },
+    {
+      "term": "Neo-Elamite",
+      "matchText": "Neo-Elamite",
+      "wikiSlug": "Elam",
+      "type": "glossary"
     }
   ],
   "4": [
@@ -1205,6 +1211,18 @@
       "matchText": "Saharan",
       "term": "Saharan",
       "wikiSlug": "Sahara"
+    },
+    {
+      "term": "Ethiopian",
+      "matchText": "Ethiopian",
+      "wikiSlug": "Ethiopian_Highlands",
+      "type": "glossary"
+    },
+    {
+      "term": "Macedonian",
+      "matchText": "Macedonian",
+      "wikiSlug": "Macedonia_(ancient_kingdom)",
+      "type": "glossary"
     }
   ],
   "6": [
@@ -1518,6 +1536,12 @@
       "matchText": "Southeast Asian",
       "term": "Southeast Asian",
       "wikiSlug": "Southeast_Asia"
+    },
+    {
+      "term": "Thai",
+      "matchText": "Thai",
+      "wikiSlug": "Thai_script",
+      "type": "glossary"
     }
   ],
   "7": [
@@ -2103,6 +2127,18 @@
       "matchText": "Parthians",
       "term": "Parthians",
       "wikiSlug": "Parthian_Empire"
+    },
+    {
+      "term": "Ethiopia",
+      "matchText": "Ethiopia",
+      "wikiSlug": "Ethiopia",
+      "type": "glossary"
+    },
+    {
+      "term": "South Arabian",
+      "matchText": "South Arabian",
+      "wikiSlug": "Ancient_South_Arabian_script",
+      "type": "glossary"
     }
   ]
 }

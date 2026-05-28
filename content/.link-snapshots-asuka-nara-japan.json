@@ -72,7 +72,7 @@
     },
     "Tang_dynasty": {
       "title": "Tang dynasty",
-      "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
+      "lead": "The Tang dynasty, or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui dynasty and followed by the Five Dynasties and Ten Kingdoms period. Histo",
       "image": "Tang_outline_map,_661.svg"
     },
     "Isshi_incident": {
@@ -389,7 +389,7 @@
     },
     "Tang_dynasty": {
       "title": "Tang dynasty",
-      "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
+      "lead": "The Tang dynasty, or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui dynasty and followed by the Five Dynasties and Ten Kingdoms period. Histo",
       "image": "Tang_outline_map,_661.svg"
     },
     "Taika_Reform": {
@@ -769,8 +769,18 @@
     },
     "Theodora_(wife_of_Justinian_I)": {
       "title": "Theodora (wife of Justinian I)",
-      "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was Eastern Roman empress and wife of emperor Justinian I. She was of humble origins and became empress when her husband became emperor in 527. Theodora was one of his chief political ad",
+      "lead": "Theodora (; Greek: Θεοδώρα; c. 490/500 – 28 June 548) was the wife of emperor Justinian I and Eastern Roman empress from 527 until her death. Theodora was one of Justinian's chief political advisers. She is recognized as a saint in the East",
       "image": "Theodora_mosaic_-_Basilica_San_Vitale_(Ravenna)_v2.jpg"
+    },
+    "Earth": {
+      "title": "Earth",
+      "lead": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water",
+      "image": "Meteosat-12-fci-march-equinox-2025-noon_(cropped).jpg"
+    },
+    "Central_Asia": {
+      "title": "Central Asia",
+      "lead": "Central Asia is a region of Asia consisting of Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan, and most of Kazakhstan. The countries as a group are also colloquially referred to as the \"-stans\" as all have names ending with the Persian su",
+      "image": "Central_Asia_(orthographic_projection).svg"
     },
     "Soga_no_Iruka": {
       "title": "Soga no Iruka",
@@ -924,7 +934,7 @@
     },
     "Emperor_of_Japan": {
       "title": "Emperor of Japan",
-      "lead": "The emperor of Japan is the hereditary monarch and head of state of Japan. The emperor is defined by the Constitution of Japan as the symbol of the Japanese state and the unity of the Japanese people, his position deriving from \"the will of",
+      "lead": "The Emperor of Japan is the hereditary monarch and head of state of Japan. The emperor is defined by the Constitution of Japan as the symbol of the Japanese state and the unity of the Japanese people, his position deriving from \"the will of",
       "image": "Flag_of_the_Japanese_Emperor.svg"
     },
     "Hieda_no_Are": {
@@ -939,7 +949,7 @@
     },
     "Amaterasu": {
       "title": "Amaterasu",
-      "lead": "Amaterasu Ōmikami (天照大（御）神; Japanese pronunciation: [aꜜ.ma.te.ɾa.sɯ | oː.mʲiꜜ.ka.mʲi]), often called Amaterasu ([aꜜ.ma.te.ɾa.sɯ]) for short, also known as Amateru Kami (天照神) and Ōhirume no Muchi (大日孁貴), is the goddess of the sun in Japanese",
+      "lead": "Amaterasu Ōmikami (天照大（御）神; Japanese pronunciation: [aꜜ.ma.te.ɾa.sɯ | oː.mʲiꜜ.ka.mʲi]), often called Amaterasu ([aꜜ.ma.te.ɾa.sɯ], A-ma-TE-russ) for short, also known as Amateru Kami (天照神) and Ōhirume no Muchi (大日孁貴), is the goddess of the s",
       "image": "Amaterasu_cave_crop.jpg"
     },
     "Ise_Grand_Shrine": {
@@ -1084,7 +1094,7 @@
     },
     "Emperor_Xuanzong_of_Tang": {
       "title": "Emperor Xuanzong of Tang",
-      "lead": "Emperor Xuanzong of Tang ([ɕwǎn.tsʊ́ŋ]; 8 September 685 – 3 May 762), personal name Li Longji, was an emperor of the Tang dynasty of China, reigning from 712 to 756. His reign of 44 years was the longest during the Tang dynasty. Through two",
+      "lead": "Emperor Xuanzong of Tang ([ɕɥɛ̌n.tsʊ́ŋ]; 8 September 685 – 3 May 762), personal name Li Longji, was an emperor of the Tang dynasty of China, reigning from 712 to 756. His reign of 44 years was the longest during the Tang dynasty. Through tw",
       "image": "李隆基像.jpg"
     },
     "Li_Bai": {
@@ -1109,7 +1119,7 @@
     },
     "Tokyo": {
       "title": "Tokyo",
-      "lead": "Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. With a population of over 14 million in the city proper in 2023, it is one of the most populous urban areas in the world. The Greater Tokyo Area, which ",
+      "lead": "Tokyo, officially the Tokyo Metropolis, is the capital and most populous city of Japan. The population of the city proper was over 14 million as of 2023. The Greater Tokyo Area, which includes Tokyo and parts of six neighboring prefectures,",
       "image": "Skyscrapers_of_Shinjuku_2009_January.jpg"
     },
     "T%C5%8Ddai-ji": {
@@ -1136,6 +1146,11 @@
       "title": "Nara period",
       "lead": "The Nara period (奈良時代, Nara jidai; Japanese pronunciation: [na.ɾa (d)ʑiꜜ.dai]) of the history of Japan covers the years from 710 to 794, it succeeded the Asuka period and is followed by the Heian period. Empress Genmei established the capit",
       "image": "Gokishichido.svg"
+    },
+    "Hizen_Province": {
+      "title": "Hizen Province",
+      "lead": "Hizen Province (肥前国, Hizen no Kuni; Japanese pronunciation: [çiꜜ.(d)zeɴ, -(d)zen no kɯ.ɲi]) was an old province of Japan in the area of the Saga and Nagasaki prefectures. It was sometimes called Hishū (肥州), with Higo Province. Hizen bordere",
+      "image": "Provinces_of_Japan-Hizen.svg"
     },
     "Smallpox": {
       "title": "Smallpox",
@@ -1284,7 +1299,7 @@
     },
     "Java": {
       "title": "Java",
-      "lead": "Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the Indian Ocean to the south and the Java Sea (a part of Pacific Ocean) to the north. With a population of 156.9 million people (inclu",
+      "lead": "Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the Indian Ocean to the south and the Java Sea (a part of Pacific Ocean) to the north. With a population of 158.08 million people (incl",
       "image": "Java_Topography.png"
     },
     "Izanagi": {

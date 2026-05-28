@@ -674,7 +674,7 @@
     },
     "Mica": {
       "title": "Mica",
-      "lead": "Micas ( MY-kəz) are a group of silicate minerals whose outstanding physical characteristic is that individual mica crystals can easily be split into fragile elastic plates. This characteristic is described as perfect basal cleavage. Mica is",
+      "lead": "Micas () are a group of silicate minerals whose outstanding physical characteristic is that individual mica crystals can easily be split into fragile elastic plates. This characteristic is described as perfect basal cleavage. Mica is common",
       "image": "Mica_(6911818878).jpg"
     },
     "Guatemala": {
@@ -784,7 +784,7 @@
     },
     "Constantinople": {
       "title": "Constantinople",
-      "lead": "Constantinople (see other names) was a historical city located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopolis in Bithynia, Anatolia (Asia Minor) to th",
+      "lead": "Constantinople (see other names) was the historical name for the city of Istanbul up until 1930, located on a peninsula at the southeastern tip of Thrace in Europe; with the Bosporus strait and the ancient cities of Chalcedon and Chrysopoli",
       "image": "Byzantine_Constantinople-en.png"
     },
     "Gupta_Empire": {
@@ -824,13 +824,23 @@
     },
     "Tang_dynasty": {
       "title": "Tang dynasty",
-      "lead": "The Tang dynasty (; Chinese: 唐朝; pinyin: Tángcháo; Wade–Giles: T'ang-ch'ao [tʰɑ̌ŋ ʈʂʰɑ̌ʊ]), or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui",
+      "lead": "The Tang dynasty, or the Tang Empire, was an imperial dynasty of China that ruled from 618 to 907, with an interregnum between 690 and 705. It was preceded by the Sui dynasty and followed by the Five Dynasties and Ten Kingdoms period. Histo",
       "image": "Tang_outline_map,_661.svg"
     },
     "Veracruz": {
       "title": "Veracruz",
       "lead": "Veracruz, officially the Free and Sovereign State of Veracruz de Ignacio de la Llave, is one of the 31 states which, along with Mexico City, comprise the 32 Federal Entities of Mexico. Located in eastern Mexico, Veracruz is bordered by seve",
       "image": "Veracruz_in_Mexico_(location_map_scheme).svg"
+    },
+    "Tenochtitlan": {
+      "title": "Tenochtitlan",
+      "lead": "Tenochtitlan, also known as Mexico-Tenochtitlan, was a large Mexican altepetl in what is now the historic center of Mexico City. The exact date of the founding of the city is unclear, but the date 13 March 1325 was chosen in 1925 to celebra",
+      "image": "Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_(9755215791).jpg"
+    },
+    "Eurasia": {
+      "title": "Eurasia",
+      "lead": "Eurasia ( yoor-AY-zhə, also UK: -⁠shə) is the largest continental area on Earth, comprising all of Europe and Asia. According to some models of the world, physio-graphically, Eurasia is a single supercontinent. The concept of Europe and Asi",
+      "image": "Eurasia_(orthographic_projection).svg"
     },
     "Pet%C3%A9n_Department": {
       "title": "Petén Department",
@@ -907,6 +917,11 @@
       "lead": "Copán is an archaeological site of the Maya civilization in the Copán Department of western Honduras, not far from the border with Guatemala. It is one of the most important sites of the Maya civilization, which was not excavated until the ",
       "image": "Copan_sculpture.jpg"
     },
+    "Mesopotamia": {
+      "title": "Mesopotamia",
+      "lead": "Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It corresponds roughly to the territory of modern Iraq. Just beyond it lies southwestern Iran, ",
+      "image": "N-Mesopotamia_and_Syria_english.svg"
+    },
     "Tl%C4%81l%C5%8Dc%C4%81n": {
       "title": "Tlālōcān",
       "lead": "Tlālōcān (Nahuatl pronunciation: [t͡ɬaːˈloːkaːn̥]; \"place of Tlāloc\") is described in several Aztec codices as a paradise, ruled over by the rain deity Tlāloc and his consort Chalchiuhtlicue. It absorbed those who died through drowning or l",
@@ -959,13 +974,8 @@
     },
     "Coyote": {
       "title": "Coyote",
-      "lead": "The coyote (Canis latrans) is a species of canine also known as the American jackal, prairie wolf, and brush wolf. It is native to North America, and it is smaller than its close relative, the gray wolf, and slightly smaller than the closel",
+      "lead": "The coyote /kaɪ(j)oʊt(i)/ (Canis latrans) is a species of canine also known as the American jackal, prairie wolf, and brush wolf. It is native to North America, and it is smaller than its close relative, the gray wolf, and slightly smaller ",
       "image": "2009-Coyote-Yosemite.jpg"
-    },
-    "Tenochtitlan": {
-      "title": "Tenochtitlan",
-      "lead": "Tenochtitlan, also known as Mexico-Tenochtitlan, was a large Mexican altepetl in what is now the historic center of Mexico City. The exact date of the founding of the city is unclear, but the date 13 March 1325 was chosen in 1925 to celebra",
-      "image": "Painting_of_Tenochtitlan-Tlatelolco_on_Lake_Texcoco_(9755215791).jpg"
     },
     "Xochicalco": {
       "title": "Xochicalco",
@@ -1015,7 +1025,7 @@
     "Persepolis": {
       "title": "Persepolis",
       "lead": "Persepolis was the ceremonial capital of the Achaemenid Empire (c. 550–330 BC). It is situated in the plains of Marvdasht, encircled by the southern Zagros Mountains, Fars province of Iran. It is one of the key Iranian cultural heritage sit",
-      "image": "Gate_of_All_Nations,_Persepolis.jpg"
+      "image": ""
     },
     "Darius_the_Great": {
       "title": "Darius the Great",

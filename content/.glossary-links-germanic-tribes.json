@@ -119,6 +119,30 @@
       "matchText": "La Tène",
       "wikiSlug": "La_T%C3%A8ne_culture",
       "type": "concept"
+    },
+    {
+      "term": "Persian language",
+      "matchText": "Persian",
+      "wikiSlug": "Persian_language",
+      "type": "glossary"
+    },
+    {
+      "term": "Denmark",
+      "matchText": "Denmark",
+      "wikiSlug": "Denmark",
+      "type": "glossary"
+    },
+    {
+      "term": "Norway",
+      "matchText": "Norway",
+      "wikiSlug": "Norway",
+      "type": "glossary"
+    },
+    {
+      "term": "Danish islands",
+      "matchText": "Danish islands",
+      "wikiSlug": "Danish_islands",
+      "type": "glossary"
     }
   ],
   "2": [
@@ -641,6 +665,12 @@
       "matchText": "Marcomannic Wars",
       "wikiSlug": "Marcomannic_Wars",
       "type": "concept"
+    },
+    {
+      "term": "Early Christianity",
+      "matchText": "Christians",
+      "wikiSlug": "Early_Christianity",
+      "type": "glossary"
     }
   ],
   "8": [
@@ -837,6 +867,12 @@
       "matchText": "Migration Period",
       "wikiSlug": "Migration_Period",
       "type": "event"
+    },
+    {
+      "term": "Christianization",
+      "matchText": "Christianized",
+      "wikiSlug": "Christianization",
+      "type": "glossary"
     }
   ],
   "10": [
@@ -863,6 +899,12 @@
       "matchText": "Viking Age",
       "wikiSlug": "Viking_Age",
       "type": "concept"
+    },
+    {
+      "term": "Huns",
+      "matchText": "Hunnic",
+      "wikiSlug": "Huns",
+      "type": "glossary"
     }
   ]
 }
