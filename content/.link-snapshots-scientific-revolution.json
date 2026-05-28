@@ -57,7 +57,7 @@
     },
     "Giordano_Bruno": {
       "title": "Giordano Bruno",
-      "lead": "Giordano Bruno ( jor-DAH-noh BROO-noh; Italian: [dʒorˈdaːno ˈbruːno]; Latin: Iordanus Brunus Nolanus; born Filippo Bruno; February 1548 – 17 February 1600) was an Italian philosopher, poet, alchemist, astronomer, cosmological theorist, and ",
+      "lead": "Giordano Bruno ( jor-DAH-noh BROO-noh; Italian: [dʒorˈdaːno ˈbruːno]; Latin: Iordanus Brunus Nolanus; born Filippo Bruno; February 1548 – 17 February 1600) was a Neopolitan philosopher, poet, alchemist, astronomer, cosmological theorist, an",
       "image": "Portrait_of_Giordano_Bruno_in_\"Opere\"_Wellcome_L0015152_(cropped).jpg"
     },
     "De_Magnete": {
@@ -364,7 +364,7 @@
     },
     "Giordano_Bruno": {
       "title": "Giordano Bruno",
-      "lead": "Giordano Bruno ( jor-DAH-noh BROO-noh; Italian: [dʒorˈdaːno ˈbruːno]; Latin: Iordanus Brunus Nolanus; born Filippo Bruno; February 1548 – 17 February 1600) was an Italian philosopher, poet, alchemist, astronomer, cosmological theorist, and ",
+      "lead": "Giordano Bruno ( jor-DAH-noh BROO-noh; Italian: [dʒorˈdaːno ˈbruːno]; Latin: Iordanus Brunus Nolanus; born Filippo Bruno; February 1548 – 17 February 1600) was a Neopolitan philosopher, poet, alchemist, astronomer, cosmological theorist, an",
       "image": "Portrait_of_Giordano_Bruno_in_\"Opere\"_Wellcome_L0015152_(cropped).jpg"
     },
     "Dutch_East_India_Company": {
@@ -507,6 +507,11 @@
       "lead": "Sir Isaac Newton ( ; 4 January [O.S. 25 December] 1643 – 31 March [O.S. 20 March] 1727) was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, author and inventor. He was a key figure in the Scientifi",
       "image": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
     },
+    "Harmonice_Mundi": {
+      "title": "Harmonice Mundi",
+      "lead": "Harmonice Mundi (Latin: The Harmony of the World, 1619) is a book by Johannes Kepler. In the work, written entirely in Latin, Kepler discusses harmony and congruence in geometrical forms and physical phenomena. The final section of the work",
+      "image": "Harmonices_Mundi_0001-lg.jpg"
+    },
     "Republic_of_Letters": {
       "title": "Republic of Letters",
       "lead": "The Republic of Letters (Res Publica Litterarum or Res Publica Literaria) was the long-distance intellectual community in the late 17th and 18th centuries in Europe and the Americas. It fostered communication among the intellectuals of the ",
@@ -534,7 +539,7 @@
     },
     "Aether_(classical_element)": {
       "title": "Aether (classical element)",
-      "lead": "According to ancient and medieval science, aether (, alternative spellings include æther, aither, and ether), also known as the fifth element or quintessence, is the material that fills the region of the universe beyond the terrestrial sphe",
+      "lead": "According to ancient and medieval science, aether (; alternative spellings include æther, aither, and ether), also known as the fifth element or quintessence, is the material that fills the region of the universe beyond the terrestrial sphe",
       "image": ""
     },
     "Apparent_retrograde_motion": {
@@ -602,6 +607,76 @@
       "lead": "Atomism (from Ancient Greek ἄτομον (atomon) 'uncuttable, indivisible') is a natural philosophy proposing that the physical universe is composed of fundamental indivisible components known as atoms. References to the concept of atomism and i",
       "image": ""
     },
+    "Earth": {
+      "title": "Earth",
+      "lead": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water",
+      "image": "Meteosat-12-fci-march-equinox-2025-noon_(cropped).jpg"
+    },
+    "Ancient_Greece": {
+      "title": "Ancient Greece",
+      "lead": "Ancient Greece (Ancient Greek: Ἑλλάς, romanized: Hellás) was a northeastern Mediterranean civilization, existing from the Greek Dark Ages of the 12th–9th centuries BC to the end of classical antiquity (c. 600 AD), comprising a loose collect",
+      "image": "Map_of_Greece,_Archipelago_and_part_of_Anadoli;_Louis_Stanislas_d'Arcy_Delarochette_1791.jpg"
+    },
+    "Classical_Athens": {
+      "title": "Classical Athens",
+      "lead": "Classical or ancient Athens (Ancient Greek: Ἀθῆναι, Athênai [atʰɛ̂ːnai̯]; Modern Greek: Αθήναι, Athine [aˈθine]) was the major urban centre of the notable polis (city-state) of Athens during the classical period (480–323 BC) of ancient Gree",
+      "image": "Map_athenian_empire_431_BC-en.svg"
+    },
+    "Latin": {
+      "title": "Latin",
+      "lead": "Latin (lingua Latina or Latinum) is a classical language belonging to the Italic branch of the Indo-European languages. Latin was originally spoken by the Latins in Latium (now known as Lazio), the lower Tiber area around Rome, Italy. Throu",
+      "image": "Rome_Colosseum_inscription_2.jpg"
+    },
+    "Arabic": {
+      "title": "Arabic",
+      "lead": "Arabic is a Central Semitic language of the Afroasiatic language family spoken primarily in the Arab world. The International Organization for Standardization (ISO) assigns language codes to 32 varieties of Arabic, including its standard fo",
+      "image": "Arabic_speaking_world.svg"
+    },
+    "Mars": {
+      "title": "Mars",
+      "lead": "Mars is the fourth planet from the Sun. It is also known as the \"Red Planet\", for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous atmosphere that is primarily carbon dioxide (CO2). At the average surface level t",
+      "image": "Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+    },
+    "Mainz": {
+      "title": "Mainz",
+      "lead": "Mainz (German: [maɪnts] ; see below) is the capital and largest city of the German state of Rhineland-Palatinate, and with around 223,000 inhabitants, it is Germany's 35th-largest city. It lies in the Rhine-Main Metropolitan Region — German",
+      "image": "Mainzer_Dom_Blaue_Stunde_(37539430014).jpg"
+    },
+    "Syracuse,_Sicily": {
+      "title": "Syracuse, Sicily",
+      "lead": "Syracuse ( SY-rə-kewss, -⁠kewz; Italian: Siracusa [siraˈkuːza] ; Sicilian: Saragusa [saɾaˈuːsa]) is a city and municipality, capital of the free municipal consortium of the same name, located in the autonomous region of Sicily in Southern I",
+      "image": "Veduta_aerea_di_Siracusa_e_con_l'Etna_sullo_sfondo_(Foto_di_Angelo_Bonomo).jpg"
+    },
+    "Baghdad": {
+      "title": "Baghdad",
+      "lead": "Baghdad is the capital and largest city in Iraq. It is located on the banks of the Tigris in central Iraq. The city has an estimated population of 8 million. It ranks among the most populous and largest cities in the Middle East and the Ara",
+      "image": "5628442718_b10fc2c47f_o.jpg"
+    },
+    "Tycho_Brahe": {
+      "title": "Tycho Brahe",
+      "lead": "Tycho Brahe ( TY-koh BRAH-(h)ee, -⁠ BRAH(-hə); Danish: [ˈtsʰykʰo ˈpʁɑːə] ; born Tyge Ottesen Brahe, Danish: [ˈtsʰyːjə ˈʌtəsn̩ ˈpʁɑːə]; 14 December 1546 – 24 October 1601), generally called Tycho for short, was a Danish astronomer known for ",
+      "image": "Porträtt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif"
+    },
+    "Iran": {
+      "title": "Iran",
+      "lead": "Iran, officially the Islamic Republic of Iran, historically known as Persia, is a country in West Asia. It borders Iraq to the west, Turkey, Azerbaijan, and Armenia to the northwest, the Caspian Sea to the north, Turkmenistan to the northea",
+      "image": "Flag_of_Iran_(official).svg"
+    },
+    "Kerala_school_of_astronomy_and_mathematics": {
+      "title": "Kerala school of astronomy and mathematics",
+      "lead": "The Kerala school of astronomy and mathematics was a school of mathematics and astronomy founded by Madhava of Sangamagrama in Tirur, Malappuram, Kerala, India, which included among its members: Parameshvara, Nilakantha Somayaji, Jyeshtadev",
+      "image": "Kerala_school_chain_of_teachers.jpg"
+    },
+    "Polish_people": {
+      "title": "Polish people",
+      "lead": "Polish people, or Poles, are a West Slavic ethnic group and a nation who share a common history, culture, the Polish language and are identified with the country of Poland in Central Europe. The preamble to the Constitution of the Republic ",
+      "image": "Flag_of_Poland.svg"
+    },
+    "Planet": {
+      "title": "Planet",
+      "lead": "A planet is a large, rounded astronomical body that is generally required to be in orbit around a star, stellar remnant, or brown dwarf, and is not one itself. The Solar System has eight planets by the most restrictive definition of the ter",
+      "image": "Planet_collage_to_scale.jpg"
+    },
     "Nicolaus_Copernicus": {
       "title": "Nicolaus Copernicus",
       "lead": "Nicolaus Copernicus (19 February 1473 – 24 May 1543) was a Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center. The publication of Copernicus's model in his book De revolutionibus ",
@@ -657,10 +732,45 @@
       "lead": "Georg Joachim de Porris, also known as Rheticus (; 16 February 1514 – 4 December 1574), was a mathematician, astronomer, cartographer, navigational-instrument maker, medical practitioner, and teacher. He is perhaps best known for his trigon",
       "image": ""
     },
-    "Tycho_Brahe": {
-      "title": "Tycho Brahe",
-      "lead": "Tycho Brahe ( TY-koh BRAH-(h)ee, -⁠ BRAH(-hə); Danish: [ˈtsʰykʰo ˈpʁɑːə] ; born Tyge Ottesen Brahe, Danish: [ˈtsʰyːjə ˈʌtəsn̩ ˈpʁɑːə]; 14 December 1546 – 24 October 1601), generally called Tycho for short, was a Danish astronomer known for ",
-      "image": "Porträtt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif"
+    "Royal_Prussia": {
+      "title": "Royal Prussia",
+      "lead": "Royal Prussia (Polish: Prusy Królewskie; German: Königlich-Preußen or Preußen Königlichen Anteils, Kashubian: Królewsczé Prësë) or Polish Prussia (Polish: Prusy Polskie; German: Polnisch-Preußen) was a province of the Crown of the Kingdom o",
+      "image": "Flag_of_Prussia_(1466-1772)_Lob.svg"
+    },
+    "Crown_of_the_Kingdom_of_Poland": {
+      "title": "Crown of the Kingdom of Poland",
+      "lead": "The Crown of the Kingdom of Poland (Polish: Korona Królestwa Polskiego; Latin: Corona Regni Poloniae) was a political and legal concept formed in the 14th century in the Kingdom of Poland, assuming unity, indivisibility and continuity of th",
+      "image": "Banner_of_Sigismund_III_Vasa.svg"
+    },
+    "Mercury_(planet)": {
+      "title": "Mercury (planet)",
+      "lead": "Mercury is the first planet from the Sun and the smallest in the Solar System. It is a rocky planet with a trace atmosphere and a surface gravity slightly higher than that of Mars. The surface of Mercury is similar to Earth's Moon, being cr",
+      "image": "Mercury_in_true_color.jpg"
+    },
+    "Saturn": {
+      "title": "Saturn",
+      "lead": "Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It is a gas giant, with an average radius of about 9 times that of Earth. It has an eighth of the average density of Earth, but is over 95 ti",
+      "image": "Saturn_during_Equinox.jpg"
+    },
+    "Lutheranism": {
+      "title": "Lutheranism",
+      "lead": "Lutheranism or Evangelical Lutheranism is a major branch of Protestantism that arose under the work of Martin Luther, the 16th-century German friar and reformer whose efforts to reform the theology and practices of the Catholic Church helpe",
+      "image": "Konsekration_Alsike_Kyrka.png"
+    },
+    "Flemish_people": {
+      "title": "Flemish people",
+      "lead": "Flemish people or Flemings (Dutch: Vlamingen [ˈvlaːmɪŋə(n)] ; French: Flamands) are one of three Belgian main ethnic groups native to Flanders, Belgium, who speak Flemish Dutch. Flemish people make up the majority of Belgians, at about 60%.",
+      "image": "Flag_of_Flanders.svg"
+    },
+    "Republic_of_Venice": {
+      "title": "Republic of Venice",
+      "lead": "The Republic of Venice, officially the Most Serene Republic of Venice and traditionally known as La Serenissima, was a sovereign state and maritime republic with its capital in Venice, on the northeastern coast of Italy. Founded, according ",
+      "image": "Variant_war_flag_of_the_Serene_Republic_of_Venice.svg"
+    },
+    "Venetian_painting": {
+      "title": "Venetian painting",
+      "lead": "Venetian painting was a major force in Italian Renaissance painting and beyond. Beginning with the work of Giovanni Bellini (c. 1430–1516) and his brother Gentile Bellini (c. 1429–1507) and their workshops, the major artists of the Venetian",
+      "image": "Vecelli,_Tiziano_-_Judith_-_c._1515.jpg"
     },
     "Supernova": {
       "title": "Supernova",
@@ -697,6 +807,26 @@
       "lead": "The Holy Roman Emperor, originally and officially the Emperor of the Romans (Latin: Imperator Romanorum; German: Kaiser der Römer) during the Middle Ages, and also known as the Roman-German Emperor since the early modern period (Latin: Impe",
       "image": "Hans_Burgkmair_d._Ä._005.jpg"
     },
+    "Frederick_II_of_Denmark": {
+      "title": "Frederick II of Denmark",
+      "lead": "Frederick II (Danish: Frederik 2.; 1 July 1534 – 4 April 1588) was King of Denmark and Norway and Duke of Schleswig and Holstein from 1559 until his death in 1588. A member of the House of Oldenburg, Frederick began his personal rule of Den",
+      "image": "1581_Frederik_2._(cropped).jpg"
+    },
+    "Ven_(Sweden)": {
+      "title": "Ven (Sweden)",
+      "lead": "Ven (Swedish: [veːn], older Swedish spelling Hven) is a Swedish island in the Öresund strait lying between Scania, Sweden and Zealand, Denmark. A part of Landskrona Municipality, Skåne County, the island has an area of 7.5 km2 (2.9 sq mi) a",
+      "image": "Ven-from-east.jpg"
+    },
+    "Ulugh_Beg": {
+      "title": "Ulugh Beg",
+      "lead": "Mīrzā Muhammad Tarāghāy bin Shāhrukh (Chagatay: میرزا محمد تراغای بن شاهرخ; Persian: میرزا محمد طارق بن شاهرخ), better known as Ulugh Beg (Persian: الغ‌بیک; 22 March 1394 – 27 October 1449), was a Timurid sultan, as well as an astronomer an",
+      "image": "Ulugh_Beg_Observatory_02.jpg"
+    },
+    "Aristotelianism": {
+      "title": "Aristotelianism",
+      "lead": "Aristotelianism ( ARR-i-stə-TEE-lee-ə-niz-əm) is a philosophical tradition inspired by the work of Aristotle, usually characterized by deductive logic and an analytic inductive method in the study of natural philosophy and metaphysics. It c",
+      "image": "(Venice)_Aristotele_by_Francesco_Hayez_in_gallerie_Accademia_Venice.jpg"
+    },
     "Johannes_Kepler": {
       "title": "Johannes Kepler",
       "lead": "Johannes Kepler (27 December 1571 – 15 November 1630) was a German polymath who was an astronomer, mathematician, astrologer, natural philosopher and music theorist. He is a key figure in the 17th-century Scientific Revolution, best known f",
@@ -722,6 +852,16 @@
       "lead": "In the early modern period, from about 1400 to 1775, about 100,000 people were prosecuted for witchcraft in Europe and British America. Between 40,000 and 60,000 were executed, almost all in Europe. The witch hunts were particularly severe ",
       "image": "Wickiana4.jpg"
     },
+    "Stuttgart": {
+      "title": "Stuttgart",
+      "lead": "Stuttgart (; German: [ˈʃtʊtɡaʁt] ; Swabian: Schduagert [ˈʃd̥ua̯ɡ̊ɛʕd̥]; Alemannic: Stuttgart; names in other languages) is the capital and largest city of the German state of Baden-Württemberg. It is located on the Neckar river in a fertile",
+      "image": "Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg"
+    },
+    "Copernican_heliocentrism": {
+      "title": "Copernican heliocentrism",
+      "lead": "Copernican heliocentrism is the astronomical model developed by the Renaissance astronomer Nicolaus Copernicus and published in 1543. This model positioned the Sun near the center of the Universe, motionless, with Earth and the other planet",
+      "image": "Copernican_heliocentrism_diagram-2.jpg"
+    },
     "Galileo_Galilei": {
       "title": "Galileo Galilei",
       "lead": "Galileo di Vincenzo Bonaiuti de' Galilei (15 February 1564 – 8 January 1642), commonly referred to as Galileo Galilei, was an Italian astronomer, physicist, and engineer, sometimes described as a polymath. He was born in the city of Pisa, t",
@@ -742,9 +882,59 @@
       "lead": "The House of Medici (English: MED-itch-ee, UK also mə-DEE-chee; Italian: [ˈmɛːditʃi]) was an Italian banking family and political dynasty that first consolidated power in the Republic of Florence under Cosimo de' Medici and his grandson Lor",
       "image": "Augmented_Arms_of_Medici.svg"
     },
+    "Pisa": {
+      "title": "Pisa",
+      "lead": "Pisa ( PEE-zə; Italian: [ˈpiːza] or [ˈpiːsa]) is a city and comune (municipality) in Tuscany, Central Italy, straddling the Arno just before it empties into the Ligurian Sea. It is the capital city of the Province of Pisa. Although Pisa is ",
+      "image": "Italy_-_Pisa.jpg"
+    },
+    "Michelangelo": {
+      "title": "Michelangelo",
+      "lead": "Michelangelo di Lodovico Buonarroti Simoni (6 March 1475 – 18 February 1564), known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He was born in the Republic of Florence but was",
+      "image": "Michelangelo_Daniele_da_Volterra_(dettaglio).jpg"
+    },
+    "William_Shakespeare": {
+      "title": "William Shakespeare",
+      "lead": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's natio",
+      "image": "William_Shakespeare_by_John_Taylor,_edited.jpg"
+    },
+    "Cairo": {
+      "title": "Cairo",
+      "lead": "Cairo is the capital and largest city of Egypt and the Cairo Governorate. It is home to more than 9.8 million people. It is also part of the largest urban agglomeration in Africa, the Arab world, and the Middle East. The Greater Cairo metro",
+      "image": "Cairo_Opera_House,_Al_Hurriyah_Park_and_the_Nile_river_(14797782354).jpg"
+    },
+    "Aristotelian_physics": {
+      "title": "Aristotelian physics",
+      "lead": "Aristotelian physics is the form of natural philosophy described in the works of the Greek philosopher Aristotle (384–322 BC). In his work Physics, Aristotle intended to establish general principles of change that govern all natural bodies,",
+      "image": ""
+    },
+    "Moon": {
+      "title": "Moon",
+      "lead": "The Moon is the only natural satellite of Earth. It orbits around Earth at an average distance of 384,399 kilometers (238,854 mi), a distance roughly 30 times the width of Earth. It completes an orbit (lunar month) in relation to Earth and ",
+      "image": "FullMoon2010.jpg"
+    },
+    "Jupiter": {
+      "title": "Jupiter",
+      "lead": "Jupiter is the fifth planet from the Sun, and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the S",
+      "image": "Jupiter_OPAL_2024.png"
+    },
+    "Florence": {
+      "title": "Florence",
+      "lead": "Florence (Italian: Firenze) is the capital and most populous city of the Italian region of Tuscany, with 362,353 inhabitants as of 2025. It is also the capital of the eponymous metropolitan province, which counts 989,460 inhabitants. Floren",
+      "image": "FirenzeDec092023_01.jpg"
+    },
+    "Venus": {
+      "title": "Venus",
+      "lead": "Venus is the second planet from the Sun. Similar in size and mass to Earth, Venus has no liquid water, and its atmosphere is far thicker and denser than that of any other rocky body in the Solar System. The atmosphere is composed mostly of ",
+      "image": "Venus_2_Approach_Image.jpg"
+    },
+    "Geocentric_model": {
+      "title": "Geocentrism",
+      "lead": "Geocentrism is a superseded astronomical model description of the Universe with Earth at the center. It is also known as the geocentric model, often exemplified specifically by the Ptolemaic system. Under most geocentric models, the Sun, th",
+      "image": "Bartolomeu_Velho_1568.jpg"
+    },
     "Council_of_Trent": {
       "title": "Council of Trent",
-      "lead": "The Council of Trent (Latin: Concilium Tridentinum), held between 1545 and 1563 in Trent (or Trento), in northern Italy, was the 19th ecumenical council of the Roman Catholic Church. Prompted by the Protestant Reformation at the time, it ha",
+      "lead": "The Council of Trent (Latin: Concilium Tridentinum), held between 1545 and 1563 in Trent (or Trento), in northern Italy, was the 19th ecumenical council of the Catholic Church. Prompted by the Protestant Reformation at the time, it has been",
       "image": "Concilio_Trento_Museo_Buonconsiglio.jpg"
     },
     "Roman_Inquisition": {
@@ -761,6 +951,31 @@
       "title": "Pope Urban VIII",
       "lead": "Pope Urban VIII (Latin: Urbanus VIII; Italian: Urbano VIII; baptised 5 April 1568 – 29 July 1644), born Maffeo Vincenzo Barberini, was head of the Catholic Church and ruler of the Papal States from 6 August 1623 to his death, in July 1644. ",
       "image": "Pietro_da_Cortona_-_Portrait_of_Urban_VIII_(ca._1624-1627)_-_Google_Art_Project_-_edited.jpg"
+    },
+    "Bible": {
+      "title": "Bible",
+      "lead": "A Bible is a collection of religious texts that is central to Christianity or Judaism, and esteemed in other Abrahamic religions such as Islam. Bibles are anthologies (compilations of texts of a variety of forms) with varying canonical text",
+      "image": "Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
+    },
+    "Padua": {
+      "title": "Padua",
+      "lead": "Padua ( PAD-ew-ə) is a city and comune (municipality) in Veneto, northern Italy, and the capital of the province of Padua. The city lies on the banks of the river Bacchiglione, 40 kilometres (25 miles) west of Venice and 29 km (18 miles) so",
+      "image": "View_of_Padua_from_La_Specola.jpg"
+    },
+    "Dutch_Republic": {
+      "title": "Dutch Republic",
+      "lead": "The Republic of the Seven United Netherlands, also known as the United Provinces (of the Netherlands), and referred to in historiography as the Dutch Republic, was a confederation and great power that existed from 1588 until the Batavian Re",
+      "image": "Prinsenvlag.svg"
+    },
+    "Ren%C3%A9_Descartes": {
+      "title": "René Descartes",
+      "lead": "René Descartes ( day-KART, also DAY-kart; French: [ʁəne dekaʁt] ; 31 March 1596 – 11 February 1650) was a French philosopher, scientist, logician, and mathematician, widely considered a seminal figure in the emergence of modern philosophy a",
+      "image": "Frans_Hals_-_Portret_van_René_Descartes.jpg"
+    },
+    "E_pur_si_muove!": {
+      "title": "And yet it moves",
+      "lead": "E pur si muove or Eppur si muove [epˈpur si ˈmwɔːve] ('And yet it moves' or 'Although it does move') is an Italian phrase commonly attributed to the Italian physicist and astronomer Galileo Galilei (1564–1642). The Catholic Church persecute",
+      "image": "Galileo_in_prison.jpg"
     },
     "Francis_Bacon": {
       "title": "Francis Bacon",
@@ -822,6 +1037,16 @@
       "lead": "Badīʿ az-Zaman Abu l-ʿIzz ibn Ismāʿīl ibn ar-Razāz al-Jazarī (1136–1206, Arabic: بَدِيعُ الزَّمانِ أَبُو العِزِّ بْنُ إسْماعِيلَ بْنِ الرَّزَّازِ الجَزَرِيّ, [ældʒæzæriː]) was a polymath, scholar, inventor, mechanical engineer, artisan and ",
       "image": "Al-jazari_elephant_clock.png"
     },
+    "Charles_I_of_England": {
+      "title": "Charles I of England",
+      "lead": "Charles I (19 November 1600 – 30 January 1649) was King of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649. Charles was born into the House of Stuart as the second son of King James VI of Scotland. After his fa",
+      "image": "King_Charles_I_after_original_by_van_Dyck.jpg"
+    },
+    "Parliament_of_England": {
+      "title": "Parliament of England",
+      "lead": "The Parliament of England was the legislature of the Kingdom of England from the 13th century until 1707 when it was replaced by the Parliament of Great Britain. Parliament evolved from the great council of bishops and peers that advised th",
+      "image": "Coat_of_Arms_of_England_(-1340).svg"
+    },
     "Vacuum": {
       "title": "Vacuum",
       "lead": "A vacuum (pl.: vacuums or vacua) is space devoid of matter. The word is derived from the Latin adjective vacuus (neuter vacuum) meaning \"vacant\" or \"void\". An approximation to such vacuum is a region with a gaseous pressure much less than a",
@@ -841,6 +1066,11 @@
       "title": "Otto von Guericke",
       "lead": "Otto von Guericke (UK: GAIR-ik-ə, US: G(W)AIR-ik-ə, -⁠ee, German: [ˈɔtoː fɔn ˈɡeːʁɪkə] ; spelled Gericke until 1666; 30 November [O.S. 20 November] 1602 – 21 May [O.S. 11 May] 1686) was a German scientist, inventor, mathematician, and physi",
       "image": "Anselmus-van-Hulle-Hommes-illustres_MG_0539.tif"
+    },
+    "Puy_de_D%C3%B4me": {
+      "title": "Puy de Dôme",
+      "lead": "Puy de Dôme (US: , French: [pɥi də dom] ) is a lava dome and one of the youngest volcanoes in the Chaîne des Puys region of Massif Central in central France. This chain of volcanoes including numerous cinder cones, lava domes and maars is f",
+      "image": "Aerial_image_of_Puy_de_Dôme_(view_from_the_west).jpg"
     },
     "Robert_Boyle": {
       "title": "Robert Boyle",
@@ -867,6 +1097,11 @@
       "lead": "Thomas Hobbes ( HOBZ; 5 April 1588 – 4 December 1679) was an English philosopher and political theorist, best known for his 1651 book Leviathan, in which he expounds an influential formulation of social contract theory. He is considered to ",
       "image": "Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg"
     },
+    "Oxford": {
+      "title": "Oxford",
+      "lead": "Oxford ( ) is a cathedral city and non-metropolitan district in Oxfordshire, England, of which it is the county town. The city is home to the University of Oxford, the oldest university in the English-speaking world; it has buildings in eve",
+      "image": "Museum_of_Oxford_(5652685943).jpg"
+    },
     "Marin_Mersenne": {
       "title": "Marin Mersenne",
       "lead": "Marin Mersenne, OM (also known as Marinus Mersennus or le Père Mersenne; French: [maʁɛ̃ mɛʁsɛn]; 8 September 1588 – 1 September 1648) was a French polymath whose works touched a wide variety of fields. He is perhaps best known today among m",
@@ -892,9 +1127,19 @@
       "lead": "The Library of Alexandria in Alexandria, Egypt, was one of the largest and most significant libraries of the ancient world. The library was part of a larger research institution called the Mouseion, which was dedicated to the Muses, the nin",
       "image": "Ancientlibraryalex.jpg"
     },
+    "Pierre_de_Fermat": {
+      "title": "Pierre de Fermat",
+      "lead": "Pierre de Fermat (; French: [pjɛʁ də fɛʁma]; 17 August 1601 – 12 January 1665) was a French magistrate, polymath, and above all, a mathematician who is given credit for early developments that led to infinitesimal calculus, including his te",
+      "image": "Pierre_de_Fermat.jpg"
+    },
+    "University_of_Oxford": {
+      "title": "University of Oxford",
+      "lead": "The University of Oxford is a collegiate research university in Oxford, England. There is evidence of teaching as early as 1096, making it the oldest university in the English-speaking world and the world’s second-oldest university in conti",
+      "image": "Arms_of_University_of_Oxford.svg"
+    },
     "Christiaan_Huygens": {
       "title": "Christiaan Huygens",
-      "lead": "Christiaan Huygens, Lord of Zeelhem (14 April 1629 – 8 July 1695), was a Dutch mathematician, physicist, engineer, astronomer, and inventor who is regarded as a key figure in the Scientific Revolution. In physics, Huygens made seminal contr",
+      "lead": "Christiaan Huygens, Lord of Zeelhem (14 April 1629 – 8 July 1695) was a Dutch mathematician, physicist, engineer, astronomer, and inventor who is regarded as a key figure in the Scientific Revolution. In physics, Huygens made seminal contri",
       "image": "Christiaan_Huygens-painting.jpeg"
     },
     "Rings_of_Saturn": {
@@ -917,6 +1162,16 @@
       "lead": "Bernard Le Bovier de Fontenelle (; French: [fɔ̃tənɛl]; 11 February 1657 – 9 January 1757), also called Bernard Le Bouyer de Fontenelle, was a French writer and a member of three of the academies of the Institut de France, noted especially f",
       "image": "Fontenelle_2.jpg"
     },
+    "Amsterdam": {
+      "title": "Amsterdam",
+      "lead": "Amsterdam (Dutch: [ˌɑmstərˈdɑm] ; lit. 'Dam in the Amstel') is the capital and largest city of the Netherlands. It has a population of 933,680 in June 2024 within the city proper, 1,457,018 in the urban area and 2,480,394 in the metropolita",
+      "image": "Imagen_de_los_canales_concéntricos_en_Ámsterdam.png"
+    },
+    "Paris": {
+      "title": "Paris",
+      "lead": "Paris is the capital and largest city of France, with an estimated city population of 2.04 million in an area of 105.4 km2 (40.7 sq mi), and a metropolitan population of 13.2 million as of January 2026. Located on the river Seine in the cen",
+      "image": "La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_août_2014_(2).jpg"
+    },
     "Samuel_Pepys": {
       "title": "Samuel Pepys",
       "lead": "Samuel Pepys ( PEEPS; 23 February 1633 – 26 May 1703) was an English writer and Tory politician. He served as an official in the Navy Board and Member of Parliament, but is now most renowned for the diary he kept for almost a decade, first ",
@@ -937,6 +1192,11 @@
       "lead": "Spontaneous generation is a superseded scientific theory that held that living creatures could arise from non-living matter and that such processes were commonplace and regular. It was hypothesized that certain forms, such as fleas, could a",
       "image": "Spontaneous_Generation_of_Seashells.svg"
     },
+    "Delft": {
+      "title": "Delft",
+      "lead": "Delft (Dutch pronunciation: [ˈdɛl(ə)ft] ) is a city and municipality in the province of South Holland, Netherlands. It is located between Rotterdam, to the southeast, and The Hague, to the northwest. Together with them, it is a part of both",
+      "image": "Delft_Blick_von_der_Nieuwe_Kerk_auf_die_Oude_Kerk_1.jpg"
+    },
     "The_Assayer": {
       "title": "The Assayer",
       "lead": "The Assayer (Italian: Il saggiatore) is a book by Galileo Galilei, published in Rome in October 1623. It is generally considered to be one of the pioneering works of the scientific method, first broaching the idea that the book of nature is",
@@ -952,11 +1212,6 @@
       "lead": "Pierre-Simon, Marquis de Laplace (; French: [pjɛʁ simɔ̃ laplas]; 23 March 1749 – 5 March 1827) was a French polymath, a scholar whose work has been instrumental in the fields of physics, astronomy, mathematics, engineering, statistics, and ",
       "image": "Laplace,_Pierre-Simon,_marquis_de.jpg"
     },
-    "Pierre_de_Fermat": {
-      "title": "Pierre de Fermat",
-      "lead": "Pierre de Fermat (; French: [pjɛʁ də fɛʁma]; 17 August 1601 – 12 January 1665) was a French magistrate, polymath, and above all, a mathematician who is given credit for early developments that led to infinitesimal calculus, including his te",
-      "image": "Pierre_de_Fermat.jpg"
-    },
     "Probability_theory": {
       "title": "Probability theory",
       "lead": "Probability theory or probability calculus is the branch of mathematics concerned with probability. Although there are several different probability interpretations, probability theory treats the concept in a rigorous mathematical manner by",
@@ -966,6 +1221,11 @@
       "title": "History of longitude",
       "lead": "The history of longitude describes the centuries-long effort by astronomers, cartographers and navigators to discover a means of determining the longitude (the east-west position) of any given place on Earth. The measurement of longitude is",
       "image": "Monuments_of_International_Longitude_Determination.jpg"
+    },
+    "University_of_Cambridge": {
+      "title": "University of Cambridge",
+      "lead": "The University of Cambridge is a collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the second-oldest university in the English-speaking world and the world's third-oldest university in con",
+      "image": "Coat_of_Arms_of_the_University_of_Cambridge.svg"
     },
     "History_of_calculus": {
       "title": "History of calculus",
@@ -982,29 +1242,24 @@
       "lead": "The Trinity (Latin: Trinitas, lit. 'triad', from trinus 'threefold') is a Christian doctrine concerning the nature of God, which defines one God existing in three coeternal, consubstantial divine persons: God the Father, God the Son (Jesus ",
       "image": "Shield-Trinity-Scutum-Fidei-English.svg"
     },
-    "University_of_Cambridge": {
-      "title": "University of Cambridge",
-      "lead": "The University of Cambridge is a collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the second-oldest university in the English-speaking world and the world's third-oldest university in con",
-      "image": "Coat_of_Arms_of_the_University_of_Cambridge.svg"
-    },
     "Reflecting_telescope": {
       "title": "Reflecting telescope",
       "lead": "A reflecting telescope (also called a reflector) is a telescope that uses a single or a combination of curved mirrors that reflect light and form an image. The reflecting telescope was invented in the 17th century by Isaac Newton as an alte",
       "image": "SOFIA_2.5M_Primary_Mirror.jpg"
-    },
-    "Christopher_Wren": {
-      "title": "Christopher Wren",
-      "lead": "Sir Christopher Wren (; 30 October 1632 [O.S. 20 October] – 8 March 1723 [O.S. 25 February]) was an English architect, astronomer, mathematician and physicist who is one of the most highly acclaimed architects in the history of England. Kno",
-      "image": "Christopher_Wren_by_Godfrey_Kneller_1711.jpg"
     },
     "Edmond_Halley": {
       "title": "Edmond Halley",
       "lead": "Edmond (or Edmund) Halley (; 8 November [O.S. 29 October] 1656 – 25 January 1742 [O.S. 14 January 1741]) was an English astronomer, mathematician and physicist. He was the second Astronomer Royal in Britain, succeeding John Flamsteed in 172",
       "image": "Edmund_Halley.jpg"
     },
+    "Christopher_Wren": {
+      "title": "Christopher Wren",
+      "lead": "Sir Christopher Wren (; 30 October 1632 [O.S. 20 October] – 8 March 1723 [O.S. 25 February]) was an English architect, astronomer, mathematician and physicist who is one of the most highly acclaimed architects in the history of England. Kno",
+      "image": "Christopher_Wren_by_Godfrey_Kneller_1711.jpg"
+    },
     "Newton%27s_law_of_universal_gravitation": {
       "title": "Newton's law of universal gravitation",
-      "lead": "Newton's law of universal gravitation describes gravity as a force by stating that every particle attracts every other particle in the universe with a force that is proportional to the product of their masses and inversely proportional to t",
+      "lead": "Newton's law of universal gravitation describes gravity as a force by stating that every particle attracts every other particle in the universe with a force that is proportional to their masses and inversely proportional to the square of th",
       "image": ""
     },
     "Inertia": {
@@ -1016,6 +1271,16 @@
       "title": "Hypotheses non fingo",
       "lead": "In the history of physics, hypotheses non fingo (Latin for \"I frame no hypotheses\", or \"I contrive no hypotheses\") is a phrase used by Isaac Newton in the essay General Scholium, which was appended to the second edition of Philosophiae Natu",
       "image": ""
+    },
+    "London": {
+      "title": "London",
+      "lead": "London is the capital and largest city of England and the United Kingdom, with a population of 9.1 million people in 2024. Its wider metropolitan area is the largest in Western Europe, with a population of 15.1 million. London stands on the",
+      "image": "London_Skyline_(125508655).jpeg"
+    },
+    "Hipparchus": {
+      "title": "Hipparchus",
+      "lead": "Hipparchus (; Greek: Ἵππαρχος, Hípparkhos; c. 190 – c. 120 BC) was a Greek astronomer, geographer, and mathematician. He is considered the founder of trigonometry, but is most famous for his incidental discovery of the precession of the equ",
+      "image": "Head_of_Hipparchus_(cropped).jpg"
     },
     "Leibniz%E2%80%93Newton_calculus_controversy": {
       "title": "Leibniz–Newton calculus controversy",
@@ -1052,6 +1317,11 @@
       "lead": "François-Marie Arouet (French: [fʁɑ̃swa maʁi aʁwɛ]; 21 November 1694 – 30 May 1778), known by his pen name Voltaire (, US also ; French: [vɔltɛːʁ]), was a French Enlightenment writer, philosopher (philosophe), satirist, and historian. Famou",
       "image": "Nicolas_de_Largillière_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_musée_Carnavalet_-_5_(cropped).jpg"
     },
+    "Mary_II_of_England": {
+      "title": "Mary II",
+      "lead": "Mary II (30 April 1662 – 28 December 1694) was Queen of England, Scotland, and Ireland with her husband, King William III and II, from 1689 until her death in 1694. She was also Princess of Orange following her marriage on 4 November 1677. ",
+      "image": "Mary_II_-_Kneller_1690.jpg"
+    },
     "Malleus_Maleficarum": {
       "title": "Malleus Maleficarum",
       "lead": "The Malleus Maleficarum, usually translated as the Hammer of Witches, is the best known treatise about witchcraft. It was written by German Catholic clergyman Heinrich Kramer (under his Latinized name Henricus Institor) and first published ",
@@ -1067,6 +1337,21 @@
       "lead": "Gabrielle Émilie Le Tonnelier de Breteuil, Marquise du Châtelet (French: [emili dy ʃɑtlɛ] ; 17 December 1706 – 10 September 1749) was a French mathematician and physicist. Her most recognized achievement is her philosophical magnum opus, In",
       "image": "Emilie_Chatelet_portrait_by_Latour.jpg"
     },
+    "Jesuit_China_missions": {
+      "title": "Jesuit missions in China",
+      "lead": "The history of the missions of the Jesuits in China is part of the history of relations between China and the Western world. The missionary efforts and other work of the Society of Jesus, or Jesuits, between the 16th and 17th century played",
+      "image": "Athanasii_Kircheri..._China_monumentis_(1667)_\"Frontispicio\"_(22629197626).jpg"
+    },
+    "Women_in_science": {
+      "title": "Women in science",
+      "lead": "The presence of women in science spans the earliest times of the history of science wherein they have made substantial contributions. Historians with an interest in gender and science have researched the scientific endeavors and accomplishm",
+      "image": "Woman_teaching_geometry.jpg"
+    },
+    "Maria_Margarethe_Kirch": {
+      "title": "Maria Margaretha Kirch",
+      "lead": "Maria Margaretha Kirch (née Winckelmann, in historic sources named Maria Margaretha Kirchin; 25 February 1670 – 29 December 1720) was a German astronomer. She was one of the first famous astronomers of her period due to her writing on the c",
+      "image": ""
+    },
     "Steven_Shapin": {
       "title": "Steven Shapin",
       "lead": "Steven Shapin ( SHAY-pin) (born 1943) is an American historian and sociologist of science. He is Professor Emeritus of the History of Science at Harvard University.",
@@ -1074,7 +1359,7 @@
     },
     "Thomas_Kuhn": {
       "title": "Thomas Kuhn",
-      "lead": "Thomas Samuel Kuhn (; July 18, 1922 – June 17, 1996) was an American historian and philosopher of science whose 1962 book The Structure of Scientific Revolutions was influential in both academic and popular circles, introducing the term par",
+      "lead": "Thomas Samuel Kuhn (; July 18, 1922 – June 17, 1996) was an American historian and philosopher of science whose 1962 book The Structure of Scientific Revolutions was influential in both academic and popular circles, popularizing the term pa",
       "image": ""
     },
     "Paradigm_shift": {

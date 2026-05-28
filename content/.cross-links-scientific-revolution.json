@@ -4,13 +4,13 @@
       "matchText": "Aristarchus of Samos",
       "targetTl": "ancient-greece",
       "targetChapter": 8,
-      "blurb": "In Hellenistic Alexandria around 270 BCE, the Greek astronomer Aristarchus of Samos had already proposed that the Earth orbits the Sun — eighteen centuries before Copernicus, and with no way to prove it. It was the right answer arriving two millennia early, and it was set aside, a reminder that being correct is not enough without the evidence and the instruments to compel assent."
+      "blurb": "In Hellenistic Alexandria around 270 BCE, the Greek astronomer Aristarchus of Samos had already proposed that the Earth orbits the Sun \u2014 eighteen centuries before Copernicus, and with no way to prove it. It was the right answer arriving two millennia early, and it was set aside, a reminder that being correct is not enough without the evidence and the instruments to compel assent."
     },
     {
       "matchText": "Shen Kuo",
       "targetTl": "tang-song-china",
       "targetChapter": 6,
-      "blurb": "In the Northern Song, the polymath Shen Kuo tested claims by direct observation, recognized fossil seashells in mountains as old seabeds, and described magnetic declination in 1088 — an empirical, authority-doubting temper centuries before Bacon. The Needham Question (Chapter 20) asks why this did not become a self-sustaining scientific revolution there."
+      "blurb": "In the Northern Song, the polymath Shen Kuo tested claims by direct observation, recognized fossil seashells in mountains as old seabeds, and described magnetic declination in 1088 \u2014 an empirical, authority-doubting temper centuries before Bacon. The Needham Question (Chapter 20) asks why this did not become a self-sustaining scientific revolution there."
     },
     {
       "matchText": "Maragha observatory",
@@ -22,25 +22,51 @@
       "matchText": "Renaissance Italy",
       "targetTl": "renaissance-italy",
       "targetChapter": 7,
-      "blurb": "The Scientific Revolution grew straight out of the late Renaissance — the same humanist recovery of ancient texts, now turned on nature instead of rhetoric."
+      "blurb": "The Scientific Revolution grew straight out of the late Renaissance \u2014 the same humanist recovery of ancient texts, now turned on nature instead of rhetoric."
     },
     {
       "matchText": "Tang-Song China",
       "targetTl": "tang-song-china",
       "targetChapter": 6,
-      "blurb": "Song China had movable type, gunpowder, the compass, advanced mathematics — and no Scientific Revolution. The puzzle of why Europe and not Song China runs through this whole story."
+      "blurb": "Song China had movable type, gunpowder, the compass, advanced mathematics \u2014 and no Scientific Revolution. The puzzle of why Europe and not Song China runs through this whole story."
     },
     {
       "matchText": "Ancient Greece",
       "targetTl": "ancient-greece",
       "targetChapter": 6,
-      "blurb": "The world the revolution overthrew was Aristotle's — Greek natural philosophy, transmitted for two thousand years as settled authority."
+      "blurb": "The world the revolution overthrew was Aristotle's \u2014 Greek natural philosophy, transmitted for two thousand years as settled authority."
     },
     {
       "matchText": "Ancient Rome",
       "targetTl": "ancient-rome",
       "targetChapter": 7,
-      "blurb": "Ptolemy's Roman-era astronomy was the system Copernicus dethroned — the cosmos as the classical world had left it."
+      "blurb": "Ptolemy's Roman-era astronomy was the system Copernicus dethroned \u2014 the cosmos as the classical world had left it."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "From the eighth century on, scholars in Baghdad, Cairo, and C\u00f3rdoba ran the most advanced astronomy, mathematics, and medicine in the world \u2014 preserving Ptolemy and Galen, sharpening their math, and pushing past them in ways Europe would only catch up to centuries later. The Almagest itself reached Europe through Arabic, and the line from al-Battani's tables to Tycho Brahe is unbroken."
+    },
+    {
+      "matchText": "Late Medieval Europe",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "Gutenberg's press in 1450s Mainz \u2014 the single most consequential invention of the late medieval period \u2014 was the precondition for everything that follows. Identical printed diagrams in distant cities made disagreement productive in a way hand-copied manuscripts never could, and the Scientific Revolution's engine of comparison and correction runs on it."
+    }
+  ],
+  "2": [
+    {
+      "matchText": "Venice",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 5,
+      "blurb": "The Venetian Republic ran its own foreign policy, kept the Roman Inquisition on a short leash, and hosted the University of Padua \u2014 the most intellectually free university in Catholic Europe. It is why Vesalius could publish what he published in 1543, and why Galileo, two generations later, would do his best work under Venetian protection."
+    },
+    {
+      "matchText": "Renaissance Italy Ch 6",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 6,
+      "blurb": "Luther's 1517 revolt against Rome had split Western Christianity into Catholic and Protestant camps by the time Copernicus was finishing his book \u2014 the confessional fault line that runs under the whole Scientific Revolution, and that put a Lutheran like Rheticus on the road to a Catholic canon in Frombork."
     }
   ],
   "3": [
@@ -48,19 +74,19 @@
       "matchText": "al-Battani",
       "targetTl": "islamic-golden-age",
       "targetChapter": 3,
-      "blurb": "The ninth-century Baghdad astronomer al-Battani measured the length of the year to within two minutes of the modern value. Copernicus cited him by name dozens of times, and Tycho Brahe used his observations as the baseline for his own — the line from al-Battani to the new astronomy is direct, not a European cold start."
+      "blurb": "The ninth-century Baghdad astronomer al-Battani measured the length of the year to within two minutes of the modern value. Copernicus cited him by name dozens of times, and Tycho Brahe used his observations as the baseline for his own \u2014 the line from al-Battani to the new astronomy is direct, not a European cold start."
     },
     {
       "matchText": "Ming Dynasty",
       "targetTl": "ming-dynasty",
       "targetChapter": 5,
-      "blurb": "Tycho's data-obsessed naked-eye astronomy was being matched, unconnected, by late-Ming and earlier Chinese and Timurid observatories — accurate observation was not uniquely European."
+      "blurb": "Tycho's data-obsessed naked-eye astronomy was being matched, unconnected, by late-Ming and earlier Chinese and Timurid observatories \u2014 accurate observation was not uniquely European."
     },
     {
       "matchText": "Timurid Empire",
       "targetTl": "timurid-empire",
       "targetChapter": 7,
-      "blurb": "Ulugh Beg's Samarkand observatory had produced star tables of Tycho-like precision two centuries earlier — the European breakthrough was what came after the data, not the data itself."
+      "blurb": "Ulugh Beg's Samarkand observatory had produced star tables of Tycho-like precision two centuries earlier \u2014 the European breakthrough was what came after the data, not the data itself."
     }
   ],
   "5": [
@@ -68,13 +94,27 @@
       "matchText": "Ibn al-Haytham",
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
-      "blurb": "Around 1011 in Cairo, Ibn al-Haytham wrote the Book of Optics, proving vision works by light entering the eye and pioneering controlled experiment to settle the question. The European route to the telescope, and to Kepler's and Newton's optics, ran through his work — the lens was standing on Cairo's shoulders."
+      "blurb": "Around 1011 in Cairo, Ibn al-Haytham wrote the Book of Optics, proving vision works by light entering the eye and pioneering controlled experiment to settle the question. The European route to the telescope, and to Kepler's and Newton's optics, ran through his work \u2014 the lens was standing on Cairo's shoulders."
     },
     {
       "matchText": "Renaissance Italy",
       "targetTl": "renaissance-italy",
       "targetChapter": 1,
-      "blurb": "Galileo worked inside the Italian city-state world the Renaissance built — Medici patronage and all, which is also what made his trial possible."
+      "blurb": "Galileo worked inside the Italian city-state world the Renaissance built \u2014 Medici patronage and all, which is also what made his trial possible."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Aristotle (384\u2013322 BCE), Plato's student and Alexander's tutor, built the systematic natural philosophy that ruled the universities for two thousand years \u2014 falling bodies proportional to weight, a closed cosmos of crystal spheres, motion explained by purpose. Galileo's ramps and Galileo's telescope are arguments against this man, conducted across nineteen centuries."
+    }
+  ],
+  "6": [
+    {
+      "matchText": "Late Medieval Europe Ch 5",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 5,
+      "blurb": "A century before Luther, John Wycliffe in England and Jan Hus in Bohemia had attacked Church authority and the sole right to interpret Scripture \u2014 Hus was burned at the Council of Constance in 1415, his followers fought a war. By the 1610s the Church had spent two centuries fighting this fight; Galileo, telling theologians how to read the Bible, walked into its rawest nerve."
     }
   ],
   "7": [
@@ -82,7 +122,7 @@
       "matchText": "Ibn Sina",
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
-      "blurb": "Around 1020 the Persian philosopher Ibn Sina ran his floating man thought experiment: a sensationless, suspended mind would still have to affirm its own existence. Descartes reached the structurally identical point — I think, therefore I am — six centuries later, an arrival the reference chain records as independent but not unprecedented."
+      "blurb": "Around 1020 the Persian philosopher Ibn Sina ran his floating man thought experiment: a sensationless, suspended mind would still have to affirm its own existence. Descartes reached the structurally identical point \u2014 I think, therefore I am \u2014 six centuries later, an arrival the reference chain records as independent but not unprecedented."
     }
   ],
   "8": [
@@ -90,7 +130,7 @@
       "matchText": "Ibn al-Nafis",
       "targetTl": "islamic-golden-age",
       "targetChapter": 4,
-      "blurb": "Around 1242 in Cairo, the physician Ibn al-Nafis denied Galen's porous heart-wall and correctly described the passage of blood through the lungs — pulmonary circulation, three centuries before Harvey. His Arabic text lay unread in Europe until 1924, so Harvey owed him nothing: the same truth, found twice, a civilization apart."
+      "blurb": "Around 1242 in Cairo, the physician Ibn al-Nafis denied Galen's porous heart-wall and correctly described the passage of blood through the lungs \u2014 pulmonary circulation, three centuries before Harvey. His Arabic text lay unread in Europe until 1924, so Harvey owed him nothing: the same truth, found twice, a civilization apart."
     }
   ],
   "9": [
@@ -101,27 +141,54 @@
       "blurb": "The engineer al-Jazari, working in the Artuqid court around 1206, built a double-action suction pump whose design implied a working command of vacuum and atmospheric pressure that European theory would not articulate until Torricelli and Pascal four centuries later."
     }
   ],
+  "10": [
+    {
+      "matchText": "Islamic Golden Age Ch 4",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 4,
+      "blurb": "Chapter 4 of the Islamic Golden Age covers medicine, optics, and engineering \u2014 including the centuries-long Arabic chemical and pharmacological tradition, with its careful materia medica, distillation apparatus, and named compounds, that Boyle's open chemistry was, knowingly or not, breaking with. The continuity is real: the Arabic word alchemy itself rode into Europe out of that tradition."
+    }
+  ],
   "11": [
     {
       "matchText": "Library of Alexandria",
       "targetTl": "ancient-greece",
       "targetChapter": 8,
-      "blurb": "The Mouseion and Library of Alexandria, founded under the Ptolemies around 295 BCE, housed and funded scholars to pursue knowledge — in effect the world's first state-funded research institution. It is the deepest precedent for the scientific society, and also the thing the Royal Society differs from: Alexandria died with its dynasty; the Society was built to outlive any patron."
+      "blurb": "The Mouseion and Library of Alexandria, founded under the Ptolemies around 295 BCE, housed and funded scholars to pursue knowledge \u2014 in effect the world's first state-funded research institution. It is the deepest precedent for the scientific society, and also the thing the Royal Society differs from: Alexandria died with its dynasty; the Society was built to outlive any patron."
     },
     {
       "matchText": "Ancient Greece",
       "targetTl": "ancient-greece",
       "targetChapter": 8,
-      "blurb": "The 'Republic of Letters' consciously revived the Hellenistic ideal of an international learned community — Alexandria's library reborn as a continent-wide correspondence network."
+      "blurb": "The 'Republic of Letters' consciously revived the Hellenistic ideal of an international learned community \u2014 Alexandria's library reborn as a continent-wide correspondence network."
     },
     {
       "matchText": "Renaissance Italy",
       "targetTl": "renaissance-italy",
       "targetChapter": 2,
       "blurb": "Its model was the humanist letter-network the Italian Renaissance had pioneered, now scaled up and turned to natural knowledge."
+    },
+    {
+      "matchText": "Late Medieval Europe",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "Chapter 7 of Late Medieval Europe covers the Renaissance threshold and Gutenberg's print revolution — the cheap, dense printing of identical copies that made a continent-wide correspondence network possible in the first place. Without it the Republic of Letters could not have scaled past a handful of monasteries."
+    },
+    {
+      "matchText": "Islamic Golden Age",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 10,
+      "blurb": "The Maragha observatory, built in 1259 under Mongol patronage in northwestern Iran by Nasir al-Din al-Tusi, was for half a century the most sophisticated astronomical research institution in the world — a real institutional precedent for what the Royal Society and the Académie were doing. The catch, and the contrast Chapter 11 turns on, is that Maragha did not outlive its patrons: it was an institution tied to a dynasty, not a self-governing body built to survive one."
     }
   ],
-  "12": [],
+  "12": [
+    {
+      "matchText": "Renaissance Italy",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 3,
+      "blurb": "Renaissance Italy's Florentine banking houses (the Medici, Bardi, Peruzzi) had perfected international finance \u2014 double-entry bookkeeping, branch networks, papal accounts \u2014 by the fifteenth century. Two centuries later that banking know-how migrated north to Amsterdam, where the Dutch poured it into a global trading empire."
+    }
+  ],
   "13": [
     {
       "matchText": "Industrial Revolution",
@@ -130,12 +197,54 @@
       "blurb": "The mechanical, mathematized worldview built here is the direct intellectual ancestor of the Industrial Revolution's confidence that nature is an engine to be harnessed."
     }
   ],
+  "14": [
+    {
+      "matchText": "Islamic Golden Age Ch 3",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "The numerals, the algebra (the very word is Arabic, from al-jabr), and the trigonometric sine that European mathematicians reached for in the 1600s all arrived through Islamic mathematics, which had absorbed and pushed past Indian work centuries earlier. The European leg of this story is a transmission, not an origin \u2014 and the bookkeeping of it is one of the things Chapter 19 will insist on keeping in view."
+    }
+  ],
+  "15": [
+    {
+      "matchText": "Late Medieval Europe Ch 2",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 2,
+      "blurb": "The Black Death of 1347\u20131351 killed perhaps a third of Europe; the bubonic plague that emptied Cambridge in 1665 and sent Newton home was the same disease's last great English outbreak, three centuries on."
+    }
+  ],
+  "17": [
+    {
+      "matchText": "the Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 5,
+      "blurb": "The Continental analysts \u2014 Bernoulli, Euler, Lagrange, Laplace \u2014 built the magnificent machinery on Leibniz's notation and handed it to the next age; Voltaire then carried the Newtonian gospel into the salons of Paris, where it became the founding capital of the Enlightenment."
+    }
+  ],
   "19": [
     {
       "matchText": "Enlightenment",
       "targetTl": "enlightenment",
       "targetChapter": 4,
-      "blurb": "What the revolution left out — and what it enabled — flows directly into the Enlightenment's project of applying the new method to society itself."
+      "blurb": "What the revolution left out \u2014 and what it enabled \u2014 flows directly into the Enlightenment's project of applying the new method to society itself."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch 8",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 8,
+      "blurb": "The Malleus Maleficarum of 1486 \u2014 an inquisitors' manual that codified the diabolical conspiracy theory of witchcraft and helped fuel two centuries of witch-hunts \u2014 belongs to the same late-medieval Europe that produced the universities and the printing press. The Scientific Revolution did not arrive into an empty room; it ran alongside this, not after it."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch 3",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "Al-Battani's astronomical tables and the Maragha-school geometry European astronomers built on are part of the Arabic-speaking civilization's centuries-long lead in astronomy and mathematics. The European story of Copernicus, Tycho, and Kepler is a continuation of this work as much as a break from it \u2014 the inheritance Chapter 19 refuses to let go uncredited."
+    },
+    {
+      "matchText": "Ming Dynasty Ch 5",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "The late Ming was where European Jesuit astronomers arrived bearing telescopes, clocks, and Euclid \u2014 and where they were hired to staff the imperial astronomical bureau. The contact ran both ways, and the Chinese astronomical tradition the Jesuits met was sophisticated and old; the story in which Europe alone produced modern science erases the half of the room it learned in."
     }
   ],
   "20": [
@@ -143,13 +252,71 @@
       "matchText": "Needham Question",
       "targetTl": "tang-song-china",
       "targetChapter": 6,
-      "blurb": "The Song dynasty is the civilization economic historians return to as the closest pre-modern analog to an industrial society, and its own chapter runs the debate — incomplete markets, missing institutions, Mongol disruption, scholar-gentry priorities — over why it did not spark an industrial revolution six centuries before Britain. That is the Needham Question, argued from the other side."
+      "blurb": "The Song dynasty is the civilization economic historians return to as the closest pre-modern analog to an industrial society, and its own chapter runs the debate \u2014 incomplete markets, missing institutions, Mongol disruption, scholar-gentry priorities \u2014 over why it did not spark an industrial revolution six centuries before Britain. That is the Needham Question, argued from the other side."
     },
     {
       "matchText": "Tang-Song China",
       "targetTl": "tang-song-china",
       "targetChapter": 6,
       "blurb": "The 'Why Europe?' question only sharpens against Song China: more advanced in 1100, it produced no Principia. The answer lies in institutions and competition, not raw cleverness."
+    },
+    {
+      "matchText": "Ming Dynasty Ch 5",
+      "targetTl": "ming-dynasty",
+      "targetChapter": 5,
+      "blurb": "The late-Ming court was where the European Jesuits arrived bearing telescopes, clocks, and Euclid \u2014 and where the encounter became a two-way exchange between an old, sophisticated astronomical tradition and a young, aggressive new one. Whether the Ming missed a window or simply chose differently is part of the Needham puzzle."
+    },
+    {
+      "matchText": "Islamic Golden Age Ch 3",
+      "targetTl": "islamic-golden-age",
+      "targetChapter": 3,
+      "blurb": "For roughly five centuries Arabic-speaking scholars from Baghdad to Cordoba ran the most advanced scientific civilization on the planet \u2014 translating, preserving, and pushing past the Greek inheritance in astronomy, optics, medicine, and mathematics. The Needham Question asks why their lead, too, did not become a self-sustaining scientific revolution."
+    },
+    {
+      "matchText": "Renaissance Italy Ch 1",
+      "targetTl": "renaissance-italy",
+      "targetChapter": 1,
+      "blurb": "Renaissance Italy was a patchwork of competing city-states \u2014 Florence, Venice, Milan, Rome, Naples \u2014 none strong enough to swallow the others. The same competitive fragmentation that powered its cultural explosion is offered, four centuries later, as a candidate explanation for why modern science erupted in Europe rather than under a unifying imperial bureaucracy."
+    },
+    {
+      "matchText": "Late Medieval Europe Ch 7",
+      "targetTl": "late-medieval-europe",
+      "targetChapter": 7,
+      "blurb": "The same fractured map of duchies, kingdoms, free cities, and church territories that incubated the late-medieval cultural revival is the precondition the Scientific Revolution would later draw on: a banned book printed in Leiden, a heretic given refuge in a German principality, a foreign scholar hired by a rival court."
+    },
+    {
+      "matchText": "Enlightenment Ch 4",
+      "targetTl": "enlightenment",
+      "targetChapter": 4,
+      "blurb": "Voltaire's Letters Concerning the English Nation and his 'Elements of Newton's Philosophy' turned the Principia into a French intellectual cause, smuggling the new physics \u2014 and with it the implicit license to question every received authority \u2014 into the salons that would launch the Enlightenment's broader assault on throne and altar."
+    }
+  ],
+  "16": [
+    {
+      "matchText": "Royal Society",
+      "targetTl": "ancient-greece",
+      "targetChapter": 8,
+      "blurb": "The Royal Society of London, founded in 1660, is the institutional heir to the Mouseion and Library of Alexandria founded under the Ptolemies around 295 BCE \u2014 the world's first state-funded research community. The Society was deliberately built to outlive any single patron, the lesson Alexandria taught when it died with its dynasty."
+    },
+    {
+      "matchText": "Aristotle",
+      "targetTl": "ancient-greece",
+      "targetChapter": 7,
+      "blurb": "Aristotle (384\u2013322 BCE), Plato's student and Alexander's tutor, built the systematic natural philosophy that ruled the universities for two thousand years \u2014 falling bodies proportional to weight, a closed cosmos of crystal spheres above and corruptible elements below, motion needing a continuous cause. Newton's Principia is, more than anything else, the book that finally retires this man."
+    }
+  ],
+  "18": [
+    {
+      "matchText": "Latin",
+      "targetTl": "ancient-rome",
+      "targetChapter": 1,
+      "blurb": "Latin was the language of the Roman Republic and Empire (Ancient Rome Ch 1) and, after Rome's western collapse, the working language of the medieval Catholic Church, the universities, and learned Europe \u2014 the lingua franca in which Newton wrote the Principia for a transnational scholarly readership, and exactly the barrier the Enlightenment popularizers would have to climb over."
+    },
+    {
+      "matchText": "Enlightenment",
+      "targetTl": "enlightenment",
+      "targetChapter": 1,
+      "blurb": "The Enlightenment is the eighteenth-century movement that took Newton's mechanical universe and Locke's experiential mind as its founding tools and turned that method on religion, monarchy, law, and society itself \u2014 the next book in this chain, and the one that gave the West its modern political vocabulary of rights, reason, and reform."
     }
   ]
 }

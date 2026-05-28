@@ -57,6 +57,14 @@
     {
       "eventId": "evt-nubian-cattle-culture",
       "matchText": "cattle-centered lifestyle"
+    },
+    {
+      "eventId": "evt-wawat-yam",
+      "matchText": "Wawat"
+    },
+    {
+      "eventId": "evt-abu-simbel-nubia",
+      "matchText": "Abu Simbel"
     }
   ],
   "3": [
@@ -83,6 +91,10 @@
     {
       "eventId": "evt-pepi-ii-dwarf-letter",
       "matchText": "little boy on a big throne"
+    },
+    {
+      "eventId": "evt-ta-seti-name",
+      "matchText": "Ta-Seti"
     }
   ],
   "4": [
@@ -139,6 +151,14 @@
     {
       "eventId": "evt-kerma-textiles",
       "matchText": "linen and leather and dyed textiles"
+    },
+    {
+      "eventId": "evt-western-deffufa",
+      "matchText": "towering Western Deffufa"
+    },
+    {
+      "eventId": "evt-kerma-hyksos-alliance",
+      "matchText": "Hyksos-controlled north"
     }
   ],
   "6": [
@@ -161,6 +181,22 @@
     {
       "eventId": "evt-fall-of-kerma",
       "matchText": "Kingdom of Kerma, after roughly a thousand years"
+    },
+    {
+      "eventId": "evt-wawat-yam",
+      "matchText": "Wawat"
+    },
+    {
+      "eventId": "evt-western-deffufa",
+      "matchText": "Western Deffufa"
+    },
+    {
+      "eventId": "evt-eastern-deffufa",
+      "matchText": "Eastern Deffufa"
+    },
+    {
+      "eventId": "evt-classic-kerma",
+      "matchText": "Classic Kerma civilization"
     }
   ],
   "7": [
@@ -199,6 +235,14 @@
     {
       "eventId": "evt-abu-simbel-nubia",
       "matchText": "Abu Simbel"
+    },
+    {
+      "eventId": "evt-thutmose-i-conquest",
+      "matchText": "Thutmose I"
+    },
+    {
+      "eventId": "evt-buhen-fortress",
+      "matchText": "Buhen"
     }
   ],
   "8": [
@@ -221,6 +265,46 @@
     {
       "eventId": "evt-egyptian-withdrawal",
       "matchText": "Around 1070 BCE, Egypt formally withdrew from Nubia"
+    },
+    {
+      "eventId": "evt-viceroy-kush",
+      "matchText": "Viceroy of Kush"
+    },
+    {
+      "eventId": "evt-aniba-miam",
+      "matchText": "Aniba"
+    },
+    {
+      "eventId": "evt-kerma-founded",
+      "matchText": "Kerma"
+    },
+    {
+      "eventId": "evt-abu-simbel-nubia",
+      "matchText": "Abu Simbel"
+    },
+    {
+      "eventId": "evt-mirgissa-slipway",
+      "matchText": "Mirgissa"
+    },
+    {
+      "eventId": "evt-jebel-barkal",
+      "matchText": "Jebel Barkal"
+    },
+    {
+      "eventId": "evt-temple-soleb",
+      "matchText": "Soleb"
+    },
+    {
+      "eventId": "evt-qustul-cemetery-l",
+      "matchText": "Qustul"
+    },
+    {
+      "eventId": "evt-harkhuf-expeditions",
+      "matchText": "Harkhuf"
+    },
+    {
+      "eventId": "evt-classic-kerma",
+      "matchText": "Classic Kerma"
     }
   ]
 }

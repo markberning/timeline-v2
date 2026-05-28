@@ -75,6 +75,30 @@
       "targetTl": "indus-valley",
       "targetChapter": 4,
       "blurb": "Harkhuf's trade expeditions show Nubia plugged into a long-distance exchange web — incense, ivory, gold — like the Indus-Mesopotamia sea trade."
+    },
+    {
+      "matchText": "Mesopotamia",
+      "targetTl": "mesopotamia",
+      "targetChapter": 3,
+      "blurb": "Mesopotamia — the land between the Tigris and Euphrates in what is now Iraq — is where the world's first cities appeared. By the time Kerma's first walls went up around 2500 BCE, Mesopotamia already had two thousand years of urban history behind it, starting with Uruk in the fourth millennium BCE."
+    },
+    {
+      "matchText": "Early Dynastic period",
+      "targetTl": "mesopotamia",
+      "targetChapter": 4,
+      "blurb": "The Early Dynastic period of Mesopotamia (c. 2900–2350 BCE) was the age of competing Sumerian city-states — Ur, Lagash, Umma, Kish, Uruk — fighting over water rights and farmland, each ruled by its own king and its own patron god. It ended when Sargon of Akkad stitched them all into the first empire."
+    },
+    {
+      "matchText": "Hierakonpolis",
+      "targetTl": "early-dynastic-egypt",
+      "targetChapter": 3,
+      "blurb": "Hierakonpolis (the 'City of the Falcon') was the political and ritual heart of Upper Egypt before unification. By 3600 BCE it had grown to 5,000–10,000 people — the closest thing the Nile Valley had to a true city outside of Mesopotamia — and its kings were the proto-pharaohs whose ambitions eventually pulled Egypt together."
+    },
+    {
+      "matchText": "Caral",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 3,
+      "blurb": "Caral, on the desert coast of central Peru, was the first urban center in the Americas — monumental platform mounds, sunken plazas, a planned ceremonial precinct — and like Kerma, it appeared in a place world history textbooks usually skip. Two first-on-their-continent civilizations, building at roughly the same moment, both systematically under-covered."
     }
   ],
   "4": [
@@ -127,6 +151,30 @@
       "targetTl": "mesopotamia",
       "targetChapter": 4,
       "blurb": "Kerma's retainer burials echo the royal death-pits of Ur — early kingship asserting cosmic power over life itself."
+    },
+    {
+      "matchText": "The Andes",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The Andes are the spine of South America — a vertical world of coast, highland, and rainforest where the earliest South American civilizations emerged. Early Andean Ch 1 lays out how altitude and ecology shaped a uniquely non-violent path to urbanism."
+    },
+    {
+      "matchText": "Caral",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 3,
+      "blurb": "Caral, on Peru's coast around 2600 BCE, is one of the oldest cities in the Americas — and one of the strangest. No fortifications, no weapons, no obvious hierarchy in its burials, and the earliest known quipu fragments hint at a record-keeping system that ran for 4,000 years without becoming alphabetic writing."
+    },
+    {
+      "matchText": "later Andean cultures",
+      "targetTl": "early-andean-civilizations",
+      "targetChapter": 1,
+      "blurb": "The Andean trajectory is the inverse of most Old World patterns. Caral and the early temples show no retainer sacrifice and no warfare; the Moche and the Inca, a thousand-plus years later, would build elaborate sacrificial cults on top of those peaceful foundations."
+    },
+    {
+      "matchText": "Kingdom of Kush",
+      "targetTl": "kingdom-of-kush",
+      "targetChapter": 1,
+      "blurb": "The Kingdom of Kush is Nubia's second great state, rising from the ashes of the Egyptian New Kingdom withdrawal around 1070 BCE. It would eventually conquer Egypt itself in the 25th Dynasty, invent the Meroitic script, and fight Rome to a stalemate before slowly fading after 350 CE."
     }
   ],
   "6": [
@@ -135,6 +183,18 @@
       "targetTl": "mesopotamia",
       "targetChapter": 7,
       "blurb": "Hammurabi was the Old Babylonian king (c. 1792–1750 BCE) whose famous law code is one of the earliest substantial legal texts in human history. He spoke Akkadian, a Semitic language in the same broad family as the tongue of the Hyksos rulers who were about to take over the Egyptian delta. The linguistic affinity is coincidence — there's no evidence of direct contact — but it means the Hyksos would have been closer in language to Babylon than to the Egypt they ruled."
+    },
+    {
+      "matchText": "Assyrian",
+      "targetTl": "assyrian-empire",
+      "targetChapter": 1,
+      "blurb": "The Assyrians were the northern Mesopotamian power whose kings spoke Akkadian — the same Semitic language family as the Hyksos who'd taken over the Egyptian delta. Assyria starts as a merchant city-state on the Tigris and eventually grows into the most feared military empire of the early Iron Age. The Akkadian language is the linguistic bridge across all of this — the lingua franca of Bronze Age Near Eastern diplomacy."
+    },
+    {
+      "matchText": "Nubian captives",
+      "targetTl": "kingdom-of-kush",
+      "targetChapter": 1,
+      "blurb": "What the Egyptians call 'Nubians' in their inscriptions are the people whose kingdom — Kerma, soon called Kush — Thutmose I had just destroyed. After Egypt eventually withdrew, the descendants of these subjugated Nubians would inherit the province, found a new kingdom centered at Napata, and ultimately conquer Egypt themselves as the Twenty-fifth Dynasty pharaohs. That's where the next book in this chain picks up."
     }
   ],
   "7": [
@@ -199,6 +259,12 @@
       "targetTl": "mesopotamia",
       "targetChapter": 9,
       "blurb": "Napata's rise sets up the Kushite pharaohs — the colony that would conquer its colonizer, a reversal Mesopotamia's periphery powers also achieved."
+    },
+    {
+      "matchText": "a quieter Mesopotamian precedent",
+      "targetTl": "mesopotamia",
+      "targetChapter": 5,
+      "blurb": "The Mesopotamian precedent is Sargon of Akkad's installation of his daughter Enheduanna as high priestess at Ur around 2300 BCE — a smaller, single-family version of the same idea Egypt later scaled into the kap system: using kinship and ritual office to bind a conquered elite culture to the imperial center."
     }
   ]
 }

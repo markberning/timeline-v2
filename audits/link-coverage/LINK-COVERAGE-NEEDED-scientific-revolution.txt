@@ -1,0 +1,1406 @@
+# LINK-COVERAGE-NEEDED — scientific-revolution
+# Each line: TERM  ⟨signals⟩  → suggested link type
+# Resolve each with a BORN-VERIFIED Wikipedia slug or an authored blurb.
+# Detect-only: this file never auto-applies links (born-verified doctrine).
+
+## Chapter 1
+    Earth   ⟨recur×8⟩  → ?
+    Greeks   ⟨dict⟩  → glossary
+    Athenian   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+    Arabic   ⟨dict⟩  → glossary
+    Islamic Golden Age Ch   ⟨dict,recur×3⟩  → cross-link
+    Mars   ⟨dict⟩  → glossary
+  * Mainz   ⟨dict⟩  → glossary
+  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
+    Copernicus   ⟨dict⟩  → event
+    Syracuse   ⟨dict⟩  → glossary
+    Baghdad   ⟨dict⟩  → cross-link
+    Tycho Brahe   ⟨dict⟩  → cross-link
+    Persia   ⟨dict⟩  → cross-link
+    Kerala   ⟨dict⟩  → glossary
+    Newton   ⟨dict⟩  → event
+  * Polish   ⟨dict⟩  → glossary
+    Planet   ⟨bold⟩  → event/glossary
+  ~ Church   ⟨⟩  (advisory)
+  ~ Europe   ⟨recur×6⟩  (advisory)
+  ~ Educated Europeans   ⟨⟩  (advisory)
+  ~ European   ⟨recur×3⟩  (advisory)
+  ~ Moon   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Heaven   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict,recur×5⟩  (advisory)
+  ~ Roman-ruled Alexandria   ⟨⟩  (advisory)
+  ~ Egypt   ⟨dict⟩  (advisory)
+  ~ Arabic-derived   ⟨⟩  (advisory)
+  ~ Roman   ⟨dict⟩  (advisory)
+  ~ Bible   ⟨dict⟩  (advisory)
+  ~ Sun-centered   ⟨⟩  (advisory)
+  ~ Lucretius   ⟨⟩  (advisory)
+  ~ Tusi   ⟨⟩  (advisory)
+  ~ Bacon   ⟨⟩  (advisory)
+  ~ Europeans   ⟨⟩  (advisory)
+  ~ violence   ⟨dict-lc⟩  (advisory)
+  ~ common sense   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ finite   ⟨dict-lc,rare⟩  (advisory)
+  ~ eclipse   ⟨dict-lc⟩  (advisory)
+  ~ circulation   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ printing   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ astronomical tables   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ reinvented   ⟨dict-lc⟩  (advisory)
+  ~ the Song   ⟨dict-lc⟩  (advisory)
+  ~ temper   ⟨dict-lc,rare⟩  (advisory)
+  ~ decimal place-value system   ⟨dict-lc⟩  (advisory)
+  ~ counts   ⟨dict-lc⟩  (advisory)
+  ~ calculus   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ knowing things meant knowing what the authorities had said.   ⟨bold⟩  (advisory)
+  ~ printing press   ⟨bold⟩  (advisory)
+  ~ senses   ⟨rare⟩  (advisory)
+  ~ sideways   ⟨rare⟩  (advisory)
+  ~ wheeling   ⟨rare⟩  (advisory)
+  ~ bubbles   ⟨rare⟩  (advisory)
+  ~ incorruptible   ⟨rare⟩  (advisory)
+  ~ unchanging   ⟨rare⟩  (advisory)
+  ~ motionless   ⟨rare⟩  (advisory)
+  ~ wanderer   ⟨rare⟩  (advisory)
+  ~ wander   ⟨rare⟩  (advisory)
+  ~ ingenuity   ⟨rare⟩  (advisory)
+  ~ kludge   ⟨rare⟩  (advisory)
+  ~ horoscopes   ⟨rare⟩  (advisory)
+  ~ predictions   ⟨rare⟩  (advisory)
+  ~ dissecting   ⟨rare⟩  (advisory)
+  ~ dissection   ⟨rare⟩  (advisory)
+  ~ memorizing   ⟨rare⟩  (advisory)
+  ~ seeped   ⟨rare⟩  (advisory)
+  ~ fluids   ⟨rare⟩  (advisory)
+  ~ phlegm   ⟨rare⟩  (advisory)
+  ~ extrapolating   ⟨rare⟩  (advisory)
+  ~ monkeys   ⟨rare⟩  (advisory)
+  ~ stupidity   ⟨rare⟩  (advisory)
+  ~ upgrade   ⟨rare⟩  (advisory)
+  ~ indivisible   ⟨rare⟩  (advisory)
+  ~ purposeful   ⟨rare⟩  (advisory)
+  ~ humanist   ⟨rare⟩  (advisory)
+  ~ atomist   ⟨rare⟩  (advisory)
+  ~ reappears   ⟨rare⟩  (advisory)
+  ~ instrumented   ⟨rare⟩  (advisory)
+  ~ mathematized   ⟨rare⟩  (advisory)
+
+## Chapter 2
+    Prussia   ⟨dict⟩  → glossary
+  * Polish   ⟨dict⟩  → glossary
+    Greeks   ⟨dict⟩  → glossary
+    Ptolemy   ⟨dict,recur×6⟩  → glossary
+    Earth   ⟨recur×11⟩  → ?
+    Mercury   ⟨dict⟩  → glossary
+    Saturn   ⟨dict⟩  → glossary
+  * Lutheran   ⟨dict⟩  → glossary
+  * Flemish   ⟨dict⟩  → glossary
+    Venetian Republic   ⟨dict⟩  → glossary
+    Venice   ⟨dict⟩  → cross-link
+    Galen   ⟨dict,recur×6⟩  → event
+  * Venetian Renaissance   ⟨dict⟩  → glossary
+    Retrograde motion   ⟨bold⟩  → event/glossary
+  ~ Toruń   ⟨⟩  (advisory)
+  ~ Frombork Cathedral   ⟨⟩  (advisory)
+  ~ Church   ⟨⟩  (advisory)
+  ~ Catholic   ⟨recur×3⟩  (advisory)
+  ~ Sun-centered   ⟨⟩  (advisory)
+  ~ Copernican   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Catholic Church   ⟨dict⟩  (advisory)
+  ~ Western Christianity   ⟨⟩  (advisory)
+  ~ Renaissance Italy Ch   ⟨⟩  (advisory)
+  ~ Catholic Frombork   ⟨⟩  (advisory)
+  ~ Nuremberg   ⟨⟩  (advisory)
+  ~ De Revolutionibus Orbium Coelestium   ⟨⟩  (advisory)
+  ~ Arthur Koestler   ⟨⟩  (advisory)
+  ~ Revolutionibus   ⟨⟩  (advisory)
+  ~ Italy   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Inquisition   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Galenic   ⟨⟩  (advisory)
+  ~ Harvey   ⟨⟩  (advisory)
+  ~ in 1473   ⟨dict-lc⟩  (advisory)
+  ~ crown   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ spinning   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ printing.   ⟨dict-lc⟩  (advisory)
+  ~ the Inquisition   ⟨dict-lc⟩  (advisory)
+  ~ lecture   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ bishopric   ⟨rare⟩  (advisory)
+  ~ bureaucrat   ⟨rare⟩  (advisory)
+  ~ predictions   ⟨rare⟩  (advisory)
+  ~ cheated   ⟨rare⟩  (advisory)
+  ~ simulated   ⟨rare⟩  (advisory)
+  ~ lovely   ⟨rare⟩  (advisory)
+  ~ maddening   ⟨rare⟩  (advisory)
+  ~ epicycles   ⟨rare⟩  (advisory)
+  ~ overtakes   ⟨rare⟩  (advisory)
+  ~ ugliest   ⟨rare⟩  (advisory)
+  ~ spacing   ⟨rare⟩  (advisory)
+  ~ farthest   ⟨rare⟩  (advisory)
+  ~ whereas   ⟨rare⟩  (advisory)
+  ~ definite   ⟨rare⟩  (advisory)
+  ~ meaningfully   ⟨rare⟩  (advisory)
+  ~ unimaginably   ⟨rare⟩  (advisory)
+  ~ pleading   ⟨rare⟩  (advisory)
+  ~ sensible   ⟨rare⟩  (advisory)
+  ~ balked   ⟨rare⟩  (advisory)
+  ~ whipping   ⟨rare⟩  (advisory)
+  ~ follower   ⟨rare⟩  (advisory)
+  ~ travelled   ⟨rare⟩  (advisory)
+  ~ shepherded   ⟨rare⟩  (advisory)
+  ~ printer   ⟨rare⟩  (advisory)
+  ~ unsigned   ⟨rare⟩  (advisory)
+  ~ overseeing   ⟨rare⟩  (advisory)
+  ~ intentions   ⟨rare⟩  (advisory)
+  ~ postponing   ⟨rare⟩  (advisory)
+  ~ roused   ⟨rare⟩  (advisory)
+  ~ merciful   ⟨rare⟩  (advisory)
+  ~ unexploded   ⟨rare⟩  (advisory)
+  ~ tidier   ⟨rare⟩  (advisory)
+  ~ coincidences   ⟨rare⟩  (advisory)
+  ~ anatomist   ⟨rare⟩  (advisory)
+  ~ safest   ⟨rare⟩  (advisory)
+  ~ dissection   ⟨rare⟩  (advisory)
+  ~ jawbone   ⟨rare⟩  (advisory)
+  ~ breastbone   ⟨rare⟩  (advisory)
+  ~ assured   ⟨rare⟩  (advisory)
+  ~ dissected   ⟨rare⟩  (advisory)
+  ~ misapplied   ⟨rare⟩  (advisory)
+  ~ woodcuts   ⟨rare⟩  (advisory)
+  ~ flayed   ⟨rare⟩  (advisory)
+  ~ muscles   ⟨rare⟩  (advisory)
+  ~ peeled   ⟨rare⟩  (advisory)
+  ~ outranked   ⟨rare⟩  (advisory)
+  ~ physiology   ⟨rare⟩  (advisory)
+  ~ believes   ⟨rare⟩  (advisory)
+
+## Chapter 3
+    Danish   ⟨dict,recur×3⟩  → glossary
+    Modern   ⟨dict,dict-lc⟩  → event
+    Aristotle   ⟨dict,recur×3⟩  → cross-link
+    Moon   ⟨recur×6⟩  → ?
+    Earth   ⟨recur×4⟩  → ?
+    Copernicus   ⟨dict,recur×3⟩  → event
+    Frederick II   ⟨dict⟩  → cross-link
+    Hven   ⟨recur×3⟩  → ?
+  * Denmark   ⟨dict⟩  → glossary
+    Sweden   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Ulugh Beg   ⟨dict⟩  → event
+    Samarkand   ⟨dict⟩  → cross-link
+    Ming China   ⟨dict⟩  → cross-link
+  * Aristotelian   ⟨dict⟩  → glossary
+    Ptolemy   ⟨dict⟩  → glossary
+    Baghdad   ⟨dict⟩  → cross-link
+    Mars   ⟨dict⟩  → glossary
+    Johannes Kepler   ⟨dict⟩  → glossary
+    On Hven   ⟨pron⟩  → event/glossary
+  ~ De Nova Stella   ⟨⟩  (advisory)
+  ~ King of Denmark   ⟨⟩  (advisory)
+  ~ Urania   ⟨⟩  (advisory)
+  ~ Christian Europe   ⟨⟩  (advisory)
+  ~ Mongol Persia   ⟨⟩  (advisory)
+  ~ European Jesuits   ⟨⟩  (advisory)
+  ~ Copernican   ⟨⟩  (advisory)
+  ~ Bible   ⟨dict⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Prague   ⟨⟩  (advisory)
+  ~ Imperial Mathematician   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ telescope.   ⟨dict-lc,rare⟩  (advisory)
+  ~ silver   ⟨dict-lc⟩  (advisory)
+  ~ flamboyant   ⟨dict-lc,rare⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ printing   ⟨dict-lc⟩  (advisory)
+  ~ themes   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ trust   ⟨dict-lc⟩  (advisory)
+  ~ nova   ⟨bold⟩  (advisory)
+  ~ stairs   ⟨rare⟩  (advisory)
+  ~ stargazer   ⟨rare⟩  (advisory)
+  ~ vocation   ⟨rare⟩  (advisory)
+  ~ prosthetic   ⟨rare⟩  (advisory)
+  ~ adhesive   ⟨rare⟩  (advisory)
+  ~ exhumed   ⟨rare⟩  (advisory)
+  ~ fancier   ⟨rare⟩  (advisory)
+  ~ daylight   ⟨rare⟩  (advisory)
+  ~ unchanging   ⟨rare⟩  (advisory)
+  ~ incorruptible   ⟨rare⟩  (advisory)
+  ~ basement   ⟨rare⟩  (advisory)
+  ~ unruly   ⟨rare⟩  (advisory)
+  ~ assistants   ⟨rare⟩  (advisory)
+  ~ institutionalization   ⟨rare⟩  (advisory)
+  ~ resembled   ⟨rare⟩  (advisory)
+  ~ exhalations   ⟨rare⟩  (advisory)
+  ~ dented   ⟨rare⟩  (advisory)
+  ~ stellar   ⟨rare⟩  (advisory)
+  ~ stationary   ⟨rare⟩  (advisory)
+  ~ reproduces   ⟨rare⟩  (advisory)
+  ~ unbelievable   ⟨rare⟩  (advisory)
+  ~ sixtieth   ⟨rare⟩  (advisory)
+  ~ thirtieth   ⟨rare⟩  (advisory)
+  ~ unaided   ⟨rare⟩  (advisory)
+  ~ mystically   ⟨rare⟩  (advisory)
+  ~ jealously   ⟨rare⟩  (advisory)
+  ~ doling   ⟨rare⟩  (advisory)
+  ~ scraps   ⟨rare⟩  (advisory)
+  ~ bladder   ⟨rare⟩  (advisory)
+
+## Chapter 4
+    Stuttgart   ⟨dict⟩  → glossary
+  * Lutheran   ⟨dict⟩  → glossary
+    Copernican   ⟨recur×3⟩  → ?
+    Greeks   ⟨dict⟩  → glossary
+    Copernicus   ⟨dict⟩  → event
+    Tycho Brahe   ⟨dict⟩  → cross-link
+    Mars   ⟨dict,recur×4⟩  → glossary
+    Tycho   ⟨recur×7⟩  → ?
+    Newton   ⟨dict⟩  → event
+    Harmonices Mundi   ⟨pron⟩  → event/glossary
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ University of Tübingen   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Russian   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Prague   ⟨⟩  (advisory)
+  ~ Earth-centered   ⟨⟩  (advisory)
+  ~ Kepler the problem of the   ⟨⟩  (advisory)
+  ~ Imperial Mathematician   ⟨⟩  (advisory)
+  ~ Tychonic   ⟨⟩  (advisory)
+  ~ Moon   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Katharina   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ heliocentrism   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Greeks   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ it was the first   ⟨dict-lc⟩  (advisory)
+  ~ temper   ⟨dict-lc,rare⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ reformation   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ first law   ⟨bold⟩  (advisory)
+  ~ second law   ⟨bold⟩  (advisory)
+  ~ third law   ⟨bold⟩  (advisory)
+  ~ sickly   ⟨rare⟩  (advisory)
+  ~ mystic   ⟨rare⟩  (advisory)
+  ~ geometer   ⟨rare⟩  (advisory)
+  ~ cipher   ⟨rare⟩  (advisory)
+  ~ fervor   ⟨rare⟩  (advisory)
+  ~ crackpot   ⟨rare⟩  (advisory)
+  ~ orbits   ⟨rare⟩  (advisory)
+  ~ polygons   ⟨rare⟩  (advisory)
+  ~ triangles   ⟨rare⟩  (advisory)
+  ~ pentagons   ⟨rare⟩  (advisory)
+  ~ cosmically   ⟨rare⟩  (advisory)
+  ~ hoarding   ⟨rare⟩  (advisory)
+  ~ unseemly   ⟨rare⟩  (advisory)
+  ~ scramble   ⟨rare⟩  (advisory)
+  ~ epicyclic   ⟨rare⟩  (advisory)
+  ~ arcminutes   ⟨rare⟩  (advisory)
+  ~ providence   ⟨rare⟩  (advisory)
+  ~ squashed   ⟨rare⟩  (advisory)
+  ~ nearer   ⟨rare⟩  (advisory)
+  ~ imaginary   ⟨rare⟩  (advisory)
+  ~ sweeps   ⟨rare⟩  (advisory)
+  ~ guessed   ⟨rare⟩  (advisory)
+  ~ magnetism   ⟨rare⟩  (advisory)
+  ~ behaves   ⟨rare⟩  (advisory)
+  ~ magnet   ⟨rare⟩  (advisory)
+  ~ harmonies   ⟨rare⟩  (advisory)
+  ~ thrilled   ⟨rare⟩  (advisory)
+  ~ orbital   ⟨rare⟩  (advisory)
+  ~ progression   ⟨rare⟩  (advisory)
+
+## Chapter 5
+    Pisa   ⟨dict⟩  → glossary
+    Michelangelo   ⟨dict⟩  → event
+    Shakespeare   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Earth   ⟨recur×4⟩  → ?
+    University of Padua   ⟨dict⟩  → glossary
+    Venetian Republic   ⟨dict⟩  → glossary
+    Aristotle   ⟨dict⟩  → cross-link
+  * Flemish   ⟨dict⟩  → glossary
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Cairo   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+  * Aristotelian   ⟨dict⟩  → glossary
+    Moon   ⟨recur×3⟩  → ?
+  * Jupiter   ⟨dict⟩  → glossary
+    Copernicus   ⟨dict⟩  → event
+    Florence   ⟨dict⟩  → glossary
+    Venus   ⟨dict,recur×4⟩  → glossary
+    Ptolemaic   ⟨dict⟩  → glossary
+    Ptolemy   ⟨dict⟩  → glossary
+  ~ Prague   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Leaning Tower of Pisa   ⟨⟩  (advisory)
+  ~ Venice of a Dutch   ⟨⟩  (advisory)
+  ~ Milky Way   ⟨⟩  (advisory)
+  ~ Copernican   ⟨⟩  (advisory)
+  ~ Medicean Stars   ⟨⟩  (advisory)
+  ~ Ptolemy's Earth-centered   ⟨⟩  (advisory)
+  ~ Tycho   ⟨⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ music   ⟨dict-lc⟩  (advisory)
+  ~ the father   ⟨dict-lc⟩  (advisory)
+  ~ bronze   ⟨dict-lc⟩  (advisory)
+  ~ weights   ⟨dict-lc⟩  (advisory)
+  ~ prince   ⟨dict-lc⟩  (advisory)
+  ~ epicycle   ⟨dict-lc,rare⟩  (advisory)
+  ~ moons orbiting Jupiter   ⟨bold⟩  (advisory)
+  ~ sunspots   ⟨bold,rare⟩  (advisory)
+  ~ deriving   ⟨rare⟩  (advisory)
+  ~ playwright   ⟨rare⟩  (advisory)
+  ~ deferring   ⟨rare⟩  (advisory)
+  ~ combative   ⟨rare⟩  (advisory)
+  ~ sarcastic   ⟨rare⟩  (advisory)
+  ~ clocks   ⟨rare⟩  (advisory)
+  ~ elapsed   ⟨rare⟩  (advisory)
+  ~ terrestrial   ⟨rare⟩  (advisory)
+  ~ indifferent   ⟨rare⟩  (advisory)
+  ~ lenses   ⟨rare⟩  (advisory)
+  ~ patented   ⟨rare⟩  (advisory)
+  ~ hawked   ⟨rare⟩  (advisory)
+  ~ magnified   ⟨rare⟩  (advisory)
+  ~ pamphlet   ⟨rare⟩  (advisory)
+  ~ shadows   ⟨rare⟩  (advisory)
+  ~ lengthening   ⟨rare⟩  (advisory)
+  ~ orbiting   ⟨rare⟩  (advisory)
+  ~ undeniably   ⟨rare⟩  (advisory)
+  ~ satellites   ⟨rare⟩  (advisory)
+  ~ refuting   ⟨rare⟩  (advisory)
+  ~ underplay   ⟨rare⟩  (advisory)
+  ~ blemished   ⟨rare⟩  (advisory)
+  ~ incorruptible   ⟨rare⟩  (advisory)
+  ~ geometrically   ⟨rare⟩  (advisory)
+  ~ predicts   ⟨rare⟩  (advisory)
+  ~ relish   ⟨rare⟩  (advisory)
+
+## Chapter 6
+    Scripture   ⟨recur×4⟩  → ?
+    Protestant Reformation   ⟨dict⟩  → glossary
+  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
+    Copernicus   ⟨dict⟩  → event
+  * Aristotelian   ⟨dict⟩  → glossary
+    Simplicio   ⟨gloss,bold⟩  → glossary
+    Florence   ⟨dict⟩  → glossary
+    Padua   ⟨dict⟩  → cross-link
+    Dutch Republic   ⟨dict⟩  → cross-link
+    Newton   ⟨dict⟩  → event
+    Descartes   ⟨dict⟩  → glossary
+    or teach in any way   ⟨gloss⟩  → glossary
+    "Eppur si muove,"   ⟨gloss⟩  → glossary
+  ~ Church   ⟨recur×9⟩  (advisory)
+  ~ Catholic Church   ⟨dict⟩  (advisory)
+  ~ Renaissance Italy Ch   ⟨⟩  (advisory)
+  ~ Catholic   ⟨recur×3⟩  (advisory)
+  ~ Protestantism   ⟨⟩  (advisory)
+  ~ Protestant   ⟨recur×3⟩  (advisory)
+  ~ Brahe   ⟨⟩  (advisory)
+  ~ Letter   ⟨⟩  (advisory)
+  ~ Grand Duchess Christina   ⟨⟩  (advisory)
+  ~ Bible   ⟨dict⟩  (advisory)
+  ~ Cardinal Baronio   ⟨⟩  (advisory)
+  ~ Osiander   ⟨⟩  (advisory)
+  ~ Sun-centered   ⟨⟩  (advisory)
+  ~ Cardinal Maffeo Barberini   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Earth-centered   ⟨⟩  (advisory)
+  ~ Catholic Europe   ⟨⟩  (advisory)
+  ~ Germany   ⟨dict⟩  (advisory)
+  ~ Rome   ⟨dict⟩  (advisory)
+  ~ Eppur   ⟨⟩  (advisory)
+  ~ Netherlands   ⟨⟩  (advisory)
+  ~ Protestant Dutch Republic   ⟨⟩  (advisory)
+  ~ England   ⟨⟩  (advisory)
+  ~ counts   ⟨dict-lc⟩  (advisory)
+  ~ heliocentrism   ⟨dict-lc,rare⟩  (advisory)
+  ~ stellar parallax   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ the Pope's   ⟨dict-lc⟩  (advisory)
+  ~ paper.   ⟨dict-lc⟩  (advisory)
+  ~ prohibition   ⟨dict-lc⟩  (advisory)
+  ~ injunction   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Inquisition   ⟨dict-lc⟩  (advisory)
+  ~ the Dutch Republic   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ strewn   ⟨rare⟩  (advisory)
+  ~ layman   ⟨rare⟩  (advisory)
+  ~ reinterpret   ⟨rare⟩  (advisory)
+  ~ undiplomatic   ⟨rare⟩  (advisory)
+  ~ pending   ⟨rare⟩  (advisory)
+  ~ predicts   ⟨rare⟩  (advisory)
+  ~ unreasonable   ⟨rare⟩  (advisory)
+  ~ proofs   ⟨rare⟩  (advisory)
+  ~ stellar   ⟨rare⟩  (advisory)
+  ~ parallax   ⟨rare⟩  (advisory)
+  ~ proudest   ⟨rare⟩  (advisory)
+  ~ sloshing   ⟨rare⟩  (advisory)
+  ~ admirer   ⟨rare⟩  (advisory)
+  ~ merciless   ⟨rare⟩  (advisory)
+  ~ omnipotence   ⟨rare⟩  (advisory)
+  ~ unsigned   ⟨rare⟩  (advisory)
+  ~ milder   ⟨rare⟩  (advisory)
+  ~ vehemently   ⟨rare⟩  (advisory)
+  ~ recantation   ⟨rare⟩  (advisory)
+  ~ commuted   ⟨rare⟩  (advisory)
+  ~ mutter   ⟨rare⟩  (advisory)
+  ~ disbelieved   ⟨rare⟩  (advisory)
+  ~ planes   ⟨rare⟩  (advisory)
+  ~ printer   ⟨rare⟩  (advisory)
+
+## Chapter 7
+    Scholastic   ⟨dict⟩  → event
+    Idols   ⟨bold⟩  → event/glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Cairo   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+  * Persian   ⟨dict⟩  → cross-link
+    Newton   ⟨dict⟩  → event
+  ~ Englishman   ⟨⟩  (advisory)
+  ~ Lord Chancellor   ⟨⟩  (advisory)
+  ~ England   ⟨⟩  (advisory)
+  ~ King James   ⟨⟩  (advisory)
+  ~ Scottish   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Idols of the Tribe   ⟨⟩  (advisory)
+  ~ Cave   ⟨⟩  (advisory)
+  ~ Marketplace   ⟨⟩  (advisory)
+  ~ Theatre   ⟨⟩  (advisory)
+  ~ Salomon's House   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Haytham   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Catholic   ⟨⟩  (advisory)
+  ~ CART   ⟨⟩  (advisory)
+  ~ From   ⟨⟩  (advisory)
+  ~ Continental   ⟨⟩  (advisory)
+  ~ Boyle   ⟨⟩  (advisory)
+  ~ Huygens   ⟨⟩  (advisory)
+  ~ Cartesian   ⟨⟩  (advisory)
+  ~ La Géométrie   ⟨⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ prophet   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ forty   ⟨dict-lc⟩  (advisory)
+  ~ reconstruction   ⟨dict-lc⟩  (advisory)
+  ~ he took   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ heliocentrism   ⟨dict-lc,rare⟩  (advisory)
+  ~ vortices   ⟨dict-lc,bold,rare⟩  (advisory)
+  ~ assumption   ⟨dict-lc⟩  (advisory)
+  ~ who followed   ⟨dict-lc⟩  (advisory)
+  ~ calculus   ⟨dict-lc⟩  (advisory)
+  ~ charter   ⟨dict-lc⟩  (advisory)
+  ~ matter in motion   ⟨bold⟩  (advisory)
+  ~ guessed   ⟨rare⟩  (advisory)
+  ~ wrongly   ⟨rare⟩  (advisory)
+  ~ comets   ⟨rare⟩  (advisory)
+  ~ aptness   ⟨rare⟩  (advisory)
+  ~ chicken   ⟨rare⟩  (advisory)
+  ~ practitioner   ⟨rare⟩  (advisory)
+  ~ confusions   ⟨rare⟩  (advisory)
+  ~ sloppy   ⟨rare⟩  (advisory)
+  ~ cognitive   ⟨rare⟩  (advisory)
+  ~ deduce   ⟨rare⟩  (advisory)
+  ~ collaborative   ⟨rare⟩  (advisory)
+  ~ investigated   ⟨rare⟩  (advisory)
+  ~ physicist   ⟨rare⟩  (advisory)
+  ~ seeker   ⟨rare⟩  (advisory)
+  ~ recluse   ⟨rare⟩  (advisory)
+  ~ senses   ⟨rare⟩  (advisory)
+  ~ deceive   ⟨rare⟩  (advisory)
+  ~ entertaining   ⟨rare⟩  (advisory)
+  ~ suppose   ⟨rare⟩  (advisory)
+  ~ malicious   ⟨rare⟩  (advisory)
+  ~ certainties   ⟨rare⟩  (advisory)
+  ~ doubting   ⟨rare⟩  (advisory)
+  ~ affirm   ⟨rare⟩  (advisory)
+  ~ indubitable   ⟨rare⟩  (advisory)
+  ~ deduction   ⟨rare⟩  (advisory)
+  ~ sympathies   ⟨rare⟩  (advisory)
+  ~ infinitely   ⟨rare⟩  (advisory)
+  ~ clockwork   ⟨rare⟩  (advisory)
+  ~ whirlpools   ⟨rare⟩  (advisory)
+  ~ ideally   ⟨rare⟩  (advisory)
+  ~ fatefully   ⟨rare⟩  (advisory)
+  ~ interacting   ⟨rare⟩  (advisory)
+  ~ headache   ⟨rare⟩  (advisory)
+  ~ fencing   ⟨rare⟩  (advisory)
+  ~ throwaway   ⟨rare⟩  (advisory)
+  ~ appendix   ⟨rare⟩  (advisory)
+  ~ learns   ⟨rare⟩  (advisory)
+  ~ coordinates   ⟨rare⟩  (advisory)
+  ~ algebraic   ⟨rare⟩  (advisory)
+  ~ manipulate   ⟨rare⟩  (advisory)
+  ~ compute   ⟨rare⟩  (advisory)
+  ~ usefulness   ⟨rare⟩  (advisory)
+
+## Chapter 8
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Galen   ⟨dict,recur×3⟩  → event
+    Vesalius   ⟨dict⟩  → event
+    Padua   ⟨dict⟩  → cross-link
+  * Galileo   ⟨dict⟩  → event
+  * Charles   ⟨dict⟩  → glossary
+    Parliament   ⟨dict⟩  → glossary
+    Cairo   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Arabic   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+  * Kepler   ⟨dict⟩  → glossary
+    Mars   ⟨dict⟩  → glossary
+    Descartes   ⟨dict⟩  → glossary
+  ~ English   ⟨⟩  (advisory)
+  ~ Englishman   ⟨⟩  (advisory)
+  ~ England   ⟨⟩  (advisory)
+  ~ James   ⟨⟩  (advisory)
+  ~ Galenic   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Paduan   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ assumption   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ it is a   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ air-pump.   ⟨dict-lc⟩  (advisory)
+  ~ cells   ⟨dict-lc⟩  (advisory)
+  ~ disquieting   ⟨rare⟩  (advisory)
+  ~ tourniquet   ⟨rare⟩  (advisory)
+  ~ physiology   ⟨rare⟩  (advisory)
+  ~ digested   ⟨rare⟩  (advisory)
+  ~ brighter   ⟨rare⟩  (advisory)
+  ~ seeping   ⟨rare⟩  (advisory)
+  ~ consumptive   ⟨rare⟩  (advisory)
+  ~ lecturing   ⟨rare⟩  (advisory)
+  ~ behead   ⟨rare⟩  (advisory)
+  ~ mechanist   ⟨rare⟩  (advisory)
+  ~ ejects   ⟨rare⟩  (advisory)
+  ~ conceivably   ⟨rare⟩  (advisory)
+  ~ pumped   ⟨rare⟩  (advisory)
+  ~ recirculated   ⟨rare⟩  (advisory)
+  ~ unread   ⟨rare⟩  (advisory)
+  ~ ligature   ⟨rare⟩  (advisory)
+  ~ valves   ⟨rare⟩  (advisory)
+  ~ biology   ⟨rare⟩  (advisory)
+  ~ ourselves   ⟨rare⟩  (advisory)
+  ~ tissues   ⟨rare⟩  (advisory)
+  ~ turnaround   ⟨rare⟩  (advisory)
+  ~ outbound   ⟨rare⟩  (advisory)
+  ~ deduction   ⟨rare⟩  (advisory)
+  ~ microscopes   ⟨rare⟩  (advisory)
+  ~ quarreling   ⟨rare⟩  (advisory)
+  ~ automata   ⟨rare⟩  (advisory)
+  ~ lurching   ⟨rare⟩  (advisory)
+  ~ programmable   ⟨rare⟩  (advisory)
+  ~ feelings   ⟨rare⟩  (advisory)
+  ~ bolted   ⟨rare⟩  (advisory)
+  ~ vivisection   ⟨rare⟩  (advisory)
+  ~ tremendously   ⟨rare⟩  (advisory)
+  ~ filters   ⟨rare⟩  (advisory)
+  ~ mechanization   ⟨rare⟩  (advisory)
+  ~ acquisitions   ⟨rare⟩  (advisory)
+  ~ justifications   ⟨rare⟩  (advisory)
+  ~ humoral   ⟨rare⟩  (advisory)
+  ~ optimism   ⟨rare⟩  (advisory)
+
+## Chapter 9
+  * Aristotelian   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+  * Galileo   ⟨dict⟩  → event
+    Medici   ⟨dict⟩  → event
+    Florence   ⟨dict⟩  → glossary
+    Puy de Dôme   ⟨bold⟩  → event/glossary
+    Holy Roman Emperor   ⟨dict⟩  → glossary
+  ~ Frenchman   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ DOHM   ⟨⟩  (advisory)
+  ~ France   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ England   ⟨⟩  (advisory)
+  ~ mercury   ⟨dict-lc⟩  (advisory)
+  ~ finite   ⟨dict-lc,rare⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ the famous   ⟨dict-lc⟩  (advisory)
+  ~ counts   ⟨dict-lc⟩  (advisory)
+  ~ copper   ⟨dict-lc⟩  (advisory)
+  ~ quibble   ⟨rare⟩  (advisory)
+  ~ knocking   ⟨rare⟩  (advisory)
+  ~ exquisitely   ⟨rare⟩  (advisory)
+  ~ instantaneous   ⟨rare⟩  (advisory)
+  ~ absurdity   ⟨rare⟩  (advisory)
+  ~ abhors   ⟨rare⟩  (advisory)
+  ~ prevents   ⟨rare⟩  (advisory)
+  ~ piston   ⟨rare⟩  (advisory)
+  ~ suction   ⟨rare⟩  (advisory)
+  ~ guessed   ⟨rare⟩  (advisory)
+  ~ wrongly   ⟨rare⟩  (advisory)
+  ~ suggestively   ⟨rare⟩  (advisory)
+  ~ shoves   ⟨rare⟩  (advisory)
+  ~ stoppered   ⟨rare⟩  (advisory)
+  ~ unstoppered   ⟨rare⟩  (advisory)
+  ~ prodigy   ⟨rare⟩  (advisory)
+  ~ grasped   ⟨rare⟩  (advisory)
+  ~ falsifiable   ⟨rare⟩  (advisory)
+  ~ reversibly   ⟨rare⟩  (advisory)
+  ~ retellings   ⟨rare⟩  (advisory)
+  ~ pumped   ⟨rare⟩  (advisory)
+  ~ harnessed   ⟨rare⟩  (advisory)
+  ~ straining   ⟨rare⟩  (advisory)
+  ~ circus   ⟨rare⟩  (advisory)
+  ~ vividly   ⟨rare⟩  (advisory)
+  ~ experimenter   ⟨rare⟩  (advisory)
+
+## Chapter 10
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Aristotle   ⟨dict⟩  → cross-link
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Royal Society   ⟨dict⟩  → cross-link
+    Oxford   ⟨dict⟩  → event
+  ~ Europeans   ⟨⟩  (advisory)
+  ~ Guericke   ⟨⟩  (advisory)
+  ~ Earl of Cork   ⟨⟩  (advisory)
+  ~ Britain   ⟨dict⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Cartesian   ⟨⟩  (advisory)
+  ~ counts   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ notebooks   ⟨dict-lc,rare⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ superstition   ⟨dict-lc⟩  (advisory)
+  ~ thoroughgoing   ⟨dict-lc,rare⟩  (advisory)
+  ~ vacuum   ⟨dict-lc⟩  (advisory)
+  ~ finite   ⟨dict-lc,rare⟩  (advisory)
+  ~ experimental philosopher   ⟨bold⟩  (advisory)
+  ~ matter of fact   ⟨bold⟩  (advisory)
+  ~ irritable   ⟨rare⟩  (advisory)
+  ~ underpaid   ⟨rare⟩  (advisory)
+  ~ striving   ⟨rare⟩  (advisory)
+  ~ assistants   ⟨rare⟩  (advisory)
+  ~ candles   ⟨rare⟩  (advisory)
+  ~ clapper   ⟨rare⟩  (advisory)
+  ~ suffocated   ⟨rare⟩  (advisory)
+  ~ casualness   ⟨rare⟩  (advisory)
+  ~ combustion   ⟨rare⟩  (advisory)
+  ~ inversely   ⟨rare⟩  (advisory)
+  ~ elementary   ⟨rare⟩  (advisory)
+  ~ manipulating   ⟨rare⟩  (advisory)
+  ~ pharmacological   ⟨rare⟩  (advisory)
+  ~ corpuscles   ⟨rare⟩  (advisory)
+  ~ transmutation   ⟨rare⟩  (advisory)
+  ~ lobbied   ⟨rare⟩  (advisory)
+  ~ repeal   ⟨rare⟩  (advisory)
+  ~ banish   ⟨rare⟩  (advisory)
+  ~ occult   ⟨rare⟩  (advisory)
+  ~ deduced   ⟨rare⟩  (advisory)
+  ~ leaked   ⟨rare⟩  (advisory)
+  ~ contestable   ⟨rare⟩  (advisory)
+  ~ gentlemen   ⟨rare⟩  (advisory)
+  ~ deduction   ⟨rare⟩  (advisory)
+  ~ experimenters   ⟨rare⟩  (advisory)
+  ~ epistemology   ⟨rare⟩  (advisory)
+  ~ provisionally   ⟨rare⟩  (advisory)
+  ~ revisable   ⟨rare⟩  (advisory)
+
+## Chapter 11
+    Descartes   ⟨dict⟩  → glossary
+    Pierre de Fermat   ⟨dict⟩  → glossary
+  * Galileo   ⟨dict⟩  → event
+  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
+    Oxford   ⟨dict⟩  → event
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Latin   ⟨dict⟩  → cross-link
+    Scholastic   ⟨dict⟩  → event
+    Parliament   ⟨dict⟩  → glossary
+    Thirty Years' War   ⟨dict⟩  → cross-link
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Pascal   ⟨⟩  (advisory)
+  ~ Boyle   ⟨⟩  (advisory)
+  ~ Stuart   ⟨⟩  (advisory)
+  ~ Hooke   ⟨⟩  (advisory)
+  ~ Curator of Experiments   ⟨⟩  (advisory)
+  ~ Journal   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ King Charles   ⟨⟩  (advisory)
+  ~ England   ⟨⟩  (advisory)
+  ~ British   ⟨⟩  (advisory)
+  ~ England's Protestant   ⟨⟩  (advisory)
+  ~ Puritans   ⟨⟩  (advisory)
+  ~ English Protestantism   ⟨⟩  (advisory)
+  ~ Fellows   ⟨⟩  (advisory)
+  ~ Maragha   ⟨⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ charter   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ crown   ⟨dict-lc⟩  (advisory)
+  ~ academy   ⟨dict-lc⟩  (advisory)
+  ~ the Puritans   ⟨dict-lc⟩  (advisory)
+  ~ thousand years   ⟨dict-lc⟩  (advisory)
+  ~ social machine   ⟨bold⟩  (advisory)
+  ~ priority   ⟨bold⟩  (advisory)
+  ~ scrutiny   ⟨bold⟩  (advisory)
+  ~ raging   ⟨rare⟩  (advisory)
+  ~ improbably   ⟨rare⟩  (advisory)
+  ~ switchboard   ⟨rare⟩  (advisory)
+  ~ bundled   ⟨rare⟩  (advisory)
+  ~ relaying   ⟨rare⟩  (advisory)
+  ~ brokering   ⟨rare⟩  (advisory)
+  ~ borderless   ⟨rare⟩  (advisory)
+  ~ humanist   ⟨rare⟩  (advisory)
+  ~ supercharged   ⟨rare⟩  (advisory)
+  ~ experimentally   ⟨rare⟩  (advisory)
+  ~ minded   ⟨rare⟩  (advisory)
+  ~ gentlemen   ⟨rare⟩  (advisory)
+  ~ subtler   ⟨rare⟩  (advisory)
+  ~ periodicals   ⟨rare⟩  (advisory)
+  ~ poisonous   ⟨rare⟩  (advisory)
+  ~ embryo   ⟨rare⟩  (advisory)
+  ~ tireless   ⟨rare⟩  (advisory)
+  ~ citable   ⟨rare⟩  (advisory)
+  ~ blandness   ⟨rare⟩  (advisory)
+  ~ sociologist   ⟨rare⟩  (advisory)
+  ~ dissenters   ⟨rare⟩  (advisory)
+  ~ congenial   ⟨rare⟩  (advisory)
+  ~ outliving   ⟨rare⟩  (advisory)
+
+## Chapter 12
+    Dutch Republic   ⟨dict⟩  → cross-link
+    Hans Lippershey   ⟨dict⟩  → event
+    Amsterdam   ⟨dict⟩  → glossary
+    Renaissance Italy   ⟨dict⟩  → cross-link
+  * Galileo   ⟨dict⟩  → event
+    Newton   ⟨dict⟩  → event
+    Saturn   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+    Louis XIV   ⟨dict⟩  → event
+    Mars   ⟨dict,recur×3⟩  → glossary
+    Paris   ⟨dict⟩  → glossary
+    Copernicus   ⟨dict⟩  → event
+  * Danish   ⟨dict⟩  → glossary
+    Descartes   ⟨dict⟩  → glossary
+    Giordano Bruno   ⟨dict⟩  → event
+  ~ With the institutions   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Paris Observatory   ⟨⟩  (advisory)
+  ~ Académie   ⟨⟩  (advisory)
+  ~ French Guiana   ⟨⟩  (advisory)
+  ~ South America   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Heaven   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Conversations   ⟨⟩  (advisory)
+  ~ Plurality of Worlds   ⟨⟩  (advisory)
+  ~ telescope   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Dutch Republic   ⟨dict-lc⟩  (advisory)
+  ~ pendulum clock   ⟨dict-lc⟩  (advisory)
+  ~ barometer   ⟨dict-lc,rare⟩  (advisory)
+  ~ air-pump   ⟨dict-lc⟩  (advisory)
+  ~ the Dutch   ⟨dict-lc⟩  (advisory)
+  ~ republic   ⟨dict-lc⟩  (advisory)
+  ~ his brother   ⟨dict-lc⟩  (advisory)
+  ~ parallax   ⟨dict-lc,rare⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ the salon   ⟨dict-lc⟩  (advisory)
+  ~ speed   ⟨bold⟩  (advisory)
+  ~ improving   ⟨rare⟩  (advisory)
+  ~ monstrously   ⟨rare⟩  (advisory)
+  ~ vertiginously   ⟨rare⟩  (advisory)
+  ~ microscope   ⟨rare⟩  (advisory)
+  ~ unrecreatable   ⟨rare⟩  (advisory)
+  ~ patent   ⟨rare⟩  (advisory)
+  ~ undersold   ⟨rare⟩  (advisory)
+  ~ pendulum   ⟨rare⟩  (advisory)
+  ~ tradable   ⟨rare⟩  (advisory)
+  ~ oceanic   ⟨rare⟩  (advisory)
+  ~ lenses   ⟨rare⟩  (advisory)
+  ~ encircled   ⟨rare⟩  (advisory)
+  ~ naturalized   ⟨rare⟩  (advisory)
+  ~ colleague   ⟨rare⟩  (advisory)
+  ~ vantage   ⟨rare⟩  (advisory)
+  ~ triangulation   ⟨rare⟩  (advisory)
+  ~ unbelievable   ⟨rare⟩  (advisory)
+  ~ strewn   ⟨rare⟩  (advisory)
+  ~ intuitive   ⟨rare⟩  (advisory)
+  ~ infinitely   ⟨rare⟩  (advisory)
+  ~ instantaneous   ⟨rare⟩  (advisory)
+  ~ unimaginably   ⟨rare⟩  (advisory)
+  ~ unthinkably   ⟨rare⟩  (advisory)
+  ~ outermost   ⟨rare⟩  (advisory)
+  ~ describable   ⟨rare⟩  (advisory)
+  ~ marquise   ⟨rare⟩  (advisory)
+  ~ bestseller   ⟨rare⟩  (advisory)
+  ~ fashionable   ⟨rare⟩  (advisory)
+
+## Chapter 13
+    Dutch   ⟨dict,recur×3⟩  → glossary
+    Saturn   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Delft   ⟨dict⟩  → glossary
+    Latin   ⟨dict⟩  → cross-link
+  ~ Society   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Italian   ⟨⟩  (advisory)
+  ~ Pasteur   ⟨⟩  (advisory)
+  ~ telescope   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ the name   ⟨dict-lc⟩  (advisory)
+  ~ the Dutch   ⟨dict-lc⟩  (advisory)
+  ~ glass beads   ⟨dict-lc⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ blockbuster   ⟨rare⟩  (advisory)
+  ~ diarist   ⟨rare⟩  (advisory)
+  ~ meticulous   ⟨rare⟩  (advisory)
+  ~ engravings   ⟨rare⟩  (advisory)
+  ~ pitted   ⟨rare⟩  (advisory)
+  ~ honeycomb   ⟨rare⟩  (advisory)
+  ~ offhand   ⟨rare⟩  (advisory)
+  ~ biology   ⟨rare⟩  (advisory)
+  ~ draper   ⟨rare⟩  (advisory)
+  ~ municipal   ⟨rare⟩  (advisory)
+  ~ spherical   ⟨rare⟩  (advisory)
+  ~ microscopes   ⟨rare⟩  (advisory)
+  ~ postage   ⟨rare⟩  (advisory)
+  ~ magnifications   ⟨rare⟩  (advisory)
+  ~ infusions   ⟨rare⟩  (advisory)
+  ~ saliva   ⟨rare⟩  (advisory)
+  ~ plaque   ⟨rare⟩  (advisory)
+  ~ scraped   ⟨rare⟩  (advisory)
+  ~ teemed   ⟨rare⟩  (advisory)
+  ~ uncountable   ⟨rare⟩  (advisory)
+  ~ clergyman   ⟨rare⟩  (advisory)
+  ~ tradesman   ⟨rare⟩  (advisory)
+  ~ witnessing   ⟨rare⟩  (advisory)
+  ~ certify   ⟨rare⟩  (advisory)
+  ~ unbelievable   ⟨rare⟩  (advisory)
+  ~ bacteria   ⟨rare⟩  (advisory)
+  ~ protozoa   ⟨rare⟩  (advisory)
+  ~ mouthful   ⟨rare⟩  (advisory)
+  ~ outrunning   ⟨rare⟩  (advisory)
+  ~ microscope   ⟨rare⟩  (advisory)
+  ~ sharpness   ⟨rare⟩  (advisory)
+  ~ maggots   ⟨rare⟩  (advisory)
+  ~ muddied   ⟨rare⟩  (advisory)
+  ~ surely   ⟨rare⟩  (advisory)
+  ~ infusion   ⟨rare⟩  (advisory)
+  ~ spontaneously   ⟨rare⟩  (advisory)
+  ~ askable   ⟨rare⟩  (advisory)
+
+## Chapter 14
+  * Kepler   ⟨dict⟩  → glossary
+  * Galileo   ⟨dict⟩  → event
+    Principia   ⟨dict⟩  → glossary
+    Descartes   ⟨dict⟩  → glossary
+    John Locke   ⟨dict⟩  → event
+    Arabic   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Newton   ⟨dict⟩  → event
+    Cambridge   ⟨dict⟩  → glossary
+    Blaise Pascal   ⟨dict⟩  → glossary
+    Christiaan Huygens   ⟨dict⟩  → event
+  ~ Running   ⟨⟩  (advisory)
+  ~ Boyle   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Indian   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ Scottish   ⟨⟩  (advisory)
+  ~ Tycho-grade   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ Tycho   ⟨⟩  (advisory)
+  ~ Pascal   ⟨⟩  (advisory)
+  ~ Isaac Barrow   ⟨⟩  (advisory)
+  ~ Leibniz   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ Frenchmen   ⟨⟩  (advisory)
+  ~ Huygens   ⟨⟩  (advisory)
+  ~ Rømer   ⟨⟩  (advisory)
+  ~ Bacon   ⟨⟩  (advisory)
+  ~ ellipses   ⟨dict-lc,rare⟩  (advisory)
+  ~ assumption   ⟨dict-lc⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ planetary tables   ⟨dict-lc⟩  (advisory)
+  ~ general   ⟨dict-lc⟩  (advisory)
+  ~ calculus   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ founded   ⟨dict-lc⟩  (advisory)
+  ~ squared   ⟨rare⟩  (advisory)
+  ~ looming   ⟨rare⟩  (advisory)
+  ~ memorably   ⟨rare⟩  (advisory)
+  ~ triangles   ⟨rare⟩  (advisory)
+  ~ humanly   ⟨rare⟩  (advisory)
+  ~ qualitative   ⟨rare⟩  (advisory)
+  ~ essences   ⟨rare⟩  (advisory)
+  ~ particle   ⟨rare⟩  (advisory)
+  ~ subjective   ⟨rare⟩  (advisory)
+  ~ licenses   ⟨rare⟩  (advisory)
+  ~ metered   ⟨rare⟩  (advisory)
+  ~ trigonometric   ⟨rare⟩  (advisory)
+  ~ multiplication   ⟨rare⟩  (advisory)
+  ~ subtraction   ⟨rare⟩  (advisory)
+  ~ shortening   ⟨rare⟩  (advisory)
+  ~ computable   ⟨rare⟩  (advisory)
+  ~ mathematizing   ⟨rare⟩  (advisory)
+  ~ asserts   ⟨rare⟩  (advisory)
+  ~ lawless   ⟨rare⟩  (advisory)
+  ~ enabler   ⟨rare⟩  (advisory)
+  ~ expressly   ⟨rare⟩  (advisory)
+  ~ mathematization   ⟨rare⟩  (advisory)
+
+## Chapter 15
+  * Galileo   ⟨dict⟩  → event
+  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
+    London   ⟨dict⟩  → glossary
+    Descartes'   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Robert Hooke   ⟨dict,bold⟩  → glossary
+    Hooke   ⟨recur×4⟩  → ?
+    Edmond Halley   ⟨dict⟩  → glossary
+  ~ Everything   ⟨⟩  (advisory)
+  ~ Lincolnshire   ⟨⟩  (advisory)
+  ~ Newtonians   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Moon   ⟨⟩  (advisory)
+  ~ Lucasian Professor of Mathematics   ⟨⟩  (advisory)
+  ~ Christian   ⟨⟩  (advisory)
+  ~ Father   ⟨⟩  (advisory)
+  ~ Holy Spirit   ⟨⟩  (advisory)
+  ~ Christianity   ⟨dict⟩  (advisory)
+  ~ Newton's England   ⟨⟩  (advisory)
+  ~ Society's Curator of Experiments   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ Society   ⟨⟩  (advisory)
+  ~ the word   ⟨dict-lc⟩  (advisory)
+  ~ alchemy   ⟨dict-lc,bold,rare⟩  (advisory)
+  ~ plague   ⟨dict-lc,bold⟩  (advisory)
+  ~ bubonic plague   ⟨dict-lc⟩  (advisory)
+  ~ the doctrine of   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ theology   ⟨bold⟩  (advisory)
+  ~ prematurely   ⟨rare⟩  (advisory)
+  ~ farmhouse   ⟨rare⟩  (advisory)
+  ~ secretive   ⟨rare⟩  (advisory)
+  ~ vindictive   ⟨rare⟩  (advisory)
+  ~ strangenesses   ⟨rare⟩  (advisory)
+  ~ smoothing   ⟨rare⟩  (advisory)
+  ~ falsification   ⟨rare⟩  (advisory)
+  ~ undistinguished   ⟨rare⟩  (advisory)
+  ~ fluxions   ⟨rare⟩  (advisory)
+  ~ acceleration   ⟨rare⟩  (advisory)
+  ~ orbits   ⟨rare⟩  (advisory)
+  ~ thinning   ⟨rare⟩  (advisory)
+  ~ retrofit   ⟨rare⟩  (advisory)
+  ~ transmutation   ⟨rare⟩  (advisory)
+  ~ animating   ⟨rare⟩  (advisory)
+  ~ hobbies   ⟨rare⟩  (advisory)
+  ~ physicist   ⟨rare⟩  (advisory)
+  ~ occult   ⟨rare⟩  (advisory)
+  ~ pervading   ⟨rare⟩  (advisory)
+  ~ sustains   ⟨rare⟩  (advisory)
+  ~ mechanist   ⟨rare⟩  (advisory)
+  ~ venture   ⟨rare⟩  (advisory)
+  ~ persistently   ⟨rare⟩  (advisory)
+  ~ prickly   ⟨rare⟩  (advisory)
+  ~ reacted   ⟨rare⟩  (advisory)
+  ~ resign   ⟨rare⟩  (advisory)
+  ~ nursed   ⟨rare⟩  (advisory)
+  ~ hatred   ⟨rare⟩  (advisory)
+  ~ hating   ⟨rare⟩  (advisory)
+  ~ drawer   ⟨rare⟩  (advisory)
+  ~ coffeehouse   ⟨rare⟩  (advisory)
+
+## Chapter 16
+    London   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Robert Hooke   ⟨dict⟩  → glossary
+  * Kepler   ⟨dict⟩  → glossary
+    Newton   ⟨dict,recur×9⟩  → event
+    Cambridge   ⟨dict⟩  → glossary
+    Earth   ⟨recur×3⟩  → ?
+  * Aristotelian   ⟨dict⟩  → glossary
+  * Galileo   ⟨dict⟩  → event
+    Moon   ⟨recur×3⟩  → ?
+    Hipparchus   ⟨dict⟩  → glossary
+    Aristotle   ⟨dict⟩  → cross-link
+    Descartes'   ⟨dict⟩  → glossary
+  ~ England   ⟨⟩  (advisory)
+  ~ St Paul   ⟨⟩  (advisory)
+  ~ Abraham de Moivre   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Mathematical Principles of Natural Philosophy   ⟨⟩  (advisory)
+  ~ Hooke   ⟨⟩  (advisory)
+  ~ Europe   ⟨⟩  (advisory)
+  ~ Greek   ⟨dict⟩  (advisory)
+  ~ Tycho   ⟨⟩  (advisory)
+  ~ Rome   ⟨dict⟩  (advisory)
+  ~ Continental   ⟨⟩  (advisory)
+  ~ Newtonian   ⟨⟩  (advisory)
+  ~ pestered by mathematical dabblers   ⟨def⟩  (advisory)
+  ~ nemesis   ⟨dict-lc,rare⟩  (advisory)
+  ~ inverse-square law.   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ assumption   ⟨dict-lc⟩  (advisory)
+  ~ quintessence   ⟨dict-lc,rare⟩  (advisory)
+  ~ elements   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ laws of motion   ⟨bold⟩  (advisory)
+  ~ unification   ⟨bold⟩  (advisory)
+  ~ cleverest   ⟨rare⟩  (advisory)
+  ~ coffeehouse   ⟨rare⟩  (advisory)
+  ~ elliptical   ⟨rare⟩  (advisory)
+  ~ orbits   ⟨rare⟩  (advisory)
+  ~ temperamental   ⟨rare⟩  (advisory)
+  ~ ellipse   ⟨rare⟩  (advisory)
+  ~ mislaid   ⟨rare⟩  (advisory)
+  ~ unpublished   ⟨rare⟩  (advisory)
+  ~ drawer   ⟨rare⟩  (advisory)
+  ~ prompting   ⟨rare⟩  (advisory)
+  ~ avalanche   ⟨rare⟩  (advisory)
+  ~ forgetting   ⟨rare⟩  (advisory)
+  ~ fishes   ⟨rare⟩  (advisory)
+  ~ pestered   ⟨rare⟩  (advisory)
+  ~ dabblers   ⟨rare⟩  (advisory)
+  ~ demolishes   ⟨rare⟩  (advisory)
+  ~ acceleration   ⟨rare⟩  (advisory)
+  ~ particle   ⟨rare⟩  (advisory)
+  ~ attracts   ⟨rare⟩  (advisory)
+  ~ masses   ⟨rare⟩  (advisory)
+  ~ deduction   ⟨rare⟩  (advisory)
+  ~ empirically   ⟨rare⟩  (advisory)
+  ~ theorems   ⟨rare⟩  (advisory)
+  ~ comets   ⟨rare⟩  (advisory)
+  ~ wobble   ⟨rare⟩  (advisory)
+  ~ incorruptible   ⟨rare⟩  (advisory)
+  ~ corruptible   ⟨rare⟩  (advisory)
+  ~ blemished   ⟨rare⟩  (advisory)
+  ~ obeying   ⟨rare⟩  (advisory)
+  ~ cautions   ⟨rare⟩  (advisory)
+  ~ occult   ⟨rare⟩  (advisory)
+  ~ mechanists   ⟨rare⟩  (advisory)
+  ~ transmits   ⟨rare⟩  (advisory)
+  ~ banished   ⟨rare⟩  (advisory)
+  ~ clockwork   ⟨rare⟩  (advisory)
+  ~ ugliest   ⟨rare⟩  (advisory)
+
+## Chapter 17
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Paris   ⟨dict⟩  → glossary
+    Newton   ⟨dict,recur×7⟩  → event
+    Principia   ⟨dict⟩  → glossary
+    London   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Pierre-Simon Laplace   ⟨dict⟩  → glossary
+    Enlightenment   ⟨dict⟩  → cross-link
+  ~ British   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Leibniz of plagiarism   ⟨⟩  (advisory)
+  ~ Newton of inventing   ⟨⟩  (advisory)
+  ~ Fellow   ⟨⟩  (advisory)
+  ~ Society   ⟨⟩  (advisory)
+  ~ Commercium Epistolicum   ⟨⟩  (advisory)
+  ~ Continental   ⟨⟩  (advisory)
+  ~ Bernoulli   ⟨⟩  (advisory)
+  ~ Joseph-Louis Lagrange   ⟨⟩  (advisory)
+  ~ thirty years   ⟨dict-lc⟩  (advisory)
+  ~ two nations   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ moral   ⟨dict-lc⟩  (advisory)
+  ~ magnificent   ⟨dict-lc⟩  (advisory)
+  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ notation   ⟨bold⟩  (advisory)
+  ~ infinitely   ⟨rare⟩  (advisory)
+  ~ journals   ⟨rare⟩  (advisory)
+  ~ geniuses   ⟨rare⟩  (advisory)
+  ~ binary   ⟨rare⟩  (advisory)
+  ~ integral   ⟨rare⟩  (advisory)
+  ~ derivatives   ⟨rare⟩  (advisory)
+  ~ cordial   ⟨rare⟩  (advisory)
+  ~ principals   ⟨rare⟩  (advisory)
+  ~ partisans   ⟨rare⟩  (advisory)
+  ~ viciously   ⟨rare⟩  (advisory)
+  ~ plagiarism   ⟨rare⟩  (advisory)
+  ~ alleging   ⟨rare⟩  (advisory)
+  ~ unpublished   ⟨rare⟩  (advisory)
+  ~ backstory   ⟨rare⟩  (advisory)
+  ~ investigating   ⟨rare⟩  (advisory)
+  ~ anonymously   ⟨rare⟩  (advisory)
+  ~ impartial   ⟨rare⟩  (advisory)
+  ~ favorably   ⟨rare⟩  (advisory)
+  ~ abuses   ⟨rare⟩  (advisory)
+  ~ clumsy   ⟨rare⟩  (advisory)
+  ~ supple   ⟨rare⟩  (advisory)
+  ~ analysts   ⟨rare⟩  (advisory)
+  ~ retard   ⟨rare⟩  (advisory)
+
+## Chapter 18
+    Latin   ⟨dict⟩  → cross-link
+    Newton   ⟨dict,recur×8⟩  → event
+    Principia   ⟨dict,recur×4⟩  → glossary
+    Cambridge   ⟨dict⟩  → glossary
+    Parliament   ⟨dict⟩  → glossary
+    Mary   ⟨dict⟩  → glossary
+    Enlightenment   ⟨dict⟩  → cross-link
+    Scientific Revolution   ⟨dict⟩  → cross-link
+  ~ Western   ⟨⟩  (advisory)
+  ~ Great Recoinage   ⟨⟩  (advisory)
+  ~ President of the Royal Society   ⟨⟩  (advisory)
+  ~ Hooke   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Queries   ⟨⟩  (advisory)
+  ~ Westminster Abbey   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ England   ⟨⟩  (advisory)
+  ~ Huygens   ⟨⟩  (advisory)
+  ~ Newtonianized   ⟨⟩  (advisory)
+  ~ Catholic   ⟨⟩  (advisory)
+  ~ James II   ⟨⟩  (advisory)
+  ~ Protestant William   ⟨⟩  (advisory)
+  ~ Lockean   ⟨⟩  (advisory)
+  ~ Enlightenment Ch   ⟨⟩  (advisory)
+  ~ Richard Bentley   ⟨⟩  (advisory)
+  ~ Samuel Clarke   ⟨⟩  (advisory)
+  ~ Boyle   ⟨⟩  (advisory)
+  ~ Newtonian   ⟨⟩  (advisory)
+  ~ Leibniz   ⟨⟩  (advisory)
+  ~ Godless   ⟨⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ alchemy   ⟨dict-lc,rare⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ calculus   ⟨dict-lc⟩  (advisory)
+  ~ reason   ⟨dict-lc⟩  (advisory)
+  ~ dukes   ⟨dict-lc⟩  (advisory)
+  ~ trust   ⟨dict-lc⟩  (advisory)
+  ~ he took   ⟨dict-lc⟩  (advisory)
+  ~ natural rights   ⟨dict-lc⟩  (advisory)
+  ~ conditions   ⟨dict-lc⟩  (advisory)
+  ~ reconstruction   ⟨dict-lc⟩  (advisory)
+  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ capital   ⟨dict-lc⟩  (advisory)
+  ~ philosophes   ⟨dict-lc,rare⟩  (advisory)
+  ~ clockwork universe   ⟨bold⟩  (advisory)
+  ~ packaged   ⟨rare⟩  (advisory)
+  ~ ruthlessly   ⟨rare⟩  (advisory)
+  ~ counterfeiters   ⟨rare⟩  (advisory)
+  ~ packing   ⟨rare⟩  (advisory)
+  ~ bending   ⟨rare⟩  (advisory)
+  ~ impartial   ⟨rare⟩  (advisory)
+  ~ daunting   ⟨rare⟩  (advisory)
+  ~ knighted   ⟨rare⟩  (advisory)
+  ~ pallbearers   ⟨rare⟩  (advisory)
+  ~ marveled   ⟨rare⟩  (advisory)
+  ~ occupant   ⟨rare⟩  (advisory)
+  ~ packaging   ⟨rare⟩  (advisory)
+  ~ assured   ⟨rare⟩  (advisory)
+  ~ innate   ⟨rare⟩  (advisory)
+  ~ sensations   ⟨rare⟩  (advisory)
+  ~ explicable   ⟨rare⟩  (advisory)
+  ~ consenting   ⟨rare⟩  (advisory)
+  ~ contractual   ⟨rare⟩  (advisory)
+  ~ clockwork   ⟨rare⟩  (advisory)
+  ~ popularizers   ⟨rare⟩  (advisory)
+  ~ lecturing   ⟨rare⟩  (advisory)
+  ~ omnipresent   ⟨rare⟩  (advisory)
+  ~ rewinding   ⟨rare⟩  (advisory)
+  ~ enlisted   ⟨rare⟩  (advisory)
+  ~ convictions   ⟨rare⟩  (advisory)
+
+## Chapter 19
+    Scientific Revolution   ⟨dict,recur×4⟩  → cross-link
+    Principia   ⟨dict,recur×3⟩  → glossary
+  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
+    Newton   ⟨dict⟩  → event
+  * Kepler   ⟨dict⟩  → glossary
+    Republic of Letters   ⟨dict⟩  → glossary
+    Royal Society   ⟨dict⟩  → cross-link
+    Dutch   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Jesuit   ⟨dict⟩  → event
+    Ming   ⟨dict⟩  → cross-link
+    Women   ⟨bold⟩  → event/glossary
+  ~ Europeans   ⟨⟩  (advisory)
+  ~ European   ⟨recur×3⟩  (advisory)
+  ~ Europe   ⟨recur×3⟩  (advisory)
+  ~ Massachusetts   ⟨⟩  (advisory)
+  ~ Fellows   ⟨⟩  (advisory)
+  ~ Boyle   ⟨⟩  (advisory)
+  ~ Americans John William Draper   ⟨⟩  (advisory)
+  ~ Andrew Dickson White   ⟨⟩  (advisory)
+  ~ Church   ⟨⟩  (advisory)
+  ~ Christian European   ⟨⟩  (advisory)
+  ~ Fellow   ⟨⟩  (advisory)
+  ~ German   ⟨⟩  (advisory)
+  ~ Maria Winkelmann   ⟨⟩  (advisory)
+  ~ French   ⟨⟩  (advisory)
+  ~ English   ⟨⟩  (advisory)
+  ~ Atlantic   ⟨dict⟩  (advisory)
+  ~ India   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ Battani   ⟨⟩  (advisory)
+  ~ Maragha   ⟨⟩  (advisory)
+  ~ China   ⟨dict⟩  (advisory)
+  ~ Tang-Song China Ch   ⟨⟩  (advisory)
+  ~ Ming Dynasty Ch   ⟨⟩  (advisory)
+  ~ apology   ⟨dict-lc⟩  (advisory)
+  ~ witchcraft   ⟨dict-lc,rare⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ reason's   ⟨dict-lc⟩  (advisory)
+  ~ alchemy   ⟨dict-lc,rare⟩  (advisory)
+  ~ superstition   ⟨dict-lc⟩  (advisory)
+  ~ republic   ⟨dict-lc⟩  (advisory)
+  ~ the Royal Society   ⟨dict-lc⟩  (advisory)
+  ~ vacuum   ⟨dict-lc⟩  (advisory)
+  ~ longitude   ⟨dict-lc,rare⟩  (advisory)
+  ~ through the   ⟨dict-lc⟩  (advisory)
+  ~ al-Battani's   ⟨dict-lc⟩  (advisory)
+  ~ magnetic compass   ⟨dict-lc⟩  (advisory)
+  ~ gunpowder   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ movable type   ⟨dict-lc⟩  (advisory)
+  ~ tacked   ⟨rare⟩  (advisory)
+  ~ omissions   ⟨rare⟩  (advisory)
+  ~ disorienting   ⟨rare⟩  (advisory)
+  ~ witches   ⟨rare⟩  (advisory)
+  ~ hypocrites   ⟨rare⟩  (advisory)
+  ~ laundering   ⟨rare⟩  (advisory)
+  ~ lobbying   ⟨rare⟩  (advisory)
+  ~ legalize   ⟨rare⟩  (advisory)
+  ~ horoscopes   ⟨rare⟩  (advisory)
+  ~ polemicists   ⟨rare⟩  (advisory)
+  ~ banish   ⟨rare⟩  (advisory)
+  ~ sideways   ⟨rare⟩  (advisory)
+  ~ velocity   ⟨rare⟩  (advisory)
+  ~ prided   ⟨rare⟩  (advisory)
+  ~ narrowness   ⟨rare⟩  (advisory)
+  ~ constitutive   ⟨rare⟩  (advisory)
+  ~ evasion   ⟨rare⟩  (advisory)
+  ~ declines   ⟨rare⟩  (advisory)
+  ~ urgency   ⟨rare⟩  (advisory)
+  ~ instrumentalized   ⟨rare⟩  (advisory)
+  ~ attitude   ⟨rare⟩  (advisory)
+
+## Chapter 20
+    Scientific Revolution   ⟨dict⟩  → cross-link
+    Paris   ⟨dict⟩  → glossary
+  * Galileo   ⟨dict⟩  → event
+  * Aristotelian   ⟨dict⟩  → glossary
+    Cambridge   ⟨dict⟩  → glossary
+  * Islamic Golden Age Ch   ⟨dict⟩  → cross-link
+    Islamic Golden Age   ⟨dict⟩  → cross-link
+    Renaissance Italy   ⟨dict⟩  → cross-link
+  * Late Medieval Europe Ch   ⟨dict⟩  → cross-link
+  * Kepler   ⟨dict⟩  → glossary
+    Newton   ⟨dict,recur×4⟩  → event
+    Principia   ⟨dict⟩  → glossary
+    Voltaire   ⟨dict⟩  → glossary
+  * Locke   ⟨dict⟩  → glossary
+    Enlightenment   ⟨dict⟩  → cross-link
+    Political fragmentation   ⟨bold⟩  → event/glossary
+  ~ Europe   ⟨recur×6⟩  (advisory)
+  ~ Oxford Calculators   ⟨⟩  (advisory)
+  ~ Merton College   ⟨⟩  (advisory)
+  ~ Nicole Oresme   ⟨⟩  (advisory)
+  ~ From the other   ⟨⟩  (advisory)
+  ~ Newtonian   ⟨⟩  (advisory)
+  ~ Chapters   ⟨⟩  (advisory)
+  ~ Earth   ⟨⟩  (advisory)
+  ~ Ming Dynasty Ch   ⟨⟩  (advisory)
+  ~ Islamic   ⟨⟩  (advisory)
+  ~ Renaissance Italy Ch   ⟨⟩  (advisory)
+  ~ European   ⟨⟩  (advisory)
+  ~ Tycho   ⟨⟩  (advisory)
+  ~ Halley   ⟨⟩  (advisory)
+  ~ Europeans   ⟨⟩  (advisory)
+  ~ Enlightenment Ch   ⟨⟩  (advisory)
+  ~ a vast   ⟨dict-lc⟩  (advisory)
+  ~ paper   ⟨dict-lc⟩  (advisory)
+  ~ printing   ⟨dict-lc⟩  (advisory)
+  ~ gunpowder   ⟨dict-lc⟩  (advisory)
+  ~ cast iron   ⟨dict-lc⟩  (advisory)
+  ~ seismograph   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Song   ⟨dict-lc⟩  (advisory)
+  ~ modern   ⟨dict-lc⟩  (advisory)
+  ~ trust   ⟨dict-lc⟩  (advisory)
+  ~ nullius in verba   ⟨dict-lc⟩  (advisory)
+  ~ philosophes   ⟨dict-lc,rare⟩  (advisory)
+  ~ the Enlightenment   ⟨dict-lc⟩  (advisory)
+  ~ continuity   ⟨bold⟩  (advisory)
+  ~ The printing press   ⟨bold⟩  (advisory)
+  ~ The institutional invention   ⟨bold⟩  (advisory)
+  ~ The mathematization wager   ⟨bold⟩  (advisory)
+  ~ The competitive pressure   ⟨bold⟩  (advisory)
+  ~ experts   ⟨rare⟩  (advisory)
+  ~ contestable   ⟨rare⟩  (advisory)
+  ~ mathematized   ⟨rare⟩  (advisory)
+  ~ provocative   ⟨rare⟩  (advisory)
+  ~ disorienting   ⟨rare⟩  (advisory)
+  ~ totality   ⟨rare⟩  (advisory)
+  ~ neatness   ⟨rare⟩  (advisory)
+  ~ tidiness   ⟨rare⟩  (advisory)
+  ~ biochemist   ⟨rare⟩  (advisory)
+  ~ multivolume   ⟨rare⟩  (advisory)
+  ~ narrates   ⟨rare⟩  (advisory)
+  ~ printers   ⟨rare⟩  (advisory)
+  ~ whereas   ⟨rare⟩  (advisory)
+  ~ pleading   ⟨rare⟩  (advisory)
+  ~ uncensorable   ⟨rare⟩  (advisory)
+  ~ replication   ⟨rare⟩  (advisory)
+  ~ mutation   ⟨rare⟩  (advisory)
+  ~ geniuses   ⟨rare⟩  (advisory)
+  ~ mathematization   ⟨rare⟩  (advisory)
+  ~ incessant   ⟨rare⟩  (advisory)
+  ~ oceanic   ⟨rare⟩  (advisory)
+  ~ rewarding   ⟨rare⟩  (advisory)
+  ~ ballistics   ⟨rare⟩  (advisory)
+  ~ contingency   ⟨rare⟩  (advisory)
+  ~ smarter   ⟨rare⟩  (advisory)
+  ~ superstitious   ⟨rare⟩  (advisory)
+  ~ courageous   ⟨rare⟩  (advisory)
+  ~ predicts   ⟨rare⟩  (advisory)
+  ~ nullius   ⟨rare⟩  (advisory)
+  ~ popularizing   ⟨rare⟩  (advisory)
+  ~ salons   ⟨rare⟩  (advisory)

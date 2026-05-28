@@ -203,6 +203,96 @@
       "matchText": "Qustul",
       "wikiSlug": "Qustul",
       "type": "place"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "definition": "The people of ancient Egypt — the Nile-valley civilization downstream of Nubia, which produced almost every surviving written source about the Nubian world. \"Egyptians\" in this book means the ancient population, not the modern Arab-Egyptian nation that descends in part from them.",
+      "type": "people"
+    },
+    {
+      "term": "Greeks",
+      "matchText": "Greeks",
+      "wikiSlug": "Greeks",
+      "type": "people"
+    },
+    {
+      "term": "Medieval Arab geographers",
+      "matchText": "Medieval Arab geographers",
+      "wikiSlug": "Geography_and_cartography_in_the_medieval_Islamic_world",
+      "type": "concept"
+    },
+    {
+      "term": "Kerma culture",
+      "matchText": "Kerma",
+      "wikiSlug": "Kerma_culture",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom of Egypt",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptology",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumer",
+      "type": "place"
+    },
+    {
+      "term": "Tigris",
+      "matchText": "Tigris",
+      "wikiSlug": "Tigris",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "B-Group",
+      "matchText": "B-Group",
+      "definition": "A short-lived archaeological label that early excavators briefly applied to a layer of Lower Nubian graves between the A-Group and C-Group. Re-examination showed the \"B-Group\" graves were just poorer A-Group burials in different clothing, not a distinct culture, and the label was officially retired. There is no B-Group; the letter is a placeholder for a gap.",
+      "type": "concept"
+    },
+    {
+      "term": "C-Group culture",
+      "matchText": "C-Group",
+      "wikiSlug": "C-Group_culture",
+      "type": "place"
+    },
+    {
+      "term": "Iry-Hor",
+      "matchText": "Iry-Hor",
+      "wikiSlug": "Iry-Hor",
+      "type": "people"
+    },
+    {
+      "term": "Scorpion II",
+      "matchText": "Scorpion II",
+      "wikiSlug": "Scorpion_II",
+      "type": "people"
+    },
+    {
+      "term": "Bruce Williams",
+      "matchText": "Bruce Williams",
+      "definition": "American archaeologist at the University of Chicago's Oriental Institute who directed the Nubian rescue work at Qustul. In a 1979 paper he argued that the Cemetery L tombs were the burials of A-Group kings whose royal iconography — White Crown, serekh — predated the first confirmed Egyptian pharaohs, implying Egyptian kingship itself had Nubian roots. The claim remains a minority position but reshaped the debate.",
+      "type": "people"
+    },
+    {
+      "term": "Yam",
+      "matchText": "Yam",
+      "definition": "The Egyptian name for a distant land far up the Nile, beyond Wawat — most likely the region around the Third Cataract that would later become the core of the Kerma kingdom. Yam was where Old Kingdom Egyptian expeditions went for ebony, ivory, incense, leopard skins, and live exotic animals. Its exact location is still argued about.",
+      "type": "place"
     }
   ],
   "2": [
@@ -385,6 +475,114 @@
       "matchText": "Palermo Stone",
       "wikiSlug": "Palermo_Stone",
       "type": "concept"
+    },
+    {
+      "term": "Lower Nubia",
+      "matchText": "Lower Nubia",
+      "wikiSlug": "Lower_Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Qustul",
+      "matchText": "Qustul",
+      "wikiSlug": "Qustul",
+      "type": "place"
+    },
+    {
+      "term": "Uruk",
+      "matchText": "Uruk",
+      "wikiSlug": "Uruk",
+      "type": "place"
+    },
+    {
+      "term": "Indus River",
+      "matchText": "Indus River",
+      "wikiSlug": "Indus_River",
+      "type": "place"
+    },
+    {
+      "term": "Indus Valley civilisation",
+      "matchText": "Harappan",
+      "wikiSlug": "Indus_Valley_civilisation",
+      "type": "concept"
+    },
+    {
+      "term": "Mohenjo-daro",
+      "matchText": "Mohenjo-daro",
+      "wikiSlug": "Mohenjo-daro",
+      "type": "place"
+    },
+    {
+      "term": "Khafre",
+      "matchText": "Khafre",
+      "wikiSlug": "Khafre",
+      "type": "people"
+    },
+    {
+      "term": "Cairo",
+      "matchText": "Cairo",
+      "wikiSlug": "Cairo",
+      "type": "place"
+    },
+    {
+      "term": "Akhenaten",
+      "matchText": "Akhenaten",
+      "wikiSlug": "Akhenaten",
+      "type": "people"
+    },
+    {
+      "term": "Kerma",
+      "matchText": "Kerma",
+      "wikiSlug": "Kerma_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Giza",
+      "matchText": "Giza",
+      "wikiSlug": "Giza",
+      "type": "place"
+    },
+    {
+      "term": "Ancient Libya",
+      "matchText": "Libya",
+      "wikiSlug": "Ancient_Libya",
+      "type": "place"
+    },
+    {
+      "term": "Sinai Peninsula",
+      "matchText": "Sinai",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Upper Nubia",
+      "matchText": "Upper Nubia",
+      "wikiSlug": "Upper_Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Sudan",
+      "matchText": "Sudan",
+      "wikiSlug": "Sudan",
+      "type": "place"
+    },
+    {
+      "term": "Yam (Nubia)",
+      "matchText": "Yam",
+      "wikiSlug": "Yam_(Nubia)",
+      "type": "place"
+    },
+    {
+      "term": "Egyptians",
+      "matchText": "Egyptians",
+      "definition": "The people of ancient Egypt — the Nile-valley civilization downstream of Nubia, which produced almost every surviving written source about the Nubian world. \"Egyptians\" in this book means the ancient population, not the modern Arab-Egyptian nation that descends in part from them.",
+      "type": "people"
     }
   ],
   "3": [
@@ -526,6 +724,91 @@
       "matchText": "lapis lazuli",
       "wikiSlug": "Lapis_lazuli",
       "type": "concept"
+    },
+    {
+      "term": "Uruk",
+      "matchText": "Uruk",
+      "wikiSlug": "Uruk",
+      "type": "place"
+    },
+    {
+      "term": "Memphis",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumer",
+      "type": "place"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan",
+      "wikiSlug": "Longshan_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Giza pyramid complex",
+      "matchText": "Giza",
+      "wikiSlug": "Giza_pyramid_complex",
+      "type": "place"
+    },
+    {
+      "term": "Sahara",
+      "matchText": "Sahara",
+      "wikiSlug": "Sahara",
+      "type": "place"
+    },
+    {
+      "term": "Aswan",
+      "matchText": "Aswan",
+      "wikiSlug": "Aswan",
+      "type": "place"
+    },
+    {
+      "term": "Upper Nubia",
+      "matchText": "Upper Nubia",
+      "wikiSlug": "",
+      "type": "place",
+      "definition": "Upper Nubia is the southern stretch of the ancient Nubian Nile, roughly between the Second and Sixth Cataracts in what is now northern Sudan — Kerma country. (\"Upper\" here means upstream/southern, the same convention as Upper Egypt.) The Egyptians considered it the deeper, more dangerous Nubia: harder to reach, harder to control, and the heart of any kingdom strong enough to make Egyptian pharaohs nervous."
+    },
+    {
+      "term": "Egyptology",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Luxor",
+      "matchText": "Luxor",
+      "wikiSlug": "Luxor",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom of Egypt",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "place"
     }
   ],
   "4": [
@@ -612,6 +895,120 @@
       "matchText": "Semitic language",
       "wikiSlug": "Semitic_languages",
       "type": "concept"
+    },
+    {
+      "term": "Kerma",
+      "matchText": "Kerma",
+      "wikiSlug": "Kerma_culture",
+      "type": "place"
+    },
+    {
+      "term": "C-Group culture",
+      "matchText": "C-Group",
+      "wikiSlug": "C-Group_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Lower Nubia",
+      "matchText": "Lower Nubia",
+      "wikiSlug": "Lower_Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom of Egypt",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Egyptology",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Yellow River",
+      "matchText": "Yellow River",
+      "wikiSlug": "Yellow_River",
+      "type": "place"
+    },
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan-era",
+      "wikiSlug": "Longshan_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Shimao",
+      "matchText": "Shimao",
+      "wikiSlug": "Shimao",
+      "type": "place"
+    },
+    {
+      "term": "Ancient Libya",
+      "matchText": "Libyans",
+      "wikiSlug": "Ancient_Libya",
+      "type": "concept"
+    },
+    {
+      "term": "Lake Nasser",
+      "matchText": "Lake Nasser",
+      "wikiSlug": "Lake_Nasser",
+      "type": "place"
+    },
+    {
+      "term": "Ancient Egypt",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Eastern Desert",
+      "matchText": "Eastern Desert",
+      "wikiSlug": "Eastern_Desert",
+      "type": "place"
+    },
+    {
+      "term": "Nile Delta",
+      "matchText": "Nile Delta",
+      "wikiSlug": "Nile_Delta",
+      "type": "place"
+    },
+    {
+      "term": "Thebes, Egypt",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Classic Kerma",
+      "matchText": "Classic Kerma",
+      "wikiSlug": "Kerma",
+      "type": "concept"
+    },
+    {
+      "term": "Hebrew language",
+      "matchText": "Hebrew",
+      "wikiSlug": "Hebrew_language",
+      "type": "concept"
+    },
+    {
+      "term": "Aramaic",
+      "matchText": "Aramaic",
+      "wikiSlug": "Aramaic",
+      "type": "concept"
+    },
+    {
+      "term": "Great Wall of China",
+      "matchText": "Great Wall",
+      "wikiSlug": "Great_Wall_of_China",
+      "type": "place"
     }
   ],
   "5": [
@@ -722,6 +1119,96 @@
       "matchText": "Classic Kerma",
       "wikiSlug": "Kerma",
       "type": "place"
+    },
+    {
+      "term": "Uruk",
+      "matchText": "Uruk",
+      "wikiSlug": "Uruk",
+      "type": "place"
+    },
+    {
+      "term": "Memphis, Egypt",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Mohenjo-daro",
+      "matchText": "Mohenjo-Daro",
+      "wikiSlug": "Mohenjo-daro",
+      "type": "place"
+    },
+    {
+      "term": "Abydos, Egypt",
+      "matchText": "Abydos",
+      "wikiSlug": "Abydos,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Ancient Egyptians",
+      "matchText": "Egyptians",
+      "wikiSlug": "Ancient_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Longshan culture",
+      "matchText": "Longshan",
+      "wikiSlug": "Longshan_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "Sumerian",
+      "wikiSlug": "Sumer",
+      "type": "concept"
+    },
+    {
+      "term": "Thebes, Egypt",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom of Egypt",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Meroitic language",
+      "matchText": "Meroitic",
+      "wikiSlug": "Meroitic_language",
+      "type": "concept"
+    },
+    {
+      "term": "Harappa",
+      "matchText": "Harappa",
+      "wikiSlug": "Harappa",
+      "type": "place"
+    },
+    {
+      "term": "Lower Egypt",
+      "matchText": "Lower Egypt",
+      "wikiSlug": "Lower_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Horn of Africa",
+      "matchText": "Horn of Africa",
+      "wikiSlug": "Horn_of_Africa",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Moche culture",
+      "matchText": "Moche",
+      "wikiSlug": "Moche_culture",
+      "type": "concept"
     }
   ],
   "6": [
@@ -832,6 +1319,120 @@
       "matchText": "Tombos",
       "wikiSlug": "Tombos_(Nubia)",
       "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Middle Kingdom of Egypt",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Hyksos",
+      "matchText": "Hyksos",
+      "wikiSlug": "Hyksos",
+      "type": "people"
+    },
+    {
+      "term": "Ancient Semitic-speaking peoples",
+      "matchText": "Semitic",
+      "wikiSlug": "Ancient_Semitic-speaking_peoples",
+      "type": "concept"
+    },
+    {
+      "term": "Horn of Africa",
+      "matchText": "Horn of Africa",
+      "wikiSlug": "Horn_of_Africa",
+      "type": "place"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Lower Egypt",
+      "matchText": "Lower Egypt",
+      "wikiSlug": "Lower_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Upper Egypt",
+      "matchText": "Upper Egypt",
+      "wikiSlug": "Upper_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Thebes, Egypt",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Luxor",
+      "matchText": "Luxor",
+      "wikiSlug": "Luxor",
+      "type": "place"
+    },
+    {
+      "term": "Aswan",
+      "matchText": "Aswan",
+      "wikiSlug": "Aswan",
+      "type": "place"
+    },
+    {
+      "term": "Kingdom of Kush",
+      "matchText": "Kush",
+      "wikiSlug": "Kingdom_of_Kush",
+      "type": "place"
+    },
+    {
+      "term": "Kushites",
+      "matchText": "Kushite",
+      "wikiSlug": "Kushites",
+      "type": "people"
+    },
+    {
+      "term": "Lower Nubia",
+      "matchText": "Lower Nubia",
+      "wikiSlug": "Lower_Nubia",
+      "type": "place"
+    },
+    {
+      "term": "Sinai Peninsula",
+      "matchText": "Sinai",
+      "wikiSlug": "Sinai_Peninsula",
+      "type": "place"
+    },
+    {
+      "term": "Mirgissa",
+      "matchText": "Mirgissa",
+      "wikiSlug": "Mirgissa",
+      "type": "place"
+    },
+    {
+      "term": "Classic Kerma",
+      "matchText": "Classic Kerma",
+      "wikiSlug": "Kerma",
+      "type": "place"
+    },
+    {
+      "term": "New Kingdom of Egypt",
+      "matchText": "New Kingdom Egypt",
+      "wikiSlug": "New_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Twenty-fifth Dynasty of Egypt",
+      "matchText": "Twenty-fifth Dynasty",
+      "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
+      "type": "concept"
     }
   ],
   "7": [
@@ -1038,6 +1639,204 @@
       "matchText": "Ptah",
       "wikiSlug": "Ptah",
       "type": "people"
+    },
+    {
+      "term": "Middle Kingdom of Egypt",
+      "matchText": "Middle Kingdom",
+      "wikiSlug": "Middle_Kingdom_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Kerma culture",
+      "matchText": "Kerma",
+      "wikiSlug": "Kerma_culture",
+      "type": "place"
+    },
+    {
+      "term": "Nile",
+      "matchText": "Nile valley",
+      "wikiSlug": "Nile",
+      "type": "place"
+    },
+    {
+      "term": "Thebes, Egypt",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Tutankhamun",
+      "matchText": "Tutankhamun",
+      "wikiSlug": "Tutankhamun",
+      "type": "people"
+    },
+    {
+      "term": "Ramesses II",
+      "matchText": "Ramesses II",
+      "wikiSlug": "Ramesses_II",
+      "type": "people"
+    },
+    {
+      "term": "Levant",
+      "matchText": "Levant",
+      "wikiSlug": "Levant",
+      "type": "place"
+    },
+    {
+      "term": "Late Bronze Age",
+      "matchText": "Late Bronze Age",
+      "wikiSlug": "Late_Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Bronze Age",
+      "matchText": "Bronze Age Mediterranean",
+      "wikiSlug": "Bronze_Age",
+      "type": "concept"
+    },
+    {
+      "term": "Akkadian language",
+      "matchText": "Akkadian cuneiform",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Babylonian language",
+      "matchText": "Babylonian language",
+      "wikiSlug": "Akkadian_language",
+      "type": "concept"
+    },
+    {
+      "term": "Canaan",
+      "matchText": "Canaanite city-states",
+      "wikiSlug": "Canaan",
+      "type": "place"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "central Anatolia",
+      "wikiSlug": "Anatolia",
+      "type": "place"
+    },
+    {
+      "term": "Battle of Kadesh",
+      "matchText": "fight at Kadesh",
+      "wikiSlug": "Battle_of_Kadesh",
+      "type": "concept"
+    },
+    {
+      "term": "Semitic languages",
+      "matchText": "Semitic language",
+      "wikiSlug": "Semitic_languages",
+      "type": "concept"
+    },
+    {
+      "term": "Apepi (pharaoh)",
+      "matchText": "Apophis",
+      "wikiSlug": "Apepi_(pharaoh)",
+      "type": "people"
+    },
+    {
+      "term": "Eighteenth Dynasty of Egypt",
+      "matchText": "Eighteenth",
+      "wikiSlug": "Eighteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Nineteenth Dynasty of Egypt",
+      "matchText": "Nineteenth Dynasties",
+      "wikiSlug": "Nineteenth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "C-Group culture",
+      "matchText": "C-Group",
+      "wikiSlug": "C-Group_culture",
+      "type": "concept"
+    },
+    {
+      "term": "Mirgissa",
+      "matchText": "Mirgissa",
+      "wikiSlug": "Mirgissa",
+      "type": "place"
+    },
+    {
+      "term": "Sesebi",
+      "matchText": "Sesebi",
+      "wikiSlug": "Sesebi",
+      "type": "place"
+    },
+    {
+      "term": "Aniba (Nubia)",
+      "matchText": "Aniba",
+      "wikiSlug": "Aniba_(Nubia)",
+      "type": "place"
+    },
+    {
+      "term": "Arabs",
+      "matchText": "Arabs",
+      "wikiSlug": "Arabs",
+      "type": "people"
+    },
+    {
+      "term": "Ottoman Empire",
+      "matchText": "Ottomans",
+      "wikiSlug": "Ottoman_Empire",
+      "type": "concept"
+    },
+    {
+      "term": "Arabic",
+      "matchText": "Arabic",
+      "wikiSlug": "Arabic",
+      "type": "concept"
+    },
+    {
+      "term": "Thutmose III",
+      "matchText": "Thutmose III",
+      "wikiSlug": "Thutmose_III",
+      "type": "people"
+    },
+    {
+      "term": "Kushite kings",
+      "matchText": "Kushite kings",
+      "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
+      "type": "people"
+    },
+    {
+      "term": "Twenty-fifth Dynasty of Egypt",
+      "matchText": "Twenty-fifth Dynasty",
+      "wikiSlug": "Twenty-fifth_Dynasty_of_Egypt",
+      "type": "concept"
+    },
+    {
+      "term": "Theban",
+      "matchText": "Theban god",
+      "wikiSlug": "Thebes,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Aswan",
+      "matchText": "Aswan",
+      "wikiSlug": "Aswan",
+      "type": "place"
+    },
+    {
+      "term": "Memphis, Egypt",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt",
+      "type": "place"
+    },
+    {
+      "term": "Aswan High Dam",
+      "matchText": "Aswan High Dam",
+      "wikiSlug": "Aswan_Dam",
+      "type": "place"
+    },
+    {
+      "term": "Lake Nasser",
+      "matchText": "Lake Nasser",
+      "wikiSlug": "Lake_Nasser",
+      "type": "place"
     }
   ],
   "8": [
@@ -1174,6 +1973,116 @@
       "matchText": "Napata",
       "wikiSlug": "Napata",
       "type": "place"
+    },
+    {
+      "term": "C-Group culture",
+      "matchText": "C-Group",
+      "wikiSlug": "C-Group_culture"
+    },
+    {
+      "term": "Thebes, Egypt",
+      "matchText": "Thebes",
+      "wikiSlug": "Thebes,_Egypt"
+    },
+    {
+      "term": "Ancient Libya",
+      "matchText": "Libyan princes",
+      "wikiSlug": "Ancient_Libya"
+    },
+    {
+      "term": "Sumer",
+      "matchText": "Sumerian city",
+      "wikiSlug": "Sumer"
+    },
+    {
+      "term": "Sargon of Akkad",
+      "matchText": "Sargon of Akkad",
+      "wikiSlug": "Sargon_of_Akkad"
+    },
+    {
+      "term": "Amun",
+      "matchText": "worshipped Amun",
+      "wikiSlug": "Amun"
+    },
+    {
+      "term": "Prince of Miam",
+      "matchText": "Prince of Miam",
+      "definition": "The Egyptian title for the local Nubian ruler of the region around Aniba in Lower Nubia, operating under the Viceroy of Kush. It was the senior native administrative office in the Nubian province during the New Kingdom."
+    },
+    {
+      "term": "Lower Nubia",
+      "matchText": "Lower Nubia",
+      "wikiSlug": "Lower_Nubia"
+    },
+    {
+      "term": "Tutankhamun",
+      "matchText": "Tutankhamun",
+      "wikiSlug": "Tutankhamun"
+    },
+    {
+      "term": "Howard Carter",
+      "matchText": "Howard Carter",
+      "wikiSlug": "Howard_Carter"
+    },
+    {
+      "term": "Nile Delta",
+      "matchText": "Nile Delta",
+      "wikiSlug": "Nile_Delta"
+    },
+    {
+      "term": "Egyptology",
+      "matchText": "Egyptologists",
+      "wikiSlug": "Egyptology"
+    },
+    {
+      "term": "Amarna letters",
+      "matchText": "Amarna Letters",
+      "wikiSlug": "Amarna_letters"
+    },
+    {
+      "term": "Anatolia",
+      "matchText": "Anatolia",
+      "wikiSlug": "Anatolia"
+    },
+    {
+      "term": "Ramesses II",
+      "matchText": "Ramesses II",
+      "wikiSlug": "Ramesses_II"
+    },
+    {
+      "term": "Karnak",
+      "matchText": "Karnak",
+      "wikiSlug": "Karnak"
+    },
+    {
+      "term": "Memphis, Egypt",
+      "matchText": "Memphis",
+      "wikiSlug": "Memphis,_Egypt"
+    },
+    {
+      "term": "Upper Nubia",
+      "matchText": "Upper Nubia",
+      "wikiSlug": "Upper_Nubia"
+    },
+    {
+      "term": "Red Sea",
+      "matchText": "Red Sea",
+      "wikiSlug": "Red_Sea"
+    },
+    {
+      "term": "Hyksos",
+      "matchText": "Hyksos-controlled Egypt",
+      "wikiSlug": "Hyksos"
+    },
+    {
+      "term": "Kamose",
+      "matchText": "Kamose",
+      "wikiSlug": "Kamose"
+    },
+    {
+      "term": "Thutmose III",
+      "matchText": "Thutmose III",
+      "wikiSlug": "Thutmose_III"
     }
   ]
 }
