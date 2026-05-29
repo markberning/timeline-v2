@@ -123,6 +123,18 @@
       "targetTl": "persian-empire",
       "targetChapter": 10,
       "blurb": "Meanwhile, the Persian imperial tradition was on its tenth life. Khwarezm's rulers were Turkic by blood but Persian in language, court culture, and administration — the same pattern the Persian Empire narrative traces from Cyrus through the Sassanids to the Islamic age. Genghis's destruction of Khwarezm ended the last great political expression of that tradition in Central Asia, even as the culture itself survived to absorb the Mongols in turn."
+    },
+    {
+      "matchText": "decided the merchants were spies",
+      "targetTl": "islamic-persia",
+      "targetChapter": 8,
+      "blurb": "The Otrar incident, told from the Persian side, is Islamic Persia Chapter 8, 'The Brittle Colossus' — the Khwarazmian governor who killed Genghis Khan's merchant-envoys and the overstretched, distrustful empire of Muhammad II that the insult doomed."
+    },
+    {
+      "matchText": "richest and most populous state",
+      "targetTl": "islamic-persia",
+      "targetChapter": 9,
+      "blurb": "What the destruction of Khwarazm meant for Persia is Islamic Persia Chapter 9, 'The End of the World' — the sack of Bukhara and Samarkand, the annihilation of Merv, Nishapur, and Herat, the wrecking of the qanats, and the trauma that Persian memory never forgot."
     }
   ],
   "4": [
@@ -193,6 +205,24 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 5,
       "blurb": "When the Ottomans conquered the Mamluk Sultanate in 1517, they inherited the shadow Abbasid caliphate the Mamluks had been keeping in Cairo ever since Hülegü extinguished the real one in Baghdad. The Ottoman sultans deployed the caliph title as a political instrument for the next four centuries, until the new Turkish republic abolished it in 1924 — the final end of the institution the Mongols had broken."
+    },
+    {
+      "matchText": "Alamut fell to",
+      "targetTl": "islamic-persia",
+      "targetChapter": 6,
+      "blurb": "The long life and final fall of the Assassins is Islamic Persia Chapter 6, 'The Castles in the Mountains' — Hasan-i Sabbah's seizure of Alamut, the order of the dagger that defied the Seljuks for a century and a half, and its destruction here by Hulagu in 1256, the first time the fortress had ever been taken."
+    },
+    {
+      "matchText": "rolled up in a felt rug",
+      "targetTl": "islamic-persia",
+      "targetChapter": 9,
+      "blurb": "The sack of Baghdad and the bloodless execution of the last caliph are the climax of Islamic Persia Chapter 9, 'The End of the World' — the same 'Tigris ran black with ink' image and the same wrecking of the canal system, told as the heaviest blow in Persian memory."
+    },
+    {
+      "matchText": "feed forward into the Copernican revolution",
+      "targetTl": "islamic-persia",
+      "targetChapter": 10,
+      "blurb": "Al-Tusi's rescue from Alamut and the Tusi-couple-to-Copernicus thread continue in Islamic Persia Chapter 10, 'The Conquerors Convert,' where Hulagu funds al-Tusi's Maragha observatory and the Mongol conquerors become, within two generations, patrons of Persian science and the first world history."
     }
   ],
   "6": [
@@ -249,6 +279,12 @@
       "targetTl": "tang-song-china",
       "targetChapter": 2,
       "blurb": "Manuscripts and goods moving along the Silk Road in Kublai's day reached volumes 'not seen since the Tang' — the cosmopolitan high point when foreign merchants, monks, and ideas flooded into Chang'an. The Pax Mongolica was, in a sense, a reopening of the long-distance exchange the Tang had pioneered and the upheavals after it had choked off."
+    },
+    {
+      "matchText": "Kublai sent fleets against",
+      "targetTl": "medieval-japan",
+      "targetChapter": 4,
+      "blurb": "Seen from the defenders' side, the two invasions of 1274 and 1281 are the whole of Medieval Japan Chapter 4, 'The Divine Wind' — the Hakata Bay defensive wall, the samurai who fought the Mongol-Korean-Chinese fleets to a standstill offshore, the typhoons remembered as kamikaze, and the reward crisis that hollowed out the Kamakura shogunate afterward. That chapter is notably more skeptical than the clean 'destroyed by typhoons' story: it argues the wall and the coordinated defense stalled the fleets before the storms finished them, and flags the 1274 storm in particular as the part historians most doubt."
     }
   ],
   "7": [
@@ -341,6 +377,24 @@
       "targetTl": "safavid-persia",
       "targetChapter": 1,
       "blurb": "The Safavid dynasty (1501) was the next state to unify Iran after the long fragmentation that followed the Ilkhanate's collapse. It inherited the Ilkhanate's former capital at Tabriz, the Tabriz school of miniature painting, and the networks of Shia scholarship the Mongol-era Ilkhans had helped sustain — and it made Twelver Shi'ism the state religion of Iran, a decision that still shapes the country today."
+    },
+    {
+      "matchText": "the first true world history",
+      "targetTl": "islamic-persia",
+      "targetChapter": 10,
+      "blurb": "The Ilkhanate from the Persian side is Islamic Persia Chapter 10, 'The Conquerors Convert' — Ghazan Khan's conversion to Islam, Rashid al-Din's Compendium of Chronicles (the same 'first true world history'), the Maragha observatory, and the Chinese motifs that fed the Persian miniature as Ilkhanid Persia connected to Yuan China."
+    },
+    {
+      "matchText": "managing the relationship with Sarai",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 2,
+      "blurb": "This one-sentence thesis is the entire twelve-chapter elaboration of Muscovite Russia. Chapters 2 through 6 are the rise of Moscow — Living Under the Yoke, Ivan Kalita the tax-farmer, the gathering of the lands, Ivan III and the Ugra — the story of how the Moscow princes out-collaborated their rivals with the khan at Sarai and turned tax-collection into supremacy."
+    },
+    {
+      "matchText": "Russian Orthodox Church was exempt",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 2,
+      "blurb": "The downstream Russian consequence of the Church's tax exemption is Muscovite Russia Chapter 2, which traces how the tax-free Church grew rich under Mongol overlordship, moved its metropolitan to Moscow, and allied with the rising city — a major engine of Moscow's climb."
     }
   ],
   "8": [
@@ -439,6 +493,18 @@
       "targetTl": "qin-dynasty",
       "targetChapter": 2,
       "blurb": "The wall Hongwu rebuilt against the Mongols was not the famous First Emperor's. Qin Shi Huang's third-century-BCE wall was rammed earth, long eroded by the fourteenth century; the stone Great Wall tourists see today is a Ming creation, built against Genghis Khan's descendants."
+    },
+    {
+      "matchText": "twenty different Golden Horde khans",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 4,
+      "blurb": "This Horde crisis is the precondition for Russian defiance in Muscovite Russia Chapter 4, 'Kulikovo and the Idea of Resistance' — with the Golden Horde tearing itself apart in the Great Troubles, Dmitry Donskoy could stop paying tribute and risk open battle at Kulikovo in 1380."
+    },
+    {
+      "matchText": "Golden Horde's territories were severely affected",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 3,
+      "blurb": "The plague's arrival in the Russian lands is Muscovite Russia Chapter 3 — the Black Death reaching Russia around 1352 and killing the grand prince Simeon the Proud, carried up the same trade corridor the Horde overlay."
     }
   ],
   "9": [
@@ -573,6 +639,24 @@
       "targetTl": "mughal-empire",
       "targetChapter": 1,
       "blurb": "\"Moghul\" is simply the Persian-Indian pronunciation of \"Mongol.\" The Mughal Empire, founded in 1526 by Babur — a descendant of Timur on his father's side and of Genghis Khan on his mother's — was the most direct continuation of the Mongol political tradition into the early modern world, ruling most of the Indian subcontinent for nearly two centuries with a Persian-Mongol hybrid administration and culture."
+    },
+    {
+      "matchText": "reshaped the political geography permanently",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 1,
+      "blurb": "This is the legacy the Muscovite Russia narrative carries in full, from the 1237 sack to the Ugra standoff of 1480 — how a scatter of forest principalities under the Yoke became the autocratic, centralized Moscow-led state that called itself the Third Rome and threw off the Tatar overlordship."
+    },
+    {
+      "matchText": "owed at least as much to Sarai",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 2,
+      "blurb": "A point of productive tension worth flagging: this narrative argues Russian administrative practice owed at least as much to Sarai as to Constantinople (Turkic-Mongol loan-words for treasury, customs, and money), while Muscovite Russia Chapter 2 treats the stronger 'the Mongols invented Russian autocracy' claim with deep suspicion. The two are best read together — Mongol administrative borrowing is real; 'Asiatic despotism' as the origin of Russian autocracy is the caricature Chapter 2 rejects."
+    },
+    {
+      "matchText": "fragmented into successor khanates",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 7,
+      "blurb": "Three of these four Horde fragments were destroyed by the state that had once been their tributary: Muscovite Russia Chapter 7 takes Kazan (1552) and Astrakhan (1556), and Chapter 8 takes the Khanate of Sibir (1582) and survives the Crimean burning of Moscow (1571). The descendants of the conquered became the conquerors."
     }
   ]
 }

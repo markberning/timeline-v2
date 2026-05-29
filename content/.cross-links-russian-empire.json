@@ -29,6 +29,30 @@
       "targetTl": "byzantine-empire",
       "targetChapter": 12,
       "blurb": "Byzantium's afterlife is exactly this claim — once Constantinople fell, Moscow grabbed the imperial brand. Ivan III's 1472 marriage to Sophia Palaiologina (niece of the last Byzantine emperor) and the double-headed eagle were the dynastic prop; the 'Third Rome' doctrine supplied the theology. The Byzantine narrative tracks how that inheritance got divided up among the heirs."
+    },
+    {
+      "matchText": "swallowed its neighbors",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 2,
+      "blurb": "How Moscow actually did the swallowing is the whole of Muscovite Russia — Chapters 2 through 6 trace the rise from a forest backwater under the Yoke to the state that gathered the Russian lands (Tver, Novgorod, Pskov) and faced down the Horde at the Ugra in 1480. This narrative inherits the machine; the prequel builds it."
+    },
+    {
+      "matchText": "binding the Russian peasant to the land",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 11,
+      "blurb": "The how of serfdom's creation is Muscovite Russia Chapter 11, which narrates the 1649 Ulozhenie completing the long process of binding the peasant to the land and lord forever — the single most important shared fact between the two narratives' serfdom threads."
+    },
+    {
+      "matchText": "the last surviving seat of true Christianity",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 6,
+      "blurb": "A flag worth carrying: this narrative states the Third Rome doctrine fairly flatly, while Muscovite Russia Chapter 6 gives the corpus's most skeptical treatment — a couple of lines in a monk's letter, inflated by later writers, that serious historians now argue carried far less weight at the time than the legend claims. Read together, not as a settled grand state doctrine."
+    },
+    {
+      "matchText": "legal ancestors reach back to",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 9,
+      "blurb": "The middle stage between Kievan Rus' unfreedom and the 1649 code is Muscovite Russia — Chapter 9 covers the binding of the peasants under Godunov (and Chapter 6 the 1497 St George's Day restriction), the steps by which Russian serfdom was actually built before the Ulozhenie finished it."
     }
   ],
   "2": [
@@ -37,6 +61,18 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 8,
       "blurb": "The Crimean slave raids fed an Ottoman economy that ran on Black Sea captive labor. From Istanbul's side this was a routine vassal-empire pipeline — Crimea was an Ottoman client khanate, and the markets at Caffa and Kefe sent tens of thousands of Slavs south every year into household, agricultural, and galley slavery across the empire."
+    },
+    {
+      "matchText": "they stormed the Kremlin",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 12,
+      "blurb": "This 1682 Streltsy massacre is also the closing scene of Muscovite Russia, whose Chapter 12 ends the old Tsardom exactly here — the two narratives share this moment as their seam, the prequel's end and this book's beginning."
+    },
+    {
+      "matchText": "rode deep into Russian and Ukrainian farmland",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 8,
+      "blurb": "The long arc of the Crimean slave-raiding threat before Peter runs through Muscovite Russia Chapter 8 — the Crimean Tatars, a fragment of the old Golden Horde, who burned Moscow to the ground in 1571 and raided north for captives almost every year."
     }
   ],
   "3": [
@@ -57,6 +93,12 @@
       "targetTl": "ottoman-empire",
       "targetChapter": 8,
       "blurb": "From the Ottoman side, 1683–1730 is 'The Long Defeat' — the empire that had laid siege to Vienna in 1683 is now the empire Peter's Grand Embassy is shopping a coalition against. The Ottomans were still capable, but the relative balance with Christian Europe was tilting; Peter's reign is one of the powers doing the tilting."
+    },
+    {
+      "matchText": "an enormous Russian diplomatic mission",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 12,
+      "blurb": "The Petrine arc — the Grand Embassy, Narva, Poltava, St Petersburg, and Nystad — is narrated in parallel in Muscovite Russia Chapter 12, which tells the same reign as the end of the old Tsardom. The seam between the two books is 1721, when Peter takes the imperial title and Muscovy becomes the Russian Empire."
     }
   ],
   "5": [
@@ -245,6 +287,12 @@
       "targetTl": "kievan-rus",
       "targetChapter": 9,
       "blurb": "Novgorod, the merchant-republic of the medieval Rus' northwest — the third great Rus' center whose name lingers in the imperial title centuries after Moscow swallowed it."
+    },
+    {
+      "matchText": "conquered for fur over the previous",
+      "targetTl": "muscovite-russia",
+      "targetChapter": 8,
+      "blurb": "The conquest of Siberia begins in Muscovite Russia Chapter 8, with the Cossack Yermak's defeat of the Khanate of Sibir — itself a fragment of the old Golden Horde — in 1582. The eastward expansion this chapter carries forward to the Pacific starts there."
     }
   ],
   "18": [

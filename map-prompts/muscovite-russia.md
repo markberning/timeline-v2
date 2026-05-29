@@ -54,6 +54,10 @@ A map of the Golden Horde's overlordship over the Russian lands, roughly 1242–
 
 Label these sites: **Moscow** (center, small dot). **Novgorod** (northwest, on the **Volkhov River** by **Lake Ilmen**). **Sarai** (far southeast, on the lower **Volga River** — mark it "Sarai (Golden Horde capital)"). **Neva River** (far northwest, at the Gulf of Finland — site of Alexander Nevsky's 1240 victory). **Lake Peipus** (on the western frontier — site of the 1242 Battle on the Ice). Draw a labeled arrow coming in from the west toward Lake Peipus, labeled **Teutonic Knights (from the west)**. Draw a labeled dashed tribute line running from the Russian forest down to **Sarai**, labeled **tribute to the Horde**. Label the **Volga River** once and the open southern grassland **steppe** once. One annotation in open country: "An overlordship run from a distance, on threat and on paperwork."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Spell "Neva River" EXACTLY — N-E-V-A. Do not garble it to "Nava River" or any other spelling. Spell every river name exactly.
+- Do NOT render ANY text inside parentheses or any instructional/placement guidance as a map label. The "1240 victory site" note after Neva River is guidance for you, NOT label text — label that site with the BARE name "Neva River" only.
+
 ---
 
 ## Chapter 3 — The Rise of the Moneybag
@@ -63,6 +67,10 @@ The chapter title "Chapter 3: The Rise of the Moneybag" should appear at the top
 A map of Moscow's rise against its rival Tver, roughly 1283–1359. Focus tightly on the northeastern forest heartland around Moscow.
 
 Label these sites: **Moscow** (center, on the **Moskva River** — mark it "Moscow (the rising town)"). **Tver** (northwest, upriver on the upper **Volga River** — mark it "Tver (the crushed rival)"). **Kolomna** (southeast of Moscow, where the Moskva meets the **Oka River**). **Trinity Monastery** (in the forest north of Moscow — the monastic revival of Sergius of Radonezh). Mark **Tver** with a small crossed-swords symbol and the annotation "burned 1327". Label the **Volga River** once, the **Oka River** once, and the surrounding **northeastern forest** once. One annotation near the center: "Moscow rose by being the khan's most useful servant."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Use ONLY the exact labels named in this prompt. Do NOT invent, repeat, or garble region words. Draw NO "oblast" labels at all — the words "oblast", "Northwarn", "Rusian", "Vattian", "Russan" must NOT appear anywhere on the image.
+- The only region label here is "northeastern forest" (once). Spell it exactly. Do not generate any other region or province label.
 
 ---
 
@@ -94,6 +102,12 @@ A map of Ivan III's unification and the end of the Mongol yoke, 1462–1505. Sho
 
 Label these sites: **Moscow** (center — mark it "Moscow (the brick Kremlin)"). **Novgorod** (northwest, on the **Volkhov River** by **Lake Ilmen** — mark it "Novgorod (annexed 1478)"). **Ugra River** (a small tributary southwest of Moscow — mark it "Ugra River (the Great Stand, 1480)"). Draw a labeled arrow coming north from the steppe toward the **Ugra River**, labeled **Khan Akhmat's army**, and stopping at the river without crossing. Label the **Volga River** once and the open southern grassland **steppe** once. One annotation in open country: "The yoke ended at a river where nobody charged."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Do NOT draw the North American Great Lakes or any lakes not named in this prompt. This is the East-European / Russian theatre ONLY. The only water features are the Volga River, the Ugra River, and the Volkhov River by Lake Ilmen — draw no other lakes.
+- The chapter title must sit inside a SINGLE full-width header bar spanning the entire top edge of the image — NOT a floating, centered, or boxed title. The header bar is the only bordered element; nothing else is boxed.
+- Label "Ugra River" EXACTLY ONCE. Do not stamp it twice or place two copies adjacently.
+- Draw NO stray or orphaned "River" label anywhere (especially not in the lower-right corner). Every river label must read its full name (e.g. "Volga River", "Ugra River") attached to its river — never a bare word "River" floating by itself.
+
 ---
 
 ## Chapter 7 — The First Tsar
@@ -124,6 +138,10 @@ A map of the dynasty's collapse and the Great Famine, 1584–1605. Show Moscow c
 
 Label these sites: **Moscow** (center). **Uglich** (northeast of Moscow, on the upper **Volga River** — mark it "Uglich (death of Dmitry, 1591)"). **Crimea** (south, on the **Black Sea** — the defended frontier). Shade the central forest and farmland a withered gray-tan and label it once **Great Famine (1601–1603)**. Label the **Volga River** once and the open southern grassland **steppe** once. One annotation in open country: "A seven-century dynasty simply ran out of men."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- You MUST include the label "steppe" on the open southern grassland.
+- Draw NO inset box, divider line, internal frame, or any line in the bottom-right (or any) corner. The map fills the whole area below the header bar and bleeds off all four outer edges; the header bar is the ONLY bordered element.
+
 ---
 
 ## Chapter 10 — The Time of Troubles
@@ -133,6 +151,9 @@ The chapter title "Chapter 10: The Time of Troubles" should appear at the top in
 A map of the Polish invasion and the national rising that ended it, 1605–1613. Show Moscow center, Poland-Lithuania to the west, Smolensk on the western frontier, and Nizhny Novgorod on the Volga to the east.
 
 Label these sites: **Moscow** (center — mark it "Moscow (Polish garrison in the Kremlin)"). **Smolensk** (west, on the upper **Dnieper River** — besieged 1609–1611). **Klushino** (west of Moscow — site of the 1610 battle). **Nizhny Novgorod** (east, on the **Volga River** — where Minin and Pozharsky raised their army). Draw a thick labeled arrow marching east from **Poland-Lithuania** through **Smolensk** to **Moscow**, labeled **the Polish march on Moscow**. Draw a second labeled arrow coming west from **Nizhny Novgorod** to **Moscow**, labeled **Minin and Pozharsky (1612)**. Label the **Dnieper River** once and the **Volga River** once. One annotation in open country: "An uprising of ordinary people, with no tsar left to fight for."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Do NOT render ANY text inside parentheses or any instructional/placement guidance as a map label. The notes after each site name (e.g. "Polish garrison in the Kremlin", "besieged 1609–1611", "site of the 1610 battle", "where Minin and Pozharsky raised their army") are guidance for you — label each site with its BARE name only (Moscow, Smolensk, Klushino, Nizhny Novgorod).
 
 ---
 
@@ -144,6 +165,10 @@ A map of the early Romanov recovery and the annexation of Ukraine, 1613–1682. 
 
 Label these sites: **Moscow** (center). **Smolensk** (west, on the upper **Dnieper River** — won back from Poland). **Kiev** (southwest, on the **Dnieper River** — secured 1654). **Pereyaslav** (southwest, near Kiev — the 1654 agreement). **Solovetsky Monastery** (far north, on the **White Sea** — the Old Believer holdout). Draw a labeled arrow running southwest from **Moscow** down to **Kiev** and the Dnieper, labeled **the annexation of Ukraine**. Label the **Dnieper River** once and the open southern grassland **steppe** once. One annotation in open country: "Russia made whole, then split in two over how to cross yourself."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Spell "Dnieper River" EXACTLY — D-N-I-E-P-E-R. Do not garble it to "Up Drieper" or any other spelling near Smolensk. Spell every river name exactly.
+- The chapter title must sit inside a SINGLE full-width header bar spanning the entire top edge of the image — NOT a floating, centered, or boxed title. The header bar is the only bordered element; nothing else is boxed.
+
 ---
 
 ## Chapter 12 — The Young Peter and the End of Muscovy
@@ -153,3 +178,6 @@ The chapter title "Chapter 12: The Young Peter and the End of Muscovy" should ap
 A map of Peter the Great's drive to the Baltic in the Great Northern War, 1682–1721. Show Moscow center, the Baltic and Gulf of Finland to the northwest, and the Ukrainian steppe to the south.
 
 Label these sites: **Moscow** (center — the old capital). **Narva** (northwest, on the eastern shore of the **Baltic Sea** — the 1700 defeat). **Saint Petersburg** (northwest, at the mouth of the **Neva River** on the **Gulf of Finland** — founded 1703). **Poltava** (south, in the Ukrainian steppe — the decisive 1709 battle). **Azov** (far south, at the mouth of the **Don River** on the **Sea of Azov** — taken 1696). Draw a thick labeled arrow running from **Moscow** northwest to the **Gulf of Finland** and **Saint Petersburg**, labeled **the drive to the Baltic**. Mark **Narva** and **Poltava** each with a small crossed-swords symbol. Label the **Baltic Sea** once and the **Don River** once. One annotation in open country: "The Tsardom of Muscovy ends; the Russian Empire begins."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- This prompt labels the **Don River** (it runs south to the **Sea of Azov** at Azov). Do NOT label it "Volga". The Volga is NOT requested in this chapter — draw NO "Volga" label at all. If you draw the Volga as background geography it flows SOUTHEAST to the Caspian Sea, far east of the Don; never put a "Volga" label on the Don / Donets toward the Sea of Azov.

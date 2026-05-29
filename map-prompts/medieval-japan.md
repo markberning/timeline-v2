@@ -95,6 +95,10 @@ Label these sites, each a dot: **Kyoto** (the imperial capital, center-west). **
 
 Draw a thick labeled arrow from the **Oki Islands** back toward the mainland, labeled **Go-Daigo escapes, 1333**. Label the **Sea of Japan** once and the **Pacific Ocean** once. One annotation in open water: "An exiled emperor brings down the warrior government — then loses it all."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- The escape arrow MUST point FROM the Oki Islands TO the mainland (Go-Daigo's escape), not the reverse. The TAIL of the arrow begins at the Oki Islands (in the Sea of Japan, west); the ARROWHEAD lands on the Honshu mainland coast to the east. The arrowhead points east, toward Honshu. Do NOT point it back out to sea at the islands.
+- Place **Minatogawa** on the Honshu mainland coast near modern Kobe (on the Inland Sea / Pacific side, just west of Osaka). Do NOT place it on the island of Awaji or on Shikoku — it sits on the main island of Honshu itself.
+
 ---
 
 ## Chapter 6 — Two Emperors, One Throne
@@ -131,6 +135,9 @@ Label these sites, each a dot, clustered around the capital: **Kyoto** (the capi
 
 Label the broad inland heartland region once **Higashiyama culture (Kyoto's eastern hills)**. Label the **Pacific Ocean** once and the **Sea of Japan** once. One annotation in open water near the coast: "Classical Japanese taste flowered while the government rotted."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Label the region EXACTLY "Higashiyama culture" — nothing more. Do NOT render ANY text inside parentheses. The "(Kyoto's eastern hills)" is placement guidance for you, never label text. Do NOT draw the words "Kyoto's eastern hills".
+
 ---
 
 ## Chapter 9 — The Capital Burns
@@ -140,6 +147,12 @@ The chapter title "Chapter 9: The Capital Burns" should appear at the top inside
 A map of the Ōnin War tearing apart the capital, 1467–1477, focused tightly on Kyoto and central Honshu. Show the city of Kyoto large in the center, the surrounding plain, and the rest of Honshu around it.
 
 Inside the city mark two shaded camps with dots: label the northeastern camp **Eastern Army (Hosokawa)** and the northwestern camp **Western Army (Yamana)**. Between and around them place a single annotation: "Kyoto burns." Label the city itself **Kyoto** once. Mark **Lake Biwa** (the large lake just northeast of the city) as a reference. Label the **Pacific Ocean** once and the **Sea of Japan** once. One additional annotation in open water away from the city: "Ten years of war that decided nothing — except that no one was in charge anymore."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Render the chapter title text "Chapter 9: The Capital Burns" EXACTLY ONCE, only inside the top full-width header bar. Do NOT repeat "Chapter 9" anywhere else, especially not on the left side of the title bar.
+- Label the two camps EXACTLY "Eastern Army" and "Western Army". Do NOT draw the parentheticals "(Hosokawa)" or "(Yamana)" — they are placement guidance only and must NOT appear as map text.
+- Place the "Eastern Army" camp to the NORTHEAST of Kyoto (upper right of the city), and the "Western Army" camp to the NORTHWEST (upper left).
+- The long annotation "Ten years of war that decided nothing — except that no one was in charge anymore." MUST be placed in OPEN WATER (the light-blue Pacific Ocean or Sea of Japan), never over land. Find empty sea and put it there.
 
 ---
 
@@ -176,6 +189,14 @@ A map of Oda Nobunaga's rise and the arrival of the Europeans, roughly 1543–15
 Label these sites, each a dot: **Tanegashima** (the small island off the southern tip of Kyushu — where the Portuguese guns landed). **Kagoshima** (a port on southwest Kyushu — where Francis Xavier landed). **Okehazama** (a narrow wooded gorge in Owari province near modern Nagoya, on the Pacific coast of central Honshu — Nobunaga's upset victory). **Mount Hiei** (a mountain temple-fortress overlooking Kyoto — burned by Nobunaga). **Nagashino** (a plain in central Honshu, east of Okehazama — the great gunpowder battle). **Honnō-ji** (a temple in Kyoto — where Nobunaga died). Mark **Kyoto** as a reference dot.
 
 From the far-left mainland draw a labeled sea-route arrow approaching Tanegashima and Kyushu, labeled **Nanban trade (the Portuguese black ships)**. Label the **Pacific Ocean** once and the **Sea of Japan** once. One annotation in open water: "Guns and a foreign god arrive — and the Demon King takes a hammer to the old order."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+- Label every site with its BARE proper name ONLY. Do NOT render ANY text inside parentheses — parentheses are placement guidance for you, never label text. Do NOT invent descriptive words.
+- Write "Mount Hiei", never "Mountain temple-fortress of Mount Hiei".
+- Write "Nagashino", never "Plain of Nagashino".
+- Write "Honnō-ji", never "Temple site Honnō-ji".
+- Write "Okehazama", never "Battle site Okehazama".
+- Write "Tanegashima", "Kagoshima", and "Kyoto" with no added words.
 
 ---
 

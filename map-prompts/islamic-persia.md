@@ -46,6 +46,12 @@ A map of the Arab conquest of Sasanian Persia and the founding of Baghdad, rough
 
 Label these sites: **al-Qadisiyyah** (in the flat country of southern Mesopotamia, west of the Euphrates — site of the 636 battle). **Ctesiphon** (on the Tigris, the Sasanian capital). **Nahavand** (in the Zagros Mountains east of Mesopotamia — site of the 642 battle). **Baghdad** (on the Tigris, just upstream of Ctesiphon, the new Abbasid capital). **Merv** (far northeast, in Khurasan — where Yazdegerd III was murdered). Label the rivers **Tigris** and **Euphrates** in light blue. Label the **Zagros Mountains** once, in gray-brown. Draw a thin dashed line for the flight of Yazdegerd III running east from Ctesiphon across the plateau to Merv. One annotation in open country: "The superpower that fought Rome ended in a decade."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+• Render the label 'Ctesiphon' EXACTLY ONCE on the map — one dot, one label. Do NOT place a second 'Ctesiphon' label next to a different dot.
+• Do NOT print the standalone word 'Iranian' or any label not explicitly named in this prompt.
+• Each city is labeled with ONLY its name — exactly 'al-Qadisiyyah', 'Ctesiphon', 'Nahavand', 'Baghdad', 'Merv'. Do NOT draw ANY parenthetical text such as '636 battle', '642 battle', 'former Sasanian capital', 'Sasanian capital', or 'new Abbasid capital' — those are placement notes for you, never label text.
+• Label the dashed flight line EXACTLY 'Flight of Yazdegerd III'. Do NOT garble it (no 'Yazdegerd III II's flight', no doubled or jumbled words). Spell the name once, correctly.
+
 ---
 
 ## Chapter 2 — A Language Refuses to Die
@@ -65,6 +71,9 @@ The chapter title "Chapter 3: The Samanid Renaissance" should appear at the top 
 A map of the Samanid realm and its renaissance, roughly 819–1010, centered on Transoxiana and Khurasan in the northeast. Show the Amu Darya, the cities of Transoxiana, and the road south into Khurasan.
 
 Label these sites: **Bukhara** (in Transoxiana — the Samanid capital, "the dome of Islam in the East"). **Samarkand** (in Transoxiana, east of Bukhara). **Nishapur** (in Khurasan, southwest of the Amu Darya). **Ghazni** (far southeast, in modern Afghanistan — the Ghaznavid capital). Label the river **Amu Darya** in light blue. Label the region **Transoxiana** once, across the northeast. Draw a dashed silver-trade line running north from Bukhara off the top edge, labeled **Samanid silver to the north**. One annotation in open country: "A renaissance that funded the Vikings and saved the language."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+• Do NOT render ANY text inside parentheses — parentheses are placement guidance only. Label the city as 'Bukhara' only. Never draw the phrase 'the dome of Islam in the East' or 'Samanid capital'.
 
 ---
 
@@ -96,6 +105,9 @@ A map of the Nizari Ismaili mountain state, roughly 1090–1256. Show northern P
 
 Label these sites: **Alamut** (a fortress on a high crag in the Elburz Mountains, south of the Caspian — the Nizari capital, "the eagle's nest"). **Qom** (a city south of the Elburz — the birthplace of Hasan-i Sabbah). **Baghdad** (on the Tigris, to the southwest — where Nizam al-Mulk founded the Nizamiyya). Shade the **Elburz Mountains** as gray-brown high ground and label them once. Label the **Caspian Sea** in light blue. Place a small cluster of fortress dots through the Elburz around Alamut to suggest the network of mountain castles. One annotation in open country: "A state with no land — just a string of impregnable rocks."
 
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+• Render the label 'Caspian Sea' EXACTLY ONCE on the map, placed over the water of the Caspian. Do NOT place a second 'Caspian Sea' label, and never place it over dry land.
+
 ---
 
 ## Chapter 7 — The Inner Path
@@ -105,6 +117,9 @@ The chapter title "Chapter 7: The Inner Path" should appear at the top inside a 
 A map of the flowering of Persian Sufism and poetry, roughly 1095–1300, spread across the Persianate world from Anatolia to Khurasan. Show Anatolia in the northwest and the plateau filling the center and east.
 
 Label these sites: **Konya** (in Anatolia, northwest — where Rumi settled and wrote, a refugee from the northeast). **Baghdad** (on the Tigris — where al-Ghazali held the Nizamiyya chair). **Nishapur** (in Khurasan, northeast — the home of Attar). **Shiraz** (in the south — the home of Saadi). **Balkh** (far northeast, beyond the Amu Darya — Rumi's birthplace). Draw a thin dashed line for Rumi's family flight running from **Balkh** west across the plateau to **Konya**. Label **Anatolia** once in the northwest. One annotation in open country: "The culture went inward, where no army could reach it."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+• Spell the river label EXACTLY 'Amu Darya'. Do not alter it (NOT 'Amy Darya').
 
 ---
 
@@ -124,7 +139,15 @@ The chapter title "Chapter 9: The End of the World" should appear at the top ins
 
 A map of the Mongol catastrophe, 1219–1260. Show the steppe along the north-northeast, Transoxiana and Khurasan in the northeast, and Mesopotamia in the west.
 
-Label these sites, marking the sacked cities with a small crossed-swords symbol: **Otrar** (frontier city on the Syr Darya, northeast). **Bukhara** (in Transoxiana). **Samarkand** (in Transoxiana). **Merv** (in Khurasan). **Nishapur** (in Khurasan). **Herat** (in Khurasan, southeast). **Alamut** (the Nizari fortress in the Elburz Mountains — taken by Hulagu in 1256). **Baghdad** (on the Tigris — sacked in 1258, the caliph killed). Draw a thick labeled arrow entering from the steppe in the north-northeast, sweeping down through Transoxiana and Khurasan and on toward Baghdad, labeled **Genghis Khan invades, 1219**. One annotation in open country: "The worst destruction in Persian memory."
+Label these sites, marking the sacked cities with a small crossed-swords symbol: **Otrar** (frontier city on the Syr Darya, northeast). **Bukhara** (in Transoxiana). **Samarkand** (in Transoxiana). **Merv** (in Khurasan). **Nishapur** (in Khurasan). **Herat** (in Khurasan, southeast). **Alamut** (the Nizari fortress in the Elburz Mountains — taken by Hulagu in 1256). **Baghdad** (on the Tigris — sacked in 1258, the caliph killed). Draw a thick labeled arrow entering from the steppe in the north-northeast, sweeping down through Transoxiana and Khurasan and on toward Baghdad, labeled **Genghis Khan invades, 1219**. Place one annotation in an empty area of the map (away from all labels); it must read EXACTLY and ONLY these words: "The worst destruction in Persian memory."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+• Use ONLY the exact labels named in this prompt. Do NOT invent or garble any words. Every label must be a real, correctly-spelled word or place name from this prompt — no jumbled letters, no fragments, no made-up text.
+• The annotation reads EXACTLY "The worst destruction in Persian memory." — and nothing else. Do NOT print the phrase "In open country" or any placement instruction as text on the map.
+• Mark a crossed-swords symbol on EXACTLY these eight sacked cities and NO others: Otrar, Bukhara, Samarkand, Merv, Nishapur, Herat, Alamut, Baghdad. Samarkand MUST get its crossed-swords symbol. Do NOT add a crossed-swords symbol to any city not in that list, and do NOT label or mark 'Tabriz' (it is not in this chapter).
+• Spell EVERY label correctly with no doubled or dropped letters. If you label the mountains around Alamut, spell it EXACTLY 'Elburz Mountains' (NOT 'Elburz Mouuntains'). Spell 'Euphrates' EXACTLY. Double-check every word for typos before finishing.
+• You MUST label the invasion arrow with the text "Genghis Khan invades, 1219" — this label is required and must appear on the arrow.
+• Do NOT print any invented word near Alamut or anywhere else (no 'Eltuntarz' or similar made-up text). The ONLY labels allowed are: the eight city names, Alamut, the rivers (Tigris, Euphrates, Amu Darya, Syr Darya), the seas (Caspian Sea, Aral Sea, Persian Gulf), the regions (Transoxiana, Khurasan, Mesopotamia, Steppe), Elburz Mountains, Zagros Mountains, the arrow label, and the one annotation. NOTHING else.
 
 ---
 
@@ -155,3 +178,8 @@ The chapter title "Chapter 12: The Red-Heads and the Boy King" should appear at 
 A map of the rise of the Safavids, roughly 1335–1501, centered on northwestern Persia and eastern Anatolia where the Turkmen confederations and the Qizilbash contended. Show the Caspian Sea in the north.
 
 Label these sites: **Ardabil** (in the cold northwestern highlands near the Caspian — birthplace of the Safaviyya Sufi order). **Tabriz** (in the northwest — the old Aq Qoyunlu capital, where Ismail was crowned shah in 1501). **Sharur** (in the northwest, near the Aras valley — site of the 1501 battle). **Shiraz** (in the south — the old Muzaffarid seat). Label the **Caspian Sea** in light blue. Draw a labeled arrow for Ismail's advance running from **Ardabil** to **Sharur** and on to **Tabriz**, labeled **Ismail and the Qizilbash, 1501**. One annotation in open country: "A teenage warlord-mystic made Persia whole — and made it Shia."
+
+**SPECIFIC REMINDERS for this chapter (defect re-roll):**
+• Place 'Sharur' to the NORTHWEST of Tabriz, in its correct real-world location (in the Aras valley, northwest of Tabriz — NOT east of it).
+• Draw ONLY ONE advance arrow. It starts at Ardabil, goes NEXT to Sharur (northwest), and ENDS at Tabriz. Sequence: Ardabil → Sharur → Tabriz. Tabriz is the LAST point the arrowhead touches. The arrow must NOT reach Tabriz before Sharur. Do NOT draw any extra arrow pointing southeast or anywhere else. The label 'Ismail and the Qizilbash, 1501' sits along this single Ardabil → Sharur → Tabriz arrow.
+• Geographic order to enforce: Ardabil is in the far north near the Caspian; Sharur is northwest in the Aras valley; Tabriz is to the south of Sharur. So the arrow goes from Ardabil, northwest to Sharur, then south to Tabriz.
