@@ -21,7 +21,7 @@ const SUBJECTS = {
   'muscovite-russia': "Monomakh's Cap, the fur-trimmed gold crown of the tsars",
   'age-of-exploration': 'a Portuguese caravel sailing ship under a triangular lateen sail',
   'atlantic-slave-trade': 'the white seaward facade of Elmina Castle, the West African coastal fort',
-  'latin-american-independence': "a liberator's curved cavalry saber crossed with a furled tricolor banner",
+  'latin-american-independence': "the Sun of May, a bold radiant golden sun with a calm face and alternating straight and wavy rays",
   'al-andalus': 'the Alhambra palace with its towers', 'ancestral-puebloans': 'a multi-storey cliff-dwelling (Cliff Palace)',
   'ancient-china': 'a Houmuwu ding bronze ritual vessel on four legs', 'ancient-greece': 'the Parthenon temple with columns',
   'ancient-israel': 'a seven-branched menorah lampstand', 'ancient-korea': 'the Cheomseongdae stone observatory tower',

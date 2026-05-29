@@ -7,7 +7,7 @@ export const ICON_LABELS: Record<string, string> = {
   'muscovite-russia': "Monomakh's Cap",
   'age-of-exploration': 'Caravel',
   'atlantic-slave-trade': 'Elmina Castle',
-  'latin-american-independence': "Liberator's Saber",
+  'latin-american-independence': 'Sun of May',
   'al-andalus': 'Alhambra',
   'ancestral-puebloans': 'Cliff Palace',
   'ancient-china': 'Bronze Ding',
