@@ -240,7 +240,12 @@ export function CivList({ activeCivId, onActiveCivChange, listRef, soloChainId, 
                     }}
                     onClick={(e) => {
                       e.stopPropagation()
-                      onChainSolo(soloChainId === chainInfo.chain.id ? null : chainInfo.chain.id)
+                      // Always solo this civ's chain — never toggle off. When a
+                      // chain is already soloed, every visible civ belongs to it,
+                      // so a toggle here would clear the filter and dump the user
+                      // back to all civs (reported as a bug). Clearing the filter
+                      // is the ✕ in the chain-filter header above, not the pill.
+                      onChainSolo(chainInfo.chain.id)
                     }}
                   >
                     {chainInfo.chain.shortLabel} {chainInfo.index + 1}/{chainInfo.total}
