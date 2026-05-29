@@ -141,9 +141,11 @@
 
 **Momentum map:** Tight and rising from the first sentence; the steelman pause is well-placed deceleration before the 1977 reversal; clean, satisfying close.
 
-## Chapter 9 — Indira Returns
+## Chapter 9 — Indira Returns and Rajiv
 
-**Grade: WEAK**
+**Grade: STRONG** (rewritten 2026-05-28 — was WEAK; re-graded STRONG by the storytelling critic after a single-spine restructure: Congress burning down its own secular legitimacy across the 1980s, with Bhopal fused in as the hollow-state co-pillar. Fact-checked ZERO ERRORS. Split deemed unnecessary once the spine held. Original WEAK critique retained below:)
+
+**Originally graded WEAK (pre-rewrite); superseded above:**
 
 **Throughline:** *Difficult to state in one sentence — and that is the chapter's central problem.* Roughly: the Janata's collapse returned Indira, whose second term and the dynasty after it ran on a chain of self-inflicted communal catastrophes (Blue Star, the anti-Sikh pogrom, Shah Bano, Babri, Bhopal) that hollowed out Congress's secular legitimacy.
 
