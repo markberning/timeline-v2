@@ -13,7 +13,12 @@ const FINAL = join(process.cwd(), 'public', 'icons-gen')
 if (!existsSync(RAW)) mkdirSync(RAW, { recursive: true })
 
 const REGION_COLORS = { 'near-east': '#d97706', africa: '#b44d3b', asia: '#7c3aed', europe: '#1d4ed8', americas: '#047857' }
-const regions = JSON.parse(readFileSync('/tmp/civ-regions.json', 'utf8'))
+// Derive id→region from navigator-tls.ts (source of truth) so a new civ is NEVER
+// missing from the map and silently falls back to the gold default (#8a7a66) —
+// that bug shipped 3 gold emblems in the wave-2 build. No ephemeral /tmp file.
+const navSrc = readFileSync(join(process.cwd(), 'src', 'lib', 'navigator-tls.ts'), 'utf8')
+const regions = {}
+for (const m of navSrc.matchAll(/id:\s*'([^']+)'[^}]*?region:\s*'([^']+)'/g)) regions[m[1]] = m[2]
 
 const SUBJECTS = {
   'medieval-japan': 'a horned samurai kabuto helmet',
