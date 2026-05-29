@@ -64,7 +64,13 @@
       "label": "Ming treasure fleets sail the Indian Ocean",
       "year": 1405,
       "endYear": 1433,
-      "description": "Decades before Portugal's first caravel, the admiral Zheng He led enormous Ming Chinese fleets across the Indian Ocean to Africa — then China abruptly turned inward and burned the ledgers, leaving the ocean open.",
+      "description": "Decades before Portugal's first caravel, the admiral Zheng He led enormous Ming Chinese fleets across the Indian Ocean to Africa — then China abruptly turned inward and let the ledgers rot, leaving the ocean open.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale is hard to take in next to what Europe was doing: tens of thousands of men in hundreds of ships, against Columbus's three little vessels and ninety men seventy years later. On the 1414 voyage the fleet brought home a giraffe — a gift that had reached the African coast and been passed along from the city of Malindi — and the Confucian court read it as a qilin, the mythical unicorn whose appearance signaled a sage ruler blessed by Heaven. Then, after 1433, China simply quit: the shipyards fell idle, oceangoing trade was discouraged, and the detailed sailing records were lost or quietly destroyed, very possibly so no official could ever argue for doing it again. The mightiest sea power on Earth folded up its sails at the exact moment a tiny kingdom on the far edge of the world was about to push out into the Atlantic."
+        }
+      ],
       "wikiSlug": "Ming_treasure_voyages",
       "tier": 1,
       "tags": [],
@@ -75,6 +81,12 @@
       "label": "Portugal storms Ceuta",
       "year": 1415,
       "description": "A Portuguese army seized the rich Moroccan port of Ceuta from the Marinid sultanate — the spark usually called the start of European overseas expansion, and where Prince Henry first saw the wealth of the Saharan gold trade.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was a wildly lopsided fight: the Portuguese crossed the strait with a huge fleet and stormed the city in a single day, losing — by the royal chronicler's count — only about eight men, while the defenders were piled in heaps. And then it turned out to be almost useless. Hold the port and the caravans simply rerouted, so Portugal had captured the faucet and the water stopped flowing. But Ceuta did the one thing that mattered: it showed the young princes where the gold was actually coming from — far to the south, beyond the Sahara — and planted the idea that a ship sailing down the Atlantic coast of Africa might reach the source directly and cut the Muslim middlemen out entirely. The whole age started as a raid that failed at its own stated goal."
+        }
+      ],
       "wikiSlug": "Conquest_of_Ceuta",
       "tier": 1,
       "tags": [],
@@ -85,7 +97,13 @@
       "label": "Prince Henry the Navigator",
       "year": 1418,
       "endYear": 1460,
-      "description": "King John I's son turned exploration into a state enterprise, funding decades of voyages down the African coast from his base in the Algarve and earning the (somewhat exaggerated) title 'the Navigator.'",
+      "description": "King John I's son turned exploration into a state enterprise, funding decades of voyages down the African coast from his base in the Algarve and earning the (heavily exaggerated) title 'the Navigator.'",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost everything the nickname implies is wrong. Henry himself barely went to sea after Ceuta, and \"the Navigator\" was never used in his lifetime — it was coined by two German historians in the 1800s and stuck. What he really was, was a venture capitalist of exploration: he ran the wealthy Order of Christ (Portugal's heir to the Knights Templar) and poured its crusading revenues into sending ship after ship into the unknown, absorbing the failures and trying again next season. He was also, despite all that money, chronically broke and extravagant enough that his own brother the king lectured him about his spending. The breakthroughs of the next decades came less from one genius bent over a chart than from a deep-pocketed patron who simply refused to stop paying."
+        }
+      ],
       "wikiSlug": "Prince_Henry_the_Navigator",
       "tier": 1,
       "tags": [],
@@ -96,6 +114,12 @@
       "label": "Settlement of Madeira",
       "year": 1420,
       "description": "Portuguese settlers colonized the uninhabited Atlantic island of Madeira and planted sugar cane — the prototype of the slave-worked plantation that would later define the Atlantic.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name means \"wood,\" because the island arrived as one dense laurel forest — and the settlers cleared it the fast way, with fire. The burn left behind rich, ash-fertilized topsoil ideal for a crop that would cast a long shadow over this whole story: sugar cane. Sugar was a scarce luxury in medieval Europe and absurdly profitable, and specialists brought in from Sicily and Cyprus found Madeira perfect for it. But sugar is brutal, backbreaking work in tropical heat, which meant it needed a large captive workforce — so this pretty island quietly became the prototype of the plantation: a single cash crop, grown for distant markets, worked increasingly by enslaved labor. Nobody designed the system that would later devour the Americas. It assembled itself, here, one profitable step at a time."
+        }
+      ],
       "wikiSlug": "History_of_Madeira",
       "tier": 2,
       "tags": [],
@@ -106,6 +130,12 @@
       "label": "The caravel takes shape",
       "year": 1430,
       "description": "Portuguese shipwrights perfected the caravel — small, nimble, and rigged with triangular lateen sails that let it claw to windward, the machine that made coastal exploration possible.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its smallness was the whole point. At roughly 50 to 80 feet it drew little water, so it could nose into uncharted river mouths without grounding; it needed only a small crew, so less food and water on a voyage of unknown length; and it was cheap enough that a patron could afford to lose a few. Rigged with lateen sails it could sail to within about five points of the wind — close-hauled, slicing across the breeze and tacking back, zigzagging upwind where a square-rigged ship would simply be blown backward. That was the trick that mattered: a caravel could go look at a coast and then claw its way home against the same wind that had carried it out, turning the one-way trap of the open ocean into a road you could travel both directions."
+        }
+      ],
       "wikiSlug": "Caravel",
       "tier": 1,
       "tags": [],
@@ -115,7 +145,13 @@
       "id": "evt-age-of-exploration-006",
       "label": "The lateen sail",
       "year": 1430,
-      "description": "Borrowed from Arab and Mediterranean sailors, the triangular lateen sail let a ship sail at an angle into the wind — the single innovation that turned the open ocean from a one-way trap into a road.",
+      "description": "Borrowed from Arab and Mediterranean sailors, the triangular lateen sail let a ship sail at an angle into the wind — the innovation that turned the open ocean from a one-way trap into a road.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Picture the two ways to hang a sail. A square sail hangs crosswise like a bedsheet on a line — wonderful for running straight before a following wind, useless for going against it. A lateen sail is a tall triangle slung from a long slanting yard, and it works like an airplane wing turned on its side: it lets a ship slice across an oncoming wind, then turn and slice back, zigzagging upwind. The Portuguese didn't invent it — Mediterranean and Arab sailors had used it for over a thousand years, and it had largely replaced the square sail in the Mediterranean by the 600s. The genius was the marriage: mounting that ancient sail on a tough little Atlantic explorer. Borrowed technology, in the right hull, beat the ocean's one-way trap."
+        }
+      ],
       "wikiSlug": "Lateen",
       "tier": 3,
       "tags": [],
@@ -126,6 +162,12 @@
       "label": "Settlement of the Azores",
       "year": 1432,
       "description": "Portuguese navigators reached the Azores, far out in the mid-Atlantic — a waypoint that taught them the giant clockwise wind loop they would learn to ride home.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These nine volcanic islands sit roughly 870 miles (1,400 km) out into the open Atlantic — and their position was a gift, because they lie right in the band of the homeward westerlies. A ship that learned to swing out to the Azores on its way home had, in effect, practiced the volta do mar in miniature, and the islands became the great waypoint where the homeward arc touched land. They did something subtler, too: they made the ocean feel like a neighborhood. Sailors who had grown up assuming the deep Atlantic was a howling void now had real places out in it to aim for, resupply at, and come back to. The wall at the edge of the world was slowly being furnished with islands."
+        }
+      ],
       "wikiSlug": "History_of_the_Azores",
       "tier": 3,
       "tags": [],
@@ -136,6 +178,12 @@
       "label": "Gil Eanes rounds Cape Bojador",
       "year": 1434,
       "description": "Sailors believed the sea beyond Cape Bojador boiled and monsters lived there; Gil Eanes finally sailed past it and came back alive, breaking the psychological wall that had stopped exploration for years.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The terrifying part is that the legend had a real cause. Off Bojador an underwater reef makes the waves break and spout into high, foamy clouds that look exactly like steam rising off boiling water — even on a calm day. To sailors raised on tales of a scorching sea at the world's edge, that was confirmation. Eanes beat it not with courage but with a trick: instead of hugging the coast through the spray, he swung well out to sea and came around it in open water, found ordinary ocean on the far side, and — the only part that actually mattered — came home alive to say so. It's one of the great anticlimaxes in exploration: the wall at the end of the world turned out to be a choppy reef, and the moment one man proved it, the spell that had frozen the whole enterprise for over a decade simply broke."
+        }
+      ],
       "wikiSlug": "Gil_Eanes",
       "tier": 2,
       "tags": [],
@@ -146,6 +194,12 @@
       "label": "The volta do mar discovered",
       "year": 1440,
       "description": "The hard lesson of the Atlantic: to get home from the African coast you sailed away from land into the open ocean to catch the westerly winds — the counterintuitive 'turn of the sea' that unlocked everything.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The winds of the North Atlantic blow in one vast, slow, clockwise loop — the gyre. Trade winds push you southwest near Africa; westerlies push back northeast up near Europe. So a ship that has ridden the easy southward winds down the coast cannot just turn around and beat back up the same coast — it will fight a headwind the whole way and die of thirst trying. The volta do mar, \"turn of the sea,\" was the gut-wrenching realization that the way home was to sail away from home: out into the empty middle of the ocean on a great northwesterly arc until you reached the latitude of the westerlies, which then carried you back. Every nerve in a frightened sailor screams against steering deliberately into open ocean on faith. Yet this is the master key to the whole age — Columbus could never have returned from the Caribbean without it, and the same principle was later applied to every ocean on Earth."
+        }
+      ],
       "wikiSlug": "Volta_do_mar",
       "tier": 2,
       "tags": [],
@@ -155,7 +209,13 @@
       "id": "evt-age-of-exploration-010",
       "label": "First enslaved Africans shipped to Portugal",
       "year": 1444,
-      "description": "A cargo of captured Africans was auctioned at Lagos in Portugal — the grim commercial turn that made the African voyages profitable and seeded the Atlantic slave trade.",
+      "description": "A cargo of about 235 captured Africans was auctioned on the dock at Lagos in Portugal — the grim commercial turn that made the African voyages profitable and seeded the Atlantic slave trade.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We know the scene in unbearable detail because Prince Henry's own chronicler, Gomes Eanes de Zurara, described it — and accidentally captured the moral signature of the whole age. Henry watched the auction from horseback, taking 46 of the captives as his royal share. Zurara wrote with real anguish of the captives being sorted into lots: children torn from fathers, wives from husbands, people throwing themselves on the ground and looking up to heaven, wailing. And then, in the same breath, he reassured his royal reader that it was all to the good, because the captives' souls would now be saved by baptism. Witnessed human agony and smooth theological justification, side by side on one page. Slavery itself was ancient and everywhere; what began here was something new in shape — a maritime, European-run Atlantic trade that would eventually carry more than twelve million people across the ocean."
+        }
+      ],
       "wikiSlug": "Atlantic_slave_trade",
       "tier": 1,
       "tags": [],
@@ -165,7 +225,13 @@
       "id": "evt-age-of-exploration-011",
       "label": "Cadamosto explores the Senegal coast",
       "year": 1455,
-      "description": "The Venetian Alvise Cadamosto, sailing for Portugal, reached the Senegal and Gambia rivers and wrote vivid accounts of the Wolof kingdoms and Saharan gold-salt trade he found there.",
+      "description": "The Venetian Alvise Cadamosto, sailing for Portugal, reached the Senegal and Gambia rivers and wrote vivid accounts of the Wolof kingdoms and Saharan gold-salt trade he found there — and is credited with stumbling on the uninhabited Cape Verde Islands.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cadamosto wrote like a curious tourist who had wandered into another world, and the delight is in the small things. He met the hippopotamus and, having no word for it, called it a \"horse-fish.\" He tasted elephant meat and thought so little — or so much — of it that he salted a piece and shipped it home to Prince Henry as a curiosity. He marveled that in the salt-starved interior, salt traded weight-for-weight against gold. His accounts matter beyond the charm: in a European hand, they prove the Portuguese were not sailing into a void but into a dense, sophisticated commercial world of kings, courts, taxes, and long-established trade — a world they would join, exploit, and deform, but did not create."
+        }
+      ],
       "wikiSlug": "Alvise_Cadamosto",
       "tier": 3,
       "tags": [],
@@ -175,7 +241,13 @@
       "id": "evt-age-of-exploration-012",
       "label": "The Mali and Songhai gold trade",
       "year": 1450,
-      "description": "What drew the Portuguese south was the legendary West African gold that crossed the Sahara to the Mediterranean — wealth controlled by Sahelian empires the Songhai now dominated.",
+      "description": "What drew the Portuguese south was the legendary West African gold that crossed the Sahara to the Mediterranean — wealth controlled by Sahelian empires, with the rising Songhai now the dominant power.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These were not the marginal peoples of European fantasy — they ran some of the richest states on Earth. A century earlier the Mali emperor Mansa Musa had crossed Egypt on pilgrimage handing out so much gold that he reportedly wrecked its value in Cairo for years. By the time the Portuguese reached the coast, Songhai was swallowing the fading Mali to become the largest state in West African history, ruling the great bend of the Niger and the scholar-city of Timbuktu. And the gold moved on a trade so strange it sounds invented: in the salt-starved interior, salt traded weight for weight against gold. The whole point of the Portuguese creep down the coast was to reach this wealth by sea and cut the Saharan caravans — and the Muslim merchants who ran them — out of the deal."
+        }
+      ],
       "wikiSlug": "Songhai_Empire",
       "tier": 3,
       "tags": [],
@@ -187,6 +259,12 @@
       "year": 1481,
       "endYear": 1495,
       "description": "King John II of Portugal ran exploration like a secret intelligence operation — funding the push to India, planting spies in the East, and rejecting a Genoese named Columbus.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He treated geographic knowledge as a state secret worth more than gold: Portuguese charts of the African route were guarded like military codes, because a map that showed the way to the spice was a weapon. Turning Columbus down wasn't ignorance — it was the opposite. John's experts ran the numbers, knew the ocean to Asia was far too wide to cross, and were anyway committed to the African route they'd nearly cracked. They were right; Columbus's math was wrong. He also ruled with a ruthlessness that earned the nickname \"the Perfect Prince\": he is said to have personally stabbed a rival duke to death and had the powerful Braganza family's head beheaded, breaking the great nobles who might have checked the crown. The man who built Portugal's path to India did it with a spymaster's secrecy and a killer's nerve."
+        }
+      ],
       "wikiSlug": "John_II_of_Portugal",
       "tier": 2,
       "tags": [],
@@ -197,6 +275,12 @@
       "label": "Elmina Castle built on the Gold Coast",
       "year": 1482,
       "description": "Portugal raised São Jorge da Mina — Elmina — the first permanent European fort in sub-Saharan Africa, a fortified depot for gold and, later, enslaved people.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was, in effect, the world's first flat-pack building shipped overseas: King John II had the entire fort — foundation stones, cut blocks, roof tiles — pre-fitted in Portugal and carried south on a fleet of caravels, along with provisions for 600 men, so it could be assembled fast on a hostile shore over the local ruler's objections. Five centuries later it still stands, the oldest surviving European building in sub-Saharan Africa. It began as a strongbox for the gold trade, but its dungeons would later become one of the most notorious holding-pens of the Atlantic slave trade, where captives were warehoused in the dark before being loaded onto ships. The most famous monument of European exploration in West Africa is, in the end, a prison."
+        }
+      ],
       "wikiSlug": "Elmina_Castle",
       "tier": 2,
       "tags": [],
@@ -207,6 +291,12 @@
       "label": "Diogo Cão reaches the Kongo",
       "year": 1483,
       "description": "Diogo Cão sailed past the mouth of the Congo River and made contact with the powerful Kingdom of Kongo, opening a relationship that would briefly make Kongo a Christian ally and then a slaving frontier.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Congo announces itself before you see land: Cão noticed the ocean turning brown and fresh-tasting far offshore, the outflow of one of the world's mightiest rivers pushing into the salt sea. What he found upriver was no scattered tribe but a real state — the Kingdom of Kongo, with a capital, a king, provincial governors, and a structured court. For a remarkable moment the encounter ran like diplomacy between equals: Kongo sent young noblemen to Portugal to be educated, and its king accepted Christian baptism. Cão himself sailed on confidently, planting a stone marker at the river mouth — then vanished from the record on his second voyage somewhere down the Angolan coast, his fate unknown to this day."
+        }
+      ],
       "wikiSlug": "Diogo_Cão",
       "tier": 3,
       "tags": [],
@@ -217,6 +307,12 @@
       "label": "The padrão stone pillars",
       "year": 1483,
       "description": "Portuguese captains planted carved stone pillars called padrões at the limits of each voyage — part claim-marker, part cross, part the era's idea of a press release in granite.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each padrão was several feet of carved stone topped with the cross of the Order of Christ and inscribed with the royal arms and the date — three messages in one: \"the king of Portugal got here first,\" \"Christendom claims this shore,\" and \"look how far we've come.\" They worked: the four pillars Diogo Cão planted on his two voyages were all later found still standing on their original sites, and two of them are legible to this day. The one from Cape Cross spent over a century in a Berlin museum (a granite copy left in its place) before being returned to Namibia. Strung down the African coast, the padrões are the literal mileposts of the creep — each one a little farther south than the last, granite proof of the patient, inch-by-inch advance."
+        }
+      ],
       "wikiSlug": "Padrão",
       "tier": 3,
       "tags": [],
@@ -227,6 +323,12 @@
       "label": "Bartolomeu Dias rounds the Cape",
       "year": 1488,
       "description": "Blown around the southern tip of Africa by a storm, Bartolomeu Dias proved a sea route to the Indian Ocean existed — and his terrified crew forced him to turn back just short of India.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He rounded the bottom of Africa without ever seeing it. A gale caught his ships and drove them south, out of sight of land, for days; when the storm let up and he turned east to find the coast, there was no coast — the land had fallen away behind him. He sailed on until the shoreline reappeared running east instead of south, and realized the storm had carried him clean around the corner of the continent into the Indian Ocean. His exhausted crew refused to go farther and forced him back just short of the prize. The cruelest twist came twelve years later: in 1500, sailing with Cabral's fleet (the one that had just stumbled on Brazil), Dias was lost with his ship in a storm off the very Cape of Good Hope he had been the first to round. The cape took him in the end."
+        }
+      ],
       "wikiSlug": "Bartolomeu_Dias",
       "tier": 1,
       "tags": [],
@@ -237,6 +339,12 @@
       "label": "The Cape of Good Hope named",
       "year": 1488,
       "description": "Dias called it the Cape of Storms; King John renamed it the Cape of Good Hope — the corner that turned Africa from a wall into a doorway to the riches of the East.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rename is the whole point of the moment, an act of pure royal spin. Dias, who had nearly died there, called it the Cape of Storms for exactly what it was. King John II, grasping in an instant what Dias had actually found — that the sea road to the spice of the East was now, in principle, open — relabeled it the Cape of Good Hope, turning a place of terror into a promise on the map. Everything Portugal had built since Ceuta pointed at this corner: the caravel, the volta do mar, the conquest of fear at Bojador, the chain of forts and padrões, the astrolabe and the star tables and the spy in his disguise. The wall that had stood for the entire length of the story had just become a doorway — even if it would be another decade before a Portuguese ship actually sailed through it."
+        }
+      ],
       "wikiSlug": "Cape_of_Good_Hope",
       "tier": 3,
       "tags": [],
@@ -247,6 +355,12 @@
       "label": "The mariner's astrolabe",
       "year": 1480,
       "description": "A heavy brass ring for measuring the sun's height at noon let sailors calculate their latitude far from any coastline — turning navigation from coastal guesswork into something like a science.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The heaviness was the whole design. You hung the brass ring from your thumb so gravity pulled it straight down, swung a pivoting arm until it pointed at the sun or a star, and read the angle off the rim — and a light instrument would swing wildly on a pitching deck, so the weight steadied it. It solved only the easy half of \"where am I,\" though: latitude, your north-south position, which the sky hands you for free. The hard half — longitude, east-west — was hopeless, because reading it needed an accurate clock that could survive months of damp and heaving, and no such clock existed until the 1700s. So every navigator of the age sailed knowing his latitude tolerably and his longitude almost not at all, guessing east-west by dead reckoning. The wonder isn't that Columbus thought he'd hit Asia. It's that anyone got anywhere at all."
+        }
+      ],
       "wikiSlug": "Mariner's_astrolabe",
       "tier": 2,
       "tags": [],
@@ -257,6 +371,12 @@
       "label": "Regiomontanus publishes navigation tables",
       "year": 1474,
       "description": "The German astronomer Regiomontanus printed tables of the heavens that let a sailor turn a star sighting into a position — astronomy quietly becoming a tool of empire.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Ephemerides of 1474 was the first printed astronomical almanac, listing the predicted positions of sun, moon, and planets year by year — and it was so useful that, the saying went, no captain dared set out without a copy. The most theatrical proof of its power came in 1504, when Columbus, stranded and starving on Jamaica with hostile islanders refusing to feed his crew, looked up the tables, found a total lunar eclipse predicted for the night of February 29, and announced to the islanders that his angry God would blot out the moon. When the moon duly went dark on schedule, the terrified islanders resumed supplying him. The sailor squinting at the noon sun off Africa was holding the far end of a chain that ran back to scholars working out the silent motions of the heavens."
+        }
+      ],
       "wikiSlug": "Regiomontanus",
       "tier": 3,
       "tags": [],
@@ -267,6 +387,12 @@
       "label": "The Fall of Constantinople",
       "year": 1453,
       "description": "The Ottoman capture of Constantinople choked the old overland spice routes to Asia and gave Europe's seafaring kingdoms a powerful new reason to find a way around by water.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The thousand-year-old walls of the Christian capital were finally cracked by a single piece of technology: a monster cannon built by a Hungarian engineer named Orban, so huge it took 60 oxen and 400 men to drag it into position and could only be fired about seven times a day. Whether the conquest actually strangled the spice trade is debated by historians — the goods kept flowing, just through Ottoman hands and tolls — but the psychological effect was enormous. Europe now felt the road to Asian wealth ran through a hostile Muslim power that could squeeze it at will, which made the wild idea of a sea route around the whole problem suddenly worth almost any gamble. Portugal's answer was to go around Africa; Columbus's, forty years later, was to sail the other way entirely."
+        }
+      ],
       "wikiSlug": "Fall_of_Constantinople",
       "tier": 2,
       "tags": [],
@@ -277,6 +403,12 @@
       "label": "The Catholic Monarchs unite Spain",
       "year": 1469,
       "description": "The marriage of Isabella of Castile and Ferdinand of Aragon fused the two great Spanish crowns — the partnership that would finish the Reconquista and gamble on Columbus.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was less a wedding than a corporate merger of two rival kingdoms, and it stayed one for over two centuries: Castile and Aragon kept their own laws, courts, currencies, and parliaments, joined only at the top by the married pair, and weren't truly fused into a single state until the early 1700s. Ferdinand's own slogan caught the spirit of it — \"tanto monta,\" roughly \"it makes no difference\" — a statement that the two ruled as equal partners. The title \"Catholic Monarchs\" was a prize handed to them by the pope in 1496 for their militant Catholicism, which in the single hinge-year of 1492 meant conquering Muslim Granada, expelling Spain's Jews, and bankrolling Columbus — conquest, expulsion, and discovery all flowing from the same crusading zeal. The Spain that would seize half the globe was, at its founding, a marriage held together by little more than a shared faith and a shared ambition."
+        }
+      ],
       "wikiSlug": "Catholic_Monarchs",
       "tier": 2,
       "tags": [],
@@ -287,6 +419,12 @@
       "label": "The Fall of Granada",
       "year": 1492,
       "description": "Ferdinand and Isabella took Granada, the last Muslim kingdom in Spain, ending the centuries-long Reconquista — and freeing crown, soldiers, and crusading zeal for an overseas project.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Reconquista — the campaign to retake Iberia from Muslim rule — had been grinding on for nearly 800 years, since the 700s, so its end in January 1492 closed an almost unimaginably long chapter. The last emir, Boabdil, handed over the keys to the Alhambra and rode into exile; legend says he paused on a ridge to weep at the city he'd lost, and his mother reportedly told him not to cry like a woman over what he couldn't defend like a man — the spot is still called \"the Moor's last sigh.\" Columbus, hovering at court, witnessed the surrender. And the timing is the whole point: an entire war-machine of soldiers, money, and crusading fervor was abruptly freed up in the very year the crown decided to gamble on a westward voyage. The Reconquista didn't so much end as turn around and face the Atlantic."
+        }
+      ],
       "wikiSlug": "Granada_War",
       "tier": 2,
       "tags": [],
@@ -297,6 +435,12 @@
       "label": "Isabella I bankrolls Columbus",
       "year": 1492,
       "description": "After years of refusals, Isabella I of Castile finally backed a Genoese mariner's wildly miscalculated plan to reach Asia by sailing west — a gamble that paid off in the wrong direction.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her own experts told her, correctly, that Columbus's geography was nonsense, and for years she said no. What finally tipped her was timing: in January 1492 Granada fell, the long Reconquista was won, and the crown suddenly had soldiers, money, and crusading momentum looking for a new outlet. A western gamble to outflank Islam and reach Asia felt like the next chapter of the same holy story. The deal she struck reveals how little anyone expected him back — it made Columbus admiral and hereditary governor of any lands he found and gave him a generous cut of the profits, terms you only offer on a bet you assume you'll lose. The legend that she pawned her crown jewels to fund him is just that, a legend; the voyage was largely financed by the crown's treasurer and Italian merchant backers. But the decision was hers, made over the heads of the men who knew better."
+        }
+      ],
       "wikiSlug": "Isabella_I_of_Castile",
       "tier": 2,
       "tags": [],
@@ -307,6 +451,12 @@
       "label": "Columbus reaches the Americas",
       "year": 1492,
       "description": "On 12 October 1492 Christopher Columbus made landfall in the Bahamas, convinced he had reached the edge of Asia — beginning sustained, catastrophic contact between two halves of the world.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His whole plan rested on a mistake, and the popular version gets it backwards. Educated Europeans knew the Earth was round; the argument was how big, and on that the experts were right and Columbus was wrong. He cherry-picked the most optimistic ancient figures and shrank the globe by roughly a quarter, convincing himself Asia lay just a few weeks' sail west. Had there been only open ocean out there, he and his crews would simply have starved somewhere around where the Caribbean actually is. What saved him was a continent he had no idea existed, sitting almost exactly where his wrong math predicted Asia would be — rescued from one error by his total ignorance of a far larger truth. And he never let go of the mistake: he made four voyages, was once arrested and shipped home in chains for misruling his colony, and died in 1506 still insisting he had reached Asia, never knowing he had found a new world."
+        }
+      ],
       "wikiSlug": "Christopher_Columbus",
       "tier": 1,
       "tags": [],
@@ -317,6 +467,12 @@
       "label": "The Taíno of the Caribbean",
       "year": 1492,
       "description": "The people Columbus met were the Taíno, who ran chiefdoms across the Greater Antilles; within a generation of contact, disease and forced labor had nearly annihilated them.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "You speak Taíno more often than you know. Canoe, hammock, barbecue, hurricane, tobacco, savanna, cacique — all are Taíno words that passed through Spanish into English, the linguistic fingerprints of a people the European sources reduced to gentle scenery. They were nothing of the kind: an Arawak-speaking society that had migrated up the island chain from South America over centuries, running organized chiefdoms with hereditary chiefs, substantial villages around central plazas, raised-mound fields of cassava and maize, fine carved religious objects, and a ritual ball game in stone courts. When Columbus admiringly noted they were gentle and \"would make good servants,\" he was sizing up a civilization for exploitation. The numbers are the horror: on Hispaniola the Taíno fell from perhaps hundreds of thousands in 1492 to a few thousand within a generation, and a single 1518 smallpox outbreak is reckoned to have killed nine in ten of those who remained."
+        }
+      ],
       "wikiSlug": "Taíno",
       "tier": 1,
       "tags": [],
@@ -328,6 +484,12 @@
       "label": "La Navidad, the first colony, is wiped out",
       "year": 1493,
       "description": "Columbus left 39 men in a fort built from the wrecked Santa María; by his return all were dead, killed by the very Taíno who had first welcomed him — the New World's first colony and its first reckoning.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It set the pattern for everything that followed in a single year. Columbus sailed home to a hero's welcome, sure he'd reached Asia, leaving 39 men in a fort cobbled from the wreck. When he returned the next year with a far bigger fleet, La Navidad was ashes and every man was dead — and not at random. The abandoned Spaniards had repaid Taíno hospitality by seizing women and gold until a neighboring cacique wiped them out. So the very first European colony in the Americas was destroyed by the very people who had first welcomed the strangers, in direct response to the strangers' abuses: the welcome, the abuse, the violent reckoning, and behind it all the diseases already beginning their silent work. The exact site has never been definitively found — the New World's first town vanished almost as completely as it was born."
+        }
+      ],
       "wikiSlug": "La_Navidad",
       "tier": 3,
       "tags": [],
@@ -338,6 +500,12 @@
       "label": "The papal bulls of donation",
       "year": 1493,
       "description": "Pope Alexander VI issued the Inter caetera bulls granting Spain dominion over the lands Columbus had found — the church handing out continents it had never seen.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The phrase is Latin for \"among other things\" — the bull's opening words, the way papal decrees were named. Behind the bland title sat a breathtaking theory: that the pope, as supreme head of the Church, could grant Christian monarchs the right to seize any non-Christian land, provided they converted the people living on it. In other words, the unbaptized souls of strangers became, in canon law, a license to take their countries. This \"doctrine of discovery\" was not a one-off. Its logic — that European Christian title trumped any claim by non-Christian peoples — would be cited for centuries to justify colonization, and was still being invoked in courts and land disputes into the modern era. The Catholic Church only formally repudiated it in 2023. A line in a 1493 decree cast a five-hundred-year shadow."
+        }
+      ],
       "wikiSlug": "Inter_caetera",
       "tier": 2,
       "tags": [],
@@ -349,6 +517,12 @@
       "label": "The Treaty of Tordesillas",
       "year": 1494,
       "description": "Spain and Portugal split the entire non-Christian world along a meridian 370 leagues west of Cape Verde — a line drawn on a globe nobody had finished mapping, which is why Brazil speaks Portuguese.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The truly absurd part is that they divided the planet along a line nobody could actually find. The treaty fixed the boundary as a meridian 370 leagues west of the Cape Verde Islands — but never said how long a league was, never converted it to degrees, and left the rest to a joint survey voyage that never happened. And it couldn't have worked anyway, because the longitude problem (Chapter 4) meant there was no way at sea to know whether any given spot fell on the Spanish or the Portuguese side. So two middling kingdoms split the unexplored world along a boundary they were physically incapable of locating — and it stuck. Its most famous accident: a few years later the Brazilian coast turned out to bulge just east of the line, onto Portugal's side, which is the literal reason one giant country in South America speaks Portuguese while every neighbor speaks Spanish."
+        }
+      ],
       "wikiSlug": "Treaty_of_Tordesillas",
       "tier": 1,
       "tags": [],
@@ -359,6 +533,12 @@
       "label": "The Columbian Exchange begins",
       "year": 1493,
       "description": "Columbus's second voyage carried horses, pigs, wheat, and sugar west and brought maize and disease back — the start of the biological great-shuffle that would remake diets and demographics on every continent.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is hard to overstate how completely this rewired ordinary life, because so much that now seems eternal and native to a place actually arrived in the last five hundred years. Italy had no tomato, Ireland no potato, India and Thailand no chili pepper, Switzerland no chocolate; the Americas had no horses, cattle, wheat, or pigs. All of it crossed in the exchange. The deadliest half traveled the same ships: Old World diseases met populations with no resistance and killed perhaps 90 percent of the people of the Americas over the following century. The dying was so vast it may have changed the sky — with tens of millions dead, farmland across two continents went back to forest, and the regrowing trees pulled enough carbon dioxide out of the air to register in ice cores around 1610 and help tip the world into the cooler stretch called the Little Ice Age. A death toll large enough to leave a fingerprint in the atmosphere."
+        }
+      ],
       "wikiSlug": "Columbian_exchange",
       "tier": 1,
       "tags": [],
@@ -370,6 +550,12 @@
       "label": "The encomienda system",
       "year": 1503,
       "description": "Spain formalized the encomienda — a grant giving a colonist the labor of indigenous people in exchange for 'Christianizing' them, a legal fiction that meant brutal forced labor.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The encomienda was slavery wearing the costume of a religious duty. A colonist (the encomendero) was \"entrusted\" with a group of indigenous people and the right to extract their labor and tribute — in exchange, on paper, for protecting them and seeing to their conversion to Christianity. In practice the protection was fiction and the conversion an afterthought; what was real was the forced labor, worked often to death in fields and mines. The crown actually preferred the encomienda's legal sleight of hand to outright slavery, because it let everyone insist these were free subjects being civilized rather than chattel being owned. That fig leaf is exactly what the reformers tore at — and it's why the fights over the encomienda, and not over open slavery, became the arena where Spain argued about the morality of its own empire."
+        }
+      ],
       "wikiSlug": "Encomienda",
       "tier": 2,
       "tags": [],
@@ -381,6 +567,12 @@
       "label": "Vasco da Gama reaches India",
       "year": 1498,
       "description": "Vasco da Gama rounded Africa and crossed the Indian Ocean to Calicut, opening the first all-sea route from Europe to the spice markets of the East — and instantly threatening the merchants who already ran them.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous \"discovery\" was a commercial humiliation. Ushered before the fabulously wealthy Zamorin of Calicut, da Gama presented the gifts he'd carried halfway around the world — a few cloaks of cloth, six hats, some strings of coral beads, sugar, oil, honey. The court reportedly found them so trivial they wondered aloud where the gold and silver were; these were presents for a minor chief, not a great king, and they made it brutally clear Europe had nothing the East wanted. He left without a trade deal. And yet the voyage was a staggering success for one reason: the single cargo of pepper he carried home, bought cheap in India, sold in Lisbon for something like sixty times the entire cost of the expedition. Europe was poor and its goods were shoddy — but the markup on spice was so insane that one shipload paid for everything, which is exactly why Portugal would soon decide to take the trade by force."
+        }
+      ],
       "wikiSlug": "Vasco_da_Gama",
       "tier": 1,
       "tags": [],
@@ -391,6 +583,12 @@
       "label": "The Zamorin of Calicut",
       "year": 1498,
       "description": "Da Gama's host was the Zamorin, the Hindu ruler of Calicut, who already presided over a sophisticated Indian Ocean trade and was distinctly unimpressed by the cheap gifts the Portuguese offered.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His title is itself a window onto the world the Portuguese had blundered into: \"Zamorin\" comes from a local word meaning roughly \"lord of the sea\" — this was a ruler whose whole power rested on commanding a maritime trade older and richer than anything in Europe. Calicut was a cosmopolitan pepper emporium where Arab, Persian, Gujarati, and Chinese merchants had dealt for centuries; the Zamorin let foreign traders run their own affairs and grew wealthy taxing the flow. He had no reason to be impressed by ragged strangers offering hats and honey, and the resident Muslim merchants, rightly seeing the Portuguese as dangerous rivals, turned him against them. The encounter punctures the whole triumphant myth: the newcomers were the poor, marginal players muscling into an economy that vastly outclassed them in everything except shipboard cannon."
+        }
+      ],
       "wikiSlug": "Zamorin",
       "tier": 2,
       "tags": [],
@@ -401,6 +599,12 @@
       "label": "Ahmad ibn Majid, master of the monsoon",
       "year": 1498,
       "description": "An Arab pilot — tradition names the great navigator Ibn Majid — guided da Gama across the open Indian Ocean, a reminder that the 'discovery' rode on centuries of existing Asian and Arab seafaring.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Da Gama couldn't actually navigate the last and hardest leg himself, so at the Swahili port of Malindi he hired a local pilot who knew the monsoon — the great seasonal wind that for over a thousand years had carried Arab, Persian, Indian, and Swahili sailors out to India on one breath and home on the next, so reliably they timed whole voyages to it. There was an entire literature of Arabic navigation manuals and star tables behind that knowledge. Tradition named the pilot as Ahmad ibn Majid, the most celebrated Arab navigator of the age — though scholars now doubt it (he was about 77 and had called himself too old to sail) and lean toward an unnamed Gujarati Indian. The point survives whoever it was: Europe's famous \"discovery\" of the route to India was finished by an Indian Ocean pilot using Indian Ocean knowledge to carry the Europeans across a sea they could not yet cross on their own."
+        }
+      ],
       "wikiSlug": "Ahmad_ibn_Majid",
       "tier": 3,
       "tags": [],
@@ -412,6 +616,12 @@
       "year": 1495,
       "endYear": 1521,
       "description": "King Manuel I presided over Portugal's golden age, commissioning da Gama and Cabral and styling himself 'Lord of the conquest, navigation, and commerce of Ethiopia, Arabia, Persia, and India.'",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That mouthful of a title — claiming lordship over the \"navigation and commerce of Ethiopia, Arabia, Persia, and India\" — tells you the scale of the swagger spice money bought. Nicknamed \"the Fortunate,\" Manuel poured the profits into a building boom and a whole new architectural style, the Manueline, that crusted Portuguese churches with carved ropes, anchors, coral, and armillary spheres — stone bragging about an empire won from the sea. He also sent a real Indian rhinoceros to the pope as a flex of his exotic reach; the animal drowned en route, but not before the artist Dürer made it the most famous rhino in art history from a sketch, never having seen it. Manuel's reign is the moment a tiny Atlantic kingdom suddenly behaved, and built, like the richest court in Europe."
+        }
+      ],
       "wikiSlug": "Manuel_I_of_Portugal",
       "tier": 2,
       "tags": [],
@@ -422,6 +632,12 @@
       "label": "Cabral claims Brazil",
       "year": 1500,
       "description": "Steering wide into the Atlantic on his way to India, Pedro Álvares Cabral bumped into the coast of Brazil and claimed it for Portugal — possibly by accident, conveniently on the Portuguese side of the Tordesillas line.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whether he found Brazil by accident or by design, historians still argue. The volta do mar (Chapter 2) required swinging far west into the Atlantic to catch the winds around Africa — so a captain following that maneuver would naturally drift toward South America, and some suspect Portugal already half-knew the land was there and sent Cabral to plant a flag on it. Either way, his fleet was no scouting party: it was a huge, heavily armed India armada of 13 ships, meant to claim a continent and force its way into the spice trade in one voyage. After a few days on the Brazilian coast he simply sailed on toward India — almost an afterthought — and the bulk of the fleet met disaster rounding Africa, including the ship of Bartolomeu Dias, the man who'd first rounded the Cape, lost in a storm there. The discovery of Brazil cost the discoverer of the Cape his life."
+        }
+      ],
       "wikiSlug": "Pedro_Álvares_Cabral",
       "tier": 2,
       "tags": [],
@@ -432,6 +648,12 @@
       "label": "Vespucci names a New World",
       "year": 1502,
       "description": "Amerigo Vespucci argued in widely-printed letters that the lands across the Atlantic were not Asia but a whole new continent — an insight so persuasive the continents were named after him, not Columbus.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Columbus did the sailing and died insisting he'd reached Asia; Vespucci did the thinking. Coasting far down South America, he saw a landmass running thousands of miles south below the equator, with peoples, plants, and skies matching nothing in the known descriptions of Asia — and he drew the radical conclusion that this was a mundus novus, a New World, a fourth part of the Earth no one in Europe, Asia, or Africa had known existed. For thousands of years educated Europeans had believed the world's land came in exactly three connected pieces. Vespucci tore up the basic architecture of the map. His vivid letters became printed bestsellers across Europe, which is exactly why a German mapmaker later stamped the new continent with a Latinized version of his first name — Amerigo — rather than Columbus's. The credit went not to the man who got there, but to the man who understood what \"there\" was."
+        }
+      ],
       "wikiSlug": "Amerigo_Vespucci",
       "tier": 2,
       "tags": [],
@@ -442,6 +664,12 @@
       "label": "The Cantino planisphere smuggled out",
       "year": 1502,
       "description": "An Italian agent spirited a copy of Portugal's closely-guarded master chart out of Lisbon — the Cantino planisphere, the first map to show the new African route, Brazil, and the Tordesillas line.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is industrial espionage, 1502 edition. Portugal guarded its maps like state secrets, so the Duke of Ferrara sent an agent named Alberto Cantino to Lisbon under cover of horse-trading, with orders to get hold of the latest chart of the discoveries. Cantino bribed his way to a copy for twelve gold ducats and smuggled it out of the country. The map he stole is a treasure: the earliest surviving chart to show the fresh Portuguese discoveries on three continents at once — the African sea route, a fragment of the brand-new Brazilian coast, even southern Greenland — and the first to draw in the Tordesillas line splitting the world. It still survives in Italy today, a five-hundred-year-old snapshot of the secret knowledge a tiny kingdom thought it had safely locked away."
+        }
+      ],
       "wikiSlug": "Cantino_planisphere",
       "tier": 3,
       "tags": [],
@@ -452,6 +680,12 @@
       "label": "The Waldseemüller map names 'America'",
       "year": 1507,
       "description": "The German cartographer Martin Waldseemüller printed a world map that labeled the new western continent 'America' after Vespucci — the moment the name stuck to the wrong man's land.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It's been called \"America's birth certificate,\" the first document on Earth to print the name. Waldseemüller's reasoning was almost casual: the other continents bore (as Europeans then thought) women's names, so this one should be feminized too, and he turned Amerigo into America and placed it down in the part Vespucci had explored — then it spread north and stuck to two whole continents. He reportedly printed around a thousand copies of the huge twelve-sheet woodcut, and for centuries every single one was lost. Then in 1901 a Jesuit found the last surviving copy in a German castle, where it had sat unnoticed for 350 years; the United States bought it in 2003 for ten million dollars. The only original record of how America got its name nearly vanished from history entirely."
+        }
+      ],
       "wikiSlug": "Waldseemüller_map",
       "tier": 2,
       "tags": [],
@@ -462,6 +696,12 @@
       "label": "Francisco de Almeida, first viceroy of India",
       "year": 1505,
       "description": "Portugal appointed Francisco de Almeida as the first Viceroy of the Estado da Índia, signaling the shift from trading voyages to a permanent armed empire in the Indian Ocean.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almeida grasped the core insight that would define Portuguese Asia: control the sea, and you control the trade without owning the land. He pushed a strategy of naval supremacy rather than territory — and proved it at Diu in 1509. His story ends with a grim symmetry. Earlier his son Lourenço had been killed in a sea fight against the same Muslim coalition; Almeida won his revenge at Diu, then, sailing home, stopped to take on water at the Cape of Good Hope, where a petty quarrel with the local Khoikhoi turned into a skirmish on the beach — and the first Viceroy of India, victor of the great battle for the Indian Ocean, was killed by herdsmen defending their cattle, almost exactly where the whole African route had begun."
+        }
+      ],
       "wikiSlug": "Francisco_de_Almeida",
       "tier": 3,
       "tags": [],
@@ -472,6 +712,12 @@
       "label": "The Battle of Diu",
       "year": 1509,
       "description": "A Portuguese fleet smashed a combined Mamluk-Gujarati-Venetian navy off Diu, breaking Muslim and Venetian control of the spice routes and making Portugal master of the Indian Ocean's sea lanes.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The arithmetic was supposed to be hopeless: roughly 18 Portuguese ships against a combined fleet of up to 200, fielded by the Egyptian Mamluks, the sultanate of Gujarat, the Zamorin of Calicut — and, secretly, the Republic of Venice, which was helping Portugal's enemies because the new sea route was wrecking its lucrative old Mediterranean spice business. It didn't matter. The Portuguese ships sat high in the water, were nearly impossible to board, and carried heavy cannon along their broadsides that could pound an enemy to splinters from a distance the others couldn't answer. They blew the coalition apart. Diu is one of history's clearest cases of a technological edge — naval gunnery — overturning every advantage of numbers, wealth, and home waters, and it handed a poor little Atlantic kingdom the keys to the richest sea on Earth."
+        }
+      ],
       "wikiSlug": "Battle_of_Diu",
       "tier": 2,
       "tags": [],
@@ -482,6 +728,12 @@
       "label": "Albuquerque takes Goa",
       "year": 1510,
       "description": "Afonso de Albuquerque seized Goa on India's west coast and made it the fortified capital of Portuguese Asia — the strategy of holding choke-points rather than territory.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Albuquerque's whole strategy was elegant and brutal: a kingdom of a million people could never garrison the Indian Ocean's tens of millions, so don't try — just seize the handful of narrow doors the entire trade must pass through, fortify them, and tax or sink everything else. Goa was door number one, the fortified capital from which the rest followed. His grip on it proved astonishingly durable: long after Portugal lost almost everything else in Asia, Goa stayed Portuguese — for 451 years, until India finally annexed it by force in 1961. That's a colonial possession that outlasted the empire that founded it by centuries, the last stubborn lock on a door Albuquerque had jammed open in 1510."
+        }
+      ],
       "wikiSlug": "Portuguese_conquest_of_Goa",
       "tier": 2,
       "tags": [],
@@ -492,6 +744,12 @@
       "label": "Portugal captures Malacca",
       "year": 1511,
       "description": "Albuquerque stormed Malacca, the great entrepôt commanding the strait between the Indian Ocean and the South China Sea — the gateway to the spice-producing islands beyond.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Malacca was the single most cosmopolitan marketplace in the world — a port where traders speaking dozens of languages converged, and where, it was said, you could buy anything Asia produced. Whoever held it controlled the strait that all spice from the islands beyond had to flow through. So Albuquerque took it, and then did something cold-blooded: with Malacca in hand, he sent a small expedition onward to find the actual Spice Islands, whose secret location Europe had never known. The capture also had a strange afterlife — it scattered Malacca's Malay sultans, who founded new states down the peninsula, including Johor, while the strait Albuquerque seized is still, five centuries later, one of the busiest and most strategically contested shipping lanes on the planet."
+        }
+      ],
       "wikiSlug": "Capture_of_Malacca_(1511)",
       "tier": 2,
       "tags": [],
@@ -502,6 +760,12 @@
       "label": "Portugal seizes Hormuz",
       "year": 1515,
       "description": "Taking the island fortress of Hormuz at the mouth of the Persian Gulf, Albuquerque completed Portugal's grip on the great maritime choke-points from the Red Sea to the Strait of Malacca.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hormuz was a fabulously rich little island that produced almost nothing — no farmland, barely any fresh water — yet grew wealthy purely by sitting on the chokepoint at the mouth of the Persian Gulf, taxing the trade that had to squeeze past it. A medieval saying ran: \"If all the world were a ring, Hormuz would be its jewel.\" With Goa, Malacca, and now Hormuz, Albuquerque held a chain of fortified locks on the doors of the Indian Ocean — the Persian Gulf, the Indian coast, the strait to the Pacific. The Strait of Hormuz is still exactly what it was then: a narrow neck through which a huge share of the world's oil now passes, and a place navies still posture over. Albuquerque understood, five hundred years early, that you don't need to own the world — just its doorways."
+        }
+      ],
       "wikiSlug": "Portuguese_conquest_of_Hormuz",
       "tier": 3,
       "tags": [],
@@ -512,6 +776,12 @@
       "label": "Reaching the Spice Islands",
       "year": 1512,
       "description": "Portuguese ships finally reached the Maluku Islands, source of the cloves, nutmeg, and mace that had been the whole point — spices worth more by weight than gold in Europe.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was the actual destination — the place the entire enterprise, all the way back to the terror at Cape Bojador, had ultimately been chasing. And the prize was almost comically concentrated: cloves grew on a tiny handful of volcanic islands, and nutmeg and mace (two spices from one fruit — the seed and its lacy red covering) came at the time from essentially one cluster, the Banda Islands. A scrap of land in eastern Indonesia was, for a moment, the sole global source of seasonings worth more by weight than gold in a European market. That fact would prove murderous: because the source was so small, it could be monopolized, and monopolizing it would later drive the Dutch to wipe out the people of Banda almost entirely to own the price of nutmeg."
+        }
+      ],
       "wikiSlug": "Maluku_Islands",
       "tier": 2,
       "tags": [],
@@ -522,6 +792,12 @@
       "label": "The carrack, the ocean workhorse",
       "year": 1510,
       "description": "For the long hauls to India the Portuguese relied on the carrack (the nau) — a big, high-sided, square-rigged ship that could carry cargo, cannon, and crew across an ocean and back.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "If the nimble caravel was the scout, the carrack was the freight train. Big, bluff-bowed, and bristling with tall fore-and-aft \"castles\" for soldiers to fight from, it traded the caravel's agility for sheer carrying capacity — enough hold for a year's voyage of food, water, trade goods, cannon, and a small army of crew. The Portuguese called the largest of them the nau, and the India run produced true monsters for the age, ships of well over a thousand tons that were among the biggest things humans had ever built to float. That size was also their doom: heavily overloaded with pepper and riding low, the great India carracks were notorious for foundering in storms off Africa, and the wreck of a homebound nau stuffed with a year's spice could ruin a season's profits in a single night."
+        }
+      ],
       "wikiSlug": "Carrack",
       "tier": 3,
       "tags": [],
@@ -532,6 +808,12 @@
       "label": "Balboa sights the Pacific",
       "year": 1513,
       "description": "Hacking across the Isthmus of Panama, Vasco Núñez de Balboa became the first European to see the Pacific from the Americas — proof there was a whole second ocean between the New World and Asia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was a broke fugitive who'd literally stowed away from his creditors in a barrel to reach the New World, and he made his name by gambling on a rumor: local people spoke of a great sea beyond the mountains. Balboa hacked across the fever-ridden jungle of Panama and, from a ridge in September 1513, saw open water stretching south to the horizon — then waded in wearing full armor, sword in hand, and claimed the entire ocean and all its shores for Spain, an act of staggering presumption toward a sea he couldn't begin to imagine the size of. The discovery proved the New World was a barrier with another whole ocean behind it. His reward was grim: a jealous rival governor had him arrested on trumped-up charges and beheaded in 1519 — the conquistadors were quite as lethal to each other as to anyone else."
+        }
+      ],
       "wikiSlug": "Vasco_Núñez_de_Balboa",
       "tier": 2,
       "tags": [],
@@ -543,6 +825,12 @@
       "year": 1501,
       "endYear": 1601,
       "description": "Manuel I poured spice profits into the vast Jerónimos Monastery on the Lisbon waterfront, its stone laced with ropes, coral, and seashells — architecture as a monument to the ocean empire.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was paid for, almost literally, in pepper. The crown funded the enormous monastery at Belém — begun in 1501 and over a century in the building — largely from a special tax on the spice and Africa trade, so the East's cargo was turned directly into stone. It rose on the very spot where Vasco da Gama and his crew had prayed before sailing for India, and the carving makes the source unmistakable: instead of the usual saints and vines, the Manueline stonework crawls with ropes, anchors, coral, sea-monsters, and armillary spheres — an entire architecture invented to brag about an empire won from the ocean. Today it holds the tombs of both da Gama, who opened the route, and Camões, who turned it into epic verse — the man who did it and the man who sang it, resting in a church the trade route built."
+        }
+      ],
       "wikiSlug": "Jerónimos_Monastery",
       "tier": 3,
       "tags": [],
@@ -552,7 +840,13 @@
       "id": "evt-age-of-exploration-049",
       "label": "Magellan's expedition sets out",
       "year": 1519,
-      "description": "Ferdinand Magellan, a Portuguese captain sailing for Spain, left Seville with five ships to find a western passage to the Spice Islands — and to settle whether the world could be sailed clean around.",
+      "description": "Ferdinand Magellan, a Portuguese captain sailing for Spain, left Seville with five ships and around 270 men to find a western passage to the Spice Islands — and to settle whether the world could be sailed clean around.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The politics were a tangle that tells you everything about the age: Magellan was Portuguese, had served Portugal in the East, fell out with his own king, and so took his plan to Portugal's bitter rival, Spain — a Portuguese captain leading a mostly Spanish crew to claim for Spain the very Spice Islands Portugal already reached from the other side. His Spanish captains resented serving under a foreigner, and the voyage nearly died of it: down in the freezing southern winter they rose in open mutiny, and Magellan crushed it with cold ruthlessness, executing one ringleader and marooning others on a desolate shore. He drove the survivors on with a determination that bordered on fanaticism — and it would carry them around the planet, though not him. He'd be dead two-thirds of the way around, on a beach in the Philippines, before the circle closed."
+        }
+      ],
       "wikiSlug": "Ferdinand_Magellan",
       "tier": 1,
       "tags": [],
@@ -563,6 +857,12 @@
       "label": "Through the Strait of Magellan",
       "year": 1520,
       "description": "After a mutiny and a lost ship, the fleet threaded the freezing, maze-like strait at the tip of South America that now bears Magellan's name, and broke out into the ocean he named the Pacific for its calm.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The strait is a fog-bound, freezing labyrinth of channels winding over 350 miles between the mainland and the islands of Tierra del Fuego — \"Land of Fire,\" named for the native peoples' fires the sailors saw burning along the dark shore. Threading it took weeks of terror, and one ship deserted mid-strait and slunk back to Spain. When the battered survivors finally broke out the western end, the open water was so unexpectedly calm after the chaos of the channels that Magellan named it the Pacific, \"the peaceful.\" It is the cruelest misnomer in the history of geography: the \"peaceful\" sea turned out to be the largest single feature on Earth, covering roughly a third of the planet, and crossing its emptiness was about to nearly kill every man aboard."
+        }
+      ],
       "wikiSlug": "Strait_of_Magellan",
       "tier": 2,
       "tags": [],
@@ -573,6 +873,12 @@
       "label": "Lapulapu kills Magellan at Mactan",
       "year": 1521,
       "description": "On the island of Mactan in the Philippines, the chieftain Lapulapu and his warriors cut down Magellan when he waded ashore to fight — the great circumnavigator dead two-thirds of the way around the world.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Magellan died of overconfidence and meddling. He'd allied with one Philippine chief who accepted baptism, then waded ashore at the head of a small armored party to force a rival, Lapulapu, to submit — sure his guns and steel would overawe the islanders. Instead Lapulapu's warriors met them in far greater numbers in the shallows; according to Pigafetta, who watched it happen, they aimed low, drove a poisoned arrow or bamboo spear through Magellan's leg, and cut him down in the surf. The famous \"first man to sail around the world\" did not, in fact, complete the circle — he died on a beach because a local ruler refused to be bullied. Lapulapu is today a Philippine national hero, the first indigenous leader credited with defeating the Europeans, with a city and a fish named after him."
+        }
+      ],
       "wikiSlug": "Battle_of_Mactan",
       "tier": 2,
       "tags": [],
@@ -583,6 +889,12 @@
       "label": "Elcano completes the first circumnavigation",
       "year": 1522,
       "description": "Juan Sebastián Elcano brought the battered Victoria home to Spain — one ship and 18 starving survivors out of five ships and ~270 men, the first humans ever to circle the globe.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "With Magellan dead and too few men left to crew the remaining ships, the survivors faced a brutal choice for the way home. Elcano gambled: rather than recross the Pacific that had nearly killed them, he sailed the Victoria west — straight through waters Portugal controlled and would have seized them in if caught — around the Cape of Good Hope and up to Spain. The ship that limped into Seville in 1522 was leaking and half-rotten, crewed by 18 gaunt survivors out of the roughly 270 who had set out three years before. The home stretch held one last eerie proof of what they'd done: their meticulous logs were off by a full day. They had chased the sun westward around the entire planet and, without realizing it, lost a calendar day — the first humans ever to feel, in their own paperwork, that the Earth was round."
+        }
+      ],
       "wikiSlug": "Juan_Sebastián_Elcano",
       "tier": 1,
       "tags": [],
@@ -593,6 +905,12 @@
       "label": "Pigafetta's chronicle of the voyage",
       "year": 1525,
       "description": "Antonio Pigafetta, one of the 18 survivors, wrote the astonishing eyewitness account of the circumnavigation — the storms, the starvation, the new peoples and the proof of a single round world.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pigafetta was a gentleman volunteer who signed on essentially as a tourist and ended up writing the greatest travel journal in history. His account is unforgettably concrete: men eating sawdust and the leather chafing-gear off the rigging, gums swelling over their teeth from scurvy, the death of Magellan, the strange new peoples and tongues — and he was diligent enough to compile word-lists of the languages he met, the first European record of several. He also caught the calendar paradox: arriving home, he was baffled to find his careful daily log a day behind everyone in Spain, hard physical proof of a round and rotating Earth. Without Pigafetta the greatest sea voyage ever made would survive as a few dry lines in a ledger. Because of him it is one of the great survival stories ever told."
+        }
+      ],
       "wikiSlug": "Antonio_Pigafetta",
       "tier": 3,
       "tags": [],
@@ -603,6 +921,12 @@
       "label": "The Treaty of Zaragoza",
       "year": 1529,
       "description": "Spain and Portugal extended the Tordesillas line around the far side of the globe, settling who owned the Spice Islands — Spain sold its claim, and the world was now formally carved in two from pole to pole.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tordesillas had split the Atlantic side of the world in 1494, but once Magellan's survivors reached the Spice Islands from the east, the obvious question arose: whose side of the globe were the islands on, going the other way? Nobody could actually measure it (the longitude problem again), so in 1529 the two crowns just settled it with cash — Spain, broke from its wars, sold its claim to the Moluccas to Portugal for 350,000 gold ducats and accepted a new line drawn on the far side of the planet. With that, the entire globe was formally carved between two kingdoms from pole to pole, the first time in history humans had divided the whole Earth between themselves on paper. Spain even kept an escape clause to reclaim the islands if it could ever prove they really lay on its side — proof that everyone knew the line was a guess."
+        }
+      ],
       "wikiSlug": "Treaty_of_Zaragoza",
       "tier": 3,
       "tags": [],
@@ -612,7 +936,13 @@
       "id": "evt-age-of-exploration-055",
       "label": "Cortés lands in Mexico",
       "year": 1519,
-      "description": "Hernán Cortés defied his governor, burned his boats, and marched inland from the Gulf coast toward the Aztec capital with a few hundred men — the most consequential gamble in the conquest of the Americas.",
+      "description": "Hernán Cortés defied his governor, scuttled his boats, and marched inland from the Gulf coast toward the Aztec capital with a few hundred men — the most consequential gamble in the conquest of the Americas.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He had no legal authority for any of it. Cortés sailed from Cuba in open defiance of the governor who'd tried to recall him, which made him a freelance adventurer betting that success would retroactively turn treason into heroism — and failure would simply kill him. To kill any thought of retreat among his ~500 men, he had his ships run aground and stripped (the famous \"burned his boats,\" though he scuttled rather than torched them): no way home but forward, conquest or death. Against an empire of millions he had a few hundred men, sixteen horses, and a handful of guns. What actually beat the Aztecs was not that hardware — it was politics. Cortés's real weapons were an interpreter who let him talk to anyone in Mexico, and an alliance with tens of thousands of native warriors who hated the Aztecs more than they feared the strangers."
+        }
+      ],
       "wikiSlug": "Hernán_Cortés",
       "tier": 1,
       "tags": [],
@@ -623,6 +953,12 @@
       "label": "Tenochtitlan, the island metropolis",
       "year": 1519,
       "description": "The Aztec capital Tenochtitlan was a city of perhaps 200,000 on an island laced with causeways and canals — larger than any city in Spain, which left the conquistadors gaping.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was an engineering marvel built on a lake. The city sat on an island fed by chinampas — \"floating gardens,\" rectangular plots of incredibly fertile reclaimed land laced with canals — and was joined to the mainland by causeways that Bernal Díaz said were wide enough for ten horses abreast, with fresh water piped in by a double aqueduct (one channel always running while the other was cleaned). At perhaps 200,000 people it dwarfed any city in Spain, rivaled in Europe only by the likes of Paris and Constantinople. The Spanish, descending toward the gleaming lake-city from the mountains, wrote that some of the soldiers wondered whether they were dreaming. And it was clean: an army of sweepers kept the streets spotless and human waste was collected and recycled as fertilizer — a sanitation system far beyond the reeking cities the conquistadors had come from."
+        }
+      ],
       "wikiSlug": "Tenochtitlan",
       "tier": 2,
       "tags": [],
@@ -633,6 +969,12 @@
       "label": "Moctezuma II meets the Spanish",
       "year": 1519,
       "description": "The Aztec emperor Moctezuma II received Cortés in his capital and was soon taken hostage in his own palace — a ruler of millions undone by a few hundred strangers and his own indecision.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What Moctezuma was actually thinking is one of history's great unknowns, because every account we have is later and mostly Spanish. The famous story that he believed Cortés might be the returning god Quetzalcoatl is now widely doubted by scholars as a tale shaped after the fact — convenient for explaining why a ruler of millions let a few hundred strangers into his city and was then taken hostage in his own palace. Cortés's gamble was to rule the empire through its captive emperor, and it held for months before collapsing. Moctezuma's death in the chaos is itself disputed: Spanish sources say his own enraged people stoned him for cooperating with the invaders; some accounts hint the Spanish killed him once he'd outlived his usefulness. Even the manner of the emperor's death is a casualty of the one-sided record."
+        }
+      ],
       "wikiSlug": "Moctezuma_II",
       "tier": 2,
       "tags": [],
@@ -643,6 +985,12 @@
       "label": "La Malinche, interpreter and power broker",
       "year": 1519,
       "description": "An enslaved Nahua woman the Spanish called Doña Marina — La Malinche — became Cortés's interpreter, strategist, and the indispensable bridge without whom the conquest could not have happened.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The conquest of Mexico ran through a translation chain, and she was its crucial link. Born into a Nahuatl-speaking noble family, sold into slavery among the Maya, she spoke both Nahuatl (the Aztec language) and Maya; handed to Cortés as a captive, she rapidly learned Spanish too and became his interpreter, guide to Mexican politics, cultural translator, strategist, and the mother of his child. The blunt fact is that the man credited with conquering Mexico could not have spoken a single word to anyone in it without her. Her legacy is fiercely contested: in Mexico her name became a byword for betrayal — malinchismo still means selling out your own people to foreigners — yet she was an enslaved woman navigating an impossible situation with extraordinary skill, and recent reckonings see her as a survivor and a power in her own right rather than simply a traitor."
+        }
+      ],
       "wikiSlug": "La_Malinche",
       "tier": 2,
       "tags": [],
@@ -653,6 +1001,12 @@
       "label": "The Tlaxcalan alliance",
       "year": 1519,
       "description": "Cortés's real army was indigenous: the Tlaxcala, longtime enemies of the Aztecs, supplied tens of thousands of warriors — the conquest was as much a native rebellion as a Spanish invasion.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tlaxcala were a fiercely independent people the Aztecs had never conquered — instead they were surrounded, raided for sacrificial victims, and economically strangled, and they hated the empire with a century's accumulated venom. They first fought the Spanish hard, then grasped what these strangers could be: a spark. The force that ultimately stormed Tenochtitlan was overwhelmingly Tlaxcalan and other native warriors, with the few hundred Spaniards a small armored core. This is the single most buried fact about the conquest — it was, in large part, a rebellion of the Aztec empire's own oppressed subjects, who used the Spanish at least as much as they were used. The Tlaxcalans spent the next centuries pointing this out, winning special privileges from the crown for their role; their descendants still insist, with some justice, that they were not the conquered but the co-conquerors who then got written out of the story."
+        }
+      ],
       "wikiSlug": "Tlaxcala",
       "tier": 2,
       "tags": [],
@@ -664,6 +1018,12 @@
       "label": "Smallpox sweeps the Americas",
       "year": 1520,
       "description": "An Old World disease the Americas had never met tore through Tenochtitlan and beyond, killing perhaps a third of the population in months — the invisible weapon that made conquest possible.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It arrived in 1520, in the middle of the war, carried by an infected member of a Spanish party — and it changed everything by killing selectively. The peoples of the Americas had been isolated for some ten thousand years and had never met smallpox, measles, or influenza, the crowd diseases that had brewed for millennia among the densely populated, livestock-keeping Old World, where survivors carried partial resistance. Native Americans had none. So in Tenochtitlan smallpox didn't cause an epidemic, it caused an apocalypse: it carried off the new emperor, gutted the leadership, and killed the experienced warriors, while the Spanish — immune from childhood exposure — walked through the dying city untouched, which the survivors could only read as proof the strangers' god was stronger. This is the truth the courage-and-steel myth exists to hide: what actually emptied the cities and broke the empires of the Americas was disease, not swords."
+        }
+      ],
       "wikiSlug": "Smallpox",
       "tier": 1,
       "tags": [],
@@ -674,6 +1034,12 @@
       "label": "The Fall of Tenochtitlan",
       "year": 1521,
       "description": "After a brutal siege, the Aztec capital fell to Cortés and his indigenous allies; the last emperor Cuauhtémoc was captured, and an empire of millions became the core of New Spain.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cortés took the city the slow, grinding way. He cut the aqueduct that gave Tenochtitlan its fresh water, built small ships to seize control of the lake and starve the island, and then ground inward causeway by causeway, block by block, over months — with his huge indigenous army doing most of the fighting and dying. The Mexica resisted from the rubble of their own temples with a courage the Spanish chroniclers recorded in awe, even as plague and starvation hollowed them out. When the city fell in August 1521 it was a ruin, its people dead, fled, or enslaved; the last emperor, Cuauhtémoc, was captured and later tortured for gold. The destruction was so complete that the city which had stunned the Spanish into wondering if they were dreaming simply ceased to exist — they would build their own capital directly on top of its bones."
+        }
+      ],
       "wikiSlug": "Fall_of_Tenochtitlan",
       "tier": 1,
       "tags": [],
@@ -685,6 +1051,12 @@
       "year": 1532,
       "endYear": 1533,
       "description": "Francisco Pizarro ambushed and ransomed the Inca emperor Atahualpa at Cajamarca, then took Cusco — toppling the largest empire in the Americas with under 200 men, helped by disease and Inca civil war.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Inca Empire was no horde — it was a marvel of organization running 2,500 miles down the Andes, binding perhaps ten million people of dozens of languages under a single god-emperor. It managed this without writing (records were kept on the quipu, knotted colored cords), without money, without the wheel, and without any draft animal bigger than a llama. What it had instead was logistics: roughly 25,000 miles of paved mountain roads, rope bridges over Andean gorges, relay runners with conch-shell trumpets who could move a message 150 miles in a day, and storehouses stocked against famine. But all of it ran top-down through the person of the emperor — which was the fatal flaw Pizarro exploited. Seize the one man at the top, and the whole superbly engineered body could be paralyzed in an afternoon."
+        }
+      ],
       "wikiSlug": "Spanish_conquest_of_the_Inca_Empire",
       "tier": 1,
       "tags": [],
@@ -695,6 +1067,12 @@
       "label": "Atahualpa's ransom and execution",
       "year": 1533,
       "description": "Atahualpa filled a room with gold and twice with silver to buy his freedom; the Spanish took the treasure and garrotted him anyway — the moment that broke the Inca state's legitimacy.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Atahualpa, quickly grasping that these strangers were maddened by gold above all, offered the largest ransom in history: he would fill the room he was held in — about 22 feet by 17 — once with gold and twice with silver, as high as he could reach. For months the treasure of the empire flowed in and the Spanish melted it down on the spot, ultimately something like 24 tons of gold and silver. Then they took it all and strangled him anyway in 1533, after a sham trial — granting him, as a final \"mercy\" for accepting baptism, death by garrote rather than burning. The betrayal was as total as it was profitable, and it broke the sacred legitimacy of the whole Inca state: the living god at the center of everything had been ransomed like a thief and murdered for cooperating."
+        }
+      ],
       "wikiSlug": "Atahualpa",
       "tier": 2,
       "tags": [],
@@ -705,6 +1083,12 @@
       "label": "Manco Inca's great rebellion",
       "year": 1536,
       "description": "The puppet emperor Manco Inca Yupanqui turned on the Spanish, besieging Cusco and Lima and founding a rump Inca state at Vilcabamba that held out for nearly forty years — conquest was never simply finished.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pizarro installed Manco as a compliant puppet, then let his men loot, abuse, and dishonor the new emperor and his family until Manco had had enough. In 1536 he escaped Cusco and raised a vast rebellion — by some accounts a hundred thousand or more warriors — that besieged the Spanish garrison in Cusco and nearly wiped it out, while a second army assaulted the new coastal capital at Lima. The Inca even adapted on the fly, learning to use captured horses and Spanish weapons. The siege ultimately failed against cavalry, steel, reinforcements, and — once again — anti-Inca native allies. But Manco wasn't destroyed: he withdrew into the jungle-cloaked mountains and founded a defiant Inca state-in-exile that would outlast him by decades. The lesson the triumphant story buries is that the conquest was never a clean fall — it was a forty-year war."
+        }
+      ],
       "wikiSlug": "Manco_Inca_Yupanqui",
       "tier": 3,
       "tags": [],
@@ -715,6 +1099,12 @@
       "label": "The silver mountain of Potosí",
       "year": 1545,
       "description": "Spaniards found a mountain of nearly pure silver at Potosí in the Andes; the boomtown around it became one of the world's largest cities, its wealth dug by conscripted Andean labor.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Cerro Rico, the \"Rich Hill,\" was so freakishly veined with silver that for most of the 1600s this one mountain produced around 60 percent of all the silver mined on Earth. The city that erupted around it was one of the most improbable on the planet: over 100,000 people clinging to a frozen slope at nearly 13,000 feet, where almost nothing grows and the thin air leaves newcomers gasping, existing for the single purpose of tearing metal out of the hill. It got so rich that the Spanish phrase vale un Potosí — \"worth a Potosí\" — became the way to say \"a priceless fortune.\" The silver of this one mountain bankrolled the Spanish empire, funded its endless wars, paid for Chinese silk, and touched every economy on the planet — all of it dug by the conscripted bodies of Andean villagers in a place the locals said ate men."
+        }
+      ],
       "wikiSlug": "Potosí",
       "tier": 1,
       "tags": [],
@@ -725,6 +1115,12 @@
       "label": "The mita labor draft",
       "year": 1573,
       "description": "Spain bent an old Inca labor obligation, the mita, into a brutal rotating draft that fed Andean villagers into the deadly Potosí mines — the human engine of the silver economy.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The cruelty is in the corruption of something that had once been almost humane. Under the Inca, the mita was a rotating labor tax — your community owed the state a stint of work on the roads or fields, and in return the state fed you and carried you through famine. Around 1573 the Spanish kept the name and inverted the meaning: now sixteen Andean provinces, some over a thousand miles away, had to send a quota of men — roughly 13,500 at any time — to labor in the Potosí silver mines and the mercury mines that refined the ore. Mercury is slow poison, and the work was so deadly that villages mourned conscripts as good as dead before they left. Estimates of the total who died in the mines over the colonial centuries run into the millions. The wealth that greased the first global economy was dug, quite literally, with conscripted lives."
+        }
+      ],
       "wikiSlug": "Inca_Empire",
       "tier": 3,
       "tags": [],
@@ -736,6 +1132,12 @@
       "label": "Las Casas defends the indigenous",
       "year": 1542,
       "description": "The Dominican friar Bartolomé de las Casas, a former encomienda holder turned fierce critic, pressed the crown to protect indigenous people and produced searing accounts of Spanish cruelty.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He began as part of the problem: a colonist on Hispaniola who held his own encomienda — a grant of forced native labor — before a profound crisis of conscience around 1514 made him give it up, become a friar, and spend the next fifty years as the fiercest advocate for indigenous people Europe produced. He crossed the Atlantic again and again to lobby the king in person and wrote a deliberately horrifying catalog of massacres, the Short Account of the Destruction of the Indies, to shock the crown into acting. But his conscience had a damning blind spot: early on he proposed importing enslaved Africans to spare the Native Americans the labor. He came to bitterly repent it, writing that he'd realized Black slavery was \"as unjust as Indian slavery\" — but the moment shows how the era's moral awakening for one people fed the enslavement of another."
+        }
+      ],
       "wikiSlug": "Bartolomé_de_las_Casas",
       "tier": 2,
       "tags": [],
@@ -746,6 +1148,12 @@
       "label": "The New Laws",
       "year": 1542,
       "description": "Pushed by Las Casas, the crown issued the New Laws curbing the encomienda and banning indigenous slavery — sparking near-rebellion among colonists and proving how little the crown controlled its conquerors.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "On paper the New Laws of 1542 were genuinely radical: they banned the enslavement of indigenous people, curbed the encomienda, and ordered that existing grants die out rather than pass to heirs. On the ground they revealed how little a king an ocean away actually ruled his own conquerors. In Peru the colonists rose in outright armed rebellion against the laws, and the first viceroy sent to enforce them was defeated and beheaded by the rebels. The crown was forced to back down and water the laws down to almost nothing. It's a sobering measure of the limits of conscience in this story: the most powerful monarchy on Earth, having decided in law that the conquest's cruelties must stop, could not make its own settlers obey — because the men three thousand miles away with the swords and the silver simply refused."
+        }
+      ],
       "wikiSlug": "New_Laws",
       "tier": 3,
       "tags": [],
@@ -756,6 +1164,12 @@
       "label": "The Valladolid debate",
       "year": 1550,
       "description": "Spain staged a formal debate over whether indigenous Americans were rational humans with rights — Las Casas against Sepúlveda — perhaps the first European argument over the morality of empire itself.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Picture it: in 1550 the most powerful empire on Earth officially paused (in theory) its own conquests and convened a panel to argue whether the people it was conquering were fully human. Las Casas said yes — rational beings with sophisticated societies, entitled to their freedom and their lands. Against him stood the scholar Sepúlveda, leaning on Aristotle's two-thousand-year-old doctrine of \"natural slavery\" to argue that some peoples are by nature fit only to be ruled. No clear verdict was ever issued, and on the ground the exploitation rolled on regardless. But the Valladolid debate is often called the first formal European argument over human rights and the morality of empire — and that the question \"is this monstrous?\" was argued at the highest level, by the empire's own churchmen, is one of the few genuinely redeeming things in this whole dark stretch of history."
+        }
+      ],
       "wikiSlug": "Valladolid_debate",
       "tier": 3,
       "tags": [],
@@ -767,6 +1181,12 @@
       "label": "De Soto crosses the Mississippi",
       "year": 1541,
       "description": "Hernando de Soto's expedition cut through the chiefdoms of the American Southeast and became the first Europeans to record the Mississippi River — leaving epidemics that gutted the societies they passed.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "De Soto's men were the first and very nearly the last Europeans to see the great Mississippian chiefdoms of the Southeast at their height — densely populated societies of mound-cities along the rivers. By the time the next Europeans arrived, generations later, those societies had largely collapsed, gutted by the diseases the expedition itself helped seed. De Soto never found the gold he chased; he died of fever on the banks of the Mississippi in 1542. His men, having let the locals believe their leader was a deathless sun-god, then faced a problem: they couldn't let anyone see him die. So they secretly weighted his body and sank it in the great river he had \"discovered\" — hiding his corpse in the Mississippi to keep the fiction of his immortality alive."
+        }
+      ],
       "wikiSlug": "Hernando_de_Soto",
       "tier": 3,
       "tags": [],
@@ -777,6 +1197,12 @@
       "label": "Coronado searches the Southwest",
       "year": 1540,
       "description": "Chasing rumored golden cities, Francisco Vázquez de Coronado marched through the deserts of the future American Southwest, reaching the Grand Canyon and the Great Plains — and finding no gold.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He spent a fortune and two years chasing cities that didn't exist. Lured by tales of the gold-rich Seven Cities of Cíbola, Coronado led a huge expedition into the Southwest in 1540 and found, instead of a golden metropolis, an ordinary adobe pueblo. A captive guide his men called \"the Turk\" then spun a new story — a fabulously rich land called Quivira out on the plains — and led them a thousand miles into what is now Kansas, where there was nothing but grass-thatched villages; the guide, it turned out, had invented the place hoping to strand the Spanish in the wilderness to die, and was strangled for it. Coronado came home broke and disgraced, having found no gold at all. What his men actually found, and shrugged at, was the Grand Canyon — the first Europeans to stand on its rim, unimpressed because it wasn't made of treasure."
+        }
+      ],
       "wikiSlug": "Francisco_Vázquez_de_Coronado",
       "tier": 3,
       "tags": [],
@@ -787,6 +1213,12 @@
       "label": "The Casa de Contratación controls the trade",
       "year": 1503,
       "description": "Spain set up the Casa de Contratación in Seville to license every ship, register every cargo, and hoard every chart — the bureaucratic nerve center of the Atlantic empire.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Spain tried to run two continents' worth of trade through a single office, and for a while it worked. The Casa de Contratación licensed every ship, taxed every cargo, trained and examined pilots, and guarded a master chart called the padrón real that it updated as new coasts were found — a living, secret map of the known world that no captain was allowed to copy. By law, all American trade had to pass through Seville (and only Seville), which made the inland river-port absurdly rich and turned it into the gateway of an empire. The whole apparatus was an early experiment in something we take for granted now — a state collecting standardized data, registering ships, controlling information — built five centuries ago to keep a king's grip on a flow of silver coming from the far side of the world."
+        }
+      ],
       "wikiSlug": "Casa_de_Contratación",
       "tier": 3,
       "tags": [],
@@ -797,6 +1229,12 @@
       "label": "The Society of Jesus is founded",
       "year": 1540,
       "description": "Ignatius of Loyola founded the Jesuits, a disciplined missionary order that became the spearhead of Catholic expansion from Mexico to Japan — soldiers of God for a global church.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Loyola was a soldier before he was a saint — a Basque knight whose leg was shattered by a cannonball, and who, bedridden and bored with only religious books to read, converted into a kind of holy general. It shows in the order he built: not monks withdrawn behind walls but a mobile, disciplined, intellectually formidable corps, trained for years, sworn to obedience, and deployed wherever the Church's expansion needed them. They became the elite of the missionary effort, running schools and missions from Brazil to Goa to China to Japan, learning local languages and studying local cultures with a seriousness no missionaries had shown before — and converting the powerful from the top down. They are the reason there are old Catholic communities scattered from the Andes to the Philippines today."
+        }
+      ],
       "wikiSlug": "Society_of_Jesus",
       "tier": 2,
       "tags": [],
@@ -808,6 +1246,12 @@
       "label": "Francis Xavier reaches Japan",
       "year": 1549,
       "description": "The Jesuit Francis Xavier landed in Japan and launched the first sustained Christian mission in East Asia, the start of a Catholic 'Christian century' that Japan would later violently shut down.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hold the timeline next to itself: in 1415 Europeans were too frightened to sail past a headland in Morocco; by 1549 a Spanish priest was preaching in Japan, the literal far side of the planet, reached along a chain of Portuguese trading posts strung clear across the Indian Ocean and the China coast. Xavier opened what's called Japan's \"Christian century,\" in which perhaps 300,000 Japanese converted — before the authorities turned on the foreign faith with terrible violence. He died of fever on an island off China, still trying to get into the closed Ming empire. And his story has a strange afterlife: his body was found uncorrupted, shipped to Goa, and is still enshrined there, venerated as a relic — a missionary who circled half the world in life and, in death, never came home."
+        }
+      ],
       "wikiSlug": "Francis_Xavier",
       "tier": 2,
       "tags": [],
@@ -818,6 +1262,12 @@
       "label": "The Nanban trade with Japan",
       "year": 1543,
       "description": "Portuguese ships reached Japan, opening the 'southern barbarian' trade that brought firearms, silk, and Christianity — and made the Portuguese the middlemen between Ming China and silver-rich Japan.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nanban means \"southern barbarians,\" the Japanese name for the strangers who arrived from the south — and the most consequential thing they brought wasn't silk or the cross but the gun. When Portuguese castaways landed on Tanegashima island in 1543 carrying matchlock arquebuses, the local lord bought two and set his smiths to copying them; within a decade Japan, then locked in civil war, was reportedly producing hundreds of thousands of the new firearms. They transformed Japanese warfare almost overnight: a peasant footsoldier could be trained to fire a matchlock in weeks, against the years a samurai spent mastering the bow and sword, and massed gun volleys soon decided major battles. A storm-blown Portuguese ship handed warring Japan a weapon that helped reshape who held power across the whole country."
+        }
+      ],
       "wikiSlug": "Nanban_trade",
       "tier": 3,
       "tags": [],
@@ -828,6 +1278,12 @@
       "label": "Portugal leases Macau",
       "year": 1557,
       "description": "Ming China granted the Portuguese a foothold at Macau, the first permanent European settlement on the China coast and the hinge of the lucrative China-Japan silk-for-silver run.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Macau was the perfect middleman's perch. Ming China had banned its own merchants from trading directly with Japan, so the Portuguese — holding this small leased peninsula for an annual rent of 500 taels of silver — slipped into the gap, carrying Chinese silk to silver-rich Japan and Japanese silver back to China and pocketing a fortune on every run. The arrangement proved astonishingly durable. Macau remained Portuguese for 442 years, all the way until it was finally handed back to China in 1999 — which made it both the first permanent European settlement on the China coast and the very last European colony in Asia to close. A trading post opened to broker silk for silver in 1557 outlived the entire age of empire it belonged to."
+        }
+      ],
       "wikiSlug": "Macau",
       "tier": 3,
       "tags": [],
@@ -838,6 +1294,12 @@
       "label": "The Manila galleon links the Pacific",
       "year": 1565,
       "description": "Spain opened the Manila galleon route, hauling Mexican silver west to the Philippines and Chinese silk and porcelain back to Acapulco — the first regular trade across the Pacific, closing the global loop.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the moment the global loop actually closed, and the logic was beautiful. China, the largest economy on Earth, was switching its money and taxes to silver and would pay far more for it than the Americas would — so the galleons carried Mexican and Peruvian silver west across the Pacific to Manila, traded it to Chinese merchants for silk and porcelain, and carried those back east to Acapulco and on to Europe. As much as a third of all the silver mined in the New World ended up flowing across the Pacific into Asia. The route ran annually from 1565 to 1815 — two and a half centuries, the longest-lived shipping line in history — and it meant that, for the first time, the demand of Chinese taxpayers half a world away helped set the price that drove men into the mines at Potosí. The planet had become one connected market."
+        }
+      ],
       "wikiSlug": "Manila_galleon",
       "tier": 1,
       "tags": [],
@@ -848,6 +1310,12 @@
       "label": "The Spanish dollar, the first world money",
       "year": 1570,
       "description": "The silver 'piece of eight' minted from American silver circulated from Europe to China — the closest thing the early-modern world had to a global currency, and the lubricant of the new economy.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "You are still using its descendants. The piece of eight — eight reales, struck from Andean silver — was so abundant, pure, and uniform that it became the first true world money, spendable from London to Canton, where Chinese merchants stamped it with \"chop marks\" to vouch it was real. It stayed legal tender in the United States until 1857. Two of its habits survive in plain sight: Americans still call a quarter \"two bits\" because people physically cut the coin into eight wedges to make change, and the dollar sign \"$\" most likely descends from the two Pillars of Hercules with an S-shaped ribbon printed on the Spanish coin. The word \"dollar\" itself, and the very symbol you type for money, are fossils of a silver coin minted in colonial Mexico and Bolivia."
+        }
+      ],
       "wikiSlug": "Spanish_dollar",
       "tier": 2,
       "tags": [],
@@ -858,6 +1326,12 @@
       "label": "John Cabot reaches Newfoundland",
       "year": 1497,
       "description": "The Venetian John Cabot, sailing for Henry VII of England, made landfall in North America and reported seas so thick with cod you could scoop them in baskets — England's first toehold and the future fishery.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cabot found no gold, but he found something that fed Europe for centuries. His men reported the seas off Newfoundland so thick with cod that, as a Milanese diplomat recorded the boast, the fish could be taken \"not only with the net, but in baskets let down with a stone\" — a sea so packed the ships could barely push through. That fishery drew European boats across the Atlantic for the next four hundred years and seeded the northern colonies. Cabot himself didn't enjoy the success: he set out again in 1498 with five ships and simply vanished from the record. For five hundred years it was assumed he was lost at sea, though recent research hints he may have made it home and quietly died soon after. England's first explorer of the New World disappeared into it."
+        }
+      ],
       "wikiSlug": "John_Cabot",
       "tier": 2,
       "tags": [],
@@ -868,6 +1342,12 @@
       "label": "Verrazzano maps the Atlantic seaboard",
       "year": 1524,
       "description": "Giovanni da Verrazzano, sailing for France, ran the whole eastern coast of North America from the Carolinas to Newfoundland, the first European to chart it and to enter what is now New York harbor.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Verrazzano was the first European to sail into New York harbor — in 1524, eighty-five years before Henry Hudson, for whom the river is named — and the great bridge across the harbor's mouth carries his name today (long misspelled with one 'z' until New York officially fixed it in 2018). He was also fooled by one of the age's great geographic mirages: sailing past the long, thin sandbars of North Carolina's Outer Banks, he glimpsed open water beyond them and concluded it was the Pacific Ocean, with Asia just across a narrow neck of land. The error, drawn onto influential maps, gave the world a phantom \"Sea of Verrazzano\" slicing into North America that explorers chased for years. His own end was grim: a few voyages later, he was reportedly killed and eaten by Carib people on a Caribbean island."
+        }
+      ],
       "wikiSlug": "Giovanni_da_Verrazzano",
       "tier": 3,
       "tags": [],
@@ -879,6 +1359,12 @@
       "year": 1534,
       "endYear": 1542,
       "description": "Jacques Cartier pushed up the St. Lawrence River for France, naming the land 'Canada' from a local word and laying the groundwork for a French empire in the north.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A country got its name from a misunderstanding. The Iroquoian word kanata simply meant \"village\" or \"settlement\" — and when locals used it to point Cartier toward their town of Stadacona (modern Quebec City), he took it as the name of the whole region. It stuck, and grew, until it labeled the second-largest country on Earth. Cartier also got fooled twice over by gold fever: he carried home barrels of what he was sure were diamonds and gold, only for them to be exposed in France as worthless quartz and iron pyrite — \"fool's gold\" — birthing the mocking French phrase faux comme un diamant du Canada, \"as false as a Canadian diamond.\" His search for riches failed, but the village-word he misheard outlasted every empire that came after."
+        }
+      ],
       "wikiSlug": "Jacques_Cartier",
       "tier": 3,
       "tags": [],
@@ -890,6 +1376,12 @@
       "year": 1577,
       "endYear": 1580,
       "description": "Francis Drake completed the second circumnavigation of the globe for England, raiding Spanish silver ports up the Pacific coast and returning so laden with loot it paid off the crown's debts.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To Spain he was a terrorist — they called him El Draque, \"the Dragon,\" and put a price on his head. His 1577–80 voyage was the second circumnavigation after Magellan's, and the first whose commander actually survived the whole trip. The genius of it was where he struck: he slipped through the Strait of Magellan and fell on Spain's Pacific silver ports, which had never imagined an enemy could reach them and sat utterly undefended. He seized so much treasure that when he limped home, the loot reportedly returned something like a 4,700 percent profit to his backers and, by some accounts, more than covered the entire debt of the English crown. Queen Elizabeth I — who had quietly invested — knighted him on the deck of his own ship. State-sponsored piracy had just become English foreign policy."
+        }
+      ],
       "wikiSlug": "Francis_Drake",
       "tier": 2,
       "tags": [],
@@ -900,6 +1392,12 @@
       "label": "The Spanish Armada fails",
       "year": 1588,
       "description": "Philip II's great invasion fleet against England was scattered by guns and storms — a blow to Spanish prestige that signaled the Atlantic was no longer an Iberian lake.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Armada of 1588 was an enormous thing — some 130 ships meant to escort an invasion army across the Channel to topple the Protestant Elizabeth and return England to Catholicism. It failed partly to the smaller, nimbler, more heavily gunned English ships and a terrifying night attack with fireships that scattered its tight formation — but mostly to the weather, the great wild card of the age of sail. The broken fleet was driven on a desperate flight around the storm-lashed coasts of Scotland and Ireland, where ship after ship was wrecked; barely half made it home. Elizabeth struck a medal reading \"God blew, and they were scattered.\" It did not end Spanish power — Spain stayed the greatest empire on Earth for decades more — but it shattered the myth of Spanish invincibility and announced that the Atlantic was no longer an Iberian lake."
+        }
+      ],
       "wikiSlug": "Spanish_Armada",
       "tier": 2,
       "tags": [],
@@ -910,6 +1408,12 @@
       "label": "The lost colony of Roanoke",
       "year": 1587,
       "description": "Walter Raleigh's settlers vanished from Roanoke Island, leaving only the word 'CROATOAN' carved on a post — England's first American colony and one of history's most haunting unsolved disappearances.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The detail that makes it haunting: among the lost settlers was Virginia Dare, the first English child born in the Americas, just days old when her grandfather, the colony's governor John White, sailed back to England for supplies in 1587. War with Spain — the Armada crisis — tied up every English ship, and White couldn't return for three years. When he finally did, in 1590, the settlement was empty: houses dismantled, no bodies, no sign of a struggle, and a single word, CROATOAN, carved into a post (the name of a friendly nearby island and people). The colonists had pre-agreed to leave a carved cross if they fled under duress; there was no cross. The likeliest answer is that they were absorbed into a neighboring indigenous community — but no one has ever proven it, and England's first American colony simply evaporated."
+        }
+      ],
       "wikiSlug": "Roanoke_Colony",
       "tier": 3,
       "tags": [],
@@ -920,6 +1424,12 @@
       "label": "The English East India Company",
       "year": 1600,
       "description": "London merchants chartered the East India Company to break into the Asian trade — a private company with the right to wage war that would eventually rule India.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It began in 1600 as a modest band of London merchants pooling money for a few spice voyages, granted a royal monopoly on English trade east of the Cape. Nobody at the founding could have imagined what it would become: a private corporation that, over the next two centuries, raised its own armies of hundreds of thousands of soldiers, fought wars, minted coins, collected taxes, and ended up governing the entire Indian subcontinent — tens of millions of people ruled, for profit, by a company headquartered in a London office. It is the ancestor of the modern multinational, and the cautionary tale at the root of the whole genre: a business with the powers of a state, answerable mainly to shareholders, that grew so vast the British government eventually had to nationalize it and rule India directly. The corporation that conquered a subcontinent started as a stock subscription."
+        }
+      ],
       "wikiSlug": "East_India_Company",
       "tier": 2,
       "tags": [],
@@ -930,6 +1440,12 @@
       "label": "The Dutch East India Company",
       "year": 1602,
       "description": "The Dutch fused their merchant ventures into the VOC, the world's first publicly traded company — and a state-within-a-state armed with fleets, forts, and the power to make war and treaties.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The VOC of 1602 was a genuine first: its charter let any citizen of the Dutch Republic buy shares — 1,143 people bought in at the founding — and trade them on what became the Amsterdam Stock Exchange, inventing the publicly traded company and the stock market in one stroke. It was also a state in corporate clothing, empowered to build forts, raise armies, mint money, sign treaties, and wage war in pursuit of dividends. And it grew almost incomprehensibly rich: at its 1637 peak (the same speculative frenzy that produced tulip mania), the VOC's valuation, adjusted to today's money, is often estimated in the trillions — by some reckonings worth more than today's largest tech giants combined. The modern world of shares, exchanges, and corporations that act like governments was, in a real sense, born in Amsterdam to chase the profits of the spice trade."
+        }
+      ],
       "wikiSlug": "Dutch_East_India_Company",
       "tier": 1,
       "tags": [],
@@ -940,6 +1456,12 @@
       "label": "Jamestown takes root",
       "year": 1607,
       "description": "The Virginia Company planted Jamestown on a malarial river bank — England's first permanent American colony, which nearly starved before tobacco gave it a reason to survive.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It very nearly didn't survive at all. The site was a malarial, brackish riverbank, and the early settlers — too many of them gentlemen adventurers hunting gold rather than men willing to farm — were hammered by disease, starvation, and conflict with the powerful Powhatan confederacy whose land it was. The winter of 1609–10, remembered as the \"Starving Time,\" was so desperate that some colonists resorted to cannibalism; archaeologists have since found the butchered skull of a teenage girl to confirm it. Roughly four in five of the early arrivals died. What finally saved Jamestown wasn't gold but a weed: a settler named John Rolfe began cultivating a sweet strain of tobacco that Europe couldn't get enough of, and the colony that nearly starved became the seed of English America — built, in the end, on a cash crop and the enslaved and indentured labor to grow it."
+        }
+      ],
       "wikiSlug": "Jamestown,_Virginia",
       "tier": 2,
       "tags": [],
@@ -950,6 +1472,12 @@
       "label": "Champlain founds Quebec",
       "year": 1608,
       "description": "Samuel de Champlain established Quebec on the St. Lawrence, anchoring New France and a fur-trade empire built less on conquest than on alliances with indigenous nations.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "New France ran on a different logic from the silver of Spanish America or the plantations of the south: it ran on beaver. Indigenous hunters trapped beaver across the vast northern forests and traded the pelts to the French for metal goods, cloth, and guns — and the furs, felted into the fashionable hats every European gentleman wanted, were the entire reason the colony existed. That economy made the French dependent on native alliances rather than conquest; they needed indigenous nations as partners, guides, and suppliers. But Champlain made one fateful choice early: to cement ties with his Algonquin and Huron allies, he joined their war parties and fired on the Haudenosaunee (Iroquois) with his arquebus. The resulting century of enmity between the Iroquois Confederacy and the French would shape the entire balance of power in northeastern North America."
+        }
+      ],
       "wikiSlug": "Samuel_de_Champlain",
       "tier": 3,
       "tags": [],
@@ -962,6 +1490,12 @@
       "year": 1609,
       "endYear": 1611,
       "description": "Henry Hudson probed the river and bay that bear his name searching for a shortcut to Asia; his mutinous crew set him adrift to die — the obsession with a Northwest Passage claiming another life.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hudson chased the shortcut to Asia harder than almost anyone, and it killed him. On his last voyage, in 1610–11, he pushed into the vast bay that now bears his name, became convinced he'd nearly found the passage, and got his ship frozen in for a brutal winter. When the ice broke in spring, he announced they'd keep exploring rather than sail home — and his starving, terrified crew snapped. On a June day in 1611 they bundled Hudson, his teenage son, and seven sick or loyal men into a small open boat, cut it loose, and sailed away. None of the nine were ever seen again. The mutineers who made it home were, remarkably, never punished — the knowledge of the new coast they carried back was apparently worth more to England than justice for the captain they'd marooned."
+        }
+      ],
       "wikiSlug": "Henry_Hudson",
       "tier": 3,
       "tags": [],
@@ -972,6 +1506,12 @@
       "label": "New Amsterdam on Manhattan",
       "year": 1624,
       "description": "The Dutch West India Company founded New Amsterdam at the tip of Manhattan, a fur-trading port that would, four decades later and under English rule, become New York.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous story that the Dutch \"bought Manhattan for $24 in beads\" comes from a single 1626 letter mentioning goods worth 60 guilders; the real transaction was murkier, and the Lenape who \"sold\" it almost certainly understood it as sharing use of the land, not surrendering it forever. The stranger fact is how the Dutch let it go. When the English seized New Amsterdam in 1664 and renamed it New York, the Dutch could have fought to keep it — but in the 1667 peace they chose instead to keep a tiny, far-off nutmeg island in the East Indies called Run, trading away Manhattan to lock up their spice monopoly. At the time it looked shrewd: an island of priceless nutmeg for a muddy fur-trading town. It is, in hindsight, perhaps the worst real-estate swap in history."
+        }
+      ],
       "wikiSlug": "New_Amsterdam",
       "tier": 3,
       "tags": [],
@@ -982,6 +1522,12 @@
       "label": "Coen and the Banda massacre",
       "year": 1621,
       "description": "To monopolize nutmeg, the VOC governor Jan Pieterszoon Coen all but exterminated the people of the Banda Islands — a chilling demonstration that the spice empire was built on calculated atrocity.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Banda Islands were the only place on Earth nutmeg grew, and the Bandanese kept stubbornly selling it to other buyers — so in 1621 Coen solved the problem by erasing them. Of a population of perhaps 15,000, only around a thousand survived; the rest were killed, starved, enslaved, or driven out, with captured leaders beheaded and quartered by hired Japanese swordsmen. The emptied islands were then repopulated with enslaved laborers to work the nutmeg groves under VOC control. It is the spice empire's logic stripped to the bone — a corporation committing genocide to control the price of a seasoning. The chilling coda: Coen is still memorialized with statues in his Dutch hometown, and the argument over whether to keep honoring the man who annihilated a people for nutmeg continues in the Netherlands today."
+        }
+      ],
       "wikiSlug": "Jan_Pieterszoon_Coen",
       "tier": 2,
       "tags": [],
@@ -992,6 +1538,12 @@
       "label": "The Dutch take the Cape",
       "year": 1652,
       "description": "Jan van Riebeeck planted a VOC resupply station at the Cape of Good Hope, displacing the Khoikhoi herders and seeding what would grow into a permanent European colony in southern Africa.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It began as nothing grander than a vegetable garden and a hospital halfway to Asia. So many VOC sailors were dying of scurvy on the long haul to the East Indies that in 1652 the company planted a refreshment station at the Cape — fresh greens, fruit, meat, and a place for wrecked crews to recover (van Riebeeck later planted vineyards specifically to fight scurvy). It was never meant to be a colony. But it displaced the Khoikhoi herders whose grazing land it sat on, and when conflict broke out van Riebeeck grew a thick hedge of wild almonds to fence the locals out — one of the first hard borders of what became, over centuries, a permanent European colony and the root of a long and bitter history in South Africa. An empire's resupply pantry quietly turned into a country."
+        }
+      ],
       "wikiSlug": "Jan_van_Riebeeck",
       "tier": 3,
       "tags": [],
@@ -1003,6 +1555,12 @@
       "year": 1642,
       "endYear": 1644,
       "description": "Sailing for the Dutch, Abel Tasman skirted Tasmania, New Zealand, and the coast of 'New Holland' (Australia) — the last great inhabited landmasses being drawn onto the European map.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tasman sailed all the way around Australia in 1642 without ever realizing the continent was there — skirting the island he named Van Diemen's Land (later renamed Tasmania for him) and bumping into New Zealand, which he first took for part of a great unknown southern continent. His proof that Australia wasn't joined to some vast sixth continent was real, but the Dutch reaction is the telling part: they looked at his discoveries, saw no spices, no gold, no obvious profit, and simply walked away. For more than a century after Tasman, no European bothered to follow up — it took James Cook, 130 years later, to put the place properly on the map and open it to colonization. The last great habitable land was found and then deliberately ignored, because the men who found it ran the numbers and decided it wasn't worth the trouble."
+        }
+      ],
       "wikiSlug": "Abel_Tasman",
       "tier": 3,
       "tags": [],
@@ -1012,7 +1570,13 @@
       "id": "evt-age-of-exploration-094",
       "label": "The Atlantic slave trade industrializes",
       "year": 1526,
-      "description": "The first slave ship sailed direct from Africa to the Americas; over the next three centuries the trade would forcibly carry more than 12 million Africans across the ocean to work the sugar and silver of the New World.",
+      "description": "In 1526 the first slave ship sailed direct from Africa to the Americas; over the next three centuries the trade would forcibly carry more than 12 million Africans across the ocean to work the sugar and silver of the New World.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The full machine was prototyped before it ever reached the Americas — on a tiny equatorial island in the Gulf of Guinea called São Tomé. Madeira's sugar slopes had married a cash crop to enslaved labor, but São Tomé took it to its pure and terrible conclusion: by the early 1500s it was the first European colony to run on sugar monoculture worked by a labor force made up entirely of enslaved Africans, and by the 1530s it had even overtaken Madeira as a sugar producer. That model — one crop, total enslavement, exported across the ocean — became the literal template for Brazil and the Caribbean. The 1526 direct crossing simply cut Europe out of the loop. What began as a few hundred captives on a Portuguese dock in 1444 became an industrialized horror: over twelve million people carried west, with well over a million more dying on the way."
+        }
+      ],
       "wikiSlug": "Atlantic_slave_trade",
       "tier": 1,
       "tags": [],
@@ -1024,6 +1588,12 @@
       "label": "The triangular trade",
       "year": 1600,
       "description": "Goods to Africa, enslaved Africans to the Americas, sugar and silver back to Europe — the three-legged Atlantic circuit that turned human beings into the engine of a global economy.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name captures a brutal efficiency: a ship rarely sailed empty on any leg. Manufactured goods and guns went south from Europe to Africa and were traded for captive people; the captives were packed below decks and carried across the Atlantic in the nightmare voyage called the Middle Passage; and the sugar, tobacco, and silver their forced labor produced sailed back to Europe to buy the goods that started the circuit again. The Middle Passage was its own horror — enslaved people chained in spaces too low to sit up, in filth and disease, for weeks; well over a million died at sea before ever reaching land. The \"triangle\" is a tidy diagram for one of history's least tidy crimes: a self-sustaining machine that ran on the buying and selling of human beings, with each leg paying for the next."
+        }
+      ],
       "wikiSlug": "Triangular_trade",
       "tier": 2,
       "tags": [],
@@ -1034,6 +1604,12 @@
       "label": "Afonso I and the bleeding of Kongo",
       "year": 1526,
       "description": "The Christian king Afonso I of Kongo wrote to Portugal begging it to stop the slavers depopulating his kingdom — a literate African monarch documenting, in real time, the trade that would devour his realm.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We have his own words. In a series of some two dozen letters to the king of Portugal in the 1520s, Afonso wrote — in elegant Portuguese — that the slavers were \"taking every day our natives, sons of the land and the sons of our noblemen and vassals and our relatives,\" until \"our country is being completely depopulated.\" The traders were operating beyond any control, bypassing his authority to deal directly with his nobles and even, he complained, seizing free Kongolese off the roads. Here is a literate African Christian king, a contemporary of Cortés, documenting the catastrophe in real time from the inside — and being ignored, because the trade was simply too profitable to stop. His letters are one of the most extraordinary sources of the entire era, and a permanent answer to any version of this history in which Africans only suffer and never speak."
+        }
+      ],
       "wikiSlug": "Afonso_I_of_Kongo",
       "tier": 2,
       "tags": [],
@@ -1045,6 +1621,12 @@
       "year": 1641,
       "endYear": 1663,
       "description": "Njinga of Ndongo and Matamba spent decades outmaneuvering the Portuguese in Angola through war, diplomacy, and shifting alliances — one of the era's most formidable rulers, and a woman in a world of kings.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She announced her style at her first meeting with the Portuguese governor in 1622. He tried to humiliate her by leaving no chair, expecting her to sit on a floor mat like a supplicant; Njinga simply ordered one of her servants onto hands and knees and sat on the woman's back, negotiating as an equal — an image so striking a priest engraved it decades later. For the next forty years she did the same to Portuguese power itself: converting to Christianity and renouncing it as strategy demanded, building and rebuilding alliances, taking the throne in defiance of a tradition that barred women, and fighting the Portuguese to a standstill from her kingdoms of Ndongo and Matamba. She is a permanent rebuke to any telling of this history in which Africans only suffer the slave trade and never resist it — one of the most formidable rulers of the entire century, in a world of men."
+        }
+      ],
       "wikiSlug": "Ana_Nzinga",
       "tier": 2,
       "tags": [],
@@ -1055,6 +1637,12 @@
       "label": "Sugar and slavery in colonial Brazil",
       "year": 1532,
       "description": "Portugal carved Brazil into hereditary captaincies and built a sugar economy worked first by enslaved Tupi and then by Africans — the template for the plantation Atlantic.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Portugal first tried to settle Brazil on the cheap. Rather than govern it directly, the crown sliced the coast into fifteen huge hereditary captaincies — strips of land handed to private nobles who were expected to fund and run them at their own risk, a kind of medieval franchise model for colonizing a continent. Most failed. What made Brazil pay was sugar: the Madeira-and-São-Tomé plantation system, transplanted across the Atlantic at full scale, worked first by enslaved indigenous Tupi and then, as disease and resistance made that unsustainable, by enslaved Africans imported by the hundreds of thousands. Brazil became the prototype of the New World plantation colony and, in time, the single largest destination of the entire Atlantic slave trade — receiving more enslaved Africans than anywhere else on Earth, the United States included."
+        }
+      ],
       "wikiSlug": "Colonial_Brazil",
       "tier": 2,
       "tags": [],
@@ -1065,6 +1653,12 @@
       "label": "The crops of the Columbian Exchange",
       "year": 1550,
       "description": "Maize and the potato spread across the Old World and fueled population booms from Ireland to China, while wheat, sugar, and cattle transformed the Americas — diets everywhere rewritten by the exchange.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "American crops didn't just add flavor — they changed how many people the planet could feed. The potato, in particular, yields far more calories per acre than the grains it joined and grows in poor, cold soil, so it quietly fueled the population surge of northern Europe; maize and the sweet potato did the same for China, helping its population balloon over the following centuries. A tuber domesticated by Andean farmers ended up determining how big European and Asian populations could grow. The flip side is the danger of leaning on a single import: when a blight wiped out the potato crop in the 1840s, Ireland — which had become utterly dependent on it — lost roughly a million people to famine and saw a million more emigrate. A crop that crossed an ocean reshaped the demographics of continents that had never seen it three centuries earlier."
+        }
+      ],
       "wikiSlug": "Columbian_exchange",
       "tier": 2,
       "tags": [],
@@ -1075,6 +1669,12 @@
       "label": "The price revolution",
       "year": 1560,
       "description": "American silver flooding into Europe drove a century of inflation, the price revolution — the first time a glut of New World treasure could move the cost of bread in a Spanish village.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Prices across Europe rose roughly sixfold over about 150 years — gentle by modern standards, but unheard-of in a world used to stable prices for generations, and shocking because nobody understood the cause. As ever more American silver poured in, the quantity of money swelled far faster than the goods to spend it on, so each coin bought less; historians still debate how much was silver and how much was Europe's own population rebound, but the silver was central. The bitter irony fell on Spain itself, which controlled the metal and was wrecked by it: the treasure flowed in one side and straight out the other to pay for wars and foreign goods, and the crown went bankrupt three times in the 1500s. The kingdom that found the mountain of silver was hollowed out by it, while the merchant economies of northwest Europe that sold to Spain quietly grew rich."
+        }
+      ],
       "wikiSlug": "Price_revolution",
       "tier": 3,
       "tags": [],
@@ -1085,6 +1685,12 @@
       "label": "The casta society of mixed blood",
       "year": 1550,
       "description": "Out of conquest grew the mestizo — children of Spanish and indigenous parents — and an obsessive racial hierarchy, the casta system, that tried to rank every shade of the new mixed population.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Colonial society became deeply mixed almost immediately, and Spanish authorities responded with an almost mathematical mania for sorting it. The casta system tried to give every possible blend of Spanish, indigenous, and African ancestry its own named rank — mestizo, mulato, and a whole branching lexicon of finer gradations, with peninsular-born Spaniards at the top and everyone else slotted below by the precise fractions of their descent. It got so elaborate that 18th-century artists produced \"casta paintings,\" sets of canvases each depicting one mixed family with its category neatly labeled, like a chart of the population. The system never actually worked — real people were far too fluid to pin to a box — but it left a poison behind: the obsession with racial hierarchy and \"purity of blood\" that the age injected into the Americas is one of its ugliest and most durable legacies, an ancestor of the modern world's categories of race."
+        }
+      ],
       "wikiSlug": "Casta",
       "tier": 3,
       "tags": [],
@@ -1095,6 +1701,12 @@
       "label": "The Goa Inquisition",
       "year": 1560,
       "description": "Portugal extended the Inquisition to its Asian capital at Goa, policing converts and persecuting Hindus and Jews — the dark companion to the missionary project, faith enforced by fear.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Goa Inquisition is the necessary shadow of the missionary story. Its main targets weren't unconverted Hindus and Muslims but recent converts suspected of secretly keeping their old ways — newly Christian Indians accused of cooking with certain spices, refusing pork, or wearing the wrong clothes, the small domestic habits that betrayed a backsliding heart. For two centuries it policed belief through denunciation, secret imprisonment in a building so feared it became proverbial, torture, and the public burning of the condemned in mass ceremonies. So the same empire that produced Francis Xavier's patient teaching also produced the tribunal that tortured converts for the wrong kind of prayer — faith spread by the Jesuit's catechism and the inquisitor's fire at once. It was finally abolished only in 1812."
+        }
+      ],
       "wikiSlug": "Goa_Inquisition",
       "tier": 3,
       "tags": [],
@@ -1105,6 +1717,12 @@
       "label": "Copernicus and the moving Earth",
       "year": 1543,
       "description": "Nicolaus Copernicus published his claim that the Earth circled the sun — part of a wider rethinking of the cosmos that the age of global navigation both demanded and helped to fund.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Copernicus sat on his sun-centered theory for decades, wary of the uproar it would cause, and the book that argued Earth was just another planet circling the sun was only printed in 1543 — the year he died. Legend has it the first printed copy was placed in his hands on his deathbed. It fits the spirit of the age perfectly: in the same decades that sailors were proving by experience that the world was a single round globe that could be sailed all the way around, an astronomer was arguing it was also a moving body adrift among others, no longer the fixed center of creation. The two upheavals fed each other — the voyages demanded better astronomy for navigation and helped fund it, and both forced Europeans to swallow the same disorienting lesson: the world was not what they had always been told, and the old certainties about humanity's place in it were coming apart."
+        }
+      ],
       "wikiSlug": "De_revolutionibus_orbium_coelestium",
       "tier": 2,
       "tags": [],
@@ -1116,6 +1734,12 @@
       "label": "The Mercator projection",
       "year": 1569,
       "description": "Gerardus Mercator devised a map projection on which a line of constant compass bearing came out straight — a brilliant cheat that distorted the poles but let a navigator plot a course with a ruler.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mercator solved a real sailor's headache in 1569: on a normal map a steady compass course curves, but on his projection a line of constant bearing comes out dead straight, so a navigator could lay a ruler between two points and read off the heading to steer. The price was a wild distortion of size near the poles — which is why on the map in your head Greenland looks about as big as Africa, when Africa is actually some fourteen times larger. For steering a ship it was genius, and the most remarkable thing is that it never went away: the projection that powered the age of sail is the same one quietly running underneath Google Maps, Bing, and nearly every navigation app you've ever opened. A 16th-century fix for plotting a course is still, five centuries later, the way most of humanity pictures the world."
+        }
+      ],
       "wikiSlug": "Mercator_projection",
       "tier": 2,
       "tags": [],
@@ -1126,6 +1750,12 @@
       "label": "The first modern atlas",
       "year": 1570,
       "description": "Abraham Ortelius bound the world into the Theatrum Orbis Terrarum, the first true atlas — uniform maps of the whole known Earth, a planet that could now be held in one volume.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before 1570, a wealthy person who wanted maps owned a jumble of loose sheets at different scales by different makers. Ortelius's innovation was simple and profound: gather maps of the whole known world, redraw them to a uniform style and format, and bind them into a single book — the first true atlas, a planet you could hold in your hands and turn page by page. It was a runaway bestseller, reprinted for decades in many languages. And Ortelius noticed something printed across his own neatly assembled maps that nobody would explain for centuries: the bulge of South America's east coast seemed to fit into the curve of West Africa, \"as if torn away.\" He'd glimpsed continental drift 350 years before geologists took the idea seriously — a hint of the deep truth that the new global map, by showing the whole Earth at once, made such patterns visible for the very first time."
+        }
+      ],
       "wikiSlug": "Theatrum_Orbis_Terrarum",
       "tier": 3,
       "tags": [],
@@ -1136,6 +1766,12 @@
       "label": "Scurvy, the killer of crews",
       "year": 1600,
       "description": "The vitamin-deficiency disease scurvy killed more sailors than storms or battle on the long ocean crossings — the unsolved medical problem that haunted every voyage of the age.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scurvy is what happens when the body runs out of vitamin C: it can no longer make collagen, the glue that holds the body together, so old wounds reopen, gums rot and swell over the teeth, and decades-old healed injuries split back open as if freshly cut. On long crossings with no fresh food it killed sailor after sailor in agony — over the whole age it took more lives than storms, shipwreck, and battle combined. The maddening part is that the cure was simple and stared everyone in the face for two centuries: fresh fruit and vegetables. It wasn't reliably proven until the 1740s, when a British naval surgeon ran one of history's first controlled trials and found citrus cured it — which is, eventually, why British sailors got the nickname \"limeys.\""
+        }
+      ],
       "wikiSlug": "Scurvy",
       "tier": 3,
       "tags": [],
@@ -1146,6 +1782,12 @@
       "label": "Tobacco crosses the Atlantic",
       "year": 1612,
       "description": "An American plant the Europeans first thought medicinal, tobacco became the cash crop that saved Virginia and the first global consumer craze of the new connected world.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Europeans first took tobacco for medicine — a wonder-herb thought to cure headaches, wounds, even plague (the French diplomat Jean Nicot, who pushed it as a remedy, gave his name to \"nicotine\"). It became instead the world's first truly global recreational craze, spreading along the new trade routes so fast that within a century people were smoking it from London to Beijing, often over the furious objections of rulers — China and the Ottomans both tried, and failed, to ban it on pain of death. In the Americas it did something more concrete: a sweet Caribbean strain, cultivated by John Rolfe, gave the nearly-dead colony of Jamestown a profitable reason to exist. Tobacco is the small, addictive proof of what the age had built — a single connected world where a New World plant could become an Old World habit, and a habit could become an empire's cash crop."
+        }
+      ],
       "wikiSlug": "Tobacco",
       "tier": 3,
       "tags": [],
@@ -1157,6 +1799,12 @@
       "label": "Globalization begins",
       "year": 1571,
       "description": "With the Pacific finally bridged by the Manila galleon, every inhabited continent was now linked by regular trade — the start, many historians argue, of genuine globalization.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Some economic historians pin the birth of the truly global economy to a precise year — 1571, when the founding of Manila completed the Pacific link and, for the first time, every inhabited continent was joined by regular, sustained trade in a single loop. Their test is sharp: globalization properly begins not when goods first travel between distant places (luxuries had crossed continents for millennia) but when prices in those places start to move together — when a glut of silver in Bolivia can shift the cost of bread in China, and the whole world's markets begin to breathe as one system. By that measure the world the voyages made wasn't just bigger or better-mapped. It was, for the first time, a single interlocking economy — and we have lived inside the thing that switched on around 1571 ever since."
+        }
+      ],
       "wikiSlug": "Globalization",
       "tier": 1,
       "tags": [],
@@ -1169,6 +1817,12 @@
       "year": 1385,
       "endYear": 1433,
       "description": "John I won the crown on the battlefield and founded the Aviz dynasty, the line of restless, expansion-minded kings whose sons — Henry among them — would launch Portugal at the ocean.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He had no business being king at all: he was an illegitimate son of a previous monarch and master of a crusading military order, and he took the throne essentially by winning a war, beating back a Castilian attempt to swallow Portugal. A dynasty founded that way — against the odds, on a battlefield, at the head of warrior-monks — inherits a particular hunger, and John's sons had it. They needed glory, they needed income, and little Portugal couldn't supply either at home, so they went looking across the strait in Africa. The English alliance John sealed by marriage in 1386 is also the oldest still-active diplomatic treaty in the world."
+        }
+      ],
       "wikiSlug": "John_I_of_Portugal",
       "tier": 3,
       "tags": [],
@@ -1179,6 +1833,12 @@
       "label": "The School of Sagres",
       "year": 1420,
       "description": "Tradition holds that Prince Henry gathered pilots, astronomers, and chartmakers at Sagres on Portugal's wind-scoured southwestern tip — part research institute, part legend, the supposed brain of the African voyages.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It makes a wonderful image — a kind of medieval NASA on a cliff at the literal end of Europe — and the evidence for any formal \"school\" is thin enough that most historians treat it as eighteenth-century invention. What Henry plainly did have was a circle of skilled people he patronized and a base in the Algarve where voyages were organized and debriefed. But the legend gets at something real and far less glamorous: Portugal's true innovation was turning exploration into a repeatable institution. Each voyage's hard-won knowledge — which currents ran where, which winds blew when, how far the last crew got before their nerve broke — was collected and fed into the next. That patient accumulation, ship by ship, decade by decade, was the actual engine, school or no school."
+        }
+      ],
       "wikiSlug": "School_of_Sagres",
       "tier": 3,
       "tags": [],
@@ -1189,6 +1849,12 @@
       "label": "The Order of Christ funds the voyages",
       "year": 1420,
       "description": "Prince Henry ran the wealthy Military Order of Christ, the Portuguese heir to the Templars, and poured its crusading revenues into the African expeditions — the voyages sailed under its red cross.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When the pope crushed the Knights Templar in the early 1300s, Portugal didn't dissolve the order — it rebranded it. The king refounded the Templars' Portuguese branch as the Order of Christ in 1319, keeping their estates and wealth in the country. A century later Henry became its administrator and used its crusading treasury to bankroll the African voyages, which is why the famous square sails of the caravels and carracks carried a big red cross: the Order of Christ's emblem. The detail tells you how Portugal understood what it was doing — not as a trading mission but as a crusade against Islam carried out by sea, with the same red cross the Templars had worn into the Holy Land now bellying out over the South Atlantic."
+        }
+      ],
       "wikiSlug": "Order_of_Christ_(Portugal)",
       "tier": 3,
       "tags": [],
@@ -1199,6 +1865,12 @@
       "label": "The portolan chart",
       "year": 1400,
       "description": "Mediterranean pilots navigated by portolan charts — sea maps webbed with compass-rose rhumb lines rather than latitude and longitude — the working tool the Atlantic voyages inherited and slowly outgrew.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A portolan looks unlike a modern map: no grid of latitude and longitude, just coastlines studded with port names and a spiderweb of straight lines radiating from compass roses across the whole sheet. You navigated by picking the rhumb line that pointed toward your destination and steering that compass bearing. It worked beautifully on the enclosed, well-known Mediterranean, where the far shore was always near and the routes were old. But it had no way to fix your position out in open water with no coast in sight — exactly the situation the Atlantic voyages kept finding themselves in. So the explorers carried the portolan as far as it would take them and then bolted on what the Mediterranean had never needed: latitude read from the stars, the first crude step toward the gridded map of a round and measured Earth."
+        }
+      ],
       "wikiSlug": "Portolan_chart",
       "tier": 3,
       "tags": [],
@@ -1208,7 +1880,13 @@
       "id": "evt-age-of-exploration-113",
       "label": "The Jolof kingdoms of Senegambia",
       "year": 1450,
-      "description": "The Portuguese reaching the Senegal coast met the Jolof, a powerful Wolof state whose rulers traded gold, ivory, and captives — a reminder the African shore had its own kingdoms, not empty coastline.",
+      "description": "The Portuguese reaching the Senegal coast met the Jolof, a powerful confederation of Wolof states whose rulers traded gold, ivory, and captives — a reminder the African shore had its own kingdoms, not empty coastline.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the detail the triumphant version of the story works hardest to bury: the slave trade did not arrive on empty ground. The Jolof and their neighbors already bought and sold enslaved captives — war prisoners and debtors — within long-standing African and trans-Saharan markets, generations before any Portuguese ship appeared. What the Europeans did was not invent African slavery but plug a new, oceangoing, insatiable buyer into an existing system, and then warp it beyond recognition as Atlantic demand exploded. The honest reckoning has to hold both facts at once: organized African states were active participants in the trade from the start, and the maritime trade the Portuguese opened turned a regional institution into the largest forced migration in human history."
+        }
+      ],
       "wikiSlug": "Jolof_Empire",
       "tier": 3,
       "tags": [],
@@ -1219,6 +1897,12 @@
       "label": "The Treaty of Alcáçovas divides the sea",
       "year": 1479,
       "description": "An early Spanish-Portuguese deal handed Portugal the African coast and the Atlantic islands south of the Canaries — the first time two crowns sliced the ocean between them, a rehearsal for Tordesillas.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fifteen years before the famous Treaty of Tordesillas, Spain and Portugal had already done a smaller version of the same audacious thing — and Alcáçovas (1479) is sometimes called the first colonial partition treaty in history. It ended a war over the Castilian throne with a swap: Castile got the Canary Islands, and in return recognized Portugal's exclusive right to navigate, trade, and conquer all along the African coast and the Atlantic islands south of the Canaries — the gold of Guinea, Madeira, the Azores, Cape Verde. The line ran east-west (everything south of the Canaries was Portugal's), which is exactly why Columbus, when he later sailed for Spain, had to head due west: the southern route down Africa was legally closed to him. Tordesillas didn't invent the idea of carving up the ocean by treaty. It just drew a bigger line."
+        }
+      ],
       "wikiSlug": "Treaty_of_Alcáçovas",
       "tier": 3,
       "tags": [],
@@ -1229,6 +1913,12 @@
       "label": "Cão plants a cross at Cape Cross",
       "year": 1486,
       "description": "Diogo Cão raised a stone padrão at Cape Cross on the Namibian shore, the southernmost Portuguese marker before Dias — granite proof of how far down a hostile coast the creep had reached.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cape Cross marked the high-water line of the patient phase — roughly 1,400 miles down the coast from the Congo, the farthest Portugal reached before the great breakthrough at the southern tip. The country around it is some of the bleakest on Earth: the Skeleton Coast, a fog-bound desert shore strewn with shipwrecks where the Namib desert runs straight into a cold, hostile sea. Today the spot is famous for something Cão never saw the like of — one of the largest Cape fur seal colonies in the world, tens of thousands of animals packed onto the shore where his lonely stone pillar once stood. After Cape Cross the coast turned colder and stormier, and the next ship to push past it would be blown clean around the bottom of Africa."
+        }
+      ],
       "wikiSlug": "Cape_Cross",
       "tier": 3,
       "tags": [],
@@ -1239,6 +1929,12 @@
       "label": "Covilhã's overland spy mission",
       "year": 1487,
       "description": "King John sent Pêro da Covilhã overland in disguise to scout the Indian Ocean spice ports and the realm of the legendary Prester John — espionage that mapped the sea route before any Portuguese ship arrived.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Fluent in Arabic and traveling as a Muslim merchant, Covilhã pulled off one of history's great reconnaissance missions: he reached the pepper markets of India's Malabar coast, sailed the Arabian Sea, and toured the Swahili ports of East Africa, then sent home a report confirming that a thriving, well-mapped spice trade was waiting at the far end if only a ship could round Africa. Portugal was, in effect, mapping its destination by land while still fighting toward the door by sea. Then comes the strange ending: chasing the legend of Prester John, Covilhã made his way to the real Christian kingdom of Ethiopia — where the emperor found him so valuable he simply would not let him leave. He was given lands and a wife and kept at court for some thirty years, until he died there, a royal spy who completed his mission and was never allowed to come home."
+        }
+      ],
       "wikiSlug": "Pero_da_Covilhã",
       "tier": 3,
       "tags": [],
@@ -1249,6 +1945,12 @@
       "label": "The hunt for Prester John",
       "year": 1490,
       "description": "Europe clung to the legend of Prester John, a mighty Christian king somewhere beyond the Muslim world; the dream of finding this ally and catching Islam in a pincer drove much of the push past Africa.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legend got rolling in the 1100s with a forged letter, supposedly from Prester John himself, describing a fabulously rich Christian realm full of marvels — a fountain of youth, a river of jewels, mirrors that showed the whole kingdom — somewhere beyond the lands of Islam. For centuries Europe took it seriously and kept relocating the kingdom as the map filled in: first India, then Central Asia, finally Ethiopia. And it wasn't a fringe fantasy — finding this lost Christian ally and catching Islam in a pincer was a named goal in Portuguese royal instructions. The funny part is the legend was half-right: there really was an ancient Christian kingdom roughly where the later versions placed it, Ethiopia, which is exactly where Portugal's spy Covilhã ended up. The men who built the modern trade routes were chasing a unicorn — and the unicorn turned out to have a real address."
+        }
+      ],
       "wikiSlug": "Prester_John",
       "tier": 3,
       "tags": [],
@@ -1259,6 +1961,12 @@
       "label": "Henry VII backs Cabot",
       "year": 1496,
       "description": "Henry VII of England, having passed on Columbus, granted letters patent to John Cabot to sail west and claim 'heathen lands' for the crown — England's belated, cut-rate entry into the ocean race.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Henry VII had a famous case of seller's remorse. Columbus's brother had pitched him the westward voyage before Spain took it on, and Henry — cautious, tight-fisted, and rebuilding a treasury wrecked by civil war — let it slip away, only to watch Spain reap a hemisphere. So when another Italian, Cabot, came knocking, Henry backed him on the cheap: he granted the letters patent and the legal right to claim new lands but, true to character, put up almost no money, leaving Bristol merchants to fund the actual ships. It was a cut-rate hedge by a king who'd missed the big bet. That penny-pinching entry is, technically, the legal root of English claims to North America — the paper trail that England would later cite to justify an empire ran back to a thrifty monarch's small, late wager."
+        }
+      ],
       "wikiSlug": "Henry_VII_of_England",
       "tier": 3,
       "tags": [],
@@ -1268,7 +1976,13 @@
       "id": "evt-age-of-exploration-119",
       "label": "The cross-staff measures the stars",
       "year": 1500,
-      "description": "Cheaper and simpler than the astrolabe, the cross-staff let a sailor sight a star against a sliding crosspiece to read his latitude — squinting at the sun this way slowly blinded many a navigator.",
+      "description": "Cheaper and simpler than the astrolabe, the cross-staff let a sailor sight a star against a sliding crosspiece to read his latitude — and squinting at the sun this way slowly blinded the navigators who used it.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was just a wooden rod with a sliding crosspiece: you put one end to your eye and slid the crosspiece until its bottom edge lined up with the horizon and its top edge with the sun, then read the angle off the rod. Simple and cheap enough that any ship could carry one — but it had a vicious price. Using it meant staring more or less straight into the sun, sighting after sighting, voyage after voyage, and over a career it cooked the retinas of the men who relied on it, leaving a generation of navigators half-blind. Later versions added smoked-glass shades and a clever back-to-the-sun design (the backstaff) precisely to stop the instrument from blinding the very people whose job depended on their eyes."
+        }
+      ],
       "wikiSlug": "Jacob's_staff",
       "tier": 3,
       "tags": [],
@@ -1279,6 +1993,12 @@
       "label": "The kings of Kongo convert",
       "year": 1491,
       "description": "King Nzinga a Nkuwa of Kongo accepted baptism and a Portuguese alliance, and his son Afonso made Catholicism the court religion — a Central African kingdom voluntarily joining Christendom decades before the slave trade gutted it.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was not conquest and not coercion — it was a choice, and a strategic one. The Kongo elite saw in literacy, Catholicism, and a Portuguese alliance a way to strengthen their own state and tap a new source of prestige and goods, so they took the new faith and rebuilt the court partly on European lines: a Christian African monarchy that traded ambassadors with Lisbon, sent its sons to study in Portugal, and recast its capital as a Christian city. For a moment it genuinely looked as if the African encounter might run on alliance rather than extraction. It didn't — the slave trade would hollow Kongo out from the inside within a generation — but the moment is real and worth holding onto: a Central African kingdom, contemporary with Columbus, joining Christendom by its own decision rather than at sword-point."
+        }
+      ],
       "wikiSlug": "Kingdom_of_Kongo",
       "tier": 2,
       "tags": [],
@@ -1289,6 +2009,12 @@
       "label": "The colony on Hispaniola",
       "year": 1496,
       "description": "After La Navidad's massacre, the Spanish dug in on Hispaniola and founded Santo Domingo, the first lasting European city in the Americas and the base camp from which the conquest of a hemisphere was launched.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Santo Domingo, founded around 1496 by Columbus's brother Bartholomew, became the rehearsal stage for the entire Spanish empire: it built the first cathedral, the first hospital, and the first university in the Americas, and its old colonial core still stands today as the oldest continuously inhabited European-founded city in the hemisphere. From this one island, almost everything radiated outward — Cortés sailed from the Caribbean toward Mexico, Pizarro's partners staged through Panama, and the encomienda labor system, the mission, and the plantation were all first tested here on the Taíno before being exported to two continents. Hispaniola is where the Spanish learned how to run a colony, which is another way of saying it is where they learned how to destroy one: by the time the methods were perfected, the island's original people were nearly gone."
+        }
+      ],
       "wikiSlug": "Hispaniola",
       "tier": 3,
       "tags": [],
@@ -1300,6 +2026,12 @@
       "label": "The wreck of the Santa María",
       "year": 1492,
       "description": "Columbus's flagship Santa María ran aground off Hispaniola on Christmas night; its timbers became the fort of La Navidad — the New World's first European settlement born from a shipwreck.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The greatest flagship of the age went down because of a nap. On Christmas Eve 1492, with Columbus and his steersman both asleep, the helm was left to a cabin boy, and a gentle current carried the ship onto a sandbank off the north coast of Hispaniola; by morning she was beyond saving. She was no giant — a single 62-foot deck, smaller than many a modern yacht, and a plodding cargo carrier Columbus never even liked. Unable to fit her crew aboard the two surviving little ships, he had the wreck stripped and her timbers built into a fort he named La Navidad, \"the Nativity,\" for the Christmas wreck. So the first European settlement in the Americas was, quite literally, made out of a shipwreck — and within a year its 39 men were all dead."
+        }
+      ],
       "wikiSlug": "Santa_María_(ship)",
       "tier": 3,
       "tags": [],
@@ -1310,6 +2042,12 @@
       "label": "Pope Alexander VI carves the world",
       "year": 1493,
       "description": "The Borgia pope Alexander VI, a Spaniard, drew the original line of demarcation that favored Spain — the partisan papal ruling Portugal forced back to the negotiating table at Tordesillas.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He is, by reputation, the most corrupt man ever to wear the papal crown — a Borgia who openly fathered a brood of children (including the legendary Lucrezia and the ruthless Cesare), bought his election, and ran the Church as a family business. So there is something darkly fitting about this particular pope being the one who casually drew a line down a globe and handed half the unmapped Earth to his fellow Spaniards. The ruling was so transparently pro-Spanish that Portugal refused to accept it and dragged Spain back to a negotiating table at Tordesillas to redraw the line by treaty. It says everything about the era's legal logic that the deed to two continents could turn on the favoritism of a Spanish pope settling a quarrel between two kingdoms over land neither had finished seeing."
+        }
+      ],
       "wikiSlug": "Pope_Alexander_VI",
       "tier": 3,
       "tags": [],
@@ -1320,6 +2058,12 @@
       "label": "The Manueline style in stone",
       "year": 1500,
       "description": "Portugal's spice wealth bloomed into the Manueline, a riot of carved ropes, armillary spheres, anchors, and sea-monsters — an entire architecture invented to celebrate an empire won from the ocean.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most architectural styles take their motifs from nature or classical antiquity; the Manueline took them from a ship's deck and a navigator's toolkit. Flourishing under Manuel I, it crusts Portuguese stone with twisted ropes, knots, anchors, coral, seaweed, exotic beasts — and, again and again, the armillary sphere, the openwork globe of rings used to model the heavens that Manuel adopted as his personal badge and that still sits on the Portuguese flag today. The most famous single image is the Window of the Convent of Christ at Tomar, an explosion of carved cables and sea-life so dense it looks less built than grown. It is the only major art style a maritime empire ever invented purely to brag about itself in stone — a whole visual language saying, in granite, \"we are the kingdom that conquered the ocean.\""
+        }
+      ],
       "wikiSlug": "Manueline",
       "tier": 3,
       "tags": [],
@@ -1330,6 +2074,12 @@
       "label": "Cabral's fleet and Sancho de Tovar",
       "year": 1500,
       "description": "Cabral's huge India armada carried captains like Sancho de Tovar and the chronicler-pilots who first described Brazil — a single fleet meant to claim a continent and reach the spice ports in one voyage.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cabral's 1500 fleet was a floating who's-who of the early empire, with Sancho de Tovar as second-in-command and a roster of captains that included Bartolomeu Dias, the first man to round the Cape — who would die on this very voyage. But its most lasting legacy came from a clerk. The fleet's scribe, Pêro Vaz de Caminha, wrote a long letter to King Manuel describing the brief landfall in Brazil — the land, the people, the parrots — and that letter is Brazil's \"birth certificate,\" the first European document about the country and a startlingly vivid, almost gentle eyewitness account. A continent that would become the giant of South America entered the written record not through a conqueror's report but through a bureaucrat's wide-eyed travel letter home."
+        }
+      ],
       "wikiSlug": "Sancho_de_Tovar",
       "tier": 3,
       "tags": [],
@@ -1340,6 +2090,12 @@
       "label": "Duarte Pacheco Pereira's secret geography",
       "year": 1505,
       "description": "The soldier-cosmographer Duarte Pacheco Pereira compiled the Esmeraldo de Situ Orbis, a classified sailing manual of the African and Indian coasts — knowledge so valuable Portugal guarded it like a weapon.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Pereira was a one-man argument for treating geography as a state secret. His Esmeraldo de Situ Orbis, written around 1505–08 at the king's command, packed latitudes, sailing directions, and descriptions of the newly reached coasts into a single manual — and was deliberately composed in Portuguese rather than the scholarly Latin of the day, so that a foreign spy who stole a copy couldn't easily read it. The crown then sat on it: the book wasn't actually published until 1892, nearly four centuries later, to keep its hard-won knowledge of the Guinea and India routes out of rival hands. It even hints, tantalizingly, that Portugal may have quietly known about Brazil before Cabral's \"accidental\" landing in 1500 — a claim historians still argue over, and exactly the kind of thing a kingdom that hid its maps for 400 years might have wanted kept quiet."
+        }
+      ],
       "wikiSlug": "Duarte_Pacheco_Pereira",
       "tier": 3,
       "tags": [],
@@ -1350,6 +2106,12 @@
       "label": "Cochin, Portugal's first Indian fort",
       "year": 1503,
       "description": "Portugal built its first Indian fortress at Cochin, a rival of the Zamorin's Calicut, and turned a friendly local raja into the wedge that pried open the Malabar pepper coast.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Portuguese playbook on the pepper coast wasn't conquest so much as picking sides in fights that were already happening. Cochin's raja was a rival of the powerful Zamorin of Calicut, so when the Portuguese arrived spurned at Calicut, they simply allied with his enemy — protecting Cochin's ruler in exchange for a fortress and a guaranteed flow of pepper. That fort, built in 1503, was Portugal's first real foothold on Indian soil, the wedge that opened the Malabar coast. Cochin also holds a quieter relic of the age: Vasco da Gama died there in 1524 and was buried in its church of St. Francis, and though his bones were later shipped home to Portugal, the empty tomb is still shown to visitors today."
+        }
+      ],
       "wikiSlug": "Kochi",
       "tier": 3,
       "tags": [],
@@ -1360,6 +2122,12 @@
       "label": "Montesinos preaches against the conquest",
       "year": 1511,
       "description": "On Hispaniola the Dominican friar Antonio de Montesinos thundered from the pulpit that the colonists were damning themselves by enslaving and killing the Taíno — the first public cry of conscience in the New World.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It happened on a single Sunday in 1511, and it stunned the colony. Montesinos climbed the pulpit before the most powerful men on Hispaniola and demanded: \"By what right and by what justice do you hold these Indians in such cruel and horrible servitude?\" — telling them flatly that they were in mortal sin and damning their own souls by enslaving and slaughtering people who had done them no harm. The colonists were so outraged they complained to the king and tried to get the Dominicans silenced. But the sermon lit a fuse: sitting in the congregation that day, or close to it, was a young encomienda-holder named Bartolomé de las Casas, who would carry the argument for the next fifty years. The first public cry of conscience in the Americas came barely two decades after Columbus landed — and from inside the conquering society itself."
+        }
+      ],
       "wikiSlug": "Antonio_de_Montesinos",
       "tier": 3,
       "tags": [],
@@ -1370,6 +2138,12 @@
       "label": "The Requerimiento read to the air",
       "year": 1513,
       "description": "Spain ordered conquistadors to read the Requerimiento — a legal demand that natives submit to crown and church — aloud before attacking, often to empty jungle or uncomprehending villages, a fig leaf for conquest.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is one of the most absurd documents in the history of empire: a legal text, declaring that the natives must accept the pope's authority and Spanish rule or be justly attacked, that conquistadors were required to read aloud before fighting — in Spanish or Latin, to people who could not understand a word. So it was duly read from ships to a distant shore, to empty jungle, to villages whose people had already fled, and even to prisoners after they'd been captured, satisfying the letter of the law while meaning nothing. The reformer Las Casas, hearing how it was used, said he didn't know whether to laugh or to weep. The Requerimiento is the conquest's conscience reduced to pure ritual — a fig leaf so threadbare that even the men reading it knew it was a sham."
+        }
+      ],
       "wikiSlug": "Spanish_Requirement_of_1513",
       "tier": 3,
       "tags": [],
@@ -1380,6 +2154,12 @@
       "label": "The Battle of Cajamarca",
       "year": 1532,
       "description": "In the square at Cajamarca fewer than 200 Spaniards ambushed Atahualpa's unarmed retinue and seized the Inca emperor in an afternoon of slaughter — the single stroke that decapitated the largest empire in the Americas.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The numbers are almost unbelievable: Pizarro had 168 men, against an Inca army that outnumbered him roughly 45 to 1. He won anyway by treachery. Atahualpa, fresh from winning a civil war and feeling utterly secure in the middle of his own host, agreed to meet the tiny band of strangers and walked into the plaza of Cajamarca with a large but essentially unarmed ceremonial retinue. Pizarro had hidden his men, horses, and cannon in the buildings around the square; at a signal they opened fire and charged into the packed, defenseless crowd. Thousands were cut down in a few hours, and Atahualpa was seized alive — and the only Spanish casualty in the whole massacre was Pizarro himself, who cut his own hand grabbing the emperor to take him prisoner rather than let his men kill him. One afternoon, and the largest empire in the Americas was decapitated."
+        }
+      ],
       "wikiSlug": "Battle_of_Cajamarca",
       "tier": 2,
       "tags": [],
@@ -1392,6 +2172,12 @@
       "year": 1539,
       "endYear": 1572,
       "description": "Driven from Cusco, the Inca built a defiant rump kingdom deep in the jungle at Vilcabamba that resisted Spain for a generation — proof the conquest was a long war, not a single fall.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "From a remote redoubt at Vilcabamba, deep in the rugged cloud-forest northwest of Cusco, a line of Inca rulers kept an independent state alive for 36 years — raiding, negotiating, sheltering refugees, and keeping the old religion going while the Spanish empire spread all around them. The place was so hidden that after Spain finally destroyed it in 1572 the jungle swallowed it, and its location was lost for centuries; explorers hunting for it in the early 1900s famously found the wrong ruin — Machu Picchu — instead. The real Vilcabamba was only securely identified deep in the forest in the 1960s. A whole kingdom held out for a generation against the conquerors of a continent, and then vanished so completely it took the modern world four hundred years to find where it had been."
+        }
+      ],
       "wikiSlug": "Neo-Inca_State",
       "tier": 3,
       "tags": [],
@@ -1403,6 +2189,12 @@
       "label": "The execution of Túpac Amaru",
       "year": 1572,
       "description": "Spain captured and beheaded Túpac Amaru, the last Inca emperor of Vilcabamba, in the square at Cusco — the formal, brutal end of independent Inca rule after forty years of resistance.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 1572 the Spanish viceroy finally sent an expedition to storm Vilcabamba and dragged its last emperor, Túpac Amaru, back to Cusco to be beheaded in the public square before a crowd of his own grieving people — forty years to the year after Cajamarca. The name refused to die with him. Two centuries later a man claiming descent from him, Túpac Amaru II, led the largest indigenous revolt of the colonial era against Spain in the 1780s, and was himself executed with horrifying cruelty. The name then jumped continents and centuries: it was taken up by twentieth-century revolutionary movements in Uruguay and Peru — and, improbably, an American rapper's mother named her son after it. A beheading in a Cusco square in 1572 still echoes in a name people know worldwide."
+        }
+      ],
       "wikiSlug": "Túpac_Amaru",
       "tier": 3,
       "tags": [],
@@ -1413,6 +2205,12 @@
       "label": "The royal fifth claims the silver",
       "year": 1504,
       "description": "The crown taxed every ounce of New World treasure with the quinto real, the 'royal fifth' — the levy that made the king of Spain personally rich on every silver bar dug from Potosí.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The math was simple and ruthless: one bar in five, off the top, belonged to the king — a flat 20 percent on every ounce of precious metal pulled out of the New World. To enforce it, refined silver was cast into standard bars and stamped with a tax mark, and smuggling around the quinto became its own vast underground economy. The royal fifth is the reason a single mountain in Bolivia could make a man in Madrid the richest monarch in Christendom without his ever lifting a shovel, and it bankrolled Spain's endless European wars. The dark joke of the next century was that it flowed in one side of Spain and straight out the other to pay soldiers and buy foreign goods — leaving the kingdom that taxed all the world's silver perpetually broke."
+        }
+      ],
       "wikiSlug": "Royal_fifth",
       "tier": 3,
       "tags": [],
@@ -1425,6 +2223,12 @@
       "year": 1573,
       "endYear": 1813,
       "description": "On the rubble of Tenochtitlan's great temple the Spanish raised the vast Metropolitan Cathedral and a grid of a capital — the new colonial city built literally on top of the one it destroyed.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The conquest was made literal in stone: the Spanish demolished the Templo Mayor, the Aztecs' great twin-shrined pyramid, and used its very blocks to build their cathedral on the same spot. The new city was a deliberate erasure laid over the old one — but the old one keeps surfacing. The whole capital sits on the soft, drained lakebed of Tenochtitlan, so it has been sinking for centuries (parts of the historic center have dropped some 30 feet, and the cathedral visibly tilts). And the buried city refuses to stay buried: in 1978 electrical workers digging behind the cathedral struck a carved stone disc and uncovered the foundations of the Templo Mayor itself, which now sits excavated in the heart of the modern city — the destroyed Aztec capital clawing its way back into daylight beside the one built to replace it."
+        }
+      ],
       "wikiSlug": "Mexico_City_Metropolitan_Cathedral",
       "tier": 3,
       "tags": [],
@@ -1435,6 +2239,12 @@
       "label": "The Council of the Indies",
       "year": 1524,
       "description": "Spain governed its sprawling new empire through the Council of the Indies, a body in Castile that wrote the laws, named the viceroys, and tried to rule two continents by letters that took months to cross the sea.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Spain tried to govern half a world by mail. From a council chamber in Castile, a body of officials who had mostly never crossed the Atlantic wrote the laws for the Americas, appointed and recalled the viceroys, heard legal appeals, and tried to micromanage two continents — all by dispatches that took months each way and a year or more for a round trip. The lag built a famous loophole into colonial life, captured in the phrase \"obedezco pero no cumplo\" — \"I obey but I do not comply\" — by which a far-off official could formally bow to a royal order he had no intention of carrying out, knowing it would take ages for the crown to even notice. It is the bureaucratic root of the whole age's central tension: a king who claimed absolute power over a New World he could only reach by a letter that took half a year to arrive."
+        }
+      ],
       "wikiSlug": "Council_of_the_Indies",
       "tier": 3,
       "tags": [],
@@ -1445,6 +2255,12 @@
       "label": "Spanish missions and reductions",
       "year": 1550,
       "description": "Friars gathered scattered indigenous people into mission towns and reductions — part church, part labor camp, part refuge — the frontier institution that spread both Catholicism and colonial control.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mission was a contradiction with walls. Friars gathered scattered indigenous people into planned towns (in Spanish, reducciones — literally \"reductions,\" because the population was \"reduced,\" gathered, into one place) where they were taught Christianity and European trades, protected to a degree from the worst of the slavers and labor-drafts — and also controlled, regimented, and exposed to the very diseases that crowding spread. The most striking experiment came later in Paraguay, where Jesuits built a network of self-governing Guaraní mission-towns so prosperous and autonomous they functioned almost as an independent state, until Spain and Portugal crushed them. The reduction is the conquest's softer face and its iron hand at once: shelter and cage, school and labor camp, the gentlest and most total instrument of colonial control on the same ground."
+        }
+      ],
       "wikiSlug": "Spanish_missions_in_the_Americas",
       "tier": 3,
       "tags": [],
@@ -1455,6 +2271,12 @@
       "label": "The Twenty-Six Martyrs of Japan",
       "year": 1597,
       "description": "Japan crucified twenty-six Christians at Nagasaki as the shogunate turned against the foreign faith — the first bloody sign that the Jesuit 'Christian century' would end in suppression and expulsion.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The twenty-six included foreign missionaries and Japanese converts — among them three boys, the youngest about twelve. They were marched hundreds of miles in winter to Nagasaki and crucified together on a hill in 1597 as a public warning. It worked as one: Japan went on to ban Christianity outright and, over the following decades, hunted down believers with chilling ingenuity — most infamously the fumi-e, bronze plaques bearing Christian images that suspects were ordered to step on to prove they were not of the faith. Yet the religion didn't fully die. When Japan reopened to the world over two centuries later, missionaries were astonished to find communities of \"hidden Christians\" who had secretly kept a garbled, half-remembered version of the faith alive in total isolation for some 250 years."
+        }
+      ],
       "wikiSlug": "26_Martyrs_of_Japan",
       "tier": 3,
       "tags": [],
@@ -1465,6 +2287,12 @@
       "label": "Bernal Díaz writes the conquest",
       "year": 1568,
       "description": "An old foot-soldier, Bernal Díaz del Castillo, wrote The True History of the Conquest of New Spain — a grumbling, vivid eyewitness account meant to put the common conquistador back in a story the captains had stolen.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He wrote out of indignation. Decades after the conquest, an old and half-blind Bernal Díaz read the polished official histories — especially the one by Cortés's own chaplain — that made the conquest a tale of one great captain's genius, and it galled him: he and the other common soldiers, and the tens of thousands of indigenous allies, had been written out of their own war. So he set down his True History to put them back in, apologizing for his plain soldier's style while delivering something the courtly chroniclers never could — the texture of it, the names of comrades and horses, the fear, the food, the small concrete things only a man who was there would remember. The result is one of the most vivid eyewitness accounts in all of history, and a reminder that even the conquerors fought over who got to own the story."
+        }
+      ],
       "wikiSlug": "Bernal_Díaz_del_Castillo",
       "tier": 3,
       "tags": [],
@@ -1475,6 +2303,12 @@
       "label": "Sahagún's Florentine Codex",
       "year": 1577,
       "description": "The Franciscan Bernardino de Sahagún and his Nahua students compiled the Florentine Codex, a bilingual encyclopedia of Aztec life — much of what we know of the vanished world was recorded by the people who helped erase it.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is one of history's great acts of salvage by the destroyers. The friar Sahagún spent decades with Nahua elders and his own former students compiling a 12-book, roughly 2,400-page encyclopedia of Mexica life — religion, medicine, history, language, the natural world — written in parallel columns of Nahuatl and Spanish and illustrated with some 2,000 images drawn by indigenous artists. The irony is sharp: he built this monument to a civilization precisely to help his fellow missionaries recognize and stamp out its religion. So much of what we know about the Aztec world — including the Nahua side of the conquest itself, told by the people who survived it — comes down to us through a book made by a man trying to erase it. The surviving manuscript ended up in Florence, which is why we call it the Florentine Codex, and UNESCO has placed it on its Memory of the World register."
+        }
+      ],
       "wikiSlug": "Florentine_Codex",
       "tier": 3,
       "tags": [],
@@ -1485,6 +2319,12 @@
       "label": "Camões sings the empire in verse",
       "year": 1572,
       "description": "Luís de Camões published Os Lusíadas, the epic of da Gama's voyage that made Portugal's ocean exploits into national myth — a sailor-poet turning a trade route into Homeric legend.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Camões didn't just write about the age of voyages — he lived its dangers. He lost his right eye soldiering in North Africa, was jailed, and spent years knocking around Portugal's eastern empire, and the poem's survival is the stuff of legend: shipwrecked in the Mekong delta on his way home, he is said to have swum to shore with one arm while holding the only manuscript of his unfinished epic above the water with the other. Published in 1572, Os Lusíadas turned da Gama's trade voyage into a Homeric national myth, complete with Greek gods arguing over the Portuguese in the heavens. It became the founding text of Portuguese literature — the language is sometimes called \"the language of Camões\" — and the proof that the age of exploration was busy mythologizing itself almost before it was over."
+        }
+      ],
       "wikiSlug": "Os_Lusíadas",
       "tier": 3,
       "tags": [],
@@ -1495,6 +2335,12 @@
       "label": "Cieza de León chronicles the Andes",
       "year": 1553,
       "description": "The young soldier Pedro Cieza de León wrote a careful, humane chronicle of Peru and the Inca world he marched through — among the first Europeans to treat a conquered civilization as worth understanding.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He is sometimes called the \"prince of chroniclers,\" and what makes him remarkable is the method behind it: as he marched through Peru as a teenage soldier, he kept notes — by his own account writing them up at night after the day's exhausting travel, while his comrades rested — questioning Inca elders and recording the roads, the ruins, the customs, and the recent horrors of the conquest with a curiosity and fairness rare for his time. He treated the conquered Andean world as a real civilization worth understanding rather than scenery to be plundered, and his chronicle is one of the best windows we have onto the Inca state just as it was being destroyed. The deep irony of this whole chapter sits in men like him: the people who recorded the vanishing world were often the very soldiers who helped make it vanish."
+        }
+      ],
       "wikiSlug": "Pedro_Cieza_de_León",
       "tier": 3,
       "tags": [],
@@ -1505,6 +2351,12 @@
       "label": "The galleon, ship of the silver age",
       "year": 1550,
       "description": "Bigger and more heavily gunned than the carrack, the galleon became the workhorse of the Atlantic treasure fleets and the Pacific run — the armed cargo ship that carried the world's silver and fought off its pirates.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The galleon was the answer to a single problem: how do you build a ship that is both a fat cargo hauler and a warship able to fight off the navies and pirates who want what's inside it? The design trimmed the old carrack's towering, top-heavy castles, sat lower and longer in the water, and lined the hull with gun decks — a vessel that could cross an ocean stuffed with silver and still throw a broadside. The Manila galleons that ran the Pacific were the giants of the type, some of the largest wooden ships of their day, built in the Philippines from dense tropical hardwoods that resisted the cannon and the sea better than European oak. For two and a half centuries the galleon was the literal vehicle of the world's wealth, the ship that carried globalization across two oceans."
+        }
+      ],
       "wikiSlug": "Galleon",
       "tier": 3,
       "tags": [],
@@ -1515,6 +2367,12 @@
       "label": "The treasure fleets sail in convoy",
       "year": 1564,
       "description": "Spain organized its American silver into the flota system — great escorted convoys that crossed the Atlantic together for safety, the financial bloodstream of an empire and the prize every privateer dreamed of taking.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The logic of the convoy was strength in numbers: rather than send lone treasure ships to be picked off by pirates, Spain gathered the year's silver into great escorted fleets that crossed the Atlantic together on a fixed schedule, gathering at Caribbean ports before the dash to Seville. For most of two centuries it worked astonishingly well — the system was robbed wholesale only a handful of times. The most spectacular was in 1628, when the Dutch privateer Piet Heyn captured an entire Spanish silver fleet off Cuba without losing a man, a haul so vast it funded the Dutch war against Spain and made him a national hero (Dutch children still sing a song about it). When the fleet didn't come — sunk by a hurricane, or held in port — a king on the other side of the ocean couldn't pay his armies."
+        }
+      ],
       "wikiSlug": "Spanish_treasure_fleet",
       "tier": 3,
       "tags": [],
@@ -1526,6 +2384,12 @@
       "label": "The Northwest Passage obsession",
       "year": 1576,
       "description": "Convinced of a frozen shortcut to Asia over the top of America, English captains threw lives and fortunes at the Northwest Passage for centuries — the great geographic fantasy the age refused to give up.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dream made a kind of desperate sense: Spain and Portugal controlled the southern routes around Africa and South America, so England and its rivals convinced themselves there had to be a way through over the top of North America. There wasn't — not a usable one. For more than three centuries explorers hurled themselves at the frozen maze of the Arctic and died for it, most catastrophically Sir John Franklin's expedition in the 1840s, whose entire crew of 129 vanished into the ice (recent searches finally found their lost ships only in the 2010s). The passage was not actually navigated end to end until 1906, by Roald Amundsen — and was so choked with ice as to be commercially useless. The bitter irony of the age's last great geographic fantasy: the shortcut was real, but it took 400 years and a warming climate to make it anything but a death trap."
+        }
+      ],
       "wikiSlug": "Northwest_Passage",
       "tier": 3,
       "tags": [],
@@ -1536,6 +2400,12 @@
       "label": "The Plymouth Pilgrims",
       "year": 1620,
       "description": "Religious separatists crossed on the Mayflower and founded Plymouth Colony in New England — the strain of northern settlement driven less by gold than by the search for a place to worship freely.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They were aiming somewhere else entirely. The Pilgrims had a patent to settle near the mouth of the Hudson, in the northern reaches of Virginia, but storms and bad navigation dumped the Mayflower far to the north on Cape Cod — outside any government's authority, which is why, before going ashore, the men signed the Mayflower Compact, an agreement to rule themselves by majority consent that later generations would mythologize as a seed of American democracy. Their survival hinged on a stroke of dark luck: the spot they chose had been a thriving Wampanoag village until an epidemic, carried by earlier European contact, had killed most of its people just a few years before, leaving cleared fields and stored seed for the newcomers to use. Even the colony built on faith rather than gold was, in the end, planted in ground emptied by the same Old World diseases that hollowed out two continents."
+        }
+      ],
       "wikiSlug": "Plymouth_Colony",
       "tier": 3,
       "tags": [],

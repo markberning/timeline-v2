@@ -71,7 +71,13 @@
       "id": "evt-islamic-persia-001",
       "label": "Battle of al-Qadisiyyah breaks the Sasanian army",
       "year": 636,
-      "description": "Arab armies under Saad ibn Abi Waqqas shattered the main Sasanian field force at al-Qadisiyyah in Iraq, opening the Persian heartland to conquest.",
+      "description": "In 636 an Arab army under Saad ibn Abi Waqqas broke the main Sasanian field force on the flat ground at al-Qadisiyyah in southern Iraq — the empire's central army, the one supposed to be unbeatable — and the road to the Persian heartland fell open.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Persian commander was Rostam Farrokhzad, the empire's leading general, and the fighting dragged across several days that the chroniclers gave names to — including a 'night of clamor' when the lines fought in the dark. The end, by tradition, came in a dust storm: with sand blowing into Persian eyes, a stray Arab soldier stumbled on Rostam and beheaded him, and the leaderless army dissolved. The exact year is actually shakier than it looks — most accounts say 636, but some scholars, reading the coin evidence, push the decisive blow a year or two earlier."
+        }
+      ],
       "wikiSlug": "Battle_of_al-Qadisiyyah",
       "tier": 1,
       "tags": [],
@@ -81,7 +87,13 @@
       "id": "evt-islamic-persia-002",
       "label": "Fall of Ctesiphon, the Sasanian capital",
       "year": 637,
-      "description": "The Arabs took Ctesiphon, the great Sasanian capital on the Tigris, carrying off its legendary treasures including a jeweled carpet the size of a garden.",
+      "description": "The Arabs walked into Ctesiphon, the richest city of the Sasanian world, on the Tigris — and into a level of wealth they had never imagined, which they took apart with their swords.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legendary prize was a single ceremonial carpet so enormous and so encrusted with jewels that it depicted an entire garden — paths, streams, and flowers worked in gold thread and gemstones. The conquerors had no use for it whole and no way to keep it, so they cut it into pieces and shared it out. Whether it was quite that fabulous we can't say for sure (the story comes down through writers who loved a good treasure), but the point holds: this was loot on a scale the desert armies had no frame for, and they divided it like spoils of a raid."
+        }
+      ],
       "wikiSlug": "Siege_of_Ctesiphon_(637)",
       "tier": 1,
       "tags": [],
@@ -91,7 +103,13 @@
       "id": "evt-islamic-persia-003",
       "label": "Battle of Nahavand, the 'Victory of Victories'",
       "year": 642,
-      "description": "A decisive Arab victory in the Zagros that the conquerors themselves called the Victory of Victories, ending organized Sasanian resistance on the plateau.",
+      "description": "In the Zagros mountains the Arabs destroyed the last great army the Sasanians could scrape together — a victory the conquerors themselves named the 'Victory of Victories,' after which no central Persian force was left to meet them in open battle.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name was earned in the most literal way: Nahavand was the point of no return. Before it, the empire was wounded; after it, the conquest became a long mopping-up, province by province and city by city, with no field army left to reverse anything. That is why the Zagros mattered — this rugged range walls off the Mesopotamian plain from the high Iranian plateau, and breaking the army that held the passes meant the whole interior was now reachable. Yazdegerd III spent his last decade fleeing east ahead of exactly this slow tide, always raising one more local army, always losing."
+        }
+      ],
       "wikiSlug": "Battle_of_Nahavand",
       "tier": 1,
       "tags": [],
@@ -101,7 +119,13 @@
       "id": "evt-islamic-persia-004",
       "label": "Murder of Yazdegerd III, the last king of kings",
       "year": 651,
-      "description": "The last Sasanian shahanshah was killed by a miller near Merv while fleeing east, ending a 400-year dynasty and over a millennium of Persian imperial monarchy.",
+      "description": "The last 'king of kings,' fleeing east with nothing but his fine clothes, was murdered for them in a miller's hut near Merv — and with him ended a 400-year dynasty and over a thousand years of Persian imperial monarchy.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The miller, by the story, did not know or care who his guest was; he killed a stranger for the jewels and rich clothing. That is the grim joke at the foundation of this whole book — the shahanshah of an empire that had fought Rome to a standstill for centuries died penniless and anonymous in a peasant's house. His was a complete fall: not absorption or slow decline, but a superpower that simply stopped existing as a state in a single generation. There would not be a Persian empire ruled by Persians in the old imperial style for a very long time."
+        }
+      ],
       "wikiSlug": "Yazdegerd_III",
       "tier": 1,
       "tags": [],
@@ -111,7 +135,13 @@
       "id": "evt-islamic-persia-005",
       "label": "Peroz III flees to Tang China",
       "year": 661,
-      "description": "Yazdegerd's son Peroz fled to the Tang court seeking troops to restore the dynasty, setting up a short-lived 'Persian governorate' in exile that never retook home.",
+      "description": "Yazdegerd's son fled all the way to the court of Tang China, hoping to borrow an army to take his kingdom back — the Sasanian dream surviving as a handful of homesick aristocrats at a foreign court 3,000 miles from home.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tang did more than shelter him: they gave the exile a real, if paper-thin, title — 'Governor of Persia' (in Chinese, a Dudu) — and a seat at Jilingcheng, near modern Zaranj on the Iran-Afghanistan border, a 'Persia in exile' under Chinese suzerainty. The Tang even dispatched a general to escort Peroz partway home, though the real mission was crushing a rebellious Turkic khan along the way. The troops to retake Persia never came. Peroz died in China, and the line of the kings of kings petered out at the far end of Asia, lobbying an emperor who had bigger problems."
+        }
+      ],
       "wikiSlug": "Peroz_III",
       "tier": 3,
       "tags": [],
@@ -121,7 +151,13 @@
       "id": "evt-islamic-persia-006",
       "label": "The jizya and the slow road to conversion",
       "year": 670,
-      "description": "Non-Muslims paid the jizya poll tax and kept their faith; for the first century most Persians stayed Zoroastrian, and conversion was a generations-long economic and social drift, not a forced flip.",
+      "description": "A non-Muslim could keep his faith and his temples by paying the jizya, a tax levied per head on each adult non-Muslim man — so for the first century most Persians simply stayed Zoroastrian, and conversion came as a slow drift, not a forced flip.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Here is the counter-intuitive mechanism the popular imagination usually gets backward: the arrangement gave the conquerors no reason to rush anyone into Islam. A province full of Zoroastrians paying the extra tax was a province full of revenue, so the rulers were in no hurry to shrink that tax base. Conversion, when it came, was driven less by preaching than by economics — convert and you stopped paying the surcharge and gained entry to the privileged ruling community. Over a century or two the balance tipped. There was never a moment when Persia 'became Muslim'; there was a long, undramatic tide."
+        }
+      ],
       "wikiSlug": "Jizya",
       "tier": 2,
       "tags": [],
@@ -131,7 +167,13 @@
       "id": "evt-islamic-persia-007",
       "label": "Zoroastrian priests preserve the faith in writing",
       "year": 680,
-      "description": "As conversion advanced, Zoroastrian priests began compiling and codifying their oral scriptures and law in Middle Persian, a defensive act of preservation under a new religion's pressure.",
+      "description": "Watching the tide of conversion come in, Zoroastrian priests did something very human: they began writing down the scriptures they had carried for centuries in memory — bracing a religion for its own decline, in real time.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zoroastrianism is one of the oldest organized faiths on earth, built around a cosmic struggle between Ahura Mazda, a god of light and truth, and a principle of darkness and lies, with sacred fire kept burning in temples as the symbol of the divine. Much of its law and cosmology had lived in priestly recitation, not on the page; now the priests raced to fix it in Middle Persian before the people who held it in their heads were gone. The faith never vanished — it survives today in Iran and especially among the Parsis of India, descended from communities that emigrated to escape exactly this slow squeeze — but it shrank from the religion of an empire to the religion of a minority."
+        }
+      ],
       "wikiSlug": "Zoroastrianism",
       "tier": 2,
       "tags": [],
@@ -141,7 +183,13 @@
       "id": "evt-islamic-persia-008",
       "label": "Persian secretaries staff the caliphal bureaucracy",
       "year": 700,
-      "description": "The conquerors had no administrative machine of their own, so Persian katibs (secretaries) ran the tax registers and chanceries — the first channel by which the conquered began to shape the conquerors.",
+      "description": "The Arabs had a brilliant army and a powerful new faith but no state — no tax registers, no chanceries, no trained clerks — so the conquered Persian secretaries kept their jobs and ran the empire's books, the first channel by which the defeated began to shape the victors.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The katibs were a hereditary professional class who knew how to assess a harvest, calculate what a province owed, and keep the accounts in the old Sasanian way. The most telling detail is the language: for decades after the conquest, the tax registers of the new Arab empire were still being kept in Middle Persian — the tongue of the people who had lost the war — because the people who had won it could not read their own accounts. The small thread that becomes the whole story starts here, with paperwork: the conquered ran the conqueror's state because the conqueror could not."
+        }
+      ],
       "wikiSlug": "Katib",
       "tier": 2,
       "tags": [],
@@ -151,7 +199,13 @@
       "id": "evt-islamic-persia-009",
       "label": "The Mawali grievance and the road to revolution",
       "year": 720,
-      "description": "Non-Arab Muslim converts, the mawali, were treated as second-class despite their faith, and Persian Khurasan became the seedbed of resentment that would topple the Umayyads.",
+      "description": "Islam taught that all believers were equal, but a Persian who converted became a mawla — a 'client,' a second-class Muslim attached as a junior dependent to an Arab tribe — and that broken promise piled up resentment fastest in Khurasan, the great eastern province.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grievance was concrete, not abstract: the mawali were sometimes taxed when they should not have been, kept out of the best posts, and paid less in the army, treated as religious inferiors of people whose only qualification was being born Arab. For a proud Persian who had embraced the faith expecting the equality it preached, that was intolerable. And it concentrated in exactly the worst place for the regime — Khurasan was far from the Arab heartland, heavily settled by both Arab colonists and Persian converts, and full of men with grievances and weapons. That combination is what made it the seedbed of a revolution."
+        }
+      ],
       "wikiSlug": "Mawla",
       "tier": 2,
       "tags": [],
@@ -161,7 +215,13 @@
       "id": "evt-islamic-persia-010",
       "label": "Abu Muslim raises the black banners in Khurasan",
       "year": 747,
-      "description": "The Persian general Abu Muslim launched the Abbasid Revolution from Khurasan in eastern Persia, his army of disaffected Persians and Arabs marching west under black flags.",
+      "description": "A Persian of mysterious origins named Abu Muslim raised the black banners in Khurasan in 747 and gathered the disaffected — mawali Persians cheated of their promised equality, Arabs with their own quarrels — into the army that would topple the ruling dynasty.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Black was the chosen color of the rebellion, and the black flags became its signature. Abu Muslim's own background is genuinely obscure — the sources can't agree where he came from or even his exact name — which is fitting for a man who appeared out of the eastern provinces, assembled a coalition out of pure grievance, and changed the center of gravity of the entire Islamic world. He is the proof of this period's hardest lesson, which the next decade would teach him personally: a Persian could win the war and still lose his head."
+        }
+      ],
       "wikiSlug": "Abu_Muslim_Khorasani",
       "tier": 1,
       "tags": [],
@@ -171,7 +231,13 @@
       "id": "evt-islamic-persia-011",
       "label": "The Abbasid Revolution topples the Umayyads",
       "year": 750,
-      "description": "The Abbasid family seized the caliphate on the back of Persian Khurasani armies, shifting Islam's center of gravity east and inaugurating a far more Persian-flavored empire.",
+      "description": "In 750 the Abbasid family seized the caliphate on the backs of Persian Khurasani armies, hunting the old Umayyad dynasty nearly to extinction and swinging Islam's whole center of gravity east, toward Persia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Umayyads had ruled as a frankly Arab aristocracy from Damascus in Syria since the 660s; the Abbasids, who claimed descent from an uncle of the Prophet, replaced them with an empire that was more cosmopolitan and far more open to the conquered peoples. The hunting-down of the Umayyads was thorough enough to be remembered as a near-extermination — but one prince escaped all the way to Spain and founded a rival dynasty at Córdoba, which is why Islamic Iberia would go its own way. The hinge here is geographic: the empire's heart moved from Arab Syria toward Persian Iraq and Khurasan, and it never moved back."
+        }
+      ],
       "wikiSlug": "Abbasid_Revolution",
       "tier": 1,
       "tags": [],
@@ -181,7 +247,13 @@
       "id": "evt-islamic-persia-012",
       "label": "Baghdad founded near the old Sasanian capital",
       "year": 762,
-      "description": "The Abbasid caliph al-Mansur built a new round capital at Baghdad, a few miles from ruined Ctesiphon, deliberately planting his throne in the old Persian imperial landscape.",
+      "description": "The caliph al-Mansur built a brand-new capital on the Tigris in 762 — a perfect circle, the 'Round City,' with his palace and the great mosque at the dead center — and planted it just upriver from the ruins of Ctesiphon, deliberately claiming the old Persian imperial inheritance.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The round plan was itself an old Persian and Mesopotamian idea about kingship — the ruler at the hub of a cosmic wheel, walls and gates radiating out around him. The placement was no accident of geography either: the Abbasids quarried the sacked Sasanian capital a few miles away for building material, adopted Sasanian court ceremony, Sasanian titles, and the Persian institution of the chief minister. Within a single century the empire that had conquered Persia was dressing itself in Persian clothes, on the same river, in sight of the old throne city it had destroyed."
+        }
+      ],
       "wikiSlug": "Baghdad",
       "tier": 1,
       "tags": [],
@@ -191,7 +263,13 @@
       "id": "evt-islamic-persia-013",
       "label": "Caliph al-Mansur executes Abu Muslim",
       "year": 755,
-      "description": "Having used Abu Muslim to win the throne, the Abbasids murdered him, fearing his Persian following — the revolution's chief engineer became its first famous victim.",
+      "description": "Having ridden Abu Muslim's army to the throne, the Abbasid caliph al-Mansur lured the general to court in 755 and had him killed — the revolution's chief engineer became its first famous victim.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The logic was cold and would repeat all through this story: a man who could raise an army out of Khurasan once could do it again, and Abu Muslim had become far too powerful and far too beloved in Persia for the new dynasty to live with. His murder did not calm the east; it inflamed it. The killing established the pattern this book returns to again and again — a Persian could rise to make or run the empire, and the rising itself painted a target on his back. The Barmakids, two generations later, would learn the same lesson the same way."
+        }
+      ],
       "wikiSlug": "Al-Mansur",
       "tier": 2,
       "tags": [],
@@ -201,7 +279,13 @@
       "id": "evt-islamic-persia-014",
       "label": "The Barmakids: a Persian dynasty of viziers",
       "year": 786,
-      "description": "The Barmakid family, of Buddhist-Persian origin from Balkh, effectively ran the Abbasid empire as hereditary viziers under Harun al-Rashid, the high-water mark of Persian power at the caliphal court.",
+      "description": "A family of Persian converts from Balkh — once the hereditary guardians of a Buddhist temple — rose so fast that under Harun al-Rashid they effectively ran the Islamic world as hereditary viziers, the high-water mark of Persian power at the caliph's court.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sit with the strangeness of it: for a generation, a family that had tended a Buddhist shrine in what is now northern Afghanistan governed the empire of the Thousand and One Nights from Baghdad at its glittering height. And then the pattern of Abu Muslim repeated almost exactly. Around 803 Harun al-Rashid turned on the Barmakids with terrifying suddenness — executing the head of the family and imprisoning the rest — for reasons the sources never quite agree on: too rich, too powerful, too independent, a state within the state. A Persian could rise to run the empire, and the rising itself made him a target."
+        }
+      ],
       "wikiSlug": "Barmakids",
       "tier": 2,
       "tags": [],
@@ -211,7 +295,13 @@
       "id": "evt-islamic-persia-015",
       "label": "Persian revolts: Sunpadh, Ustadh Sis, al-Muqanna",
       "year": 780,
-      "description": "A string of Persian religious-political revolts — Sunpadh, Ustadh Sis, and the 'Veiled Prophet' al-Muqanna who claimed divinity — show how unsettled the newly Islamized plateau remained.",
+      "description": "Across the decades after Abu Muslim's murder, a string of strange and violent Persian uprisings — Sunpadh, Ustadh Sis, and most lurid of all the 'Veiled Prophet' al-Muqanna — showed how much of old Persia was still simmering under the new order.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These revolts fused the new faith with old Persian ideas and local grievance. Sunpadh rose partly to avenge Abu Muslim; al-Muqanna, 'the Veiled One,' wore a veil or mask said by his enemies to hide a face too radiant — or too hideous — to look upon, claimed to be divine, and held a Central Asian fortress against the caliph's armies until his movement was crushed. Every one of them failed. But they are the measure of how unsettled the conquered plateau remained a full century after the conquest, a land still looking for some way to be itself again — and it would find that way not through revolt but through language."
+        }
+      ],
       "wikiSlug": "Al-Muqanna",
       "tier": 3,
       "tags": [],
@@ -221,7 +311,13 @@
       "id": "evt-islamic-persia-016",
       "label": "New Persian is born in Arabic script",
       "year": 800,
-      "description": "Out of spoken Middle Persian, written in a modified Arabic alphabet and salted with Arabic loanwords, emerged New Persian — the language that would carry Persian identity through the whole period.",
+      "description": "Out of the spoken Persian of the eastern provinces grew something genuinely new — New Persian, written in a modified Arabic alphabet and salted with Arabic loanwords, the language still spoken in Iran, Afghanistan, and Tajikistan today.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The crucial point is that New Persian did not survive by keeping Arabic out — it survived by taking Arabic in, borrowing the script and thousands of words while staying, underneath, unmistakably Persian in its grammar and its bones. The closest analogy a reader already knows is English: a Germanic language at its core that absorbed an enormous French vocabulary after 1066, and nobody thinks English is therefore French. New Persian did exactly the same with Arabic — Persian to the bone with a borrowed Arabic wardrobe, and the wardrobe never made it any less Persian."
+        }
+      ],
       "wikiSlug": "Persian_language",
       "tier": 1,
       "tags": [],
@@ -231,7 +327,13 @@
       "id": "evt-islamic-persia-017",
       "label": "The Shu'ubiyya disputes Arab superiority",
       "year": 820,
-      "description": "Persian writers launched the Shu'ubiyya, a literary movement arguing that non-Arabs (above all Persians) were the cultural equals or betters of Arabs, an early assertion of Persian pride within Islam.",
+      "description": "Persian writers, working in Arabic — their opponents' own language — launched the Shu'ubiyya, a generations-long literary war over a single explosive question: were the Arabs actually better than everyone else?",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name comes from a Quranic verse about God creating humanity in 'peoples and tribes' (shu'ub being the peoples). The Arab ruling culture had taken for granted that Arabic was the finest language, Arab lineage the noblest blood, Arab custom the standard of civilization; the Shu'ubiyya writers pushed back hard, cataloguing Persian achievements and reminding everyone that Persia had an ancient empire and refined arts of government when the Arabs were still illiterate desert nomads. Crucially, this was not a call to revolt or leave Islam — it was Muslims arguing inside Islam that the faith did not make Arabs superior. The army was gone, but this argument was won."
+        }
+      ],
       "wikiSlug": "Shu'ubiyya",
       "tier": 1,
       "tags": [],
@@ -241,7 +343,13 @@
       "id": "evt-islamic-persia-018",
       "label": "The translation movement carries Persian learning to Baghdad",
       "year": 810,
-      "description": "Greek, Sanskrit, and Pahlavi works were translated into Arabic at the House of Wisdom, and much of the Pahlavi material — astronomy, ethics, statecraft — was Persia's inheritance entering the new culture.",
+      "description": "The early Abbasid caliphs poured money into a sustained effort to translate the accumulated learning of the ancient world — Greek, Sanskrit, and Pahlavi — into Arabic, gathering half the knowledge of antiquity into a single language just as that language hit its prestige peak.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The work was centered in Baghdad in a milieu later romanticized as the 'House of Wisdom,' staffed by teams of scholars who were often Christian or Persian. Persia's own share of the inheritance — astronomy, ethics, court etiquette, and a whole literature on the art of just kingship handed down from Sasanian times — entered the bloodstream of Islamic civilization at its very center, carried in by Persian translators. So the conquered were not merely keeping their culture alive in some corner; they were injecting it directly into the conqueror's high culture, where it would shape Islamic science and statecraft for centuries."
+        }
+      ],
       "wikiSlug": "Graeco-Arabic_translation_movement",
       "tier": 2,
       "tags": [],
@@ -251,7 +359,13 @@
       "id": "evt-islamic-persia-019",
       "label": "Ibn al-Muqaffa translates Kalila wa-Dimna",
       "year": 750,
-      "description": "The Persian convert Ibn al-Muqaffa rendered the animal-fable book Kalila wa-Dimna and Sasanian court literature into Arabic, smuggling Persian political wisdom into the heart of Islamic letters.",
+      "description": "A Persian convert and brilliant prose stylist rendered the animal-fable book Kalila wa-Dimna into elegant Arabic around 750 — smuggling Persian statecraft into the heart of Islamic letters, dressed up as talking jackals.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The book had travelled far to reach him: it began as an Indian collection, the Panchatantra, was translated into Middle Persian in Sasanian times, and Ibn al-Muqaffa now carried it into Arabic, where it became one of the most copied books in the Islamic world. On the surface the fables are charming children's stories; underneath, they are a manual of how kings should rule and how courtiers stay alive at a dangerous court. Fittingly and grimly, Ibn al-Muqaffa came to a courtier's end himself — executed, gruesomely, by a governor he had offended, proof that the world of his fables was the world he actually lived in."
+        }
+      ],
       "wikiSlug": "Ibn_al-Muqaffa'",
       "tier": 2,
       "tags": [],
@@ -261,7 +375,13 @@
       "id": "evt-islamic-persia-020",
       "label": "The Tahirids: first autonomous Persian dynasty",
       "year": 821,
-      "description": "Tahir ibn Husayn, a Persian general, was rewarded with Khurasan and ruled it as a near-independent dynasty under nominal Abbasid suzerainty — the first crack in caliphal control of Persia.",
+      "description": "Rewarded with the governorship of Khurasan in 821, the Persian general Tahir ibn Husayn promptly began behaving less like a governor and more like a king — the first real crack in the caliphate's grip on Persia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Tahirids invented the polite version of breaking away. They mentioned the caliph's name in the Friday prayers, sent some tribute, paid lip service to Baghdad — and otherwise ran their own state, raised their own troops, and passed power from father to son. This is what overstretched empires always trigger: the caliphate was too vast to govern Khurasan directly, so it delegated to a trusted governor and hoped the money kept coming, and the day-to-day reality of power quietly went local and went Persian. The next dynasty, the Saffarids, would do the same thing without any of the manners."
+        }
+      ],
       "wikiSlug": "Tahirid_dynasty",
       "tier": 2,
       "tags": [],
@@ -271,7 +391,13 @@
       "id": "evt-islamic-persia-021",
       "label": "Ya'qub the Coppersmith and the Saffarid rise",
       "year": 861,
-      "description": "Ya'qub ibn al-Layth, a coppersmith turned warlord, carved out the Saffarid dynasty in Sistan and marched on Baghdad itself, the first ruler to commission poetry in New Persian.",
+      "description": "A coppersmith from the rough frontier of Sistan — nicknamed al-Saffar, 'the Coppersmith' — hammered his way from metalworker to warlord, founded the Saffarid dynasty, and nearly toppled the caliph in Baghdad himself.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ya'qub had no patience for caliphal pretensions; he conquered his way across the Persian east and marched within striking distance of the commander of the faithful before being turned back — a vivid measure of how far real power had already drained from the center. His other claim matters even more for this story: tradition says that when a court poet praised him in Arabic, Ya'qub, who barely knew the language, told the man to compose in something he could understand. So poets began composing in New Persian. He is remembered as the first ruler to put the new written language on the dais beside the throne — out of the tax office and the market, and into court poetry."
+        }
+      ],
       "wikiSlug": "Ya'qub_ibn_al-Layth_al-Saffar",
       "tier": 2,
       "tags": [],
@@ -281,7 +407,13 @@
       "id": "evt-islamic-persia-022",
       "label": "Rudaki, 'father of Persian poetry'",
       "year": 920,
-      "description": "Rudaki, blind court poet of the Samanids, is remembered as the founder of classical Persian poetry, giving the new written language its first great literary voice.",
+      "description": "The Samanids' great court poet — blind, by tradition — is remembered as the 'father of Persian poetry,' the first to prove the young New Persian language could do everything the most refined verse demanded.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Only fragments of Rudaki's enormous output survive, but the fragments are enough to show lyric grace, wit, melancholy, and philosophy — proof that the new written language was no longer just for tax registers and rough frontier courts. To call him the father of the tradition is to say that everything that follows over the next five centuries — Ferdowsi, Khayyam, Rumi, Saadi, Hafez — begins, as a written art, with him. The language had been saved in the chanceries and the markets; Rudaki was the first to make it fly off the page."
+        }
+      ],
       "wikiSlug": "Rudaki",
       "tier": 1,
       "tags": [],
@@ -291,7 +423,13 @@
       "id": "evt-islamic-persia-023",
       "label": "The Samanid dynasty rises at Bukhara",
       "year": 819,
-      "description": "The Samanids, a Persian dynasty claiming Sasanian descent, built a powerful state centered on Bukhara and Samarkand that made eastern Persia the engine of a Persian cultural revival.",
+      "description": "A proudly Persian dynasty that claimed descent from the old Sasanian kings turned a governorship in the far northeast into a wide, wealthy realm — and set out, as a deliberate policy, to make eastern Persia the engine of a cultural revival.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Whether the Sasanian bloodline was literally true matters less than what the claim reveals: the Samanids wished to be seen as the legitimate heirs of pre-Islamic Persian royalty, restoring the glory of the kings of kings under the new faith. They ruled from Transoxiana — 'the land beyond the Oxus,' the rich territory past the Amu Darya in modern Uzbekistan — and like the Tahirids before them, nodded to the distant Abbasid caliph while governing themselves. What set them apart was the renaissance was a project, not an accident of prosperity: they had the money, and they chose to spend it on poets, scholars, and libraries."
+        }
+      ],
       "wikiSlug": "Samanid_Empire",
       "tier": 1,
       "tags": [],
@@ -301,7 +439,13 @@
       "id": "evt-islamic-persia-024",
       "label": "Bukhara becomes 'the dome of Islam in the East'",
       "year": 920,
-      "description": "Under the Samanids, Bukhara grew into a glittering capital of libraries, scholars, and poets, a deliberate revival of Persian high culture under an Islamic skin.",
+      "description": "Under Samanid patronage Bukhara grew so dazzling that the chroniclers called it 'the dome of Islam in the East' — a glittering city of mosques, bazaars, and, crucially, libraries and gardens of scholars.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The library at Bukhara became legendary: the young Avicenna, who got access to it as a teenage physician to the Samanid ruler, later described it as a wonder he never found the equal of — room after room of books sorted by subject, including works he had never heard of and never saw again. Picture what that meant in the tenth century, when Latin Europe was in its deepest cultural trough: a Central Asian city, funded by silver, deliberately assembling the learning of the world. The Samanids set out to make Bukhara the place where the Persian language and Persian learning would have their renaissance, and the libraries are where you can see the policy made physical."
+        }
+      ],
       "wikiSlug": "Bukhara",
       "tier": 2,
       "tags": [],
@@ -311,7 +455,13 @@
       "id": "evt-islamic-persia-025",
       "label": "The Samanid Mausoleum, a masterpiece of brick",
       "year": 914,
-      "description": "The tomb attributed to the Samanid ruler Ismail in Bukhara is one of the earliest and finest works of Islamic Persian architecture, an intricate cube of patterned brickwork.",
+      "description": "The little tomb attributed to the Samanid ruler Ismail in Bukhara is one of the earliest and finest works of Islamic Persian architecture — a deceptively simple cube whose entire skin is woven from patterned brick.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its genius is that it is built almost entirely of baked brick, and turns that humble material into ornament: the bricks are laid in basket-weave and geometric patterns that change with the angle of the sun, so the whole cube seems to shimmer. It crowns the structure with a dome on a square base, an early, elegant solution to a problem Persian builders would keep refining for centuries. That it survived at all is luck — by one account it was buried in silt and forgotten, which spared it both the Mongols and the centuries, until it was dug out and recognized as a masterpiece of the very renaissance it belongs to."
+        }
+      ],
       "wikiSlug": "Samanid_Mausoleum",
       "tier": 2,
       "tags": [],
@@ -321,7 +471,13 @@
       "id": "evt-islamic-persia-026",
       "label": "The Samanid silver economy and the dirham trade",
       "year": 900,
-      "description": "Samanid silver dirhams, minted from Central Asian mines, flowed by the millions north into Viking Russia and Scandinavia, making Bukhara a hub of a continent-spanning trade.",
+      "description": "The renaissance ran on silver: Samanid dirhams, struck from Central Asian mines, flowed north by the hundreds of thousands into Viking hands, so that the medieval Scandinavian economy ran in part on coins minted in Bukhara.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Follow the money and the surprise becomes a chain. Viking and Rus' traders came down the great rivers of what is now Russia and Ukraine carrying furs, amber, and enslaved people, and went home with Samanid silver — so much of it that archaeologists still dig these dirhams out of hoards buried under Swedish farms and Baltic fields. The same silver that paid Rudaki to write poetry in Bukhara could end up in a Norse merchant's strongbox. It is the most concrete proof of how plugged-in the Samanid world was: a Persian dynasty in Uzbekistan, through a chain of river-borne middlemen, was helping to fund the world of the Vikings."
+        }
+      ],
       "wikiSlug": "Dirham",
       "tier": 2,
       "tags": [],
@@ -331,7 +487,13 @@
       "id": "evt-islamic-persia-027",
       "label": "Daqiqi begins the verse epic of Persia's kings",
       "year": 977,
-      "description": "The poet Daqiqi started a Persian national epic in verse but was murdered after a thousand lines; his fragment would be folded into a far greater work by Ferdowsi.",
+      "description": "A poet named Daqiqi set out around 977 to gather the whole sweep of Persia's kings into a single verse epic — and got perhaps a thousand lines in before he was murdered, the project passing to a greater man.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By tradition Daqiqi was killed by his own slave, his great undertaking cut off almost before it began. Here is the grace note that makes the story: Ferdowsi did not bury his predecessor's work. He folded Daqiqi's surviving thousand lines into the Shahnameh as a deliberate tribute, so that the abandoned fragment still lives inside the finished epic. The deeper point is the stakes Daqiqi was racing against — Persia's deep past, its old kings and legendary heroes, lived mostly in scattered Pahlavi texts and oral memory, and in a Persia now writing in Arabic and reading the Quran, that past was in real danger of being forgotten."
+        }
+      ],
       "wikiSlug": "Daqiqi",
       "tier": 3,
       "tags": [],
@@ -341,7 +503,13 @@
       "id": "evt-islamic-persia-028",
       "label": "Ferdowsi completes the Shahnameh",
       "year": 1010,
-      "description": "After some thirty years of work, Ferdowsi finished the Shahnameh, the 'Book of Kings,' a ~50,000-couplet epic of Persia's mythic and historical past in deliberately Arabic-light Persian.",
+      "description": "After roughly thirty years of work, a landowner of modest means from near Tus finished the Shahnameh, the 'Book of Kings' — the single most important text in the Persian language, told in a Persian scrubbed as free of Arabic as he could manage.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale is hard to overstate: around fifty thousand rhyming couplets — on the order of a hundred thousand lines, several times the Iliad and the Odyssey combined — running from the creation of the world and the first king, through the great legendary heroes, down to the fall of the Sasanians and the Arab conquest. And the choice of language was deliberate political art: by reaching for old, pure Persian vocabulary, Ferdowsi proved the tongue could carry the whole weight of the nation's memory on its own. A thousand years on, Iranians still recite it, still name their children after its heroes, still half-know its stories the way an English speaker half-knows Shakespeare."
+        }
+      ],
       "wikiSlug": "Shahnameh",
       "tier": 1,
       "tags": [],
@@ -351,7 +519,13 @@
       "id": "evt-islamic-persia-029",
       "label": "Ferdowsi and the legend of the broken promise",
       "year": 1020,
-      "description": "Tradition says Sultan Mahmud of Ghazni paid Ferdowsi in silver instead of the promised gold; whatever the truth, the Shahnameh became the bedrock of Persian literary identity.",
+      "description": "By the famous legend, Sultan Mahmud of Ghazni promised Ferdowsi a gold coin per couplet and paid him in silver instead — a story that may be pure myth but tells you exactly how Persians needed to understand themselves.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The romantic version is too good to resist: insulted, Ferdowsi gives the silver away on the spot to a bath attendant and a beer-seller, writes a stinging satire of the sultan, and dies poor and embittered — the gold arriving, in the most theatrical telling, just as his funeral leaves the city. How much is true is anyone's guess; it is exactly the kind of tale that grows up around a great artist cheated by a powerful patron, and the details shift from teller to teller. But its very survival is the point: the Persians wanted the story of the Shahnameh to be a story of Persian genius unappreciated by a Turkish king, because that, too, was part of how they understood themselves."
+        }
+      ],
       "wikiSlug": "Ferdowsi",
       "tier": 1,
       "tags": [],
@@ -361,7 +535,13 @@
       "id": "evt-islamic-persia-030",
       "label": "Rustam and the heroes of the Shahnameh",
       "year": 1010,
-      "description": "The epic's central hero Rustam, the tragedy of Sohrab, and the tyrant Zahhak became cultural touchstones recited and painted across the Persianate world for a thousand years.",
+      "description": "The Shahnameh's beating heart is its heroes — above all Rustam, the impossibly strong champion loyal to kings who rarely deserve him, the Persian Hercules and Achilles rolled into one.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rustam's most famous story is also his most heartbreaking: the tragedy of Sohrab, in which the hero, not knowing he has a son, meets that son in single combat and kills him — recognizing the boy only as he lies dying. Persians have wept over it for a thousand years. The epic's great villain is Zahhak, a tyrant with serpents growing from his shoulders that must be fed human brains, finally overthrown by a blacksmith named Kaveh who raises his leather apron as a banner of revolt. These figures became touchstones recited in courts and bazaars and painted in manuscripts — the Shahnameh did for Persia what Homer did for Greece, except Ferdowsi was one identifiable man working in living memory."
+        }
+      ],
       "wikiSlug": "Rostam",
       "tier": 2,
       "tags": [],
@@ -371,7 +551,13 @@
       "id": "evt-islamic-persia-031",
       "label": "Avicenna writes the Canon and the Healing",
       "year": 1025,
-      "description": "Ibn Sina (Avicenna), born near Bukhara, wrote the medical encyclopedia al-Qanun and the philosophical Kitab al-Shifa, dominating both fields in Europe and the Islamic world for centuries.",
+      "description": "Born near Bukhara around 980, Ibn Sina — Avicenna to the Latin West — became the most influential physician and philosopher of the entire medieval world, a prodigy who claimed to have mastered all the learning of his age by his late teens.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Canon of Medicine (al-Qanun) organized the medical knowledge of his world into a single systematic reference so thorough that European medical schools used it as a standard textbook for roughly six hundred years. His philosophical masterwork, the Book of Healing, fused Greek philosophy — above all Aristotle — with Islamic theology so powerfully that he set the agenda for centuries of debate. The measure of that power is its backlash: the theologian al-Ghazali would later write a whole polemic, The Incoherence of the Philosophers, aimed squarely at the rationalist system Avicenna built. You don't refute a man at book length unless he matters enormously."
+        }
+      ],
       "wikiSlug": "Avicenna",
       "tier": 1,
       "tags": [],
@@ -381,7 +567,13 @@
       "id": "evt-islamic-persia-032",
       "label": "Al-Biruni measures the world",
       "year": 1030,
-      "description": "The Persian polymath al-Biruni computed the Earth's radius with remarkable accuracy, wrote a candid ethnography of India, and ranged across astronomy, geology, and pharmacology.",
+      "description": "Avicenna's contemporary al-Biruni was one of the most extraordinary scientific minds of any age — the man who calculated the radius of the Earth from a mountaintop and got a figure strikingly close to the modern value.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His method was as elegant as the result: he measured the angle of the horizon's dip from a known mountain height and worked the geometry from there. But the most telling thing about al-Biruni is his temperament. Travelling to India in the train of conquering armies, he could have written propaganda; instead he wrote a careful, fair-minded, genuinely curious ethnography of Indian religion, science, and custom — a work of comparative scholarship so even-handed it stands almost alone in its century. He ranged across astronomy, geology, pharmacology, and mathematics with the same restless precision, a one-man argument for what the Persian east could produce."
+        }
+      ],
       "wikiSlug": "Al-Biruni",
       "tier": 1,
       "tags": [],
@@ -391,7 +583,13 @@
       "id": "evt-islamic-persia-033",
       "label": "Al-Razi, the great Persian physician",
       "year": 920,
-      "description": "Rhazes (al-Razi), a physician from Rayy, distinguished smallpox from measles and wrote a vast medical compendium, ranking among the most original clinicians of the age.",
+      "description": "Rhazes — al-Razi, a physician from Rayy near modern Tehran — was the most original clinician of the age, the first to clearly tell smallpox from measles by their symptoms.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What set al-Razi apart was that he trusted his own eyes over the authorities. His treatise distinguishing smallpox from measles is built on bedside observation — how the fevers differ, how the rashes emerge — at a time when medicine mostly meant deferring to ancient Greek texts. He compiled a vast medical encyclopedia drawn from those firsthand observations, and he was blunt about charlatans and untested remedies. He sits at the front of the Samanid-era cluster — al-Razi, then Avicenna, al-Biruni, and earlier al-Khwarizmi — that put the Persian east generations ahead of a Latin Europe still in its early-medieval slump."
+        }
+      ],
       "wikiSlug": "Muhammad_ibn_Zakariya_al-Razi",
       "tier": 2,
       "tags": [],
@@ -401,7 +599,13 @@
       "id": "evt-islamic-persia-034",
       "label": "Al-Khwarizmi gives the world algebra",
       "year": 825,
-      "description": "The Persian mathematician al-Khwarizmi, working in Baghdad, wrote the foundational treatise that gave us the word 'algebra,' and whose own name became 'algorithm.'",
+      "description": "Working in ninth-century Baghdad, the Persian mathematician al-Khwarizmi wrote the foundational treatise whose title gave us the word 'algebra' — and whose own Latinized name became 'algorithm.'",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Two words at the absolute core of modern mathematics and computing are the fossilized name and book-title of one Persian scholar from a thousand years ago. 'Algebra' comes from al-jabr in the title of his treatise — roughly, 'the restoring' of balance between the two sides of an equation; 'algorithm' is what Latin scribes made of al-Khwarizmi himself. He also did more than name things: his work helped carry the Indian decimal numerals (the digits we still use) westward into the Islamic world and eventually into Europe. About as concrete a measure as you could ask for of how deep the Persian scientific inheritance runs."
+        }
+      ],
       "wikiSlug": "Al-Khwarizmi",
       "tier": 1,
       "tags": [],
@@ -411,7 +615,13 @@
       "id": "evt-islamic-persia-035",
       "label": "Mahmud of Ghazni raids India for plunder",
       "year": 1000,
-      "description": "The Turkic sultan Mahmud of Ghazni, ruling a Persianate state, launched repeated raids into India; his court at Ghazni patronized Persian poets even as his armies sacked Hindu temples.",
+      "description": "Mahmud of Ghazni was the perfect emblem of his age: a Turkish warlord who sacked Hindu temples by day and patronized Persian poets by night, running a thoroughly Persian court while raiding India for plunder.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "By tradition he launched some seventeen raids into the rich temple-cities of northern India, carrying off staggering quantities of gold and building a reputation as a holy warrior and idol-smasher — the sack of the great temple at Somnath was the most notorious. Yet the wealth funded a court that spoke and wrote Persian, hosted al-Biruni, and (by tradition) received Ferdowsi's Shahnameh. Hold both halves together: the same king who broke Hindu shrines for treasure modeled his kingship on Persian magnificence and bankrolled Persian verse. He is the bridge into the whole rest of the story — the Turk who ruled in Persian."
+        }
+      ],
       "wikiSlug": "Mahmud_of_Ghazni",
       "tier": 2,
       "tags": [],
@@ -421,7 +631,13 @@
       "id": "evt-islamic-persia-036",
       "label": "The Ghaznavids spread Persian culture eastward",
       "year": 1010,
-      "description": "The Ghaznavid court made Persian the language of administration and high culture from Afghanistan to the Punjab, carrying the Persianate model into the Indian subcontinent.",
+      "description": "The Ghaznavids — Turkish slave-soldiers turned kings at Ghazni — made Persian their language of government and high culture, and in carrying it from Afghanistan down into the Punjab they planted the Persianate world inside India.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the pattern that will dominate the next four centuries, showing up here for the first time at full strength: Turks supplying the swords, Persians supplying the culture and the state. The Ghaznavids began as military slaves bought by the Samanids, then seized power for themselves — and instead of imposing anything Turkic, they adopted the Persian courtly model wholesale and exported it east. The seed they planted in the subcontinent would last, through the Delhi Sultanate and then the Mughals, for the better part of a thousand years. The Samanid renaissance did not end in collapse; it ended in export."
+        }
+      ],
       "wikiSlug": "Ghaznavids",
       "tier": 2,
       "tags": [],
@@ -431,7 +647,13 @@
       "id": "evt-islamic-persia-037",
       "label": "The Buyids seize Baghdad and the caliph",
       "year": 945,
-      "description": "The Buyids, a Shia Daylamite dynasty from the Caspian highlands, took Baghdad and reduced the Sunni Abbasid caliph to a powerless figurehead they kept as a religious mascot.",
+      "description": "In 945 a dynasty of Shia mountain warriors from the rain-soaked Caspian highlands marched into Baghdad and took the caliph prisoner in his own palace — keeping him on as a powerless religious mascot, fed, displayed, and obeyed only in ritual.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Buyids came from Daylam, a remote highland south of the Caspian that had been one of the very last parts of Persia to be conquered and converted — a stubborn pocket of fierce hill-people famous as tough mercenary infantry. Three brothers of a Daylamite family named Buya parlayed soldiering into power. The mechanism they invented mattered for centuries: don't depose the caliph (that would unite the Sunni world against you), just hollow him out. The Buyid ruler took the title amir al-umara, 'commander of commanders,' and with it the army, the treasury, and the appointments — the caliph kept the prayers and the coins, and nothing else."
+        }
+      ],
       "wikiSlug": "Buyid_dynasty",
       "tier": 1,
       "tags": [],
@@ -441,7 +663,13 @@
       "id": "evt-islamic-persia-038",
       "label": "Adud al-Dawla, the Buyid king of kings",
       "year": 977,
-      "description": "The greatest Buyid ruler revived the old Persian title shahanshah, built hospitals and dams, and presided over a brief Persian-Shia ascendancy at the heart of the Sunni caliphate.",
+      "description": "The greatest Buyid ruler did something no Muslim had dared since the conquest: he revived the ancient Persian imperial title shahanshah, 'king of kings,' in Baghdad — while keeping the Arab caliph as his ceremonial ornament.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was a stunning gesture, because that title was Yazdegerd III's, the man murdered in the miller's hut three centuries earlier; to take it up again, in the city built on the bones of Ctesiphon, announced that the old Persian imperial idea was not dead at all. Adud al-Dawla acted the part of a great king in full: he built hospitals (a famous one in Baghdad), repaired the irrigation works and dams that kept the land fertile, and patronized poets and scholars on a lavish scale. For a moment the wheel had come full circle — a Persian king of kings ruling from the heart of the empire that had once erased Persia."
+        }
+      ],
       "wikiSlug": "Adud_al-Dawla",
       "tier": 2,
       "tags": [],
@@ -451,7 +679,13 @@
       "id": "evt-islamic-persia-039",
       "label": "The 'Buyid Intermezzo' and the Persian revival",
       "year": 950,
-      "description": "Historians call the Buyid century a 'Persian intermezzo,' when Persian dynasts dominated the caliphate's center and Persian culture, titles, and ceremony came back into fashion.",
+      "description": "Historians call the Buyid century the 'Iranian Intermezzo' — an interlude when Persian dynasts dominated the caliphate's very center and Persian language, titles, and court ceremony came roaring back into fashion.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is worth being honest about what the label is and isn't. The 'intermezzo' is partly a frame historians apply in hindsight — it was no unified Persian empire reborn, but a loose family confederation of brothers who quarreled as often as they cooperated, a Shia minority dependent on a Sunni caliph's legitimacy they did not themselves possess. What is real underneath the tidy name is the genuine phenomenon: across the tenth century the comeback that had begun in the tax office finally reached the throne room, with Persians governing the Islamic world's heart while the caliph the Arabs had founded sat powerless in his palace."
+        }
+      ],
       "wikiSlug": "Iranian_Intermezzo",
       "tier": 2,
       "tags": [],
@@ -461,7 +695,13 @@
       "id": "evt-islamic-persia-040",
       "label": "Shia learning flourishes under the Buyids",
       "year": 990,
-      "description": "Under tolerant Buyid patronage, Twelver Shia scholarship matured — Shaykh al-Mufid and the compilation of the great Shia hadith collections — long before Persia as a whole turned Shia.",
+      "description": "Because the Buyids were themselves Shia, they sheltered Shia scholarship as no Sunni regime would — and under their umbrella the intellectual life of Twelver Shiism came of age, half a millennium before Persia as a whole turned Shia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Twelver Shiism holds that there were twelve rightful imams descending from Ali, the last of whom did not die but went into a hidden state from which he will one day return. Under Buyid protection, scholars like Shaykh al-Mufid could systematize this theology openly; the canonical Shia hadith collections were compiled; the public mourning rituals for the martyred imams were practiced more freely than ever. None of it made Persia Shia — the country stayed overwhelmingly Sunni for another five centuries — but it built the scholarly foundations that a teenage warlord named Ismail would one day stand on when he made Twelver Shiism the permanent identity of Persia. A very long fuse, lit here."
+        }
+      ],
       "wikiSlug": "Al-Shaykh_al-Mufid",
       "tier": 3,
       "tags": [],
@@ -471,7 +711,13 @@
       "id": "evt-islamic-persia-041",
       "label": "The Seljuk Turks enter the Islamic world",
       "year": 1037,
-      "description": "The Seljuks, a clan of Oghuz Turkish nomads recently converted to Sunni Islam, swept off the steppe into Persia, beginning the long age of Turkish dynasties ruling Persian lands.",
+      "description": "A clan of Oghuz Turkish nomads, recently converted to Sunni Islam, drifted south off the open steppe into the rich irrigated lands of Persia — and proceeded, astonishingly, to govern them more Persian than the Persians.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word 'Turk' here needs unpacking, because it doesn't mean what a modern map suggests. The Turkic peoples were nomadic herders from the steppe — the vast treeless grassland running across the top of Asia — whose language is no relation at all to Persian (Persian is Indo-European, the family of English and Latin; Turkic is entirely separate). They lived in felt tents and fought from horseback with the composite bow, the recurved weapon a rider could shoot at full gallop, the technology that made nomad armies the terror of every settled civilization on the edge of the grass. Persia sat on exactly such an edge, and off that edge came the Seljuks, then the Mongols, then Timur."
+        }
+      ],
       "wikiSlug": "Seljuk_Empire",
       "tier": 1,
       "tags": [],
@@ -481,7 +727,13 @@
       "id": "evt-islamic-persia-042",
       "label": "Tughril Beg takes Baghdad and 'frees' the caliph",
       "year": 1055,
-      "description": "The Seljuk chief Tughril Beg marched into Baghdad, ended Buyid rule, restored the Sunni caliph's dignity, and had himself proclaimed sultan — a new model of Turkish-Persian power.",
+      "description": "In 1055 the Seljuk chief Tughril Beg marched into Baghdad, drove out the Shia Buyids, 'freed' the Sunni caliph from his keepers, and had himself proclaimed sultan — inventing the template that defined the next several centuries of Islamic history.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Because the caliph was Sunni and the Seljuks were Sunni, the takeover could be dressed up as a liberation rather than another captivity — a neat improvement on the Buyid arrangement. The deal Tughril struck became the standing template: religious legitimacy in one set of hands, brute political power in another. The caliph kept the spiritual headship of Sunni Islam; the sultan ('holder of power') held the actual armies, taxes, and government. A Turkish warrior-king now ruled in the caliph's name — and would for generations, from the Seljuks through their many heirs."
+        }
+      ],
       "wikiSlug": "Tughril",
       "tier": 1,
       "tags": [],
@@ -491,7 +743,13 @@
       "id": "evt-islamic-persia-043",
       "label": "Battle of Manzikert opens Anatolia",
       "year": 1071,
-      "description": "Alp Arslan's Seljuks crushed the Byzantine army at Manzikert and captured the emperor, opening Anatolia to Turkish settlement and reshaping the map of the Near East.",
+      "description": "In 1071 Sultan Alp Arslan's Seljuks crushed the Byzantine army at Manzikert and captured the emperor himself — a humiliation almost without precedent that cracked open Anatolia, the heartland of modern Turkey, to Turkish settlement.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The battle mattered less for its casualties than for what it unlocked. With the Byzantine field army shattered and the empire thrown into civil war over the captured emperor Romanos IV, the high Anatolian plateau lay open, and Turkish nomads poured in over the following decades. Manzikert is, in a real sense, why there is a country called Turkey: it began the long process by which Greek-speaking Christian Anatolia became Turkish-speaking and Muslim. It also exposed Byzantine weakness so starkly that it helped trigger the call for the First Crusade a generation later — so a Seljuk victory in eastern Anatolia is one of the threads leading to Western knights marching on Jerusalem."
+        }
+      ],
       "wikiSlug": "Battle_of_Manzikert",
       "tier": 1,
       "tags": [],
@@ -501,7 +759,13 @@
       "id": "evt-islamic-persia-044",
       "label": "Nizam al-Mulk, the great Persian vizier",
       "year": 1064,
-      "description": "The Persian vizier Nizam al-Mulk effectively ran the Seljuk empire for two sultans, embodying the partnership in which Turks supplied the army and Persians supplied the state.",
+      "description": "For some thirty years the Persian vizier Nizam al-Mulk — his name a title meaning 'Order of the Realm' — actually ran the Seljuk empire while the sultans led armies and hunted, the living definition of Turks-supply-the-cavalry, Persians-supply-the-state.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He is the answer to the riddle of how a nomad confederation became a sophisticated state almost overnight: it didn't, really — a Persian bureaucrat ran a Persian state and let the Turks think they were in charge of it. Born of modest background near Tus around 1018, Nizam al-Mulk served two sultans, Alp Arslan and his son Malik-Shah, and by general agreement it was the vizier, not the sultan, who governed for most of that time. His career is also a warning the next chapter delivers: in 1092 he was assassinated, by tradition the first famous victim of the Assassins, the mountain sect his own madrasas had been built in part to combat."
+        }
+      ],
       "wikiSlug": "Nizam_al-Mulk",
       "tier": 1,
       "tags": [],
@@ -511,7 +775,13 @@
       "id": "evt-islamic-persia-045",
       "label": "Nizam al-Mulk writes the Siyasatnama",
       "year": 1091,
-      "description": "His Siyasatnama, the 'Book of Government,' became the classic Persian mirror-for-princes, blending Sasanian statecraft with Islamic kingship into a manual studied for centuries.",
+      "description": "Late in life Nizam al-Mulk wrote the Siyasatnama, the 'Book of Government' — a manual of statecraft that fused the old Sasanian ideal of the just king with Islamic duty, and became the classic Persian 'mirror for princes.'",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The genre is called a 'mirror for princes' because it holds up the image of the ideal ruler for a real one to study, and the Siyasatnama is full of hard, practical advice illustrated with stories of earlier kings: watch your spies; keep your soldiers paid so they don't plunder; hear petitioners directly so corrupt officials can't trap you behind a wall of flatterers; be wary of heretics. That last theme had a sharp personal edge, given how he died. The book is one of the clearest single proofs of this whole story's thesis: when a Turkish dynasty wanted to learn how to be a proper monarchy, the textbook it reached for was Persian and drew its model from the empire the Arabs had destroyed four centuries earlier."
+        }
+      ],
       "wikiSlug": "Siyasatnama",
       "tier": 1,
       "tags": [],
@@ -521,7 +791,13 @@
       "id": "evt-islamic-persia-046",
       "label": "The Nizamiyya madrasas systematize learning",
       "year": 1067,
-      "description": "Nizam al-Mulk founded a network of state-funded Nizamiyya colleges, the great Baghdad branch among them, institutionalizing Sunni higher education and the madrasa as we know it.",
+      "description": "Nizam al-Mulk founded a network of state-funded religious colleges — the Nizamiyya, named for himself, the grandest opened in Baghdad in 1067 — turning the madrasa into a deliberate instrument of the state.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Madrasas had existed before, usually as private or charitable foundations. What was new was making them a large-scale, endowed, standardized arm of government across many cities — and the purpose was as much political as educational: to train a reliable class of Sunni scholars and judges loyal to the regime, and to push back against the propaganda of its enemies, above all the Ismaili sect of the next chapter and the rival Shia Fatimid caliphate in Egypt. The most famous teacher the Baghdad Nizamiyya ever hired was al-Ghazali — whose spiritual crisis, when he walked away from that very chair, is its own story."
+        }
+      ],
       "wikiSlug": "Al-Nizamiyya_of_Baghdad",
       "tier": 1,
       "tags": [],
@@ -531,7 +807,13 @@
       "id": "evt-islamic-persia-047",
       "label": "Omar Khayyam reforms the calendar",
       "year": 1079,
-      "description": "The polymath Omar Khayyam led a team that produced the Jalali calendar, more accurate than the Gregorian one that came later, and made breakthroughs in cubic equations.",
+      "description": "Around 1079, under Seljuk patronage, the polymath Omar Khayyam led a team that produced the Jalali calendar — which fixed the length of the year more accurately than the Gregorian calendar Europe would adopt five centuries later.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Khayyam is the figure famous in the West for entirely the wrong reason. In his own time and place he was renowned as a mathematician and astronomer: besides the calendar, named the Jalali after his patron the sultan, he did original work on the geometry of cubic equations, solving them by intersecting conic sections. None of that is what made him a household name abroad — that came centuries later, from a Victorian translation of quatrains attributed to him about wine and doubt and the brevity of life. A man Persians remember as a great scientist, the West remembers as a melancholy poet."
+        }
+      ],
       "wikiSlug": "Omar_Khayyam",
       "tier": 1,
       "tags": [],
@@ -541,7 +823,13 @@
       "id": "evt-islamic-persia-048",
       "label": "The Rubaiyat of Omar Khayyam",
       "year": 1100,
-      "description": "The quatrains (rubaiyat) attributed to Khayyam — wine, doubt, and the brevity of life — became, in Edward FitzGerald's Victorian translation, the most famous Persian poetry in the West.",
+      "description": "The four-line verses attributed to Khayyam — on wine, doubt, fate, and the shortness of life — became, through one Victorian Englishman's loose 1859 translation, the most famous Persian poetry the West has ever read.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is genuinely uncertain how many of the quatrains Khayyam actually wrote; the corpus swelled over centuries until 'a poem by Omar Khayyam' became almost a category that later anonymous skeptical verses got filed under. What is certain is that in 1859 Edward FitzGerald published a loose, beautiful English version that became a runaway sensation — for generations of English speakers the Rubaiyat was the only Persian poetry they had ever heard of. It is a recurring pattern this story keeps flagging: a Persian work reaching the West reshaped, simplified, and stripped of its context, the way Rumi would later arrive in American bookshops."
+        }
+      ],
       "wikiSlug": "Rubaiyat_of_Omar_Khayyam",
       "tier": 2,
       "tags": [],
@@ -551,7 +839,13 @@
       "id": "evt-islamic-persia-049",
       "label": "Persian becomes the language of courts and chanceries",
       "year": 1100,
-      "description": "Under the Seljuks, Persian displaced Arabic as the prestige language of administration and literature across a vast 'Persianate' zone, from Anatolia to Central Asia.",
+      "description": "Under the Seljuks the Persian language completed its conquest of the conquerors: from Anatolia to Central Asia, Persian — not Arabic — became the prestige tongue of administration, poetry, and the cultured court across a vast 'Persianate' world.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Arabic remained the sacred language of the Quran, religion, and law; but the language a king wrote his letters in, a poet sought patronage in, a bureaucrat kept his registers in, was now Persian. The astonishing part is who carried it: the men spreading Persian as the universal court language across half of Asia were overwhelmingly not ethnic Persians but Turks — Seljuks, Ghaznavids, and their heirs — who had adopted Persian high culture so completely that they exported it as their own. A civilization militarily annihilated four hundred years earlier was now the cultural operating system of the entire eastern Islamic world, installed by the descendants of the nomads who had most recently conquered it."
+        }
+      ],
       "wikiSlug": "Persianate_society",
       "tier": 1,
       "tags": [],
@@ -561,7 +855,13 @@
       "id": "evt-islamic-persia-050",
       "label": "The four-iwan mosque and the Isfahan Friday Mosque",
       "year": 1120,
-      "description": "Seljuk builders perfected the four-iwan plan (four vaulted halls around a court), with the Great Mosque of Isfahan its supreme example, setting the template for Persian mosques ever after.",
+      "description": "Seljuk builders perfected the four-iwan mosque — four great vaulted halls facing a central courtyard — and the Friday Mosque of Isfahan, rebuilt in this form, became the template for Persian mosques for the next eight hundred years.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "An iwan is a large vaulted hall open on one side onto a courtyard, a feature with deep roots in pre-Islamic Persian palace architecture, now adapted to a house of prayer; the four-iwan plan put one on each side of the court, often crowned with domes and clad in patterned tile and muqarnas. Nearly every classic Persian mosque you can picture, right through the Safavid masterpieces, descends from it. And the logic was not only beauty: the four iwans organized the huge crowds of a city's congregation, gave the building a monumental face on every side, and announced, in permanent expensive material, the piety and power of the ruler who paid for it."
+        }
+      ],
       "wikiSlug": "Jameh_Mosque_of_Isfahan",
       "tier": 1,
       "tags": [],
@@ -571,7 +871,13 @@
       "id": "evt-islamic-persia-051",
       "label": "Sultan Sanjar and the Seljuk high noon",
       "year": 1118,
-      "description": "Sanjar's long reign marked the zenith and the beginning of the unraveling of Seljuk power in the east, his own tomb at Merv among its grandest monuments.",
+      "description": "Sultan Sanjar's long reign over the eastern lands was the Seljuk sunset, not the noon — the last broad flourishing before real power drained away to local strongmen, his vast tomb at Merv among the dynasty's grandest monuments.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The unraveling was structural, baked into the foundations: in the steppe tradition the realm was treated as family property to be shared among the clan, not a single state passed intact to one heir, so it forever splintered into the appanages of competing princes, each with his own Turkish soldiers and Persian vizier. Sanjar held the east together by force of personality into the 1150s — but he also suffered a humiliating capture by nomad raiders late in life, a sign of how thin the grip had become. After him, power passed to the provincial governors who had grown up under the land-grant system, and one such governor's family was quietly building the empire that the Mongols would destroy."
+        }
+      ],
       "wikiSlug": "Ahmad_Sanjar",
       "tier": 2,
       "tags": [],
@@ -581,7 +887,13 @@
       "id": "evt-islamic-persia-052",
       "label": "The iqta land-grant system",
       "year": 1080,
-      "description": "The Seljuks systematized the iqta, assigning the tax revenue of land to soldiers in lieu of pay, a fiscal-military arrangement that shaped Persian society for centuries.",
+      "description": "To pay an army of expensive cavalry without a reliable cash treasury, the Seljuks systematized the iqta — a grant that let a soldier collect the tax revenue of a piece of land directly, in place of a salary in coin.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was an elegant fix for a cash-poor empire's payroll: instead of the state taxing farmers and paying troops, the troops collected a defined share of the taxes themselves, on the spot. Variants of the arrangement organized Persian and wider Islamic fiscal-military life for generations. But it carried the same danger that haunted feudal Europe — a soldier with his own land and his own income is a soldier who may decide he no longer needs the sultan. The slow fraying of central control along exactly these lines is part of how the brilliant Seljuk machine eventually came apart."
+        }
+      ],
       "wikiSlug": "Iqta'",
       "tier": 3,
       "tags": [],
@@ -591,7 +903,13 @@
       "id": "evt-islamic-persia-053",
       "label": "Hasan-i Sabbah seizes Alamut",
       "year": 1090,
-      "description": "The Nizari Ismaili leader Hasan-i Sabbah captured the mountain fortress of Alamut in northern Persia, founding a network of castles that became the base of the Assassins.",
+      "description": "In 1090 the brilliant, austere Ismaili missionary Hasan-i Sabbah took the remote mountain fortress of Alamut — and built from it a strategy that let a tiny religious minority be unconquerable inside an empire that wanted it dead.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hasan grasped his situation with perfect clarity: a scattered, secret minority could never win a conventional war against the Seljuk state, which had more soldiers, more money, and more cities. So he didn't try. He seized Alamut not by storming it but by a patient mix of infiltration and persuasion, then built a network of similar eagle's-nest castles across northern Persia and later Syria — strongholds so high and defensible that a small loyal garrison could hold each one against an army. It was a state with almost no territory, just a string of impregnable rocks embedded inside the empire — and from it he invented a new kind of power."
+        }
+      ],
       "wikiSlug": "Hasan-i_Sabbah",
       "tier": 1,
       "tags": [],
@@ -601,7 +919,13 @@
       "id": "evt-islamic-persia-054",
       "label": "The Nizari Ismailis and the 'New Preaching'",
       "year": 1094,
-      "description": "After a disputed Fatimid succession, the Nizari branch of Ismaili Shiism became a revolutionary movement, its scattered fortress communities surviving as a state-within-states.",
+      "description": "When the Fatimid caliph of Egypt died in 1094, Hasan's community backed the losing claimant, Nizar, broke with Cairo, and became the Nizari Ismailis — a Shia splinter of a Shia splinter, alone on every side, holding nothing but their mountains.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "To place them: the Ismailis were one branch of Shia Islam, named for an Imam called Ismail, with an elaborate esoteric doctrine — that scripture and law carry hidden spiritual meanings accessible only through the teaching of the living rightful Imam. The Fatimids, an Ismaili dynasty ruling Egypt, were the great rivals of the Sunni Abbasids and Seljuks, and ran a network of secret missionaries (a da'i, a 'summoner') across the east. Hasan was one of them — until the 1094 succession crisis. His followers kept their loyalty to Nizar's murdered line and took their lead from Alamut, not Cairo, a movement scholars sometimes call the 'New Preaching.'"
+        }
+      ],
       "wikiSlug": "Nizari_Isma'ilism",
       "tier": 2,
       "tags": [],
@@ -611,7 +935,13 @@
       "id": "evt-islamic-persia-055",
       "label": "The Assassins and the politics of the dagger",
       "year": 1092,
-      "description": "The Nizaris pioneered targeted political killing of far stronger enemies — the 'Assassins' of European legend — beginning, by tradition, with the murder of Nizam al-Mulk himself.",
+      "description": "Unable to field an army, the Nizaris turned targeted political murder into a disciplined instrument of state — usually a dagger, usually in public, often at the cost of the killer's own life — the 'Assassins' of European legend.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The logic was coldly rational: a community that cannot beat an empire's army can still kill the one man holding a campaign together. The mere threat — that any commander who marched on Alamut might be stabbed in his own mosque by a man who had patiently worked his way into his household for months — bought a deterrence no number of soldiers could. The word 'assassin' itself comes through medieval European writers from Hashishin, 'hashish-users,' almost certainly a slur thrown by the Nizaris' enemies rather than a description of their habits. There is no good evidence they actually drugged their agents; the reality was devout believers, which is far more unsettling than drugged dupes."
+        }
+      ],
       "wikiSlug": "Order_of_Assassins",
       "tier": 1,
       "tags": [],
@@ -621,7 +951,13 @@
       "id": "evt-islamic-persia-056",
       "label": "Alamut's library and the 'Old Man of the Mountain'",
       "year": 1140,
-      "description": "Alamut held a famous library and laboratory; later European legend, drawing on Marco Polo, invented the lurid tale of a 'Old Man of the Mountain' drugging recruits in a secret garden.",
+      "description": "Far from a den of intoxicated killers, Alamut housed a famous library and was a serious center of Ismaili learning — the lurid 'Old Man of the Mountain' and his secret garden are a European fantasy, not the record.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The strongest proof of the fortress's seriousness is a single biography: Nasir al-Din al-Tusi, one of the greatest scientists of the entire medieval world, spent decades doing his work in the Nizari libraries before the end came. A community that could shelter and support a mind like his was not a drug cult — it was a small, embattled, intellectually ambitious religious state that had solved the problem of survival more ingeniously than anyone before it. The garden-of-delights legend was assembled later by outsiders, above all Marco Polo, repeating campfire stories decades after Alamut had already fallen."
+        }
+      ],
       "wikiSlug": "Alamut_Castle",
       "tier": 2,
       "tags": [],
@@ -631,7 +967,13 @@
       "id": "evt-islamic-persia-057",
       "label": "Al-Ghazali's crisis and 'The Revival'",
       "year": 1095,
-      "description": "The leading theologian of the age, al-Ghazali, abandoned his Baghdad professorship in a spiritual crisis and wrote the Ihya, reconciling orthodox Islam with the inner path of Sufism.",
+      "description": "At the height of his fame the most celebrated theologian alive walked away from everything — the prestigious Baghdad chair, the honors, the security — in a spiritual breakdown, and out of it wrote the book that reconciled orthodox Islam with the inner path of Sufism.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Around 1095 al-Ghazali became convinced that all his learning was hollow — that he was teaching religion for fame and salary rather than for God, and did not actually know, in his heart, what he so brilliantly argued. By his own account he was physically unable to speak or lecture; his health collapsed, and he left Baghdad to spend roughly a decade wandering in poverty as a Sufi seeker. The masterwork that came out of it, the Ihya ('The Revival of the Religious Sciences'), argued that law and theology were the necessary outer shell and disciplined Sufism the living kernel they protected — and because the argument came from the establishment's own greatest mind, it stuck."
+        }
+      ],
       "wikiSlug": "Al-Ghazali",
       "tier": 1,
       "tags": [],
@@ -641,7 +983,13 @@
       "id": "evt-islamic-persia-058",
       "label": "Al-Ghazali critiques the philosophers",
       "year": 1095,
-      "description": "His Incoherence of the Philosophers challenged the Avicennan rationalists; the resulting debate, answered later by Averroes, shaped the limits of philosophy in Islamic thought.",
+      "description": "In a sharp polemic, al-Ghazali turned on the Islamic philosophers — above all the rationalist system Avicenna had built on Greek thought — attacking conclusions he judged flatly incompatible with Islamic doctrine.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His targets were specific: the philosophers' claims that the world is eternal (rather than created), or that God knows only universals and not particular things, struck al-Ghazali as heresies dressed up as logic, and he dismantled them with the philosophers' own rigor. The book drew a famous century-later rebuttal from the Spanish-Arab philosopher Averroes, pointedly titled The Incoherence of the Incoherence — a debate that, carried into Latin Europe, helped shape Western thought too. Historians still argue how decisive al-Ghazali's blow really was to the prestige of rationalist philosophy in the East; that it framed the question of where reason ends and revelation begins, for the whole tradition after him, is not in doubt."
+        }
+      ],
       "wikiSlug": "The_Incoherence_of_the_Philosophers",
       "tier": 2,
       "tags": [],
@@ -651,7 +999,13 @@
       "id": "evt-islamic-persia-059",
       "label": "Sanai and the rise of Sufi poetry",
       "year": 1130,
-      "description": "Sanai of Ghazni turned Persian verse toward mystical themes, pioneering the long Sufi narrative poem (masnavi) that Attar and Rumi would carry to its height.",
+      "description": "Sanai of Ghazni turned away from writing praise-poems for princes toward mystical themes, pioneering the long Sufi narrative poem — the verse form in which the greatest Persian mystical works would later be written.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The form he pioneered is the masnavi, a poem in rhyming couplets that could run to enormous length — perfect for unspooling a spiritual journey or a chain of teaching-stories, where a tight lyric could not. By steering the new poetic language away from the court and toward the longing for God, Sanai opened the road that Attar's Conference of the Birds and, above all, Rumi's vast Masnavi would travel to its summit. He is the quiet hinge of the chapter: the moment Persian verse stopped only flattering kings and started mapping the soul."
+        }
+      ],
       "wikiSlug": "Sanai",
       "tier": 2,
       "tags": [],
@@ -661,7 +1015,13 @@
       "id": "evt-islamic-persia-060",
       "label": "Attar writes the Conference of the Birds",
       "year": 1177,
-      "description": "Farid al-Din Attar's allegory, in which the birds of the world seek their king and find themselves, became one of the great mystical poems of the Persian language.",
+      "description": "Around 1177 the druggist-poet Attar of Nishapur wrote the Conference of the Birds, in which the birds of the world journey to seek their king and discover, in a sublime pun, that the divine they searched for was themselves all along.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Attar's name means 'the perfumer' or apothecary — he kept a pharmacy, and the stream of patients pouring out their troubles may have fed the poem's deep human sympathy. The birds set out for a mythical king-bird called the Simurgh, crossing seven perilous valleys and dropping away one by one through fear and weakness, until only thirty complete the journey — and the punchline is built into the Persian itself: si murgh means 'thirty birds.' The thirty survivors are the Simurgh; the God they crossed the world to find was within them. It is a Sufi map of the soul's journey told as a bird-fable, and it has never stopped being read."
+        }
+      ],
       "wikiSlug": "The_Conference_of_the_Birds",
       "tier": 2,
       "tags": [],
@@ -671,7 +1031,13 @@
       "id": "evt-islamic-persia-061",
       "label": "Nizami Ganjavi and the romance of Khamsa",
       "year": 1188,
-      "description": "Nizami of Ganja composed the Khamsa, five romantic epics including Layla and Majnun and Khosrow and Shirin, defining Persian narrative poetry's idea of love.",
+      "description": "Working in a different key from the mystics, Nizami of Ganja composed the Khamsa — the 'Quintet,' five long narrative poems that defined the Persian romance and the very idea of love in the language for everyone after him.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Two of the five are still household names across the Persianate world. Layla and Majnun is the tragedy of a man driven literally mad by an unattainable love — the name Majnun means 'the possessed one' — a story sometimes called the Romeo and Juliet of the East, except it predates Shakespeare by four centuries. Khosrow and Shirin is the great romance of a Sasanian king and his beloved, reaching back to the pre-Islamic past the Shahnameh had revived. Nizami's gorgeous, intricate storytelling became the template that painters illustrated and poets imitated for centuries — the source-code of Persian love poetry."
+        }
+      ],
       "wikiSlug": "Nizami_Ganjavi",
       "tier": 2,
       "tags": [],
@@ -681,7 +1047,13 @@
       "id": "evt-islamic-persia-062",
       "label": "Suhrawardi founds the 'Philosophy of Illumination'",
       "year": 1186,
-      "description": "The Persian philosopher Suhrawardi fused Avicennan logic with ancient Persian and Platonic light-mysticism into a new school, before being executed for heresy at Aleppo.",
+      "description": "In the 1180s the Persian thinker Suhrawardi founded a whole school of mystical philosophy — the 'Philosophy of Illumination' — fusing Avicenna's logic with ancient Persian and Platonic imagery of light as the very substance of reality.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was brilliant, daring, and short-lived. His system reached back past Islam and Greece alike to old Iranian ideas of light and darkness — knowledge as illumination, the divine as a hierarchy of lights — and it was judged heretical for it. Around 1191 he was executed at Aleppo, still in his thirties, which earned him the somber title 'the Murdered.' That he died young and condemned, yet his light-mysticism became a lasting current in later Persian thought, makes him a small echo of the chapter's larger theme: the ideas survive even when the men who carry them do not."
+        }
+      ],
       "wikiSlug": "Shahab_al-Din_Suhrawardi",
       "tier": 3,
       "tags": [],
@@ -691,7 +1063,13 @@
       "id": "evt-islamic-persia-063",
       "label": "Sufi orders organize the inner life of Persia",
       "year": 1150,
-      "description": "Formal Sufi brotherhoods (tariqas) with lodges, masters, and chains of initiation spread across Persia, becoming the dominant form of popular religion for the rest of the period.",
+      "description": "Formal Sufi brotherhoods — tariqas, built around lodges, living masters, and chains of initiation reaching back to a founding saint — spread across Persia and became the dominant form of lived, popular religion for the rest of the period.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A tariqa (the word means 'path' or 'way') was where most Persians actually experienced their faith — far more than in the law schools or the theologians' debates: a lodge where members gathered, a master to guide each disciple, distinctive chants and devotions. This decentralization matters enormously for what was coming. By the early thirteenth century, religion in Persia was no longer concentrated in caliphs and capitals that an army could destroy; it had dispersed into thousands of lodges and into a body of poetry held in millions of memories. That is a large part of why the Mongol catastrophe could smash the cities and still not kill the culture."
+        }
+      ],
       "wikiSlug": "Tariqa",
       "tier": 2,
       "tags": [],
@@ -701,7 +1079,13 @@
       "id": "evt-islamic-persia-064",
       "label": "The Khwarazmian Empire rises on the Seljuk ruins",
       "year": 1190,
-      "description": "The Khwarazm-Shahs, originally Seljuk provincial governors of the Amu Darya delta, expanded to dominate Persia and Central Asia in a single rapid generation of conquest.",
+      "description": "The Khwarazm-Shahs — Turkic governors of the Amu Darya delta who had served the Seljuks — exploded out of their river base to swallow most of Persia and Central Asia in a single generation, assembling the largest Muslim empire of its day.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Khwarazm sat on the delta where the Amu Darya — the river the Greeks called the Oxus — empties into the Aral Sea, an old, rich, irrigated land of trading cities on the northern edge of the Persianate world where the settled lands met the steppe. As the Seljuk empire fractured after Sanjar, its governors did what governors everywhere were doing — made themselves independent — but the Khwarazm-Shahs did it bigger than anyone. On a map the result looked colossal, a worthy successor to the Seljuks. It was, in reality, a shell, and the next entries explain why."
+        }
+      ],
       "wikiSlug": "Khwarazmian_Empire",
       "tier": 1,
       "tags": [],
@@ -711,7 +1095,13 @@
       "id": "evt-islamic-persia-065",
       "label": "Ala al-Din Muhammad II overreaches",
       "year": 1210,
-      "description": "The Khwarazm-Shah Muhammad II built the largest Muslim empire of his day, but it was a brittle, overstretched structure of distrustful Turkic commanders held together by fear.",
+      "description": "Ala al-Din Muhammad II ruled a realm that looked like a great power and would shatter at the first hard blow — held together by force and fear rather than loyalty, an empire wide in extent and thin in everything that makes a state hold.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Compare it to the Seljuks. Their strength was a partnership cured over generations — Turkish soldiers and Persian administrators who had learned to work as one machine. Muhammad's empire had no such depth: its army was a mass of recently-recruited Turkic warriors loyal to their own tribal commanders, not the throne; its conquered cities were swallowed too recently to be digested. And Muhammad made it worse, distrusting his own generals and quarreling so bitterly with the Abbasid caliph — whom he tried to depose — that he forfeited the one source of religious legitimacy that might have rallied the Muslim world behind him. He had built a façade, and the blow was about to come from a direction he barely understood."
+        }
+      ],
       "wikiSlug": "Muhammad_II_of_Khwarazm",
       "tier": 2,
       "tags": [],
@@ -721,7 +1111,13 @@
       "id": "evt-islamic-persia-066",
       "label": "The Otrar massacre provokes Genghis Khan",
       "year": 1218,
-      "description": "A Khwarazmian governor at Otrar seized and killed a Mongol trade caravan and Genghis Khan's envoys, the fatal insult that turned the Mongols west toward Persia.",
+      "description": "In 1218 a Khwarazmian governor at the frontier city of Otrar seized a large Mongol trade caravan, called the merchants spies, and had them killed — one of the most consequential blunders in human history.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The detail the legend usually misses is that Genghis Khan did not want to invade the Muslim world — he wanted to trade with it. The two empires were neighbors, the Silk Road ran between them, and he had sent the caravan and his envoys to open peaceful relations. The governor of Otrar, a relative of the Shah named Inalchuq, killed them for their goods. When Genghis — who by the sacred steppe law of diplomacy held envoys and the security of trade to be inviolable — demanded the governor be handed over, Muhammad refused and abused the second embassy too. That sealed his empire's fate: it turned the deadliest army on earth from facing east toward China to facing west toward Persia."
+        }
+      ],
       "wikiSlug": "Otrar",
       "tier": 1,
       "tags": [],
@@ -731,7 +1127,13 @@
       "id": "evt-islamic-persia-067",
       "label": "Genghis Khan invades Khwarazm",
       "year": 1219,
-      "description": "Genghis Khan led a massive Mongol invasion into Khwarazmian territory, beginning the most destructive conquest in Persian memory and the end of the eastern Islamic world's old order.",
+      "description": "In 1219 Genghis Khan crossed into Khwarazmian territory — not for plunder or the ordinary aims of conquest, but for revenge, and in a mood to annihilate — opening the most destructive conquest in Persian memory.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The army that came makes the destruction make sense. The Mongol force was the most disciplined and mobile in the world: mounted archers on tough steppe ponies, each man with a string of remounts so the army could cover a hundred miles a day, coordinating across vast distances with signal flags and fast riders, and — crucially for a war on cities — using captured Chinese engineers and siege catapults. It ran on deliberate terror: a city that surrendered at once was spared and taxed; one that resisted was made into an example so horrifying the next would not dare. The massacres were not the war getting out of hand. They were the strategy."
+        }
+      ],
       "wikiSlug": "Mongol_invasion_of_Khwarazmia",
       "tier": 1,
       "tags": [],
@@ -741,7 +1143,13 @@
       "id": "evt-islamic-persia-068",
       "label": "The sack of Bukhara and Samarkand",
       "year": 1220,
-      "description": "The Mongols stormed the great Samanid-Seljuk cities of Bukhara and Samarkand, burning, massacring, and enslaving on a scale that contemporary Persian chroniclers struggled to describe.",
+      "description": "In 1220 the Mongols took the great cities of Bukhara and Samarkand — Bukhara, the old Samanid capital once called 'the dome of Islam in the East,' driven out and burned, its sacred mosque dishonored.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The surviving story has Genghis Khan riding into Bukhara's great congregational mosque, asking whether it was the sultan's palace, being told it was the house of God — and ordering the grain chests stored there and the holy Qurans trampled under his cavalry's hooves while the city's notables held the bridles. Whether literally accurate or a chronicler's image of the world turned upside down, it captures what Bukhara meant to Persian memory: the sacred itself defiled. Samarkand fell within weeks, betrayed in part by its own garrison, its craftsmen deported east to serve Mongol needs. Juvayni's famous line — the Mongols 'came, uprooted, burned, slain, carried off, and departed' — is as close as medieval Persian prose comes to a scream."
+        }
+      ],
       "wikiSlug": "Mongol_invasion_of_Khwarazmia",
       "tier": 1,
       "tags": [],
@@ -751,7 +1159,13 @@
       "id": "evt-islamic-persia-069",
       "label": "The destruction of the Khurasan cities",
       "year": 1221,
-      "description": "Merv, Nishapur, and Herat — among the largest cities on earth — were systematically destroyed; the death tolls in the chronicles, however inflated, signal a genuine demographic catastrophe.",
+      "description": "In 1221 the Mongols destroyed Merv, Nishapur, and Herat — three of the largest cities on earth, the densest concentration of Persian learning and wealth in the world — in a campaign so thorough it changed the region's demography for centuries.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each city met its own horror. Merv, possibly the most populous city in the world at the time, surrendered and was massacred anyway. Nishapur, where a Mongol prince and son-in-law of Genghis had been killed by a crossbow bolt during the assault, was singled out for a vengeance so total the chroniclers say the heads were stacked in pyramids, men, women, and children in separate heaps. Herat was destroyed, repopulated, and destroyed again when it rebelled. The body counts — hundreds of thousands, even over a million at one city — are almost certainly inflated, the language of trauma rather than a census; but even discounted heavily, this was the deliberate erasure of an urban civilization in about two years."
+        }
+      ],
       "wikiSlug": "Siege_of_Merv_(1221)",
       "tier": 1,
       "tags": [],
@@ -761,7 +1175,13 @@
       "id": "evt-islamic-persia-070",
       "label": "The qanat irrigation system shattered",
       "year": 1221,
-      "description": "The Mongol devastation wrecked the qanats — the underground irrigation channels that made the dry plateau farmable — and some regions never recovered their pre-conquest populations.",
+      "description": "The unromantic core of the catastrophe was not the heaped skulls the chronicles love but the empty fields nobody could refill: the Mongols wrecked the qanats, the underground channels that made the dry Iranian plateau farmable at all.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A qanat is a gently sloping tunnel dug from a water source in the hills down to the fields, sometimes for miles, with vertical shafts to the surface for digging and maintenance — it carries water without the evaporation losses of an open canal, and it represents centuries of accumulated, skilled underground labor. Here is why it killed so slowly: a collapsed qanat is not a thing you switch back on; it has to be re-dug by people who know how, and the people who knew how were dead or scattered. So when the Mongols killed the populations who maintained them, the tunnels silted up, whole districts reverted to desert, and some regions of northeastern Persia did not recover their pre-Mongol population for centuries — arguably some never have."
+        }
+      ],
       "wikiSlug": "Qanat",
       "tier": 2,
       "tags": [],
@@ -771,7 +1191,13 @@
       "id": "evt-islamic-persia-071",
       "label": "Jalal al-Din Mangburni's last stand",
       "year": 1231,
-      "description": "The last Khwarazm-Shah, Jalal al-Din, fought a decade-long fugitive resistance from India to the Caucasus before being killed, the final flicker of pre-Mongol Persian sovereignty.",
+      "description": "The shah's son Jalal al-Din turned out to be everything his father was not — a genuinely brave and capable soldier — and fought a decade-long fugitive war against the Mongols, the last flicker of pre-Mongol Persian sovereignty.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He won the occasional battle, swam the Indus on horseback to escape into India when he had to, raided the Caucasus, and made himself a nuisance from one end of the wreckage to the other. But he commanded the last loyal scraps of a dead empire and alienated nearly every Muslim power that might have helped him, and in 1231 he was killed in obscure circumstances in the mountains of Anatolia — reportedly by a Kurdish bandit who had no idea who he was. There is a bitter symmetry in it: the empire began with a king who died abandoned, and it ended with his son killed anonymously by a man who didn't recognize him."
+        }
+      ],
       "wikiSlug": "Jalal_al-Din_Mangburni",
       "tier": 2,
       "tags": [],
@@ -781,7 +1207,13 @@
       "id": "evt-islamic-persia-072",
       "label": "Rumi flees the Mongols to Konya",
       "year": 1228,
-      "description": "Jalal al-Din Rumi's family fled the Mongol advance from Balkh westward to Konya in Anatolia, where the greatest of all Persian mystical poets would spend his life.",
+      "description": "While Rumi was a boy, his family fled the Mongol advance west from Balkh, settling at last in Konya in Anatolia — so the greatest of all Persian poets wrote his Persian masterpieces not in Persia at all, but as a refugee a thousand miles from home.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That fact is the whole thesis of this story compressed into one biography: the culture had become so portable, so interior, that it could be carried in a refugee's head across a thousand miles and flower more brilliantly than ever in exile. The family settled in Konya — former Byzantine land the Seljuks had turned Turkish and Persianate after Manzikert — and the local place-name 'Rum' (Rome) gave Jalal al-Din the name we know him by. The terror that seemed to be ending Persian civilization was, at the very same moment, scattering the seeds of its most famous flowering westward, out of the kill zone."
+        }
+      ],
       "wikiSlug": "Rumi",
       "tier": 1,
       "tags": [],
@@ -791,7 +1223,13 @@
       "id": "evt-islamic-persia-073",
       "label": "Rumi meets Shams and writes the Masnavi",
       "year": 1244,
-      "description": "Rumi's transformative encounter with the wandering mystic Shams of Tabriz unleashed the ecstatic poetry of the Divan and the vast Masnavi, the 'Quran in Persian.'",
+      "description": "Around 1244 a sober scholar-preacher met a wandering, electrifying mystic named Shams of Tabriz — and the encounter detonated something that turned Rumi into an ecstatic poet, pouring out the Divan and the vast Masnavi.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The friendship with Shams was so intense and transformative that Rumi's own circle grew jealous, and Shams eventually vanished — possibly murdered — leaving Rumi to channel his grief and longing into verse. The Masnavi runs to some twenty-five thousand couplets, a teeming compendium of stories, parables, and meditations on the soul's love for and journey toward God, so revered it is sometimes called 'the Quran in the Persian tongue.' Rumi's central image is love as the engine of all reality — which is also why, eight centuries on, loose English adaptations that quietly strip out the deeply Islamic context have made him a perennial bestseller in American bookshops."
+        }
+      ],
       "wikiSlug": "Masnavi",
       "tier": 1,
       "tags": [],
@@ -801,7 +1239,13 @@
       "id": "evt-islamic-persia-074",
       "label": "Saadi of Shiraz writes the Gulistan",
       "year": 1258,
-      "description": "Saadi, who survived the Mongol age by long wandering, wrote the Gulistan and Bustan, collections of moral tales and verse that became the most quoted Persian books for centuries.",
+      "description": "Saadi of Shiraz survived the worst decades of the Mongol age by spending them wandering far from home, then came back and wrote the Gulistan and Bustan — the most quoted and most-taught books in the entire Persian language for centuries after.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His long exile was the making of him: by his own telling Saadi roamed for decades across the Islamic world — Baghdad, Arabia, Syria, perhaps India — gathering the stories and hard-won practical wisdom that fill his books, and only after the Mongols had done their worst did he return to Shiraz. The Gulistan ('The Rose Garden') and Bustan ('The Orchard') are collections of moral tales and verse, worldly and humane and quotable, the texts on which generations of Persian-speaking children learned to read. His life is the chapter's quiet argument made flesh: the culture's most durable things had gone portable, carried in a wanderer's memory through the catastrophe and home again."
+        }
+      ],
       "wikiSlug": "Saadi_Shirazi",
       "tier": 1,
       "tags": [],
@@ -811,7 +1255,13 @@
       "id": "evt-islamic-persia-075",
       "label": "The Mevlevi 'whirling dervishes' founded",
       "year": 1273,
-      "description": "After Rumi's death his followers organized the Mevlevi order, whose meditative whirling dance (the sama) became the most famous image of Persian-influenced Sufi practice.",
+      "description": "After Rumi's death in 1273 his followers organized the Mevlevi order — the 'whirling dervishes' of the modern image, whose meditative spinning dance became the most famous picture of Persian-influenced Sufi practice.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dance is the sama, and it is not a performance but a form of worship: the dervish turns with one palm raised to receive grace from heaven and one turned down to pass it to the earth, the body spinning while the soul reaches for God, music and rhythm carrying the dancer toward ecstasy. It grew out of Rumi's own ecstatic temperament, codified by his successors into a disciplined ritual. The Mevlevis are one instance of the broader tariqa phenomenon, but the one whose image traveled farthest — the white-robed turning figure is, for much of the world, the face of Sufism itself."
+        }
+      ],
       "wikiSlug": "Mevlevi_Order",
       "tier": 2,
       "tags": [],
@@ -821,7 +1271,13 @@
       "id": "evt-islamic-persia-076",
       "label": "Hulagu Khan invades for the Great Khan",
       "year": 1256,
-      "description": "Genghis Khan's grandson Hulagu led a fresh Mongol army into Persia under orders to destroy the Assassins and subdue the caliphate, founding the dynasty that became the Ilkhanate.",
+      "description": "A generation after Genghis, his grandson Hulagu arrived in 1256 at the head of a fresh and enormous army — sent west with two specific assignments: destroy the Assassins in their mountain castles, and bring the Islamic caliphate to heel.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was the second wave, and it was different from the first: the Mongols came in 1219 to punish and raid, but Hulagu came to rule, and the realm he founded would become the Ilkhanate. His expedition was a state project of the wider Mongol empire, dispatched by his brother the Great Khan in Mongolia, and it carried the patience, engineering, and overwhelming force that the earlier raids sometimes lacked. Within four years he would do what the Seljuks never could — take Alamut — and end the 500-year-old caliphate in a single afternoon. And yet his own grandsons would convert to the religion he came to subdue. The destroyer founded the dynasty that surrendered to Persia."
+        }
+      ],
       "wikiSlug": "Hulagu_Khan",
       "tier": 1,
       "tags": [],
@@ -831,7 +1287,13 @@
       "id": "evt-islamic-persia-077",
       "label": "The fall of Alamut ends the Assassins",
       "year": 1256,
-      "description": "Hulagu's Mongols took the supposedly impregnable Nizari fortress of Alamut and its sister castles, destroying the famous library and ending the Assassins as a political power.",
+      "description": "In 1256 Hulagu took Alamut — the eagle's-nest fortress no army had ever stormed — and methodically reduced the other Nizari castles one by one, ending the Assassins as a political and military power after a century and a half.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dagger that had terrorized the Seljuk world for 150 years was simply outmatched: you cannot deter, by threatening to murder one well-placed man, an empire that cannot be intimidated and whose siege engines can take even an eagle's nest. The Nizari leader, facing the hopelessness of it, surrendered the castles rather than see them stormed. Alamut's celebrated library — generations of philosophy and science — was burned or scattered, though by tradition the scholar al-Tusi salvaged some of it on his way into Mongol service. The mountain state died here; but the faith that built it did not, surviving as the worldwide Nizari Ismaili community led today by the Aga Khan."
+        }
+      ],
       "wikiSlug": "Siege_of_Alamut",
       "tier": 1,
       "tags": [],
@@ -841,7 +1303,13 @@
       "id": "evt-islamic-persia-078",
       "label": "The sack of Baghdad and the death of the caliph",
       "year": 1258,
-      "description": "Hulagu stormed Baghdad, massacred its population, and executed the last Abbasid caliph al-Musta'sim, ending a 500-year-old institution and, symbolically, the classical Islamic order.",
+      "description": "In 1258 Hulagu stormed Baghdad, slaughtered much of its population, burned the great libraries, and executed the last Abbasid caliph — ending in an afternoon a continuous institution that had defined Sunni Islam for five hundred years.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reigning caliph, al-Musta'sim, was weak and badly advised, and catastrophically slow to grasp that the Mongols meant exactly what they said; he neither submitted in time nor mounted a serious defense. By the most-repeated tradition, a Mongol taboo against spilling royal blood on the ground meant he was rolled in a carpet and trampled to death by horses, so no drop touched the earth — a detail to hold as memory rather than certain fact. To the contemporary Muslim world it looked like the literal end of the world: the divinely ordained order overturned by a non-Muslim warlord from the grasslands, with no obvious reason the conquerors should ever stop."
+        }
+      ],
       "wikiSlug": "Siege_of_Baghdad_(1258)",
       "tier": 1,
       "tags": [],
@@ -851,7 +1319,13 @@
       "id": "evt-islamic-persia-079",
       "label": "The Ilkhanate is established in Persia",
       "year": 1256,
-      "description": "Hulagu's realm became the Ilkhanate, a Mongol state ruling Persia and Iraq as a subordinate ('il') khanate of the Great Khan, with its center in northwestern Iran.",
+      "description": "Hulagu's realm became the Ilkhanate — and the name tells the story: il means 'subordinate,' so an ilkhan was a khan who bowed to the Great Khan in the east, a frankly colonial Mongol regime ruling Persia as a far-western province.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its center was the northwest, around Tabriz and the summer pastures of Azerbaijan, where the grass suited the horses. The early Ilkhans were not Muslims — Hulagu leaned toward Buddhism and had a Christian wife — and the regime was strikingly indifferent to Islam, taxing mosque, church, and temple alike and employing Christians, Jews, and Buddhists in high office. For a Muslim population that had just watched its caliph trampled in a carpet, this was its own trauma: not only conquered, but ruled by infidels who did not even pretend to convert. That the same dynasty would be Muslim within two generations is the whole point of the chapter."
+        }
+      ],
       "wikiSlug": "Ilkhanate",
       "tier": 1,
       "tags": [],
@@ -861,7 +1335,13 @@
       "id": "evt-islamic-persia-080",
       "label": "Battle of Ayn Jalut halts the Mongol tide",
       "year": 1260,
-      "description": "The Egyptian Mamluks defeated a Mongol army at Ayn Jalut in Palestine, the first major check on Mongol expansion and the western boundary of the Ilkhanate's reach.",
+      "description": "In 1260 an Egyptian army of Mamluks defeated a Mongol force at Ayn Jalut in Palestine — the first major check the Mongols had suffered in the west, and the line where Mongol Persia would stop.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Mamluks were a regime of military slave-soldiers, mostly of Turkic and Caucasian origin, who had seized power in Egypt and made themselves its rulers — slaves who became sultans. The victory was helped by circumstance: Hulagu had pulled most of his army back east on news of the Great Khan's death, leaving a smaller force behind. But it was a real defeat all the same, and it fixed the western boundary of the Ilkhanate roughly where it would stay. Beyond that line lay the surviving Islamic world; behind it lay a Persia conquered twice over — once by Arabs six centuries earlier, now by Mongols — and lying, at this lowest point, in what looked like terminal ruin."
+        }
+      ],
       "wikiSlug": "Battle_of_Ain_Jalut",
       "tier": 2,
       "tags": [],
@@ -871,7 +1351,13 @@
       "id": "evt-islamic-persia-081",
       "label": "Nasir al-Din al-Tusi and the Maragha observatory",
       "year": 1259,
-      "description": "The Persian polymath al-Tusi, who had served the Assassins and then the Mongols, persuaded Hulagu to build the great Maragha observatory, advancing astronomy and the model later echoed by Copernicus.",
+      "description": "Nasir al-Din al-Tusi — a polymath of staggering range who had served the Assassins, then transferred smoothly to the conqueror who destroyed them — talked Hulagu, fresh from burning Baghdad's libraries, into funding a magnificent new center of learning.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Maragha observatory, begun in 1259 in northwestern Persia, was a research institution on a scale the world had not seen: large precision instruments, astronomers gathered from across the Mongol domains (including, through the open road east, Chinese ones), and a library said to hold hundreds of thousands of salvaged volumes. There the Maragha school devised the 'Tusi couple,' a clever way of producing straight-line motion from two rotating circles, which turns up two and a half centuries later in Copernicus. Whether Copernicus borrowed it or reinvented it is genuinely debated; what isn't is that the device was first worked out at a Persian observatory paid for by the man who had just sacked Baghdad."
+        }
+      ],
       "wikiSlug": "Nasir_al-Din_al-Tusi",
       "tier": 1,
       "tags": [],
@@ -881,7 +1367,13 @@
       "id": "evt-islamic-persia-082",
       "label": "Ghazan Khan converts the Ilkhanate to Islam",
       "year": 1295,
-      "description": "The Ilkhan Ghazan adopted Islam and made it the state religion, completing the assimilation of the conquerors into the Persian-Islamic world they had ruined and now ruled.",
+      "description": "In 1295 the seventh Ilkhan, Ghazan — a great-great-grandson of Genghis Khan, raised a Buddhist — converted to Islam, declared it the state religion, and brought much of the Mongol aristocracy with him. The descendants of the men who trampled the caliph now prayed toward Mecca.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is easy to tell a sentimental story here, and the honest one is more interesting. Ghazan's conversion was partly genuine conviction and partly hard politics: turning Muslim aligned him with the overwhelming majority he was trying to tax and govern, secured the loyalty of the Persian administrative class he depended on, and distinguished his realm from the rival Mongol states he was fighting. Conversion and self-interest pointed the same way — which is usually when conversions happen. However it is weighted, within two generations of Baghdad the Mongol regime in Persia had become a Muslim, Persianized state ruling in the old idiom of kingship, nearly indistinguishable from the dynasties it had destroyed."
+        }
+      ],
       "wikiSlug": "Ghazan",
       "tier": 1,
       "tags": [],
@@ -891,7 +1383,13 @@
       "id": "evt-islamic-persia-083",
       "label": "Rashid al-Din writes the first 'world history'",
       "year": 1307,
-      "description": "The Ilkhanid vizier Rashid al-Din compiled the Jami al-Tawarikh, a universal history spanning Mongols, Chinese, Franks, and Muslims, often called the first true world history.",
+      "description": "Ghazan's chief minister Rashid al-Din supervised the Jami al-Tawarikh, the 'Compendium of Chronicles' — which has a fair claim to be the first true world history ever attempted, the history not of us but of everyone.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Every earlier history, in every culture, had been the story of one people, one dynasty, one faith, with everyone else appearing only as barbarians at the edges. Rashid al-Din — a Persian physician, born Jewish, converted to Islam, the most powerful vizier of the Ilkhanate — used the Mongol empire's unique pan-Eurasian reach to write the history of the Mongols, the Chinese, the ancient Persians, the Jews, the Arabs, the Christian Franks, and the Indians, drawing on Chinese scholars and a Buddhist monk and European sources alike. It is flawed and written to glorify his Mongol masters, but its ambition is without precedent: the first attempt at the history of the whole human world, written for a Mongol king, in Persian, on the ruins the Mongols had made."
+        }
+      ],
       "wikiSlug": "Jami'_al-tawarikh",
       "tier": 1,
       "tags": [],
@@ -901,7 +1399,13 @@
       "id": "evt-islamic-persia-084",
       "label": "Ghazan's tax and currency reforms",
       "year": 1300,
-      "description": "Working with Rashid al-Din, Ghazan reformed coinage, taxation, and the postal system, rebuilding a Persian-style administration on the ruins the Mongols had left.",
+      "description": "Working with Rashid al-Din, Ghazan rebuilt the Mongol state on Persian administrative lines — reformed coinage, an overhauled tax system, a regularized postal relay — the conscious repair of the very damage the Mongols had done.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Picture the irony in full: a Mongol king and his Persian minister rebuilding the qanats and the tax registers their own grandfathers had wrecked. The reforms were not cosmetic. The arbitrary, ruinous exactions that had been bleeding the peasantry were curbed; coinage was standardized so commerce could function; ruined farmland was deliberately resettled; the relay-post system that tied the empire together was put back in working order. This is the absorption made concrete — the conquerors had not just converted to the religion of the conquered, they had taken up the conquered's whole machinery of good government and turned it to healing the wound they had inflicted."
+        }
+      ],
       "wikiSlug": "Ghazan",
       "tier": 2,
       "tags": [],
@@ -911,7 +1415,13 @@
       "id": "evt-islamic-persia-085",
       "label": "The Mongols open the road to China",
       "year": 1290,
-      "description": "Under the unified Mongol peace, Persian merchants, diplomats, and artists traveled to Yuan China, and Chinese motifs — dragons, phoenixes, cloud-bands — entered Persian art.",
+      "description": "The unified Mongol world — the 'Mongol peace' — connected Ilkhanid Persia directly to Yuan China for the first time, and Chinese motifs traveled back west with the merchants: the dragon, the phoenix, the curling cloud-band.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "For a few decades a single Mongol-dominated order made the overland routes across Asia unusually safe, and Persian merchants, diplomats, and artists could travel the whole breadth of the continent. What came back was not just goods but a visual vocabulary — the particular way Chinese painters rendered rocks, water, and mountains poured into Persian workshops and was absorbed and transformed. Out of that fusion of Chinese style, older Persian and Mesopotamian traditions, and a touch of Byzantine influence, something new crystallized: the Persian miniature. One of the supreme achievements of Islamic visual art was midwifed by the very conquest that had nearly destroyed Persia."
+        }
+      ],
       "wikiSlug": "Pax_Mongolica",
       "tier": 2,
       "tags": [],
@@ -921,7 +1431,13 @@
       "id": "evt-islamic-persia-086",
       "label": "Persian miniature painting takes shape",
       "year": 1300,
-      "description": "Illustrating histories and epics for the Ilkhanid court, painters fused Chinese, Byzantine, and local styles into the beginnings of the distinctive Persian miniature tradition.",
+      "description": "In the Ilkhanid workshops, painters illustrating histories and epics fused Chinese, Byzantine, and local styles into the beginnings of the Persian miniature — small, jewel-bright, intensely detailed paintings made to live inside books.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These were not pictures on a wall but images bound into manuscripts, sized to a page and meant to be turned to and pored over — which shaped everything about them: the dense detail, the flattened jewel-box space, the gold and lapis. The Ilkhanid court's appetite for illustrated histories (including Rashid al-Din's own) and epics gave the form its first great commissions. From these workshops the tradition would climb, over the next two centuries, to its summit in Timurid Herat under the painter Bihzad. It is the rare case where you can name the moment a major art form was born — and name the conquest that opened the road that made it possible."
+        }
+      ],
       "wikiSlug": "Persian_miniature",
       "tier": 1,
       "tags": [],
@@ -931,7 +1447,13 @@
       "id": "evt-islamic-persia-087",
       "label": "The Great Mongol Shahnameh illustrated",
       "year": 1335,
-      "description": "The monumental illustrated 'Great Mongol' or Demotte Shahnameh, made for the late Ilkhanid court, is among the supreme achievements of Persian manuscript painting.",
+      "description": "Late in the Ilkhanate the court commissioned a monumental illustrated Shahnameh — and the irony is exquisite: Mongol-employed painters lavishing their finest art on the Persian national epic, for a converted Mongol court patronizing the very identity its founders had tried to erase.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Known as the Great Mongol Shahnameh — or the Demotte Shahnameh, after a later dealer who infamously broke it up to sell the pages one by one — it is among the most powerful works of painting the Islamic world ever produced: large, dark, emotionally charged scenes of kings and battles and mourning, heavy with the Chinese-influenced landscape the Mongol roads had brought west. Consider what it is: the great monument of Persian cultural survival, given its most magnificent edition by the heirs of the men who sacked Persia's cities. The Mongols did not merely tolerate the Shahnameh — they paid for its grandest copy, and adopted the conquered's deepest story as their own."
+        }
+      ],
       "wikiSlug": "Great_Mongol_Shahnameh",
       "tier": 2,
       "tags": [],
@@ -941,7 +1463,13 @@
       "id": "evt-islamic-persia-088",
       "label": "Oljeitu builds his mausoleum at Soltaniyeh",
       "year": 1312,
-      "description": "The Ilkhan Oljeitu raised an enormous domed tomb at Soltaniyeh, one of the largest brick domes ever built and a landmark of Ilkhanid Persian architecture.",
+      "description": "Ghazan's brother and successor Oljeitu raised an enormous turquoise-tiled domed tomb for himself at his new capital of Soltaniyeh — one of the largest brick domes ever built up to that time, and a landmark of Persian architecture.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It still stands, a vast empty shell on the Iranian plateau, its double-shell dome an engineering feat that influenced builders for centuries — some scholars see its lineage reaching toward the great domes of the later Islamic and even Renaissance worlds. What makes it belong to this chapter is whose tomb it is: a Mongol king's mausoleum, built in the full Persian-Islamic idiom of dome, tile, and muqarnas. There is a story that Oljeitu meant it to house the relics of the Shia imams Ali and Husayn, a plan that fell through — but either way, the men who had burned Persia's cities now competed to build the most beautiful ones."
+        }
+      ],
       "wikiSlug": "Soltaniyeh",
       "tier": 2,
       "tags": [],
@@ -951,7 +1479,13 @@
       "id": "evt-islamic-persia-089",
       "label": "The Ilkhanate fragments after Abu Said",
       "year": 1335,
-      "description": "When the last effective Ilkhan, Abu Said, died without an heir, the Ilkhanate dissolved into a patchwork of squabbling successor dynasties across Persia.",
+      "description": "When the last effective Ilkhan, Abu Said, died in 1335 without a clear heir, the state simply came apart — there was no institution underneath strong enough to hold it together once the strong individual khans ran out.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the recurring structural flaw of every steppe-descended regime in the book: the Mongol succession had always been settled by a fight among the clan, and when there was no obvious fighter, there was no fallback — no bureaucracy or principle of inheritance robust enough to carry the realm through the gap. Persia fractured into squabbling successor dynasties: the Jalayirids in Iraq and the northwest, the Muzaffarids in the south around Shiraz, the populist Sarbadars in Khurasan. In just over a century the Mongols had conquered Persia, nearly destroyed it, ruled it, converted to its faith, adopted its art and kingship, repaired some of the damage — and then dissolved back into the ground, leaving Persia battered but unmistakably itself."
+        }
+      ],
       "wikiSlug": "Abu_Sa'id_Bahadur_Khan",
       "tier": 2,
       "tags": [],
@@ -961,7 +1495,13 @@
       "id": "evt-islamic-persia-090",
       "label": "The successor states: Jalayirids, Muzaffarids, Sarbadars",
       "year": 1340,
-      "description": "Rival local dynasties — the Jalayirids in Iraq, the Muzaffarids in the south, the populist-Shia Sarbadars in Khurasan — carved up post-Ilkhanid Persia for two generations.",
+      "description": "When the Ilkhanate dissolved, no single ruler replaced it — Persia was carved up among rival local dynasties: the Jalayirids in Iraq, the Muzaffarids in the south who patronized Hafez, the populist Sarbadars in Khurasan.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These are the pieces left on the board after the Mongol order fell, and they matter because they set the table for the very end of the story. The Sarbadars in particular are worth a flag: their name means roughly 'the gallows-headed,' from a defiant boast that they would rather have their heads on the gallows than submit, and their blend of militant Shiism with a tribal following was a small early rehearsal of the much larger thing the Safavids would do. For two generations these splinter states fought and patronized and fell, until the Timurids briefly reunited much of the region — and then fragmented in turn, leaving the board open for a new player."
+        }
+      ],
       "wikiSlug": "Jalayirid_Sultanate",
       "tier": 3,
       "tags": [],
@@ -971,7 +1511,13 @@
       "id": "evt-islamic-persia-091",
       "label": "Hafez of Shiraz perfects the ghazal",
       "year": 1370,
-      "description": "Hafez, court poet of Shiraz under the Muzaffarids, brought the Persian lyric (ghazal) to its highest pitch; his Divan is still consulted as an oracle in Iranian homes today.",
+      "description": "In Shiraz, in the broken decades after the Ilkhanate fell apart, lived the greatest lyric poet the Persian language ever produced — Hafez, who brought the ghazal to a pitch of compression and ambiguity that has never been equaled.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name is a title — it means one who has memorized the entire Quran by heart. The ghazal is a short lyric of rhyming couplets, traditionally about love and wine and longing, but in Hafez's hands a single couplet can be read at once as a drinking song, a love poem, a piece of mystical theology, and a sly satire on the hypocrite preacher — all four meanings alive in the same words, none of them final. To this day Iranians keep his Divan in the house and consult it as an oracle, opening it at random for a kind of fortune, a practice called fal-e Hafez. Goethe fell so hard for him two centuries ago that he wrote a whole collection of poems in homage."
+        }
+      ],
       "wikiSlug": "Hafez",
       "tier": 1,
       "tags": [],
@@ -981,7 +1527,13 @@
       "id": "evt-islamic-persia-092",
       "label": "Timur (Tamerlane) seizes Transoxiana",
       "year": 1370,
-      "description": "Timur, a Turco-Mongol warlord from near Samarkand, made himself master of Transoxiana and launched the conquests that would build the last great steppe empire of Persia.",
+      "description": "Timur — Tamerlane, from Timur-e Lang, 'Timur the Lame,' after a leg wound that left him limping for life — took Samarkand around 1370 and launched thirty-five years of almost ceaseless conquest in every direction.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He modeled himself on Genghis Khan with open ambition, but two things set him apart: he was a Muslim, and he was a Turco-Mongol from the military aristocracy the Mongol conquests had scattered, not a Genghisid by blood. That bloodline gap mattered intensely under steppe law, where only a direct male descendant of Genghis could be a khan — so Timur ruled formally as an amir, a commander, in the name of a puppet Genghisid khan he kept as a figurehead, while marrying into the line to borrow its prestige. From his base in Transoxiana, 'the land beyond the Oxus,' he set out to be Genghis's equal, and very nearly was."
+        }
+      ],
       "wikiSlug": "Timur",
       "tier": 1,
       "tags": [],
@@ -991,7 +1543,13 @@
       "id": "evt-islamic-persia-093",
       "label": "Timur's campaigns devastate Persia and beyond",
       "year": 1393,
-      "description": "Timur's armies overran Persia, sacked Baghdad, Delhi, Damascus, and Aleppo, and raised towers of skulls — a second wave of conquest as feared in memory as the Mongols'.",
+      "description": "Timur did to Persia and its neighbors more or less what the Mongols had — only this time the conqueror was a Muslim slaughtering fellow Muslims, raising his signature towers of skulls at city after city.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His armies overran Persia in the 1380s and 1390s, sacked Baghdad twice, stormed Delhi in 1398 and left it a charnel house, and took Damascus and Aleppo. The body counts in the sources are again the language of catastrophe and should be read as such — but the towers of skulls are too consistently attested, across hostile and friendly sources alike, to dismiss; this was a man who used theatrical massacre as a deliberate instrument of policy and seems to have genuinely believed it his destiny. Persia, only beginning to recover from the Mongols a century and a half before, was devastated a second time — the book's pattern of conquest-then-renaissance running through a second full cycle."
+        }
+      ],
       "wikiSlug": "Timurid_conquests_and_invasions",
       "tier": 1,
       "tags": [],
@@ -1001,7 +1559,13 @@
       "id": "evt-islamic-persia-094",
       "label": "Timur captures the Ottoman sultan at Ankara",
       "year": 1402,
-      "description": "At Ankara, Timur shattered the Ottoman army and took Sultan Bayezid I prisoner, briefly throwing the rising Ottoman state into a decade of civil war.",
+      "description": "At Ankara in 1402 Timur shattered the army of the rising Ottoman Empire and took its sultan Bayezid I — 'the Thunderbolt' — prisoner, throwing the Ottoman state into a decade of civil war.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "There is a persistent legend that Timur kept the captured sultan in a cage and used him as a footstool; the cage story is probably a later embellishment and historians treat it with caution, but the capture itself is solid fact, and its consequences were enormous. Bayezid died in captivity within a year, his sons fell to fighting over the wreckage, and the rise of the empire that would take Constantinople in 1453 and dominate the eastern Mediterranean for centuries was set back by a full generation. Having humbled the Ottomans, Timur turned east to invade China itself — the one prize that would have made him Genghis's true equal — and died on the road in the winter of 1405."
+        }
+      ],
       "wikiSlug": "Battle_of_Ankara",
       "tier": 2,
       "tags": [],
@@ -1011,7 +1575,13 @@
       "id": "evt-islamic-persia-095",
       "label": "Samarkand rebuilt as an imperial showpiece",
       "year": 1400,
-      "description": "Timur poured plundered wealth and deported craftsmen into rebuilding Samarkand, raising the towering Bibi-Khanym Mosque and the tiled Registan-era monuments.",
+      "description": "The man who built towers of skulls also built one of the most beautiful cities on earth: Timur poured the plunder — and the deported craftsmen — of half of Asia into rebuilding Samarkand as the showpiece capital of his empire.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That phrase 'deported craftsmen' is the dark engine of the beauty: Timur didn't just loot the cities he sacked, he carried off their finest tile-workers, masons, calligraphers, and gardeners by the thousands and set them to work for him. The towering Bibi-Khanym Mosque, built in honor of a wife, was so vast and so hastily over-ambitious that parts of it began collapsing almost at once — a fitting monument to a man who wanted everything bigger and faster than was wise. Skulls and tilework, in the same hands: the contradiction is not a paradox to be resolved but the literal truth of the Timurid age."
+        }
+      ],
       "wikiSlug": "Samarkand",
       "tier": 1,
       "tags": [],
@@ -1021,7 +1591,13 @@
       "id": "evt-islamic-persia-096",
       "label": "The Gur-e-Amir, Timur's tomb",
       "year": 1404,
-      "description": "The fluted, turquoise-domed mausoleum of Timur in Samarkand became a model for later Timurid and Mughal tomb architecture, including the Taj Mahal.",
+      "description": "Timur's own tomb, the Gur-e-Amir — a fluted, ribbed dome glazed deep turquoise — became the architectural grandfather, through his descendants the Mughals, of the Taj Mahal itself.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name means 'tomb of the king,' and the line of descent is real: Timur's heirs founded the Mughal dynasty in India, who carried the ribbed turquoise dome and the four-part garden into the masterpieces of Agra and Delhi. There is also a famous curse attached to it — a 1941 Soviet exhumation of Timur's grave was followed within days by the Nazi invasion of the USSR, and the body was reburied with full Islamic rites in 1942, just as the tide turned at Stalingrad. Coincidence, of course; but it is the kind of story that clings to a conqueror who terrified the medieval world and then was buried under one of its loveliest domes."
+        }
+      ],
       "wikiSlug": "Gur-e-Amir",
       "tier": 2,
       "tags": [],
@@ -1031,7 +1607,13 @@
       "id": "evt-islamic-persia-097",
       "label": "Shah Rukh moves the capital to Herat",
       "year": 1405,
-      "description": "Timur's son Shah Rukh ruled a more peaceable empire from Herat, turning the city into the cultural capital of the Timurid renaissance in art, books, and scholarship.",
+      "description": "Timur's son Shah Rukh inherited a calmer empire and ruled it for forty years from Herat — the old Khurasan city the Mongols had twice destroyed, now rebuilt into the cultural capital of the Timurid renaissance.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Like Hulagu's heirs before them, Timur's turned out to be patrons more than warriors, and the pattern of the previous century repeated almost beat for beat: a Turkic dynasty lavishing total devotion on Persian art, architecture, book-making, and science. That is the central thesis of the whole story stated one more time — the conquerors off the steppe did not impose their own culture, they adopted, funded, and perfected the culture of the conquered. Shah Rukh's queen Gawhar Shad was herself a great builder, and Herat under them became a hothouse that would produce Ulugh Beg's science and Bihzad's painting."
+        }
+      ],
       "wikiSlug": "Shah_Rukh",
       "tier": 2,
       "tags": [],
@@ -1041,7 +1623,13 @@
       "id": "evt-islamic-persia-098",
       "label": "Ulugh Beg builds his Samarkand observatory",
       "year": 1424,
-      "description": "Timur's grandson Ulugh Beg, a scholar-king, built a great observatory at Samarkand and compiled a star catalogue of unmatched accuracy before being murdered by his own son.",
+      "description": "Timur's grandson Ulugh Beg was a king who would rather have been an astronomer — around 1424 he built a great observatory at Samarkand and compiled the most accurate star catalogue produced anywhere between Ptolemy and the European telescope age.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The instrument was extraordinary: an enormous stone sextant, tens of feet across, set into a trench in the ground, that let his astronomers fix star positions with a precision earlier tools could not reach. The catalogue they produced, the Zij-i-Sultani, listing nearly a thousand stars, was still being consulted in Europe two centuries later. His end was the steppe end, sadly: a poor politician, he lost his throne and was murdered in 1449 on the orders of his own son. The observatory was abandoned, eventually demolished by the pious as a nest of impious star-gazing, and its very foundations were lost until archaeologists dug them up in the twentieth century."
+        }
+      ],
       "wikiSlug": "Ulugh_Beg",
       "tier": 1,
       "tags": [],
@@ -1051,7 +1639,13 @@
       "id": "evt-islamic-persia-099",
       "label": "The Herat school and the painter Bihzad",
       "year": 1490,
-      "description": "Under the patronage of Sultan Husayn Bayqara and the polymath-minister Ali-Shir Nava'i, the Herat workshop produced Kamal al-Din Bihzad, the most celebrated of all Persian miniaturists.",
+      "description": "At the end of the fifteenth century the Herat workshop, under the last great Timurid patrons, produced Bihzad — the most celebrated painter in the whole history of the Persian miniature, the tradition's Leonardo.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bihzad broke from the static, symbolic compositions of earlier miniatures toward something alive: figures caught in real individual movement, faces with character, scenes of building and harvesting and feasting observed with new attention to ordinary human gesture, all in compositions of dazzling color and balance. He became so famous that later collectors forged his signature onto lesser works to raise their value — the surest sign of an artist's stature. The timing is worth pausing on: while the Italian Renaissance was peaking in Florence, a Persian renaissance was peaking in Herat, the two great late-medieval flowerings of book and image happening at once, in near-total ignorance of each other."
+        }
+      ],
       "wikiSlug": "Kamāl_ud-Dīn_Behzād",
       "tier": 1,
       "tags": [],
@@ -1061,7 +1655,13 @@
       "id": "evt-islamic-persia-100",
       "label": "Jami, the last great classical Persian poet",
       "year": 1480,
-      "description": "Abd al-Rahman Jami of Herat, a Sufi master and prolific poet, is conventionally counted the last of the great classical poets of Persia, closing a tradition that ran from Rudaki.",
+      "description": "Jami of Herat — a Sufi master and prodigiously productive writer of verse and prose — is conventionally counted the last of the great classical Persian poets, closing the tradition that had opened with Rudaki at the Samanid court five centuries earlier.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Calling him 'the last' does not mean Persian poetry stopped — it kept going for centuries — but with Jami the canon of the giants is essentially complete: Ferdowsi, Khayyam, Nizami, Attar, Rumi, Saadi, Hafez, Jami. The language had produced its monuments. There is a pleasing symmetry in where he stands: the tradition began at Bukhara under a Persian dynasty bankrolling a renaissance, and it closes at Herat under a Turkic dynasty doing exactly the same thing, the conquerors once again funding the culture of the conquered. After Jami, the great age of classical Persian culture is over, and a teenage warlord is about to remake the country."
+        }
+      ],
       "wikiSlug": "Jami",
       "tier": 2,
       "tags": [],
@@ -1071,7 +1671,13 @@
       "id": "evt-islamic-persia-101",
       "label": "Ali-Shir Nava'i champions Turkish letters",
       "year": 1490,
-      "description": "The Herat minister Nava'i, while steeped in Persian culture, argued for and wrote in Chagatai Turkish, marking the Turkic literary tradition's debt to and divergence from the Persian model.",
+      "description": "Steeped though he was in Persian culture, the Herat minister and patron Ali-Shir Nava'i argued passionately that his own native Chagatai Turkish was a worthy vehicle for high literature — and proved it by writing major works in it.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nava'i was the friend and minister who made the whole Herat flowering possible, so the irony is sharp: the man at the heart of Persian high culture's last golden court argued that Turkish need not forever be its junior partner. He wrote a famous comparison of the two languages defending Turkish's expressive range, and his own poetry showed it could carry serious literature. In doing so he marked the moment the Turkic literary tradition — for centuries the language that wrote in Persian — began to stand on its own. A small but telling sign that the absolute dominance of Persian as the only prestige tongue of the eastern Islamic world had a horizon after all."
+        }
+      ],
       "wikiSlug": "Ali-Shir_Nava'i",
       "tier": 3,
       "tags": [],
@@ -1081,7 +1687,13 @@
       "id": "evt-islamic-persia-102",
       "label": "The Kara Koyunlu and Aq Qoyunlu Turkmen",
       "year": 1410,
-      "description": "Two rival Turkmen tribal confederations, the Black Sheep and White Sheep, fought over western Persia after the Timurid grip loosened, the immediate political ancestors of the Safavids.",
+      "description": "As the Timurid grip loosened, two rival Turkmen tribal confederations — the Kara Koyunlu ('Black Sheep') and Aq Qoyunlu ('White Sheep') — fought over western Persia, the immediate political ancestors of the Safavids.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A Turkmen here was a member of the Oghuz Turkic nomadic tribes — the same broad stock as the Seljuks and the Ottomans, pastoral herders who lived on horseback and made their living by the bow. A 'confederation' was a loose, mobile alliance of such tribes held together by a ruling clan: it could put a formidable cavalry army in the field but could also fly apart the instant its leader died. The names come from the tribal emblems on their banners — a useful tag to keep them straight: kara is black, aq is white, and the White Sheep are the ones who matter, because they beat the Black Sheep and then, in turn, lost to a teenage boy."
+        }
+      ],
       "wikiSlug": "Aq_Qoyunlu",
       "tier": 2,
       "tags": [],
@@ -1091,7 +1703,13 @@
       "id": "evt-islamic-persia-103",
       "label": "Uzun Hasan of the Aq Qoyunlu",
       "year": 1467,
-      "description": "Uzun Hasan built the White Sheep into the dominant power of western Persia, negotiating with Venice against the Ottomans, but his confederation fractured after his death.",
+      "description": "Uzun Hasan — 'Hasan the Tall' — built the White Sheep into the dominant power of western Persia, ambitious enough to negotiate an alliance with Venice against the Ottomans, but his confederation fractured the moment he died.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Venice connection is the telling detail: it means western Persia was now a player in Mediterranean diplomacy, courted by an Italian republic looking for an eastern ally to squeeze the rising Ottomans between two fires. (The plan came to little — Venetian arms and gunpowder expertise never arrived in time.) But Uzun Hasan's realm had the standard Turkmen-confederation flaw built in, and after his death in 1478 the White Sheep collapsed into the usual succession wars. By the 1490s western Persia was up for grabs, contested by quarreling White Sheep princes who had inherited a powerful army and no unity — exactly the opening a Safavid boy would walk through."
+        }
+      ],
       "wikiSlug": "Uzun_Hasan",
       "tier": 3,
       "tags": [],
@@ -1101,7 +1719,13 @@
       "id": "evt-islamic-persia-104",
       "label": "The Safaviyya: a Sufi order turns militant",
       "year": 1400,
-      "description": "The Safaviyya, a once-quietist Sufi order based at Ardabil, evolved into a militant Shia movement with a devoted Turkmen following, the seed of a new Persian state.",
+      "description": "The Safaviyya began as a respectable, quietist Sufi brotherhood at Ardabil and stayed out of politics for generations — then transformed, over two centuries, into a militant Shia movement with a fanatically devoted Turkmen following.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Two slow changes did it. First, the order's appeal drifted east onto the steppe frontier, drawing in exactly those rootless, militarized Turkmen tribes of eastern Anatolia and northwestern Persia. Second, the message itself radicalized: over the fifteenth century the Safavid sheikhs — now a hereditary line — moved from ordinary Sunni Sufism toward an intense, militant Shiism, and encouraged their followers to regard the sheikh not as a mere teacher but as something near-divine, a manifestation of the holy worth dying for. That is the explosive combination — a tribal cavalry army that worshipped its commander as a saint and believed dying for him was dying for God."
+        }
+      ],
       "wikiSlug": "Safavid_order",
       "tier": 2,
       "tags": [],
@@ -1111,7 +1735,13 @@
       "id": "evt-islamic-persia-105",
       "label": "The Qizilbash, the 'red-heads' of the Safaviyya",
       "year": 1490,
-      "description": "Turkmen tribal warriors who venerated the Safavid sheikhs wore distinctive red caps and were called Qizilbash; their militant devotion became the army that would conquer Persia.",
+      "description": "The Turkmen warriors who venerated the Safavid sheikhs were called Qizilbash — Turkish for 'red-heads,' after the distinctive tall red cap they wore — and their fanatical loyalty became the army that would conquer Persia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name was not about their hair but their headgear: a tall red cap traditionally said to have twelve folds or gores, one for each of the twelve rightful Imams of Twelver Shiism. They wore it as a badge of devotion to the Safavid house, and that devotion made them, by the late fifteenth century, one of the most dangerous fighting forces in the region — so dangerous that the established powers, the Aq Qoyunlu among them, came to see the Safavid family as a mortal threat and set about hunting it. The hunt is what turned the next ruler of Persia into a child raised in hiding."
+        }
+      ],
       "wikiSlug": "Qizilbash",
       "tier": 2,
       "tags": [],
@@ -1121,7 +1751,13 @@
       "id": "evt-islamic-persia-106",
       "label": "Ismail emerges from hiding to claim his birthright",
       "year": 1499,
-      "description": "The teenage Ismail, last heir of the persecuted Safavid line, came out of years in hiding to gather the Qizilbash and launch his bid for power in northwestern Persia.",
+      "description": "In 1499, at the age of twelve, the last viable heir of the hunted Safavid line came out of years in hiding, gathered the Qizilbash tribes to him, and launched a child's bid for the throne of Persia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ismail's path to power ran through a childhood of slaughter: his grandfather and father, the militant sheikhs who had built the Qizilbash following, were both killed in battle against the Aq Qoyunlu and the local Caspian rulers, the family nearly exterminated, the surviving children marked for death. Born in 1487, Ismail spent years smuggled from place to place by loyal Qizilbash who believed he was the living embodiment of their faith and the rightful lord of Persia. So when he emerged, the tribes came at once — they had been waiting for exactly this, for the boy in whom their murdered masters lived again to call them to war. To his followers he was not a refugee but a messiah."
+        }
+      ],
       "wikiSlug": "Ismail_I",
       "tier": 1,
       "tags": [],
@@ -1131,7 +1767,13 @@
       "id": "evt-islamic-persia-107",
       "label": "Battle of Sharur opens the way to the throne",
       "year": 1501,
-      "description": "Ismail's Qizilbash defeated the Aq Qoyunlu at Sharur, clearing his path to Tabriz and the foundation of a new and unmistakably Persian empire.",
+      "description": "In 1501 at Sharur, in the northwest, Ismail's red-capped Qizilbash defeated the main White Sheep army and cleared the road to Tabriz — the old Ilkhanid and Aq Qoyunlu capital, and the seat of a new empire.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fractured Aq Qoyunlu, still tearing themselves apart in their own succession wars, could not unite against him in time — the disunity that the previous entries traced is exactly what handed a teenager his victory. Sharur was the hinge battle: a child commanded the reconquest of Persia and won it because the powerful army opposing him had no one to lead it as one. What he did after taking Tabriz — crowning himself Shah and forcing the country Shia — is the act that founded modern Iran, but it was this cavalry victory by a fourteen-year-old's fanatical followers that made it possible."
+        }
+      ],
       "wikiSlug": "Battle_of_Sharur",
       "tier": 2,
       "tags": [],
@@ -1141,7 +1783,13 @@
       "id": "evt-islamic-persia-108",
       "label": "Shah Ismail crowned, Twelver Shiism made the state religion",
       "year": 1501,
-      "description": "Ismail took Tabriz, proclaimed himself shah, and made Twelver Shiism the official faith of Persia — a revolutionary act that founded the Safavid dynasty and reunited the country.",
+      "description": "In Tabriz, still only fourteen, Ismail did two things that founded a country: he proclaimed himself Shah, the ancient Persian word for king, and decreed Twelver Shiism the official religion of a land that was at the time overwhelmingly Sunni.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sit with how radical and how violent the second act was. The great Shia future of Iran did not yet exist — Ismail decreed it into being, ordering the public cursing of the first caliphs the Sunnis revered, importing Shia scholars to staff a clergy he largely had to build from scratch, and backing the whole program with Qizilbash swords. This was no gentle drift like the long conversion to Islam eight centuries earlier; it was state policy enforced over the following century with considerable bloodshed. But it took — and it is why Iran today is the great Shia power of the Muslim world, a distinction that still shapes Middle Eastern politics, decreed by a teenage warlord-mystic in Tabriz in 1501."
+        }
+      ],
       "wikiSlug": "Ismail_I",
       "tier": 1,
       "tags": [],
@@ -1151,7 +1799,13 @@
       "id": "evt-islamic-persia-109",
       "label": "The Sasanian afterlife in Persian memory",
       "year": 750,
-      "description": "Long after the conquest, the memory of the pre-Islamic Sasanian kings survived in stories, ruins, and the Shahnameh, supplying Islamic Persia with a usable imperial past.",
+      "description": "The Sasanian Empire was dead as a state, but it never died as a memory: its kings, ruins, ceremonies, and titles lingered in Persian imagination and gave Islamic Persia a usable imperial past to reach back to.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is why the conquest never fully erased Persia the way it erased other conquered peoples. The Sasanians had run a court so elaborate — its ceremonies, its titles, even its table manners — that everyone who conquered Persia for the next eight hundred years copied it. The Abbasids quarried Ctesiphon and adopted Sasanian protocol; the Buyids revived the title 'king of kings'; Ferdowsi's Shahnameh carried the old dynasty's legend into every Persian-speaking home. A defeated empire that leaves behind that rich a template doesn't vanish — it becomes the script its conquerors perform."
+        }
+      ],
       "wikiSlug": "Sasanian_Empire",
       "tier": 2,
       "tags": [],
@@ -1161,7 +1815,13 @@
       "id": "evt-islamic-persia-110",
       "label": "Nowruz survives as the Persian New Year",
       "year": 800,
-      "description": "The ancient Zoroastrian spring festival of Nowruz was never suppressed by Islam and remained the great Persian holiday, a thread of continuity from before the conquest to today.",
+      "description": "The ancient Zoroastrian New Year, celebrated at the spring equinox and older than Islam itself, was simply never suppressed — an unbroken thread running straight back from modern Iran through the Islamic centuries to the empire that vanished.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost everything else Zoroastrian shrank under the slow squeeze of conversion. Nowruz did not. It survived the conquest, survived the centuries of Islamization, and is still the great national holiday of Iran and the wider Persian-speaking world — Afghanistan, Tajikistan, and beyond. That it sailed through untouched, while temples closed and the priesthood dwindled, says something about how Persians drew the line: the faith was negotiable, but the calendar of the seasons, the equinox feast that marked who they were, was not. It is one of the cleanest threads of continuity in the whole 850-year story."
+        }
+      ],
       "wikiSlug": "Nowruz",
       "tier": 2,
       "tags": [],
@@ -1171,7 +1831,13 @@
       "id": "evt-islamic-persia-111",
       "label": "Persian carpet-weaving as an art and an export",
       "year": 1400,
-      "description": "Hand-knotted pile carpets, woven in Persian workshops and tribal looms, became one of Persia's signature crafts and a luxury export prized from Europe to China.",
+      "description": "Hand-knotted pile carpets — woven in royal workshops and on tribal looms alike — became one of Persia's signature crafts and a luxury export prized from the courts of Europe to the palaces of China.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The craft is staggeringly labor-intensive: a fine carpet can carry hundreds of hand-tied knots per square inch, so a single large piece represents months or years of one weaver's life, the design held in memory or read from a coded chart. The motifs are their own language — the garden carpet, with its water channels and flowerbeds, is a woven image of paradise, the same chahar-bagh ideal as the Persian garden. So prized were they that they turn up draped on tables in Renaissance European paintings, a status symbol an Italian merchant would import at vast cost. Few exports carried Persian taste further or more durably than the carpet underfoot."
+        }
+      ],
       "wikiSlug": "Persian_carpet",
       "tier": 2,
       "tags": [],
@@ -1181,7 +1847,13 @@
       "id": "evt-islamic-persia-112",
       "label": "The Silk Road cities of Persia",
       "year": 1000,
-      "description": "Rayy, Nishapur, Isfahan, Tabriz, and Bukhara grew rich as caravan hubs on the overland routes linking China and the Mediterranean through the Persian plateau.",
+      "description": "Persia sat astride the Silk Road, and its cities — Rayy, Nishapur, Isfahan, Tabriz, Bukhara — grew rich as the caravan hubs through which the overland trade between China and the Mediterranean had to pass.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Geography handed Persia a toll-booth on the wealth of half the world: the plateau is the land bridge between East and West, and goods, ideas, faiths, and diseases all flowed through it. That position is also a curse, because it is exactly why the conquerors kept coming — the same routes that brought silk and silver brought Seljuk, Mongol, and Timurid armies. The wealth of these cities is what made them worth sacking, and their repeated destruction and revival is the rhythm of the whole story. When the Mongols wrecked Nishapur and Merv, they were not just killing people; they were cutting the arteries of a continental trade."
+        }
+      ],
       "wikiSlug": "Silk_Road",
       "tier": 2,
       "tags": [],
@@ -1191,7 +1863,13 @@
       "id": "evt-islamic-persia-113",
       "label": "Lustreware and the potters of Kashan",
       "year": 1200,
-      "description": "Persian potters at Kashan and Rayy perfected lustreware and mina'i polychrome ceramics, decorating tiles and vessels with shimmering metallic glazes prized across the Islamic world.",
+      "description": "Persian potters at Kashan and Rayy perfected lustreware — ceramics finished with a shimmering metallic glaze that catches the light like gold — alongside the delicate polychrome painting called mina'i.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lustre was alchemy with a kiln: a thin film of silver and copper compounds, painted on a glazed surface and fired a second time in a smoky, oxygen-starved kiln, leaves behind a microscopically thin metallic sheen that makes a clay vessel gleam like precious metal — a way to fake gold without the gold. Kashan became so identified with the craft that the Persian word for tile, kashi, comes from the city's name. Mina'i ('enameled') went further, painting tiny multicolored scenes of courtiers and lovers fired in several stages. These shimmering tiles and bowls were among Persia's most coveted luxury goods, traded across the whole Islamic world."
+        }
+      ],
       "wikiSlug": "Lustreware",
       "tier": 3,
       "tags": [],
@@ -1201,7 +1879,13 @@
       "id": "evt-islamic-persia-114",
       "label": "The muqarnas vault, Persia's signature ornament",
       "year": 1100,
-      "description": "Persian builders developed the muqarnas, the honeycomb of stacked niches that fills domes and portals, becoming one of the most recognizable features of Islamic architecture everywhere.",
+      "description": "Persian builders developed the muqarnas — the honeycomb of stacked, faceted niches that fills domes and portals — which became one of the most recognizable signatures of Islamic architecture everywhere from Spain to India.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Part of its genius is that it solved a real engineering problem beautifully: the muqarnas eases the visual and structural transition from a square room up to a round dome, breaking that awkward join into a cascade of small cells that catch the light differently at every angle. Built up in tier after tier of plaster, stone, or tile, it turns a corner or a ceiling into something that seems to dissolve into geometry. From the Seljuk mosques it spread across the whole Islamic world — you meet it in the Alhambra in Granada and in Mughal portals in India — one of Persia's most widely-copied gifts to the architecture of three continents."
+        }
+      ],
       "wikiSlug": "Muqarnas",
       "tier": 2,
       "tags": [],
@@ -1211,7 +1895,13 @@
       "id": "evt-islamic-persia-115",
       "label": "Persian becomes the court language of the Delhi Sultanate",
       "year": 1206,
-      "description": "Turko-Afghan rulers carried Persian into India as the language of administration and culture, so that the Persianate world stretched all the way to Bengal centuries before the Mughals.",
+      "description": "Turko-Afghan rulers carried Persian into India as the language of court and administration, so that the Persianate world stretched all the way to Bengal centuries before the Mughals ever arrived.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the long reach of the pattern that began with Mahmud of Ghazni: Turkic conquerors who ruled in Persian, exporting the culture of a people they had no ethnic connection to. In India, Persian became the language of government, poetry, and prestige for centuries — long enough that out of its collision with local speech grew Urdu, a language built on an Indian grammar with a vast Persian and Arabic vocabulary, written in Persian script. The Mughals later made Persian the official language of an empire of a hundred million people. A tongue saved at Bukhara by Ferdowsi ended up the courtly language of the Indian subcontinent — the conquered's gift traveling farther than the conquered ever did."
+        }
+      ],
       "wikiSlug": "Delhi_Sultanate",
       "tier": 2,
       "tags": [],
@@ -1221,7 +1911,13 @@
       "id": "evt-islamic-persia-116",
       "label": "Ata-Malik Juvayni chronicles the Mongols",
       "year": 1260,
-      "description": "The Persian official Juvayni wrote the History of the World Conqueror, a vivid insider account of the Mongol conquests by a man who served the very regime that had ruined his homeland.",
+      "description": "Around 1260 the Persian administrator Ata-Malik Juvayni wrote the History of the World Conqueror — the vivid, anguished, indispensable account of the Mongol conquests, by a man who served the very regime that had ruined his homeland.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His position is the catch the careful reader has to keep in view. Juvayni was employed by the Mongols — he later governed Baghdad for them — so his account is at once an insider's eyewitness and an accommodationist's, written to be readable by the conquerors. He belonged to a Persian literary tradition that reached for catastrophe at full volume, which is exactly why his body counts in the hundreds of thousands should be read as the language of trauma, not a census. He was present at the fall of Alamut and, by several accounts, salvaged part of its doomed library — though others say he picked the choice volumes for himself and let the rest burn. The destruction he describes was genuine; the numbers are propaganda for genuineness."
+        }
+      ],
       "wikiSlug": "Ata-Malik_Juvayni",
       "tier": 2,
       "tags": [],
@@ -1231,7 +1927,13 @@
       "id": "evt-islamic-persia-117",
       "label": "Marco Polo passes through Ilkhanid Persia",
       "year": 1271,
-      "description": "On his way to China, Marco Polo crossed Ilkhanid Persia and later recorded the legend of the Assassins, one of the European sources that mythologized the order.",
+      "description": "Crossing Ilkhanid Persia around 1271 on his way to China, the Venetian merchant Marco Polo picked up — and later wrote down — the legend of the Assassins, becoming one of the chief European sources that mythologized the order.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Polo passed through decades after Alamut had already fallen to the Mongols, so what he recorded was campfire legend, not eyewitness report. In his telling the lord of Alamut kept a hidden garden of wine, fountains, and beautiful companions, drugged a young recruit and carried him into this fake paradise, then drugged him out again — so the youth, convinced he could be sent back to heaven by his master's command, would murder anyone fearlessly to earn his return. It is a wonderful story and, by modern scholarship's judgment, a romance — rumor, slur, and Orientalist fantasy with no support in the Nizaris' own records. His account is also a reminder of how Persia looked to medieval European eyes: exotic, half-imagined, and irresistible to retell."
+        }
+      ],
       "wikiSlug": "Marco_Polo",
       "tier": 3,
       "tags": [],
@@ -1241,7 +1943,13 @@
       "id": "evt-islamic-persia-118",
       "label": "Ibn Battuta visits the Persian cities",
       "year": 1327,
-      "description": "The Moroccan traveler Ibn Battuta toured Ilkhanid-era Persia, leaving eyewitness descriptions of Tabriz, Isfahan, and Shiraz as recovering centers of trade and learning.",
+      "description": "The Moroccan traveler Ibn Battuta toured Persia in the early fourteenth century, leaving eyewitness descriptions of Tabriz, Isfahan, and Shiraz recovering as centers of trade and learning a couple of generations after the Mongols.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Battuta is the medieval world's great wanderer — over roughly thirty years he covered some 75,000 miles across Africa, the Middle East, India, and China, far more than Marco Polo, dictating it all into a travel book called the Rihla. His value here is as a recovery witness: passing through only decades after the catastrophe, he found the great Persian cities not as smoking ruins but as functioning, even thriving, places of bazaars and scholars and shrines. His pages are a reminder that the Mongol devastation, however terrible, was not the end — by his day Persia was already stitching itself back together, exactly as it had after the Arabs."
+        }
+      ],
       "wikiSlug": "Ibn_Battuta",
       "tier": 3,
       "tags": [],
@@ -1251,7 +1959,13 @@
       "id": "evt-islamic-persia-119",
       "label": "The bazaar as the engine of the Persian city",
       "year": 1100,
-      "description": "The covered bazaar, with its caravanserais, guilds, and money-changers, was the commercial heart of every Persian city, organizing trade, craft, and credit across the period.",
+      "description": "The covered bazaar was the beating commercial heart of every Persian city — not just a market but a whole institution, organizing trade, craft, credit, and even politics under its vaulted brick roofs.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A great bazaar was a city within the city: roofed lanes stretching for miles, sorted by trade so that the coppersmiths, the carpet-sellers, the spice merchants each had their own quarter; caravanserais where long-distance traders lodged their animals and goods; guilds that set standards and prices; and money-changers who effectively ran a credit system before banks existed. It was also a power center — the merchants and guildsmen of the bazaar, tied to the clergy of the adjoining mosque, formed a bloc that rulers ignored at their peril, a dynamic that still echoes in Iranian politics today. To understand a Persian city, you start not at the palace but in the bazaar."
+        }
+      ],
       "wikiSlug": "Bazaar",
       "tier": 3,
       "tags": [],
@@ -1261,7 +1975,13 @@
       "id": "evt-islamic-persia-120",
       "label": "Persian gardens and the idea of paradise",
       "year": 1300,
-      "description": "The Persian chahar-bagh, the four-part walled garden of water channels and shade, was a deliberate image of paradise and one of Persia's most influential exports to India and beyond.",
+      "description": "The Persian chahar-bagh — the four-part walled garden, quartered by water channels and shaded by trees — was a deliberate image of paradise, and one of Persia's most influential exports to India and beyond.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The design is theology made in soil: four channels of running water divide the garden into quarters meeting at a central pool or pavilion, evoking the rivers of paradise described in the Quran — so the word 'paradise' itself comes, through Greek, from an Old Persian word for a walled garden. In the dry heat of the plateau, a green, watered, shaded enclosure was the most precious luxury imaginable, a literal foretaste of heaven. The form traveled with Persian culture into Mughal India, where it framed the great tombs — the gardens around the Taj Mahal are a chahar-bagh — carrying the Persian idea of paradise across a continent."
+        }
+      ],
       "wikiSlug": "Persian_garden",
       "tier": 3,
       "tags": [],
@@ -1271,7 +1991,13 @@
       "id": "evt-islamic-persia-121",
       "label": "Maragha astronomers anticipate Copernicus",
       "year": 1270,
-      "description": "The 'Maragha school' around al-Tusi developed planetary models, including the Tusi couple, that some scholars argue influenced Copernicus's heliocentric reform two centuries later.",
+      "description": "The astronomers gathered around al-Tusi at Maragha — the 'Maragha school' — built planetary models so sophisticated that some scholars argue they fed directly into Copernicus's reform of the heavens two centuries later.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They were not trying to overthrow the Earth-centered cosmos; they were trying to fix it. The inherited Greek models, especially Ptolemy's, had ugly mathematical fudges that bothered careful astronomers, and the Maragha mathematicians invented elegant geometrical devices — the Tusi couple chief among them, plus the models of Ibn al-Shatir a century on — to do the job cleanly. The striking thing is that the very same devices reappear in Copernicus's work. Whether they reached him through some chain of transmission or he reinvented them is one of the genuine open questions in the history of science. Either way, the road to modern astronomy runs through a Persian observatory built by a Mongol conqueror."
+        }
+      ],
       "wikiSlug": "Maragheh_observatory",
       "tier": 2,
       "tags": [],
@@ -1281,7 +2007,13 @@
       "id": "evt-islamic-persia-122",
       "label": "Qutb al-Din al-Shirazi and the optics of the rainbow",
       "year": 1300,
-      "description": "The Persian polymath Qutb al-Din al-Shirazi, a student of al-Tusi, gave one of the first roughly correct explanations of how raindrops produce the rainbow.",
+      "description": "Qutb al-Din al-Shirazi, a student of al-Tusi, gave one of the first roughly correct explanations of how raindrops make a rainbow — light bending and reflecting inside each drop to split the colors.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The breakthrough was to treat each raindrop as a tiny sphere of water that refracts incoming sunlight, reflects it off its inner back surface, and refracts it again on the way out, bending the colors apart by different amounts — essentially the modern account, centuries before Descartes and Newton wrote it down in Europe. (His student al-Farisi pushed the explanation further with careful experiments using a water-filled glass globe.) Al-Shirazi was a true product of the Maragha school — a physician, astronomer, and optician who could move from planetary models to the physics of light — proof that the Ilkhanid scientific revival was broad as well as deep."
+        }
+      ],
       "wikiSlug": "Qutb_al-Din_al-Shirazi",
       "tier": 3,
       "tags": [],
@@ -1291,7 +2023,13 @@
       "id": "evt-islamic-persia-123",
       "label": "The mathematician al-Kashi at Samarkand",
       "year": 1424,
-      "description": "Jamshid al-Kashi, working at Ulugh Beg's observatory, computed pi to sixteen decimal places and pioneered decimal fractions, a high point of Timurid mathematics.",
+      "description": "Working alongside Ulugh Beg at Samarkand, the mathematician Jamshid al-Kashi computed the value of pi to sixteen decimal places — a record that would stand for nearly two hundred years — and pioneered the use of decimal fractions.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His method for pi was a feat of sheer patient calculation: he worked with a polygon of some 800 million sides to pin the value down, and stated it precisely enough to compute the circumference of the known universe to within a hair's breadth. His systematic use of decimal fractions — the way we still write 3.14 — helped move mathematics past the clumsy sexagesimal (base-60) fractions inherited from antiquity. He is the proof that the Timurid renaissance was not only beautiful but rigorous: world-class science being done at the court of Timur's grandson, in a city the conqueror had rebuilt with deported slaves."
+        }
+      ],
       "wikiSlug": "Jamshid_al-Kashi",
       "tier": 3,
       "tags": [],
@@ -1301,7 +2039,13 @@
       "id": "evt-islamic-persia-124",
       "label": "The Tabriz school of painting under the Jalayirids",
       "year": 1370,
-      "description": "Before the Timurid Herat school, painters at Jalayirid Tabriz and Baghdad refined manuscript illustration, bridging Ilkhanid and Timurid Persian miniature traditions.",
+      "description": "Before the Timurid Herat school reached its summit, painters at Jalayirid Tabriz and Baghdad quietly refined manuscript illustration — the crucial bridge between the Ilkhanid miniature and its Timurid perfection.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Art history loves the peaks — the Great Mongol Shahnameh, then Bihzad at Herat — but the line between them was carried by workshops like these, under the Jalayirids, one of the splinter dynasties left by the Ilkhanate's collapse. Their painters refined composition, deepened the landscape, and made the page more intimate, handing forward the techniques that the Timurid masters would push to their height. It is a useful reminder that a tradition's great moments rest on decades of unglamorous, name-poor refinement in between — the miniature did not leap from Ilkhanid to Timurid genius; it was carried, hand to hand, through Tabriz."
+        }
+      ],
       "wikiSlug": "Tabriz_school",
       "tier": 3,
       "tags": [],
@@ -1311,7 +2055,13 @@
       "id": "evt-islamic-persia-125",
       "label": "The conquest reshapes the Persian language map",
       "year": 700,
-      "description": "Arabic became the language of religion, law, and prestige scholarship while Persian survived as the spoken and, increasingly, literary tongue, producing the bilingual culture of Islamic Persia.",
+      "description": "The conquest split Persia in two tongues: Arabic on top — the language of God, government, and serious scholarship — and spoken Persian underneath, carrying on in homes and markets but, for a while, writing little down.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The losing language was Middle Persian, or Pahlavi — the tongue of the Zoroastrian priesthood, the old court, and the tax registers, written in a difficult, ambiguous script descended from ancient Aramaic that fewer and fewer people could read. It was bound up with the losing side of history, the speech of fire-temples and a dead dynasty. Anyone who wanted to get ahead learned Arabic, the far easier script and the prestige tongue. What makes Persia the great exception is that, unlike Egyptian or Syriac, the underneath-language did not simply fade into Arabic — it grew a brand-new written form and climbed back up."
+        }
+      ],
       "wikiSlug": "Middle_Persian",
       "tier": 2,
       "tags": [],
@@ -1321,7 +2071,13 @@
       "id": "evt-islamic-persia-126",
       "label": "The legend of the Iranian national epic taking hold",
       "year": 1050,
-      "description": "Within decades of Ferdowsi, the Shahnameh's kings and heroes were being recited in courts and bazaars alike, fixing a shared Iranian identity that outlasted every dynasty.",
+      "description": "Within a few decades of Ferdowsi's death, the Shahnameh's kings and heroes were being recited in courts and bazaars alike — fixing a shared Iranian identity that would outlast every dynasty that ruled the land.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the quiet machinery of how a poem becomes a people's self-image. The stories spread by performance as much as by the page: professional reciters, the naqqals, would tell the tales of Rustam and Sohrab and Zahhak aloud in teahouses and squares, complete with gestures and a painted backdrop, so that even the illiterate knew the national epic by heart. That oral life is why the Shahnameh could survive Mongol and Timurid catastrophe untouched — you cannot burn a story held in a thousand memories. Through every foreign dynasty that followed, Turkic and Mongol alike, this shared body of legend kept telling Persians who they were."
+        }
+      ],
       "wikiSlug": "Shahnameh",
       "tier": 3,
       "tags": [],
@@ -1331,7 +2087,13 @@
       "id": "evt-islamic-persia-127",
       "label": "Shaykh Safi al-Din founds the order at Ardabil",
       "year": 1301,
-      "description": "Shaykh Safi al-Din, from whom the Safavids took their name, established the Sufi order at Ardabil whose later transformation into a militant Shia movement would remake Persia.",
+      "description": "Around 1300 — the very moment the Mongol Ilkhans were converting to Islam — a holy man named Shaykh Safi al-Din founded a Sufi order at Ardabil, in the cold northwestern highlands, that would two centuries later remake Persia.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Safavids took their dynastic name straight from him — Safaviyya, the order of Safi — and his shrine at Ardabil became their spiritual home and burial place, a complex they would lavish wealth on once they ruled. The lesson hidden in his founding is how unpredictable history is: nothing about a quietist prayer-circle in a remote highland town in 1300 suggested it would breed a fanatical cavalry army and a Shia empire. Most Sufi orders stayed peaceful, pious, and politically quiet forever. This one, through a slow radicalization no one at the start could have foreseen, became the engine that gathered the fragments of post-Timurid Persia."
+        }
+      ],
       "wikiSlug": "Safi-ad-din_Ardabili",
       "tier": 2,
       "tags": [],
@@ -1341,7 +2103,13 @@
       "id": "evt-islamic-persia-128",
       "label": "The Sarbadars: a Shia revolt in Khurasan",
       "year": 1337,
-      "description": "The Sarbadars ('the gallows-headed') built a short-lived, partly Shia-egalitarian state in Khurasan, an early sign of the militant Shiism that would later sweep Persia.",
+      "description": "The Sarbadars — 'the gallows-headed' — built a short-lived, partly Shia and egalitarian state in Khurasan from 1337, an early rehearsal of the militant Shiism that would sweep all of Persia under the Safavids.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name is a boast: sar ba dar means roughly 'head on the gallows,' from the defiant claim that they would rather hang than submit. What makes them a flag worth planting is the blend they pioneered in miniature — a populist movement fusing militant Shia devotion (with strong Sufi and dervish involvement) and a tribal-egalitarian streak, in exactly the region that had been Persia's cultural heartland. They didn't last, torn by their own factions. But the combination — radical Shiism plus an armed, devoted following — is the same volatile mix the Safaviyya would master and ride to the throne a century and a half later."
+        }
+      ],
       "wikiSlug": "Sarbadars",
       "tier": 3,
       "tags": [],
