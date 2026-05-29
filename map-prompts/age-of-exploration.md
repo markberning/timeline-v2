@@ -93,6 +93,10 @@ Label these sites, each a dot:
 
 One annotation: a short arrow from the West African coast out into the Atlantic toward Portugal, labeled **gold and enslaved captives shipped north**.
 
+**SPECIFIC REMINDERS for this chapter:**
+- There is EXACTLY ONE "Lagos" on this map: the small port in the Algarve of southern Portugal, at the TOP of the map. Do NOT draw a second "Lagos" anywhere in West Africa or modern Nigeria — the famous Nigerian city did not yet exist in this story and must NOT appear. One Lagos, in Portugal, only.
+- Do not duplicate any city or region label anywhere on the map.
+
 ---
 
 ## Chapter 4 — Rounding the Cape
@@ -135,29 +139,37 @@ Label these sites, each a dot:
 
 One annotation: a long arrow running west across the Atlantic from the **Canary Islands** to **San Salvador**, labeled **Columbus sails west, 1492**.
 
+**SPECIFIC REMINDERS for this chapter:**
+- Draw the voyage as exactly TWO connected legs: (1) a SHORT hop from **Palos** (Spain, far right) down to the **Canary Islands**, then (2) ONE main crossing arrow from the **Canary Islands** running WEST across the open Atlantic to **San Salvador** / the Bahamas. Draw at most these two connected legs; do NOT add any other arrows.
+- The long ocean crossing must START at the **Canary Islands**, NEVER directly from Spain. Do NOT draw any arrow from Spain straight across the Atlantic to San Salvador, and do NOT draw a separate Spain-to-Canary-Islands arrow on top of the short hop. The crossing label "Columbus sails west, 1492" belongs on the Canaries-to-San Salvador leg.
+
 ---
 
 ## Chapter 6 — A Line Drawn Around the World
 
 The chapter title "Chapter 6: A Line Drawn Around the World" should appear at the top inside a single full-width header bar — the only bordered element. No frame anywhere else; the map bleeds off all four edges.
 
-A wide Atlantic map showing the Treaty of Tordesillas line splitting the world between two crowns, around 1493–1507 — Europe and Africa on the right (east), South America on the left (west), the Atlantic between, the dividing meridian running down the middle of the ocean.
+A wide Atlantic map showing the Treaty of Tordesillas line splitting the unclaimed world between two crowns, around 1494 — South America on the left (west), Europe and Africa on the right (east), the Atlantic Ocean between them, and one vertical dividing line running down the middle of the ocean.
 
 Label these sites, each a dot:
-- **Tordesillas** (the town in Castile, central Spain, on the right)
-- **Cape Verde Islands** (the island group in the Atlantic off the West African coast)
-- **Brazil** (the eastern bulge of South America, left of center, on the Portuguese side of the line)
+- **Tordesillas** (the town in central Spain, on the Iberian Peninsula at the upper right)
+- **Cape Verde Islands** (a small island group in the Atlantic just off the West African coast, right of center)
+- **Brazil** (label the eastern bulge of South America, on the left)
 
 3 region labels (gray, orientation only):
-- **Atlantic Ocean** (the open water between the continents)
-- **Spain** (the right/east land — the western, Spanish half)
-- **Portugal** (a smaller label on the Iberian coast)
+- **Atlantic Ocean** (the open water filling the center)
+- **South America** (the continent on the left/west)
+- **Africa** (the continent on the right/east)
 
-One annotation: a straight vertical line running top to bottom through the Atlantic west of the Cape Verde Islands, labeled **Treaty of Tordesillas line (1494)**, with **Spain's half** marked to its west (left) and **Portugal's half** marked to its east (right).
+Two SMALL country labels on the Iberian Peninsula at the upper right, side by side on land: **Spain** and **Portugal** (these are the two neighboring countries — both on land, never in the ocean).
+
+One annotation: a single straight vertical line running top-to-bottom through the open Atlantic, a little to the west of the Cape Verde Islands, labeled **Treaty of Tordesillas line**. Mark the ocean to its LEFT (west) **Spain's claim** and the ocean to its RIGHT (east) **Portugal's claim**.
 
 **SPECIFIC REMINDERS for this chapter:**
-- Draw the Tordesillas line as ONE clean vertical line down the middle of the Atlantic Ocean. Label it EXACTLY "Treaty of Tordesillas line" — do NOT render the "(1494)" parenthetical as separate floating text.
-- The two half-labels are EXACTLY "Spain's half" (to the west/left) and "Portugal's half" (to the east/right). Brazil falls on the Portuguese (east) side of the line.
+- Draw ONE clean vertical line through the middle of the Atlantic Ocean, labeled EXACTLY "Treaty of Tordesillas line" (no date, no second line).
+- The two halves are labeled EXACTLY "Spain's claim" (west/left of the line) and "Portugal's claim" (east/right of the line).
+- "Spain" and "Portugal" are two SEPARATE small labels sitting next to each other ON the Iberian Peninsula landmass (upper right). NEVER place either country label out in the ocean.
+- Place all four continents/landmasses in their true positions; do not move Brazil across the ocean. Just show the line dividing the water — do not try to draw Brazil straddling it.
 
 ---
 
@@ -188,26 +200,28 @@ One annotation: an arrow running across the Arabian Sea from **Malindi** to **Ca
 
 The chapter title "Chapter 8: The Pacific and the First Circle" should appear at the top inside a single full-width header bar — the only bordered element. No frame anywhere else; the map bleeds off all four edges.
 
-A WORLD map of Magellan's circumnavigation, around 1519–1522, spanning the whole globe — Europe and Africa on the right, the Americas in the center-left, the vast Pacific filling the left and wrapping toward Asia. Show the continents small enough that the entire round-the-world route fits.
+A PACIFIC-CENTERED world map of Magellan's circumnavigation, around 1519–1522 — the vast Pacific Ocean in the MIDDLE of the map, the Americas down the right side, Asia and the Spice Islands down the left side, with Europe and Africa folding around to the right edge. Centering on the Pacific keeps Magellan's whole route inside the frame: down the east coast of South America, through the Strait of Magellan, across the Pacific to the Philippines and the Spice Islands, then home around Africa. Show the continents small enough that the route stays well within the frame.
 
 Label these sites, each a dot:
-- **Seville** (the port in southern Spain, far right, where the voyage began and ended)
-- **Strait of Magellan** (the channel near the southern tip of South America)
-- **Mactan** (the small island in the Philippines where Magellan was killed)
-- **Maluku Islands** (the Spice Islands of eastern Indonesia)
-- **Cape of Good Hope** (the southern tip of Africa, on the homeward leg)
+- **Seville** (the port in southern Spain, upper right, where the voyage began and ended)
+- **Strait of Magellan** (the channel near the southern tip of South America, right side)
+- **Mactan** (the small island in the Philippines where Magellan was killed, left side)
+- **Maluku Islands** (the Spice Islands of eastern Indonesia, left side)
+- **Cape of Good Hope** (the southern tip of Africa, on the homeward leg, far right)
 
 4 region labels (gray, orientation only):
-- **Atlantic Ocean** (between the Americas and Europe/Africa)
-- **Pacific Ocean** (the vast water filling the left, the largest feature on the map)
-- **South America** (the continent in the center-left)
-- **Africa** (the continent on the right)
+- **Pacific Ocean** (the vast water filling the CENTER of the map, the largest feature)
+- **Atlantic Ocean** (between the Americas and Europe/Africa, on the right)
+- **South America** (the continent on the right side)
+- **Africa** (the continent on the far right)
 
-One annotation: a single continuous route arrow circling the globe — west across the Atlantic, through the **Strait of Magellan**, across the **Pacific Ocean** to the Philippines and the **Maluku Islands**, then west across the Indian Ocean and around the **Cape of Good Hope** back to **Seville** — labeled once **the first circumnavigation**.
+One annotation: a route marked along its key points — down the east coast of South America, through the **Strait of Magellan**, west across the **Pacific Ocean** to **Mactan** in the Philippines and the **Maluku Islands**, then around the **Cape of Good Hope** back to **Seville** — labeled once **the first circumnavigation**.
 
 **SPECIFIC REMINDERS for this chapter:**
-- This is a single world-spanning loop. Draw ONE continuous route line all the way around; label it EXACTLY ONCE as "the first circumnavigation". Do NOT scatter the route label along the line.
-- The Pacific Ocean is by far the largest body of water on the map — give it the most space, filling the left side.
+- Draw the world ONCE — each continent appears exactly once; Australia appears at most once. Do NOT duplicate any continent or island at opposite corners of the map.
+- No straight horizontal line cutting across the ocean or any landmass. Do NOT sever a continent with a horizontal artifact.
+- Center the map on the **Pacific Ocean** (Americas on the right, Asia/Spice Islands on the left) so the route stays mostly WITHIN the frame and does NOT cross the map's left or right edge.
+- Mark the route's key points as dots or short labeled segments rather than one unbroken line that wraps off the edges. Label the route EXACTLY ONCE as "the first circumnavigation"; do NOT scatter the route label along the line.
 
 ---
 
@@ -346,8 +360,12 @@ Label these sites, each a dot:
 - **the Americas** (the continents on the left/west)
 - **Africa** (the continent on the right/east)
 
-One annotation: three arrows forming a triangle across the **Atlantic Ocean** — Europe to West Africa, West Africa across to the Americas, the Americas back to Europe — labeled once **the triangular trade**.
+Annotation — three separate labeled arrows across the open Atlantic that together form the trade triangle (each arrow gets its OWN short label, so there is no repeated caption):
+- an arrow from **Europe** (upper right) down to **West Africa** (lower right), labeled **guns & cloth**
+- an arrow from **West Africa** (lower right) across the ocean to the **Caribbean** (center-left), labeled **enslaved people**
+- an arrow from the **Americas** (left) back up to **Europe** (upper right), labeled **sugar & silver**
 
 **SPECIFIC REMINDERS for this chapter:**
-- Draw the three trade arrows as ONE connected triangle and label the whole thing EXACTLY ONCE as "the triangular trade". Do NOT label each leg separately and do NOT repeat the caption.
-- The triangle's three corners are Europe (right/north), West Africa (right/south), and the Americas (left). Keep the arrows over open Atlantic water, not over land.
+- Draw EXACTLY three arrows, each a single clean line with one arrowhead, together closing into a triangle over open Atlantic water. Each arrow carries its own distinct label (guns & cloth / enslaved people / sugar & silver) — three different labels, so nothing is repeated.
+- Keep every arrow over the open ocean, never crossing a continent. The three corners are Europe (upper right), West Africa (lower right), and the Americas/Caribbean (left).
+- Do not add a fourth arrow or any extra route line.

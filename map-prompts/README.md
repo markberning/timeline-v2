@@ -14,6 +14,8 @@ This README documents the prompt **house style**. The CRITICAL RULES block and l
 
 Run maps **early** in a civ build so the user has time to judge any failures before ship. The one exception that earns a fresh 3-attempt run is fixing a genuine *prompt* bug (e.g. a self-contradictory instruction) — not blind re-rolling. See `memory/feedback_map_three_attempt_cap`.
 
+**No blind trust of the QA verdict (2026-05-29).** `audit-maps.mjs` is itself a vision model and **produces false positives** — it failed a correct `age-of-exploration` ch14 map for a "backwards arrow" that was actually pointing the right way. So **before re-rolling or escalating a flagged chapter, open the image and look at it yourself.** If the QA was wrong and the map is genuinely fine, **waive it** in `content/.map-waivers-<tlId>.json` (`{"<ch>": "<reason — note it's human-verified>"}`); don't burn an attempt chasing a phantom defect, and don't hand the user a "failure" that isn't one.
+
 ---
 
 ## CRITICAL house style — every prompt MUST open with these rules
