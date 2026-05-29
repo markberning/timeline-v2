@@ -1,0 +1,1527 @@
+{
+  "id": "age-of-exploration",
+  "label": "The Age of Exploration",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Age_of_Discovery",
+  "imageWikiSlug": "Caravel",
+  "pitch": "In 1415 a Portuguese prince watched his army storm a Moroccan port and got an idea that would rewire the planet. Within three centuries the ocean — which every civilization had treated as the edge of the map, the place the world ran out — became a highway. Tiny European kingdoms with terrible odds and worse ships learned to ride the wind in circles, rounded a continent everyone said was unroundable, stumbled into two more continents they didn't know existed, and stitched every inhabited landmass on Earth into a single, violent, world-spanning web of trade. It is one of history's great accidents and one of its great crimes at the same time. The men who did it were a strange mix of mathematicians and zealots and pirates: Prince Henry's chartmakers at Sagres, Vasco da Gama bullying his way into the Indian Ocean, Columbus dying convinced he'd reached Asia, Magellan's crew of starving survivors who limped home as the first humans to circle the globe, Cortés toppling an empire of millions with a few hundred men and a continent's worth of new diseases. And on the other side of every landing were people with their own empires, their own ships, their own gods — the Taíno, the Aztec and Inca, the Zamorin of Calicut, the kings of Kongo, the Khoikhoi — who fought, traded, allied, and were very often destroyed.\n\n🔑 Key Facts:\n• The whole thing was made possible by a counterintuitive trick — the volta do mar, sailing AWAY from your destination into the open Atlantic to catch winds that would curve you back; it took the Portuguese decades to trust it.\n• In 1494 Spain and Portugal literally drew a line down a globe nobody had finished mapping (the Treaty of Tordesillas) and split the non-Christian world between them — which is why Brazil speaks Portuguese and the rest of Latin America speaks Spanish.\n• Magellan's expedition left Spain with five ships and ~270 men in 1519; one ship and 18 starving men made it home in 1522, having proven the Earth was round the hard way.\n• The Columbian Exchange moved potatoes, maize, and tomatoes east and horses, wheat, and smallpox west — the disease half killed perhaps 90% of the Americas' population, the deadliest demographic catastrophe in recorded history.\n\n🤔 Why It Matters: This is the moment the world became one world — the start of globalization, the global economy, and the modern map. It also launched the Atlantic slave trade and the colonial empires whose borders and grievances still shape the planet. Almost everything about the modern world, good and monstrous, traces back to a few wooden ships learning to come home.",
+  "countryIds": [],
+  "spans": [
+    {
+      "id": "span-aoe-portuguese-school",
+      "label": "The Portuguese School",
+      "startYear": 1415,
+      "endYear": 1488,
+      "description": "Portugal turns exploration into a state project — Ceuta, the caravel, the volta do mar, and a slow, methodical creep down the West African coast that finally rounds the bottom of Africa.",
+      "wikiSlug": "Prince_Henry_the_Navigator"
+    },
+    {
+      "id": "span-aoe-iberian-breakout",
+      "label": "The Iberian Breakout",
+      "startYear": 1488,
+      "endYear": 1522,
+      "description": "Columbus blunders into the Americas, da Gama reaches India, the pope and two crowns carve up the world at Tordesillas, and Magellan's survivors circle the globe.",
+      "wikiSlug": "Age_of_Discovery"
+    },
+    {
+      "id": "span-aoe-conquest",
+      "label": "The Conquest of the Americas",
+      "startYear": 1493,
+      "endYear": 1572,
+      "description": "Spain topples the Aztec and Inca empires, mountains of silver flow out of Potosí, and the encomienda, the missions, and Old World disease remake two continents.",
+      "wikiSlug": "Spanish_colonization_of_the_Americas"
+    },
+    {
+      "id": "span-aoe-spice-empire",
+      "label": "The Spice Empire in the East",
+      "startYear": 1498,
+      "endYear": 1600,
+      "description": "Portugal builds a seaborne empire of forts and choke-points from the Swahili coast to the Spice Islands, China, and Japan — trade enforced at cannon-point.",
+      "wikiSlug": "Portuguese_India"
+    },
+    {
+      "id": "span-aoe-latecomers",
+      "label": "The Northern Latecomers",
+      "startYear": 1497,
+      "endYear": 1650,
+      "description": "England, France, and the Dutch break the Iberian monopoly with privateers, joint-stock companies, and the first lasting northern colonies in the Americas and Asia.",
+      "wikiSlug": "Dutch_East_India_Company"
+    },
+    {
+      "id": "span-aoe-world-made",
+      "label": "The World the Voyages Made",
+      "startYear": 1492,
+      "endYear": 1700,
+      "description": "The Columbian Exchange, the Atlantic slave trade, the silver-fueled first global economy, and the new sciences of the round, mapped, single world.",
+      "wikiSlug": "Columbian_exchange"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-age-of-exploration-001",
+      "label": "Ming treasure fleets sail the Indian Ocean",
+      "year": 1405,
+      "endYear": 1433,
+      "description": "Decades before Portugal's first caravel, the admiral Zheng He led enormous Ming Chinese fleets across the Indian Ocean to Africa — then China abruptly turned inward and burned the ledgers, leaving the ocean open.",
+      "wikiSlug": "Ming_treasure_voyages",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-002",
+      "label": "Portugal storms Ceuta",
+      "year": 1415,
+      "description": "A Portuguese army seized the rich Moroccan port of Ceuta from the Marinid sultanate — the spark usually called the start of European overseas expansion, and where Prince Henry first saw the wealth of the Saharan gold trade.",
+      "wikiSlug": "Conquest_of_Ceuta",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-003",
+      "label": "Prince Henry the Navigator",
+      "year": 1418,
+      "endYear": 1460,
+      "description": "King John I's son turned exploration into a state enterprise, funding decades of voyages down the African coast from his base in the Algarve and earning the (somewhat exaggerated) title 'the Navigator.'",
+      "wikiSlug": "Prince_Henry_the_Navigator",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-004",
+      "label": "Settlement of Madeira",
+      "year": 1420,
+      "description": "Portuguese settlers colonized the uninhabited Atlantic island of Madeira and planted sugar cane — the prototype of the slave-worked plantation that would later define the Atlantic.",
+      "wikiSlug": "History_of_Madeira",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-005",
+      "label": "The caravel takes shape",
+      "year": 1430,
+      "description": "Portuguese shipwrights perfected the caravel — small, nimble, and rigged with triangular lateen sails that let it claw to windward, the machine that made coastal exploration possible.",
+      "wikiSlug": "Caravel",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-006",
+      "label": "The lateen sail",
+      "year": 1430,
+      "description": "Borrowed from Arab and Mediterranean sailors, the triangular lateen sail let a ship sail at an angle into the wind — the single innovation that turned the open ocean from a one-way trap into a road.",
+      "wikiSlug": "Lateen",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-007",
+      "label": "Settlement of the Azores",
+      "year": 1432,
+      "description": "Portuguese navigators reached the Azores, far out in the mid-Atlantic — a waypoint that taught them the giant clockwise wind loop they would learn to ride home.",
+      "wikiSlug": "History_of_the_Azores",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-008",
+      "label": "Gil Eanes rounds Cape Bojador",
+      "year": 1434,
+      "description": "Sailors believed the sea beyond Cape Bojador boiled and monsters lived there; Gil Eanes finally sailed past it and came back alive, breaking the psychological wall that had stopped exploration for years.",
+      "wikiSlug": "Gil_Eanes",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-009",
+      "label": "The volta do mar discovered",
+      "year": 1440,
+      "description": "The hard lesson of the Atlantic: to get home from the African coast you sailed away from land into the open ocean to catch the westerly winds — the counterintuitive 'turn of the sea' that unlocked everything.",
+      "wikiSlug": "Volta_do_mar",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-010",
+      "label": "First enslaved Africans shipped to Portugal",
+      "year": 1444,
+      "description": "A cargo of captured Africans was auctioned at Lagos in Portugal — the grim commercial turn that made the African voyages profitable and seeded the Atlantic slave trade.",
+      "wikiSlug": "Atlantic_slave_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-011",
+      "label": "Cadamosto explores the Senegal coast",
+      "year": 1455,
+      "description": "The Venetian Alvise Cadamosto, sailing for Portugal, reached the Senegal and Gambia rivers and wrote vivid accounts of the Wolof kingdoms and Saharan gold-salt trade he found there.",
+      "wikiSlug": "Alvise_Cadamosto",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-012",
+      "label": "The Mali and Songhai gold trade",
+      "year": 1450,
+      "description": "What drew the Portuguese south was the legendary West African gold that crossed the Sahara to the Mediterranean — wealth controlled by Sahelian empires the Songhai now dominated.",
+      "wikiSlug": "Songhai_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-013",
+      "label": "John II, the Perfect Prince",
+      "year": 1481,
+      "endYear": 1495,
+      "description": "King John II of Portugal ran exploration like a secret intelligence operation — funding the push to India, planting spies in the East, and rejecting a Genoese named Columbus.",
+      "wikiSlug": "John_II_of_Portugal",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-014",
+      "label": "Elmina Castle built on the Gold Coast",
+      "year": 1482,
+      "description": "Portugal raised São Jorge da Mina — Elmina — the first permanent European fort in sub-Saharan Africa, a fortified depot for gold and, later, enslaved people.",
+      "wikiSlug": "Elmina_Castle",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-015",
+      "label": "Diogo Cão reaches the Kongo",
+      "year": 1483,
+      "description": "Diogo Cão sailed past the mouth of the Congo River and made contact with the powerful Kingdom of Kongo, opening a relationship that would briefly make Kongo a Christian ally and then a slaving frontier.",
+      "wikiSlug": "Diogo_Cão",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-016",
+      "label": "The padrão stone pillars",
+      "year": 1483,
+      "description": "Portuguese captains planted carved stone pillars called padrões at the limits of each voyage — part claim-marker, part cross, part the era's idea of a press release in granite.",
+      "wikiSlug": "Padrão",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-017",
+      "label": "Bartolomeu Dias rounds the Cape",
+      "year": 1488,
+      "description": "Blown around the southern tip of Africa by a storm, Bartolomeu Dias proved a sea route to the Indian Ocean existed — and his terrified crew forced him to turn back just short of India.",
+      "wikiSlug": "Bartolomeu_Dias",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-018",
+      "label": "The Cape of Good Hope named",
+      "year": 1488,
+      "description": "Dias called it the Cape of Storms; King John renamed it the Cape of Good Hope — the corner that turned Africa from a wall into a doorway to the riches of the East.",
+      "wikiSlug": "Cape_of_Good_Hope",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-019",
+      "label": "The mariner's astrolabe",
+      "year": 1480,
+      "description": "A heavy brass ring for measuring the sun's height at noon let sailors calculate their latitude far from any coastline — turning navigation from coastal guesswork into something like a science.",
+      "wikiSlug": "Mariner's_astrolabe",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-020",
+      "label": "Regiomontanus publishes navigation tables",
+      "year": 1474,
+      "description": "The German astronomer Regiomontanus printed tables of the heavens that let a sailor turn a star sighting into a position — astronomy quietly becoming a tool of empire.",
+      "wikiSlug": "Regiomontanus",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-021",
+      "label": "The Fall of Constantinople",
+      "year": 1453,
+      "description": "The Ottoman capture of Constantinople choked the old overland spice routes to Asia and gave Europe's seafaring kingdoms a powerful new reason to find a way around by water.",
+      "wikiSlug": "Fall_of_Constantinople",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-022",
+      "label": "The Catholic Monarchs unite Spain",
+      "year": 1469,
+      "description": "The marriage of Isabella of Castile and Ferdinand of Aragon fused the two great Spanish crowns — the partnership that would finish the Reconquista and gamble on Columbus.",
+      "wikiSlug": "Catholic_Monarchs",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-023",
+      "label": "The Fall of Granada",
+      "year": 1492,
+      "description": "Ferdinand and Isabella took Granada, the last Muslim kingdom in Spain, ending the centuries-long Reconquista — and freeing crown, soldiers, and crusading zeal for an overseas project.",
+      "wikiSlug": "Granada_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-024",
+      "label": "Isabella I bankrolls Columbus",
+      "year": 1492,
+      "description": "After years of refusals, Isabella I of Castile finally backed a Genoese mariner's wildly miscalculated plan to reach Asia by sailing west — a gamble that paid off in the wrong direction.",
+      "wikiSlug": "Isabella_I_of_Castile",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-025",
+      "label": "Columbus reaches the Americas",
+      "year": 1492,
+      "description": "On 12 October 1492 Christopher Columbus made landfall in the Bahamas, convinced he had reached the edge of Asia — beginning sustained, catastrophic contact between two halves of the world.",
+      "wikiSlug": "Christopher_Columbus",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-026",
+      "label": "The Taíno of the Caribbean",
+      "year": 1492,
+      "description": "The people Columbus met were the Taíno, who ran chiefdoms across the Greater Antilles; within a generation of contact, disease and forced labor had nearly annihilated them.",
+      "wikiSlug": "Taíno",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-027",
+      "label": "La Navidad, the first colony, is wiped out",
+      "year": 1493,
+      "description": "Columbus left 39 men in a fort built from the wrecked Santa María; by his return all were dead, killed by the very Taíno who had first welcomed him — the New World's first colony and its first reckoning.",
+      "wikiSlug": "La_Navidad",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-028",
+      "label": "The papal bulls of donation",
+      "year": 1493,
+      "description": "Pope Alexander VI issued the Inter caetera bulls granting Spain dominion over the lands Columbus had found — the church handing out continents it had never seen.",
+      "wikiSlug": "Inter_caetera",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-029",
+      "label": "The Treaty of Tordesillas",
+      "year": 1494,
+      "description": "Spain and Portugal split the entire non-Christian world along a meridian 370 leagues west of Cape Verde — a line drawn on a globe nobody had finished mapping, which is why Brazil speaks Portuguese.",
+      "wikiSlug": "Treaty_of_Tordesillas",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-030",
+      "label": "The Columbian Exchange begins",
+      "year": 1493,
+      "description": "Columbus's second voyage carried horses, pigs, wheat, and sugar west and brought maize and disease back — the start of the biological great-shuffle that would remake diets and demographics on every continent.",
+      "wikiSlug": "Columbian_exchange",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-031",
+      "label": "The encomienda system",
+      "year": 1503,
+      "description": "Spain formalized the encomienda — a grant giving a colonist the labor of indigenous people in exchange for 'Christianizing' them, a legal fiction that meant brutal forced labor.",
+      "wikiSlug": "Encomienda",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-032",
+      "label": "Vasco da Gama reaches India",
+      "year": 1498,
+      "description": "Vasco da Gama rounded Africa and crossed the Indian Ocean to Calicut, opening the first all-sea route from Europe to the spice markets of the East — and instantly threatening the merchants who already ran them.",
+      "wikiSlug": "Vasco_da_Gama",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-033",
+      "label": "The Zamorin of Calicut",
+      "year": 1498,
+      "description": "Da Gama's host was the Zamorin, the Hindu ruler of Calicut, who already presided over a sophisticated Indian Ocean trade and was distinctly unimpressed by the cheap gifts the Portuguese offered.",
+      "wikiSlug": "Zamorin",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-034",
+      "label": "Ahmad ibn Majid, master of the monsoon",
+      "year": 1498,
+      "description": "An Arab pilot — tradition names the great navigator Ibn Majid — guided da Gama across the open Indian Ocean, a reminder that the 'discovery' rode on centuries of existing Asian and Arab seafaring.",
+      "wikiSlug": "Ahmad_ibn_Majid",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-035",
+      "label": "Manuel I, the Fortunate",
+      "year": 1495,
+      "endYear": 1521,
+      "description": "King Manuel I presided over Portugal's golden age, commissioning da Gama and Cabral and styling himself 'Lord of the conquest, navigation, and commerce of Ethiopia, Arabia, Persia, and India.'",
+      "wikiSlug": "Manuel_I_of_Portugal",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-036",
+      "label": "Cabral claims Brazil",
+      "year": 1500,
+      "description": "Steering wide into the Atlantic on his way to India, Pedro Álvares Cabral bumped into the coast of Brazil and claimed it for Portugal — possibly by accident, conveniently on the Portuguese side of the Tordesillas line.",
+      "wikiSlug": "Pedro_Álvares_Cabral",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-037",
+      "label": "Vespucci names a New World",
+      "year": 1502,
+      "description": "Amerigo Vespucci argued in widely-printed letters that the lands across the Atlantic were not Asia but a whole new continent — an insight so persuasive the continents were named after him, not Columbus.",
+      "wikiSlug": "Amerigo_Vespucci",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-038",
+      "label": "The Cantino planisphere smuggled out",
+      "year": 1502,
+      "description": "An Italian agent spirited a copy of Portugal's closely-guarded master chart out of Lisbon — the Cantino planisphere, the first map to show the new African route, Brazil, and the Tordesillas line.",
+      "wikiSlug": "Cantino_planisphere",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-039",
+      "label": "The Waldseemüller map names 'America'",
+      "year": 1507,
+      "description": "The German cartographer Martin Waldseemüller printed a world map that labeled the new western continent 'America' after Vespucci — the moment the name stuck to the wrong man's land.",
+      "wikiSlug": "Waldseemüller_map",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-040",
+      "label": "Francisco de Almeida, first viceroy of India",
+      "year": 1505,
+      "description": "Portugal appointed Francisco de Almeida as the first Viceroy of the Estado da Índia, signaling the shift from trading voyages to a permanent armed empire in the Indian Ocean.",
+      "wikiSlug": "Francisco_de_Almeida",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-041",
+      "label": "The Battle of Diu",
+      "year": 1509,
+      "description": "A Portuguese fleet smashed a combined Mamluk-Gujarati-Venetian navy off Diu, breaking Muslim and Venetian control of the spice routes and making Portugal master of the Indian Ocean's sea lanes.",
+      "wikiSlug": "Battle_of_Diu",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-042",
+      "label": "Albuquerque takes Goa",
+      "year": 1510,
+      "description": "Afonso de Albuquerque seized Goa on India's west coast and made it the fortified capital of Portuguese Asia — the strategy of holding choke-points rather than territory.",
+      "wikiSlug": "Portuguese_conquest_of_Goa",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-043",
+      "label": "Portugal captures Malacca",
+      "year": 1511,
+      "description": "Albuquerque stormed Malacca, the great entrepôt commanding the strait between the Indian Ocean and the South China Sea — the gateway to the spice-producing islands beyond.",
+      "wikiSlug": "Capture_of_Malacca_(1511)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-044",
+      "label": "Portugal seizes Hormuz",
+      "year": 1515,
+      "description": "Taking the island fortress of Hormuz at the mouth of the Persian Gulf, Albuquerque completed Portugal's grip on the great maritime choke-points from the Red Sea to the Strait of Malacca.",
+      "wikiSlug": "Portuguese_conquest_of_Hormuz",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-045",
+      "label": "Reaching the Spice Islands",
+      "year": 1512,
+      "description": "Portuguese ships finally reached the Maluku Islands, source of the cloves, nutmeg, and mace that had been the whole point — spices worth more by weight than gold in Europe.",
+      "wikiSlug": "Maluku_Islands",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-046",
+      "label": "The carrack, the ocean workhorse",
+      "year": 1510,
+      "description": "For the long hauls to India the Portuguese relied on the carrack (the nau) — a big, high-sided, square-rigged ship that could carry cargo, cannon, and crew across an ocean and back.",
+      "wikiSlug": "Carrack",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-047",
+      "label": "Balboa sights the Pacific",
+      "year": 1513,
+      "description": "Hacking across the Isthmus of Panama, Vasco Núñez de Balboa became the first European to see the Pacific from the Americas — proof there was a whole second ocean between the New World and Asia.",
+      "wikiSlug": "Vasco_Núñez_de_Balboa",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-048",
+      "label": "The Jerónimos Monastery rises in Lisbon",
+      "year": 1501,
+      "endYear": 1601,
+      "description": "Manuel I poured spice profits into the vast Jerónimos Monastery on the Lisbon waterfront, its stone laced with ropes, coral, and seashells — architecture as a monument to the ocean empire.",
+      "wikiSlug": "Jerónimos_Monastery",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-049",
+      "label": "Magellan's expedition sets out",
+      "year": 1519,
+      "description": "Ferdinand Magellan, a Portuguese captain sailing for Spain, left Seville with five ships to find a western passage to the Spice Islands — and to settle whether the world could be sailed clean around.",
+      "wikiSlug": "Ferdinand_Magellan",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-050",
+      "label": "Through the Strait of Magellan",
+      "year": 1520,
+      "description": "After a mutiny and a lost ship, the fleet threaded the freezing, maze-like strait at the tip of South America that now bears Magellan's name, and broke out into the ocean he named the Pacific for its calm.",
+      "wikiSlug": "Strait_of_Magellan",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-051",
+      "label": "Lapulapu kills Magellan at Mactan",
+      "year": 1521,
+      "description": "On the island of Mactan in the Philippines, the chieftain Lapulapu and his warriors cut down Magellan when he waded ashore to fight — the great circumnavigator dead two-thirds of the way around the world.",
+      "wikiSlug": "Battle_of_Mactan",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-052",
+      "label": "Elcano completes the first circumnavigation",
+      "year": 1522,
+      "description": "Juan Sebastián Elcano brought the battered Victoria home to Spain — one ship and 18 starving survivors out of five ships and ~270 men, the first humans ever to circle the globe.",
+      "wikiSlug": "Juan_Sebastián_Elcano",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-053",
+      "label": "Pigafetta's chronicle of the voyage",
+      "year": 1525,
+      "description": "Antonio Pigafetta, one of the 18 survivors, wrote the astonishing eyewitness account of the circumnavigation — the storms, the starvation, the new peoples and the proof of a single round world.",
+      "wikiSlug": "Antonio_Pigafetta",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-054",
+      "label": "The Treaty of Zaragoza",
+      "year": 1529,
+      "description": "Spain and Portugal extended the Tordesillas line around the far side of the globe, settling who owned the Spice Islands — Spain sold its claim, and the world was now formally carved in two from pole to pole.",
+      "wikiSlug": "Treaty_of_Zaragoza",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-055",
+      "label": "Cortés lands in Mexico",
+      "year": 1519,
+      "description": "Hernán Cortés defied his governor, burned his boats, and marched inland from the Gulf coast toward the Aztec capital with a few hundred men — the most consequential gamble in the conquest of the Americas.",
+      "wikiSlug": "Hernán_Cortés",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-056",
+      "label": "Tenochtitlan, the island metropolis",
+      "year": 1519,
+      "description": "The Aztec capital Tenochtitlan was a city of perhaps 200,000 on an island laced with causeways and canals — larger than any city in Spain, which left the conquistadors gaping.",
+      "wikiSlug": "Tenochtitlan",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-057",
+      "label": "Moctezuma II meets the Spanish",
+      "year": 1519,
+      "description": "The Aztec emperor Moctezuma II received Cortés in his capital and was soon taken hostage in his own palace — a ruler of millions undone by a few hundred strangers and his own indecision.",
+      "wikiSlug": "Moctezuma_II",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-058",
+      "label": "La Malinche, interpreter and power broker",
+      "year": 1519,
+      "description": "An enslaved Nahua woman the Spanish called Doña Marina — La Malinche — became Cortés's interpreter, strategist, and the indispensable bridge without whom the conquest could not have happened.",
+      "wikiSlug": "La_Malinche",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-059",
+      "label": "The Tlaxcalan alliance",
+      "year": 1519,
+      "description": "Cortés's real army was indigenous: the Tlaxcala, longtime enemies of the Aztecs, supplied tens of thousands of warriors — the conquest was as much a native rebellion as a Spanish invasion.",
+      "wikiSlug": "Tlaxcala",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-060",
+      "label": "Smallpox sweeps the Americas",
+      "year": 1520,
+      "description": "An Old World disease the Americas had never met tore through Tenochtitlan and beyond, killing perhaps a third of the population in months — the invisible weapon that made conquest possible.",
+      "wikiSlug": "Smallpox",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-061",
+      "label": "The Fall of Tenochtitlan",
+      "year": 1521,
+      "description": "After a brutal siege, the Aztec capital fell to Cortés and his indigenous allies; the last emperor Cuauhtémoc was captured, and an empire of millions became the core of New Spain.",
+      "wikiSlug": "Fall_of_Tenochtitlan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-062",
+      "label": "Pizarro topples the Inca Empire",
+      "year": 1532,
+      "endYear": 1533,
+      "description": "Francisco Pizarro ambushed and ransomed the Inca emperor Atahualpa at Cajamarca, then took Cusco — toppling the largest empire in the Americas with under 200 men, helped by disease and Inca civil war.",
+      "wikiSlug": "Spanish_conquest_of_the_Inca_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-063",
+      "label": "Atahualpa's ransom and execution",
+      "year": 1533,
+      "description": "Atahualpa filled a room with gold and twice with silver to buy his freedom; the Spanish took the treasure and garrotted him anyway — the moment that broke the Inca state's legitimacy.",
+      "wikiSlug": "Atahualpa",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-064",
+      "label": "Manco Inca's great rebellion",
+      "year": 1536,
+      "description": "The puppet emperor Manco Inca Yupanqui turned on the Spanish, besieging Cusco and Lima and founding a rump Inca state at Vilcabamba that held out for nearly forty years — conquest was never simply finished.",
+      "wikiSlug": "Manco_Inca_Yupanqui",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-065",
+      "label": "The silver mountain of Potosí",
+      "year": 1545,
+      "description": "Spaniards found a mountain of nearly pure silver at Potosí in the Andes; the boomtown around it became one of the world's largest cities, its wealth dug by conscripted Andean labor.",
+      "wikiSlug": "Potosí",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-066",
+      "label": "The mita labor draft",
+      "year": 1573,
+      "description": "Spain bent an old Inca labor obligation, the mita, into a brutal rotating draft that fed Andean villagers into the deadly Potosí mines — the human engine of the silver economy.",
+      "wikiSlug": "Inca_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-067",
+      "label": "Las Casas defends the indigenous",
+      "year": 1542,
+      "description": "The Dominican friar Bartolomé de las Casas, a former encomienda holder turned fierce critic, pressed the crown to protect indigenous people and produced searing accounts of Spanish cruelty.",
+      "wikiSlug": "Bartolomé_de_las_Casas",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-068",
+      "label": "The New Laws",
+      "year": 1542,
+      "description": "Pushed by Las Casas, the crown issued the New Laws curbing the encomienda and banning indigenous slavery — sparking near-rebellion among colonists and proving how little the crown controlled its conquerors.",
+      "wikiSlug": "New_Laws",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-069",
+      "label": "The Valladolid debate",
+      "year": 1550,
+      "description": "Spain staged a formal debate over whether indigenous Americans were rational humans with rights — Las Casas against Sepúlveda — perhaps the first European argument over the morality of empire itself.",
+      "wikiSlug": "Valladolid_debate",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-070",
+      "label": "De Soto crosses the Mississippi",
+      "year": 1541,
+      "description": "Hernando de Soto's expedition cut through the chiefdoms of the American Southeast and became the first Europeans to record the Mississippi River — leaving epidemics that gutted the societies they passed.",
+      "wikiSlug": "Hernando_de_Soto",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-071",
+      "label": "Coronado searches the Southwest",
+      "year": 1540,
+      "description": "Chasing rumored golden cities, Francisco Vázquez de Coronado marched through the deserts of the future American Southwest, reaching the Grand Canyon and the Great Plains — and finding no gold.",
+      "wikiSlug": "Francisco_Vázquez_de_Coronado",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-072",
+      "label": "The Casa de Contratación controls the trade",
+      "year": 1503,
+      "description": "Spain set up the Casa de Contratación in Seville to license every ship, register every cargo, and hoard every chart — the bureaucratic nerve center of the Atlantic empire.",
+      "wikiSlug": "Casa_de_Contratación",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-073",
+      "label": "The Society of Jesus is founded",
+      "year": 1540,
+      "description": "Ignatius of Loyola founded the Jesuits, a disciplined missionary order that became the spearhead of Catholic expansion from Mexico to Japan — soldiers of God for a global church.",
+      "wikiSlug": "Society_of_Jesus",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-074",
+      "label": "Francis Xavier reaches Japan",
+      "year": 1549,
+      "description": "The Jesuit Francis Xavier landed in Japan and launched the first sustained Christian mission in East Asia, the start of a Catholic 'Christian century' that Japan would later violently shut down.",
+      "wikiSlug": "Francis_Xavier",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-075",
+      "label": "The Nanban trade with Japan",
+      "year": 1543,
+      "description": "Portuguese ships reached Japan, opening the 'southern barbarian' trade that brought firearms, silk, and Christianity — and made the Portuguese the middlemen between Ming China and silver-rich Japan.",
+      "wikiSlug": "Nanban_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-076",
+      "label": "Portugal leases Macau",
+      "year": 1557,
+      "description": "Ming China granted the Portuguese a foothold at Macau, the first permanent European settlement on the China coast and the hinge of the lucrative China-Japan silk-for-silver run.",
+      "wikiSlug": "Macau",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-077",
+      "label": "The Manila galleon links the Pacific",
+      "year": 1565,
+      "description": "Spain opened the Manila galleon route, hauling Mexican silver west to the Philippines and Chinese silk and porcelain back to Acapulco — the first regular trade across the Pacific, closing the global loop.",
+      "wikiSlug": "Manila_galleon",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-078",
+      "label": "The Spanish dollar, the first world money",
+      "year": 1570,
+      "description": "The silver 'piece of eight' minted from American silver circulated from Europe to China — the closest thing the early-modern world had to a global currency, and the lubricant of the new economy.",
+      "wikiSlug": "Spanish_dollar",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-079",
+      "label": "John Cabot reaches Newfoundland",
+      "year": 1497,
+      "description": "The Venetian John Cabot, sailing for Henry VII of England, made landfall in North America and reported seas so thick with cod you could scoop them in baskets — England's first toehold and the future fishery.",
+      "wikiSlug": "John_Cabot",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-080",
+      "label": "Verrazzano maps the Atlantic seaboard",
+      "year": 1524,
+      "description": "Giovanni da Verrazzano, sailing for France, ran the whole eastern coast of North America from the Carolinas to Newfoundland, the first European to chart it and to enter what is now New York harbor.",
+      "wikiSlug": "Giovanni_da_Verrazzano",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-081",
+      "label": "Cartier sails the St. Lawrence",
+      "year": 1534,
+      "endYear": 1542,
+      "description": "Jacques Cartier pushed up the St. Lawrence River for France, naming the land 'Canada' from a local word and laying the groundwork for a French empire in the north.",
+      "wikiSlug": "Jacques_Cartier",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-082",
+      "label": "Drake circumnavigates and plunders",
+      "year": 1577,
+      "endYear": 1580,
+      "description": "Francis Drake completed the second circumnavigation of the globe for England, raiding Spanish silver ports up the Pacific coast and returning so laden with loot it paid off the crown's debts.",
+      "wikiSlug": "Francis_Drake",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-083",
+      "label": "The Spanish Armada fails",
+      "year": 1588,
+      "description": "Philip II's great invasion fleet against England was scattered by guns and storms — a blow to Spanish prestige that signaled the Atlantic was no longer an Iberian lake.",
+      "wikiSlug": "Spanish_Armada",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-084",
+      "label": "The lost colony of Roanoke",
+      "year": 1587,
+      "description": "Walter Raleigh's settlers vanished from Roanoke Island, leaving only the word 'CROATOAN' carved on a post — England's first American colony and one of history's most haunting unsolved disappearances.",
+      "wikiSlug": "Roanoke_Colony",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-085",
+      "label": "The English East India Company",
+      "year": 1600,
+      "description": "London merchants chartered the East India Company to break into the Asian trade — a private company with the right to wage war that would eventually rule India.",
+      "wikiSlug": "East_India_Company",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-086",
+      "label": "The Dutch East India Company",
+      "year": 1602,
+      "description": "The Dutch fused their merchant ventures into the VOC, the world's first publicly traded company — and a state-within-a-state armed with fleets, forts, and the power to make war and treaties.",
+      "wikiSlug": "Dutch_East_India_Company",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-087",
+      "label": "Jamestown takes root",
+      "year": 1607,
+      "description": "The Virginia Company planted Jamestown on a malarial river bank — England's first permanent American colony, which nearly starved before tobacco gave it a reason to survive.",
+      "wikiSlug": "Jamestown,_Virginia",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-088",
+      "label": "Champlain founds Quebec",
+      "year": 1608,
+      "description": "Samuel de Champlain established Quebec on the St. Lawrence, anchoring New France and a fur-trade empire built less on conquest than on alliances with indigenous nations.",
+      "wikiSlug": "Samuel_de_Champlain",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-089",
+      "label": "Henry Hudson hunts the Northwest Passage",
+      "year": 1609,
+      "endYear": 1611,
+      "description": "Henry Hudson probed the river and bay that bear his name searching for a shortcut to Asia; his mutinous crew set him adrift to die — the obsession with a Northwest Passage claiming another life.",
+      "wikiSlug": "Henry_Hudson",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-090",
+      "label": "New Amsterdam on Manhattan",
+      "year": 1624,
+      "description": "The Dutch West India Company founded New Amsterdam at the tip of Manhattan, a fur-trading port that would, four decades later and under English rule, become New York.",
+      "wikiSlug": "New_Amsterdam",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-091",
+      "label": "Coen and the Banda massacre",
+      "year": 1621,
+      "description": "To monopolize nutmeg, the VOC governor Jan Pieterszoon Coen all but exterminated the people of the Banda Islands — a chilling demonstration that the spice empire was built on calculated atrocity.",
+      "wikiSlug": "Jan_Pieterszoon_Coen",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-092",
+      "label": "The Dutch take the Cape",
+      "year": 1652,
+      "description": "Jan van Riebeeck planted a VOC resupply station at the Cape of Good Hope, displacing the Khoikhoi herders and seeding what would grow into a permanent European colony in southern Africa.",
+      "wikiSlug": "Jan_van_Riebeeck",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-093",
+      "label": "Tasman charts the southern unknown",
+      "year": 1642,
+      "endYear": 1644,
+      "description": "Sailing for the Dutch, Abel Tasman skirted Tasmania, New Zealand, and the coast of 'New Holland' (Australia) — the last great inhabited landmasses being drawn onto the European map.",
+      "wikiSlug": "Abel_Tasman",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-094",
+      "label": "The Atlantic slave trade industrializes",
+      "year": 1526,
+      "description": "The first slave ship sailed direct from Africa to the Americas; over the next three centuries the trade would forcibly carry more than 12 million Africans across the ocean to work the sugar and silver of the New World.",
+      "wikiSlug": "Atlantic_slave_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-095",
+      "label": "The triangular trade",
+      "year": 1600,
+      "description": "Goods to Africa, enslaved Africans to the Americas, sugar and silver back to Europe — the three-legged Atlantic circuit that turned human beings into the engine of a global economy.",
+      "wikiSlug": "Triangular_trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-096",
+      "label": "Afonso I and the bleeding of Kongo",
+      "year": 1526,
+      "description": "The Christian king Afonso I of Kongo wrote to Portugal begging it to stop the slavers depopulating his kingdom — a literate African monarch documenting, in real time, the trade that would devour his realm.",
+      "wikiSlug": "Afonso_I_of_Kongo",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-097",
+      "label": "Queen Njinga resists in Angola",
+      "year": 1641,
+      "endYear": 1663,
+      "description": "Njinga of Ndongo and Matamba spent decades outmaneuvering the Portuguese in Angola through war, diplomacy, and shifting alliances — one of the era's most formidable rulers, and a woman in a world of kings.",
+      "wikiSlug": "Ana_Nzinga",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-098",
+      "label": "Sugar and slavery in colonial Brazil",
+      "year": 1532,
+      "description": "Portugal carved Brazil into hereditary captaincies and built a sugar economy worked first by enslaved Tupi and then by Africans — the template for the plantation Atlantic.",
+      "wikiSlug": "Colonial_Brazil",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-099",
+      "label": "The crops of the Columbian Exchange",
+      "year": 1550,
+      "description": "Maize and the potato spread across the Old World and fueled population booms from Ireland to China, while wheat, sugar, and cattle transformed the Americas — diets everywhere rewritten by the exchange.",
+      "wikiSlug": "Columbian_exchange",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-100",
+      "label": "The price revolution",
+      "year": 1560,
+      "description": "American silver flooding into Europe drove a century of inflation, the price revolution — the first time a glut of New World treasure could move the cost of bread in a Spanish village.",
+      "wikiSlug": "Price_revolution",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-101",
+      "label": "The casta society of mixed blood",
+      "year": 1550,
+      "description": "Out of conquest grew the mestizo — children of Spanish and indigenous parents — and an obsessive racial hierarchy, the casta system, that tried to rank every shade of the new mixed population.",
+      "wikiSlug": "Casta",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-102",
+      "label": "The Goa Inquisition",
+      "year": 1560,
+      "description": "Portugal extended the Inquisition to its Asian capital at Goa, policing converts and persecuting Hindus and Jews — the dark companion to the missionary project, faith enforced by fear.",
+      "wikiSlug": "Goa_Inquisition",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-103",
+      "label": "Copernicus and the moving Earth",
+      "year": 1543,
+      "description": "Nicolaus Copernicus published his claim that the Earth circled the sun — part of a wider rethinking of the cosmos that the age of global navigation both demanded and helped to fund.",
+      "wikiSlug": "De_revolutionibus_orbium_coelestium",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-104",
+      "label": "The Mercator projection",
+      "year": 1569,
+      "description": "Gerardus Mercator devised a map projection on which a line of constant compass bearing came out straight — a brilliant cheat that distorted the poles but let a navigator plot a course with a ruler.",
+      "wikiSlug": "Mercator_projection",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-105",
+      "label": "The first modern atlas",
+      "year": 1570,
+      "description": "Abraham Ortelius bound the world into the Theatrum Orbis Terrarum, the first true atlas — uniform maps of the whole known Earth, a planet that could now be held in one volume.",
+      "wikiSlug": "Theatrum_Orbis_Terrarum",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-106",
+      "label": "Scurvy, the killer of crews",
+      "year": 1600,
+      "description": "The vitamin-deficiency disease scurvy killed more sailors than storms or battle on the long ocean crossings — the unsolved medical problem that haunted every voyage of the age.",
+      "wikiSlug": "Scurvy",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-107",
+      "label": "Tobacco crosses the Atlantic",
+      "year": 1612,
+      "description": "An American plant the Europeans first thought medicinal, tobacco became the cash crop that saved Virginia and the first global consumer craze of the new connected world.",
+      "wikiSlug": "Tobacco",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-108",
+      "label": "Globalization begins",
+      "year": 1571,
+      "description": "With the Pacific finally bridged by the Manila galleon, every inhabited continent was now linked by regular trade — the start, many historians argue, of genuine globalization.",
+      "wikiSlug": "Globalization",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-109",
+      "label": "John I and the Aviz dynasty",
+      "year": 1385,
+      "endYear": 1433,
+      "description": "John I won the crown on the battlefield and founded the Aviz dynasty, the line of restless, expansion-minded kings whose sons — Henry among them — would launch Portugal at the ocean.",
+      "wikiSlug": "John_I_of_Portugal",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-110",
+      "label": "The School of Sagres",
+      "year": 1420,
+      "description": "Tradition holds that Prince Henry gathered pilots, astronomers, and chartmakers at Sagres on Portugal's wind-scoured southwestern tip — part research institute, part legend, the supposed brain of the African voyages.",
+      "wikiSlug": "School_of_Sagres",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-111",
+      "label": "The Order of Christ funds the voyages",
+      "year": 1420,
+      "description": "Prince Henry ran the wealthy Military Order of Christ, the Portuguese heir to the Templars, and poured its crusading revenues into the African expeditions — the voyages sailed under its red cross.",
+      "wikiSlug": "Order_of_Christ_(Portugal)",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-112",
+      "label": "The portolan chart",
+      "year": 1400,
+      "description": "Mediterranean pilots navigated by portolan charts — sea maps webbed with compass-rose rhumb lines rather than latitude and longitude — the working tool the Atlantic voyages inherited and slowly outgrew.",
+      "wikiSlug": "Portolan_chart",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-113",
+      "label": "The Jolof kingdoms of Senegambia",
+      "year": 1450,
+      "description": "The Portuguese reaching the Senegal coast met the Jolof, a powerful Wolof state whose rulers traded gold, ivory, and captives — a reminder the African shore had its own kingdoms, not empty coastline.",
+      "wikiSlug": "Jolof_Empire",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-114",
+      "label": "The Treaty of Alcáçovas divides the sea",
+      "year": 1479,
+      "description": "An early Spanish-Portuguese deal handed Portugal the African coast and the Atlantic islands south of the Canaries — the first time two crowns sliced the ocean between them, a rehearsal for Tordesillas.",
+      "wikiSlug": "Treaty_of_Alcáçovas",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-115",
+      "label": "Cão plants a cross at Cape Cross",
+      "year": 1486,
+      "description": "Diogo Cão raised a stone padrão at Cape Cross on the Namibian shore, the southernmost Portuguese marker before Dias — granite proof of how far down a hostile coast the creep had reached.",
+      "wikiSlug": "Cape_Cross",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-116",
+      "label": "Covilhã's overland spy mission",
+      "year": 1487,
+      "description": "King John sent Pêro da Covilhã overland in disguise to scout the Indian Ocean spice ports and the realm of the legendary Prester John — espionage that mapped the sea route before any Portuguese ship arrived.",
+      "wikiSlug": "Pero_da_Covilhã",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-117",
+      "label": "The hunt for Prester John",
+      "year": 1490,
+      "description": "Europe clung to the legend of Prester John, a mighty Christian king somewhere beyond the Muslim world; the dream of finding this ally and catching Islam in a pincer drove much of the push past Africa.",
+      "wikiSlug": "Prester_John",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-118",
+      "label": "Henry VII backs Cabot",
+      "year": 1496,
+      "description": "Henry VII of England, having passed on Columbus, granted letters patent to John Cabot to sail west and claim 'heathen lands' for the crown — England's belated, cut-rate entry into the ocean race.",
+      "wikiSlug": "Henry_VII_of_England",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-119",
+      "label": "The cross-staff measures the stars",
+      "year": 1500,
+      "description": "Cheaper and simpler than the astrolabe, the cross-staff let a sailor sight a star against a sliding crosspiece to read his latitude — squinting at the sun this way slowly blinded many a navigator.",
+      "wikiSlug": "Jacob's_staff",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-120",
+      "label": "The kings of Kongo convert",
+      "year": 1491,
+      "description": "King Nzinga a Nkuwa of Kongo accepted baptism and a Portuguese alliance, and his son Afonso made Catholicism the court religion — a Central African kingdom voluntarily joining Christendom decades before the slave trade gutted it.",
+      "wikiSlug": "Kingdom_of_Kongo",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-121",
+      "label": "The colony on Hispaniola",
+      "year": 1496,
+      "description": "After La Navidad's massacre, the Spanish dug in on Hispaniola and founded Santo Domingo, the first lasting European city in the Americas and the base camp from which the conquest of a hemisphere was launched.",
+      "wikiSlug": "Hispaniola",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-122",
+      "label": "The wreck of the Santa María",
+      "year": 1492,
+      "description": "Columbus's flagship Santa María ran aground off Hispaniola on Christmas night; its timbers became the fort of La Navidad — the New World's first European settlement born from a shipwreck.",
+      "wikiSlug": "Santa_María_(ship)",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-123",
+      "label": "Pope Alexander VI carves the world",
+      "year": 1493,
+      "description": "The Borgia pope Alexander VI, a Spaniard, drew the original line of demarcation that favored Spain — the partisan papal ruling Portugal forced back to the negotiating table at Tordesillas.",
+      "wikiSlug": "Pope_Alexander_VI",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-124",
+      "label": "The Manueline style in stone",
+      "year": 1500,
+      "description": "Portugal's spice wealth bloomed into the Manueline, a riot of carved ropes, armillary spheres, anchors, and sea-monsters — an entire architecture invented to celebrate an empire won from the ocean.",
+      "wikiSlug": "Manueline",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-125",
+      "label": "Cabral's fleet and Sancho de Tovar",
+      "year": 1500,
+      "description": "Cabral's huge India armada carried captains like Sancho de Tovar and the chronicler-pilots who first described Brazil — a single fleet meant to claim a continent and reach the spice ports in one voyage.",
+      "wikiSlug": "Sancho_de_Tovar",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-age-of-exploration-126",
+      "label": "Duarte Pacheco Pereira's secret geography",
+      "year": 1505,
+      "description": "The soldier-cosmographer Duarte Pacheco Pereira compiled the Esmeraldo de Situ Orbis, a classified sailing manual of the African and Indian coasts — knowledge so valuable Portugal guarded it like a weapon.",
+      "wikiSlug": "Duarte_Pacheco_Pereira",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-127",
+      "label": "Cochin, Portugal's first Indian fort",
+      "year": 1503,
+      "description": "Portugal built its first Indian fortress at Cochin, a rival of the Zamorin's Calicut, and turned a friendly local raja into the wedge that pried open the Malabar pepper coast.",
+      "wikiSlug": "Kochi",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-128",
+      "label": "Montesinos preaches against the conquest",
+      "year": 1511,
+      "description": "On Hispaniola the Dominican friar Antonio de Montesinos thundered from the pulpit that the colonists were damning themselves by enslaving and killing the Taíno — the first public cry of conscience in the New World.",
+      "wikiSlug": "Antonio_de_Montesinos",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-129",
+      "label": "The Requerimiento read to the air",
+      "year": 1513,
+      "description": "Spain ordered conquistadors to read the Requerimiento — a legal demand that natives submit to crown and church — aloud before attacking, often to empty jungle or uncomprehending villages, a fig leaf for conquest.",
+      "wikiSlug": "Spanish_Requirement_of_1513",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-130",
+      "label": "The Battle of Cajamarca",
+      "year": 1532,
+      "description": "In the square at Cajamarca fewer than 200 Spaniards ambushed Atahualpa's unarmed retinue and seized the Inca emperor in an afternoon of slaughter — the single stroke that decapitated the largest empire in the Americas.",
+      "wikiSlug": "Battle_of_Cajamarca",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-131",
+      "label": "The Neo-Inca State at Vilcabamba",
+      "year": 1539,
+      "endYear": 1572,
+      "description": "Driven from Cusco, the Inca built a defiant rump kingdom deep in the jungle at Vilcabamba that resisted Spain for a generation — proof the conquest was a long war, not a single fall.",
+      "wikiSlug": "Neo-Inca_State",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-age-of-exploration-132",
+      "label": "The execution of Túpac Amaru",
+      "year": 1572,
+      "description": "Spain captured and beheaded Túpac Amaru, the last Inca emperor of Vilcabamba, in the square at Cusco — the formal, brutal end of independent Inca rule after forty years of resistance.",
+      "wikiSlug": "Túpac_Amaru",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-age-of-exploration-133",
+      "label": "The royal fifth claims the silver",
+      "year": 1504,
+      "description": "The crown taxed every ounce of New World treasure with the quinto real, the 'royal fifth' — the levy that made the king of Spain personally rich on every silver bar dug from Potosí.",
+      "wikiSlug": "Royal_fifth",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-134",
+      "label": "Mexico City rises on the ruins",
+      "year": 1573,
+      "endYear": 1813,
+      "description": "On the rubble of Tenochtitlan's great temple the Spanish raised the vast Metropolitan Cathedral and a grid of a capital — the new colonial city built literally on top of the one it destroyed.",
+      "wikiSlug": "Mexico_City_Metropolitan_Cathedral",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-135",
+      "label": "The Council of the Indies",
+      "year": 1524,
+      "description": "Spain governed its sprawling new empire through the Council of the Indies, a body in Castile that wrote the laws, named the viceroys, and tried to rule two continents by letters that took months to cross the sea.",
+      "wikiSlug": "Council_of_the_Indies",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-136",
+      "label": "Spanish missions and reductions",
+      "year": 1550,
+      "description": "Friars gathered scattered indigenous people into mission towns and reductions — part church, part labor camp, part refuge — the frontier institution that spread both Catholicism and colonial control.",
+      "wikiSlug": "Spanish_missions_in_the_Americas",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-137",
+      "label": "The Twenty-Six Martyrs of Japan",
+      "year": 1597,
+      "description": "Japan crucified twenty-six Christians at Nagasaki as the shogunate turned against the foreign faith — the first bloody sign that the Jesuit 'Christian century' would end in suppression and expulsion.",
+      "wikiSlug": "26_Martyrs_of_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-age-of-exploration-138",
+      "label": "Bernal Díaz writes the conquest",
+      "year": 1568,
+      "description": "An old foot-soldier, Bernal Díaz del Castillo, wrote The True History of the Conquest of New Spain — a grumbling, vivid eyewitness account meant to put the common conquistador back in a story the captains had stolen.",
+      "wikiSlug": "Bernal_Díaz_del_Castillo",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-139",
+      "label": "Sahagún's Florentine Codex",
+      "year": 1577,
+      "description": "The Franciscan Bernardino de Sahagún and his Nahua students compiled the Florentine Codex, a bilingual encyclopedia of Aztec life — much of what we know of the vanished world was recorded by the people who helped erase it.",
+      "wikiSlug": "Florentine_Codex",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-140",
+      "label": "Camões sings the empire in verse",
+      "year": 1572,
+      "description": "Luís de Camões published Os Lusíadas, the epic of da Gama's voyage that made Portugal's ocean exploits into national myth — a sailor-poet turning a trade route into Homeric legend.",
+      "wikiSlug": "Os_Lusíadas",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-141",
+      "label": "Cieza de León chronicles the Andes",
+      "year": 1553,
+      "description": "The young soldier Pedro Cieza de León wrote a careful, humane chronicle of Peru and the Inca world he marched through — among the first Europeans to treat a conquered civilization as worth understanding.",
+      "wikiSlug": "Pedro_Cieza_de_León",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-age-of-exploration-142",
+      "label": "The galleon, ship of the silver age",
+      "year": 1550,
+      "description": "Bigger and more heavily gunned than the carrack, the galleon became the workhorse of the Atlantic treasure fleets and the Pacific run — the armed cargo ship that carried the world's silver and fought off its pirates.",
+      "wikiSlug": "Galleon",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-age-of-exploration-143",
+      "label": "The treasure fleets sail in convoy",
+      "year": 1564,
+      "description": "Spain organized its American silver into the flota system — great escorted convoys that crossed the Atlantic together for safety, the financial bloodstream of an empire and the prize every privateer dreamed of taking.",
+      "wikiSlug": "Spanish_treasure_fleet",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-age-of-exploration-144",
+      "label": "The Northwest Passage obsession",
+      "year": 1576,
+      "description": "Convinced of a frozen shortcut to Asia over the top of America, English captains threw lives and fortunes at the Northwest Passage for centuries — the great geographic fantasy the age refused to give up.",
+      "wikiSlug": "Northwest_Passage",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-age-of-exploration-145",
+      "label": "The Plymouth Pilgrims",
+      "year": 1620,
+      "description": "Religious separatists crossed on the Mayflower and founded Plymouth Colony in New England — the strain of northern settlement driven less by gold than by the search for a place to worship freely.",
+      "wikiSlug": "Plymouth_Colony",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    }
+  ]
+}

@@ -1,0 +1,1251 @@
+{
+  "id": "latin-american-independence",
+  "label": "Latin American Independence",
+  "type": "civilization",
+  "region": "americas",
+  "source": "curated",
+  "wikiSlug": "Spanish_American_wars_of_independence",
+  "imageWikiSlug": "Battle_of_Carabobo",
+  "pitch": "In 1808 Napoleon kidnapped the king of Spain, threw the whole Spanish monarchy into a French dungeon, and accidentally lit a fuse that ran from Mexico City to Buenos Aires. For three hundred years the crown had been the one thing holding the largest empire on earth together — and now there was no crown. Across Spanish America, men who had never dreamed of independence suddenly had to ask a terrifying question: who rules when the king is gone? The answer took fifteen years, two continents, and a parade of impossibly large personalities to work out. A failed Venezuelan aristocrat named Simón Bolívar marched an army up over the frozen Andes to ambush an empire from behind. A modest Argentine general named José de San Martín pulled off the same insane crossing from the south, then quietly handed his entire army away rather than fight a rival. A village priest in Mexico rang his church bell and started a peasant revolution that terrified the very people it was supposed to free. And in Brazil, the heir to the Portuguese throne looked at the situation, shrugged, and declared independence over his own father — the only revolution in the hemisphere led by a prince. Behind all of it stood Haiti, where enslaved people had already done the unthinkable in 1804 and made the first nation born from a slave revolt. This is the story of how the New World tore itself free — and then spent the rest of the century discovering that winning a war is the easy part.\n\n🔑 Key Facts:\n• Haiti became the first independent nation in Latin America (1804) and the first state founded by formerly enslaved people — and it bankrolled and armed Bolívar in exchange for one promise: free the slaves.\n• Bolívar's army crossed the flooded plains and the 13,000-foot Andes to win the Battle of Boyacá (1819) in a single afternoon, liberating New Granada with about 100 men killed.\n• San Martín and Bolívar — the two greatest liberators — met once, at Guayaquil in 1822, talked behind closed doors, and San Martín walked away from public life forever; nobody fully knows what was said.\n• Bolívar's dream of a single united Spanish-American superstate, Gran Colombia, collapsed within a decade of victory; on his deathbed in 1830 he wrote that he had 'plowed the sea.'\n\n🤔 Why It Matters: Latin American independence created roughly twenty new nations almost simultaneously, ended formal monarchy across an entire hemisphere, and produced the modern map of Central and South America — but it also bequeathed a century of caudillo strongmen, devastating regional wars, and the unfinished business of slavery and racial caste that the wars had promised, but failed, to settle.",
+  "countryIds": [],
+  "spans": [
+    {
+      "id": "span-lai-pressure-cooker",
+      "label": "The Colonial Pressure Cooker",
+      "startYear": 1780,
+      "endYear": 1808,
+      "description": "Three centuries of Spanish and Portuguese rule, the rigid casta hierarchy, the Bourbon reforms that squeezed the colonies harder, and the first sparks — Túpac Amaru, the Tailors' Revolt, and Haiti next door.",
+      "wikiSlug": "Bourbon_Reforms"
+    },
+    {
+      "id": "span-lai-decapitation",
+      "label": "The Empire Decapitates Itself",
+      "startYear": 1808,
+      "endYear": 1810,
+      "description": "Napoleon's invasion of Spain, the king's abdication at Bayonne, the royal family's flight to Brazil, and the constitutional crisis that asked who rules when there is no king.",
+      "wikiSlug": "Peninsular_War"
+    },
+    {
+      "id": "span-lai-juntas",
+      "label": "The Juntas and the First Republics",
+      "startYear": 1810,
+      "endYear": 1815,
+      "description": "The local governing juntas of 1810, the first short-lived republics, the early defeats, and the brutal royalist reconquest that nearly extinguished the cause.",
+      "wikiSlug": "Spanish_American_wars_of_independence"
+    },
+    {
+      "id": "span-lai-liberation",
+      "label": "The Great Campaigns",
+      "startYear": 1816,
+      "endYear": 1826,
+      "description": "Bolívar from the north, San Martín from the south, the Andes crossings, and the decisive battles — Chacabuco, Maipú, Boyacá, Carabobo, Pichincha, Junín, Ayacucho — that broke Spain's hold on the mainland.",
+      "wikiSlug": "Crossing_of_the_Andes"
+    },
+    {
+      "id": "span-lai-mexico-brazil",
+      "label": "Mexico and Brazil Break Differently",
+      "startYear": 1810,
+      "endYear": 1825,
+      "description": "Mexico's two-stage revolution from the priests' peasant uprising to Iturbide's conservative independence, and Brazil's near-bloodless break under a Portuguese prince.",
+      "wikiSlug": "First_Mexican_Empire"
+    },
+    {
+      "id": "span-lai-broken-dream",
+      "label": "The Broken Dream and the Caudillos",
+      "startYear": 1826,
+      "endYear": 1860,
+      "description": "The collapse of Gran Colombia, Bolívar's bitter death, the splintering into rival republics, and the rise of the strongmen — caudillos who ruled by the lance and the personal cult.",
+      "wikiSlug": "Caudillo"
+    },
+    {
+      "id": "span-lai-unfinished-century",
+      "label": "The Unfinished Century",
+      "startYear": 1860,
+      "endYear": 1903,
+      "description": "The devastating regional wars, the slow death of slavery, the fall of Brazil's monarchy, and the closing of the colonial age — Cuba 1898, Panama 1903.",
+      "wikiSlug": "Paraguayan_War"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-latin-american-independence-001",
+      "label": "Bourbon Reforms tighten the screws on the colonies",
+      "year": 1765,
+      "description": "Spain's new Bourbon kings overhauled colonial administration to extract more revenue and royal control — new taxes, monopolies, and Spanish-born officials replacing local creoles. Meant to modernize the empire, the reforms instead bred deep resentment among the very American elites who would later lead the revolutions.",
+      "wikiSlug": "Bourbon_Reforms",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-latin-american-independence-002",
+      "label": "The casta system fixes a society by race",
+      "year": 1770,
+      "description": "Colonial society was sorted into an elaborate racial hierarchy — peninsulares (Spanish-born) at the top, then American-born creoles, then mestizos, Indigenous people, and enslaved Africans. The grievances of creoles shut out of power and castes shut out of everything became the social fuel of independence.",
+      "wikiSlug": "Casta",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-003",
+      "label": "Túpac Amaru II leads a massive Andean revolt",
+      "year": 1780,
+      "description": "An Indigenous cacique claiming descent from the last Inca led a huge uprising against Spanish abuses in the Peruvian highlands. It was crushed and Túpac Amaru was brutally executed in Cusco, but it shook the empire and foreshadowed the coming century of rebellion.",
+      "wikiSlug": "Rebellion_of_Túpac_Amaru_II",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-004",
+      "label": "Potosí silver drains into Spain",
+      "year": 1780,
+      "description": "The mountain of silver at Potosí had funded the Spanish empire for two centuries, worked by conscripted Indigenous labor under the mita system. By the late 1700s the colonial economy still revolved around extraction for the mother country — a structure independence leaders would attack as theft.",
+      "wikiSlug": "Potosí",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-latin-american-independence-005",
+      "label": "Humboldt maps and measures Spanish America",
+      "year": 1799,
+      "description": "The Prussian naturalist Alexander von Humboldt spent five years exploring Spanish America, producing the first scientific portrait of its geography, peoples, and resources. His writings made the colonies legible to the wider world — and his data on inequality and wealth fed the independence argument.",
+      "wikiSlug": "Alexander_von_Humboldt",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-latin-american-independence-006",
+      "label": "The Royal Botanical Expedition to New Granada",
+      "year": 1783,
+      "description": "Led by the Spanish priest-botanist José Celestino Mutis, this decades-long Enlightenment expedition catalogued the plants of New Granada and trained a generation of creole scientists — several of whom, like Francisco José de Caldas, would become independence figures.",
+      "wikiSlug": "Royal_Botanical_Expedition_to_New_Granada",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-latin-american-independence-007",
+      "label": "José Celestino Mutis builds a creole science",
+      "year": 1790,
+      "description": "Mutis turned Bogotá into a hub of natural science and a meeting place for the educated creole class. The Enlightenment ideas circulating in his circle — reason, classification, self-improvement — primed colonial elites to question the legitimacy of distant kings.",
+      "wikiSlug": "José_Celestino_Mutis",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-latin-american-independence-008",
+      "label": "The Inconfidência Mineira plots a Brazilian republic",
+      "year": 1789,
+      "description": "In the Brazilian gold-mining province of Minas Gerais, a group of elites inspired by the American Revolution conspired to break from Portugal. The plot was betrayed and crushed — its figurehead Tiradentes was hanged and quartered in 1792 — but it became Brazil's founding independence myth.",
+      "wikiSlug": "Inconfidência_Mineira",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-009",
+      "label": "Tiradentes is executed as a martyr",
+      "year": 1792,
+      "description": "Joaquim José da Silva Xavier, nicknamed Tiradentes ('tooth-puller'), was the only conspirator of the Inconfidência to be executed — hanged, drawn, and quartered as a public warning. A century later the republic would make him the patron saint of Brazilian independence.",
+      "wikiSlug": "Tiradentes",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-010",
+      "label": "The Tailors' Revolt rises in Bahia",
+      "year": 1798,
+      "description": "In Salvador, Brazil, mulatto artisans and soldiers — many of them tailors — plotted a radical revolt for racial equality and a republic. Unlike the elite Minas plot, this was a movement of the poor and free people of color. It was suppressed and its leaders hanged, but it showed the empire how far the new ideas had spread.",
+      "wikiSlug": "Revolt_of_the_Tailors",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-011",
+      "label": "Francisco de Miranda dreams of a free Spanish America",
+      "year": 1790,
+      "description": "A Venezuelan adventurer who fought in the American Revolution and the French Revolution, Miranda spent decades lobbying Europe to back Spanish-American independence. The 'Precursor' coined the dream of a united 'Colombia' long before Bolívar — and would briefly try to make it real.",
+      "wikiSlug": "Francisco_de_Miranda",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-012",
+      "label": "The viceroyalty system rules the Americas",
+      "year": 1776,
+      "description": "Spain governed its American territories through great viceroyalties — New Spain, Peru, New Granada, and the new Río de la Plata, created in 1776. These vast administrative units, run from Mexico City, Lima, Bogotá, and Buenos Aires, would become the rough templates for the future independent nations.",
+      "wikiSlug": "Viceroyalty_of_the_Río_de_la_Plata",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-013",
+      "label": "The Haitian Revolution overthrows slavery",
+      "year": 1791,
+      "description": "Enslaved people in the French colony of Saint-Domingue rose in the largest and most successful slave revolt in history. Over thirteen years they defeated French, Spanish, and British armies — proof that the colonial order could be smashed from the bottom, and the nightmare that haunted every slaveholding elite in the hemisphere.",
+      "wikiSlug": "Haitian_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-014",
+      "label": "Toussaint Louverture leads the freed",
+      "year": 1794,
+      "description": "A formerly enslaved man of brilliant political and military instinct, Toussaint Louverture rose to lead the Saint-Domingue revolution, abolishing slavery and ruling the colony in all but name. Lured into a French trap in 1802, he died in a freezing Alpine prison — but the revolution he built could not be reversed.",
+      "wikiSlug": "Toussaint_Louverture",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-015",
+      "label": "The Battle of Vertières secures Haiti's freedom",
+      "year": 1803,
+      "description": "The army of formerly enslaved Haitians under Jean-Jacques Dessalines crushed Napoleon's expeditionary force at Vertières, the last major battle of the revolution. Within weeks the French withdrew, and the dream of a restored slave colony died.",
+      "wikiSlug": "Battle_of_Vertières",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-016",
+      "label": "Haiti declares independence under Dessalines",
+      "year": 1804,
+      "description": "Jean-Jacques Dessalines proclaimed the independence of Haiti — the first nation in Latin America, the first Black republic, and the first state ever founded by people who had freed themselves from slavery. The shockwave reached every plantation society in the Americas.",
+      "wikiSlug": "Jean-Jacques_Dessalines",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-017",
+      "label": "Napoleon invades the Iberian Peninsula",
+      "year": 1807,
+      "description": "Napoleon's armies poured into Portugal and then Spain, beginning the Peninsular War. The French occupation would shatter the Iberian monarchies and, an ocean away, leave their American empires suddenly leaderless.",
+      "wikiSlug": "Peninsular_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-018",
+      "label": "The Portuguese court flees to Brazil",
+      "year": 1808,
+      "description": "Rather than be captured, the entire Portuguese royal family and government fled Lisbon ahead of the French and sailed to Rio de Janeiro under British escort. For the first time a European empire was ruled from its colony — and Brazil's path to independence would be utterly unlike Spanish America's.",
+      "wikiSlug": "John_VI_of_Portugal",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-019",
+      "label": "The Abdications of Bayonne empty the Spanish throne",
+      "year": 1808,
+      "description": "Napoleon summoned the Spanish king Charles IV and his son Ferdinand VII to Bayonne and bullied both into abdicating, then installed his own brother Joseph on the Spanish throne. With the legitimate king a prisoner in France, the whole empire faced a crisis of sovereignty.",
+      "wikiSlug": "Abdications_of_Bayonne",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-020",
+      "label": "Ferdinand VII becomes 'the Desired One' in chains",
+      "year": 1808,
+      "description": "The captured young king Ferdinand VII became the focus of Spanish loyalty — 'el Deseado,' the Desired One — in whose name juntas across Spain and the Americas claimed to govern. His eventual return in 1814 as an absolutist tyrant would betray and radicalize the colonies.",
+      "wikiSlug": "Ferdinand_VII",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-021",
+      "label": "Local juntas seize power in the king's name",
+      "year": 1808,
+      "description": "When the Spanish state collapsed, governing juntas sprang up first in Spain and then across the Americas, claiming to hold power in trust for the imprisoned king. The radical question lurking beneath the loyalist language: if sovereignty had reverted to the people, why obey Spain at all?",
+      "wikiSlug": "Junta_(Peninsular_War)",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-022",
+      "label": "The Cortes of Cádiz convenes",
+      "year": 1810,
+      "description": "With most of Spain under French occupation, a national assembly — the Cortes — gathered in the besieged port of Cádiz, including delegates from the American colonies. Its debates over representation and rights would shape the political vocabulary of independence on both sides of the Atlantic.",
+      "wikiSlug": "Cortes_of_Cádiz",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-023",
+      "label": "The Spanish Constitution of 1812 promises liberty",
+      "year": 1812,
+      "description": "The liberal Cortes produced 'La Pepa,' a constitution proclaiming national sovereignty, a limited monarchy, and rights for Spaniards on both sides of the ocean. It electrified colonial liberals — and when Ferdinand VII tore it up in 1814, it convinced many that only independence could secure their freedoms.",
+      "wikiSlug": "Spanish_Constitution_of_1812",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-024",
+      "label": "The May Revolution ousts the viceroy in Buenos Aires",
+      "year": 1810,
+      "description": "Over a week in May, the creole elite of Buenos Aires deposed the Spanish viceroy and installed their own governing junta. The May Revolution was the opening move of independence in the Río de la Plata — the future Argentina — though full independence would take years more to declare.",
+      "wikiSlug": "May_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-025",
+      "label": "Caracas forms its junta",
+      "year": 1810,
+      "description": "On 19 April the cabildo of Caracas deposed the captain-general and set up a governing junta, launching Venezuela's independence movement. The young Simón Bolívar was sent to London to seek British support — and there recruited the aging Precursor, Miranda, to come home.",
+      "wikiSlug": "Caracas",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-026",
+      "label": "Miranda proclaims the First Venezuelan Republic",
+      "year": 1811,
+      "description": "Venezuela became the first Spanish-American colony to formally declare independence, and Miranda was made its leader. But the fragile republic was wracked by royalist resistance, a catastrophic earthquake, and military collapse — it would not survive a year.",
+      "wikiSlug": "Venezuelan_War_of_Independence",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-027",
+      "label": "Hidalgo's Cry of Dolores starts the Mexican revolt",
+      "year": 1810,
+      "description": "The parish priest Miguel Hidalgo rang his church bell in the town of Dolores and called his Indigenous and mestizo parishioners to rise against bad government. The 'Grito de Dolores' unleashed a massive, vengeful peasant army that terrified the creole elite as much as the Spanish.",
+      "wikiSlug": "Cry_of_Dolores",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-latin-american-independence-028",
+      "label": "Hidalgo's mob is broken at Calderón Bridge",
+      "year": 1811,
+      "description": "Hidalgo's huge but undisciplined host was shattered by a smaller royalist force at the Battle of Calderón Bridge near Guadalajara. Hidalgo fled north, was captured, defrocked, and executed — his severed head hung in a cage for a decade as a warning.",
+      "wikiSlug": "Battle_of_Calderón_Bridge",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-029",
+      "label": "Morelos takes up the Mexican cause",
+      "year": 1812,
+      "description": "Another priest, José María Morelos, proved a far better general than Hidalgo, leading a disciplined guerrilla war across southern Mexico and convening a congress that declared independence and called for an end to slavery and caste. His siege of Cuautla became legendary.",
+      "wikiSlug": "José_María_Morelos",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-latin-american-independence-030",
+      "label": "The Siege of Cuautla tests Morelos",
+      "year": 1812,
+      "description": "Surrounded for months by royalist forces, Morelos and his men held the town of Cuautla through starvation before breaking out in a daring night escape. The siege made Morelos a hero and prolonged the insurgency that the royalists thought they had crushed.",
+      "wikiSlug": "Siege_of_Cuautla",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-031",
+      "label": "The Bahian model: free people of color join the fight",
+      "year": 1811,
+      "description": "Across Spanish America, free Black and mixed-race men formed a large part of both patriot and royalist armies, fighting for promises of equality that the creole leadership made reluctantly. The casta system's collapse was as much a goal of the wars as separation from Spain.",
+      "wikiSlug": "Casta",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-032",
+      "label": "Bolívar writes the Cartagena Manifesto",
+      "year": 1812,
+      "description": "After the First Venezuelan Republic collapsed, the exiled Bolívar issued the Cartagena Manifesto, a furious analysis of why the revolution failed — too much federalism, too little unity, too much idealism. It announced the centralizing, hard-edged strategist Bolívar would become.",
+      "wikiSlug": "Cartagena_Manifesto",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-033",
+      "label": "Bolívar's Admirable Campaign retakes Caracas",
+      "year": 1813,
+      "description": "In a lightning campaign across the Andes, Bolívar swept from New Granada into Venezuela, retaking Caracas and earning the title 'Liberator.' He proclaimed a Second Republic — which, like the first, would soon be drowned in the royalist counterattack.",
+      "wikiSlug": "Admirable_Campaign",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-034",
+      "label": "Bolívar declares 'War to the Death'",
+      "year": 1813,
+      "description": "To force creoles off the fence and brand the conflict as a war of nations, Bolívar issued the Decree of War to the Death — promising mercy to Americans and extermination to Spaniards. It hardened a brutal, atrocity-ridden conflict on both sides.",
+      "wikiSlug": "Decree_of_War_to_the_Death",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-035",
+      "label": "Boves and the llaneros crush the Second Republic",
+      "year": 1814,
+      "description": "The royalist caudillo José Tomás Boves rallied the fierce llanero horsemen of the Venezuelan plains — many of them poor and of mixed race — into a terrifying cavalry that destroyed Bolívar's Second Republic. It showed that the social war cut both ways: the masses were not automatically on the patriots' side.",
+      "wikiSlug": "José_Tomás_Boves",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-036",
+      "label": "Argentina's Army of the North fights at Tucumán and Salta",
+      "year": 1812,
+      "description": "Patriot forces under Manuel Belgrano won hard victories at Tucumán and Salta, blunting royalist invasions from Upper Peru. The northern front would seesaw for years, convincing strategists that Lima — the royalist stronghold — could not be taken overland from the south.",
+      "wikiSlug": "Battle_of_Tucumán",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-037",
+      "label": "San Martín wins his first fight at San Lorenzo",
+      "year": 1813,
+      "description": "Recently returned from years in the Spanish army, José de San Martín led his newly trained mounted grenadiers to a sharp victory over a royalist raiding party at San Lorenzo on the Paraná. It was the first taste of the disciplined professionalism he would bring to the southern war.",
+      "wikiSlug": "Battle_of_San_Lorenzo",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-038",
+      "label": "Ferdinand VII's reconquest nearly ends the revolution",
+      "year": 1815,
+      "description": "Restored to the throne, Ferdinand VII repudiated the liberal constitution and sent a massive expeditionary army under General Pablo Morillo to reconquer the colonies. New Granada and Venezuela fell back under Spanish control; the patriot cause survived only in the far south and in scattered guerrilla bands.",
+      "wikiSlug": "Reconquista_(Spanish_America)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-039",
+      "label": "Pablo Morillo's pacification turns to terror",
+      "year": 1815,
+      "description": "General Pablo Morillo's reconquest of New Granada relied on executions of captured patriots and confiscations that alienated the very creoles he was meant to win back. His harshness drove moderates into Bolívar's camp and helped revive the dying revolution.",
+      "wikiSlug": "Pablo_Morillo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-040",
+      "label": "Artigas leads the federalist Banda Oriental",
+      "year": 1811,
+      "description": "José Gervasio Artigas, the gaucho leader of the Banda Oriental (modern Uruguay), fought both Spain and Buenos Aires for a decentralized federation of free provinces. His radical land reforms and federalism made him a hero to the rural poor and a threat to the Buenos Aires elite.",
+      "wikiSlug": "José_Gervasio_Artigas",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-041",
+      "label": "Bolívar writes the Jamaica Letter in exile",
+      "year": 1815,
+      "description": "Driven into exile in Jamaica, Bolívar wrote his most famous text — a sweeping prophecy of Spanish America's future, predicting its independence, sketching its possible governments, and lamenting that its peoples were not yet ready for true democracy. It is the founding document of Latin American political thought.",
+      "wikiSlug": "Letter_from_Jamaica",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-042",
+      "label": "Haiti arms Bolívar in exchange for abolition",
+      "year": 1816,
+      "description": "Sheltered in independent Haiti, Bolívar received ships, weapons, and men from President Alexandre Pétion. The price was a promise: free the slaves wherever he won. Haiti — the one nation born of a slave revolt — thus underwrote the liberation of the Spanish mainland.",
+      "wikiSlug": "Haitian_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-043",
+      "label": "Argentina declares independence at Tucumán",
+      "year": 1816,
+      "description": "The Congress of Tucumán formally declared the independence of the United Provinces of the Río de la Plata from Spain. With a real nation now behind him, San Martín could plan his audacious continental strategy.",
+      "wikiSlug": "Argentine_Declaration_of_Independence",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-044",
+      "label": "San Martín forges the Army of the Andes",
+      "year": 1816,
+      "description": "As governor of the frontier province of Cuyo, San Martín spent two years secretly building and equipping an army — casting cannon, weaving uniforms, recruiting Chilean exiles like O'Higgins — for an attack on the royalist stronghold of Chile across the Andes.",
+      "wikiSlug": "José_de_San_Martín",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-045",
+      "label": "The Crossing of the Andes",
+      "year": 1817,
+      "description": "San Martín marched his Army of the Andes over passes more than 12,000 feet high, in one of the great military feats of the age, to fall on the royalists in Chile from a direction they thought impossible. Surprise was total.",
+      "wikiSlug": "Crossing_of_the_Andes",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-046",
+      "label": "Victory at Chacabuco frees Santiago",
+      "year": 1817,
+      "description": "Two days after descending from the mountains, San Martín's army smashed the royalist defenders at Chacabuco and entered Santiago. Bernardo O'Higgins was made Supreme Director of a soon-to-be-independent Chile.",
+      "wikiSlug": "Battle_of_Chacabuco",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-047",
+      "label": "O'Higgins becomes Chile's founding leader",
+      "year": 1817,
+      "description": "Bernardo O'Higgins, the illegitimate son of an Irish-born Spanish viceroy, became Chile's Supreme Director and signed its declaration of independence in 1818. His authoritarian reforms made enemies, and he was forced into exile in 1823 — an early case of the liberator who could not govern the peace.",
+      "wikiSlug": "Bernardo_O'Higgins",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-048",
+      "label": "Disaster and recovery: Cancha Rayada to Maipú",
+      "year": 1818,
+      "description": "After a near-fatal surprise defeat at Cancha Rayada, San Martín rallied his forces and won the decisive Battle of Maipú outside Santiago, destroying the last royalist field army in Chile and securing its independence for good.",
+      "wikiSlug": "Battle_of_Maipú",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-049",
+      "label": "Bolívar's gamble on the Llanos and the New Granada campaign",
+      "year": 1819,
+      "description": "From his base on the flooded Orinoco plains, allied with the llanero cavalry of José Antonio Páez and a legion of British veterans, Bolívar made a desperate winter march across the plains and over the Andes to strike at undefended New Granada.",
+      "wikiSlug": "José_Antonio_Páez",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-050",
+      "label": "The Battle of Boyacá liberates New Granada",
+      "year": 1819,
+      "description": "In a single afternoon Bolívar's exhausted army ambushed and destroyed the royalist force at the Boyacá bridge, capturing nearly the whole enemy army for trivial losses. Three days later he entered Bogotá in triumph; New Granada was free.",
+      "wikiSlug": "Battle_of_Boyacá",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-051",
+      "label": "The Congress of Angostura founds the Republic of Colombia",
+      "year": 1819,
+      "description": "At Angostura on the Orinoco, Bolívar delivered a famous address and persuaded the congress to proclaim the union of Venezuela and New Granada as the Republic of Colombia — the great state later called Gran Colombia, his dream of a single powerful nation.",
+      "wikiSlug": "Congress_of_Angostura",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-052",
+      "label": "The Battle of Carabobo wins Venezuela",
+      "year": 1821,
+      "description": "Bolívar's army, with Páez's llanero lancers and the British Legion in the lead, broke the main royalist force at Carabobo and opened the road to Caracas. It was the battle that effectively secured Venezuelan independence.",
+      "wikiSlug": "Battle_of_Carabobo",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-053",
+      "label": "Sucre wins Ecuador at Pichincha",
+      "year": 1822,
+      "description": "Bolívar's brilliant young lieutenant Antonio José de Sucre defeated the royalists on the slopes of the Pichincha volcano above Quito, liberating the future Ecuador and bringing it into Gran Colombia.",
+      "wikiSlug": "Battle_of_Pichincha",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-054",
+      "label": "Antonio José de Sucre, the model soldier",
+      "year": 1822,
+      "description": "Disciplined, humane, and devastatingly effective, Sucre was Bolívar's most trusted general and heir apparent. He would win the war's final great battle, become Bolivia's first president, and be assassinated in 1830 — a loss Bolívar felt as the death of the revolution's best hope.",
+      "wikiSlug": "Antonio_José_de_Sucre",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-055",
+      "label": "San Martín liberates Peru and declares its independence",
+      "year": 1821,
+      "description": "Sailing north from Chile, San Martín occupied Lima and proclaimed Peruvian independence, becoming its 'Protector.' But the royalist armies remained strong in the highlands, and he realized he could not finish the war alone.",
+      "wikiSlug": "Peruvian_War_of_Independence",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-056",
+      "label": "The Guayaquil Conference: two liberators meet once",
+      "year": 1822,
+      "description": "San Martín and Bolívar met behind closed doors at Guayaquil to decide who would finish the liberation of Peru. No record survives of what was said, but San Martín emerged having yielded everything — he handed Bolívar his troops and his cause, then withdrew from public life forever.",
+      "wikiSlug": "Guayaquil_Conference",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-057",
+      "label": "Manuela Sáenz, the Liberator's partner and protector",
+      "year": 1822,
+      "description": "The Quito-born revolutionary Manuela Sáenz became Bolívar's lover, confidante, and political ally — decorated for her service, she once saved his life from assassins, earning the title 'Liberator of the Liberator.' She embodied the women whose role the official histories long erased.",
+      "wikiSlug": "Manuela_Sáenz",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-058",
+      "label": "The cavalry clash at Junín",
+      "year": 1824,
+      "description": "High in the Peruvian Andes, Bolívar's and the royalists' cavalry fought a fierce, nearly silent battle with lance and saber — not a shot was fired — at Junín. The patriot victory shattered royalist morale ahead of the final reckoning.",
+      "wikiSlug": "Battle_of_Junín",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-059",
+      "label": "The Battle of Ayacucho ends Spanish rule in South America",
+      "year": 1824,
+      "description": "Sucre's army destroyed the last royalist field force in the highlands above Ayacucho and captured the Spanish viceroy. The capitulation signed that day ended three centuries of Spanish power on the South American continent.",
+      "wikiSlug": "Battle_of_Ayacucho",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-060",
+      "label": "Bolivia is born and named for the Liberator",
+      "year": 1825,
+      "description": "Upper Peru declared itself a separate republic and took the name Bolivia in Bolívar's honor; Sucre became its first president. Bolívar wrote it a constitution with a president-for-life — a sign of his deepening conviction that the new nations needed a strong hand.",
+      "wikiSlug": "Bolivia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-061",
+      "label": "The naval Battle of Lake Maracaibo seals Venezuela",
+      "year": 1823,
+      "description": "A patriot flotilla destroyed the last Spanish naval force on Lake Maracaibo, ending royalist resistance in Venezuela and cutting off any seaborne reconquest. It was effectively the war's final battle in the north.",
+      "wikiSlug": "Battle_of_Lake_Maracaibo",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-062",
+      "label": "Argentina's war of independence formally ends",
+      "year": 1825,
+      "description": "With the royalist surrender at Ayacucho and the liberation of Upper Peru, the long Argentine War of Independence reached its close. The United Provinces were free — but already fracturing into the regional rivalries that would dominate the coming decades.",
+      "wikiSlug": "Argentine_War_of_Independence",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-063",
+      "label": "José Miguel Carrera, the rival who would not yield",
+      "year": 1814,
+      "description": "The fiery Chilean aristocrat José Miguel Carrera led Chile's first independent government and clashed bitterly with O'Higgins, splitting the patriot cause before the royalist reconquest. His feud with O'Higgins ended in exile and, in 1821, his execution — a parable of how the revolution devoured its own.",
+      "wikiSlug": "José_Miguel_Carrera",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-064",
+      "label": "Mexico's insurgency goes underground",
+      "year": 1815,
+      "description": "After Morelos was captured and executed in 1815, the Mexican independence movement collapsed into scattered guerrilla bands, most famously under Vicente Guerrero in the southern mountains. For five years the revolution survived as little more than a stubborn rumor in the hills.",
+      "wikiSlug": "Mexican_War_of_Independence",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-065",
+      "label": "Vicente Guerrero keeps the flame in the south",
+      "year": 1816,
+      "description": "Of mixed African, Indigenous, and Spanish descent, Vicente Guerrero refused to surrender, fighting on in the rugged south long after the cause seemed lost — famously answering a plea to give up with 'la patria es primero,' the homeland comes first. He would become Mexico's first Black president.",
+      "wikiSlug": "Vicente_Guerrero",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-066",
+      "label": "Iturbide switches sides and unites Mexico",
+      "year": 1821,
+      "description": "When Spain's 1820 liberal revolution threatened the privileges of the Mexican elite, the royalist commander Agustín de Iturbide flipped — allying with the rebel Guerrero to declare independence on conservative terms. The masters of the old order would now lead the break they had spent a decade fighting.",
+      "wikiSlug": "Agustín_de_Iturbide",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-067",
+      "label": "The Plan of Iguala and its 'Three Guarantees'",
+      "year": 1821,
+      "description": "Iturbide and Guerrero proclaimed the Plan of Iguala, promising independence, the supremacy of the Catholic Church, and equality between Spaniards and Americans — the 'Three Guarantees.' By reassuring everyone, it achieved in months what a decade of war had not.",
+      "wikiSlug": "Plan_of_Iguala",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-068",
+      "label": "Iturbide crowns himself Emperor of Mexico",
+      "year": 1822,
+      "description": "Independent Mexico's congress proclaimed Iturbide emperor of the First Mexican Empire. His vainglorious, short-lived monarchy — financially broke and politically isolated — would collapse within a year, dragging in much of Central America.",
+      "wikiSlug": "First_Mexican_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-069",
+      "label": "The Plan of Casa Mata topples the empire",
+      "year": 1823,
+      "description": "A military revolt under the Plan of Casa Mata forced Iturbide to abdicate; he was exiled and, on a rash return in 1824, executed. Mexico became a republic, and Central America split off to form its own federation.",
+      "wikiSlug": "Plan_of_Casa_Mata",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-070",
+      "label": "Guadalupe Victoria, first president of Mexico",
+      "year": 1824,
+      "description": "An insurgent who had taken a name honoring the Virgin of Guadalupe and the cause of victory, Guadalupe Victoria became the first president of the Mexican republic and one of the few early leaders to complete his term — a rare moment of stability before decades of upheaval.",
+      "wikiSlug": "Guadalupe_Victoria",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-071",
+      "label": "The Catholic Church straddles the revolution",
+      "year": 1810,
+      "description": "The Church was everywhere in the wars — village priests like Hidalgo and Morelos led the Mexican revolt, while bishops and the Inquisition condemned it; the Plan of Iguala made Catholicism a pillar of independence. The new nations would fight for the rest of the century over the Church's vast power and wealth.",
+      "wikiSlug": "Mexican_War_of_Independence",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-latin-american-independence-072",
+      "label": "Rio de Janeiro becomes the seat of empire",
+      "year": 1815,
+      "description": "With the court resident in Brazil, the colony was elevated to a co-equal kingdom within the United Kingdom of Portugal, Brazil, and the Algarves. Rio gained a court, a bank, a press, and an opera house — Brazil had effectively grown out of colonial status without firing a shot.",
+      "wikiSlug": "Rio_de_Janeiro",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-latin-american-independence-073",
+      "label": "King John VI returns to Portugal, leaving his son",
+      "year": 1821,
+      "description": "Pressured by a liberal revolution at home, King John VI sailed back to Lisbon, leaving his son Pedro as regent of Brazil with a quiet piece of advice: if independence comes, put the crown on your own head before some adventurer does. Pedro took it to heart.",
+      "wikiSlug": "John_VI_of_Portugal",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-074",
+      "label": "Pedro defies Lisbon: the 'Dia do Fico'",
+      "year": 1822,
+      "description": "Ordered by the Portuguese parliament to return and submit Brazil to renewed colonial control, Prince Pedro refused, declaring 'I stay' — the Dia do Fico. It was the first open break, setting Brazil on the road to independence under its own prince.",
+      "wikiSlug": "Independence_of_Brazil",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-075",
+      "label": "The Cry of Ipiranga proclaims Brazilian independence",
+      "year": 1822,
+      "description": "Beside the Ipiranga brook near São Paulo, Prince Pedro reportedly drew his sword and cried 'Independence or death!' — declaring Brazil free of Portugal. Months later he was crowned Pedro I, emperor of a vast new monarchy that broke away almost without bloodshed.",
+      "wikiSlug": "Independence_of_Brazil",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-076",
+      "label": "Pedro I, the prince who freed his own colony",
+      "year": 1822,
+      "description": "Crowned Emperor Pedro I, the Portuguese heir became the founder of independent Brazil — the only monarchy in the hemisphere's new states. Restless and quarrelsome, he would abdicate in 1831 to chase the throne of Portugal, leaving his five-year-old son behind.",
+      "wikiSlug": "Pedro_I_of_Brazil",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-077",
+      "label": "José Bonifácio, the 'Patriarch of Independence'",
+      "year": 1822,
+      "description": "The naturalist and statesman José Bonifácio de Andrada was the political architect of Brazil's break, Pedro's chief minister and the intellectual force behind the new monarchy — even as he argued, unsuccessfully, for abolishing slavery and integrating Indigenous peoples.",
+      "wikiSlug": "José_Bonifácio_de_Andrada_e_Silva",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-078",
+      "label": "The Confederation of the Equator revolts",
+      "year": 1824,
+      "description": "Republican and federalist provinces in Brazil's northeast, resentful of the centralizing new monarchy, rose in the Confederation of the Equator. Pedro I crushed it harshly, signaling that independent Brazil would be a strong, centralized empire — not a loose federation.",
+      "wikiSlug": "Confederation_of_the_Equator",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-079",
+      "label": "The Constitution of Cúcuta organizes Gran Colombia",
+      "year": 1821,
+      "description": "The Congress of Cúcuta gave Gran Colombia a centralist constitution, made Bolívar president and Santander vice-president, and provided for the gradual abolition of slavery. On paper it was a vast, modern republic; in practice its regions barely knew one another.",
+      "wikiSlug": "Congress_of_Cúcuta",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-080",
+      "label": "Santander, 'the man of laws,' splits with Bolívar",
+      "year": 1825,
+      "description": "Francisco de Paula Santander, the able administrator who ran New Granada while Bolívar campaigned, championed civilian rule, federalism, and law. His growing feud with the increasingly dictatorial Bolívar would tear Gran Colombia apart.",
+      "wikiSlug": "Francisco_de_Paula_Santander",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-081",
+      "label": "Bolívar convenes the Congress of Panama",
+      "year": 1826,
+      "description": "Bolívar called the first pan-American congress at Panama, hoping to unite the new Spanish-American republics in a league against future European or U.S. domination. Almost nobody came as he hoped; the dream of continental unity was already slipping away.",
+      "wikiSlug": "Congress_of_Panama",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-082",
+      "label": "Bolívar takes dictatorial power to save the union",
+      "year": 1828,
+      "description": "Convinced that only a strong hand could hold Gran Colombia together, Bolívar assumed dictatorial powers — and survived an assassination attempt in Bogotá thanks to Manuela Sáenz. But force could not glue together regions that no longer wanted to be one country.",
+      "wikiSlug": "Gran_Colombia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-083",
+      "label": "Gran Colombia dissolves into three nations",
+      "year": 1830,
+      "description": "Venezuela under Páez and Ecuador under Flores broke away, leaving Bolívar's grand republic to shatter into Venezuela, Ecuador, and New Granada (later Colombia). The single Spanish-American superstate had lasted barely a decade.",
+      "wikiSlug": "Gran_Colombia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-084",
+      "label": "Bolívar dies disillusioned: 'I have plowed the sea'",
+      "year": 1830,
+      "description": "Stripped of power, his union in ruins and Sucre murdered, Bolívar died of tuberculosis near Santa Marta at forty-seven. His bitter epitaph on the revolution — that those who served it had 'plowed the sea' — became the keynote of the disappointed century to come.",
+      "wikiSlug": "Simón_Bolívar",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-085",
+      "label": "Páez founds the Venezuelan oligarchic republic",
+      "year": 1830,
+      "description": "The llanero hero José Antonio Páez led Venezuela out of Gran Colombia and dominated its politics for two decades — the prototype of the caudillo: a charismatic military strongman ruling through personal loyalty rather than institutions.",
+      "wikiSlug": "José_Antonio_Páez",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-086",
+      "label": "The age of the caudillo begins",
+      "year": 1830,
+      "description": "Across the new republics, weak institutions and victorious armies produced the caudillo — the personalist strongman who seized power by force and ruled by patronage and charisma. From Páez to Rosas to Santa Anna, the caudillo would define nineteenth-century Latin American politics.",
+      "wikiSlug": "Caudillo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-087",
+      "label": "San Martín dies forgotten in France",
+      "year": 1850,
+      "description": "Having handed over his cause at Guayaquil, San Martín spent nearly thirty years in self-imposed European exile and died near Boulogne, largely ignored. Only later would Argentina reclaim him as its supreme national hero — the liberator who walked away from power.",
+      "wikiSlug": "José_de_San_Martín",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-088",
+      "label": "Andrés Bello codifies a literate, independent America",
+      "year": 1847,
+      "description": "The Venezuelan-born polymath Andrés Bello — once Bolívar's tutor — became the great intellectual founder of independent Spanish America: he wrote its definitive Spanish grammar, drafted the Chilean civil code, and shaped its universities. His project was cultural independence to match the political kind.",
+      "wikiSlug": "Andrés_Bello",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-089",
+      "label": "Rosas rules Argentina by the lance",
+      "year": 1835,
+      "description": "Juan Manuel de Rosas, a cattle-baron caudillo, dominated Argentina for two decades as the 'Restorer of the Laws,' wielding terror through his secret police and rallying the federalist gauchos against the Buenos Aires liberals. He became the era's defining strongman.",
+      "wikiSlug": "Juan_Manuel_de_Rosas",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-090",
+      "label": "The Argentine Civil Wars: federalists vs. unitarians",
+      "year": 1828,
+      "description": "For decades after independence, Argentina tore itself apart over whether power should rest in the provinces (federalists) or in centralizing Buenos Aires (unitarians). The wars between gaucho caudillos and city liberals delayed the birth of a unified nation until the 1860s.",
+      "wikiSlug": "Argentine_Civil_Wars",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-091",
+      "label": "Diego Portales builds the Chilean state",
+      "year": 1833,
+      "description": "The Chilean minister Diego Portales engineered an authoritarian but stable conservative order — a strong impersonal state rather than a caudillo's cult. His 1833 constitution gave Chile decades of unusual stability, an outlier in a fractious continent, even after his own assassination in 1837.",
+      "wikiSlug": "Diego_Portales",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-092",
+      "label": "Sarmiento's 'Facundo' diagnoses the new nations",
+      "year": 1845,
+      "description": "The Argentine writer and future president Domingo Faustino Sarmiento published 'Facundo,' framing the caudillo era as a war between 'civilization and barbarism' — city against countryside, European order against gaucho violence. It became the central debate of Latin American identity.",
+      "wikiSlug": "Facundo",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-093",
+      "label": "The Cisplatine War creates Uruguay",
+      "year": 1825,
+      "description": "A war between Brazil and the United Provinces over the disputed Banda Oriental ended, under British pressure, with the creation of an independent buffer state — Uruguay. It was the first new nation carved by the rivalries of the independent powers themselves.",
+      "wikiSlug": "Cisplatine_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-094",
+      "label": "Guano riches transform Peru",
+      "year": 1845,
+      "description": "Vast deposits of seabird droppings — guano, a prized fertilizer — gave Peru a sudden export boom and decades of revenue. The 'guano era' funded the state, abolished slavery and the Indigenous tribute, and showed how the new nations would live by exporting raw commodities to the industrial world.",
+      "wikiSlug": "History_of_Peru_(1845–1866)",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-latin-american-independence-095",
+      "label": "The Monroe Doctrine warns Europe off",
+      "year": 1823,
+      "description": "As Spain's empire collapsed, the United States declared that Europe should not recolonize the Americas. The Monroe Doctrine had little force at first, but it foreshadowed the rising U.S. role that would eventually replace Europe as the hemisphere's dominant outside power.",
+      "wikiSlug": "Monroe_Doctrine",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-096",
+      "label": "Bello and the new universities institutionalize the republics",
+      "year": 1843,
+      "description": "Andrés Bello became the first rector of the University of Chile, part of a continent-wide effort to build the schools, codes, and institutions that independence had promised but war had not delivered. The republics now had to be made as well as won.",
+      "wikiSlug": "Andrés_Bello",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-latin-american-independence-097",
+      "label": "The War of the Triple Alliance devastates Paraguay",
+      "year": 1864,
+      "description": "Paraguay under the dictator Francisco Solano López fought Brazil, Argentina, and Uruguay at once in the bloodiest war in South American history. By 1870 Paraguay was crushed and depopulated — by some estimates it lost over half its people — a grim measure of how the independent nations now warred among themselves.",
+      "wikiSlug": "Paraguayan_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-098",
+      "label": "Francisco Solano López, the caudillo who fought to the end",
+      "year": 1865,
+      "description": "Paraguay's dictator Francisco Solano López waged a hopeless total war against three neighbors, refusing every chance to surrender until he was killed in 1870. To his enemies a tyrant, to later Paraguayans a national martyr, he embodied the destructive grandiosity of the strongman.",
+      "wikiSlug": "Francisco_Solano_López",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-099",
+      "label": "The War of the Pacific redraws the west coast",
+      "year": 1879,
+      "description": "Chile fought Peru and Bolivia over the nitrate-rich Atacama desert, won decisively, and seized a vast stretch of coast — leaving Bolivia landlocked to this day. It was a war over the export commodities that now drove the continent's economies.",
+      "wikiSlug": "War_of_the_Pacific",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-100",
+      "label": "Martín Fierro celebrates the vanishing gaucho",
+      "year": 1872,
+      "description": "José Hernández's epic poem 'Martín Fierro' turned the gaucho — the free-roaming horseman being crushed by the modernizing state — into Argentina's national symbol. It was the literary protest of a rural world the liberal republic was determined to tame.",
+      "wikiSlug": "Martín_Fierro",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-101",
+      "label": "The Rio Branco Free Womb Law in Brazil",
+      "year": 1871,
+      "description": "Brazil — the last great slave society in the Americas — began dismantling slavery cautiously, with the Rio Branco Law declaring children born to enslaved mothers legally free. It was a slow, grudging start to ending the institution the independence wars had largely left intact.",
+      "wikiSlug": "Rio_Branco_Law",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-latin-american-independence-102",
+      "label": "The Lei Áurea abolishes slavery in Brazil",
+      "year": 1888,
+      "description": "Princess Regent Isabel signed the 'Golden Law,' abolishing slavery in Brazil — the last country in the Western Hemisphere to do so. Emancipation came nearly a century after Haiti and finally closed the slave order that independence had failed to end.",
+      "wikiSlug": "Lei_Áurea",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-latin-american-independence-103",
+      "label": "Pedro II's long reign anchors imperial Brazil",
+      "year": 1840,
+      "description": "Crowned at fourteen, the bookish Emperor Pedro II gave Brazil a half-century of relative stability, presiding over coffee wealth, railroads, and the slow march to abolition — the one durable monarchy in republican Latin America.",
+      "wikiSlug": "Pedro_II_of_Brazil",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-104",
+      "label": "The Proclamation of the Republic ends Brazil's monarchy",
+      "year": 1889,
+      "description": "A year after abolition cost the throne its support among the slaveholding elite, a military coup deposed Pedro II and proclaimed the Brazilian Republic. The hemisphere's last monarchy fell with barely a shot, ending the imperial chapter begun in 1822.",
+      "wikiSlug": "Proclamation_of_the_Republic_(Brazil)",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-105",
+      "label": "Deodoro da Fonseca, soldier-founder of the republic",
+      "year": 1889,
+      "description": "Marshal Deodoro da Fonseca led the coup against Pedro II and became Brazil's first president — inaugurating a republic dominated, like much of the continent, by the military and the rural landowning oligarchy.",
+      "wikiSlug": "Deodoro_da_Fonseca",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-106",
+      "label": "José Martí and the last fight for Cuba",
+      "year": 1895,
+      "description": "The poet and revolutionary José Martí relaunched Cuba's war for independence from Spain — the island and Puerto Rico being the empire's last American possessions. Martí died in battle in 1895, but the war he sparked would draw in the United States and end Spanish rule in the New World.",
+      "wikiSlug": "Cuban_War_of_Independence",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-107",
+      "label": "The Spanish–American War ends Spain's empire",
+      "year": 1898,
+      "description": "The United States intervened in Cuba's war, crushed Spain in months, and stripped it of Cuba, Puerto Rico, and the Philippines. Spain's American empire — born in 1492 — was finished, but Cuba's independence came under heavy U.S. tutelage, a sign of the new northern hegemony.",
+      "wikiSlug": "Spanish–American_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-108",
+      "label": "Panama separates from Colombia",
+      "year": 1903,
+      "description": "Backed by the United States, which wanted a canal, Panama broke away from Colombia and declared independence. The last new nation of the long independence century was born not from a war against Europe but from the ambitions of the rising power to the north — closing one era and opening another.",
+      "wikiSlug": "Secession_of_Panama_from_Colombia",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-109",
+      "label": "Antonio Nariño translates the Rights of Man",
+      "year": 1794,
+      "description": "The Bogotá printer and patriot Antonio Nariño secretly translated and published the French 'Declaration of the Rights of Man' in New Granada — and was imprisoned for it. The smuggled pamphlet showed how revolutionary ideas crossed the Atlantic well before the wars began.",
+      "wikiSlug": "Antonio_Nariño",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-latin-american-independence-110",
+      "label": "Camilo Torres and the early creole congress",
+      "year": 1810,
+      "description": "The New Granadan lawyer Camilo Torres Tenorio had argued in his 'Memorial of Grievances' that American-born subjects deserved equal representation with Spaniards; he became a leader of the early republic and was executed by Morillo's reconquest in 1816, a martyr of the first independence generation.",
+      "wikiSlug": "Camilo_Torres_Tenorio",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-111",
+      "label": "The Real Felipe fortress holds out for the king",
+      "year": 1821,
+      "description": "The great Spanish fortress of Real Felipe at Callao, guarding Lima's port, was among the last royalist strongholds in South America — besieged for years after independence was declared. The forts the Spanish built to defend their empire became the final pockets of its resistance.",
+      "wikiSlug": "Real_Felipe_Fortress",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-latin-american-independence-112",
+      "label": "New capitals for new nations",
+      "year": 1825,
+      "description": "Independence turned colonial administrative centers — Bogotá, Lima, Caracas, Santiago, Mexico City — into national capitals, each remaking its plazas, palaces, and congresses to project republican legitimacy. The architecture of empire was repurposed for the architecture of nationhood.",
+      "wikiSlug": "Bogotá",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-latin-american-independence-113",
+      "label": "Free trade opens the new economies",
+      "year": 1810,
+      "description": "Independence smashed Spain's old monopoly and threw the new nations open to world commerce, above all to British merchants and capital. Cheap imports flooded in, local crafts withered, and the republics settled into the role of raw-commodity exporters that would shape their economies for a century.",
+      "wikiSlug": "Spanish_American_wars_of_independence",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-latin-american-independence-114",
+      "label": "Bernardino Rivadavia tries to modernize Argentina",
+      "year": 1826,
+      "description": "Argentina's first president, the liberal reformer Bernardino Rivadavia, pushed European-style institutions, immigration, and a centralized state — and crashed against the federalist provinces, resigning within a year. His failure handed the country to the caudillos.",
+      "wikiSlug": "Bernardino_Rivadavia",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-115",
+      "label": "The Pernambucan Revolt foreshadows Brazil's republicans",
+      "year": 1817,
+      "description": "Years before independence, the northeastern province of Pernambuco rose in a short-lived republican revolt against the crown in Rio. Crushed quickly, it kept alive a regional, republican, anti-monarchical tradition that would resurface again and again in imperial Brazil.",
+      "wikiSlug": "Pernambucan_revolution",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-latin-american-independence-116",
+      "label": "Sucre is assassinated, and with him a future",
+      "year": 1830,
+      "description": "Bolívar's brilliant heir Antonio José de Sucre was ambushed and shot dead in the mountains of southern Colombia at thirty-five. The murder removed the one man who might have held Gran Colombia together and hastened both its collapse and Bolívar's despair.",
+      "wikiSlug": "Antonio_José_de_Sucre",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-latin-american-independence-117",
+      "label": "Sarmiento as president: schools against the strongmen",
+      "year": 1868,
+      "description": "Domingo Faustino Sarmiento became president of a finally-unified Argentina and poured the state into public schools, railroads, and immigration — the liberal 'civilizing' project meant to bury the caudillo era under literacy and modernity. The post-independence nation was at last being built.",
+      "wikiSlug": "Domingo_Faustino_Sarmiento",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-latin-american-independence-118",
+      "label": "Belgrano creates the Argentine flag",
+      "year": 1812,
+      "description": "The patriot general and economist Manuel Belgrano raised a new sky-blue-and-white flag for the revolutionary forces on the banks of the Paraná — improvising a national symbol before there was a nation. It remains Argentina's flag today.",
+      "wikiSlug": "Manuel_Belgrano",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    }
+  ]
+}

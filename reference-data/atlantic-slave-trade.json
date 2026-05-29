@@ -1,0 +1,1181 @@
+{
+  "id": "atlantic-slave-trade",
+  "label": "The Atlantic Slave Trade",
+  "type": "civilization",
+  "region": "africa",
+  "source": "curated",
+  "wikiSlug": "Atlantic_slave_trade",
+  "imageWikiSlug": "Brooks_(1781_ship)",
+  "pitch": "Over roughly four centuries, traffickers loaded about 12.5 million Africans onto ships bound across the Atlantic. Around 10.7 million survived the crossing. It was the largest forced migration in human history, and it built the modern world's first truly global economy — sugar, tobacco, coffee, and cotton, all grown by people who had been stolen, sold, branded, and worked until they died. This is the story of how that machine was assembled, how it ran, and how it was finally broken. It begins with Portuguese caravels and a tiny sugar island called São Tomé, and it ends in 1888 when Brazil — the last holdout — freed the people it still held. In between: the floating prison of the Middle Passage, the African kingdoms that grew rich and powerful selling captives, the plantation colonies of Brazil and the Caribbean where enslaved people died faster than they could be born, and the long fight to end it all — a fight led not only by Quakers and parliamentarians but by the enslaved themselves, who ran, rose up, founded free maroon republics in the forest, and in Haiti did the unthinkable: defeated Napoleon's army and made the only nation ever born of a successful slave revolt.\n\n🔑 Key Facts:\n• About 12.5 million Africans were embarked and roughly 10.7 million disembarked; an estimated 1.8 million died during the Middle Passage itself.\n• Brazil received the largest share — close to 5 million people, more than ten times the number brought to what became the United States.\n• Britain abolished the slave trade in 1807 and slavery itself across most of its empire in 1833; the United States ended it by the Thirteenth Amendment in 1865.\n• The Haitian Revolution (1791–1804) was the only large-scale slave revolt in history to found a free state.\n\n🤔 Why It Matters: The Atlantic slave trade is the foundation under the modern Atlantic world — its wealth, its racial categories, its diasporic cultures, and its unfinished reckonings. Understanding it means holding two truths at once: the scale of the atrocity, and the persistence of the people who endured it, resisted it, and outlived it.",
+  "countryIds": [],
+  "spans": [
+    {
+      "id": "span-ast-origins",
+      "label": "Origins: The Portuguese and the Sugar Model",
+      "startYear": 1450,
+      "endYear": 1580,
+      "description": "Portugal probes the West African coast, builds Elmina, and perfects on São Tomé the brutal template — sugar grown by enslaved Africans — that the whole Atlantic would copy.",
+      "wikiSlug": "Atlantic_slave_trade"
+    },
+    {
+      "id": "span-ast-scaling",
+      "label": "The System Scales: Brazil and the Caribbean",
+      "startYear": 1580,
+      "endYear": 1700,
+      "description": "Sugar explodes across Brazil and the Caribbean. The Dutch, English, and French muscle in, chartered companies industrialize the trade, and the plantation complex takes its lethal mature form.",
+      "wikiSlug": "Plantation_economy"
+    },
+    {
+      "id": "span-ast-middle-passage",
+      "label": "The Middle Passage and the African Coast",
+      "startYear": 1600,
+      "endYear": 1800,
+      "description": "The slave ship as a world of its own — the coastal forts and barracoons, the African kingdoms that supplied captives, and the crossing that killed roughly one in seven aboard.",
+      "wikiSlug": "Middle_Passage"
+    },
+    {
+      "id": "span-ast-resistance",
+      "label": "Resistance, Revolt, and Marronage",
+      "startYear": 1500,
+      "endYear": 1831,
+      "description": "From the day the chains went on, enslaved people fought back — shipboard mutinies, plantation uprisings, and the free maroon communities, from Palmares to the Jamaican mountains, that survived for generations.",
+      "wikiSlug": "Maroon_(people)"
+    },
+    {
+      "id": "span-ast-abolition",
+      "label": "The Abolition Movement",
+      "startYear": 1750,
+      "endYear": 1833,
+      "description": "Quakers, formerly enslaved authors, and a new mass politics turn the trade from ordinary commerce into a moral scandal — and force the first great abolition laws through Britain and the United States.",
+      "wikiSlug": "Abolitionism"
+    },
+    {
+      "id": "span-ast-haiti",
+      "label": "Haiti: The Revolution That Couldn't Happen",
+      "startYear": 1791,
+      "endYear": 1804,
+      "description": "On the richest slave colony on earth, the enslaved rose, beat back Spain, Britain, and finally Napoleon's army, and founded the world's first nation born of a victorious slave revolt.",
+      "wikiSlug": "Haitian_Revolution"
+    },
+    {
+      "id": "span-ast-end",
+      "label": "The Slow Legal End and the Afterlife",
+      "startYear": 1807,
+      "endYear": 1900,
+      "description": "Abolition arrives unevenly — Britain 1833, the US in 1865, Brazil last in 1888 — and the diaspora's surviving cultures, faiths, and demands for reckoning outlive the system that made them.",
+      "wikiSlug": "Abolitionism"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-atlantic-slave-trade-001",
+      "label": "Prince Henry's caravels reach the West African coast",
+      "year": 1444,
+      "description": "Portuguese voyages sponsored by Prince Henry the Navigator pushed past Cape Bojador and began bringing the first enslaved Africans directly to Lisbon by sea, opening the maritime trade that would become the Atlantic system.",
+      "wikiSlug": "Henry_the_Navigator",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-002",
+      "label": "Portugal builds Elmina Castle on the Gold Coast",
+      "year": 1482,
+      "description": "The Portuguese erected São Jorge da Mina (Elmina) as a fortified trading base — first for gold, later a major slave-shipping fort, and the oldest surviving European building south of the Sahara.",
+      "wikiSlug": "Elmina_Castle",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-003",
+      "label": "Treaty of Tordesillas divides the Atlantic world",
+      "year": 1494,
+      "description": "Spain and Portugal split the non-European world along a meridian, handing Portugal Brazil and the African coast — the legal scaffolding on which the Atlantic slave trade was built.",
+      "wikiSlug": "Treaty_of_Tordesillas",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-004",
+      "label": "São Tomé pioneers the enslaved-labor sugar plantation",
+      "year": 1500,
+      "description": "On the equatorial island of São Tomé, the Portuguese combined sugarcane with enslaved African labor at scale for the first time, creating the lethal plantation template that the entire Atlantic would later copy.",
+      "wikiSlug": "S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-005",
+      "label": "First enslaved Africans shipped to the Americas",
+      "year": 1502,
+      "description": "Within a decade of Columbus, the Spanish were transporting enslaved Africans to Hispaniola to replace the rapidly dying Indigenous labor force — the first transatlantic deliveries of a trade that would last nearly four centuries.",
+      "wikiSlug": "Atlantic_slave_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-006",
+      "label": "Spain's encomienda binds Indigenous labor",
+      "year": 1503,
+      "description": "The encomienda system granted colonists the forced labor of Indigenous people; its catastrophic death toll drove the Spanish to look to Africa, shifting the demand that fed the Atlantic trade.",
+      "wikiSlug": "Encomienda",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-007",
+      "label": "Afonso I of Kongo converts and confronts the trade",
+      "year": 1506,
+      "description": "The Catholic king of Kongo, Afonso I, embraced Portugal as an ally but protested in letters that traffickers were seizing his own free subjects — an early African ruler caught between profit and the trade's hunger.",
+      "wikiSlug": "Afonso_I_of_Kongo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-008",
+      "label": "The asiento makes slave delivery a royal monopoly",
+      "year": 1518,
+      "description": "The Spanish Crown began granting the asiento de negros, an exclusive contract to supply enslaved Africans to its colonies, turning trafficking into a coveted, fought-over state concession.",
+      "wikiSlug": "Asiento_de_Negros",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-009",
+      "label": "Las Casas and the question of conscience",
+      "year": 1542,
+      "description": "The Dominican friar Bartolomé de las Casas denounced the enslavement of Indigenous Americans (though he early on, and later regretted, accepting African slavery), opening Europe's long, self-serving debate over who could justly be enslaved.",
+      "wikiSlug": "Bartolom%C3%A9_de_las_Casas",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-010",
+      "label": "The Valladolid debate weighs human equality",
+      "year": 1550,
+      "description": "Spanish theologians argued at Valladolid over whether Indigenous people were fully rational humans — a formative episode in the European racial reasoning that would be marshaled to excuse African slavery.",
+      "wikiSlug": "Valladolid_debate",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-011",
+      "label": "Brazil's coastal sugar boom begins",
+      "year": 1550,
+      "description": "Portuguese colonists planted sugar along Brazil's northeast coast and, as Indigenous labor collapsed, turned increasingly to enslaved Africans — the start of the colony that would import more captives than anywhere else on earth.",
+      "wikiSlug": "Slavery_in_Brazil",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-012",
+      "label": "Cape Verde becomes an Atlantic slaving entrepôt",
+      "year": 1560,
+      "description": "The Portuguese-settled Cape Verde islands grew into a key staging point where captives from the Upper Guinea coast were gathered, held, and shipped onward across the ocean.",
+      "wikiSlug": "Cape_Verde",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-013",
+      "label": "Gorée Island fortified as a slaving station",
+      "year": 1570,
+      "description": "Off the Senegal coast, the small island of Gorée changed hands among European powers and became one of the most notorious West African embarkation points, later home to the House of Slaves.",
+      "wikiSlug": "Gor%C3%A9e",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-014",
+      "label": "Dutch privateers carry Africans to Virginia",
+      "year": 1619,
+      "description": "An English privateer, the White Lion, sold roughly twenty captive Africans at Point Comfort in Virginia — long marked as the symbolic beginning of African slavery in what became the United States.",
+      "wikiSlug": "White_Lion_(ship)",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-015",
+      "label": "The Dutch West India Company enters the trade",
+      "year": 1621,
+      "description": "The chartered Dutch West India Company seized slaving forts, captured Portuguese Brazil's sugar know-how, and helped industrialize Atlantic trafficking as a corporate enterprise.",
+      "wikiSlug": "Dutch_West_India_Company",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-016",
+      "label": "Queen Nzinga resists the Portuguese in Angola",
+      "year": 1624,
+      "description": "Nzinga of Ndongo and Matamba fought a decades-long campaign against Portuguese expansion and slave-raiding in Angola, maneuvering, allying, and warring to protect her people and her power.",
+      "wikiSlug": "Nzinga_of_Ndongo_and_Matamba",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-017",
+      "label": "Luanda becomes the great Angolan slaving port",
+      "year": 1640,
+      "description": "Portuguese Luanda grew into the largest single embarkation point of the entire Atlantic trade, funneling captives from the Kongo–Angola hinterland to the sugar fields of Brazil.",
+      "wikiSlug": "Luanda",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-018",
+      "label": "The English sugar revolution on Barbados",
+      "year": 1645,
+      "description": "English planters on Barbados switched from tobacco to sugar using enslaved African labor, and within a generation the tiny island became England's richest colony — the model the Caribbean would follow.",
+      "wikiSlug": "Sugarcane",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-019",
+      "label": "Palmares grows into a free maroon republic",
+      "year": 1650,
+      "description": "In Brazil's interior, Africans who escaped the plantations built Palmares, a confederation of quilombos (maroon settlements) that defied colonial armies for most of a century.",
+      "wikiSlug": "Palmares_(quilombo)",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-020",
+      "label": "France codifies slavery in the Code Noir",
+      "year": 1685,
+      "description": "Louis XIV's Code Noir regulated slavery in France's colonies in chilling administrative detail — defining the enslaved as property while gesturing at limits, the legal spine of French Caribbean slavery.",
+      "wikiSlug": "Code_Noir",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-021",
+      "label": "The Royal African Company dominates English slaving",
+      "year": 1672,
+      "description": "Chartered with a royal monopoly, the Royal African Company branded its captives 'DY' (for the Duke of York) and shipped tens of thousands of Africans, embedding the trade in the English state and economy.",
+      "wikiSlug": "Royal_African_Company",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-022",
+      "label": "Zumbi leads the last defense of Palmares",
+      "year": 1694,
+      "description": "Under its final leader Zumbi, Palmares fell to a Portuguese-led assault after decades of resistance; Zumbi fought on until 1695 and became an enduring symbol of Black resistance in Brazil.",
+      "wikiSlug": "Zumbi",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-023",
+      "label": "Domingos Jorge Velho storms the quilombo",
+      "year": 1694,
+      "description": "The frontier commander Domingos Jorge Velho led the bandeirante expedition that finally breached Palmares's stockades, ending the largest free Black polity in colonial Brazil.",
+      "wikiSlug": "Domingos_Jorge_Velho",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-024",
+      "label": "Slave codes harden race into law",
+      "year": 1696,
+      "description": "Colonies from Virginia to the Caribbean wrote slave codes that fused lifelong bondage to African descent, made status hereditary through the mother, and stripped the enslaved of nearly every legal protection.",
+      "wikiSlug": "Slave_codes",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-025",
+      "label": "The Asante Empire rises on the slave-and-gold trade",
+      "year": 1701,
+      "description": "Founded around Kumasi, the Asante Empire grew into a major West African power, fielding armies and selling war captives into the Atlantic trade in exchange for firearms and goods.",
+      "wikiSlug": "Asante_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-026",
+      "label": "King Agaja's Dahomey conquers the Slave Coast",
+      "year": 1727,
+      "description": "Agaja of Dahomey overran the coastal kingdom of Whydah, seizing direct control of one of the busiest slaving stretches on the Slave Coast and building a state organized around the trade.",
+      "wikiSlug": "Agaja",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-027",
+      "label": "The barracoon and the holding of captives",
+      "year": 1700,
+      "description": "Along the African coast, captives were packed into barracoons — fortified barracks — sometimes for months, waiting in chains for ships, where many died before ever boarding.",
+      "wikiSlug": "Barracoon",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-028",
+      "label": "Cape Coast Castle anchors the British slave trade",
+      "year": 1664,
+      "description": "Seized by the English and rebuilt as the headquarters of British slaving on the Gold Coast, Cape Coast Castle held captives in dark dungeons beneath rooms where officials dined.",
+      "wikiSlug": "Cape_Coast_Castle",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-029",
+      "label": "The triangular trade circuit matures",
+      "year": 1700,
+      "description": "European ships ran a three-legged circuit — manufactured goods to Africa, captives to the Americas, and plantation produce home — that linked three continents into one economy of bondage.",
+      "wikiSlug": "Triangular_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-030",
+      "label": "The Middle Passage as a world of its own",
+      "year": 1700,
+      "description": "Packed below decks for six to ten weeks, chained, sick, and brutalized, roughly one in seven captives died on the crossing; the survivors arrived to a system designed to break them.",
+      "wikiSlug": "Middle_Passage",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-031",
+      "label": "The slave ship engineered for cargo, not life",
+      "year": 1710,
+      "description": "Vessels were fitted with low-ceilinged platforms, nets to stop captives leaping overboard, and shackles bolted to the deck — design choices that treated human beings as freight.",
+      "wikiSlug": "Slave_ship",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-032",
+      "label": "The 'seasoning' that broke the newly arrived",
+      "year": 1710,
+      "description": "On arrival, traffickers subjected captives to 'seasoning' — a deadly period of forced labor, beatings, and disease in which a large share of newcomers died within a few years.",
+      "wikiSlug": "Seasoning_(slavery)",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-033",
+      "label": "Ouidah becomes Dahomey's slaving outlet",
+      "year": 1727,
+      "description": "The port of Ouidah on the Bight of Benin shipped vast numbers of captives for the kingdom of Dahomey, its 'gate of no return' becoming one of the trade's grimmest landmarks.",
+      "wikiSlug": "Ouidah",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-034",
+      "label": "Liverpool overtakes London as the slaving capital",
+      "year": 1740,
+      "description": "The port of Liverpool grew rich outfitting slave ships, eventually handling the majority of the British trade and lacing the city's banks, insurers, and merchant fortunes with its profits.",
+      "wikiSlug": "Port_of_Liverpool",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-035",
+      "label": "The Bight of Biafra supplies the trade's eastern stream",
+      "year": 1730,
+      "description": "Ports along the Bight of Biafra, drawing on the Igbo and neighboring peoples, became one of the highest-volume slaving regions, feeding captives to the British and French colonies.",
+      "wikiSlug": "Bight_of_Biafra",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-036",
+      "label": "Tegbesu turns Dahomey into a slaving state",
+      "year": 1740,
+      "description": "King Tegbesu institutionalized Dahomey's reliance on the slave trade, drawing a major share of royal revenue from selling captives taken in near-annual wars.",
+      "wikiSlug": "Tegbesu",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-037",
+      "label": "Bunce Island ships captives to the rice coast",
+      "year": 1750,
+      "description": "The British slaving fort on Bunce Island in Sierra Leone specialized in supplying rice-growing South Carolina and Georgia, where West African agricultural skill commanded a premium.",
+      "wikiSlug": "Bunce_Island",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-038",
+      "label": "The Stono Rebellion shakes South Carolina",
+      "year": 1739,
+      "description": "Near the Stono River, a group of enslaved people — many recently arrived from Kongo — rose, seized weapons, and marched for Spanish Florida before being crushed, prompting harsher slave laws.",
+      "wikiSlug": "Stono_Rebellion",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-039",
+      "label": "Nanny leads the Jamaican Maroons",
+      "year": 1739,
+      "description": "Queen Nanny, an Akan-born leader of the Windward Maroons, fought British forces to a standstill in Jamaica's mountains, winning a treaty that recognized free Maroon territory.",
+      "wikiSlug": "Queen_Nanny",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-040",
+      "label": "The First Maroon War ends in treaty",
+      "year": 1740,
+      "description": "After years of guerrilla war, Britain signed treaties with Jamaica's Leeward and Windward Maroons, granting them land and autonomy in exchange for an end to the fighting.",
+      "wikiSlug": "First_Maroon_War",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-041",
+      "label": "Tacky's Revolt convulses Jamaica",
+      "year": 1760,
+      "description": "Led by an Akan man called Tacky, hundreds of enslaved people rose across Jamaica in one of the largest slave revolts of the era, shaking the island's planter class to its core.",
+      "wikiSlug": "Tacky's_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-042",
+      "label": "The casta system orders colonial society by ancestry",
+      "year": 1750,
+      "description": "In Spanish America, an elaborate casta hierarchy ranked people by their proportion of European, African, and Indigenous descent, embedding the slave trade's logic into everyday life.",
+      "wikiSlug": "Casta",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-043",
+      "label": "Saint-Domingue becomes the richest colony on earth",
+      "year": 1750,
+      "description": "French Saint-Domingue (later Haiti) produced more sugar and coffee than any colony in the world, worked by half a million enslaved people under conditions so lethal the population could only be sustained by constant new imports.",
+      "wikiSlug": "Saint-Domingue",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-044",
+      "label": "Quakers turn against the trade",
+      "year": 1758,
+      "description": "The Religious Society of Friends (Quakers) began disowning members who trafficked in human beings — among the first organized religious bodies to condemn the slave trade outright.",
+      "wikiSlug": "Quaker",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-045",
+      "label": "Anthony Benezet builds the abolitionist case",
+      "year": 1762,
+      "description": "The Quaker schoolteacher Anthony Benezet published widely read tracts drawing on African travelers' accounts, supplying a generation of abolitionists with their facts and arguments.",
+      "wikiSlug": "Anthony_Benezet",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-046",
+      "label": "Somerset v Stewart limits slavery in England",
+      "year": 1772,
+      "description": "An English court ruled that an enslaved man, James Somerset, could not be forcibly removed from England — widely taken to mean slavery had no basis in English common law and electrifying the abolition cause.",
+      "wikiSlug": "Somerset_v_Stewart",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-047",
+      "label": "Granville Sharp takes the cause to the courts",
+      "year": 1767,
+      "description": "The activist Granville Sharp made himself a thorn in the slaveholders' side, fighting individual cases of enslaved people in Britain and laying the legal groundwork for organized abolition.",
+      "wikiSlug": "Granville_Sharp",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-048",
+      "label": "John Newton, slaver turned hymn-writer, recants",
+      "year": 1779,
+      "description": "A former slave-ship captain who became a clergyman, John Newton wrote 'Amazing Grace' and later publicly repented of his trafficking, lending the movement a famous voice of conversion.",
+      "wikiSlug": "John_Newton",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-049",
+      "label": "The Zong massacre exposes the trade's logic",
+      "year": 1781,
+      "description": "The crew of the slave ship Zong threw more than 130 sick captives overboard to claim insurance money; the ensuing court case laid bare the law's treatment of human beings as insurable cargo.",
+      "wikiSlug": "Zong_massacre",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-050",
+      "label": "The Brooks diagram becomes abolition's icon",
+      "year": 1788,
+      "description": "Abolitionists circulated a cross-section of the slave ship Brooks showing captives packed in rows like cargo; the image became one of the most powerful pieces of political graphics ever made.",
+      "wikiSlug": "Brooks_(1781_ship)",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-051",
+      "label": "The Abolition Society organizes the movement",
+      "year": 1787,
+      "description": "The Society for Effecting the Abolition of the Slave Trade, founded in London, built the first modern political campaign — petitions, boycotts, lobbying, and mass publicity aimed at Parliament.",
+      "wikiSlug": "Society_for_Effecting_the_Abolition_of_the_Slave_Trade",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-052",
+      "label": "Thomas Clarkson gathers the evidence",
+      "year": 1787,
+      "description": "Riding thousands of miles to interview sailors and collect shackles, branding irons, and thumbscrews, Thomas Clarkson assembled the documentary case that made the trade's brutality undeniable.",
+      "wikiSlug": "Thomas_Clarkson",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-053",
+      "label": "Equiano publishes his Interesting Narrative",
+      "year": 1789,
+      "description": "Olaudah Equiano, who had bought his own freedom, published a best-selling autobiography describing his kidnapping and the Middle Passage — a formerly enslaved man arguing the case in his own voice.",
+      "wikiSlug": "The_Interesting_Narrative_of_the_Life_of_Olaudah_Equiano",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-054",
+      "label": "Olaudah Equiano leads the Black abolitionists",
+      "year": 1789,
+      "description": "Equiano became the most prominent member of the Sons of Africa, a group of formerly enslaved Black Britons who campaigned, wrote, and toured against the trade.",
+      "wikiSlug": "Olaudah_Equiano",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-055",
+      "label": "Wilberforce takes abolition to Parliament",
+      "year": 1789,
+      "description": "William Wilberforce delivered the first of many parliamentary speeches against the slave trade, beginning an eighteen-year campaign that would finally outlaw British slaving.",
+      "wikiSlug": "William_Wilberforce",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-056",
+      "label": "The ceremony at Bois Caïman",
+      "year": 1791,
+      "description": "A Vodou gathering at Bois Caïman in Saint-Domingue, associated with the leader Dutty Boukman, is remembered as the spark that lit the uprising — faith and resistance fused at the revolution's start.",
+      "wikiSlug": "Bois_Ca%C3%AFman",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-057",
+      "label": "Boukman ignites the Haitian Revolution",
+      "year": 1791,
+      "description": "Dutty Boukman, an enslaved Vodou priest, helped trigger the mass uprising in northern Saint-Domingue, setting plantations ablaze and beginning the only successful slave revolution in history.",
+      "wikiSlug": "Dutty_Boukman",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-058",
+      "label": "The Saint-Domingue uprising becomes a revolution",
+      "year": 1791,
+      "description": "What began as scattered plantation revolts grew into a sustained war as tens of thousands of enslaved people organized, armed themselves, and fought France, Spain, and Britain at once.",
+      "wikiSlug": "Haitian_Revolution",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-059",
+      "label": "Toussaint Louverture rises to command",
+      "year": 1793,
+      "description": "A formerly enslaved man of extraordinary military and political skill, Toussaint Louverture forged the rebel forces into a disciplined army and maneuvered between the great powers to secure emancipation.",
+      "wikiSlug": "Toussaint_Louverture",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-060",
+      "label": "Revolutionary France abolishes colonial slavery",
+      "year": 1794,
+      "description": "Pressed by the unstoppable revolt and the politics of revolution, the French Convention declared the abolition of slavery in all its colonies — a decree later betrayed by Napoleon.",
+      "wikiSlug": "Haitian_Revolution",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-061",
+      "label": "Gabriel's planned rising in Virginia",
+      "year": 1800,
+      "description": "An enslaved blacksmith named Gabriel organized an ambitious revolt around Richmond; betrayed before it began, the plot ended in executions but spread fear through the slaveholding South.",
+      "wikiSlug": "Gabriel_Prosser",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-062",
+      "label": "Napoleon's army fails to retake Saint-Domingue",
+      "year": 1802,
+      "description": "Napoleon sent a large expedition to restore slavery and crush the revolution; betrayal captured Toussaint, but yellow fever and fierce resistance destroyed the French force.",
+      "wikiSlug": "Saint-Domingue_expedition",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-063",
+      "label": "Dessalines wins at Vertières",
+      "year": 1803,
+      "description": "Jean-Jacques Dessalines led the revolutionary army to a decisive victory over the French at the Battle of Vertières, sealing the independence of the colony.",
+      "wikiSlug": "Battle_of_Verti%C3%A8res",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-064",
+      "label": "Haiti declares independence",
+      "year": 1804,
+      "description": "Jean-Jacques Dessalines proclaimed the independent nation of Haiti — the first country in the Americas to permanently abolish slavery and the only state ever founded by a victorious slave revolt.",
+      "wikiSlug": "Jean-Jacques_Dessalines",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-065",
+      "label": "Britain abolishes the slave trade",
+      "year": 1807,
+      "description": "Parliament passed the Slave Trade Act, making it illegal for British ships to carry enslaved Africans — a landmark won by decades of campaigning, though slavery itself remained legal in the colonies.",
+      "wikiSlug": "Slave_Trade_Act_1807",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-066",
+      "label": "The United States bans slave imports",
+      "year": 1808,
+      "description": "A federal law took effect ending the legal importation of enslaved people into the United States — though a vast internal slave trade and smuggling continued for decades.",
+      "wikiSlug": "Act_Prohibiting_Importation_of_Slaves",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-067",
+      "label": "The cotton gin remakes American slavery",
+      "year": 1793,
+      "description": "Eli Whitney's cotton gin made short-staple cotton hugely profitable, driving a massive expansion of slavery across the American South just as the Atlantic import trade was being shut off.",
+      "wikiSlug": "Cotton_gin",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-068",
+      "label": "King Cotton ties the South to the world economy",
+      "year": 1820,
+      "description": "Slave-grown cotton became the United States' leading export, feeding the textile mills of Britain and the North and binding the global economy to American slavery.",
+      "wikiSlug": "King_Cotton",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-069",
+      "label": "The domestic slave trade and the coffle",
+      "year": 1820,
+      "description": "With imports banned, an enormous internal trade moved roughly a million enslaved people from the Upper South to the cotton frontier, often marched in chained coffles, tearing families apart.",
+      "wikiSlug": "Coffle",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-070",
+      "label": "Slave 'breeding' and the logic of reproduction",
+      "year": 1820,
+      "description": "As the trade closed, the U.S. enslaved population grew through births, and the deliberate treatment of human beings as a self-reproducing asset became central to the system's economics.",
+      "wikiSlug": "Slave_breeding_in_the_United_States",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-071",
+      "label": "The German Coast uprising in Louisiana",
+      "year": 1811,
+      "description": "Enslaved men led by Charles Deslondes marched on New Orleans in the largest slave revolt in U.S. history, organized along the sugar plantations of the German Coast before being put down.",
+      "wikiSlug": "1811_German_Coast_uprising",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-072",
+      "label": "Bussa's rebellion shakes Barbados",
+      "year": 1816,
+      "description": "Led by an African-born ranger named Bussa, thousands of enslaved people rose across Barbados in the island's largest revolt, signaling that abolition pressure was now matched by force from below.",
+      "wikiSlug": "Bussa's_rebellion",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-073",
+      "label": "Denmark Vesey's conspiracy in Charleston",
+      "year": 1822,
+      "description": "A free Black carpenter, Denmark Vesey, was accused of organizing a large rising in Charleston; the alleged plot's discovery led to executions and a wave of repression against free and enslaved Black people.",
+      "wikiSlug": "Denmark_Vesey",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-074",
+      "label": "Nat Turner's rebellion terrifies the South",
+      "year": 1831,
+      "description": "Led by the preacher Nat Turner, enslaved people in Southampton County, Virginia, killed about sixty whites before the revolt was crushed; the backlash tightened slavery's grip across the South.",
+      "wikiSlug": "Nat_Turner's_slave_rebellion",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-075",
+      "label": "The Baptist War accelerates British emancipation",
+      "year": 1831,
+      "description": "Led by the enslaved preacher Samuel Sharpe, a massive strike-turned-rebellion in Jamaica was brutally suppressed — but its scale convinced many in Britain that slavery had to end.",
+      "wikiSlug": "Baptist_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-076",
+      "label": "Britain abolishes slavery across most of its empire",
+      "year": 1833,
+      "description": "The Slavery Abolition Act freed roughly 800,000 enslaved people in the British Caribbean and beyond, though it compensated slaveholders — not the enslaved — and imposed years of unpaid 'apprenticeship.'",
+      "wikiSlug": "Slavery_Abolition_Act_1833",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-077",
+      "label": "The Amistad captives win their freedom",
+      "year": 1839,
+      "description": "Africans illegally trafficked aboard the Amistad, led by Sengbe Pieh (Joseph Cinqué), seized the ship; the U.S. Supreme Court ultimately ruled them free, a rare legal victory for the enslaved.",
+      "wikiSlug": "Joseph_Cinqu%C3%A9",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-078",
+      "label": "Frederick Douglass gives slavery a witness",
+      "year": 1845,
+      "description": "Having escaped bondage, Frederick Douglass published his Narrative and became the era's most powerful abolitionist orator and writer, making the case in his own commanding voice.",
+      "wikiSlug": "Frederick_Douglass",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-079",
+      "label": "Harriet Tubman and the Underground Railroad",
+      "year": 1850,
+      "description": "After escaping slavery herself, Harriet Tubman returned repeatedly to lead others north along the Underground Railroad, the clandestine network that carried thousands of enslaved people to freedom.",
+      "wikiSlug": "Harriet_Tubman",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-080",
+      "label": "The Underground Railroad moves the enslaved north",
+      "year": 1850,
+      "description": "A loose web of safe houses, guides, and free Black and white allies helped enslaved people escape the South toward the northern states and Canada, defying the Fugitive Slave Act.",
+      "wikiSlug": "Underground_Railroad",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-081",
+      "label": "Brazil's law ends the transatlantic slave trade",
+      "year": 1850,
+      "description": "Under British naval pressure, Brazil passed the Eusébio de Queiroz law effectively halting the Atlantic import of captives — though slavery within Brazil persisted for another generation.",
+      "wikiSlug": "Slavery_in_Brazil",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-082",
+      "label": "The Emancipation Proclamation",
+      "year": 1863,
+      "description": "Amid the Civil War, Abraham Lincoln declared enslaved people in the rebelling Confederate states to be free, redefining the war as a struggle over slavery and drawing Black soldiers into Union ranks.",
+      "wikiSlug": "Emancipation_Proclamation",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-083",
+      "label": "The Thirteenth Amendment abolishes U.S. slavery",
+      "year": 1865,
+      "description": "Ratified at the war's end, the Thirteenth Amendment abolished slavery throughout the United States, ending the institution that had defined the nation since its founding.",
+      "wikiSlug": "Thirteenth_Amendment_to_the_United_States_Constitution",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-084",
+      "label": "Brazil's Law of the Free Womb",
+      "year": 1871,
+      "description": "The Rio Branco law declared children born to enslaved women free, a gradualist step that began Brazil's slow legal dismantling of the last great slave society in the Americas.",
+      "wikiSlug": "Law_of_the_Free_Womb",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-085",
+      "label": "Brazil's Golden Law ends slavery in the Americas",
+      "year": 1888,
+      "description": "Princess Isabel signed the Lei Áurea, abolishing slavery in Brazil without compensation — the last country in the Americas to do so, closing nearly four centuries of Atlantic bondage.",
+      "wikiSlug": "Lei_%C3%81urea",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-086",
+      "label": "Vodou survives the crossing in Haiti",
+      "year": 1750,
+      "description": "Haitian Vodou fused West and Central African religions with Catholicism into a faith that sustained the enslaved and, at Bois Caïman, helped fire their revolution.",
+      "wikiSlug": "Haitian_Vodou",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-087",
+      "label": "Candomblé takes root in Brazil",
+      "year": 1800,
+      "description": "Enslaved Africans, especially Yoruba speakers, preserved their orixá worship in Brazil as Candomblé, a syncretic faith hidden behind Catholic saints and still vibrant today.",
+      "wikiSlug": "Candombl%C3%A9",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-088",
+      "label": "Santería emerges in the Spanish Caribbean",
+      "year": 1800,
+      "description": "In Cuba, enslaved Yoruba people reworked their religion into Santería (Regla de Ocha), another of the diaspora's enduring syncretic faiths born of survival under bondage.",
+      "wikiSlug": "Santer%C3%ADa",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-089",
+      "label": "The Gullah preserve an African coast culture",
+      "year": 1800,
+      "description": "On the Sea Islands of South Carolina and Georgia, the relatively isolated Gullah retained a distinctive creole language, foodways, and crafts rooted directly in West and Central Africa.",
+      "wikiSlug": "Gullah",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-090",
+      "label": "Reckoning and reparations",
+      "year": 1900,
+      "description": "Long after abolition, the descendants of the enslaved and of the diaspora pressed for acknowledgment, repair, and justice — an unfinished accounting that the trade's legacy still demands.",
+      "wikiSlug": "Reparations_for_slavery",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-091",
+      "label": "Sugarcane: the crop that drove the trade",
+      "year": 1600,
+      "description": "Sugar was the engine of the Atlantic system — enormously profitable, brutally labor-hungry, and so lethal to work that it consumed enslaved lives faster than any other crop.",
+      "wikiSlug": "Sugarcane",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-092",
+      "label": "Coffee opens a second plantation frontier",
+      "year": 1730,
+      "description": "Coffee cultivation, above all in Saint-Domingue and later Brazil, created vast new demand for enslaved labor and extended the plantation complex into the highlands.",
+      "wikiSlug": "Coffee",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-093",
+      "label": "Cap-Français: the jewel of the French Caribbean",
+      "year": 1780,
+      "description": "Cap-Français in Saint-Domingue was the colony's wealthiest city, a glittering port built on slave-grown sugar — and later a battleground of the Haitian Revolution.",
+      "wikiSlug": "Cap-Fran%C3%A7ais",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-094",
+      "label": "Charleston: North America's great slaving port",
+      "year": 1750,
+      "description": "Charleston, South Carolina, was the largest port of entry for enslaved Africans in mainland British North America, its wealth and society built on the rice and indigo trades.",
+      "wikiSlug": "Charleston,_South_Carolina",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-095",
+      "label": "Nantes: France's slaving capital",
+      "year": 1750,
+      "description": "The Atlantic port of Nantes outfitted the largest share of French slave ships, its merchant elite growing rich on a trade later memorialized in the city itself.",
+      "wikiSlug": "Nantes",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-096",
+      "label": "The House of Slaves on Gorée",
+      "year": 1776,
+      "description": "Gorée's House of Slaves, with its 'Door of No Return,' became the most visited memorial of the trade — a place of pilgrimage and mourning whatever its exact historical traffic.",
+      "wikiSlug": "House_of_Slaves",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-097",
+      "label": "Pan-Africanism answers the diaspora's scattering",
+      "year": 1900,
+      "description": "Out of the trade's forced dispersal grew Pan-Africanism, a movement to reunite and uplift people of African descent worldwide — a political legacy of the scattering the trade caused.",
+      "wikiSlug": "Pan-Africanism",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-098",
+      "label": "The demographics of a four-century atrocity",
+      "year": 1850,
+      "description": "Scholars reconstructing the trade count roughly 12.5 million Africans embarked and 10.7 million landed across some 36,000 voyages, the grim arithmetic that defines its scale.",
+      "wikiSlug": "Atlantic_slave_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-099",
+      "label": "The Oyo Empire and the Yoruba supply",
+      "year": 1700,
+      "description": "The cavalry-powered Oyo Empire dominated the Yoruba lands and the Slave Coast hinterland, channeling captives toward the Bight of Benin's busy ports.",
+      "wikiSlug": "Oyo_Empire",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-100",
+      "label": "The Kingdom of Loango on the Central African coast",
+      "year": 1650,
+      "description": "North of the Kongo, the Kingdom of Loango became a key supplier of captives to Dutch, English, and French traders, illustrating the trade's Central African heart.",
+      "wikiSlug": "Kingdom_of_Loango",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-101",
+      "label": "Britain's West India Interest defends slavery",
+      "year": 1790,
+      "description": "The West India Interest, a powerful lobby of Caribbean planters and merchants, fought abolition in Parliament for decades, showing how deeply slavery's profits ran through British politics.",
+      "wikiSlug": "West_India_Interest",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-102",
+      "label": "Bristol's fortune from the trade",
+      "year": 1730,
+      "description": "Before Liverpool eclipsed it, Bristol was a leading British slaving port, its merchants and civic institutions enriched by the commerce in human beings.",
+      "wikiSlug": "Bristol_slave_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-103",
+      "label": "Indentured servitude on the road to slavery",
+      "year": 1620,
+      "description": "Early English colonies relied on indentured servants — bound for a term of years — before shifting to lifelong, hereditary racial slavery as labor demand and racial law hardened.",
+      "wikiSlug": "Indentured_servitude",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-104",
+      "label": "The Mascarene trade and the Indian Ocean parallel",
+      "year": 1750,
+      "description": "On the Mascarene Islands of the Indian Ocean, the French ran sugar plantations worked by enslaved Africans and Malagasy, a reminder that Atlantic-style slavery had cousins worldwide.",
+      "wikiSlug": "Mascarene_Islands",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-105",
+      "label": "Saint-Louis: France's Senegal foothold",
+      "year": 1700,
+      "description": "The island town of Saint-Louis at the mouth of the Senegal River was France's chief West African base, organizing the gum and slave trades of the Upper Guinea coast.",
+      "wikiSlug": "Saint-Louis,_Senegal",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-106",
+      "label": "Atlantic Creoles bridge two worlds",
+      "year": 1650,
+      "description": "On the African coast and in the early Americas, Atlantic Creoles — people of mixed African and European heritage and culture — brokered trade, interpreted, and navigated between societies.",
+      "wikiSlug": "Atlantic_Creole",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-107",
+      "label": "The Bight of Benin's Slave Coast",
+      "year": 1680,
+      "description": "The stretch of West African shore known as the Slave Coast, centered on the Bight of Benin, shipped enormous numbers of captives through ports like Ouidah and Lagos.",
+      "wikiSlug": "Bight_of_Benin",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-108",
+      "label": "The slave auction and the 'scramble'",
+      "year": 1750,
+      "description": "On arrival, captives were sold at public auctions or in chaotic 'scrambles' where buyers rushed to grab people at a fixed price — sales that routinely shattered families.",
+      "wikiSlug": "Scramble_(slave_auction)",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-109",
+      "label": "Pirates prey on the slaving lanes",
+      "year": 1720,
+      "description": "Captains like Bartholomew Roberts raided the West African slaving coast and its shipping, a violent sideshow that disrupted and fed on the same Atlantic commerce.",
+      "wikiSlug": "Bartholomew_Roberts",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-110",
+      "label": "Négritude reclaims a diasporic identity",
+      "year": 1935,
+      "description": "Writers across the French-speaking Black world launched Négritude, a literary and political movement asserting the value of African heritage — a cultural answer to centuries of dehumanization.",
+      "wikiSlug": "Negritude",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-atlantic-slave-trade-111",
+      "label": "Trans-Saharan slavery, the older trade",
+      "year": 1500,
+      "description": "Long before and alongside the Atlantic trade, the older trans-Saharan slave trade moved captives north across the desert — context for, not equivalent to, the Atlantic system's industrial scale.",
+      "wikiSlug": "Trans-Saharan_slave_trade",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    }
+  ]
+}
