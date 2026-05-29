@@ -111,7 +111,9 @@
 
 ## Chapter 6 — Skalds, Sagas, Runes
 
-**Grade: WEAK**
+**Grade: STRONG** (rewritten 2026-05-28 — was WEAK; re-graded STRONG by storytelling critic after restructure onto a single spine: "for the pagan Norse, writing was the answer to death" / the Hávamál reputation-never-dies thesis. Fact-checked, one count corrected. Original WEAK critique retained below for provenance.)
+
+**Originally graded WEAK (pre-2026-05-28 rewrite); superseded by the STRONG grade above. Original critique retained:**
 
 **Throughline:** The Vikings wrote more in their own language than any other early-medieval European culture.
 
