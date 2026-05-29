@@ -397,6 +397,8 @@ wrangler OAuth (mebernin@gmail.com) has full workers/pages perms. To let
 the agent deploy: user adds `Bash(npx wrangler deploy:*)` to
 `~/.claude/settings.json` allow themselves.
 
+**#19 INTRO RETROFIT — IN PROGRESS (2026-05-28).** 25/102 done, intro-baseline 102->77. Batches committed+pushed (NOT deployed, user holding): B1 Northern-European (celtic,germanic-tribes,the-goths,migration-period,anglo-saxon-england), B2 Greco-Roman (minoan,mycenaean,ancient-greece,ancient-rome,byzantine-empire), B3 early-Chinese (ancient-china,shang,zhou,qin,han), B4 Nile (early-dynastic/old-kingdom/new-kingdom/late egypt, ancient-nubia), B5 Indian (indus-valley,vedic-period,maurya,post-maurya-kingdoms,gupta). Pipeline per civ: author agent -> lint-intros --strict -> ONE combined fact+voice critic agent -> apply fixes -> debaseline (remove from audits/intro-baseline.json) -> scoped parse -> commit. 5/wave. Authoritative progress = audits/intro-baseline.json (civs still listed = not yet done). early-medieval-europe = template.
+
 **#19 chapter-intro retrofit — NOW UNBLOCKED (#7 complete 2026-05-28).** Author
 `narratives/<tl>.intros.json` for the 102 grandfathered civs to the RICH spec
 (CLAUDE.md step 8b; `early-medieval-europe` template). **Per civ, THREE gates
