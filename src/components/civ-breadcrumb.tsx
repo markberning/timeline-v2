@@ -254,7 +254,17 @@ export function CivBreadcrumb({ civId, civLabel, region, chapters = [], hideChap
     return () => window.removeEventListener('civ-chapter-changed', onCh)
   }, [])
 
-  const regionChains = chainsForRegion(region)
+  // A chain can span regions (e.g. atlantic-world: Europe → Africa → Americas).
+  // CHAINS_BY_REGION files such a chain only under its FIRST member's region, so
+  // a civ whose own region differs (atlantic-slave-trade = Africa,
+  // latin-american-independence = Americas) would not find its own chain in
+  // chainsForRegion(region) — the chain pill would then drop its current entry
+  // and list the wrong siblings. Always include the current chain so the pill
+  // resolves + highlights correctly regardless of which region it's filed under.
+  const baseChains = chainsForRegion(region)
+  const regionChains = chain && !baseChains.some(c => c.id === chain.id)
+    ? [chain, ...baseChains]
+    : baseChains
   const chainCivs = (chain?.entries.map(e => NAVIGATOR_TLS.find(t => t.id === e.timelineId)).filter(Boolean) ?? []) as typeof NAVIGATOR_TLS
 
   const sep = <span aria-hidden style={{ color: FAINT, fontFamily: SANS, fontSize: 11, flexShrink: 0, padding: '0 2px' }}>›</span>
