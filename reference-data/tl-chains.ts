@@ -102,6 +102,18 @@ export const TL_CHAINS: TlChain[] = [
   },
 
   {
+    id: 'atlantic-world',
+    label: 'The Atlantic World',
+    shortLabel: 'Atlantic',
+    origins: 'In the fifteenth century, European wooden ships pushed out past the edge of the known map, and within a few generations the Atlantic Ocean — once a barrier — became a highway binding Europe, Africa, and the Americas into a single, violent, world-spanning system of trade, conquest, and forced migration.',
+    entries: [
+      { timelineId: 'age-of-exploration', transition: 'The voyages opened the sea lanes — and one cargo came to dominate the new Atlantic economy above all others. To work the sugar, silver, and tobacco of the Americas, Europeans built the largest forced migration in human history.' },
+      { timelineId: 'atlantic-slave-trade', transition: 'The same Atlantic system that carried the enslaved also carried revolutionary ideas. When Napoleon toppled the Iberian monarchies, the colonies those crowns had built seized the moment — and a hemisphere fought its way to independence.' },
+      { timelineId: 'latin-american-independence' },
+    ],
+  },
+
+  {
     id: 'north-american-indigenous',
     label: 'North American Indigenous',
     shortLabel: 'N America',
