@@ -397,11 +397,17 @@ wrangler OAuth (mebernin@gmail.com) has full workers/pages perms. To let
 the agent deploy: user adds `Bash(npx wrangler deploy:*)` to
 `~/.claude/settings.json` allow themselves.
 
-**#19 chapter-intro retrofit — still AFTER #7.** Author
-`narratives/<tl>.intros.json` for grandfathered civs to the RICH spec
-(CLAUDE.md step 8b; `early-medieval-europe` template). Per civ:
-`lint-intros --tl=<tl> --strict` 0 → scoped parse → remove civ from
-`audits/intro-baseline.json` → commit. Detail: backlog #19.
+**#19 chapter-intro retrofit — NOW UNBLOCKED (#7 complete 2026-05-28).** Author
+`narratives/<tl>.intros.json` for the 102 grandfathered civs to the RICH spec
+(CLAUDE.md step 8b; `early-medieval-europe` template). **Per civ, THREE gates
+(not one) — intros are a reader-facing factual surface, held to the same bar as
+main prose:** (1) `lint-intros --tl=<tl> --strict` 0 (structural: presence,
+word bounds, ≤620 ceiling); (2) a **fact-checker pass** on the intro claims
+(cast roles/dates, "story so far" recap, "lay of the land" assertions);
+(3) a **storytelling/voice critic** (house voice, frames tension, RICH not
+terse). Then scoped parse → remove civ from `audits/intro-baseline.json` →
+commit. ~100 civs × 8–20 chapters ≈ 1,000+ intro cards: a large authoring
+program, run batched/gated like the #7 sweep, one deploy at the end.
 
 **Two load-bearing facts for #7 (full detail in ACTIVE PROGRAM + memory):**
 - **The gate is corpus-coupled** → one-pass parallel sweep can't reach
