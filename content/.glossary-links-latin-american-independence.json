@@ -1,0 +1,91 @@
+{
+  "1": [
+    { "term": "peninsulares", "matchText": "peninsulares", "type": "group", "wikiSlug": "Peninsulars" },
+    { "term": "creoles", "matchText": "creoles", "type": "group", "wikiSlug": "Criollo_people" },
+    { "term": "mestizos", "matchText": "mestizos", "type": "group", "wikiSlug": "Mestizo" },
+    { "term": "viceroy", "matchText": "viceroy", "type": "concept", "wikiSlug": "Viceroy" },
+    { "term": "Bourbons", "matchText": "Bourbons", "type": "group", "wikiSlug": "House_of_Bourbon" },
+    { "term": "Enlightenment", "matchText": "Enlightenment", "type": "concept", "wikiSlug": "Age_of_Enlightenment" },
+    { "term": "Quechua", "matchText": "Quechua", "type": "group", "wikiSlug": "Quechua_people" },
+    { "term": "American Revolution", "matchText": "American Revolution", "type": "event", "wikiSlug": "American_Revolution" },
+    { "term": "Túpac Amaru II", "matchText": "José Gabriel Condorcanqui", "type": "person", "wikiSlug": "Túpac_Amaru_II" },
+    { "term": "Túpac Amaru I", "matchText": "Túpac Amaru I", "type": "person", "wikiSlug": "Túpac_Amaru" },
+    { "term": "Minas Gerais", "matchText": "Minas Gerais", "type": "place", "wikiSlug": "Minas_Gerais" }
+  ],
+  "2": [
+    { "term": "free people of color", "matchText": "free people of color", "type": "group", "definition": "People of mixed African and European descent, or freed slaves, who had won or bought their liberty. In the Caribbean sugar colonies they occupied an uneasy middle rung between master and slave — many were property-owners and themselves slaveholders, and they would prove a decisive third force in the Haitian Revolution." },
+    { "term": "Taíno", "matchText": "Taíno", "type": "group", "definition": "The Indigenous people who lived across the Caribbean before Columbus and were all but wiped out by Spanish conquest and disease within a generation. When Haiti took its name in 1804 from an old Taíno word for the island, it was deliberately reaching back past the Europeans to the people who had been there first." },
+    { "term": "Enlightenment", "matchText": "Enlightenment", "type": "concept", "wikiSlug": "Age_of_Enlightenment" },
+    { "term": "Hispaniola", "matchText": "Hispaniola", "type": "place", "wikiSlug": "Hispaniola" },
+    { "term": "Cap-Français", "matchText": "Cap-Français", "type": "place", "wikiSlug": "Cap-Haïtien" },
+    { "term": "yellow fever", "matchText": "yellow fever", "type": "concept", "wikiSlug": "Yellow_fever" },
+    { "term": "Fort de Joux", "matchText": "Fort de Joux", "type": "place", "wikiSlug": "Fort_de_Joux" }
+  ],
+  "3": [
+    { "term": "junta", "matchText": "junta", "type": "concept", "wikiSlug": "Junta_(governing_body)" },
+    { "term": "Iberian Peninsula", "matchText": "Iberian Peninsula", "type": "place", "wikiSlug": "Iberian_Peninsula" },
+    { "term": "Cortes", "matchText": "Cortes", "type": "concept", "definition": "The old Spanish word for a representative parliament or assembly of the realm. When patriotic Spain convened the Cortes of Cádiz in 1810 under French siege, it revived this medieval institution as a modern national legislature — and invited American delegates to sit in it as equals." },
+    { "term": "sovereignty", "matchText": "sovereignty", "type": "concept", "wikiSlug": "Sovereignty" },
+    { "term": "prince regent", "matchText": "prince regent", "type": "concept", "definition": "A royal heir who rules in place of the reigning monarch when that monarch is unable to govern. The future John VI ruled Portugal as prince regent on behalf of his mother, Queen Maria I, who had been declared mentally incapacitated — and it was as regent that he fled the court to Brazil." },
+    { "term": "Charles IV", "matchText": "Charles IV", "type": "person", "wikiSlug": "Charles_IV_of_Spain" },
+    { "term": "Maria I", "matchText": "Queen Maria I", "type": "person", "wikiSlug": "Maria_I_of_Portugal" }
+  ],
+  "4": [
+    { "term": "American Revolution", "matchText": "American Revolution", "type": "event", "wikiSlug": "American_Revolution" },
+    { "term": "llaneros", "matchText": "llaneros", "type": "group", "wikiSlug": "Llanero" },
+    { "term": "Banda Oriental", "matchText": "Banda Oriental", "type": "place", "wikiSlug": "Banda_Oriental" },
+    { "term": "federal", "matchText": "federal", "type": "concept", "definition": "A system in which political power is spread among the provinces or states rather than concentrated in a central government. The First Venezuelan Republic adopted a loose federal structure at the moment it most needed unity to fight a war — a fatal weakness Bolívar would blame for its collapse." },
+    { "term": "Congress of Tucumán", "matchText": "Congress of Tucumán", "type": "event", "wikiSlug": "Congress_of_Tucumán" },
+    { "term": "Upper Peru", "matchText": "Upper Peru", "type": "place", "wikiSlug": "Upper_Peru" }
+  ],
+  "5": [
+    { "term": "British Legion", "matchText": "British Legion", "type": "group", "wikiSlug": "Albion_Legion" },
+    { "term": "Jamaica", "matchText": "Jamaica", "type": "place", "wikiSlug": "Jamaica" },
+    { "term": "Enlightenment", "matchText": "Enlightenment", "type": "concept", "wikiSlug": "Age_of_Enlightenment" },
+    { "term": "Napoleonic Wars", "matchText": "Napoleonic Wars", "type": "event", "wikiSlug": "Napoleonic_Wars" },
+    { "term": "Congress of Angostura", "matchText": "Angostura", "type": "event", "wikiSlug": "Congress_of_Angostura" },
+    { "term": "Viceroyalty of Peru", "matchText": "Viceroyalty of Peru", "type": "place", "wikiSlug": "Viceroyalty_of_Peru" }
+  ],
+  "6": [
+    { "term": "Thomas Cochrane", "matchText": "Thomas Cochrane", "type": "person", "wikiSlug": "Thomas_Cochrane,_10th_Earl_of_Dundonald" },
+    { "term": "Protector", "matchText": "Protector", "type": "concept", "definition": "The deliberately modest title San Martín took on declaring Peru's independence in 1821 — a temporary guardian-of-the-nation role rather than head of state. He chose it precisely because it claimed no permanent power and no crown, in keeping with his refusal to rule the lands he freed." },
+    { "term": "Cuyo", "matchText": "Cuyo", "type": "place", "definition": "The western Argentine frontier province around Mendoza, at the foot of the Andes. San Martín had himself appointed its governor and spent two years turning the whole province into a war machine — casting cannon, weaving uniforms, taxing and drilling — to build the Army of the Andes." },
+    { "term": "Peninsular War", "matchText": "Peninsular War", "type": "event", "wikiSlug": "Peninsular_War" },
+    { "term": "Cancha Rayada", "matchText": "Cancha Rayada", "type": "event", "wikiSlug": "Battle_of_Cancha_Rayada_(1818)" }
+  ],
+  "7": [
+    { "term": "president-for-life", "matchText": "president-for-life", "type": "concept", "definition": "The executive Bolívar wrote into the 1826 Bolivian Constitution: a president who would serve until death and effectively choose his own successor — a near-monarchy in republican dress. To Bolívar it was the strong, permanent hand the fractured new nations needed; to his critics it looked exactly like the king they had fought to abolish." },
+    { "term": "Spanish viceroy", "matchText": "Spanish viceroy", "type": "person", "definition": "José de la Serna, the last Spanish viceroy of Peru, who personally commanded the royalist army at Ayacucho in 1824. Captured on the field by Sucre, he signed the capitulation that surrendered all remaining Spanish forces in Peru, ending three centuries of Spanish rule on the South American continent." },
+    { "term": "Upper Peru", "matchText": "Upper Peru", "type": "place", "wikiSlug": "Upper_Peru" }
+  ],
+  "8": [
+    { "term": "Three Guarantees", "matchText": "Three Guarantees", "type": "concept", "definition": "The trio of promises at the heart of Iturbide's 1821 Plan of Iguala: independence from Spain, the supremacy and protection of the Catholic Church, and full legal equality between Spaniards and Americans. By reassuring conservatives, clergy, and insurgents all at once, the Three Guarantees built a coalition broad enough to win in months what a decade of war had not." },
+    { "term": "Inquisition", "matchText": "Inquisition", "type": "concept", "wikiSlug": "Spanish_Inquisition" },
+    { "term": "Enlightenment", "matchText": "Enlightenment", "type": "concept", "wikiSlug": "Age_of_Enlightenment" },
+    { "term": "Catholicism", "matchText": "Catholicism", "type": "concept", "wikiSlug": "Catholic_Church" },
+    { "term": "Virgin of Guadalupe", "matchText": "Virgin of Guadalupe", "type": "concept", "wikiSlug": "Virgin_of_Guadalupe" },
+    { "term": "gachupines", "matchText": "gachupines", "type": "group", "definition": "Mexican slang for the peninsulares — the Spanish-born colonists who held the empire's top offices. Hidalgo's Cry of Dolores called the rebels to rise against the hated gachupines, fixing the resentment of American-born Mexicans against the privileged newcomers from Spain." },
+    { "term": "Antonio López de Santa Anna", "matchText": "Antonio López de Santa Anna", "type": "person", "wikiSlug": "Antonio_López_de_Santa_Anna" }
+  ],
+  "9": [
+    { "term": "Algarve", "matchText": "Algarve", "type": "place", "definition": "The southernmost province of Portugal, traditionally named alongside Portugal proper in the crown's full title. When John VI raised Brazil to a co-equal kingdom in 1815, the new realm was styled the 'United Kingdom of Portugal, Brazil, and the Algarves' — a sign Brazil had grown out of colonial status without firing a shot." },
+    { "term": "regents", "matchText": "regents", "type": "concept", "definition": "The appointed officials who governed Brazil in the 1830s in the name of the boy-emperor Pedro II while he was still a child. Their turbulent decade of regional revolts nearly tore the young empire apart, which is partly why the political class rushed to crown Pedro II early, as a teenager, in 1840." },
+    { "term": "Banda Oriental", "matchText": "Banda Oriental", "type": "place", "wikiSlug": "Banda_Oriental" }
+  ],
+  "10": [
+    { "term": "caudillo", "matchText": "caudillo", "type": "concept", "wikiSlug": "Caudillo" },
+    { "term": "unitarians", "matchText": "unitarians", "type": "group", "definition": "In post-independence Argentina, the centralizing liberals of Buenos Aires who wanted political power concentrated in the capital. Their long struggle against the federalists — the provincial strongmen who wanted the provinces left autonomous — defined decades of civil war and delayed a unified Argentine nation until the 1860s." },
+    { "term": "federalists", "matchText": "federalists", "type": "group", "definition": "In post-independence Argentina, the provincial strongmen and their followers who wanted power left with the autonomous provinces rather than concentrated in Buenos Aires. Caudillos like Rosas rallied the rural gauchos under the federalist banner against the city liberals, the unitarians." },
+    { "term": "gauchos", "matchText": "gauchos", "type": "group", "wikiSlug": "Gaucho" },
+    { "term": "mazorca", "matchText": "mazorca", "type": "group", "definition": "The network of armed loyalist enforcers and secret police through which Juan Manuel de Rosas ruled Argentina — a terror apparatus that intimidated, beat, and murdered his suspected opponents, making open opposition to the caudillo deadly." },
+    { "term": "Domingo Faustino Sarmiento", "matchText": "Domingo Faustino Sarmiento", "type": "person", "wikiSlug": "Domingo_Faustino_Sarmiento" },
+    { "term": "Jamaica Letter", "matchText": "Jamaica Letter", "type": "concept", "wikiSlug": "Letter_from_Jamaica" }
+  ],
+  "11": [
+    { "term": "Atacama", "matchText": "Atacama", "type": "place", "wikiSlug": "Atacama_Desert" },
+    { "term": "nitrates", "matchText": "nitrates", "type": "concept", "definition": "Mineral salts mined from the Atacama desert, used both as crop fertilizer and to make gunpowder and explosives. Together with guano, nitrates were among the most valuable export commodities in the world before synthetic fertilizer — valuable enough that Chile, Peru, and Bolivia fought the War of the Pacific over the desert that held them." },
+    { "term": "guano", "matchText": "guano", "type": "concept", "definition": "Accumulated seabird droppings, a prized natural fertilizer in the age before synthetic chemicals. Vast coastal deposits gave Peru a mid-century 'guano boom' of state revenue, and the nitrate-and-guano wealth of the Atacama was the prize at stake in the War of the Pacific." },
+    { "term": "Ten Years' War", "matchText": "Ten Years' War", "type": "event", "wikiSlug": "Ten_Years'_War" },
+    { "term": "Isabel", "matchText": "Isabel", "type": "person", "wikiSlug": "Isabel,_Princess_Imperial_of_Brazil" }
+  ]
+}

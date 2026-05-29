@@ -1,0 +1,25 @@
+{
+  "1": [
+    { "matchText": "Cape Bojador", "targetTl": "age-of-exploration", "targetChapter": 3, "blurb": "The Portuguese creep down the African coast — Henry, Bojador, and the voyages that finally rounded it — is told from the explorers' side in the Age of Exploration narrative, where the same caravels that opened the spice route also brought back the first cargo of African captives." },
+    { "matchText": "Elmina", "targetTl": "age-of-exploration", "targetChapter": 3, "blurb": "Elmina began as a gold fort, and the gold it siphoned to the coast had until then flowed north across the desert as the backbone of the great Sahelian empires. The Age of Exploration narrative tells how the Portuguese forts on the Gold Coast joined gold, God, and the first enslaved Africans into one trade." },
+    { "matchText": "great Sahelian empires of Mali", "targetTl": "mali-empire", "targetChapter": 4, "blurb": "Before Elmina diverted West African gold to the Atlantic coast, that gold made Mali one of the richest realms on earth — most famously under Mansa Musa, whose legendary pilgrimage to Mecca scattered so much of it that he crashed the price of gold in Cairo for years." },
+    { "matchText": "Songhai", "targetTl": "songhai-empire", "targetChapter": 3, "blurb": "The Sahelian gold the Portuguese began siphoning to the coast had long been the economic backbone of Songhai, the great successor to Mali. The Songhai narrative follows its pilgrim-king Askia Muhammad and an empire whose own economy, like the Atlantic's, ran partly on enslaved labor." },
+    { "matchText": "Afonso I", "targetTl": "age-of-exploration", "targetChapter": 14, "blurb": "Afonso I of Kongo — the Christian king who learned to read Portuguese, sent his son to be a bishop in Europe, and then watched the slave trade depopulate his kingdom faster than he could rein it in — is told from the Portuguese side in the Age of Exploration narrative." }
+  ],
+  "3": [
+    { "matchText": "trans-Saharan slave trade", "targetTl": "songhai-empire", "targetChapter": 4, "blurb": "A Sahelian slaving economy can be seen in working order in the Songhai narrative, where enslaved people made up perhaps a quarter of the empire's population and slave caravans crossing the desert were a major export — the older trade the Atlantic ran alongside and then dwarfed." },
+    { "matchText": "Indian Ocean slave trade", "targetTl": "swahili-coast", "targetChapter": 8, "blurb": "On the other side of the continent, the Indian Ocean trade built its own plantation system, working tens of thousands of enslaved Africans on the clove estates of Zanzibar under Omani rule. The Swahili Coast narrative tells it — a second Atlantic-style plantation slavery, born late and far away." }
+  ],
+  "5": [
+    { "matchText": "cotton gin", "targetTl": "early-american-republic", "targetChapter": 13, "blurb": "The cotton gin's downstream story — the \"Second Slavery\" it unleashed just as the Atlantic trade was closing, marching enslaved labor west across the Deep South — is told in the Early American Republic narrative, where the gin turns a dying institution into the engine of a continental cotton empire." },
+    { "matchText": "domestic slave trade", "targetTl": "antebellum-america", "targetChapter": 9, "blurb": "The internal traffic that moved roughly a million enslaved people from the Upper South to the cotton frontier — the \"Second Middle Passage,\" tearing families apart by the coffle-load — is told in full in the Antebellum America narrative's account of the peculiar institution." }
+  ],
+  "8": [
+    { "matchText": "specter of Haiti", "targetTl": "latin-american-independence", "targetChapter": 2, "blurb": "Haiti's shadow fell across the whole hemisphere. The Latin American Independence narrative tells how the \"specter of Haiti\" — the example of a victorious slave revolt — haunted every Spanish-American liberator, and how the revolution's drain on France helped push Napoleon to sell Louisiana." }
+  ],
+  "9": [
+    { "matchText": "1808", "targetTl": "early-american-republic", "targetChapter": 13, "blurb": "The Early American Republic narrative notes the bitter irony that the 1808 ban on slave imports functioned almost like a protective tariff on American-born enslaved people — raising their price for Upper South sellers and feeding the very domestic trade it did nothing to stop." },
+    { "matchText": "Frederick Douglass", "targetTl": "antebellum-america", "targetChapter": 10, "blurb": "Douglass, Tubman, and the American abolition movement are narrated more fully in the Antebellum America narrative, where the formerly enslaved drive the fight against slavery from below in the decades before the Civil War finally settles it." },
+    { "matchText": "clung to slavery longer", "targetTl": "latin-american-independence", "targetChapter": 9, "blurb": "Brazil's own long road to abolition — monarchy, gradualist laws, and the Golden Law of 1888 that freed the last enslaved people in the Western Hemisphere — is told in the Latin American Independence narrative's account of Brazil's bloodless break from empire." }
+  ]
+}
