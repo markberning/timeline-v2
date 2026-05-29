@@ -63,7 +63,13 @@
       "id": "evt-hallstatt-origins",
       "label": "Hallstatt Culture Emerges",
       "year": -800,
-      "description": "The Hallstatt culture emerged in central Europe as the earliest identifiably Celtic civilization, characterized by iron working, salt mining, and elite burials.",
+      "description": "The Hallstatt culture is the first society we can confidently call Celtic — Iron Age chieftains scattered across the Alps and upper Danube around 800 BCE, rich enough to be buried with gold.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It isn't named after a people but after a single Austrian village, where in 1846 a mining engineer named Johann Georg Ramsauer dug up more than a thousand graves above a mirror-still mountain lake. The wealth came out of the ground: salt, traded down the Danube and Rhine, paid for the gold neck-rings, the four-wheeled funeral wagons, and the imported Greek bronzes these chieftains took to their graves. There was no single Celtic nation — just a loose family of warrior aristocracies bound by related languages, very good metalwork, and a shared appetite for feasting and display."
+        }
+      ],
       "wikiSlug": "Hallstatt_culture",
       "tier": 1,
       "tags": [],
@@ -73,7 +79,13 @@
       "id": "evt-hallstatt-salt-mines",
       "label": "Hallstatt Salt Mines",
       "year": -750,
-      "description": "The salt mines at Hallstatt in Austria generated enormous wealth for early Celtic communities, preserving remarkable archaeological artifacts in salt deposits.",
+      "description": "Deep under the Alps lay the world's oldest salt mine — and the salt that made the Celts rich also pickled everything that fell into it, turning the mine into an accidental time capsule.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The dark, bone-dry, salty air preserves organic matter that would normally rot in decades — including the oldest timber staircase ever found in Europe, built around 1344 BCE and still intact. It saved the miners' woolen caps, leather shoes, wooden tools, and even their fossilized feces (millet porridge and beans, it turns out). In 1734 three miners hauled out a fourth: the 'Man in Salt,' the body of a prehistoric worker so well cured by the brine that his skin, hair, and clothing were still recognizable thousands of years later."
+        }
+      ],
       "wikiSlug": "Hallstatt#History",
       "tier": 2,
       "tags": [],
@@ -83,7 +95,13 @@
       "id": "evt-hallstatt-elite-burials",
       "label": "Hallstatt Elite Burials",
       "year": -700,
-      "description": "Hallstatt chieftains were buried in wooden chambers under large tumuli with four-wheeled wagons, iron swords, bronze vessels, and imported Mediterranean luxuries reflecting their wealth and status.",
+      "description": "Hallstatt chieftains — and sometimes chieftain women — went into the ground in style: wooden chambers under huge earthen mounds, packed with wagons, gold, and wine gear for the afterlife.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grave was an argument made in objects: rich enough to bury your possessions instead of passing them on, powerful enough to command the labor for a mound you could see for miles, connected enough to own a vessel made in Greece or Etruria. The four-wheeled wagon is the giveaway — these were people who imagined eternity as a feast and made sure they arrived with the dishes. That women turn up in some of the richest of these graves is its own surprise, hinting at a society where status didn't run on gender the way it did across the Alps."
+        }
+      ],
       "wikiSlug": "Hallstatt_culture#Burials",
       "tier": 2,
       "tags": [],
@@ -93,7 +111,13 @@
       "id": "evt-hallstatt-dagger-type",
       "label": "Hallstatt Iron Swords",
       "year": -750,
-      "description": "Hallstatt smiths produced distinctive long iron slashing swords with elaborate hilts and scabbards, marking the transition from bronze to iron weaponry in Celtic Europe.",
+      "description": "By 750 BCE the Hallstatt elite carried a new kind of weapon — a long iron slashing sword built for a man on horseback, with a hilt as much about status as combat.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The classic 'Mindelheim' type is unusually long with a blunted tip — useless for fencing on foot, perfect for cutting down from horseback or a chariot, which is exactly who carried it. The pommels were small works of luxury, carved from bone, ivory, or amber and sometimes inlaid with gold and coral. Iron mattered beyond the blade: its ore was everywhere in central Europe, while bronze needed tin imported from as far as Cornwall — so switching to iron didn't just make sharper swords, it cut the Celtic elite loose from a fragile long-distance supply line."
+        }
+      ],
       "wikiSlug": "Hallstatt_culture#Swords",
       "tier": 3,
       "tags": [],
@@ -113,7 +137,13 @@
       "id": "evt-heuneburg",
       "label": "Heuneburg Hillfort",
       "year": -600,
-      "description": "The Heuneburg on the upper Danube was one of the earliest Celtic hillforts, featuring Mediterranean-style mudbrick walls — a unique adoption of southern building techniques north of the Alps.",
+      "description": "The Heuneburg on the upper Danube may be the first true city north of the Alps — and around 600 BCE its rulers wrapped it in a gleaming white wall copied straight from Greece.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Counting its sprawling outer settlement, perhaps 5,000 people lived here — an astonishing crowd for Iron Age Europe. The mudbrick-on-stone wall was an act of pure Mediterranean cosplay: central Europeans built in wood and earth, so the clay-working know-how had to be imported along with the idea, and the damp climate eventually rotted the whole experiment away. Some scholars think this is the place Herodotus meant when he wrote, around 450 BCE, that the Danube 'arises among the Celts and the city of Pyrene' — which would make the Heuneburg the first town in central Europe ever named in writing, by a Greek who never saw it."
+        }
+      ],
       "wikiSlug": "Heuneburg",
       "tier": 2,
       "tags": [],
@@ -123,7 +153,13 @@
       "id": "evt-celtic-expansion-iberia",
       "label": "Celtiberians in Spain",
       "year": -600,
-      "description": "Celtic peoples migrated into the Iberian Peninsula and merged with local populations to form the Celtiberian culture of central and western Spain.",
+      "description": "Celts who pushed into Spain merged with the locals to become the Celtiberians — a people of mixed blood whose signature weapon Rome would later steal and make its own.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their short, double-edged iron sword was so good at both stabbing and slashing that the Romans, after meeting it in the hands of Celtiberian mercenaries in the Second Punic War, copied it wholesale — and called it the gladius hispaniensis, the 'Spanish sword.' That weapon, borrowed from a Celtic frontier people, became the standard blade of the Roman legions and one of the most iconic swords in history. The Celtiberians were neither fully Celtic nor fully Iberian but a genuine hybrid, right down to a culture that absorbed influences from both sides of the Pyrenees."
+        }
+      ],
       "wikiSlug": "Celtiberians",
       "tier": 2,
       "tags": [],
@@ -133,7 +169,13 @@
       "id": "evt-lepontic-inscriptions",
       "label": "Lepontic Inscriptions",
       "year": -600,
-      "description": "The Lepontic inscriptions from northern Italy are among the oldest Celtic texts, written in a variant of the Etruscan alphabet and representing the earliest known Celtic writing.",
+      "description": "The oldest surviving scraps of any Celtic language come not from the Celtic heartland but from northern Italy — Celts who learned to write by borrowing the Etruscans' alphabet.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The earliest known example, from Castelletto Ticino, dates to around 575 BCE and marks a grave — fittingly, the first Celtic writing we have is an epitaph. The script is the Lugano alphabet, an eighteen-letter local variant lifted from the archaic Etruscan one, which is why these Po Valley Celts are scribbling in stone while their cousins up north stay wordless. That's the deeper point: the Celts closest to the literate Mediterranean were the only ones who bothered to write at all — and the northern druids would later make a religion of refusing to (Chapter 5)."
+        }
+      ],
       "wikiSlug": "Lepontic_language",
       "tier": 2,
       "tags": [],
@@ -143,7 +185,13 @@
       "id": "evt-celtic-wine-trade",
       "label": "Mediterranean Wine Trade",
       "year": -600,
-      "description": "Celtic elites imported vast quantities of wine from Greek and Etruscan traders, exchanging metals, furs, and slaves in a thriving cross-cultural commerce.",
+      "description": "From the 500s BCE, Mediterranean merchants shipped wine north over the Alps by the boatload — and the Celtic elite drank it with something close to religious devotion.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Wine wasn't a luxury on the side; it was the engine of the whole status system, which is why imported amphorae and elaborate bronze wine-mixing vessels turn up as the centerpiece of chieftains' graves rather than as afterthoughts. What flowed south to pay for it tells you how this world worked: tin, copper, furs, hides, Baltic amber — and, above all, slaves. The Greeks and Etruscans weren't just selling drink; they were exporting a whole performance of aristocratic feasting, and the Celts bought the script along with the wine."
+        }
+      ],
       "wikiSlug": "Hallstatt_culture#Trade",
       "tier": 2,
       "tags": [],
@@ -153,7 +201,13 @@
       "id": "evt-golasecca-culture",
       "label": "Golasecca Celtic Culture",
       "year": -600,
-      "description": "The Golasecca culture in northern Italy represented a Celtic-speaking population in the Po Valley who served as intermediaries between the Mediterranean world and transalpine Celtic communities.",
+      "description": "The Golasecca culture sat exactly where the Ticino river leaves Lake Maggiore — the perfect chokepoint to grow rich getting Mediterranean goods over the Alps and Celtic goods down to Italy.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These were the middlemen of the ancient world: Etruscan and Greek wine, oil, painted pottery, coral, and incense moved north through their hands, while tin for bronze and Baltic amber came south — and the salt trade ran straight through them too. The river Ticino was their highway, and by the 5th century BCE their main town had become the chief marketplace where Etruscans and the transalpine Celts did business. They didn't need to make much themselves; controlling the route was the whole business model."
+        }
+      ],
       "wikiSlug": "Golasecca_culture",
       "tier": 3,
       "tags": [],
@@ -163,7 +217,13 @@
       "id": "evt-hochdorf-burial",
       "label": "Hochdorf Chieftain's Grave",
       "year": -530,
-      "description": "A Celtic chieftain was buried at Hochdorf near Stuttgart with a bronze couch, gold shoes, a cauldron of mead, and a four-wheeled wagon — one of the richest intact Hallstatt burials ever found.",
+      "description": "Discovered intact near Stuttgart in 1978, the Hochdorf chieftain (a man over six feet tall, around 530 BCE) was laid out for an eternal party — on a bronze couch, in gold-plated shoes.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He reclined on a wheeled bronze couch nine feet long, wearing a gold neck-ring, gold-plated shoes, and — the human touch — a tall conical hat made of birch bark. At the foot of the couch sat a Greek bronze cauldron ringed by three lions, once holding around 100 gallons of mead. Hung on the wall were nine drinking horns and a wagon's worth of bronze dishes: place settings for nine, so the dead chieftain could host a feast in the afterlife and never drink alone."
+        }
+      ],
       "wikiSlug": "Hochdorf_Chieftain%27s_Grave",
       "tier": 2,
       "tags": [],
@@ -183,7 +243,13 @@
       "id": "evt-vix-burial",
       "label": "Vix Burial",
       "year": -500,
-      "description": "The lavish burial of a Celtic woman at Vix in France contained a massive Greek bronze krater — the largest known from antiquity — demonstrating elite Celtic connections to Mediterranean trade.",
+      "description": "Around 500 BCE a Celtic woman was buried in Burgundy beside the largest bronze vessel to survive from all of antiquity — and nobody is sure who she was to deserve it.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Vix krater stands over five feet tall, weighs 460 pounds (208 kg), and could hold more than 1,100 liters of wine — its three handles each shaped into a grimacing Gorgon supported by a rampant lioness. It was hammered in a Greek workshop in southern Italy and somehow hauled over the Alps to eastern France, a feat of logistics for a single ornament. The woman wore a 480-gram solid-gold torc, yet her exact rank — queen, priestess, chieftain's daughter — remains unknown; the Greeks, who kept respectable women indoors, would have been baffled that a woman commanded this much wealth at all."
+        }
+      ],
       "wikiSlug": "Vix_Grave",
       "tier": 1,
       "tags": [],
@@ -495,7 +561,13 @@
       "id": "evt-amber-trade",
       "label": "Celtic Amber Trade",
       "year": -600,
-      "description": "Celtic communities along the Amber Road linked Baltic amber sources to Mediterranean markets, with amber jewelry found in Hallstatt burials alongside Greek bronzes and Etruscan imports.",
+      "description": "Long before the Celts, amber — fossilized tree resin, glowing gold and warm to the touch — flowed south from the Baltic to the Mediterranean, and Celtic middlemen taxed every mile of it.",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Amber Road ran the whole north–south length of Europe, from the Baltic coast down to the head of the Adriatic near modern Venice, and amber had been making that journey since at least the 1500s BCE. It was prized far beyond Europe: Baltic amber beads turn up in the burial treasure of the pharaoh Tutankhamun, who died around 1323 BCE, having traveled thousands of miles to reach Egypt. For the Hallstatt Celts the appeal was simpler — sitting astride the route, they could skim a profit off other people's gold without mining a thing."
+        }
+      ],
       "wikiSlug": "Amber_Road",
       "tier": 3,
       "tags": [],
