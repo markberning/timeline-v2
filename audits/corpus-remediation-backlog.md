@@ -239,6 +239,24 @@ text flags** — not "G10 is $$$, defer." Treat the text pass as nearly-Tier-A.
 | 6 | Density backfill | 559 sub-10 chapters, 98/100 civs | **Worst-only + accept rest as legacy** | ☐ |
 | 10 | Term-precision sweep | Scandinavia≠Nordic class corpus-wide | Opportunistic, not a campaign | ☐ |
 | 19 | **Chapter-intro retrofit (G13)** | 102 civs, no `.intros.json` yet | **Committed campaign — author all, user-approved 2026-05-19** | ☑ **DONE + DEPLOYED 2026-05-28** — all 102 civs authored + 3-gated (lint-intros --strict + fact-checker + voice critic) in 21 waves; intro-baseline 102→0; ~40 accuracy slips caught & fixed; live on prod (Version `eebb9698`, commit `c2029e3`). |
+| 20 | **Event-link popup enrichment** | corpus-wide (every event link) | **Committed campaign — user-requested 2026-05-28** | ☐ |
+
+**#20 — Event-link popup enrichment (user direction, 2026-05-28).** Event links
+currently render in the EventSheet as a fairly bare card (a gray wiki/self-written
+blurb + whatever `enrich-events.mjs` happened to pull). The user wants every event
+link to be *more engaging than a plain gray link*: **(a) carry a photo unless
+genuinely impractical** (born-verified, subject-correct — same image-rights/quality
+bar as everywhere else; a missing image beats a wrong one), and **(b) more robust
+writing** — the popup text should be a real house-voice mini-blurb, not a terse
+stub or a raw Wikipedia extract dump. Scope: corpus-wide reader-surface upgrade,
+not a one-civ fix. Two work-streams: an **image-coverage pass** (which event
+popups lack a photo; can one be sourced + verified; flag the impractical ones) and
+a **copy pass** (rewrite thin/auto-extracted popup text to the house voice).
+Applies to the 14 new civs being built now too — so worth specifying the richer
+standard before they all ship, the same way the intro/manifesto features were
+locked before their backfills. Born-verified image doctrine still holds: confirm
+the photo matches the subject at creation, never ship a wrong/duplicate picture.
+NOT started; sequencing vs the new-civ build + Tier B TBD.
 
 **#19 is a committed feature backfill, NOT standard drift to tolerate.** The
 chapter-intro framing card + G13 gate (`lint-intros.ts`) shipped 2026-05-19;
