@@ -108,6 +108,14 @@ check('lint-intros --strict', () => { sh('npx', ['tsx', 'scripts/lint-intros.ts'
 // civs block. Triage each: link it, or waive in .link-waivers-<tl>.json.
 check('link-coverage --strict', () => { sh('npx', ['tsx', 'scripts/link-coverage.ts', `--tl=${tlId}`, '--strict']); return 'no new uncovered terms' })
 
+// 5b. Event-popup 2-part "explore further" card (G14). Every surfaced event
+// carries description + a non-empty "Explore further" details entry (CLAUDE
+// step 0; celtic ch1 reference pilot). Shape only — born-verified facts are a
+// creation step, and the popup photo is gated by fix-links --strict (step 13).
+// Legacy civs grandfathered in audits/event-card-baseline.json; a civ NOT in
+// the baseline (every new civ + every swept civ) is zero-tolerance.
+check('lint-event-cards --strict', () => { sh('npx', ['tsx', 'scripts/lint-event-cards.ts', `--tl=${tlId}`, '--strict']); return '2-part cards present' })
+
 // 6. Chapter flow (G6) — no Persona-D WEAK/REWRITE, no "no" build dependency.
 check('audit: no WEAK/REWRITE, no broken build-dependency', () => {
   const a = join(ROOT, 'audits', `${tlId}.audit.md`)
