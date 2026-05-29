@@ -1,0 +1,1471 @@
+{
+  "id": "medieval-japan",
+  "label": "Medieval Japan",
+  "type": "civilization",
+  "region": "asia",
+  "source": "curated",
+  "wikiSlug": "History_of_Japan",
+  "imageWikiSlug": "Kamakura,_Kanagawa",
+  "pitch": "For four centuries the emperor in Kyoto kept his throne, his court, and his sacred aura — and almost none of the actual power. In 1185 a warrior named Minamoto no Yoritomo won a civil war and invented a second government, a military regime called the shogunate (or bakufu, \"tent government\"), and Japan spent the next four hundred years run by men with swords while the emperor reigned without ruling. It is the age of the samurai: the Mongol invasions and the \"divine wind\" that wrecked Kublai Khan's fleets; Zen monasteries, the tea ceremony, ink painting, and Noh theater; a ten-year war that burned Kyoto to the ground and detonated the Sengoku — the Warring States century, when the country shattered into dozens of warlord domains and lords were overthrown by their own retainers. Out of that chaos three men reunified Japan one ruthless step at a time: Oda Nobunaga, who broke the old order with matchlock guns; Toyotomi Hideyoshi, a peasant's son who finished the conquest and then invaded Korea; and Tokugawa Ieyasu, who won the gambler's battle at Sekigahara in 1600 and took the title of shogun in 1603, founding the regime that would seal Japan shut for 250 years.\n\n🔑 Key Facts:\n• \"Shogun\" was a real, emperor-granted title (sei-i taishōgun, \"barbarian-subduing great general\"), but the shogun, not the emperor, ran the country — a deliberate two-headed system that lasted, in various forms, almost 700 years.\n• The Mongols invaded twice (1274 and 1281) with the largest seaborne forces the world had yet seen; typhoons the Japanese called kamikaze (\"divine wind\") helped wreck both fleets.\n• The Ōnin War (1467–1477) burned the capital Kyoto to ash and kicked off the Sengoku, a century in which gekokujō — \"the low overthrowing the high\" — became the rule, not the exception.\n• Three unifiers in sequence — Nobunaga, Hideyoshi, Ieyasu — put the country back together; Ieyasu's victory at Sekigahara (1600) and his shogunate (1603) end the medieval age and begin Edo Japan.\n\n🤔 Why It Matters: This is where the samurai, the shogun, the daimyō, the castle town, Zen aesthetics, and the tea ceremony all become the things the world now pictures when it pictures \"old Japan\" — and it is a centuries-long case study in what happens when a society keeps its sacred king but hands the real power to a warrior class.",
+  "countryIds": [],
+  "spans": [
+    {
+      "id": "span-medieval-japan-kamakura",
+      "label": "The Kamakura Shogunate",
+      "startYear": 1185,
+      "endYear": 1333,
+      "description": "Minamoto no Yoritomo invents the warrior government at Kamakura; after his line dies out the Hōjō regents rule behind it and survive the Mongol invasions.",
+      "wikiSlug": "Kamakura_shogunate"
+    },
+    {
+      "id": "span-medieval-japan-mongol",
+      "label": "The Mongol Invasions",
+      "startYear": 1274,
+      "endYear": 1281,
+      "description": "Kublai Khan's Yuan empire launches two vast seaborne invasions; both are broken by Japanese defense and the typhoons later mythologized as the kamikaze, the divine wind.",
+      "wikiSlug": "Mongol_invasions_of_Japan"
+    },
+    {
+      "id": "span-medieval-japan-kemmu",
+      "label": "The Kemmu Restoration and the Schism",
+      "startYear": 1333,
+      "endYear": 1392,
+      "description": "Emperor Go-Daigo destroys the Kamakura shogunate and tries to rule directly; Ashikaga Takauji turns on him, founds a new shogunate, and splits the country into rival Northern and Southern courts.",
+      "wikiSlug": "Kenmu_Restoration"
+    },
+    {
+      "id": "span-medieval-japan-muromachi",
+      "label": "The Ashikaga (Muromachi) Shogunate",
+      "startYear": 1336,
+      "endYear": 1467,
+      "description": "The Ashikaga shoguns rule from the Muromachi district of Kyoto, presiding over a brilliant Zen-infused culture even as their grip on the provinces steadily weakens.",
+      "wikiSlug": "Ashikaga_shogunate"
+    },
+    {
+      "id": "span-medieval-japan-higashiyama",
+      "label": "Zen, Tea, and the Higashiyama Culture",
+      "startYear": 1397,
+      "endYear": 1490,
+      "description": "Under the Ashikaga, Zen Buddhism, ink painting, the tea ceremony, Noh theater, and dry gardens fuse into the aesthetic the world now thinks of as classically Japanese.",
+      "wikiSlug": "Higashiyama_culture"
+    },
+    {
+      "id": "span-medieval-japan-sengoku",
+      "label": "The Sengoku (Warring States)",
+      "startYear": 1467,
+      "endYear": 1568,
+      "description": "The Ōnin War burns Kyoto and shatters central authority; for a century rival daimyō warlords fight for survival and supremacy, and underlings overthrow their lords.",
+      "wikiSlug": "Sengoku_period"
+    },
+    {
+      "id": "span-medieval-japan-unification",
+      "label": "The Three Unifiers",
+      "startYear": 1568,
+      "endYear": 1603,
+      "description": "Oda Nobunaga, Toyotomi Hideyoshi, and Tokugawa Ieyasu reunify Japan in sequence, ending at Sekigahara (1600) and the founding of the Tokugawa shogunate (1603).",
+      "wikiSlug": "Azuchi%E2%80%93Momoyama_period"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-medieval-japan-001",
+      "label": "The Genpei War begins",
+      "year": 1180,
+      "description": "The Minamoto and Taira warrior clans go to war over control of the imperial court, the conflict that the war tales would turn into Japan's founding samurai epic.",
+      "wikiSlug": "Genpei_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-002",
+      "label": "Battle of Dan-no-ura",
+      "year": 1185,
+      "description": "Minamoto no Yoshitsune annihilates the Taira fleet in a sea battle in the Shimonoseki Strait; the child-emperor Antoku drowns, ending the Genpei War.",
+      "wikiSlug": "Battle_of_Dan-no-ura",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-003",
+      "label": "Minamoto no Yoritomo establishes Kamakura rule",
+      "year": 1185,
+      "description": "Victorious in the Genpei War, Yoritomo sets up his warrior government far from the court at Kamakura and begins planting his own military stewards and constables across the provinces.",
+      "wikiSlug": "Minamoto_no_Yoritomo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-004",
+      "label": "Death of Minamoto no Yoshitsune",
+      "year": 1189,
+      "description": "Yoritomo's brilliant younger brother and battlefield genius is hunted down and forced to suicide by Yoritomo himself, the tragic hero whose legend grew larger than the victor's.",
+      "wikiSlug": "Minamoto_no_Yoshitsune",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-005",
+      "label": "Yoritomo named sei-i taishōgun",
+      "year": 1192,
+      "description": "The emperor grants Yoritomo the title of \"barbarian-subduing great general\" — shogun — formalizing a military government that would shadow the throne for nearly 700 years.",
+      "wikiSlug": "Sh%C5%8Dgun",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-006",
+      "label": "Eisai brings Rinzai Zen to Japan",
+      "year": 1191,
+      "description": "The monk Eisai returns from China and founds the Rinzai school of Zen Buddhism, the meditation-centered sect that would captivate the warrior class and reshape Japanese art.",
+      "wikiSlug": "Eisai",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-007",
+      "label": "Eisai brings tea-drinking culture from China",
+      "year": 1191,
+      "description": "Eisai also brought back tea seeds and the practice of drinking powdered green tea (matcha) as a monastic aid to meditation, the seed of what became the tea ceremony.",
+      "wikiSlug": "Japanese_tea_ceremony",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-008",
+      "label": "Hōnen founds Pure Land Buddhism (Jōdo-shū)",
+      "year": 1175,
+      "description": "The monk Hōnen teaches that simply chanting the name of the Buddha Amida (the nembutsu) brings salvation, opening Buddhism to ordinary farmers and townsfolk.",
+      "wikiSlug": "H%C5%8Dnen",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-009",
+      "label": "Shinran and True Pure Land Buddhism",
+      "year": 1224,
+      "description": "Hōnen's disciple Shinran founds Jōdo Shinshū (True Pure Land), the populist sect that would later arm itself and fight warlords as the Ikkō-ikki leagues.",
+      "wikiSlug": "Shinran",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-010",
+      "label": "Hōjō regency established",
+      "year": 1203,
+      "description": "After Yoritomo's death his widow Hōjō Masako's family seizes the real power, ruling as shikken (regents) behind a string of figurehead shoguns — power behind power behind power.",
+      "wikiSlug": "H%C5%8Dj%C5%8D_clan",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-011",
+      "label": "Hōjō Masako, the \"nun shogun\"",
+      "year": 1219,
+      "description": "Yoritomo's formidable widow, a Buddhist nun after his death, steered the Kamakura regime through assassinations and rebellion and rallied its warriors against the court.",
+      "wikiSlug": "H%C5%8Dj%C5%8D_Masako",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-012",
+      "label": "The Jōkyū War",
+      "year": 1221,
+      "description": "The retired emperor Go-Toba tries to overthrow the Kamakura regime by force and is crushed; the Hōjō exile three emperors and prove the warriors now outrank the throne.",
+      "wikiSlug": "J%C5%8Dky%C5%AB_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-013",
+      "label": "The Jōei Code (Goseibai Shikimoku)",
+      "year": 1232,
+      "description": "Hōjō Yasutoki issues the first warrior law code, a practical set of rules for samurai land disputes and conduct that became the model for centuries of military law.",
+      "wikiSlug": "Goseibai_Shikimoku",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-014",
+      "label": "Dōgen founds Sōtō Zen",
+      "year": 1244,
+      "description": "The monk Dōgen establishes the Sōtō school of Zen and the Eihei-ji temple, emphasizing seated meditation (zazen) and writing one of the masterworks of Japanese philosophy.",
+      "wikiSlug": "D%C5%8Dgen",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-015",
+      "label": "Nichiren and the Lotus Sutra",
+      "year": 1253,
+      "description": "The fiery monk Nichiren founds a uniquely Japanese sect built on devotion to the Lotus Sutra, denounces all rivals, and predicts a foreign invasion that soon arrives.",
+      "wikiSlug": "Nichiren",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-016",
+      "label": "Kublai Khan demands Japan submit",
+      "year": 1268,
+      "description": "The Mongol emperor of China, Kublai Khan, sends envoys ordering Japan to become a tributary; the Hōjō regent Tokimune refuses and even has later envoys beheaded.",
+      "wikiSlug": "Kublai_Khan",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-017",
+      "label": "Hōjō Tokimune, the regent who defied the Khan",
+      "year": 1268,
+      "description": "The young Hōjō regent who organized the defense of Japan against the Mongols and was a devoted patron of Rinzai Zen, founding the great temple Engaku-ji.",
+      "wikiSlug": "H%C5%8Dj%C5%8D_Tokimune",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-018",
+      "label": "First Mongol invasion (Bun'ei)",
+      "year": 1274,
+      "description": "A Yuan fleet of hundreds of ships lands at Hakata Bay, shocks the samurai with massed crossbows and exploding bombs, then withdraws — wrecked, the tales say, by a sudden storm.",
+      "wikiSlug": "Mongol_invasions_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-019",
+      "label": "Defensive wall built at Hakata Bay",
+      "year": 1276,
+      "description": "Expecting Kublai Khan to return, the Japanese build a stone defensive wall (genkō bōrui) around Hakata Bay, one of medieval Japan's great public-works feats.",
+      "wikiSlug": "Genk%C5%8D_B%C5%8Drui",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-020",
+      "label": "Second Mongol invasion (Kōan)",
+      "year": 1281,
+      "description": "Kublai Khan launches the largest seaborne invasion the world had yet seen, perhaps 140,000 men; held off the beaches for weeks, the fleet is destroyed by a typhoon.",
+      "wikiSlug": "Mongol_invasions_of_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-021",
+      "label": "The kamikaze, the \"divine wind\"",
+      "year": 1281,
+      "description": "The typhoons that wrecked both Mongol fleets were remembered as kamikaze, divine winds sent by the gods to protect Japan — a myth with a very long and dark afterlife.",
+      "wikiSlug": "Kamikaze_(typhoon)",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-022",
+      "label": "Takezaki Suenaga commissions the Mōko Shūrai Ekotoba",
+      "year": 1293,
+      "description": "A samurai who fought the Mongols pays for an illustrated scroll of his deeds to press his reward claim — the invasions' most vivid eyewitness picture and a window into samurai rewards.",
+      "wikiSlug": "M%C5%8Dko_Sh%C5%ABrai_Ekotoba",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-023",
+      "label": "The reward crisis weakens Kamakura",
+      "year": 1290,
+      "description": "Because the Mongol wars conquered no land, the Hōjō had nothing to pay the warriors who had ruined themselves defending Japan; the resentment slowly corroded the regime.",
+      "wikiSlug": "Kamakura_shogunate",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-024",
+      "label": "The Einin Debt Cancellation Edict",
+      "year": 1297,
+      "description": "Desperate to save indebted samurai, the Hōjō cancel their debts by decree (tokusei) — a measure that briefly relieved warriors but wrecked the lenders and the regime's credit.",
+      "wikiSlug": "Tokusei",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-025",
+      "label": "The kenmon system: court, temple, warrior",
+      "year": 1250,
+      "description": "Medieval Japan was run by three overlapping power blocs (kenmon) — the imperial court, the great temples, and the warrior government — none able to dominate the others.",
+      "wikiSlug": "Kenmon",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-026",
+      "label": "The shōen estate system",
+      "year": 1200,
+      "description": "Most land was tied up in tax-exempt private estates (shōen) layered with overlapping rights; untangling who really owned what was the central legal headache of the age.",
+      "wikiSlug": "Sh%C5%8Den",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-027",
+      "label": "The way of the bow and horse (kyūba no michi)",
+      "year": 1200,
+      "description": "Before the word bushidō existed, the warrior ideal was the \"way of the bow and horse\" — a mounted archer's code of loyalty, honor, and shame, not yet the polished myth of later centuries.",
+      "wikiSlug": "Bushido",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-028",
+      "label": "Kamakura sculpture: Unkei and the Niō",
+      "year": 1203,
+      "description": "The sculptor Unkei carves the colossal guardian statues at Tōdai-ji's great gate, the muscular, dynamic realism that defined the new warrior age's taste in art.",
+      "wikiSlug": "Unkei",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-029",
+      "label": "The Kamakura Daibutsu cast",
+      "year": 1252,
+      "description": "The Great Buddha of Kamakura, a bronze statue over 40 feet tall, is cast; the hall that once housed it was later swept away, leaving the figure to sit serenely in the open air.",
+      "wikiSlug": "K%C5%8Dtoku-in",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-030",
+      "label": "The Azuma Kagami compiled",
+      "year": 1300,
+      "description": "The official chronicle of the Kamakura shogunate, the Azuma Kagami (\"Mirror of the East\"), is set down — the regime's own diary, and thus its own spin on events.",
+      "wikiSlug": "Azuma_Kagami",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-031",
+      "label": "Emperor Go-Daigo takes the throne",
+      "year": 1318,
+      "description": "An unusually ambitious emperor determined to rule in fact and not just in name, Go-Daigo began plotting almost immediately to destroy the Kamakura shogunate.",
+      "wikiSlug": "Emperor_Go-Daigo",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-032",
+      "label": "Kusunoki Masashige's guerrilla defense",
+      "year": 1333,
+      "description": "A brilliant low-ranking commander loyal to Go-Daigo, Kusunoki Masashige held mountain fortresses against huge Hōjō armies and became Japan's model of the perfect loyal warrior.",
+      "wikiSlug": "Kusunoki_Masashige",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-033",
+      "label": "Ashikaga Takauji defects to the emperor",
+      "year": 1333,
+      "description": "Sent by the Hōjō to crush Go-Daigo's rebellion, the powerful general Ashikaga Takauji instead switched sides and captured Kyoto, dooming the Kamakura regime.",
+      "wikiSlug": "Ashikaga_Takauji",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-034",
+      "label": "Nitta Yoshisada storms Kamakura",
+      "year": 1333,
+      "description": "The warrior Nitta Yoshisada breaks into Kamakura; the last Hōjō regent and hundreds of his clan commit mass suicide, ending 148 years of Kamakura rule.",
+      "wikiSlug": "Nitta_Yoshisada",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-035",
+      "label": "The Kemmu Restoration",
+      "year": 1333,
+      "description": "Go-Daigo restores direct imperial rule and tries to govern without the warriors — an idealistic, badly run experiment that alienated the very samurai who had won him the throne.",
+      "wikiSlug": "Kenmu_Restoration",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-036",
+      "label": "Takauji turns on Go-Daigo",
+      "year": 1336,
+      "description": "Snubbed and unpaid, Ashikaga Takauji rebels against the emperor he had served, defeats the loyalists, and installs a rival emperor of his own choosing in Kyoto.",
+      "wikiSlug": "Ashikaga_Takauji",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-037",
+      "label": "Battle of Minatogawa and Kusunoki's death",
+      "year": 1336,
+      "description": "Ordered into a hopeless battle by Go-Daigo, the loyal Kusunoki Masashige fights and dies as commanded — the loyalty-unto-death story later Japan would venerate above all others.",
+      "wikiSlug": "Battle_of_Minatogawa",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-038",
+      "label": "The Northern and Southern Courts split",
+      "year": 1336,
+      "description": "Go-Daigo flees south to Yoshino and sets up a rival imperial court, beginning a 56-year era in which Japan had two emperors and two legitimacies at war.",
+      "wikiSlug": "Nanboku-ch%C5%8D_period",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-039",
+      "label": "Ashikaga Takauji becomes shogun",
+      "year": 1338,
+      "description": "Takauji takes the title of shogun and founds the Ashikaga (or Muromachi) shogunate, the second warrior government, this time based in the capital itself.",
+      "wikiSlug": "Ashikaga_shogunate",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-040",
+      "label": "The Kemmu Code issued",
+      "year": 1336,
+      "description": "Takauji's new regime publishes a set of governing principles, signaling a return to pragmatic warrior rule after Go-Daigo's failed court revival.",
+      "wikiSlug": "Kenmu_Code",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-041",
+      "label": "The Jinnō Shōtōki written",
+      "year": 1339,
+      "description": "Kitabatake Chikafusa, a Southern Court loyalist, writes a history arguing the legitimacy of Go-Daigo's line and the divine descent of Japan's emperors — political theology as history.",
+      "wikiSlug": "Jinn%C5%8D_Sh%C5%8Dt%C5%8Dki",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-042",
+      "label": "Musō Soseki and the Zen temple network",
+      "year": 1339,
+      "description": "The great Zen master and garden designer Musō Soseki advises the Ashikaga, designs the moss garden of Saihō-ji, and helps build the gozan, the official ranked network of Zen temples.",
+      "wikiSlug": "Mus%C5%8D_Soseki",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-043",
+      "label": "The Gozan: the Five Mountains system",
+      "year": 1342,
+      "description": "The Ashikaga organize the leading Rinzai Zen temples into an official ranked hierarchy (gozan, \"Five Mountains\") that became a hub of learning, ink painting, and Chinese trade.",
+      "wikiSlug": "Five_Mountain_System",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-044",
+      "label": "The Tenryū-ji trade ships to China",
+      "year": 1342,
+      "description": "To fund building the Tenryū-ji temple, the Ashikaga send official trade ships to Yuan China, reviving and regularizing the lucrative cultural and commercial exchange.",
+      "wikiSlug": "Tenry%C5%AB-ji",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-045",
+      "label": "Ashikaga Yoshimitsu becomes shogun",
+      "year": 1368,
+      "description": "The third Ashikaga shogun, a political genius who would crush rival lords, end the court schism, and preside over a cultural golden age from his villa at Kitayama.",
+      "wikiSlug": "Ashikaga_Yoshimitsu",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-046",
+      "label": "The shugo become provincial warlords",
+      "year": 1360,
+      "description": "The military governors (shugo) the Ashikaga appointed over the provinces gradually turned their offices into hereditary regional power bases — the shugo-daimyō, seeds of later warlordism.",
+      "wikiSlug": "Shugo",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-047",
+      "label": "The wakō pirate raids",
+      "year": 1350,
+      "description": "Mixed Japanese and continental sea-raiders (wakō) plundered the coasts of Korea and China for two centuries, a chronic diplomatic crisis the shoguns could never fully control.",
+      "wikiSlug": "Wokou",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-048",
+      "label": "The Northern and Southern Courts reunited",
+      "year": 1392,
+      "description": "Yoshimitsu ends the 56-year imperial schism by persuading the Southern emperor to abdicate, on a promise (soon broken) that the two lines would alternate the throne.",
+      "wikiSlug": "Nanboku-ch%C5%8D_period",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-049",
+      "label": "The Golden Pavilion (Kinkaku-ji) built",
+      "year": 1397,
+      "description": "Yoshimitsu builds a gold-leaf-covered retirement villa at Kitayama, the Golden Pavilion, the dazzling symbol of the Ashikaga cultural peak.",
+      "wikiSlug": "Kinkaku-ji",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-050",
+      "label": "Yoshimitsu opens the tally trade with Ming China",
+      "year": 1404,
+      "description": "Yoshimitsu accepts the title \"King of Japan\" from the Ming emperor to open the licensed kangō (tally) trade — a stunning humbling of Japanese pride for the sake of Chinese copper and silk.",
+      "wikiSlug": "Imperial_Chinese_tributary_system",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-051",
+      "label": "Zeami perfects Noh theater",
+      "year": 1400,
+      "description": "Under Yoshimitsu's patronage, the actor-playwright Zeami transforms the rough sarugaku entertainments into Noh, a slow, masked, intensely refined musical drama, and writes its secret treatises.",
+      "wikiSlug": "Zeami_Motokiyo",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-052",
+      "label": "Kan'ami, the founder of Noh",
+      "year": 1374,
+      "description": "Zeami's father Kan'ami, a brilliant performer, caught the young shogun Yoshimitsu's eye and won the patronage that lifted Noh from village theater to high art.",
+      "wikiSlug": "Kan%27ami",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-053",
+      "label": "The Taiheiki war chronicle",
+      "year": 1370,
+      "description": "A sprawling, semi-fictional military chronicle of Go-Daigo's age and the rise of the Ashikaga, the Taiheiki shaped how later Japan remembered the whole era — heroes, traitors, and all.",
+      "wikiSlug": "Taiheiki",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-054",
+      "label": "Ink painting (suiboku-ga) flourishes",
+      "year": 1400,
+      "description": "Zen monks bring Chinese-style monochrome ink painting to Japan; landscapes done in nothing but graded black ink became the era's most prized art form.",
+      "wikiSlug": "Ink_wash_painting",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-055",
+      "label": "Sesshū Tōyō, master of ink landscape",
+      "year": 1467,
+      "description": "The painter-monk Sesshū traveled to Ming China and returned to create Japan's greatest ink landscapes, bending the borrowed Chinese style into something unmistakably Japanese.",
+      "wikiSlug": "Sessh%C5%AB_T%C5%8Dy%C5%8D",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-056",
+      "label": "Ashikaga Yoshinori assassinated",
+      "year": 1441,
+      "description": "The tyrannical sixth shogun is murdered by a vassal lord he had threatened (the Kakitsu Incident), exposing how fragile shogunal authority had already become.",
+      "wikiSlug": "Ashikaga_Yoshinori",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-057",
+      "label": "Peasant uprisings and tokusei demands",
+      "year": 1428,
+      "description": "Village leagues (ikki) of farmers and porters rise repeatedly, storming pawnshops and demanding debt-cancellation edicts — proof that ordinary people were now a political force.",
+      "wikiSlug": "Ikki",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-058",
+      "label": "Ashikaga Yoshimasa, the aesthete shogun",
+      "year": 1449,
+      "description": "The eighth shogun who let the government rot while perfecting the tea ceremony and the arts, retiring to build the Silver Pavilion — culturally brilliant, politically ruinous.",
+      "wikiSlug": "Ashikaga_Yoshimasa",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-059",
+      "label": "The Silver Pavilion (Ginkaku-ji) and Higashiyama culture",
+      "year": 1482,
+      "description": "Yoshimasa's retirement villa anchors the Higashiyama culture, the refined aesthetic of tea, ink painting, dry gardens, and understated taste that became \"classical\" Japanese style.",
+      "wikiSlug": "Ginkaku-ji",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-060",
+      "label": "Murata Jukō shapes wabi tea",
+      "year": 1480,
+      "description": "The monk Murata Jukō, advisor to Yoshimasa, turns tea-drinking toward wabi — a deliberately rustic, austere simplicity, the spiritual root of the later tea ceremony.",
+      "wikiSlug": "Murata_Juk%C5%8D",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-061",
+      "label": "The Ryōan-ji rock garden",
+      "year": 1488,
+      "description": "The famous dry landscape garden (karesansui) of raked gravel and fifteen rocks, a Zen meditation in stone that distills the Higashiyama aesthetic to its purest form.",
+      "wikiSlug": "Ry%C5%8Dan-ji",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-062",
+      "label": "Renga linked verse at its height",
+      "year": 1488,
+      "description": "Linked-verse poetry (renga), composed collaboratively by groups taking turns adding stanzas, became the era's defining literary game; the master Sōgi raised it to high art.",
+      "wikiSlug": "Renga",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-063",
+      "label": "The succession dispute that lit the fuse",
+      "year": 1464,
+      "description": "Childless Yoshimasa named his brother heir, then fathered a son — and the two claimants, backed by rival great lords Hosokawa and Yamana, dragged the country toward civil war.",
+      "wikiSlug": "%C5%8Cnin_War",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-064",
+      "label": "The Ōnin War begins",
+      "year": 1467,
+      "description": "Rival warlord coalitions fight street by street through Kyoto itself; the war that began over a shogunal succession spirals into a decade of devastation.",
+      "wikiSlug": "%C5%8Cnin_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-065",
+      "label": "Kyoto burns",
+      "year": 1467,
+      "description": "Japan's ancient capital, the cultural heart of the realm, is largely burned to the ground in the fighting; temples, palaces, and libraries that had stood for centuries are lost.",
+      "wikiSlug": "%C5%8Cnin_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-066",
+      "label": "The Ōnin War ends in exhaustion",
+      "year": 1477,
+      "description": "After ten years the armies simply drift home, having decided nothing — except that the shogun no longer mattered and every lord was now on his own. The Sengoku has begun.",
+      "wikiSlug": "%C5%8Cnin_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-067",
+      "label": "Gekokujō: the low overthrow the high",
+      "year": 1490,
+      "description": "The defining principle of the new age: gekokujō, \"the low overthrowing the high,\" as retainers murdered lords, lords ignored the shogun, and the whole social ladder turned upside down.",
+      "wikiSlug": "Gekokuj%C5%8D",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-068",
+      "label": "The Sengoku daimyō emerge",
+      "year": 1490,
+      "description": "A new kind of warlord (sengoku daimyō) seized and held territory by raw ability, issuing his own laws and ruling his domain as a private state answerable to no one above him.",
+      "wikiSlug": "Daimy%C5%8D",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-069",
+      "label": "Hōjō Sōun seizes a province",
+      "year": 1495,
+      "description": "A man of obscure origins, Hōjō Sōun took Odawara and built a domain from nothing, the textbook self-made warlord and often called the first true Sengoku daimyō.",
+      "wikiSlug": "H%C5%8Dj%C5%8D_S%C5%8Dun",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-070",
+      "label": "The Ikkō-ikki rule Kaga Province",
+      "year": 1488,
+      "description": "Armed leagues of True Pure Land Buddhist farmers and warrior-monks overthrow their warlord governor and run Kaga as a \"peasants' kingdom\" for nearly a century.",
+      "wikiSlug": "Ikk%C5%8D-ikki",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-071",
+      "label": "Domain law codes (bunkokuhō)",
+      "year": 1500,
+      "description": "Sengoku warlords wrote their own house laws to govern their domains — codes like the Imagawa's that taxed, judged, and disciplined retainers as if each domain were its own little country.",
+      "wikiSlug": "Bunkokuh%C5%8D",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-072",
+      "label": "The castle town (jōkamachi) is born",
+      "year": 1500,
+      "description": "Warlords concentrated their retainers, artisans, and merchants in towns clustered below their hilltop castles, the jōkamachi that became the seeds of many modern Japanese cities.",
+      "wikiSlug": "Castle_town",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-073",
+      "label": "Sakai, the merchant free city",
+      "year": 1500,
+      "description": "The port of Sakai grew rich on the China trade and governed itself through a council of merchants, a rare self-ruling commercial city in a land of warlords.",
+      "wikiSlug": "Sakai,_Osaka",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-074",
+      "label": "Silver mining booms at Iwami",
+      "year": 1526,
+      "description": "The discovery and refining of the Iwami Ginzan silver mine made Japan one of the world's great silver producers, fueling both the warlords' wars and a new ocean trade.",
+      "wikiSlug": "Iwami_Ginzan_Silver_Mine",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-075",
+      "label": "Hōjō Ujitsuna and the Odawara domain",
+      "year": 1524,
+      "description": "The Later Hōjō clan expands across the Kantō plain from their great castle at Odawara, one of the most successful and best-administered Sengoku domains.",
+      "wikiSlug": "H%C5%8Dj%C5%8D_Ujitsuna",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-076",
+      "label": "Takeda Shingen, the Tiger of Kai",
+      "year": 1541,
+      "description": "One of the most feared Sengoku warlords, master of cavalry and river engineering, whose battle banner read \"swift as wind, silent as forest, fierce as fire, immovable as mountain.\"",
+      "wikiSlug": "Takeda_Shingen",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-077",
+      "label": "Uesugi Kenshin, the Dragon of Echigo",
+      "year": 1548,
+      "description": "Takeda Shingen's great rival, a devout and brilliant general who fought him five times at Kawanakajima in one of history's most famous personal military rivalries.",
+      "wikiSlug": "Uesugi_Kenshin",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-078",
+      "label": "The battles of Kawanakajima",
+      "year": 1561,
+      "description": "Five battles over twelve years between Takeda Shingen and Uesugi Kenshin, the most storied duel of the Sengoku, fought to a strategic draw and immortalized in legend.",
+      "wikiSlug": "Battles_of_Kawanakajima",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-079",
+      "label": "Mōri Motonari unites western Japan",
+      "year": 1555,
+      "description": "A master strategist who rose from a small domain to dominate western Honshu, famous for the parable of the bundle of arrows that no one can break together.",
+      "wikiSlug": "M%C5%8Dri_Motonari",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-080",
+      "label": "Date Masamune, the one-eyed dragon",
+      "year": 1567,
+      "description": "The fierce young warlord of the far northeast, the \"one-eyed dragon\" of Ōshu, who carved out a great domain late in the Sengoku and later sent an embassy across the Pacific.",
+      "wikiSlug": "Date_Masamune",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-081",
+      "label": "Portuguese arrive at Tanegashima with guns",
+      "year": 1543,
+      "description": "A storm-blown Portuguese ship lands on Tanegashima island carrying matchlock muskets; within a decade Japanese smiths were mass-producing the tanegashima gun, transforming warfare.",
+      "wikiSlug": "Nanban_trade",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-082",
+      "label": "Francis Xavier brings Christianity",
+      "year": 1549,
+      "description": "The Jesuit missionary Francis Xavier lands at Kagoshima and begins the Christian mission to Japan; within decades hundreds of thousands of Japanese, including some lords, had converted.",
+      "wikiSlug": "Francis_Xavier",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-083",
+      "label": "The Nanban (\"southern barbarian\") trade",
+      "year": 1550,
+      "description": "Portuguese ships from Macau brought Chinese silk, guns, and exotic goods to Japan in exchange for silver, opening a vivid era of European contact recorded in nanban art.",
+      "wikiSlug": "Nanban_trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-084",
+      "label": "Oda Nobunaga begins his rise",
+      "year": 1551,
+      "description": "A reckless, brilliant young lord of a minor Owari domain inherits his father's lands; dismissed as a fool, he would become the most disruptive man of the age.",
+      "wikiSlug": "Oda_Nobunaga",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-085",
+      "label": "Battle of Okehazama",
+      "year": 1560,
+      "description": "Nobunaga, badly outnumbered, surprises and kills the great warlord Imagawa Yoshimoto in a sudden storm-cover attack, the upset victory that launched his career.",
+      "wikiSlug": "Battle_of_Okehazama",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-086",
+      "label": "Nobunaga marches into Kyoto",
+      "year": 1568,
+      "description": "Nobunaga installs Ashikaga Yoshiaki as a puppet shogun and seizes the capital, beginning the reunification of Japan from its center.",
+      "wikiSlug": "Oda_Nobunaga",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-087",
+      "label": "Nobunaga burns Mount Hiei",
+      "year": 1571,
+      "description": "To break the political power of the warrior-monks, Nobunaga destroys the great Tendai monastery complex of Enryaku-ji on Mount Hiei, massacring its inhabitants — ruthless, and effective.",
+      "wikiSlug": "Enryaku-ji",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-088",
+      "label": "The last Ashikaga shogun expelled",
+      "year": 1573,
+      "description": "When his puppet Yoshiaki turns on him, Nobunaga drives him out of Kyoto, formally ending the Ashikaga shogunate after 237 years.",
+      "wikiSlug": "Ashikaga_Yoshiaki",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-089",
+      "label": "Battle of Nagashino",
+      "year": 1575,
+      "description": "Nobunaga and his ally Tokugawa Ieyasu use rotating volleys of matchlock fire from behind palisades to shatter the famous Takeda cavalry, a milestone in gunpowder warfare.",
+      "wikiSlug": "Battle_of_Nagashino",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-090",
+      "label": "Azuchi Castle built",
+      "year": 1579,
+      "description": "Nobunaga builds a magnificent multi-story castle at Azuchi overlooking Lake Biwa, a soaring tower-keep that announced a new era of monumental castle architecture.",
+      "wikiSlug": "Azuchi_Castle",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-091",
+      "label": "The Ishiyama Hongan-ji war ends",
+      "year": 1580,
+      "description": "After a ten-year siege, Nobunaga finally forces the surrender of the great fortified True Pure Land cathedral at Osaka, breaking the last major Ikkō-ikki stronghold.",
+      "wikiSlug": "Ishiyama_Hongan-ji",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-092",
+      "label": "The Incident at Honnō-ji",
+      "year": 1582,
+      "description": "On the brink of total victory, Nobunaga is betrayed and forced to die by his own general Akechi Mitsuhide, who set fire to the temple where he was lodging — the age's most shocking murder.",
+      "wikiSlug": "Honn%C5%8D-ji_Incident",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-093",
+      "label": "Hideyoshi avenges Nobunaga at Yamazaki",
+      "year": 1582,
+      "description": "Nobunaga's ablest general, the peasant-born Toyotomi Hideyoshi, rushes back and destroys the traitor Mitsuhide within days, seizing the dead lord's mantle for himself.",
+      "wikiSlug": "Battle_of_Yamazaki",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-094",
+      "label": "Toyotomi Hideyoshi takes power",
+      "year": 1583,
+      "description": "A man who began life as a foot soldier of obscure birth maneuvers past Nobunaga's heirs and rivals to become the most powerful man in Japan, the ultimate gekokujō story.",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-095",
+      "label": "Osaka Castle built",
+      "year": 1583,
+      "description": "Hideyoshi builds the colossal Osaka Castle on the ruins of the Hongan-ji fortress, the largest castle in Japan and the seat of his new national power.",
+      "wikiSlug": "Osaka_Castle",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-096",
+      "label": "Hideyoshi becomes imperial regent (kampaku)",
+      "year": 1585,
+      "description": "Barred by his low birth from the title of shogun, Hideyoshi instead has himself made kampaku (imperial regent), ruling in the emperor's name with even greater authority.",
+      "wikiSlug": "Sessh%C5%8D_and_Kampaku",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-097",
+      "label": "Sen no Rikyū perfects the tea ceremony",
+      "year": 1585,
+      "description": "Hideyoshi's tea master Sen no Rikyū brings the wabi-cha tea ceremony to its austere perfection, defining an aesthetic of rustic simplicity that endures to this day.",
+      "wikiSlug": "Sen_no_Riky%C5%AB",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-098",
+      "label": "Hideyoshi's sword hunt",
+      "year": 1588,
+      "description": "Hideyoshi orders all weapons confiscated from farmers, monks, and commoners (the katanagari), sharply separating the warrior class from everyone else and disarming the countryside.",
+      "wikiSlug": "Sword_hunt",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-099",
+      "label": "The Taikō land survey",
+      "year": 1590,
+      "description": "Hideyoshi's nationwide land survey (taikō kenchi) measured and registered every field by its rice yield (koku), the basis for taxation and the freezing of the social order.",
+      "wikiSlug": "Taik%C5%8D_kenchi",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-100",
+      "label": "Siege of Odawara and reunification",
+      "year": 1590,
+      "description": "Hideyoshi crushes the Later Hōjō at Odawara, the last great independent domain, completing the reunification of Japan under a single authority for the first time in over a century.",
+      "wikiSlug": "Siege_of_Odawara_(1590)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-101",
+      "label": "The class-separation edict",
+      "year": 1591,
+      "description": "Hideyoshi forbids samurai, farmers, and townsmen from changing status, legally freezing the fluid Sengoku society into the rigid four-class order the Tokugawa would inherit.",
+      "wikiSlug": "Four_occupations",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-102",
+      "label": "Hideyoshi forces Sen no Rikyū to commit suicide",
+      "year": 1591,
+      "description": "For reasons still debated, the all-powerful Hideyoshi orders his revered tea master to disembowel himself — a chilling sign of the autocrat's growing paranoia.",
+      "wikiSlug": "Sen_no_Riky%C5%AB",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-103",
+      "label": "First invasion of Korea (Imjin War)",
+      "year": 1592,
+      "description": "Hideyoshi launches a massive invasion of Korea as a stepping-stone to conquering Ming China; early victories bog down against Korean resistance and Admiral Yi Sun-sin's turtle-ship navy.",
+      "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-104",
+      "label": "Ming China intervenes in Korea",
+      "year": 1593,
+      "description": "Ming armies pour into Korea to defend their tributary; the war grinds into a bloody stalemate that drains Japan's resources and accomplishes nothing.",
+      "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-105",
+      "label": "The persecution of Christians begins",
+      "year": 1597,
+      "description": "Fearing the loyalty of converts and European intentions, Hideyoshi has twenty-six Christians crucified at Nagasaki, the first martyrdoms in a campaign that would intensify under the Tokugawa.",
+      "wikiSlug": "Twenty-Six_Martyrs_of_Japan",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-106",
+      "label": "Second invasion of Korea",
+      "year": 1597,
+      "description": "Hideyoshi launches a second, even more brutal Korean campaign; it too stalls, and the death of Hideyoshi the next year forces a humiliating withdrawal.",
+      "wikiSlug": "Japanese_invasions_of_Korea_(1592%E2%80%931598)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-107",
+      "label": "Death of Hideyoshi",
+      "year": 1598,
+      "description": "Hideyoshi dies leaving only a five-year-old son, Hideyori, and a council of five great regents sworn to protect him — a power vacuum that practically begged to be exploited.",
+      "wikiSlug": "Toyotomi_Hideyoshi",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-108",
+      "label": "Tokugawa Ieyasu, the patient regent",
+      "year": 1598,
+      "description": "The most powerful of the five regents, Ieyasu had spent decades waiting, surviving Nobunaga and Hideyoshi; now, with the master dead and the heir a child, his moment had come.",
+      "wikiSlug": "Tokugawa_Ieyasu",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-109",
+      "label": "Battle of Sekigahara",
+      "year": 1600,
+      "description": "Two vast coalitions clash in a fog-shrouded valley; a key defection mid-battle hands Tokugawa Ieyasu the decisive victory that made him master of all Japan.",
+      "wikiSlug": "Battle_of_Sekigahara",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-110",
+      "label": "William Adams, the English samurai",
+      "year": 1600,
+      "description": "An English navigator shipwrecked in Japan becomes an advisor to Ieyasu and is made a samurai, a vivid sign of Japan's growing entanglement with a wider world.",
+      "wikiSlug": "William_Adams_(pilot)",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-111",
+      "label": "Tokugawa Ieyasu becomes shogun",
+      "year": 1603,
+      "description": "Ieyasu has the emperor name him shogun and founds the Tokugawa shogunate at Edo, ending the medieval age and beginning 250 years of peace and isolation.",
+      "wikiSlug": "Tokugawa_shogunate",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-112",
+      "label": "Himeji Castle and the great castle age",
+      "year": 1601,
+      "description": "The dazzling white \"White Heron\" castle of Himeji is rebuilt, the supreme surviving example of the towering Japanese castles that defined the era of unification.",
+      "wikiSlug": "Himeji_Castle",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-113",
+      "label": "Miyamoto Musashi and the duelist tradition",
+      "year": 1600,
+      "description": "The legendary swordsman, undefeated in some sixty duels and later author of The Book of Five Rings, embodies the masterless ronin warrior of the age's violent end.",
+      "wikiSlug": "Miyamoto_Musashi",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-114",
+      "label": "The katana and the sword-smith's art",
+      "year": 1300,
+      "description": "Medieval Japan's smiths perfected the curved, differentially-hardened katana, the folded-steel sword whose blade and cult of the warrior became inseparable from the samurai myth.",
+      "wikiSlug": "Katana",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-medieval-japan-115",
+      "label": "Samurai armor evolves for the gun age",
+      "year": 1560,
+      "description": "As matchlocks spread, armorers replaced delicate lamellar suits with the solid-plate tōsei-gusoku, \"modern armor\" built to turn a bullet — technology answering technology.",
+      "wikiSlug": "Japanese_armour",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-medieval-japan-116",
+      "label": "Folding screens and the Kanō school",
+      "year": 1543,
+      "description": "The Kanō school of painters, led by Kanō Eitoku, decorated castle walls and folding screens with bold gold-ground landscapes and tigers, the swaggering art of the unifiers' age.",
+      "wikiSlug": "Kan%C5%8D_school",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-117",
+      "label": "Raku tea bowls created",
+      "year": 1580,
+      "description": "The potter Chōjirō, working with Sen no Rikyū, develops hand-shaped, low-fired raku tea bowls, the deliberately imperfect ceramics that embody the wabi aesthetic.",
+      "wikiSlug": "Raku_ware",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-118",
+      "label": "Korean potters and the \"pottery wars\"",
+      "year": 1598,
+      "description": "Japanese lords carried off captured Korean potters from the Korean invasions, who founded the great Japanese ceramic traditions of Arita and Satsuma — a brutal transfer of technology.",
+      "wikiSlug": "Imari_ware",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-medieval-japan-119",
+      "label": "Movable-type printing arrives",
+      "year": 1593,
+      "description": "Both Jesuit missionaries and the Korean campaign brought movable-type printing presses to Japan, briefly flourishing before woodblock printing reasserted itself.",
+      "wikiSlug": "Printing_in_Japan",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-120",
+      "label": "Christian daimyō and the Tenshō embassy",
+      "year": 1582,
+      "description": "Several converted lords sent four Japanese Christian boys on an embassy all the way to Rome to meet the Pope, the first official Japanese mission to Europe.",
+      "wikiSlug": "Tensh%C5%8D_embassy",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-121",
+      "label": "The Heike Monogatari and the war tales",
+      "year": 1240,
+      "description": "The Tale of the Heike, the great war epic of the Genpei War recited by blind lute-priests, gave Japan its enduring image of the samurai and the Buddhist theme of all things passing.",
+      "wikiSlug": "The_Tale_of_the_Heike",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-122",
+      "label": "Yoshida Kenkō's Tsurezuregusa",
+      "year": 1330,
+      "description": "A reclusive monk writes Essays in Idleness, a collection of musings on beauty, impermanence, and taste that became a touchstone of the medieval Japanese aesthetic sense.",
+      "wikiSlug": "Tsurezuregusa",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-123",
+      "label": "The Kamakura new Buddhism reshapes faith",
+      "year": 1250,
+      "description": "Pure Land, Zen, and Nichiren together turned Buddhism from an elite, ritual-heavy court religion into a faith for ordinary Japanese — the most important religious shift of the age.",
+      "wikiSlug": "Buddhism_in_Japan",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-124",
+      "label": "The Mongol invasions and the seppuku ideal",
+      "year": 1333,
+      "description": "Ritual suicide by disembowelment (seppuku), chosen over capture and dishonor, hardens during the medieval wars into the supreme proof of a warrior's honor.",
+      "wikiSlug": "Seppuku",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-125",
+      "label": "Ji-zamurai and the village warrior",
+      "year": 1400,
+      "description": "Below the great lords sat the ji-zamurai, local landholding warriors who farmed and fought, the broad base of the warrior class and the leaders of village leagues.",
+      "wikiSlug": "Samurai",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-126",
+      "label": "The ashigaru foot soldier transforms armies",
+      "year": 1500,
+      "description": "Mass-recruited peasant foot soldiers (ashigaru), armed first with pikes and then with matchlocks, replaced the elite mounted archer as the decisive force on the battlefield.",
+      "wikiSlug": "Ashigaru",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-127",
+      "label": "The koku and the rice economy",
+      "year": 1590,
+      "description": "Wealth and rank came to be measured in koku, the amount of rice thought to feed one person for a year; a lord's power was literally counted in his domain's rice yield.",
+      "wikiSlug": "Koku",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-128",
+      "label": "The ninja of Iga and Kōga",
+      "year": 1487,
+      "description": "Bands of irregular spies and saboteurs from the Iga and Kōga regions, the shinobi, sold their services in espionage and assassination — the historical kernel behind the ninja legend.",
+      "wikiSlug": "Ninja",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-129",
+      "label": "Kabuki's wild beginnings",
+      "year": 1603,
+      "description": "A shrine dancer named Izumo no Okuni performs a flamboyant new style of dance-drama on a Kyoto riverbank, the origin of kabuki, just as the medieval age gives way to Edo.",
+      "wikiSlug": "Kabuki",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-medieval-japan-130",
+      "label": "Negoro and the warrior monks",
+      "year": 1585,
+      "description": "Fortified temples fielded their own armies of warrior-monks (sōhei) and gunsmiths; Hideyoshi's destruction of the Negoro temple ended their centuries of military independence.",
+      "wikiSlug": "S%C5%8Dhei",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-medieval-japan-131",
+      "label": "Nagasaki opens as a Christian port",
+      "year": 1571,
+      "description": "A Christian daimyō opens Nagasaki to Portuguese trade; it grows into Japan's great window on the outside world and the center of Japanese Christianity.",
+      "wikiSlug": "Nagasaki",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-132",
+      "label": "The Asakura and the fall of the old houses",
+      "year": 1573,
+      "description": "Nobunaga's destruction of long-established clans like the Asakura and Asai showed that ancient pedigree counted for nothing against ability and ruthlessness in the Sengoku.",
+      "wikiSlug": "Asakura_clan",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-133",
+      "label": "Tokugawa Ieyasu makes Edo his capital",
+      "year": 1590,
+      "description": "Granted the Kantō plain by Hideyoshi, Ieyasu builds his base at the fishing village of Edo, the swampy backwater that would become Tokyo, the largest city on earth.",
+      "wikiSlug": "Edo",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-medieval-japan-134",
+      "label": "Ishida Mitsunari and the western alliance",
+      "year": 1600,
+      "description": "Hideyoshi's loyal administrator Ishida Mitsunari rallied the lords who feared Ieyasu into the western coalition that lost at Sekigahara, and was executed for it.",
+      "wikiSlug": "Ishida_Mitsunari",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-135",
+      "label": "Kobayakawa's battlefield defection",
+      "year": 1600,
+      "description": "At the crisis of Sekigahara, the young lord Kobayakawa Hideaki switched sides and attacked his own allies, the treachery that turned the battle and decided Japan's next 250 years.",
+      "wikiSlug": "Kobayakawa_Hideaki",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-136",
+      "label": "The tea ceremony as politics",
+      "year": 1587,
+      "description": "Hideyoshi held a vast public tea gathering at Kitano and built a portable gold tea room, using the refined tea ceremony as both spectacle and instrument of political power.",
+      "wikiSlug": "Kitano_Great_Tea_Ceremony",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-medieval-japan-137",
+      "label": "The fall of the Takeda clan",
+      "year": 1582,
+      "description": "Nobunaga and his allies destroy the once-mighty Takeda house, extinguishing one of the great Sengoku dynasties and clearing his path toward dominance.",
+      "wikiSlug": "Takeda_clan",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-medieval-japan-138",
+      "label": "Maeda Toshiie and the great vassals",
+      "year": 1583,
+      "description": "Trusted generals like Maeda Toshiie became enormous landholders under Hideyoshi, founding the daimyō houses whose descendants would dominate Tokugawa Japan.",
+      "wikiSlug": "Maeda_Toshiie",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-medieval-japan-139",
+      "label": "Hideyori and the seeds of the next war",
+      "year": 1598,
+      "description": "Hideyoshi's heir Toyotomi Hideyori, holed up in Osaka Castle, remained a rallying point for anti-Tokugawa loyalists, a threat Ieyasu would not finally crush until 1615.",
+      "wikiSlug": "Toyotomi_Hideyori",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-medieval-japan-140",
+      "label": "The medieval age closes",
+      "year": 1603,
+      "description": "With the Tokugawa shogunate founded, Japan trades a century of war for centuries of locked-down peace; the world of the warring samurai becomes legend almost overnight.",
+      "wikiSlug": "Edo_period",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}

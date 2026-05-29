@@ -1,0 +1,1581 @@
+{
+  "id": "muscovite-russia",
+  "label": "Muscovite Russia",
+  "type": "civilization",
+  "region": "europe",
+  "source": "curated",
+  "wikiSlug": "Grand_Duchy_of_Moscow",
+  "imageWikiSlug": "Moscow_Kremlin",
+  "pitch": "In 1240 the Mongols burned Kiev to the ground, and the center of gravity of the Russian world fell silent for two centuries. What rose in its place was not the bright river-kingdom of the Rus' but something colder, harder, and bent inward: a small, swampy, forest principality called Moscow, ruled by princes who learned to survive by collecting other people's taxes for the Mongol khan, marrying into the rubble of fallen Byzantium, and calling themselves the last true Christians on earth. Over four and a half centuries, Moscow swallowed its rivals, threw off the Horde at a river standoff where nobody fought, crowned its first tsar, conquered a Muslim khanate on the Volga, tore itself apart in a terror called the oprichnina, nearly dissolved entirely in the famine-and-civil-war catastrophe of the Time of Troubles, was occupied by a Polish garrison in its own Kremlin, expelled them, found a teenage Romanov to be tsar, split its own Church in two over how many fingers to cross yourself with, chained its peasants into serfdom, and finally produced a giant seven-foot tsar who would drag the whole thing — kicking, screaming, and beard-shaven — toward Europe.\n\n🔑 Key Facts:\n• Moscow was a minor backwater in 1240; it became the master of all the Russian lands largely by being the Mongols' most reliable tax-collector, a role its prince Ivan I \"Kalita\" (\"Moneybag\") turned into permanent advantage.\n• The \"Tatar yoke\" lasted from 1240 to 1480, ending not in a battle but in the Great Stand on the Ugra River, where two armies faced off across the water and both turned and went home.\n• Ivan IV \"the Terrible\" was crowned the first \"Tsar of All Rus'\" in 1547, conquered the khanates of Kazan and Astrakhan, then unleashed the oprichnina, a state-within-a-state terror that gutted his own elite.\n• The Time of Troubles (1598–1613) — dynastic collapse, the worst famine in Russian history, three pretenders all claiming to be a dead prince named Dmitry, and a Polish army in the Kremlin — nearly ended Russia, until a butcher and a prince raised an army that drove the Poles out in 1612.\n\n🤔 Why It Matters: Muscovite Russia is where \"Russia\" was actually made — the centuries that turned a wrecked collection of forest principalities into a centralized, autocratic, Orthodox, expansionist empire, and that built the template (a sacred all-powerful ruler, a bound peasantry, a suspicion of the West that coexists with hunger for it) that every later Russian state has argued with ever since.",
+  "countryIds": [],
+  "spans": [
+    {
+      "id": "span-muscovy-yoke",
+      "label": "Under the Yoke",
+      "startYear": 1240,
+      "endYear": 1380,
+      "description": "The Mongol conquest, the Golden Horde's overlordship, and the slow rise of Moscow as the Horde's favored tax-farming principality.",
+      "wikiSlug": "Mongol_invasion_of_Kievan_Rus%27"
+    },
+    {
+      "id": "span-muscovy-gathering",
+      "label": "The Gathering of the Lands",
+      "startYear": 1380,
+      "endYear": 1480,
+      "description": "From Kulikovo to the Ugra: Moscow's princes absorb their rivals and edge out from under the Horde's shadow.",
+      "wikiSlug": "Grand_Duchy_of_Moscow"
+    },
+    {
+      "id": "span-muscovy-ivan-iii",
+      "label": "Ivan the Great and the Third Rome",
+      "startYear": 1462,
+      "endYear": 1505,
+      "description": "Ivan III triples Moscow's territory, marries the Byzantine heiress, throws off the Horde, and rebuilds the Kremlin in stone.",
+      "wikiSlug": "Ivan_III_of_Russia"
+    },
+    {
+      "id": "span-muscovy-ivan-iv",
+      "label": "The First Tsar",
+      "startYear": 1533,
+      "endYear": 1584,
+      "description": "Ivan IV's coronation, the Volga conquests, the long Livonian War, and the self-inflicted terror of the oprichnina.",
+      "wikiSlug": "Ivan_the_Terrible"
+    },
+    {
+      "id": "span-muscovy-troubles",
+      "label": "The Time of Troubles",
+      "startYear": 1598,
+      "endYear": 1613,
+      "description": "Dynastic extinction, the great famine, the False Dmitrys, Polish occupation of Moscow, and the national rising that ended it.",
+      "wikiSlug": "Time_of_Troubles"
+    },
+    {
+      "id": "span-muscovy-romanov",
+      "label": "The Early Romanovs",
+      "startYear": 1613,
+      "endYear": 1682,
+      "description": "Recovery under Michael and Alexis, the annexation of Ukraine, the Church schism and the Old Believers, the Cossack risings, and the hardening of serfdom.",
+      "wikiSlug": "Tsardom_of_Russia"
+    },
+    {
+      "id": "span-muscovy-peter",
+      "label": "The Young Peter",
+      "startYear": 1682,
+      "endYear": 1721,
+      "description": "Peter the Great's chaotic accession, his European apprenticeship, the Great Northern War, and the founding of an empire.",
+      "wikiSlug": "Peter_the_Great"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-muscovite-russia-001",
+      "label": "Mongols destroy Vladimir-Suzdal",
+      "year": 1238,
+      "description": "Batu Khan's Mongol army stormed and burned Vladimir, the chief city of northeastern Rus', killing the grand prince Yuri II at the Sit River and shattering the old order.",
+      "wikiSlug": "Siege_of_Vladimir",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-002",
+      "label": "The sack of Kiev",
+      "year": 1240,
+      "description": "The Mongols took and gutted Kiev, the mother-city of the Rus', in December 1240; a papal envoy passing six years later reported the ground still littered with skulls. The Kievan age was over.",
+      "wikiSlug": "Siege_of_Kiev_(1240)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-003",
+      "label": "Founding of the Golden Horde",
+      "year": 1242,
+      "description": "Batu Khan settled his Mongol-Turkic state, the Golden Horde, on the lower Volga with its capital at Sarai, making the Russian princes its tax-paying tributaries for the next two centuries.",
+      "wikiSlug": "Golden_Horde",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-004",
+      "label": "The first census and the tribute system",
+      "year": 1257,
+      "description": "Mongol officials counted the Russian population head by head to assess the tribute, the dань; resistance to the census triggered revolts in Novgorod and elsewhere that the princes were forced to help suppress.",
+      "wikiSlug": "Golden_Horde",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-005",
+      "label": "Alexander Nevsky and the politics of submission",
+      "year": 1252,
+      "description": "Prince Alexander Nevsky, already famous for beating the Swedes and the Teutonic Knights, chose to submit to the Horde and collaborate, a controversial bargain that kept the north intact and made his line central.",
+      "wikiSlug": "Alexander_Nevsky",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-006",
+      "label": "Battle of the Neva",
+      "year": 1240,
+      "description": "Alexander defeated a Swedish force at the mouth of the Neva River, the victory that earned him the surname Nevsky, even as the Mongols were finishing Kiev far to the south.",
+      "wikiSlug": "Battle_of_the_Neva",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-007",
+      "label": "The Battle on the Ice",
+      "year": 1242,
+      "description": "Alexander Nevsky routed the Teutonic Knights on the frozen Lake Peipus, halting the Catholic crusading push from the west and fixing the religious border of the Orthodox Russian world.",
+      "wikiSlug": "Battle_on_the_Ice",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-008",
+      "label": "The yarlyk: the patent to rule",
+      "year": 1260,
+      "description": "A Russian prince could only rule legitimately if the khan granted him a yarlyk, a patent of authority, forcing the princes to travel to Sarai and compete for the Mongols' favor.",
+      "wikiSlug": "Jarlig",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-009",
+      "label": "The Church exempted from Mongol tax",
+      "year": 1267,
+      "description": "The Horde issued the Orthodox Church a charter exempting its lands and clergy from tribute and military service, a privilege that let the Church grow rich and powerful under foreign overlordship.",
+      "wikiSlug": "Russian_Orthodox_Church",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-010",
+      "label": "Daniel, first prince of Moscow",
+      "year": 1283,
+      "description": "Daniel, youngest son of Alexander Nevsky, received the small, obscure town of Moscow as his appanage and founded the dynasty that would one day rule all of Russia.",
+      "wikiSlug": "Daniel_of_Moscow",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-011",
+      "label": "Moscow seizes Kolomna and Pereslavl",
+      "year": 1302,
+      "description": "Daniel and his sons expanded the tiny principality by grabbing the strategic towns of Kolomna and Pereslavl-Zalessky, the first steps in Moscow's centuries-long land-gathering.",
+      "wikiSlug": "Daniel_of_Moscow",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-012",
+      "label": "Rivalry with Tver",
+      "year": 1304,
+      "description": "Moscow's chief rival for leadership of the Russian lands was the principality of Tver; the two houses spent decades denouncing each other to the khan and competing for the grand-princely title.",
+      "wikiSlug": "Tver",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-013",
+      "label": "Metropolitan Peter moves to Moscow",
+      "year": 1325,
+      "description": "Metropolitan Peter, head of the Russian Church, chose to reside in Moscow and was buried there, beginning the transfer of Russia's spiritual capital to the upstart town.",
+      "wikiSlug": "Peter_of_Moscow",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-014",
+      "label": "Ivan I Kalita, the Moneybag",
+      "year": 1325,
+      "description": "Ivan I, nicknamed Kalita (\"Moneybag\"), became prince of Moscow and made himself indispensable to the Horde as the collector of tribute from all the Russian princes, skimming wealth and power for himself.",
+      "wikiSlug": "Ivan_I_of_Moscow",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-015",
+      "label": "The Tver uprising and its crushing",
+      "year": 1327,
+      "description": "When Tver rose and killed a Mongol envoy, Ivan Kalita led a Horde army to devastate his rival, a brutal act of collaboration that won Moscow the grand-princely title for good.",
+      "wikiSlug": "Tver_uprising_of_1327",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-016",
+      "label": "Moscow becomes the Metropolitan see",
+      "year": 1328,
+      "description": "Under Ivan Kalita the metropolitanate was formally fixed at Moscow, marrying the prestige of the Church to the ambitions of the princes, an alliance that defined Russian power thereafter.",
+      "wikiSlug": "Metropolitan_of_Moscow_and_all_Rus%27",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-017",
+      "label": "Sergius of Radonezh founds the Trinity Lavra",
+      "year": 1345,
+      "description": "Sergius of Radonezh, the most beloved of Russian saints, founded the Trinity Monastery in the forest north of Moscow, sparking a monastic revival that colonized the wilderness and sanctified Moscow's cause.",
+      "wikiSlug": "Sergius_of_Radonezh",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-018",
+      "label": "The Black Death reaches Russia",
+      "year": 1352,
+      "description": "The plague swept up the trade routes into the Russian lands, killing princes and peasants alike, including the grand prince Simeon the Proud and his sons in 1353.",
+      "wikiSlug": "Black_Death",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-019",
+      "label": "The wooden Kremlin rebuilt in white stone",
+      "year": 1367,
+      "description": "The young Dmitry Donskoy replaced Moscow's oak walls with limestone ramparts, the first stone fortress in northeastern Russia and the origin of Moscow's poetic name, the \"white-stone city.\"",
+      "wikiSlug": "Moscow_Kremlin",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-020",
+      "label": "Olgerd of Lithuania besieges Moscow",
+      "year": 1368,
+      "description": "The Grand Duchy of Lithuania, a vast pagan-then-Catholic power that had absorbed much of the old western Rus', repeatedly attacked Moscow, its great rival for the Russian inheritance.",
+      "wikiSlug": "Algirdas",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-021",
+      "label": "Dmitry Donskoy and the challenge to the Horde",
+      "year": 1375,
+      "description": "Dmitry Ivanovich, grand prince of Moscow, grew strong enough to stop sending tribute and openly defy the Horde's strongman Mamai, gambling Moscow's survival on outright resistance.",
+      "wikiSlug": "Dmitry_Donskoy",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-022",
+      "label": "Battle of the Vozha River",
+      "year": 1378,
+      "description": "Dmitry crushed a Mongol punitive force at the Vozha River, the first major Russian victory over the Horde in the field and the prelude to Kulikovo.",
+      "wikiSlug": "Battle_of_the_Vozha_River",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-023",
+      "label": "The Battle of Kulikovo",
+      "year": 1380,
+      "description": "Blessed by Sergius of Radonezh, Dmitry Donskoy defeated Mamai's army on Kulikovo Field by the Don River, a hard-won battle that became the founding legend of Russian resistance, though the Horde's grip was far from broken.",
+      "wikiSlug": "Battle_of_Kulikovo",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-024",
+      "label": "Tokhtamysh sacks Moscow",
+      "year": 1382,
+      "description": "Only two years after Kulikovo, the new khan Tokhtamysh tricked his way into Moscow, burned it, and slaughtered thousands, a brutal reminder that the yoke was not yet lifted.",
+      "wikiSlug": "Siege_of_Moscow_(1382)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-025",
+      "label": "Theophanes the Greek and the icon revival",
+      "year": 1378,
+      "description": "The Byzantine master Theophanes the Greek came to Russia and painted the frescoes of churches in Novgorod and Moscow, transplanting the late-Byzantine artistic tradition that Russian painting would make its own.",
+      "wikiSlug": "Theophanes_the_Greek",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-026",
+      "label": "Andrei Rublev paints the Trinity",
+      "year": 1411,
+      "description": "The monk Andrei Rublev, Russia's greatest icon painter, created the Trinity icon, the supreme masterpiece of Russian medieval art, distilling a national style out of the Byzantine inheritance.",
+      "wikiSlug": "Andrei_Rublev",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-027",
+      "label": "The Zadonshchina celebrates Kulikovo",
+      "year": 1400,
+      "description": "The Zadonshchina, a poetic tale modeled on the older Igor epic, retold the victory at Kulikovo and helped turn Dmitry Donskoy's battle into Russia's national myth of liberation.",
+      "wikiSlug": "Zadonshchina",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-028",
+      "label": "The Russian chronicles (letopisi)",
+      "year": 1400,
+      "description": "Monastic scribes kept year-by-year chronicles, the letopisi, copying and editing them to glorify their patrons; they are the backbone of what we know, and they carry every bias of the courts that paid for them.",
+      "wikiSlug": "Rus%27_chronicles",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-029",
+      "label": "Vasily I and the absorption of Nizhny Novgorod",
+      "year": 1392,
+      "description": "Dmitry's son Vasily I bought a yarlyk from the Horde to annex the principality of Nizhny Novgorod, continuing the patient swallowing of rival Russian states.",
+      "wikiSlug": "Vasily_I_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-030",
+      "label": "Timur shatters the Golden Horde",
+      "year": 1395,
+      "description": "The Central Asian conqueror Timur (Tamerlane) smashed Tokhtamysh and devastated the Horde's cities, a blow from outside that weakened Moscow's overlord far more than Kulikovo had.",
+      "wikiSlug": "Tokhtamysh%E2%80%93Timur_war",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-031",
+      "label": "The Edigu raid on Moscow",
+      "year": 1408,
+      "description": "The Horde commander Edigu ravaged the Moscow lands and besieged the city to reassert tribute, showing the Mongol threat still had teeth even as the Horde's central power crumbled.",
+      "wikiSlug": "Edigu",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-032",
+      "label": "The Muscovite war of succession",
+      "year": 1425,
+      "description": "A twenty-year civil war erupted over whether the throne passed brother-to-brother (the old way) or father-to-son, ending only when Vasily II prevailed despite being blinded by his rivals.",
+      "wikiSlug": "Muscovite_War_of_Succession",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-033",
+      "label": "Vasily II the Blind",
+      "year": 1446,
+      "description": "Captured and blinded by his cousin's faction, Vasily II nonetheless clawed back power, and his survival established the principle of direct father-to-son succession that made Moscow's throne stable.",
+      "wikiSlug": "Vasily_II_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-034",
+      "label": "The Council of Florence and its rejection",
+      "year": 1439,
+      "description": "Byzantium, desperate for Western help against the Turks, agreed to reunite the Orthodox and Catholic churches at Florence; Moscow furiously rejected the union, deepening its sense of being the last true Orthodoxy.",
+      "wikiSlug": "Council_of_Florence",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-035",
+      "label": "The Russian Church goes autocephalous",
+      "year": 1448,
+      "description": "Rejecting the Florentine union, the Russian bishops elected their own metropolitan, Jonah, without Constantinople's approval, in effect declaring the Russian Church independent (autocephalous).",
+      "wikiSlug": "Jonah_of_Moscow",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-036",
+      "label": "The fall of Constantinople",
+      "year": 1453,
+      "description": "The Ottoman Turks took Constantinople, ending the thousand-year Byzantine Empire; for Moscow this catastrophe seemed to leave it the only surviving free Orthodox power, seeding the \"Third Rome\" idea.",
+      "wikiSlug": "Fall_of_Constantinople",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-037",
+      "label": "Ivan III the Great",
+      "year": 1462,
+      "description": "Ivan III came to the throne of Moscow and over a forty-three-year reign tripled its territory, threw off the Horde, and recast the principality as a sovereign Russian state, earning the name \"the Great.\"",
+      "wikiSlug": "Ivan_III_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-038",
+      "label": "The conquest of Novgorod",
+      "year": 1478,
+      "description": "Ivan III crushed the wealthy merchant republic of Novgorod, hauling away its great veche bell (the symbol of its self-government) and ending centuries of Russian republican liberty.",
+      "wikiSlug": "Republic_of_Novgorod",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-039",
+      "label": "Marriage to Sophia Palaiologina",
+      "year": 1472,
+      "description": "Ivan III married Sophia (Zoe) Palaiologina, niece of the last Byzantine emperor, importing the double-headed eagle, Byzantine court ceremony, and the heady claim of imperial inheritance.",
+      "wikiSlug": "Sophia_Palaiologina",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-040",
+      "label": "The Great Stand on the Ugra River",
+      "year": 1480,
+      "description": "Ivan III and the Horde's Khan Akhmat faced each other across the frozen Ugra River; neither dared attack, both withdrew, and that bloodless standoff is conventionally taken as the end of the Tatar yoke.",
+      "wikiSlug": "Great_Stand_on_the_Ugra_River",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-041",
+      "label": "The double-headed eagle adopted",
+      "year": 1497,
+      "description": "Ivan III's seal bore the Byzantine double-headed eagle for the first time, a visual claim that Moscow was heir to the fallen empire and a piece of state symbolism that endures in Russia today.",
+      "wikiSlug": "Coat_of_arms_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-042",
+      "label": "Rebuilding the Kremlin in brick",
+      "year": 1485,
+      "description": "Ivan III imported Italian architects to rebuild the Moscow Kremlin's walls and towers in red brick, the great fortress whose silhouette still defines the city.",
+      "wikiSlug": "Moscow_Kremlin_Wall",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-043",
+      "label": "The Dormition Cathedral by Fioravanti",
+      "year": 1479,
+      "description": "The Bolognese engineer Aristotele Fioravanti built the Dormition Cathedral, the coronation church of the tsars, fusing Italian technique with the form of Russia's old Vladimir churches.",
+      "wikiSlug": "Dormition_Cathedral,_Moscow",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-044",
+      "label": "The Faceted Chamber",
+      "year": 1491,
+      "description": "Italian masters completed the Faceted Chamber, Moscow's grand stone throne hall named for its diamond-cut facade, where tsars would hold their most solemn audiences for centuries.",
+      "wikiSlug": "Palace_of_Facets",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-045",
+      "label": "The Sudebnik law code of 1497",
+      "year": 1497,
+      "description": "Ivan III issued the Sudebnik, the first unified law code of the Russian state, which also restricted peasants to leaving their lords only around St. George's Day, an early turn of the screw toward serfdom.",
+      "wikiSlug": "Sudebnik_of_1497",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-046",
+      "label": "The heresy of the Judaizers",
+      "year": 1490,
+      "description": "A rationalist religious movement the Church called the \"Judaizers\" spread among Novgorod and Moscow elites, provoking a fierce inquisition and a debate about how Orthodoxy should police belief.",
+      "wikiSlug": "Heresy_of_the_Judaizers",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-047",
+      "label": "The Possessors versus the Non-Possessors",
+      "year": 1503,
+      "description": "Russian monks split over whether monasteries should own vast estates: Joseph of Volokolamsk defended Church wealth and tight orthodoxy, while Nil Sorsky preached poverty and inner prayer.",
+      "wikiSlug": "Joseph_Volotsky",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-048",
+      "label": "The 'Moscow, the Third Rome' letter",
+      "year": 1510,
+      "description": "The monk Philotheus of Pskov wrote that two Romes had fallen, Moscow was the third, and a fourth there would never be; how much weight this idea actually carried at the time is debated, but it became a touchstone.",
+      "wikiSlug": "Third_Rome",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-049",
+      "label": "Vasily III completes the gathering",
+      "year": 1505,
+      "description": "Ivan III's son Vasily III annexed the last independent Russian states, Pskov, Smolensk, and Ryazan, finishing the unification of the Great Russian lands under Moscow.",
+      "wikiSlug": "Vasili_III_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-050",
+      "label": "Capture of Smolensk from Lithuania",
+      "year": 1514,
+      "description": "Vasily III seized the great fortress-city of Smolensk from the Grand Duchy of Lithuania, pushing Moscow's frontier west and igniting a long struggle over the old Rus' borderlands.",
+      "wikiSlug": "Siege_of_Smolensk_(1514)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-051",
+      "label": "Maximus the Greek comes to Moscow",
+      "year": 1518,
+      "description": "The learned monk Maximus the Greek was summoned to correct Russia's church books; his criticisms of Church wealth and corruption got him imprisoned for decades, a warning of how dangerous learning could be.",
+      "wikiSlug": "Maximus_the_Greek",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-052",
+      "label": "Herberstein's account of Muscovy",
+      "year": 1549,
+      "description": "The Habsburg envoy Sigismund von Herberstein published Notes on Muscovite Affairs, the first detailed European description of Russia, a vital but outsider's source that shaped how the West imagined the place.",
+      "wikiSlug": "Sigismund_von_Herberstein",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-053",
+      "label": "Ivan IV becomes grand prince as a child",
+      "year": 1533,
+      "description": "Vasily III died leaving a three-year-old heir, Ivan IV; a violent boyar regency followed, and the chronicles claim the boy's brutalized childhood shaped the terrible ruler he became.",
+      "wikiSlug": "Ivan_the_Terrible",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-054",
+      "label": "Ivan IV crowned the first Tsar",
+      "year": 1547,
+      "description": "At sixteen Ivan IV was crowned not grand prince but \"Tsar of All Rus',\" the first Russian ruler to take the title (from \"Caesar\"), claiming an imperial sovereignty borrowed from Byzantium.",
+      "wikiSlug": "Ivan_the_Terrible",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-055",
+      "label": "The great Moscow fire and revolt of 1547",
+      "year": 1547,
+      "description": "A catastrophic fire and a popular uprising shook the new tsar in his first year; the trauma, the chronicles say, turned the young Ivan toward serious reform with his trusted advisers.",
+      "wikiSlug": "Ivan_the_Terrible",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-056",
+      "label": "The Chosen Council and the reform years",
+      "year": 1549,
+      "description": "Guided by a circle of advisers (later called the Chosen Council), the young Ivan IV called Russia's first national assembly, reformed law and the army, and looked like a model reforming monarch.",
+      "wikiSlug": "Chosen_Council",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-057",
+      "label": "The first Zemsky Sobor",
+      "year": 1549,
+      "description": "Ivan IV summoned the first Zemsky Sobor, an \"assembly of the land\" drawing clergy, nobles, and townsmen, a consultative body that would matter most when the throne itself collapsed in the Troubles.",
+      "wikiSlug": "Zemsky_Sobor",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-058",
+      "label": "The Sudebnik of 1550",
+      "year": 1550,
+      "description": "Ivan IV's reformed law code tightened central administration, limited the nobles' judicial power, and further restricted peasant movement, advancing the slow road to full serfdom.",
+      "wikiSlug": "Sudebnik_of_1550",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-059",
+      "label": "The Stoglav Council",
+      "year": 1551,
+      "description": "A great church council, the Stoglav (\"Hundred Chapters\"), codified Russian religious practice in a hundred rulings; its decisions on ritual would later become the fault line of the Church schism.",
+      "wikiSlug": "Stoglavy_Synod",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-060",
+      "label": "The conquest of Kazan",
+      "year": 1552,
+      "description": "Ivan IV stormed Kazan, capital of a Muslim Tatar khanate on the middle Volga, a turning of the tables that made Russia for the first time a multi-ethnic, multi-faith empire conquering its former overlords.",
+      "wikiSlug": "Siege_of_Kazan",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-061",
+      "label": "The conquest of Astrakhan",
+      "year": 1556,
+      "description": "Russia took Astrakhan at the mouth of the Volga, giving Moscow control of the whole river to the Caspian Sea and opening the road to trade with Persia and the conquest of Siberia.",
+      "wikiSlug": "Astrakhan_Khanate",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-062",
+      "label": "Saint Basil's Cathedral",
+      "year": 1561,
+      "description": "To commemorate the taking of Kazan, Ivan IV raised the wildly colorful Cathedral of the Intercession on Red Square, known as Saint Basil's, the most recognizable building in Russia.",
+      "wikiSlug": "Saint_Basil%27s_Cathedral",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-063",
+      "label": "The English open the White Sea route",
+      "year": 1553,
+      "description": "Richard Chancellor's English expedition, seeking a northeast passage, landed at the White Sea and reached Ivan's court, opening direct Russian trade with Western Europe and the Muscovy Company.",
+      "wikiSlug": "Richard_Chancellor",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-064",
+      "label": "Ivan Fyodorov prints the first Russian book",
+      "year": 1564,
+      "description": "Ivan Fyodorov produced the Apostol, the first dated printed book in Russia; popular hostility soon drove him abroad, a sign of how suspicious Muscovy was of the printed word.",
+      "wikiSlug": "Ivan_Fyodorov_(printer)",
+      "tier": 2,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-065",
+      "label": "The Livonian War begins",
+      "year": 1558,
+      "description": "Ivan IV invaded Livonia (roughly modern Latvia and Estonia) to win a Baltic outlet, beginning a grinding twenty-five-year war that drew in Poland, Lithuania, and Sweden and ended in exhaustion and defeat.",
+      "wikiSlug": "Livonian_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-066",
+      "label": "The death of Anastasia Romanovna",
+      "year": 1560,
+      "description": "The death of Ivan's beloved first wife Anastasia, of the Romanov family, is traditionally cast as the moment the tsar's mind darkened toward paranoia and terror; how much is myth is impossible to say.",
+      "wikiSlug": "Anastasia_Romanovna",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-067",
+      "label": "The defection of Prince Kurbsky",
+      "year": 1564,
+      "description": "Ivan's commander and friend Prince Andrei Kurbsky fled to Lithuania and exchanged furious open letters with the tsar; their correspondence is a rare window into how Russians argued about tyranny and loyalty.",
+      "wikiSlug": "Andrei_Kurbsky",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-068",
+      "label": "Ivan abandons Moscow, then returns on his terms",
+      "year": 1564,
+      "description": "Ivan dramatically left the capital and threatened to abdicate, then returned only when granted unlimited power to punish \"traitors\" as he saw fit, a piece of political theater that birthed the oprichnina.",
+      "wikiSlug": "Oprichnina",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-069",
+      "label": "The oprichnina established",
+      "year": 1565,
+      "description": "Ivan carved out a personal domain, the oprichnina, run by black-clad enforcers (oprichniki) who terrorized the old nobility with confiscation, torture, and execution in the tsar's name.",
+      "wikiSlug": "Oprichnina",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-070",
+      "label": "The sack of Novgorod",
+      "year": 1570,
+      "description": "Suspecting treason, Ivan's oprichniki descended on Novgorod and massacred its people for weeks, the worst single atrocity of the terror, leaving the old republic permanently broken.",
+      "wikiSlug": "Massacre_of_Novgorod",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-071",
+      "label": "Metropolitan Philip defies and dies",
+      "year": 1569,
+      "description": "Metropolitan Philip II openly condemned the oprichnina's bloodshed to Ivan's face, was deposed, and was strangled by the tsar's henchman Malyuta Skuratov, a rare voice of conscience and a martyr.",
+      "wikiSlug": "Philip_II,_Metropolitan_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-072",
+      "label": "The Crimean Tatars burn Moscow",
+      "year": 1571,
+      "description": "The Crimean khan Devlet Giray broke through and burned Moscow to the ground, a humiliation that exposed how badly the oprichnina had wrecked Russia's defenses.",
+      "wikiSlug": "Fire_of_Moscow_(1571)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-073",
+      "label": "Battle of Molodi",
+      "year": 1572,
+      "description": "A reunited Russian army shattered a far larger Crimean-Ottoman invasion at Molodi, saving Moscow; soon afterward Ivan quietly abolished the discredited oprichnina.",
+      "wikiSlug": "Battle_of_Molodi",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-074",
+      "label": "Yermak and the conquest of Siberia begins",
+      "year": 1582,
+      "description": "Backed by the merchant Stroganov family, the Cossack chieftain Yermak crossed the Urals and defeated the Khanate of Sibir, opening the staggering Russian expansion across the whole of northern Asia.",
+      "wikiSlug": "Yermak_Timofeyevich",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-075",
+      "label": "Ivan kills his son and heir",
+      "year": 1581,
+      "description": "In a rage Ivan struck and killed his capable son and heir Ivan Ivanovich, an act of family destruction that doomed the dynasty and is fixed forever in Repin's famous painting.",
+      "wikiSlug": "Ivan_Ivanovich_(son_of_Ivan_IV)",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-076",
+      "label": "Death of Ivan the Terrible",
+      "year": 1584,
+      "description": "Ivan IV died at the chessboard, leaving the throne to his pious but feeble son Fyodor and a regency dominated by the able boyar Boris Godunov.",
+      "wikiSlug": "Ivan_the_Terrible",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-077",
+      "label": "The Moscow Patriarchate established",
+      "year": 1589,
+      "description": "Boris Godunov engineered the elevation of the Russian Church's head to patriarch, the fifth in Orthodox Christendom, a coup of prestige that made Moscow a full pillar of the Orthodox world.",
+      "wikiSlug": "Patriarch_Job_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-078",
+      "label": "Peasants bound to the land",
+      "year": 1592,
+      "description": "Under Godunov the right of peasants to leave their lords on St. George's Day was suspended, a decisive step that effectively chained the peasantry to the soil and built Russian serfdom.",
+      "wikiSlug": "Serfdom_in_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-079",
+      "label": "The death of the Tsarevich Dmitry at Uglich",
+      "year": 1591,
+      "description": "Ivan's youngest son Dmitry died mysteriously at Uglich, throat cut, ruled an accident at the time; the unsolved death would haunt Russia as impostor after impostor claimed to be the surviving prince.",
+      "wikiSlug": "Dmitry_of_Uglich",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-080",
+      "label": "Boris Godunov elected tsar",
+      "year": 1598,
+      "description": "When the childless Fyodor died, the seven-hundred-year Rurikid dynasty ended; the Zemsky Sobor elected Boris Godunov tsar, but a non-royal ruler's legitimacy was fatally shaky.",
+      "wikiSlug": "Boris_Godunov",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-081",
+      "label": "The Great Famine",
+      "year": 1601,
+      "description": "Three years of summer frosts (likely the climate aftershock of a Peruvian volcanic eruption) destroyed the harvests; perhaps two million Russians starved, breaking faith in Godunov and lighting the Troubles.",
+      "wikiSlug": "Russian_famine_of_1601%E2%80%931603",
+      "tier": 1,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-082",
+      "label": "The first False Dmitry",
+      "year": 1605,
+      "description": "A man claiming to be the murdered Tsarevich Dmitry, backed by Polish nobles, marched on Moscow; when Godunov suddenly died, the impostor was welcomed in and crowned tsar.",
+      "wikiSlug": "False_Dmitry_I",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-083",
+      "label": "The murder of False Dmitry I",
+      "year": 1606,
+      "description": "After barely a year his Polish entourage and Catholic ways enraged Moscow; a mob killed the false tsar, burned his body, and fired the ashes from a cannon back toward Poland.",
+      "wikiSlug": "False_Dmitry_I",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-084",
+      "label": "Vasily Shuisky and the Bolotnikov revolt",
+      "year": 1606,
+      "description": "The boyar Vasily Shuisky seized the throne, but a vast peasant-and-Cossack uprising under Ivan Bolotnikov nearly toppled him, the chaos spiraling as central authority dissolved.",
+      "wikiSlug": "Vasili_IV_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-085",
+      "label": "The second False Dmitry",
+      "year": 1607,
+      "description": "A second pretender, the \"Brigand of Tushino,\" set up a rival court outside Moscow and split the country in two, with nobles changing sides for pay in a state that had effectively ceased to exist.",
+      "wikiSlug": "False_Dmitry_II",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-086",
+      "label": "The Polish-Lithuanian invasion",
+      "year": 1609,
+      "description": "King Sigismund III of Poland-Lithuania dropped the pretense of pretenders and invaded outright, besieging Smolensk and aiming to put his own son on the Russian throne.",
+      "wikiSlug": "Polish%E2%80%93Russian_War_(1609%E2%80%931618)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-087",
+      "label": "Battle of Klushino",
+      "year": 1610,
+      "description": "A small Polish army of winged hussars annihilated a much larger Russian-Swedish force at Klushino, opening the road to Moscow and toppling Tsar Shuisky.",
+      "wikiSlug": "Battle_of_Klushino",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-088",
+      "label": "The Poles occupy the Moscow Kremlin",
+      "year": 1610,
+      "description": "A council of seven boyars, the \"Seven Boyars,\" invited the Polish prince Wladyslaw to be tsar and let a Polish garrison into the Kremlin, the lowest point of Russia's near-dissolution.",
+      "wikiSlug": "Seven_Boyars",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-089",
+      "label": "Patriarch Hermogenes calls for resistance",
+      "year": 1611,
+      "description": "The imprisoned Patriarch Hermogenes smuggled out letters urging Russians to rise against the Catholic occupiers; starved to death by the Poles, he became the spiritual rallying point of the liberation.",
+      "wikiSlug": "Patriarch_Hermogenes_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-090",
+      "label": "Minin and Pozharsky raise the second militia",
+      "year": 1611,
+      "description": "In Nizhny Novgorod the merchant-butcher Kuzma Minin raised money and Prince Dmitry Pozharsky raised an army, a grassroots national rising to free Moscow without a tsar to command it.",
+      "wikiSlug": "Kuzma_Minin",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-091",
+      "label": "The liberation of Moscow",
+      "year": 1612,
+      "description": "Minin and Pozharsky's army stormed Moscow and forced the starving Polish garrison in the Kremlin to surrender, the deliverance celebrated to this day as Russia's Unity Day.",
+      "wikiSlug": "Battle_of_Moscow_(1612)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-092",
+      "label": "Michael Romanov elected tsar",
+      "year": 1613,
+      "description": "A great Zemsky Sobor elected the sixteen-year-old Michael Romanov tsar, founding the dynasty that would rule Russia for three centuries and ending the Time of Troubles.",
+      "wikiSlug": "Michael_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-093",
+      "label": "The legend of Ivan Susanin",
+      "year": 1613,
+      "description": "A peasant named Ivan Susanin reputedly saved the young tsar by leading a Polish search party astray into the forest to die; later made a national hero and the subject of Russia's first great opera.",
+      "wikiSlug": "Ivan_Susanin",
+      "tier": 3,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-094",
+      "label": "Peace with Sweden and Poland",
+      "year": 1618,
+      "description": "The Truce of Deulino with Poland and the earlier peace with Sweden ended the wars of the Troubles, but at the cost of Smolensk and the Baltic coast, leaving Russia landlocked and humiliated.",
+      "wikiSlug": "Truce_of_Deulino",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-095",
+      "label": "Patriarch Filaret co-rules with his son",
+      "year": 1619,
+      "description": "Michael's father Filaret returned from Polish captivity, became patriarch, and effectively ran the government as co-ruler, stabilizing the shattered state and rebuilding royal authority.",
+      "wikiSlug": "Patriarch_Filaret_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-096",
+      "label": "Cossacks take and offer up Azov",
+      "year": 1637,
+      "description": "Don Cossacks seized the Ottoman fortress of Azov and held it through a famous siege, then offered it to the tsar; Moscow, fearing war with the Turks, reluctantly refused the dangerous gift.",
+      "wikiSlug": "Azov",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-097",
+      "label": "Tsar Alexis 'the Quietest'",
+      "year": 1645,
+      "description": "Alexis Mikhailovich, called \"the Quietest\" for his piety, came to the throne; under him Russia expanded, codified its laws, split its Church, and yet was wracked by revolt after revolt.",
+      "wikiSlug": "Alexis_of_Russia",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-098",
+      "label": "The Salt Riot",
+      "year": 1648,
+      "description": "A hated tax on salt triggered a violent Moscow uprising that forced the tsar to surrender his most unpopular ministers, one of a wave of urban revolts that shook Alexis's reign.",
+      "wikiSlug": "Salt_Riot",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-099",
+      "label": "The Sobornoye Ulozhenie law code",
+      "year": 1649,
+      "description": "Alexis's great law code, the Ulozhenie, the foundation of Russian law for two centuries, finally bound the peasants to their lords forever, making serfdom hereditary and total.",
+      "wikiSlug": "Sobornoye_Ulozhenie",
+      "tier": 1,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-100",
+      "label": "Khmelnytsky's Cossack uprising",
+      "year": 1648,
+      "description": "Bohdan Khmelnytsky led the Zaporozhian Cossacks of Ukraine in a massive revolt against Polish rule, a war that would draw Russia into the contest for Ukraine.",
+      "wikiSlug": "Khmelnytsky_Uprising",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-101",
+      "label": "The Pereyaslav Agreement annexes Ukraine",
+      "year": 1654,
+      "description": "Seeking protection from Poland, Khmelnytsky's Cossacks swore allegiance to the tsar at Pereyaslav, bringing left-bank Ukraine under Moscow, an act still fiercely argued over by Russians and Ukrainians.",
+      "wikiSlug": "Pereiaslav_Agreement",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-102",
+      "label": "The Thirteen Years' War with Poland",
+      "year": 1654,
+      "description": "Russia's intervention in Ukraine triggered a long war with Poland-Lithuania that ended with Moscow recovering Smolensk and securing Kiev and the left bank of the Dnieper.",
+      "wikiSlug": "Russo-Polish_War_(1654%E2%80%931667)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-103",
+      "label": "Patriarch Nikon's reforms",
+      "year": 1653,
+      "description": "Patriarch Nikon ordered Russian ritual corrected to match Greek practice, changing how the faithful crossed themselves, spelled Jesus's name, and chanted, convinced Russia's books had drifted into error.",
+      "wikiSlug": "Patriarch_Nikon_of_Moscow",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-104",
+      "label": "The Old Believer schism",
+      "year": 1666,
+      "description": "A church council confirmed Nikon's reforms and anathematized those who refused; the dissenters, the Old Believers, broke away in a schism (raskol) that splintered Russian Orthodoxy permanently.",
+      "wikiSlug": "Old_Believers",
+      "tier": 1,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-105",
+      "label": "Archpriest Avvakum",
+      "year": 1672,
+      "description": "The fiery Archpriest Avvakum led the Old Believer resistance and wrote the first Russian autobiography in jail before being burned at the stake; many followers chose self-immolation over the new rites.",
+      "wikiSlug": "Avvakum",
+      "tier": 2,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-106",
+      "label": "The fall of Patriarch Nikon",
+      "year": 1666,
+      "description": "Nikon overreached, claiming the Church stood above the tsar; Alexis broke him, and a council deposed the patriarch, settling that in Russia the crown, not the Church, was supreme.",
+      "wikiSlug": "Patriarch_Nikon_of_Moscow",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-107",
+      "label": "The Solovetsky Monastery uprising",
+      "year": 1668,
+      "description": "The monks of the great northern Solovetsky Monastery refused the new service books and held out behind their walls for eight years against the tsar's troops, a famous stand of the Old Belief.",
+      "wikiSlug": "Solovetsky_Monastery_uprising",
+      "tier": 3,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-108",
+      "label": "Stenka Razin's rebellion",
+      "year": 1670,
+      "description": "The Don Cossack Stenka Razin led a vast revolt of Cossacks, runaway serfs, and Volga peoples against the boyars and the bound order, raging across the southeast before he was captured and quartered.",
+      "wikiSlug": "Stepan_Razin",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-109",
+      "label": "Simeon of Polotsk and Western learning",
+      "year": 1664,
+      "description": "The Belarusian monk Simeon of Polotsk brought Latin-Polish baroque learning, verse, and tutoring to Alexis's court, an early crack through which Western culture began seeping into Muscovy.",
+      "wikiSlug": "Simeon_of_Polotsk",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-110",
+      "label": "The first Russian theater at court",
+      "year": 1672,
+      "description": "Tsar Alexis allowed the first theatrical performance staged in Russia at his court, a small Western novelty that horrified traditionalists and hinted at the Europeanizing to come.",
+      "wikiSlug": "Alexis_of_Russia",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-111",
+      "label": "The Russo-Ottoman war over Ukraine",
+      "year": 1676,
+      "description": "Russia fought the Ottoman Empire and its Crimean vassals over right-bank Ukraine, an exhausting frontier war that ended in a stalemate truce at Bakhchisarai in 1681.",
+      "wikiSlug": "Russo-Turkish_War_(1676%E2%80%931681)",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-112",
+      "label": "Death of Alexis and the disputed succession",
+      "year": 1676,
+      "description": "Alexis left two sets of heirs by two wives, the sickly Miloslavsky sons Fyodor and Ivan and the vigorous Naryshkin boy Peter, a split that would tear the court apart.",
+      "wikiSlug": "Feodor_III_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-113",
+      "label": "Abolition of mestnichestvo",
+      "year": 1682,
+      "description": "Tsar Fyodor III abolished mestnichestvo, the rigid system that assigned office by aristocratic precedence rather than merit, clearing ground for the meritocratic service state Peter would build.",
+      "wikiSlug": "Mestnichestvo",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-114",
+      "label": "The Streltsy uprising of 1682",
+      "year": 1682,
+      "description": "The Streltsy, Russia's hereditary musketeer guards, mutinied and butchered Naryshkin relatives before the boy Peter's eyes, a trauma that left him with a lifelong loathing of old Moscow and its guards.",
+      "wikiSlug": "Moscow_uprising_of_1682",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-115",
+      "label": "The regency of Sophia Alekseyevna",
+      "year": 1682,
+      "description": "Peter's half-sister Sophia seized power as regent for the boy co-tsars Ivan and Peter, the first woman to rule Russia, governing through her favorite Vasily Golitsyn.",
+      "wikiSlug": "Sophia_Alekseyevna",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-116",
+      "label": "Peter's play regiments in the German Quarter",
+      "year": 1686,
+      "description": "Sidelined as a boy, Peter drilled \"toy\" regiments and haunted Moscow's German Quarter of foreign merchants and soldiers, soaking up Western ways that would shape his vision of Russia.",
+      "wikiSlug": "Peter_the_Great",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-117",
+      "label": "Peter overthrows Sophia",
+      "year": 1689,
+      "description": "When Sophia's faction moved against him, the seventeen-year-old Peter rallied support, forced her into a convent, and took real power into his own hands.",
+      "wikiSlug": "Sophia_Alekseyevna",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-118",
+      "label": "The Azov campaigns",
+      "year": 1696,
+      "description": "Peter's first war was against the Ottomans at Azov; failing without a fleet, he built one in a single winter and took the fortress, his first lesson that Russia needed ships and the sea.",
+      "wikiSlug": "Azov_campaigns_(1695%E2%80%931696)",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-119",
+      "label": "The Grand Embassy to Europe",
+      "year": 1697,
+      "description": "Peter traveled incognito across Western Europe, working in Dutch and English shipyards with his own hands, the first Russian ruler to go abroad and the turning point of his Westernizing zeal.",
+      "wikiSlug": "Grand_Embassy_of_Peter_the_Great",
+      "tier": 1,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-120",
+      "label": "Crushing the last Streltsy revolt",
+      "year": 1698,
+      "description": "Rushing home to a Streltsy mutiny, Peter presided over mass torture and hundreds of public executions, hanging bodies outside Sophia's window, and disbanded the old guard for good.",
+      "wikiSlug": "Streltsy_uprising",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-121",
+      "label": "The beard tax and Western dress",
+      "year": 1698,
+      "description": "Peter personally cut the beards of his boyars and ordered Western clothing, taxing beards for those who clung to them, a deliberately shocking break with the look of holy old Muscovy.",
+      "wikiSlug": "Beard_tax",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-122",
+      "label": "The new calendar",
+      "year": 1700,
+      "description": "Peter moved Russia's New Year from September to January and began counting years from the birth of Christ rather than from the supposed creation of the world, wrenching Russia onto the European clock.",
+      "wikiSlug": "Peter_the_Great",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-123",
+      "label": "The Great Northern War begins",
+      "year": 1700,
+      "description": "Peter joined a coalition against Sweden, the Baltic superpower, to win a sea outlet, beginning a twenty-one-year war that would decide whether Russia became a European great power.",
+      "wikiSlug": "Great_Northern_War",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-124",
+      "label": "The disaster at Narva",
+      "year": 1700,
+      "description": "The teenage Swedish king Charles XII routed Peter's far larger army in a snowstorm at Narva, a humiliation that forced Peter to rebuild his army from scratch on European lines.",
+      "wikiSlug": "Battle_of_Narva_(1700)",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-125",
+      "label": "The founding of Saint Petersburg",
+      "year": 1703,
+      "description": "On marshy land newly seized from Sweden Peter founded Saint Petersburg, his \"window on the West,\" built on the bones of conscripted laborers and meant from the start to replace Moscow.",
+      "wikiSlug": "Saint_Petersburg",
+      "tier": 1,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-126",
+      "label": "The Battle of Poltava",
+      "year": 1709,
+      "description": "Peter's rebuilt army destroyed Charles XII's invading Swedes deep in Ukraine at Poltava, the decisive victory that broke Swedish power and announced Russia as a European military power.",
+      "wikiSlug": "Battle_of_Poltava",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-127",
+      "label": "Mazepa's defection",
+      "year": 1708,
+      "description": "The Ukrainian Cossack hetman Ivan Mazepa abandoned Peter for Charles XII just before Poltava, a betrayal that ended Cossack autonomy and made Mazepa a hero to Ukrainians and a traitor to Russians.",
+      "wikiSlug": "Ivan_Mazepa",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-128",
+      "label": "The first Russian newspaper",
+      "year": 1703,
+      "description": "Peter founded Vedomosti, the first printed Russian newspaper, and pushed a simplified civil alphabet and translated technical books, dragging Russian print culture into the modern age.",
+      "wikiSlug": "Peter_the_Great",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-129",
+      "label": "The abolition of the Patriarchate",
+      "year": 1700,
+      "description": "When Patriarch Adrian died Peter refused to appoint a successor and later replaced the office with a state-run Holy Synod, finishing the subjugation of the Church begun under Alexis.",
+      "wikiSlug": "Most_Holy_Synod",
+      "tier": 2,
+      "tags": [],
+      "category": "religion"
+    },
+    {
+      "id": "evt-muscovite-russia-130",
+      "label": "The Pruth campaign disaster",
+      "year": 1711,
+      "description": "Overconfident after Poltava, Peter blundered into an Ottoman trap on the Pruth River and had to buy his army's escape by handing Azov back to the Turks, a humbling check on his ambitions.",
+      "wikiSlug": "Pruth_River_Campaign",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-131",
+      "label": "The Table of Ranks",
+      "year": 1722,
+      "description": "Peter's Table of Ranks tied a nobleman's status entirely to state service, replacing birth with merit and binding the whole gentry to lifelong duty to the crown.",
+      "wikiSlug": "Table_of_Ranks",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-132",
+      "label": "The fate of the Tsarevich Alexei",
+      "year": 1718,
+      "description": "Peter's heir Alexei, who hated his father's reforms, fled abroad, was lured home, tried for treason, and died under torture, the son sacrificed to the father's project of a new Russia.",
+      "wikiSlug": "Alexei_Petrovich,_Tsarevich_of_Russia",
+      "tier": 2,
+      "tags": [],
+      "category": "people"
+    },
+    {
+      "id": "evt-muscovite-russia-133",
+      "label": "The Peace of Nystad",
+      "year": 1721,
+      "description": "The Treaty of Nystad ended the Great Northern War with Russia winning the Baltic provinces and a permanent sea coast, the prize Peter had fought twenty-one years to take from Sweden.",
+      "wikiSlug": "Treaty_of_Nystad",
+      "tier": 1,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-134",
+      "label": "Peter proclaimed Emperor of All Russia",
+      "year": 1721,
+      "description": "In the wake of victory the Senate hailed Peter as \"Emperor of All Russia,\" formally transforming the Tsardom of Muscovy into the Russian Empire and closing the Muscovite age.",
+      "wikiSlug": "Russian_Empire",
+      "tier": 1,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-135",
+      "label": "The Domostroi household manual",
+      "year": 1556,
+      "description": "The Domostroi, a manual of household and moral order from Ivan IV's era, prescribed the patriarchal, pious, hierarchical Muscovite household down to wife-beating, a vivid portrait of everyday values.",
+      "wikiSlug": "Domostroy",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-136",
+      "label": "The Stroganov merchant dynasty",
+      "year": 1558,
+      "description": "The Stroganovs, granted vast lands and salt and fur monopolies along the Kama and Urals, became Russia's richest merchants and the private engine behind the conquest of Siberia.",
+      "wikiSlug": "Stroganov_family",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-137",
+      "label": "The Siberian fur rush",
+      "year": 1600,
+      "description": "Sable and other furs from newly conquered Siberia, the \"soft gold\" paid as tribute (yasak) by native peoples, became the Russian treasury's single greatest source of revenue.",
+      "wikiSlug": "Fur_trade",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-138",
+      "label": "Russians reach the Pacific",
+      "year": 1639,
+      "description": "Cossack explorers crossed all of Siberia and reached the Pacific Ocean within sixty years of Yermak, the fastest land-empire expansion in history, driven by the hunt for furs.",
+      "wikiSlug": "Ivan_Moskvitin",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-139",
+      "label": "The founding of Nerchinsk and the China treaty",
+      "year": 1689,
+      "description": "Russia's eastward sprawl collided with Qing China; the Treaty of Nerchinsk, mediated in Latin by Jesuits, fixed the first border between the two empires and opened the China trade.",
+      "wikiSlug": "Treaty_of_Nerchinsk",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-140",
+      "label": "The pomestie service-land system",
+      "year": 1480,
+      "description": "Moscow rewarded its cavalrymen with pomestie, estates held only in return for military service, a system that tied the gentry to the state and steadily ground the peasants on those estates into serfdom.",
+      "wikiSlug": "Pomeshchik",
+      "tier": 2,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-141",
+      "label": "The boyars and the Boyar Duma",
+      "year": 1450,
+      "description": "The boyars, Russia's hereditary high aristocracy, advised the ruler through a council called the Boyar Duma; the long story of Muscovite politics is the crown slowly crushing their independence.",
+      "wikiSlug": "Boyar",
+      "tier": 2,
+      "tags": [],
+      "category": "rulers"
+    },
+    {
+      "id": "evt-muscovite-russia-142",
+      "label": "The copper coinage and the Copper Riot",
+      "year": 1662,
+      "description": "To pay for the Polish war Alexis flooded Russia with copper coins valued as silver; runaway inflation sparked the Copper Riot, a bloody Moscow uprising that forced him to scrap the scheme.",
+      "wikiSlug": "Copper_Riot",
+      "tier": 3,
+      "tags": [],
+      "category": "trade"
+    },
+    {
+      "id": "evt-muscovite-russia-143",
+      "label": "The Tsar Bell and Cannon tradition",
+      "year": 1586,
+      "description": "Muscovy's foundries cast colossal showpiece bronzes like the Tsar Cannon, the largest bombard ever made, monuments of state power as much as weapons of war.",
+      "wikiSlug": "Tsar_Cannon",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-144",
+      "label": "The tent-roof church style",
+      "year": 1532,
+      "description": "Russian builders developed the soaring stone tent roof, first at the Ascension Church at Kolomenskoye, a distinctively Russian form that broke from the Byzantine dome and that Nikon would later ban as un-Orthodox.",
+      "wikiSlug": "Church_of_the_Ascension,_Kolomenskoye",
+      "tier": 2,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-145",
+      "label": "The Novodevichy Convent",
+      "year": 1524,
+      "description": "Vasily III founded the fortified Novodevichy Convent outside Moscow to mark the recapture of Smolensk; it became the gilded prison of choice for inconvenient royal women, including Peter's sister Sophia.",
+      "wikiSlug": "Novodevichy_Convent",
+      "tier": 3,
+      "tags": [],
+      "category": "architecture"
+    },
+    {
+      "id": "evt-muscovite-russia-146",
+      "label": "The Trinity-Sergius Lavra withstands the Poles",
+      "year": 1608,
+      "description": "During the Troubles the great fortified monastery founded by Sergius of Radonezh endured a sixteen-month Polish siege, its resistance a beacon that helped rally the national rising.",
+      "wikiSlug": "Siege_of_Troitsky_monastery",
+      "tier": 2,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-147",
+      "label": "Simon Ushakov and the new icon style",
+      "year": 1668,
+      "description": "The court painter Simon Ushakov softened the flat medieval icon with Western shading and realism, a quiet artistic revolution that paralleled the Westernizing of Alexis's court.",
+      "wikiSlug": "Simon_Ushakov",
+      "tier": 3,
+      "tags": [],
+      "category": "writing"
+    },
+    {
+      "id": "evt-muscovite-russia-148",
+      "label": "The Slavic-Greek-Latin Academy",
+      "year": 1687,
+      "description": "Moscow's first institution of higher learning, the Slavic-Greek-Latin Academy, opened to train clergy and officials, a hesitant step toward formal education that Peter would soon overtake.",
+      "wikiSlug": "Slavic_Greek_Latin_Academy",
+      "tier": 3,
+      "tags": [],
+      "category": "science"
+    },
+    {
+      "id": "evt-muscovite-russia-149",
+      "label": "Gentry cavalry gives way to new-model regiments",
+      "year": 1630,
+      "description": "From the Smolensk War on, Russia hired foreign officers to drill Western-style infantry and dragoon \"regiments of the new order,\" the slow modernization of the army that Peter would complete.",
+      "wikiSlug": "Regiments_of_the_new_order",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-150",
+      "label": "The Smolensk War",
+      "year": 1632,
+      "description": "Russia tried and failed to retake Smolensk from Poland after Filaret's death, a defeat that exposed how badly its old gentry army needed Western reform.",
+      "wikiSlug": "Smolensk_War",
+      "tier": 3,
+      "tags": [],
+      "category": "wars"
+    },
+    {
+      "id": "evt-muscovite-russia-151",
+      "label": "The annexation of Kiev confirmed",
+      "year": 1686,
+      "description": "The Eternal Peace of 1686 with Poland permanently confirmed Russian possession of Kiev and the left bank, formally recovering the old Rus' mother-city lost since the Mongols.",
+      "wikiSlug": "Eternal_Peace_Treaty_of_1686",
+      "tier": 3,
+      "tags": [],
+      "category": "rulers"
+    }
+  ]
+}
