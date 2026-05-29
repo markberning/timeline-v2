@@ -238,7 +238,7 @@ text flags** — not "G10 is $$$, defer." Treat the text pass as nearly-Tier-A.
 |---|------|--------|---------------------|--------|
 | 6 | Density backfill | 559 sub-10 chapters, 98/100 civs | **Worst-only + accept rest as legacy** | ☐ |
 | 10 | Term-precision sweep | Scandinavia≠Nordic class corpus-wide | Opportunistic, not a campaign | ☐ |
-| 19 | **Chapter-intro retrofit (G13)** | 102 civs, no `.intros.json` yet | **Committed campaign — author all, user-approved 2026-05-19** | ☐ |
+| 19 | **Chapter-intro retrofit (G13)** | 102 civs, no `.intros.json` yet | **Committed campaign — author all, user-approved 2026-05-19** | ☑ **DONE + DEPLOYED 2026-05-28** — all 102 civs authored + 3-gated (lint-intros --strict + fact-checker + voice critic) in 21 waves; intro-baseline 102→0; ~40 accuracy slips caught & fixed; live on prod (Version `eebb9698`, commit `c2029e3`). |
 
 **#19 is a committed feature backfill, NOT standard drift to tolerate.** The
 chapter-intro framing card + G13 gate (`lint-intros.ts`) shipped 2026-05-19;
