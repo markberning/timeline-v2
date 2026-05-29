@@ -35,13 +35,28 @@ const chapterNums = existsSync(narrPath)
   : []
 
 // 2. Maps: 1:1 with chapters, and no QA-failure artifact (G4/G5).
+// A chapter the map-prompt EXPLICITLY declares map-less ("No map for this
+// chapter") is an authored skip (legacy/thematic chapters where a geographic
+// map would not serve the content) — honor it rather than demand a pointless map.
+const mapSkip = (() => {
+  const pp = join(ROOT, 'map-prompts', `${tlId}.md`)
+  if (!existsSync(pp)) return new Set()
+  const txt = readFileSync(pp, 'utf8')
+  const blocks = txt.split(/^#{1,3}\s+Chapter\s+(\d+)/gm)
+  const skip = new Set()
+  for (let i = 1; i < blocks.length; i += 2) {
+    if (/no map for this chapter/i.test(blocks[i + 1] || '')) skip.add(Number(blocks[i]))
+  }
+  return skip
+})()
 check('maps 1:1 with chapters', () => {
   const dir = join(ROOT, 'public/maps', tlId)
   if (!existsSync(dir)) throw new Error(`no public/maps/${tlId}/`)
   const have = new Set(readdirSync(dir).filter(f => /^chapter-\d+\.(webp|png)$/.test(f)).map(f => Number(f.match(/\d+/)[0])))
-  const missing = chapterNums.filter(n => !have.has(n))
+  const missing = chapterNums.filter(n => !have.has(n) && !mapSkip.has(n))
   if (missing.length) throw new Error(`missing maps for ch ${missing.join(', ')}`)
-  return `${have.size} maps`
+  const skipNote = mapSkip.size ? ` (${mapSkip.size} authored map-less: ch ${[...mapSkip].join(', ')})` : ''
+  return `${have.size} maps${skipNote}`
 })
 check('map QA passed (no MAP-FAILURES artifact)', () => {
   if (existsSync(join(ROOT, `MAP-FAILURES-${tlId}.txt`)))
