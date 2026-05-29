@@ -2,6 +2,9 @@
 // what each icon actually depicts, shown under the icon on the home cards.
 // One entry per civ with a generated emblem (the full shipped set).
 export const ICON_LABELS: Record<string, string> = {
+  'medieval-japan': 'Samurai Helmet',
+  'islamic-persia': 'Astrolabe',
+  'muscovite-russia': "Monomakh's Cap",
   'al-andalus': 'Alhambra',
   'ancestral-puebloans': 'Cliff Palace',
   'ancient-china': 'Bronze Ding',

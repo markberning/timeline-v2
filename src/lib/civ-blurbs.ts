@@ -3,6 +3,9 @@
 // A civ listed here overrides its navigator subtitle on the home card only;
 // civs not listed fall back to `civ.subtitle`.
 export const CIV_BLURBS: Record<string, string> = {
+  'medieval-japan': "Four centuries when the emperor reigned and the sword ruled: shogun, samurai, and warlord, from Kamakura to the eve of the Tokugawa peace.",
+  'islamic-persia': "Conquered by the Arabs, then quietly conquered them back with its own language and learning, and outlasted even the Mongols.",
+  'muscovite-russia': "How a tribute-paying town under the Mongol yoke turned itself into the tsardom that would swallow a continent.",
   'prehistoric-japan': "Made some of the world's first pottery, then spent ten thousand happy years as foragers in no rush to invent farming.",
   'ancient-china': "Two rivers, a great deal of millet, and the slow invention of the idea that one family ought to run everything.",
   'minoan-civilization': "Crete's palace people: indoor plumbing, bull-leaping, and a script nobody can read. Then the volcano next door went off.",

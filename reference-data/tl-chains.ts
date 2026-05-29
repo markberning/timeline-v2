@@ -141,7 +141,8 @@ export const TL_CHAINS: TlChain[] = [
     entries: [
       { timelineId: 'prehistoric-japan', transition: 'In 538, envoys from the Korean kingdom of Baekje presented a Buddhist statue and sutras to the Yamato court. The political crisis that followed launched Japan into the era of literacy, centralized state, and continental influence — the Asuka period.' },
       { timelineId: 'asuka-nara-japan', transition: 'In 794, Emperor Kammu moved the capital to Heian-kyo (modern Kyoto), launching nearly four centuries of courtly literature, aristocratic refinement, and the slow emergence of a warrior class that would eventually overshadow the imperial court.' },
-      { timelineId: 'heian-japan', transition: 'The Genpei War ended the Heian era in 1185. Centuries of warrior rule and civil war followed, until Tokugawa Ieyasu unified Japan in 1603 and established 250 years of isolationist peace.' },
+      { timelineId: 'heian-japan', transition: 'The Genpei War ended the Heian era in 1185, and Minamoto no Yoritomo founded the first shogunate at Kamakura — beginning four centuries of rule by the sword.' },
+      { timelineId: 'medieval-japan', transition: 'After the Kamakura and Ashikaga shogunates, the Mongol invasions, and the long anarchy of the Warring States, three unifiers put Japan back together. Tokugawa Ieyasu won the decisive battle at Sekigahara in 1600 and founded the shogunate that would close the country for 250 years.' },
       { timelineId: 'edo-japan', transition: 'American warships in 1853 forced Japan open. The Tokugawa shogunate collapsed, and the Meiji Emperor launched a crash modernization that transformed Japan into an industrial power in a single generation.' },
       { timelineId: 'meiji-japan', transition: 'Meiji modernization fueled imperial ambitions that culminated in World War II. After devastating defeat, Japan reinvented itself as a pacifist economic powerhouse.' },
       { timelineId: 'japanese-economic-miracle' },
@@ -255,7 +256,8 @@ export const TL_CHAINS: TlChain[] = [
     shortLabel: 'Russia',
     origins: 'The Russian state traces its origins to the medieval Kievan Rus\', a federation of Slavic tribes united by Varangian rulers. Mongol domination from the 13th to 15th centuries shaped Russian political culture before the Muscovite tsars consolidated power.',
     entries: [
-      { timelineId: 'kievan-rus', transition: 'Kyiv fell to the Mongols in 1240, and the Rus\' lands spent two centuries under the Golden Horde. Power drifted north to Moscow, whose grand princes shook off Mongol overlordship, gathered the Russian lands, and took the title of tsar. Out of that Muscovite core, Peter the Great forged the Russian Empire.' },
+      { timelineId: 'kievan-rus', transition: 'Kyiv fell to the Mongols in 1240, and the Rus\' lands spent centuries under the Golden Horde while power drifted north to a small fur-trading town: Moscow.' },
+      { timelineId: 'muscovite-russia', transition: 'Moscow\'s grand princes shook off Mongol overlordship, gathered the Russian lands, and took the title of tsar. Out of that Muscovite core, Peter the Great forged a westward-facing empire and in 1721 proclaimed himself emperor.' },
       { timelineId: 'russian-empire', transition: 'The Russian Empire collapsed in the revolutions of 1917. The Bolsheviks seized power and built the Soviet Union, a communist superpower that would reshape the 20th century.' },
       { timelineId: 'soviet-union' },
     ],
@@ -273,7 +275,8 @@ export const TL_CHAINS: TlChain[] = [
     origins: 'The Iranian plateau has been home to complex societies since at least 3200 BCE. The earliest known civilization in the region, Elam, developed independently of Mesopotamia with its own writing system and cultural traditions.',
     entries: [
       { timelineId: 'elamite-civilization', transition: 'Elam was eventually absorbed into the Achaemenid Persian Empire founded by Cyrus the Great, who built the largest empire the world had yet seen.' },
-      { timelineId: 'persian-empire', transition: 'After Alexander\'s conquest and centuries of Parthian and Sassanid rule, the Safavid dynasty reunified Persia in 1501 and established Shia Islam as the state religion.' },
+      { timelineId: 'persian-empire', transition: 'The Arab conquest toppled the Sassanid empire by 651, and Persia became part of the Islamic world — conquered, but far from erased.' },
+      { timelineId: 'islamic-persia', transition: 'Over the next eight centuries Persia revived its language and learning under the Samanids and Seljuks, survived the Mongol catastrophe, and flowered again under the Timurids — until a teenage warlord, Shah Ismail, reunified it in 1501 and made Shia Islam the state faith.' },
       { timelineId: 'safavid-persia' },
     ],
   },

@@ -16,6 +16,9 @@ const REGION_COLORS = { 'near-east': '#d97706', africa: '#b44d3b', asia: '#7c3ae
 const regions = JSON.parse(readFileSync('/tmp/civ-regions.json', 'utf8'))
 
 const SUBJECTS = {
+  'medieval-japan': 'a horned samurai kabuto helmet',
+  'islamic-persia': 'a brass Persian astrolabe',
+  'muscovite-russia': "Monomakh's Cap, the fur-trimmed gold crown of the tsars",
   'al-andalus': 'the Alhambra palace with its towers', 'ancestral-puebloans': 'a multi-storey cliff-dwelling (Cliff Palace)',
   'ancient-china': 'a Houmuwu ding bronze ritual vessel on four legs', 'ancient-greece': 'the Parthenon temple with columns',
   'ancient-israel': 'a seven-branched menorah lampstand', 'ancient-korea': 'the Cheomseongdae stone observatory tower',
