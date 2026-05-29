@@ -14,7 +14,12 @@
 // produce opaque responses, which can be served back to <img> elements
 // without the page needing crossOrigin="anonymous".
 
-const SHELL_CACHE = 'offline-shell-v2'
+// Bump this version whenever a STABLE-URL asset changes in place (regenerated
+// emblems in /icons-gen, regenerated maps in /maps, sw-cached CSS) — assets are
+// served cache-first, so without a version bump returning visitors keep the old
+// cached copy forever (e.g. the wave-2 emblems stayed gold after a recolor).
+// Bumping wipes the prior shell cache on activate, forcing a fresh fetch.
+const SHELL_CACHE = 'offline-shell-v3'
 const TL_CACHE_PREFIX = 'offline-tl-'
 const TL_CACHE_SUFFIX = '-v1'
 
