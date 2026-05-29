@@ -10,6 +10,13 @@ doubt a number, run it. **Never relay a previous session's "all clean" /
 
 ## ▶ COLD-START HANDOFF — 2026-05-28 (read this FIRST)
 
+**🆕 NEWEST (2026-05-29 ~01:30 PDT — the-17 NEW-CIV build, WAVE 1 of 4 COMPLETE, NOT DEPLOYED):**
+User directive: build the 14 unbuilt civs from `audits/phase-1.5-roster.md` (3 of 17 already done: uyghur-steppe, goryeo-korea, swahili-coast). **Deploy HELD until all 14 are finished** (user: "no deploying till all 14 are done"). Pipeline got 2 added steps first (CLAUDE.md step 13b): civ **emblem + home-card surfaces** now required per new civ; density restated. Backlog **#20** added (event-link popup enrichment: photo + richer writing).
+**Wave 1 SHIPPED-READY (commit `791e3a2`, pushed, hasContent=true, NOT deployed):** `medieval-japan` (14ch), `islamic-persia` (12ch), `muscovite-russia` (12ch). Each ran the FULL gated pipeline: event pool → narrative → 4-persona audit (0 WEAK/REWRITE) → born-verified links (fix-links --strict clean) → density/coverage/intros 0-ERROR → summaries → intros (fact+voice critiqued) → 38 chapter maps (QA-passed) → emblems + chain insertions + navigator entries → cross-civ backward pass (64 cross-links into 9 neighbor civs) → ship-check CLEAR. Tasks #33–35 done.
+**Infra fix this session:** `scripts/audit-maps.mjs` QA model was `gemini-3-pro-preview` (RETIRED, 404s) → now `gemini-3.1-pro-preview` (accurate; 2.5-pro hallucinated, e.g. false "misspelling" flags). **Map QA pipeline corpus-wide now depends on this.**
+**Before the eventual all-14 deploy:** run a FULL `npm run parse` (scoped parses skipped the corpus search-index — it's stale for the 3 new civs) THEN `rm -rf out && npm run build && npx wrangler deploy`.
+**Remaining: 11 civs** (tasks #36–46): age-of-exploration, atlantic-slave-trade, latin-american-independence, ethiopian-empire, great-zimbabwe, kingdom-of-kongo, benin-and-ife, mainland-southeast-asia, tibetan-empire, haudenosaunee, the-franks. Proven wave recipe: plan agents → parallel chapter drafters → 4-persona audit → fix → link curation (born-verified) → coverage resolve → intros + critic → maps (maps-build, watch for QA-model/label defects) → emblems → ship-check → flip. Watch traps: errexit kills `grep`-in-loop monitors (use `tail -f`, `sleep` is blocked); MAP-FAILURES artifacts can be stale (delete before ship-check); fix-links needs a parse first.
+
 **🎉 LATEST (2026-05-28 — backlog #7 link-coverage sweep is COMPLETE corpus-wide):**
 The whole corpus is now at **0 NEW** link-coverage gaps. Final `--corpus` scan:
 **5195 GATE · 0 new · 79057 advisory.** Every civilization passes
