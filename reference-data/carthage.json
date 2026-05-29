@@ -65,51 +65,85 @@
       "id": "evt-dido-founds-carthage",
       "label": "Queen Dido Founds Carthage",
       "year": -814,
-      "description": "Tyrian princess Elissa (later called Dido) fled her brother Pygmalion's murder of her husband and led colonists to the coast of modern Tunisia, where she founded Carthage — 'Qart Hadasht,' the New City — on a defensible peninsula in the Gulf of Tunis.",
+      "description": "The Tyrian princess Elissa — Dido to the Romans — supposedly fled her brother Pygmalion after he murdered her husband for his gold, and sailed west to plant a new city on the North African coast around 814 BCE. We call that city Carthage, but its own people called it Qart Hadasht, plainly enough, \"New City.\"",
       "wikiSlug": "Dido",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Here is the catch with the famous date: 814 BCE comes from the Greek historian Timaeus, and the whole flight-and-founding tale survives only because Greek and Roman writers retold it centuries later. The single most influential version, Virgil's, was written around 20 BCE — roughly eight centuries after the supposed events — and Virgil bent the story badly to suit Rome, even having Dido fall for the Trojan Aeneas and burn herself on a pyre, though the real Aeneas (if he lived at all) would have died some 300 years before Carthage existed. So the woman the West remembers as a tragic lover is mostly a Roman poet's invention draped over a Phoenician colonist we can barely glimpse."
+        }
+      ],
+      "commonsFile": "Meister des Vergilius Vaticanus 001.jpg"
     },
     {
       "id": "evt-byrsa-hill",
       "label": "Byrsa Hill Citadel",
       "year": -814,
-      "description": "The original settlement on Byrsa hill became the fortified acropolis of Carthage, housing the Temple of Eshmun at its summit and later surrounded by residential quarters packed so densely that buildings rose six stories high.",
+      "description": "Byrsa was the steep hill at the heart of Carthage, the acropolis (fortified high point) where the founding legend places Elissa's first settlement and where the city later crowned the summit with the Temple of Eshmun. By the end, the slopes below it were packed with apartment blocks the Romans claimed stood six stories tall.",
       "wikiSlug": "Byrsa",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The six-story figure comes from Appian, and for a long time it sounded like a tall tale — until French excavations on the hill in the 20th century uncovered the ground floors of a planned Punic neighborhood, with blocks of houses built on a grid of straight, crossing streets, each home wrapped around a courtyard with its own water cistern. When the Romans rebuilt their own Carthage on top, they sliced the entire crown off Byrsa to make a flat platform, shearing away the upper city in the process — which is exactly why the Punic layer survives mainly as foundations dug into the hillside below the Roman cut."
+        }
+      ],
+      "commonsFile": "Maison punique byrsa.jpg"
     },
     {
       "id": "evt-carthage-early-trade",
       "label": "Carthaginian Trade Network Established",
       "year": -800,
-      "description": "Carthage developed its own trade routes independent of Tyre, exchanging manufactured goods — pottery, metalwork, textiles — for raw materials from North Africa, Sardinia, and the western Mediterranean, gradually replacing its mother city as the commercial hub of the Punic world.",
+      "description": "Within a couple of generations Carthage was building trade routes of its own, no longer just a Tyrian outpost — swapping its workshops' pottery, metalwork, and dyed cloth for raw materials hauled in from across the western Mediterranean, until it had quietly replaced its own mother city as the commercial hub of the Phoenician west.",
       "wikiSlug": "Ancient_Carthage#Economy",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The real prize was metal, especially the silver and tin of Iberia (modern Spain) — tin being the scarce, indispensable ingredient that turns soft copper into hard bronze. To corner it, Carthaginian captains pushed clear out of the Mediterranean: the explorer Himilco is remembered for sailing up the Atlantic coast toward the tin sources of the far northwest (later legend's \"Tin Islands,\" linked to Brittany and Cornwall), while Hanno coasted south along Africa. The system worked by a kind of monopoly: hand the locals cheap manufactured goods, take away gold, silver, tin, and iron — and guard the sea lanes so jealously that one famous anecdote has a Carthaginian captain deliberately running his own ship aground rather than let a shadowing rival learn the route to the tin."
+        }
+      ],
+      "commonsFile": "Carthago - 350-250 BC - silver tetradrachm - head of Tanit - head of horse and date palm - München SMS.jpg"
     },
     {
       "id": "evt-tophet-sanctuary",
       "label": "Tophet Sanctuary Established",
       "year": -750,
-      "description": "Carthage's sacred precinct dedicated to Tanit and Baal Hammon was established in the city's oldest quarter. The site would accumulate thousands of urns containing cremated remains over six centuries, becoming the most controversial archaeological site in Punic studies.",
+      "description": "The Tophet was Carthage's open-air sacred precinct dedicated to Tanit and Baal Hammon, set up in the oldest part of the city around 750 BCE. Over six centuries it filled with urn after urn of cremated remains, layered under a forest of small carved stone markers — and it remains the single most argued-over site in all of Punic archaeology.",
       "wikiSlug": "Tophet",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale is genuinely startling: excavations of the Carthage Tophet (in the Salammbô district, by the old harbor) have turned up an estimated 20,000 burial urns, stacked layer on layer through the soil from roughly the 8th century BCE down to the city's fall in 146 BCE. Many urns hold a young child; some hold a lamb or kid instead, and a few hold both. The bones are scorched unevenly, the telltale sign of an open-air pyre — collected and buried, but in what spirit, the urns themselves cannot say."
+        }
+      ],
+      "commonsFile": "Stèles tophet Carthage.jpg"
     },
     {
       "id": "evt-child-sacrifice-debate",
       "label": "Child Sacrifice Debate",
       "year": -750,
-      "description": "Greek and Roman authors accused Carthaginians of sacrificing children to Baal Hammon in times of crisis. Modern archaeology confirms infant cremation urns at tophets across the Punic world, but scholars remain bitterly divided on whether the remains reflect ritual sacrifice (the 'molk' offering) or the sacred burial of children who died naturally.",
+      "description": "Greek and Roman writers flatly accused the Carthaginians of burning their own children alive as offerings to the gods — the molk sacrifice — especially when the city was in danger. The trouble is that those writers were Carthage's enemies, and the archaeology that should settle it instead splits modern scholars right down the middle.",
       "wikiSlug": "Religion_in_Carthage#Child_sacrifice",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The fault line runs through the bones themselves. One camp reads the ancient accounts plus the thousands of infant urns as evidence of real ritual killing. The other points out that infant mortality in the ancient world ran somewhere around a third to half of all births, and argues the Tophet was a special cemetery for babies who died young — and that the foreign 'sacrifice' stories are wartime propaganda. Forensic studies of tooth and bone development have been fired back and forth (one famous analysis argued many of the children were too young, or even prenatal, to fit a sacrifice-on-demand story), and no result has won the room. The honest verdict stays: we don't know."
+        }
+      ]
     },
     {
       "id": "evt-punic-colonies-north-africa",
@@ -125,251 +159,414 @@
       "id": "evt-carthage-sardinia",
       "label": "Carthaginian Expansion into Sardinia",
       "year": -650,
-      "description": "Carthage took control of Phoenician colonies in Sardinia, exploiting the island's metal ores and strategic position. Sardinia became one of Carthage's most important overseas possessions, held until Rome seized it after the First Punic War.",
+      "description": "Carthage muscled in on the Phoenician trading posts already dotting Sardinia, an island it wanted for its metal ores and its position smack in the middle of the western Mediterranean. It would hold the island for some three centuries — until Rome snatched it after the First Punic War.",
       "wikiSlug": "Phoenician_and_Punic_Sardinia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The takeover wasn't peaceful real estate: archaeology and the sources point to hard fighting that brought Sardinia firmly under Carthaginian control by around 510 BCE, against both the indigenous Nuragic people of the interior and the older coastal towns. Inland Carthage planted fortified strongholds like Monte Sirai — one of the most complete Phoenician-Punic settlements ever excavated — to lock down the agricultural plains and the mines beyond. There the worlds blended: Punic-style tombs were cut using the massive-block stoneworking techniques the local Nuragic builders had perfected, a Levantine design built with Sardinian hands."
+        }
+      ],
+      "commonsFile": "Tharros - panoramio (1).jpg"
     },
     {
       "id": "evt-punic-script",
       "label": "Punic Script Development",
       "year": -650,
-      "description": "Carthaginian scribes adapted the Phoenician alphabet into the Punic script, a cursive variant that spread across North Africa and the western Mediterranean. Punic inscriptions — mostly votive dedications and funerary texts — are found from Sardinia to Morocco.",
+      "description": "Carthage's scribes took the Phoenician alphabet they inherited from Tyre and ran with it, developing the Punic script — a faster, more flowing cursive whose votive and funerary inscriptions turn up from Sardinia to Morocco. It even outlived the city: Neo-Punic inscriptions appear in North Africa centuries after Rome burned Carthage.",
       "wikiSlug": "Punic_language",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The whole writing system has no vowels at all — just 22 consonant signs, running right to left, leaving the reader to supply the vowel sounds (the way you might still parse \"bld\" as \"build\" or \"bold\" from context). That economy is exactly why Phoenicia's descendants of this alphabet eventually seeded the Greek and, through it, the Latin letters you are reading now. The script's survival is vivid in the theater at Leptis Magna in Libya, where a 1st-century CE dedication is carved in Latin and Neo-Punic side by side — proof the old Carthaginian tongue was still being written, in stone, generations after the city itself was rubble."
+        }
+      ],
+      "commonsFile": "Inscription Theatre Leptis Magna Libya.JPG"
     },
     {
       "id": "evt-baal-hammon-worship",
       "label": "Baal Hammon as Chief Deity",
       "year": -650,
-      "description": "Baal Hammon — depicted as a bearded elder with curling ram's horns — rose to become the supreme god of Carthage, eclipsing the Tyrian patron Melqart as the colony asserted its independence from its mother city.",
+      "description": "Baal Hammon was the chief god of Carthage in its early centuries — pictured as a bearded elder, sometimes with a ram's curling horns — and as the colony pulled away from its mother city he steadily eclipsed Melqart, Tyre's old patron, as the supreme power in Carthaginian heaven.",
       "wikiSlug": "Baal_Hammon",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The ram was so bound up with him that across the bay from Carthage he was worshipped as Baal Qarnaim, \"Lord of the Two Horns,\" at an open-air shrine on a twin-peaked mountain still called Jebel Bou Kornine, \"the two-horned hill.\" His very name is a puzzle scholars haven't cracked: \"Hammon\" might mean \"lord of the incense-altar,\" or it might point to Mount Amanus back in the Phoenician homeland. When the Romans later took Carthage, they didn't erase him — they renamed him, folding Baal Hammon into their own god Saturn, who went on to become one of Roman North Africa's most popular deities."
+        }
+      ],
+      "commonsFile": "Terracotta statue of Baal-Hammon on a throne AvL.JPG"
     },
     {
       "id": "evt-melqart-cult-carthage",
       "label": "Melqart Cult and Tyrian Tribute",
       "year": -650,
-      "description": "Carthage maintained the cult of Melqart, the patron god of Tyre, and reportedly sent annual tribute to his temple in Tyre for centuries — a religious obligation that preserved the bond between colony and mother city long after political ties had faded.",
+      "description": "Melqart was the patron god of Tyre, Carthage's mother city, and the colonists kept his cult alive and reportedly shipped tribute east to his temple for centuries — a sacred debt of the daughter to the parent that outlasted any real political tie.",
       "wikiSlug": "Melqart",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Diodorus Siculus put a price on that loyalty: in the early days, he says, Carthage sent the god a full tenth of all its public revenue. But as the city grew fabulously rich, it quietly started sending only a token amount — \"holding the divinity of little account\" — and that neglect was later blamed for the gods' anger when disaster struck. The bond still had teeth in 332 BCE: when Alexander the Great besieged Tyre, the city had sent its women and children to Carthage for safety, and Carthaginian envoys were caught sheltering inside Melqart's own temple. The Greeks, for their part, simply equated Melqart with their Heracles, which is why he so often turns up wearing a hero's lionskin."
+        }
+      ],
+      "commonsFile": "Stela with Melqart on his lion.JPG"
     },
     {
       "id": "evt-carthage-walls",
       "label": "Carthaginian City Walls",
       "year": -600,
-      "description": "Carthage ringed its peninsula with triple fortification walls stretching over 20 miles (32 km), with the landward wall reportedly 45 feet (14 m) high and 30 feet (9 m) thick, incorporating stables for 300 elephants and 4,000 horses within the wall structure itself.",
+      "description": "Carthage wrapped its peninsula in a defensive line stretching over 20 miles (32 km), and along the vulnerable landward side ran a triple wall the Roman historian Appian recorded as 45 feet (14 m) high and 30 feet (9 m) thick — thick enough to garrison war elephants and cavalry inside the masonry itself.",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Appian's description is oddly architectural for an ancient text: the great landward wall was hollow and built in two tiers of vaulted chambers — the lower level stabling 300 war elephants with their feed stores, the upper level holding 4,000 horses plus barracks and stores for some 24,000 troops, all tucked inside the wall. The towers rising along it were themselves four stories tall. His figures almost certainly describe the wall at its final, most developed form on the eve of 146 BCE rather than the original sixth-century circuit — but they help explain why Rome needed three years and a full siege to finally break in."
+        }
+      ],
+      "commonsFile": "Carthage National Museum representation of city.jpg"
     },
     {
       "id": "evt-mago-dynasty-founded",
       "label": "Mago I Founds Magonid Dynasty",
       "year": -580,
       "endYear": -530,
-      "description": "General Mago I seized power and established Carthage's first ruling dynasty, transforming the city from a commercial republic into an aggressive military state that would contest Greek dominance of the central Mediterranean.",
+      "description": "Mago I was the general who turned Carthage into a war machine, founding the Magonid dynasty (the first family to keep the top job in the family for generations). Under him the city stopped being a trading post that occasionally fought and became a military power that happened to trade.",
       "wikiSlug": "Mago_I_of_Carthage",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mago's big idea wasn't a weapon but a hiring policy: Carthage's own population was too small to garrison a sprawling sea-empire, so he leaned hard on subject peoples and paid mercenaries — Libyans, Iberians, Sardinians, Greeks for hire — letting the city project force far beyond what its citizens alone could manage. It worked so well that the Magonids and their relatives effectively ran Carthage for the next two centuries, roughly 550 to 340 BCE. The flip side: an army loyal to its paymasters and generals rather than to citizens would haunt Carthage every time the money ran short."
+        }
+      ]
     },
     {
       "id": "evt-malchus-campaigns",
       "label": "Malchus Campaigns in Sicily and Sardinia",
       "year": -570,
-      "description": "The Carthaginian general Malchus (possibly a title meaning 'king') led successful campaigns to secure Punic positions in western Sicily and Sardinia, but was exiled after a failed expedition to Sardinia and later seized Carthage by force before being executed.",
+      "description": "A shadowy general — \"Malchus\" may not even be a name but a Punic word meaning \"king\" — who supposedly won Carthage land in Sicily and Sardinia before it all went wrong. His story is the first warning sign of a problem that would dog Carthage forever: what to do with a victorious general who points his army at home.",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Roman historian Justin preserves the lurid version: beaten in Sardinia, Malchus was sentenced to exile with his whole army, so he marched on Carthage and besieged it instead. When his own son Carthalo — a priest who refused to defect to his father — fell into his hands, Malchus had him crucified, still in his priestly robes, in full view of the city walls. He took Carthage and executed ten of the senators who had condemned him, then was himself put to death soon after. Historians treat the tale with heavy suspicion; the details may be folklore, and even Malchus's existence is debated."
+        }
+      ]
     },
     {
       "id": "evt-treaty-rome-509",
       "label": "First Treaty with Rome",
       "year": -509,
-      "description": "Carthage and the young Roman Republic signed their first commercial treaty, defining spheres of influence — Rome acknowledged Carthaginian dominance of the western Mediterranean sea lanes, while Carthage recognized Roman authority in Latium. The treaty reveals how early Carthage treated Rome as a minor regional power.",
+      "description": "In 509 BCE the brand-new Roman Republic signed its first treaty with Carthage — and the terms make crystal clear who was the big power and who was the minnow. Carthage was dictating where Romans could even sail.",
       "wikiSlug": "Treaties_between_Rome_and_Carthage",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Polybius preserved the actual clauses, and they're lopsided. Roman ships were forbidden to sail past a certain cape into the Gulf of Carthage at all; if a storm drove a Roman vessel ashore in Carthage's African or Sardinian waters, the crew could buy only what they needed to fix the ship and had to be gone within five days. Roman merchants could trade in Punic Sicily on equal terms, but everywhere else Carthage held the leash. The deal reads less like an agreement between equals and more like a great power formally noticing that a small city in central Italy exists — a city that controlled maybe 300 square miles of farmland at the time."
+        }
+      ]
     },
     {
       "id": "evt-battle-alalia",
       "label": "Battle of Alalia",
       "year": -535,
-      "description": "A joint Carthaginian-Etruscan fleet of 120 ships drove Phocaean Greek colonists from Corsica, dividing the western Mediterranean into Punic and Etruscan spheres of influence and establishing Carthage as the dominant naval power west of Sicily.",
+      "description": "A messy sea fight off Corsica around 535 BCE where a combined Carthaginian-Etruscan fleet took on Greek raiders from Phocaea. The Greeks technically won — and lost anyway, wrecking so many of their own ships that they fled the island for good.",
       "wikiSlug": "Battle_of_Alalia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Herodotus calls it a \"Cadmean victory\" — his phrase for a win so costly it ruins the winner. The roughly 60 Phocaean penteconters (long, single-banked oared warships) drove off a fleet twice their size but came home with about two-thirds of their ships smashed or useless, and the survivors simply abandoned Corsica rather than face a rematch. The captured Greek prisoners got a grim end: ancient accounts say the Etruscans of Caere stoned them to death, and were afterward troubled by omens until the oracle at Delphi told them to hold funeral games in the dead men's honor."
+        }
+      ]
     },
     {
       "id": "evt-hamilcar-i",
       "label": "Hamilcar I of Carthage",
       "year": -510,
       "endYear": -480,
-      "description": "The last great Magonid ruler expanded Carthaginian territory in Sicily and Sardinia, building the military power that would be tested at Himera. His death in the catastrophic defeat of 480 BCE marked the end of the Magonid dynasty's military adventurism.",
+      "description": "The last great Magonid king (not to be confused with Hamilcar Barca, Hannibal's father, centuries later — the name ran in the family like an heirloom). He built up Carthage's forces for a showdown with the Greeks of Sicily that finally came in 480 BCE — and ended in catastrophe.",
       "wikiSlug": "Hamilcar_I_of_Carthage",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hamilcar's invasion of Sicily met the combined Greek armies of Gelon of Syracuse and Theron of Akragas at the Battle of Himera, a defeat so total it knocked Carthage out of Sicilian power-politics for roughly 70 years. His own death became legend: the Carthaginian version says that as he watched his army collapse, Hamilcar threw himself onto the sacrificial fire he had been tending and was consumed — body never found. Greek accounts claim disguised enemy cavalry simply cut him down at the altar. Either way, the Magonid dynasty's military adventures went up in smoke with him."
+        }
+      ]
     },
     {
       "id": "evt-himilco-atlantic",
       "label": "Himilco's Atlantic Voyage",
       "year": -500,
-      "description": "Carthaginian navigator Himilco sailed north along the Atlantic coast of Europe, reaching the tin-producing regions of Brittany or Britain. His voyage established the northern leg of Carthage's Atlantic trade network, complementing Hanno's African exploration.",
+      "description": "While Hanno went south, the navigator Himilco pointed his ships the other way — north out of the Mediterranean and up Europe's Atlantic coast toward the tin lands of Brittany and Britain. He's the first Mediterranean explorer we know of to reach northwestern Europe.",
       "wikiSlug": "Himilco",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We know Himilco mainly from a strange source: a 4th-century-CE Latin poem, Avienus's Ora Maritima, which quotes him three times — and every quote is a horror story. Himilco describes a dead, sluggish sea clogged with so much seaweed it snagged the hulls, no wind, fog, monstrous swells, and beasts lurking among the ships. Historians suspect this wasn't honest journalism but propaganda: terrifying tales meant to scare Greek and Roman rivals away from the priceless Atlantic tin routes. He reportedly took four months to make a crossing that should have been far quicker — possibly more cover story than navigation log."
+        }
+      ]
     },
     {
       "id": "evt-hanno-navigator",
       "label": "Hanno's Voyage Down Africa",
       "year": -500,
-      "description": "Hanno the Navigator led a fleet of sixty ships carrying 30,000 colonists down the West African coast, founding colonies and exploring as far as modern Cameroon or Gabon. His periplus records encounters with gorillas, volcanic eruptions, and peoples unknown to the Mediterranean world — the most ambitious exploration voyage of antiquity.",
+      "description": "Hanno \"the Navigator\" sailed a fleet of sixty ships down the Atlantic coast of Africa around 500 BCE to plant colonies and see how far south he could get — possibly reaching modern Cameroon or Gabon. His written account of the trip is one of the oldest exploration logs we have.",
       "wikiSlug": "Hanno_the_Navigator",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hanno's report claims he carried 30,000 settlers, which is almost certainly a copyist's error — many scholars think the real figure was nearer 3,000 to 5,000, since sixty ships couldn't possibly hold a small city's worth of people. The voyage's strangest legacy is zoological: Hanno described capturing the skins of hairy, fierce creatures his interpreters called \"Gorillae.\" When the American missionary-physician Thomas Savage and naturalist Jeffries Wyman formally named the great ape in 1847, they reached back across 2,300 years and borrowed Hanno's word — which is why we call it the gorilla today, even though what Hanno actually saw may have been chimpanzees or baboons."
+        }
+      ]
     },
     {
       "id": "evt-tanit-ascendancy",
       "label": "Rise of Tanit Worship",
       "year": -500,
-      "description": "From the 5th century BCE, Tanit — a lunar and fertility goddess depicted with a distinctive triangular symbol (the 'sign of Tanit') — eclipsed Baal Hammon as Carthage's most prominent deity, her name appearing first on tophet inscriptions and eventually dominating Punic religious life.",
+      "description": "Tanit was Carthage's great goddess of the moon and fertility, marked everywhere by her own emblem — the \"sign of Tanit,\" a triangle topped by a disc with a bar across the neck, like a stick figure with arms raised. From about the 5th century BCE she rose past even Baal Hammon to become the most ubiquitous divine presence in the Punic world.",
       "wikiSlug": "Tanit",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her favorite title gives away the relationship: inscriptions call her Tanit pene Baal, \"Tanit, the Face of Baal\" — the visible, earthly aspect of the great god rather than a rival to him. And she may not have been Phoenician at all to start with: unlike most Carthaginian gods, Tanit has no clear ancestor back in Tyre, and her very name fits the pattern of Berber feminine names (often bracketed by the letter \"t\"), which has led some scholars to suspect she was a local North African deity the colonists adopted. Centuries later she sailed on — the island of Ibiza still treats Tanit as a kind of patron figure."
+        }
+      ],
+      "commonsFile": "Stèle avec le signe de Tanit (Louvre, AO 5244).jpg"
     },
     {
       "id": "evt-battle-himera-480",
       "label": "Battle of Himera (480 BCE)",
       "year": -480,
-      "description": "A massive Carthaginian invasion force under Hamilcar I was crushed by the Greek tyrant Gelon of Syracuse at Himera in Sicily — a defeat so catastrophic that Carthage abandoned Sicilian military campaigns for seventy years. Ancient sources placed it on the same day as the Greek victory at Salamis.",
+      "description": "The day Carthage's bid to dominate Sicily collapsed: a huge invasion army under Hamilcar I was annihilated outside the Greek town of Himera by Gelon, tyrant of Syracuse. It cost Carthage its army, its commander, and its ambitions in eastern Sicily in a single afternoon.",
       "wikiSlug": "Battle_of_Himera_(480_BC)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Greek writers loved to pair Himera with Salamis (the same-year sea battle that stopped Persia), framing both as civilization crushing barbarism east and west on cue — some even claimed they fell on the very same day, which is almost certainly a tidy literary invention. The casualty figures the sources hand down (a Carthaginian army of 300,000, 150,000 dead) are wildly inflated and logistically impossible for a premodern overseas expedition. What is real: archaeologists digging at Himera in 2008–2011 uncovered mass war graves from these battles, with skeletons still bearing weapon wounds — the rare case where the spade confirms the ancient story."
+        }
+      ],
+      "commonsFile": "The Battle of Himera by Giuseppe Sciuti.jpg"
     },
     {
       "id": "evt-carthage-suffetes",
       "label": "Suffete System of Government",
       "year": -480,
-      "description": "After Himera, Carthage reformed its government around two annually elected suffetes (chief magistrates), a council of elders, and a popular assembly — a mixed constitution that Aristotle praised in his Politics as one of the best in the Mediterranean world.",
+      "description": "Carthage's answer to one-man rule: after Himera toppled the old Magonid royal house, the city was run by two suffetes (chief magistrates) elected every year, backed by a council of elders and a citizen assembly. The name comes from the Punic *shofet*, \"judge\" — the same word as the biblical Judges of Israel.",
       "wikiSlug": "Suffet",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The job looked a lot like the Roman consulship — two officials, one-year term, the top civilian post — with one telling difference: a suffete did not automatically command the army, so political and military power were deliberately kept in separate hands. That word *shofet* outlived Carthage itself; inscriptions show small Phoenician-founded towns across the western Mediterranean, and even Tyre back in the homeland, still using the title for centuries."
+        }
+      ]
     },
     {
       "id": "evt-mago-agriculture",
       "label": "Mago's Agricultural Treatise",
       "year": -450,
-      "description": "The Carthaginian writer Mago produced a 28-volume treatise on farming — covering viticulture, olive cultivation, livestock management, and estate organization — that the Roman Senate ordered translated into Latin after Carthage's destruction. It was the only Carthaginian book Rome deliberately preserved.",
+      "description": "A Carthaginian named Mago wrote a 28-volume manual on farming — vines, olives, livestock, running an estate — so authoritative that when Rome destroyed Carthage, the Roman Senate ordered it translated into Latin. Of an entire civilization's books, the farming guide was the one Rome chose to save.",
       "wikiSlug": "Mago_(agricultural_writer)",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sit with that: Rome torched a city's whole written heritage and deliberately rescued a single agricultural treatise. The Senate had it rendered into Latin (by one Decimus Junius Silanus), and it was also adapted into Greek, then abridged. The Punic original is long lost, but quotations survive in later Roman writers like Varro, Columella and Pliny the Elder — which is the only reason we know it existed at all. Later authors leaned on it so heavily that one Roman writer called Mago \"the father of agriculture.\""
+        }
+      ]
     },
     {
       "id": "evt-african-territorial-empire",
       "label": "Carthaginian African Empire",
       "year": -450,
-      "description": "Turning inward after Himera, Carthage conquered vast stretches of the Libyan interior, establishing agricultural estates worked by Libyan subjects and Numidian allies. This African empire — stretching from the Gulf of Sirte to the Atlantic — provided the grain, recruits, and tax base that funded Punic naval power.",
+      "description": "Locked out of Sicily, Carthage turned inland and built a land empire across the North African interior the Greeks called \"Libya\" (meaning the whole region west of Egypt, not the modern country). Estates worked by Libyan tenants and slaves produced the grain, taxes, and recruits that bankrolled Punic sea power.",
       "wikiSlug": "Ancient_Carthage#Territorial_expansion",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was a real shift in identity: the seafaring trading post of earlier chapters became a territorial power that ruled and taxed a subject countryside, with the rich Cap Bon peninsula and Bagradas (Medjerda) valley as its farm belt. The arrangement was extractive enough to be dangerous — heavy demands on Libyan farmers and conscripts repeatedly fed revolts. The land's value outlasted Carthage entirely: after Rome razed the city, it rebuilt on the same ground, and Roman Africa became an imperial breadbasket said to feed Rome for eight months of the year."
+        }
+      ],
+      "commonsFile": "Carthaginianempire.PNG"
     },
     {
       "id": "evt-purple-dye-production",
       "label": "Carthaginian Purple Dye Industry",
       "year": -450,
-      "description": "Carthage inherited and industrialized the Phoenician murex dye trade, harvesting sea snails from North African waters to produce Tyrian purple — the most expensive textile dye in the ancient world, worth more than its weight in silver and restricted by law to royalty and high officials in many Mediterranean states.",
+      "description": "Tyrian purple was the ancient world's ultimate luxury good — a reddish-purple dye that Carthage cranked out from sea snails on an industrial scale, and that at times sold for more than its weight in gold.",
       "wikiSlug": "Tyrian_purple",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reason it cost a fortune was the math: the dye came from a single gland in the murex snail, and you needed thousands of the creatures to produce even one gram of pure pigment (modern reconstructions burn through roughly 10,000-plus snails per gram). The processing reeked — vats of rotting, crushed mollusks left to ferment — so dyeworks sat downwind on the edge of town, and you can still find the chemical trace of crushed murex in the soil at Punic sites. The color also deepened with sunlight rather than fading, which is part of why it never lost its prestige."
+        }
+      ],
+      "commonsFile": "Haustellum brandaris 000.jpg"
     },
     {
       "id": "evt-cothon-harbor",
       "label": "Cothon: Circular Military Harbor",
       "year": -400,
-      "description": "Carthage built its famous double harbor complex: a rectangular commercial port connected by a narrow channel to the circular military cothon, which could shelter 220 warships in individual covered slips ringing a central admiralty island — the most sophisticated naval installation in the ancient world.",
+      "description": "Carthage's engineering showpiece: a double harbor where a big rectangular merchant basin fed through a narrow channel into a perfectly circular military port, ringed by covered ship-sheds and centered on an island from which the admiralty ran the fleet. Nothing else in the ancient world came close.",
       "wikiSlug": "Cothon",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The capacity was staggering — 220 warships, each tucked in its own roofed berth with a raised slipway to haul it out of the water, and storerooms above for oars, rigging and tackle. The whole circular port was walled and the sheds fronted with columns, so an outsider peering in couldn't count or even glimpse the fleet hidden inside — it was as much a secret as a shipyard. Astonishingly, you can still trace it: the circular lagoon and its central island survive in the modern Tunis suburb, the ghost of the harbor pressed into the ground."
+        }
+      ],
+      "commonsFile": "Carthage-1958-PortsPuniques.jpg"
     },
     {
       "id": "evt-hannibal-mago-himera-revenge",
       "label": "Hannibal Mago Destroys Himera",
       "year": -409,
-      "description": "The Magonid general Hannibal Mago — grandson of the Hamilcar killed at Himera in 480 BCE — sacked and razed the Greek city in a vendetta seventy years in the making, torturing 3,000 prisoners at the spot where his grandfather fell.",
+      "description": "Seventy years is a long time to hold a grudge. Hannibal Mago — grandson of the Hamilcar killed at Himera in 480 BCE, and no relation to the later Hannibal of the Alps — returned in 409 BCE, stormed Himera, and wiped the Greek city off the map for good.",
       "wikiSlug": "Battle_of_Himera_(409_BC)",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ancient writers report that 3,000 captured men were dragged to the exact spot where his grandfather had died and slaughtered there as a blood-offering on the battle's anniversary — whether that's a real ritual or Greek writers projecting their stereotype of Carthaginian fanaticism onto a massacre, we can't be sure. What is no longer in doubt is the destruction itself: Himera was never rebuilt, and the mass graves excavated nearby in the 2000s line up with the ancient accounts of the city's violent end."
+        }
+      ]
     },
     {
       "id": "evt-kerkouane",
       "label": "Kerkouane: Punic City Preserved",
       "year": -400,
-      "description": "This small Punic town on the Cap Bon peninsula — abandoned in the mid-3rd century BCE and never rebuilt — is the only intact Carthaginian urban site, revealing gridded streets, indoor bathing with terracotta tubs, mosaic floors, and a level of domestic comfort that surprised archaeologists. Now a UNESCO World Heritage Site.",
+      "description": "The only intact Punic town ever found. Abandoned around the mid-200s BCE and never built over, Kerkouane on Cap Bon froze a snapshot of everyday Carthaginian life — gridded streets, courtyard houses, indoor baths, mosaic floors — with a level of domestic comfort that genuinely surprised the archaeologists. It's now a UNESCO World Heritage Site.",
       "wikiSlug": "Kerkouane",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The detail that stuns visitors is the bathrooms: many houses had a built-in pink-plaster hip-bath with a molded seat, plumbed for drainage — private home bathing, centuries before Rome made it fashionable. The town also ran an industrial purple-dye trade, and excavators found great heaps of crushed murex sea-snail shells (it took thousands of snails to dye a single garment). Because every other Punic city was either flattened by Rome or buried under two thousand years of later building, Kerkouane is the one place we see how ordinary Carthaginians actually lived — not how their Greek and Roman enemies described them."
+        }
+      ],
+      "commonsFile": "Kerkouane baignoire.jpg"
     },
     {
       "id": "evt-carthage-shipbuilding",
       "label": "Carthaginian Quinquereme Development",
       "year": -400,
-      "description": "Carthaginian shipwrights developed the quinquereme — a massive warship with five banks of oars — into the standard Mediterranean warship. Punic naval construction used prefabricated, numbered components for rapid assembly, a technique so advanced that Rome reportedly reverse-engineered a captured Carthaginian ship to build its own fleet.",
+      "description": "Carthage's shipwrights turned warship-building into an assembly line. Their signature heavy warship, the quinquereme (a galley rowed by banks of oarsmen), was thrown together from pre-cut, numbered parts so fast that the technique stunned their rivals — and, the Romans claimed, was worth copying outright.",
       "wikiSlug": "Quinquereme",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This isn't just a Roman boast — the seabed proved it. A Punic warship found off Marsala, Sicily in 1971 has letters of the Phoenician alphabet painted along its keel and timbers, position-markers telling assemblers exactly which prefabricated piece slotted where. It's literally a flat-pack warship from the 3rd century BCE: cut the parts to standard sizes, number them, and a dockyard crew can bolt a navy together at speed. The Romans, the story goes, reverse-engineered a single captured Carthaginian ship to build their first real fleet — modular manufacturing applied to warships more than two thousand years before the auto industry rediscovered the trick."
+        }
+      ],
+      "commonsFile": "Marsala ship 4.jpg"
     },
     {
       "id": "evt-sicilian-wars-continue",
       "label": "Siege of Syracuse by Himilco",
       "year": -397,
-      "description": "Himilco led a massive Carthaginian expedition against Syracuse, briefly besieging the great Greek city before plague devastated his army. He retreated in disgrace and committed suicide — a pattern of Carthaginian overreach in eastern Sicily that would repeat for over a century.",
+      "description": "Carthage kept reaching for Sicily and kept paying for it. In 397 BCE the general Himilco besieged Syracuse, the greatest Greek city in the west — then plague tore through his camp, his army melted away, and he sailed home in disgrace and killed himself.",
       "wikiSlug": "Siege_of_Syracuse_(397_BC)",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Disease, not Greek spears, was the real enemy of these expeditions: a sweltering siege camp packed with men and bad water was a perfect incubator, and the Greeks took the epidemic as the gods punishing Himilco for plundering their temples. The defeat triggered a Libyan revolt against Carthage at home, the empire's recurring weak spot. This was the same Himilco's fate every Carthaginian commander dreaded — the city was unforgiving of failed generals, who faced disgrace, exile, or worse."
+        }
+      ]
     },
     {
       "id": "evt-hanno-great-expedition",
       "label": "Hanno the Great's African Campaigns",
       "year": -396,
-      "description": "After the Syracuse disaster, the general Hanno (called 'the Great' by later sources) expanded Carthaginian control deep into the Libyan interior and southward along the Atlantic coast, building the territorial empire that would sustain Carthage for the next century and a half.",
+      "description": "After the Syracuse fiasco, a general remembered as Hanno \"the Great\" (not the Atlantic explorer of Chapter 2) pushed Carthaginian control deep into the African interior, fastening down the territorial empire that would feed and fund the city for the next century and a half.",
       "wikiSlug": "Hanno_the_Great",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hanno was the dominant figure in Carthage for roughly two decades and likely its richest man, and in 367 BCE his fleet smashed a Syracusan navy to keep western Sicily in Punic hands. But his story is a sharp illustration of Carthage's iron rule against strongmen: when he later plotted to murder the Council of Elders and seize power, the coup failed and he was executed with grotesque brutality — and much of his family killed alongside him."
+        }
+      ]
     },
     {
       "id": "evt-gold-trade-west-africa",
       "label": "Gold Trade with West Africa",
       "year": -400,
-      "description": "Carthaginian merchants conducted 'silent trade' with West African peoples beyond the Sahara, exchanging Mediterranean goods for gold dust in a system where neither party spoke the other's language — goods were laid out on a beach, and each side adjusted their offerings until both were satisfied.",
+      "description": "How do you trade with people whose language you don't speak and don't trust? Carthaginian merchants ran a \"silent trade\" with West Africans beyond the Sahara: goods laid on a beach, both sides withdrawing and adjusting their offers until the gold and the cargo balanced — a deal struck without a word exchanged.",
       "wikiSlug": "Silent_trade",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Our source is Herodotus (4.196), who says the Carthaginians unloaded their cargo, lit a smoky signal fire, and rowed back out to sea; the locals would come, leave gold, and retreat, and the dance repeated until both sides were happy — and, he insists, neither cheated the other. This trans-Saharan gold pipeline ran nearly a thousand years before the famous medieval caravan routes, and it helped make Carthage one of the ancient Mediterranean's great gold markets, minting the heavy gold staters that paid its mercenary armies."
+        }
+      ],
+      "commonsFile": "Carthage, c.350-320 BC, Stater.jpg"
     },
     {
       "id": "evt-tin-trade-britain",
@@ -385,40 +582,67 @@
       "id": "evt-punic-inscriptions",
       "label": "Punic Votive Inscriptions",
       "year": -400,
-      "description": "Thousands of votive stelae with Punic inscriptions have been found at tophets across the Carthaginian world — dedicating offerings to Tanit and Baal Hammon with formulaic phrases that provide the largest surviving corpus of Punic writing, since Rome destroyed virtually all Carthaginian literature.",
+      "description": "With Carthaginian books gone, the largest body of Punic writing we have left is mundane and devotional: thousands of carved votive stones from the tophet sanctuaries, recording offerings vowed to Tanit and Baal Hammon.",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These stelae are why we can even read Punic at all — they preserve the script in bulk, frozen in a few repeating formulas (a dedication 'to the Lady Tanit and the Lord Baal Hammon,' the dedicator's name, and a note that the god 'heard his voice' and so the vow was paid). Many carry the abstract 'sign of Tanit' (a triangle with a disk on top and a bar between, like a stick figure with raised arms), and the same emblem turns up on Punic artifacts from Spain to Sardinia to the Levant. It is a strange inheritance: a civilization of poets, historians and theologians remembered mostly through its receipts to the gods."
+        }
+      ],
+      "commonsFile": "Carthago exhibition - Stela with Cultic Scene & Votive Inscription (49340901392).jpg"
     },
     {
       "id": "evt-sacred-band-carthage",
       "label": "Sacred Band of Carthage",
       "year": -400,
-      "description": "Carthage's only citizen military unit — an elite heavy infantry corps of 2,500–3,000 men drawn from the city's aristocratic families — served as the backbone of Punic armies otherwise composed of mercenaries and allied contingents from Libya, Numidia, Iberia, and the Balearic Islands.",
+      "description": "In an army built mostly from hired mercenaries and allied levies, the Sacred Band was the one unit of actual Carthaginian citizens — 2,500–3,000 heavy infantry drawn from the city's richest aristocratic families, the polished core around which everything else was arranged.",
       "wikiSlug": "Sacred_Band_of_Carthage",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Plutarch describes them on the march at the Crimissus glittering in splendid armor behind white shields, moving with disciplined precision — the visible face of Carthage's wealth on the battlefield. That same exclusivity was their fatal flaw: because the Band could only be refilled from a small pool of elite families, losing it (as at the Crimissus) hit Carthage far harder than losing thousands of replaceable mercenaries, and the casualties rippled straight into the city's ruling class."
+        }
+      ],
+      "commonsFile": "Carthaginian armor from Ksour es-Saf Bardo Museum.jpg"
     },
     {
       "id": "evt-religious-syncretism",
       "label": "Punic Religious Syncretism",
       "year": -400,
-      "description": "Carthaginian religion blended Phoenician traditions with Libyan, Egyptian, and Greek influences — Tanit absorbed aspects of the Greek Demeter and the Egyptian Isis, while the Carthaginian pantheon incorporated Libyan deities and Greek mystery cults, creating a distinctly Punic religious culture.",
+      "description": "Carthaginian religion was a magpie faith — it kept its Phoenician core (Baal Hammon and Tanit) but happily bolted on whatever the neighbors were worshipping, treating gods as something you add to rather than choose between.",
       "wikiSlug": "Religion_in_Carthage",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most telling example came in 396 BCE, when a plague tore through the Carthaginian army besieging Syracuse. The Carthaginian senate decided the gods were furious that their troops had looted the Sicilian temples of the Greek harvest goddesses Demeter and Kore (Persephone) — so the state simply imported both goddesses, built them Greek-style temples in Carthage, and appointed Greek residents as their priests. It was less a conversion than an insurance policy: you offended these gods, so now you pay them too. That additive instinct is exactly why a monotheist like the Romans found Punic religion so alien."
+        }
+      ],
+      "commonsFile": "Incense burner depicting Baal-Hammon AvL.JPG"
     },
     {
       "id": "evt-navigation-techniques",
       "label": "Carthaginian Navigation Techniques",
       "year": -400,
-      "description": "Punic sailors navigated by Ursa Minor (the 'Phoenician Star'), sailed at night using star positions, and maintained detailed rutters (written sailing directions) covering the entire western Mediterranean, Atlantic coast, and West African shore — knowledge so valuable that Carthage classified it as a state secret.",
+      "description": "Punic sailors were the best night navigators in the Mediterranean, steering by Ursa Minor — the Little Bear, the constellation nearest true north — so reliably that the Greeks nicknamed it 'the Phoenician.'",
       "wikiSlug": "Phoenicia#Navigation",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their real edge wasn't a single trick but a body of written knowledge: rutters, hand-copied books of sailing directions logging headlands, anchorages, currents and hazards from the western Mediterranean out to the Atlantic and the West African coast. Carthage guarded these like military secrets — the famous tale of a captain deliberately running his ship aground rather than let a shadowing Roman vessel learn the route to the tin lands shows how far they would go. None of the rutters survive, which is why a civilization of master mariners left us almost nothing in its own hand about how it actually sailed."
+        }
+      ]
     },
     {
       "id": "evt-kerkouane-urban-planning",
@@ -434,376 +658,627 @@
       "id": "evt-temple-eshmun-carthage",
       "label": "Temple of Eshmun on Byrsa Hill",
       "year": -400,
-      "description": "The great temple of Eshmun — the Phoenician god of healing — crowned the summit of Byrsa hill, Carthage's acropolis. It was the last building to fall during the Roman siege of 146 BCE, where the commanding general's wife and the final defenders threw themselves into the flames rather than surrender.",
+      "description": "Carthage's holiest building, the temple of the healing god Eshmun, crowning the citadel hill of Byrsa — and the last scrap of the city to hold out, where the final defenders chose fire over surrender in 146 BCE.",
       "wikiSlug": "Eshmun",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Greeks and Romans recognized Eshmun as their own healing god Asklepios (Roman Aesculapius), which is why ancient writers sometimes call this the temple of Asklepios. The end was grim theater: the Carthaginian commander Hasdrubal slipped out to beg Scipio for his life, while his wife stayed behind, cursed him for a coward, and threw herself and their children into the flames with the last holdouts. Of the temple itself, nothing identifiable survives — it was demolished and built over in Roman times, so the hill is all that's left to see."
+        }
+      ],
+      "commonsFile": "Byrsa hill in Carthage.jpg"
     },
     {
       "id": "evt-battle-crimissus",
       "label": "Battle of the Crimissus",
       "year": -341,
-      "description": "The Corinthian general Timoleon crushed a Carthaginian army at the Crimissus River in Sicily, killing 10,000 of Carthage's Sacred Band — the worst single-day loss of citizen soldiers in Punic history, though Carthage retained its western Sicilian territories.",
+      "description": "Carthage's worst day for its own citizens: at the Crimissus River in Sicily, the Corinthian general Timoleon — badly outnumbered — caught a huge Carthaginian army mid-crossing and shattered it, gutting the elite citizen-soldiers of the Sacred Band.",
       "wikiSlug": "Battle_of_the_Crimissus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Plutarch tells it like a storm-god's ambush: a violent hailstorm and downpour blew straight into the Carthaginians' faces as they forded, the river surged, and men in heavy bronze armor were swept off their feet or drowned in the rising water before they could form up. Of roughly 10,000 Carthaginian dead, about 3,000 were Sacred Band citizens — \"a great affliction for the city,\" Plutarch wrote, \"for no others were superior to these in birth or wealth or reputation.\" (Sources put the battle at 341 or 339 BCE; the date isn't fully settled.)"
+        }
+      ]
     },
     {
       "id": "evt-bomilcar-coup",
       "label": "Bomilcar's Failed Coup",
       "year": -308,
-      "description": "The Carthaginian general Bomilcar attempted to seize power as tyrant during the crisis of Agathocles' invasion of North Africa, marching troops through the streets of Carthage. The coup failed and Bomilcar was crucified in the marketplace — a reminder that Carthage's oligarchic republic violently resisted one-man rule.",
+      "description": "While Carthage reeled from an enemy invasion of Africa itself, the general Bomilcar tried to grab absolute power, marching troops into the streets to make himself tyrant. The city turned on him — the coup collapsed and Bomilcar was crucified in the public marketplace.",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "According to Diodorus, Bomilcar had already let an earlier battle go badly on purpose, hoping a frightened city would hand him a crown; when it didn't, he made his move with around 500 citizens and a body of mercenaries. His own followers were peeled away by promises of pardon, and the rising fizzled. The lesson held for centuries: Carthage's oligarchy would tolerate almost anything except a strongman, and generals served the state — not the other way around — until the Barcids began to strain that rule (Chapter 5)."
+        }
+      ]
     },
     {
       "id": "evt-agathocles-invasion",
       "label": "Agathocles Invades Africa",
       "year": -310,
-      "description": "The Syracusan tyrant Agathocles did the unthinkable — he sailed past the Carthaginian fleet blockading Syracuse and invaded North Africa itself, ravaging Punic territory for three years. Though ultimately unsuccessful, he proved that Carthage's African heartland was vulnerable, a lesson Scipio would remember.",
+      "description": "The unthinkable move: trapped inside Syracuse by a Carthaginian blockade, the Sicilian tyrant Agathocles loaded his army onto ships, slipped past the fleet, and carried the war to North Africa — ravaging Carthage's home territory for three years and proving the heartland could be touched.",
       "wikiSlug": "Agathocles",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The instant he landed near Cap Bon, Agathocles burned his own ships on the beach — a no-retreat gamble (the same theatrical stroke Cortes would later make in Mexico) meant to convince his men that the only way home was through victory. He never took Carthage and ultimately had to withdraw, but the point was made permanently: a bold enough enemy could threaten the city on its own soil. It was exactly the lesson a Roman named Scipio would weaponize a century later (Chapter 6)."
+        }
+      ],
+      "commonsFile": "Moneta in oro di Agatocle III sec. a.C. Atena, grifone, fascio di fulmini, basileus.png"
     },
     {
       "id": "evt-grain-exports",
       "label": "Carthaginian Grain Exports",
       "year": -350,
-      "description": "Carthage's African territorial empire produced enormous grain surpluses from estates in the fertile Bagradas Valley (modern Medjerda), making the city one of the ancient world's great agricultural exporters alongside Egypt and Sicily — a wealth that persisted long after Rome destroyed Carthage and rebuilt it as Rome's breadbasket.",
+      "description": "Carthage didn't just trade food — it grew it at scale. The estates of the fertile Bagradas (Medjerda) valley threw off grain surpluses that made the city one of antiquity's great agricultural exporters, in the same league as Egypt and Sicily.",
       "wikiSlug": "Ancient_Carthage#Economy",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This farm wealth was the quiet engine under all the warships and mercenaries: grain meant money, money hired armies, and a steady food supply could feed a city of hundreds of thousands. The land was so productive that the wealth survived Carthage's own destruction — Rome rebuilt on the ruins, and Roman Africa became the empire's breadbasket, reportedly capable of feeding Rome for eight months of the year. The Punic farmers had simply proven, centuries earlier, just how rich that ground could be."
+        }
+      ],
+      "commonsFile": "Quartier Punique.JPG"
     },
     {
       "id": "evt-carthage-iberian-expansion",
       "label": "Carthaginian Expansion into Iberia",
       "year": -550,
-      "description": "Carthage gradually took control of Phoenician colonies along the Spanish coast and established new settlements to exploit the peninsula's vast silver, copper, and tin resources — building the economic base that would later fund the Barcid military machine.",
+      "description": "Carthage steadily took over the old Phoenician ports along Spain's coast and reached inland for the one thing the peninsula had in staggering quantity: metal. The silver, copper, and tin pulled out of Iberia would one day bankroll Carthage's wars against Rome.",
       "wikiSlug": "Carthaginian_Iberia",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Iberia was the ancient world's treasure chest. Southern Spain's mines — the Rio Tinto belt above all — had been feeding silver into Phoenician hands since the 9th century BCE, funneled out through the old colony of Gadir (modern Cadiz, possibly the oldest continuously inhabited city in western Europe). Tin was the bigger prize for trade: alloyed with copper it made bronze, and the routes to the tin sources up the Atlantic were guarded like state secrets. It's no accident that when Carthage later needed to rebuild after losing to Rome, it was to Iberia's silver that the Barca family turned to fund the army Hannibal would march over the Alps."
+        }
+      ]
     },
     {
       "id": "evt-aristotle-constitution",
       "label": "Aristotle Praises Carthaginian Constitution",
       "year": -340,
-      "description": "In his Politics, Aristotle ranked Carthage's mixed constitution alongside Sparta and Crete as one of the best-governed states in the known world, noting that it had avoided tyranny and popular revolution despite its wealth — a remarkable compliment from a Greek philosopher for a 'barbarian' state.",
+      "description": "The ultimate backhanded compliment: in his *Politics*, the Greek philosopher Aristotle ranked Carthage's mixed constitution among the best-run states anywhere, right next to Sparta and Crete — and Greeks did not normally praise \"barbarian\" governments.",
       "wikiSlug": "Government_of_Carthage",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aristotle singled out Carthage for never suffering a tyrant or a popular revolt despite its colossal wealth, and judged its method of picking elders actually superior to Sparta's. He wasn't uncritical, though: his one real complaint was that the system openly rewarded the rich, letting offices be effectively bought, which he thought bred greed. Remarkably, he based all this on a foreign state he never visited, working from reports and lost source material — the *Politics* is now our single most systematic ancient account of how Carthage was governed."
+        }
+      ],
+      "commonsFile": "Aristotle Altemps Inv8575.jpg"
     },
     {
       "id": "evt-first-punic-war-begins",
       "label": "First Punic War Begins",
       "year": -264,
-      "description": "A minor dispute over the Sicilian city of Messana escalated into a 23-year war between Carthage and Rome — the longest continuous war in ancient history to that point. Neither power initially imagined the scale of the conflict that would transform the Mediterranean.",
+      "description": "The opening round of the world's longest ancient war (264-241 BCE), touched off when a band of Italian sell-swords holding the Sicilian town of Messana begged both Rome and Carthage for rescue at the same time. Two superpowers showed up, bumped into each other, and couldn't back down.",
       "wikiSlug": "First_Punic_War",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Here's the awkward part for both sides: the men who started it, the Mamertines (\"sons of Mars\"), were ex-mercenaries who had murdered their hosts and stolen the town outright. Rome had just executed a similar gang of its own for doing the exact same thing to the Italian city of Rhegium, so siding with the Mamertines was nakedly hypocritical. Roman tradition admits the Senate hesitated and dumped the decision on the popular assembly, which voted for war anyway, lured by the prospect of Sicilian plunder."
+        }
+      ],
+      "commonsFile": "Carthago exhibition - Aegadi Rams (49340681036).jpg"
     },
     {
       "id": "evt-siege-agrigentum",
       "label": "Siege of Agrigentum",
       "year": -262,
-      "description": "Rome besieged the Carthaginian-held city of Agrigentum in Sicily for seven months, finally capturing it and selling 25,000 inhabitants into slavery. The brutal siege convinced Rome that only total naval supremacy could defeat Carthage.",
+      "description": "Rome's first big set-piece of the war: a seven-month siege of Agrigentum, a fabulously rich Greek city on Sicily's south coast, that ended with the storming of the walls and 25,000 survivors sold into slavery. It taught Rome a brutal lesson about who really controlled Sicily.",
       "wikiSlug": "Battle_of_Agrigentum",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The siege turned into a siege of the besiegers — a Carthaginian relief army under Hanno trapped the Roman lines, and both armies starved through the standoff before Rome finally broke through. The mass enslavement was a strategic own-goal: it turned Sicily's Greek population, who might have welcomed Rome as liberators from Carthage, sharply against the Romans instead. Agrigentum's monumental Greek temples still stand today in the Valley of the Temples, a stone reminder of how wealthy the prize was."
+        }
+      ],
+      "commonsFile": "Temple of Concordia, Agrigento BW 2012-10-07 13-09-13.jpg"
     },
     {
       "id": "evt-battle-mylae",
       "label": "Battle of Mylae",
       "year": -260,
-      "description": "Rome won its first major naval victory using the corvus — a boarding bridge that turned sea battles into infantry fights — destroying 50 Carthaginian ships and proving that Rome could challenge Punic naval supremacy.",
+      "description": "Rome's first real naval victory (260 BCE), won not by out-sailing the Carthaginians but by refusing to sail-fight at all — the new corvus boarding bridge let Roman marines turn a sea battle into a land battle on enemy decks. Fifty Punic ships were lost.",
       "wikiSlug": "Battle_of_Mylae",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Carthaginian commander, Hannibal Gisco (no relation to the famous Hannibal), was so contemptuous of Rome's brand-new fleet that he charged in without battle order — and watched the first thirty of his ships get pinned by the corvus and stormed before he grasped what was happening; he fled in a rowboat. The victorious consul Gaius Duilius was honored with a columna rostrata, a column in the Roman Forum studded with the bronze rams of the captured ships; fragments of its boastful inscription survive in Rome's Capitoline Museum."
+        }
+      ],
+      "commonsFile": "Carthaginian naval ram (2).jpg"
     },
     {
       "id": "evt-battle-ecnomus",
       "label": "Battle of Cape Ecnomus",
       "year": -256,
-      "description": "One of the largest naval battles in ancient history, with over 600 ships and 300,000 men engaged. Rome's victory opened the sea route to Africa for the invasion led by Regulus — though that expedition would end in disaster.",
+      "description": "Possibly the largest naval battle in human history by sheer headcount — roughly 680 ships and a quarter-million men off Sicily's south coast in 256 BCE. Rome's win threw open the sea road to Africa and an invasion of Carthage itself.",
       "wikiSlug": "Battle_of_Cape_Ecnomus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Polybius reports about 330 Roman ships against 350 Carthaginian, and modern historians take the staggering total of 290,000+ combatants seriously: at roughly 300 rowers plus 120 troops per vessel, the math holds. Rome arranged its fleet in a wedge to punch through the Punic center, and when the line fractured the corvus did the rest — Carthage lost 30 ships sunk and 64 captured to Rome's 24 sunk. It remains a strong candidate for the biggest sea fight, by men engaged, that has ever been fought."
+        }
+      ],
+      "commonsFile": "Carthaginian naval ram.jpg"
     },
     {
       "id": "evt-xanthippus-mercenary",
       "label": "Xanthippus Defeats Regulus",
       "year": -255,
-      "description": "When a Roman army invaded North Africa, Carthage hired the Spartan mercenary general Xanthippus, who reorganized the Punic army and routed the Romans at the Battle of Tunis — capturing the consul Regulus and demonstrating the effectiveness of Carthage's mercenary military model.",
+      "description": "After Rome invaded Africa and the consul Regulus demanded humiliating peace terms, Carthage gambled on a hired Spartan officer, Xanthippus, to retrain its broken army. In 255 BCE he annihilated the Roman expedition at the Bagradas River and took Regulus prisoner.",
       "wikiSlug": "Xanthippus_(Spartan_commander)",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xanthippus's fix was tactical, not magical: he stopped letting Carthage's elephants and superb Numidian cavalry sit idle and built the battle around them, fronting his line with about 100 war elephants that trampled the Roman infantry while the cavalry hemmed them in from the flanks and rear. Of some 15,000 Romans, only about 2,000 escaped; roughly 13,000 died and 500, including Regulus, surrendered. Ancient writers later spread a colorful tale that jealous Carthaginians drowned Xanthippus on the voyage home — but the better evidence has him sailing safely back to Greece and later serving Ptolemaic Egypt."
+        }
+      ]
     },
     {
       "id": "evt-hamilcar-barca-sicily",
       "label": "Hamilcar Barca's Guerrilla War in Sicily",
       "year": -247,
       "endYear": -241,
-      "description": "Hamilcar Barca seized Mount Eryx in western Sicily and waged a brilliant six-year guerrilla campaign against Rome with minimal support from Carthage, earning the surname 'Barca' (lightning) and establishing a reputation that his son Hannibal would surpass.",
+      "description": "From 247 BCE, a young Carthaginian general named Hamilcar Barca (\"Barca\" means \"lightning\") fought a six-year mountain guerrilla campaign in western Sicily — raiding, ambushing, never beaten in the field, all on a shoestring from a Carthage that had largely given up. He was the father of the still-more-famous Hannibal.",
       "wikiSlug": "Hamilcar_Barca",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hamilcar first seized Mount Ercte (near modern Palermo), held it for years against everything Rome threw at him, then boldly relocated his whole force to Mount Eryx (modern Erice) — wedging his army between a Roman garrison on the summit and a Roman camp at the base. He never lost a battle and never surrendered his command; when Carthage made peace in 241 his army was still officially \"undefeated,\" a point of fierce pride that fed the family's lifelong grudge against Rome. The vendetta would resurface a generation later in Hannibal's war."
+        }
+      ],
+      "commonsFile": "Punic gilded bronze cuirass AvL.JPG"
     },
     {
       "id": "evt-battle-aegates-islands",
       "label": "Battle of the Aegates Islands",
       "year": -241,
-      "description": "Rome's decisive naval victory at the Aegates Islands destroyed the last Carthaginian fleet and ended the First Punic War. Carthage surrendered Sicily and agreed to pay 3,200 talents in war indemnities over ten years.",
+      "description": "The knockout blow (241 BCE). Off the Aegates (Egadi) Islands at Sicily's western tip, a rebuilt Roman fleet caught a heavily-laden Carthaginian relief convoy and shattered it, ending 23 years of war. Carthage gave up Sicily and a crushing 3,200-talent indemnity.",
       "wikiSlug": "Battle_of_the_Aegates",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Marine archaeologists have actually found this battle on the seabed: divers have recovered 27 bronze warship rams from the Egadi site (before this, exactly one ancient ram was known in the entire world), plus helmets and amphorae. Several rams carry inscriptions — Latin ones naming the Roman officials who approved them, and at least one in Punic script — letting researchers literally map where the two fleets clashed. It is the most thoroughly excavated naval battlefield of the ancient world."
+        }
+      ],
+      "commonsFile": "Egadi rostrum of ancient ship.jpg"
     },
     {
       "id": "evt-mercenary-war",
       "label": "Mercenary War (Truceless War)",
       "year": -241,
       "endYear": -237,
-      "description": "Carthage's unpaid mercenaries revolted after the First Punic War, nearly destroying the state in a savage three-year conflict that Polybius called 'truceless' for its extraordinary brutality. Hamilcar Barca crushed the revolt through a brilliant campaign of divide-and-conquer, cementing his political dominance.",
+      "description": "The horror right after the war: Carthage couldn't pay off the polyglot mercenary army that had done its fighting, so the soldiers revolted (241-237 BCE). Polybius named it the \"Truceless War\" for atrocities that appalled even hardened ancient readers.",
       "wikiSlug": "Mercenary_War",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The rebels — led by an escaped Roman slave, Spendius, and a Libyan named Matho — tortured 700 Carthaginian prisoners to death (hands cut off, then buried alive) specifically to make any reconciliation impossible; Carthage answered by trampling captives under elephants. The Libyan rebels even minted their own coins, stamped with the Greek legend ΛΙΒΥΩΝ (\"of the Libyans\"), to assert they were a real state. Hamilcar Barca finally broke the revolt by trapping the main rebel army in a mountain defile (\"the Saw\") and starving it; the leaders were crucified."
+        }
+      ],
+      "commonsFile": "Libyan Revolt, shekel, 241-238 BC.jpg"
     },
     {
       "id": "evt-rome-seizes-sardinia-corsica",
       "label": "Rome Seizes Sardinia and Corsica",
       "year": -238,
-      "description": "While Carthage was distracted by the Mercenary War, Rome seized Sardinia and Corsica in a naked act of opportunism that even the pro-Roman historian Polybius called unjustified. Carthage was forced to pay an additional 1,200 talents — a humiliation that hardened Barcid determination to rebuild Punic power.",
+      "description": "Rome's most cynical land grab (238 BCE): with Carthage on its knees fighting its own mercenaries, Rome simply took Sardinia and Corsica and dared Carthage to object. Even the pro-Roman historian Polybius called it indefensible.",
       "wikiSlug": "Ancient_Carthage#Sardinia_and_Corsica",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The pretext was a fig leaf: when Carthage moved to retake mutinous Sardinia, Rome declared that mobilization an act of war against Rome itself, then extorted an extra 1,200 talents on top of the existing indemnity as the price of \"peace.\" Polybius singled this episode out as a key cause of the next war — to Carthaginians, and to Hamilcar's young son Hannibal especially, it proved Rome would honor no treaty it could profitably break. The grievance pointed straight at the Second Punic War."
+        }
+      ]
     },
     {
       "id": "evt-hamilcar-barca-spain",
       "label": "Hamilcar Barca Conquers Spain",
       "year": -237,
       "endYear": -228,
-      "description": "Hamilcar Barca landed in southern Spain and spent nine years conquering Iberian tribes and securing the silver mines that would finance Carthage's military revival. Before departing, he made his nine-year-old son Hannibal swear an oath of eternal enmity against Rome.",
+      "description": "After losing the First Punic War, the Carthaginian general Hamilcar Barca didn't retire — he sailed to Iberia (Spain and Portugal) in 237 BCE to build a private war machine for round two, dragging his nine-year-old son Hannibal along for the founding myth.",
       "wikiSlug": "Hamilcar_Barca",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hamilcar wasn't sent to Spain to win it back for Carthage so much as to win it for his own family. He paid down Carthage's crushing war debt to Rome out of Iberian plunder, which kept the home government grateful and off his back while he quietly turned the southern coast into Barca territory. Ancient writers say he died around 228 BCE drowning in a river while covering his sons' retreat from a Celtiberian ambush — though Polybius simply says he fell in battle, so even the manner of his death is contested."
+        }
+      ],
+      "commonsFile": "Benjamin West (1738-1820) - The Oath of Hannibal - RCIN 405417 - Royal Collection.jpg"
     },
     {
       "id": "evt-hasdrubal-fair",
       "label": "Hasdrubal the Fair Founds New Carthage",
       "year": -228,
       "endYear": -221,
-      "description": "Hamilcar's son-in-law Hasdrubal governed Iberia through diplomacy, founded Carthago Nova (Cartagena) beside rich silver mines as his capital, and negotiated the Ebro Treaty with Rome — establishing the river as the boundary between Roman and Carthaginian spheres of influence.",
+      "description": "When Hamilcar drowned, command of the family's Spanish kingdom passed to his son-in-law Hasdrubal the Fair (has-DROO-bal), a smooth operator who expanded Barcid power by marriage and treaty rather than the sword.",
       "wikiSlug": "Hasdrubal_the_Fair",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hasdrubal cemented his rule the old-fashioned way — he married an Iberian princess and got himself acclaimed supreme commander by the local chieftains, building loyalty that ran to him personally rather than to distant Carthage. His new capital, Carthago Nova (modern Cartagena), was founded around 227 BCE on a near-perfect natural harbor that doubled as a treasury port for the silver flowing out of the hills behind it. He was murdered in 221 BCE by a Celtic servant said to be avenging his own executed master — a private grudge that handed the whole enterprise to a twenty-something Hannibal."
+        }
+      ],
+      "commonsFile": "AsdrubalBusto.jpg"
     },
     {
       "id": "evt-new-carthage-silver",
       "label": "Silver Mines of Carthago Nova",
       "year": -228,
-      "description": "The silver mines near Carthago Nova (Cartagena) reportedly yielded 300 pounds of silver daily, employing 40,000 workers. This wealth funded the Barcid military machine and paid off the remaining Roman war indemnities, allowing Carthage to rebuild its army for the coming confrontation.",
+      "description": "The silver mines behind Carthago Nova were the engine of the whole Barcid project — ancient sources claim they poured out roughly 300 pounds of silver a day, worked by tens of thousands of laborers, bankrolling Hannibal's army before he ever crossed the Alps.",
       "wikiSlug": "Carthago_Nova",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous figures come from Polybius (via Strabo): 25,000 drachmas a day from a mining district running miles around the city, with as many as 40,000 workers. Modern scholars treat the headcount as inflated, but isotope studies of Roman coins later confirmed the region's silver really did flood the western Mediterranean. That ore was minted on the spot into Barcid coins stamped with a war elephant — money that literally carried the symbol of the army it paid for. The mines were so valuable that capturing Carthago Nova in 209 BCE became Rome's single biggest strategic prize in Spain."
+        }
+      ],
+      "commonsFile": "Carthage, quarter shekel, 237-209 BC, SNG BM Spain 102.jpg"
     },
     {
       "id": "evt-hannibal-takes-command",
       "label": "Hannibal Takes Command in Spain",
       "year": -221,
-      "description": "After Hasdrubal the Fair's assassination, the army acclaimed 25-year-old Hannibal Barca as commander. The Carthaginian senate reluctantly confirmed the appointment of the man who would become, by near-universal ancient consensus, the greatest general the Mediterranean world ever produced.",
+      "description": "With Hasdrubal murdered, the Barcid army in Spain skipped the politicians entirely and proclaimed Hamilcar's son Hannibal — about twenty-six and already a veteran officer — as their general; Carthage's senate could only rubber-stamp what the soldiers had already decided.",
       "wikiSlug": "Hannibal",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was the moment the Barcid \"state within a state\" showed its hand: the army didn't wait for a vote back home, it elevated its own. Hannibal had been campaigning in Spain since boyhood and had served as Hasdrubal's cavalry commander, so the troops were following someone they'd already bled alongside, not an appointee. Even hostile Roman historians later conceded his brilliance — Livy, no friend of Carthage, granted him \"extreme daring in braving dangers\" matched by \"supreme skill in turning them to his account.\""
+        }
+      ],
+      "commonsFile": "Hannibal Slodtz Louvre MR2093.jpg"
     },
     {
       "id": "evt-siege-saguntum",
       "label": "Siege of Saguntum",
       "year": -219,
-      "description": "Hannibal besieged and destroyed the Roman-allied city of Saguntum in eastern Spain after an eight-month siege, deliberately provoking Rome into declaring war. It was the calculated opening move of a campaign he had been planning since boyhood.",
+      "description": "In 219 BCE Hannibal laid siege to Saguntum, a Spanish coastal town allied to Rome, and ground it down over eight months — a deliberate provocation that handed Rome its reason to declare the Second Punic War.",
       "wikiSlug": "Siege_of_Saguntum",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Saguntum sat south of the Ebro River, technically inside the Carthaginian zone, so its alliance with Rome was the exact gray area Hannibal wanted to exploit — attacking it forced Rome to either abandon a friend or fight. The end was gruesome: with food gone and no Roman relief coming, defenders reportedly heaped their valuables onto a great fire and threw themselves in rather than be enslaved. When Rome demanded Carthage surrender Hannibal, an envoy gathered up a fold of his toga and said it held both peace and war — let the Carthaginians choose which fell out. They told him to drop whichever he liked; he let fall war."
+        }
+      ],
+      "commonsFile": "Castillo02 Sagunto.JPG"
     },
     {
       "id": "evt-crossing-alps",
       "label": "Hannibal Crosses the Alps",
       "year": -218,
-      "description": "Hannibal marched 50,000 infantry, 9,000 cavalry, and 37 war elephants from Spain across southern Gaul and over the Alps in fifteen days — one of the most audacious military maneuvers in history. He lost nearly half his army to rockslides, snowstorms, and hostile mountain tribes, but arrived in northern Italy with enough force to shatter Roman armies for fifteen years.",
+      "description": "In 218 BCE Hannibal did the thing nobody saw coming: instead of waiting to be invaded, he marched an army of tens of thousands plus 37 war elephants overland from Spain and hauled them over the Alps into Italy — straight into Rome's back yard.",
       "wikiSlug": "Hannibal%27s_crossing_of_the_Alps",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Alpine crossing itself took roughly fifteen days of the months-long march, and it was brutal — Hannibal lost close to half his men to cold, rockfalls, and ambushing mountain tribes, descending into the Po Valley with perhaps 20,000 infantry and 6,000 cavalry. Almost all the elephants died soon after; ancient sources hint that for a time only one survived, possibly the animal Hannibal rode himself. The exact pass he used is still argued over today, with researchers even sifting Alpine soil layers for the chemical trace of thousands of animals to pin down the route."
+        }
+      ],
+      "commonsFile": "Heinrich Leutemann - Hannibals Übergang über die Alpen (cropped).jpg"
     },
     {
       "id": "evt-battle-trebia",
       "label": "Battle of the Trebia",
       "year": -218,
-      "description": "Hannibal lured a Roman army into a trap at the Trebia River in northern Italy, using hidden cavalry and a concealed force under his brother Mago to attack from behind. Two-thirds of the Roman army was destroyed — Hannibal's first major victory on Italian soil.",
+      "description": "Hannibal's first big win on Italian soil (December 218 BCE), fought on a freezing morning beside the Trebia, a river in the Po Valley of northern Italy. He goaded a Roman army into wading the icy water on empty stomachs, then sprang a trap that broke two-thirds of it.",
       "wikiSlug": "Battle_of_the_Trebia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The masterstroke wasn't the famous hidden force under his brother Mago — it was breakfast. Hannibal had his own men eat, oil their bodies against the cold, and warm up by their fires, while Numidian horsemen baited the half-asleep Romans out of camp before dawn with no food and an icy river to cross first. By the time the two sides clashed, the Romans were already numb, soaked, and exhausted. Mago's 2,000 men, hidden overnight in a streambed, then burst out and hit them from behind. Even so, around 10,000 Romans punched clean through the Carthaginian center and escaped to the town of Placentia."
+        }
+      ],
+      "commonsFile": "Capuan bust of Hannibal, Republican Rome (cropped).jpg"
     },
     {
       "id": "evt-battle-trasimene",
       "label": "Battle of Lake Trasimene",
       "year": -217,
-      "description": "Hannibal ambushed an entire Roman army marching along the shore of Lake Trasimene in a morning fog, killing or capturing 30,000 men including the consul Flaminius — the largest ambush in military history and a masterclass in using terrain to neutralize numerical superiority.",
+      "description": "In June 217 BCE Hannibal hid his entire army in the wooded hills above the road that runs along the northern shore of Lake Trasimene (a large lake in central Italy) and waited. A Roman army marched into the fog-bound defile and was wiped out — the battle the military theorist Basil Liddell Hart called the greatest ambush in history.",
       "wikiSlug": "Battle_of_Lake_Trasimene",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hiding tens of thousands of men in plain sight took nerve and choreography: Hannibal lit campfires on a distant hill the night before so Roman scouts would think his army was miles ahead, then doubled back his troops into the tree line above the lake road in the dark. When the trap shut, the fighting lasted barely three hours. The roughly 6,000 Romans at the front of the column broke through and got clear — only to be run down and forced to surrender the next day. A nearby stream is still called Sanguineto, \"the place of blood.\""
+        }
+      ],
+      "commonsFile": "Trasimene battlefield.JPG"
     },
     {
       "id": "evt-battle-cannae",
       "label": "Battle of Cannae",
       "year": -216,
-      "description": "Hannibal's double-envelopment at Cannae annihilated a Roman army of 80,000 in a single afternoon — perhaps 50,000–70,000 killed, including the consul Aemilius Paullus and 80 senators. The battle remains the textbook example of tactical encirclement and is still studied at every military academy in the world.",
+      "description": "On August 2, 216 BCE, on a flat plain in southeastern Italy, Hannibal's roughly 50,000 men encircled and destroyed a Roman army of about 80,000 in a single afternoon — the double envelopment, still taught as the textbook example of total tactical annihilation at military academies worldwide.",
       "wikiSlug": "Battle_of_Cannae",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trick was a center designed to lose: Hannibal bulged his weakest troops forward, then had them give ground on purpose so the advancing Romans funneled themselves into a sack while his veterans closed the sides and his cavalry sealed the rear. Packed shoulder to shoulder, the Romans couldn't even swing their swords; ancient writers describe men crushed to death by the press of their own crowd. Among the dead were one of the two consuls and, by Livy's count, about 80 senators — roughly a quarter of a Senate of around 300 men."
+        }
+      ],
+      "commonsFile": "Monumento Battaglia di Canne.JPG"
     },
     {
       "id": "evt-war-elephants",
       "label": "Carthaginian War Elephants",
       "year": -250,
-      "description": "Carthage used North African forest elephants (now extinct) as battlefield shock weapons — smaller than Indian elephants but terrifying to opponents unfamiliar with them. The elephants carried towers with archers and javelin-throwers, though they were as dangerous to friendly troops as to the enemy when panicked.",
+      "description": "Carthage fielded North African forest elephants (a now-extinct, comparatively small breed) as living shock troops — terrifying to enemies who'd never faced them, and famously the beasts Hannibal dragged over the Alps.",
       "wikiSlug": "War_elephant",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They were a double-edged weapon: panicked elephants trampled their own side as readily as the enemy, which is why drivers carried a chisel and mallet to spike one through the spine if it bolted. Of the 37 that crossed the Alps, ancient writers say a single elephant survived long-term — nicknamed Surus (\"the Syrian\"), apparently a larger Asian elephant with one broken tusk. After Hannibal lost an eye to an infection crossing the Italian marshes, he is said to have ridden Surus to see over the battlefield."
+        }
+      ],
+      "commonsFile": "Pompeii, Statuette of a war elephant.jpg"
     },
     {
       "id": "evt-hasdrubal-barca-metaurus",
       "label": "Hasdrubal Barca Defeated at the Metaurus",
       "year": -207,
-      "description": "Hannibal's brother Hasdrubal crossed the Alps with reinforcements but was intercepted and killed at the Metaurus River before he could join Hannibal. The Romans catapulted Hasdrubal's severed head into Hannibal's camp — reportedly the first time Hannibal wept, saying he now saw Carthage's fate.",
+      "description": "In 207 BCE Hannibal's brother Hasdrubal led a relief army over the Alps, but the Romans intercepted and crushed him at the Metaurus River in central Italy before the brothers could join forces — and lobbed Hasdrubal's severed head into Hannibal's camp.",
       "wikiSlug": "Battle_of_the_Metaurus",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome won this one with a gamble most generals would never have dared. The consul Gaius Claudius Nero slipped about 7,000 of his best men away from Hannibal's army in the south by night, ordering the troops left behind to act normal so Hannibal wouldn't notice the camp had thinned, then made a forced march of some 250 miles north in days. The two consular armies bunked in the same tents so Hasdrubal couldn't see he was suddenly outnumbered. Hannibal had no idea his brother was even dead until the head landed in his camp."
+        }
+      ]
     },
     {
       "id": "evt-scipio-africanus",
       "label": "Scipio Africanus Invades Africa",
       "year": -204,
-      "description": "The young Roman general Publius Cornelius Scipio — who had studied Hannibal's tactics and beaten the Carthaginians in Spain — landed in North Africa with a veteran army, forcing Carthage to recall Hannibal from Italy after fifteen years to defend the homeland.",
+      "description": "Publius Cornelius Scipio — a young Roman general who had survived Cannae as a teenager and then studied Hannibal's methods like a star pupil — landed an army in North Africa in 204 BCE, threatening Carthage directly and forcing it to recall Hannibal from Italy after fifteen years.",
       "wikiSlug": "Scipio_Africanus",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Scipio earned the command at an almost absurd age. After Rome's commanders in Spain (his own father and uncle) were killed, the 25-year-old volunteered for a job no senior man wanted and got it. He proved it in 209 BCE by storming New Carthage, the main Carthaginian base in Spain (modern Cartagena), in a single day — reportedly sending men wading across a coastal lagoon at low tide to scale the weakly held seaward wall while the defenders watched the gates. Cutting off Spain choked Hannibal's silver and reinforcements before Scipio ever sailed for Africa."
+        }
+      ],
+      "commonsFile": "Escipión africano.JPG"
     },
     {
       "id": "evt-battle-zama",
       "label": "Battle of Zama",
       "year": -202,
-      "description": "Scipio defeated Hannibal in the decisive battle of the Second Punic War, using Numidian cavalry defectors to execute the same double-envelopment Hannibal had perfected at Cannae. The peace terms stripped Carthage of its fleet, its Spanish territories, and its right to wage war without Roman permission.",
+      "description": "In 202 BCE, on a plain southwest of Carthage, Scipio beat Hannibal in the only defeat of Hannibal's career and ended the war — turning Hannibal's own encirclement tactic against him with the help of Numidian cavalry that had switched to Rome's side.",
       "wikiSlug": "Battle_of_Zama",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hannibal opened with 80 war elephants, expecting them to shatter the Roman line. Scipio had drilled for exactly that: instead of a solid front, he lined his men up in columns with wide lanes between them and had buglers blare to panic the beasts, so the charging elephants simply thundered harmlessly down the empty corridors and out the back. With the elephant gambit wasted and his cavalry chased off the field, Hannibal lost about 20,000 men. The peace cost Carthage its fleet, its empire, and its right to go to war without Rome's permission."
+        }
+      ]
     },
     {
       "id": "evt-hannibal-exile",
       "label": "Hannibal's Exile and Death",
       "year": -195,
       "endYear": -183,
-      "description": "Forced into exile by Roman pressure, Hannibal served as military advisor to Antiochus III of the Seleucid Empire and later the King of Bithynia. When Roman agents finally cornered him, he took poison rather than be captured, reportedly saying, 'Let us now put an end to the great anxiety of the Romans.'",
+      "description": "Hounded out of Carthage by Roman pressure, Hannibal spent his last years as a hired military brain for eastern kings who feared Rome. When Roman agents finally cornered him in Bithynia (a kingdom in northwestern Anatolia) around 183 BCE, he drank poison rather than be handed over.",
       "wikiSlug": "Hannibal",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Even in exile he stayed dangerous and inventive. Serving King Prusias of Bithynia, Hannibal won a sea battle against King Eumenes of Pergamon by having clay pots crammed with live venomous snakes catapulted onto the enemy decks — chaos broke out as sailors found themselves fighting serpents instead of men. Rome never forgot him; it kept demanding his surrender from every host who sheltered him, which is precisely what drove him to the poison he is said to have carried hidden in a ring."
+        }
+      ],
+      "commonsFile": "Hannibal Barca bust from Capua photo.jpg"
     },
     {
       "id": "evt-carthage-economic-recovery",
       "label": "Carthage's Economic Recovery",
       "year": -190,
-      "description": "Despite crippling war indemnities, Carthage recovered so rapidly through agricultural exports and trade that it offered to pay off its entire 50-year debt early — an economic resilience that alarmed Rome and fueled Cato's campaign for the city's destruction.",
+      "description": "The recovery that doomed Carthage: stripped of its navy and saddled with a fifty-year war debt, the city bounced back so fast it became more profitable than ever — and a prosperous old enemy was exactly what Rome's hardliners couldn't stand.",
       "wikiSlug": "Ancient_Carthage",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Around 191 BCE Carthage offered to clear its remaining indemnity in one lump payment, decades ahead of schedule — and Rome refused, because the staggered debt was useful leverage and an early payoff would prove just how rich the 'defeated' city had become. Sediment cores drilled near ancient Utica back the story up: they show intensified farming and land use in exactly this period, hard physical evidence of the agricultural boom that paid those bills."
+        }
+      ],
+      "commonsFile": "Carthage - Double Shekel - c.160-149 BC.jpg"
     },
     {
       "id": "evt-terence-playwright",
       "label": "Terence the Playwright",
       "year": -185,
       "endYear": -159,
-      "description": "Publius Terentius Afer, a Carthaginian-born slave who was educated and freed by a Roman senator, became one of Rome's greatest comic playwrights. His six surviving plays — refined adaptations of Greek New Comedy — influenced European literature from Shakespeare to Moliere, making him the most enduring cultural export of the Punic world.",
+      "description": "Terence (full Roman name Publius Terentius Afer) is the one Carthaginian voice that made it into Western literature — a North African-born slave who became one of Rome's greatest comic playwrights, and the most enduring thing the Punic world ever produced.",
       "wikiSlug": "Terence",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "All six of his comedies survive complete (a rarity from antiquity), and his polished Latin made him a schoolroom staple for two thousand years, echoing on into Shakespeare and Moliere. The cruel irony is that not one word of Punic survives in his work — he wrote entirely in his conquerors' language and forms. The ancient dates are shaky: Suetonius says he died around 159 BCE at roughly 25, which would put his birth near 184-185 BCE, and one tradition has him lost in a shipwreck while carrying home a trunk of new plays adapted from the Greek."
+        }
+      ],
+      "commonsFile": "Portrait of Terence from Vaticana, Vat. lat.jpg"
     },
     {
       "id": "evt-cato-delenda-est",
       "label": "Cato: 'Carthago Delenda Est'",
       "year": -157,
-      "description": "The Roman senator Cato the Elder ended every speech — regardless of topic — with 'Carthago delenda est' ('Carthage must be destroyed'), brandishing fresh Carthaginian figs in the Senate to show how close and prosperous the old enemy remained. His relentless campaign shaped Roman public opinion toward a final war.",
+      "description": "The catchphrase that talked Rome into a war of annihilation: \"Carthage must be destroyed,\" tacked onto the end of every speech by the elderly senator Cato the Elder until the Senate finally gave in. It is one of history's first recorded examples of relentless message discipline as a political weapon.",
       "wikiSlug": "Carthago_delenda_est",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "No ancient source actually quotes the famous line word-for-word; the slogan we use comes from later writers like Plutarch, Livy, and Florus, who described Cato's habit a century or two after the fact. The fig stunt is just as slippery: Cato dropped the fruit before the Senate and claimed it had come from Carthage only three days' sail away, but the figs were almost certainly grown near Rome. It was a prop, not produce, designed to make a distant city feel like it was at the gates."
+        }
+      ],
+      "commonsFile": "Patrizio Torlonia.jpg"
     },
     {
       "id": "evt-third-punic-war-begins",
       "label": "Third Punic War Begins",
       "year": -149,
-      "description": "Rome demanded that Carthage abandon its coastal city and resettle 10 miles (16 km) inland — a death sentence for a maritime civilization. Carthage refused and prepared for a final siege, the entire population working day and night to forge weapons, with women cutting their hair to braid into bowstrings.",
+      "description": "The war Rome started by making a demand it knew Carthage could never accept: hand over your weapons, then abandon your seaport and move 10 miles (16 km) inland. For a city that lived entirely off the sea, that was an order to commit suicide.",
       "wikiSlug": "Third_Punic_War",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome ran the ultimatum as a slow squeeze, extracting concessions one at a time. Carthage first sent 300 hostage children, then surrendered its entire arsenal — the historian Appian counted 200,000 sets of armor and 2,000 catapults hauled off to the Roman base at Utica (the round numbers are likely a stylized 'everything'). Only once the city was completely defenseless did Rome reveal the real demand to relocate inland, which is exactly why Carthage felt it had been tricked into disarming and chose to fight a hopeless war anyway."
+        }
+      ],
+      "commonsFile": "Vitrine 3e guerre punique.jpg"
     },
     {
       "id": "evt-destruction-carthage",
       "label": "Destruction of Carthage",
       "year": -146,
-      "description": "After a three-year siege, Scipio Aemilianus breached the walls and fought house by house through six days of street combat. The last defenders burned themselves alive in the Temple of Eshmun rather than surrender. Rome razed the city, enslaved 50,000 survivors, and — according to later tradition — plowed salt into the ground. Seven centuries of Punic civilization ended in fire.",
+      "description": "The end: after a three-year siege, the Romans broke in and fought their way uphill house by house for six days before burning seven centuries of civilization to ash. It is the ancient world's most complete act of urban annihilation.",
       "wikiSlug": "Battle_of_Carthage_(c._149_BC)",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The killing was so total that the general who ordered it, Scipio Aemilianus, reportedly broke down at the sight. The historian Polybius, standing beside him in the ruins, recorded that Scipio wept and quoted Homer's lines on the doom of Troy — because he sensed that one day Rome itself would fall the same way. As for the famous detail that Rome sowed the soil with salt so nothing would ever grow there: no ancient writer mentions it, and historians have traced the story no further back than the 1800s. It is a myth, even if it captures Rome's intent perfectly."
+        }
+      ],
+      "commonsFile": "01996 01434 Ruins of Antonine Baths at Carthage.jpg"
     },
     {
       "id": "evt-punic-literature-lost",
       "label": "Loss of Punic Literature",
       "year": -146,
-      "description": "Rome distributed Carthage's libraries to Numidian princes — except for Mago's agricultural treatise, which the Senate ordered translated into Latin. The rest was lost, making Carthage one of history's great silenced civilizations: we know it almost entirely through the words of its Greek and Roman enemies.",
+      "description": "The intellectual catastrophe behind everything else in this story: when Carthage burned, so did its entire written record, leaving us to learn about a great civilization almost entirely from the people who killed it.",
       "wikiSlug": "Punic_literature",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Rome made one telling exception. The Senate ordered a single Carthaginian book saved and translated into Latin — Mago's 28-volume farming manual — and handed the job to a senator named Decimus Junius Silanus. Everything else, the histories and poems and religious texts, went to allied Numidian kings and vanished. The lopsided result still shapes our language: 'Punic faith' became a Roman byword for treachery, and we keep using the word today, which tells you who got to write the dictionary."
+        }
+      ],
+      "commonsFile": "Stèle avec inscription punique dédiée par MS', fils d'Arish, fils de Himilkot - Musée du Louvre Antiquités orientales AO 29094.jpg"
     },
     {
       "id": "evt-treaty-inscriptions",
       "label": "Treaty Inscriptions with Rome",
       "year": -348,
-      "description": "The second Romano-Carthaginian treaty, inscribed in both Latin and Punic, tightened Carthaginian trade monopolies in the western Mediterranean — banning Roman merchants from Africa and Sardinia while permitting limited trade in Sicily. The text survives through Polybius, who noted that even Roman scholars of his day could barely read the archaic Latin.",
+      "description": "The fine print of a tightening monopoly: the second Rome–Carthage treaty (348 BCE) slammed the door on Roman traders — barred entirely from Africa and Sardinia, allowed only limited business in Sicily — as Carthage drew its commercial sphere ever tighter.",
       "wikiSlug": "Treaties_between_Rome_and_Carthage",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Our knowledge comes from the Greek historian Polybius, who copied the treaties out two centuries later from bronze tablets kept in Rome. He marveled that the Latin was so archaic by his day that even Rome's best scholars struggled to make out parts of it — a reminder of just how old these agreements were. Each successive treaty fenced Roman ships out of more water, quietly charting Carthage's rising confidence right up to the eve of the wars that would destroy it."
+        }
+      ]
     },
     {
       "id": "evt-carthage-aqueduct",
@@ -819,31 +1294,52 @@
       "id": "evt-balearic-slingers",
       "label": "Balearic Slingers in Punic Service",
       "year": -400,
-      "description": "Carthage recruited slingers from the Balearic Islands — Majorca and Minorca — who were so accurate they could hit a man's head at 100 yards. These mercenaries served in every major Carthaginian campaign and were considered the deadliest light infantry in the ancient Mediterranean.",
+      "description": "From the Balearic Islands (Majorca and Minorca, off Spain) came the ancient world's deadliest light troops: slingers whose stone and lead shot could punch through light armor at ranges that out-reached many archers.",
       "wikiSlug": "Balearic_slinger",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their accuracy was the product of brutal childhood drilling — the geographer Strabo claimed Balearic mothers would make a boy hit a target with his sling before he was allowed to eat his bread. Each man carried three slings of different lengths (worn around the head, the waist, and in hand) for short, medium and long range, swapping as the fight closed. A skilled slinger could fling a lead bullet well over 100 yards (about 100 m), and archaeologists have dug up the cast lead shot, some scratched with taunts meant for whoever it was about to hit."
+        }
+      ],
+      "commonsFile": "Projectil fona.jpg"
     },
     {
       "id": "evt-numidian-cavalry",
       "label": "Numidian Cavalry Alliance",
       "year": -300,
-      "description": "Carthage relied heavily on Numidian horsemen — lightly armed riders who fought without saddles or bridles, controlling their horses with just a rope halter. Their speed and mobility made them the finest light cavalry in the ancient world, but Numidian loyalty was to their own kings, not to Carthage — a vulnerability that proved fatal at Zama.",
+      "description": "Numidian horsemen — light riders from North Africa who controlled their mounts with a neck-rope, voice, and knees instead of saddle or bridle — were the finest light cavalry of the ancient world, and the arm Hannibal leaned on hardest. Their catch: their loyalty was to their own kings, not to Carthage.",
       "wikiSlug": "Numidia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their signature move was the feigned retreat: riding in loose swarms, each man flinging two or three javelins, then wheeling their horses around mid-gallop to bolt out of range before any heavy cavalry could pin them — only to circle back and do it again. That hit-and-run agility made them brutal at harassing and pursuing. The vulnerability the chapter hints at came due in person: at Zama the Numidian king Masinissa, now Rome's ally, led these same horsemen against Carthage, and they helped seal Hannibal's only defeat."
+        }
+      ],
+      "commonsFile": "Coin, Masinissa.png"
     },
     {
       "id": "evt-carthage-coinage",
       "label": "Carthaginian Coinage",
       "year": -410,
-      "description": "Carthage began minting its own coins around 410 BCE, relatively late for a major Mediterranean power. Early coins featured the head of Tanit and a horse — images that became iconic of Punic culture — and were struck in electrum, gold, silver, and bronze to pay mercenary armies and facilitate long-distance trade.",
+      "description": "Carthage came to coinage strikingly late — only around 410 BCE, more than a century after Athens — and it built the habit for one blunt reason: it needed hard cash to pay its hired armies.",
       "wikiSlug": "Ancient_Carthage#Coinage",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The first Carthaginian coins were actually minted in Sicily, not at Carthage itself, to fund the wars against the Greeks there — money followed the mercenaries. The classic design pairs the head of Tanit (borrowed from Greek coin portraits of Persephone) with a standing horse and a date palm, and Carthage stuck with that horse-and-Tanit formula for over two centuries. Tellingly, no large hoards of Punic coins turn up in Carthage's home territory of North Africa from the early period: the citizens largely ran on barter and credit, and coined metal existed mainly to put a sword in a foreigner's hand."
+        }
+      ],
+      "commonsFile": "Carthago - 350-320 BC - silver tetradrachm - head of Tanit - horse and date palm - Berlin MK AM 18206056.jpg"
     },
     {
       "id": "evt-carthage-azores-coins",
