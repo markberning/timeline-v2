@@ -57,6 +57,7 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
   if (!event) return null
 
   const cat = CATEGORY_META[event.category]
+  const accent = cat?.base ?? '#6b7280'
   const showImage = event.thumbnailUrl && !imgError
 
   return (
@@ -69,7 +70,7 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
       {/* Sheet */}
       <div
         ref={sheetRef}
-        className="fixed bottom-0 inset-x-0 mx-auto max-w-prose w-full z-50 rounded-t-2xl shadow-lg max-h-[60vh] overflow-y-auto animate-slide-up"
+        className="fixed bottom-0 inset-x-0 mx-auto max-w-prose w-full z-50 rounded-t-2xl shadow-lg max-h-[72vh] overflow-y-auto animate-slide-up"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)', backgroundColor: 'var(--surface)' }}
       >
         {/* Header bar: drag handle + close */}
@@ -91,56 +92,53 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
           </button>
         </div>
 
-        {/* Category color bar */}
-        <div
-          className="h-0.5 mx-5"
-          style={{ backgroundColor: cat?.base ?? '#6b7280' }}
-        />
-
-        {/* Image + caption */}
-        {showImage && (
-          <figure className="mt-3 mx-5" style={{ width: 'calc(100% - 40px)' }}>
-            <div
-              className="relative bg-foreground/5 rounded-lg cursor-pointer overflow-hidden"
-              onClick={() => setShowLightbox(true)}
-            >
-              <img
-                src={event.thumbnailUrl}
-                alt={event.imageCaption || event.label}
-                loading="lazy"
-                onError={() => setImgError(true)}
-                className="w-full rounded-lg"
-              />
-            </div>
-            {event.imageCaption && (
-              <figcaption className="text-xs text-foreground/50 mt-1.5 leading-snug italic">
-                {event.imageCaption}
-              </figcaption>
-            )}
-          </figure>
-        )}
+        {/* Accent line under the header */}
+        <div className="h-0.5 mx-5" style={{ backgroundColor: accent }} />
 
         <div className="px-5 pt-3 pb-6" onClick={onInnerLinkClick}>
           {/* Category label */}
           {cat && (
             <span
               className="text-xs font-medium uppercase tracking-wide"
-              style={{ color: cat.base }}
+              style={{ color: accent }}
             >
               {cat.label}
             </span>
           )}
 
           {/* Event name + year */}
-          <h3 className="text-lg font-bold mt-1">{event.label}</h3>
-          <p className="text-sm text-foreground/60 mt-0.5">
+          <h3 className="text-xl font-bold mt-1 leading-tight">{event.label}</h3>
+          <p className="text-sm text-foreground/55 mt-1">
             {formatYear(event.year, event.endYear)}
           </p>
 
-          {/* Description */}
+          {/* Photo — inset, after the title */}
+          {showImage && (
+            <figure className="mt-3">
+              <div
+                className="relative bg-foreground/5 rounded-lg cursor-pointer overflow-hidden"
+                onClick={() => setShowLightbox(true)}
+              >
+                <img
+                  src={event.thumbnailUrl}
+                  alt={event.imageCaption || event.label}
+                  loading="lazy"
+                  onError={() => setImgError(true)}
+                  className="w-full rounded-lg"
+                />
+              </div>
+              {event.imageCaption && (
+                <figcaption className="text-xs text-foreground/50 mt-1.5 leading-snug italic">
+                  {event.imageCaption}
+                </figcaption>
+              )}
+            </figure>
+          )}
+
+          {/* House-voice description — the lead */}
           {event.description && (
             <p
-              className="mt-3 leading-relaxed"
+              className="mt-3 leading-relaxed text-[1.02rem]"
               dangerouslySetInnerHTML={{ __html: event.description }}
             />
           )}
@@ -162,26 +160,14 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
             </div>
           )}
 
-          {/* Wikipedia extract */}
-          {event.wikiExtract && (
-            <div className="mt-4 pt-4 border-t border-foreground/10">
-              <h4 className="text-xs font-semibold uppercase tracking-wide text-foreground/50 mb-1">
-                Wikipedia
-              </h4>
-              <p
-                className="text-foreground/70 leading-relaxed text-[0.9em]"
-                dangerouslySetInnerHTML={{ __html: event.wikiExtract }}
-              />
-            </div>
-          )}
-
-          {/* Wikipedia link */}
+          {/* Wikipedia link — the full article for readers who want more (raw extract dump removed) */}
           {event.wikiSlug && (
             <a
               href={`https://en.wikipedia.org/wiki/${event.wikiSlug}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-4 text-sm font-medium text-foreground/50 hover:text-foreground/80 transition-colors"
+              className="inline-flex items-center gap-1 mt-5 text-sm font-medium transition-colors"
+              style={{ color: accent }}
             >
               Read more on Wikipedia →
             </a>
