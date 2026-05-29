@@ -74,7 +74,10 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
       opacity: soon ? 0.74 : 1,
     }}>
       {badge}
-      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : '100%', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
+      {/* Non-XL (row) image column: stretch to the card's height via flex align
+          (the card uses minHeight, so a percentage `height:100%` here no longer
+          resolves — it would collapse the column to 0 and hide the photo). */}
+      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : undefined, alignSelf: isXL ? undefined : 'stretch', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
         <Tile palette={palette} imageUrl={imageUrl} label={imgLabel} isXL={isXL} />
       </div>
       {/* clear LEFT padding on horizontal cards so the text isn't butted up
