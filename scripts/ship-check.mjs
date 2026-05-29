@@ -116,6 +116,15 @@ check('link-coverage --strict', () => { sh('npx', ['tsx', 'scripts/link-coverage
 // the baseline (every new civ + every swept civ) is zero-tolerance.
 check('lint-event-cards --strict', () => { sh('npx', ['tsx', 'scripts/lint-event-cards.ts', `--tl=${tlId}`, '--strict']); return '2-part cards present' })
 
+// 5c. Event-popup photo coverage (G15). Each chapter must clear a coverage
+// floor (≥70% of its surfaced events carry a viewed image) so a civ can't ship
+// with mostly-blank chapters (the carthage failure mode: over-rejection left
+// 20–60% of a chapter imageless instead of using a representative born-verified
+// artifact — see CLAUDE step 13 preference order). Legacy civs grandfathered in
+// audits/event-photo-baseline.json; a civ NOT in the baseline (new + swept) is
+// held to the floor. Reads parsed content, so it runs after the parse above.
+check('lint-event-photos --strict', () => { sh('npx', ['tsx', 'scripts/lint-event-photos.ts', `--tl=${tlId}`, '--strict']); return 'photo coverage ≥ floor' })
+
 // 6. Chapter flow (G6) — no Persona-D WEAK/REWRITE, no "no" build dependency.
 check('audit: no WEAK/REWRITE, no broken build-dependency', () => {
   const a = join(ROOT, 'audits', `${tlId}.audit.md`)
