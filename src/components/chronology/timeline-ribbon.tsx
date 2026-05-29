@@ -336,7 +336,7 @@ function ChainPills({
                     color: isActive ? 'white' : color,
                     border: `1px solid ${isActive ? color : `color-mix(in srgb, ${color} 25%, transparent)`}`,
                   }}
-                  onClick={() => onChainSolo(isActive ? null : chain.id)}
+                  onClick={() => onChainSolo(chain.id)}
                 >
                   {chain.shortLabel}
                 </button>
