@@ -138,6 +138,19 @@ body {
   cursor: pointer;
 }
 
+/* When an event link lands on a bolded term (authors bold key terms on first
+   mention — exactly the terms worth linking, so ~60% of event links are bold),
+   the thin dotted underline gets lost in the heavier strokes and the term reads
+   as emphasis rather than a tappable link. Promote it to a solid, slightly
+   thicker underline so the link affordance survives the bold. Scoped to the
+   bold case only — non-bold event links keep their lighter dotted treatment,
+   and glossary/cross links (which carry a background pill) are unaffected. */
+strong .event-link,
+.event-link:has(strong) {
+  text-decoration-style: solid;
+  text-decoration-thickness: 1.5px;
+}
+
 /* Light mode: use darker text-safe variants */
 .event-link[data-category="rulers"]       { color: #92400e; }
 .event-link[data-category="wars"]         { color: #b91c1c; }
