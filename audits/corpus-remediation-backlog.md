@@ -256,7 +256,21 @@ Applies to the 14 new civs being built now too — so worth specifying the riche
 standard before they all ship, the same way the intro/manifesto features were
 locked before their backfills. Born-verified image doctrine still holds: confirm
 the photo matches the subject at creation, never ship a wrong/duplicate picture.
-NOT started; sequencing vs the new-civ build + Tier B TBD.
+**STANDARD LOCKED + PIPELINE-BAKED 2026-05-29.** Reference pilot = `celtic-cultures`
+ch1 (12 events), user-approved on all three axes (writing, photo, caption). Locked
+shape = a **two-part "explore further" card**: `description` (tight house-voice
+define+hook) + `details:[{label:"Explore further",text}]` (2–4 sentences of
+born-verified info the narrative doesn't give); a **vision-verified** real photo
+(download + LOOK; best artifact/site match, not the auto-pulled lead image or an
+ugly map) via `.image-overrides.json`; an English house-voice caption via
+`.caption-overrides.json` (the pilot caught a French auto-caption + a
+citation-fragment caption). EventSheet UI redesigned to the 2-part card (Piece A
+shipped). Now in CLAUDE.md pipeline **step 0** (writing) + **step 13**
+(photo/caption vision pass), so the remaining new civs build it correctly from the
+start. **Corpus-wide retro rollout (legacy 100 + wave-1 + wave-2) is GREENLIT, NOT
+yet started** — triage (`fix-links` photo flags) → vision-verify flagged/missing
+photos → 2-part copy where thin. User accepted the authoring cost ("hugely
+important"). Whole-corpus vs worst-first sequencing TBC.
 
 **#19 is a committed feature backfill, NOT standard drift to tolerate.** The
 chapter-intro framing card + G13 gate (`lint-intros.ts`) shipped 2026-05-19;

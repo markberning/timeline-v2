@@ -4,6 +4,16 @@ One file per TL. Map generation is **automated** — `node --env-file=.env.local
 
 This README documents the prompt **house style**. The CRITICAL RULES block and lean spec below are authoritative. As of 2026-05, `generate-maps.mjs` `preprocessPrompt()` also **auto-injects the global defect-prevention rules** (duplicate-label, no modern political geography, no compass words, no ornamental glyphs, frame, water) into *every* chapter prompt at generation time — so even older prompt files that lack the block get them on regen. New/redo prompts must still paste the CRITICAL RULES block, since per-prompt literal directives are followed more reliably than the global injection alone.
 
+## 3-attempt cap, then escalate to the user (locked 2026-05-29 — user rule)
+
+**Each chapter map gets at most 3 generation attempts, then it stops.** `maps-build.mjs` already does ≤3 regen rounds in a single run, so **one `maps-build` run IS the 3-attempt budget.** Do **not** re-run `maps-build` over and over to keep re-rolling the same stubborn chapter — that burns billable image generations and lets the map tail stall the whole civ (it blew wave-2 `age-of-exploration` up to 8–13 attempts on three world-maps). After the one run:
+
+1. Read `MAP-FAILURES-<tlId>.txt`.
+2. For each still-failing chapter, **write the user a short note** — the chapter/location and the reason it doesn't pass — and let them look and judge (accept as-is via a `content/.map-waivers-<tlId>.json` entry, or decide a fix).
+3. **Move on and finish the rest of the civ** (emblems, the other ship gates). A failing map is the only thing left for the user's judgment; it must not block everything else.
+
+Run maps **early** in a civ build so the user has time to judge any failures before ship. The one exception that earns a fresh 3-attempt run is fixing a genuine *prompt* bug (e.g. a self-contradictory instruction) — not blind re-rolling. See `memory/feedback_map_three_attempt_cap`.
+
 ---
 
 ## CRITICAL house style — every prompt MUST open with these rules
