@@ -107,6 +107,12 @@
       "targetTl": "aztec-empire",
       "targetChapter": 1,
       "blurb": "Meanwhile, in central Mexico: the future Aztec capital of Tenochtitlan would not be founded for nearly a century after Sundiata's rise."
+    },
+    {
+      "matchText": "the gold-and-salt trade",
+      "targetTl": "atlantic-slave-trade",
+      "targetChapter": 3,
+      "blurb": "The trans-Saharan circuit that made the Sahelian empires — gold north, salt south, and enslaved people carried across the desert — is the comparand Atlantic Slave Trade Ch 3 (\"The African Coast and the Kingdoms\") invokes to explain what made the Atlantic trade different. Mali's economy ran on the older overland system; the new narrative traces where that gold-and-captive economy went once the Atlantic forts gave it a rival route to the sea."
     }
   ],
   "2": [
@@ -305,6 +311,12 @@
       "targetTl": "al-andalus",
       "targetChapter": 16,
       "blurb": "Meanwhile in al-Andalus: the poet-architect Abu Ishaq al-Sahili came from Granada, the last Muslim kingdom of Iberia, before migrating to Musa's court."
+    },
+    {
+      "matchText": "released so much gold",
+      "targetTl": "age-of-exploration",
+      "targetChapter": 3,
+      "blurb": "Mansa Musa's gold — and the Cairo crash it caused — is precisely the story that drew Portugal south. Age of Exploration Ch 3 (\"Gold, God, and the First Slaves\") cites the legend of West African gold as the motive behind the Portuguese crawl down the Atlantic coast: get to the source of the metal that had glutted Cairo, and tap it by sea before it ever reached the Sahara caravans. This chapter is where that gold originates; the new narrative is where Europe comes hunting it."
     }
   ],
   "5": [
@@ -637,6 +649,12 @@
       "targetTl": "swahili-coast",
       "targetChapter": 8,
       "blurb": "Meanwhile on the Swahili Coast: Kiswahili, the trade language that outlasted the gold and the empires—the corpus's twin to Mali, an African export that survived the polity that carried it."
+    },
+    {
+      "matchText": "away from the Sahel",
+      "targetTl": "age-of-exploration",
+      "targetChapter": 3,
+      "blurb": "The Atlantic re-routing that drained the Sahel is told from the European side in Age of Exploration Ch 3 (\"Gold, God, and the First Slaves\"): the Portuguese forts on the West African coast, the gold and captives bought there, and the slow strangling of the trans-Saharan trade as commerce swung from the desert edge to the ocean. The same shift the Swahili Coast narrative calls \"two African gold systems hollowed from the sea at once.\""
     }
   ]
 }

@@ -406,6 +406,12 @@
       "targetTl": "maya-civilization",
       "targetChapter": 8,
       "blurb": "Meanwhile in the Yucatán: the small, splintered Maya kingdoms of the Postclassic had no single capital to capture, so the Spanish ground through them piecemeal from 1527, and the last independent kingdom held out until 1697."
+    },
+    {
+      "matchText": "into the Andes through trade",
+      "targetTl": "age-of-exploration",
+      "targetChapter": 10,
+      "blurb": "This is the exact mechanism Age of Exploration Ch 10 (\"The Fall of the Inca\") relies on: smallpox running ahead of the Spanish down the disease chain from Mexico, reaching the Andes years before Pizarro and killing the reigning Sapa Inca Huayna Capac, which triggered the civil war between Atahualpa and Huascar that Pizarro walked into. The new narrative treats the invisible pathogen, not the 168 men, as the conquest's first conqueror."
     }
   ],
   "8": [
@@ -522,6 +528,42 @@
       "targetTl": "islamic-golden-age",
       "targetChapter": 1,
       "blurb": "Meanwhile in the Near East: the Abbasid Caliphate's golden age was the Old World's great example of an empire fusing administration, science, and trade at continental scale."
+    },
+    {
+      "matchText": "sighted the Pacific from Panama",
+      "targetTl": "age-of-exploration",
+      "targetChapter": 8,
+      "blurb": "Balboa's 1513 crossing of the Isthmus — the first European sight of the Pacific from the Americas — is a full scene in Age of Exploration Ch 8 (\"The Pacific and the First Circle\"). The same chapter carries the ocean story forward to Magellan's crossing and the first circumnavigation, so Pizarro's apprenticeship under Balboa sits inside the larger story of how Europeans first grasped the size of the Pacific they had stumbled onto."
+    },
+    {
+      "matchText": "fill the room",
+      "targetTl": "age-of-exploration",
+      "targetChapter": 10,
+      "blurb": "Atahualpa's ransom — a room filled once with gold and twice with silver — is retold near-identically in Age of Exploration Ch 10 (\"The Fall of the Inca\"), down to the line drawn on the wall and the dimensions of the room. The new narrative frames it as the moment the conquest turned from capture into extraction: the treasure was paid, and Atahualpa was strangled anyway."
+    },
+    {
+      "matchText": "melted down in field furnaces",
+      "targetTl": "age-of-exploration",
+      "targetChapter": 11,
+      "blurb": "The gold and silver melted into ingots for shipment to Spain foreshadows the system Age of Exploration Ch 11 (\"The Silver Engine\") turns into its subject: the Potosí mines, the mita that fed them, and the bullion flow that tied the Andes to Seville, Manila, and Ming China. The ransom was a one-time looting; the Silver Engine was the permanent machine the conquest installed in its place."
+    },
+    {
+      "matchText": "led a major indigenous revolt",
+      "targetTl": "latin-american-independence",
+      "targetChapter": 1,
+      "blurb": "The 1780 Túpac Amaru II revolt becomes, in Latin American Independence Ch 1 (\"The Colonial Pressure Cooker\"), the largest spark before the great explosion — and the one that terrified the creole elite about mass indigenous uprising, shaping how cautiously they later approached their own independence. The Inca name the rebel took was no accident, and forty years on it was still a touchstone fear of the independence generation."
+    },
+    {
+      "matchText": "reorganizing the mit'a labor draft",
+      "targetTl": "latin-american-independence",
+      "targetChapter": 1,
+      "blurb": "The Potosí mita — the silver-mining labor draft the Spanish grafted onto the Inca system — became one of the central grievances the independence leaders attacked as colonial theft. Latin American Independence Ch 1 carries this extraction regime forward to its political afterlife: the silver mountain and its conscripted labor as Exhibit A in the case that three centuries of colonial Peru had been built on stolen Andean work."
+    },
+    {
+      "matchText": "conquest by 168 men",
+      "targetTl": "latin-american-independence",
+      "targetChapter": 7,
+      "blurb": "Spanish power on the continent that began with Pizarro's 168 men ended three centuries later almost in the same highlands. Latin American Independence Ch 7 (\"The Final Reckoning\") tells how the Battle of Ayacucho in 1824, fought in the Peruvian Andes, destroyed the last royalist army and closed the empire the conquest had opened — a full-circle line the new narrative draws deliberately."
     }
   ]
 }
