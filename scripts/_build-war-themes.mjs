@@ -179,7 +179,7 @@ const CONFIGS = [
   {
     slug: 'assassination', battleId: 'th-assassination', battleName: 'Lincoln Assassinated', fromJson: true,
     eyebrow: `Five days after the peace`,
-    hero: { palette: ['#241c1c', '#161112', '#080606'], focus: 'center 20%', scale: 1.0 },
+    hero: { palette: ['#241c1c', '#161112', '#080606'], focus: 'center 40%', scale: 1.06 },
     end: { kicker: `The peace loses its architect`, label: `Back to Off the Battlefield` },
     meanwhile: { region: `the whole nation`, title: `The Reckoning`, body: `The man who might have softened the peace was gone. Now the country had to count its dead, free four million people for good, and decide what the war had actually settled — and what it had only deferred.` },
   },

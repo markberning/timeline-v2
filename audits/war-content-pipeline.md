@@ -221,6 +221,18 @@ The reader + dossier are shared components — a new battle is mostly a data fil
   page is built. (`Theme` had no `img` field until the Emancipation card shipped
   blank — added 2026-05-22.)
 - Self-host PD images only (Commons hotlinking 429-blocks). **Verify every image matches its caption before trusting it** (stereoview cards, wrong-subject scans, and matted prints all slip through search).
+- **HERO MUST BE LANDSCAPE / near-square (locked 2026-05-30, user-flagged).** The hero
+  band is a short, wide landscape strip; a **clearly-tall portrait gets its head/subject
+  cropped off** in it (the Lincoln-assassination Booth carte-de-visite, 3915×6022, was the
+  defect — his head was cut). RULE: pick a landscape (or near-square) image as the hero;
+  put the portrait inline as a figure instead. A near-4:5 *head-and-shoulders* portrait can
+  pass if `heroFocus` keeps the face (lincolns-rise's Cooper Union, 1273×1600, reads OK),
+  but a full-figure or steeply-tall portrait may NOT be the hero. If a subject is
+  **portrait-only** (no usable landscape exists), use a **2-up side-by-side portrait pair**
+  (the art/Cubism "break" hero pattern) rather than cropping one — that hero mode is built
+  for art but NOT yet for the war reader, so until it is, a war section's hero must be
+  landscape. The same `img` feeds the OTBF/home card, so a landscape hero also sets the
+  card `stack: true` (image-on-top).
 
 **Breadcrumb + accent (locked 2026-05-22):**
 - **Short breadcrumb label for long titles.** A long section name overflows the

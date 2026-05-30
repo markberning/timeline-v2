@@ -1,12 +1,20 @@
 {
   "slug": "assassination",
   "hero": {
-    "file": "assassination-hero-booth.jpg",
-    "caption": "This is the face the whole country knew. John Wilkes Booth — one of the most famous actors in America, handsome, athletic, a star pulling in a fortune on the stage — in a studio portrait taken years before Good Friday, 1865. It was exactly this celebrity that let him walk up the stairs of a Washington theater unquestioned and step into the President's box.",
-    "credit": "unattributed studio portrait · albumen carte-de-visite photograph · c. 1860 · Library of Congress, Prints & Photographs Division · public domain",
-    "orientation": "portrait (3915 × 6022)"
+    "file": "assassination-fords-theatre.jpg",
+    "caption": "The popular print of the murder, rushed out by Currier & Ives within days of the killing: Booth's pistol at the back of the President's head, Mary Todd Lincoln beside him, Major Rathbone half-risen, Clara Harris recoiling. It is a dramatization, not a witness's record — but it is the image of that night that millions of Americans first carried in their heads.",
+    "credit": "Currier & Ives · hand-colored lithograph · 1865 · Library of Congress, Prints & Photographs Division · public domain",
+    "orientation": "landscape (1024 × 739)"
   },
   "figs": [
+    {
+      "file": "assassination-hero-booth.jpg",
+      "caption": "This is the face the whole country knew. John Wilkes Booth — one of the most famous actors in America, handsome, athletic, a star pulling in a fortune on the stage — in a studio portrait taken years before Good Friday, 1865. It was exactly this celebrity that let him walk up the stairs of a Washington theater unquestioned and step into the President's box.",
+      "credit": "unattributed studio portrait · albumen carte-de-visite photograph · c. 1860 · Library of Congress, Prints & Photographs Division · public domain",
+      "orientation": "portrait (3915 × 6022)",
+      "type": "after",
+      "heading": "The Actor"
+    },
     {
       "file": "assassination-powell.jpg",
       "caption": "Lewis Powell — alias \"Paine\" — photographed in custody at the Washington Navy Yard, seated and manacled in a dark sweater, staring straight down the lens. The biggest and most dangerous of Booth's cell, he was the man sent to knife Secretary of State Seward in his sickbed. Alexander Gardner's prison portraits of the conspirators are among the most arresting photographs of the entire war.",
@@ -22,14 +30,6 @@
       "orientation": "portrait (2562 × 3000)",
       "type": "after",
       "heading": "Seward's House"
-    },
-    {
-      "file": "assassination-fords-theatre.jpg",
-      "caption": "The popular print of the murder, rushed out by Currier & Ives within days of the killing: Booth's pistol at the back of the President's head, Mary Todd Lincoln beside him, Major Rathbone half-risen, Clara Harris recoiling. It is a dramatization, not a witness's record — but it is the image of that night that millions of Americans first carried in their heads.",
-      "credit": "Currier & Ives · hand-colored lithograph · 1865 · Library of Congress, Prints & Photographs Division · public domain",
-      "orientation": "landscape (1024 × 739)",
-      "type": "after",
-      "heading": "Ford's Theatre"
     },
     {
       "file": "assassination-deathbed.jpg",

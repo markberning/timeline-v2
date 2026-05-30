@@ -26,14 +26,14 @@ portrait is a Brady-studio NARA photograph, c. 1860–1862 → PD.
 
 ---
 
-## HERO — John Wilkes Booth, the matinee idol
+## FIGURE 0 — John Wilkes Booth, the matinee idol
 
 - **filename:** `assassination-hero-booth.jpg`
 - **direct URL:** `https://tile.loc.gov/storage-services/service/pnp/ppmsca/23800/23892v.jpg`
 - **orientation:** portrait (3915 × 6022)
 - **caption:** This is the face the whole country knew. John Wilkes Booth — one of the most famous actors in America, handsome, athletic, a star pulling in a fortune on the stage — in a studio portrait taken years before Good Friday, 1865. It was exactly this celebrity that let him walk up the stairs of a Washington theater unquestioned and step into the President's box.
 - **credit:** unattributed studio portrait · albumen carte-de-visite photograph · c. 1860 · Library of Congress, Prints & Photographs Division · public domain
-- **placement:** `hero`
+- **placement:** `after **The Actor**`
 - **subject-verification:** Commons "File:John Wilkes Booth, half-length studio portrait, sitting LCCN2009634256.jpg," LOC LCCN 2009634256 → LOC download path `ppmsca/23800/23892v.jpg`; dated 1860, a pre-assassination studio portrait of Booth the actor — the celebrity face the prose's hero calls for. Tile URL byte-verified `200 image/jpeg` (156 KB). PD: c.1860 photograph, LOC "no known restrictions."
 
 ---
@@ -69,7 +69,7 @@ portrait is a Brady-studio NARA photograph, c. 1860–1862 → PD.
 - **orientation:** landscape (1024 × 739)
 - **caption:** The popular print of the murder, rushed out by Currier & Ives within days of the killing: Booth's pistol at the back of the President's head, Mary Todd Lincoln beside him, Major Rathbone half-risen, Clara Harris recoiling. It is a dramatization, not a witness's record — but it is the image of that night that millions of Americans first carried in their heads.
 - **credit:** Currier & Ives · hand-colored lithograph · 1865 · Library of Congress, Prints & Photographs Division · public domain
-- **placement:** `after **Ford's Theatre**`
+- **placement:** `hero`
 - **subject-verification:** LOC item 90708801, item-JSON confirmed title "The assassination of President Lincoln: at Ford's Theatre, Washington, D.C., April 14th, 1865," Currier & Ives 1865, rights_advisory "No known restrictions on publication"; reproduction `pga.06090` (the factpack's LC-DIG-pga-06090). Tile URL `06090v.jpg` byte-verified `200 image/jpeg` (365 KB). Matches the section's depiction of the shooting in the box.
 
 ---
