@@ -102,79 +102,58 @@
       "id": "evt-ac-rice-domestication",
       "label": "Rice Domestication",
       "year": -7000,
-      "description": "Communities in the Yangtze River valley, particularly around Kuahuqiao and Hemudu, began selectively cultivating wild rice. This was one of the earliest crop domestications in human history.",
+      "description": "About 370 miles (600 km) south of the millet country, communities in the warm, wet Yangtze River valley were taming a different grass: rice. Sometime around 7000 BCE they pushed wild rice across the line into a true crop — one of the earliest domestications in human history, and the start of the grain that now feeds more than half the planet.",
       "wikiSlug": "History_of_rice_cultivation",
       "tier": 1,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Wild rice (Oryza rufipogon) grew in the marshes and shallow lakes of the Yangtze River basin. Hunter-gatherers had harvested it for millennia before deliberate planting began."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Yangtze valley communities began deliberately planting, tending, and selecting rice grains around 7000 BCE. Archaeological evidence from Kuahuqiao and Shangshan sites shows early paddy agriculture and rice storage pits."
-        },
-        {
-          "label": "Impact",
-          "text": "Rice domestication created the agricultural base for East and Southeast Asian civilization. Today rice feeds over half the world's population — a legacy that traces directly to these Yangtze valley farmers."
+          "label": "Explore further",
+          "text": "The whole trick of domestication came down to one trait. Wild rice shatters — it drops its seeds the moment they ripen, which is great for the plant but useless for a harvester who arrives to find the grain already on the ground. A chance mutation makes the plant hold its seeds on the stalk, and generations of farmers harvesting and replanting the keepers slowly bred shattering out. Archaeologists can actually track this: rice grain bases from lower-Yangtze sites like Kuahuqiao and Tianluoshan show shattering rates dropping over centuries, proving domestication was a slow, multi-thousand-year process rather than a single eureka moment."
         }
-      ]
+      ],
+      "commonsFile": "Carbonized Rice.jpg"
     },
     {
       "id": "evt-ac-bone-flutes",
       "label": "Jiahu Bone Flutes",
       "year": -7000,
-      "description": "At Jiahu in Henan province, crane-wing bones were crafted into playable flutes — the world's oldest verified musical instruments. Several remain playable today, spanning a full octave.",
+      "description": "At the village of Jiahu in Henan, people carved the wing bones of cranes into flutes — and these are the oldest playable musical instruments ever found. Make a faithful copy of one and a modern musician can pick it up and play a tune within minutes.",
       "wikiSlug": "Jiahu",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Discovery",
-          "text": "Archaeologists excavating Jiahu found 33 bone flutes, some with 5, 6, or 7 holes. The materials — wing bones of the red-crowned crane — were carefully selected for acoustic properties."
-        },
-        {
-          "label": "Significance",
-          "text": "Carbon dating places the flutes at 7000–5700 BCE, making them the oldest playable musical instruments yet found. One intact flute, when played, produces a tonal scale comparable to a modern diatonic scale."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Jiahu flutes suggest that music, ritual, and community performance were part of Chinese village life from its very beginning — long before any dynasty or writing system existed."
+          "label": "Explore further",
+          "text": "The bone is specifically the ulna (wing bone) of the red-crowned crane, a big migratory wetland bird, and the flutes carry anywhere from five to eight precisely drilled finger holes. The best-preserved examples are 7,000 to 9,000 years old and produce a scale spanning nearly a full octave — close to the pentatonic feel a Chinese listener still recognizes today. One famous flute was excavated in three pieces with small repair holes drilled along the breaks, where its long-dead owner had carefully mended a favorite instrument. These weren't crude whistles; structured, tuned music was part of village life from the very dawn of farming here."
         }
-      ]
+      ],
+      "commonsFile": "Neolithic bone flute, Peiligang Culture, Wuyang, Henan, 1987, earliest known musical instrument.jpg"
     },
     {
       "id": "evt-ac-jiahu-symbols",
       "label": "Jiahu Proto-Writing",
       "year": -6600,
-      "description": "Tortoise shells and bones at Jiahu bear incised symbols that some scholars identify as early proto-writing — possibly among the earliest symbolic markings in human history. Their relationship to later Chinese script is debated.",
+      "description": "In the Jiahu cemetery, archaeologists found tortoise shells and bones carved with small, deliberate symbols — not random scratches, but recurring shapes. Some scholars call them the earliest seeds of Chinese writing; others say they're too few and too isolated to be writing at all. Nobody can settle it.",
       "wikiSlug": "Jiahu_symbols",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "What Was Found",
-          "text": "Excavators at Jiahu found 16 separate artifacts bearing incised marks, including tortoise shells placed in elite burials. At least 11 distinct symbols have been identified, several resembling later oracle bone script characters."
-        },
-        {
-          "label": "Scholarly Debate",
-          "text": "Some Chinese archaeologists argue the Jiahu symbols represent the earliest form of Chinese writing, predating Mesopotamian cuneiform. Western scholars are more cautious, classifying them as symbolic notation rather than true script."
-        },
-        {
-          "label": "Legacy",
-          "text": "Whether proto-writing or ritual marks, the Jiahu symbols show that Neolithic Chinese communities were already using visual symbols to record or communicate — a thread that would eventually produce the oracle bone script of the Shang."
+          "label": "Explore further",
+          "text": "There are 11 firmly identified incised signs — 9 on tortoise shells, 2 on bone — dating to roughly 6600–6200 BCE, mostly turning up in the richer, offering-filled graves of apparently important people. A few of them faintly echo characters from the oracle bone script the Shang would carve into turtle shells about 4,500 years later, on the same material in the same ritual context. The catch is the gap: shell inscription then vanishes for thousands of years before the Shang revive it, so most archaeologists call Jiahu \"proto-writing\" at best — symbols tied to ritual, not proven to encode spoken language. Whether it's writing or not, it's the earliest ghost of a thread that runs straight through Chinese history."
         }
-      ]
+      ],
+      "commonsFile": "Tortoise shell engraved symbol (Jiahu; cropped).jpg"
     },
     {
       "id": "evt-ac-peiligang-culture",
       "label": "Peiligang Culture",
       "year": -7000,
-      "description": "One of China's earliest Neolithic cultures (7000–5000 BCE), centered in the middle Yellow River region of modern Henan province. Peiligang communities cultivated millet, kept pigs and dogs, and built pit-house villages — laying the groundwork for the Yangshao culture that followed.",
+      "description": "One of the earliest farming cultures in China (roughly 7000–5000 BCE), named for a village in Henan where its first site was dug up. These were millet farmers who kept pigs and dogs, lived in pit houses scooped out of the soft loess soil, and stored grain in underground pits — the ground-floor of northern Chinese civilization.",
       "wikiSlug": "Peiligang_culture",
       "commonsFile": "Peiligang Culture Red Pottery Jar, Xinzheng.jpg",
       "tier": 3,
@@ -182,16 +161,8 @@
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "After the last Ice Age, communities along the Yellow River began settling into permanent villages on the loess plains of Henan province. The fine, fertile loess soil could be worked with simple digging sticks, making it ideal for early agriculture."
-        },
-        {
-          "label": "What They Built",
-          "text": "Peiligang villages consisted of semi-subterranean pit houses, storage pits for grain, and burial grounds. Excavated tools include stone sickles, grinding stones for processing millet, and simple pottery vessels — the basic toolkit of China's first farmers."
-        },
-        {
-          "label": "Legacy",
-          "text": "Peiligang established the pattern of settled millet-farming village life that would characterize the Yellow River valley for millennia. The culture's territory and traditions were directly inherited by the much larger Yangshao culture after 5000 BCE."
+          "label": "Explore further",
+          "text": "Nobody knows what these people called themselves; \"Peiligang\" is just the modern village next to the first excavated site, and the label got stuck onto every settlement that looked similar across more than 100 sites south of the Yellow River. Their toolkit is unmistakable: paired grinding stones — a flat slab (a quern) and a roller (a muller) — used to crush millet into flour or meal. Residue scraped off these very stones has turned up starch grains of both millet and rice, so even these early northern farmers weren't eating a single crop. The same grind-the-grain-on-a-stone setup would persist in rural northern China for thousands of years."
         }
       ]
     },
@@ -199,31 +170,24 @@
       "id": "evt-ac-cishan-culture",
       "label": "Cishan Culture",
       "year": -6600,
-      "description": "A Neolithic culture (6600–5000 BCE) in the Taihang Mountains of modern Hebei province, closely related to Peiligang. Cishan is notable for massive underground grain storage pits preserving over 50,000 kg of millet — the earliest large-scale grain storage evidence in the world.",
+      "description": "A Neolithic culture (roughly 6500–5000 BCE) in the Taihang Mountain foothills of modern Hebei province, a close cousin of Peiligang — same millet, same pit houses, same kinds of tools. What sets Cishan apart is its astonishing scale of stored grain.",
       "wikiSlug": "Cishan_culture",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Cishan site sits at the eastern edge of the Taihang Mountains in Hebei province, where the loess plateau meets the North China Plain. The location offered both upland wild millet and lowland marshes for diverse food sources."
-        },
-        {
-          "label": "The Discovery",
-          "text": "Archaeologists found 88 underground storage pits at Cishan containing carbonized millet remains totaling over 50,000 kg. This is the earliest evidence of large-scale grain storage anywhere in the world — proof that Cishan communities were producing far more food than they needed immediately."
-        },
-        {
-          "label": "Legacy",
-          "text": "The scale of Cishan's grain storage suggests organized surplus production and possibly redistribution — economic behaviors associated with emerging social complexity. The two millet species found here (foxtail and broomcorn) became northern China's staple crops for thousands of years."
+          "label": "Explore further",
+          "text": "Excavations at the type site in the 1970s uncovered an extraordinary 474 underground storage pits, many lined with the ashy remains of carbonized millet; the deepest ran about 16 feet (5 m) down and could hold close to a ton of grain each. The often-quoted total of around 50,000 kg (about 110,000 lbs) is the original report's estimate and is treated cautiously today, but even conservative readings put Cishan in a class of its own — the earliest evidence of large-scale grain storage anywhere on Earth. Surpluses that far beyond daily need mean somebody was planning ahead and organizing labor: the faint economic signature of social complexity, well before any king."
         }
-      ]
+      ],
+      "commonsFile": "Cishan Cultural 1.jpg"
     },
     {
       "id": "evt-ac-millet-cultivation",
       "label": "Millet Cultivation",
       "year": -6500,
-      "description": "The Cishan and Peiligang cultures of the Yellow River valley domesticated foxtail millet and broomcorn millet, creating northern China's primary agricultural staple and the basis for its earliest villages.",
+      "description": "Millet is a catch-all name for a group of small-seeded, drought-tough grasses. Farmers in the Yellow River valley domesticated two of them — foxtail millet and broomcorn millet — and made them the staple grain of northern China for the next several thousand years, long before rice or wheat mattered up north.",
       "wikiSlug": "Peiligang_culture",
       "commonsFile": "Food grain foxtail millet.jpg",
       "tier": 1,
@@ -231,16 +195,8 @@
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Yellow River loess plains supported abundant wild millet grasses. Early Peiligang and Cishan communities (Henan and Hebei provinces) began storing and planting selected seeds around 6500 BCE."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Two millet species were independently domesticated: foxtail millet (Setaria italica) and broomcorn millet (Panicum miliaceum). The Cishan site preserves grain pits with remains of over 50,000 kg of stored millet."
-        },
-        {
-          "label": "Impact",
-          "text": "Millet would power northern Chinese civilization for millennia — from Yangshao villages to Shang millet wine to Tang-era granaries. Its drought tolerance made it ideal for the semi-arid Yellow River plain."
+          "label": "Explore further",
+          "text": "Millet's superpower is that it shrugs off the dry, cool conditions that would kill rice, which is exactly why it took hold on the loess plains. The seeds are tiny but enormously versatile: ground into flour, boiled into porridge, or fermented into beer. Its grip on the north ran for millennia after this — Shang nobles drank millet wine, Han soldiers were partly paid in millet, and Tang granaries were stacked with it. Charred broomcorn millet at Peiligang sites has been dated to roughly 7800 years ago, among the oldest domesticated millet anywhere."
         }
       ]
     },
@@ -248,31 +204,24 @@
       "id": "evt-ac-fuxi",
       "label": "Fuxi",
       "year": -5500,
-      "description": "Fuxi is the first of China's Three Sovereigns — a legendary culture hero credited with inventing fishing nets, animal domestication, and the Eight Trigrams (bagua) that encode the fundamental forces of nature. He is traditionally paired with his sister-wife Nüwa.",
+      "description": "The first of China's legendary Three Sovereigns — a half-human, half-serpent culture hero, usually shown coiled together with his sister-wife Nüwa. Tradition credits him with fishing nets, taming animals, and the bagua, the Eight Trigrams of broken and unbroken lines that became the backbone of Chinese divination.",
       "wikiSlug": "Fuxi",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Fuxi is depicted as a half-serpent, half-human figure who taught humanity the arts of civilization. With Nüwa, he represents the primordial couple in Chinese mythology — together they populated the world after a great flood."
-        },
-        {
-          "label": "Role in Legend",
-          "text": "Fuxi invented the bagua — eight trigrams combining broken and unbroken lines to represent all natural forces. He also taught fishing, trapping, and animal husbandry. The trigrams became the foundation of the I Ching (Book of Changes), China's oldest philosophical text."
-        },
-        {
-          "label": "Legacy",
-          "text": "The bagua trigrams attributed to Fuxi permeate Chinese culture to this day — in feng shui, martial arts, the South Korean flag, and the I Ching that Confucius studied obsessively. Fuxi represents the Chinese ideal of the sage who orders chaos through knowledge."
+          "label": "Explore further",
+          "text": "In the classic images, Fuxi holds a carpenter's set-square and Nüwa a pair of compasses — he draws the square earth, she draws the round heavens, a tidy diagram of old Chinese cosmology. The myth says the trigrams came to him from a pattern on the shell of a turtle that rose out of the Yellow River. He's plainly not a real person, but the idea he stands for — the sage who tames chaos by spotting a pattern — is one of the oldest threads in Chinese thought, and the Eight Trigrams still turn up today on the South Korean flag."
         }
-      ]
+      ],
+      "commonsFile": "Anonymous-Fuxi and Nüwa.jpg"
     },
     {
       "id": "evt-ac-shennong",
       "label": "Shennong the Divine Farmer",
       "year": -5000,
-      "description": "Chinese tradition places the legendary ruler Shennong around 5000 BCE. The 'Divine Farmer' taught humanity agriculture and herbal medicine, tasting hundreds of plants to test their properties — a mythic explanation for China's agricultural and medical knowledge.",
+      "description": "The \"Divine Farmer,\" a legendary ruler Chinese tradition places around 5000 BCE, credited with teaching people to farm and to use herbal medicine. The catch in his myth: to learn which plants were food, which were cures, and which were poison, he ate them himself.",
       "wikiSlug": "Shennong",
       "tier": 2,
       "tags": [
@@ -281,41 +230,26 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Shennong (Divine Farmer) is one of China's Three Sovereigns — legendary semi-divine rulers who civilized humanity. He is depicted with a transparent belly so he could observe the effects of plants he ate."
-        },
-        {
-          "label": "Role in Legend",
-          "text": "Shennong supposedly invented the plow, taught crop cultivation, and identified hundreds of medicinal and poisonous herbs, dying after eating a toxic plant. The Shennong Bencao Jing (Divine Farmer's Classic of Materia Medica) bears his name."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Shennong legend encoded real knowledge — China's early mastery of agriculture and herbal medicine. Traditional Chinese medicine traces its conceptual origins to him, and his name remains in use in Chinese pharmacology today."
+          "label": "Explore further",
+          "text": "The story gives him a transparent belly so he could watch each plant act on his insides — and has him finally die from a toxic herb he tested one experiment too far. The medical classic that carries his name, the Shennong Bencao Jing, became the foundation of traditional Chinese medicine. Strip away the magic and the myth encodes a real and grim truth: somebody, over many generations, had to find out by trial and error which plants would kill you, and some of them did."
         }
-      ]
+      ],
+      "commonsFile": "Shennong3.jpg"
     },
     {
       "id": "evt-ac-yangshao-pottery",
       "label": "Yangshao Painted Pottery",
       "year": -5000,
-      "description": "The Yangshao culture of the Yellow River valley produced vividly painted red-and-black ceramic vessels decorated with geometric patterns, fish, deer, and human faces — the most distinctive artistic achievement of Neolithic China.",
+      "description": "The signature artifact of Neolithic China: red clay bowls and jars painted before firing with bold black spirals, fish, deer, and eerie human faces, made by the Yangshao culture along the Yellow River for two thousand years. It's the first thing in Chinese prehistory you can point at and say, that's going to be Chinese forever.",
       "wikiSlug": "Yangshao_culture",
-      "commonsFile": "Yangshao Painted Pottery.jpg",
+      "commonsFile": "Banpo motif.jpg",
       "tier": 1,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Yangshao culture stretched across the Wei River basin and Yellow River valley from about 5000 to 3000 BCE, comprising hundreds of related village communities. Their pottery is found from Gansu province to Henan."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Yangshao potters painted vessels before firing using iron oxide pigments, creating bold geometric designs, stylized fish and deer, and the iconic 'human face and fish' motif. Pottery shapes were standardized, suggesting specialist craftspeople."
-        },
-        {
-          "label": "Legacy",
-          "text": "The artistic vocabulary of Yangshao pottery — spirals, animal faces, geometric borders — influenced Shang bronzeware decoration and Zhou lacquerwork, threading through Chinese art history for thousands of years."
+          "label": "Explore further",
+          "text": "The most famous design is the \"human face and fish\" motif — a round, flat face with a fish curving where each ear should be. Here's the unsettling part: the basins it's painted on weren't dinnerware. They were lids, set over jars that held the bodies of dead children, and many were punched with a deliberate hole in the center so the child's soul could pass back and forth. Scholars have floated more than twenty readings of the motif (water god, clan totem, shaman) and agree on none of them."
         }
       ]
     },
@@ -323,24 +257,16 @@
       "id": "evt-ac-hemudu-culture",
       "label": "Hemudu Culture",
       "year": -5000,
-      "description": "The Hemudu culture of the Yangtze River delta built sophisticated stilt houses over wetlands and cultivated rice at scale, developing woodworking, lacquerwork, and early boat technology along China's eastern coast.",
+      "description": "The Yangtze delta's answer to the dusty north: a wetland rice culture that built stilt-houses over the marshes, joined timbers with carpenter's joints, and farmed flooded paddies. While Yangshao dominated the Yellow River, Hemudu was quietly doing settled life its own way, with its own materials.",
       "wikiSlug": "Hemudu_culture",
-      "commonsFile": "Hemudu Site Museum, 2017-08-12 10.jpg",
+      "commonsFile": "CMOC Treasures of Ancient China exhibit - black pottery cauldron.jpg",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Yangtze delta was a landscape of rivers, lakes, and marshes — unsuitable for ordinary pit-house construction. Hemudu communities adapted brilliantly, building on stilts above the waterline."
-        },
-        {
-          "label": "The Structure",
-          "text": "Hemudu longhouses were built on wooden stilts over tidal flats, using sophisticated mortise-and-tenon joinery. The site preserves carbonized rice, lacquered wooden bowls, and carved bone artifacts — the earliest Chinese lacquerwork yet found."
-        },
-        {
-          "label": "Legacy",
-          "text": "Hemudu demonstrates that China's Neolithic revolution was not a single story but parallel developments across different ecologies. The stilt-house tradition and rice paddy culture they pioneered shaped coastal and southern Chinese civilization distinctly from the north."
+          "label": "Explore further",
+          "text": "Because the soil at Hemudu stayed waterlogged, wood that would have rotted anywhere else survived — including mortise-and-tenon joints (a peg slotted into a matching hole) as clean as anything built thousands of years later, and a red lacquered wooden bowl often called the oldest lacquerware on Earth. The site also yielded vast quantities of carbonized rice, evidence that people here were domesticating the crop, not just gathering it. North and south China were building two parallel worlds from almost the start."
         }
       ]
     },
@@ -348,48 +274,33 @@
       "id": "evt-ac-banpo-village",
       "label": "Banpo Village",
       "year": -4800,
-      "description": "Banpo, near modern Xi'an, is one of the best-preserved Yangshao settlements, featuring a moated village of semi-subterranean pit houses, communal storage pits, a pottery kiln, and a separate burial ground — evidence of organized community life.",
+      "description": "A Yangshao village on the edge of modern Xi'an, lived in for roughly a thousand years (about 4800–3750 BCE) and dug up so completely in the 1950s that it's one of the best-preserved Neolithic settlements on Earth — pit houses, a communal hall, a pottery-kiln zone, a cemetery, all ringed by a moat.",
       "wikiSlug": "Banpo",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Banpo was occupied from approximately 4800 to 3750 BCE, making it one of the longest-continuously-occupied Yangshao sites. The settlement covered about 5 hectares and housed several hundred people."
-        },
-        {
-          "label": "The Structure",
-          "text": "Banpo features a central large house (likely for communal gatherings), surrounded by smaller pit dwellings. A defensive moat enclosed the village, and a dedicated kiln zone produced the painted Yangshao pottery. Children and infants were buried in pottery jars."
-        },
-        {
-          "label": "Legacy",
-          "text": "Banpo pottery marks — incised symbols on vessel rims — are among the earliest candidates for proto-writing in China, predating oracle bone script by over three millennia. The village organization at Banpo foreshadows the walled towns of the Longshan period."
+          "label": "Explore further",
+          "text": "Banpo wasn't found by archaeologists looking for it — factory workers turned it up in 1953 while digging foundations, and the dig that followed (1954–57) uncovered around 250 graves, six large kilns, and nearly 100 building outlines. The moat ringing the village ran up to 20 feet (6 meters) wide and deep, and the best guess is it was less about human enemies than about keeping out wild animals and snakes. The houses were semi-subterranean, their floors sunk about 3 feet (1 meter) below ground level for insulation."
         }
-      ]
+      ],
+      "commonsFile": "Yangshao Village Diorama.jpg"
     },
     {
       "id": "evt-ac-banpo-symbols",
       "label": "Banpo Pottery Marks",
       "year": -4500,
-      "description": "Over 100 distinct incised symbols on Yangshao pottery at Banpo and related sites represent one of the earliest systematic symbol systems in China — possibly clan marks, ownership symbols, or early proto-writing.",
+      "description": "More than a hundred small, deliberate marks — vertical strokes, plus signs, circles, branching lines — scratched onto the rims of Yangshao pots at Banpo and nearby sites. They're consistent and clearly meant something, but nobody has cracked them into words, so they're a tantalizing not-quite-writing.",
       "wikiSlug": "Yangshao_culture",
-      "commonsFile": "Banpo_pottery_symbols.svg",
+      "commonsFile": "Banpo pottery symbols.svg",
       "tier": 3,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "What Was Found",
-          "text": "Archaeologists catalogued over 100 distinct geometric symbols incised on Yangshao pottery rims at Banpo and sister sites. The marks are consistent within individual sites but vary between them, suggesting community-level identity markers."
-        },
-        {
-          "label": "Interpretation",
-          "text": "Scholars debate whether the marks represent ownership symbols, clan totems, counting tallies, or proto-writing. Some symbols closely resemble later oracle bone script characters, though direct descent is unproven."
-        },
-        {
-          "label": "Significance",
-          "text": "The Banpo symbols represent the growing importance of visual marking systems in Neolithic China — part of a long arc of symbolic communication that would eventually produce the Chinese writing system."
+          "label": "Explore further",
+          "text": "The leading guesses are mundane and probably right: ownership tags (this pot is family X's), clan signs, or counting tallies. A handful do resemble later Chinese characters, but the likeness is suggestive, not proof — there's no grammar or readable sentence in them. What they really show is that the habit of letting a scratched sign stand in for an idea was already old in China; combined with the even-earlier Jiahu marks (Chapter 2), they're part of a writing prehistory that ran for thousands of years before actual script arrived."
         }
       ]
     },
@@ -397,24 +308,16 @@
       "id": "evt-ac-hongshan-jade",
       "label": "Hongshan Jade Culture",
       "year": -4000,
-      "description": "The Hongshan culture of northeastern China (Inner Mongolia/Liaoning) produced extraordinary jade artifacts — pig-dragons (zhulong), coiled dragons, and anthropomorphic figures — that established jade as China's premier ritual material.",
+      "description": "The Hongshan culture (hong-SHAHN, \"Red Mountain\") was a Neolithic society of the cold grasslands and river valleys of Liaoning and Inner Mongolia, in China's northeast, that turned jade-carving into a sacred art around 4700–2900 BCE. Working only nephrite (a tough green stone) with sand and cord, they made China's first ritual jades — and built the earliest sacred precinct yet found in the country.",
       "wikiSlug": "Hongshan_culture",
-      "commonsFile": "Hongshan Culture Jade Pig Dragon 01.jpg",
+      "commonsFile": "Neolithic jade dragon, Hongshan Culture, Inner Mongolia, 1971.jpg",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "The Hongshan culture flourished from about 4700 to 2900 BCE in the grasslands of northeastern China. Their ceremonial center at Niuheliang featured a 'Goddess Temple' and stone-circle altars set on hilltops — the earliest known Chinese ritual landscape."
-        },
-        {
-          "label": "The Jade Work",
-          "text": "Hongshan jade workers, using only abrasive sand and patience, carved the zhulong (pig-dragon) — C-shaped coiled creatures that are among the earliest dragon images in Chinese art. Jade animals, anthropomorphic figures, and cloud-hook ornaments were buried with elite members."
-        },
-        {
-          "label": "Legacy",
-          "text": "Hongshan established jade as the material of cosmic power and social prestige in China, a tradition that persisted unbroken through every subsequent dynasty. The dragon imagery they pioneered became the ultimate symbol of Chinese imperial power."
+          "label": "Explore further",
+          "text": "Hongshan jade-workers had no metal tools, so they shaped each piece by grinding it down with wet abrasive sand and string saws — a single carving could eat up weeks or months. The culture's signature \"C-dragon,\" a dark-green coiled creature about 10 inches (26 cm) tall, was dug up at Sanxingtala in Inner Mongolia in 1971 and is now a star object at the National Museum of China. Even more telling is the ritual complex at Niuheliang, where archaeologists found a \"Goddess Temple\" holding fragments of life-sized clay statues — including a famous head with eyes inset with green jade."
         }
       ]
     },
@@ -422,72 +325,50 @@
       "id": "evt-ac-pig-dragon",
       "label": "First Dragon Images",
       "year": -3800,
-      "description": "Hongshan culture jade workers produced the zhulong — C-shaped pig-dragon carvings that are the earliest known dragon imagery in Chinese art. The dragon would become China's most enduring cultural symbol.",
+      "description": "The zhulong (JOO-long), literally \"pig-dragon,\" is a small jade carving from the Hongshan culture: a body curled into most of a circle, a pig-like snout at one end, slit eyes, and usually a hole bored through the middle for hanging. These are the oldest dragon images yet found anywhere in Chinese art — the ancestor of the dragon on every later emperor's robe.",
       "wikiSlug": "Pig_dragon",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Object",
-          "text": "The zhulong (pig-dragon) is a C-shaped jade carving with a pig-like snout, slit eyes, and a coiled body. Found in elite Hongshan burials, they range from 5 to 25 cm in length and required months of careful abrasive carving."
-        },
-        {
-          "label": "Cosmic Meaning",
-          "text": "Scholars believe the pig-dragon represented rain, fertility, and cosmic power — the pig (domestic wealth) merged with the serpentine dragon (elemental force). Similar forms appear continuously in Chinese art across the next 5,000 years."
-        },
-        {
-          "label": "Legacy",
-          "text": "From Hongshan pig-dragons to Shang coiling serpent bronzes to Han dynasty imperial dragon robes, this imagery evolved continuously. The dragon as the emblem of Chinese imperial power traces its origins to these Neolithic jade workshops."
+          "label": "Explore further",
+          "text": "Pig-dragons are small, roughly 2 to 10 inches (5 to 25 cm), and they turn up in the richest Hongshan graves, set on the chest or around the head of the dead. The pairing may be deliberate: in later Chinese thought the pig stood for earth, fertility, and wealth, the dragon for water and rain, so a single coiled object could invoke both at once over a burial. What makes them historically wild is that the shape never dies — the same curled-serpent form resurfaces on Shang bronzes, on Han jade ornaments, and finally hardens into the long, clawed, horned dragon of imperial China."
         }
-      ]
+      ],
+      "commonsFile": "British Museum Chinese jade Neolithic period Hongshan culture Coiled dragon Pig-dragon 11022019 1393.jpg"
     },
     {
       "id": "evt-ac-silk-origins",
       "label": "Earliest Silk Evidence",
       "year": -3500,
-      "description": "The earliest verified silk thread, found at Yangshao sites including Qianshanyang and Jiahu area sites, dates to approximately 3500 BCE, placing Chinese silk production thousands of years before any other culture discovered the technique.",
+      "description": "Somewhere in this painted-pottery world, the Chinese learned to unwind the cocoon of the silkworm into thread — a technology no one else would match for thousands of years, and the seed of the future Silk Road. Legend credits a queen who watched a cocoon unravel in her tea; archaeology dates it earlier.",
       "wikiSlug": "History_of_silk",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "The silkworm (Bombyx mori) is native to China and feeds exclusively on white mulberry leaves. Chinese legend attributes silk's discovery to Empress Leizu, who supposedly watched a cocoon unravel into thread in her tea cup around 2700 BCE."
-        },
-        {
-          "label": "The Evidence",
-          "text": "A silk cocoon cut in half with a stone tool, found at Xia County (Shanxi) and dated to 3630–3050 BCE, is among the earliest physical evidence. Silk thread remnants from the Liangzhu culture (Zhejiang) date similarly, confirming widespread production."
-        },
-        {
-          "label": "Impact",
-          "text": "Silk would become China's most valuable export commodity for millennia, creating the economic logic of the Silk Road. The Shang already produced silk textiles, and by the Han dynasty, silk was a global currency. This tradition begins here."
+          "label": "Explore further",
+          "text": "The hard evidence is a single silkworm cocoon, cut cleanly in half with a sharp blade, dug from a Yangshao site at Xiyin village in Shanxi province (excavated 1926) and dated to roughly 4000–3000 BCE. The species was Bombyx mori, the domesticated silkworm, which eats only white mulberry leaves and spins its cocoon from one continuous filament that can run over half a mile long. That deliberate cut is the giveaway — someone was already harvesting cocoons on purpose."
         }
-      ]
+      ],
+      "commonsFile": "Bombyx mori Cocon 02.jpg"
     },
     {
       "id": "evt-ac-liangzhu",
       "label": "Liangzhu Jade Civilization",
       "year": -3300,
-      "description": "The Liangzhu culture of the Yangtze delta built China's earliest urban civilization, with a walled city of 300 hectares, massive hydraulic infrastructure, and vast jade treasures — evidence of a complex state 1,500 years before the Xia.",
+      "description": "The Liangzhu culture (around 3300–2300 BCE) ran a full-blown city near modern Hangzhou, on the Yangtze delta — walled palace precinct, rice country, and a sprawling network of dams and canals — roughly 1,500 years before the dynasties Chinese tradition calls the start of everything. It is now a UNESCO World Heritage Site and a serious candidate for China's first civilization.",
       "wikiSlug": "Liangzhu_culture",
-      "commonsFile": "Jade disc (Bi). Nephrite jade. Liangzhu Culture, south-east China. Neolithic period, c. 2500 BCE. Victoria and Albert Museum, London.jpg",
+      "commonsFile": "Jade Cong King, 2018-06-09 01.jpg",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "The Liangzhu culture (3300–2300 BCE) in the Yangtze River delta produced what some archaeologists now call China's first civilization. Its discovery challenged the older assumption that Chinese civilization originated exclusively on the Yellow River."
-        },
-        {
-          "label": "The City",
-          "text": "The Liangzhu city core covered about 300 hectares, surrounded by a hydraulic system of dams, canals, and reservoirs covering 100 square kilometers — the largest water control project in the ancient world before the Han dynasty. Cai Archaeological Site is now a UNESCO World Heritage Site."
-        },
-        {
-          "label": "Legacy",
-          "text": "Liangzhu's sudden collapse around 2300 BCE — possibly from catastrophic flooding — may underlie China's legendary Great Flood narratives. The jade traditions Liangzhu perfected (bi discs, cong tubes) were inherited by later Chinese cultures and persist symbolically today."
+          "label": "Explore further",
+          "text": "The giveaway that this was a real state, not just a big village, is the water system: more than 100 square miles of coordinated dams, dikes, and reservoirs, with at least eleven major dams built to one plan. It's the largest hydraulic engineering project anywhere on Earth for the next two thousand years — and these people had no metal and no writing we can read. Pulling it off meant feeding thousands of laborers for years on a rice surplus and inheriting the project across generations, which is exactly the kind of muscle only a centralized authority has."
         }
       ]
     },
@@ -495,7 +376,7 @@
       "id": "evt-ac-liangzhu-symbols",
       "label": "Liangzhu Proto-Symbols",
       "year": -3100,
-      "description": "Jade and pottery artifacts from Liangzhu culture bear consistent incised symbols — some scholars consider them China's most advanced Neolithic proto-writing, showing a systematic use of marks linked to elite ritual contexts.",
+      "description": "Liangzhu potters and jade-carvers scratched marks into their wares — not just single doodles, but sometimes two, three, or four symbols strung together like a short phrase. They are the most developed symbol system China had produced by this date, and the open question is whether they're decoration, ritual notation, or the country's earliest real writing.",
       "wikiSlug": "Liangzhu_culture",
       "commonsFile": "20250713 Pottery jar with inscribed symbols in the Liangzhu Museum.jpg",
       "tier": 3,
@@ -503,16 +384,8 @@
       "category": "writing",
       "details": [
         {
-          "label": "What Was Found",
-          "text": "Over 600 artifacts from Liangzhu sites bear incised marks. Clusters of symbols appear together on jade cong tubes and black pottery, sometimes in sequences of 4–6 marks that may represent phrases or ritual formulae."
-        },
-        {
-          "label": "Scholarly View",
-          "text": "Chinese scholars increasingly view the Liangzhu symbol system as a form of proto-writing, potentially ancestral to the oracle bone script. Western scholars remain cautious but acknowledge that the marks show systematic, intentional use."
-        },
-        {
-          "label": "Significance",
-          "text": "The Liangzhu symbols represent the most complex pre-dynastic marking system in China. Their ritual context — appearing on jade objects in elite burials — links symbolic communication directly to the power structures emerging in late Neolithic China."
+          "label": "Explore further",
+          "text": "More than 600 artifacts carry these marks, running to over 340 different signs across the Liangzhu world — including a haul of 240-odd symbol-bearing pieces dug up at the Zhuangqiaofen site between 2003 and 2006. Chinese scholars increasingly lean toward calling them proto-writing because of those sequence patterns; most Western scholars hold back, since with no known language behind the signs you can't prove they record speech rather than just standing for ideas. Nobody has ever read them, and on current evidence nobody can."
         }
       ]
     },
@@ -520,24 +393,16 @@
       "id": "evt-ac-jade-bi-cong",
       "label": "Jade Bi Discs and Cong Tubes",
       "year": -3000,
-      "description": "Jade bi (flat discs) and cong (square-sectioned tubes) became the defining ritual objects of late Neolithic China, symbolizing heaven and earth. They were buried with elites across the Liangzhu, Longshan, and early Xia cultures.",
+      "description": "The bi and the cong are the two jade forms that define Liangzhu: the bi is a flat disc with a hole in the middle (think a polished green stone donut, sometimes plate-sized), and the cong is a square-sided tube with a round bore drilled through it. Stacked on the bodies of the dead by the hundreds, they were the prestige ritual objects of the elite, and later cultures kept making them, almost unchanged, for another 1,500 years.",
       "wikiSlug": "Chinese_jade",
-      "commonsFile": "Bi disc. Liangzhu culture. Musée Cernuschi MC 7349.JPG",
+      "commonsFile": "CMOC Treasures of Ancient China exhibit - jade disk.jpg",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Objects",
-          "text": "Bi discs are flat circular jade objects with a central hole, symbolizing heaven (round). Cong tubes are square-sectioned cylinders with a circular bore, symbolizing earth (square). Together they encoded the Chinese cosmological model of a round sky over a square earth."
-        },
-        {
-          "label": "Ritual Role",
-          "text": "Bi and cong were placed in elite burials — often dozens at a time — to protect and elevate the deceased. Their jade material (hard, resonant, green like growth) embodied virtue and immortality in Chinese thought."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Chinese reverence for jade as a symbol of moral virtue, cosmic order, and immortality persisted through every subsequent dynasty. Zhou nobles wore jade pendants; Han emperors were buried in jade suits. This tradition begins with the Liangzhu and Longshan cultures."
+          "label": "Explore further",
+          "text": "The famous reading — round bi for heaven, square cong for earth, the two realms locked together — actually comes from the Zhou Li, a Chinese ritual text written well over two thousand years later, so it's a back-projection onto objects nobody can ask about. What isn't in doubt is the craft: Liangzhu workers had no metal tools, so a cong's bore was ground out by spinning a bamboo or bone drill loaded with wet quartz sand until it slowly chewed through the stone. The resulting holes taper like a cone, the tell-tale fingerprint of a worn-down drill tip."
         }
       ]
     },
@@ -545,24 +410,16 @@
       "id": "evt-ac-longshan-pottery",
       "label": "Longshan Black Pottery",
       "year": -3000,
-      "description": "Longshan culture potters developed wheel-thrown black pottery of extraordinary thinness — vessels as thin as an eggshell — using fast wheels and controlled reduction firing. The technique represented the pinnacle of Neolithic ceramic technology.",
+      "description": "The black, wheel-thrown drinking cups that Longshan potters fired so thin you could see daylight through them — a Neolithic flex, made for ritual and the dead, not for actually drinking out of. The shine and the jet-black color came from choking the kiln of oxygen as the clay baked.",
       "wikiSlug": "Longshan_culture",
-      "commonsFile": "CMOC Treasures of Ancient China exhibit - black pottery goblet.jpg",
+      "commonsFile": "Longshan Culture Black Egg-shell Pottery Stemmed Cup (10126061733).jpg",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "The Longshan culture (3000–1900 BCE) succeeded Yangshao across much of the Yellow River plain, representing a sharp increase in technological sophistication and social complexity."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Longshan potters used fast kick-wheels to throw vessels with walls as thin as 0.5 mm — the finest pottery made anywhere in the world at that time. Reduction firing (limiting oxygen) turned vessels jet black. Some cups had stems so thin they could not support weight, indicating purely ritual use."
-        },
-        {
-          "label": "Significance",
-          "text": "The extreme refinement of Longshan ceramics signals full-time craft specialization, elite patronage, and long-distance exchange — hallmarks of emerging state society. The fast wheel technology would later be applied to bronze casting molds by the Shang."
+          "label": "Explore further",
+          "text": "The walls on the finest of these cups drop below half a millimeter — thinner than the cover of a paperback — and a few are accurate to about two-tenths of a millimeter, which is genuinely hard to do on a wheel today. The black surface isn't a glaze: starving the kiln of oxygen (reduction firing) forces carbon into the clay so it vitrifies into a glossy near-black. Making something this fragile on purpose was the whole point — it advertised that a workshop had the skill, and a patron had the surplus, to waste effort on an object too delicate to use."
         }
       ]
     },
@@ -570,59 +427,45 @@
       "id": "evt-ac-walled-towns",
       "label": "Walled Longshan Settlements",
       "year": -2800,
-      "description": "Across the Yellow River plain, Longshan period settlements began constructing massive rammed-earth walls, enclosing areas from 20 to over 400 hectares. These walled towns signal warfare, political competition, and the emergence of proto-states.",
+      "description": "Across the Yellow River plain, Longshan towns started throwing up massive walls of pounded earth (and at one site, stone), some enclosing more than 1.5 square miles. Walls that big mean one thing: the neighbors had become a problem, and warfare was now a permanent fact of life.",
       "wikiSlug": "Longshan_culture",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Earlier Yangshao settlements had simple ditches or palisades. By 2800 BCE, Longshan communities were investing enormous labor in thick rammed-earth walls — the hangtu technique that would define Chinese monumental construction for millennia."
-        },
-        {
-          "label": "The Structures",
-          "text": "Sites like Taosi (Shanxi), Liangchengzhen (Shandong), and Shimao (Shaanxi) feature walls 5–10 meters thick, enclosing palace precincts, granaries, and craft workshops. Human sacrifices found in wall foundations suggest ritual dedication ceremonies."
-        },
-        {
-          "label": "Significance",
-          "text": "The walled-town landscape of the Longshan horizon is the archaeological signature of escalating inter-group warfare and the concentration of power in the hands of chiefs or proto-kings. This competitive environment drove the formation of the first Chinese states — culminating in the Xia."
+          "label": "Explore further",
+          "text": "The technique, called hangtu, was almost insultingly simple and almost indestructible: dump a 4–6 inch layer of damp loess between wooden forms, pound it rock-hard with poles, then stack the next layer. Builders sometimes mixed in lime and straw to bind it. The same method built the early Great Wall, the Han and Tang and Ming capital walls, and the platform under the Forbidden City — a 4,000-year run for a construction trick perfected by people defending mud-brick towns from each other."
         }
-      ]
+      ],
+      "commonsFile": "Shimao east gate (2100 BCE) and decorated wall of the central citadel (2300 BCE).png"
     },
     {
       "id": "evt-ac-battle-zhuolu",
       "label": "Battle of Zhuolu",
       "year": -2700,
-      "description": "The legendary Battle of Zhuolu pitted the Yellow Emperor against Chi You, leader of the Jiuli tribe. The Yellow Emperor's victory is traditionally seen as the founding moment of Chinese civilization — the unification of Yellow River cultures under a single paramount leader.",
+      "description": "The mythic showdown where the Yellow Emperor crushed a monstrous rival chief named Chi You — remembered as the single battle that founded Chinese civilization by welding the Yellow River tribes into one people under one ruler.",
       "wikiSlug": "Battle_of_Zhuolu",
       "tier": 3,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Chinese legend describes Chi You as a fearsome warrior with iron head and bronze forehead, commanding 81 brothers with animal bodies. He challenged the Yellow Emperor for dominance of the Yellow River plain."
-        },
-        {
-          "label": "The Battle",
-          "text": "The Yellow Emperor supposedly called upon dragons, wind, and rain spirits to defeat Chi You's fog-making abilities. The battle may reflect real conflicts between early Neolithic chiefdoms competing for the agriculturally rich Yellow River valley."
-        },
-        {
-          "label": "Significance",
-          "text": "The Battle of Zhuolu became the founding myth of Chinese civilization's unity under a single ancestor-ruler. The pattern it established — righteous ruler defeats chaos, earns the mandate to rule — would repeat in every subsequent dynasty transition, from Shang to Qin."
+          "label": "Explore further",
+          "text": "Chi You is described with an iron head and a bronze forehead — a detail that's impossible (China had neither metal in 2700 BCE) but works as shorthand for a terrifying, almost inhuman enemy. The legend has him lead 81 beast-bodied brothers and conjure a blinding fog to scatter the Yellow Emperor's troops, who only break free when their leader summons dragons and rain-and-wind spirits. Behind the dragons there's probably a real memory: the Longshan plain genuinely was a landscape of coalitions of chiefdoms fighting it out, even if the names of the actual winners were lost within a few generations."
         }
       ],
       "aliases": [
         "Chi You"
-      ]
+      ],
+      "commonsFile": "Chi You.gif"
     },
     {
       "id": "evt-ac-yellow-emperor",
       "label": "Yellow Emperor (Huangdi)",
       "year": -2698,
       "endYear": -2598,
-      "description": "The Yellow Emperor (Huangdi) is the legendary ancestor of the Chinese people, credited with defeating rival tribes, inventing writing, the calendar, Chinese medicine, and silk cultivation. Chinese tradition dates his reign to 2698–2598 BCE.",
+      "description": "Huangdi, the \"Yellow Thearch\" — the half-divine culture hero whom over a billion Han Chinese still claim as their founding ancestor. Tradition makes him the man who unified the warring tribes of the Yellow River and invented, more or less, civilization itself.",
       "wikiSlug": "Yellow_Emperor",
       "tier": 1,
       "tags": [
@@ -631,92 +474,63 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Huangdi (Yellow Emperor) is one of the Five Emperors — legendary rulers who stand between the gods and the historical dynasties. He is considered the ancestor of the Han Chinese people, and most Chinese today trace their symbolic lineage to him."
-        },
-        {
-          "label": "Role in Legend",
-          "text": "Huangdi is credited with defeating the tribal leader Chi You at the Battle of Zhuolu, uniting the tribes of the Yellow River plain. His wife Leizu supposedly discovered silk; his minister Cang Jie invented writing. He also codified medicine and created the first calendar."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Yellow Emperor encoded Chinese civilization's founding mythology. Modern Chinese still call themselves 'descendants of Yan and Huang' (Shennong and the Yellow Emperor). His tomb at Qiaoshan remains a pilgrimage site, and state ceremonies honor him annually."
+          "label": "Explore further",
+          "text": "Chinese tradition usually pairs him with a second ancestor, the Yan Emperor (the \"Flame\" or Red Emperor), which is why Chinese people sometimes call themselves \"descendants of Yan and Huang.\" The historian Sima Qian, writing around 100 BCE, took the myth literally and traced the royal houses of the Xia, Shang, and Zhou — and even Liu Bang, founder of the Han dynasty — straight back to Huangdi. No archaeology supports any of it; what's real is the political work the story does, making every later dynasty a branch of one founding bloodline."
         }
-      ]
+      ],
+      "commonsFile": "Portraits of Famous Men - Yellow Emperor (Huangdi).jpg"
     },
     {
       "id": "evt-ac-cangjie",
       "label": "Cangjie",
       "year": -2650,
-      "description": "Cangjie is the legendary inventor of Chinese writing, said to have been a court historian of the Yellow Emperor with four eyes that let him see the patterns in nature. His mythic moment of invention — reading the tracks of birds and beasts — was said to have caused the heavens to rain millet and ghosts to weep.",
+      "description": "The four-eyed court historian who, in legend, invented Chinese writing. The extra eyes are a metaphor: they let him see patterns in nature that ordinary people miss, which is exactly how he supposedly dreamed up the first characters.",
       "wikiSlug": "Cangjie",
       "tier": 3,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Cangjie was supposedly the court historian of the Yellow Emperor, with four eyes that gave him supernatural perception. When existing methods of recording events proved insufficient, he studied animal tracks, celestial patterns, and natural forms to create written characters."
-        },
-        {
-          "label": "The Invention",
-          "text": "According to legend, Cangjie created characters by abstracting the shapes of things — a pictographic principle that actually does underlie early Chinese writing. When he finished, heaven rained millet in celebration and ghosts cried in fear, knowing their secrets could now be recorded."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Cangjie legend encodes a real truth: Chinese writing evolved from pictographic observation of the natural world. The Jiahu, Banpo, and Liangzhu symbols may represent the earliest steps in this process, which the Shang would bring to full script with oracle bone inscriptions."
+          "label": "Explore further",
+          "text": "The story says he studied animal tracks, bird flight, and the cracks in tortoise shells, then abstracted them into signs — and when he finished, heaven rained down millet and the ghosts of the dead wailed all night, terrified that their secrets could now be written down. It's a beautiful myth that happens to be half true: the oldest real Chinese characters, on Shang oracle bones, genuinely are stylized drawings of things (a hand, a horse, a mountain). Scholars treat Cangjie not as the literal inventor but as the \"organizer\" of a system that no single person could have made — real writing wouldn't appear for another thousand years."
         }
       ],
       "aliases": [
         "Cang Jie"
-      ]
+      ],
+      "commonsFile": "Cangjie2.jpg"
     },
     {
       "id": "evt-ac-ancestor-worship-origins",
       "label": "Ancestor Worship Emerges",
       "year": -2600,
-      "description": "By the late Longshan period, burial evidence shows increasingly elaborate ancestor veneration — differentiated grave goods, ritual food offerings, and the placement of jade objects suggesting beliefs about afterlife and ancestral power over the living.",
+      "description": "Ancestor worship is the belief — and the practice — that dead family members stay present and powerful, and that the living can feed, honor, and petition them. In China it first becomes visible underground: by the late Neolithic some graves are suddenly far richer than their neighbors, packed with jade and with bowls, goblets, and tripod pots for offering food and drink to the deceased.",
       "wikiSlug": "Chinese_ancestor_worship",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Evidence",
-          "text": "Longshan burials at Taosi and other sites show marked stratification: elite graves with hundreds of jade and ceramic objects versus simple interments with little. This differential treatment signals beliefs that ancestor status could be maintained and leveraged after death."
-        },
-        {
-          "label": "The Practice",
-          "text": "Ritual vessels found in burials were used for food and drink offerings, suggesting regular feeding of the dead. Jade objects — cosmic in significance — were placed to protect and empower the deceased in the afterlife."
-        },
-        {
-          "label": "Legacy",
-          "text": "Ancestor worship would become the defining feature of Chinese religious practice for all subsequent dynasties. The Shang communicated with ancestors through oracle bones; Zhou nobles maintained elaborate ancestral temples; the practice continues in Chinese culture today."
+          "label": "Explore further",
+          "text": "Earlier Neolithic cemeteries are strikingly egalitarian, so the appearance of a few jade-stuffed \"VIP\" burials marks a real shift: certain ancestors were now worth lavish, ongoing attention. The food vessels are the giveaway — you don't bury a goblet and a cooking tripod with someone unless you expect them to keep eating. That logic runs in an unbroken line for the next five thousand years, from Shang kings cracking oracle bones to ask their ancestors questions, to families today sweeping graves at the spring Qingming festival."
         }
-      ]
+      ],
+      "commonsFile": "Neolithic pottery vessel, Hongshan Culture, Liaoning, 1988.jpg"
     },
     {
       "id": "evt-ac-scapulimancy",
       "label": "Scapulimancy Begins",
       "year": -2500,
-      "description": "Longshan period communities began practicing scapulimancy — divination by heating animal bones (usually cattle or sheep shoulder blades) and reading the resulting cracks. This was the direct ancestor of Shang oracle bone divination.",
+      "description": "Reading the future by fire: a diviner heats an animal's shoulder blade until it cracks, then interprets the cracks as answers from the ancestors. Longshan diviners did this with un-inscribed bones — the direct ancestor of the famous Shang oracle bones a thousand years later.",
       "wikiSlug": "Scapulimancy",
-      "commonsFile": "Chinese oracle bone (16th-10th C BC) - BL Or. 7694.jpg",
+      "commonsFile": "Xiajiadian Culture Oracle Bone 1.jpg",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Background",
-          "text": "Bone divination appears across many Neolithic cultures, but in China it developed into an especially elaborate and politically significant practice. The earliest examples from China date to Longshan period sites in Shandong and Shanxi."
-        },
-        {
-          "label": "The Practice",
-          "text": "Diviners heated cattle shoulder blades or turtle shells until they cracked, then interpreted the crack patterns as messages from ancestors or spirits. Longshan examples lack writing — the questions were oral. The Shang would add inscribed questions and answers to create oracle bones."
-        },
-        {
-          "label": "Legacy",
-          "text": "This Neolithic divination practice, refined over a thousand years, would become the Shang oracle bone system — China's earliest writing and one of the most important archaeological discoveries ever made. Every oracle bone traces its ancestry to these Longshan diviners."
+          "label": "Explore further",
+          "text": "The practice is even older than Longshan — un-inscribed cracked scapulae turn up in northeastern China back in the 4th millennium BCE — but it became common right as the first proto-states were forming. The big leap came later: Shang diviners learned to drill and gouge little pits into the back of the bone first, so the heat cracked it in controlled, readable patterns, and then they carved the question and answer right onto the bone. Those inscriptions are the earliest Chinese writing we can actually read — so every oracle bone traces back to Longshan diviners cracking plain shoulder blades in walled courtyards."
         }
       ]
     },
@@ -724,47 +538,32 @@
       "id": "evt-ac-jade-trade-networks",
       "label": "Jade Exchange Networks",
       "year": -2500,
-      "description": "By the late Neolithic, high-quality jade — nephrite from Xinjiang's Kunlun Mountains, Liaoning's jade from Hongshan sources — was traveling thousands of kilometers to elite burials across China, creating the first long-distance prestige exchange networks.",
+      "description": "By the late Neolithic, the good jade was on the move — fine nephrite traveling thousands of miles into elite tombs all over China. Jade was the stuff of cosmic power, so where it went traced who was connected to whom among the ruling families.",
       "wikiSlug": "Chinese_jade",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Background",
-          "text": "China's finest nephrite jade came from the Khotan region of Xinjiang (over 3,000 km from the Yangtze delta) and from Liaoning's Xiuyan deposits. Moving these heavy, precious materials required sustained trade relationships."
-        },
-        {
-          "label": "The Networks",
-          "text": "Jade from northwestern China appeared in southeastern Liangzhu burials and vice versa. This long-distance movement of elite prestige goods created the economic and social relationships that would eventually coalesce into the first Chinese states."
-        },
-        {
-          "label": "Significance",
-          "text": "The jade exchange networks of the late Neolithic are the ancestors of China's later trade infrastructure. The relationships, routes, and value systems they established would be repurposed for bronze, silk, and eventually the Silk Road commodities of the Han dynasty."
+          "label": "Explore further",
+          "text": "Two ritual shapes dominate: the bi, a flat disk later read as a symbol of heaven, and the cong, a tube square on the outside and round inside. They were perfected by the Liangzhu culture of the Yangtze delta — which produced about 90% of the finest cong and bi ever found — and then copied across the north at Longshan, Taosi, and beyond, evidence of a prestige network linking distant elites. Jade nephrite was prized not just for its look but because it rings like a bell when struck, and it's so tough it can only be ground down with abrasives, never carved."
         }
-      ]
+      ],
+      "commonsFile": "新石器時代龍山文化 有牙玉壁-Notched Disk MET DT4433.jpg"
     },
     {
       "id": "evt-ac-taosi-observatory",
       "label": "Taosi Astronomical Observatory",
       "year": -2300,
-      "description": "The Taosi site in Shanxi contains a semicircular rammed-earth platform with 13 pillars that archaeologists believe functioned as a solar observatory — possibly the earliest known observatory in China, used to track solstices and equinoxes for agricultural planning.",
+      "description": "On the edge of the walled town of Taosi sits a rammed-earth platform fringed with 13 pillars — arguably the oldest purpose-built solar observatory anywhere. Stand at the center, sight through the gaps, and the sun rises in them on the solstices and equinoxes.",
       "wikiSlug": "Taosi",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Taosi was a major Longshan settlement covering 280 hectares, with a palace zone, craft workshops, elite burials, and what appears to be a ritual landscape. It may have been the capital of an early proto-state — possibly legendary Yao's capital."
-        },
-        {
-          "label": "The Observatory",
-          "text": "A semicircular structure with 13 rammed-earth pillars aligns with solar horizon positions at summer solstice, winter solstice, spring equinox, and autumn equinox. Observers standing at a central point could track the sun's annual cycle through gaps between pillars."
-        },
-        {
-          "label": "Significance",
-          "text": "Solar tracking was essential for agricultural timing — knowing when to plant and harvest. The Taosi observatory demonstrates that Chinese rulers were already linking astronomical knowledge to political legitimacy (the 'Son of Heaven' must regulate the calendar) a millennium before the Xia."
+          "label": "Explore further",
+          "text": "Built around 2100 BCE, it's roughly contemporary with Stonehenge. Astronomers tested it by actually watching from the reconstructed center across two full years — over 70 observation sessions — and after correcting for the slow wobble of Earth's axis over four millennia, the slots really do line up with the ancient solstice and equinox sunrises. The political payoff was huge: whoever ran the observatory could tell farmers exactly when to plant, which made the ruler the keeper of time itself — the seed of the later idea that the emperor, the \"Son of Heaven,\" had to keep the calendar in sync with the cosmos."
         }
       ],
       "commonsFile": "Excavation of Observatory at Taosi (10099227926).jpg"
@@ -773,32 +572,25 @@
       "id": "evt-ac-great-flood",
       "label": "The Great Flood",
       "year": -2200,
-      "description": "Chinese texts describe a catastrophic flood — possibly reflecting real Bronze Age flooding of the Yellow River — that devastated settled communities and prompted the legendary engineering feats of Gun and Yu. Recent geological evidence suggests a massive flood around 1920 BCE.",
+      "description": "The deluge at the heart of China's founding myth: a flood so vast and so long-lasting that, in the telling, it nearly washed settled life off the Yellow River entirely. For a century scholars filed it under pure legend, until geologists went looking for a real catastrophe behind the story.",
       "wikiSlug": "Great_Flood_(China)",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "The Legend",
-          "text": "The Great Flood dominates Chinese founding mythology: Emperor Yao appoints Gun to control it; Gun fails after 9 years. His son Yu succeeds after 13 years of labor, earning the right to found a dynasty. The legend appears in dozens of ancient texts."
-        },
-        {
-          "label": "The Geology",
-          "text": "A 2016 study in Science found evidence of a massive Yellow River dam collapse around 1920 BCE at Jishi Gorge — an outburst flood 300 times larger than normal flow. This may be the historical event behind the Great Flood legend, though it is later than traditional dates."
-        },
-        {
-          "label": "Significance",
-          "text": "Flooding was an existential threat to Yellow River communities. Whoever could control the rivers held the key to agricultural civilization — which is why flood control became the ultimate test of legitimate rulership in Chinese tradition."
+          "label": "Explore further",
+          "text": "In 2016 a team led by Qinglong Wu reported in Science that around 1920 BCE a landslide dammed the Yellow River at Jishi Gorge, ponding a lake that finally burst with an estimated peak discharge of 300,000 to 500,000 cubic meters per second, one of the largest freshwater floods of the last 10,000 years. That single release was hundreds of times the river's normal flow and would have ripped through valleys for hundreds of miles downstream. It also lands inside the so-called 4.2-kiloyear event, the same global climate lurch tied to the fall of Akkad and the fraying of Egypt's Old Kingdom, though some specialists push back that one upstream burst is not the same as the civilization-wide deluge the legend describes."
         }
-      ]
+      ],
+      "commonsFile": "HukouWaterfall4.jpg"
     },
     {
       "id": "evt-ac-yu-the-great",
       "label": "Yu the Great",
       "year": -2070,
       "endYear": -2025,
-      "description": "Yu the Great is the legendary founder of the Xia Dynasty, credited with controlling the catastrophic Great Flood through 13 years of engineering works — dredging channels, building dikes, redirecting rivers. His devotion was so complete that he passed his own home three times without entering.",
+      "description": "The legendary sage-engineer who beat the flood not by walling the water out but by digging it a way through — and was rewarded with the throne. Whether or not he was a real man, he is the hero China hung its origin story on.",
       "wikiSlug": "Yu_the_Great",
       "tier": 1,
       "tags": [
@@ -807,90 +599,61 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Yu the Great is the last of China's legendary sage-kings and the founder of the Xia Dynasty. Unlike his predecessors who ruled by virtue, Yu earned his throne through physical labor — 13 years of flood-control engineering that saved Chinese civilization."
-        },
-        {
-          "label": "The Flood Legend",
-          "text": "China's Great Flood myth describes a catastrophe that drowned the land for generations. Yu succeeded where his father Gun failed, working with the terrain rather than against it — dredging channels for the water to flow out rather than building dams to block it."
-        },
-        {
-          "label": "Legacy",
-          "text": "Yu's flood control established the Xia Dynasty and hereditary succession — power from father to son. His model of the ruler-as-engineer influenced Chinese political philosophy for millennia, and the Shang would claim him as a cultural ancestor."
+          "label": "Explore further",
+          "text": "Yu's father Gun had spent nine years piling up dams to block the water, failed, and was executed for it; Yu reversed the whole strategy, spending thirteen years dredging channels and cutting new outlets to let the flood drain away. The tradition makes his self-denial the point: he is said to have passed the gate of his own house three times during the work without once stopping to see his wife and children. His real legacy may be political rather than hydraulic, because the merit-based succession that handed him the crown died with him when his son seized power by force."
         }
-      ]
+      ],
+      "commonsFile": "Portraits of Famous Men - Da Yu.jpg"
     },
     {
       "id": "evt-ac-xia-founding",
       "label": "Xia Dynasty Founded",
       "year": -2070,
-      "description": "According to Chinese tradition, Yu the Great founded the Xia Dynasty around 2070 BCE, establishing the first hereditary monarchy in China. The shift from elected or appointed sage-kings to inherited rule was a decisive turning point in Chinese political development.",
+      "description": "China's traditional first dynasty, founded when Yu's son Qi grabbed power and made the throne hereditary — the moment, in Chinese self-understanding, that legend hardens into recorded dynasty. Long dismissed in the West as myth, it is now cautiously tied to a real Bronze Age society.",
       "wikiSlug": "Xia_dynasty",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Background",
-          "text": "Before the Xia, Chinese tradition describes a sequence of sage-kings who were chosen for virtue — Yao chose Shun over his own son, Shun chose Yu. When Yu's son Qi seized power after his father's death, the principle of hereditary succession replaced meritocratic selection."
-        },
-        {
-          "label": "The Transition",
-          "text": "Qi's seizure of power was controversial and resisted by the noble Yi, who was supported by many as the legitimate successor. Qi defeated Yi and established hereditary rule — a transformation Chinese texts describe as either a corruption or a natural evolution of governance."
-        },
-        {
-          "label": "Significance",
-          "text": "The establishment of hereditary rule by the Xia created the dynastic template that all subsequent Chinese dynasties would follow. The Mandate of Heaven — the idea that righteous rule earns heaven's favor — emerged as the justification for this system, persisting until 1912."
+          "label": "Explore further",
+          "text": "Founding the Xia meant breaking the old rule that the worthiest man, not the king's son, inherited rule: Yu had reportedly named an outsider, Yi, as successor, but Qi took the throne by force with backing nobles who preferred a bloodline to an election. That single act set the template of father-to-son dynastic succession that governed China until the last Qing emperor abdicated in 1912. The hard evidence now points to Erlitou in central Henan, a roughly 1900-1500 BCE settlement with palaces, bronze casting, and elite burials whose dates line up so neatly with the traditional Xia that most Chinese archaeologists read it as the dynasty's material trace."
         }
-      ]
+      ],
+      "commonsFile": "Xia Dynasty pottery jue.jpg"
     },
     {
       "id": "evt-ac-xia-calendar",
       "label": "Xia Calendar Tradition",
       "year": -2000,
-      "description": "Chinese tradition attributes the first formal calendar to the Xia Dynasty. The 'Xia Zheng' (Xia Month System) set the first month of the agricultural year at the start of spring, a convention later codified by the Han and still embedded in the traditional Chinese calendar.",
+      "description": "The timekeeping system China credits to the Xia: a lunisolar calendar that fixed the year's first month near the start of spring and still, thousands of years later, sets the date of Chinese New Year. Over a billion people arguably plan their festivals around a tradition this old.",
       "wikiSlug": "Chinese_calendar",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Agricultural civilization depends on accurate seasonal timing — when to plant, when to harvest, when floods will come. Chinese tradition credits Yao and the Xia with developing a formal calendar based on astronomical observation."
-        },
-        {
-          "label": "The System",
-          "text": "The 'Xia Zheng' placed the year's start at the first new moon after the winter solstice, creating a lunisolar calendar that tracked both the moon's phases and the sun's seasonal position. This calendar would be attributed to the Xia in later texts and influence every Chinese calendar thereafter."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Chinese lunisolar calendar still governs Chinese New Year, the Mid-Autumn Festival, and other traditional holidays celebrated by over a billion people today. The Taosi observatory provided the astronomical foundation for this tradition."
+          "label": "Explore further",
+          "text": "A lunisolar calendar is a balancing act — it follows the moon's phases for months but keeps nudging itself back in step with the sun so the seasons don't drift, which is why Chinese New Year wanders within a fixed window each year. The attribution to the Xia is traditional and unprovable, but it is not absurd: the late-Longshan observatory at Taosi shows communities of the era were already tracking solstices and equinoxes, the exact astronomy a lunisolar calendar needs. The Han dynasty later codified the 'Xia Zheng' month system, and its bones still underlie the Mid-Autumn Festival and every other traditional Chinese holiday."
         }
-      ]
+      ],
+      "commonsFile": "Chinese Calendar(Daoguang 15).jpg"
     },
     {
       "id": "evt-ac-erlitou-palace",
       "label": "Erlitou Palace Complex",
       "year": -1900,
       "endYear": -1500,
-      "description": "The Erlitou site near Luoyang reveals China's earliest palace architecture: two palatial complexes with rammed-earth foundations, timber columns, and bronze workshops. Most scholars identify Erlitou as the Xia capital or an early Shang proto-state.",
+      "description": "A sprawling 1,200-acre town near Luoyang, dug since 1959, whose walled palace zone holds China's oldest known palace foundations — and the likeliest candidate anyone has for a real capital of the legendary Xia. Its rammed-earth platforms set the template Chinese palaces would follow for the next 3,000-plus years.",
       "wikiSlug": "Erlitou_culture",
-      "commonsFile": "20251026 Bronze Jue from Erlitou.jpg",
+      "commonsFile": "青铜爵08792.jpg",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Background",
-          "text": "Erlitou (1900–1500 BCE) is the most important Bronze Age site for understanding China's earliest states. Located at the strategic junction of the Yi and Luo rivers in Henan, it controlled both agricultural land and the routes between north and south China."
-        },
-        {
-          "label": "The Structure",
-          "text": "Palace No. 1 at Erlitou covered 10,000 sq meters — a central hall on a rammed-earth platform surrounded by a colonnade. This layout became the template for Chinese imperial architecture for 3,000 years, from Shang Anyang to the Ming Forbidden City."
-        },
-        {
-          "label": "Legacy",
-          "text": "Erlitou's palace layout — central hall on raised platform, surrounded by galleries — became the template for every subsequent Chinese capital, from Shang Anyang to Ming Beijing's Forbidden City. Whether Erlitou was the Xia or early Shang, it was the crucible of Chinese urban civilization."
+          "label": "Explore further",
+          "text": "Palace No. 1 sat on a packed-earth platform roughly 355 by 330 feet (108 by 100 m) — about 2.5 acres of foundation — with a central hall ringed by a colonnade and a south-facing gate onto a courtyard. That exact blueprint (raised platform, central hall, north-south axis, galleries, south gate) runs straight through to the Forbidden City. No standing walls survive: archaeologists read the building entirely from post-holes and the platform, which is why what you see at the site today is grassy mounds, not ruins."
         }
       ]
     },
@@ -898,48 +661,33 @@
       "id": "evt-ac-xia-roads",
       "label": "Xia Communication Networks",
       "year": -1900,
-      "description": "Erlitou served as a hub for exchange networks stretching from the Gansu Corridor to the Yangtze delta, with turquoise from Xinjiang, shells from the coast, and bronze alloys from distant sources found at the site — evidence of a coordinated early state economy.",
+      "description": "Erlitou wasn't just making luxury goods — it was the hub of a trade web reaching from the far northwest to the tropical coast. The mix of materials in its elite graves came from places hundreds, even a thousand-plus, miles apart, which is the surest sign that a real early state was running the show.",
       "wikiSlug": "Erlitou_culture",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Evidence",
-          "text": "Erlitou's elite burials contain turquoise from Xinjiang (over 2,000 km away), marine shells from the east coast, and tin bronze requiring ores from distant mountain sources. No single region had all these materials — their presence signals sustained long-distance exchange."
-        },
-        {
-          "label": "Organization",
-          "text": "The concentration of exotic materials at Erlitou, combined with evidence for specialized craft production (bronze, lacquerware, turquoise mosaic), suggests the site controlled trade networks rather than simply participating in them — the signature of an early state."
-        },
-        {
-          "label": "Significance",
-          "text": "The Erlitou trade networks were the prototype for every subsequent Chinese state's economic organization. The Shang would expand and systematize them; the Han would extend them across Central Asia. The infrastructure of Chinese long-distance commerce begins here."
+          "label": "Explore further",
+          "text": "No single region produced everything found at Erlitou: turquoise from Qinghai or Xinjiang (620-plus miles / 1,000 km away), marine and cowrie shells from distant coasts, tin from southern mountains, jade from the far northwest or northeast. The point isn't just that the goods arrived — it's that Erlitou's workshops turned raw imports into finished ritual objects and then redistributed them, converting trade into political loyalty. That redistribution-of-prestige-goods engine is the same machine the Shang would later run at roughly triple the scale."
         }
-      ]
+      ],
+      "commonsFile": "嵌绿松石铜牌饰（81YLVM4）, 2024-06-22.jpg"
     },
     {
       "id": "evt-ac-turquoise-mosaic",
       "label": "Turquoise Mosaic Bronzes",
       "year": -1850,
-      "description": "Erlitou craftsmen inlaid bronze objects with thousands of tiny turquoise pieces to create mosaic designs — the earliest inlaid bronzeware in China, demonstrating both technical mastery and access to distant turquoise sources in Xinjiang and Qinghai.",
+      "description": "Erlitou's signature craft: bronze plaques and a famous dragon studded with thousands of hand-cut turquoise chips (tesserae, the same word as for the stones in a Roman mosaic), forming the bug-eyed animal masks that would become the Shang taotie. The turquoise itself traveled more than 620 miles (1,000 km) to get there.",
       "wikiSlug": "Erlitou_culture",
-      "commonsFile": "绿松石龙形器及铜铃, 2024-06-23.jpg",
+      "commonsFile": "绿松石龙形器8.jpg",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "The Craft",
-          "text": "Erlitou artisans set hundreds of individually shaped turquoise tesserae into bronze plaques and fittings, creating animal-face designs (possibly early taotie ancestors). The precision required — pieces as small as 3 mm — speaks to dedicated specialist craftspeople."
-        },
-        {
-          "label": "Materials",
-          "text": "Turquoise used at Erlitou came from sources in Qinghai and possibly Xinjiang, over 1,000 km from the site. The effort to source and transport this material reflects the political reach and economic power of the Erlitou state."
-        },
-        {
-          "label": "Significance",
-          "text": "The turquoise mosaic bronzes of Erlitou are direct ancestors of the Shang taotie bronzes — same animal-face aesthetic, same bronze medium, same elite ritual context. They show that the Shang did not invent Chinese bronze art but perfected a tradition already centuries old."
+          "label": "Explore further",
+          "text": "The masterpiece is the Erlitou turquoise dragon: about 27 inches (70 cm) long, assembled from over 2,000 individually shaped pieces, found laid across the chest of a 30-to-35-year-old man in an undisturbed elite grave in the palace zone. Because the chips were set in something organic that rotted away, it was excavated essentially as a 2,000-piece jigsaw still holding its shape in the soil. Each tessera was shaped and placed by hand — work that only makes sense if full-time specialists were doing nothing else."
         }
       ]
     },
@@ -947,32 +695,25 @@
       "id": "evt-ac-xia-bronze",
       "label": "Early Bronze Casting",
       "year": -1800,
-      "description": "Bronze casting technology emerged in China during the late Xia/Erlitou period, initially producing small ritual vessels, weapons, and tools. This marked the beginning of China's extraordinary Bronze Age tradition that the Shang would bring to perfection.",
+      "description": "China's first true bronzes — copper-tin alloys, not just pure copper — cast at Erlitou around 1800 BCE, starting with small wine cups and weapons. China came to bronze roughly 1,500 years after Mesopotamia, but went its own technical way and never looked back.",
       "wikiSlug": "Chinese_bronze_inscriptions",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Background",
-          "text": "Copper smelting appeared in China by 3000 BCE, but true bronze (copper-tin alloy) casting developed later, at Erlitou. Access to tin — rare in the Yellow River region — required long-distance trade networks and signaled the economic reach of the early Xia/Erlitou state."
-        },
-        {
-          "label": "The Innovation",
-          "text": "Erlitou bronze workers used piece-mold casting — ceramic molds assembled around a clay core — to produce small jue (wine goblets) and other ritual vessels. These are the earliest Chinese bronze ritual vessels, direct ancestors of the Shang's monumental bronzeware."
-        },
-        {
-          "label": "Legacy",
-          "text": "The bronze-casting tradition that began at Erlitou would reach its apex under the Shang, producing vessels of unmatched complexity and beauty. The piece-mold technique — uniquely Chinese — enabled the taotie masks and intricate surface decoration that define ancient Chinese bronzeware."
+          "label": "Explore further",
+          "text": "Instead of the lost-wax method used everywhere else in the Bronze Age world, Erlitou casters built up vessels from multiple clay piece-molds assembled around a core and poured full of molten bronze — some jue walls came out as thin as a millimeter. The catch was tin: it was scarce near the Yellow River, so having any at all means Erlitou was pulling metal in from distant mountain sources. This piece-mold tradition is exactly what would later let the Shang cast their giant taotie-covered ritual vessels."
         }
-      ]
+      ],
+      "commonsFile": "Late Xia Bronze Ding (10179697674) cropped.jpg"
     },
     {
       "id": "evt-ac-jie-of-xia",
       "label": "Jie of Xia",
       "year": -1650,
       "endYear": -1600,
-      "description": "Jie was the last ruler of the Xia Dynasty — portrayed in Chinese tradition as a tyrant who squandered resources on pleasure, neglected governance, and lost the Mandate of Heaven. His overthrow by Tang of Shang established the precedent of righteous rebellion against corrupt rulers.",
+      "description": "Jie, the last Xia king, is China's original \"bad last emperor\" — the cautionary tale every later dynasty would reach for when explaining why a ruling house deserved to fall. Tradition paints him as a gifted man who threw it all away on cruelty and indulgence until heaven revoked his right to rule.",
       "wikiSlug": "Jie_of_Xia",
       "tier": 2,
       "tags": [
@@ -981,42 +722,28 @@
       "category": "rulers",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "Jie is the archetypal 'bad last emperor' in Chinese tradition — a ruler of great personal strength and intelligence who squandered his gifts on tyranny. His favorite concubine Mo Xi reportedly convinced him to build a lake of wine large enough for boats."
-        },
-        {
-          "label": "Loss of the Mandate",
-          "text": "Chinese texts describe Jie's subjects turning against him as his exactions became unbearable. When Tang of the Shang clan rose in rebellion, Jie's own nobles refused to fight. Tang's victory at the Battle of Mingtiao ended the Xia and founded the Shang Dynasty."
-        },
-        {
-          "label": "Legacy",
-          "text": "Jie's story became the template for every subsequent 'last ruler' narrative in Chinese history — from the last Shang king Di Xin to the last Ming emperor. The Mandate of Heaven concept — that heaven withdraws approval from corrupt rulers — was crystallized by Jie's fall."
+          "label": "Explore further",
+          "text": "The famous charge is that Jie kept a \"pool of wine and forest of meat\" — a literal pond of wine and roasted slabs hung from trees for endless feasting while peasants starved. Don't read it as fact: the exact same accusation gets pinned on the last Shang king and other doomed rulers, a stock literary move that blames collapse on a tyrant's vices rather than on droughts or politics. What makes Jie matter is that he's the prototype — the first villain in a script Chinese history would replay for the next 3,000 years."
         }
-      ]
+      ],
+      "commonsFile": "帝鉴图说.Recueil Historique des Principaux Traits de la Vie des Empereurs Chinois.95帧图.彩绘册页.约18世纪 (脯林酒池).jpg"
     },
     {
       "id": "evt-ac-battle-mingtiao",
       "label": "Battle of Mingtiao",
       "year": -1600,
-      "description": "Tang of Shang defeated Jie of Xia at the Battle of Mingtiao, ending the Xia Dynasty and founding the Shang — China's first archaeologically verified dynasty. Tang's victory established the model of righteous rebellion against a tyrant who had lost the Mandate of Heaven.",
+      "description": "The battle, around 1600 BCE, where the virtuous chief Tang overthrew the tyrant Jie, ended the Xia, and founded the Shang. Tradition calls it China's first decisive battle — and it became the master template for how every later dynasty would explain swapping one ruling house for another.",
       "wikiSlug": "Tang_of_Shang",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Background",
-          "text": "Tang of Shang had been building alliances among Xia vassal states for years, presenting himself as a moral leader. When Jie had one of his own loyal nobles executed, Tang made his move, declaring that heaven had withdrawn the Mandate from the Xia."
-        },
-        {
-          "label": "The Battle",
-          "text": "At Mingtiao (near modern Fengqiu, Henan), Tang's forces defeated Jie's army. Jie fled and died in exile. The battle is recorded in the Book of Documents (Shujing), China's oldest collection of historical texts, as a model of legitimate regime change."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Battle of Mingtiao established the Mandate of Heaven as the justification for dynasty change — an idea that every subsequent Chinese dynasty invoked to legitimize its founding. The Shang would themselves fall to this same logic 550 years later at the Battle of Muye."
+          "label": "Explore further",
+          "text": "The Book of Documents says Jie's own soldiers wouldn't fight for him — they'd heard about the wine pool and watched their villages neglected, so they had no stomach for dying for a king heaven had abandoned. That storyline — righteous founder beats corrupt tyrant, inherits the Mandate of Heaven — is the dynastic cycle, and the Zhou, Han, Tang, and Ming would all narrate their own takeovers with the exact same script. The traditional date lines up almost perfectly with the archaeological end of the Erlitou culture, which is part of why the legend is taken more seriously now."
         }
-      ]
+      ],
+      "commonsFile": "King Tang of Shang.jpg"
     }
   ],
   "glossary": [
