@@ -101,7 +101,9 @@ gate is deterministic. See `audits/pipeline-audit.md` for the gate rationale, an
   truth**) · `data.ts` (build-time content read) · `types.ts` · `accent-colors.ts` ·
   `categories.ts` · `chronology-data.ts`
 - `scripts/` — `parse-narratives.ts` (md→JSON) · `ship-check.mjs` (aggregate ship gate) ·
-  `fix-links.mjs` (born-verified link+photo) · `maps-build.mjs` (G4) · the gate scripts
+  `fix-links.mjs` (born-verified link+photo) · `maps-build.mjs` (G4) · `sweep-photos.mjs`
+  (event-sweep Phase-2a: single paced/cached/batched Wikimedia image gatherer → manifest;
+  429-proof, see `audits/event-upgrade-sweep-progress.md`) · the gate scripts
   `lint-density`/`lint-links`/`link-coverage`/`lint-intros`/`lint-event-cards`/
   `lint-event-photos` · `verify-links`+`audit-{events,crosslinks,glossary}.mjs`
   (deterministic snapshot/floor gates). `retarget-links`/`collect-autofails`/

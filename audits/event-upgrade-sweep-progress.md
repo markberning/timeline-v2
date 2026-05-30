@@ -5,12 +5,22 @@ photos. Each civ: parallel chapter agents → apply → cross-chapter dedup → 
 gates (G14 cards · G15 photo-floor 70% · fix-links). Committed per civ,
 batch-deployed every ~3 civs. Autonomous (feedback_sweep_autonomy).
 
-**Rate-limit rule (added 2026-05-29):** card-WRITING agents fan out wide; the
-photo-DOWNLOAD pass does NOT — stagger it (serialize / ≤2–3 concurrent, short
-sleep between curls, descriptive User-Agent). A 429 must bail fast and report
-`ch N: rate-limited, photos pending`, never silent-retry under backoff. (The
-elamite ch7 "stuck 30 min" was Wikimedia 429-throttling 8 parallel photo passes,
-not a hang.) See docs/content-pipeline.md step 13 + feedback_wikimedia_rate_limit.
+**Recipe (3-phase, 429-proof — adopted 2026-05-29 after the elamite ch7 stall):**
+1. **Cards — agents fan out wide (NO Wikimedia).** One agent per chapter writes
+   `description` + `exploreFurther` to `/tmp/<tl>-out/chN.json`. Web-search fact-check
+   is fine; NO image downloads. They may name `photoCandidates` but don't fetch.
+2. **Photos gather — `node scripts/sweep-photos.mjs <tl>` (ONE serial paced stream).**
+   The only thing that touches Wikimedia. Batched metadata (50 titles/req), persistent
+   byte cache in `.image-cache/` (gitignored; cross-civ reuse — shared artifacts don't
+   re-download), `--delay` between byte fetches, circuit-breaker on 4 consecutive 429s
+   (exits 2, writes a PARTIAL manifest, re-run when the limit clears — cache makes it
+   cheap). Emits `/tmp/<tl>-photos/manifest.json` (per-event local candidate files).
+3. **Photos pick — vision agent(s), NO network.** Read the manifest's local files,
+   pick the best per event, write `commonsFile` + caption. Cannot 429 — zero requests.
+Then apply (`/tmp/apply-sweep.mjs`) → parse → G14/G15/fix-links → commit.
+Why it can't recur: the 8-wide fan-out (phase 1) never touches the rate-limited host;
+the host is touched only by the single serial gatherer (phase 2). See
+docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
