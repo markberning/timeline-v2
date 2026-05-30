@@ -58,7 +58,11 @@ export default function OffTheBattlefieldPage() {
             The threads off the firing line, in the order they shaped the war. Section pages are coming; for now, this is the map of what’s here.
           </p>
           <CordTimeline>
-            {spine.map(t => <BattleCard key={t.id} size={t.size} accent={ACCENT} dateTop={String(t.year)} title={t.name} sub={`${t.date} · ${TYPE_LABEL[t.type] || t.type}`} hook={t.hook} href={t.href} imageUrl={t.img} stack={t.stack} soon={!t.href} />)}
+            {/* `fit` = never-crop, card-sizes-to-image (whole picture, ≤ ~56vw for
+                landscape/near-square on top; clearly-tall portraits go image-left).
+                Applied to every card that has an image; "Soon" placeholders stay as
+                the gradient tile. Orientation comes from each theme's `stack` flag. */}
+            {spine.map(t => <BattleCard key={t.id} size={t.size} accent={ACCENT} dateTop={String(t.year)} title={t.short ?? t.name} sub={`${t.date} · ${TYPE_LABEL[t.type] || t.type}`} hook={t.hook} href={t.href} imageUrl={t.img} stack={t.stack} fit={!!t.img} soon={!t.href} />)}
           </CordTimeline>
         </div>
       </div>

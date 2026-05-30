@@ -185,12 +185,46 @@ The rules it bakes in (all of these are recurring defects it exists to prevent):
   18px semibold serif, blurb 13.5px serif, sub a 10px uppercase label, credit 9.5px.
   Only the image size (and the XL flagship's accent ring) varies between cards.
 
-**War cards** (`war-battle-card.tsx`, `war-front-door.tsx`) keep their own design —
-the "escalating spine" where card height encodes the war's size, plus gradient
-placeholder tiles, image-caption overlays, and Read/Soon badges — but they obey
-the same no-crop / **no-truncation** floor (cards use `minHeight`, not a fixed
-`height`, so un-clamped text can't clip). If war cards are ever unified onto
-`OrientationCard`, add gradient-placeholder + overlay + badge support to it first.
+**War cards** (`war-battle-card.tsx`, `war-front-door.tsx`) keep their own
+"escalating spine" design (card height encodes the war's size, gradient placeholder
+tiles, image-caption overlays, Read/Soon badges) and obey the same no-crop /
+**no-truncation** floor (cards use `minHeight`, not a fixed `height`).
+
+### `BattleCard` fit mode — the never-crop / image-led card (locked 2026-05-30)
+`BattleCard` has a **`fit`** prop that brings the OrientationCard principle to the
+war spine. **It is currently wired ONLY on the Off the Battlefield spine**
+(`war-civil-war/off-the-battlefield/page.tsx`, `fit={!!t.img}`). Do **NOT** roll it
+onto the ACW home timeline, art, or music without the user — the rules below are the
+target design for war/art/music cards, but the rollout is deliberately one-page.
+- **Whole image, never cropped — and never DISTORTED.** Only **natural-aspect**
+  sizing is allowed: fix ONE axis, set the other to `auto`. `height:100%`+`width:auto`
+  inside a flex item, `object-fit:fill`, and making the image wrapper `display:flex`
+  ALL distort (the wrapper balloons to the image's intrinsic width and squishes it) —
+  they are banned. This was rediscovered the hard way (Lincoln's portrait stretched
+  twice before the natural-aspect rule stuck).
+- **The card sizes to the image; it is NOT full width.** Layout by orientation
+  (from the roster `Theme.stack` flag — landscape/near-square `true`, clearly-tall
+  portrait `false`/omitted; near-square ~1.0–1.15 goes on top per the art rule):
+  - **landscape / near-square → image on TOP**, `width:100%`/`height:auto`; card
+    width = `fitW` (a size-driven `min(vw, px)` cap). The image's own aspect then sets
+    the card HEIGHT (wide print → short card, tall image → tall card).
+  - **portrait → image on the LEFT**, fixed `portW`/`height:auto`; text in a fixed
+    column to the RIGHT. The image is sized to be the **tallest element**, so the card
+    height = image height and the photo **fills top/left/bottom**; the short hook fits
+    beside it. (Fill is achieved by sizing the image bigger than the text — NOT by
+    stretching it. If a portrait shows a gap under the photo, the image is too small
+    OR the text too long.)
+- **Card sizes VARY by `size` (s/m/l/xl) for a staggered, non-uniform spine** — the
+  twelve OTBF themes are assigned a deliberate s/m/l rhythm so no two neighbours match;
+  combined with the per-image height variation, the spine reads staggered, not tiled.
+- **Hooks are SHORT, pithy one-liners** (one consistent register across the spine),
+  and the card **title uses the concise `short` form** (`title={t.short ?? t.name}`)
+  so a long title can't push the text past the bottom of the image.
+- **Greedy wrap — NO `text-wrap: pretty` on the hook** (it balanced lines short and
+  read as "wrapping too soon"). The **portrait text column is one fixed width**
+  (`flex-basis == max-width`) so the text fills its column instead of breaking early
+  at a smaller basis.
+
 **Known still-clamped spot to revisit if flagged:** the dense home-feed tiles
 (`app-home.tsx` `clampN` + `short()`), kept bounded for the multi-column grid.
 
