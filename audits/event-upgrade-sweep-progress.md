@@ -53,7 +53,15 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 14 / 109 civs**  ·  **95 civs remaining, smallest-first.**
+**Done: 17 / 109 civs**  ·  **92 civs remaining, smallest-first.**
+
+First overlapped wave (3 concurrent workflows): kingdom-of-kush (92.7%, self-committed),
+early-dynastic-egypt (89.1%, self-committed), yuan-dynasty (87%, finished by hand after a
+gather-timeout bug). Two concurrency bugs found + fixed: (1) a lock-queued civ's gather
+Bash call was killed at the 2-min default → orphaned the lock → starved the next civ;
+fix = 10-min Bash timeout on the gather phase + 8-min stale-lock takeover. (2) overlapping
+sweep-apply runs race on the GLOBAL caption/rejection files; fix = a narrow `.apply.lock`.
+**Run future waves 2-wide** (shorter lock queue).
 
 Last updated: 2026-05-29 (sweeping)
 
