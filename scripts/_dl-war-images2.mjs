@@ -7,7 +7,7 @@ import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)))
-const SLUGS = ['cotton-diplomacy', 'ironclads', 'new-way-of-war', 'home-front', 'medicine', 'usct']
+const SLUGS = ['prisons', 'guerrilla-war', 'war-within-north', 'assassination', 'reckoning']
 const OUT = `${ROOT}/public/war-img`
 const UA = 'StuffHappenedBot/1.0 (https://stuffhappened.com; civil-war history reader; contact admin@stuffhappened.com)'
 const sleep = (ms) => new Promise(r => setTimeout(r, ms))

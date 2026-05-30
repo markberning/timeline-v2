@@ -153,6 +153,43 @@ const CONFIGS = [
       'Two Governments, One Verdict': [TG.baltimore],
     },
   },
+  // ── Wave-3 themes (the closing Off-the-Battlefield arc; figures hydrated from
+  //    <slug>-figures.json via the manifest parser).
+  {
+    slug: 'prisons', battleId: 'th-prisons', battleName: 'Andersonville & the Prisons', fromJson: true,
+    eyebrow: `The war behind the wire`,
+    hero: { palette: ['#2c2a1e', '#1c1a14', '#0a0806'], focus: 'center 42%', scale: 1.05 },
+    end: { kicker: `The war's other body count`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the war's edges`, title: `Fort Pillow & the Guerrilla War`, body: `Captivity was one way this war stopped treating the enemy as human. There was another, uglier one — the no-quarter killings and the savage irregular war that raged out past the armies' flanks, where the line between soldier and civilian dissolved entirely.` },
+  },
+  {
+    slug: 'guerrilla-war', battleId: 'th-atrocity', battleName: 'Fort Pillow & the Guerrilla War', fromJson: true,
+    eyebrow: `The war with no front line`,
+    hero: { palette: ['#2e211c', '#1e1714', '#0a0706'], focus: 'center 45%', scale: 1.06 },
+    end: { kicker: `The war at its ugliest`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the Northern home front`, title: `The War Within the North`, body: `While the war turned savage at its edges, the North was fighting a quieter war with itself — over dissent, over civil liberties, and over whether a democracy could hold a free presidential election in the middle of a civil war without tearing itself apart.` },
+  },
+  {
+    slug: 'war-within-north', battleId: 'th-northwithin', battleName: 'The War Within the North', fromJson: true,
+    eyebrow: `The other war the North was fighting`,
+    hero: { palette: ['#22272e', '#161a1f', '#080a0c'], focus: 'center 50%', scale: 1.0 },
+    end: { kicker: `The ballot held`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `Ford's Theatre, Washington`, title: `Lincoln Assassinated`, body: `The ballot box saved the presidency — the country re-elected its war president and the Union held. Five days after the surrender at Appomattox, a single bullet did what the election could not.` },
+  },
+  {
+    slug: 'assassination', battleId: 'th-assassination', battleName: 'Lincoln Assassinated', fromJson: true,
+    eyebrow: `Five days after the peace`,
+    hero: { palette: ['#241c1c', '#161112', '#080606'], focus: 'center 20%', scale: 1.0 },
+    end: { kicker: `The peace loses its architect`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the whole nation`, title: `The Reckoning`, body: `The man who might have softened the peace was gone. Now the country had to count its dead, free four million people for good, and decide what the war had actually settled — and what it had only deferred.` },
+  },
+  {
+    slug: 'reckoning', battleId: 'th-reckoning', battleName: 'The Reckoning', fromJson: true,
+    eyebrow: `What it cost, what it changed, what it didn't`,
+    hero: { palette: ['#2a2724', '#1a1816', '#080808'], focus: 'center 45%', scale: 1.05 },
+    end: { kicker: `A reckoning deferred, not resolved`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the firing line`, title: `The battles themselves`, body: `These were the threads off the firing line — the causes, the society, the technology, the aftermath. The battles that ran alongside them, from Bull Run to Appomattox, are their own four theatres, waiting whenever you are.` },
+  },
 ]
 
 function parse(md) {

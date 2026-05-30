@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)))
 const WP = `${ROOT}/audits/war-pipeline`
-const SLUGS = ['cotton-diplomacy', 'ironclads', 'new-way-of-war', 'home-front', 'medicine', 'usct']
+const SLUGS = ['prisons', 'guerrilla-war', 'war-within-north', 'assassination', 'reckoning']
 
 const field = (block, names) => {
   for (const name of [].concat(names)) {
