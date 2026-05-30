@@ -5,19 +5,36 @@ photos. Each civ: parallel chapter agents → apply → cross-chapter dedup → 
 gates (G14 cards · G15 photo-floor 70% · fix-links). Committed per civ,
 batch-deployed every ~3 civs. Autonomous (feedback_sweep_autonomy).
 
-**Recipe (3-phase, 429-proof — adopted 2026-05-29 after the elamite ch7 stall):**
+**Recipe (3-phase, 429-proof — adopted 2026-05-29 after the elamite ch7 stall;
+two efficiency fixes added 2026-05-29 after indus needed 2 gap-fill rounds):**
 1. **Cards — agents fan out wide (NO Wikimedia).** One agent per chapter writes
    `description` + `exploreFurther` to `/tmp/<tl>-out/chN.json`. Web-search fact-check
    is fine; NO image downloads. They may name `photoCandidates` but don't fetch.
+   **1b. FRONT-LOADED PHOTO FINDER (FIX #2 — do this BEFORE the gather, in parallel
+   with the card agents).** Spawn 1–2 finder agents (split by chapter for big civs)
+   that, for every event, WEB-VERIFY a real distinct Commons filename (open the event's
+   `wiki:` slug page → grab its real lead-image filename; confirm via the Commons
+   `File:` page). Write `/tmp/<tl>-gapfill.json` `{eventId:[ "File:...", ... ]}`, merge
+   into the card outputs' `photoCandidates`, THEN gather. **Why:** the gatherer hands
+   material-culture + abstract events ONLY the regional/era map, so a cold first vision
+   pick over-rejects and you pay 1–3 slow gap-fill rounds (indus: 30/54 = 56%, under the
+   floor, needed two rounds → 87%). Front-loading verified candidates means the FIRST
+   gather+pick clears the 70% floor. Tell finders: ONE file per event (distinctness),
+   prefer the iconic artifact/site/person/manuscript, and OMIT genuinely abstract events
+   (trade *networks*, "Decline Begins", oral epics, clan systems) — those honest-reject,
+   never force.
 2. **Photos gather — `node scripts/sweep-photos.mjs <tl>` (ONE serial paced stream).**
    The only thing that touches Wikimedia. Batched metadata (50 titles/req), persistent
    byte cache in `.image-cache/` (gitignored; cross-civ reuse — shared artifacts don't
    re-download), `--delay` between byte fetches, circuit-breaker on 4 consecutive 429s
    (exits 2, writes a PARTIAL manifest, re-run when the limit clears — cache makes it
    cheap). **Events whose wiki page yields <2 usable images get a Commons file-search
-   augment by label** (`--min`, default 2) — this surfaces representative artifacts the
-   page didn't link, so far fewer events fall to the slow serial gap-fill. Emits
-   `/tmp/<tl>-photos/manifest.json` (per-event local candidate files).
+   augment** (`--min`, default 2). **FIX #1 (context-aware search):** that augment now
+   appends the civ label to the query (`--context`, defaults to `ref.label`) so a bare
+   label like "Standardized Weights" / "Decline Begins" ranks THIS civ's artifacts first
+   instead of pulling global junk (indus got Roman-Empire books + Lithuanian presidential
+   seals). It skips appending when the label already contains the context, to avoid
+   over-narrowing. Emits `/tmp/<tl>-photos/manifest.json` (per-event local candidate files).
 3. **Photos pick — vision agent(s), NO network.** Read the manifest's local files,
    pick the best per event, write `commonsFile` + caption. Cannot 429 — zero requests.
    **Pick DISTINCT images — never reuse one commonsFile across events** (a representative
@@ -27,8 +44,9 @@ Then `node scripts/sweep-apply.mjs <tl>` (auto-discovers chapters; reports any g
 so a stall is never lost; **flags any DUPLICATE photo deterministically — catch reuse
 here, before the gate, not from a failed fix-links after a full parse**) →
 `npm run parse` → G14/G15/fix-links → commit.
-Full committed chain: `sweep-bundle.mjs` → card agents → `sweep-photos.mjs` →
-vision pick → `sweep-apply.mjs` (no more `/tmp` scratch — reproducible end to end).
+Full committed chain: `sweep-bundle.mjs` → card agents **+ front-loaded photo
+finder (1b)** → `sweep-photos.mjs` (context-aware augment) → vision pick →
+`sweep-apply.mjs` (no more `/tmp` scratch — reproducible end to end).
 Why it can't recur: the 8-wide fan-out (phase 1) never touches the rate-limited host;
 the host is touched only by the single serial gatherer (phase 2). See
 docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.

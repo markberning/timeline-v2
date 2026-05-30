@@ -99,6 +99,12 @@ async function backoffFetch(url, kind /* 'json' | 'buffer' */) {
 
 // ---- load events ----
 const ref = JSON.parse(readFileSync(join(ROOT, 'reference-data', `${tl}.json`), 'utf8'))
+// Context terms appended to the Commons file-search so a bare label ("Standardized
+// Weights", "Decline Begins") ranks THIS civ's artifacts first instead of pulling in
+// global junk (Roman-Empire books, Lithuanian seals). Default = the civ's label;
+// override with --context "...". This is the single biggest first-pass photo-quality
+// lever — see audits/event-upgrade-sweep-progress.md (indus lesson).
+const SEARCH_CONTEXT = opt('context', ref.label || '').replace(/\s+/g, ' ').trim()
 const allEvents = [...(ref.events || [])]
 for (const s of ref.spans || []) if (Array.isArray(s.events)) allEvents.push(...s.events)
 const byId = new Map(allEvents.map(e => [e.id, e]))
@@ -175,8 +181,11 @@ let searched = 0
 for (const e of targets) {
   const pc = prelim.get(e.id)
   if (pc.list.length >= MIN_CANDIDATES) continue
-  const q = (e.label || e.id).replace(/[—–_-]+/g, ' ').replace(/\s+/g, ' ').trim()
-  if (!q) continue
+  const base = (e.label || e.id).replace(/[—–_-]+/g, ' ').replace(/\s+/g, ' ').trim()
+  if (!base) continue
+  // Append civ context unless the label already contains it, so we don't over-narrow.
+  const q = (SEARCH_CONTEXT && !base.toLowerCase().includes(SEARCH_CONTEXT.toLowerCase()))
+    ? `${base} ${SEARCH_CONTEXT}` : base
   const url = `https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=8&gsrsearch=${encodeURIComponent(q)}`
   const data = await backoffFetch(url, 'json')
   searched++
