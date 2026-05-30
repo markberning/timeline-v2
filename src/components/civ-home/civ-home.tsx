@@ -323,8 +323,12 @@ export function CivHome() {
         <div key={view} style={{ flex: 1 }}>
           {view === 'timeline'
             ? <TimelineView query={q} onFilterChain={(label, color) => {
-                if (query) { setQuery(''); setFilterColor(null) }
-                else { setQuery(label); setFilterColor(color) }
+                // A chain pill ALWAYS filters to its own chain — never toggles the
+                // filter off. The old `if (query) clear` toggled on whether *any*
+                // filter was active, so once filtered, tapping any pill in the
+                // narrowed list cleared everything and dumped the user back to all
+                // civs (the reported bug). Clearing the filter is the ✕ button.
+                setQuery(label); setFilterColor(color)
               }} />
             : <ChainsView query={q} />}
         </div>
