@@ -17,7 +17,10 @@ batch-deployed every ~3 civs. Autonomous (feedback_sweep_autonomy).
    cheap). Emits `/tmp/<tl>-photos/manifest.json` (per-event local candidate files).
 3. **Photos pick — vision agent(s), NO network.** Read the manifest's local files,
    pick the best per event, write `commonsFile` + caption. Cannot 429 — zero requests.
-Then apply (`/tmp/apply-sweep.mjs`) → parse → G14/G15/fix-links → commit.
+Then `node scripts/sweep-apply.mjs <tl>` (auto-discovers chapters, reports any
+gap/`todo` so a stall is never lost) → `npm run parse` → G14/G15/fix-links → commit.
+Full committed chain: `sweep-bundle.mjs` → card agents → `sweep-photos.mjs` →
+vision pick → `sweep-apply.mjs` (no more `/tmp` scratch — reproducible end to end).
 Why it can't recur: the 8-wide fan-out (phase 1) never touches the rate-limited host;
 the host is touched only by the single serial gatherer (phase 2). See
 docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
