@@ -233,6 +233,16 @@ The reader + dossier are shared components — a new battle is mostly a data fil
   for art but NOT yet for the war reader, so until it is, a war section's hero must be
   landscape. The same `img` feeds the OTBF/home card, so a landscape hero also sets the
   card `stack: true` (image-on-top).
+- **CROP THE MAT off matted prints/mounts used as a hero or card (locked 2026-05-30,
+  user-flagged: Antietam, Gettysburg, Andersonville, the Lincoln-assassination print, the
+  USCT cased tintype).** Because the spine cards are never-crop `fit` cards, they show the
+  WHOLE source image — so any cream/gilt mat, cabinet-card mount, ornate case frame, OR the
+  caption/title writing printed in the margin shows in the card. Self-host a TRIMMED copy
+  (overwrite the file in place so every reference updates). Tools: `scripts/_crop-explicit.mjs`
+  (measured fractional crop — most reliable for a print with a big mount + caption), and
+  `scripts/_smart-trim.mjs` (variance autocrop: a longest-run + bottom-caption-stripper that
+  removes a uniform mat and a sparse caption line; under-trims thin-margin prints, so eyeball
+  it). Always VIEW the result before overwriting — a measured crop beats guessing.
 
 **Breadcrumb + accent (locked 2026-05-22):**
 - **Short breadcrumb label for long titles.** A long section name overflows the

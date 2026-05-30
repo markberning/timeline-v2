@@ -11,7 +11,7 @@ export type SpineType = 'CAUSE' | 'BATTLE' | 'POLITICS' | 'SOCIETY' | 'AFTERMATH
 
 export interface Major {
   id: string; name: string; year: number; m: number; mo: string; place: string
-  theatre: Theatre; size: Size; href?: string; img?: string; short?: string
+  theatre: Theatre; size: Size; href?: string; img?: string; short?: string; hook?: string
 }
 
 // Chronological within each theatre. m = sort month (1–12); mo = display string.
@@ -22,10 +22,10 @@ export const MAJORS: Major[] = [
   { id: 'e-gainesmill', name: "Gaines' Mill", year: 1862, m: 6, mo: 'Jun', place: 'Hanover Co., VA', theatre: 'east', size: 's' },
   { id: 'e-malvern', name: 'Malvern Hill', year: 1862, m: 7, mo: 'Jul', place: 'Henrico Co., VA', theatre: 'east', size: 's' },
   { id: 'e-bullrun2', name: 'Second Bull Run', year: 1862, m: 8, mo: 'Aug', place: 'Manassas, VA', theatre: 'east', size: 'm' },
-  { id: 'e-antietam', name: 'Antietam', year: 1862, m: 9, mo: 'Sep', place: 'Sharpsburg, MD', theatre: 'east', size: 'l', href: '/war-civil-war/eastern/antietam', img: '/war-img/antietam-hero.jpg' },
+  { id: 'e-antietam', name: 'Antietam', year: 1862, m: 9, mo: 'Sep', place: 'Sharpsburg, MD', theatre: 'east', size: 'l', href: '/war-civil-war/eastern/antietam', img: '/war-img/antietam-hero.jpg', hook: 'The bloodiest single day in American history — 23,000 fell in twelve hours.' },
   { id: 'e-fredericksburg', name: 'Fredericksburg', year: 1862, m: 12, mo: 'Dec', place: 'Fredericksburg, VA', theatre: 'east', size: 'm' },
   { id: 'e-chancellorsville', name: 'Chancellorsville', year: 1863, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'l' },
-  { id: 'e-gettysburg', name: 'Gettysburg', year: 1863, m: 7, mo: 'Jul', place: 'Adams Co., PA', theatre: 'east', size: 'xl', href: '/war-civil-war/eastern/gettysburg', img: '/war-img/gettysburg-hero.jpg' },
+  { id: 'e-gettysburg', name: 'Gettysburg', year: 1863, m: 7, mo: 'Jul', place: 'Adams Co., PA', theatre: 'east', size: 'xl', href: '/war-civil-war/eastern/gettysburg', img: '/war-img/gettysburg-hero.jpg', hook: 'Three days that turned the war — Lee never invaded the North again.' },
   { id: 'e-wilderness', name: 'The Wilderness', year: 1864, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'l' },
   { id: 'e-spotsylvania', name: 'Spotsylvania Court House', year: 1864, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'm' },
   { id: 'e-coldharbor', name: 'Cold Harbor', year: 1864, m: 6, mo: 'Jun', place: 'Hanover Co., VA', theatre: 'east', size: 'm' },
@@ -101,7 +101,7 @@ export interface Theme {
 // theme (Stand Watie's Indian Territory + the 1862 Dakota War).
 export const THEMES: Theme[] = [
   { id: 'th-slavery', name: 'Slavery & the Cotton Economy', phase: 'causes', type: 'CAUSE', size: 'l', date: '1793–1860', year: 1850, m: 1, hook: 'A cotton empire built on four million enslaved people.', href: '/war-civil-war/off-the-battlefield/slavery-cotton', short: 'Slavery & Cotton', img: '/war-img/slavery-cotton-hero.jpg', stack: true },
-  { id: 'th-freedomstruggle', name: 'The Freedom Struggle', phase: 'causes', type: 'SOCIETY', size: 's', date: '1829–1861', year: 1850, m: 9, hook: 'Black-led abolition, from David Walker to the Underground Railroad.', href: '/war-civil-war/off-the-battlefield/freedom-struggle', short: 'The Freedom Struggle', img: '/war-img/freedom-struggle-hero.jpg' },
+  { id: 'th-freedomstruggle', name: 'The Freedom Struggle', phase: 'causes', type: 'SOCIETY', size: 's', date: '1829–1861', year: 1850, m: 9, hook: 'Black-led abolition, from David Walker to the Underground Railroad.', href: '/war-civil-war/off-the-battlefield/freedom-struggle', short: 'The Freedom Struggle', img: '/war-img/freedom-struggle-hero-ls.jpg', stack: true },
   { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1846–1860', year: 1855, m: 1, hook: 'Compromise by compromise, the peace came apart.', href: '/war-civil-war/off-the-battlefield/road-to-war', short: 'Road to War', img: '/war-img/road-to-war-hero-reynolds-map.jpg', stack: true },
   { id: 'th-lincoln1860', name: 'Lincoln’s Rise & the Election of 1860', phase: 'causes', type: 'POLITICS', size: 's', date: '1858–1861', year: 1860, m: 11, hook: 'A prairie lawyer wins; the South walks out.', href: '/war-civil-war/off-the-battlefield/lincolns-rise', short: 'Lincoln’s Rise', img: '/war-img/lincolns-rise-hero-cooper-union-brady.jpg' },
   { id: 'th-twogov', name: 'Two Governments', phase: 'causes', type: 'POLITICS', size: 'm', date: '1861', year: 1860, m: 12, hook: 'Two presidents, two constitutions, one cracking Union.', href: '/war-civil-war/off-the-battlefield/two-governments', short: 'Two Governments', img: '/war-img/two-governments-hero.jpg', stack: true },
@@ -112,7 +112,7 @@ export const THEMES: Theme[] = [
   { id: 'th-homefront', name: 'The Home Front', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1861–1865', year: 1862, m: 7, hook: 'Draft riots, bread riots, and the war the civilians fought.', href: '/war-civil-war/off-the-battlefield/home-front', short: 'The Home Front', img: '/war-img/home-front-hero-asylum-burning.jpg', stack: true },
   { id: 'th-medicine', name: 'Medicine & Disease', phase: 'hard', type: 'SOCIETY', size: 's', date: '1861–1865', year: 1862, m: 8, hook: 'Two soldiers died of disease for every one killed in battle.', href: '/war-civil-war/off-the-battlefield/medicine', short: 'Medicine', img: '/war-img/medicine-hero-field-hospital.jpg', stack: true },
 
-  { id: 'th-emancipation', name: 'The Emancipation Proclamation', phase: 'turning', type: 'POLITICS', size: 'm', date: 'Jan 1863', year: 1863, m: 1, hook: 'Lincoln changes what the entire war is for.', href: '/war-civil-war/off-the-battlefield/emancipation', short: 'Emancipation', img: '/war-img/emancipation-hero.jpg', stack: true },
+  { id: 'th-emancipation', name: 'The Emancipation Proclamation', phase: 'turning', type: 'POLITICS', size: 'm', date: 'Jan 1863', year: 1863, m: 1, hook: 'Lincoln changes what the entire war is for.', href: '/war-civil-war/off-the-battlefield/emancipation', short: 'Emancipation', img: '/war-img/emancipation-hero-ls.jpg', stack: true },
   { id: 'th-usct', name: 'Freedom Seekers & the USCT', phase: 'turning', type: 'SOCIETY', size: 'l', date: '1861–1865', year: 1863, m: 5, hook: 'The enslaved freed themselves — then put on Union blue.', href: '/war-civil-war/off-the-battlefield/usct', short: 'Freedom & the USCT', img: '/war-img/usct-hero-soldier-family.jpg', stack: true },
 
   { id: 'th-prisons', name: 'Andersonville & the Prisons', phase: 'total', type: 'AFTERMATH', size: 'm', date: '1864–1865', year: 1864, m: 2, hook: 'Andersonville, and the prison camps where thousands starved.', href: '/war-civil-war/off-the-battlefield/prisons', short: 'Andersonville', img: '/war-img/prisons-hero-issuing-rations.jpg', stack: true },
@@ -153,18 +153,18 @@ export const theatreSpine = (t: Theatre) =>
 // ── Home spine: themes + all majors, phase-tagged, chronologically sorted ──
 export interface SpineNode {
   id: string; phase: string; type: SpineType; size: Size
-  name: string; date: string; sub?: string; hook?: string; href?: string; img?: string; stack?: boolean
+  name: string; short?: string; date: string; sub?: string; hook?: string; href?: string; img?: string; stack?: boolean
 }
 const phaseOfYear = (y: number): string =>
   y <= 1860 ? 'causes' : y === 1861 ? 'outbreak' : y === 1862 ? 'hard' : y === 1863 ? 'turning' : 'total'
 
 export const SPINE_NODES: SpineNode[] = [
   ...THEMES.map<SpineNode & { _s: number }>(t => ({
-    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, date: t.date, hook: t.hook, href: t.href, img: t.img, stack: t.stack, _s: t.year * 100 + t.m,
+    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, short: t.short, date: t.date, hook: t.hook, href: t.href, img: t.img, stack: t.stack, _s: t.year * 100 + t.m,
   })),
   ...MAJORS.map<SpineNode & { _s: number }>(b => ({
-    id: b.id, phase: phaseOfYear(b.year), type: 'BATTLE', size: b.size, name: b.name,
-    date: `${b.mo} ${b.year}`, sub: `${b.place} · ${THEATRE_LABEL[b.theatre]}`, href: b.href, img: b.img, _s: b.year * 100 + b.m,
+    id: b.id, phase: phaseOfYear(b.year), type: 'BATTLE', size: b.size, name: b.name, short: b.short, hook: b.hook,
+    date: `${b.mo} ${b.year}`, sub: `${b.place} · ${THEATRE_LABEL[b.theatre]}`, href: b.href, img: b.img, stack: true, _s: b.year * 100 + b.m,
   })),
 ]
   .sort((a, b) => a._s - b._s)

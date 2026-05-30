@@ -7,7 +7,7 @@ import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)))
-const SLUGS = ['prisons', 'guerrilla-war', 'war-within-north', 'assassination', 'reckoning']
+const SLUGS = ['slavery-cotton', 'freedom-struggle', 'emancipation']
 const OUT = `${ROOT}/public/war-img`
 const UA = 'StuffHappenedBot/1.0 (https://stuffhappened.com; civil-war history reader; contact admin@stuffhappened.com)'
 const sleep = (ms) => new Promise(r => setTimeout(r, ms))
@@ -71,7 +71,7 @@ async function fetchTo(url, dest) {
 
 const all = []
 for (const slug of SLUGS) {
-  const md = readFileSync(`${ROOT}/audits/war-pipeline/${slug}-images.md`, 'utf8')
+  const md = readFileSync(`${ROOT}/audits/war-pipeline/${slug}-images-add.md`, 'utf8')
   for (const p of pairs(md)) all.push({ slug, ...p })
 }
 console.log(`Parsed ${all.length} images across ${SLUGS.length} manifests.\n`)
