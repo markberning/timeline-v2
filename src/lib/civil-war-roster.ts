@@ -74,6 +74,8 @@ export const MAJORS: Major[] = [
 export interface Theme {
   id: string; name: string; phase: string; type: SpineType; size: Size
   date: string; year: number; m: number; hook: string; href?: string; short?: string; img?: string
+  // hero is landscape → render the spine card image-on-top / text-under (stacked)
+  stack?: boolean
 }
 
 // The non-battle/theme sections, placed on the home spine by phase. Roster expanded
@@ -100,9 +102,9 @@ export interface Theme {
 export const THEMES: Theme[] = [
   { id: 'th-slavery', name: 'Slavery & the Cotton Economy', phase: 'causes', type: 'CAUSE', size: 'l', date: '1793–1860', year: 1850, m: 1, hook: 'King Cotton, the domestic slave trade, and a Southern economy built on human bondage.', href: '/war-civil-war/off-the-battlefield/slavery-cotton', short: 'Slavery & Cotton', img: '/war-img/slavery-cotton-hero.jpg' },
   { id: 'th-freedomstruggle', name: 'The Freedom Struggle', phase: 'causes', type: 'SOCIETY', size: 'l', date: '1829–1861', year: 1850, m: 9, hook: 'David Walker, Frederick Douglass, Harriet Tubman and the Underground Railroad — Black-led abolition, the slave narratives, and the Fugitive Slave Act that turned the North against slavery.', href: '/war-civil-war/off-the-battlefield/freedom-struggle', short: 'The Freedom Struggle', img: '/war-img/freedom-struggle-hero.jpg' },
-  { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1846–1860', year: 1855, m: 1, hook: 'The Mexican War handed the country half a continent to fight over, and the Missouri Compromise line that had kept the peace since 1820 couldn’t hold it — then Uncle Tom’s Cabin, Kansas-Nebraska and a new Republican Party, Bleeding Kansas, Dred Scott, and John Brown drove it to the cliff edge.', href: '/war-civil-war/off-the-battlefield/road-to-war', short: 'Road to War', img: '/war-img/road-to-war-hero-reynolds-map.jpg' },
+  { id: 'th-road', name: 'The Road to War', phase: 'causes', type: 'CAUSE', size: 'l', date: '1846–1860', year: 1855, m: 1, hook: 'The Mexican War handed the country half a continent to fight over, and the Missouri Compromise line that had kept the peace since 1820 couldn’t hold it — then Uncle Tom’s Cabin, Kansas-Nebraska and a new Republican Party, Bleeding Kansas, Dred Scott, and John Brown drove it to the cliff edge.', href: '/war-civil-war/off-the-battlefield/road-to-war', short: 'Road to War', img: '/war-img/road-to-war-hero-reynolds-map.jpg', stack: true },
   { id: 'th-lincoln1860', name: 'Lincoln’s Rise & the Election of 1860', phase: 'causes', type: 'POLITICS', size: 'l', date: '1858–1861', year: 1860, m: 11, hook: 'How a one-term prairie lawyer who had lost a Senate race became president without a single Southern vote — the 1858 debates, Cooper Union, the four-way election of 1860, and the secession winter it set off.', href: '/war-civil-war/off-the-battlefield/lincolns-rise', short: 'Lincoln’s Rise', img: '/war-img/lincolns-rise-hero-cooper-union-brady.jpg' },
-  { id: 'th-twogov', name: 'Two Governments', phase: 'causes', type: 'POLITICS', size: 'm', date: '1861', year: 1860, m: 12, hook: 'Lincoln versus Davis — and the desperate fight to keep the border states in the Union.', href: '/war-civil-war/off-the-battlefield/two-governments', short: 'Two Governments', img: '/war-img/two-governments-hero.jpg' },
+  { id: 'th-twogov', name: 'Two Governments', phase: 'causes', type: 'POLITICS', size: 'm', date: '1861', year: 1860, m: 12, hook: 'Lincoln versus Davis — and the desperate fight to keep the border states in the Union.', href: '/war-civil-war/off-the-battlefield/two-governments', short: 'Two Governments', img: '/war-img/two-governments-hero.jpg', stack: true },
 
   { id: 'th-diplomacy', name: 'Britain, France & Cotton', phase: 'hard', type: 'POLITICS', size: 'm', date: '1861–1863', year: 1862, m: 2, hook: 'Cotton diplomacy, the Trent Affair, and the foreign recognition the South never got.' },
   { id: 'th-ironclads', name: 'Ironclads & the Blockade', phase: 'hard', type: 'SOCIETY', size: 'm', date: '1862', year: 1862, m: 3, hook: 'The Anaconda tightens; the Monitor and the Virginia change naval war overnight.' },
@@ -151,14 +153,14 @@ export const theatreSpine = (t: Theatre) =>
 // ── Home spine: themes + all majors, phase-tagged, chronologically sorted ──
 export interface SpineNode {
   id: string; phase: string; type: SpineType; size: Size
-  name: string; date: string; sub?: string; hook?: string; href?: string; img?: string
+  name: string; date: string; sub?: string; hook?: string; href?: string; img?: string; stack?: boolean
 }
 const phaseOfYear = (y: number): string =>
   y <= 1860 ? 'causes' : y === 1861 ? 'outbreak' : y === 1862 ? 'hard' : y === 1863 ? 'turning' : 'total'
 
 export const SPINE_NODES: SpineNode[] = [
   ...THEMES.map<SpineNode & { _s: number }>(t => ({
-    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, date: t.date, hook: t.hook, href: t.href, img: t.img, _s: t.year * 100 + t.m,
+    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, date: t.date, hook: t.hook, href: t.href, img: t.img, stack: t.stack, _s: t.year * 100 + t.m,
   })),
   ...MAJORS.map<SpineNode & { _s: number }>(b => ({
     id: b.id, phase: phaseOfYear(b.year), type: 'BATTLE', size: b.size, name: b.name,
