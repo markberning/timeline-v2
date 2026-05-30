@@ -13,8 +13,22 @@ reveal what actually breaks — before building any other war. `kind: 'war'`.
 > figures from `<slug>-figures.json` produced by `scripts/_parse-img-manifests.mjs`;
 > images downloaded serially by `scripts/_dl-war-images2.mjs`). Source + gate records
 > per section live in `audits/war-pipeline/<slug>-*`. The dated "N of 17 still Soon"
-> notes below are historical progress, now superseded. Next war work: the battle
-> layer (Major/Mid tiers) — NOT the themes. Parked theme ideas (Confederate
+> notes below are historical progress, now superseded.
+
+> **STATUS 2026-05-30 — the BATTLE LAYER has begun (6 CWSAC Class-A battles built +
+> committed, NOT deployed).** Built through the full 5-gate pipeline, each with a
+> dossier + multi-section reader + tactical map + PD hero + commander headshots, and
+> wired into `civil-war-roster.ts` (href/img/hook → they light up the theatre spines,
+> the breadcrumb jump list, and the ACW home timeline/dossier views):
+> **Batch 1 (the 1861 opening, commit `d6c68821`):** Fort Sumter (naval), First Bull
+> Run (eastern), Wilson's Creek (trans-Miss).
+> **Batch 2 (early 1862, the West, commit `26c45db3`):** Fort Donelson (western), Pea
+> Ridge (trans-Miss), Glorieta Pass (trans-Miss).
+> With Antietam + Gettysburg (built earlier), **8 of 46 Class-A majors are now done.**
+> NEW LOCKED PIPELINE RULE this run: **NAME THE CAUSE** — every Civil War section must
+> name slavery as the cause in its own prose; the framing gate auto-fails omission (all
+> 6 drafts tripped it). See `audits/war-content-pipeline.md` + `memory/feedback_name_the_cause`.
+> Next war work: continue the Major-battle tail. Parked theme ideas (Confederate
 > home-front/war-finance; Native-Americans / Indian Territory + 1862 Dakota War) are
 > still optional adds, never started.
 
