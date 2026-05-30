@@ -14,11 +14,19 @@ batch-deployed every ~3 civs. Autonomous (feedback_sweep_autonomy).
    byte cache in `.image-cache/` (gitignored; cross-civ reuse — shared artifacts don't
    re-download), `--delay` between byte fetches, circuit-breaker on 4 consecutive 429s
    (exits 2, writes a PARTIAL manifest, re-run when the limit clears — cache makes it
-   cheap). Emits `/tmp/<tl>-photos/manifest.json` (per-event local candidate files).
+   cheap). **Events whose wiki page yields <2 usable images get a Commons file-search
+   augment by label** (`--min`, default 2) — this surfaces representative artifacts the
+   page didn't link, so far fewer events fall to the slow serial gap-fill. Emits
+   `/tmp/<tl>-photos/manifest.json` (per-event local candidate files).
 3. **Photos pick — vision agent(s), NO network.** Read the manifest's local files,
    pick the best per event, write `commonsFile` + caption. Cannot 429 — zero requests.
-Then `node scripts/sweep-apply.mjs <tl>` (auto-discovers chapters, reports any
-gap/`todo` so a stall is never lost) → `npm run parse` → G14/G15/fix-links → commit.
+   **Pick DISTINCT images — never reuse one commonsFile across events** (a representative
+   site/artifact photo is fine, but give each event its own; fix-links --strict blocks
+   reuse on swept civs). Telling pick agents this up front avoids a whole de-dup pass.
+Then `node scripts/sweep-apply.mjs <tl>` (auto-discovers chapters; reports any gap/`todo`
+so a stall is never lost; **flags any DUPLICATE photo deterministically — catch reuse
+here, before the gate, not from a failed fix-links after a full parse**) →
+`npm run parse` → G14/G15/fix-links → commit.
 Full committed chain: `sweep-bundle.mjs` → card agents → `sweep-photos.mjs` →
 vision pick → `sweep-apply.mjs` (no more `/tmp` scratch — reproducible end to end).
 Why it can't recur: the 8-wide fan-out (phase 1) never touches the rate-limited host;

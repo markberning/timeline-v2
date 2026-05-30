@@ -92,7 +92,26 @@ if (!DRY) {
   fs.writeFileSync(rejPath, JSON.stringify(rej, null, 2) + '\n')
 }
 
+// ---- duplicate-photo detector ----
+// fix-links --strict blocks ship when one image is reused across events. Catch it
+// HERE (deterministic, instant) so a de-dup pass is targeted up front, not
+// discovered by the gate after a full parse. Pick agents should avoid this in the
+// first place (the brief says "distinct images per event"); this is the backstop.
+const photoUsers = new Map()  // commonsFile → [eventId]
+for (const e of all) if (e.commonsFile) {
+  const f = e.commonsFile.replace(/^File:/i, '').trim()
+  if (!photoUsers.has(f)) photoUsers.set(f, [])
+  photoUsers.get(f).push(e.id)
+}
+const dupes = [...photoUsers.entries()].filter(([, ids]) => ids.length > 1)
+
 console.log(`${DRY ? '[dry] would apply' : 'applied'}: ${nCards} cards · ${nOver} photos · ${nReject} rejections · ${nTodo} photos-pending · ${nCap} captions`)
+if (dupes.length) {
+  const nEvents = dupes.reduce((s, [, ids]) => s + ids.length - 1, 0)
+  console.log(`⚠ DUPLICATE photos: ${dupes.length} image(s) reused across ${nEvents + dupes.length} events. NEW reuse blocks fix-links --strict on swept/new civs (pre-existing reuse is baseline-grandfathered) — de-dup before shipping a swept civ:`)
+  for (const [f, ids] of dupes.slice(0, 20)) console.log(`    ${f}  →  ${ids.join(', ')}`)
+  if (dupes.length > 20) console.log(`    …and ${dupes.length - 20} more`)
+}
 if (gaps.length) console.log(`⚠ MISSING chapter outputs (gaps in 1..${maxCh}): ${gaps.join(', ')} — re-run those before shipping`)
 if (nTodo) console.log(`⚠ ${nTodo} photo(s) marked todo/pending (rate-limited?) — re-run sweep-photos + pick, then re-apply`)
 if (missing.length) console.log(`⚠ card eventIds not found in reference-data: ${missing.join(', ')}`)

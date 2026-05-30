@@ -22,6 +22,8 @@
  *     --delay <ms>      pause between Wikimedia byte downloads (default 1200)
  *     --width <px>      thumbnail width to fetch (default 600)
  *     --max <n>         max candidates kept per event (default 5)
+ *     --min <n>         events with fewer than this many page candidates get a
+ *                       Commons file-search augment (default 2) — shrinks gap-fill
  *     --all             gather for ALL events, not just those in the card outputs
  *
  * Output: /tmp/<tlId>-photos/manifest.json
@@ -46,6 +48,7 @@ const CACHE_DIR = join(ROOT, opt('cache', '.image-cache'))
 const DELAY_MS = Number(opt('delay', 1200))
 const WIDTH = Number(opt('width', 600))
 const MAX_PER_EVENT = Number(opt('max', 5))
+const MIN_CANDIDATES = Number(opt('min', 2))  // events below this get a Commons-search augment
 const GATHER_ALL = flag('all')
 const PHOTOS_DIR = `/tmp/${tl}-photos`
 
@@ -148,8 +151,8 @@ for (let i = 0; i < slugs.length; i += 50) {
   await sleep(DELAY_MS / 2)
 }
 
-// ---- assemble per-event candidate list (agent-named first, then lead, then page images) ----
-const eventCands = new Map()
+// ---- assemble preliminary per-event candidate list (agent-named first, then lead, then page images) ----
+const prelim = new Map()  // eventId → { list, seen }
 for (const e of targets) {
   const seen = new Set(), list = []
   const push = (f, source) => { const n = norm(f); if (!n || seen.has(n.toLowerCase()) || isJunk(n)) return; seen.add(n.toLowerCase()); list.push({ file: `File:${n}`, source }) }
@@ -160,8 +163,39 @@ for (const e of targets) {
   for (const slug of [e.wikiSlug, e.imageWikiSlug].filter(Boolean)) {
     for (const f of pageImages.get(slug) || []) push(f, 'page')
   }
-  eventCands.set(e.id, list.slice(0, MAX_PER_EVENT))
+  prelim.set(e.id, { list, seen })
 }
+
+// ---- augment low-candidate events with a Commons file-search by label (paced) ----
+// Events whose wiki page yields < MIN_CANDIDATES usable images (generic/no slug)
+// are exactly the ones that used to fall to the slow serial gap-fill. A Commons
+// file-namespace search by the event label surfaces representative artifacts the
+// page didn't link, shrinking the gap-fill set. One paced request per low event.
+let searched = 0
+for (const e of targets) {
+  const pc = prelim.get(e.id)
+  if (pc.list.length >= MIN_CANDIDATES) continue
+  const q = (e.label || e.id).replace(/[—–_-]+/g, ' ').replace(/\s+/g, ' ').trim()
+  if (!q) continue
+  const url = `https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=8&gsrsearch=${encodeURIComponent(q)}`
+  const data = await backoffFetch(url, 'json')
+  searched++
+  await sleep(DELAY_MS / 2)
+  if (!data) continue
+  const hits = Object.values(data?.query?.pages || {}).sort((a, b) => (a.index ?? 99) - (b.index ?? 99))
+  for (const h of hits) {
+    if (!/^File:/i.test(h.title)) continue
+    const n = norm(h.title)
+    if (!n || pc.seen.has(n.toLowerCase()) || isJunk(n)) continue
+    pc.seen.add(n.toLowerCase())
+    pc.list.push({ file: `File:${n}`, source: 'search' })
+  }
+}
+if (searched) console.log(`  Commons search augmented ${searched} low-candidate event(s)`)
+
+// ---- finalize candidate lists (cap per event) ----
+const eventCands = new Map()
+for (const e of targets) eventCands.set(e.id, prelim.get(e.id).list.slice(0, MAX_PER_EVENT))
 
 // ---- resolve thumb URLs (batched imageinfo, 50/req) ----
 const allFiles = [...new Set([...eventCands.values()].flat().map(c => c.file))]
