@@ -3,7 +3,7 @@
 // <slug>/page.tsx). Prose ships VERBATIM — no model rewriting. Figures from the
 // verified PD manifest are injected at editorial anchors (after/before a heading, or
 // replacing a [FIGURE] marker). Run: node scripts/_build-war-themes.mjs
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -88,6 +88,50 @@ const CONFIGS = [
       'A clear majority, a divided country': [LR.game],
       'Secession winter': [LR.buchanan],
     },
+  },
+  // ── Wave-2 themes (figures hydrated from <slug>-figures.json via the manifest
+  //    parser; hero image + credit + per-figure caption/credit come from the JSON).
+  {
+    slug: 'cotton-diplomacy', battleId: 'th-diplomacy', battleName: 'Britain, France & Cotton', fromJson: true,
+    eyebrow: `The war for Europe's blessing`,
+    hero: { palette: ['#2a3438', '#1c2426', '#0a0c0d'], focus: 'center 40%', scale: 1.1 },
+    end: { kicker: `No foreign friend ever came`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `Hampton Roads`, title: `Ironclads & the Blockade`, body: `Diplomacy fought over the blockade in drawing rooms; out on the water, the blockade was real ships choking real ports — and the South's answer to it, an iron monster called the *Virginia*, was about to make every wooden navy on earth obsolete in a single afternoon.` },
+  },
+  {
+    slug: 'ironclads', battleId: 'th-ironclads', battleName: 'Ironclads & the Blockade', fromJson: true,
+    eyebrow: `The day wooden navies died`,
+    hero: { palette: ['#3a2c1e', '#23201a', '#0a0806'], focus: 'center 42%', scale: 1.08 },
+    end: { kicker: `Naval war, remade overnight`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the rail and the wire`, title: `The New Way of War`, body: `Iron ships were only one front of a wider revolution. On land, the rifled musket, the railroad, and the telegraph were remaking how armies marched, supplied, and killed — and the old tactics hadn't caught up.` },
+  },
+  {
+    slug: 'new-way-of-war', battleId: 'th-tech', battleName: 'The New Way of War', fromJson: true,
+    eyebrow: `When the tools outran the tactics`,
+    hero: { palette: ['#4a3a26', '#2c2418', '#0d0a06'], focus: 'center 55%', scale: 1.06 },
+    end: { kicker: `A preview of the century to come`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the field hospital`, title: `Medicine & Disease`, body: `New weapons made new wounds faster than anyone could heal them — and behind the firing line, the war's quietest killer wasn't the rifle at all. Two men died of disease for every one shot.` },
+  },
+  {
+    slug: 'home-front', battleId: 'th-homefront', battleName: 'The Home Front', fromJson: true,
+    eyebrow: `The war the civilians fought`,
+    hero: { palette: ['#2c2a26', '#1c1a17', '#0a0908'], focus: 'center 42%', scale: 1.1 },
+    end: { kicker: `Rich man's war, poor man's fight`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `the contraband camps`, title: `Freedom Seekers & the USCT`, body: `While white families North and South argued over who had to fight, four million enslaved people were settling the question for themselves — walking off the plantations toward the Union lines, and turning a war for union into a war for freedom.` },
+  },
+  {
+    slug: 'medicine', battleId: 'th-medicine', battleName: 'Medicine & Disease', fromJson: true,
+    eyebrow: `The war's quietest killer`,
+    hero: { palette: ['#2a2826', '#1a1917', '#080808'], focus: 'center 50%', scale: 1.06 },
+    end: { kicker: `Two died of sickness for every one shot`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `behind the lines`, title: `The Home Front`, body: `The same war that filled the hospitals emptied the farms and the shops. Back home, two societies were mobilizing everything they had — and the burden fell hardest on the people with the least.` },
+  },
+  {
+    slug: 'usct', battleId: 'th-usct', battleName: 'Freedom Seekers & the USCT', fromJson: true,
+    eyebrow: `They freed themselves, then fought`,
+    hero: { palette: ['#2e2616', '#1e1a12', '#0a0806'], focus: 'center 32%', scale: 1.12 },
+    end: { kicker: `The war's meaning, changed for good`, label: `Back to Off the Battlefield` },
+    meanwhile: { region: `Washington`, title: `The Emancipation Proclamation`, body: `The enslaved forced the question onto the battlefield; Lincoln answered it from his desk. On January 1, 1863, the Emancipation Proclamation changed what the entire war was for — and opened the door for Black men to fight for their own freedom.` },
   },
   {
     slug: 'two-governments', battleId: 'th-twogov', battleName: 'Two Governments',
@@ -220,5 +264,21 @@ export default function ${comp}() {
   console.log(`${cfg.slug}: ${out.length} blocks, ${figCount} figures, ~${proseWords} prose words -> ${dest.replace(ROOT + '/', '')}`)
 }
 
-for (const c of CONFIGS) build(c)
+// Hydrate fromJson configs: pull the hero image+credit and per-figure caption/credit
+// from <slug>-figures.json (produced by scripts/_parse-img-manifests.mjs), and build
+// the afterHeading/beforeHeading placement maps the figure injector expects.
+function hydrate(cfg) {
+  const p = `${ROOT}/audits/war-pipeline/${cfg.slug}-figures.json`
+  if (!existsSync(p)) throw new Error(`missing figures JSON for ${cfg.slug} — run scripts/_parse-img-manifests.mjs`)
+  const { hero, figs } = JSON.parse(readFileSync(p, 'utf8'))
+  cfg.hero = { ...cfg.hero, image: `/war-img/${hero.file}`, credit: hero.credit }
+  cfg.afterHeading = {}; cfg.beforeHeading = {}; cfg.markers = []
+  for (const f of figs) {
+    const bucket = f.type === 'before' ? cfg.beforeHeading : cfg.afterHeading
+    ;(bucket[f.heading] ||= []).push({ file: f.file, cap: f.caption, credit: f.credit })
+  }
+  return cfg
+}
+
+for (const c of CONFIGS) build(c.fromJson ? hydrate(c) : c)
 console.log('done')
