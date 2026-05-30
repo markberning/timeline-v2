@@ -49,282 +49,471 @@
       "id": "evt-proto-elamite-script",
       "label": "Proto-Elamite Script",
       "year": -3100,
-      "description": "The Proto-Elamite script appeared almost simultaneously with early Sumerian writing. Used for administrative records, it spread across the Iranian plateau but remains undeciphered.",
+      "description": "The Proto-Elamite script — one of the world's oldest writing systems, scratched onto clay tablets around 3100 BCE for bookkeeping, that spread across the Iranian plateau and, frustratingly, has never been cracked.",
       "wikiSlug": "Proto-Elamite_script",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It appeared at almost the same moment as the first Sumerian writing next door, suggesting the two cultures lit the spark of literacy in dialogue rather than in isolation. The tablets are overwhelmingly accountants' records — tallies of grain, livestock, and workers — not poetry or prayer, a reminder that writing was invented to count things before it was ever used to tell stories. The reason it stays mute is brutal for scholars: there's no bilingual key like the Rosetta Stone, and the language behind the signs may be one we simply have no other trace of."
+        }
+      ],
+      "commonsFile": "P1180316 Louvre Suse III tablette économique Sb15200 rwk.jpg"
     },
     {
       "id": "evt-anshan-city",
       "label": "City of Anshan",
       "year": -2700,
-      "description": "Anshan (modern Tal-e Malyan) in the highlands of Fars served as Elam's second capital, controlling mountain trade routes and highland resources.",
+      "description": "Anshan (modern Tal-e Malyan) was Elam's highland capital, a huge walled city up in the cold mountain basins of Fars, about 160 miles (260 km) east of Susa. For centuries Elamite kings styled themselves rulers \"of Anshan and Susa.\"",
       "wikiSlug": "Anshan_(Persia)",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Anshan was enormous — its walled area swelled to roughly 500 acres by 2700 BCE, putting it in the same size class as the biggest Sumerian cities while sitting a world away behind the Zagros ridges. Its location was actually lost to modern scholars: they knew the name \"Anshan\" from Mesopotamian and later Persian inscriptions but had no idea where it was until 1971, when archaeologists digging the mound of Tal-e Malyan found tablets that named the city. The highland world it ruled produced masterworks of early metal craft, like the famous Proto-Elamite silver bull statuettes that survive from this era."
+        }
+      ],
+      "commonsFile": "Proto-Elamite kneeling bull holding a spouted vessel.jpg"
     },
     {
       "id": "evt-elamite-trade-network",
       "label": "Elamite Trade Networks",
       "year": -2700,
-      "description": "Elamite merchants traded tin, copper, lapis lazuli, and other highland resources with Mesopotamia, serving as intermediaries connecting the Iranian plateau to the Mesopotamian lowlands.",
+      "description": "Elamite merchants were the middlemen of the Bronze Age, moving tin, copper, lapis, and carnelian between the Iranian highlands and the cities of southern Iraq. By 2500 BCE they show up in Mesopotamian records as the suppliers temples couldn't do without.",
       "wikiSlug": "Elam",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This trade is why Elam and Mesopotamia could never truly cut each other off, even when at war: Mesopotamia needed the metals and stones only Elamite traders could deliver, and Elam needed Mesopotamian grain and finished goods in return. The same network stocked the dazzling treasures of the Royal Tombs of Ur, whose Afghan lapis and Indus carnelian were routed through the trade web Elam sat on top of. Burials at Susa contain necklaces assembling stones from the Indus, Central Asia, and northeastern Iran on a single string — a whole trade map worn around one neck."
+        }
+      ],
+      "commonsFile": "Jewelry with components from the Indus, Central Asia and Northern-eastern Iran found in Susa dated to 2600-1700 BCE, SB 13099.jpg"
     },
     {
       "id": "evt-awan-dynasty",
       "label": "Dynasty of Awan",
       "year": -2600,
       "endYear": -2100,
-      "description": "The Dynasty of Awan was the first known Elamite ruling house, maintaining independence from Akkad and Sumer through a combination of diplomacy and mountain warfare.",
+      "description": "The Dynasty of Awan was the first Elamite royal house we can name — twelve kings, ending with Puzur-Inshushinak — who held their highland kingdom together through a mix of treaty-making and mountain warfare while Sumer and Akkad rose and fell on the plain below.",
       "wikiSlug": "Awan_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We know the line mostly from a single tablet: a king-list copied out at Susa centuries later that names twelve rulers of Awan (and twelve of the following Shimashki dynasty) in order. The names are mangled and several are barely legible, so much of the early dynasty is little more than a row of half-readable syllables — historians treat most of them as uncertain. \"Awan\" itself was a place whose exact location is still debated, which neatly captures how thin the ground is: Elam's first dynasty is real, but it reaches us through the winners' paperwork and one battered list."
+        }
+      ],
+      "commonsFile": "Dynastic list Awan Siwashi Louvre Sb17729.jpg"
     },
     {
       "id": "evt-susa-founded",
       "label": "City of Susa",
       "year": -2592,
-      "description": "Susa, in the lowlands of Khuzestan, was founded as early as 4200 BCE and became the primary Elamite capital — one of the world's oldest continuously inhabited cities.",
+      "description": "Susa was the great lowland city of Elam, sitting on the hot Khuzestan plain where three rivers and the Zagros foothills meet. Settled around 4200 BCE, it is one of the oldest cities humans have never stopped living in.",
       "wikiSlug": "Susa",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Susa's first claim to fame is its pottery: thin, elegant beakers and dishes painted with bold geometric birds, ibexes, and hatched diamonds around 4000 BCE, now a signature of the Near Eastern Copper Age and a star of the Louvre. The city sat on so good a spot that it kept being rebuilt for over four thousand years, surviving repeated sackings by Mesopotamian and Assyrian armies who would declare it destroyed and then leave. Its acropolis mound is so deep with layered ruins that a 19th-century French archaeological mission built an actual castle on top of it to dig in safely."
+        }
+      ],
+      "commonsFile": "Iran époque d'Obeid Sèvres.jpg"
     },
     {
       "id": "evt-inshushinak-worship",
       "label": "Cult of Inshushinak",
       "year": -2500,
-      "description": "Inshushinak, 'Lord of Susa,' was the supreme Elamite deity and judge of the dead. His temple complex at Susa was the religious heart of the Elamite world.",
+      "description": "Inshushinak — the name means \"Lord of Susa\" — was the patron god of the city and one of the chief gods of all Elam. He was a judge and an underworld figure who, Elamite texts suggest, received the soul of a king at his death.",
       "wikiSlug": "Inshushinak",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His cult is one of the longest-running religious traditions in the entire region: documented from around 2500 BCE, still going at the Assyrian sack of Susa in 646 BCE, and traceable into the Persian period around 500 BCE — well over two thousand years of worship of a single city god. Kings swore their oaths in his name and built and rebuilt his temple at the heart of Susa. Elamite worshippers left striking votive offerings to him, including bronze statuettes of praying figures finished with gilded hands."
+        }
+      ],
+      "commonsFile": "God golden hand-Sb 2823-IMG 0815-gradient.jpg"
     },
     {
       "id": "evt-highland-trade-routes",
       "label": "Iranian Highland Trade Routes",
       "year": -2500,
-      "description": "Elam controlled critical trade routes across the Zagros Mountains, connecting Mesopotamia to the tin and lapis lazuli sources of Afghanistan and Central Asia.",
+      "description": "Elam straddled the trade routes crossing the Zagros Mountains, the overland link carrying tin, lapis lazuli, and other treasures from Afghanistan and Central Asia down to resource-poor Mesopotamia. Taxing those caravans was a backbone of Elamite wealth.",
       "wikiSlug": "Elam",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tin was the prize: you cannot make bronze without it, and the main ancient source was Badakhshan in northern Afghanistan, reached either overland through Elam or by sea via an Indus-Valley outpost called Shortughai. The deep-blue stone lapis lazuli came from the same few Afghan mountains and had to be carried hundreds of miles west. The traffic ran both directions and got specialized fast — by around 2100 BCE the route supported bilingual Sumerian-Elamite glossaries, the earliest surviving evidence of professional translators working between two ancient languages."
+        }
+      ],
+      "commonsFile": "Indus carnelian beads with white design imported to Susa in 2600-1700 BCE LOUVRE Sb 13099.jpg"
     },
     {
       "id": "evt-elamite-akkadian-treaty",
       "label": "Elamite-Akkadian Treaty",
       "year": -2250,
-      "description": "A treaty between Elam and the Akkadian Empire, written in Elamite, is one of the oldest known international treaties — evidence of Elam's recognized sovereignty.",
+      "description": "A clay tablet from Susa, now in the Louvre, records a sworn pact between Akkad and the Elamite king Khita — the oldest surviving full diplomatic treaty in any language anywhere, nearly a thousand years older than the famous Egypt–Hittite peace.",
       "wikiSlug": "Elam",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The text is bilingual in spirit: it was composed in the Elamite language but written down in Akkadian cuneiform, the prestige diplomatic script of the day, which is why it doubles as the first written record of Elamite ever found. The Elamite king binds himself with the line \"the enemy of Naram-Sin is my enemy, the friend of Naram-Sin is my friend,\" and the deal reportedly went beyond words — Khita is thought to have sent Elamite troops and married a daughter to the Akkadian king. Crucially, the oath calls Elamite gods as witnesses, which makes this brittle slab our earliest real list of the Elamite pantheon, religion preserved as the small print of a political contract."
+        }
+      ],
+      "commonsFile": "2015-12 Traité d'alliance conclu entre Naram-Sin et Khita Sb 8833.jpg"
     },
     {
       "id": "evt-naram-sin-conquest",
       "label": "Naram-Sin Conquers Elam",
       "year": -2240,
-      "description": "The Akkadian king Naram-Sin temporarily conquered Elam, but Elamite resistance continued. The Stele of Naram-Sin may depict this campaign into the Zagros Mountains.",
+      "description": "Around 2240 BCE the Akkadian king Naram-Sin (Sargon's grandson) campaigned into the Zagros against Elam — and commemorated his mountain victories on the pink sandstone Victory Stele that, ironically, an Elamite king would later steal back to Susa.",
       "wikiSlug": "Naram-Sin_of_Akkad",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stele was a genuine first in art history: Naram-Sin is shown wearing a horned helmet — the badge of a god — making him the earliest Mesopotamian king to portray himself as divine, towering over his troops as he climbs a mountain across the bodies of fallen Lullubi highlanders. The deeper irony is the object's afterlife: more than a thousand years later Shutruk-Nahhunte hauled this monument to a Zagros conquest back over the Zagros to Susa, then carved his own Elamite boast onto it — the conquered region claiming the conqueror's trophy."
+        }
+      ],
+      "commonsFile": "Stèle de Naram-Sin - Musée du Louvre Antiquités orientales SB 4 ; AS 6065.jpg"
     },
     {
       "id": "evt-elamite-linear-script",
       "label": "Linear Elamite Script",
       "year": -2200,
-      "description": "Linear Elamite, a script distinct from both Proto-Elamite and cuneiform, was recently partially deciphered in 2022 after a century of mystery — a breakthrough for understanding Elamite culture.",
+      "description": "Around the Akkadian period the Elamites built their own writing system from scratch — Linear Elamite, a clean set of roughly 80 signs read left to right, unrelated to Mesopotamian cuneiform. It stumped scholars for over a century until a partial decipherment was proposed in 2022.",
       "wikiSlug": "Linear_Elamite",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Unlike the older, tally-like Proto-Elamite, Linear Elamite looks like it actually spells out the Elamite language, mixing signs for sounds with signs for whole words. The crack came the same way Old Persian was unlocked two centuries earlier: a team led by François Desset spotted repeated sign-clusters at the start of inscriptions, guessed they were royal names like Puzur-Inshushinak, and worked outward from there — leaning on bilingual objects that carry the same dedication in both Akkadian and Linear Elamite. The reading is promising but not yet settled consensus; some specialists are waiting for full text translations before they sign off."
+        }
+      ],
+      "commonsFile": "Bilingual Linear Elamite Akkadian inscription of king Kutik-Inshushinak Table of the Lion Louvre Museum Sb 17.jpg"
     },
     {
       "id": "evt-elamite-glyptic",
       "label": "Elamite Cylinder Seals",
       "year": -2200,
-      "description": "Elamite cylinder seals developed a distinctive style featuring ritual scenes, mythological creatures, and serpent motifs that differed markedly from Mesopotamian conventions.",
+      "description": "Elamite carvers turned the cylinder seal — a small engraved stone rolled across wet clay to leave a signature picture — into something distinctly their own, crowding it with ritual scenes, mythological creatures, and snake imagery that looked nothing like the tidier Mesopotamian style.",
       "wikiSlug": "Elam",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A seal worked like a Bronze Age signature and a lock at once: roll it over a lump of clay sealing a jar or a door, and the unbroken impression proved nobody had tampered with it. The standout Elamite motif is a big bearded serpent and a god enthroned above a snake — a creature that turns up on seals from Susa and other Iranian sites and seems to carry a lost mythology, one scholars have linked to much later Iranian snake-demon legends. The scenes were carved in reverse, intaglio, so that only the rolled-out impression reads correctly — a tiny everyday object doubling as a window into Elamite belief."
+        }
+      ],
+      "commonsFile": "Susa III or Proto-Elamite cylinder seal 3150-2800 BC Mythological being on a boat Louvre Museum Sb 6379.jpg"
     },
     {
       "id": "evt-shimashki-dynasty",
       "label": "Shimashki Dynasty",
       "year": -2100,
       "endYear": -1900,
-      "description": "After destroying Ur, the Shimashki dynasty controlled a highland empire stretching across western Iran, raiding Mesopotamia and extracting tribute.",
+      "description": "The Shimashki were a highland Elamite royal line, probably named for a region in the southern Zagros mountains, who ruled Elam from roughly 2100 to 1900 BCE. They went from Ur's tribute-paying ally to the dynasty that sacked it.",
       "wikiSlug": "Shimashki_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "One historian, Touraj Daryaee, argues the king-list flatters them: Shimashki may have been less a tidy single state than a shifting alliance of Zagros peoples who happened to share a throne-name. They sealed their independence the moment Kindattu burned Ur, after which the temple of Inshushinak at Susa took in votive offerings tagged as 'spoils of Ur.' This is also where the Elamite habit of carrying off conquered cities' god-statues as war trophies begins — a practice that would explode in scale centuries later under Shutruk-Nahhunte."
+        }
+      ],
+      "commonsFile": "Nude man with weapons Ur III Shimashki dynasty 2000-1940 BC.jpg"
     },
     {
       "id": "evt-puzur-inshushinak",
       "label": "Puzur-Inshushinak",
       "year": -2100,
-      "description": "The last great king of the Awan dynasty, Puzur-Inshushinak briefly made Elam an imperial power, campaigning against Gutian and Sumerian rivals and commissioning monumental inscriptions in both Akkadian and the still-undeciphered Linear Elamite script. His inscriptions on votive statues from Susa are the richest surviving source of Linear Elamite text in existence.",
+      "description": "Puzur-Inshushinak (his name means \"Refuge is Inshushinak\") was the last great king of the Awan line. As Akkad collapsed around 2100 BCE he seized the moment, pushed into a fractured Mesopotamia, and briefly styled himself a rival emperor — leaving behind the richest stash of Linear Elamite text we have.",
       "wikiSlug": "Puzur-Inshushinak",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He borrowed Naram-Sin's own boast, \"king of the four quarters,\" for himself, a pointed bit of one-upmanship against the dying empire that had twice sacked his capital. His monuments hedge their bets linguistically: many carry the same dedication in both Akkadian (the international language) and the brand-new Linear Elamite (the homegrown one), a deliberate statement that Elam now had a script of its own. One of his most famous dedications survives on a white limestone statue of the goddess Narundi, inscribed on one flank in cuneiform and on the other in Linear Elamite."
+        }
+      ],
+      "commonsFile": "Puzur-Inshushinak, Governor of Susa, on the statue of the Goddess Narundi.jpg"
     },
     {
       "id": "evt-pinikir-goddess",
       "label": "Goddess Pinikir",
       "year": -2020,
-      "description": "Pinikir, the great mother goddess, was one of Elam's most important deities, associated with love and the heavens. Her worship influenced later Iranian religious traditions.",
+      "description": "Pinikir was an old Elamite sky goddess tied to the planet Venus and to love and fertility — the same turf the Mesopotamian Inanna/Ishtar covered. She is one of the oldest named deities we can track in Elam.",
       "wikiSlug": "Pinikir",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the Treaty of Naram-Sin around 2250 BCE she is listed first, ahead of some forty other gods — a hint that early Elamite religion gave a goddess the top seat. Over the second millennium her identity got tangled with Ishtar's through the heavy cultural traffic between Susa and Sumer, and she went on to a remarkable second life far from home: she became prominent in Hurrian religion in Anatolia, where bilingual ritual texts from the Hittite capital Hattusa simply equate her name with Ishtar's. Pinikir is probably the deepest, pre-Mesopotamian layer of the Elamite pantheon."
+        }
+      ],
+      "commonsFile": "Winged deity (Pinikir), ca. 14th–13th century BCE.jpg"
     },
     {
       "id": "evt-elamite-cuneiform",
       "label": "Elamite Cuneiform Adoption",
       "year": -2010,
-      "description": "While maintaining their own languages, the Elamites adopted cuneiform for official inscriptions, creating a hybrid written culture that borrowed from but never fully merged with Mesopotamia.",
+      "description": "After the sack of Ur, the Elamite court made a lasting choice: from now on, royal inscriptions and official records would use Mesopotamian cuneiform, awkwardly bent to spell out the Elamite language. The kingdom's older homegrown script was quietly retired.",
       "wikiSlug": "Elamite_language",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That older script was Linear Elamite, a set of geometric signs used since around 2300 BCE; it fell out of use entirely by roughly 1850–1900 BCE and stayed unread until scholars announced a decipherment only in 2022. Cuneiform never fit Elamite comfortably — it was designed for Sumerian and Akkadian, languages with very different sounds — but adopting it plugged Elam into the shared writing world of Near Eastern diplomacy, where Akkadian was about to become the common tongue for the next 1,500 years. The trade-off: Elam became far more culturally porous to Mesopotamian ideas."
+        }
+      ],
+      "commonsFile": "Tablette elamite lineaire Sb9382.jpg"
     },
     {
       "id": "evt-destruction-ur",
       "label": "Elamite Destruction of Ur",
       "year": -2004,
-      "description": "The Elamites, allied with other groups, sacked Ur and ended the Third Dynasty of Ur. The Lament for Ur, one of the oldest literary texts, mourns this catastrophe.",
+      "description": "In about 2004 BCE an Elamite army marched into Ur, the glittering capital of Sumer's last native dynasty, and burned it down. The raid accidentally ended Sumerian political history and put the last Sumerian king in Elamite chains.",
       "wikiSlug": "Fall_of_Ur",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Elamite king Kindattu, sixth ruler of the Shimashki line, led the coalition and hauled Ibbi-Sin, the last king of Ur, off to captivity, where he died at an unknown date. The disaster was so searing that Sumerian priests composed the Lament for Ur, a poem voiced by Ningal, the city's grieving goddess, who pleads with the high gods An and Enlil to spare her city and is refused. It is the oldest surviving 'city lament' and a direct literary ancestor of the Book of Lamentations. The Elamites only meant to loot a rival and go home, but the sack let the incoming Amorites flood the plain, and spoken Sumerian never recovered."
+        }
+      ],
+      "commonsFile": "Lament for ur (cropped).JPG"
     },
     {
       "id": "evt-susa-acropolis",
       "label": "Susa Acropolis Temples",
       "year": -2000,
-      "description": "The religious complex on the Susa acropolis contained temples to Inshushinak and other Elamite deities, serving as the spiritual center of the civilization for millennia.",
+      "description": "The acropolis at Susa — a raised mound at the heart of the city — held the temple of Inshushinak, the city-god and judge of the dead, alongside other shrines. It was the religious nerve-center of Elam for thousands of years.",
       "wikiSlug": "Susa",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "French archaeologists dug the acropolis between 1902 and 1908, and the find that anchored the early chronology was almost comically domestic: hidden in the foundations of two sanctuaries were small figurines and tablets, each carrying the same dedication by Shulgi, the Ur III king. Later temple decoration from around 1150 BCE survives too, including glazed-brick reliefs of a bull-man guarding a stylized palm tree. The same mound was reused so continuously that a 13th-century-CE fortress, and the French dig-house built on top of it, still crown the ancient acropolis today."
+        }
+      ],
+      "commonsFile": "Fragments of decoration from the Temple of Inshushinak, tutelary god of Susa, depicting a bull man and palm tree, from Suse (Iran), around 1150 BC, Louvre Lens, France (26844633192).jpg"
     },
     {
       "id": "evt-elamite-matriliny",
       "label": "Elamite Royal Succession",
       "year": -1990,
-      "description": "Elamite royal succession often passed through the female line, with kings sometimes marrying their sisters — a practice that distinguished Elamite kingship from Mesopotamian norms.",
+      "description": "Elamite kingship did not simply pass from father to son. Power rotated through a set of ranked offices — grand regent, viceroy of Elam, viceroy of Susa — so brothers, uncles, and nephews cycled through the top jobs, an arrangement that made the whole royal clan rule as a team.",
       "wikiSlug": "Elam",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The system's payoff was that there were almost never weak boy-kings, because an experienced adult relative was always next in line, which cut down on succession crises. The cost was that no single king could build a personal dynasty or chase grand lifelong projects the way an Egyptian pharaoh could. Strikingly, the closest parallel anywhere in the ancient world is Shang dynasty China, whose oracle bones record the same brother-to-brother succession — the two systems almost certainly invented the idea independently, on opposite ends of Asia. The pattern starts loosely here under Shimashki and hardens into Elam's signature institution under the later Sukkalmah kings."
+        }
+      ],
+      "commonsFile": "Seal of King Ebarat Louvre Museum Sb 6225 (detail of King Ebarat).jpg"
     },
     {
       "id": "evt-copper-tin-trade",
       "label": "Elamite Copper and Tin Trade",
       "year": -1980,
-      "description": "Elam's access to copper from Oman and tin from Afghanistan made it a crucial node in the Bronze Age metals trade, enriching Susa's merchant class.",
+      "description": "Bronze is copper plus tin, and Elam sat astride the supply of both — copper from sources around the Gulf and Iranian plateau, tin from Afghanistan. That made Susa's merchants rich and made Elam a chokepoint of the entire Bronze Age economy.",
       "wikiSlug": "Elam",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two metals came from completely different directions and had to be brought together, which is exactly why control of the routes was worth so much: whoever moved the tin effectively controlled who could arm an army or cast monumental statues. Elamite workshops turned that incoming metal into real objects — including inscribed copper-alloy foundation pegs that kings buried in temple walls as dedications, often shaped as a figure carrying a builder's basket. These deposits doubled as a permanent record, naming the king and the god the building honored right in the metal."
+        }
+      ],
+      "commonsFile": "Foundation nail-Sb 2879-P5280608-gradient.jpg"
     },
     {
       "id": "evt-sukkalmah-period",
       "label": "Sukkalmah Period",
       "year": -1900,
       "endYear": -1500,
-      "description": "The Sukkalmah ('Grand Regent') dynasty governed Elam through a unique system of shared power between the king, the sukkalmah, and the governor of Susa.",
+      "description": "The roughly 400-year stretch (about 1900-1500 BCE) when Elam was run not by a king but by a 'grand regent' (sukkalmah), the standout being a power-sharing setup where three relatives held three ranked offices at once.",
       "wikiSlug": "Sukkalmah_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most ancient monarchies broke apart in succession bloodbaths, but the Sukkalmah cleverly dodged that by sharing power across three offices held by brothers and uncles, who rotated upward as each man above them died. The dynasty deliberately skipped the usual Mesopotamian words for 'king' (lugal, sharrum) and styled its ruler as a vizier-servant of the gods instead, a humbler self-image than the god-king next door in Babylon. Scholars still debate the exact shape of the system, with some reading it as one ruler at a time and others as a genuine triumvirate."
+        }
+      ],
+      "commonsFile": "Men with daggers Sukkalmah dynasty 1940-1600 BCE Susa Louvre Museum Sb 1394.jpg"
     },
     {
       "id": "evt-eparti-sukkalmah",
       "label": "Eparti I, Founder of the Sukkalmah",
       "year": -1850,
-      "description": "Eparti I founded the Sukkalmah ('grand regent') dynasty around 1850 BCE, establishing the distinctive Elamite government of three ranked offices — sukkalmah at the top, sukkal of Elam and Simashki below him, sukkal of Susa below that — often held by brothers and uncles in a complex family system that kept Elam diplomatically strong for three centuries.",
+      "description": "Eparti I (also spelled Ebarat) was the founder, around 1850 BCE, of the dynasty that ran Elam for the next three-plus centuries through its trademark three-office family government.",
       "wikiSlug": "Sukkalmah_dynasty",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Eparti's name survives carved on his own personal cylinder seal, found at Susa and now in the Louvre, which is part of how we can pin a real person to the founding rather than just a king-list entry. There's a wrinkle scholars argue over: an 'Eparti I' and an 'Ebarat II' both appear in the sources, and the credit for actually inventing the sukkalmah three-office structure is often given to the later Ebarat, so the 'founder' label is a bit blurry. Either way, the system he set in motion outlasted him by roughly 300 years, an unusually long run for any Bronze Age dynasty."
+        }
+      ],
+      "commonsFile": "Seal of King Ebarat Louvre Museum Sb 6225.jpg"
     },
     {
       "id": "evt-siwe-palar-hupak",
       "label": "Siwe-palar-hupak and the Mari Letters",
       "year": -1770,
-      "description": "Siwe-palar-hupak was the Elamite sukkalmah during Hammurabi's rise, and his diplomatic correspondence is preserved indirectly in the Mari letters — the diplomatic archive found at the Syrian city of Mari. The Mari letters show Elam as one of the great powers of the age, with Hammurabi addressing the Elamite ruler as 'father' in the respect-ranked kinship terms of Mesopotamian diplomacy. Siwe-palar-hupak's Elam was a peer of Babylon, not a vassal.",
+      "description": "Around 1770 BCE the Elamite ruler Siwe-palar-hupak sat at the top of the Near Eastern pecking order, and the clay letters from the palace at Mari (in modern Syria) caught it in writing: even Hammurabi of Babylon called him 'father.'",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Near Eastern diplomats ranked each other with fake family words, where 'father' meant your superior, 'brother' your equal, and 'son' your inferior, so Hammurabi and Zimri-Lim both calling the Elamite 'father' is a snapshot of Elam outranking Babylon before Hammurabi was famous. Siwe-palar-hupak even led a coalition with both of them that crushed the kingdom of Eshnunna, before he overreached, Hammurabi flipped sides, and Elam was pushed back east. The whole episode is preserved by sheer luck: when Hammurabi sacked Mari in 1759 BCE, the palace fire baked its 25,000 tablets hard enough to survive 3,700 years."
+        }
+      ],
+      "commonsFile": "P1050763 Louvre code Hammurabi face rwk.JPG"
     },
     {
       "id": "evt-kudur-nahhunte-i",
       "label": "Kudur-Nahhunte I Invades Babylonia",
       "year": -1750,
-      "description": "The Elamite king Kudur-Nahhunte I campaigned into Babylonia shortly after Hammurabi's death, sacking cities and carrying off temple statues — a pattern of Elamite retaliatory raids against Mesopotamia that would recur for the next thousand years, culminating in Shutruk-Nahhunte's more famous sack of Babylon in 1158 BCE.",
+      "description": "Soon after Hammurabi died, the Elamite king Kudur-Nahhunte I (also written Kutir-Nahhunte) poured into a weakened Babylonia, looting cities and hauling sacred temple statues back to Susa.",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Carrying off a city's cult statue wasn't just theft; in Mesopotamian belief the god literally lived in the image, so dragging it home meant capturing the enemy's divine protector and humiliating them. The defeat he dealt Hammurabi's son Samsuiluna stung so deeply that the Assyrian king Ashurbanipal was still complaining about a statue of the goddess Nanaya stolen by Elam more than 1,600 years later, when he 'rescued' it in the 600s BCE. This raid set the template for an Elam-versus-Mesopotamia grudge match that flared for the next thousand years, peaking with Shutruk-Nahhunte's sack of Babylon around 1158 BCE."
+        }
+      ],
+      "commonsFile": "Ishtar Eshnunna Louvre AO12456.jpg"
     },
     {
       "id": "evt-humban-pantheon",
       "label": "Humban, King of the Elamite Gods",
       "year": -1600,
-      "description": "Humban was the chief of the Elamite pantheon — the sky father, the king-maker, the god whose name appears in dozens of royal names (Humban-Numena, Humban-Haltash, Humban-menanu). The Elamite royal formula was 'servant of Humban and Inshushinak,' and the god's name survived into the Persian period as a theophoric element even after Elam itself had been absorbed into the Achaemenid empire.",
+      "description": "Humban was the king of the Elamite gods — the head-of-pantheon figure invoked first in royal inscriptions, addressed as 'the king' and 'the great one.' His name turns up inside dozens of royal names, in the form 'Humban-has-given.'",
       "wikiSlug": "Humban",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Humban's special gift was kitin, an Elamite idea of god-given royal power and divine protection that legitimized whoever sat on the throne — he was the god who made kings. His clout actually grew over time: in the late (Neo-Elamite) period, roughly half of all known kings carried a Humban-name, like Humban-haltash. His main sanctuary stood not at Susa but at Liyan on the Persian Gulf coast, near modern Bushehr, suggesting his cult came from the southern coast and highlands. Humban-names still appear in Persian-era records of the fifth century BCE, long after Elam itself had been absorbed."
+        }
+      ],
+      "commonsFile": "Kurangun central panel, male and female deities (Inshushinak and Napirisha).jpg"
     },
     {
       "id": "evt-kiririsha",
       "label": "Kiririsha, the Great Mother",
       "year": -1600,
-      "description": "Kiririsha was the great mother goddess of Elam, consort of Humban and patron of the southern highland city of Liyan. Royal inscriptions call her 'great lady,' 'mother of the gods,' and the Elamite kings invoked her alongside Humban and Inshushinak in the standard divine triad at the head of the pantheon.",
+      "description": "Kiririsha — her name means 'Great Lady' — was the mother goddess of the Elamite pantheon, called 'mother of the gods' and worshipped alongside the realm's chief gods in the standard divine formulas that opened official texts.",
       "wikiSlug": "Kiririsha",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her cult center, like Humban's, was at the Gulf port of Liyan, where she is documented from the 19th century BCE; near the site, archaeologists found a curious local custom of ritually 'burying' palm trees, tentatively linked to her worship. Her role in royal inscriptions was to protect childbirth and legitimize queens. One nuance the narrative glides past: modern specialists such as Wouter Henkelman and François Vallat actually pair Kiririsha with the god Napirisha, not Humban, and reject the old idea that these god-names were interchangeable — Elamite theology was messier and more regional than a tidy family tree suggests."
+        }
+      ],
+      "commonsFile": "Statue of Napirasu, SB 2731.jpg"
     },
     {
       "id": "evt-nahhunte-sun-god",
       "label": "Nahhunte, the Sun God",
       "year": -1600,
-      "description": "Nahhunte was the Elamite sun god and the divine judge — the god whose name means 'creator of the day' and who appears in royal names like Shutruk-Nahhunte and Kutir-Nahhunte. Like the Mesopotamian sun god Shamash, Nahhunte presided over justice and oaths, and Elamite court judgments invoked him as the ultimate witness.",
+      "description": "Nahhunte was the Elamite sun god, whose name doubled as the ordinary word for 'sun' and meant something like 'creator of the day.' Like the Mesopotamian Shamash, he was the divine judge who watched over oaths and the law.",
       "wikiSlug": "Nahhunte",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He shows up early: in the Treaty of Naram-Sin, the oldest known Elamite text, he is the fifth divine witness called to guarantee the oath. His name became the second great building-block of royal names, behind kings like Shutruk-Nahhunte and Kutir-Nahhunte, casting the ruler as the earthly enforcer of the sun-god's cosmic justice. He was worshipped mainly in the west, around Susa, and curiously appears in writing fairly rarely for so important a god — in legal texts his name often hides behind the shared sun-god symbol that Mesopotamians read as Shamash."
+        }
+      ],
+      "commonsFile": "Sit-Shamski bronze model from Susa Sb 2743-P5260439-white.jpg"
     },
     {
       "id": "evt-tepti-ahar",
       "label": "Tepti-Ahar Tomb Complex",
       "year": -1500,
-      "description": "The tomb of Tepti-Ahar at Haft Tappeh near Susa contained mass burials and evidence of complex mortuary rituals, shedding light on Middle Elamite religious practices.",
+      "description": "A royal grave with company. At Haft Tappeh near Susa, the barrel-vaulted baked-brick tomb attached to King Tepti-Ahar's temple held not just royal burials but a hidden adjoining chamber packed with bodies — a window into Middle Elamite death ritual that still unsettles excavators.",
       "wikiSlug": "Haft_Tappeh",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tepti-Ahar (late 15th / early 14th century BCE) was likely the last of the transitional Kidinuid kings, and he founded this city, ancient Kabnak, as a new capital. Reached through a low concealed entrance off the king's tomb, the mass grave held around two dozen young people — by some readings a group of young women — laid down together, widely read as retainers or sacrifices accompanying the dead into the afterlife. Other excavated burials at the site run into the hundreds, and scholars still argue over which deaths were ritual and which were the result of an epidemic or massacre."
+        }
+      ],
+      "commonsFile": "Grabgewölbe Haft Tepe.JPG"
     },
     {
       "id": "evt-elamite-astronomy",
@@ -350,246 +539,400 @@
       "id": "evt-haft-tappeh",
       "label": "Haft Tappeh Royal City",
       "year": -1400,
-      "description": "The site of Haft Tappeh near Susa served as a Middle Elamite royal residence with monumental architecture, workshops, and evidence of large-scale grain storage.",
+      "description": "The capital before the great ziggurat. Haft Tappeh — ancient Kabnak, near Susa — was a Middle Elamite royal city with monumental brick architecture, craft workshops, and large grain stores, a working seat of power a couple of centuries before Untash-Napirisha built Dur-Untash.",
       "wikiSlug": "Haft_Tappeh",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mounds (Haft Tappeh means \"seven hills\" in Persian) have given up an unusually intimate slice of Elamite life: clay-tablet archives, an artisans' quarter with kilns and metal- and bone-working debris, and even practice tablets where trainee scribes drilled their cuneiform signs. Among the finds are vivid painted terracotta funerary heads, their eyes and headdresses still picked out in color. The site only came to light in the 1960s when a modern sugarcane road cut straight through the ancient city, exposing its buried walls."
+        }
+      ],
+      "commonsFile": "Keramik aus Iran, Elamisches Totenportrait, Haft Tappe, um 1250 v.C. (3).jpg"
     },
     {
       "id": "evt-igihalkid-dynasty",
       "label": "Igihalkid Dynasty",
       "year": -1400,
       "endYear": -1210,
-      "description": "The Igihalkid dynasty ruled Elam from roughly 1400 to 1210 BCE and presided over the Middle Elamite golden age — Untash-Napirisha and Chogha Zanbil, the great bronze statue of Queen Napir-Asu, the fortification of Susa, and the beginnings of Elam's most aggressive foreign policy. The dynasty took its name from the king Ige-halki and marks the transition from the quieter Kidinuid period to Elam's peak as a Near Eastern great power.",
+      "description": "The royal line that hauled Elam back to the top table. Named for its founder Ige-halki, the Igihalkid kings (roughly 1400–1210 BCE) rebuilt the army, refortified Susa, and turned a quiet provincial kingdom into one of the Late Bronze Age's great powers.",
       "wikiSlug": "Igi-Halki",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Igihalkids practiced something close to dynastic insurance: kings repeatedly married into the Kassite royal house ruling Babylon, so an Elamite prince could one day claim a Babylonian throne by blood. That gamble paid off spectacularly in the next generation, when Elam used exactly such a claim as the pretext to sack Babylon and carry off its treasures. The family kept the throne for nearly two centuries by passing it brother-to-brother as often as father-to-son, which helped them avoid the child-king succession crises that wrecked other Bronze Age dynasties."
+        }
+      ],
+      "commonsFile": "Untash king Axe.jpg"
     },
     {
       "id": "evt-humban-numena",
       "label": "Humban-Numena I",
       "year": -1350,
-      "description": "Humban-Numena I (grandfather of Untash-Napirisha) began the Elamite great-building program that would culminate in Chogha Zanbil, expanding the temple complex at Susa and issuing inscriptions in a form of Elamite written in cuneiform signs that would become the standard royal script for the rest of the Middle Elamite period.",
+      "description": "Humban-Numena was a Middle Elamite king of the Igihalkid line in the mid-1300s BCE who launched the great temple-building program that his successor carried to its peak. His inscriptions, in cuneiform Elamite, helped fix that script as the standard royal hand.",
       "wikiSlug": "Humban-Numena",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He left dedications at both Susa and the Gulf temple of Liyan, and he married a daughter of the Kassite king of Babylon, knitting Elam into the great-power diplomacy of the age (most sources make him the father, not the grandfather, of Untash-Napirisha). It was that son, Untash-Napirisha, who built Chogha Zanbil — a vast walled ziggurat complex meant as a new religious capital for all Elam — the monumental culmination of the program Humban-Numena's generation set in motion. Chogha Zanbil still stands today as one of the best-preserved ziggurats anywhere and Iran's first UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "The east side of the ziggurat, Chogha Zanbil, Iran (47780495562).jpg"
     },
     {
       "id": "evt-elamite-bronze-statue",
       "label": "Elamite Bronze Statue of Napir-Asu",
       "year": -1340,
-      "description": "The bronze statue of Queen Napir-Asu, weighing 1,750 kg, is a masterwork of Elamite metallurgy. The inscription curses anyone who damages it — the curse held for 3,300 years.",
+      "description": "Two tons of metal cast to last forever. The headless bronze statue of Queen Napir-Asu — wife of Untash-Napirisha — stands about four and a half feet tall in court dress, hands folded, skirt rendered as woven fabric, and it weighs an astonishing 3,760 pounds (1,750 kg). Found at Susa in 1903, it is the masterwork of Elamite metalcasting.",
       "wikiSlug": "Napir-Asu",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is heavy on purpose. Most ancient bronze figures are hollow shells over a clay core, which saves metal and money; Napir-Asu's makers instead cast a copper-and-bronze outer shell, scooped out the core, and then filled the entire hollow with molten bronze — turning a statue into a near-solid metal ingot in human form. The reason is spelled out in the cuneiform curse running around her skirt: anyone who smashes the figure or erases her name is to be struck down by the gods Napirisha, Kiririsha, and Inshushinak. Making it un-melt-able was the queen's insurance against a future king recycling her bronze, and it worked — she survived every sacking of Susa for three millennia, losing only her head."
+        }
+      ],
+      "commonsFile": "Napir Asu 1.jpg"
     },
     {
       "id": "evt-untash-napirisha",
       "label": "Untash-Napirisha",
       "year": -1275,
       "endYear": -1240,
-      "description": "King Untash-Napirisha presided over Elam's golden age, building the magnificent ziggurat at Chogha Zanbil and a new ceremonial capital at Dur-Untash.",
+      "description": "The king who out-built everyone. Untash-Napirisha (ruled roughly 1275–1240 BCE) was the greatest of the Igihalkid rulers, and he poured Elam's wealth into the largest monument-building program in its history — a whole new sacred city crowned by the ziggurat of Chogha Zanbil.",
       "wikiSlug": "Untash-Napirisha",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name means roughly \"Untash is (the god) Napirisha\" — and he made that personal god the co-owner of his great ziggurat, deliberately pairing the highland deity Napirisha with Inshushinak, the lowland lord of Susa. That was political theology: Elam was always an uneasy marriage of mountain and plain, and Untash-Napirisha tried to fuse the two halves' gods into a single state cult at one site. He stamped his name into the bricks by the thousand, so that three thousand years later archaeologists could still read the builder's signature straight off the surviving wall faces."
+        }
+      ],
+      "commonsFile": "Glazed (originally blue) door plaque with boss. The Elamite cuneiform inscription reads \"Palace of Untash-Napirisha, King of Elam\". 13th centiury BCE. From Choga Zanbil, Iran. British Museum.jpg"
     },
     {
       "id": "evt-chogha-zanbil",
       "label": "Ziggurat of Chogha Zanbil",
       "year": -1250,
-      "description": "The five-tiered ziggurat at Chogha Zanbil, originally 53 meters tall, is the best-preserved stepped temple outside Mesopotamia and a UNESCO World Heritage Site.",
+      "description": "The biggest ziggurat left standing on Earth. Built around 1250 BCE as the centerpiece of Untash-Napirisha's new city of Dur-Untash, this five-stepped mud-brick tower — a Mesopotamian temple-mountain form done bigger than any Mesopotamian original — is the best-preserved ziggurat anywhere and Iran's first UNESCO World Heritage Site.",
       "wikiSlug": "Chogha_Zanbil",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What saved it was the skin. Where Mesopotamian ziggurats wore mostly sun-dried mud brick and slumped into shapeless mounds, Chogha Zanbil's builders cased the whole exterior in fuel-hungry kiln-fired brick — far costlier, far tougher — so the outer face survived 3,000 years of weather. It once rose about 174 feet (53 meters); erosion has worn it down to roughly 80 feet (25 meters) today. The site was lost until 1935, when an oil surveyor flying over Khuzestan spotted a suspiciously square mound; full excavation under Roman Ghirshman from the 1950s turned up thousands of bricks that had never been laid, hinting the great complex was abandoned before it was ever finished."
+        }
+      ],
+      "commonsFile": "Choqa Zanbil 2.jpg"
     },
     {
       "id": "evt-elamite-warriors",
       "label": "Elamite Warrior Traditions",
       "year": -1200,
-      "description": "Elamite warriors were renowned archers and charioteers. Mesopotamian texts frequently describe Elamite military prowess, and their mountain-adapted tactics frustrated lowland armies.",
+      "description": "Elam's soldiers had a fearsome reputation across the ancient Near East — celebrated archers and charioteers whose mountain-bred tactics repeatedly gave lowland Mesopotamian armies fits.",
       "wikiSlug": "Elam",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We mostly see them through enemy eyes: the most vivid surviving images of Elamite troops are Assyrian palace reliefs, carved centuries later, that show them being slaughtered at the Battle of Til-Tuba — bodies, broken chariots, and fleeing bowmen choking a river. Even in defeat the bow dominates the scene, a backhanded tribute to what the Elamites were known for. Their edge came from terrain as much as weapons: the Zagros passes that funneled their raids into Babylonia also gave them a highland refuge no flatland army could easily follow them into."
+        }
+      ],
+      "commonsFile": "Relief Humiliation of Elamite Kings Nineveh Gypsum N Palace Ashurbanipal British Museum MH.jpg"
     },
     {
       "id": "evt-shutruk-nahhunte",
       "label": "Shutruk-Nahhunte",
       "year": -1185,
       "endYear": -1155,
-      "description": "The warrior king Shutruk-Nahhunte conquered Babylon and carried off its greatest monuments, including the Code of Hammurabi and the Stele of Naram-Sin.",
+      "description": "The Elamite king (reigned roughly 1184–1155 BCE) who founded the Shutrukid dynasty and pulled off the greatest art heist of the ancient world — looting Babylon and dragging its treasures, the Code of Hammurabi included, home over the mountains to Susa.",
       "wikiSlug": "Shutruk-Nahhunte",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He didn't just steal the monuments — he defaced them. On the Victory Stele of Naram-Sin he had his scribes carve a fresh Elamite inscription right onto the thousand-year-old Akkadian masterpiece, bragging that he had taken it. He justified the whole invasion with a legal fiction: the Shutrukids claimed descent from a Kassite princess who had married into the Elamite line, so Shutruk-Nahhunte framed the attack not as conquest but as a rightful heir collecting a throne he was owed."
+        }
+      ],
+      "commonsFile": "Shutruk-Nakhunte, Musée du Louvre.jpg"
     },
     {
       "id": "evt-sack-babylon-elamite",
       "label": "Elamite Sack of Babylon",
       "year": -1158,
-      "description": "Shutruk-Nahhunte sacked Babylon and carried off the Code of Hammurabi and other monuments to Susa. The Kassite dynasty of Babylon ended in humiliation.",
+      "description": "Elam's 1158 BCE smash-and-grab on Babylon — the army breached the walls in weeks, then methodically stripped the temples and palaces and hauled the loot back east on carts. Among the trophies: the Code of Hammurabi and the Stele of Naram-Sin.",
       "wikiSlug": "Shutruk-Nahhunte",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Elamites didn't torch Babylon (it was rebuilt within a generation) — they wanted the prestige objects intact. The single most aggressive act wasn't burning anything; it was seizing the cult statue of Marduk, Babylon's chief god, which signaled that the god had abandoned the city. There's a strange upside to the theft: the Code of Hammurabi survives today only because it was carried to Susa. Left in its temple at Sippar, the tall block of black stone would almost certainly have been smashed in a later war or recycled for its valuable stone."
+        }
+      ],
+      "commonsFile": "P1050763 Louvre code Hammurabi face rwk.JPG"
     },
     {
       "id": "evt-kutir-nahhunte",
       "label": "Kutir-Nahhunte III",
       "year": -1155,
-      "description": "The son of Shutruk-Nahhunte, Kutir-Nahhunte III continued his father's wars against Babylonia after the famous sack of Babylon in 1158 BCE, deposing the Kassite king and briefly installing Elamite overlordship across Mesopotamia. His campaigns represent the high-water mark of Elamite political reach — Elam at its most aggressive, before Nebuchadnezzar I's counterattack would drive them back to Susa for good.",
+      "description": "Shutruk-Nahhunte's son, who pushed the family's Babylonian wars to their peak — installing Elamite governors over Mesopotamian cities and, for about a decade, ruling a genuine two-region empire straddling both sides of the Zagros mountains.",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The \"III\" is a modern bookkeeping trick — scholars number him to tell him apart from earlier kings of the same name; the Elamites never numbered their own rulers. This decade (roughly 1155–1145 BCE) is the closest Elam ever came to actually governing Mesopotamia rather than just raiding it, but the empire was thinner than it looked. Elamite administration never sank the deep roots that the Akkadian or Assyrian systems did, which is exactly why it unraveled so fast once Babylon found a leader to fight back."
+        }
+      ],
+      "commonsFile": "Statue de Manishtusu - Sb 47 - Antiquités orientales du Louvre.jpg"
     },
     {
       "id": "evt-sit-shamshi",
       "label": "Sit Shamshi Bronze Tableau",
       "year": -1150,
-      "description": "The Sit Shamshi ('Sunrise') is a detailed bronze model depicting a ritual ceremony with miniature figures, trees, and altars — a unique window into Elamite religious practice.",
+      "description": "A cast-bronze tabletop model about 23 inches long (60 cm) showing a dawn ritual frozen in metal: two nude priests at a miniature temple, one crouching to pour water, surrounded by tiny altars, basins, a ziggurat, and bronze tree-trunks.",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its name means \"sunrise,\" and the inscription on the base has Shilhak-Inshushinak calling it \"my bronze sunrise\" — a personal offering to the god Inshushinak. What makes it priceless is that it freezes a ceremony in mid-action: most ancient art shows kings and gods posing, but this captures the plumbing of actual worship, down to the water being poured. It's the clearest surviving snapshot of what an ordinary morning inside an Elamite temple genuinely looked like."
+        }
+      ],
+      "commonsFile": "Sit-Shamski bronze model from Susa 8873.jpg"
     },
     {
       "id": "evt-shilhak-inshushinak",
       "label": "Shilhak-Inshushinak",
       "year": -1150,
       "endYear": -1120,
-      "description": "The greatest Middle Elamite king expanded the empire to its maximum extent, conquering vast territories in Mesopotamia and commissioning building projects across Elam.",
+      "description": "The last great Elamite power-king (reigned roughly 1150–1120 BCE) — Shutruk-Nahhunte's other son, a relentless builder and warrior who kept the Babylonian wars going and left Elam's most famous bronze, the Sit Shamshi.",
       "wikiSlug": "Shilhak-Inshushinak",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name translates roughly as \"he who multiplies,\" with the city-god Inshushinak tacked on — and he lived up to it, blanketing Susa in temple construction. His most useful legacy to historians isn't a battle but his restoration inscriptions: when he repaired old shrines, his scribes carefully listed the long-dead kings who had built them first. Those name-lists are some of our best evidence for reconstructing the otherwise murky sequence of earlier Elamite dynasties — an ancient king accidentally writing the family tree for us."
+        }
+      ],
+      "commonsFile": "P1050576 Louvre Oblélisque de Manishtusu rwk.JPG"
     },
     {
       "id": "evt-hutelutush-inshushinak",
       "label": "Hutelutush-Inshushinak",
       "year": -1120,
-      "description": "The last king of the Middle Elamite period, Hutelutush-Inshushinak lost the wars against the Babylonian king Nebuchadnezzar I around 1110 BCE, saw the Elamite statue of Marduk reclaimed by Babylon, and retreated from Susa as central Elamite authority fractured. After his reign, Elam disappears almost entirely from the historical record for nearly three centuries — a 'dark age' from which the kingdom would only re-emerge in the Neo-Elamite revival of the 8th century BCE.",
+      "description": "The king who inherited the collapse (reigned around 1120–1110 BCE) — Shilhak-Inshushinak's son, who took over a kingdom stretched too thin and promptly lost it to a resurgent Babylon, then fled into the highlands as the lowlands fell away.",
       "wikiSlug": "Hutelutush-Inshushinak",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He inherited the bill, not the glory: an overextended army, a treasury drained by his father's building sprees, and a Babylon now organized for revenge. When Nebuchadnezzar I sacked Susa and reclaimed the Marduk statue, Hutelutush-Inshushinak escaped to Anshan in the mountains and ruled a shrunken rump kingdom. After him Elam goes almost completely dark in the records for nearly three centuries — a \"dark age\" so quiet that even Mesopotamian chronicles barely mention it."
+        }
+      ],
+      "commonsFile": "Statue de Napir-Asu - Musée du Louvre - Antiquités orientales SB 2731.jpg"
     },
     {
       "id": "evt-nebuchadnezzar-i-revenge",
       "label": "Nebuchadnezzar I Defeats Elam",
       "year": -1110,
-      "description": "Babylonian king Nebuchadnezzar I invaded Elam and recovered the stolen statue of Marduk, ending Elamite dominance over Babylon and beginning a period of Elamite decline.",
+      "description": "The Babylonian comeback. Around 1110 BCE Nebuchadnezzar I (the first of the name, six centuries before the famous one) marched on Elam, sacked Susa, and dragged the stolen Marduk statue home — ending Elam's golden age.",
       "wikiSlug": "Nebuchadnezzar_I",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His whole reign turned on recovering one object: the cult statue of Marduk, whose absence had left Babylon religiously humiliated. He got it back — and the victory was celebrated so loudly that it likely helped cement Marduk's rise to the top of the Babylonian pantheon. But he either couldn't find or didn't bother with the older trophies: the Code of Hammurabi and the Naram-Sin stele stayed buried at Susa, which is the only reason archaeologists were there to dig them up three thousand years later."
+        }
+      ],
+      "commonsFile": "Detail, Kudurru of Ritti-Marduk, from Sippar, Iraq, 1125-1104 BCE. British Museum.jpg"
     },
     {
       "id": "evt-neo-elamite-revival",
       "label": "Neo-Elamite Revival",
       "year": -750,
       "endYear": -646,
-      "description": "A series of Neo-Elamite kings allied with Babylon against Assyria, playing the balance of power game between the era's superpowers.",
+      "description": "Elam's long second act (roughly 1100–539 BCE) — no longer one centralized empire but a loose patchwork of highland and lowland city-kingdoms, each with its own royal line, all still calling themselves Elamite and all stuck living next door to a rising Assyria.",
       "wikiSlug": "Elam",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These kings survived by playing the great-power game: in the late 8th century BCE the Elamite king Huban-nikash I threw his army behind the Babylonian rebel Merodach-baladan against the Assyrian king Sargon II — the opening move in a tug-of-war over Babylon that ran for generations. It was a fragmented age that left almost no grand royal monuments, yet it could still produce dazzling wealth: a Neo-Elamite tomb at Jubaji yielded gold bracelets and discs of breathtaking craftsmanship, proof the old culture was far from dead. Much of what we know about these centuries comes not from royal boasts but from clay administrative archives dug up on the acropolis at Susa — thousands of ordinary names recording a kingdom still quietly running its books."
+        }
+      ],
+      "commonsFile": "Golden-Bracelet,Jubaji,Rahm-Hormoz,Khuzestan,Iran-Neo-Elamite-Period-CA-585-539-BC.jpg"
     },
     {
       "id": "evt-anshan-persian-title",
       "label": "King of Anshan",
       "year": -700,
-      "description": "Long after Elamite political power had collapsed, the Elamite royal title 'king of Anshan' was adopted by a new line of rulers in the Iranian highlands — the Persians. Cyrus the Great's grandfather Cyrus I styled himself 'king of Anshan' on his seal, and Cyrus the Great himself used the same title on the Cyrus Cylinder. The Persian royal line claimed the Elamite city of Anshan as its ancestral seat, meaning the founder of the Achaemenid Empire was, in his own self-presentation, heir to an Elamite throne.",
+      "description": "\"King of Anshan\" was the old Elamite royal title for the highland capital up on the Iranian plateau — and after Elam fell, an incoming line of Persian rulers grabbed it as their own. By the time of Cyrus the Great, the founder of the Persian Empire was officially calling himself heir to an Elamite throne.",
       "wikiSlug": "Anshan_(Persia)",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We can put a physical object behind this. The seal of Cyrus I (Cyrus the Great's grandfather) carries an Elamite inscription naming him \"Cyrus the Anshanite, son of Teispes,\" and it survives because scribes were still pressing it into clay during the reign of Darius I — roughly 150 years after Cyrus I lived. In other words the Persian court kept the dead king's signet as a working heirloom for a century and a half, stamping it onto everyday administrative tablets. The picture cut into it is a Persian horseman spearing fallen enemies, the standard royal-warrior image of the highland nobility."
+        }
+      ],
+      "commonsFile": "Cyrus I seal.png"
     },
     {
       "id": "evt-te-umman-til-tuba",
       "label": "Te-Umman and the Battle of Til-Tuba",
       "year": -653,
-      "description": "At the Battle of Til-Tuba in 653 BCE, the Assyrian army under Ashurbanipal defeated the Elamite king Te-Umman (Tempti-Humban-Inshushinak). Te-Umman was captured, beheaded on the battlefield, and his severed head was carried back to Nineveh — where Ashurbanipal commissioned some of the most gruesomely detailed narrative reliefs in all of ancient art, showing the battle, the chase, the decapitation, and the head hanging in a garden tree at Nineveh while the king and his queen feast beneath it. The reliefs survive and are on display at the British Museum.",
+      "description": "The 653 BCE bloodbath where Ashurbanipal's Assyrians shattered the army of the Elamite king Te-Umman — then carved the whole battle, blow by gory blow, across a palace wall like an ancient comic strip. The reliefs survive in the British Museum, and they are some of the most violent images to come out of the ancient world.",
       "wikiSlug": "Battle_of_Ulai",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ashurbanipal's annals claim Te-Umman was doomed before a sword was drawn: the gods supposedly struck him with a seizure and sent a lunar eclipse as a warning, omens the king ignored. The relief is read panel to panel like a film reel — the Elamites are driven down a hill and into the River Ulai until the water is clogged with corpses, and Te-Umman's severed head reappears in scene after scene as it is carried home, including the famous garden banquet where it hangs in a tree above the feasting king. The Assyrian soldier who actually did the beheading isn't anonymous, either: the texts record that the man who delivered the head to Nineveh was singled out and rewarded for it."
+        }
+      ],
+      "commonsFile": "Battle of Ulai (composite).jpg"
     },
     {
       "id": "evt-shamash-shum-ukin-alliance",
       "label": "Elamite Alliance with Shamash-shum-ukin",
       "year": -652,
-      "description": "When Ashurbanipal's older brother Shamash-shum-ukin revolted against him from Babylon (652–648 BCE), the Elamite king Humban-Nikash II allied with the rebel and sent an army west. The revolt failed, Shamash-shum-ukin died in the burning palace at Babylon, and Ashurbanipal turned his fury south — setting off the series of campaigns that would end with the Sack of Susa six years later. Elam's choice to back the wrong brother was the decision that doomed the kingdom.",
+      "description": "Ashurbanipal's older brother and the king of Babylon — and the man whose 652 BCE revolt the Elamites bet on, and lost. Backing the wrong brother is the decision that finished off Elam.",
       "wikiSlug": "Shamash-shum-ukin",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their father Esarhaddon had split the empire to keep the peace: Ashurbanipal got Assyria and the senior role, Shamash-shum-ukin got Babylon as a junior, closely watched king. The arrangement held for about seventeen years before the elder brother, tired of playing second, raised a coalition — Elamites, Chaldeans, Arameans, and others — and declared Babylon free. It failed spectacularly: Ashurbanipal besieged Babylon for years, starved it, and took it in 648 BCE, and Shamash-shum-ukin died in his burning palace — though ancient sources are vague enough that scholars still debate whether it was suicide, execution, or accident."
+        }
+      ],
+      "commonsFile": "Detail of a stone monument of Shamash-shum-ukin as a basket-bearer. 668-655 BCE. From the temple of Nabu at Borsippa, Iraq and is currently housed in the British Museum.jpg"
     },
     {
       "id": "evt-sack-susa-assyria",
       "label": "Sack of Susa",
       "year": -646,
-      "description": "Ashurbanipal's armies sacked Susa, destroyed temples, and salted the fields. The Assyrian king boasted of total devastation, effectively ending Elam as an independent power.",
+      "description": "In 646 BCE the Assyrian king Ashurbanipal smashed Susa, leveled its temples, and scattered salt over the ruins — the ancient way of cursing a place so nothing would grow back. He bragged in his inscriptions of total annihilation, and with it the independent Elamite kingdom was finished.",
       "wikiSlug": "Ashurbanipal",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ashurbanipal went a chilling step further: he had the bones of long-dead Elamite kings dug out of their tombs and carted off to Assyria, a deliberate attack on their afterlife meant to deny their ghosts any rest. He also looted the great temple of the chief Elamite god Inshushinak and dragged its statue back to Nineveh, and his reliefs gloat over the wreckage. Yet the irony runs underneath the whole chapter — within a generation Susa was being rebuilt as a Persian capital, and the language Ashurbanipal thought he had buried would go on running the largest empire the world had yet seen."
+        }
+      ],
+      "commonsFile": "Destruction of the Elamite city of Hamanu 645-635 BCE.jpg"
     },
     {
       "id": "evt-elamite-legacy-persia",
       "label": "Elamite Legacy in Persia",
       "year": -550,
-      "description": "The Achaemenid Persians built their capital at Susa and used Elamite as one of three official languages. Elamite administrative traditions deeply influenced Persian imperial governance.",
+      "description": "When the Persians built their empire they didn't bulldoze the Elamite past — they moved into it. They made the old Elamite city of Susa one of their royal capitals, kept Elamite as an official language, and ran their paperwork on Elamite scribal methods. The conquerors quietly became the heirs.",
       "wikiSlug": "Elam",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most dazzling thing the Persians left at Susa is the Frieze of Archers, a wall of life-size guardsmen built up from molded, brightly glazed bricks (sometimes identified with the royal bodyguard the Greeks called the Immortals). It's a telling mash-up: the figures are Persian, the glazed-brick technique is borrowed straight from Babylonian Mesopotamia, and the whole thing decorated a palace in an ancient Elamite city. Darius's own foundation charter at Susa actually brags about the gold from Lydia, the cedar from Lebanon, and the craftsmen from across the empire he pulled in to build it — an empire assembling itself out of everyone it had absorbed."
+        }
+      ],
+      "commonsFile": "Archers frieze Darius 1st Palace Suse Louvre AOD 488 a.jpg"
     },
     {
       "id": "evt-behistun-elamite",
       "label": "Behistun Inscription in Elamite",
       "year": -520,
-      "description": "The great trilingual Behistun Inscription that Darius I carved into the cliff face above the Hamadan–Babylon road around 520 BCE includes a version in Elamite alongside its Old Persian and Babylonian versions. The Elamite text was carved first and is the longest of the three, and the Achaemenid state's choice to put Elamite at the center of its trilingual monumental program is the clearest surviving evidence of how important the language remained under Persian rule.",
+      "description": "High on a cliff in western Iran, Darius I carved a giant billboard of his own greatness — the Behistun Inscription, around 520 BCE, telling how he crushed his rivals and seized the throne. He had it written three times in three languages, and the Elamite version was carved first, a quiet sign of how much the language still mattered.",
       "wikiSlug": "Behistun_Inscription",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription sits about 330 feet (100 meters) up a sheer limestone face, deliberately too high to vandalize — which is exactly why copying it became an act of mountaineering. In the late 1830s and 1840s the British officer Henry Rawlinson dangled on ropes off the cliff to take paper squeezes of the text, and decoding its simpler Old Persian column became the key that unlocked all cuneiform, making Behistun the Rosetta Stone of the ancient Near East. Reading the Elamite column stayed harder, because Elamite is a language isolate with no living relatives to cross-check against."
+        }
+      ],
+      "commonsFile": "Behistun Darius the Great.jpg"
     },
     {
       "id": "evt-persepolis-fortification-archive",
       "label": "Persepolis Fortification Archive",
       "year": -509,
       "endYear": -494,
-      "description": "The Persepolis Fortification Archive is a hoard of roughly 30,000 clay tablets and sealings, excavated from the fortification walls at Persepolis in 1933, recording the day-to-day economic administration of the Achaemenid royal court between 509 and 494 BCE under Darius I. The astonishing fact: the tablets are in Elamite, not Old Persian. The Persian Empire that had just conquered the Near East ran its palace bureaucracy in the language of the kingdom it had supposedly absorbed, using Elamite-speaking scribes whose training traced directly back to the old Susa schools. Elamite outlasted Elam by two centuries inside the Persian administrative system.",
+      "description": "Buried in the fortification walls at Persepolis was a filing cabinet of the ancient world: about 30,000 clay tablets logging the Persian court's day-to-day spending — barley rations, workers' wages, travel expenses — from 509 to 494 BCE. The jaw-dropper is that they're written in Elamite, the language of the kingdom Persia had supposedly swallowed whole.",
       "wikiSlug": "Persepolis_Administrative_Archives",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reason is almost mundane: the Persians inherited Susa and Anshan's scribal schools, which never stopped turning out new Elamite-cuneiform clerks, so the empire just kept hiring the staff it already had. The tablets survived because the fortification wall they sat in collapsed and sealed them under rubble (Alexander the Great's burning of Persepolis in 330 BCE seems to have triggered that collapse rather than directly baking them). Most of the hoard was shipped to the University of Chicago in the 1930s for study and is still being read and gradually returned to Iran — and the tablets carry one of the great bodies of Achaemenid-era seal impressions, making them a goldmine for art historians as well as accountants."
+        }
+      ],
+      "commonsFile": "Persepolis tablet.jpg"
     }
   ]
 }

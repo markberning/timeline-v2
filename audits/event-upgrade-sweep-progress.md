@@ -14,7 +14,7 @@ not a hang.) See docs/content-pipeline.md step 13 + feedback_wikimedia_rate_limi
 
 ## Count
 
-**Done: 8 / 109 civs**  ·  **94 civs (~8,594 events) remaining, smallest-first.**
+**Done: 10 / 109 civs**  ·  **92 civs remaining, smallest-first.**
 
 Last updated: 2026-05-29 (sweeping)
 
@@ -29,12 +29,13 @@ Last updated: 2026-05-29 (sweeping)
 8. islamic-persia (rollout)
 
 9. ancient-china (8 ch, 37 ev) — clean first pass
+10. elamite-civilization (8 ch, 49 surfaced ev) — ch7 redo after 429 stall; all gates green
 
-_(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china gated.)_
+_(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite gated.)_
 
 ## In progress
-- (none yet — starting the worklist)
+- (none — elamite just closed)
 
-## Worklist (102, smallest-first)
-Pending — see /tmp/sweep-worklist.json. Next up: ancient-china, elamite-civilization,
-ancient-nubia, indus-valley, mali-empire, prehistoric-japan, yuan-dynasty, …
+## Worklist (smallest-first)
+Pending — see /tmp/sweep-worklist.json. Next up: ancient-nubia, indus-valley,
+mali-empire, prehistoric-japan, yuan-dynasty, early-dynastic-egypt, …
