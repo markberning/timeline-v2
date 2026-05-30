@@ -511,117 +511,81 @@
       "label": "Fayum A Culture",
       "year": -5200,
       "endYear": -4500,
-      "description": "Settlers around the Fayum Oasis practiced some of Egypt's earliest agriculture, cultivating grain and storing harvests in underground silos — a crucial step toward complex society.",
+      "description": "Settlers on the shores of a large desert lake southwest of modern Cairo became some of Egypt's first real farmers, growing imported grain and burying their surplus in basket-lined pits — the moment foraging tipped over into settled farming.",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Egypt's First Farmers",
-          "text": "The Fayum A culture represents some of Egypt's earliest evidence of systematic agriculture — emmer wheat, barley, and flax cultivated on the shores of a prehistoric lake larger than today's Fayum. Their grain pits stored harvests underground, showing long-term planning."
-        },
-        {
-          "label": "Fishing and Hunting",
-          "text": "Fayum A people were not purely farmers — abundant fish bones and hunting equipment show they exploited the rich lake ecosystem. Barbed bone harpoons similar to those used in sub-Saharan Africa suggest connections with fishing traditions to the south."
-        },
-        {
-          "label": "Legacy",
-          "text": "The Fayum depression remained one of Egypt's most productive agricultural zones throughout pharaonic history. Ptolemaic rulers later drained portions of the ancient lake to create some of ancient Egypt's richest farmland."
+          "label": "Explore further",
+          "text": "Archaeologists working two settlement clusters known as Kom K and Kom W found more than a hundred of these storage pits, some still lined with coarsely coiled basketry and holding carbonized grain that survived thousands of years because the pit was sealed and forgotten. Alongside the wheat and barley, the Fayum farmers also grew flax — the plant whose fibers become linen, Egypt's signature fabric for the rest of its history. And they never gave up the lake: fishing and fowling in the marshes of ancient Lake Moeris stayed a major food source right alongside the crops, so this was farming layered on top of an older waterside life, not a clean break from it."
         }
-      ]
+      ],
+      "commonsFile": "Al_Fayum_arrowheads.png"
     },
     {
       "id": "evt-ede-sahara-desiccation",
       "label": "Sahara Desiccation Begins",
       "year": -5000,
-      "description": "As the Sahara began drying from its 'Green Sahara' phase, pastoral peoples migrated into the Nile Valley, concentrating population and catalyzing social complexity.",
+      "description": "The wet phase that had turned the Sahara green for thousands of years began collapsing into desert, pushing cattle herders and their families east toward the Nile, where the population started piling up.",
       "wikiSlug": "African_humid_period",
       "tier": 1,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "The Green Sahara",
-          "text": "From roughly 11,000 to 5,000 years ago, increased monsoon rainfall transformed the Sahara into grassland with lakes, rivers, and wildlife. Rock art across Libya and Algeria depicts hippos, cattle, and fishing scenes in what is now desert."
-        },
-        {
-          "label": "The Great Migration",
-          "text": "As the Sahara dried over several millennia, pastoral peoples who had herded cattle across the savanna were funneled into the Nile Valley. This migration dramatically increased population density and forced social innovation."
-        },
-        {
-          "label": "Legacy",
-          "text": "The desiccation-driven migration is one reason Egyptian civilization developed so rapidly in the 4th millennium BCE. The Nile Valley became one of the most densely populated agricultural zones on Earth, with the ecological pressure to organize at scale."
+          "label": "Explore further",
+          "text": "The greening wasn't a one-off — scientists who core ocean mud off the African coast can see the dust nearly vanish during the wet phase (roughly 11,500 to 5,500 years ago) and then come roaring back, and these humid spells have repeated dozens of times over the last several million years, paced by slow wobbles in Earth's orbit. The drying was driven by those orbital shifts weakening the monsoon, but vegetation feedbacks made the tail end lurch: instead of fading smoothly, the late Green Sahara swung between sudden brutal droughts and brief wet rebounds before the desert won. Some researchers think the herders' own grazing animals, by stripping the ground cover that helped pull in rain, may have nudged the collapse along."
         }
-      ]
+      ],
+      "commonsFile": "Sahara_satellite_hires.jpg"
     },
     {
       "id": "evt-ede-nile-farming",
       "label": "Nile Farming Communities",
       "year": -5000,
-      "description": "The earliest settled farming communities appeared along the Nile, growing emmer wheat, barley, and flax while herding cattle, sheep, and goats in the fertile floodplain.",
+      "description": "Along the Nile floodplain, the first permanent farming villages took shape — a melting pot of desert refugees, river fisher-foragers, and newcomers from the Levant, all crammed into one narrow green ribbon.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 1,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Agriculture Along the Nile",
-          "text": "The Nile's annual flood deposited rich black silt across the floodplain, creating naturally fertile land that required less labor to cultivate than most agricultural zones. Farmers sowed crops into the wet mud as the flood retreated, with minimal irrigation needed."
-        },
-        {
-          "label": "What They Grew",
-          "text": "Emmer wheat and barley were the staple crops, converted into bread and beer — the two dietary foundations of Egyptian civilization. Flax provided fiber for linen. Gardens grew legumes, onions, and garlic."
-        },
-        {
-          "label": "Legacy",
-          "text": "Egypt's agricultural productivity — up to two harvests per year in some regions — gave it an economic base that could support specialization, monumental construction, and state organization that smaller or less fertile agricultural zones could not match."
+          "label": "Explore further",
+          "text": "Almost nothing in the starter kit was actually invented in Egypt. The emmer wheat and barley came from the domestication heartland in what's now southeastern Turkey and northern Syria, the sheep and goats came from the same region, and only the cattle had local Saharan roots — Egypt assembled its farming package from imports rather than building one from scratch. The crops happened to suit the Nile perfectly: seeds went in as the autumn flood drained away, ripened through the cool dry winter, and were harvested before the killing summer heat, a rhythm so reliable it underwrote Egyptian agriculture for the next 4,000 years until the Aswan High Dam shut off the annual flood in the 1960s."
         }
-      ]
+      ],
+      "commonsFile": "Petrie-Decorated-01.jpg"
     },
     {
       "id": "evt-ede-merimde-settlement",
       "label": "Merimde Beni-Salame",
       "year": -4800,
-      "description": "One of the oldest known settlements in the Nile Delta, Merimde had organized streets, oval houses, and communal storage — evidence of early social organization in Lower Egypt.",
+      "description": "On the western edge of the Nile Delta, several hundred people built one of Lower Egypt's earliest real villages — densely packed huts, mixed farming and herding, and the dead buried right among the living.",
       "wikiSlug": "Merimde_Beni-Salame",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Egypt's Oldest Village",
-          "text": "Merimde Beni-Salame on the western edge of the Nile Delta is among Egypt's earliest known permanent settlements, occupied from around 4800 to 4200 BCE. At its peak, it may have housed over 10,000 people — a substantial Neolithic community."
-        },
-        {
-          "label": "Urban Organization",
-          "text": "Unlike simple encampments, Merimde showed spatial planning: rows of oval houses made from mud and reed, organized along paths, with communal storage pits. Bodies were buried within the settlement — a practice that differs from later Egyptian tradition of separate cemeteries."
-        },
-        {
-          "label": "Lower Egyptian Roots",
-          "text": "Merimde represents the Lower Egyptian Neolithic tradition that developed independently of the Upper Egyptian cultures. When the Naqada culture later expanded into the Delta, it absorbed or replaced communities like Merimde."
+          "label": "Explore further",
+          "text": "The site was occupied for something like 800 years, roughly 5000 to 4200 BCE, and recent survey work has shown it sprawled across as much as 150 acres (60 hectares), far bigger than once thought. What sets Merimde apart from Upper Egyptian sites is the burials: there were no separate cemeteries, and bodies went into shallow oval pits inside the settlement itself, curled in a flexed position with no grave goods — a custom unlike anything in later dynastic Egypt. It was first dug by Austrian archaeologist Hermann Junker between 1923 and 1939, then re-excavated by German teams in the late 1970s and early 1980s."
         }
-      ]
+      ],
+      "commonsFile": "Merimde_clay_head,_Predynastic_Period,_Maadi_Era,_4th_millennium_BCE.jpg"
     },
     {
       "id": "evt-ede-el-omari",
       "label": "El-Omari Settlement",
       "year": -4500,
-      "description": "The settlement of El-Omari near Cairo shows early farming communities with granaries and simple houses, providing evidence of Lower Egyptian Neolithic culture.",
+      "description": "Near modern Cairo, a small Neolithic community left behind storage pits, post-built huts, and the ordinary farming kit of early Lower Egypt — another piece of the patchwork of villages forming along the river.",
       "tier": 3,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Between Two Cultures",
-          "text": "El-Omari, near modern Helwan south of Cairo, dates to roughly 4600-3900 BCE. The Omari culture occupies the chronological gap between the Fayum farming communities and the later Maadi culture — providing a continuous record of Lower Egyptian development."
-        },
-        {
-          "label": "What Was Found",
-          "text": "Excavations revealed simple rectangular houses, grain storage pits, and burials with grave goods. Omari pottery was simple by Badarian standards, but the community shows organized food storage and settlement permanence."
-        },
-        {
-          "label": "Significance",
-          "text": "El-Omari demonstrates that Lower Egypt had its own independent cultural trajectory during the Neolithic, rather than being a passive recipient of Upper Egyptian influence. The Delta was not an empty frontier when Naqada culture arrived."
+          "label": "Explore further",
+          "text": "The El-Omari settlements clustered around Wadi Hof near Helwan and were lived in roughly between 4600 and 4350 BCE — a bit later than Merimde or the Fayum. The remains are modest: mostly storage pits, post holes, and trash pits rather than grand architecture, with the same pits doing double duty for living space, storage, and even burial. Excavators recovered pottery, stone tools (including some likely used for fishing), bone tools, ornaments, cereal grains, and rare surviving wooden objects — the everyday debris of people who farmed the floodplain and worked the river at the same time."
         }
       ]
     },
@@ -630,48 +594,33 @@
       "label": "Badarian Culture",
       "year": -4400,
       "endYear": -3800,
-      "description": "The Badarian people of Upper Egypt produced some of the finest predynastic pottery, practiced agriculture, and buried their dead with ivory combs, jewelry, and food — showing belief in an afterlife.",
+      "description": "The first culture along the Nile with a material signature distinctive enough to call \"Egyptian\" — a coherent package of pottery, burials, craft, and farming that ran for roughly six centuries up and down the river.",
       "wikiSlug": "Badarian_culture",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Who They Were",
-          "text": "The Badarian culture occupied a stretch of Upper Egypt between modern Asyut and Luxor from about 4400 to 3800 BCE. Named after the town of Badari where their cemeteries were first excavated in the 1920s."
-        },
-        {
-          "label": "Fine Pottery",
-          "text": "Badarian pottery represents the technical peak of Egyptian prehistoric ceramics: thin-walled, black-topped (reduced in firing), and often decorated with a distinctive rippled texture. The technique has never been fully replicated by modern potters."
-        },
-        {
-          "label": "Craft and Trade",
-          "text": "Beyond pottery, Badarians used copper pins and beads (among Egypt's earliest metalwork), shell jewelry from the Red Sea, and Egyptian faience beads — showing they participated in early trade networks connecting the Nile Valley with neighboring regions."
+          "label": "Explore further",
+          "text": "The culture is named for El-Badari, a stretch of about 19 miles (30 km) along the east bank of the Nile in middle Egypt, where the British archaeologist Guy Brunton (working with Gertrude Caton-Thompson) dug between 1922 and 1931. Their teams located something like forty settlements and six hundred graves across Badari and the nearby sites of Mostagedda and Deir Tasa, which is most of what we still know about the culture today. Because nearly all of it comes from cemeteries cut into the dry desert edge rather than from the long-vanished mudbrick villages, our whole picture of the Badarians is skewed toward death and the things they buried."
         }
-      ]
+      ],
+      "commonsFile": "Egypte_louvre_314.jpg"
     },
     {
       "id": "evt-ede-badarian-pottery",
       "label": "Badarian Rippled Pottery",
       "year": -4300,
-      "description": "Badarian black-topped, red-polished pottery with distinctive rippled surfaces represents one of the finest ceramic traditions of the prehistoric Nile Valley.",
+      "description": "The signature Badarian pot — a thin-walled bowl polished to a glassy shine, with a glossy red lower body and a jet-black rim, the finest of them combed with a delicate rippled texture.",
       "wikiSlug": "Badarian_culture",
-      "commonsFile": "Badarian bowl.jpg",
+      "commonsFile": "Polished_bowl_with_rippled_surface._Matmar,_grave_2110._Badarian_culture.jpg",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Technique",
-          "text": "Badarian potters achieved a black top and red body by smothering the top of the vessel in ash or fuel during firing, reducing the surface (cutting off oxygen) while the lower body remained oxidized. The rippled texture was created by drawing a comb-like tool across the wet clay."
-        },
-        {
-          "label": "Quality",
-          "text": "The walls of Badarian ceramics are sometimes as thin as 1-2 mm — a technical achievement that required exceptional skill. Archaeological analysis suggests they were fired at relatively high temperatures and then burnished to a high sheen."
-        },
-        {
-          "label": "Legacy",
-          "text": "The black-top ceramic tradition continued through Naqada I and II before being replaced by painted Gerzean ware. Some scholars trace continuity from Badarian ceramics through to the distinctive black pottery of later Nubian cultures."
+          "label": "Explore further",
+          "text": "The walls of these bowls are thinner than anything Egyptian potters managed in any later period — a level of refinement that, oddly, was never matched once the culture's craft tradition moved on. The two-tone color came from a single firing: the red is iron in the Nile silt oxidizing in open air, while the black top is the buried rim starved of oxygen and smudged with carbon from the ash. The rippled finish was made by combing the damp surface with a toothed tool and then burnishing over it, and those rippled pieces show up mostly in the richest graves."
         }
       ]
     },
@@ -679,217 +628,153 @@
       "id": "evt-ede-earliest-copper",
       "label": "Earliest Egyptian Copper Working",
       "year": -4000,
-      "description": "Copper beads and pins from Badarian graves show that Nile Valley peoples began metalworking by the 5th millennium BCE, initiating the Copper Age in Egypt.",
+      "description": "Small copper beads and pins from Badarian graves are the earliest metal on the Nile — cold-hammered from natural nuggets, marking the start of Egypt's long road into the metal age.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Cold Hammering First",
-          "text": "Egypt's earliest copper objects were made by cold-hammering native copper into simple shapes — beads, needles, and pins. This requires no smelting: the raw metal is found in some Egyptian Eastern Desert deposits and can be worked directly."
-        },
-        {
-          "label": "From Malachite to Metal",
-          "text": "True copper smelting — heating malachite (copper carbonate) to extract the metal — appeared by about 3700 BCE. This technological step required kilns capable of sustained high temperatures, developed from advanced pottery firing techniques."
-        },
-        {
-          "label": "Military Revolution",
-          "text": "By Naqada II (3500-3200 BCE), copper weapons — axes, daggers, and spearheads — appeared in elite graves alongside flint tools. Copper's superiority for combat was clear: it could be cast into shapes impossible in stone and resharpened when dull."
+          "label": "Explore further",
+          "text": "This is \"native\" copper, the rare kind that turns up naturally in metallic lumps rather than locked inside ore, which is why it could be beaten cold into shape without any furnace. The likely source was Sinai, the desert peninsula east of the Nile delta, and that eastward supply line would still be running thousands of years later when pharaohs sent state expeditions there for copper and turquoise. From the start the metal was a wealth marker — the graves with copper beads belonged to different, richer people than the graves without — so the trade was quietly building elites long before it built tools."
         }
-      ]
+      ],
+      "commonsFile": "Copper_harpoon_tip._Naqada,_grave_122._Dating_0th_Dynasty-Naqada_III.jpg"
     },
     {
       "id": "evt-ede-predynastic-burial",
       "label": "Predynastic Burial Practices",
       "year": -4000,
-      "description": "Predynastic Egyptians buried their dead in fetal position facing west with food, tools, and ornaments — beliefs about the afterlife that would become central to pharaonic religion.",
+      "description": "Predynastic Egyptians buried their dead in simple desert pits, bodies curled in a fetal position with the head pointing south and the face turned west — the orientation that pharaonic tombs would keep for the next three thousand years.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "The Western Burial",
-          "text": "From the earliest predynastic burials, the dead were placed in a contracted (fetal) position, facing west — the direction of the setting sun. West became the Egyptian realm of the dead, a cosmology that persisted unchanged into the dynastic period."
-        },
-        {
-          "label": "Grave Goods",
-          "text": "Food vessels, personal ornaments, tools, and cosmetic palettes were placed with the dead — objects needed for use in the next life. The variety and richness of grave goods varied dramatically between individuals, providing archaeologists' best evidence of social stratification."
-        },
-        {
-          "label": "Natural Mummification",
-          "text": "Egypt's dry sand preserved predynastic bodies naturally — the hot, desiccating desert prevented decay. When Egyptians first encountered these well-preserved ancient bodies, it may have reinforced their belief in bodily preservation for the afterlife, eventually motivating the development of deliberate mummification in the dynastic period."
+          "label": "Explore further",
+          "text": "These shallow sand graves did something the later, grander tombs could not: the hot dry desert wicked the moisture out of the bodies and naturally preserved them, hair, fingernails, and skin intact. There is a real irony here — once Egyptians grew rich enough to bury their dead in deep brick-lined chambers and wooden coffins, the bodies were cut off from the drying sand and rotted, which is part of why later Egyptians eventually had to invent artificial embalming to get back what the simple pit had given them for free. The west-facing convention was locked in long before anyone could have explained it as facing the setting sun and the land of the dead."
         }
-      ]
+      ],
+      "commonsFile": "Badarian_Burial.jpg"
     },
     {
       "id": "evt-ede-cattle-culture",
       "label": "Predynastic Cattle Culture",
       "year": -4000,
-      "description": "Cattle held immense economic and symbolic importance in predynastic Egypt. Cattle counts later became the basis for dating pharaonic reigns.",
+      "description": "Cattle were the most spiritually charged animal in early Egyptian life — wealth, religion, and identity all rode on the herd long before there were pharaohs to tax them.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Wealth on the Hoof",
-          "text": "Cattle were the primary measure of wealth in predynastic Egypt — oxen for plowing, cows for milk, and bulls for sacrifice. Elite graves from the Badarian period onward include cattle skulls and cattle figurines, indicating high status."
-        },
-        {
-          "label": "Cattle and the Divine",
-          "text": "The cow goddess Hathor — later one of Egypt's most important deities — has predynastic origins. Rock art from the Eastern Desert shows cattle with sun disks between their horns, suggesting a cosmic association between cattle and the sun already present in early pastoral religion."
-        },
-        {
-          "label": "The Cattle Count",
-          "text": "By the Early Dynastic period, pharaonic reigns were dated by the cattle count — a biennial census of cattle that tracked agricultural wealth. This practice has predynastic roots in the importance of cattle as the foundation of Egypt's pastoral economy."
+          "label": "Explore further",
+          "text": "The cattle obsession got baked into how Egyptians counted time. From the Second Dynasty on, royal officials staged a roving wealth census tied to a ritual called the Following of Horus, in which the king's entourage toured the country tallying livestock — and crucially, years weren't numbered the way we'd expect but named, as in 'the year of the Xth cattle count under King So-and-so.' For a long stretch this count happened only every other year, which means historians reconstructing reign lengths from ancient king-lists like the Palermo Stone sometimes have to double a number to get actual calendar years, a quirk that has tangled Egyptian chronology for over a century."
         }
-      ]
+      ],
+      "commonsFile": "Naqada_black_top.jpg"
     },
     {
       "id": "evt-ede-predynastic-linen",
       "label": "Predynastic Linen Production",
       "year": -4000,
-      "description": "Flax cultivation and linen weaving were established by the Badarian period. Linen became Egypt's primary textile, essential for both clothing and mummification.",
+      "description": "By the Badarian period Egyptians were already growing flax and weaving fine linen — the cloth that would dress every Egyptian for the next four thousand years and eventually wrap the mummified dead.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "From Flax to Linen",
-          "text": "Linen production is a multi-step process: flax is retted (soaked) to soften the stems, then beaten to separate the fibers, combed, spun into thread, and woven. Evidence of all stages of this process appears in Badarian sites."
-        },
-        {
-          "label": "Ritual Purity",
-          "text": "Linen had symbolic significance beyond utility. Its white color was associated with ritual purity. Priests were required to wear linen, not wool or animal skins. The practice of wrapping mummies in linen strips — dating to the Early Dynastic period — has predynastic roots in linen's association with sacred contexts."
-        },
-        {
-          "label": "Economic Importance",
-          "text": "Linen became Egypt's primary export in the Bronze Age, traded across the eastern Mediterranean. The productivity of Egypt's linen industry depended on the Nile flood's regular irrigation of flax fields."
+          "label": "Explore further",
+          "text": "Textile scraps pulled from the Badari and Mostagedda graves were shipped off to a museum in Bolton, England, in the early 1900s, and they reveal weaving far more skilled than you'd expect this early — even fabric, consistent thread, and fringed edges. Excavators recorded several burials where the head specifically had been wrapped in cloth, the small first germ of the wrapping habit that mummification would later turn into hundreds of yards of linen wound around a body. Linen also had a practical edge over other fibers: it actually gets stronger when wet and dries fast, which makes it ideal for a hot climate."
         }
-      ]
+      ],
+      "commonsFile": "2008-04-05_(London,_Petrie_and_British_Library)_-_078.jpg"
     },
     {
       "id": "evt-ede-cities-of-dead",
       "label": "Predynastic Elite Cemeteries",
       "year": -3900,
-      "description": "Separate cemeteries distinct from settlements appeared in the predynastic period, with increasingly elaborate graves reflecting growing social inequality and elite power.",
+      "description": "The Badarians set their cemeteries apart from the living village, out on the desert edge — and as some graves filled with far more goods than others, the first clear signs of rich and poor on the Nile show up here.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 3,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Cities for the Dead",
-          "text": "By Naqada I, communities established formal cemeteries separate from residential areas — a significant conceptual shift. The dead were now given their own dedicated space, mirroring the living settlement and suggesting a view of the afterlife as a parallel world requiring its own territory."
-        },
-        {
-          "label": "Reading Inequality",
-          "text": "Elite graves from Naqada I onward grew dramatically larger and richer. At Hierakonpolis, some graves from c. 3500 BCE contained hundreds of imported pottery vessels, ivory objects, and flint blades — while neighboring graves had almost nothing. Social stratification is clearly visible in death."
-        },
-        {
-          "label": "Forerunners of Pharaonic Tombs",
-          "text": "The logic of the royal tomb — a house for the dead king stocked with everything needed for eternity — was fully present in predynastic elite burials. The leap from a large predynastic grave to Djoser's Step Pyramid was one of scale, not concept."
+          "label": "Explore further",
+          "text": "Among the buried offerings were cosmetic palettes: small slabs of siltstone or green schist worn with a dish for grinding mineral pigments, mostly green malachite (a copper ore that crushes to a brilliant green) and black galena (a lead ore), into eye paint. The same flat-stone-with-a-grinding-dish format would scale up centuries later into the great carved ceremonial palettes of the unification era. Graves also held carved ivory and clay female figurines, ivory spoons and combs, and tiny amulets shaped like hippos and antelopes — and the figurines turn up in the graves of men and women alike, so whatever they meant, it wasn't tied to the sex of the dead person."
         }
-      ]
+      ],
+      "commonsFile": "Predynastic_human_mummy,_EA_32751.jpg"
     },
     {
       "id": "evt-ede-maadi-culture",
       "label": "Maadi Culture (Lower Egypt)",
       "year": -3900,
       "endYear": -3500,
-      "description": "The Maadi culture of the Nile Delta had strong trade connections with the Levant, with imported copper, pottery, and even subterranean houses of Levantine style.",
+      "description": "While Upper Egypt was Badarian, the north ran on a different track — the Maadi culture near the future site of Cairo, plainer in its burials but plugged straight into trade with the Levant.",
       "wikiSlug": "Maadi_culture",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Lower Egypt's Gateway Culture",
-          "text": "The Maadi culture (c. 3900-3500 BCE), centered near modern Cairo, was Lower Egypt's dominant predynastic culture. Located at the junction of the Nile Delta and the Sinai land bridge, Maadi communities were natural intermediaries between Egypt and the Levant."
-        },
-        {
-          "label": "Levantine Connections",
-          "text": "Maadi sites contain Palestinian Ghassulian pottery, copper ore from Sinai and Canaan, and even subterranean storage rooms of a type known from Levantine sites — suggesting that Canaanite merchants may have lived in Maadi neighborhoods."
-        },
-        {
-          "label": "Absorption",
-          "text": "By 3500 BCE, Maadi culture was absorbed into the expanding Naqada II tradition from Upper Egypt. The Maadi culture disappears from the archaeological record, replaced by Upper Egyptian material culture — the first of several waves of Upper Egyptian cultural dominance over the Delta."
+          "label": "Explore further",
+          "text": "Maadi's most striking feature is a set of large semi-underground structures, dug as much as 10 feet (3 m) into the ground and stretching about 16 feet (5 m) long — a building style that looks borrowed from the Beersheba culture across the Sinai land bridge in what is now southern Israel. The site is stuffed with imported pottery from Palestine, the kind of foreign goods that Upper Egyptian sites of the same date almost entirely lack, and its copper arrived overland from Sinai rather than up the river. This northern, Levant-facing, less stratified world was the other half of the predynastic split that the eventual unification of Egypt would have to forcibly stitch together."
         }
-      ]
+      ],
+      "commonsFile": "Lower-Egypt_basalt_jars_in_the_shape_of_pottery_from_Maadi,_Naqada_I_Naqada_II,_British_Museum_EA_34398,_EA_26654.jpg"
     },
     {
       "id": "evt-ede-naqada-i",
       "label": "Naqada I (Amratian) Culture",
       "year": -3800,
       "endYear": -3500,
-      "description": "Naqada I culture in Upper Egypt featured distinctive white cross-lined pottery, stone cosmetic palettes, and expanding settlements along the Nile.",
+      "description": "The first phase of the Naqada sequence (roughly 3800-3500 BCE), when Upper Egyptian villages grew richer and started painting stories on their pots. Named for the village of Naqada; older books call it the Amratian.",
       "wikiSlug": "Amratian_culture",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Distinctive Pottery",
-          "text": "Naqada I is identified by its white cross-lined ware: red-polished pottery decorated with geometric designs in white paint. Motifs include humans, animals, and plants — a departure from the abstract decoration of earlier periods."
-        },
-        {
-          "label": "Cosmetic Palette Tradition",
-          "text": "Stone cosmetic palettes — flat slabs of greywacke or schist used to grind eye paint — became ubiquitous in Naqada I graves. Simple geometric shapes (fish, birds, turtles) evolved through Naqada I and II into the elaborate ceremonial palettes of the Proto-Dynastic period."
-        },
-        {
-          "label": "Growing Settlements",
-          "text": "Naqada I settlements were larger and more numerous than Badarian sites, spreading along the west bank of the Nile. The largest, at the site of Naqada itself, covered several hectares — the nucleus of what would become Upper Egypt's cultural heartland."
+          "label": "Explore further",
+          "text": "This phase's signature pottery, called white cross-lined ware (C-ware), was made by coating a red-burnished pot with white gypsum paint, then scratching or brushing on the design. The favorite subject was dangerous animals — hippos most of all, plus crocodiles, the very creatures that could kill you on the river. The Naqada culture itself is named after the village of Naqada, whose ancient Egyptian name was Nubt, meaning 'Gold-town' — a clue to why this stretch of the valley got rich in the first place."
         }
-      ]
+      ],
+      "commonsFile": "Naqada_I_statuettes.jpg"
     },
     {
       "id": "evt-ede-hierakonpolis-rise",
       "label": "Hierakonpolis (Nekhen) Emerges",
       "year": -3700,
-      "description": "Hierakonpolis grew into the largest predynastic settlement, with a population of 5,000-10,000. It housed temples, breweries, and workshops — a proto-capital of Upper Egypt.",
+      "description": "The town the Greeks called Hierakonpolis (the Egyptians called it Nekhen) swelled into the biggest settlement on the Nile, sprawling for miles along the desert edge. Everything that 'ancient Egypt' became can be traced to choices made here.",
       "wikiSlug": "Nekhen",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Egypt's First City",
-          "text": "Hierakonpolis (Egyptian: Nekhen, 'City of the Falcon') on the west bank of the Nile, 80 km south of Luxor, was the largest settlement in predynastic Egypt. By 3700 BCE it covered approximately 1 square kilometer with a population estimated at 5,000-10,000 people — extraordinary for the period."
-        },
-        {
-          "label": "Urban Infrastructure",
-          "text": "Hierakonpolis had specialized districts: a large brewery capable of producing 300 gallons of beer daily, ceramic workshops producing standardized pottery, and an elite ceremonial precinct with a mud-brick temple. This level of economic specialization implies centralized authority and surplus management."
-        },
-        {
-          "label": "Political Center",
-          "text": "Archaeological evidence suggests Hierakonpolis was the seat of Upper Egypt's ruling dynasty before Narmer. Royal artifacts — the Scorpion Macehead, the Narmer Palette, the Two-Dog Palette — were all deposited here as votive offerings, making Hierakonpolis the political and symbolic center of proto-pharaonic Egypt."
+          "label": "Explore further",
+          "text": "The 5,000-10,000 population estimate is debated — some archaeologists call it inflated — but nobody disputes that the predynastic remains run for over 1.9 miles (3 km) along the desert edge and reach 1.5 miles (2.5 km) back into the wadi. The town's falcon god, Nekheny, was later merged with Horus, the sky-falcon whose living form every pharaoh claimed to be, which is why kings for the next 3,000 years kept the title 'He of Nekhen.' Its name 'City of the Hawk' literally encoded the religion of kingship before kingship existed."
         }
-      ]
+      ],
+      "commonsFile": "Excavations_At_Kom-El-Ahmar._(1910)_-_TIMEA.jpg"
     },
     {
       "id": "evt-ede-earliest-brewery",
       "label": "Earliest Large-Scale Brewery",
       "year": -3600,
-      "description": "Hierakonpolis housed one of the world's earliest large-scale breweries, producing beer for hundreds of people — evidence of organized labor and elite-sponsored feasting.",
+      "description": "Around 3600 BCE the people of Hierakonpolis built the oldest large-scale brewery known anywhere on Earth — a row of giant ceramic vats designed to crank out beer for a workforce, not a family.",
       "wikiSlug": "Nekhen",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Industrial Beer Production",
-          "text": "The Hierakonpolis brewery, excavated in the 1980s, contained six large pottery vats (each holding 65-80 gallons) arranged around central hearths — a production facility, not a household operation. Chemical analysis confirmed barley-based beer with possible herbal additives."
-        },
-        {
-          "label": "Beer and Power",
-          "text": "Egyptian beer was thick, nutritious, and mildly alcoholic — closer to liquid bread than modern beer. Mass beer production was an instrument of political power: rulers could attract and feed large labor pools for construction projects. The phrase 'bread and beer' described a full meal in ancient Egyptian."
-        },
-        {
-          "label": "Ritual Significance",
-          "text": "Beer was also an offering to the gods. The Hierakonpolis brewery was adjacent to the earliest known Egyptian temple, suggesting ritual use as well as labor provisioning. The combination of industrial production and ritual context points toward state-level organization of religion and economics."
+          "label": "Explore further",
+          "text": "Excavators reconstruct five free-standing vats that could brew roughly 86 gallons (about 325 liters) in a single batch — close to 650 modern bottles, far more than any household could drink. Chemical analysis of the residue in 2019 confirmed the brew was made from emmer wheat and possibly contained wild fruit or other flavorings. The same beer-and-bread ration system that fed these workers would, two thousand years later, feed the crews who raised the pyramids."
         }
       ]
     },
@@ -897,47 +782,32 @@
       "id": "evt-ede-earliest-temples",
       "label": "Earliest Egyptian Temple",
       "year": -3510,
-      "description": "An oval enclosure at Hierakonpolis served as the earliest known Egyptian temple, with evidence of animal sacrifice, votive offerings, and ritual activity.",
+      "description": "The oldest temple ever excavated in Egypt — a huge oval courtyard at Hierakonpolis fenced with mud-plastered reeds, with tall wooden poles at one end and animal offerings inside.",
       "wikiSlug": "Nekhen",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Structure",
-          "text": "The Hierakonpolis temple consisted of an oval courtyard enclosed by a wooden-post fence, with a central flagpole (mast) — the earliest known example of the towering wooden flagpoles that would characterize Egyptian temples throughout the pharaonic period."
-        },
-        {
-          "label": "Ritual Activity",
-          "text": "Excavations found animal bones from cattle, gazelle, hippopotamus, and elephant — evidence of large-scale ritual feasting or sacrifice. Pottery deposits suggest regular offerings. The site was likely associated with the Horus falcon cult that made Hierakonpolis the spiritual capital of Upper Egypt."
-        },
-        {
-          "label": "Legacy",
-          "text": "The oval-enclosure temple type preceded the classic rectangular temple of the pharaonic period. But the core elements — an enclosed sacred space, votive deposits, animal sacrifice — were already present by 3500 BCE, establishing a ritual tradition that continued for three thousand years."
+          "label": "Explore further",
+          "text": "The ceremonial center, dryly catalogued by archaeologists as HK29A, measured about 105 by 43 feet (32 by 13 m) and dates to the Naqada IIc phase, around 3400 BCE. Post-holes show it was anchored by enormous wooden pillars, possibly 40 feet (12 m) tall — the ancestors of the flag-masts that later flanked every temple gateway in Egypt. The open court, screening fence, and inner focal point became the basic floor plan that temples from Saqqara to Karnak would elaborate on for three thousand years."
         }
-      ]
+      ],
+      "commonsFile": "Hierakonpolis_revetment_of_Temple_basement.jpg"
     },
     {
       "id": "evt-ede-painted-tomb",
       "label": "Painted Tomb of Hierakonpolis",
       "year": -3500,
-      "description": "The 'Painted Tomb' (Tomb 100) at Hierakonpolis contains the oldest known Egyptian wall paintings — depicting boats, hunting, and combat scenes that foreshadow pharaonic art.",
-      "commonsFile": "Tomb100.jpg",
+      "description": "Tomb 100, the 'Painted Tomb' of Hierakonpolis — the oldest figural wall paintings in Egypt. Boats, hunters, animals, and a man standing over kneeling captives that may be the first hint of the royal 'smiting' pose.",
+      "commonsFile": "Tomb_100_Hierakompolis,_Naqada_II_culture_(c._3500-3200_BCE).jpg",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "The Painting",
-          "text": "Tomb 100 at Hierakonpolis dates to about 3500-3350 BCE. Its plastered mud-brick walls were covered in painted scenes showing six large boats, hunting scenes with bound captives, and a man smiting three kneeling enemies — a composition that became the standard royal iconography of the pharaonic period."
-        },
-        {
-          "label": "Stylistic Innovation",
-          "text": "The Tomb 100 paintings show figures in the same combined frontal/profile style that would define Egyptian art for millennia. The 'smiting scene' — a king with raised mace about to strike kneeling enemies — appears here five centuries before the Narmer Palette, establishing an artistic convention of astonishing longevity."
-        },
-        {
-          "label": "Social Context",
-          "text": "The sheer scale of this tomb (roughly 4 meters by 2 meters with painted walls) and its location at Hierakonpolis identifies its occupant as one of the most powerful individuals in predynastic Egypt — almost certainly an early ruler of the Upper Egyptian proto-state."
+          "label": "Explore further",
+          "text": "Frederick Green and James Quibell uncovered it in 1898-99; the brick-lined chamber was about 15 by 6.5 feet (4.5 by 2 m). It had been looted in antiquity, and the original tomb is now lost — only fragments of the plaster survive, preserved in the Egyptian Museum in Cairo. Scholars date it anywhere from roughly 3500 to 3250 BCE and still argue over the faded scenes, but the upraised-arm conqueror motif, if that's what it is, would resurface 2,500 years later on temple walls as the pharaoh clubbing his enemies."
         }
       ]
     },
@@ -970,24 +840,16 @@
       "id": "evt-ede-predynastic-faience",
       "label": "Egyptian Faience Developed",
       "year": -3500,
-      "description": "Faience — quartz paste covered with copper-silicate glaze — was invented in predynastic Egypt, producing the characteristic blue-green color associated with the Nile and fertility.",
+      "description": "Egyptian faience — ground quartz fired into a brilliant turquoise-blue glaze — comes into its own in the predynastic Nile. It's the world's first deliberately manufactured glaze.",
       "wikiSlug": "Egyptian_faience",
-      "commonsFile": "Egyptian Faience Hippopotamus MET DP251139.jpg",
+      "commonsFile": "Egyptian_faience_beads.jpg",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "How It Was Made",
-          "text": "Egyptian faience is not true ceramic. It is made from ground quartz or sand mixed with small amounts of lime and mineral salts (copper for blue-green, manganese for purple), shaped while wet, and fired at relatively low temperatures. The result: a non-clay object with a glassy surface."
-        },
-        {
-          "label": "Why Blue-Green?",
-          "text": "The copper-silicate blue-green color mimicked turquoise and malachite — both valued for their association with the Nile, vegetation, and regeneration. In Egyptian cosmology, blue-green (wadj) was the color of life, fertility, and the primordial waters of creation."
-        },
-        {
-          "label": "Legacy",
-          "text": "Faience production continued for over 3,000 years of Egyptian history. It was used for amulets, shabtis (funerary figurines), architectural tiles, and jewelry. The famous blue hippopotamus figures of the Middle Kingdom are faience. The technology eventually spread through the Mediterranean and inspired early glassmaking."
+          "label": "Explore further",
+          "text": "The technique was older than people often assume: glazed steatite (soapstone) beads turn up as early as the Badarian, before 4000 BCE, with true faience beads following in Naqada I. The blue-green glow came from copper salts migrating to the surface during firing, and the color carried meaning from the start — the shade of the flooding Nile and the sky, later tied to rebirth. Whether Egypt or western Asia made it first is genuinely unsettled; the chronologies are still too fuzzy to call."
         }
       ]
     },
@@ -995,25 +857,18 @@
       "id": "evt-ede-boat-building",
       "label": "Predynastic Boat Building",
       "year": -3450,
-      "description": "Wooden boats and reed vessels were essential for Nile travel and trade. Predynastic rock art and pottery depictions show multi-oared boats with cabins.",
+      "description": "Real wooden boats, not just reed rafts — multi-cabin, many-oared vessels that show up painted all over Naqada II pottery and made long-distance river trade possible.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "Reed Rafts to Wooden Ships",
-          "text": "The earliest Nile craft were bundled papyrus reed rafts — simple but effective on the relatively calm river. By Naqada II (3500-3200 BCE), wooden boats with high prows and multiple oars carried elite cargoes and passengers along the Nile. Boat pits adjacent to some Abydos royal tombs preserved planked wooden vessels."
-        },
-        {
-          "label": "The Nile Highway",
-          "text": "The Nile was Egypt's highway, allowing goods, armies, and officials to move efficiently over vast distances. Boats going south fought the current; boats going north were carried by it. The prevailing north wind allowed sailboats to travel upstream, making the Nile effectively a two-way road with power assist in both directions."
-        },
-        {
-          "label": "Cosmic Boats",
-          "text": "The importance of boats in predynastic life infused Egyptian cosmology: the sun god Ra traveled across the sky in a solar barque, and the dead required a boat to cross into the afterlife. The astronomical and religious symbolism of boats in pharaonic Egypt has deep predynastic roots."
+          "label": "Explore further",
+          "text": "The oldest surviving wooden hulls aren't from this phase at all but from the royal boat graves at Abydos a few centuries later (around 2900 BCE), built for First Dynasty kings. Those Abydos boats are the world's earliest known sewn-plank hulls — planks lashed together with rope, the seams stuffed with reed bundles — and tellingly they were made of local tamarisk wood, not imported cedar. On the painted Naqada II pots, boats are the dominant image, often shown with multiple cabins and a standard flying above, hinting these were vessels of power and ceremony, not just cargo."
         }
-      ]
+      ],
+      "commonsFile": "Hierakonpolis_Tomb_100_Boat.jpg"
     },
     {
       "id": "evt-ede-flint-knapping",
@@ -1044,73 +899,52 @@
       "id": "evt-ede-irrigation-systems",
       "label": "Basin Irrigation Systems",
       "year": -3450,
-      "description": "Predynastic communities developed basin irrigation to capture Nile floodwaters, dramatically increasing agricultural productivity and supporting population growth.",
+      "description": "Basin irrigation: low earthen walls trap the September flood in natural depressions so the water soaks the soil for weeks before draining. Simple, but it demanded the kind of coordination that breeds chiefs.",
       "wikiSlug": "Irrigation_in_Egypt",
       "tier": 2,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "How Basin Irrigation Worked",
-          "text": "Egyptian basin irrigation involved building earthen banks to divide the floodplain into basins. When the annual Nile flood arrived, water was directed into these basins and held there for weeks, allowing silt to settle. The water was then drained and crops sown in the waterlogged, fertilized soil."
-        },
-        {
-          "label": "Organizational Requirements",
-          "text": "Maintaining a basin irrigation system required coordinated community labor — building and repairing banks, managing water distribution, and timing operations with the flood cycle. This cooperative requirement may have been one driver of political consolidation: communities needed leaders to organize irrigation work."
-        },
-        {
-          "label": "Agricultural Productivity",
-          "text": "Basin irrigation extended the productive floodplain beyond the natural inundation zone. The Scorpion Macehead depicts a king performing what appears to be an irrigation ritual — cutting an earthen bank with a hoe — showing that by Naqada III, irrigation management was explicitly royal business."
+          "label": "Explore further",
+          "text": "It's almost the opposite of Mesopotamia's labor-hungry canal-and-lift systems — Egypt's flood did the work for free, so the job was just to pen it in and let it sit. Because the basin walls crossed property lines and had to be kept up by whole communities, the people who organized that upkeep accumulated authority over everything else too. The basin method proved so well-matched to the Nile that versions of it kept Egypt fed right up until the Aswan High Dam ended the annual flood in the 1960s."
         }
-      ]
+      ],
+      "commonsFile": "Ceremonial_mace-head_of_King_Scorpion.jpg"
     },
     {
       "id": "evt-ede-predynastic-goldwork",
       "label": "Earliest Egyptian Goldwork",
       "year": -3430,
-      "description": "Gold jewelry and foil from predynastic graves demonstrate early metalworking skill and access to Nubian gold sources — the beginning of Egypt's legendary relationship with gold.",
+      "description": "Gold beads and ornaments start appearing in Upper Egyptian graves in quantities that imply organized expeditions into the Eastern Desert — the start of Egypt's long love affair with gold.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 3,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Sources of Gold",
-          "text": "Egypt's gold came primarily from the Eastern Desert between the Nile and the Red Sea, and from Nubia to the south. Both regions contained alluvial deposits and rock-ore veins accessible to small-scale mining. Gold appears in predynastic graves as early as 3500 BCE."
-        },
-        {
-          "label": "Working Gold",
-          "text": "Gold was worked by cold hammering into sheets and wires — no smelting required. Predynastic goldsmiths produced beads, rings, and foil-covered objects. The gold foil applied to ivory handles of prestige knives and palettes shows sophisticated metalworking skill."
-        },
-        {
-          "label": "Gold and the Divine",
-          "text": "Gold's color identified it with the sun and with divine flesh in Egyptian cosmology — the flesh of the gods was said to be made of gold. This association made gold simultaneously a measure of earthly wealth and a ritual material, explaining why Egypt's pharaohs would devote enormous resources to gold extraction and gold objects."
+          "label": "Explore further",
+          "text": "The earliest Egyptian gold objects, mostly small beads, date to the fourth millennium BCE, and Hierakonpolis and Naqada's nearness to the gold country between the Nile and the Red Sea may be exactly why they rose to power first. Prospectors went after gold visible in quartz veins or washed into dry wadi beds, smashing the rock with stone hammers to free it. Egypt's name for Nubia, its other great gold source upriver, was literally built on the word for gold — nbw."
         }
-      ]
+      ],
+      "commonsFile": "Tell_el-Farkha_golden_figurine_(60cm_tall).jpg"
     },
     {
       "id": "evt-ede-lapis-lazuli-trade",
       "label": "Long-Distance Trade Networks",
       "year": -3400,
-      "description": "Predynastic Egyptians traded with the Levant, Nubia, and beyond — lapis lazuli from Afghanistan, obsidian from Ethiopia, and cedar from Lebanon reached Nile Valley elites.",
+      "description": "Deep-blue lapis lazuli reaches Upper Egyptian graves — proof that Nile elites had plugged into trade chains stretching across half the ancient world.",
       "wikiSlug": "Predynastic_Egypt",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "What Was Traded",
-          "text": "By 3500 BCE, elite predynastic graves contained extraordinary imports: lapis lazuli traceable to mines in Badakhshan (modern Afghanistan), obsidian from the Ethiopian Rift Valley, cedar timber from Lebanon, bitumen from the Dead Sea region, and copper ore from the Sinai. Each commodity traveled through multiple intermediary traders."
-        },
-        {
-          "label": "Levantine Connection",
-          "text": "Archaeological evidence at Egyptian and Canaanite sites shows intensive exchange during Naqada II. Egyptian Nile catfish bones appear in Palestinian sites; Palestinian pottery appears in Egyptian elite graves. Egyptian-style objects found at Canaanite sites in Israel and Jordan suggest Egyptian cultural influence, possibly backed by political power."
-        },
-        {
-          "label": "Why Trade Mattered",
-          "text": "Long-distance trade gave emerging elites something ordinary farmers couldn't produce: rare materials that demonstrated connections to distant worlds. Luxury imports were redistributed through feasting and gift exchange, binding subordinates to patrons. Control of trade routes became a source of political power that reinforced the emerging hierarchy."
+          "label": "Explore further",
+          "text": "Essentially all ancient lapis came from one place: the Sar-i Sang mines in the Badakhshan mountains of northeastern Afghanistan, worked for over 6,000 years and still producing today. To reach Egypt the stone passed hand to hand across Iran, Mesopotamia, and the Levant — thousands of miles of middlemen — so a single bead represented a fortune. The same Afghan mine supplied the lapis in the Royal Tombs of Ur and, much later, the burial mask of Tutankhamun."
         }
-      ]
+      ],
+      "commonsFile": "Lump_of_raw_lapis_lazuli.jpg"
     },
     {
       "id": "evt-ede-horus-falcon-worship",
@@ -1188,24 +1022,16 @@
       "id": "evt-ede-cosmetic-palettes",
       "label": "Ceremonial Stone Palettes",
       "year": -3300,
-      "description": "Large decorated stone palettes evolved from simple cosmetic grinding stones into elaborate ceremonial objects depicting warfare, hunting, and mythological scenes.",
+      "description": "Flat stone slabs that began as everyday tools for grinding eye-paint grew, over generations, into oversized ceremonial tablets carved edge-to-edge with battles, hunts, and beasts — royal propaganda in stone.",
       "wikiSlug": "Cosmetic_palette",
-      "commonsFile": "Hunters Palette.jpg",
+      "commonsFile": "Two_Dogs_Palette.jpg",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "From Cosmetics to Propaganda",
-          "text": "Early cosmetic palettes (Naqada I) were simple geometric shapes — fish, turtles, birds — used for grinding malachite eye paint. By Naqada II-III, large ceremonial palettes (40-60 cm) depicted increasingly complex scenes: intertwined long-necked animals, hunting scenes, battle victories. The grinding bowl remained but the object had become primarily communicative."
-        },
-        {
-          "label": "The Hunt and Power",
-          "text": "The Hunters' Palette (c. 3200-3100 BCE) shows a hunting party encircling desert animals — a classic composition linking the king's conquest of wilderness to his conquest of human enemies. Hunting was not merely subsistence activity but a ritual demonstration of royal power over nature, paralleling the king's role in maintaining cosmic order."
-        },
-        {
-          "label": "Forerunners of Royal Art",
-          "text": "The narrative relief carving on ceremonial palettes directly prefigures the relief sculpture of the pharaonic temples — the same compositional conventions, the same hierarchical scaling (important figures larger), the same themes of royal victory over enemies and chaos. The Narmer Palette is the last and greatest of this tradition."
+          "label": "Explore further",
+          "text": "The everyday versions had a shallow dish for grinding pigment like malachite into eye-makeup; on the ceremonial ones that dish shrank to a token circle or vanished entirely, leaving the whole surface free for relief carving. Famous survivors carry telling nicknames — the Hunters Palette (now split between the British Museum and the Louvre), the Battlefield Palette (also called the Vultures or Lion Palette, possibly the oldest battle scene in Egyptian art), and the Bull Palette, where a bull standing in for the king gores his enemies. These late predynastic palettes are the direct run-up to the Narmer Palette, the monument that opens Egypt's dynastic age."
         }
       ]
     },
@@ -1213,23 +1039,15 @@
       "id": "evt-ede-nubian-trade",
       "label": "Nile Trade with Nubia",
       "year": -3300,
-      "description": "Trade between predynastic Egypt and Nubia brought gold, ivory, ebony, and enslaved people northward while Egyptian cultural influence spread southward along the Nile.",
+      "description": "As Upper Egypt consolidated, its trade up the Nile boomed — Nubian gold, ivory, ebony, and incense flowing north past the First Cataract in exchange for Egyptian goods, the start of a long and lopsided relationship.",
       "wikiSlug": "Nubia",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "What Nubia Offered",
-          "text": "Nubia (Egyptian: Ta-Seti, 'Land of the Bow') provided luxury goods that Egypt's own territory lacked: gold from the Eastern Desert and upstream mines, ivory from elephant tusks, ebony wood, ostrich feathers, and enslaved people — all moving northward along the Nile to Upper Egyptian elites."
-        },
-        {
-          "label": "A-Group Nubia",
-          "text": "The A-Group Nubian culture (c. 3700-2800 BCE) occupied the Nile Valley between the First and Second Cataracts (modern Sudan). A-Group graves show both Egyptian imports and a sophisticated local culture — some A-Group burials at Qustul include royal insignia (incense burners with kings) that may predate comparable Egyptian examples."
-        },
-        {
-          "label": "Economic Control",
-          "text": "Control of Nubian trade was a significant source of power for Upper Egyptian rulers. This is one reason Hierakonpolis — closer to Nubia than the Delta — emerged as Upper Egypt's dominant city. The wealth flowing northward from Nubia helped fund the consolidation of political power that produced Egypt's first pharaohs."
+          "label": "Explore further",
+          "text": "The southern partner was the A-Group culture of Lower Nubia (roughly 3800-3100 BCE), close cousins of the Naqada Egyptians who grew rich by controlling the routes that carried gold and exotic goods out of deeper Africa. The exchange ran both ways — Egyptian storage jars and Mediterranean olive oil went south, African luxuries came north — and stayed mostly peaceful and profitable. It ended badly: the kings of Egypt's First Dynasty wiped out the A-Group around 3100 BCE, turning a trading partner into a conquered frontier. Egyptian royal names start showing up carved into Nubian cliff faces in this period, staking claims well south of Egypt proper."
         }
       ]
     },
@@ -1237,24 +1055,16 @@
       "id": "evt-ede-earliest-hieroglyphs",
       "label": "Earliest Hieroglyphic Writing",
       "year": -3250,
-      "description": "Bone and ivory tags from Tomb U-j at Abydos bear the earliest known Egyptian hieroglyphs — short labels recording places, quantities, and ownership, roughly contemporary with early Sumerian writing.",
+      "description": "Small bone and ivory tags from tomb U-j carry the oldest writing yet found in Egypt — tiny clusters of picture-signs that recorded where goods came from and how many there were, the ancestors of full hieroglyphs.",
       "wikiSlug": "Egyptian_hieroglyphs",
-      "commonsFile": "Hieroglyphs from the tomb of Seti I.jpg",
+      "commonsFile": "Mudstone_palette_with_hieroglyphs_in_relief._Late_Predynastic,_Naqada_III._3250-3100_BC._From_El-Amra.jpg",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "The Discovery",
-          "text": "Tomb U-j at Abydos, excavated in 1988 by Günter Dreyer, contained over 150 small bone and ivory tags inscribed with hieroglyphic signs. Dating to c. 3250 BCE, these are the earliest known Egyptian hieroglyphs — predating previously known examples by over a century."
-        },
-        {
-          "label": "Administrative Writing",
-          "text": "The tags labeled jars of wine and oil with their place of origin and quantity — administrative bookkeeping, not narrative text. This parallels Mesopotamian proto-cuneiform, which also began as an accounting system. Writing appears to have been invented independently in both regions to solve the same problem: tracking large quantities of goods."
-        },
-        {
-          "label": "Independent Invention?",
-          "text": "Whether Egyptian hieroglyphs were invented independently or inspired by knowledge of Mesopotamian writing is debated. Egyptian writing differs completely in script design from cuneiform, suggesting independent invention — but Naqada II Egyptian-Mesopotamian contact means Egyptians knew writing existed without necessarily knowing what it looked like."
+          "label": "Explore further",
+          "text": "Around 150 of these little tags survived, each pierced with a hole in one corner so it could be tied to a jar with string — essentially the world's first shipping labels. The signs include a scorpion, an elephant, a bird, plants, and numerical strokes; some are read as the names of the towns and estates that supplied the king's wine. The date of roughly 3250 BCE puts them neck-and-neck with the earliest proto-cuneiform clay tablets from the city of Uruk in Mesopotamia, which is why scholars still debate whether Egypt invented writing on its own or caught the idea from the east. The listed image (from the much later tomb of Seti I) shows mature hieroglyphs, not these primitive tags."
         }
       ]
     },
@@ -1262,73 +1072,52 @@
       "id": "evt-ede-tomb-u-j",
       "label": "Tomb U-j at Abydos",
       "year": -3250,
-      "description": "This predynastic royal tomb at Abydos contained hundreds of imported wine jars, ivory labels, and a scepter — revealing the wealth and international connections of pre-unification rulers.",
+      "description": "The largest predynastic tomb ever found in Egypt — a brick-lined warren of twelve rooms at Abydos, packed with imported wine and grave goods, built for a king who ruled long before Egypt was a single country.",
       "wikiSlug": "Umm_el-Qa'ab",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "The Tomb",
-          "text": "Tomb U-j at the Umm el-Qa'ab cemetery near Abydos is the largest known predynastic tomb: a multi-chambered mud-brick structure with 12 rooms covering approximately 66 square meters. It contained the burial of a ruler who controlled all of Upper Egypt."
-        },
-        {
-          "label": "Imports of Power",
-          "text": "Among the 400+ pottery vessels found in Tomb U-j, a significant proportion were Palestinian wine and oil jars — representing a massive importation of Levantine luxury goods. This demonstrates that by 3250 BCE, a ruler at Abydos had both the wealth and the trade connections to acquire goods from hundreds of kilometers away."
-        },
-        {
-          "label": "The Scepter",
-          "text": "Tomb U-j contained an ivory scepter with a carved animal head — possibly the earliest known Egyptian royal scepter. This object, along with the scale of the tomb, identifies its occupant as the most powerful ruler in the Nile Valley at the time — a predecessor of Narmer by two or three generations."
+          "label": "Explore further",
+          "text": "German archaeologist Gunter Dreyer found it in 1988, and its layout — multiple rooms arranged almost like a miniature house or palace — was startlingly ambitious for its date of roughly 3250-3200 BCE. Among the goods was an ivory heka scepter shaped like a shepherd's crook, the exact symbol Egyptian kings would carry for the next three thousand years. The hundreds of tall ceramic wine jars appear to have been imported full from the southern Levant (today's Israel, Palestine, and Lebanon), and chemical residue inside some of them still tested positive for wine."
         }
-      ]
+      ],
+      "commonsFile": "Design_of_the_Abydos_token_glyphs_dated_to_3400-3200_BCE.jpg"
     },
     {
       "id": "evt-ede-abydos-royal-cemetery",
       "label": "Abydos Royal Cemetery Established",
       "year": -3200,
-      "description": "The cemetery of Umm el-Qa'ab at Abydos became the burial ground for Upper Egypt's proto-dynastic rulers — establishing a royal necropolis that would continue through the First Dynasty.",
+      "description": "A patch of desert at Abydos, later nicknamed Umm el-Qa'ab (\"mother of pots\" for the millions of broken offering jars left there), became the burial ground for Upper Egypt's earliest kings — and stayed Egypt's holiest royal cemetery for over a thousand years.",
       "wikiSlug": "Umm_el-Qa'ab",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Why Abydos?",
-          "text": "Abydos was already a sacred site when the proto-dynastic rulers chose it as their burial ground. Located at the edge of the cultivated land against the desert cliffs, Abydos was seen as a gateway between the worlds of the living and the dead — the entrance to the Western realm of Osiris."
-        },
-        {
-          "label": "Growing Tombs",
-          "text": "The royal tombs at Abydos grew progressively larger from the pre-dynastic period through the First Dynasty. Tomb U-j (c. 3250 BCE) already had 12 rooms. By Narmer and the First Dynasty kings, royal tombs at Abydos had dozens of subsidiary chambers and rows of retainer burials — servants sacrificed to accompany the king into death."
-        },
-        {
-          "label": "Continuous Sacredness",
-          "text": "Even after the royal necropolis shifted to Saqqara in the later Early Dynastic period, Abydos remained the most sacred site in Egypt. Later pharaohs built cenotaphs there; pilgrims traveled from across Egypt to visit the tomb of Osiris, which the Egyptians identified with one of the early royal tombs at Abydos."
+          "label": "Explore further",
+          "text": "The site is split into two zones: the older Cemetery U (graves running all the way back through the Naqada phases, roughly 4000-3000 BCE) and the later Cemetery B just to its south, which holds the tombs of Dynasty 0 kings like Iry-Hor, Ka, and Narmer plus the First Dynasty. Centuries later, pilgrims decided the early tomb of King Djer was actually the grave of the god Osiris, lord of the dead, and dumped so many votive pots there over the ages that they gave the whole site its modern Arabic name. The royal cemetery sits about a mile (1.5 km) out in the desert behind the temples of the town."
         }
-      ]
+      ],
+      "commonsFile": "Umm_el-Qaab.jpg"
     },
     {
       "id": "evt-ede-upper-lower-conflict",
       "label": "Upper vs. Lower Egypt Conflict",
       "year": -3200,
-      "description": "Archaeological evidence shows increasing warfare between Upper and Lower Egyptian polities during Naqada III, with Upper Egypt gradually conquering and absorbing the Delta.",
+      "description": "Through the Naqada III period (roughly 3300-3100 BCE), Upper Egypt's rival chiefdoms were hammered by force into a single kingdom ruled from Thinis — setting the stage for the final push north into the Delta.",
       "wikiSlug": "Naqada_III",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Evidence of War",
-          "text": "Archaeological evidence for the wars of unification includes: Egyptian fortifications with burning and destruction layers in the Delta, mace heads depicting conquest scenes, ceremonial palettes showing bound northern captives, and the complete disappearance of Lower Egyptian cultural traditions (Maadi, Buto) replaced by Upper Egyptian Naqada material."
-        },
-        {
-          "label": "Two Traditions",
-          "text": "Upper and Lower Egypt had genuinely different cultural identities: distinct pottery traditions, different funerary practices, different crown types, and different tutelary symbols (lotus vs. papyrus, vulture vs. cobra). Unification was not a natural merging but a military conquest that imposed the Upper Egyptian template on the north."
-        },
-        {
-          "label": "The Long War",
-          "text": "The conflict between Upper and Lower Egypt was not a single battle but a century-long series of campaigns. By the time of Narmer (c. 3100 BCE), the decisive military victories had already been won by his predecessors — the Scorpion kings and others. Narmer's unification was the culmination of a process well underway before him."
+          "label": "Explore further",
+          "text": "The fighting shows up in the carved palettes: the Battlefield Palette has a lion and birds of prey tearing at sprawled corpses, and the Cities Palette (also called the Libyan or Tehenu Palette, now in the Egyptian Museum in Cairo) shows seven walled towns being broken open by animal-totems — a hawk, a lioness, a scorpion — each swinging a hoe. The names scratched into pottery from this era line up into a sequence of late Thinite kings — Iry-Hor, then Ka, then Narmer — buried in neighboring tombs at Abydos. Their old southern rival Hierakonpolis was never destroyed; it simply seems to have been quietly absorbed, since it never got a royal cemetery to rival Abydos."
         }
-      ]
+      ],
+      "commonsFile": "HuntersPalette-BritishMuseum-August21-08.jpg"
     },
     {
       "id": "evt-ede-pottery-mark-writing",
@@ -1358,24 +1147,16 @@
       "id": "evt-ede-gebel-el-arak-knife",
       "label": "Gebel el-Arak Knife",
       "year": -3200,
-      "description": "The Gebel el-Arak Knife, with its Mesopotamian-style carved ivory handle depicting a man between lions, shows the extent of Mesopotamian cultural influence on predynastic Egyptian elite art.",
+      "description": "A flint blade with a carved elephant-ivory handle, around 3300-3200 BCE — one face shows a robed man wrestling two lions in a pose lifted straight from Mesopotamian art, hard proof of contact between early Egypt and Sumer.",
       "wikiSlug": "Gebel_el-Arak_Knife",
-      "commonsFile": "Gebel el-Arak Knife.jpg",
+      "commonsFile": "Couteau_de_Gebel_el-Arak_-_Musée_du_Louvre_Antiquités_égyptiennes_E_11517_-_recto_verso.jpg",
       "tier": 3,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "The Object",
-          "text": "The Gebel el-Arak Knife (c. 3300-3100 BCE) has an ivory handle carved with a scene showing a man grasping two lions — a composition identical to the 'Master of Animals' motif ubiquitous in Mesopotamian glyptic art. On the other side: a river battle with two types of boats, one clearly of Mesopotamian style."
-        },
-        {
-          "label": "Mesopotamian Influence",
-          "text": "The Naqada II period saw a remarkable influx of Mesopotamian artistic motifs into Egypt: cylinder seals (a Mesopotamian invention), the 'Master of Animals' composition, certain architectural brick styles, and possibly the idea of writing itself. Whether this reflects direct contact or intermediary trade is debated."
-        },
-        {
-          "label": "Egyptian Innovation",
-          "text": "Crucially, Egypt absorbed Mesopotamian ideas without becoming Mesopotamian. The 'Master of Animals' motif was quickly Egyptianized — the man between animals became the pharaoh dominating enemies, using the same compositional logic but in an entirely Egyptian context. Egypt was a selective receiver of outside influence."
+          "label": "Explore further",
+          "text": "That \"master of animals\" figure matches the so-called priest-king images of Mesopotamia's Late Uruk period, and the other side shows a river battle in which some boats have the high crescent profile of Sumerian craft rather than Egyptian ones. It has been in the Louvre in Paris since a curator bought it in Cairo in 1914 — and the seller's claim that it came from the desert site of Gebel el-Arak is now doubted, with many scholars thinking it actually came from Abydos. The handle was long misidentified as hippopotamus tooth before being confirmed as elephant ivory."
         }
       ]
     },
@@ -1407,9 +1188,9 @@
       "id": "evt-ede-scorpion-king",
       "label": "Scorpion King (Scorpion II)",
       "year": -3150,
-      "description": "The Scorpion Macehead depicts a predynastic king performing an irrigation ritual. 'Scorpion' was one of the last rulers before Narmer, controlling much of Upper Egypt.",
+      "description": "A pear-shaped ceremonial mace-head showing a king in the White Crown of Upper Egypt swinging a hoe, probably cutting the first furrow or opening an irrigation dike — a ritual of royal power before Narmer's time.",
       "wikiSlug": "Scorpion_II",
-      "commonsFile": "Scorpion macehead oxford.jpg",
+      "commonsFile": "Kingscorpion.jpg",
       "tier": 2,
       "tags": [
         "people"
@@ -1421,16 +1202,8 @@
       ],
       "details": [
         {
-          "label": "Who He Was",
-          "text": "Scorpion II (his modern name, from the scorpion hieroglyph associated with him) was an Upper Egyptian king from Hierakonpolis who likely ruled c. 3200-3100 BCE. He is one of the last known pre-Narmer rulers and may have conducted early campaigns against Lower Egypt."
-        },
-        {
-          "label": "The Macehead",
-          "text": "The Scorpion Macehead, found at Hierakonpolis, depicts the king wearing the White Crown of Upper Egypt, holding a hoe, and performing what appears to be a ritual opening of an irrigation canal — surrounded by fans, standards, and men carrying baskets. It is one of the earliest narrative scenes in Egyptian art."
-        },
-        {
-          "label": "Royal Ritual",
-          "text": "The irrigation ritual depicted on the macehead is significant: it shows a king performing agricultural labor not as a worker but as a priest-performer, magically enacting the opening of water channels to fertilize the land. This fusing of political, economic, and ritual authority in a single royal act prefigures the pharaonic role as cosmic sustainer."
+          "label": "Explore further",
+          "text": "The mace-head came from the same Main Deposit at Hierakonpolis as the Narmer Palette and now lives in the Ashmolean Museum in Oxford. At roughly 10 inches (25 cm) it is about five times the size of a mace you could actually fight with, which is the tip-off that it was a ritual object, not a weapon. The king is named only by a small scorpion glyph beside a rosette, with no spelled-out name attached — so 'Scorpion' is really our nickname for him, not a title he would have recognized. Crucially, he wears only the White Crown and never the Red, which is why scholars read him as a southern king who had not yet swallowed the Delta."
         }
       ]
     },
@@ -1438,24 +1211,16 @@
       "id": "evt-ede-narmer-palette",
       "label": "Narmer Palette",
       "year": -3100,
-      "description": "The Narmer Palette, found at Hierakonpolis, depicts King Narmer wearing the crowns of both Upper and Lower Egypt — the iconic symbol of Egyptian unification.",
+      "description": "A shield-shaped slab of green siltstone, carved on both faces, that shows King Narmer smiting an enemy on one side and parading past beheaded foes on the other — the single most famous object of early Egypt.",
       "wikiSlug": "Narmer_Palette",
-      "commonsFile": "Narmer Palette, c. 3100 BC, Egypt. Schist. Painted surfaces. Obverse and reverse. Egyptian Museum, Cairo (20528027316).jpg",
+      "commonsFile": "Narmer_Palette.jpg",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "What It Shows",
-          "text": "The Narmer Palette (c. 3100 BCE) is a 64 cm ceremonial greywacke palette carved on both sides. The obverse shows Narmer wearing the Red Crown of Lower Egypt, inspecting rows of decapitated enemies. The reverse shows him wearing the White Crown of Upper Egypt, smiting a kneeling captive with a mace — one of art history's most imitated compositions."
-        },
-        {
-          "label": "A Historical Document",
-          "text": "The Narmer Palette is one of the world's earliest historical documents — an object that records a specific historical act (the conquest of Lower Egypt) in a visual narrative system that is already recognizably hieroglyphic. Narmer's name is written in a serekh (palace façade with Horus falcon) at the top."
-        },
-        {
-          "label": "Legacy in Art",
-          "text": "The compositional conventions established on the Narmer Palette — the giant king smiting a small enemy, the rows of bound captives, the Horus falcon, the hierarchical composition — were repeated with minor variations on temple walls, obelisks, and stelae for the next 3,000 years. It is arguably the founding document of Egyptian artistic tradition."
+          "label": "Explore further",
+          "text": "The palette is about 25 inches (63.5 cm) tall and was dug up by James Quibell and Frederick Green in the 1897–98 season from a stash of votive objects archaeologists call the Main Deposit, inside the temple of Horus at Hierakonpolis. It is shaped like a cosmetic palette — the everyday stone slabs Egyptians used to grind eye-paint — but at this size and finish it was a ceremonial offering, never meant for actual makeup. It now sits in the Egyptian Museum in Cairo under the inventory number JE 32169, and it was found alongside the Scorpion Macehead and a second carved palette known as the Two Dogs Palette."
         }
       ]
     },
@@ -1463,7 +1228,7 @@
       "id": "evt-ede-unification",
       "label": "Narmer (Menes) Unifies Egypt",
       "year": -3100,
-      "description": "King Narmer (possibly Menes) unified Upper and Lower Egypt into a single kingdom, founding the First Dynasty and inaugurating three thousand years of pharaonic civilization.",
+      "description": "King Narmer — the man most scholars now match with the legendary first pharaoh Menes — pulled Upper and Lower Egypt together under one ruler, the event later Egyptians treated as the start of their whole civilization.",
       "wikiSlug": "Narmer",
       "tier": 1,
       "tags": [
@@ -1476,88 +1241,59 @@
       ],
       "details": [
         {
-          "label": "Narmer and Menes",
-          "text": "Later Egyptian tradition credited a king named 'Menes' as Egypt's first pharaoh. Most Egyptologists today identify Menes with Narmer, whose name appears on artifacts from both Upper and Lower Egypt. Narmer's serekh (royal name cartouche) has been found at sites from the First Cataract in the south to the Delta in the north."
-        },
-        {
-          "label": "The Unification",
-          "text": "Unification was not a single battle but the culmination of a century of Upper Egyptian military and cultural expansion. When Narmer finally consolidated control of the Delta, he adopted both the White Crown (Upper Egypt) and Red Crown (Lower Egypt) — wearing them as the Double Crown to symbolize sovereignty over 'the Two Lands.'"
-        },
-        {
-          "label": "What He Founded",
-          "text": "Narmer's unification launched the Early Dynastic Period and established the template of pharaonic rule: a divine king who was simultaneously political overlord, high priest, and cosmic regulator, whose death and burial required monumental preparation. His successors in the First and Second Dynasties built on this foundation until the Old Kingdom pharaohs built the Pyramids."
+          "label": "Explore further",
+          "text": "Two clay seal impressions found at Abydos (one in 1985, one in 1991) list the kings of the First Dynasty in order, and both start with Narmer — strong evidence that he, not anyone else, was remembered as the first king. The name 'Narmer' is written with two picture-signs, a catfish and a chisel, and is sometimes translated as 'raging catfish,' though scholars have also floated 'fierce,' 'biting,' 'painful,' and even 'evil' for the catfish's mood — nobody is sure. The link between Narmer and 'Menes,' the name the priest Manetho gave the first king around 300 BCE, has never been nailed down by a single inscription, so it remains the best guess rather than a proven fact."
         }
-      ]
+      ],
+      "commonsFile": "Narmer_palette_(obverse)_(cropped).jpg"
     },
     {
       "id": "evt-ede-memphis-founded",
       "label": "Memphis Founded",
       "year": -3100,
-      "description": "Memphis was founded at the junction of Upper and Lower Egypt, strategically positioned to control both regions. It would serve as Egypt's administrative capital for centuries.",
+      "description": "A brand-new capital planted where the narrow Nile valley opens into the Delta — the strategic seam between Upper and Lower Egypt — built to govern a country that had just become one.",
       "wikiSlug": "Memphis,_Egypt",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "The Strategic Location",
-          "text": "Memphis (Egyptian: Ineb-Hedj, 'White Walls') was established near the apex of the Nile Delta, at the point where the river divides into multiple branches. This location — the boundary between Upper and Lower Egypt — made it the natural capital of a unified kingdom, accessible from both south and north."
-        },
-        {
-          "label": "Foundation Legend",
-          "text": "Later tradition attributed Memphis's founding to Menes (Narmer), who reportedly dammed the Nile to create dry land for the city. Whether or not this is accurate, it captures something true about Memphis: it was a purpose-built political capital, not an organic outgrowth of existing settlement."
-        },
-        {
-          "label": "Legacy",
-          "text": "Memphis remained Egypt's administrative capital through most of the Old Kingdom, second only to Thebes during the New Kingdom. Its temple of Ptah — the creator god — was one of Egypt's most important sacred sites. The city gave its name to a country: Egypt's Arabic name, Misr, derives from a form of Memphis."
+          "label": "Explore further",
+          "text": "Its oldest Egyptian name was Inebu-hedj, 'the White Walls,' after the whitewashed mud-brick fortress at its core. Both Manetho and the Greek historian Herodotus passed on the legend that the first king diverted the Nile with dikes to dry out the ground the city was built on, and Herodotus noted that even in his day the Persian rulers kept those dams in repair to save Memphis from the yearly flood. The later, more famous name Men-nefer (which the Greeks turned into 'Memphis') actually started as the name of a nearby pyramid town and only later spread to the whole city. The ruins sit today beside the village of Mit Rahina, south of modern Cairo."
         }
-      ]
+      ],
+      "commonsFile": "Memphis200401.JPG"
     },
     {
       "id": "evt-ede-royal-tombs-abydos",
       "label": "First Dynasty Royal Tombs",
       "year": -3080,
-      "description": "First Dynasty kings were buried at Abydos in elaborate mud-brick tombs with subsidiary burials of retainers — the earliest Egyptian royal necropolis.",
+      "description": "The First Dynasty kings were buried in the desert at Abydos, in mudbrick chambers surrounded by rows of retainer graves — the first true Egyptian royal cemetery.",
       "wikiSlug": "Umm_el-Qa'ab",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Tombs of the First Pharaohs",
-          "text": "The Umm el-Qa'ab cemetery at Abydos contains the tombs of Egypt's first pharaohs: Narmer, Aha, Djer, Djet, Den, Anedjib, Semerkhet, and Qa'a — the entire First Dynasty. Each tomb is a multi-roomed mud-brick structure lined with wood paneling, filled with grave goods, and surrounded by subsidiary burials."
-        },
-        {
-          "label": "Subsidiary Burials",
-          "text": "The First Dynasty pharaohs were accompanied in death by retainers — servants, craftspeople, and officials sacrificed at burial to continue serving in the afterlife. Tomb Djer at Abydos had over 300 subsidiary burials around it. This practice, remarkable evidence of royal power over life and death, was discontinued by the Second Dynasty."
-        },
-        {
-          "label": "Toward the Pyramids",
-          "text": "The Abydos royal tombs are the direct ancestors of the Step Pyramid. The logic is the same — a permanent stone/brick structure housing the royal dead, stocked with everything needed for eternity, and attended by offerings — but the scale and material would expand dramatically over the next 500 years."
+          "label": "Explore further",
+          "text": "The site's modern Arabic name, Umm el-Qa'ab, means \"Mother of Pots\" — the ground is carpeted with millions of broken potsherds left by later pilgrims who came to leave offerings, since the area got confused with the burial place of the god Osiris. The cemetery was first dug into around 3800 BCE, long before the kings, and the British archaeologist Flinders Petrie re-excavated it around 1900 after earlier diggers had ransacked it; a German team under Gunter Dreyer kept working there until his death in 2019, slowly piecing the looted tombs back together."
         }
-      ]
+      ],
+      "commonsFile": "AbydosSatMap.jpg"
     },
     {
       "id": "evt-ede-dual-crown",
       "label": "Double Crown Symbolism",
       "year": -3060,
-      "description": "The 'pschent' — the combined White Crown of Upper Egypt and Red Crown of Lower Egypt — became the supreme symbol of pharaonic authority, first depicted on the Narmer Palette.",
+      "description": "The pschent — the White Crown of the south physically stacked inside the Red Crown of the north into one tall headdress — became the ultimate emblem that a single king ruled both halves of Egypt.",
       "wikiSlug": "Pschent",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Two Crowns",
-          "text": "The White Crown (Hedjet) of Upper Egypt was a tall, bulbous white cone. The Red Crown (Deshret) of Lower Egypt was a flat-topped red cap with a curling wire projection at the front. The Double Crown (Pschent) combined both, with the White Crown inserted into the Red, symbolizing sovereignty over the unified Two Lands."
-        },
-        {
-          "label": "Ideological Significance",
-          "text": "Wearing the Double Crown was not merely symbolic — it was a ritual act of cosmic unification. The pharaoh who wore it maintained the separation and reconciliation of opposites that, in Egyptian cosmology, sustained the universe: Upper/Lower, desert/river, life/death, Horus/Set."
-        },
-        {
-          "label": "The Duality Never Disappeared",
-          "text": "Despite political unification in 3100 BCE, Egypt never abandoned its dual identity. 'Lord of the Two Lands' and 'King of Upper and Lower Egypt' remained royal titles for three thousand years. The duality was too deeply embedded in Egyptian cosmology to be simply unified away — it became a structural feature of pharaonic ideology."
+          "label": "Explore further",
+          "text": "Despite the popular shorthand, the combined crown does not actually appear on the Narmer Palette — there Narmer wears the two crowns separately, one on each face. The earliest known image of the merged Double Crown comes generations later, from a rock inscription of the First Dynasty king Djet, and it turns up again on an ivory label of King Den found at Abydos. The finished crown carried two protective animal goddesses on its front: the cobra Wadjet for Lower Egypt and the vulture Nekhbet for Upper Egypt, together called the 'Two Ladies.' The name 'pschent' itself is the Greek rendering of the Egyptian phrase for 'the Two Powerful Ones.'"
         }
       ]
     },
@@ -1565,25 +1301,18 @@
       "id": "evt-ede-nabta-playa",
       "label": "Nabta Playa Calendar Circle",
       "year": -4800,
-      "description": "In the Western Desert south of the Nile, cattle-herding people raised a circle of standing stones aligned to the summer solstice — the oldest known astronomical site in Africa, predating Stonehenge by roughly 2,000 years.",
+      "description": "Cattle herders living beside a seasonal desert lake raised a small ring of upright sandstone slabs whose sight lines tracked the summer solstice — Africa's oldest known astronomical site, and a roughly 2,000-year head start on Stonehenge.",
       "wikiSlug": "Nabta_Playa",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "A Calendar in the Sand",
-          "text": "Nabta Playa sat next to a seasonal lake that filled only during the summer monsoon. The standing stones, set up around 4800 BCE, mark the rising point of the sun on the summer solstice — exactly when the lake would fill. For pastoralists whose entire year hinged on knowing when the rains were coming, that was useful astronomy."
-        },
-        {
-          "label": "Cattle Burials",
-          "text": "Nearby, archaeologists found pits with whole cattle interred under stone mounds — among the earliest evidence of the cattle cult that would dominate Egyptian religion for the next four thousand years. The goddess Hathor, depicted as a cow, has roots in this Saharan herding tradition."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Nabta Playa shows that the religious and astronomical machinery of pharaonic Egypt was already being assembled in the Sahara before the Nile Valley filled with refugees from the drying desert. The pharaohs didn't invent their religion in the Nile mud — they imported a chunk of it from cattle herders fleeing the encroaching dunes."
+          "label": "Explore further",
+          "text": "The site was excavated by American archaeologist Fred Wendorf and his Polish colleague Romuald Schild, starting in the 1970s, and the calendar circle itself was uncovered in 1998. Beyond marking the solstice, some researchers argue a few of the central stones may line up with the rising of bright stars like Sirius and Arcturus, and that three of them echo the belt of Orion, though these claims are debated. The most striking finds are the cattle: whole cows buried in clay-lined chambers under stone mounds, by a more organized group that moved in around 5500 BCE — animals treated as sacred rather than slaughtered for meat."
         }
-      ]
+      ],
+      "commonsFile": "Calendar_aswan.JPG"
     },
     {
       "id": "evt-ede-wadi-hammamat",
@@ -1650,23 +1379,15 @@
       "id": "evt-ede-scorpion-i",
       "label": "Scorpion I and the U-j Tomb",
       "year": -3250,
-      "description": "Scorpion I was a predynastic ruler of Abydos whose tomb (U-j) is the oldest royal burial yet found in Egypt — and contained the earliest known Egyptian writing, ink-inscribed labels and pottery marks naming places and quantities.",
+      "description": "The earliest Egyptian ruler whose name has come down to us — a king of the Abydos region buried in tomb U-j around 3250 BCE, his name read from a scorpion sign scratched on his grave goods.",
       "wikiSlug": "Scorpion_I",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "A King Before the Kings",
-          "text": "Egyptian tradition lists Narmer (or Menes) as the founder of the First Dynasty, but Tomb U-j at Abydos shows a recognizable king ruling Upper Egypt 150 years earlier — buried with imported wine jars from the Levant, ivory labels with proto-hieroglyphs, and a serekh-like emblem featuring a scorpion. Scholars call him Scorpion I to distinguish him from the later Scorpion II (Scorpion King) of the unification era."
-        },
-        {
-          "label": "The First Writing",
-          "text": "The labels in U-j carry tiny inked symbols — a falcon, a scorpion, numerical strokes — that look unmistakably like the ancestors of hieroglyphs. They were probably tags for grave goods, recording origin or quantity. They're not yet a writing system in the full sense, but they're the moment Egyptian writing crosses the threshold from picture to script."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "U-j collapses two old assumptions at once: that Egyptian kingship began with Narmer, and that hieroglyphic writing began with the dynastic state. Both were already running by 3250 BCE — at least in Upper Egypt, around Abydos."
+          "label": "Explore further",
+          "text": "Egyptologists call him Scorpion I to keep him separate from a later king, Scorpion II, who left a famous ceremonial macehead. His name is reconstructed from the scorpion glyph (catalogued by scholars as Gardiner sign L2) found on bone tags and pottery in his tomb, though whether it was truly his personal name or a title is still argued. He almost certainly ruled from Thinis, the lost northern town that controlled the stretch of Nile around Abydos — a place so thoroughly buried under modern farmland that its ruins have never been pinned down."
         }
       ]
     },
@@ -1674,129 +1395,103 @@
       "id": "evt-ede-hor-aha",
       "label": "Hor-Aha — First Dynasty Founder",
       "year": -3050,
-      "description": "Hor-Aha (\"Horus the Fighter\") was either Narmer's son or his immediate successor — and in some king-list traditions, the actual founder of the First Dynasty. He raided Nubia, expanded the temple of Neith at Sais, and built a massive funerary complex at Abydos.",
+      "description": "Narmer's successor — his name means 'Horus the Fighter' — who spent his reign hardening the new unified state by campaigning on its frontiers and courting the conquered north.",
       "wikiSlug": "Hor-Aha",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Narmer or Aha?",
-          "text": "Egyptian tradition is split on who actually founded the First Dynasty. The Manethonian king list (compiled millennia later) calls the founder \"Menes,\" a name that could equally well belong to Narmer or Hor-Aha. Most modern Egyptologists treat Narmer as the unifier and Hor-Aha as his son and the first king of the consolidated state — but the earliest king lists from Abydos itself start with Aha, not Narmer."
-        },
-        {
-          "label": "Building the State",
-          "text": "Hor-Aha's reign was when the First Dynasty's institutions started taking shape. He led raids into Nubia (recorded on a wooden label), founded or expanded major temples, and established the royal cemetery at Abydos that his successors would all use. His own tomb there had three chambers and 36 attached subsidiary burials — the beginning of the retainer-sacrifice tradition that peaked under his successor Djer."
+          "label": "Explore further",
+          "text": "His tomb at Abydos is the biggest of its day, three large chambers (labeled B10, B15, and B19) sitting right next to Narmer's, and surrounded by dozens of smaller subsidiary graves — the earliest hint of the grim royal-burial custom in which retainers were interred around their king. Small ivory and wood year-labels from the tomb record his doings, including one carrying the phrase 'Year of smiting of Ta-Sety,' Ta-Sety being the Egyptian name for Nubia to the south. Another label ties him to the goddess Neith of Sais, deep in the Delta — a sign the new dynasty was working to bind the just-conquered north into the kingdom. One nearby burial belonged to a woman named Benerib, likely his queen."
         }
-      ]
+      ],
+      "commonsFile": "GlazedFiaenceVesselFragmentNameOfAha-BritishMuseum-August21-08.jpg"
     },
     {
       "id": "evt-ede-djer",
       "label": "Djer and the Retainer Sacrifices",
       "year": -3000,
-      "description": "Djer was the third king of the First Dynasty and the most ambitious early builder. His tomb at Abydos was surrounded by 338 subsidiary graves containing the bodies of servants, women, and craftsmen sacrificed to accompany him into the afterlife — the largest known retainer sacrifice in Egyptian history.",
+      "description": "Djer, third king of the First Dynasty, was buried at Abydos in a tomb ringed by 338 subsidiary graves — people killed at his funeral to follow him into the afterlife — the largest single retainer sacrifice known from Egypt.",
       "wikiSlug": "Djer",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Egypt's Largest Retainer Burial",
-          "text": "The 338 subsidiary graves at Djer's tomb were laid out in neat rows around the central royal chamber, their occupants apparently killed simultaneously and buried together. Bodies show no obvious wounds, suggesting poison or strangulation. They include young women (likely harem members), men buried with their craft tools, and dwarves — all of whom were considered part of the king's retinue and expected to follow him into the next world."
-        },
-        {
-          "label": "A Practice That Stopped",
-          "text": "Retainer sacrifice peaked under Djer and decreased rapidly across the rest of the First Dynasty. By the Second Dynasty it was gone entirely. Egyptian elites developed alternative ways to staff the afterlife — first servant statues, then the famous shabti figurines that filled later tombs by the hundreds. The transition is one of the clearest examples of substitution replacing actual human sacrifice in the ancient world."
-        },
-        {
-          "label": "Djer the Builder",
-          "text": "Djer's reign also saw major mining expeditions to Sinai for turquoise and copper, an attack into Nubia recorded at the Second Cataract, and the expansion of state temples. Later Egyptians worshipped him as a near-divine ancestor — his tomb at Abydos was eventually mistaken for the tomb of Osiris and became a pilgrimage site for nearly two thousand years."
+          "label": "Explore further",
+          "text": "Djer's tomb handed us the oldest royal jewellery that survives: four bracelets of gold, turquoise, lapis lazuli, and amethyst, found still wrapped around a severed, linen-bound human forearm tucked into a wall by an ancient tomb robber who never came back for it. More than a thousand years later, Middle Kingdom Egyptians wrongly decided Djer's tomb was the actual grave of Osiris, god of the dead, and a Thirteenth Dynasty king installed a stone statue of Osiris on a funeral bier inside it — turning the place into a pilgrimage shrine whose visitors had no idea they were walking over 338 sacrificed people."
         }
-      ]
+      ],
+      "commonsFile": "Djer_cylinder_seal.png"
     },
     {
       "id": "evt-ede-djet",
       "label": "Djet — The Serpent King",
       "year": -2980,
-      "description": "Djet (\"Serpent\") was the fourth king of the First Dynasty, best known today for an exquisitely carved limestone funerary stele showing his name as a cobra inside a serekh — one of the masterpieces of early Egyptian art, now in the Louvre.",
+      "description": "Djet (\"Serpent\"), fourth king of the dynasty, is remembered for a single masterpiece: a limestone funerary stele carved with his name as a cobra inside a serekh, one of the earliest fully mature works of Egyptian relief, now in the Louvre.",
       "wikiSlug": "Djet",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The Stele in the Louvre",
-          "text": "Djet's stele is a tall slab of fine limestone, carved in low relief: at the top, a Horus falcon perches on a serekh frame, and inside the serekh is a single hieroglyphic sign — a rearing cobra (djet). It's one of the earliest examples of formal royal art in Egypt and shows that the visual conventions of pharaonic monuments were already locked in by the early First Dynasty."
-        },
-        {
-          "label": "Merneith's Husband",
-          "text": "Djet's reign was relatively short, and when he died his son Den was still a child. His queen, Merneith, ruled as regent — and may be the first known female ruler in Egyptian history."
+          "label": "Explore further",
+          "text": "The stele was dug up at Djet's Abydos tomb by the French excavator Emile Amelineau in 1895 and reached the Louvre in 1904. It survives broken — about 4.7 feet (1.4 m) tall now, but originally probably topping 8 feet (2.5 m). \"Djet\" is also written Wadj or Zet, and his Horus name translates roughly as \"Cobra of Horus,\" the falcon god perched above the snake in the carving spelling out the king's identity in a single elegant image."
         }
-      ]
+      ],
+      "commonsFile": "P1060241_Louvre_Stèle_du_roi-Serpent_rwk.JPG"
     },
     {
       "id": "evt-ede-merneith",
       "label": "Merneith — First Female Ruler",
       "year": -2950,
-      "description": "Merneith was the wife of King Djet and mother of King Den, and ruled Egypt as regent during her son's minority. She is the earliest known woman to hold actual power in Egypt — and was buried in her own royal-scale tomb at Abydos, alongside the kings.",
+      "description": "Merneith was the wife of King Djet and mother of King Den, and she appears to have governed Egypt as regent while her son was a child — the earliest woman we can show actually wielding real power in the Nile Valley.",
       "wikiSlug": "Merneith",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Queen Regent",
-          "text": "When Djet died, his son Den was too young to rule. Merneith stepped in as regent and ran the country in his name — the earliest case of a woman exercising royal authority in Egypt that we can document. She appears on contemporary king lists from the Abydos cemetery, and her name was written in the same format as the male kings'."
-        },
-        {
-          "label": "A Royal Tomb",
-          "text": "Merneith was buried at Abydos in a tomb the same size and style as the kings of the First Dynasty, with her own subsidiary burials and grave goods. This was unprecedented and would not be repeated for centuries — most royal women, even powerful ones, were buried in subsidiary tombs near their husbands. Merneith got the full royal treatment, suggesting Egyptians genuinely treated her as a king while she ruled."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "Merneith establishes a pattern that recurs throughout Egyptian history: when the male succession failed, royal women could legitimately rule, often as regents but sometimes outright. The line runs from Merneith down through Sobekneferu, Hatshepsut, Tausret, and Cleopatra. Egypt was never an egalitarian society, but among ancient civilizations it was unusually willing to put women on the throne."
+          "label": "Explore further",
+          "text": "Our hardest evidence is a clay seal from her son Den's tomb that lists the First Dynasty kings and slots her right in among them with the title \"King's Mother.\" Tellingly, a later king-list seal from the tomb of Qa'a leaves her out entirely — a hint that her status was already being quietly downgraded within a few reigns. Her own tomb at Abydos (tomb Y) is built to full royal scale, with roughly 40 retainer burials of its own; almost every other royal woman of the era got a small grave beside her husband, not a king-sized tomb in the main row."
         }
-      ]
+      ],
+      "commonsFile": "Merneith_stele.jpg"
     },
     {
       "id": "evt-ede-den",
       "label": "Den and the Mature First Dynasty",
       "year": -2930,
-      "description": "Den was the longest-reigning king of the First Dynasty (about 40 years) and the one who consolidated the institutions of pharaonic kingship — the Two Ladies (nbty) name, the Heb Sed jubilee festival, the formal use of both crowns, and the first depictions of a king smiting Asiatic enemies.",
+      "description": "Den, son of Merneith, reigned around 40 years — by far the longest of the dynasty — and turned a fragile conquest into a working state, fixing the royal titles, the jubilee festival, the census, and the art conventions that Egypt would keep for millennia.",
       "wikiSlug": "Den_(pharaoh)",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "The First Modern Pharaoh",
-          "text": "Almost everything we think of as classic pharaonic iconography crystallizes under Den. He's the first king depicted wearing the Double Crown of Upper and Lower Egypt as a single composite headdress. He's the first to add the nbty (\"Two Ladies\") name to his royal titulary. He's the first shown in the running ritual of the Heb Sed jubilee, sprinting between marker stones to demonstrate physical fitness for continued rule."
-        },
-        {
-          "label": "The Smiting Pose",
-          "text": "An ivory label from Den's tomb shows him in the iconic \"smiting\" pose — one hand raised holding a mace, the other gripping an enemy's hair, about to crush his skull. The caption reads \"first time of smiting the East.\" This pose would become the single most reproduced image in Egyptian art for the next 3,000 years, appearing on temple pylons all the way down to the Roman period. Den invented it."
-        },
-        {
-          "label": "Long Reign, Strong State",
-          "text": "Den ruled for about four decades, the longest of any First Dynasty king, and the state matured under him. He standardized the calendar, expanded the bureaucracy, conducted the first known formal census, and pushed Egyptian arms into Sinai and Nubia. By the time he died, Egypt looked recognizably like the kingdom that would build the pyramids."
+          "label": "Explore further",
+          "text": "Two tiny labels from his tomb carry outsized firsts. One, an ivory tag once tied to a pair of sandals, shows Den braining an eastern enemy with a mace under the caption \"first time of smiting the East\" — the oldest such scene with a written caption, and matching rock carvings he left at the Sinai turquoise mines prove it records a real raid. Another, an ebony label from an oil jar, gives us the earliest known picture of the Heb Sed jubilee. His top official, the chancellor Hemaka, owned a gigantic mastaba tomb at Saqqara so large its excavator briefly wondered if it was Den's own burial."
         }
-      ]
+      ],
+      "commonsFile": "Wooden_funerary_sculpture_mask_of_King_Den._1st_Dynasty,_Old_Kingdom,_Third_Millenium_BC,_2873_BC_-_2859_BC._Abydos_(cropped).jpg"
     },
     {
       "id": "evt-ede-anedjib-semerkhet",
       "label": "Anedjib, Semerkhet, and the End of Dynasty I",
       "year": -2890,
-      "description": "Anedjib and Semerkhet were the two short-reigned kings between Den and Qa'a, and their reigns coincided with apparent dynastic instability — Semerkhet may have been an usurper, and Anedjib's monuments were defaced by his successors.",
+      "description": "Anedjib and Semerkhet were the two brief, troubled reigns between the great Den and the dynasty's final king Qa'a — a stretch that looks, from the damaged and erased monuments, like a stretch of contested succession.",
       "wikiSlug": "Anedjib",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "A Bumpy Succession",
-          "text": "Anedjib's name was systematically chiseled out of monuments after his death — a sign of damnatio memoriae rare this early in Egyptian history. Semerkhet's name was missing from some king lists and added back later. Whatever happened in this period, it left enough of a scar that later Egyptians struggled to record it cleanly. The First Dynasty briefly wobbled before stabilizing under the final king, Qa'a."
+          "label": "Explore further",
+          "text": "The old story is dramatic: Semerkhet seized the throne, scratched Anedjib's name off stone vases, and was punished by being dropped from some later king lists, while the Greek-era historian Manetho claimed disasters struck during his rule. Newer scholarship is more cautious — historian Toby Wilkinson points out that Anedjib's name actually survives intact on seals from Qa'a's tomb and on the Palermo Stone (a slab of royal annals), so any \"erasure\" was partial at best. The Palermo Stone gives Semerkhet a fairly ordinary reign of about nine years, deflating Manetho's wild claim of 72."
         }
-      ]
+      ],
+      "commonsFile": "Anedjib_Closeup.jpg"
     },
     {
       "id": "evt-ede-qaa",
@@ -1819,69 +1514,52 @@
       "label": "Saqqara North Mastabas",
       "year": -3000,
       "endYear": -2700,
-      "description": "Across the river from Memphis, the high desert at Saqqara filled up with massive mudbrick mastaba tombs of the First Dynasty's officials and noble families — establishing Saqqara as Egypt's premier elite necropolis even before the kings themselves were buried there.",
+      "description": "On the desert plateau across the river from Memphis, First Dynasty officials built huge mudbrick mastaba tombs at North Saqqara — some bigger than the kings' own tombs at Abydos — making Saqqara Egypt's elite cemetery generations before any king was buried there.",
       "wikiSlug": "Saqqara",
       "tier": 1,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Tombs as Houses for the Dead",
-          "text": "A mastaba (Arabic for \"bench\") is a flat-topped, rectangular tomb with sloping sides — essentially a giant mudbrick box over a buried burial chamber. The earliest Saqqara mastabas had elaborate niched façades imitating royal palace walls, and they housed the high officials who ran the First Dynasty bureaucracy from the new capital at Memphis."
-        },
-        {
-          "label": "Bigger Than the Kings'",
-          "text": "Some First Dynasty Saqqara mastabas are larger than the contemporary royal tombs at Abydos, which has confused archaeologists for decades. The likely answer: the kings had two tombs, a ritual one at Abydos (the ancestral cult center) and a real one at Saqqara (the working capital). Or the Saqqara mastabas belonged to nobles powerful enough to outbuild their own kings — a sign of how decentralized power still was in the First Dynasty."
-        },
-        {
-          "label": "The Step Pyramid's Ancestors",
-          "text": "The mastaba was the architectural seed from which the pyramid grew. When Djoser's architect Imhotep stacked six mastabas of decreasing size on top of each other a few generations later, he produced the first pyramid. Saqqara is where that experiment happened, and where it succeeded — every stone pyramid in Egypt traces its lineage back to these mudbrick boxes."
+          "label": "Explore further",
+          "text": "When the archaeologist Walter Emery dug them in the 1930s, the sheer size convinced him they had to be the real royal tombs, with Abydos serving only as empty memorials — a debate still not fully settled, though most now read Saqqara's giants as the graves of immensely rich courtiers. These flat-topped \"benches\" (mastaba is just Arabic for bench) were the seed of the pyramids: around 2670 BCE the architect Imhotep built Egypt's first pyramid right here for King Djoser, essentially by stacking six shrinking mastabas on top of one another while standing in a cemetery already full of the form."
         }
-      ]
+      ],
+      "commonsFile": "Saqqara_pyramid_ver_2.jpg"
     },
     {
       "id": "evt-ede-serekh",
       "label": "The Serekh Device",
       "year": -3100,
-      "description": "The serekh was the earliest formal frame for writing a king's name — a stylized rectangular palace façade with the king's Horus name written inside the upper compartment, topped by a falcon. It was the predecessor of the cartouche and the visual signature of Egyptian royalty for the entire Early Dynastic period.",
+      "description": "A rectangular frame drawn to look like a paneled palace wall, with the king's name written in the top box and a Horus falcon perched on the roof — the earliest formal way to write a pharaoh's name.",
       "wikiSlug": "Serekh",
       "tier": 2,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "How It Worked",
-          "text": "The serekh frame depicted the niched façade of a royal palace, with the king's name written above. A Horus falcon perched on top, signaling that the king was the earthly embodiment of the falcon god Horus. The whole device meant: \"this is the Horus name of the king who rules from this palace.\""
-        },
-        {
-          "label": "Horus, Then Cartouche",
-          "text": "The serekh was the only frame for royal names through the entire Early Dynastic period. The familiar oval cartouche that frames pharaohs' names in temple inscriptions didn't appear until the Fourth Dynasty, several centuries later. Until then, every king's name was written inside a serekh — and we identify First Dynasty rulers today largely by reading the names inside their serekhs on jar sealings, labels, and stelae."
+          "label": "Explore further",
+          "text": "The serekh is older than the unified state: the symbol itself goes back to around the late Gerzeh culture (roughly 3400 BCE), at first standing for royal authority before any name was tucked inside it. Kings only began writing their actual names into the frame during the middle-to-late Naqada III period, and some of the best early examples belong to Scorpion II and King Ka, both of whom ruled before Narmer. The paneled-wall look it imitates is called a 'palace façade,' the same recessed-brick style used on the giant mud-brick tombs of the first kings. Centuries later the serekh would be joined — and eventually upstaged — by the oval cartouche, but the falcon-topped box stayed in use for the king's oldest and most sacred name."
         }
-      ]
+      ],
+      "commonsFile": "Louvre_Serekh.png"
     },
     {
       "id": "evt-ede-heb-sed",
       "label": "The Heb Sed Jubilee Festival",
       "year": -3000,
-      "description": "The Heb Sed was a royal renewal festival held to demonstrate that the king was still physically and ritually fit to rule. Originally celebrated after 30 years on the throne, it featured the king running a ceremonial course between marker stones in front of the gods — and was first depicted in the reign of Den.",
+      "description": "The Heb Sed was the king's renewal festival: a public test of his fitness to keep ruling, built around a ceremonial run between marker stones, first depicted under Den and repeated for the next 3,000 years.",
       "wikiSlug": "Sed_festival",
       "tier": 2,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Run, Pharaoh, Run",
-          "text": "The central ritual of the Heb Sed was the king's run — barefoot, wearing a short kilt, holding ritual implements, sprinting between two sets of boundary stones meant to represent the borders of Upper and Lower Egypt. The point was to prove that the king was still strong enough to physically defend the realm. If he could run the course, his rule was renewed for another cycle."
-        },
-        {
-          "label": "Den's Ivory Label",
-          "text": "An ivory label from Den's tomb shows him performing the Heb Sed run — the earliest depiction of the festival anywhere. The image is so stylized and assured that it can't be the first time anyone ran the ceremony; the festival was already old by Den's reign. But Den is the first king we can document personally celebrating it."
-        },
-        {
-          "label": "Cycles of Thirty Years",
-          "text": "The Heb Sed was supposed to mark a king's 30th year on the throne — but in practice, kings celebrated it whenever they wanted, sometimes after just a few years. Long-reigning pharaohs like Ramesses II celebrated multiple Heb Seds. The festival outlived the dynasties; even Ptolemaic and Roman emperors performed it to keep the local priesthood happy."
+          "label": "Explore further",
+          "text": "Its nickname was the \"Feast of the Tail,\" after the animal's tail strapped to the back of the king's kilt — probably a leftover of an even older costume made from a whole animal skin. The \"Sed\" itself was a name of the jackal-or-wolf god Wepwawet, the \"Opener of the Ways,\" who led the king through the rite. In the full ceremony the king ran his course four times wearing the white crown of Upper Egypt and four times in the red crown of Lower Egypt; some scholars suspect the whole festival replaced a far grimmer earlier custom of simply killing a king once he grew too old to rule."
         }
-      ]
+      ],
+      "commonsFile": "PepiI-SedFestivalStatuetteWithHorusFalcon_BrooklynMuseum.png"
     },
     {
       "id": "evt-ede-nbty-name",
@@ -1907,19 +1585,15 @@
       "id": "evt-ede-nome-system",
       "label": "The Nome System",
       "year": -3100,
-      "description": "By the start of the dynastic period, Egypt was administratively divided into around 42 provinces called nomes — 22 in Upper Egypt and 20 in Lower Egypt — each with its own governor (nomarch), patron deity, and totem standard. The system would persist, with adjustments, for the next 3,000 years.",
+      "description": "Early Egypt was carved into about 42 provinces called nomes — 22 in the south, 20 in the north — each with its own governor, patron god, and emblem standard, the administrative skeleton that held the country together for 3,000 years.",
       "wikiSlug": "Nome_(Egypt)",
       "tier": 2,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Provincial Egypt",
-          "text": "Each nome was a self-contained administrative unit with a capital town, a governor, a tax-collection apparatus, and a state temple to the local god. Standards bearing each nome's totem (a falcon for Nekhen, a hare for Wenu, two crossed arrows for Sais, etc.) were carried in royal processions, and nome lists appear on temple walls from the Early Dynastic period onward."
-        },
-        {
-          "label": "Older Than the Kings",
-          "text": "The nomes weren't a top-down dynastic invention — they were probably pre-existing tribal territories or chiefdoms that the unifying state absorbed and standardized. Many nome names and emblems pre-date Narmer. The early dynastic state's genius was leaving local power structures in place while wiring them into a centralized tax and labor system run from Memphis."
+          "label": "Explore further",
+          "text": "\"Nome\" is not an Egyptian word at all — it comes from the Greek nomos (\"district\"), pinned on much later when Greek-speaking Ptolemaic rulers ran Egypt. The Egyptians themselves called a province a sepat, written with a hieroglyph of land cut into a grid of irrigation channels. A nome governor's formal title was literally \"Great Chief,\" and these districts probably started life as older tribal or chiefdom territories that the new unified state simply swallowed, standardized, and taxed."
         }
       ]
     },
@@ -1927,21 +1601,18 @@
       "id": "evt-ede-byblos-trade",
       "label": "Byblos Cedar Trade",
       "year": -3000,
-      "description": "From the early First Dynasty onward, Egypt traded with the Levantine port of Byblos for cedar of Lebanon — the only large straight-grained timber the Egyptians had access to, essential for ships, coffins, temple beams, and royal furniture.",
+      "description": "From early in the First Dynasty, Egypt shipped across the eastern Mediterranean to the port of Byblos in modern Lebanon for cedar — the tall, straight, rot-resistant timber the treeless Nile valley desperately lacked for ships, coffins, and temple beams.",
       "wikiSlug": "Byblos",
       "tier": 1,
       "tags": [],
       "category": "trade",
       "details": [
         {
-          "label": "Egypt's Wood Problem",
-          "text": "Egypt grew almost no usable timber. The Nile valley produced palm trees (poor for construction), acacia (small and twisted), and tamarisk (firewood at best). Anything bigger had to be imported. Cedar of Lebanon — tall, straight, fragrant, and resistant to rot — was the gold standard, and the easiest place to get it was the Phoenician port of Byblos, on the coast of modern Lebanon."
-        },
-        {
-          "label": "A 3,000-Year Relationship",
-          "text": "Byblos remained Egypt's primary cedar source from the First Dynasty through the New Kingdom. By the Old Kingdom, Egyptians called any large seagoing ship a \"Byblos boat,\" regardless of where it actually went, because the cedar trade route was the original use case. Byblos in turn became culturally semi-Egyptianized — its kings used Egyptian titles, worshipped Egyptian gods, and wrote in hieroglyphs."
+          "label": "Explore further",
+          "text": "The trade ran so deep into Egyptian life that they came to call any large seagoing vessel a \"Byblos ship,\" no matter where it was actually headed. The earliest Egyptian king's name physically found at Byblos belongs to Khasekhemwy, last ruler of the Second Dynasty, scratched on a stone vase fragment. Centuries on, the bond grew so tight that Byblos turned half-Egyptian, its own local rulers borrowing Egyptian titles and writing their names in hieroglyphs."
         }
-      ]
+      ],
+      "commonsFile": "Byblos_Libanon_2003.JPG"
     },
     {
       "id": "evt-ede-sinai-turquoise",
@@ -1967,125 +1638,103 @@
       "id": "evt-ede-hetepsekhemwy",
       "label": "Hetepsekhemwy — Dynasty II Begins",
       "year": -2890,
-      "description": "Hetepsekhemwy (\"The Two Powers Are at Peace\") founded the Second Dynasty and moved the royal cemetery from Abydos to Saqqara — ending nearly a thousand years of Upper Egyptian burial tradition and signaling that the political center of gravity had shifted north to Memphis.",
+      "description": "Hetepsekhemwy (\"The Two Powers Are at Peace\") opened the Second Dynasty around 2890 BCE and moved the royal burials north from Abydos to Saqqara — a name and a relocation that both hint at a kingdom that had just stopped fighting itself.",
       "wikiSlug": "Hotepsekhemwy",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "A Reconciliation Name",
-          "text": "Hetepsekhemwy's throne name literally means \"the two powerful ones are at peace\" — a reference to Horus and Seth, the two divine patrons of Upper and Lower Egypt respectively. The choice of name suggests his accession ended a period of conflict, possibly the end-of-First-Dynasty turbulence around Anedjib and Semerkhet. The Second Dynasty would return to that Horus/Seth tension repeatedly."
-        },
-        {
-          "label": "Saqqara Becomes Royal",
-          "text": "Hetepsekhemwy was buried at Saqqara, not Abydos. We know this because his clay sealings were found in galleries cut deep beneath the later Step Pyramid complex — his actual tomb was probably destroyed when Djoser's monument was built on top of it. Every Second Dynasty king after him would also be buried somewhere in the Saqqara plateau, except for Peribsen and Khasekhemwy, who returned to Abydos."
+          "label": "Explore further",
+          "text": "His tomb is a sprawling network of underground galleries cut into the Saqqara plateau, roughly 390 feet long by 165 feet wide (120 by 50 m) — so big that later builders of the Fifth Dynasty laid the Pyramid of Unas almost directly on top of it without ever breaking through. Dozens of clay seal impressions stamped with Hetepsekhemwy's name turned up in those galleries, which is the main reason archaeologists assign the tomb to him. Some Egyptologists think his successor Raneb shared the same vast complex, though that's still argued over."
         }
-      ]
+      ],
+      "commonsFile": "Hotepsekhemwy.jpg"
     },
     {
       "id": "evt-ede-nynetjer",
       "label": "Nynetjer's Long Reign",
       "year": -2820,
-      "description": "Nynetjer was the third king of the Second Dynasty and reigned for around 35-40 years — long enough that the Palermo Stone records his biennial cattle counts as the basic unit of Egyptian chronology for his entire reign.",
+      "description": "Nynetjer, the dynasty's third king, ruled something like 40 years — and his stretch of the Palermo Stone annals is our clearest year-by-year window into how the early Egyptian state actually ran day to day.",
       "wikiSlug": "Nynetjer",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Counting Cattle, Counting Years",
-          "text": "Early dynastic Egyptians dated years not by a king's regnal number but by major events: \"the year of the smiting of Nubia,\" \"the year of the second cattle count,\" and so on. The cattle count was a periodic state inventory of livestock, held every other year in Nynetjer's time, and his entries on the Palermo Stone (a fragmentary 5th Dynasty annal stone) preserve the most detailed reign-by-year record we have for any Second Dynasty king."
-        },
-        {
-          "label": "Stability and Then a Crack",
-          "text": "Nynetjer's long reign suggests a stable Egypt — peaceful enough to count cattle and run festivals on schedule. But the Palermo Stone records a Heb Sed celebration, several festival foundings, and what may be a religious crisis near the end of his reign. Within a generation after his death, Egypt was experiencing the most serious political-religious upheaval in its early history, with Peribsen and the Seth name."
+          "label": "Explore further",
+          "text": "His reign wasn't all cattle-counting calm: the annals record him \"hacking up\" two places in his 13th year, one of them literally named the \"House of the North,\" which a lot of scholars read as putting down a rebellion in Lower Egypt — an early tremor of the north-south strain that would crack the dynasty wide open a few reigns later. A small statuette shows him wrapped in the robe of the Sed festival, the royal jubilee staged to renew a king's powers, which fits the case for a very long reign. The reconstructed annal years survive on two separate fragments, the Palermo Stone (years 7 to 21) and the Cairo Stone (years 36 to 44)."
         }
-      ]
+      ],
+      "commonsFile": "Statue_of_Ninetjer_Rijksmuseum_van_Oudheden_03_(cropped).jpg"
     },
     {
       "id": "evt-ede-peribsen",
       "label": "Peribsen and the Seth Name",
       "year": -2750,
-      "description": "Peribsen was the only Egyptian king who replaced his Horus name with a Seth name — placing the god Seth atop his serekh instead of the falcon. This was an extraordinary religious and political statement, and probably reflected a real schism in the Second Dynasty between Upper and Lower Egyptian factions.",
+      "description": "Peribsen swapped the Horus falcon atop his serekh (the palace-facade frame that held a king's name) for the Seth animal — the one and only Egyptian king ever to do it, and a move that likely signals a real north-south rupture in the Second Dynasty.",
       "wikiSlug": "Seth-Peribsen",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Seth Replaces Horus",
-          "text": "For 200 years, every Egyptian king had topped his serekh with the Horus falcon. Peribsen put a Seth animal there instead — a long-snouted, square-eared creature that nobody can quite identify zoologically, associated with desert storms, chaos, and Upper Egypt. The substitution wasn't a typo or a regional variant; it was a deliberate, system-wide change to royal ideology."
-        },
-        {
-          "label": "What Was He Doing?",
-          "text": "Theories range from religious reform (Peribsen as a Seth devotee) to civil war (Egypt actually split, with Peribsen ruling only Upper Egypt and rival Horus-named kings ruling the Delta). The evidence is too thin to resolve. What's clear is that something seriously divided Egypt in the late Second Dynasty, and the Horus-Seth pairing — usually expressed as harmony between the two halves of the country — became a literal antagonism between competing royal lines."
-        },
-        {
-          "label": "Why It Matters",
-          "text": "The Peribsen episode is the closest the Early Dynastic period came to falling apart. It lasted maybe a generation, and Egypt was reunited by Khasekhemwy a few decades later — but it shows that the political unity Narmer forged was not yet automatic, even three centuries after the unification. Egypt had to be re-unified at least once, possibly twice, before the Old Kingdom could begin."
+          "label": "Explore further",
+          "text": "A clay seal from his tomb at Abydos carries what's often called the first complete sentence in the Egyptian language: roughly \"He of Ombos has handed over the two lands to his son, Peribsen\" — \"He of Ombos\" being a reverent title for Seth, so the god himself is credited with granting the throne. Choosing Abydos at all is telling, since it was the first royal burial there since the First Dynasty, decades after the court had decamped to Saqqara. Whether Peribsen was even a single distinct king is debated: some Egyptologists (including Flinders Petrie) argue he was the same man as a ruler named Sekhemib, whose seals also surfaced at the entrance to Peribsen's tomb, while others insist they were two different kings."
         }
-      ]
+      ],
+      "commonsFile": "Peribsen.jpg"
     },
     {
       "id": "evt-ede-khasekhemwy",
       "label": "Khasekhemwy — The Reunifier",
       "year": -2700,
-      "description": "Khasekhemwy (\"The Two Powerful Ones Appear\") was the last king of the Second Dynasty and the man who put Egypt back together after the Peribsen schism. His unique royal name placed BOTH Horus and Seth atop his serekh — explicitly reconciling the two warring divine patrons.",
+      "description": "Khasekhemwy was the last king of the Second Dynasty, the man who crushed a northern revolt and stitched Egypt back together after the Horus-Seth schism. He put BOTH the Horus falcon and the Seth animal atop his serekh (the royal name-frame) and declared \"The Two Lords are at peace in him\" — the only king ever to do it.",
       "wikiSlug": "Khasekhemwy",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Horus AND Seth",
-          "text": "Khasekhemwy's serekh is unique in all of Egyptian history: it has both a Horus falcon and a Seth animal perched on top, facing each other. The two gods who had been at war under Peribsen are explicitly shown reconciled, sharing the king's protection. The name itself — \"The Two Powerful Ones Appear\" — refers to Horus and Seth as joint patrons. It's a piece of political theology in pictographic form."
-        },
-        {
-          "label": "The Hierakonpolis Statue",
-          "text": "Khasekhemwy left behind a remarkable seated stone statue of himself, found at Hierakonpolis — the oldest known life-sized royal statue from Egypt. He's shown wearing the white crown of Upper Egypt, his face unusually individualized for the period, his feet resting on carved figures of slain enemies with caption-numbers recording 47,209 northern dead. The implication: the reunification of Egypt was a war, and Khasekhemwy won it."
-        },
-        {
-          "label": "Last King at Abydos",
-          "text": "Khasekhemwy was the last king buried at Abydos. His tomb there is the largest Early Dynastic royal burial — a stone-lined chamber complex over 230 feet long, with side rooms filled with stone vessels and copper tools. His successor (likely his son Djoser, via Queen Nimaathap) moved the royal burial ground permanently to Saqqara and built the world's first pyramid there. The Early Dynastic period ends with Khasekhemwy's tomb."
+          "label": "Explore further",
+          "text": "The near-contemporary Palermo Stone — a king-list carved on black stone a couple of centuries later — gives him a reign of about 17 to 18 years. His two seated statues from Hierakonpolis are the oldest known statues of a specific, named historical person anywhere: one in limestone (now in Oxford's Ashmolean Museum) and one in greenish schist stone (now in the Egyptian Museum in Cairo), each about 2 feet (62 cm) tall. The 47,209 slain enemies carved on the bases are usually read as Lower Egyptian (Delta) rebels, though some scholars argue the accompanying sign instead labels them as Libyans from the western desert."
         }
-      ]
+      ],
+      "commonsFile": "Khasekhem_oxford2.jpg"
     },
     {
       "id": "evt-ede-nimaathap",
       "label": "Nimaathap — Mother of the Old Kingdom",
       "year": -2690,
-      "description": "Nimaathap was the wife of Khasekhemwy and the mother of Djoser, the founder of the Third Dynasty. She was the dynastic hinge between the Early Dynastic period and the Old Kingdom — and was venerated as an ancestress at her son's pyramid complex.",
+      "description": "Nimaathap was Khasekhemwy's principal wife and the mother of Djoser, the king who built the first pyramid. She is the single bloodline thread linking the mudbrick world of the Early Dynastic period to the cut-stone world of the Old Kingdom, and she may even have governed as regent while her son was young.",
       "wikiSlug": "Nimaethap",
       "tier": 2,
       "tags": [],
       "category": "people",
       "details": [
         {
-          "label": "The Hinge",
-          "text": "Nimaathap doesn't appear in king lists because she was never a ruling queen — but every Old Kingdom pharaoh traced their legitimacy back through her. She bridged the Second and Third Dynasties biologically, and her cult continued long after her death. Sealings from Djoser's reign call her \"Mother of the King's Children\" and \"King's Mother,\" and offerings continued in her name for generations."
+          "label": "Explore further",
+          "text": "Her name turns up on hundreds of clay seal impressions, carrying titles like \"Mother of the King of Upper and Lower Egypt\" and \"King's Wife\" — and her seals appearing in Khasekhemwy's own Abydos tomb help prove Djoser, not the shadowy Nebka, was the man who buried and directly succeeded him. A large mudbrick mastaba (a flat-roofed tomb) at Beit Khallaf, near Abydos, is widely thought to be hers, based on the pile of her seals found inside. Her memory had real staying power: an official named Metjen, who served roughly a century later under the Fourth Dynasty kings Huni and Sneferu, still held the job of \"overseer of the Ka-house of Nimaathap,\" meaning he ran her offering cult generations after her death."
         }
-      ]
+      ],
+      "commonsFile": "Nimaathapisiegel1.png"
     },
     {
       "id": "evt-ede-gisr-el-mudir",
       "label": "Gisr el-Mudir — Proto-Pyramid?",
       "year": -2700,
-      "description": "Gisr el-Mudir is a massive rectangular stone enclosure at Saqqara, just west of the later Step Pyramid, dating to the late Second Dynasty. At over 2,100 feet long and built of crude limestone blocks, it may be the earliest large stone construction in Egypt — and possibly a proto-pyramid that inspired Djoser's monument.",
+      "description": "Gisr el-Mudir is a giant rectangular stone enclosure at Saqqara, just west of where Djoser's Step Pyramid would later rise, dating to the late Second Dynasty. Built of roughly cut limestone, it is one of the oldest large stone structures in Egypt and looks like a dry run for the stone architecture that defined the Old Kingdom.",
       "wikiSlug": "Gisr_el-Mudir",
       "tier": 2,
       "tags": [],
       "category": "architecture",
       "details": [
         {
-          "label": "Mystery in the Sand",
-          "text": "Gisr el-Mudir (\"Enclosure of the Boss\" in Arabic) was almost forgotten until the 1990s, when Scottish archaeologists realized that the low rubble walls covered most of a kilometer in length and were built of fitted stone — making it potentially the oldest large-scale stone architecture in Egypt by a century or more. There's no known pharaoh's name attached, but the dating points to the late Second Dynasty, possibly Khasekhemwy."
-        },
-        {
-          "label": "The Bridge to Stone",
-          "text": "Egypt's earlier monumental construction was all in mudbrick. The transition to stone is one of the most consequential architectural shifts in human history — without it, no pyramids. Gisr el-Mudir suggests that the experimentation with cut stone was already happening in the late Second Dynasty, before Imhotep designed the Step Pyramid. Djoser's monument wasn't a leap from nowhere — it was the next iteration of a tradition that was already being worked out a generation earlier."
+          "label": "Explore further",
+          "text": "The wall runs roughly 2,130 by 1,150 feet (about 650 by 350 m) — and it isn't a single solid wall but two parallel outer skins of crude limestone, set about 50 feet (15 m) apart, with the gap packed with rubble, gravel, and sand. Spotted from the air in the early 1900s, it sat ignored until a National Museums of Scotland team finally probed it in the mid-1990s and dated pottery in its fill to the late Second or early Third Dynasty. Nobody knows what it enclosed: theories range from an unfinished royal funerary monument to a ceremonial Sed-festival arena, and the interior has never produced a tomb."
         }
-      ]
+      ],
+      "commonsFile": "Gisr_el-Mudir_(Great-Enclosure).png"
     }
   ],
   "story": {
