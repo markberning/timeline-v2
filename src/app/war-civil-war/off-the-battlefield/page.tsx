@@ -5,9 +5,10 @@
 // theme sections (causes → how it was fought → what it became → the reckoning),
 // the war beyond the firing line. Reads the THEMES from the shared roster
 // (src/lib/civil-war-roster.ts) — the same sections placed on the home spine.
-// Palette: green (mockup ACCENTS.green). Every section is "Soon" — the theme
-// pages aren't written yet. No Timeline/Dossier toggle (it's a subject list, not
-// a two-view battle theatre) — breadcrumb only, the timeline spine.
+// Palette: green (mockup ACCENTS.green). All 17 sections are built and live (the
+// arc runs causes → hard war → turning point → total war → aftermath). No
+// Timeline/Dossier toggle (it's a subject list, not a two-view battle theatre) —
+// breadcrumb only, the timeline spine.
 
 import { useState } from 'react'
 import { WarBreadcrumb, SANS, SERIF, ACCENTS } from '@/components/mode/war-chrome'
@@ -55,13 +56,13 @@ export default function OffTheBattlefieldPage() {
         <Header />
         <div style={{ padding: '8px 0 20px' }}>
           <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-            The threads off the firing line, in the order they shaped the war. Section pages are coming; for now, this is the map of what’s here.
+            The threads off the firing line, in the order they shaped the war — from the cotton economy that caused it to the reckoning that followed.
           </p>
           <CordTimeline>
             {/* `fit` = never-crop, card-sizes-to-image (whole picture, ≤ ~56vw for
                 landscape/near-square on top; clearly-tall portraits go image-left).
-                Applied to every card that has an image; "Soon" placeholders stay as
-                the gradient tile. Orientation comes from each theme's `stack` flag. */}
+                Applied to every card (all 17 sections now have a hero image).
+                Orientation comes from each theme's `stack` flag. */}
             {spine.map(t => <BattleCard key={t.id} size={t.size} accent={ACCENT} dateTop={String(t.year)} title={t.short ?? t.name} sub={`${t.date} · ${TYPE_LABEL[t.type] || t.type}`} hook={t.hook} href={t.href} imageUrl={t.img} stack={t.stack} fit={!!t.img} soon={!t.href} />)}
           </CordTimeline>
         </div>

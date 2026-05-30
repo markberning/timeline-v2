@@ -4,6 +4,20 @@ Phase-2 War vertical, pilot #1. Built in the `feat/phase-2` worktree. The point
 of the pilot: push the forked civ pipeline end-to-end on one war and let it
 reveal what actually breaks — before building any other war. `kind: 'war'`.
 
+> **STATUS 2026-05-30 — the Off-the-Battlefield arc is COMPLETE (17 of 17 themes
+> built + live).** All theme sections shipped through the full 5-gate war pipeline.
+> Final wave (wave-3): `prisons` (Andersonville & the Prisons), `guerrilla-war`
+> (Fort Pillow & the Guerrilla War), `war-within-north` (The War Within the North),
+> `assassination` (Lincoln Assassinated), `reckoning` (The Reckoning). Theme pages
+> are generated deterministically by `scripts/_build-war-themes.mjs` (wave-2/3 hydrate
+> figures from `<slug>-figures.json` produced by `scripts/_parse-img-manifests.mjs`;
+> images downloaded serially by `scripts/_dl-war-images2.mjs`). Source + gate records
+> per section live in `audits/war-pipeline/<slug>-*`. The dated "N of 17 still Soon"
+> notes below are historical progress, now superseded. Next war work: the battle
+> layer (Major/Mid tiers) — NOT the themes. Parked theme ideas (Confederate
+> home-front/war-finance; Native-Americans / Indian Territory + 1862 Dakota War) are
+> still optional adds, never started.
+
 ## Governing principle
 **Good storytelling is the top priority — with factual accuracy and zero
 hallucination as non-negotiable hard constraints.** Every section leads with
