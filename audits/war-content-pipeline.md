@@ -52,6 +52,22 @@ distribution — and to confirm the human reality (the enslaved, the dead,
 civilians) is neither sanitized nor made gratuitous. Reusable for any war with a
 contested memory.
 
+> **STANDING SHIP-BLOCKING RULE — NAME THE CAUSE (locked 2026-05-30, user
+> directive).** Every Civil War section must, somewhere in its own prose, name
+> slavery as the cause the war (and each side) was ultimately fought over. The most
+> common Lost Cause failure is **omission, not euphemism**: a battle section that is
+> accurate and well-told but never says the word "slavery" lets the warmth of the
+> story (gallant officers, plucky underdogs, dramatic stands) quietly fill the
+> vacuum where the cause should be. This bit us on the FIRST three battle-layer
+> drafts at once — Fort Sumter, First Bull Run, AND Wilson's Creek all came back
+> from the framing gate with the identical finding: "slavery" never appeared. The
+> framing gate now checks this EXPLICITLY and FAILS the section if the cause is
+> absent — it is not enough that another section of the war covers slavery; each
+> reader-facing section must stand on its own (a reader lands on one battle). The
+> fix is light (one or two clear sentences placed where the section sets its
+> stakes), but it is mandatory and non-negotiable. See
+> `memory/feedback_name_the_cause`.
+
 **Why the comprehensiveness gate (added 2026-05-23, user's idea).** The
 fact-checker only judges the claims that are *present* — it is blind to omissions.
 The storytelling critic judges the arc of what's *there* — a tight, well-told
@@ -106,7 +122,7 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
 - **Storytelling critic agent** — model Sonnet. Judges as a story; can demand rewrites. ("Is it told well?")
 - **Comprehensiveness critic agent** — model Sonnet, **web-enabled**. Independently builds the must-cover checklist for the subject, then flags essential OMISSIONS / underweighting / perspective gaps in the draft AND blind spots in the fact pack. ("Is anything important missing?") Flags only genuinely essential gaps — selective narrative is correct.
 - **Newcomer/clarity critic agent** — model Sonnet. Reads the section cold as a reader with ZERO prior knowledge (a sharp 15-year-old). Flags every undefined term/acronym/jargon ("corps," "enfilade," "flank in detail"), every unexplained leap, every named actor introduced without a side-tag or scene-set, and any passage that would lose or overwhelm a first-timer. Output: per-term/per-passage CLEAR / NEEDS-GLOSS / LOST, then MUST-FIX (genuine comprehension breakers) vs SHOULD-FIX. ("Can a zero-knowledge reader follow this?")
-- **Lost Cause / framing critic agent** — model Sonnet, **web-enabled**. Hunts ONLY for distortion: slavery-cause soft-pedaling, false both-sides balance, Confederate romanticization, "states' rights" euphemism, presentism, and unfair sympathy distribution; confirms the human reality (enslaved, dead, civilians) is neither sanitized nor gratuitous. Output: FAIR / TILTED / DISTORTED per finding, MUST-FIX vs SHOULD-FIX. ("Is it fair?") Reusable for any war with a contested memory.
+- **Lost Cause / framing critic agent** — model Sonnet, **web-enabled**. Hunts ONLY for distortion: slavery-cause soft-pedaling, false both-sides balance, Confederate romanticization, "states' rights" euphemism, presentism, and unfair sympathy distribution; confirms the human reality (enslaved, dead, civilians) is neither sanitized nor gratuitous. **FIRST CHECK, always: does this section name slavery as the cause in its OWN prose? If the word never appears, that is an automatic MUST-FIX (the NAME THE CAUSE rule above) — omission is the default Lost Cause failure mode.** Output: FAIR / TILTED / DISTORTED per finding, MUST-FIX vs SHOULD-FIX. ("Is it fair?") Reusable for any war with a contested memory.
 - (The civ 5-persona audit can run once a section is close; not required for the gate.)
 - **Continuity (corpus-level, NOT per-section).** Cross-section + cross-battle consistency of recurring people/units/numbers (e.g., Antietam's casualty figure must read the same everywhere; Lee's characterization must not drift) is checked by a **periodic corpus sweep**, not on every section build. Run it on a cadence as the war corpus grows.
 
