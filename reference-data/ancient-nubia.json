@@ -50,32 +50,53 @@
       "id": "evt-ta-seti-name",
       "label": "Ta-Seti: Land of the Bow",
       "year": -3800,
-      "description": "Egyptians called the land south of the First Cataract 'Ta-Seti' — the Land of the Bow — in honor of Nubian archery. Ta-Seti was the first nome (administrative district) of Upper Egypt, and Nubian archers were already famous mercenaries before Egypt was even unified as a kingdom.",
+      "description": "The name Egypt gave the land just south of its border — \"Land of the Bow\" — a backhanded compliment to Nubian archers who were feared and hired long before Egypt itself was a unified country.",
       "wikiSlug": "Ta-Seti",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ta-Seti became the very first nome, or administrative district, of Upper Egypt, with its capital on the island of Elephantine, and ran roughly 70 miles (112 km) from the First Cataract north to just below Edfu. Its patron deities mixed Egyptian and Nubian traditions — Horus alongside Anuket, Satet, and Khnum — a sign that the frontier was a zone of blending, not a hard wall. The reputation behind the name was real: Nubian bowmen were sought-after mercenaries in Egyptian armies for millennia, which is exactly why Egyptians defined the whole region by its weapon."
+        }
+      ],
+      "commonsFile": "UpperEgyptNomes.png"
     },
     {
       "id": "evt-a-group-culture",
       "label": "A-Group Culture",
       "year": -3500,
       "endYear": -2800,
-      "description": "The A-Group people of Lower Nubia developed one of Africa's earliest complex societies, trading extensively with predynastic Egypt and producing distinctive eggshell-thin pottery.",
+      "description": "The \"A-Group\" is a bland letterbox label that early archaeologists pinned on the strikingly rich farming culture of Lower Nubia between roughly 3700 and 2800 BCE — one of Africa's earliest complex societies outside Egypt. They didn't call themselves the A-Group; they didn't call themselves anything we can read, because they left no writing. We know them almost entirely from their graves and their garbage.",
       "wikiSlug": "A-Group_culture",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The letter system is genuinely a filing cabinet, not history: a British-led survey just labeled the layers of cemeteries A, B, C in alphabetical order because they had nothing better to go on. The \"B-Group\" later turned out to be a mistake — they were really just poorer A-Group graves — and the letter was quietly retired, so there is no B-Group at all. What makes A-Group remarkable is the gap between their humble villages and their luxurious tombs: some burials are so much richer than their neighbors that excavators started asking whether they'd found chiefs or actual kings."
+        }
+      ],
+      "commonsFile": "Showcase A-Group culture and early Old Kingdom accessories - Nubian Museum.jpg"
     },
     {
       "id": "evt-early-nile-farming",
       "label": "Early Nile Farming in Nubia",
       "year": -3500,
-      "description": "Nubian communities along the Nile practiced agriculture alongside cattle herding, cultivating emmer wheat and barley in the fertile floodplain south of the First Cataract.",
+      "description": "Long before kings or pyramids, the people in the narrow green strip south of Aswan were already farming and herding — growing emmer wheat and barley wedged onto a thin floodplain, running cattle, fishing the river, and hunting the desert edges. The river was generous, but only along a ribbon a few hundred yards wide.",
       "wikiSlug": "Nubia",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Cattle weren't just food here — they were wealth, status, and something close to a religion, a pattern that runs through Nubian culture for thousands of years and shows up vividly in the graves, where cattle were buried alongside their owners. The catch was geography: Nubia's floodplain is far stingier than Egypt's. South of the cataracts the fertile strip pinches down to almost nothing in places, which is exactly why Nubians leaned so hard on herds, trade, and the desert routes rather than relying on grain alone."
+        }
+      ],
+      "commonsFile": "A-Group culture grave - Nubian Museum.jpg"
     },
     {
       "id": "evt-nubian-rock-art",
@@ -91,204 +112,344 @@
       "id": "evt-a-group-trade",
       "label": "A-Group Trade with Egypt",
       "year": -3400,
-      "description": "A-Group Nubians traded gold, incense, ebony, ivory, and exotic animals northward to Egypt, establishing the commercial relationship that defined Nubia for millennia.",
+      "description": "A-Group Nubia was less a producer than a gateway: it sat on the choke point where Africa's interior met the Egyptian market, and it got rich working the door. Gold and carnelian came out of the Nubian deserts; ivory, ebony, incense, animal hides, and ostrich products were funneled up from peoples further south and resold north.",
       "wikiSlug": "A-Group_culture",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trade ran both ways, and you can read the imports straight off the grave goods: Egyptian copper tools, stone vessels, wine, oil, and honey turn up in A-Group burials, which is precisely how archaeologists know how plugged-in these people were. There's a status angle too — Egyptian craftsmen prized the beautifully veined Nubian stone for the decorated palettes their own elites wanted, so a Nubian middleman wasn't just moving raw gold; he was supplying the raw material for Egypt's luxury goods."
+        }
+      ],
+      "commonsFile": "Bracelets, Qustal, Nubia, Cemetery L, tomb 15, A-Group, 3800-3000 BC, ivory or shell - Oriental Institute Museum, University of Chicago - DSC08019.JPG"
     },
     {
       "id": "evt-qustul-cemetery-l",
       "label": "Qustul Cemetery L",
       "year": -3200,
-      "description": "A Nubian elite cemetery in Lower Nubia with oversized tombs containing carved incense burners and royal iconography. Archaeologist Bruce Williams argued in 1979 that some Qustul rulers may actually predate the first Egyptian pharaohs — a controversial claim suggesting Nubian kingship was as old as (or older than) Egypt's.",
+      "description": "An A-Group Nubian elite cemetery in Lower Nubia whose oversized tombs held lavish goods — and one small carved incense burner that touched off one of the fiercest debates in African archaeology.",
       "wikiSlug": "Qustul",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The famous censer shows a procession of boats sailing toward a palace facade, with a seated figure wearing what looks like the White Crown of Upper Egypt and a falcon hovering above — full pharaonic kingship imagery, on a Nubian object older than Egypt's First Dynasty. Bruce Williams argued in the 1970s that this hinted Egypt's founding kings came from near Qustul; most scholars reject that, reading it instead as evidence that Nubian and Egyptian rulers drew on a shared pool of royal symbols. Either way, the icons of pharaonic power show up in Nubia suspiciously early."
+        }
+      ],
+      "commonsFile": "Rippled jar, Qustul, Nubia, Cemetery Q, tomb 631, A-Group, 3800-3000 BC, ceramic - Oriental Institute Museum, University of Chicago - DSC08010.JPG"
     },
     {
       "id": "evt-qustul-incense-burner",
       "label": "Qustul Incense Burner",
       "year": -3200,
-      "description": "A decorated incense burner from the A-Group cemetery at Qustul depicts a ruler wearing a crown, suggesting Nubian kingship traditions may have paralleled or even influenced early Egyptian monarchy.",
+      "description": "The famous object from Qustul is a carved stone incense burner showing a procession of boats sailing toward a serekh — a palace-front emblem that later framed pharaohs' names — with a seated figure in what looks like the tall White Crown of Upper Egypt. It's the single artifact the whole \"did Nubia invent kingship?\" argument hangs on.",
       "wikiSlug": "Qustul",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Look closer and the imagery is denser than a crown: above the ruler hovers a falcon — the god Horus, the very symbol that defined Egyptian kingship for three millennia — and in front of it a rosette, another royal insignia. It came specifically from Tomb 24 in Cemetery L, dated to around 3200–3100 BCE. The skeptics' best counterpunch is that the White Crown already appears in undisputed Egyptian art a bit earlier, so the burner may show shared border imagery, or even a Nubian elite honoring an Egyptian king, rather than a homegrown Nubian pharaoh."
+        }
+      ],
+      "commonsFile": "Qustul_Incense_Burner,_Qustal,_Nubia,_Cemetery_L,_tomb_24,_A-Group,_3200-3000_BC,_limestone_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC08007.JPG"
     },
     {
       "id": "evt-nubian-cattle-culture",
       "label": "Nubian Cattle Culture",
       "year": -3000,
-      "description": "Cattle were central to Nubian society — a source of wealth, status, and religious significance. Burials with cattle offerings span thousands of years of Nubian tradition.",
+      "description": "In Nubia a person's cattle weren't just dinner and savings — they were status, religion, and identity rolled together, a worldview so durable it stretches from the ancient Sahara to herding peoples like the Maasai today.",
       "wikiSlug": "Nubia",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Nubian graves take this seriously in a way that startles outsiders: bodies were buried with cattle skulls arranged in deliberate patterns, sometimes far more skulls than any one household could realistically have owned. In some traditions the buried skulls — called bucrania — weren't even all cattle, mixing in gazelle and goat, a hint that the offering was about the symbolism of the herd as much as the animals themselves. This is the earliest archaeologically clear example of a cattle-centered African pastoral tradition that would persist and spread across the continent for thousands of years."
+        }
+      ],
+      "commonsFile": "Showcase C-Group culture, Middle Kingdom, 2nd Intermediate Period - pottery bowl with three rows of large and small cattle - Nubian Museum.jpg"
     },
     {
       "id": "evt-nubian-pottery-tradition",
       "label": "Nubian Pottery Traditions",
       "year": -3000,
-      "description": "Nubian hand-built pottery, with burnished surfaces and incised geometric decoration, maintained distinctive traditions for millennia — a powerful marker of cultural continuity.",
+      "description": "Nubian potters built their finest bowls by hand, no wheel, with walls so thin that light shines through them when you hold one to the sun — the so-called \"eggshell ware.\" It's not just pretty; it's a flex. Egyptian pottery of the same era, turned on a wheel by specialists, was thicker and clumsier by comparison.",
       "wikiSlug": "Nubia",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The technique was patient and unforgiving: the half-dry pot was polished with a smooth pebble — a delicate job on eggshell-thin walls — then often combed with ripple patterns or geometric designs imitating basketwork before firing. The signature black rims and interiors came from a trick of the fire: vessels were stacked upside-down so smoke and oxygen-starved \"reduction\" firing blackened the buried parts while the exposed surfaces stayed red. So the next time someone calls Nubia a cultural backwater of Egypt, the pottery alone says otherwise."
+        }
+      ],
+      "commonsFile": "A-Group Bowl.jpg"
     },
     {
       "id": "evt-destruction-a-group",
       "label": "Destruction of A-Group",
       "year": -2800,
-      "description": "Early Dynastic Egyptian campaigns devastated A-Group communities in Lower Nubia. The region was largely depopulated, possibly through forced displacement or conquest.",
+      "description": "Around 2800 BCE the A-Group doesn't fade — it vanishes. Cemeteries stop, villages empty, the eggshell pottery disappears, and Lower Nubia goes nearly silent for roughly four centuries. The leading suspect is Egypt's earliest pharaohs, who left inscriptions bragging about smashing Ta-Seti.",
       "wikiSlug": "A-Group_culture",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Early-dynastic Egyptian records aren't subtle about it: a rock carving near Aswan from the reign of King Djer shows a battlefield strewn with bound Ta-Seti prisoners, and later kings tally up thousands of captured cattle and people from Nubian raids. By the Second Dynasty, Khasekhemwy was pushing military colonies and a fortified trading post upstream at Buhen. The grim arithmetic makes it plausible: Lower Nubia's whole population was probably only in the low tens of thousands, so sustained raiding, enslavement, and herd-seizure could have hollowed out the region — though some archaeologists suspect the survivors simply moved beyond Egypt's reach and left a fainter trace than the conquest story implies."
+        }
+      ],
+      "commonsFile": "Relief of Jebel Sheikh Suleiman, National Museum of Sudan, Khartoum, Sudan, North-east Africa.jpg"
     },
     {
       "id": "evt-sneferu-raids",
       "label": "Sneferu's Nubian Raids",
       "year": -2600,
-      "description": "Pharaoh Sneferu boasted of capturing 7,000 Nubian prisoners and 200,000 cattle in raids, demonstrating both Egyptian aggression and the wealth of Nubian pastoral societies.",
+      "description": "Around 2600 BCE, the pyramid-building pharaoh Sneferu bragged that a single raid into Nubia hauled off 7,000 people and 200,000 cattle — a haul that would have gutted a riverside population that was never very large to begin with.",
       "wikiSlug": "Sneferu",
       "tier": 3,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The numbers survive on the Palermo Stone, a fragment of an Egyptian royal annal, and the same entry lists a Libyan campaign that took 11,000 prisoners and 13,100 cattle — so Nubia delivered fewer captives but roughly fifteen times the livestock, a tell that Egypt valued it above all as cattle country. The figures are almost certainly inflated boasts, but the policy behind them was the point: captives became forced labor for royal projects and the herds became royal wealth. Stripping a region of its breeding cattle doesn't just impoverish it once — it kneecaps its ability to ever rebuild, which is how a few raids could help empty a stretch of river for centuries."
+        }
+      ],
+      "commonsFile": "Sneferu_portrait,_Cairo_Museum.jpg"
     },
     {
       "id": "evt-wawat-yam",
       "label": "Wawat and Yam",
       "year": -2600,
-      "description": "Egyptian records distinguished two regions of Nubia: Wawat (Lower Nubia, between the First and Second Cataracts) and Yam (a more distant land south of the Third Cataract, probably the Kerma region). Wawat was where the gold mines were; Yam was where the exotic luxury goods came from.",
+      "description": "Egypt's two-word map of Nubia: Wawat was the near country, Lower Nubia just upstream of the border, and Yam was the far country deeper south — the source-end of the luxury pipeline that fed the Egyptian court.",
       "wikiSlug": "Wawat",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost everything we know about Yam comes from one talkative Old Kingdom official, Harkhuf, governor of Aswan, who carved the story of four trading expeditions into his tomb wall around 2300 BCE. He came home from one trip with 300 donkeys hauling incense, ebony, ivory, and panther skins, and from another with a dancing pygmy — prompting the boy-pharaoh Pepi II to fire off an excited letter ordering Harkhuf to guard the dancer day and night so he wouldn't fall in the river, a message so prized that Harkhuf had the king's own words copied onto his tomb. Harkhuf also noted that the lands between Egypt and Yam had, by his day, fallen under a single ruler — an early hint of the consolidating power that would become Kerma."
+        }
+      ],
+      "commonsFile": "NileCataractReaches.jpg"
     },
     {
       "id": "evt-ivory-ebony-trade",
       "label": "Ivory and Ebony Trade Routes",
       "year": -2500,
-      "description": "Nubia served as the conduit for luxury goods from sub-Saharan Africa — ivory, ebony, leopard skins, ostrich feathers, and live animals — flowing north to Egypt and beyond.",
+      "description": "The long-haul supply line that funneled the exotic goods of inner Africa — ivory, ebony, leopard skins, ostrich feathers, and live animals — north into Egypt, with Nubia working the middle of the chain.",
       "wikiSlug": "Nubia",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The striking thing is how far down these chains reached past anywhere the Egyptians themselves ever went: goods arrived at Kerma from lands deeper in Africa that no Egyptian scribe had laid eyes on, traded hand to hand by peoples the Egyptians never met. This was the same kind of long-distance luxury network that carried carnelian beads from the Indus city of Harappa to Sumerian Ur and lapis lazuli from the mountains of Afghanistan to the pharaoh's jewelers — a Bronze Age world stitched together by relays of middlemen, with Kerma holding the African junction."
+        }
+      ],
+      "commonsFile": "Nubian Tribute Presented to King Tutankhamun, Tomb of Huy MET DT221112.jpg"
     },
     {
       "id": "evt-kerma-founded",
       "label": "Kerma Kingdom Founded",
       "year": -2500,
-      "description": "The city of Kerma, south of the Third Cataract, grew into the capital of Africa's first urbanized society outside Egypt, with a population eventually exceeding 10,000.",
+      "description": "The first true city in the African interior, on the Nile south of the Third Cataract. Long before Egypt ruled Nubia, Kerma grew into the capital of a powerful kingdom — proof that urban civilization on the continent wasn't Egypt's alone.",
       "wikiSlug": "Kerma_culture",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its surviving landmark is the Western Deffufa, a colossal solid block of sun-dried mudbrick about 59 feet (18 m) tall and three stories high — one of the oldest and largest monumental buildings anywhere in Africa, and a temple, not a tomb. \"Deffufa\" is a Nubian word for a mud-brick mass, and only three survive in the world, all at Kerma. The building has stood, weathering but unbowed, for over three and a half thousand years in the open desert."
+        }
+      ],
+      "commonsFile": "Kerma NNE.jpg"
     },
     {
       "id": "evt-c-group-emerges",
       "label": "C-Group Culture Emerges",
       "year": -2400,
-      "description": "The C-Group people settled Lower Nubia with distinctive round stone-lined graves, incised pottery, and cattle-centered culture, maintaining their identity under Egyptian economic pressure.",
+      "description": "Around 2400 BCE a new people appear in Lower Nubia after a four-century silence — the C-Group, who refused to be Egyptianized and held onto their own way of life for nearly a thousand years.",
       "wikiSlug": "C-Group_culture",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They almost certainly weren't a single clean lineage: the best-supported reading is a fusion of A-Group survivors who had drifted off the river with incoming herders pushed in from the drying western desert, blending into one new culture along the Nile. Whatever their origin, their staying power is the headline — they kept their burials, pottery, and cattle obsession intact straight through the centuries when Egypt physically occupied and garrisoned their land. The C-Group is the hard archaeological proof that Egyptian domination never actually erased Nubian identity; it just made it stubborn."
+        }
+      ],
+      "commonsFile": "Bowls, Adindan, Nubia, various cemeteries, C-group IIa and III, 2000-1550 BC, ceramic - Oriental Institute Museum, University of Chicago - DSC08036.JPG"
     },
     {
       "id": "evt-western-deffufa",
       "label": "Western Deffufa at Kerma",
       "year": -2400,
-      "description": "The Western Deffufa, a massive mud-brick temple rising 19 meters high, is one of the oldest and largest mud-brick structures in Africa — the religious heart of the Kerma kingdom.",
+      "description": "A mud-brick mountain in the desert: the Western Deffufa is a solid, towering temple of sun-dried brick at the heart of Kerma, rising around 60 feet (about 18-20 m) and counting among the oldest and largest monumental structures in Africa outside Egypt.",
       "wikiSlug": "Western_Deffufa",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "'Deffufa' isn't an ancient title at all — it's a modern Nubian word for a big artificial mound of mud-brick, which is exactly what these structures look like after millennia of erosion. The building was far more than a solid block: a narrow internal staircase wound up through its core to a rooftop platform where ceremonies were performed, and excavators found traces of a once-vivid painted chamber inside. It is so durably built that even after Thutmose I's army sacked the city around 1500 BCE, the Western Deffufa was only damaged, not destroyed — it still stands in Sudan today."
+        }
+      ],
+      "commonsFile": "Western_Deffufa_-_Kerma.jpg"
     },
     {
       "id": "evt-c-group-pottery",
       "label": "C-Group Pottery Tradition",
       "year": -2300,
-      "description": "C-Group pottery, with geometric incised patterns filled with white pigment, is among the most distinctive ceramic traditions in African archaeology.",
+      "description": "C-Group potters cut geometric patterns — triangles, zigzags, hatching — into their bowls and rubbed white pigment into the grooves so the designs leapt out, producing one of the most instantly recognizable pottery styles in all of African archaeology.",
       "wikiSlug": "C-Group_culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "These were handmade pots, not thrown on a wheel, which is itself a deliberate divergence from contemporary Egyptian ceramics that were wheel-turned and plain — the C-Group wasn't behind the technological curve, it was making a different aesthetic choice. Some of the incised designs aren't just abstract geometry but depictions of cattle and herding life, the same animals the potters' culture was built around. The style is so distinctive that a specialist can identify a C-Group sherd on sight, the way a sommelier names a vintage from one sip."
+        }
+      ],
+      "commonsFile": "C_Group_bowl.jpg"
     },
     {
       "id": "evt-kerma-gold-trade",
       "label": "Kerma Gold Trade",
       "year": -2300,
-      "description": "Kerma controlled access to Nubian gold mines, making it an essential trading partner for Egypt. Nubian gold flowed north; Egyptian luxury goods flowed south.",
+      "description": "Kerma sat astride the routes to Nubia's gold country, making it the gatekeeper of the one commodity Egypt wanted most — and an unavoidable trading partner because of it.",
       "wikiSlug": "Kerma_culture",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egyptian-directed gold mining in Nubia can be traced back to the Old Kingdom around 2600 BCE, much of it worked from the gold-bearing quartz and river gravels of the Eastern Desert. The system was brutally labor-intensive: hundreds of workers smashed and washed gold-flecked rock that had eroded into the dry desert valleys, a method researchers call \"wadi workings.\" Gold was so bound up with this region that the very name \"Nubia\" is often linked to nub, an Egyptian word for gold — an attractive connection, though one some scholars regard as unproven."
+        }
+      ],
+      "commonsFile": "Feuilles d'or retrouvées dans la cachette des statues royales de Dukki-Gel.jpg"
     },
     {
       "id": "evt-harkhuf-expeditions",
       "label": "Harkhuf's Four Expeditions to Yam",
       "year": -2270,
-      "description": "Harkhuf, the governor of Elephantine under the Old Kingdom pharaohs Merenre and Pepi II, led four separate donkey caravans south into Nubia. His autobiography, carved on his tomb, is the richest surviving Old Kingdom account of Nubian trade — describing 300 donkey-loads of incense, ebony, ivory, panther skins, and a pygmy dancer.",
+      "description": "An Old Kingdom governor of Elephantine who led four trading caravans deep into Nubia to the land of Yam. His tomb autobiography is the richest surviving Egyptian window onto early Nubian trade — and contains an unexpectedly charming royal letter.",
       "wikiSlug": "Harkhuf",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "On his last trip Harkhuf brought back a dancing dwarf \"for the dances of the god,\" and the reigning pharaoh — Pepi II, then a boy of about eight — was so thrilled he dashed off a personal letter ordering Harkhuf to rush the dwarf to court unharmed, posting guards to keep him safe on the boat. Harkhuf was so proud of getting fan mail from the king that he had the entire royal letter carved onto his tomb wall. It survives as one of the oldest preserved private letters in history, from a child-king giddy about a performer from the deep south."
+        }
+      ],
+      "commonsFile": "Flickr_-_schmuela_-_IMG_6385.jpg"
     },
     {
       "id": "evt-pepi-ii-dwarf-letter",
       "label": "Pepi II's Dancing Dwarf Letter",
       "year": -2270,
-      "description": "When Harkhuf wrote to the court announcing he had captured a pygmy dancer from Yam, the 8-year-old pharaoh Pepi II wrote back with breathless excitement — ordering Harkhuf to guard the dwarf night and day lest he fall overboard, and promising to reward him more richly than any previous expedition. Harkhuf was so proud of the royal letter that he copied its full text onto his tomb wall.",
+      "description": "A giddy royal thank-you note dashed off by a boy-king who'd just learned a dancing little person was being shipped up the Nile to him — and the proudest possession of the man who received it.",
       "wikiSlug": "Pepi_II_Neferkare",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the letter, copied word for word onto Harkhuf's tomb, the young Pepi II declares that he would rather see this dancer \"than the gifts of Sinai and of Punt,\" and orders Harkhuf to guard him day and night and station trusted men around his sleeping place so he can't fall overboard. The dancer was wanted for the \"dance of the god,\" a temple performance tied to the sun god in which a physically small dancer played a ritual role. Harkhuf was so proud of having received a personal letter from the pharaoh that he carved its full text on his tomb, leaving us one of the oldest surviving pieces of private correspondence from any ancient civilization."
+        }
+      ],
+      "commonsFile": "Royal_head_from_a_small_statue.jpg"
     },
     {
       "id": "evt-kerma-royal-burials",
       "label": "Kerma Royal Burials",
       "year": -2025,
-      "description": "Kerma kings were buried in enormous circular tumuli, the largest nearly the size of a football field, with corridors of sacrificed retainers radiating out from the central burial chamber. The Harvard archaeologist George Reisner's 1920s excavations documented retainer counts of three to four hundred in the largest tumuli — an order of magnitude greater than the Sumerian royal tombs at Ur, and the most extreme form of Bronze Age royal retainer sacrifice known.",
+      "description": "Kerma's kings were buried under colossal circular earthen mounds — the largest about 300 feet (90 meters) across, nearly the length of a football field — with corridors of sacrificed servants laid out in rows around the central chamber to follow the king into death.",
       "wikiSlug": "Kerma_culture",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The grimmest single tomb held 322 bodies, most of them women. But the bodies were not the only company a Kerma king took with him: one Middle Kerma royal mound had more than 4,000 cattle skulls arranged in a giant crescent along its southern side, and the practice could run to 5,000 skulls for one burial. Stranger still, many of the cattle had been bred with deliberately deformed, bent horns — a status display in a culture where wealth was measured in herds, carried straight into the grave."
+        }
+      ],
+      "commonsFile": "Tumulus Kerma.jpg"
     },
     {
       "id": "evt-kerma-bronze",
       "label": "Kerma Metalworking",
       "year": -2015,
-      "description": "Kerma artisans worked copper and bronze independently, producing distinctive daggers, razors, and tools that combined Egyptian and indigenous techniques.",
+      "description": "Kerma ran its own metal industry, casting copper and bronze daggers, razors and tools — and it parked the foundry, fire and all, right in the middle of the city's sacred temple quarter.",
       "wikiSlug": "Kerma_culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Excavators found a bronze-casting furnace beside the main temple and the slag and waste of large-scale production nearby, putting smoke and molten metal at the religious heart of the city rather than off in an industrial fringe. Chemical analysis shows Kerma's smiths gradually shifting from arsenical copper to true tin bronze over time — the same upgrade Egypt was making — proving the kingdom wasn't just importing finished metalwork but actively experimenting with alloys of its own."
+        }
+      ],
+      "commonsFile": "Daggers of bone and copper, 1750-1450 BCE, Kerma, British Museum EA55442.jpg"
     },
     {
       "id": "evt-nubian-archers",
       "label": "Nubian Archers Renowned",
       "year": -2005,
-      "description": "Nubians were famous throughout the ancient world as expert archers. Egypt called Nubia 'Ta-Seti' (Land of the Bow), and Nubian mercenary archers served in armies from Egypt to Mesopotamia.",
+      "description": "Nubian archers were the ancient world's marksmen-for-hire, prized for long range and dead aim, and Egypt couldn't get enough of them. From the very beginning, pharaohs hired them as mercenaries — and never stopped, through the Old, Middle, and New Kingdoms.",
       "wikiSlug": "Nubia",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The edge was partly technology: Nubian bowyers excelled at the composite bow, layered from a wooden core with horn glued to the belly and sinew to the back, which stores far more energy than a plain stave and shoots farther for its size. Here's the irony that ran for three thousand years — the classic propaganda image of a triumphant pharaoh drawing his bow over cowering foreigners was often, in real life, fronting for the Nubian archers actually doing the shooting in the ranks behind him. Egypt's enemy of choice was also Egypt's hired gun of choice."
+        }
+      ],
+      "commonsFile": "Replica of the Nubian Archers from the Tomb of Mesehti - Nubian Museum 01.jpg"
     },
     {
       "id": "evt-pan-grave-culture",
       "label": "Pan-Grave Culture",
       "year": -1995,
       "endYear": -1600,
-      "description": "The Pan-Grave people, Nubian pastoralists from the Eastern Desert, served as mercenaries in the Egyptian army and maintained distinctive shallow circular grave pits.",
+      "description": "Nubian pastoralists from the Eastern Desert, named by archaeologists for the shallow, circular grave pits they dug — which look like cooking pans when excavated. They served as mercenaries in the Egyptian army of the late Middle Kingdom and Second Intermediate Period, often settling in Egypt itself with their families.",
       "wikiSlug": "Pan-Grave_culture",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Their graves are unmistakable. Around the burial pits archaeologists keep finding circular ditches lined with the cut and painted skulls of goats, sheep, and cattle — animal-skull offerings ringing the dead, a ritual signature found nowhere in Egyptian burial. The bodies lie curled on their right side with hand-made black-topped bowls, but right beside them sit Egyptian-style weapons — the literal grave goods of foreign soldiers who fought for Egypt's pay. Many scholars think the Pan-Grave people and the Medjay were one and the same."
+        }
+      ],
+      "commonsFile": "Sheep and goat skulls with painted decoration, Adindan, Nubia, Cemetery K, tomb 82, Pan-Grave, 1700-1520 BC, bone, paint - Oriental Institute Museum, University of Chicago - DSC08038.JPG"
     },
     {
       "id": "evt-incense-trade",
@@ -304,298 +465,501 @@
       "id": "evt-kerma-textiles",
       "label": "Kerma Textile Production",
       "year": -1975,
-      "description": "Kerma produced high-quality textiles and leather goods, with evidence of sophisticated dyeing techniques using local plants — items that were valued in Egyptian markets.",
+      "description": "Beyond gold and ivory, Kerma turned out finished goods: linen, leather and dyed cloth worked up by its craftspeople into products Egyptian buyers wanted.",
       "wikiSlug": "Kerma_culture",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This is the part of Kerma that surprises people — it had a real manufacturing economy, not just a pipeline shipping raw gold and ivory downriver. The same workshops also produced faience, the glassy glazed-quartz ware usually associated with Egypt; analysis shows some pieces at Kerma were Egyptian imports but others were made locally, with the Kerma artisans coloring their own glazes using lead and copper. A city that makes things other people pay for, rather than just digging things up, is operating at a different level of complexity."
+        }
+      ],
+      "commonsFile": "Pottery, Kerma Museum, Kerma, Sudan, North-east Africa.jpg"
     },
     {
       "id": "evt-buhen-fortress",
       "label": "Buhen Fortress Built",
       "year": -1860,
-      "description": "Egypt built the massive fortress of Buhen at the Second Cataract to control trade and defend against Kerma. Its walls with towers and a moat were sophisticated military engineering.",
+      "description": "A colossal Middle Kingdom fortress at the Second Cataract — mudbrick walls with projecting towers, a dry moat, and arrow slits — built by the pharaohs to bottle up Kerma and police the gold road. In the New Kingdom it was repurposed from a frontline fort into an administrative town.",
       "wikiSlug": "Buhen",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Buhen was the northernmost of a chain of forts Senusret III built within signaling distance of one another, so a threat at the frontier could be relayed downriver fast — a Bronze Age early-warning network. Its defenses were startlingly modern: a moat, a drawbridge, and loophole slits angled so archers could sweep attackers at the base of the wall. None of it survives in place, though — when the Aswan High Dam flooded the valley in the 1960s, Buhen could not be saved and now sits at the bottom of Lake Nasser, recorded only by the rescue excavation that raced the rising water."
+        }
+      ],
+      "commonsFile": "Buhen3.jpg"
     },
     {
       "id": "evt-semna-stele",
       "label": "Semna Stele of Senusret III",
       "year": -1860,
-      "description": "Senusret III erected a stele at the Semna fortress explicitly forbidding any Nubian from crossing the border downstream except to trade. The stele is one of the oldest surviving explicit border-closure decrees in human history, and it shows how seriously Middle Kingdom Egypt took Nubian containment.",
+      "description": "At Semna, the southernmost stronghold facing Kerma's old territory, Senusret III planted a carved standing stone that amounts to a border-closure decree: no Nubian crosses the line — by land or by river, with ship or cattle — without authorized business at a named trading post. It's one of the oldest explicit border decrees to survive from any civilization.",
       "wikiSlug": "Semna_(Nubia)",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A second stele the king set up a few years later (in his year 16) drops the legal language for something more personal and ferocious. It declares that 'a coward is he who is driven from his border,' sneers that the Nubians 'are not people one respects,' and then turns on his own bloodline: any future son who holds this frontier is his true son, and any son who abandons it 'was not born to me.' Anxious about what later kings might do under pressure, the pharaoh tried to bind his successors with the threat of posthumous disinheritance — carving a curse against his own descendants into the boundary stone."
+        }
+      ],
+      "commonsFile": "Semna-vue.jpg"
     },
     {
       "id": "evt-senusret-iii-campaign",
       "label": "Senusret III's Nubian Campaigns",
       "year": -1860,
-      "description": "Senusret III conducted aggressive campaigns into Nubia and built a chain of fortresses along the Second Cataract, declaring 'any Nubian who passes this boundary is not my son.'",
+      "description": "Senusret III was the grim-faced Twelfth Dynasty pharaoh (reigning around 1860 BCE) who pushed the fortress chain all the way to the Second Cataract and made Egypt's grip on Lower Nubia something Kerma could no longer shrug off. His worn, exhausted statue faces are among the earliest royal portraits that look like a specific tired human being rather than an idealized mask.",
       "wikiSlug": "Senusret_III",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The southern garrisons revered him so completely that he stopped being just a dead king and became a god. Soldiers and their families stationed at the Nubian forts worshipped Senusret III as the divine patron of the borderlands — a cult that outlived him by some 500 years, still going strong in the New Kingdom, when later Egyptians treated him as the lord of Nubia and carved his image into temples there. Few pharaohs were deified at all; fewer still stayed worshipped for half a millennium on the frontier they conquered."
+        }
+      ],
+      "commonsFile": "Portrait_head_of_pharaoh_Sesostris-Senusret_III_from_a_sphinx_statue_02_(cropped).jpg"
     },
     {
       "id": "evt-mirgissa-slipway",
       "label": "Mirgissa Fortress and Slipway",
       "year": -1850,
-      "description": "Mirgissa, one of the largest Middle Kingdom forts in Nubia, included a mud-plastered wooden slipway long enough to drag boats around the Second Cataract rapids. Egyptian boats bypassed the impassable whitewater by sliding overland, a striking example of the engineering effort Egypt poured into controlling Nubian river traffic.",
+      "description": "One of Egypt's great Middle Kingdom forts at the Second Cataract — and home to an audacious bit of engineering: a long mud-slicked track for hauling whole boats overland around rapids the river itself couldn't be sailed through.",
       "wikiSlug": "Mirgissa",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The slipway ran for well over a mile, built from wooden cross-beams bedded in Nile silt that was kept wet so the slippery mud cut the friction and let crews drag hulls across it. It is one of the oldest known overland boat-portages on earth, predating the famous Greek diolkos across the Isthmus of Corinth by more than a thousand years. Egypt was willing to literally drag its navy across the desert rather than lose control of the trade route south."
+        }
+      ],
+      "commonsFile": "Mirgissa_Fortress.jpg"
     },
     {
       "id": "evt-second-cataract-forts",
       "label": "Second Cataract Fortress Chain",
       "year": -1850,
-      "description": "Egypt constructed at least 13 fortresses along the Second Cataract, forming one of the ancient world's most impressive military frontier systems to contain Kerma expansion.",
+      "description": "A chain of roughly a dozen mud-brick fortresses Egypt strung along the 250-mile river corridor between the First and Second Cataracts — one of the most intensive frontier-defense programs anywhere in the Bronze Age world. You don't build that against a nuisance; you build it against a rival you take seriously.",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We actually have the paperwork these forts ran on. A cache of papyrus copies known as the Semna Dispatches preserves the routine military reports relayed up the chain — logs of patrols, sightings, and exactly which Nubians showed up at the border and why. They reveal a bureaucratic surveillance network watching the Semna gorge, with messages averaging only about 12.5 miles (20 km) of travel a day. It was less a wall than a tightly administered checkpoint system, generations before anything comparable elsewhere."
+        }
+      ],
+      "commonsFile": "Semna Kumma view from west.jpg"
     },
     {
       "id": "evt-classic-kerma",
       "label": "Classic Kerma Period",
       "year": -1750,
       "endYear": -1500,
-      "description": "At its peak, Kerma was a rival power to Egypt, with a large urban center, monumental architecture, and diplomatic relationships with the Hyksos rulers of northern Egypt.",
+      "description": "Kerma at its height (roughly 1750–1500 BCE): a genuine rival to Egypt, with a sprawling city, monumental tombs, the finest pottery of the Bronze Age, and a reach that ran from Hyksos Egypt down to the Red Sea trade.",
       "wikiSlug": "Kerma_culture",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its kings were buried under enormous earthen mounds up to 300 feet across, and the largest tomb held a long corridor packed with the bodies of over 300 sacrificed retainers — courtiers and servants who seem to have gone into the grave with their king, many in a curled-up posture suggesting they were buried alive and smothered as the fill went in. The dead weren't war captives; bone studies show they were Kerma's own people, possibly volunteers. It is some of the clearest evidence for mass retainer sacrifice anywhere in the ancient Nile world."
+        }
+      ],
+      "commonsFile": "Kerma_city.JPG"
     },
     {
       "id": "evt-eastern-deffufa",
       "label": "Eastern Deffufa and Royal Cemetery",
       "year": -1700,
-      "description": "A second massive mud-brick temple structure called the Eastern Deffufa sat several kilometers east of Kerma city alongside the royal cemetery. The largest tombs covered entire football-field-sized tumuli and contained hundreds of sacrificed retainers, evidence that Kerma kings commanded enormous labor and ritual authority.",
+      "description": "The kingdom's city of the dead: a second mud-brick temple, the Eastern Deffufa, presided over a sprawling royal cemetery a few kilometers east of Kerma — the place where dead kings were sent into the afterlife surrounded by their slaughtered attendants.",
       "wikiSlug": "Kerma",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale is staggering: the eastern cemetery spreads across roughly 70 hectares and holds on the order of 30,000-40,000 graves, with the largest royal mounds reaching about 300 feet (90 m) across. Beneath those giant tumuli, archaeologists found people laid out in death by the hundreds — one excavator estimated several hundred sacrificed retainers under a single great mound — buried alongside their king with no sign of violence, suggesting they may have walked in and taken poison or been smothered as the tomb was sealed. The dead king himself lay on an ornate angareeb, a wooden bed, the signature Kerma way of meeting the afterlife."
+        }
+      ],
+      "commonsFile": "ReisnerKerma.jpg"
     },
     {
       "id": "evt-kerma-hyksos-alliance",
       "label": "Kerma-Hyksos Alliance",
       "year": -1650,
-      "description": "During Egypt's Second Intermediate Period, the Hyksos ruler Apophis of Avaris and the ruler of Kush at Kerma coordinated pressure on the Theban pharaohs caught between them, squeezing Egypt from both north and south. The alliance is known primarily from the Second Kamose Stele, which quotes an intercepted Hyksos letter.",
+      "description": "A two-front squeeze on Egypt: while the Semitic-speaking Hyksos held the northern delta, the kings of Kerma pushed up from the south, and the two foreign powers cozied up to coordinate against the Theban pharaohs caught in the middle. It is the only time we know of that Nubia and a Levantine dynasty plotted to carve up Egypt between them.",
       "wikiSlug": "Hyksos",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The alliance left a footprint on the ground, not just on a monument: Egyptian-made scarabs and seal impressions naming Hyksos rulers turn up in the elite tombs at Kerma, the kind of diplomatic gifts and trade goods that flow between partners rather than enemies. Crucially, the contact ran along the western desert caravan tracks rather than straight down the contested Nile, letting messengers slip past the Theban-held river corridor — which is exactly how the famous courier in the Kamose story got caught, on the desert road instead of the water."
+        }
+      ],
+      "commonsFile": "Painting_of_foreign_delegation_in_the_tomb_of_Khnumhotep_II_circa_1900_BCE_(Detail_mentioning_\"Abisha_the_Hyksos\"_in_hieroglyphs).jpg"
     },
     {
       "id": "evt-second-kamose-stele",
       "label": "Second Kamose Stele",
       "year": -1555,
-      "description": "The Theban pharaoh Kamose erected a victory stele at Karnak (the great temple complex north of Thebes) documenting his wars against the Hyksos. Its most famous passage describes the interception of a courier carrying a letter from the Hyksos king Apophis to the ruler of Kush, proposing a joint attack on Thebes and a division of Egypt between them. Kamose had the letter's text carved into the stele as his smoking-gun justification for war — the single best surviving source for the Kerma-Hyksos alliance.",
+      "description": "A Theban war monument that doubles as a leaked diplomatic cable: Kamose, the last king of the Seventeenth Dynasty, carved his Hyksos campaign onto stone at Karnak and quoted, word for word, an intercepted enemy letter as his smoking-gun proof that two foreign powers were conspiring to split Egypt.",
       "wikiSlug": "Kamose",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the quoted letter, the Hyksos king Apophis effectively pleads for help, complaining that Kamose 'is attacking me on my soil although I have not attacked him' and is bent on ravaging 'my land and yours' — the words of a man who feels cornered, not confident. Kamose didn't just stumble across the stele's text either: he charged a court official named Neshy, his 'overseer of the courtiers and chief of the treasurers,' with erecting the monument, treating the captured letter as state evidence to be filed in stone. The original stone was reused and lost; what we read today survives partly because the text was also copied onto a scribe's wooden practice tablet, the Carnarvon Tablet."
+        }
+      ],
+      "commonsFile": "Coffin_of_King_Kamose_2017.jpg"
     },
     {
       "id": "evt-kerma-fine-ware",
       "label": "Kerma Fine Ware (Tulip Beakers)",
       "year": -1600,
-      "description": "Classic Kerma potters produced the thinnest-walled handmade ceramics of the ancient world — delicate tulip-shaped beakers with glossy black tops and brilliant red bodies, fired to an eggshell thinness Egyptian wheel-thrown pots couldn't match. These beakers were traded as luxury items as far north as Thebes.",
+      "description": "Kerma's signature export: tulip-shaped drinking cups potted by hand to an eggshell thinness, with a glossy black rim above a brilliant red body — finer than anything Egypt's potters could throw on a wheel, and good enough that Egyptian elites paid to import them.",
       "wikiSlug": "Kerma_culture",
       "tier": 2,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two-tone trick came from controlling the fire: the body was coated in red ochre and fired with oxygen for the red, then the cup was flipped rim-down into smothering ash to starve that end of oxygen and turn it black. Between the two zones runs a thin, shimmering grey-purple band that catches the light like an oil slick — likely a glaze-like material painted on before firing, then burnished with a smooth pebble to a near-metallic sheen. These cups have turned up as far north as Thebes, meaning that for at least one luxury product the trade ran upside down: north from Nubia into Egypt."
+        }
+      ],
+      "commonsFile": "Classic Kerma Beaker MET DP354726.jpg"
     },
     {
       "id": "evt-medjay-warriors",
       "label": "Medjay Warriors",
       "year": -1550,
-      "description": "Nubian Medjay warriors served as elite scouts and police in Egypt's New Kingdom. Their reputation was so strong that 'Medjay' became the Egyptian word for 'police.'",
+      "description": "The Medjay were a Nubian desert people from the arid country east of the Nile, prized by Egypt as scouts, skirmishers, and especially archers. They were so reliably good at desert security work that their tribal name eventually became the ordinary Egyptian word for 'police.'",
       "wikiSlug": "Medjay",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The word's drift is the giveaway. By the New Kingdom 'Medjay' had shed its ethnic meaning entirely and become a pure job title — a Medjay could be a lawman or desert ranger of any background. In the famous workers' village of Deir el-Medina, it was Medjay who guarded the paths to the royal tombs and kept order among the artisans cutting them. Egyptian texts mention the Medjay as military men as far back as around 2400 BCE, in the Old Kingdom — so this was a working relationship a thousand years old before it became a generic word for cop."
+        }
+      ],
+      "commonsFile": "Pan-Grave-Necklace.jpg"
     },
     {
       "id": "evt-thutmose-i-conquest",
       "label": "Egyptian Conquest of Nubia",
       "year": -1504,
-      "description": "Thutmose I launched a massive river-and-land campaign past the Second, Third, and Fourth Cataracts — more than 600 miles (1,000 km) upstream from the Egyptian border — sacking the city of Kerma, damaging (but not toppling) the Western Deffufa, and ending the Kerma kingdom as an independent power. The New Kingdom's logistical infrastructure, including reconstructed Middle Kingdom slipways, made it possible to move Egyptian river forces through the cataracts that had bottled up earlier pharaohs.",
+      "description": "The campaign that ended Nubian independence: Thutmose I drove a combined river-and-land force hundreds of miles upstream, smashed Kerma, and turned the whole Nile valley to the Fourth Cataract into an Egyptian province. The fix was meant to be permanent, and it was.",
       "wikiSlug": "Thutmose_I",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "An eyewitness gives us the gory close: Ahmose, son of Ebana, a naval officer who sailed on the campaign, recorded that the pharaoh personally killed the Nubian king in battle and then had the body strung up head-down from the prow of the royal ship for the triumphant voyage back to Thebes. To make the conquest stick, Thutmose pushed the frontier far past the old Middle Kingdom limit at Buhen, cutting a victory stela and planting a new fortress at Tombos near the Third Cataract — physically moving the edge of Egypt deep into Nubia for the first time."
+        }
+      ],
+      "commonsFile": "Egyptian_Sandstone_Head_of_Thutmose_I,_Karnak_(Thebes),_18th_Dynasty_(35727582483).jpg"
     },
     {
       "id": "evt-tombos-stele",
       "label": "Tombos Stele of Thutmose I",
       "year": -1502,
-      "description": "On his way back downriver from the destruction of Kerma, Thutmose I erected a victory stele at Tombos (near the Third Cataract, well inside Nubia) that commemorated the campaign and described, in the formal register of Egyptian royal inscriptions, the fate of one Nubian captive: his body hung 'head-downward at the prow of the falcon-ship of his majesty.' Sailing downstream with a corpse dangling from the bow of the royal boat was a public warning to every riverside village the boat passed — and the stele is the source of one of the most striking details in Egyptian campaign propaganda.",
+      "description": "Thutmose I's stake in the ground deep inside Nubia: a victory inscription carved on a boulder at Tombos, near the Third Cataract, announcing that Egypt's frontier now ran here — and dripping with contempt for the people it had just conquered.",
       "wikiSlug": "Tombos_(Nubia)",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stele's language is less a record than a curse, boasting that the fallen Nubians' 'stench, it floods their wadis' — the formal Egyptian register for total domination. It was cut in Thutmose I's Year 2, around 1514 BCE, beside the new garrison town, so it functioned as the official deed marking how far the border had moved. The grislier image the chapter quotes — a captive's corpse hung head-down from the prow of the royal ship 'Falcon' as it sailed home — is best preserved in the tomb autobiography of the soldier Ahmose son of Ebana, the same firsthand witness who recorded the campaign."
+        }
+      ],
+      "commonsFile": "TombosQuarryIncompleteStatue.jpg"
     },
     {
       "id": "evt-fall-of-kerma",
       "label": "Fall of the Kerma Kingdom",
       "year": -1500,
-      "description": "Thutmose I's campaigns and subsequent Egyptian occupation ended the Kerma kingdom after a thousand years. The city was destroyed, the royal cemetery shut down, and the administrative structures broken, but Nubian cultural traditions survived under Egyptian rule. The ruler of Kush at the time of the fall is unknown: Kerma left no writing of its own, and the Egyptian victory sources do not record his name.",
+      "description": "The lights go out on Kerma: after roughly a thousand years, the city was sacked, the giant royal burial mounds stopped being built, and the independent kingdom of Kush simply ceased to exist as a state. We don't even know the name of its last king.",
       "wikiSlug": "Kerma_culture",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Yet 'conquest' undersells what came next — Egypt didn't depopulate Nubia, it absorbed it. Kerma's defeated elites were folded into the Egyptian administration, their sons sometimes shipped north to be schooled at the Egyptian court and sent back as loyal local governors, a co-opting machine that ran for centuries. The deeper irony is generational: the descendants of these absorbed Nubians kept their gods and customs alive under the Egyptian veneer, and some five hundred years later their heirs marched back the other way as the Kushite pharaohs of Egypt's Twenty-fifth Dynasty."
+        }
+      ],
+      "commonsFile": "Scavi-Charles-Bonnet-a-Kerma.jpg"
     },
     {
       "id": "evt-viceroy-kush",
       "label": "Viceroy of Kush Appointed",
       "year": -1500,
-      "description": "Egypt appointed a 'Viceroy of Kush' (King's Son of Kush) to govern Nubia, administering gold mines, trade, and the construction of temples throughout the region.",
+      "description": "Egypt's top job in Nubia: a powerful governor, the \"King's Son of Kush,\" who reported straight to the pharaoh and ran the province's gold, trade, garrisons, and temple-building. He was effectively a viceroy over a colony.",
       "wikiSlug": "Viceroy_of_Kush",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The office was created at the start of the 18th Dynasty, right after Thutmose I's campaigns around 1500 BCE smashed the kingdom of Kerma and pushed Egypt's frontier deep upriver. \"King's Son\" was an honorary rank — most holders weren't royal at all — meant to mark that the viceroy carried the pharaoh's own voice in a land far from the throne. The post became the linchpin of the whole colonial system, and when communication with that distant throne failed during the Bronze Age collapse, the entire administration unraveled with it."
+        }
+      ],
+      "commonsFile": "SarcophagusOfTheVizierMerymose(TopDetail)-BritishMuseum-August21-08.jpg"
     },
     {
       "id": "evt-jebel-barkal",
       "label": "Jebel Barkal Sacred Mountain",
       "year": -1450,
-      "description": "Jebel Barkal, a flat-topped mountain in Upper Nubia, became sacred to both Egyptians and Nubians as a dwelling place of Amun. It would later become the spiritual center of the Kingdom of Kush.",
+      "description": "A flat-topped sandstone mountain in Upper Nubia that both Egyptians and Nubians read as a holy place — the southern home of the god Amun. Centuries later it became the spiritual capital of the Kingdom of Kush.",
       "wikiSlug": "Jebel_Barkal",
       "tier": 2,
       "tags": [
         "architecture"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What sold everyone on its sanctity was a freak of geology: a slender rock pinnacle about 245 feet (75 m) tall juts from the cliff, and depending on the angle it reads as a rearing cobra — the uraeus that crowned every pharaoh. Thutmose III's army, reaching it around 1450 BCE, took this as proof that Amun himself dwelt hidden inside the mountain, and his stele there is the oldest written record from the site. The Egyptians arrived as conquerors; the Nubians ultimately kept the cult and became Amun's most devoted worshippers on earth."
+        }
+      ],
+      "commonsFile": "Jebel barkal rock.jpg"
     },
     {
       "id": "evt-temple-of-amada",
       "label": "Temple of Amada",
       "year": -1450,
-      "description": "The oldest surviving Egyptian temple in Nubia, built by Thutmose III and expanded by Amenhotep II. Its interior walls carry one of the most detailed campaign inscriptions of the New Kingdom — Amenhotep II's boast that he personally executed seven Syrian princes and hung their bodies from the prow of his ship on the way back.",
+      "description": "The oldest Egyptian temple still standing in Nubia, begun by Thutmose III and finished by Amenhotep II. Small and well preserved, its walls carry the single grimmest royal brag in the whole province — Amenhotep II gloating over the bodies of executed enemy princes.",
       "wikiSlug": "Temple_of_Amada",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The inscription records the pharaoh personally killing seven Syrian chiefs, hanging six of their bodies on the walls of Thebes and shipping the seventh upriver to be displayed on the walls of Napata in Nubia — a deliberate message aimed at anyone in the south thinking about rebellion. The temple itself nearly drowned under Lake Nasser, but rather than cut it into blocks like Abu Simbel, engineers in 1964–65 jacked the whole intact structure onto three railway tracks and inched it up a slope to higher ground, a journey of about 1.6 miles (2.6 km) that took 16 months at a few feet a day."
+        }
+      ],
+      "commonsFile": "Amada_Front.JPG"
     },
     {
       "id": "evt-aniba-miam",
       "label": "Aniba (Miam) Administrative Center",
       "year": -1400,
-      "description": "Aniba, known to the Egyptians as Miam, became the main Egyptian administrative capital of Lower Nubia during the New Kingdom. The Viceroy of Kush ran the region from here, and the surrounding tombs show the transition from Nubian C-Group elites to fully Egyptianized Nubian nobles serving the pharaoh.",
+      "description": "The administrative heart of Lower Nubia, called Miam by the Egyptians. From its walled town the Viceroy of Kush ran the region, and its cemeteries trace the whole arc from native Nubian villagers to fully Egyptianized noble governors.",
       "wikiSlug": "Aniba_(Nubia)",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aniba started as a modest Middle Kingdom fortress, then ballooned in the New Kingdom into a walled town roughly 200 by 400 meters with gates — a real colonial capital. Right beside the Egyptian town sat a Nubian village of the C-Group culture, the two living side by side for centuries, which is exactly the layered coexistence the elite tombs reflect. Like Toshka, Abu Simbel, and so much of Lower Nubia, Aniba now lies drowned beneath Lake Nasser, salvaged only by hurried mid-20th-century excavation before the waters rose."
+        }
+      ],
+      "commonsFile": "Grab_des_Pennut_18.jpg"
     },
     {
       "id": "evt-nubian-gold-mines",
       "label": "Nubian Gold Mines",
       "year": -1400,
-      "description": "Nubia's gold mines — mostly in the Wadi Allaqi east of the Nile in Lower Nubia, supplemented by the gold-bearing rock formations around the Fourth Cataract — were the primary source of Egypt's wealth during the New Kingdom. Quartz veins were broken up and crushed by hand in brutal desert conditions, often by prisoners of war and debt-bondaged Nubians. The Greek historian Diodorus Siculus, writing a thousand years later, left the most vivid surviving account of the mining labor. The Turin Papyrus Map (c. 1150 BCE) is the oldest surviving geological map in human history and shows how the New Kingdom state visualized its mining operations.",
+      "description": "The engine of Egypt's Bronze Age wealth: gold locked inside quartz veins in the eastern desert and around the Fourth Cataract, smashed loose by hand and washed grain by grain. The labor — much of it prisoners and bonded Nubians — was so lethal a Greek visitor later said the workers preferred death to it.",
       "wikiSlug": "Nubia",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "This was hard-rock mining, not panning a riverbed: gangs broke the quartz with stone and metal hammers, hauled it to crushing floors, ground it to powder, and rinsed away the lighter rock to leave the heavy gold behind — all in waterless desert. Water was the binding constraint, so Ramesses II had a stela cut at Quban boasting that he had finally found water for the Wadi Allaqi miners, where earlier attempts to dig wells had failed and the laborers had died of thirst. Modern study of the workings suggests the operation was wildly profitable for exactly the reason that makes it grim: the labor cost almost nothing."
+        }
+      ],
+      "commonsFile": "Geography 032 - Turin Papyrus Map.jpg"
     },
     {
       "id": "evt-amarna-gold-pipeline",
       "label": "Amarna Letters and Nubian Gold",
       "year": -1350,
-      "description": "The Amarna Letters — more than 300 diplomatic tablets discovered at the short-lived capital of Akhenaten at Tell el-Amarna — are the best surviving window into Late Bronze Age international relations. Written in Akkadian cuneiform (the era's diplomatic language), they contain repeated requests from the Kassite kings of Babylon, the Mitanni kings, the Hittites, and the Middle Assyrians for gold from the pharaoh, with formulaic complaints that 'in your country gold is as common as dust.' The gold everybody was asking for was Nubian gold, filtered through the Viceroy of Kush's office, making the Amarna Letters the other end of Nubia's gold pipeline.",
+      "description": "A cache of over 300 clay tablets — the diplomatic inbox of the pharaohs, dug up at Akhenaten's abandoned capital — written in Akkadian cuneiform, the era's shared diplomatic language. Read together they're one long argument among the Bronze Age's great kings, and the thing they argue about most is Egyptian gold.",
       "wikiSlug": "Amarna_letters",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The complaints get remarkably petty for kings addressing each other as \"brother.\" Babylon's Burnaburiash II didn't just ask for more gold — he griped that an earlier Egyptian shipment had arrived underweight and impure, that the twenty minas sent were short when melted down, and demanded the pharaoh match what his father used to send. The letters survive because the capital at Tell el-Amarna was used for barely a generation and then deserted, freezing the correspondence in place; had Akhenaten's city kept going, the whole archive would likely have been recycled or lost."
+        }
+      ],
+      "commonsFile": "Five_Amarna_letters_on_display_at_the_British_Museum,_LondonA.jpg"
     },
     {
       "id": "evt-nubian-religion-amun",
       "label": "Nubian Worship of Amun",
       "year": -1400,
-      "description": "The cult of Amun took deep root in Nubia during Egyptian occupation, with temples at Jebel Barkal and elsewhere. Nubian devotion to Amun would eventually outlast Egypt's own.",
+      "description": "The slow conversion of Nubia to an Egyptian god — and the strangest twist in the chapter. Egypt installed the worship of Amun across its colony, and when Egypt eventually pulled out, the Nubians simply kept the god, tended his temples, and made him their own.",
       "wikiSlug": "Jebel_Barkal",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The handover was so complete that within a few centuries the most fervent, politically ambitious worshippers of this Theban god on earth were Nubian kings at Jebel Barkal — not Egyptians. They turned devotion to Amun into a legitimacy claim, arguing they were better guardians of the god than the divided, decaying Egypt to the north, and used it as the platform for the Twenty-fifth Dynasty invasion that briefly made Nubians the pharaohs of Egypt. A colony was eventually ruled, in part, by people wielding its colonizer's own god against it."
+        }
+      ],
+      "commonsFile": "Gebel_Barkal.jpg"
     },
     {
       "id": "evt-temple-soleb",
       "label": "Temple of Soleb",
       "year": -1390,
-      "description": "Amenhotep III built the magnificent Temple of Soleb in Upper Nubia, one of the finest Egyptian temples outside Egypt proper, demonstrating the importance of Nubia to the New Kingdom.",
+      "description": "Amenhotep III's masterpiece in Upper Nubia, among the finest Egyptian temples ever built outside Egypt — and unusual in that it honored not only Amun but the living pharaoh's own deified self.",
       "wikiSlug": "Soleb",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Carved into one of Soleb's column bases is a string of conquered \"name rings,\" and one reads \"the land of the Shasu of Yahweh\" — the oldest securely dated mention of the name Yahweh anywhere on earth, predating the Hebrew Bible by centuries. To the Egyptians it was just a list of nomad enemies in the Levant; only modern scholars caught what was hiding in the cartouche. A temple built to flatter a pharaoh accidentally preserved the earliest known reference to the god of Israel."
+        }
+      ],
+      "commonsFile": "Soleb1.jpg"
     },
     {
       "id": "evt-hekanefer",
       "label": "Prince Hekanefer of Miam",
       "year": -1340,
-      "description": "Hekanefer, a Nubian prince educated in Egypt, governed the region of Miam under Tutankhamun. His tomb paintings show him presenting tribute — illustrating Nubian-Egyptian elite integration.",
+      "description": "A Nubian prince who governed the district of Miam (around Aniba) under the boy-king Tutankhamun. Hekanefer is the poster child for the bicultural Nubian elite — and we can literally watch him switch identities depending on who was looking.",
       "wikiSlug": "Heqanefer",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the viceroy Huy's tomb at Thebes, Hekanefer is painted dark-skinned in a leopard skin and Nubian regalia, bowing as he presents tribute — the Egyptian audience's idea of a Nubian. But in his own rock-cut tomb at Toshka, discovered by Yale's William Kelly Simpson in 1961 just ahead of the Aswan High Dam flooding, he appears as a thoroughly Egyptian gentleman with Egyptian dress, titles, and funerary gods. We don't even know his Nubian birth name; \"Hekanefer\" is Egyptian, the name he chose to be remembered by."
+        }
+      ],
+      "commonsFile": "Hekanefer_Ushabty_Assuan.JPG"
     },
     {
       "id": "evt-huy-viceroy",
       "label": "Huy, Viceroy of Kush",
       "year": -1330,
-      "description": "Huy was Tutankhamun's Viceroy of Kush, governing Nubia on behalf of the young pharaoh. His tomb at Thebes (TT40) contains one of the most vivid surviving scenes of Nubian tribute — princes in leopard skins presenting gold rings, ebony, ivory, and exotic animals to the Egyptian court.",
+      "description": "Tutankhamun's governor of Nubia, who ran the southern province in the pharaoh's name. His Theban tomb holds one of the most famous painted scenes in all of Egyptian art: a parade of Nubian princes bearing tribute.",
       "wikiSlug": "Amenhotep_called_Huy",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The full title was usually \"King's Son of Kush\" — an honorific, not a real prince, signaling the office spoke directly with the pharaoh's authority. Huy's tribute scene is unusually specific about what Nubia actually sent north: gold rings stacked into rough fortune, ebony logs, ivory tusks, and live exotic animals including giraffes and a leashed cheetah — animals that belonged to the Nubian south, not Egypt. One of the labeled princes in that procession is Hekanefer of Miam, which is how two different tombs let us catch the same man in two different costumes."
+        }
+      ],
+      "commonsFile": "Lepsius_tut.JPG"
     },
     {
       "id": "evt-nubian-egyptianization",
       "label": "Nubian Egyptianization",
       "year": -1300,
-      "description": "Under the New Kingdom, Nubian elite children were taken to the Egyptian court for education, learning hieroglyphic writing, Egyptian religion, and administrative practice. They returned to Nubia as hybrid nobles who wore Egyptian dress, worshipped Amun, and ran the province — creating the cultural bridge that would later produce the Kushite pharaohs of Egypt's 25th Dynasty.",
+      "description": "Egypt's clever long game: take the sons of Nubian chiefs to court, raise them as Egyptians, then send them home to govern their own people for the pharaoh. The result was a generation of nobles fluent in two cultures at once.",
       "tier": 1,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It wasn't only Nubians in the program. Egyptian sources show the royal court raising the sons of Syrian and Libyan vassals in the same nursery, alongside the pharaoh's own children, so that future rulers across the empire had all been boyhood classmates of whoever ended up on the throne. The system worked too well: when Egypt later fell apart, these Egyptian-trained Nubian elites simply kept running the machinery on their own — and three centuries on, their descendants would march north and rule Egypt as the 25th Dynasty."
+        }
+      ],
+      "commonsFile": "Nubian Prince Hekanefer bringing tribute for King Tut, 18th dynasty, Tomb of Huy.jpg"
     },
     {
       "id": "evt-abu-simbel-nubia",
       "label": "Abu Simbel in Nubia",
       "year": -1264,
-      "description": "Ramesses II built the colossal Abu Simbel temples in Nubia as a statement of Egyptian power, with four 20-meter-high seated statues of the pharaoh carved into the cliff face.",
+      "description": "Ramesses II's monster propaganda monument in Nubia: four seated colossi of himself, each roughly 65 feet (20 m) tall, carved straight out of a sandstone cliff. It was less a temple than a billboard aimed at everyone sailing upriver.",
       "wikiSlug": "Abu_Simbel",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The builders aligned the temple so that twice a year the rising sun shoots down its 200-foot corridor and lights up three of the four gods in the innermost sanctuary — Ramesses among them — while Ptah, the god linked to the underworld and darkness, deliberately stays in shadow. When Lake Nasser threatened to drown it in the 1960s, UNESCO cut the entire temple into blocks and rebuilt it on higher ground; the relocation nudged the famous sun alignment about a day off its original timing, a small permanent scar from the rescue."
+        }
+      ],
+      "commonsFile": "Ramsis,_Aswan_Governorate,_Egypt_-_panoramio.jpg"
     },
     {
       "id": "evt-nubian-admin-collapse",
       "label": "Collapse of Nubian Egyptian Administration",
       "year": -1150,
-      "description": "As the New Kingdom crumbled under Libyan invasions and internal strife, Egypt's grip on Nubia loosened. The Viceroy of Kush lost contact with the distant court, Egyptian garrisons were withdrawn or absorbed, and Nubian elites began reasserting local authority — setting the stage for the independent Kushite kingdom that would eventually conquer Egypt itself.",
+      "description": "Around 1200–1150 BCE the whole eastern Mediterranean came apart at once — drought, famine, the mysterious \"Sea Peoples,\" and the implosion of the great Bronze Age kingdoms. Egypt survived but was gutted, and its hold on Nubia frayed with everything else.",
       "wikiSlug": "Bronze_Age_collapse",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The collapse wasn't one disaster but a cascade: the Hittite empire vanished, the Mycenaean palaces of Greece burned, and the rich Syrian port of Ugarit was destroyed so fast that a clay tablet begging for help was found unfired in the kiln. Egypt beat back two Sea Peoples invasions under Ramesses III but never recovered its reach, and as tribute and orders stopped flowing south, the viceroy's garrisons in Nubia went unpaid and then unmanned. The province didn't fall in a battle — it was quietly let go."
+        }
+      ],
+      "commonsFile": "Theban region, Medinet Habu, Funerary temple of Ramesses III, photo 24 of 36 - Archivio fotografico Museo Egizio, Turin E00504.jpg"
     },
     {
       "id": "evt-egyptian-withdrawal",
       "label": "Egyptian Withdrawal from Nubia",
       "year": -1070,
-      "description": "As the New Kingdom collapsed, Egypt withdrew from Nubia. The power vacuum allowed indigenous Nubian rulers to reassert control, eventually founding the Kingdom of Kush.",
+      "description": "Around 1070 BCE a broke and fractured Egypt stopped pretending to govern Nubia and pulled out. The vacuum was filled not by rebels but by the very elites Egypt had trained — who kept the temples, the language, and the gods, and quietly built a new kingdom on the old foundations.",
       "wikiSlug": "Kingdom_of_Kush",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The last viceroy was a man named Panehsy, whose name in Egyptian simply means \"the Nubian\" — a hint that the office itself had passed into local hands by the end. Far from a loyal administrator, Panehsy ended up a warlord: he ousted the High Priest of Amun at Thebes, was driven back south, and held Lower Nubia as his own power base until he died of old age and was buried at Aniba. The kingdom his class founded centered on Napata, by the sacred mountain of Jebel Barkal — and its rulers would one day conquer Egypt itself."
+        }
+      ],
+      "commonsFile": "Gebel Barkal Amun temple (B500).JPG"
     }
   ]
 }

@@ -27,7 +27,7 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 10 / 109 civs**  ·  **92 civs remaining, smallest-first.**
+**Done: 11 / 109 civs**  ·  **91 civs remaining, smallest-first.**
 
 Last updated: 2026-05-29 (sweeping)
 
@@ -43,6 +43,7 @@ Last updated: 2026-05-29 (sweeping)
 
 9. ancient-china (8 ch, 37 ev) — clean first pass
 10. elamite-civilization (8 ch, 49 surfaced ev) — ch7 redo after 429 stall; all gates green
+11. ancient-nubia (8 ch, 52 surfaced ev) — FIRST run on the new 3-phase chain (cards fan-wide → sweep-photos → vision pick → serial gap-fill → de-dup); 0 429s; all gates green
 
 _(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite gated.)_
 
