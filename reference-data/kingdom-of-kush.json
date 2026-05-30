@@ -49,549 +49,864 @@
       "id": "evt-kush-independence",
       "label": "Kushite Independence",
       "year": -1070,
-      "description": "Kush gained independence from Egypt as the New Kingdom collapsed, establishing an autonomous kingdom centered at Napata near the Fourth Cataract.",
+      "description": "When Egypt's New Kingdom fell apart around 1070 BCE, its four-century grip on Nubia slipped, and the Egyptianized Nubian elite at Napata (near the Nile's Fourth Cataract) were left to govern themselves for the first time in centuries.",
       "wikiSlug": "Kingdom_of_Kush",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Egypt's collapse here isn't a coincidence of dates: the Third Intermediate Period is conventionally timed from the death of Ramesses XI in 1070 BCE, the same New Kingdom unraveling that cut Nubia loose. The office that had run Nubia as a colony, the Viceroy of Kush, simply stopped existing at the end of the 20th Dynasty. Its last holder, Panehesy, had already turned warlord and marched north against the priesthood at Thebes before the whole colonial apparatus dissolved, leaving a power vacuum that the local Nubian elite quietly filled."
+        }
+      ],
+      "commonsFile": "Kushite_heartland_and_Kushite_Empire_of_the_25th_dynasty_circa_700_BCE.jpg"
     },
     {
       "id": "evt-alara",
       "label": "King Alara",
       "year": -785,
       "endYear": -760,
-      "description": "Alara unified Upper Nubia and established the Napatan royal dynasty that would go on to conquer Egypt.",
+      "description": "Alara is the first Napatan king we can actually name, remembered by later tradition as the founder who pulled Upper Nubia together into one kingdom centered on Jebel Barkal.",
       "wikiSlug": "Alara_of_Nubia",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Almost nothing survives from Alara's own lifetime; we know him mostly from how his descendants name-dropped him to prove their bloodline was legitimate. His existence is first documented not in his own monuments but on a stone slab belonging to his daughter, Queen Tabiry, who names her parents as Alara and Queen Kasaqa. Confusingly for a 'first king,' Alara was probably the brother (not the father) of his successor Kashta, and a later inscription claims his sister was the grandmother of the great king Taharqa."
+        }
+      ],
+      "commonsFile": "Cartouche_Alara_Lepsius.jpg"
     },
     {
       "id": "evt-kashta",
       "label": "Kashta Expands North",
       "year": -760,
       "endYear": -747,
-      "description": "Kashta extended Kushite influence into Upper Egypt, installing his daughter Amenirdis I as God's Wife of Amun at Thebes.",
+      "description": "Kashta, Alara's successor, was the first Napatan ruler to push north into a fractured Egypt, doing it not with an army but with a single shrewd religious appointment at Thebes.",
       "wikiSlug": "Kashta",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kashta seems to have been the first Kushite ruler to openly adopt full pharaonic titles, styling himself a king of Upper and Lower Egypt even though he controlled only a sliver of the south. His tool was his daughter Amenirdis I, whom he maneuvered into Thebes as the heir to the God's Wife of Amun, the celibate priestess who effectively ran the Theban region. The reigning God's Wife was made to adopt Amenirdis as successor, which let Kushite authority slide into Egypt's holiest institution peacefully, by inheritance rather than conquest."
+        }
+      ],
+      "commonsFile": "Egyptian_-_Situla_Bearing_the_names_of_Kashta_and_Amenirdis_-_Walters_543077.jpg"
     },
     {
       "id": "evt-piye-conquest",
       "label": "Piye Conquers Egypt",
       "year": -728,
-      "description": "Piye marched north and defeated a coalition of Libyan rulers, unifying Egypt under Kushite rule and founding the 25th Dynasty.",
+      "description": "Piye's northward war: the Kushite king broke the delta warlord Tefnakht's coalition, took city after city up the Nile, and briefly unified the whole valley from Nubia to the Mediterranean under one ruler.",
       "wikiSlug": "Piye",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The trigger was Tefnakht of Sais, a Libyan-descended prince swallowing his neighbors in the delta; Piye's army first relieved Kushite-aligned Thebes before the king came north to finish the job himself. The campaign is one of the very few ancient wars we can follow blow by blow, because Piye carved the whole thing onto a single huge stone. It is also one of the rare conquests where the winner walked away: rather than garrison Egypt, Piye took the submissions and went home to Napata, and within a generation the delta dynasts had quietly slipped his control again."
+        }
+      ],
+      "commonsFile": "Stele_Piye_submission_Mariette.jpg"
     },
     {
       "id": "evt-piye-reign",
       "label": "Piye",
       "year": -747,
       "endYear": -714,
-      "description": "First Kushite pharaoh of the 25th Dynasty, Piye revived traditional Egyptian religious practices and restored neglected temples.",
+      "description": "Piye was the Kushite king who ruled from Napata in what is now Sudan and marched the length of the Nile to make himself master of Egypt, founding the line of Nubian rulers Egyptologists count as Egypt's 25th Dynasty.",
       "wikiSlug": "Piye",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "For more than a century after his stela was first studied, scholars read his name as \"Piankhi\" — it was only in the 1990s that Egyptologists corrected the reading to \"Piye\" based on a closer look at the hieroglyphic spelling. His monument was first published by the French Egyptologist Auguste Mariette in 1872, a full decade after it came out of the ground, and translated by Emmanuel de Rougé in 1876. The stela itself says Piye launched his great campaign in his twentieth year on the throne and set up the inscription in his twenty-first."
+        }
+      ],
+      "commonsFile": "Stele_Piye_Mariette.jpg"
     },
     {
       "id": "evt-piye-victory-stela",
       "label": "Victory Stela of Piye",
       "year": -728,
-      "description": "Piye commissioned a detailed stela at Gebel Barkal recording his military campaign and conquest of Egypt, one of the longest ancient Egyptian texts.",
+      "description": "Piye's record of the conquest, installed at his sacred mountain Jebel Barkal rather than in conquered Egypt — a tell that he saw Kush, not Egypt, as the true center of his world.",
       "wikiSlug": "Stele_of_Piye",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stela's most famous scene has nothing to do with battle: entering captured Hermopolis, Piye finds the defeated king Namlot's horses starved during the siege and weeps with fury, telling Namlot that mistreating the animals was the worst of all his crimes. Horsemanship was a signature Kushite virtue, and the king meant it — when he was buried at El-Kurru, four horses were interred standing upright in pits near his pyramid, decked in beadwork and harness, the start of a royal horse-burial tradition that ran across four Kushite kings. The stela also frames the war as a holy housecleaning ordered by the god Amun, the same self-justifying move Cyrus the Great would make two centuries later when he took Babylon."
+        }
+      ],
+      "commonsFile": "Stele_of_Piye_(complete).jpg"
     },
     {
       "id": "evt-shabaka",
       "label": "Shabaka",
       "year": -714,
       "endYear": -705,
-      "description": "Shabaka consolidated Kushite control over Egypt, moved the capital to Memphis, and promoted the cult of Ptah.",
+      "description": "Piye's brother, who finished what Piye started: he subdued the Nile delta, ruled from Memphis, and made the 25th Dynasty a working Egyptian government.",
       "wikiSlug": "Shabaka",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "We can roughly date his death because a stone statue (British Museum cube statue 24429) is marked with his Year 15, meaning he reigned about fifteen years. The order of these early Kushite kings is genuinely unsettled: an Assyrian rock inscription in Iran (the Great Inscription of Tang-i Var, carved for Sargon II around 706 BCE) names Shebitku, not Shabaka, as the king of Egypt who handed over a fugitive rebel, which has pushed many scholars to flip the conventional sequence and date Shabaka to roughly 705-690 BCE."
+        }
+      ],
+      "commonsFile": "Statue_Head_of_Pharaoh_Shabaka_-_25th_Dynasty_-_ÄS_4859.jpg"
     },
     {
       "id": "evt-shabaka-stone",
       "label": "Shabaka Stone",
       "year": -710,
-      "description": "Shabaka ordered an ancient theological text about the god Ptah carved onto a basalt stone, preserving the Memphite creation theology.",
+      "description": "A black basalt slab Shabaka had carved with an ancient creation text he said he rescued from a worm-eaten papyrus in the Memphis temple of Ptah, the only surviving copy of the so-called Memphite Theology.",
       "wikiSlug": "Shabaka_Stone",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The stone carries sixty vertical columns of hieroglyphs, but a big chunk is unreadable for a grimly ordinary reason: long after the pharaohs were gone, someone drilled a hole through the middle and used the sacred slab as a millstone to grind grain, and the radiating grooves scoured away the text within roughly 30 inches (78 cm) of the center. It has sat in the British Museum since the early 1800s, where an 1821 display already noted the millstone damage."
+        }
+      ],
+      "commonsFile": "Shabaka_Stone_at_the_British_Museum.jpg"
     },
     {
       "id": "evt-taharqa-reign",
       "label": "Taharqa",
       "year": -690,
       "endYear": -664,
-      "description": "Taharqa was the most powerful 25th Dynasty pharaoh, ruling a kingdom stretching from Nubia to the Nile Delta. He is mentioned in the Bible.",
+      "description": "The greatest 25th Dynasty pharaoh, who ruled roughly 690-664 BCE over an empire reaching from central Sudan to the Mediterranean, and turns up in the Bible as 'Tirhakah king of Ethiopia.'",
       "wikiSlug": "Taharqa",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was likely a son of Piye, the king who first conquered Egypt, though the family tree is fuzzy. The empire he built proved fragile against Assyria: in 671 BCE Esarhaddon stormed Memphis and shipped Taharqa's queen, harem, and crown prince Ushanahuru off to Assyria as hostages, though Taharqa himself slipped south and clawed back the city the moment the Assyrians withdrew. He spent his final years fighting a losing rearguard action and died around 664 BCE."
+        }
+      ],
+      "commonsFile": "Taharqa,_Louvre_Museum.jpg"
     },
     {
       "id": "evt-taharqa-karnak",
       "label": "Taharqa's Karnak Colonnade",
       "year": -680,
-      "description": "Taharqa built the great colonnade in the first court of Karnak Temple, including the massive kiosk with columns over 20 meters tall.",
+      "description": "Taharqa's towering kiosk in the first court of Karnak, ten giant papyrus-bud columns over 65 feet (21 meters) tall, of which a single column still stands as one of Karnak's most photographed sights.",
       "wikiSlug": "Karnak",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The structure was a free-standing pavilion about 67 by 95 feet (20.5 by 29 m), two rows of five columns nearly 10 feet (3 m) thick, linked by low screen walls and floored with rose granite. At its center sat a calcite shrine that probably held the portable boat (the 'sacred bark') used to carry the god Amun's image in festival processions. The lone surviving column is crowned with an open papyrus capital, an ancient symbol of creation and the primordial Nile marsh."
+        }
+      ],
+      "commonsFile": "Taharqa's_kiosk._Karnak_Temple.jpg"
     },
     {
       "id": "evt-gebel-barkal-temples",
       "label": "Gebel Barkal Temples Expanded",
       "year": -700,
-      "description": "The 25th Dynasty kings greatly expanded the temple complex at Gebel Barkal, the sacred mountain of Amun, making it the religious center of Kush.",
+      "description": "The 25th Dynasty kings poured resources into Jebel Barkal, the flat-topped sandstone butte the Kushites and Egyptians both believed was a southern home of the god Amun, making it the religious heart of Kush.",
       "wikiSlug": "Jebel_Barkal",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "What made the mountain sacred was a freak of geology: a roughly 250-foot (75 m) freestanding pinnacle juts from its cliff, and the Kushites read its shape as a giant royal cobra (a 'uraeus,' the rearing serpent worn on the pharaoh's brow) wearing the White Crown of Upper Egypt, a natural sign that the gods had crowned their kings here. Taharqa kept building right through his reign (about 690-664 BCE), and the whole complex is now a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "Gebel_Barkal_Amun_temple_(B500).JPG"
     },
     {
       "id": "evt-nuri-pyramids",
       "label": "Nuri Royal Pyramids",
       "year": -680,
-      "description": "Taharqa began the royal pyramid necropolis at Nuri, which became the burial site of Kushite kings for over 300 years.",
+      "description": "The royal pyramid field Taharqa founded across the river from El-Kurru, which became the burial ground of Kushite kings and queens for some three centuries.",
       "wikiSlug": "Nuri",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taharqa's own pyramid, the oldest at the site, is also the largest in all of Nubia, with a base around 170 feet (52 m) on a side. The necropolis eventually held more than 80 royal burials and over 60 pyramids, in use from roughly 660 to 300 BCE. The burial chambers sit so far below the desert that groundwater has flooded them, so the only way to reach Taharqa's tomb today is for archaeologists to scuba-dive down into the submerged rooms."
+        }
+      ],
+      "commonsFile": "Royal_Pyramids_Of_Napata,_Nuri,_Sudan_(19)_(34540703695)_(cropped).jpg"
     },
     {
       "id": "evt-assyrian-invasion",
       "label": "Assyrian Invasion of Egypt",
       "year": -674,
-      "description": "Esarhaddon of Assyria launched the first major invasion of Egypt, initially repelled by Taharqa's forces at the frontier.",
+      "description": "Esarhaddon of Assyria made his first lunge at Egypt in 674 BCE, and Taharqa's army threw it back at the frontier — one of the rare outright defeats the Assyrian war machine ever admitted to.",
       "wikiSlug": "Assyrian_conquest_of_Egypt",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Babylonian records flatly call 674 a defeat for Assyria, which was almost unheard-of for them to record. The likely reason was overreach: Esarhaddon force-marched his troops to Egypt so fast that they arrived exhausted, and Taharqa's forces beat them near the Egyptian-held coastal city of Ashkelon. Three years later Esarhaddon came back better prepared, took and looted Memphis, and captured Taharqa's wife and son. He commemorated it on the Victory Stele (found in 1888 at Zincirli in modern Turkey, now in Berlin's Pergamon Museum), which shows the pharaoh's young son Ushankhuru kneeling with a rope running through his lip."
+        }
+      ],
+      "commonsFile": "Neo-Assyrian_map_824-671_BC.png"
     },
     {
       "id": "evt-fall-of-memphis",
       "label": "Fall of Memphis to Assyria",
       "year": -671,
-      "description": "Esarhaddon captured Memphis, forcing Taharqa to retreat south. This marked the beginning of the end of Kushite rule over Egypt.",
+      "description": "The Assyrian emperor Esarhaddon stormed Memphis, sending the Kushite pharaoh Taharqa fleeing south and cracking open the 25th Dynasty's hold on Egypt.",
       "wikiSlug": "Assyrian_conquest_of_Egypt",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It was Esarhaddon's second try: Taharqa had beaten the Assyrians off outright in 674 BCE, so the king came back in 671 with a much bigger army. When Memphis fell, Taharqa escaped upriver, but the Assyrians captured his wife, his son, and much of his court and shipped them back to Assyria as hostages. The reconquest didn't stick the first time either — the moment Esarhaddon turned for home, Taharqa came back and retook Memphis in 669 BCE, and it took further Assyrian campaigns to finally push the Kushites out of Egypt for good."
+        }
+      ],
+      "commonsFile": "Ashurbanipal_II's_army_attacking_Memphis,_Egypt,_645-635_BCE,_from_Nineveh,_Iraq._British_Museum.jpg"
     },
     {
       "id": "evt-tantamani",
       "label": "Tantamani's Reconquest",
       "year": -664,
-      "description": "Tantamani briefly recaptured Memphis but was defeated by Ashurbanipal, who sacked Thebes in 663 BCE, ending Kushite rule in Egypt.",
+      "description": "Taharqa's successor Tantamani swept north in 664 BCE and briefly took back Memphis, killing the Assyrian-installed local rulers — before Ashurbanipal smashed him in a counter-invasion the very next year.",
       "wikiSlug": "Tantamani",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tantamani justified the campaign with a vision carved on his Dream Stela, found at Jebel Barkal: two serpents appeared beside him in his sleep, read as Amun's sign that he was meant to rule both halves of the Nile. In retaking Memphis he killed Necho I, the Assyrian vassal ruler of Sais — but Necho's son Psamtik I survived, was kept on by the Assyrians, and went on to found Egypt's 26th Dynasty. Tantamani is generally counted the last pharaoh of the Kushite 25th Dynasty, reigning to about 656 BCE."
+        }
+      ],
+      "commonsFile": "Tantamani,_Louvre_Museum.jpg"
     },
     {
       "id": "evt-amun-worship",
       "label": "Amun Worship at Napata",
       "year": -650,
-      "description": "After withdrawing from Egypt, Kush intensified the cult of Amun at Gebel Barkal, with the priesthood wielding major political influence.",
+      "description": "Stripped of Egypt, the Kushite kings poured their energy into the god who had supposedly chosen them, turning the Amun temple at Jebel Barkal into the kingdom's true seat of power.",
       "wikiSlug": "Amun",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Jebel Barkal is a flat-topped sandstone butte near the Nile's Fourth Cataract, and what made it holy was a freestanding rock pinnacle jutting from its side — the ancients read it as a rearing cobra (a uraeus), the sacred serpent that guarded the pharaoh's brow. Egyptians had worshipped Amun there since the New Kingdom, around 1500 BCE, so the Kushites were claiming a sanctuary already a thousand years old. Temple B500 at the foot of the mountain seems to have hosted the coronation of the early Napatan kings in the mid-600s BCE. The whole site is now a UNESCO World Heritage location."
+        }
+      ],
+      "commonsFile": "Amun_ram_statue_at_Karnak_Temple_in_Luxor.JPG"
     },
     {
       "id": "evt-aspelta",
       "label": "Aspelta",
       "year": -600,
       "endYear": -580,
-      "description": "Aspelta defended Kush against an Egyptian invasion by Psamtik II and strengthened the role of the Amun priesthood in royal succession.",
+      "description": "Aspelta (reigned roughly 600 to 580 BCE) was the Kushite king who weathered Psamtik II's raid and wrote the priesthood's god-chooses-the-king machinery into stone.",
       "wikiSlug": "Aspelta",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His Election Stela describes a council of twenty-four military and religious leaders putting his name forward, after which Amun's oracle confirmed him as king. Aspelta was the son of king Senkamanisken and Queen Nasalsa, and someone later took revenge on his memory: his cartouches and even his mother's name were deliberately chiseled out on his monuments, hinting at a fierce fight over his legitimacy. A companion text, the Banishment Stela, records a group of priests being put to death — apparently for plotting against him. He was buried at Nuri in the cemetery's second-largest pyramid, excavated by archaeologist George Reisner in 1916; much of its contents are now in Boston's Museum of Fine Arts."
+        }
+      ],
+      "commonsFile": "Aspelta_statue_reconstruction,_with_Egyptian_headdress.jpg"
     },
     {
       "id": "evt-psamtik-invasion",
       "label": "Egyptian Raid on Napata",
       "year": -593,
-      "description": "Psamtik II sent an army that sacked Napata, damaging royal statues and temples. This accelerated the shift of the Kushite capital southward.",
+      "description": "In 593 BCE a Saite Egyptian army under Psamtik II marched south, sacked Napata, and smashed the Kushite royal statues — a punitive raid that hit Kush at its sacred heart.",
       "wikiSlug": "Psamtik_II",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The army was a multinational hired force: Greek and Carian soldiers from the Aegean, plus a Phoenician contingent, fighting under Egyptian command. The Greek mercenaries scratched their names into the legs of the colossal Ramesses II statues at Abu Simbel on the way upriver — among the oldest surviving Greek inscriptions anywhere, naming an officer called Potasimto and recording that the Egyptian troops were led by a general named Ahmose (the Greeks called him Amasis). The campaign pushed Egyptian reach up to roughly the Third Cataract and reopened southern trade routes to Egypt."
+        }
+      ],
+      "commonsFile": "Statue_Psamtik_II_Louvre.jpg"
     },
     {
       "id": "evt-meroe-capital",
       "label": "Capital Moves to Meroë",
       "year": -270,
-      "description": "The royal court and administrative capital shifted from Napata to Meroë, beginning a new era of Kushite civilization with distinct cultural identity.",
+      "description": "Kush slid its political and administrative center south from Napata to Meroë — a slow relocation, not a single move, while Napata stayed the kingdom's religious heart for centuries.",
       "wikiSlug": "Meroë",
       "tier": 1,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Meroë sat on the Nile's east bank roughly 125 miles (200 km) north of where the White and Blue Niles meet at modern Khartoum, and about 300 miles (nearly 500 km) upstream of Napata — far past the Fifth Cataract and out of reach of Egyptian raiders. The site so dominated its region that Greek and Roman writers called the whole heartland the \"Island of Meroë,\" the wedge of land hemmed in by the Nile and the Atbara River. The ancient city's ruins, near the modern village of Begrawiya in Sudan, became a UNESCO World Heritage Site in 2011."
+        }
+      ],
+      "commonsFile": "NubianMeroePyramids30sep2005(2).jpg"
     },
     {
       "id": "evt-iron-smelting",
       "label": "Meroitic Iron Industry",
       "year": -500,
-      "description": "Meroë became a major center of iron smelting, with large slag heaps indicating industrial-scale production that fueled trade and military power.",
+      "description": "Meroë grew into a serious iron-smelting center, ringed by huge slag heaps — the glassy waste left behind when ore is cooked in a furnace — that still tower over the site today.",
       "wikiSlug": "Meroë",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The biggest mound, nicknamed \"Birmingham 97\" by archaeologists, yielded charcoal radiocarbon-dated to around 514 BCE, and newer dating shows iron was being made here on a real scale by the 7th–6th century BCE and continued for over a thousand years. The \"Birmingham of Africa\" tag actually goes back to scholar A.H. Sayce in 1912, not later writers. Modern chemical work has complicated the old story: some of those famous slag piles may be waste from copper or gold work, not iron at all."
+        }
+      ],
+      "commonsFile": "MeroeRoyalcity.JPG"
     },
     {
       "id": "evt-meroitic-script",
       "label": "Meroitic Script Developed",
       "year": -300,
-      "description": "Kush developed the Meroitic script, an alphabetic writing system derived from Egyptian hieroglyphs. It remains only partially deciphered.",
+      "description": "Kush created the Meroitic script, a 23-sign alphabet-style system that finally gave the kingdom a way to write its own language instead of borrowing Egyptian. We can sound the letters out, but the language behind them is still a puzzle.",
       "wikiSlug": "Meroitic_script",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Technically it's not a pure alphabet but an abugida (a system where each consonant carries a built-in 'a' vowel unless you mark otherwise) — the same structural family as India's Brahmi script, though the two grew up independently. Of the 23 signs, roughly fifteen are consonants, four are vowels, and four are ready-made syllables. Despite more than a century of effort and hundreds of surviving texts, the Meroitic language has no proven relatives, so most words remain untranslatable."
+        }
+      ],
+      "commonsFile": "Meroitische_Inschrift,_Meroe_1._Jh._n._Chr.,_Aegyptisches_Museum,_Muenchen-1.jpg"
     },
     {
       "id": "evt-amenirdis",
       "label": "Amenirdis I, God's Wife of Amun",
       "year": -740,
-      "description": "Amenirdis I, daughter of Kashta, became God's Wife of Amun at Thebes, wielding enormous religious and political influence in Upper Egypt.",
+      "description": "Amenirdis I, Kashta's daughter, became God's Wife of Amun at Thebes, an office that made her the effective ruler of Upper Egypt and turned the Kushite foothold there into something durable.",
       "wikiSlug": "Amenirdis_I",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She held the role into the reigns of her Kushite kinsmen Shabaka and Shabataka (roughly 714 to 700 BCE) and, following the office's adopt-your-heir rule, she chose Piye's daughter Shepenupet II to succeed her, keeping the post inside the family for generations. When she died she was buried in her own chapel-tomb in the temple precinct at Medinet Habu, on Thebes' west bank, rather than back home in Nubia. Her serene alabaster statue, now in the Egyptian Museum in Cairo, is the most famous surviving image of any Kushite royal woman."
+        }
+      ],
+      "commonsFile": "Ch_Am_I_Med_Habou_082005.jpg"
     },
     {
       "id": "evt-royal-baths-meroe",
       "label": "Royal Baths at Meroë",
       "year": -200,
-      "description": "A Roman-style bath complex was constructed at Meroë, demonstrating Mediterranean architectural influence and sophisticated water engineering.",
+      "description": "A water complex known as the Royal Baths went up at Meroë — a splash of Mediterranean-style design, with a sunken pool fed by channels, sitting in the African interior.",
       "wikiSlug": "Meroë",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its centerpiece was a basin about 23 feet (7 m) square and nearly 8 feet (2.4 m) deep, ringed by a garden with open water channels and an exedra (a curved recess) of grand seats, with water spilling in from a central column. Liverpool archaeologists first dug it in 1912, and since 1999 a German–Sudanese team has re-excavated it. The building is so important — and fragile — that architect Francis Kéré won a competition to design a protective shelter over it."
+        }
+      ],
+      "commonsFile": "Meroe_Royal_Bath.JPG"
     },
     {
       "id": "evt-meroe-pyramids",
       "label": "Meroë Pyramid Necropolis",
       "year": -280,
-      "description": "Construction began on the royal pyramids at Meroë, eventually numbering over 200. Their steep, narrow form is distinctly Kushite.",
+      "description": "The royals of Meroë began raising their own pyramids — steep, slender, sandstone needles utterly unlike Egypt's broad limestone giants — in clusters on low ridges east of the city.",
       "wikiSlug": "Nubian_pyramids",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Each pyramid had an offering chapel built against its east face, carved with scenes of the dead ruler in the afterlife, sometimes presented to the gods by the sister-goddesses Isis and Nephthys. Across all their cemeteries the Kushites left roughly 255 known pyramids — more than double Egypt's disputed total of about 118 — because theirs were smaller and went to kings, queens, and high officials alike. They built pyramids for nearly a thousand years; Egypt's pyramid-building had largely stopped by around 1650 BCE."
+        }
+      ],
+      "commonsFile": "Sudan_Meroe_Pyramids_2001.JPG"
     },
     {
       "id": "evt-apedemak-cult",
       "label": "Rise of Apedemak Cult",
       "year": -250,
-      "description": "The lion-headed warrior god Apedemak became a major Meroitic deity, reflecting the kingdom's increasingly distinct religious identity separate from Egypt.",
+      "description": "As Meroë drifted further from Egypt's orbit, the lion-headed warrior Apedemak surged in popularity — a god with deep local roots and no Egyptian model, signaling Kush's own religious identity.",
       "wikiSlug": "Apedemak",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The further south the capital sat, the bigger Apedemak loomed relative to Amun, the imported Egyptian state god. By the late Meroitic period the religious scene looks like a two-track system: Amun stayed the formal god of kings and temples, while Apedemak may have been the deity ordinary people actually felt closest to. Lions weren't an abstract symbol here either — they genuinely roamed the Meroitic heartland, so the choice of a lion god grew straight out of the landscape."
+        }
+      ],
+      "commonsFile": "NaqaLionTempleApedemakSnake.jpg"
     },
     {
       "id": "evt-lion-temple-musawwarat",
       "label": "Lion Temple at Musawwarat",
       "year": -230,
-      "description": "The Great Enclosure and Lion Temple at Musawwarat es-Sufra were built, dedicated to Apedemak and featuring elaborate relief carvings.",
+      "description": "Around 230 BCE Kush raised the Lion Temple and the sprawling Great Enclosure at Musawwarat es-Sufra, a desert sanctuary to Apedemak covered in carved reliefs.",
       "wikiSlug": "Musawwarat_es-Sufra",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Enclosure is a maze of three temples on raised terraces, tied together by ramps, corridors, and walled courtyards, all built from small sandstone blocks cut in the surrounding hills. Elephants are everywhere — carved on walls and even standing as a statue — and one long, gently sloped ramp looks built for leading large animals through, fueling the theory that elephants were trained here. A German team from Berlin's Humboldt University, led by archaeologist Fritz Hintze, dug the site from 1960 to 1970, and they turned up the remains of a workshop where the kingdom's famous fine pottery was actually made."
+        }
+      ],
+      "commonsFile": "Apedemak_temple_in_Musawwarat_es-sufra_2018.jpg"
     },
     {
       "id": "evt-lion-temple-naqa",
       "label": "Lion Temple at Naqa",
       "year": -1,
-      "description": "King Natakamani and Queen Amanitore built the Lion Temple at Naqa, with relief carvings showing the rulers smiting enemies in both Egyptian and Roman styles.",
+      "description": "A small, exquisitely preserved temple to the lion god Apedemak at Naqa, built by Natakamani and Amanitore, famous for blending Egyptian, Kushite, and classical art on one set of walls.",
       "wikiSlug": "Naqa",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Apedemak is purely Kushite — a lion-headed war god with no Egyptian equivalent, and one carving here gives him a startling three faces and four arms, an image found nowhere in the Egyptian repertoire. The temple's front gate is flanked by a Roman-style arch and Egyptian-style pylon towers within steps of each other, the cultural mash-up made literal in stone. Just beside it stands the so-called \"Roman Kiosk,\" a free-standing chapel that fuses Egyptian cavetto cornices with Greek-style Corinthian columns and round Roman arches."
+        }
+      ],
+      "commonsFile": "Naqa_Apedamak_temple.jpg"
     },
     {
       "id": "evt-trade-routes",
       "label": "Meroë–Red Sea Trade",
       "year": -200,
-      "description": "Kush established trade routes connecting Meroë to Red Sea ports, exporting gold, ivory, ebony, and enslaved people to Ptolemaic Egypt and beyond.",
+      "description": "Meroë's position opened eastern trade roads toward the Red Sea, turning Kush from a kingdom that faced Egypt into one that traded with the wider Indian Ocean world.",
       "wikiSlug": "Kingdom_of_Kush",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Caravans carried gold, ivory, ebony, ostrich feathers, exotic animal skins, and enslaved people out to Red Sea harbors, and from ports like Adulis those goods fed markets in the Mediterranean, Arabia, and India. The Ptolemies of Egypt actively hunted this region for war elephants — a trade that faded after Asian elephants outmatched African ones at the Battle of Raphia in 217 BCE. In return Kush imported Hellenistic and Roman wine, olive oil, bronze vessels, and glass."
+        }
+      ]
     },
     {
       "id": "evt-gold-trade",
       "label": "Kushite Gold Exports",
       "year": -700,
-      "description": "Kush controlled rich gold mines in the Nubian Desert, making it a major gold supplier to Egypt, Assyria, and later the Hellenistic world.",
+      "description": "The Napatan kings inherited Nubia's famous gold fields, and that gold stayed the backbone of the economy for a thousand years, paying for temples, armies, and trade while giving Kush real diplomatic muscle abroad.",
       "wikiSlug": "Gold_mining",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The connection runs right down to the name: 'Nubia' is widely traced to the ancient Egyptian word for gold (nub), and the related Nubian word nab still means gold in wedding songs sung today. The richest mining district was the Wadi Allaqi, a desert valley running east off the Nile, where the metal was worked out of quartz veins along with electrum (a natural gold-silver alloy). This was the same gold that, centuries earlier, had foreign kings writing groveling letters to the pharaoh begging for more of it, and the same wealth the Assyrians would later list among the treasures they were after when they invaded Egypt."
+        }
+      ],
+      "commonsFile": "Gold_flower_shaped_Diadem,_found_in_te_Pyramid_of_King_Talakhamani_(435–431_B.C.).jpg"
     },
     {
       "id": "evt-roman-war",
       "label": "Kushite–Roman War",
       "year": -27,
-      "description": "Kushite forces under Kandake Amanirenas raided Roman-held Aswan, capturing a bronze head of Augustus. Rome retaliated by attacking Napata.",
+      "description": "A four-year border war (roughly 27 to 22 BCE) between Kush and newly Roman Egypt, opened by a Kushite raid and answered by a Roman counter-strike deep up the Nile.",
       "wikiSlug": "Amanirenas",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Strabo gives the lopsided numbers: the Roman prefect Gaius Petronius marched south with about 10,000 men against a Kushite army he reckoned at 30,000. The trigger may have been opportunism as much as defiance — Rome had just pulled troops from Egypt for a campaign in Arabia, leaving the southern garrison thin. The fighting ranged across hundreds of miles of river valley, from the towns at Aswan all the way up to Napata, and it ended not on the battlefield but at a negotiating table in the Aegean."
+        }
+      ],
+      "commonsFile": "Hamadab_Stela_(1).JPG"
     },
     {
       "id": "evt-amanirenas",
       "label": "Kandake Amanirenas",
       "year": -40,
       "endYear": -10,
-      "description": "Amanirenas was a fierce warrior queen who led Kushite armies against Rome and negotiated a favorable peace treaty at Samos.",
+      "description": "The one-eyed warrior Kandake (queen) of Meroë who took on the Roman Empire at the peak of its power and fought it to a standstill.",
       "wikiSlug": "Amanirenas",
       "tier": 2,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Her name survives in her own words: a few Meroitic inscriptions name her, and her full royal title reads roughly \"Amnirense, qore and kandake\" (qore meaning ruler, kandake meaning queen). She is one of the only Kushite monarchs we can actually flesh out as a personality, largely because the Greek geographer Strabo wrote about the war with Rome within living memory of it. Modern historians read the peace she won as a flat-out Kushite win, and that settlement held the southern frontier quiet for nearly three centuries afterward."
+        }
+      ],
+      "commonsFile": "Bar_4_kush_queen.jpg"
     },
     {
       "id": "evt-treaty-of-samos",
       "label": "Treaty of Samos",
       "year": -21,
-      "description": "Kush and Rome signed a peace treaty on surprisingly equal terms, with Rome withdrawing from some occupied Nubian territory and canceling tribute demands.",
+      "description": "The peace deal struck on the Greek island of Samos around 21 BCE, where Kushite envoys met Augustus in person and walked away with terms most of Rome's enemies could only dream of.",
       "wikiSlug": "Amanirenas",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Augustus happened to be wintering on Samos when the Kushite ambassadors reached him, which is the only reason a sub-Saharan kingdom's diplomats got a face-to-face audience with the Roman emperor. The headline concession was the cancellation of tribute — Rome simply dropped its demand for payment, an almost unheard-of climb-down. The settlement was durable far beyond Augustus's lifetime: the frontier it drew kept Kush and Roman Egypt at peace, with regulated trade flowing across the border, until roughly the late third century CE."
+        }
+      ],
+      "commonsFile": "Bar_4_Kush_queen_(Lepsius).jpg"
     },
     {
       "id": "evt-natakamani",
       "label": "Natakamani & Amanitore",
       "year": 1,
       "endYear": 20,
-      "description": "Natakamani and Queen Amanitore co-ruled during Kush's last golden age, undertaking a massive building program across the kingdom.",
+      "description": "King Natakamani, the best-documented ruler of the entire Meroitic period, who presided with Amanitore over Kush's final building boom in the early first century CE.",
       "wikiSlug": "Natakamani",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name is stamped across more monuments than any other Meroitic king, which is exactly why we can pin his reign down at all. The royal pair worked as a genuine partnership in the record — temple after temple shows the two of them at the same scale, an arrangement with almost no parallel in the ancient world. Beyond Naqa and Meroë, their restoration work reached north to Sai and Amara East and included rebuilding the great Amun temple at Napata that the Romans had wrecked during the war a generation earlier."
+        }
+      ],
+      "commonsFile": "Statue_National_Museum_Sudan.jpg"
     },
     {
       "id": "evt-water-reservoirs",
       "label": "Meroitic Water Engineering",
       "year": -100,
-      "description": "Kushite engineers built hafirs (large water reservoirs) to support agriculture and settlement in the semi-arid Meroitic heartland.",
+      "description": "The hafirs — vast clay-lined catch basins the Kushites dug to trap the brief summer rains and ration the water through the long dry season.",
       "wikiSlug": "Meroë",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Great Hafir at Musawwarat es-Sufra is the giant of the type: a roughly circular basin about 820 feet (250 m) across, sunk some 21 feet (6.3 m) into the ground, ringed by an earth embankment and fed by stone water channels — the largest archaeological monument in all of Sudan. Surveyors have logged around 800 hafirs across the Butana, the dry grassland steppe east of the Nile that was the Meroitic heartland. The biggest examples likely predate the Roman war by centuries, with radiocarbon dates for the Great Hafir falling between the 6th and 4th centuries BCE."
+        }
+      ]
     },
     {
       "id": "evt-kandake-tradition",
       "label": "Tradition of Ruling Queens",
       "year": -170,
-      "description": "Kush developed a distinctive tradition of powerful ruling queens (kandakes), who governed in their own right and led armies in battle.",
+      "description": "Kush built a lasting tradition of ruling queens, the Kandakes, who governed outright and led armies into the field — the word slipped into Greek and Latin as 'Candace.'",
       "wikiSlug": "Kandake",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That tradition stands out sharply against the rest of the ancient world: Egypt managed only a handful of true female rulers across three thousand years (Hatshepsut, Sobekneferu, and the Greek-descended Cleopatra VII), Rome never had a female emperor, Mesopotamia no female king, and China's lone female emperor Wu Zetian wouldn't arrive until the seventh century CE. Greek and Roman writers — Strabo, Pliny the Elder, and Dio Cassius — all remarked, plainly surprised, that Kush was run by women. The likely engine behind it was matrilineal succession (the throne passing through the mother's line), which would have made royal women heirs in their own right."
+        }
+      ],
+      "commonsFile": "Amanitore_pyramid.jpg"
     },
     {
       "id": "evt-meroitic-temples-amun",
       "label": "Amun Temple at Meroë",
       "year": -280,
-      "description": "A major temple of Amun was constructed at Meroë, maintaining religious continuity with Napata while establishing the new capital's sacred status.",
+      "description": "A grand Temple of Amun rose at Meroë, carrying the centuries-old Amun cult south and stamping the new capital as a legitimate sacred center.",
       "wikiSlug": "Meroë",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Catalogued by archaeologists as temple M260, it is the second-largest Kushite temple anywhere, beaten only by the great Amun temple (B500) at Jebel Barkal. An avenue of small stone ram statues led to its entrance — the ram being Amun's sacred animal — deliberately echoing the ram-headed sphinx approaches at Karnak in Egypt. The temple was raised in phases, and the warrior-king Natakamani and queen Amanitore (who ruled around the turn of the Common Era) added a kiosk covered in Meroitic inscriptions."
+        }
+      ],
+      "commonsFile": "Archaeological_Sites_of_the_Island_of_Meroe-114991.jpg"
     },
     {
       "id": "evt-decline-trade-shift",
       "label": "Trade Routes Shift to Aksum",
       "year": 200,
-      "description": "The rise of Aksum diverted Red Sea trade away from Meroë, weakening the kingdom's economic foundations and accelerating its decline.",
+      "description": "As the rising kingdom of Aksum (in the Ethiopian-Eritrean highlands) and its Red Sea port of Adulis pulled the booming Indian Ocean trade eastward, the old Nile route through Meroë was quietly bypassed — slowly draining the wealth Kush had lived on as middleman between inner Africa and the Mediterranean.",
       "wikiSlug": "Meroë",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The smoking gun is a first-century-CE merchant's handbook, the Periplus of the Erythraean Sea, written by an anonymous Egyptian-Greek trader: it lists Adulis as a busy port shipping out ivory, rhino horn, tortoiseshell, and obsidian, while barely treating Meroë's inland Nile trade as worth the trip. So the ivory that once floated north to Meroë was already going east to Adulis when the guide was written. The shift was partly a transport revolution — sailors had learned to ride the monsoon winds straight across to India and back, which made caravans up the Nile slow and expensive by comparison. Aksum would ride that boom so high that later writers ranked it one of the four great powers of its age, alongside Rome, Persia, and China."
+        }
+      ]
     },
     {
       "id": "evt-aksumite-conquest",
       "label": "Aksumite Conquest of Meroë",
       "year": 350,
-      "description": "King Ezana of Aksum invaded and destroyed Meroë, ending the Kingdom of Kush after over a millennium of civilization.",
+      "description": "Ezana, king of Aksum in the mid-fourth century CE, invaded the Meroitic heartland and left a victory monument boasting of burned towns and captured cattle — the conquest that put the final end to the Kingdom of Kush.",
       "wikiSlug": "Ezana_of_Axum",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ezana recorded his campaign on a stone inscription written in three scripts at once — Ge'ez (the language still chanted in Ethiopian Orthodox church services today), the South Arabian script Sabaic, and Greek — a trilingual layout often compared to the Rosetta Stone. The text names his enemies as the \"Noba\" and the \"Kasu\" (Kush) and brags about smashing settlements, seizing prisoners and herds, and torching towns, though it never spells out the name Meroë itself. Ezana's dates are usually given as a reign running roughly 330 to 356 CE, with the Kush campaign placed around 350. The same king's inscriptions are a religious time capsule: the earlier ones call on pagan gods, the later ones invoke a single \"Lord of Heaven\" — a freeze-frame of an African kingdom converting to Christianity in real time."
+        }
+      ],
+      "commonsFile": "AXUM._Ezanas._Circa_330-360.jpg"
     },
     {
       "id": "evt-shebitku",
       "label": "Shebitku",
       "year": -714,
       "endYear": -705,
-      "description": "Kushite pharaoh who may have sent forces to support Judah against the Assyrian king Sennacherib, deepening Kush's involvement in Near Eastern geopolitics.",
+      "description": "The Kushite pharaoh, possibly Shabaka's predecessor, whose army may have marched into the Levant to back an anti-Assyrian revolt, putting Kush head-to-head with the era's superpower.",
       "wikiSlug": "Shebitku",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Assyrian king Sennacherib's own annals describe smashing a Kushite-Egyptian force at the Battle of Eltekeh in 701 BCE, capturing chariots, cavalry, and archers, and some sources say the young Taharqa, then a prince and relative, helped command that expedition before he ever wore the crown. The same Tang-i Var inscription that scrambled the king-order also records that Shebitku extradited the rebel ruler Iamani of Ashdod back to Assyria, a reminder that he sometimes cooperated with the empire rather than only fighting it."
+        }
+      ],
+      "commonsFile": "Shabatka_portrait,_Aswan_Nubian_museum.jpg"
     },
     {
       "id": "evt-el-kurru-pyramids",
       "label": "El-Kurru Royal Necropolis",
       "year": -800,
-      "description": "The earliest Kushite royal burial site at El-Kurru near Napata, where kings including Piye and Shabaka were buried in pyramid tombs.",
+      "description": "El-Kurru, a ridge on the Nile a few miles downstream from Jebel Barkal, was the Napatan dynasty's first royal cemetery, where modest Nubian burial mounds steadily morphed into the steep little pyramids that would become the Kushite signature.",
       "wikiSlug": "El-Kurru",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The site opens around 850 BCE as plain gravel mounds and evolves straight into pyramids without ever passing through the rectangular 'mastaba' stage that an early excavator assumed. Some of the grave goods are reused Egyptian heirlooms: alabaster and faience vessels that date back to Egypt's 19th and 20th Dynasties, centuries older than the burials they ended up in. The cemetery also held a strange annex 24 horse graves (numbered Ku.201 to Ku.224), where prized chariot teams were interred standing upright, a foretaste of the horse obsession that would define Piye's reign."
+        }
+      ],
+      "commonsFile": "Al-Kurru,main_pyramid.jpg"
     },
     {
       "id": "evt-sack-thebes-663",
       "label": "Assyrian Sack of Thebes",
       "year": -663,
-      "description": "Ashurbanipal sacked Thebes, the great religious capital of Upper Egypt, destroying its treasures and ending any hope of Kushite reconquest of Egypt.",
+      "description": "In 663 BCE Ashurbanipal's army chased Tantamani all the way up the Nile and sacked Thebes — the richest religious center in Egypt — in a plunder so total it became a byword for catastrophe.",
       "wikiSlug": "Sack_of_Thebes",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ashurbanipal's own inscriptions (the Rassam Cylinder) brag that the haul included two electrum-plated obelisks weighing some 2,500 talents together — roughly 75 tons of stone and metal — hauled the entire way back to Nineveh. Thebes was known to the Egyptians as Waset and to outsiders as No-Amon, \"the city of Amun.\" Its memory as the ultimate ruined city lasted so long that the Hebrew prophet Nahum, writing decades later, invoked it as the warning of what would happen to Nineveh itself — and Nineveh did fall, in 612 BCE."
+        }
+      ],
+      "commonsFile": "058_PHARAOHS_OF_EGYPT-_TANUTAMANI_(also_TANWETAMANI_or_TANTAMANI),_reign_-_664–653_BC._The_Toledo_Museum_of_Art.jpg"
     },
     {
       "id": "evt-amanitore",
       "label": "Queen Amanitore",
       "year": 1,
       "endYear": 20,
-      "description": "Powerful kandake who co-ruled with Natakamani and undertook major construction projects at Naqa, Meroë, and Amara, depicted smiting enemies on temple reliefs.",
+      "description": "Co-ruling Kandake of the early first century CE, shown at equal scale with King Natakamani and, like him, smiting captives in the ancient pharaonic pose.",
       "wikiSlug": "Amanitore",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "She is one of a remarkable run of powerful Kushite queens — Strabo's blanket term \"Candace\" for the queens of Meroë actually came from the Kushite title kandake. Her relationship to Natakamani is debated; some scholars read her as his mother and co-regent rather than his wife. She personally drove the rebuilding of the Amun temple at Meroë and the restoration of the Amun sanctuary at Napata, putting her name on the religious heart of the kingdom, not just its monuments."
+        }
+      ],
+      "commonsFile": "Aegyptisches_Museum_Berlin_InvNr7261_20080313_Barkenuntersatz_Natakamani_Amanitore_aus_Wad_Ban_Naga_1.jpg"
     },
     {
       "id": "evt-meroitic-pottery",
       "label": "Meroitic Fine Pottery Tradition",
       "year": -100,
-      "description": "Meroitic potters developed a distinctive eggshell-thin painted pottery tradition, considered among the finest ceramics produced in ancient Africa.",
+      "description": "Meroitic potters turned out painted vessels with walls so thin archaeologists nickname it 'eggshell ware' — among the most accomplished ceramics ancient Africa produced.",
       "wikiSlug": "Meroë#Culture",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The good stuff was wheel-made and spread across a huge stretch of the Nile between the First and Sixth Cataracts, churned out at major centers like Meroë, Faras, and Musawwarat es-Sufra — where excavators found an actual pottery workshop tucked inside the Great Enclosure's sacred precinct. Painters covered the cups and jars in geometric bands, plants, animals, and even human figures in crisp black, red, and white. The vessels traveled too, turning up in trade contexts well beyond the kingdom's core."
+        }
+      ],
+      "commonsFile": "Jar_with_vine_pattern,_Qustul,_Cemetery_Q,_tomb_417,_Meroitic_Phase_IIB,_50_BC_to_200_AD,_ceramic,_paint_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC08049.JPG"
     },
     {
       "id": "evt-arkamani-i",
       "label": "Arkamani I (Ergamenes)",
       "year": -270,
       "endYear": -260,
-      "description": "Hellenized Kushite king who reportedly broke the power of the Amun priesthood and moved the royal cemetery from Napata to Meroë.",
+      "description": "Arkamani I — the king the Greeks called Ergamenes — is remembered for breaking the grip of the Amun priesthood and anchoring the royal cemetery at Meroë instead of Napata.",
       "wikiSlug": "Arkamani",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He is the only Meroitic king named in surviving classical literature. The historian Diodorus Siculus says the Napatan priests once held the power to order a king's death, and that Ergamenes — who'd had a Greek education — instead marched troops to the temple and slaughtered them. The tale reads like a Greek morality play about reason beating superstition, and pioneering Nubia archaeologist George Reisner dismissed it as \"very dubious\"; sources place Arkamani's reign later in the 200s BCE than the traditional ~270 capital-shift date, so the neat pairing of king and move is itself uncertain."
+        }
+      ],
+      "commonsFile": "Temple_relief_of_king_Arqamani_from_Dakka_by_Dennis_C._Jarvis.jpg"
     },
     {
       "id": "evt-augustus-bronze-head",
       "label": "Bronze Head of Augustus Captured",
       "year": -25,
-      "description": "Kushite raiders seized a bronze head of Emperor Augustus from Aswan and buried it beneath a temple threshold at Meroë as a trophy of defiance.",
+      "description": "The moment of the theft itself — Kushite raiders pulling down Augustus's statues at Aswan and hauling the bronze head south as a war trophy.",
       "wikiSlug": "Meroë_Head",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Toppling an emperor's image was a calculated insult, not random looting: those statues were imperial billboards, planted in frontier towns precisely to project Roman authority. Strabo specifically records that the Kushites carried off statues of Caesar (Augustus) from the towns at the First Cataract. Of all the bronzes they took, this one head is the only piece that has ever turned up — every other statue from the raid has vanished, presumably melted down for its metal at some point over two thousand years."
+        }
+      ],
+      "commonsFile": "Augustus.JPG"
     },
     {
       "id": "evt-kush-napata-state",
       "label": "The Napatan State Takes Shape",
       "year": -900,
-      "description": "In the centuries after Egyptian withdrawal from Nubia (~1070 BCE), the Napatan elite at Jebel Barkal consolidated a kingdom that inherited Egyptian religious practices — Amun worship, pharaonic titulary, pyramid burial — while maintaining distinctly Kushite traditions in pottery, archery, and cattle culture.",
+      "description": "Over the two or three murky centuries after Egypt pulled out, the Nubian elite around the sacred mountain of Jebel Barkal stitched scattered Nile communities into a real kingdom, keeping Egyptian religion and writing while staying recognizably Nubian.",
       "wikiSlug": "Kingdom_of_Kush",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Egyptian Clothes, Kushite Soul",
-          "text": "The Napatan kings adopted Egyptian royal protocol so thoroughly that their monuments are sometimes indistinguishable from Egyptian ones. But their power base was distinctly Nubian: military strength from archers, wealth from gold and cattle, and religious authority from the Amun oracle at Jebel Barkal."
+          "label": "Explore further",
+          "text": "Jebel Barkal, the flat-topped sandstone butte at the heart of all this, rises about 300 feet (roughly 90 meters) out of the desert and was made sacred to the god Amun by the pharaoh Thutmose III around 1450 BCE, after his armies smashed the earlier Nubian kingdom of Kerma. A freestanding rock pinnacle on its corner reads, from the west, as a rearing royal cobra and, from the east, as a serpent crowned with a sun-disc, which is why the ancients were sure the god lived inside the rock. The whole region was added to UNESCO's World Heritage list in 2003 as 'Gebel Barkal and the Sites of the Napatan Region.'"
         }
-      ]
+      ],
+      "commonsFile": "Gebel_Barkal.jpg"
     },
     {
       "id": "evt-kush-piye-stela-detail",
       "label": "Piye's Victory Stela",
       "year": -728,
-      "description": "Piye's Victory Stela at Jebel Barkal is one of the longest and most detailed royal inscriptions of the ancient world — over 150 lines of hieroglyphic text describing his campaign up the Nile, the sieges of Hermopolis and Memphis, and the submission of the Delta dynasts, with Piye weeping at the poor condition of the horses he captured.",
+      "description": "The dark-gray granite monument, carved on all four faces, on which Piye recorded his Egyptian campaign in his own royal voice — one of the longest and most vividly written royal inscriptions to survive from the ancient world.",
       "wikiSlug": "Stele_of_Piye",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "The Horse Scene",
-          "text": "When Piye captured the stables at Hermopolis and found the horses had been starved during the siege, he wept with rage. The stela records this as a moral condemnation of his enemy's character — a king who mistreats horses is unfit to rule. It is one of the most personal moments in any ancient royal inscription."
+          "label": "Explore further",
+          "text": "The text runs to roughly 159 lines of classical Middle Egyptian, the polished literary register of Egypt's golden age, not everyday Kushite speech. The slab weighs about two and a quarter tons and was pulled from the temple of Amun at Jebel Barkal in 1862; it now sits in the Egyptian Museum in Cairo as object JE 48862. The inscription is unusually generous to Piye's enemies and unusually candid about his impatience — at one point the king openly chews out his own generals for letting the war drag on while he sat at home in Napata."
         }
-      ]
+      ],
+      "commonsFile": "Piye_Stele_(Louvre_Museum_reconstruction).jpg"
     },
     {
       "id": "evt-kush-amanishakheto",
       "label": "Queen Amanishakheto",
       "year": -10,
-      "description": "Amanishakheto was a ruling Kandake (queen) of Meroë whose pyramid at Wad ban Naqa was looted in 1834 by the Italian treasure hunter Giuseppe Ferlini, who found a cache of exquisite gold jewelry — rings, bracelets, shield-rings with Amun and Hathor motifs — that is now split between Munich and Berlin.",
+      "description": "A Kandake who ruled around the turn of the eras, whose pyramid was blown open in 1834 for the dazzling hoard of gold jewelry inside.",
       "wikiSlug": "Amanishakheto",
       "tier": 2,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Ferlini's Destruction",
-          "text": "Ferlini dynamited Amanishakheto's pyramid to reach the burial chamber, destroying the structure and scattering the archaeological context. The gold he recovered is stunning — among the finest ancient goldwork from Africa — but we will never know how the objects were arranged or what other materials were in the tomb. Ferlini's 'excavation' is one of the most destructive episodes in the history of Nubian archaeology."
+          "label": "Explore further",
+          "text": "Her treasure nearly didn't survive its own discovery, and not only because Ferlini wrecked the pyramid: when he brought the gold back to Europe, dealers refused to believe such fine work could come from sub-Saharan Africa, and he struggled to sell it. The collection eventually split between Berlin and Munich, where it remains today. Her own pyramid carries her name and image at Begarawiyah's northern cemetery (tomb Beg. N6), and her royal title — qore and kandake — marks her as a ruler in her own right, not a consort."
         }
-      ]
+      ],
+      "commonsFile": "Relief_Amanishakheto_Munich.JPG"
     },
     {
       "id": "evt-kush-meroe-iron",
       "label": "Meroë's Iron Industry",
       "year": -500,
-      "description": "Meroë became one of the largest ironworking centers in ancient Africa. Massive slag heaps — the waste product of iron smelting — surround the city, and the abundance of acacia wood for charcoal fuel made the region ideal for smelting. Whether Meroë was an independent center of iron invention or adopted the technology from elsewhere remains debated.",
+      "description": "The same iron story, framed as the open debate it has become: Meroë clearly made a lot of iron, but whether it was a continent-shaping \"industrial\" hub — or invented the technology at all — is now genuinely contested.",
       "wikiSlug": "Mero%C3%AB",
       "tier": 1,
       "tags": [],
       "category": "science",
       "details": [
         {
-          "label": "The Birmingham of Africa?",
-          "text": "The British archaeologist A.J. Arkell called Meroë the 'Birmingham of Africa' in the 1960s, a label that stuck even though modern research has complicated it. The slag heaps are real and enormous, but recent analysis suggests iron production may have been more modest than the slag volume implies — some of the slag may be from copper or gold refining rather than iron."
+          "label": "Explore further",
+          "text": "The pull factor was fuel and ore together: the Butana steppe around Meroë grew acacia woodland, and acacia makes excellent charcoal, the burning agent a smelting furnace needs. The old idea that ironworking radiated outward from Meroë to the rest of Africa has been undercut by early iron-smelting finds in West and Central Africa (such as Nigeria and the Central African Republic) that look independent of Kush. Experimental archaeologists have even rebuilt Meroitic-style furnaces at the site to test how the smelters actually worked."
         }
       ]
     },
@@ -599,97 +914,103 @@
       "id": "evt-kush-meroitic-script-detail",
       "label": "Meroitic Script — Africa's Undeciphered Writing",
       "year": -300,
-      "description": "The Meroitic script, developed around 300 BCE, was the first indigenous writing system created south of the Sahara. It exists in two forms — hieroglyphic (for monuments) and cursive (for daily use) — and the sounds of the letters have been decoded, but the language itself remains largely untranslated.",
+      "description": "Around 300 BCE, Kush built its own writing system to record the Meroitic language — the first home-grown script anywhere south of the Sahara, in two flavors: blocky hieroglyphs for monuments and a flowing cursive for everyday notes.",
       "wikiSlug": "Meroitic_script",
       "tier": 1,
       "tags": [],
       "category": "writing",
       "details": [
         {
-          "label": "We Can Read It But Not Understand It",
-          "text": "The British Egyptologist Francis Llewellyn Griffith cracked the Meroitic alphabet in 1911 by comparing it to Egyptian texts. We can now pronounce Meroitic words — we know what they sound like — but since Meroitic is not related to any known language, we cannot translate most of them. Personal names, royal titles, and a few common words (like the word for 'water') have been identified, but running text remains opaque."
+          "label": "Explore further",
+          "text": "Compared to the hundreds of signs in Egyptian hieroglyphic, Meroitic is startlingly lean — just 23 characters, including four standalone vowels. Words were neatly fenced off with a little stack of dots (usually three), a punctuation habit that makes the inscriptions easy to chop into pieces even though we still can't read them. The British scholar Francis Llewellyn Griffith cracked the sound values in 1911 by leaning on bilingual monuments and even nailed down a surprising detail: the script runs right-to-left."
         }
-      ]
+      ],
+      "commonsFile": "Meroitic.png"
     },
     {
       "id": "evt-kush-elephant-corps",
       "label": "Meroitic War Elephants",
       "year": -250,
-      "description": "Meroë maintained a corps of African bush elephants for warfare and ceremonial display. Apedemak, the lion-headed war god, was frequently depicted riding or accompanied by elephants, and Meroitic kings used elephants in battles against Roman and Aksumite forces.",
+      "description": "Meroë kept a corps of African bush elephants — the biggest land animals alive — for war and ceremony, and tied them tightly to its lion war god in temple art.",
       "wikiSlug": "War_elephant",
       "tier": 2,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Not Hannibal's Elephants",
-          "text": "Meroitic war elephants were African bush elephants, the largest land animal on Earth — much bigger and more aggressive than the Indian elephants used by the Seleucids and the forest elephants used by Carthage. Training them for warfare was difficult and their effectiveness in pitched battle is debated, but their psychological impact was undeniable. Roman soldiers who had never seen an elephant before found the experience terrifying."
+          "label": "Explore further",
+          "text": "African bush elephants are larger and far more temperamental than the Indian elephants Asian armies used, and bigger too than the now-extinct North African forest elephant that Carthage famously rode against Rome, including Hannibal's Alps crossing in 218 BCE. Whether they were truly effective in a pitched fight is still argued by historians, but nobody disputes the terror they inspired in soldiers who'd never seen one. At Musawwarat the elephant motif is so relentless — on walls, columns, and lintels — that archaeologists suspect the site doubled as a training ground, which would make it the only known one in the ancient African world."
         }
-      ]
+      ],
+      "commonsFile": "Nubian_elephant_culture,_Nubian_Museum.jpg"
     },
     {
       "id": "evt-kush-apedemak",
       "label": "Apedemak — The Lion God",
       "year": -250,
-      "description": "Apedemak was a uniquely Meroitic lion-headed warrior god with no Egyptian equivalent — the most important indigenous deity of the Kushite religious system and a symbol of royal military power. His major temples at Musawwarat es-Sufra, Naqa, and Meroë show a three-headed, four-armed god receiving offerings from the Meroitic royal family.",
+      "description": "Apedemak was Kush's home-grown lion-headed war god — no Egyptian equivalent at all — and the kingdom's most distinctly Meroitic deity, a stand-in for royal and military might.",
       "wikiSlug": "Apedemak",
       "tier": 1,
       "tags": [],
       "category": "religion",
       "details": [
         {
-          "label": "Not Egyptian",
-          "text": "Apedemak is the clearest evidence that Meroitic religion was not simply borrowed Egyptian religion. While Amun remained the supreme state god, Apedemak was a Kushite creation — a warrior deity associated with the southern lands, the lion, and the elephant, depicted in a style that blended Egyptian artistic conventions with distinctly African iconography. His cult gained strength as Meroë moved further from Egypt's cultural orbit."
+          "label": "Explore further",
+          "text": "A hymn carved on the Lion Temple at Naqa piles on his titles: 'Lord of Naqa, great god, Lord of Musawwarat es-Sufra... Lion of the south, strong of arm.' In the reliefs he isn't just a lion head on a body — he wears leather armor (a cuirass) and grips a bow and arrow, the signature weapons Nubians were famous for across their whole history. At Naqa he even morphs further, appearing as a three-headed, four-armed figure and, in one spot, as a snake rising up with a lion's head."
         }
-      ]
+      ],
+      "commonsFile": "Naga_Löwentempel.jpg"
     },
     {
       "id": "evt-kush-bronze-head-augustus",
       "label": "The Bronze Head of Augustus",
       "year": -25,
-      "description": "During the Kushite-Roman war, Meroitic forces raided the Roman frontier town of Syene (Aswan) and carried off a bronze portrait head of the emperor Augustus. They buried it face-down beneath the steps of a temple to Apedemak at Meroë — so that every worshipper entering the temple would step on Augustus's face. The head was found by British excavators in 1910 and is now in the British Museum.",
+      "description": "A bronze portrait head of Augustus, sawn from a looted Roman statue and buried face-down under a Meroë temple step so that worshippers would tread on the emperor for centuries.",
       "wikiSlug": "Mero%C3%AB_Head",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Deliberate Humiliation",
-          "text": "Burying the head beneath the temple threshold was not careless disposal. It was a ritual act of domination — the Roman emperor's face permanently underfoot, ground into the dirt by the faithful. The head itself is a masterpiece of Roman bronze portraiture, with glass-inlaid eyes that still stare out of the dark metal. It is one of the most famous objects in the British Museum and one of the most vivid acts of anti-imperial defiance in the ancient world."
+          "label": "Explore further",
+          "text": "The head is larger than life — about 18 inches (47 cm) tall — and was cut from an over-life-size standing statue, not a small bust. Its eyes are the eerie part: pupils of dark glass set into irises of calcite (a translucent white stone), which is why it still seems to stare. Garstang's team dug it out in December 1910, and the Sudan excavation committee handed it to the British Museum the following year. Casting analysis suggests the original statue was probably made in Egypt soon after Augustus took the province in 30 BCE."
         }
-      ]
+      ],
+      "commonsFile": "Bronze_head_from_an_over-life-sized_statue_of_Augustus,_found_in_the_ancient_Nubian_site_of_Meroë_in_Sudan,_27_-_25_BC,_Moi,_Auguste,_Empereur_de_Rome_exhibition,_Grand_Palais,_Paris_-_14647638801.jpg"
     },
     {
       "id": "evt-kush-kandake-system",
       "label": "The Kandake Tradition of Ruling Queens",
       "year": -170,
-      "description": "From about 170 BCE onward, Meroë was ruled by a series of powerful queens (Kandakes) who governed in their own right, not merely as regents. At least seven Kandakes are attested as sole or co-rulers, a frequency of female sovereignty unmatched in the ancient world outside of the Ptolemaic dynasty.",
+      "description": "From about 170 BCE, Meroë was repeatedly ruled by Kandakes — queens who wielded real sovereign power in their own name, not as stand-ins for husbands or sons. At least seven are documented, a rate of female rule unmatched in the ancient world.",
       "wikiSlug": "Kandake",
       "tier": 1,
       "tags": [],
       "category": "rulers",
       "details": [
         {
-          "label": "Warrior Queens",
-          "text": "The Kandakes were not ceremonial figureheads. Amanirenas personally led the army against Rome. Amanishakheto built temples and pyramids. Amanitore co-ruled with Natakamani during Meroë's final architectural flowering. Classical authors (Strabo, Pliny, Dio Cassius) all note with surprise that Kush was ruled by women — the tradition was unusual enough to be commented on across the Mediterranean."
+          "label": "Explore further",
+          "text": "One Kandake, Amanirenas, took on Rome itself. After the Romans pushed south from Egypt, she rallied a Kushite army — by one account some 30,000 strong — and in 24 BCE sacked the border town of Syene (modern Aswan), hacking the heads off statues of the emperor Augustus. Her people carried one bronze head of Augustus home to Meroë and buried it under a temple staircase, so anyone climbing to the victory altar would literally tread on the Roman emperor's face; British archaeologists dug it up in 1910 and it now sits in the British Museum. The war ended in 21–20 BCE with a treaty so favorable that Rome pulled back its frontier and excused Kush from paying tribute."
         }
-      ]
+      ],
+      "commonsFile": "Aegyptisches_Museum_Berlin_InvNr7261_20080313_Barkenuntersatz_Natakamani_Amanitore_aus_Wad_Ban_Naga_4.jpg"
     },
     {
       "id": "evt-kush-aksumite-end",
       "label": "Aksumite Conquest and the End of Kush",
       "year": 350,
-      "description": "King Ezana of Aksum (in modern Ethiopia) invaded Meroë around 350 CE, probably finding a kingdom already weakened by drought, overgrazing, trade-route shifts, and internal fragmentation. The Aksumite inscription at Meroë records a decisive military victory, and the city was never reoccupied as a capital. The Kingdom of Kush, which had endured for nearly 1,400 years, was over.",
+      "description": "Around 350 CE, King Ezana of Aksum marched on a Kush already hollowed out by lost trade, a possibly exhausted landscape, the fading Roman frontier, and internal splintering. His army sacked the Meroitic heartland, and the capital was never again the seat of a kingdom — closing roughly 1,400 years of Kushite history.",
       "wikiSlug": "Kingdom_of_Aksum",
       "tier": 1,
       "tags": [],
       "category": "wars",
       "details": [
         {
-          "label": "Why Kush Fell",
-          "text": "The decline of Meroë was gradual, not sudden. The Red Sea trade routes that had enriched the kingdom shifted eastward to Aksum's port at Adulis. Deforestation from centuries of charcoal-fueled iron smelting may have degraded the surrounding farmland. The Roman frontier trade that had sustained the northern provinces declined as the Roman Empire itself contracted. By the time Ezana arrived, Meroë may have been a shadow of its former self."
+          "label": "Explore further",
+          "text": "Aksum wasn't just a raider — it was a cutting-edge state. Decades before Ezana, around 270 CE, King Endubis had made Aksum the first sub-Saharan African kingdom ever to mint its own coins, striking them in gold, silver, and bronze; no other sub-Saharan state would do so again until the Swahili sultanate of Kilwa some 700 years later. Ezana himself converted to Christianity during his reign and around 330 CE swapped the pagan crescent on his coins for the cross, making the conquest of Amun-worshipping Kush one of the first military campaigns of a Christian African power. Some scholars push back on the dramatic version of events, arguing the archaeology shows Meroë was already economically and politically broken by about 300 CE — so Ezana may have been finishing off a corpse rather than felling a living kingdom."
         }
-      ]
+      ],
+      "commonsFile": "KingEndybisEthiopia227-235CE.jpg"
     }
   ],
   "wikiSlug": "Kingdom_of_Kush"
