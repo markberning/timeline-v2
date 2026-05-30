@@ -113,7 +113,7 @@ function WarCard({ w, bandColor }: { w: War; bandColor: string }) {
       flexDirection: isXL ? 'column' : 'row',
       height: sz.content,
     }}>
-      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : '100%', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
+      <div style={{ width: isXL ? '100%' : sz.imgW, height: isXL ? 132 : 'auto', alignSelf: 'stretch', flexShrink: 0, [isXL ? 'borderBottom' : 'borderRight']: '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)' }}>
         <PaintingTile palette={w.palette} imageUrl={w.img} label={w.imgLabel} isXL={isXL} />
       </div>
       <div style={{ flex: 1, minWidth: 0, padding: isXL ? '12px 18px 14px' : (isLG ? '14px 18px' : '11px 15px'), display: 'flex', flexDirection: 'column' }}>
