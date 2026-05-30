@@ -59,382 +59,608 @@
       "label": "Kublai Khan",
       "year": 1260,
       "endYear": 1294,
-      "description": "Grandson of Genghis Khan and brother of Möngke and Hülegü, Kublai won the Toluid Civil War in 1264 and ruled as Great Khan and Yuan emperor for thirty-four years. He decided early to govern China as a Chinese-style emperor — Confucian rituals, permanent capital, civilian bureaucracy — while keeping Mongol military supremacy at the top of the system.",
+      "description": "Grandson of Genghis Khan, he won the four-year war of succession against his brother in 1264 and ruled as Great Khan for thirty-four years. He chose to govern China as a Chinese-style emperor rather than a steppe conqueror, building a permanent capital and a civilian bureaucracy on top of Mongol military power.",
       "wikiSlug": "Kublai_Khan",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kublai built a brand-new capital, Dadu (\"great capital\"), on the site of modern Beijing — the Mongols called it Khanbaliq, \"city of the Khan.\" He had it laid out by the Chinese scholar Liu Bingzhong according to the ancient ritual handbook the Rites of Zhou, with palaces in front and markets behind. He was also, in a sense, the world's first big experimenter with paper money as a nation's only currency: starting in 1260 his government issued the jiaochao, banknotes printed on mulberry-bark paper with no expiration date, which Chinese subjects were required to use to pay their taxes."
+        }
+      ],
+      "commonsFile": "YuanEmperorAlbumKhubilaiPortrait.jpg"
     },
     {
       "id": "evt-yuan-proclaimed",
       "label": "Yuan Dynasty Proclaimed",
       "year": 1271,
-      "description": "Kublai formally proclaimed the Yuan dynasty in 1271, taking the name from the Yi Jing (Book of Changes) where 'yuan' means 'origin' or 'primal.' The proclamation claimed the Mandate of Heaven and signaled that the Mongol regime in north China was now a legitimate Chinese dynasty in the orthodox succession.",
+      "description": "In 1271 Kublai issued an edict giving his regime a formal Chinese dynastic name, the Great Yuan. It was a deliberate move to claim the Mandate of Heaven and present the Mongol state as the legitimate successor in the long line of Chinese dynasties — which logically meant the still-standing Southern Song had to be finished off.",
       "wikiSlug": "Yuan_dynasty",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The edict went out on December 18, 1271, and declared the following year, 1272, the first year of the \"Great Yuan.\" The name itself was a sophisticated piece of Chinese scholarship: \"Yuan\" was lifted from a line in the commentary to the I Ching (the Book of Changes, the most ancient of the Chinese classics), the phrase \"da zai Qian yuan\" — \"great is Qian, the primal source,\" Qian being the hexagram that stands for Heaven and the emperor. It was the first time a Chinese dynasty took its name from an abstract philosophical idea rather than the founder's home region or old fief."
+        }
+      ],
+      "commonsFile": "Yuan_Dynasty_revised.png"
     },
     {
       "id": "evt-siege-xiangyang",
       "label": "Siege of Xiangyang",
       "year": 1267,
       "endYear": 1273,
-      "description": "The six-year Mongol siege of the Song fortress city of Xiangyang on the Han River was the decisive campaign of the conquest. The walls held until two Persian engineers, Ismail and Ala al-Din, arrived from the Ilkhanate with counterweight trebuchets — the Chinese sources called them huihui pao, 'Muslim machines' — that hurled 220-pound stones and broke through in 1273.",
+      "description": "The make-or-break campaign of the conquest: a roughly six-year Mongol siege of the twin Song fortress cities of Xiangyang and Fancheng, which guarded the route to the Yangtze. The walls held for years until two engineers from Mongol Persia arrived with counterweight trebuchets powerful enough to crack them.",
       "wikiSlug": "Siege_of_Xiangyang",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The siege was directed for the Mongols by the general Aju, while the Song commander Lü Wenhuan held out year after year as relief armies were beaten back. The game-changing siege engines were built in 1272 by two Muslim engineers — Ismail (of Hilla, in modern Iraq) and Ala al-Din — who came east from the Ilkhanate, the Mongol realm in Persia. Their counterweight trebuchets, which the Chinese called huihui pao (\"Muslim machines\"), could reportedly fling stones weighing over 660 pounds (300 kg) more than 500 yards (roughly 500 m). The sister city Fancheng fell first; when the Song saw what the machines did to it, Xiangyang surrendered."
+        }
+      ],
+      "commonsFile": "Xuanfengwupao.jpg"
     },
     {
       "id": "evt-fall-hangzhou",
       "label": "Fall of Hangzhou",
       "year": 1276,
-      "description": "The Mongol-Chinese general Bayan accepted the surrender of the Song capital Hangzhou in early 1276. The dowager empress handed over the imperial seals and the six-year-old Emperor Gong, who was sent to Beijing as a captive. The dynasty fled south with two younger half-brothers and the navy.",
+      "description": "In early 1276 the Mongol general Bayan took the surrender of the Song capital, Hangzhou, then perhaps the largest and richest city on Earth. The regent handed over the imperial seals and the child Emperor Gong, who was shipped north as a captive while diehard loyalists fled south with the navy.",
       "wikiSlug": "Bayan_of_the_Baarin",
       "tier": 2,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bayan's army reached Hangzhou on January 18, 1276, and the surrender came about a month later, around February 21, negotiated by the Grand Empress Dowager Xie Daoqing, who had been ruling for the sickly child. The captured Emperor Gong (born Zhao Xian) had one of the most astonishing afterlives in Chinese history: spared by Kublai, he was eventually sent to Tibet, became a Buddhist monk at the great Sakya Monastery under the religious name Chos kyi Rin chen, and spent decades translating scriptures between Chinese and Tibetan — before a Yuan emperor finally ordered him to kill himself in 1323, at age 52."
+        }
+      ]
     },
     {
       "id": "evt-battle-yamen",
       "label": "Battle of Yamen",
       "year": 1279,
-      "description": "On March 19, 1279, the Yuan fleet under Zhang Hongfan trapped the Song fleet in the Pearl River estuary at Yamen. When defeat became certain, the Song minister Lu Xiufu bound the eight-year-old Emperor Bing to his back with a sash and jumped into the sea. More than 100,000 loyalists followed; bodies washed ashore for days. The Song dynasty ended after 319 years.",
+      "description": "The last battle of the Song dynasty, fought on March 19, 1279, in a bay off the Guangdong coast. The Yuan fleet trapped and destroyed the floating Song court, triggering the mass suicide that ended 319 years of Song rule and put all of China under foreign control for the first time.",
       "wikiSlug": "Battle_of_Yamen",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Here is the strange part: the Song actually had the bigger fleet, outnumbering the Mongols by roughly ten to one with about a thousand ships. The Song admiral Zhang Shijie chained his vessels together into one giant floating fortress so no ship could flee — which also meant none could maneuver. When the Yuan sent in fire ships, the Song shrugged them off, having smeared their hulls with fire-resistant mud. So the Yuan simply blockaded the bay and cut off the fresh water and firewood on shore. After days with no drinking water, the trapped, parched Song fleet was finished before the real fighting even started."
+        }
+      ],
+      "commonsFile": "Jingmen002.jpg"
     },
     {
       "id": "evt-lu-xiufu",
       "label": "Lu Xiufu",
       "year": 1279,
-      "description": "Lu Xiufu (1236–1279) was the senior Song minister who carried the boy emperor into the sea at Yamen. His suicide-loyalty became one of the most enduring images of the dynastic-loyalty ideal in later Chinese culture, repeatedly invoked across the Ming and Qing eras as the model of an official whose fidelity to a doomed dynasty outweighs survival.",
+      "description": "The senior Song minister who, with defeat certain at Yamen, bound the eight-year-old emperor to his back and walked into the sea rather than be captured. The act made him the model of total loyalty to a doomed dynasty for the next six centuries of Chinese culture.",
       "wikiSlug": "Lu_Xiufu",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Lu Xiufu came from Yancheng, in modern Jiangsu province on China's east coast, and earned his jinshi (the top degree in the empire's brutally competitive civil-service exams) in 1256 — the very same year as Wen Tianxiang, the other great loyalist of the Song collapse. By the end he was effectively prime minister to two boy emperors in a row, running a government that had no capital left and was floating on the navy. Before he jumped, he is said to have first forced his own wife and children into the sea, then put on his court robes to die properly dressed."
+        }
+      ],
+      "commonsFile": "陸秀夫.jpg"
     },
     {
       "id": "evt-khanbaliq",
       "label": "Khanbaliq Founded",
       "year": 1267,
-      "description": "Kublai began constructing a new capital on the site of modern Beijing in 1267, named Khanbaliq ('city of the Khan' in Mongolian) and Dadu ('great capital') in Chinese. The city was laid out on a grand Chinese imperial grid: nine north-south avenues, nine east-west avenues, central palace complex inside three concentric walls. It became China's permanent capital for the next seven centuries.",
+      "description": "Kublai's brand-new capital, begun in 1267 on the site of modern Beijing: Khanbaliq ('city of the Khan' in Mongolian), Dadu ('great capital') in Chinese. The Han architect Liu Bingzhong laid it out on the classic Chinese imperial grid, three concentric walls around a central palace, and the city it spawned has been China's capital, on and off, ever since.",
       "wikiSlug": "Khanbaliq",
       "tier": 1,
       "tags": [
         "architecture"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The scale was staggering for its day. The walls were rammed earth roughly 80 feet (24 m) thick at the base, pierced by eleven gates, and the whole urban footprint sprawled across an area later sources put at tens of thousands of acres. Liu Bingzhong did not just design buildings — he was a former Buddhist monk turned polymath who also helped run Kublai's government, and he laid the city out by fengshui geomantic rules (the Chinese art of siting buildings in harmony with the landscape). At its peak the city held somewhere around 200,000 residents, a number it could only sustain by shipping grain a thousand miles north."
+        }
+      ],
+      "commonsFile": "Map_of_Cambaluk.jpg"
     },
     {
       "id": "evt-grand-canal-extension",
       "label": "Grand Canal Northern Extension",
       "year": 1289,
-      "description": "Kublai extended and rerouted the Grand Canal between 1283 and 1293, cutting a new northern leg through Shandong directly to Khanbaliq. The new route shortened the southern grain shipment to the capital by hundreds of miles. Roughly 200,000 laborers were conscripted; the Tonghui Canal section reached Beijing in 1293.",
+      "description": "To feed a quarter-million people on a dry northern plain, Kublai rebuilt and rerouted the silted-up Grand Canal between 1283 and 1293, cutting a fresh northern leg through Shandong straight to the capital. Roughly 200,000 conscripted laborers dug it; the final stretch into Beijing opened in 1293.",
       "wikiSlug": "Grand_Canal_(China)",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The man who finished the job was Guo Shoujing (1231-1316), one of the great Chinese polymaths — an astronomer and mathematician as much as an engineer, who also built China's most accurate calendar of the age. His final segment, the Tonghui Canal, carried boats right into the heart of the city, with the lake at Shichahai (still a Beijing landmark today) as the northern terminus. The fully reconnected canal ran roughly 1,100 miles (1,794 km) from the capital down to Hangzhou — the longest artificial waterway on earth, and it remains so."
+        }
+      ],
+      "commonsFile": "Grand-Canal.png"
     },
     {
       "id": "evt-four-class-system",
       "label": "Four-Class Ethnic System",
       "year": 1271,
-      "description": "The Yuan formally classified its population into four legal castes: Mongols at the top, then Semu (Central Asians, Persians, Uyghurs, Arabs employed as tax-farmers and bureaucrats), then northern Han (former Jin subjects, including Khitan and Jurchen), and southern Han (former Southern Song subjects) at the bottom. The system governed taxation, judicial penalties, official appointments, and even seating at official ceremonies.",
+      "description": "From 1271 the Yuan sorted its subjects into four legal castes: Mongols on top, then the Semu (Central Asians, Persians, Uyghurs and other westerners used as bureaucrats), then northern Han (ex-Jin subjects), and at the bottom the southern Han (ex-Southern Song), the empire's most populous and richest group. The caste you were born into set your taxes, your punishments, your job ceiling, even where you sat at ceremonies.",
       "wikiSlug": "Yuan_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The legal gap was brutal in detail. Mongols and Semu were tried by their own Mongol high court and were exempt from the punishment of tattooing the face; Han were forbidden to own weapons, gather in crowds, hunt, or even keep hunting dogs and falcons, and in places were barred from going out at night for fear they would plot. A Mongol who killed a Han might owe only a fine, while a Han who struck a Mongol could face death. Some modern historians now argue the system was looser in daily life than the law codes suggest — there were Han generals and high officials — but the legal scaffolding was unmistakably built to keep the conquerors on top."
+        }
+      ]
     },
     {
       "id": "evt-semu-administration",
       "label": "Semu Administrative Class",
       "year": 1280,
-      "description": "Kublai filled the Yuan tax administration and treasury with Semu — Central Asian Muslims, Persians, Uyghurs, and others from the western half of the empire. The most notorious was Ahmad Fanakati, a Persian who ran the finance ministry until his assassination in 1282. Using foreign tax-farmers insulated the Mongol court from direct Han hostility but created its own resentments.",
+      "description": "Too few to run a country of 60 million themselves, the Mongols leaned on the Semu — Central Asian Muslims, Persians, and Uyghurs — to staff the treasury and tax bureaus. The most powerful was Ahmad Fanakati, a Persian who ran Yuan finances for two decades until his murder in 1282. Putting foreigners between the Mongol elite and Han taxpayers deflected resentment onto the middlemen.",
       "wikiSlug": "Semu",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ahmad's downfall was operatic. His political shield was Kublai's chief wife, Empress Chabi; when she died in 1281, his enemies pounced. In April 1282, with Kublai and the crown prince away at the summer capital, a Han official named Wang Zhu lured Ahmad into an ambush and killed him. Kublai's first instinct was to execute the assassins, but as he learned the depth of Ahmad's corruption his fury flipped — he had Ahmad's grave dug up and the body left out for dogs, and purged his family and cronies. Marco Polo, in Dadu at the time, recorded the whole affair, and his account broadly matches the Chinese records."
+        }
+      ],
+      "commonsFile": "Mongol_Rider_with_Administrator.jpg"
     },
     {
       "id": "evt-japan-invasion-1274",
       "label": "First Mongol Invasion of Japan",
       "year": 1274,
-      "description": "In November 1274, a Yuan fleet of roughly 900 ships and 25,000–30,000 troops sailed from Korea, sacked the islands of Tsushima and Iki, and landed at Hakata Bay. Japanese samurai counter-attacked; the Yuan force re-embarked and was caught by an autumn storm at sea that destroyed perhaps a third of its ships. The Japanese called the storm a divine intervention.",
+      "description": "In November 1274 a Yuan fleet of roughly 900 ships and 25,000–30,000 troops sailed from Korea, sacked the islands of Tsushima and Iki, and landed at Hakata Bay on Kyushu. Japanese samurai fought the invaders to a standstill on the beach; the Yuan force pulled back to its ships overnight and was wrecked by an autumn storm.",
       "wikiSlug": "Mongol_invasions_of_Japan",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tsushima's defense became legend: the local lord Sō Sukekuni rode out to meet the landing with only about 80 mounted samurai and was killed to the last man on Komoda beach on November 4. The fighting at Hakata is one of the best-documented medieval Japanese battles because a samurai named Takezaki Suenaga later commissioned an illustrated scroll, the Mōko Shūrai Ekotoba (around 1293), partly to lobby the government for a reward — it survives today and shows him being thrown from his wounded horse as a Mongol bomb bursts overhead. That bomb, the tetsuhō, was a ceramic-or-iron-shelled gunpowder grenade, a weapon no Japanese warrior had ever faced before."
+        }
+      ],
+      "commonsFile": "Mōko_Shūrai_Ekotoba_Mongol_Invasion_Mitsui_Sukenaga.jpg"
     },
     {
       "id": "evt-japan-invasion-1281",
       "label": "Second Mongol Invasion of Japan",
       "year": 1281,
-      "description": "The 1281 Kōan invasion was the largest amphibious operation in pre-modern history: roughly 4,400 ships and 140,000 men sailing from Korea and southern China. The two fleets converged at Hakata Bay where the Japanese had built a coastal stone wall blocking landing. After weeks of stalemate, a typhoon in August 1281 destroyed most of the fleet at sea. Tens of thousands drowned.",
+      "description": "The 1281 Kōan invasion was the largest seaborne assault in pre-modern history: roughly 4,400 ships and 140,000 men in two fleets, one from Korea and a far bigger one from southern China. The Japanese stone wall at Hakata Bay blocked any easy landing, and after weeks of offshore stalemate an August typhoon destroyed most of the fleet, drowning tens of thousands.",
       "wikiSlug": "Mongol_invasions_of_Japan",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Underwater archaeologists have actually found this fleet: the Takashima Kōzaki site off Nagasaki, declared Japan's first underwater National Historic Site in 2012, has yielded anchors, weapons, and ship timbers across roughly 95 acres of seabed. The wrecks tell a tale the legend leaves out — some hulls were solid Chinese ocean-going construction with iron nails, while others were lashed together so hastily they likely broke apart in any heavy sea. The southern fleet's troops were mostly Han Chinese conscripts from the south that Kublai had conquered from the Song only two years earlier, which is one reason he was willing to spend them so freely."
+        }
+      ],
+      "commonsFile": "Takezaki_suenaga_ekotoba3.jpg"
     },
     {
       "id": "evt-kamikaze",
       "label": "Kamikaze Divine Wind",
       "year": 1281,
-      "description": "The Japanese named the typhoons that wrecked the 1274 and 1281 Yuan fleets kamikaze (kah-mee-KAH-zay), 'divine wind,' interpreting them as the gods of Ise Shrine defending the home islands. The concept entered Japanese national mythology and was revived in the Pacific War of 1944–45 to describe suicide pilots — a much darker afterlife for a thirteenth-century word.",
+      "description": "The Japanese named the typhoons that wrecked the 1274 and 1281 Yuan fleets kamikaze (kah-mee-KAH-zay), \"divine wind,\" reading them as the gods defending the home islands. The idea became a permanent fixture of Japanese national mythology and was revived in 1944–45 to christen the suicide-pilot squadrons of the Pacific War.",
       "wikiSlug": "Kamikaze_(typhoon)",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "\"Kamikaze\" is actually the everyday Japanese reading of the characters; through most of history the formal pronunciation was the Chinese-derived shinpū, and the WWII suicide units were officially the shinpū tokubetsu kōgekitai (\"divine wind special attack corps\"). The word's poetic roots run even deeper — it began as a stock epithet attached to the Ise Shrine in ancient waka verse, long before any Mongol fleet. The conviction it bred, that Japan was shinkoku (the \"Land of the Gods\") and could not be successfully invaded, fed straight into the Tokugawa-era policy of sealing the country off from the outside world."
+        }
+      ],
+      "commonsFile": "Kikuchi_Yoosai_-_Mongol_Invasion_(mōko_shūrai)_-_Tokyo_National_Museum.jpg"
     },
     {
       "id": "evt-marco-polo",
       "label": "Marco Polo at Kublai's Court",
       "year": 1275,
       "endYear": 1295,
-      "description": "The Venetian merchant Marco Polo (1254–1324) traveled overland to China with his father Niccolò and uncle Maffeo, arriving at Kublai's court around 1275 and serving — by his own account — as a salt-tax administrator and itinerant inspector for seventeen years. His Description of the World, dictated in a Genoese prison around 1298, shaped European understanding of Asia for centuries and was carried by Columbus on his voyages.",
+      "description": "A young Venetian merchant traveled overland to Kublai's China around 1275 with his father and uncle, then spent seventeen years in Yuan service before sailing home. The book he later dictated became the most influential thing a European ever wrote about Asia.",
       "wikiSlug": "Marco_Polo",
       "tier": 1,
       "tags": [
         "trade"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Polo never actually wrote the book himself. He dictated it around 1298 while a prisoner of war in Genoa to a cellmate, the professional romance writer Rustichello da Pisa, who set it down in a Franco-Venetian literary hybrid (a blended written language used across northern Italy in that era). Venetians nicknamed it Il Milione, which doubles as either his family's name Emilione or a sneer that he lied \"by the millions.\" The text spread fast for a hand-copied age: a Dominican friar named Francesco Pipino translated it into Latin by 1302, and well over a hundred manuscript versions survive from before printing."
+        }
+      ],
+      "commonsFile": "Marco_Polo_-_costume_tartare.jpg"
     },
     {
       "id": "evt-rabban-sauma",
       "label": "Rabban Sauma's Western Embassy",
       "year": 1287,
-      "description": "Rabban Sauma (c. 1220–1294), a Nestorian Christian monk born in Khanbaliq to an Önggüd Turkic family, was sent west by the Ilkhan Arghun in 1287 to negotiate a Mongol-Christian alliance against the Mamluks. He met Pope Nicholas IV in Rome, Philip IV in Paris, and Edward I in Bordeaux — the first known person born in China to visit western Europe. His Syriac travel account survives and is the inverse mirror of Marco Polo's book.",
+      "description": "A Nestorian Christian monk born in Khanbaliq was sent west in 1287 by the Ilkhan Arghun (the Mongol ruler of Persia) to pitch a joint Mongol-Christian war against Egypt's Mamluks. He met the Pope and the kings of France and England, making him the first known China-born person to reach western Europe.",
       "wikiSlug": "Rabban_Bar_Sauma",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The diplomatic theater cut both ways: in Rome at Easter 1288, Pope Nicholas IV not only gave Sauma communion on Palm Sunday but let this eastern monk celebrate his own Mass in the heart of Latin Christianity. Philip IV of France hosted him for a month and sent a nobleman, Gobert de Helleville, to escort him home; Edward I of England, met at Bordeaux in his French lands, was enthusiastic but tied down by wars with the Welsh and Scots. The grand alliance went nowhere, and the Pope sent Sauma back carrying a jeweled tiara for his old traveling companion Markos, who by then had become Yahballaha III, head of the entire Church of the East."
+        }
+      ],
+      "commonsFile": "VoyagesOfRabbanBarSauma.jpg"
     },
     {
       "id": "evt-john-montecorvino",
       "label": "John of Montecorvino",
       "year": 1294,
       "endYear": 1328,
-      "description": "The Franciscan friar John of Montecorvino arrived at Kublai's court in 1294 — too late, the Khan died that year — and stayed in Khanbaliq under Temür Öljeitü as the first Catholic Archbishop of Beijing. He built two churches in the capital, translated the New Testament and the Psalms into a Mongol script, and reportedly converted several thousand Mongols and Önggüd Christians before his death in 1328.",
+      "description": "A Franciscan friar reached Khanbaliq in 1294, just missing the dying Kublai, and stayed thirty-four years as the first Catholic archbishop in China. He built churches in the capital, ran a choir of boys he had bought and trained, and reportedly baptized around 6,000 converts.",
       "wikiSlug": "John_of_Montecorvino",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Working alone for years, Montecorvino bought roughly 150 boys aged seven to eleven from non-Christian families, taught them Latin and Greek, and trained them to sing Mass. His translations of the New Testament and Psalms used the Uyghur script the Mongol court relied on, not Chinese. His star convert was Prince George of the Önggüd, a grandson-in-law of Kublai (his mother was Kublai's youngest daughter) whom legend tied to the mythical Christian king Prester John; George switched from Nestorian to Catholic Christianity before dying around 1298. Rome only formalized Montecorvino's archbishopric in 1307, when Pope Clement V dispatched seven bishops to consecrate him."
+        }
+      ],
+      "commonsFile": "Epistalae,_Giovanni_da_Montecorvino.png"
     },
     {
       "id": "evt-tibetan-buddhism-state",
       "label": "Tibetan Buddhism as State Religion",
       "year": 1270,
-      "description": "Kublai elevated Tibetan Buddhism — specifically the Sakya school under the Phagpa Lama — to the status of state religion at court. Phagpa was named Imperial Preceptor in 1270, given political authority over Tibet, and tasked with designing the universal Phags-pa script. Tibetan lamas dominated court religious ceremony, controlled Yuan-funded monasteries, and embedded Tibetan Buddhism permanently in the Sino-Mongolian sphere.",
+      "description": "Kublai made Tibetan Buddhism — the Sakya school led by the Phagpa Lama — the favored faith at his court. Phagpa was named Imperial Preceptor (the emperor's top religious adviser) in 1270 and given political authority over Tibet, binding Tibetan Buddhism into the Mongol state for centuries to come.",
       "wikiSlug": "Sakya_school",
       "tier": 2,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The relationship was framed as 'priest and patron' — the lama supplied spiritual legitimacy, the khan supplied worldly power and protection — a model Phagpa is credited with first theorizing for the Tibetan-Mongol world. Phagpa (full name Drogön Chögyal Phagpa, 1235-1280) was remarkably young for his role; he had first impressed Kublai years before the Yuan even existed, and was made preceptor as a man in his thirties. He stepped back to Tibet around 1274 and died there in 1280 under murky circumstances that some sources hint were a poisoning, his title passing to his own brother."
+        }
+      ],
+      "commonsFile": "Sakya_tibet2.jpg"
     },
     {
       "id": "evt-phagpa-script",
       "label": "Phags-pa Script",
       "year": 1269,
-      "description": "Kublai commissioned the Tibetan lama Drogön Chögyal Phagpa to design a phonetic alphabet capable of writing Mongolian, Tibetan, Chinese, and other empire languages in one notation. The Phags-pa script was promulgated in 1269 as the imperial universal script. It was used on coinage and seals but never displaced Chinese characters; its main long-term legacy is that fifteenth-century Korean scholars consulted it when designing Hangul.",
+      "description": "In 1269 Kublai rolled out a brand-new alphabet, designed on his order by the Tibetan lama Phagpa: a single phonetic script meant to write Mongolian, Chinese, Tibetan, and every other empire language in one notation. It turned up on coins and official seals but never replaced Chinese characters in everyday use.",
       "wikiSlug": "%27Phags-pa_script",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The script had 41 letters, was built off the Tibetan alphabet, and was written in vertical columns of neat square blocks — which earned it the nickname 'square script.' Its most surprising afterlife is a contested one: the linguist Gari Ledyard argued that when 15th-century Korean scholars invented Hangul, they borrowed a handful of basic letter shapes from Phags-pa. Ledyard himself stressed the borrowing was limited to about five letters, and other scholars dismiss even that as coincidence — so it is best treated as a tantalizing maybe, not a settled fact."
+        }
+      ],
+      "commonsFile": "Inner_Mongolia_Museum_replica_of_a_gold_imperial_paizi_with_Phags-pa_inscription.jpg"
     },
     {
       "id": "evt-yuan-zaju-drama",
       "label": "Yuan Zaju Drama",
       "year": 1280,
       "endYear": 1340,
-      "description": "Yuan zaju (DZAH-joo) was a four-act theatrical form combining sung arias, spoken dialogue, dance, and stylized movement. With the Confucian examination system suspended for most of Kublai's reign, displaced literati turned to playwriting; the result was the most flowering of Chinese vernacular drama before modern times. Roughly 160 zaju plays survive, by perhaps 100 named playwrights, performed across the Yuan capitals and in the southern entertainment districts.",
+      "description": "Yuan zaju (DZAH-joo) was the era's signature four-act stage form, weaving sung arias, spoken dialogue, dance, and stylized movement. With the Confucian exams suspended for most of the dynasty, out-of-work literati poured their talent into playwriting, producing the greatest flowering of Chinese vernacular drama before modern times.",
       "wikiSlug": "Zaju",
       "tier": 1,
       "tags": [
         "writing"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zaju ran on a strict rule that only one lead per act ever sang — either the zhengmo (chief male) or zhengdan (chief female) — while everyone else just spoke their lines, so a whole act could rest on a single performer's voice. Each act was technically defined by music, not plot: it was one song-suite locked to a single musical mode. Playwrights could bolt on short interludes called \"wedges\" (xiezi) to bridge the action. Yuan zaju is the direct ancestor of later Beijing, Cantonese, and regional folk operas, which descend from it through Ming-era theatrical reshuffling."
+        }
+      ],
+      "commonsFile": "Yuan_qu.jpg"
     },
     {
       "id": "evt-guan-hanqing",
       "label": "Guan Hanqing",
       "year": 1290,
-      "description": "Guan Hanqing (c. 1241–c. 1320) was the most prolific and most celebrated of the Yuan zaju playwrights, with about 60 plays attributed to him and 18 surviving. His best-known work, The Injustice to Dou E (Dou E Yuan), follows a young widow falsely executed for murder whose innocence is proven by impossible omens — snowfall in summer, three years of drought. The play remains a staple of Chinese opera in 2026.",
+      "description": "Guan Hanqing (c. 1241–c. 1320) was the most prolific and celebrated Yuan playwright — roughly 60 plays attributed to him, 18 surviving. His masterpiece, The Injustice to Dou E, follows a young widow wrongly executed for murder whose innocence is proven by impossible signs, and it is still performed and taught across China today.",
       "wikiSlug": "Guan_Hanqing",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Dou E is forced into a false confession only because torturers threaten to beat her aging mother-in-law instead — she confesses to spare the older woman. Before her execution she swears three oaths: her blood will fly upward onto a white banner rather than spill on the ground, snow will fall in midsummer to bury her body, and the district will suffer three years of drought. All three come true. The play is also known in English as Snow in Midsummer, and the phrase \"snow in June\" is still everyday Chinese shorthand for a gross miscarriage of justice. Guan is often ranked first among the \"Four Great Yuan Playwrights.\""
+        }
+      ],
+      "commonsFile": "Acteurs_sous_les_Yuan.jpg"
     },
     {
       "id": "evt-wang-shifu-romance",
       "label": "Romance of the Western Chamber",
       "year": 1300,
-      "description": "Wang Shifu's Romance of the Western Chamber (Xixiang Ji) is the most romantically influential Yuan zaju, dramatizing the love affair between a young scholar and a chancellor's daughter. The text broke conventional limits — five acts in the wenban version — and its sympathetic portrait of a sexually active female lead made it controversial in later Confucian moralism while embedding it in the Chinese literary canon for the next seven centuries.",
+      "description": "Wang Shifu's Romance of the Western Chamber (Xixiang Ji) is the dynasty's most influential love story, dramatizing the secret affair between the young scholar Zhang Sheng and Cui Yingying, a chief minister's daughter. Its frank, sympathetic portrait of a woman pursuing her own desire made it both wildly popular and a target of later Confucian moralists.",
       "wikiSlug": "Romance_of_the_Western_Chamber",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "It is far longer than a standard four-act zaju — about 21 acts across five parts — which is partly why it influenced the sprawling chuanqi dramas of the Ming and Qing. Wang also broke the genre's central rule by handing singing parts to several characters instead of just one lead. The plot was lifted from a Tang-era short story, Yingying's Biography, written around 800 by the poet Yuan Zhen — except Wang swapped the original's bleak ending for a happy reunion. Conservative households later banned it as a \"licentious book.\""
+        }
+      ],
+      "commonsFile": "闵齐伋绘刻西厢记彩图第十三.jpg"
     },
     {
       "id": "evt-yuan-vernacular-fiction",
       "label": "Yuan Vernacular Fiction",
       "year": 1320,
-      "description": "The Yuan period saw the consolidation of long-form vernacular Chinese prose fiction. The earliest stable forms of Romance of the Three Kingdoms and Water Margin — two of the four classic Chinese novels — date to late Yuan oral and written cycles, drawing on professional storyteller traditions that had matured in Song urban entertainment districts and were now being committed to print.",
+      "description": "The Yuan was when China's long-form vernacular novel jelled into written form. The earliest stable versions of Romance of the Three Kingdoms and Water Margin — two of the four great classic novels — took shape from late-Yuan storyteller cycles that had been maturing in Song urban tea-houses for generations.",
       "wikiSlug": "Classic_Chinese_Novels",
       "tier": 3,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Both books were written in baihua, everyday spoken Mandarin rather than the classical literary Chinese serious authors were expected to use — a choice scholars of the day actually looked down on. Water Margin tells of 108 outlaw-heroes who gather at the Liangshan Marsh under the leader Song Jiang; tradition splits authorship between Shi Nai'an (often credited with the first 70 chapters) and Luo Guanzhong, who is also named for Three Kingdoms. The full Water Margin grew to roughly 100 chapters and over a thousand pages, making it one of the longest novels in pre-modern world literature."
+        }
+      ]
     },
     {
       "id": "evt-quanzhou-port",
       "label": "Quanzhou the World Port",
       "year": 1290,
-      "description": "Quanzhou (chwan-JOH), called Zayton in Arabic and European sources, was the busiest port in the world during the Yuan. Marco Polo described 100 ships entering for every one entering Alexandria. Resident communities of Arab, Persian, Tamil, Armenian, and Latin Christian merchants supported mosques, Hindu temples, Manichaean shrines, and Catholic churches. Excavations since the 1970s have uncovered hundreds of stone inscriptions in Arabic, Tamil, Syriac, and Latin.",
+      "description": "Quanzhou (chwan-JOH) on China's southeast coast was the busiest port on earth under the Yuan, known to Arab and European traders as Zayton. Its harbor district held resident colonies of Arab, Persian, Tamil, Armenian, and Latin Christian merchants, each with its own mosques, temples, and churches.",
       "wikiSlug": "Quanzhou",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Qingjing Mosque, built around 1009 and modeled on the Great Mosque of Damascus, still stands and is one of the oldest mosques in China. Quanzhou is also the only city in the country to preserve remains of Hindu temples: in 1956 a Tamil-Chinese bilingual inscription was unearthed there, left by a Tamil community that dedicated a shrine to the god Shiva. The Arabic name Zayton (meaning olive) is most likely the root of the English word satin, the cloth that shipped out of its docks."
+        }
+      ],
+      "commonsFile": "Quanzhou_Luoyang_Bridge_20170727.jpg"
     },
     {
       "id": "evt-pax-mongolica-trade",
       "label": "Pax Mongolica Trade Network",
       "year": 1280,
       "endYear": 1340,
-      "description": "Yuan rule over China, the Ilkhanate over Persia, the Chagatai Khanate over Central Asia, and the Golden Horde over the Pontic-Caspian steppe produced the most integrated Eurasian commercial network of the pre-modern era. The Mongol Yam postal system extended from Hungary to Korea. Italian, Armenian, Arab, Persian, and Chinese merchants moved across the entire continent under Mongol passport-of-passage tablets called paiza.",
+      "description": "With four Mongol khanates ruling from Korea to the Black Sea, late-1200s Eurasia became the most connected commercial space the pre-modern world ever managed. Merchants of every background moved continent-wide under Mongol authority, and goods, money, and ideas flowed both directions.",
       "wikiSlug": "Pax_Mongolica",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The travel that made it work ran on the paiza (also called gerege), a metal tablet that functioned as passport, expense account, and police protection in one. Rank showed in the material: gold for top elites, silver for mid-level officials, iron for ordinary messengers. A paiza-holder could demand free lodging, food, and fresh horses, skip tolls and taxes, and not be detained without cause. The khans handed them to favored foreign merchants too, deliberately luring traders and skilled outsiders across the empire to fatten the overland trade."
+        }
+      ],
+      "commonsFile": "Caravane_Marco_Polo.jpg"
     },
     {
       "id": "evt-ibn-battuta-china",
       "label": "Ibn Battuta in China",
       "year": 1345,
-      "description": "The Moroccan jurist Ibn Battuta (1304–1369) reached Quanzhou in roughly 1345 during his decades-long Eurasian and African travels. His Rihla describes the Yuan capital, Zayton's harbor, the use of paper money, and the Muslim merchant community. His total reported journey of 75,000 miles is the longest documented pre-modern travel.",
+      "description": "The Moroccan jurist Ibn Battuta (1304-1369) reached Quanzhou around 1345 near the end of a thirty-year journey across Africa and Asia. His travel memoir, the Rihla, describes Zayton's harbor packed with junks (large Chinese sailing ships), the workshops turning out silk and porcelain, and the strange Chinese habit of using paper for money.",
       "wikiSlug": "Ibn_Battuta",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Battuta set out from Tangier in 1325 as a 21-year-old bound for Mecca and did not get home until 1354, by which point he had covered something like 75,000 miles, far more than Marco Polo. He never actually wrote the Rihla himself: back in Morocco the Marinid sultan assigned a scholar named Ibn Juzayy to take it all down by dictation in 1356-57. A small puzzle stuck with him in China: locals called the city Zaytun, the Arabic word for olive, yet he could not find a single olive tree anywhere."
+        }
+      ],
+      "commonsFile": "Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg"
     },
     {
       "id": "evt-paper-money-yuan",
       "label": "Yuan Paper Money System",
       "year": 1287,
-      "description": "The Yuan ran the world's first nationwide fiat paper currency. Kublai's Zhongtong notes (1260) and the Zhiyuan reform notes (1287) were issued without metal backing and made the only legal tender for major transactions. The system worked for decades and astonished European visitors like Marco Polo, then collapsed into hyperinflation in the 1350s when the late Yuan over-printed to cover military deficits.",
+      "description": "The Yuan ran the world's first empire-wide paper currency, the jiaochao (jyow-CHOW). Kublai's Zhongtong notes of 1260 and the Zhiyuan reform of 1287 were made the only legal tender for large deals, then the late Yuan over-printed them into worthless paper by the 1350s.",
       "wikiSlug": "Jiaochao",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kublai actually issued two kinds of note in 1260: a July version backed by silk that flopped, and an October version pegged to silver that stuck. Historians split the system into three slow-sliding phases: full silver convertibility (1260-1276), nominal convertibility (to about 1309), and pure fiat after that. A 1309 emperor briefly tried to rescue confidence with the Zhida notes, strictly limited and backed at one tael of silver each, but the discipline never lasted. The Ming founders watched the collapse and printed their own paper far more cautiously before giving up on it for silver coin."
+        }
+      ],
+      "commonsFile": "Yuan_dynasty_banknote_with_its_printing_plate_1287.jpg"
     },
     {
       "id": "evt-black-death-origins",
       "label": "Black Death Origin",
       "year": 1346,
-      "description": "Modern genetic and palaeopathological studies trace the Yersinia pestis strain that caused the European Black Death of 1346–1353 to a probable origin in Inner Asia, with phylogenetic dating placing the most recent common ancestor in the early-to-mid fourteenth century. The Mongol caravan network and the Yam postal system are the most plausible vector by which the bacterium reached the Crimean port of Kaffa, where the Mongol siege of 1346 launched the disease into the Mediterranean.",
+      "description": "The bacterium Yersinia pestis, which caused the European Black Death of 1346-1353, almost certainly came out of Inner Asia and rode the Mongol trade and postal routes west. It reached the Mediterranean through the Crimean port of Kaffa, where a Mongol siege in 1346 launched it into European shipping.",
       "wikiSlug": "Black_Death",
       "tier": 1,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A 2022 study cracked the origin point: ancient DNA pulled from skeletons in two cemeteries near Lake Issyk-Kul in present-day Kyrgyzstan, in the Tian Shan mountains, carried the direct ancestor of the pandemic strain. The graves recorded a sharp death spike in 1338-1339, eight years before the plague hit the Black Sea, and the tombstones even gave researchers the year. The strains living today that most closely match it are still found in rodent populations right around those same mountains."
+        }
+      ]
     },
     {
       "id": "evt-yuan-astronomy",
       "label": "Yuan Astronomy and Guo Shoujing",
       "year": 1281,
-      "description": "Guo Shoujing (1231–1316), the Yuan court astronomer, built one of the most accurate observatories of the medieval world at Khanbaliq. His Shoushi calendar of 1281 calculated the tropical year at 365.2425 days — within 26 seconds of the modern value, and the same value the Gregorian calendar would adopt three hundred years later. Persian astronomers from the Maragha observatory in the Ilkhanate worked alongside him, exemplifying Pax Mongolica scientific exchange.",
+      "description": "Guo Shoujing (1231-1316), the Yuan court astronomer, ran one of the medieval world's best observatory programs. His Shoushi calendar of 1281 fixed the year at 365.2425 days, off the true value by only about 26 seconds and identical to what the Gregorian calendar adopted three centuries later.",
       "wikiSlug": "Guo_Shoujing",
       "tier": 2,
       "tags": [
         "people"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The calendar was no desk calculation: Guo and his colleague Wang Xun built and staffed 27 observation stations spread across China, measuring the height of the celestial pole, the length of day and night, and the noon shadow of a giant gnomon at each one. Kublai personally gave the finished calendar its name, Shoushi, meaning Granting the Seasons, and it went into official use in 1281. Guo measured the solstice using a shadow technique pioneered by the Chinese mathematician Zu Chongzhi some eight centuries earlier."
+        }
+      ],
+      "commonsFile": "Guo_Shoujing-beijing.jpg"
     },
     {
       "id": "evt-jamal-al-din-ilkhanate",
       "label": "Persian Astronomers at Khanbaliq",
       "year": 1267,
-      "description": "Jamal al-Din, a Persian astronomer dispatched from the Maragha observatory in the Ilkhanate, arrived at Khanbaliq in 1267 carrying instruments — armillary spheres, terrestrial globes, sundials — and astronomical tables for Kublai's new bureau of mathematics. The exchange ran both directions: Chinese herbal pharmacology, porcelain technology, and gunpowder weapons traveled west along the same conduit.",
+      "description": "Jamal al-Din, a Persian astronomer originally from Bukhara, arrived at Kublai's capital in 1267 carrying instruments and tables to staff a new Islamic astronomical bureau running alongside the Chinese one. Knowledge flowed both ways along this route, with Chinese pharmacology and gunpowder heading west.",
       "wikiSlug": "Jamal_ad-Din_Bukhari",
       "tier": 3,
       "tags": [],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He brought seven instruments, sent as a gift from Hulagu Khan (Kublai's brother, who ruled Persia): an armillary sphere, a parallactic ruler over eight feet tall, a celestial globe, an astrolabe, two large sundials, and a terrestrial globe. That globe is the earliest known reference to a spherical model of the Earth in Chinese astronomy. He also handed over an astronomical almanac that the Chinese came to call the Wannian Li, the Ten Thousand Year Calendar."
+        }
+      ],
+      "commonsFile": "Astrolabe,_Isfahan,_Iran,_1102-3,_Museo_Galileo_Florence.jpg"
     },
     {
       "id": "evt-yuan-medical-exchange",
       "label": "Yuan Medical and Botanical Exchange",
       "year": 1290,
-      "description": "The Yuan Imperial Library of Muslim Medicine, the Huihui Yaofang, compiled Persian and Arabic pharmacology in Chinese translation — a 36-volume manuscript that remains one of the great cross-cultural medical texts. Ilkhanate vizier Rashid al-Din simultaneously commissioned Chinese medical knowledge to be translated into Persian.",
+      "description": "The Yuan court library compiled the Huihui Yaofang (hwee-HWEE yow-FAHNG), a Chinese-language encyclopedia of Persian and Arabic drug recipes. It was the eastern half of a two-way medical exchange, with Chinese medicine traveling the other direction into Persia.",
       "tier": 3,
       "tags": [
         "trade"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Only about 15 percent of the original survives, in fragments from a Ming-era edition, but even those leftover chapters list 517 medicines carrying Arabic or Persian names, each spelled out in Chinese characters alongside the original script. One surviving chapter alone, on so-called wind diseases, covers 199 of those drugs. Scholars stress it was not a straight translation of any single Arabic book but a fresh encyclopedia stitched together from many Persian and Arabic medical texts that had reached China."
+        }
+      ]
     },
     {
       "id": "evt-blue-and-white-porcelain",
       "label": "Blue-and-White Porcelain",
       "year": 1320,
-      "description": "Yuan kilns at Jingdezhen perfected the technique of underglaze cobalt-blue painting on white porcelain — the cobalt itself imported from Persian sources via the Mongol trade routes. Yuan blue-and-white was made primarily for export to Islamic markets in the Middle East; the iconic Chinese-Islamic ceramic that defined later Ming porcelain was a Yuan-era invention driven by Pax Mongolica commerce.",
+      "description": "The kilns at Jingdezhen (jing-deh-JEN) perfected underglaze cobalt-blue painting on white porcelain, using cobalt shipped in from Persia. This blue-and-white ware was built for export to Islamic markets and became the look the whole world would later call Chinese porcelain.",
       "wikiSlug": "Blue_and_white_pottery",
       "tier": 2,
       "tags": [
         "trade"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Chinese called the imported Persian pigment huihui qing, literally Muslim blue. The single most important dated pieces are the David Vases, a matched pair carrying an inscription dated 1351 that names the donor and temple; they anchor the entire chronology of early blue-and-white and now sit in the British Museum. Workshops in the Hutian district near Jingdezhen specialized in oversized plates and jars with dense layered patterns, made specifically for the communal-feast dining of Middle Eastern buyers rather than for Chinese taste."
+        }
+      ],
+      "commonsFile": "Blue_and_white_vase_1271_1368_Jingdezhen_unearthed_in_Jiangxi_Province.jpg"
     },
     {
       "id": "evt-zhao-mengfu",
       "label": "Zhao Mengfu",
       "year": 1300,
-      "description": "Zhao Mengfu (1254–1322), a descendant of the Song imperial family who chose to serve the Yuan, became the most influential painter and calligrapher of the dynasty. His revival of Tang and pre-Tang brushwork models, his calligraphy in regular and running scripts, and his horse paintings shaped Chinese visual art for the next four centuries. His decision to serve a foreign dynasty made him controversial in later Ming and Qing moral commentary.",
+      "description": "Zhao Mengfu (1254–1322), a descendant of the Song imperial house who chose to serve the Mongol Yuan, became the dynasty's most influential calligrapher and painter. His call to revive ancient brushwork models and his austere, ink-driven landscapes reshaped Chinese visual art for centuries — though his service to foreign conquerors dogged his reputation in later moral commentary.",
       "wikiSlug": "Zhao_Mengfu",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Zhao worshipped the fourth-century \"Sage of Calligraphy\" Wang Xizhi, even painting a scroll titled Four Anecdotes from the Life of Wang Xizhi, now at the Metropolitan Museum of Art. He was a native of Wuxing (modern Huzhou, Zhejiang). His best-known landscape, Autumn Colors on the Que and Hua Mountains, survives in the National Palace Museum in Taipei. He was also a multi-talent: an accomplished poet and, by reputation, a fine musician, and his wife Guan Daosheng was herself a celebrated painter of bamboo."
+        }
+      ],
+      "commonsFile": "趙魏公小像.jpg"
     },
     {
       "id": "evt-huang-gongwang",
       "label": "Yuan Literati Painting",
       "year": 1340,
-      "description": "The Four Yuan Masters of landscape painting — Huang Gongwang, Wu Zhen, Ni Zan, and Wang Meng — pulled away from the colored, highly finished Song court tradition toward austere, ink-only landscapes painted by educated literati for fellow literati. Huang Gongwang's Dwelling in the Fuchun Mountains, completed in 1350 after three years of work, became the foundational masterpiece of literati painting and shaped Chinese landscape art into the twentieth century.",
+      "description": "The Four Yuan Masters — Huang Gongwang, Wu Zhen, Ni Zan, and Wang Meng — turned away from the colored, polished Song court style toward austere ink landscapes painted by literati for fellow literati. Huang Gongwang's Dwelling in the Fuchun Mountains became the founding masterpiece of the literati landscape tradition that dominated Chinese art into the twentieth century.",
       "wikiSlug": "Huang_Gongwang",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Huang (1269–1354) didn't take up painting seriously until late in life, after a stint in prison ended any official career; he finished the Fuchun scroll in his eighties. The full work originally ran about 22.7 feet (6.9 m) long. In 1650 a devoted owner tried to have it burned on his deathbed so it could join him in the afterlife — his nephew snatched it from the flames, but not before it split into two pieces. Today one half, renamed The Remaining Mountains, sits in the Zhejiang Provincial Museum and the larger Master Wuyong Scroll in Taipei's National Palace Museum; the two were briefly reunited for a landmark 2011 exhibition."
+        }
+      ],
+      "commonsFile": "黃公望像.jpg"
     },
     {
       "id": "evt-yuan-keshig-guard",
@@ -450,139 +676,221 @@
       "id": "evt-examination-suspended",
       "label": "Civil Examinations Suspended",
       "year": 1271,
-      "description": "Kublai suspended the Confucian civil-service examination system that had organized Chinese government recruitment since the Sui-Tang. Han literati could no longer climb the bureaucracy through merit-tested classical learning. The examinations were not restored until 1315, and even then the quotas were ethnically rigged to favor Mongols and Semu over Han. The suspension is the single decision that drove most Yuan literary energy into drama, fiction, and painting.",
+      "description": "Kublai shut down the Confucian civil-service exams — the merit test that had funneled educated men into government since the 600s — leaving the entire Han scholar class locked out of the official career ladder. They were not restored until 1315, and even then rigged to favor Mongols and Semu. More than any other single policy, this is what pushed Yuan literary talent into drama, fiction, and painting instead.",
       "wikiSlug": "Imperial_examination",
       "tier": 2,
       "tags": [
         "writing"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The gap was the longest in the exams' thousand-year history — roughly 80 years with no testing at all in north China. When Kublai's grandson Renzong finally revived them in 1315, the rigging was right there in the numbers: the provincial quota was set at 300 candidates, split as 75 from each of the four castes — which meant the Mongols and Semu, perhaps a few percent of the population, got half the seats, while the Han majority of tens of millions fought over the other half. The degrees awarded each cycle were a tiny trickle compared to the Song, which had passed hundreds at a time."
+        }
+      ],
+      "commonsFile": "Examination_hall,_Peking.jpg"
     },
     {
       "id": "evt-temur-oljeitu",
       "label": "Temür Öljeitü",
       "year": 1294,
       "endYear": 1307,
-      "description": "Kublai's grandson Temür Öljeitü (Chinese: Chengzong) succeeded the founder and ruled for thirteen years of relative stability, ending the Mongol invasions, easing tax pressure on the south, and tolerating the resumed influence of Han bureaucrats. He was the last Yuan emperor whose authority was uncontested at his death.",
+      "description": "Kublai's grandson Temür Öljeitü (Chinese reign name Chengzong) took the throne in 1294 and ruled thirteen comparatively calm years. He wound down Kublai's ruinous foreign wars, cut taxes on the exhausted south, and let Han bureaucrats regain some influence. He was the last Yuan emperor whose succession wasn't a bloody scramble.",
       "wikiSlug": "Temur_Khan",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Temür leaned hard into fiscal repair after Kublai's spending sprees: he halted the costly campaigns against Japan, Vietnam (Đại Việt), and Burma by around 1297, and even waived a full year's taxes for the capital cities of Khanbaliq and Shangdu. The calm did not outlast him. His only son, Deshou, died in January 1306, so when Temür himself died in February 1307 the dynasty had no clear heir — and the throne plunged into exactly the kind of succession bloodletting he had managed to avoid, a chaos that would gnaw at the Yuan for the rest of its days."
+        }
+      ],
+      "commonsFile": "YuanEmperorAlbumTemurOljeituPortrait.jpg"
     },
     {
       "id": "evt-yuan-succession-chaos",
       "label": "Post-Kublai Succession Chaos",
       "year": 1307,
       "endYear": 1333,
-      "description": "Between Temür Öljeitü's death in 1307 and Toghon Temür's accession in 1333, the Yuan throne changed hands nine times. Empress dowagers, eunuchs, and rival keshig factions assassinated emperors, deposed regents, and split the Mongol nobility into permanently hostile camps. Two emperors were murdered in 1323. The institutional damage was permanent.",
+      "description": "After the stable thirteen-year reign of Temür Öljeitü ended in 1307, the Yuan throne became a prize fought over by empress dowagers, eunuchs, and rival palace-guard factions. Over the next twenty-six years it changed hands nine times, with emperors and regents murdered in a near-continuous court bloodbath.",
       "wikiSlug": "Yuan_dynasty",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The bloodiest break came in 1323 at a place called Nanpo, on the road between the summer capital Shangdu and the main capital Dadu (Khanbaliq). A clique led by Tegshi (the adopted son of a recently purged grand councillor) ambushed and killed the young emperor Yingzong, who was only twenty-one, in his tent. The plotters then invited a distant prince, Yesün Temür, to take the throne — but he turned on them almost at once, executing Tegshi's whole faction before he even reached the capital, because he had no intention of ruling as anyone's puppet. It was the first time in Yuan history an emperor had been overthrown by someone outside the Mongol royal Borjigin line, and it broke whatever remained of the taboo against killing a sitting khan."
+        }
+      ],
+      "commonsFile": "MongolMap.jpg"
     },
     {
       "id": "evt-yellow-river-floods",
       "label": "Yellow River Floods of 1344",
       "year": 1344,
-      "description": "In 1344 the Yellow River broke its banks catastrophically in Shandong and Henan, drowning huge stretches of farmland and forcing the river to change course. The chief minister Toqto'a undertook a massive forced-labor project in 1351 to redirect the river — conscripting 150,000 peasants and 20,000 soldiers in conditions so brutal that the conscripts joined the Red Turban rebellion en masse. The floods directly triggered the dynasty's collapse.",
+      "description": "In 1344 the Yellow River burst its banks in a disaster severe enough to shove the entire river south of the Shandong Peninsula, drowning vast tracts of farmland and cutting the Grand Canal that fed grain to the capital. The minister Toqto'a's 1351 fix — a giant forced-labor dredging project — instead handed the Red Turban rebels their first army.",
       "wikiSlug": "Yellow_River",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "science"
+      "category": "science",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Toqto'a's river project, launched in April 1351, was staggering in scale: alongside the 150,000 conscripted laborers and 20,000 soldiers, the treasury poured in over 1.8 million yastuq (ingots) of paper money to pay for it — a sum the failing currency could barely cover. The goal was to carve a brand-new channel and reopen the Grand Canal linking the rich Jiangnan south to Dadu in the north. The engineering actually worked, but it never mattered: rebellion erupted across the very provinces the conscripts came from before the canal could be put back in service, and the project's true legacy was the riot of grievances it created rather than the river it tamed."
+        }
+      ],
+      "commonsFile": "Ma_Yuan_-_Water_Album_-_The_Yellow_River_Breaches_its_Course.jpg"
     },
     {
       "id": "evt-yuan-hyperinflation",
       "label": "Yuan Currency Collapse",
       "year": 1350,
-      "description": "By the 1340s and 1350s the Yuan paper currency, over-printed to fund military operations and famine relief, lost most of its purchasing power. The 1350 reform issued new notes at radically debased exchange rates and accelerated rather than halted the collapse. Tax-paying peasants who had accepted paper money were ruined; the state's fiscal capacity to suppress rebellions evaporated.",
+      "description": "The Yuan had run a paper-money economy for nearly a century, but by the 1340s decades of over-printing had gutted the notes' value against silver. The 1350 currency reform, meant to steady the system, instead confirmed to everyone that the paper was worthless and drained away the state's ability to pay its soldiers or feed the starving.",
       "wikiSlug": "Jiaochao",
       "tier": 3,
       "tags": [
         "wars"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The new 1350 notes, called the Zhizheng jiaochao, were pure fiat money — backed by nothing, not redeemable in silver or copper — and the public simply refused them, hoarding old bronze coins instead. The printing presses then ran wild: within roughly two years the annual issue of notes ballooned from about 20 million to 50 million ding (a ding was a large unit of account). Economists today treat late-Yuan China as one of the earliest and best-documented cases of a fiat currency dying of hyperinflation, the pre-modern cousin of Weimar Germany or Zimbabwe — a state printing money to cover bills it could pay no other way, until the money meant nothing at all."
+        }
+      ]
     },
     {
       "id": "evt-white-lotus-society",
       "label": "White Lotus Society",
       "year": 1340,
-      "description": "The White Lotus Society was a millenarian Buddhist movement that taught that Maitreya — the future Buddha — would soon arrive to overthrow the corrupt world. The doctrine was an inviting frame for late-Yuan peasant rebellion. White Lotus organizers seeded most of the major insurgencies of the 1350s and provided the Red Turban movement its ideological core.",
+      "description": "The White Lotus Society was an underground religious movement preaching that Maitreya, the future Buddha, was about to descend and sweep away the rotten present world for a paradise of the faithful. For desperate late-Yuan peasants it was a ready-made script for revolt, and its organizers became the connective tissue of the rebellions that toppled the dynasty.",
       "wikiSlug": "White_Lotus_Societies",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The sect's roots reach back to the Pure Land Buddhism of the monk Huiyuan (334–416), and a monk named Mao Ziyuan gave it organized shape in the 12th century by building a \"Lotus Repentance Hall\" to link scattered congregations. Oddly, the early Yuan court actually recognized and even sponsored the White Lotus before later banning it as heterodox and forcing it underground. By then its teachings had absorbed strands of Chinese Manichaeism (a dualist faith of light against darkness, which fed the rebels' talk of a coming \"King of Light\") and folk religion, layered onto the Maitreya hope and a strict vegetarian discipline — a syncretic brew that made it both spiritually intense and very hard for the state to stamp out."
+        }
+      ],
+      "commonsFile": "White_Lotus_Society_(cropped).jpg"
     },
     {
       "id": "evt-red-turban-rebellions",
       "label": "Red Turban Rebellions",
       "year": 1351,
       "endYear": 1368,
-      "description": "The Red Turban rebellions exploded in 1351 across Henan, Anhui, and Shandong, recruiting from peasants conscripted onto the Yellow River project, displaced refugees, and millenarian White Lotus believers. The Red Turban label referred to the red headbands the rebels wore, partly identifying with the future Buddha. By 1356, multiple regional Red Turban warlords controlled most of central and southern China.",
+      "description": "In 1351 the Red Turban rebellions erupted across Henan, Anhui, and Shandong, drawing recruits from the brutalized Yellow River conscripts and the millenarian faithful of the White Lotus. The fighters tied red cloth around their heads — the color of the coming Buddha and of fire — and within five years their warlords held much of central and southern China.",
       "wikiSlug": "Red_Turban_Rebellions",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The spark came from the White Lotus organizer Han Shantong, who teamed with his lieutenant Liu Futong to recruit among the disgruntled river laborers and proclaim the Buddha Maitreya's return. The Yuan caught and executed Han Shantong almost immediately, but his son Han Lin'er — billed as the \"Little Prince of Radiance\" and a descendant of the old Song royal house — escaped with Liu. On 16 March 1355, at Bozhou in western Anhui, they crowned Han Lin'er emperor of a self-styled restored Song dynasty, giving the scattered rebels a flag and a claimant to rally behind. Among the lesser officers rising through this chaos was a former peasant orphan named Zhu Yuanzhang, who would outlast them all and found the Ming."
+        }
+      ],
+      "commonsFile": "Red_Turban.png"
     },
     {
       "id": "evt-toghon-temur",
       "label": "Toghon Temür Last Yuan Emperor",
       "year": 1333,
       "endYear": 1370,
-      "description": "Toghon Temür (Chinese: Shundi), Kublai's great-great-grandson, was the last Yuan emperor in China. He ruled in name from 1333; effective power lay with rival ministers and eunuchs. He fled Khanbaliq in 1368 as Ming forces approached, retreated to the steppe, and continued claiming the Yuan title from Mongolia until his death in 1370 — the founding moment of the rump Northern Yuan.",
+      "description": "Toghon Temur (Chinese name Shundi), a great-great-grandson of Kublai Khan, was the last Yuan emperor to rule from China. He held the throne in name from 1333 while ministers and eunuchs ran things, then fled north in 1368 and kept claiming the Yuan title from the steppe until he died.",
       "wikiSlug": "Toghon_Temur",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was born May 25, 1320 and came to power in 1333 as a teenager after a string of poisonings and coups had churned through the throne. After abandoning the capital he didn't stop running: the Ming took his summer city of Shangdu (Kublai's old Xanadu) in 1369, pushing him further north to Yingchang in what is now Inner Mongolia, where he died on May 23, 1370, two days short of fifty. His son Ayushiridara succeeded him and kept the rump regime, the Northern Yuan, alive on the steppe."
+        }
+      ],
+      "commonsFile": "元順帝妥歡帖木兒_Emperor_Shun_of_Yuan_Toghon_Temür.png"
     },
     {
       "id": "evt-zhu-yuanzhang",
       "label": "Zhu Yuanzhang",
       "year": 1352,
       "endYear": 1398,
-      "description": "Zhu Yuanzhang (joo yu-ahn-JAHNG, 1328–1398) was born to landless peasants in Anhui, lost his parents to plague and famine at sixteen, became a Buddhist novice, then joined the Red Turban rebels in 1352. Brilliant, paranoid, and ruthless, he outmaneuvered every rival warlord, took Nanjing in 1356, and proclaimed the Ming dynasty in 1368 as the Hongwu Emperor. He is the only Chinese founding emperor of pure peasant birth.",
+      "description": "Zhu Yuanzhang (joo yu-ahn-JAHNG, 1328-1398) was the dirt-poor orphan who clawed his way from begging monk to Red Turban soldier to founder of the Ming dynasty. The only Chinese founding emperor of pure peasant birth, he was as brilliant as he was paranoid and ruthless.",
       "wikiSlug": "Hongwu_Emperor",
       "tier": 1,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was born October 21, 1328 in Zhongli village near Haozhou (today Fengyang, in Anhui), the youngest of four sons. He didn't learn to read until his twenties, picking it up from the monks he lived with, yet he ended up personally drafting laws and writing his own essays as emperor. His wife, the Empress Ma, was the adopted daughter of his first commander Guo Zixing, and is remembered as one of the rare consorts who could talk him out of his murderous rages. He died June 24, 1398 at age sixty-nine, having outlived his own heir."
+        }
+      ],
+      "commonsFile": "Portrait_assis_de_l'empereur_Ming_Taizu.jpg"
     },
     {
       "id": "evt-fall-khanbaliq",
       "label": "Ming Capture of Khanbaliq",
       "year": 1368,
-      "description": "On September 14, 1368, Ming forces under General Xu Da approached Khanbaliq. Toghon Temür abandoned the city overnight and fled north into the steppe with his court. The Ming entered the next day without resistance. The Yuan dynasty as a Chinese dynasty ended after 97 years; the surviving rump in Mongolia, the Northern Yuan, would persist as a steppe political entity for two centuries more.",
+      "description": "In September 1368, Ming general Xu Da marched on Khanbaliq (the Yuan capital, modern Beijing). Toghon Temur slipped away overnight, and the Ming army walked in unopposed. Mongol rule over China proper was finished after 97 years.",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Xu Da had started the northern push from Kaifeng in mid-August 1368, taking the river town of Tongzhou on the approach before the capital fell on September 14. The takeover was almost bloodless because most Yuan officials simply surrendered or ran. The Ming promptly renamed the city Beiping, meaning \"Pacified North\"; it would not become Beijing (\"Northern Capital\") until decades later, when Zhu Yuanzhang's son the Yongle Emperor moved the throne back there. Xu Da, a boyhood friend of the emperor, became the Ming's most decorated general."
+        }
+      ]
     },
     {
       "id": "evt-ming-founded",
       "label": "Ming Dynasty Founded",
       "year": 1368,
-      "description": "Zhu Yuanzhang proclaimed the Ming (meaning 'bright') dynasty at Nanjing in January 1368 and took the reign name Hongwu ('Vastly Martial'). His new state restored the Confucian examinations, reasserted Han ethnic supremacy in the bureaucracy, repudiated Mongol legal categories, and quickly relaunched the rituals and institutional language of the Tang and Song.",
+      "description": "On January 23, 1368, at Nanjing, Zhu Yuanzhang proclaimed the Ming (meaning \"bright\") dynasty and took the reign title Hongwu, \"Vastly Martial.\" The new regime restored the Confucian exams, put Han officials back on top, and threw out Mongol legal categories.",
       "wikiSlug": "Ming_dynasty",
       "tier": 2,
       "tags": [
         "rulers"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Hongwu's relationship with the famous civil-service exams was rocky: he restarted them in 1370, scrapped them again in 1372 because he preferred hand-picking officials, then revived them for good in 1384. The version that stuck locked candidates into the rigid Eight-Legged Essay format, an answer built in eight prescribed sections and held to roughly 700 characters, which would shape Chinese government recruitment until the exams were finally abolished in 1905. He also walled Nanjing in, ringing the city with a rampart that ran some 30 miles (about 48 km), among the longest city walls ever built."
+        }
+      ],
+      "commonsFile": "Map_of_Ming_Chinese_empire_1415_(cropped_2).jpg"
     },
     {
       "id": "evt-yam-postal-system",
       "label": "Yam Postal Network",
       "year": 1280,
-      "description": "The Yam was the Mongol relay-station network — staffed posts spaced 25 to 30 miles apart along major routes, stocked with horses, food, and lodging for messengers carrying paiza tablets. Under the Yuan it linked Khanbaliq to every Mongol khanate and to provincial capitals across China. Marco Polo described 10,000 stations in Yuan service. The collapse of the Yam in the 1340s was an early structural sign of dynastic failure.",
+      "description": "The Yam was the Mongol relay-courier network: staffed stations roughly a day's hard ride apart, each stocked with horses, beds, and provisions for travelers carrying the right credentials. It tied Khanbaliq to the far corners of the empire and was the nervous system of Mongol rule.",
       "wikiSlug": "%C3%96rt%C3%B6%C3%B6",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Genghis Khan founded the system, and it ballooned under his heirs; by the late 1200s Marco Polo reckoned some 10,000 stations and over 300,000 horses across Asia. Inside China proper the numbers were tighter but still huge, with more than 1,400 stations and around 50,000 horses by the end of Kublai's reign. Polo gushed that each post was a handsome building with fine silk-dressed beds, fit for a king. A relay rider switching to a fresh mount at every stop could cover ground at a pace Europe would not match for centuries."
+        }
+      ],
+      "commonsFile": "Yuan_dynasty_gold_paizi_(replica).jpg"
     },
     {
       "id": "evt-yuan-shi-history",
@@ -600,23 +908,37 @@
       "id": "evt-koryo-vassal",
       "label": "Goryeo as Yuan Vassal",
       "year": 1270,
-      "description": "After three decades of Mongol invasions the Korean Goryeo dynasty submitted to the Yuan in 1270. Goryeo kings married Yuan princesses, sent princes as hostages to Khanbaliq, supplied ships and crews for both Japan invasions, and adopted Yuan court protocol. The arrangement persisted for nearly a century until the late Yuan collapse allowed Goryeo to reassert independence under King Gongmin.",
+      "description": "After three decades of Mongol invasions the Korean Goryeo dynasty submitted to the Yuan in 1270, becoming the empire's son-in-law state: it built the ships and supplied most of the sailors for both Japan invasions, and its kings married Mongol princesses for nearly a century.",
       "wikiSlug": "Goryeo_under_Mongol_rule",
       "tier": 2,
       "tags": [
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The marriage tie was personal and immediate — King Chungnyeol wed Kublai Khan's own teenage daughter, Princess Qutlugh Kelmish (known in Korea as Princess Jeguk), in May 1274, just months before the first invasion sailed. From then on Goryeo crown princes were raised and schooled at the Mongol capital, and the court adopted Mongol hairstyles and dress. The arrangement only unraveled under King Gongmin, who in 1356 purged pro-Yuan officials and clawed back lost northern territory as the Yuan itself was crumbling — timing his break almost perfectly to the dynasty's decline."
+        }
+      ],
+      "commonsFile": "Yuen_Dynasty_1294_-_Goryeo_as_vassal.png"
     },
     {
       "id": "evt-southern-song-loyalists",
       "label": "Southern Song Loyalist Resistance",
       "year": 1278,
-      "description": "After Hangzhou's fall in 1276 a Song loyalist faction escaped south with two boy princes and the navy. Wen Tianxiang, the loyalist minister later captured and executed by the Yuan, refused to defect to Kublai's service and wrote his famous patriotic poem 'Crossing Lingding Sea' in captivity. He, Lu Xiufu, and the admiral Zhang Shijie became the canonical 'Three Loyal Subjects of the Song' in later Chinese moral memory.",
+      "description": "After Hangzhou fell, a band of loyalist officials kept the dynasty alive on the run, crowning two of the boy emperor's little half-brothers in succession and fighting on from the southern coast and the sea. Their leaders became the canonical 'Three Loyal Subjects of the Song,' remembered ever after as the moral standard for fidelity to a falling regime.",
       "wikiSlug": "Wen_Tianxiang",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The most famous of the three, the minister Wen Tianxiang, was captured in 1278 at Wulingpo in Guangdong by Zhang Hongfan — the very general who would soon crush the fleet at Yamen. Hauled north to the Yuan capital, he refused for four years to switch sides or write a letter urging other loyalists to surrender, and was beheaded there on January 9, 1283, at age 47. His prison poem \"Crossing Lingding Sea\" ends with the couplet every Chinese schoolchild still learns: that since all men must die, let him leave behind a loyal heart to shine in the pages of history."
+        }
+      ],
+      "commonsFile": "文天祥-吳郡名賢圖傳贊.jpg"
     },
     {
       "id": "evt-mongol-han-tension",
@@ -633,13 +955,20 @@
       "label": "Ispah Rebellion at Quanzhou",
       "year": 1357,
       "endYear": 1366,
-      "description": "Persian and Arab Sunni garrison commanders at Quanzhou rose against the Yuan in 1357, controlling the world's busiest port for nearly a decade in the so-called Ispah Rebellion. The revolt was eventually suppressed by allied warlords with the systematic massacre of Quanzhou's foreign Muslim community in 1366 — destroying the cosmopolitan Pax Mongolica port that Marco Polo and Ibn Battuta had described.",
+      "description": "In 1357 Persian Muslim garrison commanders at Quanzhou rose against the crumbling Yuan and held the world's richest port for nearly a decade, in what is called the Ispah Rebellion. Its defeat in 1366 came with the slaughter of the city's foreign merchant community, ending cosmopolitan Zayton for good.",
       "wikiSlug": "Ispah_Rebellion",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The two rebel commanders, Sayf ad-Din and Amir ad-Din, were Shi'a Persians, and one trigger for the revolt was their resentment of the Sunni merchant clans who had come to dominate Quanzhou's politics and trade. The rebel army pushed beyond the city as far as the provincial capital Fuzhou before fracturing into infighting around 1362. A Yuan-loyal Chinese commander named Chen Youding finally crushed it in 1366; survivors who escaped the massacre scattered to smaller Fujian ports and over generations melted into the local Hokkien population."
+        }
+      ],
+      "commonsFile": "Hsing-hua_1362.jpg"
     },
     {
       "id": "evt-cotton-introduction",
@@ -657,11 +986,18 @@
       "id": "evt-naval-rice-transport",
       "label": "Maritime Grain Transport",
       "year": 1282,
-      "description": "Kublai authorized large-scale maritime grain transport from the Yangtze delta to Khanbaliq in 1282 — initially a complement to the Grand Canal, eventually carrying more grain than the canal in some years. Sea convoys of hundreds of ships ran annually around the Shandong peninsula. The system was an early demonstration of large-scale Chinese maritime logistics, ancestral to the Ming Treasure Voyages.",
+      "description": "Starting in 1282, Kublai shipped grain to his capital by sea — ocean convoys running up the coast around the Shandong peninsula, a complement to the canal that in some years carried even more rice. It was a startlingly early demonstration of large-scale Chinese ocean logistics.",
       "wikiSlug": "Yuan_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The men Kublai put in charge of his first sea fleet were two former pirates, Zhu Qing and Zhang Xuan, ex-salt-smugglers from the Jiangsu-Zhejiang coast who had surrendered to the Mongols and been handed official posts. Their trial run in 1282 was a fleet of about 60 ships hauling more than 40,000 dan (over 3,600 tons) of grain from the mouth of the Yangtze up to the area around modern Tianjin. The route was dangerous — ships were lost to storms and to the pirates who still worked the same waters — but it worked well enough that within a few decades the sea route was moving millions of bushels a year, dwarfing what the canal could manage."
+        }
+      ],
+      "commonsFile": "Song_Dynasty_Ancient_Ship_of_Quanzhou_Bay_20061229.jpg"
     },
     {
       "id": "evt-yelu-chucai-legacy",
@@ -689,33 +1025,54 @@
       "id": "evt-zheng-sixiao",
       "label": "Song Loyalist Painting",
       "year": 1295,
-      "description": "A generation of Han painters who refused to serve the Yuan turned political dissent into a visual idiom. Zheng Sixiao painted orchids without earth around their roots, signifying lost homeland. Gong Kai painted starving horses representing displaced literati. The 'remnant subjects' (yimin) painters established a Chinese tradition of art-as-political-protest that persisted into the twentieth century.",
+      "description": "A generation of Han painters who refused to serve the Yuan turned their dissent into a visual language. Zheng Sixiao painted orchids with no soil around their roots — a homeland stolen away — and Gong Kai painted starving horses standing in for the displaced, unemployed literati. These \"remnant subjects\" (yimin) founded a tradition of art-as-protest that echoed into the twentieth century.",
       "tier": 3,
       "tags": [
         "writing"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When asked why his orchids had no earth at the roots, Zheng Sixiao (1241–1318) reportedly snapped that the soil had been stolen by the barbarians. He signed his work \"South-facing Old Man\" and pointedly refused to date it by the Mongol reign era, denying the dynasty's legitimacy on paper. His surviving Ink Orchid, dated 1306, is held in the Osaka City Museum of Fine Arts. Gong Kai's gaunt, rib-baring Emaciated Horse — a once-noble steed left to waste — is likewise preserved in Osaka and reads as a self-portrait of a talented man with no one to employ him."
+        }
+      ],
+      "commonsFile": "Gong_Kai,_Emaciated_Horse.jpg"
     },
     {
       "id": "evt-zhang-shicheng",
       "label": "Rival Warlords of the Late Yuan",
       "year": 1356,
       "endYear": 1367,
-      "description": "While Zhu Yuanzhang built his base around Nanjing, two other major Red Turban warlords competed for the post-Yuan throne. Chen Youliang controlled the Yangtze valley with the largest navy; Zhang Shicheng held the Suzhou-Hangzhou region with the wealthiest territory. Zhu defeated Chen at the naval Battle of Lake Poyang in 1363 — one of the largest naval battles in pre-modern history — then took Suzhou from Zhang in 1367 and starved him to death.",
+      "description": "Two other Red Turban warlords were chasing the same empty throne as Zhu Yuanzhang. Chen Youliang ruled the Yangtze valley with the biggest navy of any rebel; Zhang Shicheng held the rich Suzhou-Hangzhou region. Zhu beat both, clearing his last serious rivals before turning on the Mongols.",
       "wikiSlug": "Battle_of_Lake_Poyang",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Chen Youliang murdered his own overlord in 1360 and crowned himself emperor of a breakaway state he named Han. Zhu destroyed him at the Battle of Lake Poyang, a battle that ran from August 30 to October 4, 1363 on China's largest freshwater lake; Zhu's roughly 100,000 men, outnumbered perhaps three to one, won largely with fire ships, and Chen died when an arrow struck him in the head during the final breakout attempt. Zhang Shicheng lasted longer: his capital Suzhou fell on October 1, 1367 after a siege of about ten months. He tried to hang himself, was cut down and hauled to Nanjing, and died in Zhu's custody soon after."
+        }
+      ],
+      "commonsFile": "Hayohko.png"
     },
     {
       "id": "evt-mongol-army-decay",
       "label": "Yuan Military Decay",
       "year": 1330,
-      "description": "The hereditary Mongol military households of north China — settled on tax-exempt land in exchange for permanent service obligation — had, by the 1330s, lost most of their fighting capacity. Generations of garrison life had eroded steppe horsemanship; the soldiers were poor, indebted, and reluctant to muster. When Red Turban rebellions began in 1351, much of the Yuan army on paper was unable to take the field in fact.",
+      "description": "The Yuan war machine ran on hereditary military households — families settled on tax-free land in north China who owed permanent military service in return. By the 1330s these once-fearsome steppe cavalrymen had become poor, indebted farmers four generations removed from the saddle, so that the army's paper strength bore little relation to who could actually fight.",
       "wikiSlug": "Yuan_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Yuan sorted its military households into four ranked tiers — Mongol, Tammachi (frontier mixed-tribe troops), Han Chinese, and the \"Newly Adhered\" (former Song soldiers) — each getting different stipends and tax breaks, and a soldier's obligation passed strictly from father to son or to a younger brother. Even the keshig, the elite imperial bodyguard that Kublai had kept as his personal Mongol guard, had drifted from its origins: by the early 1300s it was filling up with Han Chinese recruits, and its loyalty was bending toward whichever court faction held it rather than toward battlefield service. The Ming would inherit the same trap, building its own hereditary weisuo garrison system that decayed in much the same way over the following two centuries."
+        }
+      ],
+      "commonsFile": "Yuan_Iron_Helmet_(9872873454).jpg"
     },
     {
       "id": "evt-court-buddhism-finance",
@@ -740,22 +1097,36 @@
       "id": "evt-yuan-cosmopolitan-court",
       "label": "Cosmopolitan Yuan Court",
       "year": 1290,
-      "description": "Kublai's Khanbaliq court routinely hosted Tibetan lamas, Nestorian Christian clerks, Sunni Muslim engineers, Confucian scholars, Zoroastrian merchants, Persian astronomers, Italian merchants, and a permanent population of foreign craftsmen. The Yassa principle of religious tolerance inherited from Genghis was institutionalized: the imperial treasury supported temples of every major faith and no religion was systematically persecuted.",
+      "description": "By the 1290s Kublai's court was arguably the most cosmopolitan capital in Asia — Tibetan lamas, Nestorian Christian clerks, Muslim astronomers and engineers, Confucian scholars, Italian merchants, and foreign craftsmen of every stripe all working under one roof. The Mongol principle of religious tolerance, inherited from Genghis, was court policy: the treasury funded temples of every major faith.",
       "wikiSlug": "Yuan_dynasty",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "One vivid example of the talent that flowed in: the Persian astronomer Jamal al-Din, originally from Bukhara, arrived and in 1267 presented Kublai with seven cutting-edge instruments, including a terrestrial globe — the earliest known reference to such a globe of the Earth in Chinese astronomy. He set up an Islamic Astronomical Bureau in the capital, and the imported Persian star tables helped sharpen the famous Shoushi calendar of 1280, one of the most accurate in the pre-modern world. The mingling went both ways: Chinese and Islamic science sat side by side in the same city, each correcting the other."
+        }
+      ],
+      "commonsFile": "Empress_Chabi_-_Liu-Kuan-Tao-Jagd.jpg"
     },
     {
       "id": "evt-yuan-architecture",
       "label": "Yuan Architecture",
       "year": 1280,
-      "description": "Yuan architecture combined Chinese palace plans with Tibetan and Mongol elements. The Beihai White Pagoda in Khanbaliq (1271, designed by the Nepali architect Aniko) is a Tibetan-style stupa at imperial scale in the heart of the Chinese capital — one of the visual signatures of the Yuan synthesis. Aniko also designed Tibetan Buddhist temples across north China and trained a generation of Chinese craftsmen in Himalayan techniques.",
+      "description": "Yuan building style fused Chinese palace plans with Tibetan and Mongol forms. Its signature is a towering white stupa (a dome-shaped Buddhist monument) built in the capital by the Nepali artist Aniko — a Himalayan religious form raised at Chinese imperial scale, the architecture of the Yuan synthesis made visible.",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Aniko (1245-1306) arrived from the Kathmandu Valley as a teenage prodigy leading a team of craftsmen, and so dazzled the court that he rose to head the Yuan's entire imperial workshop, overseeing everything from bronze casting to portrait painting. The great white stupa he built — at what became Miaoying Temple — rises about 167 feet (50.9 m), still stands in Beijing today, and took roughly a decade to finish. Beyond that one monument, Aniko trained a whole generation of Chinese artisans in Nepali and Tibetan techniques, seeding a Himalayan flavor through north Chinese Buddhist art that long outlasted the dynasty."
+        }
+      ],
+      "commonsFile": "Datong_282.jpg"
     },
     {
       "id": "evt-southern-china-recovery",
