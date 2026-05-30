@@ -9,6 +9,7 @@ import { useState } from 'react'
 import { WarBreadcrumb, alpha, CHROME_TOP, type Crumb, type CrumbOption } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import type { Theatre } from '@/lib/civil-war-roster'
+import { Lightbox } from '@/components/lightbox'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -58,6 +59,7 @@ export function BattleSectionReader({
   const n = sections[id] ?? sections[ids[0]]
   const [figFailed, setFigFailed] = useState<Record<number, boolean>>({})
   const [heroFailed, setHeroFailed] = useState(false)
+  const [lb, setLb] = useState<{ src: string; cap: string } | null>(null)
   let firstP = true
   const idx = ids.indexOf(id)
   const nextId = idx >= 0 ? ids[idx + 1] : undefined
@@ -126,7 +128,9 @@ export function BattleSectionReader({
             )
             if ('fig' in b) return (
               <figure key={i} style={{ margin: '20px 0' }}>
-                <div style={{ borderRadius: 6, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)' }}>
+                <div
+                  onClick={figFailed[i] ? undefined : () => setLb({ src: b.fig, cap: b.cap })}
+                  style={{ borderRadius: 6, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)', cursor: figFailed[i] ? 'default' : 'zoom-in' }}>
                   {!figFailed[i] && <img src={b.fig} alt="" onError={() => setFigFailed(f => ({ ...f, [i]: true }))} style={{ display: 'block', width: '100%', height: 'auto' }} />}
                 </div>
                 <figcaption style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 13, lineHeight: 1.45, color: 'color-mix(in srgb, var(--foreground) 65%, transparent)', marginTop: 8 }}>
@@ -177,6 +181,8 @@ export function BattleSectionReader({
           </a>
         )}
       </div>
+      {/* zoomable lightbox — pinch / double-tap / pan (shared with the civ + art readers); maps + photos are tap-to-zoom */}
+      {lb && <Lightbox src={lb.src} alt="" caption={lb.cap} onClose={() => setLb(null)} />}
     </div>
   )
 }

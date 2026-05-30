@@ -18,9 +18,9 @@ export interface Major {
 export const MAJORS: Major[] = [
   // ── Eastern (20) ──────────────────────────────────────────────
   { id: 'e-bullrun1', name: 'First Bull Run', year: 1861, m: 7, mo: 'Jul', place: 'Manassas, VA', theatre: 'east', size: 'l', href: '/war-civil-war/eastern/bull-run', img: '/war-img/bull-run-hero.jpg', hook: 'The first big battle of the war — and the day the dream of a short one died.' },
-  { id: 'e-winchester1', name: 'First Winchester', year: 1862, m: 5, mo: 'May', place: 'Winchester, VA', theatre: 'east', size: 's' },
-  { id: 'e-gainesmill', name: "Gaines' Mill", year: 1862, m: 6, mo: 'Jun', place: 'Hanover Co., VA', theatre: 'east', size: 's' },
-  { id: 'e-malvern', name: 'Malvern Hill', year: 1862, m: 7, mo: 'Jul', place: 'Henrico Co., VA', theatre: 'east', size: 's' },
+  { id: 'e-winchester1', name: 'First Winchester', year: 1862, m: 5, mo: 'May', place: 'Winchester, VA', theatre: 'east', size: 's', href: '/war-civil-war/eastern/first-winchester', img: '/war-img/first-winchester-hero.jpg', hook: 'The climax of Stonewall Jackson’s Valley Campaign.' },
+  { id: 'e-gainesmill', name: "Gaines' Mill", year: 1862, m: 6, mo: 'Jun', place: 'Hanover Co., VA', theatre: 'east', size: 's', href: '/war-civil-war/eastern/gaines-mill', img: '/war-img/gaines-mill-hero.jpg', hook: 'Lee’s first victory — the Union drive on Richmond turned back.' },
+  { id: 'e-malvern', name: 'Malvern Hill', year: 1862, m: 7, mo: 'Jul', place: 'Henrico Co., VA', theatre: 'east', size: 's', href: '/war-civil-war/eastern/malvern-hill', img: '/war-img/malvern-hill-hero.jpg', hook: 'The Union won the field and lost the campaign — the Seven Days’ bloody end.' },
   { id: 'e-bullrun2', name: 'Second Bull Run', year: 1862, m: 8, mo: 'Aug', place: 'Manassas, VA', theatre: 'east', size: 'm' },
   { id: 'e-antietam', name: 'Antietam', year: 1862, m: 9, mo: 'Sep', place: 'Sharpsburg, MD', theatre: 'east', size: 'l', href: '/war-civil-war/eastern/antietam', img: '/war-img/antietam-hero.jpg', hook: 'The bloodiest single day in American history — 23,000 fell in twelve hours.' },
   { id: 'e-fredericksburg', name: 'Fredericksburg', year: 1862, m: 12, mo: 'Dec', place: 'Fredericksburg, VA', theatre: 'east', size: 'm' },
@@ -40,7 +40,7 @@ export const MAJORS: Major[] = [
 
   // ── Western (15) ──────────────────────────────────────────────
   { id: 'w-donelson', name: 'Fort Donelson', year: 1862, m: 2, mo: 'Feb', place: 'Dover, TN', theatre: 'west', size: 'm', href: '/war-civil-war/western/fort-donelson', img: '/war-img/fort-donelson-hero.jpg', hook: 'The surrender that made Grant — and cracked the Confederate West wide open.' },
-  { id: 'w-shiloh', name: 'Shiloh', year: 1862, m: 4, mo: 'Apr', place: 'Pittsburg Landing, TN', theatre: 'west', size: 'l', img: '/war-img/shiloh-hero.jpg' },
+  { id: 'w-shiloh', name: 'Shiloh', year: 1862, m: 4, mo: 'Apr', place: 'Pittsburg Landing, TN', theatre: 'west', size: 'l', img: '/war-img/shiloh-hero.jpg', href: '/war-civil-war/western/shiloh', hook: 'The bloodiest battle in America to that point — and the day the war turned total.' },
   { id: 'w-corinth', name: 'Corinth', year: 1862, m: 10, mo: 'Oct', place: 'Corinth, MS', theatre: 'west', size: 's' },
   { id: 'w-perryville', name: 'Perryville', year: 1862, m: 10, mo: 'Oct', place: 'Perryville, KY', theatre: 'west', size: 'm' },
   { id: 'w-stonesriver', name: 'Stones River', year: 1862, m: 12, mo: 'Dec', place: 'Murfreesboro, TN', theatre: 'west', size: 'm' },
@@ -59,14 +59,14 @@ export const MAJORS: Major[] = [
   { id: 't-wilsonscreek', name: "Wilson's Creek", year: 1861, m: 8, mo: 'Aug', place: 'Springfield, MO', theatre: 'tmis', size: 'm', href: '/war-civil-war/trans-mississippi/wilsons-creek', img: '/war-img/wilsons-creek-hero.jpg', hook: 'The Bull Run of the West — and the first Union general killed in the war.' },
   { id: 't-pearidge', name: 'Pea Ridge', year: 1862, m: 3, mo: 'Mar', place: 'Benton Co., AR', theatre: 'tmis', size: 'm', href: '/war-civil-war/trans-mississippi/pea-ridge', img: '/war-img/pea-ridge-hero.jpg', hook: 'The battle that turned around to win — and secured Missouri for the Union.' },
   { id: 't-glorieta', name: 'Glorieta Pass', year: 1862, m: 3, mo: 'Mar', place: 'New Mexico Terr.', theatre: 'tmis', size: 's', href: '/war-civil-war/trans-mississippi/glorieta-pass', img: '/war-img/glorieta-pass-hero.jpg', hook: 'The Gettysburg of the West — winning the field, losing the war.' },
-  { id: 't-island10', name: 'Island Number Ten', year: 1862, m: 4, mo: 'Apr', place: 'Mississippi River, MO', theatre: 'tmis', size: 's' },
+  { id: 't-island10', name: 'Island Number Ten', year: 1862, m: 4, mo: 'Apr', place: 'Mississippi River, MO', theatre: 'tmis', size: 's', href: '/war-civil-war/trans-mississippi/island-number-ten', img: '/war-img/island-number-ten-hero.jpg', hook: 'The river fortress that fell to a shovel and a thunderstorm — almost without blood.' },
   { id: 't-porthudson', name: 'Port Hudson', year: 1863, m: 7, mo: 'May–Jul', place: 'Port Hudson, LA', theatre: 'tmis', size: 'm' },
   { id: 't-mansfield', name: 'Mansfield', year: 1864, m: 4, mo: 'Apr', place: 'De Soto Parish, LA', theatre: 'tmis', size: 's' },
   { id: 't-westport', name: 'Westport', year: 1864, m: 10, mo: 'Oct', place: 'Kansas City, MO', theatre: 'tmis', size: 'm' },
 
   // ── Naval & Coastal (4) ───────────────────────────────────────
   { id: 'n-sumter', name: 'Fort Sumter', year: 1861, m: 4, mo: 'Apr', place: 'Charleston, SC', theatre: 'naval', size: 'l', href: '/war-civil-war/naval/fort-sumter', img: '/war-img/fort-sumter-hero.jpg', hook: 'The bloodless bombardment that began the bloodiest war in American history.' },
-  { id: 'n-jacksonstphilip', name: 'Forts Jackson & St. Philip', year: 1862, m: 4, mo: 'Apr', place: 'Mississippi River, LA', theatre: 'naval', size: 's' },
+  { id: 'n-jacksonstphilip', name: 'Forts Jackson & St. Philip', year: 1862, m: 4, mo: 'Apr', place: 'Mississippi River, LA', theatre: 'naval', size: 's', href: '/war-civil-war/naval/forts-jackson', img: '/war-img/forts-jackson-hero.jpg', hook: 'Farragut runs the forts in the dark — and the South loses its greatest city.' },
   { id: 'n-mobilebay', name: 'Mobile Bay', year: 1864, m: 8, mo: 'Aug', place: 'Mobile, AL', theatre: 'naval', size: 'm' },
   { id: 'n-fortfisher2', name: 'Second Fort Fisher', year: 1865, m: 1, mo: 'Jan', place: 'Wilmington, NC', theatre: 'naval', size: 'm' },
 ]
