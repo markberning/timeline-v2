@@ -69,176 +69,292 @@
       "label": "Ghana Empire (Wagadu) flourishes",
       "year": 900,
       "endYear": 1076,
-      "description": "The Ghana Empire — called Wagadu by its own Soninke-speaking people — controlled the western Sahel gold-and-salt trade from roughly the eighth to the eleventh century. Its capital at Koumbi Saleh was one of the largest cities in West Africa, and its gold supply reached as far as Baghdad. Ghana was Mali's institutional and commercial predecessor.",
+      "description": "West Africa's first great gold empire, run by the Soninke people who called it Wagadu (\"Ghana\" was really the king's title, meaning warrior-king, that visiting Arabs mistook for the country's name). It got rich taxing gold on its way north.",
       "wikiSlug": "Ghana_Empire",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Its likely capital, Koumbi Saleh (in modern southeastern Mauritania, about 200 miles north of present-day Bamako), may have held 40,000 to 50,000 people, making it one of the largest cities anywhere in West Africa. Archaeologists actually found two towns side by side: a Muslim merchants' quarter of stone houses and, a few miles off, the king's own town. The king alone was allowed to keep gold nuggets, while everyone else could trade only in gold dust, a clever way to keep prices from crashing."
+        }
+      ],
+      "commonsFile": "Ghana_empire_map.png"
     },
     {
       "id": "evt-mali-trans-saharan-camel",
       "label": "Camel revolutionizes Sahara crossing",
       "year": 300,
-      "description": "The systematic introduction of the dromedary camel to the Sahara from the Roman-Arabian world by the third and fourth centuries CE made regular trans-Saharan trade possible for the first time. Camels could carry 300-pound loads across stretches of desert that horses and donkeys could not survive, opening the gold-salt circuit that would underwrite every Sahelian empire from Ghana through Mali to Songhai.",
+      "description": "The desert ferry. Camels reached the northern Sahara from Arabia by way of Rome, and by the third and fourth centuries CE they finally let people cross the world's biggest hot desert on a regular schedule, something horses and donkeys simply could not survive.",
       "wikiSlug": "Trans-Saharan_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "A camel could haul roughly 300 pounds about 15 to 18 miles a day, carrying around four times what a donkey could while needing far less water. Camels had reached Egypt as early as the ninth century BCE, but it took over a thousand years for the animal to spread west across North Africa and turn occasional desert travel into the steady, large-scale caravan trade that bankrolled Ghana, Mali, and Songhai."
+        }
+      ],
+      "commonsFile": "Caravane_hoggar1.jpg"
     },
     {
       "id": "evt-mali-almoravid-pressure",
       "label": "Almoravid pressure on Ghana",
       "year": 1076,
-      "description": "Berber Muslim Almoravid forces from the western Sahara pressured Ghana through the late eleventh century, contributing to the empire's long decline. The traditional account of an Almoravid sack of Koumbi Saleh in 1076 is now disputed by modern historians, who see Ghana's collapse as a slower process driven by ecological change and internal fragmentation rather than a single conquest.",
+      "description": "The Almoravids were a militant Berber Muslim movement out of the western Sahara that overran Morocco and Spain in the same era. Older textbooks said they sacked Ghana's capital in 1076; historians now doubt that ever happened.",
       "wikiSlug": "Almoravid_dynasty",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Two scholars, David Conrad and Humphrey Fisher, made the case in articles titled \"The Conquest That Never Was,\" arguing the supposed sack was folklore read into much later Arabic sources rather than a real event. The dig at Koumbi Saleh shows no signs of the sudden burning or destruction a conquest would leave. What does seem clear is that the region converted to Islam around this time, suggesting Almoravid influence arrived through religion and pressure rather than a single battle."
+        }
+      ],
+      "commonsFile": "Almoravid_gold_dinar_coin_from_Seville,_Spain,_1116_British_Museum.png"
     },
     {
       "id": "evt-mali-sosso-kingdom",
       "label": "Sosso kingdom under Sumanguru",
       "year": 1200,
       "endYear": 1235,
-      "description": "After Ghana's fragmentation, the Sosso kingdom under King Sumanguru Kante emerged as the dominant power in the western Sahel, briefly conquering most of the former Ghana territory. Sumanguru became the antagonist of the Sundiata epic — the sorcerer-king whose defeat at Kirina founded Mali.",
+      "description": "After Ghana fell apart, a blacksmith-king named Sumanguru Kante built the Sosso kingdom into the region's strongman, swallowing old Ghana lands and pressing into Mandinka country. In the Sundiata epic he becomes the sorcerer-villain whose defeat gives birth to Mali.",
       "wikiSlug": "Sosso_Empire",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Being both king and blacksmith was a fearsome combination in Mande culture, where ironworkers were thought to handle dangerous spiritual power. In the epic, Sumanguru owns a magical balafon (a wooden xylophone with gourd resonators); Sundiata's griot Balla Fasseke steals it and brings it to the Mandinka, said to be the origin of the Mande griot balafon tradition. An instrument claimed to be that very balafon, the Sosso Bala, is still guarded by the Kouyate griot family in Guinea and is on UNESCO's intangible heritage list. The Sosso kingdom sat in what is now present-day Guinea and southwestern Mali."
+        }
+      ],
+      "commonsFile": "Ghana_successor_map_1200.png"
     },
     {
       "id": "evt-mali-mandinka-people",
       "label": "Mandinka people of the Manden",
       "year": 1200,
-      "description": "The Mandinka — a Mande-speaking people of the upper Niger River valley — were the founding population of the Mali Empire. Their homeland, called the Manden, sat in the savanna belt south of the Sahel, with access to both the Bambuk gold fields to the west and the Niger River trade network to the east. Mandinka social organization was built around occupational castes and the powerful jeli (griot) lineages that preserved oral history.",
+      "description": "The people who built Mali. The Mandinka (also called Malinke or Mandingo) farmed and herded along the upper Niger in a homeland they called the Manden, perfectly placed between the Bambuk gold fields to the west and the Niger trade routes to the east.",
       "wikiSlug": "Mandinka_people",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Today the Mandinka number around 15 million, one of Africa's largest ethnic groups, spread across Mali, Guinea, Senegal, The Gambia, and Guinea-Bissau. Their society was traditionally split into hereditary castes you married within: the freeborn (foro), the enslaved (jongo), and the artisans and praise-singers (nyamolo). Among the latter were the jeli, the griots, who acted as historian, royal counselor, court spokesman, and musician all at once, the living memory banks that carried the Sundiata epic down some eight centuries to the present."
+        }
+      ],
+      "commonsFile": "Boilat-10-Marabout_mandingue.jpg"
     },
     {
       "id": "evt-mali-niger-river",
       "label": "Niger River as commercial highway",
       "year": 1230,
-      "description": "The Niger River — the third-longest river in Africa — bends north from the Guinea highlands into the Sahel, runs east past Timbuktu, then turns south toward the Atlantic. This great inland arc passes through the heart of Mandinka country, and the annual flood deposits silt that sustains rice and millet farming. The Niger was Mali's commercial spine, with cargo boats linking Niani, Djenné, Timbuktu, and Gao.",
+      "description": "Mali's main street. The Niger does something no sensible river does: instead of running straight to the nearby Atlantic, it loops far north into the Sahel, brushes the desert at Timbuktu, then swings back south. That giant arc runs right through Mandinka country.",
       "wikiSlug": "Niger_River",
       "tier": 2,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At about 2,600 miles (4,200 km) it is Africa's third-longest river, after the Nile and Congo. Its strangest feature is the Inner Niger Delta, a braided inland floodplain that swells to as much as 30,000 square kilometers (over 7 million acres) of seasonal wetland from September to December, even though it sits in the middle of dry country nowhere near the sea. The river is so leaky here that it loses roughly two-thirds of its flow to evaporation and seepage between Segou and Timbuktu, yet that very flooding is what feeds the rice and millet that fed the empire."
+        }
+      ],
+      "commonsFile": "The_NIGER_RIVER_boy.jpg"
     },
     {
       "id": "evt-mali-sundiata",
       "label": "Sundiata Keita founds Mali Empire",
       "year": 1235,
-      "description": "Sundiata Keita defeated the Sosso king Sumanguru at the Battle of Kirina and established the Mali Empire, uniting the Mandinka peoples of West Africa.",
+      "description": "A Mandinka prince who could barely walk as a child grew up to topple the Sosso king and stitch a scatter of clans into West Africa's biggest empire. He became the first mansa (emperor) of Mali.",
       "wikiSlug": "Sundiata_Keita",
       "tier": 1,
       "tags": [
         "people",
         "wars"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His name is a tribute to his mother: \"Sundiata\" comes from Sogolon Djata, roughly \"Sogolon's lion\" (Djata, from jara, means lion in Mande), which is why he's nicknamed the Lion of Mali. Before his rise he spent years in exile, ending up in the kingdom of Mema, where its ruler Moussa Tounkara reportedly took him in, trained him in warfare, and considered grooming him as an heir. When the Sosso conquest of the Mandinka homeland reached its peak, envoys tracked Sundiata down in Mema and brought him home with an army to lead the revolt."
+        }
+      ],
+      "commonsFile": "Ur-Balafon_mit_Balafon-Wächter_2017.jpg"
     },
     {
       "id": "evt-mali-battle-kirina",
       "label": "Battle of Kirina",
       "year": 1235,
-      "description": "Sundiata's decisive victory over the Sosso Empire at Kirina freed the Mandinka people and laid the foundation for the Mali Empire's dominance of West Africa. The battle is preserved in extraordinary detail in the oral epic, in which Sundiata defeats Sumanguru's sorcery with a magical arrow tipped with a white rooster's spur.",
+      "description": "The showdown that broke Sosso power: Sundiata's clan alliance crushed Sumanguru's army somewhere in what's now Mali's Koulikoro region, and the date is still taken as the empire's birthday.",
       "wikiSlug": "Battle_of_Kirina",
       "tier": 1,
       "tags": [
         "rulers"
       ],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In the epic, Sundiata learns that Sumanguru's secret weakness is the rooster (the king's sacred animal), so he tips an arrow with a cock's spur and wounds him with it, breaking the sorcery that supposedly made the Sosso king invincible. Sumanguru isn't killed outright in most tellings; he flees the field and vanishes into the Koulikoro hills. The exact battle site has never been pinned down by archaeologists, so almost everything we know about Kirina comes from the oral epic rather than physical evidence."
+        }
+      ]
     },
     {
       "id": "evt-mali-kurukan-fuga",
       "label": "Kurukan Fuga charter (Manden Charter)",
       "year": 1236,
-      "description": "Sundiata proclaimed the Kurukan Fuga, also known as the Manden Charter — an oral constitution governing the empire's clans, establishing rights, social organization, abolition of certain forms of slavery, and rules of governance. UNESCO inscribed the charter on its Representative List of Intangible Cultural Heritage in 2009.",
+      "description": "A year after the war, Sundiata gathered the clans on an open plain and laid down the rules of the new empire out loud — an oral constitution that griots have recited ever since, never written down at the time.",
       "wikiSlug": "Kouroukan_Fouga",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The traditional meeting site sits near Kangaba in present-day Mali, where commemorative ceremonies are still held. UNESCO's 2009 listing summarizes the charter as a seven-chapter declaration promoting social peace across diverse groups, the inviolability of human life, education, food security, the ending of slave-raiding (razzia), and freedom of expression and trade. The full text we read today is a modern reconstruction assembled from several griot lineages in the late 1900s, so its provisions are an approximation rather than a verbatim record of 1236."
+        }
+      ],
+      "commonsFile": "ߞߙߎ߬ߞߊ߲߬ߝߎߥߊ߫_ߘߏ߲߬ߘߊ.jpg"
     },
     {
       "id": "evt-mali-niani-capital",
       "label": "Niani established as capital",
       "year": 1240,
-      "description": "Sundiata established Niani on a tributary of the upper Niger River as the Mali capital. The city grew into a prosperous administrative center at the crossroads of the Bambuk gold trade and the trans-Saharan caravan routes. Its exact location remains disputed by archaeologists.",
+      "description": "Sundiata set up his capital at Niani, a riverside town in the Mandinka heartland that would run the empire for roughly three centuries before fading.",
       "wikiSlug": "Niani,_Guinea",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Niani sits on the left bank of the Sankarani River (a tributary of the Niger) in what is now the Kankan region of eastern Guinea. Guinean-Polish archaeological missions dug there in 1965 and 1968, uncovering stone house foundations, a mosque's mihrab (the niche showing the direction of Mecca), and walls around the royal town, surrounded by separate hamlets for clans of smiths, fishermen, and traders. Even so, some scholars still doubt this site was truly the medieval capital, keeping Niani's identity one of West African archaeology's open questions."
+        }
+      ]
     },
     {
       "id": "evt-mali-epic-sundiata",
       "label": "Epic of Sundiata",
       "year": 1240,
-      "description": "The Epic of Sundiata, preserved for nearly eight centuries by griot oral historians and finally transcribed in the twentieth century, is one of Africa's great literary works, recounting the founding of Mali through heroic narrative.",
+      "description": "Mali's national epic — the founding story carried by memory alone for centuries before anyone wrote it down. It's the main reason we know Sundiata's tale at all.",
       "wikiSlug": "Epic_of_Sundiata",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The best-known modern version is Djibril Tamsir Niane's Soundjata, ou l'Épopée mandingue, published in Paris by Présence Africaine in 1960 and based on the recitation of the griot Djeli Mamadou Kouyaté. G. D. Pickett translated it into English in 1965 as Sundiata: An Epic of Old Mali, the edition most readers outside West Africa encounter. Niane's text is a prose retelling, which means it smooths out the sung, rhythmic performance the griots actually deliver in front of an audience."
+        }
+      ],
+      "commonsFile": "Sundiata.jpg"
     },
     {
       "id": "evt-mali-griot-tradition",
       "label": "Griot (jeli) oral tradition",
       "year": 1240,
-      "description": "Griots — known in the Mande languages as jeli — served as historians, genealogists, musicians, and political advisors in Mali society. Their oral traditions preserved centuries of West African history, royal genealogy, and customary law in a society where most knowledge was transmitted by trained memory rather than writing.",
+      "description": "The griots — called jeli in the Mande languages — were a born-into-it caste of musicians, genealogists, and advisors who carried a noble family's entire history in their heads, no books required.",
       "wikiSlug": "Griot",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Griots married almost entirely within their own caste and trained their children from early childhood, which is how the memory survived across centuries. The jeli serving Mali's royal Keita line were the Kouyaté clan, whose tradition traces back to Balla Fasséké, remembered as the first griot. The English and French word \"griot\" likely entered European languages through Portuguese traders on the West African coast, though its exact origin is debated; the Mande speakers themselves never used it — their word is jeli, from a root tied to \"blood,\" and the craft itself is jeliya."
+        }
+      ],
+      "commonsFile": "GriotsSambala.jpg"
     },
     {
       "id": "evt-mali-mande-clans",
       "label": "Mande clan system",
       "year": 1236,
-      "description": "Mandinka society was organized around named patrilineal clans — Keita, Konde, Traore, Camara, Kone, Diakite, and others — each with specific inherited occupations and social roles. The Kurukan Fuga formalized the relationships among the clans, including the joking-cousin (sanankuya) ties that allowed structured insults across clan lines as a means of conflict resolution.",
+      "description": "Mandinka society ran on named father-line clans, Keita, Konde, Traore, Camara, Kone, Diakite and more, each with its own inherited trade and rank. After founding Mali, Sundiata is said to have gathered the clans and laid down the rules that bound them together.",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "That gathering produced the Kurukan Fuga (also called the Manden Charter), an oral constitution proclaimed around 1235 to 1236 on a granite clearing near Kangaba; the name itself means \"clearing on the lateritic rock.\" UNESCO added it to its Intangible Cultural Heritage list in 2009, and a modern reconstruction of its articles was pieced together from griot memory at a 1998 workshop in Kankan, Guinea. One of its provisions formalized sanankuya, the \"joking-cousin\" bond that lets paired clans trade ritual insults, a social pressure-valve still alive across West Africa today."
+        }
+      ]
     },
     {
       "id": "evt-mali-cavalry-system",
       "label": "Mali cavalry and horse trade",
       "year": 1250,
-      "description": "Mali's military power rested on heavy cavalry mounted on horses imported from North Africa across the Sahara. Horses cannot survive in the tsetse-fly belt of the West African forest, so the savanna empires controlled the horse-mounted warfare zone while the forest peoples relied on infantry. A trained warhorse cost the equivalent of several enslaved people in trade, making cavalry an aristocratic monopoly.",
+      "description": "Mali's punch came from heavy cavalry — armored riders on horses shipped down across the Sahara from North Africa, a luxury so costly that owning warhorses was basically a club for the rich.",
       "wikiSlug": "Horse_breeding",
       "tier": 3,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reason the forest peoples to the south couldn't simply copy the tactic is biological: the tsetse fly, a biting insect of the wet equatorial belt, carries a parasite (trypanosomiasis, also called sleeping sickness) that kills horses outright. So the line where the flies stopped was also the line where cavalry warfare stopped. The price gap was steep elsewhere in West Africa too — in the later Oyo empire an imported horse cost at least twice the price of an enslaved person — and because horses bred poorly in the Sahel, the supply had to be constantly topped up from the north."
+        }
+      ],
+      "commonsFile": "Djenne_Terracotta_Equestrian_(13th-15th_cent).jpg"
     },
     {
       "id": "evt-mali-gold-mines",
       "label": "Mali controls Bambuk and Bure gold",
       "year": 1245,
-      "description": "Mali dominated the Bambuk gold field on the upper Senegal River and the Bure gold field on the upper Niger, controlling the supply of gold that fueled trans-Saharan trade and made Mali fabulously wealthy. The mines themselves were worked by independent miners who jealously guarded their locations from the imperial center.",
+      "description": "Mali's wealth came out of the ground at two gold fields — Bambuk, between the Senegal and Falémé rivers, and Bure, on the upper Niger. Whoever taxed the caravans hauling that gold north got rich, and for a couple of centuries that was Mali.",
       "wikiSlug": "Bambuk",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Bambuk was sending gold north across the Sahara by at least the 700s, possibly far earlier; Bure opened up later, around the eleventh and twelfth centuries. The mining and shipping was run by a network of Muslim Soninke traders known as the Wangara, who fanned out into towns from Kano to Djenné. The miners kept the actual locations a fiercely guarded secret — Arab writers passed around tales of \"silent barter,\" where traders left salt at a spot, banged drums, and withdrew so the goldminers could leave gold in exchange without ever showing their faces. Whether the dumb-barter story was literally true or a traveler's legend, the secrecy behind it was real."
+        }
+      ],
+      "commonsFile": "The_Mali_Empire.jpg"
     },
     {
       "id": "evt-mali-salt-trade",
       "label": "Trans-Saharan salt-gold trade",
       "year": 1250,
-      "description": "Mali merchants exchanged gold for Saharan rock salt mined at Taghaza in the central Sahara, with camel caravans carrying both commodities across the desert. Salt was scarce in the West African savanna and essential for human and animal life, while gold was abundant in Mali but in constant demand across the Mediterranean and Islamic worlds. At certain stages of the trade, salt and gold reportedly traded weight-for-weight.",
+      "description": "The other half of the deal. Gold was everywhere in the south but salt was scarce, and people and cattle can't live without it. So caravans hauled slabs of Saharan rock salt south from mines like Taghaza and carried gold back north.",
       "wikiSlug": "Trans-Saharan_trade",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Taghaza lay about 489 miles (787 km) north-northwest of Timbuktu, and the traveler Ibn Battuta, who passed through in 1352, described a grim place where the houses and even the mosque were built from blocks of salt and roofed with camel skins. The salt was cut into thick slabs, two slung on each camel, and mined by enslaved laborers of the Berber Masufa tribe; merchants reportedly tacked on a transport markup close to 80 percent of the salt's value. Taghaza was finally abandoned in the late 1500s and replaced by the salt pans at Taoudenni."
+        }
+      ],
+      "commonsFile": "Bilma-Salzkarawane1.jpg"
     },
     {
       "id": "evt-mali-taghaza-mines",
       "label": "Taghaza salt mines",
       "year": 1280,
-      "description": "Taghaza, deep in the central Sahara about 500 miles north of Timbuktu, was the great salt-mining site of the medieval West African economy. Slabs of rock salt were quarried from the dry lakebed, loaded onto camels, and carried south to the Sahelian markets where they were worth their weight in gold. The Moroccan traveler Ibn Battuta described Taghaza in the 1350s as a desolate village built entirely of salt blocks.",
+      "description": "Taghaza was the medieval Sahara's great salt mine, a brutal outpost roughly 500 miles (800 km) north of Timbuktu where slabs of rock salt were quarried straight out of a dry lakebed. In a region desperate for salt, those slabs were essentially money.",
       "wikiSlug": "Taghaza",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "When Ibn Battuta passed through in the 1350s, he noted that the village's houses and even its mosque were built from blocks of salt and roofed with camel skins. The salt came out of the ground in slabs laid flat \"as if squared and stacked\" underground, and a camel carried two of them. Further south salt was so scarce it traded weight-for-weight against gold — a camel-load that was nearly worthless in the desert could multiply in value many times over by the time it reached the Sahelian markets."
+        }
+      ],
+      "commonsFile": "Mopti_sel.jpg"
     },
     {
       "id": "evt-mali-islam-spread",
@@ -254,156 +370,252 @@
       "id": "evt-mali-mansa-uli",
       "label": "Mansa Uli's pilgrimage",
       "year": 1260,
-      "description": "Sundiata's son Mansa Uli made the first recorded Malian pilgrimage to Mecca, establishing the tradition of hajj among Mali's rulers and announcing the new empire's arrival on the wider Islamic stage.",
+      "description": "Sundiata's son Mansa Uli became the first Mali ruler to make the pilgrimage to Mecca, kicking off a royal tradition that put the empire on the wider Muslim world's radar.",
       "wikiSlug": "Mansa_Uli",
       "tier": 3,
       "tags": [
         "religion"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Sources put Uli's reign roughly 1255–1277, with the pilgrimage somewhere between 1260 and 1277 — the dates are fuzzy because the era is thinly documented. The 20th-century historian Nehemia Levtzion suggested Uli may have been the first mansa to push Mali's reach as far as Walata, a Saharan trade town, though later additions like Timbuktu and Gao are usually credited to his successors. The hajj was as much politics as piety: passing through Cairo put a West African king face to face with the rulers and scholars of the eastern Mediterranean."
+        }
+      ],
+      "commonsFile": "Seated_figure_grom_Mali,_13th_century,_Djenné_peoples,_Metropolitan_Museum_of_Art,_1981.218.JPG"
     },
     {
       "id": "evt-mali-sakura",
       "label": "Mansa Sakura",
       "year": 1285,
       "endYear": 1300,
-      "description": "Sakura, a freed slave-soldier, seized the throne after a period of dynastic instability and expanded the empire's territory eastward toward Gao. His reign demonstrated the unusual fluidity of Mali's political system, in which non-royal commanders could occasionally take the throne without overthrowing the dynasty's overall legitimacy. He was killed during his return from Mecca in 1300.",
+      "description": "Sakura was a freed slave-soldier who grabbed the throne during a stretch of dynastic chaos — and somehow ruled as a legitimate mansa anyway, expanding Mali eastward toward Gao before he was killed coming home from Mecca.",
       "wikiSlug": "Sakura_of_Mali",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reign dates (about 1285–1300) come from the French colonial scholar Maurice Delafosse's estimates, not hard records. The great Arab historian Ibn Khaldun, who covered Sakura in more detail than most early mansas and called him a mighty ruler, says he was murdered at Tajura — a town about 12 miles (19 km) east of Tripoli on the Libyan coast — while returning from the pilgrimage. A competing oral tradition says he was instead killed by Qu (Kon Mamadi), a grandson of Sundiata, who then took the throne and returned power to the royal Keita line."
+        }
+      ],
+      "commonsFile": "Raccolte_Extraeuropee_-_Passaré_00344_-_Testa_Djenne_-_Mali.jpg"
     },
     {
       "id": "evt-mali-abu-bakr-voyage",
       "label": "Abu Bakr II's Atlantic expedition",
       "year": 1311,
-      "description": "According to a fourteenth-century account preserved by the Egyptian historian al-Umari, Mansa Musa told his Cairo hosts that his predecessor Abu Bakr II had abdicated the throne to lead an expedition of 2,000 ships into the Atlantic to discover the western edge of the ocean — and never returned. The account is a single source, transmitted through Cairo gossip, and modern historians treat the voyage as legendary rather than documented.",
+      "description": "A famous story, told by Mansa Musa in Cairo and written down by the Egyptian scholar al-Umari, has Musa's predecessor sailing a fleet of 2,000 ships west into the Atlantic to find the ocean's far edge — and vanishing.",
       "wikiSlug": "Abu_Bakr_II",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The name \"Abu Bakr II\" is almost certainly a mistake: the 19th-century translator Baron de Slane misread Ibn Khaldun and turned a name in Musa's family tree into a supposed king. No Mansa Abu Bakr II ever reigned; the predecessor was most likely Mansa Muhammad (Muhammad ibn Qu), and al-Umari's text never actually names him. The tale reached al-Umari third-hand — Musa told an emir, who told al-Umari — and in the original version the first scouting trip was 200 ships, only one of which came back. No accepted evidence of pre-Columbian African contact with the Americas has ever turned up, so historians file the whole thing under legend."
+        }
+      ],
+      "commonsFile": "1492_Portolan_chart_of_the_Mediterranean_Sea,_the_North_Atlantic_Ocean,_the_Black_Sea,_and_the_West_African_coast_as_far_south_as_Sierra_Leone.png"
     },
     {
       "id": "evt-mali-mansa-musa",
       "label": "Mansa Musa",
       "year": 1312,
       "endYear": 1337,
-      "description": "Mansa Musa ruled Mali at its peak, presiding over an empire stretching from the Atlantic to the Niger bend. He is often cited as the wealthiest person in history — though that claim is essentially unverifiable, since no medieval economy produced the kind of records that would let us compare across centuries.",
+      "description": "Mali's tenth ruler and its most famous, Mansa Musa ran the empire at its absolute peak — Atlantic coast to the Niger Bend, an area about the size of Western Europe. He's the man behind every \"richest person ever\" listicle, though that ranking is more clickbait than history.",
       "wikiSlug": "Mansa_Musa",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Modern historians actually doubt the old story that Musa's predecessor was a \"Mansa Abu Bakr II\" who sailed off into the Atlantic and never came back. That name traces to a 19th-century mistranslation of the Arab historian Ibn Khaldun by Baron de Slane; in the original Arabic, Abu Bakr is named only as the ancestor of Musa's family line, not as a king. Musa's real predecessor was a ruler called Muhammad, and Musa most likely took the throne in 1312 (some sources say 1307)."
+        }
+      ],
+      "commonsFile": "Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg"
     },
     {
       "id": "evt-mali-musa-hajj",
       "label": "Mansa Musa's pilgrimage to Mecca",
       "year": 1324,
-      "description": "Musa's lavish hajj — with a caravan of perhaps 60,000 attendants and tons of gold — passed through Cairo in the summer of 1324 and put Mali on European maps. It was one of the most famous journeys in history, and the most important political act of any sub-Saharan African ruler in the medieval period.",
+      "description": "In 1324 Musa set out across the Sahara for Mecca with a caravan so loaded with gold it became the stuff of legend — and accidentally rewrote how the rest of the world saw West Africa. By the time he came home, the Islamic world knew Mali existed and European mapmakers were drawing its king.",
       "wikiSlug": "Mansa_Musa",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Egyptian writer al-Umari, our main source, listed an entourage of 8,000 courtiers, 12,000 servants, and 100 camels each carrying gold dust. The caravan crossed the desert in pilgrim's white but Musa's people are said to have dressed in fine brocade. Along the way Musa gave gold to the poor in every city he passed, and Mali's hajj route was a real overland slog of several months through salt-mining outposts before it ever reached Egypt."
+        }
+      ],
+      "commonsFile": "Mansa_Moussa_on_the_map_of_Angelino_Dulcert.jpg"
     },
     {
       "id": "evt-mali-musa-gold-crash",
       "label": "Musa crashes Egyptian gold market",
       "year": 1324,
-      "description": "Mansa Musa distributed and spent so much gold in Cairo during his hajj that he depressed the value of gold in the Egyptian economy for over a decade. Egyptian merchants, fascinated and exploitative in equal measure, sold him goods at inflated prices and absorbed his gold into the Mediterranean monetary system, where it eventually contributed to the supply that financed late-medieval Italian banking.",
+      "description": "Musa handed out gold in Cairo so freely — to officials, scholars, shopkeepers, the poor — that he flooded the market and sent the price of gold crashing for years. It's one of the best-documented examples of a one-man monetary shock in the pre-modern world.",
       "wikiSlug": "Mansa_Musa",
       "tier": 1,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Before he even settled in, Musa reportedly sent the Egyptian sultan a gift of 50,000 gold dinars. The mithqal (a standard gold weight) fell below 25 dirhams (silver coins) during his stay and stayed depressed afterward. Cairo's merchants, sensing easy marks, overcharged his retinue so badly that Musa ran short and had to borrow money at steep interest for the trip home — and some of those creditors trailed him all the way back to Mali to collect."
+        }
+      ]
     },
     {
       "id": "evt-mali-cairo-stay",
       "label": "Mansa Musa in Cairo",
       "year": 1324,
-      "description": "Mansa Musa spent roughly three months in Cairo in the summer of 1324 as the guest of the Mamluk Sultan al-Nasir Muhammad. The Egyptian historian al-Umari, working from interviews conducted twelve years later with people who had met him, provides our richest single source for Mansa Musa's appearance, court, religious knowledge, and the size and behavior of his caravan.",
+      "description": "Musa spent about three months in Cairo in the summer of 1324 as a guest of the Mamluk sultan — and it's almost entirely because of this stopover that we know what we know about him. Egyptian and Syrian writers actually laid eyes on his court; nobody outside Mali wrote down the rest of his reign in nearly the same detail.",
       "wikiSlug": "Al-Umari",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Al-Umari (full name Shihab al-Din al-Umari) never met Musa himself; he gathered his account from Cairo officials about twelve years after the visit, who were reportedly still gossiping about it. The famous friction was over court protocol: Musa balked at the customary prostration before the sultan, and the standoff was only resolved when he agreed to bow to God rather than to the throne. His host was al-Nasir Muhammad, a Mamluk ruler twice deposed and twice restored who held power, on and off, for more than half a century."
+        }
+      ]
     },
     {
       "id": "evt-mali-djinguereber",
       "label": "Djinguereber Mosque built",
       "year": 1327,
-      "description": "Mansa Musa commissioned the Djinguereber Mosque in Timbuktu, traditionally credited to the Andalusian architect al-Sahili. Built of mud brick reinforced with palm-wood beams in the Sudano-Sahelian style, it remains a working mosque today and is part of the Timbuktu UNESCO World Heritage Site.",
+      "description": "Timbuktu's biggest and oldest of three great mosques, built of mud brick bristling with palm-wood beams. It still works as a mosque today, nearly seven centuries on, which means it has been re-plastered by hand after almost every rainy season since the 1320s.",
       "wikiSlug": "Djinguereber_Mosque",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Tradition credits the design to al-Sahili, an Andalusian (Muslim Spain) scholar-architect Mansa Musa reportedly brought back from his pilgrimage — and the chronicler Ibn Khaldun says he was paid a staggering 12,000 mithqals of gold dust for the work (a mithqal was a small coin-weight of gold, so this was a fortune). Modern scholars now doubt the al-Sahili story, arguing the Sudano-Sahelian mud-brick style grew out of older Saharan and West African building traditions rather than a single imported genius. The mosque is part of the Timbuktu UNESCO World Heritage Site, which was listed as endangered after the 2012 jihadist occupation."
+        }
+      ],
+      "commonsFile": "Djinguereber_in_Timbuktu.jpg"
     },
     {
       "id": "evt-mali-timbuktu-rise",
       "label": "Timbuktu becomes center of learning",
       "year": 1330,
-      "description": "Under Mansa Musa, Timbuktu grew from a seasonal trading camp into one of the Islamic world's significant centers of scholarship, attracting scholars from across North Africa and the Middle East. Its three great mosques — Djinguereber, Sankoré, and Sidi Yahya — each functioned as the nucleus of an associated madrasa.",
+      "description": "After Mansa Musa came home from his gold-soaked pilgrimage to Mecca, he turned a dusty Tuareg watering hole on the desert's edge into an imperial showpiece — and within a few generations Timbuktu had become one of the Islamic world's real centers of learning, packed with scholars, copyists, and students.",
       "wikiSlug": "Timbuktu",
       "tier": 1,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The city sits about 8 miles (13 km) north of the Niger River, just close enough to plug into river trade and just far enough into the sand to control the caravan routes — a sweet spot where Saharan salt met Sahelian gold. At its peak the resident scholar population ran to several hundred, with a few thousand students drifting through at any given time, though the whole city probably never topped 50,000 people. The name likely comes from a Tuareg phrase tied to a woman, possibly an enslaved one, said to have minded the original wells — though that origin story is folk etymology and may not be reliable."
+        }
+      ],
+      "commonsFile": "Barth_1858_Timbuktu_from_terrace.jpg"
     },
     {
       "id": "evt-mali-sankore-mosque",
       "label": "Sankoré Mosque and University",
       "year": 1340,
-      "description": "The Sankoré Mosque became the heart of Timbuktu's intellectual life. The associated madrasa — sometimes called Sankoré University by modern writers, though the term implies more institutional structure than the school actually had — drew students who studied theology, jurisprudence, grammar, astronomy, and medicine under individual master scholars.",
+      "description": "The mosque on Timbuktu's north side that became the beating heart of the city's intellectual life. Modern writers love to call its attached school \"Sankoré University,\" but it had no central administration, no enrollment, and no diplomas — just master scholars and the students who clustered around them.",
       "wikiSlug": "Sankore_Madrasah",
       "tier": 2,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The teaching worked on a personal apprenticeship model: a student attached himself to a particular master (a shaykh), worked through one text under his eye, earned a certificate (an ijaza) saying he'd finished it, then moved on to the next master — and his stack of ijazas was his whole resume. Local tradition holds that a wealthy woman financed the mosque, though accounts disagree on whether she was Mandinka or Tuareg. When an imam rebuilt the inner sanctuary in the 1570s–80s, he reportedly gave its courtyard the exact dimensions of the Kaaba in Mecca, which he had measured on his own pilgrimage."
+        }
+      ],
+      "commonsFile": "2007_Sankore_Mosque_Timbuktu_02.jpg"
     },
     {
       "id": "evt-mali-sidi-yahya",
       "label": "Sidi Yahya Mosque",
       "year": 1440,
-      "description": "The Sidi Yahya Mosque, the third of Timbuktu's great Sahelian-style mosques, was built in the early fifteenth century and named for its first imam, Sidi Yahya al-Tadelsi. Its main door was traditionally said to be sealed and would only open on the day before the end of the world — a piece of local lore that protected the building for centuries before vandals broke the seal in 2012.",
+      "description": "The third of Timbuktu's great mud-brick mosques, finished in the mid-fifteenth century and named for its first imam. Local lore held that its main door must stay sealed until the day before the end of the world — so for centuries nobody opened it.",
       "wikiSlug": "Sidi_Yahya_Mosque",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mosque was built between roughly 1400 and 1440, and Sidi Yahya al-Tadelsi was appointed its first imam in 1441. The legend protected that door for almost six hundred years, until July 2012, when fighters from Ansar Dine (a hardline group tied to al-Qaeda) smashed it open during their occupation of the city, saying they wanted to \"destroy the mystery\" because it clashed with their austere reading of Islam. UNESCO and local woodworkers restored the doorway in 2013 after the militants were driven out."
+        }
+      ],
+      "commonsFile": "Sidi_Yahya.jpg"
     },
     {
       "id": "evt-mali-catalan-atlas",
       "label": "Catalan Atlas depicts Mansa Musa",
       "year": 1375,
-      "description": "The Catalan Atlas, drawn in 1375 by the Mallorcan Jewish cartographer Abraham Cresques for Charles V of France, is one of medieval Europe's most important maps. Its West African panel shows Mansa Musa enthroned, holding a gold nugget the size of his head — the first time a sub-Saharan African ruler appeared on a European map, and a measure of how thoroughly Mali's reputation had reached the Mediterranean.",
+      "description": "In 1375 a Mallorcan mapmaker drew Mansa Musa enthroned in the African corner of the Catalan Atlas, gold nugget in hand — the first time a sub-Saharan African ruler showed up on a European map. Fifty years after the hajj, Mali's reputation had soaked all the way into Christian Europe.",
       "wikiSlug": "Catalan_Atlas",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The atlas was made by Cresques Abraham (often called Abraham Cresques), working with his son Jehuda, on six leaves of vellum painted with real gold and silver. Musa sits on the second panel holding a golden orb, and his caption reads roughly: \"This black lord is called Musse Melly... the richest and noblest king of all these lands, on account of the abundance of gold that is gathered in his land.\" It was likely produced as a royal gift bound for the French court."
+        }
+      ],
+      "commonsFile": "1375_Atlas_Catalan_Abraham_Cresques.jpg"
     },
     {
       "id": "evt-mali-ibn-battuta",
       "label": "Ibn Battuta visits Mali",
       "year": 1352,
-      "description": "The Moroccan traveler Ibn Battuta — the most widely traveled person of the pre-modern world, with over 75,000 miles by his own account — spent eight months in Mali in 1352–53, recording detailed and often critical observations of its governance, justice system, social customs, and the Islamic practice of its court.",
+      "description": "The Moroccan globetrotter who actually showed up and took notes. Ibn Battuta spent about eight months in Mali in 1352–53, and his report is the single best eyewitness account of the empire we have — detailed, opinionated, and not shy about what he disliked.",
       "wikiSlug": "Ibn_Battuta",
       "tier": 1,
       "tags": [
         "people"
       ],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "His full travel book carries the wonderful title \"A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling\" — usually just called the Rihla (\"Journey\"). He griped that Mansa Suleyman was a stingy host, sending him a welcome gift of only three loaves of bread, a piece of fried beef, and a calabash of sour milk. He also recorded river-dwellers hunting hippos along the Niger and leaving great heaps of their bones, and was scandalized that Mali's women moved freely in public unveiled — his exact complaints are part of why historians trust the rest: a flatterer he was not."
+        }
+      ],
+      "commonsFile": "Handmade_oil_painting_reproduction_of_Ibn_Battuta_in_Egypt,_a_painting_by_Hippolyte_Leon_Benett..jpg"
     },
     {
       "id": "evt-mali-mansa-suleyman",
       "label": "Mansa Suleyman",
       "year": 1341,
       "endYear": 1360,
-      "description": "Musa's brother Suleyman maintained the empire's stability and continued patronage of Islamic scholarship, though tensions with court factions grew. Ibn Battuta visited his court in 1352 and described him as miserly compared to his brother — an unflattering comparison that says more about Mansa Musa's reputation than about Suleyman's actual rule.",
+      "description": "Musa's brother Suleyman held the empire together for nearly two decades and kept funding Islamic scholarship — but went down in history as a tightwad next to his dazzling brother. He's mostly remembered because a famous traveler showed up to write it all down.",
       "wikiSlug": "Mansa_Suleyman",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Ibn Battuta — a Moroccan globetrotter from the Marinid sultanate — visited around 1352 and left the most detailed firsthand portrait of Mali at its height. He arrived in the middle of a palace scandal: Suleyman accused his chief wife, Qasa, of plotting a coup with an exiled royal, jailed her, and replaced her with another wife, Banju. The drama outlasted him — Suleyman died around 1359-1360, his son ruled only about nine months, and civil war broke out soon after."
+        }
+      ],
+      "commonsFile": "MALI_empire_map.PNG"
     },
     {
       "id": "evt-mali-cowrie-currency",
@@ -419,34 +631,55 @@
       "id": "evt-mali-djenne-mosque",
       "label": "Great Mosque of Djenné",
       "year": 1280,
-      "description": "The original Great Mosque of Djenné was built in the thirteenth or early fourteenth century in the distinctive Sudano-Sahelian mud-brick style, on a site that had been a major Islamic and commercial center even before Mali's expansion. The current structure dates to 1907 but follows the earlier plan and remains the largest mud-brick building in the world.",
+      "description": "The Great Mosque of Djenné is a mountain of mud — the largest building on Earth made from sun-dried clay brick. The original went up in Mali's heyday in this distinctive Sahelian style, all rounded walls bristling with wooden beams.",
       "wikiSlug": "Great_Mosque_of_Djenné",
       "tier": 1,
       "tags": [
         "religion"
       ],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mosque you see today is not medieval: the French oversaw a full rebuild in 1907 under Ismaila Traoré, head of Djenné's masons' guild, using forced labor. Mud architecture melts in the rain, so the whole town turns out every year before the rains for the crepissage — a festival where residents re-plaster the entire building by hand, music playing and griots (oral historians) entertaining the workers. Djenné and its mosque were named a UNESCO World Heritage Site in 1988."
+        }
+      ],
+      "commonsFile": "Djenne_great_mud_mosque.jpg"
     },
     {
       "id": "evt-mali-djenne-djenno",
       "label": "Djenné-Djenno archaeology",
       "year": 250,
       "endYear": 1400,
-      "description": "Excavations at Djenné-Djenno, just south of the medieval city of Djenné, have revealed an urban settlement that flourished from roughly 250 BCE to 1400 CE — older than Ghana itself, and one of the earliest known cities in sub-Saharan Africa. The discovery rewrote the chronology of West African urbanism, demonstrating indigenous city-formation centuries before the trans-Saharan trade reached the Sahel.",
+      "description": "A buried city next door to medieval Djenné that, when archaeologists finally dug it in the late 1970s, turned out to be older than the empire of Ghana itself — proof that West Africans were building real cities long before any caravan from the north showed up.",
       "wikiSlug": "Djenné-Djenno",
       "tier": 2,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Husband-and-wife archaeologists Roderick and Susan McIntosh excavated the mound between 1977 and 1981, tracing continuous settlement from roughly 250 BCE to about 1400 CE, with a peak population near 20,000. The site is famous for its terracotta figurines of people and animals — so prized that many had been looted and sold to Western collectors before the digs even began. Strikingly, the city seems to have grown without a king or palace at its center, hinting that complex urban life in the region did not require a top-down state to spark it. Djenné-Djenno is now a UNESCO World Heritage Site."
+        }
+      ],
+      "commonsFile": "Djenne_Terracotta_Archer_(13th-15th_cent).jpg"
     },
     {
       "id": "evt-mali-timbuktu-manuscripts",
       "label": "Timbuktu manuscript tradition",
       "year": 1400,
-      "description": "Scholars in Timbuktu and surrounding communities produced and collected hundreds of thousands of manuscripts on theology, law, astronomy, medicine, mathematics, history, and poetry. Many survived in private family libraries through the centuries; in the twenty-first century, an emergency rescue operation smuggled tens of thousands of them out of Timbuktu ahead of the 2012 jihadist occupation.",
+      "description": "From the late 1300s on, Timbuktu's scholars copied, wrote, and hoarded manuscripts on everything from astronomy to law to poetry — by the hundreds of thousands. They are the single biggest body of pre-colonial sub-Saharan African writing, and their existence demolishes the old myth that the region had no written tradition.",
       "wikiSlug": "Timbuktu_Manuscripts",
       "tier": 1,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Most of the corpus survived not in any grand archive but in private family libraries, handed down for generations. When jihadist groups seized Timbuktu in 2012, a librarian named Abdel Kader Haidara organized a clandestine eight-month rescue: hundreds of packers and couriers spirited more than 350,000 manuscripts out of the city in metal footlockers, mule carts, and 4x4s, smuggling them past checkpoints by road and down the Niger by boat. By the time French troops arrived in January 2013, the militants had managed to burn only around 4,000 of the nearly 400,000 works — the vast majority were saved."
+        }
+      ],
+      "commonsFile": "Timbuktu-manuscripts-astronomy-mathematics.jpg"
     },
     {
       "id": "evt-mali-astronomy",
@@ -472,33 +705,53 @@
       "id": "evt-mali-sonni-ali",
       "label": "Sonni Ali captures Timbuktu",
       "year": 1468,
-      "description": "Sonni Ali of the Songhai Empire — a brilliant but brutal cavalry commander — captured Timbuktu from Mali in 1468 after Tuareg raiders had already taken the city the previous decade. His occupation was famously violent toward the city's scholarly class, and his name remained a byword for impiety in Timbuktu's later chronicles.",
+      "description": "Sonni Ali, Songhai's warrior-king, took Timbuktu from Mali in 1468 and made it the empire's second city. He had little patience for the town's holy men and dealt with them harshly — which is why Timbuktu's later writers remembered him as a monster.",
       "wikiSlug": "Sonni_Ali",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Five years after Timbuktu, Sonni Ali turned on Djenné, the great walled trading city of the Inner Niger Delta. Legend says he besieged it for seven years, seven months, and seven days before starving it into surrender in 1473 — and then, in sharp contrast to Timbuktu, spared everyone because he admired how hard they had fought. He drowned crossing a river in 1492, the same year Columbus reached the Caribbean. In Songhai memory he is a founding hero on the order of Sundiata; in Timbuktu's Arabic chronicles he is a tyrant — and both were written down by people with reasons to remember him their way."
+        }
+      ]
     },
     {
       "id": "evt-mali-songhai-rise",
       "label": "Songhai Empire eclipses Mali",
       "year": 1464,
       "endYear": 1591,
-      "description": "The Songhai Empire under Sonni Ali (r. 1464–1492) and Askia Muhammad (r. 1493–1528) absorbed Mali's eastern territories, reducing Mali to a regional power in the western Sahel. Songhai eventually surpassed Mali in territorial extent, controlling a corridor from the Atlantic almost to the Hausa city-states.",
+      "description": "Mali's old vassal on the Niger Bend grew up and ate its master. Over roughly a century the Songhai Empire, run from the river city of Gao, swallowed Mali's eastern provinces one by one until Mali was just its western Mandinka homeland again.",
       "wikiSlug": "Songhai_Empire",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At its peak under Askia Muhammad, Songhai was the largest empire West Africa ever produced — bigger than Mali at its height — stretching from the Atlantic in modern Senegal east to Hausaland (the cluster of trading city-states in what is now northern Nigeria), where Songhai armies hit Gobir, Katsina, and Zaria and forced wealthy Kano to pay heavy tribute. Its northern edge reached the brutal Saharan salt mines of Taghaza. The whole structure held together for barely a century before a Moroccan invasion in 1591 shattered it."
+        }
+      ],
+      "commonsFile": "SONGHAI_empire_map.PNG"
     },
     {
       "id": "evt-mali-askia-muhammad",
       "label": "Askia Muhammad consolidates Songhai",
       "year": 1493,
       "endYear": 1528,
-      "description": "Askia Muhammad seized the Songhai throne in 1493, inaugurated a deliberately Islamic administration, made his own celebrated hajj to Mecca in 1497–98, and rebuilt Timbuktu's scholarly community after Sonni Ali's depredations. He was the second great patron of Sahelian Islamic culture after Mansa Musa.",
+      "description": "When Sonni Ali died, his top general shoved aside the heir and took the throne as Askia Muhammad. He flipped the script — where Sonni Ali sneered at Islam, Askia built his whole rule on it, and repaired the scholarly community his predecessor had gutted.",
       "wikiSlug": "Askia_Muhammad_I",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "On his 1497–98 pilgrimage to Mecca he wrangled the title \"Caliph of the Sudan\" (sudan being the Arabic word for the West African Sahel) from the puppet Abbasid caliph in Cairo — a religious rubber-stamp no Mali ruler had ever bothered to collect. Back home he leaned on imported Maghrebi scholars; one of them, al-Maghili, wrote him the famous \"Replies to Askia,\" a written legal Q&A on how a Muslim king should govern that doubled as propaganda branding Sonni Ali's dynasty as un-Islamic. Askia ruled until 1528, when his own son overthrew him; he had reportedly gone blind by then."
+        }
+      ],
+      "commonsFile": "Askia.jpg"
     },
     {
       "id": "evt-mali-kola-trade",
@@ -514,11 +767,18 @@
       "id": "evt-mali-niger-commerce",
       "label": "Niger River commerce",
       "year": 1300,
-      "description": "The Niger River served as Mali's commercial highway, with shallow-draft pirogue boats and large freight canoes carrying gold, salt, copper, fish, and grain between Niani, Djenné, Timbuktu, and Gao. The river's annual flood replenished farmland along its inland delta, giving Mali a more reliable agricultural base than its trans-Saharan trade rivals.",
+      "description": "The Niger River was Mali's moving highway — a watery main street where flat-bottomed pirogue canoes and big freight boats hauled gold, slabs of salt, copper, dried fish, and grain between the river towns of Niani, Djenné, Timbuktu, and Gao.",
       "wikiSlug": "Niger_River",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Niger is the third-longest river in Africa, running about 2,600 miles (4,180 km) on a strange boomerang loop that rises near the Atlantic coast, swings north into the edge of the Sahara, then bends back south to the sea. The salt-for-gold math along it was brutal: a roughly 200-pound (90 kg) block of salt floated down from Timbuktu to Djenné could double in value, and salt sometimes traded close to its own weight in gold. River canoes did the heavy lifting that camels couldn't — a single freight boat moved far more cargo than any caravan."
+        }
+      ],
+      "commonsFile": "Niger,_Niamey,_Pont_Kennedy_(1).jpg"
     },
     {
       "id": "evt-mali-traditional-religion",
@@ -544,32 +804,52 @@
       "id": "evt-mali-al-sahili",
       "label": "Al-Sahili, architect from Granada",
       "year": 1325,
-      "description": "Mansa Musa returned from his hajj with the Andalusian poet-architect Abu Ishaq al-Sahili, whom Mali tradition credits with introducing the flat-roofed brick construction that became standard in Sahelian elite architecture. Modern scholars have qualified al-Sahili's role significantly — most of the Sahel's mud-brick architectural vocabulary was indigenous and centuries older — but he was a real figure whose presence at Musa's court is independently documented.",
+      "description": "Musa came home in 1325 with a souvenir of a very different kind: Abu Ishaq al-Sahili, a poet-architect from Granada he'd recruited in Cairo. Mali tradition made him the father of Sahelian brick architecture, but the real story is more modest.",
       "wikiSlug": "Abu_Es_Haq_es_Saheli",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The mud-brick building tradition the Sahel is famous for was already ancient by al-Sahili's day — monumental mud architecture at sites like Djenné-Djenno goes back to the early first millennium CE, long before any Andalusian arrived. What al-Sahili most plausibly contributed was Andalusian decorative touches and supervision of specific commissions; Ibn Khaldun, who names him as a genuine figure at Musa's court, credits him with the Timbuktu mosque work and a 12,000-mithqal (gold-weight) payment."
+        }
+      ],
+      "commonsFile": "Fortier_372_Timbuktu_Djingereber_Mosque.jpg"
     },
     {
       "id": "evt-mali-ahmed-baba",
       "label": "Ahmed Baba al-Timbukti",
       "year": 1556,
       "endYear": 1627,
-      "description": "Ahmed Baba was the greatest Timbuktu scholar of the late sixteenth century, the author of more than forty books on Islamic law, biography, and theology. He was deported to Marrakesh after the Moroccan invasion of 1591 and spent fifteen years in exile teaching Moroccan students. The Ahmed Baba Institute in modern Timbuktu — destroyed and partially rebuilt in the 2012–13 conflict — preserves his name.",
+      "description": "The most celebrated scholar Timbuktu ever produced — a jurist who wrote more than forty books and whose biographical dictionary of legal scholars stayed a standard reference for centuries. He's also remembered for arguing, in detail, that enslaving West African Muslims broke Islamic law.",
       "wikiSlug": "Ahmad_Baba_al-Timbukti",
       "tier": 2,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "After Moroccan troops occupied Timbuktu in 1591 they hauled Ahmed Baba off to Marrakesh, jailing him before forcing him to stay and teach for years; he wasn't allowed home until 1607. His most famous line, supposedly delivered to the Moroccan sultan, was that the soldiers had stolen more than 1,600 books from him — and that this was the smallest library among all his relatives, a one-sentence glimpse of just how book-rich Timbuktu's scholarly families were. His treatise on the slave trade, the Mi'raj al-Su'ud, drew on a century of Timbuktu legal thinking to declare much of the trans-Saharan trade illegitimate. Timbuktu's main manuscript institute today bears his name."
+        }
+      ]
     },
     {
       "id": "evt-mali-tarikh-al-sudan",
       "label": "Tarikh al-Sudan and Tarikh al-Fattash",
       "year": 1655,
-      "description": "Two seventeenth-century chronicles composed in Timbuktu — the Tarikh al-Sudan of Abd al-Sadi and the Tarikh al-Fattash attributed to Mahmud Kati — preserve the most detailed surviving narrative history of Mali, Songhai, and the Moroccan invasion. They are written in Arabic and draw on earlier Timbuktu scholarly traditions; they are the bridge between Mali's oral tradition and the modern historical record.",
+      "description": "Almost everything we know in detail about Mali and Songhai comes from two Arabic chronicles written in seventeenth-century Timbuktu. They're the hinge between the jeli's spoken memory and the written historical record.",
       "wikiSlug": "Tarikh_al-Sudan",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Mahmud Kati supposedly began the Tarikh al-Fattash in 1519 at age 51, and his sons and grandsons carried the work forward to around 1665 — one grandson, Ibn al-Mukhtar, did much of the actual writing. The companion chronicle, the Tarikh al-Sudan by Abd al-Rahman al-Sadi, came a little later and rivals it in scope. Both run the Songhai story from Sonni Ali up to the Moroccan conquest of 1599. Modern scholarship has gotten complicated: the standard 1913 French edition of the Fattash turns out to have stitched two different manuscripts together."
+        }
+      ],
+      "commonsFile": "تاريخ_السودان.jpg"
     },
     {
       "id": "evt-mali-sudano-sahelian",
@@ -595,103 +875,172 @@
       "id": "evt-mali-moroccan-invasion",
       "label": "Moroccan invasion at Tondibi",
       "year": 1591,
-      "description": "A Moroccan Saadian army of perhaps 4,000 troops — equipped with matchlock muskets and cannons — destroyed the much larger Songhai cavalry army at the Battle of Tondibi on March 13, 1591. The matchlock decisively beat the lance-and-sword cavalry that had dominated Sahelian warfare for centuries, ending the great Sahelian empires and destabilizing the entire region.",
+      "description": "On March 13, 1591, a Moroccan force of about 4,000 muskets and cannons smashed a Songhai cavalry army many times its size at Tondibi, on the Niger just north of Gao. In roughly two hours, the guns broke the lance-and-saber charges that had ruled Sahelian warfare for centuries — and the great western Sahel empires were finished.",
       "wikiSlug": "Battle_of_Tondibi",
       "tier": 1,
       "tags": [],
-      "category": "wars"
+      "category": "wars",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The Moroccan force was a lean column of 1,500 light cavalry and 2,500 arquebusiers (men with the matchlock long gun called an arquebus). The Songhai king Askia Ishaq II reportedly tried to stampede a herd of cattle into the Moroccan line to disrupt it, but the volleys and cannon noise turned the cattle back into his own troops. The Tarikh al-Sudan, a Timbuktu chronicle written decades later, records that some Songhai soldiers, bound by a code of honor, sat down on their shields rather than flee and were cut down where they sat."
+        }
+      ],
+      "commonsFile": "Bataille_de_tondibi.png"
     },
     {
       "id": "evt-mali-saadian-dynasty",
       "label": "Saadian dynasty of Morocco",
       "year": 1578,
       "endYear": 1603,
-      "description": "The Saadian dynasty of Morocco, under Sultan Ahmad al-Mansur, defeated a Portuguese invasion at the Battle of the Three Kings in 1578 and used the resulting prestige and ransom money to fund the trans-Saharan invasion of Songhai thirteen years later. Al-Mansur's project was, partly, to seize the Sahelian gold supply at its source — a goal the invasion achieved only briefly and at enormous cost.",
+      "description": "The Saadians were Morocco's ruling dynasty (claiming descent from the Prophet Muhammad), and under Sultan Ahmad al-Mansur they turned a stunning 1578 victory over Portugal into the war chest that paid for the gamble across the Sahara. Al-Mansur wanted one thing above all: West Africa's gold, seized at the source instead of bought through middlemen.",
       "wikiSlug": "Saadi_Sultanate",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "At the 1578 battle near Ksar el-Kebir — nicknamed the Battle of the Three Kings because three rulers died that day — the boy-king Sebastian I of Portugal was killed, leaving no heir and triggering the crisis that let Spain swallow Portugal in 1580. Al-Mansur (whose title means 'the Victorious') filled his treasury by ransoming thousands of captured Portuguese nobles. A restless schemer, he corresponded with Queen Elizabeth I about a joint strike on Spain and even floated plans to seize Spanish colonies in the Americas. He died of plague in 1603, and within decades the Saadians were gone, replaced by the Alawi dynasty that still rules Morocco today."
+        }
+      ],
+      "commonsFile": "Saadiens_-_Carte_fin_XVIe_siècle_(revised).jpg"
     },
     {
       "id": "evt-mali-judar-pasha",
       "label": "Judar Pasha leads Saharan crossing",
       "year": 1591,
-      "description": "Judar Pasha, a Spanish-born eunuch in Saadian service, led the Moroccan expeditionary force across the Sahara — a march that killed roughly half the original army before it ever reached the Niger. The survivors carried matchlock muskets that the Songhai cavalry could not counter. After Tondibi, Judar's force occupied Timbuktu and Gao but never managed to control the empire it had nominally conquered.",
+      "description": "Judar Pasha led the desert march that conquered Songhai — and he was an unlikely choice: a Spanish-born castrated slave raised in the sultan's household. Half his army died crossing the Sahara, yet the survivors' guns still won at Tondibi, after which he occupied Timbuktu and Gao without ever truly controlling them.",
       "wikiSlug": "Judar_Pasha",
       "tier": 3,
       "tags": [],
-      "category": "people"
+      "category": "people",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "He was born Diego de Guevara in Cuevas del Almanzora in Castile, captured by slave-raiders as a child, castrated, and known in Morocco for his startling blue eyes. When he finally returned home in 1599, his caravan carried thirty camel-loads of gold that one English merchant valued at £600,000 — a colossal sum for the era. His own end was grim: he was executed in December 1606, strangled amid the dynastic civil war that tore Morocco apart after al-Mansur's death."
+        }
+      ],
+      "commonsFile": "Arquebusier_(1585).jpg"
     },
     {
       "id": "evt-mali-arma-state",
       "label": "Arma military caste in Timbuktu",
       "year": 1612,
-      "description": "After the Moroccan invasion, the descendants of the Saadian soldiers — known as the Arma, from al-rumat ('the marksmen') — settled in Timbuktu and Gao, married locally, and gradually formed an autonomous military caste that ruled the Niger Bend cities into the eighteenth century. Officially they paid tribute to Marrakesh; in practice they were independent within a generation.",
+      "description": "The conquerors stayed and went local. The Arma — descendants of the Moroccan musketeers, the name from al-rumat, 'the marksmen' — married into Niger Bend families and hardened into a proud hereditary warrior caste that ran Timbuktu, Gao, and Djenné as their own for generations, the tie to distant Marrakesh fading to almost nothing.",
       "wikiSlug": "Arma_people",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "They governed through a polity historians call the Pashalik of Timbuktu, a province led by pashas the soldiers themselves elected once Morocco's grip slipped after al-Mansur's death in 1603. Numbering perhaps 2,000 to 3,000 fighters at first, they kept marrying only among themselves and styled themselves a race apart — locally nicknamed Gakory, 'white body' in the Songhay language, a nod to their North African ancestry. By the mid-1600s the link to Morocco was purely ceremonial, and the Arma ruled as independent lords."
+        }
+      ],
+      "commonsFile": "1548._Henri_II._Arquebusier_à_cheval_et_Estradiot.jpg"
     },
     {
       "id": "evt-mali-keita-kangaba",
       "label": "Keita kingdom of Kangaba",
       "year": 1600,
       "endYear": 1700,
-      "description": "After Mali's collapse, the Keita royal lineage retreated to a small successor kingdom centered on Kangaba on the upper Niger, where descendants of the Sundiata dynasty continued to rule into the seventeenth century and beyond. Kangaba is the home of the Kamabolon sanctuary, where the Sundiata epic is still ritually re-narrated by griots every seven years.",
+      "description": "When the imperial center fell apart, the Keita royal family did the symbolic thing and went home — back to Kangaba, the upstream village their dynasty came from before the empire ever existed. They've held the chiefship there ever since.",
       "wikiSlug": "Kangaba",
       "tier": 2,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kangaba was already loaded with meaning before the retreat: it sits on the Niani-area plain of Kurukan Fuga where Sundiata Keita is said to have proclaimed the Manden Charter after his 1235 victory at Krina. The town's full Mande name is Kaba. After Sundiata's reign the Keita capital function had drifted elsewhere, so the seventeenth-century return was less a new settlement than a homecoming to the clan's deepest root — the one place where being a Keita still meant something even after the empire stopped paying out."
+        }
+      ],
+      "commonsFile": "Entrance_to_Kangaba.jpg"
     },
     {
       "id": "evt-mali-kaabu-confederation",
       "label": "Kaabu confederation",
       "year": 1537,
       "endYear": 1867,
-      "description": "Kaabu, a Mande-speaking confederation in what is now Guinea-Bissau and northern Guinea, originated as a western province of the Mali Empire and outlasted the imperial center by more than two centuries. It was destroyed by Fula jihadist forces at the Battle of Kansala in 1867, ending the last politically organized successor of the Mali state.",
+      "description": "Out west, in what is now Guinea-Bissau and its neighbors, a cluster of Mande kingdoms called Kaabu kept the Mali political idea alive for over two centuries after the empire itself was gone — until a Muslim Fula army wiped it out in a single apocalyptic siege in 1867.",
       "wikiSlug": "Kaabu",
       "tier": 3,
       "tags": [],
-      "category": "rulers"
+      "category": "rulers",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Kaabu's warrior aristocracy, the Nyancho, traced descent back to the Mande heartland and ran the federation through a rotating kingship among its constituent provinces. The final siege at Kansala carries a famous legend: the last ruler, Mansaba Janke Waali (also spelled Dianke Walli), reportedly prophesied that he would be Kaabu's last king. Convinced his roughly 25,000-strong force could not beat the Imamate of Futa Jallon, the story goes that he let the enemy pour into the fortress, then had his sons torch the city's gunpowder magazines — blowing up attackers and defenders together. The Mandinka name for the battle, Turban Keloo, means the war of annihilation."
+        }
+      ],
+      "commonsFile": "WestAfrica1625.png"
     },
     {
       "id": "evt-mali-kamabolon",
       "label": "Kamabolon ceremony at Kangaba",
       "year": 1700,
-      "description": "Every seven years, the Kamabolon sanctuary at Kangaba — a small mud-and-thatch shrine traditionally associated with the Keita lineage — is reroofed in a ceremony during which selected jeli recite the full Sundiata epic. The ritual has continued without recorded interruption for centuries and is the living ceremonial heart of the Mali oral tradition.",
+      "description": "Every seventh year the people of Kangaba re-roof a small painted mud sanctuary called the Kamabolon, and on the roofless night before the new roof goes on, senior griots recite the official, full-length Sundiata epic inside it. It is the closest thing the Mande world has to a scripture-reading.",
       "tier": 3,
       "tags": [],
-      "category": "religion"
+      "category": "religion",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The whole event runs about five days and works as a society-wide reset: a fresh age-group of young men does the ritual labor of repairing the walls and building the roof, so the ceremony also inaugurates them into adulthood. The Keita clan and griots carrying the Diabate surname are the recognized keepers and organizers. Anthropologists who documented the 1997 ceremony noted it is often called the only epic in the world transmitted purely orally yet performed in a fixed ceremonial setting — the recitation is also an occasion to settle disputes and to foretell what the next seven years will bring."
+        }
+      ],
+      "commonsFile": "Kama_Blon.jpg"
     },
     {
       "id": "evt-mali-niani-decline",
       "label": "Niani's decline as capital",
       "year": 1545,
-      "description": "Niani was sacked repeatedly through the fifteenth and sixteenth centuries and gradually shrank to a small village. By the time European explorers reached the upper Niger in the nineteenth century, the imperial capital described by Ibn Battuta had vanished so completely that its location remains debated among archaeologists.",
+      "description": "Niani, the capital Ibn Battuta described in the 1350s, shrank to nothing — and here is the strange part: archaeologists still cannot agree on where it actually was. A great medieval city more or less erased itself from the map.",
       "wikiSlug": "Niani,_Guinea",
       "tier": 3,
       "tags": [],
-      "category": "architecture"
+      "category": "architecture",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The long-standing candidate is the village of Niani in modern Guinea, an identification first proposed by French colonial scholars in 1923. But radiocarbon dating there shows a conspicuous gap in occupation across the late thirteenth to early fifteenth centuries — exactly the empire's heyday — and several twenty-first-century scholars have now firmly rejected it as the capital. Some re-readings of Ibn Battuta even place the royal seat far to the west, toward the upper Gambia. The likely culprit for the vanishing is the building material: unfired mud brick dissolves back into the soil within a few rainy seasons once people stop re-plastering it, so an abandoned Sahelian city can melt away in a couple of generations."
+        }
+      ]
     },
     {
       "id": "evt-mali-mansa-musa-image",
       "label": "Mansa Musa in European imagination",
       "year": 1400,
-      "description": "Following the Catalan Atlas, Mansa Musa appeared in a string of European maps and travel accounts from the late fourteenth through the seventeenth century, becoming the prototype for the European image of an immensely wealthy African king. The persistent mistake was treating Mansa Musa's wealth as a personal trait rather than the product of an integrated trans-Saharan trading economy.",
+      "description": "Mansa Musa's debut on the 1375 Catalan Atlas — enthroned, crowned, holding up a lump of gold — became the template for how Europe pictured a rich African king for the next several centuries. The trouble was that everyone read the gold as his and missed the trade system behind it.",
       "wikiSlug": "Mansa_Musa",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The atlas was made on Majorca by Cresques Abraham, a Jewish master mapmaker, who drew Musa cross-legged on a golden throne with a European-style orb and scepter and a gold nugget in his raised hand. The caption calls him \"Musse Melly,\" sovereign of the land of the Black people, and declares him \"the richest and noblest of all these lands due to the abundance of gold that is extracted from his lands\" — a line that fixed the gold-king image in the European mind generations before any European had set foot in his empire."
+        }
+      ],
+      "commonsFile": "Mussa_Melli_and_Timbuktu_Cropped_from_1413_Portolan_chart_by_Mecia_de_Viladestes.jpg"
     },
     {
       "id": "evt-mali-timbuktu-european-myth",
       "label": "Timbuktu as European myth",
       "year": 1700,
-      "description": "By the eighteenth century, Timbuktu had become a European synonym for the impossibly remote — a city of legendary gold and learning that no European had reached. The first European to visit and return alive was the Frenchman René Caillié in 1828, who found a sun-baked clay town that fell well short of the legend. The myth had outlived the imperial city by three centuries.",
+      "description": "For Europeans, Timbuktu became shorthand for the unreachable ends of the earth — a fabled city of gold no Westerner had managed to reach and survive. When one finally did, in 1828, he found a dusty clay town that made the legend look ridiculous.",
       "wikiSlug": "Timbuktu",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "In 1826 the Paris Société de Géographie dangled a 10,000-franc prize for the first European to reach Timbuktu and come back alive. A Scottish officer, Gordon Laing, got there in 1826 but was murdered on the way out, so the prize fell to the Frenchman René Caillié, who arrived disguised as a Muslim pilgrim in April 1828, lingered about two weeks, and crossed the Sahara home. He collected the francs and was made a Knight of the Legion of Honour — and his deflating account of an ordinary mud town was initially met with disbelief by audiences who preferred the myth."
+        }
+      ],
+      "commonsFile": "Caillie_1830_Timbuktu_view.jpg"
     },
     {
       "id": "evt-mali-leo-africanus",
@@ -707,31 +1056,51 @@
       "id": "evt-mali-trans-atlantic-shadow",
       "label": "Atlantic slave trade shadow",
       "year": 1620,
-      "description": "As European powers built coastal forts on the Atlantic seaboard of West Africa through the sixteenth and seventeenth centuries, the long-distance commerce that had once flowed north across the Sahara to Mali's markets shifted south toward the coast. The center of West African trade migrated from Timbuktu and Djenné toward Cape Coast, Elmina, and Ouidah — a structural reorientation that finished what the Moroccan invasion had begun.",
+      "description": "The other blow to Mali came from the ocean, not the desert. As European traders fortified the West African coast, the long-distance trade that had once flowed north across the Sahara to Mali's markets swung south toward the sea — a slow reorientation that hollowed out what the Moroccan invasion had wrecked.",
       "wikiSlug": "Atlantic_slave_trade",
       "tier": 3,
       "tags": [],
-      "category": "trade"
+      "category": "trade",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The anchor of this new coastal commerce was already old: the Portuguese built Elmina Castle (Castelo de São Jorge da Mina, 'St. George of the Mine') on the Gold Coast of present-day Ghana in 1482 — the first European trading fort south of the Sahara and the oldest surviving European building in sub-Saharan Africa. Its stones were shipped pre-cut from Portugal and assembled on the spot, an early prefabricated building. The Dutch seized it in 1637, and over the next two centuries it became one of the grimmest hubs of the Atlantic slave trade, a 'door of no return' for enslaved Africans."
+        }
+      ],
+      "commonsFile": "Elmina_Castle_Entrance.JPG"
     },
     {
       "id": "evt-mali-manden-charter-unesco",
       "label": "Manden Charter inscribed by UNESCO",
       "year": 2009,
-      "description": "In 2009, UNESCO added the Manden Charter — the Kurukan Fuga proclaimed by Sundiata in 1236 — to its Representative List of the Intangible Cultural Heritage of Humanity. The inscription formalized international recognition of one of the world's earliest documented charters of rights, preserved across nearly eight centuries by the jeli oral tradition.",
+      "description": "In 2009 UNESCO put the Manden Charter on its list of humanity's intangible cultural heritage — official global recognition for a constitution that has no original copy because it lived for nearly eight centuries entirely in the memory of griots.",
       "wikiSlug": "Kouroukan_Fouga",
       "tier": 3,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "The reconstructed text, as published by the griot Siriman Kouyate, runs to 44 edicts grouped under social organization, property, the environment, and personal duties. Among them: a ban on raiding people into slavery, a right of refuge, food-security provisions, and protections for the natural world — which is why it is often described as one of the oldest constitutional and human-rights documents anywhere. The UNESCO citation frames its preamble as advocating social peace in diversity and the inviolability of the human person. The listing carries no legal force; it is recognition, not law."
+        }
+      ]
     },
     {
       "id": "evt-mali-timbuktu-2012",
       "label": "Timbuktu manuscripts rescued, 2012–13",
       "year": 2012,
-      "description": "When jihadist forces occupied Timbuktu in 2012 and began destroying shrines and burning manuscripts, librarian Abdel Kader Haidara and a network of volunteers smuggled tens of thousands of medieval manuscripts out of the city in metal trunks and rice sacks, hiding them in private homes in Bamako. The operation rescued the largest concentration of pre-colonial sub-Saharan African writing still in existence.",
+      "description": "When jihadists seized Timbuktu in 2012 and started burning manuscripts, a local librarian named Abdel Kader Haidara quietly organized a smuggling ring to spirit the city's medieval books south to safety — by trunk, donkey cart, and canoe.",
       "wikiSlug": "Timbuktu",
       "tier": 2,
       "tags": [],
-      "category": "writing"
+      "category": "writing",
+      "details": [
+        {
+          "label": "Explore further",
+          "text": "Over roughly nine months, Haidara's couriers moved an estimated 350,000 manuscripts out of about 45 libraries and more than 400 miles (about 640 km) downriver to Bamako, often traveling at night in rented 4x4s carrying two or three locked metal footlockers at a time, with manuscripts also hidden under car seats and blankets. When militants torched part of the Ahmed Baba Institute as French and Malian forces closed in during early 2013, the great bulk of the corpus had already escaped. The texts are not just Qur'ans — they cover astronomy, law, medicine, mathematics, and poetry, the working library of a centuries-old scholarly city."
+        }
+      ],
+      "commonsFile": "Loc_timbuktu_manuscripts_amm0001rs.jpg"
     }
   ]
 }
