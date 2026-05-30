@@ -108,21 +108,27 @@ function mergePicksIntoOut() {
 }
 
 // ---------- gather lock ----------
-const LOCK = join(ROOT, '.image-cache', '.gather.lock')
-const LOCK_STALE_MS = 15 * 60 * 1000
-async function withLock(fn) {
+// Two locks, both atomic-mkdir with a stale takeover so a killed run can't wedge the queue:
+//   .gather.lock — held during a civ's serial Wikimedia gather (rate-limit safety)
+//   .apply.lock  — held for the <1s shared-file write inside sweep-apply, because
+//                  .caption-overrides.json and .image-rejections.json are GLOBAL files;
+//                  two civs' applies running at once would read-modify-write race and
+//                  clobber each other's captions/rejections. Narrow so it barely costs
+//                  wall-clock but fully serializes the only shared mutation.
+const LOCK_STALE_MS = 8 * 60 * 1000
+async function withLock(name, fn) {
+  const lock = join(ROOT, '.image-cache', name)
   fs.mkdirSync(join(ROOT, '.image-cache'), { recursive: true })
-  for (let waited = 0; ; waited += 2000) {
-    try { fs.mkdirSync(LOCK); break }
+  for (let waited = 0; ; waited += 1000) {
+    try { fs.mkdirSync(lock); break }
     catch {
-      // stale-lock takeover
-      try { if (Date.now() - fs.statSync(LOCK).mtimeMs > LOCK_STALE_MS) { fs.rmSync(LOCK, { recursive: true, force: true }); continue } } catch {}
-      if (waited === 0) console.error(`[gather] another civ is gathering — queued (lock ${LOCK})`)
-      await new Promise(r => setTimeout(r, 2000))
+      try { if (Date.now() - fs.statSync(lock).mtimeMs > LOCK_STALE_MS) { fs.rmSync(lock, { recursive: true, force: true }); continue } } catch {}
+      if (waited === 0) console.error(`[lock] ${name} held by another civ — queued`)
+      await new Promise(r => setTimeout(r, 1000))
     }
   }
-  try { fs.writeFileSync(join(LOCK, 'tl'), tl); return await fn() }
-  finally { try { fs.rmSync(LOCK, { recursive: true, force: true }) } catch {} }
+  try { fs.writeFileSync(join(lock, 'tl'), tl); return await fn() }
+  finally { try { fs.rmSync(lock, { recursive: true, force: true }) } catch {} }
 }
 
 // ---------- phases ----------
@@ -146,7 +152,7 @@ if (phase === 'prep') {
 else if (phase === 'gather') {
   const m = mergeGapfillIntoOut()
   process.stderr.write(`[gather] merged ${m.injected} candidate set(s) for ${m.events} events from ${m.gapfillFiles.join(', ') || '(none)'}\n`)
-  await withLock(async () => {
+  await withLock('.gather.lock', async () => {
     run(node, ['scripts/sweep-photos.mjs', tl, ...rest])
   })
   const man = JSON.parse(fs.readFileSync(`/tmp/${tl}-photos/manifest.json`, 'utf8'))
@@ -158,7 +164,10 @@ else if (phase === 'gather') {
 else if (phase === 'finish') {
   const merge = mergePicksIntoOut()
   process.stderr.write(`[finish] picks: ${merge.override} override / ${merge.reject} reject (${merge.coverage}%); applied to ${merge.applied} cards; dups: ${merge.dups.length}\n`)
-  run(node, ['scripts/sweep-apply.mjs', tl])
+  // sweep-apply mutates the GLOBAL caption/rejection files — serialize that write so
+  // overlapping civs don't clobber each other's captions. parse + gates below are
+  // civ-scoped and safe to run unlocked/concurrently.
+  await withLock('.apply.lock', async () => { run(node, ['scripts/sweep-apply.mjs', tl]) })
   run('npm', ['run', 'parse', '--', `--tl=${tl}`])
   const perChapter = chapterCoverage()
   const thinChapters = perChapter.filter(c => c.thin)
