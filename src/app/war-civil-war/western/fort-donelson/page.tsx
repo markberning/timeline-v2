@@ -44,7 +44,7 @@ const TL_META: Record<string, { size: CardSize; date: string; palette: [string, 
   'unconditional-surrender': { size: 'xl', date: 'Feb 16', palette: ['#1d3a5a', '#16283a', '#080c12'] },
 }
 const SECTION_IMG: Record<string, string> = {
-  'the-rivers': '/war-img/donelson.png',
+  'the-rivers': '/war-img/donelson-rivers.png',
   'the-gunboats': '/war-img/donelson-gunboats.jpg',
   'the-breakout': '/war-img/cmdr/grant.jpg',
   'unconditional-surrender': '/war-img/donelson-dover-hotel.jpg',

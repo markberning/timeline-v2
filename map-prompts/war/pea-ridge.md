@@ -6,22 +6,40 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 ## Style — every battle map MUST obey these
 
 1. **CLEAN MODERN CARTOGRAPHY** — pale parchment-white background (#f3eee2). Flat even fills only — NO paper texture, NO relief shading, NO 3-D, NO drop shadows, NO glow, NO noise.
-2. **Terrain = simple flat shapes in muted color**, only what the caption names: woods = soft sage-green; a hill/ridge = pale tan; water (creek) = a flat light-blue band; a road = a thin gray line; a town or tavern = a small gray block or dot.
+2. **Terrain = simple flat shapes in muted color**, only what the caption names: woods = soft sage-green; a hill/ridge/plateau = pale tan; a mountain range = a pale-tan band; water (river/creek/sea) = a flat light-blue band or fill; a road/trail = a thin gray line; a town, city, fort, church, house = a small gray block or dot.
 3. **Forces use side colors.** Union (North) = BLUE (#1d4ed8). Confederate (South) = RUST RED (#b44d3b). A force/line = crisp solid rectangular unit blocks; a movement = a bold smooth tapered arrow. No other strong colors. BLUE/RUST/RED name the INK, never text. Never render a color name as a label.
-4. **At most SIX labels**, clean sans-serif, dark ink, thin white halo. Bare proper names only. Spell EXACTLY as written. Add NO unlisted label, print NO color words.
+4. **LABELS MUST BE LARGE, BOLD, AND EASY TO READ ON A PHONE** — this is critical. Use a HEAVY modern sans-serif at a GENEROUS size (think a clean textbook map seen on a small screen), DARK ink, each label sitting on a crisp solid white pill/halo so it stays sharp against the map. Prefer FEWER, BIGGER labels over many small ones. NO label may be small, thin, faint, or hard to read. Each label must read like a printed STICKER — BOLD near-black text inside a SOLID WHITE rounded box — NEVER thin, gray, or faint text floating directly on the terrain (that is the failure to avoid). Use SOLID, FILLED glyphs — NEVER outlined, hollow, or stroked-only letterforms; OUTLINED text is illegible and is the exact failure to avoid. At most SIX labels per map. Bare proper names only, spelled EXACTLY as written; add NO unlisted label and print NO color words.
 5. **North is at the TOP, east to the RIGHT.** A defending line FACES the attack.
 6. **NO title bar, NO caption text, NO border/frame, NO compass rose, NO scale bar, NO legend, NO N/S/E/W letters, NO ornament.** The map bleeds off all four edges.
 
 ---
 
+## Map pea-ridge-march
+
+Night of March 6–7, 1862 — the march that decided it. Curtis is dug in facing SOUTH along Little Sugar Creek; Van Dorn refuses to hit him head-on and instead marches his whole army by night clear around to the north to come in behind him. A wide operational march map, north up.
+
+Draw a broad pale-tan east–west ridge across the upper-center of the frame, labeled "Pea Ridge" (the long high ground both armies fight over). Below it (to the south), draw a flat light-blue creek band running east–west, labeled "Little Sugar Creek". On the NORTH bank of that creek, facing SOUTH toward the bottom edge, place a row of solid BLUE Union unit blocks facing SOUTH, labeled "Curtis" — the dug-in line. Mark a small gray town block labeled "Bentonville" in the lower-LEFT (southwest). At the EAST end of the ridge draw a small gray tavern block labeled "Elkhorn Tavern".
+
+Draw one bold RUST-RED arrow that starts at the BLUE line, peels away WEST past Bentonville, then sweeps in a great loop NORTH and around the WESTERN end of Pea Ridge, climbing all the way to the top of the frame, then curls back EAST and comes DOWN behind the ridge toward Elkhorn Tavern — the night march into the Union rear, labeled "Van Dorn". The arrow ends behind (north of) the blue line, pointing south at its back.
+
+Six labels only: Pea Ridge, Little Sugar Creek, Bentonville, Elkhorn Tavern, Curtis, Van Dorn.
+
 ## Map pea-ridge
 
-March 7–8, 1862 — Pea Ridge. Van Dorn marches clear around the Union army to attack from the north; Curtis turns to face him. A tactical overview, north up.
+March 7, 1862 — the battle fought backwards. Curtis has turned his whole army 180 degrees to face NORTH, and Van Dorn's looping army comes down on him in two separate wings: Price toward Elkhorn Tavern in the east, McCulloch toward Leetown in the west. A tactical overview, north up.
 
-Draw a broad pale-tan east–west ridge across the upper-center of the frame, labeled "Pea Ridge" (the dominant high ground). Below it (to the south), draw a flat light-blue creek band running east–west, labeled "Little Sugar Creek" — the Union's original line. Draw the "Telegraph Road" as a thin gray road running north–south through the center, passing a small gray tavern block labeled "Elkhorn Tavern" at the east end of the ridge. Mark a small gray hamlet labeled "Leetown" to the west, just south of the ridge's western end.
+Draw a broad pale-tan east–west ridge across the upper-center of the frame, labeled "Pea Ridge". Run the "Telegraph Road" as a thin gray road north–south through the EAST side of the frame, passing a small gray tavern block labeled "Elkhorn Tavern" where it crosses the east end of the ridge. Mark a small gray hamlet block labeled "Leetown" in the WEST, just below the western end of the ridge, with a patch of soft sage-green woods around it.
 
-Show Van Dorn's flank march: a long bold rust-red arrow that starts south of the creek, sweeps WEST and then NORTH around the western end of Pea Ridge, then splits into TWO rust-red arrows striking SOUTHWARD from the north — one down the Telegraph Road toward Elkhorn Tavern, one toward Leetown. Label the sweeping arrow "Van Dorn".
+Show the Union army REVERSED — pivoted to face NORTH: a row of solid BLUE unit blocks below the ridge, facing UP toward the high ground. Two bold RUST-RED arrows come DOWN from the north against them: one down the Telegraph Road striking SOUTH at Elkhorn Tavern, labeled "Price"; one curling around the western end of the ridge striking SOUTH toward Leetown, labeled "McCulloch". The blue blocks face up to meet both.
 
-The Union army has pivoted to face NORTH: a row of solid blue unit blocks below the ridge, facing up toward the rust arrows.
+Six labels only: Pea Ridge, Telegraph Road, Elkhorn Tavern, Leetown, Price, McCulloch.
 
-Six labels only: Pea Ridge, Little Sugar Creek, Telegraph Road, Elkhorn Tavern, Leetown, Van Dorn. Nothing else.
+## Map pea-ridge-day2
+
+March 8, 1862 — the day the guns won it. With McCulloch's wing wrecked, Curtis pulls his whole army into one line, masses Sigel's artillery, and drives NORTH against Van Dorn's force around Elkhorn Tavern — whose own guns are falling silent for lack of ammunition. A tactical overview of the second day, north up.
+
+Draw a broad pale-tan east–west ridge across the upper-center of the frame, labeled "Pea Ridge". Run the "Telegraph Road" as a thin gray road north–south through the center-east, passing a small gray tavern block labeled "Elkhorn Tavern" at the east end of the ridge. Place RUST-RED Confederate unit blocks clustered around Elkhorn Tavern and along the ridge, facing SOUTH.
+
+Below them, draw one continuous line of solid BLUE Union unit blocks spanning the frame, facing NORTH, labeled "Curtis". On the Union LEFT (the west side of the line), draw a tight cluster of BLUE blocks on a small pale-tan knoll, labeled "Sigel" — the massed Union guns. Draw two bold BLUE arrows surging NORTH from the blue line into the rust blocks around Elkhorn Tavern, driving the Confederates back off the ridge. Show one thin RUST-RED arrow leaving the ridge and trailing away to the upper edge — the retreat, labeled "Van Dorn".
+
+Six labels only: Pea Ridge, Telegraph Road, Elkhorn Tavern, Sigel, Curtis, Van Dorn.

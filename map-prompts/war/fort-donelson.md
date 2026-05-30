@@ -6,24 +6,34 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 ## Style — every battle map MUST obey these
 
 1. **CLEAN MODERN CARTOGRAPHY** — pale parchment-white background (#f3eee2). Flat even fills only — NO paper texture, NO relief shading, NO 3-D, NO drop shadows, NO glow, NO noise.
-2. **Terrain = simple flat shapes in muted color**, only what the caption names: woods = soft sage-green; a hill/rise = pale tan; water (river/creek) = a flat light-blue band; a road = a thin gray line; a town or fort = a small gray block or dot.
-3. **Forces use side colors.** Union (North) = BLUE (#1d4ed8). Confederate (South) = RUST RED (#b44d3b). A force/line = crisp solid rectangular unit blocks in that color; a movement = a bold smooth tapered arrow in that color. No other strong colors. The words BLUE/RUST/RED name the INK, never text to print. Never render a color name as a label.
-4. **At most SIX labels**, clean sans-serif, dark ink, thin white halo. Each label a bare proper name. Spell EXACTLY as written. Add NO unlisted label, print NO color words.
+2. **Terrain = simple flat shapes in muted color**, only what the caption names: woods = soft sage-green; a hill/ridge/plateau = pale tan; a mountain range = a pale-tan band; water (river/creek/sea) = a flat light-blue band or fill; a road/trail = a thin gray line; a town, city, fort, church, house = a small gray block or dot.
+3. **Forces use side colors.** Union (North) = BLUE (#1d4ed8). Confederate (South) = RUST RED (#b44d3b). A force/line = crisp solid rectangular unit blocks; a movement = a bold smooth tapered arrow. No other strong colors. BLUE/RUST/RED name the INK, never text. Never render a color name as a label.
+4. **LABELS MUST BE LARGE, BOLD, AND EASY TO READ ON A PHONE** — this is critical. Use a HEAVY modern sans-serif at a GENEROUS size (think a clean textbook map seen on a small screen), DARK ink, each label sitting on a crisp solid white pill/halo so it stays sharp against the map. Prefer FEWER, BIGGER labels over many small ones. NO label may be small, thin, faint, or hard to read. Each label must read like a printed STICKER — BOLD near-black text inside a SOLID WHITE rounded box — NEVER thin, gray, or faint text floating directly on the terrain (that is the failure to avoid). Use SOLID, FILLED glyphs — NEVER outlined, hollow, or stroked-only letterforms; OUTLINED text is illegible and is the exact failure to avoid. At most SIX labels per map. Bare proper names only, spelled EXACTLY as written; add NO unlisted label and print NO color words.
 5. **North is at the TOP, east to the RIGHT.** A defending line FACES the attack.
 6. **NO title bar, NO caption text, NO border/frame, NO compass rose, NO scale bar, NO legend, NO N/S/E/W letters, NO ornament.** The map bleeds off all four edges.
 
 ---
 
+## Map donelson-rivers
+
+February 1862 — the strategic picture: two parallel rivers run like highways into the Confederacy, each blocked by one fort, and Grant moves overland from one to the other. A wide operational map, north up.
+
+Draw two flat light-blue rivers running roughly north–south up the frame, close together (about a thumb's width apart), both flowing toward the top of the map: the left one labeled "Tennessee River", the right one labeled "Cumberland River". On the east bank of the Tennessee place a small rust-red fort block labeled "Fort Henry"; on the west bank of the Cumberland, level with it, place a larger rust-red fort block labeled "Fort Donelson". Between the two rivers draw a thin gray road, and along it a bold blue arrow marching from Fort Henry eastward across to Fort Donelson, labeled "Grant". Far to the bottom-right, off past the Cumberland, place a small gray city block labeled "Nashville".
+
+Six labels only: Tennessee River, Cumberland River, Fort Henry, Fort Donelson, Grant, Nashville. Nothing else.
+
+## Map donelson-gunboats
+
+Afternoon, February 14, 1862 — Foote's ironclads steam up the Cumberland and are beaten back by the fort's water batteries on the bluff. A close-in river view, north up, the river flowing toward the top.
+
+Draw the Cumberland as a broad flat light-blue band filling most of the frame, running north–south, labeled "Cumberland River". On the high west (left) bank draw the rust-red fort works set back on a pale-tan bluff labeled "Fort Donelson", and at the foot of the bluff right at the waterline a separate rust-red gun block labeled "Water Batteries", its guns firing down onto the river. On the blue river draw four small blue gunboat shapes in a cluster with a bold blue arrow that pushes UP (south to north) toward the batteries and then a broken/recoiling blue arrow curving back DOWNriver, labeled "Foote" — the repulse.
+
+Five labels only: Cumberland River, Fort Donelson, Water Batteries, Foote. Nothing else.
+
 ## Map donelson
 
-February 1862 — the siege and surrender of Fort Donelson on the Cumberland River. A tactical overview, north up.
+February 15, 1862 — the land siege and the failed breakout: the Confederates punch open the escape road south, then Grant's counterattack slams the trap shut. A tactical overview, north up.
 
-Draw the Cumberland River as a flat light-blue band running north–south up the RIGHT side of the frame (it flows north), labeled "Cumberland River". On the river's west bank (right-center), draw Fort Donelson as a solid rust-red blockwork labeled "Fort Donelson", with a small rust-red battery block right at the waterline below it (the water batteries, facing the river). Place a small gray town block labeled "Dover" just south of the fort, inside the lines.
+Draw the Cumberland River as a flat light-blue band running north–south up the RIGHT side of the frame, labeled "Cumberland River". On the river's west bank (right-center) draw Fort Donelson as a solid rust-red blockwork labeled "Fort Donelson", with a small gray town block labeled "Dover" just south of it, inside the lines. The Confederates hold a semicircular rust-red trench line enclosing the fort and Dover on the LANDWARD (west) side; the Union invests them with a matching outer arc of solid blue unit blocks wrapping that line from north to south, labeled "Grant". From the southern end of the Confederate line draw a bold rust-red breakout arrow pushing SOUTHWEST along a thin gray road labeled "Wynn's Ferry Rd", driving the blue blocks back — and meeting a bold blue counterattack arrow that pushes it back into the lines.
 
-The Confederates hold a semicircular rust-red trench line enclosing the fort and Dover on the LANDWARD (west) side. The Union army invests them from the west: a matching blue arc of solid blue unit blocks wrapping the Confederate line from north to south.
-
-On the river to the NORTH, draw a couple of small blue gunboat shapes with a bold blue arrow steaming SOUTH down the river against the fort's water batteries, labeled "Foote".
-
-Show the failed breakout: a bold rust-red arrow pushing SOUTHWEST out of the lines along a thin gray road labeled "Wynn's Ferry Rd", met and pushed back by a blue counterattack arrow.
-
-Five labels only: Cumberland River, Fort Donelson, Dover, Foote, Wynn's Ferry Rd. Nothing else.
+Six labels only: Cumberland River, Fort Donelson, Dover, Grant, Wynn's Ferry Rd. Nothing else.

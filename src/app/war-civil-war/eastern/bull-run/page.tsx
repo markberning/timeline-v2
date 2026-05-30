@@ -41,7 +41,7 @@ const TL_META: Record<string, { size: CardSize; date: string; palette: [string, 
   'the-rout': { size: 'l', date: 'Dusk', palette: ['#7a1422', '#3a1208', '#0a0606'] },
 }
 const SECTION_IMG: Record<string, string> = {
-  'on-to-richmond': '/war-img/bull-run-morning.png',
+  'on-to-richmond': '/war-img/bull-run-campaign.png',
   'the-flank-march': '/war-img/bull-run-sudley-church.jpg',
   'stone-wall': '/war-img/bull-run-henry-house.jpg',
   'the-rout': '/war-img/bull-run-stone-bridge.jpg',
