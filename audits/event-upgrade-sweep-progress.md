@@ -53,15 +53,16 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 17 / 109 civs**  ·  **92 civs remaining, smallest-first.**
+**Done: 20 / 109 civs**  ·  **89 civs remaining, smallest-first.**
 
-First overlapped wave (3 concurrent workflows): kingdom-of-kush (92.7%, self-committed),
-early-dynastic-egypt (89.1%, self-committed), yuan-dynasty (87%, finished by hand after a
-gather-timeout bug). Two concurrency bugs found + fixed: (1) a lock-queued civ's gather
-Bash call was killed at the 2-min default → orphaned the lock → starved the next civ;
-fix = 10-min Bash timeout on the gather phase + 8-min stale-lock takeover. (2) overlapping
-sweep-apply runs race on the GLOBAL caption/rejection files; fix = a narrow `.apply.lock`.
-**Run future waves 2-wide** (shorter lock queue).
+Overlapped workflow waves (kush/early-dynastic/yuan, then middle-horizon/old-kingdom/maurya).
+Two concurrency bugs found + fixed: (1) a lock-queued civ's gather Bash call was killed at
+the 2-min default → orphaned the lock → starved the next civ; fix = 10-min Bash timeout on
+the gather phase + 8-min stale-lock takeover. (2) overlapping sweep-apply runs race on the
+GLOBAL caption/rejection files; fix = a narrow `.apply.lock`. **Run waves 2-wide.** The
+workflow refuses to self-commit if any gate is red (middle-horizon held back on a fix-links
+photo flag — a Gateway-of-the-Sun frieze on a "puma iconography" event; rejected by hand).
+**Deployed to prod after this batch (indus → maurya).**
 
 Last updated: 2026-05-29 (sweeping)
 
@@ -82,6 +83,12 @@ Last updated: 2026-05-29 (sweeping)
 
 13. mali-empire (8 ch, 54 ev) — cards 54/54; photos 83% (45 / 9 honest rejects). FIRST civ on the front-loaded-finder recipe (FIX #2): cold pick 68% (vs indus 56%), only ONE gap-fill round. ch2 thin (Battle of Kirina + Niani capital are imageless on Commons). ~23 min.
 14. prehistoric-japan (8 ch, 54 surfaced ev) — **FIRST fully-AUTONOMOUS run via the `scripts/sweep-civ.mjs` engine + the sweep-civ workflow.** Photos 79.6% (43 / 11), **0 thin chapters, 0 gap-fill rounds** (front-loaded finder cleared the 70% floor cold), all gates green, self-committed (1027f77). ~19 min, 21 agents, hands-off.
+15. kingdom-of-kush (8 ch) — 92.7% (51 / 4); ch8 thin (honest). Self-committed a8d0b78.
+16. yuan-dynasty (8 ch, 54 ev) — 87% (47 / 7); finished by hand after the gather-timeout bug, one gap-fill round (ch2). 1f815c0.
+17. early-dynastic-egypt (8 ch) — 89.1% (49 / 6), 0 thin. Self-committed 10cd385.
+18. old-kingdom-egypt (8 ch) — 96.4% (54 / 2), 0 thin. Self-committed 5d7f4df.
+19. middle-horizon-empires (8 ch) — 73.2% (41 / 15); ch1/ch6 thin (abstract: collapse, "no writing", anonymous rulers, Quechua spread). Committed 1c783fd after a by-hand photo reject.
+20. maurya-empire (8 ch) — 87.9% (51 / 7), 0 thin. Self-committed 8e28cb9.
 
 _(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nubia/indus/mali/prehistoric-japan gated.)_
 
