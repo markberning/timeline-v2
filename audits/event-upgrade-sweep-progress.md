@@ -53,7 +53,7 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 12 / 109 civs**  ·  **97 civs remaining, smallest-first.**
+**Done: 14 / 109 civs**  ·  **95 civs remaining, smallest-first.**
 
 Last updated: 2026-05-29 (sweeping)
 
@@ -72,7 +72,14 @@ Last updated: 2026-05-29 (sweeping)
 11. ancient-nubia (8 ch, 52 surfaced ev) — FIRST run on the new 3-phase chain (cards fan-wide → sweep-photos → vision pick → serial gap-fill → de-dup); 0 429s; all gates green
 12. indus-valley (10 ch, 54 surfaced ev) — cards 54/54; photos 87% (47 born-verified / 7 honest abstract rejects: trade-network/decline-process events). Two gap-fill rounds (a finder agent verified real Commons files → re-gather → vision re-pick) lifted ch6 67→83% and ch7 54→85% over the 70% floor; ch9 (the "Quiet Collapse" chapter, 56%) stays grandfathered — its no-photo events are abstract process-events (Decline Begins, De-urbanization, Legacy Fades), not forced. **~24 min wall-clock end-to-end** (phase-1 cards ~4 min parallel; the rest = 2 photo gap-fill rounds). All gates green; fix-links --strict clean.
 
-_(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nubia/indus gated.)_
+13. mali-empire (8 ch, 54 ev) — cards 54/54; photos 83% (45 / 9 honest rejects). FIRST civ on the front-loaded-finder recipe (FIX #2): cold pick 68% (vs indus 56%), only ONE gap-fill round. ch2 thin (Battle of Kirina + Niani capital are imageless on Commons). ~23 min.
+14. prehistoric-japan (8 ch, 54 surfaced ev) — **FIRST fully-AUTONOMOUS run via the `scripts/sweep-civ.mjs` engine + the sweep-civ workflow.** Photos 79.6% (43 / 11), **0 thin chapters, 0 gap-fill rounds** (front-loaded finder cleared the 70% floor cold), all gates green, self-committed (1027f77). ~19 min, 21 agents, hands-off.
+
+_(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nubia/indus/mali/prehistoric-japan gated.)_
+
+## Orchestration (built 2026-05-29)
+- **`scripts/sweep-civ.mjs <prep|gather|finish|commit> <tl>`** — the deterministic engine. Each phase prints one `RESULT <json>` line. `gather` holds a global lock (`.image-cache/.gather.lock`, stale-takeover 15 min) so OVERLAPPING civs never touch Wikimedia at once. `finish` writes the commit message to `/tmp/<tl>-commit-msg.txt`; `commit` uses `git commit -F` (force-stages only the 3 curated files, never `git add -A`).
+- **The sweep-civ workflow** drives one civ end-to-end: prep → (parallel) chapter card agents + photo-finder agents → gather → vision pick → finish → gap-fill loop (≤2, only thin chapters / recoverable events) → commit. Run it INLINE via the Workflow tool (the `.claude/workflows/` path is harness-guarded). **Overlap = launch 2–3 workflows concurrently**; the gather lock serializes the one rate-limited step. The workflow refuses to commit if any gate is red (leaves it staged for review).
 
 **Lesson (indus):** the gatherer hands material-culture + abstract events ONLY the regional map → first vision pass over-rejects (here 30/54 = 56%, under the floor). FIX baked into the recipe: after the first pick, run a **finder agent** that web-verifies real distinct Commons filenames for the recoverable famous artifacts (Great Bath, weights, beads, the unicorn seal, etc.), re-gather, vision re-pick. Two rounds took 56%→87%. Only genuinely abstract events (trade networks, collapse-process) stay honest rejects.
 
