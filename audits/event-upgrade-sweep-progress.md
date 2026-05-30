@@ -35,7 +35,7 @@ docs/content-pipeline.md step 13 + memory/feedback_wikimedia_rate_limit.
 
 ## Count
 
-**Done: 11 / 109 civs**  ·  **91 civs remaining, smallest-first.**
+**Done: 12 / 109 civs**  ·  **97 civs remaining, smallest-first.**
 
 Last updated: 2026-05-29 (sweeping)
 
@@ -52,12 +52,15 @@ Last updated: 2026-05-29 (sweeping)
 9. ancient-china (8 ch, 37 ev) — clean first pass
 10. elamite-civilization (8 ch, 49 surfaced ev) — ch7 redo after 429 stall; all gates green
 11. ancient-nubia (8 ch, 52 surfaced ev) — FIRST run on the new 3-phase chain (cards fan-wide → sweep-photos → vision pick → serial gap-fill → de-dup); 0 429s; all gates green
+12. indus-valley (10 ch, 54 surfaced ev) — cards 54/54; photos 87% (47 born-verified / 7 honest abstract rejects: trade-network/decline-process events). Two gap-fill rounds (a finder agent verified real Commons files → re-gather → vision re-pick) lifted ch6 67→83% and ch7 54→85% over the 70% floor; ch9 (the "Quiet Collapse" chapter, 56%) stays grandfathered — its no-photo events are abstract process-events (Decline Begins, De-urbanization, Legacy Fades), not forced. **~24 min wall-clock end-to-end** (phase-1 cards ~4 min parallel; the rest = 2 photo gap-fill rounds). All gates green; fix-links --strict clean.
 
-_(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite gated.)_
+_(rollout-5 + celtic carry cards; carthage/soviet-union/ancient-china/elamite/nubia/indus gated.)_
+
+**Lesson (indus):** the gatherer hands material-culture + abstract events ONLY the regional map → first vision pass over-rejects (here 30/54 = 56%, under the floor). FIX baked into the recipe: after the first pick, run a **finder agent** that web-verifies real distinct Commons filenames for the recoverable famous artifacts (Great Bath, weights, beads, the unicorn seal, etc.), re-gather, vision re-pick. Two rounds took 56%→87%. Only genuinely abstract events (trade networks, collapse-process) stay honest rejects.
 
 ## In progress
-- (none — elamite just closed)
+- (none — indus-valley just closed)
 
 ## Worklist (smallest-first)
-Pending — see /tmp/sweep-worklist.json. Next up: ancient-nubia, indus-valley,
+Pending — see /tmp/sweep-worklist.json. Next up:
 mali-empire, prehistoric-japan, yuan-dynasty, early-dynastic-egypt, …
