@@ -27,6 +27,18 @@ export interface Narr {
 
 const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineHeight: 1.62, letterSpacing: '-0.01em', margin: 0, color: 'var(--foreground)' }
 
+// Render inline *italic* spans (the house convention for book/document titles and
+// emphasis). Single asterisks only; there is no bold. Plain text passes through.
+function fmt(text: string): React.ReactNode {
+  if (!text.includes('*')) return text
+  const parts = text.split(/(\*[^*]+\*)/g)
+  return parts.map((seg, j) =>
+    seg.length > 2 && seg[0] === '*' && seg[seg.length - 1] === '*'
+      ? <em key={j}>{seg.slice(1, -1)}</em>
+      : seg,
+  )
+}
+
 export function BattleSectionReader({
   sections, id, slug, battleName, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
   endHref, endKicker, endLabel, heroImage, heroPalette = ['#3a2e21', '#2a221c', '#0a0806'], heroCredit,
@@ -99,17 +111,17 @@ export function BattleSectionReader({
               </figure>
             )
             if (b.q) return (
-              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${accent}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{b.p}</p>
+              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${accent}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{fmt(b.p)}</p>
             )
             if (b.i) return (
-              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{b.p}</p>
+              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{fmt(b.p)}</p>
             )
             const drop = firstP
             firstP = false
             return (
               <p key={i} style={{ ...proseStyle, marginTop: 12 }}>
                 {drop && <span style={{ float: 'left', fontFamily: SERIF, fontWeight: 500, fontSize: 50, lineHeight: 0.82, color: accent, paddingRight: 8, marginTop: 4 }}>{b.p.charAt(0)}</span>}
-                {drop ? b.p.slice(1) : b.p}
+                {fmt(drop ? b.p.slice(1) : b.p)}
               </p>
             )
           })}
