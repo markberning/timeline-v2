@@ -115,6 +115,8 @@ export default function LincolnsRiseThemePage() {
       heroImage="/war-img/lincolns-rise-hero-cooper-union-brady.jpg"
       heroPalette={["#2b2218","#3a3026","#0c0a07"]}
       heroCredit={`Mathew B. Brady · February 27, 1860 · Library of Congress · public domain`}
+      heroFocus="center 20%"
+      heroScale={1}
       endHref="/war-civil-war/off-the-battlefield"
       endKicker={`The outsider wins`}
       endLabel={`Back to Off the Battlefield`}

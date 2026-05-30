@@ -41,7 +41,7 @@ function fmt(text: string): React.ReactNode {
 
 export function BattleSectionReader({
   sections, id, slug, battleName, theatreId = 'east', battleId, theatreHref = '/war-civil-war/eastern', accent = '#7c3aed',
-  endHref, endKicker, endLabel, heroImage, heroPalette = ['#3a2e21', '#2a221c', '#0a0806'], heroCredit,
+  endHref, endKicker, endLabel, heroImage, heroPalette = ['#3a2e21', '#2a221c', '#0a0806'], heroCredit, heroFocus = 'center 34%', heroScale = 1.06,
 }: {
   sections: Record<string, Narr>; id: string; slug: string; battleName: string
   theatreId?: Theatre | 'offfield'; battleId?: string; theatreHref?: string; accent?: string
@@ -50,6 +50,9 @@ export function BattleSectionReader({
   endHref?: string; endKicker?: string; endLabel?: string
   // optional full-bleed hero (themes use it; battle sections usually don't)
   heroImage?: string; heroPalette?: [string, string, string] | string[]; heroCredit?: string
+  // per-image crop tuning: objectPosition + zoom for the 240px hero band (tall
+  // portraits like Lincoln's Cooper Union plate clip the head at the default)
+  heroFocus?: string; heroScale?: number
 }) {
   const ids = Object.keys(sections)
   const n = sections[id] ?? sections[ids[0]]
@@ -90,7 +93,7 @@ export function BattleSectionReader({
           <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: heroPalette[2] }}>
             {heroFailed
               ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${heroPalette[0]}, ${heroPalette[1]} 55%, ${heroPalette[2]})` }} />
-              : <img src={heroImage} alt="" onError={() => setHeroFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 34%', transform: 'scale(1.06)', transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
+              : <img src={heroImage} alt="" onError={() => setHeroFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: heroFocus, transform: `scale(${heroScale})`, transformOrigin: 'center', filter: 'sepia(0.18) saturate(0.85) contrast(1.05)' }} />}
             <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 28%, rgba(8,8,8,0.88) 100%)' }} />
             <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
               <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: `color-mix(in srgb, ${accent} 45%, white)`, textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>{n.eyebrow}</div>

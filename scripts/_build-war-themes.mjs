@@ -5,8 +5,11 @@
 // replacing a [FIGURE] marker). Run: node scripts/_build-war-themes.mjs
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-const ROOT = '/Users/mberning/projects/personal/timeline-v2-phase2'
+// repo root = one level up from scripts/ (worktree-agnostic; was hardcoded to the
+// retired phase-2 worktree)
+const ROOT = dirname(dirname(fileURLToPath(import.meta.url)))
 const esc = (s) => s.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${')
 const f = (file, cap, credit) => ({ file, cap, credit })
 
@@ -70,7 +73,7 @@ const CONFIGS = [
   {
     slug: 'lincolns-rise', battleId: 'th-lincoln1860', battleName: `Lincoln's Rise & the Election of 1860`,
     eyebrow: `The outsider the South would not abide`,
-    hero: { image: '/war-img/lincolns-rise-hero-cooper-union-brady.jpg', palette: ['#2b2218', '#3a3026', '#0c0a07'], credit: `Mathew B. Brady · February 27, 1860 · Library of Congress · public domain` },
+    hero: { image: '/war-img/lincolns-rise-hero-cooper-union-brady.jpg', palette: ['#2b2218', '#3a3026', '#0c0a07'], credit: `Mathew B. Brady · February 27, 1860 · Library of Congress · public domain`, focus: 'center 20%', scale: 1.0 },
     end: { kicker: `The outsider wins`, label: `Back to Off the Battlefield` },
     meanwhile: { region: `Montgomery, Alabama`, title: `Two Governments`, body: `While Lincoln waits powerless in Springfield, the seven seceded states are already gathering in Montgomery to build a government, write a constitution, and choose a president of their own — and to name, out loud, exactly what the new nation is for.` },
     markers: [LR.byers, null, LR.cooper],
@@ -202,7 +205,7 @@ export default function ${comp}() {
       accent={ACCENTS.green}
       heroImage="${cfg.hero.image}"
       heroPalette={${JSON.stringify(cfg.hero.palette)}}
-      heroCredit={\`${esc(cfg.hero.credit)}\`}
+      heroCredit={\`${esc(cfg.hero.credit)}\`}${cfg.hero.focus ? `\n      heroFocus="${cfg.hero.focus}"` : ''}${cfg.hero.scale ? `\n      heroScale={${cfg.hero.scale}}` : ''}
       endHref="/war-civil-war/off-the-battlefield"
       endKicker={\`${esc(cfg.end.kicker)}\`}
       endLabel={\`${esc(cfg.end.label)}\`}
