@@ -39,7 +39,7 @@ export const MAJORS: Major[] = [
   { id: 'e-appomattox', name: 'Appomattox Court House', year: 1865, m: 4, mo: 'Apr', place: 'Appomattox Co., VA', theatre: 'east', size: 'l' },
 
   // ── Western (15) ──────────────────────────────────────────────
-  { id: 'w-donelson', name: 'Fort Donelson', year: 1862, m: 2, mo: 'Feb', place: 'Dover, TN', theatre: 'west', size: 'm' },
+  { id: 'w-donelson', name: 'Fort Donelson', year: 1862, m: 2, mo: 'Feb', place: 'Dover, TN', theatre: 'west', size: 'm', href: '/war-civil-war/western/fort-donelson', img: '/war-img/fort-donelson-hero.jpg', hook: 'The surrender that made Grant — and cracked the Confederate West wide open.' },
   { id: 'w-shiloh', name: 'Shiloh', year: 1862, m: 4, mo: 'Apr', place: 'Pittsburg Landing, TN', theatre: 'west', size: 'l', img: '/war-img/shiloh-hero.jpg' },
   { id: 'w-corinth', name: 'Corinth', year: 1862, m: 10, mo: 'Oct', place: 'Corinth, MS', theatre: 'west', size: 's' },
   { id: 'w-perryville', name: 'Perryville', year: 1862, m: 10, mo: 'Oct', place: 'Perryville, KY', theatre: 'west', size: 'm' },
@@ -57,8 +57,8 @@ export const MAJORS: Major[] = [
 
   // ── Trans-Mississippi (7) ─────────────────────────────────────
   { id: 't-wilsonscreek', name: "Wilson's Creek", year: 1861, m: 8, mo: 'Aug', place: 'Springfield, MO', theatre: 'tmis', size: 'm', href: '/war-civil-war/trans-mississippi/wilsons-creek', img: '/war-img/wilsons-creek-hero.jpg', hook: 'The Bull Run of the West — and the first Union general killed in the war.' },
-  { id: 't-pearidge', name: 'Pea Ridge', year: 1862, m: 3, mo: 'Mar', place: 'Benton Co., AR', theatre: 'tmis', size: 'm' },
-  { id: 't-glorieta', name: 'Glorieta Pass', year: 1862, m: 3, mo: 'Mar', place: 'New Mexico Terr.', theatre: 'tmis', size: 's' },
+  { id: 't-pearidge', name: 'Pea Ridge', year: 1862, m: 3, mo: 'Mar', place: 'Benton Co., AR', theatre: 'tmis', size: 'm', href: '/war-civil-war/trans-mississippi/pea-ridge', img: '/war-img/pea-ridge-hero.jpg', hook: 'The battle that turned around to win — and secured Missouri for the Union.' },
+  { id: 't-glorieta', name: 'Glorieta Pass', year: 1862, m: 3, mo: 'Mar', place: 'New Mexico Terr.', theatre: 'tmis', size: 's', href: '/war-civil-war/trans-mississippi/glorieta-pass', img: '/war-img/glorieta-pass-hero.jpg', hook: 'The Gettysburg of the West — winning the field, losing the war.' },
   { id: 't-island10', name: 'Island Number Ten', year: 1862, m: 4, mo: 'Apr', place: 'Mississippi River, MO', theatre: 'tmis', size: 's' },
   { id: 't-porthudson', name: 'Port Hudson', year: 1863, m: 7, mo: 'May–Jul', place: 'Port Hudson, LA', theatre: 'tmis', size: 'm' },
   { id: 't-mansfield', name: 'Mansfield', year: 1864, m: 4, mo: 'Apr', place: 'De Soto Parish, LA', theatre: 'tmis', size: 's' },
