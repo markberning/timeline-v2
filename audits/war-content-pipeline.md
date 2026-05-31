@@ -179,7 +179,9 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
    the author writes it in. Loop until all five gates are clean.
 6. **Images** — self-host PD/licensed only (Commons hotlinking 429-blocks in the
    browser); **credit line goes UNDER the image**, not as an overlay. Battles get
-   a tactical map; theme sections get a period portrait/photo.
+   **2–3 narrative-matched maps** (a strategic/overview map + tactical maps, one per
+   geographic beat — see 6b), placed INLINE as `{fig}` blocks; theme sections get a
+   period portrait/photo.
    **Map house style = MODERN TEXTBOOK (Hal Jespersen / NPS look), chosen
    2026-05-22** — clean modern cartography: pale ground, muted sage woods, pale-
    gold fields, light-blue water, gray roads/towns; forces as crisp rectangular
@@ -188,23 +190,41 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
    old flat-tan schematic** (it read "awfully plain"). The full rules live in each
    war's prompt-file preamble (`map-prompts/war/<war>.md`) — copy that preamble
    verbatim for a new war. Generate with `scripts/generate-war-maps.mjs`.
-6b. **Map review — a GATE, not a glance.** Every generated map is reviewed like
-   the fact-checker reviews prose — for **tactical/geographic correctness**, not
-   just label hygiene. Check each map against the battle's real geography (the
-   fact pack / sources):
-   - **Orientation & positions:** a defensive line must FACE the attack — the
-     attacker's arrow strikes the defender's *front*; lines and places sit in
-     their true relative positions; north is up. (Lesson: the Cornfield's
-     Confederate line was first drawn as a north–south band on the *west* when
-     it should be an east–west line *facing Hooker's southward attack* — a label-
-     only eyeball missed it.)
-   - **Arrows match the action:** who attacked, from which direction, against what.
-   - **Label hygiene:** no colour words (BLUE/RUST) printed as labels, exact
-     spelling, ≤6 labels, no garbled glyphs.
-   - **Style:** flat tan, no frame, no compass/ornament.
-   Regenerate until correct. (A vision-capable critic agent can do this pass —
-   it reads the PNG and verifies the geography against sources, same discipline
-   as the prose fact-checker.)
+6b. **Map review — a GATE with a HARD REGEN CAP, not a glance (hardened
+   2026-05-30, user directive).** Every generated map is reviewed like the fact-
+   checker reviews prose — for **accuracy first**, not just label hygiene. A
+   vision-capable critic agent (or you) reads the PNG and checks it against BOTH
+   the battle's real geography (the fact pack / sources, web-verified) AND the
+   section's final narrative:
+   - **Geographic accuracy:** rivers, forts, towns, roads, hills, ranches sit in
+     their TRUE relative positions; north is up, east right. Cross-check against a
+     real map of the battlefield — not just "does it look like a map."
+   - **Orientation & arrows:** a defensive line FACES the attack — the attacker's
+     arrow strikes the defender's *front*; every movement arrow matches who
+     attacked from which direction, against what. (Lessons: the Cornfield line was
+     first drawn facing the wrong way; the Bull Run / Henry House Hill attack axis
+     was first inverted N↔S — both label-only eyeballs missed it.)
+   - **Narrative match:** every city / fort / river / road / hill / movement the
+     PROSE names appears, labeled, on one of the battle's maps — and nothing is
+     labeled that the prose doesn't use. Labels spelled EXACTLY as the prose
+     spells them.
+   - **Legibility:** bold near-black glyphs on a SOLID WHITE pill — never thin /
+     gray / faint text floating on terrain, never outlined / hollow / stroked-only
+     letterforms (the **Glorieta** failure). ≤6 labels, no colour words
+     (BLUE/RUST) as labels, no garbled glyphs.
+   - **Density:** a map at EVERY geographic beat — typically **2–3 narrative-
+     matched maps per battle** (a strategic/overview map + tactical maps), not one.
+     See `memory/feedback_war_maps_dense_legible`.
+   - **Style + lightbox:** flat ground, no frame, no compass/ornament; every map
+     `{fig}` opens the shared pinch/zoom `Lightbox` (wired in `battle-reader.tsx`).
+   **The fix loop has a HARD CAP: when a map is wrong, rewrite its `## Map` prompt
+   section and regenerate — but make AT MOST 2 regenerations of a given map. If it
+   is STILL wrong after 2 regens, STOP (do not keep re-rolling) and ALERT THE USER
+   with the specific issue — what's wrong, what the prompt now says, and what the
+   map keeps doing — so they can look and decide whether to keep going.** This
+   mirrors the civ map 3-attempt cap (`memory/feedback_map_three_attempt_cap`): a
+   cap, then hand to the human, never grind. This gate runs AT MAP-CREATION time
+   during every battle build — not as a later sweep.
 7. **Integrate** — convert to the reader section format, wire the route, add the
    next-section link, run the deterministic gates (links) as applicable. The
    battle **dossier** also carries an **Outcome section**: a one-line verdict
@@ -226,6 +246,13 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 - **Commanders strip with REAL headshots** — PD portraits from Wikipedia pageimages (the article infobox image) → `public/war-img/cmdr/<slug>.jpg`, blue/rust side rings, gradient fallback.
 - **Outcome card** — verdict + 2–4 sentence explanation (see step 7).
 - **Section list** — each section a **distinct** image; never reuse the hero as a section card.
+- **Chapter CARD image: prefer a NON-MAP image; use a map only if you have nothing
+  else (locked 2026-05-30, user directive).** A section's card thumbnail should be a
+  period print, photo, or commander portrait. Use a **map** as the chapter card ONLY
+  when that section has no good non-map image (a purely tactical section with no
+  contemporary art is the exception). This is about the card TEASER only — maps still
+  appear INLINE densely at every geographic beat regardless (the 2–3-per-battle
+  density rule is unaffected). See `memory/project_war_battle_layer`.
 - Timeline + Dossier views; sticky via `useWarView`.
 
 **Wiring & images:**
@@ -237,6 +264,16 @@ The reader + dossier are shared components — a new battle is mostly a data fil
   page is built. (`Theme` had no `img` field until the Emancipation card shipped
   blank — added 2026-05-22.)
 - Self-host PD images only (Commons hotlinking 429-blocks). **Verify every image matches its caption before trusting it** (stereoview cards, wrong-subject scans, and matted prints all slip through search).
+- **Match the image's aspect to its frame — P-in-LS is the recurring defect
+  (locked 2026-05-30, user-flagged).** Two frames are LANDSCAPE and crop/cover:
+  the dossier **hero band** (`object-fit: cover`) and the **home/theatre-spine card
+  top-slot** when `stack: true` (image-on-top). A **portrait** image forced into
+  either gets its subject cropped or letterboxed — that is the recurring bug. Rule:
+  feed landscape (or near-square) images to landscape frames; keep portraits in a
+  portrait slot — the never-crop `fit` card renders a P image on the LEFT at natural
+  aspect, and inline `{fig}`s keep their own aspect. Never drop a tall portrait into
+  the landscape hero band. (The two specifics below — hero-must-be-landscape and
+  crop-the-mat — are the two ways this rule gets violated.)
 - **HERO MUST BE LANDSCAPE / near-square (locked 2026-05-30, user-flagged).** The hero
   band is a short, wide landscape strip; a **clearly-tall portrait gets its head/subject
   cropped off** in it (the Lincoln-assassination Booth carte-de-visite, 3915×6022, was the

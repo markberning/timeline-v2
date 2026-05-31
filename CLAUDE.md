@@ -44,6 +44,11 @@ surface checklist its ship-gate enforces. See
   ship-check gate, step 14 below).
 - **war** — `audits/war-content-pipeline.md` (fact pack → author(Opus) →
   fact-check + storytelling critic(Sonnet) → revise → integrate; 2 hard gates).
+  **Maps are a gate at creation time** (step 6b): accuracy + narrative-match +
+  legible pill labels + 2–3 maps/battle; rewrite-prompt-and-regen on error but
+  **cap at 2 regens, then ALERT the user** (never grind). **Card image = prefer a
+  non-map print/photo; use a map only if nothing else.** Hero/card = match aspect to
+  frame (no portrait in the landscape hero band), crop print mats/borders.
 - **art** — `audits/art-content-pipeline.md` (5 critic gates — fact / storytelling
   +looking / comprehensiveness / clarity / framing — + image-rights + nesting; every
   era/movement carries the "break" block, every movement the "manifesto" block or an
