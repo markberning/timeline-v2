@@ -1,0 +1,202 @@
+# Battle of Fredericksburg — FINAL (integrated)
+
+> Pipeline step 5 (war content pipeline). Coordinator/reviser pass over
+> `fredericksburg-draft.md`, applying every gate fix from the five critic files.
+> FACT: PASS — "turned it down twice" web-verified and kept. STORYTELLING: §2 rowboat
+> and §3 Stone Wall now FELT at ground level; §5 numbers re-humanized. COMPREHENSIVENESS:
+> the diversion-gone-wrong plan design added (web-verified) + local emancipation throughline
+> (John Washington, web-verified) localized. CLARITY: unit/rank terms glossed, side-tags
+> added, armies labeled, dense Marye's block split. FRAMING: 0 must-fix; contested legends
+> kept contested. Structure unchanged: five sections, each with OUTCOME verdict + Meanwhile
+> sidebar. Residual [VERIFY] flags noted at bottom.
+
+---
+
+## the-bridges-that-came-late · The original sin · A battle half-lost before a shot
+
+In November 1862, the United States had a new commander in the East and a simple, sensible plan, and the plan was already dying in a warehouse a hundred miles away.
+
+The commander was Maj. Gen. Ambrose E. Burnside (North), and he had just inherited the Army of the Potomac — the main Union army in the East — from George B. McClellan (North), relieved (fired) in early November for letting Lee's army escape after Antietam (Chapter on Antietam). Here is the strange part: Burnside did not want the job, and not in the modest way generals usually say so. Lincoln had offered him command of the army twice before — once after the failed drive on Richmond that summer, once after the defeat at Second Bull Run — and both times Burnside had flatly refused it, saying he was not competent to handle so large an army. He only took it the third time because the courier told him that if he said no again, the command would go to Joseph Hooker (North), a rival he could not stand. So the man now leading a hundred thousand men into Virginia was a man who had spent months insisting he was the wrong man for it — and who now had to prove the country wrong by doing the thing McClellan never would: move fast and hit hard.
+
+So he proposed exactly that. He would march the army southeast to the Rappahannock River, the wide stream that runs northwest to southeast roughly midway between Washington and the Confederate capital at Richmond. He would cross at the town of Fredericksburg before Robert E. Lee (South) — commander of the Army of Northern Virginia, the South's main army in the East — could figure out where he was going, and then drive on Richmond down the open road south. The whole idea was speed: get over the river and onto the high ground beyond it before the Confederates could gather to stop him.
+
+The plan had one moving part it could not live without. Fredericksburg sits on the far (west) bank, and the Rappahannock there is too deep and too wide to wade. To cross an entire army — better than a hundred thousand men, with guns and wagons — Burnside needed **pontoon bridges**: floating bridges built by anchoring a line of flat-bottomed boats across the river and laying a plank roadway over them. His engineers could throw one across in a few hours, but only once the boats actually arrived. He requested them in early November.
+
+They did not come. Somewhere between Burnside's order and the riverbank, in the tangle of Army supply bureaus in Washington, the pontoon train was delayed, misrouted, and delayed again. Burnside's lead troops reached the east bank around November 17 and looked across at a town held by almost nobody. The river was right there. The bridges were not. The first pontoons did not arrive until roughly November 25, more than a week late, and by then the chance was gone.
+
+> FIGURE: period map / illustration of the Rappahannock and Fredericksburg — the Union army massed on the east (Stafford) bank, the town and heights on the west bank. CAPTION emphasizing the river as the central obstacle. [Stuff Happened map preferred]
+
+Because while the Union army stood on the east bank waiting for boats, Lee used the gift. He marched the whole Army of Northern Virginia to Fredericksburg, dug it into the hills behind the town, and packed the high ground with infantry and artillery. The thing that was supposed to be a race became a siege of a position the enemy got to choose. Burnside still meant to cross and attack — the man who had twice refused this command could not now be the general who reached the enemy's river and turned around. Pride, the country's hunger for a win, and the lateness of the season all pushed him forward, and none of them was a reason that survived contact with the ground. He would now be crossing a defended river to assault a fortified ridge held by an army that had had weeks to get ready. The battle was half-lost before a shot was fired, by a supply failure in an office.
+
+> OUTCOME (this section): A logistics failure handed Lee the high ground. Burnside's whole plan depended on crossing the Rappahannock before Lee could concentrate; the pontoon bridges arrived more than a week late, and Lee used the delay to fortify the heights with his entire army. Speed was the plan, and the plan was already gone.
+
+> MEANWHILE — region: *Fredericksburg's riverbank* · title: *The other crossing* · body: Months before Burnside's army reached the Rappahannock, other people had already been crossing it in the opposite direction — and for them the river was not an obstacle but a border between bondage and freedom. In April 1862, as Union troops first appeared across the water at Falmouth, a 24-year-old enslaved man named John Washington — born into slavery in Fredericksburg itself — walked down to the bank, was ferried across by Union soldiers, and was free. He was among the first of more than ten thousand enslaved people who emancipated themselves to Union lines around Fredericksburg that spring and summer, before any proclamation said they could. (Washington served the Union army as a camp hand and later wrote it all down: "I would never be a slave no more.") The army Burnside was about to march to that river was, whether its soldiers thought of it that way or not, the thing those ten thousand people had been walking toward. Within weeks the law would catch up to them: the Emancipation Proclamation Lincoln had announced in September, days after Antietam, was set to take effect January 1, 1863. The men about to die in front of Fredericksburg were dying for a Union whose stated purpose was, within the month, about to openly become the destruction of slavery — the institution Lee's army existed to defend.
+
+---
+
+## crossing-under-fire · House to house · The contested river and the sack of the town
+
+To get at the Confederate army, Burnside first had to get across the river, and the river was now a shooting gallery.
+
+Before dawn on December 11, Union engineers walked out onto the cold water and began laying the upper bridges, the ones opposite the town itself. They never got the chance to finish. From the cellars, windows, and rubble of Fredericksburg's waterfront, Mississippi riflemen under Brig. Gen. William Barksdale (South) opened fire and shot the engineers off the boats. Every time a work party went back out, the sharpshooters cut it down again. The bridge could not be built while those men held the far bank.
+
+So Burnside tried to blast them out. Union artillery, massed on the high east bank known as Stafford Heights, opened on the town and poured shells into it — by one account more than five thousand rounds. The bombardment wrecked houses and started fires and did almost nothing to the riflemen, who were sheltered in stone cellars the shells could not reach. The town burned and the snipers kept shooting.
+
+What finally worked was the oldest answer there is: send men straight at them. In the afternoon, parties of Union infantry — roughly a hundred and thirty-five men of the 7th Michigan and 19th Massachusetts, under Col. Norman J. Hall (North) — climbed down into the pontoon boats themselves. These were not landing craft. They were flat-bottomed bridge boats, low and slow and built to be tied together, and the men had to row them by hand straight across open water with Barksdale's riflemen sighting on them from the far bank the whole way. There was nowhere to get down, nothing to hide behind, no way to shoot back and row at the same time — just a hundred and thirty-five men sitting up in plain view, pulling at the oars while bullets came off the water around them and the man at the next oar dropped. They reached the far bank with the boats still afloat, scrambled up the muddy slope into the streets, and went straight at Barksdale's men, building by building. What followed was close, ugly, room-by-room fighting through a town — one of the first large-scale instances of urban house-to-house combat in American history: men kicking in doors, firing down stairwells, clearing a house and then the next one. The Mississippians were finally pushed back, the engineers finished the bridges, and the army began to cross on December 11 and 12. Downstream, where there was no town to hide snipers, three more bridges went in with little trouble, and the part of the army that would attack downstream, south of the town, crossed almost unopposed.
+
+> FIGURE: the river crossing — pontoon boats rowing across under fire, or the bombardment of the town from Stafford Heights. CAPTION on the first urban house-to-house fight. [period engraving / photograph]
+
+Then came something the army has never been entirely proud of. Once Union troops were loose in Fredericksburg, they wrecked it. Men dragged pianos and mirrors and parlor furniture out into the muddy streets and smashed them for sport; one soldier was seen wearing a stolen bonnet, another emptying a feather mattress into the road so he could keep the ticking. It was a soldiers' rampage through a captured town, and Lee, watching from the heights, likened them to Vandals (the ancient tribe that sacked Rome). Through it the civilian death toll stayed remarkably small — only about four townspeople were killed — because most residents had already fled before the bombardment. But the town itself was gutted. The men who did this had just crossed a river under aimed fire to reach it, and the worst day of all was still ahead of them.
+
+> OUTCOME (this section): The river was forced — at a price. Barksdale's Mississippians turned the crossing into a sniper's killing ground; a five-thousand-shell bombardment failed; only a rowboat assault under fire and brutal house-to-house fighting cleared the bank. The army got across on December 11–12, then sacked the town it had just bled to take.
+
+> MEANWHILE — region: *the Confederate heights* · title: *Watching the enemy walk into the trap* · body: From the hills above the river, Lee's army watched the Union force pour across the pontoons and crowd into the burning town below them. For a defender, it was an extraordinary sight: the enemy was crossing a river and packing itself into a bowl of open ground beneath fortified high ground that Lee's men had had weeks to prepare. Lt. Gen. James Longstreet (South), who held the heights at the center, had already told Lee his position was so strong that he could kill an attacking army before it ever reached his line. He was about to be proven right.
+
+---
+
+## the-gap-and-the-wall · Two battles, one day · Meade's breakthrough and the slaughter at the wall
+
+Here is the thing most people get wrong about December 13: the famous slaughter in front of the town was never supposed to be the main event.
+
+Burnside's actual plan put the weight on the south. His biggest single force — the **Left Grand Division** under Maj. Gen. William B. Franklin (North), nearly sixty thousand men (a "grand division" was Burnside's own oversized name for a wing of the army, two corps stitched together, roughly a third of the whole force) — was to smash Lee's southern flank and roll the Confederate line up from the bottom. The attack in front of the town, against the heights behind Fredericksburg, was meant only as a *diversion*: a hard enough shove to pin Lee's troops there in place so they could not rush south to help. The slaughter everyone remembers was designed to be the sideshow.
+
+It became the main event because Burnside fumbled his own orders. He did not send the official attack orders out until nearly 6 a.m., late, and when they arrived the wording to both wings was nearly identical — *seize the heights* — vague where it most needed to be exact. Franklin, told to seize heights with no clear instruction to throw in his whole sixty thousand, committed a sliver. The diversion in front of town, told to seize heights, kept feeding men in long after a diversion's job was done. So the day inverted: the planned main blow shrank to one division, and the planned distraction swelled into the worst killing ground of the war. Both halves of the disaster trace back to that one garbled 6 a.m. order — and to the general who wrote it.
+
+The result was two completely different battles fought at the same time on the same field — one to the south, where the Union came terrifyingly close to winning, and one in front of the town, where it was simply slaughtered.
+
+A thick fog hid both armies through the early morning. When it lifted, around 10:30, the southern fight opened first. Down past the town, near Prospect Hill and Hamilton's Crossing — the high ground at the southern end of the Confederate line — the Confederate right was held by Lt. Gen. Thomas J. "Stonewall" Jackson (South). Against him, Franklin had that enormous wing and committed almost none of it. He sent forward a single **division** — a major chunk of an army, a few thousand men, several of which make up a wing — under Maj. Gen. George G. Meade (North), about 4,500 men, supported by another Union division under Brig. Gen. John Gibbon (North), into the teeth of Jackson's line. Tens of thousands of Franklin's men stood and watched.
+
+The advance had barely started when one Confederate gunner nearly stopped the whole thing by himself. Maj. John Pelham (South), a young artillery officer, ran a pair of guns out onto the flank of the advancing Union line and fired down its length — an enfilade, the most lethal angle there is, where a single shot can travel the whole line of a formation and hit man after man. His were horse-artillery, light field guns crewed by men on horseback and built to gallop, so every time Union batteries found his range he limbered up, dashed to a new spot, and opened again from somewhere they were not aimed. With just two guns, moving, Pelham held up the entire attack until he was finally ordered back. Lee, watching, is said to have remarked of him, "It is glorious to see such courage in one so young." [QUOTE — Lee on Pelham; VERIFIED clean attribution]
+
+Then Meade's men found the one flaw in Jackson's line. In front of Confederate Maj. Gen. A.P. Hill (South), a stretch of about six hundred yards had been left undefended — a swampy, wooded, triangular patch of boggy ground between two brigades, skipped because it looked too impassable to attack through. (A **brigade** is the next unit down from a division: a few regiments grouped together, roughly a couple thousand men.) The gap was not impassable. Meade's division pushed straight into it, broke through, and turned on the Confederate brigades to either side, rolling up their flanks. For one wild stretch of the afternoon the unbreakable Stonewall Jackson's front had a hole punched clean through it — the only real breakthrough of the entire battle. Confederate Brig. Gen. Maxcy Gregg (South) was mortally wounded trying to rally his men against the rush.
+
+And then it died for lack of help. Franklin, still sitting on the rest of his enormous wing, sent Meade no reinforcement. Confederate reserves under Jubal A. Early and William B. Taliaferro (South) counterattacked the unsupported breakthrough, drove Meade and Gibbon back across the railroad, and sealed the gap behind them. Meade, riding out of the wreck of his division, is supposed to have raged at his wing's corps commander, Maj. Gen. John F. Reynolds (North), "My God, General Reynolds, did they think my division could whip Lee's whole army?" [QUOTE — Meade; VERIFIED exact wording] One division had done the impossible, and one division was all it had been given — because the man with sixty thousand men had been told only to *seize the heights*.
+
+> FIGURE: map of the two fronts — Meade's breakthrough at the gap in Jackson's line to the south; Marye's Heights / the Stone Wall to the north. CAPTION distinguishing the near-win from the slaughter. [Stuff Happened map]
+
+While that was happening to the south, the diversion-that-became-the-main-event was unfolding in front of the town, and it was not really a battle at all.
+
+Behind Fredericksburg rose Marye's Heights, a ridge about six hundred yards west of the streets, lined along its crest with massed Confederate artillery. At the foot of the ridge ran a sunken farm lane, Telegraph Road, fronted by a stone wall about four feet high — and behind that wall, in the sunken road, stood Longstreet's infantry stacked multiple ranks deep, completely sheltered, with a clear field of fire across open, rising, muddy ground. A few thousand sheltered men, firing in rotating ranks so there was never a pause to load, against tens of thousands sent at them across bare ground. Before the battle, Longstreet's artillerist, Lt. Col. E. Porter Alexander (South), had looked over that ground and told him, "A chicken could not live on that field when we open on it." [QUOTE — Alexander; VERIFIED, faithful excerpt of longer line]
+
+To reach the wall, a Union brigade first had to funnel across a canal ditch — a millrace running north to south about two hundred yards out of town, crossed only by a few narrow bridges — then re-form on the far side, under fire, and walk roughly six hundred yards up the open slope into the wall. Burnside ordered it anyway, around midday. Then he ordered it again, and again. Seven divisions went up that slope, generally one brigade at a time, in something like fourteen separate charges, and every single one of them failed.
+
+Take just one of them — the Irish Brigade, under Brig. Gen. Thomas F. Meagher (North), many of its men Irish immigrants who had carried green regimental flags out of New York. They crossed the millrace bridges in a clot, re-formed under fire, and started up the slope into ground the men ahead of them were already dying on — stepping over the rank that had gone first, then becoming the rank the next men would step over. There was no cover and no rush; the wall was too far to reach at a run, so they walked into it. Somewhere short of the wall the front of the brigade simply came apart, men folding into the mud all along the line at once where the volley caught them, and the survivors lay down among the dead and kept firing at a stone wall they could not see anyone behind. They got perhaps to within fifty or sixty yards. Not one of them touched it. The Irish Brigade walked up that slope about twelve hundred strong and left roughly five hundred and forty-five of its men on it. And it was one charge of fourteen.
+
+The men of Kimball's brigade — a Union brigade under Brig. Gen. Nathan Kimball (North) — were cut down about a hundred and twenty-five yards short of the wall. At dusk, when the slope was already carpeted, green regiments under Brig. Gen. Andrew A. Humphreys (North) were sent up with their rifles *unloaded* and bayonets fixed — ordered to take the wall with cold steel because there was no longer time for anything else — and were shredded about fifty yards out, having never fired a shot. Not one Union soldier, in any of the fourteen charges, reached the stone wall. Behind it, Confederate Brig. Gen. Thomas R.R. Cobb (South) was mortally wounded and Brig. Gen. Joseph B. Kershaw (South) took over the line and held it without strain.
+
+By dark it was no longer a tactic. It was a massacre with a name — Marye's Heights — and the failure was not of any one brigade but of the whole idea that men could cross that ground and live.
+
+> OUTCOME (this section): One army nearly broke, and one was butchered — and Burnside's own garbled orders inverted which was which. The south was meant to be the main blow; his vague 6 a.m. "seize the heights" order shrank it to Meade's lone division, which pierced the only gap in Jackson's line and then lost the breakthrough for lack of reinforcement. The attack on the town, meant only as a diversion, swelled into fourteen brigade-by-brigade charges into the stone wall — and not one man reached it. The defensive position did exactly what Longstreet promised it would.
+
+> MEANWHILE — region: *Lee's Hill* · title: *"Lest we grow too fond of it"* · body: Lee watched the whole thing from a knoll behind his center, a high point his men called Lee's Hill, with a clear view of both fronts and of the Union dead piling up before the wall. He is traditionally said to have turned to Longstreet as the slaughter unfolded and remarked, "It is well that war is so terrible — lest we should grow too fond of it." [QUOTE — Lee; provenance shaky, see note] The line is famous, but it is also a post-war recollection that the man supposed to have heard it never mentioned in his own memoirs, and it should be read as tradition, not transcript. The unromantic fact underneath it is plainer: from that hill, a slaveholding republic's army was watching a numerically superior enemy destroy itself, and Lee found the spectacle terrible enough to fear it might be enjoyed.
+
+---
+
+## the-frozen-field · The night after · The wounded, the cold, and the contested angel
+
+When the firing finally stopped on the night of December 13, the worst part of Fredericksburg began.
+
+Thousands of wounded Union men lay scattered across the open slope in front of the stone wall, in the dark and the December cold, unable to crawl away because anything that moved in front of the wall still drew fire. They lay there through the freezing night and into the next day, crying out for water within earshot of the Confederate line, the cries thinning one by one as men died of cold and blood loss in the open. The dead lay among them, and through the night some of the bodies in front of the wall were stripped of their shoes and uniforms by Confederate soldiers who came down off the line for the warm clothing — the un-romantic texture of the slaughter, men robbing the dead for boots while the wounded begged for water a few yards away. When a Union burial party finally reached the ground, it counted about 918 dead in front of the wall, many of them stripped bare.
+
+It is the morning after a slaughter that produced the battle's most famous act of mercy — and the act is also the battle's most famous unresolved story. According to a single later account, on December 14 a Confederate sergeant named Richard Rowland Kirkland (South), of the 2nd South Carolina at the stone wall, could no longer stand the cries from the field. He got his brigade commander Kershaw's permission to go out to the wounded — though Kershaw refused him a flag of truce — and climbed over the wall with as much water as he could carry. Out in the open, in full view of both armies, he went from one wounded Union man to the next giving them water (and, by the telling, blankets and clothing), trip after trip, while both sides held their fire and watched. He has been remembered ever since as "the Angel of Marye's Heights," and a statue stands at the battlefield today.
+
+Here honesty has to interrupt the legend. The story was first written down by Kershaw in 1880, roughly seventeen years after the battle and after Kirkland himself had been killed at Chickamauga (a later battle, in 1863). There are no contemporary accounts of it from the time, and historians who have looked closely note that the tale may have grown in the retelling. So it belongs in the section the way it actually reaches us: as a single, powerful, after-the-fact recollection — possibly true, possibly embellished — and not as a verified fact. Something happened on that field that men needed to believe; whether it happened exactly as Kershaw told it seventeen years on, we cannot say.
+
+> FIGURE (optional): the Kirkland monument at Fredericksburg, OR a period image of the wounded on the field. CAPTION must frame Kirkland as a contested 1880 account, not established fact. [NPS / public domain]
+
+What is documented needs no embellishing. On the night of December 14, an unusually strong aurora borealis — the northern lights, rare that far south — came up red and rippling over the battlefield, and the men who recorded it in their diaries understood the awful joke of it: the *northern* lights, hanging over a field of frozen Northern dead, as if the sky over Virginia had turned out to mourn the men the Confederacy had killed on it. Burnside, half-broken, announced that the next day he would personally lead his old IX Corps — the large standing formation he had commanded before he was handed the whole army — in one more charge at the wall; his generals talked him out of it the following morning. On December 14 the armies simply held their positions, and a truce let the Union finally gather its wounded and bury its dead. On the night of December 15, the Army of the Potomac slipped back across the Rappahannock, took up the pontoon bridges behind it, and the campaign was over.
+
+> OUTCOME (this section): The killing was over; the dying was not. Thousands of wounded Union men lay on the frozen open ground all night under Confederate fire; a burial party later counted about 918 dead before the wall, many stripped of boots and clothing. The most famous mercy of the night — the "Angel of Marye's Heights" — survives only in a single account written seventeen years later and must be read as contested legend. On December 15 the beaten army recrossed the river.
+
+> MEANWHILE — region: *the Union lines* · title: *One more charge, refused* · body: That night Burnside, devastated by what his orders had done, told his staff he would put himself at the head of his old IX Corps and lead the renewed assault on the wall in person the next morning. It was the gesture of a man trying to share the death he had sent others into. His generals spent the night and the next morning arguing him out of it, and the attack never came. Instead the army waited a day under truce, gathered its wounded, and withdrew. The man who had twice refused this command, certain he was the wrong man for it, had now presided over one of the war's worst defeats — and seemed, that night, to believe it too.
+
+---
+
+## tactical-win-strategic-nothing · A battle, gained · The lopsided cost and what it bought no one
+
+Add up the cost, and the whole meaning of Fredericksburg is in the imbalance.
+
+The Army of the Potomac lost roughly 12,500 to 13,000 men — by the detailed count, about 12,653, of whom 1,284 were killed, 9,600 wounded, and the rest captured or missing. These are not abstractions. They are the men we just watched: the 918 who lay dead in front of the wall, stripped to the skin in the cold; the Irish Brigade that walked up the slope twelve hundred strong and left more than five hundred on it; Humphreys's boys sent up with empty rifles to die fifty yards short of a wall nobody touched. Lee's Army of Northern Virginia lost roughly 5,300 to 6,000 — about 5,377, with 608 killed — most of them on the southern front, where Meade actually broke through; the men behind the stone wall barely had to bleed at all. Union losses ran something like two to two and a half times the Confederate ones, and almost the entire difference came from one place: the failed assaults on Marye's Heights cost the Union somewhere in the range of 6,000 to 8,000 casualties against perhaps 1,200 Confederates behind the wall. The North brought the bigger army — it outnumbered the South by roughly three to two, something like 114,000 engaged against 72,500 — and walked away having lost more than twice as many men, without taking a foot of the ground it attacked.
+
+> FIGURE: the casualty contrast — a clean visual of the lopsided toll (Union ~12,653 / Confederate ~5,377), or the dead before the stone wall. CAPTION on the numerical superiority that produced the lopsided defeat. [Stuff Happened graphic / period photo]
+
+The reaction matched the carnage. Pennsylvania's governor, Andrew Curtin (North), who went down to the field and saw it, reportedly told Lincoln, "It was not a battle, it was a butchery." [QUOTE — Curtin; VERIFIED] Lincoln himself is said to have groaned, "If there is a worse place than hell, I am in it." [QUOTE — Lincoln; VERIFIED] The Northern press turned savage, one paper writing that it could "hardly be in human nature for men to show more valor or generals to manifest less judgment." [QUOTE — Cincinnati Commercial; VERIFIED] The disaster, followed weeks later by a humiliating, rain-bogged failed march that the army nicknamed the "Mud March," finished Burnside; in late January 1863 Lincoln replaced him with — of all people — Joseph Hooker, the rival whose name on the command had been the only thing that pushed Burnside to take the job in the first place.
+
+And yet, for all the blood, the battle changed almost nothing on the map — and the man who won it understood that better than anyone. Lee's lines were exactly where they had been; the Union army had simply gone back across the river it came from. Lee later wrote that "at Fredericksburg we gained a battle," while his people were elated and he himself was depressed, because "we had really accomplished nothing; we had not gained a foot of ground." [QUOTE — Lee afterward; VERIFIED] It was a textbook tactical victory that decided no campaign. What it did do was teach, in blood, the lesson the war kept charging more and more to relearn: that entrenched infantry behind a wall, with massed artillery above, could destroy a far larger force sent at it across open ground. Frontal assault into a prepared defense was becoming suicide, and Marye's Heights became the byword for it.
+
+The deepest meaning of the day, though, is not in the box score at all — it is in who, three weeks down the road, the dead had turned out to be dying for. Fredericksburg was fought in the middle of December 1862, at the very lowest point of Northern morale: a futile, lopsided defeat, the bigger army butchered against a wall, the country sick of the war. And about three weeks later, on January 1, 1863, the Emancipation Proclamation took effect, and the war's stated purpose openly became the destruction of slavery in the rebelling states. Some of the same enslaved people who had been crossing the Rappahannock to Union lines around Fredericksburg all year — John Washington's ten thousand — were now, by law, free, and the army that had bled in front of the stone wall was now formally an army of liberation, whether the freezing men on that slope had known it or not. The courage of the men behind the wall was real and the position was deadly, but it is worth being plain about what each side was standing for: Burnside's men had died, at the war's bleakest hour, for a cause that within the month became the abolition of slavery, while the army that slaughtered them was defending the slaveholding Confederacy that emancipation was about to threaten. Fredericksburg's despair and the war's great moral turn happened within the same three weeks of each other, and you cannot honestly tell one without the other.
+
+> OUTCOME (verdict): Decisive Confederate victory, strategic dead end. The numerically superior Union army lost more than twice as many men as the South — most of them thrown away in fourteen failed charges at a stone wall that Burnside's own garbled orders had turned from a diversion into the main slaughter — and gained nothing but a name for futile frontal assault. Lee won the battle and knew it had decided nothing; Burnside's command did not survive it. And it was fought in the final weeks before the Emancipation Proclamation took effect on January 1, 1863, turning the war openly into a war against slavery — the freedom that enslaved people around Fredericksburg, like John Washington, had already been crossing the river to claim.
+
+> MEANWHILE — region: *the South, and the road ahead* · title: *The high tide of confidence* · body: For the Confederacy, Fredericksburg was the high-water mark of confidence in the East. Lee's army had crushed a much larger force at almost no cost to its own position, and the ease of it fed a dangerous over-confidence — the belief that the Army of Northern Virginia could beat anything the North sent at it on ground of Lee's choosing. That confidence carried Lee through another lopsided win at Chancellorsville the following May, and then north again, across the Potomac, toward a small Pennsylvania town called Gettysburg — where the same faith in his army's invincibility would send Confederate men across open ground into a prepared Union line, and the arithmetic of Marye's Heights would come back the other way.
+
+---
+
+# RESIDUAL [VERIFY] / INTEGRATION NOTES
+
+All five gates applied. Fact-checker returned PASS with no MUST-FIX; every previously
+flagged figure, name, rank, place, date, and quote was independently confirmed (see
+`fredericksburg-crit-fact.md`) and the [VERIFY] tags on those have been resolved to
+VERIFIED in-line above.
+
+Newly web-verified this pass (this session's searches):
+- **Diversion-vs-main-attack plan design + garbled 6 a.m. "seize the heights" orders.**
+  CONFIRMED — Franklin's Left Grand Division (~60,000) was the intended main blow against
+  Jackson's flank; Marye's was the supporting/diversionary pin on Longstreet; Burnside's
+  late (~6 a.m.), near-identical "seize the heights" orders to both wings collapsed the
+  60,000-man main attack to Meade's lone ~4,500 and let the "diversion" swell into the
+  slaughter. (American Battlefield Trust "After the Crossing"; Encyclopedia Virginia;
+  Wikipedia.) Added to §3 (opening) + §3 OUTCOME + §5 verdict.
+- **John Washington / local self-emancipation.** CONFIRMED — enslaved man born in
+  Fredericksburg (b. 1838), self-emancipated to Union lines across the Rappahannock at
+  Falmouth in April 1862; among the first of 10,000+ in the area to self-emancipate that
+  spring/summer; served Maj. Gen. Rufus King; wrote a memoir (1873, quote "I would never
+  be a slave no more"). (NPS Fredericksburg & Spotsylvania; American Battlefield Trust
+  "John Washington"; Discover Stafford "Trail to Freedom"; Wikipedia; Encyclopedia
+  Virginia.) Localizes the emancipation hook in §1 Meanwhile + §5 prose/verdict —
+  replacing the purely calendrical Jan 1 note.
+- **Burnside declined command twice before accepting.** CONFIRMED — Lincoln offered the
+  Army of the Potomac to Burnside after the Peninsula Campaign and again after Second Bull
+  Run; he refused both, citing loyalty to McClellan and self-doubt; accepted Nov 7, 1862
+  only because refusal would have handed it to Hooker. (NPS "How does Burnside get
+  Command?"; History.com; Wikipedia; Encyclopedia Virginia.) Kept and expanded in §1
+  (and paid off in §5: Hooker actually replaces him).
+
+Still carried as IN-PROSE-FLAGGED tradition/contested (NOT asserted as fact — by design,
+fact-checker confirms this is the required treatment):
+- **Lee "It is well that war is so terrible — lest we should grow too fond of it"** —
+  one wording chosen, attributed as tradition, Longstreet-silence caveat kept in §3
+  Meanwhile.
+- **Kirkland "Angel of Marye's Heights"** — framed strictly as Kershaw's single 1880
+  account, ~17 years after the fact, "possibly true, possibly embellished — and not a
+  verified fact." §4 + figure-caption note.
+
+Residual minor [VERIFY] (non-blocking; nothing load-bearing):
+- **Kimball first name "Nathan"** — added a side-tag + name per CLARITY M8 (was
+  "Kimball's brigade," no person). Brig. Gen. Nathan Kimball commanded the lead brigade
+  of French's division in the assault; standard accounts (WP order of battle) support it,
+  but it was added this pass and is flagged for a final glance.
+- The "red and rippling" coloration of the Dec 14 aurora is a reasonable rendering of
+  the strongly-documented event but the specific *color* is an authorial intensification
+  of the soldier-diary detail; keep as imagery, not as a hard claim.
+
+Gate-fix coverage:
+- **CLARITY (10 MUST-FIX):** division (M1), brigade (M2), wing/grand-division (M3),
+  corps/IX Corps (M4), horse-artillery (M5) all glossed once inline; enfilade (M6) and
+  pontoon bridges (M7) kept as-is (already model); Gibbon/Reynolds/Kimball side-tagged
+  + scene-set (M8, Reynolds now explained as Meade's corps superior); McClellan tagged +
+  "relieved (fired)" (M9); Army of the Potomac = North / Army of Northern Virginia = South
+  made explicit on first use (M10); dense Marye's block split into geography → Irish-Brigade
+  felt-charge → roll-call of failures (S13). "Vandals" and "Chickamauga" given 3-word
+  glosses (S9/S11).
+- **STORYTELLING (3 MUST-IMPROVE):** §2 rowboat now lived-in at oar level; §3 Stone Wall
+  centered on ONE felt charge (Irish Brigade) walking into the killing ground; §5 opening
+  re-humanizes the count back to the men just watched die. Name-load trimmed at the felt
+  charge per SHOULD-IMPROVE; aurora lifted a degree; Emancipation framing varied across
+  appearances (local/human in §1, who-they-died-for in §5) rather than restated.
+- **COMPREHENSIVENESS (1 MUST-ADD + the recommended SHOULD):** diversion-gone-wrong added;
+  emancipation throughline localized via John Washington; force-ratio-at-the-wall clause
+  added (SHOULD-CONSIDER 3).
+- **FRAMING (0 MUST-FIX):** "magnificent" softened to "deadly" (optional hardening);
+  contested Lee quote + Kirkland legend kept contested; slavery named in the section's own
+  prose in §1, §3 Meanwhile, and §5 (prose + verdict).
