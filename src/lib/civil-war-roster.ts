@@ -26,9 +26,9 @@ export const MAJORS: Major[] = [
   { id: 'e-fredericksburg', name: 'Fredericksburg', year: 1862, m: 12, mo: 'Dec', place: 'Fredericksburg, VA', theatre: 'east', size: 'm', href: '/war-civil-war/eastern/fredericksburg', img: '/war-img/fredericksburg-hero.jpg', hook: 'Wave after wave into a stone wall — the Union’s most futile slaughter of the war.' },
   { id: 'e-chancellorsville', name: 'Chancellorsville', year: 1863, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'l', href: '/war-civil-war/eastern/chancellorsville', img: '/war-img/chancellorsville-hero.jpg', hook: 'Lee’s masterpiece — and the night he lost Stonewall Jackson to his own men.' },
   { id: 'e-gettysburg', name: 'Gettysburg', year: 1863, m: 7, mo: 'Jul', place: 'Adams Co., PA', theatre: 'east', size: 'xl', href: '/war-civil-war/eastern/gettysburg', img: '/war-img/gettysburg-hero.jpg', hook: 'Three days that turned the war — Lee never invaded the North again.' },
-  { id: 'e-wilderness', name: 'The Wilderness', year: 1864, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'l' },
-  { id: 'e-spotsylvania', name: 'Spotsylvania Court House', year: 1864, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'm' },
-  { id: 'e-coldharbor', name: 'Cold Harbor', year: 1864, m: 6, mo: 'Jun', place: 'Hanover Co., VA', theatre: 'east', size: 'm' },
+  { id: 'e-wilderness', name: 'The Wilderness', year: 1864, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'l', href: '/war-civil-war/eastern/wilderness', img: '/war-img/wilderness-hero.jpg', hook: 'Two days of blind slaughter in a burning thicket — and the night Grant refused to turn back.' },
+  { id: 'e-spotsylvania', name: 'Spotsylvania Court House', year: 1864, m: 5, mo: 'May', place: 'Spotsylvania Co., VA', theatre: 'east', size: 'm', href: '/war-civil-war/eastern/spotsylvania', img: '/war-img/spotsylvania-hero.jpg', hook: 'Twenty hours of hand-to-hand horror at the Bloody Angle — and the freedmen who came back to fight Lee on their own ground.' },
+  { id: 'e-coldharbor', name: 'Cold Harbor', year: 1864, m: 6, mo: 'Jun', place: 'Hanover Co., VA', theatre: 'east', size: 'm', href: '/war-civil-war/eastern/cold-harbor', img: '/war-img/cold-harbor-hero.jpg', hook: 'The charge Grant always regretted — thousands of Union men cut down in an hour against the works.' },
   { id: 'e-petersburg2', name: 'Second Petersburg', year: 1864, m: 6, mo: 'Jun', place: 'Petersburg, VA', theatre: 'east', size: 'm' },
   { id: 'e-crater', name: 'The Crater', year: 1864, m: 7, mo: 'Jul', place: 'Petersburg, VA', theatre: 'east', size: 's' },
   { id: 'e-opequon', name: 'Opequon', year: 1864, m: 9, mo: 'Sep', place: 'Winchester, VA', theatre: 'east', size: 's' },
@@ -50,8 +50,8 @@ export const MAJORS: Major[] = [
   { id: 'w-lookout', name: 'Lookout Mountain', year: 1863, m: 11, mo: 'Nov', place: 'Chattanooga, TN', theatre: 'west', size: 's', href: '/war-civil-war/western/lookout-mountain', img: '/war-img/lookout-mountain-hero.jpg', hook: 'The Battle Above the Clouds — a small fight with a giant name, and a door pried open.' },
   { id: 'w-missionary', name: 'Missionary Ridge', year: 1863, m: 11, mo: 'Nov', place: 'Chattanooga, TN', theatre: 'west', size: 'm', href: '/war-civil-war/western/missionary-ridge', img: '/war-img/missionary-ridge-hero.jpg', hook: 'The unordered charge straight up the ridge that shattered Bragg and opened the road to Atlanta.' },
   { id: 'w-jonesborough', name: 'Jonesborough', year: 1864, m: 9, mo: 'Sep', place: 'Jonesboro, GA', theatre: 'west', size: 's' },
-  { id: 'w-franklin', name: 'Franklin', year: 1864, m: 11, mo: 'Nov', place: 'Franklin, TN', theatre: 'west', size: 'm' },
-  { id: 'w-nashville', name: 'Nashville', year: 1864, m: 12, mo: 'Dec', place: 'Nashville, TN', theatre: 'west', size: 'l' },
+  { id: 'w-franklin', name: 'Franklin', year: 1864, m: 11, mo: 'Nov', place: 'Franklin, TN', theatre: 'west', size: 'm', href: '/war-civil-war/western/franklin', img: '/war-img/franklin-hero.jpg', hook: 'Five doomed hours and six dead generals — the open-field charge that wrecked the Army of Tennessee.' },
+  { id: 'w-nashville', name: 'Nashville', year: 1864, m: 12, mo: 'Dec', place: 'Nashville, TN', theatre: 'west', size: 'l', href: '/war-civil-war/western/nashville', img: '/war-img/nashville-hero.jpg', hook: 'The army of the slaveholders’ republic erased in two days — with the U.S. Colored Troops storming the hill.' },
   { id: 'w-bentonville', name: 'Bentonville', year: 1865, m: 3, mo: 'Mar', place: 'Bentonville, NC', theatre: 'west', size: 'm' },
   { id: 'w-blakeley', name: 'Fort Blakeley', year: 1865, m: 4, mo: 'Apr', place: 'Baldwin Co., AL', theatre: 'west', size: 's' },
 
@@ -67,7 +67,7 @@ export const MAJORS: Major[] = [
   // ── Naval & Coastal (4) ───────────────────────────────────────
   { id: 'n-sumter', name: 'Fort Sumter', year: 1861, m: 4, mo: 'Apr', place: 'Charleston, SC', theatre: 'naval', size: 'l', href: '/war-civil-war/naval/fort-sumter', img: '/war-img/fort-sumter-hero.jpg', hook: 'The bloodless bombardment that began the bloodiest war in American history.' },
   { id: 'n-jacksonstphilip', name: 'Forts Jackson & St. Philip', year: 1862, m: 4, mo: 'Apr', place: 'Mississippi River, LA', theatre: 'naval', size: 's', href: '/war-civil-war/naval/forts-jackson', img: '/war-img/forts-jackson-hero.jpg', hook: 'Farragut runs the forts in the dark — and the South loses its greatest city.' },
-  { id: 'n-mobilebay', name: 'Mobile Bay', year: 1864, m: 8, mo: 'Aug', place: 'Mobile, AL', theatre: 'naval', size: 'm' },
+  { id: 'n-mobilebay', name: 'Mobile Bay', year: 1864, m: 8, mo: 'Aug', place: 'Mobile, AL', theatre: 'naval', size: 'm', href: '/war-civil-war/naval/mobile-bay', img: '/war-img/mobile-bay-hero.jpg', hook: '“Damn the torpedoes” — Farragut seals the Confederacy’s last Gulf port, a man born enslaved working his flagship’s guns.' },
   { id: 'n-fortfisher2', name: 'Second Fort Fisher', year: 1865, m: 1, mo: 'Jan', place: 'Wilmington, NC', theatre: 'naval', size: 'm' },
 ]
 
