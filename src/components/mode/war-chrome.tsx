@@ -178,7 +178,7 @@ const MENU_W = 252
 function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel = 168 }: { crumb: Crumb; chip: string; faint: string; muted: string; accent: string; emphasized: boolean; maxLabel?: number }) {
   const [open, setOpen] = useState(false)
   const [pos, setPos] = useState<{ left: number; top: number }>({ left: 0, top: 0 })
-  const btnRef = useRef<HTMLButtonElement>(null)
+  const wrapRef = useRef<HTMLSpanElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
   const border = '1px solid color-mix(in srgb, var(--foreground) 14%, transparent)'
   // A crumb with a `short` always shows it in the bar (keeps the trail narrow
@@ -189,11 +189,11 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   const pill = crumb.color
   // The breadcrumb <nav> scrolls horizontally (overflow-x: auto), which clips an
   // absolutely-positioned menu hanging below it. Anchor the menu with
-  // position: fixed off the button's viewport rect so it escapes the clip; clamp
+  // position: fixed off the crumb's viewport rect so it escapes the clip; clamp
   // left so a right-edge crumb's menu stays on-screen.
   useLayoutEffect(() => {
-    if (!open || !btnRef.current) return
-    const r = btnRef.current.getBoundingClientRect()
+    if (!open || !wrapRef.current) return
+    const r = wrapRef.current.getBoundingClientRect()
     const left = Math.max(8, Math.min(r.left, window.innerWidth - MENU_W - 8))
     setPos({ left, top: r.bottom + 6 })
   }, [open])
@@ -204,7 +204,7 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
     if (!open) return
     const onDown = (e: Event) => {
       const t = e.target as Node
-      if (btnRef.current?.contains(t) || menuRef.current?.contains(t)) return
+      if (wrapRef.current?.contains(t) || menuRef.current?.contains(t)) return
       setOpen(false)
     }
     document.addEventListener('pointerdown', onDown, true)
@@ -214,18 +214,36 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   // fixed crumb colour if set, accent for the current page's leaf, else muted.
   const color = pill ?? (emphasized ? accent : muted)
   const weight = pill || emphasized ? 700 : 500
+  // DUAL-ACTION crumb: the LABEL navigates straight to this crumb's own page,
+  // the ▾ chevron opens the jump menu beside it. Split only when there's a real
+  // elsewhere to go — a target href AND this crumb isn't the current page's leaf
+  // (navigating a leaf to itself is pointless, so the leaf's label just opens the
+  // menu like before). This is what lets you tap "ACW" to reach the ACW home
+  // without first opening the dropdown.
+  const canSplit = !!crumb.href && !emphasized
+  const labelStyle: React.CSSProperties = {
+    overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+    maxWidth: maxLabel, minWidth: 0, fontFamily: SANS, fontSize: 11.5, fontWeight: weight, color,
+    textDecoration: 'none', padding: '2px 1px', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer',
+  }
   const chevron = (
     <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
       <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
   return (
-    <span style={{ position: 'relative', flexShrink: 0, minWidth: 0 }}>
-      <button ref={btnRef} onClick={() => setOpen(o => !o)} aria-expanded={open} style={{
-        display: 'inline-flex', alignItems: 'center', gap: 3, padding: '2px 1px', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer',
-        fontFamily: SANS, fontSize: 11.5, fontWeight: weight, color, maxWidth: maxLabel, minWidth: 0,
+    <span ref={wrapRef} style={{ position: 'relative', flexShrink: 0, minWidth: 0, display: 'inline-flex', alignItems: 'center' }}>
+      {canSplit
+        ? <a href={crumb.href} style={labelStyle}>{label}</a>
+        : <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ ...labelStyle, display: 'inline-flex', alignItems: 'center' }}>{label}</button>}
+      {/* when the label is its own link, set the ▾ apart as a clearly separate
+          tap target: extra gap + a faint hairline divider before it. */}
+      <button onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`${label} menu`} style={{
+        display: 'inline-flex', alignItems: 'center', flexShrink: 0, appearance: 'none', background: 'transparent', cursor: 'pointer', color,
+        marginLeft: canSplit ? 5 : 0,
+        paddingLeft: canSplit ? 6 : 1, paddingRight: 3, paddingTop: 2, paddingBottom: 2,
+        border: 'none', borderLeft: canSplit ? `1px solid ${alpha('#888', 0.32)}` : 'none', borderRadius: 0,
       }}>
-        <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{label}</span>
         {chevron}
       </button>
       {open && (
