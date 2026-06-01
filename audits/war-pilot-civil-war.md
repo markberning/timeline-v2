@@ -32,6 +32,36 @@ reveal what actually breaks — before building any other war. `kind: 'war'`.
 > home-front/war-finance; Native-Americans / Indian Territory + 1862 Dakota War) are
 > still optional adds, never started.
 
+> **STATUS 2026-06-01 — NAV + HOME redesign (Art-style tier-3 jump-bar everywhere).**
+> The whole ACW surface moved to the Art "Realism page" chrome — a sticky tier-3 pill
+> bar (shared `WarSectionNav` in `war-chrome`) under the breadcrumb, one continuous
+> scroll, no Timeline/Dossier toggle anywhere.
+> - **War home (`war-civil-war/page.tsx`):** jump-bar chips **Story · Details ·
+>   Theatres · Timeline**. The Theatres block is ONE interactive `DottedMap` that
+>   zooms to the chosen theatre (4-pill, default Eastern) with leader-line battle
+>   callouts (titles parked in the surrounding states, thin leaders to the dots, links
+>   to built battle pages) + state-fill shading; each theatre has a 4-sentence intro.
+>   The Timeline block has its OWN 7-option selector — two rows: **All · Off the
+>   Battlefield · The Military Story** / the 4 theatres — and a **Cards/List** slider.
+>   `All` interleaves the Military-Story chapters + every battle/theme chronologically,
+>   each item coloured by its theatre with the theatre named after the date.
+> - **Theatre pages are effectively obsolete.** The Theatre breadcrumb crumb now jumps
+>   to the FIRST built battle of that theatre (geographic theatres); the Battle/Event
+>   dropdown is FILTERED to the chosen theatre. **Off the Battlefield + The Military
+>   Story keep their real home pages** (they're subject lists, not a battle a crumb can
+>   land on).
+> - **All 38 built battle dossiers** converted to the jump-bar (At a glance ·
+>   Commanders · Outcome · Narrative); the Timeline/Dossier toggle is retired
+>   corpus-wide (commit `5cdb15cd`).
+> - **NEW: storytelling Commanders section** (photo-left column + per-commander
+>   2-sentence story of THIS battle, full names) — piloted on Gettysburg. **The blurbs
+>   are GATED CONTENT** (DRAFT, owed the fact-check pass); other battles keep the old
+>   headshot strip until their blurbs land. See `war-content-pipeline.md` "Commanders
+>   section" + the Dossier-retrofit sweep (strand 1 chrome ✅ done; voice/maps/commanders
+>   still per-battle gated work).
+> - **OWED A FACT-CHECK:** the 4-sentence theatre intros (war home) and the Gettysburg
+>   commander blurbs are draft prose that has NOT yet been through the fact gate.
+
 ## Governing principle
 **Good storytelling is the top priority — with factual accuracy and zero
 hallucination as non-negotiable hard constraints.** Every section leads with

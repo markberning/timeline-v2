@@ -156,12 +156,13 @@ draft is not done). Full rationale: `memory/feedback_war_voice_restraint`,
 Every already-built battle dossier gets brought up to the current bar. Four
 strands, run per battle (the first is mechanical and ships on its own; the rest
 are gated content):
-1. **Chrome — tier-3 jump-bar, drop the toggle (mechanical).** Convert each
-   `<theatre>/<slug>/page.tsx` to the Gettysburg pattern: remove `useWarView` /
-   `WarViewToggle`, add the sticky `WarSectionNav` (At a glance · Commanders ·
-   Outcome · Narrative) above the hero, wrap the dossier components in the four
-   id'd sections, drop the alternate card-timeline branch, clean orphaned imports.
-   No new prose, so this rolls out across all battles immediately.
+1. **Chrome — tier-3 jump-bar, drop the toggle (mechanical). ✅ DONE 2026-06-01 —
+   all 38 built dossiers converted (commit `5cdb15cd`).** Converted each
+   `<theatre>/<slug>/page.tsx` to the Gettysburg pattern: removed `useWarView` /
+   `WarViewToggle`, added the sticky `WarSectionNav` (At a glance · Commanders ·
+   Outcome · Narrative) above the hero, wrapped the dossier components in the four
+   id'd sections, dropped the alternate card-timeline branch, cleaned orphaned imports.
+   No new prose, so it rolled out across all battles at once (scripted, tsc-clean).
 2. **Voice pass (gated).** The narrative sections through the locked house-voice
    rules (no em-dashes / no meta-narrator / name-cause-once / full-rank-first /
    pills-not-inline / comprehensive linking) — see `memory/feedback_war_voice_restraint`.
@@ -357,7 +358,7 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 - **Outcome card** — verdict + 2–4 sentence explanation (see step 7).
 - **Section list** — each section a **distinct** image; never reuse the hero as a section card.
 - **Section CARD design = FLOAT-INSET, not cover-crop (locked 2026-05-31, user-approved).**
-  The per-section "chapter cards" in the dossier's Timeline view use the `inset` prop on
+  The per-section "chapter cards" in the dossier's Narrative section list use the `inset` prop on
   `BattleCard` (`SECTIONS.map(... <BattleCard ... inset />)` in
   `<theatre>/<battle>/page.tsx`): one uniform grey card ground
   (`color-mix(in srgb, var(--foreground) 4%, transparent)`, NO coloured gradient mat); the
@@ -376,7 +377,7 @@ The reader + dossier are shared components — a new battle is mostly a data fil
   contemporary art is the exception). This is about the card TEASER only — maps still
   appear INLINE densely at every geographic beat regardless (the 2–3-per-battle
   density rule is unaffected). See `memory/project_war_battle_layer`.
-- Timeline + Dossier views; sticky via `useWarView`.
+- ONE scroll under the tier-3 jump-bar (the Timeline/Dossier toggle is retired — see "Page chrome" above).
 
 **Wiring & images:**
 - Link the battle from the **theatre spine** AND the **ACW home timeline**, and give those battle cards the battle's hero `img` (only built battles get images; others keep the gradient placeholder).
