@@ -14,7 +14,7 @@
 import { useState } from 'react'
 import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, WAR_ACCENT, alpha, useWarView, type Crumb, type CrumbOption } from './war-chrome'
 import { BattleCard, CordTimeline } from './war-battle-card'
-import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
+import { theatreEv, theatreSpine, majorCount, MAJORS, THEMES, CHAPTERS, THEATRE_NAV, type Theatre } from '@/lib/civil-war-roster'
 import { WAR_EVENTS, WAR_BANDS } from './war-front-door'
 
 const MONO = 'var(--font-geist-mono)'
@@ -56,13 +56,13 @@ export interface TheatreData {
 
 // Theatre-coded dot colours for the breadcrumb dropdowns.
 const THEATRE_DOT: Record<string, string> = {
-  east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green,
+  east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green, howfought: WAR_ACCENT,
 }
 
 // Compact ancestor labels for the breadcrumb trail (keep it narrow on a phone);
 // the lane keeps its full evocative name on its own landing page.
 const THEATRE_TRAIL_SHORT: Record<string, string> = {
-  east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off-Field',
+  east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off-Field', howfought: 'Military',
 }
 
 // War-era band colours for the war-switch dropdown dots.
@@ -76,7 +76,7 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 // ones link with a date). Pass the active `theatre` and/or `battleId`; omit both
 // on the war home (Theatre / Battle/Event become generic pickers and the ACW
 // crumb lights up). The current page's leaf crumb gets accent emphasis.
-export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield'; battleId?: string } = {}): Crumb[] {
+export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield' | 'howfought'; battleId?: string } = {}): Crumb[] {
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
 
   const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
@@ -89,9 +89,14 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     ...THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, href: t.href, disabled: !t.href, color: THEATRE_DOT.offfield, date: t.href ? t.date : undefined })),
   ].sort((a, b) => a._k - b._k).map(({ _k, ...o }) => o)
 
+  // On the military pillar, the leaf jump is the 5 chapters (their own short
+  // chronological list), not the 60-item battle+theme list.
+  const chapterJump: CrumbOption[] = CHAPTERS.map(c => ({ label: c.name, href: c.href, disabled: !c.href, color: THEATRE_DOT.howfought, date: c.href ? c.date : undefined }))
+
   const activeMajor = battleId ? MAJORS.find(b => b.id === battleId) : undefined
   const activeTheme = battleId && !activeMajor ? THEMES.find(t => t.id === battleId) : undefined
-  const active = activeMajor ?? activeTheme
+  const activeChapter = battleId && !activeMajor && !activeTheme ? CHAPTERS.find(c => c.id === battleId) : undefined
+  const active = activeMajor ?? activeTheme ?? activeChapter
   const battleFull = active?.name ?? 'Battle / Event'
   // the bc shows a SHORT label for long names; the jump menu still marks the
   // full name current (via currentLabel)
@@ -115,7 +120,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     // it to a plain dropdown and drop the dual-action affordance.
     { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War' },
     { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: activeTheatre?.href, options: theatreOptions, active: !!theatre && !battleId },
-    { label: battleLabel, currentLabel: battleFull, options: jump, active: !!battleId },
+    { label: battleLabel, currentLabel: battleFull, options: theatre === 'howfought' ? chapterJump : jump, active: !!battleId },
   ]
 }
 

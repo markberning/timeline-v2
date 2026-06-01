@@ -7,7 +7,7 @@
 
 export type Theatre = 'east' | 'west' | 'tmis' | 'naval'
 export type Size = 's' | 'm' | 'l' | 'xl'
-export type SpineType = 'CAUSE' | 'BATTLE' | 'POLITICS' | 'SOCIETY' | 'AFTERMATH'
+export type SpineType = 'CAUSE' | 'BATTLE' | 'POLITICS' | 'SOCIETY' | 'AFTERMATH' | 'MILITARY'
 
 export interface Major {
   id: string; name: string; year: number; m: number; mo: string; place: string
@@ -123,18 +123,32 @@ export const THEMES: Theme[] = [
   { id: 'th-reckoning', name: 'The Reckoning', phase: 'after', type: 'AFTERMATH', size: 'l', date: '1865 →', year: 1865, m: 12, hook: 'Three-quarters of a million dead, four million freed.', href: '/war-civil-war/off-the-battlefield/reckoning', short: 'The Reckoning', img: '/war-img/reckoning-hero-richmond-ruins.jpg', stack: true },
 ]
 
+// "How the War Was Fought" — the military/strategic through-line pillar: 5
+// chronological chapters (sibling to the OTBF themes), built via the same
+// _build-war-themes.mjs path, living at /how-the-war-was-fought. Each links DOWN
+// into the battle dossiers. `href` is set as each chapter ships (ch1 live; 2–5
+// follow). Uses the Theme shape; type 'MILITARY'.
+export const CHAPTERS: Theme[] = [
+  { id: 'mil-1861', name: 'Improvising a War', phase: 'outbreak', type: 'MILITARY', size: 'l', date: '1861', year: 1861, m: 1, hook: 'Two amateur nations raise armies from nothing — and the dream of a short war dies at Bull Run.', href: '/war-civil-war/how-the-war-was-fought/improvising-a-war', short: 'Improvising a War', img: '/war-img/improvising-a-war-hero.jpg', stack: true },
+  { id: 'mil-1862', name: 'The Limited War Ends', phase: 'hard', type: 'MILITARY', size: 'l', date: '1862', year: 1862, m: 1, hook: 'The year’s huge battles kill the short-war dream — and Antietam turns a war for the Union into a war on slavery.', short: 'The Limited War Ends', stack: true },
+  { id: 'mil-1863', name: 'The Turning', phase: 'turning', type: 'MILITARY', size: 'l', date: '1863', year: 1863, m: 1, hook: 'Vicksburg and Gettysburg — and why the war was really won in the West, with Black soldiers now in the fight.', short: 'The Turning', stack: true },
+  { id: 'mil-1864', name: 'Coordinated Attrition', phase: 'total', type: 'MILITARY', size: 'l', date: '1864', year: 1864, m: 1, hook: 'Grant takes overall command and advances on every front at once — and the battlefield decides an election.', short: 'Coordinated Attrition', stack: true },
+  { id: 'mil-1865', name: 'The Collapse', phase: 'total', type: 'MILITARY', size: 'l', date: '1865', year: 1865, m: 1, hook: 'The Confederacy runs out of men, food, and rail — and the surrender secures emancipation for good.', short: 'The Collapse', stack: true },
+]
+
 export const THEATRE_LABEL: Record<Theatre, string> = { east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval' }
 
 // Theatre navigation — the single source for the breadcrumb theatre-switch
 // dropdown and the home "open theatre" links. `ready` flips to true when the
 // page exists; an un-ready entry renders as a disabled "soon" row. The fifth
 // lane (Off the Battlefield) is the thematic, non-geographic sections.
-export interface TheatreNav { id: Theatre | 'offfield'; label: string; href: string; ready: boolean }
+export interface TheatreNav { id: Theatre | 'offfield' | 'howfought'; label: string; href: string; ready: boolean }
 export const THEATRE_NAV: TheatreNav[] = [
   { id: 'east', label: 'Eastern Theatre', href: '/war-civil-war/eastern', ready: true },
   { id: 'west', label: 'Western Theatre', href: '/war-civil-war/western', ready: true },
   { id: 'tmis', label: 'Trans-Mississippi', href: '/war-civil-war/trans-mississippi', ready: true },
   { id: 'naval', label: 'Naval & Coastal', href: '/war-civil-war/naval', ready: true },
+  { id: 'howfought', label: 'How the War Was Fought', href: '/war-civil-war/how-the-war-was-fought', ready: true },
   { id: 'offfield', label: 'Off the Battlefield', href: '/war-civil-war/off-the-battlefield', ready: true },
 ]
 

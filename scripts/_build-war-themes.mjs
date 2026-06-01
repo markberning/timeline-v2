@@ -190,6 +190,19 @@ const CONFIGS = [
     end: { kicker: `A reckoning deferred, not resolved`, label: `Back to Off the Battlefield` },
     meanwhile: { region: `the firing line`, title: `The battles themselves`, body: `These were the threads off the firing line — the causes, the society, the technology, the aftermath. The battles that ran alongside them, from Bull Run to Appomattox, are their own four theatres, waiting whenever you are.` },
   },
+  // ── "How the War Was Fought" — the military/strategic through-line (its own
+  //    pillar dir + stone WAR_ACCENT). Chapter 1; ch 2–5 follow.
+  {
+    slug: 'improvising-a-war', battleId: 'mil-1861', battleName: 'Improvising a War',
+    dir: 'how-the-war-was-fought', theatreId: 'howfought',
+    theatreHref: '/war-civil-war/how-the-war-was-fought', accentExpr: 'WAR_ACCENT',
+    endHref: '/war-civil-war/how-the-war-was-fought',
+    eyebrow: `Two countries that each expected a short, glorious war spent the spring of 1861 inventing armies, plans, and presidencies on the fly — and discovering they were locked into a long one`,
+    hero: { image: '/war-img/improvising-a-war-hero.jpg', palette: ['#3a342a', '#23201a', '#0a0806'], credit: `“Scott’s Great Snake” (the Anaconda Plan) · J.B. Elliott, Cincinnati · 1861 · Library of Congress · public domain`, focus: 'center 42%', scale: 1.04 },
+    end: { kicker: `Now they had to learn to fight it`, label: `Back to the Military Story` },
+    meanwhile: { region: `the war at large, 1862`, title: `The Limited War Ends`, body: `After Bull Run, both sides finally stopped pretending. Through 1862 the war shed the last of its illusions — short enlistments, gentlemen’s rules, slavery left untouched — and hardened into the total, grinding war it was always going to be, as the North turned from “restore the Union as it was” toward a war that would have to break slavery to win.` },
+    markers: [],
+  },
 ]
 
 function parse(md) {
@@ -245,6 +258,14 @@ function build(cfg) {
   }).join('\n')
 
   const comp = cfg.slug.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join('') + 'ThemePage'
+  // Pillar placement — defaults to Off the Battlefield (green); overridable per cfg
+  // so the same builder produces the "How the War Was Fought" military-narrative
+  // chapters (their own dir, theatre key, stone accent, and end link).
+  const dir = cfg.dir || 'off-the-battlefield'
+  const theatreId = cfg.theatreId || 'offfield'
+  const theatreHref = cfg.theatreHref || `/war-civil-war/${dir}`
+  const accentExpr = cfg.accentExpr || 'ACCENTS.green'
+  const endHref = cfg.endHref || theatreHref
   const page = `'use client'
 
 // THEME section — ${cfg.battleName} (Off the Battlefield, kind=theme). Built through
@@ -256,7 +277,7 @@ function build(cfg) {
 // the prose here; edit the final.md and rebuild.
 
 import { BattleSectionReader, type Narr } from '@/components/mode/battle-reader'
-import { ACCENTS } from '@/components/mode/war-chrome'
+import { ACCENTS${accentExpr.includes('WAR_ACCENT') ? ', WAR_ACCENT' : ''} } from '@/components/mode/war-chrome'
 
 const NARR: Record<string, Narr> = {
   main: {
@@ -280,21 +301,21 @@ export default function ${comp}() {
       id="main"
       slug="${cfg.slug}"
       battleName="${cfg.battleName.replace(/"/g, '\\"')}"
-      theatreId="offfield"
+      theatreId="${theatreId}"
       battleId="${cfg.battleId}"
-      theatreHref="/war-civil-war/off-the-battlefield"
-      accent={ACCENTS.green}
+      theatreHref="${theatreHref}"
+      accent={${accentExpr}}
       heroImage="${cfg.hero.image}"
       heroPalette={${JSON.stringify(cfg.hero.palette)}}
       heroCredit={\`${esc(cfg.hero.credit)}\`}${cfg.hero.focus ? `\n      heroFocus="${cfg.hero.focus}"` : ''}${cfg.hero.scale ? `\n      heroScale={${cfg.hero.scale}}` : ''}
-      endHref="/war-civil-war/off-the-battlefield"
+      endHref="${endHref}"
       endKicker={\`${esc(cfg.end.kicker)}\`}
       endLabel={\`${esc(cfg.end.label)}\`}
     />
   )
 }
 `
-  const dest = `${ROOT}/src/app/war-civil-war/off-the-battlefield/${cfg.slug}/page.tsx`
+  const dest = `${ROOT}/src/app/war-civil-war/${dir}/${cfg.slug}/page.tsx`
   mkdirSync(dirname(dest), { recursive: true })
   writeFileSync(dest, page)
   const proseWords = out.filter(b => b.type === 'p').reduce((n, b) => n + b.text.split(/\s+/).length, 0)

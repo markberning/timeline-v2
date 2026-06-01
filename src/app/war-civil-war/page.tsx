@@ -301,6 +301,19 @@ export default function CivilWarPage() {
 
         <WarViewToggle view={view} onView={setView} />
 
+        {/* The military through-line — the spine that ties the battles together.
+            Shown in BOTH views, just under the toggle, as the war's reading entry. */}
+        <a href="/war-civil-war/how-the-war-was-fought" style={{ display: 'block', margin: '14px 18px 0', textDecoration: 'none', color: 'inherit', border: `1px solid ${alpha(WAR_ACCENT, 0.5)}`, borderRadius: 12, padding: '14px 16px', background: alpha(WAR_ACCENT, 0.07) }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <span style={{ width: 8, height: 8, borderRadius: 2, background: WAR_ACCENT, flexShrink: 0 }} />
+            <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: WAR_ACCENT }}>The military story</span>
+            <span style={{ marginLeft: 'auto', fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>5 chapters</span>
+          </div>
+          <div style={{ marginTop: 7, fontFamily: SERIF, fontSize: 19, fontWeight: 500, letterSpacing: -0.3 }}>How the War Was Fought</div>
+          <div style={{ marginTop: 5, fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>The whole war as one through-line — how it was planned, won, and lost, year by year, 1861–1865. The connective tissue between the causes and the battles.</div>
+          <div style={{ marginTop: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, color: WAR_ACCENT }}>Read the war’s story <span aria-hidden>→</span></div>
+        </a>
+
         {view === 'timeline' ? (
           <>
             <p style={{ padding: '6px 18px 0', margin: 0, fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>

@@ -28,16 +28,35 @@ export interface Narr {
 
 const proseStyle: React.CSSProperties = { fontFamily: SERIF, fontSize: 17, lineHeight: 1.62, letterSpacing: '-0.01em', margin: 0, color: 'var(--foreground)' }
 
-// Render inline *italic* spans (the house convention for book/document titles and
-// emphasis). Single asterisks only; there is no bold. Plain text passes through.
-function fmt(text: string): React.ReactNode {
-  if (!text.includes('*')) return text
-  const parts = text.split(/(\*[^*]+\*)/g)
-  return parts.map((seg, j) =>
-    seg.length > 2 && seg[0] === '*' && seg[seg.length - 1] === '*'
-      ? <em key={j}>{seg.slice(1, -1)}</em>
-      : seg,
-  )
+// Render inline markup in prose: [text](/href) links (accent-coloured, underlined —
+// how the "How the War Was Fought" chapters reach down into the battle dossiers),
+// **bold** spans, and *italic* spans (the house convention for titles/emphasis).
+// Links are split out first; emphasis is resolved within the remaining text. Plain
+// text passes through untouched.
+function emph(text: string, base: number): React.ReactNode[] {
+  if (!text.includes('*')) return [text]
+  // double-star (bold) is tried before single-star (italic) at each position
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g)
+  return parts.map((seg, j) => {
+    if (seg.length > 4 && seg.startsWith('**') && seg.endsWith('**')) return <strong key={base + j} style={{ fontWeight: 700 }}>{seg.slice(2, -2)}</strong>
+    if (seg.length > 2 && seg[0] === '*' && seg[seg.length - 1] === '*') return <em key={base + j}>{seg.slice(1, -1)}</em>
+    return seg
+  })
+}
+function fmt(text: string, accent?: string): React.ReactNode {
+  if (!/[*[]/.test(text)) return text
+  const linkRe = /\[([^\]]+)\]\((\/[^\s)]+)\)/g
+  const out: React.ReactNode[] = []
+  let last = 0, m: RegExpExecArray | null
+  while ((m = linkRe.exec(text)) !== null) {
+    if (m.index > last) out.push(...emph(text.slice(last, m.index), last))
+    out.push(
+      <a key={`l${m.index}`} href={m[2]} style={{ color: accent ?? 'inherit', textDecoration: 'underline', textDecorationThickness: 1, textUnderlineOffset: 2, fontWeight: 500 }}>{m[1]}</a>,
+    )
+    last = m.index + m[0].length
+  }
+  if (last < text.length) out.push(...emph(text.slice(last), last))
+  return out
 }
 
 export function BattleSectionReader({
@@ -45,7 +64,7 @@ export function BattleSectionReader({
   endHref, endKicker, endLabel, heroImage, heroPalette = ['#3a2e21', '#2a221c', '#0a0806'], heroCredit, heroFocus = 'center 34%', heroScale = 1.06,
 }: {
   sections: Record<string, Narr>; id: string; slug: string; battleName: string
-  theatreId?: Theatre | 'offfield'; battleId?: string; theatreHref?: string; accent?: string
+  theatreId?: Theatre | 'offfield' | 'howfought'; battleId?: string; theatreHref?: string; accent?: string
   // override the final "End of …" link (e.g. a one-section theme returns to the
   // Off the Battlefield spine rather than self-linking to its own page)
   endHref?: string; endKicker?: string; endLabel?: string
@@ -139,17 +158,17 @@ export function BattleSectionReader({
               </figure>
             )
             if (b.q) return (
-              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${accent}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{fmt(b.p)}</p>
+              <p key={i} style={{ ...proseStyle, margin: '16px 0', padding: '14px 16px 14px 18px', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', borderLeft: `3px solid ${accent}`, borderRadius: '0 6px 6px 0', fontStyle: 'italic', fontSize: 16, lineHeight: 1.55 }}>{fmt(b.p, accent)}</p>
             )
             if (b.i) return (
-              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{fmt(b.p)}</p>
+              <p key={i} style={{ ...proseStyle, marginTop: 14, fontStyle: 'italic', color: 'color-mix(in srgb, var(--foreground) 62%, transparent)' }}>{fmt(b.p, accent)}</p>
             )
             const drop = firstP
             firstP = false
             return (
               <p key={i} style={{ ...proseStyle, marginTop: 12 }}>
                 {drop && <span style={{ float: 'left', fontFamily: SERIF, fontWeight: 500, fontSize: 50, lineHeight: 0.82, color: accent, paddingRight: 8, marginTop: 4 }}>{b.p.charAt(0)}</span>}
-                {fmt(drop ? b.p.slice(1) : b.p)}
+                {fmt(drop ? b.p.slice(1) : b.p, accent)}
               </p>
             )
           })}
