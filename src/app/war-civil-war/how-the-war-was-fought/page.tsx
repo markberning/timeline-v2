@@ -23,7 +23,7 @@ function Header() {
       <div style={{ position: 'relative', height: 248, overflow: 'hidden', background: PAL[2] }}>
         {failed
           ? <div style={{ position: 'absolute', inset: 0, background: `linear-gradient(135deg, ${PAL[0]}, ${PAL[1]} 55%, ${PAL[2]})` }} />
-          : <img src="/war-img/civil-war-hero.jpg" alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 30%', transform: 'scale(1.16)', transformOrigin: 'center', filter: 'sepia(0.16) saturate(0.9) contrast(1.04)' }} />}
+          : <img src="/war-img/how-the-war-was-fought-hero.jpg" alt="" onError={() => setFailed(true)} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 42%', transform: 'scale(1.08)', transformOrigin: 'center', filter: 'sepia(0.16) saturate(0.9) contrast(1.04)' }} />}
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 26%, rgba(8,8,8,0.9) 100%)' }} />
         <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '16px 18px', color: '#fff' }}>
           <div style={{ fontFamily: SANS, fontSize: 10, letterSpacing: 1.6, fontWeight: 700, color: `color-mix(in srgb, ${ACCENT} 60%, white)`, textTransform: 'uppercase', textShadow: '0 1px 3px rgba(0,0,0,0.7)' }}>War · the military story</div>
@@ -31,7 +31,7 @@ function Header() {
           <div style={{ marginTop: 5, fontFamily: SANS, fontSize: 12.5, letterSpacing: 0.3, color: 'rgba(255,255,255,0.8)' }}>Strategy · command · the whole war, year by year</div>
         </div>
       </div>
-      <div style={{ padding: '7px 16px 0', fontFamily: SANS, fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
+      <div style={{ padding: '7px 16px 0', fontFamily: SANS, fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>“Battle of Chattanooga” · Thure de Thulstrup (L. Prang &amp; Co.) · 1880 · public domain</div>
       <p style={{ margin: '14px 16px 4px', fontFamily: SERIF, fontSize: 15.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)' }}>
         The battle pages tell you what happened on each field. The theme pages tell you why the war was fought. This is the connective tissue between them — the military story as one through-line: how the war was planned, how each win and loss bent the strategy, how supply and casualties were borne, and how Lincoln and Davis learned to run a war. Each chapter links down into the battles it sets in motion.
       </p>

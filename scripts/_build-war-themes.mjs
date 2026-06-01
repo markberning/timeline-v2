@@ -197,11 +197,18 @@ const CONFIGS = [
     dir: 'how-the-war-was-fought', theatreId: 'howfought',
     theatreHref: '/war-civil-war/how-the-war-was-fought', accentExpr: 'WAR_ACCENT',
     endHref: '/war-civil-war/how-the-war-was-fought',
-    eyebrow: `Two countries that each expected a short, glorious war spent the spring of 1861 inventing armies, plans, and presidencies on the fly — and discovering they were locked into a long one`,
+    eyebrow: `The war both sides thought would be short`,
     hero: { image: '/war-img/improvising-a-war-hero.jpg', palette: ['#3a342a', '#23201a', '#0a0806'], credit: `“Scott’s Great Snake” (the Anaconda Plan) · J.B. Elliott, Cincinnati · 1861 · Library of Congress · public domain`, focus: 'center 42%', scale: 1.04 },
     end: { kicker: `Now they had to learn to fight it`, label: `Back to the Military Story` },
-    meanwhile: { region: `the war at large, 1862`, title: `The Limited War Ends`, body: `After Bull Run, both sides finally stopped pretending. Through 1862 the war shed the last of its illusions — short enlistments, gentlemen’s rules, slavery left untouched — and hardened into the total, grinding war it was always going to be, as the North turned from “restore the Union as it was” toward a war that would have to break slavery to win.` },
-    markers: [],
+    meanwhile: { region: `the war at large, 1862`, title: `The Limited War Ends`, body: `After Bull Run, both sides finally stopped pretending. Through 1862 the war shed the last of its illusions (short enlistments, gentlemen’s rules, slavery left untouched) and hardened into the total, grinding war it was always going to be, as the North turned from “restore the Union as it was” toward a war that would have to break slavery to win.` },
+    markers: [
+      f('improvising-a-war-fig1-recruiting-poster.jpg', `An actual 1861 recruiting broadside for the “Scott Legion Regiment,” one of fourteen called up from Pennsylvania, posted on the streets of Philadelphia. Notice the fine print: officers “who have served in Mexico,” and a “three months enlistment.” Everybody, the paperwork included, thought this would be a short war.`, `J. H. Jones & Co., Philadelphia · 1861 · Library Company of Philadelphia / Wikimedia Commons · public domain`),
+      f('improvising-a-war-fig2-winfield-scott.jpg', `General-in-Chief Winfield Scott, the old hero of 1812 and Mexico, photographed in uniform around the start of the war. By 1861 he was seventy-four, heavy, and could barely sit a horse, and the country laughed at his slow strangle-the-South plan. He turned out to be right.`, `Mathew Brady studio, New York · c. 1861 · Library of Congress / Wikimedia Commons · public domain`),
+      f('improvising-a-war-fig3-secession-map.jpg', `The country splits, 1860 to 1861. The shaded and hatched states are the slaveholding ones that stayed loyal (Kentucky, Maryland, Missouri, Delaware), with the dates each seceding state left the Union. The four border states sit right in the gap, which is exactly why Lincoln guarded them so carefully.`, `Charles O. Paullin · 1932 · Carnegie Institution / Wikimedia Commons · public domain`),
+      f('improvising-a-war-fig4-bull-run-rout.jpg', `“The Stampede from Bull Run,” drawn on the spot for the illustrated press. Soldiers, wagons, and the sightseers who had ridden out to watch all tangle together in a panicked scramble back toward Washington. This is the afternoon the dream of a short war died.`, `Frank Vizetelly · 1861 · New York Public Library / Wikimedia Commons · public domain`),
+      f('improvising-a-war-fig5a-lincoln.jpg', `Abraham Lincoln in 1861, the self-taught prairie lawyer whose entire military record was a mosquito-bitten stint in the Black Hawk War. He would teach himself how to run a war out loud, and become the better commander-in-chief of the two.`, `Mathew Brady · 1861 · Library of Congress / Wikimedia Commons · public domain`),
+      f('improvising-a-war-fig5b-davis.jpg', `Jefferson Davis around 1861, the new Confederate president. On paper he was built for the job (West Point, a Mexican War wound, a turn as U.S. Secretary of War), and would rather have been a general. He raised an army for a republic founded to keep four million people enslaved.`, `Unknown photographer · c. 1861 · Library of Congress / Wikimedia Commons · public domain`),
+    ],
   },
 ]
 
