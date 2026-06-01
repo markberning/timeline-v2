@@ -227,8 +227,8 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
     textDecoration: 'none', padding: '2px 1px', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer',
   }
   const chevron = (
-    <svg width="9" height="9" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
-      <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
+      <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
   return (
@@ -236,13 +236,15 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
       {canSplit
         ? <a href={crumb.href} style={labelStyle}>{label}</a>
         : <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ ...labelStyle, display: 'inline-flex', alignItems: 'center' }}>{label}</button>}
-      {/* when the label is its own link, set the ▾ apart as a clearly separate
-          tap target: extra gap + a faint hairline divider before it. */}
+      {/* when the label is its own link, set the ▾ apart as a clearly separate,
+          generous tap target: its own tinted rounded chip beside the label so
+          it reads unmistakably as "open the menu". */}
       <button onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`${label} menu`} style={{
-        display: 'inline-flex', alignItems: 'center', flexShrink: 0, appearance: 'none', background: 'transparent', cursor: 'pointer', color,
-        marginLeft: canSplit ? 5 : 0,
-        paddingLeft: canSplit ? 6 : 1, paddingRight: 3, paddingTop: 2, paddingBottom: 2,
-        border: 'none', borderLeft: canSplit ? `1px solid ${alpha('#888', 0.32)}` : 'none', borderRadius: 0,
+        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, appearance: 'none', cursor: 'pointer', color,
+        marginLeft: canSplit ? 5 : 1,
+        minWidth: 26, height: 24, padding: '0 4px',
+        border: canSplit ? `1px solid ${alpha('#888', 0.30)}` : 'none',
+        borderRadius: 7, background: canSplit ? alpha('#888', open ? 0.22 : 0.12) : 'transparent',
       }}>
         {chevron}
       </button>
