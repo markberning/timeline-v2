@@ -79,14 +79,23 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield' | 'howfought'; battleId?: string } = {}): Crumb[] {
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
 
-  const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => ({ label: t.label, href: t.ready ? t.href : undefined, disabled: !t.ready, color: THEATRE_DOT[t.id] }))
+  // The theatre landing pages are obsolete (folded into the ACW home), so a
+  // theatre crumb/option now jumps to that theatre's earliest built battle.
+  const firstHref = (id: string): string | undefined => {
+    const byDate = <T extends { year: number; m: number; href?: string }>(xs: T[]) =>
+      xs.filter(x => x.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
+    if (id === 'howfought') return byDate(CHAPTERS)
+    if (id === 'offfield') return byDate(THEMES)
+    return byDate(MAJORS.filter(b => b.theatre === id))
+  }
+  const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => { const h = firstHref(t.id); return { label: t.label, href: h, disabled: !h, color: THEATRE_DOT[t.id] } })
   const activeTheatre = theatre ? THEATRE_NAV.find(t => t.id === theatre) : undefined
 
-  // All 46 majors + 14 themes in one chronological list; the dot keeps the
-  // theatre colour code (built battles link, the rest are "soon").
+  // Filtered to the active theatre when one is chosen, so the Battle/Event menu
+  // lists only that theatre's battles (offfield = themes; no theatre = everything).
   const jump: CrumbOption[] = [
-    ...MAJORS.map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre], date: b.href ? `${b.mo} ${b.year}` : undefined })),
-    ...THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, href: t.href, disabled: !t.href, color: THEATRE_DOT.offfield, date: t.href ? t.date : undefined })),
+    ...MAJORS.filter(b => !theatre || b.theatre === theatre).map(b => ({ _k: b.year * 100 + b.m, label: b.name, href: b.href, disabled: !b.href, color: THEATRE_DOT[b.theatre], date: b.href ? `${b.mo} ${b.year}` : undefined })),
+    ...(!theatre || theatre === 'offfield' ? THEMES.map(t => ({ _k: t.year * 100 + t.m, label: t.name, href: t.href, disabled: !t.href, color: THEATRE_DOT.offfield, date: t.href ? t.date : undefined })) : []),
   ].sort((a, b) => a._k - b._k).map(({ _k, ...o }) => o)
 
   // On the military pillar, the leaf jump is the 5 chapters (their own short
@@ -119,7 +128,7 @@ export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'off
     // war), lit via its accent colour — NOT flagged `active`, which would collapse
     // it to a plain dropdown and drop the dual-action affordance.
     { label: 'ACW', short: 'ACW', color: onAcwHome ? WAR_ACCENT : undefined, href: '/war-civil-war', options: warOptions, currentLabel: 'American Civil War' },
-    { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: activeTheatre?.href, options: theatreOptions, active: !!theatre && !battleId },
+    { label: activeTheatre?.label ?? 'Theatre', short: activeTheatre ? THEATRE_TRAIL_SHORT[activeTheatre.id] : undefined, href: theatre ? firstHref(theatre) : undefined, options: theatreOptions, active: !!theatre && !battleId },
     { label: battleLabel, currentLabel: battleFull, options: theatre === 'howfought' ? chapterJump : jump, active: !!battleId },
   ]
 }
