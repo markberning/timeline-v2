@@ -62,7 +62,7 @@ In early May 1861, first in a letter to Maj. Gen. George B. McClellan on May 3, 
 
 The country hated it. Critics jeered that it was too slow, too passive, too cowardly, a plan that would take years. Opponents likened it to the coils of an anaconda, the great snake that suffocates its prey by slowly squeezing, and the sneering nickname stuck: the “Anaconda Plan.” The press piled on; the *Chicago Tribune* ran it down as a “Torpid Anaconda.” What the public wanted instead could be chanted in three words, “On to Richmond!”, a fast, glorious march on the new Confederate capital that would end the whole thing in an afternoon. The mood of 1861 was action, and a wheezing old general talking about blockades and river campaigns measured in years was exactly the wrong music. (The “Anaconda Plan” was never an official, adopted master-plan; it was Scott’s proposal, mocked into a nickname.)
 
-Scott didn’t last the year. Aged and ailing, and elbowed aside by younger men hungry for the offensive, he retired on November 1, 1861, and the dashing McClellan replaced him as General-in-Chief. He left town a figure of fun.
+Scott didn’t last the year. Aged and ailing, and elbowed aside by younger men hungry for the offensive, he retired on November 1, 1861, and the dashing McClellan replaced him as General-in-Chief. He left office a laughingstock.
 
 [FIGURE: the 1861 “Scott’s Great Snake” cartoon map showing a giant serpent coiled around the Southern coast and the Mississippi]
 
