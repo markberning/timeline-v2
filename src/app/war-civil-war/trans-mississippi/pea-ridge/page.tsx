@@ -221,7 +221,7 @@ export default function PeaRidgePage() {
             <CordTimeline>
               {SECTIONS.map(s => {
                 const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} />
+                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
               })}
             </CordTimeline>
           </div>

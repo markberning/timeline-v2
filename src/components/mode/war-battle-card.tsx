@@ -60,17 +60,26 @@ export interface BattleCardProps {
   // the height, so the spine staggers instead of tiling. The card does not have to be
   // full width. Text grows, never truncates. See feedback_cards_fill_and_no_truncation.
   fit?: boolean
+  // INSET mode (individual battle cards only): de-emphasize the hero/map by showing
+  // the WHOLE uncropped image (objectFit-contain) matted inside a gradient panel on
+  // the left, rather than a cover-cropped fill. Echoes the Art-home inset cards.
+  inset?: boolean
 }
 
-export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEFAULT_PALETTE, imageUrl, imgLabel, title, sub, hook, href, soon, stack, fit }: BattleCardProps) {
+export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEFAULT_PALETTE, imageUrl, imgLabel, title, sub, hook, href, soon, stack, fit, inset }: BattleCardProps) {
   const sz = SIZES[size]
   const isXL = size === 'xl'
   const isLG = size === 'l'
-  // stacked = full-width image on top, text beneath (XL is always stacked)
-  const stacked = isXL || !!stack
-  const stackImgH = isXL ? 132 : isLG ? 150 : 128
   const [imgFailed, setImgFailed] = useState(false)
   const useFit = !!fit && !!imageUrl
+  // inset = de-emphasized FLOAT: the whole uncropped section image (a map or photo)
+  // floats in the upper-right corner under the Read pill, sitting on the card's own
+  // grey ground (no coloured mat), and the title/text wrap around it. Battle chapter
+  // cards only; never combines with fit.
+  const useInset = !!inset && !!imageUrl && !useFit
+  const stacked = isXL || !!stack
+  const stackImgH = isXL ? 132 : isLG ? 150 : 128
+  const insetW = { s: 116, m: 132, l: 148, xl: 148 }[size]
   const divider = '1px solid color-mix(in srgb, var(--foreground) 15%, transparent)'
   const gradient = `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})`
   // fit cards never crop. LANDSCAPE/near-square (stack) → image on TOP at width:100%
@@ -130,6 +139,30 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
         : <div style={{ width: stacked ? '100%' : portW, height: stacked ? 120 : '100%', background: gradient }} />}
     </div>
   )
+  // INSET CARD: one grey block (no coloured mat). The whole uncropped image floats
+  // upper-right under the Read pill; the title/sub/hook wrap around it. (float needs
+  // a block container, not flex — so this is its own card, not the flex `card`.)
+  const insetCard = (
+    <div style={{
+      position: 'relative',
+      background: 'color-mix(in srgb, var(--foreground) 4%, transparent)', borderRadius: 8,
+      border: `1px solid ${ready ? alpha(accent, 0.4) : 'color-mix(in srgb, var(--foreground) 15%, transparent)'}`,
+      overflow: 'hidden', minHeight: sz.h, opacity: soon ? 0.74 : 1,
+      padding: isLG ? '11px 15px 12px' : '9px 13px 11px',
+    }}>
+      {badge}
+      {imageUrl && !imgFailed && (
+        <img src={imageUrl} alt="" onError={() => setImgFailed(true)} style={{
+          float: 'right', width: insetW, maxWidth: '46%', height: 'auto', display: 'block',
+          marginLeft: 13, marginBottom: 9, marginTop: 24, borderRadius: 4,
+        }} />
+      )}
+      <div style={{ fontFamily: SERIF, fontSize: isLG ? 18 : 15, lineHeight: 1.14, letterSpacing: -0.2, paddingRight: (soon || ready) ? 46 : undefined }}>{title}</div>
+      {sub && <div style={{ fontFamily: SANS, fontSize: 10, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)', marginTop: 3, letterSpacing: 0.1 }}>{sub}</div>}
+      {hook && <div style={{ marginTop: 6, fontFamily: SERIF, fontSize: sz.body, lineHeight: 1.42, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>{hook}</div>}
+      <div style={{ clear: 'both' }} />
+    </div>
+  )
   const card = (
     <div style={{
       position: 'relative',
@@ -161,7 +194,7 @@ export function BattleCard({ size = 'm', accent, dateTop, dateBot, palette = DEF
       </div>
       <div style={{ position: 'absolute', left: CORD_X - 5, top: 12, width: 10, height: 10, borderRadius: 999, background: accent, boxShadow: `0 0 0 3px ${alpha(accent, 0.18)}`, border: `1px solid ${accent}`, zIndex: 1 }} />
       <div style={{ position: 'absolute', left: CORD_X + 5, top: 16, width: 11, height: 1, background: alpha(accent, 0.5) }} />
-      {href ? <a href={href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>{card}</a> : card}
+      {href ? <a href={href} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>{useInset ? insetCard : card}</a> : (useInset ? insetCard : card)}
     </div>
   )
 }
