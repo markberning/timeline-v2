@@ -18,6 +18,8 @@ export type Block =
   | { h: string; eyebrow?: string }
   | { p: string; i?: boolean; q?: boolean }
   | { fig: string; cap: string; credit: string }
+  // a between-paragraph "go read that story" link, rendered as an accent pill
+  | { pill: string; plabel: string }
 
 export interface Narr {
   eyebrow: string
@@ -144,6 +146,20 @@ export function BattleSectionReader({
                 {b.eyebrow && <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: accent, marginBottom: 3 }}>{b.eyebrow}</div>}
                 <h2 style={{ fontFamily: SERIF, fontWeight: 500, fontSize: 22, lineHeight: 1.15, letterSpacing: '-0.3px', margin: 0 }}>{b.h}</h2>
               </div>
+            )
+            if ('pill' in b) return (
+              // a "go read that story" link, between paragraphs, as an accent pill
+              <a key={i} href={b.pill} style={{
+                display: 'flex', alignItems: 'center', gap: 9, margin: '18px 0', padding: '10px 14px',
+                borderRadius: 12, border: `1px solid ${alpha(accent, 0.4)}`, background: alpha(accent, 0.07),
+                textDecoration: 'none', color: 'inherit',
+              }}>
+                <span aria-hidden style={{ flexShrink: 0, width: 22, height: 22, borderRadius: 999, background: alpha(accent, 0.16), color: accent, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13 }}>→</span>
+                <span style={{ minWidth: 0, flex: 1 }}>
+                  <span style={{ display: 'block', fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 1.2, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Read the full story</span>
+                  <span style={{ display: 'block', fontFamily: SERIF, fontSize: 15.5, fontWeight: 500, color: accent, lineHeight: 1.2, marginTop: 1 }}>{b.plabel}</span>
+                </span>
+              </a>
             )
             if ('fig' in b) return (
               <figure key={i} style={{ margin: '20px 0' }}>

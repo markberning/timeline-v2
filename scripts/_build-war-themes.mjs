@@ -261,6 +261,10 @@ function build(cfg) {
       : `      { h: \`${esc(b.text)}\` },`
     if (b.type === 'q') return `      { p: \`${esc(b.text)}\`, q: true },`
     if (b.type === 'fig') return `      { fig: '/war-img/${b.file}', cap: \`${esc(b.cap)}\`, credit: \`${esc(b.credit)}\` },`
+    // a paragraph that is JUST a link [Story](/href) becomes a between-para "read the
+    // full story" PILL (the cross-reference affordance), not inline prose.
+    const lone = b.text.trim().match(/^\[([^\]]+)\]\((\/[^)\s]+)\)$/)
+    if (lone) return `      { pill: '${lone[2]}', plabel: \`${esc(lone[1])}\` },`
     return `      { p: \`${esc(b.text)}\` },`
   }).join('\n')
 
