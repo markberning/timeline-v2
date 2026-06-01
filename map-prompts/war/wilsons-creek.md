@@ -14,6 +14,16 @@ Battle maps in the clean modern textbook style (Hal Jespersen / NPS look). Gener
 
 ---
 
+## Map wilsons-creek-campaign
+
+The Missouri campaign, summer 1861 — a STRATEGIC statewide overview (not a battle close-up), north up. It shows how Lyon chased Missouri's secessionist government across the state into the far southwest, and how the Confederates gathered to meet him at Wilson's Creek.
+
+Draw the "Missouri River" as a flat light-blue band sweeping across the upper third of the frame, entering from the right (east) and curving up toward the left (west). Place a small gray town block on the river in the upper-center labeled "Jefferson City". Place another small gray town block on the river just up and to the left of it (northwest) labeled "Boonville". Place a gray town block in the lower-left third (the southwest) labeled "Springfield". Just below and left of Springfield, draw a short flat light-blue creek with a small cluster of solid rust-red unit blocks beside it, labeled "Wilson's Creek".
+
+Draw Lyon's campaign as one bold BLUE arrow that starts at the right edge near the river, runs left (west) along the Missouri River past Jefferson City and Boonville, then curves down to the southwest to Springfield, labeled "Lyon". Draw a bold RUST-RED arrow coming up from the bottom edge (out of Arkansas to the south) to the Wilson's Creek cluster, labeled "McCulloch".
+
+Six labels only: Jefferson City, Boonville, Springfield, Wilson's Creek, Lyon, McCulloch. Nothing else. Keep it a clean statewide diagram with big bold sticker labels.
+
 ## Map wilsons-creek-plan
 
 The night march, August 9–10, 1861 — Lyon splits his small army outside Springfield and sends the halves on a converging dawn attack. A strategic overview, north up.
@@ -43,3 +53,13 @@ Draw "Wilson's Creek" as a flat light-blue band running east–west across the u
 Show Sigel's blue column as a row of solid BLUE unit blocks strung loosely across the Wire Road near the Sharp farm, labeled "Sigel". Drive a bold rust-red arrow down into the flank of that line from the east, with a row of solid rust-red blocks behind it, labeled "McCulloch". Draw a broken blue arrow breaking away to the rear (toward the lower-left, back up the Wire Road) to show the rout.
 
 Six labels only: Wilson's Creek, Wire Road, Sharp Farm, Sigel, McCulloch. Nothing else.
+
+## Map wilsons-creek-withdrawal
+
+The aftermath, August 1861 — a regional overview of southwest Missouri, north up. After Lyon is killed the Union army withdraws northeast, while the two Confederate forces split and march apart.
+
+Place a gray town block in the center of the frame labeled "Springfield". Just southwest of it draw a short flat light-blue creek beside a low pale-tan hill, labeled "Wilson's Creek". Place a gray town block in the upper-right (northeast) corner labeled "Rolla". Draw a thin gray road running from Wilson's Creek up through Springfield and on toward Rolla.
+
+Draw the Union withdrawal as a bold BLUE arrow that runs from Wilson's Creek up to Springfield and then northeast to Rolla, labeled "Sturgis". Draw a bold RUST-RED arrow running north from the Wilson's Creek area toward the top edge, labeled "Price". Draw a second bold RUST-RED arrow running south from the Wilson's Creek area toward the bottom edge, labeled "McCulloch".
+
+Six labels only: Springfield, Wilson's Creek, Rolla, Sturgis, Price, McCulloch. Nothing else.

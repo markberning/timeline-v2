@@ -16,7 +16,7 @@ const HERO_IMG = '/war-img/wilsons-creek-hero.jpg' // Kurz & Allison chromolitho
 const HERO_PAL = ['#3a3320', '#5a2a32', '#100506']
 
 const ARMIES = [
-  { side: 'Union', label: 'Army of the West', size: '~5,400', commander: 'Brig. Gen. Nathaniel Lyon', note: 'Outnumbered better than two to one — and attacking anyway.', color: ACCENTS.blue },
+  { side: 'Union', label: 'Army of the West', size: '~5,400', commander: 'Brig. Gen. Nathaniel Lyon', note: 'Outnumbered better than two to one, and attacking anyway.', color: ACCENTS.blue },
   { side: 'Confederacy', label: 'Missouri State Guard & allies', size: '~12,000', commander: 'Price & McCulloch', note: 'A larger force under two commanders who could barely agree.', color: ACCENTS.rust },
 ]
 const CAS = { union: 1317, csa: 1222, civ: 0 }
@@ -28,9 +28,9 @@ const FIGURES = [
   { name: 'B. McCulloch', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/mcculloch.jpg' },
 ]
 const SECTIONS = [
-  { id: 'fight-for-missouri', eyebrow: 'The border state', title: 'The Fight for Missouri', blurb: 'Why a slave state on the border could decide the war — and how Nathaniel Lyon (North) seized Missouri by force and chased the secessionists south.' },
+  { id: 'fight-for-missouri', eyebrow: 'The border state', title: 'The Fight for Missouri', blurb: 'Why a slave state on the border could decide the war, and how Nathaniel Lyon (North) seized Missouri by force and chased the secessionists south.' },
   { id: 'bloody-hill', eyebrow: 'Dawn, August 10', title: 'Bloody Hill', blurb: 'Lyon splits his tiny army for a dawn double-attack; a confusion of gray uniforms wrecks Sigel’s (North) column, and the killing centers on one low ridge.' },
-  { id: 'death-of-lyon', eyebrow: 'The cost & Missouri’s fate', title: 'The Death of Lyon', blurb: 'Lyon falls leading a charge — the war’s first general killed. The South wins a field it cannot hold, and Missouri’s guerrilla nightmare begins.' },
+  { id: 'death-of-lyon', eyebrow: 'The cost & Missouri’s fate', title: 'The Death of Lyon', blurb: 'Lyon falls leading a charge, the war’s first general killed. The South wins a field it cannot hold, and Missouri’s guerrilla nightmare begins.' },
 ]
 const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
   'fight-for-missouri': { size: 'm', date: 'Summer', palette: ['#3a3320', '#2a241a', '#0a0806'] },
@@ -132,7 +132,7 @@ function OutcomePill() {
         </div>
         <div style={{ fontFamily: SERIF, fontSize: 16, fontWeight: 500, lineHeight: 1.25, marginTop: 5 }}>Confederate victory · Missouri held, barely</div>
         <p style={{ fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 80%, transparent)', margin: '8px 0 0' }}>
-          The South won the field but could not keep it — battered and split between two commanders, they let the smaller Union army withdraw intact. Brig. Gen. Nathaniel Lyon, killed leading a counterattack, became the first Union general to die in the war. His aggressive campaign helped keep Missouri in the Union, but at a price: a rival secessionist government and the most savage guerrilla war of the entire conflict, which tore the state apart for years.
+          The South won the field but could not keep it. Battered and split between two commanders, they let the smaller Union army withdraw intact. Brig. Gen. Nathaniel Lyon, killed leading a counterattack, became the first Union general to die in the war. His aggressive campaign helped keep Missouri in the Union, but at a price: a rival secessionist government and the most savage guerrilla war of the entire conflict, which tore the state apart for years.
         </p>
       </div>
     </div>
@@ -214,7 +214,7 @@ export default function WilsonsCreekPage() {
         ) : (
           <div style={{ padding: '8px 0 20px' }}>
             <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The Bull Run of the West — and the first Union general to die in the war.
+              The Bull Run of the West, and the first Union general to die in the war.
             </p>
             <CordTimeline>
               {SECTIONS.map(s => {
