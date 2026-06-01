@@ -113,6 +113,45 @@ The author correctly *refused* to dramatize a second parting the source didn't
 describe — that instinct is the bar.) Corollary: when a revision crosses both
 gates, re-confirm the new content cleared the fact-checker before integrating.
 
+## Locked house-voice rules (every war section — author + critics enforce)
+These are the voice constraints locked from the user's critique of the first military-
+story chapter (2026-05-31). They live ABOVE the gates: bake them into the author brief,
+and the storytelling + newcomer/clarity critics enforce them (a passing-but-violating
+draft is not done). Full rationale: `memory/feedback_war_voice_restraint`,
+`memory/feedback_war_person_side_tags`.
+1. **Tell the story plainly — no meta-narrator.** No asides that tell the reader what to
+   think/remember/expect or that narrate the chapter's own machinery ("here is the fact
+   that reframes everything", "hold onto that", "what this chapter turns on", "the reason
+   X belongs here", "the strategic shorthand is enough here because the blow-by-blow lives
+   in its dossier" — just link it). State the thing; don't herald it.
+2. **No em-dashes (—), corpus-wide.** Commas, periods, parentheses, or restructure. Keep
+   ordinary hyphens in compounds. Applies to ALL new writing.
+3. **Name the cause ONCE, plainly.** Slavery-as-cause must appear in the section's own
+   prose (ship rule above) — but stated matter-of-factly, not as the dramatic opening
+   sentence and not hammered 3×. De-hammer, don't drop.
+4. **Little or no bold.** Don't bold every key term or inline-define for emphasis.
+5. **Marquee names get NO side-tag.** These 8 only — Abraham Lincoln, Jefferson Davis
+   (CSA president), Robert E. Lee, Ulysses S. Grant, Sherman, Stonewall Jackson, McClellan,
+   Winfield Scott — never carry "(North)/(South)". Tag EVERY other side-affiliated person
+   once on first mention per section. **Beware false friends:** *Stephen D. Lee*,
+   *Jefferson C. Davis* (the Union general), *Fitzhugh Lee* etc. are NOT the marquee
+   person and DO keep their tag.
+6. **Full rank first, then abbreviate.** Spell the rank out in full on a person's first
+   appearance in the section ("Major General George B. McClellan"), then use the
+   abbreviation after. Do NOT write the redundant double form "Maj. Gen. (Major General)".
+7. **Don't over-gloss common English.** Gloss genuine jargon only (interior/exterior lines,
+   salient, breastworks, parole, habeas corpus). The newcomer/clarity gate is loosened to
+   real jargon — common words ("blockade", "siege" once) don't need a lecture.
+8. **Cross-references are PILLS, not inline.** A pointer to another battle/theme is its
+   OWN standalone link line — a paragraph that is JUST `[Story Name](/href)` — which the
+   builder/reader turns into a between-paragraph "Read the full story" pill. Never bury it
+   in a parenthetical. One pill per referenced story, at its natural beat; never stack two
+   pills with no prose between.
+9. **Link comprehensively (locked 2026-05-31).** A narrative MENTIONS every battle/OTBF
+   event in its scope and carries a pill for EACH — built or not (unbuilt dossiers 404 by
+   design until built; that's fine). Don't silently skip a battle for being minor or
+   unbuilt. Miles first, km in parens.
+
 ## Roles
 - **Coordinator (the human-facing agent, i.e. you):** writes the brief, builds &
   verifies the fact pack, spawns the agents, **reads critic output critically
@@ -145,10 +184,13 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
    biggest hallucination-killer: the author writes only from this, never from
    memory.** Build it by fetching the real sources (e.g. the Wikipedia API).
 3. **Author agent (Opus)** — drafts from the fact pack + brief. Person side-tags
-   (every named combatant tagged with its side on first mention per section —
-   see `memory/feedback_war_person_side_tags`), house voice (`WRITING-RULES.md`),
-   dual POV for battles, human cost weighted. Output: draft markdown **plus a
-   Fact ledger** (every concrete claim → which fact-pack item; `[VERIFY]` flags).
+   (every named combatant tagged with its side on first mention per section EXCEPT
+   the 8 marquee names — see the Locked house-voice rules above and
+   `memory/feedback_war_person_side_tags`), the Locked house-voice rules (no
+   em-dashes / no meta-narrator / name-cause-once / full-rank-first / pills-not-inline /
+   comprehensive linking), house voice (`WRITING-RULES.md`), dual POV for battles,
+   human cost weighted. Output: draft markdown **plus a Fact ledger** (every concrete
+   claim → which fact-pack item; `[VERIFY]` flags).
 4. **Five critics, in parallel:**
    - **Fact-checker** — independently verify EVERY date/number/name/rank/place/
      quote against authoritative sources (don't trust the draft or the ledger).
@@ -164,9 +206,12 @@ gates, re-confirm the new content cleared the fact-checker before integrating.
      blocking) vs SHOULD-CONSIDER (enriching, non-blocking); plus fact-pack blind
      spots. Honest and tight — essential only, never encyclopedic.
    - **Newcomer/clarity critic** — read cold as a zero-knowledge reader; flag
-     every undefined term/jargon, missing side-tag, unexplained leap, and
-     overwhelming passage. CLEAR / NEEDS-GLOSS / LOST; MUST-FIX (comprehension
-     breakers) vs SHOULD-FIX.
+     every undefined GENUINE-jargon term, missing side-tag (on a non-marquee
+     figure), unexplained leap, and overwhelming passage. CLEAR / NEEDS-GLOSS /
+     LOST; MUST-FIX (comprehension breakers) vs SHOULD-FIX. **Loosened: do NOT
+     demand glosses on common English or flag the marquee 8 for lacking a side-tag
+     (per the Locked house-voice rules) — over-glossing is itself a defect the user
+     called out.**
    - **Lost Cause / framing critic** — hunt distortion only: slavery-cause soft-
      pedaling, false balance, Confederate romanticization, euphemism, presentism,
      unfair sympathy; confirm human reality is neither sanitized nor gratuitous.
@@ -246,6 +291,19 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 - **Commanders strip with REAL headshots** — PD portraits from Wikipedia pageimages (the article infobox image) → `public/war-img/cmdr/<slug>.jpg`, blue/rust side rings, gradient fallback.
 - **Outcome card** — verdict + 2–4 sentence explanation (see step 7).
 - **Section list** — each section a **distinct** image; never reuse the hero as a section card.
+- **Section CARD design = FLOAT-INSET, not cover-crop (locked 2026-05-31, user-approved).**
+  The per-section "chapter cards" in the dossier's Timeline view use the `inset` prop on
+  `BattleCard` (`SECTIONS.map(... <BattleCard ... inset />)` in
+  `<theatre>/<battle>/page.tsx`): one uniform grey card ground
+  (`color-mix(in srgb, var(--foreground) 4%, transparent)`, NO coloured gradient mat); the
+  image **floats upper-right** starting just under the "Read" pill (`float:right`,
+  `marginTop ~24`), shown WHOLE and uncropped at natural aspect (`width ~116–148`,
+  de-emphasized); title/sub/hook **wrap around it**; `clear:both` at the end. Reason: most
+  section images are MAPS, and cover-cropping a map loses its context — the inset shows the
+  whole map small and tucked while the prose leads. **`inset` is for INDIVIDUAL-BATTLE
+  section cards ONLY** — never the war-home spine, the theatre spine, or theme/OTBF/military-
+  chapter cards (a misfire the user caught). See `memory/feedback_war_card_inset` +
+  `memory/feedback_cards_fill_and_no_truncation`.
 - **Chapter CARD image: prefer a NON-MAP image; use a map only if you have nothing
   else (locked 2026-05-30, user directive).** A section's card thumbnail should be a
   period print, photo, or commander portrait. Use a **map** as the chapter card ONLY
