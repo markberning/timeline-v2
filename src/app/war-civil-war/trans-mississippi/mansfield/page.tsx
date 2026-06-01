@@ -7,8 +7,7 @@
 // + mansfield-factpack.md.
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.amber // Trans-Mississippi theatre
@@ -40,12 +39,6 @@ const SECTIONS = [
   { id: 'the-rout', eyebrow: 'April 8, ~4 p.m.', title: 'The Crescent Closes', blurb: 'Two hours of waiting, then Mouton (South) charges and falls; Walker (South) wraps the flank; the Union line breaks and slams into its own wagon train on the one road.' },
   { id: 'what-it-cost', eyebrow: 'The reckoning', title: 'The Campaign Breaks on a Back Road', blurb: 'A lopsided Confederate win, Mouton dead three miles from home, Emory’s (North) backstop the only southern edge — and every aim of the campaign, cotton included, gone.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-river-and-the-cotton': { size: 'm', date: 'Spring', palette: ['#3a3320', '#2a241a', '#0a0806'] },
-  'the-narrow-road': { size: 'l', date: 'Apr 8 a.m.', palette: ['#1d3a1d', '#16281a', '#080c08'] },
-  'the-rout': { size: 'xl', date: 'Apr 8 4 p.m.', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'what-it-cost': { size: 'm', date: 'Aftermath', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-river-and-the-cotton': '/war-img/cmdr/banks.jpg',
   'the-narrow-road': '/war-img/mansfield-overview.png',
@@ -210,33 +203,22 @@ function SectionsList() {
 }
 
 export default function MansfieldPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              How a single narrow road through the pines let a smaller army rout a bigger one — and why this odd little battle was never really about a river town at all.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

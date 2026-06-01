@@ -7,8 +7,7 @@
 // Content produced through the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.rust // Naval & Coastal theatre
@@ -32,12 +31,6 @@ const SECTIONS = [
   { id: 'the-bombardment', eyebrow: 'April 12–13', title: 'Thirty-Four Hours', blurb: 'Forty-three guns open on the fort. Anderson barely fires back — the artillery teacher sparing his men while his star pupil pounds him from shore.' },
   { id: 'the-war-begins', eyebrow: 'April 14 & after', title: 'One Death, and a Country at War', blurb: 'The fort surrenders; an accidental blast kills the war’s first man. Then 75,000 volunteers, four more states gone, and a nation at war.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-fort': { size: 'm', date: 'Dec ’60', palette: ['#2a3a44', '#22303a', '#0a0e10'] },
-  'the-decision': { size: 'm', date: 'Apr 11', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'the-bombardment': { size: 'xl', date: 'Apr 12', palette: ['#7a3b1c', '#3a2418', '#0e0805'] },
-  'the-war-begins': { size: 'l', date: 'Apr 14', palette: ['#5a2a32', '#3a1c20', '#0a0606'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-fort': '/war-img/sumter-harbor.png',
   'the-decision': '/war-img/sumter-exterior.jpg',
@@ -192,33 +185,22 @@ function SectionsList() {
 }
 
 export default function FortSumterPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The bloodless bombardment that began the bloodiest war in American history.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

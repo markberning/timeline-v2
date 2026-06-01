@@ -152,6 +152,26 @@ draft is not done). Full rationale: `memory/feedback_war_voice_restraint`,
    design until built; that's fine). Don't silently skip a battle for being minor or
    unbuilt. Miles first, km in parens.
 
+## Dossier retrofit sweep (the existing-battle backlog)
+Every already-built battle dossier gets brought up to the current bar. Four
+strands, run per battle (the first is mechanical and ships on its own; the rest
+are gated content):
+1. **Chrome — tier-3 jump-bar, drop the toggle (mechanical).** Convert each
+   `<theatre>/<slug>/page.tsx` to the Gettysburg pattern: remove `useWarView` /
+   `WarViewToggle`, add the sticky `WarSectionNav` (At a glance · Commanders ·
+   Outcome · Narrative) above the hero, wrap the dossier components in the four
+   id'd sections, drop the alternate card-timeline branch, clean orphaned imports.
+   No new prose, so this rolls out across all battles immediately.
+2. **Voice pass (gated).** The narrative sections through the locked house-voice
+   rules (no em-dashes / no meta-narrator / name-cause-once / full-rank-first /
+   pills-not-inline / comprehensive linking) — see `memory/feedback_war_voice_restraint`.
+3. **Maps add/redo (gated, 2-regen cap).** The establishing/locator map on the
+   opener, a map at every geographic beat, no-box labels — see step 6a/6b and
+   `memory/feedback_war_maps_dense_legible`.
+4. **Storytelling commanders (gated content).** The photo-left + per-commander
+   blurb section (above) — write each battle's cast's 2-sentence stories,
+   fact-checked. Lights up page-by-page as the prose lands.
+
 ## Roles
 - **Coordinator (the human-facing agent, i.e. you):** writes the brief, builds &
   verifies the fact pack, spawns the agents, **reads critic output critically
@@ -310,9 +330,30 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 - The prose blocks; a **tactical map** AND **period photo(s) where they exist** (PD), credit UNDER each; the Meanwhile card; the next-section link.
 
 **Battle dossier** (`<theatre>/<slug>/page.tsx`):
+- **Page chrome = tier-3 jump-bar, NO Timeline/Dossier toggle (locked 2026-06-01,
+  user-approved; piloted on Gettysburg).** The dossier is ONE scroll under the
+  breadcrumb, led by a sticky `WarSectionNav` (shared, in `war-chrome` — the same
+  Art-style pill bar as the war home), placed ABOVE the hero and sticking at
+  `CHROME_TOP`. Chips: **At a glance · Commanders · Outcome · Narrative**, each
+  scroll-spying + smooth-jumping to an id'd section (`sec-glance` / `sec-commanders`
+  / `sec-outcome` / `sec-narrative`, with `scrollMarginTop: CHROME_TOP + 46`). The
+  old `useWarView` / `WarViewToggle` is gone; the alternate card-timeline view is
+  dropped and the **narrative** section is the section list. Battle-specific extras
+  (a fishhook/tactical diagram) sit inside the nearest section (e.g. Outcome), no
+  chip of their own.
 - **Hero** — a near-full-bleed PD battle print. **Reject matted/bordered scans** (a print floating in a wide cream mat never fills the frame no matter the scale) — pick a clean full-bleed print (Thulstrup/Prang or Kurz & Allison). Hero/card images use `transform: scale(~1.16)` to crop hairline mats.
 - **At-a-glance** (stat strip + Union-vs-Confederate face-off + casualties bar).
-- **Commanders strip with REAL headshots** — PD portraits from Wikipedia pageimages (the article infobox image) → `public/war-img/cmdr/<slug>.jpg`, blue/rust side rings, gradient fallback.
+- **Commanders section = photo-left + per-commander STORY (locked 2026-06-01,
+  user-approved).** NOT a horizontal strip of faces — a vertical list, each
+  commander a row: their REAL PD headshot in a left column (side-coloured ring,
+  PD portrait from Wikipedia pageimages → `public/war-img/cmdr/<slug>.jpg`,
+  gradient fallback), then their **FULL name** (Robert E. Lee, not "R. E. Lee"),
+  role tinted by side, and a **2-sentence blurb of what THAT commander did in
+  THIS battle** — their decision, their moment, their cost. **The blurbs are
+  per-commander, per-battle PROSE = GATED CONTENT** — born-verified facts only,
+  em-dash-free (house voice), run through the **fact-checker** like any section
+  surface, never asserted from memory. This is real authoring per battle, not a
+  layout swap.
 - **Outcome card** — verdict + 2–4 sentence explanation (see step 7).
 - **Section list** — each section a **distinct** image; never reuse the hero as a section card.
 - **Section CARD design = FLOAT-INSET, not cover-crop (locked 2026-05-31, user-approved).**

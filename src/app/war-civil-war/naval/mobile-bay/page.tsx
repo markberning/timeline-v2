@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md). Naval theatre — fleets, not regiments.
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.rust
@@ -33,13 +32,6 @@ const SECTIONS = [
   { id: 'the-tennessee', eyebrow: 'Inside the bay', title: 'One Ironclad Against a Fleet', blurb: 'Buchanan (South) turns CSS Tennessee back into the entire Union fleet alone, and fights until she is battered into surrender.' },
   { id: 'what-it-won', eyebrow: 'The cost & the meaning', title: 'The Door, the Reason, and the Men on the Deck', blurb: 'The port is corked, the forts fall, and Lincoln’s re-election turns — while formerly enslaved men work the flagship’s guns.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-last-door': { size: 'm', date: 'Aug 5', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'running-the-forts': { size: 'l', date: 'Dawn', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'damn-the-torpedoes': { size: 'xl', date: '7:30 a', palette: ['#5a2a32', '#3a1c20', '#0a0606'] },
-  'the-tennessee': { size: 'l', date: '~10 a', palette: ['#7a3b1c', '#3a2418', '#0e0805'] },
-  'what-it-won': { size: 'm', date: 'After', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-last-door': '/war-img/mobile-bay-the-bay.png',
   'running-the-forts': '/war-img/mobile-bay-running-the-forts.png',
@@ -201,33 +193,22 @@ function SectionsList() {
 }
 
 export default function MobileBayPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              Damn the torpedoes — the morning the Union slammed the Confederacy’s last Gulf door.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

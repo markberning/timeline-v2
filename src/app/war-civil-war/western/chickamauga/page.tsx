@@ -5,8 +5,7 @@
 // numbered section list. Content via the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.blue
@@ -35,13 +34,6 @@ const SECTIONS = [
   { id: 'the-rock', eyebrow: 'The man who would not leave', title: 'Thomas Holds Snodgrass Hill', blurb: 'Thomas (North) — a Virginian who chose the Union — rallies the wreckage on the high ground and holds until dark, turning a rout into a retreat.' },
   { id: 'the-reckoning', eyebrow: 'The cost & the meaning', title: 'The Bloodiest Day in the West and What It Bought', blurb: '~34,000 fall in the second-bloodiest battle of the war. Bragg (South) wins the field, loses more men, and throws the victory away.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-maneuver': { size: 'l', date: 'Sep 8', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'the-woods': { size: 'l', date: 'Sep 19', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'the-gap': { size: 'xl', date: 'Sep 20 a.m.', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-rock': { size: 'l', date: 'Sep 20 p.m.', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'the-reckoning': { size: 'm', date: 'After', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-maneuver': '/war-img/chickamauga-overview.png',
   'the-woods': '/war-img/cmdr/longstreet.jpg',
@@ -209,33 +201,22 @@ function SectionsList() {
 }
 
 export default function ChickamaugaPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The only major Confederate victory in the West — won in blind woods, paid for in more blood than the army it beat, and thrown away within two months.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

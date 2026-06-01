@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -34,12 +33,6 @@ const SECTIONS = [
   { id: 'the-hesitation', eyebrow: 'June 15–16', title: 'The open door nobody walked through', blurb: 'Smith (North) stops at dark and Hancock (North), without orders, defers. Two corps stand outside an undefended city and wait for dawn — and Beauregard (South) digs in overnight.' },
   { id: 'the-door-slams', eyebrow: 'June 17–18', title: 'The bloodiest minutes and the start of the siege', blurb: 'Piecemeal assaults fail, the 1st Maine (North) is annihilated, Lee (South) finally arrives — and the open-field war gives way to a nine-and-a-half-month siege.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-stolen-march': { size: 'l', date: 'Setup', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'the-open-door': { size: 'xl', date: 'Jun 15', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'the-hesitation': { size: 'l', date: 'Jun 15–16', palette: ['#2a2640', '#1c1a2e', '#080610'] },
-  'the-door-slams': { size: 'm', date: 'Jun 17–18', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-stolen-march': '/war-img/second-petersburg-overview.png',
   'the-open-door': '/war-img/second-petersburg-june-15.png',
@@ -200,33 +193,22 @@ function SectionsList() {
 }
 
 export default function SecondPetersburgPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The freedmen opened the door. White hesitation let it close. The price was nine and a half months of siege.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

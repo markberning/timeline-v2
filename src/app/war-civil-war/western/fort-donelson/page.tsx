@@ -7,8 +7,7 @@
 // Content produced through the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.blue // Western theatre
@@ -37,12 +36,6 @@ const SECTIONS = [
   { id: 'the-breakout', eyebrow: 'February 15', title: 'The Escape That Wasn’t', blurb: 'A Confederate attack tears open an escape road — and then Pillow (South) orders his men back into the trenches, throwing it away.' },
   { id: 'unconditional-surrender', eyebrow: 'February 16', title: 'Unconditional Surrender', blurb: 'Floyd and Pillow flee in the night; Forrest rides out through icy water; Buckner (South) is left to surrender to his old friend Grant.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-rivers': { size: 'm', date: 'Feb 6', palette: ['#2a3a44', '#22303a', '#0a0e10'] },
-  'the-gunboats': { size: 'l', date: 'Feb 14', palette: ['#26384a', '#1e2c38', '#0a0e12'] },
-  'the-breakout': { size: 'l', date: 'Feb 15', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'unconditional-surrender': { size: 'xl', date: 'Feb 16', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-rivers': '/war-img/donelson-rivers.png',
   'the-gunboats': '/war-img/donelson-gunboats.jpg',
@@ -204,33 +197,22 @@ function SectionsList() {
 }
 
 export default function FortDonelsonPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The surrender that made Grant — and cracked the Confederate West wide open.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

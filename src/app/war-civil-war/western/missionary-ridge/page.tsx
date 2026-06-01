@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.blue
@@ -37,13 +36,6 @@ const SECTIONS = [
   { id: 'the-charge', eyebrow: 'The miracle', title: '“Who Ordered Those Men Up the Ridge?”', blurb: 'The Army of the Cumberland climbs without orders, shouting “Chickamauga!”, and shatters Bragg’s (South) badly-sited center.' },
   { id: 'the-meaning', eyebrow: 'The cost & the meaning', title: 'The Gateway Thrown Open', blurb: 'Bragg (South) loses his army and his command; the door to Atlanta and the slave South swings open; Grant (North) goes east to win the war.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-siege': { size: 'l', date: 'Nov 23', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'the-plan': { size: 'l', date: 'Nov 25', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'the-order': { size: 'm', date: '3:30 pm', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'the-charge': { size: 'xl', date: '5 pm', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-meaning': { size: 'm', date: 'After', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-siege': '/war-img/missionary-ridge-overview.png',
   'the-plan': '/war-img/missionary-ridge-flanks.png',
@@ -211,33 +203,22 @@ function SectionsList() {
 }
 
 export default function MissionaryRidgePage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              A diversion that, against orders, stormed a fortified ridge and routed a veteran army — “the miracle on Missionary Ridge.”
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

@@ -5,8 +5,7 @@
 // numbered section list. Content via the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.amber
@@ -30,11 +29,6 @@ const SECTIONS = [
   { id: 'the-canal', eyebrow: 'The engineering feat', title: 'The Canal Through the Swamp', blurb: 'With the guns and current blocking the fleet, Pope’s men dig a 12-mile canal, and gunboats run the batteries in a thunderstorm.' },
   { id: 'the-trap', eyebrow: 'April 7–8', title: 'The Trap Springs', blurb: 'Ferried across the river, Pope cuts the escape road at Tiptonville; thousands surrender for the cost of a few dozen Union dead.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-gibraltar': { size: 'm', date: 'Mar', palette: ['#2a3a44', '#22303a', '#0a0e10'] },
-  'the-canal': { size: 'l', date: 'Apr', palette: ['#3a3320', '#2a241a', '#0a0806'] },
-  'the-trap': { size: 'xl', date: 'Apr 8', palette: ['#7a4a18', '#3a2a14', '#0e0905'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-gibraltar': '/war-img/island-number-ten-strategy.png',
   'the-canal': '/war-img/island-number-ten.png',
@@ -187,33 +181,22 @@ function SectionsList() {
 }
 
 export default function IslandNumberTenPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The river fortress that fell to a shovel and a thunderstorm — almost without blood.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

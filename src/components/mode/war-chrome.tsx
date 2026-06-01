@@ -131,6 +131,40 @@ export function WarBreadcrumb({ crumbs, accent = CIVIL_WAR_ACCENT }: { crumbs: C
   )
 }
 
+// The tier-3 inline jump-bar (Art-style SectionNav) for War drilldown pages — a
+// sticky row of chips that scroll-spies and smooth-jumps to each id'd section.
+// Sticks just under the ThreadBar + breadcrumb (CHROME_TOP). Sections should set
+// scrollMarginTop: CHROME_TOP + ~46 so the jump lands clear of the chrome.
+export function WarSectionNav({ items, accent = CIVIL_WAR_ACCENT }: { items: { id: string; label: string }[]; accent?: string }) {
+  const [active, setActive] = useState(items[0]?.id)
+  useEffect(() => {
+    const onScroll = () => {
+      let cur = items[0]?.id
+      for (const it of items) {
+        const sec = document.getElementById(it.id)
+        if (sec && sec.getBoundingClientRect().top - CHROME_TOP - 48 <= 0) cur = it.id
+      }
+      setActive(cur)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [items])
+  const border = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
+  const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
+  return (
+    <div style={{ position: 'sticky', top: CHROME_TOP, zIndex: 6, display: 'flex', justifyContent: 'center', gap: 5, padding: '8px', background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderBottom: `1px solid ${border}` }}>
+      {items.map(it => {
+        const on = active === it.id
+        return (
+          <button key={it.id} onClick={() => { setActive(it.id); document.getElementById(it.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' }) }}
+            style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 600, letterSpacing: 0.2, padding: '5px 11px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? alpha(accent, 0.5) : border}`, background: on ? alpha(accent, 0.14) : 'transparent', color: on ? 'var(--foreground)' : muted }}>{it.label}</button>
+        )
+      })}
+    </div>
+  )
+}
+
 // The Timeline/Dossier view toggle — now rendered by each page just BELOW its
 // hero image (no longer a sticky tier above it, and the old back button is gone;
 // the ThreadBar + breadcrumb handle navigation). Sticks under the breadcrumb on

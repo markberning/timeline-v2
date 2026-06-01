@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.blue
@@ -38,13 +37,6 @@ const SECTIONS = [
   { id: 'overton-hill', eyebrow: 'December 16', title: 'The hill the freedmen charged', blurb: 'Steedman’s (North) U.S. Colored Troops assault the strongest works on the field, the 13th USCT taking the battle’s heaviest loss — and winning even Holtzclaw’s (South) acknowledgment.' },
   { id: 'the-army-destroyed', eyebrow: 'December 16 evening', title: 'The line rolled up west to east', blurb: 'Shy’s Hill falls, Stewart’s (South) flank disintegrates, and the last Confederate field army in the West dissolves into rout — saved from total ruin only by Forrest’s (South) rearguard.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-standoff': { size: 'l', date: 'Dec 8', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'the-sledgehammer-telegrams': { size: 'm', date: 'Dec 14', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'the-right-wheel': { size: 'xl', date: 'Dec 15', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'overton-hill': { size: 'xl', date: 'Dec 16', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-army-destroyed': { size: 'l', date: 'Dusk', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-standoff': '/war-img/nashville-overview.png',
   'the-sledgehammer-telegrams': '/war-img/cmdr/thomas.jpg',
@@ -206,33 +198,22 @@ function SectionsList() {
 }
 
 export default function NashvillePage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The battle that didn’t just beat the Army of Tennessee — it ended it.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

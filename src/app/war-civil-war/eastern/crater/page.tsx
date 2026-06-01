@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -36,13 +35,6 @@ const SECTIONS = [
   { id: 'the-massacre', eyebrow: 'The crater rim', title: 'Murdered After Surrender', blurb: 'The USCT take the heaviest losses on the field; surrendering and wounded Black soldiers are killed — confirmed by Confederate witnesses, not Northern accusation.' },
   { id: 'what-it-meant', eyebrow: 'The reckoning', title: 'A Breakthrough Thrown Into a Hole', blurb: 'A 2.5-to-1 loss, a wasted breach, a court of inquiry — and the engineer of the mine the one man praised. Petersburg holds eight more months.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-mine': { size: 'l', date: 'Jun–Jul', palette: ['#2a2418', '#1c1812', '#080806'] },
-  'pulled-from-the-lead': { size: 'l', date: 'Jul 29', palette: ['#2a2438', '#1c182a', '#0a0812'] },
-  'the-pit': { size: 'xl', date: 'Jul 30', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-massacre': { size: 'l', date: 'Morning', palette: ['#3a1208', '#2a0e08', '#0a0606'] },
-  'what-it-meant': { size: 'm', date: 'After', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-mine': '/war-img/crater-overview.png',
   'pulled-from-the-lead': '/war-img/cmdr/ferrero.jpg',
@@ -204,33 +196,22 @@ function SectionsList() {
 }
 
 export default function CraterPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              A perfect mine, a thrown-away breakthrough — and the war’s cause reaching down into the pit.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

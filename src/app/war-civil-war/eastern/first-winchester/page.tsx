@@ -5,8 +5,7 @@
 // numbered section list. Content via the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -29,11 +28,6 @@ const SECTIONS = [
   { id: 'the-rout', eyebrow: 'May 25', title: 'The Rout of Banks', blurb: 'A dawn attack and Taylor’s (South) flank charge roll up Banks (North) on Bowers Hill and send his army fleeing through the town.' },
   { id: 'commissary-banks', eyebrow: 'The aftermath', title: 'Commissary Banks', blurb: 'Banks flees across the Potomac, leaving a mountain of supplies; the Valley triumph helps save Richmond — brilliance in defense of slavery.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-valley': { size: 'm', date: 'May', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'the-rout': { size: 'xl', date: 'May 25', palette: ['#5a3a6a', '#34223a', '#0c0810'] },
-  'commissary-banks': { size: 'l', date: 'After', palette: ['#3a3320', '#2a241a', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-valley': '/war-img/first-winchester-valley.png',
   'the-rout': '/war-img/first-winchester.png',
@@ -193,33 +187,22 @@ function SectionsList() {
 }
 
 export default function FirstWinchesterPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The climax of Stonewall Jackson’s Valley Campaign — and a triumph in service of slavery.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

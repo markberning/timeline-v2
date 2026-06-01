@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -37,13 +36,6 @@ const SECTIONS = [
   { id: 'the-bloody-angle', eyebrow: 'May 12 · Twenty hours in the rain', title: 'The Bloody Angle', blurb: 'Hancock (North) overruns the apex and captures a division; then twenty hours of the war’s worst hand-to-hand fighting along one log parapet.' },
   { id: 'the-23rd', eyebrow: 'May 13–21 · The army that came back in blue', title: 'The Crossroads Was the Object', blurb: 'Grant (North) slides south again as the arithmetic turns; at the Alrich Farm, formerly enslaved men of the 23rd USCT charge Lee’s army on the soil they’d fled.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-race': { size: 'l', date: 'May 7–8', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'laurel-hill': { size: 'm', date: 'May 8–9', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'the-mule-shoe': { size: 'l', date: 'May 10–11', palette: ['#2a2440', '#1d1830', '#0a0812'] },
-  'the-bloody-angle': { size: 'xl', date: 'May 12', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-23rd': { size: 'm', date: 'May 13–21', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-race': '/war-img/spotsylvania-overview.png',
   'laurel-hill': '/war-img/cmdr/sedgwick.jpg',
@@ -205,33 +197,22 @@ function SectionsList() {
 }
 
 export default function SpotsylvaniaPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              Two weeks at a crossroads — and the day rifle fire cut down an oak tree at the Bloody Angle.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

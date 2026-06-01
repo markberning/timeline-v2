@@ -5,8 +5,7 @@
 // numbered section list. Content via the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.blue
@@ -34,13 +33,6 @@ const SECTIONS = [
   { id: 'atlanta-is-ours', eyebrow: 'September 2–3', title: 'Atlanta Is Ours', blurb: 'With the last railroad cut, Hood (South) abandons the city in the night; Sherman’s (North) four-word telegram detonates the case against the war and turns the 1864 election.' },
   { id: 'what-it-decided', eyebrow: 'The meaning', title: 'What It Decided', blurb: 'Jonesborough opened the road to the March to the Sea and the largest emancipation event in U.S. history — and to Ebenezer Creek, where the same Davis (North) left hundreds of the freed to drown.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-last-railroad': { size: 'l', date: 'Aug 30', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'hardees-stand': { size: 'xl', date: 'Aug 31', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-line-breaks': { size: 'l', date: 'Sep 1', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'atlanta-is-ours': { size: 'l', date: 'Sep 2', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'what-it-decided': { size: 'm', date: 'After', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-last-railroad': '/war-img/jonesborough-overview.png',
   'hardees-stand': '/war-img/cmdr/hardee.jpg',
@@ -202,33 +194,22 @@ function SectionsList() {
 }
 
 export default function JonesboroughPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The battle that took Atlanta — and, by way of the election it decided, helped guarantee the end of slavery.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

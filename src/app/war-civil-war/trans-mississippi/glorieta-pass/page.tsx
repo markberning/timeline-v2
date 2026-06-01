@@ -6,8 +6,7 @@
 // Content produced through the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.amber // Trans-Mississippi theatre
@@ -34,11 +33,6 @@ const SECTIONS = [
   { id: 'the-battle', eyebrow: 'March 26–28', title: 'The Gettysburg of the West', blurb: 'In the canyon and at Pigeon’s Ranch, Scurry’s (South) Texans drive the Union back and win the field.' },
   { id: 'the-wagons', eyebrow: 'The decisive stroke', title: 'The Wagons at Johnson’s Ranch', blurb: 'While the armies fight, a Union column crosses the mesa and burns the entire Confederate supply train — winning the campaign by losing the battle.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-dream': { size: 'm', date: 'Feb–Mar', palette: ['#5a4a2a', '#3a2e1c', '#0e0a06'] },
-  'the-battle': { size: 'l', date: 'Mar 28', palette: ['#7a4a18', '#3a2a14', '#0e0905'] },
-  'the-wagons': { size: 'xl', date: 'Mar 28', palette: ['#7a2a18', '#3a1c10', '#0c0606'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-dream': '/war-img/cmdr/sibley.jpg',
   'the-battle': '/war-img/glorieta-pass.png',
@@ -199,33 +193,22 @@ function SectionsList() {
 }
 
 export default function GlorietaPassPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The Gettysburg of the West — where winning the field meant losing the war.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

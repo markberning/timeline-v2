@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -37,13 +36,6 @@ const SECTIONS = [
   { id: 'the-turn', eyebrow: 'May 7', title: 'The night Grant turned south', blurb: 'Beaten by every old rule, Grant (North) does not retreat — he marches the army south past Lee (South), and the men cheer in the dark.' },
   { id: 'what-it-was-for', eyebrow: 'The meaning', title: 'The men marching back across their own bondage', blurb: 'Grant’s (North) army carried formerly enslaved men from these very counties — the most literal answer to what the blood was for: slavery was the reason.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-thicket': { size: 'l', date: 'May 4', palette: ['#2a3420', '#1c2418', '#080c06'] },
-  'the-two-roads': { size: 'l', date: 'May 5', palette: ['#3a3020', '#2a221c', '#0a0806'] },
-  'longstreet-attacks': { size: 'xl', date: 'May 6', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'the-turn': { size: 'l', date: 'May 7', palette: ['#2a2438', '#1c182a', '#0a0812'] },
-  'what-it-was-for': { size: 'm', date: 'After', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-thicket': '/war-img/wilderness-overview.png',
   'the-two-roads': '/war-img/cmdr/ewell.jpg',
@@ -205,33 +197,22 @@ function SectionsList() {
 }
 
 export default function WildernessPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The woods Lee picked on purpose — and the night a Union army, for the first time, refused to turn around.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

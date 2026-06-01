@@ -8,7 +8,7 @@
 // now). Palette = mockup (Civil War violet, Union blue, Confederate rust).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, useWarView } from '@/components/mode/war-chrome'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha } from '@/components/mode/war-chrome'
 import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
@@ -23,10 +23,13 @@ const ARMIES = [
 ]
 const CAS = { union: 23055, csa: 28063, civ: 1 }
 const FIGURES = [
-  { name: 'R. E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg' }, { name: 'J. Longstreet', role: 'Lt. Gen., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg' },
-  { name: 'G. Pickett', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/pickett.jpg' }, { name: 'G. Meade', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg' },
-  { name: 'W. Hancock', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg' }, { name: 'J. Buford', role: 'Cav., Union', side: 'U', img: '/war-img/cmdr/buford.jpg' },
-  { name: 'J. Chamberlain', role: 'Col., 20th Maine', side: 'U', img: '/war-img/cmdr/chamberlain.jpg' },
+  { name: 'Robert E. Lee', role: 'Cmdr., CSA', side: 'C', img: '/war-img/cmdr/lee.jpg', blurb: "Fresh off his masterpiece at Chancellorsville and deep in Northern territory, Lee gambled on smashing the Union line head-on. When the second day's attacks failed, he ordered a frontal assault on the center over Longstreet's objections, and never invaded the North again." },
+  { name: 'James Longstreet', role: 'Lt. Gen., CSA', side: 'C', img: '/war-img/cmdr/longstreet.jpg', blurb: "Lee's senior corps commander argued for swinging around the Union left and fighting on the defensive rather than attacking the heights. Overruled, he reluctantly launched the second-day assault and then the doomed charge on the third." },
+  { name: 'George Pickett', role: 'Div., CSA', side: 'C', img: '/war-img/cmdr/pickett.jpg', blurb: "His fresh Virginia division led the climactic third-day assault on Cemetery Ridge that still bears his name. Of the roughly 12,500 men who stepped off across an open mile, about half never came back." },
+  { name: 'George G. Meade', role: 'Cmdr., Potomac', side: 'U', img: '/war-img/cmdr/meade.jpg', blurb: "Handed command of the Army of the Potomac just three days before the battle, Meade fought a careful defensive fight on excellent ground, holding the fishhook line against three days of attacks to win the biggest battle of the war." },
+  { name: 'Winfield S. Hancock', role: 'Corps, Union', side: 'U', img: '/war-img/cmdr/hancock.jpg', blurb: "Sent ahead on the first day to judge the ground, Hancock chose the high ground south of town and steadied the broken line. He anchored the Union center and was badly wounded helping repulse Pickett's Charge." },
+  { name: 'John Buford', role: 'Cav., Union', side: 'U', img: '/war-img/cmdr/buford.jpg', blurb: "His cavalry division reached Gettysburg first and fought a dismounted delaying action on the ridges west of town, buying the hours the Union infantry needed to reach and hold the heights." },
+  { name: 'Joshua L. Chamberlain', role: 'Col., 20th Maine', side: 'U', img: '/war-img/cmdr/chamberlain.jpg', blurb: "A college professor in uniform, Chamberlain held the far Union left at Little Round Top on the second day. Out of ammunition and about to be overrun, his 20th Maine fixed bayonets and charged downhill, saving the flank." },
 ]
 const SECTIONS = [
   { id: 'setting', eyebrow: 'Lay of the land', title: 'How they got there', blurb: 'Lee (South) marches north. The armies converge blindly toward a Pennsylvania crossroads town with ten roads.', cas: null, day: null },
@@ -303,18 +306,23 @@ function Fishhook() {
 
 function CommandersStrip() {
   return (
-    <div style={{ padding: '14px 0 14px 16px' }}>
+    <div style={{ padding: '14px 16px' }}>
       <Eyebrow color={ACCENT}>Commanders</Eyebrow>
-      <div style={{ display: 'flex', gap: 14, overflowX: 'auto', marginTop: 10, paddingBottom: 4 }}>
+      <div style={{ marginTop: 12, display: 'flex', flexDirection: 'column', gap: 16 }}>
         {FIGURES.map(f => {
           const ring = f.side === 'U' ? ACCENTS.blue : ACCENTS.rust
           return (
-            <div key={f.name} style={{ flexShrink: 0, width: 64, textAlign: 'center' }}>
-              <div style={{ width: 52, height: 52, margin: '0 auto', borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
+            <div key={f.name} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ flexShrink: 0, width: 54, height: 54, borderRadius: 999, overflow: 'hidden', background: 'linear-gradient(135deg, #3a2e21, #1c1814)', border: `2px solid ${ring}`, boxShadow: `0 0 0 2px var(--background)` }}>
                 {f.img && <img src={f.img} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 22%' }} />}
               </div>
-              <div style={{ fontFamily: SERIF, fontSize: 11.5, marginTop: 6, lineHeight: 1.15 }}>{f.name}</div>
-              <div style={{ fontFamily: SANS, fontSize: 8.5, color: 'color-mix(in srgb, var(--foreground) 50%, transparent)', marginTop: 1 }}>{f.role}</div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: 7, flexWrap: 'wrap' }}>
+                  <span style={{ fontFamily: SERIF, fontSize: 15, fontWeight: 500, letterSpacing: -0.2 }}>{f.name}</span>
+                  <span style={{ fontFamily: SANS, fontSize: 8.5, fontWeight: 700, letterSpacing: 0.5, textTransform: 'uppercase', color: ring }}>{f.role}</span>
+                </div>
+                <p style={{ margin: '4px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 76%, transparent)' }}>{f.blurb}</p>
+              </div>
             </div>
           )
         })}
@@ -362,34 +370,22 @@ function SectionsList() {
 }
 
 export default function GettysburgPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <Fishhook />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              Three days of disaster for Lee. The Confederacy never reaches this far north again.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /><Fishhook /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

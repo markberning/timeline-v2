@@ -6,8 +6,7 @@
 // Content produced through the war content pipeline (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, CIVIL_WAR_ACCENT as ACCENT, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const CRUMBS = civilWarCrumbs({ theatre: 'east', battleId: 'e-antietam' })
@@ -32,12 +31,6 @@ const SECTIONS = [
   { id: 'bridge', eyebrow: 'Midday & afternoon', title: 'The Bloody Lane & the Bridge', blurb: 'The center breaks at the Sunken Road — but the reserves never move. A. P. Hill (South) arrives from Harpers Ferry just in time to save Lee.' },
   { id: 'bloodiest', eyebrow: 'The cost & the meaning', title: 'The bloodiest day', blurb: '22,726 casualties in a single day. Brady’s photographs of the dead — and five days later, the Emancipation Proclamation.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'lost-order': { size: 'm', date: 'Sep 13', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'cornfield': { size: 'l', date: 'Dawn', palette: ['#5a5034', '#3a3020', '#100c08'] },
-  'bridge': { size: 'l', date: 'Midday', palette: ['#7a3b1c', '#3a2820', '#0e0805'] },
-  'bloodiest': { size: 'xl', date: 'Sep 17', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'lost-order': '/war-img/antietam-lost-order.jpg',
   'cornfield': '/war-img/antietam-dunker-church.jpg',
@@ -199,33 +192,22 @@ function SectionsList() {
 }
 
 export default function AntietamPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The bloodiest single day in American history — and the victory that let Lincoln free the slaves.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

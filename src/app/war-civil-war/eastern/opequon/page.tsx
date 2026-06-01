@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -36,13 +35,6 @@ const SECTIONS = [
   { id: 'the-flank', eyebrow: 'The afternoon', title: 'Russell, Rodes, and the hammer from the north', blurb: 'A gap nearly breaks the Union center; Russell (North) dies closing it and Rodes (South) dies leading the counter, before the massed cavalry caves in Early’s flank.' },
   { id: 'whirling-through-winchester', eyebrow: 'The rout', title: 'Whirling through the town', blurb: 'Early’s (South) army breaks south through Winchester’s streets — the first of three blows that destroyed the Army of the Valley and cleared the Valley for The Burning.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-breadbasket': { size: 'l', date: 'Prelude', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'the-spy': { size: 'm', date: 'Sept 16', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-  'the-canyon': { size: 'l', date: 'Dawn', palette: ['#1d3a5a', '#16283a', '#080c12'] },
-  'the-flank': { size: 'xl', date: 'Afternoon', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'whirling-through-winchester': { size: 'm', date: 'Dusk', palette: ['#3a2e4a', '#2a2238', '#0a0810'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-breadbasket': '/war-img/cmdr/early.jpg',
   'the-spy': '/war-img/cmdr/sheridan.jpg',
@@ -204,33 +196,22 @@ function SectionsList() {
 }
 
 export default function OpequonPage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              The largest battle ever fought in the Shenandoah — and the day an enslaved man’s message helped break the army defending a slave-worked breadbasket.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )

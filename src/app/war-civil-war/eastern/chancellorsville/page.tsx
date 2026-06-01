@@ -6,8 +6,7 @@
 // (audits/war-content-pipeline.md).
 
 import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, SANS, SERIF, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard, CordTimeline, type CardSize } from '@/components/mode/war-battle-card'
+import { WarBreadcrumb, WarSectionNav, CHROME_TOP, SANS, SERIF, ACCENTS, alpha } from '@/components/mode/war-chrome'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const ACCENT = ACCENTS.violet
@@ -35,13 +34,6 @@ const SECTIONS = [
   { id: 'jackson-falls', eyebrow: 'The cost of the masterpiece', title: 'Shot by His Own Men', blurb: 'Jackson (South) is wounded by his own men in the dark; Stuart (South) takes the corps, Hooker (North) is concussed on his own porch, and the Union line buckles.' },
   { id: 'hooker-quits', eyebrow: 'A victory too expensive to keep', title: 'The General Loses His Nerve', blurb: 'Hooker (North) quits with the bigger army intact. Lee wins his masterpiece — and pays with a fifth of his army and Stonewall Jackson, dead by May 10.' },
 ]
-const TL_META: Record<string, { size: CardSize; date: string; palette: [string, string, string] }> = {
-  'the-plan': { size: 'l', date: 'Apr 30', palette: ['#3a4a2a', '#283420', '#0a0e08'] },
-  'lee-divides': { size: 'm', date: 'May 1', palette: ['#2a2440', '#1e1a30', '#080610'] },
-  'the-flank-march': { size: 'xl', date: 'May 2', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'jackson-falls': { size: 'l', date: 'May 2–3', palette: ['#7a1422', '#3a1208', '#0a0606'] },
-  'hooker-quits': { size: 'm', date: 'May 6', palette: ['#3a2e21', '#2a221c', '#0a0806'] },
-}
 const SECTION_IMG: Record<string, string> = {
   'the-plan': '/war-img/chancellorsville-overview.png',
   'lee-divides': '/war-img/cmdr/lee.jpg',
@@ -209,33 +201,22 @@ function SectionsList() {
 }
 
 export default function ChancellorsvillePage() {
-  const [view, setView] = useWarView()
+  const secTop = { scrollMarginTop: CHROME_TOP + 46 }
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={CRUMBS} accent={ACCENT} />
       <div style={{ maxWidth: 480, margin: '0 auto' }}>
+        <WarSectionNav accent={ACCENT} items={[
+          { id: 'sec-glance', label: 'At a glance' },
+          { id: 'sec-commanders', label: 'Commanders' },
+          { id: 'sec-outcome', label: 'Outcome' },
+          { id: 'sec-narrative', label: 'Narrative' },
+        ]} />
         <HeroImg />
-        <WarViewToggle view={view} onView={setView} />
-        {view === 'dossier' ? (
-          <>
-            <AtAGlance />
-            <CommandersStrip />
-            <OutcomePill />
-            <SectionsList />
-          </>
-        ) : (
-          <div style={{ padding: '8px 0 20px' }}>
-            <p style={{ fontFamily: SERIF, fontSize: 16, lineHeight: 1.6, margin: '8px 16px 4px', color: 'color-mix(in srgb, var(--foreground) 78%, transparent)' }}>
-              Lee’s perfect battle — won outnumbered two to one, and paid for with Stonewall Jackson’s life.
-            </p>
-            <CordTimeline>
-              {SECTIONS.map(s => {
-                const m = TL_META[s.id]
-                return <BattleCard key={s.id} size={m.size} accent={ACCENT} dateTop={m.date} palette={m.palette} imageUrl={SECTION_IMG[s.id]} title={s.title} sub={s.eyebrow} hook={s.blurb} href={sectionHref(s.id)} inset />
-              })}
-            </CordTimeline>
-          </div>
-        )}
+        <div id="sec-glance" style={secTop}><AtAGlance /></div>
+        <div id="sec-commanders" style={secTop}><CommandersStrip /></div>
+        <div id="sec-outcome" style={secTop}><OutcomePill /></div>
+        <div id="sec-narrative" style={secTop}><SectionsList /></div>
       </div>
     </div>
   )
