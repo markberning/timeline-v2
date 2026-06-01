@@ -79,14 +79,12 @@ const BAND_COLOR: Record<string, string> = Object.fromEntries(WAR_BANDS.map(b =>
 export function civilWarCrumbs({ theatre, battleId }: { theatre?: Theatre | 'offfield' | 'howfought'; battleId?: string } = {}): Crumb[] {
   const warOptions: CrumbOption[] = WAR_EVENTS.map(w => ({ label: w.name, href: w.href, disabled: !w.href, color: BAND_COLOR[w.band] }))
 
-  // The theatre landing pages are obsolete (folded into the ACW home), so a
-  // theatre crumb/option now jumps to that theatre's earliest built battle.
+  // Only the four GEOGRAPHIC theatre landing pages are obsolete (folded into the
+  // ACW home), so those jump to the theatre's earliest built battle. Off the
+  // Battlefield and the Military Story keep their real home pages.
   const firstHref = (id: string): string | undefined => {
-    const byDate = <T extends { year: number; m: number; href?: string }>(xs: T[]) =>
-      xs.filter(x => x.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
-    if (id === 'howfought') return byDate(CHAPTERS)
-    if (id === 'offfield') return byDate(THEMES)
-    return byDate(MAJORS.filter(b => b.theatre === id))
+    if (id === 'offfield' || id === 'howfought') { const nav = THEATRE_NAV.find(t => t.id === id); return nav?.ready ? nav.href : undefined }
+    return MAJORS.filter(b => b.theatre === id && b.href).sort((a, b) => (a.year * 100 + a.m) - (b.year * 100 + b.m))[0]?.href
   }
   const theatreOptions: CrumbOption[] = THEATRE_NAV.map(t => { const h = firstHref(t.id); return { label: t.label, href: h, disabled: !h, color: THEATRE_DOT[t.id] } })
   const activeTheatre = theatre ? THEATRE_NAV.find(t => t.id === theatre) : undefined

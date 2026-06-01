@@ -311,7 +311,9 @@ function TheatresInteractive() {
   ]
   const tlMeta = TL_OPTS.find(o => o.id === tlTheatre)!
   const TH_COLOR: Record<string, string> = { east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green }
+  const TH_LABEL: Record<string, string> = { east: 'Eastern', west: 'Western', tmis: 'Trans-Miss', naval: 'Naval', offfield: 'Off the Battlefield' }
   const nodeColor = (n: SpineNode) => (n.theatre && TH_COLOR[n.theatre]) || WAR_ACCENT
+  const nodeTheatre = (n: SpineNode) => n.id.startsWith('mil-') ? 'Military Story' : (n.theatre ? TH_LABEL[n.theatre] ?? '' : '')
   const milNodes: SpineNode[] = CHAPTERS.map(c => ({ id: c.id, phase: c.phase, type: 'BATTLE', size: c.size, name: c.name, short: c.short, date: c.date, hook: c.hook, href: c.href, img: c.img, stack: c.stack }))
   const muted = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
   const faint = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
@@ -433,7 +435,7 @@ function TheatresInteractive() {
               const row = (
                 <>
                   <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: nodeColor(n), border: `1px solid ${nodeColor(n)}` }} />
-                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(nodeColor(n), 0.9), textTransform: 'uppercase' }}>{n.date}</div>
+                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(nodeColor(n), 0.9), textTransform: 'uppercase' }}>{n.date}{tlTheatre === 'all' && nodeTheatre(n) ? ` · ${nodeTheatre(n)}` : ''}</div>
                   <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{n.name}{place && <span style={{ color: faint, fontSize: 12 }}> · {place}</span>}</div>
                   <span style={{ position: 'absolute', right: 0, top: 7, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: n.href ? '#fff' : faint, background: n.href ? nodeColor(n) : 'transparent', border: n.href ? 'none' : `1px solid ${border}` }}>{n.href ? 'Read →' : 'Soon'}</span>
                 </>
