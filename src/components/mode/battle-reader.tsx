@@ -10,6 +10,7 @@ import { WarBreadcrumb, alpha, CHROME_TOP, type Crumb, type CrumbOption } from '
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 import type { Theatre } from '@/lib/civil-war-roster'
 import { Lightbox } from '@/components/lightbox'
+import { DottedMap, type Frame, type StateSpec, type Dot, type FreeLabel } from '@/components/mode/dotted-map'
 
 const SANS = 'var(--font-geist-sans)'
 const SERIF = 'var(--font-lora)'
@@ -20,6 +21,8 @@ export type Block =
   | { fig: string; cap: string; credit: string }
   // a between-paragraph "go read that story" link, rendered as an accent pill
   | { pill: string; plabel: string }
+  // the zoomed-out "establishing shot": a real-geography dotted locator map
+  | { locator: { eyebrow?: string; caption?: string; frame: Frame; states: StateSpec[]; dots?: Dot[]; labels?: FreeLabel[]; vbWidth?: number } }
 
 export interface Narr {
   eyebrow: string
@@ -145,6 +148,11 @@ export function BattleSectionReader({
               <div key={i} style={{ marginTop: i === 0 ? 0 : 26, marginBottom: 10 }}>
                 {b.eyebrow && <div style={{ fontFamily: SANS, fontSize: 9.5, fontWeight: 700, letterSpacing: 1.4, textTransform: 'uppercase', color: accent, marginBottom: 3 }}>{b.eyebrow}</div>}
                 <h2 style={{ fontFamily: SERIF, fontWeight: 500, fontSize: 22, lineHeight: 1.15, letterSpacing: '-0.3px', margin: 0 }}>{b.h}</h2>
+              </div>
+            )
+            if ('locator' in b) return (
+              <div key={i} style={{ margin: '18px 0 4px' }}>
+                <DottedMap accent={accent} {...b.locator} />
               </div>
             )
             if ('pill' in b) return (

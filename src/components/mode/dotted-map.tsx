@@ -16,7 +16,7 @@ export type Tone = 'focus' | 'gray' | 'faint'
 // `color` overrides the tone palette for multi-theatre maps (each theatre its
 // own colour); tone then just sets emphasis: 'focus' = bright, 'faint' = dim.
 export type StateSpec = { name: string; tone?: Tone; color?: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }
-export type Dot = { name?: string; lat: number; lon: number; anchor?: 'start' | 'end'; dx?: number; dy?: number; heavy?: boolean; color?: string }
+export type Dot = { name?: string; date?: string; lat: number; lon: number; anchor?: 'start' | 'end'; dx?: number; dy?: number; heavy?: boolean; color?: string }
 export type Capital = { name: string; lat: number; lon: number; dx?: number; dy?: number; anchor?: 'start' | 'end' }
 export type Corridor = { fromLon: number; fromLat: number; toLon: number; toLat: number; label?: string; labelLon?: number; labelLat?: number; labelAnchor?: 'start' | 'end'; dashed?: boolean }
 export type River = { pts: [number, number][]; label?: string; labelLon?: number; labelLat?: number; labelAnchor?: 'start' | 'middle' | 'end' }
@@ -86,12 +86,15 @@ export function DottedMap({
             </>
           )}
           {dots.map((d, i) => {
-            const col = d.color ?? accent, x = X(d.lon), y = Y(d.lat), r = d.heavy ? 6 : 5
+            const col = d.color ?? accent, x = X(d.lon), y = Y(d.lat), r = d.heavy ? 6 : 4.5
+            const tx = x + (d.anchor === 'end' ? -(d.dx ?? 11) : (d.dx ?? 11))
+            const ty = y + (d.dy ?? (d.date ? -2 : 5))
             return (
               <g key={`d${i}`}>
                 <circle cx={x} cy={y} r={r} fill={col} />
                 <circle cx={x} cy={y} r={r + 3.5} fill="none" stroke={alpha(col, 0.25)} strokeWidth={2} />
-                {d.name && <text x={x + (d.anchor === 'end' ? -(d.dx ?? 10) : (d.dx ?? 10))} y={y + (d.dy ?? 5)} fontFamily={MONO} fontSize={16} fill="var(--foreground)" textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={4}>{d.name}</text>}
+                {d.name && <text x={tx} y={ty} fontFamily={MONO} fontSize={d.heavy ? 17 : 14.5} fontWeight={d.heavy ? 700 : 500} fill="var(--foreground)" textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={6} strokeLinejoin="round">{d.name}</text>}
+                {d.date && <text x={tx} y={ty + 16} fontFamily={MONO} fontSize={12.5} fontWeight={600} fill={alpha(col, 0.95)} textAnchor={d.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={5} strokeLinejoin="round">{d.date}</text>}
               </g>
             )
           })}

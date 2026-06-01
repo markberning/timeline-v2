@@ -11,6 +11,21 @@ const WILSONS_CREEK_NARR: Record<string, Narr> = {
     eyebrow: "Wilson's Creek · The border state",
     title: 'The Fight for Missouri',
     blocks: [
+      { locator: {
+        eyebrow: 'Where and when · summer 1861',
+        caption: 'Wilson’s Creek sits in the southwest corner of Missouri, about ten miles below Springfield. It was the first big battle west of the Mississippi, fought three weeks after Bull Run in Virginia and quickly nicknamed “the Bull Run of the West.”',
+        frame: { lonMin: -96.2, lonMax: -88.4, latMin: 35.7, latMax: 40.7 },
+        states: [
+          { name: 'Missouri', tone: 'focus', label: 'MISSOURI', labelLon: -92.7, labelLat: 39.8 },
+          { name: 'Arkansas' }, { name: 'Kansas' }, { name: 'Iowa' }, { name: 'Illinois' },
+          { name: 'Kentucky' }, { name: 'Tennessee' }, { name: 'Nebraska' }, { name: 'Oklahoma' },
+        ],
+        dots: [
+          { name: 'Wilson’s Creek', date: 'Aug 10, 1861', lat: 37.10, lon: -93.41, heavy: true, anchor: 'start' },
+          { name: 'Jefferson City', lat: 38.58, lon: -92.17, color: '#8a8175', anchor: 'end' },
+          { name: 'St. Louis', lat: 38.63, lon: -90.20, color: '#8a8175', anchor: 'start' },
+        ],
+      } },
       { p: 'In the first summer of the Civil War, the fight that decided whether Missouri stayed in the United States was not fought by armies at all. It was fought in a St. Louis hotel, in the streets of that same city, and along the rivers and railroads that made Missouri worth fighting for in the first place. Missouri was a border state, a slaveholding state that had not joined the Confederacy and that Abraham Lincoln could not afford to let go. It sat on top of the Union like a keystone. Lose it, and the rebellion would push hundreds of miles north and put its hands on the Mississippi and Missouri rivers, the great water highways into the heart of the country. The man who refused to let that happen was a short, red-bearded, perpetually furious Regular Army officer named Brigadier General Nathaniel Lyon (North), and the way he refused was to start a war before anyone gave him permission to.' },
       { fig: '/war-img/cmdr/lyon.jpg', cap: 'Brig. Gen. Nathaniel Lyon (North), the fierce Union commander who seized the initiative in Missouri, and declared war on its secessionist government on his own authority.', credit: 'Period photograph · public domain' },
       { h: 'A keystone Lincoln could not lose', eyebrow: 'The border state' },
