@@ -72,7 +72,7 @@ export function ThreadBar() {
     <>
     <div style={{
       background: BAR_BG, backdropFilter: 'blur(16px) saturate(140%)', WebkitBackdropFilter: 'blur(16px) saturate(140%)',
-      borderBottom: BORDER, height: 44, boxSizing: 'border-box',
+      borderBottom: BORDER, height: 54, boxSizing: 'border-box',
     }}>
       <div style={{ maxWidth: 460, margin: '0 auto', height: '100%', display: 'flex', alignItems: 'stretch', gap: 1, padding: '0 4px' }}>
         {slots.map(s => {
@@ -81,16 +81,16 @@ export function ThreadBar() {
           const tint = s.active ? s.color : MUTED
           return (
             <a key={s.key} href={s.href} aria-current={s.active ? 'page' : undefined} aria-label={s.isHome ? s.label : undefined} style={{
-              position: 'relative', flex: s.isHome ? '0 0 auto' : 1, minWidth: 0, display: 'flex', alignItems: 'center',
-              justifyContent: 'center', gap: 5, padding: s.isHome ? '0 8px' : '0 4px',
-              textDecoration: 'none', color: 'inherit',
+              position: 'relative', flex: s.isHome ? '0 0 auto' : 1, minWidth: 0, display: 'flex',
+              flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 3,
+              padding: s.isHome ? '0 10px' : '0 4px', textDecoration: 'none', color: 'inherit',
             }}>
               <span style={{ flexShrink: 0, display: 'flex' }}>
-                {s.isHome ? <HouseIcon color={tint} size={20} /> : <Emblem kind={s.kind!} color={tint} size={20} />}
+                {s.isHome ? <HouseIcon color={tint} size={30} /> : <Emblem kind={s.kind!} color={tint} size={20} />}
               </span>
               {!s.isHome && <span style={{
-                fontFamily: SANS, fontSize: 12, fontWeight: s.active ? 700 : 500, color: tint,
-                overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                fontFamily: SANS, fontSize: 11, fontWeight: s.active ? 700 : 500, color: tint, lineHeight: 1,
+                overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '100%',
               }}>{s.label}</span>}
               {/* centred colour underline (a short indicator, not full width) */}
               {s.active && <span aria-hidden style={{ position: 'absolute', bottom: 0, left: '50%', transform: 'translateX(-50%)', width: 26, height: 3, borderRadius: '3px 3px 0 0', background: s.color }} />}

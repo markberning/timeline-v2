@@ -3,10 +3,10 @@
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { ThreadBar } from '@/components/thread-bar'
 
-// Combined height of the two pinned top tiers (ThreadBar 44 + breadcrumb row 50).
+// Combined height of the two pinned top tiers (ThreadBar 54 + breadcrumb row 50).
 // Anything that sticks BELOW the breadcrumb (the view toggle, a reader's own
 // sub-header) pins at this offset.
-export const CHROME_TOP = 94
+export const CHROME_TOP = 104
 
 // Shared chrome for the War drilldown pages (War → Theatre → Battle):
 // a consistent breadcrumb + a Timeline/Dossier view toggle at the top of
