@@ -6,6 +6,9 @@
   color-scheme: dark;
   --background: #f5f0e8;
   --surface: #f5f0e8;
+  /* the desktop "sides" — the colour behind the centred app column (a shade off the
+     content background so the thin column reads as a centred phone) */
+  --sides: #e2d7c1;
   --foreground: #171717;
   --accent: #a1a1aa;
   --accent-base-dark: #a1a1aa; /* dark-mode accent; overridden per-scope when an accent sets baseDark */
@@ -23,12 +26,13 @@
   color-scheme: dark;
   --background: #22201e;
   --surface: #2f2c29;
+  --sides: #141210;
   --foreground: #e5e5e5;
 }
 
 html.dark,
 html.dark body {
-  background-color: #22201e;
+  background-color: var(--sides);
 }
 
 /* In dark mode, use the dark-mode accent (baseDark if the accent set one,
@@ -61,9 +65,27 @@ body {
 }
 
 body {
-  background: var(--background);
+  background: var(--sides);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* The app column — every page renders inside this centred fixed-width shell so the
+   whole app is one consistent thin column on desktop (mirroring mobile), floating on
+   the --sides colour. On phones (≤ the width) it is simply full-bleed. No overflow or
+   transform here, so the in-page sticky nav bars keep working. */
+.app-shell {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  background: var(--background);
+}
+@media (min-width: 481px) {
+  .app-shell {
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--foreground) 9%, transparent),
+                0 0 60px rgba(0, 0, 0, 0.22);
+  }
 }
 
 /* Prose overrides for the reading experience */

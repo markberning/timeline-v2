@@ -49,9 +49,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-background text-foreground">
+      <body className="min-h-full flex flex-col text-foreground">
         <OfflineRegistrar />
-        {children}
+        <div className="app-shell">{children}</div>
       </body>
     </html>
   );
