@@ -7,7 +7,7 @@
 import { useState } from 'react'
 import { WarBreadcrumb, WarViewToggle, DossierSection, SANS, SERIF, WAR_OXBLOOD, WAR_ACCENT, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
 import { BattleCard } from '@/components/mode/war-battle-card'
-import { DottedMap } from '@/components/mode/dotted-map'
+import { DottedMap, type Callout, type Frame } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
 import { SPINE_NODES, majorsOf, majorCount, THEMES } from '@/lib/civil-war-roster'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
@@ -34,20 +34,113 @@ type Theatre = {
   summary: string; peakArmies?: string; casualties?: number; battlesCount?: number; commanderRotation?: string
   href?: string; kind?: 'themes'; states: string[]; labelLon: number; labelLat: number
   dots: { name: string; lat: number; lon: number; heavy?: boolean; anchor?: 'start' | 'end' }[]
+  callouts?: Callout[]
+  frame?: Frame   // zoom frame when this theatre is selected; falls back to NATIONAL_FRAME
+  geoInset?: { l?: number; r?: number; t?: number; b?: number }
+  vbHeight?: number
   events: ThEvent[]
 }
+
+// Eastern theatre — every Major battle as a leader-line callout, co-located
+// engagements grouped under one dot (Petersburg hosts four; the Spotsylvania
+// knot three). Labels fan left over the Appalachians and right onto an Atlantic
+// rail; built battles link, the four unbuilt (Five Forks, Fort Stedman, 3rd
+// Petersburg, Appomattox) are plain text.
+const E = '/war-civil-war/eastern'
+// Geo frame is tight on the states (so they fill the map); the labels live in
+// fixed screen-space side gutters (labelXFrac/labelYFrac), and geoInset reserves
+// those gutters so the zoomed map sits between them. vbHeight keeps the canvas
+// tall enough for the label spread.
+const EAST_FRAME: Frame = { lonMin: -82.8, lonMax: -72.6, latMin: 35.4, latMax: 41.4 }
+const LX = 0.215, RX = 0.66   // left / right label columns
+const EAST_CALLOUTS: Callout[] = [
+  // top row — three across the top
+  { lat: 39.46, lon: -77.74, label: 'Antietam', href: `${E}/antietam`, labelXFrac: 0.20, labelYFrac: 0.06, anchor: 'middle' },
+  { lat: 39.83, lon: -77.23, label: 'Gettysburg', href: `${E}/gettysburg`, heavy: true, labelXFrac: 0.50, labelYFrac: 0.06, anchor: 'middle' },
+  { lat: 38.30, lon: -77.46, label: 'Fredericksburg', href: `${E}/fredericksburg`, labelXFrac: RX, labelYFrac: 0.60, anchor: 'start' },
+  // left column
+  { lat: 39.18, lon: -78.16, label: 'Winchester', labelXFrac: LX, labelYFrac: 0.24, anchor: 'end',
+    sub: [{ text: '1st Winchester', href: `${E}/first-winchester` }, { text: 'Opequon (3rd)', href: `${E}/opequon` }, { text: 'Cedar Creek', href: `${E}/cedar-creek` }] },
+  { lat: 38.81, lon: -77.52, label: 'Bull Run', labelXFrac: LX, labelYFrac: 0.55, anchor: 'end',
+    sub: [{ text: '1st Bull Run', href: `${E}/bull-run` }, { text: '2nd Bull Run', href: `${E}/second-bull-run` }] },
+  { lat: 37.36, lon: -78.80, label: 'Appomattox', labelXFrac: LX, labelYFrac: 0.84, anchor: 'end' },
+  // right column
+  { lat: 38.31, lon: -77.64, label: 'Chancellorsville', href: `${E}/chancellorsville`, labelXFrac: 0.80, labelYFrac: 0.06, anchor: 'middle',
+    sub: [{ text: 'The Wilderness', href: `${E}/wilderness` }, { text: 'Spotsylvania', href: `${E}/spotsylvania` }] },
+  // lower-right corner
+  { lat: 37.55, lon: -77.30, label: "Gaines' Mill", href: `${E}/gaines-mill`, labelXFrac: 0.74, labelYFrac: 0.72, anchor: 'start',
+    sub: [{ text: 'Malvern Hill', href: `${E}/malvern-hill` }, { text: 'Cold Harbor', href: `${E}/cold-harbor` }] },
+  // bottom-center
+  { lat: 37.23, lon: -77.40, label: 'Petersburg', href: `${E}/second-petersburg`, heavy: true, labelXFrac: 0.5, labelYFrac: 0.80, anchor: 'middle',
+    sub: [{ text: 'The Crater', href: `${E}/crater` }, { text: 'Five Forks' }, { text: 'Fort Stedman · 3rd' }] },
+]
+
+// Western theatre — the river war + the drive to Atlanta and the sea. Chattanooga
+// groups its campaign (Chickamauga, Lookout Mountain, Missionary Ridge); Vicksburg
+// carries Champion Hill, Nashville carries Franklin. Bentonville (NC) and Fort
+// Blakeley (AL) are the unbuilt 1865 endgame.
+const W2 = '/war-civil-war/western'
+const WEST_FRAME: Frame = { lonMin: -91.5, lonMax: -77.5, latMin: 30.0, latMax: 38.2 }
+const WEST_CALLOUTS: Callout[] = [
+  // top row
+  { lat: 36.17, lon: -86.78, label: 'Nashville', href: `${W2}/nashville`, heavy: true, labelXFrac: 0.36, labelYFrac: 0.06, anchor: 'middle',
+    sub: [{ text: 'Franklin', href: `${W2}/franklin` }] },
+  { lat: 36.49, lon: -87.86, label: 'Fort Donelson', href: `${W2}/fort-donelson`, labelXFrac: 0.14, labelYFrac: 0.06, anchor: 'middle' },
+  { lat: 37.66, lon: -84.97, label: 'Perryville', href: `${W2}/perryville`, labelXFrac: 0.80, labelYFrac: 0.06, anchor: 'middle' },
+  // left column (the Mississippi / Tennessee river fights)
+  { lat: 35.14, lon: -88.34, label: 'Shiloh', href: `${W2}/shiloh`, labelXFrac: LX, labelYFrac: 0.34, anchor: 'end' },
+  { lat: 34.93, lon: -88.52, label: 'Corinth', href: `${W2}/corinth`, labelXFrac: LX, labelYFrac: 0.60, anchor: 'end', leaderEnd: 'left' },
+  // lower-left corner
+  { lat: 32.35, lon: -90.88, label: 'Vicksburg', href: `${W2}/vicksburg`, heavy: true, labelXFrac: 0.22, labelYFrac: 0.82, anchor: 'end', leaderEnd: 'left',
+    sub: [{ text: 'Champion Hill', href: `${W2}/champion-hill` }] },
+  // right column (the road to Chattanooga + Atlanta)
+  { lat: 35.85, lon: -86.39, label: 'Stones River', href: `${W2}/stones-river`, labelXFrac: RX, labelYFrac: 0.28, anchor: 'start' },
+  { lat: 35.02, lon: -85.30, label: 'Chattanooga', labelXFrac: RX, labelYFrac: 0.50, anchor: 'start',
+    sub: [{ text: 'Chickamauga', href: `${W2}/chickamauga` }, { text: 'Lookout Mountain', href: `${W2}/lookout-mountain` }, { text: 'Missionary Ridge', href: `${W2}/missionary-ridge` }] },
+  { lat: 33.52, lon: -84.35, label: 'Jonesborough', href: `${W2}/jonesborough`, labelXFrac: RX, labelYFrac: 0.84, anchor: 'start' },
+  // far-east + deep-south endgame (unbuilt)
+  { lat: 35.30, lon: -78.32, label: 'Bentonville', labelXFrac: 0.92, labelYFrac: 0.44, anchor: 'end' },
+  { lat: 30.73, lon: -87.92, label: 'Fort Blakeley', labelXFrac: 0.42, labelYFrac: 0.92, anchor: 'middle' },
+]
+
+// Trans-Mississippi — the vast war west of the river, from the Missouri border
+// fights down to the Louisiana bayous and out to the New Mexico desert (Glorieta).
+const T2 = '/war-civil-war/trans-mississippi'
+const TMIS_FRAME: Frame = { lonMin: -107, lonMax: -87, latMin: 29.0, latMax: 40.0 }
+const TMIS_CALLOUTS: Callout[] = [
+  { lat: 39.01, lon: -94.59, label: 'Westport', labelXFrac: 0.50, labelYFrac: 0.07, anchor: 'middle' },
+  { lat: 36.38, lon: -89.46, label: 'Island No. Ten', href: `${T2}/island-number-ten`, labelXFrac: 0.80, labelYFrac: 0.62, anchor: 'middle' },
+  { lat: 37.10, lon: -93.41, label: "Wilson's Creek", href: `${T2}/wilsons-creek`, labelXFrac: 0.55, labelYFrac: 0.30, anchor: 'end' },
+  { lat: 36.45, lon: -94.03, label: 'Pea Ridge', href: `${T2}/pea-ridge`, labelXFrac: 0.55, labelYFrac: 0.50, anchor: 'end' },
+  { lat: 35.57, lon: -105.74, label: 'Glorieta Pass', href: `${T2}/glorieta-pass`, labelXFrac: 0.16, labelYFrac: 0.42, anchor: 'start' },
+  { lat: 32.04, lon: -93.70, label: 'Mansfield', href: `${T2}/mansfield`, labelXFrac: 0.58, labelYFrac: 0.74, anchor: 'start' },
+  { lat: 30.69, lon: -91.27, label: 'Port Hudson', href: `${T2}/port-hudson`, labelXFrac: 0.58, labelYFrac: 0.90, anchor: 'start' },
+]
+
+// Naval & Coastal — the blockade, strung along the whole Confederate coast from
+// the Mississippi mouth to the Carolinas.
+const N2 = '/war-civil-war/naval'
+const NAVAL_FRAME: Frame = { lonMin: -91, lonMax: -76, latMin: 28.2, latMax: 35.4 }
+const NAVAL_CALLOUTS: Callout[] = [
+  { lat: 33.97, lon: -77.92, label: 'Fort Fisher', labelXFrac: 0.82, labelYFrac: 0.14, anchor: 'middle' },
+  { lat: 32.75, lon: -79.87, label: 'Fort Sumter', href: `${N2}/fort-sumter`, heavy: true, labelXFrac: 0.74, labelYFrac: 0.46, anchor: 'start' },
+  { lat: 30.23, lon: -88.02, label: 'Mobile Bay', href: `${N2}/mobile-bay`, labelXFrac: 0.34, labelYFrac: 0.86, anchor: 'middle' },
+  { lat: 29.35, lon: -89.46, label: 'Forts Jackson & St. Philip', href: `${N2}/forts-jackson`, labelXFrac: 0.10, labelYFrac: 0.93, anchor: 'start' },
+]
+
 const THEATRE_DATA: Theatre[] = [
   {
     id: 'east', name: 'Eastern', longName: 'Eastern Theatre', color: ACCENTS.violet, span: '1861–1865',
     region: 'Virginia · Maryland · Pennsylvania', summary: 'The political war. Between the two capitals, Lee was at his best — and where the war finally ended.',
     peakArmies: '120k vs 75k', casualties: 230000, battlesCount: majorCount('east'), commanderRotation: 'Seven Union commanders, then Grant',
-    href: '/war-civil-war/eastern', states: ['Virginia', 'Maryland', 'Pennsylvania'], labelLon: -78.0, labelLat: 40.6,
+    href: '/war-civil-war/eastern', states: ['Virginia', 'Maryland', 'Pennsylvania'], labelLon: -79.3, labelLat: 38.5,
     dots: [
       { name: 'Gettysburg', lat: 39.83, lon: -77.23, heavy: true, anchor: 'end' },
       { name: 'Antietam', lat: 39.46, lon: -77.74, anchor: 'end' },
       { name: 'Bull Run', lat: 38.81, lon: -77.52, anchor: 'end' },
       { name: 'Petersburg', lat: 37.23, lon: -77.40, anchor: 'end' },
     ],
+    callouts: EAST_CALLOUTS, frame: EAST_FRAME,
     events: majorsOf('east').map(b => ({ mo: b.mo, year: b.year, name: b.name, place: b.place, heavy: b.size === 'l' || b.size === 'xl', href: b.href })),
   },
   {
@@ -55,6 +148,7 @@ const THEATRE_DATA: Theatre[] = [
     region: 'Kentucky · Tennessee · Mississippi · Georgia', summary: 'Where the Union actually won the war. Grant took the rivers and split the Confederacy in two.',
     peakArmies: '110k vs 80k', casualties: 195000, battlesCount: majorCount('west'), commanderRotation: 'Grant rises, then Sherman',
     href: '/war-civil-war/western', states: ['Kentucky', 'Tennessee', 'Mississippi', 'Georgia', 'Alabama'], labelLon: -86.4, labelLat: 34.3,
+    frame: WEST_FRAME, callouts: WEST_CALLOUTS,
     dots: [
       { name: 'Shiloh', lat: 35.14, lon: -88.34, anchor: 'end' },
       { name: 'Vicksburg', lat: 32.35, lon: -90.88, heavy: true, anchor: 'end' },
@@ -68,6 +162,7 @@ const THEATRE_DATA: Theatre[] = [
     region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
     peakArmies: '30k vs 20k', casualties: 30000, battlesCount: majorCount('tmis'), commanderRotation: 'Mostly forgotten',
     href: '/war-civil-war/trans-mississippi', states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
+    frame: TMIS_FRAME, callouts: TMIS_CALLOUTS,
     dots: [
       { name: 'Pea Ridge', lat: 36.45, lon: -94.03, anchor: 'end' },
       { name: 'Mansfield', lat: 32.04, lon: -93.70, anchor: 'end' },
@@ -79,6 +174,7 @@ const THEATRE_DATA: Theatre[] = [
     region: 'Atlantic · Gulf · the Mississippi', summary: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.',
     peakArmies: '700+ ships', casualties: 10000, battlesCount: majorCount('naval'), commanderRotation: 'Farragut, Porter, Du Pont',
     href: '/war-civil-war/naval', states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
+    frame: NAVAL_FRAME, callouts: NAVAL_CALLOUTS,
     dots: [
       { name: 'Fort Fisher', lat: 33.97, lon: -77.92 },
       { name: 'Mobile Bay', lat: 30.4, lon: -88.04, anchor: 'end' },
@@ -98,7 +194,9 @@ const THEATRE_DATA: Theatre[] = [
 ]
 // Non-theatre fill states (dotted, always faint) so the map reads as the US.
 const CONTEXT_STATES = ['West Virginia', 'Ohio', 'Indiana', 'Illinois', 'New Jersey', 'Delaware', 'Oklahoma', 'Kansas', 'Iowa', 'Wisconsin', 'Michigan', 'New York', 'Minnesota']
-const US_FRAME = { lonMin: -96.5, lonMax: -75, latMin: 28.8, latMax: 42.1 }
+// The overview (nothing selected): the whole war at a glance. Selecting a
+// theatre swaps in that theatre's own zoom frame (Theatre.frame).
+const NATIONAL_FRAME = { lonMin: -96.5, lonMax: -74, latMin: 28.8, latMax: 42.3 }
 
 const CORD_X = 56
 
@@ -187,8 +285,11 @@ function WarGlance() {
 // in its colour, the active one lit), a segmented control, and the active
 // theatre's dossier panel + engagement list.
 function TheatresInteractive() {
-  const [active, setActive] = useState('east')
-  const at = THEATRE_DATA.find(t => t.id === active)!
+  // null = overview (full map, no dots/labels); selecting a theatre zooms in and
+  // reveals its dots + callouts. Tapping the active theatre again returns to the
+  // overview.
+  const [active, setActive] = useState<string | null>(null)
+  const at = active ? THEATRE_DATA.find(t => t.id === active) ?? null : null
   const off = THEATRE_DATA.find(t => t.kind === 'themes')!
   const muted = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
   const faint = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
@@ -199,27 +300,39 @@ function TheatresInteractive() {
   const states = [
     ...CONTEXT_STATES.map(n => ({ name: n, tone: 'faint' as const })),
     ...THEATRE_DATA.flatMap(t => t.states.map((n, i) => ({
-      name: n, color: t.color, tone: (t.id === active ? 'focus' : 'faint') as 'focus' | 'faint',
-      ...(i === 0 ? { label: t.name.toUpperCase(), labelLon: t.labelLon, labelLat: t.labelLat } : {}),
+      name: n, color: t.color, tone: (t.id === active ? 'focus' : 'faint') as 'focus' | 'faint', fill: t.id === active,
+      // Names appear ONLY in the overview. Once a theatre is selected we zoom in
+      // and the battle callouts carry the labelling — neighbouring theatre names
+      // (e.g. "WESTERN" bleeding onto the Eastern map) just add noise.
+      ...(i === 0 && !active ? { label: t.name.toUpperCase(), labelLon: t.labelLon, labelLat: t.labelLat } : {}),
     }))),
   ]
-  const dots = THEATRE_DATA.flatMap(t => t.dots.map(d => ({
-    ...d, color: t.id === active ? t.color : alpha(t.color, 0.16), name: t.id === active ? d.name : undefined,
-  })))
+  // Overview = no dots/callouts at all. Selected = that theatre's callouts (or
+  // its labeled dots as a fallback) plus the neighbours as faint context dots.
+  const dots = at ? [
+    ...THEATRE_DATA.filter(t => t.id !== active).flatMap(t => t.dots.map(d => ({ lat: d.lat, lon: d.lon, color: alpha(t.color, 0.16) }))),
+    // a theatre with callouts draws its own dots in the callout layer; otherwise
+    // its hand-picked labeled dots.
+    ...(at.callouts ? [] : at.dots.map(d => ({ ...d, color: at.color }))),
+  ] : []
+  const callouts = at?.callouts ?? []
+  const frame = at?.frame ?? NATIONAL_FRAME
+  const mapAccent = at?.color ?? ACCENTS.violet
   // the Mississippi (real course) anchors the map; brighten it only with Western/Trans-Miss/Naval up
   const rivers = US_RIVERS.Mississippi.map(pts => ({ pts }))
 
   return (
     <DossierSection label="The theatres" accent={ACCENTS.violet}>
       <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: muted, margin: '0 0 12px' }}>
-        The war ran in parallel across four theatres — plus everything that happened off the battlefield. Tap one to light it up.
+        The war ran in parallel across four theatres — plus everything that happened off the battlefield. Tap one to zoom in and light up its battles.
       </p>
-      <DottedMap inset={false} accent={at.color} frame={US_FRAME} states={states} dots={dots} rivers={rivers} vbWidth={760} />
+      {/* Every selected theatre renders into the SAME 760×590 canvas (frame fit to box). */}
+      <DottedMap inset={false} accent={mapAccent} frame={frame} states={states} dots={dots} callouts={callouts} rivers={rivers} vbWidth={760} vbHeight={active ? 590 : undefined} geoInset={at?.geoInset} />
       <div style={{ display: 'flex', gap: 4, padding: 3, marginTop: 12, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
         {THEATRE_DATA.filter(t => t.kind !== 'themes').map(t => {
           const on = t.id === active
           return (
-            <button key={t.id} onClick={() => setActive(t.id)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 600 : 500, padding: '7px 0', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
+            <button key={t.id} onClick={() => setActive(on ? null : t.id)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 600 : 500, padding: '7px 0', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
               <span style={{ width: 7, height: 7, borderRadius: 2, background: t.color, opacity: on ? 1 : 0.6 }} />
               {t.name}
             </button>
@@ -227,11 +340,16 @@ function TheatresInteractive() {
         })}
       </div>
       {/* The fifth lane sits apart — it isn't a place. */}
-      <button onClick={() => setActive(off.id)} style={{ width: '100%', marginTop: 8, appearance: 'none', cursor: 'pointer', background: active === off.id ? alpha(off.color, 0.12) : chip, color: active === off.id ? 'var(--foreground)' : muted, border: `1px solid ${active === off.id ? alpha(off.color, 0.5) : border}`, borderRadius: 999, fontFamily: SANS, fontSize: 11, fontWeight: active === off.id ? 700 : 500, padding: '8px 0', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7 }}>
+      <button onClick={() => setActive(active === off.id ? null : off.id)} style={{ width: '100%', marginTop: 8, appearance: 'none', cursor: 'pointer', background: active === off.id ? alpha(off.color, 0.12) : chip, color: active === off.id ? 'var(--foreground)' : muted, border: `1px solid ${active === off.id ? alpha(off.color, 0.5) : border}`, borderRadius: 999, fontFamily: SANS, fontSize: 11, fontWeight: active === off.id ? 700 : 500, padding: '8px 0', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7 }}>
         <span style={{ width: 7, height: 7, borderRadius: 2, background: off.color, opacity: active === off.id ? 1 : 0.6 }} />
         {off.name}
         <span style={{ fontFamily: SANS, fontSize: 9, color: faint, fontWeight: 500 }}>· the war beyond the battles</span>
       </button>
+      {!at ? (
+        <div style={{ marginTop: 14, border: `1px solid ${border}`, borderRadius: 10, padding: '18px 16px', background: card, textAlign: 'center', fontFamily: SERIF, fontSize: 14, color: muted }}>
+          Tap a theatre above to zoom into its battles.
+        </div>
+      ) : (
       <div style={{ marginTop: 14, border: `1px solid ${alpha(at.color, 0.4)}`, borderRadius: 10, padding: 16, background: card }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <span style={{ width: 10, height: 10, borderRadius: 2, background: at.color, boxShadow: `0 0 0 3px ${alpha(at.color, 0.2)}`, flexShrink: 0 }} />
@@ -272,6 +390,7 @@ function TheatresInteractive() {
           </div>
         </div>
       </div>
+      )}
     </DossierSection>
   )
 }

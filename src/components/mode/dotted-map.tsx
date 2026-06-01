@@ -15,25 +15,53 @@ export type Frame = { lonMin: number; lonMax: number; latMin: number; latMax: nu
 export type Tone = 'focus' | 'gray' | 'faint'
 // `color` overrides the tone palette for multi-theatre maps (each theatre its
 // own colour); tone then just sets emphasis: 'focus' = bright, 'faint' = dim.
-export type StateSpec = { name: string; tone?: Tone; color?: string; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }
+export type StateSpec = { name: string; tone?: Tone; color?: string; fill?: boolean; label?: string; labelLon?: number; labelLat?: number; labelSize?: number }
 export type Dot = { name?: string; date?: string; lat: number; lon: number; anchor?: 'start' | 'end'; dx?: number; dy?: number; heavy?: boolean; color?: string }
+// A leader-line callout: a dot at the true site, its label floated into open
+// space and joined by a thin leader. `sub` lists co-located engagements (one per
+// line). Any label/sub line with an href becomes a tappable link to that page.
+export type Callout = {
+  lat: number; lon: number; label: string; href?: string; color?: string; heavy?: boolean
+  // label position: geographic (labelLon/labelLat) OR screen-space as a fraction
+  // of the viewBox (labelXFrac/labelYFrac) so labels can live in fixed side
+  // gutters while the map zooms independently. Frac wins when provided.
+  labelLon?: number; labelLat?: number; labelXFrac?: number; labelYFrac?: number; anchor?: 'start' | 'end' | 'middle'
+  leaderEnd?: 'left' | 'right'   // force the leader to a specific end of the label (else nearest the dot)
+  sub?: { text: string; href?: string }[]
+}
 export type Capital = { name: string; lat: number; lon: number; dx?: number; dy?: number; anchor?: 'start' | 'end' }
 export type Corridor = { fromLon: number; fromLat: number; toLon: number; toLat: number; label?: string; labelLon?: number; labelLat?: number; labelAnchor?: 'start' | 'end'; dashed?: boolean }
 export type River = { pts: [number, number][]; label?: string; labelLon?: number; labelLat?: number; labelAnchor?: 'start' | 'middle' | 'end' }
 export type FreeLabel = { text: string; lon: number; lat: number; kind?: 'accent' | 'water' | 'faint'; size?: number; anchor?: 'start' | 'middle' | 'end' }
 
 export function DottedMap({
-  eyebrow, caption, accent, frame, states, dots = [], capitals = [], corridor, rivers = [], labels = [], vbWidth = 680, inset = true,
+  eyebrow, caption, accent, frame, states, dots = [], capitals = [], corridor, rivers = [], labels = [], callouts = [], vbWidth = 680, vbHeight, geoInset, inset = true,
 }: {
   eyebrow?: string; caption?: string; accent: string; frame: Frame
-  states: StateSpec[]; dots?: Dot[]; capitals?: Capital[]; corridor?: Corridor; rivers?: River[]; labels?: FreeLabel[]; vbWidth?: number; inset?: boolean
+  states: StateSpec[]; dots?: Dot[]; capitals?: Capital[]; corridor?: Corridor; rivers?: River[]; labels?: FreeLabel[]; callouts?: Callout[]; vbWidth?: number; vbHeight?: number; geoInset?: { l?: number; r?: number; t?: number; b?: number }; inset?: boolean
 }) {
   const { lonMin, lonMax, latMin, latMax } = frame
   const midLat = (latMin + latMax) / 2, kx = Math.cos(midLat * Math.PI / 180), pad = 24
   const rawW = (lonMax - lonMin) * kx, rawH = (latMax - latMin)
-  const W = vbWidth, scale = (W - 2 * pad) / rawW, H = Math.round(rawH * scale + 2 * pad)
-  const X = (lon: number) => pad + (lon - lonMin) * kx * scale
-  const Y = (lat: number) => pad + (latMax - lat) * scale
+  const W = vbWidth
+  let H: number, X: (lon: number) => number, Y: (lat: number) => number
+  if (geoInset || vbHeight) {
+    // Draw the geographic content inside an inset box (leaving gutters for
+    // callout labels), fit-to-box preserving aspect; viewBox height is explicit.
+    const gl = (geoInset?.l ?? 0) * W, gr = (geoInset?.r ?? 0) * W
+    H = vbHeight ?? Math.round(rawH * ((W - gl - gr) / rawW) + 2 * pad)
+    const gt = (geoInset?.t ?? 0) * H, gb = (geoInset?.b ?? 0) * H
+    const bw = W - gl - gr, bh = H - gt - gb
+    const s = Math.min(bw / rawW, bh / rawH)
+    const ox = gl + (bw - rawW * s) / 2, oy = gt + (bh - rawH * s) / 2
+    X = (lon: number) => ox + (lon - lonMin) * kx * s
+    Y = (lat: number) => oy + (latMax - lat) * s
+  } else {
+    const scale = (W - 2 * pad) / rawW
+    H = Math.round(rawH * scale + 2 * pad)
+    X = (lon: number) => pad + (lon - lonMin) * kx * scale
+    Y = (lat: number) => pad + (latMax - lat) * scale
+  }
 
   const FG = (a: number) => `color-mix(in srgb, var(--foreground) ${Math.round(a * 100)}%, transparent)`
   const GRAY = FG(0.42), FAINT = FG(0.22), GRID = FG(0.045)
@@ -62,7 +90,7 @@ export function DottedMap({
           {vlines.map(lo => <line key={`v${lo}`} x1={X(lo)} y1={0} x2={X(lo)} y2={H} stroke={GRID} strokeWidth={1} />)}
           {hlines.map(la => <line key={`h${la}`} x1={0} y1={Y(la)} x2={W} y2={Y(la)} stroke={GRID} strokeWidth={1} />)}
           {ordered.map(st => (
-            <path key={st.name} d={stateD(st.name)} fill="none" stroke={toneStroke(st.tone, st.color)} strokeWidth={st.tone === 'focus' ? 2 : 1.7} strokeDasharray={dash} strokeLinecap="round" strokeLinejoin="round" />
+            <path key={st.name} d={stateD(st.name)} fill={st.fill ? alpha(st.color ?? accent, 0.1) : 'none'} stroke={toneStroke(st.tone, st.color)} strokeWidth={st.tone === 'focus' ? 2 : 1.7} strokeDasharray={dash} strokeLinecap="round" strokeLinejoin="round" />
           ))}
           {rivers.map((rv, i) => {
             const d = rv.pts.map((p, j) => (j ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1)).join(' ')
@@ -104,6 +132,52 @@ export function DottedMap({
               <g key={`c${i}`}>
                 <rect x={x - 6} y={y - 6} width={12} height={12} rx={2} fill="var(--foreground)" stroke="var(--background)" strokeWidth={1.5} />
                 <text x={x + (c.anchor === 'end' ? -(c.dx ?? 11) : (c.dx ?? 11))} y={y + (c.dy ?? 5)} fontFamily={MONO} fontSize={17} fontWeight={700} fill="var(--foreground)" textAnchor={c.anchor ?? 'start'} style={{ paintOrder: 'stroke' }} stroke="var(--background)" strokeWidth={4}>{c.name}</text>
+              </g>
+            )
+          })}
+          {callouts.map((c, i) => {
+            const col = c.color ?? accent, r = c.heavy ? 6 : 4.5
+            const dx = X(c.lon), dy = Y(c.lat)
+            const lx = c.labelXFrac != null ? c.labelXFrac * W : X(c.labelLon!)
+            const ly = c.labelYFrac != null ? c.labelYFrac * H : Y(c.labelLat!)
+            const anchor = c.anchor ?? 'start'
+            // leader meets whichever horizontal END of the label is nearer the dot
+            // (its center for a top-row middle label) — so the line touches the
+            // first letter when the dot sits off the label's leading edge.
+            const mainW = c.label.length * 22 * 0.62
+            const lEnd = anchor === 'end' ? lx - mainW : lx
+            const rEnd = anchor === 'end' ? lx : lx + mainW
+            const gx = anchor === 'middle' ? lx
+              : c.leaderEnd === 'left' ? lEnd - 4
+              : c.leaderEnd === 'right' ? rEnd + 4
+              : (Math.abs(dx - lEnd) <= Math.abs(dx - rEnd) ? lEnd - 4 : rEnd + 4)
+            const linkText = (text: string, y: number, href: string | undefined, main: boolean) => {
+              const fs = main ? 22 : 18
+              // links read as links: accent colour + underline. Plain text (group
+              // headers, unbuilt battles) stays foreground with no underline.
+              const t = (
+                <text x={lx} y={y} fontFamily={MONO} fontSize={fs} fontWeight={main ? 700 : 600} fill={href ? col : 'var(--foreground)'} textAnchor={anchor} style={{ paintOrder: 'stroke', cursor: href ? 'pointer' : 'default', textDecoration: href ? 'underline' : 'none', textUnderlineOffset: 3 }} stroke="var(--background)" strokeWidth={main ? 5.5 : 4.8} strokeLinejoin="round">{text}</text>
+              )
+              if (!href) return t
+              // a transparent oversized rect makes the whole label a comfortable
+              // touch target, not just the thin glyphs.
+              const textW = text.length * fs * 0.62
+              const rx = anchor === 'end' ? lx - textW - 10 : anchor === 'middle' ? lx - textW / 2 - 10 : lx - 10
+              return (
+                <a href={href} style={{ cursor: 'pointer' }}>
+                  <rect x={rx} y={y - fs + 1} width={textW + 20} height={fs + (main ? 14 : 8)} fill="transparent" />
+                  {t}
+                </a>
+              )
+            }
+            return (
+              <g key={`co${i}`}>
+                <line x1={dx} y1={dy} x2={gx} y2={ly} stroke={alpha(col, 0.55)} strokeWidth={1.2} />
+                <circle cx={dx} cy={dy} r={r} fill={col} />
+                <circle cx={dx} cy={dy} r={r + 3.5} fill="none" stroke={alpha(col, 0.25)} strokeWidth={2} />
+                <circle cx={gx} cy={ly} r={1.6} fill={alpha(col, 0.7)} />
+                {linkText(c.label, ly, c.href, true)}
+                {(c.sub ?? []).map((s, j) => linkText(s.text, ly + 29 + j * 37, s.href, false))}
               </g>
             )
           })}
