@@ -231,10 +231,28 @@ draft is not done). Full rationale: `memory/feedback_war_voice_restraint`,
    2026-05-22** — clean modern cartography: pale ground, muted sage woods, pale-
    gold fields, light-blue water, gray roads/towns; forces as crisp rectangular
    **unit blocks** (blue Union / rust Confederate) or a bold band on wide overviews;
-   bold smooth arrows; clean sans labels with a white halo. This **replaced the
+   bold smooth arrows; clean sans labels in **dark filled glyphs with a thin
+   background-colour halo and NO white box/pill** (see 6b). This **replaced the
    old flat-tan schematic** (it read "awfully plain"). The full rules live in each
-   war's prompt-file preamble (`map-prompts/war/<war>.md`) — copy that preamble
-   verbatim for a new war. Generate with `scripts/generate-war-maps.mjs`.
+   war's prompt-file preamble (`map-prompts/war/<war>.md`); the **canonical no-box
+   preamble to copy forward is `map-prompts/war/wilsons-creek.md`** (its rule 4 is
+   the locked no-white-box label style — older battle files still carry the retired
+   white-pill wording and are a backlog sweep). Generate with
+   `scripts/generate-war-maps.mjs`.
+6a. **Establishing / locator map — every battle dossier OPENS with one (locked
+   2026-06-01, Wilson's Creek pilot).** Before the tactical close-ups, the first
+   section opens with a zoomed-out "where are we" shot so the reader is oriented
+   before any troop arrows. It is NOT a Gemini PNG — it's an inline
+   `{ locator: {...} }` Block in `battle-reader.tsx` that renders `<DottedMap>` (SVG,
+   real state outlines from `us-state-outlines.ts`, theme-aware, no API cost).
+   **Default = the battle's state view:** the state focus-toned + name-labeled, the
+   battle as a heavy accent dot carrying `Dot.date` (title + date stacked beneath
+   it), and the in-PROSE reference cities as muted gray dots; frame to the state +
+   immediate neighbours. A wider **national "where + when + concurrent action"**
+   framing (the battle + a concurrent dated battle elsewhere) is an OPTION only where
+   simultaneity is a real story beat — not the default. Same no-box label style as
+   the schematic maps (filled text + background-colour halo). Reference config:
+   the Wilson's Creek `fight-for-missouri` opener.
 6b. **Map review — a GATE with a HARD REGEN CAP, not a glance (hardened
    2026-05-30, user directive).** Every generated map is reviewed like the fact-
    checker reviews prose — for **accuracy first**, not just label hygiene. A
@@ -253,10 +271,15 @@ draft is not done). Full rationale: `memory/feedback_war_voice_restraint`,
      PROSE names appears, labeled, on one of the battle's maps — and nothing is
      labeled that the prose doesn't use. Labels spelled EXACTLY as the prose
      spells them.
-   - **Legibility:** bold near-black glyphs on a SOLID WHITE pill — never thin /
-     gray / faint text floating on terrain, never outlined / hollow / stroked-only
-     letterforms (the **Glorieta** failure). ≤6 labels, no colour words
-     (BLUE/RUST) as labels, no garbled glyphs.
+   - **Legibility (no-box style, locked 2026-06-01).** Bold near-black, SOLID-FILLED
+     glyphs placed DIRECTLY ON THE MAP over open pale ground, with only a thin soft
+     cream halo (a narrow background-colour outline) hugging the letters — **NO filled
+     white box, pill, sticker, or rounded rectangle behind any label** (the user: the
+     white box "is a bit too much"). Never thin / gray / faint text, never outlined /
+     hollow / stroked-only letterforms (the **Glorieta** failure). ≤6 labels, no colour
+     words (BLUE/RUST) as labels, no garbled glyphs. The white-pill instruction in older
+     `map-prompts/war/*.md` files is RETIRED — the canonical preamble is
+     `wilsons-creek.md` rule 4.
    - **Density:** a map at EVERY geographic beat — typically **2–3 narrative-
      matched maps per battle** (a strategic/overview map + tactical maps), not one.
      See `memory/feedback_war_maps_dense_legible`.
@@ -283,6 +306,7 @@ The reader + dossier are shared components — a new battle is mostly a data fil
 
 **Per-section reader** (`<theatre>/<slug>/s/[section]`, data → `<BattleSectionReader>`):
 - Section data in the shared shape; **a section's `eyebrow` must NOT repeat its `title`** (the kicker is a distinct phase label, e.g. "Lee invades the North", not "The Lost Order").
+- **The opening section leads with a `{ locator }` establishing map** (DottedMap state view — step 6a) BEFORE its prose, so the reader is oriented before the first tactical map.
 - The prose blocks; a **tactical map** AND **period photo(s) where they exist** (PD), credit UNDER each; the Meanwhile card; the next-section link.
 
 **Battle dossier** (`<theatre>/<slug>/page.tsx`):
