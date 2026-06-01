@@ -221,17 +221,14 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   // menu like before). This is what lets you tap "ACW" to reach the ACW home
   // without first opening the dropdown.
   const canSplit = !!crumb.href && !emphasized
-  // When split, the LABEL also wears its own chip so the crumb visibly reads as
-  // two adjacent buttons (name-pill + arrow-pill) separated by a gap — making it
-  // unmistakable that they are two separate things to tap.
+  // The label stays plain text (the link). When split, a short vertical divider
+  // separates it from the ▾, which sits in its own stone circle — so the two read
+  // as distinct: tap the name to go there, tap the stone dot to open the menu.
   const labelStyle: React.CSSProperties = {
     overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
     maxWidth: maxLabel, minWidth: 0, fontFamily: SANS, fontSize: 11.5, fontWeight: weight, color,
     textDecoration: 'none', appearance: 'none', cursor: 'pointer',
-    ...(canSplit
-      ? { padding: '3px 8px', height: 24, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center',
-          border: `1px solid ${alpha('#888', 0.30)}`, borderRadius: 7, background: alpha('#888', 0.12) }
-      : { padding: '2px 1px', border: 'none', background: 'transparent' }),
+    padding: '2px 1px', border: 'none', background: 'transparent',
   }
   const chevron = (
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
@@ -243,15 +240,14 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
       {canSplit
         ? <a href={crumb.href} style={labelStyle}>{label}</a>
         : <button onClick={() => setOpen(o => !o)} aria-expanded={open} style={{ ...labelStyle, display: 'inline-flex', alignItems: 'center' }}>{label}</button>}
-      {/* when the label is its own link, set the ▾ apart as a clearly separate,
-          generous tap target: its own tinted rounded chip beside the label so
-          it reads unmistakably as "open the menu". */}
+      {/* short vertical divider between the link text and the arrow dot */}
+      {canSplit && <span aria-hidden style={{ flexShrink: 0, width: 1, height: 14, margin: '0 5px', background: alpha('#888', 0.34) }} />}
+      {/* the ▾ in its own stone circle — a distinct, tappable "open the menu" dot */}
       <button onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`${label} menu`} style={{
-        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, appearance: 'none', cursor: 'pointer', color,
-        marginLeft: canSplit ? 6 : 1,
-        minWidth: 28, height: 24, padding: '0 4px',
-        border: canSplit ? `1px solid ${alpha('#888', 0.30)}` : 'none',
-        borderRadius: 7, background: canSplit ? alpha('#888', open ? 0.22 : 0.12) : 'transparent',
+        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, appearance: 'none', cursor: 'pointer',
+        marginLeft: canSplit ? 0 : 1, width: 24, height: 24, padding: 0, border: 'none', borderRadius: 999,
+        color: canSplit ? 'var(--foreground)' : color,
+        background: canSplit ? alpha(WAR_ACCENT, open ? 0.48 : 0.28) : 'transparent',
       }}>
         {chevron}
       </button>
