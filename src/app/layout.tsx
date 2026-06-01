@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Lora } from "next/font/google";
 import "./globals.css";
 import { OfflineRegistrar } from "@/components/offline-registrar";
+import { GlobalImageZoom } from "@/components/global-image-zoom";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -52,6 +53,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col text-foreground">
         <OfflineRegistrar />
         <div className="app-shell">{children}</div>
+        <GlobalImageZoom />
       </body>
     </html>
   );

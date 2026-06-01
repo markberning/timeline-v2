@@ -114,7 +114,7 @@ export function EventSheet({ event, onClose, onInnerLinkClick }: EventSheetProps
 
           {/* Photo — inset, after the title */}
           {showImage && (
-            <figure className="mt-3">
+            <figure className="mt-3" data-no-zoom>
               <div
                 className="relative bg-foreground/5 rounded-lg cursor-pointer overflow-hidden"
                 onClick={() => setShowLightbox(true)}

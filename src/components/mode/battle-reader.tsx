@@ -162,7 +162,7 @@ export function BattleSectionReader({
               </a>
             )
             if ('fig' in b) return (
-              <figure key={i} style={{ margin: '20px 0' }}>
+              <figure key={i} style={{ margin: '20px 0' }} data-no-zoom>
                 <div
                   onClick={figFailed[i] ? undefined : () => setLb({ src: b.fig, cap: b.cap })}
                   style={{ borderRadius: 6, overflow: 'hidden', background: 'color-mix(in srgb, var(--foreground) 5%, transparent)', border: '1px solid color-mix(in srgb, var(--foreground) 10%, transparent)', cursor: figFailed[i] ? 'default' : 'zoom-in' }}>

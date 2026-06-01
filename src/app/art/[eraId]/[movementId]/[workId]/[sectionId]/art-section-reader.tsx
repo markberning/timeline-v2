@@ -67,7 +67,7 @@ function PaintingFigure({ imageUrl, palette, alt, caption, rights, ratio = '4/5'
   const [failed, setFailed] = useState(false)
   const captionText = typeof caption === 'string' ? caption : alt
   return (
-    <figure style={{ margin: '20px 0 18px', padding: 0 }}>
+    <figure style={{ margin: '20px 0 18px', padding: 0 }} data-no-zoom>
       <div
         onClick={onZoom && !failed ? () => onZoom(imageUrl, captionText) : undefined}
         style={{ position: 'relative', borderRadius: 8, overflow: 'hidden', background: failed ? `linear-gradient(135deg, ${palette[0]}, ${palette[1]} 55%, ${palette[2]})` : palette[2], aspectRatio: failed ? ratio : undefined, cursor: onZoom && !failed ? 'zoom-in' : 'default' }}
