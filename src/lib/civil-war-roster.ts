@@ -168,17 +168,18 @@ export const theatreSpine = (t: Theatre) =>
 export interface SpineNode {
   id: string; phase: string; type: SpineType; size: Size
   name: string; short?: string; date: string; sub?: string; hook?: string; href?: string; img?: string; stack?: boolean
+  theatre?: Theatre | 'offfield'   // for the home timeline's per-theatre filter
 }
 const phaseOfYear = (y: number): string =>
   y <= 1860 ? 'causes' : y === 1861 ? 'outbreak' : y === 1862 ? 'hard' : y === 1863 ? 'turning' : 'total'
 
 export const SPINE_NODES: SpineNode[] = [
   ...THEMES.map<SpineNode & { _s: number }>(t => ({
-    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, short: t.short, date: t.date, hook: t.hook, href: t.href, img: t.img, stack: t.stack, _s: t.year * 100 + t.m,
+    id: t.id, phase: t.phase, type: t.type, size: t.size, name: t.name, short: t.short, date: t.date, hook: t.hook, href: t.href, img: t.img, stack: t.stack, theatre: 'offfield', _s: t.year * 100 + t.m,
   })),
   ...MAJORS.map<SpineNode & { _s: number }>(b => ({
     id: b.id, phase: phaseOfYear(b.year), type: 'BATTLE', size: b.size, name: b.name, short: b.short, hook: b.hook,
-    date: `${b.mo} ${b.year}`, sub: `${b.place} · ${THEATRE_LABEL[b.theatre]}`, href: b.href, img: b.img, stack: true, _s: b.year * 100 + b.m,
+    date: `${b.mo} ${b.year}`, sub: `${b.place} · ${THEATRE_LABEL[b.theatre]}`, href: b.href, img: b.img, stack: true, theatre: b.theatre, _s: b.year * 100 + b.m,
   })),
 ]
   .sort((a, b) => a._s - b._s)

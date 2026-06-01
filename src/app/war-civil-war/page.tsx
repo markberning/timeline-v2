@@ -4,12 +4,12 @@
 // battles; Dossier view = "At a glance" + the theatres of the war. Both under
 // the shared breadcrumb + Timeline/Dossier toggle. Preview, sample content.
 
-import { useState } from 'react'
-import { WarBreadcrumb, WarViewToggle, DossierSection, SANS, SERIF, WAR_OXBLOOD, WAR_ACCENT, ACCENTS, alpha, useWarView } from '@/components/mode/war-chrome'
-import { BattleCard } from '@/components/mode/war-battle-card'
+import { useState, useEffect } from 'react'
+import { WarBreadcrumb, DossierSection, SANS, SERIF, WAR_OXBLOOD, WAR_ACCENT, ACCENTS, alpha, CHROME_TOP } from '@/components/mode/war-chrome'
+import { BattleCard, CordTimeline, CORD_X } from '@/components/mode/war-battle-card'
 import { DottedMap, type Callout, type Frame } from '@/components/mode/dotted-map'
 import { US_RIVERS } from '@/lib/us-rivers'
-import { SPINE_NODES, majorsOf, majorCount, THEMES } from '@/lib/civil-war-roster'
+import { SPINE_NODES, CHAPTERS, majorsOf, majorCount, THEMES, type SpineNode } from '@/lib/civil-war-roster'
 import { civilWarCrumbs } from '@/components/mode/theatre-page'
 
 const TYPE_COLOR: Record<string, string> = { CAUSE: '#8a6d3b', BATTLE: '#b91c1c', POLITICS: '#1d4ed8', SOCIETY: '#b45309', AFTERMATH: '#7c3aed' }
@@ -31,7 +31,7 @@ const num = (n: number) => n.toLocaleString('en-US')
 type ThEvent = { mo: string; year: number; name: string; place: string; heavy?: boolean; href?: string; when?: string }
 type Theatre = {
   id: string; name: string; longName: string; color: string; span: string; region: string
-  summary: string; peakArmies?: string; casualties?: number; battlesCount?: number; commanderRotation?: string
+  summary: string; intro?: string; peakArmies?: string; casualties?: number; battlesCount?: number; commanderRotation?: string
   href?: string; kind?: 'themes'; states: string[]; labelLon: number; labelLat: number
   dots: { name: string; lat: number; lon: number; heavy?: boolean; anchor?: 'start' | 'end' }[]
   callouts?: Callout[]
@@ -132,6 +132,7 @@ const THEATRE_DATA: Theatre[] = [
   {
     id: 'east', name: 'Eastern', longName: 'Eastern Theatre', color: ACCENTS.violet, span: '1861–1865',
     region: 'Virginia · Maryland · Pennsylvania', summary: 'The political war. Between the two capitals, Lee was at his best — and where the war finally ended.',
+    intro: "The Eastern Theatre was the war's most-watched front, fought largely in the 110-mile corridor between the two capitals, Washington and Richmond. Here Robert E. Lee's Army of Northern Virginia held off a rotating cast of Union generals and twice invaded the North, only to be turned back at Antietam and Gettysburg. Because both capitals and most of the newspapers sat in this corridor, a win in Virginia carried outsized political weight even as the war was being decided out West. It was also where the war ended, with Lee's surrender at Appomattox in April 1865.",
     peakArmies: '120k vs 75k', casualties: 230000, battlesCount: majorCount('east'), commanderRotation: 'Seven Union commanders, then Grant',
     href: '/war-civil-war/eastern', states: ['Virginia', 'Maryland', 'Pennsylvania'], labelLon: -79.3, labelLat: 38.5,
     dots: [
@@ -146,6 +147,7 @@ const THEATRE_DATA: Theatre[] = [
   {
     id: 'west', name: 'Western', longName: 'Western Theatre', color: ACCENTS.blue, span: '1861–1865',
     region: 'Kentucky · Tennessee · Mississippi · Georgia', summary: 'Where the Union actually won the war. Grant took the rivers and split the Confederacy in two.',
+    intro: "The Western Theatre is where the Union actually won the war. Its highways were the rivers (the Tennessee, the Cumberland, and above all the Mississippi), and Ulysses S. Grant rose by taking them, splitting the Confederacy in two when Vicksburg fell in July 1863. From the river war the fighting rolled into the Confederate heartland at Shiloh, Stones River, Chickamauga, and the rail hub of Chattanooga. From there William T. Sherman drove on Atlanta and marched to the sea, wrecking the South's ability to keep an army in the field.",
     peakArmies: '110k vs 80k', casualties: 195000, battlesCount: majorCount('west'), commanderRotation: 'Grant rises, then Sherman',
     href: '/war-civil-war/western', states: ['Kentucky', 'Tennessee', 'Mississippi', 'Georgia', 'Alabama'], labelLon: -86.4, labelLat: 34.3,
     frame: WEST_FRAME, callouts: WEST_CALLOUTS,
@@ -160,6 +162,7 @@ const THEATRE_DATA: Theatre[] = [
   {
     id: 'tmis', name: 'Trans-Miss', longName: 'Trans-Mississippi', color: ACCENTS.amber, span: '1861–1865',
     region: 'Arkansas · Louisiana · Texas · Missouri', summary: 'The sprawling, half-forgotten war west of the great river.',
+    intro: "The Trans-Mississippi was the sprawling, half-forgotten war west of the great river. It opened with a vicious fight for Missouri, a slave state the Union could not afford to lose, and spread across Arkansas, Louisiana, the Indian Territory, and out to the New Mexico desert, where a Confederate grab for the Southwest died at Glorieta Pass. Once Union gunboats closed the Mississippi at Vicksburg and Port Hudson in 1863, the theatre was cut off from the rest of the Confederacy. Its armies fought on in isolation and held out longer than any other front, not surrendering until the summer of 1865.",
     peakArmies: '30k vs 20k', casualties: 30000, battlesCount: majorCount('tmis'), commanderRotation: 'Mostly forgotten',
     href: '/war-civil-war/trans-mississippi', states: ['Arkansas', 'Louisiana', 'Texas', 'Missouri'], labelLon: -93.7, labelLat: 33.4,
     frame: TMIS_FRAME, callouts: TMIS_CALLOUTS,
@@ -172,6 +175,7 @@ const THEATRE_DATA: Theatre[] = [
   {
     id: 'naval', name: 'Naval', longName: 'Naval & Coastal', color: ACCENTS.rust, span: '1861–1865',
     region: 'Atlantic · Gulf · the Mississippi', summary: 'The Anaconda — blockade, ironclads, and slowly strangling Southern trade.',
+    intro: "The naval war was a slow strangulation. From the first weeks the U.S. Navy threw a blockade (nicknamed the 'Anaconda') around 3,500 miles of Confederate coast, choking off the cotton the South sold and the arms it needed to buy. Port by port the Union closed the door: New Orleans and the river forts in 1862, Mobile Bay in 1864, and finally Fort Fisher, which sealed Wilmington, the last open harbor, in early 1865. It was also a revolution in warship design, as the duel of the ironclads at Hampton Roads in 1862 made every wooden navy on earth obsolete overnight.",
     peakArmies: '700+ ships', casualties: 10000, battlesCount: majorCount('naval'), commanderRotation: 'Farragut, Porter, Du Pont',
     href: '/war-civil-war/naval', states: ['North Carolina', 'South Carolina', 'Florida'], labelLon: -80.0, labelLat: 30.5,
     frame: NAVAL_FRAME, callouts: NAVAL_CALLOUTS,
@@ -198,8 +202,6 @@ const CONTEXT_STATES = ['West Virginia', 'Ohio', 'Indiana', 'Illinois', 'New Jer
 // theatre swaps in that theatre's own zoom frame (Theatre.frame).
 const NATIONAL_FRAME = { lonMin: -96.5, lonMax: -74, latMin: 28.8, latMax: 42.3 }
 
-const CORD_X = 56
-
 // Collapsible "At a glance" for the war home — stats, the Union vs Confederacy
 // face-off, a casualties bar, and the outcome. Figures are estimates (the war's
 // death toll is genuinely contested) pending the accuracy fact-check pass.
@@ -209,7 +211,7 @@ function WarGlance() {
   const FAINT = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
   const BORDER = 'color-mix(in srgb, var(--foreground) 12%, transparent)'
   const STRONG = 'color-mix(in srgb, var(--foreground) 22%, transparent)'
-  const accent = ACCENTS.violet
+  const accent = WAR_ACCENT
   const stats = [{ v: '4 years', k: 'Span' }, { v: '~10,500', k: 'Engagements' }, { v: '~750k', k: 'Dead' }]
   const armies = [
     { side: 'Union', label: 'United States', served: '2.1M served', trail: 'Lincoln → Grant → Sherman', color: ACCENTS.blue },
@@ -285,12 +287,32 @@ function WarGlance() {
 // in its colour, the active one lit), a segmented control, and the active
 // theatre's dossier panel + engagement list.
 function TheatresInteractive() {
-  // null = overview (full map, no dots/labels); selecting a theatre zooms in and
-  // reveals its dots + callouts. Tapping the active theatre again returns to the
-  // overview.
-  const [active, setActive] = useState<string | null>(null)
-  const at = active ? THEATRE_DATA.find(t => t.id === active) ?? null : null
-  const off = THEATRE_DATA.find(t => t.kind === 'themes')!
+  // The map defaults to Eastern and always shows a theatre — no national
+  // overview. This 4-theatre selector controls ONLY the map.
+  const [active, setActive] = useState('east')
+  // the battle list below the map shows in two looks the user likes — image
+  // CARDS or a sleek compact LIST — switchable with a slider.
+  const [listStyle, setListStyle] = useState<'cards' | 'list'>('cards')
+  // the timeline has its OWN selector (independent of the map): All + the four
+  // theatres + Off the Battlefield.
+  const [tlTheatre, setTlTheatre] = useState('all')
+  const at = THEATRE_DATA.find(t => t.id === active)!
+  // Row 1 = the cross-cutting lenses (All / OTBF / Military Story); row 2 = the
+  // four geographic theatres. 'All' is a neutral gray (each item then shows its
+  // own theatre colour); Military Story keeps the war's stone accent.
+  const TL_OPTS = [
+    { id: 'all', label: 'All', color: 'color-mix(in srgb, var(--foreground) 50%, transparent)' },
+    { id: 'offfield', label: 'Off the Battlefield', color: ACCENTS.green },
+    { id: 'milstory', label: 'Military Story', color: WAR_ACCENT },
+    { id: 'east', label: 'Eastern', color: ACCENTS.violet },
+    { id: 'west', label: 'Western', color: ACCENTS.blue },
+    { id: 'tmis', label: 'Trans', color: ACCENTS.amber },
+    { id: 'naval', label: 'Naval', color: ACCENTS.rust },
+  ]
+  const tlMeta = TL_OPTS.find(o => o.id === tlTheatre)!
+  const TH_COLOR: Record<string, string> = { east: ACCENTS.violet, west: ACCENTS.blue, tmis: ACCENTS.amber, naval: ACCENTS.rust, offfield: ACCENTS.green }
+  const nodeColor = (n: SpineNode) => (n.theatre && TH_COLOR[n.theatre]) || WAR_ACCENT
+  const milNodes: SpineNode[] = CHAPTERS.map(c => ({ id: c.id, phase: c.phase, type: 'BATTLE', size: c.size, name: c.name, short: c.short, date: c.date, hook: c.hook, href: c.href, img: c.img, stack: c.stack }))
   const muted = 'color-mix(in srgb, var(--foreground) 70%, transparent)'
   const faint = 'color-mix(in srgb, var(--foreground) 45%, transparent)'
   const border = 'color-mix(in srgb, var(--foreground) 14%, transparent)'
@@ -299,57 +321,49 @@ function TheatresInteractive() {
 
   const states = [
     ...CONTEXT_STATES.map(n => ({ name: n, tone: 'faint' as const })),
-    ...THEATRE_DATA.flatMap(t => t.states.map((n, i) => ({
+    ...THEATRE_DATA.flatMap(t => t.states.map((n) => ({
       name: n, color: t.color, tone: (t.id === active ? 'focus' : 'faint') as 'focus' | 'faint', fill: t.id === active,
-      // Names appear ONLY in the overview. Once a theatre is selected we zoom in
-      // and the battle callouts carry the labelling — neighbouring theatre names
-      // (e.g. "WESTERN" bleeding onto the Eastern map) just add noise.
-      ...(i === 0 && !active ? { label: t.name.toUpperCase(), labelLon: t.labelLon, labelLat: t.labelLat } : {}),
     }))),
   ]
-  // Overview = no dots/callouts at all. Selected = that theatre's callouts (or
-  // its labeled dots as a fallback) plus the neighbours as faint context dots.
-  const dots = at ? [
+  // The active theatre's callouts (or its labeled-dot fallback) + the neighbours
+  // as faint context dots.
+  const dots = [
     ...THEATRE_DATA.filter(t => t.id !== active).flatMap(t => t.dots.map(d => ({ lat: d.lat, lon: d.lon, color: alpha(t.color, 0.16) }))),
-    // a theatre with callouts draws its own dots in the callout layer; otherwise
-    // its hand-picked labeled dots.
     ...(at.callouts ? [] : at.dots.map(d => ({ ...d, color: at.color }))),
-  ] : []
-  const callouts = at?.callouts ?? []
-  const frame = at?.frame ?? NATIONAL_FRAME
-  const mapAccent = at?.color ?? ACCENTS.violet
-  // the Mississippi (real course) anchors the map; brighten it only with Western/Trans-Miss/Naval up
+  ]
+  const callouts = at.callouts ?? []
+  const frame = at.frame ?? NATIONAL_FRAME
+  const mapAccent = at.color
   const rivers = US_RIVERS.Mississippi.map(pts => ({ pts }))
+  // the timeline's battle spine, filtered by ITS OWN selector — phase-grouped for
+  // the CARDS look, flat chronological for the LIST look. 'all' = the whole war.
+  // 'All' = every battle + off-the-battlefield event + the military-story chapters,
+  // merged chronologically (each year's chapter leads that year's battles).
+  const yearOf = (n: SpineNode) => parseInt((n.date.match(/\d{4}/) || ['0'])[0], 10)
+  const allNodes = [...NODES, ...milNodes].sort((a, b) =>
+    yearOf(a) !== yearOf(b) ? yearOf(a) - yearOf(b) : (a.id.startsWith('mil-') ? 0 : 1) - (b.id.startsWith('mil-') ? 0 : 1))
+  const tlNodes = tlTheatre === 'milstory' ? milNodes : tlTheatre === 'all' ? allNodes : NODES.filter(n => n.theatre === tlTheatre)
+  const byPhase = PHASES.map(p => ({ ...p, nodes: tlNodes.filter(n => n.phase === p.id) })).filter(p => p.nodes.length > 0)
 
   return (
-    <DossierSection label="The theatres" accent={ACCENTS.violet}>
+    <DossierSection label="The theatres" accent={WAR_ACCENT}>
       <p style={{ fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: muted, margin: '0 0 12px' }}>
-        The war ran in parallel across four theatres — plus everything that happened off the battlefield. Tap one to zoom in and light up its battles.
+        The war ran in parallel across four theatres. Tap one to bring its battles up on the map.
       </p>
-      {/* Every selected theatre renders into the SAME 760×590 canvas (frame fit to box). */}
-      <DottedMap inset={false} accent={mapAccent} frame={frame} states={states} dots={dots} callouts={callouts} rivers={rivers} vbWidth={760} vbHeight={active ? 590 : undefined} geoInset={at?.geoInset} />
-      <div style={{ display: 'flex', gap: 4, padding: 3, marginTop: 12, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
+      {/* 4-theatre selector — sits on top of the map and controls the MAP only. */}
+      <div style={{ display: 'flex', gap: 4, padding: 3, marginBottom: 12, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
         {THEATRE_DATA.filter(t => t.kind !== 'themes').map(t => {
           const on = t.id === active
           return (
-            <button key={t.id} onClick={() => setActive(on ? null : t.id)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 600 : 500, padding: '7px 0', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
+            <button key={t.id} onClick={() => setActive(t.id)} style={{ flex: 1, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 11, fontWeight: on ? 600 : 500, padding: '7px 0', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 5 }}>
               <span style={{ width: 7, height: 7, borderRadius: 2, background: t.color, opacity: on ? 1 : 0.6 }} />
               {t.name}
             </button>
           )
         })}
       </div>
-      {/* The fifth lane sits apart — it isn't a place. */}
-      <button onClick={() => setActive(active === off.id ? null : off.id)} style={{ width: '100%', marginTop: 8, appearance: 'none', cursor: 'pointer', background: active === off.id ? alpha(off.color, 0.12) : chip, color: active === off.id ? 'var(--foreground)' : muted, border: `1px solid ${active === off.id ? alpha(off.color, 0.5) : border}`, borderRadius: 999, fontFamily: SANS, fontSize: 11, fontWeight: active === off.id ? 700 : 500, padding: '8px 0', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7 }}>
-        <span style={{ width: 7, height: 7, borderRadius: 2, background: off.color, opacity: active === off.id ? 1 : 0.6 }} />
-        {off.name}
-        <span style={{ fontFamily: SANS, fontSize: 9, color: faint, fontWeight: 500 }}>· the war beyond the battles</span>
-      </button>
-      {!at ? (
-        <div style={{ marginTop: 14, border: `1px solid ${border}`, borderRadius: 10, padding: '18px 16px', background: card, textAlign: 'center', fontFamily: SERIF, fontSize: 14, color: muted }}>
-          Tap a theatre above to zoom into its battles.
-        </div>
-      ) : (
+      {/* Every selected theatre renders into the SAME 760×590 canvas (frame fit to box). */}
+      <DottedMap inset={false} accent={mapAccent} frame={frame} states={states} dots={dots} callouts={callouts} rivers={rivers} vbWidth={760} vbHeight={590} geoInset={at.geoInset} />
       <div style={{ marginTop: 14, border: `1px solid ${alpha(at.color, 0.4)}`, borderRadius: 10, padding: 16, background: card }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <span style={{ width: 10, height: 10, borderRadius: 2, background: at.color, boxShadow: `0 0 0 3px ${alpha(at.color, 0.2)}`, flexShrink: 0 }} />
@@ -358,6 +372,7 @@ function TheatresInteractive() {
         </div>
         <div style={{ marginTop: 4, fontFamily: SANS, fontSize: 10.5, color: muted }}>{at.region}</div>
         <div style={{ marginTop: 10, fontFamily: SERIF, fontSize: 14, lineHeight: 1.45 }}>{at.summary}</div>
+        {at.intro && <p style={{ margin: '10px 0 0', fontFamily: SERIF, fontSize: 13, lineHeight: 1.58, color: muted }}>{at.intro}</p>}
         {at.kind !== 'themes' && (
           <>
             <div style={{ marginTop: 12, paddingTop: 11, borderTop: `1px solid ${border}`, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '4px 12px', fontFamily: SANS, fontSize: 10.5, color: muted }}>
@@ -368,42 +383,119 @@ function TheatresInteractive() {
             <div style={{ marginTop: 6, fontFamily: SERIF, fontStyle: 'italic', fontSize: 12, color: faint }}>{at.commanderRotation}</div>
           </>
         )}
-        {at.href
-          ? <a href={at.href} style={{ marginTop: 13, display: 'inline-flex', alignItems: 'center', gap: 6, border: `1px solid ${alpha(at.color, 0.5)}`, color: at.color, padding: '8px 12px', borderRadius: 8, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, textDecoration: 'none' }}>Open theatre <span aria-hidden>→</span></a>
-          : <div style={{ marginTop: 13, display: 'inline-flex', alignItems: 'center', gap: 6, border: `1px solid ${border}`, color: faint, padding: '8px 12px', borderRadius: 8, fontFamily: SANS, fontWeight: 600, fontSize: 11.5 }}>Coming soon</div>}
-        <div style={{ marginTop: 16 }}>
-          <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: alpha(at.color, 0.95), textTransform: 'uppercase', marginBottom: 10 }}>{at.events.length} {at.kind === 'themes' ? 'sections' : 'key engagements'}</div>
-          <div style={{ position: 'relative' }}>
-            <div style={{ position: 'absolute', left: 4, top: 5, bottom: 5, width: 1, background: border }} />
-            {at.events.map(e => {
-              const row = (
-                <>
-                  <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: at.color, border: `1px solid ${at.color}` }} />
-                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(at.color, 0.9), textTransform: 'uppercase' }}>{e.when || `${e.mo} ${e.year}`}</div>
-                  <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{e.name}{e.place && <span style={{ color: faint, fontSize: 12 }}> · {e.place}</span>}</div>
-                  <span style={{ position: 'absolute', right: 0, top: 7, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: e.href ? '#fff' : faint, background: e.href ? at.color : 'transparent', border: e.href ? 'none' : `1px solid ${border}` }}>{e.href ? 'Read →' : 'Soon'}</span>
-                </>
+      </div>
+      {/* the selected theatre's battle spine — replaces the old flat event list;
+          a slider switches between image CARDS and a sleek LIST. */}
+      <div id="sec-timeline" style={{ scrollMarginTop: CHROME_TOP + 46, marginTop: 30, paddingTop: 24, borderTop: '1px solid color-mix(in srgb, var(--foreground) 18%, transparent)' }}>
+        <h2 style={{ fontFamily: SANS, fontSize: 11, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: WAR_ACCENT, margin: '0 0 12px' }}>The timeline</h2>
+        {/* timeline selector — row 1: All / OTBF / Military Story (the cross-cutting
+            lenses); row 2: the four geographic theatres. */}
+        {[TL_OPTS.slice(0, 3), TL_OPTS.slice(3)].map((rowOpts, ri) => (
+          <div key={ri} style={{ display: 'flex', gap: 2, padding: 3, marginBottom: ri === 0 ? 6 : 14, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
+            {rowOpts.map(o => {
+              const on = o.id === tlTheatre
+              return (
+                <button key={o.id} onClick={() => setTlTheatre(o.id)} style={{ flex: 1, minWidth: 0, appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 10.5, fontWeight: on ? 700 : 500, padding: '6px 4px', borderRadius: 999, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4, lineHeight: 1.15, textAlign: 'center' }}>
+                  <span style={{ width: 6, height: 6, borderRadius: 2, background: o.color, opacity: on ? 1 : 0.6, flexShrink: 0 }} />
+                  <span style={{ minWidth: 0 }}>{o.label}</span>
+                </button>
               )
-              const style: React.CSSProperties = { position: 'relative', display: 'block', width: '100%', textAlign: 'left', color: 'var(--foreground)', padding: '5px 0 9px 20px', textDecoration: 'none' }
-              return e.href ? <a key={e.name} href={e.href} style={style}>{row}</a> : <div key={e.name} style={style}>{row}</div>
+            })}
+          </div>
+        ))}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
+          <div style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, color: tlMeta.color, textTransform: 'uppercase' }}>{tlMeta.label} · {tlNodes.length} {tlTheatre === 'all' ? 'battles/events' : tlTheatre === 'offfield' ? 'events' : tlTheatre === 'milstory' ? 'chapters' : 'battles'}</div>
+          <div style={{ display: 'flex', gap: 2, padding: 2, background: chip, border: `1px solid ${border}`, borderRadius: 999 }}>
+            {(['cards', 'list'] as const).map(s => {
+              const on = listStyle === s
+              return (
+                <button key={s} onClick={() => setListStyle(s)} style={{ appearance: 'none', border: 'none', cursor: 'pointer', background: on ? 'color-mix(in srgb, var(--foreground) 12%, var(--background))' : 'transparent', color: on ? 'var(--foreground)' : muted, fontFamily: SANS, fontSize: 10, fontWeight: on ? 700 : 500, letterSpacing: 0.3, padding: '4px 11px', borderRadius: 999, textTransform: 'capitalize' }}>{s}</button>
+              )
             })}
           </div>
         </div>
+        {listStyle === 'cards' ? (
+          <CordTimeline>
+            {byPhase.map(phase => (
+              <div key={phase.id}>
+                <div style={{ position: 'relative', height: 30 }}>
+                  <div style={{ position: 'absolute', left: CORD_X - 6, top: 9, fontFamily: SANS, fontSize: 10, letterSpacing: 1.4, fontWeight: 700, color: WAR_OXBLOOD, textTransform: 'uppercase', background: 'var(--background)', padding: '0 8px' }}>{phase.label}</div>
+                </div>
+                {phase.nodes.map(n => <BattleCard key={n.id} size={n.size} accent={nodeColor(n)} dateTop={(n.date.match(/\d{4}/) || [''])[0]} sub={n.sub} hook={n.hook} title={n.short ?? n.name} href={n.href} imageUrl={n.img} stack={n.stack} fit={!!n.img} soon={!n.href} />)}
+              </div>
+            ))}
+          </CordTimeline>
+        ) : (
+          <div style={{ position: 'relative', marginTop: 12 }}>
+            <div style={{ position: 'absolute', left: 4, top: 5, bottom: 5, width: 1, background: border }} />
+            {tlNodes.map(n => {
+              const place = n.sub?.split(' · ')[0]
+              const row = (
+                <>
+                  <span style={{ position: 'absolute', left: 0, top: 6, width: 9, height: 9, borderRadius: 999, background: nodeColor(n), border: `1px solid ${nodeColor(n)}` }} />
+                  <div style={{ fontFamily: SANS, fontSize: 9, letterSpacing: 0.3, fontWeight: 700, color: alpha(nodeColor(n), 0.9), textTransform: 'uppercase' }}>{n.date}</div>
+                  <div style={{ fontFamily: SERIF, fontSize: 14, lineHeight: 1.2, marginTop: 1 }}>{n.name}{place && <span style={{ color: faint, fontSize: 12 }}> · {place}</span>}</div>
+                  <span style={{ position: 'absolute', right: 0, top: 7, fontFamily: SANS, fontSize: 8, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', padding: '2px 6px', borderRadius: 999, color: n.href ? '#fff' : faint, background: n.href ? nodeColor(n) : 'transparent', border: n.href ? 'none' : `1px solid ${border}` }}>{n.href ? 'Read →' : 'Soon'}</span>
+                </>
+              )
+              const style: React.CSSProperties = { position: 'relative', display: 'block', width: '100%', textAlign: 'left', color: 'var(--foreground)', padding: '5px 0 9px 20px', textDecoration: 'none' }
+              return n.href ? <a key={n.id} href={n.href} style={style}>{row}</a> : <div key={n.id} style={style}>{row}</div>
+            })}
+          </div>
+        )}
       </div>
-      )}
     </DossierSection>
   )
 }
 
+// Inline jump-bar (Art's SectionNav pattern) for the Dossier side — a sticky row
+// of chips that scroll-spies and smooth-jumps to each id'd section. Sticks just
+// under the breadcrumb (50px). Sections carry scrollMarginTop so the jump lands
+// clear of the sticky chrome.
+function DossierNav({ items, accent }: { items: { id: string; label: string }[]; accent: string }) {
+  const [active, setActive] = useState(items[0]?.id)
+  const TOP = CHROME_TOP   // tier-3 bar sits just under the ThreadBar + breadcrumb
+  useEffect(() => {
+    const onScroll = () => {
+      let cur = items[0]?.id
+      for (const it of items) {
+        const sec = document.getElementById(it.id)
+        if (sec && sec.getBoundingClientRect().top - TOP - 48 <= 0) cur = it.id
+      }
+      setActive(cur)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [items])
+  const border = 'color-mix(in srgb, var(--foreground) 11%, transparent)'
+  const muted = 'color-mix(in srgb, var(--foreground) 62%, transparent)'
+  return (
+    <div style={{ position: 'sticky', top: TOP, zIndex: 6, display: 'flex', justifyContent: 'center', gap: 5, padding: '8px', background: 'color-mix(in srgb, var(--background) 92%, transparent)', backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', borderBottom: `1px solid ${border}` }}>
+      {items.map(it => {
+        const on = active === it.id
+        return (
+          <button key={it.id} onClick={() => { setActive(it.id); document.getElementById(it.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' }) }}
+            style={{ flexShrink: 0, fontFamily: SANS, fontSize: 11, fontWeight: 600, letterSpacing: 0.2, padding: '5px 12px', borderRadius: 999, cursor: 'pointer', whiteSpace: 'nowrap', border: `1px solid ${on ? alpha(accent, 0.5) : border}`, background: on ? alpha(accent, 0.14) : 'transparent', color: on ? 'var(--foreground)' : muted }}>{it.label}</button>
+        )
+      })}
+    </div>
+  )
+}
+
 export default function CivilWarPage() {
-  const [view, setView] = useWarView()
   const [heroFailed, setHeroFailed] = useState(false)
-  const byPhase = PHASES.map(p => ({ ...p, nodes: NODES.filter(n => n.phase === p.id) })).filter(p => p.nodes.length > 0)
 
   return (
     <div style={{ minHeight: '100dvh', background: 'var(--background)', color: 'var(--foreground)' }}>
       <WarBreadcrumb crumbs={civilWarCrumbs()} accent={WAR_ACCENT} />
       <div style={{ maxWidth: 680, margin: '0 auto' }}>
+        <DossierNav accent={WAR_ACCENT} items={[
+          { id: 'sec-story', label: 'Story' },
+          { id: 'sec-details', label: 'Details' },
+          { id: 'sec-theatres', label: 'Theatres' },
+          { id: 'sec-timeline', label: 'Timeline' },
+        ]} />
         {/* hero — the 54th Massachusetts at Fort Wagner (Kurz & Allison) */}
         <div style={{ position: 'relative', height: 240, overflow: 'hidden', background: '#0e0c08' }}>
           {heroFailed
@@ -418,47 +510,30 @@ export default function CivilWarPage() {
         </div>
         <div style={{ padding: '7px 18px 0', fontFamily: 'var(--font-geist-mono)', fontSize: 10, letterSpacing: 0.2, color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>Storming Fort Wagner · Kurz &amp; Allison · public domain</div>
 
-        <WarViewToggle view={view} onView={setView} />
-
-        {/* The military through-line — the spine that ties the battles together.
-            Shown in BOTH views, just under the toggle, as the war's reading entry. */}
-        <a href="/war-civil-war/how-the-war-was-fought" style={{ display: 'block', margin: '14px 18px 0', textDecoration: 'none', color: 'inherit', border: `1px solid ${alpha(WAR_ACCENT, 0.5)}`, borderRadius: 12, padding: '14px 16px', background: alpha(WAR_ACCENT, 0.07) }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <span style={{ width: 8, height: 8, borderRadius: 2, background: WAR_ACCENT, flexShrink: 0 }} />
-            <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: WAR_ACCENT }}>The military story</span>
-            <span style={{ marginLeft: 'auto', fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>5 chapters</span>
-          </div>
-          <div style={{ marginTop: 7, fontFamily: SERIF, fontSize: 19, fontWeight: 500, letterSpacing: -0.3 }}>How the War Was Fought</div>
-          <div style={{ marginTop: 5, fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>The whole war as one through-line — how it was planned, won, and lost, year by year, 1861–1865. The connective tissue between the causes and the battles.</div>
-          <div style={{ marginTop: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, color: WAR_ACCENT }}>Read the war’s story <span aria-hidden>→</span></div>
-        </a>
-
-        {view === 'timeline' ? (
-          <>
-            <p style={{ padding: '6px 18px 0', margin: 0, fontFamily: SERIF, fontSize: 14.5, lineHeight: 1.55, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>
-              The whole war on one spine — sized by significance. Tap a battle to drop straight into it.
-            </p>
-            <div style={{ position: 'relative', paddingTop: 12, paddingBottom: 40 }}>
-              <div style={{ position: 'absolute', left: CORD_X, top: 0, bottom: 0, width: 1, background: 'color-mix(in srgb, var(--foreground) 22%, transparent)' }} />
-              {byPhase.map(phase => (
-                <div key={phase.id} style={{ position: 'relative' }}>
-                  <div style={{ position: 'relative', padding: '16px 18px 6px' }}>
-                    <div style={{ fontFamily: SERIF, fontStyle: 'italic', fontSize: 34, fontWeight: 400, letterSpacing: -0.5, color: alpha(WAR_OXBLOOD, 0.13), lineHeight: 1, whiteSpace: 'nowrap', pointerEvents: 'none', overflow: 'hidden' }}>{phase.label}</div>
-                    <div style={{ position: 'absolute', left: CORD_X + 14, top: 24, fontFamily: SANS, fontSize: 10, letterSpacing: 1.4, fontWeight: 700, color: WAR_OXBLOOD, textTransform: 'uppercase', background: 'var(--background)', padding: '0 6px' }}>{phase.label}</div>
-                  </div>
-                  {phase.nodes.map(n => <BattleCard key={n.id} size={n.size} accent={TYPE_COLOR[n.type]} dateTop={(n.date.match(/\d{4}/) || [''])[0]} sub={n.sub} hook={n.hook} title={n.short ?? n.name} href={n.href} imageUrl={n.img} stack={n.stack} fit={!!n.img} soon={!n.href} />)}
-                </div>
-              ))}
+        {/* Story — the military through-line that ties the battles together */}
+        <div id="sec-story" style={{ scrollMarginTop: CHROME_TOP + 46 }}>
+          <a href="/war-civil-war/how-the-war-was-fought" style={{ display: 'block', margin: '14px 18px 0', textDecoration: 'none', color: 'inherit', border: `1px solid ${alpha(WAR_ACCENT, 0.5)}`, borderRadius: 12, padding: '14px 16px', background: alpha(WAR_ACCENT, 0.07) }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span style={{ width: 8, height: 8, borderRadius: 2, background: WAR_ACCENT, flexShrink: 0 }} />
+              <span style={{ fontFamily: SANS, fontSize: 9.5, letterSpacing: 1.4, fontWeight: 700, textTransform: 'uppercase', color: WAR_ACCENT }}>The military story</span>
+              <span style={{ marginLeft: 'auto', fontFamily: SANS, fontSize: 9, fontWeight: 700, letterSpacing: 0.6, textTransform: 'uppercase', color: 'color-mix(in srgb, var(--foreground) 45%, transparent)' }}>5 chapters</span>
             </div>
-          </>
-        ) : (
-          <>
-            <WarGlance />
-            <div style={{ padding: '18px 18px 48px' }}>
-              <TheatresInteractive />
-            </div>
-          </>
-        )}
+            <div style={{ marginTop: 7, fontFamily: SERIF, fontSize: 19, fontWeight: 500, letterSpacing: -0.3 }}>How the War Was Fought</div>
+            <div style={{ marginTop: 5, fontFamily: SERIF, fontSize: 13.5, lineHeight: 1.5, color: 'color-mix(in srgb, var(--foreground) 70%, transparent)' }}>The whole war as one through-line — how it was planned, won, and lost, year by year, 1861–1865. The connective tissue between the causes and the battles.</div>
+            <div style={{ marginTop: 10, display: 'inline-flex', alignItems: 'center', gap: 6, fontFamily: SANS, fontWeight: 600, fontSize: 11.5, color: WAR_ACCENT }}>Read the war’s story <span aria-hidden>→</span></div>
+          </a>
+        </div>
+
+        {/* Details — at a glance */}
+        <div id="sec-details" style={{ scrollMarginTop: CHROME_TOP + 46 }}>
+          <WarGlance />
+        </div>
+
+        {/* Theatres (the map) + Timeline (the battle list) — both inside
+            TheatresInteractive; sec-theatres here, sec-timeline on the list within. */}
+        <div id="sec-theatres" style={{ scrollMarginTop: CHROME_TOP + 46, padding: '18px 18px 48px' }}>
+          <TheatresInteractive />
+        </div>
       </div>
     </div>
   )
