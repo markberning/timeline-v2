@@ -1,6 +1,7 @@
 'use client'
 
 import { Fragment, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { ThreadBar } from '@/components/thread-bar'
 
 // Combined height of the two pinned top tiers (ThreadBar 54 + breadcrumb row 50).
@@ -251,9 +252,8 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
       }}>
         {chevron}
       </button>
-      {open && (
-        <>
-          <div ref={menuRef} style={{
+      {open && typeof document !== 'undefined' && createPortal(
+        <div ref={menuRef} style={{
             position: 'fixed', top: pos.top, left: pos.left, zIndex: 9999, width: MENU_W, maxHeight: '70vh', overflowY: 'auto',
             background: 'var(--background)', border, borderRadius: 10,
             boxShadow: '0 10px 28px rgba(0,0,0,0.20)', padding: 5,
@@ -286,8 +286,8 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
                 </a>
               )
             })}
-          </div>
-        </>
+        </div>,
+        document.body,
       )}
     </span>
   )
