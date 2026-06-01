@@ -221,10 +221,17 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
   // menu like before). This is what lets you tap "ACW" to reach the ACW home
   // without first opening the dropdown.
   const canSplit = !!crumb.href && !emphasized
+  // When split, the LABEL also wears its own chip so the crumb visibly reads as
+  // two adjacent buttons (name-pill + arrow-pill) separated by a gap — making it
+  // unmistakable that they are two separate things to tap.
   const labelStyle: React.CSSProperties = {
     overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
     maxWidth: maxLabel, minWidth: 0, fontFamily: SANS, fontSize: 11.5, fontWeight: weight, color,
-    textDecoration: 'none', padding: '2px 1px', appearance: 'none', border: 'none', background: 'transparent', cursor: 'pointer',
+    textDecoration: 'none', appearance: 'none', cursor: 'pointer',
+    ...(canSplit
+      ? { padding: '3px 8px', height: 24, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center',
+          border: `1px solid ${alpha('#888', 0.30)}`, borderRadius: 7, background: alpha('#888', 0.12) }
+      : { padding: '2px 1px', border: 'none', background: 'transparent' }),
   }
   const chevron = (
     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 150ms ease' }}>
@@ -241,8 +248,8 @@ function CrumbDropdown({ crumb, chip, faint, muted, accent, emphasized, maxLabel
           it reads unmistakably as "open the menu". */}
       <button onClick={() => setOpen(o => !o)} aria-expanded={open} aria-label={`${label} menu`} style={{
         display: 'inline-flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, appearance: 'none', cursor: 'pointer', color,
-        marginLeft: canSplit ? 5 : 1,
-        minWidth: 26, height: 24, padding: '0 4px',
+        marginLeft: canSplit ? 6 : 1,
+        minWidth: 28, height: 24, padding: '0 4px',
         border: canSplit ? `1px solid ${alpha('#888', 0.30)}` : 'none',
         borderRadius: 7, background: canSplit ? alpha('#888', open ? 0.22 : 0.12) : 'transparent',
       }}>
